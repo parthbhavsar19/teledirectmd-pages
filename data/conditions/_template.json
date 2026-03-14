@@ -1,0 +1,407 @@
+{
+  "_instructions": "Copy this file, rename to {condition-slug}.json, and fill in all fields. Use {state} as placeholder for state name. See asthma-refills-online.json for a complete example.",
+
+  "conditionName": "CONDITION DISPLAY NAME (e.g., 'UTI Treatment')",
+  "conditionShort": "SHORT NAME (e.g., 'UTI')",
+  "conditionSlug": "URL-SLUG (e.g., 'uti-treatment-online')",
+  "pageTitle": "CONDITION NAME Online in {state} | SUBTITLE | TeleDirectMD",
+  "metaDescription": "DESCRIPTION for {state} adults. Self pay option starting at $49. Insurance is not required.",
+  "ogImageAlt": "CONDITION in {state} by TeleDirectMD",
+
+  "hero": {
+    "h1": "CONDITION in {state} (SUBTITLE)",
+    "subtitle": "{state} adult care by secure video visit, self pay option starting at $49, MD-only, insurance is not required.",
+    "introParagraph": "INTRO PARAGRAPH about the condition. Use {state} for state name and {cities} for city list placeholder.",
+    "tocLinks": [
+      { "href": "eligibility-checklist", "label": "Eligibility checklist" },
+      { "href": "decision-guide", "label": "Decision guide" },
+      { "href": "treatment-options", "label": "Treatment options" },
+      { "href": "faq", "label": "FAQs" },
+      { "href": "references", "label": "References" }
+    ],
+    "benefits": [
+      "Self pay option starting at $49",
+      "MD-only care (no mid-levels)",
+      "Insurance is not required",
+      "Licensed telehealth care for patients located in {state} at the time of the visit"
+    ],
+    "sideCard": {
+      "h2": "Online MD-Only CONDITION Care in {state}",
+      "features": [
+        "FEATURE 1",
+        "FEATURE 2",
+        "FEATURE 3",
+        "FEATURE 4"
+      ],
+      "note": "Adults 18+ only. TeleDirectMD is not an emergency service. CONDITION-SPECIFIC emergency warning. TeleDirectMD does not prescribe controlled substances."
+    },
+    "icd10Display": "CODE1, CODE2 (final coding depends on clinical details)"
+  },
+
+  "eligibility": {
+    "sectionTitle": "CONDITION Telehealth Eligibility Checklist for {state}",
+    "introText": "You are likely eligible for a TeleDirectMD video visit if ALL of these are true:",
+    "eligible": [
+      "You are 18 years old or older",
+      "You are physically located in {state} at the time of the visit",
+      "CONDITION-SPECIFIC ELIGIBILITY ITEM",
+      "Insurance is not required. A self pay option is available."
+    ],
+    "notEligible": [
+      "You are under 18 years old",
+      "CONDITION-SPECIFIC RED FLAG",
+      "CONDITION-SPECIFIC RED FLAG"
+    ],
+    "notEligibleDisclaimer": "If you have red-flag symptoms, seek urgent in-person care or emergency care immediately. TeleDirectMD is not an emergency service."
+  },
+
+  "howItWorks": {
+    "sectionTitle": "How Online CONDITION Works in {state}",
+    "steps": [
+      {
+        "type": "check",
+        "title": "Book your visit and prepare key details",
+        "description": "WHAT TO PREPARE BEFORE THE VISIT"
+      },
+      {
+        "type": "check",
+        "title": "See a {state} licensed MD by video",
+        "description": "WHAT THE MD REVIEWS DURING THE VISIT"
+      },
+      {
+        "type": "good",
+        "title": "Get your treatment plan",
+        "description": "WHAT HAPPENS AFTER - prescriptions sent to {pharmacies}.",
+        "showCta": true
+      }
+    ]
+  },
+
+  "telehealthRegulations": {
+    "sectionTitle": "{state} Telehealth Regulations for Online CONDITION Care",
+    "paragraphs": [
+      "{telehealthRegulation}",
+      "Location matters: you must be physically in {state} during the visit. Insurance is not required. TeleDirectMD does not prescribe controlled substances."
+    ]
+  },
+
+  "comparisonTable": {
+    "sectionTitle": "TeleDirectMD vs Other Care Options for CONDITION in {state}",
+    "intro": "Here is how TeleDirectMD compares to common settings for CONDITION care in {state}:",
+    "rows": [
+      {
+        "option": "TeleDirectMD",
+        "cost": "Self pay option starting at $49",
+        "wait": "Same day, often within hours",
+        "provider": "Board-certified MD only (no mid-levels)",
+        "bestFor": "BEST FOR DESCRIPTION",
+        "highlight": true
+      },
+      {
+        "option": "Urgent Care",
+        "cost": "$150 to $300+ (before insurance)",
+        "wait": "1 to 3 hours typical",
+        "provider": "MD, DO, PA, or NP",
+        "bestFor": "BEST FOR DESCRIPTION",
+        "highlight": false
+      },
+      {
+        "option": "Emergency Room",
+        "cost": "$500 to $3,000+ (before insurance)",
+        "wait": "2 to 6 hours typical",
+        "provider": "Emergency medicine MD or DO",
+        "bestFor": "BEST FOR DESCRIPTION",
+        "highlight": false
+      },
+      {
+        "option": "Primary Care",
+        "cost": "$100 to $350+ (varies)",
+        "wait": "Days to weeks",
+        "provider": "MD or DO",
+        "bestFor": "BEST FOR DESCRIPTION",
+        "highlight": false
+      }
+    ],
+    "bottomLine": "BOTTOM LINE SUMMARY for TeleDirectMD and this condition."
+  },
+
+  "decisionGuide": {
+    "sectionTitle": "Should I Use TeleDirectMD for CONDITION in {state}? Decision Guide",
+    "steps": [
+      {
+        "type": "urgent",
+        "title": "Do you have emergency warning signs?",
+        "items": [
+          "RED FLAG 1",
+          "RED FLAG 2"
+        ],
+        "yesAction": "If yes, go to urgent care or the ER now depending on severity",
+        "noAction": "If no, continue to Step 2"
+      },
+      {
+        "type": "check",
+        "title": "Are you 18+ and currently in {state}?",
+        "items": [],
+        "yesAction": "If yes, continue to Step 3",
+        "noAction": "If no, use in-person care as appropriate"
+      },
+      {
+        "type": "check",
+        "title": "CONDITION-SPECIFIC QUALIFYING QUESTION",
+        "items": [
+          "QUALIFYING CRITERIA 1",
+          "QUALIFYING CRITERIA 2"
+        ],
+        "yesAction": "If yes, continue to Step 4",
+        "noAction": "If no, in-person evaluation is often preferred"
+      },
+      {
+        "type": "good",
+        "title": "You may be appropriate for a TeleDirectMD video visit",
+        "description": "WHAT YOU CAN EXPECT FROM THE VISIT.",
+        "items": [],
+        "showCta": true
+      }
+    ]
+  },
+
+  "pricing": {
+    "sectionTitle": "What Does Online CONDITION Cost in {state}?",
+    "subtitle": "Transparent options. Insurance is not required.",
+    "visitPrice": "$49",
+    "priceSubtext": "Self pay option. Insurance is not required.",
+    "includes": [
+      "MD evaluation and red-flag screening",
+      "CONDITION-SPECIFIC INCLUSION 1",
+      "CONDITION-SPECIFIC INCLUSION 2",
+      "Clear follow-up and escalation instructions"
+    ],
+    "comparisonBars": [
+      { "name": "TeleDirectMD", "value": "$49", "width": 12, "isTdmd": true },
+      { "name": "Primary Care", "value": "$100 to $350+", "width": 52, "isTdmd": false },
+      { "name": "Urgent Care", "value": "$150 to $300+", "width": 60, "isTdmd": false },
+      { "name": "Emergency Room", "value": "$500 to $3,000+", "width": 100, "isTdmd": false }
+    ],
+    "footnote": "Prescription costs are separate and vary by medication and pharmacy.",
+    "noHiddenFees": "No hidden fees. If medication is not clinically appropriate, you still receive a complete evaluation, guidance, and clear instructions on what level of care you need next."
+  },
+
+  "whatIsCondition": {
+    "sectionTitle": "What Is CONDITION?",
+    "paragraphs": [
+      "PARAGRAPH 1 explaining the condition.",
+      "PARAGRAPH 2 with clinical context.",
+      "PARAGRAPH 3 about telehealth appropriateness."
+    ]
+  },
+
+  "causesAndRiskFactors": {
+    "sectionTitle": "Causes and Risk Factors",
+    "intro": "INTRO TEXT about causes.",
+    "items": [
+      { "label": "CAUSE 1:", "text": "description" },
+      { "label": "CAUSE 2:", "text": "description" }
+    ],
+    "closing": "CLOSING PARAGRAPH."
+  },
+
+  "symptomsAndRedFlags": {
+    "sectionTitle": "Symptoms and Red Flags for CONDITION in {state}",
+    "intro": "INTRO about symptoms table.",
+    "headers": ["Symptom or situation", "What it suggests", "Telehealth appropriate?", "Red flag requiring urgent in-person care"],
+    "rows": [
+      ["SYMPTOM 1", "WHAT IT SUGGESTS", "Yes/No/Sometimes", "RED FLAG"],
+      ["SYMPTOM 2", "WHAT IT SUGGESTS", "Yes/No/Sometimes", "RED FLAG"]
+    ]
+  },
+
+  "differentialDiagnosis": {
+    "sectionTitle": "Differential Diagnosis and Complications",
+    "intro": "INTRO about differential diagnosis.",
+    "telehealthAppropriate": {
+      "title": "Sometimes Appropriate for Telehealth Guidance",
+      "items": ["ITEM 1", "ITEM 2"]
+    },
+    "requiresInPerson": {
+      "title": "Often Requires In-Person Evaluation",
+      "items": ["ITEM 1", "ITEM 2"]
+    },
+    "compareCards": [
+      {
+        "title": "COMPARISON 1 TITLE",
+        "text": "COMPARISON 1 TEXT"
+      },
+      {
+        "title": "COMPARISON 2 TITLE",
+        "text": "COMPARISON 2 TEXT"
+      }
+    ],
+    "closing": "CLOSING TEXT about when TeleDirectMD will refer to in-person care."
+  },
+
+  "telehealthEligibility": {
+    "sectionTitle": "When Is a Video Visit Appropriate?",
+    "appropriate": {
+      "title": "When a Video Visit Is Appropriate",
+      "items": [
+        "APPROPRIATE CRITERIA 1",
+        "Located in {state} at time of visit"
+      ]
+    },
+    "redFlags": {
+      "title": "Red Flags Requiring In-Person or ER Care",
+      "items": [
+        "RED FLAG 1",
+        "RED FLAG 2"
+      ],
+      "disclaimer": "If any red-flag symptoms are present, seek urgent in-person or emergency care. TeleDirectMD is not an emergency service."
+    }
+  },
+
+  "treatmentOptions": {
+    "sectionTitle": "Treatment Options",
+    "intro": "INTRO about treatment approach.",
+    "sections": [
+      {
+        "title": "TREATMENT SECTION 1",
+        "text": "DESCRIPTION"
+      }
+    ],
+    "doesNotManage": [
+      "THING NOT MANAGED 1",
+      "THING NOT MANAGED 2"
+    ]
+  },
+
+  "medications": {
+    "sectionTitle": "Common Medication Options",
+    "intro": "INTRO about medication categories.",
+    "headers": ["Option", "Examples", "Used for", "Key considerations"],
+    "rows": [
+      ["MEDICATION 1", "EXAMPLE", "USED FOR", "CONSIDERATION"],
+      ["MEDICATION 2", "EXAMPLE", "USED FOR", "CONSIDERATION"]
+    ],
+    "note": "MEDICATION NOTE about individualized care."
+  },
+
+  "homeCare": {
+    "sectionTitle": "Home Care, Prevention, and Follow-up",
+    "whatToDoNow": {
+      "title": "What to Do Now",
+      "items": ["ITEM 1", "ITEM 2"]
+    },
+    "whatToWatch": {
+      "title": "What to Watch For Over the Next 24 to 72 Hours",
+      "items": ["ITEM 1", "ITEM 2"]
+    },
+    "followUp": {
+      "title": "Follow-up Timing",
+      "items": ["ITEM 1", "ITEM 2"]
+    }
+  },
+
+  "whenNotToUse": {
+    "sectionTitle": "When Not to Use TeleDirectMD for CONDITION in {state}",
+    "intro": "TeleDirectMD is designed for selected care only. We are direct about when telehealth is not the right fit.",
+    "shouldNotUse": {
+      "title": "You Should Not Use TeleDirectMD If",
+      "items": [
+        "RED FLAG 1",
+        "You are under 18 years old",
+        "You are not physically in {state} at the time of visit"
+      ]
+    },
+    "alternatives": {
+      "title": "Alternative Care Options",
+      "items": [
+        { "label": "Emergency room:", "text": "WHEN TO GO TO ER" },
+        { "label": "Urgent care:", "text": "WHEN TO GO TO URGENT CARE" },
+        { "label": "Primary care:", "text": "WHEN TO SEE PCP" }
+      ]
+    }
+  },
+
+  "faq": {
+    "sectionTitle": "CONDITION FAQs for {state}",
+    "items": [
+      {
+        "question": "Can I get CONDITION treatment online in {state}?",
+        "answer": "ANSWER using {state} placeholder."
+      },
+      {
+        "question": "How much does an online CONDITION visit cost in {state}?",
+        "answer": "TeleDirectMD offers a transparent self pay option starting at $49 for an adult video visit in {state}. Insurance is not required."
+      },
+      {
+        "question": "Does {state} allow telemedicine for this kind of visit?",
+        "answer": "Yes. {state} allows licensed professionals to provide telemedicine within their scope when appropriate and according to accepted standards of care."
+      },
+      {
+        "question": "Can TeleDirectMD provide CONDITION care in other states?",
+        "answer": "Yes. TeleDirectMD offers adult evaluations via video visits across multiple states. You must be physically located in the state where you are requesting care at the time of the visit."
+      }
+    ],
+    "bottomCta": {
+      "title": "Need help today?",
+      "text": "Insurance is not required. Adult-only video visits. MD-only care. Safety-first triage and clear next steps."
+    }
+  },
+
+  "references": [
+    { "text": "REFERENCE TITLE", "url": "https://example.com/reference" }
+  ],
+
+  "disclaimer": {
+    "sectionTitle": "TeleDirectMD Telehealth Disclaimer",
+    "paragraphs": [
+      "TeleDirectMD provides MD-only virtual urgent care for adults (18+) in {state}. CONDITION-SPECIFIC disclaimer text. Insurance is not required. You must be physically located in {state} at the time of your video visit. TeleDirectMD does not prescribe controlled substances.",
+      "TeleDirectMD is not an emergency service and is not a replacement for urgent in-person care. CONDITION-SPECIFIC scope limitation.",
+      "CONDITION SEO keywords for {state}."
+    ]
+  },
+
+  "relatedConditions": [
+    {
+      "slug": "CONDITION-SLUG",
+      "title": "CONDITION TITLE",
+      "description": "WHY IT IS RELATED"
+    }
+  ],
+
+  "inlineLinks": [
+    { "slug": "CONDITION-SLUG", "label": "CONDITION LABEL" }
+  ],
+
+  "cityBlock": {
+    "title": "Adults We Serve Across {state}",
+    "text": "TeleDirectMD evaluates adults located throughout {state}, including {citiesExtended}. Whether you are searching for online CONDITION treatment in {city1}, CONDITION care in {city2}, or CONDITION help anywhere else in {state}, the same telehealth eligibility and safety rules apply."
+  },
+
+  "icd10Codes": [
+    { "code": "CODE", "description": "DESCRIPTION" }
+  ],
+
+  "jsonLd": {
+    "conditionName": "CONDITION NAME",
+    "conditionAlternateNames": ["ALTERNATE 1", "ALTERNATE 2"],
+    "conditionDescription": "FULL DESCRIPTION for JSON-LD.",
+    "primaryIcd10": "CODE",
+    "anatomy": "BODY PART",
+    "symptoms": ["SYMPTOM 1", "SYMPTOM 2"],
+    "riskFactors": ["RISK 1", "RISK 2"],
+    "complications": ["COMPLICATION 1"],
+    "epidemiology": "EPIDEMIOLOGY STATEMENT",
+    "drugs": [
+      { "name": "DRUG NAME", "id": "drug-id" }
+    ],
+    "treatments": ["TREATMENT 1"],
+    "tests": ["TEST 1"],
+    "specialties": ["Family Medicine", "Telemedicine"],
+    "guidelines": [
+      { "name": "GUIDELINE NAME", "url": "https://example.com", "publisher": "PUBLISHER", "id": "guideline-id" }
+    ],
+    "knowsAbout": ["TOPIC 1", "Family Medicine"],
+    "serviceDescription": "Secure video visit for {state} adults. CONDITION-SPECIFIC service description.",
+    "webpageDescription": "{state} CONDITION treatment by secure MD video visit for adults. CONDITION-SPECIFIC page description."
+  }
+}
