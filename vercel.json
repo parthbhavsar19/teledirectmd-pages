@@ -1,4 +1,6 @@
 {
+  "buildCommand": "npx next build",
+  "outputDirectory": "out",
   "cleanUrls": true,
   "trailingSlash": false,
   "headers": [
