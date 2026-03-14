@@ -3,6 +3,12 @@
   "outputDirectory": "out",
   "cleanUrls": true,
   "trailingSlash": false,
+  "rewrites": [
+    {
+      "source": "/:path*",
+      "destination": "https://pepper-saxophone-p8le.squarespace.com/:path*"
+    }
+  ],
   "headers": [
     {
       "source": "/(.*)",
