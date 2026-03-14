@@ -1,4 +1,6 @@
 {
+  "buildCommand": "next build && cp .next/routes-manifest.json out/routes-manifest.json",
+  "outputDirectory": "out",
   "cleanUrls": true,
   "trailingSlash": false,
   "headers": [
