@@ -1,0 +1,590 @@
+{
+  "conditionName": "Hypertension Medication Refills",
+  "conditionShort": "blood pressure",
+  "conditionSlug": "hypertension-refills-online",
+  "pageTitle": "Hypertension Medication Refills Online in {state} | Blood Pressure Rx Refill MD Video Visit | TeleDirectMD",
+  "metaDescription": "Evidence-based blood pressure medication refill care for {state} adults by secure video visit. Red-flag screening, home BP review, and short bridge refills of established antihypertensives when appropriate. Self pay option starting at $49. Insurance is not required.",
+  "ogImageAlt": "Hypertension medication refills in {state} by TeleDirectMD",
+
+  "hero": {
+    "h1": "Hypertension Medication Refills in {state} (Blood Pressure Rx Refill Care)",
+    "subtitle": "{state} adult care by secure video visit, self pay option starting at $49, MD-only, insurance is not required.",
+    "introParagraph": "Adults often search for online blood pressure medication refills when they are running low on an established antihypertensive and cannot get in to see their regular physician quickly enough to avoid a gap in treatment. Hypertension affects approximately 47 percent of US adults and is the leading modifiable risk factor for cardiovascular disease, stroke, and chronic kidney disease. The ACC/AHA 2017 guideline defines hypertension as blood pressure at or above 130/80 mmHg, and most patients require lifelong medication once treatment is initiated. Interrupting antihypertensive therapy can lead to rebound blood pressure elevation and increased cardiovascular risk. TeleDirectMD uses a safety-first telemedicine approach by reviewing your current medications, recent home blood pressure readings, adherence history, side effects, and recent laboratory results to determine whether a short bridge refill is clinically appropriate. If the history supports a stable refill request, treatment can be continued by video visit. Adults with signs of hypertensive emergency, new-onset symptoms suggesting target organ damage, pregnancy, or a need for new diagnosis or major medication adjustment are directed to urgent in-person care. This page is for adults located in {state}, including {cities}.",
+    "tocLinks": [
+      { "href": "eligibility-checklist", "label": "Eligibility checklist" },
+      { "href": "decision-guide", "label": "Decision guide" },
+      { "href": "treatment-options", "label": "Treatment options" },
+      { "href": "faq", "label": "FAQs" },
+      { "href": "references", "label": "References" }
+    ],
+    "benefits": [
+      "Self pay option starting at $49",
+      "MD-only care (no mid-levels)",
+      "Insurance is not required",
+      "Licensed telehealth care for patients located in {state} at the time of the visit"
+    ],
+    "sideCard": {
+      "h2": "Online MD-Only Blood Pressure Medication Refill Care in {state}",
+      "features": [
+        "Blood pressure medication refill review for established antihypertensives",
+        "Home BP reading review and adherence assessment",
+        "Short bridge refills when clinically appropriate",
+        "Clear rules for when urgent in-person care or laboratory workup is needed"
+      ],
+      "note": "Adults 18+ only. TeleDirectMD is not an emergency service. Seek urgent in-person care now for blood pressure above 180/120, chest pain, sudden severe headache, vision changes, difficulty speaking, sudden weakness or numbness, or shortness of breath with elevated blood pressure. TeleDirectMD does not prescribe controlled substances."
+    },
+    "icd10Display": "I10 (final coding depends on clinical details)"
+  },
+
+  "eligibility": {
+    "sectionTitle": "Hypertension Medication Refill Telehealth Eligibility Checklist for {state}",
+    "introText": "You are likely eligible for a TeleDirectMD video visit if ALL of these are true:",
+    "eligible": [
+      "You are 18 years old or older",
+      "You are physically located in {state} at the time of the visit",
+      "You have an established diagnosis of hypertension and are requesting a refill of medication you are already taking",
+      "Your blood pressure is currently stable or near your usual baseline based on recent home readings",
+      "You are not experiencing chest pain, severe headache, vision changes, shortness of breath, or other new symptoms",
+      "You can report recent home blood pressure readings or your most recent clinic blood pressure",
+      "You want evidence-based refill guidance and clear escalation rules",
+      "Insurance is not required. A self pay option is available."
+    ],
+    "notEligible": [
+      "You are under 18 years old",
+      "Your blood pressure is above 180/120 mmHg or you are having symptoms of hypertensive emergency",
+      "You have new chest pain, sudden severe headache, sudden vision changes, or difficulty speaking",
+      "You have new shortness of breath, leg swelling, or decreased urine output suggesting target organ damage",
+      "You are pregnant or planning to become pregnant (many blood pressure medications are contraindicated in pregnancy)",
+      "You have never been diagnosed with hypertension and are seeking a new diagnosis or initial treatment",
+      "You have new kidney function decline or recent electrolyte abnormalities that have not been addressed"
+    ],
+    "notEligibleDisclaimer": "If you have red-flag symptoms or blood pressure above 180/120, seek urgent in-person care or emergency care immediately. TeleDirectMD is not an emergency service."
+  },
+
+  "howItWorks": {
+    "sectionTitle": "How Online Blood Pressure Medication Refills Work in {state}",
+    "steps": [
+      {
+        "type": "check",
+        "title": "Book your visit and prepare key details",
+        "description": "Before your video visit, gather your current blood pressure medications (names and doses), take several recent home blood pressure readings if possible, note any side effects you are experiencing, and have your most recent lab results available if you have them. A photo of your medication bottles is helpful."
+      },
+      {
+        "type": "check",
+        "title": "See a {state} licensed MD by video",
+        "description": "We review your current medication regimen, recent home blood pressure readings, adherence history, side effects, last laboratory results, and whether this looks like a stable refill request or a situation requiring in-person evaluation or medication adjustment. The ACC/AHA 2017 guideline recommends a blood pressure target below 130/80 mmHg for most adults."
+      },
+      {
+        "type": "good",
+        "title": "Get a short bridge refill plan when appropriate",
+        "description": "If refill treatment is clinically appropriate, we send an e-prescription to common {state} pharmacies such as {pharmacies}. You also receive clear instructions about when your blood pressure control sounds too unstable for routine telehealth refills and when laboratory monitoring is overdue.",
+        "showCta": true
+      }
+    ]
+  },
+
+  "telehealthRegulations": {
+    "sectionTitle": "{state} Telehealth Regulations for Online Blood Pressure Medication Refill Care",
+    "paragraphs": [
+      "{telehealthRegulation}",
+      "Location matters: you must be physically in {state} during the visit. Insurance is not required. TeleDirectMD does not prescribe controlled substances."
+    ]
+  },
+
+  "comparisonTable": {
+    "sectionTitle": "TeleDirectMD vs Other Care Options for Blood Pressure Medication Refills in {state}",
+    "intro": "Here is how TeleDirectMD compares to common settings for adult blood pressure medication refill care in {state}:",
+    "rows": [
+      {
+        "option": "TeleDirectMD",
+        "cost": "Self pay option starting at $49",
+        "wait": "Same day, often within hours",
+        "provider": "Board-certified MD only (no mid-levels)",
+        "bestFor": "Stable blood pressure medication refill requests, home BP review, and short bridge care when appropriate",
+        "highlight": true
+      },
+      {
+        "option": "Urgent Care",
+        "cost": "$150 to $300+ (before insurance)",
+        "wait": "1 to 3 hours typical",
+        "provider": "MD, DO, PA, or NP",
+        "bestFor": "Same-day in-person evaluation when blood pressure is significantly elevated or new symptoms are present",
+        "highlight": false
+      },
+      {
+        "option": "Emergency Room",
+        "cost": "$500 to $3,000+ (before insurance)",
+        "wait": "2 to 6 hours typical",
+        "provider": "Emergency medicine MD or DO",
+        "bestFor": "Hypertensive emergency with blood pressure above 180/120, chest pain, stroke symptoms, or signs of target organ damage",
+        "highlight": false
+      },
+      {
+        "option": "Primary Care or Cardiology",
+        "cost": "$100 to $350+ (varies)",
+        "wait": "Days to weeks",
+        "provider": "MD or DO",
+        "bestFor": "Long-term hypertension management, medication titration, laboratory monitoring, and evaluation of secondary causes or resistant hypertension",
+        "highlight": false
+      }
+    ],
+    "bottomLine": "TeleDirectMD is a strong fit for selected adult blood pressure medication refill requests when the patient is stable, home readings are near target, and the visit is clearly a bridge refill rather than a hypertensive crisis or major treatment redesign."
+  },
+
+  "decisionGuide": {
+    "sectionTitle": "Should I Use TeleDirectMD for Blood Pressure Medication Refills in {state}? Decision Guide",
+    "steps": [
+      {
+        "type": "urgent",
+        "title": "Do you have emergency warning signs?",
+        "items": [
+          "Blood pressure above 180/120 mmHg",
+          "New chest pain or chest tightness",
+          "Sudden severe headache, vision changes, difficulty speaking, or sudden weakness",
+          "New shortness of breath, leg swelling, or significantly decreased urine output",
+          "Confusion, nosebleed that will not stop, or severe anxiety with very high blood pressure"
+        ],
+        "yesAction": "If yes, go to urgent care or the ER now depending on severity",
+        "noAction": "If no, continue to Step 2"
+      },
+      {
+        "type": "check",
+        "title": "Are you 18+ and currently in {state}?",
+        "items": [],
+        "yesAction": "If yes, continue to Step 3",
+        "noAction": "If no, use in-person care as appropriate"
+      },
+      {
+        "type": "check",
+        "title": "Does this sound like a stable refill request?",
+        "items": [
+          "You are requesting medication you already take for blood pressure",
+          "Your recent home blood pressure readings are near your usual target",
+          "You are not experiencing new symptoms such as chest pain, headache, or swelling",
+          "You can describe your current medications, doses, and recent blood pressure readings"
+        ],
+        "yesAction": "If yes, continue to Step 4",
+        "noAction": "If no, in-person evaluation is often preferred"
+      },
+      {
+        "type": "good",
+        "title": "You may be appropriate for a TeleDirectMD video visit",
+        "description": "You can receive short bridge refills of your established blood pressure medications when clinically appropriate and clear follow-up instructions. If your blood pressure is significantly above target, you have new symptoms, or laboratory monitoring is overdue, more formal evaluation and in-person care may be safer than a routine refill visit.",
+        "items": [],
+        "showCta": true
+      }
+    ]
+  },
+
+  "pricing": {
+    "sectionTitle": "What Do Online Blood Pressure Medication Refills Cost in {state}?",
+    "subtitle": "Transparent options. Insurance is not required.",
+    "visitPrice": "$49",
+    "priceSubtext": "Self pay option. Insurance is not required.",
+    "includes": [
+      "MD evaluation and red-flag screening",
+      "Blood pressure medication review and home BP assessment",
+      "Short bridge antihypertensive refills when appropriate",
+      "Clear follow-up, lab monitoring guidance, and escalation instructions"
+    ],
+    "comparisonBars": [
+      { "name": "TeleDirectMD", "value": "$49", "width": 12, "isTdmd": true },
+      { "name": "Primary Care or Cardiology", "value": "$100 to $350+", "width": 52, "isTdmd": false },
+      { "name": "Urgent Care", "value": "$150 to $300+", "width": 60, "isTdmd": false },
+      { "name": "Emergency Room", "value": "$500 to $3,000+", "width": 100, "isTdmd": false }
+    ],
+    "footnote": "Prescription costs are separate and vary by medication and pharmacy. Most generic blood pressure medications cost $4 to $15 per month.",
+    "noHiddenFees": "No hidden fees. If medication is not clinically appropriate, you still receive a complete evaluation, guidance, and clear instructions on what level of care you need next."
+  },
+
+  "whatIsCondition": {
+    "sectionTitle": "What Is Blood Pressure Medication Refill Care?",
+    "paragraphs": [
+      "Blood pressure medication refill care means reviewing whether it is safe and appropriate to continue a patient's current antihypertensive medications when they are running low or at risk of a gap in treatment. Hypertension affects approximately 47 percent of US adults and is the leading modifiable risk factor for heart disease, stroke, and chronic kidney disease. Most patients require lifelong medication once treatment is initiated.",
+      "The ACC/AHA 2017 guideline defines hypertension as blood pressure at or above 130/80 mmHg and recommends pharmacologic treatment for adults with elevated cardiovascular risk. The four first-line medication classes are ACE inhibitors, angiotensin receptor blockers (ARBs), calcium channel blockers, and thiazide diuretics. Interrupting established therapy can lead to rebound blood pressure elevation and increased risk of cardiovascular events.",
+      "A safe telehealth refill visit depends on whether the patient is stable. Refill care is not the same as managing a hypertensive emergency, initiating treatment for a new diagnosis, or making major medication adjustments that require in-person monitoring and laboratory workup."
+    ]
+  },
+
+  "causesAndRiskFactors": {
+    "sectionTitle": "Causes and Risk Factors",
+    "intro": "Adults request blood pressure medication refills for many reasons, but some refill requests actually reflect poor control, medication nonadherence, side effects, or clinical changes that need more than a simple bridge refill.",
+    "items": [
+      { "label": "Running out of medication:", "text": "the most common reason for urgent refill requests, often due to scheduling delays with primary care or insurance lapses" },
+      { "label": "Medication nonadherence:", "text": "inconsistent use of blood pressure medication is extremely common and can lead to uncontrolled hypertension even in patients with an established prescription" },
+      { "label": "Poor blood pressure control:", "text": "home readings consistently above target may signal a need for medication adjustment rather than simple refill continuation" },
+      { "label": "Side effects:", "text": "common side effects including cough with ACE inhibitors, ankle swelling with amlodipine, or fatigue with beta-blockers may lead patients to skip doses or stop medications" },
+      { "label": "Overdue laboratory monitoring:", "text": "patients on ACE inhibitors, ARBs, or diuretics need periodic monitoring of potassium and creatinine. Overdue labs may indicate a need for in-person follow-up before continuing the same regimen" },
+      { "label": "Lifestyle factors:", "text": "high sodium intake, weight gain, excess alcohol, physical inactivity, and stress can worsen blood pressure control and reduce the effectiveness of existing medications" }
+    ],
+    "closing": "Not every refill request is a routine refill. Some are actually early warning signs that blood pressure management needs step-up review, medication adjustment, or laboratory workup rather than simple continuation."
+  },
+
+  "symptomsAndRedFlags": {
+    "sectionTitle": "Symptoms and Red Flags for Blood Pressure Medication Refills in {state}",
+    "intro": "Use this table to understand which refill scenarios may fit short bridge telehealth care and which patterns suggest urgent in-person evaluation.",
+    "headers": ["Symptom or situation", "What it suggests", "Telehealth appropriate?", "Red flag requiring urgent in-person care"],
+    "rows": [
+      ["Needs refill of usual blood pressure medication and home readings are near target", "Routine bridge refill request", "Often yes", "Not a red flag if readings are stable and no new symptoms"],
+      ["Home readings slightly above usual but no symptoms", "May reflect emerging poor control or nonadherence", "Sometimes", "Markedly elevated readings or readings above 180/120"],
+      ["Out of medication for several days but currently asymptomatic with acceptable home readings", "Bridge refill may be reasonable to avoid further gap", "Often yes", "Significant rebound hypertension or new symptoms after missing doses"],
+      ["Blood pressure above 180/120 mmHg", "Hypertensive urgency or emergency", "No", "Seek urgent in-person care or emergency evaluation immediately"],
+      ["New chest pain, sudden severe headache, vision changes, or difficulty speaking with elevated blood pressure", "Possible target organ damage including stroke, heart attack, or hypertensive encephalopathy", "No", "Emergency evaluation now"],
+      ["New leg swelling, weight gain, or decreased urine output", "Possible heart failure, kidney dysfunction, or medication side effect", "No", "In-person evaluation with laboratory workup needed"],
+      ["Pregnant or planning pregnancy while on blood pressure medication", "Many antihypertensives are contraindicated in pregnancy including ACE inhibitors and ARBs", "No", "Urgent in-person evaluation to switch to pregnancy-safe medications"]
+    ]
+  },
+
+  "differentialDiagnosis": {
+    "sectionTitle": "Differential Diagnosis and Complications",
+    "intro": "Elevated blood pressure and related symptoms are not always straightforward stable hypertension. Refill visits must separate lower-risk bridge refill requests from hypertensive crises, secondary hypertension, and other conditions that can mimic or complicate blood pressure management.",
+    "telehealthAppropriate": {
+      "title": "Sometimes Appropriate for Telehealth Bridge Guidance",
+      "items": [
+        "Stable hypertension needing bridge refill of established medication",
+        "Home blood pressure readings near target with no new symptoms",
+        "Continuation of current antihypertensive while awaiting primary care follow-up",
+        "Questions about common side effects of current medications",
+        "Basic refill planning before follow-up with primary care or cardiology"
+      ]
+    },
+    "requiresInPerson": {
+      "title": "Often Requires In-Person Evaluation",
+      "items": [
+        "Hypertensive urgency or emergency with blood pressure above 180/120",
+        "New symptoms suggesting target organ damage such as chest pain, vision changes, or neurological deficits",
+        "Suspected secondary hypertension including renal artery stenosis, pheochromocytoma, or primary aldosteronism",
+        "Resistant hypertension uncontrolled on three or more medications including a diuretic",
+        "Significant electrolyte abnormalities or declining kidney function on current regimen"
+      ]
+    },
+    "compareCards": [
+      {
+        "title": "Stable Refill Need vs Poor Control",
+        "text": "A stable refill request means home blood pressure readings are near target and the goal is continuing current therapy. Poor control is more likely when home readings are consistently above 140/90, the patient is missing doses, or there are new symptoms such as headaches, chest discomfort, or swelling that were not present before."
+      },
+      {
+        "title": "Essential Hypertension vs Secondary Hypertension",
+        "text": "Essential (primary) hypertension accounts for approximately 90 to 95 percent of cases. Secondary hypertension has an identifiable cause such as renal artery stenosis, primary aldosteronism, pheochromocytoma, thyroid disease, or obstructive sleep apnea. New-onset severe hypertension, resistant hypertension, or onset before age 30 should raise suspicion for secondary causes and requires in-person workup."
+      },
+      {
+        "title": "Hypertensive Urgency vs Hypertensive Emergency",
+        "text": "Hypertensive urgency is blood pressure above 180/120 without evidence of target organ damage. Hypertensive emergency is blood pressure above 180/120 with evidence of acute target organ damage such as stroke, acute coronary syndrome, aortic dissection, acute kidney injury, or hypertensive encephalopathy. Both require in-person evaluation, but hypertensive emergency requires immediate emergency department care."
+      }
+    ],
+    "closing": "If your blood pressure is significantly above target, you have new symptoms, or any red flags are present, TeleDirectMD will direct you to urgent in-person care."
+  },
+
+  "telehealthEligibility": {
+    "sectionTitle": "When Is a Video Visit Appropriate?",
+    "appropriate": {
+      "title": "When a Video Visit Is Appropriate",
+      "items": [
+        "You are requesting a refill of blood pressure medication you already take",
+        "Your recent home blood pressure readings are near your usual target",
+        "You are not experiencing new symptoms such as chest pain, severe headache, or vision changes",
+        "You can describe your current medications, doses, and recent readings",
+        "You understand this may be bridge refill care, not full hypertension management redesign",
+        "Located in {state} at time of visit"
+      ]
+    },
+    "redFlags": {
+      "title": "Red Flags Requiring In-Person or ER Care",
+      "items": [
+        "Blood pressure above 180/120 mmHg",
+        "New chest pain, sudden severe headache, or vision changes",
+        "Sudden weakness, numbness, difficulty speaking, or confusion",
+        "New shortness of breath, leg swelling, or decreased urine output",
+        "Pregnant or planning pregnancy while taking ACE inhibitor, ARB, or other contraindicated medication",
+        "Never diagnosed with hypertension and seeking new treatment"
+      ],
+      "disclaimer": "If any red-flag symptoms are present, seek urgent in-person or emergency care. TeleDirectMD is not an emergency service."
+    }
+  },
+
+  "treatmentOptions": {
+    "sectionTitle": "Treatment Options",
+    "intro": "Evidence-based hypertension management uses multiple medication classes along with lifestyle modification. The ACC/AHA 2017 guideline recommends a blood pressure target below 130/80 mmHg for most adults, and JNC 8 supports a target below 140/90 mmHg in the general population. For stable refill patients, the goal is continuing established therapy without interruption while ensuring no red flags or laboratory concerns have emerged.",
+    "sections": [
+      {
+        "title": "Bridge refills of established antihypertensives",
+        "text": "For stable adults who are running low on an established blood pressure medication, a short bridge refill may be reasonable if home blood pressure readings are near target, there are no new symptoms, and laboratory monitoring is not critically overdue. This prevents gaps in therapy that can lead to rebound blood pressure elevation."
+      },
+      {
+        "title": "First-line medication classes",
+        "text": "The four first-line classes for hypertension are ACE inhibitors (lisinopril, enalapril, ramipril), ARBs (losartan, valsartan, olmesartan), calcium channel blockers (amlodipine, nifedipine, diltiazem), and thiazide diuretics (hydrochlorothiazide, chlorthalidone). Beta-blockers such as metoprolol and atenolol are also commonly used, particularly in patients with concurrent heart rate control needs. None of these are controlled substances."
+      },
+      {
+        "title": "Lifestyle modification",
+        "text": "The DASH diet, sodium restriction to less than 2,300 mg per day, regular aerobic exercise of at least 150 minutes per week, maintaining a healthy weight, limiting alcohol, and stress management are all supported by guidelines as important adjuncts to pharmacologic therapy and can independently lower blood pressure by 5 to 15 mmHg."
+      },
+      {
+        "title": "When refill care is not enough",
+        "text": "If home blood pressure readings are consistently above target despite taking medication as prescribed, if new symptoms have developed, if laboratory monitoring is significantly overdue, or if the patient needs medication dose adjustment or a new class added, a refill-only visit may be insufficient and more comprehensive in-person management is usually more appropriate."
+      }
+    ],
+    "doesNotManage": [
+      "Hypertensive emergency or urgency requiring immediate intervention",
+      "New hypertension diagnosis requiring comprehensive cardiovascular risk assessment",
+      "Resistant hypertension workup requiring specialist evaluation",
+      "Pregnancy-related blood pressure management",
+      "Complex medication titration requiring frequent in-person monitoring and lab work"
+    ]
+  },
+
+  "medications": {
+    "sectionTitle": "Common Medication Options",
+    "intro": "These are common categories discussed for adult blood pressure medication refill care. Medication choice depends on the patient's established regimen, current blood pressure control, comorbidities, and laboratory history. All blood pressure medications listed here are not controlled substances.",
+    "headers": ["Option", "Examples", "Used for", "Key considerations"],
+    "rows": [
+      ["ACE inhibitor", "Lisinopril 10-40 mg, enalapril 5-40 mg, ramipril 2.5-20 mg", "First-line antihypertensive therapy", "Dry cough is most common side effect (up to 10-15 percent). Monitor potassium and creatinine. Do NOT combine with ARB. Contraindicated in pregnancy."],
+      ["ARB", "Losartan 25-100 mg, valsartan 80-320 mg, olmesartan 20-40 mg", "First-line antihypertensive, alternative to ACE if cough occurs", "Similar efficacy to ACE without cough. Monitor potassium and creatinine. Do NOT combine with ACE inhibitor. Contraindicated in pregnancy."],
+      ["Calcium channel blocker", "Amlodipine 2.5-10 mg, nifedipine ER, diltiazem", "First-line antihypertensive therapy", "Ankle edema is most common side effect with amlodipine. Diltiazem can lower heart rate. No potassium or creatinine monitoring required. Safe in pregnancy (nifedipine)."],
+      ["Thiazide diuretic", "Hydrochlorothiazide 12.5-25 mg, chlorthalidone 12.5-25 mg", "First-line antihypertensive therapy", "Monitor potassium (can cause hypokalemia), uric acid, and glucose. Chlorthalidone may be more effective than HCTZ for cardiovascular risk reduction. May worsen gout."],
+      ["Beta-blocker", "Metoprolol succinate 25-200 mg, atenolol 25-100 mg", "Hypertension with concurrent heart rate control, post-MI, or heart failure", "Can cause fatigue, bradycardia, and exercise intolerance. Do not stop abruptly due to rebound tachycardia risk. Not first-line for uncomplicated hypertension per ACC/AHA 2017."],
+      ["Combination medications", "Lisinopril/HCTZ, losartan/HCTZ, amlodipine/benazepril", "Patients requiring two agents for blood pressure control", "Simplifies regimen and may improve adherence. Same monitoring as individual components. Adjust only with provider guidance."]
+    ],
+    "note": "Medication selection and dosing are individualized. TeleDirectMD does not prescribe controlled substances. None of the commonly used blood pressure medications are controlled substances. Refill treatment online is intended as bridge care when clinically appropriate, not as a substitute for comprehensive hypertension management when control is poor or laboratory monitoring is overdue."
+  },
+
+  "homeCare": {
+    "sectionTitle": "Home Care, Prevention, and Follow-up",
+    "whatToDoNow": {
+      "title": "What to Do Now",
+      "items": [
+        "Take your blood pressure medications exactly as prescribed at the same time each day",
+        "Monitor your blood pressure at home using a validated upper-arm cuff and keep a log of your readings",
+        "Follow the DASH diet and limit sodium intake to less than 2,300 mg per day",
+        "Do not stop or change your blood pressure medication doses on your own, especially beta-blockers which should not be stopped abruptly"
+      ]
+    },
+    "whatToWatch": {
+      "title": "What to Watch For Over the Next Days to Weeks",
+      "items": [
+        "Home blood pressure readings consistently above 140/90 or significantly above your usual baseline",
+        "New or worsening headaches, dizziness, or visual changes",
+        "New ankle swelling, shortness of breath, or chest discomfort",
+        "Persistent dry cough (common with ACE inhibitors), significant fatigue (beta-blockers), or muscle cramps (diuretics)",
+        "Any blood pressure reading above 180/120 requires urgent in-person evaluation regardless of symptoms"
+      ]
+    },
+    "followUp": {
+      "title": "Follow-up Timing",
+      "items": [
+        "If home blood pressure is consistently above target, schedule in-person follow-up sooner rather than relying on repeated bridge refills",
+        "Patients on ACE inhibitors, ARBs, or diuretics should have a basic metabolic panel (potassium, creatinine) checked at least annually",
+        "If you experience new side effects that affect your ability to take your medication, discuss with your MD before stopping",
+        "If emergency warning signs develop, go to urgent care or the ER immediately"
+      ]
+    }
+  },
+
+  "whenNotToUse": {
+    "sectionTitle": "When Not to Use TeleDirectMD for Blood Pressure Medication Refills in {state}",
+    "intro": "TeleDirectMD is designed for selected short bridge refill care only. We are direct about when telehealth is not the right fit.",
+    "shouldNotUse": {
+      "title": "You Should Not Use TeleDirectMD If",
+      "items": [
+        "Your blood pressure is above 180/120 mmHg or you are experiencing symptoms of hypertensive urgency or emergency",
+        "You have new chest pain, sudden severe headache, vision changes, difficulty speaking, or weakness",
+        "You have new shortness of breath, leg swelling, or decreased urine output",
+        "You are pregnant or planning pregnancy while on an ACE inhibitor, ARB, or other pregnancy-contraindicated medication",
+        "You have never been diagnosed with hypertension and want a new evaluation",
+        "You need a major medication overhaul or resistant hypertension workup rather than a bridge refill",
+        "You are under 18 years old",
+        "You are not physically in {state} at the time of visit"
+      ]
+    },
+    "alternatives": {
+      "title": "Alternative Care Options",
+      "items": [
+        { "label": "Emergency room:", "text": "hypertensive emergency with blood pressure above 180/120 and symptoms of target organ damage including chest pain, stroke symptoms, or acute kidney injury" },
+        { "label": "Urgent care:", "text": "significantly elevated blood pressure that is not clearly ER level but needs same-day in-person evaluation" },
+        { "label": "Primary care or cardiology:", "text": "long-term blood pressure management, medication titration, laboratory monitoring, secondary hypertension workup, and resistant hypertension evaluation" }
+      ]
+    }
+  },
+
+  "faq": {
+    "sectionTitle": "Blood Pressure Medication Refill FAQs for {state}",
+    "items": [
+      {
+        "question": "Can I get blood pressure medication refills online in {state}?",
+        "answer": "Yes, selected adults in {state} with an established hypertension diagnosis may be appropriate for a short bridge telehealth visit for blood pressure medication refills after red-flag screening. TeleDirectMD can help with triage and refill care when clinically appropriate."
+      },
+      {
+        "question": "How much does an online blood pressure medication refill visit cost in {state}?",
+        "answer": "TeleDirectMD offers a transparent self pay option starting at $49 for an adult video visit in {state}. Insurance is not required. Prescription costs are separate and vary by medication and pharmacy. Most generic blood pressure medications cost $4 to $15 per month."
+      },
+      {
+        "question": "Can I refill my lisinopril or losartan online?",
+        "answer": "Often, yes, if you already take lisinopril, losartan, or another established blood pressure medication, your readings are near target, and you do not have new symptoms or significantly overdue laboratory monitoring. These are not controlled substances. TeleDirectMD provides short bridge refills when clinically appropriate."
+      },
+      {
+        "question": "What blood pressure readings should I bring to my visit?",
+        "answer": "Bring several recent home blood pressure readings taken with a validated upper-arm cuff. Ideal readings are taken after sitting quietly for 5 minutes, feet flat on the floor, arm at heart level. Record the systolic (top) and diastolic (bottom) numbers. The ACC/AHA guideline recommends a target below 130/80 mmHg for most adults."
+      },
+      {
+        "question": "Are blood pressure medications controlled substances?",
+        "answer": "No. None of the commonly used blood pressure medications, including lisinopril, losartan, amlodipine, hydrochlorothiazide, metoprolol, and atenolol, are controlled substances. TeleDirectMD does not prescribe controlled substances, but blood pressure medications are not in that category."
+      },
+      {
+        "question": "What happens if I stop my blood pressure medication suddenly?",
+        "answer": "Stopping blood pressure medication abruptly can cause rebound blood pressure elevation and increase cardiovascular risk. Beta-blockers in particular should not be stopped suddenly because of rebound tachycardia risk. If you are running low on medication, a bridge refill can help prevent a dangerous gap in therapy."
+      },
+      {
+        "question": "Do I need lab work for blood pressure medication refills?",
+        "answer": "Patients on ACE inhibitors, ARBs, or diuretics should have a basic metabolic panel (potassium and creatinine) checked at least annually. If your labs are significantly overdue, we may recommend in-person follow-up for laboratory monitoring before continuing to refill long-term. A short bridge refill may still be appropriate to avoid a gap in therapy."
+      },
+      {
+        "question": "What blood pressure level is a hypertensive emergency?",
+        "answer": "Blood pressure above 180/120 mmHg is considered hypertensive urgency. If accompanied by symptoms of target organ damage such as chest pain, shortness of breath, vision changes, severe headache, confusion, or neurological deficits, it is a hypertensive emergency requiring immediate in-person emergency care."
+      },
+      {
+        "question": "When should I go to urgent care or the ER for blood pressure?",
+        "answer": "Seek urgent in-person care for blood pressure above 180/120, new chest pain, sudden severe headache, sudden vision changes, difficulty speaking, weakness or numbness on one side, shortness of breath, or significantly decreased urine output. These may indicate target organ damage and require immediate evaluation."
+      },
+      {
+        "question": "Can I use my insurance for a TeleDirectMD visit?",
+        "answer": "Insurance is not required. If your plan is eligible, you may be able to use insurance. A self pay option is also available."
+      },
+      {
+        "question": "Does {state} allow telemedicine for this kind of visit?",
+        "answer": "Yes. {state} allows licensed professionals to provide telemedicine within their scope when appropriate and according to accepted standards of care."
+      },
+      {
+        "question": "Can TeleDirectMD provide blood pressure medication refill care in other states?",
+        "answer": "Yes. TeleDirectMD offers adult evaluations via video visits across multiple states. You must be physically located in the state where you are requesting care at the time of the visit."
+      }
+    ],
+    "bottomCta": {
+      "title": "Need help today?",
+      "text": "Insurance is not required. Adult-only video visits. MD-only care. Safety-first triage, short bridge blood pressure medication refills when appropriate, and clear next steps."
+    }
+  },
+
+  "references": [
+    { "text": "JNC 8 Evidence-Based Guideline for the Management of High Blood Pressure in Adults", "url": "https://www.aafp.org/pubs/afp/issues/2014/1001/p503.html" },
+    { "text": "2017 ACC/AHA Guideline for the Prevention, Detection, Evaluation, and Management of High Blood Pressure in Adults", "url": "https://www.ahajournals.org/doi/10.1161/HYP.0000000000000065" },
+    { "text": "Hypertension, StatPearls (2025)", "url": "https://www.ncbi.nlm.nih.gov/books/NBK539859/" },
+    { "text": "AHA: Understanding Blood Pressure Readings", "url": "https://www.heart.org/en/health-topics/high-blood-pressure/understanding-blood-pressure-readings" },
+    { "text": "CDC: Facts About Hypertension", "url": "https://www.cdc.gov/blood-pressure/data-research/facts-stats/" }
+  ],
+
+  "disclaimer": {
+    "sectionTitle": "TeleDirectMD Telehealth Disclaimer",
+    "paragraphs": [
+      "TeleDirectMD provides MD-only virtual care for adults (18+) in {state} using secure video visits to evaluate blood pressure medication refill concerns, provide evidence-based guidance, and prescribe short bridge refill treatment when clinically appropriate. Insurance is not required. You must be physically located in {state} at the time of your video visit. TeleDirectMD does not prescribe controlled substances.",
+      "TeleDirectMD is not an emergency service and is not a replacement for urgent in-person care during a hypertensive emergency. This service is intended for selected stable blood pressure medication refill requests and is not a substitute for comprehensive long-term hypertension management when control is poor, symptoms are present, or laboratory monitoring is overdue.",
+      "Online blood pressure medication refills in {state}. Hypertension refills online. Lisinopril refill online. Losartan refill online. Amlodipine refill online. Blood pressure medication bridge care."
+    ]
+  },
+
+  "relatedConditions": [
+    {
+      "slug": "asthma-refills-online",
+      "title": "Asthma Refills",
+      "description": "Another common chronic medication refill pathway for adults"
+    },
+    {
+      "slug": "smoking-cessation-treatment-online",
+      "title": "Smoking Cessation",
+      "description": "Smoking is a major modifiable cardiovascular risk factor often addressed alongside blood pressure management"
+    },
+    {
+      "slug": "gout-treatment-online",
+      "title": "Gout Treatment",
+      "description": "Thiazide diuretics used for blood pressure can affect uric acid levels and gout risk"
+    },
+    {
+      "slug": "erectile-dysfunction-treatment-online",
+      "title": "Erectile Dysfunction Treatment",
+      "description": "Blood pressure medications can contribute to erectile dysfunction, a common concern for men on antihypertensives"
+    }
+  ],
+
+  "inlineLinks": [
+    { "slug": "asthma-refills-online", "label": "Asthma Refills" },
+    { "slug": "smoking-cessation-treatment-online", "label": "Smoking Cessation" },
+    { "slug": "gout-treatment-online", "label": "Gout Treatment" },
+    { "slug": "erectile-dysfunction-treatment-online", "label": "Erectile Dysfunction Treatment" },
+    { "slug": "covid-19-treatment-online", "label": "COVID-19 Treatment" },
+    { "slug": "seasonal-allergies-treatment-online", "label": "Seasonal Allergies" },
+    { "slug": "uti-treatment-online", "label": "UTI" },
+    { "slug": "common-cold-treatment-online", "label": "Common Cold" },
+    { "slug": "sinus-infection-treatment-online", "label": "Sinus Infection" },
+    { "slug": "dental-pain-treatment-online", "label": "Dental Pain" }
+  ],
+
+  "cityBlock": {
+    "title": "Adults We Serve Across {state}",
+    "text": "TeleDirectMD evaluates adults located throughout {state}, including {citiesExtended}. Whether you are searching for online blood pressure medication refills in {city1}, lisinopril refills in {city2}, hypertension refill care in {city3}, or blood pressure medication bridge care anywhere else in {state}, the same telehealth eligibility and safety rules apply."
+  },
+
+  "icd10Codes": [
+    { "code": "I10", "description": "Essential (primary) hypertension" }
+  ],
+
+  "jsonLd": {
+    "conditionName": "Hypertension",
+    "conditionAlternateNames": ["High blood pressure", "Essential hypertension", "Blood pressure medication refill", "Hypertension refill care", "HTN"],
+    "conditionDescription": "Hypertension medication refill care involves reviewing whether it is safe and appropriate to continue a patient's established blood pressure medications. TeleDirectMD evaluates adult refill requests by video visit with safety-first red-flag screening, home blood pressure review, and provides short bridge refill guidance when appropriate, with clear rules for when urgent in-person care is needed.",
+    "primaryIcd10": "I10",
+    "anatomy": "Cardiovascular system",
+    "symptoms": ["Elevated blood pressure readings", "Headache with very high blood pressure", "Often asymptomatic"],
+    "riskFactors": [
+      "Running out of established blood pressure medication",
+      "Medication nonadherence",
+      "High sodium diet",
+      "Obesity",
+      "Physical inactivity",
+      "Excess alcohol consumption",
+      "Family history of hypertension"
+    ],
+    "complications": [
+      "Rebound hypertension from interrupted therapy",
+      "Stroke",
+      "Heart attack",
+      "Heart failure",
+      "Chronic kidney disease",
+      "Hypertensive emergency"
+    ],
+    "epidemiology": "Hypertension affects approximately 47 percent of US adults, roughly 116 million people, and is the leading modifiable risk factor for cardiovascular disease and stroke.",
+    "drugs": [
+      { "name": "Lisinopril", "id": "lisinopril" },
+      { "name": "Losartan", "id": "losartan" },
+      { "name": "Amlodipine", "id": "amlodipine" },
+      { "name": "Hydrochlorothiazide", "id": "hydrochlorothiazide" },
+      { "name": "Metoprolol", "id": "metoprolol" },
+      { "name": "Atenolol", "id": "atenolol" },
+      { "name": "Valsartan", "id": "valsartan" },
+      { "name": "Chlorthalidone", "id": "chlorthalidone" }
+    ],
+    "treatments": [
+      "Short bridge refill care for established antihypertensives",
+      "Lifestyle modification including DASH diet and sodium restriction",
+      "Urgent in-person evaluation for hypertensive emergency or target organ damage"
+    ],
+    "tests": [
+      "Home blood pressure monitoring review",
+      "Basic metabolic panel for potassium and creatinine monitoring",
+      "Clinical symptom review and red-flag screening"
+    ],
+    "specialties": ["Family Medicine", "Telemedicine", "Cardiology", "Internal Medicine"],
+    "guidelines": [
+      { "name": "JNC 8 Evidence-Based Guideline for High Blood Pressure in Adults", "url": "https://www.aafp.org/pubs/afp/issues/2014/1001/p503.html", "publisher": "AAFP / JNC 8 Panel", "id": "jnc8" },
+      { "name": "2017 ACC/AHA Guideline for High Blood Pressure in Adults", "url": "https://www.ahajournals.org/doi/10.1161/HYP.0000000000000065", "publisher": "American College of Cardiology / American Heart Association", "id": "acc-aha-2017" }
+    ],
+    "knowsAbout": [
+      "Hypertension medication refill care",
+      "Blood pressure medication management",
+      "Antihypertensive pharmacology",
+      "Home blood pressure monitoring",
+      "Telemedicine triage",
+      "Safety-first red-flag screening",
+      "Family Medicine"
+    ],
+    "serviceDescription": "Secure video visit for {state} adults requesting blood pressure medication refill care, including red-flag screening, home BP review, and short bridge refill treatment when appropriate.",
+    "webpageDescription": "{state} blood pressure medication refill care by secure MD video visit for adults. Evidence-based hypertension refill evaluation, red-flag screening, short bridge refills when appropriate, and clear rules for when urgent in-person care is needed."
+  }
+}

@@ -1,0 +1,600 @@
+{
+  "conditionName": "Hyperlipidemia Medication Refills",
+  "conditionShort": "cholesterol",
+  "conditionSlug": "hyperlipidemia-refills-online",
+  "pageTitle": "Hyperlipidemia Medication Refills Online in {state} | Statin Refill MD Video Visit | TeleDirectMD",
+  "metaDescription": "Evidence-based cholesterol medication refills for {state} adults by secure video visit. Statin refill evaluation, red-flag screening, and short bridge prescriptions when appropriate. Self pay option starting at $49. Insurance is not required.",
+  "ogImageAlt": "Hyperlipidemia medication refills in {state} by TeleDirectMD",
+
+  "hero": {
+    "h1": "Hyperlipidemia Medication Refills in {state} (Statin Refill Care)",
+    "subtitle": "{state} adult care by secure video visit, self pay option starting at $49, MD-only, insurance is not required.",
+    "introParagraph": "Adults often search for online cholesterol medication refills when they are running low on a statin or other lipid-lowering therapy, but not every refill request is safe to handle as routine telehealth. The ACC/AHA 2018 Guideline on the Management of Blood Cholesterol identifies statins as the cornerstone of atherosclerotic cardiovascular disease (ASCVD) risk reduction, and abrupt discontinuation of statin therapy is associated with increased cardiovascular event risk. TeleDirectMD uses a safety-first telemedicine approach by reviewing your current medication, dose, adherence history, most recent lipid panel results, any muscle symptoms, liver concerns, and whether this looks like a stable refill request or a situation requiring in-person evaluation with updated labs. If the history supports a lower-risk bridge refill, treatment may be reasonable by video visit, while adults with signs of rhabdomyolysis, new liver dysfunction, or no recent lab monitoring are directed to in-person care. This page is for adults located in {state}, including {cities}.",
+    "tocLinks": [
+      { "href": "eligibility-checklist", "label": "Eligibility checklist" },
+      { "href": "decision-guide", "label": "Decision guide" },
+      { "href": "treatment-options", "label": "Treatment options" },
+      { "href": "faq", "label": "FAQs" },
+      { "href": "references", "label": "References" }
+    ],
+    "benefits": [
+      "Self pay option starting at $49",
+      "MD-only care (no mid-levels)",
+      "Insurance is not required",
+      "Licensed telehealth care for patients located in {state} at the time of the visit"
+    ],
+    "sideCard": {
+      "h2": "Online MD-Only Cholesterol Medication Refill Care in {state}",
+      "features": [
+        "Statin and lipid-lowering medication refill review",
+        "Safety screening for myalgia, rhabdomyolysis, and liver dysfunction",
+        "Short bridge refills when clinically appropriate",
+        "Clear rules for when in-person care and updated labs are needed"
+      ],
+      "note": "Adults 18+ only. TeleDirectMD is not an emergency service. Seek urgent in-person care now for severe muscle pain with weakness or dark urine, chest pain, new jaundice, or confusion. TeleDirectMD does not prescribe controlled substances."
+    },
+    "icd10Display": "E78.5, E78.00 (final coding depends on clinical details)"
+  },
+
+  "eligibility": {
+    "sectionTitle": "Hyperlipidemia Refill Telehealth Eligibility Checklist for {state}",
+    "introText": "You are likely eligible for a TeleDirectMD video visit if ALL of these are true:",
+    "eligible": [
+      "You are 18 years old or older",
+      "You are physically located in {state} at the time of the visit",
+      "You are requesting a refill of a cholesterol medication you are already taking",
+      "Your lipid levels have been stable on your current regimen",
+      "You have had a lipid panel within the past 12 months or can provide recent lab results",
+      "You are not experiencing severe muscle pain, dark urine, or unexplained weakness",
+      "You are not pregnant, planning pregnancy, or breastfeeding",
+      "Insurance is not required. A self pay option is available."
+    ],
+    "notEligible": [
+      "You are under 18 years old",
+      "You have severe muscle pain, unexplained weakness, or dark brown urine (possible rhabdomyolysis)",
+      "You have new jaundice, severe abdominal pain, or other signs of liver dysfunction",
+      "You have chest pain, shortness of breath, or new cardiovascular symptoms",
+      "You are pregnant, planning pregnancy, or breastfeeding (statins are contraindicated in pregnancy)",
+      "You have never been diagnosed with hyperlipidemia and need initial cardiovascular risk assessment",
+      "You have had no lipid panel within the past 12 or more months and are requesting dose changes",
+      "You have triglycerides above 500 mg/dL (pancreatitis risk requiring urgent management)"
+    ],
+    "notEligibleDisclaimer": "If you have red-flag symptoms including severe muscle pain with dark urine, new jaundice, or chest pain, seek urgent in-person care or emergency care immediately. TeleDirectMD is not an emergency service."
+  },
+
+  "howItWorks": {
+    "sectionTitle": "How Online Cholesterol Medication Refills Work in {state}",
+    "steps": [
+      {
+        "type": "check",
+        "title": "Book your visit and prepare key details",
+        "description": "Before your video visit, gather your current cholesterol medication name and dose, note when your last lipid panel was done and what the results were, and be prepared to describe any muscle aches, weakness, or side effects. A photo of the medication label or recent lab results is helpful."
+      },
+      {
+        "type": "check",
+        "title": "See a {state} licensed MD by video",
+        "description": "We review your current statin or lipid-lowering regimen, adherence history, most recent lipid panel and liver function results, any muscle symptoms or side effects, and whether this looks like a stable refill request or a situation that needs updated labs or in-person cardiovascular evaluation."
+      },
+      {
+        "type": "good",
+        "title": "Get a short bridge plan and refills when appropriate",
+        "description": "If refill treatment is clinically appropriate, we send an e-prescription to common {state} pharmacies such as {pharmacies}. You also receive clear instructions about when to get updated lab work, when to follow up with your primary care physician or cardiologist, and what symptoms should prompt immediate in-person evaluation.",
+        "showCta": true
+      }
+    ]
+  },
+
+  "telehealthRegulations": {
+    "sectionTitle": "{state} Telehealth Regulations for Online Cholesterol Medication Refill Care",
+    "paragraphs": [
+      "{telehealthRegulation}",
+      "Location matters: you must be physically in {state} during the visit. Insurance is not required. TeleDirectMD does not prescribe controlled substances."
+    ]
+  },
+
+  "comparisonTable": {
+    "sectionTitle": "TeleDirectMD vs Other Care Options for Cholesterol Medication Refills in {state}",
+    "intro": "Here is how TeleDirectMD compares to common settings for adult cholesterol medication refill care in {state}:",
+    "rows": [
+      {
+        "option": "TeleDirectMD",
+        "cost": "Self pay option starting at $49",
+        "wait": "Same day, often within hours",
+        "provider": "Board-certified MD only (no mid-levels)",
+        "bestFor": "Stable statin and lipid-lowering medication refill requests, bridge refill care with safety screening, and clear follow-up guidance",
+        "highlight": true
+      },
+      {
+        "option": "Urgent Care",
+        "cost": "$150 to $300+ (before insurance)",
+        "wait": "1 to 3 hours typical",
+        "provider": "MD, DO, PA, or NP",
+        "bestFor": "Same-day in-person evaluation when new symptoms such as severe muscle pain or chest pain develop on statin therapy",
+        "highlight": false
+      },
+      {
+        "option": "Emergency Room",
+        "cost": "$500 to $3,000+ (before insurance)",
+        "wait": "2 to 6 hours typical",
+        "provider": "Emergency medicine MD or DO",
+        "bestFor": "Suspected rhabdomyolysis with dark urine and severe muscle pain, chest pain, or acute cardiovascular events",
+        "highlight": false
+      },
+      {
+        "option": "Primary Care or Cardiology",
+        "cost": "$100 to $350+ (varies)",
+        "wait": "Days to weeks",
+        "provider": "MD or DO",
+        "bestFor": "Long-term lipid management, cardiovascular risk assessment, statin dose optimization, lab monitoring, and management of statin intolerance",
+        "highlight": false
+      }
+    ],
+    "bottomLine": "TeleDirectMD is a strong fit for selected adult cholesterol medication refill requests when the patient is stable on their current regimen and the visit is clearly a bridge refill rather than a new diagnosis, dose escalation without labs, or active side effect crisis."
+  },
+
+  "decisionGuide": {
+    "sectionTitle": "Should I Use TeleDirectMD for Cholesterol Medication Refills in {state}? Decision Guide",
+    "steps": [
+      {
+        "type": "urgent",
+        "title": "Do you have emergency warning signs?",
+        "items": [
+          "Severe muscle pain with weakness or dark brown urine (possible rhabdomyolysis)",
+          "New jaundice, severe right upper abdominal pain, or other liver dysfunction signs",
+          "Chest pain, shortness of breath, or new cardiovascular symptoms",
+          "Confusion, severe fatigue, or fever with muscle symptoms"
+        ],
+        "yesAction": "If yes, go to urgent care or the ER now depending on severity",
+        "noAction": "If no, continue to Step 2"
+      },
+      {
+        "type": "check",
+        "title": "Are you 18+ and currently in {state}?",
+        "items": [],
+        "yesAction": "If yes, continue to Step 3",
+        "noAction": "If no, use in-person care as appropriate"
+      },
+      {
+        "type": "check",
+        "title": "Does this sound like a stable refill request?",
+        "items": [
+          "You are requesting a refill of a cholesterol medication you already take",
+          "Your lipid levels have been reasonably controlled on your current regimen",
+          "You have had a lipid panel within the past 12 months or can provide recent results",
+          "You are not experiencing significant muscle pain, weakness, or new side effects",
+          "You are not pregnant, planning pregnancy, or breastfeeding"
+        ],
+        "yesAction": "If yes, continue to Step 4",
+        "noAction": "If no, in-person evaluation with updated labs is often preferred"
+      },
+      {
+        "type": "good",
+        "title": "You may be appropriate for a TeleDirectMD video visit",
+        "description": "You can receive short bridge refills of your current cholesterol medication when clinically appropriate, along with clear follow-up instructions for lab monitoring and primary care or cardiology follow-up. If your situation suggests statin intolerance, inadequate response, or the need for therapy adjustment, we will direct you to in-person care with updated labs.",
+        "items": [],
+        "showCta": true
+      }
+    ]
+  },
+
+  "pricing": {
+    "sectionTitle": "What Do Online Cholesterol Medication Refills Cost in {state}?",
+    "subtitle": "Transparent options. Insurance is not required.",
+    "visitPrice": "$49",
+    "priceSubtext": "Self pay option. Insurance is not required.",
+    "includes": [
+      "MD evaluation and red-flag screening",
+      "Statin and lipid-lowering medication refill review",
+      "Safety screening for myalgia, liver dysfunction, and drug interactions",
+      "Short bridge refills when clinically appropriate",
+      "Clear follow-up and lab monitoring instructions"
+    ],
+    "comparisonBars": [
+      { "name": "TeleDirectMD", "value": "$49", "width": 12, "isTdmd": true },
+      { "name": "Primary Care or Cardiology", "value": "$100 to $350+", "width": 52, "isTdmd": false },
+      { "name": "Urgent Care", "value": "$150 to $300+", "width": 60, "isTdmd": false },
+      { "name": "Emergency Room", "value": "$500 to $3,000+", "width": 100, "isTdmd": false }
+    ],
+    "footnote": "Prescription costs are separate and vary by medication and pharmacy. Generic statins such as atorvastatin and simvastatin are typically $4 to $15 per month at most pharmacies.",
+    "noHiddenFees": "No hidden fees. If medication is not clinically appropriate, you still receive a complete evaluation, guidance, and clear instructions on what level of care you need next."
+  },
+
+  "whatIsCondition": {
+    "sectionTitle": "What Is Hyperlipidemia Refill Care?",
+    "paragraphs": [
+      "Hyperlipidemia refill care means reviewing whether it is safe and appropriate to continue a patient's current cholesterol-lowering medication, typically a statin, when they are running low or out of medication. High cholesterol affects approximately 94 million US adults with total cholesterol above 200 mg/dL, and statins are the most prescribed drug class in the United States.",
+      "The ACC/AHA 2018 Guideline on the Management of Blood Cholesterol identifies statins as the foundation of ASCVD risk reduction, lowering cardiovascular event risk by 25 to 35 percent depending on intensity. Abrupt discontinuation of statin therapy is associated with increased cardiovascular event risk, making timely refills clinically important for patients on established regimens.",
+      "A safe telehealth refill depends on whether the patient is stable on their current regimen, has had recent lipid panel monitoring, and is not experiencing significant side effects. Refill care is not the same as initiating statin therapy for the first time, managing complex statin intolerance, or adjusting doses without current lab results."
+    ]
+  },
+
+  "causesAndRiskFactors": {
+    "sectionTitle": "Causes and Risk Factors",
+    "intro": "Adults request cholesterol medication refills for many reasons, but some refill requests reveal gaps in monitoring, emerging side effects, or situations where a simple bridge refill may not be sufficient without updated labs or in-person evaluation.",
+    "items": [
+      { "label": "Running out of statin medication:", "text": "the most common reason for urgent refill requests. Interrupting statin therapy can increase cardiovascular event risk, making timely refills important for adults on established regimens." },
+      { "label": "Insurance or pharmacy disruption:", "text": "coverage changes, prior authorization delays, or switching pharmacies can lead to gaps in statin supply even when the patient is stable and adherent." },
+      { "label": "Muscle symptoms (myalgia):", "text": "statin-associated muscle pain is the most common side effect, affecting 5 to 10 percent of users. Mild myalgia does not always require stopping the statin, but severe pain with weakness or dark urine requires urgent evaluation for rhabdomyolysis." },
+      { "label": "Missed follow-up appointments:", "text": "patients who have been stable may delay primary care visits, leading to medication running out before their next scheduled appointment." },
+      { "label": "No recent lab monitoring:", "text": "lipid panels should be checked at least annually on statin therapy. Patients requesting refills without recent labs may need in-person follow-up with bloodwork before a safe refill decision can be made." },
+      { "label": "Dietary and lifestyle factors:", "text": "poor dietary adherence, weight gain, or reduced physical activity can worsen lipid levels even on statin therapy, potentially indicating a need for regimen reassessment rather than simple refill." }
+    ],
+    "closing": "Not every refill request is a routine refill. Some reflect gaps in lab monitoring, emerging side effects, or inadequate response that may need in-person evaluation and updated labs rather than simple continuation of the same regimen."
+  },
+
+  "symptomsAndRedFlags": {
+    "sectionTitle": "Symptoms and Red Flags for Cholesterol Medication Refills in {state}",
+    "intro": "Use this table to understand which refill scenarios may fit short bridge telehealth care and which patterns suggest urgent in-person evaluation.",
+    "headers": ["Symptom or situation", "What it suggests", "Telehealth appropriate?", "Red flag requiring urgent in-person care"],
+    "rows": [
+      ["Needs refill of current statin and is tolerating it well with recent labs", "Routine bridge refill request", "Often yes", "Not a red flag if labs are recent and patient is stable"],
+      ["Mild muscle aches on statin but tolerable and stable", "Common statin myalgia, may be manageable", "Sometimes", "Severe muscle pain with weakness, dark urine, or elevated CK suggests rhabdomyolysis"],
+      ["Out of statin medication but no symptoms and lipids were controlled at last check", "Bridge refill may be reasonable", "Often yes", "If no lipid panel in over 12 months, updated labs should precede dose continuation"],
+      ["Severe muscle pain, weakness, or dark brown urine", "Possible rhabdomyolysis — a rare but serious statin complication", "No", "Emergency evaluation now with CK and renal function testing"],
+      ["New jaundice, severe abdominal pain, or nausea on statin therapy", "Possible hepatotoxicity", "No", "Urgent in-person evaluation with liver function testing"],
+      ["Chest pain, shortness of breath, or new cardiovascular symptoms", "Possible acute cardiovascular event regardless of cholesterol medication status", "No", "Emergency evaluation now"],
+      ["Pregnant, planning pregnancy, or breastfeeding on statin therapy", "Statins are contraindicated in pregnancy", "No", "Urgent in-person evaluation and medication review — statins must be stopped"],
+      ["Triglycerides above 500 mg/dL on current therapy", "Significant pancreatitis risk requiring urgent management", "No", "In-person evaluation with lipid specialist or gastroenterology referral"]
+    ]
+  },
+
+  "differentialDiagnosis": {
+    "sectionTitle": "Differential Diagnosis and Complications",
+    "intro": "Cholesterol medication refill requests must be distinguished from situations where new symptoms, inadequate monitoring, or changing clinical circumstances make a simple refill unsafe without further evaluation.",
+    "telehealthAppropriate": {
+      "title": "Sometimes Appropriate for Telehealth Bridge Guidance",
+      "items": [
+        "Stable refill of current statin with recent lipid panel showing adequate control",
+        "Short bridge refill of an established lipid-lowering regimen",
+        "Review of mild statin side effects that are tolerable and stable",
+        "Guidance on statin timing, food interactions, and adherence questions",
+        "Basic refill planning before follow-up with primary care or cardiology"
+      ]
+    },
+    "requiresInPerson": {
+      "title": "Often Requires In-Person Evaluation",
+      "items": [
+        "Severe muscle pain, weakness, or dark urine (rhabdomyolysis concern)",
+        "New liver dysfunction symptoms including jaundice or severe abdominal pain",
+        "No lipid panel within the past 12 or more months with dose change requests",
+        "Very high LDL above 190 mg/dL not responding to current statin (possible familial hypercholesterolemia needing specialist)",
+        "Need for PCSK9 inhibitor initiation or complex lipid management (usually cardiologist or lipid specialist)"
+      ]
+    },
+    "compareCards": [
+      {
+        "title": "Stable Refill Need vs Statin Intolerance",
+        "text": "A stable refill request means the patient is tolerating their statin without significant side effects and lipid levels are controlled. Statin intolerance typically presents as persistent myalgia that interferes with daily activities, elevated CK levels, or symptoms that resolve with discontinuation and recur with rechallenge. True statin intolerance may require switching to a different statin, lowering the dose, or adding non-statin therapy such as ezetimibe."
+      },
+      {
+        "title": "Statin Myalgia vs Rhabdomyolysis",
+        "text": "Statin myalgia is common, affecting 5 to 10 percent of users, and typically presents as mild to moderate muscle aches without CK elevation. Rhabdomyolysis is rare but life-threatening, presenting with severe muscle pain, marked weakness, dark brown urine from myoglobinuria, and CK levels typically above 10 times the upper limit of normal. Rhabdomyolysis requires emergency evaluation and immediate statin discontinuation."
+      },
+      {
+        "title": "Hyperlipidemia vs Familial Hypercholesterolemia",
+        "text": "Common hyperlipidemia is typically polygenic and responds well to standard statin therapy. Familial hypercholesterolemia (FH) is a genetic disorder causing very high LDL levels, often above 190 mg/dL, from birth. FH often requires high-intensity statin therapy combined with ezetimibe and sometimes PCSK9 inhibitors, and is typically managed by a lipid specialist or cardiologist."
+      }
+    ],
+    "closing": "If your symptoms do not match a lower-risk bridge refill scenario or any red flags are present, TeleDirectMD will direct you to urgent in-person care or primary care with updated lab work."
+  },
+
+  "telehealthEligibility": {
+    "sectionTitle": "When Is a Video Visit Appropriate?",
+    "appropriate": {
+      "title": "When a Video Visit Is Appropriate",
+      "items": [
+        "You are requesting a refill of a cholesterol medication you already take",
+        "You are tolerating your current medication without severe side effects",
+        "You have had a lipid panel within the past 12 months or can provide recent results",
+        "You are not experiencing severe muscle pain, weakness, or dark urine",
+        "You are not pregnant, planning pregnancy, or breastfeeding",
+        "You understand this may be bridge refill care, not comprehensive lipid management redesign",
+        "Located in {state} at time of visit"
+      ]
+    },
+    "redFlags": {
+      "title": "Red Flags Requiring In-Person or ER Care",
+      "items": [
+        "Severe muscle pain with weakness or dark brown urine (possible rhabdomyolysis)",
+        "New jaundice, severe abdominal pain, or signs of liver dysfunction",
+        "Chest pain, shortness of breath, or acute cardiovascular symptoms",
+        "Pregnant, planning pregnancy, or breastfeeding (statins are contraindicated)",
+        "Triglycerides above 500 mg/dL (pancreatitis risk)",
+        "No lipid panel in over 12 months with dose change requests"
+      ],
+      "disclaimer": "If any red-flag symptoms are present, seek urgent in-person or emergency care. TeleDirectMD is not an emergency service."
+    }
+  },
+
+  "treatmentOptions": {
+    "sectionTitle": "Treatment Options",
+    "intro": "Evidence-based lipid management centers on statin therapy as the cornerstone of ASCVD risk reduction. The ACC/AHA 2018 Guideline identifies four statin benefit groups: patients with clinical ASCVD, those with LDL 190 mg/dL or above, adults aged 40 to 75 with diabetes, and adults aged 40 to 75 with elevated 10-year ASCVD risk. Refill care focuses on continuing established therapy, not initiating new treatment from scratch.",
+    "sections": [
+      {
+        "title": "Bridge statin refills",
+        "text": "For stable adults who have run low on an established statin prescription, a short bridge refill may be reasonable if there are no signs of significant side effects, recent labs show adequate control, and the patient is not pregnant. Abrupt statin discontinuation is associated with increased cardiovascular event risk, making continuity of therapy clinically important."
+      },
+      {
+        "title": "Bridge non-statin lipid-lowering medication refills",
+        "text": "For adults already taking non-statin agents such as ezetimibe as part of their established regimen, refill continuity helps maintain LDL-C reduction. Ezetimibe 10 mg is commonly used as add-on therapy to statins or as monotherapy in statin-intolerant patients."
+      },
+      {
+        "title": "Lifestyle reinforcement during refill visits",
+        "text": "Refill visits are an opportunity to reinforce lifestyle measures that complement pharmacotherapy. The ACC/AHA guidelines emphasize heart-healthy diet, regular aerobic exercise, weight management, smoking cessation, and limited alcohol intake as adjuncts to statin therapy for optimal cardiovascular risk reduction."
+      },
+      {
+        "title": "When refill care is not enough",
+        "text": "If significant muscle symptoms, abnormal liver function, no recent lab monitoring, inadequate LDL response, very high triglycerides, or pregnancy concerns are present, a refill-only visit is insufficient. These situations require in-person evaluation with updated lab work and possible referral to cardiology or a lipid specialist."
+      }
+    ],
+    "doesNotManage": [
+      "New hyperlipidemia diagnosis requiring initial cardiovascular risk assessment",
+      "PCSK9 inhibitor initiation or injectable lipid-lowering therapy (usually specialist-managed)",
+      "Severe statin intolerance requiring complex rechallenge protocols",
+      "Very high triglycerides above 500 mg/dL requiring urgent management",
+      "Comprehensive cardiovascular risk assessment with coronary calcium scoring"
+    ]
+  },
+
+  "medications": {
+    "sectionTitle": "Common Medication Options",
+    "intro": "These are the primary cholesterol-lowering medications discussed for adult refill care. Medication choice depends on the patient's established regimen, current lipid levels, cardiovascular risk category, side effect history, and whether the request is truly a stable refill request.",
+    "headers": ["Option", "Examples", "Used for", "Key considerations"],
+    "rows": [
+      ["High-intensity statin", "Atorvastatin 40-80 mg, rosuvastatin 20-40 mg", "Patients with clinical ASCVD or high cardiovascular risk requiring LDL reduction of 50 percent or more", "Most effective LDL-lowering. Atorvastatin and simvastatin have grapefruit interaction (CYP3A4). Not controlled substances. Contraindicated in pregnancy."],
+      ["Moderate-intensity statin", "Atorvastatin 10-20 mg, rosuvastatin 5-10 mg, simvastatin 20-40 mg, pravastatin 40-80 mg", "Primary prevention in adults with diabetes or elevated 10-year ASCVD risk requiring LDL reduction of 30 to 49 percent", "Simvastatin is more effective when taken at bedtime. Pravastatin has fewer drug interactions and no grapefruit interaction. Not controlled substances."],
+      ["Low-intensity statin", "Simvastatin 10 mg, pravastatin 10-20 mg", "Patients who cannot tolerate higher statin doses or who have lower cardiovascular risk", "May be used when higher intensity causes intolerable side effects. Some LDL reduction is better than none. Not controlled substances."],
+      ["Cholesterol absorption inhibitor", "Ezetimibe 10 mg", "Add-on to statin therapy for additional LDL lowering, or monotherapy for statin-intolerant patients", "Reduces LDL by an additional 15 to 20 percent. Generally well tolerated. Can be combined with any statin. Not a controlled substance."],
+      ["Bempedoic acid", "Bempedoic acid 180 mg (Nexletol), bempedoic acid/ezetimibe (Nexlizet)", "Alternative for statin-intolerant patients or add-on when statin plus ezetimibe is insufficient", "ACL inhibitor that works in the liver, not muscle, so less myalgia risk. Can increase uric acid. Usually managed by primary care or cardiology. Not a controlled substance."],
+      ["Omega-3 fatty acid (prescription)", "Icosapent ethyl 2 g twice daily (Vascepa)", "Elevated triglycerides in patients already on statin therapy with ASCVD or high triglycerides", "REDUCE-IT trial showed cardiovascular benefit. Different from OTC fish oil supplements. Usually initiated by primary care or cardiology. Not a controlled substance."]
+    ],
+    "note": "Medication selection and dosing are individualized by the MD after reviewing your lipid levels, cardiovascular risk, current regimen, side effect history, and overall health. All cholesterol medications listed are not controlled substances. TeleDirectMD does not prescribe controlled substances, and refill treatment online is intended as bridge care when clinically appropriate."
+  },
+
+  "homeCare": {
+    "sectionTitle": "Home Care, Prevention, and Follow-up",
+    "whatToDoNow": {
+      "title": "What to Do Now",
+      "items": [
+        "Take your statin at a consistent time each day. If you take simvastatin, take it at bedtime for optimal effectiveness",
+        "Avoid grapefruit and grapefruit juice if you take atorvastatin or simvastatin, as grapefruit inhibits CYP3A4 and can increase statin blood levels and side effect risk",
+        "Maintain a heart-healthy diet emphasizing vegetables, fruits, whole grains, lean proteins, and limited saturated fat and sodium",
+        "Continue regular aerobic exercise of at least 150 minutes per week as tolerated",
+        "Do not stop your statin on your own without discussing with your physician, as abrupt discontinuation increases cardiovascular event risk"
+      ]
+    },
+    "whatToWatch": {
+      "title": "What to Watch For After Refill",
+      "items": [
+        "New or worsening muscle pain, tenderness, weakness, or cramping. Mild myalgia is common but severe or progressive symptoms need prompt evaluation",
+        "Dark brown urine, which can indicate myoglobinuria from rhabdomyolysis and requires emergency evaluation",
+        "Yellowing of the skin or eyes (jaundice) or new severe abdominal pain suggesting liver dysfunction",
+        "New onset of increased thirst, frequent urination, or unexplained weight loss, which may suggest new-onset diabetes (a small risk with statin therapy)"
+      ]
+    },
+    "followUp": {
+      "title": "Follow-up Timing",
+      "items": [
+        "Get a fasting lipid panel at least annually while on statin therapy to confirm LDL-C remains at goal",
+        "If you have not had blood work in over 12 months, schedule lab work with your primary care physician before relying on repeated bridge refills",
+        "If muscle symptoms develop or worsen, follow up sooner rather than continuing to refill without evaluation",
+        "If you are a woman of childbearing age, discuss contraception with your physician, as statins are contraindicated in pregnancy",
+        "If emergency warning signs develop including severe muscle pain with dark urine, chest pain, or jaundice, go to urgent care or the ER immediately"
+      ]
+    }
+  },
+
+  "whenNotToUse": {
+    "sectionTitle": "When Not to Use TeleDirectMD for Cholesterol Medication Refills in {state}",
+    "intro": "TeleDirectMD is designed for selected short bridge refill care only. We are direct about when telehealth is not the right fit.",
+    "shouldNotUse": {
+      "title": "You Should Not Use TeleDirectMD If",
+      "items": [
+        "You have severe muscle pain, weakness, or dark brown urine (possible rhabdomyolysis)",
+        "You have new jaundice, severe abdominal pain, or signs of liver dysfunction",
+        "You have chest pain, shortness of breath, or new cardiovascular symptoms",
+        "You are pregnant, planning pregnancy, or breastfeeding (statins are contraindicated)",
+        "You have never been diagnosed and need initial cardiovascular risk assessment and lipid workup",
+        "You need PCSK9 inhibitor initiation or complex lipid specialist management",
+        "You have triglycerides above 500 mg/dL requiring urgent evaluation",
+        "You are under 18 years old",
+        "You are not physically in {state} at the time of visit"
+      ]
+    },
+    "alternatives": {
+      "title": "Alternative Care Options",
+      "items": [
+        { "label": "Emergency room:", "text": "suspected rhabdomyolysis with dark urine and severe muscle pain, acute chest pain, or cardiovascular emergency" },
+        { "label": "Urgent care:", "text": "new significant muscle symptoms on statin therapy, new liver dysfunction signs, or moderately concerning side effects requiring same-day evaluation" },
+        { "label": "Primary care or cardiology:", "text": "long-term lipid management, cardiovascular risk assessment, statin dose optimization, lab monitoring, statin intolerance workup, and PCSK9 inhibitor evaluation" }
+      ]
+    }
+  },
+
+  "faq": {
+    "sectionTitle": "Cholesterol Medication Refill FAQs for {state}",
+    "items": [
+      {
+        "question": "Can I get cholesterol medication refills online in {state}?",
+        "answer": "Yes, selected adults in {state} may be appropriate for a short bridge telehealth visit for statin or lipid-lowering medication refills after red-flag screening. TeleDirectMD can help with refill care when clinically appropriate for patients already on an established cholesterol medication regimen."
+      },
+      {
+        "question": "How much does an online cholesterol medication refill visit cost in {state}?",
+        "answer": "TeleDirectMD offers a transparent self pay option starting at $49 for an adult video visit in {state}. Insurance is not required. Prescription costs are separate and vary by medication and pharmacy. Generic statins such as atorvastatin and simvastatin are typically $4 to $15 per month at most pharmacies."
+      },
+      {
+        "question": "Can I refill my statin online?",
+        "answer": "Often, yes, if this is part of your established regimen, your lipid levels have been controlled, you have had a lipid panel within the past 12 months, and you are not experiencing significant side effects. Statins are not controlled substances. TeleDirectMD provides bridge refill care when clinically appropriate."
+      },
+      {
+        "question": "What is the most common side effect of statins?",
+        "answer": "Statin-associated myalgia, or muscle pain, is the most common side effect, affecting approximately 5 to 10 percent of users. Symptoms are typically mild to moderate muscle aches without CK elevation. Severe muscle pain with weakness or dark urine is rare and may indicate rhabdomyolysis, which requires emergency evaluation."
+      },
+      {
+        "question": "Can I eat grapefruit while taking a statin?",
+        "answer": "Grapefruit and grapefruit juice interact with statins metabolized by CYP3A4, including atorvastatin and simvastatin, by increasing statin blood levels and the risk of side effects. Pravastatin and rosuvastatin do not have a significant grapefruit interaction. Discuss specific dietary questions with your physician."
+      },
+      {
+        "question": "Are statins safe during pregnancy?",
+        "answer": "No. Statins are contraindicated in pregnancy and should not be taken by women who are pregnant, planning pregnancy, or breastfeeding. If you are a woman of childbearing age taking a statin, discuss contraception with your physician."
+      },
+      {
+        "question": "How often do I need blood work while on a statin?",
+        "answer": "The ACC/AHA guidelines recommend a fasting lipid panel at least annually to confirm that LDL-C remains at goal. Liver function testing is recommended if symptoms of hepatotoxicity develop. CK levels should be checked if significant muscle pain or weakness occurs. If you have not had lab work in over 12 months, schedule blood work with your primary care physician."
+      },
+      {
+        "question": "What happens if I stop taking my statin?",
+        "answer": "Abrupt discontinuation of statin therapy is associated with increased cardiovascular event risk. LDL cholesterol levels typically return to pre-treatment levels within weeks of stopping. Do not stop your statin without discussing with your physician."
+      },
+      {
+        "question": "Should I take my statin in the morning or at night?",
+        "answer": "It depends on the statin. Simvastatin should be taken at bedtime because it has a shorter half-life and works best when taken at night, when the liver produces the most cholesterol. Atorvastatin and rosuvastatin have longer half-lives and can be taken at any consistent time of day."
+      },
+      {
+        "question": "When should I go to urgent care or the ER for statin-related symptoms?",
+        "answer": "Seek urgent in-person care for severe muscle pain with weakness or dark brown urine, which may indicate rhabdomyolysis. Also seek emergency care for new jaundice, severe abdominal pain, chest pain, or shortness of breath. These symptoms require immediate evaluation with lab work."
+      },
+      {
+        "question": "Can I use my insurance for a TeleDirectMD visit?",
+        "answer": "Insurance is not required. If your plan is eligible, you may be able to use insurance. A self pay option is also available."
+      },
+      {
+        "question": "Does {state} allow telemedicine for this kind of visit?",
+        "answer": "Yes. {state} allows licensed professionals to provide telemedicine within their scope when appropriate and according to accepted standards of care."
+      },
+      {
+        "question": "Can TeleDirectMD provide cholesterol medication refill care in other states?",
+        "answer": "Yes. TeleDirectMD offers adult evaluations via video visits across multiple states. You must be physically located in the state where you are requesting care at the time of the visit."
+      }
+    ],
+    "bottomCta": {
+      "title": "Need help today?",
+      "text": "Insurance is not required. Adult-only video visits. MD-only care. Safety-first triage, short bridge refills when appropriate, and clear next steps."
+    }
+  },
+
+  "references": [
+    { "text": "ACC/AHA 2018 Guideline on the Management of Blood Cholesterol", "url": "https://www.ahajournals.org/doi/10.1161/CIR.0000000000000625" },
+    { "text": "ACC/AHA 2026 Updated Guideline on the Management of Dyslipidemia", "url": "https://professional.heart.org/en/science-news/2026-guideline-on-the-management-of-dyslipidemia" },
+    { "text": "Statin Safety and Associated Adverse Events, StatPearls (2025)", "url": "https://www.ncbi.nlm.nih.gov/books/NBK541024/" },
+    { "text": "Hyperlipidemia Overview, StatPearls (2025)", "url": "https://www.ncbi.nlm.nih.gov/books/NBK559182/" },
+    { "text": "ACC ASCVD Risk Estimator Plus", "url": "https://tools.acc.org/ascvd-risk-estimator-plus/" }
+  ],
+
+  "disclaimer": {
+    "sectionTitle": "TeleDirectMD Telehealth Disclaimer",
+    "paragraphs": [
+      "TeleDirectMD provides MD-only virtual care for adults (18+) in {state} using secure video visits to evaluate cholesterol medication refill requests, provide evidence-based guidance, and prescribe short bridge refill treatment when clinically appropriate. Insurance is not required. You must be physically located in {state} at the time of your video visit. TeleDirectMD does not prescribe controlled substances.",
+      "TeleDirectMD is not an emergency service and is not a replacement for urgent in-person care during suspected rhabdomyolysis, liver dysfunction, or acute cardiovascular events. This service is intended for selected stable refill requests and is not a substitute for comprehensive lipid management, cardiovascular risk assessment, or specialist evaluation when clinically indicated.",
+      "Online cholesterol medication refills in {state}. Statin refill online. Atorvastatin refill. Rosuvastatin refill. Lipid-lowering medication bridge care."
+    ]
+  },
+
+  "relatedConditions": [
+    {
+      "slug": "asthma-refills-online",
+      "title": "Asthma Refills",
+      "description": "Another common chronic medication refill pathway for adults managed by TeleDirectMD"
+    },
+    {
+      "slug": "smoking-cessation-treatment-online",
+      "title": "Smoking Cessation Treatment",
+      "description": "Smoking is a major modifiable cardiovascular risk factor that compounds hyperlipidemia risk"
+    },
+    {
+      "slug": "gout-treatment-online",
+      "title": "Gout Treatment",
+      "description": "Metabolic condition with overlapping cardiovascular risk factors including dyslipidemia"
+    },
+    {
+      "slug": "covid-19-treatment-online",
+      "title": "COVID-19 Treatment",
+      "description": "Acute illness requiring medication review that may interact with chronic medications"
+    }
+  ],
+
+  "inlineLinks": [
+    { "slug": "asthma-refills-online", "label": "Asthma Refills" },
+    { "slug": "smoking-cessation-treatment-online", "label": "Smoking Cessation Treatment" },
+    { "slug": "gout-treatment-online", "label": "Gout Treatment" },
+    { "slug": "covid-19-treatment-online", "label": "COVID-19 Treatment" },
+    { "slug": "erectile-dysfunction-treatment-online", "label": "Erectile Dysfunction Treatment" },
+    { "slug": "hair-loss-treatment-online", "label": "Hair Loss Treatment" },
+    { "slug": "excessive-sweating-treatment-online", "label": "Excessive Sweating Treatment" },
+    { "slug": "eczema-treatment-online", "label": "Eczema Treatment" },
+    { "slug": "sinus-infection-treatment-online", "label": "Sinus Infection Treatment" },
+    { "slug": "uti-treatment-online", "label": "UTI Treatment" }
+  ],
+
+  "cityBlock": {
+    "title": "Adults We Serve Across {state}",
+    "text": "TeleDirectMD evaluates adults located throughout {state}, including {citiesExtended}. Whether you are searching for online cholesterol medication refills in {city1}, statin refills in {city2}, lipid-lowering medication bridge care in {city3}, or hyperlipidemia refill care anywhere else in {state}, the same telehealth eligibility and safety rules apply."
+  },
+
+  "icd10Codes": [
+    { "code": "E78.5", "description": "Hyperlipidemia, unspecified" },
+    { "code": "E78.00", "description": "Pure hypercholesterolemia, unspecified" }
+  ],
+
+  "jsonLd": {
+    "conditionName": "Hyperlipidemia",
+    "conditionAlternateNames": ["High cholesterol", "Dyslipidemia", "Hypercholesterolemia", "Statin refill care", "Cholesterol medication refill"],
+    "conditionDescription": "Hyperlipidemia refill care involves reviewing whether it is safe and appropriate to continue a patient's established cholesterol-lowering medication, typically a statin. TeleDirectMD evaluates adult refill requests by video visit with safety-first red-flag screening for rhabdomyolysis, liver dysfunction, and inadequate monitoring, and provides short bridge refill guidance when clinically appropriate.",
+    "primaryIcd10": "E78.5",
+    "anatomy": "Cardiovascular system",
+    "symptoms": ["Elevated LDL cholesterol", "Elevated total cholesterol", "Elevated triglycerides", "Typically asymptomatic until cardiovascular complications develop"],
+    "riskFactors": [
+      "Family history of hyperlipidemia or premature cardiovascular disease",
+      "Sedentary lifestyle and poor dietary habits",
+      "Obesity",
+      "Diabetes mellitus",
+      "Hypothyroidism",
+      "Smoking"
+    ],
+    "complications": [
+      "Atherosclerotic cardiovascular disease",
+      "Myocardial infarction",
+      "Stroke",
+      "Peripheral artery disease",
+      "Statin-associated myalgia",
+      "Rhabdomyolysis (rare)"
+    ],
+    "epidemiology": "Hyperlipidemia affects approximately 94 million US adults with total cholesterol above 200 mg/dL. Statins are the most prescribed drug class in the United States and reduce ASCVD risk by 25 to 35 percent.",
+    "drugs": [
+      { "name": "Atorvastatin", "id": "atorvastatin" },
+      { "name": "Rosuvastatin", "id": "rosuvastatin" },
+      { "name": "Simvastatin", "id": "simvastatin" },
+      { "name": "Pravastatin", "id": "pravastatin" },
+      { "name": "Ezetimibe", "id": "ezetimibe" },
+      { "name": "Bempedoic acid", "id": "bempedoic-acid" }
+    ],
+    "treatments": [
+      "Statin therapy (high, moderate, or low intensity)",
+      "Ezetimibe add-on therapy",
+      "Lifestyle modifications including heart-healthy diet and exercise",
+      "Short bridge refill care for established regimens"
+    ],
+    "tests": [
+      "Fasting lipid panel (total cholesterol, LDL-C, HDL-C, triglycerides)",
+      "Liver function testing if hepatotoxicity symptoms develop",
+      "Creatine kinase (CK) if significant myalgia"
+    ],
+    "specialties": ["Family Medicine", "Telemedicine", "Cardiology"],
+    "guidelines": [
+      { "name": "ACC/AHA 2018 Guideline on the Management of Blood Cholesterol", "url": "https://www.ahajournals.org/doi/10.1161/CIR.0000000000000625", "publisher": "American College of Cardiology / American Heart Association", "id": "acc-aha-2018" },
+      { "name": "ACC/AHA 2026 Updated Guideline on the Management of Dyslipidemia", "url": "https://professional.heart.org/en/science-news/2026-guideline-on-the-management-of-dyslipidemia", "publisher": "American College of Cardiology / American Heart Association", "id": "acc-aha-2026" },
+      { "name": "ACC ASCVD Risk Estimator Plus", "url": "https://tools.acc.org/ascvd-risk-estimator-plus/", "publisher": "American College of Cardiology", "id": "acc-risk-calc" }
+    ],
+    "knowsAbout": [
+      "Hyperlipidemia refill care",
+      "Statin therapy management",
+      "Cholesterol medication bridge refills",
+      "Statin side effect screening",
+      "Cardiovascular risk reduction",
+      "Telemedicine triage",
+      "Family Medicine"
+    ],
+    "serviceDescription": "Secure video visit for {state} adults requesting cholesterol medication refill care, including red-flag screening for rhabdomyolysis and liver dysfunction, statin refill review, and short bridge refill treatment when clinically appropriate.",
+    "webpageDescription": "{state} cholesterol medication refill care by secure MD video visit for adults. Evidence-based statin refill evaluation, red-flag screening, short bridge refills when appropriate, and clear rules for when in-person care and updated labs are needed."
+  }
+}

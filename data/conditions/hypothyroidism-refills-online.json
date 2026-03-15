@@ -1,0 +1,588 @@
+{
+  "conditionName": "Hypothyroidism Medication Refills",
+  "conditionShort": "hypothyroidism",
+  "conditionSlug": "hypothyroidism-refills-online",
+  "pageTitle": "Hypothyroidism Refills Online in {state} | Levothyroxine Refill MD Video Visit | TeleDirectMD",
+  "metaDescription": "Evidence-based hypothyroidism medication refill care for {state} adults by secure video visit. Levothyroxine refill evaluation, TSH monitoring review, and bridge prescriptions when appropriate. Self pay option starting at $49. Insurance is not required.",
+  "ogImageAlt": "Hypothyroidism medication refills in {state} by TeleDirectMD",
+
+  "hero": {
+    "h1": "Hypothyroidism Medication Refills in {state} (Levothyroxine Refill Care)",
+    "subtitle": "{state} adult care by secure video visit, self pay option starting at $49, MD-only, insurance is not required.",
+    "introParagraph": "Adults with hypothyroidism often need a levothyroxine refill when they are running low on medication but cannot get in to see their regular provider in time. Not every refill request is routine, however, because dose changes without lab confirmation, symptoms of over-replacement, pregnancy, and signs of myxedema all require a different level of care. TeleDirectMD uses a safety-first telemedicine approach by reviewing your current dose, how long you have been on it, your most recent TSH result, current symptoms, and whether you are pregnant or planning pregnancy. The ATA guidelines emphasize that levothyroxine remains the standard of care for hypothyroidism and that TSH should be monitored every 6 to 12 months in stable patients and 6 to 8 weeks after any dose adjustment. If the history supports a stable bridge refill at your current dose, treatment may be reasonable by video visit, while adults with unstable symptoms, no recent labs, pregnancy, or signs of thyroid crisis are directed to in-person evaluation. This page is for adults located in {state}, including {cities}.",
+    "tocLinks": [
+      { "href": "eligibility-checklist", "label": "Eligibility checklist" },
+      { "href": "decision-guide", "label": "Decision guide" },
+      { "href": "treatment-options", "label": "Treatment options" },
+      { "href": "faq", "label": "FAQs" },
+      { "href": "references", "label": "References" }
+    ],
+    "benefits": [
+      "Self pay option starting at $49",
+      "MD-only care (no mid-levels)",
+      "Insurance is not required",
+      "Licensed telehealth care for patients located in {state} at the time of the visit"
+    ],
+    "sideCard": {
+      "h2": "Online MD-Only Hypothyroidism Refill Care in {state}",
+      "features": [
+        "Levothyroxine and thyroid medication refill review",
+        "TSH monitoring history review and dosing safety check",
+        "Short bridge refills at current dose when clinically appropriate",
+        "Clear rules for when in-person evaluation or lab work is needed"
+      ],
+      "note": "Adults 18+ only. TeleDirectMD is not an emergency service. Seek urgent in-person care now for severe confusion, extreme cold intolerance with altered mental status, very low body temperature, profound weakness, chest pain, or fainting. TeleDirectMD does not prescribe controlled substances."
+    },
+    "icd10Display": "E03.9 (final coding depends on clinical details)"
+  },
+
+  "eligibility": {
+    "sectionTitle": "Hypothyroidism Refill Telehealth Eligibility Checklist for {state}",
+    "introText": "You are likely eligible for a TeleDirectMD video visit if ALL of these are true:",
+    "eligible": [
+      "You are 18 years old or older",
+      "You are physically located in {state} at the time of the visit",
+      "You have an established diagnosis of hypothyroidism and are already taking thyroid medication",
+      "You are requesting a refill of your current medication at your current dose",
+      "Your symptoms are stable and near your usual baseline",
+      "You have had a TSH level checked within the past 12 months or can report your most recent result",
+      "You are not pregnant, breastfeeding, or actively planning pregnancy",
+      "Insurance is not required. A self pay option is available."
+    ],
+    "notEligible": [
+      "You are under 18 years old",
+      "You have never been diagnosed with hypothyroidism and are seeking a new diagnosis",
+      "You are pregnant, breastfeeding, or actively planning pregnancy (thyroid dosing needs close monitoring)",
+      "You have severe confusion, extreme cold intolerance, very low body temperature, or profound weakness (possible myxedema crisis)",
+      "You have new chest pain, fainting, palpitations, or severe shortness of breath",
+      "You have symptoms of over-replacement such as unintentional weight loss, tremor, anxiety, rapid heartbeat, or heat intolerance",
+      "You are requesting a dose change without recent lab results",
+      "You have a new thyroid nodule, neck mass, or goiter that has not been evaluated"
+    ],
+    "notEligibleDisclaimer": "If you have red-flag symptoms or need a new hypothyroidism diagnosis, seek in-person evaluation. TeleDirectMD is not an emergency service."
+  },
+
+  "howItWorks": {
+    "sectionTitle": "How Online Hypothyroidism Refills Work in {state}",
+    "steps": [
+      {
+        "type": "check",
+        "title": "Book your visit and prepare key details",
+        "description": "Before your video visit, note your current thyroid medication name and dose, how long you have been on it, your most recent TSH result and when it was checked, and any current symptoms such as fatigue, weight changes, cold intolerance, or palpitations. A photo of your medication bottle label is helpful."
+      },
+      {
+        "type": "check",
+        "title": "See a {state} licensed MD by video",
+        "description": "We review your current thyroid medication, dose stability, most recent TSH level, symptom status, and whether this looks like a stable refill request or a situation needing dose adjustment or in-person evaluation. The ATA guidelines recommend TSH monitoring every 6 to 12 months for stable patients and 6 to 8 weeks after any dose change."
+      },
+      {
+        "type": "good",
+        "title": "Get a short bridge refill when appropriate",
+        "description": "If a bridge refill at your current dose is clinically appropriate, we send an e-prescription to common {state} pharmacies such as {pharmacies}. You also receive clear instructions about when to get your next TSH checked and when in-person follow-up is needed.",
+        "showCta": true
+      }
+    ]
+  },
+
+  "telehealthRegulations": {
+    "sectionTitle": "{state} Telehealth Regulations for Online Hypothyroidism Refill Care",
+    "paragraphs": [
+      "{telehealthRegulation}",
+      "Location matters: you must be physically in {state} during the visit. Insurance is not required. TeleDirectMD does not prescribe controlled substances."
+    ]
+  },
+
+  "comparisonTable": {
+    "sectionTitle": "TeleDirectMD vs Other Care Options for Hypothyroidism Refills in {state}",
+    "intro": "Here is how TeleDirectMD compares to common settings for adult hypothyroidism refill care in {state}:",
+    "rows": [
+      {
+        "option": "TeleDirectMD",
+        "cost": "Self pay option starting at $49",
+        "wait": "Same day, often within hours",
+        "provider": "Board-certified MD only (no mid-levels)",
+        "bestFor": "Stable hypothyroidism refill requests at current dose with recent TSH on file, short bridge care when appropriate",
+        "highlight": true
+      },
+      {
+        "option": "Urgent Care",
+        "cost": "$150 to $300+ (before insurance)",
+        "wait": "1 to 3 hours typical",
+        "provider": "MD, DO, PA, or NP",
+        "bestFor": "Same-day in-person evaluation when symptoms are worsening or new symptoms develop on thyroid medication",
+        "highlight": false
+      },
+      {
+        "option": "Emergency Room",
+        "cost": "$500 to $3,000+ (before insurance)",
+        "wait": "2 to 6 hours typical",
+        "provider": "Emergency medicine MD or DO",
+        "bestFor": "Severe confusion, altered mental status, very low body temperature, chest pain, or suspected myxedema crisis",
+        "highlight": false
+      },
+      {
+        "option": "Primary Care or Endocrinology",
+        "cost": "$100 to $350+ (varies)",
+        "wait": "Days to weeks",
+        "provider": "MD or DO",
+        "bestFor": "Long-term thyroid management, dose titration, lab ordering, thyroid nodule evaluation, and pregnancy-related thyroid care",
+        "highlight": false
+      }
+    ],
+    "bottomLine": "TeleDirectMD is a strong fit for selected adult hypothyroidism refill requests when the patient is stable on their current dose and the visit is clearly a bridge refill rather than a dose change, new diagnosis, or pregnancy-related thyroid management."
+  },
+
+  "decisionGuide": {
+    "sectionTitle": "Should I Use TeleDirectMD for Hypothyroidism Refills in {state}? Decision Guide",
+    "steps": [
+      {
+        "type": "urgent",
+        "title": "Do you have emergency warning signs?",
+        "items": [
+          "Severe confusion, altered mental status, or extreme drowsiness",
+          "Very low body temperature or profound cold intolerance with altered consciousness",
+          "Chest pain, fainting, or severe shortness of breath",
+          "Severe swelling of the face, hands, or feet with breathing difficulty",
+          "Rapid heartbeat, severe tremor, or signs of thyroid storm if over-replaced"
+        ],
+        "yesAction": "If yes, go to urgent care or the ER now depending on severity",
+        "noAction": "If no, continue to Step 2"
+      },
+      {
+        "type": "check",
+        "title": "Are you 18+ and currently in {state}?",
+        "items": [],
+        "yesAction": "If yes, continue to Step 3",
+        "noAction": "If no, use in-person care as appropriate"
+      },
+      {
+        "type": "check",
+        "title": "Does this sound like a stable refill request?",
+        "items": [
+          "You are requesting the same medication at the same dose you have been taking",
+          "Your symptoms are near your usual baseline and not clearly worsening",
+          "You have had a TSH level checked within the past 12 months",
+          "You are not pregnant, breastfeeding, or actively planning pregnancy",
+          "You do not have a new thyroid nodule or neck mass"
+        ],
+        "yesAction": "If yes, continue to Step 4",
+        "noAction": "If no, in-person evaluation is often preferred"
+      },
+      {
+        "type": "good",
+        "title": "You may be appropriate for a TeleDirectMD video visit",
+        "description": "You can receive a short bridge refill of your current thyroid medication when clinically appropriate and clear follow-up instructions including when to get your next TSH checked. If your symptoms suggest dose adjustment is needed or your situation is more complex, we will direct you to in-person evaluation.",
+        "items": [],
+        "showCta": true
+      }
+    ]
+  },
+
+  "pricing": {
+    "sectionTitle": "What Do Online Hypothyroidism Refills Cost in {state}?",
+    "subtitle": "Transparent options. Insurance is not required.",
+    "visitPrice": "$49",
+    "priceSubtext": "Self pay option. Insurance is not required.",
+    "includes": [
+      "MD evaluation and red-flag screening",
+      "Thyroid medication and dosing review",
+      "TSH monitoring history assessment",
+      "Bridge refill at current dose when appropriate",
+      "Clear follow-up and lab timing instructions"
+    ],
+    "comparisonBars": [
+      { "name": "TeleDirectMD", "value": "$49", "width": 12, "isTdmd": true },
+      { "name": "Primary Care or Endocrinology", "value": "$100 to $350+", "width": 52, "isTdmd": false },
+      { "name": "Urgent Care", "value": "$150 to $300+", "width": 60, "isTdmd": false },
+      { "name": "Emergency Room", "value": "$500 to $3,000+", "width": 100, "isTdmd": false }
+    ],
+    "footnote": "Prescription costs are separate and vary by medication and pharmacy. Generic levothyroxine is typically $4 to $15 per month at most pharmacies.",
+    "noHiddenFees": "No hidden fees. If medication is not clinically appropriate, you still receive a complete evaluation, guidance, and clear instructions on what level of care you need next."
+  },
+
+  "whatIsCondition": {
+    "sectionTitle": "What Is Hypothyroidism Refill Care?",
+    "paragraphs": [
+      "Hypothyroidism refill care means reviewing whether it is safe and appropriate to continue a patient's current thyroid medication, most commonly levothyroxine, when they are running low or unable to see their regular provider for a routine refill. Hypothyroidism affects approximately 5 percent of US adults and is more common in women, with Hashimoto's thyroiditis being the most common cause.",
+      "The ATA guidelines establish levothyroxine as the standard of care for hypothyroidism, with TSH monitoring every 6 to 12 months for patients on a stable dose and 6 to 8 weeks after any dose change. Interrupting levothyroxine therapy can lead to return of hypothyroid symptoms including fatigue, weight gain, cold intolerance, constipation, dry skin, and cognitive slowing.",
+      "A safe telehealth refill depends on whether the patient is stable on their current dose with recent TSH monitoring. Refill care is not the same as managing a new hypothyroidism diagnosis, adjusting doses based on new lab results, or managing thyroid disease in pregnancy."
+    ]
+  },
+
+  "causesAndRiskFactors": {
+    "sectionTitle": "Causes and Risk Factors",
+    "intro": "Adults request hypothyroidism medication refills for many reasons, but some refill requests actually reflect dose instability, missed monitoring, or new symptoms that need more than a simple bridge refill.",
+    "items": [
+      { "label": "Running out of levothyroxine:", "text": "the most common reason for urgent refill requests. Interruption of thyroid hormone replacement can cause symptoms to return within 1 to 2 weeks." },
+      { "label": "Hashimoto's thyroiditis:", "text": "the most common cause of hypothyroidism in the US. It is an autoimmune condition that progressively destroys thyroid tissue, requiring lifelong replacement therapy in most cases." },
+      { "label": "Post-surgical or post-ablation hypothyroidism:", "text": "patients who have had thyroidectomy or radioactive iodine treatment require permanent thyroid hormone replacement." },
+      { "label": "Medication interactions:", "text": "calcium supplements, iron supplements, proton pump inhibitors, cholestyramine, and antacids can all reduce levothyroxine absorption if taken too close together." },
+      { "label": "Inconsistent dosing or timing:", "text": "levothyroxine should be taken on an empty stomach 30 to 60 minutes before breakfast at the same time each day. Inconsistent timing can affect TSH levels." },
+      { "label": "Overdue monitoring:", "text": "patients who have not had a TSH level checked in over 12 months may need lab work before a refill is appropriate, especially if symptoms have changed." }
+    ],
+    "closing": "Not every refill request is routine. Some reflect a need for dose adjustment, lab monitoring, or evaluation for a new thyroid condition. TeleDirectMD screens for these situations during the video visit."
+  },
+
+  "symptomsAndRedFlags": {
+    "sectionTitle": "Symptoms and Red Flags for Hypothyroidism Refills in {state}",
+    "intro": "Use this table to understand which refill scenarios may fit short bridge telehealth care and which patterns suggest in-person evaluation or emergency care.",
+    "headers": ["Symptom or situation", "What it suggests", "Telehealth appropriate?", "Red flag requiring urgent in-person care"],
+    "rows": [
+      ["Needs refill of current levothyroxine dose and symptoms are stable", "Routine bridge refill request", "Often yes", "Not a red flag if dose is stable and recent TSH is in range"],
+      ["Mild fatigue or weight gain returning after running out of medication", "Expected symptoms from brief interruption of thyroid hormone", "Often yes", "Severe fatigue with altered mental status or profound weakness"],
+      ["Symptoms of over-replacement: palpitations, weight loss, tremor, anxiety, heat intolerance", "Possible levothyroxine over-dosing or new hyperthyroidism", "Usually no — needs labs and dose adjustment", "Chest pain, severe palpitations, or rapid irregular heartbeat"],
+      ["No TSH checked in over 12 months and requesting dose change", "Overdue monitoring — dose changes need lab confirmation", "No for dose change — refill at current dose may be considered", "Significant symptom changes without recent monitoring"],
+      ["Pregnant or planning pregnancy on thyroid medication", "Thyroid dose often needs 25 to 30 percent increase in pregnancy", "No — needs close in-person monitoring", "Pregnancy with uncontrolled hypothyroidism can harm both mother and fetus"],
+      ["Severe confusion, very low body temperature, extreme drowsiness, profound weakness", "Possible myxedema crisis — life-threatening hypothyroid emergency", "No", "Emergency evaluation now"],
+      ["New neck mass, thyroid nodule, or goiter", "Needs imaging and possible biopsy", "No", "New structural thyroid disease requiring in-person workup"]
+    ]
+  },
+
+  "differentialDiagnosis": {
+    "sectionTitle": "Differential Diagnosis and Complications",
+    "intro": "Not all fatigue and weight gain are from hypothyroidism. Refill visits must separate stable bridge refill requests from situations where symptoms suggest a different or worsening condition.",
+    "telehealthAppropriate": {
+      "title": "Sometimes Appropriate for Telehealth Bridge Guidance",
+      "items": [
+        "Stable hypothyroidism needing levothyroxine refill at current dose",
+        "Short bridge refill of an established thyroid medication",
+        "Review of medication timing and interaction guidance",
+        "Symptom review to confirm stability before refill",
+        "Basic refill planning before follow-up with primary care or endocrinology"
+      ]
+    },
+    "requiresInPerson": {
+      "title": "Often Requires In-Person Evaluation",
+      "items": [
+        "New hypothyroidism diagnosis requiring full thyroid workup including TSH, free T4, and thyroid antibodies",
+        "Dose adjustment needing current lab results",
+        "Pregnancy or planned pregnancy with thyroid disease",
+        "New thyroid nodule, goiter, or neck mass needing ultrasound and possible biopsy",
+        "Symptoms suggesting over-replacement or concurrent hyperthyroidism"
+      ]
+    },
+    "compareCards": [
+      {
+        "title": "Stable Refill Need vs Dose Adjustment Need",
+        "text": "A stable refill request means the patient has been on the same dose with a recent TSH in the target range and symptoms near baseline. A dose adjustment need is more likely when symptoms have changed significantly, TSH is overdue, or the patient reports new palpitations, weight changes, or worsening fatigue despite taking medication consistently."
+      },
+      {
+        "title": "Hypothyroidism vs Other Causes of Fatigue",
+        "text": "Fatigue, weight gain, and cold intolerance are classic hypothyroid symptoms, but they also overlap with depression, iron deficiency anemia, sleep apnea, diabetes, and other conditions. If symptoms do not improve despite adequate thyroid replacement, further evaluation may be needed."
+      },
+      {
+        "title": "Hypothyroidism vs Hyperthyroidism Symptoms on Medication",
+        "text": "Patients on thyroid replacement who develop palpitations, unintentional weight loss, tremor, anxiety, or heat intolerance may be over-replaced. This requires lab confirmation with TSH and free T4 and dose reduction, not simply continuing the current dose."
+      }
+    ],
+    "closing": "If your symptoms do not match a stable bridge refill scenario or any red flags are present, TeleDirectMD will direct you to in-person evaluation with your primary care provider or endocrinologist."
+  },
+
+  "telehealthEligibility": {
+    "sectionTitle": "When Is a Video Visit Appropriate?",
+    "appropriate": {
+      "title": "When a Video Visit Is Appropriate",
+      "items": [
+        "You are requesting a refill of thyroid medication you already take at your current dose",
+        "Your symptoms are near baseline and not clearly worsening",
+        "You have had a TSH level checked within the past 12 months",
+        "You are not pregnant, breastfeeding, or planning pregnancy",
+        "You do not have a new neck mass or thyroid nodule",
+        "You understand this may be bridge refill care, not full thyroid management",
+        "Located in {state} at time of visit"
+      ]
+    },
+    "redFlags": {
+      "title": "Red Flags Requiring In-Person or ER Care",
+      "items": [
+        "Severe confusion, altered mental status, or extreme drowsiness",
+        "Very low body temperature with profound weakness or lethargy",
+        "Chest pain, severe palpitations, or rapid irregular heartbeat",
+        "Severe facial or extremity swelling with breathing difficulty",
+        "Pregnancy or planned pregnancy on thyroid medication",
+        "New thyroid nodule, goiter, or neck mass"
+      ],
+      "disclaimer": "If any red-flag symptoms are present, seek urgent in-person or emergency care. TeleDirectMD is not an emergency service."
+    }
+  },
+
+  "treatmentOptions": {
+    "sectionTitle": "Treatment Options",
+    "intro": "Hypothyroidism treatment centers on thyroid hormone replacement. The ATA guidelines establish levothyroxine as the standard of care, with TSH-guided dosing and consistent daily administration on an empty stomach. TeleDirectMD focuses on bridge refills of established medications, not initiating new thyroid therapy or making dose changes without lab confirmation.",
+    "sections": [
+      {
+        "title": "Bridge levothyroxine refills",
+        "text": "For stable adults who are running low on their established levothyroxine dose, a short bridge refill at the current dose may be reasonable if recent TSH was in the target range and symptoms are near baseline. Levothyroxine is the gold standard treatment recommended by the ATA and should be taken on an empty stomach 30 to 60 minutes before breakfast."
+      },
+      {
+        "title": "Bridge refills of other thyroid medications",
+        "text": "Some patients take liothyronine (Cytomel), desiccated thyroid (Armour Thyroid, NP Thyroid), or combination therapy. Bridge refills of these established medications may also be appropriate for stable patients, though combination therapy and desiccated thyroid require more careful monitoring."
+      },
+      {
+        "title": "Medication timing and interaction counseling",
+        "text": "Levothyroxine absorption is significantly reduced by calcium supplements, iron supplements, proton pump inhibitors, antacids, and cholestyramine. These should be separated from levothyroxine by at least 4 hours. Consistent daily timing on an empty stomach is critical for stable TSH levels."
+      },
+      {
+        "title": "When refill care is not enough",
+        "text": "If symptoms have clearly changed, TSH has not been checked in over 12 months, the patient is pregnant or planning pregnancy, or there are signs of over-replacement or under-replacement, a refill-only visit may be insufficient. These situations require lab work and in-person dose management."
+      }
+    ],
+    "doesNotManage": [
+      "New hypothyroidism diagnosis requiring full workup",
+      "Dose titration requiring current lab results",
+      "Thyroid disease in pregnancy or planned pregnancy",
+      "Thyroid nodule, goiter, or neck mass evaluation",
+      "Myxedema crisis or thyroid storm management"
+    ]
+  },
+
+  "medications": {
+    "sectionTitle": "Common Medication Options",
+    "intro": "These are the primary thyroid medications discussed for adult hypothyroidism refill care. Medication choice depends on the patient's established regimen, current stability, recent TSH results, and whether the request is truly a stable refill at current dose.",
+    "headers": ["Medication", "Typical dose range", "Used for", "Key considerations"],
+    "rows": [
+      ["Levothyroxine (Synthroid, Levoxyl, generic)", "25 to 200+ mcg daily", "Standard first-line thyroid hormone replacement (T4)", "Take on empty stomach 30-60 min before breakfast. Separate from calcium and iron by 4+ hours. Most common thyroid medication. Not a controlled substance."],
+      ["Liothyronine (Cytomel)", "5 to 25 mcg daily", "T3 supplementation, sometimes used as adjunct to levothyroxine", "Shorter half-life than levothyroxine, may need twice daily dosing. Used less commonly. ATA recommends levothyroxine monotherapy as standard of care."],
+      ["Desiccated thyroid (Armour Thyroid)", "15 to 180 mg daily (measured in grains)", "Combination T4 and T3 from porcine thyroid gland", "Contains both T4 and T3 in fixed ratio. Some patients prefer it. T3 content can cause more TSH variability. Not first-line per ATA."],
+      ["Desiccated thyroid (NP Thyroid)", "15 to 180 mg daily (measured in grains)", "Combination T4 and T3 from porcine thyroid gland", "Similar to Armour Thyroid but different manufacturer. Same monitoring considerations apply."],
+      ["Tirosint (levothyroxine gel cap or liquid)", "13 to 200 mcg daily", "T4 replacement for patients with absorption issues", "Gel capsule or liquid formulation with fewer inactive ingredients. May be preferred when GI conditions or multiple interacting medications affect standard levothyroxine absorption."],
+      ["Levothyroxine dose adjustment (not a bridge refill)", "Varies", "Dose change based on new TSH results", "Dose changes should only be made with recent lab confirmation. TSH should be rechecked 6-8 weeks after any dose change. This is NOT appropriate as a bridge refill."]
+    ],
+    "note": "Medication selection and dosing are individualized by the MD. Thyroid medications are not controlled substances. TeleDirectMD does not prescribe controlled substances. Bridge refill treatment online is intended for stable patients continuing their current dose, not for dose changes or new prescriptions."
+  },
+
+  "homeCare": {
+    "sectionTitle": "Home Care, Monitoring, and Follow-up",
+    "whatToDoNow": {
+      "title": "Medication Administration and Daily Management",
+      "items": [
+        "Take levothyroxine on an empty stomach 30 to 60 minutes before breakfast at the same time each day",
+        "Separate levothyroxine from calcium supplements, iron supplements, and antacids by at least 4 hours",
+        "Separate from proton pump inhibitors and cholestyramine by at least 4 hours",
+        "Do not switch between brand and generic levothyroxine without informing your provider, as bioequivalence can vary",
+        "If you miss a dose, take it as soon as you remember. If it is close to the next dose, skip the missed dose and resume your usual schedule"
+      ]
+    },
+    "whatToWatch": {
+      "title": "What to Watch For While on Thyroid Medication",
+      "items": [
+        "Returning hypothyroid symptoms: increasing fatigue, weight gain, cold intolerance, constipation, dry skin, or hair thinning",
+        "Symptoms of over-replacement: palpitations, tremor, unintentional weight loss, anxiety, heat intolerance, or difficulty sleeping",
+        "Chest pain, rapid irregular heartbeat, or shortness of breath (seek in-person evaluation)",
+        "Note that biotin supplements can interfere with thyroid lab results and should be stopped 2 to 3 days before TSH testing"
+      ]
+    },
+    "followUp": {
+      "title": "Follow-up and Monitoring Schedule",
+      "items": [
+        "TSH monitoring every 6 to 12 months when stable on your current dose",
+        "TSH should be rechecked 6 to 8 weeks after any dose change",
+        "Schedule primary care or endocrinology follow-up for dose optimization and ongoing thyroid management",
+        "If you become pregnant or are planning pregnancy, inform your provider immediately as thyroid dose often needs a 25 to 30 percent increase",
+        "If emergency warning signs develop, go to urgent care or the ER immediately"
+      ]
+    }
+  },
+
+  "whenNotToUse": {
+    "sectionTitle": "When Not to Use TeleDirectMD for Hypothyroidism Refills in {state}",
+    "intro": "TeleDirectMD is designed for selected short bridge refill care only. We are direct about when telehealth is not the right fit.",
+    "shouldNotUse": {
+      "title": "You Should Not Use TeleDirectMD If",
+      "items": [
+        "You have never been diagnosed with hypothyroidism and need a new workup",
+        "You are pregnant, breastfeeding, or actively planning pregnancy",
+        "You have severe confusion, altered mental status, or very low body temperature (possible myxedema crisis)",
+        "You have new chest pain, severe palpitations, or rapid irregular heartbeat",
+        "You have symptoms of over-replacement such as tremor, weight loss, or anxiety",
+        "You need a dose change but have no recent TSH results",
+        "You have a new thyroid nodule, neck mass, or goiter",
+        "You are under 18 years old",
+        "You are not physically in {state} at the time of visit"
+      ]
+    },
+    "alternatives": {
+      "title": "Alternative Care Options",
+      "items": [
+        { "label": "Emergency room:", "text": "severe confusion, altered mental status, very low body temperature, chest pain, or suspected myxedema crisis" },
+        { "label": "Urgent care:", "text": "worsening symptoms on thyroid medication that are not clearly ER level but are not stable" },
+        { "label": "Primary care or endocrinology:", "text": "long-term thyroid management, dose titration, lab ordering, thyroid nodule evaluation, pregnancy-related thyroid care, and new diagnosis workup" }
+      ]
+    }
+  },
+
+  "faq": {
+    "sectionTitle": "Hypothyroidism Refill FAQs for {state}",
+    "items": [
+      {
+        "question": "Can I get a hypothyroidism medication refill online in {state}?",
+        "answer": "Yes, selected adults in {state} with an established hypothyroidism diagnosis may be appropriate for a short bridge telehealth visit for a levothyroxine or thyroid medication refill at their current dose after red-flag screening. TeleDirectMD can help with refill care when clinically appropriate."
+      },
+      {
+        "question": "How much does an online hypothyroidism refill visit cost in {state}?",
+        "answer": "TeleDirectMD offers a transparent self pay option starting at $49 for an adult video visit in {state}. Insurance is not required. Prescription costs are separate. Generic levothyroxine is typically $4 to $15 per month at most pharmacies."
+      },
+      {
+        "question": "Can I refill my levothyroxine online?",
+        "answer": "Often, yes, if you are stable on your current dose, your symptoms are near baseline, and you have had a TSH checked within the past 12 months. TeleDirectMD provides bridge refill care at your current dose when clinically appropriate."
+      },
+      {
+        "question": "Why do I need to take levothyroxine on an empty stomach?",
+        "answer": "Levothyroxine absorption is significantly reduced by food, calcium, iron, and antacids. The ATA guidelines recommend taking it 30 to 60 minutes before breakfast on an empty stomach. Calcium and iron supplements should be separated by at least 4 hours."
+      },
+      {
+        "question": "How often should I get my TSH checked?",
+        "answer": "The ATA guidelines recommend TSH monitoring every 6 to 12 months for patients stable on their current dose. After any dose change, TSH should be rechecked in 6 to 8 weeks to confirm the new dose is appropriate. Note that biotin supplements can interfere with thyroid lab results and should be stopped 2 to 3 days before testing."
+      },
+      {
+        "question": "What happens if I stop taking my thyroid medication?",
+        "answer": "Hypothyroid symptoms typically return within 1 to 2 weeks of stopping levothyroxine. Fatigue, weight gain, cold intolerance, constipation, dry skin, and cognitive slowing can worsen progressively. Most patients with hypothyroidism require lifelong thyroid hormone replacement."
+      },
+      {
+        "question": "Can I switch between brand and generic levothyroxine?",
+        "answer": "Switching between different manufacturers or between brand and generic levothyroxine can sometimes cause small changes in TSH because bioequivalence is not always exact. If you switch, your TSH should be rechecked in 6 to 8 weeks. Inform your provider of any changes."
+      },
+      {
+        "question": "Is levothyroxine a controlled substance?",
+        "answer": "No. Levothyroxine and all thyroid medications are not controlled substances. TeleDirectMD does not prescribe controlled substances, and thyroid medications are not in that category."
+      },
+      {
+        "question": "What if I am pregnant and need a thyroid medication refill?",
+        "answer": "Pregnancy requires close thyroid monitoring because levothyroxine doses often need to increase by 25 to 30 percent. This should be managed by your OB-GYN or endocrinologist with frequent TSH monitoring, not through a telehealth bridge refill visit."
+      },
+      {
+        "question": "When should I go to the ER for thyroid-related symptoms?",
+        "answer": "Seek emergency care for severe confusion, altered mental status, very low body temperature with profound weakness, chest pain, severe palpitations with rapid irregular heartbeat, or any signs of myxedema crisis. These are life-threatening situations that require immediate in-person evaluation."
+      },
+      {
+        "question": "Does {state} allow telemedicine for this kind of visit?",
+        "answer": "Yes. {state} allows licensed professionals to provide telemedicine within their scope when appropriate and according to accepted standards of care."
+      },
+      {
+        "question": "Can TeleDirectMD provide hypothyroidism refill care in other states?",
+        "answer": "Yes. TeleDirectMD offers adult evaluations via video visits across multiple states. You must be physically located in the state where you are requesting care at the time of the visit."
+      }
+    ],
+    "bottomCta": {
+      "title": "Need help today?",
+      "text": "Insurance is not required. Adult-only video visits. MD-only care. Safety-first screening, short bridge refills when appropriate, and clear next steps."
+    }
+  },
+
+  "references": [
+    { "text": "ATA Guidelines for the Treatment of Hypothyroidism (Jonklaas et al., 2014)", "url": "https://www.liebertpub.com/doi/10.1089/thy.2014.0028" },
+    { "text": "Telehealth for Thyroid Dysfunction Management (PMC, 2023)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10265408/" },
+    { "text": "Hypothyroidism in Adults, StatPearls (2025)", "url": "https://www.ncbi.nlm.nih.gov/books/NBK519536/" },
+    { "text": "ATA Guidelines for Thyroid Disease in Pregnancy (2017)", "url": "https://www.liebertpub.com/doi/10.1089/thy.2016.0457" },
+    { "text": "Levothyroxine Drug Information, StatPearls (2025)", "url": "https://www.ncbi.nlm.nih.gov/books/NBK539808/" }
+  ],
+
+  "disclaimer": {
+    "sectionTitle": "TeleDirectMD Telehealth Disclaimer",
+    "paragraphs": [
+      "TeleDirectMD provides MD-only virtual care for adults (18+) in {state} using secure video visits to evaluate hypothyroidism refill requests, provide evidence-based guidance, and prescribe short bridge refill treatment at current dose when clinically appropriate. Insurance is not required. You must be physically located in {state} at the time of your video visit. TeleDirectMD does not prescribe controlled substances.",
+      "TeleDirectMD is not an emergency service and is not a replacement for urgent in-person care during a myxedema crisis or thyroid emergency. This service is intended for selected stable refill requests and is not a substitute for comprehensive thyroid management including dose titration, lab monitoring, thyroid nodule evaluation, or pregnancy-related thyroid care.",
+      "Online hypothyroidism refills in {state}. Levothyroxine refill online. Thyroid medication refill bridge care. Synthroid refill by video visit."
+    ]
+  },
+
+  "relatedConditions": [
+    {
+      "slug": "asthma-refills-online",
+      "title": "Asthma Refills",
+      "description": "Another common chronic medication refill pathway for adults managed by telehealth bridge care"
+    },
+    {
+      "slug": "smoking-cessation-treatment-online",
+      "title": "Smoking Cessation Treatment",
+      "description": "Chronic health management condition commonly seen alongside metabolic conditions"
+    },
+    {
+      "slug": "hair-loss-treatment-online",
+      "title": "Hair Loss Treatment",
+      "description": "Thyroid dysfunction is a known cause of hair loss and these conditions are often evaluated together"
+    },
+    {
+      "slug": "eczema-treatment-online",
+      "title": "Eczema Treatment",
+      "description": "Dry skin conditions that can overlap with hypothyroid symptoms including skin changes"
+    }
+  ],
+
+  "inlineLinks": [
+    { "slug": "asthma-refills-online", "label": "Asthma Refills" },
+    { "slug": "smoking-cessation-treatment-online", "label": "Smoking Cessation Treatment" },
+    { "slug": "hair-loss-treatment-online", "label": "Hair Loss Treatment" },
+    { "slug": "eczema-treatment-online", "label": "Eczema Treatment" },
+    { "slug": "seasonal-allergies-treatment-online", "label": "Seasonal Allergies" },
+    { "slug": "cold-sore-treatment-online", "label": "Cold Sore" },
+    { "slug": "uti-treatment-online", "label": "UTI" },
+    { "slug": "sinus-infection-treatment-online", "label": "Sinus Infection" },
+    { "slug": "excessive-sweating-treatment-online", "label": "Excessive Sweating Treatment" },
+    { "slug": "covid-19-treatment-online", "label": "COVID-19 Treatment" }
+  ],
+
+  "cityBlock": {
+    "title": "Adults We Serve Across {state}",
+    "text": "TeleDirectMD evaluates adults located throughout {state}, including {citiesExtended}. Whether you are searching for online hypothyroidism refills in {city1}, levothyroxine refill in {city2}, thyroid medication refill care in {city3}, or Synthroid refill by video visit anywhere else in {state}, the same telehealth eligibility and safety rules apply."
+  },
+
+  "icd10Codes": [
+    { "code": "E03.9", "description": "Hypothyroidism, unspecified" }
+  ],
+
+  "jsonLd": {
+    "conditionName": "Hypothyroidism",
+    "conditionAlternateNames": ["Hypothyroidism refill care", "Levothyroxine refill", "Thyroid medication refill", "Underactive thyroid", "Hashimoto's thyroiditis"],
+    "conditionDescription": "Hypothyroidism refill care involves reviewing whether it is safe and appropriate to continue a patient's established thyroid medication, most commonly levothyroxine, when they are running low. TeleDirectMD evaluates adult refill requests by video visit with safety-first red-flag screening and provides short bridge refills at current dose when appropriate, with clear rules for when in-person evaluation or lab work is needed.",
+    "primaryIcd10": "E03.9",
+    "anatomy": "Thyroid gland",
+    "symptoms": ["Fatigue", "Weight gain", "Cold intolerance", "Constipation", "Dry skin", "Hair thinning", "Cognitive slowing", "Muscle weakness"],
+    "riskFactors": [
+      "Running out of thyroid medication",
+      "Inconsistent levothyroxine timing or dosing",
+      "Medication interactions with calcium, iron, or antacids",
+      "Overdue TSH monitoring"
+    ],
+    "complications": [
+      "Return of hypothyroid symptoms",
+      "Myxedema crisis in severe cases",
+      "Cardiovascular complications from untreated hypothyroidism",
+      "Pregnancy complications from uncontrolled thyroid disease"
+    ],
+    "epidemiology": "Hypothyroidism affects approximately 5 percent of US adults and is more common in women, with Hashimoto's thyroiditis being the most common cause.",
+    "drugs": [
+      { "name": "Levothyroxine", "id": "levothyroxine" },
+      { "name": "Liothyronine", "id": "liothyronine" },
+      { "name": "Armour Thyroid", "id": "armour-thyroid" },
+      { "name": "NP Thyroid", "id": "np-thyroid" },
+      { "name": "Tirosint", "id": "tirosint" }
+    ],
+    "treatments": [
+      "Short bridge refill of levothyroxine at current dose",
+      "Medication timing and interaction counseling",
+      "In-person evaluation for dose adjustment or new diagnosis"
+    ],
+    "tests": [
+      "TSH monitoring every 6-12 months when stable",
+      "Free T4 when dose adjustment or new diagnosis is being evaluated",
+      "Thyroid antibodies for initial Hashimoto's diagnosis"
+    ],
+    "specialties": ["Family Medicine", "Telemedicine", "Endocrinology"],
+    "guidelines": [
+      { "name": "ATA Guidelines for the Treatment of Hypothyroidism", "url": "https://www.liebertpub.com/doi/10.1089/thy.2014.0028", "publisher": "American Thyroid Association", "id": "ata-hypothyroidism" },
+      { "name": "Telehealth for Thyroid Dysfunction Management", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10265408/", "publisher": "PMC", "id": "pmc-thyroid-telehealth" }
+    ],
+    "knowsAbout": [
+      "Hypothyroidism refill care",
+      "Levothyroxine prescribing",
+      "TSH monitoring",
+      "Thyroid medication interactions",
+      "Telemedicine triage",
+      "Safety-first red-flag screening",
+      "Family Medicine"
+    ],
+    "serviceDescription": "Secure video visit for {state} adults requesting hypothyroidism medication refill care, including red-flag screening, TSH monitoring review, and short bridge refills at current dose when appropriate.",
+    "webpageDescription": "{state} hypothyroidism medication refill by secure MD video visit for adults. Evidence-based levothyroxine refill care, red-flag screening, short bridge refills when appropriate, and clear rules for when in-person evaluation or lab work is needed."
+  }
+}
