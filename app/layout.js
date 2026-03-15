@@ -1,3 +1,7 @@
+import SiteHeader from './components/SiteHeader';
+import SiteFooter from './components/SiteFooter';
+import GlobalStyles from './components/GlobalStyles';
+
 export const metadata = {
   metadataBase: new URL('https://teledirectmd.com'),
 };
@@ -5,7 +9,14 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <head>
+        <GlobalStyles />
+      </head>
+      <body style={{ margin: 0 }}>
+        <SiteHeader />
+        <main>{children}</main>
+        <SiteFooter />
+      </body>
     </html>
   );
 }

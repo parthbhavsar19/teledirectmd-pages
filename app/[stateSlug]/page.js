@@ -1,5 +1,4 @@
 import { getStates, getStateBySlug, getConditionCategories, getConditionSlugs } from '../../lib/get-data';
-import { tdmdCSS } from '../../lib/tdmd-styles';
 
 export async function generateStaticParams() {
   const states = getStates();
@@ -218,7 +217,7 @@ export default async function StateLandingPage({ params }) {
 
   return (
     <>
-      <style dangerouslySetInnerHTML={{ __html: tdmdCSS + statePageCSS }} />
+      <style dangerouslySetInnerHTML={{ __html: statePageCSS }} />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}

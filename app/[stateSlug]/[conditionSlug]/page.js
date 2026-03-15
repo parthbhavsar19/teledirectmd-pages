@@ -1,6 +1,5 @@
 import { getStates, getConditionSlugs, getCondition, getStateBySlug, resolveConditionForState } from '../../../lib/get-data';
 import { generateJsonLd } from '../../../lib/json-ld';
-import { tdmdCSS } from '../../../lib/tdmd-styles';
 
 export async function generateStaticParams() {
   const states = getStates();
@@ -60,7 +59,6 @@ export default async function ConditionPage({ params }) {
 
   return (
     <>
-      <style dangerouslySetInnerHTML={{ __html: tdmdCSS }} />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
