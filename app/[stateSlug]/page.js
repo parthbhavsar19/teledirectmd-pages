@@ -1,4 +1,4 @@
-import { getStates, getStateBySlug, getConditionCategories } from '../../lib/get-data';
+import { getStates, getStateBySlug, getConditionCategories, getConditionSlugs } from '../../lib/get-data';
 import { tdmdCSS } from '../../lib/tdmd-styles';
 
 export async function generateStaticParams() {
@@ -51,6 +51,9 @@ export default async function StateLandingPage({ params }) {
   const pharmacies = state.pharmacies || ['CVS Pharmacy', 'Walgreens', 'Walmart Pharmacy'];
 
   const totalConditions = categories.reduce((sum, cat) => sum + cat.conditions.length, 0);
+
+  const allStates = getStates();
+  const otherStates = allStates.filter((s) => s.slug !== stateSlug);
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -198,6 +201,15 @@ export default async function StateLandingPage({ params }) {
     .tdmd-city-grid{display:flex;flex-wrap:wrap;gap:0.5rem 0.85rem;margin:1rem 0;}
     .tdmd-city-tag{padding:0.4rem 0.85rem;border-radius:999px;border:1px solid var(--tdmd-border);background:var(--tdmd-card);color:var(--tdmd-navy);font-weight:650;font-size:0.88rem;}
 
+    .tdmd-breadcrumbs{padding:0.75rem 0;font-size:0.88rem;color:var(--tdmd-muted);}
+    .tdmd-breadcrumbs a{color:var(--tdmd-navy);font-weight:700;text-decoration:underline;text-underline-offset:2px;}
+    .tdmd-breadcrumbs a:hover{color:var(--tdmd-teal);}
+    .tdmd-breadcrumbs .tdmd-bc-sep{margin:0 0.4rem;color:var(--tdmd-border);}
+
+    .tdmd-other-states-grid{display:flex;flex-wrap:wrap;gap:0.5rem 0.65rem;margin:1rem 0;}
+    .tdmd-other-state-link{display:inline-block;padding:0.4rem 0.85rem;border-radius:999px;border:1px solid var(--tdmd-border);background:var(--tdmd-card);color:var(--tdmd-navy);font-weight:700;font-size:0.88rem;text-decoration:none;transition:border-color 0.15s,background 0.15s;}
+    .tdmd-other-state-link:hover,.tdmd-other-state-link:focus{border-color:var(--tdmd-teal);background:var(--tdmd-bg-soft);}
+
     @media (max-width:768px){
       .tdmd-how-steps{grid-template-columns:minmax(0,1fr);}
       .tdmd-pricing-simple{grid-template-columns:minmax(0,1fr);}
@@ -211,6 +223,17 @@ export default async function StateLandingPage({ params }) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
+
+      {/* 0) Breadcrumb */}
+      <nav className="tdmd-breadcrumbs" aria-label="Breadcrumb">
+        <div className="tdmd-container" style={{ paddingTop: '0.5rem', paddingBottom: '0' }}>
+          <a href="/">Home</a>
+          <span className="tdmd-bc-sep" aria-hidden="true">/</span>
+          <a href="/what-we-treat">What We Treat</a>
+          <span className="tdmd-bc-sep" aria-hidden="true">/</span>
+          <span aria-current="page">{state.name}</span>
+        </div>
+      </nav>
 
       {/* 1) Hero */}
       <section className="tdmd-hero" id={`${pid}-hero`}>
@@ -465,7 +488,20 @@ export default async function StateLandingPage({ params }) {
         </div>
       </section>
 
-      {/* 8) Disclaimer */}
+      {/* 8) Other States */}
+      <section className="tdmd-section" id={`${pid}-other-states`}>
+        <div className="tdmd-container">
+          <h2>TeleDirectMD Is Also Available in {otherStates.length} Other States</h2>
+          <p>TeleDirectMD provides MD-only telehealth visits across {allStates.length} states. Whether you are traveling, relocating, or have family in another state — we can help. Select a state below to explore available conditions and book a visit.</p>
+          <div className="tdmd-other-states-grid">
+            {otherStates.map((s) => (
+              <a key={s.slug} className="tdmd-other-state-link" href={`/${s.slug}/`}>{s.name}</a>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* 9) Disclaimer */}
       <section className="tdmd-section tdmd-footnote" id={`${pid}-disclaimer`}>
         <div className="tdmd-container">
           <h2>Medical Disclaimer</h2>

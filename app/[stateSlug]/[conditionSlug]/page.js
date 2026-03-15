@@ -55,6 +55,8 @@ export default async function ConditionPage({ params }) {
   const jsonLd = generateJsonLd(condition, state);
   const today = new Date().toISOString().split('T')[0];
   const pid = `${stateSlug}-${conditionSlug}`;
+  const allStates = getStates();
+  const otherStates = allStates.filter((s) => s.slug !== stateSlug);
 
   return (
     <>
@@ -63,6 +65,19 @@ export default async function ConditionPage({ params }) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
+
+      {/* 0) Breadcrumb */}
+      <nav className="tdmd-breadcrumbs" aria-label="Breadcrumb">
+        <div className="tdmd-container" style={{ paddingTop: '0.5rem', paddingBottom: '0' }}>
+          <a href="/">Home</a>
+          <span className="tdmd-bc-sep" aria-hidden="true">/</span>
+          <a href="/what-we-treat">What We Treat</a>
+          <span className="tdmd-bc-sep" aria-hidden="true">/</span>
+          <a href={`/${stateSlug}/`}>{state.name}</a>
+          <span className="tdmd-bc-sep" aria-hidden="true">/</span>
+          <span aria-current="page">{condition.conditionName}</span>
+        </div>
+      </nav>
 
       {/* 1) Hero */}
       <section className="tdmd-hero" id={`${pid}-hero`}>
@@ -621,6 +636,21 @@ export default async function ConditionPage({ params }) {
 
           <div className="tdmd-related-cta">
             <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">Explore All Adult Conditions</a>
+          </div>
+        </div>
+      </section>
+
+      {/* 21) Same Condition in Other States */}
+      <section className="tdmd-section tdmd-section-highlight" id={`${pid}-other-states`}>
+        <div className="tdmd-container">
+          <h2>Get {condition.conditionName} Treatment in Other States</h2>
+          <p>TeleDirectMD treats {condition.conditionName.toLowerCase()} via telehealth in {allStates.length} states. If you are traveling, relocating, or helping a family member in another state, select below to find this treatment near them.</p>
+          <div className="tdmd-other-states-grid">
+            {otherStates.map((s) => (
+              <a key={s.slug} className="tdmd-other-state-link" href={`/${s.slug}/${conditionSlug}`}>
+                {s.name}
+              </a>
+            ))}
           </div>
         </div>
       </section>
