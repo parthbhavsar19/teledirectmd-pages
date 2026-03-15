@@ -1,0 +1,606 @@
+{
+  "conditionName": "Erectile Dysfunction Treatment",
+  "conditionShort": "Erectile Dysfunction",
+  "conditionSlug": "erectile-dysfunction-treatment-online",
+  "pageTitle": "Erectile Dysfunction Treatment Online in {state} | ED MD Video Visit | TeleDirectMD",
+  "metaDescription": "Evidence-based erectile dysfunction treatment for {state} adult men by secure video visit. PDE5 inhibitor prescriptions when clinically appropriate, cardiovascular screening, and nitrate safety check. Self pay option starting at $49. Insurance is not required.",
+  "ogImageAlt": "Erectile dysfunction treatment in {state} by TeleDirectMD",
+
+  "hero": {
+    "h1": "Erectile Dysfunction Treatment in {state} (PDE5 Inhibitor Therapy)",
+    "subtitle": "{state} adult care by secure video visit, self pay option starting at $49, MD-only, insurance is not required.",
+    "introParagraph": "Erectile dysfunction (ED) is the inability to achieve or maintain an erection sufficient for satisfactory sexual activity. It affects approximately 30 million men in the United States, with prevalence increasing from roughly 40 percent at age 40 to 70 percent at age 70. The AUA 2018 Guideline on Erectile Dysfunction identifies PDE5 inhibitors as first-line pharmacotherapy (Strong Recommendation) and supports a clinical-history-based approach for initial prescribing. TeleDirectMD uses a safety-first telehealth model that screens for absolute contraindications including concurrent nitrate use, cardiovascular risk factors requiring stress testing, anatomical abnormalities, and priapism history before determining whether treatment by video visit is appropriate. PDE5 inhibitors are not controlled substances. If the clinical history supports straightforward ED without red flags, guideline-based PDE5 inhibitor therapy may be prescribed by video visit, while men with complex cardiovascular disease, suspected hypogonadism, or anatomical concerns are directed to in-person urology evaluation. This page is for adult men located in {state}, including {cities}.",
+    "tocLinks": [
+      { "href": "eligibility-checklist", "label": "Eligibility checklist" },
+      { "href": "decision-guide", "label": "Decision guide" },
+      { "href": "treatment-options", "label": "Treatment options" },
+      { "href": "faq", "label": "FAQs" },
+      { "href": "references", "label": "References" }
+    ],
+    "benefits": [
+      "Self pay option starting at $49",
+      "MD-only care (no mid-levels)",
+      "Insurance is not required",
+      "Licensed telehealth care for patients located in {state} at the time of the visit"
+    ],
+    "sideCard": {
+      "h2": "Online MD-Only Erectile Dysfunction Care in {state}",
+      "features": [
+        "Confidential evaluation for erectile dysfunction symptoms",
+        "Nitrate and cardiovascular safety screening before prescribing",
+        "Guideline-based PDE5 inhibitor selection when appropriate",
+        "Clear follow-up steps and lifestyle modification guidance"
+      ],
+      "note": "Adults 18+ only. TeleDirectMD is not an emergency service. Go to the ER now for chest pain, priapism (erection lasting more than 4 hours), sudden vision loss, or sudden hearing loss after taking ED medication. TeleDirectMD does not prescribe controlled substances."
+    },
+    "icd10Display": "N52.9 (final coding depends on clinical details)"
+  },
+
+  "eligibility": {
+    "sectionTitle": "Erectile Dysfunction Telehealth Eligibility Checklist for {state}",
+    "introText": "You are likely eligible for a TeleDirectMD video visit if ALL of these are true:",
+    "eligible": [
+      "You are an adult male 18 years old or older",
+      "You are physically located in {state} at the time of the visit",
+      "You have difficulty achieving or maintaining an erection sufficient for sexual activity",
+      "You do not take nitrates such as nitroglycerin or isosorbide in any form",
+      "You do not have unstable cardiovascular disease requiring stress testing before sexual activity",
+      "You do not have a history of priapism or penile anatomical abnormality",
+      "Insurance is not required. A self pay option is available."
+    ],
+    "notEligible": [
+      "You are under 18 years old",
+      "You currently take nitrates in any form (nitroglycerin, isosorbide mononitrate, isosorbide dinitrate, or recreational nitrites)",
+      "You have unstable angina, recent heart attack, uncontrolled arrhythmia, or other cardiovascular conditions requiring clearance before sexual activity",
+      "You have a history of priapism (prolonged painful erection)",
+      "You have Peyronie's disease, penile trauma, or significant anatomical abnormality",
+      "You have known untreated hypogonadism or suspect very low testosterone with systemic symptoms",
+      "You are experiencing sudden onset ED at a young age with no obvious cause"
+    ],
+    "notEligibleDisclaimer": "If you have any of the above conditions, seek in-person evaluation with a urologist or your primary care physician. TeleDirectMD is not appropriate for complex or high-risk cases."
+  },
+
+  "howItWorks": {
+    "sectionTitle": "How Online Erectile Dysfunction Treatment Works in {state}",
+    "steps": [
+      {
+        "type": "check",
+        "title": "Book your video visit and prepare key details",
+        "description": "Insurance is not required. No referral needed. Many visits are available same day, depending on scheduling. Before your visit, note when ED symptoms started, how often they occur, whether you get morning erections, any medications you take (especially nitrates and alpha-blockers), cardiovascular history, and any prior ED treatments you have tried."
+      },
+      {
+        "type": "check",
+        "title": "See a {state} licensed MD by video",
+        "description": "We review your symptom pattern, onset, severity, cardiovascular risk factors, current medications including an absolute nitrate safety check, psychological factors, and lifestyle. The AUA 2018 Guideline supports clinical-history-based evaluation for initial PDE5 inhibitor prescribing without mandatory laboratory testing in most straightforward cases."
+      },
+      {
+        "type": "good",
+        "title": "Get your treatment plan and, if appropriate, a prescription",
+        "description": "If a PDE5 inhibitor is clinically appropriate, we send an e-prescription to common {state} pharmacies such as {pharmacies}. You receive clear dosing instructions, guidance on adequate trial duration, lifestyle modification recommendations, and when to follow up or seek in-person care if treatment is not effective.",
+        "showCta": true
+      }
+    ]
+  },
+
+  "telehealthRegulations": {
+    "sectionTitle": "{state} Telehealth Regulations for Online Erectile Dysfunction Care",
+    "paragraphs": [
+      "{telehealthRegulation}",
+      "Location matters: you must be physically in {state} during the visit. Insurance is not required. TeleDirectMD does not prescribe controlled substances."
+    ]
+  },
+
+  "comparisonTable": {
+    "sectionTitle": "TeleDirectMD vs Other Care Options for Erectile Dysfunction in {state}",
+    "intro": "Here is how TeleDirectMD compares to common settings for adult erectile dysfunction care in {state}:",
+    "rows": [
+      {
+        "option": "TeleDirectMD",
+        "cost": "Self pay option starting at $49",
+        "wait": "Same day, often within hours",
+        "provider": "Board-certified MD only (no mid-levels)",
+        "bestFor": "Straightforward ED without nitrate use or unstable cardiovascular disease, with guideline-based PDE5 inhibitor prescribing and safety screening",
+        "highlight": true
+      },
+      {
+        "option": "Urgent Care",
+        "cost": "$150 to $300+ (before insurance)",
+        "wait": "1 to 3 hours typical",
+        "provider": "MD, DO, PA, or NP",
+        "bestFor": "Not typically used for ED evaluation — urgent care is better suited for acute issues",
+        "highlight": false
+      },
+      {
+        "option": "Emergency Room",
+        "cost": "$500 to $3,000+ (before insurance)",
+        "wait": "2 to 6 hours typical",
+        "provider": "Emergency medicine MD or DO",
+        "bestFor": "Priapism (erection lasting more than 4 hours), chest pain after ED medication, or sudden vision or hearing loss",
+        "highlight": false
+      },
+      {
+        "option": "Primary Care",
+        "cost": "$100 to $250+ (varies)",
+        "wait": "3 to 14 days typical",
+        "provider": "Family medicine or internal medicine MD or DO",
+        "bestFor": "ED with concurrent chronic conditions such as diabetes, hypertension, or depression needing broader management",
+        "highlight": false
+      },
+      {
+        "option": "Urology",
+        "cost": "$200 to $500+ (varies)",
+        "wait": "Days to weeks (varies)",
+        "provider": "Urologist MD or DO",
+        "bestFor": "PDE5 inhibitor failure after adequate trial, Peyronie's disease, penile prosthesis evaluation, injection therapy, or suspected hypogonadism",
+        "highlight": false
+      }
+    ],
+    "bottomLine": "TeleDirectMD is a strong fit for straightforward erectile dysfunction in men without nitrate use or unstable cardiovascular disease, with a safety-first approach and direct MD evaluation."
+  },
+
+  "decisionGuide": {
+    "sectionTitle": "Should I Use TeleDirectMD for Erectile Dysfunction in {state}? Decision Guide",
+    "steps": [
+      {
+        "type": "urgent",
+        "title": "Do you have any emergency or red-flag symptoms?",
+        "items": [
+          "Priapism — erection lasting more than 4 hours (urologic emergency)",
+          "Chest pain, dizziness, or severe hypotension after taking ED medication",
+          "Sudden vision loss or sudden hearing loss after taking ED medication",
+          "Penile trauma or injury"
+        ],
+        "yesAction": "If yes, seek urgent in-person care or the ER now",
+        "noAction": "If no, continue to Step 2"
+      },
+      {
+        "type": "check",
+        "title": "Are you 18+ and currently in {state}?",
+        "items": [],
+        "yesAction": "If yes, continue to Step 3",
+        "noAction": "If no, use in-person care as appropriate"
+      },
+      {
+        "type": "check",
+        "title": "Do you have straightforward erectile dysfunction without high-risk features?",
+        "items": [
+          "Difficulty achieving or maintaining erections on multiple occasions",
+          "No current nitrate use (nitroglycerin, isosorbide) in any form",
+          "No unstable cardiovascular disease requiring stress testing",
+          "No history of priapism, penile curvature, or anatomical abnormality"
+        ],
+        "yesAction": "If yes, continue to Step 4",
+        "noAction": "If no or you take nitrates, seek in-person evaluation"
+      },
+      {
+        "type": "good",
+        "title": "You are likely appropriate for a TeleDirectMD video visit",
+        "description": "TeleDirectMD can evaluate erectile dysfunction symptoms, confirm safety for PDE5 inhibitor prescribing including nitrate and cardiovascular screening, discuss medication options and dosing, and prescribe when clinically appropriate. If your history suggests a more complex cause or you need laboratory testing, we will direct you to the right level of in-person care.",
+        "items": [],
+        "showCta": true
+      }
+    ]
+  },
+
+  "pricing": {
+    "sectionTitle": "What Does Erectile Dysfunction Treatment Cost in {state}?",
+    "subtitle": "Transparent options. Insurance is not required.",
+    "visitPrice": "$49",
+    "priceSubtext": "Self pay option. Insurance is not required.",
+    "includes": [
+      "MD evaluation and cardiovascular safety screening",
+      "Nitrate and medication interaction check",
+      "Guideline-based PDE5 inhibitor selection and dosing when appropriate",
+      "Prescription sent if clinically appropriate",
+      "Lifestyle modification guidance and clear follow-up steps"
+    ],
+    "comparisonBars": [
+      { "name": "TeleDirectMD", "value": "$49", "width": 12, "isTdmd": true },
+      { "name": "Primary Care", "value": "$100 to $250+", "width": 45, "isTdmd": false },
+      { "name": "Urgent Care", "value": "$150 to $300+", "width": 55, "isTdmd": false },
+      { "name": "Emergency Room", "value": "$500 to $3,000+", "width": 100, "isTdmd": false }
+    ],
+    "footnote": "Prescription costs at your pharmacy are separate and vary by medication and pharmacy. Generic sildenafil and tadalafil are widely available at reduced cost.",
+    "noHiddenFees": "No hidden fees. If medication is not clinically appropriate, you still receive a complete evaluation, guidance, and clear instructions on what level of care you need next."
+  },
+
+  "whatIsCondition": {
+    "sectionTitle": "What Is Erectile Dysfunction?",
+    "paragraphs": [
+      "Erectile dysfunction (ED) is the persistent inability to achieve or maintain an erection firm enough for satisfactory sexual intercourse. It is not an occasional difficulty, which is normal and common, but rather a recurring pattern that affects sexual function and often quality of life.",
+      "ED affects approximately 30 million men in the United States. Prevalence increases with age — roughly 40 percent of men are affected at age 40 and up to 70 percent at age 70 — but ED can occur at any adult age. The condition often has vascular, neurological, hormonal, or psychological components, and it frequently coexists with cardiovascular disease, diabetes, obesity, and depression. In fact, ED is increasingly recognized as an early marker for underlying cardiovascular disease.",
+      "TeleDirectMD focuses on straightforward ED in adult men who are appropriate for first-line PDE5 inhibitor therapy by telehealth, with careful screening to direct complex or high-risk cases to in-person urology or cardiology evaluation."
+    ]
+  },
+
+  "causesAndRiskFactors": {
+    "sectionTitle": "Causes and Risk Factors",
+    "intro": "Erectile function depends on intact vascular, neurological, hormonal, and psychological systems working together. Understanding the underlying cause helps determine whether telehealth-based PDE5 inhibitor therapy is appropriate or whether in-person workup is needed.",
+    "items": [
+      { "label": "Cardiovascular disease:", "text": "atherosclerosis reduces penile blood flow and is the most common organic cause of ED, making ED a potential early warning sign for coronary artery disease" },
+      { "label": "Diabetes:", "text": "damages both blood vessels and nerves involved in erection, and men with diabetes have a significantly higher rate of ED than the general population" },
+      { "label": "Obesity and sedentary lifestyle:", "text": "contribute to both vascular disease and hormonal imbalance, and weight loss has been shown to improve erectile function" },
+      { "label": "Medications:", "text": "antihypertensives (especially older beta-blockers and thiazides), SSRIs, antipsychotics, and antiandrogens can all contribute to ED" },
+      { "label": "Psychological factors:", "text": "performance anxiety, depression, relationship stress, and chronic stress can cause or worsen ED, often in combination with physical factors" },
+      { "label": "Hypogonadism:", "text": "low testosterone can reduce libido and contribute to ED, and men with suspected hypogonadism may benefit from laboratory testing and in-person evaluation" },
+      { "label": "Smoking and alcohol:", "text": "smoking accelerates vascular damage and alcohol in excess impairs erectile function, while cessation and moderation can improve outcomes" }
+    ],
+    "closing": "ED is often multifactorial. Lifestyle modifications including weight loss, regular exercise, smoking cessation, and alcohol reduction improve erectile function and complement pharmacotherapy. TeleDirectMD screens for underlying causes and directs men who need further workup to the appropriate level of care."
+  },
+
+  "symptomsAndRedFlags": {
+    "sectionTitle": "Symptoms and Red Flags for Erectile Dysfunction in {state}",
+    "intro": "Use this table to understand which presentations are appropriate for telehealth PDE5 inhibitor prescribing and which require urgent or in-person evaluation.",
+    "headers": ["Symptom or situation", "What it suggests", "Telehealth appropriate?", "Red flag requiring urgent or in-person care"],
+    "rows": [
+      ["Difficulty achieving or maintaining erection on multiple occasions", "Common ED pattern, often vascular or multifactorial", "Often yes", "If sudden onset in young men (under 40) with no risk factors, consider vascular or neurological evaluation"],
+      ["Gradual onset over months to years with preserved morning erections", "Likely vascular, metabolic, or age-related component", "Often yes", "If concurrent chest pain, exertional dyspnea, or uncontrolled cardiovascular disease"],
+      ["ED with decreased libido, fatigue, and mood changes", "Possible hypogonadism (low testosterone)", "Sometimes — may need labs", "If significant systemic symptoms suggesting hormonal, thyroid, or pituitary pathology"],
+      ["ED only in partner situations with normal erections during sleep or masturbation", "Likely psychogenic or performance anxiety component", "Often yes", "If associated with severe depression, suicidal ideation, or substance abuse"],
+      ["ED with concurrent nitrate use (nitroglycerin, isosorbide)", "ABSOLUTE contraindication to PDE5 inhibitors — fatal hypotension risk", "No — PDE5i cannot be prescribed", "Must be managed in coordination with cardiology"],
+      ["Priapism — erection lasting more than 4 hours", "Urologic emergency requiring immediate intervention", "No", "Go to ER immediately — risk of permanent damage"],
+      ["Penile curvature, plaque, or pain during erection", "Possible Peyronie's disease", "No — needs in-person urology evaluation", "Refer to urology for assessment and management"]
+    ]
+  },
+
+  "differentialDiagnosis": {
+    "sectionTitle": "Differential Diagnosis: ED vs Related Conditions",
+    "intro": "Several conditions can cause or mimic erectile dysfunction. TeleDirectMD focuses on identifying straightforward ED appropriate for PDE5 inhibitor therapy and directing alternative diagnoses or complex cases to targeted in-person care.",
+    "telehealthAppropriate": {
+      "title": "Sometimes Appropriate for Telehealth",
+      "items": [
+        "Straightforward ED without nitrate use, unstable cardiovascular disease, or anatomical abnormality",
+        "ED with identifiable lifestyle risk factors amenable to modification",
+        "Performance anxiety contributing to situational ED",
+        "ED medication dose optimization or switching between PDE5 inhibitors",
+        "Initial PDE5 inhibitor prescribing in men who have not tried pharmacotherapy"
+      ]
+    },
+    "requiresInPerson": {
+      "title": "Often Requires In-Person Evaluation",
+      "items": [
+        "Suspected hypogonadism needing testosterone level testing and workup",
+        "Peyronie's disease with penile curvature or plaque",
+        "ED refractory to maximum-dose PDE5 inhibitors after adequate trial of at least 5 attempts",
+        "Cardiovascular disease requiring stress testing or cardiology clearance before sexual activity",
+        "Young men under 40 with sudden-onset ED and no obvious risk factors"
+      ]
+    },
+    "compareCards": [
+      {
+        "title": "Organic ED vs Psychogenic ED",
+        "text": "Organic (physical) ED typically has gradual onset, is consistent across all settings, and preserved nocturnal or morning erections may be reduced. Psychogenic ED often has sudden onset, is situational (normal erections with masturbation or during sleep but not with a partner), and is more common in younger men. Many patients have a combination of both, and PDE5 inhibitors can be effective regardless of the primary cause."
+      },
+      {
+        "title": "ED vs Low Testosterone",
+        "text": "While low testosterone (hypogonadism) can cause reduced libido and contribute to ED, the two conditions are not the same. Some men with low testosterone have normal erections, and many men with ED have normal testosterone levels. When both are present, combining PDE5 inhibitor therapy with testosterone replacement may be more effective than either alone. Laboratory testing is appropriate if hypogonadism is suspected."
+      },
+      {
+        "title": "ED vs Premature Ejaculation",
+        "text": "Erectile dysfunction is difficulty achieving or maintaining an erection. Premature ejaculation is ejaculation that occurs sooner than desired. These are distinct conditions with different treatments, though they sometimes coexist. Men who lose their erection quickly may confuse the two. Careful history helps distinguish the primary problem."
+      }
+    ],
+    "closing": "If your symptoms do not match straightforward ED, if you take nitrates in any form, or if any red flags are present, TeleDirectMD will direct you to in-person urology or cardiology evaluation."
+  },
+
+  "telehealthEligibility": {
+    "sectionTitle": "When Is a Video Visit Appropriate?",
+    "appropriate": {
+      "title": "When a Video Visit Is Appropriate",
+      "items": [
+        "Recurring difficulty achieving or maintaining erections for sexual activity",
+        "No current use of nitrates in any form (nitroglycerin, isosorbide, recreational nitrites)",
+        "No unstable cardiovascular disease or need for cardiac stress testing before sexual activity",
+        "No history of priapism or penile anatomical abnormality",
+        "Interested in first-line PDE5 inhibitor therapy or dose optimization",
+        "Located in {state} at time of visit"
+      ]
+    },
+    "redFlags": {
+      "title": "Red Flags Requiring In-Person or ER Care",
+      "items": [
+        "Priapism — erection lasting more than 4 hours (urologic emergency)",
+        "Chest pain, severe dizziness, or syncope after taking ED medication",
+        "Sudden vision loss or sudden hearing loss after taking ED medication",
+        "Concurrent nitrate use in any form (ABSOLUTE contraindication to PDE5 inhibitors)",
+        "Unstable angina, recent myocardial infarction, or uncontrolled arrhythmia",
+        "Penile curvature, plaque, or trauma requiring in-person examination"
+      ],
+      "disclaimer": "If any red-flag symptoms are present, seek urgent in-person or emergency care. TeleDirectMD is not appropriate for these situations."
+    }
+  },
+
+  "treatmentOptions": {
+    "sectionTitle": "Treatment Options",
+    "intro": "PDE5 inhibitors are the first-line pharmacotherapy for erectile dysfunction per the AUA 2018 Guideline (Strong Recommendation). These medications enhance the natural erectile response by increasing blood flow to the penis during sexual stimulation. Sexual stimulation is required — PDE5 inhibitors do not cause automatic erections. PDE5 inhibitors are not controlled substances.",
+    "sections": [
+      {
+        "title": "PDE5 inhibitors (first-line)",
+        "text": "Sildenafil, tadalafil, vardenafil, and avanafil are the four FDA-approved PDE5 inhibitors. All work by the same mechanism but differ in onset, duration, food interactions, and side effect profile. The AUA recommends titrating to the maximum tolerated dose (Strong Recommendation) and that an adequate trial consists of at least 5 separate attempts at maximum dose before declaring treatment failure. Up to 60 percent of initial non-responders can be salvaged by optimizing dose, timing, or switching to a different PDE5 inhibitor."
+      },
+      {
+        "title": "On-demand vs daily dosing",
+        "text": "Most PDE5 inhibitors are taken on-demand before sexual activity. Tadalafil uniquely offers a daily low-dose option (5 mg daily) that provides continuous readiness without timing a dose before intercourse. Daily tadalafil is also FDA-approved for concurrent benign prostatic hyperplasia (BPH) with lower urinary tract symptoms. The choice between on-demand and daily dosing depends on sexual frequency and patient preference."
+      },
+      {
+        "title": "Lifestyle modifications",
+        "text": "Weight loss, regular aerobic exercise, smoking cessation, and alcohol reduction all improve erectile function and complement pharmacotherapy. In overweight men, weight loss alone can significantly improve ED. Exercise improves both vascular function and testosterone levels. Addressing modifiable risk factors is a critical part of comprehensive ED management."
+      },
+      {
+        "title": "Psychological support",
+        "text": "Performance anxiety and relationship stress are common contributors to ED, especially in younger men. PDE5 inhibitors can help break the cycle of anxiety and erectile failure. When psychological factors are a major component, cognitive behavioral therapy or sex therapy may provide additional benefit alongside medication."
+      },
+      {
+        "title": "When PDE5 inhibitors are not enough",
+        "text": "If a patient has tried maximum-dose PDE5 inhibitor therapy with at least 5 adequate attempts and response is insufficient, in-person urology referral is appropriate. Second-line options include penile injection therapy (alprostadil or combination agents), vacuum erection devices, and intraurethral suppositories. Penile prosthesis surgery is a third-line option for refractory cases. These advanced treatments require in-person evaluation and management."
+      }
+    ],
+    "doesNotManage": [
+      "ED in patients who take nitrates in any form (ABSOLUTE contraindication to PDE5 inhibitors)",
+      "Peyronie's disease or significant penile anatomical abnormalities",
+      "Suspected hypogonadism requiring testosterone level testing and replacement therapy",
+      "PDE5 inhibitor failure after adequate trial requiring injection therapy or surgical options",
+      "Cardiovascular disease requiring stress testing or cardiology clearance before sexual activity"
+    ]
+  },
+
+  "medications": {
+    "sectionTitle": "Common Medication Options",
+    "intro": "These are the FDA-approved PDE5 inhibitors used as first-line treatment for erectile dysfunction. The actual medication, dose, and timing are determined by the MD after reviewing your symptoms, cardiovascular risk, current medications (especially nitrates and alpha-blockers), and personal preference. PDE5 inhibitors are not controlled substances. Sexual stimulation is required for these medications to work.",
+    "headers": ["Medication", "Typical dose", "Timing and duration", "Key considerations"],
+    "rows": [
+      ["Sildenafil (Viagra, generic)", "25 to 100 mg by mouth", "Take approximately 1 hour before sexual activity. Duration 4 to 6 hours.", "Most studied PDE5 inhibitor. Take on empty stomach — fatty food delays absorption. Common side effects include headache, flushing, dyspepsia, and nasal congestion. Visual changes (blue tinge) possible. Generic widely available."],
+      ["Tadalafil (Cialis, generic)", "On-demand: 10 to 20 mg. Daily: 5 mg.", "On-demand: take before sexual activity, lasts up to 36 hours. Daily: take once daily at the same time.", "Longest duration of action. Food does not affect absorption. Also treats BPH and lower urinary tract symptoms at daily dose. Back pain and myalgia may occur. Generic widely available."],
+      ["Vardenafil (Levitra, generic)", "10 to 20 mg by mouth", "Take approximately 1 hour before sexual activity. Duration 4 to 6 hours.", "Similar efficacy and side effect profile to sildenafil. Take on empty or light stomach for best absorption. QT prolongation risk — avoid in patients with QT interval abnormalities."],
+      ["Avanafil (Stendra)", "50 to 200 mg by mouth", "Take 15 to 30 minutes before sexual activity. Duration 4 to 6 hours.", "Fastest onset among PDE5 inhibitors. More selective for PDE5, which may result in fewer side effects. Food has minimal effect on absorption. Brand-name only, typically higher cost."],
+      ["Tadalafil 5 mg daily (for ED with BPH)", "5 mg by mouth once daily", "Take at the same time each day, regardless of sexual activity timing.", "Specifically indicated for men with both ED and lower urinary tract symptoms from BPH. Provides continuous readiness. Not recommended if creatinine clearance is significantly reduced."],
+      ["Sildenafil 25 mg (reduced starting dose)", "25 mg by mouth", "Take approximately 1 hour before sexual activity. Duration 4 to 6 hours.", "Lower starting dose for men over 65, those with hepatic or renal impairment, or those taking alpha-blockers. Titrate up as tolerated. AUA recommends titrating to maximum tolerated dose."]
+    ],
+    "note": "Example regimens only. The actual medication, dosing, and timing are determined by the MD after reviewing your symptoms, cardiovascular risk, current medications, and red flags. ABSOLUTE contraindication: PDE5 inhibitors must NEVER be combined with nitrates (nitroglycerin, isosorbide mononitrate, isosorbide dinitrate) due to risk of fatal hypotension. TeleDirectMD does not prescribe controlled substances. PDE5 inhibitors are not controlled substances."
+  },
+
+  "homeCare": {
+    "sectionTitle": "Home Care, Lifestyle Optimization, and Follow-up",
+    "whatToDoNow": {
+      "title": "What to Do After Your Visit",
+      "items": [
+        "Take your PDE5 inhibitor as directed — follow the specific timing, dose, and food instructions for your medication",
+        "Sexual stimulation is required for PDE5 inhibitors to work — they do not cause automatic erections",
+        "Try the medication on at least 5 separate occasions at maximum tolerated dose before concluding it does not work (AUA recommendation for adequate trial)",
+        "Avoid nitrates in any form while taking PDE5 inhibitors — this includes nitroglycerin, isosorbide, and recreational nitrite poppers",
+        "Limit alcohol, as excessive alcohol impairs erectile function and can worsen side effects"
+      ]
+    },
+    "whatToWatch": {
+      "title": "What to Watch For After Starting Treatment",
+      "items": [
+        "Headache, flushing, nasal congestion, and dyspepsia are common and usually mild side effects",
+        "Priapism — an erection lasting more than 4 hours — requires immediate ER evaluation to prevent permanent damage",
+        "Sudden vision loss (non-arteritic anterior ischemic optic neuropathy) or sudden hearing loss — stop medication and seek urgent care",
+        "Chest pain, dizziness, or fainting after taking ED medication — seek emergency care immediately and inform providers you took a PDE5 inhibitor"
+      ]
+    },
+    "followUp": {
+      "title": "Lifestyle Optimization and Follow-up",
+      "items": [
+        "Regular aerobic exercise (at least 150 minutes per week) improves vascular function and erectile quality",
+        "Weight loss in overweight men can significantly improve erectile function even without medication changes",
+        "Smoking cessation reduces vascular damage and improves long-term erectile outcomes",
+        "If PDE5 inhibitor is not effective after 5 adequate attempts at maximum dose, follow up for dose adjustment, medication switch, or urology referral",
+        "If you develop new cardiovascular symptoms or start nitrate therapy, stop PDE5 inhibitors and contact your physician immediately"
+      ]
+    }
+  },
+
+  "whenNotToUse": {
+    "sectionTitle": "When Not to Use TeleDirectMD for Erectile Dysfunction in {state}",
+    "intro": "TeleDirectMD is designed for straightforward adult erectile dysfunction. We are direct about when telehealth is not the right fit.",
+    "shouldNotUse": {
+      "title": "You Should Not Use TeleDirectMD If",
+      "items": [
+        "You take nitrates in any form — nitroglycerin, isosorbide mononitrate, isosorbide dinitrate, or recreational nitrites (ABSOLUTE contraindication to PDE5 inhibitors)",
+        "You have unstable cardiovascular disease, recent heart attack, or need stress testing before sexual activity",
+        "You have a history of priapism",
+        "You have Peyronie's disease, penile curvature, plaque, or anatomical abnormality",
+        "You have tried maximum-dose PDE5 inhibitors with at least 5 adequate attempts without benefit",
+        "You are under 18 years old",
+        "You are not physically in {state} at the time of visit"
+      ]
+    },
+    "alternatives": {
+      "title": "Alternative Care Options",
+      "items": [
+        { "label": "Emergency room:", "text": "priapism (erection lasting more than 4 hours), chest pain after ED medication, sudden vision loss, or sudden hearing loss" },
+        { "label": "Urology:", "text": "PDE5 inhibitor failure after adequate trial, Peyronie's disease, penile injection therapy, vacuum devices, or surgical options" },
+        { "label": "Cardiology:", "text": "ED with unstable cardiovascular disease, nitrate use, or need for cardiac stress testing before sexual activity" },
+        { "label": "Primary care:", "text": "ED with concurrent diabetes, hypertension, depression, or suspected hypogonadism needing laboratory workup" }
+      ]
+    }
+  },
+
+  "faq": {
+    "sectionTitle": "Erectile Dysfunction FAQs for {state}",
+    "items": [
+      {
+        "question": "Can I get a prescription for erectile dysfunction medication online in {state}?",
+        "answer": "Yes, if you are an adult male 18 or older located in {state} and your symptoms are appropriate for telehealth after safety screening. TeleDirectMD can prescribe PDE5 inhibitors such as sildenafil or tadalafil when clinically appropriate. Nitrate use is an absolute contraindication that must be ruled out before prescribing."
+      },
+      {
+        "question": "How much does online erectile dysfunction treatment cost in {state}?",
+        "answer": "TeleDirectMD offers a transparent self pay option starting at $49 for an adult video visit in {state}. Insurance is not required. Prescription costs at your pharmacy are separate and vary by medication and pharmacy. Generic sildenafil and tadalafil are widely available and often affordable."
+      },
+      {
+        "question": "Are ED medications controlled substances?",
+        "answer": "No. PDE5 inhibitors (sildenafil, tadalafil, vardenafil, avanafil) are not controlled substances. They are prescription medications that require a physician evaluation but do not carry the scheduling, abuse potential, or regulatory restrictions of controlled substances. TeleDirectMD does not prescribe controlled substances, and PDE5 inhibitors do not fall into that category."
+      },
+      {
+        "question": "What is the difference between sildenafil and tadalafil?",
+        "answer": "Both are PDE5 inhibitors with similar efficacy. Sildenafil (Viagra, generic) lasts 4 to 6 hours, works best on an empty stomach, and is taken about 1 hour before sexual activity. Tadalafil (Cialis, generic) lasts up to 36 hours, is not affected by food, and can be taken daily at a low dose (5 mg) for continuous readiness. The best choice depends on sexual frequency, preference for spontaneity, and individual response."
+      },
+      {
+        "question": "Why can't I take ED medication if I use nitroglycerin or isosorbide?",
+        "answer": "PDE5 inhibitors combined with nitrates can cause severe, potentially fatal hypotension (dangerously low blood pressure). This is an ABSOLUTE contraindication — there is no safe way to combine these medications. This includes nitroglycerin (sublingual, patch, or spray), isosorbide mononitrate, isosorbide dinitrate, and recreational nitrite poppers. If you take nitrates in any form, PDE5 inhibitors cannot be prescribed."
+      },
+      {
+        "question": "How many times should I try ED medication before deciding it doesn't work?",
+        "answer": "The AUA guideline recommends at least 5 separate attempts at the maximum tolerated dose before declaring a PDE5 inhibitor ineffective. Many men do not respond on the first attempt due to anxiety, incorrect timing, or not using the optimal dose. If one PDE5 inhibitor does not work after an adequate trial, switching to a different one salvages up to 60 percent of initial non-responders."
+      },
+      {
+        "question": "Do ED medications cause automatic erections?",
+        "answer": "No. PDE5 inhibitors require sexual stimulation to work. They enhance the natural erectile response by increasing blood flow to the penis when you are sexually aroused, but they do not cause erections on their own. This is an important point to understand for setting realistic expectations."
+      },
+      {
+        "question": "Can lifestyle changes improve erectile dysfunction?",
+        "answer": "Yes. Weight loss, regular aerobic exercise (at least 150 minutes per week), smoking cessation, and alcohol reduction all improve erectile function. In overweight men, weight loss alone can significantly improve ED. Exercise improves both vascular function and testosterone levels. Lifestyle modifications complement PDE5 inhibitor therapy and address underlying causes."
+      },
+      {
+        "question": "What should I do if I get an erection that lasts more than 4 hours?",
+        "answer": "Priapism, an erection lasting more than 4 hours, is a urologic emergency. Go to the emergency room immediately. Prolonged priapism can cause permanent damage to the erectile tissue. Inform the ER that you took a PDE5 inhibitor and when you took it."
+      },
+      {
+        "question": "Is ED a sign of heart disease?",
+        "answer": "ED can be an early warning sign of cardiovascular disease. The penile arteries are smaller than coronary arteries, so atherosclerosis may affect them first. Men with new-onset ED, especially those with risk factors like diabetes, hypertension, smoking, or high cholesterol, should consider cardiovascular screening. TeleDirectMD screens for cardiovascular risk as part of the ED evaluation."
+      },
+      {
+        "question": "Does TeleDirectMD treat erectile dysfunction in other states?",
+        "answer": "Yes. TeleDirectMD offers adult evaluations via video visits across multiple states where our physicians are licensed. You must be physically located in the state where you are requesting care at the time of your video visit."
+      },
+      {
+        "question": "Can I use my insurance for a TeleDirectMD visit?",
+        "answer": "Insurance is not required. If your plan is eligible, you may be able to use insurance. A self pay option is also available."
+      },
+      {
+        "question": "What if I am taking an alpha-blocker like tamsulosin?",
+        "answer": "Alpha-blockers used for benign prostatic hyperplasia (tamsulosin, doxazosin, alfuzosin) can cause additive blood pressure lowering when combined with PDE5 inhibitors. This is not an absolute contraindication, but requires careful dose adjustment and timing. The MD will review your specific alpha-blocker and recommend safe prescribing, often starting with a lower PDE5 inhibitor dose."
+      },
+      {
+        "question": "Can TeleDirectMD prescribe daily tadalafil for ED and BPH together?",
+        "answer": "Yes. Daily tadalafil 5 mg is FDA-approved for both erectile dysfunction and lower urinary tract symptoms from benign prostatic hyperplasia (BPH). If you have both conditions and meet the safety criteria, this may be discussed during your video visit as a single medication option for both."
+      }
+    ],
+    "bottomCta": {
+      "title": "Need help today?",
+      "text": "Insurance is not required. Adult-only video visits. MD-only care. Safety-first screening, PDE5 inhibitor prescriptions when appropriate, and clear next steps."
+    }
+  },
+
+  "references": [
+    { "text": "AUA Guideline on the Management of Erectile Dysfunction (2018)", "url": "https://www.auajournals.org/doi/10.1016/j.juro.2018.05.004" },
+    { "text": "PDE5 Inhibitors, StatPearls (2025)", "url": "https://www.ncbi.nlm.nih.gov/books/NBK549843/" },
+    { "text": "Evolving Medical Management of Erectile Dysfunction (Sexual Medicine Reviews, 2025)", "url": "https://academic.oup.com/smr/article/13/4/513/8221489" },
+    { "text": "Erectile Dysfunction, StatPearls (2025)", "url": "https://www.ncbi.nlm.nih.gov/books/NBK562253/" },
+    { "text": "FDA Drug Safety Communication: PDE5 Inhibitors and Sudden Hearing Loss", "url": "https://www.fda.gov/drugs/postmarket-drug-safety-information-patients-and-providers/fda-drug-safety-communication-fda-revises-labeling-pde5-inhibitors-used-erectile-dysfunction" }
+  ],
+
+  "disclaimer": {
+    "sectionTitle": "TeleDirectMD Telehealth Disclaimer",
+    "paragraphs": [
+      "TeleDirectMD provides MD-only virtual urgent care for adults (18+) in {state} using secure video visits to evaluate erectile dysfunction symptoms, provide evidence-based guidance, and prescribe PDE5 inhibitor treatment when clinically appropriate. Insurance is not required. You must be physically located in {state} at the time of your video visit. TeleDirectMD does not prescribe controlled substances. PDE5 inhibitors are not controlled substances.",
+      "TeleDirectMD is not an emergency service and is not a replacement for urgent in-person care during priapism, chest pain after ED medication, sudden vision loss, or sudden hearing loss. This service is intended for straightforward erectile dysfunction and is not a substitute for comprehensive in-person evaluation when red flags, nitrate use, or unstable cardiovascular disease are present.",
+      "Online erectile dysfunction treatment in {state}. ED medication online. Viagra and Cialis prescriptions by video visit. PDE5 inhibitor therapy for {state} men."
+    ]
+  },
+
+  "relatedConditions": [
+    {
+      "slug": "hair-loss-treatment-online",
+      "title": "Hair Loss Treatment",
+      "description": "Common men's health condition often managed alongside ED via telehealth"
+    },
+    {
+      "slug": "smoking-cessation-treatment-online",
+      "title": "Smoking Cessation",
+      "description": "Smoking accelerates vascular damage and worsens ED — quitting improves erectile outcomes"
+    },
+    {
+      "slug": "performance-anxiety-treatment-online",
+      "title": "Performance Anxiety",
+      "description": "Performance anxiety and ED frequently overlap and both respond to telehealth management"
+    },
+    {
+      "slug": "excessive-sweating-treatment-online",
+      "title": "Excessive Sweating",
+      "description": "Another condition commonly managed via telehealth for adult men"
+    }
+  ],
+
+  "inlineLinks": [
+    { "slug": "smoking-cessation-treatment-online", "label": "Smoking Cessation" },
+    { "slug": "excessive-sweating-treatment-online", "label": "Excessive Sweating" },
+    { "slug": "covid-19-treatment-online", "label": "COVID-19 Treatment" },
+    { "slug": "acne-treatment-online", "label": "Acne Treatment" },
+    { "slug": "seasonal-allergies-treatment-online", "label": "Seasonal Allergies" },
+    { "slug": "cold-sore-treatment-online", "label": "Cold Sore" },
+    { "slug": "sinus-infection-treatment-online", "label": "Sinus Infection" },
+    { "slug": "dandruff-treatment-online", "label": "Dandruff Treatment" },
+    { "slug": "gout-treatment-online", "label": "Gout Treatment" },
+    { "slug": "asthma-refills-online", "label": "Asthma Refills" }
+  ],
+
+  "cityBlock": {
+    "title": "Adults We Serve Across {state}",
+    "text": "TeleDirectMD evaluates adults located throughout {state}, including {citiesExtended}. Whether you are searching for online erectile dysfunction treatment in {city1}, ED medication online in {city2}, Viagra or Cialis prescription by video visit in {city3}, or telehealth ED evaluation anywhere else in {state}, the same telehealth eligibility and safety rules apply."
+  },
+
+  "icd10Codes": [
+    { "code": "N52.9", "description": "Male erectile dysfunction, unspecified" }
+  ],
+
+  "jsonLd": {
+    "conditionName": "Erectile Dysfunction",
+    "conditionAlternateNames": ["ED", "Impotence", "Male erectile dysfunction", "Erectile insufficiency"],
+    "conditionDescription": "Erectile dysfunction (ED) is the persistent inability to achieve or maintain an erection sufficient for satisfactory sexual intercourse. TeleDirectMD evaluates adult ED symptoms by video visit with safety-first cardiovascular and nitrate screening, guideline-based PDE5 inhibitor prescribing when clinically appropriate, and clear rules for when in-person urology evaluation is needed.",
+    "primaryIcd10": "N52.9",
+    "anatomy": "Penis, penile vasculature, corpus cavernosum",
+    "symptoms": ["Difficulty achieving erection", "Difficulty maintaining erection", "Reduced erectile firmness", "Decreased libido"],
+    "riskFactors": [
+      "Cardiovascular disease",
+      "Diabetes mellitus",
+      "Obesity",
+      "Smoking",
+      "Hypertension",
+      "Depression",
+      "Sedentary lifestyle"
+    ],
+    "complications": [
+      "Relationship distress",
+      "Depression and anxiety",
+      "Undiagnosed cardiovascular disease"
+    ],
+    "epidemiology": "ED affects approximately 30 million men in the United States. Prevalence increases with age, from roughly 40 percent at age 40 to 70 percent at age 70.",
+    "drugs": [
+      { "name": "Sildenafil", "id": "sildenafil" },
+      { "name": "Tadalafil", "id": "tadalafil" },
+      { "name": "Vardenafil", "id": "vardenafil" },
+      { "name": "Avanafil", "id": "avanafil" }
+    ],
+    "treatments": [
+      "PDE5 inhibitor therapy (first-line)",
+      "Lifestyle modifications (weight loss, exercise, smoking cessation)",
+      "Penile injection therapy for refractory cases",
+      "Vacuum erection devices",
+      "Penile prosthesis surgery (third-line)"
+    ],
+    "tests": [
+      "Clinical symptom review and cardiovascular risk screening",
+      "Nitrate and medication interaction assessment",
+      "Testosterone level testing when hypogonadism is suspected"
+    ],
+    "specialties": ["Family Medicine", "Telemedicine", "Urology"],
+    "guidelines": [
+      { "name": "AUA Guideline on the Management of Erectile Dysfunction (2018)", "url": "https://www.auajournals.org/doi/10.1016/j.juro.2018.05.004", "publisher": "American Urological Association", "id": "aua-ed-2018" },
+      { "name": "PDE5 Inhibitors, StatPearls", "url": "https://www.ncbi.nlm.nih.gov/books/NBK549843/", "publisher": "StatPearls Publishing", "id": "statpearls-pde5" },
+      { "name": "Evolving Medical Management of Erectile Dysfunction", "url": "https://academic.oup.com/smr/article/13/4/513/8221489", "publisher": "Sexual Medicine Reviews", "id": "smr-ed-2025" }
+    ],
+    "knowsAbout": [
+      "Erectile dysfunction treatment",
+      "PDE5 inhibitor therapy",
+      "Sildenafil and tadalafil prescribing",
+      "Nitrate contraindication screening",
+      "Cardiovascular risk assessment for ED",
+      "Family Medicine"
+    ],
+    "serviceDescription": "Secure video visit for {state} adult men with erectile dysfunction symptoms, including nitrate safety screening, cardiovascular risk assessment, and PDE5 inhibitor prescriptions when clinically appropriate.",
+    "webpageDescription": "{state} erectile dysfunction treatment by secure MD video visit for adult men. Evidence-based evaluation of ED symptoms, nitrate and cardiovascular safety screening, guideline-based PDE5 inhibitor prescribing when appropriate, and clear rules for when in-person urology care is needed."
+  }
+}
