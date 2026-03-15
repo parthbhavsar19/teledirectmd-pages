@@ -1,0 +1,590 @@
+{
+  "conditionName": "COVID-19",
+  "conditionShort": "COVID-19",
+  "conditionSlug": "covid-19-treatment-online",
+  "pageTitle": "COVID-19 Treatment Online in {state} | Paxlovid Video Visit | TeleDirectMD",
+  "metaDescription": "Evidence-based COVID-19 treatment for {state} adults by secure video visit. Risk-factor assessment, Paxlovid prescriptions when clinically appropriate, red-flag screening, and supportive care guidance. Self pay option starting at $49. Insurance is not required.",
+  "ogImageAlt": "COVID-19 treatment in {state} by TeleDirectMD",
+
+  "hero": {
+    "h1": "COVID-19 Treatment in {state} (Mild to Moderate)",
+    "subtitle": "{state} adult care by secure video visit, self pay option starting at $49, MD-only, insurance is not required.",
+    "introParagraph": "COVID-19 remains a treatable outpatient illness when antiviral therapy is started early. The CDC outpatient treatment guidelines (February 2026) recommend nirmatrelvir/ritonavir (Paxlovid) as first-line oral antiviral therapy for adults with mild to moderate COVID-19 who have risk factors for severe disease, initiated within 5 days of symptom onset. In clinical trials, Paxlovid reduced hospitalization and death by 86 percent in unvaccinated high-risk patients. The CDC recommends treatment consideration for anyone age 50 and older, as well as adults with multiple comorbidities, immunocompromised status, or incomplete vaccination. Supportive care with rest, hydration, and over-the-counter symptom management remains appropriate for mild illness in patients without risk factors for progression. TeleDirectMD uses a safety-first telehealth approach that screens for red flags including difficulty breathing, persistent chest pain or pressure, confusion, inability to stay awake, and cyanosis before determining whether outpatient treatment by video visit is appropriate. If the clinical picture supports uncomplicated mild to moderate COVID-19 without red flags, guideline-based treatment including Paxlovid when indicated may be reasonable by video, while adults with severe illness are directed to emergency care. This page is for adults located in {state}, including {cities}.",
+    "tocLinks": [
+      { "href": "eligibility-checklist", "label": "Eligibility checklist" },
+      { "href": "decision-guide", "label": "Decision guide" },
+      { "href": "treatment-options", "label": "Treatment options" },
+      { "href": "faq", "label": "FAQs" },
+      { "href": "references", "label": "References" }
+    ],
+    "benefits": [
+      "Self pay option starting at $49",
+      "MD-only care (no mid-levels)",
+      "Insurance is not required",
+      "Licensed telehealth care for patients located in {state} at the time of the visit"
+    ],
+    "sideCard": {
+      "h2": "Online MD-Only COVID-19 Care in {state}",
+      "features": [
+        "Evaluation for COVID-19 symptoms and risk factors for severe disease",
+        "Red-flag screening for respiratory distress and complications",
+        "Paxlovid prescriptions when clinically appropriate and within treatment window",
+        "Clear follow-up steps and escalation rules"
+      ],
+      "note": "Adults 18+ only. TeleDirectMD is not an emergency service. Go to the ER now for difficulty breathing or shortness of breath, persistent chest pain or pressure, confusion or inability to stay awake, pale gray or blue-colored skin lips or nail beds (cyanosis), oxygen saturation below 94 percent, or any signs of severe illness. TeleDirectMD does not prescribe controlled substances."
+    },
+    "icd10Display": "U07.1, J12.82, or M35.81 (final coding depends on clinical details)"
+  },
+
+  "eligibility": {
+    "sectionTitle": "COVID-19 Telehealth Eligibility Checklist for {state}",
+    "introText": "You are likely eligible for a TeleDirectMD video visit if ALL of these are true:",
+    "eligible": [
+      "You are 18 years old or older",
+      "You are physically located in {state} at the time of the visit",
+      "You have symptoms consistent with COVID-19 such as fever, cough, sore throat, body aches, fatigue, congestion, or loss of taste or smell",
+      "You have tested positive for COVID-19 with a rapid antigen test or PCR, or have strong clinical suspicion based on symptoms and exposure",
+      "You do not have difficulty breathing, persistent chest pain, confusion, or cyanosis",
+      "Your symptoms began within the last 5 days (for Paxlovid eligibility)",
+      "You are not experiencing severe illness requiring hospitalization",
+      "Insurance is not required. A self pay option is available."
+    ],
+    "notEligible": [
+      "You are under 18 years old",
+      "You have difficulty breathing or shortness of breath at rest",
+      "You have persistent chest pain or pressure",
+      "You have confusion, altered mental status, or inability to stay awake",
+      "You have pale, gray, or blue-colored skin, lips, or nail beds",
+      "You have oxygen saturation below 94 percent",
+      "You are unable to keep fluids down due to severe vomiting",
+      "You have severe illness requiring hospitalization or IV treatment"
+    ],
+    "notEligibleDisclaimer": "If you have red-flag symptoms suggesting severe COVID-19, seek emergency care immediately. TeleDirectMD is not an emergency service."
+  },
+
+  "howItWorks": {
+    "sectionTitle": "How Online COVID-19 Treatment Works in {state}",
+    "steps": [
+      {
+        "type": "check",
+        "title": "Book your video visit",
+        "description": "Insurance is not required. No referral needed. Many visits are available same day, depending on scheduling. Before your visit, note when symptoms started, your COVID test result, your vaccination status, and any chronic medical conditions or medications you take."
+      },
+      {
+        "type": "check",
+        "title": "See a {state} licensed MD by video",
+        "description": "We review your symptom timeline, severity, risk factors for severe disease, and current medications. The CDC recommends Paxlovid for eligible patients within 5 days of symptom onset. We determine whether your presentation fits mild to moderate COVID-19 appropriate for outpatient treatment or requires in-person evaluation."
+      },
+      {
+        "type": "good",
+        "title": "Get a treatment plan and, if appropriate, a prescription",
+        "description": "If Paxlovid is clinically appropriate, we send an e-prescription to common {state} pharmacies such as {pharmacies}. Many patients with mild illness and no risk factors benefit from supportive care alone. You receive clear follow-up steps regardless of treatment choice, including when to seek in-person care if symptoms worsen.",
+        "showCta": true
+      }
+    ]
+  },
+
+  "telehealthRegulations": {
+    "sectionTitle": "{state} Telehealth Regulations for Online COVID-19 Care",
+    "paragraphs": [
+      "{telehealthRegulation}",
+      "Location matters: you must be physically in {state} during the visit. Insurance is not required. TeleDirectMD does not prescribe controlled substances."
+    ]
+  },
+
+  "comparisonTable": {
+    "sectionTitle": "TeleDirectMD vs Other Care Options for COVID-19 in {state}",
+    "intro": "Here is how TeleDirectMD compares to common settings for adult COVID-19 care in {state}:",
+    "rows": [
+      {
+        "option": "TeleDirectMD",
+        "cost": "Self pay option starting at $49",
+        "wait": "Same day, often within hours",
+        "provider": "Board-certified MD only (no mid-levels)",
+        "bestFor": "Mild to moderate COVID-19 with risk-factor assessment, Paxlovid prescriptions when appropriate, and clear follow-up",
+        "highlight": true
+      },
+      {
+        "option": "Urgent Care",
+        "cost": "$150 to $300+ (before insurance)",
+        "wait": "1 to 3 hours typical",
+        "provider": "MD, DO, PA, or NP",
+        "bestFor": "Moderate symptoms, need for on-site COVID testing, or uncertain diagnosis requiring physical exam",
+        "highlight": false
+      },
+      {
+        "option": "Emergency Room",
+        "cost": "$500 to $3,000+ (before insurance)",
+        "wait": "2 to 6 hours typical",
+        "provider": "Emergency medicine MD or DO",
+        "bestFor": "Difficulty breathing, persistent chest pain, confusion, cyanosis, oxygen saturation below 94 percent, or any signs of severe COVID-19",
+        "highlight": false
+      },
+      {
+        "option": "Primary Care",
+        "cost": "$100 to $250+ (varies)",
+        "wait": "3 to 14 days typical",
+        "provider": "Family medicine or internal medicine MD or DO",
+        "bestFor": "Post-COVID follow-up, long COVID evaluation, vaccination planning, and management of underlying conditions",
+        "highlight": false
+      },
+      {
+        "option": "Infectious Disease Specialist",
+        "cost": "$200 to $500+ (varies)",
+        "wait": "Days to weeks (varies)",
+        "provider": "Infectious disease MD or DO",
+        "bestFor": "Immunocompromised patients, treatment-resistant COVID-19, complicated infections, or need for IV remdesivir",
+        "highlight": false
+      }
+    ],
+    "bottomLine": "TeleDirectMD is a strong fit for mild to moderate COVID-19 in adults with timely risk-factor assessment, Paxlovid prescriptions when appropriate, and direct MD evaluation."
+  },
+
+  "decisionGuide": {
+    "sectionTitle": "Should I Use TeleDirectMD for COVID-19 in {state}? Decision Guide",
+    "steps": [
+      {
+        "type": "urgent",
+        "title": "Do you have any emergency or red-flag symptoms?",
+        "items": [
+          "Difficulty breathing or shortness of breath at rest",
+          "Persistent chest pain or pressure",
+          "Confusion, altered mental status, or inability to stay awake",
+          "Pale, gray, or blue-colored skin, lips, or nail beds (cyanosis)",
+          "Oxygen saturation below 94 percent"
+        ],
+        "yesAction": "If yes, go to the ER now",
+        "noAction": "If no, continue to Step 2"
+      },
+      {
+        "type": "check",
+        "title": "Are you 18+ and currently in {state}?",
+        "items": [],
+        "yesAction": "If yes, continue to Step 3",
+        "noAction": "If no, use in-person care as appropriate"
+      },
+      {
+        "type": "check",
+        "title": "Do your symptoms fit mild to moderate COVID-19?",
+        "items": [
+          "Fever, cough, sore throat, body aches, or fatigue",
+          "Loss of taste or smell, nasal congestion, or runny nose",
+          "Positive COVID test or strong clinical suspicion from symptoms and exposure",
+          "No difficulty breathing at rest, no persistent chest pain, no confusion, no cyanosis"
+        ],
+        "yesAction": "If yes, continue to Step 4",
+        "noAction": "If no or symptoms are severe, seek in-person evaluation or ER"
+      },
+      {
+        "type": "good",
+        "title": "You are likely appropriate for a TeleDirectMD video visit",
+        "description": "TeleDirectMD can evaluate your COVID-19 symptoms, assess risk factors for severe disease, determine whether Paxlovid or supportive care is appropriate based on CDC guidelines, and prescribe medication when clinically indicated. If your symptoms suggest severe illness or a complication, we will direct you to the right level of in-person care.",
+        "items": [],
+        "showCta": true
+      }
+    ]
+  },
+
+  "pricing": {
+    "sectionTitle": "What Does COVID-19 Treatment Cost in {state}?",
+    "subtitle": "Transparent options. Insurance is not required.",
+    "visitPrice": "$49",
+    "priceSubtext": "Self pay option. Insurance is not required.",
+    "includes": [
+      "MD evaluation and red-flag screening",
+      "Risk-factor assessment for severe COVID-19",
+      "Guideline-based antiviral treatment decision",
+      "Paxlovid prescription sent if clinically appropriate",
+      "Clear follow-up steps and escalation instructions"
+    ],
+    "comparisonBars": [
+      { "name": "TeleDirectMD", "value": "$49", "width": 12, "isTdmd": true },
+      { "name": "Primary Care", "value": "$100 to $250+", "width": 45, "isTdmd": false },
+      { "name": "Urgent Care", "value": "$150 to $300+", "width": 55, "isTdmd": false },
+      { "name": "Emergency Room", "value": "$500 to $3,000+", "width": 100, "isTdmd": false }
+    ],
+    "footnote": "Prescription costs at your pharmacy are separate and vary by medication and pharmacy. Paxlovid may be available at no cost through government programs or insurance coverage.",
+    "noHiddenFees": "No hidden fees. If medication is not clinically appropriate, you still receive a complete evaluation, guidance, and clear instructions on what level of care you need next."
+  },
+
+  "whatIsCondition": {
+    "sectionTitle": "What Is COVID-19?",
+    "paragraphs": [
+      "COVID-19 is a respiratory illness caused by the SARS-CoV-2 virus. While most adults with COVID-19 experience mild to moderate symptoms, certain populations are at significantly higher risk for severe disease, hospitalization, and death. The CDC identifies key risk factors including age over 65, incomplete vaccination, immunocompromised status, and multiple chronic medical conditions.",
+      "Oral antiviral therapy with nirmatrelvir/ritonavir (Paxlovid) has been shown to reduce hospitalization and death by 86 percent in high-risk patients when started within 5 days of symptom onset. The CDC February 2026 outpatient guidelines recommend Paxlovid as first-line treatment for eligible adults with risk factors. Early treatment is critical because antiviral effectiveness declines significantly when started after the 5-day window.",
+      "TeleDirectMD focuses on timely evaluation of mild to moderate COVID-19 symptoms with risk-factor assessment and antiviral prescriptions when clinically appropriate, with careful screening to direct patients with severe illness or complications to emergency care."
+    ]
+  },
+
+  "causesAndRiskFactors": {
+    "sectionTitle": "Causes and Risk Factors",
+    "intro": "COVID-19 is caused by the SARS-CoV-2 virus, transmitted primarily through respiratory droplets and aerosols. While anyone can contract COVID-19, specific risk factors significantly increase the likelihood of severe disease and the need for antiviral treatment.",
+    "items": [
+      { "label": "Age over 65:", "text": "substantially higher risk of severe disease, with risk increasing further after age 75. The CDC recommends treatment consideration for anyone age 50 and older" },
+      { "label": "Incomplete vaccination:", "text": "unvaccinated or not up to date on recommended COVID-19 vaccinations increases risk of severe outcomes" },
+      { "label": "Immunocompromised status:", "text": "patients with weakened immune systems from medication, transplant, cancer treatment, or primary immunodeficiency are at highest risk" },
+      { "label": "Multiple chronic conditions:", "text": "risk increases with the number of comorbidities including obesity, diabetes, cardiovascular disease, chronic lung disease, and chronic kidney disease" },
+      { "label": "Chronic lung disease:", "text": "asthma, COPD, and other respiratory conditions increase risk of severe COVID-19 pneumonia" },
+      { "label": "Cardiovascular disease:", "text": "heart failure, coronary artery disease, and cardiomyopathy increase the risk of severe disease and cardiac complications" }
+    ],
+    "closing": "Not every patient with COVID-19 needs antiviral treatment. The CDC recommends antiviral therapy primarily for patients with risk factors for severe disease. Mild illness in otherwise healthy young adults typically resolves with supportive care alone."
+  },
+
+  "symptomsAndRedFlags": {
+    "sectionTitle": "Symptoms and Red Flags for COVID-19 in {state}",
+    "intro": "Use this table to understand which symptoms fit mild to moderate COVID-19 and which patterns suggest a need for urgent in-person or emergency evaluation.",
+    "headers": ["Symptom or situation", "What it suggests", "Telehealth appropriate?", "Red flag requiring urgent in-person care"],
+    "rows": [
+      ["Fever, cough, sore throat, body aches, and fatigue", "Typical mild to moderate COVID-19", "Often yes", "If persistent high fever not responding to antipyretics"],
+      ["Loss of taste or smell with upper respiratory symptoms", "Characteristic of COVID-19 infection", "Often yes", "Not typically a red flag on its own"],
+      ["Nasal congestion, runny nose, and headache", "Mild COVID-19 or other viral URI", "Often yes", "If severe headache with high fever or neck stiffness"],
+      ["Mild shortness of breath with exertion only", "Moderate COVID-19, may benefit from monitoring", "Sometimes", "If progressing or occurring at rest"],
+      ["Persistent cough with chest tightness", "Moderate COVID-19, monitor for progression", "Sometimes", "If worsening or accompanied by difficulty breathing at rest"],
+      ["Difficulty breathing or shortness of breath at rest", "Possible severe COVID-19 pneumonia", "No", "Emergency evaluation now"],
+      ["Persistent chest pain or pressure", "Possible cardiac or pulmonary complication", "No", "Emergency evaluation now"],
+      ["Confusion, inability to stay awake, or cyanosis", "Possible severe hypoxia or end-organ involvement", "No", "Emergency evaluation now"]
+    ]
+  },
+
+  "differentialDiagnosis": {
+    "sectionTitle": "Differential Diagnosis: COVID-19 vs Other Conditions",
+    "intro": "Several respiratory illnesses can present with symptoms similar to COVID-19 including fever, cough, sore throat, and fatigue. TeleDirectMD evaluates symptom patterns, test results, and exposure history to guide appropriate treatment decisions.",
+    "telehealthAppropriate": {
+      "title": "Sometimes Appropriate for Telehealth",
+      "items": [
+        "Mild to moderate COVID-19 with risk-factor assessment and Paxlovid evaluation",
+        "COVID-19 with supportive care needs and no red flags",
+        "Differentiation from influenza, common cold, or other viral URI",
+        "Post-COVID symptom management and return-to-activity guidance",
+        "Antibiotic stewardship when bacterial superinfection is not present"
+      ]
+    },
+    "requiresInPerson": {
+      "title": "Often Requires In-Person Evaluation",
+      "items": [
+        "Severe COVID-19 with respiratory distress requiring supplemental oxygen",
+        "COVID-19 pneumonia requiring chest imaging and monitoring",
+        "Need for IV remdesivir infusion (requires infusion center)",
+        "Immunocompromised patients with severe or prolonged infection",
+        "Suspected multisystem inflammatory syndrome or cardiac complications"
+      ]
+    },
+    "compareCards": [
+      {
+        "title": "COVID-19 vs Influenza",
+        "text": "COVID-19 and influenza share many symptoms including fever, cough, body aches, and fatigue. COVID-19 is more likely to cause loss of taste or smell and tends to have a longer incubation period (2 to 14 days vs 1 to 4 days for flu). Both have antiviral treatments that work best when started early. A positive COVID test confirms the diagnosis, though co-infection with both viruses is possible."
+      },
+      {
+        "title": "COVID-19 vs Common Cold",
+        "text": "The common cold typically causes milder symptoms centered on nasal congestion, runny nose, and sore throat, while COVID-19 more often includes fever, significant fatigue, body aches, and loss of taste or smell. Colds rarely cause shortness of breath. A positive COVID test distinguishes the two, which matters because COVID-19 may benefit from antiviral treatment while colds do not."
+      }
+    ],
+    "closing": "If your symptoms do not match mild to moderate COVID-19 or any red flags are present, TeleDirectMD will direct you to urgent in-person care or the ER."
+  },
+
+  "telehealthEligibility": {
+    "sectionTitle": "When Is a Video Visit Appropriate?",
+    "appropriate": {
+      "title": "When a Video Visit Is Appropriate",
+      "items": [
+        "Positive COVID test or strong clinical suspicion with mild to moderate symptoms",
+        "Symptom onset within the last 5 days (for Paxlovid eligibility)",
+        "No difficulty breathing at rest or persistent chest pain",
+        "No confusion, altered mental status, or cyanosis",
+        "Not requiring supplemental oxygen or IV medication",
+        "Located in {state} at time of visit"
+      ]
+    },
+    "redFlags": {
+      "title": "Red Flags Requiring In-Person or ER Care",
+      "items": [
+        "Difficulty breathing or shortness of breath at rest",
+        "Persistent chest pain or pressure",
+        "Confusion, altered mental status, or inability to stay awake",
+        "Pale, gray, or blue-colored skin, lips, or nail beds (cyanosis)",
+        "Oxygen saturation below 94 percent",
+        "High fever not responding to antipyretics",
+        "Severe dehydration with inability to keep fluids down"
+      ],
+      "disclaimer": "If any red-flag symptoms are present, seek emergency care immediately. TeleDirectMD is not an emergency service."
+    }
+  },
+
+  "treatmentOptions": {
+    "sectionTitle": "Treatment Options",
+    "intro": "The CDC February 2026 outpatient guidelines recommend nirmatrelvir/ritonavir (Paxlovid) as first-line oral antiviral therapy for adults with mild to moderate COVID-19 who have risk factors for severe disease, started within 5 days of symptom onset. Supportive care is appropriate for mild illness in patients without significant risk factors.",
+    "sections": [
+      {
+        "title": "Paxlovid (nirmatrelvir/ritonavir) for eligible patients",
+        "text": "Paxlovid is the recommended first-line oral antiviral for outpatient COVID-19. It is taken twice daily for 5 days and must be started within 5 days of symptom onset. It reduced hospitalization and death by 86 percent in unvaccinated high-risk patients in clinical trials. Paxlovid is contraindicated in severe kidney disease (eGFR below 30) and severe liver disease (Child-Pugh C), and has significant drug interactions due to CYP3A inhibition. Your MD will review your medications and medical history to determine eligibility."
+      },
+      {
+        "title": "Supportive care for mild illness",
+        "text": "For patients with mild COVID-19 and no significant risk factors for severe disease, supportive care is appropriate. This includes rest, adequate hydration, acetaminophen or ibuprofen for fever and pain, dextromethorphan for cough, guaifenesin for chest congestion, and monitoring for symptom progression. Most mild cases resolve within 7 to 14 days."
+      },
+      {
+        "title": "When telehealth care is not enough",
+        "text": "If symptoms worsen, if difficulty breathing develops, if oxygen saturation drops below 94 percent, or if the patient requires IV remdesivir (second-line treatment requiring an infusion center), in-person evaluation is needed. Patients with severe kidney or liver disease who cannot take Paxlovid may need referral for IV remdesivir. Monoclonal antibody therapy, when available, also requires infusion."
+      }
+    ],
+    "doesNotManage": [
+      "Severe COVID-19 requiring hospitalization or supplemental oxygen",
+      "COVID-19 pneumonia requiring chest imaging and monitoring",
+      "IV remdesivir treatment (requires infusion center)",
+      "Monoclonal antibody infusions",
+      "Multisystem inflammatory syndrome or cardiac complications of COVID-19"
+    ]
+  },
+
+  "medications": {
+    "sectionTitle": "Common Medication Options",
+    "intro": "These are common options for adult outpatient COVID-19 treatment. The actual medication, dose, and duration are determined by the MD after reviewing your symptoms, risk factors, medications, and medical history. Paxlovid eligibility depends on timing, kidney function, liver function, and drug interactions.",
+    "headers": ["Medication", "Typical dose", "Duration", "Key considerations"],
+    "rows": [
+      ["Nirmatrelvir/ritonavir (Paxlovid)", "300 mg/100 mg by mouth twice daily", "5 days", "First-line oral antiviral per CDC 2026 guidelines. Must start within 5 days of symptom onset. Contraindicated in severe kidney disease (eGFR <30) and severe liver disease. Significant CYP3A drug interactions require medication review."],
+      ["Acetaminophen (Tylenol)", "500 to 1000 mg by mouth every 4 to 6 hours as needed", "As needed", "For fever and pain relief. Do not exceed 3000 mg per day. Avoid in severe liver disease."],
+      ["Ibuprofen (Advil, Motrin)", "200 to 400 mg by mouth every 4 to 6 hours as needed", "As needed", "For fever, pain, and body aches. Take with food. Avoid in kidney disease or active GI bleeding."],
+      ["Dextromethorphan (Delsym, Robitussin DM)", "10 to 20 mg by mouth every 4 hours or 30 mg every 6 to 8 hours", "As needed for cough", "Over-the-counter cough suppressant. May cause drowsiness. Check for interactions with other medications."],
+      ["Guaifenesin (Mucinex)", "200 to 400 mg by mouth every 4 hours", "As needed for congestion", "Over-the-counter expectorant to thin mucus and ease chest congestion. Drink plenty of fluids while using."],
+      ["Pseudoephedrine (Sudafed)", "60 mg by mouth every 4 to 6 hours", "Short-term as needed", "For nasal congestion. Available behind the pharmacy counter. Avoid in uncontrolled hypertension or cardiovascular disease."],
+      ["Fluids and electrolytes", "Adequate oral hydration throughout illness", "Throughout illness", "Critical supportive care. Oral rehydration solutions may help if appetite is poor. Seek emergency care if unable to keep fluids down."]
+    ],
+    "note": "Example regimens only. The actual medication, dosing, and duration are determined by the MD after reviewing your symptoms, risk factors, medications, and medical history. Paxlovid has significant drug interactions and is not appropriate for all patients. TeleDirectMD does not prescribe controlled substances."
+  },
+
+  "homeCare": {
+    "sectionTitle": "Home Care, Recovery Timeline, Prevention, and Follow-up",
+    "whatToDoNow": {
+      "title": "Recovery Timeline and What to Do Now",
+      "items": [
+        "Most mild to moderate COVID-19 improves within 7 to 14 days",
+        "If prescribed Paxlovid, complete the full 5-day course even if you feel better",
+        "Isolate from others per current CDC guidelines to prevent transmission",
+        "Rest and stay well hydrated with water, broth, and electrolyte drinks",
+        "Monitor your oxygen saturation with a pulse oximeter if available"
+      ]
+    },
+    "whatToWatch": {
+      "title": "What to Watch For Over the Next 24 to 72 Hours",
+      "items": [
+        "Worsening shortness of breath, especially at rest or with minimal activity",
+        "Persistent chest pain or pressure that does not resolve",
+        "Confusion, difficulty staying awake, or altered mental status",
+        "Pale, gray, or blue-colored skin, lips, or nail beds",
+        "High fever not responding to acetaminophen or ibuprofen",
+        "Inability to keep fluids down due to severe nausea or vomiting"
+      ]
+    },
+    "followUp": {
+      "title": "Prevention and Follow-up",
+      "items": [
+        "If symptoms worsen or do not improve within 48 to 72 hours, contact your provider or seek in-person care",
+        "Stay up to date on recommended COVID-19 vaccinations per CDC guidance",
+        "Practice good hand hygiene and respiratory etiquette during illness",
+        "If symptoms persist beyond 4 weeks, consider evaluation for post-COVID conditions (long COVID) with your primary care provider",
+        "If any red-flag symptoms develop at any time, seek emergency care immediately"
+      ]
+    }
+  },
+
+  "whenNotToUse": {
+    "sectionTitle": "When Not to Use TeleDirectMD for COVID-19 in {state}",
+    "intro": "TeleDirectMD is designed for mild to moderate COVID-19 symptoms. We are direct about when telehealth is not appropriate.",
+    "shouldNotUse": {
+      "title": "You Should Not Use TeleDirectMD If",
+      "items": [
+        "You are under 18 years old",
+        "You have difficulty breathing or shortness of breath at rest",
+        "You have persistent chest pain or pressure",
+        "You have confusion, altered mental status, or inability to stay awake",
+        "You have pale, gray, or blue-colored skin, lips, or nail beds (cyanosis)",
+        "You have oxygen saturation below 94 percent",
+        "You need IV remdesivir or monoclonal antibody infusion",
+        "You are not physically in {state} at the time of visit"
+      ]
+    },
+    "alternatives": {
+      "title": "Alternative Care Options",
+      "items": [
+        { "label": "Emergency room:", "text": "difficulty breathing, persistent chest pain, confusion, cyanosis, oxygen saturation below 94 percent, or any signs of severe COVID-19" },
+        { "label": "Urgent care:", "text": "moderate symptoms needing on-site COVID testing, uncertain diagnosis, or when physical exam and pulse oximetry are needed" },
+        { "label": "Infectious disease specialist:", "text": "immunocompromised patients, treatment failure, need for IV remdesivir, or complicated COVID-19 infections" },
+        { "label": "Primary care:", "text": "post-COVID follow-up, long COVID evaluation, vaccination planning, and management of underlying chronic conditions" }
+      ]
+    }
+  },
+
+  "faq": {
+    "sectionTitle": "COVID-19 Treatment FAQs for {state}",
+    "items": [
+      {
+        "question": "Can I get treatment for COVID-19 online in {state}?",
+        "answer": "Yes, if you are an adult 18+ located in {state} and your symptoms are mild to moderate without red flags such as difficulty breathing, chest pain, or confusion. TeleDirectMD can evaluate your symptoms, assess your risk factors for severe disease, and prescribe Paxlovid when clinically appropriate."
+      },
+      {
+        "question": "How much does online COVID-19 treatment cost in {state}?",
+        "answer": "TeleDirectMD offers a transparent self pay option starting at $49 for an adult video visit in {state}. Insurance is not required. Prescription costs at your pharmacy are separate. Paxlovid may be available at reduced cost through insurance or government programs."
+      },
+      {
+        "question": "Do I need Paxlovid for COVID-19?",
+        "answer": "Not everyone with COVID-19 needs Paxlovid. The CDC recommends antiviral treatment primarily for adults with risk factors for severe disease including age over 50, immunocompromised status, chronic medical conditions, and incomplete vaccination. Mild illness in healthy young adults typically resolves with supportive care alone. Your MD will assess your individual risk factors."
+      },
+      {
+        "question": "Who qualifies for Paxlovid?",
+        "answer": "Paxlovid is appropriate for adults with mild to moderate COVID-19 and risk factors for severe disease when started within 5 days of symptom onset. It is contraindicated in severe kidney disease (eGFR below 30) and severe liver disease. It has significant drug interactions that must be reviewed before prescribing. Your MD will evaluate your kidney function, liver function, and current medications."
+      },
+      {
+        "question": "Do I need a COVID test before a telehealth visit?",
+        "answer": "A positive COVID test (rapid antigen or PCR) strengthens the clinical picture and supports prescribing decisions, especially for Paxlovid. TeleDirectMD recommends testing before your visit if possible. At-home rapid antigen tests are widely available. However, a strong clinical history with characteristic symptoms and known exposure may also guide treatment decisions."
+      },
+      {
+        "question": "When should I go to the ER for COVID-19?",
+        "answer": "Seek emergency care immediately for difficulty breathing or shortness of breath at rest, persistent chest pain or pressure, confusion or inability to stay awake, pale gray or blue skin or lips or nail beds, oxygen saturation below 94 percent, or high fever not responding to over-the-counter medications. These signs suggest severe illness requiring in-person emergency evaluation."
+      },
+      {
+        "question": "Does {state} allow telemedicine for COVID-19 treatment?",
+        "answer": "Yes. {state} allows licensed professionals to provide telemedicine within their scope when appropriate and according to accepted standards of care. You must be physically located in {state} at the time of the visit."
+      },
+      {
+        "question": "What if my COVID-19 symptoms worsen after the visit?",
+        "answer": "If symptoms worsen, especially if you develop difficulty breathing, chest pain, confusion, or any red-flag symptoms, seek emergency care immediately. If you have a gradual worsening without red flags, contact TeleDirectMD or your primary care provider for reassessment. Early deterioration within 48 to 72 hours of starting Paxlovid should prompt re-evaluation."
+      },
+      {
+        "question": "Can TeleDirectMD prescribe Paxlovid for COVID-19?",
+        "answer": "Yes, when clinically appropriate. Paxlovid requires a prescription and your MD will evaluate your symptoms, timing since symptom onset, risk factors, kidney and liver function, and current medications before prescribing. Not all patients are eligible due to drug interactions or contraindications."
+      },
+      {
+        "question": "How long does COVID-19 last?",
+        "answer": "Most mild to moderate COVID-19 cases improve within 7 to 14 days. Some patients experience lingering symptoms such as fatigue and cough for several weeks. If symptoms persist beyond 4 weeks, this may represent post-COVID conditions (long COVID) and should be evaluated by your primary care provider."
+      }
+    ],
+    "bottomCta": {
+      "title": "Need help today?",
+      "text": "Insurance is not required. Adult-only video visits. MD-only care. Safety-first triage, guideline-based treatment decisions, and prescriptions only when appropriate."
+    }
+  },
+
+  "references": [
+    { "text": "CDC: COVID-19 Treatments and Medications (Updated February 2026)", "url": "https://www.cdc.gov/covid/treatment/index.html" },
+    { "text": "NIH COVID-19 Treatment Guidelines: Outpatient Management", "url": "https://www.covid19treatmentguidelines.nih.gov/management/clinical-management-of-adults/nonhospitalized-adults--therapeutic-management/" },
+    { "text": "FDA: Paxlovid (nirmatrelvir/ritonavir) Full Prescribing Information", "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2023/218998s000lbl.pdf" },
+    { "text": "IDSA Guidelines on the Treatment and Management of Patients with COVID-19", "url": "https://www.idsociety.org/practice-guideline/covid-19-guideline-treatment-and-management/" }
+  ],
+
+  "disclaimer": {
+    "sectionTitle": "TeleDirectMD Telehealth Disclaimer",
+    "paragraphs": [
+      "TeleDirectMD provides MD-only virtual urgent care for adults (18+) in {state} using secure video visits to evaluate COVID-19 symptoms, assess risk factors for severe disease, provide evidence-based guidance, and prescribe antiviral treatment when clinically appropriate. Insurance is not required. You must be physically located in {state} at the time of your video visit. TeleDirectMD does not prescribe controlled substances.",
+      "TeleDirectMD is not an emergency service and is not a replacement for emergency care during severe COVID-19 with respiratory distress, hypoxia, or other signs of critical illness. TeleDirectMD cannot provide COVID testing, IV remdesivir, monoclonal antibody infusions, or inpatient care. This service is intended for mild to moderate COVID-19 and is not a substitute for in-person evaluation when severe disease is suspected.",
+      "Online COVID-19 treatment in {state}. Paxlovid prescription online. COVID-19 telehealth evaluation by video visit."
+    ]
+  },
+
+  "relatedConditions": [
+    {
+      "slug": "influenza-treatment-online",
+      "title": "Influenza",
+      "description": "Influenza shares many symptoms with COVID-19 including fever, cough, and body aches, and also benefits from early antiviral treatment"
+    },
+    {
+      "slug": "common-cold-treatment-online",
+      "title": "Common Cold",
+      "description": "Viral upper respiratory symptoms often overlap with mild COVID-19 but do not require antiviral treatment"
+    },
+    {
+      "slug": "sore-throat-treatment-online",
+      "title": "Sore Throat",
+      "description": "Sore throat is a common COVID-19 symptom but can also indicate strep throat or other conditions requiring different treatment"
+    },
+    {
+      "slug": "sinus-infection-treatment-online",
+      "title": "Sinus Infection",
+      "description": "Post-viral sinusitis can develop as a secondary bacterial complication following COVID-19 infection"
+    }
+  ],
+
+  "inlineLinks": [
+    { "slug": "influenza-treatment-online", "label": "Influenza" },
+    { "slug": "common-cold-treatment-online", "label": "Common Cold" },
+    { "slug": "sore-throat-treatment-online", "label": "Sore Throat" },
+    { "slug": "sinus-infection-treatment-online", "label": "Sinus Infection" },
+    { "slug": "asthma-refills-online", "label": "Asthma Refills" },
+    { "slug": "uti-treatment-online", "label": "UTI" },
+    { "slug": "pink-eye-treatment-online", "label": "Pink Eye" },
+    { "slug": "cold-sore-treatment-online", "label": "Cold Sore" },
+    { "slug": "yeast-infection-treatment-online", "label": "Yeast Infection" },
+    { "slug": "blood-pressure-medication-refills-online", "label": "Blood Pressure Medication Refills" }
+  ],
+
+  "cityBlock": {
+    "title": "Adults We Serve Across {state}",
+    "text": "TeleDirectMD evaluates adults located throughout {state}, including {citiesExtended}. Whether you are searching for online COVID-19 treatment in {city1}, Paxlovid prescriptions in {city2}, COVID-19 telehealth care in {city3}, or virtual COVID-19 evaluation anywhere else in {state}, the same telehealth eligibility and safety rules apply."
+  },
+
+  "icd10Codes": [
+    { "code": "U07.1", "description": "COVID-19, virus identified" },
+    { "code": "J12.82", "description": "Pneumonia due to coronavirus disease 2019" },
+    { "code": "M35.81", "description": "Multisystem inflammatory syndrome" },
+    { "code": "U09.9", "description": "Post-COVID-19 condition, unspecified" }
+  ],
+
+  "jsonLd": {
+    "conditionName": "COVID-19",
+    "conditionAlternateNames": ["Coronavirus disease 2019", "SARS-CoV-2 infection", "COVID", "Coronavirus"],
+    "conditionDescription": "COVID-19 is a respiratory illness caused by the SARS-CoV-2 virus. TeleDirectMD evaluates adult COVID-19 symptoms by video visit with safety-first red-flag screening, risk-factor assessment for severe disease, Paxlovid prescriptions when clinically appropriate per CDC guidelines, and clear rules for when emergency care is needed.",
+    "primaryIcd10": "U07.1",
+    "anatomy": "Respiratory system",
+    "symptoms": ["Fever", "Cough", "Sore throat", "Fatigue", "Body aches", "Loss of taste or smell", "Shortness of breath"],
+    "riskFactors": [
+      "Age over 65",
+      "Incomplete COVID-19 vaccination",
+      "Immunocompromised status",
+      "Multiple chronic medical conditions",
+      "Obesity",
+      "Chronic lung disease"
+    ],
+    "complications": [
+      "COVID-19 pneumonia",
+      "Acute respiratory distress syndrome (ARDS)",
+      "Cardiac complications (myocarditis, arrhythmia)",
+      "Thromboembolic events",
+      "Post-COVID conditions (long COVID)"
+    ],
+    "epidemiology": "COVID-19 has caused over 100 million confirmed cases and over 1 million deaths in the United States since 2020. While severity has decreased with vaccination and natural immunity, the virus continues to circulate with seasonal surges and new variants.",
+    "drugs": [
+      { "name": "Nirmatrelvir/ritonavir (Paxlovid)", "id": "paxlovid" },
+      { "name": "Acetaminophen", "id": "acetaminophen" },
+      { "name": "Ibuprofen", "id": "ibuprofen" },
+      { "name": "Dextromethorphan", "id": "dextromethorphan" }
+    ],
+    "treatments": [
+      "Oral antiviral therapy with Paxlovid for eligible patients",
+      "Supportive care with rest and hydration",
+      "Over-the-counter symptom management",
+      "Isolation per CDC guidelines",
+      "Emergency evaluation for severe illness"
+    ],
+    "tests": [
+      "Rapid antigen test (at-home or point of care)",
+      "PCR testing",
+      "Clinical symptom and risk-factor assessment",
+      "Pulse oximetry"
+    ],
+    "specialties": ["Family Medicine", "Telemedicine", "Infectious Disease"],
+    "guidelines": [
+      { "name": "CDC COVID-19 Treatments and Medications", "url": "https://www.cdc.gov/covid/treatment/index.html", "publisher": "Centers for Disease Control and Prevention", "id": "cdc" },
+      { "name": "NIH COVID-19 Treatment Guidelines", "url": "https://www.covid19treatmentguidelines.nih.gov/management/clinical-management-of-adults/nonhospitalized-adults--therapeutic-management/", "publisher": "National Institutes of Health", "id": "nih" },
+      { "name": "IDSA Guidelines on Treatment and Management of COVID-19", "url": "https://www.idsociety.org/practice-guideline/covid-19-guideline-treatment-and-management/", "publisher": "Infectious Diseases Society of America", "id": "idsa" }
+    ],
+    "knowsAbout": [
+      "COVID-19 treatment",
+      "Paxlovid prescribing",
+      "Antiviral therapy for SARS-CoV-2",
+      "Telehealth triage",
+      "Safety-first red-flag screening",
+      "Family Medicine"
+    ],
+    "serviceDescription": "Secure video visit for {state} adults with COVID-19 symptoms, including red-flag screening, risk-factor assessment, Paxlovid prescriptions when clinically appropriate, and supportive care guidance.",
+    "webpageDescription": "{state} COVID-19 treatment by secure MD video visit for adults. Evidence-based evaluation of COVID-19 symptoms, risk-factor assessment for severe disease, Paxlovid prescriptions when appropriate, and clear rules for when emergency care is needed."
+  }
+}

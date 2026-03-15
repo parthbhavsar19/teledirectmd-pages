@@ -1,0 +1,584 @@
+{
+  "conditionName": "Common Cold",
+  "conditionShort": "common cold",
+  "conditionSlug": "common-cold-treatment-online",
+  "pageTitle": "Common Cold Treatment Online in {state} | Upper Respiratory Infection MD Video Visit | TeleDirectMD",
+  "metaDescription": "Evidence-based common cold evaluation for {state} adults by secure video visit. Differentiate cold from flu, COVID, and bacterial infections. Symptom management guidance and prescriptions only when a bacterial complication develops. Self pay option starting at $49. Insurance is not required.",
+  "ogImageAlt": "Common cold treatment in {state} by TeleDirectMD",
+
+  "hero": {
+    "h1": "Common Cold Treatment in {state} (Acute Viral Upper Respiratory Infection)",
+    "subtitle": "{state} adult care by secure video visit, self pay option starting at $49, MD-only, insurance is not required.",
+    "introParagraph": "The common cold is the most frequent acute illness in the United States, caused by rhinoviruses and other respiratory viruses, with no cure and no specific antiviral treatment. Per the CDC (2026), medical care for the common cold is entirely supportive: rest, hydration, and over-the-counter symptom relief. Antibiotics are never appropriate for an uncomplicated common cold because the infection is purely viral. Most adults recover on their own within 7 to 10 days. The primary value of a TeleDirectMD video visit for cold symptoms is differential diagnosis: ruling out influenza, COVID-19, streptococcal pharyngitis, and early bacterial sinusitis, all of which can present with overlapping symptoms but require different management. TeleDirectMD screens for red flags including high fever persisting more than 3 days, difficulty breathing, symptoms lasting more than 10 days without improvement, and double worsening that may indicate a secondary bacterial complication such as acute bacterial sinusitis. If a bacterial complication develops, prescription treatment can be provided when clinically appropriate. This page is for adults located in {state}, including {cities}.",
+    "tocLinks": [
+      { "href": "eligibility-checklist", "label": "Eligibility checklist" },
+      { "href": "decision-guide", "label": "Decision guide" },
+      { "href": "treatment-options", "label": "Treatment options" },
+      { "href": "faq", "label": "FAQs" },
+      { "href": "references", "label": "References" }
+    ],
+    "benefits": [
+      "Self pay option starting at $49",
+      "MD-only care (no mid-levels)",
+      "Insurance is not required",
+      "Licensed telehealth care for patients located in {state} at the time of the visit"
+    ],
+    "sideCard": {
+      "h2": "Online MD-Only Common Cold Care in {state}",
+      "features": [
+        "Evaluation of upper respiratory symptoms to differentiate cold from flu, COVID, strep, and sinusitis",
+        "Red-flag screening for bacterial complications and conditions requiring escalation",
+        "Evidence-based guidance on OTC symptom management",
+        "Clear follow-up steps and escalation rules"
+      ],
+      "note": "Adults 18+ only. TeleDirectMD is not an emergency service. Go to the ER now for difficulty breathing or shortness of breath, high fever with confusion or altered mental status, severe chest pain or chest pressure, signs of severe dehydration, or any symptoms that are rapidly worsening. TeleDirectMD does not prescribe controlled substances."
+    },
+    "icd10Display": "J00 or J06.9 (final coding depends on clinical details)"
+  },
+
+  "eligibility": {
+    "sectionTitle": "Common Cold Telehealth Eligibility Checklist for {state}",
+    "introText": "You are likely eligible for a TeleDirectMD video visit if ALL of these are true:",
+    "eligible": [
+      "You are 18 years old or older",
+      "You are physically located in {state} at the time of the visit",
+      "You have symptoms consistent with an upper respiratory infection such as nasal congestion, runny nose, sore throat, cough, or mild body aches",
+      "You do not have difficulty breathing or shortness of breath",
+      "You do not have high fever persisting more than 3 days or confusion",
+      "You are not significantly immunocompromised with rapidly worsening symptoms",
+      "Your symptoms are consistent with an uncomplicated cold rather than a severe or complicated illness",
+      "Insurance is not required. A self pay option is available."
+    ],
+    "notEligible": [
+      "You are under 18 years old",
+      "You have difficulty breathing, shortness of breath, or wheezing",
+      "You have high fever (102°F or higher) persisting more than 3 days",
+      "You have severe or worsening chest pain or chest pressure",
+      "You have confusion, altered mental status, or severe lethargy",
+      "You have signs of severe dehydration",
+      "You are significantly immunosuppressed with worsening respiratory symptoms"
+    ],
+    "notEligibleDisclaimer": "If you have red-flag symptoms such as difficulty breathing, persistent high fever, chest pain, or confusion, seek emergency care immediately. TeleDirectMD is not an emergency service."
+  },
+
+  "howItWorks": {
+    "sectionTitle": "How Online Common Cold Treatment Works in {state}",
+    "steps": [
+      {
+        "type": "check",
+        "title": "Book your video visit",
+        "description": "Insurance is not required. No referral needed. Many visits are available same day, depending on scheduling. Before your visit, note when symptoms started, what symptoms you have, whether you have had fever, and any relevant medical history or medication allergies."
+      },
+      {
+        "type": "check",
+        "title": "See a {state} licensed MD by video",
+        "description": "We review your symptom timeline, severity, and red flags. The primary goal is to differentiate a common cold from influenza, COVID-19, streptococcal pharyngitis, and bacterial sinusitis, which have overlapping symptoms but require different treatment. We assess whether your presentation is consistent with an uncomplicated viral URI or if further evaluation is needed."
+      },
+      {
+        "type": "good",
+        "title": "Get a treatment plan and, if appropriate, a prescription",
+        "description": "For uncomplicated common cold, you receive evidence-based guidance on OTC symptom management. Antibiotics are not prescribed for viral URI because they do not work against viruses. If a bacterial complication such as acute bacterial sinusitis is identified, we can prescribe appropriate treatment and send an e-prescription to common {state} pharmacies such as {pharmacies}. You receive clear follow-up steps regardless, including when to seek in-person care if symptoms worsen.",
+        "showCta": true
+      }
+    ]
+  },
+
+  "telehealthRegulations": {
+    "sectionTitle": "{state} Telehealth Regulations for Online Common Cold Care",
+    "paragraphs": [
+      "{telehealthRegulation}",
+      "Location matters: you must be physically in {state} during the visit. Insurance is not required. TeleDirectMD does not prescribe controlled substances."
+    ]
+  },
+
+  "comparisonTable": {
+    "sectionTitle": "TeleDirectMD vs Other Care Options for Common Cold in {state}",
+    "intro": "Here is how TeleDirectMD compares to common settings for adult common cold care in {state}:",
+    "rows": [
+      {
+        "option": "TeleDirectMD",
+        "cost": "Self pay option starting at $49",
+        "wait": "Same day, often within hours",
+        "provider": "Board-certified MD only (no mid-levels)",
+        "bestFor": "Differentiating cold from flu, COVID, strep, and sinusitis, with evidence-based OTC guidance and prescriptions only when a bacterial complication develops",
+        "highlight": true
+      },
+      {
+        "option": "Urgent Care",
+        "cost": "$150 to $300+ (before insurance)",
+        "wait": "1 to 3 hours typical",
+        "provider": "MD, DO, PA, or NP",
+        "bestFor": "Moderate symptoms, need for rapid strep or flu testing, or when in-person exam is needed",
+        "highlight": false
+      },
+      {
+        "option": "Emergency Room",
+        "cost": "$500 to $3,000+ (before insurance)",
+        "wait": "2 to 6 hours typical",
+        "provider": "Emergency medicine MD or DO",
+        "bestFor": "Difficulty breathing, high fever with confusion, severe chest pain, severe dehydration, or rapidly worsening symptoms",
+        "highlight": false
+      },
+      {
+        "option": "Primary Care",
+        "cost": "$100 to $250+ (varies)",
+        "wait": "3 to 14 days typical",
+        "provider": "Family medicine or internal medicine MD or DO",
+        "bestFor": "Recurrent upper respiratory infections, chronic cough evaluation, and prevention planning",
+        "highlight": false
+      },
+      {
+        "option": "Allergist/Immunologist",
+        "cost": "$150 to $400+ (varies)",
+        "wait": "Days to weeks (varies)",
+        "provider": "Allergy and immunology specialist MD or DO",
+        "bestFor": "Chronic nasal symptoms, recurrent infections suggesting allergic component or immune deficiency",
+        "highlight": false
+      }
+    ],
+    "bottomLine": "TeleDirectMD is a strong fit for evaluating cold symptoms, ruling out more serious conditions, providing evidence-based symptom management, and preventing unnecessary antibiotic use."
+  },
+
+  "decisionGuide": {
+    "sectionTitle": "Should I Use TeleDirectMD for Common Cold in {state}? Decision Guide",
+    "steps": [
+      {
+        "type": "urgent",
+        "title": "Do you have any emergency or red-flag symptoms?",
+        "items": [
+          "Difficulty breathing or shortness of breath",
+          "High fever (102°F or higher) persisting more than 3 days",
+          "Severe chest pain or persistent chest pressure",
+          "Confusion, altered mental status, or severe lethargy",
+          "Symptoms that improved then significantly worsened (double worsening with new high fever)",
+          "Severe dehydration or inability to keep fluids down"
+        ],
+        "yesAction": "If yes, go to the ER now",
+        "noAction": "If no, continue to Step 2"
+      },
+      {
+        "type": "check",
+        "title": "Are you 18+ and currently in {state}?",
+        "items": [],
+        "yesAction": "If yes, continue to Step 3",
+        "noAction": "If no, use in-person care as appropriate"
+      },
+      {
+        "type": "check",
+        "title": "Do your symptoms fit an uncomplicated upper respiratory infection?",
+        "items": [
+          "Nasal congestion, runny nose, sneezing",
+          "Mild sore throat, cough, or mild body aches",
+          "Low-grade or no fever",
+          "No difficulty breathing, no severe chest pain, no confusion"
+        ],
+        "yesAction": "If yes, continue to Step 4",
+        "noAction": "If no or symptoms are severe, seek in-person evaluation or ER"
+      },
+      {
+        "type": "good",
+        "title": "You are likely appropriate for a TeleDirectMD video visit",
+        "description": "TeleDirectMD can evaluate your cold symptoms, differentiate from flu, COVID, strep, and sinusitis, provide evidence-based OTC recommendations, and prescribe treatment only if a bacterial complication is identified. If your symptoms suggest a more serious condition, we will direct you to the right level of in-person care.",
+        "items": [],
+        "showCta": true
+      }
+    ]
+  },
+
+  "pricing": {
+    "sectionTitle": "What Does Common Cold Treatment Cost in {state}?",
+    "subtitle": "Transparent options. Insurance is not required.",
+    "visitPrice": "$49",
+    "priceSubtext": "Self pay option. Insurance is not required.",
+    "includes": [
+      "MD evaluation and red-flag screening",
+      "Differential diagnosis to rule out flu, COVID, strep, and sinusitis",
+      "Evidence-based OTC symptom management guidance",
+      "Prescription sent if bacterial complication is identified",
+      "Clear follow-up steps and escalation instructions"
+    ],
+    "comparisonBars": [
+      { "name": "TeleDirectMD", "value": "$49", "width": 12, "isTdmd": true },
+      { "name": "Primary Care", "value": "$100 to $250+", "width": 45, "isTdmd": false },
+      { "name": "Urgent Care", "value": "$150 to $300+", "width": 55, "isTdmd": false },
+      { "name": "Emergency Room", "value": "$500 to $3,000+", "width": 100, "isTdmd": false }
+    ],
+    "footnote": "Most common cold treatment uses over-the-counter medications available without prescription. Prescription costs, if needed for a bacterial complication, are separate and vary by medication and pharmacy.",
+    "noHiddenFees": "No hidden fees. Even if no prescription is needed (which is the case for most uncomplicated colds), you receive a complete evaluation, evidence-based guidance, and clear instructions on what to watch for."
+  },
+
+  "whatIsCondition": {
+    "sectionTitle": "What Is the Common Cold?",
+    "paragraphs": [
+      "The common cold is an acute viral upper respiratory infection affecting the nose, throat, sinuses, and upper airways. It is the most frequent acute illness in the United States, with adults averaging 2 to 3 colds per year. Rhinoviruses cause the majority of cases, though other viruses including coronavirus (non-COVID), respiratory syncytial virus (RSV), adenovirus, and parainfluenza virus can also be responsible.",
+      "Per the CDC (2026), there is no vaccine, no specific antiviral therapy, and no cure for the common cold. Most people recover on their own within 7 to 10 days. Treatment is entirely supportive: rest, hydration, and over-the-counter medications for symptom relief. Antibiotics do not work against viruses and should never be prescribed for an uncomplicated common cold.",
+      "TeleDirectMD evaluates cold symptoms to differentiate from conditions that require specific treatment, such as influenza, COVID-19, streptococcal pharyngitis, and bacterial sinusitis. We provide evidence-based OTC guidance, screen for red flags and bacterial complications, and prescribe treatment only when a secondary bacterial infection is identified."
+    ]
+  },
+
+  "causesAndRiskFactors": {
+    "sectionTitle": "Causes and Risk Factors",
+    "intro": "The common cold is caused by respiratory viruses, most commonly rhinoviruses. Transmission occurs through respiratory droplets, direct contact with infected individuals, or touching contaminated surfaces and then touching the nose, mouth, or eyes. Understanding risk factors helps identify patients who may be more vulnerable to complications.",
+    "items": [
+      { "label": "Rhinovirus infection:", "text": "the most common cause, responsible for up to 50% of colds, with over 100 serotypes making repeat infections throughout life inevitable" },
+      { "label": "Seasonal exposure:", "text": "cold viruses circulate year-round but peak in fall and winter, when close indoor contact facilitates transmission" },
+      { "label": "Close contact and crowded settings:", "text": "schools, offices, public transportation, and households with young children are common transmission settings" },
+      { "label": "Weakened immune system:", "text": "immunosuppression, chronic illness, poor sleep, and high stress can increase susceptibility and prolong recovery" },
+      { "label": "Smoking and environmental irritants:", "text": "mucosal irritation impairs the respiratory tract's natural defenses and may prolong or worsen cold symptoms" },
+      { "label": "Chronic respiratory conditions:", "text": "patients with asthma, COPD, or allergic rhinitis may experience more severe symptoms or be more susceptible to secondary bacterial complications" }
+    ],
+    "closing": "The common cold cannot be prevented entirely because of the large number of viruses that cause it. Hand hygiene, avoiding close contact with sick individuals, and not touching the face are the most effective prevention strategies."
+  },
+
+  "symptomsAndRedFlags": {
+    "sectionTitle": "Symptoms and Red Flags for Common Cold in {state}",
+    "intro": "Use this table to understand which symptoms are typical of an uncomplicated common cold and which patterns suggest a need for urgent in-person or emergency evaluation.",
+    "headers": ["Symptom or situation", "What it suggests", "Telehealth appropriate?", "Red flag requiring urgent in-person care"],
+    "rows": [
+      ["Nasal congestion, runny nose, sneezing", "Typical common cold symptoms", "Often yes", "Only if accompanied by high fever or difficulty breathing"],
+      ["Mild sore throat with nasal symptoms", "Common cold frequently causes mild pharyngitis", "Often yes", "If severe throat pain with high fever or inability to swallow"],
+      ["Mild cough, usually worse at night", "Post-nasal drip and airway irritation from viral URI", "Often yes", "If productive of blood, accompanied by chest pain, or persistent beyond 3 weeks"],
+      ["Low-grade fever (under 102°F) for 1 to 3 days", "Typical viral response, common early in cold", "Often yes", "If fever persists beyond 3 days or exceeds 102°F"],
+      ["Mild body aches, fatigue, headache", "Common with viral URI", "Often yes", "If severe body aches with high fever suggest influenza rather than cold"],
+      ["Symptoms lasting more than 10 days without improvement", "May indicate bacterial complication such as sinusitis", "Sometimes", "If worsening with new high fever or severe facial pain"],
+      ["Symptoms that improve then significantly worsen (double worsening)", "Suggests secondary bacterial infection such as sinusitis", "Sometimes", "If rapid worsening with new high fever or severe symptoms"],
+      ["Difficulty breathing or shortness of breath", "Not typical of uncomplicated cold, may indicate pneumonia or asthma exacerbation", "No", "Emergency evaluation now"]
+    ]
+  },
+
+  "differentialDiagnosis": {
+    "sectionTitle": "Differential Diagnosis: Common Cold vs Other Conditions",
+    "intro": "Several conditions share symptoms with the common cold. TeleDirectMD evaluates symptom patterns to distinguish an uncomplicated viral URI from conditions requiring different treatment or in-person evaluation. This differential diagnosis is a primary reason to seek a medical evaluation for cold symptoms.",
+    "telehealthAppropriate": {
+      "title": "Sometimes Appropriate for Telehealth",
+      "items": [
+        "Uncomplicated common cold with supportive care needs",
+        "Allergic rhinitis exacerbation mimicking cold symptoms",
+        "Mild pharyngitis without red flags for streptococcal infection",
+        "Early sinusitis symptoms without red flags",
+        "Symptom management guidance and return-to-work advice"
+      ]
+    },
+    "requiresInPerson": {
+      "title": "Often Requires In-Person Evaluation",
+      "items": [
+        "Suspected influenza requiring rapid testing or antiviral treatment within 48-hour window",
+        "Suspected COVID-19 requiring testing and possible antiviral treatment within 5-day window",
+        "Suspected streptococcal pharyngitis requiring rapid strep test",
+        "Bacterial sinusitis not responding to initial treatment",
+        "Pneumonia or lower respiratory tract infection"
+      ]
+    },
+    "compareCards": [
+      {
+        "title": "Common Cold vs Influenza",
+        "text": "Both cause respiratory symptoms, but influenza typically presents with sudden onset of high fever, severe body aches, significant fatigue, and headache. Cold symptoms develop gradually and are milder, centered on nasal congestion and runny nose. This distinction matters because influenza may benefit from antiviral treatment (oseltamivir or baloxavir) if started within 48 hours, while cold treatment is purely supportive."
+      },
+      {
+        "title": "Common Cold vs Bacterial Sinusitis",
+        "text": "Cold symptoms that persist beyond 10 days without improvement, worsen after initial improvement (double worsening), or present with severe onset (fever 102°F or higher with purulent discharge for 3 or more consecutive days) may indicate bacterial sinusitis. This distinction matters because bacterial sinusitis may benefit from antibiotics, while an uncomplicated cold never does."
+      }
+    ],
+    "closing": "If your symptoms do not match an uncomplicated common cold or any red flags are present, TeleDirectMD will direct you to urgent in-person care or the ER. A key role of telehealth for cold symptoms is helping you avoid unnecessary ER or urgent care visits while ensuring you do not miss a condition that needs specific treatment."
+  },
+
+  "telehealthEligibility": {
+    "sectionTitle": "When Is a Video Visit Appropriate?",
+    "appropriate": {
+      "title": "When a Video Visit Is Appropriate",
+      "items": [
+        "Typical cold symptoms: nasal congestion, runny nose, mild sore throat, cough, mild body aches",
+        "No difficulty breathing or shortness of breath",
+        "No high fever persisting beyond 3 days",
+        "No severe chest pain or persistent chest pressure",
+        "Not significantly immunocompromised with rapidly worsening symptoms",
+        "Located in {state} at time of visit"
+      ]
+    },
+    "redFlags": {
+      "title": "Red Flags Requiring In-Person or ER Care",
+      "items": [
+        "Difficulty breathing or shortness of breath",
+        "High fever (102°F or higher) persisting more than 3 days",
+        "Severe or worsening chest pain or persistent chest pressure",
+        "Confusion, altered mental status, or severe lethargy",
+        "Symptoms lasting more than 10 days without any improvement (may indicate bacterial complication)",
+        "Symptoms that improved then significantly worsened with new high fever (double worsening)"
+      ],
+      "disclaimer": "If any red-flag symptoms are present, seek emergency care immediately. TeleDirectMD is not an emergency service."
+    }
+  },
+
+  "treatmentOptions": {
+    "sectionTitle": "Treatment Options",
+    "intro": "Per the CDC (2026), there is no cure for the common cold and no specific antiviral therapy. Treatment is entirely supportive. Antibiotics are never appropriate for an uncomplicated common cold because it is a viral infection. The following evidence-based approaches help manage symptoms while the body fights the virus naturally.",
+    "sections": [
+      {
+        "title": "Supportive care and symptom management",
+        "text": "The mainstays of cold treatment are rest, adequate hydration, and over-the-counter medications targeting specific symptoms. Acetaminophen or ibuprofen can reduce fever and relieve headache and body aches. Pseudoephedrine can reduce nasal congestion. First-generation antihistamines such as diphenhydramine may help with runny nose and sneezing. Dextromethorphan can suppress cough. Guaifenesin helps thin mucus. Nasal saline irrigation provides non-medicated congestion relief."
+      },
+      {
+        "title": "Antibiotic stewardship: why antibiotics do not help",
+        "text": "Antibiotics kill bacteria, not viruses. The common cold is caused by viruses, so antibiotics provide no benefit and only cause side effects and contribute to antibiotic resistance. Prescribing antibiotics for a viral cold is one of the most common drivers of antibiotic resistance in outpatient medicine. TeleDirectMD follows evidence-based antibiotic stewardship: we do not prescribe antibiotics for uncomplicated viral URI under any circumstances."
+      },
+      {
+        "title": "When a bacterial complication develops",
+        "text": "In a minority of cases, a secondary bacterial infection can develop during or after a cold. The most common complication is acute bacterial sinusitis, identified when cold symptoms persist beyond 10 days without improvement, worsen after initial improvement, or present with severe onset. If a bacterial complication is identified during your video visit, TeleDirectMD can prescribe appropriate treatment. Other possible complications including pneumonia or severe ear infection may require in-person evaluation."
+      }
+    ],
+    "doesNotManage": [
+      "Influenza requiring antiviral therapy (oseltamivir, baloxavir)",
+      "COVID-19 requiring antiviral therapy (nirmatrelvir/ritonavir)",
+      "Streptococcal pharyngitis requiring in-person rapid strep testing",
+      "Pneumonia or lower respiratory tract infection",
+      "Chronic cough or recurrent upper respiratory infections needing specialist evaluation"
+    ]
+  },
+
+  "medications": {
+    "sectionTitle": "Common Medication Options",
+    "intro": "These are common over-the-counter options for adult common cold symptom relief. All medications listed below are available without prescription. The common cold does not require prescription medication in the vast majority of cases. If a bacterial complication develops, the MD will determine appropriate prescription treatment.",
+    "headers": ["Medication", "Typical dose", "Duration", "Key considerations"],
+    "rows": [
+      ["Acetaminophen (Tylenol)", "500 to 1000 mg by mouth every 6 to 8 hours", "As needed for symptoms", "For fever, headache, and body aches. Do not exceed 3000 mg per day. Avoid with significant liver disease or heavy alcohol use."],
+      ["Ibuprofen (Advil, Motrin)", "200 to 400 mg by mouth every 6 to 8 hours", "As needed for symptoms", "For fever, headache, body aches, and sore throat pain. Take with food. Avoid with kidney disease, GI bleeding history, or certain heart conditions."],
+      ["Pseudoephedrine (Sudafed)", "30 to 60 mg by mouth every 4 to 6 hours", "Short-term use only (3 to 7 days)", "Oral decongestant for nasal congestion. Available behind pharmacy counter (no prescription needed). Avoid with uncontrolled hypertension or significant heart disease."],
+      ["Diphenhydramine (Benadryl)", "25 to 50 mg by mouth every 6 to 8 hours", "As needed for symptoms", "First-generation antihistamine for runny nose and sneezing. Causes drowsiness, which may help with sleep but impairs daytime function. Avoid in elderly patients and those with urinary retention."],
+      ["Dextromethorphan (Robitussin DM, Delsym)", "10 to 20 mg by mouth every 4 hours or 30 mg every 6 to 8 hours", "As needed for cough", "Cough suppressant for dry, nonproductive cough. Follow package directions. Avoid with certain medications including MAOIs."],
+      ["Guaifenesin (Mucinex)", "200 to 400 mg by mouth every 4 hours or 600 to 1200 mg extended-release every 12 hours", "As needed for congestion", "Expectorant that helps thin and loosen mucus. Drink plenty of water for best effect. Generally well-tolerated."],
+      ["Nasal saline irrigation (NeilMed, neti pot)", "Rinse with isotonic or hypertonic saline solution", "As needed", "Non-medicated relief for nasal congestion. Helps flush mucus and irritants. Safe for frequent use with no side effects or drug interactions."]
+    ],
+    "note": "All medications listed above are over-the-counter and do not require a prescription. Follow package directions for dosing. If a secondary bacterial complication develops, the MD will determine appropriate prescription treatment. TeleDirectMD does not prescribe controlled substances."
+  },
+
+  "homeCare": {
+    "sectionTitle": "Home Care, Recovery Timeline, Prevention, and Follow-up",
+    "whatToDoNow": {
+      "title": "Recovery Timeline and What to Do Now",
+      "items": [
+        "Most colds resolve within 7 to 10 days without medical treatment",
+        "Symptoms typically peak around days 2 to 3, then gradually improve",
+        "Rest and stay home when possible to support recovery and prevent spreading the virus",
+        "Drink plenty of fluids including water, broth, and warm liquids to stay hydrated",
+        "Use over-the-counter medications as directed for symptom relief"
+      ]
+    },
+    "whatToWatch": {
+      "title": "What to Watch For Over the Next 24 to 72 Hours",
+      "items": [
+        "Fever persisting beyond 3 days or exceeding 102°F",
+        "Difficulty breathing, shortness of breath, or wheezing",
+        "Symptoms lasting more than 10 days without any improvement",
+        "Symptoms that improve then significantly worsen (double worsening suggests bacterial complication)",
+        "Severe or worsening headache, facial pain, or chest pain"
+      ]
+    },
+    "followUp": {
+      "title": "Prevention and Follow-up",
+      "items": [
+        "Wash hands frequently with soap and water for at least 20 seconds",
+        "Avoid touching your face, especially nose, mouth, and eyes",
+        "Avoid close contact with people who are sick",
+        "Disinfect frequently touched surfaces during cold season",
+        "If symptoms worsen or new symptoms develop, seek medical evaluation promptly"
+      ]
+    }
+  },
+
+  "whenNotToUse": {
+    "sectionTitle": "When Not to Use TeleDirectMD for Common Cold in {state}",
+    "intro": "TeleDirectMD is designed for uncomplicated common cold symptoms and differentiating colds from other respiratory conditions. We are direct about when telehealth is not appropriate.",
+    "shouldNotUse": {
+      "title": "You Should Not Use TeleDirectMD If",
+      "items": [
+        "You are under 18 years old",
+        "You have difficulty breathing or shortness of breath",
+        "You have high fever (102°F or higher) persisting more than 3 days",
+        "You have severe chest pain or persistent chest pressure",
+        "You have confusion, altered mental status, or severe lethargy",
+        "You have signs of severe dehydration",
+        "You are significantly immunosuppressed with rapidly worsening respiratory symptoms",
+        "You are not physically in {state} at the time of visit"
+      ]
+    },
+    "alternatives": {
+      "title": "Alternative Care Options",
+      "items": [
+        { "label": "Emergency room:", "text": "difficulty breathing, high fever with confusion, severe chest pain, severe dehydration, or rapidly worsening symptoms" },
+        { "label": "Urgent care:", "text": "moderate symptoms needing rapid flu, strep, or COVID testing, or when in-person exam is needed for diagnosis" },
+        { "label": "Primary care:", "text": "recurrent upper respiratory infections, chronic cough, prevention planning, and longer-term evaluation" },
+        { "label": "Allergist/Immunologist:", "text": "chronic nasal symptoms, suspected allergic rhinitis, recurrent infections suggesting immune deficiency" }
+      ]
+    }
+  },
+
+  "faq": {
+    "sectionTitle": "Common Cold Treatment FAQs for {state}",
+    "items": [
+      {
+        "question": "Can I get treatment for a common cold online in {state}?",
+        "answer": "Yes, if you are an adult 18+ located in {state} and your symptoms are consistent with an uncomplicated upper respiratory infection without red flags. TeleDirectMD can evaluate your symptoms, differentiate from more serious conditions like flu, COVID, strep, and sinusitis, and provide evidence-based guidance on symptom management."
+      },
+      {
+        "question": "How much does an online cold evaluation cost in {state}?",
+        "answer": "TeleDirectMD offers a transparent self pay option starting at $49 for an adult video visit in {state}. Insurance is not required. Most cold treatment uses over-the-counter medications that do not require a prescription. If a prescription is needed for a bacterial complication, pharmacy costs are separate."
+      },
+      {
+        "question": "How can I tell the difference between a cold and the flu?",
+        "answer": "Colds develop gradually with nasal congestion, runny nose, and mild symptoms. Influenza typically hits suddenly with high fever, severe body aches, significant fatigue, and headache. This distinction matters because influenza may benefit from antiviral treatment within 48 hours, while cold treatment is purely supportive. A TeleDirectMD video visit can help differentiate these based on your symptom pattern."
+      },
+      {
+        "question": "Do I need antibiotics for a cold?",
+        "answer": "No. Antibiotics do not work against viruses, and the common cold is a viral infection. Taking antibiotics for a cold provides no benefit and only causes side effects and contributes to antibiotic resistance. TeleDirectMD follows evidence-based antibiotic stewardship and will not prescribe antibiotics for an uncomplicated viral URI. Antibiotics are only appropriate if a secondary bacterial complication develops."
+      },
+      {
+        "question": "When should I see a doctor for a cold?",
+        "answer": "Seek medical evaluation if you have high fever (102°F or higher) persisting more than 3 days, difficulty breathing, symptoms lasting more than 10 days without improvement, symptoms that worsen after initially improving, severe headache or facial pain, or chest pain. A TeleDirectMD video visit can help determine whether your symptoms require further evaluation or specific treatment."
+      },
+      {
+        "question": "How long does a common cold last?",
+        "answer": "Most colds resolve within 7 to 10 days. Symptoms typically peak around days 2 to 3 and then gradually improve. A mild residual cough may linger for 1 to 2 weeks after other symptoms resolve. If symptoms persist beyond 10 days without improvement, this may indicate a bacterial complication such as sinusitis."
+      },
+      {
+        "question": "Does {state} allow telemedicine for cold treatment?",
+        "answer": "Yes. {state} allows licensed professionals to provide telemedicine within their scope when appropriate and according to accepted standards of care. You must be physically located in {state} at the time of the visit."
+      },
+      {
+        "question": "What if my cold symptoms get worse instead of better?",
+        "answer": "If symptoms worsen after initially improving (double worsening), this may indicate a secondary bacterial infection such as sinusitis. If you develop difficulty breathing, high persistent fever, severe headache, chest pain, or confusion, seek emergency care immediately. You can also schedule a follow-up TeleDirectMD visit to be reassessed if your symptoms are worsening but do not require emergency care."
+      },
+      {
+        "question": "Can telehealth prescribe anything for a cold?",
+        "answer": "For an uncomplicated common cold, prescription medication is rarely needed because effective treatments are available over-the-counter. TeleDirectMD provides evidence-based guidance on which OTC medications are most appropriate for your specific symptoms. If a bacterial complication such as sinusitis develops, the MD can prescribe appropriate antibiotics. TeleDirectMD does not prescribe controlled substances."
+      },
+      {
+        "question": "How is a cold different from COVID-19?",
+        "answer": "COVID-19 and the common cold share symptoms like nasal congestion, sore throat, and cough, but COVID-19 more commonly causes loss of taste or smell, significant fatigue, and can cause more severe respiratory illness. The distinction matters because COVID-19 may benefit from antiviral treatment (nirmatrelvir/ritonavir) if started within 5 days in high-risk patients. If COVID-19 is suspected, testing is recommended, which currently requires in-person evaluation."
+      }
+    ],
+    "bottomCta": {
+      "title": "Need help today?",
+      "text": "Insurance is not required. Adult-only video visits. MD-only care. Safety-first triage, evidence-based guidance, and prescriptions only when a bacterial complication develops."
+    }
+  },
+
+  "references": [
+    { "text": "CDC: Common Cold (Rhinovirus) — Symptoms, Treatment, and Prevention (February 2026)", "url": "https://www.cdc.gov/rhinovirus/about/symptoms.html" },
+    { "text": "Cleveland Clinic: Common Cold — Causes, Symptoms, Management and Prevention", "url": "https://my.clevelandclinic.org/health/diseases/12342-common-cold" },
+    { "text": "Medscape: Upper Respiratory Tract Infection (URI) Treatment and Management", "url": "https://emedicine.medscape.com/article/302460-treatment" },
+    { "text": "AAFP: Diagnosis and Treatment of Respiratory Illness in Children and Adults (2013 Evidence-Based Guideline)", "url": "https://www.aafp.org/pubs/afp/issues/2013/1101/p560.html" }
+  ],
+
+  "disclaimer": {
+    "sectionTitle": "TeleDirectMD Telehealth Disclaimer",
+    "paragraphs": [
+      "TeleDirectMD provides MD-only virtual urgent care for adults (18+) in {state} using secure video visits to evaluate common cold and upper respiratory infection symptoms, provide evidence-based guidance, and prescribe treatment when a bacterial complication is clinically identified. Insurance is not required. You must be physically located in {state} at the time of your video visit. TeleDirectMD does not prescribe controlled substances.",
+      "TeleDirectMD is not an emergency service and is not a replacement for emergency care. Antibiotics are not prescribed for uncomplicated viral upper respiratory infections. TeleDirectMD cannot perform rapid strep tests, flu tests, or COVID tests. If testing is needed for diagnostic certainty, in-person evaluation will be recommended. This service is not a substitute for comprehensive evaluation when chronic, recurrent, or complicated respiratory illness is suspected.",
+      "Online common cold treatment in {state}. Upper respiratory infection treatment online. Cold symptom evaluation by video visit."
+    ]
+  },
+
+  "relatedConditions": [
+    {
+      "slug": "sinus-infection-treatment-online",
+      "title": "Sinus Infection",
+      "description": "Bacterial sinusitis is the most common complication of the common cold, occurring when viral URI symptoms persist beyond 10 days or worsen after improvement"
+    },
+    {
+      "slug": "influenza-treatment-online",
+      "title": "Influenza",
+      "description": "Flu shares many symptoms with the common cold but typically presents with sudden high fever, severe body aches, and may benefit from antiviral treatment"
+    },
+    {
+      "slug": "sore-throat-treatment-online",
+      "title": "Sore Throat",
+      "description": "Mild sore throat commonly accompanies the common cold, but severe sore throat with fever may indicate streptococcal pharyngitis requiring different treatment"
+    },
+    {
+      "slug": "seasonal-allergies-treatment-online",
+      "title": "Seasonal Allergies",
+      "description": "Allergic rhinitis causes nasal congestion and runny nose that can mimic cold symptoms, but allergies are not infectious and follow different patterns"
+    }
+  ],
+
+  "inlineLinks": [
+    { "slug": "sinus-infection-treatment-online", "label": "Sinus Infection" },
+    { "slug": "influenza-treatment-online", "label": "Influenza" },
+    { "slug": "sore-throat-treatment-online", "label": "Sore Throat" },
+    { "slug": "seasonal-allergies-treatment-online", "label": "Seasonal Allergies" },
+    { "slug": "asthma-refills-online", "label": "Asthma Refills" },
+    { "slug": "uti-treatment-online", "label": "UTI" },
+    { "slug": "pink-eye-treatment-online", "label": "Pink Eye" },
+    { "slug": "cold-sore-treatment-online", "label": "Cold Sore" },
+    { "slug": "ear-pain-treatment-online", "label": "Ear Pain" },
+    { "slug": "covid-19-treatment-online", "label": "COVID-19" }
+  ],
+
+  "cityBlock": {
+    "title": "Adults We Serve Across {state}",
+    "text": "TeleDirectMD evaluates adults located throughout {state}, including {citiesExtended}. Whether you are searching for online cold treatment in {city1}, upper respiratory infection care in {city2}, cold symptom evaluation online in {city3}, or telehealth URI assessment anywhere else in {state}, the same telehealth eligibility and safety rules apply."
+  },
+
+  "icd10Codes": [
+    { "code": "J00", "description": "Acute nasopharyngitis (common cold)" },
+    { "code": "J06.9", "description": "Acute upper respiratory infection, unspecified" }
+  ],
+
+  "jsonLd": {
+    "conditionName": "Common Cold",
+    "conditionAlternateNames": ["Upper respiratory infection", "Acute nasopharyngitis", "Viral URI", "Rhinovirus infection"],
+    "conditionDescription": "The common cold is an acute viral upper respiratory infection caused most commonly by rhinoviruses. There is no cure, no specific antiviral, and no vaccine. Treatment is entirely supportive. TeleDirectMD evaluates adult cold symptoms by video visit to differentiate from influenza, COVID-19, streptococcal pharyngitis, and bacterial sinusitis, provides evidence-based OTC guidance, screens for red flags and bacterial complications, and prescribes treatment only when a secondary bacterial infection is identified.",
+    "primaryIcd10": "J00",
+    "anatomy": "Upper respiratory tract (nose, throat, sinuses, upper airways)",
+    "symptoms": ["Nasal congestion", "Runny nose", "Sneezing", "Sore throat", "Cough", "Low-grade fever", "Mild body aches"],
+    "riskFactors": [
+      "Exposure to infected individuals",
+      "Seasonal factors (fall and winter)",
+      "Close contact in crowded settings",
+      "Weakened immune system",
+      "Smoking or environmental irritant exposure"
+    ],
+    "complications": [
+      "Acute bacterial sinusitis",
+      "Acute otitis media (middle ear infection)",
+      "Asthma exacerbation",
+      "Lower respiratory tract infection"
+    ],
+    "epidemiology": "The common cold is the most frequent acute illness in the United States. Adults average 2 to 3 colds per year. Rhinoviruses cause up to 50% of cases. Billions of dollars are spent annually on OTC cold remedies and missed work days.",
+    "drugs": [
+      { "name": "Acetaminophen", "id": "acetaminophen" },
+      { "name": "Ibuprofen", "id": "ibuprofen" },
+      { "name": "Pseudoephedrine", "id": "pseudoephedrine" },
+      { "name": "Dextromethorphan", "id": "dextromethorphan" }
+    ],
+    "treatments": [
+      "Rest and adequate hydration",
+      "Over-the-counter pain relievers and fever reducers",
+      "Decongestants for nasal congestion",
+      "Antihistamines for runny nose and sneezing",
+      "Cough suppressants and expectorants",
+      "Nasal saline irrigation"
+    ],
+    "tests": [
+      "Clinical symptom review and timeline assessment",
+      "Red-flag screening for complications",
+      "Differential diagnosis to rule out flu, COVID, strep, and sinusitis"
+    ],
+    "specialties": ["Family Medicine", "Telemedicine", "Internal Medicine"],
+    "guidelines": [
+      { "name": "CDC Common Cold (Rhinovirus) Guidelines", "url": "https://www.cdc.gov/rhinovirus/about/symptoms.html", "publisher": "Centers for Disease Control and Prevention", "id": "cdc" },
+      { "name": "AAFP Diagnosis and Treatment of Respiratory Illness in Children and Adults", "url": "https://www.aafp.org/pubs/afp/issues/2013/1101/p560.html", "publisher": "American Academy of Family Physicians", "id": "aafp" },
+      { "name": "Medscape Upper Respiratory Tract Infection Treatment and Management", "url": "https://emedicine.medscape.com/article/302460-treatment", "publisher": "Medscape", "id": "medscape" }
+    ],
+    "knowsAbout": [
+      "Common cold treatment",
+      "Upper respiratory infection management",
+      "Antibiotic stewardship for viral URI",
+      "Telehealth triage",
+      "Safety-first red-flag screening",
+      "Family Medicine"
+    ],
+    "serviceDescription": "Secure video visit for {state} adults with common cold symptoms, including differential diagnosis, red-flag screening, evidence-based OTC guidance, and prescriptions only when a bacterial complication is identified.",
+    "webpageDescription": "{state} common cold treatment by secure MD video visit for adults. Evidence-based evaluation of upper respiratory symptoms, differentiation from flu, COVID, strep, and sinusitis, OTC symptom management guidance, and clear rules for when emergency care is needed."
+  }
+}
