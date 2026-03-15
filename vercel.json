@@ -3,6 +3,14 @@
   "buildCommand": "npm run build && rm -f out/404.html out/404/index.html out/routes-manifest.json out/_not-found/index.html out/_not-found.html",
   "outputDirectory": "out",
   "trailingSlash": true,
+  "redirects": [
+    { "source": "/skin-fungus-tinea-treatment-online", "destination": "/tinea-treatment-online", "statusCode": 301 },
+    { "source": "/poison-ivy-treatment-online", "destination": "/poison-ivy-oak-treatment-online", "statusCode": 301 },
+    { "source": "/speech-anxiety-treatment-online", "destination": "/performance-anxiety-treatment-online", "statusCode": 301 },
+    { "source": "/male-pattern-hairloss-treatment-online", "destination": "/hair-loss-treatment-online", "statusCode": 301 },
+    { "source": "/asthma-refill-online", "destination": "/asthma-refills-online", "statusCode": 301 },
+    { "source": "/gerd-refills-online", "destination": "/acid-reflux-refills-online", "statusCode": 301 }
+  ],
   "routes": [
     { "handle": "filesystem" },
     {
