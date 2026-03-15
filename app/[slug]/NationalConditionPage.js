@@ -11,26 +11,20 @@ export default function NationalConditionPage({ conditionSlug }) {
   const allStates = getStates();
   const categories = getConditionCategories();
 
-  /* Build national hero H1 — remove "in {state}" pattern */
-  const nationalH1 = condition.hero.h1
-    .replace(/ in the United States/g, ' Online')
-    .replace(/ the United States/g, '');
+  const nationalH1 = condition.hero.h1;
 
   const nationalSubtitle = 'Nationwide adult care by secure video visit, self pay option starting at $49, MD-only, insurance is not required.';
 
-  /* National intro — replace state-specific text with national copy */
+  /* National intro — replace residual state-specific text with national copy */
   const nationalIntro = condition.hero.introParagraph
-    .replace(/This page is for adults located in the United States, including communities nationwide\./g,
+    .replace(/This page is for adults located in one of our covered states, including communities nationwide\./g,
       `TeleDirectMD is currently licensed in ${allStates.length} states. Select your state below to find your state-specific treatment page.`);
 
-  /* National side card H2 */
-  const nationalSideH2 = condition.hero.sideCard.h2
-    .replace(/ in the United States/g, '')
-    .replace(/ the United States/g, '');
+  const nationalSideH2 = condition.hero.sideCard.h2;
 
-  /* National benefits — replace state mention */
+  /* National benefits — swap location line for state count */
   const nationalBenefits = condition.hero.benefits.map((b) =>
-    b.replace(/Licensed telehealth care for patients located in the United States at the time of the visit/g,
+    b.replace(/Licensed telehealth care for patients located in one of our covered states at the time of the visit/g,
       `Licensed in ${allStates.length} states — select yours below`)
   );
 
@@ -127,7 +121,7 @@ export default function NationalConditionPage({ conditionSlug }) {
       {/* 2) Eligibility Checklist */}
       <section className="tdmd-section" id={`${pid}-eligibility-checklist`}>
         <div className="tdmd-container">
-          <h2>{condition.eligibility.sectionTitle.replace(/ for the United States/g, '')}</h2>
+          <h2>{condition.eligibility.sectionTitle}</h2>
           <p><strong>{condition.eligibility.introText}</strong></p>
 
           <div className="tdmd-grid tdmd-grid-2">
@@ -135,7 +129,7 @@ export default function NationalConditionPage({ conditionSlug }) {
               <h3>✓ You Are Eligible If</h3>
               <ul className="tdmd-checklist tdmd-checklist--good">
                 {condition.eligibility.eligible.map((item, i) => (
-                  <li key={i}>{item.replace(/You are physically located in the United States at the time of the visit/g, `You are physically located in one of our ${allStates.length} licensed states at the time of the visit`)}</li>
+                  <li key={i}>{item.replace(/You are physically located in one of our covered states at the time of the visit/g, `You are physically located in one of our ${allStates.length} licensed states at the time of the visit`)}</li>
                 ))}
               </ul>
             </div>

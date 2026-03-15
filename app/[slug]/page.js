@@ -36,11 +36,8 @@ export async function generateMetadata({ params }) {
   const rawCondition = getCondition(slug);
   const condition = resolveConditionNational(rawCondition);
   const pageUrl = `${baseUrl}/${slug}`;
-  const nationalTitle = `${condition.conditionName} Online | MD Video Visit | TeleDirectMD`;
-  const nationalDesc = condition.metaDescription
-    .replace(/for the United States adults/g, 'for adults nationwide')
-    .replace(/for adults in the United States/g, 'for adults nationwide')
-    .replace(/the United States adults/g, 'adults nationwide');
+  const nationalTitle = condition.pageTitle;
+  const nationalDesc = condition.metaDescription;
 
   return {
     title: nationalTitle,
