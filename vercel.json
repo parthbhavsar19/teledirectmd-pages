@@ -1,5 +1,5 @@
 {
-  "buildCommand": "next build && cp .next/routes-manifest.json out/routes-manifest.json",
+  "buildCommand": "next build && cp .next/routes-manifest.json out/routes-manifest.json && rm -f out/404.html out/404/index.html",
   "outputDirectory": "out",
   "trailingSlash": true,
   "rewrites": [
