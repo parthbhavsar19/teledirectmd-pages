@@ -1,0 +1,610 @@
+{
+  "conditionName": "Smoking Cessation Treatment",
+  "conditionShort": "Smoking Cessation",
+  "conditionSlug": "smoking-cessation-treatment-online",
+  "pageTitle": "Smoking Cessation Treatment Online in {state} | Quit Smoking MD Video Visit | TeleDirectMD",
+  "metaDescription": "Evidence-based smoking cessation treatment for {state} adults by secure video visit. Varenicline, bupropion, and NRT prescriptions when clinically appropriate, plus behavioral counseling. Self pay option starting at $49. Insurance is not required.",
+  "ogImageAlt": "Smoking cessation treatment in {state} by TeleDirectMD",
+
+  "hero": {
+    "h1": "Smoking Cessation Treatment in {state} (Tobacco Dependence)",
+    "subtitle": "{state} adult care by secure video visit, self pay option starting at $49, MD-only, insurance is not required.",
+    "introParagraph": "Tobacco use is the leading preventable cause of death in the United States, responsible for approximately 480,000 deaths per year. Quitting smoking is the single most important thing a smoker can do to improve health, but nicotine dependence is a chronic relapsing condition that most people cannot overcome with willpower alone. The ATS 2020 Clinical Practice Guideline confirms that pharmacotherapy doubles quit rates compared to placebo, and that combining behavioral counseling with medication is more effective than either approach alone. Varenicline is the most effective single agent for smoking cessation based on current evidence, and the FDA removed the black box warning for neuropsychiatric events after the EAGLES trial confirmed its safety even in patients with psychiatric conditions. Most people require multiple quit attempts before achieving long-term abstinence, and this is a normal part of the quitting process, not a failure. TeleDirectMD uses a safety-first telehealth approach that screens for contraindications including seizure disorders, active eating disorders, recent cardiovascular events, pregnancy, and severe active psychiatric illness before determining whether prescribing cessation medication by video visit is appropriate. If the history supports tobacco dependence without contraindications, guideline-based treatment with varenicline, bupropion, nicotine replacement therapy, or combination approaches may be prescribed by video, while adults with complex medical situations are directed to in-person care. This page is for adults located in {state}, including {cities}.",
+    "tocLinks": [
+      { "href": "eligibility-checklist", "label": "Eligibility checklist" },
+      { "href": "decision-guide", "label": "Decision guide" },
+      { "href": "treatment-options", "label": "Treatment options" },
+      { "href": "faq", "label": "FAQs" },
+      { "href": "references", "label": "References" }
+    ],
+    "benefits": [
+      "Self pay option starting at $49",
+      "MD-only care (no mid-levels)",
+      "Insurance is not required",
+      "Licensed telehealth care for patients located in {state} at the time of the visit"
+    ],
+    "sideCard": {
+      "h2": "Online MD-Only Smoking Cessation Care in {state}",
+      "features": [
+        "Evaluation of nicotine dependence severity and readiness to quit",
+        "Red-flag screening for contraindications to cessation medications",
+        "Guideline-based prescription options including varenicline and bupropion",
+        "Behavioral counseling and relapse prevention guidance"
+      ],
+      "note": "Adults 18+ only. TeleDirectMD is not an emergency service. Go to urgent care or the ER now for chest pain, shortness of breath, signs of stroke, or severe psychiatric crisis including active suicidal ideation. TeleDirectMD does not prescribe controlled substances."
+    },
+    "icd10Display": "F17.210, Z87.891 (final coding depends on clinical details)"
+  },
+
+  "eligibility": {
+    "sectionTitle": "Smoking Cessation Telehealth Eligibility Checklist for {state}",
+    "introText": "You are likely eligible for a TeleDirectMD video visit if ALL of these are true:",
+    "eligible": [
+      "You are 18 years old or older",
+      "You are physically located in {state} at the time of the visit",
+      "You currently smoke cigarettes or use tobacco and want to quit or reduce use",
+      "You do not have a history of seizure disorder (relevant for bupropion selection)",
+      "You are not pregnant or breastfeeding",
+      "You do not have active suicidal ideation or severe unstable psychiatric illness",
+      "You have not had a heart attack, stroke, or unstable angina in the past 2 weeks",
+      "Insurance is not required. A self pay option is available."
+    ],
+    "notEligible": [
+      "You are under 18 years old",
+      "You are pregnant or breastfeeding (cessation support requires specialized in-person evaluation)",
+      "You have active suicidal ideation or severe psychiatric crisis",
+      "You have had a cardiovascular event (heart attack, stroke, unstable angina) within the past 2 weeks",
+      "You have suspected tobacco-related cancer needing oncology evaluation",
+      "You have severe liver or kidney disease that may affect medication dosing",
+      "You are seeking help for substance use disorders other than tobacco"
+    ],
+    "notEligibleDisclaimer": "If you have red-flag symptoms or complex medical conditions, seek in-person care. TeleDirectMD is not appropriate for emergency psychiatric situations or acute cardiovascular events."
+  },
+
+  "howItWorks": {
+    "sectionTitle": "How Online Smoking Cessation Treatment Works in {state}",
+    "steps": [
+      {
+        "type": "check",
+        "title": "Book your video visit",
+        "description": "Insurance is not required. No referral needed. Many visits are available same day, depending on scheduling. Before your visit, note how many cigarettes you smoke per day, how soon after waking you smoke your first cigarette, previous quit attempts and what methods you tried, current medications, any history of seizures, eating disorders, or psychiatric conditions, and your motivation level for quitting."
+      },
+      {
+        "type": "check",
+        "title": "See a {state} licensed MD by video",
+        "description": "We review your smoking history, nicotine dependence severity, previous quit attempts, medical history, psychiatric history, contraindications to specific medications, and readiness to quit. ATS guidelines emphasize that combining behavioral counseling with pharmacotherapy produces the best quit rates, and we tailor the approach to your specific situation."
+      },
+      {
+        "type": "good",
+        "title": "Get a treatment plan and, if appropriate, a prescription",
+        "description": "If medication is clinically appropriate, we send an e-prescription to common {state} pharmacies such as {pharmacies}. You receive a personalized quit plan including your quit date, medication start instructions, behavioral strategies for managing cravings, and clear follow-up steps including what to do if you relapse.",
+        "showCta": true
+      }
+    ]
+  },
+
+  "telehealthRegulations": {
+    "sectionTitle": "{state} Telehealth Regulations for Online Smoking Cessation Care",
+    "paragraphs": [
+      "{telehealthRegulation}",
+      "Location matters: you must be physically in {state} during the visit. Insurance is not required. TeleDirectMD does not prescribe controlled substances."
+    ]
+  },
+
+  "comparisonTable": {
+    "sectionTitle": "TeleDirectMD vs Other Care Options for Smoking Cessation in {state}",
+    "intro": "Here is how TeleDirectMD compares to common settings for smoking cessation care in {state}:",
+    "rows": [
+      {
+        "option": "TeleDirectMD",
+        "cost": "Self pay option starting at $49",
+        "wait": "Same day, often within hours",
+        "provider": "Board-certified MD only (no mid-levels)",
+        "bestFor": "Adults ready to quit smoking who need prescription cessation medication, behavioral counseling, and a personalized quit plan",
+        "highlight": true
+      },
+      {
+        "option": "Urgent Care",
+        "cost": "$150 to $300+ (before insurance)",
+        "wait": "1 to 3 hours typical",
+        "provider": "MD, DO, PA, or NP",
+        "bestFor": "Acute symptoms related to smoking such as respiratory infections, not typically focused on cessation counseling",
+        "highlight": false
+      },
+      {
+        "option": "Emergency Room",
+        "cost": "$500 to $3,000+ (before insurance)",
+        "wait": "2 to 6 hours typical",
+        "provider": "Emergency medicine MD or DO",
+        "bestFor": "Chest pain, severe shortness of breath, stroke symptoms, or psychiatric emergencies",
+        "highlight": false
+      },
+      {
+        "option": "Primary Care",
+        "cost": "$100 to $250+ (varies)",
+        "wait": "3 to 14 days typical",
+        "provider": "Family medicine or internal medicine MD or DO",
+        "bestFor": "Ongoing cessation management, complex medical histories, coordination with pulmonology or psychiatry",
+        "highlight": false
+      },
+      {
+        "option": "Smoking Cessation Program",
+        "cost": "Varies widely ($0 to $500+)",
+        "wait": "Varies by program availability",
+        "provider": "Counselors, coaches, or multidisciplinary team",
+        "bestFor": "Intensive behavioral support, group therapy, patients needing structured long-term programs",
+        "highlight": false
+      }
+    ],
+    "bottomLine": "TeleDirectMD is a strong fit for adults ready to quit smoking who need evidence-based cessation medication and counseling, with a safety-first approach and direct MD evaluation."
+  },
+
+  "decisionGuide": {
+    "sectionTitle": "Should I Use TeleDirectMD for Smoking Cessation in {state}? Decision Guide",
+    "steps": [
+      {
+        "type": "urgent",
+        "title": "Do you have any emergency or red-flag symptoms?",
+        "items": [
+          "Chest pain, pressure, or tightness",
+          "Severe shortness of breath or difficulty breathing",
+          "Signs of stroke such as sudden weakness, speech difficulty, or vision changes",
+          "Active suicidal ideation or psychiatric emergency",
+          "Coughing up blood or unexplained significant weight loss"
+        ],
+        "yesAction": "If yes, seek urgent in-person care or the ER now",
+        "noAction": "If no, continue to Step 2"
+      },
+      {
+        "type": "check",
+        "title": "Are you 18+ and currently in {state}?",
+        "items": [],
+        "yesAction": "If yes, continue to Step 3",
+        "noAction": "If no, use in-person care as appropriate"
+      },
+      {
+        "type": "check",
+        "title": "Are you a current smoker or tobacco user ready to quit or considering quitting?",
+        "items": [
+          "You currently smoke cigarettes or use other tobacco products",
+          "You are motivated to quit or want to discuss options for quitting",
+          "You have no history of seizures or active eating disorder (relevant for medication selection)",
+          "You are not pregnant or breastfeeding"
+        ],
+        "yesAction": "If yes, continue to Step 4",
+        "noAction": "If no or you have complex medical conditions, in-person evaluation may be preferred"
+      },
+      {
+        "type": "good",
+        "title": "You are likely appropriate for a TeleDirectMD video visit",
+        "description": "TeleDirectMD can evaluate your nicotine dependence, discuss your readiness to quit, review contraindications, prescribe cessation medication such as varenicline or bupropion when clinically appropriate, and provide behavioral counseling and relapse prevention strategies. If your medical history requires in-person evaluation, we will direct you to the right level of care.",
+        "items": [],
+        "showCta": true
+      }
+    ]
+  },
+
+  "pricing": {
+    "sectionTitle": "What Does Smoking Cessation Treatment Cost in {state}?",
+    "subtitle": "Transparent options. Insurance is not required.",
+    "visitPrice": "$49",
+    "priceSubtext": "Self pay option. Insurance is not required.",
+    "includes": [
+      "MD evaluation and contraindication screening",
+      "Assessment of nicotine dependence severity and readiness to quit",
+      "Guideline-based medication selection including varenicline, bupropion, or NRT",
+      "Behavioral counseling and personalized quit plan",
+      "Prescription sent if clinically appropriate",
+      "Relapse prevention guidance and clear follow-up steps"
+    ],
+    "comparisonBars": [
+      { "name": "TeleDirectMD", "value": "$49", "width": 12, "isTdmd": true },
+      { "name": "Primary Care", "value": "$100 to $250+", "width": 45, "isTdmd": false },
+      { "name": "Urgent Care", "value": "$150 to $300+", "width": 55, "isTdmd": false },
+      { "name": "Emergency Room", "value": "$500 to $3,000+", "width": 100, "isTdmd": false }
+    ],
+    "footnote": "Prescription costs at your pharmacy are separate and vary by medication and pharmacy. Many insurance plans cover cessation medications with no copay under preventive care benefits.",
+    "noHiddenFees": "No hidden fees. If medication is not clinically appropriate, you still receive a complete evaluation, behavioral counseling, guidance, and clear instructions on what level of care you need next."
+  },
+
+  "whatIsCondition": {
+    "sectionTitle": "What Is Nicotine Dependence?",
+    "paragraphs": [
+      "Nicotine dependence, also called tobacco use disorder, is a chronic relapsing condition in which the brain becomes physically dependent on nicotine delivered through cigarettes or other tobacco products. Nicotine activates reward pathways in the brain, and over time the brain adapts to require nicotine to function normally, leading to withdrawal symptoms when a person tries to quit.",
+      "Tobacco use is the leading preventable cause of death in the United States, causing approximately 480,000 deaths per year from lung cancer, heart disease, stroke, COPD, and many other conditions. Despite knowing the health risks, most smokers find it extremely difficult to quit because nicotine dependence is a medical condition, not simply a lack of willpower. The ATS 2020 guideline and USPSTF recommend that all adults who use tobacco be offered both pharmacotherapy and behavioral counseling.",
+      "TeleDirectMD focuses on helping adults who are ready to quit smoking by providing evidence-based cessation medication and behavioral counseling via telehealth, with careful screening for contraindications and clear referral pathways for complex cases that need in-person evaluation."
+    ]
+  },
+
+  "causesAndRiskFactors": {
+    "sectionTitle": "Causes and Risk Factors for Nicotine Dependence",
+    "intro": "Nicotine dependence develops through repeated exposure to nicotine, which rewires brain reward circuits. Understanding the factors that contribute to dependence and make quitting difficult helps guide treatment selection and set realistic expectations.",
+    "items": [
+      { "label": "Neurochemical dependence:", "text": "nicotine stimulates dopamine release in the brain's reward center, creating reinforcing effects that drive continued use and causing physical withdrawal when nicotine levels drop" },
+      { "label": "Behavioral conditioning:", "text": "smoking becomes linked to daily routines, social situations, stress responses, and emotional states, creating powerful habitual triggers that persist even after physical withdrawal resolves" },
+      { "label": "Genetic factors:", "text": "genetic variations in nicotine metabolism and receptor sensitivity influence how quickly dependence develops and how difficult quitting may be" },
+      { "label": "Age of first use:", "text": "starting tobacco use at a younger age is associated with stronger dependence and greater difficulty quitting" },
+      { "label": "Co-occurring conditions:", "text": "depression, anxiety, other substance use disorders, and ADHD are more common in smokers and can complicate cessation efforts" }
+    ],
+    "closing": "Most people require multiple quit attempts before achieving long-term abstinence, and this is a normal part of the process. Each quit attempt provides valuable information about triggers and strategies. Relapse does not mean failure, and evidence-based medications significantly improve the odds of success with each attempt."
+  },
+
+  "symptomsAndRedFlags": {
+    "sectionTitle": "Symptoms and Red Flags for Smoking Cessation in {state}",
+    "intro": "Use this table to understand which situations are appropriate for telehealth-based smoking cessation and which require urgent in-person evaluation.",
+    "headers": ["Symptom or situation", "What it suggests", "Telehealth appropriate?", "Red flag requiring urgent in-person care"],
+    "rows": [
+      ["Current daily smoker wanting to quit, no major contraindications", "Nicotine dependence appropriate for pharmacotherapy", "Often yes", "If recent cardiovascular event within 2 weeks or active psychiatric crisis"],
+      ["Nicotine withdrawal symptoms (irritability, anxiety, difficulty concentrating, increased appetite)", "Normal withdrawal during quit attempt", "Often yes", "If severe depression, suicidal thoughts, or inability to function"],
+      ["Previous failed quit attempts with willpower alone", "Need for pharmacotherapy and structured behavioral support", "Often yes", "If prior severe psychiatric reaction to cessation medication"],
+      ["Smoker with stable mental health condition on psychiatric medication", "Varenicline is safe per EAGLES trial; medication interactions should be reviewed", "Often yes", "If active suicidal ideation, unstable psychosis, or recent psychiatric hospitalization"],
+      ["Chronic cough, shortness of breath on exertion in current smoker", "Possible COPD or smoking-related lung disease needing evaluation", "Sometimes", "If new or worsening shortness of breath, hemoptysis, or chest pain needs in-person evaluation"],
+      ["Pregnant smoker wanting to quit", "Complex risk-benefit assessment for NRT in pregnancy", "No for initial evaluation", "Requires in-person obstetric care for medication decisions during pregnancy"],
+      ["Coughing up blood, unexplained weight loss, persistent chest pain", "Possible tobacco-related cancer or serious cardiovascular disease", "No", "Urgent in-person evaluation and imaging needed"]
+    ]
+  },
+
+  "differentialDiagnosis": {
+    "sectionTitle": "Differential Diagnosis: Nicotine Dependence and Related Conditions",
+    "intro": "Smoking cessation is a straightforward clinical indication, but the evaluation must consider co-occurring conditions that may affect medication selection, conditions that mimic or complicate withdrawal, and tobacco-related diseases that need separate evaluation. TeleDirectMD focuses on identifying appropriate candidates for pharmacotherapy and directing complex cases to specialized care.",
+    "telehealthAppropriate": {
+      "title": "Appropriate for Telehealth",
+      "items": [
+        "Current smoker ready to quit with no major contraindications to cessation medications",
+        "Previous quit attempts that failed without pharmacotherapy",
+        "Stable psychiatric conditions where varenicline is safe (confirmed by EAGLES trial)",
+        "Nicotine withdrawal management and relapse prevention counseling",
+        "Combination therapy discussion (medication plus behavioral counseling)"
+      ]
+    },
+    "requiresInPerson": {
+      "title": "Often Requires In-Person Evaluation",
+      "items": [
+        "Seizure disorders or history of seizures (bupropion contraindicated, needs careful medication selection)",
+        "Active eating disorders (bupropion contraindicated)",
+        "Severe unstable psychiatric illness with active suicidal ideation",
+        "Pregnancy or breastfeeding (complex risk-benefit analysis for NRT)",
+        "Suspected tobacco-related cancer needing imaging and oncology referral"
+      ]
+    },
+    "compareCards": [
+      {
+        "title": "Nicotine Dependence vs Habitual Smoking",
+        "text": "Nicotine dependence involves physical withdrawal symptoms (irritability, anxiety, difficulty concentrating, restlessness, increased appetite) when nicotine levels drop, typically within hours of the last cigarette. Habitual smoking without strong physical dependence may respond to behavioral strategies alone. The Fagerström Test helps quantify dependence severity, with smoking within 30 minutes of waking and smoking more than 20 cigarettes per day suggesting higher dependence that strongly benefits from pharmacotherapy."
+      },
+      {
+        "title": "Nicotine Withdrawal vs Anxiety or Depression",
+        "text": "Nicotine withdrawal causes irritability, anxiety, depressed mood, difficulty concentrating, and restlessness that peak at 2 to 3 days after quitting and typically improve over 2 to 4 weeks. These symptoms can mimic or worsen pre-existing anxiety and depression. Cessation medications, particularly varenicline and bupropion, can reduce withdrawal severity. New or severely worsening psychiatric symptoms during a quit attempt warrant clinical reassessment."
+      },
+      {
+        "title": "Smoking Cessation Medications: Varenicline vs Bupropion vs NRT",
+        "text": "Varenicline is the most effective single agent, working as a partial nicotine receptor agonist that reduces cravings and blunts the reward of smoking. Bupropion works through dopamine and norepinephrine pathways and also helps prevent weight gain but is contraindicated in seizure disorders and eating disorders. Nicotine replacement therapy (NRT) provides nicotine without the harmful chemicals in cigarettes and is available in patch, gum, lozenge, inhaler, and nasal spray forms. Combination therapy such as varenicline plus nicotine patch produces the highest quit rates."
+      }
+    ],
+    "closing": "If your medical history includes contraindications to specific cessation medications or you have complex co-occurring conditions, TeleDirectMD will help identify the safest treatment option or direct you to in-person care when appropriate."
+  },
+
+  "telehealthEligibility": {
+    "sectionTitle": "When Is a Video Visit Appropriate?",
+    "appropriate": {
+      "title": "When a Video Visit Is Appropriate",
+      "items": [
+        "Current smoker or tobacco user motivated to quit or considering quitting",
+        "No history of seizure disorder or active eating disorder (relevant for bupropion)",
+        "No recent cardiovascular event within the past 2 weeks",
+        "No active suicidal ideation or unstable severe psychiatric illness",
+        "Not pregnant or breastfeeding",
+        "Located in {state} at time of visit"
+      ]
+    },
+    "redFlags": {
+      "title": "Red Flags Requiring In-Person or ER Care",
+      "items": [
+        "Chest pain, pressure, or signs of acute cardiovascular event",
+        "Active suicidal ideation or psychiatric emergency",
+        "Coughing up blood or unexplained significant weight loss (possible cancer)",
+        "Severe shortness of breath or new respiratory distress",
+        "Pregnancy (complex risk-benefit for cessation medications)",
+        "History of seizures (bupropion contraindicated, needs careful in-person medication selection)"
+      ],
+      "disclaimer": "If any red-flag symptoms are present, seek urgent in-person or emergency care. TeleDirectMD is not appropriate for these situations."
+    }
+  },
+
+  "treatmentOptions": {
+    "sectionTitle": "Treatment Options",
+    "intro": "Smoking cessation treatment follows ATS 2020 and USPSTF guidelines, which recommend combining pharmacotherapy with behavioral counseling for the best outcomes. Pharmacotherapy approximately doubles quit rates compared to placebo. Varenicline is the most effective single agent, and combination therapy produces even higher success rates. All FDA-approved cessation medications are non-controlled substances and can be prescribed via telehealth.",
+    "sections": [
+      {
+        "title": "Varenicline (most effective single agent)",
+        "text": "Varenicline (Chantix or generic) is a partial nicotine receptor agonist that reduces cravings and withdrawal symptoms while blocking the rewarding effects of smoking. It is the most effective single agent for smoking cessation based on ATS guideline evidence. Start 1 week before the quit date with a dose titration: 0.5 mg daily for 3 days, then 0.5 mg twice daily for 4 days, then 1 mg twice daily for the remainder of the 12-week course. Treatment can be extended to 24 weeks to prevent relapse. The FDA removed the black box warning for neuropsychiatric events after the EAGLES trial confirmed that varenicline is safe even in patients with psychiatric conditions."
+      },
+      {
+        "title": "Bupropion SR",
+        "text": "Bupropion SR (Zyban or generic) works through dopamine and norepinephrine pathways to reduce cravings and withdrawal symptoms. Start 1 to 2 weeks before the quit date at 150 mg daily for 3 days, then 150 mg twice daily for a 12-week course. Bupropion also helps with post-cessation weight gain prevention. It is contraindicated in patients with seizure disorders, active or prior eating disorders (anorexia or bulimia), and concurrent use of MAO inhibitors. Not a controlled substance."
+      },
+      {
+        "title": "Nicotine replacement therapy (NRT)",
+        "text": "NRT provides nicotine without the harmful chemicals in tobacco smoke, reducing withdrawal symptoms during the quit process. The nicotine patch (21 mg, 14 mg, 7 mg step-down over 8 to 12 weeks) provides steady background nicotine levels, while short-acting forms (gum, lozenge) manage breakthrough cravings. Combining a long-acting form (patch) with a short-acting form (gum or lozenge) is more effective than either alone. The nicotine inhaler and nasal spray are prescription options for patients who benefit from hand-to-mouth ritual or rapid nicotine delivery."
+      },
+      {
+        "title": "Combination therapy",
+        "text": "Combining cessation medications produces higher quit rates than any single agent. Evidence-based combinations include varenicline plus nicotine patch (strongest evidence), long-acting NRT patch plus short-acting NRT gum or lozenge, and bupropion plus NRT. The treating MD will recommend the most appropriate combination based on your dependence severity, previous quit attempts, medical history, and preferences."
+      },
+      {
+        "title": "Behavioral counseling",
+        "text": "Behavioral counseling combined with medication is more effective than either approach alone. Even brief counseling during a telehealth visit increases quit rates. Key components include setting a firm quit date, identifying personal triggers and developing coping strategies, building social support, planning for high-risk situations, and understanding that relapse is a normal part of quitting. The 1-800-QUIT-NOW quitline is a free resource available in every state for additional support."
+      }
+    ],
+    "doesNotManage": [
+      "Pregnant or breastfeeding patients needing specialized cessation support",
+      "Active seizure disorders requiring in-person medication selection",
+      "Severe unstable psychiatric illness with active suicidal ideation",
+      "Suspected tobacco-related cancer needing imaging and oncology referral"
+    ]
+  },
+
+  "medications": {
+    "sectionTitle": "Common Medication Options",
+    "intro": "These are common examples for smoking cessation. The actual medication, dose, and duration are determined by the MD after reviewing your smoking history, dependence severity, medical history, psychiatric history, contraindications, and prior quit attempts.",
+    "headers": ["Medication", "Typical dose", "Duration", "Key considerations"],
+    "rows": [
+      ["Varenicline (Chantix/generic)", "0.5 mg daily x 3 days, then 0.5 mg twice daily x 4 days, then 1 mg twice daily", "12 weeks (can extend to 24 weeks)", "Most effective single agent. Start 1 week before quit date. Most common side effect is nausea (take with food). FDA removed black box warning for neuropsychiatric events (EAGLES trial). Not a controlled substance."],
+      ["Bupropion SR (Zyban/generic)", "150 mg daily x 3 days, then 150 mg twice daily", "12 weeks", "Start 1 to 2 weeks before quit date. Contraindicated in seizure disorders and eating disorders. Helps prevent post-cessation weight gain. Do not exceed 300 mg per day. Not a controlled substance."],
+      ["Nicotine patch (OTC)", "21 mg/day x 4 weeks, then 14 mg/day x 2 weeks, then 7 mg/day x 2 weeks", "8 to 12 weeks", "Apply to clean, dry, hairless skin. Rotate sites daily. Remove before bed if vivid dreams are bothersome. Can combine with short-acting NRT for breakthrough cravings."],
+      ["Nicotine gum (OTC)", "2 mg or 4 mg, up to 24 pieces per day", "Up to 12 weeks", "Use 4 mg strength if first cigarette is within 30 minutes of waking. Chew and park technique (chew until tingling, then park between cheek and gum). Do not eat or drink 15 minutes before use."],
+      ["Nicotine lozenge (OTC)", "2 mg or 4 mg, up to 20 lozenges per day", "Up to 12 weeks", "Use 4 mg strength if first cigarette is within 30 minutes of waking. Let dissolve slowly in mouth (20 to 30 minutes). Do not chew or swallow whole."],
+      ["Nicotine inhaler (prescription)", "6 to 16 cartridges per day", "Up to 6 months", "Mimics hand-to-mouth ritual of smoking. Puff frequently for best effect. Most effective in cool to moderate temperatures. Prescription required."]
+    ],
+    "note": "Example regimens only. The actual medication, dosing, and duration are determined by the MD after reviewing your smoking history, dependence severity, contraindications, and medical history. Combination therapy (such as varenicline plus patch, or patch plus gum) may be recommended for higher quit rates. TeleDirectMD does not prescribe controlled substances."
+  },
+
+  "homeCare": {
+    "sectionTitle": "Home Care, Quit Plan, and Follow-up",
+    "whatToDoNow": {
+      "title": "Building Your Quit Plan",
+      "items": [
+        "Set a firm quit date, typically 1 to 2 weeks after starting medication to allow the medication to reach effective levels",
+        "Start varenicline 1 week before your quit date or bupropion 1 to 2 weeks before your quit date as prescribed",
+        "Identify your personal smoking triggers (morning coffee, after meals, stress, social situations, driving) and plan specific alternatives for each",
+        "Remove cigarettes, lighters, and ashtrays from your home, car, and workplace before your quit date",
+        "Tell family, friends, and coworkers about your quit date and ask for their support"
+      ]
+    },
+    "whatToWatch": {
+      "title": "What to Watch For After Your Quit Date",
+      "items": [
+        "Nicotine withdrawal symptoms (irritability, anxiety, difficulty concentrating, restlessness, increased appetite) peak at 2 to 3 days and typically improve over 2 to 4 weeks",
+        "Nausea from varenicline is the most common side effect and usually improves by taking the medication with food and a full glass of water",
+        "Mood changes, increased depression, or any suicidal thoughts should be reported to your doctor immediately, though the EAGLES trial confirmed cessation medications are safe even in psychiatric patients",
+        "Weight gain of 5 to 10 pounds is common after quitting and is far less harmful than continued smoking",
+        "Relapse is normal and does not mean failure. If you slip, do not stop your medication. Resume your quit plan and contact your doctor for support"
+      ]
+    },
+    "followUp": {
+      "title": "Follow-up and Relapse Prevention",
+      "items": [
+        "Follow up at 1 to 2 weeks after your quit date to assess medication tolerance and adjust treatment if needed",
+        "Consider extending varenicline to 24 weeks if you have a history of relapse, as extended treatment reduces relapse risk",
+        "Call 1-800-QUIT-NOW for free additional counseling and support available in all states",
+        "If you relapse, schedule a follow-up visit. Most people require multiple quit attempts, and each attempt increases your chance of long-term success",
+        "After quitting, lung function begins improving within weeks, cardiovascular risk drops within a year, and cancer risk decreases over the following decade"
+      ]
+    }
+  },
+
+  "whenNotToUse": {
+    "sectionTitle": "When Not to Use TeleDirectMD for Smoking Cessation in {state}",
+    "intro": "TeleDirectMD is designed for straightforward smoking cessation in adults. We are direct about when telehealth is not appropriate.",
+    "shouldNotUse": {
+      "title": "You Should Not Use TeleDirectMD If",
+      "items": [
+        "You are under 18 years old",
+        "You are pregnant or breastfeeding (requires specialized in-person cessation support)",
+        "You have active suicidal ideation or severe unstable psychiatric illness",
+        "You have had a heart attack, stroke, or unstable angina within the past 2 weeks",
+        "You have a seizure disorder and need in-person evaluation for safe medication selection",
+        "You have suspected tobacco-related cancer needing imaging and oncology referral",
+        "You are seeking treatment for substance use disorders other than tobacco",
+        "You are not physically in {state} at the time of visit"
+      ]
+    },
+    "alternatives": {
+      "title": "Alternative Care Options",
+      "items": [
+        { "label": "Emergency room:", "text": "chest pain, signs of stroke, severe shortness of breath, psychiatric emergency, or active suicidal ideation" },
+        { "label": "Primary care:", "text": "complex medical histories, coordination with pulmonology, ongoing management of COPD or cardiovascular disease alongside cessation" },
+        { "label": "Psychiatry:", "text": "cessation in patients with severe psychiatric illness, complex medication interactions, or history of adverse reactions to cessation medications" },
+        { "label": "Quitline (1-800-QUIT-NOW):", "text": "free counseling and support available in all states, can supplement medical treatment" }
+      ]
+    }
+  },
+
+  "faq": {
+    "sectionTitle": "Smoking Cessation Treatment FAQs for {state}",
+    "items": [
+      {
+        "question": "Can I get a prescription for smoking cessation medication online in {state}?",
+        "answer": "Yes, if you are an adult 18+ located in {state} and your medical history supports safe use of cessation medications after screening for contraindications. TeleDirectMD can prescribe varenicline, bupropion, and prescription nicotine replacement therapy when clinically appropriate."
+      },
+      {
+        "question": "How much does online smoking cessation treatment cost in {state}?",
+        "answer": "TeleDirectMD offers a transparent self pay option starting at $49 for an adult video visit in {state}. Insurance is not required. Prescription costs at your pharmacy are separate and vary by medication and pharmacy. Many insurance plans cover cessation medications with no copay under preventive care benefits."
+      },
+      {
+        "question": "What is the most effective medication for quitting smoking?",
+        "answer": "Varenicline (Chantix or generic) is the most effective single agent for smoking cessation according to ATS 2020 guidelines. It works as a partial nicotine receptor agonist that reduces cravings and withdrawal while blocking the rewarding effects of smoking. Combining varenicline with a nicotine patch produces even higher quit rates than either alone."
+      },
+      {
+        "question": "Is varenicline (Chantix) safe? What about the mental health warnings?",
+        "answer": "The FDA removed the black box warning for neuropsychiatric events from varenicline in 2016 after the landmark EAGLES trial demonstrated that varenicline is safe even in patients with psychiatric conditions. The EAGLES trial, which included over 8,000 patients with and without psychiatric illness, found no significant increase in neuropsychiatric events with varenicline compared to placebo. The most common side effect is nausea, which usually improves with food."
+      },
+      {
+        "question": "When should I start taking varenicline before quitting?",
+        "answer": "Start varenicline 1 week before your planned quit date. The dose is gradually increased over the first week: 0.5 mg once daily for 3 days, then 0.5 mg twice daily for 4 days, then the full dose of 1 mg twice daily starting on your quit date. Some patients use a flexible quit date approach, quitting between 8 and 35 days after starting the medication."
+      },
+      {
+        "question": "Can I take bupropion if I have a history of seizures?",
+        "answer": "No. Bupropion is contraindicated in patients with seizure disorders because it lowers the seizure threshold. It is also contraindicated in patients with active or prior eating disorders (anorexia or bulimia) and concurrent MAO inhibitor use. If bupropion is not safe for you, varenicline or nicotine replacement therapy are alternative options that your doctor can discuss."
+      },
+      {
+        "question": "Is it normal to need multiple quit attempts?",
+        "answer": "Yes. Most people require multiple quit attempts before achieving long-term abstinence, and this is a well-established part of the quitting process. Each quit attempt builds skills and insight about your personal triggers. Relapse is not failure. Evidence-based medications significantly improve the odds of success with each attempt, and combining medication with behavioral counseling produces the best outcomes."
+      },
+      {
+        "question": "What about e-cigarettes or vaping to help me quit?",
+        "answer": "Major clinical guidelines including the ATS, AAFP, and USPSTF do not recommend e-cigarettes as a smoking cessation tool. While some individuals have used e-cigarettes to quit, they deliver nicotine (maintaining dependence), their long-term safety is not established, and FDA-approved medications have stronger evidence for effectiveness. TeleDirectMD recommends evidence-based cessation medications."
+      },
+      {
+        "question": "Does TeleDirectMD treat smoking cessation in other states?",
+        "answer": "Yes. TeleDirectMD offers adult evaluations via video visits across multiple states where our physicians are licensed. You must be physically located in the state where you are requesting care at the time of your video visit."
+      },
+      {
+        "question": "Can TeleDirectMD help teenagers quit smoking?",
+        "answer": "No. TeleDirectMD treats adults 18+ only. Adolescents who use tobacco should be evaluated by a pediatrician or adolescent medicine specialist for age-appropriate cessation support."
+      },
+      {
+        "question": "Can I use my insurance for a TeleDirectMD visit?",
+        "answer": "Insurance is not required. If your plan is eligible, you may be able to use insurance. A self pay option is also available."
+      },
+      {
+        "question": "What if I relapse after starting medication?",
+        "answer": "Relapse during a quit attempt is common and does not mean the medication has failed. Do not stop your cessation medication. Resume your quit plan, identify what triggered the relapse, and contact your doctor for a follow-up visit. Adjusting your medication, adding combination therapy, or extending the treatment duration may improve success. Extended treatment with varenicline for up to 24 weeks reduces relapse risk."
+      },
+      {
+        "question": "Will I gain weight after quitting smoking?",
+        "answer": "Average weight gain after quitting is 5 to 10 pounds, primarily due to metabolic changes and increased appetite. Bupropion may help limit weight gain during the quit process. The health benefits of quitting smoking far outweigh the risks of modest weight gain. Regular physical activity and mindful eating habits can help manage weight during and after cessation."
+      },
+      {
+        "question": "How quickly will my health improve after quitting?",
+        "answer": "Health improvements begin rapidly after quitting. Heart rate and blood pressure start normalizing within hours. Carbon monoxide levels return to normal within days. Lung function begins improving within weeks to months. Cardiovascular risk drops significantly within 1 year. Cancer risk decreases progressively over the following 5 to 15 years. Quitting at any age provides meaningful health benefits."
+      }
+    ],
+    "bottomCta": {
+      "title": "Need help today?",
+      "text": "Insurance is not required. Adult-only video visits. MD-only care. Safety-first screening, evidence-based cessation medication, and behavioral counseling."
+    }
+  },
+
+  "references": [
+    { "text": "ATS Clinical Practice Guideline: Pharmacotherapy for Tobacco Dependence (2020)", "url": "https://www.thoracic.org" },
+    { "text": "AAFP Medications for Smoking Cessation (2021)", "url": "https://www.aafp.org/pubs/afp/issues/2021/0315/p380.html" },
+    { "text": "CDC: How to Use Varenicline (Chantix) to Quit Smoking", "url": "https://www.cdc.gov/tobacco/campaign/tips/quit-smoking/quit-smoking-medications/how-to-use-quit-smoking-medicines/how-to-use-varenicline.html" },
+    { "text": "EAGLES Trial: Neuropsychiatric Safety of Varenicline, Bupropion, and Nicotine Patch (Anthenelli et al., Lancet 2016)", "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(16)30272-0/fulltext" },
+    { "text": "Nicotine Dependence, StatPearls (2025)", "url": "https://www.ncbi.nlm.nih.gov/books/NBK570642/" }
+  ],
+
+  "disclaimer": {
+    "sectionTitle": "TeleDirectMD Telehealth Disclaimer",
+    "paragraphs": [
+      "TeleDirectMD provides MD-only virtual urgent care for adults (18+) in {state} using secure video visits to evaluate nicotine dependence, provide evidence-based smoking cessation counseling, and prescribe cessation medication when clinically appropriate. Insurance is not required. You must be physically located in {state} at the time of your video visit. TeleDirectMD does not prescribe controlled substances.",
+      "TeleDirectMD is not an emergency service and is not a replacement for urgent in-person care during chest pain, stroke symptoms, severe shortness of breath, or psychiatric emergencies. This service is intended for adults seeking help with smoking cessation and is not a substitute for comprehensive in-person evaluation when contraindications or complex medical conditions are present.",
+      "Online smoking cessation treatment in {state}. Quit smoking medication online. Varenicline prescription online. Smoking cessation by video visit in {state}."
+    ]
+  },
+
+  "relatedConditions": [
+    {
+      "slug": "asthma-refills-online",
+      "title": "Asthma Refills",
+      "description": "Smoking worsens asthma and quitting is the most important step to improving respiratory health in smokers with asthma"
+    },
+    {
+      "slug": "common-cold-treatment-online",
+      "title": "Common Cold",
+      "description": "Smokers are more susceptible to upper respiratory infections and experience more severe cold symptoms"
+    },
+    {
+      "slug": "sinus-infection-treatment-online",
+      "title": "Sinus Infection",
+      "description": "Smoking damages sinus mucosal function and increases the risk of chronic and recurrent sinusitis"
+    },
+    {
+      "slug": "seasonal-allergies-treatment-online",
+      "title": "Seasonal Allergies",
+      "description": "Cigarette smoke irritates nasal passages and can worsen allergic rhinitis symptoms"
+    }
+  ],
+
+  "inlineLinks": [
+    { "slug": "asthma-refills-online", "label": "Asthma Refills" },
+    { "slug": "common-cold-treatment-online", "label": "Common Cold" },
+    { "slug": "sinus-infection-treatment-online", "label": "Sinus Infection" },
+    { "slug": "seasonal-allergies-treatment-online", "label": "Seasonal Allergies" },
+    { "slug": "sore-throat-treatment-online", "label": "Sore Throat" },
+    { "slug": "covid-19-treatment-online", "label": "COVID-19" },
+    { "slug": "influenza-treatment-online", "label": "Influenza" },
+    { "slug": "gout-treatment-online", "label": "Gout" },
+    { "slug": "dental-pain-treatment-online", "label": "Dental Pain" },
+    { "slug": "cold-sore-treatment-online", "label": "Cold Sore" }
+  ],
+
+  "cityBlock": {
+    "title": "Adults We Serve Across {state}",
+    "text": "TeleDirectMD evaluates adults located throughout {state}, including {citiesExtended}. Whether you are searching for online smoking cessation treatment in {city1}, quit smoking medication in {city2}, varenicline prescription online in {city3}, or telehealth smoking cessation care anywhere else in {state}, the same telehealth eligibility and safety rules apply."
+  },
+
+  "icd10Codes": [
+    { "code": "F17.210", "description": "Nicotine dependence, cigarettes, uncomplicated" },
+    { "code": "Z87.891", "description": "Personal history of nicotine dependence" }
+  ],
+
+  "jsonLd": {
+    "conditionName": "Nicotine Dependence",
+    "conditionAlternateNames": ["Smoking cessation", "Tobacco dependence", "Tobacco use disorder", "Cigarette addiction"],
+    "conditionDescription": "Nicotine dependence is a chronic relapsing condition caused by the addictive properties of nicotine in tobacco products. TeleDirectMD evaluates adult smokers ready to quit by video visit with safety-first screening, evidence-based pharmacotherapy including varenicline, bupropion, and nicotine replacement therapy, behavioral counseling, and prescriptions when clinically appropriate, with clear rules for when in-person care is needed.",
+    "primaryIcd10": "F17.210",
+    "anatomy": "Central nervous system (nicotinic acetylcholine receptors), Respiratory system",
+    "symptoms": ["Nicotine cravings", "Withdrawal irritability", "Difficulty concentrating", "Restlessness", "Increased appetite", "Depressed mood"],
+    "riskFactors": [
+      "Early age of smoking initiation",
+      "Genetic predisposition",
+      "Co-occurring psychiatric conditions",
+      "Social and environmental tobacco exposure"
+    ],
+    "complications": [
+      "Lung cancer",
+      "COPD",
+      "Cardiovascular disease",
+      "Stroke",
+      "Chronic bronchitis"
+    ],
+    "epidemiology": "Tobacco use is the leading preventable cause of death in the United States, causing approximately 480,000 deaths per year. About 12 percent of US adults currently smoke cigarettes.",
+    "drugs": [
+      { "name": "Varenicline", "id": "varenicline" },
+      { "name": "Bupropion SR", "id": "bupropion-sr" },
+      { "name": "Nicotine patch", "id": "nicotine-patch" },
+      { "name": "Nicotine gum", "id": "nicotine-gum" }
+    ],
+    "treatments": [
+      "Varenicline (most effective single agent)",
+      "Bupropion SR",
+      "Nicotine replacement therapy (patch, gum, lozenge, inhaler, nasal spray)",
+      "Combination pharmacotherapy",
+      "Behavioral counseling"
+    ],
+    "tests": [
+      "Clinical evaluation of nicotine dependence severity",
+      "Fagerström Test for Nicotine Dependence",
+      "Screening for contraindications to cessation medications"
+    ],
+    "specialties": ["Family Medicine", "Telemedicine", "Preventive Medicine"],
+    "guidelines": [
+      { "name": "ATS Clinical Practice Guideline: Pharmacotherapy for Tobacco Dependence", "url": "https://www.thoracic.org", "publisher": "American Thoracic Society", "id": "ats-2020" },
+      { "name": "AAFP Medications for Smoking Cessation", "url": "https://www.aafp.org/pubs/afp/issues/2021/0315/p380.html", "publisher": "American Academy of Family Physicians", "id": "aafp-cessation" },
+      { "name": "EAGLES Trial: Neuropsychiatric Safety of Cessation Medications", "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(16)30272-0/fulltext", "publisher": "The Lancet", "id": "eagles-trial" }
+    ],
+    "knowsAbout": [
+      "Smoking cessation treatment",
+      "Varenicline prescribing",
+      "Nicotine dependence management",
+      "Behavioral counseling for tobacco cessation",
+      "Nicotine replacement therapy",
+      "Telehealth triage",
+      "Safety-first screening",
+      "Family Medicine"
+    ],
+    "serviceDescription": "Secure video visit for {state} adults seeking to quit smoking, including contraindication screening, evidence-based cessation medication, behavioral counseling, and prescriptions when clinically appropriate.",
+    "webpageDescription": "{state} smoking cessation treatment by secure MD video visit for adults. Evidence-based evaluation of nicotine dependence, prescription cessation medications including varenicline and bupropion, behavioral counseling, and clear rules for when in-person care is needed."
+  }
+}
