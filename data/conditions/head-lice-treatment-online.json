@@ -1,0 +1,571 @@
+{
+  "conditionName": "Head Lice Treatment",
+  "conditionShort": "Head Lice",
+  "conditionSlug": "head-lice-treatment-online",
+  "pageTitle": "Head Lice Treatment Online in {state} | Pediculosis Capitis MD Video Visit | TeleDirectMD",
+  "metaDescription": "Evidence-based head lice treatment for {state} adults and families by secure video visit. OTC and prescription options, nit removal guidance, household decontamination steps. Self pay option starting at $49. Insurance is not required.",
+  "ogImageAlt": "Head lice treatment in {state} by TeleDirectMD",
+
+  "hero": {
+    "h1": "Head Lice Treatment in {state} (Pediculosis Capitis)",
+    "subtitle": "{state} adult care by secure video visit, self pay option starting at $49, MD-only, insurance is not required.",
+    "introParagraph": "Head lice (Pediculus humanus capitis) are tiny parasitic insects that infest the scalp and hair, causing intense itching and social distress. While head lice do not transmit disease, they spread easily through close contact and shared personal items, making prompt treatment important for the entire household. The CDC and American Academy of Pediatrics (AAP) recommend a stepwise approach: first-line over-the-counter pediculicides such as permethrin 1% lotion, escalating to prescription options like spinosad or oral ivermectin when OTC treatments fail. Telehealth is well suited for head lice because diagnosis can be confirmed via photo assessment showing live lice or nits close to the scalp, and most treatments are topical or oral prescriptions that do not require in-person examination. TeleDirectMD uses a structured evaluation to confirm active infestation, recommend appropriate treatment, guide household decontamination, and ensure all close contacts are treated simultaneously to prevent reinfestation. This page is for adults located in {state}, including {cities}.",
+    "tocLinks": [
+      { "href": "eligibility-checklist", "label": "Eligibility checklist" },
+      { "href": "decision-guide", "label": "Decision guide" },
+      { "href": "treatment-options", "label": "Treatment options" },
+      { "href": "faq", "label": "FAQs" },
+      { "href": "references", "label": "References" }
+    ],
+    "benefits": [
+      "Self pay option starting at $49",
+      "MD-only care (no mid-levels)",
+      "Insurance is not required",
+      "Licensed telehealth care for patients located in {state} at the time of the visit"
+    ],
+    "sideCard": {
+      "h2": "Online MD-Only Head Lice Care in {state}",
+      "features": [
+        "Photo-based confirmation of active lice or nit infestation",
+        "OTC and prescription treatment options based on severity and prior treatment history",
+        "Household decontamination and contact treatment guidance",
+        "Clear follow-up steps and retreatment timing instructions"
+      ],
+      "note": "Adults 18+ only. TeleDirectMD is not an emergency service. Go to urgent care or your primary care provider for secondary bacterial infection of the scalp with fever, spreading cellulitis, or infants under 2 months of age. TeleDirectMD does not prescribe controlled substances."
+    },
+    "icd10Display": "B85.0 (final coding depends on clinical details)"
+  },
+
+  "eligibility": {
+    "sectionTitle": "Head Lice Telehealth Eligibility Checklist for {state}",
+    "introText": "You are likely eligible for a TeleDirectMD video visit if ALL of these are true:",
+    "eligible": [
+      "You are 18 years old or older",
+      "You are physically located in {state} at the time of the visit",
+      "You have confirmed or suspected head lice (live lice seen, nits near scalp, or persistent scalp itching)",
+      "You can provide a clear photo of the scalp and hair for assessment",
+      "You do not have signs of secondary skin infection such as spreading redness, pus, or fever",
+      "Insurance is not required. A self pay option is available."
+    ],
+    "notEligible": [
+      "You are under 18 years old",
+      "You have secondary bacterial infection of the scalp with fever, spreading redness, or pus drainage",
+      "You are caring for an infant under 2 months of age with suspected lice",
+      "You have a severe allergic reaction to a lice treatment product",
+      "You have persistent infestation despite multiple completed treatment courses and need specialist evaluation"
+    ],
+    "notEligibleDisclaimer": "If you have signs of secondary infection or a severe allergic reaction to treatment, seek urgent in-person care. TeleDirectMD is not an emergency service."
+  },
+
+  "howItWorks": {
+    "sectionTitle": "How Online Head Lice Treatment Works in {state}",
+    "steps": [
+      {
+        "type": "check",
+        "title": "Book your video visit",
+        "description": "Insurance is not required. No referral needed. Many visits are available same day, depending on scheduling. Before your visit, take clear close-up photos of the scalp and hair showing any lice or nits. Note when itching started, any treatments already tried, and whether household contacts also have symptoms."
+      },
+      {
+        "type": "check",
+        "title": "See a {state} licensed MD by video",
+        "description": "We review your photos and symptom history, confirm active infestation versus old nits or other scalp conditions, assess prior treatment attempts, and determine whether OTC or prescription therapy is most appropriate. We also review which household contacts need simultaneous treatment."
+      },
+      {
+        "type": "good",
+        "title": "Get a treatment plan and, if appropriate, a prescription",
+        "description": "If prescription medication is clinically appropriate, we send an e-prescription to common {state} pharmacies such as {pharmacies}. You receive detailed instructions for application, nit removal, household decontamination, and retreatment timing, plus guidance on when to seek in-person care if treatment is not working.",
+        "showCta": true
+      }
+    ]
+  },
+
+  "telehealthRegulations": {
+    "sectionTitle": "{state} Telehealth Regulations for Online Head Lice Care",
+    "paragraphs": [
+      "{telehealthRegulation}",
+      "Location matters: you must be physically in {state} during the visit. Insurance is not required. TeleDirectMD does not prescribe controlled substances."
+    ]
+  },
+
+  "comparisonTable": {
+    "sectionTitle": "TeleDirectMD vs Other Care Options for Head Lice in {state}",
+    "intro": "Here is how TeleDirectMD compares to common settings for head lice care in {state}:",
+    "rows": [
+      {
+        "option": "TeleDirectMD",
+        "cost": "Self pay option starting at $49",
+        "wait": "Same day, often within hours",
+        "provider": "Board-certified MD only (no mid-levels)",
+        "bestFor": "Confirmed or suspected head lice needing OTC guidance or prescription treatment after OTC failure, with household decontamination instructions",
+        "highlight": true
+      },
+      {
+        "option": "Urgent Care",
+        "cost": "$150 to $300+ (before insurance)",
+        "wait": "1 to 3 hours typical",
+        "provider": "MD, DO, PA, or NP",
+        "bestFor": "Suspected secondary scalp infection with redness, swelling, or fever",
+        "highlight": false
+      },
+      {
+        "option": "Emergency Room",
+        "cost": "$500 to $3,000+ (before insurance)",
+        "wait": "2 to 6 hours typical",
+        "provider": "Emergency medicine MD or DO",
+        "bestFor": "Severe allergic reaction to lice treatment, widespread secondary infection with systemic symptoms",
+        "highlight": false
+      },
+      {
+        "option": "Primary Care",
+        "cost": "$100 to $250+ (varies)",
+        "wait": "3 to 14 days typical",
+        "provider": "Family medicine or internal medicine MD or DO",
+        "bestFor": "Persistent or recurrent infestations needing in-person scalp examination and long-term management",
+        "highlight": false
+      },
+      {
+        "option": "Dermatology",
+        "cost": "$150 to $400+ (varies)",
+        "wait": "Days to weeks (varies)",
+        "provider": "Dermatologist MD or DO",
+        "bestFor": "Treatment-resistant lice, atypical scalp conditions mimicking lice, or persistent scalp dermatitis after treatment",
+        "highlight": false
+      }
+    ],
+    "bottomLine": "TeleDirectMD is a strong fit for head lice diagnosis and treatment guidance, especially when OTC options have failed and a prescription is needed, all without the wait or cost of an in-person visit."
+  },
+
+  "decisionGuide": {
+    "sectionTitle": "Should I Use TeleDirectMD for Head Lice in {state}? Decision Guide",
+    "steps": [
+      {
+        "type": "urgent",
+        "title": "Do you have any emergency or red-flag symptoms?",
+        "items": [
+          "Severe allergic reaction to a lice treatment (swelling, difficulty breathing, widespread rash)",
+          "Scalp infection with fever, spreading redness, or pus drainage",
+          "Infant under 2 months of age with suspected lice"
+        ],
+        "yesAction": "If yes, seek urgent in-person care or the ER now",
+        "noAction": "If no, continue to Step 2"
+      },
+      {
+        "type": "check",
+        "title": "Are you 18+ and currently in {state}?",
+        "items": [],
+        "yesAction": "If yes, continue to Step 3",
+        "noAction": "If no, use in-person care as appropriate"
+      },
+      {
+        "type": "check",
+        "title": "Do you have signs of active head lice infestation?",
+        "items": [
+          "Live lice seen on scalp or hair",
+          "Nits (eggs) attached within 1 cm of the scalp",
+          "Persistent scalp itching, especially behind the ears and at the nape of the neck",
+          "No signs of secondary bacterial infection (no fever, no spreading redness, no pus)"
+        ],
+        "yesAction": "If yes, continue to Step 4",
+        "noAction": "If no or if you have signs of secondary infection, seek in-person evaluation"
+      },
+      {
+        "type": "good",
+        "title": "You are likely appropriate for a TeleDirectMD video visit",
+        "description": "TeleDirectMD can evaluate your scalp photos, confirm active infestation, recommend OTC or prescription treatment based on your history, guide nit removal and household decontamination, and provide retreatment instructions. If your situation suggests a more complicated condition or treatment-resistant lice, we will direct you to in-person care.",
+        "items": [],
+        "showCta": true
+      }
+    ]
+  },
+
+  "pricing": {
+    "sectionTitle": "What Does Head Lice Treatment Cost in {state}?",
+    "subtitle": "Transparent options. Insurance is not required.",
+    "visitPrice": "$49",
+    "priceSubtext": "Self pay option. Insurance is not required.",
+    "includes": [
+      "MD evaluation and photo-based lice assessment",
+      "OTC treatment guidance or prescription when clinically appropriate",
+      "Household decontamination and contact treatment instructions",
+      "Nit removal guidance and retreatment timing",
+      "Clear follow-up steps"
+    ],
+    "comparisonBars": [
+      { "name": "TeleDirectMD", "value": "$49", "width": 12, "isTdmd": true },
+      { "name": "Primary Care", "value": "$100 to $250+", "width": 45, "isTdmd": false },
+      { "name": "Urgent Care", "value": "$150 to $300+", "width": 55, "isTdmd": false },
+      { "name": "Emergency Room", "value": "$500 to $3,000+", "width": 100, "isTdmd": false }
+    ],
+    "footnote": "Prescription costs at your pharmacy are separate and vary by medication and pharmacy.",
+    "noHiddenFees": "No hidden fees. If medication is not clinically appropriate, you still receive a complete evaluation, guidance, and clear instructions on what level of care you need next."
+  },
+
+  "whatIsCondition": {
+    "sectionTitle": "What Are Head Lice?",
+    "paragraphs": [
+      "Head lice (Pediculus humanus capitis) are small wingless parasitic insects that live on the human scalp and feed on blood. They are about the size of a sesame seed, and their eggs (nits) are tiny oval structures that attach firmly to individual hair shafts near the scalp. Head lice do not jump or fly — they spread by direct head-to-head contact or, less commonly, through shared hats, combs, or pillows.",
+      "Head lice infestation (pediculosis capitis) is extremely common, affecting an estimated 6 to 12 million people annually in the United States, primarily school-age children aged 3 to 11 years but also adults. While head lice cause significant itching and social stigma, they do not transmit infectious diseases. Infestation is not related to hygiene, income level, or cleanliness.",
+      "TeleDirectMD can assess head lice via photo review and symptom history, recommend appropriate OTC or prescription treatment, and guide household decontamination — all by video visit without the delay of scheduling an in-person appointment."
+    ]
+  },
+
+  "causesAndRiskFactors": {
+    "sectionTitle": "Causes and Risk Factors",
+    "intro": "Head lice spread primarily through direct head-to-head contact. Understanding how lice spread helps determine appropriate treatment and prevention strategies.",
+    "items": [
+      { "label": "Direct head-to-head contact:", "text": "the primary route of transmission, especially common among children during play, sports, or sleepovers" },
+      { "label": "Shared personal items:", "text": "less common but possible through shared combs, brushes, hats, helmets, headphones, or pillows" },
+      { "label": "Household contacts:", "text": "family members and close contacts of an infested person are at high risk and should be checked and often treated simultaneously" },
+      { "label": "School and daycare settings:", "text": "group environments increase opportunity for head-to-head contact among children" },
+      { "label": "Hair length and type:", "text": "lice can infest any hair type, though they are less common in certain hair textures; long hair may increase contact opportunities" }
+    ],
+    "closing": "Head lice are not a sign of poor hygiene. They affect people of all socioeconomic backgrounds. The most important step is prompt, complete treatment of all affected individuals and close contacts simultaneously, along with household decontamination to prevent reinfestation."
+  },
+
+  "symptomsAndRedFlags": {
+    "sectionTitle": "Symptoms and Red Flags for Head Lice in {state}",
+    "intro": "Use this table to understand which symptoms fit active head lice infestation and which symptoms suggest a need for in-person evaluation.",
+    "headers": ["Symptom or situation", "What it suggests", "Telehealth appropriate?", "Red flag requiring urgent in-person care"],
+    "rows": [
+      ["Scalp itching, especially behind ears and nape of neck", "Active lice infestation causing allergic reaction to louse saliva", "Often yes", "If accompanied by fever or spreading redness suggesting secondary infection"],
+      ["Live lice visible on scalp or hair", "Confirmed active infestation requiring treatment", "Often yes", "If secondary infection signs are present"],
+      ["Nits (eggs) attached within 1 cm of scalp", "Active or very recent infestation — treatment indicated", "Often yes", "If nits are accompanied by crusting, oozing, or painful sores"],
+      ["Nits only, located more than 1 cm from scalp, no live lice", "Likely old or treated infestation — may not need retreatment", "Yes, for assessment", "Not typically a red flag"],
+      ["Scratching causing open sores or crusting on scalp", "Excoriation with risk of secondary bacterial infection", "Sometimes", "Spreading redness, warmth, pus, or fever suggests bacterial infection needing in-person care"],
+      ["Failed OTC treatment after two complete applications", "Possible resistance to permethrin or pyrethrin, or misdiagnosis", "Yes — prescription options available", "If scalp condition is worsening or infection is developing"],
+      ["Rash or allergic reaction after applying lice treatment", "Contact dermatitis or allergic reaction to pediculicide", "Sometimes, if mild", "Severe swelling, widespread rash, or difficulty breathing requires emergency care"]
+    ]
+  },
+
+  "differentialDiagnosis": {
+    "sectionTitle": "Differential Diagnosis: Head Lice vs Other Scalp Conditions",
+    "intro": "Not every itchy scalp is head lice. Several conditions can mimic or be confused with pediculosis capitis. TeleDirectMD uses photo assessment and clinical history to distinguish active lice infestation from conditions that require different treatment.",
+    "telehealthAppropriate": {
+      "title": "Sometimes Appropriate for Telehealth",
+      "items": [
+        "Confirmed active head lice with live lice or nits near the scalp visible on photo",
+        "Suspected head lice after household contact exposure with symptoms",
+        "OTC treatment failure requiring escalation to prescription therapy",
+        "Assessment of whether nits represent active versus old infestation",
+        "Guidance on household decontamination and simultaneous contact treatment"
+      ]
+    },
+    "requiresInPerson": {
+      "title": "Often Requires In-Person Evaluation",
+      "items": [
+        "Secondary bacterial infection of the scalp with cellulitis, abscess, or fever",
+        "Persistent scalp condition not responding to appropriate lice treatment (may not be lice)",
+        "Suspected tinea capitis (scalp ringworm) with patchy hair loss and scaling",
+        "Infants under 2 months of age with suspected infestation",
+        "Severe allergic reaction to lice treatment products"
+      ]
+    },
+    "compareCards": [
+      {
+        "title": "Head Lice vs Dandruff",
+        "text": "Dandruff flakes are irregularly shaped, white or yellowish, and easily brushed off the hair shaft. Nits are oval, firmly cemented to the hair shaft near the scalp, and cannot be easily removed. Live lice confirm the diagnosis but can be hard to spot because they move quickly. A fine-toothed nit comb over wet hair is the most reliable detection method."
+      },
+      {
+        "title": "Head Lice vs Seborrheic Dermatitis",
+        "text": "Seborrheic dermatitis causes greasy, yellowish scaling on the scalp with underlying redness, often affecting the eyebrows and nasolabial folds as well. Head lice cause itching primarily behind the ears and at the nape, with visible nits attached to hair shafts. Seborrheic dermatitis responds to antifungal shampoos, while lice require pediculicides."
+      }
+    ],
+    "closing": "If your scalp symptoms do not match active lice infestation or if signs of secondary infection are present, TeleDirectMD will direct you to appropriate in-person care for further evaluation."
+  },
+
+  "telehealthEligibility": {
+    "sectionTitle": "When Is a Video Visit Appropriate?",
+    "appropriate": {
+      "title": "When a Video Visit Is Appropriate",
+      "items": [
+        "Confirmed or suspected active head lice infestation with photo available",
+        "Scalp itching consistent with lice after known exposure",
+        "OTC treatment failure needing prescription escalation",
+        "Need for guidance on nit removal, retreatment timing, and household decontamination",
+        "Assessment of household contacts who may need simultaneous treatment",
+        "Located in {state} at time of visit"
+      ]
+    },
+    "redFlags": {
+      "title": "Red Flags Requiring In-Person or ER Care",
+      "items": [
+        "Secondary bacterial infection of the scalp (fever, spreading redness, pus, painful swelling)",
+        "Severe allergic reaction to lice treatment product (widespread rash, swelling, breathing difficulty)",
+        "Infant under 2 months of age",
+        "Persistent infestation despite multiple completed prescription treatment courses",
+        "Scalp condition that may not be lice (hair loss, thick plaques, atypical distribution)"
+      ],
+      "disclaimer": "If any red-flag symptoms are present, seek urgent in-person or emergency care. TeleDirectMD is not appropriate for these situations."
+    }
+  },
+
+  "treatmentOptions": {
+    "sectionTitle": "Treatment Options",
+    "intro": "Head lice treatment follows a stepwise approach based on CDC and AAP guidelines. Over-the-counter pediculicides are first-line therapy, with prescription options reserved for OTC treatment failure or resistant infestations. All close contacts must be treated simultaneously, and household decontamination is essential to prevent reinfestation.",
+    "sections": [
+      {
+        "title": "First-line OTC pediculicides",
+        "text": "Permethrin 1% lotion (Nix) is the most widely recommended first-line treatment. Apply to damp, shampooed hair, leave on for 10 minutes, then rinse. A second application on day 9 to 10 is recommended to kill newly hatched lice. Pyrethrin-based products are an alternative with a similar protocol. Ivermectin 0.5% lotion (Sklice) is available OTC for ages 6 months and older and requires only a single application with no nit combing needed."
+      },
+      {
+        "title": "Prescription options for OTC failure",
+        "text": "When OTC treatments fail after two complete applications, prescription options include spinosad 0.9% suspension (Natroba), which requires a single application for ages 6 months and older, malathion 0.5% lotion (Ovide) applied and air-dried for 8 to 12 hours for ages 6 years and older, and oral ivermectin 200 mcg/kg as a single dose repeated on day 7 to 10 for patients weighing 15 kg or more."
+      },
+      {
+        "title": "Nit removal and retreatment",
+        "text": "Nit combing with a fine-toothed metal comb after treatment helps remove dead nits and any surviving lice. While not strictly required with all products, nit removal reduces the chance of reinfestation and is often required by school no-nit policies. Most treatments require a second application 7 to 10 days after the first to kill lice that may have hatched after the initial treatment."
+      },
+      {
+        "title": "Household decontamination and contact treatment",
+        "text": "Wash all bedding, clothing, and towels used in the previous 2 days in hot water at 130 degrees Fahrenheit and machine dry on high heat. Bag non-washable items such as stuffed animals and decorative pillows for 2 weeks. Soak combs and brushes in hot water (130 degrees Fahrenheit) for 5 to 10 minutes. Vacuum upholstered furniture and car seats. All household members and close contacts should be checked and treated simultaneously if lice or nits are found."
+      }
+    ],
+    "doesNotManage": [
+      "Secondary bacterial scalp infection with cellulitis or abscess formation",
+      "Infants under 2 months of age",
+      "Severe allergic reactions to pediculicide products",
+      "Treatment-resistant infestations that have failed multiple prescription courses requiring specialist evaluation"
+    ]
+  },
+
+  "medications": {
+    "sectionTitle": "Common Medication Options",
+    "intro": "These are common examples for head lice treatment. The actual medication selection depends on age, prior treatment history, severity of infestation, and clinical judgment of the MD during your visit.",
+    "headers": ["Medication", "Typical application", "Duration", "Key considerations"],
+    "rows": [
+      ["Permethrin 1% lotion (Nix)", "Apply to damp hair after shampooing, leave on 10 minutes, rinse", "Two applications: day 1 and day 9-10", "Most common first-line OTC treatment. Safe for ages 2 months and older. Resistance has been reported in some areas."],
+      ["Pyrethrin + piperonyl butoxide shampoo", "Apply to dry hair, leave on 10 minutes, rinse", "Two applications: day 1 and day 9-10", "OTC option for ages 2 years and older. Avoid in patients with ragweed or chrysanthemum allergy."],
+      ["Ivermectin 0.5% lotion (Sklice)", "Apply to dry hair, leave on 10 minutes, rinse", "Single application", "OTC for ages 6 months and older. No nit combing required. Effective against permethrin-resistant lice."],
+      ["Spinosad 0.9% suspension (Natroba)", "Apply to dry hair, leave on 10 minutes, rinse", "Single application; repeat in 7 days if live lice still seen", "Prescription. Ages 6 months and older. No nit combing required. Highly effective including against resistant lice."],
+      ["Malathion 0.5% lotion (Ovide)", "Apply to dry hair, air dry 8-12 hours, shampoo out", "Single application; repeat in 7-9 days if needed", "Prescription. Ages 6 years and older. Flammable — do not use near heat sources or hair dryers. Very effective ovicidal and pediculicidal activity."],
+      ["Oral ivermectin (200 mcg/kg)", "Single oral dose", "One dose, repeat on day 7-10", "Prescription. For patients weighing 15 kg or more. Useful when topical treatments have failed or are impractical. Not for use in pregnancy."]
+    ],
+    "note": "Example regimens only. The actual medication, application method, and retreatment schedule are determined by the MD after reviewing the infestation, prior treatment attempts, age, weight, allergies, and risk factors. TeleDirectMD does not prescribe controlled substances."
+  },
+
+  "homeCare": {
+    "sectionTitle": "Home Care, Decontamination, Prevention, and Follow-up",
+    "whatToDoNow": {
+      "title": "What to Do Now After Treatment",
+      "items": [
+        "Apply the prescribed or recommended treatment exactly as directed — do not shorten or extend application time",
+        "Use a fine-toothed nit comb on wet hair after treatment to remove dead lice and nits",
+        "Wash all bedding, clothing, hats, and towels used in the past 2 days in hot water (130°F) and machine dry on high heat",
+        "Bag non-washable items like stuffed animals and decorative pillows in sealed plastic bags for 2 weeks",
+        "Soak combs, brushes, and hair accessories in hot water (130°F) for 5 to 10 minutes"
+      ]
+    },
+    "whatToWatch": {
+      "title": "What to Watch For Over the Next 7 to 14 Days",
+      "items": [
+        "Check for live lice 8 to 12 hours after first treatment — some movement is normal as dying lice slow down",
+        "If live lice are still actively moving 24 hours after treatment, the product may not be effective and retreatment with a different agent may be needed",
+        "Complete the second treatment application on day 9 to 10 as directed for products requiring retreatment",
+        "Watch for signs of secondary bacterial infection: increasing redness, warmth, pus, painful swelling, or fever",
+        "Monitor all household contacts for symptoms over the following 2 weeks"
+      ]
+    },
+    "followUp": {
+      "title": "Prevention and Follow-up",
+      "items": [
+        "Treat all household contacts and close contacts simultaneously — this is the single most important step to prevent reinfestation",
+        "Avoid head-to-head contact during active infestation and treatment",
+        "Do not share combs, brushes, hats, helmets, headphones, or pillows",
+        "If lice return despite two complete OTC treatment courses, schedule a follow-up for prescription options",
+        "Lice cannot survive more than 1 to 2 days off the human scalp — environmental decontamination is supportive but treating all people is the priority"
+      ]
+    }
+  },
+
+  "whenNotToUse": {
+    "sectionTitle": "When Not to Use TeleDirectMD for Head Lice in {state}",
+    "intro": "TeleDirectMD is designed for uncomplicated head lice assessment and treatment. We are direct about when telehealth is not appropriate.",
+    "shouldNotUse": {
+      "title": "You Should Not Use TeleDirectMD If",
+      "items": [
+        "You are under 18 years old",
+        "You have signs of secondary bacterial scalp infection (fever, spreading redness, pus, painful swelling)",
+        "You are caring for an infant under 2 months old with suspected lice",
+        "You are having a severe allergic reaction to a lice treatment product",
+        "You have persistent infestation despite multiple completed prescription treatment courses",
+        "Your scalp condition may not be lice (patchy hair loss, thick plaques, atypical distribution)",
+        "You are not physically in {state} at the time of visit"
+      ]
+    },
+    "alternatives": {
+      "title": "Alternative Care Options",
+      "items": [
+        { "label": "Emergency room:", "text": "severe allergic reaction to lice treatment with difficulty breathing, widespread swelling, or anaphylaxis" },
+        { "label": "Urgent care:", "text": "secondary bacterial scalp infection with fever, cellulitis, or abscess needing in-person examination" },
+        { "label": "Primary care:", "text": "persistent or recurrent infestations needing in-person scalp examination, or infants and young children" },
+        { "label": "Dermatology:", "text": "treatment-resistant lice, atypical scalp conditions, or chronic scalp dermatitis after treatment" }
+      ]
+    }
+  },
+
+  "faq": {
+    "sectionTitle": "Head Lice Treatment FAQs for {state}",
+    "items": [
+      {
+        "question": "Can I get a prescription for head lice treatment online in {state}?",
+        "answer": "Yes, if you are an adult 18+ located in {state} and your situation is appropriate for telehealth. TeleDirectMD can prescribe medications such as spinosad, malathion, or oral ivermectin when OTC treatments have failed and prescription therapy is clinically indicated."
+      },
+      {
+        "question": "How much does online head lice treatment cost in {state}?",
+        "answer": "TeleDirectMD offers a transparent self pay option starting at $49 for an adult video visit in {state}. Insurance is not required. Prescription costs at your pharmacy are separate and vary by medication and pharmacy."
+      },
+      {
+        "question": "Can a doctor diagnose head lice via telehealth without seeing me in person?",
+        "answer": "Yes, in many cases. Head lice can be diagnosed via clear photos showing live lice or nits attached near the scalp, combined with symptom history. The CDC notes that visualization of live lice or nits within 1 cm of the scalp is diagnostic. If photos are unclear or the diagnosis is uncertain, in-person evaluation may be recommended."
+      },
+      {
+        "question": "What should I do if over-the-counter lice treatment did not work?",
+        "answer": "If OTC permethrin or pyrethrin treatment fails after two complete applications 9 to 10 days apart, prescription options may be needed. Resistance to permethrin has been reported in many areas. TeleDirectMD can prescribe spinosad, malathion, or oral ivermectin based on your specific situation."
+      },
+      {
+        "question": "Do I need to treat the whole household for head lice?",
+        "answer": "Yes. The CDC and AAP recommend checking all household members and close contacts, and treating anyone with live lice or nits near the scalp simultaneously. Treating only one person while others remain infested is the most common cause of reinfestation."
+      },
+      {
+        "question": "How long does it take to get rid of head lice completely?",
+        "answer": "Most infestations resolve within 2 to 3 weeks with proper treatment, including the retreatment application on day 9 to 10. The second treatment is critical because most pediculicides do not reliably kill all nits, so the retreatment targets newly hatched lice before they can lay new eggs."
+      },
+      {
+        "question": "Are head lice a sign of poor hygiene?",
+        "answer": "No. Head lice are not related to cleanliness, income, or hygiene practices. Lice spread through direct head-to-head contact and can affect anyone. Frequent hair washing does not prevent or treat head lice."
+      },
+      {
+        "question": "Can head lice spread disease?",
+        "answer": "No. Head lice (Pediculus humanus capitis) do not transmit any known diseases. While they cause itching and social stigma, they are medically considered a nuisance infestation rather than a health hazard. The main medical concern is secondary bacterial infection from scratching."
+      },
+      {
+        "question": "Does TeleDirectMD treat head lice in other states?",
+        "answer": "Yes. TeleDirectMD offers adult evaluations via video visits across multiple states where our physicians are licensed. You must be physically located in the state where you are requesting care at the time of your video visit."
+      },
+      {
+        "question": "Can I use my insurance for a TeleDirectMD visit?",
+        "answer": "Insurance is not required. If your plan is eligible, you may be able to use insurance. A self pay option is also available."
+      }
+    ],
+    "bottomCta": {
+      "title": "Need help today?",
+      "text": "Insurance is not required. Adult-only video visits. MD-only care. Safety-first triage, treatment guidance, and prescriptions only when appropriate."
+    }
+  },
+
+  "references": [
+    { "text": "Head Lice — Diagnosis and Treatment, Centers for Disease Control and Prevention (CDC)", "url": "https://www.cdc.gov/lice/head-lice/diagnosis-treatment.html" },
+    { "text": "American Academy of Pediatrics (AAP) Clinical Report: Head Lice (Pediculosis Capitis)", "url": "https://publications.aap.org/pediatrics/article/150/4/e2022059282/189559/Head-Lice" },
+    { "text": "Pediculosis Capitis, StatPearls (2025)", "url": "https://www.ncbi.nlm.nih.gov/books/NBK470343/" },
+    { "text": "FDA Prescribing Information — Sklice (Ivermectin) Lotion 0.5%", "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2012/202736lbl.pdf" },
+    { "text": "FDA Prescribing Information — Natroba (Spinosad) Topical Suspension 0.9%", "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2011/022408lbl.pdf" },
+    { "text": "Parasites — Lice — Head Lice: Prevention and Control, CDC", "url": "https://www.cdc.gov/lice/head-lice/prevention.html" }
+  ],
+
+  "disclaimer": {
+    "sectionTitle": "TeleDirectMD Telehealth Disclaimer",
+    "paragraphs": [
+      "TeleDirectMD provides MD-only virtual urgent care for adults (18+) in {state} using secure video visits to evaluate head lice symptoms, provide evidence-based treatment guidance, and prescribe pediculicide medications when clinically appropriate. Insurance is not required. You must be physically located in {state} at the time of your video visit. TeleDirectMD does not prescribe controlled substances.",
+      "TeleDirectMD is not an emergency service and is not a replacement for urgent in-person care when secondary bacterial infection, severe allergic reaction, or treatment-resistant infestation requiring specialist evaluation is present. This service is intended for uncomplicated head lice assessment and treatment and is not a substitute for comprehensive in-person evaluation when red flags are present.",
+      "Online head lice treatment in {state}. Lice prescription online. Pediculosis treatment by video visit."
+    ]
+  },
+
+  "relatedConditions": [
+    {
+      "slug": "eczema-treatment-online",
+      "title": "Eczema",
+      "description": "Chronic itchy skin condition that can coexist with or be worsened by scalp scratching from lice"
+    },
+    {
+      "slug": "pink-eye-treatment-online",
+      "title": "Pink Eye",
+      "description": "Common contagious condition often seen in similar school-age settings as head lice outbreaks"
+    },
+    {
+      "slug": "sore-throat-treatment-online",
+      "title": "Sore Throat",
+      "description": "Another common acute condition evaluated by MD video visit"
+    },
+    {
+      "slug": "common-cold-treatment-online",
+      "title": "Common Cold",
+      "description": "Frequent acute illness in school-age children and families managed by telehealth"
+    }
+  ],
+
+  "inlineLinks": [
+    { "slug": "eczema-treatment-online", "label": "Eczema" },
+    { "slug": "pink-eye-treatment-online", "label": "Pink Eye" },
+    { "slug": "sore-throat-treatment-online", "label": "Sore Throat" },
+    { "slug": "common-cold-treatment-online", "label": "Common Cold" },
+    { "slug": "ear-pain-treatment-online", "label": "Ear Pain" },
+    { "slug": "sinus-infection-treatment-online", "label": "Sinus Infection" },
+    { "slug": "cold-sore-treatment-online", "label": "Cold Sore" },
+    { "slug": "influenza-treatment-online", "label": "Influenza" },
+    { "slug": "yeast-infection-treatment-online", "label": "Yeast Infection" },
+    { "slug": "covid-19-treatment-online", "label": "COVID-19" }
+  ],
+
+  "cityBlock": {
+    "title": "Adults We Serve Across {state}",
+    "text": "TeleDirectMD evaluates adults located throughout {state}, including {citiesExtended}. Whether you are searching for online head lice treatment in {city1}, lice prescription in {city2}, pediculosis treatment online in {city3}, or telehealth lice evaluation anywhere else in {state}, the same telehealth eligibility and safety rules apply."
+  },
+
+  "icd10Codes": [
+    { "code": "B85.0", "description": "Pediculosis due to Pediculus humanus capitis (head lice)" }
+  ],
+
+  "jsonLd": {
+    "conditionName": "Head Lice (Pediculosis Capitis)",
+    "conditionAlternateNames": ["Head lice", "Pediculosis capitis", "Lice infestation", "Nits"],
+    "conditionDescription": "Head lice (Pediculus humanus capitis) are parasitic insects that infest the scalp and hair, causing itching and social distress. TeleDirectMD evaluates head lice by video visit with photo-based assessment, recommends OTC or prescription pediculicide treatment, guides household decontamination, and ensures all contacts are treated simultaneously to prevent reinfestation.",
+    "primaryIcd10": "B85.0",
+    "anatomy": "Scalp and hair",
+    "symptoms": ["Scalp itching", "Visible lice on scalp", "Nits on hair shafts", "Scalp excoriation from scratching"],
+    "riskFactors": [
+      "Direct head-to-head contact",
+      "Shared personal items (combs, hats, pillows)",
+      "Household contact with infested person",
+      "School-age children in home"
+    ],
+    "complications": [
+      "Secondary bacterial infection from scratching",
+      "Excoriation dermatitis",
+      "Social stigma and school absence"
+    ],
+    "epidemiology": "Head lice affect an estimated 6 to 12 million people annually in the United States, most commonly school-age children aged 3 to 11 years.",
+    "drugs": [
+      { "name": "Permethrin", "id": "permethrin" },
+      { "name": "Spinosad", "id": "spinosad" },
+      { "name": "Ivermectin", "id": "ivermectin" },
+      { "name": "Malathion", "id": "malathion" }
+    ],
+    "treatments": [
+      "OTC pediculicides (permethrin, pyrethrin, ivermectin lotion)",
+      "Prescription pediculicides (spinosad, malathion, oral ivermectin)",
+      "Nit combing and manual removal",
+      "Household decontamination and simultaneous contact treatment"
+    ],
+    "tests": [
+      "Visual identification of live lice or nits via photo assessment",
+      "Fine-toothed nit comb examination of wet hair"
+    ],
+    "specialties": ["Family Medicine", "Telemedicine", "Dermatology"],
+    "guidelines": [
+      { "name": "CDC Head Lice Diagnosis and Treatment Guidelines", "url": "https://www.cdc.gov/lice/head-lice/diagnosis-treatment.html", "publisher": "Centers for Disease Control and Prevention", "id": "cdc" },
+      { "name": "AAP Clinical Report: Head Lice (Pediculosis Capitis)", "url": "https://publications.aap.org/pediatrics/article/150/4/e2022059282/189559/Head-Lice", "publisher": "American Academy of Pediatrics", "id": "aap" },
+      { "name": "Pediculosis Capitis, StatPearls", "url": "https://www.ncbi.nlm.nih.gov/books/NBK470343/", "publisher": "StatPearls Publishing", "id": "statpearls" }
+    ],
+    "knowsAbout": [
+      "Head lice treatment",
+      "Pediculosis capitis management",
+      "Pediculicide selection",
+      "Nit removal guidance",
+      "Household decontamination",
+      "Family Medicine"
+    ],
+    "serviceDescription": "Secure video visit for {state} adults with head lice symptoms, including photo-based assessment, OTC and prescription treatment guidance, household decontamination instructions, and contact treatment coordination.",
+    "webpageDescription": "{state} head lice treatment by secure MD video visit for adults. Evidence-based evaluation of pediculosis capitis, OTC and prescription pediculicide options, nit removal guidance, household decontamination steps, and clear rules for when in-person care is needed."
+  }
+}
