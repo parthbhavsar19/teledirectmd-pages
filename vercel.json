@@ -5,17 +5,26 @@
   "trailingSlash": false,
   "rewrites": [
     {
-      "source": "/:path*",
-      "destination": "https://pepper-saxophone-p8le.squarespace.com/:path*"
+      "source": "/((?!al|az|ca|co|ct|fl|ga|hi|ia|id|il|in|ks|ky|la|md|mi|mn|mo|ms|mt|nc|ne|nj|nm|nv|oh|ok|or|pa|sc|tn|tx|ut|va|wa|wi|wv|wy|_next|favicon).*)",
+      "destination": "https://pepper-saxophone-p8le.squarespace.com/$1"
     }
   ],
   "headers": [
     {
       "source": "/(.*)",
       "headers": [
-        { "key": "X-Content-Type-Options", "value": "nosniff" },
-        { "key": "X-Frame-Options", "value": "SAMEORIGIN" },
-        { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" }
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "SAMEORIGIN"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        }
       ]
     }
   ]
