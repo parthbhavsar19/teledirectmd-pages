@@ -1,0 +1,583 @@
+{
+  "conditionName": "Acne Treatment",
+  "conditionShort": "Acne",
+  "conditionSlug": "acne-treatment-online",
+  "pageTitle": "Acne Treatment Online in {state} | Acne Vulgaris MD Video Visit | TeleDirectMD",
+  "metaDescription": "Evidence-based acne treatment for {state} adults by secure video visit. Photo-based assessment, guideline-based prescriptions including retinoids and antibiotics, and clear follow-up. Self pay option starting at $49. Insurance is not required.",
+  "ogImageAlt": "Acne treatment in {state} by TeleDirectMD",
+
+  "hero": {
+    "h1": "Acne Treatment in {state} (Acne Vulgaris)",
+    "subtitle": "{state} adult care by secure video visit, self pay option starting at $49, MD-only, insurance is not required.",
+    "introParagraph": "Acne vulgaris is a chronic inflammatory condition of the pilosebaceous units that affects most people at some point in their lives and commonly persists into adulthood. Photo-based assessment is highly effective for acne diagnosis and severity grading, making telehealth a well-suited platform for evaluation and treatment. Not every breakout requires the same approach, and the AAD 2024 guidelines emphasize combining multiple mechanisms of action and tailoring treatment to severity. TeleDirectMD uses a structured evaluation that reviews photos, symptom history, prior treatments, scarring risk, and relevant medical history before recommending a treatment plan. Mild to moderate acne is fully manageable via telehealth, while severe nodulocystic acne or cases requiring isotretinoin are directed to in-person dermatology. Treatment typically takes 6 to 12 weeks to show meaningful results, and realistic expectations are an important part of the plan. This page is for adults located in {state}, including {cities}.",
+    "tocLinks": [
+      { "href": "eligibility-checklist", "label": "Eligibility checklist" },
+      { "href": "decision-guide", "label": "Decision guide" },
+      { "href": "treatment-options", "label": "Treatment options" },
+      { "href": "faq", "label": "FAQs" },
+      { "href": "references", "label": "References" }
+    ],
+    "benefits": [
+      "Self pay option starting at $49",
+      "MD-only care (no mid-levels)",
+      "Insurance is not required",
+      "Licensed telehealth care for patients located in {state} at the time of the visit"
+    ],
+    "sideCard": {
+      "h2": "Online MD-Only Acne Care in {state}",
+      "features": [
+        "Photo-based acne assessment and severity grading",
+        "Guideline-based treatment plans tailored to your acne type",
+        "Prescriptions for topical retinoids, benzoyl peroxide, and oral antibiotics when appropriate",
+        "Clear follow-up timeline and realistic expectations for improvement"
+      ],
+      "note": "Adults 18+ only. TeleDirectMD is not an emergency service. TeleDirectMD does not prescribe isotretinoin (Accutane) or controlled substances. Severe nodulocystic acne, acne with significant scarring, or cases requiring isotretinoin should be evaluated by a dermatologist in person."
+    },
+    "icd10Display": "L70.0, L70.1, L70.9 (final coding depends on clinical details)"
+  },
+
+  "eligibility": {
+    "sectionTitle": "Acne Telehealth Eligibility Checklist for {state}",
+    "introText": "You are likely eligible for a TeleDirectMD video visit if ALL of these are true:",
+    "eligible": [
+      "You are 18 years old or older",
+      "You are physically located in {state} at the time of the visit",
+      "You have acne breakouts on the face, chest, or back that you would like evaluated",
+      "You can provide clear photos of your skin during the video visit",
+      "You are not currently pregnant or planning pregnancy in the immediate future (some acne treatments are contraindicated in pregnancy)",
+      "You are not currently taking isotretinoin or enrolled in the iPLEDGE program",
+      "Insurance is not required. A self pay option is available."
+    ],
+    "notEligible": [
+      "You are under 18 years old",
+      "You have severe nodulocystic acne with large painful nodules or draining abscesses",
+      "You have significant acne scarring that requires procedural treatment",
+      "You need isotretinoin (Accutane), which requires in-person management and iPLEDGE enrollment",
+      "You are pregnant or planning pregnancy and need acne treatment (limited medication options require in-person counseling)",
+      "You have acne with signs of an underlying hormonal disorder that needs workup",
+      "You have a skin condition that may not be acne and needs in-person evaluation or biopsy"
+    ],
+    "notEligibleDisclaimer": "If you have severe or complicated acne, or need isotretinoin, seek in-person dermatology care. TeleDirectMD is not appropriate for isotretinoin management."
+  },
+
+  "howItWorks": {
+    "sectionTitle": "How Online Acne Treatment Works in {state}",
+    "steps": [
+      {
+        "type": "check",
+        "title": "Book your video visit",
+        "description": "Insurance is not required. No referral needed. Many visits are available same day, depending on scheduling. Before your visit, note how long you have had acne, which areas are affected, what treatments you have tried before, your current skin care routine, any medications you take, allergies, and whether pregnancy is a consideration."
+      },
+      {
+        "type": "check",
+        "title": "See a {state} licensed MD by video",
+        "description": "We review photos of your skin to assess acne type and severity, including comedones, papules, pustules, and any nodular or cystic lesions. The MD evaluates your prior treatment history, scarring risk, hormonal patterns, current medications, and allergies to develop a treatment plan based on AAD 2024 guidelines."
+      },
+      {
+        "type": "good",
+        "title": "Get a treatment plan and, if appropriate, a prescription",
+        "description": "If medication is clinically appropriate, we send an e-prescription to common {state} pharmacies such as {pharmacies}. You receive a clear treatment plan with realistic expectations for improvement (typically 6 to 12 weeks), instructions for managing side effects, and guidance on when to follow up or seek in-person dermatology care.",
+        "showCta": true
+      }
+    ]
+  },
+
+  "telehealthRegulations": {
+    "sectionTitle": "{state} Telehealth Regulations for Online Acne Care",
+    "paragraphs": [
+      "{telehealthRegulation}",
+      "Location matters: you must be physically in {state} during the visit. Insurance is not required. TeleDirectMD does not prescribe controlled substances."
+    ]
+  },
+
+  "comparisonTable": {
+    "sectionTitle": "TeleDirectMD vs Other Care Options for Acne in {state}",
+    "intro": "Here is how TeleDirectMD compares to common settings for adult acne care in {state}:",
+    "rows": [
+      {
+        "option": "TeleDirectMD",
+        "cost": "Self pay option starting at $49",
+        "wait": "Same day, often within hours",
+        "provider": "Board-certified MD only (no mid-levels)",
+        "bestFor": "Mild to moderate acne with photo-based assessment, guideline-based prescriptions, and structured follow-up",
+        "highlight": true
+      },
+      {
+        "option": "Urgent Care",
+        "cost": "$150 to $300+ (before insurance)",
+        "wait": "1 to 3 hours typical",
+        "provider": "MD, DO, PA, or NP",
+        "bestFor": "Acne with acute painful abscess or secondary skin infection needing in-person drainage",
+        "highlight": false
+      },
+      {
+        "option": "Primary Care",
+        "cost": "$100 to $250+ (varies)",
+        "wait": "3 to 14 days typical",
+        "provider": "Family medicine or internal medicine MD or DO",
+        "bestFor": "Acne with suspected hormonal cause needing broader workup, or combined visit with other health concerns",
+        "highlight": false
+      },
+      {
+        "option": "Dermatology",
+        "cost": "$150 to $400+ (varies)",
+        "wait": "Weeks to months (varies)",
+        "provider": "Dermatologist MD or DO",
+        "bestFor": "Severe nodulocystic acne, isotretinoin management, acne scarring treatment, or cases failing standard therapy",
+        "highlight": false
+      },
+      {
+        "option": "Online Subscription Services",
+        "cost": "$20 to $50+ per month (recurring)",
+        "wait": "Varies",
+        "provider": "Varies (often NP or PA, may not include video visit)",
+        "bestFor": "Convenience for some, but may lack individualized MD evaluation, severity-based triage, and structured follow-up",
+        "highlight": false
+      }
+    ],
+    "bottomLine": "TeleDirectMD is a strong fit for mild to moderate adult acne with photo-based assessment, evidence-based prescriptions, and direct MD evaluation without long dermatology wait times."
+  },
+
+  "decisionGuide": {
+    "sectionTitle": "Should I Use TeleDirectMD for Acne in {state}? Decision Guide",
+    "steps": [
+      {
+        "type": "urgent",
+        "title": "Do you have any severe or complicated features?",
+        "items": [
+          "Large painful nodules or cysts with draining abscesses",
+          "Significant acne scarring that is worsening",
+          "Previous isotretinoin use or current need for isotretinoin",
+          "Suspected underlying hormonal disorder with irregular periods, excess hair growth, or other systemic symptoms",
+          "Skin findings that may not be acne (unusual distribution, medication rash, or rosacea)"
+        ],
+        "yesAction": "If yes, seek in-person dermatology or primary care evaluation",
+        "noAction": "If no, continue to Step 2"
+      },
+      {
+        "type": "check",
+        "title": "Are you 18+ and currently in {state}?",
+        "items": [],
+        "yesAction": "If yes, continue to Step 3",
+        "noAction": "If no, use in-person care as appropriate"
+      },
+      {
+        "type": "check",
+        "title": "Does your acne fit the mild to moderate range?",
+        "items": [
+          "Blackheads, whiteheads, or small red bumps on the face, chest, or back",
+          "Occasional pustules or inflammatory papules",
+          "No large painful nodules or cysts",
+          "You can provide clear photos of your skin during the visit"
+        ],
+        "yesAction": "If yes, continue to Step 4",
+        "noAction": "If no or you are unsure about your skin condition, in-person evaluation is often preferred"
+      },
+      {
+        "type": "good",
+        "title": "You are likely appropriate for a TeleDirectMD video visit",
+        "description": "TeleDirectMD can assess your acne via photo review, determine the severity, recommend guideline-based treatment including topical and oral medications when appropriate, and set realistic expectations for improvement. If your acne is severe or requires isotretinoin, we will direct you to in-person dermatology care.",
+        "items": [],
+        "showCta": true
+      }
+    ]
+  },
+
+  "pricing": {
+    "sectionTitle": "What Does Acne Treatment Cost in {state}?",
+    "subtitle": "Transparent options. Insurance is not required.",
+    "visitPrice": "$49",
+    "priceSubtext": "Self pay option. Insurance is not required.",
+    "includes": [
+      "MD evaluation with photo-based acne assessment",
+      "Severity grading and treatment plan based on AAD guidelines",
+      "Prescription for topical and oral medications when clinically appropriate",
+      "Realistic timeline for improvement and side effect management guidance",
+      "Clear follow-up steps and dermatology referral criteria"
+    ],
+    "comparisonBars": [
+      { "name": "TeleDirectMD", "value": "$49", "width": 12, "isTdmd": true },
+      { "name": "Primary Care", "value": "$100 to $250+", "width": 45, "isTdmd": false },
+      { "name": "Dermatology", "value": "$150 to $400+", "width": 65, "isTdmd": false },
+      { "name": "Online Subscriptions", "value": "$20 to $50+/mo recurring", "width": 40, "isTdmd": false }
+    ],
+    "footnote": "Prescription costs at your pharmacy are separate and vary by medication and pharmacy.",
+    "noHiddenFees": "No hidden fees. If medication is not clinically appropriate, you still receive a complete evaluation, guidance, and clear instructions on what level of care you need next."
+  },
+
+  "whatIsCondition": {
+    "sectionTitle": "What Is Acne?",
+    "paragraphs": [
+      "Acne vulgaris is a chronic inflammatory skin condition that occurs when hair follicles and their associated oil glands (pilosebaceous units) become clogged with dead skin cells and excess sebum. Bacteria, particularly Cutibacterium acnes, contribute to inflammation within these clogged pores, resulting in the comedones, papules, pustules, nodules, and cysts that characterize acne.",
+      "Acne is extremely common. It affects up to 85 percent of people between ages 12 and 24, and adult acne is increasingly recognized as a significant concern, particularly in women. Acne ranges from mild comedonal disease (blackheads and whiteheads) to severe nodulocystic disease that can cause permanent scarring. The AAD 2024 guidelines emphasize severity-based treatment selection, combining multiple mechanisms of action, and limiting systemic antibiotic duration to reduce resistance.",
+      "TeleDirectMD focuses on mild to moderate adult acne that is well-suited for photo-based telehealth assessment, with structured evaluation to identify cases that need in-person dermatology referral for isotretinoin, procedural treatment, or evaluation of underlying hormonal conditions."
+    ]
+  },
+
+  "causesAndRiskFactors": {
+    "sectionTitle": "Causes and Risk Factors",
+    "intro": "Acne develops through four main pathogenic factors: excess sebum production, abnormal follicular keratinization (clogged pores), Cutibacterium acnes colonization, and inflammation. Understanding these causes and individual risk factors helps guide treatment selection.",
+    "items": [
+      { "label": "Hormonal fluctuations:", "text": "androgens stimulate sebum production, which is why acne often worsens during puberty, menstrual cycles, polycystic ovary syndrome, and hormonal transitions. Hormonal acne in adult women often presents along the jawline and lower face." },
+      { "label": "Genetics:", "text": "family history of acne is a strong predictor of severity and persistence. Patients with a strong family history may develop acne earlier and may be more likely to need aggressive treatment." },
+      { "label": "Skin care products and cosmetics:", "text": "oil-based or comedogenic products can worsen acne by further clogging pores. Switching to non-comedogenic products is an important part of any acne treatment plan." },
+      { "label": "Medications:", "text": "certain medications including corticosteroids, lithium, some anticonvulsants, and androgenic hormones can trigger or worsen acne. A thorough medication review is part of the evaluation." },
+      { "label": "Stress:", "text": "psychological stress can worsen acne through increased cortisol and androgen production, and stress-related skin picking can compound the problem." }
+    ],
+    "closing": "Not every bump or breakout is acne vulgaris. Rosacea, folliculitis, perioral dermatitis, medication reactions, and fungal infections can mimic acne. TeleDirectMD uses photo review, symptom history, and clinical reasoning to distinguish acne from look-alike conditions and to direct atypical presentations to in-person evaluation."
+  },
+
+  "symptomsAndRedFlags": {
+    "sectionTitle": "Symptoms and Red Flags for Acne in {state}",
+    "intro": "Use this table to understand which acne presentations are appropriate for telehealth and which may need in-person evaluation.",
+    "headers": ["Symptom or situation", "What it suggests", "Telehealth appropriate?", "Red flag requiring in-person care"],
+    "rows": [
+      ["Blackheads and whiteheads (comedones) on face, chest, or back", "Mild comedonal acne", "Yes", "Rarely a red flag unless distribution is unusual"],
+      ["Small red bumps and occasional pustules", "Mild to moderate inflammatory acne", "Yes", "If widespread or rapidly worsening despite treatment"],
+      ["Deeper red bumps that are tender to touch", "Moderate papulopustular acne", "Often yes", "If evolving into large nodules or cysts"],
+      ["Large painful nodules or cysts under the skin", "Severe nodulocystic acne", "Sometimes for initial assessment", "Dermatology referral for isotretinoin consideration"],
+      ["Acne with worsening scarring (pitted or raised scars)", "Scarring acne needing more aggressive treatment", "Sometimes", "In-person dermatology for procedural and isotretinoin options"],
+      ["Facial flushing, prominent blood vessels, and bumps without comedones", "Possible rosacea rather than acne", "Sometimes", "May need in-person evaluation to confirm diagnosis and guide treatment"],
+      ["Acne with irregular periods, excess facial hair, or hair thinning", "Possible underlying hormonal disorder such as PCOS", "Sometimes for initial discussion", "In-person evaluation with labs for hormonal workup"]
+    ]
+  },
+
+  "differentialDiagnosis": {
+    "sectionTitle": "Differential Diagnosis: Acne vs Other Conditions",
+    "intro": "Several skin conditions can look like acne, and accurate diagnosis matters because treatments differ. TeleDirectMD uses photo-based assessment and clinical history to identify classic acne vulgaris and to direct atypical presentations to in-person evaluation.",
+    "telehealthAppropriate": {
+      "title": "Sometimes Appropriate for Telehealth",
+      "items": [
+        "Classic comedonal acne with blackheads and whiteheads on typical distribution areas",
+        "Mild to moderate inflammatory acne with papules and pustules",
+        "Adult acne in women with hormonal pattern along the jawline",
+        "Acne that has not responded to over-the-counter products and needs prescription-strength treatment",
+        "Follow-up assessment to evaluate treatment response via updated photos"
+      ]
+    },
+    "requiresInPerson": {
+      "title": "Often Requires In-Person Evaluation",
+      "items": [
+        "Severe nodulocystic acne requiring isotretinoin or procedural drainage",
+        "Atypical distribution or appearance suggesting rosacea, folliculitis, or perioral dermatitis",
+        "Suspected hormonal disorder with systemic symptoms needing laboratory evaluation",
+        "Acne with significant scarring requiring procedural treatment such as chemical peels, laser, or microneedling",
+        "Skin findings with biopsy consideration to rule out other conditions"
+      ]
+    },
+    "compareCards": [
+      {
+        "title": "Acne vs Rosacea",
+        "text": "Acne vulgaris presents with comedones (blackheads and whiteheads), papules, and pustules, often starting in adolescence. Rosacea causes facial redness, flushing, visible blood vessels, and bumps without comedones, and typically starts after age 30. The two conditions can coexist, but treatment differs significantly. The presence or absence of comedones is one of the most reliable distinguishing features."
+      },
+      {
+        "title": "Acne vs Folliculitis",
+        "text": "Acne involves the pilosebaceous unit and often produces comedones along with inflammatory lesions in typical areas (face, chest, upper back). Folliculitis is infection of hair follicles that can occur anywhere on the body, often appears as small uniform pustules centered on hair follicles, and may be caused by bacteria, fungi, or irritation. Folliculitis tends to resolve with different treatments than acne."
+      }
+    ],
+    "closing": "If your skin condition does not match typical acne vulgaris or does not respond to standard treatment, TeleDirectMD will direct you to in-person dermatology evaluation."
+  },
+
+  "telehealthEligibility": {
+    "sectionTitle": "When Is a Video Visit Appropriate?",
+    "appropriate": {
+      "title": "When a Video Visit Is Appropriate",
+      "items": [
+        "Mild to moderate acne with comedones, papules, or pustules on the face, chest, or back",
+        "Ability to provide clear photos during the video visit",
+        "Interested in starting or adjusting prescription acne treatment",
+        "Over-the-counter products have not provided adequate improvement",
+        "Not currently pregnant or planning pregnancy in the immediate future",
+        "Located in {state} at time of visit"
+      ]
+    },
+    "redFlags": {
+      "title": "Situations Requiring In-Person or Specialist Care",
+      "items": [
+        "Severe nodulocystic acne with large painful cysts or draining abscesses",
+        "Need for isotretinoin (requires iPLEDGE program and in-person monitoring)",
+        "Significant acne scarring that may benefit from procedural treatments",
+        "Suspected underlying hormonal disorder needing laboratory evaluation",
+        "Skin condition that may not be acne and needs biopsy or closer in-person examination",
+        "Pregnancy or planned pregnancy with active acne (limited safe medication options)"
+      ],
+      "disclaimer": "If you have severe acne or need isotretinoin, seek in-person dermatology care. TeleDirectMD does not prescribe isotretinoin."
+    }
+  },
+
+  "treatmentOptions": {
+    "sectionTitle": "Treatment Options",
+    "intro": "Acne treatment is severity-based and typically involves combining multiple mechanisms of action. The AAD 2024 guidelines strongly recommend topical retinoids and benzoyl peroxide as foundational therapy, with oral antibiotics added for moderate disease and isotretinoin reserved for severe or refractory cases. Treatment takes 6 to 12 weeks to show meaningful improvement, and consistent use is essential.",
+    "sections": [
+      {
+        "title": "Mild acne (comedonal)",
+        "text": "First-line treatment for mild acne includes a topical retinoid such as adapalene 0.1 percent gel combined with benzoyl peroxide. Topical retinoids normalize follicular keratinization and prevent new comedone formation, while benzoyl peroxide kills bacteria and helps prevent antibiotic resistance. This combination is a strong recommendation in the AAD 2024 guidelines."
+      },
+      {
+        "title": "Moderate acne (papulopustular)",
+        "text": "For moderate inflammatory acne, the AAD recommends adding either a topical antibiotic such as clindamycin (always paired with benzoyl peroxide to prevent resistance) or oral doxycycline 50 to 100 mg daily to the topical retinoid and benzoyl peroxide foundation. Oral antibiotic courses should be limited to 3 to 6 months to reduce resistance risk, with transition to topical maintenance therapy after improvement. Azelaic acid and topical clascoterone are conditional alternatives."
+      },
+      {
+        "title": "Hormonal acne in women",
+        "text": "For adult women with hormonal acne patterns, spironolactone 50 to 200 mg daily and combined oral contraceptives are conditional recommendations in the AAD guidelines. These options target androgen-driven sebum production and are often used alongside topical therapy. TeleDirectMD can discuss these options when appropriate."
+      },
+      {
+        "title": "Severe or refractory acne",
+        "text": "Severe nodulocystic acne or acne that fails standard oral and topical therapy is a strong indication for isotretinoin. TeleDirectMD does not prescribe isotretinoin, as it requires enrollment in the iPLEDGE program, regular laboratory monitoring, and in-person follow-up. Patients with severe acne will be directed to in-person dermatology."
+      }
+    ],
+    "doesNotManage": [
+      "Isotretinoin (Accutane) prescribing or iPLEDGE program management",
+      "Procedural acne treatments such as chemical peels, laser therapy, or extraction",
+      "Acne scarring requiring in-office procedural treatment",
+      "Suspected hormonal disorders needing laboratory evaluation and specialist workup",
+      "Acne in pregnancy requiring careful in-person medication counseling"
+    ]
+  },
+
+  "medications": {
+    "sectionTitle": "Common Medication Options",
+    "intro": "These are common examples based on acne severity. The actual medication, dose, and combination are determined by the MD after reviewing your photos, severity, prior treatment history, skin sensitivity, allergies, and relevant medical history.",
+    "headers": ["Medication", "Typical use", "Category", "Key considerations"],
+    "rows": [
+      ["Adapalene 0.1% gel (Differin)", "Apply a thin layer to affected areas once nightly", "Topical retinoid", "Cornerstone of acne treatment. Normalizes pore shedding and prevents comedone formation. Mild skin irritation and dryness are common early on and typically improve over weeks. Use sunscreen daily. Available OTC and by prescription."],
+      ["Benzoyl peroxide 2.5 to 5% (various)", "Apply once or twice daily to affected areas", "Topical antimicrobial", "Kills acne-causing bacteria and prevents antibiotic resistance. Should always be used alongside any antibiotic (topical or oral). Can bleach fabrics. Start with lower concentration to reduce irritation."],
+      ["Clindamycin 1% topical (gel, lotion, or solution)", "Apply once or twice daily to affected areas", "Topical antibiotic", "Used for inflammatory papules and pustules. Must be paired with benzoyl peroxide to prevent bacterial resistance. Often available in a combination product with benzoyl peroxide."],
+      ["Doxycycline 50 to 100 mg by mouth daily", "Take daily with food and plenty of water", "Oral antibiotic", "Used for moderate inflammatory acne. Limit course to 3 to 6 months per AAD guidelines. Always pair with topical benzoyl peroxide to reduce resistance. Avoid in pregnancy. Can cause sun sensitivity and esophageal irritation."],
+      ["Spironolactone 50 to 100 mg by mouth daily", "Take once or twice daily", "Hormonal therapy (females only)", "Used for hormonal acne in adult women. Reduces androgen-driven sebum production. Not for use in males or during pregnancy. Potassium monitoring may be needed."],
+      ["Azelaic acid 15% gel", "Apply twice daily to affected areas", "Topical anti-inflammatory", "Alternative for patients who cannot tolerate retinoids or benzoyl peroxide. Also helps with post-inflammatory hyperpigmentation. Safe in pregnancy (category B). Mild burning or stinging is common."]
+    ],
+    "note": "Example regimens only. The actual medication, dosing, and combination are determined by the MD after reviewing your photos, prior treatments, skin type, allergies, and medical history. TeleDirectMD does not prescribe isotretinoin or controlled substances."
+  },
+
+  "homeCare": {
+    "sectionTitle": "Home Care, Timeline, Skin Care, and Follow-up",
+    "whatToDoNow": {
+      "title": "Timeline and What to Do Now",
+      "items": [
+        "Most acne treatments take 6 to 12 weeks to show meaningful improvement. Do not stop treatment early if results are not immediate.",
+        "Mild skin irritation, dryness, and peeling are common in the first 2 to 4 weeks of retinoid and benzoyl peroxide use and typically improve as your skin adjusts",
+        "Wash your face gently twice daily with a mild, non-comedogenic cleanser. Avoid scrubbing or harsh exfoliants.",
+        "Use an oil-free, non-comedogenic moisturizer if your skin becomes dry from treatment",
+        "Apply sunscreen daily (SPF 30 or higher) as retinoids and doxycycline increase sun sensitivity"
+      ]
+    },
+    "whatToWatch": {
+      "title": "What to Watch For During Treatment",
+      "items": [
+        "A mild initial flare of acne is common in the first few weeks of retinoid use and does not mean the treatment is failing",
+        "If irritation is severe (painful redness, cracking, or blistering), reduce application frequency or contact your provider",
+        "If you develop a widespread rash, hives, or swelling, stop the medication and seek care",
+        "If acne worsens significantly after 8 to 12 weeks of consistent treatment, follow-up is recommended to reassess the plan"
+      ]
+    },
+    "followUp": {
+      "title": "Skin Care Habits and Follow-up",
+      "items": [
+        "Avoid picking, squeezing, or popping acne lesions, as this increases scarring and infection risk",
+        "Switch to non-comedogenic makeup, sunscreen, and moisturizer products",
+        "Change pillowcases frequently and clean items that touch your face regularly",
+        "After acne clears, continue a maintenance regimen with a topical retinoid to prevent relapse, as recommended by AAD guidelines",
+        "If acne is not improving after 12 weeks of consistent prescribed treatment, follow up with your provider or seek dermatology referral"
+      ]
+    }
+  },
+
+  "whenNotToUse": {
+    "sectionTitle": "When Not to Use TeleDirectMD for Acne in {state}",
+    "intro": "TeleDirectMD is designed for mild to moderate adult acne. We are direct about when telehealth is not the right fit.",
+    "shouldNotUse": {
+      "title": "You Should Not Use TeleDirectMD If",
+      "items": [
+        "You are under 18 years old",
+        "You have severe nodulocystic acne with large painful cysts or abscesses",
+        "You need isotretinoin (Accutane) or are currently enrolled in the iPLEDGE program",
+        "You have significant acne scarring that needs procedural treatment",
+        "You are pregnant or planning pregnancy and need acne treatment",
+        "You have suspected hormonal disorder with systemic symptoms needing laboratory workup",
+        "Your skin condition may not be acne and needs in-person examination or biopsy",
+        "You are not physically in {state} at the time of visit"
+      ]
+    },
+    "alternatives": {
+      "title": "Alternative Care Options",
+      "items": [
+        { "label": "Dermatology:", "text": "severe nodulocystic acne, isotretinoin management, acne scarring treatment, atypical presentations, or treatment-resistant cases" },
+        { "label": "Primary care:", "text": "acne with suspected hormonal disorder needing workup, combined visits with other health concerns, or ongoing medication management" },
+        { "label": "Urgent care:", "text": "acne with acute painful abscess needing drainage or secondary bacterial infection with spreading redness and fever" },
+        { "label": "OB/GYN:", "text": "hormonal acne management combined with contraceptive counseling or PCOS evaluation" }
+      ]
+    }
+  },
+
+  "faq": {
+    "sectionTitle": "Acne Treatment FAQs for {state}",
+    "items": [
+      {
+        "question": "Can I get a prescription for acne online in {state}?",
+        "answer": "Yes, if you are an adult 18+ located in {state} and your acne is appropriate for telehealth after photo assessment. TeleDirectMD can prescribe topical retinoids, benzoyl peroxide, topical antibiotics, oral antibiotics, and other guideline-based treatments when clinically appropriate. TeleDirectMD does not prescribe isotretinoin."
+      },
+      {
+        "question": "How much does online acne treatment cost in {state}?",
+        "answer": "TeleDirectMD offers a transparent self pay option starting at $49 for an adult video visit in {state}. Insurance is not required. Prescription costs at your pharmacy are separate and vary by medication and pharmacy."
+      },
+      {
+        "question": "Can a doctor diagnose acne without an in-person exam?",
+        "answer": "Yes. Photo-based assessment is highly accurate for acne diagnosis and severity grading. Acne has distinctive features including comedones, papules, pustules, and characteristic distribution on the face, chest, and back. The MD reviews your photos during the video visit to confirm the diagnosis and assess severity. If the presentation is atypical or uncertain, an in-person exam may be recommended."
+      },
+      {
+        "question": "How long does it take for acne treatment to work?",
+        "answer": "Most acne treatments take 6 to 12 weeks to show meaningful improvement. A mild initial flare is common in the first few weeks of retinoid use and does not mean the treatment is failing. Consistency is essential. Do not stop treatment early because results are not immediate. If there is no improvement after 12 weeks of consistent use, follow-up is recommended to adjust the plan."
+      },
+      {
+        "question": "Why does TeleDirectMD not prescribe isotretinoin (Accutane)?",
+        "answer": "Isotretinoin requires enrollment in the iPLEDGE risk management program, regular in-person laboratory monitoring, pregnancy testing, and close follow-up due to significant potential side effects. These requirements make isotretinoin management inappropriate for telehealth. If your acne is severe enough to warrant isotretinoin, TeleDirectMD will recommend in-person dermatology care."
+      },
+      {
+        "question": "What if my acne is hormonal?",
+        "answer": "Hormonal acne in adult women often presents along the jawline and lower face with deep, tender bumps that worsen around menstrual periods. TeleDirectMD can discuss hormonal treatment options such as spironolactone when appropriate. If your acne is accompanied by irregular periods, excess hair growth, or other systemic symptoms suggesting PCOS or another hormonal disorder, in-person evaluation with laboratory testing may be recommended."
+      },
+      {
+        "question": "Does TeleDirectMD treat acne in other states?",
+        "answer": "Yes. TeleDirectMD offers adult evaluations via video visits across multiple states where our physicians are licensed. You must be physically located in the state where you are requesting care at the time of your video visit."
+      },
+      {
+        "question": "Does {state} allow telemedicine for this kind of visit?",
+        "answer": "Yes. {state} allows licensed professionals to provide telemedicine within their scope when appropriate and according to accepted standards of care."
+      },
+      {
+        "question": "Can I use my insurance for a TeleDirectMD visit?",
+        "answer": "Insurance is not required. If your plan is eligible, you may be able to use insurance. A self pay option is also available."
+      },
+      {
+        "question": "What if over-the-counter products have not helped my acne?",
+        "answer": "Many people try over-the-counter products without seeing adequate results because the products may not be the right strength, combination, or type for their acne severity. Prescription-strength retinoids, topical antibiotic and benzoyl peroxide combinations, and oral antibiotics for moderate acne are often significantly more effective than OTC products alone. TeleDirectMD can evaluate your acne and determine whether prescription treatment is appropriate."
+      }
+    ],
+    "bottomCta": {
+      "title": "Need help today?",
+      "text": "Insurance is not required. Adult-only video visits. MD-only care. Photo-based acne assessment, guideline-based prescriptions when appropriate, and clear next steps."
+    }
+  },
+
+  "references": [
+    { "text": "AAD Guidelines of Care for the Management of Acne Vulgaris (2024 Update)", "url": "https://www.jaad.org/article/S0190-9622(23)03047-6/fulltext" },
+    { "text": "Acne Vulgaris: Diagnosis and Treatment, American Family Physician (2024)", "url": "https://www.aafp.org/pubs/afp/issues/2024/0100/acne-vulgaris.html" },
+    { "text": "Acne Vulgaris, StatPearls (2025)", "url": "https://www.ncbi.nlm.nih.gov/books/NBK459173/" },
+    { "text": "Pathogenesis, Clinical Manifestations, and Diagnosis of Acne Vulgaris, UpToDate", "url": "https://www.uptodate.com/contents/pathogenesis-clinical-manifestations-and-diagnosis-of-acne-vulgaris" },
+    { "text": "FDA Prescribing Information for Adapalene Gel 0.1%", "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2018/020380s009lbl.pdf" },
+    { "text": "Antibiotic Resistance in Acne Treatment, British Journal of Dermatology", "url": "https://academic.oup.com/bjd/article/191/3/326/7513078" }
+  ],
+
+  "disclaimer": {
+    "sectionTitle": "TeleDirectMD Telehealth Disclaimer",
+    "paragraphs": [
+      "TeleDirectMD provides MD-only virtual urgent care for adults (18+) in {state} using secure video visits to evaluate acne, provide evidence-based guidance, and prescribe topical and oral treatment when clinically appropriate. Insurance is not required. You must be physically located in {state} at the time of your video visit. TeleDirectMD does not prescribe isotretinoin or controlled substances.",
+      "TeleDirectMD is not an emergency service and is not a replacement for in-person dermatology care when isotretinoin, procedural treatment, or comprehensive hormonal evaluation is needed. This service is intended for mild to moderate acne vulgaris and is not a substitute for specialist care when severe or complicated features are present.",
+      "Online acne treatment in {state}. Acne prescription online. Acne vulgaris treatment by video visit."
+    ]
+  },
+
+  "relatedConditions": [
+    {
+      "slug": "eczema-treatment-online",
+      "title": "Eczema",
+      "description": "Another common skin condition manageable via photo-based telehealth evaluation"
+    },
+    {
+      "slug": "cold-sore-treatment-online",
+      "title": "Cold Sore",
+      "description": "Viral skin condition treated with antiviral prescriptions by video visit"
+    },
+    {
+      "slug": "yeast-infection-treatment-online",
+      "title": "Yeast Infection",
+      "description": "Common condition evaluated and treated by MD video visit"
+    },
+    {
+      "slug": "uti-treatment-online",
+      "title": "UTI Treatment",
+      "description": "Another common acute condition with guideline-based telehealth treatment"
+    }
+  ],
+
+  "inlineLinks": [
+    { "slug": "eczema-treatment-online", "label": "Eczema" },
+    { "slug": "cold-sore-treatment-online", "label": "Cold Sore" },
+    { "slug": "genital-herpes-treatment-online", "label": "Genital Herpes" },
+    { "slug": "sinus-infection-treatment-online", "label": "Sinus Infection" },
+    { "slug": "sore-throat-treatment-online", "label": "Sore Throat" },
+    { "slug": "pink-eye-treatment-online", "label": "Pink Eye" },
+    { "slug": "uti-treatment-online", "label": "UTI" },
+    { "slug": "yeast-infection-treatment-online", "label": "Yeast Infection" },
+    { "slug": "bv-treatment-online", "label": "Bacterial Vaginosis" },
+    { "slug": "birth-control-refills-online", "label": "Birth Control Refills" }
+  ],
+
+  "cityBlock": {
+    "title": "Adults We Serve Across {state}",
+    "text": "TeleDirectMD evaluates adults located throughout {state}, including {citiesExtended}. Whether you are searching for online acne treatment in {city1}, acne prescription online in {city2}, acne dermatology telehealth in {city3}, or telehealth acne evaluation anywhere else in {state}, the same telehealth eligibility and safety rules apply."
+  },
+
+  "icd10Codes": [
+    { "code": "L70.0", "description": "Acne vulgaris" },
+    { "code": "L70.1", "description": "Acne conglobata" },
+    { "code": "L70.9", "description": "Acne, unspecified" }
+  ],
+
+  "jsonLd": {
+    "conditionName": "Acne Vulgaris",
+    "conditionAlternateNames": ["Acne", "Acne vulgaris", "Pimples", "Breakouts", "Zits"],
+    "conditionDescription": "Acne vulgaris is a chronic inflammatory condition of the pilosebaceous units causing comedones, papules, pustules, and in severe cases nodules and cysts. TeleDirectMD evaluates adult acne by video visit with photo-based severity assessment, guideline-based treatment plans including topical retinoids, benzoyl peroxide, and oral antibiotics when appropriate, and clear referral criteria for severe cases needing in-person dermatology.",
+    "primaryIcd10": "L70.0",
+    "anatomy": "Skin (pilosebaceous units)",
+    "symptoms": ["Comedones (blackheads and whiteheads)", "Inflammatory papules", "Pustules", "Nodules", "Post-inflammatory hyperpigmentation"],
+    "riskFactors": [
+      "Hormonal fluctuations",
+      "Family history of acne",
+      "Comedogenic skin care products",
+      "Certain medications",
+      "Stress"
+    ],
+    "complications": [
+      "Acne scarring (atrophic and hypertrophic)",
+      "Post-inflammatory hyperpigmentation",
+      "Psychosocial impact and reduced quality of life",
+      "Secondary bacterial infection"
+    ],
+    "epidemiology": "Acne affects up to 85 percent of people between ages 12 and 24 and commonly persists into adulthood. It is one of the most common reasons for dermatology visits in the United States.",
+    "drugs": [
+      { "name": "Adapalene", "id": "adapalene" },
+      { "name": "Benzoyl peroxide", "id": "benzoyl-peroxide" },
+      { "name": "Clindamycin topical", "id": "clindamycin-topical" },
+      { "name": "Doxycycline", "id": "doxycycline" },
+      { "name": "Spironolactone", "id": "spironolactone" }
+    ],
+    "treatments": [
+      "Topical retinoid and benzoyl peroxide combination",
+      "Topical and oral antibiotic therapy when appropriate",
+      "Hormonal therapy for eligible patients",
+      "Dermatology referral for isotretinoin and procedural treatment"
+    ],
+    "tests": [
+      "Photo-based acne assessment and severity grading",
+      "Clinical history review including prior treatments and medication use"
+    ],
+    "specialties": ["Family Medicine", "Telemedicine", "Dermatology"],
+    "guidelines": [
+      { "name": "AAD Guidelines of Care for the Management of Acne Vulgaris (2024)", "url": "https://www.jaad.org/article/S0190-9622(23)03047-6/fulltext", "publisher": "American Academy of Dermatology", "id": "aad-acne-2024" },
+      { "name": "Acne Vulgaris: Diagnosis and Treatment, AAFP (2024)", "url": "https://www.aafp.org/pubs/afp/issues/2024/0100/acne-vulgaris.html", "publisher": "American Academy of Family Physicians", "id": "aafp-acne" },
+      { "name": "Acne Vulgaris, StatPearls", "url": "https://www.ncbi.nlm.nih.gov/books/NBK459173/", "publisher": "StatPearls Publishing", "id": "statpearls-acne" }
+    ],
+    "knowsAbout": [
+      "Acne treatment",
+      "Topical retinoid therapy",
+      "Antibiotic stewardship in acne",
+      "Photo-based dermatologic assessment",
+      "Hormonal acne management",
+      "Family Medicine"
+    ],
+    "serviceDescription": "Secure video visit for {state} adults with acne, including photo-based severity assessment, guideline-based treatment plans, prescriptions when clinically appropriate, and clear referral criteria for severe cases.",
+    "webpageDescription": "{state} acne treatment by secure MD video visit for adults. Evidence-based evaluation with photo assessment, severity-based treatment including retinoids, benzoyl peroxide, and oral antibiotics when appropriate, and clear guidance for when in-person dermatology is needed."
+  }
+}
