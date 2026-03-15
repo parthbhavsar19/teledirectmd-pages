@@ -1,0 +1,604 @@
+{
+  "conditionName": "Psoriasis Medication Refills",
+  "conditionShort": "psoriasis",
+  "conditionSlug": "psoriasis-refills-online",
+  "pageTitle": "Psoriasis Medication Refills Online in {state} | Topical Refill MD Video Visit | TeleDirectMD",
+  "metaDescription": "Evidence-based psoriasis medication refill care for {state} adults by secure video visit. Red-flag screening, topical prescription refill evaluation, and short bridge refills when appropriate. Self pay option starting at $49. Insurance is not required.",
+  "ogImageAlt": "Psoriasis medication refills in {state} by TeleDirectMD",
+
+  "hero": {
+    "h1": "Psoriasis Medication Refills in {state} (Topical Refill Care)",
+    "subtitle": "{state} adult care by secure video visit, self pay option starting at $49, MD-only, insurance is not required.",
+    "introParagraph": "Adults often search for online psoriasis medication refills when they are running low on a topical corticosteroid, vitamin D analog, or combination product but cannot get in to see their dermatologist quickly. Not every refill request is straightforward — some reflect worsening disease that needs escalation rather than a simple topical renewal. Psoriasis affects approximately 8 million Americans and most patients with mild to moderate plaque psoriasis can be managed effectively with topical therapy, according to AAD-NPF guidelines. TeleDirectMD uses a safety-first telemedicine approach by reviewing your current topical regimen, body surface area involvement, recent flare patterns, joint symptoms, signs of secondary infection, and whether this looks like a stable topical refill request or disease that has outgrown topical-only management. If the history supports a lower-risk bridge refill of established topical medication, treatment may be reasonable by video, while adults with erythrodermic psoriasis, pustular psoriasis, extensive disease covering more than 10 percent of body surface area, or joint involvement suggesting psoriatic arthritis are directed to in-person dermatology or rheumatology care. This page is for adults located in {state}, including {cities}.",
+    "tocLinks": [
+      { "href": "eligibility-checklist", "label": "Eligibility checklist" },
+      { "href": "decision-guide", "label": "Decision guide" },
+      { "href": "treatment-options", "label": "Treatment options" },
+      { "href": "faq", "label": "FAQs" },
+      { "href": "references", "label": "References" }
+    ],
+    "benefits": [
+      "Self pay option starting at $49",
+      "MD-only care (no mid-levels)",
+      "Insurance is not required",
+      "Licensed telehealth care for patients located in {state} at the time of the visit"
+    ],
+    "sideCard": {
+      "h2": "Online MD-Only Psoriasis Refill Care in {state}",
+      "features": [
+        "Topical psoriasis medication refill review for corticosteroids, vitamin D analogs, and combination products",
+        "Evidence-based safety screening for disease progression and psoriatic arthritis",
+        "Short bridge refills of established topical medications when clinically appropriate",
+        "Clear rules for when in-person dermatology or rheumatology care is needed"
+      ],
+      "note": "Adults 18+ only. TeleDirectMD is not an emergency service. Seek urgent in-person care now for widespread redness covering most of your body, widespread pustules with fever, rapidly spreading rash with systemic illness, or signs of secondary skin infection with fever and spreading warmth. TeleDirectMD does not prescribe controlled substances."
+    },
+    "icd10Display": "L40.0, L40.9 (final coding depends on clinical details)"
+  },
+
+  "eligibility": {
+    "sectionTitle": "Psoriasis Refill Telehealth Eligibility Checklist for {state}",
+    "introText": "You are likely eligible for a TeleDirectMD video visit if ALL of these are true:",
+    "eligible": [
+      "You are 18 years old or older",
+      "You are physically located in {state} at the time of the visit",
+      "You have a prior diagnosis of plaque psoriasis from a qualified clinician",
+      "You are requesting a refill of a topical medication you are already using for psoriasis",
+      "Your psoriasis is currently stable or near your usual baseline",
+      "Your disease involves less than approximately 10 percent of your body surface area",
+      "You do not have new joint pain, morning stiffness, or swollen fingers or toes",
+      "You can show or describe your current plaques and topical regimen",
+      "You want evidence-based refill guidance and clear escalation rules",
+      "Insurance is not required. A self pay option is available."
+    ],
+    "notEligible": [
+      "You are under 18 years old",
+      "You have widespread redness covering most of your body (possible erythrodermic psoriasis)",
+      "You have widespread pustules with fever or feeling systemically ill (possible pustular psoriasis)",
+      "Your psoriasis covers more than 10 percent of your body surface area and is not responding to topical therapy",
+      "You have new joint pain, swelling, or morning stiffness suggesting psoriatic arthritis",
+      "You have signs of secondary skin infection such as increased pain, warmth, pus, or spreading redness",
+      "You have never been diagnosed with psoriasis and need a full dermatologic evaluation",
+      "You need management of biologics, methotrexate, cyclosporine, or other systemic immunosuppressants"
+    ],
+    "notEligibleDisclaimer": "If you have red-flag symptoms, seek urgent in-person care or emergency care immediately. TeleDirectMD is not an emergency service."
+  },
+
+  "howItWorks": {
+    "sectionTitle": "How Online Psoriasis Medication Refills Work in {state}",
+    "steps": [
+      {
+        "type": "check",
+        "title": "Book your visit and prepare key details",
+        "description": "Before your video visit, gather the names and strengths of your current psoriasis topicals, note which body areas are affected, estimate what percentage of your skin is involved, and consider whether you have new joint symptoms. Photos of your current plaques are very helpful for the physician."
+      },
+      {
+        "type": "check",
+        "title": "See a {state} licensed MD by video",
+        "description": "We review your current topical regimen, body surface area involvement, recent flare history, joint symptom screening, and whether this looks like a stable topical refill request or disease progression needing escalation. AAD-NPF guidelines recommend topical corticosteroids as first-line therapy for mild to moderate plaque psoriasis, with steroid-sparing agents for sensitive areas and long-term maintenance."
+      },
+      {
+        "type": "good",
+        "title": "Get a short bridge plan and refills when appropriate",
+        "description": "If refill treatment is clinically appropriate, we send an e-prescription to common {state} pharmacies such as {pharmacies}. You also receive clear instructions about steroid rotation strategies, when your disease may be outgrowing topical-only management, and when in-person dermatology follow-up is needed.",
+        "showCta": true
+      }
+    ]
+  },
+
+  "telehealthRegulations": {
+    "sectionTitle": "{state} Telehealth Regulations for Online Psoriasis Refill Care",
+    "paragraphs": [
+      "{telehealthRegulation}",
+      "Location matters: you must be physically in {state} during the visit. Insurance is not required. TeleDirectMD does not prescribe controlled substances."
+    ]
+  },
+
+  "comparisonTable": {
+    "sectionTitle": "TeleDirectMD vs Other Care Options for Psoriasis Medication Refills in {state}",
+    "intro": "Here is how TeleDirectMD compares to common settings for adult psoriasis refill care in {state}:",
+    "rows": [
+      {
+        "option": "TeleDirectMD",
+        "cost": "Self pay option starting at $49",
+        "wait": "Same day, often within hours",
+        "provider": "Board-certified MD only (no mid-levels)",
+        "bestFor": "Stable topical psoriasis refill requests, bridge refills of established topical corticosteroids and vitamin D analogs, and short bridge care when appropriate",
+        "highlight": true
+      },
+      {
+        "option": "Urgent Care",
+        "cost": "$150 to $300+ (before insurance)",
+        "wait": "1 to 3 hours typical",
+        "provider": "MD, DO, PA, or NP",
+        "bestFor": "Same-day in-person evaluation when psoriasis appears infected or rapidly worsening",
+        "highlight": false
+      },
+      {
+        "option": "Emergency Room",
+        "cost": "$500 to $3,000+ (before insurance)",
+        "wait": "2 to 6 hours typical",
+        "provider": "Emergency medicine MD or DO",
+        "bestFor": "Erythrodermic psoriasis, widespread pustular psoriasis with systemic illness, or secondary infection with fever",
+        "highlight": false
+      },
+      {
+        "option": "Primary Care or Dermatology",
+        "cost": "$100 to $350+ (varies)",
+        "wait": "Days to weeks",
+        "provider": "MD or DO",
+        "bestFor": "Long-term psoriasis management, systemic therapy initiation, phototherapy, psoriatic arthritis evaluation, and comprehensive skin checks",
+        "highlight": false
+      }
+    ],
+    "bottomLine": "TeleDirectMD is a strong fit for selected adult psoriasis topical refill requests when the patient has stable mild to moderate plaque psoriasis and the visit is clearly a bridge refill rather than disease that has outgrown topical-only management or needs systemic therapy initiation."
+  },
+
+  "decisionGuide": {
+    "sectionTitle": "Should I Use TeleDirectMD for Psoriasis Medication Refills in {state}? Decision Guide",
+    "steps": [
+      {
+        "type": "urgent",
+        "title": "Do you have emergency warning signs?",
+        "items": [
+          "Widespread redness covering most of your body with pain and temperature instability",
+          "Widespread pustules with fever, chills, or feeling very ill",
+          "Signs of secondary skin infection with spreading redness, warmth, pus, and fever",
+          "Rapidly worsening rash that is spreading despite current treatment",
+          "New severe joint pain with significant swelling and inability to use affected joints"
+        ],
+        "yesAction": "If yes, go to urgent care or the ER now depending on severity",
+        "noAction": "If no, continue to Step 2"
+      },
+      {
+        "type": "check",
+        "title": "Are you 18+ and currently in {state}?",
+        "items": [],
+        "yesAction": "If yes, continue to Step 3",
+        "noAction": "If no, use in-person care as appropriate"
+      },
+      {
+        "type": "check",
+        "title": "Does this sound like a stable topical refill request?",
+        "items": [
+          "You have an established psoriasis diagnosis from a qualified clinician",
+          "You are requesting refill of a topical medication you already use",
+          "Your plaques are near your usual baseline and not rapidly expanding",
+          "You do not have new joint pain, swelling, or morning stiffness",
+          "Your disease involves less than approximately 10 percent of body surface area",
+          "You can describe your current topical regimen and how well it is working"
+        ],
+        "yesAction": "If yes, continue to Step 4",
+        "noAction": "If no, in-person dermatology evaluation is often preferred"
+      },
+      {
+        "type": "good",
+        "title": "You may be appropriate for a TeleDirectMD video visit",
+        "description": "You can receive short bridge refills of established topical psoriasis medications when clinically appropriate and clear follow-up instructions. If your disease appears to be progressing beyond what topicals can manage, or if you have joint symptoms, more formal dermatology or rheumatology evaluation may be safer than a routine refill visit.",
+        "items": [],
+        "showCta": true
+      }
+    ]
+  },
+
+  "pricing": {
+    "sectionTitle": "What Do Online Psoriasis Medication Refills Cost in {state}?",
+    "subtitle": "Transparent options. Insurance is not required.",
+    "visitPrice": "$49",
+    "priceSubtext": "Self pay option. Insurance is not required.",
+    "includes": [
+      "MD evaluation and red-flag screening",
+      "Psoriasis severity assessment and topical refill review",
+      "Short bridge topical refills when appropriate",
+      "Clear follow-up and escalation instructions"
+    ],
+    "comparisonBars": [
+      { "name": "TeleDirectMD", "value": "$49", "width": 12, "isTdmd": true },
+      { "name": "Primary Care or Dermatology", "value": "$100 to $350+", "width": 52, "isTdmd": false },
+      { "name": "Urgent Care", "value": "$150 to $300+", "width": 60, "isTdmd": false },
+      { "name": "Emergency Room", "value": "$500 to $3,000+", "width": 100, "isTdmd": false }
+    ],
+    "footnote": "Prescription costs are separate and vary by medication and pharmacy.",
+    "noHiddenFees": "No hidden fees. If medication is not clinically appropriate, you still receive a complete evaluation, guidance, and clear instructions on what level of care you need next."
+  },
+
+  "whatIsCondition": {
+    "sectionTitle": "What Is Psoriasis Refill Care?",
+    "paragraphs": [
+      "Psoriasis refill care means reviewing whether it is safe and appropriate to continue a patient's current topical psoriasis medications — such as topical corticosteroids, vitamin D analogs, calcineurin inhibitors, or combination products — when they are running low or out of medication. Psoriasis is a chronic, immune-mediated skin disease that causes red, scaly plaques most commonly on the elbows, knees, scalp, and lower back.",
+      "According to AAD-NPF guidelines, topical corticosteroids remain first-line therapy for mild to moderate plaque psoriasis, while steroid-sparing agents like calcipotriene and topical calcineurin inhibitors are important for sensitive areas and long-term rotation strategies to minimize steroid side effects. Most of the approximately 8 million Americans with psoriasis have mild to moderate disease that can be managed with topical therapy alone.",
+      "A safe telehealth refill depends on whether the patient's disease is stable at their usual baseline. Refill care is not the same thing as managing erythrodermic or pustular psoriasis, initiating systemic therapy, or evaluating new joint symptoms suggesting psoriatic arthritis."
+    ]
+  },
+
+  "causesAndRiskFactors": {
+    "sectionTitle": "Causes and Risk Factors",
+    "intro": "Adults request psoriasis medication refills for many reasons, but some refill requests actually reflect disease progression, inadequate control, new complications, or secondary infection rather than simple medication logistics.",
+    "items": [
+      { "label": "Running out of topical corticosteroid:", "text": "common reason for refill requests, especially high-potency steroids used on body plaques" },
+      { "label": "Running out of vitamin D analog or combination product:", "text": "interruption of calcipotriene or calcipotriene-betamethasone can lead to rebound flare" },
+      { "label": "Expanding body surface area:", "text": "plaques spreading beyond usual locations may signal disease progression beyond topical-only management" },
+      { "label": "Steroid overuse concerns:", "text": "prolonged high-potency steroid use can cause skin thinning, stretch marks, and tachyphylaxis, making rotation strategies important" },
+      { "label": "Scalp involvement worsening:", "text": "persistent scalp psoriasis not responding to medicated shampoos may need stronger topical or adjunctive therapy" },
+      { "label": "New joint symptoms:", "text": "joint pain, morning stiffness, or swollen digits may signal psoriatic arthritis requiring rheumatology referral" }
+    ],
+    "closing": "Not every refill request is a routine refill. Some are actually early warning signs that psoriasis management needs escalation to systemic therapy or specialist care rather than simple topical continuation."
+  },
+
+  "symptomsAndRedFlags": {
+    "sectionTitle": "Symptoms and Red Flags for Psoriasis Medication Refills in {state}",
+    "intro": "Use this table to understand which refill scenarios may fit short bridge telehealth care and which patterns suggest urgent in-person evaluation.",
+    "headers": ["Symptom or situation", "What it suggests", "Telehealth appropriate?", "Red flag requiring urgent in-person care"],
+    "rows": [
+      ["Needs refill of usual topical and plaques are stable at baseline", "Routine bridge refill request", "Often yes", "Rapid spread of plaques to new areas despite current treatment"],
+      ["Mild flare at a known plaque site responding to usual topical", "Expected psoriasis course with minor fluctuation", "Often yes", "Flare not responding to appropriate topical therapy after several weeks"],
+      ["Scalp psoriasis needing shampoo or topical refill", "Common maintenance refill request", "Often yes", "Severe scalp involvement with crusting, bleeding, or hair loss"],
+      ["Running low on calcipotriene or combination product", "Bridge refill may be reasonable if disease is stable", "Often yes", "Rebound flare after stopping vitamin D analog with expanding plaques"],
+      ["Widespread redness covering most of the body", "Possible erythrodermic psoriasis — dermatologic emergency", "No", "Seek urgent in-person or emergency dermatology care now"],
+      ["Widespread pustules with fever or systemic illness", "Possible pustular psoriasis — dermatologic emergency", "No", "Emergency evaluation now"],
+      ["New joint pain, morning stiffness, or swollen digits", "Possible psoriatic arthritis needing rheumatology evaluation", "Usually no for refill-only approach", "Severe joint symptoms with significant functional limitation"],
+      ["Signs of secondary skin infection at plaque sites", "Increased pain, warmth, pus, or spreading redness", "No", "In-person evaluation for possible cellulitis or infected psoriasis"]
+    ]
+  },
+
+  "differentialDiagnosis": {
+    "sectionTitle": "Differential Diagnosis and Complications",
+    "intro": "Scaly skin lesions are not always simple stable plaque psoriasis. Refill visits must separate lower-risk bridge refill requests from disease progression, secondary infection, and from other dermatologic conditions that can mimic psoriasis.",
+    "telehealthAppropriate": {
+      "title": "Sometimes Appropriate for Telehealth Bridge Guidance",
+      "items": [
+        "Stable plaque psoriasis needing topical corticosteroid or vitamin D analog refill",
+        "Short bridge refill of an established topical regimen",
+        "Questions about steroid rotation strategy or moisturizer use",
+        "Review of recent disease control to judge refill safety",
+        "Basic refill planning before follow-up with dermatology"
+      ]
+    },
+    "requiresInPerson": {
+      "title": "Often Requires In-Person Evaluation",
+      "items": [
+        "Erythrodermic psoriasis with widespread redness and hemodynamic instability",
+        "Pustular psoriasis with systemic symptoms",
+        "Disease covering more than 10 percent of body surface area not responding to topicals",
+        "New joint symptoms suggesting psoriatic arthritis",
+        "Signs of secondary skin infection at plaque sites",
+        "Uncertain diagnosis requiring biopsy or full dermatologic workup"
+      ]
+    },
+    "compareCards": [
+      {
+        "title": "Stable Topical Refill Need vs Disease Progression",
+        "text": "A stable refill request means plaques are near baseline and the goal is continuing current topical therapy. Disease progression is more likely when plaques are expanding to new areas, body surface area involvement is increasing, topicals no longer control symptoms, or joint complaints are emerging."
+      },
+      {
+        "title": "Plaque Psoriasis vs Other Scaly Dermatoses",
+        "text": "Not all scaly plaques are psoriasis. Eczema, tinea corporis, contact dermatitis, seborrheic dermatitis, and cutaneous T-cell lymphoma can mimic psoriasis. If the clinical picture does not fit typical plaque psoriasis or is not responding as expected, in-person dermatology evaluation including possible biopsy is appropriate."
+      },
+      {
+        "title": "Localized Mild Disease vs Erythrodermic or Pustular Psoriasis",
+        "text": "Mild to moderate plaque psoriasis affecting less than 10 percent of body surface area is manageable with topicals. Erythrodermic psoriasis (widespread redness covering most of the body) and pustular psoriasis (widespread sterile pustules with fever) are dermatologic emergencies requiring immediate in-person or emergency care."
+      }
+    ],
+    "closing": "If your symptoms do not match a lower-risk bridge refill scenario or any red flags are present, TeleDirectMD will direct you to urgent in-person care or dermatology referral."
+  },
+
+  "telehealthEligibility": {
+    "sectionTitle": "When Is a Video Visit Appropriate?",
+    "appropriate": {
+      "title": "When a Video Visit Is Appropriate",
+      "items": [
+        "You have an established diagnosis of plaque psoriasis",
+        "You are requesting a refill of a topical medication you already use",
+        "Your plaques are near baseline and not rapidly expanding",
+        "Your disease involves less than approximately 10 percent of body surface area",
+        "You do not have new joint pain, swelling, or morning stiffness",
+        "You can describe or photograph your current plaques and topical regimen",
+        "You understand this may be bridge refill care, not systemic therapy management",
+        "Located in {state} at time of visit"
+      ]
+    },
+    "redFlags": {
+      "title": "Red Flags Requiring In-Person or ER Care",
+      "items": [
+        "Widespread redness covering most of the body (possible erythrodermic psoriasis)",
+        "Widespread pustules with fever or systemic illness (possible pustular psoriasis)",
+        "Disease covering more than 10 percent of body surface area not responding to topicals",
+        "New joint pain, morning stiffness, or swollen digits (possible psoriatic arthritis)",
+        "Signs of secondary skin infection with increased pain, warmth, pus, or fever",
+        "Rapidly worsening rash not responding to current treatment"
+      ],
+      "disclaimer": "If any red-flag symptoms are present, seek urgent in-person or emergency care. TeleDirectMD is not an emergency service."
+    }
+  },
+
+  "treatmentOptions": {
+    "sectionTitle": "Treatment Options",
+    "intro": "Evidence-based psoriasis care distinguishes between topical therapy for mild to moderate disease and systemic therapy for moderate to severe disease. AAD-NPF guidelines recommend topical corticosteroids as first-line treatment for mild to moderate plaque psoriasis, with steroid-sparing agents used for sensitive areas, long-term maintenance, and rotation strategies to limit steroid side effects.",
+    "sections": [
+      {
+        "title": "Bridge topical corticosteroid refills",
+        "text": "For stable adults who have run low on an established topical corticosteroid, a short bridge refill may be reasonable if there are no signs of disease progression, secondary infection, or steroid overuse complications. High-potency steroids like betamethasone dipropionate and clobetasol are appropriate for body plaques, while low-potency agents are used for face and skin folds."
+      },
+      {
+        "title": "Bridge vitamin D analog and combination product refills",
+        "text": "For adults already using calcipotriene alone or the calcipotriene-betamethasone combination, refill continuity can be important. Vitamin D analogs are valuable as steroid-sparing agents and help maintain plaque control while reducing cumulative steroid exposure."
+      },
+      {
+        "title": "Bridge calcineurin inhibitor refills for sensitive areas",
+        "text": "Tacrolimus ointment is used for psoriasis in sensitive areas such as the face, groin, and skin folds where chronic topical steroid use carries higher risk of skin thinning. Bridge refills may be reasonable when the patient is stable on this regimen."
+      },
+      {
+        "title": "When topical refill care is not enough",
+        "text": "If disease is expanding beyond 10 percent of body surface area, plaques are not responding to adequate topical therapy, joint symptoms emerge, or the patient has erythrodermic or pustular psoriasis, a refill-only visit is insufficient and in-person dermatology or rheumatology evaluation is needed."
+      }
+    ],
+    "doesNotManage": [
+      "Biologics (adalimumab, etanercept, ustekinumab, secukinumab, and others)",
+      "Methotrexate or cyclosporine",
+      "Acitretin or apremilast (Otezla)",
+      "Other systemic immunosuppressants",
+      "Phototherapy (UVB or PUVA)",
+      "New psoriasis diagnosis requiring full dermatologic workup and biopsy"
+    ]
+  },
+
+  "medications": {
+    "sectionTitle": "Common Medication Options",
+    "intro": "These are common categories discussed for adult psoriasis topical refill care. Medication choice depends on the patient's established regimen, plaque location, disease severity, duration of use, and whether the request is truly a stable refill request.",
+    "headers": ["Option", "Examples", "Used for", "Key considerations"],
+    "rows": [
+      ["High-potency topical corticosteroid", "Betamethasone dipropionate 0.05% cream or ointment, clobetasol propionate 0.05%", "First-line for body plaque psoriasis", "Limit continuous use to reduce risk of skin thinning and stretch marks; rotation with steroid-sparing agents recommended"],
+      ["Medium-potency topical corticosteroid", "Triamcinolone acetonide 0.1%, fluocinonide 0.05%", "Moderate-severity body plaques and step-down from high-potency agents", "May be used for longer durations than superpotent steroids with physician guidance"],
+      ["Vitamin D analog", "Calcipotriene 0.005% cream or ointment", "Steroid-sparing maintenance therapy and combination use", "Can cause local irritation; avoid use near eyes; helpful for reducing cumulative steroid exposure"],
+      ["Combination calcipotriene and betamethasone", "Calcipotriene-betamethasone dipropionate (Enstilar, Taclonex)", "Plaque psoriasis combining anti-inflammatory and vitamin D benefits", "Often more effective than either agent alone; used in cycles with steroid-free intervals"],
+      ["Topical calcineurin inhibitor", "Tacrolimus 0.1% ointment", "Psoriasis on face, groin, and skin folds where steroids carry higher risk", "Steroid-sparing option for sensitive areas; may cause initial burning sensation"],
+      ["Medicated shampoo and scalp treatments", "Coal tar shampoo, salicylic acid shampoo, clobetasol scalp solution", "Scalp psoriasis maintenance and flare management", "Often used in combination with topical corticosteroid solutions for scalp involvement"]
+    ],
+    "note": "Medication selection and dosing are individualized. TeleDirectMD does not prescribe controlled substances, and topical psoriasis refill treatment online is intended as bridge care when clinically appropriate, not as a substitute for comprehensive dermatologic management when disease is progressing."
+  },
+
+  "homeCare": {
+    "sectionTitle": "Home Care, Prevention, and Follow-up",
+    "whatToDoNow": {
+      "title": "What to Do Now",
+      "items": [
+        "Apply topical medications exactly as prescribed, using the correct amount for each affected area",
+        "Use emollients and moisturizers liberally — barrier function support is a critical adjunct to prescription therapy",
+        "Avoid known flare triggers including skin trauma, stress, heavy alcohol use, and certain medications when possible",
+        "Take photos of your plaques periodically so you can track changes and share them with your physician"
+      ]
+    },
+    "whatToWatch": {
+      "title": "What to Watch For Over the Next 24 to 72 Hours",
+      "items": [
+        "Plaques spreading to new areas or increasing in size despite current treatment",
+        "New joint pain, morning stiffness lasting more than 30 minutes, or swollen fingers or toes",
+        "Signs of secondary skin infection at plaque sites including increased pain, warmth, pus, or spreading redness",
+        "Skin thinning, stretch marks, or other signs of steroid overuse at application sites",
+        "Any signs of widespread redness or pustular eruption"
+      ]
+    },
+    "followUp": {
+      "title": "Follow-up Timing",
+      "items": [
+        "If plaques are expanding or not responding to topicals, schedule dermatology follow-up rather than relying on repeated bridge refills",
+        "If you develop new joint symptoms, seek evaluation for possible psoriatic arthritis",
+        "If you are using high-potency steroids continuously for more than 12 weeks, discuss rotation strategy with your physician",
+        "If emergency warning signs develop such as widespread redness or pustules with fever, go to urgent care or the ER immediately"
+      ]
+    }
+  },
+
+  "whenNotToUse": {
+    "sectionTitle": "When Not to Use TeleDirectMD for Psoriasis Medication Refills in {state}",
+    "intro": "TeleDirectMD is designed for selected short bridge topical refill care only. We are direct about when telehealth is not the right fit.",
+    "shouldNotUse": {
+      "title": "You Should Not Use TeleDirectMD If",
+      "items": [
+        "You have widespread redness covering most of your body (possible erythrodermic psoriasis)",
+        "You have widespread pustules with fever or systemic illness (possible pustular psoriasis)",
+        "Your psoriasis covers more than 10 percent of your body surface area and is not controlled with topicals",
+        "You have new joint pain, swelling, or morning stiffness suggesting psoriatic arthritis",
+        "You have signs of secondary skin infection with fever or spreading redness",
+        "You have never been diagnosed with psoriasis and need a full dermatologic evaluation",
+        "You need management of biologics, methotrexate, cyclosporine, or systemic immunosuppressants",
+        "You are under 18 years old",
+        "You are not physically in {state} at the time of visit"
+      ]
+    },
+    "alternatives": {
+      "title": "Alternative Care Options",
+      "items": [
+        { "label": "Emergency room:", "text": "erythrodermic psoriasis, pustular psoriasis with systemic illness, or severe secondary infection with fever" },
+        { "label": "Urgent care:", "text": "rapidly worsening rash, possible skin infection, or symptoms that are not clearly ER level but are not stable" },
+        { "label": "Primary care or dermatology:", "text": "long-term psoriasis management, systemic therapy initiation, phototherapy, psoriatic arthritis evaluation, and comprehensive skin checks" }
+      ]
+    }
+  },
+
+  "faq": {
+    "sectionTitle": "Psoriasis Medication Refill FAQs for {state}",
+    "items": [
+      {
+        "question": "Can I get psoriasis medication refills online in {state}?",
+        "answer": "Yes, selected adults in {state} with an established psoriasis diagnosis may be appropriate for a short bridge telehealth visit for topical medication refills after red-flag screening. TeleDirectMD can help with triage and refill care when clinically appropriate."
+      },
+      {
+        "question": "How much does an online psoriasis refill visit cost in {state}?",
+        "answer": "TeleDirectMD offers a transparent self pay option starting at $49 for an adult video visit in {state}. Insurance is not required. Prescription costs are separate and vary by medication and pharmacy."
+      },
+      {
+        "question": "Can I refill my topical corticosteroid for psoriasis online?",
+        "answer": "Sometimes, yes. If you have an established psoriasis diagnosis, your plaques are stable, and you are requesting a refill of a topical steroid you already use, a short bridge refill may be reasonable. If your disease is spreading or not responding, in-person dermatology evaluation may be safer."
+      },
+      {
+        "question": "Can I get calcipotriene or calcipotriene-betamethasone refilled online?",
+        "answer": "Often, yes, if this is part of your established regimen and your situation is stable enough for telehealth bridge care. Vitamin D analogs and combination products are valuable for steroid-sparing maintenance and rotation strategies."
+      },
+      {
+        "question": "Can TeleDirectMD prescribe biologics or methotrexate for psoriasis?",
+        "answer": "No. TeleDirectMD does not initiate or manage biologics, methotrexate, cyclosporine, apremilast, or other systemic immunosuppressants. These require ongoing lab monitoring and specialist oversight from a dermatologist or rheumatologist."
+      },
+      {
+        "question": "What signs suggest my psoriasis is too severe for a routine topical refill visit?",
+        "answer": "Disease covering more than 10 percent of body surface area, plaques not responding to adequate topical therapy, new joint symptoms suggesting psoriatic arthritis, widespread redness or pustules, and signs of secondary infection all suggest your psoriasis may be too severe for a simple topical refill approach."
+      },
+      {
+        "question": "Should I be concerned about using topical steroids long term?",
+        "answer": "Prolonged use of high-potency topical corticosteroids can cause skin thinning, stretch marks, and tachyphylaxis. AAD-NPF guidelines recommend steroid rotation strategies and using steroid-sparing agents like calcipotriene and tacrolimus to reduce cumulative steroid exposure, especially in sensitive areas."
+      },
+      {
+        "question": "What is psoriatic arthritis and should I be screened for it?",
+        "answer": "Psoriatic arthritis is a chronic inflammatory joint condition that affects up to 30 percent of people with psoriasis. Symptoms include joint pain, morning stiffness lasting more than 30 minutes, and swollen fingers or toes (dactylitis). If you have new joint symptoms, in-person evaluation with a rheumatologist is recommended rather than a topical refill visit."
+      },
+      {
+        "question": "Are psoriasis topical medications controlled substances?",
+        "answer": "No. Topical corticosteroids, calcipotriene, tacrolimus, and medicated shampoos used for psoriasis are not controlled substances. TeleDirectMD does not prescribe controlled substances, but psoriasis topicals are not in that category."
+      },
+      {
+        "question": "When should I go to urgent care or the ER for psoriasis?",
+        "answer": "Seek urgent in-person care for widespread redness covering most of your body (possible erythrodermic psoriasis), widespread pustules with fever or systemic illness (possible pustular psoriasis), signs of secondary skin infection with fever and spreading warmth, or rapidly worsening rash not responding to treatment."
+      },
+      {
+        "question": "Does {state} allow telemedicine for this kind of visit?",
+        "answer": "Yes. {state} allows licensed professionals to provide telemedicine within their scope when appropriate and according to accepted standards of care."
+      },
+      {
+        "question": "Can TeleDirectMD provide psoriasis refill care in other states?",
+        "answer": "Yes. TeleDirectMD offers adult evaluations via video visits across multiple states. You must be physically located in the state where you are requesting care at the time of the visit."
+      }
+    ],
+    "bottomCta": {
+      "title": "Need help today?",
+      "text": "Insurance is not required. Adult-only video visits. MD-only care. Safety-first triage, short bridge topical refills when appropriate, and clear next steps."
+    }
+  },
+
+  "references": [
+    { "text": "AAD-NPF Joint Guidelines of Care for the Management and Treatment of Psoriasis", "url": "https://www.aad.org/member/clinical-quality/guidelines/psoriasis" },
+    { "text": "National Psoriasis Foundation Clinical Guidelines for Psoriasis Treatment", "url": "https://www.psoriasis.org/psoriasis-guidelines/" },
+    { "text": "AAD Psoriasis Clinical Overview and Patient Resources", "url": "https://www.aad.org/public/diseases/psoriasis" },
+    { "text": "National Psoriasis Foundation About Psoriasis Overview", "url": "https://www.psoriasis.org/about-psoriasis/" },
+    { "text": "StatPearls Psoriasis Clinical Review", "url": "https://www.ncbi.nlm.nih.gov/books/NBK448194/" }
+  ],
+
+  "disclaimer": {
+    "sectionTitle": "TeleDirectMD Telehealth Disclaimer",
+    "paragraphs": [
+      "TeleDirectMD provides MD-only virtual urgent care for adults (18+) in {state} using secure video visits to evaluate psoriasis medication refill concerns, provide evidence-based guidance, and prescribe short bridge topical refill treatment when clinically appropriate. Insurance is not required. You must be physically located in {state} at the time of your video visit. TeleDirectMD does not prescribe controlled substances.",
+      "TeleDirectMD is not an emergency service and is not a replacement for urgent in-person care during erythrodermic psoriasis, pustular psoriasis, or secondary skin infection. This service is intended for selected stable topical refill requests and is not a substitute for comprehensive long-term psoriasis management when disease is progressing or systemic therapy is needed. TeleDirectMD does not manage biologics, methotrexate, cyclosporine, or other systemic immunosuppressants.",
+      "Online psoriasis medication refills in {state}. Topical psoriasis refill online. Bridge refill care for psoriasis topical corticosteroids, calcipotriene, and calcineurin inhibitors in {state}."
+    ]
+  },
+
+  "relatedConditions": [
+    {
+      "slug": "eczema-treatment-online",
+      "title": "Eczema Treatment",
+      "description": "Eczema and psoriasis are both chronic inflammatory skin conditions that can overlap in presentation and share some topical treatments"
+    },
+    {
+      "slug": "acne-treatment-online",
+      "title": "Acne Treatment",
+      "description": "Another common dermatologic condition manageable by telehealth with topical medication prescriptions"
+    },
+    {
+      "slug": "contact-dermatitis-treatment-online",
+      "title": "Contact Dermatitis Treatment",
+      "description": "Contact dermatitis can mimic psoriasis and both may respond to topical corticosteroids"
+    },
+    {
+      "slug": "dandruff-treatment-online",
+      "title": "Dandruff Treatment",
+      "description": "Seborrheic dermatitis and scalp psoriasis often overlap and share some treatment approaches including medicated shampoos"
+    }
+  ],
+
+  "inlineLinks": [
+    { "slug": "eczema-treatment-online", "label": "Eczema Treatment" },
+    { "slug": "acne-treatment-online", "label": "Acne Treatment" },
+    { "slug": "contact-dermatitis-treatment-online", "label": "Contact Dermatitis Treatment" },
+    { "slug": "dandruff-treatment-online", "label": "Dandruff Treatment" },
+    { "slug": "rosacea-treatment-online", "label": "Rosacea Treatment" },
+    { "slug": "tinea-treatment-online", "label": "Tinea Treatment" },
+    { "slug": "cold-sore-treatment-online", "label": "Cold Sore Treatment" },
+    { "slug": "seasonal-allergies-treatment-online", "label": "Seasonal Allergies Treatment" },
+    { "slug": "asthma-refills-online", "label": "Asthma Refills" },
+    { "slug": "uti-treatment-online", "label": "UTI Treatment" }
+  ],
+
+  "cityBlock": {
+    "title": "Adults We Serve Across {state}",
+    "text": "TeleDirectMD evaluates adults located throughout {state}, including {citiesExtended}. Whether you are searching for online psoriasis medication refills in {city1}, topical psoriasis refills in {city2}, psoriasis topical corticosteroid bridge care in {city3}, or calcipotriene refills anywhere else in {state}, the same telehealth eligibility and safety rules apply."
+  },
+
+  "icd10Codes": [
+    { "code": "L40.0", "description": "Psoriasis vulgaris" },
+    { "code": "L40.9", "description": "Psoriasis, unspecified" }
+  ],
+
+  "jsonLd": {
+    "conditionName": "Psoriasis",
+    "conditionAlternateNames": ["Psoriasis medication refill care", "Plaque psoriasis", "Topical psoriasis refill", "Psoriasis vulgaris"],
+    "conditionDescription": "Psoriasis refill care involves reviewing whether it is safe and appropriate to continue a patient's established topical psoriasis medications, including topical corticosteroids, vitamin D analogs, calcineurin inhibitors, and combination products. TeleDirectMD evaluates adult refill requests by video visit with safety-first red-flag screening and provides short bridge topical refill guidance when appropriate, with clear rules for when in-person dermatology or rheumatology care is needed.",
+    "primaryIcd10": "L40.0",
+    "anatomy": "Skin",
+    "symptoms": ["Red scaly plaques", "Silvery scale on elbows and knees", "Scalp flaking and itching", "Nail pitting or discoloration", "Skin dryness and cracking", "Itching at plaque sites"],
+    "riskFactors": [
+      "Family history of psoriasis",
+      "Immune-mediated inflammatory pathway activation",
+      "Stress and psychological factors",
+      "Skin trauma or injury (Koebner phenomenon)",
+      "Obesity and metabolic syndrome",
+      "Heavy alcohol use",
+      "Certain medications (lithium, beta-blockers, antimalarials)",
+      "Smoking"
+    ],
+    "complications": [
+      "Psoriatic arthritis",
+      "Cardiovascular disease (increased risk in moderate to severe psoriasis)",
+      "Metabolic syndrome",
+      "Depression and anxiety",
+      "Secondary skin infection at plaque sites",
+      "Erythrodermic psoriasis",
+      "Pustular psoriasis"
+    ],
+    "epidemiology": "Psoriasis affects approximately 3 percent of the world population and roughly 8 million Americans. Most patients have mild to moderate disease manageable with topical therapy.",
+    "drugs": [
+      { "name": "Betamethasone dipropionate", "id": "betamethasone-dipropionate" },
+      { "name": "Clobetasol propionate", "id": "clobetasol-propionate" },
+      { "name": "Triamcinolone acetonide", "id": "triamcinolone-acetonide" },
+      { "name": "Calcipotriene", "id": "calcipotriene" },
+      { "name": "Calcipotriene-betamethasone", "id": "calcipotriene-betamethasone" },
+      { "name": "Tacrolimus", "id": "tacrolimus" },
+      { "name": "Coal tar", "id": "coal-tar" },
+      { "name": "Salicylic acid", "id": "salicylic-acid" }
+    ],
+    "treatments": [
+      "Short bridge topical refill care",
+      "Steroid rotation and steroid-sparing strategies",
+      "Urgent in-person evaluation for severe or progressive disease"
+    ],
+    "tests": [
+      "Clinical symptom review and body surface area assessment",
+      "Psoriatic arthritis screening",
+      "Skin biopsy for uncertain diagnosis when needed"
+    ],
+    "specialties": ["Family Medicine", "Telemedicine", "Dermatology"],
+    "guidelines": [
+      { "name": "AAD-NPF Joint Guidelines of Care for the Management and Treatment of Psoriasis", "url": "https://www.aad.org/member/clinical-quality/guidelines/psoriasis", "publisher": "American Academy of Dermatology and National Psoriasis Foundation", "id": "aad-npf" },
+      { "name": "National Psoriasis Foundation Clinical Guidelines for Psoriasis Treatment", "url": "https://www.psoriasis.org/psoriasis-guidelines/", "publisher": "National Psoriasis Foundation", "id": "npf" }
+    ],
+    "knowsAbout": [
+      "Psoriasis medication refill care",
+      "Topical psoriasis management",
+      "Steroid rotation strategies",
+      "Psoriatic arthritis screening",
+      "Telemedicine triage",
+      "Safety-first red-flag screening",
+      "Family Medicine"
+    ],
+    "serviceDescription": "Secure video visit for {state} adults requesting psoriasis medication refill care, including red-flag screening, body surface area assessment, psoriatic arthritis screening, and short bridge topical refill treatment when appropriate.",
+    "webpageDescription": "{state} psoriasis medication refill treatment by secure MD video visit for adults. Evidence-based topical refill care, red-flag screening, short bridge refills when appropriate, and clear rules for when in-person dermatology or rheumatology care is needed."
+  }
+}
