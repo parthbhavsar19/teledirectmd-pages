@@ -1,0 +1,595 @@
+{
+  "conditionName": "Gout Treatment",
+  "conditionShort": "Gout",
+  "conditionSlug": "gout-treatment-online",
+  "pageTitle": "Gout Treatment Online in {state} | Acute Gout Flare MD Video Visit | TeleDirectMD",
+  "metaDescription": "Evidence-based gout flare treatment for {state} adults by secure video visit. Red-flag screening, anti-inflammatory therapy, and prescriptions when clinically appropriate. Self pay option starting at $49. Insurance is not required.",
+  "ogImageAlt": "Gout treatment in {state} by TeleDirectMD",
+
+  "hero": {
+    "h1": "Gout Treatment in {state} (Acute Gout Flare Management)",
+    "subtitle": "{state} adult care by secure video visit, self pay option starting at $49, MD-only, insurance is not required.",
+    "introParagraph": "Gout is one of the most common forms of inflammatory arthritis, caused by monosodium urate crystal deposition in joints. Acute gout flares cause sudden, severe joint pain, swelling, redness, and warmth, classically in the big toe but also in the ankle, knee, wrist, and other joints. The American College of Rheumatology (ACR) 2020 guidelines and the American College of Physicians (ACP) 2017 guideline both emphasize early treatment of acute flares with anti-inflammatory therapy. TeleDirectMD uses a safety-first telehealth approach that screens for red flags including fever, concern for septic arthritis, first-episode joint swelling without prior gout diagnosis, and systemic illness before determining whether treatment by video visit is appropriate. For adults with a known history of gout experiencing a recurrent flare without red flags, telehealth evaluation and treatment can be timely and effective. Adults with a first episode of acute monoarthritis without prior gout diagnosis, fever with a swollen joint, or concern for joint infection are directed to urgent in-person care for joint aspiration and evaluation. This page is for adults located in {state}, including {cities}.",
+    "tocLinks": [
+      { "href": "eligibility-checklist", "label": "Eligibility checklist" },
+      { "href": "decision-guide", "label": "Decision guide" },
+      { "href": "treatment-options", "label": "Treatment options" },
+      { "href": "faq", "label": "FAQs" },
+      { "href": "references", "label": "References" }
+    ],
+    "benefits": [
+      "Self pay option starting at $49",
+      "MD-only care (no mid-levels)",
+      "Insurance is not required",
+      "Licensed telehealth care for patients located in {state} at the time of the visit"
+    ],
+    "sideCard": {
+      "h2": "Online MD-Only Gout Care in {state}",
+      "features": [
+        "Fast evaluation for recurrent gout flare symptoms",
+        "Red-flag screening for septic arthritis and other serious joint conditions",
+        "Guideline-based anti-inflammatory treatment when appropriate",
+        "Lifestyle guidance and urate-lowering therapy discussion"
+      ],
+      "note": "Adults 18+ only. TeleDirectMD is not an emergency service. Go to urgent care or the ER now for fever with an acutely swollen joint, first-episode joint swelling without prior gout diagnosis, inability to bear weight, severe systemic illness, or concern for joint infection. TeleDirectMD does not prescribe controlled substances."
+    },
+    "icd10Display": "M10.9, M10.00, M10.071 (final coding depends on clinical details)"
+  },
+
+  "eligibility": {
+    "sectionTitle": "Gout Telehealth Eligibility Checklist for {state}",
+    "introText": "You are likely eligible for a TeleDirectMD video visit if ALL of these are true:",
+    "eligible": [
+      "You are 18 years old or older",
+      "You are physically located in {state} at the time of the visit",
+      "You have a prior diagnosis of gout confirmed by a healthcare provider",
+      "You are experiencing symptoms consistent with a recurrent gout flare such as sudden joint pain, swelling, redness, or warmth",
+      "You do not have fever, chills, or signs of systemic illness",
+      "You do not have a first-time episode of acute joint swelling without a prior gout diagnosis",
+      "Insurance is not required. A self pay option is available."
+    ],
+    "notEligible": [
+      "You are under 18 years old",
+      "This is your first episode of acute joint swelling and you have never been diagnosed with gout",
+      "You have fever with an acutely swollen joint (concern for septic arthritis)",
+      "You have multiple swollen joints with systemic symptoms",
+      "You cannot bear weight or move the affected joint at all",
+      "You feel severely ill, confused, or have signs of widespread infection",
+      "You have concern for compartment syndrome or vascular compromise"
+    ],
+    "notEligibleDisclaimer": "If you have red-flag symptoms, seek urgent in-person care or emergency care immediately. A first episode of acute monoarthritis requires joint aspiration to rule out septic arthritis. TeleDirectMD is not appropriate for undiagnosed first-episode joint swelling."
+  },
+
+  "howItWorks": {
+    "sectionTitle": "How Online Gout Treatment Works in {state}",
+    "steps": [
+      {
+        "type": "check",
+        "title": "Book your video visit",
+        "description": "Insurance is not required. No referral needed. Many visits are available same day, depending on scheduling. Before your visit, note when the flare started, which joint is affected, your prior gout history and diagnosis, any medications you take, your kidney function if known, and any allergies."
+      },
+      {
+        "type": "check",
+        "title": "See a {state} licensed MD by video",
+        "description": "We review your symptom pattern, flare onset and timing, prior gout history, affected joints, kidney function, current medications, allergies, and dietary triggers. The ACR 2020 guidelines emphasize that early treatment within 24 hours of flare onset improves outcomes, so prompt evaluation matters."
+      },
+      {
+        "type": "good",
+        "title": "Get a treatment plan and, if appropriate, a prescription",
+        "description": "If medication is clinically appropriate, we send an e-prescription to common {state} pharmacies such as {pharmacies}. You receive clear follow-up steps regardless of treatment choice, including lifestyle guidance, when to consider urate-lowering therapy, and when to seek in-person care if symptoms do not improve.",
+        "showCta": true
+      }
+    ]
+  },
+
+  "telehealthRegulations": {
+    "sectionTitle": "{state} Telehealth Regulations for Online Gout Care",
+    "paragraphs": [
+      "{telehealthRegulation}",
+      "Location matters: you must be physically in {state} during the visit. Insurance is not required. TeleDirectMD does not prescribe controlled substances."
+    ]
+  },
+
+  "comparisonTable": {
+    "sectionTitle": "TeleDirectMD vs Other Care Options for Gout in {state}",
+    "intro": "Here is how TeleDirectMD compares to common settings for adult gout care in {state}:",
+    "rows": [
+      {
+        "option": "TeleDirectMD",
+        "cost": "Self pay option starting at $49",
+        "wait": "Same day, often within hours",
+        "provider": "Board-certified MD only (no mid-levels)",
+        "bestFor": "Recurrent gout flare in adults with a known gout diagnosis, without red flags, with prompt anti-inflammatory treatment",
+        "highlight": true
+      },
+      {
+        "option": "Urgent Care",
+        "cost": "$150 to $300+ (before insurance)",
+        "wait": "1 to 3 hours typical",
+        "provider": "MD, DO, PA, or NP",
+        "bestFor": "First episode of acute joint swelling, uncertain diagnosis, or when labs and joint aspiration are needed",
+        "highlight": false
+      },
+      {
+        "option": "Emergency Room",
+        "cost": "$500 to $3,000+ (before insurance)",
+        "wait": "2 to 6 hours typical",
+        "provider": "Emergency medicine MD or DO",
+        "bestFor": "Fever with swollen joint, suspected septic arthritis, inability to bear weight, or severe systemic illness",
+        "highlight": false
+      },
+      {
+        "option": "Primary Care",
+        "cost": "$100 to $250+ (varies)",
+        "wait": "3 to 14 days typical",
+        "provider": "Family medicine or internal medicine MD or DO",
+        "bestFor": "Long-term gout management, urate-lowering therapy initiation, kidney function monitoring, and comorbidity management",
+        "highlight": false
+      },
+      {
+        "option": "Rheumatology",
+        "cost": "$200 to $500+ (varies)",
+        "wait": "Weeks to months (varies)",
+        "provider": "Rheumatologist MD or DO",
+        "bestFor": "Refractory gout, tophaceous disease, complex medication management, or atypical joint presentations",
+        "highlight": false
+      }
+    ],
+    "bottomLine": "TeleDirectMD is a strong fit for recurrent gout flares in adults with a known diagnosis and no red flags, with a safety-first approach and direct MD evaluation."
+  },
+
+  "decisionGuide": {
+    "sectionTitle": "Should I Use TeleDirectMD for Gout in {state}? Decision Guide",
+    "steps": [
+      {
+        "type": "urgent",
+        "title": "Do you have any emergency or red-flag symptoms?",
+        "items": [
+          "Fever with an acutely swollen, hot joint (concern for septic arthritis)",
+          "This is your first episode of acute joint swelling without a prior gout diagnosis",
+          "Multiple swollen joints with systemic illness, confusion, or rapid worsening",
+          "Inability to bear weight or move the affected joint at all",
+          "Concern for compartment syndrome or vascular compromise"
+        ],
+        "yesAction": "If yes, seek urgent in-person care or the ER now",
+        "noAction": "If no, continue to Step 2"
+      },
+      {
+        "type": "check",
+        "title": "Are you 18+ and currently in {state}?",
+        "items": [],
+        "yesAction": "If yes, continue to Step 3",
+        "noAction": "If no, use in-person care as appropriate"
+      },
+      {
+        "type": "check",
+        "title": "Do your symptoms fit a recurrent gout flare?",
+        "items": [
+          "You have a prior diagnosis of gout from a healthcare provider",
+          "Sudden onset of severe joint pain, swelling, redness, or warmth",
+          "Symptoms are similar to your prior gout flares",
+          "No fever, chills, or signs of systemic illness"
+        ],
+        "yesAction": "If yes, continue to Step 4",
+        "noAction": "If no or this is a first episode, seek in-person evaluation"
+      },
+      {
+        "type": "good",
+        "title": "You are likely appropriate for a TeleDirectMD video visit",
+        "description": "TeleDirectMD can evaluate recurrent gout flare symptoms, confirm safety for telehealth, discuss likely diagnosis, and prescribe anti-inflammatory treatment when clinically appropriate. If your symptoms suggest septic arthritis, a first episode needing joint aspiration, or a more complicated condition, we will direct you to the right level of in-person care.",
+        "items": [],
+        "showCta": true
+      }
+    ]
+  },
+
+  "pricing": {
+    "sectionTitle": "What Does Gout Treatment Cost in {state}?",
+    "subtitle": "Transparent options. Insurance is not required.",
+    "visitPrice": "$49",
+    "priceSubtext": "Self pay option. Insurance is not required.",
+    "includes": [
+      "MD evaluation and red-flag screening",
+      "Assessment for recurrent gout flare vs other causes of acute joint pain",
+      "Anti-inflammatory treatment selection when appropriate",
+      "Prescription sent if clinically appropriate",
+      "Lifestyle guidance and urate-lowering therapy discussion",
+      "Clear follow-up steps"
+    ],
+    "comparisonBars": [
+      { "name": "TeleDirectMD", "value": "$49", "width": 12, "isTdmd": true },
+      { "name": "Primary Care", "value": "$100 to $250+", "width": 45, "isTdmd": false },
+      { "name": "Urgent Care", "value": "$150 to $300+", "width": 55, "isTdmd": false },
+      { "name": "Emergency Room", "value": "$500 to $3,000+", "width": 100, "isTdmd": false }
+    ],
+    "footnote": "Prescription costs at your pharmacy are separate and vary by medication and pharmacy.",
+    "noHiddenFees": "No hidden fees. If medication is not clinically appropriate, you still receive a complete evaluation, guidance, and clear instructions on what level of care you need next."
+  },
+
+  "whatIsCondition": {
+    "sectionTitle": "What Is Gout?",
+    "paragraphs": [
+      "Gout is a common form of inflammatory arthritis caused by the deposition of monosodium urate crystals in joints and surrounding tissues. It results from chronically elevated serum uric acid levels (hyperuricemia), which can lead to crystal formation and intense inflammatory flares. The classic presentation is sudden, severe pain in the first metatarsophalangeal joint of the big toe, known as podagra, but gout can affect the ankle, knee, wrist, fingers, and other joints.",
+      "Gout affects approximately 9.2 million adults in the United States, making it the most common form of inflammatory arthritis. It is more prevalent in men, with increasing incidence in postmenopausal women. Risk factors include obesity, chronic kidney disease, diuretic use, high-purine diet, alcohol consumption, and certain genetic factors. The ACR 2020 guidelines emphasize that gout is a treatable condition with excellent outcomes when managed appropriately with both acute flare treatment and long-term urate-lowering therapy.",
+      "TeleDirectMD focuses on recurrent gout flares in adults with a known diagnosis, with careful screening to direct first-episode presentations, suspected joint infections, and complex cases to in-person care where joint aspiration and laboratory evaluation can be performed."
+    ]
+  },
+
+  "causesAndRiskFactors": {
+    "sectionTitle": "Causes and Risk Factors",
+    "intro": "Gout develops when serum uric acid levels remain elevated over time, leading to monosodium urate crystal formation in joints. Understanding the underlying causes and risk factors helps determine whether a telehealth evaluation is appropriate and informs treatment and prevention strategies.",
+    "items": [
+      { "label": "Hyperuricemia:", "text": "chronically elevated serum uric acid above 6.8 mg/dL is the primary cause, resulting from overproduction or underexcretion of uric acid" },
+      { "label": "High-purine diet:", "text": "red meat, organ meats, shellfish, and certain fish increase uric acid production and can trigger flares" },
+      { "label": "Alcohol consumption:", "text": "beer and liquor are strongly associated with gout flares, with beer being the highest risk due to its purine content and effect on uric acid excretion" },
+      { "label": "Obesity and metabolic syndrome:", "text": "excess body weight increases uric acid production and decreases renal excretion, and metabolic syndrome is commonly associated with gout" },
+      { "label": "Chronic kidney disease:", "text": "impaired renal uric acid excretion is one of the most common causes of hyperuricemia and recurrent gout" },
+      { "label": "Diuretic use:", "text": "thiazide and loop diuretics reduce renal uric acid clearance and are a common medication-related trigger" },
+      { "label": "Male sex and age:", "text": "gout is more common in men, particularly after age 40, and in postmenopausal women due to loss of the uricosuric effect of estrogen" },
+      { "label": "Fructose intake:", "text": "high-fructose corn syrup in sweetened beverages increases uric acid levels and is an increasingly recognized dietary risk factor" }
+    ],
+    "closing": "Not every episode of sudden joint pain is gout. Septic arthritis, pseudogout (calcium pyrophosphate deposition), reactive arthritis, and trauma can mimic gout and require different evaluation. TeleDirectMD screens for red flags and focuses on recurrent gout flares in patients with a confirmed prior diagnosis."
+  },
+
+  "symptomsAndRedFlags": {
+    "sectionTitle": "Symptoms and Red Flags for Gout in {state}",
+    "intro": "Use this table to understand which symptoms fit a recurrent gout flare and which symptoms suggest a need for urgent in-person evaluation.",
+    "headers": ["Symptom or situation", "What it suggests", "Telehealth appropriate?", "Red flag requiring urgent in-person care"],
+    "rows": [
+      ["Sudden severe joint pain, swelling, redness, warmth in a known gout patient", "Recurrent gout flare is likely", "Often yes", "If fever is present or joint infection cannot be excluded"],
+      ["Podagra (big toe involvement) with prior gout diagnosis", "Classic gout flare presentation", "Often yes", "If first episode without prior diagnosis"],
+      ["Ankle, knee, or wrist involvement with prior gout history", "Gout flare in a less typical but recognized location", "Often yes", "If multiple joints involved with systemic symptoms"],
+      ["First episode of acute monoarthritis without prior gout diagnosis", "Could be gout, septic arthritis, pseudogout, or other cause", "No", "Requires in-person evaluation with joint aspiration"],
+      ["Fever with acutely swollen, hot joint", "Septic arthritis must be excluded", "No", "Urgent in-person care or ER"],
+      ["Multiple joints swollen with fever and malaise", "Possible polyarticular gout, septic arthritis, or systemic inflammatory condition", "No", "Urgent in-person evaluation"],
+      ["Tophi (visible urate deposits under skin)", "Chronic tophaceous gout indicating long-standing disease", "Sometimes for flare management", "Referral to rheumatology for long-term management"]
+    ]
+  },
+
+  "differentialDiagnosis": {
+    "sectionTitle": "Differential Diagnosis: Gout vs Other Conditions",
+    "intro": "Several conditions can mimic acute gout. The ACR 2020 guidelines emphasize that the gold standard for gout diagnosis remains identification of monosodium urate crystals by joint aspiration and polarized light microscopy. For first-episode presentations, in-person evaluation with joint aspiration is critical to exclude septic arthritis, which can be life-threatening if missed. TeleDirectMD focuses on recurrent flares in patients with a confirmed prior gout diagnosis.",
+    "telehealthAppropriate": {
+      "title": "Sometimes Appropriate for Telehealth",
+      "items": [
+        "Recurrent gout flare in a patient with confirmed prior gout diagnosis",
+        "Classic podagra presentation with known gout history",
+        "Mild to moderate flare without systemic symptoms in a known gout patient",
+        "Discussion of urate-lowering therapy and lifestyle modifications",
+        "Follow-up for response to acute flare treatment"
+      ]
+    },
+    "requiresInPerson": {
+      "title": "Often Requires In-Person Evaluation",
+      "items": [
+        "First episode of acute monoarthritis (joint aspiration needed to rule out septic arthritis)",
+        "Fever with swollen joint (septic arthritis until proven otherwise)",
+        "Polyarticular flare with systemic illness",
+        "Suspected pseudogout (calcium pyrophosphate deposition disease) needing crystal analysis",
+        "Chronic tophaceous gout requiring rheumatology management and imaging"
+      ]
+    },
+    "compareCards": [
+      {
+        "title": "Gout vs Septic Arthritis",
+        "text": "Both cause acute, hot, swollen, painful joints. Gout typically occurs in patients with a prior history and recognized triggers. Septic arthritis presents with fever and can rapidly destroy the joint if untreated. Any first-episode acute monoarthritis with fever requires joint aspiration to exclude infection. This distinction cannot be made by telehealth alone."
+      },
+      {
+        "title": "Gout vs Pseudogout (CPPD)",
+        "text": "Pseudogout, caused by calcium pyrophosphate crystals, can look identical to gout clinically. It more commonly affects the knee and wrist, and is associated with older age, osteoarthritis, and metabolic conditions. Definitive diagnosis requires crystal analysis from joint aspiration. Patients with a confirmed prior gout diagnosis and a classic recurrent pattern are less likely to have pseudogout."
+      }
+    ],
+    "closing": "If your symptoms do not match a known recurrent gout pattern or any red flags are present, TeleDirectMD will direct you to urgent in-person care for joint aspiration and evaluation."
+  },
+
+  "telehealthEligibility": {
+    "sectionTitle": "When Is a Video Visit Appropriate?",
+    "appropriate": {
+      "title": "When a Video Visit Is Appropriate",
+      "items": [
+        "Known prior gout diagnosis confirmed by a healthcare provider",
+        "Recurrent flare with symptoms consistent with prior gout episodes",
+        "No fever, chills, or systemic illness",
+        "No concern for joint infection or septic arthritis",
+        "Not a first episode of acute joint swelling",
+        "Located in {state} at time of visit"
+      ]
+    },
+    "redFlags": {
+      "title": "Red Flags Requiring In-Person or ER Care",
+      "items": [
+        "Fever with acutely swollen joint (septic arthritis must be excluded)",
+        "First episode of acute monoarthritis without prior gout diagnosis",
+        "Multiple swollen joints with fever or systemic illness",
+        "Inability to bear weight or move the affected joint",
+        "Severe illness, confusion, or rapid worsening",
+        "Concern for compartment syndrome or vascular compromise"
+      ],
+      "disclaimer": "If any red-flag symptoms are present, seek urgent in-person or emergency care. A hot, swollen joint with fever is septic arthritis until proven otherwise. TeleDirectMD is not appropriate for these situations."
+    }
+  },
+
+  "treatmentOptions": {
+    "sectionTitle": "Treatment Options",
+    "intro": "Acute gout flares are treated with anti-inflammatory therapy started as early as possible, ideally within 24 hours of symptom onset. The ACR 2020 guidelines conditionally recommend colchicine, NSAIDs, and corticosteroids as first-line options for acute flares, with treatment selection guided by patient comorbidities, medication tolerability, kidney function, and prior response.",
+    "sections": [
+      {
+        "title": "Acute flare treatment",
+        "text": "The primary goal is to reduce inflammation and pain rapidly. Colchicine is most effective when started within 24 hours of flare onset using the low-dose protocol (1.2 mg followed by 0.6 mg one hour later). NSAIDs such as indomethacin or naproxen at full anti-inflammatory doses are an equally effective option. Oral corticosteroids like prednisone are preferred when NSAIDs and colchicine are contraindicated, such as in patients with chronic kidney disease or GI intolerance."
+      },
+      {
+        "title": "Adjunctive measures",
+        "text": "Rest the affected joint and apply ice for 20 minutes several times daily to reduce swelling. Maintain adequate hydration. Avoid alcohol and purine-rich foods during the acute flare. Over-the-counter pain relief with acetaminophen may provide additional comfort alongside prescribed anti-inflammatory therapy."
+      },
+      {
+        "title": "Urate-lowering therapy discussion",
+        "text": "For patients with recurrent flares (2 or more per year), tophaceous gout, or chronic kidney disease with hyperuricemia, the ACR 2020 guidelines strongly recommend urate-lowering therapy (ULT) to reduce serum urate below 6 mg/dL. Allopurinol is the preferred first-line agent, started at 100 mg daily and titrated gradually. TeleDirectMD can discuss whether ULT may be appropriate and recommend follow-up with primary care or rheumatology for initiation and monitoring."
+      },
+      {
+        "title": "Lifestyle modifications",
+        "text": "Dietary changes can reduce flare frequency: limit red meat, organ meats, shellfish, and high-fructose corn syrup. Reduce alcohol intake, particularly beer and liquor. Maintain adequate hydration. Weight management and management of metabolic comorbidities including hypertension, diabetes, and dyslipidemia are important for long-term gout control."
+      }
+    ],
+    "doesNotManage": [
+      "First-episode acute monoarthritis requiring joint aspiration to rule out septic arthritis",
+      "Fever with acutely swollen joint (septic arthritis must be excluded in person)",
+      "Polyarticular flare with systemic illness",
+      "Initiation or dose titration of urate-lowering therapy requiring serial lab monitoring",
+      "Chronic tophaceous gout requiring rheumatology management"
+    ]
+  },
+
+  "medications": {
+    "sectionTitle": "Common Medication Options",
+    "intro": "These are common examples for acute gout flare treatment based on ACR 2020 guidelines. The actual medication, dose, and duration are determined by the MD after reviewing your symptoms, kidney function, allergies, medication interactions, and prior treatment response.",
+    "headers": ["Medication", "Typical dose", "Duration", "Key considerations"],
+    "rows": [
+      ["Colchicine", "1.2 mg at first sign of flare, then 0.6 mg one hour later (1.8 mg total day 1), then 0.6 mg once or twice daily", "Until flare resolves", "Most effective within 24 hours of flare onset. Low-dose protocol equally effective as high-dose with fewer GI side effects. Reduce dose in chronic kidney disease. Avoid with strong CYP3A4 inhibitors (clarithromycin, ketoconazole)."],
+      ["Indomethacin (NSAID)", "50 mg by mouth three times daily", "Until flare resolves, typically 5 to 7 days", "Potent anti-inflammatory commonly used for gout flares. Avoid in significant kidney disease, active GI bleeding, or heart failure. Take with food."],
+      ["Naproxen (NSAID)", "500 mg by mouth twice daily", "Until flare resolves, typically 5 to 7 days", "Well-tolerated NSAID option for acute flare. Avoid in significant kidney disease, active GI bleeding, or heart failure. Available over the counter at lower doses."],
+      ["Prednisone (corticosteroid)", "30 to 40 mg by mouth daily", "5 days (taper optional per ACR guidelines)", "Preferred when NSAIDs and colchicine are contraindicated. Useful in patients with chronic kidney disease or GI intolerance. Monitor blood glucose in diabetic patients."],
+      ["Allopurinol (urate-lowering therapy)", "Starting dose 100 mg daily, titrated to target serum urate below 6 mg/dL", "Long-term (indefinite)", "First-line urate-lowering agent per ACR 2020. HLA-B*5801 testing recommended before starting in Southeast Asian and African American patients. Requires lab monitoring. Can be started during an acute flare per ACR 2020 update. TeleDirectMD may discuss but typically refers for initiation and titration."],
+      ["Febuxostat (urate-lowering therapy)", "40 mg daily", "Long-term (indefinite)", "Alternative when allopurinol is contraindicated or not tolerated. FDA boxed warning regarding cardiovascular risk. Requires lab monitoring. TeleDirectMD may discuss but typically refers for initiation."]
+    ],
+    "note": "Example regimens only. The actual medication, dosing, and duration are determined by the MD after reviewing your symptoms, kidney function, medication interactions, allergies, and red flags. TeleDirectMD does not prescribe controlled substances."
+  },
+
+  "homeCare": {
+    "sectionTitle": "Home Care, Recovery Timeline, Prevention, and Follow-up",
+    "whatToDoNow": {
+      "title": "Recovery Timeline and What to Do Now",
+      "items": [
+        "Start anti-inflammatory treatment as soon as possible, ideally within 24 hours of flare onset, as early treatment shortens flare duration",
+        "Most acute gout flares begin to improve within 24 to 48 hours of starting appropriate therapy and typically resolve within 7 to 10 days",
+        "Rest the affected joint and avoid putting weight on it when possible",
+        "Apply ice wrapped in a cloth for 20 minutes several times daily to reduce swelling and pain",
+        "Stay well hydrated and avoid alcohol, red meat, shellfish, and high-fructose beverages during the flare"
+      ]
+    },
+    "whatToWatch": {
+      "title": "What to Watch For Over the Next 24 to 72 Hours",
+      "items": [
+        "Persistent or worsening symptoms beyond 48 to 72 hours may require reassessment or change in therapy",
+        "New fever at any time requires urgent in-person evaluation to rule out joint infection",
+        "Spread of symptoms to multiple joints may indicate a different diagnosis or polyarticular flare",
+        "Inability to tolerate oral medications due to nausea or vomiting"
+      ]
+    },
+    "followUp": {
+      "title": "Prevention and Follow-up",
+      "items": [
+        "Limit alcohol intake, especially beer and liquor, which are strongly associated with gout flares",
+        "Reduce intake of red meat, organ meats, shellfish, and foods high in fructose",
+        "Maintain adequate daily hydration to support renal uric acid excretion",
+        "Discuss urate-lowering therapy with your primary care provider if you experience 2 or more flares per year, have tophi, or have chronic kidney disease",
+        "If you take a diuretic, discuss alternatives with your prescribing provider if gout is recurrent",
+        "Weight management and regular exercise can lower serum uric acid levels over time"
+      ]
+    }
+  },
+
+  "whenNotToUse": {
+    "sectionTitle": "When Not to Use TeleDirectMD for Gout in {state}",
+    "intro": "TeleDirectMD is designed for recurrent gout flares in adults with a known diagnosis. We are direct about when telehealth is not appropriate.",
+    "shouldNotUse": {
+      "title": "You Should Not Use TeleDirectMD If",
+      "items": [
+        "You are under 18 years old",
+        "This is your first episode of acute joint swelling and you have never been diagnosed with gout",
+        "You have fever with an acutely swollen joint (joint infection must be ruled out in person)",
+        "You have multiple swollen joints with systemic illness",
+        "You cannot bear weight or move the affected joint at all",
+        "You feel severely ill, confused, or have signs of widespread infection",
+        "You need urate-lowering therapy initiation or dose titration requiring lab monitoring",
+        "You are not physically in {state} at the time of visit"
+      ]
+    },
+    "alternatives": {
+      "title": "Alternative Care Options",
+      "items": [
+        { "label": "Emergency room:", "text": "fever with acutely swollen joint, suspected septic arthritis, inability to bear weight, severe systemic illness, or rapid worsening" },
+        { "label": "Urgent care:", "text": "first episode of acute joint swelling needing in-person exam and possible joint aspiration, or uncertain diagnosis" },
+        { "label": "Rheumatology:", "text": "chronic tophaceous gout, refractory disease despite urate-lowering therapy, complex medication management, or atypical presentations" },
+        { "label": "Primary care:", "text": "urate-lowering therapy initiation and monitoring, comorbidity management, serial uric acid level checks, and long-term gout prevention planning" }
+      ]
+    }
+  },
+
+  "faq": {
+    "sectionTitle": "Gout Treatment FAQs for {state}",
+    "items": [
+      {
+        "question": "Can I get treatment for a gout flare online in {state}?",
+        "answer": "Yes, if you are an adult 18+ located in {state} with a known prior gout diagnosis and your symptoms are consistent with a recurrent flare without red flags. TeleDirectMD can prescribe anti-inflammatory medication when clinically appropriate after screening for fever, joint infection risk, and other serious causes of joint pain."
+      },
+      {
+        "question": "How much does an online gout visit cost in {state}?",
+        "answer": "TeleDirectMD offers a transparent self pay option starting at $49 for an adult video visit in {state}. Insurance is not required. Prescription costs at your pharmacy are separate and vary by medication and pharmacy."
+      },
+      {
+        "question": "Can a doctor diagnose gout without an in-person exam?",
+        "answer": "For patients with a confirmed prior gout diagnosis experiencing a recurrent flare with a classic pattern, telehealth evaluation is often appropriate. However, for a first episode of acute joint swelling, in-person evaluation with joint aspiration is the gold standard to confirm urate crystals and rule out septic arthritis. TeleDirectMD does not diagnose gout for the first time by telehealth."
+      },
+      {
+        "question": "Why does my first gout episode need to be evaluated in person?",
+        "answer": "A first episode of sudden, severe joint swelling can be caused by gout, septic arthritis, pseudogout, or other conditions. Septic arthritis is a medical emergency that can destroy the joint if not treated quickly. Joint aspiration (removing fluid from the joint with a needle) is the only reliable way to distinguish gout from joint infection. Once gout has been confirmed by a provider, future recurrent flares can often be managed by telehealth."
+      },
+      {
+        "question": "What medications are used for acute gout flares?",
+        "answer": "The ACR 2020 guidelines recommend colchicine, NSAIDs (such as indomethacin or naproxen), and oral corticosteroids (such as prednisone) as first-line options for acute gout flares. Colchicine is most effective when started within 24 hours of flare onset. The choice depends on your kidney function, allergies, other medications, and prior response to treatment."
+      },
+      {
+        "question": "Should I start allopurinol during a gout flare?",
+        "answer": "The ACR 2020 guidelines state that urate-lowering therapy such as allopurinol can be started during an acute flare. Previously, guidelines recommended waiting until the flare resolved. Starting during a flare is acceptable as long as appropriate anti-inflammatory treatment is also provided. However, initiation and dose titration typically require lab monitoring and are best managed by your primary care provider or rheumatologist."
+      },
+      {
+        "question": "What foods should I avoid to prevent gout flares?",
+        "answer": "High-purine foods including red meat, organ meats (liver, kidney), shellfish, and certain fish can increase uric acid levels and trigger flares. Alcohol, especially beer and liquor, is strongly associated with gout. High-fructose corn syrup in sweetened beverages also raises uric acid. A balanced diet with adequate hydration, limited alcohol, and reduced purine-rich foods can help reduce flare frequency."
+      },
+      {
+        "question": "Does {state} allow telemedicine for this kind of visit?",
+        "answer": "Yes. {state} allows licensed professionals to provide telemedicine within their scope when appropriate and according to accepted standards of care."
+      },
+      {
+        "question": "Can TeleDirectMD provide gout care in other states?",
+        "answer": "Yes. TeleDirectMD offers adult evaluations via video visits across multiple states where our physicians are licensed. You must be physically located in the state where you are requesting care at the time of your video visit."
+      },
+      {
+        "question": "What if my gout flare does not improve after starting treatment?",
+        "answer": "If symptoms are not improving within 48 to 72 hours, you should be reassessed. You may need a change in therapy, combination treatment, or reconsideration of the diagnosis. New fever at any time requires urgent in-person evaluation to rule out joint infection. If you cannot tolerate oral medications, in-person care with injectable options may be needed."
+      }
+    ],
+    "bottomCta": {
+      "title": "Need help today?",
+      "text": "Insurance is not required. Adult-only video visits. MD-only care. Safety-first triage, symptom relief, and prescriptions only when appropriate."
+    }
+  },
+
+  "references": [
+    { "text": "2020 American College of Rheumatology Guideline for Management of Gout (FitzGerald et al.)", "url": "https://rheumatology.org/gout-guideline" },
+    { "text": "Management of Acute and Recurrent Gout: A Clinical Practice Guideline From the American College of Physicians (Qaseem et al., 2017)", "url": "https://www.acpjournals.org/doi/10.7326/M16-0570" },
+    { "text": "2020 ACR Guidelines for Management of Gout, Part 1 and Part 2 (Arthritis Care & Research)", "url": "https://acrjournals.onlinelibrary.wiley.com/doi/10.1002/acr.24180" },
+    { "text": "Gout, StatPearls (2025)", "url": "https://www.ncbi.nlm.nih.gov/books/NBK546606/" },
+    { "text": "FDA Prescribing Information for Colchicine (Colcrys)", "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2023/022352s017lbl.pdf" }
+  ],
+
+  "disclaimer": {
+    "sectionTitle": "TeleDirectMD Telehealth Disclaimer",
+    "paragraphs": [
+      "TeleDirectMD provides MD-only virtual urgent care for adults (18+) in {state} using secure video visits to evaluate recurrent gout flare symptoms, provide evidence-based guidance, and prescribe anti-inflammatory treatment when clinically appropriate. Insurance is not required. You must be physically located in {state} at the time of your video visit. TeleDirectMD does not prescribe controlled substances.",
+      "TeleDirectMD is not an emergency service and is not a replacement for urgent in-person care during suspected septic arthritis, first-episode acute monoarthritis, or severe systemic illness. This service is intended for recurrent gout flares in adults with a known diagnosis and is not a substitute for joint aspiration, laboratory evaluation, or rheumatology consultation when clinically indicated.",
+      "Online gout treatment in {state}. Gout flare treatment by video visit. Gout medication online. Acute gout care telehealth."
+    ]
+  },
+
+  "relatedConditions": [
+    {
+      "slug": "uti-treatment-online",
+      "title": "UTI Treatment",
+      "description": "Another common acute condition evaluated and treated by MD video visit"
+    },
+    {
+      "slug": "covid-19-treatment-online",
+      "title": "COVID-19 Treatment",
+      "description": "Acute illness evaluation by telehealth with safety-first red-flag screening"
+    },
+    {
+      "slug": "sinus-infection-treatment-online",
+      "title": "Sinus Infection",
+      "description": "Common acute infection evaluated by MD video visit with antibiotic stewardship"
+    },
+    {
+      "slug": "common-cold-treatment-online",
+      "title": "Common Cold",
+      "description": "Symptom management and evaluation for acute illness by telehealth"
+    }
+  ],
+
+  "inlineLinks": [
+    { "slug": "uti-treatment-online", "label": "UTI Treatment" },
+    { "slug": "sinus-infection-treatment-online", "label": "Sinus Infection" },
+    { "slug": "sore-throat-treatment-online", "label": "Sore Throat" },
+    { "slug": "covid-19-treatment-online", "label": "COVID-19 Treatment" },
+    { "slug": "common-cold-treatment-online", "label": "Common Cold" },
+    { "slug": "ear-pain-treatment-online", "label": "Ear Pain" },
+    { "slug": "influenza-treatment-online", "label": "Influenza" },
+    { "slug": "pink-eye-treatment-online", "label": "Pink Eye" },
+    { "slug": "cold-sore-treatment-online", "label": "Cold Sore" },
+    { "slug": "asthma-refills-online", "label": "Asthma Refills" }
+  ],
+
+  "cityBlock": {
+    "title": "Adults We Serve Across {state}",
+    "text": "TeleDirectMD evaluates adults located throughout {state}, including {citiesExtended}. Whether you are searching for online gout treatment in {city1}, gout flare care in {city2}, gout medication online in {city3}, or telehealth gout evaluation anywhere else in {state}, the same telehealth eligibility and safety rules apply."
+  },
+
+  "icd10Codes": [
+    { "code": "M10.9", "description": "Gout, unspecified" },
+    { "code": "M10.00", "description": "Idiopathic gout, unspecified site" },
+    { "code": "M10.071", "description": "Idiopathic gout, right ankle and foot" },
+    { "code": "M10.072", "description": "Idiopathic gout, left ankle and foot" },
+    { "code": "M10.011", "description": "Idiopathic gout, right shoulder" },
+    { "code": "M10.062", "description": "Idiopathic gout, left knee" }
+  ],
+
+  "jsonLd": {
+    "conditionName": "Gout",
+    "conditionAlternateNames": ["Gouty arthritis", "Podagra", "Acute gout flare", "Monosodium urate crystal arthropathy"],
+    "conditionDescription": "Gout is an inflammatory arthritis caused by monosodium urate crystal deposition in joints, presenting with sudden severe joint pain, swelling, redness, and warmth. TeleDirectMD evaluates recurrent gout flare symptoms in adults with a known diagnosis by video visit, with safety-first red-flag screening and guideline-based anti-inflammatory treatment when clinically appropriate.",
+    "primaryIcd10": "M10.9",
+    "anatomy": "Joints (commonly first metatarsophalangeal joint, ankle, knee, wrist)",
+    "symptoms": ["Acute joint pain", "Joint swelling", "Joint redness", "Joint warmth", "Podagra"],
+    "riskFactors": [
+      "Hyperuricemia",
+      "High-purine diet",
+      "Alcohol consumption",
+      "Obesity",
+      "Chronic kidney disease",
+      "Diuretic use",
+      "Male sex"
+    ],
+    "complications": [
+      "Tophaceous gout",
+      "Chronic gouty arthropathy",
+      "Urate nephropathy",
+      "Nephrolithiasis"
+    ],
+    "epidemiology": "Gout affects approximately 9.2 million adults in the United States and is the most common form of inflammatory arthritis.",
+    "drugs": [
+      { "name": "Colchicine", "id": "colchicine" },
+      { "name": "Indomethacin", "id": "indomethacin" },
+      { "name": "Naproxen", "id": "naproxen" },
+      { "name": "Prednisone", "id": "prednisone" },
+      { "name": "Allopurinol", "id": "allopurinol" }
+    ],
+    "treatments": [
+      "Anti-inflammatory therapy for acute flares (colchicine, NSAIDs, corticosteroids)",
+      "Urate-lowering therapy for recurrent disease (allopurinol, febuxostat)",
+      "Lifestyle modification and dietary changes",
+      "Urgent in-person evaluation for first episode or suspected septic arthritis"
+    ],
+    "tests": [
+      "Clinical symptom review and red-flag screening",
+      "Joint aspiration with polarized light microscopy (in-person, gold standard)",
+      "Serum uric acid level",
+      "Renal function assessment"
+    ],
+    "specialties": ["Family Medicine", "Telemedicine", "Rheumatology"],
+    "guidelines": [
+      { "name": "2020 ACR Guideline for Management of Gout", "url": "https://rheumatology.org/gout-guideline", "publisher": "American College of Rheumatology", "id": "acr-2020" },
+      { "name": "ACP Clinical Practice Guideline for Management of Acute and Recurrent Gout (2017)", "url": "https://www.acpjournals.org/doi/10.7326/M16-0570", "publisher": "American College of Physicians", "id": "acp-2017" },
+      { "name": "Gout, StatPearls", "url": "https://www.ncbi.nlm.nih.gov/books/NBK546606/", "publisher": "National Library of Medicine", "id": "statpearls-gout" }
+    ],
+    "knowsAbout": [
+      "Gout treatment",
+      "Acute gout flare management",
+      "Anti-inflammatory therapy",
+      "Urate-lowering therapy",
+      "Telehealth triage",
+      "Safety-first red-flag screening",
+      "Family Medicine"
+    ],
+    "serviceDescription": "Secure video visit for {state} adults with recurrent gout flare symptoms, including red-flag screening, guideline-based anti-inflammatory treatment, and prescriptions when clinically appropriate.",
+    "webpageDescription": "{state} gout treatment by secure MD video visit for adults. Evidence-based evaluation of recurrent gout flare symptoms, red-flag screening, guideline-based anti-inflammatory treatment when appropriate, and clear rules for when urgent in-person care is needed."
+  }
+}

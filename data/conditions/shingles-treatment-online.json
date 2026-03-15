@@ -1,0 +1,584 @@
+{
+  "conditionName": "Shingles Treatment",
+  "conditionShort": "Shingles",
+  "conditionSlug": "shingles-treatment-online",
+  "pageTitle": "Shingles Treatment Online in {state} | Herpes Zoster MD Video Visit | TeleDirectMD",
+  "metaDescription": "Evidence-based shingles treatment for {state} adults by secure video visit. Antiviral prescriptions within the 72-hour window, red-flag screening, and postherpetic neuralgia prevention. Self pay option starting at $49. Insurance is not required.",
+  "ogImageAlt": "Shingles treatment in {state} by TeleDirectMD",
+
+  "hero": {
+    "h1": "Shingles Treatment in {state} (Herpes Zoster)",
+    "subtitle": "{state} adult care by secure video visit, self pay option starting at $49, MD-only, insurance is not required.",
+    "introParagraph": "Shingles, also called herpes zoster, is caused by reactivation of the varicella-zoster virus and typically presents as a painful, blistering rash in a single dermatomal distribution. Antiviral treatment is most effective when started within 72 hours of rash onset, making timely access to care critical. Not every painful rash is shingles, and not every shingles presentation is safe for telehealth management. TeleDirectMD uses a safety-first approach that screens for red flags including ophthalmic involvement, disseminated rash, immunosuppression, Ramsay Hunt syndrome, and signs of bacterial superinfection before determining whether treatment by video visit is appropriate. If the clinical picture supports uncomplicated dermatomal herpes zoster without red flags, guideline-based antiviral treatment and pain management can be initiated by video, while adults with complicated presentations or high-risk features are directed to urgent in-person or specialist care. This page is for adults located in {state}, including {cities}.",
+    "tocLinks": [
+      { "href": "eligibility-checklist", "label": "Eligibility checklist" },
+      { "href": "decision-guide", "label": "Decision guide" },
+      { "href": "treatment-options", "label": "Treatment options" },
+      { "href": "faq", "label": "FAQs" },
+      { "href": "references", "label": "References" }
+    ],
+    "benefits": [
+      "Self pay option starting at $49",
+      "MD-only care (no mid-levels)",
+      "Insurance is not required",
+      "Licensed telehealth care for patients located in {state} at the time of the visit"
+    ],
+    "sideCard": {
+      "h2": "Online MD-Only Shingles Care in {state}",
+      "features": [
+        "Fast evaluation to start antivirals within the critical 72-hour window",
+        "Red-flag screening for ophthalmic zoster, disseminated rash, and Ramsay Hunt syndrome",
+        "Guideline-based antiviral and pain management prescriptions when appropriate",
+        "Clear follow-up steps and postherpetic neuralgia prevention guidance"
+      ],
+      "note": "Adults 18+ only. TeleDirectMD is not an emergency service. Go to urgent care or the ER now for rash involving the eye or forehead, widespread blistering beyond one dermatome, facial weakness or hearing changes, severe headache with stiff neck, signs of bacterial skin infection with fever, or rapidly worsening symptoms. TeleDirectMD does not prescribe controlled substances."
+    },
+    "icd10Display": "B02.9, B02.29, B02.22 (final coding depends on clinical details)"
+  },
+
+  "eligibility": {
+    "sectionTitle": "Shingles Telehealth Eligibility Checklist for {state}",
+    "introText": "You are likely eligible for a TeleDirectMD video visit if ALL of these are true:",
+    "eligible": [
+      "You are 18 years old or older",
+      "You are physically located in {state} at the time of the visit",
+      "You have a painful rash that appears to follow a band or strip pattern on one side of the body",
+      "The rash appeared within the last 72 hours or you are experiencing significant pain from a recent shingles episode",
+      "The rash does not involve your eye, forehead, or nose tip",
+      "You are not significantly immunocompromised (no active chemotherapy, organ transplant medications, or uncontrolled HIV)",
+      "You do not have widespread blistering beyond one area of the body",
+      "Insurance is not required. A self pay option is available."
+    ],
+    "notEligible": [
+      "You are under 18 years old",
+      "You have blisters on or near your eye, forehead, or the tip of your nose (possible ophthalmic zoster)",
+      "You have blisters spreading widely across multiple areas of your body (possible disseminated zoster)",
+      "You have facial weakness, ear pain, or hearing changes (possible Ramsay Hunt syndrome)",
+      "You are significantly immunocompromised",
+      "You have high fever with signs of severe illness or confusion",
+      "You have signs of bacterial skin infection over the rash area with spreading redness and fever"
+    ],
+    "notEligibleDisclaimer": "If you have red-flag symptoms, seek urgent in-person care or emergency care immediately. TeleDirectMD is not appropriate for complex or high-risk shingles presentations."
+  },
+
+  "howItWorks": {
+    "sectionTitle": "How Online Shingles Treatment Works in {state}",
+    "steps": [
+      {
+        "type": "check",
+        "title": "Book your video visit",
+        "description": "Insurance is not required. No referral needed. Many visits are available same day, depending on scheduling. Before your visit, note when the rash first appeared, which side of the body is affected, whether blisters are near your eye or ear, your pain level, any immune conditions, current medications, and whether you have had chickenpox or the shingles vaccine."
+      },
+      {
+        "type": "check",
+        "title": "See a {state} licensed MD by video",
+        "description": "We review your rash pattern, onset timing, pain severity, location relative to the eye and ear, immune status, and risk factors for complications. Photos of the rash are assessed during the visit. The MD determines whether the presentation is consistent with uncomplicated dermatomal herpes zoster and whether antiviral treatment within the 72-hour window is appropriate."
+      },
+      {
+        "type": "good",
+        "title": "Get a treatment plan and, if appropriate, a prescription",
+        "description": "If medication is clinically appropriate, we send an e-prescription to common {state} pharmacies such as {pharmacies}. You receive clear follow-up steps regardless of treatment choice, including postherpetic neuralgia prevention guidance, home care instructions, and when to seek in-person care if symptoms worsen.",
+        "showCta": true
+      }
+    ]
+  },
+
+  "telehealthRegulations": {
+    "sectionTitle": "{state} Telehealth Regulations for Online Shingles Care",
+    "paragraphs": [
+      "{telehealthRegulation}",
+      "Location matters: you must be physically in {state} during the visit. Insurance is not required. TeleDirectMD does not prescribe controlled substances."
+    ]
+  },
+
+  "comparisonTable": {
+    "sectionTitle": "TeleDirectMD vs Other Care Options for Shingles in {state}",
+    "intro": "Here is how TeleDirectMD compares to common settings for adult shingles care in {state}:",
+    "rows": [
+      {
+        "option": "TeleDirectMD",
+        "cost": "Self pay option starting at $49",
+        "wait": "Same day, often within hours",
+        "provider": "Board-certified MD only (no mid-levels)",
+        "bestFor": "Uncomplicated dermatomal shingles within the 72-hour antiviral window, with red-flag screening and pain management",
+        "highlight": true
+      },
+      {
+        "option": "Urgent Care",
+        "cost": "$150 to $300+ (before insurance)",
+        "wait": "1 to 3 hours typical",
+        "provider": "MD, DO, PA, or NP",
+        "bestFor": "Uncertain rash diagnosis, moderate symptoms, or when in-person exam is needed for rash evaluation",
+        "highlight": false
+      },
+      {
+        "option": "Emergency Room",
+        "cost": "$500 to $3,000+ (before insurance)",
+        "wait": "2 to 6 hours typical",
+        "provider": "Emergency medicine MD or DO",
+        "bestFor": "Ophthalmic zoster, disseminated rash, Ramsay Hunt syndrome, severe illness, or immunocompromised patients",
+        "highlight": false
+      },
+      {
+        "option": "Primary Care",
+        "cost": "$100 to $250+ (varies)",
+        "wait": "3 to 14 days typical",
+        "provider": "Family medicine or internal medicine MD or DO",
+        "bestFor": "Follow-up care, postherpetic neuralgia management, shingles vaccination discussion, and chronic pain planning",
+        "highlight": false
+      },
+      {
+        "option": "Dermatology",
+        "cost": "$150 to $400+ (varies)",
+        "wait": "Days to weeks (varies)",
+        "provider": "Dermatologist MD or DO",
+        "bestFor": "Atypical rash presentations, diagnostic uncertainty, recurrent herpes zoster, or complicated skin findings",
+        "highlight": false
+      }
+    ],
+    "bottomLine": "TeleDirectMD is a strong fit for uncomplicated shingles within the 72-hour treatment window, with a safety-first approach, direct MD evaluation, and same-day antiviral access when appropriate."
+  },
+
+  "decisionGuide": {
+    "sectionTitle": "Should I Use TeleDirectMD for Shingles in {state}? Decision Guide",
+    "steps": [
+      {
+        "type": "urgent",
+        "title": "Do you have any emergency or red-flag symptoms?",
+        "items": [
+          "Rash on or near the eye, forehead, or nose tip (possible ophthalmic zoster)",
+          "Widespread blistering across multiple body areas (possible disseminated zoster)",
+          "Facial weakness, ear pain, or hearing changes (possible Ramsay Hunt syndrome)",
+          "Severe headache with stiff neck or confusion",
+          "High fever with signs of severe illness or rapidly worsening symptoms"
+        ],
+        "yesAction": "If yes, seek urgent in-person care, the ER, or ophthalmology now",
+        "noAction": "If no, continue to Step 2"
+      },
+      {
+        "type": "check",
+        "title": "Are you 18+ and currently in {state}?",
+        "items": [],
+        "yesAction": "If yes, continue to Step 3",
+        "noAction": "If no, use in-person care as appropriate"
+      },
+      {
+        "type": "check",
+        "title": "Does your rash fit uncomplicated shingles?",
+        "items": [
+          "Painful blistering rash on one side of the body in a band or strip pattern",
+          "Rash appeared within the last 72 hours (or you have significant ongoing pain)",
+          "Rash does not involve the eye, ear, or face",
+          "You are not significantly immunocompromised"
+        ],
+        "yesAction": "If yes, continue to Step 4",
+        "noAction": "If no or you are unsure about the rash, seek in-person evaluation"
+      },
+      {
+        "type": "good",
+        "title": "You are likely appropriate for a TeleDirectMD video visit",
+        "description": "TeleDirectMD can evaluate your rash by video, confirm whether the presentation is consistent with shingles, screen for red flags, and prescribe antiviral therapy and pain management when clinically appropriate. If your symptoms suggest a complicated presentation or an alternative diagnosis, we will direct you to the right level of in-person or specialist care.",
+        "items": [],
+        "showCta": true
+      }
+    ]
+  },
+
+  "pricing": {
+    "sectionTitle": "What Does Shingles Treatment Cost in {state}?",
+    "subtitle": "Transparent options. Insurance is not required.",
+    "visitPrice": "$49",
+    "priceSubtext": "Self pay option. Insurance is not required.",
+    "includes": [
+      "MD evaluation and red-flag screening",
+      "Assessment for uncomplicated shingles vs conditions requiring in-person care",
+      "Antiviral prescription when clinically appropriate within the 72-hour window",
+      "Pain management plan",
+      "Postherpetic neuralgia prevention guidance",
+      "Clear follow-up steps"
+    ],
+    "comparisonBars": [
+      { "name": "TeleDirectMD", "value": "$49", "width": 12, "isTdmd": true },
+      { "name": "Primary Care", "value": "$100 to $250+", "width": 45, "isTdmd": false },
+      { "name": "Urgent Care", "value": "$150 to $300+", "width": 55, "isTdmd": false },
+      { "name": "Emergency Room", "value": "$500 to $3,000+", "width": 100, "isTdmd": false }
+    ],
+    "footnote": "Prescription costs at your pharmacy are separate and vary by medication and pharmacy.",
+    "noHiddenFees": "No hidden fees. If medication is not clinically appropriate, you still receive a complete evaluation, guidance, and clear instructions on what level of care you need next."
+  },
+
+  "whatIsCondition": {
+    "sectionTitle": "What Is Shingles?",
+    "paragraphs": [
+      "Shingles, also called herpes zoster, is caused by the reactivation of varicella-zoster virus (VZV), the same virus that causes chickenpox. After a person recovers from chickenpox, the virus remains dormant in the dorsal root ganglia of the nervous system and can reactivate years or decades later, producing a painful vesicular rash that typically follows a single dermatomal distribution on one side of the body.",
+      "Shingles affects roughly one in three Americans during their lifetime, and the risk increases significantly after age 50. Immunosuppression, stress, and advancing age are the most common triggers for reactivation. The most feared complication is postherpetic neuralgia (PHN), a chronic pain condition that can persist for months or years after the rash resolves, and PHN risk increases substantially with age and delayed treatment.",
+      "TeleDirectMD focuses on uncomplicated adult shingles presentations appropriate for telehealth, with careful screening to identify ophthalmic zoster, disseminated disease, Ramsay Hunt syndrome, and other high-risk features that require urgent in-person or specialist evaluation."
+    ]
+  },
+
+  "causesAndRiskFactors": {
+    "sectionTitle": "Causes and Risk Factors",
+    "intro": "Shingles occurs when varicella-zoster virus reactivates from its dormant state in the nerve ganglia. Understanding risk factors helps determine whether a telehealth evaluation is appropriate or whether in-person care is needed.",
+    "items": [
+      { "label": "Age over 50:", "text": "the immune system's ability to keep VZV dormant weakens with age, and both shingles incidence and postherpetic neuralgia risk increase significantly after 50" },
+      { "label": "Immunosuppression:", "text": "organ transplant recipients, patients on chemotherapy, those taking immunosuppressive medications, and people with uncontrolled HIV are at higher risk for shingles and for more severe or disseminated disease" },
+      { "label": "Prior chickenpox infection:", "text": "anyone who has had chickenpox carries dormant VZV and is at risk for shingles, though most people develop shingles only once" },
+      { "label": "Stress and illness:", "text": "physical or emotional stress, recent surgery, and concurrent illness can contribute to immune suppression and trigger VZV reactivation" },
+      { "label": "No vaccination:", "text": "adults who have not received the Shingrix vaccine remain at higher risk, and the CDC recommends vaccination for adults aged 50 and older regardless of prior chickenpox history" }
+    ],
+    "closing": "Not every painful rash is shingles. Contact dermatitis, herpes simplex, cellulitis, insect bites, and other conditions can mimic the early stages of herpes zoster. TeleDirectMD uses symptom patterns, rash photos, and safety screening to arrive at the most likely diagnosis and to direct higher-risk or uncertain cases to in-person care."
+  },
+
+  "symptomsAndRedFlags": {
+    "sectionTitle": "Symptoms and Red Flags for Shingles in {state}",
+    "intro": "Use this table to understand which symptoms fit uncomplicated shingles and which symptoms suggest a need for urgent in-person or specialist evaluation.",
+    "headers": ["Symptom or situation", "What it suggests", "Telehealth appropriate?", "Red flag requiring urgent in-person care"],
+    "rows": [
+      ["Painful blistering rash in a band on one side of the body", "Classic dermatomal herpes zoster", "Often yes", "If rapidly spreading beyond one dermatome or accompanied by high fever"],
+      ["Burning, tingling, or shooting pain before or with rash", "Prodromal or active shingles neuropathic pain", "Often yes", "Severe pain unresponsive to over-the-counter medication may need stronger management"],
+      ["Rash on the forehead, nose tip, or near the eye", "Ophthalmic zoster (V1 dermatome) with risk of vision damage", "No", "Urgent ophthalmology or ER evaluation needed"],
+      ["Facial weakness, ear pain, or hearing changes with rash", "Ramsay Hunt syndrome (facial nerve involvement)", "No", "Urgent in-person evaluation and specialist referral"],
+      ["Widespread blistering across multiple body areas", "Disseminated zoster suggesting immune compromise", "No", "Urgent in-person care or ER"],
+      ["Fever with worsening redness, swelling, or pus at rash site", "Possible bacterial superinfection of shingles lesions", "No", "Urgent in-person evaluation for possible cellulitis or abscess"],
+      ["Persistent pain lasting weeks after rash has healed", "Postherpetic neuralgia", "Sometimes", "If pain is severe, disabling, or not responding to initial management"]
+    ]
+  },
+
+  "differentialDiagnosis": {
+    "sectionTitle": "Differential Diagnosis: Shingles vs Other Conditions",
+    "intro": "Several conditions can mimic shingles, especially in the early prodromal phase before the rash appears or when the rash is atypical. TeleDirectMD focuses on identifying classic dermatomal herpes zoster and directing uncertain or complicated presentations to in-person care.",
+    "telehealthAppropriate": {
+      "title": "Sometimes Appropriate for Telehealth",
+      "items": [
+        "Classic dermatomal vesicular rash on one side of the body without red flags",
+        "New-onset painful rash within 72 hours of appearance in an immunocompetent adult",
+        "Rash assessment via photo to confirm dermatomal pattern",
+        "Antiviral and pain management initiation when clinically appropriate",
+        "Follow-up for postherpetic neuralgia symptoms in stable patients"
+      ]
+    },
+    "requiresInPerson": {
+      "title": "Often Requires In-Person Evaluation",
+      "items": [
+        "Ophthalmic zoster with risk of corneal or vision involvement",
+        "Ramsay Hunt syndrome with facial nerve palsy and ear involvement",
+        "Disseminated zoster with widespread blistering across multiple dermatomes",
+        "Immunocompromised patients at risk for severe or prolonged disease",
+        "Bacterial superinfection overlying shingles lesions with fever"
+      ]
+    },
+    "compareCards": [
+      {
+        "title": "Shingles vs Herpes Simplex",
+        "text": "Shingles (herpes zoster) typically presents as a painful vesicular rash in a dermatomal band pattern on one side of the body and usually occurs once. Herpes simplex (HSV) causes recurrent clusters of small blisters in a localized area, most commonly on the lips or genitals, and episodes tend to recur in the same location. Both are caused by herpesvirus family members but have different treatment regimens and clinical implications."
+      },
+      {
+        "title": "Shingles vs Contact Dermatitis",
+        "text": "Contact dermatitis causes an itchy, sometimes blistering rash in the area exposed to an irritant or allergen, and the distribution follows the area of contact rather than a dermatomal pattern. Shingles pain is typically described as burning or shooting and follows a nerve path, while contact dermatitis is primarily itchy rather than painful. A careful history of exposures and the distribution of the rash helps distinguish the two."
+      }
+    ],
+    "closing": "If your rash does not match a classic dermatomal pattern or any red flags are present, TeleDirectMD will direct you to urgent in-person care or specialist evaluation."
+  },
+
+  "telehealthEligibility": {
+    "sectionTitle": "When Is a Video Visit Appropriate?",
+    "appropriate": {
+      "title": "When a Video Visit Is Appropriate",
+      "items": [
+        "Painful vesicular rash in a dermatomal band pattern on one side of the body",
+        "Rash onset within 72 hours or significant pain from recent shingles episode",
+        "Rash does not involve the eye, forehead, nose, or ear",
+        "No signs of disseminated rash across multiple dermatomes",
+        "Immunocompetent without severe immunosuppression",
+        "No signs of bacterial superinfection with fever",
+        "Located in {state} at time of visit"
+      ]
+    },
+    "redFlags": {
+      "title": "Red Flags Requiring In-Person or ER Care",
+      "items": [
+        "Rash involving the eye, forehead, or tip of the nose (ophthalmic zoster)",
+        "Facial weakness, ear pain, or hearing changes (Ramsay Hunt syndrome)",
+        "Widespread blistering beyond a single dermatome (disseminated zoster)",
+        "Significant immunosuppression (chemotherapy, transplant medications, uncontrolled HIV)",
+        "High fever with signs of severe illness or confusion",
+        "Spreading redness, swelling, or pus suggesting bacterial superinfection"
+      ],
+      "disclaimer": "If any red-flag symptoms are present, seek urgent in-person or emergency care. TeleDirectMD is not appropriate for these situations."
+    }
+  },
+
+  "treatmentOptions": {
+    "sectionTitle": "Treatment Options",
+    "intro": "Uncomplicated shingles is treated with antiviral medication to shorten the course of illness, reduce severity, and lower the risk of postherpetic neuralgia. Antivirals are most effective when started within 72 hours of rash onset. Pain management is an important component of shingles treatment, as the neuropathic pain can be significant.",
+    "sections": [
+      {
+        "title": "Antiviral therapy",
+        "text": "Guideline-based antiviral therapy is the cornerstone of shingles treatment. Valacyclovir, famciclovir, and acyclovir are the three FDA-approved antivirals for herpes zoster. Valacyclovir is often preferred due to its convenient three-times-daily dosing and better bioavailability compared to acyclovir's five-times-daily regimen. Starting antivirals within 72 hours of rash onset significantly reduces the duration of viral shedding, accelerates rash healing, and lowers the risk of postherpetic neuralgia."
+      },
+      {
+        "title": "Pain management",
+        "text": "Shingles pain ranges from mild discomfort to severe burning, stabbing, or shooting pain. Over-the-counter options include ibuprofen, naproxen, and acetaminophen. For neuropathic pain that is not adequately controlled, gabapentin or lidocaine patches may be considered. Cool compresses and calamine lotion can provide additional comfort. TeleDirectMD does not prescribe controlled substances."
+      },
+      {
+        "title": "Postherpetic neuralgia prevention",
+        "text": "The most important step in preventing postherpetic neuralgia is early antiviral treatment. Patients over 50 are at highest risk for PHN. If neuropathic pain persists after the rash heals, follow-up with primary care for consideration of gabapentin, pregabalin, or other targeted pain management is recommended. The Shingrix vaccine is strongly recommended for adults 50 and older to reduce the risk of future shingles episodes and PHN."
+      }
+    ],
+    "doesNotManage": [
+      "Ophthalmic zoster (rash near the eye, forehead, or nose) requiring ophthalmology evaluation",
+      "Disseminated zoster in immunocompromised patients requiring inpatient IV antiviral therapy",
+      "Ramsay Hunt syndrome requiring specialist evaluation and management",
+      "Bacterial superinfection of shingles lesions requiring in-person wound assessment",
+      "Severe postherpetic neuralgia unresponsive to initial outpatient management"
+    ]
+  },
+
+  "medications": {
+    "sectionTitle": "Common Medication Options",
+    "intro": "These are common examples for uncomplicated shingles. The actual medication, dose, and duration are determined by the MD after reviewing your rash presentation, timing of onset, pain severity, immune status, kidney function, allergies, and red flags.",
+    "headers": ["Medication", "Typical dose", "Duration", "Key considerations"],
+    "rows": [
+      ["Valacyclovir (Valtrex)", "1000 mg by mouth three times daily", "7 days", "Preferred antiviral for shingles due to better bioavailability and more convenient dosing than acyclovir. Most effective when started within 72 hours of rash onset. Dose adjustment needed for reduced kidney function."],
+      ["Famciclovir", "500 mg by mouth three times daily", "7 days", "Alternative antiviral with similar efficacy to valacyclovir. Convenient three-times-daily dosing. Dose adjustment needed for reduced kidney function."],
+      ["Acyclovir", "800 mg by mouth five times daily", "7 to 10 days", "Effective antiviral but requires five-times-daily dosing, which can reduce adherence. Adequate hydration is important. Dose adjustment needed for reduced kidney function."],
+      ["Ibuprofen (OTC)", "400 to 600 mg by mouth every 6 to 8 hours as needed", "As needed", "Over-the-counter anti-inflammatory for mild to moderate shingles pain. Avoid with certain kidney conditions or GI bleeding risk."],
+      ["Acetaminophen (OTC)", "500 to 1000 mg by mouth every 6 hours as needed", "As needed", "Over-the-counter pain reliever. Can be combined with NSAIDs for additive pain relief. Avoid exceeding 3000 mg per day."],
+      ["Gabapentin", "300 mg by mouth at bedtime, titrate as directed", "Varies", "Used for neuropathic pain from shingles or postherpetic neuralgia. Dose is gradually increased based on response and tolerability. Dose adjustment needed for reduced kidney function."]
+    ],
+    "note": "Example regimens only. The actual medication, dosing, and duration are determined by the MD after reviewing your rash presentation, onset timing, pain level, kidney function, immune status, and red flags. TeleDirectMD does not prescribe controlled substances."
+  },
+
+  "homeCare": {
+    "sectionTitle": "Home Care, Recovery Timeline, Prevention, and Follow-up",
+    "whatToDoNow": {
+      "title": "Recovery Timeline and What to Do Now",
+      "items": [
+        "New blister formation typically stops within 3 to 5 days of starting antivirals, and blisters usually scab over within 7 to 10 days",
+        "Keep the rash clean and dry to reduce infection risk, and avoid scratching or picking at blisters",
+        "Apply cool, moist compresses or calamine lotion to the affected area for comfort",
+        "Wear loose-fitting clothing over the rash to reduce irritation",
+        "Take antiviral medication exactly as prescribed for the full course, even if symptoms begin to improve"
+      ]
+    },
+    "whatToWatch": {
+      "title": "What to Watch For Over the Next 24 to 72 Hours",
+      "items": [
+        "New blisters appearing far from the original rash may suggest disseminated zoster and requires urgent evaluation",
+        "Increasing redness, warmth, swelling, or pus at the rash site may indicate bacterial superinfection",
+        "Any changes in vision, eye redness, or eye pain require immediate ophthalmology evaluation",
+        "Facial weakness, difficulty closing one eye, or hearing changes require urgent in-person evaluation",
+        "Fever developing after starting treatment may suggest a complication"
+      ]
+    },
+    "followUp": {
+      "title": "Prevention and Follow-up",
+      "items": [
+        "Avoid direct contact between the rash and people who have never had chickenpox or the chickenpox vaccine, especially pregnant women, newborns, and immunocompromised individuals",
+        "Cover the rash with a clean, non-adherent bandage when around others",
+        "If pain persists beyond 90 days after the rash heals, follow up with primary care for postherpetic neuralgia evaluation",
+        "Discuss the Shingrix vaccine with your primary care provider, as it is recommended for adults 50 and older and can reduce the risk of future shingles episodes",
+        "If you experience recurrent shingles episodes, in-person evaluation for underlying immune conditions may be recommended"
+      ]
+    }
+  },
+
+  "whenNotToUse": {
+    "sectionTitle": "When Not to Use TeleDirectMD for Shingles in {state}",
+    "intro": "TeleDirectMD is designed for uncomplicated adult shingles presentations. We are direct about when telehealth is not appropriate.",
+    "shouldNotUse": {
+      "title": "You Should Not Use TeleDirectMD If",
+      "items": [
+        "You are under 18 years old",
+        "You have a rash involving your eye, forehead, or nose tip (ophthalmic zoster)",
+        "You have facial weakness, ear pain, or hearing changes (Ramsay Hunt syndrome)",
+        "You have widespread blistering across multiple body areas (disseminated zoster)",
+        "You are significantly immunocompromised (active chemotherapy, transplant medications, uncontrolled HIV)",
+        "You have signs of bacterial superinfection with fever over the rash area",
+        "You feel severely ill, confused, or have a stiff neck with severe headache",
+        "You are not physically in {state} at the time of visit"
+      ]
+    },
+    "alternatives": {
+      "title": "Alternative Care Options",
+      "items": [
+        { "label": "Emergency room:", "text": "disseminated zoster, severe illness, confusion, stiff neck, or rapidly worsening symptoms" },
+        { "label": "Ophthalmology (urgent):", "text": "any rash involving the eye, forehead, nose tip, or changes in vision, as ophthalmic zoster can cause permanent vision damage" },
+        { "label": "Urgent care:", "text": "uncertain rash diagnosis, moderate symptoms needing in-person exam, or possible bacterial superinfection" },
+        { "label": "Primary care:", "text": "postherpetic neuralgia management, shingles vaccination planning, and follow-up for chronic pain after shingles" }
+      ]
+    }
+  },
+
+  "faq": {
+    "sectionTitle": "Shingles Treatment FAQs for {state}",
+    "items": [
+      {
+        "question": "Can I get a prescription for shingles online in {state}?",
+        "answer": "Yes, if you are an adult 18+ located in {state} and your rash presentation is appropriate for telehealth after red-flag screening. TeleDirectMD can prescribe antiviral medication and pain management when clinically appropriate. If your presentation suggests ophthalmic zoster, disseminated disease, or another high-risk feature, you will be directed to urgent in-person or specialist care."
+      },
+      {
+        "question": "How much does online shingles treatment cost in {state}?",
+        "answer": "TeleDirectMD offers a transparent self pay option starting at $49 for an adult video visit in {state}. Insurance is not required. Prescription costs at your pharmacy are separate and vary by medication and pharmacy."
+      },
+      {
+        "question": "Why is starting antiviral treatment within 72 hours so important for shingles?",
+        "answer": "Antiviral medications like valacyclovir are most effective when started within 72 hours of rash onset. Early treatment reduces viral replication, shortens the duration and severity of the rash, accelerates healing, and most importantly lowers the risk of postherpetic neuralgia, a chronic pain condition that can persist for months or years. This is why fast access to care through telehealth can be particularly valuable for shingles."
+      },
+      {
+        "question": "Can a doctor diagnose shingles without an in-person exam?",
+        "answer": "Often, yes. Shingles has a highly characteristic presentation, and photo-based diagnosis via telehealth is well supported in clinical practice. A painful vesicular rash in a dermatomal band pattern on one side of the body is the hallmark finding. The MD will review your photos, symptom history, and risk factors to confirm the diagnosis. If the presentation is atypical or there is diagnostic uncertainty, an in-person exam may be recommended."
+      },
+      {
+        "question": "What are the warning signs that shingles needs emergency care?",
+        "answer": "Seek urgent in-person or emergency care if your rash involves the eye, forehead, or tip of the nose (ophthalmic zoster can damage vision), if you develop facial weakness or hearing changes (Ramsay Hunt syndrome), if blisters are spreading widely across multiple body areas (disseminated zoster), if you have high fever with severe illness or confusion, or if the rash site develops increasing redness with pus suggesting bacterial superinfection."
+      },
+      {
+        "question": "Is shingles contagious?",
+        "answer": "Shingles itself is not contagious, but the fluid from shingles blisters contains live varicella-zoster virus and can cause chickenpox in someone who has never had chickenpox or the chickenpox vaccine. You should keep the rash covered, avoid contact with pregnant women, newborns, and immunocompromised individuals, and wash your hands frequently until all blisters have scabbed over."
+      },
+      {
+        "question": "What is postherpetic neuralgia and how can I prevent it?",
+        "answer": "Postherpetic neuralgia (PHN) is chronic nerve pain that persists after the shingles rash has healed, sometimes lasting months or years. It is the most common complication of shingles, and risk increases with age. The most effective prevention is starting antiviral treatment within 72 hours of rash onset. The Shingrix vaccine is also strongly recommended for adults 50 and older to reduce the risk of both shingles and PHN."
+      },
+      {
+        "question": "Does TeleDirectMD treat shingles in other states?",
+        "answer": "Yes. TeleDirectMD offers adult evaluations via video visits across multiple states where our physicians are licensed. You must be physically located in the state where you are requesting care at the time of your video visit."
+      },
+      {
+        "question": "Does {state} allow telemedicine for this kind of visit?",
+        "answer": "Yes. {state} allows licensed professionals to provide telemedicine within their scope when appropriate and according to accepted standards of care."
+      },
+      {
+        "question": "Can I use my insurance for a TeleDirectMD visit?",
+        "answer": "Insurance is not required. If your plan is eligible, you may be able to use insurance. A self pay option is also available."
+      }
+    ],
+    "bottomCta": {
+      "title": "Need help today?",
+      "text": "Insurance is not required. Adult-only video visits. MD-only care. Safety-first triage, antiviral prescriptions within the 72-hour window when appropriate, and clear next steps."
+    }
+  },
+
+  "references": [
+    { "text": "Herpes Zoster Treatment Guidelines, Clinical Infectious Diseases (Dworkin et al.)", "url": "https://academic.oup.com/cid/article/44/Supplement_1/S1/372684" },
+    { "text": "FDA Prescribing Information for Valtrex (Valacyclovir)", "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2008/020487s014lbl.pdf" },
+    { "text": "Shingles (Herpes Zoster) Overview and Vaccination, Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/shingles/index.html" },
+    { "text": "Herpes Zoster, StatPearls (2025)", "url": "https://www.ncbi.nlm.nih.gov/books/NBK441824/" },
+    { "text": "Prevention of Herpes Zoster: Recommendations of the Advisory Committee on Immunization Practices (ACIP), MMWR", "url": "https://www.cdc.gov/mmwr/volumes/67/rr/rr6703a1.htm" },
+    { "text": "Herpes Zoster and Postherpetic Neuralgia, Mayo Clinic Proceedings", "url": "https://www.mayoclinicproceedings.org/article/S0025-6196(11)61540-8/fulltext" }
+  ],
+
+  "disclaimer": {
+    "sectionTitle": "TeleDirectMD Telehealth Disclaimer",
+    "paragraphs": [
+      "TeleDirectMD provides MD-only virtual urgent care for adults (18+) in {state} using secure video visits to evaluate shingles symptoms, provide evidence-based guidance, and prescribe antiviral and pain management treatment when clinically appropriate. Insurance is not required. You must be physically located in {state} at the time of your video visit. TeleDirectMD does not prescribe controlled substances.",
+      "TeleDirectMD is not an emergency service and is not a replacement for urgent in-person care during suspected ophthalmic zoster, disseminated herpes zoster, Ramsay Hunt syndrome, or severe illness. This service is intended for uncomplicated dermatomal shingles and is not a substitute for comprehensive in-person evaluation when red flags are present.",
+      "Online shingles treatment in {state}. Herpes zoster antiviral prescription online. Shingles rash treatment by video visit."
+    ]
+  },
+
+  "relatedConditions": [
+    {
+      "slug": "cold-sore-treatment-online",
+      "title": "Cold Sore",
+      "description": "Another herpesvirus condition treatable with antivirals by video visit"
+    },
+    {
+      "slug": "genital-herpes-treatment-online",
+      "title": "Genital Herpes",
+      "description": "HSV-2 shares the herpesvirus family and similar antiviral treatment approaches"
+    },
+    {
+      "slug": "common-cold-treatment-online",
+      "title": "Common Cold",
+      "description": "Another common acute condition evaluated by MD video visit"
+    },
+    {
+      "slug": "sinus-infection-treatment-online",
+      "title": "Sinus Infection",
+      "description": "Another acute infection commonly evaluated and treated by telehealth"
+    }
+  ],
+
+  "inlineLinks": [
+    { "slug": "cold-sore-treatment-online", "label": "Cold Sore" },
+    { "slug": "genital-herpes-treatment-online", "label": "Genital Herpes" },
+    { "slug": "sinus-infection-treatment-online", "label": "Sinus Infection" },
+    { "slug": "sore-throat-treatment-online", "label": "Sore Throat" },
+    { "slug": "pink-eye-treatment-online", "label": "Pink Eye" },
+    { "slug": "ear-pain-treatment-online", "label": "Ear Pain" },
+    { "slug": "common-cold-treatment-online", "label": "Common Cold" },
+    { "slug": "influenza-treatment-online", "label": "Influenza" },
+    { "slug": "covid-19-treatment-online", "label": "COVID-19" },
+    { "slug": "uti-treatment-online", "label": "UTI" }
+  ],
+
+  "cityBlock": {
+    "title": "Adults We Serve Across {state}",
+    "text": "TeleDirectMD evaluates adults located throughout {state}, including {citiesExtended}. Whether you are searching for online shingles treatment in {city1}, herpes zoster care in {city2}, shingles antiviral prescription online in {city3}, or telehealth shingles evaluation anywhere else in {state}, the same telehealth eligibility and safety rules apply."
+  },
+
+  "icd10Codes": [
+    { "code": "B02.9", "description": "Zoster without complications (herpes zoster NOS)" },
+    { "code": "B02.29", "description": "Other postherpetic nervous system involvement" },
+    { "code": "B02.22", "description": "Postherpetic trigeminal neuralgia" },
+    { "code": "B02.23", "description": "Postherpetic polyneuropathy" }
+  ],
+
+  "jsonLd": {
+    "conditionName": "Herpes Zoster",
+    "conditionAlternateNames": ["Shingles", "Herpes zoster", "Zoster", "Varicella-zoster virus reactivation"],
+    "conditionDescription": "Shingles (herpes zoster) is caused by the reactivation of varicella-zoster virus from the dorsal root ganglia, producing a painful vesicular rash in a dermatomal distribution. TeleDirectMD evaluates adult shingles presentations by video visit with safety-first red-flag screening, guideline-based antiviral prescriptions within the 72-hour treatment window, pain management, and clear rules for when urgent in-person or specialist care is needed.",
+    "primaryIcd10": "B02.9",
+    "anatomy": "Nervous system and skin",
+    "symptoms": ["Painful vesicular rash", "Dermatomal distribution", "Burning or shooting pain", "Tingling or itching prodrome", "Blistering"],
+    "riskFactors": [
+      "Age over 50",
+      "Immunosuppression",
+      "Prior chickenpox infection",
+      "Stress or concurrent illness",
+      "No Shingrix vaccination"
+    ],
+    "complications": [
+      "Postherpetic neuralgia",
+      "Ophthalmic zoster with vision loss",
+      "Ramsay Hunt syndrome",
+      "Bacterial superinfection",
+      "Disseminated zoster"
+    ],
+    "epidemiology": "Shingles affects roughly one in three Americans during their lifetime. Risk increases significantly after age 50, and approximately one million cases occur annually in the United States.",
+    "drugs": [
+      { "name": "Valacyclovir", "id": "valacyclovir" },
+      { "name": "Famciclovir", "id": "famciclovir" },
+      { "name": "Acyclovir", "id": "acyclovir" },
+      { "name": "Gabapentin", "id": "gabapentin" }
+    ],
+    "treatments": [
+      "Antiviral therapy within 72 hours of rash onset",
+      "Nonsteroidal anti-inflammatory pain management",
+      "Neuropathic pain management for postherpetic neuralgia",
+      "Urgent in-person evaluation for complicated presentations"
+    ],
+    "tests": [
+      "Clinical symptom review and rash photo assessment",
+      "Red-flag screening for ophthalmic zoster, disseminated disease, and Ramsay Hunt syndrome"
+    ],
+    "specialties": ["Family Medicine", "Telemedicine", "Dermatology", "Neurology"],
+    "guidelines": [
+      { "name": "CID Herpes Zoster Treatment Guidelines", "url": "https://academic.oup.com/cid/article/44/Supplement_1/S1/372684", "publisher": "Infectious Diseases Society of America", "id": "cid-hz" },
+      { "name": "CDC Shingles (Herpes Zoster) Overview", "url": "https://www.cdc.gov/shingles/index.html", "publisher": "Centers for Disease Control and Prevention", "id": "cdc-shingles" },
+      { "name": "ACIP Recommendations for Prevention of Herpes Zoster", "url": "https://www.cdc.gov/mmwr/volumes/67/rr/rr6703a1.htm", "publisher": "Advisory Committee on Immunization Practices", "id": "acip-hz" }
+    ],
+    "knowsAbout": [
+      "Shingles treatment",
+      "Herpes zoster antiviral therapy",
+      "Postherpetic neuralgia prevention",
+      "Telehealth triage for dermatomal rash",
+      "Safety-first red-flag screening",
+      "Family Medicine"
+    ],
+    "serviceDescription": "Secure video visit for {state} adults with uncomplicated shingles symptoms, including red-flag screening, antiviral prescriptions within the 72-hour window, pain management, and postherpetic neuralgia prevention guidance.",
+    "webpageDescription": "{state} shingles treatment by secure MD video visit for adults. Evidence-based evaluation of herpes zoster, red-flag screening for ophthalmic and disseminated disease, guideline-based antiviral treatment when appropriate, and clear rules for when urgent in-person care is needed."
+  }
+}
