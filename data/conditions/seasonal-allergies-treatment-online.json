@@ -1,0 +1,612 @@
+{
+  "conditionName": "Seasonal Allergy Treatment",
+  "conditionShort": "Seasonal Allergies",
+  "conditionSlug": "seasonal-allergies-treatment-online",
+  "pageTitle": "Seasonal Allergy Treatment Online in {state} | Hay Fever MD Video Visit | TeleDirectMD",
+  "metaDescription": "Evidence-based seasonal allergy treatment for {state} adults by secure video visit. Red-flag screening, intranasal corticosteroid and antihistamine prescriptions when clinically appropriate, and allergen avoidance guidance. Self pay option starting at $49. Insurance is not required.",
+  "ogImageAlt": "Seasonal allergy treatment in {state} by TeleDirectMD",
+
+  "hero": {
+    "h1": "Seasonal Allergy Treatment in {state} (Allergic Rhinitis)",
+    "subtitle": "{state} adult care by secure video visit, self pay option starting at $49, MD-only, insurance is not required.",
+    "introParagraph": "Seasonal allergies, also called allergic rhinitis or hay fever, are an IgE-mediated immune response to airborne allergens such as tree, grass, and weed pollen or mold spores. Symptoms include sneezing, nasal congestion, clear rhinorrhea, itchy eyes, itchy nose, itchy throat, and postnasal drip. The ARIA-EAACI guidelines estimate that allergic rhinitis affects 20 to 30 percent of US adults, and symptoms range from mild intermittent to severe persistent, significantly impacting sleep, work productivity, and quality of life. TeleDirectMD uses a safety-first telehealth approach that screens for red flags including wheezing or shortness of breath suggesting asthma, recurrent sinus infections, unilateral nasal symptoms suggesting structural pathology, and symptoms unresponsive to multiple medications before determining whether treatment by video visit is appropriate. If the history supports seasonal allergic rhinitis without red flags, guideline-based treatment with intranasal corticosteroids, antihistamines, or combination therapy may be prescribed by video, while adults with suspected asthma, nasal polyps, or treatment-resistant symptoms are directed to in-person or specialist care. This page is for adults located in {state}, including {cities}.",
+    "tocLinks": [
+      { "href": "eligibility-checklist", "label": "Eligibility checklist" },
+      { "href": "decision-guide", "label": "Decision guide" },
+      { "href": "treatment-options", "label": "Treatment options" },
+      { "href": "faq", "label": "FAQs" },
+      { "href": "references", "label": "References" }
+    ],
+    "benefits": [
+      "Self pay option starting at $49",
+      "MD-only care (no mid-levels)",
+      "Insurance is not required",
+      "Licensed telehealth care for patients located in {state} at the time of the visit"
+    ],
+    "sideCard": {
+      "h2": "Online MD-Only Seasonal Allergy Care in {state}",
+      "features": [
+        "Symptom pattern assessment for allergic rhinitis severity and triggers",
+        "Red-flag screening for asthma, sinus infection, and nasal polyps",
+        "Guideline-based treatment with intranasal corticosteroids, antihistamines, or combination therapy when appropriate",
+        "Allergen avoidance strategies and long-term management guidance"
+      ],
+      "note": "Adults 18+ only. TeleDirectMD is not an emergency service. Go to urgent care or the ER now for difficulty breathing, wheezing with respiratory distress, severe facial swelling, signs of anaphylaxis, or high fever with severe sinus pain. TeleDirectMD does not prescribe controlled substances."
+    },
+    "icd10Display": "J30.1, J30.2 (final coding depends on clinical details)"
+  },
+
+  "eligibility": {
+    "sectionTitle": "Seasonal Allergy Telehealth Eligibility Checklist for {state}",
+    "introText": "You are likely eligible for a TeleDirectMD video visit if ALL of these are true:",
+    "eligible": [
+      "You are 18 years old or older",
+      "You are physically located in {state} at the time of the visit",
+      "You have typical seasonal allergy symptoms such as sneezing, nasal congestion, runny nose, itchy eyes, or postnasal drip",
+      "Your symptoms follow a seasonal pattern or worsen with outdoor exposure",
+      "You do not have significant wheezing, shortness of breath, or chest tightness",
+      "You do not have high fever, severe facial pain, or purulent nasal discharge suggesting sinus infection",
+      "You do not have unilateral nasal obstruction or recurrent nosebleeds",
+      "Insurance is not required. A self pay option is available."
+    ],
+    "notEligible": [
+      "You are under 18 years old",
+      "You have wheezing, shortness of breath, or chest tightness suggesting asthma",
+      "You have high fever with severe facial pain and purulent nasal drainage suggesting acute bacterial sinusitis",
+      "You have unilateral nasal obstruction, bloody discharge, or facial numbness suggesting structural or serious pathology",
+      "You have severe swelling of the face, lips, or throat suggesting angioedema or anaphylaxis",
+      "You have symptoms unresponsive to multiple medications and need allergy testing",
+      "You are not physically in {state} at the time of the visit"
+    ],
+    "notEligibleDisclaimer": "If you have red-flag symptoms such as difficulty breathing, severe facial swelling, or signs of anaphylaxis, seek urgent in-person care or emergency care immediately. TeleDirectMD is not appropriate for severe or emergency allergic reactions."
+  },
+
+  "howItWorks": {
+    "sectionTitle": "How Online Seasonal Allergy Treatment Works in {state}",
+    "steps": [
+      {
+        "type": "check",
+        "title": "Book your video visit",
+        "description": "Insurance is not required. No referral needed. Many visits are available same day, depending on scheduling. Before your visit, note when symptoms started, whether they follow a seasonal pattern, which symptoms are most bothersome, any medications you have tried (including over-the-counter), any history of asthma, and any allergies to medications."
+      },
+      {
+        "type": "check",
+        "title": "See a {state} licensed MD by video",
+        "description": "We review your symptom pattern, seasonal timing, trigger exposures, prior treatment history including over-the-counter medications, asthma history, medication allergies, and red flags. The ARIA-EAACI guidelines emphasize classifying allergic rhinitis by severity and duration to guide treatment selection."
+      },
+      {
+        "type": "good",
+        "title": "Get a treatment plan and, if appropriate, a prescription",
+        "description": "If medication is clinically appropriate, we send an e-prescription to common {state} pharmacies such as {pharmacies}. You receive a stepwise treatment plan, allergen avoidance strategies, and clear instructions on when to seek in-person care if symptoms do not improve or worsen.",
+        "showCta": true
+      }
+    ]
+  },
+
+  "telehealthRegulations": {
+    "sectionTitle": "{state} Telehealth Regulations for Online Seasonal Allergy Care",
+    "paragraphs": [
+      "{telehealthRegulation}",
+      "Location matters: you must be physically in {state} during the visit. Insurance is not required. TeleDirectMD does not prescribe controlled substances."
+    ]
+  },
+
+  "comparisonTable": {
+    "sectionTitle": "TeleDirectMD vs Other Care Options for Seasonal Allergies in {state}",
+    "intro": "Here is how TeleDirectMD compares to common settings for adult seasonal allergy care in {state}:",
+    "rows": [
+      {
+        "option": "TeleDirectMD",
+        "cost": "Self pay option starting at $49",
+        "wait": "Same day, often within hours",
+        "provider": "Board-certified MD only (no mid-levels)",
+        "bestFor": "Seasonal allergy symptoms without red flags, stepwise medication management, and prescription therapy when over-the-counter options are insufficient",
+        "highlight": true
+      },
+      {
+        "option": "Urgent Care",
+        "cost": "$150 to $300+ (before insurance)",
+        "wait": "1 to 3 hours typical",
+        "provider": "MD, DO, PA, or NP",
+        "bestFor": "Uncertain diagnosis, concern for sinus infection, or moderate symptoms needing same-day in-person evaluation",
+        "highlight": false
+      },
+      {
+        "option": "Emergency Room",
+        "cost": "$500 to $3,000+ (before insurance)",
+        "wait": "2 to 6 hours typical",
+        "provider": "Emergency medicine MD or DO",
+        "bestFor": "Severe allergic reaction with facial swelling, difficulty breathing, anaphylaxis, or severe asthma exacerbation",
+        "highlight": false
+      },
+      {
+        "option": "Primary Care",
+        "cost": "$100 to $250+ (varies)",
+        "wait": "3 to 14 days typical",
+        "provider": "Family medicine or internal medicine MD or DO",
+        "bestFor": "Chronic allergy management, comorbid asthma management, referral coordination for allergy testing or immunotherapy",
+        "highlight": false
+      },
+      {
+        "option": "Allergist",
+        "cost": "$150 to $400+ (varies)",
+        "wait": "Days to weeks (varies)",
+        "provider": "Allergist/immunologist MD or DO",
+        "bestFor": "Allergy skin testing, specific IgE testing, immunotherapy (allergy shots or sublingual tablets), treatment-resistant symptoms, or complicated allergy-asthma overlap",
+        "highlight": false
+      }
+    ],
+    "bottomLine": "TeleDirectMD is a strong fit for seasonal allergy symptoms without red flags, with a safety-first approach, stepwise guideline-based treatment, and direct MD evaluation."
+  },
+
+  "decisionGuide": {
+    "sectionTitle": "Should I Use TeleDirectMD for Seasonal Allergies in {state}? Decision Guide",
+    "steps": [
+      {
+        "type": "urgent",
+        "title": "Do you have any emergency or red-flag symptoms?",
+        "items": [
+          "Difficulty breathing, wheezing, or chest tightness",
+          "Swelling of the face, lips, tongue, or throat",
+          "High fever with severe facial pain or purulent nasal discharge",
+          "Unilateral nasal obstruction, bloody discharge, or facial numbness",
+          "Signs of anaphylaxis such as hives with breathing difficulty or dizziness"
+        ],
+        "yesAction": "If yes, seek urgent in-person care or the ER now depending on severity",
+        "noAction": "If no, continue to Step 2"
+      },
+      {
+        "type": "check",
+        "title": "Are you 18+ and currently in {state}?",
+        "items": [],
+        "yesAction": "If yes, continue to Step 3",
+        "noAction": "If no, use in-person care as appropriate"
+      },
+      {
+        "type": "check",
+        "title": "Do your symptoms fit seasonal allergic rhinitis?",
+        "items": [
+          "Sneezing, nasal congestion, clear runny nose, or postnasal drip",
+          "Itchy eyes, itchy nose, or itchy throat",
+          "Symptoms follow a seasonal pattern or worsen with pollen exposure",
+          "No significant wheezing or shortness of breath",
+          "No high fever or severe facial pain suggesting bacterial sinusitis"
+        ],
+        "yesAction": "If yes, continue to Step 4",
+        "noAction": "If no or symptoms are atypical, seek in-person evaluation for allergy testing or alternative diagnosis"
+      },
+      {
+        "type": "good",
+        "title": "You are likely appropriate for a TeleDirectMD video visit",
+        "description": "TeleDirectMD can evaluate seasonal allergy symptoms, classify severity per ARIA guidelines, confirm safety for telehealth, and prescribe intranasal corticosteroids, antihistamines, or combination therapy when clinically appropriate. If your symptoms suggest asthma, nasal polyps, sinus infection, or an alternative diagnosis, we will direct you to the right level of in-person or specialist care.",
+        "items": [],
+        "showCta": true
+      }
+    ]
+  },
+
+  "pricing": {
+    "sectionTitle": "What Does Seasonal Allergy Treatment Cost in {state}?",
+    "subtitle": "Transparent options. Insurance is not required.",
+    "visitPrice": "$49",
+    "priceSubtext": "Self pay option. Insurance is not required.",
+    "includes": [
+      "MD evaluation and red-flag screening",
+      "Symptom severity classification and trigger assessment",
+      "Stepwise treatment plan with guideline-based medication selection",
+      "Prescription sent if clinically appropriate",
+      "Allergen avoidance strategies and long-term management guidance",
+      "Clear follow-up steps"
+    ],
+    "comparisonBars": [
+      { "name": "TeleDirectMD", "value": "$49", "width": 12, "isTdmd": true },
+      { "name": "Primary Care", "value": "$100 to $250+", "width": 45, "isTdmd": false },
+      { "name": "Urgent Care", "value": "$150 to $300+", "width": 55, "isTdmd": false },
+      { "name": "Emergency Room", "value": "$500 to $3,000+", "width": 100, "isTdmd": false }
+    ],
+    "footnote": "Prescription costs at your pharmacy are separate and vary by medication and pharmacy. Many first-line allergy medications are available over the counter at low cost.",
+    "noHiddenFees": "No hidden fees. If medication is not clinically appropriate, you still receive a complete evaluation, guidance, and clear instructions on what level of care you need next."
+  },
+
+  "whatIsCondition": {
+    "sectionTitle": "What Are Seasonal Allergies?",
+    "paragraphs": [
+      "Seasonal allergies, also known as allergic rhinitis or hay fever, are an immune-mediated inflammatory response triggered by airborne allergens such as tree pollen, grass pollen, weed pollen, and mold spores. When a sensitized person inhales these allergens, the immune system produces IgE antibodies that trigger mast cells to release histamine and other inflammatory mediators, causing the characteristic symptoms of sneezing, nasal congestion, clear rhinorrhea, itchy eyes, and postnasal drip.",
+      "Allergic rhinitis affects an estimated 20 to 30 percent of US adults and is one of the most common chronic conditions worldwide. The ARIA-EAACI guidelines classify allergic rhinitis by duration (intermittent vs persistent) and severity (mild vs moderate-severe) based on impact on sleep, daily activities, work, and school performance. Seasonal allergies can also trigger or worsen asthma, contribute to sinus infections, cause Eustachian tube dysfunction with ear fullness, and significantly reduce quality of life.",
+      "TeleDirectMD focuses on seasonal allergic rhinitis presentations appropriate for telehealth, with careful screening to direct suspected asthma, recurrent sinusitis, nasal polyps, and treatment-resistant cases to in-person or specialist care."
+    ]
+  },
+
+  "causesAndRiskFactors": {
+    "sectionTitle": "Causes and Risk Factors",
+    "intro": "Seasonal allergic rhinitis is caused by an IgE-mediated immune response to specific airborne allergens. The type of pollen varies by season and geographic region, with tree pollen predominating in spring, grass pollen in late spring and summer, and ragweed pollen in late summer and fall. Understanding triggers and risk factors helps guide treatment timing and allergen avoidance strategies.",
+    "items": [
+      { "label": "Family history of atopy:", "text": "having a parent or sibling with allergies, asthma, or eczema significantly increases your risk of developing allergic rhinitis" },
+      { "label": "Personal history of atopic conditions:", "text": "eczema, asthma, and food allergies are part of the atopic march and often co-occur with allergic rhinitis" },
+      { "label": "Environmental pollen exposure:", "text": "tree pollen in spring, grass pollen in late spring and summer, and ragweed pollen in late summer and fall are the most common seasonal triggers in the United States" },
+      { "label": "Mold spore exposure:", "text": "outdoor mold spores peak in warm, humid conditions and can trigger seasonal symptoms similar to pollen allergies" },
+      { "label": "Geographic and climate factors:", "text": "warmer temperatures and longer growing seasons are increasing pollen counts and extending allergy seasons in many regions" }
+    ],
+    "closing": "Not every nasal symptom is allergic rhinitis. The common cold, vasomotor rhinitis, sinusitis, and nasal polyps can mimic seasonal allergy symptoms. TeleDirectMD uses symptom patterns, seasonal timing, and red-flag screening to identify likely allergic rhinitis and to direct alternative diagnoses to appropriate in-person evaluation."
+  },
+
+  "symptomsAndRedFlags": {
+    "sectionTitle": "Symptoms and Red Flags for Seasonal Allergies in {state}",
+    "intro": "Use this table to understand which symptoms fit seasonal allergic rhinitis and which suggest a need for urgent in-person evaluation.",
+    "headers": ["Symptom or situation", "What it suggests", "Telehealth appropriate?", "Red flag requiring urgent in-person care"],
+    "rows": [
+      ["Sneezing, clear rhinorrhea, nasal congestion, itchy nose", "Classic allergic rhinitis nasal symptoms", "Often yes", "If unilateral obstruction, bloody discharge, or facial numbness"],
+      ["Itchy, watery, red eyes (allergic conjunctivitis)", "Common co-occurring allergic eye symptoms", "Often yes", "If eye pain, vision changes, or purulent discharge suggesting infection"],
+      ["Postnasal drip with throat clearing or mild cough", "Mucus drainage from allergic rhinitis", "Often yes", "If cough is severe, productive with colored sputum, or accompanied by fever"],
+      ["Seasonal pattern worsening outdoors during pollen season", "Strongly supports allergic rhinitis as the cause", "Often yes", "Rarely a red flag alone"],
+      ["Nasal congestion with facial pressure and thick discolored discharge for more than 10 days", "Possible acute bacterial sinusitis rather than allergies alone", "Sometimes", "If high fever, severe facial pain, or worsening after initial improvement"],
+      ["Wheezing, chest tightness, or shortness of breath", "Possible asthma triggered by or co-occurring with allergic rhinitis", "No", "Seek in-person care for pulmonary evaluation and spirometry"],
+      ["Facial swelling, lip or throat swelling, hives with breathing difficulty", "Possible angioedema or anaphylaxis", "No", "Emergency care immediately"]
+    ]
+  },
+
+  "differentialDiagnosis": {
+    "sectionTitle": "Differential Diagnosis: Seasonal Allergies vs Other Conditions",
+    "intro": "Several conditions can mimic seasonal allergic rhinitis. The ARIA-EAACI guidelines emphasize that accurate classification of rhinitis type guides treatment selection. TeleDirectMD focuses on identifying classic seasonal allergic rhinitis and directing alternative diagnoses to targeted care when appropriate.",
+    "telehealthAppropriate": {
+      "title": "Sometimes Appropriate for Telehealth",
+      "items": [
+        "Classic seasonal allergic rhinitis symptoms with seasonal pattern",
+        "Mild to moderate-severe allergic rhinitis needing stepwise medication management",
+        "Allergic conjunctivitis co-occurring with rhinitis symptoms",
+        "Postnasal drip and mild cough attributed to allergic rhinitis",
+        "Review of over-the-counter medication adequacy and prescription upgrade when needed"
+      ]
+    },
+    "requiresInPerson": {
+      "title": "Often Requires In-Person Evaluation",
+      "items": [
+        "Suspected asthma with wheezing or shortness of breath needing spirometry",
+        "Acute bacterial sinusitis with fever, severe facial pain, and purulent discharge",
+        "Nasal polyps suspected based on persistent bilateral nasal obstruction and anosmia",
+        "Treatment-resistant symptoms despite multiple medications needing allergy testing",
+        "Need for immunotherapy initiation (allergy shots or first dose of sublingual tablets)"
+      ]
+    },
+    "compareCards": [
+      {
+        "title": "Seasonal Allergies vs Common Cold",
+        "text": "Both can cause sneezing, congestion, and runny nose. Seasonal allergies characteristically cause itchy eyes, itchy nose, and clear watery discharge with a seasonal pattern lasting weeks to months. The common cold typically causes thicker nasal discharge that may become colored, often includes sore throat and low-grade fever, and resolves within 7 to 10 days. Allergies do not cause fever, and colds do not typically cause itchy eyes."
+      },
+      {
+        "title": "Seasonal Allergies vs Sinus Infection",
+        "text": "Allergic rhinitis can predispose to sinus infections, and the two conditions can overlap. Uncomplicated seasonal allergies cause clear rhinorrhea, bilateral nasal congestion, and itching without fever. Acute bacterial sinusitis typically presents with purulent nasal discharge, facial pain or pressure, and symptoms lasting more than 10 days or worsening after initial improvement, sometimes with fever. Persistent or recurrent sinusitis warrants in-person evaluation."
+      }
+    ],
+    "closing": "If your symptoms do not match seasonal allergic rhinitis or any red flags are present, TeleDirectMD will direct you to in-person or specialist care for allergy testing, imaging, or further evaluation."
+  },
+
+  "telehealthEligibility": {
+    "sectionTitle": "When Is a Video Visit Appropriate?",
+    "appropriate": {
+      "title": "When a Video Visit Is Appropriate",
+      "items": [
+        "Typical seasonal allergy symptoms (sneezing, congestion, rhinorrhea, itchy eyes)",
+        "Symptoms follow a seasonal pattern or worsen with pollen exposure",
+        "Over-the-counter medications are insufficient and prescription therapy is needed",
+        "No significant wheezing, shortness of breath, or chest tightness",
+        "No high fever or severe facial pain suggesting bacterial sinusitis",
+        "No unilateral nasal obstruction or bloody discharge",
+        "Located in {state} at time of visit"
+      ]
+    },
+    "redFlags": {
+      "title": "Red Flags Requiring In-Person or Specialist Care",
+      "items": [
+        "Wheezing, shortness of breath, or chest tightness suggesting asthma",
+        "High fever with severe facial pain and purulent nasal discharge",
+        "Unilateral nasal obstruction, recurrent nosebleeds, or facial numbness",
+        "Swelling of face, lips, tongue, or throat suggesting angioedema",
+        "Symptoms unresponsive to multiple medications needing allergy testing",
+        "Suspected nasal polyps with persistent bilateral obstruction and loss of smell"
+      ],
+      "disclaimer": "If any red-flag symptoms are present, seek urgent in-person or specialist care. TeleDirectMD is not appropriate for emergency allergic reactions or suspected asthma."
+    }
+  },
+
+  "treatmentOptions": {
+    "sectionTitle": "Treatment Options",
+    "intro": "Seasonal allergic rhinitis treatment follows a stepwise approach based on symptom severity and duration, as recommended by the ARIA-EAACI guidelines and the AAAAI. Intranasal corticosteroids are the most effective single agent for nasal symptoms and are considered first-line for moderate-severe allergic rhinitis. Starting treatment 2 to 4 weeks before the expected pollen season provides the best results, as intranasal corticosteroids take several days to reach full effect.",
+    "sections": [
+      {
+        "title": "Intranasal corticosteroids (most effective single agent)",
+        "text": "Intranasal corticosteroids such as fluticasone, mometasone, and triamcinolone are the cornerstone of allergic rhinitis treatment and the most effective single agent for nasal congestion, rhinorrhea, sneezing, and nasal itch. They reduce nasal mucosal inflammation and are recommended as first-line therapy for moderate-severe symptoms. Many are available over the counter, but proper technique and consistent daily use are essential for effectiveness. Starting 2 to 4 weeks before the expected pollen season is recommended for optimal benefit."
+      },
+      {
+        "title": "Oral antihistamines",
+        "text": "Second-generation oral antihistamines such as cetirizine, loratadine, and fexofenadine effectively reduce sneezing, rhinorrhea, and itching but are less effective for nasal congestion compared to intranasal corticosteroids. They are preferred over first-generation antihistamines such as diphenhydramine because they cause less sedation. They work well as add-on therapy to intranasal corticosteroids when itching and sneezing are prominent."
+      },
+      {
+        "title": "Intranasal antihistamines and combination sprays",
+        "text": "Prescription intranasal antihistamines such as azelastine and olopatadine provide rapid symptom relief and are effective for both nasal and ocular symptoms. Combination sprays such as azelastine-fluticasone (Dymista) combine an intranasal antihistamine with a corticosteroid and are recommended for moderate-severe symptoms not adequately controlled by either agent alone."
+      },
+      {
+        "title": "Allergen avoidance and supportive care",
+        "text": "Monitoring pollen counts, keeping windows closed during peak pollen days, showering after outdoor exposure, using HEPA filters, and nasal saline irrigation can meaningfully reduce symptom burden. These non-pharmacologic strategies complement medication therapy and are recommended for all patients with seasonal allergic rhinitis."
+      },
+      {
+        "title": "Advanced and long-term options",
+        "text": "For patients with inadequate response to medications, allergen immunotherapy (allergy shots or sublingual immunotherapy tablets) can modify the underlying immune response. Leukotriene modifiers such as montelukast may benefit patients with co-occurring asthma. These options typically require in-person evaluation or allergy testing and are discussed as part of long-term management planning."
+      }
+    ],
+    "doesNotManage": [
+      "Suspected asthma with wheezing or shortness of breath needing spirometry and in-person evaluation",
+      "Acute bacterial sinusitis with high fever and severe facial pain",
+      "Nasal polyps requiring otolaryngology referral",
+      "Allergy testing (skin prick testing or specific IgE) requiring in-person visit",
+      "Immunotherapy initiation requiring supervised first-dose administration"
+    ]
+  },
+
+  "medications": {
+    "sectionTitle": "Common Medication Options",
+    "intro": "These are common examples for seasonal allergic rhinitis. The actual medication, dose, and duration are determined by the MD after reviewing your symptoms, severity, prior treatments, medication allergies, comorbidities, and red flags.",
+    "headers": ["Medication", "Typical dose", "Duration", "Key considerations"],
+    "rows": [
+      ["Fluticasone propionate nasal spray (intranasal corticosteroid)", "2 sprays per nostril once daily", "Daily throughout allergy season", "Most effective single agent for nasal symptoms. Start 2-4 weeks before pollen season for best results. Available OTC. Proper spray technique is essential — aim away from septum."],
+      ["Cetirizine (second-generation oral antihistamine)", "10 mg by mouth once daily", "Daily as needed throughout allergy season", "Effective for sneezing, itching, and rhinorrhea. Less effective for congestion than intranasal corticosteroids. May cause mild drowsiness in some patients. Available OTC."],
+      ["Azelastine nasal spray (intranasal antihistamine)", "1-2 sprays per nostril twice daily", "Daily throughout allergy season", "Prescription intranasal antihistamine with rapid onset. Effective for nasal and ocular symptoms. May cause bitter taste. Can be used alone or combined with intranasal corticosteroid."],
+      ["Azelastine-fluticasone combination spray (Dymista)", "1 spray per nostril twice daily", "Daily throughout allergy season", "Prescription combination spray for moderate-severe symptoms not controlled by either agent alone. Combines benefits of intranasal antihistamine and corticosteroid."],
+      ["Montelukast (leukotriene modifier)", "10 mg by mouth once daily", "Daily throughout allergy season", "Prescription option especially useful when allergic rhinitis co-occurs with asthma. Less effective than intranasal corticosteroids as monotherapy for rhinitis. FDA boxed warning for neuropsychiatric events — discuss risks and benefits."],
+      ["Olopatadine eye drops (ophthalmic antihistamine)", "1 drop in each affected eye once or twice daily", "As needed for allergic conjunctivitis", "Prescription or OTC eye drops for itchy, watery, red eyes associated with allergic conjunctivitis. Provides targeted relief for ocular symptoms."]
+    ],
+    "note": "Example regimens only. The actual medication, dosing, and duration are determined by the MD after reviewing your symptoms, severity, prior treatments, allergies, and red flags. TeleDirectMD does not prescribe controlled substances. Many first-line allergy medications are available over the counter, and the MD can guide you on proper use, technique, and when prescription-strength therapy is needed."
+  },
+
+  "homeCare": {
+    "sectionTitle": "Home Care, Prevention, and Follow-up",
+    "whatToDoNow": {
+      "title": "What to Do Now and During Allergy Season",
+      "items": [
+        "Start intranasal corticosteroid spray 2 to 4 weeks before your expected allergy season for best results",
+        "Use proper nasal spray technique: shake well, aim the nozzle away from the nasal septum, and breathe in gently",
+        "Take oral antihistamines daily as directed, not just when symptoms flare",
+        "Monitor local pollen counts and limit outdoor exposure on high-count days, especially during early morning hours",
+        "Keep windows closed during peak pollen season and use air conditioning with clean filters",
+        "Shower and change clothes after spending time outdoors to remove pollen from skin and hair"
+      ]
+    },
+    "whatToWatch": {
+      "title": "What to Watch For During Allergy Season",
+      "items": [
+        "Worsening congestion despite consistent medication use may need treatment escalation or in-person evaluation",
+        "New wheezing, chest tightness, or shortness of breath may indicate asthma and requires in-person evaluation",
+        "Fever with facial pain and thick discolored nasal discharge lasting more than 10 days may suggest bacterial sinusitis",
+        "Avoid prolonged use of over-the-counter nasal decongestant sprays such as oxymetazoline beyond 3 days to prevent rebound congestion (rhinitis medicamentosa)",
+        "If over-the-counter antihistamines and nasal sprays are not providing adequate relief, prescription options are available"
+      ]
+    },
+    "followUp": {
+      "title": "Prevention and Follow-up",
+      "items": [
+        "Use nasal saline irrigation daily to rinse allergens from nasal passages",
+        "Consider HEPA air purifiers in the bedroom to reduce indoor allergen exposure",
+        "Keep car windows closed and use recirculating air during pollen season",
+        "If symptoms persist despite multiple medications, consider in-person allergy testing for targeted treatment",
+        "For severe or year-round allergic rhinitis, discuss immunotherapy options (allergy shots or sublingual tablets) with an allergist"
+      ]
+    }
+  },
+
+  "whenNotToUse": {
+    "sectionTitle": "When Not to Use TeleDirectMD for Seasonal Allergies in {state}",
+    "intro": "TeleDirectMD is designed for seasonal allergic rhinitis symptoms appropriate for telehealth. We are direct about when telehealth is not appropriate.",
+    "shouldNotUse": {
+      "title": "You Should Not Use TeleDirectMD If",
+      "items": [
+        "You are under 18 years old",
+        "You have wheezing, shortness of breath, or chest tightness suggesting asthma",
+        "You have high fever with severe facial pain and purulent nasal discharge suggesting bacterial sinusitis",
+        "You have swelling of the face, lips, tongue, or throat suggesting angioedema or anaphylaxis",
+        "You have unilateral nasal obstruction, recurrent nosebleeds, or facial numbness",
+        "Your symptoms have not responded to multiple medications and you need allergy testing",
+        "You need allergy shots or supervised first-dose immunotherapy",
+        "You are not physically in {state} at the time of visit"
+      ]
+    },
+    "alternatives": {
+      "title": "Alternative Care Options",
+      "items": [
+        { "label": "Emergency room:", "text": "severe allergic reaction with facial swelling, throat swelling, difficulty breathing, anaphylaxis, or severe asthma exacerbation" },
+        { "label": "Urgent care:", "text": "same-day evaluation when diagnosis is uncertain, suspected sinus infection with fever, or moderate symptoms needing in-person exam" },
+        { "label": "Allergist:", "text": "allergy skin testing, specific IgE testing, immunotherapy (allergy shots or sublingual tablets), treatment-resistant symptoms, or complicated allergy-asthma overlap" },
+        { "label": "Primary care:", "text": "chronic allergy management, asthma co-management, referral coordination, and long-term follow-up" }
+      ]
+    }
+  },
+
+  "faq": {
+    "sectionTitle": "Seasonal Allergy Treatment FAQs for {state}",
+    "items": [
+      {
+        "question": "Can I get a prescription for seasonal allergies online in {state}?",
+        "answer": "Yes, if you are an adult 18+ located in {state} and your symptoms are appropriate for telehealth after red-flag screening. TeleDirectMD can prescribe intranasal antihistamines, combination nasal sprays, leukotriene modifiers, ophthalmic antihistamines, and other prescription allergy medications when clinically appropriate."
+      },
+      {
+        "question": "How much does online seasonal allergy treatment cost in {state}?",
+        "answer": "TeleDirectMD offers a transparent self pay option starting at $49 for an adult video visit in {state}. Insurance is not required. Prescription costs at your pharmacy are separate and vary by medication and pharmacy. Many first-line allergy medications are available over the counter at low cost."
+      },
+      {
+        "question": "What is the most effective medication for seasonal allergies?",
+        "answer": "Intranasal corticosteroids such as fluticasone, mometasone, and triamcinolone are the most effective single agent for nasal allergy symptoms according to the ARIA-EAACI guidelines. They reduce nasal congestion, rhinorrhea, sneezing, and nasal itch more effectively than oral antihistamines alone. For moderate-severe symptoms, combining an intranasal corticosteroid with an oral or intranasal antihistamine often provides the best relief."
+      },
+      {
+        "question": "When should I start taking allergy medication before pollen season?",
+        "answer": "Starting intranasal corticosteroid sprays 2 to 4 weeks before your expected pollen season provides the best results, as these medications reduce nasal inflammation gradually and take several days to reach full effect. Oral antihistamines can be started when symptoms begin, but consistent daily use throughout the season is more effective than using them only when symptoms flare."
+      },
+      {
+        "question": "Why should I avoid using nasal decongestant sprays like Afrin for more than 3 days?",
+        "answer": "Over-the-counter nasal decongestant sprays containing oxymetazoline or phenylephrine provide rapid but temporary congestion relief by constricting blood vessels in the nasal passages. Using them for more than 3 consecutive days can cause rebound congestion, also called rhinitis medicamentosa, where the nasal passages become more congested when the spray wears off, leading to a cycle of increasing use and worsening symptoms. Intranasal corticosteroids are a safer and more effective long-term option for nasal congestion."
+      },
+      {
+        "question": "Can seasonal allergies trigger asthma?",
+        "answer": "Yes. Allergic rhinitis and asthma frequently co-occur, and poorly controlled allergic rhinitis can trigger or worsen asthma symptoms. The ARIA guidelines describe allergies and asthma as linked airway diseases. If you have wheezing, chest tightness, or shortness of breath along with allergy symptoms, you need in-person evaluation including spirometry to assess for asthma. TeleDirectMD screens for these symptoms and directs patients with suspected asthma to in-person care."
+      },
+      {
+        "question": "What is the difference between seasonal and perennial allergic rhinitis?",
+        "answer": "Seasonal allergic rhinitis is triggered by outdoor allergens such as tree, grass, and weed pollen that follow predictable seasonal patterns. Perennial allergic rhinitis is triggered by year-round indoor allergens such as dust mites, pet dander, mold, and cockroach allergens. Some patients have both. The treatment approach is similar, but identifying specific triggers through allergy testing can help guide targeted avoidance strategies and immunotherapy decisions."
+      },
+      {
+        "question": "Do I need allergy testing before starting treatment?",
+        "answer": "Not necessarily. For classic seasonal allergic rhinitis with a clear seasonal pattern and typical symptoms, guideline-based treatment can be initiated based on clinical history without allergy testing. Allergy testing (skin prick or specific IgE blood tests) is recommended when the diagnosis is uncertain, symptoms do not respond to standard treatment, or immunotherapy is being considered. Allergy testing requires an in-person visit with an allergist."
+      },
+      {
+        "question": "Are over-the-counter allergy medications enough, or do I need a prescription?",
+        "answer": "Many effective allergy medications are available over the counter, including intranasal corticosteroids (fluticasone, triamcinolone) and second-generation oral antihistamines (cetirizine, loratadine, fexofenadine). However, if over-the-counter options are not providing adequate relief, prescription medications such as intranasal antihistamines, combination sprays, leukotriene modifiers, or prescription-strength antihistamines may be needed. TeleDirectMD can evaluate your current regimen and prescribe appropriate escalation therapy."
+      },
+      {
+        "question": "Can TeleDirectMD prescribe allergy shots or sublingual immunotherapy?",
+        "answer": "TeleDirectMD can discuss immunotherapy as a long-term management option, but allergy shots (subcutaneous immunotherapy) require in-person administration and monitoring. Sublingual immunotherapy tablets such as Grastek and Oralair may have the first dose administered under medical supervision in an office setting. If immunotherapy is appropriate for you, TeleDirectMD can help guide you toward an allergist referral."
+      },
+      {
+        "question": "Does TeleDirectMD treat seasonal allergies in other states?",
+        "answer": "Yes. TeleDirectMD offers adult evaluations via video visits across multiple states where our physicians are licensed. You must be physically located in the state where you are requesting care at the time of your video visit."
+      },
+      {
+        "question": "Can I use my insurance for a TeleDirectMD visit?",
+        "answer": "Insurance is not required. If your plan is eligible, you may be able to use insurance. A self pay option is also available."
+      },
+      {
+        "question": "What if my allergy symptoms do not improve with treatment?",
+        "answer": "If your symptoms do not improve after 2 to 4 weeks of consistent treatment with intranasal corticosteroids and antihistamines, you may need treatment escalation, allergy testing to identify specific triggers, or evaluation for alternative diagnoses such as vasomotor rhinitis, nasal polyps, or chronic sinusitis. TeleDirectMD can reassess your treatment plan and recommend in-person follow-up or allergist referral when appropriate."
+      },
+      {
+        "question": "Is montelukast (Singulair) a good option for seasonal allergies?",
+        "answer": "Montelukast is a leukotriene modifier that can help with allergic rhinitis, especially when co-occurring with asthma. However, it is generally less effective than intranasal corticosteroids as monotherapy for nasal allergy symptoms. The FDA has issued a boxed warning for montelukast regarding potential neuropsychiatric side effects including mood changes, sleep disturbances, and suicidal thoughts. Your MD will discuss the risks and benefits and determine whether montelukast is appropriate for your specific situation."
+      }
+    ],
+    "bottomCta": {
+      "title": "Need help today?",
+      "text": "Insurance is not required. Adult-only video visits. MD-only care. Safety-first triage, guideline-based allergy treatment, and prescriptions only when appropriate."
+    }
+  },
+
+  "references": [
+    { "text": "ARIA-EAACI 2024-2025 Guidelines for Allergic Rhinitis", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12862529/" },
+    { "text": "AAAAI — Allergic Rhinitis: Diagnosis and Treatment (American Academy of Allergy, Asthma and Immunology)", "url": "https://www.aaaai.org/conditions-treatments/allergies/rhinitis" },
+    { "text": "Dykewicz MS, Wallace DV, et al. Rhinitis 2020: A practice parameter update. J Allergy Clin Immunol. 2020;146(4):721-767.", "url": "https://www.jacionline.org/article/S0091-6749(20)31123-1/fulltext" },
+    { "text": "Allergic Rhinitis, StatPearls (2025)", "url": "https://www.ncbi.nlm.nih.gov/books/NBK538186/" },
+    { "text": "Bousquet J, et al. Allergic Rhinitis and its Impact on Asthma (ARIA) 2019 Update. Allergy. 2020;75(5):1063-1098.", "url": "https://onlinelibrary.wiley.com/doi/full/10.1111/all.14049" }
+  ],
+
+  "disclaimer": {
+    "sectionTitle": "TeleDirectMD Telehealth Disclaimer",
+    "paragraphs": [
+      "TeleDirectMD provides MD-only virtual urgent care for adults (18+) in {state} using secure video visits to evaluate seasonal allergy symptoms, provide evidence-based guidance, and prescribe allergy medication when clinically appropriate. Insurance is not required. You must be physically located in {state} at the time of your video visit. TeleDirectMD does not prescribe controlled substances.",
+      "TeleDirectMD is not an emergency service and is not a replacement for urgent in-person care during severe allergic reactions, anaphylaxis, or asthma exacerbations. This service is intended for seasonal allergic rhinitis symptoms and is not a substitute for comprehensive in-person evaluation with allergy testing when red flags are present or symptoms are treatment-resistant.",
+      "Online seasonal allergy treatment in {state}. Allergic rhinitis prescription online. Hay fever treatment by video visit."
+    ]
+  },
+
+  "relatedConditions": [
+    {
+      "slug": "asthma-refills-online",
+      "title": "Asthma Refills",
+      "description": "Allergic rhinitis and asthma frequently co-occur as linked airway diseases and often require coordinated management"
+    },
+    {
+      "slug": "sinus-infection-treatment-online",
+      "title": "Sinus Infection",
+      "description": "Allergic rhinitis predisposes to sinus infections, and the two conditions can overlap or be confused"
+    },
+    {
+      "slug": "common-cold-treatment-online",
+      "title": "Common Cold",
+      "description": "Cold symptoms such as congestion and runny nose can mimic seasonal allergies and vice versa"
+    },
+    {
+      "slug": "pink-eye-treatment-online",
+      "title": "Pink Eye",
+      "description": "Allergic conjunctivitis commonly co-occurs with allergic rhinitis and may need targeted eye treatment"
+    }
+  ],
+
+  "inlineLinks": [
+    { "slug": "asthma-refills-online", "label": "Asthma Refills" },
+    { "slug": "sinus-infection-treatment-online", "label": "Sinus Infection" },
+    { "slug": "common-cold-treatment-online", "label": "Common Cold" },
+    { "slug": "pink-eye-treatment-online", "label": "Pink Eye" },
+    { "slug": "sore-throat-treatment-online", "label": "Sore Throat" },
+    { "slug": "ear-pain-treatment-online", "label": "Ear Pain" },
+    { "slug": "eczema-treatment-online", "label": "Eczema" },
+    { "slug": "covid-19-treatment-online", "label": "COVID-19" },
+    { "slug": "influenza-treatment-online", "label": "Influenza" },
+    { "slug": "uti-treatment-online", "label": "UTI" }
+  ],
+
+  "cityBlock": {
+    "title": "Adults We Serve Across {state}",
+    "text": "TeleDirectMD evaluates adults located throughout {state}, including {citiesExtended}. Whether you are searching for online seasonal allergy treatment in {city1}, hay fever prescription online in {city2}, allergic rhinitis telehealth in {city3}, or telehealth allergy evaluation anywhere else in {state}, the same telehealth eligibility and safety rules apply."
+  },
+
+  "icd10Codes": [
+    { "code": "J30.1", "description": "Allergic rhinitis due to pollen" },
+    { "code": "J30.2", "description": "Other seasonal allergic rhinitis" }
+  ],
+
+  "jsonLd": {
+    "conditionName": "Seasonal Allergic Rhinitis",
+    "conditionAlternateNames": ["Seasonal allergies", "Hay fever", "Allergic rhinitis", "Pollen allergy"],
+    "conditionDescription": "Seasonal allergic rhinitis (hay fever) is an IgE-mediated inflammatory response to airborne allergens such as pollen and mold spores, causing sneezing, nasal congestion, rhinorrhea, and itchy eyes. TeleDirectMD evaluates adult seasonal allergy symptoms by video visit with safety-first red-flag screening, guideline-based treatment with intranasal corticosteroids, antihistamines, or combination therapy when clinically appropriate, and clear rules for when in-person or specialist care is needed.",
+    "primaryIcd10": "J30.1",
+    "anatomy": "Upper respiratory tract (nasal passages, sinuses, eyes)",
+    "symptoms": ["Sneezing", "Nasal congestion", "Clear rhinorrhea", "Itchy eyes", "Itchy nose and throat", "Postnasal drip"],
+    "riskFactors": [
+      "Family history of atopy",
+      "Personal history of eczema or asthma",
+      "Environmental pollen exposure",
+      "Geographic and climate factors"
+    ],
+    "complications": [
+      "Asthma exacerbation",
+      "Acute and chronic sinusitis",
+      "Eustachian tube dysfunction",
+      "Sleep disruption and reduced quality of life",
+      "Rhinitis medicamentosa from decongestant overuse"
+    ],
+    "epidemiology": "Allergic rhinitis affects an estimated 20 to 30 percent of US adults and is one of the most common chronic conditions worldwide.",
+    "drugs": [
+      { "name": "Fluticasone propionate nasal spray", "id": "fluticasone" },
+      { "name": "Cetirizine", "id": "cetirizine" },
+      { "name": "Azelastine nasal spray", "id": "azelastine" },
+      { "name": "Azelastine-fluticasone (Dymista)", "id": "dymista" },
+      { "name": "Montelukast", "id": "montelukast" }
+    ],
+    "treatments": [
+      "Intranasal corticosteroids (most effective single agent)",
+      "Second-generation oral antihistamines",
+      "Intranasal antihistamines and combination sprays",
+      "Allergen avoidance and nasal saline irrigation",
+      "Leukotriene modifiers for allergy-asthma overlap",
+      "Immunotherapy referral for treatment-resistant cases"
+    ],
+    "tests": [
+      "Clinical symptom review and red-flag screening",
+      "Allergy skin prick testing when in-person evaluation is indicated",
+      "Specific IgE blood testing for targeted allergen identification"
+    ],
+    "specialties": ["Family Medicine", "Telemedicine", "Allergy and Immunology"],
+    "guidelines": [
+      { "name": "ARIA-EAACI 2024-2025 Guidelines for Allergic Rhinitis", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12862529/", "publisher": "ARIA-EAACI", "id": "aria" },
+      { "name": "AAAAI Allergic Rhinitis Diagnosis and Treatment", "url": "https://www.aaaai.org/conditions-treatments/allergies/rhinitis", "publisher": "American Academy of Allergy, Asthma and Immunology", "id": "aaaai" },
+      { "name": "Allergic Rhinitis, StatPearls (2025)", "url": "https://www.ncbi.nlm.nih.gov/books/NBK538186/", "publisher": "StatPearls", "id": "statpearls" }
+    ],
+    "knowsAbout": [
+      "Seasonal allergy treatment",
+      "Allergic rhinitis management",
+      "Intranasal corticosteroid therapy",
+      "Antihistamine selection",
+      "Allergen avoidance strategies",
+      "Telehealth triage",
+      "Safety-first red-flag screening",
+      "Family Medicine"
+    ],
+    "serviceDescription": "Secure video visit for {state} adults with seasonal allergy symptoms, including red-flag screening, guideline-based treatment with intranasal corticosteroids, antihistamines, or combination therapy when clinically appropriate, and allergen avoidance guidance.",
+    "webpageDescription": "{state} seasonal allergy treatment by secure MD video visit for adults. Evidence-based evaluation of allergic rhinitis symptoms, red-flag screening, guideline-based treatment with intranasal corticosteroids and antihistamines when appropriate, and clear rules for when in-person or specialist care is needed."
+  }
+}
