@@ -1,0 +1,584 @@
+{
+  "conditionName": "Sinus Infection",
+  "conditionShort": "sinus infection",
+  "conditionSlug": "sinus-infection-treatment-online",
+  "pageTitle": "Sinus Infection Treatment Online in {state} | Sinusitis MD Video Visit | TeleDirectMD",
+  "metaDescription": "Fast, evidence-based sinus infection treatment for {state} adults by secure video visit. Red-flag screening, guideline-based antibiotic stewardship, and prescriptions when clinically appropriate. Self pay option starting at $49. Insurance is not required.",
+  "ogImageAlt": "Sinus infection treatment in {state} by TeleDirectMD",
+
+  "hero": {
+    "h1": "Sinus Infection Treatment in {state} (Acute Sinusitis)",
+    "subtitle": "{state} adult care by secure video visit, self pay option starting at $49, MD-only, insurance is not required.",
+    "introParagraph": "Acute sinusitis is one of the most common reasons adults seek medical care, but most cases are viral and do not benefit from antibiotics. The AAO-HNS 2025 Adult Sinusitis Update Clinical Practice Guideline recommends watchful waiting for 3 to 5 days as the preferred initial approach for acute bacterial rhinosinusitis before considering antibiotics, because the majority of cases improve without antimicrobial therapy. The IDSA 2012 guidelines define acute bacterial rhinosinusitis (ABRS) by specific criteria: symptoms persisting 10 or more days beyond URI onset without improvement, symptoms that worsen within 10 days after initial improvement (double worsening), or severe symptoms including fever of 102°F or higher with purulent nasal discharge for 3 or more consecutive days. TeleDirectMD uses a safety-first telehealth approach that screens for red flags including severe headache with high fever, visual changes, facial swelling, and neurological symptoms before determining whether treatment by video visit is appropriate. If the history supports uncomplicated acute sinusitis without red flags, guideline-based treatment including watchful waiting or antibiotics when indicated may be reasonable by video, while adults with orbital or intracranial complications are directed to emergency care. This page is for adults located in {state}, including {cities}.",
+    "tocLinks": [
+      { "href": "eligibility-checklist", "label": "Eligibility checklist" },
+      { "href": "decision-guide", "label": "Decision guide" },
+      { "href": "treatment-options", "label": "Treatment options" },
+      { "href": "faq", "label": "FAQs" },
+      { "href": "references", "label": "References" }
+    ],
+    "benefits": [
+      "Self pay option starting at $49",
+      "MD-only care (no mid-levels)",
+      "Insurance is not required",
+      "Licensed telehealth care for patients located in {state} at the time of the visit"
+    ],
+    "sideCard": {
+      "h2": "Online MD-Only Sinus Infection Care in {state}",
+      "features": [
+        "Evaluation for acute sinusitis symptoms including facial pain and nasal congestion",
+        "Red-flag screening for orbital and intracranial complications",
+        "Guideline-based antibiotic stewardship with watchful waiting when appropriate",
+        "Clear follow-up steps and escalation rules"
+      ],
+      "note": "Adults 18+ only. TeleDirectMD is not an emergency service. Go to the ER now for severe headache with high fever, visual changes or eye swelling, altered mental status, neck stiffness, facial cellulitis spreading rapidly, or any signs of orbital or intracranial complication. TeleDirectMD does not prescribe controlled substances."
+    },
+    "icd10Display": "J01.90, J01.00, J01.10, or J01.20 (final coding depends on clinical details)"
+  },
+
+  "eligibility": {
+    "sectionTitle": "Sinus Infection Telehealth Eligibility Checklist for {state}",
+    "introText": "You are likely eligible for a TeleDirectMD video visit if ALL of these are true:",
+    "eligible": [
+      "You are 18 years old or older",
+      "You are physically located in {state} at the time of the visit",
+      "You have symptoms consistent with acute sinusitis such as facial pain or pressure, nasal congestion, thick nasal discharge, or reduced smell",
+      "You do not have severe headache with high fever, visual changes, eye swelling, or confusion",
+      "You do not have symptoms suggesting orbital or intracranial complication",
+      "You are not significantly immunocompromised",
+      "Your symptoms are consistent with an uncomplicated acute sinus infection rather than a chronic or recurrent pattern needing imaging or ENT referral",
+      "Insurance is not required. A self pay option is available."
+    ],
+    "notEligible": [
+      "You are under 18 years old",
+      "You have severe headache with high fever that is worsening rapidly",
+      "You have visual changes, double vision, eye swelling, or eye pain",
+      "You have altered mental status, confusion, neck stiffness, or seizure",
+      "You have facial cellulitis or rapidly spreading facial swelling",
+      "You are significantly immunosuppressed with worsening sinus symptoms",
+      "You have had multiple courses of antibiotics without improvement suggesting complicated or resistant infection"
+    ],
+    "notEligibleDisclaimer": "If you have red-flag symptoms suggesting orbital or intracranial complication, seek emergency care immediately. TeleDirectMD is not an emergency service."
+  },
+
+  "howItWorks": {
+    "sectionTitle": "How Online Sinus Infection Treatment Works in {state}",
+    "steps": [
+      {
+        "type": "check",
+        "title": "Book your video visit",
+        "description": "Insurance is not required. No referral needed. Many visits are available same day, depending on scheduling. Before your visit, note when symptoms started, whether they are improving or worsening, whether you have had fever, and any prior sinus infection history or antibiotic allergies."
+      },
+      {
+        "type": "check",
+        "title": "See a {state} licensed MD by video",
+        "description": "We review your symptom timeline, severity, and red flags. The IDSA defines ABRS by specific duration and severity criteria, and the AAO-HNS recommends watchful waiting as the preferred initial approach for most cases. We determine whether your presentation fits uncomplicated sinusitis appropriate for telehealth or requires in-person evaluation."
+      },
+      {
+        "type": "good",
+        "title": "Get a treatment plan and, if appropriate, a prescription",
+        "description": "If medication is clinically appropriate, we send an e-prescription to common {state} pharmacies such as {pharmacies}. Many patients benefit from supportive care alone. You receive clear follow-up steps regardless of treatment choice, including when to seek in-person care if symptoms worsen.",
+        "showCta": true
+      }
+    ]
+  },
+
+  "telehealthRegulations": {
+    "sectionTitle": "{state} Telehealth Regulations for Online Sinus Infection Care",
+    "paragraphs": [
+      "{telehealthRegulation}",
+      "Location matters: you must be physically in {state} during the visit. Insurance is not required. TeleDirectMD does not prescribe controlled substances."
+    ]
+  },
+
+  "comparisonTable": {
+    "sectionTitle": "TeleDirectMD vs Other Care Options for Sinus Infection in {state}",
+    "intro": "Here is how TeleDirectMD compares to common settings for adult sinus infection care in {state}:",
+    "rows": [
+      {
+        "option": "TeleDirectMD",
+        "cost": "Self pay option starting at $49",
+        "wait": "Same day, often within hours",
+        "provider": "Board-certified MD only (no mid-levels)",
+        "bestFor": "Uncomplicated acute sinusitis without red flags, with guideline-based antibiotic stewardship and clear follow-up",
+        "highlight": true
+      },
+      {
+        "option": "Urgent Care",
+        "cost": "$150 to $300+ (before insurance)",
+        "wait": "1 to 3 hours typical",
+        "provider": "MD, DO, PA, or NP",
+        "bestFor": "Moderate symptoms, uncertain diagnosis, or when exam findings such as facial tenderness assessment are needed",
+        "highlight": false
+      },
+      {
+        "option": "Emergency Room",
+        "cost": "$500 to $3,000+ (before insurance)",
+        "wait": "2 to 6 hours typical",
+        "provider": "Emergency medicine MD or DO",
+        "bestFor": "Severe headache with high fever, visual changes, eye swelling, altered mental status, or concern for orbital or intracranial complication",
+        "highlight": false
+      },
+      {
+        "option": "Primary Care",
+        "cost": "$100 to $250+ (varies)",
+        "wait": "3 to 14 days typical",
+        "provider": "Family medicine or internal medicine MD or DO",
+        "bestFor": "Recurrent sinusitis, chronic sinusitis evaluation, and prevention planning",
+        "highlight": false
+      },
+      {
+        "option": "ENT (Otolaryngology)",
+        "cost": "$150 to $400+ (varies)",
+        "wait": "Days to weeks (varies)",
+        "provider": "ENT specialist MD or DO",
+        "bestFor": "Chronic sinusitis, nasal polyps, recurrent infections needing imaging or endoscopy, and surgical evaluation",
+        "highlight": false
+      }
+    ],
+    "bottomLine": "TeleDirectMD is a strong fit for uncomplicated acute sinusitis without red flags, with guideline-based treatment decisions and direct MD evaluation."
+  },
+
+  "decisionGuide": {
+    "sectionTitle": "Should I Use TeleDirectMD for Sinus Infection in {state}? Decision Guide",
+    "steps": [
+      {
+        "type": "urgent",
+        "title": "Do you have any emergency or red-flag symptoms?",
+        "items": [
+          "Severe headache with high fever that is worsening",
+          "Visual changes, double vision, eye swelling, or eye pain",
+          "Altered mental status, confusion, or neck stiffness",
+          "Facial cellulitis or rapidly spreading facial swelling or redness",
+          "Severe illness or any signs suggesting orbital or intracranial complication"
+        ],
+        "yesAction": "If yes, go to the ER now",
+        "noAction": "If no, continue to Step 2"
+      },
+      {
+        "type": "check",
+        "title": "Are you 18+ and currently in {state}?",
+        "items": [],
+        "yesAction": "If yes, continue to Step 3",
+        "noAction": "If no, use in-person care as appropriate"
+      },
+      {
+        "type": "check",
+        "title": "Do your symptoms fit uncomplicated acute sinusitis?",
+        "items": [
+          "Facial pain or pressure, especially over the cheeks or forehead",
+          "Nasal congestion with thick or discolored nasal discharge",
+          "Reduced sense of smell",
+          "No visual changes, no eye swelling, no confusion, no neck stiffness"
+        ],
+        "yesAction": "If yes, continue to Step 4",
+        "noAction": "If no or symptoms are severe, seek in-person evaluation or ER"
+      },
+      {
+        "type": "good",
+        "title": "You are likely appropriate for a TeleDirectMD video visit",
+        "description": "TeleDirectMD can evaluate your sinusitis symptoms, determine whether watchful waiting or antibiotics are appropriate based on AAO-HNS and IDSA criteria, and prescribe medication when clinically indicated. If your symptoms suggest a complication or an alternative diagnosis, we will direct you to the right level of in-person care.",
+        "items": [],
+        "showCta": true
+      }
+    ]
+  },
+
+  "pricing": {
+    "sectionTitle": "What Does Sinus Infection Treatment Cost in {state}?",
+    "subtitle": "Transparent options. Insurance is not required.",
+    "visitPrice": "$49",
+    "priceSubtext": "Self pay option. Insurance is not required.",
+    "includes": [
+      "MD evaluation and red-flag screening",
+      "Assessment for acute bacterial vs viral sinusitis",
+      "Guideline-based antibiotic stewardship",
+      "Prescription sent if clinically appropriate",
+      "Clear follow-up steps and escalation instructions"
+    ],
+    "comparisonBars": [
+      { "name": "TeleDirectMD", "value": "$49", "width": 12, "isTdmd": true },
+      { "name": "Primary Care", "value": "$100 to $250+", "width": 45, "isTdmd": false },
+      { "name": "Urgent Care", "value": "$150 to $300+", "width": 55, "isTdmd": false },
+      { "name": "Emergency Room", "value": "$500 to $3,000+", "width": 100, "isTdmd": false }
+    ],
+    "footnote": "Prescription costs at your pharmacy are separate and vary by medication and pharmacy.",
+    "noHiddenFees": "No hidden fees. If medication is not clinically appropriate, you still receive a complete evaluation, guidance, and clear instructions on what level of care you need next."
+  },
+
+  "whatIsCondition": {
+    "sectionTitle": "What Is a Sinus Infection?",
+    "paragraphs": [
+      "A sinus infection (sinusitis) is inflammation of the paranasal sinuses, the air-filled spaces behind the forehead, cheeks, nose, and eyes. Most acute sinusitis episodes begin as a viral upper respiratory infection and resolve without antibiotics. When bacterial infection develops, it is called acute bacterial rhinosinusitis (ABRS).",
+      "The IDSA 2012 guidelines define ABRS by three clinical scenarios: symptoms persisting 10 or more days beyond URI onset without improvement, symptoms that worsen within 10 days after initial improvement (double worsening), or severe symptoms including fever of 102°F or higher with purulent nasal discharge lasting 3 or more consecutive days.",
+      "TeleDirectMD focuses on uncomplicated acute sinusitis appropriate for telehealth, with careful screening to direct complicated cases, chronic sinusitis, and patients with red flags for orbital or intracranial complications to in-person or emergency care."
+    ]
+  },
+
+  "causesAndRiskFactors": {
+    "sectionTitle": "Causes and Risk Factors",
+    "intro": "Most acute sinusitis episodes are triggered by a viral URI that causes mucosal swelling and impaired sinus drainage. Bacterial superinfection occurs in a minority of cases. Understanding the timeline and risk factors helps determine whether antibiotics are appropriate or whether watchful waiting is the safer initial approach.",
+    "items": [
+      { "label": "Viral upper respiratory infection:", "text": "the most common trigger, typically causing symptoms that peak around days 3 to 5 and then gradually improve" },
+      { "label": "Bacterial superinfection:", "text": "develops in a subset of cases when sinus drainage is impaired, typically meeting IDSA criteria of 10+ day duration, double worsening, or severe onset" },
+      { "label": "Allergic rhinitis:", "text": "chronic nasal inflammation from allergies can predispose to sinus obstruction and recurrent sinusitis episodes" },
+      { "label": "Anatomic factors:", "text": "deviated septum, nasal polyps, or other structural abnormalities can impair drainage and increase infection risk" },
+      { "label": "Immunosuppression:", "text": "patients with weakened immune systems may develop more severe or complicated sinus infections requiring in-person evaluation" },
+      { "label": "Smoking and environmental irritants:", "text": "mucosal irritation impairs ciliary clearance and increases susceptibility to sinusitis" }
+    ],
+    "closing": "Not every patient with nasal congestion and facial pressure has a bacterial sinus infection. The AAO-HNS emphasizes that most acute sinusitis is viral and resolves with supportive care, which is why watchful waiting is the recommended initial approach for ABRS."
+  },
+
+  "symptomsAndRedFlags": {
+    "sectionTitle": "Symptoms and Red Flags for Sinus Infection in {state}",
+    "intro": "Use this table to understand which symptoms fit uncomplicated acute sinusitis and which patterns suggest a need for urgent in-person or emergency evaluation.",
+    "headers": ["Symptom or situation", "What it suggests", "Telehealth appropriate?", "Red flag requiring urgent in-person care"],
+    "rows": [
+      ["Facial pain or pressure over cheeks or forehead with nasal congestion", "Acute sinusitis is possible", "Often yes", "If severe, rapidly worsening, or with high fever"],
+      ["Thick discolored nasal discharge for several days", "May be viral or bacterial depending on timeline", "Often yes", "If accompanied by high fever and severe facial pain for 3+ days"],
+      ["Symptoms persisting 10+ days without improvement", "Meets IDSA criteria for ABRS, antibiotics may be appropriate", "Often yes", "If worsening with new high fever or severe symptoms"],
+      ["Symptoms improving then worsening again (double worsening)", "Meets IDSA criteria for ABRS", "Often yes", "If rapid worsening with new concerning features"],
+      ["Fever ≥102°F with purulent discharge for 3+ consecutive days", "Meets IDSA severe onset criteria for ABRS", "Sometimes", "If persistent high fever with worsening despite treatment"],
+      ["Eye swelling, visual changes, or eye pain", "Possible orbital complication", "No", "Emergency evaluation now"],
+      ["Severe headache with high fever and altered mental status", "Possible intracranial complication", "No", "Emergency evaluation now"],
+      ["Facial cellulitis or rapidly spreading facial redness", "Possible complicated sinusitis", "No", "Emergency evaluation now"]
+    ]
+  },
+
+  "differentialDiagnosis": {
+    "sectionTitle": "Differential Diagnosis: Sinus Infection vs Other Conditions",
+    "intro": "Several conditions can cause facial pain, nasal congestion, or headache that mimics sinusitis. TeleDirectMD evaluates symptom patterns to distinguish uncomplicated acute sinusitis from conditions requiring different treatment or in-person evaluation.",
+    "telehealthAppropriate": {
+      "title": "Sometimes Appropriate for Telehealth",
+      "items": [
+        "Acute viral rhinosinusitis with supportive care needs",
+        "Uncomplicated ABRS meeting IDSA diagnostic criteria",
+        "Allergic rhinitis exacerbation causing sinus-type symptoms",
+        "Post-nasal drip and facial pressure without red flags",
+        "Antibiotic stewardship discussion when symptoms are uncertain"
+      ]
+    },
+    "requiresInPerson": {
+      "title": "Often Requires In-Person Evaluation",
+      "items": [
+        "Orbital complications: periorbital cellulitis, orbital abscess, or visual changes",
+        "Intracranial complications: meningitis, brain abscess, or cavernous sinus thrombosis",
+        "Chronic rhinosinusitis lasting 12+ weeks needing imaging and ENT referral",
+        "Nasal polyps or suspected fungal sinusitis",
+        "Recurrent sinusitis with 4+ episodes per year needing comprehensive workup"
+      ]
+    },
+    "compareCards": [
+      {
+        "title": "Viral Sinusitis vs Bacterial Sinusitis",
+        "text": "Most acute sinusitis is viral and improves within 7 to 10 days. ABRS is diagnosed when symptoms persist 10+ days without improvement, worsen after initial improvement (double worsening), or present with severe onset (fever ≥102°F with purulent discharge for 3+ days). This distinction matters because antibiotics only help bacterial cases."
+      },
+      {
+        "title": "Sinusitis vs Migraine or Tension Headache",
+        "text": "Facial pressure and headache can occur with sinusitis but also with migraine, tension headache, and dental causes. True sinusitis typically includes nasal congestion with thick discolored discharge, while migraine often involves light sensitivity, nausea, or visual aura without nasal symptoms."
+      }
+    ],
+    "closing": "If your symptoms do not match uncomplicated acute sinusitis or any red flags are present, TeleDirectMD will direct you to urgent in-person care or the ER."
+  },
+
+  "telehealthEligibility": {
+    "sectionTitle": "When Is a Video Visit Appropriate?",
+    "appropriate": {
+      "title": "When a Video Visit Is Appropriate",
+      "items": [
+        "Typical acute sinusitis symptoms: facial pain or pressure, nasal congestion, thick discharge",
+        "No visual changes, eye swelling, or eye pain",
+        "No altered mental status, neck stiffness, or confusion",
+        "No rapidly spreading facial cellulitis",
+        "Not significantly immunocompromised",
+        "Located in {state} at time of visit"
+      ]
+    },
+    "redFlags": {
+      "title": "Red Flags Requiring In-Person or ER Care",
+      "items": [
+        "Severe headache with high fever that is rapidly worsening",
+        "Visual changes, double vision, eye swelling, or eye pain",
+        "Altered mental status, confusion, or neck stiffness",
+        "Facial cellulitis or rapidly spreading facial swelling",
+        "Severe immunosuppression with worsening sinus symptoms",
+        "Symptoms not improving after completed course of antibiotics"
+      ],
+      "disclaimer": "If any red-flag symptoms are present, seek emergency care immediately. TeleDirectMD is not an emergency service."
+    }
+  },
+
+  "treatmentOptions": {
+    "sectionTitle": "Treatment Options",
+    "intro": "The AAO-HNS 2025 guideline recommends watchful waiting for 3 to 5 days as the preferred initial approach for ABRS, because most cases improve without antibiotics. When antibiotics are indicated, the AAFP and IDSA recommend amoxicillin with or without clavulanate as first-line therapy. The IDSA specifically recommends amoxicillin-clavulanate rather than amoxicillin alone.",
+    "sections": [
+      {
+        "title": "Supportive care and watchful waiting",
+        "text": "For most patients with acute sinusitis, supportive care is the appropriate first step. Nasal saline irrigation helps thin secretions and promote drainage. Intranasal corticosteroids such as fluticasone or mometasone can reduce mucosal inflammation. Analgesics manage pain. Oral decongestants or short-term topical decongestants (no more than 3 days) may provide temporary relief."
+      },
+      {
+        "title": "Antibiotics when indicated",
+        "text": "If symptoms meet IDSA criteria for ABRS and do not improve with watchful waiting, or if severe onset criteria are met, first-line antibiotic therapy is amoxicillin 500mg three times daily or 875mg twice daily for 5 to 10 days, or amoxicillin-clavulanate 875/125mg twice daily for 5 to 10 days. For penicillin allergy, doxycycline 100mg twice daily for 5 to 10 days is an alternative."
+      },
+      {
+        "title": "When telehealth care is not enough",
+        "text": "If symptoms worsen despite appropriate antibiotic therapy, if red flags develop at any point, or if the pattern suggests chronic rhinosinusitis, nasal polyps, or complicated infection, in-person evaluation with possible imaging or ENT referral is needed."
+      }
+    ],
+    "doesNotManage": [
+      "Chronic rhinosinusitis lasting 12 or more weeks",
+      "Nasal polyps requiring endoscopic evaluation or surgical management",
+      "Complicated sinusitis with orbital or intracranial involvement",
+      "Fungal sinusitis",
+      "Recurrent sinusitis requiring CT imaging and ENT workup"
+    ]
+  },
+
+  "medications": {
+    "sectionTitle": "Common Medication Options",
+    "intro": "These are common options for adult acute sinusitis. The actual medication, dose, and duration are determined by the MD after reviewing your symptoms, duration, severity, allergies, and red flags. Many patients with acute sinusitis improve with supportive care alone.",
+    "headers": ["Medication", "Typical dose", "Duration", "Key considerations"],
+    "rows": [
+      ["Amoxicillin", "500 mg by mouth three times daily or 875 mg twice daily", "5 to 10 days", "First-line antibiotic for ABRS per AAFP guidelines. Used when IDSA diagnostic criteria are met and watchful waiting has not led to improvement."],
+      ["Amoxicillin-clavulanate", "875/125 mg by mouth twice daily", "5 to 10 days", "IDSA recommends amoxicillin-clavulanate over amoxicillin alone. Preferred when broader coverage is needed or initial amoxicillin has not improved symptoms."],
+      ["Doxycycline", "100 mg by mouth twice daily", "5 to 10 days", "Alternative for penicillin allergy. Recommended by AAFP as a second-line option. Avoid in pregnancy."],
+      ["Intranasal corticosteroid (fluticasone, mometasone)", "1 to 2 sprays per nostril daily", "As directed", "Supportive care to reduce mucosal inflammation and improve drainage. Can be used with or without antibiotics."],
+      ["Nasal saline irrigation", "Rinse with isotonic or hypertonic saline solution", "As needed", "Evidence-based supportive care that helps thin secretions and promote sinus drainage. Safe and well-tolerated."],
+      ["Analgesics (acetaminophen or ibuprofen)", "As directed on packaging", "As needed for pain", "For facial pain and headache management. Use appropriate dosing for age and medical history."],
+      ["Oral or topical decongestant (pseudoephedrine, oxymetazoline)", "As directed", "Short-term only (topical max 3 days)", "Temporary relief of nasal congestion. Topical decongestants should not be used for more than 3 days to avoid rebound congestion."]
+    ],
+    "note": "Example regimens only. The actual medication, dosing, and duration are determined by the MD after reviewing your symptoms, risk factors, allergies, and red flags. Most acute sinusitis is viral and resolves without antibiotics. TeleDirectMD does not prescribe controlled substances."
+  },
+
+  "homeCare": {
+    "sectionTitle": "Home Care, Recovery Timeline, Prevention, and Follow-up",
+    "whatToDoNow": {
+      "title": "Recovery Timeline and What to Do Now",
+      "items": [
+        "Most viral sinusitis improves within 7 to 10 days without antibiotics",
+        "If prescribed antibiotics, improvement is typically noticed within 48 to 72 hours",
+        "Use nasal saline irrigation several times daily to help promote sinus drainage",
+        "Stay well hydrated and use a humidifier if air is dry",
+        "Use over-the-counter pain relievers as appropriate for facial pain and headache"
+      ]
+    },
+    "whatToWatch": {
+      "title": "What to Watch For Over the Next 24 to 72 Hours",
+      "items": [
+        "Worsening symptoms despite treatment, especially new high fever or severe headache",
+        "Any visual changes, eye swelling, or eye pain developing at any point",
+        "Facial swelling, redness spreading, or facial cellulitis",
+        "Confusion, neck stiffness, or altered mental status",
+        "Symptoms not improving after completing a full course of antibiotics"
+      ]
+    },
+    "followUp": {
+      "title": "Prevention and Follow-up",
+      "items": [
+        "If symptoms worsen or do not improve after 48 to 72 hours on antibiotics, contact your provider or seek in-person care",
+        "Manage underlying allergic rhinitis with nasal corticosteroids to reduce recurrence risk",
+        "Practice good hand hygiene and avoid close contact with sick individuals during cold and flu season",
+        "If you experience 4 or more sinus infections per year, consider in-person evaluation with ENT for structural assessment",
+        "If any red-flag symptoms develop at any time, seek emergency care immediately"
+      ]
+    }
+  },
+
+  "whenNotToUse": {
+    "sectionTitle": "When Not to Use TeleDirectMD for Sinus Infection in {state}",
+    "intro": "TeleDirectMD is designed for uncomplicated acute sinusitis symptoms. We are direct about when telehealth is not appropriate.",
+    "shouldNotUse": {
+      "title": "You Should Not Use TeleDirectMD If",
+      "items": [
+        "You are under 18 years old",
+        "You have severe headache with high fever that is rapidly worsening",
+        "You have visual changes, double vision, eye swelling, or eye pain",
+        "You have altered mental status, confusion, neck stiffness, or seizure",
+        "You have facial cellulitis or rapidly spreading facial swelling or redness",
+        "You are significantly immunosuppressed with worsening sinus symptoms",
+        "You have chronic sinusitis lasting 12 or more weeks and need imaging or ENT referral",
+        "You are not physically in {state} at the time of visit"
+      ]
+    },
+    "alternatives": {
+      "title": "Alternative Care Options",
+      "items": [
+        { "label": "Emergency room:", "text": "severe headache with high fever, visual changes, eye swelling, altered mental status, neck stiffness, or rapidly spreading facial cellulitis" },
+        { "label": "Urgent care:", "text": "moderate symptoms not improving, uncertain diagnosis, or when in-person exam is needed for severity assessment" },
+        { "label": "ENT (otolaryngology):", "text": "chronic sinusitis, recurrent infections, nasal polyps, structural abnormalities, or need for imaging and endoscopy" },
+        { "label": "Primary care:", "text": "recurrent sinus infections, prevention planning, allergy management, and longer-term evaluation" }
+      ]
+    }
+  },
+
+  "faq": {
+    "sectionTitle": "Sinus Infection Treatment FAQs for {state}",
+    "items": [
+      {
+        "question": "Can I get treatment for a sinus infection online in {state}?",
+        "answer": "Yes, if you are an adult 18+ located in {state} and your symptoms fit uncomplicated acute sinusitis without red flags. TeleDirectMD can evaluate your symptoms, determine whether watchful waiting or antibiotics are appropriate based on clinical guidelines, and prescribe medication when clinically indicated."
+      },
+      {
+        "question": "How much does online sinus infection treatment cost in {state}?",
+        "answer": "TeleDirectMD offers a transparent self pay option starting at $49 for an adult video visit in {state}. Insurance is not required. Prescription costs at your pharmacy are separate and vary by medication and pharmacy."
+      },
+      {
+        "question": "Do I need antibiotics for a sinus infection?",
+        "answer": "Not always. Most acute sinusitis is viral and improves without antibiotics. The AAO-HNS 2025 guideline recommends watchful waiting for 3 to 5 days as the preferred initial approach for acute bacterial rhinosinusitis. Antibiotics are appropriate when symptoms persist 10 or more days without improvement, worsen after initial improvement, or present with severe onset such as fever of 102°F or higher with purulent nasal discharge for 3 or more consecutive days."
+      },
+      {
+        "question": "What antibiotics are used for sinus infections?",
+        "answer": "When antibiotics are indicated, amoxicillin with or without clavulanate is the recommended first-line therapy per AAFP and IDSA guidelines. The IDSA specifically recommends amoxicillin-clavulanate over amoxicillin alone. For penicillin allergy, doxycycline is an alternative. The actual choice depends on your allergies, medical history, and severity."
+      },
+      {
+        "question": "How do I know if my sinus infection is bacterial or viral?",
+        "answer": "The IDSA defines acute bacterial rhinosinusitis by three criteria: symptoms persisting 10 or more days without improvement, symptoms that worsen within 10 days after initial improvement (double worsening), or severe symptoms including fever of 102°F or higher with purulent nasal discharge for 3 or more consecutive days. If your symptoms are improving within 7 to 10 days, the cause is likely viral."
+      },
+      {
+        "question": "When should I go to the ER for a sinus infection?",
+        "answer": "Seek emergency care for severe headache with high fever, visual changes or eye swelling or eye pain, altered mental status or confusion, neck stiffness, facial cellulitis or rapidly spreading facial swelling, or any signs suggesting orbital or intracranial complication. These are rare but serious complications that require immediate evaluation."
+      },
+      {
+        "question": "Can nasal saline irrigation help with sinusitis?",
+        "answer": "Yes. Nasal saline irrigation is an evidence-based supportive treatment that helps thin secretions, promote sinus drainage, and reduce symptoms. It can be used for both viral and bacterial sinusitis and is recommended as part of standard supportive care."
+      },
+      {
+        "question": "Does {state} allow telemedicine for sinus infection treatment?",
+        "answer": "Yes. {state} allows licensed professionals to provide telemedicine within their scope when appropriate and according to accepted standards of care. You must be physically located in {state} at the time of the visit."
+      },
+      {
+        "question": "What if my sinus infection does not improve after antibiotics?",
+        "answer": "If symptoms are not improving within 48 to 72 hours of starting antibiotics, you should be reassessed. You may need a different antibiotic, an alternative diagnosis considered, or in-person evaluation with possible imaging. If red-flag symptoms develop at any point, seek emergency care immediately."
+      },
+      {
+        "question": "Can TeleDirectMD treat chronic sinusitis?",
+        "answer": "No. TeleDirectMD focuses on uncomplicated acute sinusitis. Chronic rhinosinusitis, defined as symptoms lasting 12 or more weeks, typically requires in-person evaluation with imaging and often ENT referral. If your symptoms have been ongoing for many weeks, we will direct you to the appropriate level of in-person care."
+      }
+    ],
+    "bottomCta": {
+      "title": "Need help today?",
+      "text": "Insurance is not required. Adult-only video visits. MD-only care. Safety-first triage, guideline-based treatment decisions, and prescriptions only when appropriate."
+    }
+  },
+
+  "references": [
+    { "text": "AAO-HNS Clinical Practice Guideline Update: Adult Sinusitis (Rosenfeld et al., Otolaryngology–Head and Neck Surgery, 2015; 2025 updates)", "url": "https://journals.sagepub.com/doi/10.1177/0194599815572097" },
+    { "text": "IDSA Clinical Practice Guideline for Acute Bacterial Rhinosinusitis in Children and Adults (Chow et al., Clinical Infectious Diseases, 2012)", "url": "https://academic.oup.com/cid/article/54/8/e72/367144" },
+    { "text": "AAFP: Diagnosis and Treatment of Acute Bacterial Rhinosinusitis", "url": "https://www.aafp.org/pubs/afp/issues/2016/0901/p397.html" },
+    { "text": "Acute Sinusitis, StatPearls (2025)", "url": "https://www.ncbi.nlm.nih.gov/books/NBK547701/" }
+  ],
+
+  "disclaimer": {
+    "sectionTitle": "TeleDirectMD Telehealth Disclaimer",
+    "paragraphs": [
+      "TeleDirectMD provides MD-only virtual urgent care for adults (18+) in {state} using secure video visits to evaluate sinus infection symptoms, provide evidence-based guidance, and prescribe treatment when clinically appropriate. Insurance is not required. You must be physically located in {state} at the time of your video visit. TeleDirectMD does not prescribe controlled substances.",
+      "TeleDirectMD is not an emergency service and is not a replacement for emergency care during suspected orbital or intracranial complications of sinusitis. This service is intended for uncomplicated acute sinusitis and is not a substitute for comprehensive ENT evaluation when chronic sinusitis, nasal polyps, or complicated infection is suspected.",
+      "Online sinus infection treatment in {state}. Sinusitis treatment online. Acute sinusitis care by video visit."
+    ]
+  },
+
+  "relatedConditions": [
+    {
+      "slug": "common-cold-treatment-online",
+      "title": "Common Cold",
+      "description": "Viral URI symptoms often overlap with early sinusitis and are the most common trigger for acute sinusitis"
+    },
+    {
+      "slug": "sore-throat-treatment-online",
+      "title": "Sore Throat",
+      "description": "Upper respiratory symptoms including sore throat frequently accompany sinus congestion and post-nasal drip"
+    },
+    {
+      "slug": "ear-pain-treatment-online",
+      "title": "Ear Pain",
+      "description": "Eustachian tube dysfunction and ear pressure often occur alongside sinusitis symptoms"
+    },
+    {
+      "slug": "seasonal-allergies-treatment-online",
+      "title": "Seasonal Allergies",
+      "description": "Allergic rhinitis is a common predisposing factor for recurrent sinusitis episodes"
+    }
+  ],
+
+  "inlineLinks": [
+    { "slug": "common-cold-treatment-online", "label": "Common Cold" },
+    { "slug": "sore-throat-treatment-online", "label": "Sore Throat" },
+    { "slug": "ear-pain-treatment-online", "label": "Ear Pain" },
+    { "slug": "seasonal-allergies-treatment-online", "label": "Seasonal Allergies" },
+    { "slug": "asthma-refills-online", "label": "Asthma Refills" },
+    { "slug": "uti-treatment-online", "label": "UTI" },
+    { "slug": "pink-eye-treatment-online", "label": "Pink Eye" },
+    { "slug": "cold-sore-treatment-online", "label": "Cold Sore" },
+    { "slug": "yeast-infection-treatment-online", "label": "Yeast Infection" },
+    { "slug": "blood-pressure-medication-refills-online", "label": "Blood Pressure Medication Refills" }
+  ],
+
+  "cityBlock": {
+    "title": "Adults We Serve Across {state}",
+    "text": "TeleDirectMD evaluates adults located throughout {state}, including {citiesExtended}. Whether you are searching for online sinus infection treatment in {city1}, sinusitis care in {city2}, sinus infection antibiotics online in {city3}, or telehealth sinusitis evaluation anywhere else in {state}, the same telehealth eligibility and safety rules apply."
+  },
+
+  "icd10Codes": [
+    { "code": "J01.90", "description": "Acute sinusitis, unspecified" },
+    { "code": "J01.00", "description": "Acute maxillary sinusitis, unspecified" },
+    { "code": "J01.10", "description": "Acute frontal sinusitis, unspecified" },
+    { "code": "J01.20", "description": "Acute ethmoidal sinusitis, unspecified" }
+  ],
+
+  "jsonLd": {
+    "conditionName": "Sinusitis",
+    "conditionAlternateNames": ["Sinus infection", "Acute sinusitis", "Acute bacterial rhinosinusitis", "ABRS"],
+    "conditionDescription": "Acute sinusitis is inflammation of the paranasal sinuses, most commonly triggered by a viral upper respiratory infection. When bacterial superinfection develops, it is called acute bacterial rhinosinusitis (ABRS). TeleDirectMD evaluates adult sinusitis symptoms by video visit with safety-first red-flag screening, guideline-based antibiotic stewardship following AAO-HNS and IDSA recommendations, and prescriptions when clinically appropriate, with clear rules for when emergency care is needed.",
+    "primaryIcd10": "J01.90",
+    "anatomy": "Paranasal sinuses",
+    "symptoms": ["Facial pain or pressure", "Nasal congestion", "Purulent nasal discharge", "Reduced sense of smell", "Headache"],
+    "riskFactors": [
+      "Recent viral upper respiratory infection",
+      "Allergic rhinitis",
+      "Nasal polyps or deviated septum",
+      "Smoking or environmental irritant exposure",
+      "Immunosuppression"
+    ],
+    "complications": [
+      "Orbital cellulitis or orbital abscess",
+      "Intracranial complications (meningitis, brain abscess, cavernous sinus thrombosis)",
+      "Chronic rhinosinusitis",
+      "Mucocele"
+    ],
+    "epidemiology": "Sinusitis is one of the most common conditions in outpatient medicine. Approximately 30 million adults are diagnosed with sinusitis annually in the United States, though the vast majority of cases are viral.",
+    "drugs": [
+      { "name": "Amoxicillin", "id": "amoxicillin" },
+      { "name": "Amoxicillin-clavulanate", "id": "amoxicillin-clavulanate" },
+      { "name": "Doxycycline", "id": "doxycycline" },
+      { "name": "Fluticasone nasal spray", "id": "fluticasone-nasal" }
+    ],
+    "treatments": [
+      "Watchful waiting with supportive care",
+      "Nasal saline irrigation",
+      "Intranasal corticosteroids",
+      "Guideline-based antibiotic therapy when ABRS criteria are met",
+      "Emergency evaluation for orbital or intracranial complications"
+    ],
+    "tests": [
+      "Clinical symptom review and timeline assessment",
+      "Red-flag screening for complications",
+      "CT imaging when indicated for complicated or chronic cases"
+    ],
+    "specialties": ["Family Medicine", "Telemedicine", "Otolaryngology"],
+    "guidelines": [
+      { "name": "AAO-HNS Clinical Practice Guideline Update: Adult Sinusitis", "url": "https://journals.sagepub.com/doi/10.1177/0194599815572097", "publisher": "American Academy of Otolaryngology–Head and Neck Surgery", "id": "aao-hns" },
+      { "name": "IDSA Clinical Practice Guideline for Acute Bacterial Rhinosinusitis", "url": "https://academic.oup.com/cid/article/54/8/e72/367144", "publisher": "Infectious Diseases Society of America", "id": "idsa" },
+      { "name": "AAFP Diagnosis and Treatment of Acute Bacterial Rhinosinusitis", "url": "https://www.aafp.org/pubs/afp/issues/2016/0901/p397.html", "publisher": "American Academy of Family Physicians", "id": "aafp" }
+    ],
+    "knowsAbout": [
+      "Sinus infection treatment",
+      "Acute bacterial rhinosinusitis management",
+      "Antibiotic stewardship for sinusitis",
+      "Telehealth triage",
+      "Safety-first red-flag screening",
+      "Family Medicine"
+    ],
+    "serviceDescription": "Secure video visit for {state} adults with acute sinusitis symptoms, including red-flag screening, guideline-based antibiotic stewardship, and prescriptions when clinically appropriate.",
+    "webpageDescription": "{state} sinus infection treatment by secure MD video visit for adults. Evidence-based evaluation of sinusitis symptoms, red-flag screening, watchful waiting guidance, antibiotic treatment when appropriate, and clear rules for when emergency care is needed."
+  }
+}

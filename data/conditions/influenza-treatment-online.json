@@ -1,0 +1,573 @@
+{
+  "conditionName": "Influenza",
+  "conditionShort": "flu",
+  "conditionSlug": "influenza-treatment-online",
+  "pageTitle": "Influenza Treatment Online in {state} | Flu MD Video Visit | TeleDirectMD",
+  "metaDescription": "Fast, evidence-based influenza treatment for {state} adults by secure video visit. Early antiviral evaluation within the 48-hour treatment window, red-flag screening, and prescriptions when clinically appropriate. Self pay option starting at $49. Insurance is not required.",
+  "ogImageAlt": "Influenza treatment in {state} by TeleDirectMD",
+
+  "hero": {
+    "h1": "Influenza Treatment in {state} (Flu Antiviral Care)",
+    "subtitle": "{state} adult care by secure video visit, self pay option starting at $49, MD-only, insurance is not required.",
+    "introParagraph": "Influenza antiviral treatment is most effective when started within 48 hours of symptom onset, making rapid access to medical evaluation critical during flu season. The CDC recommends antiviral treatment as soon as possible for patients at higher risk of complications, including adults 65 and older, those with chronic medical conditions, immunocompromised individuals, and pregnant women, and it can be considered for any otherwise healthy outpatient within the 48-hour window. TeleDirectMD uses a safety-first telehealth approach by screening for red flags including difficulty breathing, persistent chest pain, confusion, severe dehydration, and signs of secondary bacterial infection before determining whether antiviral treatment by video visit is appropriate. If the history supports uncomplicated influenza without red flags, antiviral treatment such as oseltamivir or baloxavir may be prescribed by video, while adults with severe or rapidly worsening symptoms are directed to urgent in-person care. This page is for adults located in {state}, including {cities}.",
+    "tocLinks": [
+      { "href": "eligibility-checklist", "label": "Eligibility checklist" },
+      { "href": "decision-guide", "label": "Decision guide" },
+      { "href": "treatment-options", "label": "Treatment options" },
+      { "href": "faq", "label": "FAQs" },
+      { "href": "references", "label": "References" }
+    ],
+    "benefits": [
+      "Self pay option starting at $49",
+      "MD-only care (no mid-levels)",
+      "Insurance is not required",
+      "Licensed telehealth care for patients located in {state} at the time of the visit"
+    ],
+    "sideCard": {
+      "h2": "Online MD-Only Influenza Care in {state}",
+      "features": [
+        "Early antiviral evaluation within the critical 48-hour treatment window",
+        "Evidence-based red-flag screening for complications and severe illness",
+        "Antiviral prescriptions (oseltamivir, baloxavir) when clinically appropriate",
+        "Clear rules for when urgent in-person care or ER evaluation is needed"
+      ],
+      "note": "Adults 18+ only. TeleDirectMD is not an emergency service. Seek urgent in-person care now for difficulty breathing or shortness of breath, persistent chest pain or pressure, confusion, inability to keep fluids down, severe muscle weakness, seizures, or high fever unresponsive to antipyretics. TeleDirectMD does not prescribe controlled substances."
+    },
+    "icd10Display": "J11.1, J10.1, J11.89, or J09.X2 (final coding depends on clinical details)"
+  },
+
+  "eligibility": {
+    "sectionTitle": "Influenza Telehealth Eligibility Checklist for {state}",
+    "introText": "You are likely eligible for a TeleDirectMD video visit if ALL of these are true:",
+    "eligible": [
+      "You are 18 years old or older",
+      "You are physically located in {state} at the time of the visit",
+      "You have flu-like symptoms such as fever, body aches, cough, sore throat, and fatigue",
+      "Your symptoms started within the past 48 hours (ideal for antiviral benefit)",
+      "You do not have difficulty breathing, persistent chest pain, confusion, or severe dehydration",
+      "You are not feeling severely ill, unable to keep fluids down, or rapidly worsening",
+      "You want evidence-based evaluation and early antiviral treatment when appropriate",
+      "Insurance is not required. A self pay option is available."
+    ],
+    "notEligible": [
+      "You are under 18 years old",
+      "You have difficulty breathing or shortness of breath at rest",
+      "You have persistent chest pain or pressure",
+      "You are confused, extremely drowsy, or difficult to arouse",
+      "You cannot keep any fluids down and are becoming dehydrated",
+      "You have severe muscle weakness or cannot stand or walk safely",
+      "You have a seizure or new neurological symptoms",
+      "You have a high fever that is not responding to acetaminophen or ibuprofen"
+    ],
+    "notEligibleDisclaimer": "If you have red-flag symptoms, seek urgent in-person care or emergency care immediately. TeleDirectMD is not an emergency service."
+  },
+
+  "howItWorks": {
+    "sectionTitle": "How Online Influenza Treatment Works in {state}",
+    "steps": [
+      {
+        "type": "check",
+        "title": "Book your visit quickly — timing matters",
+        "description": "Antiviral medications for influenza are most effective when started within 48 hours of symptom onset. Before your video visit, note when your symptoms began, your temperature, whether you have been around confirmed flu cases, your medical history including chronic conditions, and any medications you are currently taking."
+      },
+      {
+        "type": "check",
+        "title": "See a {state} licensed MD by video",
+        "description": "We review your symptom onset and timeline, severity, risk factors for complications, and screen for red flags including difficulty breathing, chest pain, confusion, and dehydration. The CDC recommends antiviral treatment as soon as possible for patients at higher risk of flu complications and considers it for any otherwise healthy outpatient within 48 hours of onset."
+      },
+      {
+        "type": "good",
+        "title": "Get antiviral treatment and a recovery plan when appropriate",
+        "description": "If antiviral treatment is clinically appropriate, we send an e-prescription to common {state} pharmacies such as {pharmacies}. You also receive clear instructions about symptom management, when to expect improvement, and when to seek urgent in-person care if symptoms worsen.",
+        "showCta": true
+      }
+    ]
+  },
+
+  "telehealthRegulations": {
+    "sectionTitle": "{state} Telehealth Regulations for Online Influenza Care",
+    "paragraphs": [
+      "{telehealthRegulation}",
+      "Location matters: you must be physically in {state} during the visit. Insurance is not required. TeleDirectMD does not prescribe controlled substances."
+    ]
+  },
+
+  "comparisonTable": {
+    "sectionTitle": "TeleDirectMD vs Other Care Options for Influenza in {state}",
+    "intro": "Here is how TeleDirectMD compares to common settings for adult influenza care in {state}:",
+    "rows": [
+      {
+        "option": "TeleDirectMD",
+        "cost": "Self pay option starting at $49",
+        "wait": "Same day, often within hours",
+        "provider": "Board-certified MD only (no mid-levels)",
+        "bestFor": "Early antiviral evaluation within the 48-hour window, uncomplicated flu symptoms without red flags, and fast access to oseltamivir or baloxavir when appropriate",
+        "highlight": true
+      },
+      {
+        "option": "Urgent Care",
+        "cost": "$150 to $300+ (before insurance)",
+        "wait": "1 to 3 hours typical",
+        "provider": "MD, DO, PA, or NP",
+        "bestFor": "Moderate flu symptoms, rapid flu testing, dehydration assessment, or when diagnosis is uncertain",
+        "highlight": false
+      },
+      {
+        "option": "Emergency Room",
+        "cost": "$500 to $3,000+ (before insurance)",
+        "wait": "2 to 6 hours typical",
+        "provider": "Emergency medicine MD or DO",
+        "bestFor": "Difficulty breathing, persistent chest pain, confusion, severe dehydration, seizures, or rapidly worsening illness",
+        "highlight": false
+      },
+      {
+        "option": "Primary Care",
+        "cost": "$100 to $250+ (varies)",
+        "wait": "1 to 7 days typical",
+        "provider": "Family medicine or internal medicine MD or DO",
+        "bestFor": "Post-flu follow-up, flu vaccination, and management of chronic conditions that increase flu complications",
+        "highlight": false
+      }
+    ],
+    "bottomLine": "TeleDirectMD is a strong fit for adults with uncomplicated flu symptoms who need fast antiviral evaluation within the 48-hour treatment window, without red flags suggesting severe or complicated influenza."
+  },
+
+  "decisionGuide": {
+    "sectionTitle": "Should I Use TeleDirectMD for Influenza in {state}? Decision Guide",
+    "steps": [
+      {
+        "type": "urgent",
+        "title": "Do you have any emergency or red-flag symptoms?",
+        "items": [
+          "Difficulty breathing or shortness of breath at rest",
+          "Persistent chest pain or pressure",
+          "Confusion, extreme drowsiness, or difficulty staying alert",
+          "Inability to keep any fluids down with signs of dehydration",
+          "Severe muscle weakness, seizures, or new neurological symptoms",
+          "High fever that is not responding to acetaminophen or ibuprofen"
+        ],
+        "yesAction": "If yes, seek urgent in-person care or the ER now",
+        "noAction": "If no, continue to Step 2"
+      },
+      {
+        "type": "check",
+        "title": "Are you 18+ and currently in {state}?",
+        "items": [],
+        "yesAction": "If yes, continue to Step 3",
+        "noAction": "If no, use in-person care as appropriate"
+      },
+      {
+        "type": "check",
+        "title": "Did your symptoms start within the past 48 hours?",
+        "items": [
+          "Sudden onset of fever, chills, body aches, and fatigue",
+          "Cough, sore throat, headache, or nasal congestion",
+          "Symptoms came on quickly rather than gradually",
+          "Known flu exposure or active flu season in your area"
+        ],
+        "yesAction": "If yes, continue to Step 4 — you are within the antiviral treatment window",
+        "noAction": "If symptoms started more than 48 hours ago, antiviral benefit is reduced but evaluation may still be helpful for high-risk patients or those with worsening symptoms"
+      },
+      {
+        "type": "good",
+        "title": "You are likely appropriate for a TeleDirectMD video visit",
+        "description": "TeleDirectMD can evaluate your flu symptoms, confirm safety for telehealth, and prescribe antiviral medication when clinically appropriate. Early treatment with oseltamivir or baloxavir can shorten symptom duration and may reduce complications. If your symptoms suggest severe or complicated influenza, we will direct you to the right level of in-person care.",
+        "items": [],
+        "showCta": true
+      }
+    ]
+  },
+
+  "pricing": {
+    "sectionTitle": "What Does Influenza Treatment Cost in {state}?",
+    "subtitle": "Transparent options. Insurance is not required.",
+    "visitPrice": "$49",
+    "priceSubtext": "Self pay option. Insurance is not required.",
+    "includes": [
+      "MD evaluation and red-flag screening",
+      "Assessment for uncomplicated influenza vs complications",
+      "Antiviral prescription when clinically appropriate",
+      "Symptom management guidance and recovery plan",
+      "Clear follow-up steps and escalation instructions"
+    ],
+    "comparisonBars": [
+      { "name": "TeleDirectMD", "value": "$49", "width": 12, "isTdmd": true },
+      { "name": "Primary Care", "value": "$100 to $250+", "width": 45, "isTdmd": false },
+      { "name": "Urgent Care", "value": "$150 to $300+", "width": 55, "isTdmd": false },
+      { "name": "Emergency Room", "value": "$500 to $3,000+", "width": 100, "isTdmd": false }
+    ],
+    "footnote": "Prescription costs at your pharmacy are separate and vary by medication and pharmacy.",
+    "noHiddenFees": "No hidden fees. If antiviral medication is not clinically appropriate, you still receive a complete evaluation, symptom management guidance, and clear instructions on what level of care you need next."
+  },
+
+  "whatIsCondition": {
+    "sectionTitle": "What Is Influenza?",
+    "paragraphs": [
+      "Influenza (flu) is an acute respiratory infection caused by influenza A or influenza B viruses. It typically presents with sudden onset of fever, chills, body aches, fatigue, cough, sore throat, and headache. Unlike the common cold, influenza tends to come on abruptly and cause more severe systemic symptoms.",
+      "The CDC estimates that influenza causes millions of illnesses, hundreds of thousands of hospitalizations, and tens of thousands of deaths in the United States each year. Complications include pneumonia, myocarditis, worsening of chronic conditions, and secondary bacterial infections. Adults 65 and older, people with chronic medical conditions, immunocompromised individuals, and pregnant women are at highest risk for serious complications.",
+      "Antiviral treatment with oseltamivir or baloxavir is most effective when started within 48 hours of symptom onset. TeleDirectMD provides fast access to MD evaluation and antiviral prescriptions when clinically appropriate, with clear safety screening for complications requiring urgent in-person care."
+    ]
+  },
+
+  "causesAndRiskFactors": {
+    "sectionTitle": "Causes and Risk Factors",
+    "intro": "Influenza spreads primarily through respiratory droplets when infected people cough, sneeze, or talk. It can also spread by touching contaminated surfaces and then touching the mouth, nose, or eyes. The incubation period is typically 1 to 4 days, and infected individuals may be contagious from 1 day before symptoms start to 5 to 7 days after becoming sick.",
+    "items": [
+      { "label": "Close contact with infected person:", "text": "household members, coworkers, and crowded settings increase transmission risk" },
+      { "label": "Age 65 or older:", "text": "higher risk of serious complications, hospitalization, and death from influenza" },
+      { "label": "Chronic medical conditions:", "text": "asthma, COPD, heart disease, diabetes, kidney disease, and liver disease increase complication risk" },
+      { "label": "Immunocompromised status:", "text": "weakened immune system from illness or medications increases risk of severe and prolonged infection" },
+      { "label": "Lack of annual flu vaccination:", "text": "vaccination remains the most effective prevention strategy and can reduce severity even when not perfectly matched to circulating strains" },
+      { "label": "Pregnancy:", "text": "physiologic changes during pregnancy increase susceptibility to severe influenza illness" }
+    ],
+    "closing": "Not every respiratory illness during flu season is influenza. COVID-19, RSV, common cold, strep throat, and other respiratory infections can present with overlapping symptoms. TeleDirectMD screens for symptom patterns and severity to guide appropriate evaluation and treatment."
+  },
+
+  "symptomsAndRedFlags": {
+    "sectionTitle": "Symptoms and Red Flags for Influenza in {state}",
+    "intro": "Use this table to understand which flu symptoms may be appropriate for telehealth antiviral treatment and which patterns suggest a need for urgent in-person evaluation.",
+    "headers": ["Symptom or situation", "What it suggests", "Telehealth appropriate?", "Red flag requiring urgent in-person care"],
+    "rows": [
+      ["Sudden fever, body aches, fatigue, cough within 48 hours of onset", "Typical uncomplicated influenza", "Often yes", "Difficulty breathing or persistent chest pain"],
+      ["Sore throat, headache, nasal congestion with flu-like illness", "Common flu symptoms", "Often yes", "Severe headache with stiff neck or confusion"],
+      ["Mild to moderate cough without shortness of breath", "Upper respiratory involvement", "Often yes", "Worsening cough with increasing shortness of breath"],
+      ["Fever responding to acetaminophen or ibuprofen", "Expected flu course", "Often yes", "High fever unresponsive to antipyretics or fever returning after initial improvement"],
+      ["Mild nausea or decreased appetite", "Common with flu", "Often yes", "Persistent vomiting, inability to keep fluids down, or signs of dehydration"],
+      ["Known flu exposure during active flu season", "Supports clinical diagnosis", "Often yes", "Rapid deterioration or onset of severe symptoms"],
+      ["Symptoms improving after day 3 to 4 then suddenly worsening", "Possible secondary bacterial infection", "Usually no", "Urgent in-person evaluation for possible bacterial pneumonia"]
+    ]
+  },
+
+  "differentialDiagnosis": {
+    "sectionTitle": "Differential Diagnosis: Influenza vs Other Conditions",
+    "intro": "Several respiratory illnesses can present similarly to influenza, especially during respiratory virus season. TeleDirectMD evaluates symptom patterns, onset characteristics, severity, and risk factors to determine the most likely diagnosis and appropriate treatment approach.",
+    "telehealthAppropriate": {
+      "title": "Sometimes Appropriate for Telehealth",
+      "items": [
+        "Uncomplicated influenza with symptom onset within 48 hours",
+        "Mild to moderate flu symptoms without red flags",
+        "Antiviral evaluation for patients at higher risk of complications",
+        "Symptom management guidance and recovery monitoring plan",
+        "Differentiation between flu, cold, and other mild respiratory illness"
+      ]
+    },
+    "requiresInPerson": {
+      "title": "Often Requires In-Person Evaluation",
+      "items": [
+        "Suspected influenza pneumonia with worsening cough and shortness of breath",
+        "Severe dehydration from inability to keep fluids down",
+        "Influenza in severely immunocompromised patients who may need IV antiviral therapy",
+        "Suspected secondary bacterial infection with new fever after initial improvement",
+        "Symptoms suggesting a non-influenza emergency such as myocardial infarction, pulmonary embolism, or meningitis"
+      ]
+    },
+    "compareCards": [
+      {
+        "title": "Influenza vs Common Cold",
+        "text": "Influenza typically presents with abrupt onset of high fever, severe body aches, fatigue, and dry cough. The common cold develops more gradually with runny nose, sneezing, and mild body aches. Flu symptoms are usually more severe and systemic, while cold symptoms are primarily nasal and upper respiratory."
+      },
+      {
+        "title": "Influenza vs COVID-19",
+        "text": "Influenza and COVID-19 share many symptoms including fever, cough, fatigue, and body aches. COVID-19 more often causes loss of taste or smell and may have a longer incubation period. Both can cause serious complications. Testing can help distinguish between the two, and treatment approaches differ."
+      }
+    ],
+    "closing": "If your symptoms do not match typical uncomplicated influenza or any red flags are present, TeleDirectMD will direct you to urgent in-person care."
+  },
+
+  "telehealthEligibility": {
+    "sectionTitle": "When Is a Video Visit Appropriate?",
+    "appropriate": {
+      "title": "When a Video Visit Is Appropriate",
+      "items": [
+        "Flu-like symptoms started within the past 48 hours (ideal antiviral window)",
+        "No difficulty breathing, persistent chest pain, or confusion",
+        "You are able to keep fluids down and are not severely dehydrated",
+        "You do not have severe muscle weakness, seizures, or new neurological symptoms",
+        "You want fast evaluation and early antiviral treatment to shorten illness",
+        "Located in {state} at time of visit"
+      ]
+    },
+    "redFlags": {
+      "title": "Red Flags Requiring In-Person or ER Care",
+      "items": [
+        "Difficulty breathing or shortness of breath",
+        "Persistent chest pain or pressure",
+        "Confusion, extreme drowsiness, or inability to stay alert",
+        "Inability to keep fluids down with signs of dehydration",
+        "Severe muscle weakness or inability to stand",
+        "Seizures or new neurological symptoms",
+        "High fever unresponsive to acetaminophen or ibuprofen",
+        "Symptoms that improve then suddenly worsen (possible secondary infection)"
+      ],
+      "disclaimer": "If any red-flag symptoms are present, seek urgent in-person or emergency care. TeleDirectMD is not an emergency service."
+    }
+  },
+
+  "treatmentOptions": {
+    "sectionTitle": "Treatment Options",
+    "intro": "Influenza treatment combines antiviral medication when started early enough with supportive care for symptom management. The CDC recommends antiviral treatment as soon as possible for patients hospitalized with influenza, those at higher risk of complications, those with progressive or severe illness, and considers it for any otherwise healthy outpatient within 48 hours of symptom onset. Clinical trials show that early antiviral treatment can shorten the duration of fever and symptoms by approximately 1 to 2 days and may reduce complications.",
+    "sections": [
+      {
+        "title": "Antiviral treatment within 48 hours",
+        "text": "Oseltamivir (Tamiflu) 75 mg twice daily for 5 days is the most widely prescribed antiviral for influenza. Baloxavir marboxil (Xofluza) as a single dose is a convenient alternative that works against both influenza A and B. Both are most effective when started within 48 hours of symptom onset, though treatment can still be considered beyond 48 hours for high-risk patients or those with severe illness."
+      },
+      {
+        "title": "Supportive care for symptom management",
+        "text": "Acetaminophen or ibuprofen can reduce fever and relieve body aches. Adequate fluid intake is essential. Rest allows the immune system to fight the infection effectively. Cough suppressants, throat lozenges, and honey may provide symptomatic relief for cough and sore throat."
+      },
+      {
+        "title": "When telehealth antiviral care is not enough",
+        "text": "If symptoms include difficulty breathing, persistent chest pain, confusion, severe dehydration, or signs of secondary bacterial infection, in-person evaluation is needed. Severely immunocompromised patients may require intravenous antiviral therapy that cannot be provided by telehealth."
+      }
+    ],
+    "doesNotManage": [
+      "Severe influenza requiring hospitalization or supplemental oxygen",
+      "Influenza pneumonia or suspected secondary bacterial pneumonia",
+      "Influenza in severely immunocompromised patients requiring IV antiviral therapy (peramivir)",
+      "Influenza with cardiovascular complications such as myocarditis"
+    ]
+  },
+
+  "medications": {
+    "sectionTitle": "Common Medication Options",
+    "intro": "These are common medications discussed for adult influenza treatment. The actual medication choice depends on symptom onset timing, severity, risk factors for complications, allergies, and clinical appropriateness determined by the MD during your video visit.",
+    "headers": ["Medication", "Typical dose", "Duration", "Key considerations"],
+    "rows": [
+      ["Oseltamivir (Tamiflu)", "75 mg by mouth twice daily", "5 days", "Most widely prescribed influenza antiviral. Most effective within 48 hours of symptom onset. Can be considered beyond 48 hours for high-risk patients. Active against influenza A and B."],
+      ["Baloxavir marboxil (Xofluza)", "Single weight-based dose by mouth", "Single dose", "Convenient single-dose option. Works against influenza A and B. Active against oseltamivir-resistant strains. Avoid with dairy products, calcium-fortified beverages, or antacids within 2 hours."],
+      ["Zanamivir (Relenza)", "10 mg inhaled twice daily", "5 days", "Inhaled antiviral option. NOT recommended for patients with asthma or COPD due to risk of bronchospasm. Requires proper inhaler technique."],
+      ["Acetaminophen (Tylenol)", "500 to 1000 mg by mouth every 6 to 8 hours as needed", "As needed during illness", "For fever and body aches. Do not exceed 3000 mg daily. Avoid if you have liver disease."],
+      ["Ibuprofen (Advil, Motrin)", "200 to 400 mg by mouth every 6 to 8 hours as needed", "As needed during illness", "Alternative for fever and body aches. Take with food. Avoid if you have kidney disease, GI bleeding history, or are on blood thinners."],
+      ["Guaifenesin or dextromethorphan", "As directed on label", "As needed during illness", "Over-the-counter options for cough relief. Guaifenesin helps thin mucus. Dextromethorphan suppresses cough. Not curative but can improve comfort."],
+      ["Fluids and electrolytes", "Generous oral intake", "Throughout illness", "Essential to prevent dehydration, especially with fever. Water, clear broths, and electrolyte solutions are appropriate. Seek urgent care if unable to keep fluids down."]
+    ],
+    "note": "Medication selection is individualized based on timing, risk factors, allergies, and clinical judgment. TeleDirectMD does not prescribe controlled substances. Antiviral treatment is intended for early intervention when clinically appropriate, not as a substitute for urgent care in severe illness."
+  },
+
+  "homeCare": {
+    "sectionTitle": "Home Care, Recovery Timeline, and Follow-up",
+    "whatToDoNow": {
+      "title": "Recovery Timeline and What to Do Now",
+      "items": [
+        "Most adults with uncomplicated flu recover within 7 to 10 days, though fatigue may persist longer",
+        "Fever typically lasts 3 to 5 days and should trend downward, not upward",
+        "Take antiviral medication exactly as prescribed and complete the full course (oseltamivir) or take the single dose (baloxavir) as directed",
+        "Rest as much as possible and stay home to avoid spreading the virus to others",
+        "Drink fluids regularly to stay hydrated, especially with fever"
+      ]
+    },
+    "whatToWatch": {
+      "title": "What to Watch For Over the Next 24 to 72 Hours",
+      "items": [
+        "New or worsening difficulty breathing or shortness of breath",
+        "Persistent chest pain or pressure",
+        "Fever that improves and then spikes again (may suggest secondary bacterial infection)",
+        "Confusion, severe drowsiness, or difficulty staying awake",
+        "Inability to keep fluids down or signs of dehydration (dizziness, dark urine, dry mouth)"
+      ]
+    },
+    "followUp": {
+      "title": "Follow-up Timing",
+      "items": [
+        "If symptoms are steadily improving by day 3 to 5, you are likely on a normal recovery course",
+        "If symptoms plateau or worsen after initial improvement, seek in-person evaluation for possible secondary infection",
+        "If you have chronic medical conditions, follow up with your primary care provider after recovery",
+        "If emergency warning signs develop at any time, go to urgent care or the ER immediately"
+      ]
+    }
+  },
+
+  "whenNotToUse": {
+    "sectionTitle": "When Not to Use TeleDirectMD for Influenza in {state}",
+    "intro": "TeleDirectMD is designed for uncomplicated adult influenza evaluation and early antiviral treatment. We are direct about when telehealth is not the right fit.",
+    "shouldNotUse": {
+      "title": "You Should Not Use TeleDirectMD If",
+      "items": [
+        "You have difficulty breathing or shortness of breath at rest",
+        "You have persistent chest pain or pressure",
+        "You are confused, extremely drowsy, or difficult to arouse",
+        "You cannot keep any fluids down and are becoming dehydrated",
+        "You have severe muscle weakness, seizures, or new neurological symptoms",
+        "You are severely immunocompromised and may need IV antiviral therapy",
+        "You are under 18 years old",
+        "You are not physically in {state} at the time of visit"
+      ]
+    },
+    "alternatives": {
+      "title": "Alternative Care Options",
+      "items": [
+        { "label": "Emergency room:", "text": "difficulty breathing, persistent chest pain, confusion, seizures, or rapidly worsening illness" },
+        { "label": "Urgent care:", "text": "moderate symptoms needing in-person exam, rapid flu testing, or IV fluids for dehydration" },
+        { "label": "Primary care:", "text": "post-flu follow-up, management of chronic conditions worsened by flu, and flu vaccination" }
+      ]
+    }
+  },
+
+  "faq": {
+    "sectionTitle": "Influenza Treatment FAQs for {state}",
+    "items": [
+      {
+        "question": "Can I get Tamiflu or Xofluza prescribed online in {state}?",
+        "answer": "Yes, if you are an adult 18+ located in {state} and your symptoms are appropriate for telehealth after red-flag screening. TeleDirectMD can prescribe oseltamivir (Tamiflu) or baloxavir (Xofluza) when clinically appropriate. Antiviral treatment is most effective when started within 48 hours of symptom onset."
+      },
+      {
+        "question": "How much does an online flu visit cost in {state}?",
+        "answer": "TeleDirectMD offers a transparent self pay option starting at $49 for an adult video visit in {state}. Insurance is not required. Prescription costs at your pharmacy are separate and vary by medication and pharmacy."
+      },
+      {
+        "question": "Do I need a flu test before getting antiviral treatment?",
+        "answer": "Not always. The CDC states that clinical judgment based on symptoms and local flu activity can support starting antiviral treatment empirically. During peak flu season, adults with classic sudden-onset flu symptoms may be treated without testing when the clinical picture is consistent. If diagnosis is uncertain, in-person rapid testing may be recommended."
+      },
+      {
+        "question": "How quickly do I need to start antiviral medication?",
+        "answer": "Antiviral medications are most effective when started within 48 hours of symptom onset. This is why fast access through telehealth can be valuable. Treatment can still be considered beyond 48 hours for patients at higher risk of complications or those with severe or progressive illness, but the benefit is greatest with early initiation."
+      },
+      {
+        "question": "What is the difference between oseltamivir and baloxavir?",
+        "answer": "Oseltamivir (Tamiflu) is taken twice daily for 5 days and is the most widely prescribed flu antiviral. Baloxavir (Xofluza) is a single-dose medication that is convenient and works against influenza A and B, including some oseltamivir-resistant strains. Both are most effective within 48 hours of symptom onset. Your MD will recommend the best option based on your specific situation."
+      },
+      {
+        "question": "How is the flu different from a cold?",
+        "answer": "Influenza typically starts abruptly with high fever, severe body aches, fatigue, and dry cough. The common cold develops more gradually with runny nose, sneezing, and milder symptoms. Flu is more likely to cause serious complications, especially in high-risk groups. If your symptoms are sudden, severe, and include high fever with body aches, influenza is more likely."
+      },
+      {
+        "question": "When should I go to the ER for flu symptoms?",
+        "answer": "Seek emergency care for difficulty breathing or shortness of breath, persistent chest pain or pressure, confusion or inability to stay alert, inability to keep fluids down, severe muscle weakness, seizures, or high fever that does not respond to acetaminophen or ibuprofen. Also seek urgent care if flu symptoms improve then suddenly worsen, which may suggest secondary bacterial infection."
+      },
+      {
+        "question": "Can I spread the flu to others while being treated?",
+        "answer": "Yes. The CDC recommends staying home for at least 24 hours after fever resolves without the use of fever-reducing medications. Most adults are contagious from 1 day before symptoms start to 5 to 7 days after becoming sick. Antiviral treatment may shorten the contagious period but does not eliminate it immediately."
+      },
+      {
+        "question": "Does {state} allow telemedicine for flu treatment?",
+        "answer": "Yes. {state} allows licensed professionals to provide telemedicine within their scope when appropriate and according to accepted standards of care."
+      },
+      {
+        "question": "Can TeleDirectMD treat the flu in other states?",
+        "answer": "Yes. TeleDirectMD offers adult evaluations via video visits across multiple states where our physicians are licensed. You must be physically located in the state where you are requesting care at the time of your video visit."
+      }
+    ],
+    "bottomCta": {
+      "title": "Need help today?",
+      "text": "Insurance is not required. Adult-only video visits. MD-only care. Fast antiviral evaluation within the 48-hour treatment window, safety-first triage, and prescriptions when appropriate."
+    }
+  },
+
+  "references": [
+    { "text": "CDC Influenza Antiviral Medications: Summary for Clinicians (2025-2026 Season)", "url": "https://www.cdc.gov/flu/professionals/antivirals/summary-clinicians.htm" },
+    { "text": "CDC Influenza (Flu) Treatment Overview", "url": "https://www.cdc.gov/flu/treatment/index.html" },
+    { "text": "CDC People at Higher Risk of Flu Complications", "url": "https://www.cdc.gov/flu/highrisk/index.htm" },
+    { "text": "CDC Flu Symptoms and Complications", "url": "https://www.cdc.gov/flu/symptoms/symptoms.htm" }
+  ],
+
+  "disclaimer": {
+    "sectionTitle": "TeleDirectMD Telehealth Disclaimer",
+    "paragraphs": [
+      "TeleDirectMD provides MD-only virtual urgent care for adults (18+) in {state} using secure video visits to evaluate influenza symptoms, provide evidence-based guidance, and prescribe antiviral treatment when clinically appropriate. Insurance is not required. You must be physically located in {state} at the time of your video visit. TeleDirectMD does not prescribe controlled substances.",
+      "TeleDirectMD is not an emergency service and is not a replacement for urgent in-person care during severe influenza, influenza pneumonia, or rapidly worsening illness. This service is intended for uncomplicated influenza evaluation and early antiviral treatment and is not a substitute for emergency care when red flags are present.",
+      "Online flu treatment in {state}. Tamiflu online. Xofluza online. Influenza antiviral treatment by video visit."
+    ]
+  },
+
+  "relatedConditions": [
+    {
+      "slug": "common-cold-treatment-online",
+      "title": "Common Cold",
+      "description": "Milder respiratory symptoms that can overlap with early influenza presentation"
+    },
+    {
+      "slug": "sore-throat-treatment-online",
+      "title": "Sore Throat",
+      "description": "Throat pain is common with influenza and may also suggest strep throat"
+    },
+    {
+      "slug": "covid-19-treatment-online",
+      "title": "COVID-19",
+      "description": "Shares many symptoms with influenza including fever, cough, and body aches"
+    },
+    {
+      "slug": "sinus-infection-treatment-online",
+      "title": "Sinus Infection",
+      "description": "Sinus congestion can develop as a complication of influenza or be confused with flu symptoms"
+    }
+  ],
+
+  "inlineLinks": [
+    { "slug": "common-cold-treatment-online", "label": "Common Cold" },
+    { "slug": "sore-throat-treatment-online", "label": "Sore Throat" },
+    { "slug": "covid-19-treatment-online", "label": "COVID-19" },
+    { "slug": "sinus-infection-treatment-online", "label": "Sinus Infection" },
+    { "slug": "asthma-refills-online", "label": "Asthma Refills" },
+    { "slug": "uti-treatment-online", "label": "UTI" },
+    { "slug": "pink-eye-treatment-online", "label": "Pink Eye" },
+    { "slug": "seasonal-allergies-treatment-online", "label": "Seasonal Allergies" },
+    { "slug": "cold-sore-treatment-online", "label": "Cold Sore" },
+    { "slug": "blood-pressure-medication-refills-online", "label": "Blood Pressure Medication Refills" }
+  ],
+
+  "cityBlock": {
+    "title": "Adults We Serve Across {state}",
+    "text": "TeleDirectMD evaluates adults located throughout {state}, including {citiesExtended}. Whether you are searching for online flu treatment in {city1}, Tamiflu online in {city2}, influenza antiviral care in {city3}, or telehealth flu evaluation anywhere else in {state}, the same telehealth eligibility and safety rules apply."
+  },
+
+  "icd10Codes": [
+    { "code": "J11.1", "description": "Influenza due to unidentified influenza virus with other respiratory manifestations" },
+    { "code": "J10.1", "description": "Influenza due to other identified influenza virus with other respiratory manifestations" },
+    { "code": "J11.89", "description": "Influenza due to unidentified influenza virus with other manifestations" },
+    { "code": "J09.X2", "description": "Influenza due to identified novel influenza A virus with other respiratory manifestations" }
+  ],
+
+  "jsonLd": {
+    "conditionName": "Influenza",
+    "conditionAlternateNames": ["Flu", "Seasonal flu", "Influenza A", "Influenza B"],
+    "conditionDescription": "Influenza (flu) is an acute respiratory infection caused by influenza viruses, typically presenting with sudden onset of fever, body aches, cough, and fatigue. TeleDirectMD evaluates adult flu symptoms by video visit with safety-first red-flag screening and provides early antiviral treatment with oseltamivir or baloxavir when clinically appropriate, with clear rules for when urgent in-person care is needed.",
+    "primaryIcd10": "J11.1",
+    "anatomy": "Respiratory system",
+    "symptoms": ["Fever", "Body aches", "Cough", "Fatigue", "Sore throat", "Headache", "Chills"],
+    "riskFactors": [
+      "Age 65 or older",
+      "Chronic medical conditions",
+      "Immunocompromised status",
+      "Lack of annual flu vaccination",
+      "Close contact with infected person"
+    ],
+    "complications": [
+      "Influenza pneumonia",
+      "Secondary bacterial pneumonia",
+      "Myocarditis",
+      "Worsening of chronic medical conditions",
+      "Dehydration"
+    ],
+    "epidemiology": "Influenza causes millions of illnesses, hundreds of thousands of hospitalizations, and tens of thousands of deaths annually in the United States.",
+    "drugs": [
+      { "name": "Oseltamivir (Tamiflu)", "id": "oseltamivir" },
+      { "name": "Baloxavir marboxil (Xofluza)", "id": "baloxavir" },
+      { "name": "Zanamivir (Relenza)", "id": "zanamivir" }
+    ],
+    "treatments": [
+      "Early antiviral treatment within 48 hours of onset",
+      "Supportive care with fluids and fever management",
+      "Urgent in-person evaluation for severe or complicated influenza"
+    ],
+    "tests": [
+      "Clinical symptom review and red-flag screening",
+      "Rapid influenza diagnostic test when indicated",
+      "Influenza RT-PCR when precise diagnosis is needed"
+    ],
+    "specialties": ["Family Medicine", "Telemedicine", "Infectious Disease"],
+    "guidelines": [
+      { "name": "CDC Influenza Antiviral Medications: Summary for Clinicians", "url": "https://www.cdc.gov/flu/professionals/antivirals/summary-clinicians.htm", "publisher": "Centers for Disease Control and Prevention", "id": "cdc-antivirals" },
+      { "name": "CDC Influenza Treatment Overview", "url": "https://www.cdc.gov/flu/treatment/index.html", "publisher": "Centers for Disease Control and Prevention", "id": "cdc-treatment" }
+    ],
+    "knowsAbout": [
+      "Influenza treatment",
+      "Antiviral medication management",
+      "Oseltamivir and baloxavir prescribing",
+      "Telehealth triage",
+      "Safety-first red-flag screening",
+      "Family Medicine"
+    ],
+    "serviceDescription": "Secure video visit for {state} adults with influenza symptoms, including red-flag screening, early antiviral evaluation within the 48-hour treatment window, and prescriptions when clinically appropriate.",
+    "webpageDescription": "{state} influenza treatment by secure MD video visit for adults. Evidence-based flu evaluation, early antiviral treatment with oseltamivir or baloxavir when appropriate, red-flag screening for complications, and clear rules for when urgent in-person care is needed."
+  }
+}
