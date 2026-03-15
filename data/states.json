@@ -136,6 +136,33 @@
     "telehealthRegulation": "Connecticut General Statutes Section 19a-906 authorizes telehealth services and requires insurers to cover telehealth visits on par with in-person visits. Providers must be licensed in Connecticut and maintain the same standard of care when delivering services through telemedicine technologies."
   },
   {
+    "name": "Delaware",
+    "abbr": "DE",
+    "slug": "de",
+    "cities": [
+      "Wilmington",
+      "Dover",
+      "Newark",
+      "Middletown",
+      "Bear",
+      "Glasgow",
+      "Brookside",
+      "Hockessin",
+      "Smyrna",
+      "Milford",
+      "Seaford",
+      "Georgetown"
+    ],
+    "pharmacies": [
+      "CVS Pharmacy",
+      "Walgreens",
+      "Walmart Pharmacy",
+      "Rite Aid",
+      "Acme Pharmacy"
+    ],
+    "telehealthRegulation": "Delaware Title 24 Chapter 60 and Section 1769D of the Medical Practice Act govern telemedicine services, permitting licensed physicians to provide telehealth care using audio-video telecommunications. Physicians must establish a proper physician-patient relationship, verify patient location and identity, obtain informed consent regarding telehealth delivery, and maintain complete medical records. Treatment recommendations and prescriptions issued via telehealth are held to the same standards of appropriate practice as in-person encounters."
+  },
+  {
     "name": "Florida",
     "abbr": "FL",
     "slug": "fl",
@@ -322,31 +349,6 @@
       "Costco Pharmacy"
     ],
     "telehealthRegulation": "Iowa Code Chapter 135 and the Iowa Board of Medicine authorize telehealth as a permissible means of delivering healthcare services across the state. Providers may establish a physician-patient relationship through telehealth and are held to the same standard of care, documentation, and prescribing requirements as in-person encounters."
-  },
-  {
-    "name": "Kansas",
-    "abbr": "KS",
-    "slug": "ks",
-    "cities": [
-      "Wichita",
-      "Overland Park",
-      "Kansas City",
-      "Olathe",
-      "Topeka",
-      "Lawrence",
-      "Shawnee",
-      "Manhattan",
-      "Lenexa",
-      "Salina"
-    ],
-    "pharmacies": [
-      "CVS Pharmacy",
-      "Walgreens",
-      "Walmart Pharmacy",
-      "Dillons Pharmacy",
-      "Hy-Vee Pharmacy"
-    ],
-    "telehealthRegulation": "Kansas Statutes Annotated 40-2,215 and the Kansas State Board of Healing Arts authorize the practice of telemedicine for licensed providers. Kansas law requires telehealth services to meet the same standard of care as in-person treatment and permits the establishment of a provider-patient relationship through telehealth technology."
   },
   {
     "name": "Kentucky",
@@ -608,6 +610,33 @@
     "telehealthRegulation": "Nevada Revised Statutes Chapter 629 governs telehealth services and permits licensed providers to deliver healthcare remotely using audio, video, and data communication technologies. The Nevada State Board of Medical Examiners authorizes the establishment of a provider-patient relationship via telehealth and requires practitioners to uphold the same standard of care as in-person consultations."
   },
   {
+    "name": "New Hampshire",
+    "abbr": "NH",
+    "slug": "nh",
+    "cities": [
+      "Manchester",
+      "Nashua",
+      "Concord",
+      "Derry",
+      "Dover",
+      "Rochester",
+      "Salem",
+      "Merrimack",
+      "Hudson",
+      "Londonderry",
+      "Keene",
+      "Bedford"
+    ],
+    "pharmacies": [
+      "CVS Pharmacy",
+      "Walgreens",
+      "Walmart Pharmacy",
+      "Rite Aid",
+      "Hannaford Pharmacy"
+    ],
+    "telehealthRegulation": "New Hampshire RSA 329:1-d governs telemedicine practice, permitting licensed physicians to provide diagnosis, consultation, and treatment via audio, video, or other electronic media. Out-of-state physicians providing telemedicine to patients in New Hampshire must be licensed under this chapter. Physicians must use the same standard of care as in-person encounters, maintain medical records, and comply with all federal and state prescribing laws and regulations."
+  },
+  {
     "name": "New Jersey",
     "abbr": "NJ",
     "slug": "nj",
@@ -636,31 +665,6 @@
     "telehealthRegulation": "New Jersey's telehealth law (P.L. 2017, Chapter 117) permits healthcare professionals to deliver telemedicine and telehealth services using real-time, interactive audio-video technology. The New Jersey Board of Medical Examiners requires providers to maintain the same standard of care as in-person visits and mandates that insurers provide coverage for telehealth services."
   },
   {
-    "name": "New Mexico",
-    "abbr": "NM",
-    "slug": "nm",
-    "cities": [
-      "Albuquerque",
-      "Las Cruces",
-      "Rio Rancho",
-      "Santa Fe",
-      "Roswell",
-      "Farmington",
-      "Clovis",
-      "Hobbs",
-      "Alamogordo",
-      "Carlsbad"
-    ],
-    "pharmacies": [
-      "CVS Pharmacy",
-      "Walgreens",
-      "Walmart Pharmacy",
-      "Albertsons Pharmacy",
-      "Smith's Pharmacy"
-    ],
-    "telehealthRegulation": "New Mexico Statutes Annotated Section 24-25-3 defines telehealth and permits licensed providers to deliver healthcare services via electronic communications. The New Mexico Medical Board supports telehealth as a means to expand access to care and requires providers to maintain the same standard of care and documentation requirements as in-person encounters."
-  },
-  {
     "name": "North Carolina",
     "abbr": "NC",
     "slug": "nc",
@@ -687,6 +691,33 @@
       "Food Lion Pharmacy"
     ],
     "telehealthRegulation": "North Carolina General Statutes Section 90-21.19A defines and regulates telemedicine, permitting licensed providers to deliver healthcare services via approved technologies. The North Carolina Medical Board authorizes providers to establish a physician-patient relationship through telemedicine and requires adherence to the same professional standards as in-person care."
+  },
+  {
+    "name": "North Dakota",
+    "abbr": "ND",
+    "slug": "nd",
+    "cities": [
+      "Fargo",
+      "Bismarck",
+      "Grand Forks",
+      "Minot",
+      "West Fargo",
+      "Williston",
+      "Dickinson",
+      "Mandan",
+      "Jamestown",
+      "Wahpeton",
+      "Devils Lake",
+      "Valley City"
+    ],
+    "pharmacies": [
+      "CVS Pharmacy",
+      "Walgreens",
+      "Walmart Pharmacy",
+      "Thrifty White Pharmacy",
+      "Sanford Pharmacy"
+    ],
+    "telehealthRegulation": "North Dakota Administrative Code Chapter 50-02-15 governs telemedicine practice, permitting licensed physicians to deliver healthcare services via telecommunications technology. Physicians must hold an active unrestricted license and comply with all state and federal laws regarding prescribing. The standard of care for telemedicine services is the same as for in-person encounters, and licensees must participate in the North Dakota prescription drug monitoring program when prescribing controlled substances."
   },
   {
     "name": "Ohio",
@@ -741,33 +772,6 @@
     "telehealthRegulation": "The Oklahoma Telemedicine Act (36 O.S. Section 6802) authorizes healthcare providers to deliver telemedicine services and establishes coverage requirements for insurers. The Oklahoma State Board of Medical Licensure permits providers to establish a provider-patient relationship through telemedicine and requires that telehealth services meet the same clinical and professional standards as in-person care."
   },
   {
-    "name": "Oregon",
-    "abbr": "OR",
-    "slug": "or",
-    "cities": [
-      "Portland",
-      "Salem",
-      "Eugene",
-      "Gresham",
-      "Hillsboro",
-      "Beaverton",
-      "Bend",
-      "Medford",
-      "Springfield",
-      "Corvallis",
-      "Albany",
-      "Lake Oswego"
-    ],
-    "pharmacies": [
-      "CVS Pharmacy",
-      "Walgreens",
-      "Walmart Pharmacy",
-      "Fred Meyer Pharmacy",
-      "Safeway Pharmacy"
-    ],
-    "telehealthRegulation": "Oregon Revised Statutes Section 431A.900 defines telehealth and authorizes licensed providers to deliver healthcare services using synchronous and asynchronous telecommunications technologies. The Oregon Medical Board permits the establishment of a provider-patient relationship via telehealth and mandates that all telehealth services comply with the same standard of care as in-person treatment."
-  },
-  {
     "name": "Pennsylvania",
     "abbr": "PA",
     "slug": "pa",
@@ -819,6 +823,33 @@
       "Rite Aid"
     ],
     "telehealthRegulation": "South Carolina Code of Laws Section 40-47-37 defines and regulates telemedicine practice, permitting licensed physicians to deliver healthcare services remotely. The South Carolina Board of Medical Examiners requires that telemedicine encounters meet the same standard of care as in-person visits and allows providers to establish a physician-patient relationship through telehealth technology."
+  },
+  {
+    "name": "South Dakota",
+    "abbr": "SD",
+    "slug": "sd",
+    "cities": [
+      "Sioux Falls",
+      "Rapid City",
+      "Aberdeen",
+      "Brookings",
+      "Watertown",
+      "Mitchell",
+      "Yankton",
+      "Huron",
+      "Pierre",
+      "Spearfish",
+      "Vermillion",
+      "Brandon"
+    ],
+    "pharmacies": [
+      "CVS Pharmacy",
+      "Walgreens",
+      "Walmart Pharmacy",
+      "Lewis Drug Pharmacy",
+      "Sanford Pharmacy"
+    ],
+    "telehealthRegulation": "South Dakota Codified Law Chapter 34-52 governs telehealth services, permitting licensed healthcare professionals to provide medical care to patients located in the state using telecommunications technology. Providers must use the same standard of care as in-person encounters. Treatment recommendations and prescriptions delivered via telehealth are subject to the same standards as those provided in traditional settings."
   },
   {
     "name": "Tennessee",
@@ -903,34 +934,6 @@
       "Harmons Pharmacy"
     ],
     "telehealthRegulation": "Utah Code Section 26-60-102 defines telehealth services and authorizes licensed providers to deliver healthcare through electronic communications. The Utah Division of Occupational and Professional Licensing permits the establishment of a provider-patient relationship via telehealth and requires providers to maintain the same standard of care as in-person encounters."
-  },
-  {
-    "name": "Virginia",
-    "abbr": "VA",
-    "slug": "va",
-    "cities": [
-      "Virginia Beach",
-      "Norfolk",
-      "Chesapeake",
-      "Richmond",
-      "Newport News",
-      "Alexandria",
-      "Hampton",
-      "Roanoke",
-      "Portsmouth",
-      "Lynchburg",
-      "Charlottesville",
-      "Arlington",
-      "Fairfax"
-    ],
-    "pharmacies": [
-      "CVS Pharmacy",
-      "Walgreens",
-      "Walmart Pharmacy",
-      "Rite Aid",
-      "Harris Teeter Pharmacy"
-    ],
-    "telehealthRegulation": "Virginia Code Section 38.2-3418.16 requires insurers to cover telehealth services and defines the parameters for telemedicine practice. The Virginia Board of Medicine permits providers to establish a bona fide practitioner-patient relationship through telehealth and requires adherence to the same standard of care, prescribing regulations, and documentation standards as in-person visits."
   },
   {
     "name": "Washington",

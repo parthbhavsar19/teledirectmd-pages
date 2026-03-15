@@ -1,0 +1,591 @@
+{
+  "conditionName": "Mastitis",
+  "conditionShort": "mastitis",
+  "conditionSlug": "mastitis-treatment-online",
+  "pageTitle": "Mastitis Treatment Online in {state} | Lactational Mastitis MD Video Visit | TeleDirectMD",
+  "metaDescription": "Evidence-based mastitis treatment for {state} adults by secure video visit. Conservative management guidance, guideline-based antibiotics when indicated, breastfeeding support, and red-flag screening. Self pay option starting at $49. Insurance is not required.",
+  "ogImageAlt": "Mastitis treatment in {state} by TeleDirectMD",
+
+  "hero": {
+    "h1": "Mastitis Treatment in {state} (Lactational Mastitis)",
+    "subtitle": "{state} adult care by secure video visit, self pay option starting at $49, MD-only, insurance is not required.",
+    "introParagraph": "Mastitis is a common and often painful breast inflammation that affects up to 20 percent of breastfeeding women, typically within the first 6 weeks postpartum. The Academy of Breastfeeding Medicine (ABM) Clinical Protocol #36 (2022) now describes mastitis as a spectrum ranging from ductal narrowing and inflammatory mastitis to bacterial mastitis and abscess, and emphasizes conservative management first: effective milk removal, rest, hydration, ibuprofen, and cold compresses. Antibiotics should be reserved for bacterial mastitis with systemic symptoms such as fever, chills, and malaise, because unnecessary antibiotics can disrupt the breast microbiome and worsen outcomes. When antibiotics are indicated, ACOG recommends dicloxacillin 500mg four times daily as first-line therapy, with cephalexin as an alternative. Importantly, breastfeeding should continue during mastitis treatment — this is safe for both mother and infant. TeleDirectMD is well suited for mastitis evaluation because the diagnosis is clinical, based on a tender, hot, swollen wedge-shaped area of the breast with or without fever. This page is for adults located in {state}, including {cities}.",
+    "tocLinks": [
+      { "href": "eligibility-checklist", "label": "Eligibility checklist" },
+      { "href": "decision-guide", "label": "Decision guide" },
+      { "href": "treatment-options", "label": "Treatment options" },
+      { "href": "faq", "label": "FAQs" },
+      { "href": "references", "label": "References" }
+    ],
+    "benefits": [
+      "Self pay option starting at $49",
+      "MD-only care (no mid-levels)",
+      "Insurance is not required",
+      "Licensed telehealth care for patients located in {state} at the time of the visit"
+    ],
+    "sideCard": {
+      "h2": "Online MD-Only Mastitis Care in {state}",
+      "features": [
+        "Clinical evaluation for mastitis symptoms including breast pain, redness, and swelling",
+        "Red-flag screening for breast abscess, sepsis, and inflammatory breast cancer",
+        "Guideline-based antibiotic prescriptions when bacterial mastitis is suspected",
+        "Breastfeeding support and conservative management guidance"
+      ],
+      "note": "Adults 18+ only. TeleDirectMD is not an emergency service. Go to the ER now for signs of sepsis (high fever with rapid heart rate, low blood pressure, or confusion), a fluctuant breast mass suggesting abscess requiring drainage, or symptoms not improving after 48 to 72 hours of antibiotics. TeleDirectMD does not prescribe controlled substances."
+    },
+    "icd10Display": "N61.0, N61.1, or O91.1 (final coding depends on clinical details)"
+  },
+
+  "eligibility": {
+    "sectionTitle": "Mastitis Telehealth Eligibility Checklist for {state}",
+    "introText": "You are likely eligible for a TeleDirectMD video visit if ALL of these are true:",
+    "eligible": [
+      "You are 18 years old or older",
+      "You are physically located in {state} at the time of the visit",
+      "You have symptoms consistent with mastitis such as breast pain, redness, warmth, swelling, or a tender wedge-shaped area",
+      "You do not have a fluctuant breast mass or signs suggesting a breast abscess needing drainage",
+      "You do not have signs of sepsis such as high fever with rapid heart rate, confusion, or low blood pressure",
+      "You have not failed a prior course of antibiotics for this episode without improvement",
+      "Your symptoms are consistent with uncomplicated mastitis rather than a condition requiring imaging or biopsy",
+      "Insurance is not required. A self pay option is available."
+    ],
+    "notEligible": [
+      "You are under 18 years old",
+      "You have a fluctuant breast mass suggesting abscess that may need drainage",
+      "You have signs of sepsis: high fever, rapid heart rate, low blood pressure, or confusion",
+      "You have symptoms not improving after 48 to 72 hours of oral antibiotics",
+      "You have recurrent mastitis episodes needing further workup",
+      "You have non-lactational breast inflammation with concern for inflammatory breast cancer",
+      "You have a breast lump or skin changes unrelated to acute infection"
+    ],
+    "notEligibleDisclaimer": "If you have signs of sepsis or a breast abscess requiring drainage, seek emergency care immediately. TeleDirectMD is not an emergency service."
+  },
+
+  "howItWorks": {
+    "sectionTitle": "How Online Mastitis Treatment Works in {state}",
+    "steps": [
+      {
+        "type": "check",
+        "title": "Book your video visit",
+        "description": "Insurance is not required. No referral needed. Many visits are available same day, depending on scheduling. Before your visit, note when breast symptoms started, whether you have fever, your breastfeeding pattern, any history of MRSA, and any prior mastitis episodes."
+      },
+      {
+        "type": "check",
+        "title": "See a {state} licensed MD by video",
+        "description": "We review your symptoms, breastfeeding history, onset, and severity, and screen for red flags including abscess, sepsis, and recurrent mastitis. Mastitis is a clinical diagnosis based on symptom description. We determine whether conservative management alone or antibiotics are appropriate based on ABM and ACOG guidelines."
+      },
+      {
+        "type": "good",
+        "title": "Get a treatment plan and, if appropriate, a prescription",
+        "description": "If antibiotics are clinically appropriate, we send an e-prescription to common {state} pharmacies such as {pharmacies}. Many patients with early or inflammatory mastitis improve with conservative measures alone. You receive clear follow-up steps including breastfeeding guidance and when to seek in-person care if symptoms worsen.",
+        "showCta": true
+      }
+    ]
+  },
+
+  "telehealthRegulations": {
+    "sectionTitle": "{state} Telehealth Regulations for Online Mastitis Care",
+    "paragraphs": [
+      "{telehealthRegulation}",
+      "Location matters: you must be physically in {state} during the visit. Insurance is not required. TeleDirectMD does not prescribe controlled substances."
+    ]
+  },
+
+  "comparisonTable": {
+    "sectionTitle": "TeleDirectMD vs Other Care Options for Mastitis in {state}",
+    "intro": "Here is how TeleDirectMD compares to common settings for adult mastitis care in {state}:",
+    "rows": [
+      {
+        "option": "TeleDirectMD",
+        "cost": "Self pay option starting at $49",
+        "wait": "Same day, often within hours",
+        "provider": "Board-certified MD only (no mid-levels)",
+        "bestFor": "Uncomplicated mastitis with clinical symptoms, conservative management guidance, and antibiotics when bacterial mastitis is suspected",
+        "highlight": true
+      },
+      {
+        "option": "Urgent Care",
+        "cost": "$150 to $300+ (before insurance)",
+        "wait": "1 to 3 hours typical",
+        "provider": "MD, DO, PA, or NP",
+        "bestFor": "Uncertain diagnosis, moderate symptoms, or when in-person breast exam is needed to assess for abscess",
+        "highlight": false
+      },
+      {
+        "option": "Emergency Room",
+        "cost": "$500 to $3,000+ (before insurance)",
+        "wait": "2 to 6 hours typical",
+        "provider": "Emergency medicine MD or DO",
+        "bestFor": "Signs of sepsis (high fever, tachycardia, hypotension), suspected breast abscess needing drainage, or failure to improve after 48 to 72 hours of antibiotics",
+        "highlight": false
+      },
+      {
+        "option": "Primary Care",
+        "cost": "$100 to $250+ (varies)",
+        "wait": "3 to 14 days typical",
+        "provider": "Family medicine or internal medicine MD or DO",
+        "bestFor": "Recurrent mastitis, ongoing breastfeeding support, and prevention planning",
+        "highlight": false
+      },
+      {
+        "option": "OB/GYN or Lactation Consultant",
+        "cost": "$100 to $350+ (varies)",
+        "wait": "Days to weeks (varies)",
+        "provider": "OB/GYN MD or DO, or IBCLC lactation consultant",
+        "bestFor": "Recurrent mastitis with latch or positioning issues, breast abscess evaluation, postpartum complications, or when hands-on breastfeeding assessment is needed",
+        "highlight": false
+      }
+    ],
+    "bottomLine": "TeleDirectMD is a strong fit for uncomplicated mastitis because the diagnosis is clinical, treatment involves oral medications and conservative measures, and rapid evaluation helps prevent progression to abscess."
+  },
+
+  "decisionGuide": {
+    "sectionTitle": "Should I Use TeleDirectMD for Mastitis in {state}? Decision Guide",
+    "steps": [
+      {
+        "type": "urgent",
+        "title": "Do you have any emergency or red-flag symptoms?",
+        "items": [
+          "Signs of sepsis: high fever with rapid heart rate, low blood pressure, or confusion",
+          "Fluctuant breast mass suggesting abscess that may need incision and drainage",
+          "Symptoms not improving or worsening after 48 to 72 hours of oral antibiotics",
+          "Rapidly spreading redness or skin breakdown over the breast",
+          "Non-lactational breast inflammation with concern for inflammatory breast cancer"
+        ],
+        "yesAction": "If yes, go to the ER or seek urgent in-person care now",
+        "noAction": "If no, continue to Step 2"
+      },
+      {
+        "type": "check",
+        "title": "Are you 18+ and currently in {state}?",
+        "items": [],
+        "yesAction": "If yes, continue to Step 3",
+        "noAction": "If no, use in-person care as appropriate"
+      },
+      {
+        "type": "check",
+        "title": "Do your symptoms fit uncomplicated mastitis?",
+        "items": [
+          "Breast pain, redness, warmth, or swelling, often in a wedge-shaped pattern",
+          "With or without fever and flu-like symptoms",
+          "Currently breastfeeding or recently stopped breastfeeding",
+          "No fluctuant mass suggesting abscess, no signs of sepsis"
+        ],
+        "yesAction": "If yes, continue to Step 4",
+        "noAction": "If no or symptoms are severe, seek in-person evaluation or ER"
+      },
+      {
+        "type": "good",
+        "title": "You are likely appropriate for a TeleDirectMD video visit",
+        "description": "TeleDirectMD can evaluate your mastitis symptoms, recommend conservative management, prescribe antibiotics when bacterial mastitis is suspected, and provide breastfeeding guidance. If your symptoms suggest abscess, sepsis, or another condition, we will direct you to the right level of in-person care.",
+        "items": [],
+        "showCta": true
+      }
+    ]
+  },
+
+  "pricing": {
+    "sectionTitle": "What Does Mastitis Treatment Cost in {state}?",
+    "subtitle": "Transparent options. Insurance is not required.",
+    "visitPrice": "$49",
+    "priceSubtext": "Self pay option. Insurance is not required.",
+    "includes": [
+      "MD evaluation and red-flag screening",
+      "Assessment for inflammatory vs bacterial mastitis",
+      "Conservative management and breastfeeding guidance",
+      "Antibiotic prescription sent if clinically appropriate",
+      "Clear follow-up steps and escalation instructions"
+    ],
+    "comparisonBars": [
+      { "name": "TeleDirectMD", "value": "$49", "width": 12, "isTdmd": true },
+      { "name": "Primary Care", "value": "$100 to $250+", "width": 45, "isTdmd": false },
+      { "name": "Urgent Care", "value": "$150 to $300+", "width": 55, "isTdmd": false },
+      { "name": "Emergency Room", "value": "$500 to $3,000+", "width": 100, "isTdmd": false }
+    ],
+    "footnote": "Prescription costs at your pharmacy are separate and vary by medication and pharmacy.",
+    "noHiddenFees": "No hidden fees. If medication is not clinically appropriate, you still receive a complete evaluation, guidance, and clear instructions on what level of care you need next."
+  },
+
+  "whatIsCondition": {
+    "sectionTitle": "What Is Mastitis?",
+    "paragraphs": [
+      "Mastitis is inflammation of the breast tissue that most commonly occurs in breastfeeding women, typically within the first 6 weeks postpartum. It presents as a painful, red, warm, swollen area of the breast, often in a wedge-shaped pattern, and may be accompanied by fever, chills, and flu-like symptoms. Lactational mastitis affects up to 20 percent of breastfeeding women.",
+      "The Academy of Breastfeeding Medicine (ABM) Clinical Protocol #36 (2022) describes mastitis as a spectrum: it begins with ductal narrowing and engorgement, may progress to inflammatory mastitis (without bacterial infection), and can advance to bacterial mastitis if bacteria proliferate in stagnant milk. Breast abscess is the most serious progression, requiring incision and drainage.",
+      "TeleDirectMD focuses on uncomplicated mastitis appropriate for telehealth, with careful screening for breast abscess, sepsis, recurrent mastitis, and non-lactational causes that require in-person evaluation. Importantly, breastfeeding should continue during mastitis — this is safe and actually helps with recovery."
+    ]
+  },
+
+  "causesAndRiskFactors": {
+    "sectionTitle": "Causes and Risk Factors",
+    "intro": "Mastitis typically develops when milk stasis occurs in the breast, creating an environment where bacteria can multiply. Understanding the causes and risk factors helps guide both treatment and prevention.",
+    "items": [
+      { "label": "Milk stasis:", "text": "incomplete emptying of the breast due to poor latch, infrequent feeds, missed feedings, or rapid weaning is the primary underlying cause" },
+      { "label": "Nipple damage:", "text": "cracked or damaged nipples provide a portal of entry for skin bacteria, most commonly Staphylococcus aureus" },
+      { "label": "MRSA:", "text": "methicillin-resistant Staphylococcus aureus is an increasingly recognized cause of mastitis, particularly in women with prior MRSA history or community MRSA exposure" },
+      { "label": "Maternal fatigue and stress:", "text": "sleep deprivation and stress common in the postpartum period can impair immune function and contribute to mastitis development" },
+      { "label": "Tight clothing or bras:", "text": "compression of breast tissue can impede milk flow and contribute to ductal obstruction" },
+      { "label": "Prior mastitis:", "text": "women who have had mastitis in a previous breastfeeding period are at increased risk of recurrence" },
+      { "label": "Oversupply:", "text": "excessive milk production can lead to engorgement and incomplete emptying, predisposing to infection" }
+    ],
+    "closing": "Not every episode of breast pain and redness in a breastfeeding woman requires antibiotics. The ABM emphasizes that conservative management should be tried first, with antibiotics reserved for cases with systemic symptoms suggesting bacterial infection."
+  },
+
+  "symptomsAndRedFlags": {
+    "sectionTitle": "Symptoms and Red Flags for Mastitis in {state}",
+    "intro": "Use this table to understand which symptoms fit uncomplicated mastitis and which patterns suggest a need for urgent in-person or emergency evaluation.",
+    "headers": ["Symptom or situation", "What it suggests", "Telehealth appropriate?", "Red flag requiring urgent in-person care"],
+    "rows": [
+      ["Breast pain, redness, warmth, and swelling in a wedge-shaped area", "Mastitis (inflammatory or bacterial)", "Often yes", "If rapidly spreading or not improving with treatment"],
+      ["Breast tenderness with low-grade or no fever, no systemic symptoms", "Likely inflammatory mastitis — conservative management appropriate", "Often yes", "No"],
+      ["Breast symptoms with fever above 101°F, chills, and malaise", "Likely bacterial mastitis — antibiotics may be indicated", "Often yes", "If high fever with tachycardia or hypotension"],
+      ["Fluctuant, tender breast mass with overlying erythema", "Possible breast abscess — may need drainage", "No", "Urgent in-person evaluation for incision and drainage"],
+      ["High fever with tachycardia, hypotension, or confusion", "Signs of sepsis", "No", "Emergency evaluation now"],
+      ["Symptoms not improving after 48 to 72 hours of oral antibiotics", "Possible abscess, resistant organism, or alternative diagnosis", "No", "In-person evaluation with possible imaging"],
+      ["Recurrent mastitis (3 or more episodes)", "May indicate underlying latch issue, anatomic variant, or need for culture", "Sometimes", "Referral to lactation consultant and OB/GYN recommended"],
+      ["Non-lactational breast inflammation with skin changes", "Consider inflammatory breast cancer or other non-infectious cause", "No", "Urgent in-person evaluation with imaging"]
+    ]
+  },
+
+  "differentialDiagnosis": {
+    "sectionTitle": "Differential Diagnosis: Mastitis vs Other Conditions",
+    "intro": "Several conditions can cause breast pain, redness, or swelling that may be confused with mastitis. TeleDirectMD evaluates symptom patterns, breastfeeding history, and systemic symptoms to distinguish uncomplicated mastitis from conditions requiring different treatment or in-person evaluation.",
+    "telehealthAppropriate": {
+      "title": "Sometimes Appropriate for Telehealth",
+      "items": [
+        "Uncomplicated lactational mastitis with typical clinical presentation",
+        "Inflammatory mastitis without systemic symptoms (conservative management)",
+        "Bacterial mastitis with fever and systemic symptoms (oral antibiotics)",
+        "Engorgement and plugged duct management",
+        "Breastfeeding guidance and prevention counseling"
+      ]
+    },
+    "requiresInPerson": {
+      "title": "Often Requires In-Person Evaluation",
+      "items": [
+        "Breast abscess: fluctuant mass requiring incision and drainage or ultrasound-guided aspiration",
+        "Sepsis: systemic infection with hemodynamic instability requiring IV antibiotics",
+        "Inflammatory breast cancer: non-infectious breast inflammation that can mimic mastitis",
+        "Recurrent mastitis requiring cultures, imaging, and lactation assessment",
+        "Non-lactational mastitis needing workup for underlying cause"
+      ]
+    },
+    "compareCards": [
+      {
+        "title": "Mastitis vs Breast Abscess",
+        "text": "Mastitis presents as diffuse breast pain, redness, and swelling, often in a wedge-shaped pattern, and typically responds to conservative management or oral antibiotics. A breast abscess presents as a fluctuant, well-circumscribed tender mass that does not improve with antibiotics alone and usually requires incision and drainage or needle aspiration. If symptoms are not improving after 48 to 72 hours of antibiotics, abscess should be suspected."
+      },
+      {
+        "title": "Mastitis vs Engorgement",
+        "text": "Breast engorgement causes bilateral breast fullness, firmness, and discomfort, typically occurring when milk production exceeds removal. It is not an infection and resolves with effective milk removal. Mastitis is usually unilateral, presents with a focal area of redness and tenderness, and may include fever. Persistent engorgement can progress to mastitis if not addressed."
+      }
+    ],
+    "closing": "If your symptoms do not match uncomplicated mastitis or any red flags are present, TeleDirectMD will direct you to urgent in-person care or the ER."
+  },
+
+  "telehealthEligibility": {
+    "sectionTitle": "When Is a Video Visit Appropriate?",
+    "appropriate": {
+      "title": "When a Video Visit Is Appropriate",
+      "items": [
+        "Typical mastitis symptoms: breast pain, redness, warmth, swelling in a focal area",
+        "With or without fever and systemic symptoms",
+        "Currently breastfeeding or recently breastfeeding",
+        "No fluctuant mass suggesting breast abscess",
+        "No signs of sepsis (high fever with hemodynamic instability)",
+        "Located in {state} at time of visit"
+      ]
+    },
+    "redFlags": {
+      "title": "Red Flags Requiring In-Person or ER Care",
+      "items": [
+        "Fluctuant breast mass suggesting abscess requiring drainage",
+        "Signs of sepsis: high fever with tachycardia, hypotension, or confusion",
+        "Symptoms not improving after 48 to 72 hours of oral antibiotics",
+        "Rapidly spreading redness or skin breakdown over the breast",
+        "Non-lactational breast inflammation with concern for malignancy",
+        "Recurrent mastitis episodes needing further evaluation"
+      ],
+      "disclaimer": "If any red-flag symptoms are present, seek emergency care immediately. TeleDirectMD is not an emergency service."
+    }
+  },
+
+  "treatmentOptions": {
+    "sectionTitle": "Treatment Options",
+    "intro": "The ABM Clinical Protocol #36 (2022) emphasizes conservative management first for mastitis: effective milk removal, rest, hydration, ibuprofen for pain and inflammation, and cold compresses. Antibiotics should be reserved for bacterial mastitis with systemic symptoms, because unnecessary antibiotic use disrupts the breast microbiome. When antibiotics are indicated, ACOG recommends dicloxacillin 500mg four times daily as first-line therapy.",
+    "sections": [
+      {
+        "title": "Conservative management (first-line for all mastitis)",
+        "text": "Effective milk removal is the cornerstone of mastitis treatment: continue breastfeeding or pumping frequently, ensuring complete breast emptying. Rest and adequate hydration support recovery. Ibuprofen is preferred for both pain relief and anti-inflammatory effect. Cold compresses applied after feeds can reduce swelling. Avoid unnecessary breast massage or aggressive manipulation, which can worsen inflammation."
+      },
+      {
+        "title": "Antibiotics when indicated",
+        "text": "If symptoms include fever, chills, malaise, or worsening despite conservative care, bacterial mastitis is likely and antibiotics are appropriate. First-line: dicloxacillin 500mg four times daily for 10 to 14 days. Alternative: cephalexin 500mg four times daily for 10 to 14 days. For penicillin allergy: clindamycin 300mg four times daily for 10 to 14 days. If MRSA is suspected: TMP-SMX DS twice daily or clindamycin 300mg four times daily for 10 to 14 days."
+      },
+      {
+        "title": "Breastfeeding should continue",
+        "text": "A critical point: breastfeeding should continue during mastitis treatment. Mother and infant are colonized with the same organisms, breast milk contains anti-inflammatory components, and continued milk removal is essential for recovery. All first-line antibiotics for mastitis are compatible with breastfeeding. Stopping breastfeeding during mastitis can worsen the condition."
+      },
+      {
+        "title": "When telehealth care is not enough",
+        "text": "If symptoms do not improve within 48 to 72 hours of antibiotics, if a fluctuant mass develops suggesting abscess, if signs of sepsis are present, or if this is a recurrent episode, in-person evaluation with possible imaging and culture is needed."
+      }
+    ],
+    "doesNotManage": [
+      "Breast abscess requiring incision and drainage or needle aspiration",
+      "Sepsis from mastitis requiring IV antibiotics and hemodynamic support",
+      "Inflammatory breast cancer or non-infectious breast inflammation",
+      "Recurrent mastitis needing cultures, imaging, and comprehensive workup",
+      "Complex breastfeeding issues requiring hands-on lactation assessment"
+    ]
+  },
+
+  "medications": {
+    "sectionTitle": "Common Medication Options",
+    "intro": "These are common options for adult mastitis treatment. The actual medication, dose, and duration are determined by the MD after reviewing your symptoms, breastfeeding status, allergy history, MRSA risk, and severity. Conservative management should be tried first, with antibiotics reserved for bacterial mastitis with systemic symptoms.",
+    "headers": ["Medication", "Typical dose", "Duration", "Key considerations"],
+    "rows": [
+      ["Dicloxacillin", "500 mg by mouth four times daily", "10 to 14 days", "First-line antibiotic per ACOG for lactational mastitis. Covers Staphylococcus aureus (methicillin-sensitive). Compatible with breastfeeding."],
+      ["Cephalexin", "500 mg by mouth four times daily", "10 to 14 days", "Alternative first-line if dicloxacillin is unavailable. First-generation cephalosporin with good staphylococcal coverage. Compatible with breastfeeding."],
+      ["Clindamycin", "300 mg by mouth four times daily", "10 to 14 days", "Alternative for penicillin allergy, or when MRSA is suspected. Also compatible with breastfeeding. Ask about MRSA history."],
+      ["TMP-SMX DS (trimethoprim-sulfamethoxazole)", "1 DS tablet by mouth twice daily", "10 to 14 days", "Second-line option, especially if MRSA is suspected. Use caution with G6PD deficiency, premature infants, or hyperbilirubinemia. Generally compatible with breastfeeding in healthy term infants."],
+      ["Ibuprofen", "400 to 600 mg by mouth every 6 to 8 hours as needed", "As needed", "Preferred analgesic and anti-inflammatory for mastitis. Helps reduce breast inflammation. Compatible with breastfeeding. Take with food."],
+      ["Acetaminophen", "500 to 1000 mg by mouth every 6 to 8 hours as needed", "As needed", "Alternative pain reliever if ibuprofen is not tolerated. Compatible with breastfeeding. Does not have anti-inflammatory effect."]
+    ],
+    "note": "Example regimens only. The actual medication, dosing, and duration are determined by the MD after reviewing your symptoms, risk factors, allergies, and breastfeeding status. Continue breastfeeding during treatment — all first-line antibiotics for mastitis are compatible with breastfeeding. TeleDirectMD does not prescribe controlled substances."
+  },
+
+  "homeCare": {
+    "sectionTitle": "Home Care, Recovery Timeline, Prevention, and Follow-up",
+    "whatToDoNow": {
+      "title": "Recovery Timeline and What to Do Now",
+      "items": [
+        "Continue breastfeeding or pumping frequently — effective milk removal is essential for recovery",
+        "If prescribed antibiotics, improvement is typically noticed within 48 to 72 hours",
+        "Take ibuprofen as directed for both pain relief and to reduce breast inflammation",
+        "Apply cold compresses to the affected area after feeds to reduce swelling",
+        "Rest and stay well hydrated. Accept help with other tasks to allow recovery"
+      ]
+    },
+    "whatToWatch": {
+      "title": "What to Watch For Over the Next 24 to 72 Hours",
+      "items": [
+        "Symptoms not improving or worsening after 48 to 72 hours of antibiotics",
+        "Development of a discrete, fluctuant lump in the breast suggesting abscess",
+        "High fever, rapid heart rate, confusion, or feeling severely ill (signs of sepsis)",
+        "Increasing redness spreading beyond the affected area or skin breakdown",
+        "Persistent symptoms despite completing the full antibiotic course"
+      ]
+    },
+    "followUp": {
+      "title": "Prevention and Follow-up",
+      "items": [
+        "If symptoms worsen or do not improve after 48 to 72 hours on antibiotics, seek in-person evaluation for possible abscess or resistant infection",
+        "Ensure proper latch and positioning during breastfeeding to prevent milk stasis",
+        "Avoid skipping feeds or going long intervals between feedings when possible",
+        "Avoid tight bras or clothing that compress breast tissue",
+        "If you have had 3 or more episodes of mastitis, consider evaluation by a lactation consultant and OB/GYN",
+        "If any red-flag symptoms develop at any time, seek emergency care immediately"
+      ]
+    }
+  },
+
+  "whenNotToUse": {
+    "sectionTitle": "When Not to Use TeleDirectMD for Mastitis in {state}",
+    "intro": "TeleDirectMD is designed for uncomplicated mastitis symptoms. We are direct about when telehealth is not appropriate.",
+    "shouldNotUse": {
+      "title": "You Should Not Use TeleDirectMD If",
+      "items": [
+        "You are under 18 years old",
+        "You have a fluctuant breast mass suggesting abscess that may need drainage",
+        "You have signs of sepsis: high fever with rapid heart rate, low blood pressure, or confusion",
+        "Your symptoms have not improved after 48 to 72 hours of oral antibiotics",
+        "You have recurrent mastitis needing cultures, imaging, or comprehensive workup",
+        "You have non-lactational breast inflammation or skin changes concerning for malignancy",
+        "You need hands-on breastfeeding assessment for latch or positioning issues",
+        "You are not physically in {state} at the time of visit"
+      ]
+    },
+    "alternatives": {
+      "title": "Alternative Care Options",
+      "items": [
+        { "label": "Emergency room:", "text": "signs of sepsis (high fever, rapid heart rate, low blood pressure, confusion), breast abscess needing drainage, or failure to improve after 48 to 72 hours of antibiotics" },
+        { "label": "Urgent care:", "text": "uncertain diagnosis, moderate symptoms not clearly mastitis, or when in-person breast exam is needed to assess for abscess" },
+        { "label": "OB/GYN or lactation consultant:", "text": "recurrent mastitis, breastfeeding difficulties, latch assessment, and postpartum complications" },
+        { "label": "Primary care:", "text": "recurrent episodes, prevention planning, and ongoing breastfeeding support coordination" }
+      ]
+    }
+  },
+
+  "faq": {
+    "sectionTitle": "Mastitis Treatment FAQs for {state}",
+    "items": [
+      {
+        "question": "Can I get treatment for mastitis online in {state}?",
+        "answer": "Yes, if you are an adult 18+ located in {state} and your symptoms fit uncomplicated mastitis without red flags. TeleDirectMD can evaluate your symptoms, recommend conservative management, prescribe antibiotics when bacterial mastitis is suspected, and provide breastfeeding guidance."
+      },
+      {
+        "question": "How much does online mastitis treatment cost in {state}?",
+        "answer": "TeleDirectMD offers a transparent self pay option starting at $49 for an adult video visit in {state}. Insurance is not required. Prescription costs at your pharmacy are separate and vary by medication and pharmacy."
+      },
+      {
+        "question": "Can I breastfeed with mastitis?",
+        "answer": "Yes. This is one of the most important points: you should continue breastfeeding during mastitis. Effective milk removal is essential for recovery. Mother and infant are colonized with the same organisms, and breast milk contains anti-inflammatory components that support healing. All first-line antibiotics for mastitis are compatible with breastfeeding. Stopping breastfeeding during mastitis can actually worsen the condition."
+      },
+      {
+        "question": "When do I need antibiotics for mastitis?",
+        "answer": "Not all mastitis requires antibiotics. The ABM recommends conservative management first: effective milk removal, rest, hydration, ibuprofen, and cold compresses. Antibiotics are appropriate when you have systemic symptoms such as fever above 101°F, chills, and malaise, suggesting bacterial mastitis. Unnecessary antibiotic use can disrupt the breast microbiome and worsen outcomes."
+      },
+      {
+        "question": "What about MRSA and mastitis?",
+        "answer": "MRSA (methicillin-resistant Staphylococcus aureus) is an increasingly recognized cause of mastitis. If you have a history of MRSA infection or close contact with someone who has MRSA, let your MD know. MRSA-active antibiotics such as TMP-SMX or clindamycin may be more appropriate than dicloxacillin or cephalexin."
+      },
+      {
+        "question": "When should I go to the ER for mastitis?",
+        "answer": "Seek emergency care for signs of sepsis (high fever with rapid heart rate, low blood pressure, or confusion), a fluctuant breast mass suggesting abscess that may need drainage, or symptoms not improving after 48 to 72 hours of oral antibiotics. These situations require in-person evaluation and may need IV antibiotics or surgical drainage."
+      },
+      {
+        "question": "How long does it take to recover from mastitis?",
+        "answer": "With appropriate treatment, symptoms typically begin to improve within 48 to 72 hours. Full resolution usually occurs within 7 to 14 days. If symptoms are not improving within 48 to 72 hours despite antibiotics and conservative measures, seek in-person evaluation, as this may indicate abscess formation or a resistant organism."
+      },
+      {
+        "question": "Does {state} allow telemedicine for mastitis treatment?",
+        "answer": "Yes. {state} allows licensed professionals to provide telemedicine within their scope when appropriate and according to accepted standards of care. You must be physically located in {state} at the time of the visit."
+      },
+      {
+        "question": "What if I have a breast abscess?",
+        "answer": "A breast abscess is a complication of mastitis that presents as a fluctuant, well-circumscribed tender mass that does not improve with antibiotics alone. Abscesses typically require in-person evaluation and drainage (either incision and drainage or ultrasound-guided needle aspiration). TeleDirectMD cannot manage breast abscesses and will direct you to in-person care if abscess is suspected."
+      },
+      {
+        "question": "Is mastitis only a breastfeeding problem?",
+        "answer": "Mastitis most commonly occurs in breastfeeding women, but non-lactational mastitis can also occur. Non-lactational mastitis requires a different workup because it can be associated with other conditions. If you are not breastfeeding and have breast inflammation, in-person evaluation is generally recommended to rule out other causes including, rarely, inflammatory breast cancer."
+      }
+    ],
+    "bottomCta": {
+      "title": "Need help today?",
+      "text": "Insurance is not required. Adult-only video visits. MD-only care. Safety-first triage, breastfeeding guidance, and guideline-based antibiotics when clinically appropriate."
+    }
+  },
+
+  "references": [
+    { "text": "ABM Clinical Protocol #36: The Mastitis Spectrum, Revised 2022 (Academy of Breastfeeding Medicine)", "url": "https://www.bfrjournal.com/article/S1556-8253(22)00068-8/fulltext" },
+    { "text": "ACOG Committee Opinion: Breastfeeding Challenges (includes mastitis management)", "url": "https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2021/02/breastfeeding-challenges" },
+    { "text": "AAFP: Breast Pain — Mastitis (American Academy of Family Physicians)", "url": "https://www.aafp.org/pubs/afp/issues/2019/0215/p232.html" },
+    { "text": "Mastitis, StatPearls (2025)", "url": "https://www.ncbi.nlm.nih.gov/books/NBK557782/" }
+  ],
+
+  "disclaimer": {
+    "sectionTitle": "TeleDirectMD Telehealth Disclaimer",
+    "paragraphs": [
+      "TeleDirectMD provides MD-only virtual urgent care for adults (18+) in {state} using secure video visits to evaluate mastitis symptoms, provide evidence-based guidance, and prescribe antibiotics when clinically appropriate. Insurance is not required. You must be physically located in {state} at the time of your video visit. TeleDirectMD does not prescribe controlled substances.",
+      "TeleDirectMD is not an emergency service and is not a replacement for emergency care during sepsis, breast abscess requiring drainage, or symptoms not improving after 48 to 72 hours of oral antibiotics. This service is intended for uncomplicated lactational mastitis and is not a substitute for in-person evaluation when abscess, recurrent mastitis, or inflammatory breast cancer is suspected.",
+      "Online mastitis treatment in {state}. Lactational mastitis treatment online. Mastitis antibiotics by video visit."
+    ]
+  },
+
+  "relatedConditions": [
+    {
+      "slug": "yeast-infection-treatment-online",
+      "title": "Yeast Infection",
+      "description": "Candidal infections can complicate antibiotic treatment for mastitis and may require concurrent management"
+    },
+    {
+      "slug": "uti-treatment-online",
+      "title": "UTI",
+      "description": "Urinary tract infections are common in the postpartum period and may occur alongside mastitis"
+    },
+    {
+      "slug": "sinus-infection-treatment-online",
+      "title": "Sinus Infection",
+      "description": "Upper respiratory infections may co-occur with mastitis, especially during cold and flu season"
+    },
+    {
+      "slug": "common-cold-treatment-online",
+      "title": "Common Cold",
+      "description": "Viral illness can lower immunity and increase susceptibility to bacterial infections like mastitis"
+    }
+  ],
+
+  "inlineLinks": [
+    { "slug": "yeast-infection-treatment-online", "label": "Yeast Infection" },
+    { "slug": "uti-treatment-online", "label": "UTI" },
+    { "slug": "sinus-infection-treatment-online", "label": "Sinus Infection" },
+    { "slug": "sore-throat-treatment-online", "label": "Sore Throat" },
+    { "slug": "common-cold-treatment-online", "label": "Common Cold" },
+    { "slug": "influenza-treatment-online", "label": "Influenza" },
+    { "slug": "covid-19-treatment-online", "label": "COVID-19" },
+    { "slug": "pink-eye-treatment-online", "label": "Pink Eye" },
+    { "slug": "asthma-refills-online", "label": "Asthma Refills" },
+    { "slug": "cold-sore-treatment-online", "label": "Cold Sore" }
+  ],
+
+  "cityBlock": {
+    "title": "Adults We Serve Across {state}",
+    "text": "TeleDirectMD evaluates adults located throughout {state}, including {citiesExtended}. Whether you are searching for online mastitis treatment in {city1}, lactational mastitis care in {city2}, breast infection antibiotics online in {city3}, or telehealth mastitis evaluation anywhere else in {state}, the same telehealth eligibility and safety rules apply."
+  },
+
+  "icd10Codes": [
+    { "code": "N61.0", "description": "Mastitis without abscess" },
+    { "code": "N61.1", "description": "Abscess of breast and nipple" },
+    { "code": "O91.1", "description": "Abscess of breast associated with lactation" }
+  ],
+
+  "jsonLd": {
+    "conditionName": "Mastitis",
+    "conditionAlternateNames": ["Lactational mastitis", "Breast infection", "Puerperal mastitis", "Breastfeeding mastitis"],
+    "conditionDescription": "Mastitis is inflammation of the breast tissue, most commonly occurring in breastfeeding women. TeleDirectMD evaluates adult mastitis symptoms by video visit with red-flag screening for breast abscess and sepsis, conservative management guidance, guideline-based antibiotic prescriptions when bacterial mastitis is suspected, and clear breastfeeding support emphasizing that breastfeeding should continue during treatment.",
+    "primaryIcd10": "N61.0",
+    "anatomy": "Breast tissue",
+    "symptoms": ["Breast pain and tenderness", "Redness and warmth in a wedge-shaped area", "Breast swelling", "Fever and chills", "Flu-like symptoms (malaise, myalgia)"],
+    "riskFactors": [
+      "Milk stasis from incomplete breast emptying",
+      "Nipple damage or cracking",
+      "Infrequent or skipped feedings",
+      "Maternal fatigue and stress",
+      "Prior history of mastitis",
+      "Tight clothing or bras"
+    ],
+    "complications": [
+      "Breast abscess requiring drainage",
+      "Sepsis from untreated bacterial mastitis",
+      "Recurrent mastitis",
+      "Premature weaning due to pain",
+      "Disruption of breast microbiome from unnecessary antibiotics"
+    ],
+    "epidemiology": "Lactational mastitis affects up to 20 percent of breastfeeding women, most commonly within the first 6 weeks postpartum. Breast abscess complicates approximately 3 to 11 percent of mastitis cases.",
+    "drugs": [
+      { "name": "Dicloxacillin", "id": "dicloxacillin" },
+      { "name": "Cephalexin", "id": "cephalexin" },
+      { "name": "Clindamycin", "id": "clindamycin" },
+      { "name": "Ibuprofen", "id": "ibuprofen" }
+    ],
+    "treatments": [
+      "Conservative management: effective milk removal, rest, hydration",
+      "Ibuprofen for pain and anti-inflammatory effect",
+      "Cold compresses after feedings",
+      "Oral antibiotics when bacterial mastitis is suspected",
+      "Incision and drainage for breast abscess (in-person)"
+    ],
+    "tests": [
+      "Clinical diagnosis based on symptoms and breastfeeding history",
+      "Red-flag screening for abscess and sepsis",
+      "Breast ultrasound if abscess is suspected (in-person)",
+      "Breast milk culture for recurrent or resistant cases (in-person)"
+    ],
+    "specialties": ["Family Medicine", "Telemedicine", "Obstetrics and Gynecology"],
+    "guidelines": [
+      { "name": "ABM Clinical Protocol #36: The Mastitis Spectrum, Revised 2022", "url": "https://www.bfrjournal.com/article/S1556-8253(22)00068-8/fulltext", "publisher": "Academy of Breastfeeding Medicine", "id": "abm-mastitis" },
+      { "name": "ACOG Committee Opinion: Breastfeeding Challenges", "url": "https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2021/02/breastfeeding-challenges", "publisher": "American College of Obstetricians and Gynecologists", "id": "acog-breastfeeding" },
+      { "name": "AAFP: Breast Pain — Mastitis", "url": "https://www.aafp.org/pubs/afp/issues/2019/0215/p232.html", "publisher": "American Academy of Family Physicians", "id": "aafp-mastitis" }
+    ],
+    "knowsAbout": [
+      "Mastitis treatment",
+      "Lactational mastitis management",
+      "Breastfeeding support during infection",
+      "Telehealth triage",
+      "Safety-first red-flag screening",
+      "Family Medicine"
+    ],
+    "serviceDescription": "Secure video visit for {state} adults with mastitis symptoms, including red-flag screening, conservative management guidance, antibiotic prescriptions when clinically appropriate, and breastfeeding support.",
+    "webpageDescription": "{state} mastitis treatment by secure MD video visit for adults. Evidence-based evaluation of lactational mastitis symptoms, red-flag screening for breast abscess and sepsis, guideline-based antibiotics when appropriate, breastfeeding guidance, and clear rules for when emergency care is needed."
+  }
+}
