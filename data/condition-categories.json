@@ -1,0 +1,101 @@
+[
+  {
+    "categoryName": "Urgent Care",
+    "categorySlug": "urgent-care",
+    "categoryDescription": "Same-day treatment for common illnesses and infections — no appointment needed.",
+    "conditions": [
+      { "slug": "common-cold-treatment-online", "name": "Common Cold" },
+      { "slug": "covid-19-treatment-online", "name": "COVID-19" },
+      { "slug": "influenza-treatment-online", "name": "Influenza" },
+      { "slug": "sinus-infection-treatment-online", "name": "Sinus Infection" },
+      { "slug": "sore-throat-treatment-online", "name": "Sore Throat" },
+      { "slug": "ear-pain-treatment-online", "name": "Ear Pain" },
+      { "slug": "pink-eye-treatment-online", "name": "Pink Eye" },
+      { "slug": "dental-pain-treatment-online", "name": "Dental Pain" },
+      { "slug": "uti-treatment-online", "name": "UTI" },
+      { "slug": "cellulitis-treatment-online", "name": "Cellulitis" },
+      { "slug": "shingles-treatment-online", "name": "Shingles" },
+      { "slug": "gout-treatment-online", "name": "Gout" },
+      { "slug": "mastitis-treatment-online", "name": "Mastitis" }
+    ]
+  },
+  {
+    "categoryName": "Women's Health",
+    "categorySlug": "womens-health",
+    "categoryDescription": "Confidential online care for yeast infections, BV, vaginal dryness, and more.",
+    "conditions": [
+      { "slug": "yeast-infection-treatment-online", "name": "Yeast Infection" },
+      { "slug": "bv-treatment-online", "name": "Bacterial Vaginosis" },
+      { "slug": "vaginal-dryness-treatment-online", "name": "Vaginal Dryness" }
+    ]
+  },
+  {
+    "categoryName": "Sexual Health",
+    "categorySlug": "sexual-health",
+    "categoryDescription": "Discreet, judgment-free treatment for STIs and sexual wellness.",
+    "conditions": [
+      { "slug": "chlamydia-treatment-online", "name": "Chlamydia" },
+      { "slug": "genital-herpes-treatment-online", "name": "Genital Herpes" },
+      { "slug": "cold-sore-treatment-online", "name": "Cold Sore" },
+      { "slug": "erectile-dysfunction-treatment-online", "name": "Erectile Dysfunction" },
+      { "slug": "performance-anxiety-treatment-online", "name": "Performance Anxiety" }
+    ]
+  },
+  {
+    "categoryName": "Skin Conditions",
+    "categorySlug": "skin-conditions",
+    "categoryDescription": "Expert dermatology consults for acne, eczema, rosacea, and other skin concerns.",
+    "conditions": [
+      { "slug": "acne-treatment-online", "name": "Acne" },
+      { "slug": "eczema-treatment-online", "name": "Eczema" },
+      { "slug": "rosacea-treatment-online", "name": "Rosacea" },
+      { "slug": "contact-dermatitis-treatment-online", "name": "Contact Dermatitis" },
+      { "slug": "dandruff-treatment-online", "name": "Dandruff" },
+      { "slug": "psoriasis-refills-online", "name": "Psoriasis Refills" },
+      { "slug": "tinea-treatment-online", "name": "Skin Fungus" },
+      { "slug": "tinea-versicolor-treatment-online", "name": "Tinea Versicolor" },
+      { "slug": "excessive-sweating-treatment-online", "name": "Excessive Sweating" },
+      { "slug": "poison-ivy-oak-treatment-online", "name": "Poison Ivy and Poison Oak" }
+    ]
+  },
+  {
+    "categoryName": "Bites and Infestations",
+    "categorySlug": "bites-and-infestations",
+    "categoryDescription": "Fast evaluation and treatment for animal bites, tick bites, lice, and scabies.",
+    "conditions": [
+      { "slug": "dog-bite-treatment-online", "name": "Dog Bite" },
+      { "slug": "cat-bite-treatment-online", "name": "Cat Bite" },
+      { "slug": "tick-bite-treatment-online", "name": "Tick Bite" },
+      { "slug": "head-lice-treatment-online", "name": "Head Lice" },
+      { "slug": "scabies-treatment-online", "name": "Scabies" }
+    ]
+  },
+  {
+    "categoryName": "Chronic Medication Refills",
+    "categorySlug": "chronic-medication-refills",
+    "categoryDescription": "Convenient prescription renewals for ongoing conditions — no gaps in your medication.",
+    "conditions": [
+      { "slug": "asthma-refills-online", "name": "Asthma Refills" },
+      { "slug": "hypertension-refills-online", "name": "Hypertension Refills" },
+      { "slug": "hypothyroidism-refills-online", "name": "Hypothyroidism Refills" },
+      { "slug": "hyperlipidemia-refills-online", "name": "Hyperlipidemia Refills" },
+      { "slug": "diabetes-refills-online", "name": "Diabetes Refills" },
+      { "slug": "migraine-refills-online", "name": "Migraine Refills" },
+      { "slug": "acid-reflux-refills-online", "name": "Acid Reflux Refills" },
+      { "slug": "epipen-refills-online", "name": "EpiPen Refills" },
+      { "slug": "seasonal-allergies-treatment-online", "name": "Seasonal Allergies" }
+    ]
+  },
+  {
+    "categoryName": "Wellness and Lifestyle",
+    "categorySlug": "wellness-and-lifestyle",
+    "categoryDescription": "Telehealth support for hair loss, anti-aging, eyelash growth, and everyday wellness.",
+    "conditions": [
+      { "slug": "hair-loss-treatment-online", "name": "Hair Loss" },
+      { "slug": "anti-aging-treatment-online", "name": "Anti-Aging" },
+      { "slug": "eyelash-growth-treatment-online", "name": "Eyelash Growth" },
+      { "slug": "smoking-cessation-treatment-online", "name": "Smoking Cessation" },
+      { "slug": "motion-sickness-treatment-online", "name": "Motion Sickness" }
+    ]
+  }
+]
