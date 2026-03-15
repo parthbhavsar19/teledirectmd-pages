@@ -1,31 +1,18 @@
 {
   "framework": null,
-  "buildCommand": "npm run build && rm -f out/404.html out/404/index.html out/routes-manifest.json",
+  "buildCommand": "npm run build && rm -f out/404.html out/404/index.html out/routes-manifest.json out/_not-found/index.html out/_not-found.html",
   "outputDirectory": "out",
   "trailingSlash": true,
-  "rewrites": [
+  "routes": [
+    { "handle": "filesystem" },
     {
-      "source": "/:path*",
-      "destination": "https://pepper-saxophone-p8le.squarespace.com/:path*"
-    }
-  ],
-  "headers": [
-    {
-      "source": "/(.*)",
-      "headers": [
-        {
-          "key": "X-Content-Type-Options",
-          "value": "nosniff"
-        },
-        {
-          "key": "X-Frame-Options",
-          "value": "SAMEORIGIN"
-        },
-        {
-          "key": "Referrer-Policy",
-          "value": "strict-origin-when-cross-origin"
-        }
-      ]
+      "src": "/(.*)",
+      "dest": "https://pepper-saxophone-p8le.squarespace.com/$1",
+      "headers": {
+        "X-Content-Type-Options": "nosniff",
+        "X-Frame-Options": "SAMEORIGIN",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      }
     }
   ]
 }
