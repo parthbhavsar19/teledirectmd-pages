@@ -3,15 +3,13 @@
   "buildCommand": "npm run build && rm -f out/404.html out/404/index.html out/routes-manifest.json out/_not-found/index.html out/_not-found.html",
   "outputDirectory": "out",
   "trailingSlash": true,
-  "redirects": [
-    { "source": "/skin-fungus-tinea-treatment-online", "destination": "/tinea-treatment-online", "statusCode": 301 },
-    { "source": "/poison-ivy-treatment-online", "destination": "/poison-ivy-oak-treatment-online", "statusCode": 301 },
-    { "source": "/speech-anxiety-treatment-online", "destination": "/performance-anxiety-treatment-online", "statusCode": 301 },
-    { "source": "/male-pattern-hairloss-treatment-online", "destination": "/hair-loss-treatment-online", "statusCode": 301 },
-    { "source": "/asthma-refill-online", "destination": "/asthma-refills-online", "statusCode": 301 },
-    { "source": "/gerd-refills-online", "destination": "/acid-reflux-refills-online", "statusCode": 301 }
-  ],
   "routes": [
+    { "src": "/skin-fungus-tinea-treatment-online(/)?", "headers": { "Location": "/tinea-treatment-online/" }, "status": 301 },
+    { "src": "/poison-ivy-treatment-online(/)?", "headers": { "Location": "/poison-ivy-oak-treatment-online/" }, "status": 301 },
+    { "src": "/speech-anxiety-treatment-online(/)?", "headers": { "Location": "/performance-anxiety-treatment-online/" }, "status": 301 },
+    { "src": "/male-pattern-hairloss-treatment-online(/)?", "headers": { "Location": "/hair-loss-treatment-online/" }, "status": 301 },
+    { "src": "/asthma-refill-online(/)?", "headers": { "Location": "/asthma-refills-online/" }, "status": 301 },
+    { "src": "/gerd-refills-online(/)?", "headers": { "Location": "/acid-reflux-refills-online/" }, "status": 301 },
     { "handle": "filesystem" },
     {
       "src": "/(.*)",
