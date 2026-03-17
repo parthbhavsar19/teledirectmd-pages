@@ -1,6 +1,7 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "framework": "nextjs",
+  "outputDirectory": ".next",
   "trailingSlash": true,
   "redirects": [
     { "source": "/skin-fungus-tinea-treatment-online", "destination": "/tinea-treatment-online/", "statusCode": 301 },
