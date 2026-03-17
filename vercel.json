@@ -1,7 +1,4 @@
 {
-  "framework": null,
-  "buildCommand": "npm run build && rm -f out/404.html out/404/index.html out/routes-manifest.json out/_not-found/index.html out/_not-found.html",
-  "outputDirectory": "out",
   "trailingSlash": true,
   "routes": [
     { "src": "/skin-fungus-tinea-treatment-online(/)?", "headers": { "Location": "/tinea-treatment-online/" }, "status": 301 },
@@ -25,15 +22,6 @@
     { "src": "/oh/flu-treatment-online(/)?", "headers": { "Location": "/oh/influenza-treatment-online/" }, "status": 301 },
     { "src": "/nc/flu-treatment-online(/)?", "headers": { "Location": "/nc/influenza-treatment-online/" }, "status": 301 },
 
-    { "handle": "filesystem" },
-    {
-      "src": "/(.*)",
-      "dest": "https://pepper-saxophone-p8le.squarespace.com/$1",
-      "headers": {
-        "X-Content-Type-Options": "nosniff",
-        "X-Frame-Options": "SAMEORIGIN",
-        "Referrer-Policy": "strict-origin-when-cross-origin"
-      }
-    }
+    { "handle": "filesystem" }
   ]
 }
