@@ -1,6 +1,4 @@
 import { getStates, getConditionSlugs, getCondition, getStateBySlug, resolveConditionForState } from '../../../lib/get-data';
-
-export const dynamicParams = false;
 import { generateJsonLd } from '../../../lib/json-ld';
 
 export async function generateStaticParams() {

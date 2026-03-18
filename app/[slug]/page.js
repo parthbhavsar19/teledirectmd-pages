@@ -1,6 +1,4 @@
 import { getStates, getStateBySlug, getConditionCategories, getConditionSlugs, getCondition, resolveConditionNational } from '../../lib/get-data';
-
-export const dynamicParams = false;
 import { generateNationalJsonLd } from '../../lib/json-ld-national';
 import StateLandingPage from './StateLandingPage';
 import NationalConditionPage from './NationalConditionPage';
