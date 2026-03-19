@@ -27,7 +27,7 @@ export default function SiteFooter() {
           {/* Column 3: Resources */}
           <div className="tdmd-footer-col">
             <h4 className="tdmd-footer-heading">RESOURCES</h4>
-            <a href="/health-guides">Health Guides</a>
+            <a href="/what-we-treat">Health Guides</a>
             <a href="/reviews">Reviews</a>
             <a href="/media-mentions">Media Mentions</a>
           </div>
