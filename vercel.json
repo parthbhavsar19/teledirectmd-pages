@@ -46,8 +46,6 @@
     { "src": "/new-page-1(/?)", "headers": { "Location": "/" }, "status": 301 },
     { "src": "/new-page-2(/?)", "headers": { "Location": "/" }, "status": 301 },
     { "src": "/new-page-3(/?)", "headers": { "Location": "/" }, "status": 301 },
-    { "src": "/health-guides(/?)", "headers": { "Location": "/what-we-treat/" }, "status": 301 },
-
     { "handle": "filesystem" },
     {
       "src": "/(.*)",
