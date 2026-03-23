@@ -73,7 +73,11 @@ const CONDITION_SLUGS = new Set([
   'uti-treatment-online',
   'vaginal-dryness-treatment-online',
   'viral-gastroenteritis-treatment-online',
-  'yeast-infection-treatment-online'
+  'yeast-infection-treatment-online',
+  'mycoplasma-genitalium-treatment-online',
+  'doxypep-sti-prevention-online',
+  'birth-control-refills-online',
+  'oral-thrush-treatment-online'
 ]);
 
 // Other Vercel-hosted paths (state landing pages, static pages, etc.)
