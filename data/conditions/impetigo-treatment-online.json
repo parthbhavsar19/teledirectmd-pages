@@ -1,0 +1,622 @@
+{
+  "conditionName": "Impetigo Treatment",
+  "conditionShort": "Impetigo",
+  "conditionSlug": "impetigo-treatment-online",
+  "pageTitle": "Impetigo Treatment Online in {state} | Skin Infection MD Video Visit | TeleDirectMD",
+  "metaDescription": "Fast, evidence-based impetigo treatment for {state} adults by secure video visit. Visual lesion assessment, topical vs oral antibiotic guidance, MRSA risk screening, and prescriptions when clinically appropriate. Self pay option starting at $49. Insurance is not required.",
+  "ogImageAlt": "Impetigo treatment in {state} by TeleDirectMD",
+
+  "hero": {
+    "h1": "Impetigo Treatment in {state} (Superficial Skin Infection)",
+    "subtitle": "{state} adult care by secure video visit, self pay option starting at $49, MD-only, insurance is not required.",
+    "introParagraph": "Impetigo is a highly contagious superficial bacterial skin infection caused by Staphylococcus aureus, Streptococcus pyogenes, or both. It typically presents as red sores or honey-colored crusted lesions on the face, extremities, or areas of broken skin, and can spread rapidly through direct contact. IDSA practice guidelines recommend topical antibiotics such as mupirocin or retapamulin for limited disease, while oral antibiotics are indicated for more extensive infection, bullous impetigo, or when MRSA is a concern. TeleDirectMD uses a safety-first telehealth approach that visually assesses lesion characteristics via video, screens for red flags including rapidly spreading redness, fever, deeper ulceration (ecthyma), or signs of cellulitis, and determines whether topical versus oral antibiotic therapy is appropriate. Adults with spreading infection, systemic illness, or signs requiring wound care or culture are directed to urgent in-person evaluation. This page is for adults located in {state}, including {cities}.",
+    "tocLinks": [
+      { "href": "eligibility-checklist", "label": "Eligibility checklist" },
+      { "href": "decision-guide", "label": "Decision guide" },
+      { "href": "treatment-options", "label": "Treatment options" },
+      { "href": "faq", "label": "FAQs" },
+      { "href": "references", "label": "References" }
+    ],
+    "benefits": [
+      "Self pay option starting at $49",
+      "MD-only care (no mid-levels)",
+      "Insurance is not required",
+      "Licensed telehealth care for patients located in {state} at the time of the visit"
+    ],
+    "sideCard": {
+      "h2": "Online MD-Only Impetigo Care in {state}",
+      "features": [
+        "Visual assessment of lesion characteristics by video",
+        "Topical vs oral antibiotic decision-making",
+        "MRSA risk screening and appropriate antibiotic selection",
+        "Clear follow-up steps and contagion prevention guidance"
+      ],
+      "note": "Adults 18+ only. TeleDirectMD is not an emergency service. Go to urgent care or the ER now for rapidly spreading redness beyond the lesion borders, fever or chills, red streaks on skin (lymphangitis), lesions near the eyes with swelling, severe pain, deep ulcerations, or signs of systemic illness. TeleDirectMD does not prescribe controlled substances."
+    },
+    "icd10Display": "L01.00, L01.01, L01.03 (final coding depends on clinical details)"
+  },
+
+  "eligibility": {
+    "sectionTitle": "Impetigo Telehealth Eligibility Checklist for {state}",
+    "introText": "You are likely eligible for a TeleDirectMD video visit if ALL of these are true:",
+    "eligible": [
+      "You are 18 years old or older",
+      "You are physically located in {state} at the time of the visit",
+      "You have typical impetigo lesions — honey-colored crusted sores, small blisters, or red erosions — localized to a limited area of skin",
+      "You do not have fever, spreading redness beyond the lesion, red streaks, or rapidly worsening symptoms",
+      "You do not have deep ulcerated lesions (ecthyma) requiring wound care or culture in person",
+      "You are not significantly immunocompromised in a way that requires in-person evaluation for skin infection",
+      "Insurance is not required. A self pay option is available."
+    ],
+    "notEligible": [
+      "You are under 18 years old",
+      "You have rapidly spreading redness, red streaks (lymphangitis), fever, or chills",
+      "You have deep painful ulcerations with thick crusts consistent with ecthyma",
+      "You feel severely ill, confused, faint, or have concern for sepsis",
+      "Lesions involve the area around the eyes with swelling or vision changes",
+      "You have extensive impetigo covering a large body surface area requiring in-person assessment",
+      "You have known or suspected post-streptococcal complications such as facial swelling, decreased urination, or blood in urine"
+    ],
+    "notEligibleDisclaimer": "If you have red-flag symptoms, seek urgent in-person care or emergency care immediately. TeleDirectMD is not appropriate for complex or severe cases."
+  },
+
+  "howItWorks": {
+    "sectionTitle": "How Online Impetigo Treatment Works in {state}",
+    "steps": [
+      {
+        "type": "check",
+        "title": "Book your video visit and prepare to show your lesions",
+        "description": "Insurance is not required. No referral needed. Many visits are available same day, depending on scheduling. Before your visit, note when the sores appeared, how quickly they have spread, whether you have had impetigo before, any relevant skin conditions such as eczema or recent insect bites, your allergies, and whether anyone close to you has a similar rash."
+      },
+      {
+        "type": "check",
+        "title": "See a {state} licensed MD by video",
+        "description": "The MD will visually assess the lesion size, distribution, color, and characteristics (honey-colored crust, blisters, ulceration) via video camera. The visit also screens for MRSA risk factors, systemic symptoms, spreading infection, and determines whether topical or oral antibiotic therapy is most appropriate based on IDSA guidelines."
+      },
+      {
+        "type": "good",
+        "title": "Get a treatment plan and, if appropriate, a prescription",
+        "description": "If medication is clinically appropriate, we send an e-prescription to common {state} pharmacies such as {pharmacies}. You receive clear instructions on applying topical medication or taking oral antibiotics, hygiene measures to prevent spread, and when to seek in-person care if lesions are not improving.",
+        "showCta": true
+      }
+    ]
+  },
+
+  "telehealthRegulations": {
+    "sectionTitle": "{state} Telehealth Regulations for Online Impetigo Care",
+    "paragraphs": [
+      "{telehealthRegulation}",
+      "Location matters: you must be physically in {state} during the visit. Insurance is not required. TeleDirectMD does not prescribe controlled substances."
+    ]
+  },
+
+  "comparisonTable": {
+    "sectionTitle": "TeleDirectMD vs Other Care Options for Impetigo in {state}",
+    "intro": "Here is how TeleDirectMD compares to common settings for adult impetigo care in {state}:",
+    "rows": [
+      {
+        "option": "TeleDirectMD",
+        "cost": "Self pay option starting at $49",
+        "wait": "Same day, often within hours",
+        "provider": "Board-certified MD only (no mid-levels)",
+        "bestFor": "Limited, localized impetigo without red flags — visual assessment, antibiotic selection, and MRSA risk screening by video",
+        "highlight": true
+      },
+      {
+        "option": "Urgent Care",
+        "cost": "$150 to $300+ (before insurance)",
+        "wait": "1 to 3 hours typical",
+        "provider": "MD, DO, PA, or NP",
+        "bestFor": "Moderate or spreading infection, uncertain diagnosis, or when wound culture is needed quickly",
+        "highlight": false
+      },
+      {
+        "option": "Emergency Room",
+        "cost": "$500 to $3,000+ (before insurance)",
+        "wait": "2 to 6 hours typical",
+        "provider": "Emergency medicine MD or DO",
+        "bestFor": "Rapidly spreading cellulitis, fever with skin infection, lymphangitis, signs of sepsis, or periorbital involvement",
+        "highlight": false
+      },
+      {
+        "option": "Primary Care",
+        "cost": "$100 to $350+ (varies)",
+        "wait": "Days to weeks",
+        "provider": "MD or DO",
+        "bestFor": "Recurrent impetigo, decolonization planning, skin cultures, and management of underlying skin conditions",
+        "highlight": false
+      }
+    ],
+    "bottomLine": "TeleDirectMD is a strong fit for limited, localized impetigo in adults without red flags, with direct MD evaluation, antibiotic stewardship, and a safety-first approach."
+  },
+
+  "decisionGuide": {
+    "sectionTitle": "Should I Use TeleDirectMD for Impetigo in {state}? Decision Guide",
+    "steps": [
+      {
+        "type": "urgent",
+        "title": "Do you have any emergency or red-flag symptoms?",
+        "items": [
+          "Rapidly spreading redness or swelling beyond the lesion border (possible cellulitis)",
+          "Red streaks spreading from the lesion toward lymph nodes (lymphangitis)",
+          "Fever, chills, or signs of systemic illness",
+          "Lesion near the eyes with eyelid swelling, pain, or vision changes",
+          "Deep painful ulcers with thick adherent crust (possible ecthyma) requiring wound care",
+          "Signs of post-streptococcal complications: swollen face, blood in urine, or markedly decreased urine output"
+        ],
+        "yesAction": "If yes, seek urgent in-person care or the ER now",
+        "noAction": "If no, continue to Step 2"
+      },
+      {
+        "type": "check",
+        "title": "Are you 18+ and currently in {state}?",
+        "items": [],
+        "yesAction": "If yes, continue to Step 3",
+        "noAction": "If no, use in-person care as appropriate"
+      },
+      {
+        "type": "check",
+        "title": "Do your skin findings fit localized impetigo appropriate for telehealth?",
+        "items": [
+          "Honey-colored crusted sores, small blisters, or red erosions on face, extremities, or areas of prior skin trauma",
+          "Limited area of involvement without extensive spreading",
+          "No fever, lymphangitis, or systemic illness",
+          "Able to clearly show the affected area via video camera"
+        ],
+        "yesAction": "If yes, continue to Step 4",
+        "noAction": "If no or symptoms suggest more serious infection, seek in-person evaluation"
+      },
+      {
+        "type": "good",
+        "title": "You are likely appropriate for a TeleDirectMD video visit",
+        "description": "TeleDirectMD can visually assess impetigo lesions, screen for MRSA risk factors and red flags, determine whether topical or oral antibiotic therapy is appropriate, and send a prescription when clinically indicated. If your lesions suggest deeper infection, extensive disease, or a different diagnosis, we will direct you to the right level of in-person care.",
+        "items": [],
+        "showCta": true
+      }
+    ]
+  },
+
+  "pricing": {
+    "sectionTitle": "What Does Online Impetigo Treatment Cost in {state}?",
+    "subtitle": "Transparent options. Insurance is not required.",
+    "visitPrice": "$49",
+    "priceSubtext": "Self pay option. Insurance is not required.",
+    "includes": [
+      "MD evaluation and red-flag screening",
+      "Visual assessment of lesion characteristics via video",
+      "Topical vs oral antibiotic decision-making with MRSA risk screening",
+      "Prescription sent if clinically appropriate",
+      "Clear follow-up steps and contagion prevention instructions"
+    ],
+    "comparisonBars": [
+      { "name": "TeleDirectMD", "value": "$49", "width": 12, "isTdmd": true },
+      { "name": "Primary Care", "value": "$100 to $350+", "width": 52, "isTdmd": false },
+      { "name": "Urgent Care", "value": "$150 to $300+", "width": 60, "isTdmd": false },
+      { "name": "Emergency Room", "value": "$500 to $3,000+", "width": 100, "isTdmd": false }
+    ],
+    "footnote": "Prescription costs at your pharmacy are separate and vary by medication and pharmacy.",
+    "noHiddenFees": "No hidden fees. If medication is not clinically appropriate, you still receive a complete evaluation, guidance, and clear instructions on what level of care you need next."
+  },
+
+  "whatIsCondition": {
+    "sectionTitle": "What Is Impetigo?",
+    "paragraphs": [
+      "Impetigo is a highly contagious superficial bacterial skin infection most commonly caused by Staphylococcus aureus, group A Streptococcus (Streptococcus pyogenes), or both. It typically affects the outermost layers of the skin and presents in two main forms: nonbullous impetigo, which accounts for about 70% of cases and produces characteristic honey-colored crusted lesions, and bullous impetigo, which is caused almost exclusively by S. aureus and produces larger fluid-filled blisters. A deeper form called ecthyma develops when infection penetrates through the dermis, creating painful ulcers with thick adherent crusts that can leave scars.",
+      "While impetigo is often considered a pediatric condition — most common in children ages 2 to 5 — it does occur in adults, particularly following skin trauma, insect bites, eczema flares, scabies, or other conditions that disrupt the skin barrier. Community-acquired MRSA (methicillin-resistant Staphylococcus aureus) has become an important consideration in treatment decisions, especially for lesions that do not respond to first-line therapy or in patients with known MRSA risk factors. Impetigo is typically a mild, self-limited infection, but antibiotic treatment accelerates healing and reduces spread. Rarely, streptococcal impetigo can trigger post-streptococcal glomerulonephritis, a delayed complication affecting kidney function.",
+      "TeleDirectMD can evaluate adults with typical, localized impetigo via secure video visit, with careful visual assessment of lesion characteristics, MRSA risk screening, and guideline-based antibiotic selection when appropriate. Adults with spreading infection, systemic illness, extensive disease, deep ulceration, periorbital involvement, or signs of post-streptococcal complications are directed to urgent in-person care."
+    ]
+  },
+
+  "causesAndRiskFactors": {
+    "sectionTitle": "Causes and Risk Factors",
+    "intro": "Impetigo develops when Staphylococcus aureus or group A Streptococcus colonizes and infects the skin, most often at sites of disrupted skin integrity. Understanding risk factors helps determine whether a telehealth evaluation is safe or whether in-person assessment is more appropriate.",
+    "items": [
+      { "label": "Skin barrier disruption:", "text": "insect bites, cuts, abrasions, burns, surgical wounds, and scratching from eczema, scabies, or chickenpox all create entry points for bacteria" },
+      { "label": "Atopic dermatitis (eczema):", "text": "chronically compromised skin barrier and Staph colonization make people with eczema particularly prone to secondary impetiginization" },
+      { "label": "Close contact and crowding:", "text": "impetigo spreads readily by direct contact with lesion exudate or contaminated items such as towels, clothing, or razors; household and daycare transmission is common" },
+      { "label": "Hot, humid environments:", "text": "impetigo is more prevalent in summer and in tropical climates, where sweating and heat facilitate bacterial proliferation" },
+      { "label": "Nasal carriage of S. aureus:", "text": "carriers may autoinoculate their own skin or spread bacteria to others; nasal carriage is a risk factor for recurrent impetigo" },
+      { "label": "Immunocompromised states:", "text": "diabetes, HIV, immunosuppressive medications, and malnutrition can impair normal skin defenses and increase susceptibility to infection and complications" }
+    ],
+    "closing": "Not every crusty or blistering skin lesion is impetigo. Herpes simplex, contact dermatitis, tinea corporis, eczema with secondary infection, and bullous pemphigoid can all mimic impetigo. TeleDirectMD reviews lesion appearance, distribution, and history to distinguish likely impetigo from conditions that require different evaluation or treatment."
+  },
+
+  "symptomsAndRedFlags": {
+    "sectionTitle": "Symptoms and Red Flags for Impetigo in {state}",
+    "intro": "Use this table to understand which findings are consistent with localized impetigo appropriate for telehealth, and which suggest a need for urgent in-person evaluation.",
+    "headers": ["Symptom or situation", "What it suggests", "Telehealth appropriate?", "Red flag requiring urgent in-person care"],
+    "rows": [
+      ["Honey-colored crusted sores on face or extremities", "Classic nonbullous impetigo", "Often yes", "If spreading rapidly or associated with fever"],
+      ["Small fluid-filled blisters (bullae) on skin without fever", "Bullous impetigo (S. aureus)", "Sometimes, if limited and afebrile", "Extensive bullae, rapidly spreading, or systemic symptoms require in-person care"],
+      ["Itchy red erosions in areas of eczema or insect bites", "Secondary impetiginization of compromised skin", "Often yes, if localized", "If widespread or not responding to typical eczema management"],
+      ["Redness spreading beyond lesion borders with warmth and swelling", "Possible progression to cellulitis", "No", "Urgent in-person care needed for spreading cellulitis"],
+      ["Red streaks radiating from a lesion toward lymph nodes", "Lymphangitis — bacterial spread along lymphatics", "No", "Urgent in-person or ER care required"],
+      ["Fever or chills with skin lesion", "Systemic infection or bacteremia concern", "No", "Urgent in-person or ER care required"],
+      ["Deep painful ulcer with thick adherent crust", "Ecthyma — deeper infection penetrating dermis", "No", "In-person evaluation for wound care and possible culture"],
+      ["Lesion near eyes with eyelid swelling or pain", "Risk of periorbital or orbital spread", "No", "Urgent or ER evaluation required"],
+      ["Facial swelling, blood in urine, or markedly decreased urination after a skin infection", "Possible post-streptococcal glomerulonephritis", "No", "Urgent in-person evaluation for kidney complication"]
+    ]
+  },
+
+  "differentialDiagnosis": {
+    "sectionTitle": "Differential Diagnosis: Impetigo vs Other Skin Conditions",
+    "intro": "Several conditions can look similar to impetigo. Accurate identification affects treatment choice — antifungals, antivirals, or steroids may be needed rather than antibiotics. TeleDirectMD uses visual assessment and clinical history to identify the most likely diagnosis and direct patients appropriately.",
+    "telehealthAppropriate": {
+      "title": "Sometimes Appropriate for Telehealth Guidance",
+      "items": [
+        "Classic nonbullous impetigo — localized honey-colored crusted lesions without systemic symptoms",
+        "Bullous impetigo — limited blisters in afebrile adult, visible by video for assessment",
+        "Secondary impetiginization of eczema — infected eczema plaques with crusting, localized and without systemic features",
+        "Contact dermatitis discussion — review of exposure history and lesion appearance to guide whether antibiotics or avoidance is the main treatment",
+        "Cold sore (herpes labialis) — perioral blistering lesions that can mimic impetigo; history and lesion pattern help differentiate"
+      ]
+    },
+    "requiresInPerson": {
+      "title": "Often Requires In-Person Evaluation",
+      "items": [
+        "Cellulitis — spreading deep dermal infection with non-demarcated redness, warmth, and swelling requiring in-person exam and often oral or IV antibiotics",
+        "Ecthyma — deeper ulcerated impetigo penetrating the dermis, requiring wound assessment and culture",
+        "Herpes zoster (shingles) — dermatomal vesicular eruption that may require antiviral therapy and in-person confirmation",
+        "Bullous pemphigoid — autoimmune blistering disorder mimicking bullous impetigo; requires biopsy and dermatology evaluation",
+        "Tinea corporis (ringworm) with secondary infection — may require antifungal rather than antibiotic therapy; in-person KOH prep may help",
+        "Extensive or recurrent impetigo needing culture — MRSA-suspected or treatment-failure cases benefit from wound culture to guide targeted therapy"
+      ]
+    },
+    "compareCards": [
+      {
+        "title": "Impetigo vs Herpes Simplex",
+        "text": "Both can produce grouped vesicles and crusted lesions around the mouth or on the skin. Herpes simplex typically causes a prodrome of tingling or burning before blisters appear, lesions tend to recur in the same location, and clusters are more distinct. Impetigo more commonly produces honey-colored crusting and spreads by autoinoculation rather than in a fixed location. Herpes requires antiviral therapy, not antibiotics."
+      },
+      {
+        "title": "Impetigo vs Contact Dermatitis",
+        "text": "Contact dermatitis produces red, weeping, or blistering lesions at the site of allergen or irritant exposure. Without secondary infection, it is not caused by bacteria and does not respond to antibiotics. However, contact dermatitis with disrupted skin can become secondarily infected with impetigo. History of allergen exposure, distribution matching a contact pattern, and prominent itching point toward dermatitis."
+      },
+      {
+        "title": "Impetigo vs Tinea Corporis",
+        "text": "Tinea corporis (ringworm) is a fungal infection that produces annular, scaly, erythematous patches with central clearing. It can occasionally crust if secondarily infected. Unlike impetigo, tinea does not produce honey-colored exudate, requires antifungal treatment, and worsens with antibiotics alone. The ring-shaped pattern and peripheral scale are key distinguishing features."
+      }
+    ],
+    "closing": "If your presentation does not match typical localized impetigo, or if red flags such as spreading redness, fever, or deeper ulceration are present, TeleDirectMD will direct you to the appropriate level of in-person care."
+  },
+
+  "telehealthEligibility": {
+    "sectionTitle": "When Is a Video Visit Appropriate?",
+    "appropriate": {
+      "title": "When a Video Visit Is Appropriate",
+      "items": [
+        "Typical honey-colored crusted or blistering lesions limited to a small, defined area",
+        "No fever, chills, or signs of systemic illness",
+        "No rapidly spreading redness or red streaks beyond the lesion",
+        "Lesions are not near the eyes with swelling or pain",
+        "No deep ulcerations (ecthyma) requiring wound care or debridement",
+        "No known post-streptococcal complications",
+        "Located in {state} at time of visit"
+      ]
+    },
+    "redFlags": {
+      "title": "Red Flags Requiring In-Person or ER Care",
+      "items": [
+        "Rapidly spreading redness or warmth beyond lesion borders (possible cellulitis)",
+        "Red streaks extending from the lesion toward lymph nodes (lymphangitis)",
+        "Fever or chills with skin infection",
+        "Lesions near the eyes with eyelid swelling, pain, or vision changes",
+        "Deep painful ulcers with thick adherent crust (ecthyma)",
+        "Extensive impetigo covering large body surface area",
+        "Signs of post-streptococcal complications: facial swelling, decreased urine output, blood in urine",
+        "Severe immunosuppression or rapidly worsening clinical status"
+      ],
+      "disclaimer": "If any red-flag symptoms are present, seek urgent in-person or emergency care. TeleDirectMD is not appropriate for these situations."
+    }
+  },
+
+  "treatmentOptions": {
+    "sectionTitle": "Treatment Options",
+    "intro": "Treatment selection for impetigo is based on the extent of disease, lesion type, likelihood of MRSA, patient risk factors, and allergies. IDSA guidelines recommend topical antibiotics for limited nonbullous or bullous impetigo, and oral antibiotics for more extensive disease, multiple lesions, or when systemic treatment is clinically indicated.",
+    "sections": [
+      {
+        "title": "Topical antibiotic therapy (preferred for limited disease)",
+        "text": "For localized impetigo with a small number of lesions, topical mupirocin 2% ointment or retapamulin 1% ointment applied twice daily for 5 days is the first-line IDSA-recommended approach. Topical therapy has the advantage of direct application to lesions, fewer systemic side effects, and evidence showing efficacy at least equal to oral antibiotics for limited disease. Crusts should be gently removed with soap and water before applying topical medication."
+      },
+      {
+        "title": "Oral antibiotic therapy (for extensive disease or multiple lesions)",
+        "text": "When impetigo involves numerous lesions, bullous impetigo is present, there is concern for ecthyma, or topical therapy is impractical, a 7-day course of oral antibiotics active against S. aureus is recommended. Dicloxacillin or cephalexin are first-line oral agents for methicillin-susceptible infections. When MRSA is suspected based on lesion characteristics, geographic risk, prior MRSA history, or treatment failure, trimethoprim-sulfamethoxazole (TMP-SMX), doxycycline, or clindamycin are appropriate alternatives."
+      },
+      {
+        "title": "MRSA-directed therapy when indicated",
+        "text": "Community-acquired MRSA must be considered when impetigo does not respond to standard beta-lactam therapy, when there is known local MRSA prevalence, or when risk factors such as prior MRSA, household MRSA contact, or recurrent infections are present. MRSA-appropriate oral agents include TMP-SMX DS, doxycycline 100 mg twice daily, or clindamycin 300 to 400 mg three to four times daily. Cultures are useful in treatment-failure or recurrent cases."
+      },
+      {
+        "title": "Hygiene and prevention measures",
+        "text": "Impetigo is highly contagious. Patients should wash the affected area gently with soap and water, cover lesions with a clean bandage, wash hands frequently, and avoid sharing towels, clothing, or razors. Laundering clothing, sheets, and towels daily during active infection limits spread to household contacts. Return to work or school is generally safe after at least 24 hours of antibiotic therapy with lesions covered."
+      }
+    ],
+    "doesNotManage": [
+      "Deep tissue infection or abscess requiring incision and drainage",
+      "Spreading cellulitis with systemic symptoms requiring in-person exam and possible IV antibiotics",
+      "Post-streptococcal complications including acute glomerulonephritis or acute rheumatic fever",
+      "Severe or extensive bullous impetigo covering large body surface area requiring in-person assessment",
+      "Periorbital impetigo with risk of orbital spread requiring urgent evaluation"
+    ]
+  },
+
+  "medications": {
+    "sectionTitle": "Common Medication Options",
+    "intro": "These are common examples used for impetigo in adults based on IDSA guidelines and clinical evidence. The actual medication, dose, duration, and route are determined by the MD after reviewing lesion extent, MRSA risk, allergies, and red flags.",
+    "headers": ["Medication", "Typical dose", "Duration", "Key considerations"],
+    "rows": [
+      ["Mupirocin 2% ointment (topical)", "Apply to affected area three times daily", "7 to 10 days (or 5 days per IDSA guidance)", "First-line IDSA-recommended topical agent for limited impetigo. Remove crusts with soap and water before applying. Not effective against MRSA at high resistance rates. Available as generic."],
+      ["Retapamulin 1% ointment (topical)", "Apply to affected area twice daily", "5 days", "IDSA first-line topical option. Approved for S. aureus (methicillin-susceptible) and S. pyogenes. Novel pleuromutilin class with low resistance risk. Not approved for MRSA. Treatment area should not exceed 100 cm² in adults."],
+      ["Cephalexin (oral)", "500 mg by mouth four times daily", "7 days", "First-line oral agent for extensive or bullous impetigo. Beta-lactamase-resistant cephalosporin active against MSSA and Streptococcus. Avoid with cephalosporin allergy. Not effective against MRSA."],
+      ["Dicloxacillin (oral)", "500 mg by mouth four times daily (on empty stomach)", "7 days", "Antistaphylococcal penicillin; IDSA-recommended oral agent for impetigo. Active against MSSA. Must be taken on an empty stomach for best absorption. Not effective against MRSA."],
+      ["Trimethoprim-sulfamethoxazole DS (TMP-SMX, oral)", "1 DS tablet (160/800 mg) by mouth twice daily", "7 days", "Preferred oral agent when MRSA is suspected or confirmed. Also covers most MSSA. Coverage for Streptococcus pyogenes alone is inadequate, so this is most useful when S. aureus is the likely pathogen. Avoid with sulfa allergy or certain drug interactions."],
+      ["Doxycycline (oral)", "100 mg by mouth twice daily", "7 days", "Alternative MRSA-directed therapy when TMP-SMX cannot be used. Also covers MSSA. Avoid in pregnancy. May cause photosensitivity. Not routinely first-line unless MRSA is specifically suspected."]
+    ],
+    "note": "Example regimens only. The actual medication, dosing, and duration are determined by the MD after reviewing your lesion extent, MRSA risk factors, allergies, and clinical presentation. TeleDirectMD does not prescribe controlled substances."
+  },
+
+  "homeCare": {
+    "sectionTitle": "Home Care, Prevention, and Follow-up",
+    "whatToDoNow": {
+      "title": "What to Do Now",
+      "items": [
+        "Gently wash the affected area with soap and water to soften and remove crusts before applying any topical antibiotic",
+        "Apply topical medication exactly as directed — typically twice to three times daily — and cover with a clean non-stick bandage",
+        "Wash hands thoroughly before and after touching the lesion area",
+        "Avoid touching or scratching lesions to prevent spreading bacteria to other body areas (autoinoculation)",
+        "Launder towels, washcloths, and clothing that have contacted lesions daily; do not share with household members until infection has cleared"
+      ]
+    },
+    "whatToWatch": {
+      "title": "What to Watch For Over the Next 24 to 72 Hours",
+      "items": [
+        "Lesions should begin to improve within 2 to 3 days of starting antibiotic therapy — crusts should dry and lesion borders should stop spreading",
+        "Watch for new fever, chills, or systemic symptoms at any time — these require urgent in-person evaluation",
+        "Redness spreading beyond the original lesion borders or red streaks on the skin are warning signs of cellulitis or lymphangitis requiring immediate care",
+        "Lesions that worsen or fail to improve after 3 to 5 days of appropriate topical therapy may indicate MRSA or a different diagnosis — in-person culture may be needed",
+        "Any swelling around the eye, significant facial swelling, or decreased urination after a skin infection should prompt immediate evaluation"
+      ]
+    },
+    "followUp": {
+      "title": "Follow-up Timing",
+      "items": [
+        "Complete the full course of antibiotics even if lesions appear to be clearing — stopping early can lead to recurrence",
+        "Return to work or school is generally appropriate after at least 24 hours of antibiotic therapy with all lesions covered",
+        "If impetigo is recurrent, evaluation for nasal carriage of S. aureus or underlying skin conditions such as eczema or scabies is recommended at a primary care or dermatology visit",
+        "For known household contacts with similar lesions, individual treatment is recommended — shared bedding and towels should be laundered",
+        "Follow up with primary care or dermatology for recurrent impetigo, suspected decolonization needs, or lesions that do not fully respond to initial therapy"
+      ]
+    }
+  },
+
+  "whenNotToUse": {
+    "sectionTitle": "When Not to Use TeleDirectMD for Impetigo in {state}",
+    "intro": "TeleDirectMD is designed for limited, localized impetigo without systemic features. We are direct about when telehealth is not the right fit.",
+    "shouldNotUse": {
+      "title": "You Should Not Use TeleDirectMD If",
+      "items": [
+        "You have rapidly spreading redness, warmth, or swelling beyond the lesion borders (possible cellulitis)",
+        "You have red streaks on the skin extending toward lymph nodes (lymphangitis)",
+        "You have fever or chills associated with your skin infection",
+        "Lesions involve the area near your eyes with swelling, pain, or visual changes",
+        "You have deep painful ulcers with thick adherent crust consistent with ecthyma",
+        "Your infection is extensive or covers a large area of the body",
+        "You have signs consistent with post-streptococcal complications such as facial swelling, blood in urine, or significantly reduced urination",
+        "You are severely immunocompromised and developing a new skin infection",
+        "You are under 18 years old",
+        "You are not physically in {state} at the time of visit"
+      ]
+    },
+    "alternatives": {
+      "title": "Alternative Care Options",
+      "items": [
+        { "label": "Emergency room:", "text": "rapidly spreading cellulitis, lymphangitis, fever with skin infection, periorbital involvement, sepsis symptoms, or concern for necrotizing infection" },
+        { "label": "Urgent care:", "text": "same-day in-person exam and possible wound culture for moderate spreading infection, treatment failure, or uncertain diagnosis" },
+        { "label": "Primary care:", "text": "recurrent impetigo, decolonization planning, management of underlying eczema or scabies, and follow-up after antibiotic treatment" },
+        { "label": "Dermatology:", "text": "recurrent or treatment-resistant cases, suspected bullous pemphigoid or autoimmune blistering disorder, or need for skin biopsy" }
+      ]
+    }
+  },
+
+  "faq": {
+    "sectionTitle": "Impetigo Treatment FAQs for {state}",
+    "items": [
+      {
+        "question": "Can I get impetigo treatment online in {state}?",
+        "answer": "Yes, if you are an adult 18+ located in {state} with typical localized impetigo lesions and no red-flag symptoms. TeleDirectMD can visually assess the lesions via video, screen for MRSA risk and complications, and prescribe topical or oral antibiotics when clinically appropriate. Adults with spreading infection, fever, or deeper lesions will be directed to in-person care."
+      },
+      {
+        "question": "How much does an online impetigo visit cost in {state}?",
+        "answer": "TeleDirectMD offers a transparent self pay option starting at $49 for an adult video visit in {state}. Insurance is not required. Prescription costs at your pharmacy are separate and vary by medication and pharmacy."
+      },
+      {
+        "question": "Does {state} allow telemedicine for skin infection visits?",
+        "answer": "Yes. {state} allows licensed professionals to provide telemedicine within their scope when appropriate and according to accepted standards of care."
+      },
+      {
+        "question": "Can a doctor diagnose impetigo without an in-person exam?",
+        "answer": "Often yes, for typical presentations. Impetigo is diagnosed clinically based on lesion appearance — honey-colored crusts, red erosions, or blisters in characteristic locations. The IDSA guidelines note that diagnosis is primarily clinical and that treatment without cultures is reasonable in typical cases. A video visit allows the MD to visually assess the lesion appearance, distribution, and severity, which is often sufficient for a straightforward presentation."
+      },
+      {
+        "question": "What are the signs of impetigo that are appropriate for telehealth?",
+        "answer": "Honey-colored crusted sores or small blisters on the face, extremities, or areas of prior skin injury, limited in area, without fever, spreading redness, red streaks, or systemic symptoms, are generally appropriate for telehealth evaluation."
+      },
+      {
+        "question": "What antibiotics are used for impetigo?",
+        "answer": "For limited disease, topical mupirocin 2% ointment or retapamulin 1% ointment are IDSA first-line options. For more extensive impetigo or bullous forms, oral cephalexin or dicloxacillin for 7 days are standard. When MRSA is suspected, trimethoprim-sulfamethoxazole (TMP-SMX DS), doxycycline, or clindamycin are used. The choice depends on lesion extent, MRSA risk, allergies, and clinical presentation."
+      },
+      {
+        "question": "Is impetigo contagious? How do I keep from spreading it?",
+        "answer": "Yes, impetigo is highly contagious through direct contact with lesion exudate or contaminated items. Cover all lesions with a clean bandage, wash hands frequently, do not share towels or clothing, and launder bedding daily. Most healthcare providers recommend waiting at least 24 hours after starting antibiotic treatment with lesions covered before returning to work or school."
+      },
+      {
+        "question": "When is impetigo dangerous and when should I go to the ER?",
+        "answer": "Go to the ER if you develop rapidly spreading redness beyond the lesion (possible cellulitis), red streaks on the skin (lymphangitis), fever with chills, swelling around the eye, or any signs of severe illness. A rare but serious complication is post-streptococcal glomerulonephritis — if you notice facial swelling, significant decrease in urination, or blood in your urine after a skin infection, seek urgent evaluation."
+      },
+      {
+        "question": "What if my impetigo does not improve with treatment?",
+        "answer": "If lesions are not improving after 3 to 5 days of appropriate topical therapy, or within 48 to 72 hours of oral antibiotics, reassessment is needed. Treatment failure may indicate MRSA, a different diagnosis, or inadequate adherence. In-person evaluation with wound culture may be warranted to guide targeted therapy."
+      },
+      {
+        "question": "Can I have MRSA impetigo and not know it?",
+        "answer": "Yes. Community-acquired MRSA can cause impetigo that looks identical to methicillin-susceptible infections but fails to respond to standard antibiotics like cephalexin. Risk factors include prior MRSA infection, household contact with MRSA, recent antibiotic use, or living in close quarters. If your lesions do not respond to initial treatment, MRSA should be considered and wound culture may help guide therapy."
+      },
+      {
+        "question": "Does TeleDirectMD treat impetigo in other states?",
+        "answer": "Yes. TeleDirectMD offers adult evaluations via video visits across multiple states where our physicians are licensed. You must be physically located in the state where you are requesting care at the time of your video visit."
+      },
+      {
+        "question": "Can TeleDirectMD treat children with impetigo?",
+        "answer": "No. TeleDirectMD treats adults 18+ only. Children with impetigo should be evaluated by a pediatrician or pediatric urgent care provider."
+      },
+      {
+        "question": "Can I use my insurance for a TeleDirectMD visit?",
+        "answer": "Insurance is not required. If your plan is eligible, you may be able to use insurance. A self pay option is also available starting at $49."
+      },
+      {
+        "question": "How long does impetigo take to heal with treatment?",
+        "answer": "With appropriate antibiotic treatment, most cases of impetigo clear within 7 to 10 days. Topical therapy for limited disease typically shows improvement within 2 to 3 days. Without treatment, impetigo can take 2 to 3 weeks to resolve on its own and carries a higher risk of spreading to others and developing complications."
+      }
+    ],
+    "bottomCta": {
+      "title": "Need help today?",
+      "text": "Insurance is not required. Adult-only video visits. MD-only care. Safety-first triage, visual lesion assessment, and antibiotic prescriptions only when appropriate."
+    }
+  },
+
+  "references": [
+    { "text": "IDSA Practice Guidelines for the Diagnosis and Management of Skin and Soft Tissue Infections: 2014 Update (Stevens et al., Clinical Infectious Diseases)", "url": "https://academic.oup.com/cid/article/59/2/e10/2895845" },
+    { "text": "Skin and Soft Tissue Infections — IDSA Practice Guideline Resource Page", "url": "https://www.idsociety.org/practice-guideline/skin-and-soft-tissue-infections/" },
+    { "text": "Clinical Guidance for Group A Streptococcal Impetigo — CDC", "url": "https://www.cdc.gov/group-a-strep/hcp/clinical-guidance/impetigo.html" },
+    { "text": "Impetigo — StatPearls (Nardi and Schaefer, NCBI Bookshelf, updated 2023)", "url": "https://www.ncbi.nlm.nih.gov/books/NBK430974/" },
+    { "text": "Interventions for Impetigo — Cochrane Database Systematic Review (Koning et al., 2012, PMC)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7025440/" },
+    { "text": "Impetigo: Overview — American Academy of Dermatology", "url": "https://www.aad.org/public/diseases/a-z/impetigo-overview" }
+  ],
+
+  "disclaimer": {
+    "sectionTitle": "TeleDirectMD Telehealth Disclaimer",
+    "paragraphs": [
+      "TeleDirectMD provides MD-only virtual urgent care for adults (18+) in {state} using secure video visits to evaluate impetigo symptoms, visually assess lesion characteristics, screen for MRSA risk and complications, and prescribe topical or oral antibiotic treatment when clinically appropriate. Insurance is not required. You must be physically located in {state} at the time of your video visit. TeleDirectMD does not prescribe controlled substances.",
+      "TeleDirectMD is not an emergency service and is not a replacement for urgent in-person care. This service is not appropriate for spreading cellulitis, lymphangitis, fever with skin infection, periorbital impetigo, ecthyma requiring wound care, extensive disease, or suspected post-streptococcal complications. If red-flag symptoms are present, seek urgent in-person or emergency care immediately.",
+      "Online impetigo treatment in {state}. Impetigo antibiotics online. Skin infection treatment by video visit. Mupirocin prescription online. Telehealth dermatology for adults in {state}."
+    ]
+  },
+
+  "relatedConditions": [
+    {
+      "slug": "cellulitis-treatment-online",
+      "title": "Cellulitis",
+      "description": "Spreading skin redness, warmth, and swelling that can develop as a complication of impetigo or surrounding bacterial skin infection"
+    },
+    {
+      "slug": "eczema-treatment-online",
+      "title": "Eczema",
+      "description": "Atopic dermatitis with compromised skin barrier is a major risk factor for secondary impetiginization"
+    },
+    {
+      "slug": "cold-sore-treatment-online",
+      "title": "Cold Sore",
+      "description": "Herpes labialis (cold sores) can closely mimic impetigo around the mouth and requires antiviral rather than antibiotic treatment"
+    },
+    {
+      "slug": "acne-treatment-online",
+      "title": "Acne Treatment",
+      "description": "Another common bacterial skin condition evaluated and managed by MD video visit"
+    },
+    {
+      "slug": "scabies-treatment-online",
+      "title": "Scabies",
+      "description": "Scabies infestation disrupts skin integrity and commonly leads to secondary impetigo; both conditions may need simultaneous treatment"
+    }
+  ],
+
+  "inlineLinks": [
+    { "slug": "cellulitis-treatment-online", "label": "Cellulitis" },
+    { "slug": "eczema-treatment-online", "label": "Eczema" },
+    { "slug": "cold-sore-treatment-online", "label": "Cold Sore" },
+    { "slug": "acne-treatment-online", "label": "Acne" },
+    { "slug": "scabies-treatment-online", "label": "Scabies" },
+    { "slug": "sinus-infection-treatment-online", "label": "Sinus Infection" },
+    { "slug": "sore-throat-treatment-online", "label": "Sore Throat" },
+    { "slug": "pink-eye-treatment-online", "label": "Pink Eye" },
+    { "slug": "seasonal-allergies-treatment-online", "label": "Seasonal Allergies" },
+    { "slug": "uti-treatment-online", "label": "UTI Treatment" }
+  ],
+
+  "cityBlock": {
+    "title": "Adults We Serve Across {state}",
+    "text": "TeleDirectMD evaluates adults located throughout {state}, including {citiesExtended}. Whether you are searching for online impetigo treatment in {city1}, skin infection care in {city2}, or impetigo antibiotics online in {city3}, or anywhere else in {state}, the same telehealth eligibility and safety rules apply."
+  },
+
+  "icd10Codes": [
+    { "code": "L01.00", "description": "Impetigo, unspecified" },
+    { "code": "L01.01", "description": "Non-bullous impetigo" },
+    { "code": "L01.03", "description": "Bullous impetigo" },
+    { "code": "L01.1", "description": "Impetiginization of other dermatoses" }
+  ],
+
+  "jsonLd": {
+    "conditionName": "Impetigo",
+    "conditionAlternateNames": ["Pyoderma", "School sores", "Nonbullous impetigo", "Bullous impetigo", "Crusted skin infection"],
+    "conditionDescription": "Impetigo is a highly contagious superficial bacterial skin infection caused by Staphylococcus aureus, Streptococcus pyogenes, or both. It presents as honey-colored crusted lesions or fluid-filled blisters, most commonly on the face, extremities, or areas of disrupted skin. TeleDirectMD evaluates adult impetigo by video visit with visual lesion assessment, MRSA risk screening, guideline-based topical or oral antibiotic selection, and clear escalation criteria for spreading infection or systemic illness.",
+    "primaryIcd10": "L01.00",
+    "anatomy": "Skin (epidermis and superficial dermis)",
+    "symptoms": [
+      "Honey-colored crusted sores",
+      "Red erosions or vesicles",
+      "Fluid-filled blisters (bullous impetigo)",
+      "Itching",
+      "Mild regional lymphadenopathy"
+    ],
+    "riskFactors": [
+      "Skin barrier disruption (cuts, insect bites, eczema)",
+      "Close contact with infected individuals",
+      "Hot and humid environment",
+      "Nasal carriage of Staphylococcus aureus",
+      "Immunocompromised state or diabetes",
+      "Poor hygiene or crowded living conditions"
+    ],
+    "complications": [
+      "Cellulitis",
+      "Lymphangitis",
+      "Ecthyma (deeper ulcerating infection)",
+      "Post-streptococcal glomerulonephritis",
+      "Staphylococcal scalded skin syndrome (rare)"
+    ],
+    "epidemiology": "Impetigo accounts for approximately 10% of pediatric skin complaints but also occurs in adults, particularly following skin trauma, eczema flares, or insect bites. Community-acquired MRSA has become an increasingly important pathogen in skin and soft tissue infections.",
+    "drugs": [
+      { "name": "Mupirocin 2% ointment", "id": "mupirocin-topical" },
+      { "name": "Retapamulin 1% ointment", "id": "retapamulin-topical" },
+      { "name": "Cephalexin", "id": "cephalexin" },
+      { "name": "Dicloxacillin", "id": "dicloxacillin" },
+      { "name": "Trimethoprim-sulfamethoxazole", "id": "tmp-smx" },
+      { "name": "Doxycycline", "id": "doxycycline" }
+    ],
+    "treatments": [
+      "Topical antibiotic therapy for limited disease",
+      "Oral antibiotic therapy for extensive or bullous impetigo",
+      "MRSA-directed antibiotic therapy when indicated",
+      "Hygiene measures and wound covering to prevent spread"
+    ],
+    "tests": [
+      "Clinical visual assessment of lesion characteristics",
+      "Wound culture for suspected MRSA or treatment failure (in-person)"
+    ],
+    "specialties": ["Family Medicine", "Dermatology", "Telemedicine"],
+    "guidelines": [
+      { "name": "IDSA Practice Guidelines for Skin and Soft Tissue Infections (2014 Update)", "url": "https://academic.oup.com/cid/article/59/2/e10/2895845", "publisher": "Infectious Diseases Society of America", "id": "idsa-ssti" },
+      { "name": "Clinical Guidance for Group A Streptococcal Impetigo", "url": "https://www.cdc.gov/group-a-strep/hcp/clinical-guidance/impetigo.html", "publisher": "Centers for Disease Control and Prevention", "id": "cdc-impetigo" },
+      { "name": "Impetigo — StatPearls", "url": "https://www.ncbi.nlm.nih.gov/books/NBK430974/", "publisher": "StatPearls Publishing / NCBI Bookshelf", "id": "statpearls-impetigo" }
+    ],
+    "knowsAbout": [
+      "Impetigo treatment",
+      "Topical antibiotic selection for skin infection",
+      "MRSA risk screening",
+      "Nonbullous and bullous impetigo",
+      "Antibiotic stewardship for skin infections",
+      "Telehealth triage for dermatologic conditions",
+      "Family Medicine"
+    ],
+    "serviceDescription": "Secure video visit for {state} adults with localized impetigo, including visual lesion assessment, MRSA risk screening, topical or oral antibiotic prescriptions when appropriate, and clear escalation criteria for more serious infection.",
+    "webpageDescription": "{state} impetigo treatment by secure MD video visit for adults. Evidence-based evaluation of superficial skin infection, MRSA risk screening, guideline-based topical and oral antibiotic selection, and clear instructions for when urgent in-person care is needed."
+  }
+}
