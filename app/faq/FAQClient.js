@@ -15,9 +15,8 @@ const sections = [
           <>
             <p>
               TeleDirectMD is a physician-led telehealth service that connects you directly with a
-              licensed medical doctor for virtual urgent-care visits. We offer both real-time video
-              visits and asynchronous (async) medical visits, providing convenient and affordable
-              healthcare from the comfort of your home.
+              licensed medical doctor for virtual urgent-care video visits, providing convenient and
+              affordable healthcare from the comfort of your home.
             </p>
             <p>
               We are currently available in <strong>42 U.S. states</strong> plus Washington, D.C.
@@ -54,8 +53,8 @@ const sections = [
             <p>
               TeleDirectMD is physician-led and focused on direct access — no subscription fees, no
               membership, and no waiting rooms. Our flat-rate <strong>$49</strong> self-pay video
-              visit or <strong>$39</strong> async visit keeps pricing transparent, and we now accept
-              select insurance plans in growing states.
+              visit keeps pricing transparent, and we now accept select insurance plans in a
+              growing number of states.
             </p>
             <p>
               You get a real doctor, real prescriptions, and real follow-up — all without the
@@ -269,12 +268,9 @@ const sections = [
         a: (
           <>
             <p>
-              For self-pay patients, a live video visit is a flat <strong>$49</strong> with no hidden
-              fees — this includes the consultation, any prescriptions sent to your pharmacy, and a
-              work/school note if needed.
-            </p>
-            <p>
-              Asynchronous (async) medical visits are available for <strong>$39</strong>.
+              A TeleDirectMD video visit costs a flat <strong>$49</strong> with no hidden fees —
+              this includes the physician consultation, any prescriptions sent to your pharmacy, and
+              a work or school excuse note if needed.
             </p>
             <p>
               If you&apos;re using insurance, your standard copay and cost-sharing apply. We also
@@ -307,9 +303,8 @@ const sections = [
         q: 'Do you offer work/school excuse notes?',
         a: (
           <p>
-            Yes. Work or school excuse notes are provided <strong>free of charge</strong> with any
-            synchronous (video) or asynchronous medical visit. If you need a standalone excuse note
-            without a medical visit, the fee is <strong>$39</strong>.
+            Yes, when medically appropriate — TeleDirectMD can provide a brief work or school
+            excuse note based on the condition evaluated during your visit, included free of charge.
           </p>
         ),
       },
@@ -337,8 +332,7 @@ const sections = [
         a: (
           <p>
             In most cases, same-day appointments are available. Depending on provider availability
-            and time of day, you may be seen within minutes of booking. Async visits are typically
-            reviewed and responded to within a few hours.
+            and time of day, you may be seen within minutes of booking.
           </p>
         ),
       },
@@ -385,9 +379,9 @@ const sections = [
         a: (
           <>
             <p>
-              Yes. Work or school excuse notes are provided <strong>free of charge</strong> with any
-              synchronous (video) or asynchronous medical visit. If you need a standalone excuse note
-              without a medical visit, the fee is <strong>$39</strong>.
+              Yes, when medically appropriate — TeleDirectMD can provide a brief work or school
+              excuse note based on the condition evaluated during your visit, included free of
+              charge with any video visit.
             </p>
             <p>
               As a policy, notes are not backdated and are generally limited to a maximum of three
