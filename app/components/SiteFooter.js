@@ -19,6 +19,7 @@ export default function SiteFooter() {
             <h4 className="tdmd-footer-heading">PATIENTS</h4>
             <a href="/book-online">Book Now</a>
             <a href="/what-we-treat">What We Treat</a>
+            <a href="/insurance">Insurance & Pricing</a>
             <a href="/states-we-serve">States We Serve</a>
             <a href="https://app.elationpassport.com/passport/login/" target="_blank" rel="noopener noreferrer">Patient Portal</a>
             <a href="/faq">FAQs</a>
