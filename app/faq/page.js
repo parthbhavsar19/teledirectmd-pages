@@ -98,7 +98,7 @@ const faqItems = [
   },
   {
     q: 'Do you offer work/school excuse notes?',
-    a: 'Yes. Work or school excuse notes are provided free of charge with any synchronous (video) or asynchronous medical visit. If you need a standalone excuse note without a medical visit, the fee is $39.',
+    a: 'Yes, when medically appropriate — TeleDirectMD can provide a brief work or school excuse note based on the condition evaluated during your visit, included free of charge with any video visit.',
   },
   // Section 5: Visit Experience, Technology, and Privacy
   {

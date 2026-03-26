@@ -1,9 +1,211 @@
 'use client';
 
+import { useState } from 'react';
 import Link from 'next/link';
 
-/* ─── FAQ Data grouped by section ─── */
+/* ─── FAQ-specific CSS using the What We Treat design system ─── */
+const faqCSS = `
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:wght@500;600;700&display=swap');
 
+.faq-page{font-family:'DM Sans',-apple-system,BlinkMacSystemFont,sans-serif;background:#FDFBF9;color:#1A1A1A;line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden;width:100%;max-width:100%;position:relative}
+.faq-page *{box-sizing:border-box;margin:0;padding:0;word-wrap:break-word;overflow-wrap:break-word}
+.faq-container{max-width:1200px;margin:0 auto;padding:0 24px;width:100%;overflow:hidden}
+
+/* ── Hero ── */
+.faq-hero{padding:60px 0 50px;text-align:center;background:linear-gradient(180deg,#FDFBF9 0%,#F5F2EE 100%);border-bottom:1px solid #F0EBE6;width:100%;overflow:hidden}
+.faq-badge{display:inline-flex;align-items:center;gap:8px;padding:8px 16px;background:#1B4D4C;color:#fff;font-size:13px;font-weight:600;letter-spacing:.5px;border-radius:100px;margin-bottom:24px;text-transform:uppercase}
+.faq-badge svg{width:16px;height:16px;flex-shrink:0}
+.faq-hero h1{font-family:'Fraunces',Georgia,serif;font-size:clamp(26px,5vw,48px);font-weight:600;color:#143938;margin-bottom:16px;letter-spacing:-.5px;padding:0 8px;line-height:1.2}
+.faq-hero-sub{font-size:clamp(15px,2.5vw,18px);color:#5A5A5A;max-width:640px;margin:0 auto 32px;padding:0 8px;line-height:1.5}
+.faq-hero-ctas{display:flex;flex-wrap:wrap;justify-content:center;gap:12px;margin-bottom:40px}
+
+/* ── Trust bar ── */
+.faq-trust{display:flex;flex-wrap:wrap;justify-content:center;gap:16px 24px;font-size:14px;color:#5A5A5A;width:100%;padding:0 8px}
+.faq-trust-item{display:flex;align-items:center;gap:8px;white-space:nowrap}
+.faq-trust-item svg{width:18px;height:18px;color:#2E7D52;flex-shrink:0}
+
+/* ── Banner ── */
+.faq-banner{background:linear-gradient(135deg,#1B4D4C 0%,#2A6B6A 100%);color:#fff;padding:20px 0;width:100%;overflow-x:hidden}
+.faq-banner-content{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:16px 32px;font-size:14px;text-align:center;width:100%}
+.faq-banner-item{display:flex;align-items:center;gap:8px;text-align:left}
+.faq-banner-item svg{width:18px;height:18px;flex-shrink:0}
+
+/* ── Topic navigation pills ── */
+.faq-pills{display:flex;flex-wrap:wrap;justify-content:center;gap:12px;margin-bottom:40px;width:100%;padding:0 8px}
+.faq-pill{display:inline-flex;align-items:center;gap:8px;padding:12px 20px;background:#FFF;border:1px solid #E5E0DB;border-radius:12px;font-size:15px;font-weight:500;color:#1A1A1A;cursor:pointer;transition:.25s cubic-bezier(.4,0,.2,1);text-decoration:none}
+.faq-pill:hover{border-color:#1B4D4C;background:#1B4D4C;color:#fff;transform:translateY(-2px);box-shadow:0 4px 12px rgba(27,77,76,.1)}
+.faq-pill svg{width:18px;height:18px;flex-shrink:0}
+
+/* ── Main content ── */
+.faq-main{padding:50px 0 40px;width:100%}
+
+/* ── Section headers ── */
+.faq-section{margin-bottom:32px;scroll-margin-top:24px;width:100%;max-width:100%}
+.faq-section-header{display:flex;align-items:center;gap:16px;margin-bottom:20px;padding:0 4px}
+.faq-section-icon{width:48px;height:48px;display:flex;align-items:center;justify-content:center;background:#1B4D4C;border-radius:8px;color:#fff;font-size:24px;flex-shrink:0}
+.faq-section-text h2{font-family:'Fraunces',Georgia,serif;font-size:clamp(20px,3vw,26px);font-weight:600;color:#143938;margin-bottom:2px;line-height:1.3}
+.faq-section-text p{font-size:14px;color:#5A5A5A}
+
+/* ── FAQ accordion items ── */
+.faq-list{display:grid;gap:12px}
+.faq-item{background:#FFF;border:1px solid #E5E0DB;border-radius:12px;overflow:hidden;transition:.25s cubic-bezier(.4,0,.2,1)}
+.faq-item:hover{border-color:#2A6B6A;box-shadow:0 2px 8px rgba(27,77,76,.06)}
+.faq-question{cursor:pointer;padding:20px 24px;display:flex;align-items:center;justify-content:space-between;gap:16px;font-size:16px;font-weight:600;color:#143938;list-style:none;line-height:1.4;font-family:'DM Sans',sans-serif}
+.faq-question::-webkit-details-marker{display:none}
+.faq-toggle-icon{width:32px;height:32px;border-radius:8px;border:1px solid #E5E0DB;display:flex;align-items:center;justify-content:center;color:#1B4D4C;background:#F5F2EE;font-size:18px;font-weight:600;flex-shrink:0;transition:.25s cubic-bezier(.4,0,.2,1)}
+.faq-toggle-icon .faq-icon-minus{display:none}
+details[open] .faq-toggle-icon{background:#1B4D4C;color:#fff;border-color:#1B4D4C}
+details[open] .faq-toggle-icon .faq-icon-plus{display:none}
+details[open] .faq-toggle-icon .faq-icon-minus{display:inline}
+.faq-answer{padding:0 24px 20px;color:#3A3A3A;font-size:15px;line-height:1.65}
+.faq-answer p{margin:8px 0 0}
+.faq-answer p:first-child{margin-top:0}
+.faq-answer ul{margin:8px 0;padding-left:24px}
+.faq-answer li{margin:4px 0;line-height:1.5}
+.faq-answer a{color:#1B4D4C;font-weight:600;text-decoration:underline;text-underline-offset:2px}
+.faq-answer a:hover{color:#2A6B6A}
+.faq-answer strong{color:#143938}
+
+/* ── Buttons ── */
+.faq-btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:14px 28px;font-size:15px;font-weight:600;font-family:inherit;border-radius:12px;text-decoration:none;transition:.25s cubic-bezier(.4,0,.2,1);cursor:pointer;border:none}
+.faq-btn-primary{background:#E8846B;color:#fff}
+.faq-btn-primary:hover{background:#D9705A;transform:translateY(-1px);box-shadow:0 4px 12px rgba(232,132,107,.3)}
+.faq-btn-secondary{background:transparent;color:#1B4D4C;border:2px solid #E5E0DB}
+.faq-btn-secondary:hover{background:#1B4D4C;color:#fff;border-color:#1B4D4C}
+
+/* ── Bottom CTA ── */
+.faq-bottom{background:linear-gradient(135deg,#143938 0%,#1B4D4C 100%);padding:60px 0;text-align:center;color:#fff}
+.faq-bottom h2{font-family:'Fraunces',Georgia,serif;font-size:clamp(24px,4vw,36px);font-weight:600;margin-bottom:16px;line-height:1.25}
+.faq-bottom p{font-size:18px;opacity:.9;margin-bottom:32px;max-width:520px;margin-left:auto;margin-right:auto;line-height:1.5}
+.faq-bottom-cta{display:inline-flex;align-items:center;gap:10px;padding:18px 36px;background:#E8846B;color:#fff;font-size:17px;font-weight:600;text-decoration:none;border-radius:12px;transition:.25s cubic-bezier(.4,0,.2,1)}
+.faq-bottom-cta:hover{background:#D9705A;transform:translateY(-2px);box-shadow:0 8px 25px rgba(232,132,107,.4)}
+.faq-bottom-cta svg{width:20px;height:20px}
+.faq-bottom-features{display:flex;flex-wrap:wrap;justify-content:center;gap:20px 32px;margin-top:32px;font-size:14px;opacity:.85}
+.faq-bottom-feature{display:flex;align-items:center;gap:8px}
+.faq-bottom-feature svg{width:18px;height:18px}
+.faq-bottom-contact{margin-top:24px;font-size:14px;opacity:.7}
+.faq-bottom-contact a{color:#fff;text-decoration:underline;text-underline-offset:2px}
+
+/* ── Mobile CTA bar ── */
+.faq-mobile-cta{display:none;position:fixed;bottom:0;left:0;right:0;padding:12px 16px;padding-bottom:calc(12px + env(safe-area-inset-bottom,0));background:#fff;border-top:1px solid #E5E0DB;box-shadow:0 -4px 20px rgba(0,0,0,.1);z-index:999;width:100%}
+.faq-mobile-cta a{display:flex;align-items:center;justify-content:center;gap:8px;width:100%;padding:16px;background:#E8846B;color:#fff;font-size:16px;font-weight:600;text-decoration:none;border-radius:8px;white-space:nowrap}
+
+/* ── Responsive ── */
+@media(max-width:900px){
+.faq-hero{padding:40px 0 35px}
+.faq-main{padding:30px 0 30px}
+.faq-pills{gap:10px;padding:0}
+.faq-pill{flex-shrink:1}
+.faq-mobile-cta{display:block}
+.faq-page{padding-bottom:80px}
+.faq-trust{gap:12px 20px}
+}
+@media(max-width:600px){
+.faq-page .faq-container{padding:0 16px;overflow:hidden}
+.faq-hero{padding:32px 0 28px;overflow:hidden}
+.faq-hero h1{font-size:24px;line-height:1.25;padding:0}
+.faq-hero-sub{font-size:14px;margin-bottom:24px;padding:0}
+.faq-badge{font-size:11px;padding:6px 12px;gap:6px;margin-bottom:16px}
+.faq-badge svg{width:14px;height:14px}
+.faq-pills{gap:8px;margin:0 0 24px 0;padding:0}
+.faq-pill{padding:8px 12px;font-size:13px;gap:6px;flex-shrink:1;flex-grow:0}
+.faq-trust{flex-direction:column;gap:10px;align-items:flex-start;padding:0}
+.faq-trust-item{font-size:13px}
+.faq-banner{padding:16px 0}
+.faq-banner-content{flex-direction:column;gap:10px;align-items:flex-start;text-align:left}
+.faq-banner-item{font-size:13px}
+.faq-section-header{flex-direction:column;align-items:flex-start;gap:12px}
+.faq-section-icon{width:40px;height:40px;font-size:20px}
+.faq-section-text h2{font-size:20px}
+.faq-question{padding:16px;font-size:15px;gap:12px}
+.faq-answer{padding:0 16px 16px;font-size:14px}
+.faq-toggle-icon{width:28px;height:28px;font-size:16px}
+.faq-btn{width:100%;justify-content:center;padding:14px 20px}
+.faq-hero-ctas{flex-direction:column;align-items:center;gap:10px;padding:0 16px}
+.faq-bottom{padding:40px 0}
+.faq-bottom h2{font-size:22px;line-height:1.3;padding:0 8px}
+.faq-bottom p{font-size:15px;padding:0 8px}
+.faq-bottom-cta{width:calc(100% - 32px);justify-content:center;padding:16px 24px;margin:0 16px}
+.faq-bottom-features{flex-direction:column;gap:10px;padding:0 16px}
+.faq-bottom-feature{justify-content:center;font-size:13px}
+.faq-main{padding:24px 0 24px;gap:0}
+.faq-section{margin-bottom:24px}
+}
+@media(max-width:380px){
+.faq-hero{padding:24px 0 20px}
+.faq-hero h1{font-size:21px;padding:0}
+.faq-hero-sub{font-size:13px;padding:0}
+.faq-badge{font-size:10px;padding:5px 10px;gap:5px}
+.faq-badge svg{width:12px;height:12px}
+.faq-pills{gap:6px;margin:0 0 20px 0}
+.faq-pill{padding:6px 10px;font-size:11px;gap:4px}
+.faq-question{padding:14px;font-size:14px}
+.faq-answer{padding:0 14px 14px;font-size:13px}
+.faq-toggle-icon{width:26px;height:26px;font-size:14px}
+.faq-section-icon{width:36px;height:36px;font-size:18px}
+.faq-section-text h2{font-size:18px}
+.faq-bottom h2{font-size:20px}
+.faq-bottom p{font-size:14px}
+.faq-bottom-cta{font-size:15px;padding:14px 20px}
+.faq-bottom-feature{font-size:12px}
+}
+@keyframes faqFadeIn{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}
+.faq-hero{animation:faqFadeIn .6s ease-out}
+.faq-section{animation:faqFadeIn .5s ease-out both}
+.faq-section:nth-child(1){animation-delay:.1s}
+.faq-section:nth-child(2){animation-delay:.15s}
+.faq-section:nth-child(3){animation-delay:.2s}
+.faq-section:nth-child(4){animation-delay:.25s}
+.faq-section:nth-child(5){animation-delay:.3s}
+.faq-section:nth-child(6){animation-delay:.35s}
+@media(prefers-reduced-motion:reduce){.faq-hero,.faq-section{animation:none}}
+`;
+
+/* ─── Section icons (matching What We Treat style) ─── */
+const sectionIcons = {
+  about: (
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" width="24" height="24">
+      <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2" /><circle cx="12" cy="7" r="4" />
+    </svg>
+  ),
+  availability: (
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" width="24" height="24">
+      <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" /><circle cx="12" cy="10" r="3" />
+    </svg>
+  ),
+  conditions: (
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" width="24" height="24">
+      <path d="M22 12h-4l-3 9L9 3l-3 9H2" />
+    </svg>
+  ),
+  pricing: (
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" width="24" height="24">
+      <line x1="12" y1="1" x2="12" y2="23" /><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6" />
+    </svg>
+  ),
+  'visit-experience': (
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" width="24" height="24">
+      <rect x="2" y="3" width="20" height="14" rx="2" ry="2" /><line x1="8" y1="21" x2="16" y2="21" /><line x1="12" y1="17" x2="12" y2="21" />
+    </svg>
+  ),
+  'follow-up': (
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" width="24" height="24">
+      <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" /><polyline points="14 2 14 8 20 8" /><line x1="16" y1="13" x2="8" y2="13" /><line x1="16" y1="17" x2="8" y2="17" /><polyline points="10 9 9 9 8 9" />
+    </svg>
+  ),
+};
+
+/* ─── Section subtitles ─── */
+const sectionSubtitles = {
+  about: 'Learn about our physician-led telehealth model',
+  availability: 'States we serve and travel coverage',
+  conditions: 'What we treat, prescriptions, and clinical scope',
+  pricing: 'Insurance, self-pay pricing, and payment options',
+  'visit-experience': 'Booking, technology, and privacy',
+  'follow-up': 'Work notes, records, and contacting us',
+};
+
+/* ─── FAQ Data grouped by section ─── */
 const sections = [
   {
     id: 'about',
@@ -438,78 +640,184 @@ const sections = [
   },
 ];
 
+/* ─── Pill icons for topic navigation ─── */
+const pillIcons = {
+  about: (
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" width="18" height="18"><circle cx="12" cy="12" r="10" /><path d="M12 16v-4M12 8h.01" /></svg>
+  ),
+  availability: (
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" width="18" height="18"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" /><circle cx="12" cy="10" r="3" /></svg>
+  ),
+  conditions: (
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" width="18" height="18"><path d="M22 12h-4l-3 9L9 3l-3 9H2" /></svg>
+  ),
+  pricing: (
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" width="18" height="18"><line x1="12" y1="1" x2="12" y2="23" /><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6" /></svg>
+  ),
+  'visit-experience': (
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" width="18" height="18"><rect x="2" y="3" width="20" height="14" rx="2" ry="2" /><line x1="8" y1="21" x2="16" y2="21" /><line x1="12" y1="17" x2="12" y2="21" /></svg>
+  ),
+  'follow-up': (
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" width="18" height="18"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" /><polyline points="14 2 14 8 20 8" /></svg>
+  ),
+};
+
 export default function FAQClient() {
   return (
-    <div className="tdmd-container">
-      {/* Hero / Intro */}
-      <div className="tdmd-hero" style={{ margin: '0 -1.5rem', padding: '3rem 1.5rem 2.5rem' }}>
-        <div className="tdmd-hero-copy">
-          <h1>Frequently Asked Questions</h1>
-          <p className="tdmd-hero-sub">
-            Everything you need to know about TeleDirectMD — from insurance and pricing to
-            prescriptions and visit experience.
+    <div className="faq-page">
+      <style dangerouslySetInnerHTML={{ __html: faqCSS }} />
+
+      {/* ── Hero Section ── */}
+      <div className="faq-hero">
+        <div className="faq-container">
+          <div className="faq-badge">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+              <circle cx="12" cy="12" r="10" />
+              <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3" />
+              <line x1="12" y1="17" x2="12.01" y2="17" />
+            </svg>
+            Frequently Asked Questions
+          </div>
+
+          <h1>Everything You Need to Know</h1>
+          <p className="faq-hero-sub">
+            Get answers about TeleDirectMD&apos;s physician-led telehealth services — from insurance
+            and pricing to prescriptions, appointments, and virtual urgent care across 40+ states.
           </p>
-          <div className="tdmd-hero-ctas">
-            <Link href="/book-online" className="tdmd-btn tdmd-btn-primary">
-              Book a Visit
+
+          <div className="faq-hero-ctas">
+            <Link href="/book-online" className="faq-btn faq-btn-primary">
+              Book a Visit — $49
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" width="18" height="18"><line x1="5" y1="12" x2="19" y2="12" /><polyline points="12 5 19 12 12 19" /></svg>
             </Link>
-            <Link href="/insurance" className="tdmd-btn tdmd-btn-outline">
+            <Link href="/insurance" className="faq-btn faq-btn-secondary">
               Check Insurance Coverage
             </Link>
+          </div>
+
+          <div className="faq-trust">
+            <span className="faq-trust-item">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M12 2L3 7v5c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V7l-9-5z" /></svg>
+              HIPAA-Compliant
+            </span>
+            <span className="faq-trust-item">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" /></svg>
+              Board-Certified MD
+            </span>
+            <span className="faq-trust-item">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" /></svg>
+              42 States + D.C.
+            </span>
+            <span className="faq-trust-item">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" /></svg>
+              Insurance Accepted
+            </span>
           </div>
         </div>
       </div>
 
-      {/* Jump links */}
-      <nav className="tdmd-section" style={{ paddingBottom: 0 }}>
-        <p style={{ fontWeight: 700, marginBottom: '0.5rem' }}>Jump to a topic:</p>
-        <ul className="tdmd-toc">
-          {sections.map((s) => (
-            <li key={s.id}>
-              <a href={`#${s.id}`}>{s.title}</a>
-            </li>
-          ))}
-        </ul>
-      </nav>
+      {/* ── Trust Banner ── */}
+      <div className="faq-banner">
+        <div className="faq-container">
+          <div className="faq-banner-content">
+            <span className="faq-banner-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" width="18" height="18"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" /><polyline points="22 4 12 14.01 9 11.01" /></svg>
+              Same doctor every visit
+            </span>
+            <span className="faq-banner-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" width="18" height="18"><circle cx="12" cy="12" r="10" /><polyline points="12 6 12 12 16 14" /></svg>
+              Same-day appointments available
+            </span>
+            <span className="faq-banner-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" width="18" height="18"><rect x="1" y="4" width="22" height="16" rx="2" ry="2" /><line x1="1" y1="10" x2="23" y2="10" /></svg>
+              HSA / FSA accepted
+            </span>
+            <span className="faq-banner-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" width="18" height="18"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z" /></svg>
+              No subscription or membership fees
+            </span>
+          </div>
+        </div>
+      </div>
 
-      {/* FAQ Sections */}
-      {sections.map((section, i) => (
-        <section
-          key={section.id}
-          id={section.id}
-          className={i % 2 === 1 ? 'tdmd-section tdmd-section-highlight' : 'tdmd-section'}
-          style={i % 2 === 1 ? { margin: '0 -1.5rem', padding: '2.5rem 1.5rem' } : undefined}
-        >
-          <h2>{section.title}</h2>
-          <div className="tdmd-faq-list">
-            {section.faqs.map((faq, j) => (
-              <details key={j} className="tdmd-faq-item">
-                <summary className="tdmd-faq-question">{faq.q}</summary>
-                <div className="tdmd-faq-answer">{faq.a}</div>
-              </details>
+      {/* ── Topic Navigation Pills ── */}
+      <div className="faq-main">
+        <div className="faq-container">
+          <div className="faq-pills">
+            {sections.map((s) => (
+              <a key={s.id} href={`#${s.id}`} className="faq-pill">
+                {pillIcons[s.id]}
+                {s.title}
+              </a>
             ))}
           </div>
-        </section>
-      ))}
 
-      {/* Bottom CTA */}
-      <div className="tdmd-bottom-cta">
-        <div className="tdmd-bottom-cta-copy">
-          <h3>Still have questions? We&apos;re here to help.</h3>
+          {/* ── FAQ Sections ── */}
+          {sections.map((section) => (
+            <div key={section.id} id={section.id} className="faq-section">
+              <div className="faq-section-header">
+                <div className="faq-section-icon">
+                  {sectionIcons[section.id]}
+                </div>
+                <div className="faq-section-text">
+                  <h2>{section.title}</h2>
+                  <p>{sectionSubtitles[section.id]}</p>
+                </div>
+              </div>
+
+              <div className="faq-list">
+                {section.faqs.map((faq, j) => (
+                  <details key={j} className="faq-item">
+                    <summary className="faq-question">
+                      <span>{faq.q}</span>
+                      <span className="faq-toggle-icon"><span className="faq-icon-plus">+</span><span className="faq-icon-minus">&ndash;</span></span>
+                    </summary>
+                    <div className="faq-answer">{faq.a}</div>
+                  </details>
+                ))}
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      {/* ── Bottom CTA ── */}
+      <div className="faq-bottom">
+        <div className="faq-container">
+          <h2>Still Have Questions?</h2>
           <p>
-            Book a visit with a licensed physician today, or contact us at{' '}
-            <a href="tel:6789561855">678-956-1855</a> /{' '}
-            <a href="mailto:contact@teledirectmd.com">contact@teledirectmd.com</a>.
+            Book a visit with a licensed physician today, or reach out — we&apos;re happy to help.
           </p>
-        </div>
-        <div className="tdmd-bottom-cta-actions">
-          <Link href="/book-online" className="tdmd-btn tdmd-btn-primary">
+          <Link href="/book-online" className="faq-bottom-cta">
             Book a Visit — $49
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" width="20" height="20"><line x1="5" y1="12" x2="19" y2="12" /><polyline points="12 5 19 12 12 19" /></svg>
           </Link>
-          <Link href="/insurance" className="tdmd-btn tdmd-btn-outline">
-            Check Insurance
-          </Link>
+          <div className="faq-bottom-features">
+            <span className="faq-bottom-feature">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" width="18" height="18"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" /><polyline points="22 4 12 14.01 9 11.01" /></svg>
+              No hidden fees
+            </span>
+            <span className="faq-bottom-feature">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" width="18" height="18"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" /><polyline points="22 4 12 14.01 9 11.01" /></svg>
+              Prescriptions included
+            </span>
+            <span className="faq-bottom-feature">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" width="18" height="18"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" /><polyline points="22 4 12 14.01 9 11.01" /></svg>
+              Insurance accepted
+            </span>
+          </div>
+          <div className="faq-bottom-contact">
+            <a href="tel:6789561855">678-956-1855</a> &middot;{' '}
+            <a href="mailto:contact@teledirectmd.com">contact@teledirectmd.com</a>
+          </div>
         </div>
+      </div>
+
+      {/* ── Mobile fixed CTA ── */}
+      <div className="faq-mobile-cta">
+        <Link href="/book-online">
+          Book a Visit — $49
+        </Link>
       </div>
     </div>
   );
