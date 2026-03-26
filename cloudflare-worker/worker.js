@@ -9,9 +9,9 @@
  *   SQUARESPACE_ORIGIN – e.g. "https://teledirectmd.squarespace.com"
  */
 
-// All state slugs served by the Next.js static site (41 states)
+// All state slugs served by the Next.js static site (42 states + D.C.)
 const STATE_SLUGS = new Set([
-  'al','az','ca','co','ct','de','fl','ga','hi','ia','id','il','in','ks','ky',
+  'al','az','ca','co','ct','dc','de','fl','ga','hi','ia','id','il','in','ks','ky',
   'la','md','me','mi','mn','mo','ms','mt','nc','nd','ne','nh','nj','nv','oh',
   'ok','pa','sc','sd','tn','tx','ut','wa','wi','wv','wy'
 ]);
