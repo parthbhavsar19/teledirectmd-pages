@@ -1,0 +1,1598 @@
+[
+  {
+    "name": "Alabama",
+    "abbr": "AL",
+    "slug": "al",
+    "classification": "clear",
+    "workforce": "2,381,356",
+    "priorityTier": 2,
+    "sickLeave": {
+      "hasMandatoryLaw": false,
+      "lawName": null,
+      "statute": null,
+      "accrualRate": null,
+      "annualCap": null,
+      "noteRestriction": "No state restriction — employer has full discretion to require a doctor's note for any absence, any duration",
+      "noteThreshold": "No threshold — employer may require documentation at any time under own policy",
+      "recentChanges": "Ala. Code § 11-80-16 (2014) preempts local governments from enacting paid leave ordinances"
+    },
+    "employerNotes": {
+      "canRequire": "Full Discretion",
+      "details": "No state statute governs doctor's note requirements for private-sector employees. Employer may require a doctor's note for any absence, any duration, under any policy. Common industry practice is to require documentation after 3 consecutive days.",
+      "atWill": true,
+      "atWillExceptions": "no public policy, limited good faith, limited implied contract — one of the most employer-friendly jurisdictions",
+      "antiRetaliation": "Federal FMLA and ADA anti-retaliation protections apply; no state-specific health privacy statute limits note content"
+    },
+    "telehealth": {
+      "primaryStatute": "Ala. Code § 34-24-702",
+      "asyncPermitted": true,
+      "newPatientViaAsync": true,
+      "consentRequirement": "Written consent required for Medicaid patients; no specific requirement for private pay",
+      "parityLaw": false
+    },
+    "forgery": {
+      "primaryStatute": "Ala. Code § 13A-9-4 (Forgery 2nd Degree)",
+      "classification": "Class C felony",
+      "penalties": "1–10 years imprisonment",
+      "medicalSpecific": "§ 13A-9-21 covers false applications for medical licenses/benefits (Class C felony)",
+      "likelyCharge": "Class C felony under § 13A-9-4"
+    },
+    "cities": ["Huntsville", "Mobile", "Birmingham", "Montgomery", "Tuscaloosa", "Hoover", "Auburn", "Dothan", "Madison", "Decatur", "Florence", "Prattville"],
+    "industries": ["Aerospace & Defense", "Manufacturing (Automotive)", "Healthcare", "Government", "Agriculture & Forestry"],
+    "contentAngle": "Alabama has no mandatory paid sick leave and employers have full discretion — but your employer cannot fire you for using FMLA rights, and a doctor's note from TeleDirectMD satisfies nearly every employer's 3-day documentation threshold."
+  },
+  {
+    "name": "Arizona",
+    "abbr": "AZ",
+    "slug": "az",
+    "classification": "clear",
+    "workforce": "3,853,102",
+    "priorityTier": 2,
+    "sickLeave": {
+      "hasMandatoryLaw": true,
+      "lawName": "Fair Wages and Healthy Families Act",
+      "statute": "A.R.S. § 23-371 et seq.",
+      "accrualRate": "1 hour per 30 hours worked",
+      "annualCap": "40 hours (15+ employees); 24 hours (<15 employees)",
+      "noteRestriction": "Employer CANNOT require documentation for fewer than 3 consecutive workdays. Documentation may NOT require disclosure of specific medical condition.",
+      "noteThreshold": "3 consecutive workdays — no note allowed for 1 or 2 days",
+      "recentChanges": "Effective July 1, 2017; no major recent changes"
+    },
+    "employerNotes": {
+      "canRequire": "Restricted",
+      "details": "Under A.R.S. § 23-373, employers may NOT require documentation for absences fewer than 3 consecutive days. For 3+ days, 'reasonable documentation' is allowed but may not describe the nature of the health condition.",
+      "atWill": true,
+      "atWillExceptions": "public policy, good faith, implied contract",
+      "antiRetaliation": "Employers may not retaliate for using earned paid sick time; employees need not comply with documentation requests for <3 days"
+    },
+    "telehealth": {
+      "primaryStatute": "A.R.S. § 36-3602",
+      "asyncPermitted": true,
+      "newPatientViaAsync": true,
+      "consentRequirement": "Verbal or written; if verbal, must be documented",
+      "parityLaw": true
+    },
+    "forgery": {
+      "primaryStatute": "ARS § 13-2002 (Forgery)",
+      "classification": "Class 4 felony",
+      "penalties": "Presumptive 2.5 years; range 1–3.75 years; fines up to $150,000",
+      "medicalSpecific": "No medical-specific statute; § 13-2002 covers all written instruments",
+      "likelyCharge": "Class 4 felony"
+    },
+    "cities": ["Phoenix", "Tucson", "Mesa", "Gilbert", "Chandler", "Glendale", "Scottsdale", "Peoria", "Tempe", "Surprise", "Goodyear", "Yuma"],
+    "industries": ["Semiconductors & Technology", "Healthcare", "Professional & Business Services", "Trade, Transportation & Utilities", "Tourism & Hospitality"],
+    "contentAngle": "Arizona law says your employer CANNOT ask for a doctor's note for 1 or 2 sick days — and even when documentation is required, they cannot demand to know your diagnosis."
+  },
+  {
+    "name": "California",
+    "abbr": "CA",
+    "slug": "ca",
+    "classification": "clear",
+    "workforce": "19,935,157",
+    "priorityTier": 1,
+    "sickLeave": {
+      "hasMandatoryLaw": true,
+      "lawName": "Healthy Workplaces Healthy Families Act",
+      "statute": "Cal. Lab. Code § 245 et seq.",
+      "accrualRate": "1 hour per 30 hours worked",
+      "annualCap": "40 hours (use cap); 80 hours (accrual cap)",
+      "noteRestriction": "Employer CANNOT require a doctor's note when employee uses paid sick leave — regardless of absence length. Zero documentation provision in the law.",
+      "noteThreshold": "No threshold — notes can never be required for PSL absences",
+      "recentChanges": "SB 616 expanded minimum from 24 to 40 hours effective January 1, 2024. Accrual cap increased to 80 hours."
+    },
+    "employerNotes": {
+      "canRequire": "Restricted (strongest in nation)",
+      "details": "Under Cal. Lab. Code § 246, employers may NOT require a doctor's note when an employee uses paid sick leave — regardless of length. California Confidentiality of Medical Information Act (CMIA) further limits employer use of medical information.",
+      "atWill": true,
+      "atWillExceptions": "public policy, implied contract, good faith",
+      "antiRetaliation": "Cal. Lab. Code § 246.5(c) prohibits discharge, threat, demotion, or suspension for using accrued sick days"
+    },
+    "telehealth": {
+      "primaryStatute": "Bus. & Prof. Code § 2290.5",
+      "asyncPermitted": true,
+      "newPatientViaAsync": true,
+      "consentRequirement": "Written or verbal; documented in medical record",
+      "parityLaw": true
+    },
+    "forgery": {
+      "primaryStatute": "Penal Code § 470",
+      "classification": "Wobbler — misdemeanor or felony",
+      "penalties": "Misdemeanor: up to 1 year/$1,000. Felony: up to 3 years/$10,000",
+      "medicalSpecific": "PC § 470(d) covers medical documents",
+      "likelyCharge": "Misdemeanor for employer note; felony if used for financial fraud"
+    },
+    "cities": ["Los Angeles", "San Diego", "San Jose", "San Francisco", "Fresno", "Sacramento", "Long Beach", "Oakland", "Bakersfield", "Anaheim", "Stockton", "Riverside"],
+    "industries": ["Technology & Information", "Healthcare", "Trade, Transportation & Logistics", "Agriculture", "Entertainment & Media"],
+    "contentAngle": "California law says your employer CANNOT require a doctor's note when you use your paid sick leave — period. No exceptions, no minimum days."
+  },
+  {
+    "name": "Colorado",
+    "abbr": "CO",
+    "slug": "co",
+    "classification": "clear",
+    "workforce": "3,259,440",
+    "priorityTier": 2,
+    "sickLeave": {
+      "hasMandatoryLaw": true,
+      "lawName": "Healthy Families and Workplaces Act (HFWA)",
+      "statute": "C.R.S. § 8-13.3-401 et seq.",
+      "accrualRate": "1 hour per 30 hours worked; begins day 1",
+      "annualCap": "48 hours; up to 48 hours carries over",
+      "noteRestriction": "Employer CANNOT require documentation for 4 or fewer consecutive workdays — most protective threshold in the nation. Documentation may not require disclosure of specific health/safety details.",
+      "noteThreshold": "4 consecutive workdays — no note allowed for absences of 4 days or fewer",
+      "recentChanges": "Effective January 1, 2022 for all employers. Additional 80 hours PHE leave during declared emergencies."
+    },
+    "employerNotes": {
+      "canRequire": "Restricted",
+      "details": "Under HFWA (C.R.S. § 8-13.3-401 et seq.), documentation only permitted for 4+ consecutive days absence. Documentation cannot require disclosure of diagnosis or specific medical detail.",
+      "atWill": true,
+      "atWillExceptions": "public policy, good faith, implied contract",
+      "antiRetaliation": "HFWA includes anti-retaliation provisions"
+    },
+    "telehealth": {
+      "primaryStatute": "C.R.S. § 10-16-123",
+      "asyncPermitted": true,
+      "newPatientViaAsync": true,
+      "consentRequirement": "Written consent required before first telehealth visit",
+      "parityLaw": true
+    },
+    "forgery": {
+      "primaryStatute": "C.R.S. § 18-5-102 (Forgery)",
+      "classification": "Class 2 misdemeanor (for doctor's note); Class 5 felony for government/financial documents",
+      "penalties": "Class 2 misdemeanor: up to 120 days jail/$750 fine. Class 5 felony: 1–3 years/$1K–$100K",
+      "medicalSpecific": "No medical-specific statute",
+      "likelyCharge": "Class 2 misdemeanor for employer note; Class 5 felony if used to obtain insurance or government benefits"
+    },
+    "cities": ["Denver", "Colorado Springs", "Aurora", "Fort Collins", "Lakewood", "Thornton", "Arvada", "Westminster", "Pueblo", "Greeley", "Centennial", "Boulder"],
+    "industries": ["Technology & Information", "Energy (Oil & Gas)", "Professional & Business Services", "Healthcare", "Tourism & Outdoor Recreation"],
+    "contentAngle": "Colorado has the most protective sick leave documentation law in the US — your employer cannot ask for a doctor's note unless you've been out 4 or more consecutive days."
+  },
+  {
+    "name": "Connecticut",
+    "abbr": "CT",
+    "slug": "ct",
+    "classification": "clear",
+    "workforce": "1,935,670",
+    "priorityTier": 3,
+    "sickLeave": {
+      "hasMandatoryLaw": true,
+      "lawName": "Paid Sick Leave Act (as amended by PA 24-8)",
+      "statute": "CGS § 31-57r et seq.",
+      "accrualRate": "1 hour per 30 hours worked (improved from 1/40)",
+      "annualCap": "40 hours; carryover up to 40 hours",
+      "noteRestriction": "Employers are COMPLETELY PROHIBITED from requiring any documentation for paid sick leave absences. No note can be required for any duration.",
+      "noteThreshold": "No threshold — documentation is categorically prohibited for PSL absences",
+      "recentChanges": "PA 24-8 (effective Jan 1, 2025) eliminated all documentation requirements; employer threshold dropping from 25 to 11 (2026) to 1 (2027)."
+    },
+    "employerNotes": {
+      "canRequire": "Restricted (maximum protection)",
+      "details": "CGS § 31-57r et seq. (as amended by PA 24-8, eff. Jan. 1, 2025) prohibits requiring any documentation for PSL absences — categorical prohibition, no duration minimum.",
+      "atWill": true,
+      "atWillExceptions": "public policy, good faith, implied contract",
+      "antiRetaliation": "Employees may not be discharged, penalized, or threatened for exercising PSL rights"
+    },
+    "telehealth": {
+      "primaryStatute": "CGS §§ 19a-906, 38a-499a, 38a-526a",
+      "asyncPermitted": true,
+      "newPatientViaAsync": true,
+      "consentRequirement": "Verbal disclosure and verbal consent at first interaction",
+      "parityLaw": true
+    },
+    "forgery": {
+      "primaryStatute": "CGS § 53a-140 (Forgery 3rd Degree)",
+      "classification": "Class B misdemeanor",
+      "penalties": "Up to 6 months jail/$1,000 fine",
+      "medicalSpecific": "No medical-specific statute",
+      "likelyCharge": "3rd degree forgery — Class B misdemeanor; 2nd degree if used for prescription fraud or benefits"
+    },
+    "cities": ["Bridgeport", "Stamford", "New Haven", "Hartford", "Waterbury", "Norwalk", "Danbury", "New Britain", "Greenwich", "Bristol", "Meriden", "West Haven"],
+    "industries": ["Finance & Insurance", "Aerospace & Defense Manufacturing", "Healthcare & Education", "Professional & Business Services", "Defense Technology"],
+    "contentAngle": "Connecticut employers are now legally prohibited from asking for any doctor's note when you use your paid sick leave — the law changed in January 2025."
+  },
+  {
+    "name": "Delaware",
+    "abbr": "DE",
+    "slug": "de",
+    "classification": "elevated",
+    "workforce": "516,226",
+    "priorityTier": 3,
+    "sickLeave": {
+      "hasMandatoryLaw": false,
+      "lawName": null,
+      "statute": null,
+      "accrualRate": null,
+      "annualCap": null,
+      "noteRestriction": "No state restriction — employer has full discretion",
+      "noteThreshold": "No threshold — employer may require documentation at any time",
+      "recentChanges": "Delaware Healthy Delaware Families Act (PFML) began Jan 1, 2026 — this is Paid Family and Medical Leave, NOT paid sick leave"
+    },
+    "employerNotes": {
+      "canRequire": "Full Discretion",
+      "details": "No statewide mandatory sick leave statute. Employer policies govern; common practice is to require documentation after 3 consecutive days.",
+      "atWill": true,
+      "atWillExceptions": "public policy, implied contract (no covenant of good faith)",
+      "antiRetaliation": "FMLA/ADA retaliation protections apply; Delaware PFML covers family/medical leave with medical certification requirements"
+    },
+    "telehealth": {
+      "primaryStatute": "24 Del. C. § 1769D",
+      "asyncPermitted": false,
+      "newPatientViaAsync": false,
+      "consentRequirement": "Per statute requirements for telemedicine",
+      "parityLaw": false
+    },
+    "forgery": {
+      "primaryStatute": "11 Del. Code § 861 (Forgery)",
+      "classification": "Class E felony",
+      "penalties": "Up to 5 years — uniform approach regardless of instrument type",
+      "medicalSpecific": "No medical-specific statute",
+      "likelyCharge": "Class E felony"
+    },
+    "cities": ["Wilmington", "Dover", "Newark", "Middletown", "Bear", "Glasgow", "Brookside", "Hockessin", "Smyrna", "Milford", "Seaford", "Georgetown"],
+    "industries": ["Finance & Corporate Services", "Pharmaceuticals & Biotech", "Government", "Healthcare", "Agriculture (Poultry)"],
+    "contentAngle": "Delaware's corporate workforce is sophisticated but protected only by federal FMLA/ADA — no state paid sick leave shield. A TeleDirectMD note provides fast documentation."
+  },
+  {
+    "name": "Florida",
+    "abbr": "FL",
+    "slug": "fl",
+    "classification": "clear",
+    "workforce": "11,224,836",
+    "priorityTier": 1,
+    "sickLeave": {
+      "hasMandatoryLaw": false,
+      "lawName": null,
+      "statute": null,
+      "accrualRate": null,
+      "annualCap": null,
+      "noteRestriction": "No state restriction — employer has complete discretion. Fla. Stat. § 448.077 (2013) preempts all local paid leave ordinances.",
+      "noteThreshold": "No threshold — employer may require documentation for any absence",
+      "recentChanges": "Preemption of local ordinances strengthened in 2024"
+    },
+    "employerNotes": {
+      "canRequire": "Full Discretion",
+      "details": "No state paid sick leave law. No public policy exception, no covenant of good faith, no implied contract exception to at-will doctrine. Florida is arguably the most employer-friendly at-will state.",
+      "atWill": true,
+      "atWillExceptions": "none — strongest at-will state",
+      "antiRetaliation": "Only federal FMLA/ADA protections apply"
+    },
+    "telehealth": {
+      "primaryStatute": "F.S. § 456.47",
+      "asyncPermitted": true,
+      "newPatientViaAsync": true,
+      "consentRequirement": "No specific consent requirement in statute; standard informed consent applies",
+      "parityLaw": false
+    },
+    "forgery": {
+      "primaryStatute": "F.S. § 831.07 (Forging Doctor's Notes — SPECIFIC STATUTE)",
+      "classification": "3rd degree felony",
+      "penalties": "Up to 5 years prison, 5 years probation, $5,000 fine",
+      "medicalSpecific": "F.S. § 831.07 specifically targets forging a physician's, dentist's, or licensed practitioner's name or signature — one of only two states with a standalone statute for doctor's note forgery",
+      "likelyCharge": "3rd degree felony under § 831.07 — up to 5 years"
+    },
+    "cities": ["Jacksonville", "Miami", "Tampa", "Orlando", "Cape Coral", "St. Petersburg", "Hialeah", "Port St. Lucie", "Tallahassee", "Fort Lauderdale", "Pembroke Pines", "Hollywood"],
+    "industries": ["Tourism & Hospitality", "Healthcare", "Trade, Transportation & Utilities", "Finance & Insurance", "Real Estate & Construction"],
+    "contentAngle": "Florida has no mandatory sick leave law, and employers can demand a doctor's note for even a single day — get yours fast from TeleDirectMD."
+  },
+  {
+    "name": "Hawaii",
+    "abbr": "HI",
+    "slug": "hi",
+    "classification": "clear",
+    "workforce": "689,243",
+    "priorityTier": 3,
+    "sickLeave": {
+      "hasMandatoryLaw": false,
+      "lawName": null,
+      "statute": null,
+      "accrualRate": null,
+      "annualCap": null,
+      "noteRestriction": "No state PSL restriction. Hawaii has TDI (Temporary Disability Insurance) for 8+ day illnesses. For general sick leave, employer policy governs.",
+      "noteThreshold": "No PSL threshold — common standard is documentation after 3+ consecutive days (policy-based)",
+      "recentChanges": "Hawaii TDI has been in place since 1969; no recent PSL law changes"
+    },
+    "employerNotes": {
+      "canRequire": "Restricted (for HFLL leave); Discretion (general sick leave)",
+      "details": "For Hawaii Family Leave Law (HFLL) leave, employers may require medical certification. For general sick leave under company policy, the common standard is documentation after 3+ consecutive days — policy-based, not statutory.",
+      "atWill": true,
+      "atWillExceptions": "public policy, good faith, implied contract",
+      "antiRetaliation": "HRS § 398 prohibits retaliation for taking family leave"
+    },
+    "telehealth": {
+      "primaryStatute": "HRS § 453-1.3",
+      "asyncPermitted": true,
+      "newPatientViaAsync": true,
+      "consentRequirement": "Not specifically required by state law; professional standards apply",
+      "parityLaw": true
+    },
+    "forgery": {
+      "primaryStatute": "HRS § 708-852 (Forgery 2nd Degree)",
+      "classification": "Class C felony",
+      "penalties": "Up to 5 years imprisonment",
+      "medicalSpecific": "No medical-specific statute",
+      "likelyCharge": "Class C felony under § 708-852"
+    },
+    "cities": ["Honolulu", "East Honolulu", "Pearl City", "Hilo", "Kailua", "Waipahu", "Kaneohe", "Mililani Town", "Kahului", "Ewa Gentry", "Kihei", "Kailua-Kona"],
+    "industries": ["Tourism & Hospitality", "Federal Government & Military", "Healthcare", "Agriculture", "Construction & Real Estate"],
+    "contentAngle": "Hawaii's TDI program helps if you're out for over a week — but for shorter absences, your employer still needs a doctor's note, and TeleDirectMD makes it fast."
+  },
+  {
+    "name": "Idaho",
+    "abbr": "ID",
+    "slug": "id",
+    "classification": "clear",
+    "workforce": "1,013,141",
+    "priorityTier": 3,
+    "sickLeave": {
+      "hasMandatoryLaw": false,
+      "lawName": null,
+      "statute": null,
+      "accrualRate": null,
+      "annualCap": null,
+      "noteRestriction": "No state restriction — employer has full discretion",
+      "noteThreshold": "No threshold — employer may require documentation at any time",
+      "recentChanges": "Idaho Code § 54-5703 (Virtual Care Access Act) effective July 1, 2023 modernized telehealth"
+    },
+    "employerNotes": {
+      "canRequire": "Full Discretion",
+      "details": "No mandatory sick leave statute for private employees. Employer may set any documentation policy. Idaho Code § 67-5333 covers public employees (doctor's note for 5+ day absences).",
+      "atWill": true,
+      "atWillExceptions": "public policy, good faith, implied contract",
+      "antiRetaliation": "FMLA/ADA protections apply"
+    },
+    "telehealth": {
+      "primaryStatute": "Idaho Code § 54-5703 et seq. (Virtual Care Access Act)",
+      "asyncPermitted": true,
+      "newPatientViaAsync": true,
+      "consentRequirement": "Informed consent required per § 54-5708",
+      "parityLaw": false
+    },
+    "forgery": {
+      "primaryStatute": "Idaho Code §§ 18-3601, 18-3604",
+      "classification": "Felony — no grading by document type",
+      "penalties": "Up to 14 years in state prison — tied with Michigan for highest statutory maximum in the nation",
+      "medicalSpecific": "No medical-specific statute",
+      "likelyCharge": "Felony; in practice prosecutorial discretion and plea agreements result in lesser sentences"
+    },
+    "cities": ["Boise", "Meridian", "Nampa", "Idaho Falls", "Caldwell", "Twin Falls", "Pocatello", "Coeur d'Alene", "Post Falls", "Rexburg", "Lewiston", "Moscow"],
+    "industries": ["Agriculture & Food Processing", "Technology & Semiconductor", "Manufacturing", "Healthcare", "Construction"],
+    "contentAngle": "Idaho has no sick leave law, and employers can require a doctor's note for any absence — TeleDirectMD gets you documented fast."
+  },
+  {
+    "name": "Illinois",
+    "abbr": "IL",
+    "slug": "il",
+    "classification": "elevated",
+    "workforce": "6,545,379",
+    "priorityTier": 1,
+    "sickLeave": {
+      "hasMandatoryLaw": true,
+      "lawName": "Paid Leave for All Workers Act (PLAWA)",
+      "statute": "820 ILCS 192",
+      "accrualRate": "1 hour per 40 hours worked; begins day 1",
+      "annualCap": "40 hours",
+      "noteRestriction": "Not applicable — leave may be used for any reason whatsoever; employers may NOT require a reason or documentation",
+      "noteThreshold": "No threshold — no documentation or reason required for up to 40 hours/year",
+      "recentChanges": "PLAWA effective January 1, 2024. Chicago Paid Leave ordinance effective July 1, 2024 provides up to 80 hours total."
+    },
+    "employerNotes": {
+      "canRequire": "Restricted",
+      "details": "PLAWA (820 ILCS 192): employers may NOT request reason for paid leave or require any documentation for up to 40 hrs/year. Chicago/Cook County ordinances follow standard 'no note for <3 days' rule for sick-specific leave.",
+      "atWill": true,
+      "atWillExceptions": "public policy, good faith, implied contract",
+      "antiRetaliation": "PLAWA § 30 expressly prohibits retaliation for requesting or using paid leave"
+    },
+    "telehealth": {
+      "primaryStatute": "225 ILCS 150/ (Telehealth Act)",
+      "asyncPermitted": false,
+      "newPatientViaAsync": false,
+      "consentRequirement": "Per Telehealth Act requirements",
+      "parityLaw": false
+    },
+    "forgery": {
+      "primaryStatute": "720 ILCS 5/17-3 (Forgery)",
+      "classification": "Class 3 felony",
+      "penalties": "2–5 years/$25,000",
+      "medicalSpecific": "720 ILCS 5/17-8 (Health Care Benefits Fraud): Class A misdemeanor first offense; Class 4 felony subsequent",
+      "likelyCharge": "Class 3 felony under § 17-3"
+    },
+    "cities": ["Chicago", "Aurora", "Joliet", "Naperville", "Rockford", "Springfield", "Elgin", "Peoria", "Champaign", "Waukegan", "Cicero", "Bloomington"],
+    "industries": ["Manufacturing", "Finance & Insurance", "Healthcare & Education", "Professional & Business Services", "Trade, Transportation & Logistics"],
+    "contentAngle": "Illinois PLAWA means your employer cannot demand any documentation for up to 40 hours of paid leave per year — the law changed in January 2024."
+  },
+  {
+    "name": "Indiana",
+    "abbr": "IN",
+    "slug": "in",
+    "classification": "clear",
+    "workforce": "3,495,276",
+    "priorityTier": 2,
+    "sickLeave": {
+      "hasMandatoryLaw": false,
+      "lawName": null,
+      "statute": null,
+      "accrualRate": null,
+      "annualCap": null,
+      "noteRestriction": "No state restriction — employer has full discretion",
+      "noteThreshold": "No threshold — employer may require documentation at any time under own policy",
+      "recentChanges": "State preempts local employment benefit mandates"
+    },
+    "employerNotes": {
+      "canRequire": "Full Discretion",
+      "details": "No statewide mandatory sick leave for private-sector. Employers may require documentation for any absence under their own policy. Indiana law enforcement has arrested individuals specifically for fake doctor's notes submitted to employers.",
+      "atWill": true,
+      "atWillExceptions": "public policy (limited), no good faith, no implied contract",
+      "antiRetaliation": "FMLA/ADA apply; no state-specific restriction on note content"
+    },
+    "telehealth": {
+      "primaryStatute": "IC § 25-1-9.5",
+      "asyncPermitted": true,
+      "newPatientViaAsync": true,
+      "consentRequirement": "Verbal or electronic signature consent required; documented",
+      "parityLaw": false
+    },
+    "forgery": {
+      "primaryStatute": "IC § 35-43-5-2 (Forgery)",
+      "classification": "Level 6 felony",
+      "penalties": "6 months–2.5 years/$10,000. Level 5 felony with prior conviction: 1–6 years",
+      "medicalSpecific": "Indiana police have specifically arrested people for submitting fake doctor's notes to employers",
+      "likelyCharge": "Level 6 felony"
+    },
+    "cities": ["Indianapolis", "Fort Wayne", "Evansville", "Carmel", "South Bend", "Fishers", "Bloomington", "Hammond", "Gary", "Lafayette", "Muncie", "Terre Haute"],
+    "industries": ["Manufacturing (Automotive)", "Healthcare", "Agriculture", "Logistics & Distribution", "Financial Services"],
+    "contentAngle": "Indiana has no paid sick leave law — your employer can require a doctor's note for any absence. Get documented quickly and keep your job."
+  },
+  {
+    "name": "Iowa",
+    "abbr": "IA",
+    "slug": "ia",
+    "classification": "clear",
+    "workforce": "1,750,096",
+    "priorityTier": 3,
+    "sickLeave": {
+      "hasMandatoryLaw": false,
+      "lawName": null,
+      "statute": null,
+      "accrualRate": null,
+      "annualCap": null,
+      "noteRestriction": "No state restriction — employer has full discretion",
+      "noteThreshold": "No threshold — employer may require documentation at any time",
+      "recentChanges": "Iowa preempts local employment benefit mandates"
+    },
+    "employerNotes": {
+      "canRequire": "Full Discretion",
+      "details": "No state statute governing doctor's note requirements. Employer discretion governs. Common practice: documentation after 3 consecutive days.",
+      "atWill": true,
+      "atWillExceptions": "public policy, good faith, implied contract",
+      "antiRetaliation": "FMLA/ADA apply"
+    },
+    "telehealth": {
+      "primaryStatute": "Iowa Code § 514C.34",
+      "asyncPermitted": true,
+      "newPatientViaAsync": true,
+      "consentRequirement": "Informed consent required; documented",
+      "parityLaw": true
+    },
+    "forgery": {
+      "primaryStatute": "Iowa Code § 715A.2 (Forgery)",
+      "classification": "Class D felony (2nd degree)",
+      "penalties": "Up to 5 years/$7,500",
+      "medicalSpecific": "No medical-specific statute",
+      "likelyCharge": "Class D felony"
+    },
+    "cities": ["Des Moines", "Cedar Rapids", "Davenport", "Sioux City", "Ankeny", "Iowa City", "Ames", "Council Bluffs", "West Des Moines", "Waterloo", "Dubuque", "Urbandale"],
+    "industries": ["Agriculture & Food Processing", "Manufacturing", "Financial Services", "Healthcare", "Insurance"],
+    "contentAngle": "Iowa employers can require documentation for any sick day — TeleDirectMD gets you a doctor's note fast, before your shift the next morning."
+  },
+  {
+    "name": "Kansas",
+    "abbr": "KS",
+    "slug": "ks",
+    "classification": "clear",
+    "workforce": "1,572,551",
+    "priorityTier": 3,
+    "sickLeave": {
+      "hasMandatoryLaw": false,
+      "lawName": null,
+      "statute": null,
+      "accrualRate": null,
+      "annualCap": null,
+      "noteRestriction": "No state restriction — employer has full discretion, but documentation policies cannot be used as pretext to retaliate for workers' comp claims",
+      "noteThreshold": "No threshold — employer may require documentation at any time",
+      "recentChanges": "No recent changes"
+    },
+    "employerNotes": {
+      "canRequire": "Full Discretion",
+      "details": "No state PSL mandate. Employers may require documentation under own policy (in writing, applied consistently). Kansas courts have held that documentation policies cannot be used as pretext to retaliate for workers' comp claims.",
+      "atWill": true,
+      "atWillExceptions": "public policy, good faith, implied contract",
+      "antiRetaliation": "K.S.A. § 44-501 prohibits workers' comp retaliation; FMLA/ADA apply"
+    },
+    "telehealth": {
+      "primaryStatute": "KSA § 40-2,213 (Kansas Telemedicine Act)",
+      "asyncPermitted": true,
+      "newPatientViaAsync": true,
+      "consentRequirement": "Verbal consent followed by written documentation",
+      "parityLaw": false
+    },
+    "forgery": {
+      "primaryStatute": "KSA § 21-5823 (Forgery)",
+      "classification": "Level 8 nonperson felony",
+      "penalties": "7–23 months (criminal history dependent — Level 8 with no prior typically results in probation)",
+      "medicalSpecific": "No medical-specific statute",
+      "likelyCharge": "Level 8 nonperson felony"
+    },
+    "cities": ["Wichita", "Overland Park", "Kansas City", "Olathe", "Topeka", "Lawrence", "Shawnee", "Manhattan", "Lenexa", "Salina", "Hutchinson", "Junction City"],
+    "industries": ["Agriculture", "Aerospace & Aviation Manufacturing", "Energy", "Healthcare", "Professional & Business Services"],
+    "contentAngle": "Kansas has no sick leave protection — a doctor's note from TeleDirectMD is your fastest path to documentation before your aerospace or production shift."
+  },
+  {
+    "name": "Kentucky",
+    "abbr": "KY",
+    "slug": "ky",
+    "classification": "elevated",
+    "workforce": "2,117,499",
+    "priorityTier": 2,
+    "sickLeave": {
+      "hasMandatoryLaw": false,
+      "lawName": null,
+      "statute": null,
+      "accrualRate": null,
+      "annualCap": null,
+      "noteRestriction": "No state restriction — employer has full discretion",
+      "noteThreshold": "No threshold — common 3-day threshold is policy-based only",
+      "recentChanges": "No recent changes"
+    },
+    "employerNotes": {
+      "canRequire": "Full Discretion",
+      "details": "No state mandatory sick leave law. Employers can require documentation for extended absences; common 3-day threshold is policy-based.",
+      "atWill": true,
+      "atWillExceptions": "public policy, good faith, implied contract",
+      "antiRetaliation": "FMLA/ADA apply; no state-specific sick-leave note retaliation provision"
+    },
+    "telehealth": {
+      "primaryStatute": "KRS § 304.17A-138",
+      "asyncPermitted": false,
+      "newPatientViaAsync": false,
+      "consentRequirement": "Per licensing law requirements",
+      "parityLaw": false
+    },
+    "forgery": {
+      "primaryStatute": "KRS §§ 516.010–516.070 (Forgery)",
+      "classification": "Class A misdemeanor (3rd degree)",
+      "penalties": "Up to 12 months/$500. Could escalate to Class D felony (1–5 yr) if used for benefits fraud.",
+      "medicalSpecific": "No medical-specific statute",
+      "likelyCharge": "3rd degree forgery — Class A misdemeanor; may escalate to 2nd degree"
+    },
+    "cities": ["Louisville", "Lexington", "Bowling Green", "Owensboro", "Covington", "Georgetown", "Richmond", "Florence", "Elizabethtown", "Nicholasville", "Hopkinsville", "Henderson"],
+    "industries": ["Manufacturing (Automotive)", "Healthcare", "Agriculture & Bourbon", "Logistics & Distribution", "Government"],
+    "contentAngle": "Kentucky has no paid sick leave law — UPS Worldport and Amazon workers in Louisville face some of the strictest attendance requirements in the US. TeleDirectMD provides fast documentation."
+  },
+  {
+    "name": "Louisiana",
+    "abbr": "LA",
+    "slug": "la",
+    "classification": "elevated",
+    "workforce": "2,089,060",
+    "priorityTier": 2,
+    "sickLeave": {
+      "hasMandatoryLaw": false,
+      "lawName": null,
+      "statute": null,
+      "accrualRate": null,
+      "annualCap": null,
+      "noteRestriction": "No state restriction — employer has full discretion. La. Rev. Stat. Ann. § 23:642 (2012) preempts local PSL laws.",
+      "noteThreshold": "No threshold — employer may require documentation at any time",
+      "recentChanges": "No recent changes"
+    },
+    "employerNotes": {
+      "canRequire": "Full Discretion",
+      "details": "No state mandatory sick leave law. Employer may require documentation under own policy, applied consistently. Louisiana is one of the most employer-friendly states (no public policy, no good faith, no implied contract exceptions to at-will).",
+      "atWill": true,
+      "atWillExceptions": "none — very strong at-will state",
+      "antiRetaliation": "Federal FMLA/ADA only; no state-specific sick-note retaliation provision"
+    },
+    "telehealth": {
+      "primaryStatute": "La. Rev. Stat. § 40:1223.3",
+      "asyncPermitted": false,
+      "newPatientViaAsync": false,
+      "consentRequirement": "Per BME physician rules",
+      "parityLaw": false
+    },
+    "forgery": {
+      "primaryStatute": "LA Rev. Stat. § 14:72 (Forgery)",
+      "classification": "Felony — single category",
+      "penalties": "Up to $5,000 fine OR up to 10 years at hard labor, or both",
+      "medicalSpecific": "No grading by document type; all forgery is a single felony category",
+      "likelyCharge": "Felony — up to 10 years"
+    },
+    "cities": ["New Orleans", "Baton Rouge", "Shreveport", "Metairie", "Lafayette", "Lake Charles", "Kenner", "Bossier City", "Monroe", "Alexandria", "Houma", "Mandeville"],
+    "industries": ["Energy (Oil & Gas / Petrochemical)", "Healthcare", "Tourism & Hospitality", "Manufacturing (Petrochemical)", "Government"],
+    "contentAngle": "Louisiana has no paid sick leave law and among the weakest employee protections in the US. Your employer has full discretion to require a doctor's note — TeleDirectMD provides one fast."
+  },
+  {
+    "name": "Maine",
+    "abbr": "ME",
+    "slug": "me",
+    "classification": "clear",
+    "workforce": "705,956",
+    "priorityTier": 3,
+    "sickLeave": {
+      "hasMandatoryLaw": true,
+      "lawName": "Earned Paid Leave",
+      "statute": "26 M.R.S.A. § 637",
+      "accrualRate": "1 hour per 40 hours worked",
+      "annualCap": "40 hours",
+      "noteRestriction": "Not applicable — leave may be used for any reason; no documentation requirement",
+      "noteThreshold": "No threshold — no documentation required for up to 40 hours/year of any-reason leave",
+      "recentChanges": "Effective January 1, 2021; covers employers with 10+ employees"
+    },
+    "employerNotes": {
+      "canRequire": "Restricted (for Earned Employee Leave)",
+      "details": "26 M.R.S. § 637: for up to 40 hrs/yr of any-reason leave, employer may NOT require documentation. Maine also has Maine FMLA equivalent (26 M.R.S. § 843–847): physician certification permitted for that leave.",
+      "atWill": true,
+      "atWillExceptions": "implied contract only (no public policy, no good faith)",
+      "antiRetaliation": "Maine Earned Employee Leave prohibits retaliation for using leave"
+    },
+    "telehealth": {
+      "primaryStatute": "24-A M.R.S. § 4316",
+      "asyncPermitted": true,
+      "newPatientViaAsync": true,
+      "consentRequirement": "Not specified by state law",
+      "parityLaw": true
+    },
+    "forgery": {
+      "primaryStatute": "17-A MRSA § 707-A (Falsifying Health Care Records)",
+      "classification": "Class D crime (misdemeanor equivalent)",
+      "penalties": "Up to 1 year jail/$2,000 fine",
+      "medicalSpecific": "17-A MRSA § 707-A specifically criminalizes falsifying a patient's health care record — one of only two states with a statute specifically targeting healthcare document fraud",
+      "likelyCharge": "Class D crime under § 707-A"
+    },
+    "cities": ["Portland", "Lewiston", "Bangor", "South Portland", "Auburn", "Biddeford", "Sanford", "Brunswick", "Scarborough", "Saco", "Westbrook", "Augusta"],
+    "industries": ["Healthcare", "Tourism & Hospitality", "Manufacturing (Paper & Forest Products)", "Fishing & Aquaculture", "Government & Defense"],
+    "contentAngle": "Maine's Earned Paid Leave law means you can use up to 40 hours per year for any reason — no doctor's note required. For absences beyond that, TeleDirectMD provides fast documentation."
+  },
+  {
+    "name": "Maryland",
+    "abbr": "MD",
+    "slug": "md",
+    "classification": "clear",
+    "workforce": "3,232,441",
+    "priorityTier": 2,
+    "sickLeave": {
+      "hasMandatoryLaw": true,
+      "lawName": "Maryland Healthy Working Families Act",
+      "statute": "Md. Code, Lab. & Empl. § 3-1301 et seq.",
+      "accrualRate": "1 hour per 30 hours worked; up to 40 hours/year; max 64 hours accrual balance",
+      "annualCap": "40 hours/year; 64 hours accrual cap",
+      "noteRestriction": "Employer CANNOT require documentation for 2 or fewer consecutive shifts. Documentation may NOT disclose diagnosis or condition.",
+      "noteThreshold": "More than 2 consecutive shifts — no note for 1 or 2 shifts",
+      "recentChanges": "Montgomery County has more expansive local ordinance (up to 80 hrs accrual; 56 hrs paid for 5+ employees)"
+    },
+    "employerNotes": {
+      "canRequire": "Restricted",
+      "details": "MHWFA: documentation only after 3+ consecutive scheduled shifts. Employer expressly prohibited from asking for diagnosis or condition.",
+      "atWill": true,
+      "atWillExceptions": "public policy, good faith, implied contract",
+      "antiRetaliation": "MHWFA prohibits discharge or discrimination for exercising Act rights"
+    },
+    "telehealth": {
+      "primaryStatute": "MD Insurance Code; Board of Physicians regulations",
+      "asyncPermitted": true,
+      "newPatientViaAsync": true,
+      "consentRequirement": "Providers must inform patients of risks; recordkeeping requirements apply",
+      "parityLaw": true
+    },
+    "forgery": {
+      "primaryStatute": "MD Criminal Law § 8-606",
+      "classification": "Misdemeanor",
+      "penalties": "Up to 3 years/$1,000",
+      "medicalSpecific": "Health-General § 4-308 (unauthorized access to medical records — misdemeanor)",
+      "likelyCharge": "Misdemeanor under § 8-606 for employer note; felony under § 8-607 if used for financial fraud"
+    },
+    "cities": ["Baltimore", "Columbia", "Germantown", "Frederick", "Silver Spring", "Waldorf", "Ellicott City", "Rockville", "Gaithersburg", "Glen Burnie", "Dundalk", "Bowie"],
+    "industries": ["Federal Government & Defense", "Healthcare & Biotech", "Professional & Business Services", "Finance & Insurance", "Construction"],
+    "contentAngle": "Maryland's Healthy Working Families Act means your employer can only request a doctor's note after you've missed more than 2 consecutive shifts — and they can never ask for your diagnosis."
+  },
+  {
+    "name": "Michigan",
+    "abbr": "MI",
+    "slug": "mi",
+    "classification": "clear",
+    "workforce": "5,033,425",
+    "priorityTier": 1,
+    "sickLeave": {
+      "hasMandatoryLaw": true,
+      "lawName": "Earned Sick Time Act (ESTA)",
+      "statute": "MCL 408.961 et seq.",
+      "accrualRate": "1 hour per 30 hours worked",
+      "annualCap": "72 hours (11+ employees); 40 hours paid + 32 hours unpaid (≤10 employees)",
+      "noteRestriction": "Employer CANNOT require documentation for 3 or fewer consecutive days. If documentation required for 4+ consecutive days, employer must pay employee's out-of-pocket costs to obtain it.",
+      "noteThreshold": "3 consecutive days — no note for 1, 2, or 3 days; employer pays cost if required for 4+",
+      "recentChanges": "ESTA effective February 21, 2025 — comprehensive overhaul. ALL employers now covered (was 50+). Cap increased to 72 hours (was 40). Employer pays documentation costs."
+    },
+    "employerNotes": {
+      "canRequire": "Restricted",
+      "details": "ESTA: no documentation for ≤3 consecutive days; employer pays costs for 4+ day documentation. 15 days given to obtain documentation. Unlimited carryover.",
+      "atWill": true,
+      "atWillExceptions": "public policy, good faith, implied contract",
+      "antiRetaliation": "ESTA prohibits discrimination/discharge for using or attempting to use earned sick time"
+    },
+    "telehealth": {
+      "primaryStatute": "MCL § 500.3476",
+      "asyncPermitted": true,
+      "newPatientViaAsync": true,
+      "consentRequirement": "Required; specific form not mandated",
+      "parityLaw": true
+    },
+    "forgery": {
+      "primaryStatute": "MCL § 750.248 (Forgery of Records)",
+      "classification": "Felony",
+      "penalties": "Up to 14 years — tied with Idaho for highest statutory maximum in the nation",
+      "medicalSpecific": "MCL § 750.248a (forging signatures); Michigan courts have prosecuted fake doctor's note cases under § 750.248",
+      "likelyCharge": "Felony — up to 14 years (actual sentences far lower)"
+    },
+    "cities": ["Detroit", "Grand Rapids", "Warren", "Sterling Heights", "Ann Arbor", "Livonia", "Troy", "Lansing", "Flint", "Dearborn", "Wyoming", "Kalamazoo"],
+    "industries": ["Automotive / Advanced Manufacturing", "Healthcare", "Professional & Business Services", "Government", "Trade & Logistics"],
+    "contentAngle": "Michigan's new 2025 sick leave law covers nearly every worker in the state — and now your employer must pay the cost of any doctor's note they require."
+  },
+  {
+    "name": "Minnesota",
+    "abbr": "MN",
+    "slug": "mn",
+    "classification": "elevated",
+    "workforce": "3,170,051",
+    "priorityTier": 2,
+    "sickLeave": {
+      "hasMandatoryLaw": true,
+      "lawName": "Earned Sick and Safe Time (ESST)",
+      "statute": "Minn. Stat. § 181.9445 et seq.",
+      "accrualRate": "1 hour per 30 hours worked; 48 hours/year; max 80 hours accrual",
+      "annualCap": "48 hours/year; 80 hours accrual cap",
+      "noteRestriction": "Employer CANNOT require documentation for 2 or fewer consecutive scheduled workdays. If documentation required for 3+ days, employee may substitute a written statement if documentation creates unreasonable burden.",
+      "noteThreshold": "2 consecutive scheduled workdays — no note for 1 or 2 days",
+      "recentChanges": "ESST effective January 1, 2024; covers all employers"
+    },
+    "employerNotes": {
+      "canRequire": "Restricted",
+      "details": "ESST: documentation only after 2+ consecutive days; employee may substitute written self-certification if note is an undue burden. Documentation cannot require specific diagnosis.",
+      "atWill": true,
+      "atWillExceptions": "public policy, good faith, implied contract",
+      "antiRetaliation": "ESST includes anti-retaliation provisions"
+    },
+    "telehealth": {
+      "primaryStatute": "Minn. Stat. § 62A.673",
+      "asyncPermitted": false,
+      "newPatientViaAsync": false,
+      "consentRequirement": "Per statutory requirements",
+      "parityLaw": false
+    },
+    "forgery": {
+      "primaryStatute": "Minn. Stat. § 609.63 (Forgery)",
+      "classification": "Forgery",
+      "penalties": "Up to 3 years/$5,000",
+      "medicalSpecific": "No medical-specific statute",
+      "likelyCharge": "Forgery under § 609.63 — up to 3 years/$5,000"
+    },
+    "cities": ["Minneapolis", "St. Paul", "Rochester", "Bloomington", "Brooklyn Park", "Plymouth", "Maple Grove", "Woodbury", "St. Cloud", "Eagan", "Eden Prairie", "Coon Rapids"],
+    "industries": ["Healthcare & Medical Devices", "Agriculture & Food Processing", "Financial Services", "Manufacturing", "Retail & Technology"],
+    "contentAngle": "Minnesota's ESST law protects workers from note requirements for short absences — but for 3+ day absences, TeleDirectMD provides fast, affordable documentation."
+  },
+  {
+    "name": "Missouri",
+    "abbr": "MO",
+    "slug": "mo",
+    "classification": "clear",
+    "workforce": "3,200,946",
+    "priorityTier": 2,
+    "sickLeave": {
+      "hasMandatoryLaw": false,
+      "lawName": null,
+      "statute": null,
+      "accrualRate": null,
+      "annualCap": null,
+      "noteRestriction": "No state restriction — employer has full discretion. Proposition A (voter-approved Nov 2024) briefly mandated PSL but was repealed by legislature Aug 28, 2025.",
+      "noteThreshold": "No threshold — employer may require documentation at any time",
+      "recentChanges": "CRITICAL: Proposition A (voter-approved Nov 5, 2024) mandated PSL from May 1–Aug 28, 2025. Legislature passed HB 567; Governor signed July 10, 2025; repeal effective August 28, 2025. Missouri currently has NO PSL law."
+    },
+    "employerNotes": {
+      "canRequire": "Full Discretion",
+      "details": "No state paid sick leave law (repealed Aug 2025). Employer may require documentation under own policy. State preemption of local ordinances (Mo. Rev. Stat. § 290.528, 2015) remains in effect.",
+      "atWill": true,
+      "atWillExceptions": "public policy (no good faith, no implied contract)",
+      "antiRetaliation": "FMLA/ADA federal protections only"
+    },
+    "telehealth": {
+      "primaryStatute": "RSMo §§ 191.1145, 191.1146",
+      "asyncPermitted": true,
+      "newPatientViaAsync": true,
+      "consentRequirement": "Written consent required specifically for store-and-forward",
+      "parityLaw": false
+    },
+    "forgery": {
+      "primaryStatute": "RSMo § 570.090 (Forgery)",
+      "classification": "Class D felony",
+      "penalties": "Up to 7 years/$10,000",
+      "medicalSpecific": "No grading by document type; all forgery is Class D",
+      "likelyCharge": "Class D felony — up to 7 years"
+    },
+    "cities": ["Kansas City", "St. Louis", "Springfield", "Columbia", "Independence", "Lee's Summit", "O'Fallon", "St. Joseph", "St. Charles", "St. Peters", "Blue Springs", "Joplin"],
+    "industries": ["Healthcare", "Transportation & Logistics", "Financial Services", "Manufacturing", "Agriculture"],
+    "contentAngle": "Missouri's voters approved paid sick leave — but the legislature repealed it. Your employer now has full discretion to require a doctor's note for any absence. TeleDirectMD gets you documented fast."
+  },
+  {
+    "name": "Montana",
+    "abbr": "MT",
+    "slug": "mt",
+    "classification": "clear",
+    "workforce": "579,949",
+    "priorityTier": 3,
+    "sickLeave": {
+      "hasMandatoryLaw": false,
+      "lawName": null,
+      "statute": null,
+      "accrualRate": null,
+      "annualCap": null,
+      "noteRestriction": "No PSL restriction. However, Montana uniquely requires employers to have written, communicated, consistently-applied policies before terminating post-probation employees.",
+      "noteThreshold": "No threshold — employer may require documentation, but must follow written policy",
+      "recentChanges": "No recent changes"
+    },
+    "employerNotes": {
+      "canRequire": "Discretion (with unique procedural requirements)",
+      "details": "Montana is the ONLY U.S. state that is NOT at-will after the probationary period. Under WDEA (Mont. Code Ann. §§ 39-2-901 et seq.), employers must have 'good cause' to terminate employees who have completed probation. Documentation policies must be written, clearly communicated, and consistently applied.",
+      "atWill": false,
+      "atWillExceptions": "NOT at-will after probationary period — Wrongful Discharge from Employment Act (WDEA) requires good cause for termination",
+      "antiRetaliation": "WDEA provides damages of up to 4 years' lost wages; 1-year statute of limitations"
+    },
+    "telehealth": {
+      "primaryStatute": "MCA § 33-22-138",
+      "asyncPermitted": true,
+      "newPatientViaAsync": true,
+      "consentRequirement": "Not specified by state law",
+      "parityLaw": true
+    },
+    "forgery": {
+      "primaryStatute": "MCA § 45-6-325 (Forgery)",
+      "classification": "Felony",
+      "penalties": "Typically 2–10 years/$50,000; value of benefit obtained drives severity",
+      "medicalSpecific": "No medical-specific statute",
+      "likelyCharge": "Felony — sentence based on value of benefit obtained"
+    },
+    "cities": ["Billings", "Missoula", "Great Falls", "Bozeman", "Butte", "Helena", "Kalispell", "Havre", "Anaconda", "Miles City", "Livingston", "Whitefish"],
+    "industries": ["Agriculture & Ranching", "Tourism & Outdoor Recreation", "Healthcare", "Energy (Coal & Oil)", "Government"],
+    "contentAngle": "Montana is the only state where your employer must have a real 'good cause' to fire you after your probationary period — but that still means having proper sick leave documentation matters. TeleDirectMD provides it fast."
+  },
+  {
+    "name": "Nebraska",
+    "abbr": "NE",
+    "slug": "ne",
+    "classification": "clear",
+    "workforce": "1,099,318",
+    "priorityTier": 3,
+    "sickLeave": {
+      "hasMandatoryLaw": true,
+      "lawName": "Healthy Families and Workplaces Act",
+      "statute": "Neb. Rev. Stat. § 48-3801 et seq.",
+      "accrualRate": "1 hour per 30 hours worked; use begins after 80 hours of employment",
+      "annualCap": "56 hours (20+ employees); 40 hours (11–19 employees)",
+      "noteRestriction": "Documentation only permitted for absences of more than 3 consecutive days. Acceptable: healthcare provider statement OR written self-certification from employee.",
+      "noteThreshold": "More than 3 consecutive days — no note for 3 days or fewer; self-certification is an express alternative",
+      "recentChanges": "New law effective October 1, 2025 (Initiative 436, voter ballot Nov 2024)"
+    },
+    "employerNotes": {
+      "canRequire": "Restricted",
+      "details": "Nebraska HFWA: documentation permitted only for absences of more than 3 consecutive days. Self-certification is an express alternative if obtaining provider note creates unreasonable burden or expense.",
+      "atWill": true,
+      "atWillExceptions": "good faith, implied contract (no public policy exception)",
+      "antiRetaliation": "HFWA prohibits retaliation for using or requesting sick leave"
+    },
+    "telehealth": {
+      "primaryStatute": "Neb. Rev. Stat. § 71-8501 et seq.",
+      "asyncPermitted": true,
+      "newPatientViaAsync": true,
+      "consentRequirement": "Written consent required before initial telehealth consultation",
+      "parityLaw": true
+    },
+    "forgery": {
+      "primaryStatute": "Neb. Rev. Stat. § 28-603 (Forgery 2nd degree)",
+      "classification": "Class II misdemeanor (for employer note with no financial gain)",
+      "penalties": "Up to 6 months/$1,000 for Class II misdemeanor; escalates by value of benefit obtained",
+      "medicalSpecific": "Neb. Rev. Stat. § 71-3,175 (Filing false medical documents — separate offense)",
+      "likelyCharge": "Class II misdemeanor for employer note with no financial gain; escalates based on benefit"
+    },
+    "cities": ["Omaha", "Lincoln", "Bellevue", "Grand Island", "Kearney", "Papillion", "Fremont", "Hastings", "Columbus", "Norfolk", "La Vista", "Scottsbluff"],
+    "industries": ["Agriculture & Food Processing", "Financial Services", "Manufacturing", "Healthcare", "Telecommunications & Technology"],
+    "contentAngle": "Nebraska's new sick leave law just took effect — here's what workers at Omaha's meatpacking plants and financial services employers need to know about their documentation rights."
+  },
+  {
+    "name": "Nevada",
+    "abbr": "NV",
+    "slug": "nv",
+    "classification": "clear",
+    "workforce": "1,700,180",
+    "priorityTier": 3,
+    "sickLeave": {
+      "hasMandatoryLaw": true,
+      "lawName": "Paid Leave Law",
+      "statute": "NRS 608.0197",
+      "accrualRate": "~1 hour per 52 hours worked (~40 hours/year for full-time)",
+      "annualCap": "40 hours",
+      "noteRestriction": "Not applicable — leave for any reason; no reason or documentation required. Employer may not ask reason.",
+      "noteThreshold": "No threshold — no documentation or reason required for mandatory paid leave",
+      "recentChanges": "Effective January 1, 2020; covers private employers with 50+ employees"
+    },
+    "employerNotes": {
+      "canRequire": "Restricted (for NRS 608.0197 leave)",
+      "details": "Employers may NOT require documentation or reason for leave under the mandatory paid leave law. For leave policies beyond this mandate, employer discretion applies.",
+      "atWill": true,
+      "atWillExceptions": "public policy, good faith, implied contract",
+      "antiRetaliation": "NRS 608.0197 prohibits retaliation for using or attempting to exercise paid leave rights"
+    },
+    "telehealth": {
+      "primaryStatute": "NRS §§ 629.515–629.527",
+      "asyncPermitted": true,
+      "newPatientViaAsync": true,
+      "consentRequirement": "No additional consent beyond standard care required",
+      "parityLaw": false
+    },
+    "forgery": {
+      "primaryStatute": "NRS § 205.090 (Forgery)",
+      "classification": "Category D felony",
+      "penalties": "1–4 years/$5,000",
+      "medicalSpecific": "No grading by document type",
+      "likelyCharge": "Category D felony — 1–4 years"
+    },
+    "cities": ["Las Vegas", "Henderson", "North Las Vegas", "Enterprise", "Reno", "Sunrise Manor", "Spring Valley", "Paradise", "Sparks", "Carson City", "Fernley", "Elko"],
+    "industries": ["Gaming, Tourism & Hospitality", "Mining", "Logistics & Distribution", "Healthcare", "Professional & Business Services"],
+    "contentAngle": "Nevada workers at companies with 50+ employees can use their paid leave for any reason — no doctor's note required. But for smaller employers or leave beyond your annual hours, TeleDirectMD gets you documented fast."
+  },
+  {
+    "name": "New Hampshire",
+    "abbr": "NH",
+    "slug": "nh",
+    "classification": "clear",
+    "workforce": "775,626",
+    "priorityTier": 3,
+    "sickLeave": {
+      "hasMandatoryLaw": false,
+      "lawName": null,
+      "statute": null,
+      "accrualRate": null,
+      "annualCap": null,
+      "noteRestriction": "No state restriction — employer has full discretion",
+      "noteThreshold": "No threshold — employer may require documentation at any time",
+      "recentChanges": "NH PFML (RSA 282-B) is a voluntary, insurance-based opt-in program — not an employer mandate"
+    },
+    "employerNotes": {
+      "canRequire": "Full Discretion",
+      "details": "No state mandatory sick leave law. Employer sets own documentation requirements.",
+      "atWill": true,
+      "atWillExceptions": "public policy, good faith, implied contract",
+      "antiRetaliation": "FMLA/ADA apply"
+    },
+    "telehealth": {
+      "primaryStatute": "RSA § 329:1-d et seq.",
+      "asyncPermitted": true,
+      "newPatientViaAsync": true,
+      "consentRequirement": "Patient consent required and documented",
+      "parityLaw": true
+    },
+    "forgery": {
+      "primaryStatute": "RSA § 638:1 (Forgery)",
+      "classification": "Class B misdemeanor (for other written instruments)",
+      "penalties": "Up to 1 year/$1,200 — one of the least severe criminal outcomes in the nation for this offense",
+      "medicalSpecific": "No medical-specific statute",
+      "likelyCharge": "Class B misdemeanor — unless used for insurance fraud (then Class B felony up to 7 years)"
+    },
+    "cities": ["Manchester", "Nashua", "Concord", "Derry", "Dover", "Rochester", "Merrimack", "Hudson", "Londonderry", "Keene", "Portsmouth", "Exeter"],
+    "industries": ["Healthcare", "Manufacturing", "Technology", "Tourism", "Finance & Insurance"],
+    "contentAngle": "New Hampshire has no sick leave law — your employer can require a doctor's note for any absence. TeleDirectMD provides documentation without the wait."
+  },
+  {
+    "name": "New Jersey",
+    "abbr": "NJ",
+    "slug": "nj",
+    "classification": "clear",
+    "workforce": "4,913,773",
+    "priorityTier": 2,
+    "sickLeave": {
+      "hasMandatoryLaw": true,
+      "lawName": "New Jersey Earned Sick Leave Law",
+      "statute": "N.J.S.A. 34:11D-1 et seq.",
+      "accrualRate": "1 hour per 30 hours worked; frontloading of 40 hours permitted",
+      "annualCap": "40 hours; carryover permitted (use capped at 40 hrs/yr)",
+      "noteRestriction": "Employer CANNOT require documentation for fewer than 3 consecutive days (1 or 2 days: no note allowed). Documentation may not require disclosure of specific medical reason.",
+      "noteThreshold": "3 consecutive days — no note allowed for 1 or 2 days",
+      "recentChanges": "Feb. 2026 court decision clarified PTO policies cannot require note for absences under 3 days"
+    },
+    "employerNotes": {
+      "canRequire": "Restricted",
+      "details": "NJ ESL: documentation only for 3+ consecutive days; employer may ask about reason for leave (whether covered) but cannot require documentation below threshold. Documentation may not explain 'nature' of health condition.",
+      "atWill": true,
+      "atWillExceptions": "public policy, good faith, implied contract",
+      "antiRetaliation": "ESL prohibits penalizing, disciplining, or discharging for using sick leave"
+    },
+    "telehealth": {
+      "primaryStatute": "NJSA § 45:1-62",
+      "asyncPermitted": true,
+      "newPatientViaAsync": true,
+      "consentRequirement": "Not explicitly required; standard of care applies",
+      "parityLaw": false
+    },
+    "forgery": {
+      "primaryStatute": "NJSA § 2C:21-1 (Forgery)",
+      "classification": "4th degree crime",
+      "penalties": "Up to 18 months/$10,000",
+      "medicalSpecific": "NJSA § 2C:21-4 (Falsifying or Tampering with Records — 4th degree)",
+      "likelyCharge": "4th degree crime; 3rd degree if used in court proceedings or insurance claim"
+    },
+    "cities": ["Newark", "Jersey City", "Paterson", "Elizabeth", "Lakewood", "Edison", "Woodbridge", "Toms River", "Hamilton", "Clifton", "Trenton", "Camden"],
+    "industries": ["Pharmaceuticals & Biotech", "Finance & Insurance", "Trade, Transportation & Logistics", "Professional & Business Services", "Healthcare"],
+    "contentAngle": "New Jersey law says your employer cannot ask for a doctor's note for 1 or 2 sick days. If you've been out 3 or more days, TeleDirectMD provides documentation fast — and your employer cannot ask what your diagnosis is."
+  },
+  {
+    "name": "North Carolina",
+    "abbr": "NC",
+    "slug": "nc",
+    "classification": "clear",
+    "workforce": "5,308,829",
+    "priorityTier": 1,
+    "sickLeave": {
+      "hasMandatoryLaw": false,
+      "lawName": null,
+      "statute": null,
+      "accrualRate": null,
+      "annualCap": null,
+      "noteRestriction": "No state restriction — employer has full discretion. State preempts local PSL ordinances (N.C. Gen. Stat. § 95-25.1, 2016).",
+      "noteThreshold": "No threshold — employer may require documentation at any time",
+      "recentChanges": "NC Medical Board Position Statement 5.1.4 (March 2024) explicitly authorized async telehealth for relationship formation"
+    },
+    "employerNotes": {
+      "canRequire": "Full Discretion",
+      "details": "No state mandatory sick leave law. Federal FMLA/ADA are the primary protections. NC REDA protects against retaliation for workers' comp and wage claims — not sick leave generally.",
+      "atWill": true,
+      "atWillExceptions": "public policy, good faith (no implied contract)",
+      "antiRetaliation": "NC REDA (N.C. Gen. Stat. § 95-241) protects against retaliation for workers' comp claims; FMLA/ADA apply"
+    },
+    "telehealth": {
+      "primaryStatute": "NCGS § 90-21.130 et seq.",
+      "asyncPermitted": true,
+      "newPatientViaAsync": true,
+      "consentRequirement": "Written or verbal per § 90-21.133",
+      "parityLaw": false
+    },
+    "forgery": {
+      "primaryStatute": "NCGS § 14-119 (Uttering Forged Instruments)",
+      "classification": "Class I felony (lowest NC felony classification)",
+      "penalties": "~15 months (lowest felony class)",
+      "medicalSpecific": "No medical-specific statute",
+      "likelyCharge": "Class I felony — still a felony despite being lowest classification"
+    },
+    "cities": ["Charlotte", "Raleigh", "Greensboro", "Durham", "Winston-Salem", "Fayetteville", "Cary", "Wilmington", "High Point", "Concord", "Asheville", "Gastonia"],
+    "industries": ["Manufacturing", "Financial Services & Fintech", "Healthcare", "Technology (Research Triangle)", "Agriculture"],
+    "contentAngle": "North Carolina has no state sick leave law, so employers can require documentation for any absence — TeleDirectMD provides a licensed doctor's note fast."
+  },
+  {
+    "name": "North Dakota",
+    "abbr": "ND",
+    "slug": "nd",
+    "classification": "clear",
+    "workforce": "432,590",
+    "priorityTier": 3,
+    "sickLeave": {
+      "hasMandatoryLaw": false,
+      "lawName": null,
+      "statute": null,
+      "accrualRate": null,
+      "annualCap": null,
+      "noteRestriction": "No state restriction — employer has full discretion. State preempts local PSL ordinances (N.D. Cent. Code § 34-01-15.1, 2021).",
+      "noteThreshold": "No threshold — employer may require documentation at any time",
+      "recentChanges": "No recent changes"
+    },
+    "employerNotes": {
+      "canRequire": "Full Discretion",
+      "details": "No state mandatory sick leave law. Employers may require documentation for any absence.",
+      "atWill": true,
+      "atWillExceptions": "public policy, good faith, implied contract",
+      "antiRetaliation": "FMLA/ADA apply"
+    },
+    "telehealth": {
+      "primaryStatute": "ND Admin. Code ch. 50-02-15",
+      "asyncPermitted": true,
+      "newPatientViaAsync": true,
+      "consentRequirement": "Not specified",
+      "parityLaw": false
+    },
+    "forgery": {
+      "primaryStatute": "ND Century Code § 12.1-24-01 (Forgery)",
+      "classification": "Class C felony",
+      "penalties": "Up to 5 years/$10,000",
+      "medicalSpecific": "No medical-specific statute",
+      "likelyCharge": "Class C felony"
+    },
+    "cities": ["Fargo", "Bismarck", "Grand Forks", "Minot", "West Fargo", "Williston", "Dickinson", "Mandan", "Jamestown", "Wahpeton", "Devils Lake", "Valley City"],
+    "industries": ["Energy (Oil & Gas)", "Agriculture", "Healthcare", "Government", "Finance & Insurance"],
+    "contentAngle": "North Dakota oil field and ag workers have no sick leave protection — and a shift absence can trigger formal documentation requirements within hours. TeleDirectMD provides fast documentation."
+  },
+  {
+    "name": "Ohio",
+    "abbr": "OH",
+    "slug": "oh",
+    "classification": "clear",
+    "workforce": "5,940,036",
+    "priorityTier": 1,
+    "sickLeave": {
+      "hasMandatoryLaw": false,
+      "lawName": null,
+      "statute": null,
+      "accrualRate": null,
+      "annualCap": null,
+      "noteRestriction": "No state restriction — employer has full discretion. Ohio preempts local employment benefit mandates (R.C. § 4111.15).",
+      "noteThreshold": "No threshold — employer may require documentation at any time",
+      "recentChanges": "Columbus considering PSL ordinance but not enacted"
+    },
+    "employerNotes": {
+      "canRequire": "Full Discretion",
+      "details": "No state mandatory sick leave law. Ohio Administrative Code commonly requires physician statements for 5+ consecutive day absences in public institutions — private sector sets own thresholds.",
+      "atWill": true,
+      "atWillExceptions": "public policy, good faith, implied contract",
+      "antiRetaliation": "FMLA/ADA apply"
+    },
+    "telehealth": {
+      "primaryStatute": "ORC § 4743.09",
+      "asyncPermitted": true,
+      "newPatientViaAsync": true,
+      "consentRequirement": "Must be documented",
+      "parityLaw": true
+    },
+    "forgery": {
+      "primaryStatute": "ORC § 2913.31 (Forgery)",
+      "classification": "Value-based: 5th degree felony ($1K–$7.5K) or 1st degree misdemeanor (<$1K)",
+      "penalties": "5th degree felony: 6–12 months/$2,500. 1st degree misdemeanor: up to 180 days/$1,000",
+      "medicalSpecific": "ORC § 2913.32 (tampering with records)",
+      "likelyCharge": "5th degree felony or 1st degree misdemeanor depending on benefit obtained"
+    },
+    "cities": ["Columbus", "Cleveland", "Cincinnati", "Toledo", "Akron", "Dayton", "Parma", "Canton", "Youngstown", "Hamilton", "Lorain", "Springfield"],
+    "industries": ["Manufacturing (Automotive)", "Healthcare & Education", "Professional & Business Services", "Trade, Transportation & Logistics", "Finance & Insurance"],
+    "contentAngle": "Ohio has no sick leave protection — employers can demand a doctor's note for any absence. TeleDirectMD gets you documented before your next shift at any Ohio facility."
+  },
+  {
+    "name": "Oklahoma",
+    "abbr": "OK",
+    "slug": "ok",
+    "classification": "clear",
+    "workforce": "2,020,233",
+    "priorityTier": 3,
+    "sickLeave": {
+      "hasMandatoryLaw": false,
+      "lawName": null,
+      "statute": null,
+      "accrualRate": null,
+      "annualCap": null,
+      "noteRestriction": "No state restriction — employer has full discretion",
+      "noteThreshold": "No threshold — common 3-day documentation practice is policy-based",
+      "recentChanges": "Oklahoma preempts local employment benefit mandates"
+    },
+    "employerNotes": {
+      "canRequire": "Full Discretion",
+      "details": "No state mandatory sick leave law. Common practice: documentation after 3 consecutive days (policy-based).",
+      "atWill": true,
+      "atWillExceptions": "public policy, good faith, implied contract",
+      "antiRetaliation": "FMLA/ADA apply"
+    },
+    "telehealth": {
+      "primaryStatute": "36 OS §§ 6802–6803 (Oklahoma Telemedicine Act)",
+      "asyncPermitted": true,
+      "newPatientViaAsync": true,
+      "consentRequirement": "Not specified in statute",
+      "parityLaw": true
+    },
+    "forgery": {
+      "primaryStatute": "21 OS § 1577 (Forgery 2nd degree)",
+      "classification": "Felony",
+      "penalties": "Up to 7 years prison; fine up to $500",
+      "medicalSpecific": "No medical-specific statute",
+      "likelyCharge": "Felony — up to 7 years"
+    },
+    "cities": ["Oklahoma City", "Tulsa", "Norman", "Broken Arrow", "Edmond", "Lawton", "Moore", "Midwest City", "Enid", "Stillwater", "Owasso", "Muskogee"],
+    "industries": ["Oil & Gas / Energy", "Agriculture", "Aerospace & Defense", "Healthcare", "Government"],
+    "contentAngle": "Oklahoma has no sick leave law — oil field and aerospace workers face strict documentation requirements with no state protections. TeleDirectMD provides fast documentation."
+  },
+  {
+    "name": "Pennsylvania",
+    "abbr": "PA",
+    "slug": "pa",
+    "classification": "clear",
+    "workforce": "6,570,445",
+    "priorityTier": 1,
+    "sickLeave": {
+      "hasMandatoryLaw": false,
+      "lawName": null,
+      "statute": null,
+      "accrualRate": null,
+      "annualCap": null,
+      "noteRestriction": "No statewide restriction. Philadelphia and Pittsburgh have local ordinances: documentation only for 3+ consecutive full workdays; notes may not explain 'precise nature' of illness.",
+      "noteThreshold": "Statewide: no threshold. Philadelphia/Pittsburgh: 3 consecutive full workdays",
+      "recentChanges": "Pittsburgh ordinance amended Jan 1, 2026: 72 hr cap (updated from 40); faster accrual. No statewide preemption."
+    },
+    "employerNotes": {
+      "canRequire": "Discretion (statewide); Restricted (Philadelphia/Pittsburgh)",
+      "details": "Statewide: no PSL mandate; employer has full discretion. Philadelphia and Pittsburgh ordinances: documentation only for 3+ consecutive full workdays; notes may not explain 'precise nature' of illness.",
+      "atWill": true,
+      "atWillExceptions": "public policy, good faith (no implied contract)",
+      "antiRetaliation": "Philadelphia and Pittsburgh ordinances include anti-retaliation provisions"
+    },
+    "telehealth": {
+      "primaryStatute": "PA Insurance Code; 49 Pa. Code § 16.95",
+      "asyncPermitted": true,
+      "newPatientViaAsync": true,
+      "consentRequirement": "Required prior to rendering services",
+      "parityLaw": false
+    },
+    "forgery": {
+      "primaryStatute": "18 Pa. C.S. § 4101 (Forgery)",
+      "classification": "1st degree misdemeanor (for other writings)",
+      "penalties": "Up to 5 years/$10,000",
+      "medicalSpecific": "18 Pa. C.S. § 4104 (Tampering with records — 1st degree misdemeanor)",
+      "likelyCharge": "1st degree misdemeanor for employer note; 3rd degree felony if characterized as contract"
+    },
+    "cities": ["Philadelphia", "Pittsburgh", "Allentown", "Erie", "Reading", "Scranton", "Bethlehem", "Lancaster", "Harrisburg", "Altoona", "York", "Wilkes-Barre"],
+    "industries": ["Healthcare & Education", "Manufacturing", "Professional & Business Services", "Finance & Insurance", "Energy (Natural Gas)"],
+    "contentAngle": "Philadelphia and Pittsburgh have some of the strongest local sick leave protections in Pennsylvania — and a doctor's note from TeleDirectMD satisfies the documentation requirement when you do need one."
+  },
+  {
+    "name": "South Carolina",
+    "abbr": "SC",
+    "slug": "sc",
+    "classification": "clear",
+    "workforce": "2,614,214",
+    "priorityTier": 2,
+    "sickLeave": {
+      "hasMandatoryLaw": false,
+      "lawName": null,
+      "statute": null,
+      "accrualRate": null,
+      "annualCap": null,
+      "noteRestriction": "No state restriction — employer has full discretion. State preempts local PSL (S.C. Code § 41-1-25, 2017).",
+      "noteThreshold": "No threshold — employer may require documentation for any absence including a single day",
+      "recentChanges": "No recent changes"
+    },
+    "employerNotes": {
+      "canRequire": "Full Discretion",
+      "details": "No state mandatory sick leave law. Employer may require a note for any absence, including a single day.",
+      "atWill": true,
+      "atWillExceptions": "public policy, good faith, implied contract",
+      "antiRetaliation": "FMLA/ADA apply; no state-specific provision"
+    },
+    "telehealth": {
+      "primaryStatute": "SC Code § 40-47-37",
+      "asyncPermitted": true,
+      "newPatientViaAsync": true,
+      "consentRequirement": "Not specified by state law",
+      "parityLaw": false
+    },
+    "forgery": {
+      "primaryStatute": "SC Code § 16-13-10 (Forgery)",
+      "classification": "Felony",
+      "penalties": "Up to 5 years — no grading by document type",
+      "medicalSpecific": "No medical-specific statute",
+      "likelyCharge": "Felony — up to 5 years"
+    },
+    "cities": ["Charleston", "Columbia", "North Charleston", "Mount Pleasant", "Rock Hill", "Greenville", "Summerville", "Goose Creek", "Spartanburg", "Hilton Head Island", "Florence", "Myrtle Beach"],
+    "industries": ["Manufacturing (Automotive & Aerospace)", "Tourism & Hospitality", "Agriculture", "Healthcare", "Logistics & Distribution"],
+    "contentAngle": "South Carolina has no sick leave law, but BMW and Boeing workers know that proper documentation matters — get yours from TeleDirectMD fast."
+  },
+  {
+    "name": "South Dakota",
+    "abbr": "SD",
+    "slug": "sd",
+    "classification": "clear",
+    "workforce": "492,625",
+    "priorityTier": 3,
+    "sickLeave": {
+      "hasMandatoryLaw": false,
+      "lawName": null,
+      "statute": null,
+      "accrualRate": null,
+      "annualCap": null,
+      "noteRestriction": "No state restriction — employer has full discretion, among broadest in the nation",
+      "noteThreshold": "No threshold — employer may require a note for even a single day of absence",
+      "recentChanges": "No recent changes"
+    },
+    "employerNotes": {
+      "canRequire": "Full Discretion",
+      "details": "No state mandatory sick leave law. Employers may require a note for even a single day absence. No written policy required to enforce. Employees can be terminated under at-will doctrine for failing to provide a note.",
+      "atWill": true,
+      "atWillExceptions": "public policy, good faith",
+      "antiRetaliation": "FMLA/ADA apply"
+    },
+    "telehealth": {
+      "primaryStatute": "SD Codified Laws §§ 58-17-167 to 58-17-170",
+      "asyncPermitted": true,
+      "newPatientViaAsync": true,
+      "consentRequirement": "Not specified",
+      "parityLaw": false
+    },
+    "forgery": {
+      "primaryStatute": "SDCL § 22-39-36 (Forgery)",
+      "classification": "Class 6 felony — least severe forgery penalty among all 38 states",
+      "penalties": "Up to 2 years/$4,000",
+      "medicalSpecific": "No medical-specific statute",
+      "likelyCharge": "Class 6 felony — up to 2 years"
+    },
+    "cities": ["Sioux Falls", "Rapid City", "Aberdeen", "Brookings", "Watertown", "Mitchell", "Yankton", "Pierre", "Huron", "Vermillion", "Spearfish", "Box Elder"],
+    "industries": ["Agriculture", "Financial Services", "Healthcare", "Tourism", "Government"],
+    "contentAngle": "South Dakota employers can demand a doctor's note for even a single day of absence. TeleDirectMD provides documentation without leaving home."
+  },
+  {
+    "name": "Texas",
+    "abbr": "TX",
+    "slug": "tx",
+    "classification": "clear",
+    "workforce": "15,964,045",
+    "priorityTier": 1,
+    "sickLeave": {
+      "hasMandatoryLaw": false,
+      "lawName": null,
+      "statute": null,
+      "accrualRate": null,
+      "annualCap": null,
+      "noteRestriction": "No state restriction — employer has complete discretion. Austin, Dallas, and San Antonio local ordinances passed 2018–2019 are ALL permanently blocked by court rulings.",
+      "noteThreshold": "No threshold — employer may require documentation for any absence",
+      "recentChanges": "HB 4156 (effective September 1, 2025) restructured forgery penalty ladder. All local PSL ordinances remain blocked."
+    },
+    "employerNotes": {
+      "canRequire": "Full Discretion",
+      "details": "No state sick leave statute. Employer may require a note for any absence, any duration. Employer cannot demand detailed medical information beyond confirming the absence (ADA-compliant confidentiality applies).",
+      "atWill": true,
+      "atWillExceptions": "public policy, good faith (no implied contract)",
+      "antiRetaliation": "FMLA/ADA federal protections only; no state-specific sick-note retaliation provision"
+    },
+    "telehealth": {
+      "primaryStatute": "Tex. Occ. Code § 111.001 et seq.",
+      "asyncPermitted": true,
+      "newPatientViaAsync": true,
+      "consentRequirement": "Written consent required",
+      "parityLaw": true
+    },
+    "forgery": {
+      "primaryStatute": "Texas Penal Code § 32.21 (as amended by HB 4156, eff. Sept 1, 2025)",
+      "classification": "State jail felony",
+      "penalties": "180 days–2 years state jail/$10,000",
+      "medicalSpecific": "No medical-specific statute; HB 4156 (2025) restructured penalty ladder",
+      "likelyCharge": "State jail felony — 180 days to 2 years"
+    },
+    "cities": ["Houston", "San Antonio", "Dallas", "Fort Worth", "Austin", "El Paso", "Arlington", "Corpus Christi", "Irving", "Plano", "Laredo", "Lubbock"],
+    "industries": ["Oil & Gas / Energy", "Healthcare", "Trade, Transportation & Logistics", "Technology & Professional Services", "Manufacturing"],
+    "contentAngle": "Texas has no sick leave law and courts have blocked every local effort to create one. Employers have full discretion — TeleDirectMD provides the documentation you need, on your schedule."
+  },
+  {
+    "name": "Utah",
+    "abbr": "UT",
+    "slug": "ut",
+    "classification": "clear",
+    "workforce": "1,853,126",
+    "priorityTier": 3,
+    "sickLeave": {
+      "hasMandatoryLaw": false,
+      "lawName": null,
+      "statute": null,
+      "accrualRate": null,
+      "annualCap": null,
+      "noteRestriction": "No state restriction — employer has full discretion",
+      "noteThreshold": "No threshold — employer may require a note for any duration, including a single day",
+      "recentChanges": "No recent changes"
+    },
+    "employerNotes": {
+      "canRequire": "Full Discretion",
+      "details": "No state mandatory sick leave law. Employer may require a note for any duration, including a single day.",
+      "atWill": true,
+      "atWillExceptions": "public policy, good faith, implied contract",
+      "antiRetaliation": "FMLA/ADA apply"
+    },
+    "telehealth": {
+      "primaryStatute": "Utah Code § 26B-4-704",
+      "asyncPermitted": true,
+      "newPatientViaAsync": true,
+      "consentRequirement": "Must meet standard of care per § (2)(b)",
+      "parityLaw": false
+    },
+    "forgery": {
+      "primaryStatute": "Utah Code § 76-6-501 (Forgery)",
+      "classification": "3rd degree felony",
+      "penalties": "Up to 5 years",
+      "medicalSpecific": "§ 76-6-513 (use of forged instrument — separate 3rd degree felony); double charges possible",
+      "likelyCharge": "3rd degree felony — up to 5 years"
+    },
+    "cities": ["Salt Lake City", "West Valley City", "West Jordan", "Provo", "Orem", "St. George", "Sandy", "Ogden", "Layton", "Lehi", "South Jordan", "Taylorsville"],
+    "industries": ["Technology (Silicon Slopes)", "Mining", "Healthcare", "Construction", "Tourism"],
+    "contentAngle": "Utah employers can require a doctor's note for any absence — even a single day. TeleDirectMD is designed for Silicon Slopes workers who need fast documentation without an in-person clinic visit."
+  },
+  {
+    "name": "Washington",
+    "abbr": "WA",
+    "slug": "wa",
+    "classification": "clear",
+    "workforce": "4,067,228",
+    "priorityTier": 2,
+    "sickLeave": {
+      "hasMandatoryLaw": true,
+      "lawName": "Washington Paid Sick Leave",
+      "statute": "RCW 49.46.200 et seq.; WAC 296-128-600 et seq.",
+      "accrualRate": "1 hour per 40 hours worked; no accrual cap",
+      "annualCap": "No annual cap; unused leave up to 40 hours carries over",
+      "noteRestriction": "Employer CANNOT require documentation for 3 or fewer workdays. Employer must have a written policy to require documentation at all. Documentation may NOT explain nature of condition. Self-certification acceptable if note is a burden. At least 10 days given to provide verification.",
+      "noteThreshold": "3 workdays — no note for 1, 2, or 3 days; written employer policy required; self-certification available",
+      "recentChanges": "Jan 1, 2025: family member definition expanded to include any person regularly residing in employee's home"
+    },
+    "employerNotes": {
+      "canRequire": "Restricted",
+      "details": "RCW 49.46.210: documentation only after 3+ days; written policy required; nature of condition prohibited from disclosure; self-certification acceptable if note is a burden.",
+      "atWill": true,
+      "atWillExceptions": "public policy, good faith, implied contract",
+      "antiRetaliation": "RCW 49.46.210 prohibits retaliation for using paid sick leave; employer may not discipline for any absence where leave was used for authorized purpose"
+    },
+    "telehealth": {
+      "primaryStatute": "RCW 18.134 (Uniform Telehealth Act)",
+      "asyncPermitted": true,
+      "newPatientViaAsync": true,
+      "consentRequirement": "Not specified by state law",
+      "parityLaw": true
+    },
+    "forgery": {
+      "primaryStatute": "RCW § 9A.60.020 (Forgery)",
+      "classification": "Class C felony",
+      "penalties": "Up to 5 years/$10,000",
+      "medicalSpecific": "No medical-specific statute",
+      "likelyCharge": "Class C felony — up to 5 years"
+    },
+    "cities": ["Seattle", "Spokane", "Tacoma", "Vancouver", "Renton", "Bellevue", "Kirkland", "Kennewick", "Spokane Valley", "Federal Way", "Bellingham", "Redmond"],
+    "industries": ["Aerospace & Technology", "Agriculture", "Healthcare", "Trade & Logistics", "Defense"],
+    "contentAngle": "Washington state law requires your employer to have a written policy before they can even ask for a doctor's note — and if providing one would be a burden, you can submit a self-certification instead."
+  },
+  {
+    "name": "West Virginia",
+    "abbr": "WV",
+    "slug": "wv",
+    "classification": "elevated",
+    "workforce": "785,631",
+    "priorityTier": 3,
+    "sickLeave": {
+      "hasMandatoryLaw": false,
+      "lawName": null,
+      "statute": null,
+      "accrualRate": null,
+      "annualCap": null,
+      "noteRestriction": "No state restriction — employer has full discretion",
+      "noteThreshold": "No threshold — employer may require documentation at any time",
+      "recentChanges": "W. Va. Code § 23-5A-1 prohibits workers' comp retaliation"
+    },
+    "employerNotes": {
+      "canRequire": "Full Discretion",
+      "details": "No state mandatory sick leave law for private-sector. Employers may require documentation under own policy.",
+      "atWill": true,
+      "atWillExceptions": "public policy, good faith, implied contract",
+      "antiRetaliation": "W. Va. Code § 23-5A-1 prohibits retaliation for filing workers' comp claims; FMLA/ADA apply"
+    },
+    "telehealth": {
+      "primaryStatute": "W. Va. Code § 30-3-13a",
+      "asyncPermitted": false,
+      "newPatientViaAsync": false,
+      "consentRequirement": "Per statutory requirements",
+      "parityLaw": false
+    },
+    "forgery": {
+      "primaryStatute": "WV Code § 61-4-5 (Forgery)",
+      "classification": "Felony or misdemeanor (court discretion)",
+      "penalties": "Felony: 1–10 years. Misdemeanor: up to $500 fine + up to 1 year jail",
+      "medicalSpecific": "No medical-specific statute",
+      "likelyCharge": "Felony (1–10 yr) or misdemeanor at court discretion"
+    },
+    "cities": ["Charleston", "Huntington", "Morgantown", "Parkersburg", "Wheeling", "Martinsburg", "Weirton", "Fairmont", "Beckley", "Clarksburg", "South Charleston", "Lewisburg"],
+    "industries": ["Energy (Coal & Natural Gas)", "Healthcare", "Government", "Manufacturing", "Agriculture"],
+    "contentAngle": "West Virginia coal miners and healthcare workers face some of the most complex documentation needs. A TeleDirectMD note provides fast, legitimate documentation."
+  },
+  {
+    "name": "Wisconsin",
+    "abbr": "WI",
+    "slug": "wi",
+    "classification": "clear",
+    "workforce": "3,118,713",
+    "priorityTier": 2,
+    "sickLeave": {
+      "hasMandatoryLaw": false,
+      "lawName": null,
+      "statute": null,
+      "accrualRate": null,
+      "annualCap": null,
+      "noteRestriction": "No statewide PSL restriction. Wisconsin has WFMLA (Wis. Stat. § 103.10) for employers with 50+ employees: medical certification limited to 4 specific categories.",
+      "noteThreshold": "No PSL threshold. WFMLA: certification limited to 4 categories for family/medical leave",
+      "recentChanges": "Wisconsin preempts local PSL laws. Milwaukee's 2008 ordinance was preempted by the state in 2011."
+    },
+    "employerNotes": {
+      "canRequire": "Restricted (WFMLA); Discretion (general sick leave)",
+      "details": "WFMLA (Wis. Stat. § 103.10): certification limited to 4 specific categories. Broader medical records cannot be demanded. For general sick leave (not WFMLA): employer has full discretion.",
+      "atWill": true,
+      "atWillExceptions": "public policy, good faith, implied contract",
+      "antiRetaliation": "WFMLA prohibits discharge or threat for exercising rights"
+    },
+    "telehealth": {
+      "primaryStatute": "Wis. Admin. Code Ch. Med 24",
+      "asyncPermitted": true,
+      "newPatientViaAsync": true,
+      "consentRequirement": "Informed consent required",
+      "parityLaw": true
+    },
+    "forgery": {
+      "primaryStatute": "Wis. Stat. § 943.38 (Forgery)",
+      "classification": "Class H felony",
+      "penalties": "Up to 6 years/$10,000 — one of the more severe consequences for fake doctor's notes",
+      "medicalSpecific": "No medical-specific statute",
+      "likelyCharge": "Class H felony — up to 6 years"
+    },
+    "cities": ["Milwaukee", "Madison", "Green Bay", "Kenosha", "Racine", "Appleton", "Waukesha", "Oshkosh", "Eau Claire", "Janesville", "West Allis", "La Crosse"],
+    "industries": ["Manufacturing", "Agriculture (Dairy)", "Healthcare", "Professional & Business Services", "Finance & Insurance"],
+    "contentAngle": "Wisconsin's WFMLA protects workers at larger employers for serious conditions, but for everyday illness, your employer has full discretion. TeleDirectMD provides fast documentation."
+  },
+  {
+    "name": "Wyoming",
+    "abbr": "WY",
+    "slug": "wy",
+    "classification": "clear",
+    "workforce": "289,997",
+    "priorityTier": 3,
+    "sickLeave": {
+      "hasMandatoryLaw": false,
+      "lawName": null,
+      "statute": null,
+      "accrualRate": null,
+      "annualCap": null,
+      "noteRestriction": "No state restriction — employer has full discretion. Wyoming has no income tax and minimal regulation.",
+      "noteThreshold": "No threshold — employer may require a note for any absence, any duration",
+      "recentChanges": "No recent changes"
+    },
+    "employerNotes": {
+      "canRequire": "Full Discretion",
+      "details": "No state mandatory sick leave law. Employer may require a note for any absence, any duration.",
+      "atWill": true,
+      "atWillExceptions": "public policy, good faith",
+      "antiRetaliation": "FMLA/ADA apply"
+    },
+    "telehealth": {
+      "primaryStatute": "Wyo. Stat. § 26-34-104",
+      "asyncPermitted": true,
+      "newPatientViaAsync": true,
+      "consentRequirement": "Written or verbal (Medicaid); no general statutory requirement",
+      "parityLaw": false
+    },
+    "forgery": {
+      "primaryStatute": "WS § 6-3-602 (Forgery)",
+      "classification": "Felony — no grading by document type",
+      "penalties": "Up to 10 years/$10,000 — one of the harsher maximums; doctor's notes carry the full penalty",
+      "medicalSpecific": "Misdemeanor only for specific mine/permit documents; all other forgery is felony",
+      "likelyCharge": "Felony — up to 10 years"
+    },
+    "cities": ["Cheyenne", "Casper", "Laramie", "Gillette", "Rock Springs", "Sheridan", "Green River", "Evanston", "Riverton", "Jackson", "Lander", "Torrington"],
+    "industries": ["Energy (Oil, Gas & Coal)", "Agriculture & Ranching", "Tourism", "Government", "Transportation"],
+    "contentAngle": "Wyoming's energy workers — oil, gas, and coal — face safety-critical return-to-work requirements that demand proper medical documentation. TeleDirectMD gets you cleared fast."
+  }
+]
