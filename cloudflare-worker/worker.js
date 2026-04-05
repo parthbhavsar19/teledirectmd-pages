@@ -7,6 +7,7 @@
  * Environment variables (set in wrangler.toml or dashboard):
  *   VERCEL_ORIGIN  – e.g. "https://teledirectmd-pages.vercel.app"
  *   SQUARESPACE_ORIGIN – e.g. "https://teledirectmd.squarespace.com"
+ *   VERIFY_ORIGIN – e.g. "https://teledirectmd-verify.vercel.app"
  */
 
 // All state slugs served by the Next.js static site (42 states + D.C.)
@@ -92,8 +93,15 @@ export default {
     const pathParts = url.pathname.split('/').filter(Boolean);
 
     let routeToVercel = false;
+    let routeToVerify = false;
 
-    if (pathParts.length === 2 && STATE_SLUGS.has(pathParts[0])) {
+    // /verify → employer verification portal (separate Vercel project)
+    if (url.pathname === '/verify' || url.pathname.startsWith('/verify?')) {
+      routeToVerify = true;
+    } else if (url.pathname.startsWith('/api/verify') || url.pathname.startsWith('/api/approve')) {
+      // /api/verify and /api/approve → verification API endpoints
+      routeToVerify = true;
+    } else if (pathParts.length === 2 && STATE_SLUGS.has(pathParts[0])) {
       // /{stateSlug}/{conditionSlug} → state-specific condition page
       routeToVercel = true;
     } else if (pathParts.length === 1 && STATE_SLUGS.has(pathParts[0])) {
@@ -110,11 +118,23 @@ export default {
       routeToVercel = true;
     }
 
-    const origin = routeToVercel
-      ? (env.VERCEL_ORIGIN || 'https://teledirectmd-pages.vercel.app')
-      : (env.SQUARESPACE_ORIGIN || 'https://teledirectmd.squarespace.com');
+    let origin;
+    let targetPath = url.pathname;
 
-    const targetUrl = new URL(url.pathname + url.search, origin);
+    if (routeToVerify) {
+      origin = env.VERIFY_ORIGIN || 'https://teledirectmd-verify.vercel.app';
+      // Rewrite /verify to / (the verify portal root)
+      if (url.pathname === '/verify') {
+        targetPath = '/';
+      }
+      // /api/verify and /api/approve pass through as-is
+    } else if (routeToVercel) {
+      origin = env.VERCEL_ORIGIN || 'https://teledirectmd-pages.vercel.app';
+    } else {
+      origin = env.SQUARESPACE_ORIGIN || 'https://teledirectmd.squarespace.com';
+    }
+
+    const targetUrl = new URL(targetPath + url.search, origin);
 
     const response = await fetch(targetUrl.toString(), {
       method: request.method,
@@ -134,6 +154,11 @@ export default {
     // Cache Vercel-served pages at the edge for 1 hour (they are static)
     if (routeToVercel) {
       newResponse.headers.set('Cache-Control', 'public, max-age=3600, s-maxage=3600');
+    }
+
+    // Don't cache verification portal (dynamic data)
+    if (routeToVerify) {
+      newResponse.headers.set('Cache-Control', 'no-store');
     }
 
     return newResponse;
