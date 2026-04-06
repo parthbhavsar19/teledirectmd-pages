@@ -46,6 +46,9 @@
     { "src": "/new-page-1(/?)", "headers": { "Location": "/" }, "status": 301 },
     { "src": "/new-page-2(/?)", "headers": { "Location": "/" }, "status": 301 },
     { "src": "/new-page-3(/?)", "headers": { "Location": "/" }, "status": 301 },
+    { "src": "/verify(/?)", "dest": "https://teledirectmd-verify.vercel.app/" },
+    { "src": "/api/verify(.*)", "dest": "https://teledirectmd-verify.vercel.app/api/verify$1" },
+    { "src": "/api/approve(.*)", "dest": "https://teledirectmd-verify.vercel.app/api/approve$1" },
     { "handle": "filesystem" },
     {
       "src": "/(.*)",
