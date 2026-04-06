@@ -4,6 +4,9 @@
   "outputDirectory": "out",
   "trailingSlash": true,
   "routes": [
+    { "src": "/verify/?", "dest": "https://teledirectmd-verify.vercel.app/" },
+    { "src": "/api/verify(.*)", "dest": "https://teledirectmd-verify.vercel.app/api/verify$1" },
+    { "src": "/api/approve(.*)", "dest": "https://teledirectmd-verify.vercel.app/api/approve$1" },
     { "src": "/skin-fungus-tinea-treatment-online(/?)", "headers": { "Location": "/tinea-treatment-online/" }, "status": 301 },
     { "src": "/poison-ivy-treatment-online(/?)", "headers": { "Location": "/poison-ivy-oak-treatment-online/" }, "status": 301 },
     { "src": "/speech-anxiety-treatment-online(/?)", "headers": { "Location": "/performance-anxiety-treatment-online/" }, "status": 301 },
@@ -46,9 +49,6 @@
     { "src": "/new-page-1(/?)", "headers": { "Location": "/" }, "status": 301 },
     { "src": "/new-page-2(/?)", "headers": { "Location": "/" }, "status": 301 },
     { "src": "/new-page-3(/?)", "headers": { "Location": "/" }, "status": 301 },
-    { "src": "/verify(/?)", "dest": "https://teledirectmd-verify.vercel.app/" },
-    { "src": "/api/verify(.*)", "dest": "https://teledirectmd-verify.vercel.app/api/verify$1" },
-    { "src": "/api/approve(.*)", "dest": "https://teledirectmd-verify.vercel.app/api/approve$1" },
     { "handle": "filesystem" },
     {
       "src": "/(.*)",
