@@ -191,7 +191,7 @@ export default function StatesWeServeClient({
 
   /* ── FAQ items (dynamic state names) ── */
   const faqItems = [
-    { q: 'What states does TeleDirectMD serve?', a: `TeleDirectMD physicians are licensed and available in ${stateCount} U.S. states and territories, including ${stateNamesList}. We are actively expanding to additional states.` },
+    { q: 'What states does TeleDirectMD serve?', a: `TeleDirectMD physicians are licensed and available in 40+ U.S. states and territories, including ${stateNamesList}. We are actively expanding to additional states.` },
     { q: 'How much does a TeleDirectMD visit cost?', a: 'Every TeleDirectMD visit is a flat $49 — no hidden fees, no copays, no surprise charges. This includes your full video consultation with a board-certified physician and any prescriptions sent to your pharmacy if clinically appropriate. No insurance is required.' },
     { q: 'Do I need insurance to use TeleDirectMD?', a: 'No. TeleDirectMD is a direct-pay telemedicine practice. You pay the flat $49 visit fee directly — no insurance filing, no copays, and no prior authorization needed. This model means you get care faster without insurance overhead.' },
     { q: 'What conditions does TeleDirectMD treat?', a: `TeleDirectMD treats a wide range of conditions via video visits, including virtual urgent care (UTIs, sinus infections, influenza, COVID-19, sore throat, pink eye, ear pain), women\u2019s health (bacterial vaginosis, yeast infections), men\u2019s health, skin conditions (acne, eczema, cellulitis, shingles, cold sores), and medication refills (migraine, asthma, GERD). Visit our <a href="/what-we-treat">What We Treat</a> page for the complete list.` },
@@ -224,11 +224,11 @@ export default function StatesWeServeClient({
           Licensed Physician-Led Telemedicine
         </div>
         <h1 id="tdmd-hero-title">States <em>We Serve</em></h1>
-        <p className="tdmd-hero-sub">Board-certified physicians delivering secure video consultations to adults 18+ across {stateCount} U.S. states and territories. Same-day appointments, transparent pricing, no insurance required.</p>
+        <p className="tdmd-hero-sub">Board-certified physicians delivering secure video consultations to adults 18+ across 40+ U.S. states and territories. Same-day appointments, transparent pricing, no insurance required.</p>
         <div className="sws-stats-row">
           <div className="sws-stat-chip">
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 1118 0z"/><circle cx="12" cy="10" r="3"/></svg>
-            <div><span className="val">{stateCount}+</span><span className="lbl">States</span></div>
+            <div><span className="val">40+</span><span className="lbl">States</span></div>
           </div>
           <div className="sws-stat-chip">
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"/></svg>

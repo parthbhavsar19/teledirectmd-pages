@@ -8,8 +8,8 @@ const FEATURED_SLUGS = ['ga', 'fl', 'tx', 'ca', 'tn', 'pa', 'oh', 'nc'];
 export async function generateMetadata() {
   const allStates = getStates();
   const stateCount = allStates.length;
-  const title = `States We Serve — Licensed Telemedicine in ${stateCount}+ States | TeleDirectMD`;
-  const description = `Board-certified physicians delivering $49 video consultations to adults 18+ across ${stateCount} U.S. states and territories. Same-day availability, no insurance required. See our full coverage map and book online.`;
+  const title = `States We Serve — Licensed Telemedicine in 40+ States | TeleDirectMD`;
+  const description = `Board-certified physicians delivering $49 video consultations to adults 18+ across 40+ U.S. states and territories. Same-day availability, no insurance required. See our full coverage map and book online.`;
   const pageUrl = 'https://teledirectmd.com/states-we-serve';
 
   return {
@@ -55,8 +55,8 @@ function buildJsonLd(allStates, categories) {
         '@type': 'MedicalWebPage',
         '@id': `${baseUrl}/states-we-serve#webpage`,
         url: `${baseUrl}/states-we-serve`,
-        name: `States We Serve — Licensed Telemedicine in ${stateCount}+ States | TeleDirectMD`,
-        description: `Licensed states directory for TeleDirectMD adult-only physician-led telemedicine video visits across ${stateCount} U.S. states and territories.`,
+        name: `States We Serve — Licensed Telemedicine in 40+ States | TeleDirectMD`,
+        description: `Licensed states directory for TeleDirectMD adult-only physician-led telemedicine video visits across 40+ U.S. states and territories.`,
         inLanguage: 'en-US',
         dateModified: new Date().toISOString().split('T')[0],
         lastReviewed: new Date().toISOString().split('T')[0],
@@ -84,7 +84,7 @@ function buildJsonLd(allStates, categories) {
         email: 'contact@teledirectmd.com',
         logo: `${baseUrl}/assets/teledirectmd-logo.png`,
         image: `${baseUrl}/assets/og-states-we-serve.jpg`,
-        description: `TeleDirectMD is a direct-pay telemedicine practice offering $49 flat-fee video consultations with board-certified physicians across ${stateCount} U.S. states and territories. No insurance required.`,
+        description: `TeleDirectMD is a direct-pay telemedicine practice offering $49 flat-fee video consultations with board-certified physicians across 40+ U.S. states and territories. No insurance required.`,
         medicalSpecialty: ['Family Medicine', 'Urgent Care', 'Dermatology', "Women's Health"],
         address: {
           '@type': 'PostalAddress',
@@ -117,7 +117,7 @@ function buildJsonLd(allStates, categories) {
           {
             '@type': 'Question',
             name: 'What states does TeleDirectMD serve?',
-            acceptedAnswer: { '@type': 'Answer', text: `TeleDirectMD physicians are licensed and available in ${stateCount} U.S. states and territories, including ${stateNamesList}. We are actively expanding to additional states.` },
+            acceptedAnswer: { '@type': 'Answer', text: `TeleDirectMD physicians are licensed and available in 40+ U.S. states and territories, including ${stateNamesList}. We are actively expanding to additional states.` },
           },
           {
             '@type': 'Question',
