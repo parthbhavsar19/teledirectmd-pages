@@ -19,7 +19,7 @@ const faqItems = [
   // Section 1: About TeleDirectMD
   {
     q: 'What is TeleDirectMD?',
-    a: 'TeleDirectMD is a physician-led telehealth service that connects you directly with a licensed medical doctor for virtual urgent-care video visits, providing convenient and affordable healthcare from the comfort of your home — available in 42 U.S. states and Washington, D.C.',
+    a: 'TeleDirectMD is a physician-led telehealth service that connects you directly with a licensed medical doctor for virtual urgent-care video visits, providing convenient and affordable healthcare from the comfort of your home — available in 40+ U.S. states and Washington, D.C.',
   },
   {
     q: 'Who is the doctor? Will I see the same physician every time?',
@@ -40,7 +40,7 @@ const faqItems = [
   // Section 2: Availability and States We Serve
   {
     q: 'Which states is TeleDirectMD available in?',
-    a: 'TeleDirectMD is licensed and available in 42 U.S. states plus the District of Columbia: Alabama, Arizona, California, Colorado, Connecticut, Delaware, Florida, Georgia, Hawaii, Idaho, Illinois, Indiana, Iowa, Kansas, Kentucky, Louisiana, Maine, Maryland, Michigan, Minnesota, Mississippi, Missouri, Montana, Nebraska, Nevada, New Hampshire, New Jersey, North Carolina, North Dakota, Ohio, Oklahoma, Pennsylvania, South Carolina, South Dakota, Tennessee, Texas, Utah, Washington, West Virginia, Wisconsin, and Wyoming. D.C. was added as our 42nd coverage area in March 2026.',
+    a: 'TeleDirectMD is licensed and available in 40+ U.S. states plus the District of Columbia: Alabama, Arizona, California, Colorado, Connecticut, Delaware, Florida, Georgia, Hawaii, Idaho, Illinois, Indiana, Iowa, Kansas, Kentucky, Louisiana, Maine, Maryland, Michigan, Minnesota, Mississippi, Missouri, Montana, Nebraska, Nevada, New Hampshire, New Jersey, North Carolina, North Dakota, Ohio, Oklahoma, Pennsylvania, South Carolina, South Dakota, Tennessee, Texas, Utah, Washington, West Virginia, Wisconsin, and Wyoming.',
   },
   {
     q: 'Do I need to live in a state to be seen there?',
@@ -48,7 +48,7 @@ const faqItems = [
   },
   {
     q: 'Can I use TeleDirectMD while traveling?',
-    a: 'Absolutely. As long as you are physically located in one of our 42 covered states or D.C. at the time of your appointment, we can see you. TeleDirectMD is a great option for travelers who need quick access to a doctor on the road.',
+    a: 'Absolutely. As long as you are physically located in one of our 40+ covered states or D.C. at the time of your appointment, we can see you. TeleDirectMD is a great option for travelers who need quick access to a doctor on the road.',
   },
   // Section 3: Conditions, Prescriptions, and Scope of Care
   {

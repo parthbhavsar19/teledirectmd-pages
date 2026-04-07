@@ -221,7 +221,7 @@ const sections = [
               affordable healthcare from the comfort of your home.
             </p>
             <p>
-              We are currently available in <strong>42 U.S. states</strong> plus Washington, D.C.
+              We are currently available in <strong>40+ U.S. states</strong> plus Washington, D.C.
             </p>
           </>
         ),
@@ -287,7 +287,7 @@ const sections = [
         a: (
           <>
             <p>
-              TeleDirectMD is licensed and available in <strong>42 U.S. states</strong> plus the
+              TeleDirectMD is licensed and available in <strong>40+ U.S. states</strong> plus the
               District of Columbia:
             </p>
             <p>
@@ -316,7 +316,7 @@ const sections = [
         q: 'Can I use TeleDirectMD while traveling?',
         a: (
           <p>
-            Absolutely. As long as you are physically located in one of our 42 covered states or
+            Absolutely. As long as you are physically located in one of our 40+ covered states or
             D.C. at the time of your appointment, we can see you. TeleDirectMD is a great option for
             travelers who need quick access to a doctor on the road.
           </p>

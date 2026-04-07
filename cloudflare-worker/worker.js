@@ -10,7 +10,7 @@
  *   VERIFY_ORIGIN – e.g. "https://teledirectmd-verify.vercel.app"
  */
 
-// All state slugs served by the Next.js static site (42 states + D.C.)
+// All state slugs served by the Next.js static site (40+ states)
 const STATE_SLUGS = new Set([
   'al','az','ca','co','ct','dc','de','fl','ga','hi','ia','id','il','in','ks','ky',
   'la','md','me','mi','mn','mo','ms','mt','nc','nd','ne','nh','nj','nv','oh',

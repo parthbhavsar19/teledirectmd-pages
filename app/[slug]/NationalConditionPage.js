@@ -18,14 +18,14 @@ export default function NationalConditionPage({ conditionSlug }) {
   /* National intro — replace residual state-specific text with national copy */
   const nationalIntro = condition.hero.introParagraph
     .replace(/This page is for adults located in one of our covered states, including communities nationwide\./g,
-      `TeleDirectMD is currently licensed in ${allStates.length} states. Select your state below to find your state-specific treatment page.`);
+      `TeleDirectMD is currently licensed in 40+ states. Select your state below to find your state-specific treatment page.`);
 
   const nationalSideH2 = condition.hero.sideCard.h2;
 
   /* National benefits — swap location line for state count */
   const nationalBenefits = condition.hero.benefits.map((b) =>
     b.replace(/Licensed telehealth care for patients located in one of our covered states at the time of the visit/g,
-      `Licensed in ${allStates.length} states — select yours below`)
+      `Licensed in 40+ states — select yours below`)
   );
 
   /* Find related conditions from same category */
@@ -129,7 +129,7 @@ export default function NationalConditionPage({ conditionSlug }) {
               <h3>✓ You Are Eligible If</h3>
               <ul className="tdmd-checklist tdmd-checklist--good">
                 {condition.eligibility.eligible.map((item, i) => (
-                  <li key={i}>{item.replace(/You are physically located in one of our covered states at the time of the visit/g, `You are physically located in one of our ${allStates.length} licensed states at the time of the visit`)}</li>
+                  <li key={i}>{item.replace(/You are physically located in one of our covered states at the time of the visit/g, `You are physically located in one of our 40+ licensed states at the time of the visit`)}</li>
                 ))}
               </ul>
             </div>
@@ -177,7 +177,7 @@ export default function NationalConditionPage({ conditionSlug }) {
       <section className="tdmd-section" id={`${pid}-telehealth-regulations`}>
         <div className="tdmd-container">
           <h2>Telehealth Regulations Across Our Licensed States</h2>
-          <p>TeleDirectMD is currently licensed to provide telehealth services in {allStates.length} states. Each state has its own telehealth regulations, prescribing guidelines, and scope-of-practice rules. Our physicians follow all applicable state and federal regulations for every patient encounter.</p>
+          <p>TeleDirectMD is currently licensed to provide telehealth services in 40+ states. Each state has its own telehealth regulations, prescribing guidelines, and scope-of-practice rules. Our physicians follow all applicable state and federal regulations for every patient encounter.</p>
           <p>When you book a visit, you will be matched with a physician licensed in the state where you are physically located. This ensures your care meets all regulatory requirements for that jurisdiction. Select your state below to see specific telehealth regulations for your location.</p>
         </div>
       </section>
@@ -585,7 +585,7 @@ export default function NationalConditionPage({ conditionSlug }) {
       <section className="tdmd-section" id={`${pid}-states`}>
         <div className="tdmd-container">
           <h2>Get {condition.conditionName} in Your State</h2>
-          <p>TeleDirectMD treats {condition.conditionName.toLowerCase()} via telehealth in {allStates.length} states. Select your state for a page tailored to your location, including local telehealth regulations and pharmacy options.</p>
+          <p>TeleDirectMD treats {condition.conditionName.toLowerCase()} via telehealth in 40+ states. Select your state for a page tailored to your location, including local telehealth regulations and pharmacy options.</p>
 
           <div className="tdmd-other-states-grid">
             {allStates.map((s) => (

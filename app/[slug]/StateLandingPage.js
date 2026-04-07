@@ -452,7 +452,7 @@ export default function StateLandingPage({ stateSlug }) {
       <section className="tdmd-section" id={`${pid}-other-states`}>
         <div className="tdmd-container">
           <h2>TeleDirectMD Is Also Available in {otherStates.length} Other States</h2>
-          <p>TeleDirectMD provides MD-only telehealth visits across {allStates.length} states. Whether you are traveling, relocating, or have family in another state — we can help. Select a state below to explore available conditions and book a visit.</p>
+          <p>TeleDirectMD provides MD-only telehealth visits across 40+ states. Whether you are traveling, relocating, or have family in another state — we can help. Select a state below to explore available conditions and book a visit.</p>
           <div className="tdmd-other-states-grid">
             {otherStates.map((s) => (
               <a key={s.slug} className="tdmd-other-state-link" href={`/${s.slug}/`}>{s.name}</a>

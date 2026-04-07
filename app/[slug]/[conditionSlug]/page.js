@@ -642,7 +642,7 @@ export default async function ConditionPage({ params }) {
       <section className="tdmd-section tdmd-section-highlight" id={`${pid}-other-states`}>
         <div className="tdmd-container">
           <h2>Get {condition.conditionName} Treatment in Other States</h2>
-          <p>TeleDirectMD treats {condition.conditionName.toLowerCase()} via telehealth in {allStates.length} states. If you are traveling, relocating, or helping a family member in another state, select below to find this treatment near them.</p>
+          <p>TeleDirectMD treats {condition.conditionName.toLowerCase()} via telehealth in 40+ states. If you are traveling, relocating, or helping a family member in another state, select below to find this treatment near them.</p>
           <div className="tdmd-other-states-grid">
             {otherStates.map((s) => (
               <a key={s.slug} className="tdmd-other-state-link" href={`/${s.slug}/${conditionSlug}`}>

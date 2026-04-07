@@ -1,7 +1,7 @@
 'use client';
 import { useState, useEffect, useRef, useMemo } from 'react';
 
-export default function WhatWeTreatClient({ categories, conditionDescriptions, stateCount }) {
+export default function WhatWeTreatClient({ categories, conditionDescriptions }) {
   const [searchQuery, setSearchQuery] = useState('');
   const [collapsedSections, setCollapsedSections] = useState({});
   const [activeCategory, setActiveCategory] = useState('');
@@ -191,7 +191,7 @@ export default function WhatWeTreatClient({ categories, conditionDescriptions, s
             </div>
             <div className="tdm-banner-item">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
-              Available in {stateCount}+ states
+              Available in 40+ states
             </div>
           </div>
         </div>
@@ -345,7 +345,7 @@ export default function WhatWeTreatClient({ categories, conditionDescriptions, s
               </span>
               <span style={{ display: 'flex', alignItems: 'center', gap: '0.35rem' }}>
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="#006b73"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
-                Available in 38 states
+                Available in 40+ states
               </span>
             </div>
             <div style={{ marginTop: '0.5rem' }}>
@@ -372,7 +372,7 @@ export default function WhatWeTreatClient({ categories, conditionDescriptions, s
       <section className="tdm-bottom">
         <div className="tdm-container">
           <h2>Ready to see a doctor today?</h2>
-          <p>$49 flat fee. Select insurances also accepted. Available in {stateCount}+ states.</p>
+          <p>$49 flat fee. Select insurances also accepted. Available in 40+ states.</p>
           <a href="/book-online" className="tdm-cta">
             Book Your Visit
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
