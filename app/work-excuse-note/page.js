@@ -143,7 +143,7 @@ export default function WorkExcuseNoteHub() {
                 <li>No appointment needed</li>
                 <li>Employer-verifiable with QR code</li>
                 <li>HIPAA-compliant</li>
-                <li>Available in 32+ states</li>
+                <li>Available in 38 states</li>
               </ul>
               <div className="tdmd-hero-ctas">
                 <a href={JOTFORM} className="tdmd-btn tdmd-btn-primary" target="_blank" rel="noopener noreferrer">
