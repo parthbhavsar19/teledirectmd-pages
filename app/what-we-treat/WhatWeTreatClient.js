@@ -293,6 +293,81 @@ export default function WhatWeTreatClient({ categories, conditionDescriptions, s
         </div>
       </div>
 
+      {/* ── WORK NOTE PROMO ── */}
+      <section style={{
+        background: 'linear-gradient(135deg, #f3fafb 0%, #e8f4f6 100%)',
+        padding: '3.5rem 1.5rem',
+        borderTop: '1px solid #d4e8eb',
+        borderBottom: '1px solid #d4e8eb',
+      }}>
+        <div className="tdm-container" style={{ maxWidth: '900px' }}>
+          <div style={{
+            background: '#fff',
+            borderRadius: '16px',
+            padding: '2.5rem',
+            boxShadow: '0 2px 16px rgba(0,107,115,0.08)',
+            display: 'flex',
+            flexDirection: 'column',
+            gap: '1.25rem',
+          }}>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
+              <span style={{ fontSize: '1.75rem' }}>📋</span>
+              <h2 style={{
+                margin: 0,
+                fontSize: '1.5rem',
+                color: 'var(--tdmd-navy, #003e52)',
+                fontFamily: 'var(--tdmd-heading, Almarai, sans-serif)',
+              }}>Need a Work or School Excuse Note?</h2>
+            </div>
+            <p style={{
+              margin: 0,
+              fontSize: '1.05rem',
+              color: '#3a5a6a',
+              lineHeight: '1.65',
+            }}>
+              Feeling sick and need a doctor's note for your employer or school? TeleDirectMD offers
+              physician-reviewed work and school excuse notes for <strong>$39</strong> — no video call required.
+              A board-certified MD reviews your case and delivers your note within <strong>4 hours</strong>,
+              complete with a QR code your employer can use to verify its authenticity.
+            </p>
+            <div style={{ display: 'flex', flexWrap: 'wrap', gap: '1rem', fontSize: '0.92rem', color: '#4a7a8a' }}>
+              <span style={{ display: 'flex', alignItems: 'center', gap: '0.35rem' }}>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="#006b73"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                No appointment needed
+              </span>
+              <span style={{ display: 'flex', alignItems: 'center', gap: '0.35rem' }}>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="#006b73"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                Employer-verifiable
+              </span>
+              <span style={{ display: 'flex', alignItems: 'center', gap: '0.35rem' }}>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="#006b73"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                HIPAA-compliant
+              </span>
+              <span style={{ display: 'flex', alignItems: 'center', gap: '0.35rem' }}>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="#006b73"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                Available in 32+ states
+              </span>
+            </div>
+            <div style={{ marginTop: '0.5rem' }}>
+              <a
+                href="/work-excuse-note"
+                style={{
+                  display: 'inline-block',
+                  padding: '0.85rem 2rem',
+                  background: 'var(--tdmd-teal, #006b73)',
+                  color: '#fff',
+                  borderRadius: '10px',
+                  fontWeight: 700,
+                  fontSize: '1rem',
+                  textDecoration: 'none',
+                  transition: 'background 0.2s',
+                }}
+              >Learn More & Get Your Note — $39</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* ── BOTTOM CTA ── */}
       <section className="tdm-bottom">
         <div className="tdm-container">

@@ -1,4 +1,17 @@
+'use client';
+import { useState, useEffect } from 'react';
+
+const WORK_NOTE_JOTFORM = 'https://form.jotform.com/260787228572063';
+
 export default function SiteFooter() {
+  const [isWorkNote, setIsWorkNote] = useState(false);
+  useEffect(() => {
+    setIsWorkNote(window.location.pathname.includes('/work-excuse-note'));
+  }, []);
+  const bookHref = isWorkNote ? WORK_NOTE_JOTFORM : '/book-online';
+  const bookTarget = isWorkNote ? '_blank' : undefined;
+  const bookRel = isWorkNote ? 'noopener noreferrer' : undefined;
+
   return (
     <>
       <footer className="tdmd-site-footer">
@@ -11,14 +24,15 @@ export default function SiteFooter() {
             <p className="tdmd-footer-desc">
               Board-certified family medicine physician. $49 flat-fee virtual visits across 40+ states. No insurance required.
             </p>
-            <a href="/book-online" className="tdmd-footer-cta">Book a Visit →</a>
+            <a href={bookHref} className="tdmd-footer-cta" target={bookTarget} rel={bookRel}>{isWorkNote ? 'Get Work Note →' : 'Book a Visit →'}</a>
           </div>
 
           {/* Column 2: Patients */}
           <div className="tdmd-footer-col">
             <h4 className="tdmd-footer-heading">PATIENTS</h4>
-            <a href="/book-online">Book Now</a>
+            <a href={bookHref} target={bookTarget} rel={bookRel}>{isWorkNote ? 'Get Work Note' : 'Book Now'}</a>
             <a href="/what-we-treat">What We Treat</a>
+            <a href="/work-excuse-note">Work & School Excuse Notes</a>
             <a href="/insurance">Insurance & Pricing</a>
             <a href="/states-we-serve">States We Serve</a>
             <a href="https://app.elationpassport.com/passport/login/" target="_blank" rel="noopener noreferrer">Patient Portal</a>
@@ -106,10 +120,10 @@ export default function SiteFooter() {
       {/* Mobile sticky bottom bar */}
       <div className="tdmd-mobile-sticky-bar">
         <div className="tdmd-sticky-bar-text">
-          <strong>$49 Flat Fee</strong>
-          <span>No insurance required</span>
+          <strong>{isWorkNote ? '$39 Work Note' : '$49 Flat Fee'}</strong>
+          <span>{isWorkNote ? '4-hour turnaround' : 'No insurance required'}</span>
         </div>
-        <a href="/book-online" className="tdmd-sticky-bar-cta">Book Now</a>
+        <a href={bookHref} className="tdmd-sticky-bar-cta" target={bookTarget} rel={bookRel}>{isWorkNote ? 'Get Work Note' : 'Book Now'}</a>
       </div>
     </>
   );
