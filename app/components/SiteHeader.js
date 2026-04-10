@@ -1,21 +1,10 @@
 'use client';
 import { useState, useEffect } from 'react';
 
-const WORK_NOTE_JOTFORM = 'https://form.jotform.com/260787228572063';
-
-function useIsWorkNotePage() {
-  const [isWorkNote, setIsWorkNote] = useState(false);
-  useEffect(() => {
-    setIsWorkNote(window.location.pathname.includes('/work-excuse-note'));
-  }, []);
-  return isWorkNote;
-}
-
 const NAV_LINKS = [
   { label: 'Home', href: '/' },
   { label: 'About', href: '/about' },
   { label: 'What We Treat', href: '/what-we-treat' },
-  { label: 'Work Notes', href: '/work-excuse-note' },
   { label: 'Insurance', href: '/insurance' },
   { label: 'FAQ', href: '/faq' },
   { label: 'In the Media', href: '/media-mentions' },
@@ -24,11 +13,6 @@ const NAV_LINKS = [
 
 export default function SiteHeader() {
   const [menuOpen, setMenuOpen] = useState(false);
-  const isWorkNote = useIsWorkNotePage();
-  const ctaHref = isWorkNote ? WORK_NOTE_JOTFORM : '/book-online';
-  const ctaLabel = isWorkNote ? 'Get Work Note' : 'Book Now';
-  const ctaTarget = isWorkNote ? '_blank' : undefined;
-  const ctaRel = isWorkNote ? 'noopener noreferrer' : undefined;
 
   // Prevent body scroll when menu is open
   useEffect(() => {
@@ -55,7 +39,7 @@ export default function SiteHeader() {
           ))}
         </nav>
 
-        <a href={ctaHref} className="tdmd-header-cta-desktop" target={ctaTarget} rel={ctaRel}>{ctaLabel}</a>
+        <a href="/book-online" className="tdmd-header-cta-desktop">Book Now</a>
 
         <button
           className="tdmd-hamburger"
@@ -104,7 +88,7 @@ export default function SiteHeader() {
                 </a>
               ))}
             </nav>
-            <a href={ctaHref} className="tdmd-mobile-cta" onClick={() => setMenuOpen(false)} target={ctaTarget} rel={ctaRel}>{ctaLabel}</a>
+            <a href="/book-online" className="tdmd-mobile-cta" onClick={() => setMenuOpen(false)}>Book Now</a>
           </div>
         </div>
       )}
