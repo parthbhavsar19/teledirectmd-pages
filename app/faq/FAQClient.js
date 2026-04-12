@@ -444,14 +444,14 @@ const sections = [
             </p>
             <ul>
               <li>
-                <strong>Aetna</strong> — Commercial plans in AZ, FL, GA, IL, TN
+                <strong>Aetna</strong> — Commercial plans in AZ, CO, FL, GA, IL, MI, MN, OH, TN
               </li>
               <li>
                 <strong>Blue Cross Blue Shield</strong> — Select plans in FL (Florida Blue), GA
                 (Anthem BCBS), IL (BCBS of Illinois), PA (Highmark BCBS), TX (BCBS of Texas)
               </li>
               <li>
-                <strong>UnitedHealthcare</strong> — Commercial plans in PA, WA
+                <strong>UnitedHealthcare</strong> — Commercial plans in CO, GA, IL, MN, NJ, OH, PA, TN, WA
               </li>
             </ul>
             <p>
