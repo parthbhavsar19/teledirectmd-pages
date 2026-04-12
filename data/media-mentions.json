@@ -1,14 +1,14 @@
 {
   "stats": {
-    "publications": 25,
-    "uniqueOutlets": 17,
+    "publications": 26,
+    "uniqueOutlets": 18,
     "combinedReadership": "100M+",
-    "healthTopics": 17
+    "healthTopics": 18
   },
   "outlets": [
     "TIME", "Newsweek", "British GQ", "U.S. News & World Report", "HuffPost",
     "New York Post", "FOX News Digital", "Daily Mail", "Healthline", "Yahoo Health",
-    "Woman's World", "EatingWell", "Everyday Health", "Parade", "Men's Journal", "SHEfinds", "AOL"
+    "Woman's World", "EatingWell", "Everyday Health", "Parade", "Men's Journal", "SHEfinds", "AOL", "BlackDoctor"
   ],
   "logoUrls": {
     "TIME": "/logos/time.png",
@@ -34,6 +34,7 @@
     { "publication": "Newsweek", "title": "New Super Flu Variant: What Doctors Want You to Know", "date": "December 29, 2025", "url": "https://www.newsweek.com/new-flu-variant-what-doctors-want-you-to-know-11274513" }
   ],
   "mentions": [
+    { "publication": "BlackDoctor", "title": "When \u201cPicky Eating\u201d Is Actually Digestive Pain", "date": "Apr 2, 2026", "sortDate": "2026-04-02", "url": "https://blackdoctor.com/when-picky-eating-is-actually-digestive-pain/", "quote": "Picky eating due to food preference does not hurt a child\u2019s body or cause weight loss or pain. If a child fears food, has avoidance behaviors towards food, and has discomfort when eating, it may be a medical problem and not a food preference problem.", "tags": ["Wellness", "Nutrition"], "topics": "wellness nutrition" },
     { "publication": "Parade", "title": "I'm a Family Medicine Doctor \u2014 Here Are the 2 Supplements I Take To Stay Healthy and Well", "date": "Mar 12, 2026", "sortDate": "2026-03-12", "url": "https://parade.com/health/i-am-family-medicine-doctor-these-are-the-supplements-i-take", "quote": "The fundamentals of living a healthy lifestyle remain diet, exercise, sleep and stress relief. Supplements can be beneficial in cases of deficiencies and certain medical issues, but they should not be taken as shortcuts.", "tags": ["Nutrition", "Wellness"], "topics": "nutrition wellness" },
     { "publication": "AOL", "title": "Primary Care Physicians Say People Over 50 Should Be Careful With How Often They Eat This One Food", "date": "Mar 10, 2026", "sortDate": "2026-03-10", "url": "https://www.aol.com/primary-care-physicians-people-over-185000300.html", "quote": "Research indicates that grapefruit juice raises the levels of these medications significantly because they all rely on the CYP3A4 enzyme to be metabolized.", "tags": ["Nutrition", "Safety"], "topics": "nutrition safety" },
     { "publication": "Yahoo Health", "title": "8 Best Nontoxic Water Bottles for 2026, Tested and Sip-Approved", "date": "Mar 2, 2026", "sortDate": "2026-03-02", "url": "https://health.yahoo.com/your-body/first-aid-safety/environmental-health/article/best-nontoxic-water-bottles-194103109.html", "quote": "The real question is whether chemicals from the bottle can leach into our water in amounts that affect our health.", "tags": ["Safety"], "topics": "safety" },

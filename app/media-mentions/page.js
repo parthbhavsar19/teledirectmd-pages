@@ -3,12 +3,12 @@ import MediaMentionsClient from './MediaMentionsClient';
 export const metadata = {
   title: 'Media Mentions | TeleDirectMD Expert Coverage & Press',
   description:
-    'TeleDirectMD physicians are quoted and featured in TIME, Newsweek, British GQ, HuffPost, FOX News Digital, Healthline, and 10+ other major outlets. Browse 25 expert media appearances across nutrition, wellness, infectious disease, and safety.',
+    'TeleDirectMD physicians are quoted and featured in TIME, Newsweek, British GQ, HuffPost, FOX News Digital, Healthline, and 10+ other major outlets. Browse 26 expert media appearances across nutrition, wellness, infectious disease, and safety.',
   alternates: { canonical: 'https://teledirectmd.com/media-mentions' },
   openGraph: {
     title: 'Media Mentions | TeleDirectMD Expert Coverage & Press',
     description:
-      'Expert physician commentary from TeleDirectMD featured in TIME, Newsweek, British GQ, and 14 other major health and lifestyle publications.',
+      'Expert physician commentary from TeleDirectMD featured in TIME, Newsweek, British GQ, and 15 other major health and lifestyle publications.',
     url: 'https://teledirectmd.com/media-mentions',
     siteName: 'TeleDirectMD',
     type: 'website',
@@ -25,7 +25,7 @@ const jsonLd = {
       url: 'https://teledirectmd.com/media-mentions',
       name: 'TeleDirectMD in the Media | Press & Editorial Coverage',
       description:
-        'TeleDirectMD physicians are trusted expert sources in national health journalism, featured in 25 articles across TIME, Newsweek, British GQ, and 14 other major outlets.',
+        'TeleDirectMD physicians are trusted expert sources in national health journalism, featured in 26 articles across TIME, Newsweek, British GQ, and 15 other major outlets.',
       inLanguage: 'en-US',
       isPartOf: {
         '@type': 'WebSite',
@@ -43,7 +43,14 @@ const jsonLd = {
       hasPart: [
         {
           '@type': 'NewsArticle',
-          headline: "I'm a Family Medicine Doctor — Here Are the 2 Supplements I Take To Stay Healthy and Well",
+          headline: 'When \u201cPicky Eating\u201d Is Actually Digestive Pain',
+          datePublished: '2026-04-02',
+          publisher: { '@type': 'Organization', name: 'BlackDoctor' },
+          url: 'https://blackdoctor.com/when-picky-eating-is-actually-digestive-pain/',
+        },
+        {
+          '@type': 'NewsArticle',
+          headline: "I'm a Family Medicine Doctor \u2014 Here Are the 2 Supplements I Take To Stay Healthy and Well",
           datePublished: '2026-03-12',
           publisher: { '@type': 'Organization', name: 'Parade' },
           url: 'https://parade.com/health/i-am-family-medicine-doctor-these-are-the-supplements-i-take',
