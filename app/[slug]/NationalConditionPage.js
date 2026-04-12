@@ -13,7 +13,7 @@ export default function NationalConditionPage({ conditionSlug }) {
 
   const nationalH1 = condition.hero.h1;
 
-  const nationalSubtitle = 'Nationwide adult care by secure video visit, self pay option starting at $49, MD-only, insurance is not required.';
+  const nationalSubtitle = 'Nationwide adult care by secure video visit, self pay option starting at $49, MD-only. Insurance is not required but select plans are accepted.';
 
   /* National intro — replace residual state-specific text with national copy */
   const nationalIntro = condition.hero.introParagraph

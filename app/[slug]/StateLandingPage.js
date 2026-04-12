@@ -1,5 +1,22 @@
 import { getStates, getStateBySlug, getConditionCategories } from '../../lib/get-data';
 
+// ─── Insurance data: states where we accept insurance (keep in sync with InsuranceClient.js) ───
+const insuranceByState = {
+  AZ: [{ name: 'Aetna', plans: 'Commercial plans' }],
+  CO: [{ name: 'Aetna', plans: 'Commercial plans' }, { name: 'UnitedHealthcare', plans: 'Commercial plans' }],
+  FL: [{ name: 'Aetna', plans: 'Commercial plans' }, { name: 'Florida Blue', plans: 'Individual and group plans' }],
+  GA: [{ name: 'Aetna', plans: 'Commercial plans' }, { name: 'Anthem Blue Cross Blue Shield', plans: 'Commercial plans' }, { name: 'UnitedHealthcare', plans: 'Commercial plans' }],
+  IL: [{ name: 'Aetna', plans: 'Commercial plans' }, { name: 'Blue Cross Blue Shield of Illinois', plans: 'Commercial plans' }, { name: 'UnitedHealthcare', plans: 'Commercial plans' }],
+  MI: [{ name: 'Aetna', plans: 'Commercial plans' }],
+  MN: [{ name: 'Aetna', plans: 'Commercial plans' }, { name: 'UnitedHealthcare', plans: 'Commercial plans' }],
+  NJ: [{ name: 'UnitedHealthcare', plans: 'Commercial plans' }],
+  OH: [{ name: 'Aetna', plans: 'Commercial plans' }, { name: 'UnitedHealthcare', plans: 'Commercial plans' }],
+  PA: [{ name: 'Highmark Blue Cross Blue Shield', plans: 'Commercial plans' }, { name: 'UnitedHealthcare', plans: 'Commercial plans' }],
+  TN: [{ name: 'Aetna', plans: 'Commercial plans' }, { name: 'UnitedHealthcare', plans: 'Commercial plans' }],
+  TX: [{ name: 'Blue Cross Blue Shield of Texas', plans: 'Blue Advantage HMO, Blue Choice PPO, Health Select, Blue Essentials, Medicare Advantage' }],
+  WA: [{ name: 'UnitedHealthcare', plans: 'Commercial plans' }],
+};
+
 export default function StateLandingPage({ stateSlug }) {
   const state = getStateBySlug(stateSlug);
   const categories = getConditionCategories();
@@ -9,6 +26,8 @@ export default function StateLandingPage({ stateSlug }) {
   const pid = stateSlug;
   const cities = state.cities || [];
   const pharmacies = state.pharmacies || ['CVS Pharmacy', 'Walgreens', 'Walmart Pharmacy'];
+  const stateInsurers = insuranceByState[state.abbr] || null;
+  const hasInsurance = !!stateInsurers;
 
   const totalConditions = categories.reduce((sum, cat) => sum + cat.conditions.length, 0);
 
@@ -43,7 +62,7 @@ export default function StateLandingPage({ stateSlug }) {
         "telephone": "+1-678-956-1855",
         "email": "contact@teledirectmd.com",
         "logo": `${baseUrl}/assets/brand/teledirectmd-logo.png`,
-        "description": "TeleDirectMD is an MD-only virtual urgent care service offering secure video visits for adults across multiple states, using evidence-based evaluation and safety-first triage. Insurance is not required. TeleDirectMD does not prescribe controlled substances.",
+        "description": "TeleDirectMD is an MD-only virtual urgent care service offering secure video visits for adults across multiple states, using evidence-based evaluation and safety-first triage. Insurance is not required but is accepted in select states. TeleDirectMD does not prescribe controlled substances.",
         "areaServed": "United States"
       },
       {
@@ -53,7 +72,7 @@ export default function StateLandingPage({ stateSlug }) {
         "url": pageUrl,
         "telephone": "+1-678-956-1855",
         "email": "contact@teledirectmd.com",
-        "description": `TeleDirectMD provides MD-only telehealth video visits in ${state.name} for ${totalConditions} adult conditions, starting at $49 with no insurance required.`,
+        "description": `TeleDirectMD provides MD-only telehealth video visits in ${state.name} for ${totalConditions} adult conditions, starting at $49.${hasInsurance ? ' Select insurance plans accepted.' : ' No insurance required.'}`,
         "areaServed": {
           "@type": "AdministrativeArea",
           "name": state.name,
@@ -104,12 +123,12 @@ export default function StateLandingPage({ stateSlug }) {
           {
             "@type": "Question",
             "name": `How much does a TeleDirectMD visit cost in ${state.name}?`,
-            "acceptedAnswer": { "@type": "Answer", "text": `TeleDirectMD visits start at $49. There are no hidden fees, no subscription required, and insurance is not needed. The visit fee covers the full consultation, diagnosis, treatment plan, and any prescribed medications sent directly to your preferred ${state.name} pharmacy.` }
+            "acceptedAnswer": { "@type": "Answer", "text": `TeleDirectMD visits start at $49. There are no hidden fees, no subscription required, and insurance is not needed.${hasInsurance ? ' Select insurance plans are also accepted — standard copays apply.' : ''} The visit fee covers the full consultation, diagnosis, treatment plan, and any prescribed medications sent directly to your preferred ${state.name} pharmacy.` }
           },
           {
             "@type": "Question",
             "name": `Do I need insurance for a TeleDirectMD visit in ${state.name}?`,
-            "acceptedAnswer": { "@type": "Answer", "text": `No. TeleDirectMD is a self-pay telehealth service. Insurance is not required and not accepted. The transparent $49 visit fee covers your entire consultation.` }
+            "acceptedAnswer": { "@type": "Answer", "text": hasInsurance ? `No, insurance is not required. TeleDirectMD offers a flat $49 self-pay option. However, we also accept select insurance plans in ${state.name}, including ${stateInsurers.map(i => i.name).join(', ')}. Visit our Insurance page for details.` : `No. TeleDirectMD is a self-pay telehealth service. Insurance is not required. The transparent $49 visit fee covers your entire consultation. We are actively expanding insurance coverage to more states.` }
           },
           {
             "@type": "Question",
@@ -200,7 +219,7 @@ export default function StateLandingPage({ stateSlug }) {
         <div className="tdmd-container">
           <h1>Online Doctor in {state.name} — TeleDirectMD</h1>
           <p className="tdmd-state-hero-sub">
-            MD-only telehealth visits for {totalConditions} adult conditions. Same-day appointments, starting at $49 — no insurance required.
+            MD-only telehealth visits for {totalConditions} adult conditions. Same-day appointments, starting at $49{hasInsurance ? ' — select insurance plans accepted' : ' — no insurance required'}.
           </p>
           <p>
             TeleDirectMD connects you with a licensed physician in {state.name} through a secure video visit. Whether you need urgent care for a cold or UTI, a chronic medication refill for asthma or blood pressure, or treatment for a skin condition — we are here to help. Prescriptions are sent directly to your local {state.name} pharmacy.
@@ -306,7 +325,7 @@ export default function StateLandingPage({ stateSlug }) {
       <section className="tdmd-section" id={`${pid}-pricing`}>
         <div className="tdmd-container">
           <h2>TeleDirectMD Pricing in {state.name}</h2>
-          <p>Simple, transparent pricing with no hidden fees, no subscriptions, and no insurance required.</p>
+          <p>Simple, transparent pricing with no hidden fees and no subscriptions.{hasInsurance ? ' Self-pay and select insurance plans accepted.' : ' No insurance required.'}</p>
 
           <div className="tdmd-pricing-simple">
             <div className="tdmd-pricing-card tdmd-pricing-card-highlight">
@@ -336,7 +355,7 @@ export default function StateLandingPage({ stateSlug }) {
           </div>
 
           <p className="tdmd-cost-note">
-            <strong>No hidden fees.</strong> Your $49 visit fee is the complete cost for your TeleDirectMD consultation. Insurance is not required and not accepted.
+            <strong>No hidden fees.</strong> Your $49 visit fee is the complete cost for your TeleDirectMD consultation.{hasInsurance ? <> Select insurance plans are also accepted in {state.name} — <a href="/insurance" style={{ color: 'var(--tdmd-teal)', fontWeight: 700 }}>check your coverage</a>.</> : ' Insurance is not required.'}
           </p>
         </div>
       </section>
@@ -394,13 +413,17 @@ export default function StateLandingPage({ stateSlug }) {
             <details className="tdmd-faq-item" role="listitem">
               <summary className="tdmd-faq-question">How much does a visit cost?</summary>
               <div className="tdmd-faq-answer">
-                <p>TeleDirectMD visits start at $49 per visit. There are no hidden fees, no subscription, and no insurance required. The visit fee covers the full MD consultation, diagnosis, treatment plan, and prescriptions sent to your preferred {state.name} pharmacy.</p>
+                <p>TeleDirectMD visits start at $49 per visit. There are no hidden fees and no subscription required.{hasInsurance ? ' We also accept select insurance plans — standard copays and cost-sharing apply.' : ' No insurance required.'} The visit fee covers the full MD consultation, diagnosis, treatment plan, and prescriptions sent to your preferred {state.name} pharmacy.</p>
               </div>
             </details>
             <details className="tdmd-faq-item" role="listitem">
               <summary className="tdmd-faq-question">Do I need insurance to use TeleDirectMD?</summary>
               <div className="tdmd-faq-answer">
-                <p>No. TeleDirectMD is a self-pay telehealth service. Insurance is not required and not accepted. The $49 visit fee is the complete cost for your consultation.</p>
+                {hasInsurance ? (
+                  <p>No, insurance is not required. You can always book a $49 self-pay visit. However, TeleDirectMD also accepts select insurance plans in {state.name}, including {stateInsurers.map(i => i.name).join(', ')}. Visit our <a href="/insurance" style={{ color: 'var(--tdmd-teal)', fontWeight: 700 }}>Insurance page</a> to check your coverage.</p>
+                ) : (
+                  <p>No. Insurance is not required for a TeleDirectMD visit. The $49 visit fee is the complete cost for your consultation. We are actively expanding insurance coverage to more states — visit our <a href="/insurance" style={{ color: 'var(--tdmd-teal)', fontWeight: 700 }}>Insurance page</a> for the latest information.</p>
+                )}
               </div>
             </details>
             <details className="tdmd-faq-item" role="listitem">
@@ -438,7 +461,7 @@ export default function StateLandingPage({ stateSlug }) {
           <div className="tdmd-bottom-cta" role="region" aria-label="Book a visit call to action">
             <div className="tdmd-bottom-cta-copy">
               <h3>Ready to see a doctor in {state.name}?</h3>
-              <p>Book a same-day video visit with a licensed MD. No insurance required, starting at $49.</p>
+              <p>Book a same-day video visit with a licensed MD. Starting at $49{hasInsurance ? ', select insurance accepted' : ', no insurance required'}.</p>
             </div>
             <div className="tdmd-bottom-cta-actions">
               <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
