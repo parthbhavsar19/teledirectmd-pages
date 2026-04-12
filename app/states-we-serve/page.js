@@ -84,7 +84,7 @@ function buildJsonLd(allStates, categories) {
         email: 'contact@teledirectmd.com',
         logo: `${baseUrl}/assets/teledirectmd-logo.png`,
         image: `${baseUrl}/assets/og-states-we-serve.jpg`,
-        description: `TeleDirectMD is a direct-pay telemedicine practice offering $49 flat-fee video consultations with board-certified physicians across 40+ U.S. states and territories. No insurance required.`,
+        description: `TeleDirectMD is a direct-pay telemedicine practice offering $49 flat-fee video consultations with board-certified physicians across 40+ U.S. states and territories. Insurance is not required but select plans are accepted in some states.`,
         medicalSpecialty: ['Family Medicine', 'Urgent Care', 'Dermatology', "Women's Health"],
         address: {
           '@type': 'PostalAddress',
