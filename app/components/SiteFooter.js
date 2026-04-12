@@ -10,7 +10,7 @@ export default function SiteFooter() {
               <img src="/logo-white.webp" alt="TeleDirectMD" width="140" height="140" />
             </a>
             <p className="tdmd-footer-desc">
-              Board-certified family medicine physician. $49 flat-fee virtual visits across 40+ states. No insurance required.
+              Board-certified family medicine physician. $49 flat-fee virtual visits across 40+ states. Insurance accepted in select states.
             </p>
             <a href="/book-online" className="tdmd-footer-cta">Book a Visit →</a>
           </div>
@@ -108,7 +108,7 @@ export default function SiteFooter() {
       <div className="tdmd-mobile-sticky-bar">
         <div className="tdmd-sticky-bar-text">
           <strong>$49 Flat Fee</strong>
-          <span>No insurance required</span>
+          <span>Insurance accepted in select states</span>
         </div>
         <a href="/book-online" className="tdmd-sticky-bar-cta">Book Now</a>
       </div>

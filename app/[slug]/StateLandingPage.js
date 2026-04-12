@@ -1,21 +1,5 @@
 import { getStates, getStateBySlug, getConditionCategories } from '../../lib/get-data';
-
-// ─── Insurance data: states where we accept insurance (keep in sync with InsuranceClient.js) ───
-const insuranceByState = {
-  AZ: [{ name: 'Aetna', plans: 'Commercial plans' }],
-  CO: [{ name: 'Aetna', plans: 'Commercial plans' }, { name: 'UnitedHealthcare', plans: 'Commercial plans' }],
-  FL: [{ name: 'Aetna', plans: 'Commercial plans' }, { name: 'Florida Blue', plans: 'Individual and group plans' }],
-  GA: [{ name: 'Aetna', plans: 'Commercial plans' }, { name: 'Anthem Blue Cross Blue Shield', plans: 'Commercial plans' }, { name: 'UnitedHealthcare', plans: 'Commercial plans' }],
-  IL: [{ name: 'Aetna', plans: 'Commercial plans' }, { name: 'Blue Cross Blue Shield of Illinois', plans: 'Commercial plans' }, { name: 'UnitedHealthcare', plans: 'Commercial plans' }],
-  MI: [{ name: 'Aetna', plans: 'Commercial plans' }],
-  MN: [{ name: 'Aetna', plans: 'Commercial plans' }, { name: 'UnitedHealthcare', plans: 'Commercial plans' }],
-  NJ: [{ name: 'UnitedHealthcare', plans: 'Commercial plans' }],
-  OH: [{ name: 'Aetna', plans: 'Commercial plans' }, { name: 'UnitedHealthcare', plans: 'Commercial plans' }],
-  PA: [{ name: 'Highmark Blue Cross Blue Shield', plans: 'Commercial plans' }, { name: 'UnitedHealthcare', plans: 'Commercial plans' }],
-  TN: [{ name: 'Aetna', plans: 'Commercial plans' }, { name: 'UnitedHealthcare', plans: 'Commercial plans' }],
-  TX: [{ name: 'Blue Cross Blue Shield of Texas', plans: 'Blue Advantage HMO, Blue Choice PPO, Health Select, Blue Essentials, Medicare Advantage' }],
-  WA: [{ name: 'UnitedHealthcare', plans: 'Commercial plans' }],
-};
+import { getStateInsurance } from '../../lib/insurance-data';
 
 export default function StateLandingPage({ stateSlug }) {
   const state = getStateBySlug(stateSlug);
@@ -26,7 +10,7 @@ export default function StateLandingPage({ stateSlug }) {
   const pid = stateSlug;
   const cities = state.cities || [];
   const pharmacies = state.pharmacies || ['CVS Pharmacy', 'Walgreens', 'Walmart Pharmacy'];
-  const stateInsurers = insuranceByState[state.abbr] || null;
+  const stateInsurers = getStateInsurance(state.abbr);
   const hasInsurance = !!stateInsurers;
 
   const totalConditions = categories.reduce((sum, cat) => sum + cat.conditions.length, 0);

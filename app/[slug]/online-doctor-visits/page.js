@@ -1,4 +1,5 @@
 import { getStates, getStateBySlug, getConditionCategories } from '../../../lib/get-data';
+import { getStateInsurance } from '../../../lib/insurance-data';
 import { notFound } from 'next/navigation';
 
 const defined_states = ['al', 'az', 'ca', 'co', 'ct', 'dc', 'de', 'fl', 'ga', 'hi', 'id', 'il', 'in', 'ia', 'ks', 'ky', 'la', 'me', 'md', 'mi', 'mn', 'ms', 'mo', 'mt', 'ne', 'nv', 'nh', 'nj', 'nc', 'nd', 'oh', 'ok', 'pa', 'sc', 'sd', 'tn', 'tx', 'ut', 'wa', 'wv', 'wi', 'wy'];
@@ -14,7 +15,8 @@ export async function generateMetadata({ params }) {
   const baseUrl = 'https://teledirectmd.com';
   const pageUrl = `${baseUrl}/${slug}/online-doctor-visits`;
   const title = `Online Doctor Visits in ${state.name} | Physician-Led Video Care | TeleDirectMD`;
-  const description = `See a board-certified MD online in ${state.name} by secure video visit. TeleDirectMD offers physician-led telehealth for urgent care, chronic medication refills, and more. Self pay option starting at $49. Insurance is not required.`;
+  const insData = getStateInsurance(state.abbr);
+  const description = `See a board-certified MD online in ${state.name} by secure video visit. TeleDirectMD offers physician-led telehealth for urgent care, chronic medication refills, and more. Self pay option starting at $49.${insData ? ' Select insurance plans accepted.' : ' Insurance is not required.'}`;
   return {
     title,
     description,
@@ -36,6 +38,8 @@ export default async function OnlineDoctorVisitsPage({ params }) {
   const baseUrl = 'https://teledirectmd.com';
   const pageUrl = `${baseUrl}/${slug}/online-doctor-visits`;
   const today = new Date().toISOString().split('T')[0];
+  const stateInsurers = getStateInsurance(state.abbr);
+  const hasInsurance = !!stateInsurers;
 
   const jsonLd = {
     '@context': 'https://schema.org',
@@ -66,7 +70,7 @@ export default async function OnlineDoctorVisitsPage({ params }) {
         telephone: '+1-678-956-1855',
         email: 'contact@teledirectmd.com',
         logo: `${baseUrl}/assets/brand/teledirectmd-logo.png`,
-        description: `TeleDirectMD provides physician-led video visits in ${state.name} for ${totalConditions} adult conditions, starting at $49. Insurance is not required.`,
+        description: `TeleDirectMD provides physician-led video visits in ${state.name} for ${totalConditions} adult conditions, starting at $49.${hasInsurance ? ' Select insurance plans accepted.' : ' Insurance is not required.'}`,
         areaServed: { '@type': 'AdministrativeArea', name: state.name },
         medicalSpecialty: 'Family Medicine',
         availableService: {
@@ -83,7 +87,7 @@ export default async function OnlineDoctorVisitsPage({ params }) {
           {
             '@type': 'Question',
             name: `What conditions can TeleDirectMD treat online in ${state.name}?`,
-            acceptedAnswer: { '@type': 'Answer', text: `TeleDirectMD evaluates and treats ${totalConditions} adult conditions in ${state.name} by secure video visit, including urgent care, chronic medication refills, skin conditions, and wellness visits. Self pay option starting at $49. Insurance is not required.` }
+            acceptedAnswer: { '@type': 'Answer', text: `TeleDirectMD evaluates and treats ${totalConditions} adult conditions in ${state.name} by secure video visit, including urgent care, chronic medication refills, skin conditions, and wellness visits. Self pay option starting at $49.${hasInsurance ? ' Select insurance plans also accepted.' : ' Insurance is not required.'}` }
           },
           {
             '@type': 'Question',
@@ -98,12 +102,12 @@ export default async function OnlineDoctorVisitsPage({ params }) {
           {
             '@type': 'Question',
             name: `How much does an online doctor visit cost in ${state.name}?`,
-            acceptedAnswer: { '@type': 'Answer', text: `TeleDirectMD offers a self pay option starting at $49 for an adult video visit in ${state.name}. Insurance is not required. There are no hidden fees. If a prescription is not clinically appropriate, you still receive a complete evaluation and guidance.` }
+            acceptedAnswer: { '@type': 'Answer', text: `TeleDirectMD offers a self pay option starting at $49 for an adult video visit in ${state.name}.${hasInsurance ? ' Select insurance plans are also accepted — standard copays apply.' : ' Insurance is not required.'} There are no hidden fees. If a prescription is not clinically appropriate, you still receive a complete evaluation and guidance.` }
           },
           {
             '@type': 'Question',
             name: 'Do I need insurance for a TeleDirectMD visit?',
-            acceptedAnswer: { '@type': 'Answer', text: 'No. Insurance is not required. TeleDirectMD offers a transparent self pay option starting at $49. Prescription costs are separate and vary by medication and pharmacy.' }
+            acceptedAnswer: { '@type': 'Answer', text: hasInsurance ? `No, insurance is not required. TeleDirectMD offers a $49 self-pay option. However, we also accept select insurance plans in ${state.name}, including ${stateInsurers.map(i => i.name).join(', ')}. Prescription costs are separate and vary by medication and pharmacy.` : 'No. Insurance is not required. TeleDirectMD offers a transparent self pay option starting at $49. Prescription costs are separate and vary by medication and pharmacy.' }
           }
         ]
       }
@@ -150,7 +154,7 @@ export default async function OnlineDoctorVisitsPage({ params }) {
             Online Doctor Visits in {state.name}
           </h1>
           <p style={{ fontSize: '1.15rem', color: '#0d9488', fontWeight: 600, marginBottom: '16px' }}>
-            Physician-led video care for {state.name} adults. Self pay option starting at $49. Insurance is not required.
+            Physician-led video care for {state.name} adults. Self pay option starting at $49.{hasInsurance ? ' Select insurance plans accepted.' : ' Insurance is not required.'}
           </p>
           <p style={{ fontSize: '1rem', color: '#374151', lineHeight: 1.7 }}>
             TeleDirectMD offers board-certified physician video visits for adults located in {state.name}. Every visit is a live, synchronous encounter with an MD. There are no mid-level providers, no asynchronous questionnaires, and no subscription requirements. We evaluate and treat {totalConditions} conditions across urgent care, chronic medication refills, skin and bite concerns, sexual health, and wellness. If treatment is clinically appropriate, a prescription is sent to your preferred pharmacy. If your condition requires in-person evaluation, we will tell you directly and provide clear guidance on your next step.
@@ -223,7 +227,7 @@ export default async function OnlineDoctorVisitsPage({ params }) {
           <h2 style={{ fontSize: '1.6rem', fontWeight: 700, color: '#111827', marginBottom: '16px' }}>What Does an Online Doctor Visit Cost in {state.name}?</h2>
           <div style={{ background: '#f0fdfa', border: '2px solid #0d9488', borderRadius: '12px', padding: '24px', marginBottom: '16px' }}>
             <div style={{ fontSize: '2.2rem', fontWeight: 700, color: '#0d9488' }}>$49</div>
-            <div style={{ fontSize: '0.95rem', color: '#374151', marginTop: '4px' }}>Self pay option. Insurance is not required.</div>
+            <div style={{ fontSize: '0.95rem', color: '#374151', marginTop: '4px' }}>Self pay option.{hasInsurance ? <> Select insurance plans also accepted — <a href="/insurance" style={{ color: '#0d9488', fontWeight: 600 }}>check coverage</a>.</> : ' Insurance is not required.'}</div>
             <ul style={{ listStyle: 'none', padding: 0, margin: '16px 0 0' }}>
               {['Board-certified MD evaluation by video', 'Red-flag screening and clinical triage', 'Treatment plan and prescription if clinically appropriate', 'Follow-up guidance and escalation instructions', 'No hidden fees and no subscription required'].map((item, i) => (
                 <li key={i} style={{ fontSize: '0.92rem', color: '#374151', padding: '4px 0', display: 'flex', gap: '8px' }}>
@@ -262,14 +266,14 @@ export default async function OnlineDoctorVisitsPage({ params }) {
         {/* Final CTA */}
         <section style={{ padding: '32px 0', borderTop: '1px solid #e5e7eb', textAlign: 'center' }}>
           <h2 style={{ fontSize: '1.4rem', fontWeight: 700, color: '#111827', marginBottom: '8px' }}>Ready to See a Doctor Online in {state.name}?</h2>
-          <p style={{ fontSize: '0.95rem', color: '#4b5563', marginBottom: '20px' }}>Insurance is not required. Adult-only video visits. MD-only care. Safety-first triage and clear next steps.</p>
+          <p style={{ fontSize: '0.95rem', color: '#4b5563', marginBottom: '20px' }}>{hasInsurance ? 'Self-pay and select insurance accepted.' : 'Insurance is not required.'} Adult-only video visits. MD-only care. Safety-first triage and clear next steps.</p>
           <a href="/book-online" style={{ display: 'inline-block', background: '#0d9488', color: '#fff', padding: '14px 40px', borderRadius: '8px', fontWeight: 600, fontSize: '1.05rem', textDecoration: 'none' }}>Book a Visit Now</a>
         </section>
 
         {/* Disclaimer */}
         <section style={{ padding: '24px 0', borderTop: '1px solid #e5e7eb' }}>
           <p style={{ fontSize: '0.78rem', color: '#9ca3af', lineHeight: 1.5 }}>
-            TeleDirectMD provides MD-only virtual urgent care for adults (18+) in {state.name}. Insurance is not required. You must be physically located in {state.name} at the time of your video visit. TeleDirectMD does not prescribe controlled substances. TeleDirectMD is not an emergency service and is not a replacement for urgent in-person care. If you are experiencing a medical emergency, call 911.
+            TeleDirectMD provides MD-only virtual urgent care for adults (18+) in {state.name}. Insurance is not required{hasInsurance ? ' but select plans are accepted' : ''}. You must be physically located in {state.name} at the time of your video visit. TeleDirectMD does not prescribe controlled substances. TeleDirectMD is not an emergency service and is not a replacement for urgent in-person care. If you are experiencing a medical emergency, call 911.
           </p>
           <p style={{ fontSize: '0.75rem', color: '#d1d5db', marginTop: '8px' }}>Medically reviewed by Parth Bhavsar, MD. Last updated {today}.</p>
         </section>

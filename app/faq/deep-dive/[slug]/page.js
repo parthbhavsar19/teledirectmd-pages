@@ -1,4 +1,5 @@
 import { getStateBySlug } from '../../../../lib/get-data';
+import { getStateInsurance } from '../../../../lib/insurance-data';
 import { notFound } from 'next/navigation';
 
 const STATES = ['al','az','ca','co','ct','dc','de','fl','ga','hi','id','il','in','ia','ks','ky','la','me','md','mi','mn','ms','mo','mt','ne','nv','nh','nj','nc','nd','oh','ok','pa','sc','sd','tn','tx','ut','wa','wv','wi','wy'];
@@ -34,7 +35,12 @@ export async function generateMetadata({ params }) {
   const pageUrl = `${baseUrl}/faq/deep-dive/${slug}`;
   const medLower = page.medication.toLowerCase();
   const title = `Can You Get ${page.medication} Online in ${state.name}? | TeleDirectMD`;
-  const description = `Yes, adults in ${state.name} may be eligible for a ${medLower} evaluation by video visit with a board-certified MD at TeleDirectMD. Self pay option starting at $49. Insurance is not required.`;
+  const stateAbbr = state.abbreviation || page.stateSlug.toUpperCase();
+  const stateIns = getStateInsurance(stateAbbr);
+  const pricingNote = stateIns
+    ? `$49 flat fee or insurance — we accept ${stateIns.map(p => p.name).join(', ')} in ${state.name}.`
+    : `Self pay option starting at $49. No insurance required.`;
+  const description = `Yes, adults in ${state.name} may be eligible for a ${medLower} evaluation by video visit with a board-certified MD at TeleDirectMD. ${pricingNote}`;
   return {
     title,
     description,
@@ -58,11 +64,21 @@ export default async function FAQDeepDivePage({ params }) {
   const medLower = page.medication.toLowerCase();
   const isUTI = page.condition === 'UTI Treatment';
   const medDisplay = isUTI ? 'antibiotics for a UTI' : medLower;
+  const stateAbbrR = state.abbreviation || page.stateSlug.toUpperCase();
+  const stateInsR = getStateInsurance(stateAbbrR);
+  const pricingBlurb = stateInsR
+    ? `$49 flat fee or insurance — we accept ${stateInsR.map(p => p.name).join(', ')} in ${state.name}.`
+    : `Self pay option starting at $49. No insurance required.`;
+  const pricingShort = stateInsR
+    ? `The visit is $49 flat fee, or you can use insurance if you have ${stateInsR.map(p => p.name).join(', ')}.`
+    : `The visit is a self pay option starting at $49. Insurance is not required.`;
 
   const faqItems = [
-    { q: `Can I get ${medDisplay} online in ${state.name}?`, a: `Yes. Adults physically located in ${state.name} may be eligible for a ${page.concern} evaluation through a TeleDirectMD video visit with a board-certified MD. If ${medDisplay} is clinically appropriate based on your history and evaluation, a prescription can be sent to your preferred pharmacy. Self pay option starting at $49. Insurance is not required.` },
+    { q: `Can I get ${medDisplay} online in ${state.name}?`, a: `Yes. Adults physically located in ${state.name} may be eligible for a ${page.concern} evaluation through a TeleDirectMD video visit with a board-certified MD. If ${medDisplay} is clinically appropriate based on your history and evaluation, a prescription can be sent to your preferred pharmacy. ${pricingBlurb}` },
     { q: `Do I need a video visit for ${medDisplay} in ${state.name}?`, a: `TeleDirectMD requires a live, synchronous video visit with a board-certified MD for all evaluations. This ensures a proper clinical assessment, red-flag screening, and individualized treatment decisions. Some states require a real-time clinical encounter for certain prescriptions, and TeleDirectMD meets or exceeds these standards.` },
-    { q: `How much does a ${page.concern} evaluation cost?`, a: `The TeleDirectMD visit is a self pay option starting at $49. Insurance is not required. Prescription costs are separate and vary by pharmacy. There are no hidden fees and no subscription is required.` },
+    { q: `How much does a ${page.concern} evaluation cost?`, a: stateInsR
+      ? `The TeleDirectMD visit is $49 flat fee, or you can use insurance. We accept ${stateInsR.map(p => p.name).join(', ')} in ${state.name}. Prescription costs are separate and vary by pharmacy. There are no hidden fees and no subscription is required.`
+      : `The TeleDirectMD visit is a self pay option starting at $49. Insurance is not required. Prescription costs are separate and vary by pharmacy. There are no hidden fees and no subscription is required.` },
     { q: `What happens during the visit?`, a: `You connect by secure video with a board-certified MD licensed in ${state.name}. The physician takes your medical history, evaluates your condition, screens for red flags or contraindications, and discusses treatment options including ${medDisplay} if appropriate. If a prescription is clinically appropriate, it is sent to your preferred pharmacy.` },
     { q: `What if ${medDisplay} is not appropriate for me?`, a: `If ${medDisplay} is not clinically appropriate based on your evaluation, your MD will explain why and discuss alternative options or recommend in-person follow-up. You still receive a complete evaluation and clear guidance on next steps.` },
     { q: `Is TeleDirectMD licensed in ${state.name}?`, a: `Yes. TeleDirectMD is licensed to provide telehealth services in ${state.name}. All visits are conducted by board-certified MDs who hold active medical licenses in ${state.name}.` }
@@ -110,7 +126,7 @@ export default async function FAQDeepDivePage({ params }) {
             Yes. Adults in {state.name} may be eligible for a {medDisplay} evaluation by video visit with a board-certified MD.
           </p>
           <p style={{ fontSize: '1rem', color: '#374151', lineHeight: 1.7 }}>
-            TeleDirectMD offers live, physician-led video visits for adults located in {state.name} who are {page.evalContext} {medDisplay}. Every visit is a synchronous encounter with a board-certified MD who evaluates your condition, screens for contraindications, and discusses whether {medDisplay} or other treatments may be appropriate for you. Self pay option starting at $49. Insurance is not required.
+            TeleDirectMD offers live, physician-led video visits for adults located in {state.name} who are {page.evalContext} {medDisplay}. Every visit is a synchronous encounter with a board-certified MD who evaluates your condition, screens for contraindications, and discusses whether {medDisplay} or other treatments may be appropriate for you. {pricingBlurb}
           </p>
           <div style={{ display: 'flex', gap: '12px', marginTop: '20px', flexWrap: 'wrap' }}>
             <a href="/book-online" style={{ display: 'inline-block', background: '#0d9488', color: '#fff', padding: '12px 28px', borderRadius: '8px', fontWeight: 600, fontSize: '0.95rem', textDecoration: 'none' }}>Book a Visit</a>
@@ -123,7 +139,7 @@ export default async function FAQDeepDivePage({ params }) {
           <div style={{ background: '#f0fdfa', border: '1px solid #99f6e4', borderRadius: '10px', padding: '20px' }}>
             <h2 style={{ fontSize: '1.1rem', fontWeight: 700, color: '#0f766e', marginBottom: '10px' }}>Quick Answer</h2>
             <p style={{ fontSize: '0.95rem', color: '#374151', lineHeight: 1.6, margin: 0 }}>
-              Yes, adults in {state.name} can get a {medDisplay} evaluation online through TeleDirectMD. You will see a board-certified MD by live video visit. If {medDisplay} is clinically appropriate, a prescription is sent to your preferred pharmacy. The visit is a self pay option starting at $49. Insurance is not required. No subscription is needed.
+              Yes, adults in {state.name} can get a {medDisplay} evaluation online through TeleDirectMD. You will see a board-certified MD by live video visit. If {medDisplay} is clinically appropriate, a prescription is sent to your preferred pharmacy. {pricingShort} No subscription is needed.
             </p>
           </div>
         </section>
@@ -173,7 +189,7 @@ export default async function FAQDeepDivePage({ params }) {
         {/* Disclaimer */}
         <section style={{ padding: '20px 0', borderTop: '1px solid #e5e7eb' }}>
           <p style={{ fontSize: '0.78rem', color: '#9ca3af', lineHeight: 1.5 }}>
-            TeleDirectMD provides MD-only virtual care for adults (18+) in {state.name}. Insurance is not required. A prescription for {medDisplay} is not guaranteed and depends on the clinical evaluation. You must be physically located in {state.name} at the time of your visit. TeleDirectMD does not prescribe controlled substances. TeleDirectMD is not an emergency service.
+            TeleDirectMD provides MD-only virtual care for adults (18+) in {state.name}. {stateInsR ? `We accept ${stateInsR.map(p => p.name).join(', ')} in ${state.name}. Self-pay is also available starting at $49.` : 'Insurance is not required. Self pay option starting at $49.'} A prescription for {medDisplay} is not guaranteed and depends on the clinical evaluation. You must be physically located in {state.name} at the time of your visit. TeleDirectMD does not prescribe controlled substances. TeleDirectMD is not an emergency service.
           </p>
           <p style={{ fontSize: '0.75rem', color: '#d1d5db', marginTop: '8px' }}>Medically reviewed by Parth Bhavsar, MD. Last updated {today}.</p>
         </section>
