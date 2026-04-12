@@ -634,6 +634,21 @@ export default function NationalConditionPage({ conditionSlug }) {
           </div>
         </div>
       </section>
+
+      {/* 22) Quick Links */}
+      <section className="tdmd-section" id={`${pid}-quick-links`}>
+        <div className="tdmd-container">
+          <h2>More from TeleDirectMD</h2>
+          <div className="tdmd-inline-links">
+            <p className="tdmd-link-cloud">
+              <a href="/insurance">Insurance & Pricing</a>
+              <a href="/states-we-serve">States We Serve</a>
+              <a href="/faq">Frequently Asked Questions</a>
+              <a href="/book-online">Book a Visit</a>
+            </p>
+          </div>
+        </div>
+      </section>
     </>
   );
 }

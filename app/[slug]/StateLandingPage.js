@@ -231,6 +231,7 @@ export default function StateLandingPage({ stateSlug }) {
           <div className="tdmd-hero-ctas">
             <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
             <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All Conditions</a>
+            <a href={`/${stateSlug}/online-doctor-visits`} className="tdmd-btn tdmd-btn-outline">Online Doctor Visits in {state.name}</a>
           </div>
 
           <p className="tdmd-reviewed">
@@ -455,7 +456,24 @@ export default function StateLandingPage({ stateSlug }) {
         </div>
       </section>
 
-      {/* 8) Other States */}
+      {/* 8) Quick Links */}
+      <section className="tdmd-section" id={`${pid}-quick-links`}>
+        <div className="tdmd-container">
+          <h2>More Resources for {state.name} Patients</h2>
+          <p>Explore more about TeleDirectMD services available in {state.name}.</p>
+          <div className="tdmd-inline-links">
+            <p className="tdmd-link-cloud">
+              <a href={`/${stateSlug}/online-doctor-visits`}>Online Doctor Visits in {state.name}</a>
+              <a href="/insurance">Insurance & Pricing</a>
+              <a href="/faq">Frequently Asked Questions</a>
+              <a href="/states-we-serve">All States We Serve</a>
+              <a href="/what-we-treat">What We Treat</a>
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* 9) Other States */}
       <section className="tdmd-section" id={`${pid}-other-states`}>
         <div className="tdmd-container">
           <h2>TeleDirectMD Is Also Available in {otherStates.length} Other States</h2>

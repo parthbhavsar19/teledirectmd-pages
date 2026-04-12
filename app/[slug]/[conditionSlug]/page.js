@@ -1,5 +1,6 @@
 import { getStates, getConditionSlugs, getCondition, getStateBySlug, resolveConditionForState } from '../../../lib/get-data';
 import { generateJsonLd } from '../../../lib/json-ld';
+import { getStateInsurance } from '../../../lib/insurance-data';
 
 export async function generateStaticParams() {
   const states = getStates();
@@ -569,6 +570,18 @@ export default async function ConditionPage({ params }) {
               <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
               <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
             </div>
+          </div>
+
+          {/* Cross-links */}
+          <div className="tdmd-inline-links" style={{ marginTop: '2rem' }}>
+            <h3>More {state.name} Resources</h3>
+            <p className="tdmd-link-cloud">
+              <a href={`/${slug}/online-doctor-visits`}>Online Doctor Visits in {state.name}</a>
+              <a href={`/${slug}`}>All Conditions in {state.name}</a>
+              <a href="/insurance">Insurance & Pricing</a>
+              <a href="/faq">FAQs</a>
+              <a href="/states-we-serve">All States We Serve</a>
+            </p>
           </div>
         </div>
       </section>

@@ -263,6 +263,22 @@ export default async function OnlineDoctorVisitsPage({ params }) {
           </section>
         )}
 
+        {/* Quick Links */}
+        <section style={{ padding: '32px 0', borderTop: '1px solid #e5e7eb' }}>
+          <h2 style={{ fontSize: '1.2rem', fontWeight: 700, color: '#111827', marginBottom: '12px' }}>Related Pages</h2>
+          <div style={{ display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
+            <a href={`/${slug}`} style={{ color: '#0d9488', fontWeight: 500, fontSize: '0.92rem' }}>All Conditions in {state.name}</a>
+            <span style={{ color: '#d1d5db' }}>·</span>
+            <a href="/insurance" style={{ color: '#0d9488', fontWeight: 500, fontSize: '0.92rem' }}>Insurance & Pricing</a>
+            <span style={{ color: '#d1d5db' }}>·</span>
+            <a href="/faq" style={{ color: '#0d9488', fontWeight: 500, fontSize: '0.92rem' }}>FAQs</a>
+            <span style={{ color: '#d1d5db' }}>·</span>
+            <a href="/states-we-serve" style={{ color: '#0d9488', fontWeight: 500, fontSize: '0.92rem' }}>All States We Serve</a>
+            <span style={{ color: '#d1d5db' }}>·</span>
+            <a href="/what-we-treat" style={{ color: '#0d9488', fontWeight: 500, fontSize: '0.92rem' }}>What We Treat</a>
+          </div>
+        </section>
+
         {/* Final CTA */}
         <section style={{ padding: '32px 0', borderTop: '1px solid #e5e7eb', textAlign: 'center' }}>
           <h2 style={{ fontSize: '1.4rem', fontWeight: 700, color: '#111827', marginBottom: '8px' }}>Ready to See a Doctor Online in {state.name}?</h2>

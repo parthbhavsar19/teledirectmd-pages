@@ -247,6 +247,25 @@ export default function InsuranceClient() {
         </div>
       </div>
 
+      {/* ═══ EXPLORE MORE ═══ */}
+      <div style={{ maxWidth: 720, margin: "0 auto", padding: "0 24px 40px" }}>
+        <h2 style={{ fontFamily: B.fd, fontSize: 22, fontWeight: 700, color: B.navy, margin: "0 0 8px" }}>Explore TeleDirectMD</h2>
+        <p style={{ fontSize: 15, color: B.text, margin: "0 0 20px", lineHeight: 1.5 }}>Learn more about our services, coverage, and conditions we treat.</p>
+        <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(180px, 1fr))", gap: 10 }}>
+          {[
+            { href: "/states-we-serve", label: "States We Serve", desc: "40+ states with same-day visits" },
+            { href: "/what-we-treat", label: "What We Treat", desc: "Browse all conditions" },
+            { href: "/faq", label: "FAQs", desc: "Common questions answered" },
+            { href: "/book-online", label: "Book a Visit", desc: "$49 flat fee or insurance" },
+          ].map((link, i) => (
+            <a key={i} href={link.href} style={{ display: "block", padding: "16px", background: B.white, border: `1px solid ${B.border}`, borderRadius: B.r, textDecoration: "none", transition: "border-color 0.2s" }}>
+              <div style={{ fontSize: 15, fontWeight: 600, color: B.navy, marginBottom: 4 }}>{link.label}</div>
+              <div style={{ fontSize: 13, color: B.text, lineHeight: 1.4 }}>{link.desc}</div>
+            </a>
+          ))}
+        </div>
+      </div>
+
       {/* ═══ DISCLAIMER ═══ */}
       <div style={{ maxWidth: 720, margin: "0 auto", padding: "0 24px 48px" }}>
         <p style={{ fontSize: 12, color: B.text, lineHeight: 1.7, borderTop: `1px solid ${B.border}`, paddingTop: 20, opacity: 0.7 }}>

@@ -246,6 +246,7 @@ export default function StatesWeServeClient({
         <div className="sws-hero-ctas">
           <a href="/book-online" className="sws-btn sws-btn-primary">Book Your $49 Visit <ArrowIcon /></a>
           <a href="/what-we-treat" className="sws-btn sws-btn-ghost">View All Conditions</a>
+          <a href="/insurance" className="sws-btn sws-btn-ghost">Insurance & Pricing</a>
         </div>
         <div className="sws-emergency">
           <WarningIcon />
@@ -461,7 +462,7 @@ export default function StatesWeServeClient({
         {/* ═══ FOOTER NOTE ═══ */}
         <div className="sws-footer-note">
           <p><strong>Important:</strong> You must be physically located in a licensed state at the time of your visit. You will be asked to confirm your location during booking and again at the start of your video visit.</p>
-          <p><a href="/book-online">Book your $49 visit now</a> or <a href="/faq">learn more about our services</a>. Questions? Email us at <a href="mailto:contact@teledirectmd.com">contact@teledirectmd.com</a>.</p>
+          <p><a href="/book-online">Book your $49 visit now</a> · <a href="/insurance">Check insurance coverage</a> · <a href="/faq">Learn more about our services</a> · Questions? Email <a href="mailto:contact@teledirectmd.com">contact@teledirectmd.com</a>.</p>
         </div>
       </div>
     </section>
