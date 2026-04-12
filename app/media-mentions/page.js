@@ -3,12 +3,12 @@ import MediaMentionsClient from './MediaMentionsClient';
 export const metadata = {
   title: 'Media Mentions | TeleDirectMD Expert Coverage & Press',
   description:
-    'TeleDirectMD physicians are quoted and featured in TIME, Newsweek, British GQ, HuffPost, FOX News Digital, Healthline, and 10+ other major outlets. Browse 23 expert media appearances across nutrition, wellness, infectious disease, and safety.',
+    'TeleDirectMD physicians are quoted and featured in TIME, Newsweek, British GQ, HuffPost, FOX News Digital, Healthline, and 10+ other major outlets. Browse 25 expert media appearances across nutrition, wellness, infectious disease, and safety.',
   alternates: { canonical: 'https://teledirectmd.com/media-mentions' },
   openGraph: {
     title: 'Media Mentions | TeleDirectMD Expert Coverage & Press',
     description:
-      'Expert physician commentary from TeleDirectMD featured in TIME, Newsweek, British GQ, and 13 other major health and lifestyle publications.',
+      'Expert physician commentary from TeleDirectMD featured in TIME, Newsweek, British GQ, and 14 other major health and lifestyle publications.',
     url: 'https://teledirectmd.com/media-mentions',
     siteName: 'TeleDirectMD',
     type: 'website',
@@ -25,7 +25,7 @@ const jsonLd = {
       url: 'https://teledirectmd.com/media-mentions',
       name: 'TeleDirectMD in the Media | Press & Editorial Coverage',
       description:
-        'TeleDirectMD physicians are trusted expert sources in national health journalism, featured in 23 articles across TIME, Newsweek, British GQ, and 13 other major outlets.',
+        'TeleDirectMD physicians are trusted expert sources in national health journalism, featured in 25 articles across TIME, Newsweek, British GQ, and 14 other major outlets.',
       inLanguage: 'en-US',
       isPartOf: {
         '@type': 'WebSite',
@@ -41,6 +41,20 @@ const jsonLd = {
           'TeleDirectMD is a physician-led telehealth service providing direct access to board-certified doctors via video visit.',
       },
       hasPart: [
+        {
+          '@type': 'NewsArticle',
+          headline: "I'm a Family Medicine Doctor — Here Are the 2 Supplements I Take To Stay Healthy and Well",
+          datePublished: '2026-03-12',
+          publisher: { '@type': 'Organization', name: 'Parade' },
+          url: 'https://parade.com/health/i-am-family-medicine-doctor-these-are-the-supplements-i-take',
+        },
+        {
+          '@type': 'NewsArticle',
+          headline: 'Primary Care Physicians Say People Over 50 Should Be Careful With How Often They Eat This One Food',
+          datePublished: '2026-03-10',
+          publisher: { '@type': 'Organization', name: 'AOL' },
+          url: 'https://www.aol.com/primary-care-physicians-people-over-185000300.html',
+        },
         {
           '@type': 'NewsArticle',
           headline: '9 Best Watches for Monitoring Your Health, According to Experts',
