@@ -1,7 +1,7 @@
 import { getStates, getStateBySlug, getConditionCategories } from '../../../lib/get-data';
 import { notFound } from 'next/navigation';
 
-const defined_states = ['de', 'id', 'ks', 'wv'];
+const defined_states = ['al', 'az', 'ca', 'co', 'ct', 'dc', 'de', 'fl', 'ga', 'hi', 'id', 'il', 'in', 'ia', 'ks', 'ky', 'la', 'me', 'md', 'mi', 'mn', 'ms', 'mo', 'mt', 'ne', 'nv', 'nh', 'nj', 'nc', 'nd', 'oh', 'ok', 'pa', 'sc', 'sd', 'tn', 'tx', 'ut', 'wa', 'wv', 'wi', 'wy'];
 
 export async function generateStaticParams() {
   return defined_states.map((slug) => ({ slug }));
