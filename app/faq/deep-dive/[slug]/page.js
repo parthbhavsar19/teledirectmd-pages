@@ -2,10 +2,48 @@ import { getStateBySlug } from '../../../../lib/get-data';
 import { notFound } from 'next/navigation';
 
 const FAQ_PAGES = [
+  { slug: 'can-you-get-finasteride-online-in-alabama', stateSlug: 'al', conditionSlug: 'hair-loss-treatment-online', medication: 'Finasteride', condition: 'Hair Loss' },
+  { slug: 'can-you-get-finasteride-online-in-arizona', stateSlug: 'az', conditionSlug: 'hair-loss-treatment-online', medication: 'Finasteride', condition: 'Hair Loss' },
+  { slug: 'can-you-get-finasteride-online-in-california', stateSlug: 'ca', conditionSlug: 'hair-loss-treatment-online', medication: 'Finasteride', condition: 'Hair Loss' },
+  { slug: 'can-you-get-finasteride-online-in-colorado', stateSlug: 'co', conditionSlug: 'hair-loss-treatment-online', medication: 'Finasteride', condition: 'Hair Loss' },
+  { slug: 'can-you-get-finasteride-online-in-connecticut', stateSlug: 'ct', conditionSlug: 'hair-loss-treatment-online', medication: 'Finasteride', condition: 'Hair Loss' },
+  { slug: 'can-you-get-finasteride-online-in-washington-dc', stateSlug: 'dc', conditionSlug: 'hair-loss-treatment-online', medication: 'Finasteride', condition: 'Hair Loss' },
   { slug: 'can-you-get-finasteride-online-in-delaware', stateSlug: 'de', conditionSlug: 'hair-loss-treatment-online', medication: 'Finasteride', condition: 'Hair Loss' },
+  { slug: 'can-you-get-finasteride-online-in-florida', stateSlug: 'fl', conditionSlug: 'hair-loss-treatment-online', medication: 'Finasteride', condition: 'Hair Loss' },
+  { slug: 'can-you-get-finasteride-online-in-georgia', stateSlug: 'ga', conditionSlug: 'hair-loss-treatment-online', medication: 'Finasteride', condition: 'Hair Loss' },
+  { slug: 'can-you-get-finasteride-online-in-hawaii', stateSlug: 'hi', conditionSlug: 'hair-loss-treatment-online', medication: 'Finasteride', condition: 'Hair Loss' },
   { slug: 'can-you-get-finasteride-online-in-idaho', stateSlug: 'id', conditionSlug: 'hair-loss-treatment-online', medication: 'Finasteride', condition: 'Hair Loss' },
+  { slug: 'can-you-get-finasteride-online-in-illinois', stateSlug: 'il', conditionSlug: 'hair-loss-treatment-online', medication: 'Finasteride', condition: 'Hair Loss' },
+  { slug: 'can-you-get-finasteride-online-in-indiana', stateSlug: 'in', conditionSlug: 'hair-loss-treatment-online', medication: 'Finasteride', condition: 'Hair Loss' },
+  { slug: 'can-you-get-finasteride-online-in-iowa', stateSlug: 'ia', conditionSlug: 'hair-loss-treatment-online', medication: 'Finasteride', condition: 'Hair Loss' },
   { slug: 'can-you-get-finasteride-online-in-kansas', stateSlug: 'ks', conditionSlug: 'hair-loss-treatment-online', medication: 'Finasteride', condition: 'Hair Loss' },
-  { slug: 'can-you-get-finasteride-online-in-west-virginia', stateSlug: 'wv', conditionSlug: 'hair-loss-treatment-online', medication: 'Finasteride', condition: 'Hair Loss' }
+  { slug: 'can-you-get-finasteride-online-in-kentucky', stateSlug: 'ky', conditionSlug: 'hair-loss-treatment-online', medication: 'Finasteride', condition: 'Hair Loss' },
+  { slug: 'can-you-get-finasteride-online-in-louisiana', stateSlug: 'la', conditionSlug: 'hair-loss-treatment-online', medication: 'Finasteride', condition: 'Hair Loss' },
+  { slug: 'can-you-get-finasteride-online-in-maine', stateSlug: 'me', conditionSlug: 'hair-loss-treatment-online', medication: 'Finasteride', condition: 'Hair Loss' },
+  { slug: 'can-you-get-finasteride-online-in-maryland', stateSlug: 'md', conditionSlug: 'hair-loss-treatment-online', medication: 'Finasteride', condition: 'Hair Loss' },
+  { slug: 'can-you-get-finasteride-online-in-michigan', stateSlug: 'mi', conditionSlug: 'hair-loss-treatment-online', medication: 'Finasteride', condition: 'Hair Loss' },
+  { slug: 'can-you-get-finasteride-online-in-minnesota', stateSlug: 'mn', conditionSlug: 'hair-loss-treatment-online', medication: 'Finasteride', condition: 'Hair Loss' },
+  { slug: 'can-you-get-finasteride-online-in-mississippi', stateSlug: 'ms', conditionSlug: 'hair-loss-treatment-online', medication: 'Finasteride', condition: 'Hair Loss' },
+  { slug: 'can-you-get-finasteride-online-in-missouri', stateSlug: 'mo', conditionSlug: 'hair-loss-treatment-online', medication: 'Finasteride', condition: 'Hair Loss' },
+  { slug: 'can-you-get-finasteride-online-in-montana', stateSlug: 'mt', conditionSlug: 'hair-loss-treatment-online', medication: 'Finasteride', condition: 'Hair Loss' },
+  { slug: 'can-you-get-finasteride-online-in-nebraska', stateSlug: 'ne', conditionSlug: 'hair-loss-treatment-online', medication: 'Finasteride', condition: 'Hair Loss' },
+  { slug: 'can-you-get-finasteride-online-in-nevada', stateSlug: 'nv', conditionSlug: 'hair-loss-treatment-online', medication: 'Finasteride', condition: 'Hair Loss' },
+  { slug: 'can-you-get-finasteride-online-in-new-hampshire', stateSlug: 'nh', conditionSlug: 'hair-loss-treatment-online', medication: 'Finasteride', condition: 'Hair Loss' },
+  { slug: 'can-you-get-finasteride-online-in-new-jersey', stateSlug: 'nj', conditionSlug: 'hair-loss-treatment-online', medication: 'Finasteride', condition: 'Hair Loss' },
+  { slug: 'can-you-get-finasteride-online-in-north-carolina', stateSlug: 'nc', conditionSlug: 'hair-loss-treatment-online', medication: 'Finasteride', condition: 'Hair Loss' },
+  { slug: 'can-you-get-finasteride-online-in-north-dakota', stateSlug: 'nd', conditionSlug: 'hair-loss-treatment-online', medication: 'Finasteride', condition: 'Hair Loss' },
+  { slug: 'can-you-get-finasteride-online-in-ohio', stateSlug: 'oh', conditionSlug: 'hair-loss-treatment-online', medication: 'Finasteride', condition: 'Hair Loss' },
+  { slug: 'can-you-get-finasteride-online-in-oklahoma', stateSlug: 'ok', conditionSlug: 'hair-loss-treatment-online', medication: 'Finasteride', condition: 'Hair Loss' },
+  { slug: 'can-you-get-finasteride-online-in-pennsylvania', stateSlug: 'pa', conditionSlug: 'hair-loss-treatment-online', medication: 'Finasteride', condition: 'Hair Loss' },
+  { slug: 'can-you-get-finasteride-online-in-south-carolina', stateSlug: 'sc', conditionSlug: 'hair-loss-treatment-online', medication: 'Finasteride', condition: 'Hair Loss' },
+  { slug: 'can-you-get-finasteride-online-in-south-dakota', stateSlug: 'sd', conditionSlug: 'hair-loss-treatment-online', medication: 'Finasteride', condition: 'Hair Loss' },
+  { slug: 'can-you-get-finasteride-online-in-tennessee', stateSlug: 'tn', conditionSlug: 'hair-loss-treatment-online', medication: 'Finasteride', condition: 'Hair Loss' },
+  { slug: 'can-you-get-finasteride-online-in-texas', stateSlug: 'tx', conditionSlug: 'hair-loss-treatment-online', medication: 'Finasteride', condition: 'Hair Loss' },
+  { slug: 'can-you-get-finasteride-online-in-utah', stateSlug: 'ut', conditionSlug: 'hair-loss-treatment-online', medication: 'Finasteride', condition: 'Hair Loss' },
+  { slug: 'can-you-get-finasteride-online-in-washington', stateSlug: 'wa', conditionSlug: 'hair-loss-treatment-online', medication: 'Finasteride', condition: 'Hair Loss' },
+  { slug: 'can-you-get-finasteride-online-in-west-virginia', stateSlug: 'wv', conditionSlug: 'hair-loss-treatment-online', medication: 'Finasteride', condition: 'Hair Loss' },
+  { slug: 'can-you-get-finasteride-online-in-wisconsin', stateSlug: 'wi', conditionSlug: 'hair-loss-treatment-online', medication: 'Finasteride', condition: 'Hair Loss' },
+  { slug: 'can-you-get-finasteride-online-in-wyoming', stateSlug: 'wy', conditionSlug: 'hair-loss-treatment-online', medication: 'Finasteride', condition: 'Hair Loss' }
 ];
 
 export async function generateStaticParams() {
@@ -76,9 +114,7 @@ export default async function FAQDeepDivePage({ params }) {
 
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <div style={{ maxWidth: '800px', margin: '0 auto', padding: '0 20px 60px' }}>
-
         <nav aria-label="Breadcrumb" style={{ fontSize: '14px', color: '#6b7280', padding: '16px 0', borderBottom: '1px solid #e5e7eb' }}>
           <a href="/" style={{ color: '#0d9488' }}>Home</a>
           <span style={{ margin: '0 8px' }}>/</span>
@@ -162,7 +198,6 @@ export default async function FAQDeepDivePage({ params }) {
           </p>
           <p style={{ fontSize: '0.75rem', color: '#d1d5db', marginTop: '8px' }}>Medically reviewed by Parth Bhavsar, MD. Last updated {today}.</p>
         </section>
-
       </div>
     </>
   );
