@@ -1,6 +1,6 @@
 {
   "framework": null,
-  "buildCommand": "npm run build && rm -f out/404.html out/404/index.html out/routes-manifest.json out/_not-found/index.html out/_not-found.html",
+  "buildCommand": "npm run build && rm -f out/404.html out/404/index.html out/routes-manifest.json out/_not-found/index.html out/_not-found.html out/index.html",
   "outputDirectory": "out",
   "trailingSlash": true,
   "routes": [
