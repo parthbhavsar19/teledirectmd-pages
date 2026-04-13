@@ -53,6 +53,7 @@
     { "src": "/new-page-1(/?)", "headers": { "Location": "/" }, "status": 301 },
     { "src": "/new-page-2(/?)", "headers": { "Location": "/" }, "status": 301 },
     { "src": "/new-page-3(/?)", "headers": { "Location": "/" }, "status": 301 },
+    { "src": "^/$", "dest": "/index.html" },
     { "handle": "filesystem" },
     {
       "src": "/(.*)",
