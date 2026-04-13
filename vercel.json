@@ -1,6 +1,6 @@
 {
   "framework": null,
-  "buildCommand": "npm run build && rm -f out/404.html out/404/index.html out/routes-manifest.json out/_not-found/index.html out/_not-found.html out/index.html",
+  "buildCommand": "npm run build && rm -f out/404.html out/404/index.html out/routes-manifest.json out/_not-found/index.html out/_not-found.html",
   "outputDirectory": "out",
   "trailingSlash": true,
   "routes": [
@@ -53,7 +53,6 @@
     { "src": "/new-page-1(/?)", "headers": { "Location": "/" }, "status": 301 },
     { "src": "/new-page-2(/?)", "headers": { "Location": "/" }, "status": 301 },
     { "src": "/new-page-3(/?)", "headers": { "Location": "/" }, "status": 301 },
-    { "src": "^/$", "dest": "https://pepper-saxophone-p8le.squarespace.com/", "headers": { "X-Content-Type-Options": "nosniff", "X-Frame-Options": "SAMEORIGIN", "Referrer-Policy": "strict-origin-when-cross-origin" } },
     { "handle": "filesystem" },
     {
       "src": "/(.*)",
