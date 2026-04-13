@@ -166,9 +166,9 @@ export default function TruckDriversPage() {
           <div className="tdmd-hero-grid">
             <div className="tdmd-hero-copy">
               <h1>Telehealth for Truck Drivers — See a Doctor From Anywhere on the Road</h1>
-              <p className="tdmd-hero-sub">Licensed physician in 41 states. No insurance required. See a doctor in minutes.</p>
+              <p className="tdmd-hero-sub">Licensed physician in 41 states. No insurance required. Same-day visits, evenings & weekends.</p>
               <p>
-                Long-haul truckers face the worst occupational health profile in America — yet millions can't get care because they're always on the move. TeleDirectMD brings the doctor to your cab, your truck stop, your sleeper berth. A board-certified physician, available 24/7, licensed across 41 states.
+                Long-haul truckers face the worst occupational health profile in America — yet millions can't get care because they're always on the move. TeleDirectMD brings the doctor to your cab, your truck stop, your sleeper berth. A board-certified physician with same-day availability — including evenings and weekends — licensed across 41 states.
               </p>
               <ul className="tdmd-hero-benefits">
                 <li>Board-certified physician — not a PA, not an NP, not an algorithm</li>
@@ -196,7 +196,7 @@ export default function TruckDriversPage() {
                   <li>See a doctor from any truck stop in 41 states</li>
                   <li>Get prescriptions sent to pharmacies along your route</li>
                   <li>Manage blood pressure and diabetes to protect your CDL</li>
-                  <li>No scheduling conflicts — available when you are</li>
+                  <li>No scheduling conflicts — same-day visits, evenings & weekends</li>
                   <li>HIPAA-compliant, secure video visits from your phone</li>
                 </ul>
                 <p className="tdmd-hero-note">No app download required. Works on any smartphone.</p>
@@ -218,7 +218,7 @@ export default function TruckDriversPage() {
           </p>
           <div className="tdmd-comparison-note">
             <p style={{ margin: 0 }}>
-              <strong>The scenario:</strong> You're hauling freight through Ohio at 9 PM. You've had a headache for two days and your blood pressure feels high. You can't take two hours to find an urgent care. With TeleDirectMD, pull over, open your phone, and see a board-certified physician in minutes. If you need a prescription, we'll send it to the pharmacy closest to your route.
+              <strong>The scenario:</strong> You're driving through Tennessee and you've had a persistent sinus infection for three days — congestion, pressure, post-nasal drip. You don't have a local doctor, and you can't afford to lose a half-day sitting in an urgent care waiting room. With TeleDirectMD, you pull over at a rest stop, request a same-day visit on your phone, and connect with a board-certified physician. If you need an antibiotic, the prescription goes to the pharmacy at the next truck stop on your route.
             </p>
           </div>
         </div>
@@ -237,8 +237,8 @@ export default function TruckDriversPage() {
               <p>You cross state lines constantly. TeleDirectMD is licensed in 41 states, meaning the same physician can treat you whether you're in Texas, Tennessee, Ohio, or anywhere on your route. No need to find a new provider at every stop.</p>
             </div>
             <div className="tdmd-card tdmd-card-good">
-              <h3>24/7 Availability</h3>
-              <p>Your schedule doesn't follow business hours. Neither does ours. Book a visit when you need care — early morning, late night, or on a break at a rest stop. No appointment necessary.</p>
+              <h3>Same-Day, Evenings & Weekends</h3>
+              <p>Your schedule doesn't follow business hours. TeleDirectMD offers same-day availability, including evening and weekend hours — so you can get care on a break at a rest stop without waiting days for an appointment.</p>
             </div>
             <div className="tdmd-card tdmd-card-good">
               <h3>Mobile-First</h3>
@@ -411,7 +411,7 @@ export default function TruckDriversPage() {
           <div className="tdmd-bottom-cta">
             <div className="tdmd-bottom-cta-copy">
               <h3>Get seen today from your phone — no office visit, no appointment, no insurance required.</h3>
-              <p>Pull over, open your phone, and connect with a board-certified physician in minutes. Prescriptions sent to the pharmacy closest to your route.</p>
+              <p>Pull over, request a same-day visit from your phone, and connect with a board-certified physician. Prescriptions sent to the pharmacy closest to your route.</p>
             </div>
             <div className="tdmd-bottom-cta-actions">
               <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
