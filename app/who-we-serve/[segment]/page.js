@@ -3,6 +3,9 @@ import audienceSegments from '../../../data/audience-segments.json';
 import TruckDriversPage from './TruckDriversPage';
 import GigWorkersPage from './GigWorkersPage';
 import UninsuredAffordableCarePage from './UninsuredAffordableCarePage';
+import RemoteWorkersPage from './RemoteWorkersPage';
+import TravelNursesPage from './TravelNursesPage';
+import SmallBusinessOwnersPage from './SmallBusinessOwnersPage';
 
 /* Pre-render all audience segment pages at build time */
 export function generateStaticParams() {
@@ -47,11 +50,12 @@ export default function AudienceSegmentPage({ params }) {
       return <GigWorkersPage />;
     case 'uninsured-affordable-care':
       return <UninsuredAffordableCarePage />;
-    /* Phase 2 placeholders */
     case 'remote-workers':
+      return <RemoteWorkersPage />;
     case 'travel-nurses':
+      return <TravelNursesPage />;
     case 'small-business-owners':
-      return <ComingSoonPlaceholder segment={seg} />;
+      return <SmallBusinessOwnersPage />;
 
     default:
       notFound();
