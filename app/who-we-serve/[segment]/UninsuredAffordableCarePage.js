@@ -83,7 +83,7 @@ export default function UninsuredAffordableCarePage() {
         "@type": "Physician",
         "@id": `${baseUrl}/about#physician`,
         "name": "Parth Bhavsar, MD",
-        "medicalSpecialty": "InternalMedicine",
+        "medicalSpecialty": "FamilyMedicine",
         "worksFor": {
           "@type": "MedicalOrganization",
           "name": "TeleDirectMD"
@@ -316,7 +316,7 @@ export default function UninsuredAffordableCarePage() {
             ))}
           </div>
           <div style={{ marginTop: '1.25rem' }}>
-            <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All 60+ Conditions We Treat</a>
+            <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All 60 Conditions We Treat</a>
           </div>
         </div>
       </section>
@@ -360,10 +360,10 @@ export default function UninsuredAffordableCarePage() {
         <div className="tdmd-container">
           <h2>Who You're Seeing — A Real Doctor, Not an Algorithm</h2>
           <p>
-            When you visit TeleDirectMD, you're seeing a licensed, board-certified physician — not a physician assistant, not a nurse practitioner, not a chatbot. <a href="/about" style={{ color: 'var(--tdmd-navy)', fontWeight: 700 }}>Dr. Parth Bhavsar, MD</a>, is a board-certified internal medicine physician licensed across 41 states, providing the same standard of care you'd receive in person — at a fraction of the cost.
+            When you visit TeleDirectMD, you're seeing a licensed, board-certified physician — not a physician assistant, not a nurse practitioner, not a chatbot. <a href="/about" style={{ color: 'var(--tdmd-navy)', fontWeight: 700 }}>Dr. Parth Bhavsar, MD</a>, is a board-certified family medicine physician licensed across 41 states, providing the same standard of care you'd receive in person — at a fraction of the cost.
           </p>
           <ul className="tdmd-hero-benefits">
-            <li>Board-certified in Internal Medicine</li>
+            <li>Board-certified in Family Medicine</li>
             <li>Licensed in 41 U.S. states</li>
             <li>HIPAA-compliant platform — your data is encrypted and protected</li>
             <li>TeleDirectMD does not sell or share your health information</li>

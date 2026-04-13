@@ -49,7 +49,7 @@ export default function TruckDriversPage() {
     },
     {
       q: 'What conditions can you treat for truck drivers via telehealth?',
-      a: 'We treat a wide range of conditions relevant to truckers, including hypertension, type 2 diabetes, high cholesterol, UTIs, sinus infections, respiratory infections, acid reflux, migraines, gout, skin conditions, anxiety, and more. We also provide smoking cessation support and medication refills for chronic conditions. See our full list of 60+ conditions on our What We Treat page.'
+      a: 'We treat a wide range of conditions relevant to truckers, including hypertension, type 2 diabetes, high cholesterol, UTIs, sinus infections, respiratory infections, acid reflux, migraines, gout, skin conditions, anxiety, and more. We also provide smoking cessation support and medication refills for chronic conditions. See our full list of 60 conditions on our What We Treat page.'
     },
     {
       q: 'How long does a telehealth visit take?',
@@ -95,7 +95,7 @@ export default function TruckDriversPage() {
         "@type": "Physician",
         "@id": `${baseUrl}/about#physician`,
         "name": "Parth Bhavsar, MD",
-        "medicalSpecialty": "InternalMedicine",
+        "medicalSpecialty": "FamilyMedicine",
         "worksFor": {
           "@type": "MedicalOrganization",
           "name": "TeleDirectMD"
@@ -173,7 +173,6 @@ export default function TruckDriversPage() {
               <ul className="tdmd-hero-benefits">
                 <li>Board-certified physician — not a PA, not an NP, not an algorithm</li>
                 <li>Licensed in 41 states — covers interstate routes coast to coast</li>
-                <li>No appointment needed — connect when you need care</li>
                 <li>Prescriptions sent to any pharmacy on your route</li>
                 <li>Transparent cash-pay pricing starting at $49</li>
               </ul>
@@ -288,7 +287,7 @@ export default function TruckDriversPage() {
             ))}
           </div>
           <div style={{ marginTop: '1.25rem' }}>
-            <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All 60+ Conditions We Treat</a>
+            <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All 60 Conditions We Treat</a>
           </div>
         </div>
       </section>
@@ -374,10 +373,10 @@ export default function TruckDriversPage() {
         <div className="tdmd-container">
           <h2>Who You're Seeing — A Real Doctor, Not an Algorithm</h2>
           <p>
-            When you visit TeleDirectMD, you're seeing a licensed, board-certified physician — not a physician assistant, not a nurse practitioner, not a chatbot. <a href="/about" style={{ color: 'var(--tdmd-navy)', fontWeight: 700 }}>Dr. Parth Bhavsar, MD</a>, is a board-certified internal medicine physician licensed across 41 states, providing the same standard of care you'd receive in person.
+            When you visit TeleDirectMD, you're seeing a licensed, board-certified physician — not a physician assistant, not a nurse practitioner, not a chatbot. <a href="/about" style={{ color: 'var(--tdmd-navy)', fontWeight: 700 }}>Dr. Parth Bhavsar, MD</a>, is a board-certified family medicine physician licensed across 41 states, providing the same standard of care you'd receive in person.
           </p>
           <ul className="tdmd-hero-benefits">
-            <li>Board-certified in Internal Medicine</li>
+            <li>Board-certified in Family Medicine</li>
             <li>Licensed in 41 U.S. states</li>
             <li>HIPAA-compliant platform — your data is encrypted and protected</li>
             <li>TeleDirectMD does not sell or share your health information</li>
@@ -410,7 +409,7 @@ export default function TruckDriversPage() {
         <div className="tdmd-container">
           <div className="tdmd-bottom-cta">
             <div className="tdmd-bottom-cta-copy">
-              <h3>Get seen today from your phone — no office visit, no appointment, no insurance required.</h3>
+              <h3>Get seen today from your phone — no insurance required, no waiting room.</h3>
               <p>Pull over, request a same-day visit from your phone, and connect with a board-certified physician. Prescriptions sent to the pharmacy closest to your route.</p>
             </div>
             <div className="tdmd-bottom-cta-actions">

@@ -2,7 +2,7 @@ import audienceSegments from '../../data/audience-segments.json';
 
 export const metadata = {
   title: 'Who We Serve — TeleDirectMD',
-  description: 'TeleDirectMD provides telehealth for truck drivers, gig workers, freelancers, remote workers, travel nurses, and the uninsured. Licensed physician in 41 states. No appointment needed.',
+  description: 'TeleDirectMD provides telehealth for truck drivers, gig workers, freelancers, remote workers, travel nurses, and the uninsured. Licensed physician in 41 states. Same-day visits, evenings & weekends.',
   alternates: {
     canonical: 'https://teledirectmd.com/who-we-serve',
   },
@@ -68,7 +68,7 @@ export default function WhoWeServeHub() {
         <div className="tdmd-container">
           <h1>Telehealth Built for People Who Can't Always Stop — Healthcare That Travels With You</h1>
           <p className="tdmd-hero-sub" style={{ maxWidth: '72ch' }}>
-            Licensed physician. 41 states. No appointment needed. No insurance required.
+            Licensed physician. 41 states. Same-day visits, evenings & weekends. No insurance required.
           </p>
           <p style={{ maxWidth: '72ch', lineHeight: '1.6' }}>
             TeleDirectMD provides secure video visits with a board-certified physician for adults across 41 states. Everyone deserves access to quality healthcare — but some people face barriers that make it harder. Whether you're driving cross-country, delivering groceries at midnight, freelancing without employer benefits, or recently lost your insurance coverage, TeleDirectMD was built to meet you where you are.
@@ -123,7 +123,7 @@ export default function WhoWeServeHub() {
           <div className="tdmd-bottom-cta">
             <div className="tdmd-bottom-cta-copy">
               <h3>Whatever your situation, we can see you today.</h3>
-              <p>No appointment needed. No insurance required. Board-certified physician licensed in 41 states, available by secure video visit.</p>
+              <p>Same-day visits, evenings & weekends. No insurance required. Board-certified physician licensed in 41 states, available by secure video visit.</p>
             </div>
             <div className="tdmd-bottom-cta-actions">
               <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
