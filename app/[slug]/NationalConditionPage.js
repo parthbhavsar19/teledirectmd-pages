@@ -635,7 +635,41 @@ export default function NationalConditionPage({ conditionSlug }) {
         </div>
       </section>
 
-      {/* 22) Quick Links */}
+      {/* 22) Who We Serve Cross-Links */}
+      <section className="tdmd-section tdmd-section-highlight" id={`${pid}-who-we-serve`}>
+        <div className="tdmd-container">
+          <h2>Who We Serve</h2>
+          <p>TeleDirectMD provides telehealth for people whose lifestyle or work makes traditional healthcare difficult. See how we help:</p>
+          <div className="tdmd-related-grid" role="list">
+            <a className="tdmd-related-card" role="listitem" href="/who-we-serve/truck-drivers/">
+              <span className="tdmd-related-title">Truck Drivers</span>
+              <span className="tdmd-related-desc">Healthcare from any truck stop in 41 states</span>
+            </a>
+            <a className="tdmd-related-card" role="listitem" href="/who-we-serve/gig-workers/">
+              <span className="tdmd-related-title">Gig Workers & Freelancers</span>
+              <span className="tdmd-related-desc">Affordable care without employer insurance</span>
+            </a>
+            <a className="tdmd-related-card" role="listitem" href="/who-we-serve/uninsured-affordable-care/">
+              <span className="tdmd-related-title">Uninsured & Self-Pay</span>
+              <span className="tdmd-related-desc">$49 visits with no insurance required</span>
+            </a>
+            <a className="tdmd-related-card" role="listitem" href="/who-we-serve/remote-workers/">
+              <span className="tdmd-related-title">Remote Workers</span>
+              <span className="tdmd-related-desc">Virtual doctor for digital nomads</span>
+            </a>
+            <a className="tdmd-related-card" role="listitem" href="/who-we-serve/travel-nurses/">
+              <span className="tdmd-related-title">Travel Nurses</span>
+              <span className="tdmd-related-desc">Same doctor across every assignment</span>
+            </a>
+            <a className="tdmd-related-card" role="listitem" href="/who-we-serve/small-business-owners/">
+              <span className="tdmd-related-title">Small Business Owners</span>
+              <span className="tdmd-related-desc">No time wasted in waiting rooms</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      {/* 23) Quick Links */}
       <section className="tdmd-section" id={`${pid}-quick-links`}>
         <div className="tdmd-container">
           <h2>More from TeleDirectMD</h2>
@@ -643,6 +677,7 @@ export default function NationalConditionPage({ conditionSlug }) {
             <p className="tdmd-link-cloud">
               <a href="/insurance">Insurance & Pricing</a>
               <a href="/states-we-serve">States We Serve</a>
+              <a href="/who-we-serve">Who We Serve</a>
               <a href="/faq">Frequently Asked Questions</a>
               <a href="/book-online">Book a Visit</a>
             </p>
