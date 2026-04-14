@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <!-- Shield with checkmark — represents insurance protection -->
+  <!-- Circular background -->
+  <circle cx="60" cy="60" r="56" fill="#E8F5F5" stroke="#006B73" stroke-width="1.5" opacity="0.5"/>
+  
+  <!-- Shield shape -->
+  <path d="M60 28l24 10v18c0 16-10 26-24 32-14-6-24-16-24-32V38l24-10z" fill="#006B73" opacity="0.12" stroke="#006B73" stroke-width="2" stroke-linejoin="round"/>
+  
+  <!-- Checkmark inside shield -->
+  <path d="M48 58l8 8 16-16" stroke="#006B73" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Small plus accent -->
+  <path d="M85 32v8M81 36h8" stroke="#FF5A36" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+</svg>
