@@ -128,7 +128,7 @@ const faqItems = [
   // Section 6: Work Notes, Follow-Up, and Portal Access
   {
     q: 'Can you provide a work or school note?',
-    a: 'Yes, when medically appropriate — TeleDirectMD can provide a brief work or school excuse note based on the condition evaluated during your visit, included free of charge with any video visit. As a policy, notes are not backdated and are generally limited to a maximum of three days. Important: TeleDirectMD does not provide work accommodation letters, workplace accommodation forms, or return-to-work clearance forms. These require in-person evaluation and ongoing management with a primary care provider.',
+    a: 'Yes, when medically appropriate — TeleDirectMD can provide a brief work or school excuse note based on the condition evaluated during your visit, included free of charge with any video visit. As a policy, notes are not backdated and are generally limited to a maximum of three days. Important: TeleDirectMD does not provide work accommodation letters, workplace accommodation forms, or return-to-work clearance forms. These require in-person evaluation and ongoing management with a primary care provider. Dr. Bhavsar reserves the right to decline a work or school note if the request falls outside the scope of the visit or is not clinically supported.',
   },
   {
     q: 'Do you complete FMLA or disability forms?',

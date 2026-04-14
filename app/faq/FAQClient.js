@@ -624,6 +624,10 @@ const sections = [
               workplace accommodation forms, or return-to-work clearance forms. These require
               in-person evaluation and ongoing management with a primary care provider.
             </p>
+            <p>
+              Dr. Bhavsar reserves the right to decline a work or school note if the request
+              falls outside the scope of the visit or is not clinically supported.
+            </p>
           </>
         ),
       },
