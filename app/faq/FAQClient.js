@@ -221,7 +221,7 @@ const sections = [
               affordable healthcare from the comfort of your home.
             </p>
             <p>
-              We are currently available in <strong>40+ U.S. states</strong> plus Washington, D.C.
+              We are currently available in <strong>41 U.S. states</strong> plus Washington, D.C.
             </p>
           </>
         ),
@@ -266,6 +266,30 @@ const sections = [
         ),
       },
       {
+        q: 'Who is TeleDirectMD designed for?',
+        a: (
+          <>
+            <p>
+              TeleDirectMD serves anyone who needs convenient, physician-led virtual care. The
+              service is especially well-suited for:
+            </p>
+            <ul>
+              <li><Link href="/who-we-serve/truck-drivers"><strong>Truck drivers</strong></Link> and mobile workers</li>
+              <li><Link href="/who-we-serve/gig-workers"><strong>Gig workers</strong></Link> without employer-sponsored coverage</li>
+              <li><Link href="/who-we-serve/uninsured"><strong>Uninsured individuals</strong></Link> seeking affordable care</li>
+              <li><Link href="/who-we-serve/remote-workers"><strong>Remote workers</strong></Link> who prefer virtual-first healthcare</li>
+              <li><Link href="/who-we-serve/travel-nurses"><strong>Travel nurses</strong></Link> moving between states</li>
+              <li><Link href="/who-we-serve/small-business-owners"><strong>Small business owners</strong></Link> who need a flexible provider</li>
+            </ul>
+            <p>
+              Visit our{' '}
+              <Link href="/who-we-serve"><strong>Who We Serve</strong></Link>{' '}
+              page to learn more about how TeleDirectMD supports each group.
+            </p>
+          </>
+        ),
+      },
+      {
         q: 'What does the name "TeleDirectMD" mean?',
         a: (
           <p>
@@ -287,7 +311,7 @@ const sections = [
         a: (
           <>
             <p>
-              TeleDirectMD is licensed and available in <strong>40+ U.S. states</strong> plus the
+              TeleDirectMD is licensed and available in <strong>41 U.S. states</strong> plus the
               District of Columbia:
             </p>
             <p>
@@ -316,7 +340,7 @@ const sections = [
         q: 'Can I use TeleDirectMD while traveling?',
         a: (
           <p>
-            Absolutely. As long as you are physically located in one of our 40+ covered states or
+            Absolutely. As long as you are physically located in one of our covered states or
             D.C. at the time of your appointment, we can see you. TeleDirectMD is a great option for
             travelers who need quick access to a doctor on the road.
           </p>
@@ -504,10 +528,16 @@ const sections = [
       {
         q: 'Do you offer work/school excuse notes?',
         a: (
-          <p>
-            Yes, when medically appropriate — TeleDirectMD can provide a brief work or school
-            excuse note based on the condition evaluated during your visit, included free of charge.
-          </p>
+          <>
+            <p>
+              Yes, when medically appropriate — TeleDirectMD can provide a brief work or school
+              excuse note based on the condition evaluated during your visit, included free of charge.
+            </p>
+            <p>
+              TeleDirectMD does not provide work accommodation letters, workplace accommodation
+              forms, or return-to-work clearance forms.
+            </p>
+          </>
         ),
       },
     ],
@@ -533,8 +563,8 @@ const sections = [
         q: 'How quickly can I be seen?',
         a: (
           <p>
-            In most cases, same-day appointments are available. Depending on provider availability
-            and time of day, you may be seen within minutes of booking.
+            In most cases, same-day appointments are available. Same-day visits, evenings, and
+            weekends are offered depending on schedule availability.
           </p>
         ),
       },
@@ -589,15 +619,21 @@ const sections = [
               As a policy, notes are not backdated and are generally limited to a maximum of three
               days.
             </p>
+            <p>
+              <strong>Important:</strong> TeleDirectMD does not provide work accommodation letters,
+              workplace accommodation forms, or return-to-work clearance forms. These require
+              in-person evaluation and ongoing management with a primary care provider.
+            </p>
           </>
         ),
       },
       {
-        q: 'Do you complete FMLA or disability forms?',
+        q: 'Do you complete FMLA, disability, or accommodation forms?',
         a: (
           <p>
             No. TeleDirectMD provides episodic urgent-care visits and cannot complete FMLA
-            paperwork, disability forms, or other extended documentation. We recommend contacting
+            paperwork, disability forms, work accommodation letters, workplace accommodation forms,
+            return-to-work clearance forms, or other extended documentation. We recommend contacting
             your primary care provider or specialist for those needs.
           </p>
         ),
@@ -682,7 +718,7 @@ export default function FAQClient() {
           <h1>Everything You Need to Know</h1>
           <p className="faq-hero-sub">
             Get answers about TeleDirectMD&apos;s physician-led telehealth services — from insurance
-            and pricing to prescriptions, appointments, and virtual urgent care across 40+ states.
+            and pricing to prescriptions, appointments, and virtual urgent care across 41 states + D.C.
           </p>
 
           <div className="faq-hero-ctas">

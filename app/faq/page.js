@@ -3,12 +3,12 @@ import FAQClient from './FAQClient';
 export const metadata = {
   title: 'Frequently Asked Questions | TeleDirectMD',
   description:
-    'Find answers about TeleDirectMD\'s telehealth services, insurance acceptance, $49 self-pay pricing, appointments, prescriptions, and virtual urgent care in 40+ states.',
+    'Find answers about TeleDirectMD\'s telehealth services, insurance acceptance, $49 self-pay pricing, appointments, prescriptions, and virtual urgent care in 41 states + D.C.',
   alternates: { canonical: 'https://teledirectmd.com/faq' },
   openGraph: {
     title: 'Frequently Asked Questions | TeleDirectMD',
     description:
-      'Find answers about TeleDirectMD\'s telehealth services, insurance acceptance, pricing, and virtual urgent care in 40+ states.',
+      'Find answers about TeleDirectMD\'s telehealth services, insurance acceptance, pricing, and virtual urgent care in 41 states + D.C.',
     url: 'https://teledirectmd.com/faq',
     siteName: 'TeleDirectMD',
     type: 'website',
@@ -19,7 +19,7 @@ const faqItems = [
   // Section 1: About TeleDirectMD
   {
     q: 'What is TeleDirectMD?',
-    a: 'TeleDirectMD is a physician-led telehealth service that connects you directly with a licensed medical doctor for virtual urgent-care video visits, providing convenient and affordable healthcare from the comfort of your home — available in 40+ U.S. states and Washington, D.C.',
+    a: 'TeleDirectMD is a physician-led telehealth service that connects you directly with a licensed medical doctor for virtual urgent-care video visits, providing convenient and affordable healthcare from the comfort of your home — available in 41 U.S. states and Washington, D.C.',
   },
   {
     q: 'Who is the doctor? Will I see the same physician every time?',
@@ -34,13 +34,17 @@ const faqItems = [
     a: 'TeleDirectMD is physician-led and focused on direct access — no subscription fees, no membership, and no waiting rooms. Our flat-rate $49 self-pay video visit keeps pricing transparent, and we now accept select insurance plans in a growing number of states. You get a real doctor, real prescriptions, and real follow-up — all without the overhead of a large telehealth corporation.',
   },
   {
+    q: 'Who is TeleDirectMD designed for?',
+    a: 'TeleDirectMD serves anyone who needs convenient, physician-led virtual care. The service is especially well-suited for truck drivers, gig workers, the uninsured, remote workers, travel nurses, and small business owners who need flexible access to a doctor without disrupting their schedule. Visit the Who We Serve page to learn more about how TeleDirectMD supports different groups.',
+  },
+  {
     q: 'What does the name "TeleDirectMD" mean?',
     a: '"TeleDirectMD" combines "Tele" (remote/telehealth), "Direct" (direct-to-patient, no middlemen), and "MD" (Medical Doctor). It reflects our mission: connecting you directly to a licensed physician through telemedicine.',
   },
   // Section 2: Availability and States We Serve
   {
     q: 'Which states is TeleDirectMD available in?',
-    a: 'TeleDirectMD is licensed and available in 40+ U.S. states plus the District of Columbia: Alabama, Arizona, California, Colorado, Connecticut, Delaware, Florida, Georgia, Hawaii, Idaho, Illinois, Indiana, Iowa, Kansas, Kentucky, Louisiana, Maine, Maryland, Michigan, Minnesota, Mississippi, Missouri, Montana, Nebraska, Nevada, New Hampshire, New Jersey, North Carolina, North Dakota, Ohio, Oklahoma, Pennsylvania, South Carolina, South Dakota, Tennessee, Texas, Utah, Washington, West Virginia, Wisconsin, and Wyoming.',
+    a: 'TeleDirectMD is licensed and available in 41 U.S. states plus the District of Columbia: Alabama, Arizona, California, Colorado, Connecticut, Delaware, Florida, Georgia, Hawaii, Idaho, Illinois, Indiana, Iowa, Kansas, Kentucky, Louisiana, Maine, Maryland, Michigan, Minnesota, Mississippi, Missouri, Montana, Nebraska, Nevada, New Hampshire, New Jersey, North Carolina, North Dakota, Ohio, Oklahoma, Pennsylvania, South Carolina, South Dakota, Tennessee, Texas, Utah, Washington, West Virginia, Wisconsin, and Wyoming.',
   },
   {
     q: 'Do I need to live in a state to be seen there?',
@@ -48,7 +52,7 @@ const faqItems = [
   },
   {
     q: 'Can I use TeleDirectMD while traveling?',
-    a: 'Absolutely. As long as you are physically located in one of our 40+ covered states or D.C. at the time of your appointment, we can see you. TeleDirectMD is a great option for travelers who need quick access to a doctor on the road.',
+    a: 'Absolutely. As long as you are physically located in one of our covered states or D.C. at the time of your appointment, we can see you. TeleDirectMD is a great option for travelers who need quick access to a doctor on the road.',
   },
   // Section 3: Conditions, Prescriptions, and Scope of Care
   {
@@ -98,7 +102,7 @@ const faqItems = [
   },
   {
     q: 'Do you offer work/school excuse notes?',
-    a: 'Yes, when medically appropriate — TeleDirectMD can provide a brief work or school excuse note based on the condition evaluated during your visit, included free of charge with any video visit.',
+    a: 'Yes, when medically appropriate — TeleDirectMD can provide a brief work or school excuse note based on the condition evaluated during your visit, included free of charge with any video visit. TeleDirectMD does not provide work accommodation letters, workplace accommodation forms, or return-to-work clearance forms.',
   },
   // Section 5: Visit Experience, Technology, and Privacy
   {
@@ -107,7 +111,7 @@ const faqItems = [
   },
   {
     q: 'How quickly can I be seen?',
-    a: 'In most cases, same-day appointments are available. Depending on provider availability and time of day, you may be seen within minutes of booking.',
+    a: 'In most cases, same-day appointments are available. Same-day visits, evenings, and weekends are offered depending on schedule availability.',
   },
   {
     q: 'What do I need for my visit?',
@@ -124,11 +128,11 @@ const faqItems = [
   // Section 6: Work Notes, Follow-Up, and Portal Access
   {
     q: 'Can you provide a work or school note?',
-    a: 'Yes, when medically appropriate — TeleDirectMD can provide a brief work or school excuse note based on the condition evaluated during your visit, included free of charge with any video visit. As a policy, notes are not backdated and are generally limited to a maximum of three days.',
+    a: 'Yes, when medically appropriate — TeleDirectMD can provide a brief work or school excuse note based on the condition evaluated during your visit, included free of charge with any video visit. As a policy, notes are not backdated and are generally limited to a maximum of three days. Important: TeleDirectMD does not provide work accommodation letters, workplace accommodation forms, or return-to-work clearance forms. These require in-person evaluation and ongoing management with a primary care provider.',
   },
   {
     q: 'Do you complete FMLA or disability forms?',
-    a: 'No. TeleDirectMD provides episodic urgent-care visits and cannot complete FMLA paperwork, disability forms, or other extended documentation. We recommend contacting your primary care provider or specialist for those needs.',
+    a: 'No. TeleDirectMD provides episodic urgent-care visits and cannot complete FMLA paperwork, disability forms, work accommodation letters, workplace accommodation forms, return-to-work clearance forms, or other extended documentation. We recommend contacting your primary care provider or specialist for those needs.',
   },
   {
     q: 'How do I access my visit records?',
