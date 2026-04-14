@@ -96,15 +96,79 @@ const REVIEWS = [
 
 /* 8 logos — matches live teledirectmd.com exactly */
 const MEDIA_OUTLETS = [
-  { name: 'HuffPost', logo: '/logos/huffpost.jpg' },
-  { name: 'Newsweek', logo: '/logos/newsweek.png' },
-  { name: 'TIME', logo: '/logos/time.png' },
-  { name: 'U.S. News', logo: '/logos/usnews.png' },
-  { name: 'New York Post', logo: '/logos/nypost.png' },
-  { name: 'Fox News', logo: '/logos/fox.png' },
-  { name: 'Healthline', logo: '/logos/healthline.png' },
-  { name: 'Daily Mail', logo: '/logos/dailymail.png' },
+  { name: 'HuffPost', logo: '/logos/huffpost.jpg', href: '/media-mentions' },
+  { name: 'Newsweek', logo: '/logos/newsweek.png', href: 'https://www.newsweek.com/woman-drinks-matcha-every-week-shock-ends-hospital-2127630' },
+  { name: 'TIME', logo: '/logos/time.png', href: 'https://time.com/7331761/cold-shower-benefits-health/' },
+  { name: 'U.S. News', logo: '/logos/usnews.png', href: 'https://health.usnews.com/wellness/articles/should-i-use-collagen-supplements' },
+  { name: 'New York Post', logo: '/logos/nypost.png', href: 'https://nypost.com/2025/11/01/lifestyle/bananas-may-be-making-your-smoothies-less-effective-scientists-say/' },
+  { name: 'Fox News', logo: '/logos/fox.png', href: 'https://www.foxnews.com/food-drink/bananas-may-sabotaging-your-smoothies-superpowers-scientists-warn' },
+  { name: 'Healthline', logo: '/logos/healthline.png', href: 'https://www.healthline.com/health-news/amy-sedaris-talks-brain-health' },
+  { name: 'Daily Mail', logo: '/logos/dailymail.png', href: 'https://www.newsweek.com/woman-drinks-matcha-every-week-shock-ends-hospital-2127630' },
 ];
+
+/* Condition name → URL slug mapping (from live site) */
+const CONDITION_SLUGS = {
+  'Common Cold': '/common-cold-treatment-online',
+  'COVID-19': '/covid-19-treatment-online',
+  'Influenza': '/influenza-treatment-online',
+  'Sinus Infection': '/sinus-infection-treatment-online',
+  'Sore Throat': '/sore-throat-treatment-online',
+  'Ear Pain': '/ear-pain-treatment-online',
+  'Pink Eye': '/pink-eye-treatment-online',
+  'Dental Pain': '/dental-pain-treatment-online',
+  'UTI': '/uti-treatment-online',
+  'Cellulitis': '/cellulitis-treatment-online',
+  'Shingles': '/shingles-treatment-online',
+  'Gout': '/gout-treatment-online',
+  'Mastitis': '/mastitis-treatment-online',
+  'Viral Gastroenteritis': '/viral-gastroenteritis-treatment-online',
+  'Impetigo': '/impetigo-treatment-online',
+  'Oral Thrush': '/oral-thrush-treatment-online',
+  'Yeast Infection': '/yeast-infection-treatment-online',
+  'Bacterial Vaginosis': '/bv-treatment-online',
+  'Vaginal Dryness': '/vaginal-dryness-treatment-online',
+  'Birth Control Refills': '/birth-control-refills-online',
+  'Chlamydia': '/chlamydia-treatment-online',
+  'Genital Herpes': '/genital-herpes-treatment-online',
+  'Cold Sore': '/cold-sore-treatment-online',
+  'Genital Warts': '/genital-warts-treatment-online',
+  'Trichomoniasis': '/trichomoniasis-treatment-online',
+  'Mycoplasma Genitalium': '/mycoplasma-genitalium-treatment-online',
+  'DoxyPEP STI Prevention': '/doxypep-sti-prevention-online',
+  'Erectile Dysfunction': '/erectile-dysfunction-treatment-online',
+  'Performance Anxiety': '/performance-anxiety-treatment-online',
+  'Acne': '/acne-treatment-online',
+  'Eczema': '/eczema-treatment-online',
+  'Rosacea': '/rosacea-treatment-online',
+  'Contact Dermatitis': '/contact-dermatitis-treatment-online',
+  'Dandruff': '/dandruff-treatment-online',
+  'Psoriasis Refills': '/psoriasis-refills-online',
+  'Skin Fungus': '/tinea-treatment-online',
+  'Tinea Versicolor': '/tinea-versicolor-treatment-online',
+  'Excessive Sweating': '/excessive-sweating-treatment-online',
+  'Poison Ivy & Oak': '/poison-ivy-oak-treatment-online',
+  'Perioral Dermatitis': '/perioral-dermatitis-treatment-online',
+  'Melasma': '/melasma-treatment-online',
+  'Dog Bite': '/dog-bite-treatment-online',
+  'Cat Bite': '/cat-bite-treatment-online',
+  'Tick Bite': '/tick-bite-treatment-online',
+  'Head Lice': '/head-lice-treatment-online',
+  'Scabies': '/scabies-treatment-online',
+  'Asthma Refills': '/asthma-refills-online',
+  'Hypertension Refills': '/hypertension-refills-online',
+  'Hypothyroidism Refills': '/hypothyroidism-refills-online',
+  'Hyperlipidemia Refills': '/hyperlipidemia-refills-online',
+  'Diabetes Refills': '/diabetes-refills-online',
+  'Migraine Refills': '/migraine-refills-online',
+  'Acid Reflux Refills': '/acid-reflux-refills-online',
+  'EpiPen Refills': '/epipen-refills-online',
+  'Seasonal Allergies': '/seasonal-allergies-treatment-online',
+  'Hair Loss': '/hair-loss-treatment-online',
+  'Anti-Aging': '/anti-aging-treatment-online',
+  'Eyelash Growth': '/eyelash-growth-treatment-online',
+  'Smoking Cessation': '/smoking-cessation-treatment-online',
+  'Motion Sickness': '/motion-sickness-treatment-online',
+};
 
 const WHY_FEATURES = [
   { title: 'Board-Certified MD', desc: 'Every visit is with Dr. Parth Bhavsar, a licensed family medicine physician.', icon: 'doctor', img: '/images/why/why-board-certified.png' },
@@ -541,7 +605,9 @@ export default function HomepageClient() {
               <div className="hp-marquee-track">
                 {/* Double the logos for seamless loop */}
                 {[...MEDIA_OUTLETS, ...MEDIA_OUTLETS].map((item, i) => (
-                  <img key={`${item.name}-${i}`} src={item.logo} alt={item.name} loading="lazy" />
+                  <a key={`${item.name}-${i}`} href={item.href} target="_blank" rel="noopener noreferrer" style={{ display: 'inline-block', lineHeight: 0 }}>
+                    <img src={item.logo} alt={item.name} loading="lazy" />
+                  </a>
                 ))}
               </div>
             </div>
@@ -570,7 +636,7 @@ export default function HomepageClient() {
           </div>
           <div className="hp-conditions-grid hp-animate hp-fade-up">
             {CONDITION_CATEGORIES[activeCategory].conditions.map((c, i) => (
-              <a key={i} href="/what-we-treat" className="hp-condition-pill">
+              <a key={i} href={CONDITION_SLUGS[c] || '/what-we-treat'} className="hp-condition-pill">
                 {CONDITION_ICONS[c] ? (
                   <span className="hp-condition-icon" dangerouslySetInnerHTML={{ __html: CONDITION_ICONS[c] }} />
                 ) : (
@@ -640,9 +706,9 @@ export default function HomepageClient() {
           </div>
           <div className="hp-media-grid hp-stagger">
             {MEDIA_OUTLETS.map((outlet, i) => (
-              <div key={i} className="hp-media-card hp-animate hp-scale-in">
+              <a key={i} href={outlet.href} target="_blank" rel="noopener noreferrer" className="hp-media-card hp-animate hp-scale-in" style={{ textDecoration: 'none' }}>
                 <img src={outlet.logo} alt={outlet.name} loading="lazy" />
-              </div>
+              </a>
             ))}
           </div>
         </div>
