@@ -257,6 +257,190 @@ function useScrollAnimation() {
 }
 
 /* ============================
+   STICKY SCROLL REVEAL HOOK
+   (Apple-style: section pins, children reveal one-by-one)
+   ============================ */
+function useStickyScroll(itemCount, { scrollPerItem = 200 } = {}) {
+  const containerRef = useRef(null);
+  const [activeIndex, setActiveIndex] = useState(-1);
+  const [progress, setProgress] = useState(0);
+
+  useEffect(() => {
+    const container = containerRef.current;
+    if (!container) return;
+
+    // Check prefers-reduced-motion
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      setActiveIndex(itemCount - 1);
+      setProgress(1);
+      return;
+    }
+
+    const handleScroll = () => {
+      const rect = container.getBoundingClientRect();
+      const viewH = window.innerHeight;
+      // How far into the sticky zone we are
+      const scrolled = viewH - rect.top;
+      const totalScroll = itemCount * scrollPerItem;
+      const pct = Math.max(0, Math.min(1, scrolled / totalScroll));
+      setProgress(pct);
+      const idx = Math.floor(pct * itemCount) - 1;
+      setActiveIndex(Math.min(idx, itemCount - 1));
+    };
+
+    window.addEventListener('scroll', handleScroll, { passive: true });
+    handleScroll();
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, [itemCount, scrollPerItem]);
+
+  return { containerRef, activeIndex, progress };
+}
+
+/* ============================
+   NUMBER COUNTER HOOK
+   ============================ */
+function useCountUp(end, duration = 1200) {
+  const [count, setCount] = useState(0);
+  const ref = useRef(null);
+  const triggered = useRef(false);
+
+  useEffect(() => {
+    const el = ref.current;
+    if (!el) return;
+
+    const observer = new IntersectionObserver(([entry]) => {
+      if (entry.isIntersecting && !triggered.current) {
+        triggered.current = true;
+        const start = performance.now();
+        const step = (now) => {
+          const elapsed = now - start;
+          const pct = Math.min(elapsed / duration, 1);
+          // ease-out curve
+          const eased = 1 - Math.pow(1 - pct, 3);
+          setCount(Math.round(eased * end));
+          if (pct < 1) requestAnimationFrame(step);
+        };
+        requestAnimationFrame(step);
+        observer.unobserve(el);
+      }
+    }, { threshold: 0.3 });
+
+    observer.observe(el);
+    return () => observer.disconnect();
+  }, [end, duration]);
+
+  return { ref, count };
+}
+
+/* ============================
+   MAIN COMPONENT
+   ============================ */
+/* ============================
+   STICKY STEP COMPONENT
+   (How It Works — Apple-style)
+   ============================ */
+const HOW_STEPS = [
+  { num: 1, title: 'Book Online', desc: 'Choose a visit time that works for you. Available 7 days a week.', img: '/images/steps/step-book.png' },
+  { num: 2, title: 'Quick Intake', desc: 'Fill out a brief health questionnaire so your doctor is prepared.', img: '/images/steps/step-intake.png' },
+  { num: 3, title: 'Video Visit', desc: 'Meet with Dr. Bhavsar via secure video. Discuss symptoms, get a diagnosis.', img: '/images/steps/step-video.png' },
+  { num: 4, title: 'Get Your Rx', desc: 'Prescription sent to your pharmacy — often within the hour.', img: '/images/steps/step-rx.png' },
+];
+
+function StickyHowItWorks() {
+  const { containerRef, activeIndex } = useStickyScroll(4, { scrollPerItem: 220 });
+
+  return (
+    <section className="hp-how hp-section">
+      <div className="hp-sticky-scroll-outer" ref={containerRef}>
+        <div className="hp-sticky-viewport">
+          <div className="hp-container">
+            <span className="hp-section-label" style={{ color: '#006B73' }}>HOW IT WORKS</span>
+            <h2 className="hp-section-title" style={{ color: '#003E52' }}>See a doctor in 4 simple steps</h2>
+            <p className="hp-section-subtitle" style={{ marginLeft: 'auto', marginRight: 'auto' }}>
+              No insurance paperwork. No long wait times. Just quality healthcare, from wherever you are.
+            </p>
+            <div className="hp-sticky-steps">
+              {/* Left: step indicators / progress */}
+              <div className="hp-sticky-steps-nav">
+                {HOW_STEPS.map((step, i) => (
+                  <div key={i} className={`hp-sticky-nav-item${i <= activeIndex ? ' hp-sticky-nav-active' : ''}`}>
+                    <div className="hp-sticky-nav-num">{step.num}</div>
+                    <div className="hp-sticky-nav-label">{step.title}</div>
+                    {i < 3 && <div className={`hp-sticky-nav-line${i < activeIndex ? ' hp-sticky-nav-line-fill' : ''}`} />}
+                  </div>
+                ))}
+              </div>
+              {/* Right: cards that reveal */}
+              <div className="hp-sticky-steps-cards">
+                {HOW_STEPS.map((step, i) => (
+                  <div
+                    key={i}
+                    className={`hp-sticky-step-card${i <= activeIndex ? ' hp-sticky-step-visible' : ''}`}
+                    style={{ transitionDelay: `${i <= activeIndex ? 0.05 : 0}s` }}
+                  >
+                    <div className="hp-sticky-step-img">
+                      <img src={step.img} alt={step.title} loading="lazy" />
+                      <span className="hp-step-num">{step.num}</span>
+                    </div>
+                    <div className="hp-sticky-step-text">
+                      <h3>{step.title}</h3>
+                      <p>{step.desc}</p>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+            <div style={{ textAlign: 'center', marginTop: 40 }}>
+              <a href="/book-online" className="hp-btn hp-btn-primary">Book Your $49 Visit</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+/* ============================
+   STICKY WHY COMPONENT
+   (Why TeleDirectMD — Apple-style)
+   ============================ */
+function StickyWhySection() {
+  const { containerRef, activeIndex } = useStickyScroll(6, { scrollPerItem: 160 });
+
+  return (
+    <section className="hp-why hp-section">
+      <div className="hp-sticky-scroll-outer hp-sticky-why-outer" ref={containerRef}>
+        <div className="hp-sticky-viewport">
+          <div className="hp-container">
+            <div style={{ textAlign: 'center' }}>
+              <span className="hp-section-label" style={{ color: '#006B73' }}>WHY TELEDIRECTMD</span>
+              <h2 className="hp-section-title">Healthcare that actually works for you</h2>
+            </div>
+            <div className="hp-why-grid">
+              {WHY_FEATURES.map((feat, i) => (
+                <div
+                  key={i}
+                  className={`hp-why-card hp-sticky-why-card${i <= activeIndex ? ' hp-sticky-why-visible' : ''}`}
+                >
+                  <div className="hp-why-img">
+                    <img src={feat.img} alt={feat.title} loading="lazy" />
+                  </div>
+                  <h3>{feat.title}</h3>
+                  <p>{feat.desc}</p>
+                </div>
+              ))}
+            </div>
+            <div style={{ textAlign: 'center' }}>
+              <a href="/book-online" className="hp-btn hp-btn-primary">Book a $49 MD Visit</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+/* ============================
    MAIN COMPONENT
    ============================ */
 export default function HomepageClient() {
@@ -264,6 +448,11 @@ export default function HomepageClient() {
   const [activeCategory, setActiveCategory] = useState(0);
   const [reviewOffset, setReviewOffset] = useState(0);
   const reviewTrackRef = useRef(null);
+
+  // Counter hooks for stats
+  const stateCounter = useCountUp(42, 1500);
+  const conditionCounter = useCountUp(60, 1200);
+  const ratingCounter = useCountUp(49, 1000); // 4.9 -> we'll display as 4.9
 
   // Load the canvas hero animation script after mount
   useEffect(() => {
@@ -328,7 +517,7 @@ export default function HomepageClient() {
           <div style={{ textAlign: 'center' }}>
             <span className="hp-section-label hp-animate hp-fade-up">WHAT WE TREAT</span>
             <h2 className="hp-section-title hp-animate hp-fade-up">
-              60+ conditions, one flat fee
+              <span ref={conditionCounter.ref}>{conditionCounter.count}</span>+ conditions, one flat fee
             </h2>
             <p className="hp-section-subtitle hp-animate hp-fade-up" style={{ marginLeft: 'auto', marginRight: 'auto' }}>
               From urgent infections to chronic medication refills — get expert care from a board-certified physician.
@@ -360,37 +549,8 @@ export default function HomepageClient() {
         </div>
       </section>
 
-      {/* ===== SECTION 3: HOW IT WORKS ===== */}
-      <section className="hp-how hp-section">
-        <div className="hp-container">
-          <span className="hp-section-label hp-animate hp-fade-up">HOW IT WORKS</span>
-          <h2 className="hp-section-title hp-animate hp-fade-up">See a doctor in 4 simple steps</h2>
-          <p className="hp-section-subtitle hp-animate hp-fade-up">
-            No insurance paperwork. No long wait times. Just quality healthcare, from wherever you are.
-          </p>
-          <div className="hp-steps hp-stagger">
-            {[
-              { num: 1, title: 'Book Online', desc: 'Choose a visit time that works for you. Available 7 days a week.', img: '/images/steps/step-book.png' },
-              { num: 2, title: 'Quick Intake', desc: 'Fill out a brief health questionnaire so your doctor is prepared.', img: '/images/steps/step-intake.png' },
-              { num: 3, title: 'Video Visit', desc: 'Meet with Dr. Bhavsar via secure video. Discuss symptoms, get a diagnosis.', img: '/images/steps/step-video.png' },
-              { num: 4, title: 'Get Your Rx', desc: 'Prescription sent to your pharmacy — often within the hour.', img: '/images/steps/step-rx.png' },
-            ].map((step, i) => (
-              <div key={i} className="hp-step hp-animate hp-fade-up">
-                <div className="hp-step-img">
-                  <img src={step.img} alt={step.title} loading="lazy" />
-                  <span className="hp-step-num">{step.num}</span>
-                </div>
-                {i < 3 && <div className="hp-step-connector" />}
-                <h3>{step.title}</h3>
-                <p>{step.desc}</p>
-              </div>
-            ))}
-          </div>
-          <div style={{ textAlign: 'center', marginTop: 40 }} className="hp-animate hp-fade-up">
-            <a href="/book-online" className="hp-btn hp-btn-primary">Book Your $49 Visit</a>
-          </div>
-        </div>
-      </section>
+      {/* ===== SECTION 3: HOW IT WORKS (Apple-style sticky scroll) ===== */}
+      <StickyHowItWorks />
 
       {/* ===== SECTION 4: CONDITIONS ===== */}
       <section className="hp-conditions hp-section">
@@ -533,29 +693,8 @@ export default function HomepageClient() {
         </div>
       </section>
 
-      {/* ===== SECTION 8: WHY CHOOSE ===== */}
-      <section className="hp-why hp-section">
-        <div className="hp-container">
-          <div style={{ textAlign: 'center' }}>
-            <span className="hp-section-label hp-animate hp-fade-up">WHY TELEDIRECTMD</span>
-            <h2 className="hp-section-title hp-animate hp-fade-up">Healthcare that actually works for you</h2>
-          </div>
-          <div className="hp-why-grid hp-stagger">
-            {WHY_FEATURES.map((feat, i) => (
-              <div key={i} className="hp-why-card hp-animate hp-fade-up">
-                <div className="hp-why-img">
-                  <img src={feat.img} alt={feat.title} loading="lazy" />
-                </div>
-                <h3>{feat.title}</h3>
-                <p>{feat.desc}</p>
-              </div>
-            ))}
-          </div>
-          <div className="hp-animate hp-fade-up" style={{ textAlign: 'center' }}>
-            <a href="/book-online" className="hp-btn hp-btn-primary">Book a $49 MD Visit</a>
-          </div>
-        </div>
-      </section>
+      {/* ===== SECTION 8: WHY CHOOSE (Apple-style sticky scroll) ===== */}
+      <StickyWhySection />
 
       {/* Wave divider */}
       <div className="hp-wave-divider" aria-hidden="true">
@@ -568,7 +707,7 @@ export default function HomepageClient() {
       <section className="hp-states hp-section">
         <div className="hp-container">
           <span className="hp-section-label hp-animate hp-fade-up">COVERAGE</span>
-          <h2 className="hp-section-title hp-animate hp-fade-up">Licensed in 40+ states</h2>
+          <h2 className="hp-section-title hp-animate hp-fade-up"><span ref={stateCounter.ref}>{stateCounter.count}</span>+ states licensed</h2>
           <p className="hp-section-subtitle hp-animate hp-fade-up">
             See a board-certified doctor from almost anywhere in the United States. Click a state to learn more.
           </p>
