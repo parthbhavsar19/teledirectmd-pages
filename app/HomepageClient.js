@@ -361,7 +361,7 @@ function useStickyScroll(itemCount, { scrollPerItem = 200 } = {}) {
 }
 
 /* ============================
-   NUMBER COUNTER HOOK
+   NUMBER COUNTER HOOKS
    ============================ */
 function useCountUp(end, duration = 1200) {
   const [count, setCount] = useState(0);
@@ -392,6 +392,41 @@ function useCountUp(end, duration = 1200) {
     observer.observe(el);
     return () => observer.disconnect();
   }, [end, duration]);
+
+  return { ref, count };
+}
+
+/* Countdown: starts high, drops to target — ease-out so it slows dramatically near the end */
+function useCountDown(from, to, duration = 2000) {
+  const [count, setCount] = useState(from);
+  const ref = useRef(null);
+  const triggered = useRef(false);
+
+  useEffect(() => {
+    const el = ref.current;
+    if (!el) return;
+
+    const observer = new IntersectionObserver(([entry]) => {
+      if (entry.isIntersecting && !triggered.current) {
+        triggered.current = true;
+        const delta = from - to;
+        const start = performance.now();
+        const step = (now) => {
+          const elapsed = now - start;
+          const pct = Math.min(elapsed / duration, 1);
+          // ease-out cubic — fast drop at start, dramatic slow-down near $49
+          const eased = 1 - Math.pow(1 - pct, 3);
+          setCount(Math.round(from - eased * delta));
+          if (pct < 1) requestAnimationFrame(step);
+        };
+        requestAnimationFrame(step);
+        observer.unobserve(el);
+      }
+    }, { threshold: 0.3 });
+
+    observer.observe(el);
+    return () => observer.disconnect();
+  }, [from, to, duration]);
 
   return { ref, count };
 }
@@ -470,6 +505,7 @@ function StickyHowItWorks() {
    ============================ */
 function StickyWhySection() {
   const { containerRef, activeIndex } = useStickyScroll(6, { scrollPerItem: 160 });
+  const whyPriceCountdown = useCountDown(2200, 49, 2000);
 
   return (
     <section className="hp-why hp-section">
@@ -489,7 +525,11 @@ function StickyWhySection() {
                   <div className="hp-why-img">
                     <img src={feat.img} alt={feat.title} loading="lazy" />
                   </div>
-                  <h3>{feat.title}</h3>
+                  {i === 1 ? (
+                    <h3><span ref={whyPriceCountdown.ref} className="hp-counter-price">${whyPriceCountdown.count.toLocaleString()}</span> Flat Fee</h3>
+                  ) : (
+                    <h3>{feat.title}</h3>
+                  )}
                   <p>{feat.desc}</p>
                 </div>
               ))}
@@ -517,6 +557,7 @@ export default function HomepageClient() {
   const stateCounter = useCountUp(42, 1500);
   const conditionCounter = useCountUp(60, 1200);
   const ratingCounter = useCountUp(49, 1000); // 4.9 -> we'll display as 4.9
+  const priceCountdown = useCountDown(2200, 49, 2200); // $2,200 → $49 over 2.2s
 
   // Load the canvas hero animation script after mount
   useEffect(() => {
@@ -581,7 +622,8 @@ export default function HomepageClient() {
           <div style={{ textAlign: 'center' }}>
             <span className="hp-section-label hp-animate hp-fade-up">WHAT WE TREAT</span>
             <h2 className="hp-section-title hp-animate hp-fade-up">
-              <span ref={conditionCounter.ref}>{conditionCounter.count}</span>+ conditions, one flat fee
+              <span ref={conditionCounter.ref} className="hp-counter-num">{conditionCounter.count}</span>+ conditions, just{' '}
+              <span ref={priceCountdown.ref} className="hp-counter-price">${priceCountdown.count.toLocaleString()}</span>
             </h2>
             <p className="hp-section-subtitle hp-animate hp-fade-up" style={{ marginLeft: 'auto', marginRight: 'auto' }}>
               From urgent infections to chronic medication refills — get expert care from a board-certified physician.
