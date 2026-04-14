@@ -1,0 +1,280 @@
+/* TeleDirectMD Health Guides — Dark Mode
+   Activated by adding class "tdmd-dark" to <html> element */
+
+html.tdmd-dark {
+  --tdmd-navy: #7ecde0;
+  --tdmd-teal: #5bbfc9;
+  --tdmd-accent: #ff7a5c;
+  --tdmd-text: #e0e8eb;
+  --tdmd-muted: #9bb0b8;
+  --tdmd-white: #1a1a2e;
+  --tdmd-bg-soft: #1e2a35;
+  --tdmd-border: #2a3a45;
+  --tdmd-footer-bg: #0a1e28;
+}
+
+html.tdmd-dark body {
+  background: #121c24;
+  color: var(--tdmd-text);
+}
+
+/* Nav */
+html.tdmd-dark .tdmd-nav {
+  background: #0f1a22;
+  border-bottom-color: var(--tdmd-border);
+}
+
+html.tdmd-dark .tdmd-nav-links a {
+  color: var(--tdmd-text);
+}
+
+/* Breadcrumb */
+html.tdmd-dark .tdmd-breadcrumb {
+  color: var(--tdmd-muted);
+}
+
+/* Cards */
+html.tdmd-dark .guide-card,
+html.tdmd-dark .article-card {
+  background: #1a2733;
+  border-color: var(--tdmd-border);
+}
+
+html.tdmd-dark .guide-card:hover,
+html.tdmd-dark .article-card:hover {
+  border-color: var(--tdmd-teal);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.4);
+}
+
+html.tdmd-dark .guide-card-desc,
+html.tdmd-dark .article-card-desc {
+  color: var(--tdmd-muted);
+}
+
+html.tdmd-dark .guide-card-meta {
+  color: var(--tdmd-muted);
+}
+
+html.tdmd-dark .guide-card-badge {
+  background: rgba(91,191,201,0.15);
+  color: var(--tdmd-teal);
+}
+
+/* Article card image */
+html.tdmd-dark .article-card-img {
+  opacity: 0.9;
+}
+
+/* Category sections */
+html.tdmd-dark .guides-category {
+  background: #1a2733;
+  border-color: var(--tdmd-border);
+}
+
+html.tdmd-dark .guides-category-icon {
+  background: rgba(91,191,201,0.12);
+}
+
+/* Article body content */
+html.tdmd-dark .tdmd-article-body {
+  color: var(--tdmd-text);
+}
+
+html.tdmd-dark .tdmd-article-body h1,
+html.tdmd-dark .tdmd-article-body h2,
+html.tdmd-dark .tdmd-article-body h3 {
+  color: #f0f4f6;
+}
+
+/* Key points / takeaways box */
+html.tdmd-dark .tdmd-key-points {
+  background: #1e2a35;
+  border-color: var(--tdmd-border);
+}
+
+/* Section highlights */
+html.tdmd-dark .tdmd-section-highlight {
+  background: #1e2a35;
+}
+
+/* Tables */
+html.tdmd-dark .tdmd-table {
+  border-color: var(--tdmd-border);
+}
+
+html.tdmd-dark .tdmd-table th {
+  background: #162028;
+  color: #f0f4f6;
+  border-color: var(--tdmd-border);
+}
+
+html.tdmd-dark .tdmd-table td {
+  border-color: var(--tdmd-border);
+  color: var(--tdmd-text);
+}
+
+html.tdmd-dark .tdmd-table tr:nth-child(even) {
+  background: #1a2733;
+}
+
+/* Sidebar TOC */
+html.tdmd-dark .tdmd-sidebar {
+  background: #1a2733;
+  border-color: var(--tdmd-border);
+}
+
+html.tdmd-dark .tdmd-toc a {
+  color: var(--tdmd-muted);
+}
+
+html.tdmd-dark .tdmd-toc a:hover,
+html.tdmd-dark .tdmd-toc a.active {
+  color: var(--tdmd-teal);
+}
+
+/* References */
+html.tdmd-dark .tdmd-references {
+  background: #1a2733;
+  border-color: var(--tdmd-border);
+}
+
+/* Author bio */
+html.tdmd-dark .tdmd-author-card {
+  background: #1a2733;
+  border-color: var(--tdmd-border);
+}
+
+/* FAQ */
+html.tdmd-dark .tdmd-faq-question {
+  color: var(--tdmd-text);
+}
+
+html.tdmd-dark .tdmd-faq-question:hover {
+  background: #1e2a35;
+}
+
+html.tdmd-dark .tdmd-faq-answer {
+  color: var(--tdmd-muted);
+}
+
+/* Callout / warning boxes */
+html.tdmd-dark .tdmd-callout,
+html.tdmd-dark .tdmd-warning {
+  background: #1e2a35;
+  border-color: var(--tdmd-border);
+}
+
+/* Hero area */
+html.tdmd-dark .tdmd-hero {
+  background: linear-gradient(135deg, #0a1e28 0%, #162028 100%);
+}
+
+html.tdmd-dark .tdmd-hero-title {
+  color: #f0f4f6;
+}
+
+html.tdmd-dark .tdmd-hero-desc {
+  color: var(--tdmd-muted);
+}
+
+/* Search / filter */
+html.tdmd-dark .guides-search-input {
+  background: #1a2733;
+  border-color: var(--tdmd-border);
+  color: var(--tdmd-text);
+}
+
+html.tdmd-dark .guides-search-input::placeholder {
+  color: var(--tdmd-muted);
+}
+
+/* Images - slight brightness reduction */
+html.tdmd-dark figure img {
+  opacity: 0.92;
+  border-radius: var(--tdmd-radius);
+}
+
+html.tdmd-dark figcaption {
+  color: var(--tdmd-muted);
+}
+
+/* Scrollbar */
+html.tdmd-dark ::-webkit-scrollbar-track {
+  background: #121c24;
+}
+
+html.tdmd-dark ::-webkit-scrollbar-thumb {
+  background: #2a3a45;
+}
+
+/* Book Now button - keep visible */
+html.tdmd-dark .tdmd-nav-book {
+  background: var(--tdmd-accent);
+  color: #fff !important;
+}
+
+/* Footer - already dark, minor adjustments */
+html.tdmd-dark .tdmd-footer {
+  background: #080f14;
+}
+
+/* Article card footer */
+html.tdmd-dark .article-card-footer {
+  color: var(--tdmd-muted);
+  border-top-color: var(--tdmd-border);
+}
+
+/* Code blocks if any */
+html.tdmd-dark code,
+html.tdmd-dark pre {
+  background: #1a2733;
+  color: var(--tdmd-teal);
+}
+
+/* Dark mode toggle button */
+.tdmd-dark-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  border: 1.5px solid var(--tdmd-border);
+  border-radius: 10px;
+  background: transparent;
+  cursor: pointer;
+  transition: background 0.2s, border-color 0.2s;
+  margin-left: 0.5rem;
+  flex-shrink: 0;
+}
+
+.tdmd-dark-toggle:hover {
+  background: var(--tdmd-bg-soft);
+  border-color: var(--tdmd-teal);
+}
+
+.tdmd-dark-toggle svg {
+  width: 20px;
+  height: 20px;
+  stroke: var(--tdmd-text);
+  fill: none;
+  stroke-width: 2;
+  transition: stroke 0.2s;
+}
+
+/* Hide/show sun/moon icons */
+.tdmd-dark-toggle .tdmd-icon-moon { display: block; }
+.tdmd-dark-toggle .tdmd-icon-sun { display: none; }
+
+html.tdmd-dark .tdmd-dark-toggle .tdmd-icon-moon { display: none; }
+html.tdmd-dark .tdmd-dark-toggle .tdmd-icon-sun { display: block; }
+
+/* Smooth transition */
+html {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body, .tdmd-nav, .guide-card, .article-card, .guides-category,
+.tdmd-sidebar, .tdmd-references, .tdmd-author-card, .tdmd-key-points,
+.tdmd-table th, .tdmd-table td, .tdmd-footer {
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
