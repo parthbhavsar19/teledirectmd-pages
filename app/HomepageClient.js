@@ -550,7 +550,6 @@ function StickyWhySection() {
 export default function HomepageClient() {
   const wrapRef = useScrollAnimation();
   const [activeCategory, setActiveCategory] = useState(0);
-  const [reviewOffset, setReviewOffset] = useState(0);
   const reviewTrackRef = useRef(null);
 
   // Counter hooks for stats
@@ -571,12 +570,10 @@ export default function HomepageClient() {
   }, []);
 
   const scrollReviews = useCallback((dir) => {
-    setReviewOffset((prev) => {
-      const cardWidth = window.innerWidth < 480 ? 280 : 360;
-      const next = prev + dir * cardWidth;
-      const maxScroll = (REVIEWS.length - 1) * cardWidth - (window.innerWidth - 48);
-      return Math.max(0, Math.min(next, maxScroll > 0 ? maxScroll : 0));
-    });
+    const track = reviewTrackRef.current;
+    if (!track) return;
+    const cardWidth = window.innerWidth < 480 ? 280 : 360;
+    track.scrollBy({ left: dir * cardWidth, behavior: 'smooth' });
   }, []);
 
   return (
@@ -773,12 +770,10 @@ export default function HomepageClient() {
               </button>
             </div>
           </div>
-          <div style={{ overflow: 'hidden' }}>
-            <div
-              className="hp-reviews-track"
-              ref={reviewTrackRef}
-              style={{ transform: `translateX(-${reviewOffset}px)` }}
-            >
+          <div
+            className="hp-reviews-track"
+            ref={reviewTrackRef}
+          >
               {REVIEWS.map((review, i) => (
                 <div key={i} className="hp-review-card">
                   <div className="hp-review-quote" aria-hidden="true">
@@ -796,7 +791,6 @@ export default function HomepageClient() {
                   </div>
                 </div>
               ))}
-            </div>
           </div>
         </div>
       </section>
