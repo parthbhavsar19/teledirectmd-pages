@@ -462,11 +462,14 @@ export default function TermsOfService() {
           <h3>7.1 Visit Fee</h3>
           <p>
             The fee for a telehealth visit is <strong>$49.00 per visit</strong>, payable before the
-            visit is conducted. This fee is all-inclusive and covers the physician consultation,
-            any electronic prescription(s) sent to your chosen pharmacy, and a work or school excuse
-            note if one is medically appropriate and issued at the Provider's discretion. There are no
-            additional charges, add-on fees, or separate line items beyond the $49 visit fee. There
-            are no subscription or membership fees.
+            visit is conducted. This is the consultation fee and covers the physician evaluation,
+            clinical assessment, and a work or school excuse note if one is medically appropriate
+            and issued at the Provider&apos;s discretion. If a prescription is issued during your visit,
+            it will be sent electronically to your chosen pharmacy. The cost of any prescribed
+            medication is separate and determined by your pharmacy and pharmacy benefit plan —
+            TeleDirectMD does not charge for prescriptions and has no control over medication
+            pricing. There are no additional consultation charges, add-on fees, subscription fees,
+            or membership fees.
           </p>
           <h3>7.2 Payment Methods</h3>
           <p>
