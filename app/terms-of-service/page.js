@@ -423,7 +423,7 @@ const tosPageCSS = `
     font-size: 1.08rem;
     font-weight: 700;
     margin: 28px 0 10px;
-    color: var(--tdmd-text, #12323a);
+    color: var(--tdmd-navy, #003e52);
   }
   .tos-body p {
     margin: 0 0 14px;
