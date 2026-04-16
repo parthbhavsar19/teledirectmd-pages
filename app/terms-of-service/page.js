@@ -213,7 +213,7 @@ export default function TermsOfService() {
             <li><a href="#s5">No Ongoing Provider-Patient Relationship</a></li>
             <li><a href="#s6">User Responsibilities</a></li>
             <li><a href="#s7">Fees and Payment</a></li>
-            <li><a href="#s8">Refund Policy</a></li>
+            <li><a href="#s8">Cancellation and Refund Policy</a></li>
             <li><a href="#s9">Privacy and HIPAA</a></li>
             <li><a href="#s10">Telehealth Technology Requirements</a></li>
             <li><a href="#s11">Prescribing Policy</a></li>
@@ -241,7 +241,8 @@ export default function TermsOfService() {
             Georgia. By accessing teledirectmd.com (the "Site") or using any services made available
             through the Site (collectively, the "Services"), you agree to be bound by these Terms and
             all documents incorporated herein by reference, including our{' '}
-            <a href="/notice-of-privacy-practices">Notice of Privacy Practices</a> and{' '}
+            <a href="/privacy-policy">Privacy Policy</a>,{' '}
+            <a href="/notice-of-privacy-practices">Notice of Privacy Practices</a>, and{' '}
             <a href="/telehealth-consent">Telehealth Informed Consent</a>.
           </p>
           <h3>1.2 Electronic Agreement</h3>
@@ -506,14 +507,28 @@ export default function TermsOfService() {
 
         {/* ── SECTION 8 ── */}
         <section id="s8">
-          <h2>8. Refund Policy</h2>
-          <h3>8.1 General Policy</h3>
+          <h2>8. Cancellation and Refund Policy</h2>
+          <h3>8.1 Cancellation and Rescheduling</h3>
           <p>
-            The $49 visit fee covers the physician's time and clinical judgment, which are expended
+            Appointments may be cancelled or rescheduled up to <strong>2 hours before</strong> the
+            scheduled visit time without penalty. To cancel or reschedule, contact us at{' '}
+            <a href="mailto:contact@teledirectmd.com">contact@teledirectmd.com</a> or{' '}
+            <a href="tel:+16789561855">(678) 956-1855</a> before the applicable deadline.
+            Cancellations made within 2 hours of the visit may result in forfeiture of the visit fee
+            at TeleDirectMD&apos;s discretion.
+          </p>
+          <h3>8.2 No-Shows</h3>
+          <p>
+            If you fail to appear for a scheduled visit without prior cancellation, the full visit
+            fee is forfeited. No refund will be issued for no-shows.
+          </p>
+          <h3>8.3 General Refund Policy</h3>
+          <p>
+            The $49 visit fee covers the physician&apos;s time and clinical judgment, which are expended
             regardless of the outcome of the visit. Accordingly, visit fees are generally
             non-refundable once a visit has been completed.
           </p>
-          <h3>8.2 Physician Inability to Complete Visit</h3>
+          <h3>8.4 Physician Inability to Complete Visit</h3>
           <p>
             If a visit cannot be completed due to a technical failure on TeleDirectMD's side, or if
             the Provider determines that your condition cannot be appropriately evaluated via
@@ -521,24 +536,24 @@ export default function TermsOfService() {
             partial refund at TeleDirectMD's discretion. Contact us at{' '}
             <a href="mailto:contact@teledirectmd.com">contact@teledirectmd.com</a> within 72 hours.
           </p>
-          <h3>8.3 No Prescription Issued</h3>
+          <h3>8.5 No Prescription Issued</h3>
           <p>
             The visit fee is not contingent upon a prescription being issued. Clinical judgment
             sometimes leads to the determination that no prescription is appropriate for your
             condition. No refund is issued solely because a prescription was not provided.
           </p>
-          <h3>8.4 Controlled Substance Requests</h3>
+          <h3>8.6 Controlled Substance Requests</h3>
           <p>
             No refund is issued because a controlled substance request was declined. TeleDirectMD
             has an absolute prohibition on prescribing controlled substances of any schedule (see
             Section 11).
           </p>
-          <h3>8.5 Excuse Note Not Issued</h3>
+          <h3>8.7 Excuse Note Not Issued</h3>
           <p>
             Excuse notes are issued only at the Provider's clinical discretion. No refund is issued
             because an excuse note was not provided.
           </p>
-          <h3>8.6 Technical Issues on Patient Side</h3>
+          <h3>8.8 Technical Issues on Patient Side</h3>
           <p>
             If a visit cannot be completed due to a technical failure on your side (e.g., internet
             outage, device failure), TeleDirectMD will make reasonable efforts to reschedule the
@@ -677,7 +692,12 @@ export default function TermsOfService() {
             purposes. You may not reproduce, distribute, modify, create derivative works from, or
             commercially exploit any content on the Site without our prior written consent.
           </p>
-          <h3>12.3 User Content</h3>
+          <h3>12.3 No Recording</h3>
+          <p>
+            You may not audio or video record any telehealth visit without the prior written consent
+            of TeleDirectMD and Dr. Bhavsar.
+          </p>
+          <h3>12.4 User Content</h3>
           <p>
             By submitting information through the intake forms or otherwise communicating with us,
             you grant TeleDirectMD a limited license to use that information to provide the Services
@@ -787,10 +807,11 @@ export default function TermsOfService() {
             If informal resolution fails, any dispute, claim, or controversy arising out of or
             relating to these Terms or the Services—including questions about the existence, scope,
             or validity of this arbitration agreement—shall be resolved by final and binding
-            arbitration administered by JAMS in accordance with its applicable rules. The arbitration
-            shall be conducted by a single neutral arbitrator. The seat of arbitration shall be
-            Fulton County, Georgia. Judgment on the arbitration award may be entered in any court
-            of competent jurisdiction.
+            arbitration administered by the American Arbitration Association (AAA) under its
+            Healthcare Due Process Protocol and applicable AAA Consumer Arbitration Rules. The
+            arbitration shall be conducted by a single neutral arbitrator. The seat of arbitration
+            shall be Fulton County, Georgia. Judgment on the arbitration award may be entered in
+            any court of competent jurisdiction.
           </p>
           <h3>16.3 Class Action Waiver</h3>
           <p>
@@ -807,7 +828,15 @@ export default function TermsOfService() {
             infringement, unauthorized access, or other circumstances where monetary damages would
             be inadequate.
           </p>
-          <h3>16.5 Medical Malpractice Claims</h3>
+          <h3>16.5 Opt-Out Right</h3>
+          <p>
+            You may opt out of this arbitration agreement by sending written notice to{' '}
+            <a href="mailto:contact@teledirectmd.com">contact@teledirectmd.com</a> within{' '}
+            <strong>30 days of your first use of the Services</strong> or your acceptance of these
+            Terms, whichever is earlier. Your opt-out notice must include your full name, contact
+            information, and a clear statement that you wish to opt out of arbitration.
+          </p>
+          <h3>16.6 Medical Malpractice Claims</h3>
           <p>
             Nothing in this arbitration provision is intended to limit your rights with respect to
             medical malpractice claims to the extent such rights cannot be waived under applicable
@@ -857,8 +886,8 @@ export default function TermsOfService() {
           </p>
           <h3>18.4 Entire Agreement</h3>
           <p>
-            These Terms, together with our Notice of Privacy Practices, Telehealth Informed Consent,
-            and any other policies expressly incorporated herein by reference, constitute the entire
+            These Terms, together with our Privacy Policy, Notice of Privacy Practices, Telehealth
+            Informed Consent, and any other policies expressly incorporated herein by reference, constitute the entire
             agreement between you and TeleDirectMD with respect to the Services and supersede all
             prior and contemporaneous agreements, representations, and understandings.
           </p>
