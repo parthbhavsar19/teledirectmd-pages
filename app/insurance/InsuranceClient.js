@@ -14,6 +14,7 @@ const insuranceData = {
   NC: { state: "North Carolina", insurers: [{ name: "UnitedHealthcare", group: "UHC", plans: ["Commercial plans accepted"] }] },
   NJ: { state: "New Jersey", insurers: [{ name: "UnitedHealthcare", group: "UHC", plans: ["Commercial plans accepted"] }] },
   OH: { state: "Ohio", insurers: [{ name: "Aetna", group: "Aetna", plans: ["Commercial plans accepted"] }, { name: "UnitedHealthcare", group: "UHC", plans: ["Commercial plans accepted"] }] },
+  OK: { state: "Oklahoma", insurers: [{ name: "UnitedHealthcare", group: "UHC", plans: ["Commercial plans accepted"] }] },
   PA: { state: "Pennsylvania", insurers: [{ name: "Highmark Blue Cross Blue Shield", group: "BCBS", plans: ["Commercial plans accepted"] }, { name: "UnitedHealthcare", group: "UHC", plans: ["Commercial plans accepted"] }] },
   TN: { state: "Tennessee", insurers: [{ name: "Aetna", group: "Aetna", plans: ["Commercial plans accepted"] }, { name: "UnitedHealthcare", group: "UHC", plans: ["Commercial plans accepted"] }] },
   TX: { state: "Texas", insurers: [{ name: "Blue Cross Blue Shield of Texas", group: "BCBS", plans: ["Blue Advantage HMO","Blue Choice PPO","Health Select","Blue Essentials","Medicare Advantage HMO","Medicare Advantage PPO","Dual Special Needs Plan (D-SNP)","WellMed MA HMO"] }] },
@@ -207,7 +208,7 @@ export default function InsuranceClient() {
           {[
             { group: "Aetna", color: insurerColors.Aetna, states: ["AZ","CO","FL","GA","IL","MI","MN","OH","TN"], note: "Commercial plans" },
             { group: "Blue Cross Blue Shield", color: insurerColors.BCBS, states: ["FL","GA","IL","PA","TX"], note: "Select plans by state" },
-            { group: "UnitedHealthcare", color: insurerColors.UHC, states: ["CO","GA","IL","MN","NC","NJ","OH","PA","TN","WA"], note: "Commercial plans" },
+            { group: "UnitedHealthcare", color: insurerColors.UHC, states: ["CO","GA","IL","MN","NC","NJ","OH","OK","PA","TN","WA"], note: "Commercial plans" },
           ].map((item, i) => (
             <div key={i} style={{ background: B.white, border: `1px solid ${item.color.accent}22`, borderRadius: B.r, padding: "24px 20px", borderTop: `3px solid ${item.color.accent}`, boxShadow: B.shadow }}>
               <h3 style={{ fontFamily: B.fd, fontSize: 18, fontWeight: 700, color: B.navy, margin: "0 0 6px" }}>{item.group}</h3>
