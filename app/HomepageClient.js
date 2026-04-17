@@ -599,6 +599,7 @@ export default function HomepageClient() {
             <rect x="60" y="160" width="3" height="20" rx="1.5" fill="#FF5A36" opacity="0.05" transform="rotate(-20 61.5 170)"/>
           </svg>
         </div>
+        <h1 className="hp-visually-hidden">Board-Certified Online Doctor Visits &mdash; $49 Flat Fee, No Subscription, 41 States</h1>
         <div id="tmd-root">
           <div id="tmd-wrap-d">
             <canvas id="tmd-c"></canvas>
@@ -610,6 +611,9 @@ export default function HomepageClient() {
             <button className="tmd-cta" id="tmd-cta-m">Book Your $49 Visit →</button>
             <button className="tmd-replay" id="tmd-replay-m">↺ replay</button>
           </div>
+        </div>
+        <div className="hp-hero-insurance-cta hp-animate hp-fade-up">
+          <a href="/insurance" className="hp-hero-insurance-link">Aetna, Anthem BCBS &amp; UnitedHealthcare accepted &rarr;</a>
         </div>
       </section>
 
@@ -662,10 +666,14 @@ export default function HomepageClient() {
         <div className="hp-container">
           <span className="hp-section-label hp-animate hp-fade-up">CONDITIONS WE TREAT</span>
           <h2 className="hp-section-title hp-animate hp-fade-up">Find care for what you need</h2>
-          <div className="hp-conditions-tabs hp-animate hp-fade-up">
+          <div className="hp-conditions-tabs hp-animate hp-fade-up" role="tablist" aria-label="Condition categories">
             {CONDITION_CATEGORIES.map((cat, i) => (
               <button
                 key={i}
+                role="tab"
+                aria-selected={activeCategory === i}
+                aria-controls={`hp-tab-panel-${i}`}
+                id={`hp-tab-${i}`}
                 className={`hp-tab${activeCategory === i ? ' hp-tab-active' : ''}`}
                 onClick={() => setActiveCategory(i)}
               >
@@ -673,7 +681,12 @@ export default function HomepageClient() {
               </button>
             ))}
           </div>
-          <div className="hp-conditions-grid hp-animate hp-fade-up">
+          <div
+            className="hp-conditions-grid hp-animate hp-fade-up"
+            role="tabpanel"
+            id={`hp-tab-panel-${activeCategory}`}
+            aria-labelledby={`hp-tab-${activeCategory}`}
+          >
             {CONDITION_CATEGORIES[activeCategory].conditions.map((c, i) => (
               <a key={i} href={CONDITION_SLUGS[c] || '/what-we-treat'} className="hp-condition-pill">
                 {CONDITION_ICONS[c] ? (
@@ -824,7 +837,7 @@ export default function HomepageClient() {
           <p className="hp-section-subtitle hp-animate hp-fade-up">
             See a board-certified doctor from almost anywhere in the United States. Click a state to learn more.
           </p>
-          <div className="hp-us-map hp-animate hp-fade-up" aria-hidden="true">
+          <div className="hp-us-map hp-animate hp-fade-up" aria-label="Map of US states where TeleDirectMD is licensed. Licensed states are highlighted in teal.">
             <svg viewBox="0 0 960 600" xmlns="http://www.w3.org/2000/svg">
               {Object.entries(US_STATE_PATHS).map(([abbr, d]) => (
                 <path

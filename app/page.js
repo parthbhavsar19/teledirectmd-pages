@@ -3,7 +3,7 @@ import HomepageClient from './HomepageClient';
 export const metadata = {
   title: 'TeleDirectMD | $49 Online Doctor Visits — Board-Certified Telehealth',
   description:
-    'See a board-certified family medicine doctor from home for just $49. No insurance needed. Treat 60+ conditions including urgent care, skin issues, STIs, and chronic refills. Licensed in 40+ states.',
+    'See a board-certified family medicine doctor from home for just $49. No insurance needed. Treat 60+ conditions including urgent care, skin issues, STIs, and chronic refills. Licensed in 41 states + DC.',
   alternates: { canonical: 'https://teledirectmd.com/' },
   openGraph: {
     title: 'TeleDirectMD | $49 Online Doctor Visits',
@@ -25,7 +25,7 @@ export const metadata = {
     card: 'summary_large_image',
     title: 'TeleDirectMD | $49 Online Doctor Visits',
     description:
-      'Board-certified telehealth for $49. No insurance needed. 60+ conditions treated across 40+ states.',
+      'Board-certified telehealth for $49. No insurance needed. 60+ conditions treated across 41 states + DC.',
     images: ['https://teledirectmd.com/images/dr-parth-bhavsar.jpg'],
   },
 };
@@ -34,14 +34,14 @@ const jsonLd = {
   '@context': 'https://schema.org',
   '@graph': [
     {
-      '@type': 'MedicalBusiness',
+      '@type': ['MedicalClinic', 'MedicalBusiness'],
       '@id': 'https://teledirectmd.com/#organization',
       name: 'TeleDirectMD',
       url: 'https://teledirectmd.com',
       logo: 'https://teledirectmd.com/logo.webp',
       image: 'https://teledirectmd.com/images/dr-parth-bhavsar.jpg',
       description:
-        'TeleDirectMD is a physician-led telehealth practice providing $49 flat-fee virtual visits with a board-certified family medicine doctor across 40+ states.',
+        'TeleDirectMD is a physician-led telehealth practice providing $49 flat-fee virtual visits with a board-certified family medicine doctor across 41 states and DC.',
       telephone: '678-956-1855',
       email: 'contact@teledirectmd.com',
       priceRange: '$49',
@@ -78,11 +78,21 @@ const jsonLd = {
     },
     {
       '@type': 'Physician',
+      '@id': 'https://teledirectmd.com/#physician',
       name: 'Dr. Parth Bhavsar',
+      givenName: 'Parth',
+      familyName: 'Bhavsar',
+      honorificPrefix: 'Dr.',
+      honorificSuffix: 'MD',
       image: 'https://teledirectmd.com/images/dr-parth-bhavsar.jpg',
+      url: 'https://teledirectmd.com/about',
       description:
-        'Board-certified family medicine physician and founder of TeleDirectMD.',
+        'Board-certified family medicine physician and founder of TeleDirectMD. Completed residency at the University of Mississippi Medical Center.',
       medicalSpecialty: 'Family Medicine',
+      hasCredential: [
+        { '@type': 'EducationalOccupationalCredential', credentialCategory: 'MD', name: 'Doctor of Medicine' },
+        { '@type': 'EducationalOccupationalCredential', credentialCategory: 'Board Certification', name: 'Board-Certified Family Medicine' },
+      ],
       identifier: {
         '@type': 'PropertyValue',
         name: 'NPI',
@@ -91,6 +101,11 @@ const jsonLd = {
       worksFor: {
         '@id': 'https://teledirectmd.com/#organization',
       },
+      sameAs: [
+        'https://www.zocdoc.com/doctor/parth-bhavsar-md-614140',
+        'https://doctor.webmd.com/doctor/parth-bhavsar-e293ceba-555d-466e-ab94-d82e02d268db-overview',
+        'https://www.healthgrades.com/physician/dr-parth-bhavsar-xynq9m7',
+      ],
     },
     {
       '@type': 'WebPage',

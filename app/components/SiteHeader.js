@@ -5,7 +5,7 @@ const NAV_LINKS = [
   { label: 'Home', href: '/' },
   { label: 'About', href: '/about' },
   { label: 'What We Treat', href: '/what-we-treat' },
-  { label: 'Who We Serve', href: '/who-we-serve' },
+  { label: 'Health Guides', href: '/health-guides' },
   { label: 'Insurance', href: '/insurance' },
   { label: 'FAQ', href: '/faq' },
   { label: 'In the Media', href: '/media-mentions' },

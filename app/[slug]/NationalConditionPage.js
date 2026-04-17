@@ -535,7 +535,7 @@ export default function NationalConditionPage({ conditionSlug }) {
 
           <div className="tdmd-faq-list" role="list">
             {condition.faq.items.map((item, i) => (
-              <details key={i} className="tdmd-faq-item" role="listitem">
+              <details key={i} className="tdmd-faq-item">
                 <summary className="tdmd-faq-question">{item.question}</summary>
                 <div className="tdmd-faq-answer">
                   <p>{item.answer}</p>

@@ -16,8 +16,11 @@ export default function RootLayout({ children }) {
         <GlobalStyles />
       </head>
       <body style={{ margin: 0 }}>
+        <a href="#main-content" style={{
+          position:'absolute',left:'-9999px',top:'auto',width:'1px',height:'1px',overflow:'hidden'
+        }} onFocus={e => { e.target.style.cssText='position:fixed;top:0;left:0;width:auto;height:auto;padding:0.75rem 1.5rem;background:#003E52;color:#fff;font-size:1rem;font-family:sans-serif;z-index:99999;text-decoration:none;border-radius:0 0 8px 0;overflow:visible'; }} onBlur={e => { e.target.style.cssText='position:absolute;left:-9999px;top:auto;width:1px;height:1px;overflow:hidden'; }}>Skip to main content</a>
         <SiteHeader />
-        <main>{children}</main>
+        <main id="main-content">{children}</main>
         <SiteFooter />
       </body>
     </html>
