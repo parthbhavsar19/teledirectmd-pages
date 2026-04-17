@@ -15,7 +15,7 @@ const insuranceData = {
   NJ: { state: "New Jersey", insurers: [{ name: "UnitedHealthcare", group: "UHC", plans: ["Commercial plans accepted"] }] },
   OH: { state: "Ohio", insurers: [{ name: "Aetna", group: "Aetna", plans: ["Commercial plans accepted"] }, { name: "UnitedHealthcare", group: "UHC", plans: ["Commercial plans accepted"] }] },
   OK: { state: "Oklahoma", insurers: [{ name: "UnitedHealthcare", group: "UHC", plans: ["Commercial plans accepted"] }] },
-  PA: { state: "Pennsylvania", insurers: [{ name: "Highmark Blue Cross Blue Shield", group: "BCBS", plans: ["Commercial plans accepted"] }, { name: "UnitedHealthcare", group: "UHC", plans: ["Commercial plans accepted"] }] },
+  PA: { state: "Pennsylvania", insurers: [{ name: "Aetna", group: "Aetna", plans: ["Commercial plans accepted"] }, { name: "Highmark Blue Cross Blue Shield", group: "BCBS", plans: ["Commercial plans accepted"] }, { name: "UnitedHealthcare", group: "UHC", plans: ["Commercial plans accepted"] }] },
   TN: { state: "Tennessee", insurers: [{ name: "Aetna", group: "Aetna", plans: ["Commercial plans accepted"] }, { name: "UnitedHealthcare", group: "UHC", plans: ["Commercial plans accepted"] }] },
   TX: { state: "Texas", insurers: [{ name: "Blue Cross Blue Shield of Texas", group: "BCBS", plans: ["Blue Advantage HMO","Blue Choice PPO","Health Select","Blue Essentials","Medicare Advantage HMO","Medicare Advantage PPO","Dual Special Needs Plan (D-SNP)","WellMed MA HMO"] }] },
   WA: { state: "Washington", insurers: [{ name: "UnitedHealthcare", group: "UHC", plans: ["Commercial plans accepted"] }] },
@@ -206,7 +206,7 @@ export default function InsuranceClient() {
         <p style={{ fontSize: 15, color: B.text, margin: "0 0 24px", lineHeight: 1.5 }}>We are in-network with the following insurers across select states. Coverage is expanding regularly.</p>
         <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(200px, 1fr))", gap: 12 }}>
           {[
-            { group: "Aetna", color: insurerColors.Aetna, states: ["AZ","CO","FL","GA","IL","MI","MN","OH","TN"], note: "Commercial plans" },
+            { group: "Aetna", color: insurerColors.Aetna, states: ["AZ","CO","FL","GA","IL","MI","MN","OH","PA","TN"], note: "Commercial plans" },
             { group: "Blue Cross Blue Shield", color: insurerColors.BCBS, states: ["FL","GA","IL","PA","TX"], note: "Select plans by state" },
             { group: "UnitedHealthcare", color: insurerColors.UHC, states: ["CO","GA","IL","MN","NC","NJ","OH","OK","PA","TN","WA"], note: "Commercial plans" },
           ].map((item, i) => (

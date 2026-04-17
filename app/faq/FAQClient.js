@@ -468,7 +468,7 @@ const sections = [
             </p>
             <ul>
               <li>
-                <strong>Aetna</strong> — Commercial plans in AZ, CO, FL, GA, IL, MI, MN, OH, TN
+                <strong>Aetna</strong> — Commercial plans in AZ, CO, FL, GA, IL, MI, MN, OH, PA, TN
               </li>
               <li>
                 <strong>Blue Cross Blue Shield</strong> — Select plans in FL (Florida Blue), GA
