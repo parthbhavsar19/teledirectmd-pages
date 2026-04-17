@@ -35,12 +35,17 @@ export default function SiteFooter() {
             <a href="/media-mentions">Media Mentions</a>
           </div>
 
-          {/* Column 4: Legal */}
+          {/* Column 4: Legal & Policies */}
           <div className="tdmd-footer-col">
-            <h4 className="tdmd-footer-heading">LEGAL</h4>
+            <h4 className="tdmd-footer-heading">LEGAL & POLICIES</h4>
+            <a href="/terms-of-service">Terms of Service</a>
             <a href="/privacy-policy">Privacy Policy</a>
-            <a href="/notice-of-privacy-practices">Notice of Privacy Practices</a>
-            <a href="/terms-of-use">Terms of Use</a>
+            <a href="/notice-of-privacy-practices">HIPAA Notice</a>
+            <div className="tdmd-footer-divider" />
+            <a href="/telehealth-informed-consent.pdf">Telehealth Consent</a>
+            <a href="/state-consent-disclosures.pdf">State Disclosures</a>
+            <a href="/financial-responsibility.pdf">Financial Responsibility</a>
+            <a href="/controlled-substance-policy.pdf">Controlled Substance Policy</a>
             <div className="tdmd-footer-divider" />
             <a href="/good-faith-estimate">Good Faith Estimate</a>
             <a href="/nondiscrimination-notice">Nondiscrimination Notice</a>
@@ -92,13 +97,13 @@ export default function SiteFooter() {
         <div className="tdmd-footer-copyright">
           <span>© 2026 TeleDirectMD. All rights reserved.</span>
           <div className="tdmd-footer-legal-links">
+            <a href="/terms-of-service">Terms</a>
+            <span className="tdmd-footer-dot">·</span>
             <a href="/privacy-policy">Privacy</a>
             <span className="tdmd-footer-dot">·</span>
-            <a href="/notice-of-privacy-practices">HIPAA Notice</a>
+            <a href="/notice-of-privacy-practices">HIPAA</a>
             <span className="tdmd-footer-dot">·</span>
-            <a href="/terms-of-use">Terms</a>
-            <span className="tdmd-footer-dot">·</span>
-            <a href="/good-faith-estimate">Good Faith Estimate</a>
+            <a href="/telehealth-informed-consent.pdf">Consent</a>
             <span className="tdmd-footer-dot">·</span>
             <a href="/accessibility">Accessibility</a>
           </div>
