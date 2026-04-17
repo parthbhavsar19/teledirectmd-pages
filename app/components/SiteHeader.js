@@ -100,9 +100,6 @@ export default function SiteHeader() {
 
         <a href="/book-online" className="tdmd-header-cta-desktop">Book Now</a>
 
-        {/* Mobile-only Book Now — sits left of hamburger */}
-        <a href="/book-online" className="tdmd-header-cta-mobile">Book Now</a>
-
         <button
           className="tdmd-hamburger"
           onClick={() => setMenuOpen(!menuOpen)}
