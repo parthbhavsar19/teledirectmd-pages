@@ -736,19 +736,30 @@ export default function HomepageClient() {
         </div>
       </section>
 
-      {/* ===== SECTION 6: AS SEEN IN ===== */}
-      <section className="hp-media hp-section-sm">
+      {/* ===== SECTION 6: INSURANCE ACCEPTED ===== */}
+      <section className="hp-insurance-logos hp-section-sm">
         <div className="hp-container">
-          <div style={{ textAlign: 'center' }}>
-            <span className="hp-section-label hp-animate hp-fade-up">AS SEEN IN</span>
-            <h2 className="hp-section-title hp-animate hp-fade-up">Trusted by leading publications</h2>
+          <div style={{ textAlign: 'center', marginBottom: '2rem' }}>
+            <span className="hp-section-label hp-animate hp-fade-up">INSURANCE ACCEPTED</span>
+            <h2 className="hp-section-title hp-animate hp-fade-up">Now accepting major insurance</h2>
+            <p className="hp-section-sub hp-animate hp-fade-up" style={{ maxWidth: '480px', margin: '0.75rem auto 0' }}>
+              Aetna, Anthem Blue Cross Blue Shield, and UnitedHealthcare accepted in select states.
+              Cash pay always available at $49 flat.
+            </p>
           </div>
-          <div className="hp-media-grid hp-stagger">
-            {MEDIA_OUTLETS.map((outlet, i) => (
-              <a key={i} href={outlet.href} target="_blank" rel="noopener noreferrer" className="hp-media-card hp-animate hp-scale-in" style={{ textDecoration: 'none' }}>
-                <img src={outlet.logo} alt={outlet.name} loading="lazy" />
-              </a>
-            ))}
+          <div className="hp-insurance-grid hp-stagger">
+            <a href="/insurance" className="hp-insurance-card hp-animate hp-scale-in">
+              <img src="/logos/aetna.svg" alt="Aetna" loading="lazy" />
+            </a>
+            <a href="/insurance" className="hp-insurance-card hp-animate hp-scale-in">
+              <img src="/logos/anthem-bcbs.svg" alt="Anthem Blue Cross Blue Shield" loading="lazy" />
+            </a>
+            <a href="/insurance" className="hp-insurance-card hp-animate hp-scale-in">
+              <img src="/logos/unitedhealthcare.svg" alt="UnitedHealthcare" loading="lazy" />
+            </a>
+          </div>
+          <div style={{ textAlign: 'center', marginTop: '1.5rem' }} className="hp-animate hp-fade-up">
+            <a href="/insurance" className="hp-btn hp-btn-secondary hp-btn-sm">Check Your Coverage &rarr;</a>
           </div>
         </div>
       </section>
