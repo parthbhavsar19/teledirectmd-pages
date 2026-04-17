@@ -446,7 +446,7 @@ const HOW_STEPS = [
 ];
 
 function StickyHowItWorks() {
-  const { containerRef, activeIndex } = useStickyScroll(4, { scrollPerItem: 220 });
+  const { containerRef, activeIndex } = useStickyScroll(4, { scrollPerItem: 140 });
 
   return (
     <section className="hp-how hp-section">
@@ -504,7 +504,7 @@ function StickyHowItWorks() {
    (Why TeleDirectMD — Apple-style)
    ============================ */
 function StickyWhySection() {
-  const { containerRef, activeIndex } = useStickyScroll(6, { scrollPerItem: 160 });
+  const { containerRef, activeIndex } = useStickyScroll(6, { scrollPerItem: 115 });
   const whyPriceCountdown = useCountDown(2200, 49, 2000);
 
   return (
