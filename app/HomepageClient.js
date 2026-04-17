@@ -505,7 +505,8 @@ function StickyHowItWorks() {
    ============================ */
 function StickyWhySection() {
   const { containerRef, activeIndex } = useStickyScroll(6, { scrollPerItem: 115 });
-  const whyPriceCountdown = useCountDown(2200, 49, 2000);
+  // Static $49 — countdown caused confusion on mobile (screenshot mid-animation showed $932)
+  const whyPriceCountdown = { count: 49, ref: null };
 
   return (
     <section className="hp-why hp-section">
@@ -556,7 +557,7 @@ export default function HomepageClient() {
   const stateCounter = useCountUp(42, 1500);
   const conditionCounter = useCountUp(60, 1200);
   const ratingCounter = useCountUp(49, 1000); // 4.9 -> we'll display as 4.9
-  const priceCountdown = useCountDown(2200, 49, 2200); // $2,200 → $49 over 2.2s
+  const priceCountdown = { count: 49, ref: null }; // Static — countdown mid-animation showed wrong values on mobile
 
   // Load the canvas hero animation script after mount
   useEffect(() => {
