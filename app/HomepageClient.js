@@ -650,7 +650,7 @@ export default function HomepageClient() {
               </a>
             ))}
           </div>
-          <div className="hp-featured-strip hp-animate hp-fade-up">
+          <div className="hp-featured-strip">
             <span>AS FEATURED IN</span>
             <div className="hp-marquee-wrap">
               <div className="hp-marquee-track">
