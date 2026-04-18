@@ -78,7 +78,6 @@ const CONDITION_CATEGORIES = [
 
 const REVIEWS = [
   { text: "Great visit! Could not recommend him more. He was a very thoughtful and kind doctor who understood my concerns and helped answer all my questions.", author: 'Verified Patient', source: 'WebMD' },
-  { text: "I had an amazing experience with Dr. Parth Bhavsar. He is very thorough and knowledgeable. Setting an appointment was also easy. I'd highly recommend TeleDirectMD for quick, easy and reliable care.", author: 'Shruti Shah', source: 'Google' },
   { text: "Very satisfied! I was diagnosed with Graves Disease 15 years ago. This is the first time I ever tried virtual doctor visits for my prescription refills. I'm so excited that I found Dr. Parth Bhavsar. He was very kind and got me hooked up with my prescription.", author: 'Verified Patient', source: 'WebMD' },
   { text: "I had a virtual health visit with Dr. Parth Bhavsar on New Year's Eve and had an extremely positive experience. What stood out most was how incredibly responsive his office was — they replied within minutes and were amazingly flexible and patient.", author: 'Claudia Ewing', source: 'Google' },
   { text: "Amazing to say the least! Was in dire straits, needing a doctor ASAP! Was able to book a virtual appointment the same day and pick up my medication from my local pharmacy. Dr. Parth was very knowledgeable, down to earth and professional.", author: 'Verified Patient', source: 'WebMD' },
@@ -92,6 +91,12 @@ const REVIEWS = [
   { text: "Fast personalized service. I had a simple bladder infection and for $49 and quick turnaround — only waited 1 hour for the virtual appointment — I was able to get the prescription I needed quickly.", author: 'Eliza', source: 'Google' },
   { text: "Glad I found this Dr and service. Booked and had a virtual appointment the same day. Pricing was very fair. Dr. P was kind and helpful, so I would definitely use this service again if needed.", author: 'Verified Patient', source: 'WebMD' },
   { text: "Dr. Parth was professional, attentive, and made the visit feel easy and comfortable. He listened carefully, explained everything clearly, and prescribed medication that worked quickly. I really appreciated how efficient and effective his care was.", author: 'Verified Patient', source: 'Healthgrades' },
+  { text: "I really appreciated Dr. Bhavsar's assistance. He was very kind and knowledgeable, and it was probably one of the most pleasant Telehealth experiences I've ever had!", author: 'CC', source: 'Healthgrades' },
+  { text: "Was very understanding, didn't try to get off the video call right away, kept asking me if I had any additional questions or concerns. Could not recommend Dr. Bhavsar enough!", author: 'Verified Patient', source: 'Zocdoc' },
+  { text: "I am extremely happy with the care provided by Dr. Bhavsar!! Very timely and straightforward. He even took the time to ask questions about my condition that weren't previously covered in the paperwork.", author: 'AT', source: 'Zocdoc' },
+  { text: "I had a great experience with Dr. Bhavsar during an online visit for strep throat. He was kind, attentive, and a very good listener, and I never felt rushed. His bedside manner was excellent.", author: 'Verified Patient', source: 'Healthgrades' },
+  { text: "Dr. Bhavsar is a nice personable guy. He's knowledgeable and professional, but makes the consultation comfortable. Highly recommend.", author: 'Verified Patient', source: 'Zocdoc' },
+  { text: "I had a great experience with Dr. Parth Bhavsar. He was really helpful, understanding, and made the whole process super easy. I got my prescription quickly and felt well taken care of.", author: 'Verified Patient', source: 'Google' },
 ];
 
 /* 8 logos — matches live teledirectmd.com exactly */
@@ -624,8 +629,8 @@ export default function HomepageClient() {
           <div style={{ textAlign: 'center' }}>
             <span className="hp-section-label hp-animate hp-fade-up">WHAT WE TREAT</span>
             <h2 className="hp-section-title hp-animate hp-fade-up">
-              <span ref={conditionCounter.ref} className="hp-counter-num">{conditionCounter.count}</span>+ conditions, just{' '}
-              <span ref={priceCountdown.ref} className="hp-counter-price">${priceCountdown.count.toLocaleString()}</span>
+              <span ref={conditionCounter.ref} className="hp-counter-num">{conditionCounter.count}</span>+ conditions,{' '}
+              <span style={{ whiteSpace: 'nowrap' }}>just <span ref={priceCountdown.ref} className="hp-counter-price">${priceCountdown.count.toLocaleString()}</span></span>
             </h2>
             <p className="hp-section-subtitle hp-animate hp-fade-up" style={{ marginLeft: 'auto', marginRight: 'auto' }}>
               From urgent infections to chronic medication refills — get expert care from a board-certified physician.
