@@ -314,10 +314,7 @@
         "title": "Bridge levothyroxine refills",
         "text": "For stable adults who are running low on their established levothyroxine dose, a short bridge refill at the current dose may be reasonable if recent TSH was in the target range and symptoms are near baseline. Levothyroxine is the gold standard treatment recommended by the ATA and should be taken on an empty stomach 30 to 60 minutes before breakfast."
       },
-      {
-        "title": "Bridge refills of other thyroid medications",
-        "text": "Some patients take liothyronine (Cytomel), desiccated thyroid (Armour Thyroid, NP Thyroid), or combination therapy. Bridge refills of these established medications may also be appropriate for stable patients, though combination therapy and desiccated thyroid require more careful monitoring."
-      },
+
       {
         "title": "Medication timing and interaction counseling",
         "text": "Levothyroxine absorption is significantly reduced by calcium supplements, iron supplements, proton pump inhibitors, antacids, and cholestyramine. These should be separated from levothyroxine by at least 4 hours. Consistent daily timing on an empty stomach is critical for stable TSH levels."
@@ -338,13 +335,10 @@
 
   "medications": {
     "sectionTitle": "Common Medication Options",
-    "intro": "These are the primary thyroid medications discussed for adult hypothyroidism refill care. Medication choice depends on the patient's established regimen, current stability, recent TSH results, and whether the request is truly a stable refill at current dose.",
+    "intro": "Levothyroxine is the standard of care for hypothyroidism per ATA guidelines. TeleDirectMD focuses on bridge refills of levothyroxine at the patient's current established dose when clinically appropriate.",
     "headers": ["Medication", "Typical dose range", "Used for", "Key considerations"],
     "rows": [
       ["Levothyroxine (Synthroid, Levoxyl, generic)", "25 to 200+ mcg daily", "Standard first-line thyroid hormone replacement (T4)", "Take on empty stomach 30-60 min before breakfast. Separate from calcium and iron by 4+ hours. Most common thyroid medication. Not a controlled substance."],
-      ["Liothyronine (Cytomel)", "5 to 25 mcg daily", "T3 supplementation, sometimes used as adjunct to levothyroxine", "Shorter half-life than levothyroxine, may need twice daily dosing. Used less commonly. ATA recommends levothyroxine monotherapy as standard of care."],
-      ["Desiccated thyroid (Armour Thyroid)", "15 to 180 mg daily (measured in grains)", "Combination T4 and T3 from porcine thyroid gland", "Contains both T4 and T3 in fixed ratio. Some patients prefer it. T3 content can cause more TSH variability. Not first-line per ATA."],
-      ["Desiccated thyroid (NP Thyroid)", "15 to 180 mg daily (measured in grains)", "Combination T4 and T3 from porcine thyroid gland", "Similar to Armour Thyroid but different manufacturer. Same monitoring considerations apply."],
       ["Tirosint (levothyroxine gel cap or liquid)", "13 to 200 mcg daily", "T4 replacement for patients with absorption issues", "Gel capsule or liquid formulation with fewer inactive ingredients. May be preferred when GI conditions or multiple interacting medications affect standard levothyroxine absorption."],
       ["Levothyroxine dose adjustment (not a bridge refill)", "Varies", "Dose change based on new TSH results", "Dose changes should only be made with recent lab confirmation. TSH should be rechecked 6-8 weeks after any dose change. This is NOT appropriate as a bridge refill."]
     ],
@@ -416,7 +410,7 @@
     "items": [
       {
         "question": "Can I get a hypothyroidism medication refill online in {state}?",
-        "answer": "Yes, selected adults in {state} with an established hypothyroidism diagnosis may be appropriate for a short bridge telehealth visit for a levothyroxine or thyroid medication refill at their current dose after red-flag screening. TeleDirectMD can help with refill care when clinically appropriate."
+        "answer": "Yes, selected adults in {state} with an established hypothyroidism diagnosis may be appropriate for a short bridge telehealth visit for a levothyroxine refill at their current dose after red-flag screening. TeleDirectMD can help with refill care when clinically appropriate."
       },
       {
         "question": "How much does an online hypothyroidism refill visit cost in {state}?",
@@ -553,9 +547,6 @@
     "epidemiology": "Hypothyroidism affects approximately 5 percent of US adults and is more common in women, with Hashimoto's thyroiditis being the most common cause.",
     "drugs": [
       { "name": "Levothyroxine", "id": "levothyroxine" },
-      { "name": "Liothyronine", "id": "liothyronine" },
-      { "name": "Armour Thyroid", "id": "armour-thyroid" },
-      { "name": "NP Thyroid", "id": "np-thyroid" },
       { "name": "Tirosint", "id": "tirosint" }
     ],
     "treatments": [
