@@ -308,7 +308,7 @@
 
   "treatmentOptions": {
     "sectionTitle": "Treatment Options",
-    "intro": "Melasma treatment requires a combination approach that includes strict photoprotection as the foundation, topical lightening agents targeting melanin production, and — when appropriate — systemic adjuncts. Current evidence supports the use of hydroquinone, tretinoin, azelaic acid, and triple combination cream as first-line topical options, with oral tranexamic acid as an emerging evidence-based adjunct for moderate to severe or refractory cases. Treatment typically requires 8 to 24 weeks to show meaningful improvement, and recurrence is common without ongoing sun protection and maintenance therapy.",
+    "intro": "Melasma treatment requires a combination approach that includes strict photoprotection as the foundation and topical lightening agents targeting melanin production. Current evidence supports the use of hydroquinone, tretinoin, azelaic acid, and triple combination cream as first-line topical options. Treatment typically requires 8 to 24 weeks to show meaningful improvement, and recurrence is common without ongoing sun protection and maintenance therapy.",
     "sections": [
       {
         "title": "Photoprotection — the essential foundation",
@@ -318,10 +318,7 @@
         "title": "Topical lightening agents",
         "text": "Hydroquinone 4% cream is the most widely used and evidence-supported topical agent for melasma. It works by inhibiting tyrosinase, the key enzyme in melanin production. Hydroquinone is typically used for 8 to 12 weeks at a time (cyclical use) with breaks to reduce the risk of ochronosis with prolonged use. Tretinoin 0.025 to 0.05% cream enhances the penetration and efficacy of hydroquinone, accelerates keratinocyte turnover, and inhibits melanin transfer — making it an important partner in melasma therapy. Azelaic acid 15 to 20% is an effective alternative or adjunct that inhibits tyrosinase, reduces abnormal melanocyte activity, and has anti-inflammatory properties — making it particularly useful in patients with sensitive skin or who cannot tolerate hydroquinone. Triple combination cream (hydroquinone 4%, tretinoin 0.05%, fluocinolone acetonide 0.01%, marketed as Tri-Luma) is FDA-approved for melasma and is among the most effective topical options, with studies showing 77% of patients achieving near-complete clearing."
       },
-      {
-        "title": "Oral tranexamic acid (emerging adjunct)",
-        "text": "Oral tranexamic acid 250 mg twice daily is an emerging evidence-based adjunct for moderate to severe or refractory melasma. Tranexamic acid is an anti-fibrinolytic agent that reduces melanocyte stimulation by blocking the plasminogen-to-plasmin pathway and decreasing prostaglandins, endothelin-1, and VEGF — all of which drive melanogenesis and dermal vascularization in melasma. Multiple clinical studies and a systematic review demonstrate meaningful MASI score reductions, with oral TXA typically used for 8 to 12 weeks alongside topical therapy and sunscreen. Before prescribing, the MD will review relevant medical history including personal or family history of blood clots, as TXA is not appropriate for patients with thrombotic risk factors. Females on combination hormonal contraception should not be treated with oral TXA due to additive thrombotic risk."
-      },
+
       {
         "title": "Hormonal trigger management",
         "text": "When melasma is triggered or worsened by oral contraceptive pills, hormone replacement therapy, or other hormonal agents, discussing whether to modify or discontinue the offending agent is an important part of the management conversation. Pregnancy-induced melasma often fades naturally in the months after delivery, and treatment is typically deferred to allow spontaneous improvement. The MD will review your hormonal history and help guide these decisions as part of the treatment plan."
@@ -345,7 +342,6 @@
       ["Tretinoin 0.025 to 0.05% cream", "Apply a small amount to affected areas nightly, starting 2 to 3 times per week and increasing as tolerated", "Topical retinoid", "Enhances hydroquinone penetration and efficacy, accelerates keratinocyte turnover, and inhibits melanin transfer. Commonly used in combination with hydroquinone. Expect skin irritation, dryness, and sun sensitivity — always use sunscreen. Minimum 24 weeks for full effect. Not for use in pregnancy."],
       ["Triple combination cream (Tri-Luma: hydroquinone 4% / tretinoin 0.05% / fluocinolone acetonide 0.01%)", "Apply a thin film to affected facial areas once nightly for up to 8 weeks per course", "Combination topical (depigmenting + retinoid + low-potency corticosteroid)", "FDA-approved for melasma. Most effective topical option in clinical trials, with 77% of patients achieving near-complete clearing. The corticosteroid component reduces irritation and inflammation. Not for long-term continuous use due to corticosteroid risks; use in cyclical courses. Not for use in pregnancy."],
       ["Azelaic acid 15 to 20% gel or cream", "Apply twice daily to affected areas", "Topical depigmenting agent (tyrosinase inhibitor + anti-inflammatory)", "Effective alternative or adjunct for patients who cannot tolerate hydroquinone or retinoids. Also helps with post-inflammatory hyperpigmentation. Better tolerated in darker skin types. Mild burning or stinging common initially. Generally considered safe in pregnancy (discuss with MD). Available in 15% (Finacea) by prescription."],
-      ["Oral tranexamic acid 250 mg twice daily", "Take by mouth twice daily, typically for 8 to 12 weeks; always combined with topical therapy and strict sunscreen", "Systemic adjunct (anti-fibrinolytic, anti-melanogenic)", "Emerging evidence-based adjunct for moderate to severe or refractory melasma. Reduces melanocyte stimulation and dermal vascularization. Not appropriate for patients with personal or family history of blood clots, thromboembolic conditions, or those taking combination hormonal contraception. GI upset is the most common side effect. Avoid in pregnancy."],
       ["Broad-spectrum sunscreen SPF 50+ with iron oxide", "Apply every morning and reapply every 2 hours outdoors; tinted formulations containing iron oxide are strongly preferred", "Photoprotection (not a prescription medication)", "The essential foundation of all melasma treatment. Iron oxide in tinted sunscreens blocks both UV and visible light (HEV), which is important for patients with skin types III through V. Without strict sun protection, topical lightening agents are significantly less effective and recurrence is rapid. Use year-round, even on cloudy days."]
     ],
     "note": "Example regimens only. The actual medication, dosing, combination, and duration are individualized by the MD based on your melasma type, skin tone, Fitzpatrick type, prior treatment history, hormonal history, allergies, and relevant medical history. TeleDirectMD does not prescribe controlled substances."
@@ -379,7 +375,6 @@
         "Reassess your response to treatment at 8 to 12 weeks — if no improvement is visible with consistent use and strict sun protection, the regimen may need adjustment or dermatology referral",
         "Melasma is chronic and relapsing — after initial improvement, a maintenance approach using topical agents and lifelong sun protection is typically needed to prevent recurrence",
         "Plan for increased vigilance during summer months and any period of increased sun exposure, as melasma commonly flares seasonally",
-        "If you are using oral tranexamic acid, discuss the appropriate duration and whether a course extension or maintenance strategy is appropriate at your follow-up visit",
         "If melasma does not respond to consistent topical and oral treatment, seek in-person dermatology evaluation to discuss procedural options such as chemical peels or laser therapy"
       ]
     }
@@ -418,7 +413,7 @@
     "items": [
       {
         "question": "Can I get melasma treatment online in {state}?",
-        "answer": "Yes, if you are an adult 18+ located in {state} and your melasma is appropriate for telehealth after visual assessment. Melasma is a highly visual condition — its diagnosis is based on the appearance and distribution of flat pigmented patches, making telehealth an effective platform for evaluation and prescription management. TeleDirectMD can prescribe hydroquinone, tretinoin, azelaic acid, triple combination cream, and oral tranexamic acid when clinically appropriate. Presentations that are raised, rapidly changing, or otherwise concerning are directed to in-person evaluation."
+        "answer": "Yes, if you are an adult 18+ located in {state} and your melasma is appropriate for telehealth after visual assessment. Melasma is a highly visual condition — its diagnosis is based on the appearance and distribution of flat pigmented patches, making telehealth an effective platform for evaluation and prescription management. TeleDirectMD can prescribe hydroquinone, tretinoin, azelaic acid, and triple combination cream when clinically appropriate. Presentations that are raised, rapidly changing, or otherwise concerning are directed to in-person evaluation."
       },
       {
         "question": "How much does online melasma treatment cost in {state}?",
@@ -434,11 +429,11 @@
       },
       {
         "question": "What is the best treatment for melasma?",
-        "answer": "Current evidence supports a combination approach as most effective: strict broad-spectrum photoprotection (the essential foundation), topical hydroquinone 4%, and topical retinoids such as tretinoin. Triple combination cream (hydroquinone/tretinoin/fluocinolone — Tri-Luma) is the most effective single topical option in clinical trials. Oral tranexamic acid 250 mg twice daily is an effective emerging adjunct for moderate to severe cases. Without consistent sun protection — including an SPF 50+ tinted sunscreen with iron oxide — any topical treatment will have significantly limited efficacy and recurrence will be rapid."
+        "answer": "Current evidence supports a combination approach as most effective: strict broad-spectrum photoprotection (the essential foundation), topical hydroquinone 4%, and topical retinoids such as tretinoin. Triple combination cream (hydroquinone/tretinoin/fluocinolone — Tri-Luma) is the most effective single topical option in clinical trials. Without consistent sun protection — including an SPF 50+ tinted sunscreen with iron oxide — any topical treatment will have significantly limited efficacy and recurrence will be rapid."
       },
       {
         "question": "How long does melasma treatment take to work?",
-        "answer": "Melasma treatment typically requires 8 to 24 weeks to show meaningful visible improvement. Tretinoin requires a minimum of 24 weeks for full effect. Oral tranexamic acid typically shows effect at 2 to 3 months. Consistency with both medication application and strict sun protection is essential. Melasma is a chronic condition — after initial improvement, ongoing maintenance therapy and lifelong sun protection are typically needed to prevent recurrence."
+        "answer": "Melasma treatment typically requires 8 to 24 weeks to show meaningful visible improvement. Tretinoin requires a minimum of 24 weeks for full effect. Consistency with both medication application and strict sun protection is essential. Melasma is a chronic condition — after initial improvement, ongoing maintenance therapy and lifelong sun protection are typically needed to prevent recurrence."
       },
       {
         "question": "Does my birth control cause melasma?",
@@ -476,8 +471,7 @@
     { "text": "Melasma (Chloasma, Mask of Pregnancy) — DermNet New Zealand", "url": "https://dermnetnz.org/topics/melasma" },
     { "text": "Melasma — StatPearls, NCBI Bookshelf (Last updated January 2026)", "url": "https://www.ncbi.nlm.nih.gov/books/NBK459271/" },
     { "text": "Best Practices in the Treatment of Melasma with a Focus on Patients with Skin of Color — Journal of the American Academy of Dermatology (JAAD), 2024", "url": "https://pubmed.ncbi.nlm.nih.gov/37748556/" },
-    { "text": "Update on Melasma Treatments — Annals of Dermatology, PMC/NIH (2024)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11148313/" },
-    { "text": "Oral Tranexamic Acid for the Treatment of Melasma — Indian Journal of Dermatology, PMC/NIH (2023)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10238972/" }
+    { "text": "Update on Melasma Treatments — Annals of Dermatology, PMC/NIH (2024)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11148313/" }
   ],
 
   "disclaimer": {
@@ -533,7 +527,7 @@
   "jsonLd": {
     "conditionName": "Melasma",
     "conditionAlternateNames": ["Chloasma", "Mask of Pregnancy", "Facial Hyperpigmentation", "Melasma Faciei"],
-    "conditionDescription": "Melasma is a common chronic acquired disorder of hyperpigmentation characterized by symmetric, flat brown to gray-brown macules and patches predominantly on sun-exposed facial skin. TeleDirectMD evaluates adult melasma by video visit with visual assessment of pigmentation pattern, trigger history review, guideline-based treatment plans including hydroquinone, tretinoin, azelaic acid, and triple combination cream when appropriate, oral tranexamic acid for eligible patients, and comprehensive sun protection counseling with clear referral criteria for atypical presentations and procedural management.",
+    "conditionDescription": "Melasma is a common chronic acquired disorder of hyperpigmentation characterized by symmetric, flat brown to gray-brown macules and patches predominantly on sun-exposed facial skin. TeleDirectMD evaluates adult melasma by video visit with visual assessment of pigmentation pattern, trigger history review, guideline-based treatment plans including hydroquinone, tretinoin, azelaic acid, and triple combination cream when appropriate and comprehensive sun protection counseling with clear referral criteria for atypical presentations and procedural management.",
     "primaryIcd10": "L81.1",
     "anatomy": "Skin (melanocytes of facial epidermis and dermis)",
     "symptoms": [
@@ -560,8 +554,7 @@
       { "name": "Hydroquinone 4%", "id": "hydroquinone" },
       { "name": "Tretinoin", "id": "tretinoin" },
       { "name": "Azelaic acid", "id": "azelaic-acid" },
-      { "name": "Triple combination cream (hydroquinone/tretinoin/fluocinolone)", "id": "tri-luma" },
-      { "name": "Tranexamic acid oral", "id": "tranexamic-acid" }
+      { "name": "Triple combination cream (hydroquinone/tretinoin/fluocinolone)", "id": "tri-luma" }
     ],
     "treatments": [
       "Strict broad-spectrum photoprotection with SPF 50+ tinted sunscreen containing iron oxide",
@@ -569,7 +562,6 @@
       "Topical tretinoin 0.025 to 0.05%",
       "Azelaic acid 15 to 20% gel or cream",
       "Triple combination cream (Tri-Luma) — FDA-approved",
-      "Oral tranexamic acid 250 mg twice daily for moderate to severe cases",
       "Hormonal trigger modification when applicable",
       "Dermatology referral for procedural treatments in refractory or severe cases"
     ],
@@ -588,7 +580,6 @@
       "Melasma treatment",
       "Topical hydroquinone therapy",
       "Triple combination cream for melasma",
-      "Oral tranexamic acid for hyperpigmentation",
       "Photoprotection in melasma management",
       "Hormonal triggers for melasma",
       "Post-inflammatory hyperpigmentation",
@@ -596,6 +587,6 @@
       "Telemedicine dermatology"
     ],
     "serviceDescription": "Secure video visit for {state} adults with melasma, including visual assessment of hyperpigmentation pattern, trigger history review, guideline-based topical prescriptions when appropriate, sun protection counseling, and clear referral criteria for atypical presentations and procedural management.",
-    "webpageDescription": "{state} melasma treatment by secure MD video visit for adults. Evidence-based evaluation with visual assessment, severity-based treatment including hydroquinone, tretinoin, azelaic acid, triple combination cream, and oral tranexamic acid when appropriate, and clear guidance for when in-person dermatology is needed."
+    "webpageDescription": "{state} melasma treatment by secure MD video visit for adults. Evidence-based evaluation with visual assessment, severity-based treatment including hydroquinone, tretinoin, azelaic acid, triple combination cream and clear guidance for when in-person dermatology is needed."
   }
 }

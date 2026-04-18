@@ -351,8 +351,6 @@
       ["Finasteride (Propecia/generic)", "1 mg by mouth once daily", "Results at 3-6 months, peak at 1-2 years", "Blocks DHT by approximately 65 percent. Not a controlled substance. Sexual side effects in 1-2 percent, usually reversible. Teratogenic — women who are or may become pregnant must not handle crushed or broken tablets. Must continue indefinitely."],
       ["Minoxidil 5% topical (Rogaine/generic)", "Apply to scalp twice daily", "Results at 4-6 months", "FDA-approved OTC, no prescription needed for topical form. Works independently of hormones. Initial shedding may occur in the first 2-4 weeks and is normal. Must continue indefinitely."],
       ["Combination (finasteride + minoxidil)", "Finasteride 1 mg daily + minoxidil 5% twice daily", "Results at 3-6 months", "Most effective medical approach. Addresses both the hormonal driver and follicle stimulation through separate mechanisms."],
-      ["Oral minoxidil (low-dose, off-label)", "2.5 to 5 mg by mouth once daily", "Results at 3-6 months", "Growing evidence but not FDA-approved for hair loss. May cause fluid retention, dizziness, or unwanted facial or body hair growth. Requires cardiovascular screening."],
-      ["Dutasteride (off-label)", "0.5 mg by mouth once daily", "Results at 3-6 months", "Dual 5-alpha reductase inhibitor, more potent than finasteride. Not FDA-approved for hair loss. Similar side effect profile to finasteride. Used when finasteride response is inadequate."],
       ["Ketoconazole shampoo 2% (adjunctive)", "Apply to scalp 2-3 times per week", "Ongoing adjunctive use", "Antifungal with mild anti-androgenic properties. May reduce scalp DHT locally. Used as an adjunct to finasteride and minoxidil, not as monotherapy."]
     ],
     "note": "Treatment plans are individualized by the MD after reviewing your hair loss pattern, medical history, allergies, and goals. Finasteride is not a controlled substance. TeleDirectMD does not prescribe controlled substances."
@@ -375,7 +373,6 @@
       "items": [
         "Sexual side effects from finasteride (decreased libido, erectile changes, decreased ejaculate volume) occur in 1 to 2 percent and are usually reversible upon stopping",
         "Scalp irritation, itching, or flaking from topical minoxidil. If persistent, try switching from solution to foam or reducing frequency",
-        "Dizziness or lightheadedness from oral minoxidil. Report these symptoms promptly",
         "If you develop new patchy hair loss, scalp scarring, or scalp lesions while on treatment, seek in-person dermatology evaluation"
       ]
     },
@@ -566,8 +563,7 @@
     "epidemiology": "Androgenetic alopecia affects approximately 50 percent of men by age 50 and up to 70 percent of men by age 70.",
     "drugs": [
       { "name": "Finasteride", "id": "finasteride" },
-      { "name": "Minoxidil", "id": "minoxidil" },
-      { "name": "Dutasteride", "id": "dutasteride" }
+      { "name": "Minoxidil", "id": "minoxidil" }
     ],
     "treatments": [
       "Finasteride 1 mg daily (oral, prescription)",
