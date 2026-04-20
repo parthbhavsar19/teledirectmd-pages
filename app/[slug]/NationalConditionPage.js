@@ -63,13 +63,28 @@ export default function NationalConditionPage({ conditionSlug }) {
         </div>
       </nav>
 
+      {/* 0b) Answer Block — AI snippet target */}
+      <div className="tdmd-answer-block" data-speakable="true" style={{
+        background: '#EAF7F8', borderLeft: '4px solid #006B73',
+        padding: '1rem 1.25rem', margin: '0 0 0', lineHeight: 1.6
+      }}>
+        <div className="tdmd-container">
+          <p style={{ margin: 0, fontWeight: 700, color: '#003E52', fontSize: '1.05rem' }}>
+            {condition.conditionName} online telemedicine:
+          </p>
+          <p style={{ margin: '0.35rem 0 0', color: '#003E52', fontSize: '0.97rem' }}>
+            TeleDirectMD offers same-day video visits with a board-certified MD for {condition.conditionName.toLowerCase()} in 40+ states, starting at $49. A physician evaluates your symptoms, confirms the diagnosis, and sends a prescription to your preferred pharmacy — no waiting room, no referral required. Select your state below to see your state-specific page.
+          </p>
+        </div>
+      </div>
+
       {/* 1) Hero */}
       <section className="tdmd-hero" id={`${pid}-hero`}>
         <div className="tdmd-container">
           <div className="tdmd-hero-grid">
             <div className="tdmd-hero-copy">
-              <h1>{nationalH1}</h1>
-              <p className="tdmd-hero-sub">{nationalSubtitle}</p>
+              <h1 data-speakable="true">{nationalH1}</h1>
+              <p className="tdmd-hero-sub" data-speakable="true">{nationalSubtitle}</p>
               <p>{nationalIntro}</p>
 
               <p className="tdmd-toc-intro"><strong>Quick navigation:</strong></p>
@@ -150,9 +165,9 @@ export default function NationalConditionPage({ conditionSlug }) {
       </section>
 
       {/* 3) How It Works */}
-      <section className="tdmd-section" id={`${pid}-how-it-works`}>
+      <section className="tdmd-section" id={`${pid}-how-it-works`} itemScope itemType="https://schema.org/HowTo">
         <div className="tdmd-container">
-          <h2>{condition.howItWorks.sectionTitle}</h2>
+          <h2 itemProp="name">{condition.howItWorks.sectionTitle}</h2>
 
           <div className="tdmd-decision-flow">
             {condition.howItWorks.steps.map((step, i) => (
@@ -536,7 +551,7 @@ export default function NationalConditionPage({ conditionSlug }) {
           <div className="tdmd-faq-list" role="list">
             {condition.faq.items.map((item, i) => (
               <details key={i} className="tdmd-faq-item">
-                <summary className="tdmd-faq-question">{item.question}</summary>
+                <summary className="tdmd-faq-question" data-speakable="true">{item.question}</summary>
                 <div className="tdmd-faq-answer">
                   <p>{item.answer}</p>
                 </div>

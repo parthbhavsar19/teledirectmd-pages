@@ -198,10 +198,25 @@ export default function StateLandingPage({ stateSlug }) {
         </div>
       </nav>
 
+      {/* 0b) Answer Block — AI snippet target */}
+      <div className="tdmd-answer-block" data-speakable="true" style={{
+        background: '#EAF7F8', borderLeft: '4px solid #006B73',
+        padding: '1rem 1.25rem', margin: '0 0 0', lineHeight: 1.6
+      }}>
+        <div className="tdmd-container">
+          <p style={{ margin: 0, fontWeight: 700, color: '#003E52', fontSize: '1.05rem' }}>
+            Online doctor in {state.name}:
+          </p>
+          <p style={{ margin: '0.35rem 0 0', color: '#003E52', fontSize: '0.97rem' }}>
+            TeleDirectMD provides same-day video visits with a board-certified MD in {state.name} for {totalConditions} adult conditions — starting at $49, no insurance required{hasInsurance ? `, though select plans are accepted in ${state.name}` : ''}. Book online, see a licensed physician via secure video, and get a prescription sent directly to your local {state.name} pharmacy.
+          </p>
+        </div>
+      </div>
+
       {/* 1) Hero */}
       <section className="tdmd-hero" id={`${pid}-hero`}>
         <div className="tdmd-container">
-          <h1>Online Doctor in {state.name} — TeleDirectMD</h1>
+          <h1 data-speakable="true">Online Doctor in {state.name} — TeleDirectMD</h1>
           <p className="tdmd-state-hero-sub">
             MD-only telehealth visits for {totalConditions} adult conditions. Same-day appointments, starting at $49{hasInsurance ? ' — select insurance plans accepted' : ' — no insurance required'}.
           </p>
@@ -277,9 +292,9 @@ export default function StateLandingPage({ stateSlug }) {
       </section>
 
       {/* 3) How It Works */}
-      <section className="tdmd-section tdmd-section-highlight" id={`${pid}-how-it-works`}>
+      <section className="tdmd-section tdmd-section-highlight" id={`${pid}-how-it-works`} itemScope itemType="https://schema.org/HowTo">
         <div className="tdmd-container">
-          <h2>How TeleDirectMD Works in {state.name}</h2>
+          <h2 itemProp="name">How TeleDirectMD Works in {state.name}</h2>
           <p>Getting care takes just three simple steps. Most visits are completed in under 15 minutes.</p>
 
           <div className="tdmd-how-steps">
@@ -390,19 +405,19 @@ export default function StateLandingPage({ stateSlug }) {
 
           <div className="tdmd-faq-list" role="list">
             <details className="tdmd-faq-item">
-              <summary className="tdmd-faq-question">What conditions does TeleDirectMD treat in {state.name}?</summary>
+              <summary className="tdmd-faq-question" data-speakable="true">What conditions does TeleDirectMD treat in {state.name}?</summary>
               <div className="tdmd-faq-answer">
                 <p>TeleDirectMD treats {totalConditions} adult conditions in {state.name}, organized into {categories.length} categories: {categories.map((c) => c.categoryName).join(', ')}. Common conditions include colds, flu, UTIs, sinus infections, acne, eczema, asthma refills, blood pressure refills, and more.</p>
               </div>
             </details>
             <details className="tdmd-faq-item">
-              <summary className="tdmd-faq-question">How much does a visit cost?</summary>
+              <summary className="tdmd-faq-question" data-speakable="true">How much does a visit cost?</summary>
               <div className="tdmd-faq-answer">
                 <p>TeleDirectMD visits start at $49 per visit. There are no hidden fees and no subscription required.{hasInsurance ? ' We also accept select insurance plans — standard copays and cost-sharing apply.' : ' No insurance required.'} The visit fee covers the full MD consultation, diagnosis, treatment plan, and prescriptions sent to your preferred {state.name} pharmacy.</p>
               </div>
             </details>
             <details className="tdmd-faq-item">
-              <summary className="tdmd-faq-question">Do I need insurance to use TeleDirectMD?</summary>
+              <summary className="tdmd-faq-question" data-speakable="true">Do I need insurance to use TeleDirectMD?</summary>
               <div className="tdmd-faq-answer">
                 {hasInsurance ? (
                   <p>No, insurance is not required. You can always book a $49 self-pay visit. However, TeleDirectMD also accepts select insurance plans in {state.name}, including {stateInsurers.map(i => i.name).join(', ')}. Visit our <a href="/insurance" style={{ color: 'var(--tdmd-teal)', fontWeight: 700 }}>Insurance page</a> to check your coverage.</p>
@@ -412,13 +427,13 @@ export default function StateLandingPage({ stateSlug }) {
               </div>
             </details>
             <details className="tdmd-faq-item">
-              <summary className="tdmd-faq-question">Can TeleDirectMD prescribe medications in {state.name}?</summary>
+              <summary className="tdmd-faq-question" data-speakable="true">Can TeleDirectMD prescribe medications in {state.name}?</summary>
               <div className="tdmd-faq-answer">
                 <p>Yes. After your video visit, your TeleDirectMD physician can send prescriptions electronically to any {state.name} pharmacy, including {pharmacies.join(', ')}. Prescriptions are typically available for pickup within 1–2 hours. TeleDirectMD does not prescribe controlled substances.</p>
               </div>
             </details>
             <details className="tdmd-faq-item">
-              <summary className="tdmd-faq-question">Who will I see during my visit?</summary>
+              <summary className="tdmd-faq-question" data-speakable="true">Who will I see during my visit?</summary>
               <div className="tdmd-faq-answer">
                 <p>Every TeleDirectMD visit is conducted by a licensed MD — not a nurse practitioner or physician assistant. Our physicians are licensed to practice medicine in {state.name} and are board-certified.</p>
               </div>
