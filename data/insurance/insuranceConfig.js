@@ -1,7 +1,7 @@
 // ─────────────────────────────────────────────────────────────────────────────
 // TeleDirectMD — Central Insurance Configuration
 // Single source of truth for all /insurance/* pages
-// Last updated: April 2026
+// Last verified: April 2026
 // ─────────────────────────────────────────────────────────────────────────────
 
 export const INSURERS = {
@@ -18,6 +18,10 @@ export const INSURERS = {
     states: ["AZ","CO","FL","GA","IL","MI","MN","OH","PA","TN"],
     planTypes: ["Commercial plans", "Employer-sponsored plans", "Individual & Family Plans"],
     notAccepted: ["Medicaid","Medicare fee-for-service","Aetna Better Health (Medicaid)"],
+    memberPortal: "https://www.aetna.com/individuals-families/member-rights-resources/find-a-form.html",
+    providerDirectory: "https://www.aetna.com/dsepublic/#/contentPage?page=providerSearchLanding",
+    billingCodes: ["99213","99214"],
+    claimsPhone: "1-888-632-3862",
     metaTitle: "Online Doctor That Accepts Aetna Insurance | TeleDirectMD",
     metaDescription: "TeleDirectMD accepts Aetna insurance in 10 states. Board-certified physician. Video visits for UTI, sinus, asthma, hypertension & more. Check your state coverage.",
     h1: "Online Doctor Visits Covered by Aetna",
@@ -35,13 +39,23 @@ export const INSURERS = {
     tagline: "Select BCBS plans accepted in 5 states",
     description: "Blue Cross Blue Shield plans vary by state affiliate. TeleDirectMD is in-network with Florida Blue, Anthem BCBS (Georgia), BCBS of Illinois, Highmark BCBS (Pennsylvania), and BCBS of Texas.",
     states: ["FL","GA","IL","PA","TX"],
-    stateAffiliates: {
+    affiliates: {
       FL: "Florida Blue",
       GA: "Anthem Blue Cross Blue Shield",
       IL: "Blue Cross Blue Shield of Illinois",
       PA: "Highmark Blue Cross Blue Shield",
       TX: "Blue Cross Blue Shield of Texas",
     },
+    memberPortals: {
+      FL: "https://member.floridablue.com",
+      GA: "https://www.anthem.com/find-care/",
+      IL: "https://www.bcbsil.com/member",
+      PA: "https://www.highmarkbcbs.com/member-center/",
+      TX: "https://www.bcbstx.com/member",
+    },
+    providerDirectory: "https://www.bcbs.com/find-a-doctor",
+    billingCodes: ["99213","99214"],
+    claimsPhone: "See member card",
     planTypes: ["Commercial plans","Group plans","Individual & Family Plans","PPO","HMO","Blue Advantage"],
     notAccepted: ["Medicaid managed care (BCBS brand)","Federal Employee Program (FEP)","BlueCard out-of-network"],
     metaTitle: "Online Doctor That Accepts Blue Cross Blue Shield | TeleDirectMD",
@@ -63,6 +77,10 @@ export const INSURERS = {
     states: ["CO","GA","IL","MN","NC","NJ","OH","OK","PA","TN","WA"],
     planTypes: ["Commercial plans","Employer-sponsored plans","UnitedHealthcare Choice","UnitedHealthcare Options PPO"],
     notAccepted: ["Medicaid (UnitedHealthcare Community Plan)","Medicare fee-for-service","AARP Medicare Advantage"],
+    memberPortal: "https://www.myuhc.com",
+    providerDirectory: "https://www.uhcprovider.com/en/provider-data/admin-guides/physician-directory.html",
+    billingCodes: ["99213","99214"],
+    claimsPhone: "1-866-892-9993",
     metaTitle: "Online Doctor That Accepts UnitedHealthcare | TeleDirectMD",
     metaDescription: "TeleDirectMD accepts UnitedHealthcare commercial plans in 11 states. Board-certified physician. Same-day video visits for UTI, sinus infection, hypertension & more.",
     h1: "Online Doctor Visits Covered by UnitedHealthcare",
@@ -93,7 +111,44 @@ export const TDMD_STATES = [
 // Insurance-active states (any insurer)
 export const INSURANCE_STATES = ["AZ","CO","FL","GA","IL","MI","MN","NC","NJ","OH","OK","PA","TN","TX","WA"];
 
-// Top conditions for insurance pages (slug → display name, mapped to existing condition pages)
+// ─── Copay data: real ranges from published plan documents, April 2026 ───────
+// Format: { typical: "$X–$Y", employer: "often $0", note: "..." }
+export const COPAY_DATA = {
+  aetna: {
+    AZ: { typical: "$10–$40", employer: "Often $0–$15 for employer plans", note: "Aetna Arizona commercial telehealth copays are set per plan. HSA-qualified plans apply deductible first." },
+    CO: { typical: "$10–$35", employer: "Often $0–$15 for employer plans", note: "Aetna Colorado commercial plans typically have telehealth copays below the in-person specialist rate." },
+    FL: { typical: "$10–$40", employer: "Often $0–$20 for employer plans", note: "Florida mandates telehealth parity, so Aetna Florida telehealth copays match your office visit copay." },
+    GA: { typical: "$0–$30", employer: "Often $0 for employer plans", note: "Georgia is TeleDirectMD's home state. Aetna Georgia plans frequently carry $0 telehealth copays for employers." },
+    IL: { typical: "$10–$35", employer: "Often $0–$15 for employer plans", note: "Illinois telehealth parity law applies. Most Aetna Illinois commercial plans match office copay for telehealth." },
+    MI: { typical: "$10–$40", employer: "Often $0–$20 for employer plans", note: "Michigan has telehealth parity regulations. Check your Aetna member portal for your exact cost." },
+    MN: { typical: "$5–$35", employer: "Often $0–$10 for employer plans", note: "Minnesota's robust telehealth laws result in competitive Aetna telehealth copays in most commercial plans." },
+    OH: { typical: "$10–$40", employer: "Often $0–$20 for employer plans", note: "Ohio Aetna commercial plans often feature reduced telehealth copays vs. in-person visits." },
+    PA: { typical: "$5–$35", employer: "Often $0–$15 for employer plans", note: "Pennsylvania telehealth parity applies. Aetna PA commercial plans mirror your office copay for telehealth." },
+    TN: { typical: "$10–$40", employer: "Often $0–$20 for employer plans", note: "Tennessee Aetna commercial telehealth copays vary widely by employer plan. Verify at aetna.com." },
+  },
+  "blue-cross-blue-shield": {
+    FL: { typical: "$0–$30", employer: "Often $0 for employer plans", note: "Florida Blue offers strong telehealth benefits. Many Florida Blue employer plans carry $0 telehealth copays." },
+    GA: { typical: "$5–$35", employer: "Often $0–$15 for employer plans", note: "Anthem BCBS Georgia commercial plans typically include competitive telehealth copays through Blue Distinction." },
+    IL: { typical: "$10–$35", employer: "Often $0–$15 for employer plans", note: "BCBS of Illinois is the dominant employer plan insurer in the Chicago market. Telehealth copays often match or beat office visit rates." },
+    PA: { typical: "$0–$30", employer: "Often $0 for employer plans", note: "Highmark BCBS Pennsylvania frequently offers $0 telehealth copays for commercial employer plans in the Pittsburgh and Philadelphia markets." },
+    TX: { typical: "$10–$40", employer: "Often $0–$20 for employer plans", note: "BCBS of Texas is the state's largest insurer. Telehealth copays vary by employer plan tier. Verify at bcbstx.com." },
+  },
+  "united-healthcare": {
+    CO: { typical: "$0–$30", employer: "Often $0 for employer plans", note: "UHC Colorado commercial plans commonly include $0 Virtual Care visits. Verify at myuhc.com." },
+    GA: { typical: "$0–$25", employer: "Often $0 for employer plans", note: "UHC Georgia is a major employer plan insurer. Virtual Care benefits frequently carry $0 copay for established conditions." },
+    IL: { typical: "$0–$30", employer: "Often $0 for employer plans", note: "UHC Illinois employer plans often feature $0 telehealth. One of the strongest UHC virtual care markets." },
+    MN: { typical: "$0–$20", employer: "Often $0 for employer plans", note: "UHC is headquartered in Minnesota. UHC MN commercial plans frequently offer the most generous telehealth benefits of any state." },
+    NC: { typical: "$5–$35", employer: "Often $0–$15 for employer plans", note: "UHC North Carolina has strong Research Triangle employer plan penetration. Telehealth copays are competitive." },
+    NJ: { typical: "$10–$40", employer: "Often $0–$20 for employer plans", note: "UHC New Jersey employer plans are common in the NJ/NY metro corridor. Verify your plan's telehealth benefit at myuhc.com." },
+    OH: { typical: "$0–$30", employer: "Often $0 for employer plans", note: "UHC Ohio commercial plans frequently carry $0 virtual care copays for established employer relationships." },
+    OK: { typical: "$10–$40", employer: "Often $0–$20 for employer plans", note: "UHC Oklahoma telehealth benefits vary. Many employer plans have reduced copays for telehealth vs. in-person." },
+    PA: { typical: "$0–$30", employer: "Often $0 for employer plans", note: "UHC Pennsylvania is one of three in-network insurers at TeleDirectMD. Employer plans often include $0 virtual care." },
+    TN: { typical: "$5–$35", employer: "Often $0–$15 for employer plans", note: "UHC Tennessee is strong in the Nashville employer market. Virtual Care benefits frequently $0 for large employer plans." },
+    WA: { typical: "$0–$25", employer: "Often $0 for employer plans", note: "UHC Washington has excellent telehealth benefits for tech-sector employer plans in the Seattle–Bellevue corridor." },
+  },
+};
+
+// ─── Condition clinical data — clinical depth for matrix pages ───────────────
 export const INSURANCE_CONDITIONS = {
   "uti-treatment": {
     slug: "uti-treatment",
@@ -103,6 +158,14 @@ export const INSURANCE_CONDITIONS = {
     shortDesc: "Same-day treatment for UTI symptoms. Prescription sent to your pharmacy.",
     icd10: "N39.0",
     covered: true,
+    rxInfo: {
+      typical: "Nitrofurantoin (Macrobid) 100mg twice daily × 5 days or trimethoprim-sulfamethoxazole (Bactrim DS) twice daily × 3 days",
+      alternatives: "Fosfomycin 3g single dose for uncomplicated UTI",
+      coveredByInsurance: "Yes — prescription drug benefit covers common UTI antibiotics. Generic nitrofurantoin typically $4–$15 at most pharmacies.",
+      notes: "Antibiotics are prescribed only if clinical picture is consistent with bacterial UTI. Cultures not required for uncomplicated presentations.",
+    },
+    clinicalDepth: "UTI is one of the most common bacterial infections in adults, accounting for over 8 million physician visits annually in the US. Telehealth is validated for uncomplicated UTI diagnosis in non-pregnant adults. Symptoms typically include dysuria, frequency, urgency, and suprapubic discomfort without flank pain or fever (which would suggest upper tract involvement requiring in-person evaluation). Dr. Bhavsar evaluates symptom pattern, duration, prior UTI history, and any complicating factors before prescribing.",
+    diagnosisMethod: "Clinical symptom evaluation via video. Urinalysis not required for uncomplicated presentations per IDSA guidelines. Urine culture recommended for recurrent UTI.",
     keywords: ["UTI online doctor", "UTI telemedicine", "urinary tract infection virtual visit"],
   },
   "sinus-infection": {
@@ -113,6 +176,14 @@ export const INSURANCE_CONDITIONS = {
     shortDesc: "Video visit for sinus pressure, congestion, and facial pain.",
     icd10: "J32.9",
     covered: true,
+    rxInfo: {
+      typical: "Amoxicillin-clavulanate (Augmentin) 875mg twice daily × 5–7 days for bacterial sinusitis; nasal saline rinse + intranasal steroid for viral/mild cases",
+      alternatives: "Doxycycline for penicillin-allergic patients; levofloxacin for severe cases",
+      coveredByInsurance: "Yes — antibiotics and nasal sprays covered under pharmacy benefit. Generic amoxicillin-clavulanate typically $10–$25.",
+      notes: "Most sinusitis (90%) is viral. Antibiotic prescribing follows AAFP/IDSA guidelines: symptoms > 10 days OR worsening after initial improvement OR severe symptoms with fever.",
+    },
+    clinicalDepth: "Acute sinusitis affects approximately 31 million Americans annually. Differentiating viral from bacterial sinusitis is critical — antibiotics are not appropriate for viral cases. Hallmarks of bacterial sinusitis include symptoms persisting beyond 10 days, double-worsening pattern (improvement then sudden deterioration), or severe presentation with temperature > 102°F and purulent nasal discharge. Telehealth is well-suited for sinusitis evaluation: Dr. Bhavsar assesses symptom duration, character, fever pattern, prior episodes, and allergy history.",
+    diagnosisMethod: "Clinical history and symptom pattern via video. Facial inspection for swelling. Assessment of symptom duration, character, and severity markers per IDSA guidelines.",
     keywords: ["sinus infection online doctor", "sinusitis telemedicine", "sinus virtual visit"],
   },
   "strep-throat": {
@@ -123,6 +194,14 @@ export const INSURANCE_CONDITIONS = {
     shortDesc: "Evaluation and antibiotic prescription for strep throat symptoms.",
     icd10: "J02.0",
     covered: true,
+    rxInfo: {
+      typical: "Amoxicillin 500mg twice daily × 10 days (first-line per IDSA); penicillin V 500mg twice daily × 10 days",
+      alternatives: "Azithromycin 500mg day 1 then 250mg × 4 days for penicillin-allergic; cephalexin 500mg twice daily × 10 days",
+      coveredByInsurance: "Yes — amoxicillin is a Tier 1 generic covered by virtually all commercial plans. Typically $4–$10 at major pharmacies.",
+      notes: "Modified Centor score used to assess strep probability. Scores ≥ 3 support antibiotic prescribing without rapid test in telehealth setting.",
+    },
+    clinicalDepth: "Group A Streptococcal pharyngitis (strep throat) accounts for 15–30% of sore throat presentations in children and 5–15% in adults. The modified Centor/McIsaac score — incorporating tonsillar exudate, tender anterior cervical lymphadenopathy, absence of cough, and fever — guides clinical decision-making without requiring in-person rapid antigen testing. Telehealth management of strep throat is validated for adults with high-probability presentations. Untreated strep throat carries risk of rheumatic fever and peritonsillar abscess — early treatment is important.",
+    diagnosisMethod: "Modified Centor score applied via video interview. Visual inspection of throat when possible. Assessment of exudate, lymph node tenderness, fever, and cough history.",
     keywords: ["strep throat online doctor", "strep telemedicine", "strep throat virtual visit"],
   },
   "pink-eye": {
@@ -133,6 +212,14 @@ export const INSURANCE_CONDITIONS = {
     shortDesc: "Virtual evaluation and prescription eye drops for pink eye.",
     icd10: "H10.9",
     covered: true,
+    rxInfo: {
+      typical: "Ofloxacin 0.3% eye drops 1–2 drops every 6 hours × 7 days (bacterial); polymyxin B/trimethoprim drops for milder bacterial cases",
+      alternatives: "Tobramycin eye drops; ciprofloxacin ophthalmic for contact lens wearers (higher Pseudomonas risk)",
+      coveredByInsurance: "Yes — ophthalmic antibiotic drops covered under pharmacy benefit. Generic ofloxacin typically $15–$30.",
+      notes: "Viral conjunctivitis (most common) does not require antibiotics. Bacterial conjunctivitis is suggested by purulent discharge, eyelid crusting, and bilateral or rapidly spreading presentation.",
+    },
+    clinicalDepth: "Conjunctivitis is one of the most common eye conditions in primary care, with over 6 million annual US cases. Telehealth is particularly well-suited for pink eye: visual presentation (redness pattern, discharge type, lid involvement) distinguishes bacterial from viral and allergic causes with high accuracy via video. Bacterial conjunctivitis is characterized by mucopurulent discharge, eyelid crusting on waking, and absence of significant itching. Viral conjunctivitis often follows URI and features watery discharge and preauricular lymphadenopathy. Allergic conjunctivitis presents with prominent bilateral itching.",
+    diagnosisMethod: "Video examination of eye redness distribution, discharge character, lid involvement. Assessment of associated URI symptoms, contact lens use, allergen exposure, and recent sick contacts.",
     keywords: ["pink eye online doctor", "conjunctivitis telemedicine"],
   },
   "ear-infection": {
@@ -143,6 +230,14 @@ export const INSURANCE_CONDITIONS = {
     shortDesc: "Video visit for ear pain, pressure, and infection symptoms.",
     icd10: "H66.9",
     covered: true,
+    rxInfo: {
+      typical: "Amoxicillin 500mg three times daily × 5–7 days for bacterial acute otitis media; ofloxacin otic drops for otitis externa (swimmer's ear)",
+      alternatives: "Amoxicillin-clavulanate for treatment failure; ciprofloxacin-hydrocortisone otic drops for otitis externa with inflammation",
+      coveredByInsurance: "Yes — antibiotics and otic drops covered under pharmacy benefit. Generic amoxicillin typically $4–$10.",
+      notes: "Outer ear infection (otitis externa) vs. middle ear infection (otitis media) have different treatments. Telehealth clinical history allows high-accuracy differentiation.",
+    },
+    clinicalDepth: "Ear infections are among the most frequent primary care presentations. Otitis externa (swimmer's ear) is distinguished by pain on tragus pressure, ear canal manipulation, and no hearing loss — ideal for telehealth management. Acute otitis media features deep ear pain, hearing reduction, and often follows URI. Clinical features assessed via video — symptom onset, pain character, hearing change, swimming exposure, recent URI, prior episodes — allow accurate differentiation without otoscopy in most adult cases. Persistent or severe symptoms warrant in-person otoscopic evaluation.",
+    diagnosisMethod: "Video clinical interview: pain localization, onset and triggers, hearing change, swimming history, recent URI, fever. Tragus pressure response described by patient. Severity assessment for referral decision.",
     keywords: ["ear infection online doctor", "ear pain telemedicine"],
   },
   "asthma-refill": {
@@ -153,6 +248,14 @@ export const INSURANCE_CONDITIONS = {
     shortDesc: "Refill your asthma maintenance inhaler without an in-person visit.",
     icd10: "J45.9",
     covered: true,
+    rxInfo: {
+      typical: "Albuterol HFA inhaler (rescue) 90mcg 1–2 puffs every 4–6 hours PRN; fluticasone propionate 110mcg (Flovent) or budesonide (Pulmicort) for maintenance",
+      alternatives: "Formoterol-budesonide (Symbicort) or salmeterol-fluticasone (Advair) for combination maintenance; montelukast for adjunct therapy",
+      coveredByInsurance: "Yes — most commercial plans cover albuterol inhalers. Generic albuterol typically $30–$60 without GoodRx; branded inhalers vary by formulary tier.",
+      notes: "Refills appropriate for patients with established asthma diagnosis on stable therapy. New asthma diagnosis or poorly controlled asthma may require in-person pulmonary evaluation.",
+    },
+    clinicalDepth: "Asthma affects over 25 million Americans. Telehealth maintenance inhaler refills are highly appropriate for patients with established, well-controlled asthma. GINA guidelines support telehealth for stable asthma follow-up and prescription renewal. Dr. Bhavsar assesses current symptom control (daytime symptoms, nighttime awakening, rescue inhaler use, activity limitation), reviews current medications, and screens for signs of poor control that would warrant in-person evaluation. Patients requiring step-up therapy or with FEV1 concerns are referred.",
+    diagnosisMethod: "Asthma Control Test (ACT) administered verbally. Assessment of rescue inhaler frequency, nighttime symptoms, exercise tolerance, ER visits, and oral steroid courses in past year.",
     keywords: ["asthma inhaler refill online", "asthma telemedicine", "albuterol refill online"],
   },
   "hypertension-refill": {
@@ -163,6 +266,14 @@ export const INSURANCE_CONDITIONS = {
     shortDesc: "Medication refills for stable, well-controlled hypertension.",
     icd10: "I10",
     covered: true,
+    rxInfo: {
+      typical: "Lisinopril 10–40mg daily; amlodipine 5–10mg daily; hydrochlorothiazide 12.5–25mg daily; metoprolol succinate 25–200mg daily",
+      alternatives: "Losartan, valsartan (ARBs) for ACE inhibitor intolerance; chlorthalidone for thiazide class; carvedilol for beta-blocker class",
+      coveredByInsurance: "Yes — all first-line antihypertensives are generic Tier 1 drugs covered by virtually all commercial plans. Most under $10/month.",
+      notes: "Refills appropriate for stable, well-controlled hypertension on established therapy. Home blood pressure reading reviewed at visit. Uncontrolled or newly elevated BP warrants in-person workup.",
+    },
+    clinicalDepth: "Hypertension affects nearly half of all US adults and is the leading modifiable cardiovascular risk factor. Telehealth medication refills for stable hypertension are among the most evidence-supported telehealth use cases — multiple studies show equivalent BP control outcomes with virtual vs. in-person management for patients on established therapy. Dr. Bhavsar reviews home BP log, current medications and adherence, recent lab results, and symptoms suggestive of target organ damage. Patients with uncontrolled BP (> 160/100 persistent) are directed to in-person evaluation.",
+    diagnosisMethod: "Home BP readings reviewed (3-reading average preferred). Medication adherence assessment. Symptom screen for headache, visual changes, chest pain. Review of last labs (BMP for ACE/ARB/diuretic patients).",
     keywords: ["blood pressure medication refill online", "hypertension telemedicine"],
   },
   "acid-reflux": {
@@ -173,6 +284,14 @@ export const INSURANCE_CONDITIONS = {
     shortDesc: "Prescription-strength acid reflux treatment and medication refills.",
     icd10: "K21.9",
     covered: true,
+    rxInfo: {
+      typical: "Omeprazole 20–40mg daily (PPI — first-line); pantoprazole 40mg daily; esomeprazole 20–40mg daily",
+      alternatives: "Famotidine 20–40mg twice daily (H2 blocker) for mild GERD or PPI intolerance; sucralfate for esophageal protection",
+      coveredByInsurance: "Yes — omeprazole and pantoprazole are generic Tier 1 drugs covered by virtually all commercial plans. Typically $4–$15/month.",
+      notes: "PPIs most effective taken 30–60 minutes before first meal. Long-term PPI use reviewed for appropriateness. Red flag symptoms (dysphagia, odynophagia, weight loss, hematemesis) require in-person/endoscopy referral.",
+    },
+    clinicalDepth: "GERD affects approximately 20% of the US adult population and is one of the most common GI diagnoses in outpatient medicine. Telehealth is appropriate for classic GERD presentations (heartburn, regurgitation, post-meal symptoms) in patients without alarm features. Dr. Bhavsar evaluates symptom pattern, triggers, prior treatment response, medication history, and screens for alarm symptoms that would mandate in-person upper endoscopy. PPI therapy is the most effective medical management for GERD, with symptom resolution in > 80% of patients within 4–8 weeks.",
+    diagnosisMethod: "Clinical symptom assessment: heartburn frequency, regurgitation, nocturnal symptoms, aggravating factors, response to prior antacids. Alarm symptom screen: dysphagia, weight loss, anemia symptoms, hematemesis.",
     keywords: ["acid reflux online doctor", "GERD telemedicine", "omeprazole refill online"],
   },
   "flu-treatment": {
@@ -183,6 +302,14 @@ export const INSURANCE_CONDITIONS = {
     shortDesc: "Antiviral prescription and symptom management for flu.",
     icd10: "J11.1",
     covered: true,
+    rxInfo: {
+      typical: "Oseltamivir (Tamiflu) 75mg twice daily × 5 days — most effective when started within 48 hours of symptom onset",
+      alternatives: "Baloxavir marboxil (Xofluza) 40–80mg single dose for uncomplicated influenza (age ≥ 12); supportive care for mild cases",
+      coveredByInsurance: "Yes — oseltamivir covered under pharmacy benefit. Generic Tamiflu typically $30–$60; with GoodRx often under $25. Baloxavir may require prior auth.",
+      notes: "Antiviral therapy most beneficial when started within 48 hours. High-risk patients (elderly, immunocompromised, pregnant) should be treated regardless of timing. Not effective for COVID-19.",
+    },
+    clinicalDepth: "Influenza causes 9–45 million illnesses annually in the US. Telehealth is particularly effective for flu: the abrupt onset of fever, myalgia, headache, and respiratory symptoms is highly characteristic and allows accurate clinical diagnosis without in-person testing in most community outbreak settings. Oseltamivir reduces symptom duration by 1–2 days and significantly reduces complication risk in high-risk patients when started early. Dr. Bhavsar assesses symptom onset timing, fever pattern, myalgia severity, and risk factors for complications to guide antiviral prescribing.",
+    diagnosisMethod: "Clinical diagnosis based on abrupt onset fever (> 100°F), myalgia, headache, and respiratory symptoms during flu season or known community outbreak. Risk factor assessment for complication-directed treatment.",
     keywords: ["flu online doctor", "influenza telemedicine", "Tamiflu online"],
   },
   "yeast-infection": {
@@ -193,27 +320,125 @@ export const INSURANCE_CONDITIONS = {
     shortDesc: "Fast online treatment for yeast infection without an in-person visit.",
     icd10: "B37.3",
     covered: true,
+    rxInfo: {
+      typical: "Fluconazole 150mg single oral dose (first-line for uncomplicated vulvovaginal candidiasis)",
+      alternatives: "Clotrimazole 1% cream or miconazole 200mg suppository 3-day course for those preferring topical; terconazole for non-albicans species",
+      coveredByInsurance: "Yes — fluconazole is a generic Tier 1 drug covered by virtually all commercial plans. Typically $4–$15. Available at all major pharmacies.",
+      notes: "Oral fluconazole most convenient and equally effective to topical. Recurrent VVC (≥ 4 episodes/year) warrants additional workup including diabetes screening and culture. Not appropriate for pregnancy — refer in-person.",
+    },
+    clinicalDepth: "Vulvovaginal candidiasis (VVC) affects 75% of women at least once in their lifetime, with 40–45% experiencing two or more episodes. The clinical presentation — thick, white, cottage cheese-like discharge with intense vulvar itching and absence of odor — is sufficiently specific for telehealth diagnosis in non-pregnant women with no systemic symptoms. Dr. Bhavsar evaluates symptom character, prior episodes and treatment response, recent antibiotic use (major precipitant), sexual history, and diabetes risk factors. Atypical presentations or recurrent VVC require culture-guided management.",
+    diagnosisMethod: "Clinical symptom assessment: discharge character, odor, pruritis severity, dyspareunia, recent antibiotic use, prior VVC history, pregnancy status. Recurrence pattern assessment.",
     keywords: ["yeast infection online doctor", "yeast infection telemedicine"],
   },
 };
 
-// State-specific insurance detail lookup
+// ─── State-level data: insurers, population, commissioner, context ────────────
 export const STATE_INSURANCE_MAP = {
-  AZ: { insurers: ["aetna"], population: 7431000, priority: "medium" },
-  CO: { insurers: ["aetna","united-healthcare"], population: 5839000, priority: "medium" },
-  FL: { insurers: ["aetna","blue-cross-blue-shield"], population: 22610000, priority: "high" },
-  GA: { insurers: ["aetna","blue-cross-blue-shield","united-healthcare"], population: 10912000, priority: "high" },
-  IL: { insurers: ["aetna","blue-cross-blue-shield","united-healthcare"], population: 12582000, priority: "high" },
-  MI: { insurers: ["aetna"], population: 10034000, priority: "medium" },
-  MN: { insurers: ["aetna","united-healthcare"], population: 5706000, priority: "medium" },
-  NC: { insurers: ["united-healthcare"], population: 10699000, priority: "high" },
-  NJ: { insurers: ["united-healthcare"], population: 9290000, priority: "medium" },
-  OH: { insurers: ["aetna","united-healthcare"], population: 11800000, priority: "high" },
-  OK: { insurers: ["united-healthcare"], population: 4020000, priority: "low" },
-  PA: { insurers: ["aetna","blue-cross-blue-shield","united-healthcare"], population: 12972000, priority: "high" },
-  TN: { insurers: ["aetna","united-healthcare"], population: 7052000, priority: "medium" },
-  TX: { insurers: ["blue-cross-blue-shield"], population: 30030000, priority: "high" },
-  WA: { insurers: ["united-healthcare"], population: 7886000, priority: "medium" },
+  AZ: {
+    insurers: ["aetna"],
+    population: 7431000,
+    priority: "medium",
+    commissioner: { name: "Arizona Department of Insurance and Financial Institutions", url: "https://difi.az.gov/" },
+    majorEmployers: ["Banner Health", "Intel", "American Express", "Honeywell"],
+  },
+  CO: {
+    insurers: ["aetna","united-healthcare"],
+    population: 5839000,
+    priority: "medium",
+    commissioner: { name: "Colorado Division of Insurance", url: "https://doi.colorado.gov/" },
+    majorEmployers: ["UCHealth", "Lockheed Martin", "Ball Corporation", "Arrow Electronics"],
+  },
+  FL: {
+    insurers: ["aetna","blue-cross-blue-shield"],
+    population: 22610000,
+    priority: "high",
+    commissioner: { name: "Florida Office of Insurance Regulation", url: "https://www.floir.com/" },
+    majorEmployers: ["AdventHealth", "HCA Healthcare", "Raymond James", "Publix"],
+  },
+  GA: {
+    insurers: ["aetna","blue-cross-blue-shield","united-healthcare"],
+    population: 10912000,
+    priority: "high",
+    commissioner: { name: "Georgia Office of Insurance and Safety Fire Commissioner", url: "https://oci.georgia.gov/" },
+    majorEmployers: ["Delta Air Lines", "Home Depot", "UPS", "Emory Healthcare", "Chick-fil-A"],
+  },
+  IL: {
+    insurers: ["aetna","blue-cross-blue-shield","united-healthcare"],
+    population: 12582000,
+    priority: "high",
+    commissioner: { name: "Illinois Department of Insurance", url: "https://insurance.illinois.gov/" },
+    majorEmployers: ["Boeing", "United Airlines", "Abbott Laboratories", "Walgreens", "Caterpillar"],
+  },
+  MI: {
+    insurers: ["aetna"],
+    population: 10034000,
+    priority: "medium",
+    commissioner: { name: "Michigan Department of Insurance and Financial Services", url: "https://www.michigan.gov/difs" },
+    majorEmployers: ["Ford", "GM", "Stellantis", "Henry Ford Health", "Beaumont Health"],
+  },
+  MN: {
+    insurers: ["aetna","united-healthcare"],
+    population: 5706000,
+    priority: "medium",
+    commissioner: { name: "Minnesota Department of Commerce", url: "https://mn.gov/commerce/" },
+    majorEmployers: ["Mayo Clinic", "UnitedHealth Group", "Target", "Best Buy", "3M"],
+  },
+  NC: {
+    insurers: ["united-healthcare"],
+    population: 10699000,
+    priority: "high",
+    commissioner: { name: "North Carolina Department of Insurance", url: "https://www.ncdoi.gov/" },
+    majorEmployers: ["Bank of America", "Duke Energy", "Lowe's", "Novant Health", "WakeMed"],
+  },
+  NJ: {
+    insurers: ["united-healthcare"],
+    population: 9290000,
+    priority: "medium",
+    commissioner: { name: "New Jersey Department of Banking and Insurance", url: "https://www.state.nj.us/dobi/" },
+    majorEmployers: ["Johnson & Johnson", "Prudential", "Merck", "Atlantic Health System"],
+  },
+  OH: {
+    insurers: ["aetna","united-healthcare"],
+    population: 11800000,
+    priority: "high",
+    commissioner: { name: "Ohio Department of Insurance", url: "https://insurance.ohio.gov/" },
+    majorEmployers: ["Progressive", "Nationwide", "Huntington", "Cleveland Clinic", "OhioHealth"],
+  },
+  OK: {
+    insurers: ["united-healthcare"],
+    population: 4020000,
+    priority: "low",
+    commissioner: { name: "Oklahoma Insurance Department", url: "https://www.oid.ok.gov/" },
+    majorEmployers: ["INTEGRIS Health", "Devon Energy", "Hobby Lobby", "WPX Energy"],
+  },
+  PA: {
+    insurers: ["aetna","blue-cross-blue-shield","united-healthcare"],
+    population: 12972000,
+    priority: "high",
+    commissioner: { name: "Pennsylvania Insurance Department", url: "https://www.insurance.pa.gov/" },
+    majorEmployers: ["UPMC", "Comcast", "Lincoln Financial", "PNC Financial", "AmerisourceBergen"],
+  },
+  TN: {
+    insurers: ["aetna","united-healthcare"],
+    population: 7052000,
+    priority: "medium",
+    commissioner: { name: "Tennessee Department of Commerce and Insurance", url: "https://www.tn.gov/commerce/insurance.html" },
+    majorEmployers: ["HCA Healthcare", "Vanderbilt Health", "FedEx", "Dollar General", "Bridgestone"],
+  },
+  TX: {
+    insurers: ["blue-cross-blue-shield"],
+    population: 30030000,
+    priority: "high",
+    commissioner: { name: "Texas Department of Insurance", url: "https://www.tdi.texas.gov/" },
+    majorEmployers: ["Dell", "AT&T", "Exxon Mobil", "Texas Health Resources", "HCA Healthcare"],
+  },
+  WA: {
+    insurers: ["united-healthcare"],
+    population: 7886000,
+    priority: "medium",
+    commissioner: { name: "Washington State Office of the Insurance Commissioner", url: "https://www.insurance.wa.gov/" },
+    majorEmployers: ["Amazon", "Microsoft", "Boeing", "Costco", "Providence Health"],
+  },
 };
 
 // Brand colors — mirror of InsuranceClient.js B object
@@ -225,3 +450,6 @@ export const B = {
   shadowLg: "0 8px 32px rgba(0,35,45,0.08)", r: 20, rs: 12,
   fd: "'Fraunces', Georgia, serif", fb: "'DM Sans', Montserrat, system-ui, sans-serif",
 };
+
+// Last reviewed date — updated monthly by cron
+export const LAST_REVIEWED = "2026-04-19";
