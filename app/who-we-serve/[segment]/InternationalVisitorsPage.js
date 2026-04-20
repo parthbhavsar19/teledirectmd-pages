@@ -50,8 +50,8 @@ export default function InternationalVisitorsPage() {
       answer: "It's straightforward. Book a same-day or next-available appointment online, pay the $49 flat fee, and complete a brief intake form. At your appointment time, you'll connect via secure video call from your smartphone or computer — no app download required. Most visits take 10 to 15 minutes. If a prescription is needed, it's sent to a nearby pharmacy before the visit ends."
     },
     {
-      question: 'Can you treat my child who is traveling with me?',
-      answer: 'Yes. TeleDirectMD sees patients ages 5 and older. If your child is traveling with you and becomes ill, we can evaluate and treat common pediatric conditions such as ear infections, sore throats, respiratory infections, and skin conditions. The same $49 flat fee applies.'
+      question: 'Does TeleDirectMD see pediatric patients?',
+      answer: 'TeleDirectMD sees patients 18 and older. We do not see pediatric patients at this time. If your child is ill, please visit a US urgent care clinic or emergency room.'
     },
     {
       question: 'Is a telehealth visit with TeleDirectMD legitimate medical care?',
@@ -276,7 +276,7 @@ export default function InternationalVisitorsPage() {
               <h3>You Are Eligible If</h3>
               <ul className="tdmd-checklist tdmd-checklist--good">
                 <li>You are physically located in one of our 42 licensed states at the time of the visit</li>
-                <li>You are 5 years of age or older</li>
+                <li>You are 18 years of age or older</li>
                 <li>You have a non-emergency condition (UTI, sinus infection, strep, rash, traveler's diarrhea, allergies, refills, etc.)</li>
                 <li>You have a smartphone or computer with camera and internet access</li>
                 <li>You do not have US health insurance — or prefer direct-pay over using your plan</li>
@@ -287,7 +287,7 @@ export default function InternationalVisitorsPage() {
               <ul className="tdmd-checklist tdmd-checklist--alert">
                 <li>You are experiencing a medical emergency (chest pain, difficulty breathing, stroke symptoms, severe bleeding) — call 911</li>
                 <li>You are physically located outside the US or in an unlicensed state</li>
-                <li>Your child is under 5 years of age</li>
+                <li>You are under 18 years of age</li>
                 <li>You need a controlled substance (DEA Schedule II–IV medications are outside our scope)</li>
                 <li>Your condition requires an in-person physical examination, lab work, or imaging</li>
               </ul>
@@ -683,7 +683,7 @@ export default function InternationalVisitorsPage() {
             <li>Controlled substances (DEA Schedule II–IV medications)</li>
             <li>Conditions requiring physical examination, imaging, or urgent lab work</li>
             <li>Medical emergencies — call 911</li>
-            <li>Patients under 5 years of age</li>
+            <li>Patients under 18 years of age</li>
           </ul>
         </div>
       </section>

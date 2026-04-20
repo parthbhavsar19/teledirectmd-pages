@@ -54,8 +54,8 @@ export default function CollegeStudentsPage() {
       a: 'This is fully licensed medical care. TeleDirectMD is operated by Dr. Parth Bhavsar, MD, a board-certified Family Medicine physician. Diagnoses and prescriptions issued through TeleDirectMD are valid at any US pharmacy, documented in a HIPAA-compliant medical record, and carry the same legal weight as an in-person visit.'
     },
     {
-      q: 'Can my younger sibling (under 18) use TeleDirectMD?',
-      a: 'TeleDirectMD sees patients ages 5 and older, but patients under 18 must have a parent or legal guardian present during the visit. If you are a college student and an adult (18+), no guardian presence is required.'
+      q: 'Does TeleDirectMD see patients under 18?',
+      a: 'TeleDirectMD sees patients 18 and older. We do not see pediatric patients at this time. If you are 18 or older, no guardian is required — book directly.'
     },
   ];
 
@@ -262,7 +262,7 @@ export default function CollegeStudentsPage() {
             <div className="tdmd-card tdmd-card-good">
               <h3>&#10003; You Are Eligible If</h3>
               <ul className="tdmd-checklist tdmd-checklist--good">
-                <li>You are a college student (or any adult) aged 5 or older physically in one of our 42 states</li>
+                <li>You are 18 years of age or older and physically located in one of our 42 states</li>
                 <li>Your condition is non-emergency: UTI, sinus, strep, pink eye, skin rash, respiratory infection, allergies</li>
                 <li>Your home doctor won't prescribe remotely across state lines</li>
                 <li>You need a prescription refill while away from your home-state provider</li>
@@ -276,7 +276,7 @@ export default function CollegeStudentsPage() {
                 <li>You are experiencing a medical emergency → call 911 or campus security</li>
                 <li>You need a controlled substance prescription</li>
                 <li>Your condition requires in-person physical exam, lab testing, or imaging</li>
-                <li>You are under 5 years of age</li>
+                <li>You are under 18 years of age</li>
               </ul>
               <div className="tdmd-card-disclaimer">
                 For behavioral health ongoing therapy, a dedicated mental health provider is more appropriate. TeleDirectMD can evaluate and manage generalized anxiety but is not a substitute for ongoing therapy.
@@ -664,7 +664,7 @@ export default function CollegeStudentsPage() {
               <li>Complex behavioral health therapy</li>
               <li>Medical emergencies — call 911</li>
               <li>Conditions requiring in-person physical exam, laboratory testing, or imaging</li>
-              <li>Patients under 5 years of age</li>
+              <li>Patients under 18 years of age</li>
             </ul>
           </div>
         </div>
