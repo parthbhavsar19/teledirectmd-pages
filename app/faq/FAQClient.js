@@ -475,7 +475,7 @@ const sections = [
                 (Anthem BCBS), IL (BCBS of Illinois), PA (Highmark BCBS), TX (BCBS of Texas)
               </li>
               <li>
-                <strong>UnitedHealthcare</strong> — Commercial plans in CO, GA, IL, MN, NC, NJ, OH, OK, PA, TN, WA
+                <strong>UnitedHealthcare</strong> — Commercial plans in CO, GA, IL, MN, NC, NJ, OH, PA, TN, WA
               </li>
             </ul>
             <p>
