@@ -6,6 +6,10 @@ import UninsuredAffordableCarePage from './UninsuredAffordableCarePage';
 import RemoteWorkersPage from './RemoteWorkersPage';
 import TravelNursesPage from './TravelNursesPage';
 import SmallBusinessOwnersPage from './SmallBusinessOwnersPage';
+import InternationalVisitorsPage from './InternationalVisitorsPage';
+import EarlyRetireesPage from './EarlyRetireesPage';
+import CollegeStudentsPage from './CollegeStudentsPage';
+import MilitaryFamiliesPage from './MilitaryFamiliesPage';
 
 /* Pre-render all audience segment pages at build time */
 export function generateStaticParams() {
@@ -41,11 +45,9 @@ export default function AudienceSegmentPage({ params }) {
     notFound();
   }
 
-  /* Route to the correct page component */
   switch (params.segment) {
     case 'truck-drivers':
       return <TruckDriversPage />;
-
     case 'gig-workers':
       return <GigWorkersPage />;
     case 'uninsured-affordable-care':
@@ -56,52 +58,15 @@ export default function AudienceSegmentPage({ params }) {
       return <TravelNursesPage />;
     case 'small-business-owners':
       return <SmallBusinessOwnersPage />;
-
+    case 'international-visitors':
+      return <InternationalVisitorsPage />;
+    case 'early-retirees':
+      return <EarlyRetireesPage />;
+    case 'college-students':
+      return <CollegeStudentsPage />;
+    case 'military-families':
+      return <MilitaryFamiliesPage />;
     default:
       notFound();
   }
-}
-
-/* Temporary placeholder for segments not yet built */
-function ComingSoonPlaceholder({ segment }) {
-  const baseUrl = 'https://teledirectmd.com';
-
-  const breadcrumbJsonLd = {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "Home", "item": `${baseUrl}/` },
-      { "@type": "ListItem", "position": 2, "name": "Who We Serve", "item": `${baseUrl}/who-we-serve` },
-      { "@type": "ListItem", "position": 3, "name": segment.name, "item": `${baseUrl}/who-we-serve/${segment.slug}` }
-    ]
-  };
-
-  return (
-    <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
-      />
-      <nav className="tdmd-breadcrumbs" aria-label="Breadcrumb">
-        <div className="tdmd-container" style={{ paddingTop: '0.5rem', paddingBottom: '0' }}>
-          <a href="/">Home</a>
-          <span className="tdmd-bc-sep" aria-hidden="true">/</span>
-          <a href="/who-we-serve">Who We Serve</a>
-          <span className="tdmd-bc-sep" aria-hidden="true">/</span>
-          <span aria-current="page">{segment.name}</span>
-        </div>
-      </nav>
-
-      <section className="tdmd-hero">
-        <div className="tdmd-container">
-          <h1>{segment.h1}</h1>
-          <p className="tdmd-hero-sub">This page is coming soon. In the meantime, you can book a visit now.</p>
-          <div className="tdmd-hero-ctas" style={{ marginTop: '1.5rem' }}>
-            <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
-            <a href="/who-we-serve" className="tdmd-btn tdmd-btn-outline">Back to Who We Serve</a>
-          </div>
-        </div>
-      </section>
-    </>
-  );
 }
