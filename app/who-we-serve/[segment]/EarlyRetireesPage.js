@@ -2,6 +2,7 @@ export default function EarlyRetireesPage() {
   const baseUrl = 'https://teledirectmd.com';
   const pageUrl = `${baseUrl}/who-we-serve/early-retirees`;
   const today = new Date().toISOString().split('T')[0];
+  const pid = 'early-retirees';
 
   const conditions = [
     { name: 'Hypertension / High Blood Pressure', slug: 'hypertension-refills-online', desc: 'Ongoing blood pressure monitoring and medication refills — no need to wait weeks for a new PCP.' },
@@ -14,24 +15,6 @@ export default function EarlyRetireesPage() {
     { name: 'UTI / Urinary Tract Infection', slug: 'uti-treatment-online', desc: 'Fast antibiotic prescription — common in this age group, no need for an in-person visit.' },
     { name: 'Sinus Infection', slug: 'sinus-infection-treatment-online', desc: 'Evaluation and treatment for acute sinusitis.' },
     { name: 'Skin Conditions / Rashes', slug: 'skin-infection-treatment-online', desc: 'Evaluation of skin infections, rashes, and minor dermatologic concerns via video.' },
-  ];
-
-  const coverageOptions = [
-    { option: 'COBRA', cost: '~$700–$1,400/mo', note: 'For a single person; covers only 18 months' },
-    { option: 'ACA Marketplace Plan (Bronze)', cost: '~$400–$700/mo', note: 'High deductible; subsidies expiring post-2025' },
-    { option: 'ACA Marketplace Plan (Silver)', cost: '~$600–$900/mo', note: 'Moderate deductible; most common choice' },
-    { option: 'TeleDirectMD', cost: '$49/visit', note: 'Pay only when you need care — no monthly premium' },
-  ];
-
-  const featuredStates = [
-    { name: 'Florida', slug: 'fl' },
-    { name: 'Arizona', slug: 'az' },
-    { name: 'Georgia', slug: 'ga' },
-    { name: 'Texas', slug: 'tx' },
-    { name: 'North Carolina', slug: 'nc' },
-    { name: 'Tennessee', slug: 'tn' },
-    { name: 'South Carolina', slug: 'sc' },
-    { name: 'Colorado', slug: 'co' },
   ];
 
   const faqItems = [
@@ -69,6 +52,52 @@ export default function EarlyRetireesPage() {
     },
   ];
 
+  const allStates = [
+    { abbr: 'AL', name: 'Alabama' },
+    { abbr: 'AZ', name: 'Arizona' },
+    { abbr: 'CA', name: 'California' },
+    { abbr: 'CO', name: 'Colorado' },
+    { abbr: 'CT', name: 'Connecticut' },
+    { abbr: 'DE', name: 'Delaware' },
+    { abbr: 'FL', name: 'Florida' },
+    { abbr: 'GA', name: 'Georgia' },
+    { abbr: 'HI', name: 'Hawaii' },
+    { abbr: 'ID', name: 'Idaho' },
+    { abbr: 'IL', name: 'Illinois' },
+    { abbr: 'IN', name: 'Indiana' },
+    { abbr: 'IA', name: 'Iowa' },
+    { abbr: 'KS', name: 'Kansas' },
+    { abbr: 'KY', name: 'Kentucky' },
+    { abbr: 'LA', name: 'Louisiana' },
+    { abbr: 'ME', name: 'Maine' },
+    { abbr: 'MD', name: 'Maryland' },
+    { abbr: 'MI', name: 'Michigan' },
+    { abbr: 'MN', name: 'Minnesota' },
+    { abbr: 'MS', name: 'Mississippi' },
+    { abbr: 'MO', name: 'Missouri' },
+    { abbr: 'MT', name: 'Montana' },
+    { abbr: 'NE', name: 'Nebraska' },
+    { abbr: 'NV', name: 'Nevada' },
+    { abbr: 'NH', name: 'New Hampshire' },
+    { abbr: 'NJ', name: 'New Jersey' },
+    { abbr: 'NC', name: 'North Carolina' },
+    { abbr: 'ND', name: 'North Dakota' },
+    { abbr: 'OH', name: 'Ohio' },
+    { abbr: 'OK', name: 'Oklahoma' },
+    { abbr: 'PA', name: 'Pennsylvania' },
+    { abbr: 'SC', name: 'South Carolina' },
+    { abbr: 'SD', name: 'South Dakota' },
+    { abbr: 'TN', name: 'Tennessee' },
+    { abbr: 'TX', name: 'Texas' },
+    { abbr: 'UT', name: 'Utah' },
+    { abbr: 'WA', name: 'Washington' },
+    { abbr: 'WV', name: 'West Virginia' },
+    { abbr: 'WI', name: 'Wisconsin' },
+    { abbr: 'WY', name: 'Wyoming' },
+  ];
+
+  const stateAbbrList = allStates.map(s => s.abbr);
+
   const jsonLd = {
     "@context": "https://schema.org",
     "@graph": [
@@ -89,15 +118,16 @@ export default function EarlyRetireesPage() {
         "telephone": "+1-678-956-1855",
         "medicalSpecialty": "GeneralPractice",
         "availableService": { "@type": "MedicalTherapy", "name": "Telehealth Consultations" },
-        "areaServed": ["AL","AZ","CA","CO","CT","DE","FL","GA","HI","ID","IL","IN","IA","KS","KY","LA","ME","MD","MI","MN","MS","MO","MT","NE","NV","NH","NJ","NC","ND","OH","OK","PA","SC","SD","TN","TX","UT","WA","WV","WI","WY"]
+        "areaServed": stateAbbrList
       },
       {
         "@type": "Physician",
         "@id": `${baseUrl}/about#physician`,
         "name": "Parth Bhavsar, MD",
         "medicalSpecialty": "FamilyMedicine",
+        "alumniOf": { "@type": "EducationalOrganization", "name": "University of Mississippi Medical Center" },
         "worksFor": { "@type": "MedicalOrganization", "name": "TeleDirectMD" },
-        "licensedIn": ["AL","AZ","CA","CO","CT","DE","FL","GA","HI","ID","IL","IN","IA","KS","KY","LA","ME","MD","MI","MN","MS","MO","MT","NE","NV","NH","NJ","NC","ND","OH","OK","PA","SC","SD","TN","TX","UT","WA","WV","WI","WY"]
+        "licensedIn": stateAbbrList
       },
       {
         "@type": "FAQPage",
@@ -112,22 +142,24 @@ export default function EarlyRetireesPage() {
         "@type": "MedicalWebPage",
         "@id": `${pageUrl}#webpage`,
         "url": pageUrl,
-        "name": "Telehealth for Early Retirees — Affordable Care Before Medicare Begins",
-        "description": "TeleDirectMD offers $49 flat-fee telehealth visits for early retirees in the pre-Medicare coverage gap. Chronic condition management, prescription refills, and more. 42 states.",
+        "name": "Telehealth for Early Retirees — Affordable Care Before Medicare at 65",
+        "description": "TeleDirectMD offers $49 flat-fee telehealth for early retirees in the pre-Medicare gap (ages 55–64). Chronic condition management, prescription refills, and same-day visits in 42 states. No insurance required.",
         "datePublished": "2026-04-20",
         "dateModified": today,
         "author": { "@type": "Physician", "name": "Parth Bhavsar, MD" },
-        "speakable": { "@type": "SpeakableSpecification", "cssSelector": [".tdmd-hero h1", ".tdmd-lead"] }
+        "speakable": { "@type": "SpeakableSpecification", "cssSelector": [".tdmd-answer-block"] }
       }
     ]
   };
 
   return (
     <>
+      {/* Section 0: JSON-LD */}
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
 
+      {/* Section 1: Breadcrumb */}
       <nav className="tdmd-breadcrumbs" aria-label="Breadcrumb">
-        <div className="tdmd-container" style={{ paddingTop: '0.5rem', paddingBottom: '0' }}>
+        <div className="tdmd-container">
           <a href="/">Home</a>
           <span className="tdmd-bc-sep" aria-hidden="true">/</span>
           <a href="/who-we-serve">Who We Serve</a>
@@ -136,139 +168,741 @@ export default function EarlyRetireesPage() {
         </div>
       </nav>
 
-      <section className="tdmd-hero">
+      {/* Section 2: Answer Block */}
+      <div className="tdmd-answer-block" data-speakable="true" style={{
+        background: '#EAF7F8', borderLeft: '4px solid #006B73',
+        padding: '1rem 1.25rem', margin: '0 0 0', lineHeight: 1.6
+      }}>
         <div className="tdmd-container">
-          <h1>Telehealth for Early Retirees — Affordable Care Before Medicare Begins</h1>
-          <p className="tdmd-hero-sub tdmd-lead">
-            Retired before 65 and navigating the coverage gap? TeleDirectMD offers a $49 flat-fee telehealth visit with a board-certified Family Medicine physician — often cheaper than your high-deductible plan's cost for the same visit. No referrals, no prior authorization, no surprise bills.
+          <p style={{ margin: 0, fontWeight: 700, color: '#003E52', fontSize: '1.05rem' }}>
+            Telehealth for early retirees in the pre-Medicare gap:
           </p>
-          <ul className="tdmd-hero-bullets">
-            <li>$49 flat fee — often less than your ACA plan deductible visit cost</li>
-            <li>Chronic condition management: hypertension, diabetes, cholesterol, thyroid</li>
-            <li>Prescription refills when your old PCP is unavailable</li>
-            <li>Licensed in 42 states — perfect for retirees who split time between states</li>
-            <li>Same-day visits, evenings &amp; weekends</li>
-          </ul>
-          <div className="tdmd-hero-ctas">
-            <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit — $49</a>
-            <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">See What We Treat</a>
+          <p style={{ margin: '0.35rem 0 0', color: '#003E52', fontSize: '0.97rem' }}>
+            TeleDirectMD offers $49 flat-fee video visits with a board-certified Family Medicine physician for early retirees navigating the 55–64 coverage gap — managing chronic conditions like hypertension, diabetes, and high cholesterol, with prescription refills sent to any pharmacy in 42 states. No insurance required.
+          </p>
+        </div>
+      </div>
+
+      {/* Section 3: Hero — Dual Column */}
+      <section id={`${pid}-hero`} className="tdmd-hero">
+        <div className="tdmd-container">
+          <div className="tdmd-hero-grid">
+            <div className="tdmd-hero-copy">
+              <h1>Telehealth for Early Retirees — Affordable Care in the Pre-Medicare Gap</h1>
+              <p className="tdmd-hero-sub">
+                Retired before 65 and facing the coverage gap? TeleDirectMD provides $49 flat-fee video visits with a board-certified Family Medicine physician — chronic condition management, prescription refills, and acute care in 42 states. No referrals. No prior authorization. No surprise bills.
+              </p>
+              <p>
+                The average American retires at <strong>62</strong>. Medicare begins at <strong>65</strong>. That three-year structural gap — often filled with expensive COBRA, high-deductible ACA plans, or no coverage at all — is exactly where TeleDirectMD fits. For the routine visits that make up the vast majority of healthcare needs, a $49 flat-fee telehealth visit is frequently the most economical and fastest option available.
+              </p>
+
+              <nav className="tdmd-toc" aria-label="Page contents">
+                <p className="tdmd-toc-intro">On this page:</p>
+                <ul>
+                  <li><a href={`#${pid}-eligibility`}>Who Is Eligible</a></li>
+                  <li><a href={`#${pid}-how-it-works`}>How It Works</a></li>
+                  <li><a href={`#${pid}-coverage-gap`}>The Pre-Medicare Coverage Gap</a></li>
+                  <li><a href={`#${pid}-comparison-table`}>Coverage Option Comparison</a></li>
+                  <li><a href={`#${pid}-decision-guide`}>Decision Guide</a></li>
+                  <li><a href={`#${pid}-cost`}>Cost Breakdown</a></li>
+                  <li><a href={`#${pid}-conditions`}>Conditions We Manage</a></li>
+                  <li><a href={`#${pid}-symptoms-table`}>Symptoms & Warning Signs</a></li>
+                  <li><a href={`#${pid}-what-we-provide`}>What TeleDirectMD Provides</a></li>
+                  <li><a href={`#${pid}-medications`}>Medications & Services</a></li>
+                  <li><a href={`#${pid}-home-care`}>Between Visits — Monitoring</a></li>
+                  <li><a href={`#${pid}-when-not`}>When NOT to Use TeleDirectMD</a></li>
+                  <li><a href={`#${pid}-faq`}>Frequently Asked Questions</a></li>
+                  <li><a href={`#${pid}-states`}>States We Serve</a></li>
+                </ul>
+              </nav>
+
+              <ul className="tdmd-hero-benefits">
+                <li>$49 flat fee — often less than your ACA or COBRA visit cost before deductible</li>
+                <li>Chronic condition management: hypertension, diabetes, cholesterol, thyroid, GERD, anxiety</li>
+                <li>Prescription refills when your old PCP retired, moved, or is unavailable</li>
+                <li>Licensed in 42 states — follows you wherever you retire or split time</li>
+                <li>Same-day availability, evenings and weekends</li>
+                <li>No insurance required — direct-pay, transparent flat fee</li>
+              </ul>
+
+              <div className="tdmd-hero-ctas">
+                <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit — $49</a>
+                <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">See What We Treat</a>
+              </div>
+
+              <p className="tdmd-reviewed">Last reviewed by Parth Bhavsar, MD · Updated {today}</p>
+            </div>
+
+            <div className="tdmd-hero-side">
+              <div className="tdmd-hero-card">
+                <h2>What You Get for $49</h2>
+                <ul>
+                  <li>Video visit with board-certified Family Medicine MD</li>
+                  <li>Chronic condition evaluation and management</li>
+                  <li>Prescription refills sent to any pharmacy</li>
+                  <li>Lab review and medication adjustments</li>
+                  <li>No insurance card required</li>
+                  <li>HIPAA-compliant medical records</li>
+                </ul>
+                <p className="tdmd-comparison-note">Often less than your high-deductible plan co-pay for the same visit.</p>
+              </div>
+            </div>
           </div>
-          <p className="tdmd-review-date">Medically reviewed by Parth Bhavsar, MD · Updated {today}</p>
         </div>
       </section>
 
-      {/* The gap */}
-      <section className="tdmd-section tdmd-bg-light">
+      {/* Section 4: Eligibility Checklist */}
+      <section id={`${pid}-eligibility`} className="tdmd-section">
         <div className="tdmd-container">
-          <h2>The Pre-Medicare Coverage Gap — What It Actually Costs</h2>
-          <p>The average US retirement age is <strong>62</strong>. Medicare doesn't start until <strong>65</strong>. That's a structural three-year gap that millions of Americans navigate every year — often with expensive, high-deductible coverage or no coverage at all.</p>
-          <div style={{ overflowX: 'auto', marginTop: '1.5rem' }}>
-            <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '0.94rem' }}>
+          <h2>Are You Eligible?</h2>
+          <div className="tdmd-grid tdmd-grid-2">
+            <div className="tdmd-card tdmd-card-good">
+              <h3>✓ You Are Eligible If</h3>
+              <ul className="tdmd-checklist tdmd-checklist--good">
+                <li>You are between ages 55–64 and not yet on Medicare</li>
+                <li>You are physically located in one of our 42 licensed states at the time of the visit</li>
+                <li>You have a chronic condition (hypertension, diabetes, cholesterol, thyroid, GERD, anxiety) needing management</li>
+                <li>You need prescription refills after a PCP transition, relocation, or coverage change</li>
+                <li>You have an acute condition (UTI, sinus infection, respiratory illness) that can be evaluated via video</li>
+                <li>You have a high-deductible plan and direct-pay is more economical for this visit</li>
+              </ul>
+            </div>
+            <div className="tdmd-card tdmd-card-alert">
+              <h3>✗ You Are Not Eligible If</h3>
+              <ul className="tdmd-checklist tdmd-checklist--alert">
+                <li>You are experiencing a medical emergency → call 911 or go to the ER</li>
+                <li>Your condition requires in-person physical examination, imaging, or urgent lab work</li>
+                <li>You need a controlled substance prescription (not within our scope)</li>
+                <li>You have an unstable chronic condition requiring in-person specialist management</li>
+              </ul>
+              <p className="tdmd-card-disclaimer">TeleDirectMD is a complement to, not a replacement for, comprehensive major medical coverage.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Section 5: How It Works */}
+      <section id={`${pid}-how-it-works`} className="tdmd-section tdmd-section-highlight">
+        <div className="tdmd-container">
+          <h2>How It Works — Three Steps</h2>
+          <div className="tdmd-decision-flow">
+            <div className="tdmd-decision-step tdmd-decision-step-good">
+              <div className="tdmd-decision-number">1</div>
+              <div className="tdmd-decision-content">
+                <h3>Book &amp; Pay ($49)</h3>
+                <p>Select same-day or next-available appointment online. No referral required, no prior authorization, no insurance pre-check. Pay the $49 flat fee at booking.</p>
+              </div>
+            </div>
+            <div className="tdmd-decision-step tdmd-decision-step-good">
+              <div className="tdmd-decision-number">2</div>
+              <div className="tdmd-decision-content">
+                <h3>Complete Intake &amp; Connect</h3>
+                <p>Fill out a short symptom and medication form, then join a secure video visit from your phone or laptop. Bring your current medication list and any recent lab results.</p>
+              </div>
+            </div>
+            <div className="tdmd-decision-step tdmd-decision-step-good">
+              <div className="tdmd-decision-number">3</div>
+              <div className="tdmd-decision-content">
+                <h3>Get Your Treatment Plan &amp; Prescription</h3>
+                <p>Dr. Bhavsar reviews your history, adjusts medications as needed, and sends prescriptions electronically to your pharmacy. Most visits take 10–15 minutes. A HIPAA-compliant visit summary is sent to you after the visit.</p>
+              </div>
+            </div>
+          </div>
+          <div className="tdmd-decision-cta">
+            <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit — $49</a>
+          </div>
+        </div>
+      </section>
+
+      {/* Section 6: Pre-Medicare Coverage Gap — Structural Reality */}
+      <section id={`${pid}-coverage-gap`} className="tdmd-section">
+        <div className="tdmd-container">
+          <h2>The Pre-Medicare Coverage Gap — The Structural Reality</h2>
+          <p>
+            According to Social Security Administration data, the average US retirement age is <strong>62</strong>. Medicare begins at <strong>65</strong>. That is a three-year structural coverage gap that millions of Americans navigate every year — and it falls during a phase of life when chronic conditions are accelerating, not receding.
+          </p>
+          <p>
+            COBRA continuation coverage is available for up to 18 months after leaving employer-sponsored insurance — but it costs <strong>$700–$1,400 per month</strong> for a single person, as you pay both the employee and employer share of the premium. The ACA marketplace offers an alternative, but many early retirees find themselves with a Bronze plan carrying a $5,000–$8,000 deductible, meaning they are effectively paying cash-equivalent rates for every routine visit until they meet that deductible. Silver plans reduce the deductible but cost $600–$900 per month. Enhanced subsidies introduced post-COVID are subject to legislative renewal and are not guaranteed past 2025.
+          </p>
+          <p>
+            The result: millions of early retirees are paying cash-equivalent out-of-pocket costs for routine primary care visits — the very visits that are most predictable and most necessary. A single primary care appointment on a pre-deductible high-deductible plan typically costs $150–$300. TeleDirectMD's $49 flat fee is frequently less than the out-of-pocket cost of an in-network visit under those same plans.
+          </p>
+          <p>
+            TeleDirectMD does not replace major medical coverage — but for the routine, predictable visits that represent the vast majority of healthcare utilization in this age group, it is often the most economical and most accessible option available.
+          </p>
+        </div>
+      </section>
+
+      {/* Section 7: Coverage Option Comparison Table */}
+      <section id={`${pid}-comparison-table`} className="tdmd-section tdmd-section-highlight">
+        <div className="tdmd-container">
+          <h2>Coverage Option Comparison</h2>
+          <div className="tdmd-table-wrap">
+            <table className="tdmd-table">
               <thead>
-                <tr style={{ background: 'var(--tdmd-navy)', color: '#fff' }}>
-                  <th style={{ padding: '0.75rem 1rem', textAlign: 'left' }}>Coverage Option</th>
-                  <th style={{ padding: '0.75rem 1rem', textAlign: 'left' }}>Monthly Cost</th>
-                  <th style={{ padding: '0.75rem 1rem', textAlign: 'left' }}>Notes</th>
+                <tr>
+                  <th>Coverage Option</th>
+                  <th>Monthly Cost</th>
+                  <th>Visit Cost to You</th>
+                  <th>Best For</th>
                 </tr>
               </thead>
               <tbody>
-                {coverageOptions.map((row, i) => (
-                  <tr key={row.option} style={{ background: i % 2 === 0 ? '#fff' : 'var(--tdmd-bg-light)' }}>
-                    <td style={{ padding: '0.75rem 1rem', fontWeight: row.option === 'TeleDirectMD' ? '700' : '400', color: row.option === 'TeleDirectMD' ? 'var(--tdmd-teal)' : 'inherit' }}>{row.option}</td>
-                    <td style={{ padding: '0.75rem 1rem', fontWeight: '600' }}>{row.cost}</td>
-                    <td style={{ padding: '0.75rem 1rem', color: 'var(--tdmd-muted)' }}>{row.note}</td>
-                  </tr>
-                ))}
+                <tr>
+                  <td>COBRA</td>
+                  <td>~$700–$1,400/mo</td>
+                  <td>Co-pay + deductible (varies)</td>
+                  <td>Continuing employer plan up to 18 months</td>
+                </tr>
+                <tr>
+                  <td>ACA Bronze Plan</td>
+                  <td>~$400–$700/mo</td>
+                  <td>High deductible ($5,000–$8,000) before coverage</td>
+                  <td>Low premium, high out-of-pocket tolerance</td>
+                </tr>
+                <tr>
+                  <td>ACA Silver Plan</td>
+                  <td>~$600–$900/mo</td>
+                  <td>Moderate deductible ($2,500–$4,000)</td>
+                  <td>Most common choice; balance of cost/coverage</td>
+                </tr>
+                <tr className="tdmd-row-highlight">
+                  <td><strong>TeleDirectMD</strong></td>
+                  <td><strong>$0/mo premium</strong></td>
+                  <td><strong>$49 flat fee per visit</strong></td>
+                  <td>Routine and urgent care between plans or alongside high-deductible plan</td>
+                </tr>
               </tbody>
             </table>
           </div>
-          <p style={{ marginTop: '1rem', fontSize: '0.9rem', color: 'var(--tdmd-muted)' }}>TeleDirectMD is a complement to your coverage strategy, not a replacement for major medical insurance. Use it for routine and urgent care visits where direct-pay is more economical than your plan's cost-sharing.</p>
+          <p className="tdmd-comparison-note">
+            TeleDirectMD is not a replacement for major medical coverage — but for the routine visits that make up 90% of healthcare needs, it is often the most economical option when you are pre-Medicare.
+          </p>
         </div>
       </section>
 
-      {/* Conditions */}
-      <section className="tdmd-section">
+      {/* Section 8: Decision Guide */}
+      <section id={`${pid}-decision-guide`} className="tdmd-section">
         <div className="tdmd-container">
-          <h2>Conditions We Commonly Manage for Early Retirees</h2>
-          <div className="tdmd-card-grid">
+          <h2>Decision Guide — Where to Get Care</h2>
+          <p>Use this guide when you have a health concern and are not sure where to go.</p>
+          <div className="tdmd-decision-flow">
+            <div className="tdmd-decision-step">
+              <div className="tdmd-decision-number">1</div>
+              <div className="tdmd-decision-content">
+                <h3>Is it a medical emergency?</h3>
+                <p>Chest pain, stroke symptoms, severe shortness of breath, uncontrolled bleeding, loss of consciousness, or any life-threatening situation.</p>
+                <p><strong>YES →</strong> Call 911 or go to the nearest emergency room immediately. Do not book a telehealth visit.</p>
+                <p><strong>NO →</strong> Continue to Step 2.</p>
+              </div>
+            </div>
+            <div className="tdmd-decision-step tdmd-decision-step-good">
+              <div className="tdmd-decision-number">2</div>
+              <div className="tdmd-decision-content">
+                <h3>Is it a chronic condition visit?</h3>
+                <p>Blood pressure medication refill or adjustment, diabetes check, cholesterol management, thyroid medication, anxiety management, GERD.</p>
+                <p><strong>YES →</strong> Book TeleDirectMD. This is our core service for early retirees.</p>
+                <p><strong>NO →</strong> Continue to Step 3.</p>
+              </div>
+            </div>
+            <div className="tdmd-decision-step tdmd-decision-step-good">
+              <div className="tdmd-decision-number">3</div>
+              <div className="tdmd-decision-content">
+                <h3>Is it an acute condition?</h3>
+                <p>UTI, sinus infection, strep throat, skin rash, skin infection, respiratory illness, ear infection.</p>
+                <p><strong>YES →</strong> Book TeleDirectMD. Most acute infections can be evaluated and treated via video.</p>
+                <p><strong>NO →</strong> Continue to Step 4.</p>
+              </div>
+            </div>
+            <div className="tdmd-decision-step">
+              <div className="tdmd-decision-number">4</div>
+              <div className="tdmd-decision-content">
+                <h3>Does it require in-person exam, imaging, or specialist?</h3>
+                <p>Physical examination, X-ray or imaging, blood draw required urgently, specialist diagnosis requiring hands-on evaluation.</p>
+                <p><strong>YES →</strong> In-person care is appropriate. We will tell you directly if this applies during your intake.</p>
+                <p><strong>NO →</strong> Book TeleDirectMD.</p>
+              </div>
+            </div>
+          </div>
+          <div className="tdmd-decision-cta">
+            <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit — $49</a>
+          </div>
+        </div>
+      </section>
+
+      {/* Section 9: Cost Breakdown */}
+      <section id={`${pid}-cost`} className="tdmd-section tdmd-section-highlight">
+        <div className="tdmd-container">
+          <h2>Cost Breakdown</h2>
+          <div className="tdmd-price-grid">
+            <div className="tdmd-price-card">
+              <div className="tdmd-price-big">$49</div>
+              <div className="tdmd-price-sub">One flat fee covers the entire visit</div>
+              <ul className="tdmd-price-includes">
+                <li>Video visit with board-certified MD</li>
+                <li>Medication review and management</li>
+                <li>Prescription to any US pharmacy</li>
+                <li>Lab value review (bring your recent labs)</li>
+                <li>HIPAA-compliant visit summary</li>
+              </ul>
+            </div>
+          </div>
+
+          <div className="tdmd-price-chart">
+            <div className="tdmd-bar-row">
+              <span className="tdmd-bar-label">TeleDirectMD</span>
+              <div className="tdmd-bar-track">
+                <div className="tdmd-bar-fill tdmd-bar-fill-tdmd" style={{ width: '4%' }}></div>
+              </div>
+              <span>$49</span>
+            </div>
+            <div className="tdmd-bar-row">
+              <span className="tdmd-bar-label">ACA Silver PCP (after deductible met)</span>
+              <div className="tdmd-bar-track">
+                <div className="tdmd-bar-fill" style={{ width: '5%' }}></div>
+              </div>
+              <span>$30–$60 co-pay</span>
+            </div>
+            <div className="tdmd-bar-row">
+              <span className="tdmd-bar-label">In-Network PCP (pre-deductible)</span>
+              <div className="tdmd-bar-track">
+                <div className="tdmd-bar-fill" style={{ width: '23%' }}></div>
+              </div>
+              <span>$150–$300</span>
+            </div>
+            <div className="tdmd-bar-row">
+              <span className="tdmd-bar-label">Urgent Care (cash pay)</span>
+              <div className="tdmd-bar-track">
+                <div className="tdmd-bar-fill" style={{ width: '23%' }}></div>
+              </div>
+              <span>$150–$300</span>
+            </div>
+            <div className="tdmd-bar-row">
+              <span className="tdmd-bar-label">COBRA In-Person (pre-deductible)</span>
+              <div className="tdmd-bar-track">
+                <div className="tdmd-bar-fill" style={{ width: '31%' }}></div>
+              </div>
+              <span>$200–$400</span>
+            </div>
+          </div>
+
+          <p className="tdmd-cost-note">
+            On a $6,000 deductible plan, you are paying cash-equivalent rates for every visit until you hit the deductible. TeleDirectMD's $49 is often the most economical option for routine care.
+          </p>
+        </div>
+      </section>
+
+      {/* Section 10: What Is the Pre-Medicare Gap — Educational */}
+      <section id={`${pid}-who-we-serve`} className="tdmd-section">
+        <div className="tdmd-container">
+          <h2>Who Are Early Retirees — The Most Underserved Pre-Medicare Cohort</h2>
+          <p>
+            Early retirees between the ages of 55 and 64 are the most medically complex working-age group in America. Hypertension affects approximately 65% of adults in this age range. One in four has type 2 diabetes. Hyperlipidemia is nearly universal by the mid-60s. Thyroid disease, GERD, osteoarthritis, and anxiety disorders are also densely concentrated in this cohort — making routine, ongoing medical management a consistent need, not a periodic one.
+          </p>
+          <p>
+            Yet this group sits in a structural coverage limbo. Too young for Medicare. Often off employer-sponsored insurance after retirement. Facing COBRA costs that exceed $700–$1,400 per month for an individual. Navigating ACA marketplace plans with deductibles of $5,000–$8,000 that leave them effectively paying cash rates for routine visits. No major telehealth platform has built dedicated infrastructure for this population — leaving them to navigate a system built for either the insured employed or the Medicare-eligible elderly.
+          </p>
+          <p>
+            TeleDirectMD was built for continuity during this gap. Not to replace the specialist or the annual in-person physical — but to keep chronic conditions stable, medications filled, and acute issues addressed without the friction, cost, and delay of the traditional system. For early retirees, $49 per visit is not just convenient — it is often the most rational economic choice given the cost structure of available coverage options.
+          </p>
+        </div>
+      </section>
+
+      {/* Section 11: Chronic Conditions — 2-column grid */}
+      <section id={`${pid}-conditions`} className="tdmd-section tdmd-section-highlight">
+        <div className="tdmd-container">
+          <h2>Chronic Conditions We Manage for Early Retirees</h2>
+          <p>These are the conditions most commonly managed for the 55–64 age group. All can be evaluated and managed via secure video visit.</p>
+          <div className="tdmd-grid tdmd-grid-2">
             {conditions.map(c => (
-              <a key={c.slug} href={`/what-we-treat/${c.slug}`} className="tdmd-card tdmd-card-link">
-                <h3 style={{ fontSize: '1rem', marginBottom: '0.4rem' }}>{c.name}</h3>
-                <p style={{ fontSize: '0.88rem', color: 'var(--tdmd-muted)' }}>{c.desc}</p>
-              </a>
+              <div key={c.slug} className="tdmd-card">
+                <h3>{c.name}</h3>
+                <p>{c.desc}</p>
+              </div>
             ))}
           </div>
-          <p style={{ marginTop: '1.5rem' }}><a href="/what-we-treat">View all 60 conditions we treat →</a></p>
+          <p><a href="/what-we-treat">View all 60 conditions we treat →</a></p>
         </div>
       </section>
 
-      {/* Scenario */}
-      <section className="tdmd-section tdmd-bg-light">
+      {/* Section 12: Symptoms & Warning Signs Table */}
+      <section id={`${pid}-symptoms-table`} className="tdmd-section">
         <div className="tdmd-container">
-          <h2>A Common Scenario</h2>
-          <blockquote style={{ borderLeft: '4px solid var(--tdmd-teal)', paddingLeft: '1.25rem', margin: '1.5rem 0', fontStyle: 'italic', color: 'var(--tdmd-muted)' }}>
-            "You retired at 63, moved to Florida, and enrolled in an ACA bronze plan with a $6,000 deductible. Your blood pressure prescription runs out and your old internist back home won't renew remotely. A new PCP appointment is 6 weeks out. You book a TeleDirectMD visit for $49, Dr. Bhavsar reviews your history and labs, adjusts your medication, and sends the prescription to the Walgreens near your new home."
-          </blockquote>
-          <p>This is one of the most common situations we see. TeleDirectMD bridges the gap between where your old care was and where your new care hasn't started yet.</p>
-        </div>
-      </section>
-
-      {/* States */}
-      <section className="tdmd-section">
-        <div className="tdmd-container">
-          <h2>Licensed Across Top Retirement Destinations</h2>
-          <p>Retiring to the Sun Belt? Splitting time between states? TeleDirectMD is licensed in 42 states including every major retirement destination.</p>
-          <div className="tdmd-state-pills" style={{ display: 'flex', flexWrap: 'wrap', gap: '0.5rem', marginTop: '1rem' }}>
-            {featuredStates.map(s => (
-              <a key={s.slug} href={`/${s.slug}`} className="tdmd-state-pill">{s.name}</a>
-            ))}
+          <h2>Symptoms, Warning Signs, and When to Escalate</h2>
+          <div className="tdmd-table-wrap">
+            <table className="tdmd-table">
+              <thead>
+                <tr>
+                  <th>Condition</th>
+                  <th>Typical Symptoms</th>
+                  <th>Telehealth Appropriate?</th>
+                  <th>When to Go In-Person</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Hypertension</td>
+                  <td>Headache; usually no symptoms until complications</td>
+                  <td>Yes — medication refill/adjustment</td>
+                  <td>BP &gt;180/120 with symptoms (hypertensive emergency → ER); severe headache with visual changes</td>
+                </tr>
+                <tr>
+                  <td>Type 2 Diabetes</td>
+                  <td>Fatigue, thirst, frequent urination</td>
+                  <td>Yes — medication management, HbA1c review</td>
+                  <td>Blood glucose uncontrolled &gt;400, DKA symptoms, severe hypoglycemia</td>
+                </tr>
+                <tr>
+                  <td>Hyperlipidemia</td>
+                  <td>Typically asymptomatic</td>
+                  <td>Yes — medication refill with lab review</td>
+                  <td>Chest pain (possible cardiac event → 911)</td>
+                </tr>
+                <tr>
+                  <td>GERD / Acid Reflux</td>
+                  <td>Heartburn, regurgitation, throat burning</td>
+                  <td>Yes — PPI management</td>
+                  <td>Difficulty swallowing, weight loss, vomiting blood</td>
+                </tr>
+                <tr>
+                  <td>Anxiety</td>
+                  <td>Worry, tension, sleep disturbance</td>
+                  <td>Yes — non-controlled medication management</td>
+                  <td>Severe panic with cardiac symptoms (rule out cardiac → ER)</td>
+                </tr>
+                <tr>
+                  <td>UTI</td>
+                  <td>Burning urination, frequency, urgency</td>
+                  <td>Yes — antibiotic prescription</td>
+                  <td>Fever &gt;101°F, back or flank pain (kidney involvement → in-person)</td>
+                </tr>
+                <tr>
+                  <td>Thyroid</td>
+                  <td>Fatigue, weight changes, temperature sensitivity</td>
+                  <td>Yes — medication refill/dose adjustment with labs</td>
+                  <td>Severe symptoms suggesting thyroid crisis or new significant changes</td>
+                </tr>
+              </tbody>
+            </table>
           </div>
-          <p style={{ marginTop: '1rem' }}><a href="/states-we-serve">View all 42 states →</a></p>
         </div>
       </section>
 
-      {/* FAQ */}
-      <section className="tdmd-section tdmd-bg-light">
+      {/* Section 13: Telehealth Appropriate vs. Requires In-Person */}
+      <section id={`${pid}-appropriate`} className="tdmd-section tdmd-section-highlight">
+        <div className="tdmd-container">
+          <h2>Telehealth-Appropriate vs. Requires In-Person Care</h2>
+          <div className="tdmd-grid tdmd-grid-2">
+            <div className="tdmd-card tdmd-card-good">
+              <h3>Telehealth-Appropriate for Early Retirees</h3>
+              <ul className="tdmd-checklist tdmd-checklist--good">
+                <li>Hypertension medication refill and adjustment</li>
+                <li>Diabetes medication management</li>
+                <li>Cholesterol statin refill</li>
+                <li>Thyroid medication continuity</li>
+                <li>Acid reflux / GERD management</li>
+                <li>Anxiety medication management (non-controlled)</li>
+                <li>UTI, sinus infection, strep, skin infections</li>
+                <li>Prescription refills during PCP transitions</li>
+              </ul>
+            </div>
+            <div className="tdmd-card tdmd-card-alert">
+              <h3>Requires In-Person or Emergency Care</h3>
+              <ul className="tdmd-checklist tdmd-checklist--alert">
+                <li>BP crisis &gt;180/120 with symptoms → ER</li>
+                <li>Chest pain or pressure → 911</li>
+                <li>Suspected cardiac event → 911</li>
+                <li>Stroke symptoms → 911</li>
+                <li>Uncontrolled diabetes with DKA</li>
+                <li>New cardiac symptoms requiring workup</li>
+                <li>Major medication changes requiring in-person labs</li>
+                <li>Complex specialist referrals and new diagnoses</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Section 14: What TeleDirectMD Provides */}
+      <section id={`${pid}-what-we-provide`} className="tdmd-section">
+        <div className="tdmd-container">
+          <h2>What TeleDirectMD Provides for Early Retirees</h2>
+          <p>
+            Dr. Parth Bhavsar, MD is a board-certified Family Medicine physician with residency training at the University of Mississippi Medical Center. He provides the following services for early retirees navigating the pre-Medicare gap:
+          </p>
+
+          <div className="tdmd-grid tdmd-grid-2">
+            <div className="tdmd-card">
+              <h3>Chronic Condition Management</h3>
+              <p>Dr. Bhavsar evaluates your current medications, reviews any recent labs you can share, and makes evidence-based adjustments for hypertension, diabetes, hyperlipidemia, thyroid, and GERD. Regular follow-up visits keep conditions stable between in-person appointments.</p>
+            </div>
+            <div className="tdmd-card">
+              <h3>Prescription Continuity</h3>
+              <p>If your PCP retired, you have moved states, or your coverage changed, TeleDirectMD can bridge your prescriptions for most chronic medications while you establish with a new provider. Prescriptions are sent electronically to any US pharmacy.</p>
+            </div>
+            <div className="tdmd-card">
+              <h3>Acute Care</h3>
+              <p>UTIs, sinus infections, respiratory infections, skin conditions — the acute visits that cannot wait weeks for a new PCP appointment. Most acute infections are evaluable and treatable via video visit.</p>
+            </div>
+            <div className="tdmd-card">
+              <h3>Visit Documentation</h3>
+              <p>A HIPAA-compliant visit summary and prescription record are provided after every visit, suitable for your personal records or for your new provider's onboarding when you establish with a local PCP.</p>
+            </div>
+          </div>
+
+          <div className="tdmd-card tdmd-card-alert">
+            <h3>Does Not Manage</h3>
+            <ul className="tdmd-checklist tdmd-checklist--alert">
+              <li>Controlled substances (Schedule II–IV)</li>
+              <li>Conditions requiring urgent in-person labs or imaging</li>
+              <li>New specialist diagnoses requiring hands-on physical examination</li>
+              <li>Medical emergencies of any kind</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      {/* Section 15: Medications & Services Table */}
+      <section id={`${pid}-medications`} className="tdmd-section tdmd-section-highlight">
+        <div className="tdmd-container">
+          <h2>Medications &amp; Services We Provide</h2>
+          <div className="tdmd-table-wrap">
+            <table className="tdmd-table">
+              <thead>
+                <tr>
+                  <th>Medication / Service</th>
+                  <th>Conditions</th>
+                  <th>Notes</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>ACE inhibitors, ARBs, beta-blockers, diuretics</td>
+                  <td>Hypertension</td>
+                  <td>Refill or adjustment after evaluation</td>
+                </tr>
+                <tr>
+                  <td>Metformin, SGLT-2 inhibitors, GLP-1 agonists</td>
+                  <td>Type 2 Diabetes</td>
+                  <td>Oral medications; some injectables</td>
+                </tr>
+                <tr>
+                  <td>Statins (atorvastatin, rosuvastatin)</td>
+                  <td>Hyperlipidemia</td>
+                  <td>Refill with lab review recommended</td>
+                </tr>
+                <tr>
+                  <td>Levothyroxine</td>
+                  <td>Hypothyroidism</td>
+                  <td>Dose adjustment based on recent labs</td>
+                </tr>
+                <tr>
+                  <td>PPIs (omeprazole, pantoprazole)</td>
+                  <td>GERD / Acid Reflux</td>
+                  <td>Prescription-strength management</td>
+                </tr>
+                <tr>
+                  <td>SSRIs / SNRIs</td>
+                  <td>Anxiety</td>
+                  <td>Non-controlled; evaluation required</td>
+                </tr>
+                <tr>
+                  <td>Antibiotics (multiple)</td>
+                  <td>UTI, sinus, skin infections</td>
+                  <td>Appropriate antibiotic selection by clinical presentation</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="tdmd-cost-note">
+            Controlled substances (Schedule II–IV) are not prescribed. Insulin initiation requires in-person evaluation. TeleDirectMD does not replace your specialist or annual in-person physical.
+          </p>
+        </div>
+      </section>
+
+      {/* Section 16: Home Care & What to Monitor */}
+      <section id={`${pid}-home-care`} className="tdmd-section">
+        <div className="tdmd-container">
+          <h2>Between Visits — Monitoring and Self-Care</h2>
+
+          <div className="tdmd-grid tdmd-grid-2">
+            <div className="tdmd-card">
+              <h3>What to Track</h3>
+              <ul className="tdmd-checklist tdmd-checklist--good">
+                <li>Home blood pressure log — morning and evening readings daily</li>
+                <li>Blood glucose readings if diabetic</li>
+                <li>Symptom diary for any new or changing concerns</li>
+                <li>Medication list — keep it updated and bring it to every TeleDirectMD visit</li>
+                <li>Recent lab results — upload or share any HbA1c, lipid panel, or thyroid labs from the past 12 months</li>
+              </ul>
+            </div>
+            <div className="tdmd-card">
+              <h3>When to Escalate</h3>
+              <ul className="tdmd-checklist tdmd-checklist--alert">
+                <li>Blood pressure consistently &gt;150/95 despite medications → schedule a follow-up visit</li>
+                <li>Blood glucose consistently &gt;250 → call or schedule same-day</li>
+                <li>New chest pain, shortness of breath, or neurological symptoms → call 911 immediately</li>
+                <li>Medication side effects worsening → book a follow-up visit</li>
+              </ul>
+            </div>
+          </div>
+
+          <div className="tdmd-card">
+            <h3>When to Follow Up</h3>
+            <ul className="tdmd-checklist tdmd-checklist--good">
+              <li>Every 2–3 months for chronic condition check-ins</li>
+              <li>Immediately if prescriptions are running low — do not wait until you run out</li>
+              <li>After any ER or urgent care visit to review what happened and update your medication list</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      {/* Section 17: When NOT to Use TeleDirectMD */}
+      <section id={`${pid}-when-not`} className="tdmd-section tdmd-section-highlight">
+        <div className="tdmd-container">
+          <h2>When NOT to Use TeleDirectMD</h2>
+          <p>
+            TeleDirectMD is designed for routine, manageable conditions. It is not appropriate for emergencies or conditions requiring immediate in-person evaluation. We will always tell you directly during intake if your situation requires a different level of care.
+          </p>
+
+          <div className="tdmd-grid tdmd-grid-2">
+            <div className="tdmd-card tdmd-card-alert">
+              <h3>Do Not Use TeleDirectMD For</h3>
+              <ul className="tdmd-checklist tdmd-checklist--alert">
+                <li>Hypertensive emergency (BP &gt;180/120 with symptoms) → ER</li>
+                <li>Chest pain or suspected heart attack → 911</li>
+                <li>Stroke symptoms (facial drooping, arm weakness, speech difficulty) → 911</li>
+                <li>Diabetic ketoacidosis (DKA) → ER</li>
+                <li>Severe hypoglycemia → 911 or ER</li>
+                <li>Uncontrolled pain requiring emergency imaging</li>
+                <li>Any life-threatening emergency</li>
+              </ul>
+            </div>
+            <div className="tdmd-card">
+              <h3>Alternatives by Situation</h3>
+              <ul className="tdmd-checklist tdmd-checklist--good">
+                <li>Emergency → 911 / nearest emergency room</li>
+                <li>Urgent in-person need → Urgent Care center</li>
+                <li>Specialist care → request referral from your PCP or internist</li>
+                <li>Ongoing preventive care → annual in-person physical with PCP</li>
+                <li>Routine and acute care → TeleDirectMD, $49</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Section 18: FAQ */}
+      <section id={`${pid}-faq`} className="tdmd-section">
         <div className="tdmd-container">
           <h2>Frequently Asked Questions</h2>
-          <div className="tdmd-faq-list">
-            {faqItems.map((item, i) => (
-              <details key={i} className="tdmd-faq-item">
-                <summary className="tdmd-faq-q">{item.q}</summary>
-                <p className="tdmd-faq-a">{item.a}</p>
-              </details>
+          <div className="tdmd-faq">
+            <div className="tdmd-faq-list">
+              {faqItems.map((item, i) => (
+                <details key={i} className="tdmd-faq-item">
+                  <summary className="tdmd-faq-question">{item.q}</summary>
+                  <div className="tdmd-faq-answer">
+                    <p>{item.a}</p>
+                  </div>
+                </details>
+              ))}
+            </div>
+          </div>
+        </div>
+
+        <div className="tdmd-bottom-cta">
+          <div className="tdmd-container">
+            <div className="tdmd-bottom-cta-copy">
+              <h2>Ready to Bridge the Gap?</h2>
+              <p>$49 flat fee. Same-day availability. 42 states. No insurance required.</p>
+            </div>
+            <div className="tdmd-bottom-cta-actions">
+              <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit — $49</a>
+              <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">See What We Treat</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Section 19: References */}
+      <section id={`${pid}-references`} className="tdmd-section">
+        <div className="tdmd-container">
+          <h2>References</h2>
+          <ul className="tdmd-ref-list">
+            <li><a href="https://www.ssa.gov/policy/docs/chartbooks/fast_facts/2022/fast_facts22.html" target="_blank" rel="noopener noreferrer">Social Security Administration — Fast Facts &amp; Figures 2022 (Retirement Age Data)</a></li>
+            <li><a href="https://www.kff.org/medicare/issue-brief/medicare-and-the-pre-medicare-population/" target="_blank" rel="noopener noreferrer">Kaiser Family Foundation — Medicare and the Pre-Medicare Population</a></li>
+            <li><a href="https://www.cdc.gov/chronicdisease/resources/publications/factsheets/hypertension.htm" target="_blank" rel="noopener noreferrer">CDC — Hypertension Facts</a></li>
+            <li><a href="https://www.cdc.gov/diabetes/data/statistics-report/index.html" target="_blank" rel="noopener noreferrer">CDC — National Diabetes Statistics Report</a></li>
+            <li><a href="https://www.cms.gov/marketplace/resources/data/marketplace-enrollment" target="_blank" rel="noopener noreferrer">Centers for Medicare &amp; Medicaid Services — ACA Marketplace Enrollment Data</a></li>
+            <li><a href="https://www.healthcare.gov/glossary/cobra-coverage" target="_blank" rel="noopener noreferrer">HealthCare.gov — COBRA Coverage</a></li>
+          </ul>
+        </div>
+      </section>
+
+      {/* Section 20: Disclaimer */}
+      <section id={`${pid}-disclaimer`} className="tdmd-section">
+        <div className="tdmd-container">
+          <p className="tdmd-footnote">
+            <strong>Medical Disclaimer:</strong> The information on this page is for educational purposes only and does not constitute medical advice. TeleDirectMD is not a replacement for comprehensive major medical insurance and does not provide emergency care. If you are experiencing a medical emergency, call 911 or go to the nearest emergency room immediately. Content reviewed by Parth Bhavsar, MD, board-certified Family Medicine physician.
+          </p>
+        </div>
+      </section>
+
+      {/* Section 21: States Grid */}
+      <section id={`${pid}-states`} className="tdmd-section tdmd-section-highlight">
+        <div className="tdmd-container">
+          <h2>Licensed Across Top Retirement Destinations</h2>
+          <p>
+            TeleDirectMD is licensed in 42 states — including every major Sun Belt and retirement destination. Whether you retire to Florida, Arizona, the Carolinas, or split time between states, we follow you.
+          </p>
+          <div className="tdmd-other-states-grid">
+            {allStates.map(s => (
+              <a key={s.abbr} href={`/${s.abbr.toLowerCase()}`} className="tdmd-other-state-link">{s.name}</a>
             ))}
           </div>
         </div>
       </section>
 
-      {/* CTA */}
-      <section className="tdmd-section tdmd-bg-teal-dark">
-        <div className="tdmd-container" style={{ textAlign: 'center' }}>
-          <h2 style={{ color: '#fff' }}>Retirement Shouldn't Come With a Healthcare Gap</h2>
-          <p style={{ color: 'rgba(255,255,255,0.85)', maxWidth: '540px', margin: '0 auto 1.5rem' }}>
-            $49 flat fee. Same-day visits. 42 states. Chronic condition management and prescription refills — on your schedule.
-          </p>
-          <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit — $49</a>
-        </div>
-      </section>
-
-      {/* Cross-links */}
-      <section className="tdmd-section tdmd-bg-light">
+      {/* Section 22: Related Audiences + Cross-links */}
+      <section id={`${pid}-related`} className="tdmd-section tdmd-section-highlight">
         <div className="tdmd-container">
-          <h2>More from TeleDirectMD</h2>
-          <div className="tdmd-card-grid">
-            {[
-              { href: '/who-we-serve/international-visitors', label: 'International Visitors', desc: 'Visiting the US without insurance? $49 flat-fee care.' },
-              { href: '/who-we-serve/uninsured-affordable-care', label: 'Uninsured Adults', desc: 'Transparent pricing, no surprise bills.' },
-              { href: '/who-we-serve/small-business-owners', label: 'Small Business Owners', desc: 'Self-employed care on your schedule.' },
-              { href: '/who-we-serve', label: 'All Who We Serve', desc: 'See every audience we serve.' },
-            ].map(link => (
-              <a key={link.href} href={link.href} className="tdmd-card tdmd-card-link">
-                <h3 style={{ fontSize: '1rem', marginBottom: '0.3rem' }}>{link.label}</h3>
-                <p style={{ fontSize: '0.88rem', color: 'var(--tdmd-muted)' }}>{link.desc}</p>
-              </a>
-            ))}
+          <h2>Who Else We Serve</h2>
+          <div className="tdmd-related-grid">
+            <a href="/who-we-serve/international-visitors" className="tdmd-related-card">
+              <div className="tdmd-related-title">International Visitors</div>
+              <div className="tdmd-related-desc">No US insurance? $49 flat-fee care in 42 states.</div>
+            </a>
+            <a href="/who-we-serve/military-families" className="tdmd-related-card">
+              <div className="tdmd-related-title">Military Families</div>
+              <div className="tdmd-related-desc">TRICARE gaps? Bridge coverage with $49 visits.</div>
+            </a>
+            <a href="/who-we-serve/uninsured-affordable-care" className="tdmd-related-card">
+              <div className="tdmd-related-title">Uninsured Adults</div>
+              <div className="tdmd-related-desc">No insurance? Transparent pricing, no surprise bills.</div>
+            </a>
+            <a href="/who-we-serve/small-business-owners" className="tdmd-related-card">
+              <div className="tdmd-related-title">Small Business Owners</div>
+              <div className="tdmd-related-desc">Self-employed? Care on your schedule without waiting rooms.</div>
+            </a>
+            <a href="/who-we-serve/gig-workers" className="tdmd-related-card">
+              <div className="tdmd-related-title">Gig Workers</div>
+              <div className="tdmd-related-desc">Flexible care for independent contractors.</div>
+            </a>
+            <a href="/who-we-serve/remote-workers" className="tdmd-related-card">
+              <div className="tdmd-related-title">Remote Workers</div>
+              <div className="tdmd-related-desc">Healthcare that follows you anywhere.</div>
+            </a>
+          </div>
+
+          <div className="tdmd-inline-links">
+            <div className="tdmd-link-cloud">
+              <a href="/insurance-and-pricing">Insurance &amp; Pricing</a>
+              <a href="/states-we-serve">States We Serve</a>
+              <a href="/what-we-treat">What We Treat</a>
+              <a href="/faq">FAQ</a>
+              <a href="/book-online">Book a Visit</a>
+            </div>
           </div>
         </div>
       </section>
