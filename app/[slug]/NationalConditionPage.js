@@ -613,7 +613,7 @@ export default function NationalConditionPage({ conditionSlug }) {
           // actual live site slugs (used by conditionSlug param)
           'uti-treatment-online': 'uti-treatment',
           'sinus-infection-treatment-online': 'sinus-infection',
-          'strep-throat-treatment-online': 'strep-throat',
+          'sore-throat-treatment-online': 'strep-throat', 'strep-throat-treatment-online': 'strep-throat',
           'pink-eye-treatment-online': 'pink-eye',
           'ear-pain-treatment-online': 'ear-infection',
           'asthma-refills-online': 'asthma-refill',

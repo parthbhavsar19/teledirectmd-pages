@@ -149,7 +149,7 @@ export default function BCBSStateClient({ stateSlug }) {
             <a href={`/${stateCode.toLowerCase()}/`} style={{ fontSize:14, color:B.teal, textDecoration:"none", padding:"6px 12px", border:`1px solid ${B.teal}`, borderRadius:B.rs }}>All conditions in {stateName} →</a>
             <a href={`/${stateCode.toLowerCase()}/uti-treatment-online/`} style={{ fontSize:14, color:B.teal, textDecoration:"none", padding:"6px 12px", border:`1px solid ${B.teal}`, borderRadius:B.rs }}>UTI →</a>
             <a href={`/${stateCode.toLowerCase()}/sinus-infection-treatment-online/`} style={{ fontSize:14, color:B.teal, textDecoration:"none", padding:"6px 12px", border:`1px solid ${B.teal}`, borderRadius:B.rs }}>Sinus Infection →</a>
-            <a href={`/${stateCode.toLowerCase()}/strep-throat-treatment-online/`} style={{ fontSize:14, color:B.teal, textDecoration:"none", padding:"6px 12px", border:`1px solid ${B.teal}`, borderRadius:B.rs }}>Strep Throat →</a>
+            <a href={`/${stateCode.toLowerCase()}/sore-throat-treatment-online/`} style={{ fontSize:14, color:B.teal, textDecoration:"none", padding:"6px 12px", border:`1px solid ${B.teal}`, borderRadius:B.rs }}>Strep Throat →</a>
             <a href={`/${stateCode.toLowerCase()}/influenza-treatment-online/`} style={{ fontSize:14, color:B.teal, textDecoration:"none", padding:"6px 12px", border:`1px solid ${B.teal}`, borderRadius:B.rs }}>Flu →</a>
           </div>
         </section>

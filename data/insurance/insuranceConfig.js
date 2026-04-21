@@ -189,7 +189,7 @@ export const INSURANCE_CONDITIONS = {
   "strep-throat": {
     slug: "strep-throat",
     name: "Strep Throat",
-    conditionPageSlug: "strep-throat-treatment-online",
+    conditionPageSlug: "sore-throat-treatment-online",
     displayName: "Strep Throat",
     shortDesc: "Evaluation and antibiotic prescription for strep throat symptoms.",
     icd10: "J02.0",
