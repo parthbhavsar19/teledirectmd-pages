@@ -293,6 +293,30 @@ export default function WhatWeTreatClient({ categories, conditionDescriptions })
         </div>
       </div>
 
+      {/* ── INSURANCE ACCEPTED (state-specific discoverability) ── */}
+      <section style={{ padding: "48px 0", background: "#F5FAFA", borderTop: "1px solid rgba(0,62,82,0.10)" }} data-speakable="true">
+        <div className="tdm-container">
+          <h2 style={{ fontFamily: "'Fraunces', Georgia, serif", fontSize: 28, fontWeight: 700, color: "#003E52", margin: "0 0 8px", textAlign: "center" }}>Insurance Accepted for These Conditions</h2>
+          <p style={{ fontFamily: "'DM Sans', system-ui, sans-serif", fontSize: 16, color: "#4A6870", lineHeight: 1.6, margin: "0 auto 28px", textAlign: "center", maxWidth: 640 }}>We bill Aetna, select Blue Cross Blue Shield plans, and UnitedHealthcare for every condition above in select states. Pick your insurer to see state-specific coverage — or pay $49 flat self-pay anywhere.</p>
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(240px, 1fr))", gap: 16, maxWidth: 960, margin: "0 auto" }}>
+            {[
+              { name: "Aetna", slug: "aetna", accent: "#7B2CBF", bg: "#F3EAFF", states: "AZ · CO · FL · GA · IL · MI · MN · OH · PA · TN" },
+              { name: "Blue Cross Blue Shield", slug: "blue-cross-blue-shield", accent: "#1A5FB4", bg: "#EAF2FF", states: "FL · GA · IL · PA · TX" },
+              { name: "UnitedHealthcare", slug: "united-healthcare", accent: "#1A7A3A", bg: "#E6FFF0", states: "CO · GA · IL · MN · NC · NJ · OH · OK · PA · TN · WA" },
+            ].map((ins) => (
+              <a key={ins.slug} href={`/insurance/${ins.slug}/`} style={{ display: "block", padding: 20, background: ins.bg, border: `1px solid ${ins.accent}22`, borderRadius: 12, textDecoration: "none", color: "inherit", transition: "transform 0.2s ease, box-shadow 0.2s ease" }}>
+                <div style={{ fontFamily: "'Fraunces', Georgia, serif", fontSize: 18, fontWeight: 700, color: "#003E52", marginBottom: 6 }}>{ins.name}</div>
+                <div style={{ fontFamily: "'DM Sans', system-ui, sans-serif", fontSize: 13, color: ins.accent, fontWeight: 600, marginBottom: 8 }}>Accepted in: {ins.states}</div>
+                <div style={{ fontFamily: "'DM Sans', system-ui, sans-serif", fontSize: 13, color: ins.accent, fontWeight: 600, display: "inline-flex", alignItems: "center", gap: 4 }}>See {ins.name} coverage by state →</div>
+              </a>
+            ))}
+          </div>
+          <p style={{ fontFamily: "'DM Sans', system-ui, sans-serif", fontSize: 14, color: "#4A6870", textAlign: "center", margin: "24px 0 0" }}>
+            <a href="/insurance" style={{ color: "#006B73", fontWeight: 600, textDecoration: "none" }}>Check all coverage by state →</a>
+          </p>
+        </div>
+      </section>
+
       {/* ── BOTTOM CTA ── */}
       <section className="tdm-bottom">
         <div className="tdm-container">

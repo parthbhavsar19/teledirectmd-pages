@@ -38,6 +38,20 @@ const insurerColors = {
   UHC:   { bg: "#E6FFF0", accent: "#1A7A3A" },
 };
 
+// Group identifier → URL slug used by /insurance/{slug}/{state}/ routes
+const insurerSlugByGroup = {
+  Aetna: "aetna",
+  BCBS:  "blue-cross-blue-shield",
+  UHC:   "united-healthcare",
+};
+
+// State code → lowercase full-name slug used by insurer×state routes
+const stateSlugByCode = {
+  AZ: "arizona", CO: "colorado", FL: "florida", GA: "georgia", IL: "illinois",
+  MI: "michigan", MN: "minnesota", NC: "north-carolina", NJ: "new-jersey",
+  OH: "ohio", PA: "pennsylvania", TN: "tennessee", TX: "texas", WA: "washington",
+};
+
 // ─── Icons ───
 const Ico = {
   Shield: ({c="#currentColor",s=20}) => <svg width={s} height={s} viewBox="0 0 24 24" fill="none" stroke={c} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>,
@@ -165,16 +179,32 @@ export default function InsuranceClient() {
                   <div style={{ display: "flex", flexDirection: "column", gap: 12 }}>
                     {stateData.insurers.map((ins, i) => {
                       const cl = insurerColors[ins.group] || insurerColors.Aetna;
-                      return (
-                        <div key={i} style={{ background: cl.bg, border: `1px solid ${cl.accent}22`, borderRadius: B.rs, padding: 20, opacity: animateResults ? 1 : 0, transform: animateResults ? "translateY(0)" : "translateY(8px)", transition: `all 0.4s ease ${0.1 + i * 0.1}s` }}>
-                          <div style={{ display: "flex", alignItems: "center", gap: 10, marginBottom: 10 }}>
-                            <div style={{ width: 32, height: 32, borderRadius: 8, background: `${cl.accent}18`, display: "flex", alignItems: "center", justifyContent: "center" }}><Ico.Shield c={cl.accent} s={17} /></div>
-                            <div style={{ fontSize: 16, fontWeight: 700, color: B.navy }}>{ins.name}</div>
+                      const insurerSlug = insurerSlugByGroup[ins.group];
+                      const stateSlug = stateSlugByCode[selectedState];
+                      const href = insurerSlug && stateSlug ? `/insurance/${insurerSlug}/${stateSlug}/` : null;
+                      const cardInner = (
+                        <>
+                          <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: 10, marginBottom: 10 }}>
+                            <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
+                              <div style={{ width: 32, height: 32, borderRadius: 8, background: `${cl.accent}18`, display: "flex", alignItems: "center", justifyContent: "center" }}><Ico.Shield c={cl.accent} s={17} /></div>
+                              <div style={{ fontSize: 16, fontWeight: 700, color: B.navy }}>{ins.name}</div>
+                            </div>
+                            {href && (
+                              <span style={{ display: "inline-flex", alignItems: "center", gap: 4, fontSize: 13, fontWeight: 600, color: cl.accent, flexShrink: 0 }}>
+                                See {stateData.state} coverage <Ico.Arrow c={cl.accent} s={14} />
+                              </span>
+                            )}
                           </div>
                           <div style={{ display: "flex", flexWrap: "wrap", gap: 6, marginTop: 4 }}>
                             {ins.plans.map((plan, j) => <span key={j} style={{ fontSize: 13, fontWeight: 500, color: cl.accent, background: `${cl.accent}12`, padding: "5px 12px", borderRadius: 100, border: `1px solid ${cl.accent}22` }}>{plan}</span>)}
                           </div>
-                        </div>
+                        </>
+                      );
+                      const cardStyle = { background: cl.bg, border: `1px solid ${cl.accent}22`, borderRadius: B.rs, padding: 20, opacity: animateResults ? 1 : 0, transform: animateResults ? "translateY(0)" : "translateY(8px)", transition: `all 0.4s ease ${0.1 + i * 0.1}s`, display: "block", textDecoration: "none", color: "inherit" };
+                      return href ? (
+                        <a key={i} href={href} style={cardStyle}>{cardInner}</a>
+                      ) : (
+                        <div key={i} style={cardStyle}>{cardInner}</div>
                       );
                     })}
                   </div>
