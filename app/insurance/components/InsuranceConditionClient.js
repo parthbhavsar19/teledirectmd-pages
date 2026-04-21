@@ -2,6 +2,7 @@
 import { B, INSURANCE_CONDITIONS, INSURERS, STATE_NAMES, COPAY_DATA, LAST_REVIEWED } from '../../../data/insurance/insuranceConfig';
 import { FAQ, BookCTA, HowItWorksSteps, TrustBar, Breadcrumb, InsuranceDisclaimer, AnswerBlock, PatientJourney, InsurerTrustDetails } from './InsuranceShared';
 import { Ico } from './InsuranceIcons';
+import { getAggregateRating, getReviewBlock } from '../../../lib/review-schema';
 
 export default function InsuranceConditionClient({ insurerSlug, conditionSlug }) {
   const insurer = INSURERS[insurerSlug];
@@ -92,6 +93,17 @@ export default function InsuranceConditionClient({ insurerSlug, conditionSlug })
         "areaServed": insurer.states.map(code => ({ "@type": "State", "name": STATE_NAMES[code] })),
         "knowsAbout": { "@type": "MedicalCondition", "name": cond.displayName, "code": { "@type": "MedicalCode", "code": cond.icd10, "codingSystem": "ICD-10" } },
         "acceptsInsurance": [{ "@type": "HealthInsurancePlan", "name": `${insurer.name} Commercial Plans` }],
+        ...getReviewBlock(),
+      },
+      {
+        "@type": "MedicalOrganization",
+        "@id": "https://teledirectmd.com/#organization",
+        "name": "TeleDirectMD",
+        "url": "https://teledirectmd.com",
+        "description": `Physician-led telemedicine practice accepting ${insurer.name} commercial insurance for ${cond.displayName} in ${insurer.states.length} states.`,
+        "medicalSpecialty": "General Practice",
+        "availableService": { "@type": "MedicalTherapy", "name": `${cond.displayName} Telehealth Video Visit` },
+        "aggregateRating": getAggregateRating(),
       },
       {
         "@type": "FAQPage",

@@ -2,6 +2,7 @@
 import { B, INSURERS, INSURANCE_CONDITIONS } from '../../../data/insurance/insuranceConfig';
 import { FAQ, BookCTA, HowItWorksSteps, TrustBar, Breadcrumb, InsuranceDisclaimer, AnswerBlock } from '../components/InsuranceShared';
 import { Ico } from '../components/InsuranceIcons';
+import { getAggregateRating, getReviewBlock } from '../../../lib/review-schema';
 
 const insurer = INSURERS["blue-cross-blue-shield"];
 
@@ -37,8 +38,8 @@ const CONDITIONS_COVERED = [
 const SCHEMA = {
   "@context":"https://schema.org",
   "@graph":[
-    { "@type":"MedicalOrganization","@id":"https://teledirectmd.com/#organization","name":"TeleDirectMD","url":"https://teledirectmd.com","description":"Physician-led telemedicine practice accepting Blue Cross Blue Shield plans in FL, GA, IL, PA, TX." },
-    { "@type":"Physician","@id":"https://teledirectmd.com/#physician","name":"Parth Bhavsar, MD","identifier":{"@type":"PropertyValue","name":"NPI","value":"1104323203"},"medicalSpecialty":"Family Medicine","acceptsInsurance":[{"@type":"HealthInsurancePlan","name":"Blue Cross Blue Shield Commercial Plans"}] },
+    { "@type":"MedicalOrganization","@id":"https://teledirectmd.com/#organization","name":"TeleDirectMD","url":"https://teledirectmd.com","description":"Physician-led telemedicine practice accepting Blue Cross Blue Shield plans in FL, GA, IL, PA, TX.","aggregateRating": getAggregateRating() },
+    { "@type":"Physician","@id":"https://teledirectmd.com/#physician","name":"Parth Bhavsar, MD","identifier":{"@type":"PropertyValue","name":"NPI","value":"1104323203"},"medicalSpecialty":"Family Medicine","acceptsInsurance":[{"@type":"HealthInsurancePlan","name":"Blue Cross Blue Shield Commercial Plans"}], ...getReviewBlock() },
     { "@type":"FAQPage","mainEntity":BCBS_FAQS.map(f=>({ "@type":"Question","name":f.q,"acceptedAnswer":{"@type":"Answer","text":f.a.replace(/<[^>]+>/g,'')} })) },
     { "@type":"WebPage","@id":"https://teledirectmd.com/insurance/blue-cross-blue-shield#webpage","url":"https://teledirectmd.com/insurance/blue-cross-blue-shield","name":"Online Doctor That Accepts Blue Cross Blue Shield | TeleDirectMD","speakable":{"@type":"SpeakableSpecification","cssSelector":["[data-speakable]"]} },
     { "@type":"HowTo","name":"How to book a BCBS-covered telemedicine visit with TeleDirectMD","description":"Three steps to see Dr. Parth Bhavsar, MD by video using your Blue Cross Blue Shield plan.","totalTime":"PT5M","step":[

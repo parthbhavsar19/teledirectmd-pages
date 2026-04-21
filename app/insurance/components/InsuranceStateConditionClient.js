@@ -3,6 +3,7 @@ import { B, INSURANCE_CONDITIONS, INSURERS, STATE_NAMES, COPAY_DATA, STATE_INSUR
 import { FAQ, BookCTA, HowItWorksSteps, TrustBar, Breadcrumb, InsuranceDisclaimer, AnswerBlock, CopayCard, PatientJourney, CommissionerLink, CrossInsurerTable } from './InsuranceShared';
 import { Ico } from './InsuranceIcons';
 import { getNationalConditionSlug } from '../../../lib/internal-links';
+import { getAggregateRating, getReviewBlock } from '../../../lib/review-schema';
 
 export default function InsuranceStateConditionClient({ insurerSlug, stateSlug, conditionSlug }) {
   const insurer = INSURERS[insurerSlug];
@@ -101,6 +102,15 @@ export default function InsuranceStateConditionClient({ insurerSlug, stateSlug, 
         "areaServed": { "@type": "State", "name": stateName },
         "knowsAbout": { "@type": "MedicalCondition", "name": cond.displayName, "code": { "@type": "MedicalCode", "code": cond.icd10, "codingSystem": "ICD-10" } },
         "acceptsInsurance": [{ "@type": "HealthInsurancePlan", "name": `${affiliateName} Commercial Plans — ${stateName}` }],
+        ...getReviewBlock(),
+      },
+      {
+        "@type": "MedicalOrganization",
+        "@id": "https://teledirectmd.com/#organization",
+        "name": "TeleDirectMD",
+        "url": "https://teledirectmd.com",
+        "medicalSpecialty": "General Practice",
+        "aggregateRating": getAggregateRating(),
       },
       {
         "@type": "FAQPage",

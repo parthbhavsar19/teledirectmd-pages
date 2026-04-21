@@ -2,6 +2,7 @@
 import { B, INSURERS, STATE_NAMES, INSURANCE_CONDITIONS } from '../../../data/insurance/insuranceConfig';
 import { FAQ, BookCTA, HowItWorksSteps, TrustBar, Breadcrumb, InsuranceDisclaimer, AnswerBlock } from '../components/InsuranceShared';
 import { Ico } from '../components/InsuranceIcons';
+import { getAggregateRating, getReviewBlock } from '../../../lib/review-schema';
 
 const insurer = INSURERS.aetna;
 
@@ -51,6 +52,7 @@ const SCHEMA = {
       "description": "Physician-led telemedicine practice accepting Aetna commercial insurance in 10 states.",
       "medicalSpecialty": "General Practice",
       "availableService": { "@type": "MedicalTherapy", "name": "Telehealth Video Visit" },
+      "aggregateRating": getAggregateRating(),
     },
     {
       "@type": "Physician",
@@ -63,6 +65,7 @@ const SCHEMA = {
       "acceptsInsurance": [
         { "@type": "HealthInsurancePlan", "name": "Aetna Commercial Plans", "includesHealthPlanFormulary": { "@type": "HealthPlanFormulary", "offersPrescriptionDrug": true } }
       ],
+      ...getReviewBlock(),
     },
     {
       "@type": "FAQPage",

@@ -2,6 +2,7 @@
 import { B, STATE_NAMES, INSURANCE_CONDITIONS, INSURERS, COPAY_DATA, STATE_INSURANCE_MAP, LAST_REVIEWED } from '../../../../data/insurance/insuranceConfig';
 import { FAQ, BookCTA, HowItWorksSteps, TrustBar, Breadcrumb, InsuranceDisclaimer, AnswerBlock, CopayCard, PatientJourney, CrossInsurerTable, CommissionerLink, InsurerTrustDetails } from '../../components/InsuranceShared';
 import { Ico } from '../../components/InsuranceIcons';
+import { getAggregateRating, getReviewBlock } from '../../../../lib/review-schema';
 
 const insurer = INSURERS['united-healthcare'];
 
@@ -63,6 +64,16 @@ export default function UHCStateClient({ stateSlug }) {
         "medicalSpecialty": "Family Medicine",
         "areaServed": { "@type": "State", "name": stateName },
         "acceptsInsurance": [{ "@type": "HealthInsurancePlan", "name": `UnitedHealthcare Commercial Plans — ${stateName}` }],
+        ...getReviewBlock(),
+      },
+      {
+        "@type": "MedicalOrganization",
+        "@id": "https://teledirectmd.com/#organization",
+        "name": "TeleDirectMD",
+        "url": "https://teledirectmd.com",
+        "medicalSpecialty": "General Practice",
+        "areaServed": { "@type": "State", "name": stateName },
+        "aggregateRating": getAggregateRating(),
       },
       {
         "@type": "FAQPage",
