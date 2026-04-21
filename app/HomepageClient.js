@@ -725,13 +725,13 @@ export default function HomepageClient() {
             </p>
           </div>
           <div className="hp-insurance-grid hp-stagger">
-            <a href="/insurance" className="hp-insurance-card hp-animate hp-scale-in">
+            <a href="/insurance/aetna/" className="hp-insurance-card hp-animate hp-scale-in" aria-label="See Aetna coverage">
               <img src="/logos/aetna.png" alt="Aetna" loading="lazy" />
             </a>
-            <a href="/insurance" className="hp-insurance-card hp-animate hp-scale-in">
+            <a href="/insurance/blue-cross-blue-shield/" className="hp-insurance-card hp-animate hp-scale-in" aria-label="See Blue Cross Blue Shield coverage">
               <img src="/logos/anthem-bcbs.svg" alt="Anthem Blue Cross Blue Shield" loading="lazy" />
             </a>
-            <a href="/insurance" className="hp-insurance-card hp-animate hp-scale-in">
+            <a href="/insurance/united-healthcare/" className="hp-insurance-card hp-animate hp-scale-in" aria-label="See UnitedHealthcare coverage">
               <img src="/logos/unitedhealthcare.svg" alt="UnitedHealthcare" loading="lazy" />
             </a>
           </div>
