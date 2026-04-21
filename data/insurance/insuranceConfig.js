@@ -297,7 +297,7 @@ export const INSURANCE_CONDITIONS = {
   "flu-treatment": {
     slug: "flu-treatment",
     name: "Flu Treatment",
-    conditionPageSlug: "flu-treatment-online",
+    conditionPageSlug: "influenza-treatment-online",
     displayName: "Influenza (Flu)",
     shortDesc: "Antiviral prescription and symptom management for flu.",
     icd10: "J11.1",

@@ -139,11 +139,11 @@ export default function AetnaStateClient({ stateSlug }) {
           <h2 style={{ fontFamily:B.fd, fontSize:20, fontWeight:700, color:B.navy, margin:"0 0 8px" }}>Without Aetna? Self-Pay Options in {stateName}</h2>
           <p style={{ fontSize:14, color:B.text, margin:"0 0 12px", lineHeight:1.6 }}>No Aetna plan or uninsured? TeleDirectMD offers $49 self-pay video visits for the same conditions in {stateName}. Browse self-pay options:</p>
           <div style={{ display:"flex", flexWrap:"wrap", gap:8 }}>
-            <a href={`/${stateSlug}/`} style={{ fontSize:14, color:B.teal, textDecoration:"none", padding:"6px 12px", border:`1px solid ${B.teal}`, borderRadius:B.rs }}>All conditions in {stateName} →</a>
-            <a href={`/${stateSlug}/uti-treatment-online`} style={{ fontSize:14, color:B.teal, textDecoration:"none", padding:"6px 12px", border:`1px solid ${B.teal}`, borderRadius:B.rs }}>UTI →</a>
-            <a href={`/${stateSlug}/sinus-infection-treatment-online`} style={{ fontSize:14, color:B.teal, textDecoration:"none", padding:"6px 12px", border:`1px solid ${B.teal}`, borderRadius:B.rs }}>Sinus Infection →</a>
-            <a href={`/${stateSlug}/strep-throat-treatment-online`} style={{ fontSize:14, color:B.teal, textDecoration:"none", padding:"6px 12px", border:`1px solid ${B.teal}`, borderRadius:B.rs }}>Strep Throat →</a>
-            <a href={`/${stateSlug}/influenza-treatment-online`} style={{ fontSize:14, color:B.teal, textDecoration:"none", padding:"6px 12px", border:`1px solid ${B.teal}`, borderRadius:B.rs }}>Flu →</a>
+            <a href={`/${stateCode.toLowerCase()}/`} style={{ fontSize:14, color:B.teal, textDecoration:"none", padding:"6px 12px", border:`1px solid ${B.teal}`, borderRadius:B.rs }}>All conditions in {stateName} →</a>
+            <a href={`/${stateCode.toLowerCase()}/uti-treatment-online/`} style={{ fontSize:14, color:B.teal, textDecoration:"none", padding:"6px 12px", border:`1px solid ${B.teal}`, borderRadius:B.rs }}>UTI →</a>
+            <a href={`/${stateCode.toLowerCase()}/sinus-infection-treatment-online/`} style={{ fontSize:14, color:B.teal, textDecoration:"none", padding:"6px 12px", border:`1px solid ${B.teal}`, borderRadius:B.rs }}>Sinus Infection →</a>
+            <a href={`/${stateCode.toLowerCase()}/strep-throat-treatment-online/`} style={{ fontSize:14, color:B.teal, textDecoration:"none", padding:"6px 12px", border:`1px solid ${B.teal}`, borderRadius:B.rs }}>Strep Throat →</a>
+            <a href={`/${stateCode.toLowerCase()}/influenza-treatment-online/`} style={{ fontSize:14, color:B.teal, textDecoration:"none", padding:"6px 12px", border:`1px solid ${B.teal}`, borderRadius:B.rs }}>Flu →</a>
           </div>
         </section>
 

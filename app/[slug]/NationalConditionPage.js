@@ -601,6 +601,7 @@ export default function NationalConditionPage({ conditionSlug }) {
       {/* Insurer Coverage for this condition — internal linking for AI visibility */}
       {(() => {
         const nationalToInsurance = {
+          // short keys
           'uti': 'uti-treatment', 'urinary-tract-infection': 'uti-treatment',
           'sinus-infection': 'sinus-infection', 'sinusitis': 'sinus-infection',
           'strep-throat': 'strep-throat', 'pink-eye': 'pink-eye', 'conjunctivitis': 'pink-eye',
@@ -609,6 +610,17 @@ export default function NationalConditionPage({ conditionSlug }) {
           'acid-reflux': 'acid-reflux', 'gerd': 'acid-reflux',
           'flu': 'flu-treatment', 'influenza': 'flu-treatment', 'flu-treatment': 'flu-treatment',
           'yeast-infection': 'yeast-infection',
+          // actual live site slugs (used by conditionSlug param)
+          'uti-treatment-online': 'uti-treatment',
+          'sinus-infection-treatment-online': 'sinus-infection',
+          'strep-throat-treatment-online': 'strep-throat',
+          'pink-eye-treatment-online': 'pink-eye',
+          'ear-pain-treatment-online': 'ear-infection',
+          'asthma-refills-online': 'asthma-refill',
+          'hypertension-refills-online': 'hypertension-refill',
+          'acid-reflux-refills-online': 'acid-reflux',
+          'influenza-treatment-online': 'flu-treatment',
+          'yeast-infection-treatment-online': 'yeast-infection',
         };
         const insCondSlug = nationalToInsurance[conditionSlug];
         if (!insCondSlug || !INSURANCE_CONDITIONS[insCondSlug]) return null;

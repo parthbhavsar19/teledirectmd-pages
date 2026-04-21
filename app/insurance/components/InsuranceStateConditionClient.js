@@ -295,8 +295,8 @@ export default function InsuranceStateConditionClient({ insurerSlug, stateSlug, 
               <h2 style={{ fontFamily: B.fd, fontSize: 18, fontWeight: 700, color: B.navy, margin: "0 0 6px" }}>No {shortName}? Self-Pay {cond.name} in {stateName}</h2>
               <p style={{ fontSize: 14, color: B.text, margin: "0 0 10px", lineHeight: 1.6 }}>Not an {shortName} member? TeleDirectMD offers the same {cond.name.toLowerCase()} telehealth visit for $49 without insurance.</p>
               <div style={{ display: "flex", flexWrap: "wrap", gap: 8 }}>
-                <a href={`/${stateSlug}/${nationalCondSlug}`} style={{ fontSize: 14, color: B.teal, textDecoration: "none", padding: "6px 12px", border: `1px solid ${B.teal}`, borderRadius: B.rs }}>$49 {cond.name} in {stateName} →</a>
-                <a href={`/${stateSlug}`} style={{ fontSize: 14, color: B.teal, textDecoration: "none", padding: "6px 12px", border: `1px solid ${B.teal}`, borderRadius: B.rs }}>All conditions in {stateName} →</a>
+                <a href={`/${stateCode.toLowerCase()}/${nationalCondSlug}/`} style={{ fontSize: 14, color: B.teal, textDecoration: "none", padding: "6px 12px", border: `1px solid ${B.teal}`, borderRadius: B.rs }}>$49 {cond.name} in {stateName} →</a>
+                <a href={`/${stateCode.toLowerCase()}/`} style={{ fontSize: 14, color: B.teal, textDecoration: "none", padding: "6px 12px", border: `1px solid ${B.teal}`, borderRadius: B.rs }}>All conditions in {stateName} →</a>
               </div>
             </section>
           );
