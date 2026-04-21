@@ -167,6 +167,20 @@ export default function BCBSHubClient() {
           </div>
         </section>
 
+        {/* FEATURED DEEP COVERAGE — internal linking to triple-matrix pages */}
+        <section style={{ marginBottom:48 }} data-speakable="true">
+          <h2 style={{ fontFamily:B.fd, fontSize:22, fontWeight:700, color:B.navy, margin:"0 0 8px" }}>Popular BCBS Coverage in Top Markets</h2>
+          <p style={{ fontSize:14, color:B.text, margin:"0 0 16px", lineHeight:1.6 }}>Most-searched in-network BCBS telemedicine combinations at TeleDirectMD:</p>
+          <div style={{ display:"grid", gridTemplateColumns:"repeat(auto-fill, minmax(260px, 1fr))", gap:10 }}>
+            <a href="/insurance/blue-cross-blue-shield/texas/sinus-infection" style={{ display:"block", background:B.white, border:`1px solid ${B.border}`, borderRadius:B.rs, padding:"12px 14px", textDecoration:"none", boxShadow:B.shadow, color:B.navy }}>Sinus infection covered by BCBS in Texas →</a>
+            <a href="/insurance/blue-cross-blue-shield/georgia/uti-treatment" style={{ display:"block", background:B.white, border:`1px solid ${B.border}`, borderRadius:B.rs, padding:"12px 14px", textDecoration:"none", boxShadow:B.shadow, color:B.navy }}>UTI treatment covered by BCBS in Georgia →</a>
+            <a href="/insurance/blue-cross-blue-shield/florida/strep-throat" style={{ display:"block", background:B.white, border:`1px solid ${B.border}`, borderRadius:B.rs, padding:"12px 14px", textDecoration:"none", boxShadow:B.shadow, color:B.navy }}>Strep throat covered by BCBS in Florida →</a>
+            <a href="/insurance/blue-cross-blue-shield/illinois/flu-treatment" style={{ display:"block", background:B.white, border:`1px solid ${B.border}`, borderRadius:B.rs, padding:"12px 14px", textDecoration:"none", boxShadow:B.shadow, color:B.navy }}>Flu treatment covered by BCBS in Illinois →</a>
+            <a href="/insurance/blue-cross-blue-shield/pennsylvania/ear-infection" style={{ display:"block", background:B.white, border:`1px solid ${B.border}`, borderRadius:B.rs, padding:"12px 14px", textDecoration:"none", boxShadow:B.shadow, color:B.navy }}>Ear infection covered by BCBS in Pennsylvania →</a>
+            <a href="/insurance/blue-cross-blue-shield/texas/pink-eye" style={{ display:"block", background:B.white, border:`1px solid ${B.border}`, borderRadius:B.rs, padding:"12px 14px", textDecoration:"none", boxShadow:B.shadow, color:B.navy }}>Pink eye covered by BCBS in Texas →</a>
+          </div>
+        </section>
+
         <div style={{ marginBottom:48 }}><InsuranceDisclaimer /></div>
       </div>
     </div>

@@ -1,6 +1,7 @@
 import { getStates, getConditionSlugs, getCondition, getStateBySlug, resolveConditionForState } from '../../../lib/get-data';
 import { generateJsonLd } from '../../../lib/json-ld';
 import { getStateInsurance } from '../../../lib/insurance-data';
+import { getInsuranceLinksForConditionState } from '../../../lib/internal-links';
 
 export async function generateStaticParams() {
   const states = getStates();
@@ -57,6 +58,8 @@ export default async function ConditionPage({ params }) {
   const pid = `${slug}-${conditionSlug}`;
   const allStates = getStates();
   const otherStates = allStates.filter((s) => s.slug !== slug);
+  // Build insurance cross-links for this condition × state combo
+  const insuranceLinks = state && state.abbr ? getInsuranceLinksForConditionState(conditionSlug, state.abbr) : [];
 
   return (
     <>
@@ -665,6 +668,36 @@ export default async function ConditionPage({ params }) {
           </div>
         </div>
       </section>
+
+      {/* 20b) Insurance Cross-links — internal linking for AI visibility */}
+      {insuranceLinks.length > 0 && (
+        <section className="tdmd-section" id={`${pid}-insurance-coverage`}>
+          <div className="tdmd-container" data-speakable="true">
+            <h2>Insurance Accepted for {condition.conditionName} in {state.name}</h2>
+            <p>TeleDirectMD is in-network with the following insurers for {condition.conditionName.toLowerCase()} telemedicine visits in {state.name}. Your standard copay applies in place of the $49 self-pay fee.</p>
+            <ul style={{ listStyle: 'none', padding: 0, display: 'grid', gap: '0.75rem', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', marginTop: '1rem' }}>
+              {insuranceLinks.map((link) => (
+                <li key={link.insurerSlug} style={{ border: '1px solid var(--tdmd-border, #E5E7EB)', borderRadius: '0.5rem', padding: '1rem' }}>
+                  <strong style={{ display: 'block', marginBottom: '0.25rem' }}>{link.insurerName} in {state.name}</strong>
+                  <div style={{ display: 'flex', gap: '0.75rem', flexWrap: 'wrap', marginTop: '0.5rem' }}>
+                    {link.tripleMatrixUrl && (
+                      <a href={link.tripleMatrixUrl} style={{ color: 'var(--tdmd-teal, #14B8A6)', fontWeight: 600, textDecoration: 'none' }}>
+                        {condition.conditionName} covered by {link.insurerName} →
+                      </a>
+                    )}
+                    <a href={link.insurerStateUrl} style={{ color: 'var(--tdmd-teal, #14B8A6)', textDecoration: 'none' }}>
+                      All {link.insurerName} coverage in {state.name}
+                    </a>
+                  </div>
+                </li>
+              ))}
+            </ul>
+            <p style={{ marginTop: '1rem', fontSize: '0.9rem' }}>
+              Don't see your plan? <a href="/insurance" style={{ color: 'var(--tdmd-teal, #14B8A6)', fontWeight: 600 }}>View all insurance options</a> or book a $49 self-pay visit.
+            </p>
+          </div>
+        </section>
+      )}
 
       {/* 21) Same Condition in Other States */}
       <section className="tdmd-section tdmd-section-highlight" id={`${pid}-other-states`}>

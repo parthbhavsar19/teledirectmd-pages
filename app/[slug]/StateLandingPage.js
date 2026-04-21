@@ -1,5 +1,6 @@
 import { getStates, getStateBySlug, getConditionCategories } from '../../lib/get-data';
 import { getStateInsurance } from '../../lib/insurance-data';
+import { getInsurersForState } from '../../lib/internal-links';
 
 export default function StateLandingPage({ stateSlug }) {
   const state = getStateBySlug(stateSlug);
@@ -12,6 +13,7 @@ export default function StateLandingPage({ stateSlug }) {
   const pharmacies = state.pharmacies || ['CVS Pharmacy', 'Walgreens', 'Walmart Pharmacy'];
   const stateInsurers = getStateInsurance(state.abbr);
   const hasInsurance = !!stateInsurers;
+  const insurerStateLinks = getInsurersForState(state.abbr);
 
   const totalConditions = categories.reduce((sum, cat) => sum + cat.conditions.length, 0);
 
@@ -359,6 +361,24 @@ export default function StateLandingPage({ stateSlug }) {
           </p>
         </div>
       </section>
+
+      {/* 4b) Insurance Providers in this State — internal linking for AI visibility */}
+      {insurerStateLinks.length > 0 && (
+        <section className="tdmd-section" id={`${pid}-insurance-providers`}>
+          <div className="tdmd-container" data-speakable="true">
+            <h2>Insurance Plans We Accept in {state.name}</h2>
+            <p>TeleDirectMD is in-network with the following insurers in {state.name}. Select your plan to view coverage details, in-network conditions, and how to book a copay visit.</p>
+            <div style={{ display: 'grid', gap: '1rem', gridTemplateColumns: 'repeat(auto-fit, minmax(260px, 1fr))', marginTop: '1rem' }}>
+              {insurerStateLinks.map((ins) => (
+                <a key={ins.slug} href={ins.url} style={{ display: 'block', padding: '1.25rem', border: '1px solid var(--tdmd-border, #E5E7EB)', borderRadius: '0.5rem', textDecoration: 'none', color: 'inherit' }}>
+                  <strong style={{ display: 'block', fontSize: '1.05rem', marginBottom: '0.25rem' }}>{ins.name} in {state.name}</strong>
+                  <span style={{ color: 'var(--tdmd-teal, #14B8A6)', fontSize: '0.95rem', fontWeight: 600 }}>View coverage →</span>
+                </a>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
 
       {/* 5) Telehealth Regulations */}
       <section className="tdmd-section tdmd-section-highlight" id={`${pid}-telehealth-regulations`}>

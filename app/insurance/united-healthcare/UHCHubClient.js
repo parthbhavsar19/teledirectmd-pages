@@ -161,6 +161,20 @@ export default function UHCHubClient() {
           </div>
         </section>
 
+        {/* FEATURED DEEP COVERAGE — internal linking to triple-matrix pages */}
+        <section style={{ marginBottom:48 }} data-speakable="true">
+          <h2 style={{ fontFamily:B.fd, fontSize:22, fontWeight:700, color:B.navy, margin:"0 0 8px" }}>Popular UnitedHealthcare Coverage in Top Markets</h2>
+          <p style={{ fontSize:14, color:B.text, margin:"0 0 16px", lineHeight:1.6 }}>Most-searched in-network UHC telemedicine combinations at TeleDirectMD:</p>
+          <div style={{ display:"grid", gridTemplateColumns:"repeat(auto-fill, minmax(260px, 1fr))", gap:10 }}>
+            <a href="/insurance/united-healthcare/georgia/uti-treatment" style={{ display:"block", background:B.white, border:`1px solid ${B.border}`, borderRadius:B.rs, padding:"12px 14px", textDecoration:"none", boxShadow:B.shadow, color:B.navy }}>UTI treatment covered by UHC in Georgia →</a>
+            <a href="/insurance/united-healthcare/pennsylvania/sinus-infection" style={{ display:"block", background:B.white, border:`1px solid ${B.border}`, borderRadius:B.rs, padding:"12px 14px", textDecoration:"none", boxShadow:B.shadow, color:B.navy }}>Sinus infection covered by UHC in Pennsylvania →</a>
+            <a href="/insurance/united-healthcare/ohio/strep-throat" style={{ display:"block", background:B.white, border:`1px solid ${B.border}`, borderRadius:B.rs, padding:"12px 14px", textDecoration:"none", boxShadow:B.shadow, color:B.navy }}>Strep throat covered by UHC in Ohio →</a>
+            <a href="/insurance/united-healthcare/illinois/flu-treatment" style={{ display:"block", background:B.white, border:`1px solid ${B.border}`, borderRadius:B.rs, padding:"12px 14px", textDecoration:"none", boxShadow:B.shadow, color:B.navy }}>Flu treatment covered by UHC in Illinois →</a>
+            <a href="/insurance/united-healthcare/north-carolina/ear-infection" style={{ display:"block", background:B.white, border:`1px solid ${B.border}`, borderRadius:B.rs, padding:"12px 14px", textDecoration:"none", boxShadow:B.shadow, color:B.navy }}>Ear infection covered by UHC in North Carolina →</a>
+            <a href="/insurance/united-healthcare/tennessee/pink-eye" style={{ display:"block", background:B.white, border:`1px solid ${B.border}`, borderRadius:B.rs, padding:"12px 14px", textDecoration:"none", boxShadow:B.shadow, color:B.navy }}>Pink eye covered by UHC in Tennessee →</a>
+          </div>
+        </section>
+
         <div style={{ marginBottom:48 }}><InsuranceDisclaimer /></div>
       </div>
     </div>

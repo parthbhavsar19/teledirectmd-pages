@@ -2,6 +2,7 @@
 import { B, INSURANCE_CONDITIONS, INSURERS, STATE_NAMES, COPAY_DATA, STATE_INSURANCE_MAP, LAST_REVIEWED } from '../../../data/insurance/insuranceConfig';
 import { FAQ, BookCTA, HowItWorksSteps, TrustBar, Breadcrumb, InsuranceDisclaimer, AnswerBlock, CopayCard, PatientJourney, CommissionerLink, CrossInsurerTable } from './InsuranceShared';
 import { Ico } from './InsuranceIcons';
+import { getNationalConditionSlug } from '../../../lib/internal-links';
 
 export default function InsuranceStateConditionClient({ insurerSlug, stateSlug, conditionSlug }) {
   const insurer = INSURERS[insurerSlug];
@@ -284,6 +285,22 @@ export default function InsuranceStateConditionClient({ insurerSlug, stateSlug, 
             ))}
           </div>
         </section>
+
+        {/* SELF-PAY BACK-LINK — internal linking for AI visibility */}
+        {(() => {
+          const nationalCondSlug = getNationalConditionSlug(conditionSlug);
+          if (!nationalCondSlug) return null;
+          return (
+            <section style={{ marginBottom: 32, padding: "16px 20px", background: "#F9FAFB", border: `1px solid ${B.border}`, borderRadius: B.r }} data-speakable="true">
+              <h2 style={{ fontFamily: B.fd, fontSize: 18, fontWeight: 700, color: B.navy, margin: "0 0 6px" }}>No {shortName}? Self-Pay {cond.name} in {stateName}</h2>
+              <p style={{ fontSize: 14, color: B.text, margin: "0 0 10px", lineHeight: 1.6 }}>Not an {shortName} member? TeleDirectMD offers the same {cond.name.toLowerCase()} telehealth visit for $49 without insurance.</p>
+              <div style={{ display: "flex", flexWrap: "wrap", gap: 8 }}>
+                <a href={`/${stateSlug}/${nationalCondSlug}`} style={{ fontSize: 14, color: B.teal, textDecoration: "none", padding: "6px 12px", border: `1px solid ${B.teal}`, borderRadius: B.rs }}>$49 {cond.name} in {stateName} →</a>
+                <a href={`/${stateSlug}`} style={{ fontSize: 14, color: B.teal, textDecoration: "none", padding: "6px 12px", border: `1px solid ${B.teal}`, borderRadius: B.rs }}>All conditions in {stateName} →</a>
+              </div>
+            </section>
+          );
+        })()}
 
         {/* NAV LINKS */}
         <div style={{ marginBottom: 24, display: "flex", flexWrap: "wrap", gap: 10 }}>

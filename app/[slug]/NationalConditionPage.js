@@ -1,5 +1,6 @@
 import { getStates, getConditionSlugs, getCondition, getConditionCategories, resolveConditionNational } from '../../lib/get-data';
 import { generateNationalJsonLd } from '../../lib/json-ld-national';
+import { INSURERS, INSURANCE_CONDITIONS } from '../../data/insurance/insuranceConfig';
 
 export default function NationalConditionPage({ conditionSlug }) {
   const rawCondition = getCondition(conditionSlug);
@@ -597,6 +598,46 @@ export default function NationalConditionPage({ conditionSlug }) {
       </section>
 
       {/* 20) Available in All States */}
+      {/* Insurer Coverage for this condition — internal linking for AI visibility */}
+      {(() => {
+        const nationalToInsurance = {
+          'uti': 'uti-treatment', 'urinary-tract-infection': 'uti-treatment',
+          'sinus-infection': 'sinus-infection', 'sinusitis': 'sinus-infection',
+          'strep-throat': 'strep-throat', 'pink-eye': 'pink-eye', 'conjunctivitis': 'pink-eye',
+          'ear-infection': 'ear-infection', 'asthma': 'asthma-refill', 'asthma-refill': 'asthma-refill',
+          'hypertension': 'hypertension-refill', 'high-blood-pressure': 'hypertension-refill',
+          'acid-reflux': 'acid-reflux', 'gerd': 'acid-reflux',
+          'flu': 'flu-treatment', 'influenza': 'flu-treatment', 'flu-treatment': 'flu-treatment',
+          'yeast-infection': 'yeast-infection',
+        };
+        const insCondSlug = nationalToInsurance[conditionSlug];
+        if (!insCondSlug || !INSURANCE_CONDITIONS[insCondSlug]) return null;
+        const insurerLinks = Object.values(INSURERS).map((ins) => ({
+          slug: ins.slug, name: ins.name,
+          hubUrl: `/insurance/${ins.slug}`,
+          condUrl: `/insurance/${ins.slug}/${insCondSlug}`,
+          stateCount: ins.states.length,
+        }));
+        return (
+          <section className="tdmd-section" id={`${pid}-insurance-coverage`}>
+            <div className="tdmd-container" data-speakable="true">
+              <h2>Insurance Coverage for {condition.conditionName}</h2>
+              <p>TeleDirectMD is in-network with major insurers for {condition.conditionName.toLowerCase()} telemedicine visits. Your standard copay applies in place of the $49 self-pay fee.</p>
+              <div style={{ display: 'grid', gap: '1rem', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', marginTop: '1rem' }}>
+                {insurerLinks.map((link) => (
+                  <div key={link.slug} style={{ border: '1px solid var(--tdmd-border, #E5E7EB)', borderRadius: '0.5rem', padding: '1.25rem' }}>
+                    <strong style={{ display: 'block', fontSize: '1.05rem', marginBottom: '0.5rem' }}>{link.name}</strong>
+                    <p style={{ fontSize: '0.9rem', margin: '0 0 0.75rem', lineHeight: 1.5 }}>Coverage in {link.stateCount} states.</p>
+                    <a href={link.condUrl} style={{ display: 'block', color: 'var(--tdmd-teal, #14B8A6)', fontWeight: 600, textDecoration: 'none', marginBottom: '0.25rem' }}>Does {link.name} cover {condition.conditionName}? →</a>
+                    <a href={link.hubUrl} style={{ display: 'block', color: 'var(--tdmd-teal, #14B8A6)', fontSize: '0.9rem', textDecoration: 'none' }}>All {link.name} coverage →</a>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </section>
+        );
+      })()}
+
       <section className="tdmd-section" id={`${pid}-states`}>
         <div className="tdmd-container">
           <h2>Get {condition.conditionName} in Your State</h2>

@@ -141,6 +141,19 @@ export default function BCBSStateClient({ stateSlug }) {
         </section>
 
         {/* CITIES */}
+        {/* SELF-PAY CROSS-LINKS — internal linking for AI visibility */}
+        <section style={{ marginBottom:40, padding:"20px 24px", background:"#F9FAFB", border:`1px solid ${B.border}`, borderRadius:B.r }} data-speakable="true">
+          <h2 style={{ fontFamily:B.fd, fontSize:20, fontWeight:700, color:B.navy, margin:"0 0 8px" }}>Without BCBS? Self-Pay Options in {stateName}</h2>
+          <p style={{ fontSize:14, color:B.text, margin:"0 0 12px", lineHeight:1.6 }}>No BCBS plan or uninsured? TeleDirectMD offers $49 self-pay video visits for the same conditions in {stateName}. Browse self-pay options:</p>
+          <div style={{ display:"flex", flexWrap:"wrap", gap:8 }}>
+            <a href={`/${stateSlug}/`} style={{ fontSize:14, color:B.teal, textDecoration:"none", padding:"6px 12px", border:`1px solid ${B.teal}`, borderRadius:B.rs }}>All conditions in {stateName} →</a>
+            <a href={`/${stateSlug}/uti`} style={{ fontSize:14, color:B.teal, textDecoration:"none", padding:"6px 12px", border:`1px solid ${B.teal}`, borderRadius:B.rs }}>UTI →</a>
+            <a href={`/${stateSlug}/sinus-infection`} style={{ fontSize:14, color:B.teal, textDecoration:"none", padding:"6px 12px", border:`1px solid ${B.teal}`, borderRadius:B.rs }}>Sinus Infection →</a>
+            <a href={`/${stateSlug}/strep-throat`} style={{ fontSize:14, color:B.teal, textDecoration:"none", padding:"6px 12px", border:`1px solid ${B.teal}`, borderRadius:B.rs }}>Strep Throat →</a>
+            <a href={`/${stateSlug}/flu`} style={{ fontSize:14, color:B.teal, textDecoration:"none", padding:"6px 12px", border:`1px solid ${B.teal}`, borderRadius:B.rs }}>Flu →</a>
+          </div>
+        </section>
+
         {ctx.cities.length > 0 && (
           <section style={{ marginBottom:40 }}>
             <h2 style={{ fontFamily:B.fd, fontSize:22, fontWeight:700, color:B.navy, margin:'0 0 8px' }}>Serving {affiliateName} Members Across {stateName}</h2>
