@@ -1,6 +1,6 @@
 'use client';
 import { B, INSURERS, STATE_NAMES, INSURANCE_CONDITIONS } from '../../../data/insurance/insuranceConfig';
-import { FAQ, BookCTA, HowItWorksSteps, TrustBar, Breadcrumb, InsuranceDisclaimer } from '../components/InsuranceShared';
+import { FAQ, BookCTA, HowItWorksSteps, TrustBar, Breadcrumb, InsuranceDisclaimer, AnswerBlock } from '../components/InsuranceShared';
 import { Ico } from '../components/InsuranceIcons';
 
 const insurer = INSURERS.aetna;
@@ -79,6 +79,24 @@ const SCHEMA = {
         { "@type": "ListItem", "position": 2, "name": "Insurance", "item": "https://teledirectmd.com/insurance" },
         { "@type": "ListItem", "position": 3, "name": "Aetna", "item": "https://teledirectmd.com/insurance/aetna" },
       ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://teledirectmd.com/insurance/aetna#webpage",
+      "url": "https://teledirectmd.com/insurance/aetna",
+      "name": "Online Doctor That Accepts Aetna Insurance | TeleDirectMD",
+      "speakable": { "@type": "SpeakableSpecification", "cssSelector": ["[data-speakable]"] }
+    },
+    {
+      "@type": "HowTo",
+      "name": "How to book an Aetna-covered telemedicine visit with TeleDirectMD",
+      "description": "Three steps to see Dr. Parth Bhavsar, MD by video using your Aetna commercial plan.",
+      "totalTime": "PT5M",
+      "step": [
+        { "@type": "HowToStep", "position": 1, "name": "Verify Aetna coverage", "text": "Confirm your Aetna commercial plan is active in Arizona, Colorado, Florida, Georgia, Illinois, Michigan, Minnesota, Ohio, Pennsylvania, or Tennessee by checking your member ID card." },
+        { "@type": "HowToStep", "position": 2, "name": "Book online", "text": "Go to teledirectmd.com/book-online and choose 'Insurance' as your payment method. Enter your Aetna member ID." },
+        { "@type": "HowToStep", "position": 3, "name": "See the physician by video", "text": "Join your video visit with Dr. Parth Bhavsar, MD. Pay only your Aetna copay. Prescriptions are sent to your pharmacy immediately after the visit." }
+      ]
     }
   ]
 };
@@ -106,7 +124,7 @@ export default function AetnaHubClient() {
           <h1 style={{ fontFamily:B.fd, fontSize:"clamp(30px, 5vw, 46px)", fontWeight:700, color:B.white, lineHeight:1.15, margin:"0 0 16px" }}>
             Online Doctor Visits<br />Covered by Aetna
           </h1>
-          <p style={{ fontFamily:B.fb, fontSize:"clamp(16px, 2.5vw, 19px)", color:"rgba(255,255,255,0.75)", lineHeight:1.6, margin:"0 0 28px", maxWidth:580 }}>
+          <p data-speakable="true" style={{ fontFamily:B.fb, fontSize:"clamp(16px, 2.5vw, 19px)", color:"rgba(255,255,255,0.75)", lineHeight:1.6, margin:"0 0 28px", maxWidth:580 }}>
             TeleDirectMD is in-network with Aetna commercial plans in 10 states. See a board-certified physician by video today — your standard Aetna copay applies.
           </p>
           <div style={{ display:"flex", flexWrap:"wrap", gap:12 }}>
@@ -128,6 +146,13 @@ export default function AetnaHubClient() {
         <div style={{ margin:"32px 0" }}>
           <TrustBar />
         </div>
+
+        {/* QUICK ANSWER — AI visibility */}
+        <AnswerBlock
+          question="Is TeleDirectMD in-network with Aetna?"
+          answer="Yes. TeleDirectMD accepts Aetna commercial insurance in 10 states: Arizona, Colorado, Florida, Georgia, Illinois, Michigan, Minnesota, Ohio, Pennsylvania, and Tennessee. Book a same-day video visit with Dr. Parth Bhavsar, MD — your standard Aetna copay applies."
+          color={B.teal}
+        />
 
         {/* WHAT'S COVERED */}
         <section style={{ marginBottom:48 }}>

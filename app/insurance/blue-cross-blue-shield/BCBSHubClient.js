@@ -1,6 +1,6 @@
 'use client';
 import { B, INSURERS, INSURANCE_CONDITIONS } from '../../../data/insurance/insuranceConfig';
-import { FAQ, BookCTA, HowItWorksSteps, TrustBar, Breadcrumb, InsuranceDisclaimer } from '../components/InsuranceShared';
+import { FAQ, BookCTA, HowItWorksSteps, TrustBar, Breadcrumb, InsuranceDisclaimer, AnswerBlock } from '../components/InsuranceShared';
 import { Ico } from '../components/InsuranceIcons';
 
 const insurer = INSURERS["blue-cross-blue-shield"];
@@ -40,6 +40,12 @@ const SCHEMA = {
     { "@type":"MedicalOrganization","@id":"https://teledirectmd.com/#organization","name":"TeleDirectMD","url":"https://teledirectmd.com","description":"Physician-led telemedicine practice accepting Blue Cross Blue Shield plans in FL, GA, IL, PA, TX." },
     { "@type":"Physician","@id":"https://teledirectmd.com/#physician","name":"Parth Bhavsar, MD","identifier":{"@type":"PropertyValue","name":"NPI","value":"1104323203"},"medicalSpecialty":"Family Medicine","acceptsInsurance":[{"@type":"HealthInsurancePlan","name":"Blue Cross Blue Shield Commercial Plans"}] },
     { "@type":"FAQPage","mainEntity":BCBS_FAQS.map(f=>({ "@type":"Question","name":f.q,"acceptedAnswer":{"@type":"Answer","text":f.a.replace(/<[^>]+>/g,'')} })) },
+    { "@type":"WebPage","@id":"https://teledirectmd.com/insurance/blue-cross-blue-shield#webpage","url":"https://teledirectmd.com/insurance/blue-cross-blue-shield","name":"Online Doctor That Accepts Blue Cross Blue Shield | TeleDirectMD","speakable":{"@type":"SpeakableSpecification","cssSelector":["[data-speakable]"]} },
+    { "@type":"HowTo","name":"How to book a BCBS-covered telemedicine visit with TeleDirectMD","description":"Three steps to see Dr. Parth Bhavsar, MD by video using your Blue Cross Blue Shield plan.","totalTime":"PT5M","step":[
+      {"@type":"HowToStep","position":1,"name":"Identify your BCBS affiliate","text":"Check your member ID card for the affiliate name. TeleDirectMD is in-network with Florida Blue, Anthem BCBS Georgia, BCBS Illinois, Highmark/Independence Blue Cross Pennsylvania, and BCBS Texas."},
+      {"@type":"HowToStep","position":2,"name":"Book online","text":"Go to teledirectmd.com/book-online and choose 'Insurance' as your payment method. Enter your BCBS member ID."},
+      {"@type":"HowToStep","position":3,"name":"See the physician by video","text":"Join your video visit with Dr. Parth Bhavsar, MD. Pay only your BCBS copay. Prescriptions are sent to your pharmacy immediately after the visit."}
+    ]},
     { "@type":"BreadcrumbList","itemListElement":[
       {"@type":"ListItem","position":1,"name":"Home","item":"https://teledirectmd.com"},
       {"@type":"ListItem","position":2,"name":"Insurance","item":"https://teledirectmd.com/insurance"},
@@ -66,7 +72,7 @@ export default function BCBSHubClient() {
           <h1 style={{ fontFamily:B.fd, fontSize:"clamp(30px, 5vw, 46px)", fontWeight:700, color:B.white, lineHeight:1.15, margin:"0 0 16px" }}>
             Online Doctor Visits Covered<br />by Blue Cross Blue Shield
           </h1>
-          <p style={{ fontFamily:B.fb, fontSize:"clamp(16px, 2.5vw, 19px)", color:"rgba(255,255,255,0.75)", lineHeight:1.6, margin:"0 0 28px", maxWidth:600 }}>
+          <p data-speakable="true" style={{ fontFamily:B.fb, fontSize:"clamp(16px, 2.5vw, 19px)", color:"rgba(255,255,255,0.75)", lineHeight:1.6, margin:"0 0 28px", maxWidth:600 }}>
             TeleDirectMD is in-network with select BCBS affiliate plans in Florida, Georgia, Illinois, Pennsylvania, and Texas. Board-certified physician. Same-day video visits.
           </p>
           <div style={{ display:"flex", flexWrap:"wrap", gap:12 }}>
@@ -83,6 +89,13 @@ export default function BCBSHubClient() {
 
       <div style={{ maxWidth:880, margin:"0 auto", padding:"0 24px" }}>
         <div style={{ margin:"32px 0" }}><TrustBar /></div>
+
+        {/* QUICK ANSWER — AI visibility */}
+        <AnswerBlock
+          question="Is TeleDirectMD in-network with Blue Cross Blue Shield?"
+          answer="Yes, for specific BCBS state affiliates. TeleDirectMD is in-network with BCBS commercial plans in 5 states: Florida (Florida Blue), Georgia (Anthem BCBS GA), Illinois (BCBS IL), Pennsylvania (Highmark / Independence Blue Cross), and Texas (BCBS TX). Check your member ID card for the affiliate name, then book a same-day video visit with Dr. Parth Bhavsar, MD."
+          color={B.teal}
+        />
 
         {/* IMPORTANT: BCBS affiliate note */}
         <div style={{ background:"#EAF2FF", border:`1px solid ${insurer.color}33`, borderRadius:B.r, padding:"20px 24px", marginBottom:40, display:"flex", gap:14, alignItems:"flex-start" }}>

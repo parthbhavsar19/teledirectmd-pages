@@ -1,6 +1,6 @@
 'use client';
 import { B, INSURERS, INSURANCE_CONDITIONS } from '../../../data/insurance/insuranceConfig';
-import { FAQ, BookCTA, HowItWorksSteps, TrustBar, Breadcrumb, InsuranceDisclaimer } from '../components/InsuranceShared';
+import { FAQ, BookCTA, HowItWorksSteps, TrustBar, Breadcrumb, InsuranceDisclaimer, AnswerBlock } from '../components/InsuranceShared';
 import { Ico } from '../components/InsuranceIcons';
 
 const insurer = INSURERS["united-healthcare"];
@@ -46,6 +46,12 @@ const SCHEMA = {
     { "@type":"MedicalOrganization","@id":"https://teledirectmd.com/#organization","name":"TeleDirectMD","url":"https://teledirectmd.com","description":"Physician-led telemedicine practice accepting UnitedHealthcare commercial plans in 11 states." },
     { "@type":"Physician","@id":"https://teledirectmd.com/#physician","name":"Parth Bhavsar, MD","identifier":{"@type":"PropertyValue","name":"NPI","value":"1104323203"},"medicalSpecialty":"Family Medicine","acceptsInsurance":[{"@type":"HealthInsurancePlan","name":"UnitedHealthcare Commercial Plans"}] },
     { "@type":"FAQPage","mainEntity":UHC_FAQS.map(f=>({ "@type":"Question","name":f.q,"acceptedAnswer":{"@type":"Answer","text":f.a.replace(/<[^>]+>/g,'')} })) },
+    { "@type":"WebPage","@id":"https://teledirectmd.com/insurance/united-healthcare#webpage","url":"https://teledirectmd.com/insurance/united-healthcare","name":"Online Doctor That Accepts UnitedHealthcare | TeleDirectMD","speakable":{"@type":"SpeakableSpecification","cssSelector":["[data-speakable]"]} },
+    { "@type":"HowTo","name":"How to book a UnitedHealthcare-covered telemedicine visit with TeleDirectMD","description":"Three steps to see Dr. Parth Bhavsar, MD by video using your UnitedHealthcare commercial plan.","totalTime":"PT5M","step":[
+      {"@type":"HowToStep","position":1,"name":"Verify UHC coverage","text":"Confirm your UnitedHealthcare commercial plan is active in one of our 11 licensed states by checking your member ID card."},
+      {"@type":"HowToStep","position":2,"name":"Book online","text":"Go to teledirectmd.com/book-online and choose 'Insurance' as your payment method. Enter your UHC member ID."},
+      {"@type":"HowToStep","position":3,"name":"See the physician by video","text":"Join your video visit with Dr. Parth Bhavsar, MD. Pay only your UHC copay. Prescriptions are sent to your pharmacy immediately after the visit."}
+    ]},
     { "@type":"BreadcrumbList","itemListElement":[
       {"@type":"ListItem","position":1,"name":"Home","item":"https://teledirectmd.com"},
       {"@type":"ListItem","position":2,"name":"Insurance","item":"https://teledirectmd.com/insurance"},
@@ -71,7 +77,7 @@ export default function UHCHubClient() {
           <h1 style={{ fontFamily:B.fd, fontSize:"clamp(30px, 5vw, 46px)", fontWeight:700, color:B.white, lineHeight:1.15, margin:"0 0 16px" }}>
             Online Doctor Visits Covered<br />by UnitedHealthcare
           </h1>
-          <p style={{ fontFamily:B.fb, fontSize:"clamp(16px, 2.5vw, 19px)", color:"rgba(255,255,255,0.75)", lineHeight:1.6, margin:"0 0 28px", maxWidth:600 }}>
+          <p data-speakable="true" style={{ fontFamily:B.fb, fontSize:"clamp(16px, 2.5vw, 19px)", color:"rgba(255,255,255,0.75)", lineHeight:1.6, margin:"0 0 28px", maxWidth:600 }}>
             TeleDirectMD is in-network with UnitedHealthcare commercial plans in 11 states. Same-day video visits with a board-certified physician. Standard UHC copay applies.
           </p>
           <div style={{ display:"flex", flexWrap:"wrap", gap:12 }}>
@@ -88,6 +94,13 @@ export default function UHCHubClient() {
 
       <div style={{ maxWidth:880, margin:"0 auto", padding:"0 24px" }}>
         <div style={{ margin:"32px 0" }}><TrustBar /></div>
+
+        {/* QUICK ANSWER — AI visibility */}
+        <AnswerBlock
+          question="Is TeleDirectMD in-network with UnitedHealthcare?"
+          answer="Yes. TeleDirectMD accepts UnitedHealthcare commercial plans in 11 states. Book a same-day video visit with Dr. Parth Bhavsar, MD — your standard UHC copay applies. Bring your UHC member ID at booking and we will verify your benefits before the visit."
+          color={B.teal}
+        />
 
         <section style={{ marginBottom:48 }}>
           <h2 style={{ fontFamily:B.fd, fontSize:26, fontWeight:700, color:B.navy, margin:"0 0 8px" }}>States Where We Accept UnitedHealthcare</h2>
