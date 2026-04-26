@@ -6,6 +6,18 @@ import { COST_PAGES, COST_PAGE_SLUGS, COST_RELATED_LINKS } from '../../../lib/co
 import { COMPARE_PAGES } from '../../../lib/compare-pages-config';
 import { AGGREGATE_RATING_VALUE, TOTAL_REVIEW_COUNT } from '../../../lib/review-schema';
 import { buildCostCompareJsonLd } from '../../../lib/cost-compare-schema';
+import { SYMPTOM_PAGES } from '../../../lib/symptom-pages-config';
+
+// Map cost-page slug → symptom-page slugs that surface this cost guide.
+// The master /cost/online-doctor-visit-cost/ surfaces a sample of high-volume
+// symptoms that lead patients to the master cost question.
+const COST_PAGE_TO_SYMPTOMS = {
+  'online-doctor-visit-cost':       ['burning-urination', 'sinus-pressure', 'sore-throat', 'persistent-cough', 'allergy-symptoms', 'acid-reflux'],
+  'uti-treatment-cost':             ['burning-urination'],
+  'sinus-infection-treatment-cost': ['sinus-pressure', 'sinus-infection'],
+  'sore-throat-treatment-cost':     ['sore-throat', 'strep-throat'],
+  'online-prescription-cost':       ['acid-reflux', 'asthma', 'birth-control'],
+};
 
 const STATE_LIST = [
   ['AL','Alabama'],['AZ','Arizona'],['CA','California'],['CO','Colorado'],['CT','Connecticut'],['DE','Delaware'],['FL','Florida'],['GA','Georgia'],['HI','Hawaii'],['ID','Idaho'],['IL','Illinois'],['IN','Indiana'],['IA','Iowa'],['KS','Kansas'],['KY','Kentucky'],['LA','Louisiana'],['ME','Maine'],['MD','Maryland'],['MI','Michigan'],['MN','Minnesota'],['MS','Mississippi'],['MO','Missouri'],['MT','Montana'],['NE','Nebraska'],['NV','Nevada'],['NH','New Hampshire'],['NJ','New Jersey'],['NC','North Carolina'],['ND','North Dakota'],['OH','Ohio'],['OK','Oklahoma'],['PA','Pennsylvania'],['SC','South Carolina'],['SD','South Dakota'],['TN','Tennessee'],['TX','Texas'],['UT','Utah'],['WA','Washington'],['WV','West Virginia'],['WI','Wisconsin'],['WY','Wyoming'],
@@ -506,6 +518,28 @@ export default async function CostPage({ params }) {
           </div>
         </div>
       </section>
+
+      {/* 22b) Symptom guides that lead here — back-links to /symptoms/* */}
+      {(COST_PAGE_TO_SYMPTOMS[slug] || []).length > 0 && (
+        <section className="tdmd-section" id={`${pid}-symptom-back-links`}>
+          <div className="tdmd-container" data-speakable="true">
+            <h2>Symptom Guides That Lead to This Cost Question</h2>
+            <p>Patients usually arrive at a cost question via a symptom search. These symptom guides cover the questions and route to the same care plan:</p>
+            <div className="tdmd-related-grid">
+              {(COST_PAGE_TO_SYMPTOMS[slug] || []).map((s) => {
+                const r = SYMPTOM_PAGES[s];
+                if (!r) return null;
+                return (
+                  <a key={s} href={`/symptoms/${s}/`} className="tdmd-related-card">
+                    <span className="tdmd-related-title">{r.breadcrumb}</span>
+                    <span className="tdmd-related-desc">"{r.query}"</span>
+                  </a>
+                );
+              })}
+            </div>
+          </div>
+        </section>
+      )}
 
       {/* 23) Cross-links to sibling cost guides + platform comparisons + final CTA */}
       <section className="tdmd-section tdmd-section-highlight" id={`${pid}-cross-links`}>

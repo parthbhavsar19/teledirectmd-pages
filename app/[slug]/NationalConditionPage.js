@@ -1,7 +1,7 @@
 import { getStates, getConditionSlugs, getCondition, getConditionCategories, resolveConditionNational } from '../../lib/get-data';
 import { generateNationalJsonLd } from '../../lib/json-ld-national';
 import { INSURERS, INSURANCE_CONDITIONS } from '../../data/insurance/insuranceConfig';
-import { WhatDoesThisCostBlock, CompareTeleDirectMDLinkRow } from '../components/CostCompareModules';
+import { WhatDoesThisCostBlock, CompareTeleDirectMDLinkRow, CommonSymptomsBlock } from '../components/CostCompareModules';
 
 export default function NationalConditionPage({ conditionSlug }) {
   const rawCondition = getCondition(conditionSlug);
@@ -759,6 +759,9 @@ export default function NationalConditionPage({ conditionSlug }) {
 
       {/* 25) Compare TeleDirectMD — links to /compare/ pages from PR 5 */}
       <CompareTeleDirectMDLinkRow conditionSlug={conditionSlug} />
+
+      {/* 26) Common symptoms — back-links to /symptoms/* pages */}
+      <CommonSymptomsBlock conditionSlug={conditionSlug} conditionName={condition.conditionName} />
     </>
   );
 }

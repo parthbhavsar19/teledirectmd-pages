@@ -7,6 +7,7 @@ import {
   COMPARE_PAGES_INDEX,
   getCostPageLinkForCondition,
   getTopComparePageForCondition,
+  getSymptomsForCondition,
 } from '../../lib/internal-links';
 
 // "What does this cost?" block — used on national + state×condition pages.
@@ -122,3 +123,30 @@ export function WhoWeServePricingCTA({ pricingHook, relatedCostPage }) {
     </section>
   );
 }
+
+
+// "Common symptoms patients ask about" — back-link module for condition
+// pages. Surfaces the symptom-led landing pages that route to this
+// condition. Renders nothing if no symptom pages map to this condition.
+// Outbound edges: 1–2 per page (depending on how many symptoms map).
+export function CommonSymptomsBlock({ conditionSlug, conditionName }) {
+  const symptoms = getSymptomsForCondition(conditionSlug);
+  if (!symptoms.length) return null;
+  return (
+    <section className="tdmd-section" id={`symptoms-cta-${conditionSlug || "default"}`}>
+      <div className="tdmd-container" data-speakable="true">
+        <h2>Common Symptoms Patients Ask About</h2>
+        <p>If you reached this page from a symptom search rather than a diagnosis, these symptom guides cover the common patient questions that route to {conditionName ? conditionName.toLowerCase() : "this condition"}:</p>
+        <div className="tdmd-related-grid">
+          {symptoms.map((s) => (
+            <a key={s.slug} href={s.url} className="tdmd-related-card">
+              <span className="tdmd-related-title">{s.title}</span>
+              <span className="tdmd-related-desc">"{s.query}"</span>
+            </a>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+
