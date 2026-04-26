@@ -141,7 +141,7 @@ export default async function SymptomPage({ params }) {
 
               <p className="tdmd-reviewed">
                 Last reviewed on {today} by{' '}
-                <a className="tdmd-author-link" href="/about" aria-label="About Parth Bhavsar, MD">Parth Bhavsar, MD</a>{' '}— Board-Certified Family Medicine · NPI 1245687134 · LegitScript Certified · HIPAA-Compliant.
+                <a className="tdmd-author-link" href="/about" aria-label="About Parth Bhavsar, MD">Parth Bhavsar, MD</a>{' '}— Board-Certified Family Medicine · NPI 1104323203 · LegitScript Certified · HIPAA-Compliant.
               </p>
             </div>
 
@@ -221,7 +221,7 @@ export default async function SymptomPage({ params }) {
           </p>
           <ul className="tdmd-hero-benefits">
             <li>Board-certified Family Medicine — University of Mississippi Medical Center</li>
-            <li>NPI <strong>1245687134</strong> — verifiable in the NPPES NPI Registry</li>
+            <li>NPI <strong>1104323203</strong> — verifiable in the NPPES NPI Registry</li>
             <li>{AGGREGATE_RATING_VALUE} ★ across {TOTAL_REVIEW_COUNT} verified reviews (Google, Zocdoc, WebMD, Healthgrades)</li>
             <li>LegitScript-certified telehealth practice</li>
             <li>HIPAA-compliant platform — encrypted video, secure records, no data resale</li>
@@ -427,7 +427,7 @@ export default async function SymptomPage({ params }) {
         <div className="tdmd-container">
           <h2>Medical Disclaimer</h2>
           <p>
-            This page is informational and is not a diagnosis or substitute for medical care. <strong>Last reviewed {today} by Parth Bhavsar, MD (NPI 1245687134), board-certified Family Medicine.</strong> Telehealth services are for non-emergency conditions in adults 18+ physically located in one of TeleDirectMD\'s 41 licensed states at the time of the visit. We do not prescribe controlled substances. If you are experiencing a medical emergency — including any of the red-flag scenarios above — call 911 or go to the nearest emergency room.
+            This page is informational and is not a diagnosis or substitute for medical care. <strong>Last reviewed {today} by Parth Bhavsar, MD (NPI 1104323203), board-certified Family Medicine.</strong> Telehealth services are for non-emergency conditions in adults 18+ physically located in one of TeleDirectMD\'s 41 licensed states at the time of the visit. We do not prescribe controlled substances. If you are experiencing a medical emergency — including any of the red-flag scenarios above — call 911 or go to the nearest emergency room.
           </p>
         </div>
       </section>
