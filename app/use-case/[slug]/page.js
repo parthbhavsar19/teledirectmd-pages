@@ -83,6 +83,9 @@ export default async function UseCasePage({ params }) {
     faqs: cfg.faqs,
     today,
     itemList,
+    medicalCondition: cfg.medicalCondition,
+    service: cfg.service,
+    procedure: cfg.procedure,
   });
 
   return (

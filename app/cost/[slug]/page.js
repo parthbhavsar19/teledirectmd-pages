@@ -75,6 +75,9 @@ export default async function CostPage({ params }) {
     ],
     faqs: cfg.faqs,
     today,
+    medicalCondition: cfg.medicalCondition,
+    service: cfg.service,
+    procedure: cfg.procedure,
   });
 
   return (
