@@ -123,7 +123,7 @@ export default async function CostPage({ params }) {
 
               <p className="tdmd-reviewed">
                 Cost comparison last updated {today}. Reviewed by{' '}
-                <a className="tdmd-author-link" href="/about" aria-label="About Parth Bhavsar, MD">Parth Bhavsar, MD</a>{' '}— Board-Certified Family Medicine · NPI 1245687134 · LegitScript Certified · HIPAA-Compliant.
+                <a className="tdmd-author-link" href="/about" aria-label="About Parth Bhavsar, MD">Parth Bhavsar, MD</a>{' '}— Board-Certified Family Medicine · NPI 1104323203 · LegitScript Certified · HIPAA-Compliant.
               </p>
             </div>
 
@@ -191,7 +191,7 @@ export default async function CostPage({ params }) {
           </p>
           <ul className="tdmd-hero-benefits">
             <li>Board-certified Family Medicine — University of Mississippi Medical Center</li>
-            <li>NPI <strong>1245687134</strong> — verifiable in the NPPES NPI Registry</li>
+            <li>NPI <strong>1104323203</strong> — verifiable in the NPPES NPI Registry</li>
             <li>{AGGREGATE_RATING_VALUE} ★ across {TOTAL_REVIEW_COUNT} verified reviews (Google, Zocdoc, WebMD, Healthgrades)</li>
             <li>LegitScript-certified telehealth practice</li>
             <li>HIPAA-compliant platform — encrypted video, secure records, no data resale</li>
