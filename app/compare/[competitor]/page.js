@@ -86,6 +86,9 @@ export default async function ComparePage({ params }) {
     faqs: cfg.faqs,
     today,
     itemList,
+    medicalCondition: cfg.medicalCondition,
+    service: cfg.service,
+    procedure: cfg.procedure,
   });
 
   return (
