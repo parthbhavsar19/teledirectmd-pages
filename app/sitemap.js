@@ -3,6 +3,7 @@ import { INSURERS, INSURANCE_CONDITIONS } from '../data/insurance/insuranceConfi
 import { COST_PAGE_SLUGS } from '../lib/cost-pages-config';
 import { COMPARE_PAGE_SLUGS } from '../lib/compare-pages-config';
 import { SYMPTOM_PAGE_SLUGS } from '../lib/symptom-pages-config';
+import { USE_CASE_PAGE_SLUGS } from '../lib/use-case-pages-config';
 
 const SITE = 'https://teledirectmd.com';
 
@@ -108,6 +109,11 @@ export default function sitemap() {
   // 11) Symptom-led landing pages (/symptoms/{slug}/)
   for (const slug of SYMPTOM_PAGE_SLUGS) {
     urls.push(url(`/symptoms/${slug}/`, 0.75, 'monthly'));
+  }
+
+  // 12) Use-case landing pages (/use-case/{slug}/)
+  for (const slug of USE_CASE_PAGE_SLUGS) {
+    urls.push(url(`/use-case/${slug}/`, 0.8, 'monthly'));
   }
 
   return urls;
