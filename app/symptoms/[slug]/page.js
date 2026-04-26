@@ -317,7 +317,14 @@ export default async function SymptomPage({ params }) {
                       {m.dosageForm ? <div style={{ fontSize: '0.85rem', color: 'var(--tdmd-muted)' }}>{m.dosageForm}</div> : null}
                     </td>
                     <td style={{ padding: '0.75rem', verticalAlign: 'top' }}>{m.dose}</td>
-                    <td style={{ padding: '0.75rem', verticalAlign: 'top' }}>{m.price}</td>
+                    <td style={{ padding: '0.75rem', verticalAlign: 'top' }}>
+                      {m.price}
+                      {m.priceSourceUrl ? (
+                        <div style={{ fontSize: '0.78rem', marginTop: '0.25rem' }}>
+                          <a href={m.priceSourceUrl} rel="nofollow noopener" target="_blank">verify on {m.priceSourceLabel || 'GoodRx'}</a>
+                        </div>
+                      ) : null}
+                    </td>
                     <td style={{ padding: '0.75rem', verticalAlign: 'top' }}>{m.sideEffects}</td>
                   </tr>
                 ))}
@@ -325,7 +332,7 @@ export default async function SymptomPage({ params }) {
             </table>
           </div>
           <p style={{ fontSize: '0.88rem', color: 'var(--tdmd-muted)' }}>
-            Cash prices reflect typical 2026 GoodRx-coupon retail-pharmacy ranges. Your pharmacy and insurance may differ. <a href="https://www.goodrx.com/" rel="nofollow noopener" target="_blank">GoodRx pricing source</a>.
+            Cash prices are indicative ranges verified against <a href="https://www.goodrx.com/" rel="nofollow noopener" target="_blank">GoodRx</a>, <a href="https://www.costplusdrugs.com/" rel="nofollow noopener" target="_blank">Mark Cuban Cost Plus Drugs</a>, and the <a href="https://www.goodrx.com/drugs/savings/the-walmart-4-generic-prescriptions-list" rel="nofollow noopener" target="_blank">Walmart $4 generic list</a> in April 2026. Click the verify link in each row to confirm current pricing at your pharmacy. Insurance copay may be lower. Prices change frequently — always verify before filling.
           </p>
         </div>
       </section>
