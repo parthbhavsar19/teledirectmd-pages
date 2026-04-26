@@ -2,7 +2,7 @@ import { getStates, getConditionSlugs, getCondition, getStateBySlug, resolveCond
 import { generateJsonLd } from '../../../lib/json-ld';
 import { getStateInsurance } from '../../../lib/insurance-data';
 import { getInsuranceLinksForConditionState } from '../../../lib/internal-links';
-import { WhatDoesThisCostBlock, CompareTeleDirectMDLinkRow } from '../../components/CostCompareModules';
+import { WhatDoesThisCostBlock, CompareTeleDirectMDLinkRow, CommonSymptomsBlock } from '../../components/CostCompareModules';
 
 export async function generateStaticParams() {
   const states = getStates();
@@ -720,6 +720,9 @@ export default async function ConditionPage({ params }) {
 
       {/* 23) Compare TeleDirectMD — links to /compare/ pages from PR 5 */}
       <CompareTeleDirectMDLinkRow conditionSlug={conditionSlug} />
+
+      {/* 24) Common symptoms — back-links to /symptoms/* pages */}
+      <CommonSymptomsBlock conditionSlug={conditionSlug} conditionName={condition.conditionName} />
     </>
   );
 }
