@@ -1,6 +1,7 @@
 import { getStates, getConditionSlugs } from '../lib/get-data';
 import { INSURERS, INSURANCE_CONDITIONS } from '../data/insurance/insuranceConfig';
 import { COST_PAGE_SLUGS } from '../lib/cost-pages-config';
+import { COMPARE_PAGE_SLUGS } from '../lib/compare-pages-config';
 
 const SITE = 'https://teledirectmd.com';
 
@@ -96,6 +97,11 @@ export default function sitemap() {
   // 9) Cost-comparison pages (/cost/{slug}/)
   for (const slug of COST_PAGE_SLUGS) {
     urls.push(url(`/cost/${slug}/`, 0.8, 'monthly'));
+  }
+
+  // 10) Platform-comparison pages (/compare/{competitor}/)
+  for (const slug of COMPARE_PAGE_SLUGS) {
+    urls.push(url(`/compare/${slug}/`, 0.8, 'monthly'));
   }
 
   return urls;
