@@ -3,6 +3,7 @@
 // 23-section gold standard in app/who-we-serve/[segment]/InternationalVisitorsPage.js.
 
 import { COST_PAGES, COST_PAGE_SLUGS, COST_RELATED_LINKS } from '../../../lib/cost-pages-config';
+import { COMPARE_PAGES } from '../../../lib/compare-pages-config';
 import { getAggregateRating, getReviewBlock, AGGREGATE_RATING_VALUE, TOTAL_REVIEW_COUNT } from '../../../lib/review-schema';
 
 const STATE_ABBRS = ['AL','AZ','CA','CO','CT','DE','FL','GA','HI','ID','IL','IN','IA','KS','KY','LA','ME','MD','MI','MN','MS','MO','MT','NE','NV','NH','NJ','NC','ND','OH','OK','PA','SC','SD','TN','TX','UT','WA','WV','WI','WY'];
@@ -574,7 +575,7 @@ export default async function CostPage({ params }) {
         </div>
       </section>
 
-      {/* 23) Cross-links + platform-comparison teaser + final CTA */}
+      {/* 23) Cross-links to sibling cost guides + platform comparisons + final CTA */}
       <section className="tdmd-section tdmd-section-highlight" id={`${pid}-cross-links`}>
         <div className="tdmd-container">
           <h2>Related Cost Guides</h2>
@@ -591,11 +592,19 @@ export default async function CostPage({ params }) {
             })}
           </div>
 
-          <div className="tdmd-inline-links" style={{ marginTop: '1.5rem' }}>
-            <h3>Compare TeleDirectMD to Other Telehealth Platforms</h3>
-            <p>
-              Researching how TeleDirectMD stacks up against Teladoc, MDLIVE, Amwell, Doctor on Demand, Sesame, or K Health? Side-by-side platform comparisons with verified 2026 cash-pay pricing are coming soon under <strong>/compare/</strong>. In the meantime, our flat $49 rate is the lowest published cash-pay rate among MD-led video-visit platforms — see the <a href="/cost/online-doctor-visit-cost/#online-doctor-cost-platforms">platform table on the master cost page</a> for current data.
-            </p>
+          <h2 style={{ marginTop: '2rem' }}>Compare TeleDirectMD to Other Telehealth Platforms</h2>
+          <p>Side-by-side comparisons with verified 2026 cash-pay pricing and inline source citations on every claim:</p>
+          <div className="tdmd-related-grid">
+            {related.relatedCompare.map((s) => {
+              const c = COMPARE_PAGES[s];
+              if (!c) return null;
+              return (
+                <a key={s} href={`/compare/${s}/`} className="tdmd-related-card">
+                  <span className="tdmd-related-title">TeleDirectMD vs. {c.competitorName}</span>
+                  <span className="tdmd-related-desc">{c.metaDescription.slice(0, 110)}…</span>
+                </a>
+              );
+            })}
           </div>
 
           <div className="tdmd-bottom-cta" style={{ marginTop: '1.5rem' }}>

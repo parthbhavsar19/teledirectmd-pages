@@ -1,6 +1,7 @@
 import { getStates, getConditionSlugs, getCondition, getConditionCategories, resolveConditionNational } from '../../lib/get-data';
 import { generateNationalJsonLd } from '../../lib/json-ld-national';
 import { INSURERS, INSURANCE_CONDITIONS } from '../../data/insurance/insuranceConfig';
+import { WhatDoesThisCostBlock, CompareTeleDirectMDLinkRow } from '../components/CostCompareModules';
 
 export default function NationalConditionPage({ conditionSlug }) {
   const rawCondition = getCondition(conditionSlug);
@@ -752,6 +753,12 @@ export default function NationalConditionPage({ conditionSlug }) {
           </div>
         </div>
       </section>
+
+      {/* 24) What does this cost? — links to /cost/ pages from PR 4 */}
+      <WhatDoesThisCostBlock conditionSlug={conditionSlug} conditionName={condition.conditionName} />
+
+      {/* 25) Compare TeleDirectMD — links to /compare/ pages from PR 5 */}
+      <CompareTeleDirectMDLinkRow conditionSlug={conditionSlug} />
     </>
   );
 }
