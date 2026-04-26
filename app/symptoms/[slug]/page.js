@@ -1,8 +1,7 @@
 // /symptoms/[slug]/ — dynamic route for the 20 symptom-led landing pages.
 // Content lives in lib/symptom-pages-config.js. Schema via lib/symptom-schema.js.
-// Structure mirrors the 23-section gold-standard pattern from
-// app/who-we-serve/[segment]/InternationalVisitorsPage.js, adapted for a
-// symptom-first narrative.
+// Structure mirrors the gold-standard condition-page pattern (4,300+ words,
+// 14 FAQs, 25+ H2/H3 headings, per-symptom differentials + medications).
 
 import {
   SYMPTOM_PAGES,
@@ -64,7 +63,7 @@ export default async function SymptomPage({ params }) {
   const costPageUrl = costPageSlug ? `/cost/${costPageSlug}/` : MASTER_COST_PAGE;
   const costPageLabel = costPageSlug ? COST_PAGES[costPageSlug].breadcrumb : 'Online Doctor Visit Cost';
 
-  // ── JSON-LD via shared helper (E-E-A-T fields stay aligned with PR #7).
+  // ── JSON-LD via shared helper (E-E-A-T fields aligned with PR #7).
   const jsonLd = buildSymptomJsonLd({
     pageUrl,
     symptomName: cfg.breadcrumb,
@@ -73,12 +72,16 @@ export default async function SymptomPage({ params }) {
     treatment: cfg.symptomDef.treatment,
     conditionName: cfg.symptomDef.conditionDisplayName,
     conditionUrl,
+    differentials: cfg.differentials,
+    medications: cfg.medications,
+    riskFactors: cfg.riskFactors,
+    typicalTests: cfg.typicalTests,
     headline: cfg.h1,
     description: cfg.metaDescription,
     breadcrumb: [
-      { name: 'Home',                 item: `${BASE_URL}/` },
-      { name: 'Symptoms',             item: `${BASE_URL}/symptoms/burning-urination/` },
-      { name: cfg.breadcrumb,         item: pageUrl },
+      { name: 'Home',         item: `${BASE_URL}/` },
+      { name: 'Symptoms',     item: `${BASE_URL}/symptoms/` },
+      { name: cfg.breadcrumb, item: pageUrl },
     ],
     faqs: cfg.faqs,
     today,
@@ -93,7 +96,7 @@ export default async function SymptomPage({ params }) {
         <div className="tdmd-container" style={{ paddingTop: '0.5rem', paddingBottom: '0' }}>
           <a href="/">Home</a>
           <span className="tdmd-bc-sep" aria-hidden="true">/</span>
-          <a href="/symptoms/burning-urination/">Symptoms</a>
+          <a href="/symptoms/">Symptoms</a>
           <span className="tdmd-bc-sep" aria-hidden="true">/</span>
           <span aria-current="page">{cfg.breadcrumb}</span>
         </div>
@@ -174,7 +177,58 @@ export default async function SymptomPage({ params }) {
         </div>
       </section>
 
-      {/* 5) When to seek care immediately — RED FLAGS */}
+      {/* 5) Differential Diagnosis Table — per-symptom causes */}
+      <section className="tdmd-section" id={`${pid}-differential`}>
+        <div className="tdmd-container">
+          <h2>Differential Diagnosis: What Could Be Causing This</h2>
+          <p>
+            Below are the most common causes a board-certified MD considers when a patient presents with this symptom pattern. Telehealth is appropriate for the outpatient causes; the others need in-person evaluation, imaging, or labs.
+          </p>
+          <div style={{ overflowX: 'auto', margin: '1rem 0' }}>
+            <table className="tdmd-table" style={{ width: '100%', borderCollapse: 'collapse', fontSize: '0.95rem' }}>
+              <thead>
+                <tr style={{ background: '#EAF7F8', textAlign: 'left' }}>
+                  <th style={{ padding: '0.75rem', borderBottom: '2px solid #006B73' }}>Condition</th>
+                  <th style={{ padding: '0.75rem', borderBottom: '2px solid #006B73' }}>How common</th>
+                  <th style={{ padding: '0.75rem', borderBottom: '2px solid #006B73' }}>Distinguishing features</th>
+                  <th style={{ padding: '0.75rem', borderBottom: '2px solid #006B73' }}>Right next step</th>
+                </tr>
+              </thead>
+              <tbody>
+                {cfg.differentials.map((d, i) => (
+                  <tr key={i} style={{ borderBottom: '1px solid #e2e8f0' }}>
+                    <td style={{ padding: '0.75rem', verticalAlign: 'top' }}>
+                      <strong>{d.name}</strong>
+                      {d.description ? <div style={{ fontSize: '0.88rem', color: 'var(--tdmd-muted)', marginTop: '0.25rem' }}>{d.description}</div> : null}
+                    </td>
+                    <td style={{ padding: '0.75rem', verticalAlign: 'top' }}>{d.prevalence}</td>
+                    <td style={{ padding: '0.75rem', verticalAlign: 'top' }}>{d.features}</td>
+                    <td style={{ padding: '0.75rem', verticalAlign: 'top' }}>{d.next}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          {cfg.typicalTests && cfg.typicalTests.length > 0 ? (
+            <>
+              <h3>Tests an MD May Use</h3>
+              <ul>
+                {cfg.typicalTests.map((t, i) => <li key={i}>{t}</li>)}
+              </ul>
+            </>
+          ) : null}
+          {cfg.riskFactors && cfg.riskFactors.length > 0 ? (
+            <>
+              <h3>Common Risk Factors</h3>
+              <ul>
+                {cfg.riskFactors.map((r, i) => <li key={i}>{r}</li>)}
+              </ul>
+            </>
+          ) : null}
+        </div>
+      </section>
+
+      {/* 6) Red flags — when to seek care immediately */}
       <section className="tdmd-section" id={`${pid}-red-flags`}>
         <div className="tdmd-container">
           <h2>When to Seek Care Immediately</h2>
@@ -187,7 +241,29 @@ export default async function SymptomPage({ params }) {
         </div>
       </section>
 
-      {/* 6) How telehealth diagnoses this */}
+      {/* 7) When telehealth IS the right choice — eligibility */}
+      <section className="tdmd-section tdmd-section-highlight" id={`${pid}-eligibility`}>
+        <div className="tdmd-container">
+          <h2>When Telehealth Is the Right Choice for This Symptom</h2>
+          <p>A $49 video visit is appropriate if you fit the following profile:</p>
+          <ul className="tdmd-checklist tdmd-checklist--good">
+            {cfg.eligibility.map((e, i) => <li key={i}>{e}</li>)}
+          </ul>
+        </div>
+      </section>
+
+      {/* 8) When telehealth is NOT right — notEligibility */}
+      <section className="tdmd-section" id={`${pid}-not-eligibility`}>
+        <div className="tdmd-container">
+          <h2>When Telehealth Is Not the Right Choice</h2>
+          <p>Skip the video visit and seek in-person care if:</p>
+          <ul className="tdmd-checklist tdmd-checklist--alert">
+            {cfg.notEligibility.map((e, i) => <li key={i}>{e}</li>)}
+          </ul>
+        </div>
+      </section>
+
+      {/* 9) How a TeleDirectMD visit handles this */}
       <section className="tdmd-section tdmd-section-highlight" id={`${pid}-how-telehealth`}>
         <div className="tdmd-container">
           <h2>How a TeleDirectMD Visit Handles This</h2>
@@ -197,22 +273,117 @@ export default async function SymptomPage({ params }) {
         </div>
       </section>
 
-      {/* 7) Cost callout — primary cost-page link */}
+      {/* 10) Treatment Options — H3 per category */}
+      <section className="tdmd-section" id={`${pid}-treatment`}>
+        <div className="tdmd-container">
+          <h2>Treatment Options</h2>
+          <p>The treatment plan depends on the underlying cause identified during the visit. Here is what an MD considers, by category:</p>
+          {cfg.treatmentOptions.map((t, i) => (
+            <div key={i} style={{ margin: '1rem 0' }}>
+              <h3>{t.category}</h3>
+              <p>{t.detail}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* 11) Medication Reference Table */}
+      <section className="tdmd-section tdmd-section-highlight" id={`${pid}-medications`}>
+        <div className="tdmd-container">
+          <h2>Common Medications: Doses, Prices, and Side Effects</h2>
+          <p>
+            Below is a clinician-reference table of the medications most commonly prescribed for this symptom pattern. <strong>This is informational only</strong> — actual prescribing is decided during your visit based on your history, allergies, and risk factors. We do not prescribe controlled substances.
+          </p>
+          <div style={{ overflowX: 'auto', margin: '1rem 0' }}>
+            <table className="tdmd-table" style={{ width: '100%', borderCollapse: 'collapse', fontSize: '0.92rem' }}>
+              <thead>
+                <tr style={{ background: '#EAF7F8', textAlign: 'left' }}>
+                  <th style={{ padding: '0.75rem', borderBottom: '2px solid #006B73' }}>Medication</th>
+                  <th style={{ padding: '0.75rem', borderBottom: '2px solid #006B73' }}>Class & form</th>
+                  <th style={{ padding: '0.75rem', borderBottom: '2px solid #006B73' }}>Typical dose</th>
+                  <th style={{ padding: '0.75rem', borderBottom: '2px solid #006B73' }}>Cash price (generic)</th>
+                  <th style={{ padding: '0.75rem', borderBottom: '2px solid #006B73' }}>Notes / side effects</th>
+                </tr>
+              </thead>
+              <tbody>
+                {cfg.medications.map((m, i) => (
+                  <tr key={i} style={{ borderBottom: '1px solid #e2e8f0' }}>
+                    <td style={{ padding: '0.75rem', verticalAlign: 'top' }}>
+                      <strong>{m.generic}</strong>
+                      {m.brand ? <div style={{ fontSize: '0.85rem', color: 'var(--tdmd-muted)' }}>{m.brand}</div> : null}
+                    </td>
+                    <td style={{ padding: '0.75rem', verticalAlign: 'top' }}>
+                      {m.drugClass}
+                      {m.dosageForm ? <div style={{ fontSize: '0.85rem', color: 'var(--tdmd-muted)' }}>{m.dosageForm}</div> : null}
+                    </td>
+                    <td style={{ padding: '0.75rem', verticalAlign: 'top' }}>{m.dose}</td>
+                    <td style={{ padding: '0.75rem', verticalAlign: 'top' }}>{m.price}</td>
+                    <td style={{ padding: '0.75rem', verticalAlign: 'top' }}>{m.sideEffects}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p style={{ fontSize: '0.88rem', color: 'var(--tdmd-muted)' }}>
+            Cash prices reflect typical 2026 GoodRx-coupon retail-pharmacy ranges. Your pharmacy and insurance may differ. <a href="https://www.goodrx.com/" rel="nofollow noopener" target="_blank">GoodRx pricing source</a>.
+          </p>
+        </div>
+      </section>
+
+      {/* 12) Recovery timeline */}
+      <section className="tdmd-section" id={`${pid}-recovery`}>
+        <div className="tdmd-container">
+          <h2>Recovery Timeline: What to Expect</h2>
+          <p>How quickly you feel better depends on the cause and the treatment chosen. Below is the typical recovery arc for this symptom when properly diagnosed and treated:</p>
+          <div className="tdmd-grid tdmd-grid-2">
+            {cfg.recovery.map((r, i) => (
+              <div key={i} className="tdmd-card tdmd-card-good">
+                <h3>{r.period}</h3>
+                <p>{r.detail}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* 13) Home care — what you can do today */}
+      <section className="tdmd-section tdmd-section-highlight" id={`${pid}-home-care`}>
+        <div className="tdmd-container">
+          <h2>Home Care: What You Can Do Today</h2>
+          <p>While you wait for your visit or for prescription medication to take effect, these evidence-based self-care steps help most patients with this symptom:</p>
+          <ul className="tdmd-checklist tdmd-checklist--good">
+            {cfg.homeCare.map((h, i) => <li key={i}>{h}</li>)}
+          </ul>
+          <p style={{ fontSize: '0.9rem', color: 'var(--tdmd-muted)', marginTop: '0.75rem' }}>
+            Home care supports — but does not replace — appropriate medical evaluation. If your symptoms worsen or persist beyond the recovery window above, book a visit or seek in-person care.
+          </p>
+        </div>
+      </section>
+
+      {/* 14) Cost callout — primary cost-page link */}
       <section className="tdmd-section" id={`${pid}-cost-cta`}>
         <div className="tdmd-container" data-speakable="true">
           <h2>What does treatment cost?</h2>
           <p>
-            A $49 telehealth visit is the cheapest legitimate care setting for this kind of symptom. {costPageSlug
+            A $49 telehealth visit is the lowest-cost legitimate care setting for this kind of symptom. {costPageSlug
               ? `For a full breakdown of treatment cost — visit + medication + tests — see our cost guide.`
               : `For a full breakdown comparing telehealth, urgent care, retail clinics, and ER pricing for an online doctor visit, see our master cost guide.`}
           </p>
+          <ul style={{ lineHeight: 1.7 }}>
+            <li><strong>TeleDirectMD video visit:</strong> $49 flat, cash-pay or HSA/FSA</li>
+            <li><strong>Average national telehealth visit:</strong> ~$82 per a 2024 industry survey</li>
+            <li><strong>Retail clinic (CVS MinuteClinic, Walgreens):</strong> $99–$139 cash</li>
+            <li><strong>Primary care office visit (cash):</strong> ~$171 average</li>
+            <li><strong>Urgent care visit:</strong> ~$280 average cash</li>
+            <li><strong>Emergency department visit:</strong> ~$2,715 average per a 2024 KFF/Peterson Health analysis</li>
+          </ul>
           <div className="tdmd-related-cta" style={{ marginTop: '0.75rem' }}>
             <a href={costPageUrl} className="tdmd-btn tdmd-btn-primary">{costPageLabel} →</a>
           </div>
         </div>
       </section>
 
-      {/* 8) Trust */}
+      {/* 15) Trust */}
       <section className="tdmd-section tdmd-section-highlight" id={`${pid}-trust`}>
         <div className="tdmd-container">
           <h2>Why TeleDirectMD: A Real Doctor, Not an Algorithm</h2>
@@ -229,7 +400,7 @@ export default async function SymptomPage({ params }) {
         </div>
       </section>
 
-      {/* 9) AggregateRating callout (schema is emitted; this is visible reinforcement) */}
+      {/* 16) AggregateRating callout */}
       <section className="tdmd-section" id={`${pid}-rating`}>
         <div className="tdmd-container">
           <h2>Patient Reviews — {AGGREGATE_RATING_VALUE} / 5 Across {TOTAL_REVIEW_COUNT} Verified Reviews</h2>
@@ -243,7 +414,7 @@ export default async function SymptomPage({ params }) {
         </div>
       </section>
 
-      {/* 10) State coverage */}
+      {/* 17) State coverage */}
       <section className="tdmd-section" id={`${pid}-states`}>
         <div className="tdmd-container">
           <h2>Available in 41 States</h2>
@@ -256,7 +427,7 @@ export default async function SymptomPage({ params }) {
         </div>
       </section>
 
-      {/* 11) Conditions we treat — related-links */}
+      {/* 18) Conditions we treat */}
       <section className="tdmd-section tdmd-section-highlight" id={`${pid}-conditions`}>
         <div className="tdmd-container">
           <h2>Conditions Commonly Treated at the $49 Visit</h2>
@@ -275,7 +446,7 @@ export default async function SymptomPage({ params }) {
         </div>
       </section>
 
-      {/* 12) Related symptoms — 3-card grid */}
+      {/* 19) Related symptoms */}
       <section className="tdmd-section" id={`${pid}-related-symptoms`}>
         <div className="tdmd-container">
           <h2>Related Symptoms Patients Often Search</h2>
@@ -294,7 +465,7 @@ export default async function SymptomPage({ params }) {
         </div>
       </section>
 
-      {/* 13) Real patient scenarios */}
+      {/* 20) Real patient scenarios */}
       <section className="tdmd-section tdmd-section-highlight" id={`${pid}-scenarios`}>
         <div className="tdmd-container">
           <h2>Real Patient Scenarios</h2>
@@ -310,7 +481,7 @@ export default async function SymptomPage({ params }) {
         </div>
       </section>
 
-      {/* 14) FAQ */}
+      {/* 21) FAQ */}
       <section className="tdmd-section tdmd-faq" id={`${pid}-faq`}>
         <div className="tdmd-container">
           <h2>Frequently Asked Questions</h2>
@@ -325,7 +496,7 @@ export default async function SymptomPage({ params }) {
         </div>
       </section>
 
-      {/* 15) Insurance + cash-pay reinforcement */}
+      {/* 22) Insurance + cash-pay reinforcement */}
       <section className="tdmd-section" id={`${pid}-insurance`}>
         <div className="tdmd-container" data-speakable="true">
           <h2>$49 Cash-Pay or In-Network with Aetna, BCBS, UHC</h2>
@@ -338,7 +509,7 @@ export default async function SymptomPage({ params }) {
         </div>
       </section>
 
-      {/* 16) Cross-links to master cost page + one compare page */}
+      {/* 23) Cross-links to master cost page + one compare page */}
       <section className="tdmd-section tdmd-section-highlight" id={`${pid}-cross-links`}>
         <div className="tdmd-container">
           <h2>Cost & Platform Comparisons</h2>
@@ -355,7 +526,7 @@ export default async function SymptomPage({ params }) {
         </div>
       </section>
 
-      {/* 17) Symptom + condition narrative bridge */}
+      {/* 24) Symptom + condition narrative bridge */}
       <section className="tdmd-section" id={`${pid}-bridge`}>
         <div className="tdmd-container">
           <h2>From Symptom to Treatment Plan</h2>
@@ -363,12 +534,12 @@ export default async function SymptomPage({ params }) {
             Most patients searching <em>"{cfg.query}"</em> are looking for two things: <strong>what this is</strong> and <strong>how to get treated quickly</strong>. The visit covers both — a focused history with a board-certified MD, a clear diagnosis or working diagnosis, and a prescription routed to your pharmacy of choice when one is appropriate.
           </p>
           <p>
-            The <a href={conditionUrl} style={{ color: 'var(--tdmd-teal)', fontWeight: 600 }}>{cfg.symptomDef.conditionDisplayName} treatment page</a> covers the full clinical picture for the routed condition — what we treat, what we don\'t, eligibility, medications, and references. Use the symptom page to decide whether a $49 visit is the right next step.
+            The <a href={conditionUrl} style={{ color: 'var(--tdmd-teal)', fontWeight: 600 }}>{cfg.symptomDef.conditionDisplayName} treatment page</a> covers the full clinical picture for the routed condition — what we treat, what we don&apos;t, eligibility, medications, and references. Use the symptom page to decide whether a $49 visit is the right next step.
           </p>
         </div>
       </section>
 
-      {/* 18) The healthcare-access gap (anchor narrative for E-E-A-T) */}
+      {/* 25) The healthcare-access gap */}
       <section className="tdmd-section tdmd-section-highlight" id={`${pid}-context`}>
         <div className="tdmd-container">
           <h2>Why a $49 Visit Matters Here</h2>
@@ -381,20 +552,20 @@ export default async function SymptomPage({ params }) {
         </div>
       </section>
 
-      {/* 19) Solution / what to do next */}
+      {/* 26) What to do next */}
       <section className="tdmd-section" id={`${pid}-solution`}>
         <div className="tdmd-container">
           <h2>What To Do Next</h2>
           <ol style={{ lineHeight: 1.7, paddingLeft: '1.25rem' }}>
             <li><strong>Check the red-flag list above.</strong> If any apply, this page is not the right care path — go to in-person urgent care or the ER.</li>
             <li><strong>If symptoms match the patterns described</strong>, book a $49 video visit. Most appointments take 10–15 minutes.</li>
-            <li><strong>If a prescription is appropriate</strong>, it\'s sent to your pharmacy of choice — usually within 30 minutes of the visit ending.</li>
-            <li><strong>If the visit determines a different care path is needed</strong> (lab work, in-person exam, specialist referral), you\'ll receive clear next steps. No charge for the misroute.</li>
+            <li><strong>If a prescription is appropriate</strong>, it&apos;s sent to your pharmacy of choice — usually within 30 minutes of the visit ending.</li>
+            <li><strong>If the visit determines a different care path is needed</strong> (lab work, in-person exam, specialist referral), you&apos;ll receive clear next steps. No charge for the misroute.</li>
           </ol>
         </div>
       </section>
 
-      {/* 20) References */}
+      {/* 27) References */}
       <section className="tdmd-section tdmd-section-highlight" id={`${pid}-references`}>
         <div className="tdmd-container">
           <h2>References</h2>
@@ -406,7 +577,7 @@ export default async function SymptomPage({ params }) {
         </div>
       </section>
 
-      {/* 21) Final CTA */}
+      {/* 28) Final CTA */}
       <section className="tdmd-section" id={`${pid}-final-cta`}>
         <div className="tdmd-container">
           <div className="tdmd-bottom-cta">
@@ -422,12 +593,12 @@ export default async function SymptomPage({ params }) {
         </div>
       </section>
 
-      {/* 22) Disclaimer + Last reviewed stamp */}
+      {/* 29) Disclaimer + Last reviewed stamp */}
       <section className="tdmd-section tdmd-footnote" id={`${pid}-disclaimer`}>
         <div className="tdmd-container">
           <h2>Medical Disclaimer</h2>
           <p>
-            This page is informational and is not a diagnosis or substitute for medical care. <strong>Last reviewed {today} by Parth Bhavsar, MD (NPI 1104323203), board-certified Family Medicine.</strong> Telehealth services are for non-emergency conditions in adults 18+ physically located in one of TeleDirectMD\'s 41 licensed states at the time of the visit. We do not prescribe controlled substances. If you are experiencing a medical emergency — including any of the red-flag scenarios above — call 911 or go to the nearest emergency room.
+            This page is informational and is not a diagnosis or substitute for medical care. <strong>Last reviewed {today} by Parth Bhavsar, MD (NPI 1104323203), board-certified Family Medicine.</strong> Telehealth services are for non-emergency conditions in adults 18+ physically located in one of TeleDirectMD&apos;s 41 licensed states at the time of the visit. We do not prescribe controlled substances. If you are experiencing a medical emergency — including any of the red-flag scenarios above — call 911 or go to the nearest emergency room.
           </p>
         </div>
       </section>
