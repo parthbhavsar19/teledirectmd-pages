@@ -4,9 +4,9 @@
 
 import { COST_PAGES, COST_PAGE_SLUGS, COST_RELATED_LINKS } from '../../../lib/cost-pages-config';
 import { COMPARE_PAGES } from '../../../lib/compare-pages-config';
-import { getAggregateRating, getReviewBlock, AGGREGATE_RATING_VALUE, TOTAL_REVIEW_COUNT } from '../../../lib/review-schema';
+import { AGGREGATE_RATING_VALUE, TOTAL_REVIEW_COUNT } from '../../../lib/review-schema';
+import { buildCostCompareJsonLd } from '../../../lib/cost-compare-schema';
 
-const STATE_ABBRS = ['AL','AZ','CA','CO','CT','DE','FL','GA','HI','ID','IL','IN','IA','KS','KY','LA','ME','MD','MI','MN','MS','MO','MT','NE','NV','NH','NJ','NC','ND','OH','OK','PA','SC','SD','TN','TX','UT','WA','WV','WI','WY'];
 const STATE_LIST = [
   ['AL','Alabama'],['AZ','Arizona'],['CA','California'],['CO','Colorado'],['CT','Connecticut'],['DE','Delaware'],['FL','Florida'],['GA','Georgia'],['HI','Hawaii'],['ID','Idaho'],['IL','Illinois'],['IN','Indiana'],['IA','Iowa'],['KS','Kansas'],['KY','Kentucky'],['LA','Louisiana'],['ME','Maine'],['MD','Maryland'],['MI','Michigan'],['MN','Minnesota'],['MS','Mississippi'],['MO','Missouri'],['MT','Montana'],['NE','Nebraska'],['NV','Nevada'],['NH','New Hampshire'],['NJ','New Jersey'],['NC','North Carolina'],['ND','North Dakota'],['OH','Ohio'],['OK','Oklahoma'],['PA','Pennsylvania'],['SC','South Carolina'],['SD','South Dakota'],['TN','Tennessee'],['TX','Texas'],['UT','Utah'],['WA','Washington'],['WV','West Virginia'],['WI','Wisconsin'],['WY','Wyoming'],
 ];
@@ -49,89 +49,21 @@ export default async function CostPage({ params }) {
   const pid = cfg.pid;
   const related = COST_RELATED_LINKS[slug] || { relatedCost: [], relatedCompare: [] };
 
-  // ── JSON-LD: BreadcrumbList + MedicalOrganization + Physician + Article + FAQPage + HowTo + MedicalWebPage
-  const physicianBlock = {
-    '@type': 'Physician',
-    '@id': `${baseUrl}/about#physician`,
-    name: 'Parth Bhavsar, MD',
-    medicalSpecialty: 'FamilyMedicine',
-    identifier: { '@type': 'PropertyValue', propertyID: 'NPI', value: '1245687134' },
-    alumniOf: { '@type': 'EducationalOrganization', name: 'University of Mississippi Medical Center' },
-    worksFor: { '@type': 'MedicalOrganization', name: 'TeleDirectMD' },
-    licensedIn: STATE_ABBRS,
-    ...getReviewBlock(),
-  };
-
-  const jsonLd = {
-    '@context': 'https://schema.org',
-    '@graph': [
-      {
-        '@type': 'BreadcrumbList',
-        '@id': `${pageUrl}#breadcrumbs`,
-        itemListElement: [
-          { '@type': 'ListItem', position: 1, name: 'Home', item: `${baseUrl}/` },
-          { '@type': 'ListItem', position: 2, name: 'Cost Comparisons', item: `${baseUrl}/cost/online-doctor-visit-cost/` },
-          { '@type': 'ListItem', position: 3, name: cfg.breadcrumb, item: pageUrl },
-        ],
-      },
-      {
-        '@type': 'MedicalOrganization',
-        '@id': `${baseUrl}#org`,
-        name: 'TeleDirectMD',
-        url: baseUrl,
-        logo: `${baseUrl}/assets/brand/teledirectmd-logo.png`,
-        telephone: '+1-678-956-1855',
-        medicalSpecialty: 'GeneralPractice',
-        availableService: { '@type': 'MedicalTherapy', name: 'Telehealth Consultations' },
-        areaServed: STATE_ABBRS,
-        aggregateRating: getAggregateRating(),
-      },
-      physicianBlock,
-      {
-        '@type': 'Article',
-        '@id': `${pageUrl}#article`,
-        headline: cfg.h1,
-        description: cfg.metaDescription,
-        url: pageUrl,
-        datePublished: '2026-04-26',
-        dateModified: today,
-        author: { '@id': `${baseUrl}/about#physician` },
-        publisher: { '@id': `${baseUrl}#org` },
-        mainEntityOfPage: pageUrl,
-      },
-      {
-        '@type': 'FAQPage',
-        '@id': `${pageUrl}#faq`,
-        mainEntity: cfg.faqs.map((f) => ({
-          '@type': 'Question',
-          name: f.question,
-          acceptedAnswer: { '@type': 'Answer', text: f.answer },
-        })),
-      },
-      {
-        '@type': 'HowTo',
-        '@id': `${pageUrl}#howto`,
-        name: 'How to Get a TeleDirectMD Visit',
-        step: [
-          { '@type': 'HowToStep', position: 1, name: 'Book online', text: 'Book a same-day visit at teledirectmd.com/book-online for $49 flat. No insurance required.' },
-          { '@type': 'HowToStep', position: 2, name: 'Connect by video', text: 'Connect with Dr. Parth Bhavsar, MD by secure video. Most visits take 10–15 minutes.' },
-          { '@type': 'HowToStep', position: 3, name: 'Get treated', text: 'Receive a diagnosis, e-prescription to your pharmacy of choice, and a written visit summary.' },
-        ],
-      },
-      {
-        '@type': 'MedicalWebPage',
-        '@id': `${pageUrl}#webpage`,
-        url: pageUrl,
-        name: cfg.metaTitle,
-        description: cfg.metaDescription,
-        datePublished: '2026-04-26',
-        dateModified: today,
-        author: { '@id': `${baseUrl}/about#physician` },
-        publisher: { '@id': `${baseUrl}#org` },
-        speakable: { '@type': 'SpeakableSpecification', cssSelector: ['.tdmd-hero h1', '.tdmd-answer-block', '.tdmd-faq-question'] },
-      },
+  // ── JSON-LD: built via shared helper to keep E-E-A-T fields consistent
+  // across cost + compare pages (author, publisher, address, lastReviewed,
+  // reviewedBy). See lib/cost-compare-schema.js.
+  const jsonLd = buildCostCompareJsonLd({
+    pageUrl,
+    headline: cfg.h1,
+    description: cfg.metaDescription,
+    breadcrumb: [
+      { name: 'Home',              item: `${baseUrl}/` },
+      { name: 'Cost Comparisons',  item: `${baseUrl}/cost/online-doctor-visit-cost/` },
+      { name: cfg.breadcrumb,      item: pageUrl },
     ],
-  };
+    faqs: cfg.faqs,
+    today,
+  });
 
   return (
     <>
