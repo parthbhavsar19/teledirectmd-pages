@@ -1,6 +1,7 @@
 'use client';
 import { B, INSURERS, INSURANCE_CONDITIONS } from '../../../data/insurance/insuranceConfig';
 import { FAQ, BookCTA, HowItWorksSteps, TrustBar, Breadcrumb, InsuranceDisclaimer, AnswerBlock } from '../components/InsuranceShared';
+import { CompareToOtherTelehealthGrid, Or49CashLink } from '../../components/CostCompareModules';
 import { Ico } from '../components/InsuranceIcons';
 import { getAggregateRating, getReviewBlock } from '../../../lib/review-schema';
 
@@ -181,6 +182,10 @@ export default function BCBSHubClient() {
             <a href="/insurance/blue-cross-blue-shield/texas/pink-eye" style={{ display:"block", background:B.white, border:`1px solid ${B.border}`, borderRadius:B.rs, padding:"12px 14px", textDecoration:"none", boxShadow:B.shadow, color:B.navy }}>Pink eye covered by BCBS in Texas →</a>
           </div>
         </section>
+
+        {/* Cost-page link + compare-grid (PR 3 of cost-and-compare sprint) */}
+        <Or49CashLink />
+        <CompareToOtherTelehealthGrid heading="Compare TeleDirectMD to Other Telehealth Providers" />
 
         <div style={{ marginBottom:48 }}><InsuranceDisclaimer /></div>
       </div>

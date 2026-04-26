@@ -1,6 +1,7 @@
 'use client';
 import { B, INSURANCE_CONDITIONS, INSURERS, STATE_NAMES, COPAY_DATA, STATE_INSURANCE_MAP, LAST_REVIEWED } from '../../../data/insurance/insuranceConfig';
 import { FAQ, BookCTA, HowItWorksSteps, TrustBar, Breadcrumb, InsuranceDisclaimer, AnswerBlock, CopayCard, PatientJourney, CommissionerLink, CrossInsurerTable } from './InsuranceShared';
+import { CompareToOtherTelehealthGrid, Or49CashLink } from '../../components/CostCompareModules';
 import { Ico } from './InsuranceIcons';
 import { getNationalConditionSlug } from '../../../lib/internal-links';
 import { getAggregateRating, getReviewBlock } from '../../../lib/review-schema';
@@ -323,6 +324,10 @@ export default function InsuranceStateConditionClient({ insurerSlug, stateSlug, 
 
         {/* COMMISSIONER LINK */}
         <CommissionerLink stateCode={stateCode} stateName={stateName} />
+
+        {/* Cost-page link + compare-grid (PR 3 of cost-and-compare sprint) */}
+        <Or49CashLink />
+        <CompareToOtherTelehealthGrid heading="Compare TeleDirectMD to Other Telehealth Providers" />
 
         <div style={{ marginBottom: 48 }}><InsuranceDisclaimer /></div>
       </div>

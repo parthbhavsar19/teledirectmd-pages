@@ -1,6 +1,7 @@
 'use client';
 import { B, INSURANCE_CONDITIONS, INSURERS, STATE_NAMES, COPAY_DATA, LAST_REVIEWED } from '../../../data/insurance/insuranceConfig';
 import { FAQ, BookCTA, HowItWorksSteps, TrustBar, Breadcrumb, InsuranceDisclaimer, AnswerBlock, PatientJourney, InsurerTrustDetails } from './InsuranceShared';
+import { CompareToOtherTelehealthGrid, Or49CashLink } from '../../components/CostCompareModules';
 import { Ico } from './InsuranceIcons';
 import { getAggregateRating, getReviewBlock } from '../../../lib/review-schema';
 
@@ -277,6 +278,11 @@ export default function InsuranceConditionClient({ insurerSlug, conditionSlug })
           <span style={{ color: B.border }}>|</span>
           <a href={`/${cond.conditionPageSlug}`} style={{ fontSize: 14, color: B.teal, textDecoration: "none" }}>{cond.displayName} Treatment →</a>
         </div>
+
+        {/* Cost-page link + compare-grid (PR 3 of cost-and-compare sprint) */}
+        <Or49CashLink />
+        <CompareToOtherTelehealthGrid heading="Compare TeleDirectMD to Other Telehealth Providers" />
+
         <div style={{ marginBottom: 48 }}><InsuranceDisclaimer /></div>
       </div>
     </div>

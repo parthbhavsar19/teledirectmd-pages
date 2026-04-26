@@ -2,6 +2,7 @@ import { getStates, getConditionSlugs, getCondition, getStateBySlug, resolveCond
 import { generateJsonLd } from '../../../lib/json-ld';
 import { getStateInsurance } from '../../../lib/insurance-data';
 import { getInsuranceLinksForConditionState } from '../../../lib/internal-links';
+import { WhatDoesThisCostBlock, CompareTeleDirectMDLinkRow } from '../../components/CostCompareModules';
 
 export async function generateStaticParams() {
   const states = getStates();
@@ -713,6 +714,12 @@ export default async function ConditionPage({ params }) {
           </div>
         </div>
       </section>
+
+      {/* 22) What does this cost? — links to /cost/ pages from PR 4 */}
+      <WhatDoesThisCostBlock conditionSlug={conditionSlug} conditionName={condition.conditionName} stateName={state.name} />
+
+      {/* 23) Compare TeleDirectMD — links to /compare/ pages from PR 5 */}
+      <CompareTeleDirectMDLinkRow conditionSlug={conditionSlug} />
     </>
   );
 }
