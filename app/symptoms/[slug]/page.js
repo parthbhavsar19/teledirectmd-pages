@@ -472,23 +472,7 @@ export default async function SymptomPage({ params }) {
         </div>
       </section>
 
-      {/* 20) Real patient scenarios */}
-      <section className="tdmd-section tdmd-section-highlight" id={`${pid}-scenarios`}>
-        <div className="tdmd-container">
-          <h2>Real Patient Scenarios</h2>
-          <div className="tdmd-grid tdmd-grid-2">
-            {cfg.scenarios.map((s, i) => (
-              <div key={i} className="tdmd-card tdmd-card-good">
-                <h3>{s.name}</h3>
-                <p>{s.story}</p>
-                <p style={{ fontWeight: 700, color: 'var(--tdmd-teal)' }}>{s.save}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* 21) FAQ */}
+      {/* FAQ */}
       <section className="tdmd-section tdmd-faq" id={`${pid}-faq`}>
         <div className="tdmd-container">
           <h2>Frequently Asked Questions</h2>

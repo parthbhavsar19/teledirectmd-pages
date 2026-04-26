@@ -341,23 +341,7 @@ export default async function CostPage({ params }) {
         </div>
       </section>
 
-      {/* 13) Real patient scenarios */}
-      <section className="tdmd-section tdmd-section-highlight" id={`${pid}-scenarios`}>
-        <div className="tdmd-container">
-          <h2>Real Patient Scenarios</h2>
-          <div className="tdmd-grid tdmd-grid-2">
-            {cfg.scenarios.map((s, i) => (
-              <div key={i} className="tdmd-card tdmd-card-good">
-                <h3>{s.name}</h3>
-                <p>{s.story}</p>
-                <p style={{ fontWeight: 700, color: 'var(--tdmd-teal)' }}>{s.save}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* 14) Optional condition rollup */}
+      {/* Optional condition rollup */}
       {cfg.conditionRollup && (
         <section className="tdmd-section" id={`${pid}-rollup`}>
           <div className="tdmd-container">
