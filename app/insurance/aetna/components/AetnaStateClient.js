@@ -7,10 +7,11 @@ import { getAggregateRating, getReviewBlock } from '../../../../lib/review-schem
 
 const insurer = INSURERS.aetna;
 
-const STATE_CODE_MAP = { arizona:"AZ", colorado:"CO", florida:"FL", georgia:"GA", illinois:"IL", michigan:"MI", minnesota:"MN", ohio:"OH", pennsylvania:"PA", tennessee:"TN" };
+const STATE_CODE_MAP = { arizona:"AZ", california:"CA", colorado:"CO", florida:"FL", georgia:"GA", illinois:"IL", michigan:"MI", minnesota:"MN", ohio:"OH", pennsylvania:"PA", tennessee:"TN" };
 
 const STATE_CONTEXT = {
   AZ:{cities:["Phoenix","Tucson","Scottsdale","Mesa","Chandler"],note:"Arizona's dry climate makes respiratory conditions and sinus infections extremely common. Aetna is a major commercial insurer in the Arizona employer market with strong plan penetration in the Phoenix metro."},
+  CA:{cities:["Los Angeles","San Diego","San Jose","San Francisco","Fresno"],note:"California has some of the strongest telehealth parity laws in the country, requiring commercial insurers including Aetna to reimburse video visits comparably to in-person care. Aetna's California commercial plan footprint covers most major metros, making same-day telemedicine highly accessible for Aetna members statewide."},
   CO:{cities:["Denver","Aurora","Colorado Springs","Boulder","Fort Collins"],note:"Colorado's active, health-conscious population and high altitude make same-day telehealth especially convenient. Aetna and UHC are both in-network at TeleDirectMD in Colorado — two options for most Colorado employer plan members."},
   FL:{cities:["Miami","Orlando","Tampa","Jacksonville","Fort Lauderdale"],note:"Florida is one of TeleDirectMD's largest markets. Aetna and Florida Blue (BCBS) are both in-network, giving most Florida residents at least one insurance option for same-day telehealth care."},
   GA:{cities:["Atlanta","Savannah","Augusta","Columbus","Macon"],note:"Georgia is TeleDirectMD's home state and core market. All three major insurers — Aetna, Anthem BCBS, and UHC — are in-network for Georgia residents, giving the broadest multi-insurer coverage of any state we serve."},

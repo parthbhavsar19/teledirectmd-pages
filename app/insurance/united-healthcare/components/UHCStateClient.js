@@ -7,7 +7,7 @@ import { getAggregateRating, getReviewBlock } from '../../../../lib/review-schem
 
 const insurer = INSURERS['united-healthcare'];
 
-const STATE_CODE_MAP = { colorado:'CO', georgia:'GA', illinois:'IL', minnesota:'MN', 'north-carolina':'NC', 'new-jersey':'NJ', ohio:'OH', oklahoma:'OK', pennsylvania:'PA', tennessee:'TN', washington:'WA' };
+const STATE_CODE_MAP = { colorado:'CO', georgia:'GA', illinois:'IL', minnesota:'MN', 'north-carolina':'NC', 'new-jersey':'NJ', ohio:'OH', pennsylvania:'PA', tennessee:'TN', washington:'WA' };
 
 const STATE_CONTEXT = {
   CO:{cities:['Denver','Aurora','Colorado Springs','Boulder','Fort Collins'],note:"UnitedHealthcare is a major commercial insurer in Colorado with strong Denver metro employer plan presence. Colorado's active, tech-forward population embraces telehealth. Aetna is also in-network in Colorado, giving two insurer options for most residents."},
@@ -17,7 +17,6 @@ const STATE_CONTEXT = {
   NC:{cities:['Charlotte','Raleigh','Greensboro','Durham','Winston-Salem'],note:"North Carolina's fast-growing Research Triangle and Charlotte metro drive strong UHC commercial plan enrollment. UHC is a major insurer for tech, banking, and healthcare employers in North Carolina."},
   NJ:{cities:['Newark','Jersey City','Paterson','Elizabeth','Edison'],note:"New Jersey is one of the most densely insured states in the country. UHC has significant commercial presence in NJ, particularly for mid-to-large employer plans in the New York metro area."},
   OH:{cities:['Columbus','Cleveland','Cincinnati','Toledo','Akron'],note:"Ohio is a strong two-insurer market with both UHC and Aetna in-network at TeleDirectMD. Ohio UHC employer plans frequently carry $0 virtual care copays for large employer groups."},
-  OK:{cities:['Oklahoma City','Tulsa','Norman','Broken Arrow','Edmond'],note:"UnitedHealthcare is a leading commercial insurer in Oklahoma. TeleDirectMD brings physician-led telehealth to Oklahoma UHC commercial members statewide."},
   PA:{cities:['Philadelphia','Pittsburgh','Allentown','Erie','Reading'],note:"Pennsylvania has TeleDirectMD's broadest multi-insurer coverage: Aetna, Highmark BCBS, and UHC all in-network. UHC is especially strong in the Philadelphia market and large PA employer plans."},
   TN:{cities:['Nashville','Memphis','Knoxville','Chattanooga','Clarksville'],note:"Tennessee's major employer base — HCA Healthcare, Vanderbilt, FedEx, Dollar General — makes commercial plan coverage especially prevalent. UHC and Aetna are both in-network at TeleDirectMD in Tennessee."},
   WA:{cities:['Seattle','Spokane','Tacoma','Bellevue','Everett'],note:"Washington State's large tech employer base in the Seattle–Bellevue corridor drives strong UHC commercial plan enrollment. Amazon, Microsoft, Boeing, and Costco are among the state's major employers with common UHC plans."},

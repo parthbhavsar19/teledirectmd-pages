@@ -2,9 +2,10 @@
 
 import { useState, useEffect, useRef } from "react";
 
-// ─── Data: Only ACTIVE contracts (live for billing as of April 2026) ───
+// ─── Data: Only ACTIVE contracts (live for billing as of May 2026) ───
 const insuranceData = {
   AZ: { state: "Arizona", insurers: [{ name: "Aetna", group: "Aetna", plans: ["Commercial plans accepted"] }] },
+  CA: { state: "California", insurers: [{ name: "Aetna", group: "Aetna", plans: ["Commercial plans accepted"] }] },
   CO: { state: "Colorado", insurers: [{ name: "Aetna", group: "Aetna", plans: ["Commercial plans accepted"] }, { name: "UnitedHealthcare", group: "UHC", plans: ["Commercial plans accepted"] }] },
   FL: { state: "Florida", insurers: [{ name: "Aetna", group: "Aetna", plans: ["Commercial plans accepted"] }, { name: "Florida Blue", group: "BCBS", plans: ["Individual plans", "Group plans"] }] },
   GA: { state: "Georgia", insurers: [{ name: "Aetna", group: "Aetna", plans: ["Commercial plans accepted"] }, { name: "Anthem Blue Cross Blue Shield", group: "BCBS", plans: ["Commercial plans accepted"] }, { name: "UnitedHealthcare", group: "UHC", plans: ["Commercial plans accepted"] }] },
@@ -47,7 +48,7 @@ const insurerSlugByGroup = {
 
 // State code → lowercase full-name slug used by insurer×state routes
 const stateSlugByCode = {
-  AZ: "arizona", CO: "colorado", FL: "florida", GA: "georgia", IL: "illinois",
+  AZ: "arizona", CA: "california", CO: "colorado", FL: "florida", GA: "georgia", IL: "illinois",
   MI: "michigan", MN: "minnesota", NC: "north-carolina", NJ: "new-jersey",
   OH: "ohio", PA: "pennsylvania", TN: "tennessee", TX: "texas", WA: "washington",
 };
@@ -235,7 +236,7 @@ export default function InsuranceClient() {
         <p style={{ fontSize: 15, color: B.text, margin: "0 0 24px", lineHeight: 1.5 }}>We are in-network with the following insurers across select states. Coverage is expanding regularly.</p>
         <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(200px, 1fr))", gap: 12 }}>
           {[
-            { group: "Aetna", color: insurerColors.Aetna, states: ["AZ","CO","FL","GA","IL","MI","MN","OH","PA","TN"], note: "Commercial plans" },
+            { group: "Aetna", color: insurerColors.Aetna, states: ["AZ","CA","CO","FL","GA","IL","MI","MN","OH","PA","TN"], note: "Commercial plans" },
             { group: "Blue Cross Blue Shield", color: insurerColors.BCBS, states: ["FL","GA","IL","PA","TX"], note: "Select plans by state" },
             { group: "UnitedHealthcare", color: insurerColors.UHC, states: ["CO","GA","IL","MN","NC","NJ","OH","PA","TN","WA"], note: "Commercial plans" },
           ].map((item, i) => (
@@ -300,7 +301,7 @@ export default function InsuranceClient() {
       {/* ═══ DISCLAIMER ═══ */}
       <div style={{ maxWidth: 720, margin: "0 auto", padding: "0 24px 48px" }}>
         <p style={{ fontSize: 12, color: B.text, lineHeight: 1.7, borderTop: `1px solid ${B.border}`, paddingTop: 20, opacity: 0.7 }}>
-          Insurance coverage and plan acceptance are subject to change. The information on this page reflects currently active contracts as of April 2026. Not all plans from a listed insurer may be accepted. Medicaid and Medicare fee-for-service plans are not accepted unless specifically noted. Patients are encouraged to verify benefits with their insurer before booking. TeleDirectMD does not guarantee insurance coverage for any specific service or visit. For the most current information, contact us at <a href="mailto:contact@teledirectmd.com" style={{ color: B.teal }}>contact@teledirectmd.com</a>.
+          Insurance coverage and plan acceptance are subject to change. The information on this page reflects currently active contracts as of May 2026. Not all plans from a listed insurer may be accepted. Medicaid and Medicare fee-for-service plans are not accepted unless specifically noted. Patients are encouraged to verify benefits with their insurer before booking. TeleDirectMD does not guarantee insurance coverage for any specific service or visit. For the most current information, contact us at <a href="mailto:contact@teledirectmd.com" style={{ color: B.teal }}>contact@teledirectmd.com</a>.
         </p>
       </div>
     </div>

@@ -13,7 +13,6 @@ const STATE_SLUGS = {
   'north-carolina': 'NC',
   'new-jersey': 'NJ',
   ohio: 'OH',
-  oklahoma: 'OK',
   pennsylvania: 'PA',
   tennessee: 'TN',
   washington: 'WA',
@@ -46,7 +45,7 @@ export async function generateMetadata({ params }) {
   if (cond) {
     return {
       title: `Does UnitedHealthcare Cover ${cond.displayName} Telemedicine? | TeleDirectMD`,
-      description: `Yes — UHC commercial plans cover ${cond.name} telehealth visits. TeleDirectMD is in-network with UnitedHealthcare in 11 states. Board-certified physician. Same-day video visits.`,
+      description: `Yes — UHC commercial plans cover ${cond.name} telehealth visits. TeleDirectMD is in-network with UnitedHealthcare in 10 states. Board-certified physician. Same-day video visits.`,
       alternates: { canonical: `https://teledirectmd.com/insurance/united-healthcare/${segment}` },
       openGraph: {
         title: `Does UnitedHealthcare Cover ${cond.displayName} Telemedicine? | TeleDirectMD`,

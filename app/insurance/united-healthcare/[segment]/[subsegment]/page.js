@@ -10,7 +10,6 @@ const STATE_SLUGS = {
   'north-carolina': 'NC',
   'new-jersey': 'NJ',
   ohio: 'OH',
-  oklahoma: 'OK',
   pennsylvania: 'PA',
   tennessee: 'TN',
   washington: 'WA',

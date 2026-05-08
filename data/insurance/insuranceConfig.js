@@ -1,7 +1,7 @@
 // ─────────────────────────────────────────────────────────────────────────────
 // TeleDirectMD — Central Insurance Configuration
 // Single source of truth for all /insurance/* pages
-// Last verified: April 2026
+// Last verified: May 2026
 // ─────────────────────────────────────────────────────────────────────────────
 
 export const INSURERS = {
@@ -14,8 +14,8 @@ export const INSURERS = {
     color: "#7B2CBF",
     colorLight: "#F3EAFF",
     tagline: "Commercial & Medicare Advantage plans accepted",
-    description: "Aetna is one of the nation's largest health insurers, offering commercial, Medicare Advantage, and marketplace plans. TeleDirectMD is in-network with Aetna commercial plans in 10 states.",
-    states: ["AZ","CO","FL","GA","IL","MI","MN","OH","PA","TN"],
+    description: "Aetna is one of the nation's largest health insurers, offering commercial, Medicare Advantage, and marketplace plans. TeleDirectMD is in-network with Aetna commercial plans in 11 states.",
+    states: ["AZ","CA","CO","FL","GA","IL","MI","MN","OH","PA","TN"],
     planTypes: ["Commercial plans", "Employer-sponsored plans", "Individual & Family Plans"],
     notAccepted: ["Medicaid","Medicare fee-for-service","Aetna Better Health (Medicaid)"],
     memberPortal: "https://www.aetna.com/individuals-families/member-rights-resources/find-a-form.html",
@@ -23,9 +23,9 @@ export const INSURERS = {
     billingCodes: ["99213","99214"],
     claimsPhone: "1-888-632-3862",
     metaTitle: "Online Doctor That Accepts Aetna Insurance | TeleDirectMD",
-    metaDescription: "TeleDirectMD accepts Aetna insurance in 10 states. Board-certified physician. Video visits for UTI, sinus, asthma, hypertension & more. Check your state coverage.",
+    metaDescription: "TeleDirectMD accepts Aetna insurance in 11 states. Board-certified physician. Video visits for UTI, sinus, asthma, hypertension & more. Check your state coverage.",
     h1: "Online Doctor Visits Covered by Aetna",
-    heroSubtitle: "TeleDirectMD is in-network with Aetna commercial plans in Arizona, Colorado, Florida, Georgia, Illinois, Michigan, Minnesota, Ohio, Pennsylvania, and Tennessee.",
+    heroSubtitle: "TeleDirectMD is in-network with Aetna commercial plans in Arizona, California, Colorado, Florida, Georgia, Illinois, Michigan, Minnesota, Ohio, Pennsylvania, and Tennessee.",
     faqSlug: "aetna",
   },
   "blue-cross-blue-shield": {
@@ -72,9 +72,9 @@ export const INSURERS = {
     logo: "/logos/unitedhealthcare.svg",
     color: "#1A7A3A",
     colorLight: "#E6FFF0",
-    tagline: "Commercial UHC plans accepted in 11 states",
-    description: "UnitedHealthcare is the largest health insurer in the United States. TeleDirectMD is in-network with UHC commercial plans in 11 states, including major markets like Georgia, Ohio, Pennsylvania, and Illinois.",
-    states: ["CO","GA","IL","MN","NC","NJ","OH","OK","PA","TN","WA"],
+    tagline: "Commercial UHC plans accepted in 10 states",
+    description: "UnitedHealthcare is the largest health insurer in the United States. TeleDirectMD is in-network with UHC commercial plans in 10 states, including major markets like Georgia, Ohio, Pennsylvania, and Illinois.",
+    states: ["CO","GA","IL","MN","NC","NJ","OH","PA","TN","WA"],
     planTypes: ["Commercial plans","Employer-sponsored plans","UnitedHealthcare Choice","UnitedHealthcare Options PPO"],
     notAccepted: ["Medicaid (UnitedHealthcare Community Plan)","Medicare fee-for-service","AARP Medicare Advantage"],
     memberPortal: "https://www.myuhc.com",
@@ -82,9 +82,9 @@ export const INSURERS = {
     billingCodes: ["99213","99214"],
     claimsPhone: "1-866-892-9993",
     metaTitle: "Online Doctor That Accepts UnitedHealthcare | TeleDirectMD",
-    metaDescription: "TeleDirectMD accepts UnitedHealthcare commercial plans in 11 states. Board-certified physician. Same-day video visits for UTI, sinus infection, hypertension & more.",
+    metaDescription: "TeleDirectMD accepts UnitedHealthcare commercial plans in 10 states. Board-certified physician. Same-day video visits for UTI, sinus infection, hypertension & more.",
     h1: "Online Doctor Visits Covered by UnitedHealthcare",
-    heroSubtitle: "TeleDirectMD is in-network with UnitedHealthcare commercial plans in Colorado, Georgia, Illinois, Minnesota, North Carolina, New Jersey, Ohio, Oklahoma, Pennsylvania, Tennessee, and Washington.",
+    heroSubtitle: "TeleDirectMD is in-network with UnitedHealthcare commercial plans in Colorado, Georgia, Illinois, Minnesota, North Carolina, New Jersey, Ohio, Pennsylvania, Tennessee, and Washington.",
     faqSlug: "uhc",
   },
 };
@@ -109,13 +109,14 @@ export const TDMD_STATES = [
 ];
 
 // Insurance-active states (any insurer)
-export const INSURANCE_STATES = ["AZ","CO","FL","GA","IL","MI","MN","NC","NJ","OH","OK","PA","TN","TX","WA"];
+export const INSURANCE_STATES = ["AZ","CA","CO","FL","GA","IL","MI","MN","NC","NJ","OH","PA","TN","TX","WA"];
 
-// ─── Copay data: real ranges from published plan documents, April 2026 ───────
+// ─── Copay data: real ranges from published plan documents, May 2026 ─────────
 // Format: { typical: "$X–$Y", employer: "often $0", note: "..." }
 export const COPAY_DATA = {
   aetna: {
     AZ: { typical: "$10–$40", employer: "Often $0–$15 for employer plans", note: "Aetna Arizona commercial telehealth copays are set per plan. HSA-qualified plans apply deductible first." },
+    CA: { typical: "$10–$40", employer: "Often $0–$20 for employer plans", note: "California's strong telehealth parity laws keep Aetna telehealth copays comparable to in-person office visits. HMO and PPO plans both covered." },
     CO: { typical: "$10–$35", employer: "Often $0–$15 for employer plans", note: "Aetna Colorado commercial plans typically have telehealth copays below the in-person specialist rate." },
     FL: { typical: "$10–$40", employer: "Often $0–$20 for employer plans", note: "Florida mandates telehealth parity, so Aetna Florida telehealth copays match your office visit copay." },
     GA: { typical: "$0–$30", employer: "Often $0 for employer plans", note: "Georgia is TeleDirectMD's home state. Aetna Georgia plans frequently carry $0 telehealth copays for employers." },
@@ -141,7 +142,6 @@ export const COPAY_DATA = {
     NC: { typical: "$5–$35", employer: "Often $0–$15 for employer plans", note: "UHC North Carolina has strong Research Triangle employer plan penetration. Telehealth copays are competitive." },
     NJ: { typical: "$10–$40", employer: "Often $0–$20 for employer plans", note: "UHC New Jersey employer plans are common in the NJ/NY metro corridor. Verify your plan's telehealth benefit at myuhc.com." },
     OH: { typical: "$0–$30", employer: "Often $0 for employer plans", note: "UHC Ohio commercial plans frequently carry $0 virtual care copays for established employer relationships." },
-    OK: { typical: "$10–$40", employer: "Often $0–$20 for employer plans", note: "UHC Oklahoma telehealth benefits vary. Many employer plans have reduced copays for telehealth vs. in-person." },
     PA: { typical: "$0–$30", employer: "Often $0 for employer plans", note: "UHC Pennsylvania is one of three in-network insurers at TeleDirectMD. Employer plans often include $0 virtual care." },
     TN: { typical: "$5–$35", employer: "Often $0–$15 for employer plans", note: "UHC Tennessee is strong in the Nashville employer market. Virtual Care benefits frequently $0 for large employer plans." },
     WA: { typical: "$0–$25", employer: "Often $0 for employer plans", note: "UHC Washington has excellent telehealth benefits for tech-sector employer plans in the Seattle–Bellevue corridor." },
@@ -341,6 +341,13 @@ export const STATE_INSURANCE_MAP = {
     commissioner: { name: "Arizona Department of Insurance and Financial Institutions", url: "https://difi.az.gov/" },
     majorEmployers: ["Banner Health", "Intel", "American Express", "Honeywell"],
   },
+  CA: {
+    insurers: ["aetna"],
+    population: 39030000,
+    priority: "high",
+    commissioner: { name: "California Department of Insurance", url: "https://www.insurance.ca.gov/" },
+    majorEmployers: ["Apple", "Google", "Meta", "Kaiser Permanente", "Wells Fargo", "Disney"],
+  },
   CO: {
     insurers: ["aetna","united-healthcare"],
     population: 5839000,
@@ -404,13 +411,6 @@ export const STATE_INSURANCE_MAP = {
     commissioner: { name: "Ohio Department of Insurance", url: "https://insurance.ohio.gov/" },
     majorEmployers: ["Progressive", "Nationwide", "Huntington", "Cleveland Clinic", "OhioHealth"],
   },
-  OK: {
-    insurers: ["united-healthcare"],
-    population: 4020000,
-    priority: "low",
-    commissioner: { name: "Oklahoma Insurance Department", url: "https://www.oid.ok.gov/" },
-    majorEmployers: ["INTEGRIS Health", "Devon Energy", "Hobby Lobby", "WPX Energy"],
-  },
   PA: {
     insurers: ["aetna","blue-cross-blue-shield","united-healthcare"],
     population: 12972000,
@@ -452,4 +452,4 @@ export const B = {
 };
 
 // Last reviewed date — updated monthly by cron
-export const LAST_REVIEWED = "2026-05-01";
+export const LAST_REVIEWED = "2026-05-08";
