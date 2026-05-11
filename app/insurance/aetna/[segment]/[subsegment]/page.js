@@ -1,9 +1,10 @@
 import { STATE_NAMES, INSURANCE_CONDITIONS } from '../../../../../data/insurance/insuranceConfig';
 import InsuranceStateConditionClient from '../../../components/InsuranceStateConditionClient';
 
-// Aetna state slugs → code
+// Aetna state slugs → code (alphabetical — keep in sync with INSURERS.aetna.states in data/insurance/insuranceConfig.js)
 const STATE_SLUGS = {
   arizona: 'AZ',
+  california: 'CA',
   colorado: 'CO',
   florida: 'FL',
   georgia: 'GA',

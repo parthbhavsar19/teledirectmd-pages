@@ -393,6 +393,47 @@ export default function CaliforniaAetnaClient() {
         </div>
       </section>
 
+      {/* Related California Aetna resources */}
+      <section style={{ maxWidth: 1100, margin: '0 auto', padding: '32px 24px 8px' }}>
+        <h2 style={{ fontFamily: B.fd, fontSize: 24, color: B.navyDeep, margin: '0 0 16px', fontWeight: 600 }}>
+          Related California Aetna Resources
+        </h2>
+        <div
+          style={{
+            display: 'grid',
+            gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))',
+            gap: 16,
+          }}
+        >
+          {[
+            { href: '/insurance/aetna/california', t: 'Aetna California — Full Details', d: 'Insurer-first page with state-specific copay info, parity laws, and the full plan list.' },
+            { href: '/california/telehealth-urgent-care-aetna', t: 'CA Telehealth Urgent Care + Aetna', d: 'Long-tail page for same-day urgent-care conditions covered by Aetna in California.' },
+            { href: '/news/aetna-california-may-2026', t: 'Announcement: Aetna CA (May 2026)', d: 'Network expansion announcement with effective date, plan scope, and member benefits.' },
+            { href: '/insurance/aetna', t: 'Aetna Hub (All States)', d: 'See every state where TeleDirectMD is in-network with Aetna commercial plans.' },
+            { href: '/ca', t: 'California State Hub', d: 'California-specific telehealth regulations, parity laws, and accepted insurers.' },
+            { href: '/insurance', t: 'All Accepted Insurance', d: 'Complete list of all in-network payers across all TeleDirectMD service states.' },
+          ].map((link) => (
+            <a
+              key={link.href}
+              href={link.href}
+              style={{
+                display: 'block',
+                padding: 20,
+                background: B.white,
+                border: `1px solid ${B.border}`,
+                borderRadius: 14,
+                textDecoration: 'none',
+                color: B.navyDeep,
+                boxShadow: B.shadow,
+              }}
+            >
+              <div style={{ fontFamily: B.fd, fontSize: 17, fontWeight: 600, color: B.teal, marginBottom: 6 }}>{link.t} →</div>
+              <div style={{ fontSize: 14, color: B.text, lineHeight: 1.5 }}>{link.d}</div>
+            </a>
+          ))}
+        </div>
+      </section>
+
       {/* Final CTA */}
       <section style={{ maxWidth: 1100, margin: '0 auto', padding: '32px 24px 64px' }}>
         <div

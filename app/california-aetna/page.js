@@ -22,6 +22,12 @@ export const metadata = {
     description:
       'TeleDirectMD is in-network with Aetna in California. Same-day video visits with Dr. Parth Bhavsar, MD.',
   },
+  other: {
+    'article:published_time': '2026-05-11T00:00:00Z',
+    'article:modified_time': '2026-05-11T00:00:00Z',
+    'last-reviewed': '2026-05-11',
+    'medical-reviewer': 'Parth Bhavsar, MD',
+  },
 };
 
 export default function CaliforniaAetnaPage() {

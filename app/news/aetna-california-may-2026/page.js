@@ -22,6 +22,12 @@ export const metadata = {
     title: 'TeleDirectMD Now In-Network with Aetna in California',
     description: 'Same-day telehealth covered by Aetna commercial plans in California.',
   },
+  other: {
+    'article:published_time': '2026-05-11T00:00:00Z',
+    'article:modified_time': '2026-05-11T00:00:00Z',
+    'last-reviewed': '2026-05-11',
+    'medical-reviewer': 'Parth Bhavsar, MD',
+  },
 };
 
 export default function Page() {

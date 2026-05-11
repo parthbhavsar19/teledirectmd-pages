@@ -21,6 +21,12 @@ export const metadata = {
     title: 'California Telehealth Urgent Care That Accepts Aetna',
     description: 'In-network with Aetna commercial plans in California. Same-day video visits.',
   },
+  other: {
+    'article:published_time': '2026-05-11T00:00:00Z',
+    'article:modified_time': '2026-05-11T00:00:00Z',
+    'last-reviewed': '2026-05-11',
+    'medical-reviewer': 'Parth Bhavsar, MD',
+  },
 };
 
 export default function Page() {

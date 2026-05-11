@@ -30,7 +30,7 @@ const CONDITIONS_COVERED = [
 
 const AETNA_STATES = [
   { code:"AZ", name:"Arizona", url:"/insurance/aetna/arizona" },
-  { code:"CA", name:"California", url:"/insurance/aetna/california" },
+  { code:"CA", name:"California", url:"/insurance/aetna/california", newBadge:"New · May 2026" },
   { code:"CO", name:"Colorado", url:"/insurance/aetna/colorado" },
   { code:"FL", name:"Florida", url:"/insurance/aetna/florida" },
   { code:"GA", name:"Georgia", url:"/insurance/aetna/georgia" },
@@ -216,10 +216,19 @@ export default function AetnaHubClient() {
           <div style={{ display:"grid", gridTemplateColumns:"repeat(auto-fill, minmax(160px, 1fr))", gap:10 }}>
             {AETNA_STATES.map((st) => (
               <a key={st.code} href={st.url}
-                style={{ display:"flex", alignItems:"center", justifyContent:"space-between", background:B.white, border:`1px solid ${insurer.color}22`, borderRadius:B.rs, padding:"14px 16px", textDecoration:"none", boxShadow:B.shadow, transition:"border-color 0.2s" }}>
+                style={{ position:"relative", display:"flex", alignItems:"center", justifyContent:"space-between", background:B.white, border:`1px solid ${insurer.color}22`, borderRadius:B.rs, padding:"14px 16px", textDecoration:"none", boxShadow:B.shadow, transition:"border-color 0.2s" }}>
                 <div>
-                  <div style={{ fontSize:15, fontWeight:700, color:B.navy }}>{st.name}</div>
-                  <div style={{ fontSize:12, color:insurer.color, fontWeight:600, marginTop:2 }}>Aetna In-Network</div>
+                  <div style={{ fontSize:15, fontWeight:700, color:B.navy, display:"flex", alignItems:"center", gap:8 }}>
+                    {st.name}
+                    {st.newBadge && (
+                      <span style={{ background:"#FF5A36", color:"#fff", fontSize:10, fontWeight:700, padding:"3px 7px", borderRadius:999, letterSpacing:0.3, whiteSpace:"nowrap" }}>
+                        NEW
+                      </span>
+                    )}
+                  </div>
+                  <div style={{ fontSize:12, color:insurer.color, fontWeight:600, marginTop:2 }}>
+                    {st.newBadge ? st.newBadge : "Aetna In-Network"}
+                  </div>
                 </div>
                 <Ico.Arrow c={B.text} s={14} />
               </a>

@@ -402,6 +402,47 @@ export default function TelehealthUrgentCareAetnaClient() {
         ))}
       </section>
 
+      {/* Related California Aetna resources */}
+      <section style={{ maxWidth: 1100, margin: '0 auto', padding: '32px 24px 8px' }}>
+        <h2 style={{ fontFamily: B.fd, fontSize: 24, color: B.navyDeep, margin: '0 0 16px', fontWeight: 600 }}>
+          Related California Aetna Resources
+        </h2>
+        <div
+          style={{
+            display: 'grid',
+            gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))',
+            gap: 16,
+          }}
+        >
+          {[
+            { href: '/california-aetna', t: 'Aetna Telehealth in California (Hub)', d: 'Patient-friendly hub covering Aetna coverage, copays, plans, and city availability.' },
+            { href: '/insurance/aetna/california', t: 'Aetna California — Full Details', d: 'Insurer-first page with state context, parity laws, and the full Aetna plan list.' },
+            { href: '/news/aetna-california-may-2026', t: 'Announcement: Aetna CA (May 2026)', d: 'Network expansion announcement with effective date and member benefits.' },
+            { href: '/insurance/aetna/california/uti-treatment', t: 'Aetna CA: UTI Treatment', d: 'Same-day antibiotic prescription for UTI — Aetna commercial plans accepted in California.' },
+            { href: '/insurance/aetna/california/asthma-refill', t: 'Aetna CA: Asthma Refills', d: 'Albuterol and controller inhaler refills via Aetna telehealth in California.' },
+            { href: '/insurance/aetna/california/hypertension-refill', t: 'Aetna CA: Hypertension Refills', d: 'Blood pressure medication refills via Aetna telehealth in California.' },
+          ].map((link) => (
+            <a
+              key={link.href}
+              href={link.href}
+              style={{
+                display: 'block',
+                padding: 20,
+                background: B.white,
+                border: `1px solid ${B.border}`,
+                borderRadius: 14,
+                textDecoration: 'none',
+                color: B.navyDeep,
+                boxShadow: B.shadow,
+              }}
+            >
+              <div style={{ fontFamily: B.fd, fontSize: 17, fontWeight: 600, color: B.teal, marginBottom: 6 }}>{link.t} →</div>
+              <div style={{ fontSize: 14, color: B.text, lineHeight: 1.5 }}>{link.d}</div>
+            </a>
+          ))}
+        </div>
+      </section>
+
       {/* Final CTA */}
       <section style={{ maxWidth: 1100, margin: '0 auto', padding: '24px 24px 64px' }}>
         <div
