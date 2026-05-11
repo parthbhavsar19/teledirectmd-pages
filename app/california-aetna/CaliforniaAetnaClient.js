@@ -39,7 +39,7 @@ const CITIES = [
 const FAQS = [
   {
     q: 'Does Aetna cover online doctor visits in California?',
-    a: "Yes. California has some of the strongest telehealth parity laws in the country. Under California Business and Professions Code §2290.5 and Insurance Code §10123.85, Aetna commercial plans must reimburse medically necessary telehealth services on terms comparable to in-person care. TeleDirectMD is contracted as an in-network telehealth provider with Aetna commercial plans in California (effective April 30, 2026). Dr. Parth Bhavsar, MD (NPI 1104323203) is the treating physician.",
+    a: "Yes. California has some of the strongest telehealth parity laws in the country. Under <a href='https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=2290.5' target='_blank' rel='noopener'>California Business and Professions Code §2290.5</a> and <a href='https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=INS&sectionNum=10123.85' target='_blank' rel='noopener'>Insurance Code §10123.85</a>, Aetna commercial plans must reimburse medically necessary telehealth services on terms comparable to in-person care. TeleDirectMD is contracted as an in-network telehealth provider with Aetna commercial plans in California (effective April 30, 2026). Dr. Parth Bhavsar, MD (NPI 1104323203) is the treating physician.",
   },
   {
     q: 'How much will I pay with my Aetna plan in California?',
@@ -67,7 +67,27 @@ const FAQS = [
   },
   {
     q: 'How do I verify my Aetna telehealth benefits before booking?',
-    a: 'Log into your Aetna member portal at aetna.com, navigate to "Benefits," and look for "Telehealth" or "Virtual Care" under your plan details. Or call the member-services number on the back of your Aetna card and ask: "Is TeleDirectMD in-network for telehealth in California?" and "What is my telehealth copay?"',
+    a: 'Log into your Aetna member portal at <a href="https://www.aetna.com/" target="_blank" rel="noopener">aetna.com</a>, navigate to "Benefits," and look for "Telehealth" or "Virtual Care" under your plan details. Or call the member-services number on the back of your Aetna card and ask: "Is TeleDirectMD in-network for telehealth in California?" and "What is my telehealth copay?"',
+  },
+  {
+    q: 'Is TeleDirectMD listed in the Aetna provider directory?',
+    a: 'Yes. As of April 30, 2026, TeleDirectMD (NPI 1104610450) and Dr. Parth Bhavsar, MD (individual NPI 1104323203) are listed in the <a href="https://www.aetna.com/dsepublic/#/contentPage?page=providerSearchLanding" target="_blank" rel="noopener">Aetna provider directory</a> as in-network telehealth providers for California commercial plans. If you cannot find us yet, the directory updates can lag the contract effective date by 7–14 days — call member services to confirm.',
+  },
+  {
+    q: 'Can I use my Covered California plan?',
+    a: 'It depends on the specific carrier on your Covered California plan. <a href="https://www.coveredca.com/learning-center/information-for-existing-members/health-plans/" target="_blank" rel="noopener">Covered California</a> contracts with multiple carriers including Aetna CVS Health, Anthem Blue Cross, Blue Shield of California, Kaiser Permanente, and others. If your Covered California plan is administered by Aetna CVS Health (commercial network), TeleDirectMD is in-network. Other carriers may require self-pay at $49.',
+  },
+  {
+    q: 'What if I have an Aetna Medicare Advantage or Medi-Cal plan?',
+    a: 'TeleDirectMD does not accept Aetna Medicare Advantage, Medicare fee-for-service, or Aetna Better Health (Medi-Cal) plans at this time. Medi-Cal members can use <a href="https://www.dhcs.ca.gov/services/medi-cal/Pages/MedicalProviders.aspx" target="_blank" rel="noopener">DHCS Medi-Cal provider resources</a> to find an in-network telehealth provider. The $49 self-pay option is available to any California adult 18 or older regardless of insurance.',
+  },
+  {
+    q: 'Are video visits with TeleDirectMD HIPAA-compliant?',
+    a: 'Yes. TeleDirectMD uses a HIPAA-compliant video platform with end-to-end encryption. The visit is conducted by Dr. Parth Bhavsar, MD — a board-certified family medicine physician licensed by the <a href="https://www.mbc.ca.gov/" target="_blank" rel="noopener">Medical Board of California</a>. All clinical documentation is stored in a HIPAA-compliant electronic health record.',
+  },
+  {
+    q: 'When did the Aetna California contract become effective?',
+    a: 'TeleDirectMD became an in-network telehealth provider for Aetna commercial plans in California effective April 30, 2026. The contract covers all 58 California counties for adult (18+) telehealth visits. The clinical scope is unchanged from our $49 self-pay practice — same physician, same conditions, same same-day access; only the billing path changes.',
   },
 ];
 
@@ -116,6 +136,13 @@ const SCHEMA = {
       medicalSpecialty: 'General Practice',
       areaServed: { '@type': 'State', name: 'California' },
       identifier: { '@type': 'PropertyValue', name: 'Organization NPI', value: '1104610450' },
+      aggregateRating: {
+        '@type': 'AggregateRating',
+        ratingValue: '5.0',
+        reviewCount: '125',
+        bestRating: '5',
+        worstRating: '1',
+      },
     },
     {
       '@type': 'FAQPage',
@@ -387,7 +414,7 @@ export default function CaliforniaAetnaClient() {
               >
                 {f.q}
               </summary>
-              <p style={{ marginTop: 12, fontSize: 15, color: B.text, lineHeight: 1.7 }}>{f.a}</p>
+              <p style={{ marginTop: 12, fontSize: 15, color: B.text, lineHeight: 1.7 }} dangerouslySetInnerHTML={{ __html: f.a }} />
             </details>
           ))}
         </div>
