@@ -28,9 +28,9 @@ const WWS_SEGMENTS = [
 
 // Insurer state slugs (full state names used by hub routes)
 const INSURER_STATES = {
-  aetna: ['arizona','colorado','florida','georgia','illinois','michigan','minnesota','ohio','pennsylvania','tennessee'],
+  aetna: ['arizona','california','colorado','florida','georgia','illinois','michigan','minnesota','ohio','pennsylvania','tennessee'],
   'blue-cross-blue-shield': ['florida','georgia','illinois','pennsylvania','texas'],
-  'united-healthcare': ['colorado','georgia','illinois','minnesota','north-carolina','new-jersey','ohio','oklahoma','pennsylvania','tennessee','washington'],
+  'united-healthcare': ['colorado','georgia','illinois','minnesota','north-carolina','new-jersey','ohio','pennsylvania','tennessee','washington'],
 };
 
 function url(path, priority = 0.7, changefreq = 'monthly') {
