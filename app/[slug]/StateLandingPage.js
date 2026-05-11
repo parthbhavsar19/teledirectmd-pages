@@ -79,7 +79,20 @@ export default function StateLandingPage({ stateSlug }) {
         "@id": `${baseUrl}/about#physician`,
         "name": "Parth Bhavsar, MD",
         "url": `${baseUrl}/about`,
-        "affiliation": { "@id": `${baseUrl}#organization` }
+        "identifier": { "@type": "PropertyValue", "name": "NPI", "value": "1104323203" },
+        "medicalSpecialty": "Family Medicine",
+        "areaServed": { "@type": "State", "name": state.name },
+        "affiliation": { "@id": `${baseUrl}#organization` },
+        ...(hasInsurance ? {
+          "acceptsInsurance": stateInsurers.map((ins) => ({
+            "@type": "HealthInsurancePlan",
+            "name": `${ins.name} — ${state.name} (${ins.plans})`,
+            "includesHealthPlanFormulary": {
+              "@type": "HealthPlanFormulary",
+              "offersPrescriptionDrug": true
+            }
+          }))
+        } : {})
       },
       {
         "@type": "MedicalWebPage",

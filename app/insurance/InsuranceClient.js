@@ -92,8 +92,49 @@ export default function InsuranceClient() {
   useEffect(() => { if (selectedState) { setAnimateResults(false); requestAnimationFrame(() => { requestAnimationFrame(() => setAnimateResults(true)); }); setTimeout(() => { resultsRef.current?.scrollIntoView({ behavior: "smooth", block: "nearest" }); }, 100); } }, [selectedState]);
   useEffect(() => { function h(e) { if (dropdownRef.current && !dropdownRef.current.contains(e.target)) setDropdownOpen(false); } document.addEventListener("mousedown", h); return () => document.removeEventListener("mousedown", h); }, []);
 
+  // ─── JSON-LD: HealthInsurancePlan list for AI / search visibility ───
+  const insuranceHubSchema = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "MedicalWebPage",
+        "@id": "https://teledirectmd.com/insurance#webpage",
+        "name": "Insurance & Pricing | TeleDirectMD",
+        "description": "TeleDirectMD accepts select commercial insurance plans from Aetna, Blue Cross Blue Shield, and UnitedHealthcare in a growing number of states. Self-pay is always $49 flat.",
+        "url": "https://teledirectmd.com/insurance",
+        "lastReviewed": "2026-05-11",
+        "speakable": { "@type": "SpeakableSpecification", "cssSelector": ["[data-speakable]"] },
+      },
+      {
+        "@type": "Physician",
+        "@id": "https://teledirectmd.com/about#physician",
+        "name": "Parth Bhavsar, MD",
+        "identifier": { "@type": "PropertyValue", "name": "NPI", "value": "1104323203" },
+        "medicalSpecialty": "Family Medicine",
+        "acceptsInsurance": Object.entries(insuranceData).flatMap(([code, info]) =>
+          info.insurers.map((ins) => ({
+            "@type": "HealthInsurancePlan",
+            "name": `${ins.name} — ${info.state} (${ins.plans.join(", ")})`,
+            "includesHealthPlanFormulary": {
+              "@type": "HealthPlanFormulary",
+              "offersPrescriptionDrug": true,
+            },
+          }))
+        ),
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://teledirectmd.com" },
+          { "@type": "ListItem", "position": 2, "name": "Insurance", "item": "https://teledirectmd.com/insurance" },
+        ],
+      },
+    ],
+  };
+
   return (
     <div style={{ fontFamily: B.fb, background: B.bg, color: B.navy }}>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(insuranceHubSchema) }} />
       <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400&family=DM+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet" />
 
       {/* ═══ HERO ═══ */}
@@ -301,7 +342,7 @@ export default function InsuranceClient() {
       {/* ═══ DISCLAIMER ═══ */}
       <div style={{ maxWidth: 720, margin: "0 auto", padding: "0 24px 48px" }}>
         <p style={{ fontSize: 12, color: B.text, lineHeight: 1.7, borderTop: `1px solid ${B.border}`, paddingTop: 20, opacity: 0.7 }}>
-          Insurance coverage and plan acceptance are subject to change. The information on this page reflects currently active contracts as of May 2026. Not all plans from a listed insurer may be accepted. Medicaid and Medicare fee-for-service plans are not accepted unless specifically noted. Patients are encouraged to verify benefits with their insurer before booking. TeleDirectMD does not guarantee insurance coverage for any specific service or visit. For the most current information, contact us at <a href="mailto:contact@teledirectmd.com" style={{ color: B.teal }}>contact@teledirectmd.com</a>.
+          Insurance coverage and plan acceptance are subject to change. The information on this page reflects currently active contracts as of May 11, 2026. Not all plans from a listed insurer may be accepted. Medicaid and Medicare fee-for-service plans are not accepted unless specifically noted. Patients are encouraged to verify benefits with their insurer before booking. TeleDirectMD does not guarantee insurance coverage for any specific service or visit. For the most current information, contact us at <a href="mailto:contact@teledirectmd.com" style={{ color: B.teal }}>contact@teledirectmd.com</a>.
         </p>
       </div>
     </div>

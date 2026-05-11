@@ -17,6 +17,10 @@ const STATIC_ROUTES = [
   { path: '/faq', priority: 0.7, changefreq: 'monthly' },
   { path: '/media-mentions', priority: 0.6, changefreq: 'monthly' },
   { path: '/about', priority: 0.6, changefreq: 'monthly' },
+  // Aetna California rollout — May 2026
+  { path: '/california-aetna', priority: 0.9, changefreq: 'weekly' },
+  { path: '/california/telehealth-urgent-care-aetna', priority: 0.85, changefreq: 'weekly' },
+  { path: '/news/aetna-california-may-2026', priority: 0.7, changefreq: 'monthly' },
 ];
 
 // Who We Serve segments (8 pages)
