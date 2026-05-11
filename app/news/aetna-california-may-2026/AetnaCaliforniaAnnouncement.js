@@ -17,6 +17,25 @@ const B = {
   fb: "'DM Sans', Montserrat, system-ui, sans-serif",
 };
 
+const FAQS = [
+  {
+    q: 'Who is affected by the Aetna California in-network launch?',
+    a: "California-based adults 18+ enrolled in Aetna commercial plans (employer-sponsored and individual market plans purchased on or off <a href='https://www.coveredca.com/learning-center/information-for-existing-members/health-plans/' target='_blank' rel='noopener'>Covered California</a>). Aetna Medicaid (Medi-Cal managed care via <a href='https://www.dhcs.ca.gov/services/medi-cal/Pages/MedicalProviders.aspx' target='_blank' rel='noopener'>DHCS</a>), Medicare fee-for-service, and Aetna Medicare Advantage are NOT included in this contract.",
+  },
+  {
+    q: 'When does in-network coverage start?',
+    a: "The contract effective date is April 30, 2026. Visits booked on or after that date for California Aetna commercial members are processed in-network. You can verify TeleDirectMD's in-network status in the <a href='https://www.aetna.com/dsepublic/#/contentPage?page=providerSearchLanding' target='_blank' rel='noopener'>Aetna provider directory</a> using NPI 1104610450 (organization) or 1104323203 (Dr. Parth Bhavsar, MD).",
+  },
+  {
+    q: 'What will my copay be?',
+    a: "Your cost equals your Aetna commercial plan's telehealth or office-visit copay — most California members pay $10–$40, and many large-employer plans pay $0. We collect the copay at booking and submit the claim to Aetna. California's <a href='https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=2290.5' target='_blank' rel='noopener'>Telehealth Advancement Act (B&P §2290.5)</a> and <a href='https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=INS&sectionNum=10123.85' target='_blank' rel='noopener'>Insurance Code §10123.85</a> require parity with in-person visits.",
+  },
+  {
+    q: 'How do I book a visit?',
+    a: "Visit teledirectmd.com/book-online, select California, and enter your Aetna member ID at checkout. Most members are seen same-day, typically within 1–4 hours. Evenings and weekends are routinely available. The treating physician is Dr. Parth Bhavsar, MD, board-certified in Family Medicine and licensed in California (verify at the <a href='https://www.mbc.ca.gov/' target='_blank' rel='noopener'>Medical Board of California</a>).",
+  },
+];
+
 const SCHEMA = {
   '@context': 'https://schema.org',
   '@graph': [
@@ -46,6 +65,21 @@ const SCHEMA = {
       url: 'https://teledirectmd.com',
       identifier: { '@type': 'PropertyValue', name: 'Organization NPI', value: '1104610450' },
       areaServed: { '@type': 'State', name: 'California' },
+      aggregateRating: {
+        '@type': 'AggregateRating',
+        ratingValue: '5.0',
+        reviewCount: '125',
+        bestRating: '5',
+        worstRating: '1',
+      },
+    },
+    {
+      '@type': 'FAQPage',
+      mainEntity: FAQS.map((f) => ({
+        '@type': 'Question',
+        name: f.q,
+        acceptedAnswer: { '@type': 'Answer', text: f.a.replace(/<[^>]+>/g, '') },
+      })),
     },
     {
       '@type': 'BreadcrumbList',
@@ -214,6 +248,32 @@ export default function AetnaCaliforniaAnnouncement() {
             </a>
           </li>
         </ul>
+
+        <section style={{ margin: '32px 0' }}>
+          <h2 style={{ fontFamily: B.fd, fontSize: 26, color: B.navyDeep, margin: '0 0 16px', fontWeight: 600 }}>
+            Frequently Asked Questions
+          </h2>
+          {FAQS.map((f) => (
+            <details
+              key={f.q}
+              style={{
+                background: B.white,
+                border: `1px solid ${B.border}`,
+                borderRadius: 14,
+                padding: '14px 18px',
+                marginBottom: 10,
+                boxShadow: B.shadow,
+              }}
+            >
+              <summary
+                style={{ cursor: 'pointer', fontFamily: B.fd, fontSize: 17, fontWeight: 600, color: B.navyDeep, lineHeight: 1.4 }}
+              >
+                {f.q}
+              </summary>
+              <p style={{ marginTop: 12, fontSize: 15, color: B.text, lineHeight: 1.7 }} dangerouslySetInnerHTML={{ __html: f.a }} />
+            </details>
+          ))}
+        </section>
 
         <div
           style={{

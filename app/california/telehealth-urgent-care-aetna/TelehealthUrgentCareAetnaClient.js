@@ -52,7 +52,7 @@ const FAQS = [
   },
   {
     q: 'Will Aetna pay for this visit?',
-    a: "Yes. Telehealth visits with a licensed physician are covered under your Aetna commercial plan's medical benefit. California's Telehealth Advancement Act (Business and Professions Code §2290.5) requires Aetna and other commercial plans to reimburse medically necessary telehealth on terms comparable to in-person care. Your cost will be your plan's copay — typically $10–$40, often $0 for large California employer plans. Aetna Medicaid, Medicare fee-for-service, and Aetna Medicare Advantage are NOT accepted.",
+    a: "Yes. Telehealth visits with a licensed physician are covered under your Aetna commercial plan's medical benefit. California's Telehealth Advancement Act (<a href='https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=2290.5' target='_blank' rel='noopener'>Business and Professions Code §2290.5</a>) requires Aetna and other commercial plans to reimburse medically necessary telehealth on terms comparable to in-person care, and <a href='https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=INS&sectionNum=10123.85' target='_blank' rel='noopener'>Insurance Code §10123.85</a> codifies parity requirements. Your cost will be your plan's copay — typically $10–$40, often $0 for large California employer plans. You can confirm in-network status in the <a href='https://www.aetna.com/dsepublic/#/contentPage?page=providerSearchLanding' target='_blank' rel='noopener'>Aetna provider directory</a>. Aetna Medicaid, Medicare fee-for-service, and Aetna Medicare Advantage are NOT accepted.",
   },
   {
     q: 'Can the doctor prescribe medication?',
@@ -61,6 +61,26 @@ const FAQS = [
   {
     q: 'What if my condition requires in-person evaluation?',
     a: "If Dr. Bhavsar determines your condition requires in-person evaluation (e.g., abdominal pain needing exam, suspected pneumonia needing imaging, possible fracture, etc.), he will tell you within the first few minutes of the visit and refer you to the appropriate level of care — urgent care, ER, or specialist. We do not charge for the visit fee if we cannot help you.",
+  },
+  {
+    q: 'Which California pharmacies can receive my prescription?',
+    a: "Any California-licensed retail or independent pharmacy. Prescriptions are sent electronically (e-prescribed via Surescripts) the moment your visit ends. The most commonly used chains in California are CVS, Walgreens, Rite Aid, Walmart, Costco, Safeway, Vons, Ralphs, Albertsons, and Kaiser-affiliated outpatient pharmacies. Independent and compounding pharmacies are also supported. You will receive an SMS confirmation when the pharmacy receives the script — typically within 5–10 minutes. If you are out-of-state temporarily, we can send to any U.S. pharmacy where a California-issued prescription is valid.",
+  },
+  {
+    q: 'Does Aetna require prior authorization for a telehealth urgent-care visit?',
+    a: "No. Aetna does not require prior authorization for a telehealth urgent-care visit with an in-network physician under your commercial plan. You can book directly and use your standard copay. Prior authorization may be required for certain medications (e.g., brand-name PPIs, brand-name inhalers, GLP-1s for weight loss) or for specialist referrals — but not for the visit itself. If a prescribed medication requires PA, Dr. Bhavsar will discuss generic alternatives during the visit.",
+  },
+  {
+    q: 'What happens if we get disconnected during the video visit?',
+    a: "If the video call drops, simply rejoin using the same link in your confirmation email or SMS — your visit room stays open for 30 minutes. If reconnection fails, Dr. Bhavsar will call you on the phone number you provided at booking. We do not charge an additional fee for connection issues, and your visit will continue from where it left off. If a stable video connection cannot be established, the visit can be completed by phone for routine refills and simple follow-ups; new urgent-care complaints typically require video for visual assessment.",
+  },
+  {
+    q: 'Do you offer visits in Spanish or other languages?',
+    a: "Dr. Bhavsar speaks English and Hindi natively and conversational Spanish for routine visits. For visits requiring full Spanish fluency or other languages (Mandarin, Cantonese, Vietnamese, Tagalog, Korean, Armenian, etc.), we provide three options: (1) a family member or trusted adult can join the video call to interpret, (2) we can use a HIPAA-compliant phone interpreter line during the visit (no extra cost to you), or (3) we can reschedule to a language-matched physician partner. California Senate Bill 223 supports patient language access; please note your preference at booking.",
+  },
+  {
+    q: 'What technology do I need to join the visit?',
+    a: "A smartphone (iPhone or Android, 2018 or newer), tablet, or laptop with a working camera and microphone, plus a stable internet connection (Wi-Fi or 4G/5G, minimum 1 Mbps up/down). No app download is required — the visit opens in your mobile or desktop browser (Safari, Chrome, Firefox, or Edge). You will receive the secure visit link via SMS and email 5 minutes before your appointment. If you have technology problems, our support team can call you and walk you through setup. We do not use Zoom, FaceTime, or general-purpose video tools — our platform is HIPAA-compliant and end-to-end encrypted.",
   },
 ];
 
@@ -91,6 +111,13 @@ const SCHEMA = {
       medicalSpecialty: 'Family Medicine',
       areaServed: { '@type': 'State', name: 'California' },
       priceRange: '$49 self-pay / $10–$40 with Aetna copay',
+      aggregateRating: {
+        '@type': 'AggregateRating',
+        ratingValue: '5.0',
+        reviewCount: '125',
+        bestRating: '5',
+        worstRating: '1',
+      },
       acceptsInsurance: [
         {
           '@type': 'HealthInsurancePlan',
@@ -397,7 +424,7 @@ export default function TelehealthUrgentCareAetnaClient() {
             >
               {f.q}
             </summary>
-            <p style={{ marginTop: 12, fontSize: 15, color: B.text, lineHeight: 1.7 }}>{f.a}</p>
+            <p style={{ marginTop: 12, fontSize: 15, color: B.text, lineHeight: 1.7 }} dangerouslySetInnerHTML={{ __html: f.a }} />
           </details>
         ))}
       </section>
