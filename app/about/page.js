@@ -1,4 +1,78 @@
 import Script from 'next/script';
+import { getAggregateRating, getReviewBlock } from '../../lib/review-schema';
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': 'BreadcrumbList',
+      '@id': 'https://teledirectmd.com/about#breadcrumbs',
+      itemListElement: [
+        { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://teledirectmd.com/' },
+        { '@type': 'ListItem', position: 2, name: 'About Dr. Bhavsar', item: 'https://teledirectmd.com/about/' },
+      ],
+    },
+    {
+      '@type': 'AboutPage',
+      '@id': 'https://teledirectmd.com/about#webpage',
+      url: 'https://teledirectmd.com/about/',
+      name: 'About Dr. Parth Bhavsar, MD | TeleDirectMD',
+      description: 'Board-certified family medicine physician and founder of TeleDirectMD. $49 flat-fee virtual visits in 41 states + DC.',
+      inLanguage: 'en-US',
+      breadcrumb: { '@id': 'https://teledirectmd.com/about#breadcrumbs' },
+      about: { '@id': 'https://teledirectmd.com/#physician' },
+      mainEntity: { '@id': 'https://teledirectmd.com/#physician' },
+      publisher: { '@id': 'https://teledirectmd.com/#organization' },
+      lastReviewed: new Date().toISOString().split('T')[0],
+      reviewedBy: { '@id': 'https://teledirectmd.com/#physician' },
+      speakable: {
+        '@type': 'SpeakableSpecification',
+        cssSelector: ['h1', 'h2', '.tdm-hero-text p'],
+      },
+    },
+    {
+      '@type': 'MedicalOrganization',
+      '@id': 'https://teledirectmd.com/#organization',
+      name: 'TeleDirectMD',
+      url: 'https://teledirectmd.com',
+      logo: 'https://teledirectmd.com/logo.webp',
+      telephone: '+1-678-956-1855',
+      email: 'contact@teledirectmd.com',
+      description: 'Physician-led telemedicine practice. $49 flat-fee video visits with a board-certified MD across 41 states + DC.',
+      medicalSpecialty: ['Family Medicine', 'Urgent Care', 'Telemedicine'],
+      priceRange: '$49',
+      currenciesAccepted: 'USD',
+      founder: { '@id': 'https://teledirectmd.com/#physician' },
+      aggregateRating: getAggregateRating(),
+    },
+    {
+      '@type': 'Physician',
+      '@id': 'https://teledirectmd.com/#physician',
+      name: 'Parth Bhavsar, MD',
+      givenName: 'Parth',
+      familyName: 'Bhavsar',
+      honorificPrefix: 'Dr.',
+      honorificSuffix: 'MD',
+      image: 'https://images.squarespace-cdn.com/content/v1/67f359c5b3dddf176b8ba74e/43eb4b2e-bea3-44af-8f57-fc6c9c33cf5e/Parth+Bhavsar+MD_white_coat.jpg',
+      url: 'https://teledirectmd.com/about/',
+      description: 'Board-certified family medicine physician and founder of TeleDirectMD. Completed residency at the University of Mississippi Medical Center. Expert commentary featured in TIME, Newsweek, HuffPost, U.S. News, Fox News Digital, NY Post, and 21+ national publications.',
+      medicalSpecialty: ['Family Medicine', 'Telemedicine'],
+      identifier: { '@type': 'PropertyValue', name: 'NPI', value: '1104323203' },
+      hasCredential: [
+        { '@type': 'EducationalOccupationalCredential', credentialCategory: 'MD', name: 'Doctor of Medicine' },
+        { '@type': 'EducationalOccupationalCredential', credentialCategory: 'Board Certification', name: 'Board-Certified Family Medicine' },
+      ],
+      worksFor: { '@id': 'https://teledirectmd.com/#organization' },
+      memberOf: { '@id': 'https://teledirectmd.com/#organization' },
+      sameAs: [
+        'https://www.zocdoc.com/doctor/parth-bhavsar-md-652258',
+        'https://doctor.webmd.com/doctor/parth-bhavsar-e293ceba-555d-466e-ab94-d82e02d268db-overview',
+        'https://www.healthgrades.com/physician/dr-parth-bhavsar-xynq9m7',
+      ],
+      ...getReviewBlock(),
+    },
+  ],
+};
 
 export const metadata = {
   title: 'About Dr. Parth Bhavsar, MD | Board-Certified Family Physician | TeleDirectMD',
@@ -27,6 +101,10 @@ const BODY_HTML = "</head>\n<body>\n<div class=\"tdm-about-page\" itemscope item
 export default function AboutPage() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <style dangerouslySetInnerHTML={{ __html: ABOUT_CSS }} />
       <div dangerouslySetInnerHTML={{ __html: BODY_HTML }} />
     </>

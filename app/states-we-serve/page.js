@@ -1,4 +1,5 @@
 import { getStates, getConditionCategories } from '../../lib/get-data';
+import { getAggregateRating, getReviewBlock } from '../../lib/review-schema';
 import StatesWeServeClient from './StatesWeServeClient';
 
 /* ── Featured states (slugs) — these get full condition cards ── */
@@ -101,6 +102,7 @@ function buildJsonLd(allStates, categories) {
           procedureType: 'Virtual healthcare consultation',
         },
         founder: { '@id': `${baseUrl}#physician` },
+        aggregateRating: getAggregateRating(),
       },
       {
         '@type': 'Physician',
@@ -108,6 +110,7 @@ function buildJsonLd(allStates, categories) {
         name: 'Parth Bhavsar, MD',
         medicalSpecialty: 'Family Medicine',
         memberOf: { '@id': `${baseUrl}#organization` },
+        ...getReviewBlock(),
       },
       /* FAQPage */
       {

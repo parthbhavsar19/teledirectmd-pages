@@ -1,4 +1,5 @@
 import HomepageClient from './HomepageClient';
+import { getAggregateRating, getReviewBlock } from '../lib/review-schema';
 
 export const metadata = {
   title: 'TeleDirectMD | $49 Online Doctor Visits — Board-Certified Telehealth',
@@ -75,6 +76,7 @@ const jsonLd = {
         'https://youtube.com/@teledirectmd',
         'https://linkedin.com/company/teledirectmd',
       ],
+      aggregateRating: getAggregateRating(),
     },
     {
       '@type': 'Physician',
@@ -106,6 +108,7 @@ const jsonLd = {
         'https://doctor.webmd.com/doctor/parth-bhavsar-e293ceba-555d-466e-ab94-d82e02d268db-overview',
         'https://www.healthgrades.com/physician/dr-parth-bhavsar-xynq9m7',
       ],
+      ...getReviewBlock(),
     },
     {
       '@type': 'WebPage',

@@ -1,4 +1,5 @@
 import FAQClient from './FAQClient';
+import { getAggregateRating, getReviewBlock } from '../../lib/review-schema';
 
 export const metadata = {
   title: 'Frequently Asked Questions | TeleDirectMD',
@@ -147,15 +148,71 @@ const faqItems = [
 function buildJsonLd(items) {
   return {
     '@context': 'https://schema.org',
-    '@type': 'FAQPage',
-    mainEntity: items.map((item) => ({
-      '@type': 'Question',
-      name: item.q,
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: item.a,
+    '@graph': [
+      {
+        '@type': 'BreadcrumbList',
+        '@id': 'https://teledirectmd.com/faq#breadcrumbs',
+        itemListElement: [
+          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://teledirectmd.com/' },
+          { '@type': 'ListItem', position: 2, name: 'FAQ', item: 'https://teledirectmd.com/faq/' },
+        ],
       },
-    })),
+      {
+        '@type': 'MedicalWebPage',
+        '@id': 'https://teledirectmd.com/faq#webpage',
+        url: 'https://teledirectmd.com/faq/',
+        name: 'Frequently Asked Questions | TeleDirectMD',
+        description: "Answers to common questions about TeleDirectMD's telehealth services, insurance acceptance, $49 self-pay pricing, prescriptions, scope of care, and virtual urgent care in 41 states + D.C.",
+        inLanguage: 'en-US',
+        breadcrumb: { '@id': 'https://teledirectmd.com/faq#breadcrumbs' },
+        about: { '@id': 'https://teledirectmd.com/#organization' },
+        publisher: { '@id': 'https://teledirectmd.com/#organization' },
+        lastReviewed: new Date().toISOString().split('T')[0],
+        reviewedBy: { '@id': 'https://teledirectmd.com/#physician' },
+        specialty: ['Family Medicine', 'Urgent Care', 'Telemedicine'],
+        audience: { '@type': 'MedicalAudience', audienceType: 'Patient', suggestedMinAge: 18 },
+        speakable: {
+          '@type': 'SpeakableSpecification',
+          cssSelector: ['h1', '.tdmd-faq-q', '.tdmd-faq-a'],
+        },
+      },
+      {
+        '@type': 'MedicalOrganization',
+        '@id': 'https://teledirectmd.com/#organization',
+        name: 'TeleDirectMD',
+        url: 'https://teledirectmd.com',
+        logo: 'https://teledirectmd.com/logo.webp',
+        telephone: '+1-678-956-1855',
+        email: 'contact@teledirectmd.com',
+        description: 'Physician-led telemedicine practice. $49 flat-fee video visits with a board-certified MD across 41 states + DC. Select Aetna, Blue Cross Blue Shield, and UnitedHealthcare commercial plans accepted.',
+        medicalSpecialty: ['Family Medicine', 'Urgent Care', 'Telemedicine'],
+        priceRange: '$49',
+        currenciesAccepted: 'USD',
+        aggregateRating: getAggregateRating(),
+      },
+      {
+        '@type': 'Physician',
+        '@id': 'https://teledirectmd.com/#physician',
+        name: 'Parth Bhavsar, MD',
+        url: 'https://teledirectmd.com/about',
+        identifier: { '@type': 'PropertyValue', name: 'NPI', value: '1104323203' },
+        medicalSpecialty: 'Family Medicine',
+        worksFor: { '@id': 'https://teledirectmd.com/#organization' },
+        ...getReviewBlock(),
+      },
+      {
+        '@type': 'FAQPage',
+        '@id': 'https://teledirectmd.com/faq#faqpage',
+        mainEntity: items.map((item) => ({
+          '@type': 'Question',
+          name: item.q,
+          acceptedAnswer: {
+            '@type': 'Answer',
+            text: item.a,
+          },
+        })),
+      },
+    ],
   };
 }
 

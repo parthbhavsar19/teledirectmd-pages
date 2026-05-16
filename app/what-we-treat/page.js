@@ -1,4 +1,5 @@
 import { getConditionCategories, getConditionSlugs, getCondition, getStates, resolveConditionNational } from '../../lib/get-data';
+import { getAggregateRating, getReviewBlock } from '../../lib/review-schema';
 import WhatWeTreatClient from './WhatWeTreatClient';
 
 /* ── Metadata ── */
@@ -101,6 +102,7 @@ function buildJsonLd(categories, allStates) {
           { '@type': 'EducationalOccupationalCredential', credentialCategory: 'LegitScript Certified' },
           { '@type': 'EducationalOccupationalCredential', credentialCategory: 'HIPAA Compliant' },
         ],
+        aggregateRating: getAggregateRating(),
       },
       {
         '@type': 'Physician',
@@ -116,6 +118,7 @@ function buildJsonLd(categories, allStates) {
           'https://www.webmd.com/provider/parth-bhavsar/overview',
           'https://www.healthgrades.com/group-directory/ga-georgia/lawrenceville/teledirectmd-ooop5jn',
         ],
+        ...getReviewBlock(),
       },
       {
         '@type': 'OfferCatalog',
