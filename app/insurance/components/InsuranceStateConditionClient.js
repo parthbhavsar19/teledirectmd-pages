@@ -1,15 +1,32 @@
 'use client';
-import { B, INSURANCE_CONDITIONS, INSURERS, STATE_NAMES, COPAY_DATA, STATE_INSURANCE_MAP, LAST_REVIEWED } from '../../../data/insurance/insuranceConfig';
+import { B, INSURANCE_CONDITIONS, INSURERS, STATE_NAMES, COPAY_DATA, STATE_INSURANCE_MAP, STATE_PLAN_DETAILS, LAST_REVIEWED } from '../../../data/insurance/insuranceConfig';
+import { AETNA_CA_CONDITION_DETAILS } from '../../../data/insurance/aetna-ca-conditions';
 import { FAQ, BookCTA, HowItWorksSteps, TrustBar, Breadcrumb, InsuranceDisclaimer, AnswerBlock, CopayCard, PatientJourney, CommissionerLink, CrossInsurerTable } from './InsuranceShared';
 import { CompareToOtherTelehealthGrid, Or49CashLink } from '../../components/CostCompareModules';
 import { Ico } from './InsuranceIcons';
 import { getNationalConditionSlug } from '../../../lib/internal-links';
 import { getAggregateRating, getReviewBlock } from '../../../lib/review-schema';
 
-export default function InsuranceStateConditionClient({ insurerSlug, stateSlug, conditionSlug }) {
+export default function InsuranceStateConditionClient({ insurerSlug, stateSlug, conditionSlug, caExpansion = false }) {
   const insurer = INSURERS[insurerSlug];
-  const cond = INSURANCE_CONDITIONS[conditionSlug];
+  // For Aetna-CA-only expansion conditions, source from AETNA_CA_CONDITION_DETAILS.
+  // Otherwise use the base INSURANCE_CONDITIONS map.
+  const cond = caExpansion ? AETNA_CA_CONDITION_DETAILS[conditionSlug] : INSURANCE_CONDITIONS[conditionSlug];
   if (!insurer || !cond) return null;
+
+  // CA-expansion detail bundle (caContext, aetnaCAPolicy, aetnaCACovered, uniqueFAQs).
+  // Always available for caExpansion=true; also opportunistically attached for the
+  // base 10 conditions when state=california, so the original 10 Aetna CA pages
+  // benefit from the CA context where authored (additive, non-breaking).
+  const caDetail = (stateSlug === 'california' && insurerSlug === 'aetna')
+    ? (AETNA_CA_CONDITION_DETAILS[conditionSlug] || null)
+    : null;
+
+  // Aetna CA contracted plan list — inject into schema acceptsInsurance when present.
+  const stateCode_forPlan = caDetail ? 'CA' : null;
+  const planDetail = (insurerSlug === 'aetna' && stateCode_forPlan)
+    ? STATE_PLAN_DETAILS.aetna?.[stateCode_forPlan]
+    : null;
 
   // Resolve state code from slug
   const slugToCode = {};
@@ -26,7 +43,12 @@ export default function InsuranceStateConditionClient({ insurerSlug, stateSlug, 
   const copayData = COPAY_DATA[insurerSlug]?.[stateCode];
   const stateInfo = STATE_INSURANCE_MAP[stateCode];
 
-  const FAQS = [
+  // Build the FAQ list. When a CA-detail bundle with uniqueFAQs exists,
+  // promote those condition-specific FAQs to the TOP of the list and trim the
+  // tail of the generic 12 so total length stays reasonable. This ensures the
+  // page surfaces substantive, condition-specific Q&A above the templated ones
+  // (helpful-content positive signal, real patient-search-intent match).
+  const GENERIC_FAQS = [
     {
       q: `Does ${affiliateName} cover ${cond.displayName} telemedicine in ${stateName}?`,
       a: `Yes. ${affiliateName} commercial plans cover telehealth visits for ${cond.displayName} in ${stateName}. TeleDirectMD (Dr. Parth Bhavsar, MD, NPI: 1104323203) is an in-network telehealth provider with ${shortName} in ${stateName}. Your standard ${shortName} telehealth copay applies — typically ${copayData?.typical || "$0–$40"} for most commercial plans. If clinically appropriate, your prescription is sent to your ${stateName} pharmacy immediately after your visit.`,
@@ -77,6 +99,22 @@ export default function InsuranceStateConditionClient({ insurerSlug, stateSlug, 
     },
   ];
 
+  // When CA detail bundle supplies condition-specific FAQs, lead with them and
+  // keep the most useful 6 generic FAQs (drop 6 lowest-value ones to control length).
+  const uniqueFAQs = caDetail?.uniqueFAQs || [];
+  const FAQS = uniqueFAQs.length > 0
+    ? [
+        ...uniqueFAQs,
+        // Keep the most useful generic templated FAQs (copay/billing/booking/scope)
+        GENERIC_FAQS[0], // "Does {insurer} cover {condition}"
+        GENERIC_FAQS[1], // copay
+        GENERIC_FAQS[5], // what if my plan not covered
+        GENERIC_FAQS[6], // how fast can I be seen
+        GENERIC_FAQS[8], // legitimacy / NPI / LegitScript
+        GENERIC_FAQS[11], // FSA/HSA
+      ]
+    : GENERIC_FAQS;
+
   const SCHEMA = {
     "@context": "https://schema.org",
     "@graph": [
@@ -102,7 +140,15 @@ export default function InsuranceStateConditionClient({ insurerSlug, stateSlug, 
         "medicalSpecialty": "Family Medicine",
         "areaServed": { "@type": "State", "name": stateName },
         "knowsAbout": { "@type": "MedicalCondition", "name": cond.displayName, "code": { "@type": "MedicalCode", "code": cond.icd10, "codingSystem": "ICD-10" } },
-        "acceptsInsurance": [{ "@type": "HealthInsurancePlan", "name": `${affiliateName} Commercial Plans — ${stateName}` }],
+        "acceptsInsurance": planDetail
+          ? planDetail.plans.map(p => ({
+              "@type": "HealthInsurancePlan",
+              "name": p.name,
+              "healthPlanNetworkTier": p.productType,
+              "usesHealthPlanIdStandard": "Aetna",
+              "areaServed": { "@type": "State", "name": stateName },
+            }))
+          : [{ "@type": "HealthInsurancePlan", "name": `${affiliateName} Commercial Plans — ${stateName}` }],
         ...getReviewBlock(),
       },
       {
@@ -187,6 +233,29 @@ export default function InsuranceStateConditionClient({ insurerSlug, stateSlug, 
 
         {/* COPAY CARD */}
         {copayData && <CopayCard insurerName={affiliateName} stateName={stateName} copayData={copayData} insurerColor={insurer.color} />}
+
+        {/* AETNA CA POLICY BLOCK — only renders when caDetail provided */}
+        {caDetail?.aetnaCAPolicy && (
+          <section style={{ marginBottom: 40, padding: "24px 28px", background: caDetail.aetnaCACovered === false ? "#FFF7ED" : "#F0FDF4", border: `1px solid ${caDetail.aetnaCACovered === false ? "#FB923C" : "#86EFAC"}`, borderRadius: B.r }} data-speakable="true">
+            <div style={{ display: "flex", alignItems: "center", gap: 10, marginBottom: 10 }}>
+              <Ico.Shield c={caDetail.aetnaCACovered === false ? "#EA580C" : "#16A34A"} s={20} />
+              <h2 style={{ fontFamily: B.fd, fontSize: 18, fontWeight: 700, color: B.navy, margin: 0 }}>
+                Aetna California Coverage Policy — {cond.displayName}
+              </h2>
+            </div>
+            <p style={{ fontSize: 14.5, color: B.text, margin: 0, lineHeight: 1.7 }}>{caDetail.aetnaCAPolicy}</p>
+          </section>
+        )}
+
+        {/* CA CLINICAL / REGULATORY CONTEXT — only renders when caDetail provided */}
+        {caDetail?.caContext && (
+          <section style={{ marginBottom: 40, padding: "20px 24px", background: "#EFF6FF", border: "1px solid #BFDBFE", borderRadius: B.r }} data-speakable="true">
+            <div style={{ display: "flex", alignItems: "center", gap: 10, marginBottom: 8 }}>
+              <span style={{ fontFamily: B.fb, fontSize: 11, fontWeight: 700, color: "#1E40AF", background: "#DBEAFE", padding: "4px 10px", borderRadius: 100, letterSpacing: "0.04em", textTransform: "uppercase" }}>California Context</span>
+            </div>
+            <p style={{ fontSize: 14, color: B.text, margin: 0, lineHeight: 1.7 }}>{caDetail.caContext}</p>
+          </section>
+        )}
 
         {/* KEY FACTS BOX */}
         <div style={{ background: insurer.colorLight, border: `1px solid ${insurer.color}33`, borderRadius: B.r, padding: "28px", marginBottom: 40 }}>
