@@ -1,5 +1,6 @@
 import { getStates, getConditionSlugs } from '../lib/get-data';
 import { INSURERS, INSURANCE_CONDITIONS } from '../data/insurance/insuranceConfig';
+import { AETNA_CA_CONDITION_DETAILS } from '../data/insurance/aetna-ca-conditions';
 import { COST_PAGE_SLUGS } from '../lib/cost-pages-config';
 import { COMPARE_PAGE_SLUGS } from '../lib/compare-pages-config';
 import { SYMPTOM_PAGE_SLUGS } from '../lib/symptom-pages-config';
@@ -98,6 +99,15 @@ export default function sitemap() {
         urls.push(url(`/insurance/${insurerSlug}/${stateSlug}/${condSlug}/`, 0.8, 'weekly'));
       }
     }
+  }
+
+  // 8b) Aetna × California expansion conditions — 50 new pages (May 17, 2026)
+  //     Scoped to California only. Each entry in AETNA_CA_CONDITION_DETAILS has
+  //     no overlap with INSURANCE_CONDITIONS so we never double-list.
+  const baseCondSet = new Set(insuranceConditionSlugs);
+  for (const condSlug of Object.keys(AETNA_CA_CONDITION_DETAILS)) {
+    if (baseCondSet.has(condSlug)) continue; // safety guard against accidental overlap
+    urls.push(url(`/insurance/aetna/california/${condSlug}/`, 0.85, 'weekly'));
   }
 
   // 9) Cost-comparison pages (/cost/{slug}/)
