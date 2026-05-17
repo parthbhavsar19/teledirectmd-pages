@@ -306,6 +306,13 @@
       "status": 301
     },
     {
+      "src": "/home(/?)",
+      "headers": {
+        "Location": "/"
+      },
+      "status": 301
+    },
+    {
       "src": "^https://www\\.teledirectmd\\.com(.*)",
       "headers": {
         "Location": "https://teledirectmd.com$1"
