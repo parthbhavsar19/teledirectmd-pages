@@ -1,5 +1,5 @@
 'use client';
-import { B, STATE_NAMES, INSURANCE_CONDITIONS, INSURERS, COPAY_DATA, STATE_INSURANCE_MAP, LAST_REVIEWED } from '../../../../data/insurance/insuranceConfig';
+import { B, STATE_NAMES, INSURANCE_CONDITIONS, INSURERS, COPAY_DATA, STATE_INSURANCE_MAP, STATE_PLAN_DETAILS, LAST_REVIEWED } from '../../../../data/insurance/insuranceConfig';
 import { FAQ, BookCTA, HowItWorksSteps, TrustBar, Breadcrumb, InsuranceDisclaimer, AnswerBlock, CopayCard, PatientJourney, CrossInsurerTable, CommissionerLink, InsurerTrustDetails } from '../../components/InsuranceShared';
 import { CompareToOtherTelehealthGrid, Or49CashLink } from '../../../components/CostCompareModules';
 import { Ico } from '../../components/InsuranceIcons';
@@ -29,6 +29,7 @@ export default function AetnaStateClient({ stateSlug }) {
   const ctx = STATE_CONTEXT[stateCode] || { cities:[], note:"" };
   const copayData = COPAY_DATA.aetna?.[stateCode];
   const stateInfo = STATE_INSURANCE_MAP[stateCode];
+  const planDetail = STATE_PLAN_DETAILS.aetna?.[stateCode];
 
   const FAQS = [
     { q:`Is TeleDirectMD in-network with Aetna in ${stateName}?`, a:`Yes. TeleDirectMD is contracted as an in-network telehealth provider with Aetna commercial plans in ${stateName}. Dr. Parth Bhavsar, MD (NPI: 1104323203) is the treating physician. If you have an Aetna employer-sponsored or individual commercial plan in ${stateName}, your telehealth visit may be covered subject to your plan's copay or deductible. Claims are submitted electronically using CPT codes 99213/99214.` },
@@ -64,7 +65,15 @@ export default function AetnaStateClient({ stateSlug }) {
         "identifier": { "@type": "PropertyValue", "name": "NPI", "value": "1104323203" },
         "medicalSpecialty": "Family Medicine",
         "areaServed": { "@type": "State", "name": stateName },
-        "acceptsInsurance": [{ "@type": "HealthInsurancePlan", "name": `Aetna Commercial Plans — ${stateName}` }],
+        "acceptsInsurance": planDetail
+          ? planDetail.plans.map(p => ({
+              "@type": "HealthInsurancePlan",
+              "name": p.name,
+              "healthPlanNetworkTier": p.productType,
+              "usesHealthPlanIdStandard": "Aetna",
+              "areaServed": { "@type": "State", "name": stateName },
+            }))
+          : [{ "@type": "HealthInsurancePlan", "name": `Aetna Commercial Plans — ${stateName}` }],
         ...getReviewBlock(),
       },
       {
@@ -106,6 +115,11 @@ export default function AetnaStateClient({ stateSlug }) {
             <Ico.Shield c="#C084FC" s={16} />
             <span style={{ fontFamily:B.fb, fontSize:13, fontWeight:600, color:"#C084FC", letterSpacing:"0.04em", textTransform:"uppercase" }}>Aetna In-Network — {stateName}</span>
           </div>
+          {planDetail && (
+            <div style={{ display:"inline-flex", alignItems:"center", gap:8, background:"rgba(192,132,252,0.12)", borderRadius:100, padding:"6px 14px", marginBottom:20, marginLeft:8, border:"1px solid rgba(192,132,252,0.25)" }}>
+              <span style={{ fontFamily:B.fb, fontSize:12, fontWeight:600, color:"#E9D5FF", letterSpacing:"0.02em" }}>Effective {planDetail.effectiveDate}</span>
+            </div>
+          )}
           <h1 style={{ fontFamily:B.fd, fontSize:"clamp(28px, 5vw, 44px)", fontWeight:700, color:B.white, lineHeight:1.15, margin:"0 0 16px" }}>Online Doctor That Accepts<br />Aetna Insurance in {stateName}</h1>
           <p data-speakable="true" style={{ fontFamily:B.fb, fontSize:"clamp(15px, 2.5vw, 18px)", color:"rgba(255,255,255,0.80)", lineHeight:1.65, margin:"0 0 10px", maxWidth:600 }}>
             TeleDirectMD is in-network with Aetna commercial plans in {stateName}. See a board-certified physician by video — your standard Aetna copay applies{copayData ? ` (typically ${copayData.typical})` : ""}.
@@ -129,6 +143,32 @@ export default function AetnaStateClient({ stateSlug }) {
 
         {/* COPAY CARD */}
         {copayData && <CopayCard insurerName="Aetna" stateName={stateName} copayData={copayData} insurerColor={insurer.color} />}
+
+        {/* CONTRACTED PLANS — only when verified contract data exists for this state */}
+        {planDetail && (
+          <section style={{ marginBottom:40, padding:"24px 24px", background:B.white, border:`1px solid ${B.border}`, borderRadius:B.r, boxShadow:B.shadow }} data-speakable="true">
+            <div style={{ display:"flex", alignItems:"center", gap:10, marginBottom:8 }}>
+              <h2 style={{ fontFamily:B.fd, fontSize:22, fontWeight:700, color:B.navy, margin:0 }}>Aetna Plans Accepted in {stateName}</h2>
+              <span style={{ fontFamily:B.fb, fontSize:11, fontWeight:700, color:"#7B2CBF", background:"#F3EAFF", padding:"4px 10px", borderRadius:100, letterSpacing:"0.04em", textTransform:"uppercase" }}>Effective {planDetail.effectiveDate}</span>
+            </div>
+            <p style={{ fontSize:14, color:B.text, margin:"0 0 16px", lineHeight:1.65 }}>
+              TeleDirectMD is contracted with Aetna {planDetail.productLines.join(", ")} in {stateName} as of <time dateTime={planDetail.effectiveDateISO}>{planDetail.effectiveDate}</time>. The following Aetna {stateName} plan families are in-network for telehealth visits with Dr. Parth Bhavsar, MD (NPI: 1104323203):
+            </p>
+            <ul style={{ listStyle:"none", padding:0, margin:"0 0 16px", display:"grid", gridTemplateColumns:"repeat(auto-fill, minmax(260px, 1fr))", gap:8 }}>
+              {planDetail.plans.map((p,i) => (
+                <li key={i} style={{ display:"flex", alignItems:"center", gap:10, padding:"10px 12px", background:"#F9FAFB", border:`1px solid ${B.border}`, borderRadius:B.rs }}>
+                  <Ico.Check c="#7B2CBF" s={14} />
+                  <span style={{ fontSize:13.5, fontWeight:500, color:B.navy, lineHeight:1.35 }}>{p.name}</span>
+                  <span style={{ marginLeft:"auto", fontSize:10, fontWeight:700, color:"#7B2CBF", background:"#F3EAFF", padding:"2px 8px", borderRadius:100, letterSpacing:"0.04em" }}>{p.productType}</span>
+                </li>
+              ))}
+            </ul>
+            <p style={{ fontSize:13, color:B.text, margin:"0 0 8px", lineHeight:1.6 }}>
+              <strong style={{ color:B.navy }}>Not accepted:</strong> {planDetail.excludedLines.join(", ")}. If you have one of these plan types, self-pay is available for $49 flat — same physician, same care.
+            </p>
+            <p style={{ fontSize:12, color:"#6B7280", margin:0, lineHeight:1.6 }}>{planDetail.note}</p>
+          </section>
+        )}
 
         {/* CONDITIONS GRID */}
         <section style={{ marginBottom:48 }}>

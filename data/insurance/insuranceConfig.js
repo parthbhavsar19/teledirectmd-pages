@@ -148,6 +148,37 @@ export const COPAY_DATA = {
   },
 };
 
+// ─── State-specific contracted plan detail ───────────────────────────────────
+// When a state has a known contract effective date and a verified list of
+// contracted plan families, surface them on the insurer x state page for
+// both visible content and HealthInsurancePlan schema. Keyed by insurer slug
+// then state code. Add new entries only with verified contract data.
+export const STATE_PLAN_DETAILS = {
+  aetna: {
+    CA: {
+      effectiveDate: "April 30, 2026",
+      effectiveDateISO: "2026-04-30",
+      productLines: ["Commercial PPO", "Commercial EPO", "Commercial POS"],
+      excludedLines: ["Medi-Cal (Medicaid)", "HMO", "QPOS", "Medicare Advantage"],
+      plans: [
+        { name: "Aetna Choice POS II (Open Access)", productType: "POS" },
+        { name: "Aetna Open Access Managed Choice EPO", productType: "EPO" },
+        { name: "Aetna Elect Choice EPO", productType: "EPO" },
+        { name: "Aetna Open Choice PPO", productType: "PPO" },
+        { name: "Aetna Signature Administrators PPO", productType: "PPO" },
+        { name: "Aetna Premier Care Network / Aexcel", productType: "PPO" },
+        { name: "Aetna Whole Health", productType: "PPO" },
+        { name: "Aetna HealthFund / HDHP", productType: "PPO" },
+        { name: "Innovation Health (Aetna)", productType: "PPO" },
+        { name: "Meritain Health (Aetna)", productType: "PPO" },
+        { name: "Allied Benefit Systems (Aetna)", productType: "PPO" },
+        { name: "Aetna Funding Advantage / Leap", productType: "PPO" },
+      ],
+      note: "Aetna California commercial network — contracted effective April 30, 2026. Plan acceptance is subject to your specific plan benefits and network tier. Self-pay $49 is always available.",
+    },
+  },
+};
+
 // ─── Condition clinical data — clinical depth for matrix pages ───────────────
 export const INSURANCE_CONDITIONS = {
   "uti-treatment": {
