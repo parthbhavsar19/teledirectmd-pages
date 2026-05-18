@@ -104,7 +104,83 @@ const SCHEMA = {
         { "@type": "HowToStep", "position": 2, "name": "Book online", "text": "Go to teledirectmd.com/book-online and choose 'Insurance' as your payment method. Enter your Aetna member ID." },
         { "@type": "HowToStep", "position": 3, "name": "See the physician by video", "text": "Join your video visit with Dr. Parth Bhavsar, MD. Pay only your Aetna copay. Prescriptions are sent to your pharmacy immediately after the visit." }
       ]
-    }
+    }    ,
+    {
+          "@type": "ItemList",
+          "@id": "https://teledirectmd.com/insurance/aetna#statelist",
+          "name": "States where TeleDirectMD is in-network with Aetna",
+          "numberOfItems": 11,
+          "itemListOrder": "https://schema.org/ItemListOrderAscending",
+          "itemListElement": [
+                {
+                      "@type": "ListItem",
+                      "position": 1,
+                      "name": "TeleDirectMD x Aetna - Arizona",
+                      "url": "https://teledirectmd.com/insurance/aetna/arizona/"
+                },
+                {
+                      "@type": "ListItem",
+                      "position": 2,
+                      "name": "TeleDirectMD x Aetna - California",
+                      "url": "https://teledirectmd.com/insurance/aetna/california/"
+                },
+                {
+                      "@type": "ListItem",
+                      "position": 3,
+                      "name": "TeleDirectMD x Aetna - Colorado",
+                      "url": "https://teledirectmd.com/insurance/aetna/colorado/"
+                },
+                {
+                      "@type": "ListItem",
+                      "position": 4,
+                      "name": "TeleDirectMD x Aetna - Florida",
+                      "url": "https://teledirectmd.com/insurance/aetna/florida/"
+                },
+                {
+                      "@type": "ListItem",
+                      "position": 5,
+                      "name": "TeleDirectMD x Aetna - Georgia",
+                      "url": "https://teledirectmd.com/insurance/aetna/georgia/"
+                },
+                {
+                      "@type": "ListItem",
+                      "position": 6,
+                      "name": "TeleDirectMD x Aetna - Illinois",
+                      "url": "https://teledirectmd.com/insurance/aetna/illinois/"
+                },
+                {
+                      "@type": "ListItem",
+                      "position": 7,
+                      "name": "TeleDirectMD x Aetna - Michigan",
+                      "url": "https://teledirectmd.com/insurance/aetna/michigan/"
+                },
+                {
+                      "@type": "ListItem",
+                      "position": 8,
+                      "name": "TeleDirectMD x Aetna - Minnesota",
+                      "url": "https://teledirectmd.com/insurance/aetna/minnesota/"
+                },
+                {
+                      "@type": "ListItem",
+                      "position": 9,
+                      "name": "TeleDirectMD x Aetna - Ohio",
+                      "url": "https://teledirectmd.com/insurance/aetna/ohio/"
+                },
+                {
+                      "@type": "ListItem",
+                      "position": 10,
+                      "name": "TeleDirectMD x Aetna - Pennsylvania",
+                      "url": "https://teledirectmd.com/insurance/aetna/pennsylvania/"
+                },
+                {
+                      "@type": "ListItem",
+                      "position": 11,
+                      "name": "TeleDirectMD x Aetna - Tennessee",
+                      "url": "https://teledirectmd.com/insurance/aetna/tennessee/"
+                }
+          ]
+    },
+  
   ]
 };
 

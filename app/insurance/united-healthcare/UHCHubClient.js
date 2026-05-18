@@ -59,7 +59,77 @@ const SCHEMA = {
       {"@type":"ListItem","position":1,"name":"Home","item":"https://teledirectmd.com"},
       {"@type":"ListItem","position":2,"name":"Insurance","item":"https://teledirectmd.com/insurance"},
       {"@type":"ListItem","position":3,"name":"UnitedHealthcare","item":"https://teledirectmd.com/insurance/united-healthcare"},
-    ]}
+    ]}    ,
+    {
+          "@type": "ItemList",
+          "@id": "https://teledirectmd.com/insurance/united-healthcare#statelist",
+          "name": "States where TeleDirectMD is in-network with United Healthcare",
+          "numberOfItems": 10,
+          "itemListOrder": "https://schema.org/ItemListOrderAscending",
+          "itemListElement": [
+                {
+                      "@type": "ListItem",
+                      "position": 1,
+                      "name": "TeleDirectMD x United Healthcare - Colorado",
+                      "url": "https://teledirectmd.com/insurance/united-healthcare/colorado/"
+                },
+                {
+                      "@type": "ListItem",
+                      "position": 2,
+                      "name": "TeleDirectMD x United Healthcare - Georgia",
+                      "url": "https://teledirectmd.com/insurance/united-healthcare/georgia/"
+                },
+                {
+                      "@type": "ListItem",
+                      "position": 3,
+                      "name": "TeleDirectMD x United Healthcare - Illinois",
+                      "url": "https://teledirectmd.com/insurance/united-healthcare/illinois/"
+                },
+                {
+                      "@type": "ListItem",
+                      "position": 4,
+                      "name": "TeleDirectMD x United Healthcare - Minnesota",
+                      "url": "https://teledirectmd.com/insurance/united-healthcare/minnesota/"
+                },
+                {
+                      "@type": "ListItem",
+                      "position": 5,
+                      "name": "TeleDirectMD x United Healthcare - North Carolina",
+                      "url": "https://teledirectmd.com/insurance/united-healthcare/north-carolina/"
+                },
+                {
+                      "@type": "ListItem",
+                      "position": 6,
+                      "name": "TeleDirectMD x United Healthcare - New Jersey",
+                      "url": "https://teledirectmd.com/insurance/united-healthcare/new-jersey/"
+                },
+                {
+                      "@type": "ListItem",
+                      "position": 7,
+                      "name": "TeleDirectMD x United Healthcare - Ohio",
+                      "url": "https://teledirectmd.com/insurance/united-healthcare/ohio/"
+                },
+                {
+                      "@type": "ListItem",
+                      "position": 8,
+                      "name": "TeleDirectMD x United Healthcare - Pennsylvania",
+                      "url": "https://teledirectmd.com/insurance/united-healthcare/pennsylvania/"
+                },
+                {
+                      "@type": "ListItem",
+                      "position": 9,
+                      "name": "TeleDirectMD x United Healthcare - Tennessee",
+                      "url": "https://teledirectmd.com/insurance/united-healthcare/tennessee/"
+                },
+                {
+                      "@type": "ListItem",
+                      "position": 10,
+                      "name": "TeleDirectMD x United Healthcare - Washington",
+                      "url": "https://teledirectmd.com/insurance/united-healthcare/washington/"
+                }
+          ]
+    },
+  
   ]
 };
 

@@ -54,7 +54,47 @@ const SCHEMA = {
       {"@type":"ListItem","position":1,"name":"Home","item":"https://teledirectmd.com"},
       {"@type":"ListItem","position":2,"name":"Insurance","item":"https://teledirectmd.com/insurance"},
       {"@type":"ListItem","position":3,"name":"Blue Cross Blue Shield","item":"https://teledirectmd.com/insurance/blue-cross-blue-shield"},
-    ]}
+    ]}    ,
+    {
+          "@type": "ItemList",
+          "@id": "https://teledirectmd.com/insurance/blue-cross-blue-shield#statelist",
+          "name": "States where TeleDirectMD is in-network with Blue Cross Blue Shield",
+          "numberOfItems": 5,
+          "itemListOrder": "https://schema.org/ItemListOrderAscending",
+          "itemListElement": [
+                {
+                      "@type": "ListItem",
+                      "position": 1,
+                      "name": "TeleDirectMD x Blue Cross Blue Shield - Florida",
+                      "url": "https://teledirectmd.com/insurance/blue-cross-blue-shield/florida/"
+                },
+                {
+                      "@type": "ListItem",
+                      "position": 2,
+                      "name": "TeleDirectMD x Blue Cross Blue Shield - Georgia",
+                      "url": "https://teledirectmd.com/insurance/blue-cross-blue-shield/georgia/"
+                },
+                {
+                      "@type": "ListItem",
+                      "position": 3,
+                      "name": "TeleDirectMD x Blue Cross Blue Shield - Illinois",
+                      "url": "https://teledirectmd.com/insurance/blue-cross-blue-shield/illinois/"
+                },
+                {
+                      "@type": "ListItem",
+                      "position": 4,
+                      "name": "TeleDirectMD x Blue Cross Blue Shield - Pennsylvania",
+                      "url": "https://teledirectmd.com/insurance/blue-cross-blue-shield/pennsylvania/"
+                },
+                {
+                      "@type": "ListItem",
+                      "position": 5,
+                      "name": "TeleDirectMD x Blue Cross Blue Shield - Texas",
+                      "url": "https://teledirectmd.com/insurance/blue-cross-blue-shield/texas/"
+                }
+          ]
+    },
+  
   ]
 };
 
