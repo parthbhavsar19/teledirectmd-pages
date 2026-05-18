@@ -119,12 +119,61 @@ const jsonLd = {
       name: 'TeleDirectMD | $49 Online Doctor Visits — Board-Certified Telehealth',
       description:
         'See a board-certified family medicine doctor from home for just $49. No insurance needed. Treat 60+ conditions across 40+ states.',
-      isPartOf: {
-        '@type': 'WebSite',
-        '@id': 'https://teledirectmd.com/#website',
-        url: 'https://teledirectmd.com',
-        name: 'TeleDirectMD',
+      isPartOf: { '@id': 'https://teledirectmd.com/#website' },
+    },
+    {
+      '@type': 'WebSite',
+      '@id': 'https://teledirectmd.com/#website',
+      url: 'https://teledirectmd.com/',
+      name: 'TeleDirectMD',
+      description: 'Physician-led telehealth platform offering $49 board-certified online doctor visits in 42 US states + DC.',
+      publisher: { '@id': 'https://teledirectmd.com/#organization' },
+      inLanguage: 'en-US',
+      potentialAction: {
+        '@type': 'SearchAction',
+        target: {
+          '@type': 'EntryPoint',
+          urlTemplate: 'https://teledirectmd.com/search?q={search_term_string}',
+        },
+        'query-input': 'required name=search_term_string',
       },
+    },
+    {
+      '@type': 'HowTo',
+      '@id': 'https://teledirectmd.com/#howto-book-visit',
+      name: 'How to Book a TeleDirectMD Online Doctor Visit',
+      description: 'Three steps to see Dr. Parth Bhavsar, MD by video for $49 (cash-pay) or your insurance copay (Aetna, Blue Cross Blue Shield, United Healthcare in participating states).',
+      totalTime: 'PT5M',
+      supply: [
+        { '@type': 'HowToSupply', name: 'A device with a camera (phone, tablet, or computer)' },
+        { '@type': 'HowToSupply', name: 'A valid government-issued ID' },
+        { '@type': 'HowToSupply', name: 'Insurance card OR a payment method ($49 cash-pay)' },
+      ],
+      tool: [
+        { '@type': 'HowToTool', name: 'TeleDirectMD secure video-visit platform' },
+      ],
+      estimatedCost: { '@type': 'MonetaryAmount', currency: 'USD', value: '49' },
+      step: [
+        {
+          '@type': 'HowToStep',
+          position: 1,
+          name: 'Book your visit online',
+          text: 'Visit teledirectmd.com/book-online, pick a same-day appointment slot, and complete the brief intake form covering your symptoms and medication history. Booking takes about 60 seconds.',
+          url: 'https://teledirectmd.com/book-online',
+        },
+        {
+          '@type': 'HowToStep',
+          position: 2,
+          name: 'Join your video visit with Dr. Parth Bhavsar, MD',
+          text: 'At your appointment time, join the secure HIPAA-compliant video call. Dr. Bhavsar (NPI: 1104323203) will review your history, evaluate your symptoms, and decide on an appropriate treatment plan. Visits typically last 10–15 minutes.',
+        },
+        {
+          '@type': 'HowToStep',
+          position: 3,
+          name: 'Receive your prescription or doctor\'s note',
+          text: 'If clinically appropriate, your prescription is sent electronically to your pharmacy within minutes of the visit. Doctor\'s notes and visit summaries are delivered by email. Insurance claims (if applicable) are submitted electronically using CPT codes 99213/99214.',
+        },
+      ],
     },
   ],
 };
