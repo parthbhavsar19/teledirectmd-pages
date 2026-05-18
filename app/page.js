@@ -1,5 +1,7 @@
 import HomepageClient from './HomepageClient';
 import { getAggregateRating, getReviewBlock } from '../lib/review-schema';
+import { CitableSummaryBlock } from './components/CitableSummary';
+import { summarizeHomepage, citableSummaryToJsonLd } from '../lib/citable-summary';
 
 export const metadata = {
   title: 'TeleDirectMD | $49 Online Doctor Visits — Board-Certified Telehealth',
@@ -128,8 +130,12 @@ const jsonLd = {
 };
 
 export default function HomePage() {
+  const citableSummary_AI = summarizeHomepage();
+  const citableJsonLd_AI = citableSummaryToJsonLd(citableSummary_AI, { pageUrl: 'https://teledirectmd.com/' });
+
   return (
     <>
+      <CitableSummaryBlock summary={citableSummary_AI} jsonLd={citableJsonLd_AI} idSuffix="home" />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}

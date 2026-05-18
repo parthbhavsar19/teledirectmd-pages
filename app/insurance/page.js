@@ -1,5 +1,7 @@
 import InsuranceClient from './InsuranceClient';
 import { getAggregateRating, getReviewBlock } from '../../lib/review-schema';
+import { CitableSummaryBlock } from '../components/CitableSummary';
+import { summarizeInsuranceHub, citableSummaryToJsonLd } from '../../lib/citable-summary';
 
 export const metadata = {
   title: 'Insurance & Pricing | TeleDirectMD',
@@ -91,8 +93,12 @@ const jsonLd = {
 };
 
 export default function InsurancePage() {
+  const citableSummary_AI = summarizeInsuranceHub();
+  const citableJsonLd_AI = citableSummaryToJsonLd(citableSummary_AI, { pageUrl: 'https://teledirectmd.com/insurance/' });
+
   return (
     <>
+      <CitableSummaryBlock summary={citableSummary_AI} jsonLd={citableJsonLd_AI} idSuffix="ins-hub" />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}

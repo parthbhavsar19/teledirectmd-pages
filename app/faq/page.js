@@ -1,5 +1,7 @@
 import FAQClient from './FAQClient';
 import { getAggregateRating, getReviewBlock } from '../../lib/review-schema';
+import { CitableSummaryBlock } from '../components/CitableSummary';
+import { summarizeFaqLanding, citableSummaryToJsonLd } from '../../lib/citable-summary';
 
 export const metadata = {
   title: 'Frequently Asked Questions | TeleDirectMD',
@@ -217,8 +219,12 @@ function buildJsonLd(items) {
 }
 
 export default function FAQPage() {
+  const citableSummary_AI = summarizeFaqLanding();
+  const citableJsonLd_AI = citableSummaryToJsonLd(citableSummary_AI, { pageUrl: 'https://teledirectmd.com/faq/' });
+
   return (
     <>
+      <CitableSummaryBlock summary={citableSummary_AI} jsonLd={citableJsonLd_AI} idSuffix="faq" />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(buildJsonLd(faqItems)) }}
