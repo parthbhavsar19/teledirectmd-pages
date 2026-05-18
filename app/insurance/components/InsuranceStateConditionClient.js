@@ -6,6 +6,8 @@ import { CompareToOtherTelehealthGrid, Or49CashLink } from '../../components/Cos
 import { Ico } from './InsuranceIcons';
 import { getNationalConditionSlug } from '../../../lib/internal-links';
 import { getAggregateRating, getReviewBlock } from '../../../lib/review-schema';
+import { CitableSummaryBlock } from '../../components/CitableSummary';
+import { summarizeInsuranceStateCondition, citableSummaryToJsonLd } from '../../../lib/citable-summary';
 
 export default function InsuranceStateConditionClient({ insurerSlug, stateSlug, conditionSlug, caExpansion = false }) {
   const insurer = INSURERS[insurerSlug];
@@ -176,10 +178,24 @@ export default function InsuranceStateConditionClient({ insurerSlug, stateSlug, 
     ],
   };
 
+  // ── Citable summary for AI extractors (ChatGPT, Perplexity, Gemini, Claude)
+  const citableSummary = summarizeInsuranceStateCondition({
+    insurerName: affiliateName,
+    stateName,
+    conditionName: cond.displayName || cond.name,
+    conditionICD10: cond.icd10,
+    copayTypical: copayData?.typical,
+    drugMention: cond.rxInfo?.typical || cond.rxFirstLine || null,
+    guidelineKey: cond.guidelineSource || null,
+  });
+  const pageUrl = `https://teledirectmd.com/insurance/${insurerSlug}/${stateSlug}/${conditionSlug}/`;
+  const citableJsonLd = citableSummaryToJsonLd(citableSummary, { pageUrl });
+
   return (
     <div style={{ fontFamily: B.fb, background: B.bg, color: B.navy }}>
       <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400&family=DM+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(SCHEMA) }} />
+      <CitableSummaryBlock summary={citableSummary} jsonLd={citableJsonLd} idSuffix={`${insurerSlug}-${stateSlug}-${conditionSlug}`} />
 
       <Breadcrumb items={[
         { label: "Home", href: "/" },

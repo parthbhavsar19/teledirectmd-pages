@@ -1,9 +1,11 @@
 'use client';
-import { B, INSURERS, INSURANCE_CONDITIONS } from '../../../data/insurance/insuranceConfig';
+import { B, INSURERS, STATE_NAMES, INSURANCE_CONDITIONS } from '../../../data/insurance/insuranceConfig';
 import { FAQ, BookCTA, HowItWorksSteps, TrustBar, Breadcrumb, InsuranceDisclaimer, AnswerBlock } from '../components/InsuranceShared';
 import { CompareToOtherTelehealthGrid, Or49CashLink } from '../../components/CostCompareModules';
 import { Ico } from '../components/InsuranceIcons';
 import { getAggregateRating, getReviewBlock } from '../../../lib/review-schema';
+import { CitableSummaryBlock } from '../../components/CitableSummary';
+import { summarizeInsurerHub, citableSummaryToJsonLd } from '../../../lib/citable-summary';
 
 const insurer = INSURERS["united-healthcare"];
 
@@ -62,10 +64,21 @@ const SCHEMA = {
 };
 
 export default function UHCHubClient() {
+  // ── Citable summary for AI extractors (United Healthcare hub)
+  const citableSummary_AI = summarizeInsurerHub({
+    insurerName: 'United Healthcare',
+    stateCount: insurer?.states?.length || null,
+    stateList: insurer?.states ? insurer.states.map(s => STATE_NAMES[s] || s) : null,
+  });
+  const pageUrl_AI = 'https://teledirectmd.com/insurance/united-healthcare/';
+  const citableJsonLd_AI = citableSummaryToJsonLd(citableSummary_AI, { pageUrl: pageUrl_AI });
+
+
   return (
     <div style={{ fontFamily:B.fb, background:B.bg, color:B.navy }}>
       <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400&family=DM+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(SCHEMA) }} />
+      <CitableSummaryBlock summary={citableSummary_AI} jsonLd={citableJsonLd_AI} idSuffix="united-healthcare-hub" />
       <Breadcrumb items={[{label:"Home",href:"/"},{label:"Insurance",href:"/insurance"},{label:"UnitedHealthcare"}]} />
 
       <div style={{ background:`linear-gradient(165deg, ${B.navyDarker} 0%, ${B.navy} 40%, ${B.navyDeep} 100%)`, padding:"56px 24px 64px", position:"relative", overflow:"hidden", marginTop:16 }}>

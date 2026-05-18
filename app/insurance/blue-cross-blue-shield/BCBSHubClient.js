@@ -1,9 +1,11 @@
 'use client';
-import { B, INSURERS, INSURANCE_CONDITIONS } from '../../../data/insurance/insuranceConfig';
+import { B, INSURERS, STATE_NAMES, INSURANCE_CONDITIONS } from '../../../data/insurance/insuranceConfig';
 import { FAQ, BookCTA, HowItWorksSteps, TrustBar, Breadcrumb, InsuranceDisclaimer, AnswerBlock } from '../components/InsuranceShared';
 import { CompareToOtherTelehealthGrid, Or49CashLink } from '../../components/CostCompareModules';
 import { Ico } from '../components/InsuranceIcons';
 import { getAggregateRating, getReviewBlock } from '../../../lib/review-schema';
+import { CitableSummaryBlock } from '../../components/CitableSummary';
+import { summarizeInsurerHub, citableSummaryToJsonLd } from '../../../lib/citable-summary';
 
 const insurer = INSURERS["blue-cross-blue-shield"];
 
@@ -57,10 +59,21 @@ const SCHEMA = {
 };
 
 export default function BCBSHubClient() {
+  // ── Citable summary for AI extractors (Blue Cross Blue Shield hub)
+  const citableSummary_AI = summarizeInsurerHub({
+    insurerName: 'Blue Cross Blue Shield',
+    stateCount: insurer?.states?.length || null,
+    stateList: insurer?.states ? insurer.states.map(s => STATE_NAMES[s] || s) : null,
+  });
+  const pageUrl_AI = 'https://teledirectmd.com/insurance/blue-cross-blue-shield/';
+  const citableJsonLd_AI = citableSummaryToJsonLd(citableSummary_AI, { pageUrl: pageUrl_AI });
+
+
   return (
     <div style={{ fontFamily:B.fb, background:B.bg, color:B.navy }}>
       <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400&family=DM+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(SCHEMA) }} />
+      <CitableSummaryBlock summary={citableSummary_AI} jsonLd={citableJsonLd_AI} idSuffix="blue-cross-blue-shield-hub" />
       <Breadcrumb items={[{label:"Home",href:"/"},{label:"Insurance",href:"/insurance"},{label:"Blue Cross Blue Shield"}]} />
 
       {/* HERO */}
