@@ -1,3 +1,5 @@
+import fs from 'fs';
+import path from 'path';
 import { getStates, getConditionSlugs } from '../lib/get-data';
 import { INSURERS, INSURANCE_CONDITIONS } from '../data/insurance/insuranceConfig';
 import { AETNA_CA_CONDITION_DETAILS } from '../data/insurance/aetna-ca-conditions';
@@ -128,6 +130,24 @@ export default function sitemap() {
   // 12) Use-case landing pages (/use-case/{slug}/)
   for (const slug of USE_CASE_PAGE_SLUGS) {
     urls.push(url(`/use-case/${slug}/`, 0.8, 'monthly'));
+  }
+
+  // 13) Health guides (/health-guides/{slug}/)
+  //     Served as static HTML from /public/health-guides/{slug}/index.html.
+  //     Auto-discovered at build time so new guides are listed without
+  //     having to edit this file.
+  try {
+    const guidesRoot = path.join(process.cwd(), 'public', 'health-guides');
+    const entries = fs.readdirSync(guidesRoot, { withFileTypes: true });
+    for (const e of entries) {
+      if (!e.isDirectory()) continue;
+      const indexPath = path.join(guidesRoot, e.name, 'index.html');
+      if (fs.existsSync(indexPath)) {
+        urls.push(url(`/health-guides/${e.name}/`, 0.85, 'monthly'));
+      }
+    }
+  } catch (err) {
+    console.warn('[sitemap] could not enumerate /public/health-guides:', err.message);
   }
 
   return urls;
