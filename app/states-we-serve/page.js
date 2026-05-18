@@ -1,6 +1,8 @@
 import { getStates, getConditionCategories } from '../../lib/get-data';
 import { getAggregateRating, getReviewBlock } from '../../lib/review-schema';
 import StatesWeServeClient from './StatesWeServeClient';
+import { CitableSummaryBlock } from '../components/CitableSummary';
+import { summarizeStatesWeServe, citableSummaryToJsonLd } from '../../lib/citable-summary';
 
 /* ── Featured states (slugs) — these get full condition cards ── */
 const FEATURED_SLUGS = ['ga', 'fl', 'tx', 'ca', 'tn', 'pa', 'oh', 'nc'];
@@ -261,8 +263,12 @@ export default function StatesWeServePage() {
   const directoryStates = allStates.filter(s => !FEATURED_SLUGS.includes(s.slug));
   const stateNamesList = allStates.map(s => s.name).join(', ');
 
+  const citableSummary_AI = summarizeStatesWeServe();
+  const citableJsonLd_AI = citableSummaryToJsonLd(citableSummary_AI, { pageUrl: 'https://teledirectmd.com/states-we-serve/' });
+
   return (
     <>
+      <CitableSummaryBlock summary={citableSummary_AI} jsonLd={citableJsonLd_AI} idSuffix="sws" />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}

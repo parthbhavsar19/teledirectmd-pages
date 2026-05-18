@@ -1,6 +1,8 @@
 import { getStateBySlug } from '../../../../lib/get-data';
 import { getStateInsurance } from '../../../../lib/insurance-data';
 import { notFound } from 'next/navigation';
+import { CitableSummaryBlock } from '../../../components/CitableSummary';
+import { summarizeCompare, summarizeUseCase, summarizeWhoWeServe, summarizeFaqDeepDive, citableSummaryToJsonLd } from '../../../../lib/citable-summary';
 
 const STATES = ['al','az','ca','co','ct','dc','de','fl','ga','hi','id','il','in','ia','ks','ky','la','me','md','mi','mn','ms','mo','mt','ne','nv','nh','nj','nc','nd','oh','ok','pa','sc','sd','tn','tx','ut','wa','wv','wi','wy'];
 
@@ -106,9 +108,15 @@ export default async function FAQDeepDivePage({ params }) {
     ]
   };
 
+  const citableSummary_AI = summarizeFaqDeepDive({ medication: page.medication, stateName: state.name, condition: page.condition });
+  const pageUrl_AI = `https://teledirectmd.com/faq/deep-dive/${slug}/`;
+  const citableJsonLd_AI = citableSummaryToJsonLd(citableSummary_AI, { pageUrl: pageUrl_AI });
+
+
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <CitableSummaryBlock summary={citableSummary_AI} jsonLd={citableJsonLd_AI} idSuffix={`faq-${slug}`} />
       <div style={{ maxWidth: '800px', margin: '0 auto', padding: '0 20px 60px' }}>
         <nav aria-label="Breadcrumb" style={{ fontSize: '14px', color: '#6b7280', padding: '16px 0', borderBottom: '1px solid #e5e7eb' }}>
           <a href="/" style={{ color: '#0d9488' }}>Home</a>

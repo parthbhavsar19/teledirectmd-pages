@@ -1,6 +1,8 @@
 import { getConditionCategories, getConditionSlugs, getCondition, getStates, resolveConditionNational } from '../../lib/get-data';
 import { getAggregateRating, getReviewBlock } from '../../lib/review-schema';
 import WhatWeTreatClient from './WhatWeTreatClient';
+import { CitableSummaryBlock } from '../components/CitableSummary';
+import { summarizeWhatWeTreat, citableSummaryToJsonLd } from '../../lib/citable-summary';
 
 /* ── Metadata ── */
 export async function generateMetadata() {
@@ -162,8 +164,12 @@ export default function WhatWeTreatPage() {
     });
   });
 
+  const citableSummary_AI = summarizeWhatWeTreat();
+  const citableJsonLd_AI = citableSummaryToJsonLd(citableSummary_AI, { pageUrl: 'https://teledirectmd.com/what-we-treat/' });
+
   return (
     <>
+      <CitableSummaryBlock summary={citableSummary_AI} jsonLd={citableJsonLd_AI} idSuffix="wwt" />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}

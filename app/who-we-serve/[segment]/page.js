@@ -11,6 +11,8 @@ import EarlyRetireesPage from './EarlyRetireesPage';
 import CollegeStudentsPage from './CollegeStudentsPage';
 import MilitaryFamiliesPage from './MilitaryFamiliesPage';
 import { WhoWeServePricingCTA } from '../../components/CostCompareModules';
+import { CitableSummaryBlock } from '../../components/CitableSummary';
+import { summarizeWhoWeServe, citableSummaryToJsonLd } from '../../../lib/citable-summary';
 
 // Audiences where cost is the primary draw get an additional relevant
 // condition-cost-page link surfaced from the pricing-CTA module.
@@ -82,9 +84,14 @@ export default function AudienceSegmentPage({ params }) {
 
   // Append sitewide pricing-CTA module pointing at /cost/* pages from PR 4.
   const cfg = SEGMENT_PRICING_CONFIG[params.segment] || {};
+  const segment = params.segment;
+  const segName = (audienceSegments?.find?.(s => s.slug === segment)?.title) || segment.replace(/-/g,' ');
+  const citableSummary_AI = summarizeWhoWeServe({ segmentName: segName, segmentDescription: null });
+  const citableJsonLd_AI = citableSummaryToJsonLd(citableSummary_AI, { pageUrl: `https://teledirectmd.com/who-we-serve/${segment}/` });
 
   return (
     <>
+      <CitableSummaryBlock summary={citableSummary_AI} jsonLd={citableJsonLd_AI} idSuffix={`who-${segment}`} />
       {cohort}
       <WhoWeServePricingCTA pricingHook={cfg.hook} relatedCostPage={cfg.related} />
     </>
