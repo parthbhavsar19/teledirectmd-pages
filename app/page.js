@@ -93,10 +93,52 @@ const jsonLd = {
       description:
         'Board-certified family medicine physician and founder of TeleDirectMD. Completed residency at the University of Mississippi Medical Center.',
       medicalSpecialty: 'Family Medicine',
-      hasCredential: [
-        { '@type': 'EducationalOccupationalCredential', credentialCategory: 'MD', name: 'Doctor of Medicine' },
-        { '@type': 'EducationalOccupationalCredential', credentialCategory: 'Board Certification', name: 'Board-Certified Family Medicine' },
+      alumniOf: [
+        {
+          '@type': 'CollegeOrUniversity',
+          name: 'Smt. N.H.L. Municipal Medical College',
+          alternateName: 'NHL Municipal Medical College',
+          address: { '@type': 'PostalAddress', addressLocality: 'Ahmedabad', addressRegion: 'Gujarat', addressCountry: 'IN' },
+        },
+        {
+          '@type': 'EducationalOrganization',
+          name: 'University of Mississippi Medical Center',
+          alternateName: 'UMMC',
+          department: 'Family Medicine Residency',
+          address: { '@type': 'PostalAddress', addressLocality: 'Jackson', addressRegion: 'MS', addressCountry: 'US' },
+        },
       ],
+      hasCredential: [
+        {
+          '@type': 'EducationalOccupationalCredential',
+          name: 'Bachelor of Medicine, Bachelor of Surgery (MBBS)',
+          credentialCategory: 'degree',
+          educationalLevel: 'Medical Degree',
+          recognizedBy: { '@type': 'CollegeOrUniversity', name: 'Smt. N.H.L. Municipal Medical College' },
+          dateCreated: '2014',
+        },
+        {
+          '@type': 'EducationalOccupationalCredential',
+          name: 'Family Medicine Residency',
+          credentialCategory: 'residency',
+          educationalLevel: 'Postgraduate Medical Training',
+          recognizedBy: { '@type': 'EducationalOrganization', name: 'University of Mississippi Medical Center' },
+          validFrom: '2018-07-01',
+          dateCreated: '2021-06-30',
+        },
+        {
+          '@type': 'EducationalOccupationalCredential',
+          name: 'Board Certification in Family Medicine',
+          credentialCategory: 'board certification',
+          educationalLevel: 'Specialty Board Certification',
+          recognizedBy: { '@type': 'Organization', name: 'American Board of Family Medicine', url: 'https://www.theabfm.org' },
+        },
+      ],
+      memberOf: [
+        { '@type': 'Organization', name: 'American Academy of Family Physicians', url: 'https://www.aafp.org' },
+        { '@type': 'Organization', name: 'American Medical Association', url: 'https://www.ama-assn.org' },
+      ],
+      knowsLanguage: ['English', 'Hindi', 'Gujarati', 'Urdu'],
       identifier: {
         '@type': 'PropertyValue',
         name: 'NPI',
@@ -106,7 +148,10 @@ const jsonLd = {
         '@id': 'https://teledirectmd.com/#organization',
       },
       sameAs: [
-        'https://www.zocdoc.com/doctor/parth-bhavsar-md-614140',
+        'https://npiregistry.cms.hhs.gov/provider-view/1104323203',
+        'https://www.zocdoc.com/doctor/parth-bhavsar-md-652258',
+        'https://www.doximity.com/pub/parth-bhavsar-md',
+        'https://www.linkedin.com/in/parth-bhavsar-md-0527143a6',
         'https://doctor.webmd.com/doctor/parth-bhavsar-e293ceba-555d-466e-ab94-d82e02d268db-overview',
         'https://www.healthgrades.com/physician/dr-parth-bhavsar-xynq9m7',
       ],
