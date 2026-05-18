@@ -1,6 +1,8 @@
 import { getStates, getStateBySlug, getConditionCategories } from '../../lib/get-data';
 import { getStateInsurance } from '../../lib/insurance-data';
 import { getInsurersForState } from '../../lib/internal-links';
+import { CitableSummaryBlock } from '../components/CitableSummary';
+import { summarizeStateLanding, citableSummaryToJsonLd } from '../../lib/citable-summary';
 
 export default function StateLandingPage({ stateSlug }) {
   const state = getStateBySlug(stateSlug);
@@ -194,6 +196,12 @@ export default function StateLandingPage({ stateSlug }) {
     }
   `;
 
+  // ── Citable summary for AI extractors (State landing)
+  const citableSummary_AI = summarizeStateLanding({ state });
+  const pageUrl_AI = `https://teledirectmd.com/${stateSlug}/`;
+  const citableJsonLd_AI = citableSummaryToJsonLd(citableSummary_AI, { pageUrl: pageUrl_AI });
+
+
   return (
     <>
       <style dangerouslySetInnerHTML={{ __html: statePageCSS }} />
@@ -201,6 +209,7 @@ export default function StateLandingPage({ stateSlug }) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
+      <CitableSummaryBlock summary={citableSummary_AI} jsonLd={citableJsonLd_AI} idSuffix={`state-${stateSlug}`} />
 
       {/* 0) Breadcrumb */}
       <nav className="tdmd-breadcrumbs" aria-label="Breadcrumb">

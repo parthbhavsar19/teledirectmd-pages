@@ -3,6 +3,8 @@ import { generateJsonLd } from '../../../lib/json-ld';
 import { getStateInsurance } from '../../../lib/insurance-data';
 import { getInsuranceLinksForConditionState } from '../../../lib/internal-links';
 import { WhatDoesThisCostBlock, CompareTeleDirectMDLinkRow, CommonSymptomsBlock } from '../../components/CostCompareModules';
+import { CitableSummaryBlock } from '../../components/CitableSummary';
+import { summarizeConditionState, citableSummaryToJsonLd } from '../../../lib/citable-summary';
 
 export async function generateStaticParams() {
   const states = getStates();
@@ -62,12 +64,19 @@ export default async function ConditionPage({ params }) {
   // Build insurance cross-links for this condition × state combo
   const insuranceLinks = state && state.abbr ? getInsuranceLinksForConditionState(conditionSlug, state.abbr) : [];
 
+  // ── Citable summary for AI extractors (Condition × State)
+  const citableSummary_AI = summarizeConditionState({ state, condition });
+  const pageUrl_AI = `https://teledirectmd.com/${slug}/${conditionSlug}`;
+  const citableJsonLd_AI = citableSummaryToJsonLd(citableSummary_AI, { pageUrl: pageUrl_AI });
+
+
   return (
     <>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
+      <CitableSummaryBlock summary={citableSummary_AI} jsonLd={citableJsonLd_AI} idSuffix={`${slug}-${conditionSlug}`} />
 
       {/* 0) Breadcrumb */}
       <nav className="tdmd-breadcrumbs" aria-label="Breadcrumb">

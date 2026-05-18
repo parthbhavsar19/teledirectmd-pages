@@ -2,6 +2,8 @@ import { getStates, getConditionSlugs, getCondition, getConditionCategories, res
 import { generateNationalJsonLd } from '../../lib/json-ld-national';
 import { INSURERS, INSURANCE_CONDITIONS } from '../../data/insurance/insuranceConfig';
 import { WhatDoesThisCostBlock, CompareTeleDirectMDLinkRow, CommonSymptomsBlock } from '../components/CostCompareModules';
+import { CitableSummaryBlock } from '../components/CitableSummary';
+import { summarizeNationalCondition, citableSummaryToJsonLd } from '../../lib/citable-summary';
 
 export default function NationalConditionPage({ conditionSlug }) {
   const rawCondition = getCondition(conditionSlug);
@@ -47,12 +49,19 @@ export default function NationalConditionPage({ conditionSlug }) {
       return { slug: s, name: c.conditionName };
     });
 
+  // ── Citable summary for AI extractors (National condition)
+  const citableSummary_AI = summarizeNationalCondition({ condition });
+  const pageUrl_AI = `https://teledirectmd.com/${conditionSlug}/`;
+  const citableJsonLd_AI = citableSummaryToJsonLd(citableSummary_AI, { pageUrl: pageUrl_AI });
+
+
   return (
     <>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
+      <CitableSummaryBlock summary={citableSummary_AI} jsonLd={citableJsonLd_AI} idSuffix={`national-${conditionSlug}`} />
 
       {/* 0) Breadcrumb */}
       <nav className="tdmd-breadcrumbs" aria-label="Breadcrumb">

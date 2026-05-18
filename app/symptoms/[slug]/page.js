@@ -12,6 +12,8 @@ import {
 import { buildSymptomJsonLd } from '../../../lib/symptom-schema';
 import { COST_PAGES } from '../../../lib/cost-pages-config';
 import { AGGREGATE_RATING_VALUE, TOTAL_REVIEW_COUNT } from '../../../lib/review-schema';
+import { CitableSummaryBlock } from '../../components/CitableSummary';
+import { summarizeSymptom, citableSummaryToJsonLd } from '../../../lib/citable-summary';
 
 const STATE_LIST = [
   ['AL','Alabama'],['AZ','Arizona'],['CA','California'],['CO','Colorado'],['CT','Connecticut'],['DE','Delaware'],['FL','Florida'],['GA','Georgia'],['HI','Hawaii'],['ID','Idaho'],['IL','Illinois'],['IN','Indiana'],['IA','Iowa'],['KS','Kansas'],['KY','Kentucky'],['LA','Louisiana'],['ME','Maine'],['MD','Maryland'],['MI','Michigan'],['MN','Minnesota'],['MS','Mississippi'],['MO','Missouri'],['MT','Montana'],['NE','Nebraska'],['NV','Nevada'],['NH','New Hampshire'],['NJ','New Jersey'],['NC','North Carolina'],['ND','North Dakota'],['OH','Ohio'],['OK','Oklahoma'],['PA','Pennsylvania'],['SC','South Carolina'],['SD','South Dakota'],['TN','Tennessee'],['TX','Texas'],['UT','Utah'],['WA','Washington'],['WV','West Virginia'],['WI','Wisconsin'],['WY','Wyoming'],
@@ -87,9 +89,19 @@ export default async function SymptomPage({ params }) {
     today,
   });
 
+  // ── Citable summary for AI extractors (Symptom)
+  const citableSummary_AI = summarizeSymptom({
+    symptomName: cfg?.h1 || cfg?.displayName || cfg?.title || slug,
+    possibleConditions: cfg?.possibleConditions || cfg?.differentialDx || cfg?.commonCauses || cfg?.causes || [],
+  });
+  const pageUrl_AI = `https://teledirectmd.com/symptoms/${slug}/`;
+  const citableJsonLd_AI = citableSummaryToJsonLd(citableSummary_AI, { pageUrl: pageUrl_AI });
+
+
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <CitableSummaryBlock summary={citableSummary_AI} jsonLd={citableJsonLd_AI} idSuffix={`symptom-${slug}`} />
 
       {/* 1) Breadcrumb */}
       <nav className="tdmd-breadcrumbs" aria-label="Breadcrumb">

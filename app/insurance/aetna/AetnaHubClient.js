@@ -4,6 +4,8 @@ import { FAQ, BookCTA, HowItWorksSteps, TrustBar, Breadcrumb, InsuranceDisclaime
 import { CompareToOtherTelehealthGrid, Or49CashLink } from '../../components/CostCompareModules';
 import { Ico } from '../components/InsuranceIcons';
 import { getAggregateRating, getReviewBlock } from '../../../lib/review-schema';
+import { CitableSummaryBlock } from '../../components/CitableSummary';
+import { summarizeInsurerHub, citableSummaryToJsonLd } from '../../../lib/citable-summary';
 
 const insurer = INSURERS.aetna;
 
@@ -107,10 +109,21 @@ const SCHEMA = {
 };
 
 export default function AetnaHubClient() {
+  // ── Citable summary for AI extractors (Aetna hub)
+  const citableSummary_AI = summarizeInsurerHub({
+    insurerName: 'Aetna',
+    stateCount: insurer?.states?.length || null,
+    stateList: insurer?.states ? insurer.states.map(s => STATE_NAMES[s] || s) : null,
+  });
+  const pageUrl_AI = 'https://teledirectmd.com/insurance/aetna/';
+  const citableJsonLd_AI = citableSummaryToJsonLd(citableSummary_AI, { pageUrl: pageUrl_AI });
+
+
   return (
     <div style={{ fontFamily:B.fb, background:B.bg, color:B.navy }}>
       <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400&family=DM+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(SCHEMA) }} />
+      <CitableSummaryBlock summary={citableSummary_AI} jsonLd={citableJsonLd_AI} idSuffix="aetna-hub" />
 
       <Breadcrumb items={[
         { label:"Home", href:"/" },
