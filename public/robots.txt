@@ -1,0 +1,178 @@
+# TeleDirectMD — robots.txt
+# Last updated: 2026-05-18
+# Explicitly allows modern AI crawlers and AI assistants in addition to
+# traditional search engines. Default policy below the bot list applies
+# to any bot not listed.
+
+# ─────────────────────────────────────────────────────────────────────
+# Traditional search engines
+# ─────────────────────────────────────────────────────────────────────
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: Yandex
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+# ─────────────────────────────────────────────────────────────────────
+# AI assistants — generative search bots (real-time answer crawl)
+# These crawl pages live when a user asks the assistant a question.
+# Explicit Allow rules reduce conservative-default crawl throttling.
+# ─────────────────────────────────────────────────────────────────────
+
+# OpenAI ChatGPT / OpenAI search
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+# Anthropic Claude — both real-time browsing and training crawlers
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+# Perplexity
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+# Google Gemini / Bard / AI Overviews
+User-agent: Google-Extended
+Allow: /
+
+User-agent: GoogleOther
+Allow: /
+
+# Apple Intelligence
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+# Microsoft Copilot
+User-agent: bingbot
+Allow: /
+
+# Meta AI
+User-agent: Meta-ExternalAgent
+Allow: /
+
+User-agent: Meta-ExternalFetcher
+Allow: /
+
+User-agent: FacebookBot
+Allow: /
+
+# Mistral AI
+User-agent: MistralAI-User
+Allow: /
+
+# DuckDuckGo AI Assist
+User-agent: DuckAssistBot
+Allow: /
+
+# You.com
+User-agent: YouBot
+Allow: /
+
+# Cohere
+User-agent: cohere-ai
+Allow: /
+
+User-agent: cohere-training-data-crawler
+Allow: /
+
+# Common Crawl (used by many AI training datasets)
+User-agent: CCBot
+Allow: /
+
+# Amazon (Alexa+, Rufus)
+User-agent: Amazonbot
+Allow: /
+
+# ByteDance / TikTok (Doubao)
+User-agent: Bytespider
+Allow: /
+
+# AllenAI (Olmo, etc.)
+User-agent: AI2Bot
+Allow: /
+
+User-agent: Ai2Bot-Dolma
+Allow: /
+
+# Diffbot (used by enterprise AI knowledge graphs)
+User-agent: Diffbot
+Allow: /
+
+# Bing AI / Microsoft Copilot indexing
+User-agent: msnbot
+Allow: /
+
+# Kagi
+User-agent: KagiBot
+Allow: /
+
+# ─────────────────────────────────────────────────────────────────────
+# Default policy — applies to all other bots
+# ─────────────────────────────────────────────────────────────────────
+
+User-agent: *
+Disallow: /api/
+Allow: /api/ui-extensions/
+Disallow: /admin/
+Disallow: /book-online
+Disallow: /pre-visit-questionnaire
+Disallow: /account/
+Disallow: /commerce/
+Disallow: /static/
+Disallow: /search
+Disallow: /config
+
+# Squarespace legacy query-param URLs (legacy mirror catch-all paths)
+Disallow: /*?author=*
+Disallow: /*&author=*
+Disallow: /*?tag=*
+Disallow: /*&tag=*
+Disallow: /*?month=*
+Disallow: /*&month=*
+Disallow: /*?view=*
+Disallow: /*&view=*
+Disallow: /*?format=json
+Disallow: /*&format=json
+Disallow: /*?format=page-context
+Disallow: /*&format=page-context
+Disallow: /*?format=main-content
+Disallow: /*&format=main-content
+Disallow: /*?format=json-pretty
+Disallow: /*&format=json-pretty
+Disallow: /*?format=ical
+Disallow: /*&format=ical
+Disallow: /*?reversePaginate=*
+Disallow: /*&reversePaginate=*
+
+Sitemap: https://teledirectmd.com/sitemap.xml
