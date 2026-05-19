@@ -2,20 +2,34 @@
   "conditionName": "Yeast Infection",
   "conditionShort": "yeast infection",
   "conditionSlug": "yeast-infection-treatment-online",
-  "pageTitle": "Yeast Infection Treatment Online in {state} | Vaginal Candidiasis MD Video Visit | TeleDirectMD",
+  "pageTitle": "Yeast Infection Online Treatment in {state} | TeleDirectMD",
   "metaDescription": "Evidence-based yeast infection treatment for {state} adults by secure video visit. CDC guideline-based evaluation, fluconazole prescriptions when clinically appropriate, and OTC guidance. Self pay option starting at $49. Insurance is not required.",
   "ogImageAlt": "Yeast infection treatment in {state} by TeleDirectMD",
-
   "hero": {
     "h1": "Yeast Infection Treatment in {state} (Vulvovaginal Candidiasis)",
     "subtitle": "{state} adult care by secure video visit, self pay option starting at $49, MD-only, insurance is not required.",
     "introParagraph": "Vulvovaginal candidiasis (VVC) affects approximately 75% of women at least once in their lifetime and is one of the most common reasons women seek medical care. The CDC STI Treatment Guidelines recommend short-course topical azoles or oral fluconazole 150mg as a single dose as first-line therapy, with both approaches achieving 80 to 90 percent cure rates. While many uncomplicated yeast infections can be managed with over-the-counter antifungals, a telehealth evaluation is valuable when symptoms are recurrent, when OTC treatment has not worked, when the diagnosis is uncertain, or when a prescription option such as oral fluconazole may be more convenient and effective. TeleDirectMD uses a safety-first approach to evaluate vulvovaginal symptoms by video visit, differentiate classic yeast infection presentations from conditions requiring different treatment such as bacterial vaginosis or trichomoniasis, and prescribe fluconazole when clinically appropriate. Patients with red flags including recurrent infections, pregnancy, immunosuppression, or atypical symptoms are directed to in-person care for examination and culture. This page is for adults located in {state}, including {cities}.",
     "tocLinks": [
-      { "href": "eligibility-checklist", "label": "Eligibility checklist" },
-      { "href": "decision-guide", "label": "Decision guide" },
-      { "href": "treatment-options", "label": "Treatment options" },
-      { "href": "faq", "label": "FAQs" },
-      { "href": "references", "label": "References" }
+      {
+        "href": "eligibility-checklist",
+        "label": "Eligibility checklist"
+      },
+      {
+        "href": "decision-guide",
+        "label": "Decision guide"
+      },
+      {
+        "href": "treatment-options",
+        "label": "Treatment options"
+      },
+      {
+        "href": "faq",
+        "label": "FAQs"
+      },
+      {
+        "href": "references",
+        "label": "References"
+      }
     ],
     "benefits": [
       "Self pay option starting at $49",
@@ -35,7 +49,6 @@
     },
     "icd10Display": "B37.3 or B37.49 (final coding depends on clinical details)"
   },
-
   "eligibility": {
     "sectionTitle": "Yeast Infection Telehealth Eligibility Checklist for {state}",
     "introText": "You are likely eligible for a TeleDirectMD video visit if ALL of these are true:",
@@ -60,7 +73,6 @@
     ],
     "notEligibleDisclaimer": "If you have recurrent infections, are pregnant, or have symptoms suggesting a different diagnosis, seek in-person evaluation for examination and possible vaginal culture. TeleDirectMD is not an emergency service."
   },
-
   "howItWorks": {
     "sectionTitle": "How Online Yeast Infection Treatment Works in {state}",
     "steps": [
@@ -82,7 +94,6 @@
       }
     ]
   },
-
   "telehealthRegulations": {
     "sectionTitle": "{state} Telehealth Regulations for Online Yeast Infection Care",
     "paragraphs": [
@@ -90,7 +101,6 @@
       "Location matters: you must be physically in {state} during the visit. Insurance is not required. TeleDirectMD does not prescribe controlled substances."
     ]
   },
-
   "comparisonTable": {
     "sectionTitle": "TeleDirectMD vs Other Care Options for Yeast Infection in {state}",
     "intro": "Here is how TeleDirectMD compares to common settings for adult yeast infection care in {state}:",
@@ -138,7 +148,6 @@
     ],
     "bottomLine": "TeleDirectMD is a strong fit for uncomplicated yeast infections with classic symptoms, providing convenient access to fluconazole prescriptions and evidence-based guidance."
   },
-
   "decisionGuide": {
     "sectionTitle": "Should I Use TeleDirectMD for Yeast Infection in {state}? Decision Guide",
     "steps": [
@@ -183,7 +192,6 @@
       }
     ]
   },
-
   "pricing": {
     "sectionTitle": "What Does Yeast Infection Treatment Cost in {state}?",
     "subtitle": "Transparent options. Insurance is not required.",
@@ -197,15 +205,34 @@
       "Clear follow-up steps and escalation instructions"
     ],
     "comparisonBars": [
-      { "name": "TeleDirectMD", "value": "$49", "width": 12, "isTdmd": true },
-      { "name": "Primary Care", "value": "$100 to $250+", "width": 45, "isTdmd": false },
-      { "name": "Urgent Care", "value": "$150 to $300+", "width": 55, "isTdmd": false },
-      { "name": "Emergency Room", "value": "$500 to $3,000+", "width": 100, "isTdmd": false }
+      {
+        "name": "TeleDirectMD",
+        "value": "$49",
+        "width": 12,
+        "isTdmd": true
+      },
+      {
+        "name": "Primary Care",
+        "value": "$100 to $250+",
+        "width": 45,
+        "isTdmd": false
+      },
+      {
+        "name": "Urgent Care",
+        "value": "$150 to $300+",
+        "width": 55,
+        "isTdmd": false
+      },
+      {
+        "name": "Emergency Room",
+        "value": "$500 to $3,000+",
+        "width": 100,
+        "isTdmd": false
+      }
     ],
     "footnote": "Prescription costs at your pharmacy are separate and vary by medication and pharmacy.",
     "noHiddenFees": "No hidden fees. If medication is not clinically appropriate, you still receive a complete evaluation, guidance, and clear instructions on what level of care you need next."
   },
-
   "whatIsCondition": {
     "sectionTitle": "What Is a Yeast Infection?",
     "paragraphs": [
@@ -214,37 +241,97 @@
       "TeleDirectMD focuses on uncomplicated vulvovaginal candidiasis appropriate for telehealth management, with careful screening to direct complicated cases, recurrent infections, pregnant patients, and those with atypical symptoms to in-person care for pelvic examination and culture."
     ]
   },
-
   "causesAndRiskFactors": {
     "sectionTitle": "Causes and Risk Factors",
     "intro": "Vulvovaginal candidiasis develops when the normal balance of vaginal flora is disrupted, allowing Candida overgrowth. Understanding the common triggers and risk factors helps guide prevention and determines whether a presentation is uncomplicated or warrants further workup.",
     "items": [
-      { "label": "Antibiotic use:", "text": "broad-spectrum antibiotics disrupt normal vaginal flora and are one of the most common triggers for yeast infections" },
-      { "label": "Hormonal changes:", "text": "oral contraceptives, hormone replacement therapy, pregnancy, and the luteal phase of the menstrual cycle can increase susceptibility" },
-      { "label": "Diabetes mellitus:", "text": "poorly controlled blood sugar creates a favorable environment for Candida overgrowth and increases risk of recurrent infections" },
-      { "label": "Immunosuppression:", "text": "HIV, chemotherapy, corticosteroid use, and other causes of immune compromise increase both frequency and severity of infections" },
-      { "label": "Moisture and occlusion:", "text": "tight-fitting clothing, non-breathable underwear, and prolonged moisture from swimming or exercise create conditions favorable for yeast growth" },
-      { "label": "Douching and irritants:", "text": "vaginal douching disrupts normal flora, and scented products can cause irritation that mimics or predisposes to infection" }
+      {
+        "label": "Antibiotic use:",
+        "text": "broad-spectrum antibiotics disrupt normal vaginal flora and are one of the most common triggers for yeast infections"
+      },
+      {
+        "label": "Hormonal changes:",
+        "text": "oral contraceptives, hormone replacement therapy, pregnancy, and the luteal phase of the menstrual cycle can increase susceptibility"
+      },
+      {
+        "label": "Diabetes mellitus:",
+        "text": "poorly controlled blood sugar creates a favorable environment for Candida overgrowth and increases risk of recurrent infections"
+      },
+      {
+        "label": "Immunosuppression:",
+        "text": "HIV, chemotherapy, corticosteroid use, and other causes of immune compromise increase both frequency and severity of infections"
+      },
+      {
+        "label": "Moisture and occlusion:",
+        "text": "tight-fitting clothing, non-breathable underwear, and prolonged moisture from swimming or exercise create conditions favorable for yeast growth"
+      },
+      {
+        "label": "Douching and irritants:",
+        "text": "vaginal douching disrupts normal flora, and scented products can cause irritation that mimics or predisposes to infection"
+      }
     ],
     "closing": "Not every episode of vulvar itching or discharge is a yeast infection. Studies show that women frequently misdiagnose themselves, and self-treatment with OTC antifungals is often used for conditions that require different treatment, which is why clinical evaluation is valuable even for a seemingly straightforward condition."
   },
-
   "symptomsAndRedFlags": {
     "sectionTitle": "Symptoms and Red Flags for Yeast Infection in {state}",
     "intro": "Use this table to understand which symptoms fit uncomplicated vulvovaginal candidiasis and which patterns suggest a need for in-person evaluation.",
-    "headers": ["Symptom or situation", "What it suggests", "Telehealth appropriate?", "Red flag requiring in-person care"],
+    "headers": [
+      "Symptom or situation",
+      "What it suggests",
+      "Telehealth appropriate?",
+      "Red flag requiring in-person care"
+    ],
     "rows": [
-      ["Vulvar itching and burning with thick white odorless discharge", "Classic uncomplicated yeast infection", "Often yes", "If severe, worsening, or not responding to treatment"],
-      ["Burning with urination (external dysuria)", "May be yeast infection or UTI depending on pattern", "Often yes", "If accompanied by fever, flank pain, or urinary frequency"],
-      ["Pain during intercourse (dyspareunia)", "Common with VVC and other vulvovaginal conditions", "Often yes", "If accompanied by pelvic pain or bleeding"],
-      ["Thin gray discharge with fishy odor", "Suggests bacterial vaginosis rather than yeast", "Sometimes", "Needs different treatment than antifungals"],
-      ["4 or more episodes in the past 12 months", "Recurrent VVC requiring culture and species identification", "Not ideal", "Needs in-person workup for non-albicans species and suppressive therapy plan"],
-      ["Symptoms during pregnancy", "May be VVC but oral fluconazole is contraindicated", "No", "Requires in-person management with topical-only therapy"],
-      ["Pelvic pain with fever", "Possible pelvic inflammatory disease or other serious condition", "No", "Seek urgent in-person or emergency evaluation"],
-      ["Vulvar ulceration or open sores", "Possible herpes, syphilis, or other condition", "No", "Requires in-person examination and testing"]
+      [
+        "Vulvar itching and burning with thick white odorless discharge",
+        "Classic uncomplicated yeast infection",
+        "Often yes",
+        "If severe, worsening, or not responding to treatment"
+      ],
+      [
+        "Burning with urination (external dysuria)",
+        "May be yeast infection or UTI depending on pattern",
+        "Often yes",
+        "If accompanied by fever, flank pain, or urinary frequency"
+      ],
+      [
+        "Pain during intercourse (dyspareunia)",
+        "Common with VVC and other vulvovaginal conditions",
+        "Often yes",
+        "If accompanied by pelvic pain or bleeding"
+      ],
+      [
+        "Thin gray discharge with fishy odor",
+        "Suggests bacterial vaginosis rather than yeast",
+        "Sometimes",
+        "Needs different treatment than antifungals"
+      ],
+      [
+        "4 or more episodes in the past 12 months",
+        "Recurrent VVC requiring culture and species identification",
+        "Not ideal",
+        "Needs in-person workup for non-albicans species and suppressive therapy plan"
+      ],
+      [
+        "Symptoms during pregnancy",
+        "May be VVC but oral fluconazole is contraindicated",
+        "No",
+        "Requires in-person management with topical-only therapy"
+      ],
+      [
+        "Pelvic pain with fever",
+        "Possible pelvic inflammatory disease or other serious condition",
+        "No",
+        "Seek urgent in-person or emergency evaluation"
+      ],
+      [
+        "Vulvar ulceration or open sores",
+        "Possible herpes, syphilis, or other condition",
+        "No",
+        "Requires in-person examination and testing"
+      ]
     ]
   },
-
   "differentialDiagnosis": {
     "sectionTitle": "Differential Diagnosis: Yeast Infection vs Other Conditions",
     "intro": "Several conditions cause vulvovaginal itching, burning, or discharge that can be confused with a yeast infection. TeleDirectMD evaluates symptom patterns to distinguish uncomplicated VVC from conditions requiring different treatment or in-person evaluation. A pelvic exam cannot be performed by video, so the evaluation is history-based.",
@@ -280,7 +367,6 @@
     ],
     "closing": "If your symptoms do not match classic uncomplicated yeast infection or any red flags are present, TeleDirectMD will direct you to in-person care for pelvic examination and appropriate testing."
   },
-
   "telehealthEligibility": {
     "sectionTitle": "When Is a Video Visit Appropriate?",
     "appropriate": {
@@ -307,7 +393,6 @@
       "disclaimer": "If you have recurrent infections, are pregnant, or have symptoms suggesting a condition other than uncomplicated yeast infection, seek in-person evaluation. TeleDirectMD is not an emergency service."
     }
   },
-
   "treatmentOptions": {
     "sectionTitle": "Treatment Options",
     "intro": "The CDC STI Treatment Guidelines recommend short-course topical azoles or oral fluconazole 150mg as a single dose as first-line treatment for uncomplicated vulvovaginal candidiasis, with both achieving 80 to 90 percent cure rates. Fluconazole has been shown to improve quality of life in 96% of women in clinical studies. Treatment choice depends on patient preference, history, and clinical circumstances.",
@@ -333,23 +418,61 @@
       "Vulvar dermatoses such as lichen sclerosus or contact dermatitis"
     ]
   },
-
   "medications": {
     "sectionTitle": "Common Medication Options",
     "intro": "These are common options for adult uncomplicated vulvovaginal candidiasis. The actual medication and approach are determined by the MD after reviewing your symptoms, history, prior treatments, and any contraindications. Many uncomplicated yeast infections can be effectively treated with OTC antifungals.",
-    "headers": ["Medication", "Typical dose", "Duration", "Key considerations"],
+    "headers": [
+      "Medication",
+      "Typical dose",
+      "Duration",
+      "Key considerations"
+    ],
     "rows": [
-      ["Fluconazole (Rx)", "150 mg by mouth as a single dose", "One dose", "First-line oral option per CDC guidelines. Convenient single-dose treatment. Contraindicated in pregnancy. Drug interactions with some medications."],
-      ["Clotrimazole cream (OTC)", "1% cream intravaginally or 2% cream intravaginally", "7 days (1%) or 3 days (2%)", "Widely available over the counter. Effective first-line topical option. Safe in pregnancy."],
-      ["Miconazole cream or suppository (OTC)", "2% cream or 4% cream or 100mg to 200mg suppository intravaginally", "7 days (2%), 3 days (4%), or varies", "Multiple OTC formulations available. Effective first-line topical option. Safe in pregnancy."],
-      ["Terconazole cream or suppository (Rx)", "0.4% cream or 0.8% cream or 80mg suppository intravaginally", "7 days (0.4%), 3 days (0.8% or suppository)", "Prescription topical option. Sometimes used when OTC azoles have not been effective."],
-      ["Acetaminophen (OTC)", "500 to 1000 mg by mouth every 6 to 8 hours as needed", "As needed for discomfort", "For vulvar discomfort and any associated headache or body aches during infection."],
-      ["Ibuprofen (OTC)", "200 to 400 mg by mouth every 6 to 8 hours as needed", "As needed for discomfort", "Anti-inflammatory for vulvar discomfort. Take with food. Avoid if contraindicated."],
-      ["Cool compresses and sitz baths (supportive)", "Cool water compress or lukewarm sitz bath", "As needed for relief", "Non-pharmacologic comfort measure for vulvar itching and burning. Avoid hot water, soap, and scented products."]
+      [
+        "Fluconazole (Rx)",
+        "150 mg by mouth as a single dose",
+        "One dose",
+        "First-line oral option per CDC guidelines. Convenient single-dose treatment. Contraindicated in pregnancy. Drug interactions with some medications."
+      ],
+      [
+        "Clotrimazole cream (OTC)",
+        "1% cream intravaginally or 2% cream intravaginally",
+        "7 days (1%) or 3 days (2%)",
+        "Widely available over the counter. Effective first-line topical option. Safe in pregnancy."
+      ],
+      [
+        "Miconazole cream or suppository (OTC)",
+        "2% cream or 4% cream or 100mg to 200mg suppository intravaginally",
+        "7 days (2%), 3 days (4%), or varies",
+        "Multiple OTC formulations available. Effective first-line topical option. Safe in pregnancy."
+      ],
+      [
+        "Terconazole cream or suppository (Rx)",
+        "0.4% cream or 0.8% cream or 80mg suppository intravaginally",
+        "7 days (0.4%), 3 days (0.8% or suppository)",
+        "Prescription topical option. Sometimes used when OTC azoles have not been effective."
+      ],
+      [
+        "Acetaminophen (OTC)",
+        "500 to 1000 mg by mouth every 6 to 8 hours as needed",
+        "As needed for discomfort",
+        "For vulvar discomfort and any associated headache or body aches during infection."
+      ],
+      [
+        "Ibuprofen (OTC)",
+        "200 to 400 mg by mouth every 6 to 8 hours as needed",
+        "As needed for discomfort",
+        "Anti-inflammatory for vulvar discomfort. Take with food. Avoid if contraindicated."
+      ],
+      [
+        "Cool compresses and sitz baths (supportive)",
+        "Cool water compress or lukewarm sitz bath",
+        "As needed for relief",
+        "Non-pharmacologic comfort measure for vulvar itching and burning. Avoid hot water, soap, and scented products."
+      ]
     ],
     "note": "Example regimens only. The actual medication, dosing, and duration are determined by the MD after reviewing your symptoms, history, and medical circumstances. OTC antifungals are effective for many uncomplicated yeast infections. TeleDirectMD does not prescribe controlled substances."
   },
-
   "homeCare": {
     "sectionTitle": "Home Care, Recovery Timeline, Prevention, and Follow-up",
     "whatToDoNow": {
@@ -383,7 +506,6 @@
       ]
     }
   },
-
   "whenNotToUse": {
     "sectionTitle": "When Not to Use TeleDirectMD for Yeast Infection in {state}",
     "intro": "TeleDirectMD is designed for uncomplicated yeast infection symptoms. We are direct about when telehealth is not appropriate.",
@@ -403,14 +525,25 @@
     "alternatives": {
       "title": "Alternative Care Options",
       "items": [
-        { "label": "Emergency room:", "text": "pelvic pain with high fever, concern for pelvic inflammatory disease, or severe allergic reaction to medication" },
-        { "label": "Urgent care:", "text": "symptoms not responding to treatment, uncertain diagnosis, or when pelvic exam is needed" },
-        { "label": "OB/GYN:", "text": "recurrent yeast infections, azole-resistant infections, pregnancy management, chronic vaginitis evaluation, and species identification by culture" },
-        { "label": "Primary care:", "text": "recurrent infections, underlying diabetes management, medication review for contributing factors, and prevention planning" }
+        {
+          "label": "Emergency room:",
+          "text": "pelvic pain with high fever, concern for pelvic inflammatory disease, or severe allergic reaction to medication"
+        },
+        {
+          "label": "Urgent care:",
+          "text": "symptoms not responding to treatment, uncertain diagnosis, or when pelvic exam is needed"
+        },
+        {
+          "label": "OB/GYN:",
+          "text": "recurrent yeast infections, azole-resistant infections, pregnancy management, chronic vaginitis evaluation, and species identification by culture"
+        },
+        {
+          "label": "Primary care:",
+          "text": "recurrent infections, underlying diabetes management, medication review for contributing factors, and prevention planning"
+        }
       ]
     }
   },
-
   "faq": {
     "sectionTitle": "Yeast Infection Treatment FAQs for {state}",
     "items": [
@@ -460,14 +593,24 @@
       "text": "Insurance is not required. Adult-only video visits. MD-only care. Safety-first triage, guideline-based treatment decisions, and prescriptions only when appropriate."
     }
   },
-
   "references": [
-    { "text": "CDC STI Treatment Guidelines: Vulvovaginal Candidiasis (2021, updated 2025)", "url": "https://www.cdc.gov/std/treatment-guidelines/candidiasis.htm" },
-    { "text": "AAFP: Vaginal Candidiasis — Diagnosis and Treatment", "url": "https://www.aafp.org/pubs/afp/issues/2024/0100/vaginal-candidiasis.html" },
-    { "text": "ACOG Practice Bulletin: Vaginitis in Nonpregnant Patients (2020)", "url": "https://www.acog.org/clinical/clinical-guidance/practice-bulletin/articles/2020/01/vaginitis-in-nonpregnant-patients" },
-    { "text": "Fluconazole for Vulvovaginal Candidiasis: Systematic Review and Meta-Analysis (PMC)", "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10294387/" }
+    {
+      "text": "CDC STI Treatment Guidelines: Vulvovaginal Candidiasis (2021, updated 2025)",
+      "url": "https://www.cdc.gov/std/treatment-guidelines/candidiasis.htm"
+    },
+    {
+      "text": "AAFP: Vaginal Candidiasis — Diagnosis and Treatment",
+      "url": "https://www.aafp.org/pubs/afp/issues/2024/0100/vaginal-candidiasis.html"
+    },
+    {
+      "text": "ACOG Practice Bulletin: Vaginitis in Nonpregnant Patients (2020)",
+      "url": "https://www.acog.org/clinical/clinical-guidance/practice-bulletin/articles/2020/01/vaginitis-in-nonpregnant-patients"
+    },
+    {
+      "text": "Fluconazole for Vulvovaginal Candidiasis: Systematic Review and Meta-Analysis (PMC)",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10294387/"
+    }
   ],
-
   "disclaimer": {
     "sectionTitle": "TeleDirectMD Telehealth Disclaimer",
     "paragraphs": [
@@ -476,7 +619,6 @@
       "Online yeast infection treatment in {state}. Vulvovaginal candidiasis treatment online. Yeast infection care by video visit."
     ]
   },
-
   "relatedConditions": [
     {
       "slug": "uti-treatment-online",
@@ -499,37 +641,80 @@
       "description": "Allergy management without unnecessary antibiotics helps reduce risk of secondary yeast infections"
     }
   ],
-
   "inlineLinks": [
-    { "slug": "uti-treatment-online", "label": "UTI" },
-    { "slug": "common-cold-treatment-online", "label": "Common Cold" },
-    { "slug": "sinus-infection-treatment-online", "label": "Sinus Infection" },
-    { "slug": "seasonal-allergies-treatment-online", "label": "Seasonal Allergies" },
-    { "slug": "sore-throat-treatment-online", "label": "Sore Throat" },
-    { "slug": "influenza-treatment-online", "label": "Influenza" },
-    { "slug": "asthma-refills-online", "label": "Asthma Refills" },
-    { "slug": "pink-eye-treatment-online", "label": "Pink Eye" },
-    { "slug": "cold-sore-treatment-online", "label": "Cold Sore" },
-    { "slug": "blood-pressure-medication-refills-online", "label": "Blood Pressure Medication Refills" }
+    {
+      "slug": "uti-treatment-online",
+      "label": "UTI"
+    },
+    {
+      "slug": "common-cold-treatment-online",
+      "label": "Common Cold"
+    },
+    {
+      "slug": "sinus-infection-treatment-online",
+      "label": "Sinus Infection"
+    },
+    {
+      "slug": "seasonal-allergies-treatment-online",
+      "label": "Seasonal Allergies"
+    },
+    {
+      "slug": "sore-throat-treatment-online",
+      "label": "Sore Throat"
+    },
+    {
+      "slug": "influenza-treatment-online",
+      "label": "Influenza"
+    },
+    {
+      "slug": "asthma-refills-online",
+      "label": "Asthma Refills"
+    },
+    {
+      "slug": "pink-eye-treatment-online",
+      "label": "Pink Eye"
+    },
+    {
+      "slug": "cold-sore-treatment-online",
+      "label": "Cold Sore"
+    },
+    {
+      "slug": "blood-pressure-medication-refills-online",
+      "label": "Blood Pressure Medication Refills"
+    }
   ],
-
   "cityBlock": {
     "title": "Adults We Serve Across {state}",
     "text": "TeleDirectMD evaluates adults located throughout {state}, including {citiesExtended}. Whether you are searching for online yeast infection treatment in {city1}, vaginal candidiasis care in {city2}, fluconazole prescription online in {city3}, or telehealth yeast infection evaluation anywhere else in {state}, the same telehealth eligibility and safety rules apply."
   },
-
   "icd10Codes": [
-    { "code": "B37.3", "description": "Candidiasis of vulva and vagina" },
-    { "code": "B37.49", "description": "Other urogenital candidiasis" }
+    {
+      "code": "B37.3",
+      "description": "Candidiasis of vulva and vagina"
+    },
+    {
+      "code": "B37.49",
+      "description": "Other urogenital candidiasis"
+    }
   ],
-
   "jsonLd": {
     "conditionName": "Vulvovaginal Candidiasis",
-    "conditionAlternateNames": ["Yeast infection", "Vaginal yeast infection", "Vaginal candidiasis", "VVC"],
+    "conditionAlternateNames": [
+      "Yeast infection",
+      "Vaginal yeast infection",
+      "Vaginal candidiasis",
+      "VVC"
+    ],
     "conditionDescription": "Vulvovaginal candidiasis is a fungal infection of the vulva and vagina caused by Candida species, most commonly Candida albicans. TeleDirectMD evaluates adult yeast infection symptoms by video visit with safety-first screening, CDC guideline-based treatment recommendations including oral fluconazole when appropriate, and clear rules for when in-person care is needed.",
     "primaryIcd10": "B37.3",
     "anatomy": "Vulva and vagina",
-    "symptoms": ["Vulvar itching", "Vulvar burning", "Thick white vaginal discharge", "Dysuria", "Dyspareunia"],
+    "symptoms": [
+      "Vulvar itching",
+      "Vulvar burning",
+      "Thick white vaginal discharge",
+      "Dysuria",
+      "Dyspareunia"
+    ],
     "riskFactors": [
       "Recent antibiotic use",
       "Hormonal changes or oral contraceptive use",
@@ -545,10 +730,22 @@
     ],
     "epidemiology": "Approximately 75% of women will experience at least one episode of vulvovaginal candidiasis in their lifetime, and 40 to 45% will have two or more episodes. Recurrent VVC (4+ episodes per year) affects approximately 5 to 8% of women.",
     "drugs": [
-      { "name": "Fluconazole", "id": "fluconazole" },
-      { "name": "Clotrimazole", "id": "clotrimazole" },
-      { "name": "Miconazole", "id": "miconazole" },
-      { "name": "Terconazole", "id": "terconazole" }
+      {
+        "name": "Fluconazole",
+        "id": "fluconazole"
+      },
+      {
+        "name": "Clotrimazole",
+        "id": "clotrimazole"
+      },
+      {
+        "name": "Miconazole",
+        "id": "miconazole"
+      },
+      {
+        "name": "Terconazole",
+        "id": "terconazole"
+      }
     ],
     "treatments": [
       "OTC topical azole antifungals (clotrimazole, miconazole)",
@@ -562,11 +759,30 @@
       "Red-flag screening for complicated or recurrent patterns",
       "Vaginal culture for species identification when indicated"
     ],
-    "specialties": ["Family Medicine", "Telemedicine", "Obstetrics and Gynecology"],
+    "specialties": [
+      "Family Medicine",
+      "Telemedicine",
+      "Obstetrics and Gynecology"
+    ],
     "guidelines": [
-      { "name": "CDC STI Treatment Guidelines: Vulvovaginal Candidiasis", "url": "https://www.cdc.gov/std/treatment-guidelines/candidiasis.htm", "publisher": "Centers for Disease Control and Prevention", "id": "cdc-sti" },
-      { "name": "AAFP: Vaginal Candidiasis — Diagnosis and Treatment", "url": "https://www.aafp.org/pubs/afp/issues/2024/0100/vaginal-candidiasis.html", "publisher": "American Academy of Family Physicians", "id": "aafp" },
-      { "name": "ACOG Practice Bulletin: Vaginitis in Nonpregnant Patients", "url": "https://www.acog.org/clinical/clinical-guidance/practice-bulletin/articles/2020/01/vaginitis-in-nonpregnant-patients", "publisher": "American College of Obstetricians and Gynecologists", "id": "acog" }
+      {
+        "name": "CDC STI Treatment Guidelines: Vulvovaginal Candidiasis",
+        "url": "https://www.cdc.gov/std/treatment-guidelines/candidiasis.htm",
+        "publisher": "Centers for Disease Control and Prevention",
+        "id": "cdc-sti"
+      },
+      {
+        "name": "AAFP: Vaginal Candidiasis — Diagnosis and Treatment",
+        "url": "https://www.aafp.org/pubs/afp/issues/2024/0100/vaginal-candidiasis.html",
+        "publisher": "American Academy of Family Physicians",
+        "id": "aafp"
+      },
+      {
+        "name": "ACOG Practice Bulletin: Vaginitis in Nonpregnant Patients",
+        "url": "https://www.acog.org/clinical/clinical-guidance/practice-bulletin/articles/2020/01/vaginitis-in-nonpregnant-patients",
+        "publisher": "American College of Obstetricians and Gynecologists",
+        "id": "acog"
+      }
     ],
     "knowsAbout": [
       "Yeast infection treatment",
@@ -578,5 +794,7 @@
     ],
     "serviceDescription": "Secure video visit for {state} adults with yeast infection symptoms, including symptom evaluation, differentiation from bacterial vaginosis and STIs, and fluconazole prescription when clinically appropriate.",
     "webpageDescription": "{state} yeast infection treatment by secure MD video visit for adults. Evidence-based evaluation of vulvovaginal candidiasis symptoms, CDC guideline-based treatment, fluconazole prescription when appropriate, and clear rules for when in-person care is needed."
-  }
+  },
+  "guidelineSource": "cdcYeast",
+  "conditionType": "treatment"
 }

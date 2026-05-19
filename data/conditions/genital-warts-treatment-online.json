@@ -2,20 +2,34 @@
   "conditionName": "Genital Warts Treatment",
   "conditionShort": "Genital Warts",
   "conditionSlug": "genital-warts-treatment-online",
-  "pageTitle": "Genital Warts Treatment Online in {state} | HPV Wart Prescriptions by Video | TeleDirectMD",
+  "pageTitle": "Genital Warts Online Treatment in {state} | TeleDirectMD",
   "metaDescription": "Online genital warts treatment for {state} adults by secure MD video visit. Visual assessment, patient-applied topical prescriptions (imiquimod, podofilox, sinecatechins), HPV counseling, and partner notification guidance. Self pay option starting at $49. Insurance is not required.",
   "ogImageAlt": "Genital warts treatment in {state} by TeleDirectMD",
-
   "hero": {
     "h1": "Genital Warts Treatment in {state} (Condylomata Acuminata / HPV Warts)",
     "subtitle": "{state} adult care by secure video visit, self pay option starting at $49, MD-only, insurance is not required.",
     "introParagraph": "Genital warts (condylomata acuminata) are the most common visible manifestation of human papillomavirus (HPV) infection, caused primarily by HPV types 6 and 11. For many adults, external anogenital warts that are accessible and visible are appropriate for telehealth evaluation and management with patient-applied prescription topical treatments such as imiquimod 5% cream, podofilox 0.5% solution or gel, or sinecatechins 15% ointment — all recommended regimens per the 2021 CDC STI Treatment Guidelines. TeleDirectMD uses a safety-first approach that screens for red flags including rapidly growing or bleeding lesions, intra-anal or intra-vaginal warts, suspected malignant transformation, large or obstructing warts requiring procedural removal, and immunocompromised status before determining whether a telehealth visit is appropriate. When a video visit is appropriate, the MD can complete a visual assessment by video, prescribe patient-applied topical therapy when clinically indicated, provide evidence-based HPV counseling, and discuss partner notification and STI screening. This page is for adults located in {state}, including {cities}.",
     "tocLinks": [
-      { "href": "eligibility-checklist", "label": "Eligibility checklist" },
-      { "href": "decision-guide", "label": "Decision guide" },
-      { "href": "treatment-options", "label": "Treatment options" },
-      { "href": "faq", "label": "FAQs" },
-      { "href": "references", "label": "References" }
+      {
+        "href": "eligibility-checklist",
+        "label": "Eligibility checklist"
+      },
+      {
+        "href": "decision-guide",
+        "label": "Decision guide"
+      },
+      {
+        "href": "treatment-options",
+        "label": "Treatment options"
+      },
+      {
+        "href": "faq",
+        "label": "FAQs"
+      },
+      {
+        "href": "references",
+        "label": "References"
+      }
     ],
     "benefits": [
       "Self pay option starting at $49",
@@ -35,7 +49,6 @@
     },
     "icd10Display": "A63.0 (final coding depends on clinical details)"
   },
-
   "eligibility": {
     "sectionTitle": "Genital Warts Telehealth Eligibility Checklist for {state}",
     "introText": "You are likely eligible for a TeleDirectMD video visit if ALL of these are true:",
@@ -58,7 +71,6 @@
     ],
     "notEligibleDisclaimer": "If you have red-flag symptoms or lesions suspicious for malignancy, seek urgent in-person care or evaluation by a dermatologist, gynecologist, or urology specialist. TeleDirectMD is not an emergency service."
   },
-
   "howItWorks": {
     "sectionTitle": "How Online Genital Warts Treatment Works in {state}",
     "steps": [
@@ -80,7 +92,6 @@
       }
     ]
   },
-
   "telehealthRegulations": {
     "sectionTitle": "{state} Telehealth Regulations for Online Genital Warts Care",
     "paragraphs": [
@@ -88,7 +99,6 @@
       "Location matters: you must be physically in {state} during the visit. Insurance is not required. TeleDirectMD does not prescribe controlled substances."
     ]
   },
-
   "comparisonTable": {
     "sectionTitle": "TeleDirectMD vs Other Care Options for Genital Warts in {state}",
     "intro": "Here is how TeleDirectMD compares to common settings for adult genital warts care in {state}:",
@@ -136,7 +146,6 @@
     ],
     "bottomLine": "TeleDirectMD is a strong fit for external anogenital warts appropriate for patient-applied topical therapy, with direct MD evaluation, HPV counseling, and clear rules for when in-person or specialist care is needed."
   },
-
   "decisionGuide": {
     "sectionTitle": "Should I Use TeleDirectMD for Genital Warts in {state}? Decision Guide",
     "steps": [
@@ -181,7 +190,6 @@
       }
     ]
   },
-
   "pricing": {
     "sectionTitle": "What Does Online Genital Warts Treatment Cost in {state}?",
     "subtitle": "Transparent options. Insurance is not required.",
@@ -195,15 +203,34 @@
       "Clear follow-up and escalation instructions"
     ],
     "comparisonBars": [
-      { "name": "TeleDirectMD", "value": "$49", "width": 12, "isTdmd": true },
-      { "name": "Primary Care", "value": "$100 to $350+", "width": 52, "isTdmd": false },
-      { "name": "Urgent Care", "value": "$150 to $300+", "width": 60, "isTdmd": false },
-      { "name": "Emergency Room", "value": "$500 to $3,000+", "width": 100, "isTdmd": false }
+      {
+        "name": "TeleDirectMD",
+        "value": "$49",
+        "width": 12,
+        "isTdmd": true
+      },
+      {
+        "name": "Primary Care",
+        "value": "$100 to $350+",
+        "width": 52,
+        "isTdmd": false
+      },
+      {
+        "name": "Urgent Care",
+        "value": "$150 to $300+",
+        "width": 60,
+        "isTdmd": false
+      },
+      {
+        "name": "Emergency Room",
+        "value": "$500 to $3,000+",
+        "width": 100,
+        "isTdmd": false
+      }
     ],
     "footnote": "Prescription costs are separate and vary by medication and pharmacy. Topical treatments for genital warts (imiquimod, podofilox, sinecatechins) can vary widely in cost; ask your pharmacist about generic availability and pricing.",
     "noHiddenFees": "No hidden fees. If medication is not clinically appropriate or in-person care is needed, you still receive a complete evaluation, guidance, and clear instructions on what level of care you need next."
   },
-
   "whatIsCondition": {
     "sectionTitle": "What Are Genital Warts?",
     "paragraphs": [
@@ -212,36 +239,91 @@
       "TeleDirectMD focuses on external anogenital warts in immunocompetent adults that are accessible for visual assessment by secure video and appropriate for patient-applied topical prescription therapy. The 2021 CDC STI Treatment Guidelines recommend three patient-applied regimens for external anogenital warts: imiquimod cream, podofilox solution or gel, and sinecatechins ointment. A telehealth visit can allow the MD to assess the appearance and location of warts by video, determine appropriateness for topical therapy, prescribe the appropriate treatment, and provide evidence-based HPV counseling — all without an in-person visit for select cases. Cases involving intra-anal, intra-vaginal, cervical, or urethral warts, warts suspicious for malignancy, large or obstructing lesions requiring procedures, or extensive disease in immunocompromised patients require in-person specialist evaluation."
     ]
   },
-
   "causesAndRiskFactors": {
     "sectionTitle": "Causes and Risk Factors for Genital Warts",
     "intro": "Genital warts are caused by human papillomavirus (HPV), a DNA virus transmitted primarily through direct skin-to-skin sexual contact. Understanding the risk factors helps identify who is most likely to benefit from telehealth evaluation versus who needs in-person care.",
     "items": [
-      { "label": "HPV types 6 and 11:", "text": "These two low-oncogenic-risk HPV types cause approximately 90% of all genital warts. They are transmitted through genital-to-genital, oral-to-genital, or anal sexual contact and can be passed even when warts are not visible." },
-      { "label": "Multiple sexual partners:", "text": "Having multiple partners increases the risk of HPV acquisition. Approximately 3 out of 4 unaffected partners of patients with genital warts will develop warts within 8 months of contact with the affected individual." },
-      { "label": "Immunosuppression:", "text": "People with HIV infection, organ transplants, or other causes of immune compromise are more likely to develop genital warts, more likely to have extensive or hard-to-treat disease, and more likely to experience recurrence after treatment." },
-      { "label": "Lack of HPV vaccination:", "text": "Gardasil 9 vaccine protects against HPV types 6 and 11 (which cause warts) and several high-risk types. Vaccination prior to sexual debut is highly effective at preventing genital warts; it does not treat existing HPV infection or existing warts." },
-      { "label": "Age:", "text": "Genital warts are most common between ages 17 and 33, with peak incidence at ages 20 to 24. The immune system often clears HPV over time, with median clearance of about 6 months in young men and 90% clearance within 2 years in women." },
-      { "label": "Cigarette smoking and local factors:", "text": "Smoking and local moisture or skin trauma in the anogenital area may increase susceptibility to HPV infection or wart development." }
+      {
+        "label": "HPV types 6 and 11:",
+        "text": "These two low-oncogenic-risk HPV types cause approximately 90% of all genital warts. They are transmitted through genital-to-genital, oral-to-genital, or anal sexual contact and can be passed even when warts are not visible."
+      },
+      {
+        "label": "Multiple sexual partners:",
+        "text": "Having multiple partners increases the risk of HPV acquisition. Approximately 3 out of 4 unaffected partners of patients with genital warts will develop warts within 8 months of contact with the affected individual."
+      },
+      {
+        "label": "Immunosuppression:",
+        "text": "People with HIV infection, organ transplants, or other causes of immune compromise are more likely to develop genital warts, more likely to have extensive or hard-to-treat disease, and more likely to experience recurrence after treatment."
+      },
+      {
+        "label": "Lack of HPV vaccination:",
+        "text": "Gardasil 9 vaccine protects against HPV types 6 and 11 (which cause warts) and several high-risk types. Vaccination prior to sexual debut is highly effective at preventing genital warts; it does not treat existing HPV infection or existing warts."
+      },
+      {
+        "label": "Age:",
+        "text": "Genital warts are most common between ages 17 and 33, with peak incidence at ages 20 to 24. The immune system often clears HPV over time, with median clearance of about 6 months in young men and 90% clearance within 2 years in women."
+      },
+      {
+        "label": "Cigarette smoking and local factors:",
+        "text": "Smoking and local moisture or skin trauma in the anogenital area may increase susceptibility to HPV infection or wart development."
+      }
     ],
     "closing": "Treatment of genital warts aims to remove visible lesions and relieve symptoms or cosmetic concerns but does not eradicate the underlying HPV virus. Warts frequently recur, especially in the first 3 months after treatment. HPV can still be transmitted to partners even after warts resolve. Partner notification, consistent condom use, STI screening, and discussion of HPV vaccination are all important parts of a complete management plan."
   },
-
   "symptomsAndRedFlags": {
     "sectionTitle": "Symptoms and Red Flags for Genital Warts in {state}",
     "intro": "Use this table to understand which presentations are appropriate for telehealth evaluation and which require urgent in-person care.",
-    "headers": ["Symptom or situation", "What it suggests", "Telehealth appropriate?", "Red flag requiring urgent in-person care"],
+    "headers": [
+      "Symptom or situation",
+      "What it suggests",
+      "Telehealth appropriate?",
+      "Red flag requiring urgent in-person care"
+    ],
     "rows": [
-      ["Soft, flesh-colored or pink raised bumps on the external genitalia, perineum, or perianal skin", "Classic external anogenital warts (condylomata acuminata) appropriate for topical therapy", "Often yes", "If bleeding, ulcerated, or rapidly growing"],
-      ["Flat or cauliflower-shaped lesions on the vulva, penile shaft, or scrotum without bleeding", "External genital warts amenable to patient-applied topical treatment", "Often yes", "If irregular pigmentation, dark coloration, or non-healing ulceration"],
-      ["Anal or perianal warts visible on external skin", "External perianal warts may be treatable with topical therapy; intra-anal warts require specialist evaluation", "Sometimes — external only", "Intra-anal warts always require in-person evaluation with colorectal specialist"],
-      ["Warts inside the vagina, on the cervix, or at the urethral meatus", "Internal warts require in-person evaluation and procedures (cryotherapy, TCA, or excision)", "No", "Requires in-person specialist evaluation; not appropriate for telehealth"],
-      ["Rapidly growing, bleeding, or ulcerated anogenital lesion", "Possible malignant transformation or high-grade HPV-related lesion; biopsy indicated", "No", "Urgent in-person evaluation — possible squamous cell carcinoma or high-grade intraepithelial neoplasia"],
-      ["Darkly pigmented, irregular, or non-healing genital lesion", "Suspicious for malignancy (penile, vulvar, or anal cancer); biopsy needed", "No", "Urgent in-person evaluation with dermatology or surgical specialist"],
-      ["Known HIV or other significant immunosuppression with extensive or treatment-refractory warts", "Immunocompromised patients have more aggressive disease and lower treatment response; in-person specialist management preferred", "No", "In-person evaluation; sinecatechins are contraindicated in this group"]
+      [
+        "Soft, flesh-colored or pink raised bumps on the external genitalia, perineum, or perianal skin",
+        "Classic external anogenital warts (condylomata acuminata) appropriate for topical therapy",
+        "Often yes",
+        "If bleeding, ulcerated, or rapidly growing"
+      ],
+      [
+        "Flat or cauliflower-shaped lesions on the vulva, penile shaft, or scrotum without bleeding",
+        "External genital warts amenable to patient-applied topical treatment",
+        "Often yes",
+        "If irregular pigmentation, dark coloration, or non-healing ulceration"
+      ],
+      [
+        "Anal or perianal warts visible on external skin",
+        "External perianal warts may be treatable with topical therapy; intra-anal warts require specialist evaluation",
+        "Sometimes — external only",
+        "Intra-anal warts always require in-person evaluation with colorectal specialist"
+      ],
+      [
+        "Warts inside the vagina, on the cervix, or at the urethral meatus",
+        "Internal warts require in-person evaluation and procedures (cryotherapy, TCA, or excision)",
+        "No",
+        "Requires in-person specialist evaluation; not appropriate for telehealth"
+      ],
+      [
+        "Rapidly growing, bleeding, or ulcerated anogenital lesion",
+        "Possible malignant transformation or high-grade HPV-related lesion; biopsy indicated",
+        "No",
+        "Urgent in-person evaluation — possible squamous cell carcinoma or high-grade intraepithelial neoplasia"
+      ],
+      [
+        "Darkly pigmented, irregular, or non-healing genital lesion",
+        "Suspicious for malignancy (penile, vulvar, or anal cancer); biopsy needed",
+        "No",
+        "Urgent in-person evaluation with dermatology or surgical specialist"
+      ],
+      [
+        "Known HIV or other significant immunosuppression with extensive or treatment-refractory warts",
+        "Immunocompromised patients have more aggressive disease and lower treatment response; in-person specialist management preferred",
+        "No",
+        "In-person evaluation; sinecatechins are contraindicated in this group"
+      ]
     ]
   },
-
   "differentialDiagnosis": {
     "sectionTitle": "Differential Diagnosis: Genital Warts vs Other Conditions",
     "intro": "Several conditions can resemble genital warts. Careful visual assessment and clinical history help distinguish classic condylomata acuminata from other diagnoses. TeleDirectMD will conduct a thorough visual assessment by video and direct cases that cannot be confidently differentiated from more serious conditions to appropriate in-person care.",
@@ -282,7 +364,6 @@
     ],
     "closing": "If the clinical presentation is atypical, the lesion is suspicious for malignancy, or the diagnosis cannot be confirmed by visual assessment, TeleDirectMD will direct you to appropriate in-person care. We do not prescribe topical therapy for lesions that appear potentially malignant, intra-anal, intra-vaginal, or cervical."
   },
-
   "telehealthEligibility": {
     "sectionTitle": "When Is a Video Visit Appropriate for Genital Warts?",
     "appropriate": {
@@ -310,7 +391,6 @@
       "disclaimer": "If any red-flag features are present, seek in-person evaluation with a dermatologist, gynecologist, or STI specialist. TeleDirectMD is not appropriate for these presentations."
     }
   },
-
   "treatmentOptions": {
     "sectionTitle": "Treatment Options for Genital Warts",
     "intro": "The 2021 CDC STI Treatment Guidelines classify genital wart treatments as either patient-applied or provider-administered (procedural) modalities. TeleDirectMD focuses exclusively on the patient-applied topical regimens that can be prescribed via telehealth for eligible external anogenital warts. No single treatment is superior for all patients or all warts — the MD will choose based on wart location, size, patient history, pregnancy status, immune status, allergies, and cost considerations.",
@@ -340,20 +420,43 @@
       "Extensive or treatment-refractory disease in severely immunocompromised patients needing specialist care"
     ]
   },
-
   "medications": {
     "sectionTitle": "Common Medication Options for Genital Warts",
     "intro": "These are the three CDC-recommended patient-applied topical regimens for external anogenital warts. The actual medication, dosing schedule, and duration are determined by the MD after reviewing your wart location, number, size, immune status, pregnancy status, allergies, and ability to apply medication at home. All are examples only.",
-    "headers": ["Medication", "Typical regimen", "Duration", "Key considerations"],
+    "headers": [
+      "Medication",
+      "Typical regimen",
+      "Duration",
+      "Key considerations"
+    ],
     "rows": [
-      ["Imiquimod 5% cream (Aldara)", "Apply a thin layer to external warts at bedtime 3 times per week (e.g., Mon, Wed, Fri); wash off with soap and water 6 to 10 hours after application", "Up to 16 weeks", "Immune response modifier; local reactions (redness, erosion, itching) are common and can indicate response; avoid with active inflammatory skin disease (psoriasis, vitiligo); data on pregnancy are insufficient — avoid during pregnancy; not for internal warts"],
-      ["Imiquimod 3.75% cream (Zyclara)", "Apply a thin layer to external warts at bedtime every night; wash off with soap and water 6 to 10 hours after application", "Up to 8 weeks", "Lower concentration than 5% cream; may have similar efficacy with potentially fewer local side effects; same contraindications as 5% formulation; brand and generic availability varies by pharmacy"],
-      ["Podofilox 0.5% solution or gel (Condylox)", "Apply to warts twice daily for 3 consecutive days, then 4 days off; repeat up to 4 cycles; total area treated should not exceed 10 cm² per day; total volume limited to 0.5 mL per day", "Up to 4 weekly cycles (4 weeks total)", "Antimitotic (causes wart necrosis); local pain and irritation common; contraindicated in pregnancy; not for internal warts; MD will identify which lesions to treat and demonstrate proper application technique"],
-      ["Sinecatechins 15% ointment (Veregen)", "Apply a 0.5 cm strand to each external wart 3 times per day; do not wash off; avoid genital, anal, and oral sexual contact while ointment is on skin", "Until complete wart clearance or up to 16 weeks", "Green tea catechin extract with anti-proliferative and immunostimulatory properties; do NOT use in HIV-positive or otherwise immunocompromised patients; do NOT use in pregnancy (safety unknown); local reactions include erythema, pruritus, ulceration, and vesicular rash"]
+      [
+        "Imiquimod 5% cream (Aldara)",
+        "Apply a thin layer to external warts at bedtime 3 times per week (e.g., Mon, Wed, Fri); wash off with soap and water 6 to 10 hours after application",
+        "Up to 16 weeks",
+        "Immune response modifier; local reactions (redness, erosion, itching) are common and can indicate response; avoid with active inflammatory skin disease (psoriasis, vitiligo); data on pregnancy are insufficient — avoid during pregnancy; not for internal warts"
+      ],
+      [
+        "Imiquimod 3.75% cream (Zyclara)",
+        "Apply a thin layer to external warts at bedtime every night; wash off with soap and water 6 to 10 hours after application",
+        "Up to 8 weeks",
+        "Lower concentration than 5% cream; may have similar efficacy with potentially fewer local side effects; same contraindications as 5% formulation; brand and generic availability varies by pharmacy"
+      ],
+      [
+        "Podofilox 0.5% solution or gel (Condylox)",
+        "Apply to warts twice daily for 3 consecutive days, then 4 days off; repeat up to 4 cycles; total area treated should not exceed 10 cm² per day; total volume limited to 0.5 mL per day",
+        "Up to 4 weekly cycles (4 weeks total)",
+        "Antimitotic (causes wart necrosis); local pain and irritation common; contraindicated in pregnancy; not for internal warts; MD will identify which lesions to treat and demonstrate proper application technique"
+      ],
+      [
+        "Sinecatechins 15% ointment (Veregen)",
+        "Apply a 0.5 cm strand to each external wart 3 times per day; do not wash off; avoid genital, anal, and oral sexual contact while ointment is on skin",
+        "Until complete wart clearance or up to 16 weeks",
+        "Green tea catechin extract with anti-proliferative and immunostimulatory properties; do NOT use in HIV-positive or otherwise immunocompromised patients; do NOT use in pregnancy (safety unknown); local reactions include erythema, pruritus, ulceration, and vesicular rash"
+      ]
     ],
     "note": "Example regimens only. The actual medication, dosing schedule, and duration are determined by the MD after reviewing your clinical situation including wart location, size, immune status, pregnancy status, allergies, and ability to apply medication. TeleDirectMD does not prescribe controlled substances. These medications are prescription-only; do not use over-the-counter wart treatments (such as salicylic acid) on genital warts."
   },
-
   "homeCare": {
     "sectionTitle": "Home Care, Prevention, and Follow-up for Genital Warts",
     "whatToDoNow": {
@@ -387,7 +490,6 @@
       ]
     }
   },
-
   "whenNotToUse": {
     "sectionTitle": "When Not to Use TeleDirectMD for Genital Warts in {state}",
     "intro": "TeleDirectMD is designed for selected external anogenital wart cases appropriate for patient-applied topical therapy. We are direct about when telehealth is not appropriate.",
@@ -407,14 +509,25 @@
     "alternatives": {
       "title": "Alternative Care Options",
       "items": [
-        { "label": "Emergency room:", "text": "for rapidly spreading lesions, signs of severe systemic illness, or urgent concern about malignancy" },
-        { "label": "Dermatologist or STI clinic:", "text": "for in-office procedures (cryotherapy, TCA, excision), biopsy of suspicious lesions, intra-anal or cervical warts, and extensive or refractory disease" },
-        { "label": "Gynecologist:", "text": "for cervical, vaginal, or vulvar warts, cervical cancer screening coordination, and management during pregnancy" },
-        { "label": "Primary care:", "text": "for ongoing STI screening, HPV vaccination, and referral coordination for complex wart management" }
+        {
+          "label": "Emergency room:",
+          "text": "for rapidly spreading lesions, signs of severe systemic illness, or urgent concern about malignancy"
+        },
+        {
+          "label": "Dermatologist or STI clinic:",
+          "text": "for in-office procedures (cryotherapy, TCA, excision), biopsy of suspicious lesions, intra-anal or cervical warts, and extensive or refractory disease"
+        },
+        {
+          "label": "Gynecologist:",
+          "text": "for cervical, vaginal, or vulvar warts, cervical cancer screening coordination, and management during pregnancy"
+        },
+        {
+          "label": "Primary care:",
+          "text": "for ongoing STI screening, HPV vaccination, and referral coordination for complex wart management"
+        }
       ]
     }
   },
-
   "faq": {
     "sectionTitle": "Genital Warts Treatment FAQs for {state}",
     "items": [
@@ -480,16 +593,32 @@
       "text": "Insurance is not required. Adult-only video visits. MD-only care. Safety-first visual assessment, red-flag screening, topical prescriptions when appropriate, and clear next steps."
     }
   },
-
   "references": [
-    { "text": "CDC STI Treatment Guidelines 2021 — Anogenital Warts (Human Papillomavirus Infection)", "url": "https://www.cdc.gov/std/treatment-guidelines/anogenital-warts.htm" },
-    { "text": "Sexually Transmitted Infections Treatment Guidelines, 2021 — MMWR Recommendations and Reports (CDC)", "url": "https://www.cdc.gov/mmwr/volumes/70/rr/rr7004a1.htm" },
-    { "text": "Condylomata Acuminata (Genital Warts) — StatPearls, NCBI Bookshelf (Leslie SW et al., updated 2025)", "url": "https://www.ncbi.nlm.nih.gov/books/NBK441884/" },
-    { "text": "Genital Warts: Diagnosis and Treatment — American Academy of Dermatology (AAD)", "url": "https://www.aad.org/public/diseases/a-z/genital-warts-treatment" },
-    { "text": "Genital Warts: Overview — American Academy of Dermatology (AAD)", "url": "https://www.aad.org/public/diseases/a-z/genital-warts-overview" },
-    { "text": "Management of External Genital Warts — American Academy of Family Physicians (AAFP), American Family Physician, 2014", "url": "https://www.aafp.org/pubs/afp/issues/2014/0901/p312.html" }
+    {
+      "text": "CDC STI Treatment Guidelines 2021 — Anogenital Warts (Human Papillomavirus Infection)",
+      "url": "https://www.cdc.gov/std/treatment-guidelines/anogenital-warts.htm"
+    },
+    {
+      "text": "Sexually Transmitted Infections Treatment Guidelines, 2021 — MMWR Recommendations and Reports (CDC)",
+      "url": "https://www.cdc.gov/mmwr/volumes/70/rr/rr7004a1.htm"
+    },
+    {
+      "text": "Condylomata Acuminata (Genital Warts) — StatPearls, NCBI Bookshelf (Leslie SW et al., updated 2025)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK441884/"
+    },
+    {
+      "text": "Genital Warts: Diagnosis and Treatment — American Academy of Dermatology (AAD)",
+      "url": "https://www.aad.org/public/diseases/a-z/genital-warts-treatment"
+    },
+    {
+      "text": "Genital Warts: Overview — American Academy of Dermatology (AAD)",
+      "url": "https://www.aad.org/public/diseases/a-z/genital-warts-overview"
+    },
+    {
+      "text": "Management of External Genital Warts — American Academy of Family Physicians (AAFP), American Family Physician, 2014",
+      "url": "https://www.aafp.org/pubs/afp/issues/2014/0901/p312.html"
+    }
   ],
-
   "disclaimer": {
     "sectionTitle": "TeleDirectMD Telehealth Disclaimer",
     "paragraphs": [
@@ -498,7 +627,6 @@
       "Online genital warts treatment in {state}. HPV wart prescription online. Imiquimod prescription telehealth. Podofilox prescription online. Genital wart treatment by video visit in {state}."
     ]
   },
-
   "relatedConditions": [
     {
       "slug": "chlamydia-treatment-online",
@@ -521,28 +649,51 @@
       "description": "Sexual health concerns including erectile dysfunction are commonly addressed by video visit for adults in {state}"
     }
   ],
-
   "inlineLinks": [
-    { "slug": "chlamydia-treatment-online", "label": "Chlamydia Treatment" },
-    { "slug": "genital-herpes-treatment-online", "label": "Genital Herpes Treatment" },
-    { "slug": "cold-sore-treatment-online", "label": "Cold Sore Treatment" },
-    { "slug": "erectile-dysfunction-treatment-online", "label": "Erectile Dysfunction Treatment" },
-    { "slug": "uti-treatment-online", "label": "UTI Treatment" },
-    { "slug": "birth-control-refills-online", "label": "Birth Control Refills" }
+    {
+      "slug": "chlamydia-treatment-online",
+      "label": "Chlamydia Treatment"
+    },
+    {
+      "slug": "genital-herpes-treatment-online",
+      "label": "Genital Herpes Treatment"
+    },
+    {
+      "slug": "cold-sore-treatment-online",
+      "label": "Cold Sore Treatment"
+    },
+    {
+      "slug": "erectile-dysfunction-treatment-online",
+      "label": "Erectile Dysfunction Treatment"
+    },
+    {
+      "slug": "uti-treatment-online",
+      "label": "UTI Treatment"
+    },
+    {
+      "slug": "birth-control-refills-online",
+      "label": "Birth Control Refills"
+    }
   ],
-
   "cityBlock": {
     "title": "Adults We Serve Across {state}",
     "text": "TeleDirectMD evaluates adults located throughout {state}, including {citiesExtended}. Whether you are searching for online genital warts treatment in {city1}, HPV wart prescriptions in {city2}, imiquimod or podofilox by video visit in {city3}, or genital warts care anywhere else in {state}, the same telehealth eligibility and safety rules apply."
   },
-
   "icd10Codes": [
-    { "code": "A63.0", "description": "Anogenital (venereal) warts — includes condyloma acuminatum and anogenital warts due to human papillomavirus (HPV)" }
+    {
+      "code": "A63.0",
+      "description": "Anogenital (venereal) warts — includes condyloma acuminatum and anogenital warts due to human papillomavirus (HPV)"
+    }
   ],
-
   "jsonLd": {
     "conditionName": "Genital Warts",
-    "conditionAlternateNames": ["Condylomata acuminata", "HPV warts", "Anogenital warts", "Venereal warts", "Condyloma acuminatum"],
+    "conditionAlternateNames": [
+      "Condylomata acuminata",
+      "HPV warts",
+      "Anogenital warts",
+      "Venereal warts",
+      "Condyloma acuminatum"
+    ],
     "conditionDescription": "Genital warts (condylomata acuminata) are soft, raised anogenital growths caused by human papillomavirus (HPV) types 6 and 11. They are the most common clinical manifestation of genital HPV infection. TeleDirectMD evaluates external anogenital warts by secure video visit with safety-first red-flag screening, visual assessment, patient-applied topical prescription therapy when appropriate (imiquimod, podofilox, sinecatechins), and evidence-based HPV counseling per the 2021 CDC STI Treatment Guidelines.",
     "primaryIcd10": "A63.0",
     "anatomy": "Anogenital skin and mucous membranes",
@@ -570,10 +721,22 @@
     ],
     "epidemiology": "HPV is one of the most common STIs in the United States with approximately 13 million new infections annually. About 1% of sexually active adults have clinically visible genital warts at any given time. HPV types 6 and 11 cause approximately 90% of all genital warts. Peak incidence is between ages 20 and 24.",
     "drugs": [
-      { "name": "Imiquimod 5% cream", "id": "imiquimod-5" },
-      { "name": "Imiquimod 3.75% cream", "id": "imiquimod-375" },
-      { "name": "Podofilox 0.5% solution or gel", "id": "podofilox" },
-      { "name": "Sinecatechins 15% ointment", "id": "sinecatechins" }
+      {
+        "name": "Imiquimod 5% cream",
+        "id": "imiquimod-5"
+      },
+      {
+        "name": "Imiquimod 3.75% cream",
+        "id": "imiquimod-375"
+      },
+      {
+        "name": "Podofilox 0.5% solution or gel",
+        "id": "podofilox"
+      },
+      {
+        "name": "Sinecatechins 15% ointment",
+        "id": "sinecatechins"
+      }
     ],
     "treatments": [
       "Patient-applied topical therapy (imiquimod, podofilox, sinecatechins) for external warts",
@@ -588,11 +751,32 @@
       "STI co-testing panel (chlamydia, gonorrhea, syphilis RPR, HIV) when indicated",
       "Biopsy for atypical, pigmented, bleeding, or treatment-refractory lesions — requires in-person"
     ],
-    "specialties": ["Family Medicine", "Telemedicine", "Dermatology", "Infectious Disease", "Gynecology"],
+    "specialties": [
+      "Family Medicine",
+      "Telemedicine",
+      "Dermatology",
+      "Infectious Disease",
+      "Gynecology"
+    ],
     "guidelines": [
-      { "name": "CDC STI Treatment Guidelines 2021 — Anogenital Warts", "url": "https://www.cdc.gov/std/treatment-guidelines/anogenital-warts.htm", "publisher": "Centers for Disease Control and Prevention", "id": "cdc-2021-anogenital-warts" },
-      { "name": "Condylomata Acuminata — StatPearls (2025)", "url": "https://www.ncbi.nlm.nih.gov/books/NBK441884/", "publisher": "NCBI Bookshelf / StatPearls Publishing", "id": "statpearls-condylomata" },
-      { "name": "Genital Warts: Diagnosis and Treatment — AAD", "url": "https://www.aad.org/public/diseases/a-z/genital-warts-treatment", "publisher": "American Academy of Dermatology", "id": "aad-genital-warts-treatment" }
+      {
+        "name": "CDC STI Treatment Guidelines 2021 — Anogenital Warts",
+        "url": "https://www.cdc.gov/std/treatment-guidelines/anogenital-warts.htm",
+        "publisher": "Centers for Disease Control and Prevention",
+        "id": "cdc-2021-anogenital-warts"
+      },
+      {
+        "name": "Condylomata Acuminata — StatPearls (2025)",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK441884/",
+        "publisher": "NCBI Bookshelf / StatPearls Publishing",
+        "id": "statpearls-condylomata"
+      },
+      {
+        "name": "Genital Warts: Diagnosis and Treatment — AAD",
+        "url": "https://www.aad.org/public/diseases/a-z/genital-warts-treatment",
+        "publisher": "American Academy of Dermatology",
+        "id": "aad-genital-warts-treatment"
+      }
     ],
     "knowsAbout": [
       "Genital warts treatment",
@@ -608,5 +792,7 @@
     ],
     "serviceDescription": "Secure video visit for {state} adults with external anogenital warts, including visual assessment, red-flag screening, patient-applied topical prescription therapy when appropriate, and evidence-based HPV counseling.",
     "webpageDescription": "{state} genital warts treatment by secure MD video visit for adults. Visual assessment of external anogenital warts, red-flag screening, topical prescription therapy (imiquimod, podofilox, sinecatechins) when clinically appropriate per CDC 2021 STI Treatment Guidelines, HPV counseling, and clear rules for when in-person specialist care is needed."
-  }
+  },
+  "guidelineSource": "cdcSti",
+  "conditionType": "treatment"
 }

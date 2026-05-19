@@ -2,8 +2,13 @@
 // ─────────────────────────────────────────────────────────────────────────────
 // inject-health-guides-citable.js
 //
-// Injects citableSummary block + QAPage schema into each /public/health-guides
+// Injects citableSummary block + FAQPage schema into each /public/health-guides
 // /{slug}/index.html using authored summaries from data/health-guides-citable.json.
+//
+// 2026-05-19: Migrated from QAPage → FAQPage (per Google policy, QAPage is for
+// forum/UGC; FAQPage is for author-written FAQs). Also removed visually-hidden
+// microdata itemProp attrs — JSON-LD is now the canonical schema, the HTML
+// block is rendered visibly as an editorial Q&A to mirror it 1:1.
 //
 // Run via `node scripts/inject-health-guides-citable.js` from the project root.
 // Idempotent — running multiple times produces the same output (existing block
@@ -19,7 +24,7 @@ const GUIDES_DIR = path.join(__dirname, '..', 'public', 'health-guides');
 const DATA_PATH = path.join(__dirname, '..', 'data', 'health-guides-citable.json');
 const NPI = '1104323203';
 const DOCTOR = 'Parth Bhavsar, MD';
-const TODAY = '2026-05-18';
+const TODAY = '2026-05-19';
 
 const MARKER_START = '<!-- tdmd:citable-summary-start -->';
 const MARKER_END = '<!-- tdmd:citable-summary-end -->';
@@ -34,26 +39,26 @@ function stripHtml(s) {
 
 function renderBlock(slug, entry) {
   const pageUrl = `https://teledirectmd.com/health-guides/${slug}/`;
-  const qaSchema = {
+  const faqSchema = {
     '@context': 'https://schema.org',
-    '@type': 'QAPage',
-    'mainEntity': {
+    '@type': 'FAQPage',
+    '@id': `${pageUrl}#faq`,
+    'isPartOf': { '@id': `${pageUrl}#webpage` },
+    'datePublished': TODAY,
+    'dateModified': TODAY,
+    'author': {
+      '@type': 'Physician',
+      'name': DOCTOR,
+      'sameAs': `https://npiregistry.cms.hhs.gov/provider-view/${NPI}`,
+    },
+    'mainEntity': [{
       '@type': 'Question',
       'name': entry.question,
-      'datePublished': TODAY,
-      'author': {
-        '@type': 'Person',
-        'name': DOCTOR,
-        'identifier': { '@type': 'PropertyValue', 'name': 'NPI', 'value': NPI },
-      },
       'acceptedAnswer': {
         '@type': 'Answer',
         'text': stripHtml(entry.answerHtml),
-        'dateCreated': TODAY,
-        'author': { '@type': 'Person', 'name': DOCTOR },
-        'url': pageUrl,
       },
-    },
+    }],
   };
   const css = [
     'background:#FFFFFF',
@@ -65,14 +70,16 @@ function renderBlock(slug, entry) {
     'line-height:1.65',
     'box-shadow:0 1px 2px rgba(0,0,0,0.03)',
   ].join(';');
+  const metaCss = 'margin-top:0.75rem;padding-top:0.6rem;border-top:1px solid #E6F0F2;font-size:0.82rem;color:#456676;font-style:italic';
+  // Format TODAY (YYYY-MM-DD) into 'Month D, YYYY'
+  const reviewed = new Date(TODAY).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
   return `${MARKER_START}
-<section class="tdmd-citable-summary" id="citable-summary-${slug}" data-speakable="true" itemscope itemtype="https://schema.org/Question" style="${css}">
-  <h2 itemprop="name" style="margin:0 0 0.5rem;font-size:1.05rem;font-weight:700;color:#003E52;">${escapeHtml(entry.question)}</h2>
-  <div itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
-    <div itemprop="text" style="margin:0;color:#0A2438;font-size:0.97rem;">${entry.answerHtml}</div>
-  </div>
+<section class="tdmd-citable-summary" id="citable-summary-${slug}" data-speakable="true" style="${css}">
+  <h2 style="margin:0 0 0.5rem;font-size:1.05rem;font-weight:700;color:#003E52;">${escapeHtml(entry.question)}</h2>
+  <div style="margin:0;color:#0A2438;font-size:0.97rem;">${entry.answerHtml}</div>
+  <div style="${metaCss}">Medically reviewed by ${escapeHtml(DOCTOR)} — Updated ${reviewed}</div>
 </section>
-<script type="application/ld+json">${JSON.stringify(qaSchema)}</script>
+<script type="application/ld+json">${JSON.stringify(faqSchema)}</script>
 ${MARKER_END}`;
 }
 

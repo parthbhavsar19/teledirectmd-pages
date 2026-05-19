@@ -2,20 +2,34 @@
   "conditionName": "Sore Throat",
   "conditionShort": "sore throat",
   "conditionSlug": "sore-throat-treatment-online",
-  "pageTitle": "Sore Throat Treatment Online in {state} | Pharyngitis MD Video Visit | TeleDirectMD",
+  "pageTitle": "Sore Throat Online Treatment in {state} | TeleDirectMD",
   "metaDescription": "Evidence-based sore throat evaluation for {state} adults by secure video visit. Centor-based strep risk assessment, red-flag screening, supportive care guidance, and antibiotic prescriptions when clinically appropriate. Self pay option starting at $49. Insurance is not required.",
   "ogImageAlt": "Sore throat treatment in {state} by TeleDirectMD",
-
   "hero": {
     "h1": "Sore Throat Treatment in {state} (Pharyngitis Evaluation)",
     "subtitle": "{state} adult care by secure video visit, self pay option starting at $49, MD-only, insurance is not required.",
     "introParagraph": "Most adult sore throats are caused by viral infections and do not require antibiotics — only about 10 percent of adult pharyngitis cases are caused by Group A Streptococcus (GAS). The IDSA guidelines for GAS pharyngitis recommend using clinical scoring systems such as the Centor and McIsaac criteria to assess the probability of strep throat before deciding on testing or treatment, with scores incorporating fever history, tonsillar exudates, tender anterior cervical lymphadenopathy, and absence of cough. TeleDirectMD uses a safety-first telehealth approach that applies Centor-based clinical scoring to estimate strep probability, screens for dangerous red flags including difficulty breathing, inability to swallow, trismus, drooling, and severe neck swelling, and provides honest guidance about when in-person evaluation with a rapid strep test is the better path. Because telehealth cannot perform a rapid strep test or throat culture, the role of this visit is clinical triage: supportive care for likely viral illness, empiric treatment or referral for in-person testing when strep probability is higher, and urgent redirection for red-flag presentations. This page is for adults located in {state}, including {cities}.",
     "tocLinks": [
-      { "href": "eligibility-checklist", "label": "Eligibility checklist" },
-      { "href": "decision-guide", "label": "Decision guide" },
-      { "href": "treatment-options", "label": "Treatment options" },
-      { "href": "faq", "label": "FAQs" },
-      { "href": "references", "label": "References" }
+      {
+        "href": "eligibility-checklist",
+        "label": "Eligibility checklist"
+      },
+      {
+        "href": "decision-guide",
+        "label": "Decision guide"
+      },
+      {
+        "href": "treatment-options",
+        "label": "Treatment options"
+      },
+      {
+        "href": "faq",
+        "label": "FAQs"
+      },
+      {
+        "href": "references",
+        "label": "References"
+      }
     ],
     "benefits": [
       "Self pay option starting at $49",
@@ -35,7 +49,6 @@
     },
     "icd10Display": "J02.9, J02.0, J31.2, or J06.9 (final coding depends on clinical details)"
   },
-
   "eligibility": {
     "sectionTitle": "Sore Throat Telehealth Eligibility Checklist for {state}",
     "introText": "You are likely eligible for a TeleDirectMD video visit if ALL of these are true:",
@@ -61,7 +74,6 @@
     ],
     "notEligibleDisclaimer": "If you have red-flag symptoms, seek urgent in-person care or emergency care immediately. TeleDirectMD is not an emergency service."
   },
-
   "howItWorks": {
     "sectionTitle": "How Online Sore Throat Treatment Works in {state}",
     "steps": [
@@ -83,7 +95,6 @@
       }
     ]
   },
-
   "telehealthRegulations": {
     "sectionTitle": "{state} Telehealth Regulations for Online Sore Throat Care",
     "paragraphs": [
@@ -91,7 +102,6 @@
       "Location matters: you must be physically in {state} during the visit. Insurance is not required. TeleDirectMD does not prescribe controlled substances."
     ]
   },
-
   "comparisonTable": {
     "sectionTitle": "TeleDirectMD vs Other Care Options for Sore Throat in {state}",
     "intro": "Here is how TeleDirectMD compares to common settings for adult sore throat care in {state}:",
@@ -131,7 +141,6 @@
     ],
     "bottomLine": "TeleDirectMD is a strong fit for adults with non-severe sore throat who want fast clinical assessment and strep risk scoring. For patients who need a rapid strep test on-site, urgent care may be the better option depending on clinical probability."
   },
-
   "decisionGuide": {
     "sectionTitle": "Should I Use TeleDirectMD for Sore Throat in {state}? Decision Guide",
     "steps": [
@@ -178,7 +187,6 @@
       }
     ]
   },
-
   "pricing": {
     "sectionTitle": "What Does Sore Throat Treatment Cost in {state}?",
     "subtitle": "Transparent options. Insurance is not required.",
@@ -192,15 +200,34 @@
       "Clear follow-up steps and escalation instructions"
     ],
     "comparisonBars": [
-      { "name": "TeleDirectMD", "value": "$49", "width": 12, "isTdmd": true },
-      { "name": "Primary Care", "value": "$100 to $250+", "width": 45, "isTdmd": false },
-      { "name": "Urgent Care", "value": "$150 to $300+", "width": 55, "isTdmd": false },
-      { "name": "Emergency Room", "value": "$500 to $3,000+", "width": 100, "isTdmd": false }
+      {
+        "name": "TeleDirectMD",
+        "value": "$49",
+        "width": 12,
+        "isTdmd": true
+      },
+      {
+        "name": "Primary Care",
+        "value": "$100 to $250+",
+        "width": 45,
+        "isTdmd": false
+      },
+      {
+        "name": "Urgent Care",
+        "value": "$150 to $300+",
+        "width": 55,
+        "isTdmd": false
+      },
+      {
+        "name": "Emergency Room",
+        "value": "$500 to $3,000+",
+        "width": 100,
+        "isTdmd": false
+      }
     ],
     "footnote": "Prescription costs at your pharmacy are separate and vary by medication and pharmacy.",
     "noHiddenFees": "No hidden fees. If antibiotics are not clinically appropriate, you still receive a complete evaluation, supportive care guidance, and clear instructions on what level of care you need next."
   },
-
   "whatIsCondition": {
     "sectionTitle": "What Is a Sore Throat?",
     "paragraphs": [
@@ -209,36 +236,91 @@
       "TeleDirectMD provides clinical strep risk assessment by video, evidence-based supportive care for viral pharyngitis, and antibiotic treatment or referral for in-person testing when strep probability warrants it. We are transparent that rapid strep testing cannot be performed by telehealth, so clinical scoring and honest triage guide the treatment plan."
     ]
   },
-
   "causesAndRiskFactors": {
     "sectionTitle": "Causes and Risk Factors",
     "intro": "Sore throat has many causes, and distinguishing between viral pharyngitis and bacterial pharyngitis is the central clinical question. The Centor criteria help stratify strep probability, while other causes including allergies, postnasal drip, GERD, and environmental irritants should also be considered.",
     "items": [
-      { "label": "Viral infection (most common):", "text": "rhinovirus, adenovirus, influenza, parainfluenza, coronavirus, and EBV (mononucleosis) cause the majority of adult sore throats" },
-      { "label": "Group A Streptococcus (GAS):", "text": "causes approximately 5 to 15 percent of adult pharyngitis cases and is the primary bacterial cause warranting antibiotic treatment" },
-      { "label": "Close contact with strep-positive person:", "text": "household or close contacts of confirmed strep cases have higher transmission risk" },
-      { "label": "Postnasal drip and allergies:", "text": "chronic nasal drainage can cause persistent throat irritation that mimics pharyngitis" },
-      { "label": "Smoking and environmental irritants:", "text": "tobacco smoke, dry air, and chemical exposures can cause or worsen throat pain" },
-      { "label": "Gastroesophageal reflux (GERD):", "text": "acid reflux can cause chronic sore throat, hoarseness, and throat clearing that does not respond to antibiotics" }
+      {
+        "label": "Viral infection (most common):",
+        "text": "rhinovirus, adenovirus, influenza, parainfluenza, coronavirus, and EBV (mononucleosis) cause the majority of adult sore throats"
+      },
+      {
+        "label": "Group A Streptococcus (GAS):",
+        "text": "causes approximately 5 to 15 percent of adult pharyngitis cases and is the primary bacterial cause warranting antibiotic treatment"
+      },
+      {
+        "label": "Close contact with strep-positive person:",
+        "text": "household or close contacts of confirmed strep cases have higher transmission risk"
+      },
+      {
+        "label": "Postnasal drip and allergies:",
+        "text": "chronic nasal drainage can cause persistent throat irritation that mimics pharyngitis"
+      },
+      {
+        "label": "Smoking and environmental irritants:",
+        "text": "tobacco smoke, dry air, and chemical exposures can cause or worsen throat pain"
+      },
+      {
+        "label": "Gastroesophageal reflux (GERD):",
+        "text": "acid reflux can cause chronic sore throat, hoarseness, and throat clearing that does not respond to antibiotics"
+      }
     ],
     "closing": "Not every sore throat is an infection. Postnasal drip, GERD, allergies, and environmental factors can all cause throat pain. TeleDirectMD evaluates the symptom pattern, applies clinical scoring for strep risk, and avoids unnecessary antibiotics when a viral or non-infectious cause is more likely."
   },
-
   "symptomsAndRedFlags": {
     "sectionTitle": "Symptoms and Red Flags for Sore Throat in {state}",
     "intro": "Use this table to understand which sore throat symptoms may be appropriate for telehealth evaluation and which patterns require urgent in-person care.",
-    "headers": ["Symptom or situation", "What it suggests", "Telehealth appropriate?", "Red flag requiring urgent in-person care"],
+    "headers": [
+      "Symptom or situation",
+      "What it suggests",
+      "Telehealth appropriate?",
+      "Red flag requiring urgent in-person care"
+    ],
     "rows": [
-      ["Sore throat with cough, runny nose, and congestion", "Viral pharyngitis (low Centor score)", "Often yes", "Difficulty breathing or severe worsening"],
-      ["Sore throat with fever, tonsillar exudates, tender neck glands, no cough", "Higher strep probability (high Centor score)", "Sometimes — may treat empirically or refer for rapid strep test", "Inability to swallow or severe neck swelling"],
-      ["Mild sore throat with nasal congestion and postnasal drip", "Allergies, postnasal drip, or viral URI", "Often yes", "Persistent hoarseness lasting more than 2 weeks without clear cause"],
-      ["Sore throat with known strep exposure", "Higher pretest probability for GAS", "Sometimes — clinical scoring guides the plan", "Rash with rapidly worsening illness"],
-      ["Severe throat pain with muffled voice and trismus", "Possible peritonsillar abscess", "No", "Emergency — seek ER care now"],
-      ["Difficulty breathing with stridor or drooling", "Possible epiglottitis or deep neck infection", "No", "Emergency — call 911 or go to ER now"],
-      ["Chronic sore throat with heartburn or throat clearing", "Possible GERD-related pharyngitis", "Sometimes", "Difficulty swallowing solids with unintended weight loss needs in-person evaluation"]
+      [
+        "Sore throat with cough, runny nose, and congestion",
+        "Viral pharyngitis (low Centor score)",
+        "Often yes",
+        "Difficulty breathing or severe worsening"
+      ],
+      [
+        "Sore throat with fever, tonsillar exudates, tender neck glands, no cough",
+        "Higher strep probability (high Centor score)",
+        "Sometimes — may treat empirically or refer for rapid strep test",
+        "Inability to swallow or severe neck swelling"
+      ],
+      [
+        "Mild sore throat with nasal congestion and postnasal drip",
+        "Allergies, postnasal drip, or viral URI",
+        "Often yes",
+        "Persistent hoarseness lasting more than 2 weeks without clear cause"
+      ],
+      [
+        "Sore throat with known strep exposure",
+        "Higher pretest probability for GAS",
+        "Sometimes — clinical scoring guides the plan",
+        "Rash with rapidly worsening illness"
+      ],
+      [
+        "Severe throat pain with muffled voice and trismus",
+        "Possible peritonsillar abscess",
+        "No",
+        "Emergency — seek ER care now"
+      ],
+      [
+        "Difficulty breathing with stridor or drooling",
+        "Possible epiglottitis or deep neck infection",
+        "No",
+        "Emergency — call 911 or go to ER now"
+      ],
+      [
+        "Chronic sore throat with heartburn or throat clearing",
+        "Possible GERD-related pharyngitis",
+        "Sometimes",
+        "Difficulty swallowing solids with unintended weight loss needs in-person evaluation"
+      ]
     ]
   },
-
   "differentialDiagnosis": {
     "sectionTitle": "Differential Diagnosis: Strep Throat vs Other Causes",
     "intro": "Distinguishing strep pharyngitis from viral pharyngitis and other causes of throat pain is the central clinical challenge. The Centor criteria help stratify probability: each point for fever, tonsillar exudates, tender anterior cervical lymph nodes, and absence of cough increases the likelihood of GAS. A score of 0 to 1 makes strep unlikely, 2 to 3 warrants testing (or empiric treatment by clinical judgment when testing is unavailable), and 4 carries the highest probability.",
@@ -274,7 +356,6 @@
     ],
     "closing": "If your symptoms do not match a presentation that can be safely assessed by video or any red flags are present, TeleDirectMD will direct you to urgent in-person care."
   },
-
   "telehealthEligibility": {
     "sectionTitle": "When Is a Video Visit Appropriate?",
     "appropriate": {
@@ -302,7 +383,6 @@
       "disclaimer": "If any red-flag symptoms are present, seek urgent in-person or emergency care. These may indicate peritonsillar abscess, epiglottitis, or deep neck infection. TeleDirectMD is not an emergency service."
     }
   },
-
   "treatmentOptions": {
     "sectionTitle": "Treatment Options",
     "intro": "Sore throat treatment depends on the likely cause. Most adult sore throats are viral and require only supportive care. When Group A Strep probability is higher based on Centor scoring and clinical assessment, the CDC recommends penicillin or amoxicillin as the antibiotic of choice, with a standard 10-day treatment course. Telehealth plays a triage role: providing supportive care for likely viral illness, prescribing empiric antibiotics when clinical probability is high enough, or directing patients to in-person testing when the clinical picture is uncertain.",
@@ -327,23 +407,61 @@
       "Severe trismus or inability to swallow requiring in-person evaluation"
     ]
   },
-
   "medications": {
     "sectionTitle": "Common Medication Options",
     "intro": "These are common medications discussed for adult sore throat care. When antibiotics are indicated for confirmed or clinically probable strep throat, the CDC recommends penicillin or amoxicillin as first-line agents. The actual treatment plan depends on strep probability, allergy history, symptom severity, and clinical judgment.",
-    "headers": ["Medication", "Typical dose", "Duration", "Key considerations"],
+    "headers": [
+      "Medication",
+      "Typical dose",
+      "Duration",
+      "Key considerations"
+    ],
     "rows": [
-      ["Amoxicillin", "500 mg by mouth twice daily OR 1000 mg once daily", "10 days", "First-line for GAS pharyngitis per CDC guidelines. Well tolerated. Complete the full 10-day course even if symptoms improve earlier."],
-      ["Penicillin V", "500 mg by mouth twice daily", "10 days", "Alternative first-line option. Equally effective against GAS. Narrow spectrum, which is preferred from an antibiotic stewardship standpoint."],
-      ["Cephalexin", "500 mg by mouth twice daily", "10 days", "Alternative for patients with non-anaphylactic penicillin allergy. Do not use if history of severe penicillin anaphylaxis."],
-      ["Azithromycin (Z-pack)", "500 mg day 1, then 250 mg days 2 through 5", "5 days", "Reserved for patients with true penicillin allergy including anaphylaxis history. Increasing GAS resistance to macrolides limits its use as a first-line agent."],
-      ["Acetaminophen (Tylenol)", "500 to 1000 mg by mouth every 6 to 8 hours as needed", "As needed", "For throat pain and fever. Do not exceed 3000 mg daily. Avoid if you have liver disease."],
-      ["Ibuprofen (Advil, Motrin)", "200 to 400 mg by mouth every 6 to 8 hours as needed", "As needed", "For throat pain, inflammation, and fever. Take with food. Avoid if you have kidney disease, GI bleeding history, or are on blood thinners."],
-      ["Throat lozenges and warm salt water gargles", "As directed on label or half teaspoon salt in 8 oz warm water", "As needed", "Provide temporary symptomatic relief. Not curative. Honey in warm water or tea may also soothe throat pain. Avoid honey in infants."]
+      [
+        "Amoxicillin",
+        "500 mg by mouth twice daily OR 1000 mg once daily",
+        "10 days",
+        "First-line for GAS pharyngitis per CDC guidelines. Well tolerated. Complete the full 10-day course even if symptoms improve earlier."
+      ],
+      [
+        "Penicillin V",
+        "500 mg by mouth twice daily",
+        "10 days",
+        "Alternative first-line option. Equally effective against GAS. Narrow spectrum, which is preferred from an antibiotic stewardship standpoint."
+      ],
+      [
+        "Cephalexin",
+        "500 mg by mouth twice daily",
+        "10 days",
+        "Alternative for patients with non-anaphylactic penicillin allergy. Do not use if history of severe penicillin anaphylaxis."
+      ],
+      [
+        "Azithromycin (Z-pack)",
+        "500 mg day 1, then 250 mg days 2 through 5",
+        "5 days",
+        "Reserved for patients with true penicillin allergy including anaphylaxis history. Increasing GAS resistance to macrolides limits its use as a first-line agent."
+      ],
+      [
+        "Acetaminophen (Tylenol)",
+        "500 to 1000 mg by mouth every 6 to 8 hours as needed",
+        "As needed",
+        "For throat pain and fever. Do not exceed 3000 mg daily. Avoid if you have liver disease."
+      ],
+      [
+        "Ibuprofen (Advil, Motrin)",
+        "200 to 400 mg by mouth every 6 to 8 hours as needed",
+        "As needed",
+        "For throat pain, inflammation, and fever. Take with food. Avoid if you have kidney disease, GI bleeding history, or are on blood thinners."
+      ],
+      [
+        "Throat lozenges and warm salt water gargles",
+        "As directed on label or half teaspoon salt in 8 oz warm water",
+        "As needed",
+        "Provide temporary symptomatic relief. Not curative. Honey in warm water or tea may also soothe throat pain. Avoid honey in infants."
+      ]
     ],
     "note": "Medication selection is individualized based on strep probability, allergy history, and clinical judgment. Antibiotics are not indicated for viral pharyngitis and provide no benefit when the cause is not bacterial. TeleDirectMD does not prescribe controlled substances."
   },
-
   "homeCare": {
     "sectionTitle": "Home Care, Recovery Timeline, and Follow-up",
     "whatToDoNow": {
@@ -376,7 +494,6 @@
       ]
     }
   },
-
   "whenNotToUse": {
     "sectionTitle": "When Not to Use TeleDirectMD for Sore Throat in {state}",
     "intro": "TeleDirectMD is designed for non-severe adult sore throat evaluation and clinical triage. We are direct about when telehealth is not the right fit and when in-person evaluation is safer.",
@@ -397,13 +514,21 @@
     "alternatives": {
       "title": "Alternative Care Options",
       "items": [
-        { "label": "Emergency room:", "text": "difficulty breathing, stridor, drooling, trismus, severe neck swelling, or suspicion for peritonsillar abscess or epiglottitis" },
-        { "label": "Urgent care:", "text": "rapid strep testing on-site, moderate to severe symptoms, or when in-person exam is preferred for clinical decision-making" },
-        { "label": "Primary care or ENT:", "text": "recurrent sore throats, chronic pharyngitis, tonsillectomy evaluation, or persistent symptoms needing broader workup" }
+        {
+          "label": "Emergency room:",
+          "text": "difficulty breathing, stridor, drooling, trismus, severe neck swelling, or suspicion for peritonsillar abscess or epiglottitis"
+        },
+        {
+          "label": "Urgent care:",
+          "text": "rapid strep testing on-site, moderate to severe symptoms, or when in-person exam is preferred for clinical decision-making"
+        },
+        {
+          "label": "Primary care or ENT:",
+          "text": "recurrent sore throats, chronic pharyngitis, tonsillectomy evaluation, or persistent symptoms needing broader workup"
+        }
       ]
     }
   },
-
   "faq": {
     "sectionTitle": "Sore Throat Treatment FAQs for {state}",
     "items": [
@@ -453,14 +578,24 @@
       "text": "Insurance is not required. Adult-only video visits. MD-only care. Clinical strep risk assessment, evidence-based treatment, and honest triage when in-person testing is the better path."
     }
   },
-
   "references": [
-    { "text": "IDSA Clinical Practice Guideline for the Diagnosis and Management of Group A Streptococcal Pharyngitis (Shulman et al., 2012; reaffirmed 2025)", "url": "https://www.idsociety.org/practice-guideline/pharyngitis/" },
-    { "text": "CDC Clinical Guidance: Group A Streptococcal Pharyngitis (2025)", "url": "https://www.cdc.gov/group-a-strep/hcp/clinical-guidance/pharyngitis.html" },
-    { "text": "CDC Pharyngitis (Sore Throat): Information for Clinicians", "url": "https://www.cdc.gov/group-a-strep/hcp/clinical-guidance/index.html" },
-    { "text": "Centor RM et al. The Diagnosis of Strep Throat in Adults in the Emergency Room. Med Decis Making. 1981;1(3):239-246.", "url": "https://pubmed.ncbi.nlm.nih.gov/6763125/" }
+    {
+      "text": "IDSA Clinical Practice Guideline for the Diagnosis and Management of Group A Streptococcal Pharyngitis (Shulman et al., 2012; reaffirmed 2025)",
+      "url": "https://www.idsociety.org/practice-guideline/pharyngitis/"
+    },
+    {
+      "text": "CDC Clinical Guidance: Group A Streptococcal Pharyngitis (2025)",
+      "url": "https://www.cdc.gov/group-a-strep/hcp/clinical-guidance/pharyngitis.html"
+    },
+    {
+      "text": "CDC Pharyngitis (Sore Throat): Information for Clinicians",
+      "url": "https://www.cdc.gov/group-a-strep/hcp/clinical-guidance/index.html"
+    },
+    {
+      "text": "Centor RM et al. The Diagnosis of Strep Throat in Adults in the Emergency Room. Med Decis Making. 1981;1(3):239-246.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/6763125/"
+    }
   ],
-
   "disclaimer": {
     "sectionTitle": "TeleDirectMD Telehealth Disclaimer",
     "paragraphs": [
@@ -469,7 +604,6 @@
       "Online sore throat treatment in {state}. Strep throat evaluation online. Pharyngitis care by video visit."
     ]
   },
-
   "relatedConditions": [
     {
       "slug": "sinus-infection-treatment-online",
@@ -492,39 +626,88 @@
       "description": "Flu commonly causes sore throat alongside fever, body aches, and cough"
     }
   ],
-
   "inlineLinks": [
-    { "slug": "sinus-infection-treatment-online", "label": "Sinus Infection" },
-    { "slug": "influenza-treatment-online", "label": "Influenza" },
-    { "slug": "common-cold-treatment-online", "label": "Common Cold" },
-    { "slug": "ear-pain-treatment-online", "label": "Ear Pain" },
-    { "slug": "asthma-refills-online", "label": "Asthma Refills" },
-    { "slug": "uti-treatment-online", "label": "UTI" },
-    { "slug": "pink-eye-treatment-online", "label": "Pink Eye" },
-    { "slug": "covid-19-treatment-online", "label": "COVID-19" },
-    { "slug": "cold-sore-treatment-online", "label": "Cold Sore" },
-    { "slug": "seasonal-allergies-treatment-online", "label": "Seasonal Allergies" }
+    {
+      "slug": "sinus-infection-treatment-online",
+      "label": "Sinus Infection"
+    },
+    {
+      "slug": "influenza-treatment-online",
+      "label": "Influenza"
+    },
+    {
+      "slug": "common-cold-treatment-online",
+      "label": "Common Cold"
+    },
+    {
+      "slug": "ear-pain-treatment-online",
+      "label": "Ear Pain"
+    },
+    {
+      "slug": "asthma-refills-online",
+      "label": "Asthma Refills"
+    },
+    {
+      "slug": "uti-treatment-online",
+      "label": "UTI"
+    },
+    {
+      "slug": "pink-eye-treatment-online",
+      "label": "Pink Eye"
+    },
+    {
+      "slug": "covid-19-treatment-online",
+      "label": "COVID-19"
+    },
+    {
+      "slug": "cold-sore-treatment-online",
+      "label": "Cold Sore"
+    },
+    {
+      "slug": "seasonal-allergies-treatment-online",
+      "label": "Seasonal Allergies"
+    }
   ],
-
   "cityBlock": {
     "title": "Adults We Serve Across {state}",
     "text": "TeleDirectMD evaluates adults located throughout {state}, including {citiesExtended}. Whether you are searching for online sore throat treatment in {city1}, strep throat evaluation in {city2}, pharyngitis care in {city3}, or telehealth throat evaluation anywhere else in {state}, the same telehealth eligibility and safety rules apply."
   },
-
   "icd10Codes": [
-    { "code": "J02.9", "description": "Acute pharyngitis, unspecified" },
-    { "code": "J02.0", "description": "Streptococcal pharyngitis" },
-    { "code": "J31.2", "description": "Chronic pharyngitis" },
-    { "code": "J06.9", "description": "Acute upper respiratory infection, unspecified" }
+    {
+      "code": "J02.9",
+      "description": "Acute pharyngitis, unspecified"
+    },
+    {
+      "code": "J02.0",
+      "description": "Streptococcal pharyngitis"
+    },
+    {
+      "code": "J31.2",
+      "description": "Chronic pharyngitis"
+    },
+    {
+      "code": "J06.9",
+      "description": "Acute upper respiratory infection, unspecified"
+    }
   ],
-
   "jsonLd": {
     "conditionName": "Sore Throat",
-    "conditionAlternateNames": ["Pharyngitis", "Strep throat", "Throat infection", "Group A Strep pharyngitis"],
+    "conditionAlternateNames": [
+      "Pharyngitis",
+      "Strep throat",
+      "Throat infection",
+      "Group A Strep pharyngitis"
+    ],
     "conditionDescription": "A sore throat (pharyngitis) is inflammation of the pharynx causing throat pain and difficulty swallowing. Most adult cases are viral, but approximately 5 to 15 percent are caused by Group A Streptococcus. TeleDirectMD evaluates adult sore throat symptoms by video visit with Centor-based strep risk assessment, red-flag screening for dangerous conditions, and evidence-based treatment when clinically appropriate.",
     "primaryIcd10": "J02.9",
     "anatomy": "Pharynx",
-    "symptoms": ["Throat pain", "Difficulty swallowing", "Fever", "Tonsillar exudates", "Tender cervical lymph nodes"],
+    "symptoms": [
+      "Throat pain",
+      "Difficulty swallowing",
+      "Fever",
+      "Tonsillar exudates",
+      "Tender cervical lymph nodes"
+    ],
     "riskFactors": [
       "Close contact with strep-positive person",
       "Viral upper respiratory infection",
@@ -539,9 +722,18 @@
     ],
     "epidemiology": "Sore throat is one of the most common reasons adults seek medical care. Only about 5 to 15 percent of adult cases are caused by Group A Streptococcus.",
     "drugs": [
-      { "name": "Amoxicillin", "id": "amoxicillin" },
-      { "name": "Penicillin V", "id": "penicillin-v" },
-      { "name": "Azithromycin", "id": "azithromycin" }
+      {
+        "name": "Amoxicillin",
+        "id": "amoxicillin"
+      },
+      {
+        "name": "Penicillin V",
+        "id": "penicillin-v"
+      },
+      {
+        "name": "Azithromycin",
+        "id": "azithromycin"
+      }
     ],
     "treatments": [
       "Supportive care for viral pharyngitis",
@@ -553,10 +745,24 @@
       "Rapid antigen detection test for GAS (in-person)",
       "Throat culture for GAS (in-person)"
     ],
-    "specialties": ["Family Medicine", "Telemedicine", "Otolaryngology"],
+    "specialties": [
+      "Family Medicine",
+      "Telemedicine",
+      "Otolaryngology"
+    ],
     "guidelines": [
-      { "name": "IDSA Clinical Practice Guideline for the Diagnosis and Management of Group A Streptococcal Pharyngitis", "url": "https://www.idsociety.org/practice-guideline/pharyngitis/", "publisher": "Infectious Diseases Society of America", "id": "idsa-gas" },
-      { "name": "CDC Clinical Guidance: Group A Streptococcal Pharyngitis", "url": "https://www.cdc.gov/group-a-strep/hcp/clinical-guidance/pharyngitis.html", "publisher": "Centers for Disease Control and Prevention", "id": "cdc-gas" }
+      {
+        "name": "IDSA Clinical Practice Guideline for the Diagnosis and Management of Group A Streptococcal Pharyngitis",
+        "url": "https://www.idsociety.org/practice-guideline/pharyngitis/",
+        "publisher": "Infectious Diseases Society of America",
+        "id": "idsa-gas"
+      },
+      {
+        "name": "CDC Clinical Guidance: Group A Streptococcal Pharyngitis",
+        "url": "https://www.cdc.gov/group-a-strep/hcp/clinical-guidance/pharyngitis.html",
+        "publisher": "Centers for Disease Control and Prevention",
+        "id": "cdc-gas"
+      }
     ],
     "knowsAbout": [
       "Sore throat evaluation",
@@ -568,5 +774,7 @@
     ],
     "serviceDescription": "Secure video visit for {state} adults with sore throat symptoms, including Centor-based strep risk assessment, red-flag screening for dangerous conditions, and evidence-based treatment when clinically appropriate.",
     "webpageDescription": "{state} sore throat treatment by secure MD video visit for adults. Evidence-based pharyngitis evaluation, Centor-based strep risk scoring, antibiotic treatment when appropriate, and clear rules for when in-person testing or urgent care is needed."
-  }
+  },
+  "guidelineSource": "idsaStrep",
+  "conditionType": "treatment"
 }

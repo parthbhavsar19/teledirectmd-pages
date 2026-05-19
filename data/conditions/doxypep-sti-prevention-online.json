@@ -2,20 +2,34 @@
   "conditionName": "DoxyPEP STI Prevention",
   "conditionShort": "DoxyPEP",
   "conditionSlug": "doxypep-sti-prevention-online",
-  "pageTitle": "DoxyPEP Online in {state} | STI Prevention Prescription | TeleDirectMD",
+  "pageTitle": "DoxyPEP for STI Prevention Online in {state} | TeleDirectMD",
   "metaDescription": "Get a DoxyPEP prescription online in {state} by secure MD video visit. CDC-recommended doxycycline 200mg post-exposure prophylaxis for STI prevention in eligible adults. Risk assessment, standing prescription, STI screening guidance. Self pay option starting at $49. Insurance is not required.",
   "ogImageAlt": "DoxyPEP STI prevention prescription in {state} by TeleDirectMD",
-
   "hero": {
     "h1": "DoxyPEP Online in {state} (Doxycycline Post-Exposure Prophylaxis)",
     "subtitle": "{state} adult care by secure video visit, self pay option starting at $49, MD-only, insurance is not required.",
     "introParagraph": "DoxyPEP — doxycycline 200mg taken within 72 hours of condomless sex — is a CDC-recommended strategy for preventing bacterial sexually transmitted infections (STIs) including chlamydia, syphilis, and gonorrhea. Published in 2024, the CDC clinical guidelines on doxy-PEP recommend it as a preventive option for gay, bisexual, and other men who have sex with men (MSM) and transgender women who have had at least one bacterial STI in the past 12 months, or who engage in sexual activities that pose a high risk of STI acquisition. The landmark DoxyPEP randomized trial, published in the New England Journal of Medicine, found that doxycycline postexposure prophylaxis reduced the combined incidence of chlamydia, gonorrhea, and syphilis by approximately two thirds compared to standard care among MSM and transgender women. A TeleDirectMD video visit includes a risk assessment for STI exposure history, eligibility screening for doxy-PEP, and — when clinically appropriate — a standing doxycycline prescription for PRN use after condomless sex, along with counseling on proper timing (ideally within 24 hours, no later than 72 hours), STI screening recommendations, and a follow-up schedule. This page serves adults located in {state}, including {cities}.",
     "tocLinks": [
-      { "href": "eligibility-checklist", "label": "Eligibility checklist" },
-      { "href": "decision-guide", "label": "Decision guide" },
-      { "href": "treatment-options", "label": "Prevention approach" },
-      { "href": "faq", "label": "FAQs" },
-      { "href": "references", "label": "References" }
+      {
+        "href": "eligibility-checklist",
+        "label": "Eligibility checklist"
+      },
+      {
+        "href": "decision-guide",
+        "label": "Decision guide"
+      },
+      {
+        "href": "treatment-options",
+        "label": "Prevention approach"
+      },
+      {
+        "href": "faq",
+        "label": "FAQs"
+      },
+      {
+        "href": "references",
+        "label": "References"
+      }
     ],
     "benefits": [
       "Self pay option starting at $49",
@@ -35,7 +49,6 @@
     },
     "icd10Display": "Z29.8, Z20.2 (final coding depends on clinical details)"
   },
-
   "eligibility": {
     "sectionTitle": "DoxyPEP Telehealth Eligibility Checklist for {state}",
     "introText": "You are likely eligible for a TeleDirectMD video visit for doxy-PEP if ALL of these are true:",
@@ -59,7 +72,6 @@
     ],
     "notEligibleDisclaimer": "If you have active STI symptoms, seek in-person STI testing and treatment. DoxyPEP is a preventive strategy for people without current STI symptoms. TeleDirectMD is not an emergency service."
   },
-
   "howItWorks": {
     "sectionTitle": "How Online DoxyPEP Prescription Works in {state}",
     "steps": [
@@ -81,7 +93,6 @@
       }
     ]
   },
-
   "telehealthRegulations": {
     "sectionTitle": "{state} Telehealth Regulations for Online DoxyPEP Prescription",
     "paragraphs": [
@@ -89,7 +100,6 @@
       "Location matters: you must be physically in {state} during the visit. Insurance is not required. TeleDirectMD does not prescribe controlled substances. Doxycycline is not a controlled substance."
     ]
   },
-
   "comparisonTable": {
     "sectionTitle": "TeleDirectMD vs Other Care Options for DoxyPEP in {state}",
     "intro": "Here is how TeleDirectMD compares to common settings for obtaining a doxy-PEP prescription in {state}:",
@@ -137,7 +147,6 @@
     ],
     "bottomLine": "TeleDirectMD is a strong fit for eligible adults who want a fast, affordable doxy-PEP evaluation and standing prescription from a board-certified MD, without needing to visit a clinic. Active STI symptoms or HIV PrEP initiation belong in a clinic or primary care setting."
   },
-
   "decisionGuide": {
     "sectionTitle": "Should I Use TeleDirectMD for DoxyPEP in {state}? Decision Guide",
     "steps": [
@@ -183,7 +192,6 @@
       }
     ]
   },
-
   "pricing": {
     "sectionTitle": "What Does a DoxyPEP Prescription Visit Cost in {state}?",
     "subtitle": "Transparent options. Insurance is not required.",
@@ -197,15 +205,34 @@
       "Clear follow-up schedule and instructions on when to seek in-person care"
     ],
     "comparisonBars": [
-      { "name": "TeleDirectMD", "value": "$49", "width": 12, "isTdmd": true },
-      { "name": "Primary Care", "value": "$100 to $350+", "width": 52, "isTdmd": false },
-      { "name": "Urgent Care", "value": "$150 to $300+", "width": 60, "isTdmd": false },
-      { "name": "Emergency Room", "value": "$500 to $3,000+", "width": 100, "isTdmd": false }
+      {
+        "name": "TeleDirectMD",
+        "value": "$49",
+        "width": 12,
+        "isTdmd": true
+      },
+      {
+        "name": "Primary Care",
+        "value": "$100 to $350+",
+        "width": 52,
+        "isTdmd": false
+      },
+      {
+        "name": "Urgent Care",
+        "value": "$150 to $300+",
+        "width": 60,
+        "isTdmd": false
+      },
+      {
+        "name": "Emergency Room",
+        "value": "$500 to $3,000+",
+        "width": 100,
+        "isTdmd": false
+      }
     ],
     "footnote": "Prescription costs at your pharmacy are separate and vary by medication and pharmacy. Doxycycline is widely available as a low-cost generic. STI testing costs are separate and depend on your lab or clinic.",
     "noHiddenFees": "No hidden fees. If doxy-PEP is not clinically appropriate for your situation, you still receive a complete evaluation, guidance on STI prevention alternatives, and clear instructions on the right level of care for you."
   },
-
   "whatIsCondition": {
     "sectionTitle": "What Is DoxyPEP?",
     "paragraphs": [
@@ -214,37 +241,97 @@
       "TeleDirectMD can prescribe doxycycline for DoxyPEP as a standing PRN prescription for eligible adults in {state}. The visit includes a CDC-recommended risk assessment, review of STI history, allergy and medication screening, counseling on proper timing and dosing, and a follow-up plan including STI testing every 3 to 6 months. DoxyPEP is a preventive service — if you have active STI symptoms, you need testing and treatment, which TeleDirectMD handles through separate STI treatment visits."
     ]
   },
-
   "causesAndRiskFactors": {
     "sectionTitle": "Who Is DoxyPEP For? Risk Factors and Indications",
     "intro": "DoxyPEP is not for everyone. The CDC recommends it for specific populations at substantial risk for bacterial STIs based on rigorous clinical trial evidence. Understanding who benefits most helps guide appropriate prescribing.",
     "items": [
-      { "label": "MSM with recent STI:", "text": "gay, bisexual, and other men who have sex with men who have had at least one bacterial STI (chlamydia, gonorrhea, or syphilis) in the past 12 months — this is the core CDC-recommended population, based directly on trial enrollment criteria" },
-      { "label": "Transgender women at elevated STI risk:", "text": "transgender women who have sex with men and have a history of bacterial STI in the past year, or who engage in condomless sex that poses a substantial risk of STI acquisition" },
-      { "label": "High-frequency condomless sex:", "text": "individuals engaging in frequent condomless anal or vaginal sex with multiple partners, particularly in sexual networks where bacterial STI prevalence is high" },
-      { "label": "On HIV PrEP:", "text": "MSM and transgender women taking HIV pre-exposure prophylaxis (PrEP) represent a high-priority population for doxy-PEP, as both trials enrolled PrEP users — the combination of HIV PrEP and doxy-PEP is a comprehensive prevention approach" },
-      { "label": "Living with HIV:", "text": "MSM and transgender women living with HIV who have recent bacterial STI history also benefit from doxy-PEP; the DoxyPEP trial included a PLWH cohort that showed a 62% reduction in STI incidence" },
-      { "label": "Cisgender women — insufficient evidence:", "text": "the dPEP Kenya trial, the first trial of doxy-PEP in cisgender women, found no significant reduction in chlamydia or gonorrhea, likely due to low medication adherence and very high gonorrhea resistance in Kenya. Current CDC guidance does not recommend doxy-PEP for cisgender women; evidence is insufficient" }
+      {
+        "label": "MSM with recent STI:",
+        "text": "gay, bisexual, and other men who have sex with men who have had at least one bacterial STI (chlamydia, gonorrhea, or syphilis) in the past 12 months — this is the core CDC-recommended population, based directly on trial enrollment criteria"
+      },
+      {
+        "label": "Transgender women at elevated STI risk:",
+        "text": "transgender women who have sex with men and have a history of bacterial STI in the past year, or who engage in condomless sex that poses a substantial risk of STI acquisition"
+      },
+      {
+        "label": "High-frequency condomless sex:",
+        "text": "individuals engaging in frequent condomless anal or vaginal sex with multiple partners, particularly in sexual networks where bacterial STI prevalence is high"
+      },
+      {
+        "label": "On HIV PrEP:",
+        "text": "MSM and transgender women taking HIV pre-exposure prophylaxis (PrEP) represent a high-priority population for doxy-PEP, as both trials enrolled PrEP users — the combination of HIV PrEP and doxy-PEP is a comprehensive prevention approach"
+      },
+      {
+        "label": "Living with HIV:",
+        "text": "MSM and transgender women living with HIV who have recent bacterial STI history also benefit from doxy-PEP; the DoxyPEP trial included a PLWH cohort that showed a 62% reduction in STI incidence"
+      },
+      {
+        "label": "Cisgender women — insufficient evidence:",
+        "text": "the dPEP Kenya trial, the first trial of doxy-PEP in cisgender women, found no significant reduction in chlamydia or gonorrhea, likely due to low medication adherence and very high gonorrhea resistance in Kenya. Current CDC guidance does not recommend doxy-PEP for cisgender women; evidence is insufficient"
+      }
     ],
     "closing": "Antibiotic stewardship is a key consideration with doxy-PEP. All clinical trials have found increased tetracycline resistance in gonorrhea isolates from doxy-PEP users compared to controls. While tetracycline is not currently used to treat gonorrhea, cross-resistance concerns are under active surveillance. The CDC recommends targeting doxy-PEP to high-risk individuals, implementing regular STI testing, and monitoring antimicrobial resistance patterns as part of responsible prescribing."
   },
-
   "symptomsAndRedFlags": {
     "sectionTitle": "DoxyPEP: Appropriate Situations vs Red Flags in {state}",
     "intro": "DoxyPEP is for STI prevention after potential exposure, not for treating active infections. Use this table to determine whether a telehealth doxy-PEP visit is appropriate or whether you need in-person evaluation.",
-    "headers": ["Situation", "What it suggests", "Telehealth appropriate for doxy-PEP?", "Red flag requiring different care"],
+    "headers": [
+      "Situation",
+      "What it suggests",
+      "Telehealth appropriate for doxy-PEP?",
+      "Red flag requiring different care"
+    ],
     "rows": [
-      ["Recent condomless sex with male partner, no current symptoms, MSM or transgender woman with prior STI in past year", "High-risk exposure — CDC-eligible for doxy-PEP evaluation", "Yes", "No — proceed with telehealth eligibility visit"],
-      ["Recent condomless sex, no symptoms, wanting to start doxy-PEP preventively", "Preventive STI risk assessment", "Yes, for eligible MSM and transgender women", "Not appropriate for cisgender women per current evidence"],
-      ["Genital ulcer, sore, or blister after sexual exposure", "Possible syphilis, herpes, or chancroid — active infection", "No", "In-person STI testing and treatment needed — not a doxy-PEP visit"],
-      ["Unusual genital discharge or burning with urination after sexual exposure", "Possible gonorrhea, chlamydia, or NGU — active infection", "No", "In-person STI testing and treatment; telehealth STI treatment visit may be appropriate after positive test"],
-      ["Widespread rash, especially palms and soles, after sexual exposure", "Possible secondary syphilis — active systemic infection", "No", "In-person evaluation urgently; secondary syphilis may require benzathine penicillin injection"],
-      ["Fever, pelvic pain, or joint pain after sexual exposure", "Possible PID, disseminated gonorrhea, or reactive arthritis", "No", "Urgent in-person evaluation — may need IV antibiotics or injection therapy"],
-      ["On doxy-PEP, now with new STI symptoms", "Breakthrough infection or doxy-PEP failure", "Sometimes — telehealth STI treatment visit appropriate with positive test result", "In-person if systemic symptoms, severe pain, or if injection therapy is needed"],
-      ["Taking doxy-PEP, nausea or GI side effects", "Common doxycycline side effects", "Yes — counseling and management", "Severe skin reaction or hives after doxycycline — stop and seek urgent care for possible allergy"]
+      [
+        "Recent condomless sex with male partner, no current symptoms, MSM or transgender woman with prior STI in past year",
+        "High-risk exposure — CDC-eligible for doxy-PEP evaluation",
+        "Yes",
+        "No — proceed with telehealth eligibility visit"
+      ],
+      [
+        "Recent condomless sex, no symptoms, wanting to start doxy-PEP preventively",
+        "Preventive STI risk assessment",
+        "Yes, for eligible MSM and transgender women",
+        "Not appropriate for cisgender women per current evidence"
+      ],
+      [
+        "Genital ulcer, sore, or blister after sexual exposure",
+        "Possible syphilis, herpes, or chancroid — active infection",
+        "No",
+        "In-person STI testing and treatment needed — not a doxy-PEP visit"
+      ],
+      [
+        "Unusual genital discharge or burning with urination after sexual exposure",
+        "Possible gonorrhea, chlamydia, or NGU — active infection",
+        "No",
+        "In-person STI testing and treatment; telehealth STI treatment visit may be appropriate after positive test"
+      ],
+      [
+        "Widespread rash, especially palms and soles, after sexual exposure",
+        "Possible secondary syphilis — active systemic infection",
+        "No",
+        "In-person evaluation urgently; secondary syphilis may require benzathine penicillin injection"
+      ],
+      [
+        "Fever, pelvic pain, or joint pain after sexual exposure",
+        "Possible PID, disseminated gonorrhea, or reactive arthritis",
+        "No",
+        "Urgent in-person evaluation — may need IV antibiotics or injection therapy"
+      ],
+      [
+        "On doxy-PEP, now with new STI symptoms",
+        "Breakthrough infection or doxy-PEP failure",
+        "Sometimes — telehealth STI treatment visit appropriate with positive test result",
+        "In-person if systemic symptoms, severe pain, or if injection therapy is needed"
+      ],
+      [
+        "Taking doxy-PEP, nausea or GI side effects",
+        "Common doxycycline side effects",
+        "Yes — counseling and management",
+        "Severe skin reaction or hives after doxycycline — stop and seek urgent care for possible allergy"
+      ]
     ]
   },
-
   "differentialDiagnosis": {
     "sectionTitle": "DoxyPEP vs Other STI Prevention and Treatment Approaches",
     "intro": "Several services overlap with doxy-PEP counseling. Understanding what TeleDirectMD can and cannot do helps patients find the right level of care.",
@@ -285,7 +372,6 @@
     ],
     "closing": "If active STI symptoms, HIV exposure risk, or pregnancy are present, TeleDirectMD will direct you to the appropriate level of in-person or specialized care. Doxy-PEP is one tool in a comprehensive sexual health prevention strategy."
   },
-
   "telehealthEligibility": {
     "sectionTitle": "When Is a Video Visit Appropriate for DoxyPEP?",
     "appropriate": {
@@ -314,7 +400,6 @@
       "disclaimer": "If any red-flag conditions are present, seek in-person STI care or emergency care as appropriate. TeleDirectMD is not an emergency service. For potential HIV exposure, contact an emergency department, HIV clinic, or urgent care immediately — HIV PEP must be started within 72 hours."
     }
   },
-
   "treatmentOptions": {
     "sectionTitle": "The DoxyPEP Prevention Approach",
     "intro": "The 2024 CDC clinical guidelines on doxy-PEP recommend doxycycline 200mg (two 100mg tablets taken together) as a single dose, self-administered as soon as possible within 72 hours of oral, vaginal, or anal sex — ideally within 24 hours for maximum efficacy. The prescription is standing and PRN (taken as needed based on sexual activity), not daily. The maximum dose is 200mg per 24-hour period. Doxy-PEP is prescribed as part of a comprehensive sexual health approach including regular STI testing, HIV screening, prevention counseling, and follow-up every 3 to 6 months.",
@@ -345,19 +430,37 @@
       "Severe antibiotic allergies or complex drug interactions requiring in-person evaluation"
     ]
   },
-
   "medications": {
     "sectionTitle": "DoxyPEP Medication Details",
     "intro": "Doxycycline is the only medication used for doxy-PEP. It is available as a low-cost generic in multiple formulations. The MD will determine the appropriate formulation and supply based on the individual clinical situation.",
-    "headers": ["Option", "Typical dose", "Timing", "Key considerations"],
+    "headers": [
+      "Option",
+      "Typical dose",
+      "Timing",
+      "Key considerations"
+    ],
     "rows": [
-      ["Doxycycline hyclate 100mg tablets (most common)", "Two 100mg tablets (200mg total) taken together as a single dose", "As soon as possible within 72 hours after condomless sex; ideally within 24 hours. Maximum one 200mg dose per 24-hour period.", "Most widely available and lowest-cost formulation. Take with a full glass of water and food to reduce nausea. Do not lie down for 1 hour after. Avoid dairy products, antacids, iron, calcium, or magnesium supplements within 2 hours of taking the dose. Avoid sun exposure — doxycycline causes photosensitivity; use sunscreen."],
-      ["Doxycycline monohydrate 100mg tablets", "Two 100mg tablets (200mg total) taken together as a single dose", "As soon as possible within 72 hours after condomless sex; ideally within 24 hours. Maximum one 200mg dose per 24-hour period.", "Monohydrate formulation may cause less GI upset than hyclate formulation in some patients. Take with food and water. Same photosensitivity precautions apply."],
-      ["Doxycycline hyclate delayed-release 100mg tablets (e.g., Doryx)", "Two 100mg tablets (200mg total) taken together as a single dose", "As soon as possible within 72 hours after condomless sex; ideally within 24 hours. Maximum one 200mg dose per 24-hour period.", "Delayed-release formulation used in the U.S. DoxyPEP randomized trial. May have fewer GI side effects. Typically more expensive than immediate-release generic. Same drug interactions and photosensitivity precautions apply."]
+      [
+        "Doxycycline hyclate 100mg tablets (most common)",
+        "Two 100mg tablets (200mg total) taken together as a single dose",
+        "As soon as possible within 72 hours after condomless sex; ideally within 24 hours. Maximum one 200mg dose per 24-hour period.",
+        "Most widely available and lowest-cost formulation. Take with a full glass of water and food to reduce nausea. Do not lie down for 1 hour after. Avoid dairy products, antacids, iron, calcium, or magnesium supplements within 2 hours of taking the dose. Avoid sun exposure — doxycycline causes photosensitivity; use sunscreen."
+      ],
+      [
+        "Doxycycline monohydrate 100mg tablets",
+        "Two 100mg tablets (200mg total) taken together as a single dose",
+        "As soon as possible within 72 hours after condomless sex; ideally within 24 hours. Maximum one 200mg dose per 24-hour period.",
+        "Monohydrate formulation may cause less GI upset than hyclate formulation in some patients. Take with food and water. Same photosensitivity precautions apply."
+      ],
+      [
+        "Doxycycline hyclate delayed-release 100mg tablets (e.g., Doryx)",
+        "Two 100mg tablets (200mg total) taken together as a single dose",
+        "As soon as possible within 72 hours after condomless sex; ideally within 24 hours. Maximum one 200mg dose per 24-hour period.",
+        "Delayed-release formulation used in the U.S. DoxyPEP randomized trial. May have fewer GI side effects. Typically more expensive than immediate-release generic. Same drug interactions and photosensitivity precautions apply."
+      ]
     ],
     "note": "These are the formulations used for doxy-PEP. The actual formulation and supply dispensed are determined by the MD at the visit. Doxycycline is widely available as a low-cost generic at most pharmacies. This is a PRN (as-needed) prescription taken after condomless sex — not a daily medication. Do not take more than 200mg in any 24-hour period. Avoid doxycycline if you are pregnant, breastfeeding, or have a known allergy to tetracyclines. Avoid concurrent use with isotretinoin (increased intracranial pressure risk), antacids, iron supplements, or dairy products within 2 hours of a dose. TeleDirectMD does not prescribe controlled substances."
   },
-
   "homeCare": {
     "sectionTitle": "Using DoxyPEP Correctly: Timing, Side Effects, and Follow-up",
     "whatToDoNow": {
@@ -394,7 +497,6 @@
       ]
     }
   },
-
   "whenNotToUse": {
     "sectionTitle": "When Not to Use TeleDirectMD for DoxyPEP in {state}",
     "intro": "TeleDirectMD is designed for selected preventive care only. We are direct about when telehealth is not the right fit for doxy-PEP.",
@@ -415,14 +517,25 @@
     "alternatives": {
       "title": "Alternative Care Options",
       "items": [
-        { "label": "Emergency room or urgent care (for HIV PEP):", "text": "if you had a potential HIV exposure within the past 72 hours and need HIV PEP, go to an emergency room or call an HIV PEP hotline immediately — antiretroviral therapy must be started within 72 hours" },
-        { "label": "STI clinic or urgent care (for active symptoms):", "text": "if you have current STI symptoms, go to an STI clinic, Planned Parenthood, county health department, or urgent care for in-person testing and treatment in one visit" },
-        { "label": "Primary care or HIV clinic (for HIV PrEP):", "text": "HIV PrEP initiation and ongoing management — including baseline labs, HIV testing, and kidney function monitoring — should be managed by a primary care provider or HIV clinic" },
-        { "label": "Sexual health clinic:", "text": "cisgender women seeking STI prevention counseling, or patients who need comprehensive sexual health services including doxy-PEP co-located with testing and HIV PrEP management" }
+        {
+          "label": "Emergency room or urgent care (for HIV PEP):",
+          "text": "if you had a potential HIV exposure within the past 72 hours and need HIV PEP, go to an emergency room or call an HIV PEP hotline immediately — antiretroviral therapy must be started within 72 hours"
+        },
+        {
+          "label": "STI clinic or urgent care (for active symptoms):",
+          "text": "if you have current STI symptoms, go to an STI clinic, Planned Parenthood, county health department, or urgent care for in-person testing and treatment in one visit"
+        },
+        {
+          "label": "Primary care or HIV clinic (for HIV PrEP):",
+          "text": "HIV PrEP initiation and ongoing management — including baseline labs, HIV testing, and kidney function monitoring — should be managed by a primary care provider or HIV clinic"
+        },
+        {
+          "label": "Sexual health clinic:",
+          "text": "cisgender women seeking STI prevention counseling, or patients who need comprehensive sexual health services including doxy-PEP co-located with testing and HIV PrEP management"
+        }
       ]
     }
   },
-
   "faq": {
     "sectionTitle": "DoxyPEP FAQs for {state}",
     "items": [
@@ -480,16 +593,32 @@
       "text": "Insurance is not required. Adult-only video visits. MD-only care. CDC-recommended doxy-PEP risk assessment and standing prescription when clinically appropriate, with safety-first eligibility screening."
     }
   },
-
   "references": [
-    { "text": "CDC Clinical Guidelines on the Use of Doxycycline Postexposure Prophylaxis for Bacterial STI Prevention, United States, 2024 (MMWR, June 6, 2024)", "url": "https://www.cdc.gov/mmwr/volumes/73/rr/rr7302a1.htm" },
-    { "text": "CDC Doxy-PEP for Bacterial STI Prevention — Healthcare Provider Overview", "url": "https://www.cdc.gov/sti/hcp/doxy-pep/index.html" },
-    { "text": "Luetkemeyer AF et al. Postexposure Doxycycline to Prevent Bacterial Sexually Transmitted Infections. N Engl J Med. 2023;388:1296-1306.", "url": "https://www.nejm.org/doi/10.1056/NEJMoa2211934" },
-    { "text": "Molina JM et al. Doxycycline prophylaxis and meningococcal group B vaccine to prevent bacterial STIs and gonorrhoea in MSM on PrEP (ANRS 174 DOXYVAC). Lancet Infect Dis. 2024.", "url": "https://pubmed.ncbi.nlm.nih.gov/38797183/" },
-    { "text": "NYSDOH AIDS Institute Clinical Guidelines: Doxycycline Post-Exposure Prophylaxis to Prevent Bacterial Sexually Transmitted Infections (NCBI Bookshelf, 2024)", "url": "https://www.ncbi.nlm.nih.gov/books/NBK597440/" },
-    { "text": "Doxycycline Hyclate — StatPearls (including DoxyPEP CDC recommendation)", "url": "https://www.ncbi.nlm.nih.gov/books/NBK555888/" }
+    {
+      "text": "CDC Clinical Guidelines on the Use of Doxycycline Postexposure Prophylaxis for Bacterial STI Prevention, United States, 2024 (MMWR, June 6, 2024)",
+      "url": "https://www.cdc.gov/mmwr/volumes/73/rr/rr7302a1.htm"
+    },
+    {
+      "text": "CDC Doxy-PEP for Bacterial STI Prevention — Healthcare Provider Overview",
+      "url": "https://www.cdc.gov/sti/hcp/doxy-pep/index.html"
+    },
+    {
+      "text": "Luetkemeyer AF et al. Postexposure Doxycycline to Prevent Bacterial Sexually Transmitted Infections. N Engl J Med. 2023;388:1296-1306.",
+      "url": "https://www.nejm.org/doi/10.1056/NEJMoa2211934"
+    },
+    {
+      "text": "Molina JM et al. Doxycycline prophylaxis and meningococcal group B vaccine to prevent bacterial STIs and gonorrhoea in MSM on PrEP (ANRS 174 DOXYVAC). Lancet Infect Dis. 2024.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38797183/"
+    },
+    {
+      "text": "NYSDOH AIDS Institute Clinical Guidelines: Doxycycline Post-Exposure Prophylaxis to Prevent Bacterial Sexually Transmitted Infections (NCBI Bookshelf, 2024)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK597440/"
+    },
+    {
+      "text": "Doxycycline Hyclate — StatPearls (including DoxyPEP CDC recommendation)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK555888/"
+    }
   ],
-
   "disclaimer": {
     "sectionTitle": "TeleDirectMD Telehealth Disclaimer",
     "paragraphs": [
@@ -498,7 +627,6 @@
       "DoxyPEP prescription online in {state}. Doxycycline post-exposure prophylaxis online. STI prevention prescription by video visit. Online doxy-PEP for MSM. DoxyPEP telehealth in {state}."
     ]
   },
-
   "relatedConditions": [
     {
       "slug": "chlamydia-treatment-online",
@@ -526,37 +654,79 @@
       "description": "HPV (human papillomavirus) causing genital warts is not prevented by doxy-PEP; HPV vaccination for eligible adults is a recommended component of comprehensive sexual health for MSM"
     }
   ],
-
   "inlineLinks": [
-    { "slug": "chlamydia-treatment-online", "label": "Chlamydia Treatment" },
-    { "slug": "trichomoniasis-treatment-online", "label": "Trichomoniasis Treatment" },
-    { "slug": "genital-herpes-treatment-online", "label": "Genital Herpes Treatment" },
-    { "slug": "mycoplasma-genitalium-treatment-online", "label": "Mycoplasma Genitalium" },
-    { "slug": "genital-warts-treatment-online", "label": "Genital Warts" },
-    { "slug": "sinus-infection-treatment-online", "label": "Sinus Infection" },
-    { "slug": "uti-treatment-online", "label": "UTI Treatment" },
-    { "slug": "cold-sore-treatment-online", "label": "Cold Sore Treatment" },
-    { "slug": "pink-eye-treatment-online", "label": "Pink Eye Treatment" },
-    { "slug": "acne-treatment-online", "label": "Acne Treatment" }
+    {
+      "slug": "chlamydia-treatment-online",
+      "label": "Chlamydia Treatment"
+    },
+    {
+      "slug": "trichomoniasis-treatment-online",
+      "label": "Trichomoniasis Treatment"
+    },
+    {
+      "slug": "genital-herpes-treatment-online",
+      "label": "Genital Herpes Treatment"
+    },
+    {
+      "slug": "mycoplasma-genitalium-treatment-online",
+      "label": "Mycoplasma Genitalium"
+    },
+    {
+      "slug": "genital-warts-treatment-online",
+      "label": "Genital Warts"
+    },
+    {
+      "slug": "sinus-infection-treatment-online",
+      "label": "Sinus Infection"
+    },
+    {
+      "slug": "uti-treatment-online",
+      "label": "UTI Treatment"
+    },
+    {
+      "slug": "cold-sore-treatment-online",
+      "label": "Cold Sore Treatment"
+    },
+    {
+      "slug": "pink-eye-treatment-online",
+      "label": "Pink Eye Treatment"
+    },
+    {
+      "slug": "acne-treatment-online",
+      "label": "Acne Treatment"
+    }
   ],
-
   "cityBlock": {
     "title": "Adults We Serve Across {state}",
     "text": "TeleDirectMD evaluates adults located throughout {state}, including {citiesExtended}. Whether you are searching for a DoxyPEP prescription online in {city1}, doxy-PEP for STI prevention in {city2}, or online doxycycline post-exposure prophylaxis in {city3} or anywhere else in {state}, the same telehealth eligibility and safety rules apply."
   },
-
   "icd10Codes": [
-    { "code": "Z29.8", "description": "Encounter for other specified prophylactic measures (doxycycline post-exposure prophylaxis for STI prevention)" },
-    { "code": "Z20.2", "description": "Contact with and (suspected) exposure to infections with a predominantly sexual mode of transmission" }
+    {
+      "code": "Z29.8",
+      "description": "Encounter for other specified prophylactic measures (doxycycline post-exposure prophylaxis for STI prevention)"
+    },
+    {
+      "code": "Z20.2",
+      "description": "Contact with and (suspected) exposure to infections with a predominantly sexual mode of transmission"
+    }
   ],
-
   "jsonLd": {
     "conditionName": "Doxycycline Post-Exposure Prophylaxis for STI Prevention (DoxyPEP)",
-    "conditionAlternateNames": ["DoxyPEP", "Doxy-PEP", "Doxycycline PEP", "Doxycycline post-exposure prophylaxis", "STI post-exposure prophylaxis"],
+    "conditionAlternateNames": [
+      "DoxyPEP",
+      "Doxy-PEP",
+      "Doxycycline PEP",
+      "Doxycycline post-exposure prophylaxis",
+      "STI post-exposure prophylaxis"
+    ],
     "conditionDescription": "DoxyPEP (doxycycline post-exposure prophylaxis) is the CDC-recommended strategy of taking doxycycline 200mg within 72 hours of condomless sex to prevent bacterial sexually transmitted infections including chlamydia, syphilis, and gonorrhea. TeleDirectMD provides video visits for eligible MSM and transgender women in {state} for doxy-PEP risk assessment, standing doxycycline prescriptions, STI screening recommendations, and comprehensive follow-up counseling per 2024 CDC clinical guidelines.",
     "primaryIcd10": "Z29.8",
     "anatomy": "Genitourinary tract and systemic (bacterial STI prevention)",
-    "symptoms": ["No current symptoms (preventive strategy)", "History of bacterial STI in past 12 months", "Condomless sex with male partners posing substantial STI risk"],
+    "symptoms": [
+      "No current symptoms (preventive strategy)",
+      "History of bacterial STI in past 12 months",
+      "Condomless sex with male partners posing substantial STI risk"
+    ],
     "riskFactors": [
       "Gay, bisexual, or other men who have sex with men (MSM)",
       "Transgender women who have sex with men",
@@ -574,9 +744,18 @@
     ],
     "epidemiology": "Bacterial STI rates — chlamydia, gonorrhea, and syphilis — have risen significantly in the United States, with MSM disproportionately affected. The CDC issued clinical guidelines for doxy-PEP in June 2024 based on multiple randomized controlled trials showing up to two-thirds reduction in combined STI incidence in MSM and transgender women.",
     "drugs": [
-      { "name": "Doxycycline hyclate 100mg tablets", "id": "doxycycline-hyclate" },
-      { "name": "Doxycycline monohydrate 100mg tablets", "id": "doxycycline-monohydrate" },
-      { "name": "Doxycycline hyclate delayed-release 100mg tablets", "id": "doxycycline-delayed-release" }
+      {
+        "name": "Doxycycline hyclate 100mg tablets",
+        "id": "doxycycline-hyclate"
+      },
+      {
+        "name": "Doxycycline monohydrate 100mg tablets",
+        "id": "doxycycline-monohydrate"
+      },
+      {
+        "name": "Doxycycline hyclate delayed-release 100mg tablets",
+        "id": "doxycycline-delayed-release"
+      }
     ],
     "treatments": [
       "Doxycycline 200mg (two 100mg tablets) as single PRN dose within 72 hours after condomless sex — maximum 200mg per 24-hour period",
@@ -590,11 +769,31 @@
       "STI risk history and sexual activity assessment",
       "Medication and allergy review for contraindications"
     ],
-    "specialties": ["Family Medicine", "Telemedicine", "Infectious Disease", "Sexual Health"],
+    "specialties": [
+      "Family Medicine",
+      "Telemedicine",
+      "Infectious Disease",
+      "Sexual Health"
+    ],
     "guidelines": [
-      { "name": "CDC Clinical Guidelines on the Use of Doxycycline Postexposure Prophylaxis for Bacterial STI Prevention, United States, 2024", "url": "https://www.cdc.gov/mmwr/volumes/73/rr/rr7302a1.htm", "publisher": "Centers for Disease Control and Prevention", "id": "cdc-doxypep-2024" },
-      { "name": "CDC Doxy-PEP for Bacterial STI Prevention — HCP Overview", "url": "https://www.cdc.gov/sti/hcp/doxy-pep/index.html", "publisher": "Centers for Disease Control and Prevention", "id": "cdc-doxypep-hcp" },
-      { "name": "NYSDOH AIDS Institute Clinical Guidelines: Doxycycline Post-Exposure Prophylaxis to Prevent Bacterial STIs", "url": "https://www.ncbi.nlm.nih.gov/books/NBK597440/", "publisher": "New York State Department of Health AIDS Institute", "id": "nysdoh-doxypep" }
+      {
+        "name": "CDC Clinical Guidelines on the Use of Doxycycline Postexposure Prophylaxis for Bacterial STI Prevention, United States, 2024",
+        "url": "https://www.cdc.gov/mmwr/volumes/73/rr/rr7302a1.htm",
+        "publisher": "Centers for Disease Control and Prevention",
+        "id": "cdc-doxypep-2024"
+      },
+      {
+        "name": "CDC Doxy-PEP for Bacterial STI Prevention — HCP Overview",
+        "url": "https://www.cdc.gov/sti/hcp/doxy-pep/index.html",
+        "publisher": "Centers for Disease Control and Prevention",
+        "id": "cdc-doxypep-hcp"
+      },
+      {
+        "name": "NYSDOH AIDS Institute Clinical Guidelines: Doxycycline Post-Exposure Prophylaxis to Prevent Bacterial STIs",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK597440/",
+        "publisher": "New York State Department of Health AIDS Institute",
+        "id": "nysdoh-doxypep"
+      }
     ],
     "knowsAbout": [
       "DoxyPEP prescribing",
@@ -611,5 +810,7 @@
     ],
     "serviceDescription": "Secure video visit for {state} adults seeking doxy-PEP (doxycycline post-exposure prophylaxis) for bacterial STI prevention, including CDC-recommended eligibility assessment, standing doxycycline prescription when clinically appropriate, STI screening recommendations, and follow-up counseling.",
     "webpageDescription": "{state} DoxyPEP prescription by secure MD video visit for eligible adults. CDC 2024 guideline-based risk assessment, doxycycline 200mg standing PRN prescription for MSM and transgender women, antibiotic stewardship counseling, STI testing schedule, and clear rules for when in-person care is needed."
-  }
+  },
+  "guidelineSource": "cdcDoxypep",
+  "conditionType": "prevention"
 }

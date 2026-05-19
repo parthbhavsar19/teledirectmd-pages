@@ -2,20 +2,34 @@
   "conditionName": "Asthma Refills",
   "conditionShort": "asthma",
   "conditionSlug": "asthma-refills-online",
-  "pageTitle": "Asthma Refills Online in {state} | Inhaler Refill MD Video Visit | TeleDirectMD",
+  "pageTitle": "Asthma Online Refills in {state} | TeleDirectMD",
   "metaDescription": "Fast, evidence-based asthma refill care for {state} adults by secure video visit. Red-flag screening, inhaler refill evaluation, and short bridge prescriptions when appropriate. Self pay option starting at $49. Insurance is not required.",
   "ogImageAlt": "Asthma refills in {state} by TeleDirectMD",
-
   "hero": {
     "h1": "Asthma Refills in {state} (Inhaler Refill Care)",
     "subtitle": "{state} adult care by secure video visit, self pay option starting at $49, MD-only, insurance is not required.",
     "introParagraph": "Adults often search for online asthma refills when they are running low on a rescue inhaler, controller inhaler, or both, but not every refill request is safe to handle as routine telehealth. Evidence-based asthma guidance emphasizes that inhaled corticosteroid treatment remains important in adults with asthma, and GINA advises not completely stopping ICS in adults or adolescents with asthma once treatment is being stepped down. TeleDirectMD uses a safety-first telemedicine approach by reviewing your current inhalers, frequency of symptoms, nighttime symptoms, recent exacerbations, urgent care or ER visits, oral steroid use, and whether this sounds like a stable refill request or poorly controlled asthma needing escalation. If the history supports a lower-risk bridge refill request, treatment may be reasonable by video, while adults with active exacerbation signs or unstable asthma are directed to urgent in-person care. This page is for adults located in {state}, including {cities}.",
     "tocLinks": [
-      { "href": "eligibility-checklist", "label": "Eligibility checklist" },
-      { "href": "decision-guide", "label": "Decision guide" },
-      { "href": "treatment-options", "label": "Treatment options" },
-      { "href": "faq", "label": "FAQs" },
-      { "href": "references", "label": "References" }
+      {
+        "href": "eligibility-checklist",
+        "label": "Eligibility checklist"
+      },
+      {
+        "href": "decision-guide",
+        "label": "Decision guide"
+      },
+      {
+        "href": "treatment-options",
+        "label": "Treatment options"
+      },
+      {
+        "href": "faq",
+        "label": "FAQs"
+      },
+      {
+        "href": "references",
+        "label": "References"
+      }
     ],
     "benefits": [
       "Self pay option starting at $49",
@@ -35,7 +49,6 @@
     },
     "icd10Display": "J45.20, J45.30, J45.40, or J45.50 (final coding depends on clinical details)"
   },
-
   "eligibility": {
     "sectionTitle": "Asthma Refill Telehealth Eligibility Checklist for {state}",
     "introText": "You are likely eligible for a TeleDirectMD video visit if ALL of these are true:",
@@ -60,7 +73,6 @@
     ],
     "notEligibleDisclaimer": "If you have red-flag symptoms, seek urgent in-person care or emergency care immediately. TeleDirectMD is not an emergency service."
   },
-
   "howItWorks": {
     "sectionTitle": "How Online Asthma Refills Work in {state}",
     "steps": [
@@ -82,7 +94,6 @@
       }
     ]
   },
-
   "telehealthRegulations": {
     "sectionTitle": "{state} Telehealth Regulations for Online Asthma Refill Care",
     "paragraphs": [
@@ -90,7 +101,6 @@
       "Location matters: you must be physically in {state} during the visit. Insurance is not required. TeleDirectMD does not prescribe controlled substances."
     ]
   },
-
   "comparisonTable": {
     "sectionTitle": "TeleDirectMD vs Other Care Options for Asthma Refills in {state}",
     "intro": "Here is how TeleDirectMD compares to common settings for adult asthma refill care in {state}:",
@@ -130,7 +140,6 @@
     ],
     "bottomLine": "TeleDirectMD is a strong fit for selected adult asthma refill requests when the patient is stable and the visit is clearly a bridge refill rather than an active exacerbation or major treatment redesign."
   },
-
   "decisionGuide": {
     "sectionTitle": "Should I Use TeleDirectMD for Asthma Refills in {state}? Decision Guide",
     "steps": [
@@ -175,7 +184,6 @@
       }
     ]
   },
-
   "pricing": {
     "sectionTitle": "What Do Online Asthma Refills Cost in {state}?",
     "subtitle": "Transparent options. Insurance is not required.",
@@ -188,15 +196,34 @@
       "Clear follow-up and escalation instructions"
     ],
     "comparisonBars": [
-      { "name": "TeleDirectMD", "value": "$49", "width": 12, "isTdmd": true },
-      { "name": "Primary Care or Pulmonology", "value": "$100 to $350+", "width": 52, "isTdmd": false },
-      { "name": "Urgent Care", "value": "$150 to $300+", "width": 60, "isTdmd": false },
-      { "name": "Emergency Room", "value": "$500 to $3,000+", "width": 100, "isTdmd": false }
+      {
+        "name": "TeleDirectMD",
+        "value": "$49",
+        "width": 12,
+        "isTdmd": true
+      },
+      {
+        "name": "Primary Care or Pulmonology",
+        "value": "$100 to $350+",
+        "width": 52,
+        "isTdmd": false
+      },
+      {
+        "name": "Urgent Care",
+        "value": "$150 to $300+",
+        "width": 60,
+        "isTdmd": false
+      },
+      {
+        "name": "Emergency Room",
+        "value": "$500 to $3,000+",
+        "width": 100,
+        "isTdmd": false
+      }
     ],
     "footnote": "Prescription costs are separate and vary by medication and pharmacy.",
     "noHiddenFees": "No hidden fees. If medication is not clinically appropriate, you still receive a complete evaluation, guidance, and clear instructions on what level of care you need next."
   },
-
   "whatIsCondition": {
     "sectionTitle": "What Is Asthma Refill Care?",
     "paragraphs": [
@@ -205,34 +232,81 @@
       "A safe telehealth refill plan depends on whether the patient is stable. Refill care is not the same thing as managing an active asthma attack or redesigning severe asthma therapy from scratch."
     ]
   },
-
   "causesAndRiskFactors": {
     "sectionTitle": "Causes and Risk Factors",
     "intro": "Adults request asthma refills for many reasons, but some refill requests actually reflect poor control, frequent reliever overuse, or recent exacerbation risk rather than simple medication logistics.",
     "items": [
-      { "label": "Running out of rescue inhaler:", "text": "common reason for urgent refill requests" },
-      { "label": "Running out of controller inhaler:", "text": "this can increase risk if maintenance therapy is interrupted" },
-      { "label": "Poor symptom control:", "text": "frequent daytime symptoms or nighttime symptoms may signal unstable asthma" },
-      { "label": "Recent exacerbation history:", "text": "recent oral steroids, urgent care, or ER visits raise concern for higher risk" },
-      { "label": "Reliever overuse:", "text": "increasing rescue inhaler need may signal poor control and need for more than a simple refill" }
+      {
+        "label": "Running out of rescue inhaler:",
+        "text": "common reason for urgent refill requests"
+      },
+      {
+        "label": "Running out of controller inhaler:",
+        "text": "this can increase risk if maintenance therapy is interrupted"
+      },
+      {
+        "label": "Poor symptom control:",
+        "text": "frequent daytime symptoms or nighttime symptoms may signal unstable asthma"
+      },
+      {
+        "label": "Recent exacerbation history:",
+        "text": "recent oral steroids, urgent care, or ER visits raise concern for higher risk"
+      },
+      {
+        "label": "Reliever overuse:",
+        "text": "increasing rescue inhaler need may signal poor control and need for more than a simple refill"
+      }
     ],
     "closing": "Not every refill request is a routine refill. Some are actually early warning signs that asthma management needs step-up review rather than simple continuation."
   },
-
   "symptomsAndRedFlags": {
     "sectionTitle": "Symptoms and Red Flags for Asthma Refills in {state}",
     "intro": "Use this table to understand which refill scenarios may fit short bridge telehealth care and which patterns suggest urgent in-person evaluation.",
-    "headers": ["Symptom or situation", "What it suggests", "Telehealth appropriate?", "Red flag requiring urgent in-person care"],
+    "headers": [
+      "Symptom or situation",
+      "What it suggests",
+      "Telehealth appropriate?",
+      "Red flag requiring urgent in-person care"
+    ],
     "rows": [
-      ["Needs refill of usual inhaler and symptoms are stable", "Routine bridge refill request", "Often yes", "Rapid symptom worsening or active distress"],
-      ["Using rescue inhaler somewhat more often but still stable", "May reflect emerging poor control", "Sometimes", "Multiple daily rescue use with worsening symptoms"],
-      ["Out of controller inhaler but not in active flare", "Bridge refill may be reasonable", "Often yes", "Marked worsening after stopping controller therapy"],
-      ["Severe shortness of breath or cannot speak full sentences", "Possible acute asthma exacerbation", "No", "Urgent care or ER now"],
-      ["Blue lips, confusion, or fainting", "Respiratory emergency concern", "No", "Emergency evaluation now"],
-      ["Recent ER visit and still not back to baseline", "Higher-risk unstable asthma", "Usually no for simple refill-only approach", "Urgent follow-up or emergency care depending on symptoms"]
+      [
+        "Needs refill of usual inhaler and symptoms are stable",
+        "Routine bridge refill request",
+        "Often yes",
+        "Rapid symptom worsening or active distress"
+      ],
+      [
+        "Using rescue inhaler somewhat more often but still stable",
+        "May reflect emerging poor control",
+        "Sometimes",
+        "Multiple daily rescue use with worsening symptoms"
+      ],
+      [
+        "Out of controller inhaler but not in active flare",
+        "Bridge refill may be reasonable",
+        "Often yes",
+        "Marked worsening after stopping controller therapy"
+      ],
+      [
+        "Severe shortness of breath or cannot speak full sentences",
+        "Possible acute asthma exacerbation",
+        "No",
+        "Urgent care or ER now"
+      ],
+      [
+        "Blue lips, confusion, or fainting",
+        "Respiratory emergency concern",
+        "No",
+        "Emergency evaluation now"
+      ],
+      [
+        "Recent ER visit and still not back to baseline",
+        "Higher-risk unstable asthma",
+        "Usually no for simple refill-only approach",
+        "Urgent follow-up or emergency care depending on symptoms"
+      ]
     ]
   },
-
   "differentialDiagnosis": {
     "sectionTitle": "Differential Diagnosis and Complications",
     "intro": "Breathing symptoms are not always simple stable asthma. Refill visits must separate lower-risk bridge refill requests from active exacerbations and from other causes of shortness of breath.",
@@ -268,7 +342,6 @@
     ],
     "closing": "If your symptoms do not match a lower-risk bridge refill scenario or any red flags are present, TeleDirectMD will direct you to urgent in-person care."
   },
-
   "telehealthEligibility": {
     "sectionTitle": "When Is a Video Visit Appropriate?",
     "appropriate": {
@@ -295,7 +368,6 @@
       "disclaimer": "If any red-flag symptoms are present, seek urgent in-person or emergency care. TeleDirectMD is not an emergency service."
     }
   },
-
   "treatmentOptions": {
     "sectionTitle": "Treatment Options",
     "intro": "Evidence-based asthma care distinguishes between reliever therapy, controller therapy, and escalation during exacerbations. NHLBI notes that quick-relief medicines help ease symptoms during an asthma attack, while controller medicines such as inhaled corticosteroids are prescribed to help prevent attacks and control symptoms over time.",
@@ -320,21 +392,49 @@
       "Complex new diagnosis workups for unexplained shortness of breath"
     ]
   },
-
   "medications": {
     "sectionTitle": "Common Medication Options",
     "intro": "These are common categories discussed for adult asthma refill care. Medication choice depends on the patient's established regimen, current control, recent exacerbation history, and whether the request is truly a stable refill request.",
-    "headers": ["Option", "Examples", "Used for", "Key considerations"],
+    "headers": [
+      "Option",
+      "Examples",
+      "Used for",
+      "Key considerations"
+    ],
     "rows": [
-      ["Rescue inhaler", "Albuterol", "Quick relief of acute asthma symptoms", "Frequent need can signal poor control and need more than a routine refill"],
-      ["Controller inhaler", "Inhaled corticosteroid such as budesonide or fluticasone", "Long-term control and prevention of attacks", "GINA advises not completely stopping ICS in adults or adolescents with asthma"],
-      ["Combination controller", "ICS-LABA products such as budesonide-formoterol or fluticasone-salmeterol", "Ongoing controller therapy in selected patients", "Usually appropriate only if already established or clearly appropriate clinically"],
-      ["Other controller support", "Leukotriene modifiers", "Selected patients as part of existing regimen", "Refill depends on current regimen, control, and overall context"],
-      ["Escalation medication", "Oral corticosteroid burst", "Acute exacerbation management", "This is not routine refill care and may indicate need for urgent in-person evaluation"]
+      [
+        "Rescue inhaler",
+        "Albuterol",
+        "Quick relief of acute asthma symptoms",
+        "Frequent need can signal poor control and need more than a routine refill"
+      ],
+      [
+        "Controller inhaler",
+        "Inhaled corticosteroid such as budesonide or fluticasone",
+        "Long-term control and prevention of attacks",
+        "GINA advises not completely stopping ICS in adults or adolescents with asthma"
+      ],
+      [
+        "Combination controller",
+        "ICS-LABA products such as budesonide-formoterol or fluticasone-salmeterol",
+        "Ongoing controller therapy in selected patients",
+        "Usually appropriate only if already established or clearly appropriate clinically"
+      ],
+      [
+        "Other controller support",
+        "Leukotriene modifiers",
+        "Selected patients as part of existing regimen",
+        "Refill depends on current regimen, control, and overall context"
+      ],
+      [
+        "Escalation medication",
+        "Oral corticosteroid burst",
+        "Acute exacerbation management",
+        "This is not routine refill care and may indicate need for urgent in-person evaluation"
+      ]
     ],
     "note": "Med selection and dosing are individualized. TeleDirectMD does not prescribe controlled substances, and refill treatment online is intended as bridge care when clinically appropriate, not as a substitute for urgent exacerbation care."
   },
-
   "homeCare": {
     "sectionTitle": "Home Care, Prevention, and Follow-up",
     "whatToDoNow": {
@@ -364,7 +464,6 @@
       ]
     }
   },
-
   "whenNotToUse": {
     "sectionTitle": "When Not to Use TeleDirectMD for Asthma Refills in {state}",
     "intro": "TeleDirectMD is designed for selected short bridge refill care only. We are direct about when telehealth is not the right fit.",
@@ -383,13 +482,21 @@
     "alternatives": {
       "title": "Alternative Care Options",
       "items": [
-        { "label": "Emergency room:", "text": "severe asthma attack or respiratory distress" },
-        { "label": "Urgent care:", "text": "worsening asthma symptoms that are not clearly ER level but are not stable" },
-        { "label": "Primary care or pulmonology:", "text": "long-term control review, step-up therapy, spirometry, and action plan optimization" }
+        {
+          "label": "Emergency room:",
+          "text": "severe asthma attack or respiratory distress"
+        },
+        {
+          "label": "Urgent care:",
+          "text": "worsening asthma symptoms that are not clearly ER level but are not stable"
+        },
+        {
+          "label": "Primary care or pulmonology:",
+          "text": "long-term control review, step-up therapy, spirometry, and action plan optimization"
+        }
       ]
     }
   },
-
   "faq": {
     "sectionTitle": "Asthma Refill FAQs for {state}",
     "items": [
@@ -439,14 +546,24 @@
       "text": "Insurance is not required. Adult-only video visits. MD-only care. Safety-first triage, short bridge refills when appropriate, and clear next steps."
     }
   },
-
   "references": [
-    { "text": "GINA 2025 Summary Guide for Asthma Management and Prevention", "url": "https://ginasthma.org/wp-content/uploads/2025/11/GINA-Summary-Guide-2025-WEB_FINAL-WMS.pdf" },
-    { "text": "GINA 2025 Strategy Report update", "url": "https://ginasthma.org/wp-content/uploads/2025/11/GINA-2025-Update-25_11_08-WMS.pdf" },
-    { "text": "NHLBI asthma treatment and action plan overview", "url": "https://www.nhlbi.nih.gov/health/asthma/treatment-action-plan" },
-    { "text": "NHLBI patient asthma education guide", "url": "https://www.nhlbi.nih.gov/sites/default/files/publications/SoYouHaveAsthma_PRINT-reduced-filesize.pdf" }
+    {
+      "text": "GINA 2025 Summary Guide for Asthma Management and Prevention",
+      "url": "https://ginasthma.org/wp-content/uploads/2025/11/GINA-Summary-Guide-2025-WEB_FINAL-WMS.pdf"
+    },
+    {
+      "text": "GINA 2025 Strategy Report update",
+      "url": "https://ginasthma.org/wp-content/uploads/2025/11/GINA-2025-Update-25_11_08-WMS.pdf"
+    },
+    {
+      "text": "NHLBI asthma treatment and action plan overview",
+      "url": "https://www.nhlbi.nih.gov/health/asthma/treatment-action-plan"
+    },
+    {
+      "text": "NHLBI patient asthma education guide",
+      "url": "https://www.nhlbi.nih.gov/sites/default/files/publications/SoYouHaveAsthma_PRINT-reduced-filesize.pdf"
+    }
   ],
-
   "disclaimer": {
     "sectionTitle": "TeleDirectMD Telehealth Disclaimer",
     "paragraphs": [
@@ -455,7 +572,6 @@
       "Online asthma refills in {state}. Inhaler refill online. Rescue and controller refill bridge care."
     ]
   },
-
   "relatedConditions": [
     {
       "slug": "seasonal-allergies-treatment-online",
@@ -478,39 +594,86 @@
       "description": "Another common {state} chronic refill pathway for adults"
     }
   ],
-
   "inlineLinks": [
-    { "slug": "sinus-infection-treatment-online", "label": "Sinus Infection" },
-    { "slug": "sore-throat-treatment-online", "label": "Sore Throat" },
-    { "slug": "pink-eye-treatment-online", "label": "Pink Eye" },
-    { "slug": "seasonal-allergies-treatment-online", "label": "Seasonal Allergies" },
-    { "slug": "yeast-infection-treatment-online", "label": "Yeast Infection" },
-    { "slug": "bv-treatment-online", "label": "Bacterial Vaginosis" },
-    { "slug": "cold-sore-treatment-online", "label": "Cold Sore" },
-    { "slug": "birth-control-refills-online", "label": "Birth Control Refills" },
-    { "slug": "blood-pressure-medication-refills-online", "label": "Blood Pressure Medication Refills" },
-    { "slug": "uti-treatment-online", "label": "UTI" }
+    {
+      "slug": "sinus-infection-treatment-online",
+      "label": "Sinus Infection"
+    },
+    {
+      "slug": "sore-throat-treatment-online",
+      "label": "Sore Throat"
+    },
+    {
+      "slug": "pink-eye-treatment-online",
+      "label": "Pink Eye"
+    },
+    {
+      "slug": "seasonal-allergies-treatment-online",
+      "label": "Seasonal Allergies"
+    },
+    {
+      "slug": "yeast-infection-treatment-online",
+      "label": "Yeast Infection"
+    },
+    {
+      "slug": "bv-treatment-online",
+      "label": "Bacterial Vaginosis"
+    },
+    {
+      "slug": "cold-sore-treatment-online",
+      "label": "Cold Sore"
+    },
+    {
+      "slug": "birth-control-refills-online",
+      "label": "Birth Control Refills"
+    },
+    {
+      "slug": "blood-pressure-medication-refills-online",
+      "label": "Blood Pressure Medication Refills"
+    },
+    {
+      "slug": "uti-treatment-online",
+      "label": "UTI"
+    }
   ],
-
   "cityBlock": {
     "title": "Adults We Serve Across {state}",
     "text": "TeleDirectMD evaluates adults located throughout {state}, including {citiesExtended}. Whether you are searching for online asthma refills in {city1}, inhaler refills in {city2}, asthma controller refill care in {city3}, or rescue inhaler bridge care anywhere else in {state}, the same telehealth eligibility and safety rules apply."
   },
-
   "icd10Codes": [
-    { "code": "J45.20", "description": "Mild intermittent asthma, uncomplicated" },
-    { "code": "J45.30", "description": "Mild persistent asthma, uncomplicated" },
-    { "code": "J45.40", "description": "Moderate persistent asthma, uncomplicated" },
-    { "code": "J45.50", "description": "Severe persistent asthma, uncomplicated" }
+    {
+      "code": "J45.20",
+      "description": "Mild intermittent asthma, uncomplicated"
+    },
+    {
+      "code": "J45.30",
+      "description": "Mild persistent asthma, uncomplicated"
+    },
+    {
+      "code": "J45.40",
+      "description": "Moderate persistent asthma, uncomplicated"
+    },
+    {
+      "code": "J45.50",
+      "description": "Severe persistent asthma, uncomplicated"
+    }
   ],
-
   "jsonLd": {
     "conditionName": "Asthma",
-    "conditionAlternateNames": ["Asthma refill care", "Inhaler refill", "Rescue inhaler refill", "Controller inhaler refill"],
+    "conditionAlternateNames": [
+      "Asthma refill care",
+      "Inhaler refill",
+      "Rescue inhaler refill",
+      "Controller inhaler refill"
+    ],
     "conditionDescription": "Asthma refill care involves reviewing whether it is safe and appropriate to continue a patient's established asthma medicines, especially rescue and controller inhalers. TeleDirectMD evaluates adult refill requests by video visit with safety-first red-flag screening and provides short bridge refill guidance when appropriate, with clear rules for when urgent in-person care is needed.",
     "primaryIcd10": "J45.40",
     "anatomy": "Airways",
-    "symptoms": ["Wheezing", "Shortness of breath", "Chest tightness"],
+    "symptoms": [
+      "Wheezing",
+      "Shortness of breath",
+      "Chest tightness"
+    ],
     "riskFactors": [
       "Running out of controller inhaler",
       "Frequent reliever inhaler use",
@@ -523,9 +686,18 @@
     ],
     "epidemiology": "Asthma is a common chronic airway disease requiring reliever and often controller treatment.",
     "drugs": [
-      { "name": "Albuterol", "id": "albuterol" },
-      { "name": "Inhaled corticosteroid", "id": "ics" },
-      { "name": "ICS-LABA inhaler", "id": "ics-laba" }
+      {
+        "name": "Albuterol",
+        "id": "albuterol"
+      },
+      {
+        "name": "Inhaled corticosteroid",
+        "id": "ics"
+      },
+      {
+        "name": "ICS-LABA inhaler",
+        "id": "ics-laba"
+      }
     ],
     "treatments": [
       "Short bridge refill care",
@@ -535,10 +707,24 @@
       "Clinical symptom review and control assessment",
       "Spirometry for formal asthma follow-up when needed"
     ],
-    "specialties": ["Family Medicine", "Telemedicine", "Pulmonology"],
+    "specialties": [
+      "Family Medicine",
+      "Telemedicine",
+      "Pulmonology"
+    ],
     "guidelines": [
-      { "name": "GINA 2025 Summary Guide for Asthma Management and Prevention", "url": "https://ginasthma.org/wp-content/uploads/2025/11/GINA-Summary-Guide-2025-WEB_FINAL-WMS.pdf", "publisher": "Global Initiative for Asthma", "id": "gina" },
-      { "name": "NHLBI Asthma Treatment and Action Plan", "url": "https://www.nhlbi.nih.gov/health/asthma/treatment-action-plan", "publisher": "National Heart, Lung, and Blood Institute", "id": "nhlbi" }
+      {
+        "name": "GINA 2025 Summary Guide for Asthma Management and Prevention",
+        "url": "https://ginasthma.org/wp-content/uploads/2025/11/GINA-Summary-Guide-2025-WEB_FINAL-WMS.pdf",
+        "publisher": "Global Initiative for Asthma",
+        "id": "gina"
+      },
+      {
+        "name": "NHLBI Asthma Treatment and Action Plan",
+        "url": "https://www.nhlbi.nih.gov/health/asthma/treatment-action-plan",
+        "publisher": "National Heart, Lung, and Blood Institute",
+        "id": "nhlbi"
+      }
     ],
     "knowsAbout": [
       "Asthma refill care",
@@ -549,5 +735,7 @@
     ],
     "serviceDescription": "Secure video visit for {state} adults requesting asthma refill care, including red-flag screening, control review, and short bridge refill treatment when appropriate.",
     "webpageDescription": "{state} asthma refill treatment by secure MD video visit for adults. Evidence-based inhaler refill care, red-flag screening, short bridge refills when appropriate, and clear rules for when urgent in-person care is needed."
-  }
+  },
+  "guidelineSource": "gina",
+  "conditionType": "refill"
 }

@@ -2,20 +2,34 @@
   "conditionName": "Birth Control Refills",
   "conditionShort": "Birth Control Refills",
   "conditionSlug": "birth-control-refills-online",
-  "pageTitle": "Birth Control Refills Online in {state} | OCP, Patch, and Ring Refills | TeleDirectMD",
+  "pageTitle": "Birth Control Online Refills in {state} | TeleDirectMD",
   "metaDescription": "Refill your oral contraceptive pill, patch, or ring online in {state} by secure MD video visit. Stable patients already on a method may qualify. Self pay option starting at $49. Insurance is not required.",
   "ogImageAlt": "Birth control refills in {state} by TeleDirectMD",
-
   "hero": {
     "h1": "Birth Control Refills in {state} (Oral Contraceptive Pill, Patch, and Ring Refills)",
     "subtitle": "{state} adult care by secure video visit, self pay option starting at $49, MD-only, insurance is not required.",
     "introParagraph": "TeleDirectMD helps adults in {state} who are already established on an oral contraceptive pill, contraceptive patch, or vaginal ring get a timely refill prescription without an unnecessary office visit. This is a refill service for patients who are stable on their current method — not a service for starting a new birth control method for the first time. During the visit, a board-certified MD reviews your current medication and dose, screens for any new contraindications that may have developed since your last prescription (such as new migraines with aura, new blood clot history, new high blood pressure, or pregnancy), confirms your adherence and satisfaction with the current method, and renews the prescription when clinically appropriate. Patients in {state} who need a new contraceptive start, an IUD, an implant, or a more complex evaluation should see their OB/GYN or primary care provider. This page is for adults located in {state}, including {cities}.",
     "tocLinks": [
-      { "href": "eligibility-checklist", "label": "Eligibility checklist" },
-      { "href": "decision-guide", "label": "Decision guide" },
-      { "href": "treatment-options", "label": "What we refill" },
-      { "href": "faq", "label": "FAQs" },
-      { "href": "references", "label": "References" }
+      {
+        "href": "eligibility-checklist",
+        "label": "Eligibility checklist"
+      },
+      {
+        "href": "decision-guide",
+        "label": "Decision guide"
+      },
+      {
+        "href": "treatment-options",
+        "label": "What we refill"
+      },
+      {
+        "href": "faq",
+        "label": "FAQs"
+      },
+      {
+        "href": "references",
+        "label": "References"
+      }
     ],
     "benefits": [
       "Self pay option starting at $49",
@@ -35,7 +49,6 @@
     },
     "icd10Display": "Z30.41, Z30.49 (final coding depends on clinical details)"
   },
-
   "eligibility": {
     "sectionTitle": "Birth Control Refill Telehealth Eligibility Checklist for {state}",
     "introText": "You are likely eligible for a TeleDirectMD video visit if ALL of these are true:",
@@ -62,7 +75,6 @@
     ],
     "notEligibleDisclaimer": "If you have red-flag symptoms or newly developed contraindications to combined hormonal contraceptives, seek in-person evaluation from your OB/GYN or primary care provider. TeleDirectMD is not an emergency service and is not a replacement for comprehensive gynecologic care."
   },
-
   "howItWorks": {
     "sectionTitle": "How Online Birth Control Refills Work in {state}",
     "steps": [
@@ -84,7 +96,6 @@
       }
     ]
   },
-
   "telehealthRegulations": {
     "sectionTitle": "{state} Telehealth Regulations for Online Birth Control Refill Care",
     "paragraphs": [
@@ -92,7 +103,6 @@
       "Location matters: you must be physically in {state} during the visit. Insurance is not required. TeleDirectMD does not prescribe controlled substances. Oral contraceptive pills, the contraceptive patch, and the vaginal ring are not controlled substances and may be prescribed by telehealth when clinically appropriate."
     ]
   },
-
   "comparisonTable": {
     "sectionTitle": "TeleDirectMD vs Other Care Options for Birth Control Refills in {state}",
     "intro": "Here is how TeleDirectMD compares to common settings for birth control refill care in {state}:",
@@ -132,7 +142,6 @@
     ],
     "bottomLine": "TeleDirectMD is a strong fit for stable, established users of the oral contraceptive pill, patch, or ring who need a refill with contraindication screening and do not have new red flags. For new starts, IUDs, implants, or complex evaluations, an OB/GYN or PCP is the appropriate provider."
   },
-
   "decisionGuide": {
     "sectionTitle": "Should I Use TeleDirectMD for Birth Control Refills in {state}? Decision Guide",
     "steps": [
@@ -177,7 +186,6 @@
       }
     ]
   },
-
   "pricing": {
     "sectionTitle": "What Do Online Birth Control Refills Cost in {state}?",
     "subtitle": "Transparent options. Insurance is not required.",
@@ -190,15 +198,34 @@
       "Clear follow-up instructions, including when to see OB/GYN or PCP"
     ],
     "comparisonBars": [
-      { "name": "TeleDirectMD", "value": "$49", "width": 12, "isTdmd": true },
-      { "name": "Primary Care / OB/GYN", "value": "$100 to $350+", "width": 52, "isTdmd": false },
-      { "name": "Urgent Care", "value": "$150 to $300+", "width": 60, "isTdmd": false },
-      { "name": "Emergency Room", "value": "$500 to $3,000+", "width": 100, "isTdmd": false }
+      {
+        "name": "TeleDirectMD",
+        "value": "$49",
+        "width": 12,
+        "isTdmd": true
+      },
+      {
+        "name": "Primary Care / OB/GYN",
+        "value": "$100 to $350+",
+        "width": 52,
+        "isTdmd": false
+      },
+      {
+        "name": "Urgent Care",
+        "value": "$150 to $300+",
+        "width": 60,
+        "isTdmd": false
+      },
+      {
+        "name": "Emergency Room",
+        "value": "$500 to $3,000+",
+        "width": 100,
+        "isTdmd": false
+      }
     ],
     "footnote": "Prescription costs at your pharmacy are separate and vary by medication, brand versus generic, and pharmacy.",
     "noHiddenFees": "No hidden fees. If a refill is not clinically appropriate after the visit, you still receive a complete evaluation, clear explanation of why, and instructions on what level of care you need next."
   },
-
   "whatIsCondition": {
     "sectionTitle": "What Is a Birth Control Refill Visit?",
     "paragraphs": [
@@ -207,37 +234,97 @@
       "TeleDirectMD's refill visits are designed for adults who are already established on their current OCP, patch, or ring method. This is not a new start service. Patients who have never been on hormonal contraception, who want to switch methods, who need IUD or implant management, or who have new complex medical conditions affecting contraceptive eligibility should see their OB/GYN or primary care provider for an in-person evaluation. Telehealth refill visits are appropriate and evidence-supported for stable, established users where the clinical history can be thoroughly reviewed by video."
     ]
   },
-
   "causesAndRiskFactors": {
     "sectionTitle": "Why Periodic Refill Screening Matters",
     "intro": "Even for patients who are stable on their contraceptive method, periodic screening is important because new medical conditions can develop that affect the safety of continued combined hormonal contraceptive use. The following are key areas reviewed at each refill visit:",
     "items": [
-      { "label": "Migraine with aura:", "text": "New-onset migraine with aura is a Category 4 contraindication to combined hormonal contraceptives (CHCs) per CDC US MEC 2024. Combined hormonal contraceptives are associated with an increased risk of ischemic stroke, and migraine with aura independently increases stroke risk. If a patient develops new migraines with aura since their last prescription, CHCs should be discontinued." },
-      { "label": "Blood pressure and cardiovascular risk:", "text": "Uncontrolled hypertension with blood pressure consistently at or above 160/100 mmHg is a Category 4 contraindication to CHCs. Systolic blood pressure 140 to 159 or diastolic 90 to 99 is Category 3 (risks usually outweigh benefits). Patients should know their current blood pressure before a refill visit. Multiple cardiovascular risk factors together can also elevate risk." },
-      { "label": "History of blood clots (DVT/PE), stroke, or ischemic heart disease:", "text": "A history of deep vein thrombosis, pulmonary embolism, stroke, or ischemic heart disease is a Category 4 contraindication to CHCs. If a patient has developed any of these conditions since their last prescription, CHCs must be discontinued and alternative non-estrogen methods should be considered." },
-      { "label": "Breast cancer:", "text": "Current breast cancer is a Category 4 contraindication to all hormonal methods including CHCs, the progestin-only pill, implant, and DMPA per CDC US MEC 2024. Patients with a new breast cancer diagnosis since their last prescription should not continue combined or progestin-only hormonal contraceptives without specialist guidance." },
-      { "label": "Active liver disease:", "text": "Decompensated cirrhosis, acute hepatitis flare, hepatocellular adenoma, and malignant hepatoma are Category 4 contraindications to CHCs. Patients with newly diagnosed or worsening liver disease should be evaluated in person before continuing combined hormonal contraceptives." },
-      { "label": "Smoking and age:", "text": "Smoking 15 or more cigarettes per day at age 35 or older is a Category 4 contraindication to CHCs due to significantly increased risk for cardiovascular events. Smoking fewer than 15 cigarettes per day at age 35 or older is a Category 3 condition. Screening for smoking status and age is a required part of every refill encounter." }
+      {
+        "label": "Migraine with aura:",
+        "text": "New-onset migraine with aura is a Category 4 contraindication to combined hormonal contraceptives (CHCs) per CDC US MEC 2024. Combined hormonal contraceptives are associated with an increased risk of ischemic stroke, and migraine with aura independently increases stroke risk. If a patient develops new migraines with aura since their last prescription, CHCs should be discontinued."
+      },
+      {
+        "label": "Blood pressure and cardiovascular risk:",
+        "text": "Uncontrolled hypertension with blood pressure consistently at or above 160/100 mmHg is a Category 4 contraindication to CHCs. Systolic blood pressure 140 to 159 or diastolic 90 to 99 is Category 3 (risks usually outweigh benefits). Patients should know their current blood pressure before a refill visit. Multiple cardiovascular risk factors together can also elevate risk."
+      },
+      {
+        "label": "History of blood clots (DVT/PE), stroke, or ischemic heart disease:",
+        "text": "A history of deep vein thrombosis, pulmonary embolism, stroke, or ischemic heart disease is a Category 4 contraindication to CHCs. If a patient has developed any of these conditions since their last prescription, CHCs must be discontinued and alternative non-estrogen methods should be considered."
+      },
+      {
+        "label": "Breast cancer:",
+        "text": "Current breast cancer is a Category 4 contraindication to all hormonal methods including CHCs, the progestin-only pill, implant, and DMPA per CDC US MEC 2024. Patients with a new breast cancer diagnosis since their last prescription should not continue combined or progestin-only hormonal contraceptives without specialist guidance."
+      },
+      {
+        "label": "Active liver disease:",
+        "text": "Decompensated cirrhosis, acute hepatitis flare, hepatocellular adenoma, and malignant hepatoma are Category 4 contraindications to CHCs. Patients with newly diagnosed or worsening liver disease should be evaluated in person before continuing combined hormonal contraceptives."
+      },
+      {
+        "label": "Smoking and age:",
+        "text": "Smoking 15 or more cigarettes per day at age 35 or older is a Category 4 contraindication to CHCs due to significantly increased risk for cardiovascular events. Smoking fewer than 15 cigarettes per day at age 35 or older is a Category 3 condition. Screening for smoking status and age is a required part of every refill encounter."
+      }
     ],
     "closing": "At a refill visit, the physician also reviews adherence to the current method, any side effects, significant drug interactions (particularly with enzyme-inducing anticonvulsants or rifampin), and whether the patient's goals and satisfaction with the current method remain consistent. If new contraindications are identified, the physician will stop the refill and direct the patient to appropriate in-person care."
   },
-
   "symptomsAndRedFlags": {
     "sectionTitle": "Situations and Red Flags for Birth Control Refills in {state}",
     "intro": "Use this table to understand which situations are appropriate for a telehealth refill visit and which require urgent in-person or emergency evaluation.",
-    "headers": ["Situation", "What it suggests", "Telehealth refill appropriate?", "Red flag requiring urgent or in-person care"],
+    "headers": [
+      "Situation",
+      "What it suggests",
+      "Telehealth refill appropriate?",
+      "Red flag requiring urgent or in-person care"
+    ],
     "rows": [
-      ["Stable on current OCP, patch, or ring with no new health changes", "Appropriate candidate for telehealth refill", "Yes", "None — proceed with telehealth visit"],
-      ["Developed new migraines with visual aura, zigzag lines, or focal neurologic symptoms before headache", "New Category 4 contraindication to combined hormonal contraceptives per CDC US MEC", "No", "Requires in-person evaluation; combined hormonal contraceptives must be discontinued"],
-      ["New diagnosis of DVT, pulmonary embolism, stroke, or heart attack since last prescription", "Category 4 contraindication; unacceptable health risk with CHC continuation", "No", "Requires in-person OB/GYN or PCP evaluation immediately; discontinue CHC"],
-      ["Blood pressure consistently above 140/90 mmHg at home or pharmacy", "Possible Category 3 or 4 hypertension contraindication depending on severity", "Sometimes, with caution; BP above 160/100 is Category 4", "BP above 160/100 with CHC requires in-person evaluation and method reassessment"],
-      ["New breast cancer diagnosis", "Category 4 absolute contraindication to all hormonal methods", "No", "Requires immediate OB/GYN or oncology consultation; discontinue all hormonal methods"],
-      ["Known or suspected pregnancy", "Hormonal contraceptives not indicated during pregnancy", "No", "Positive or suspected pregnancy requires in-person evaluation"],
-      ["Smoking 15 or more cigarettes per day and age 35 or older", "Category 4 contraindication to combined hormonal contraceptives", "No, if patient has this combination", "In-person evaluation for method switch to progestin-only or non-hormonal method"],
-      ["Side effects such as breakthrough bleeding, nausea, headache, or mood changes on current method", "May be managed with counseling, reassurance, or dose/formulation adjustment", "Sometimes", "Severe or worsening symptoms, new neurologic or cardiovascular symptoms require urgent evaluation"]
+      [
+        "Stable on current OCP, patch, or ring with no new health changes",
+        "Appropriate candidate for telehealth refill",
+        "Yes",
+        "None — proceed with telehealth visit"
+      ],
+      [
+        "Developed new migraines with visual aura, zigzag lines, or focal neurologic symptoms before headache",
+        "New Category 4 contraindication to combined hormonal contraceptives per CDC US MEC",
+        "No",
+        "Requires in-person evaluation; combined hormonal contraceptives must be discontinued"
+      ],
+      [
+        "New diagnosis of DVT, pulmonary embolism, stroke, or heart attack since last prescription",
+        "Category 4 contraindication; unacceptable health risk with CHC continuation",
+        "No",
+        "Requires in-person OB/GYN or PCP evaluation immediately; discontinue CHC"
+      ],
+      [
+        "Blood pressure consistently above 140/90 mmHg at home or pharmacy",
+        "Possible Category 3 or 4 hypertension contraindication depending on severity",
+        "Sometimes, with caution; BP above 160/100 is Category 4",
+        "BP above 160/100 with CHC requires in-person evaluation and method reassessment"
+      ],
+      [
+        "New breast cancer diagnosis",
+        "Category 4 absolute contraindication to all hormonal methods",
+        "No",
+        "Requires immediate OB/GYN or oncology consultation; discontinue all hormonal methods"
+      ],
+      [
+        "Known or suspected pregnancy",
+        "Hormonal contraceptives not indicated during pregnancy",
+        "No",
+        "Positive or suspected pregnancy requires in-person evaluation"
+      ],
+      [
+        "Smoking 15 or more cigarettes per day and age 35 or older",
+        "Category 4 contraindication to combined hormonal contraceptives",
+        "No, if patient has this combination",
+        "In-person evaluation for method switch to progestin-only or non-hormonal method"
+      ],
+      [
+        "Side effects such as breakthrough bleeding, nausea, headache, or mood changes on current method",
+        "May be managed with counseling, reassurance, or dose/formulation adjustment",
+        "Sometimes",
+        "Severe or worsening symptoms, new neurologic or cardiovascular symptoms require urgent evaluation"
+      ]
     ]
   },
-
   "differentialDiagnosis": {
     "sectionTitle": "What TeleDirectMD Refills vs What Requires In-Person Evaluation",
     "intro": "Not every birth control-related question is appropriate for a telehealth refill visit. TeleDirectMD focuses on a specific and limited scope: refilling an existing prescription for a stable patient. The following describes what fits this telehealth scope and what does not.",
@@ -276,7 +363,6 @@
     ],
     "closing": "If your situation does not fit a straightforward refill of an established, stable method, or if new contraindications are identified during the TeleDirectMD visit, we will direct you to in-person care with the appropriate provider."
   },
-
   "telehealthEligibility": {
     "sectionTitle": "When Is a Video Visit Appropriate for Birth Control Refills?",
     "appropriate": {
@@ -307,7 +393,6 @@
       "disclaimer": "If any red-flag situations are present, seek urgent in-person care from your OB/GYN, PCP, or emergency department. TeleDirectMD is not appropriate for these situations and is not an emergency service."
     }
   },
-
   "treatmentOptions": {
     "sectionTitle": "What TeleDirectMD Refills",
     "intro": "TeleDirectMD provides refill prescriptions for patients who are already established on one of the following hormonal contraceptive methods and who meet eligibility criteria after contraindication screening. This is a continuation service — not an initiation service.",
@@ -338,22 +423,55 @@
       "Depot medroxyprogesterone acetate (DMPA/Depo-Provera) injections — requires in-person administration"
     ]
   },
-
   "medications": {
     "sectionTitle": "Common Birth Control Medications — Continuation and Refill",
     "intro": "The following are common oral contraceptive pills, patches, and rings that may be refilled via telehealth for established, stable patients. The actual medication and dose refilled will be the patient's current prescription. These are continuation refills, not new starts. Dose and formulation are determined based on the patient's existing prescription.",
-    "headers": ["Method", "Examples (brand / generic)", "Hormone content", "Key refill considerations"],
+    "headers": [
+      "Method",
+      "Examples (brand / generic)",
+      "Hormone content",
+      "Key refill considerations"
+    ],
     "rows": [
-      ["Combined OCP — norgestimate/ethinyl estradiol", "Sprintec, Ortho-Cyclen (brand); norgestimate 0.25 mg / EE 0.035 mg (generic)", "Estrogen + progestin (monophasic or triphasic)", "One of the most commonly prescribed combined pills. Requires stable BP history, no new migraine with aura, no DVT/PE or stroke history. Generic is widely available and affordable."],
-      ["Combined OCP — levonorgestrel/ethinyl estradiol", "Levlen, Portia, Jolessa (brand); levonorgestrel/EE various doses (generic)", "Estrogen + progestin (monophasic or triphasic)", "Another commonly prescribed combined pill. Same combined hormonal contraceptive contraindications apply. Often used for menstrual cycle regulation as well as contraception."],
-      ["Combined OCP — drospirenone/ethinyl estradiol", "Yaz (24/4 pack), Yasmin (21/7 pack); drospirenone/EE generic", "Estrogen + anti-androgenic progestin", "Drospirenone has mild anti-androgenic and antimineralocorticoid properties. May be preferred by some patients for acne or premenstrual symptoms. Same CHC contraindication screening applies. Monitor potassium in patients on ACE inhibitors or potassium-sparing diuretics."],
-      ["Progestin-only pill (mini-pill) — norethindrone", "Errin, Camila, Nora-BE; norethindrone 0.35 mg generic", "Progestin only (no estrogen)", "Fewer contraindications than combined pills; does not carry the same cardiovascular and stroke risks as combined hormonal contraceptives. Missed pill window is 3 hours — must be taken at the same time daily. Appropriate for patients with estrogen-related contraindications."],
-      ["Contraceptive patch — norelgestromin/ethinyl estradiol", "Xulane; norelgestromin 150 mcg / EE 35 mcg per day", "Estrogen + progestin (transdermal)", "Changed weekly for 3 weeks then 1 patch-free week. Same CHC contraindications as combined pills apply. Note: delivers more estrogen into the bloodstream than similarly dosed oral pills. Not recommended for patients with BMI above 30 per labeling (reduced effectiveness)."],
-      ["Vaginal ring — etonogestrel/ethinyl estradiol", "NuvaRing, EluRyng; etonogestrel 120 mcg / EE 15 mcg per day", "Estrogen + progestin (intravaginal)", "Worn for 21 days then removed for 7 days. Same CHC contraindications apply. Preferred by some patients for convenience over daily pills. Requires patient comfort with self-insertion and removal."]
+      [
+        "Combined OCP — norgestimate/ethinyl estradiol",
+        "Sprintec, Ortho-Cyclen (brand); norgestimate 0.25 mg / EE 0.035 mg (generic)",
+        "Estrogen + progestin (monophasic or triphasic)",
+        "One of the most commonly prescribed combined pills. Requires stable BP history, no new migraine with aura, no DVT/PE or stroke history. Generic is widely available and affordable."
+      ],
+      [
+        "Combined OCP — levonorgestrel/ethinyl estradiol",
+        "Levlen, Portia, Jolessa (brand); levonorgestrel/EE various doses (generic)",
+        "Estrogen + progestin (monophasic or triphasic)",
+        "Another commonly prescribed combined pill. Same combined hormonal contraceptive contraindications apply. Often used for menstrual cycle regulation as well as contraception."
+      ],
+      [
+        "Combined OCP — drospirenone/ethinyl estradiol",
+        "Yaz (24/4 pack), Yasmin (21/7 pack); drospirenone/EE generic",
+        "Estrogen + anti-androgenic progestin",
+        "Drospirenone has mild anti-androgenic and antimineralocorticoid properties. May be preferred by some patients for acne or premenstrual symptoms. Same CHC contraindication screening applies. Monitor potassium in patients on ACE inhibitors or potassium-sparing diuretics."
+      ],
+      [
+        "Progestin-only pill (mini-pill) — norethindrone",
+        "Errin, Camila, Nora-BE; norethindrone 0.35 mg generic",
+        "Progestin only (no estrogen)",
+        "Fewer contraindications than combined pills; does not carry the same cardiovascular and stroke risks as combined hormonal contraceptives. Missed pill window is 3 hours — must be taken at the same time daily. Appropriate for patients with estrogen-related contraindications."
+      ],
+      [
+        "Contraceptive patch — norelgestromin/ethinyl estradiol",
+        "Xulane; norelgestromin 150 mcg / EE 35 mcg per day",
+        "Estrogen + progestin (transdermal)",
+        "Changed weekly for 3 weeks then 1 patch-free week. Same CHC contraindications as combined pills apply. Note: delivers more estrogen into the bloodstream than similarly dosed oral pills. Not recommended for patients with BMI above 30 per labeling (reduced effectiveness)."
+      ],
+      [
+        "Vaginal ring — etonogestrel/ethinyl estradiol",
+        "NuvaRing, EluRyng; etonogestrel 120 mcg / EE 15 mcg per day",
+        "Estrogen + progestin (intravaginal)",
+        "Worn for 21 days then removed for 7 days. Same CHC contraindications apply. Preferred by some patients for convenience over daily pills. Requires patient comfort with self-insertion and removal."
+      ]
     ],
     "note": "These are continuation refills of a patient's existing prescription only. The MD confirms the exact medication, dose, and formulation from the patient's current prescription before renewing. Dose or formulation changes require a discussion of clinical rationale. TeleDirectMD does not prescribe controlled substances. Oral contraceptives are not controlled substances."
   },
-
   "homeCare": {
     "sectionTitle": "Adherence, Monitoring, and Follow-up for Birth Control",
     "whatToDoNow": {
@@ -387,7 +505,6 @@
       ]
     }
   },
-
   "whenNotToUse": {
     "sectionTitle": "When Not to Use TeleDirectMD for Birth Control Refills in {state}",
     "intro": "TeleDirectMD provides a specific, limited refill service for stable, established users of the oral contraceptive pill, patch, or ring. We are direct about when telehealth is not appropriate.",
@@ -410,14 +527,25 @@
     "alternatives": {
       "title": "Alternative Care Options",
       "items": [
-        { "label": "Emergency room:", "text": "sudden severe headache, chest pain, shortness of breath, severe leg swelling, vision loss, or any concern for stroke, pulmonary embolism, or DVT" },
-        { "label": "OB/GYN:", "text": "new contraceptive starts, method switching, IUD or implant management, complex contraindication evaluation, new medical conditions affecting contraceptive eligibility, annual well-woman exam" },
-        { "label": "Primary care:", "text": "new contraceptive starts if OB/GYN is not accessible, management of underlying conditions (hypertension, diabetes, migraine) that affect contraceptive eligibility" },
-        { "label": "Pharmacy (OTC):", "text": "progestin-only norgestrel (Opill) is now available over the counter for adults and adolescents; levonorgestrel (Plan B) is available OTC for emergency contraception" }
+        {
+          "label": "Emergency room:",
+          "text": "sudden severe headache, chest pain, shortness of breath, severe leg swelling, vision loss, or any concern for stroke, pulmonary embolism, or DVT"
+        },
+        {
+          "label": "OB/GYN:",
+          "text": "new contraceptive starts, method switching, IUD or implant management, complex contraindication evaluation, new medical conditions affecting contraceptive eligibility, annual well-woman exam"
+        },
+        {
+          "label": "Primary care:",
+          "text": "new contraceptive starts if OB/GYN is not accessible, management of underlying conditions (hypertension, diabetes, migraine) that affect contraceptive eligibility"
+        },
+        {
+          "label": "Pharmacy (OTC):",
+          "text": "progestin-only norgestrel (Opill) is now available over the counter for adults and adolescents; levonorgestrel (Plan B) is available OTC for emergency contraception"
+        }
       ]
     }
   },
-
   "faq": {
     "sectionTitle": "Birth Control Refill FAQs for {state}",
     "items": [
@@ -483,16 +611,32 @@
       "text": "Insurance is not required. Adult-only video visits. MD-only care. Contraindication screening per CDC US MEC 2024 and a refill prescription when clinically appropriate."
     }
   },
-
   "references": [
-    { "text": "CDC — U.S. Medical Eligibility Criteria for Contraceptive Use, 2024 (MMWR)", "url": "https://www.cdc.gov/mmwr/volumes/73/rr/rr7304a1.htm" },
-    { "text": "CDC — Appendix D: Classifications for Combined Hormonal Contraceptives (US MEC 2024)", "url": "https://www.cdc.gov/contraception/hcp/usmec/combined-hormonal-contraceptives.html" },
-    { "text": "CDC — Summary Chart of U.S. Medical Eligibility Criteria for Contraceptive Use (2024)", "url": "https://www.cdc.gov/contraception/media/pdfs/2024/07/us-mec-summary-chart-color-508.pdf" },
-    { "text": "ACOG Committee Opinion No. 788 — Over-the-Counter Access to Hormonal Contraception (2019)", "url": "https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2019/10/over-the-counter-access-to-hormonal-contraception" },
-    { "text": "Oral Contraceptive Pills — StatPearls (NCBI Bookshelf, 2024)", "url": "https://www.ncbi.nlm.nih.gov/books/NBK430882/" },
-    { "text": "ACOG Committee Statement — Access to Contraception (2025)", "url": "https://www.acog.org/clinical/clinical-guidance/committee-statement/articles/2025/11/access-to-contraception" }
+    {
+      "text": "CDC — U.S. Medical Eligibility Criteria for Contraceptive Use, 2024 (MMWR)",
+      "url": "https://www.cdc.gov/mmwr/volumes/73/rr/rr7304a1.htm"
+    },
+    {
+      "text": "CDC — Appendix D: Classifications for Combined Hormonal Contraceptives (US MEC 2024)",
+      "url": "https://www.cdc.gov/contraception/hcp/usmec/combined-hormonal-contraceptives.html"
+    },
+    {
+      "text": "CDC — Summary Chart of U.S. Medical Eligibility Criteria for Contraceptive Use (2024)",
+      "url": "https://www.cdc.gov/contraception/media/pdfs/2024/07/us-mec-summary-chart-color-508.pdf"
+    },
+    {
+      "text": "ACOG Committee Opinion No. 788 — Over-the-Counter Access to Hormonal Contraception (2019)",
+      "url": "https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2019/10/over-the-counter-access-to-hormonal-contraception"
+    },
+    {
+      "text": "Oral Contraceptive Pills — StatPearls (NCBI Bookshelf, 2024)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK430882/"
+    },
+    {
+      "text": "ACOG Committee Statement — Access to Contraception (2025)",
+      "url": "https://www.acog.org/clinical/clinical-guidance/committee-statement/articles/2025/11/access-to-contraception"
+    }
   ],
-
   "disclaimer": {
     "sectionTitle": "TeleDirectMD Telehealth Disclaimer",
     "paragraphs": [
@@ -501,7 +645,6 @@
       "Online birth control refills in {state}. OCP refills online. Contraceptive pill prescription refill by telehealth. Birth control patch and ring refill in {state}."
     ]
   },
-
   "relatedConditions": [
     {
       "slug": "uti-treatment-online",
@@ -524,33 +667,64 @@
       "description": "Some hormonal contraceptives can contribute to vaginal dryness; telehealth evaluation is available"
     }
   ],
-
   "inlineLinks": [
-    { "slug": "uti-treatment-online", "label": "UTI Treatment" },
-    { "slug": "yeast-infection-treatment-online", "label": "Yeast Infection" },
-    { "slug": "bv-treatment-online", "label": "Bacterial Vaginosis" },
-    { "slug": "vaginal-dryness-treatment-online", "label": "Vaginal Dryness" },
-    { "slug": "blood-pressure-medication-refills-online", "label": "Blood Pressure Medication Refills" },
-    { "slug": "asthma-refills-online", "label": "Asthma Refills" }
+    {
+      "slug": "uti-treatment-online",
+      "label": "UTI Treatment"
+    },
+    {
+      "slug": "yeast-infection-treatment-online",
+      "label": "Yeast Infection"
+    },
+    {
+      "slug": "bv-treatment-online",
+      "label": "Bacterial Vaginosis"
+    },
+    {
+      "slug": "vaginal-dryness-treatment-online",
+      "label": "Vaginal Dryness"
+    },
+    {
+      "slug": "blood-pressure-medication-refills-online",
+      "label": "Blood Pressure Medication Refills"
+    },
+    {
+      "slug": "asthma-refills-online",
+      "label": "Asthma Refills"
+    }
   ],
-
   "cityBlock": {
     "title": "Adults We Serve Across {state}",
     "text": "TeleDirectMD evaluates adults located throughout {state}, including {citiesExtended}. Whether you are searching for birth control refills online in {city1}, contraceptive pill refill care in {city2}, or OCP prescription renewal anywhere else in {state}, the same telehealth eligibility and safety screening rules apply."
   },
-
   "icd10Codes": [
-    { "code": "Z30.41", "description": "Encounter for surveillance of contraceptive pills (repeat prescription for contraceptive pill)" },
-    { "code": "Z30.49", "description": "Encounter for surveillance of other contraceptives (patch, ring, or other hormonal methods)" }
+    {
+      "code": "Z30.41",
+      "description": "Encounter for surveillance of contraceptive pills (repeat prescription for contraceptive pill)"
+    },
+    {
+      "code": "Z30.49",
+      "description": "Encounter for surveillance of other contraceptives (patch, ring, or other hormonal methods)"
+    }
   ],
-
   "jsonLd": {
     "conditionName": "Birth Control Refills",
-    "conditionAlternateNames": ["OCP refill", "Oral contraceptive pill refill", "Contraceptive patch refill", "NuvaRing refill", "Hormonal contraceptive refill", "Birth control prescription renewal"],
+    "conditionAlternateNames": [
+      "OCP refill",
+      "Oral contraceptive pill refill",
+      "Contraceptive patch refill",
+      "NuvaRing refill",
+      "Hormonal contraceptive refill",
+      "Birth control prescription renewal"
+    ],
     "conditionDescription": "A birth control refill telehealth visit is a focused clinical encounter for adults already established on an oral contraceptive pill, contraceptive patch, or vaginal ring. TeleDirectMD screens for new contraindications per the CDC US Medical Eligibility Criteria (US MEC 2024), reviews the current method, confirms adherence and safety, and renews the prescription when appropriate. This is a refill service for stable, established patients — not a new contraceptive start service.",
     "primaryIcd10": "Z30.41",
     "anatomy": "Reproductive system",
-    "symptoms": ["Need for contraceptive refill", "Contraceptive continuation management", "Hormonal contraceptive surveillance"],
+    "symptoms": [
+      "Need for contraceptive refill",
+      "Contraceptive continuation management",
+      "Hormonal contraceptive surveillance"
+    ],
     "riskFactors": [
       "Migraine with aura (contraindication to combined hormonal contraceptives)",
       "History of DVT or pulmonary embolism",
@@ -567,12 +741,30 @@
     ],
     "epidemiology": "Approximately 25% of women aged 15 to 44 who use contraception in the United States use the oral contraceptive pill as their method of choice, making it one of the most commonly prescribed medications in the country.",
     "drugs": [
-      { "name": "Ethinyl estradiol / norgestimate (Sprintec)", "id": "norgestimate-ee" },
-      { "name": "Ethinyl estradiol / levonorgestrel (Levlen)", "id": "levonorgestrel-ee" },
-      { "name": "Ethinyl estradiol / drospirenone (Yaz, Yasmin)", "id": "drospirenone-ee" },
-      { "name": "Norethindrone (Errin, Camila)", "id": "norethindrone-pop" },
-      { "name": "Ethinyl estradiol / norelgestromin patch (Xulane)", "id": "xulane-patch" },
-      { "name": "Ethinyl estradiol / etonogestrel ring (NuvaRing)", "id": "nuvaring" }
+      {
+        "name": "Ethinyl estradiol / norgestimate (Sprintec)",
+        "id": "norgestimate-ee"
+      },
+      {
+        "name": "Ethinyl estradiol / levonorgestrel (Levlen)",
+        "id": "levonorgestrel-ee"
+      },
+      {
+        "name": "Ethinyl estradiol / drospirenone (Yaz, Yasmin)",
+        "id": "drospirenone-ee"
+      },
+      {
+        "name": "Norethindrone (Errin, Camila)",
+        "id": "norethindrone-pop"
+      },
+      {
+        "name": "Ethinyl estradiol / norelgestromin patch (Xulane)",
+        "id": "xulane-patch"
+      },
+      {
+        "name": "Ethinyl estradiol / etonogestrel ring (NuvaRing)",
+        "id": "nuvaring"
+      }
     ],
     "treatments": [
       "Prescription renewal for established oral contraceptive pill",
@@ -586,11 +778,30 @@
       "Blood pressure history review",
       "Pregnancy status assessment"
     ],
-    "specialties": ["Family Medicine", "Obstetrics and Gynecology", "Telemedicine"],
+    "specialties": [
+      "Family Medicine",
+      "Obstetrics and Gynecology",
+      "Telemedicine"
+    ],
     "guidelines": [
-      { "name": "CDC U.S. Medical Eligibility Criteria for Contraceptive Use, 2024", "url": "https://www.cdc.gov/mmwr/volumes/73/rr/rr7304a1.htm", "publisher": "Centers for Disease Control and Prevention", "id": "cdc-usmec-2024" },
-      { "name": "CDC Classifications for Combined Hormonal Contraceptives (Appendix D)", "url": "https://www.cdc.gov/contraception/hcp/usmec/combined-hormonal-contraceptives.html", "publisher": "Centers for Disease Control and Prevention", "id": "cdc-chc-appendix" },
-      { "name": "ACOG Committee Opinion No. 788 — Over-the-Counter Access to Hormonal Contraception", "url": "https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2019/10/over-the-counter-access-to-hormonal-contraception", "publisher": "American College of Obstetricians and Gynecologists", "id": "acog-788" }
+      {
+        "name": "CDC U.S. Medical Eligibility Criteria for Contraceptive Use, 2024",
+        "url": "https://www.cdc.gov/mmwr/volumes/73/rr/rr7304a1.htm",
+        "publisher": "Centers for Disease Control and Prevention",
+        "id": "cdc-usmec-2024"
+      },
+      {
+        "name": "CDC Classifications for Combined Hormonal Contraceptives (Appendix D)",
+        "url": "https://www.cdc.gov/contraception/hcp/usmec/combined-hormonal-contraceptives.html",
+        "publisher": "Centers for Disease Control and Prevention",
+        "id": "cdc-chc-appendix"
+      },
+      {
+        "name": "ACOG Committee Opinion No. 788 — Over-the-Counter Access to Hormonal Contraception",
+        "url": "https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2019/10/over-the-counter-access-to-hormonal-contraception",
+        "publisher": "American College of Obstetricians and Gynecologists",
+        "id": "acog-788"
+      }
     ],
     "knowsAbout": [
       "Oral contraceptive pill refills",
@@ -603,5 +814,7 @@
     ],
     "serviceDescription": "Secure video visit for {state} adults who are established on an oral contraceptive pill, patch, or vaginal ring and need a refill prescription. Includes contraindication screening per CDC US MEC 2024 and prescription renewal when clinically appropriate.",
     "webpageDescription": "{state} birth control refill service by secure MD video visit for adults. Refill prescriptions for established OCP, patch, and ring users with contraindication screening and prescriptions when appropriate. Not a new start service."
-  }
+  },
+  "guidelineSource": "acogContra",
+  "conditionType": "refill"
 }

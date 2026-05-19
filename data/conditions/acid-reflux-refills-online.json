@@ -2,20 +2,34 @@
   "conditionName": "Acid Reflux Medication Refills",
   "conditionShort": "acid reflux",
   "conditionSlug": "acid-reflux-refills-online",
-  "pageTitle": "Acid Reflux (GERD) Medication Refills Online in {state} | PPI Refill MD Video Visit | TeleDirectMD",
+  "pageTitle": "Acid Reflux Online Refills in {state} | TeleDirectMD",
   "metaDescription": "Evidence-based acid reflux and GERD medication refill care for {state} adults by secure video visit. Red-flag screening, PPI and H2 blocker refill evaluation, and bridge prescriptions when appropriate. Self pay option starting at $49. Insurance is not required.",
   "ogImageAlt": "Acid reflux medication refills in {state} by TeleDirectMD",
-
   "hero": {
     "h1": "Acid Reflux (GERD) Medication Refills in {state}",
     "subtitle": "{state} adult care by secure video visit, self pay option starting at $49, MD-only, insurance is not required.",
     "introParagraph": "Adults often search for online acid reflux refills when they are running low on a proton pump inhibitor (PPI), H2 blocker, or both, but not every refill request is straightforward. The ACG Clinical Guideline for GERD recommends using the lowest effective PPI dose for maintenance therapy, and for patients with LA grade C or D erosive esophagitis, indefinite PPI maintenance is generally advised. TeleDirectMD uses a safety-first telemedicine approach by reviewing your current GERD medication, symptom frequency, duration of therapy, whether you have had alarm symptoms such as difficulty swallowing or GI bleeding, and whether this sounds like a stable bridge refill request or a situation needing gastroenterology referral. If the history supports a lower-risk bridge refill request, treatment may be reasonable by video, while adults with alarm symptoms, refractory GERD, or suspected complications are directed to in-person gastroenterology care. PPIs should be taken 30 to 60 minutes before a meal for maximum effectiveness. This page is for adults located in {state}, including {cities}.",
     "tocLinks": [
-      { "href": "eligibility-checklist", "label": "Eligibility checklist" },
-      { "href": "decision-guide", "label": "Decision guide" },
-      { "href": "treatment-options", "label": "Treatment options" },
-      { "href": "faq", "label": "FAQs" },
-      { "href": "references", "label": "References" }
+      {
+        "href": "eligibility-checklist",
+        "label": "Eligibility checklist"
+      },
+      {
+        "href": "decision-guide",
+        "label": "Decision guide"
+      },
+      {
+        "href": "treatment-options",
+        "label": "Treatment options"
+      },
+      {
+        "href": "faq",
+        "label": "FAQs"
+      },
+      {
+        "href": "references",
+        "label": "References"
+      }
     ],
     "benefits": [
       "Self pay option starting at $49",
@@ -35,7 +49,6 @@
     },
     "icd10Display": "K21.0, K21.9 (final coding depends on clinical details)"
   },
-
   "eligibility": {
     "sectionTitle": "Acid Reflux Refill Telehealth Eligibility Checklist for {state}",
     "introText": "You are likely eligible for a TeleDirectMD video visit if ALL of these are true:",
@@ -62,7 +75,6 @@
     ],
     "notEligibleDisclaimer": "If you have red-flag symptoms, seek urgent in-person care or emergency care immediately. TeleDirectMD is not an emergency service."
   },
-
   "howItWorks": {
     "sectionTitle": "How Online Acid Reflux Refills Work in {state}",
     "steps": [
@@ -84,7 +96,6 @@
       }
     ]
   },
-
   "telehealthRegulations": {
     "sectionTitle": "{state} Telehealth Regulations for Online Acid Reflux Refill Care",
     "paragraphs": [
@@ -92,7 +103,6 @@
       "Location matters: you must be physically in {state} during the visit. Insurance is not required. TeleDirectMD does not prescribe controlled substances."
     ]
   },
-
   "comparisonTable": {
     "sectionTitle": "TeleDirectMD vs Other Care Options for Acid Reflux Refills in {state}",
     "intro": "Here is how TeleDirectMD compares to common settings for adult acid reflux refill care in {state}:",
@@ -132,7 +142,6 @@
     ],
     "bottomLine": "TeleDirectMD is a strong fit for selected adult acid reflux refill requests when the patient is stable on their current PPI or H2 blocker and the visit is clearly a bridge refill rather than an evaluation for alarm symptoms or refractory GERD."
   },
-
   "decisionGuide": {
     "sectionTitle": "Should I Use TeleDirectMD for Acid Reflux Refills in {state}? Decision Guide",
     "steps": [
@@ -177,7 +186,6 @@
       }
     ]
   },
-
   "pricing": {
     "sectionTitle": "What Do Online Acid Reflux Refills Cost in {state}?",
     "subtitle": "Transparent options. Insurance is not required.",
@@ -190,15 +198,34 @@
       "Clear follow-up and escalation instructions"
     ],
     "comparisonBars": [
-      { "name": "TeleDirectMD", "value": "$49", "width": 12, "isTdmd": true },
-      { "name": "Primary Care or Gastroenterology", "value": "$100 to $350+", "width": 52, "isTdmd": false },
-      { "name": "Urgent Care", "value": "$150 to $300+", "width": 60, "isTdmd": false },
-      { "name": "Emergency Room", "value": "$500 to $3,000+", "width": 100, "isTdmd": false }
+      {
+        "name": "TeleDirectMD",
+        "value": "$49",
+        "width": 12,
+        "isTdmd": true
+      },
+      {
+        "name": "Primary Care or Gastroenterology",
+        "value": "$100 to $350+",
+        "width": 52,
+        "isTdmd": false
+      },
+      {
+        "name": "Urgent Care",
+        "value": "$150 to $300+",
+        "width": 60,
+        "isTdmd": false
+      },
+      {
+        "name": "Emergency Room",
+        "value": "$500 to $3,000+",
+        "width": 100,
+        "isTdmd": false
+      }
     ],
     "footnote": "Prescription costs are separate and vary by medication and pharmacy.",
     "noHiddenFees": "No hidden fees. If medication is not clinically appropriate, you still receive a complete evaluation, guidance, and clear instructions on what level of care you need next."
   },
-
   "whatIsCondition": {
     "sectionTitle": "What Is Acid Reflux Refill Care?",
     "paragraphs": [
@@ -207,37 +234,95 @@
       "A safe telehealth refill plan depends on whether the patient is stable on their current regimen and has no alarm symptoms. Refill care is not the same thing as working up new dysphagia, evaluating refractory GERD, or managing Barrett's esophagus surveillance."
     ]
   },
-
   "causesAndRiskFactors": {
     "sectionTitle": "Causes and Risk Factors",
     "intro": "Adults request acid reflux medication refills for many reasons, but some refill requests actually reflect worsening disease, new alarm symptoms, or refractory GERD rather than simple medication logistics.",
     "items": [
-      { "label": "Running out of PPI or H2 blocker:", "text": "common reason for urgent refill requests, especially when patients have a gap in insurance or prescriber access" },
-      { "label": "Obesity and overweight:", "text": "increased intra-abdominal pressure worsens reflux and is a major modifiable risk factor" },
-      { "label": "Hiatal hernia:", "text": "structural contributor to reflux that can worsen symptoms and reduce effectiveness of lifestyle changes alone" },
-      { "label": "Dietary triggers:", "text": "fatty foods, spicy foods, chocolate, caffeine, alcohol, and citrus can worsen reflux episodes" },
-      { "label": "Eating close to bedtime:", "text": "the ACG recommends avoiding meals 2 to 3 hours before bedtime to reduce nighttime reflux" },
-      { "label": "Smoking:", "text": "reduces lower esophageal sphincter pressure and worsens reflux" },
-      { "label": "Medication-related reflux:", "text": "certain medications including NSAIDs, calcium channel blockers, and bisphosphonates can worsen GERD symptoms" }
+      {
+        "label": "Running out of PPI or H2 blocker:",
+        "text": "common reason for urgent refill requests, especially when patients have a gap in insurance or prescriber access"
+      },
+      {
+        "label": "Obesity and overweight:",
+        "text": "increased intra-abdominal pressure worsens reflux and is a major modifiable risk factor"
+      },
+      {
+        "label": "Hiatal hernia:",
+        "text": "structural contributor to reflux that can worsen symptoms and reduce effectiveness of lifestyle changes alone"
+      },
+      {
+        "label": "Dietary triggers:",
+        "text": "fatty foods, spicy foods, chocolate, caffeine, alcohol, and citrus can worsen reflux episodes"
+      },
+      {
+        "label": "Eating close to bedtime:",
+        "text": "the ACG recommends avoiding meals 2 to 3 hours before bedtime to reduce nighttime reflux"
+      },
+      {
+        "label": "Smoking:",
+        "text": "reduces lower esophageal sphincter pressure and worsens reflux"
+      },
+      {
+        "label": "Medication-related reflux:",
+        "text": "certain medications including NSAIDs, calcium channel blockers, and bisphosphonates can worsen GERD symptoms"
+      }
     ],
     "closing": "Not every refill request is a routine refill. Some are actually signals that GERD management needs reassessment, endoscopy, or gastroenterology referral rather than simple continuation."
   },
-
   "symptomsAndRedFlags": {
     "sectionTitle": "Symptoms and Red Flags for Acid Reflux Refills in {state}",
     "intro": "Use this table to understand which refill scenarios may fit short bridge telehealth care and which patterns suggest urgent in-person or gastroenterology evaluation.",
-    "headers": ["Symptom or situation", "What it suggests", "Telehealth appropriate?", "Red flag requiring urgent in-person care"],
+    "headers": [
+      "Symptom or situation",
+      "What it suggests",
+      "Telehealth appropriate?",
+      "Red flag requiring urgent in-person care"
+    ],
     "rows": [
-      ["Needs refill of usual PPI or H2 blocker and symptoms are well controlled", "Routine bridge refill request", "Often yes", "Symptom breakthrough despite adequate PPI dosing"],
-      ["Occasional mild heartburn controlled by current medication", "Stable GERD on maintenance therapy", "Often yes", "Increasing frequency despite adherent PPI use"],
-      ["Wants to discuss stepping down PPI dose", "Potential for on-demand or lower-dose therapy in NERD", "Sometimes", "Severe erosive esophagitis (LA grade C/D) should not stop PPI without gastroenterology guidance"],
-      ["Difficulty swallowing food or sensation of food getting stuck", "Possible esophageal stricture, eosinophilic esophagitis, or malignancy", "No", "Needs endoscopy and in-person gastroenterology evaluation"],
-      ["Vomiting blood or black tarry stools", "Possible upper GI bleeding", "No", "Emergency evaluation now"],
-      ["Unexplained weight loss with GERD symptoms", "Possible esophageal or gastric malignancy concern", "No", "Urgent in-person evaluation and endoscopy"],
-      ["Chest pain not previously evaluated", "Must rule out cardiac etiology before attributing to GERD", "No", "Cardiac evaluation before GERD refill management"]
+      [
+        "Needs refill of usual PPI or H2 blocker and symptoms are well controlled",
+        "Routine bridge refill request",
+        "Often yes",
+        "Symptom breakthrough despite adequate PPI dosing"
+      ],
+      [
+        "Occasional mild heartburn controlled by current medication",
+        "Stable GERD on maintenance therapy",
+        "Often yes",
+        "Increasing frequency despite adherent PPI use"
+      ],
+      [
+        "Wants to discuss stepping down PPI dose",
+        "Potential for on-demand or lower-dose therapy in NERD",
+        "Sometimes",
+        "Severe erosive esophagitis (LA grade C/D) should not stop PPI without gastroenterology guidance"
+      ],
+      [
+        "Difficulty swallowing food or sensation of food getting stuck",
+        "Possible esophageal stricture, eosinophilic esophagitis, or malignancy",
+        "No",
+        "Needs endoscopy and in-person gastroenterology evaluation"
+      ],
+      [
+        "Vomiting blood or black tarry stools",
+        "Possible upper GI bleeding",
+        "No",
+        "Emergency evaluation now"
+      ],
+      [
+        "Unexplained weight loss with GERD symptoms",
+        "Possible esophageal or gastric malignancy concern",
+        "No",
+        "Urgent in-person evaluation and endoscopy"
+      ],
+      [
+        "Chest pain not previously evaluated",
+        "Must rule out cardiac etiology before attributing to GERD",
+        "No",
+        "Cardiac evaluation before GERD refill management"
+      ]
     ]
   },
-
   "differentialDiagnosis": {
     "sectionTitle": "Differential Diagnosis and Complications",
     "intro": "Upper GI symptoms are not always simple stable GERD. Refill visits must separate lower-risk bridge refill requests from alarm symptoms, refractory disease, and from other causes of chest pain or dysphagia.",
@@ -278,7 +363,6 @@
     ],
     "closing": "If your symptoms do not match a lower-risk bridge refill scenario or any alarm symptoms are present, TeleDirectMD will direct you to urgent in-person care or gastroenterology referral."
   },
-
   "telehealthEligibility": {
     "sectionTitle": "When Is a Video Visit Appropriate?",
     "appropriate": {
@@ -306,7 +390,6 @@
       "disclaimer": "If any red-flag symptoms are present, seek urgent in-person or emergency care. TeleDirectMD is not an emergency service."
     }
   },
-
   "treatmentOptions": {
     "sectionTitle": "Treatment Options",
     "intro": "Evidence-based GERD care focuses on acid suppression with proton pump inhibitors as the cornerstone of therapy, along with lifestyle modifications. The ACG Clinical Guideline recommends using the lowest effective PPI dose for maintenance and advises taking PPIs 30 to 60 minutes before a meal for maximum effectiveness.",
@@ -336,22 +419,55 @@
       "Complex new diagnosis workups for unexplained dysphagia or GI bleeding"
     ]
   },
-
   "medications": {
     "sectionTitle": "Common Medication Options",
     "intro": "These are common categories discussed for adult acid reflux refill care. Medication choice depends on the patient's established regimen, current symptom control, severity of erosive disease, and whether the request is truly a stable refill request.",
-    "headers": ["Option", "Examples", "Used for", "Key considerations"],
+    "headers": [
+      "Option",
+      "Examples",
+      "Used for",
+      "Key considerations"
+    ],
     "rows": [
-      ["Proton pump inhibitor (standard dose)", "Omeprazole 20 mg, pantoprazole 40 mg, esomeprazole 20 mg, lansoprazole 15 mg", "First-line maintenance therapy for GERD", "Take 30 to 60 minutes before a meal; use lowest effective dose for maintenance per ACG guidelines"],
-      ["Proton pump inhibitor (higher dose)", "Omeprazole 40 mg, esomeprazole 40 mg, lansoprazole 30 mg, dexlansoprazole 60 mg", "Erosive esophagitis or symptoms not controlled on standard dose", "LA grade C/D esophagitis generally requires indefinite PPI maintenance"],
-      ["H2 receptor antagonist", "Famotidine 20 to 40 mg", "Mild GERD, nighttime acid breakthrough, or PPI-intolerant patients", "Less effective than PPIs but fewer long-term concerns; often used as bedtime add-on"],
-      ["Dual-release PPI", "Dexlansoprazole 30 to 60 mg (Dexilant)", "GERD maintenance with dual delayed-release pharmacology", "Can be taken without regard to meals due to dual-release design"],
-      ["PPI (additional options)", "Rabeprazole 20 mg", "Established GERD patients on this specific PPI", "All PPIs have similar efficacy; choice often depends on patient's established regimen and insurance"],
-      ["Antacids and alginates (OTC adjuncts)", "Calcium carbonate, magnesium hydroxide, sodium alginate", "Occasional breakthrough symptom relief", "Not a substitute for PPI or H2 blocker therapy in established GERD; adjunct use only"]
+      [
+        "Proton pump inhibitor (standard dose)",
+        "Omeprazole 20 mg, pantoprazole 40 mg, esomeprazole 20 mg, lansoprazole 15 mg",
+        "First-line maintenance therapy for GERD",
+        "Take 30 to 60 minutes before a meal; use lowest effective dose for maintenance per ACG guidelines"
+      ],
+      [
+        "Proton pump inhibitor (higher dose)",
+        "Omeprazole 40 mg, esomeprazole 40 mg, lansoprazole 30 mg, dexlansoprazole 60 mg",
+        "Erosive esophagitis or symptoms not controlled on standard dose",
+        "LA grade C/D esophagitis generally requires indefinite PPI maintenance"
+      ],
+      [
+        "H2 receptor antagonist",
+        "Famotidine 20 to 40 mg",
+        "Mild GERD, nighttime acid breakthrough, or PPI-intolerant patients",
+        "Less effective than PPIs but fewer long-term concerns; often used as bedtime add-on"
+      ],
+      [
+        "Dual-release PPI",
+        "Dexlansoprazole 30 to 60 mg (Dexilant)",
+        "GERD maintenance with dual delayed-release pharmacology",
+        "Can be taken without regard to meals due to dual-release design"
+      ],
+      [
+        "PPI (additional options)",
+        "Rabeprazole 20 mg",
+        "Established GERD patients on this specific PPI",
+        "All PPIs have similar efficacy; choice often depends on patient's established regimen and insurance"
+      ],
+      [
+        "Antacids and alginates (OTC adjuncts)",
+        "Calcium carbonate, magnesium hydroxide, sodium alginate",
+        "Occasional breakthrough symptom relief",
+        "Not a substitute for PPI or H2 blocker therapy in established GERD; adjunct use only"
+      ]
     ],
     "note": "Medication selection and dosing are individualized. TeleDirectMD does not prescribe controlled substances, and none of these acid reflux medications are controlled substances. Refill treatment online is intended as bridge care when clinically appropriate, not as a substitute for gastroenterology evaluation when alarm symptoms or refractory GERD are present."
   },
-
   "homeCare": {
     "sectionTitle": "Home Care, Prevention, and Follow-up",
     "whatToDoNow": {
@@ -384,7 +500,6 @@
       ]
     }
   },
-
   "whenNotToUse": {
     "sectionTitle": "When Not to Use TeleDirectMD for Acid Reflux Refills in {state}",
     "intro": "TeleDirectMD is designed for selected short bridge refill care only. We are direct about when telehealth is not the right fit.",
@@ -404,13 +519,21 @@
     "alternatives": {
       "title": "Alternative Care Options",
       "items": [
-        { "label": "Emergency room:", "text": "vomiting blood, black tarry stools, signs of upper GI hemorrhage, or chest pain concerning for cardiac cause" },
-        { "label": "Urgent care:", "text": "worsening GERD symptoms, persistent vomiting, or dehydration that is not clearly ER level but is not stable" },
-        { "label": "Primary care or gastroenterology:", "text": "long-term GERD management, PPI step-down planning, endoscopy, Barrett's esophagus surveillance, and refractory GERD evaluation" }
+        {
+          "label": "Emergency room:",
+          "text": "vomiting blood, black tarry stools, signs of upper GI hemorrhage, or chest pain concerning for cardiac cause"
+        },
+        {
+          "label": "Urgent care:",
+          "text": "worsening GERD symptoms, persistent vomiting, or dehydration that is not clearly ER level but is not stable"
+        },
+        {
+          "label": "Primary care or gastroenterology:",
+          "text": "long-term GERD management, PPI step-down planning, endoscopy, Barrett's esophagus surveillance, and refractory GERD evaluation"
+        }
       ]
     }
   },
-
   "faq": {
     "sectionTitle": "Acid Reflux Refill FAQs for {state}",
     "items": [
@@ -468,15 +591,28 @@
       "text": "Insurance is not required. Adult-only video visits. MD-only care. Safety-first triage, short bridge refills when appropriate, and clear next steps."
     }
   },
-
   "references": [
-    { "text": "ACG Clinical Guideline for Diagnosis and Management of Gastroesophageal Reflux Disease (2022)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8754510/" },
-    { "text": "ASGE 2025 GERD Guideline and ACG/ASGE Comparison", "url": "https://www.guidelinecentral.com/insights/sept-2025-gerd-guideline-sidebyside" },
-    { "text": "ACG Patient Information on GERD", "url": "https://gi.org/topics/acid-reflux/" },
-    { "text": "NIDDK — Gastroesophageal Reflux (GER) and GERD Information", "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/acid-reflux-ger-gerd-adults" },
-    { "text": "StatPearls — Gastroesophageal Reflux Disease", "url": "https://www.ncbi.nlm.nih.gov/books/NBK441938/" }
+    {
+      "text": "ACG Clinical Guideline for Diagnosis and Management of Gastroesophageal Reflux Disease (2022)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8754510/"
+    },
+    {
+      "text": "ASGE 2025 GERD Guideline and ACG/ASGE Comparison",
+      "url": "https://www.guidelinecentral.com/insights/sept-2025-gerd-guideline-sidebyside"
+    },
+    {
+      "text": "ACG Patient Information on GERD",
+      "url": "https://gi.org/topics/acid-reflux/"
+    },
+    {
+      "text": "NIDDK — Gastroesophageal Reflux (GER) and GERD Information",
+      "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/acid-reflux-ger-gerd-adults"
+    },
+    {
+      "text": "StatPearls — Gastroesophageal Reflux Disease",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK441938/"
+    }
   ],
-
   "disclaimer": {
     "sectionTitle": "TeleDirectMD Telehealth Disclaimer",
     "paragraphs": [
@@ -485,7 +621,6 @@
       "Online acid reflux refills in {state}. PPI refill online. GERD medication refill bridge care. Omeprazole refill online. Pantoprazole refill online {state}."
     ]
   },
-
   "relatedConditions": [
     {
       "slug": "sore-throat-treatment-online",
@@ -508,37 +643,84 @@
       "description": "Another common {state} chronic medication refill pathway for adults using TeleDirectMD"
     }
   ],
-
   "inlineLinks": [
-    { "slug": "sore-throat-treatment-online", "label": "Sore Throat" },
-    { "slug": "asthma-refills-online", "label": "Asthma Refills" },
-    { "slug": "sinus-infection-treatment-online", "label": "Sinus Infection" },
-    { "slug": "hypothyroidism-refills-online", "label": "Hypothyroidism Refills" },
-    { "slug": "hypertension-refills-online", "label": "Blood Pressure Medication Refills" },
-    { "slug": "smoking-cessation-treatment-online", "label": "Smoking Cessation" },
-    { "slug": "uti-treatment-online", "label": "UTI" },
-    { "slug": "seasonal-allergies-treatment-online", "label": "Seasonal Allergies" },
-    { "slug": "hyperlipidemia-refills-online", "label": "Cholesterol Medication Refills" },
-    { "slug": "dental-pain-treatment-online", "label": "Dental Pain" }
+    {
+      "slug": "sore-throat-treatment-online",
+      "label": "Sore Throat"
+    },
+    {
+      "slug": "asthma-refills-online",
+      "label": "Asthma Refills"
+    },
+    {
+      "slug": "sinus-infection-treatment-online",
+      "label": "Sinus Infection"
+    },
+    {
+      "slug": "hypothyroidism-refills-online",
+      "label": "Hypothyroidism Refills"
+    },
+    {
+      "slug": "hypertension-refills-online",
+      "label": "Blood Pressure Medication Refills"
+    },
+    {
+      "slug": "smoking-cessation-treatment-online",
+      "label": "Smoking Cessation"
+    },
+    {
+      "slug": "uti-treatment-online",
+      "label": "UTI"
+    },
+    {
+      "slug": "seasonal-allergies-treatment-online",
+      "label": "Seasonal Allergies"
+    },
+    {
+      "slug": "hyperlipidemia-refills-online",
+      "label": "Cholesterol Medication Refills"
+    },
+    {
+      "slug": "dental-pain-treatment-online",
+      "label": "Dental Pain"
+    }
   ],
-
   "cityBlock": {
     "title": "Adults We Serve Across {state}",
     "text": "TeleDirectMD evaluates adults located throughout {state}, including {citiesExtended}. Whether you are searching for online acid reflux refills in {city1}, GERD medication refills in {city2}, PPI refill care in {city3}, or acid reflux bridge care anywhere else in {state}, the same telehealth eligibility and safety rules apply."
   },
-
   "icd10Codes": [
-    { "code": "K21.0", "description": "Gastro-esophageal reflux disease with esophagitis" },
-    { "code": "K21.9", "description": "Gastro-esophageal reflux disease without esophagitis" }
+    {
+      "code": "K21.0",
+      "description": "Gastro-esophageal reflux disease with esophagitis"
+    },
+    {
+      "code": "K21.9",
+      "description": "Gastro-esophageal reflux disease without esophagitis"
+    }
   ],
-
   "jsonLd": {
     "conditionName": "Gastroesophageal Reflux Disease",
-    "conditionAlternateNames": ["GERD", "Acid reflux", "Acid reflux refill care", "PPI refill", "Heartburn", "Gastric reflux"],
+    "conditionAlternateNames": [
+      "GERD",
+      "Acid reflux",
+      "Acid reflux refill care",
+      "PPI refill",
+      "Heartburn",
+      "Gastric reflux"
+    ],
     "conditionDescription": "Acid reflux (GERD) refill care involves reviewing whether it is safe and appropriate to continue a patient's established acid-suppressive medications, especially proton pump inhibitors and H2 receptor antagonists. TeleDirectMD evaluates adult refill requests by video visit with safety-first alarm symptom screening and provides short bridge refill guidance when appropriate, with clear rules for when gastroenterology referral or in-person care is needed.",
     "primaryIcd10": "K21.0",
     "anatomy": "Esophagus",
-    "symptoms": ["Heartburn", "Acid regurgitation", "Chest pain", "Dysphagia", "Chronic cough", "Hoarseness", "Throat irritation"],
+    "symptoms": [
+      "Heartburn",
+      "Acid regurgitation",
+      "Chest pain",
+      "Dysphagia",
+      "Chronic cough",
+      "Hoarseness",
+      "Throat irritation"
+    ],
     "riskFactors": [
       "Obesity and overweight",
       "Hiatal hernia",
@@ -558,13 +740,34 @@
     ],
     "epidemiology": "GERD affects approximately 20 percent of US adults and is one of the most common chronic gastrointestinal conditions requiring long-term medication management.",
     "drugs": [
-      { "name": "Omeprazole", "id": "omeprazole" },
-      { "name": "Pantoprazole", "id": "pantoprazole" },
-      { "name": "Esomeprazole", "id": "esomeprazole" },
-      { "name": "Lansoprazole", "id": "lansoprazole" },
-      { "name": "Dexlansoprazole", "id": "dexlansoprazole" },
-      { "name": "Rabeprazole", "id": "rabeprazole" },
-      { "name": "Famotidine", "id": "famotidine" }
+      {
+        "name": "Omeprazole",
+        "id": "omeprazole"
+      },
+      {
+        "name": "Pantoprazole",
+        "id": "pantoprazole"
+      },
+      {
+        "name": "Esomeprazole",
+        "id": "esomeprazole"
+      },
+      {
+        "name": "Lansoprazole",
+        "id": "lansoprazole"
+      },
+      {
+        "name": "Dexlansoprazole",
+        "id": "dexlansoprazole"
+      },
+      {
+        "name": "Rabeprazole",
+        "id": "rabeprazole"
+      },
+      {
+        "name": "Famotidine",
+        "id": "famotidine"
+      }
     ],
     "treatments": [
       "Short bridge PPI refill care",
@@ -577,10 +780,24 @@
       "Upper endoscopy (EGD) for alarm symptoms or refractory GERD",
       "Esophageal pH monitoring when diagnosis is uncertain"
     ],
-    "specialties": ["Family Medicine", "Telemedicine", "Gastroenterology"],
+    "specialties": [
+      "Family Medicine",
+      "Telemedicine",
+      "Gastroenterology"
+    ],
     "guidelines": [
-      { "name": "ACG Clinical Guideline for Diagnosis and Management of Gastroesophageal Reflux Disease (2022)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8754510/", "publisher": "American College of Gastroenterology", "id": "acg-gerd" },
-      { "name": "ASGE 2025 GERD Guideline", "url": "https://www.guidelinecentral.com/insights/sept-2025-gerd-guideline-sidebyside", "publisher": "American Society for Gastrointestinal Endoscopy", "id": "asge-gerd" }
+      {
+        "name": "ACG Clinical Guideline for Diagnosis and Management of Gastroesophageal Reflux Disease (2022)",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8754510/",
+        "publisher": "American College of Gastroenterology",
+        "id": "acg-gerd"
+      },
+      {
+        "name": "ASGE 2025 GERD Guideline",
+        "url": "https://www.guidelinecentral.com/insights/sept-2025-gerd-guideline-sidebyside",
+        "publisher": "American Society for Gastrointestinal Endoscopy",
+        "id": "asge-gerd"
+      }
     ],
     "knowsAbout": [
       "Acid reflux refill care",
@@ -592,5 +809,7 @@
     ],
     "serviceDescription": "Secure video visit for {state} adults requesting acid reflux and GERD medication refill care, including alarm symptom screening, PPI and H2 blocker review, and short bridge refill treatment when appropriate.",
     "webpageDescription": "{state} acid reflux and GERD medication refill treatment by secure MD video visit for adults. Evidence-based PPI and H2 blocker refill care, alarm symptom screening, short bridge refills when appropriate, and clear rules for when gastroenterology referral or in-person care is needed."
-  }
+  },
+  "guidelineSource": "acg",
+  "conditionType": "refill"
 }

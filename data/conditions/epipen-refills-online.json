@@ -2,20 +2,34 @@
   "conditionName": "EpiPen Refills",
   "conditionShort": "EpiPen",
   "conditionSlug": "epipen-refills-online",
-  "pageTitle": "EpiPen Refills Online in {state} | Epinephrine Auto-Injector Refill MD Video Visit | TeleDirectMD",
+  "pageTitle": "EpiPen Online Refills in {state} | TeleDirectMD",
   "metaDescription": "Fast, evidence-based EpiPen refill care for {state} adults by secure video visit. Red-flag screening, epinephrine auto-injector refill evaluation, and 2-pack prescriptions when appropriate. Self pay option starting at $49. Insurance is not required.",
   "ogImageAlt": "EpiPen refills in {state} by TeleDirectMD",
-
   "hero": {
     "h1": "EpiPen Refills in {state} (Epinephrine Auto-Injector Refill Care)",
     "subtitle": "{state} adult care by secure video visit, self pay option starting at $49, MD-only, insurance is not required.",
     "introParagraph": "Adults with a known history of severe allergic reactions often search for online EpiPen refills when their current epinephrine auto-injectors are expired or approaching expiration, but not every refill request is as simple as it seems. Anaphylaxis is a life-threatening emergency that can occur within minutes of allergen exposure, and national guidelines from the ACAAI and AAAAI emphasize that patients with a history of anaphylaxis should carry two unexpired epinephrine auto-injectors at all times. EpiPens and generic epinephrine auto-injectors typically expire every 12 to 18 months, meaning regular refills are critical to maintaining emergency preparedness. TeleDirectMD uses a safety-first telemedicine approach by reviewing your allergy history, prior anaphylactic events, current auto-injector status, expiration dates, and whether you have an up-to-date anaphylaxis action plan. If the history supports a straightforward refill of a previously prescribed epinephrine auto-injector, a 2-pack prescription may be appropriate by video visit, while adults experiencing active anaphylaxis symptoms or those who have never been prescribed an EpiPen before are directed to emergency care or an allergist. This page is for adults located in {state}, including {cities}.",
     "tocLinks": [
-      { "href": "eligibility-checklist", "label": "Eligibility checklist" },
-      { "href": "decision-guide", "label": "Decision guide" },
-      { "href": "treatment-options", "label": "Treatment options" },
-      { "href": "faq", "label": "FAQs" },
-      { "href": "references", "label": "References" }
+      {
+        "href": "eligibility-checklist",
+        "label": "Eligibility checklist"
+      },
+      {
+        "href": "decision-guide",
+        "label": "Decision guide"
+      },
+      {
+        "href": "treatment-options",
+        "label": "Treatment options"
+      },
+      {
+        "href": "faq",
+        "label": "FAQs"
+      },
+      {
+        "href": "references",
+        "label": "References"
+      }
     ],
     "benefits": [
       "Self pay option starting at $49",
@@ -35,7 +49,6 @@
     },
     "icd10Display": "Z87.892, T78.2XXA (final coding depends on clinical details)"
   },
-
   "eligibility": {
     "sectionTitle": "EpiPen Refill Telehealth Eligibility Checklist for {state}",
     "introText": "You are likely eligible for a TeleDirectMD video visit if ALL of these are true:",
@@ -60,7 +73,6 @@
     ],
     "notEligibleDisclaimer": "If you are having anaphylaxis symptoms now, use your EpiPen immediately and call 911. Do not use telehealth during an active allergic emergency. TeleDirectMD is not an emergency service."
   },
-
   "howItWorks": {
     "sectionTitle": "How Online EpiPen Refills Work in {state}",
     "steps": [
@@ -82,7 +94,6 @@
       }
     ]
   },
-
   "telehealthRegulations": {
     "sectionTitle": "{state} Telehealth Regulations for Online EpiPen Refill Care",
     "paragraphs": [
@@ -90,7 +101,6 @@
       "Location matters: you must be physically in {state} during the visit. Insurance is not required. Epinephrine is not a controlled substance. TeleDirectMD does not prescribe controlled substances."
     ]
   },
-
   "comparisonTable": {
     "sectionTitle": "TeleDirectMD vs Other Care Options for EpiPen Refills in {state}",
     "intro": "Here is how TeleDirectMD compares to common settings for adult EpiPen refill care in {state}:",
@@ -130,7 +140,6 @@
     ],
     "bottomLine": "TeleDirectMD is a strong fit for adults with an established allergy history who need a straightforward epinephrine auto-injector refill and anaphylaxis action plan review. This is not the right setting for active anaphylaxis, new allergy diagnosis, or allergy testing."
   },
-
   "decisionGuide": {
     "sectionTitle": "Should I Use TeleDirectMD for EpiPen Refills in {state}? Decision Guide",
     "steps": [
@@ -175,7 +184,6 @@
       }
     ]
   },
-
   "pricing": {
     "sectionTitle": "What Do Online EpiPen Refills Cost in {state}?",
     "subtitle": "Transparent options. Insurance is not required.",
@@ -188,15 +196,34 @@
       "Anaphylaxis action plan review and clear escalation instructions"
     ],
     "comparisonBars": [
-      { "name": "TeleDirectMD", "value": "$49", "width": 12, "isTdmd": true },
-      { "name": "Primary Care or Allergist", "value": "$100 to $350+", "width": 52, "isTdmd": false },
-      { "name": "Urgent Care", "value": "$150 to $300+", "width": 60, "isTdmd": false },
-      { "name": "Emergency Room", "value": "$500 to $3,000+", "width": 100, "isTdmd": false }
+      {
+        "name": "TeleDirectMD",
+        "value": "$49",
+        "width": 12,
+        "isTdmd": true
+      },
+      {
+        "name": "Primary Care or Allergist",
+        "value": "$100 to $350+",
+        "width": 52,
+        "isTdmd": false
+      },
+      {
+        "name": "Urgent Care",
+        "value": "$150 to $300+",
+        "width": 60,
+        "isTdmd": false
+      },
+      {
+        "name": "Emergency Room",
+        "value": "$500 to $3,000+",
+        "width": 100,
+        "isTdmd": false
+      }
     ],
     "footnote": "Prescription costs are separate and vary by auto-injector brand and pharmacy. EpiPen and generic epinephrine auto-injector costs vary widely — ask your pharmacist about savings programs and generic options.",
     "noHiddenFees": "No hidden fees. If a refill is not clinically appropriate, you still receive a complete evaluation, guidance, and clear instructions on what level of care you need next."
   },
-
   "whatIsCondition": {
     "sectionTitle": "What Is EpiPen Refill Care?",
     "paragraphs": [
@@ -205,37 +232,95 @@
       "A safe telehealth refill visit depends on the patient having an established allergy diagnosis and prior EpiPen prescription. Refill care is not the same thing as diagnosing a new allergy, performing allergy testing, or managing active anaphylaxis. TeleDirectMD provides refill prescriptions for the epinephrine auto-injector itself and reinforces the anaphylaxis action plan — use EpiPen, call 911, go to the ER even if symptoms improve because biphasic reactions can occur hours later."
     ]
   },
-
   "causesAndRiskFactors": {
     "sectionTitle": "Causes and Risk Factors",
     "intro": "Adults request EpiPen refills for several reasons, but some refill requests may reveal gaps in emergency preparedness, outdated action plans, or a history that needs re-evaluation by an allergist rather than a simple refill.",
     "items": [
-      { "label": "Expired auto-injectors:", "text": "the most common reason for refill requests — EpiPens typically expire every 12 to 18 months and must be replaced before expiration to ensure reliable emergency use" },
-      { "label": "Approaching expiration:", "text": "proactive patients seeking refills before their current devices expire, which is the recommended approach rather than waiting until they are already expired" },
-      { "label": "Food allergy history:", "text": "peanuts, tree nuts, shellfish, fish, milk, eggs, wheat, and soy are the most common food triggers for anaphylaxis in adults" },
-      { "label": "Insect sting allergy:", "text": "bee, wasp, hornet, yellow jacket, and fire ant stings account for a significant portion of adult anaphylaxis cases" },
-      { "label": "Medication allergy:", "text": "penicillin, NSAIDs, and contrast dye are among the most common medication triggers for severe allergic reactions" },
-      { "label": "Used EpiPen during a recent reaction:", "text": "patients who recently used their auto-injector need a replacement immediately since each device is single-use" },
-      { "label": "Lost or damaged device:", "text": "auto-injectors exposed to extreme temperatures, direct sunlight, or physical damage may not function reliably" }
+      {
+        "label": "Expired auto-injectors:",
+        "text": "the most common reason for refill requests — EpiPens typically expire every 12 to 18 months and must be replaced before expiration to ensure reliable emergency use"
+      },
+      {
+        "label": "Approaching expiration:",
+        "text": "proactive patients seeking refills before their current devices expire, which is the recommended approach rather than waiting until they are already expired"
+      },
+      {
+        "label": "Food allergy history:",
+        "text": "peanuts, tree nuts, shellfish, fish, milk, eggs, wheat, and soy are the most common food triggers for anaphylaxis in adults"
+      },
+      {
+        "label": "Insect sting allergy:",
+        "text": "bee, wasp, hornet, yellow jacket, and fire ant stings account for a significant portion of adult anaphylaxis cases"
+      },
+      {
+        "label": "Medication allergy:",
+        "text": "penicillin, NSAIDs, and contrast dye are among the most common medication triggers for severe allergic reactions"
+      },
+      {
+        "label": "Used EpiPen during a recent reaction:",
+        "text": "patients who recently used their auto-injector need a replacement immediately since each device is single-use"
+      },
+      {
+        "label": "Lost or damaged device:",
+        "text": "auto-injectors exposed to extreme temperatures, direct sunlight, or physical damage may not function reliably"
+      }
     ],
     "closing": "Not every refill request is straightforward. If a patient has never been formally evaluated by an allergist, has an uncertain allergy diagnosis, or recently had a severe reaction without ER follow-up, a refill-only visit may not be sufficient and formal allergy evaluation should be prioritized."
   },
-
   "symptomsAndRedFlags": {
     "sectionTitle": "Symptoms and Red Flags for EpiPen Refills in {state}",
     "intro": "Use this table to understand which EpiPen refill scenarios may fit a telehealth video visit and which situations require emergency care or in-person allergist evaluation.",
-    "headers": ["Symptom or situation", "What it suggests", "Telehealth appropriate?", "Red flag requiring urgent in-person care"],
+    "headers": [
+      "Symptom or situation",
+      "What it suggests",
+      "Telehealth appropriate?",
+      "Red flag requiring urgent in-person care"
+    ],
     "rows": [
-      ["EpiPen expired or approaching expiration with stable allergy history", "Routine refill request for established patient", "Often yes", "Active allergic reaction symptoms at time of request"],
-      ["Recently used EpiPen during allergic reaction and went to ER as directed", "Replacement needed after appropriate emergency use", "Often yes", "Used EpiPen but did NOT go to ER — needs evaluation for possible biphasic reaction risk"],
-      ["Known food allergy with prior anaphylaxis and needs updated prescription", "Established allergy history needing continued emergency preparedness", "Often yes", "New or worsening allergic reactions suggesting allergy pattern may be changing"],
-      ["Known insect sting allergy with EpiPen history", "Refill for seasonal preparedness especially during warmer months", "Often yes", "Recent severe reaction with incomplete recovery or new systemic symptoms"],
-      ["Patient unsure if they actually need an EpiPen", "Uncertain allergy diagnosis — may need formal evaluation", "Usually no", "See allergist for skin prick testing and formal anaphylaxis risk assessment"],
-      ["Active throat swelling, widespread hives, difficulty breathing, or dizziness", "Possible active anaphylaxis", "No — call 911", "Use EpiPen immediately and call 911 — this is a medical emergency"],
-      ["Never been prescribed EpiPen before but thinks they have a severe allergy", "Needs initial allergy workup, not a refill", "No", "Allergist evaluation required for new diagnosis, testing, and action plan creation"]
+      [
+        "EpiPen expired or approaching expiration with stable allergy history",
+        "Routine refill request for established patient",
+        "Often yes",
+        "Active allergic reaction symptoms at time of request"
+      ],
+      [
+        "Recently used EpiPen during allergic reaction and went to ER as directed",
+        "Replacement needed after appropriate emergency use",
+        "Often yes",
+        "Used EpiPen but did NOT go to ER — needs evaluation for possible biphasic reaction risk"
+      ],
+      [
+        "Known food allergy with prior anaphylaxis and needs updated prescription",
+        "Established allergy history needing continued emergency preparedness",
+        "Often yes",
+        "New or worsening allergic reactions suggesting allergy pattern may be changing"
+      ],
+      [
+        "Known insect sting allergy with EpiPen history",
+        "Refill for seasonal preparedness especially during warmer months",
+        "Often yes",
+        "Recent severe reaction with incomplete recovery or new systemic symptoms"
+      ],
+      [
+        "Patient unsure if they actually need an EpiPen",
+        "Uncertain allergy diagnosis — may need formal evaluation",
+        "Usually no",
+        "See allergist for skin prick testing and formal anaphylaxis risk assessment"
+      ],
+      [
+        "Active throat swelling, widespread hives, difficulty breathing, or dizziness",
+        "Possible active anaphylaxis",
+        "No — call 911",
+        "Use EpiPen immediately and call 911 — this is a medical emergency"
+      ],
+      [
+        "Never been prescribed EpiPen before but thinks they have a severe allergy",
+        "Needs initial allergy workup, not a refill",
+        "No",
+        "Allergist evaluation required for new diagnosis, testing, and action plan creation"
+      ]
     ]
   },
-
   "differentialDiagnosis": {
     "sectionTitle": "Differential Diagnosis and Complications",
     "intro": "Not every patient requesting an EpiPen refill has a straightforward situation. Refill visits must confirm the patient has an established allergy history appropriate for continued epinephrine auto-injector prescription and identify scenarios where further evaluation is needed.",
@@ -276,7 +361,6 @@
     ],
     "closing": "If your situation does not match a straightforward EpiPen refill scenario or any red flags are present, TeleDirectMD will direct you to emergency care or an allergist for proper evaluation."
   },
-
   "telehealthEligibility": {
     "sectionTitle": "When Is a Video Visit Appropriate?",
     "appropriate": {
@@ -303,7 +387,6 @@
       "disclaimer": "If you are experiencing anaphylaxis symptoms, use your EpiPen immediately and call 911. Go to the ER even if symptoms improve — biphasic reactions can occur hours later. TeleDirectMD is not an emergency service."
     }
   },
-
   "treatmentOptions": {
     "sectionTitle": "Treatment Options",
     "intro": "EpiPen refill care is unique among telehealth medication refills because the medication being prescribed is for emergency use, not daily use. The goal of a refill visit is to ensure the patient always has two unexpired, accessible epinephrine auto-injectors and understands exactly when and how to use them. The ACAAI emphasizes that epinephrine is the first-line treatment for anaphylaxis and should be administered immediately when symptoms occur.",
@@ -334,21 +417,49 @@
       "Pediatric dosing (TeleDirectMD serves adults 18+ only)"
     ]
   },
-
   "medications": {
     "sectionTitle": "Common Medication Options",
     "intro": "These are the epinephrine auto-injector options discussed during adult EpiPen refill visits. All deliver the same active medication — epinephrine 0.3 mg for adults — but differ in device design, activation method, and cost. National guidelines recommend always prescribing a 2-pack (two auto-injectors).",
-    "headers": ["Option", "Examples", "Used for", "Key considerations"],
+    "headers": [
+      "Option",
+      "Examples",
+      "Used for",
+      "Key considerations"
+    ],
     "rows": [
-      ["EpiPen 0.3 mg", "EpiPen (brand name)", "Emergency treatment of anaphylaxis in adults and children over 30 kg", "Most widely recognized brand — administered by pressing firmly against outer thigh; auto-injects epinephrine 0.3 mg; always prescribe 2-pack"],
-      ["Generic epinephrine auto-injector 0.3 mg", "Authorized generic epinephrine auto-injectors", "Same indication as brand EpiPen at potentially lower cost", "Bioequivalent to brand EpiPen — same dose, same mechanism; often significantly less expensive; always prescribe 2-pack"],
-      ["Auvi-Q 0.3 mg", "Auvi-Q (epinephrine injection)", "Emergency anaphylaxis treatment with voice-guided instructions", "Compact design with built-in voice instructions that walk the user through injection steps; may improve correct use in high-stress emergencies; always prescribe 2-pack"],
-      ["Adrenaclick 0.3 mg", "Adrenaclick (epinephrine injection)", "Emergency anaphylaxis treatment — alternative device design", "Requires removing two caps before injection rather than a single activation; patients should practice with trainer device; not interchangeable with EpiPen at pharmacy without new prescription; always prescribe 2-pack"],
-      ["Symjepi 0.3 mg", "Symjepi (epinephrine prefilled syringe)", "Emergency anaphylaxis treatment — manual syringe delivery", "Pre-filled syringe rather than auto-injector — requires manual injection; compact and portable; may be preferred by patients comfortable with manual injection technique; always prescribe 2-pack"]
+      [
+        "EpiPen 0.3 mg",
+        "EpiPen (brand name)",
+        "Emergency treatment of anaphylaxis in adults and children over 30 kg",
+        "Most widely recognized brand — administered by pressing firmly against outer thigh; auto-injects epinephrine 0.3 mg; always prescribe 2-pack"
+      ],
+      [
+        "Generic epinephrine auto-injector 0.3 mg",
+        "Authorized generic epinephrine auto-injectors",
+        "Same indication as brand EpiPen at potentially lower cost",
+        "Bioequivalent to brand EpiPen — same dose, same mechanism; often significantly less expensive; always prescribe 2-pack"
+      ],
+      [
+        "Auvi-Q 0.3 mg",
+        "Auvi-Q (epinephrine injection)",
+        "Emergency anaphylaxis treatment with voice-guided instructions",
+        "Compact design with built-in voice instructions that walk the user through injection steps; may improve correct use in high-stress emergencies; always prescribe 2-pack"
+      ],
+      [
+        "Adrenaclick 0.3 mg",
+        "Adrenaclick (epinephrine injection)",
+        "Emergency anaphylaxis treatment — alternative device design",
+        "Requires removing two caps before injection rather than a single activation; patients should practice with trainer device; not interchangeable with EpiPen at pharmacy without new prescription; always prescribe 2-pack"
+      ],
+      [
+        "Symjepi 0.3 mg",
+        "Symjepi (epinephrine prefilled syringe)",
+        "Emergency anaphylaxis treatment — manual syringe delivery",
+        "Pre-filled syringe rather than auto-injector — requires manual injection; compact and portable; may be preferred by patients comfortable with manual injection technique; always prescribe 2-pack"
+      ]
     ],
     "note": "Epinephrine is not a controlled substance. All adult auto-injectors deliver epinephrine 0.3 mg intramuscularly. Device choice depends on patient preference, comfort with the injection mechanism, insurance coverage, and cost. TeleDirectMD does not prescribe controlled substances, and EpiPen refills are intended for adults with established allergy history, not as a substitute for formal allergy evaluation."
   },
-
   "homeCare": {
     "sectionTitle": "Home Care, Prevention, and Follow-up",
     "whatToDoNow": {
@@ -380,7 +491,6 @@
       ]
     }
   },
-
   "whenNotToUse": {
     "sectionTitle": "When Not to Use TeleDirectMD for EpiPen Refills in {state}",
     "intro": "TeleDirectMD is designed for selected EpiPen refill care only. We are direct about when telehealth is not the right fit.",
@@ -400,13 +510,21 @@
     "alternatives": {
       "title": "Alternative Care Options",
       "items": [
-        { "label": "Emergency room:", "text": "active anaphylaxis, severe allergic reaction, throat swelling, difficulty breathing, or collapse — use EpiPen and call 911 first" },
-        { "label": "Urgent care:", "text": "mild to moderate allergic reaction that is not life-threatening but needs same-day in-person evaluation" },
-        { "label": "Primary care or allergist:", "text": "new allergy diagnosis, formal allergy testing, immunotherapy, venom immunotherapy, and long-term allergy management plans" }
+        {
+          "label": "Emergency room:",
+          "text": "active anaphylaxis, severe allergic reaction, throat swelling, difficulty breathing, or collapse — use EpiPen and call 911 first"
+        },
+        {
+          "label": "Urgent care:",
+          "text": "mild to moderate allergic reaction that is not life-threatening but needs same-day in-person evaluation"
+        },
+        {
+          "label": "Primary care or allergist:",
+          "text": "new allergy diagnosis, formal allergy testing, immunotherapy, venom immunotherapy, and long-term allergy management plans"
+        }
       ]
     }
   },
-
   "faq": {
     "sectionTitle": "EpiPen Refill FAQs for {state}",
     "items": [
@@ -464,15 +582,28 @@
       "text": "Insurance is not required. Adult-only video visits. MD-only care. Safety-first triage, EpiPen refill prescriptions when appropriate, and clear next steps."
     }
   },
-
   "references": [
-    { "text": "ACAAI/AAAAI Anaphylaxis Practice Parameter and Management Guidelines", "url": "https://www.aaaai.org/conditions-treatments/allergies/anaphylaxis" },
-    { "text": "EpiPen Official Healthcare Professional and Patient Education Resources", "url": "https://www.epipen.com/for-healthcare-partners/patient-education" },
-    { "text": "ACAAI Epinephrine Auto-Injector Patient Guide", "url": "https://acaai.org/allergies/management-treatment/epinephrine-auto-injectors/" },
-    { "text": "World Allergy Organization Anaphylaxis Guidelines", "url": "https://www.worldallergy.org/resources/anaphylaxis" },
-    { "text": "FDA Epinephrine Auto-Injector Safety and Prescribing Information", "url": "https://www.fda.gov/drugs/postmarket-drug-safety-information-patients-and-providers/epinephrine-auto-injector" }
+    {
+      "text": "ACAAI/AAAAI Anaphylaxis Practice Parameter and Management Guidelines",
+      "url": "https://www.aaaai.org/conditions-treatments/allergies/anaphylaxis"
+    },
+    {
+      "text": "EpiPen Official Healthcare Professional and Patient Education Resources",
+      "url": "https://www.epipen.com/for-healthcare-partners/patient-education"
+    },
+    {
+      "text": "ACAAI Epinephrine Auto-Injector Patient Guide",
+      "url": "https://acaai.org/allergies/management-treatment/epinephrine-auto-injectors/"
+    },
+    {
+      "text": "World Allergy Organization Anaphylaxis Guidelines",
+      "url": "https://www.worldallergy.org/resources/anaphylaxis"
+    },
+    {
+      "text": "FDA Epinephrine Auto-Injector Safety and Prescribing Information",
+      "url": "https://www.fda.gov/drugs/postmarket-drug-safety-information-patients-and-providers/epinephrine-auto-injector"
+    }
   ],
-
   "disclaimer": {
     "sectionTitle": "TeleDirectMD Telehealth Disclaimer",
     "paragraphs": [
@@ -481,7 +612,6 @@
       "Online EpiPen refills in {state}. Epinephrine auto-injector refill online. EpiPen prescription renewal. Auvi-Q refill. Anaphylaxis emergency medication refill care."
     ]
   },
-
   "relatedConditions": [
     {
       "slug": "seasonal-allergies-treatment-online",
@@ -504,38 +634,86 @@
       "description": "Atopic dermatitis is part of the atopic triad with asthma and allergies, and patients with eczema may have higher anaphylaxis risk"
     }
   ],
-
   "inlineLinks": [
-    { "slug": "seasonal-allergies-treatment-online", "label": "Seasonal Allergies" },
-    { "slug": "asthma-refills-online", "label": "Asthma Refills" },
-    { "slug": "sinus-infection-treatment-online", "label": "Sinus Infection" },
-    { "slug": "eczema-treatment-online", "label": "Eczema" },
-    { "slug": "cold-sore-treatment-online", "label": "Cold Sore" },
-    { "slug": "pink-eye-treatment-online", "label": "Pink Eye" },
-    { "slug": "uti-treatment-online", "label": "UTI" },
-    { "slug": "sore-throat-treatment-online", "label": "Sore Throat" },
-    { "slug": "contact-dermatitis-treatment-online", "label": "Contact Dermatitis" },
-    { "slug": "rosacea-treatment-online", "label": "Rosacea" }
+    {
+      "slug": "seasonal-allergies-treatment-online",
+      "label": "Seasonal Allergies"
+    },
+    {
+      "slug": "asthma-refills-online",
+      "label": "Asthma Refills"
+    },
+    {
+      "slug": "sinus-infection-treatment-online",
+      "label": "Sinus Infection"
+    },
+    {
+      "slug": "eczema-treatment-online",
+      "label": "Eczema"
+    },
+    {
+      "slug": "cold-sore-treatment-online",
+      "label": "Cold Sore"
+    },
+    {
+      "slug": "pink-eye-treatment-online",
+      "label": "Pink Eye"
+    },
+    {
+      "slug": "uti-treatment-online",
+      "label": "UTI"
+    },
+    {
+      "slug": "sore-throat-treatment-online",
+      "label": "Sore Throat"
+    },
+    {
+      "slug": "contact-dermatitis-treatment-online",
+      "label": "Contact Dermatitis"
+    },
+    {
+      "slug": "rosacea-treatment-online",
+      "label": "Rosacea"
+    }
   ],
-
   "cityBlock": {
     "title": "Adults We Serve Across {state}",
     "text": "TeleDirectMD evaluates adults located throughout {state}, including {citiesExtended}. Whether you are searching for online EpiPen refills in {city1}, epinephrine auto-injector refill care in {city2}, anaphylaxis medication renewal in {city3}, or EpiPen prescription help anywhere else in {state}, the same telehealth eligibility and safety rules apply."
   },
-
   "icd10Codes": [
-    { "code": "Z87.892", "description": "Personal history of anaphylaxis" },
-    { "code": "T78.2XXA", "description": "Anaphylactic shock, unspecified, initial encounter" },
-    { "code": "Z88.9", "description": "Allergy status to unspecified drugs, medicaments, and biological substances" }
+    {
+      "code": "Z87.892",
+      "description": "Personal history of anaphylaxis"
+    },
+    {
+      "code": "T78.2XXA",
+      "description": "Anaphylactic shock, unspecified, initial encounter"
+    },
+    {
+      "code": "Z88.9",
+      "description": "Allergy status to unspecified drugs, medicaments, and biological substances"
+    }
   ],
-
   "jsonLd": {
     "conditionName": "Anaphylaxis",
-    "conditionAlternateNames": ["EpiPen refill", "Epinephrine auto-injector refill", "Anaphylaxis emergency medication", "Severe allergy medication refill"],
+    "conditionAlternateNames": [
+      "EpiPen refill",
+      "Epinephrine auto-injector refill",
+      "Anaphylaxis emergency medication",
+      "Severe allergy medication refill"
+    ],
     "conditionDescription": "EpiPen refill care involves reviewing whether it is safe and appropriate to renew an existing epinephrine auto-injector prescription for an adult with a documented history of severe allergic reaction or anaphylaxis. TeleDirectMD evaluates adult refill requests by video visit with safety-first screening and provides 2-pack epinephrine auto-injector prescriptions when appropriate, with clear rules for when emergency care or allergist evaluation is needed.",
     "primaryIcd10": "Z87.892",
     "anatomy": "Immune system",
-    "symptoms": ["Anaphylaxis", "Throat swelling", "Difficulty breathing", "Widespread hives", "Dizziness or lightheadedness", "Rapid heart rate", "Hypotension"],
+    "symptoms": [
+      "Anaphylaxis",
+      "Throat swelling",
+      "Difficulty breathing",
+      "Widespread hives",
+      "Dizziness or lightheadedness",
+      "Rapid heart rate",
+      "Hypotension"
+    ],
     "riskFactors": [
       "History of prior anaphylaxis",
       "Food allergies (peanuts, tree nuts, shellfish)",
@@ -555,12 +733,30 @@
     ],
     "epidemiology": "Anaphylaxis affects approximately 1.6 to 5.1 percent of the US population at some point in their lifetime, and the prevalence of food allergies and anaphylaxis has been increasing in recent decades.",
     "drugs": [
-      { "name": "EpiPen 0.3 mg", "id": "epipen" },
-      { "name": "Generic epinephrine auto-injector 0.3 mg", "id": "generic-epinephrine-autoinjector" },
-      { "name": "Auvi-Q 0.3 mg", "id": "auvi-q" },
-      { "name": "Adrenaclick 0.3 mg", "id": "adrenaclick" },
-      { "name": "Symjepi 0.3 mg", "id": "symjepi" },
-      { "name": "Epinephrine", "id": "epinephrine" }
+      {
+        "name": "EpiPen 0.3 mg",
+        "id": "epipen"
+      },
+      {
+        "name": "Generic epinephrine auto-injector 0.3 mg",
+        "id": "generic-epinephrine-autoinjector"
+      },
+      {
+        "name": "Auvi-Q 0.3 mg",
+        "id": "auvi-q"
+      },
+      {
+        "name": "Adrenaclick 0.3 mg",
+        "id": "adrenaclick"
+      },
+      {
+        "name": "Symjepi 0.3 mg",
+        "id": "symjepi"
+      },
+      {
+        "name": "Epinephrine",
+        "id": "epinephrine"
+      }
     ],
     "treatments": [
       "Epinephrine auto-injector refill prescription (2-pack)",
@@ -575,11 +771,30 @@
       "Skin prick testing (allergist — not via telehealth)",
       "Serum IgE testing (allergist — not via telehealth)"
     ],
-    "specialties": ["Family Medicine", "Telemedicine", "Allergy and Immunology"],
+    "specialties": [
+      "Family Medicine",
+      "Telemedicine",
+      "Allergy and Immunology"
+    ],
     "guidelines": [
-      { "name": "ACAAI/AAAAI Anaphylaxis Practice Parameter", "url": "https://www.aaaai.org/conditions-treatments/allergies/anaphylaxis", "publisher": "American College of Allergy, Asthma and Immunology", "id": "acaai-anaphylaxis" },
-      { "name": "EpiPen Healthcare Professional Resources", "url": "https://www.epipen.com/for-healthcare-partners/patient-education", "publisher": "Viatris (EpiPen manufacturer)", "id": "epipen-hcp" },
-      { "name": "World Allergy Organization Anaphylaxis Guidelines", "url": "https://www.worldallergy.org/resources/anaphylaxis", "publisher": "World Allergy Organization", "id": "wao-anaphylaxis" }
+      {
+        "name": "ACAAI/AAAAI Anaphylaxis Practice Parameter",
+        "url": "https://www.aaaai.org/conditions-treatments/allergies/anaphylaxis",
+        "publisher": "American College of Allergy, Asthma and Immunology",
+        "id": "acaai-anaphylaxis"
+      },
+      {
+        "name": "EpiPen Healthcare Professional Resources",
+        "url": "https://www.epipen.com/for-healthcare-partners/patient-education",
+        "publisher": "Viatris (EpiPen manufacturer)",
+        "id": "epipen-hcp"
+      },
+      {
+        "name": "World Allergy Organization Anaphylaxis Guidelines",
+        "url": "https://www.worldallergy.org/resources/anaphylaxis",
+        "publisher": "World Allergy Organization",
+        "id": "wao-anaphylaxis"
+      }
     ],
     "knowsAbout": [
       "EpiPen refill care",
@@ -591,5 +806,7 @@
     ],
     "serviceDescription": "Secure video visit for {state} adults requesting EpiPen refill care, including allergy history review, anaphylaxis action plan reinforcement, and 2-pack epinephrine auto-injector prescriptions when appropriate.",
     "webpageDescription": "{state} EpiPen refill care by secure MD video visit for adults. Evidence-based epinephrine auto-injector refill evaluation, anaphylaxis action plan review, 2-pack prescriptions when appropriate, and clear rules for when emergency care or allergist evaluation is needed."
-  }
+  },
+  "guidelineSource": "aaaai",
+  "conditionType": "refill"
 }

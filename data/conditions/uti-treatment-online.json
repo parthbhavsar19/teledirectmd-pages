@@ -2,20 +2,34 @@
   "conditionName": "UTI Treatment",
   "conditionShort": "UTI",
   "conditionSlug": "uti-treatment-online",
-  "pageTitle": "UTI Treatment Online in {state} | Bladder Infection MD Video Visit | TeleDirectMD",
+  "pageTitle": "UTI Online Treatment in {state} | TeleDirectMD",
   "metaDescription": "Fast, evidence-based UTI treatment for {state} adults by secure video visit. Red-flag screening, antibiotic stewardship, and prescriptions when clinically appropriate. Self pay option starting at $49. Insurance is not required.",
   "ogImageAlt": "UTI treatment in {state} by TeleDirectMD",
-
   "hero": {
     "h1": "UTI Treatment in {state} (Acute Uncomplicated Cystitis)",
     "subtitle": "{state} adult care by secure video visit, self pay option starting at $49, MD-only, insurance is not required.",
     "introParagraph": "A UTI, often called a bladder infection, commonly causes burning with urination, urinary frequency, and urgency. Not every patient with these symptoms needs antibiotics, and not every urinary complaint is a simple bladder infection. The Ann Arbor Guide to Triaging Adults With Suspected UTI emphasizes that empiric antibiotic use should follow structured triage, with careful separation of uncomplicated cystitis from kidney infection, urinary obstruction, and non-UTI causes of dysuria. TeleDirectMD uses a safety-first telehealth approach that screens for red flags including fever, flank pain, pregnancy, catheter use, immunosuppression, and recent urologic procedures before determining whether treatment by video visit is appropriate. If the history supports uncomplicated cystitis without red flags, guideline-based antibiotic treatment may be reasonable by video, while adults with pyelonephritis concern, complicated UTI, or severe illness are directed to urgent in-person care. This page is for adults located in {state}, including {cities}.",
     "tocLinks": [
-      { "href": "eligibility-checklist", "label": "Eligibility checklist" },
-      { "href": "decision-guide", "label": "Decision guide" },
-      { "href": "treatment-options", "label": "Treatment options" },
-      { "href": "faq", "label": "FAQs" },
-      { "href": "references", "label": "References" }
+      {
+        "href": "eligibility-checklist",
+        "label": "Eligibility checklist"
+      },
+      {
+        "href": "decision-guide",
+        "label": "Decision guide"
+      },
+      {
+        "href": "treatment-options",
+        "label": "Treatment options"
+      },
+      {
+        "href": "faq",
+        "label": "FAQs"
+      },
+      {
+        "href": "references",
+        "label": "References"
+      }
     ],
     "benefits": [
       "Self pay option starting at $49",
@@ -35,7 +49,6 @@
     },
     "icd10Display": "N39.0 (final coding depends on clinical details)"
   },
-
   "eligibility": {
     "sectionTitle": "UTI Telehealth Eligibility Checklist for {state}",
     "introText": "You are likely eligible for a TeleDirectMD video visit if ALL of these are true:",
@@ -60,7 +73,6 @@
     ],
     "notEligibleDisclaimer": "If you have red-flag symptoms, seek urgent in-person care or emergency care immediately. TeleDirectMD is not appropriate for complex or severe cases."
   },
-
   "howItWorks": {
     "sectionTitle": "How Online UTI Treatment Works in {state}",
     "steps": [
@@ -82,7 +94,6 @@
       }
     ]
   },
-
   "telehealthRegulations": {
     "sectionTitle": "{state} Telehealth Regulations for Online UTI Care",
     "paragraphs": [
@@ -90,7 +101,6 @@
       "Location matters: you must be physically in {state} during the visit. Insurance is not required. TeleDirectMD does not prescribe controlled substances."
     ]
   },
-
   "comparisonTable": {
     "sectionTitle": "TeleDirectMD vs Other Care Options for UTI in {state}",
     "intro": "Here is how TeleDirectMD compares to common settings for adult UTI care in {state}:",
@@ -138,7 +148,6 @@
     ],
     "bottomLine": "TeleDirectMD is a strong fit for uncomplicated UTI symptoms without red flags, with a safety-first approach and direct MD evaluation."
   },
-
   "decisionGuide": {
     "sectionTitle": "Should I Use TeleDirectMD for UTI in {state}? Decision Guide",
     "steps": [
@@ -183,7 +192,6 @@
       }
     ]
   },
-
   "pricing": {
     "sectionTitle": "What Does UTI Treatment Cost in {state}?",
     "subtitle": "Transparent options. Insurance is not required.",
@@ -197,15 +205,34 @@
       "Clear follow-up steps"
     ],
     "comparisonBars": [
-      { "name": "TeleDirectMD", "value": "$49", "width": 12, "isTdmd": true },
-      { "name": "Primary Care", "value": "$100 to $250+", "width": 45, "isTdmd": false },
-      { "name": "Urgent Care", "value": "$150 to $300+", "width": 55, "isTdmd": false },
-      { "name": "Emergency Room", "value": "$500 to $3,000+", "width": 100, "isTdmd": false }
+      {
+        "name": "TeleDirectMD",
+        "value": "$49",
+        "width": 12,
+        "isTdmd": true
+      },
+      {
+        "name": "Primary Care",
+        "value": "$100 to $250+",
+        "width": 45,
+        "isTdmd": false
+      },
+      {
+        "name": "Urgent Care",
+        "value": "$150 to $300+",
+        "width": 55,
+        "isTdmd": false
+      },
+      {
+        "name": "Emergency Room",
+        "value": "$500 to $3,000+",
+        "width": 100,
+        "isTdmd": false
+      }
     ],
     "footnote": "Prescription costs at your pharmacy are separate and vary by medication and pharmacy.",
     "noHiddenFees": "No hidden fees. If medication is not clinically appropriate, you still receive a complete evaluation, guidance, and clear instructions on what level of care you need next."
   },
-
   "whatIsCondition": {
     "sectionTitle": "What Is a UTI?",
     "paragraphs": [
@@ -214,35 +241,87 @@
       "TeleDirectMD focuses on uncomplicated adult UTI symptoms appropriate for telehealth, with careful screening to direct complicated or high-risk cases to in-person care."
     ]
   },
-
   "causesAndRiskFactors": {
     "sectionTitle": "Causes and Risk Factors",
     "intro": "Most uncomplicated UTIs are caused by bacteria from the gut, commonly E. coli, that enter the urinary tract and multiply in the bladder. Understanding risk factors helps determine whether a simple telehealth evaluation is appropriate or whether in-person testing is needed.",
     "items": [
-      { "label": "Recent sexual activity:", "text": "increases bacterial transfer to the urethra in some patients" },
-      { "label": "Prior UTI history:", "text": "recurrence risk is higher after previous infections, and recurrent UTIs may need in-person evaluation" },
-      { "label": "Spermicide or diaphragm use:", "text": "may increase UTI risk in some people" },
-      { "label": "Menopause:", "text": "hormonal changes can alter protective flora and increase risk, and the Ann Arbor Guide notes that genitourinary syndrome of menopause can mimic UTI symptoms" },
-      { "label": "Incomplete bladder emptying:", "text": "dehydration, constipation, diabetes, or anatomic issues can contribute" }
+      {
+        "label": "Recent sexual activity:",
+        "text": "increases bacterial transfer to the urethra in some patients"
+      },
+      {
+        "label": "Prior UTI history:",
+        "text": "recurrence risk is higher after previous infections, and recurrent UTIs may need in-person evaluation"
+      },
+      {
+        "label": "Spermicide or diaphragm use:",
+        "text": "may increase UTI risk in some people"
+      },
+      {
+        "label": "Menopause:",
+        "text": "hormonal changes can alter protective flora and increase risk, and the Ann Arbor Guide notes that genitourinary syndrome of menopause can mimic UTI symptoms"
+      },
+      {
+        "label": "Incomplete bladder emptying:",
+        "text": "dehydration, constipation, diabetes, or anatomic issues can contribute"
+      }
     ],
     "closing": "Not every urinary symptom is a UTI. Vaginal infections, STI-related urethritis, kidney stones, and bladder irritation can mimic UTI symptoms. TeleDirectMD uses symptom patterns and safety screening to avoid unnecessary antibiotics and to direct higher-risk cases to in-person care."
   },
-
   "symptomsAndRedFlags": {
     "sectionTitle": "Symptoms and Red Flags for UTI in {state}",
     "intro": "Use this table to understand which symptoms fit uncomplicated cystitis and which symptoms suggest a need for urgent in-person evaluation.",
-    "headers": ["Symptom or situation", "What it suggests", "Telehealth appropriate?", "Red flag requiring urgent in-person care"],
+    "headers": [
+      "Symptom or situation",
+      "What it suggests",
+      "Telehealth appropriate?",
+      "Red flag requiring urgent in-person care"
+    ],
     "rows": [
-      ["Burning with urination, frequency, urgency", "Uncomplicated lower UTI (cystitis) is possible", "Often yes", "If severe pain, inability to urinate, or rapid worsening"],
-      ["Suprapubic discomfort without fever", "Lower urinary tract involvement", "Often yes", "If severe abdominal pain or guarding"],
-      ["Vaginal discharge, vaginal itching, or odor", "Yeast infection, bacterial vaginosis, or STI may be more likely", "Sometimes, depends on pattern", "Pelvic pain with fever or severe pain warrants urgent evaluation"],
-      ["Visible blood in urine", "Can occur with cystitis, but also stones or other causes", "Sometimes", "Severe colicky pain, clots, or persistent bleeding needs in-person evaluation"],
-      ["Flank or back pain, fever, chills", "Possible kidney infection (pyelonephritis)", "No", "Urgent in-person care or ER"],
-      ["Repeated vomiting or dehydration", "More serious infection or inability to take oral meds", "No", "Urgent in-person care or ER"],
-      ["Pregnancy with urinary symptoms", "Higher-risk UTI and different evaluation needs", "Often no", "Same-day in-person care recommended, especially if systemic symptoms"]
+      [
+        "Burning with urination, frequency, urgency",
+        "Uncomplicated lower UTI (cystitis) is possible",
+        "Often yes",
+        "If severe pain, inability to urinate, or rapid worsening"
+      ],
+      [
+        "Suprapubic discomfort without fever",
+        "Lower urinary tract involvement",
+        "Often yes",
+        "If severe abdominal pain or guarding"
+      ],
+      [
+        "Vaginal discharge, vaginal itching, or odor",
+        "Yeast infection, bacterial vaginosis, or STI may be more likely",
+        "Sometimes, depends on pattern",
+        "Pelvic pain with fever or severe pain warrants urgent evaluation"
+      ],
+      [
+        "Visible blood in urine",
+        "Can occur with cystitis, but also stones or other causes",
+        "Sometimes",
+        "Severe colicky pain, clots, or persistent bleeding needs in-person evaluation"
+      ],
+      [
+        "Flank or back pain, fever, chills",
+        "Possible kidney infection (pyelonephritis)",
+        "No",
+        "Urgent in-person care or ER"
+      ],
+      [
+        "Repeated vomiting or dehydration",
+        "More serious infection or inability to take oral meds",
+        "No",
+        "Urgent in-person care or ER"
+      ],
+      [
+        "Pregnancy with urinary symptoms",
+        "Higher-risk UTI and different evaluation needs",
+        "Often no",
+        "Same-day in-person care recommended, especially if systemic symptoms"
+      ]
     ]
   },
-
   "differentialDiagnosis": {
     "sectionTitle": "Differential Diagnosis: UTI vs Other Conditions",
     "intro": "Several conditions can mimic UTI symptoms. The Ann Arbor Guide specifically emphasizes that non-UTI causes of dysuria, including genitourinary syndrome of menopause, STI-related urethritis, and vaginitis, should be considered before prescribing antibiotics. TeleDirectMD focuses on identifying uncomplicated cystitis and directing alternative diagnoses to targeted care when appropriate.",
@@ -278,7 +357,6 @@
     ],
     "closing": "If your symptoms do not match uncomplicated cystitis or any red flags are present, TeleDirectMD will direct you to urgent in-person care."
   },
-
   "telehealthEligibility": {
     "sectionTitle": "When Is a Video Visit Appropriate?",
     "appropriate": {
@@ -305,7 +383,6 @@
       "disclaimer": "If any red-flag symptoms are present, seek urgent in-person or emergency care. TeleDirectMD is not appropriate for these situations."
     }
   },
-
   "treatmentOptions": {
     "sectionTitle": "Treatment Options",
     "intro": "Uncomplicated cystitis is typically treated with targeted antibiotics when clinically appropriate, with selection based on symptoms, patient risk factors, allergies, and local resistance patterns. The IDSA and AUA recommend nitrofurantoin, trimethoprim-sulfamethoxazole, and fosfomycin as first-line agents for uncomplicated UTI in the United States.",
@@ -330,21 +407,49 @@
       "Urinary obstruction, urinary retention, catheter-associated infection, or recent urologic procedure complications"
     ]
   },
-
   "medications": {
     "sectionTitle": "Common Medication Options",
     "intro": "These are common examples for uncomplicated cystitis. The actual medication, dose, and duration are determined by the MD after reviewing your symptoms, allergies, kidney history, pregnancy status when relevant, immune status, and red flags.",
-    "headers": ["Medication", "Typical dose", "Duration", "Key considerations"],
+    "headers": [
+      "Medication",
+      "Typical dose",
+      "Duration",
+      "Key considerations"
+    ],
     "rows": [
-      ["Nitrofurantoin (macrocrystals/monohydrate)", "100 mg by mouth twice daily", "5 days", "Common first-line option for uncomplicated cystitis. Avoid if kidney function is significantly reduced (GFR below 45). Not appropriate for suspected kidney infection."],
-      ["Trimethoprim-sulfamethoxazole (TMP-SMX DS 160/800)", "1 tablet by mouth twice daily", "3 days", "Option when local E. coli resistance rates are below 20 percent. Avoid with sulfa allergy or certain medication interactions."],
-      ["Fosfomycin", "3 g by mouth once", "Single dose", "Option for uncomplicated cystitis in select cases. May have slightly lower efficacy than multi-day regimens but offers convenience."],
-      ["Cephalexin", "500 mg by mouth twice daily", "5 to 7 days", "Alternative option when first-line agents cannot be used due to allergy, intolerance, or resistance."],
-      ["Phenazopyridine (urinary analgesic)", "200 mg by mouth three times daily with food", "Up to 2 days", "Short-term symptom relief for burning with urination. Not an antibiotic. May turn urine orange."]
+      [
+        "Nitrofurantoin (macrocrystals/monohydrate)",
+        "100 mg by mouth twice daily",
+        "5 days",
+        "Common first-line option for uncomplicated cystitis. Avoid if kidney function is significantly reduced (GFR below 45). Not appropriate for suspected kidney infection."
+      ],
+      [
+        "Trimethoprim-sulfamethoxazole (TMP-SMX DS 160/800)",
+        "1 tablet by mouth twice daily",
+        "3 days",
+        "Option when local E. coli resistance rates are below 20 percent. Avoid with sulfa allergy or certain medication interactions."
+      ],
+      [
+        "Fosfomycin",
+        "3 g by mouth once",
+        "Single dose",
+        "Option for uncomplicated cystitis in select cases. May have slightly lower efficacy than multi-day regimens but offers convenience."
+      ],
+      [
+        "Cephalexin",
+        "500 mg by mouth twice daily",
+        "5 to 7 days",
+        "Alternative option when first-line agents cannot be used due to allergy, intolerance, or resistance."
+      ],
+      [
+        "Phenazopyridine (urinary analgesic)",
+        "200 mg by mouth three times daily with food",
+        "Up to 2 days",
+        "Short-term symptom relief for burning with urination. Not an antibiotic. May turn urine orange."
+      ]
     ],
     "note": "Example regimens only. The actual medication, dosing, and duration are determined by the MD after reviewing your symptoms, risk factors, allergies, kidney history, and red flags. TeleDirectMD does not prescribe controlled substances."
   },
-
   "homeCare": {
     "sectionTitle": "Home Care, Recovery Timeline, Prevention, and Follow-up",
     "whatToDoNow": {
@@ -377,7 +482,6 @@
       ]
     }
   },
-
   "whenNotToUse": {
     "sectionTitle": "When Not to Use TeleDirectMD for UTI in {state}",
     "intro": "TeleDirectMD is designed for uncomplicated adult UTI symptoms. We are direct about when telehealth is not appropriate.",
@@ -397,14 +501,25 @@
     "alternatives": {
       "title": "Alternative Care Options",
       "items": [
-        { "label": "Emergency room:", "text": "severe symptoms, rapid worsening, or concerning red flags such as high fever with flank pain" },
-        { "label": "Urgent care:", "text": "same-day in-person exam and urine testing when diagnosis is uncertain or moderate symptoms are present" },
-        { "label": "Urology:", "text": "recurrent or high-risk cases needing targeted evaluation, imaging, or culture-guided therapy" },
-        { "label": "Primary care:", "text": "follow-up, prevention planning, and broader medical management for recurrent UTIs" }
+        {
+          "label": "Emergency room:",
+          "text": "severe symptoms, rapid worsening, or concerning red flags such as high fever with flank pain"
+        },
+        {
+          "label": "Urgent care:",
+          "text": "same-day in-person exam and urine testing when diagnosis is uncertain or moderate symptoms are present"
+        },
+        {
+          "label": "Urology:",
+          "text": "recurrent or high-risk cases needing targeted evaluation, imaging, or culture-guided therapy"
+        },
+        {
+          "label": "Primary care:",
+          "text": "follow-up, prevention planning, and broader medical management for recurrent UTIs"
+        }
       ]
     }
   },
-
   "faq": {
     "sectionTitle": "UTI Treatment FAQs for {state}",
     "items": [
@@ -470,15 +585,28 @@
       "text": "Insurance is not required. Adult-only video visits. MD-only care. Safety-first triage, symptom relief, and prescriptions only when appropriate."
     }
   },
-
   "references": [
-    { "text": "IDSA and ESCMID Guideline for Acute Uncomplicated Cystitis and Pyelonephritis in Women (Gupta et al.)", "url": "https://www.idsociety.org/practice-guideline/urinary-tract-infection/" },
-    { "text": "IDSA 2025 Guideline Update on Complicated Urinary Tract Infections", "url": "https://www.idsociety.org/practice-guideline/complicated-urinary-tract-infections/" },
-    { "text": "Ann Arbor Guide to Triaging Adults With Suspected UTI (Meddings et al., JAMA Network Open, 2026)", "url": "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2844483" },
-    { "text": "AUA/CUA/SUFU Guideline on Recurrent Uncomplicated UTIs (2024 Update)", "url": "https://www.auajournals.org/doi/10.1097/JU.0000000000004723" },
-    { "text": "Uncomplicated Urinary Tract Infections, StatPearls (2025)", "url": "https://www.ncbi.nlm.nih.gov/books/NBK470195/" }
+    {
+      "text": "IDSA and ESCMID Guideline for Acute Uncomplicated Cystitis and Pyelonephritis in Women (Gupta et al.)",
+      "url": "https://www.idsociety.org/practice-guideline/urinary-tract-infection/"
+    },
+    {
+      "text": "IDSA 2025 Guideline Update on Complicated Urinary Tract Infections",
+      "url": "https://www.idsociety.org/practice-guideline/complicated-urinary-tract-infections/"
+    },
+    {
+      "text": "Ann Arbor Guide to Triaging Adults With Suspected UTI (Meddings et al., JAMA Network Open, 2026)",
+      "url": "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2844483"
+    },
+    {
+      "text": "AUA/CUA/SUFU Guideline on Recurrent Uncomplicated UTIs (2024 Update)",
+      "url": "https://www.auajournals.org/doi/10.1097/JU.0000000000004723"
+    },
+    {
+      "text": "Uncomplicated Urinary Tract Infections, StatPearls (2025)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK470195/"
+    }
   ],
-
   "disclaimer": {
     "sectionTitle": "TeleDirectMD Telehealth Disclaimer",
     "paragraphs": [
@@ -487,7 +615,6 @@
       "Online UTI treatment in {state}. UTI antibiotics online. Bladder infection treatment by video visit."
     ]
   },
-
   "relatedConditions": [
     {
       "slug": "yeast-infection-treatment-online",
@@ -510,36 +637,75 @@
       "description": "Another common acute infection evaluated by MD video visit"
     }
   ],
-
   "inlineLinks": [
-    { "slug": "yeast-infection-treatment-online", "label": "Yeast Infection" },
-    { "slug": "bv-treatment-online", "label": "Bacterial Vaginosis" },
-    { "slug": "sinus-infection-treatment-online", "label": "Sinus Infection" },
-    { "slug": "sore-throat-treatment-online", "label": "Sore Throat" },
-    { "slug": "pink-eye-treatment-online", "label": "Pink Eye" },
-    { "slug": "seasonal-allergies-treatment-online", "label": "Seasonal Allergies" },
-    { "slug": "cold-sore-treatment-online", "label": "Cold Sore" },
-    { "slug": "birth-control-refills-online", "label": "Birth Control Refills" },
-    { "slug": "blood-pressure-medication-refills-online", "label": "Blood Pressure Medication Refills" },
-    { "slug": "asthma-refills-online", "label": "Asthma Refills" }
+    {
+      "slug": "yeast-infection-treatment-online",
+      "label": "Yeast Infection"
+    },
+    {
+      "slug": "bv-treatment-online",
+      "label": "Bacterial Vaginosis"
+    },
+    {
+      "slug": "sinus-infection-treatment-online",
+      "label": "Sinus Infection"
+    },
+    {
+      "slug": "sore-throat-treatment-online",
+      "label": "Sore Throat"
+    },
+    {
+      "slug": "pink-eye-treatment-online",
+      "label": "Pink Eye"
+    },
+    {
+      "slug": "seasonal-allergies-treatment-online",
+      "label": "Seasonal Allergies"
+    },
+    {
+      "slug": "cold-sore-treatment-online",
+      "label": "Cold Sore"
+    },
+    {
+      "slug": "birth-control-refills-online",
+      "label": "Birth Control Refills"
+    },
+    {
+      "slug": "blood-pressure-medication-refills-online",
+      "label": "Blood Pressure Medication Refills"
+    },
+    {
+      "slug": "asthma-refills-online",
+      "label": "Asthma Refills"
+    }
   ],
-
   "cityBlock": {
     "title": "Adults We Serve Across {state}",
     "text": "TeleDirectMD evaluates adults located throughout {state}, including {citiesExtended}. Whether you are searching for online UTI treatment in {city1}, bladder infection care in {city2}, UTI antibiotics online in {city3}, or telehealth UTI evaluation anywhere else in {state}, the same telehealth eligibility and safety rules apply."
   },
-
   "icd10Codes": [
-    { "code": "N39.0", "description": "Urinary tract infection, site not specified" }
+    {
+      "code": "N39.0",
+      "description": "Urinary tract infection, site not specified"
+    }
   ],
-
   "jsonLd": {
     "conditionName": "Urinary Tract Infection",
-    "conditionAlternateNames": ["UTI", "Bladder infection", "Acute uncomplicated cystitis", "Cystitis"],
+    "conditionAlternateNames": [
+      "UTI",
+      "Bladder infection",
+      "Acute uncomplicated cystitis",
+      "Cystitis"
+    ],
     "conditionDescription": "A urinary tract infection (UTI) is a bacterial infection of the urinary system, most commonly affecting the bladder (cystitis). TeleDirectMD evaluates adult UTI symptoms by video visit with safety-first red-flag screening, guideline-based antibiotic stewardship, and prescriptions when clinically appropriate, with clear rules for when urgent in-person care is needed.",
     "primaryIcd10": "N39.0",
     "anatomy": "Urinary tract",
-    "symptoms": ["Dysuria", "Urinary frequency", "Urinary urgency", "Suprapubic discomfort"],
+    "symptoms": [
+      "Dysuria",
+      "Urinary frequency",
+      "Urinary urgency",
+      "Suprapubic discomfort"
+    ],
     "riskFactors": [
       "Recent sexual activity",
       "Prior UTI history",
@@ -553,9 +719,18 @@
     ],
     "epidemiology": "UTIs are among the most common bacterial infections. Over half of women experience at least one UTI during their lifetime.",
     "drugs": [
-      { "name": "Nitrofurantoin", "id": "nitrofurantoin" },
-      { "name": "Trimethoprim-sulfamethoxazole", "id": "tmp-smx" },
-      { "name": "Fosfomycin", "id": "fosfomycin" }
+      {
+        "name": "Nitrofurantoin",
+        "id": "nitrofurantoin"
+      },
+      {
+        "name": "Trimethoprim-sulfamethoxazole",
+        "id": "tmp-smx"
+      },
+      {
+        "name": "Fosfomycin",
+        "id": "fosfomycin"
+      }
     ],
     "treatments": [
       "Short-course antibiotic therapy when appropriate",
@@ -566,11 +741,30 @@
       "Clinical symptom review and red-flag screening",
       "Urine culture when indicated for recurrent or complicated cases"
     ],
-    "specialties": ["Family Medicine", "Telemedicine", "Urology"],
+    "specialties": [
+      "Family Medicine",
+      "Telemedicine",
+      "Urology"
+    ],
     "guidelines": [
-      { "name": "IDSA and ESCMID Guideline for Acute Uncomplicated Cystitis and Pyelonephritis", "url": "https://www.idsociety.org/practice-guideline/urinary-tract-infection/", "publisher": "Infectious Diseases Society of America", "id": "idsa" },
-      { "name": "Ann Arbor Guide to Triaging Adults With Suspected UTI", "url": "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2844483", "publisher": "JAMA Network Open", "id": "ann-arbor" },
-      { "name": "AUA/CUA/SUFU Guideline on Recurrent Uncomplicated UTIs", "url": "https://www.auajournals.org/doi/10.1097/JU.0000000000004723", "publisher": "American Urological Association", "id": "aua" }
+      {
+        "name": "IDSA and ESCMID Guideline for Acute Uncomplicated Cystitis and Pyelonephritis",
+        "url": "https://www.idsociety.org/practice-guideline/urinary-tract-infection/",
+        "publisher": "Infectious Diseases Society of America",
+        "id": "idsa"
+      },
+      {
+        "name": "Ann Arbor Guide to Triaging Adults With Suspected UTI",
+        "url": "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2844483",
+        "publisher": "JAMA Network Open",
+        "id": "ann-arbor"
+      },
+      {
+        "name": "AUA/CUA/SUFU Guideline on Recurrent Uncomplicated UTIs",
+        "url": "https://www.auajournals.org/doi/10.1097/JU.0000000000004723",
+        "publisher": "American Urological Association",
+        "id": "aua"
+      }
     ],
     "knowsAbout": [
       "UTI treatment",
@@ -582,5 +776,7 @@
     ],
     "serviceDescription": "Secure video visit for {state} adults with uncomplicated UTI symptoms, including red-flag screening, antibiotic stewardship, and prescriptions when clinically appropriate.",
     "webpageDescription": "{state} UTI treatment by secure MD video visit for adults. Evidence-based evaluation of bladder infection symptoms, red-flag screening, guideline-based antibiotic treatment when appropriate, and clear rules for when urgent in-person care is needed."
-  }
+  },
+  "guidelineSource": "idsaUti",
+  "conditionType": "treatment"
 }
