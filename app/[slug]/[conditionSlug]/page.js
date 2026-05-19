@@ -55,6 +55,9 @@ export default async function ConditionPage({ params }) {
   const state = getStateBySlug(slug);
   const rawCondition = getCondition(conditionSlug);
   const condition = resolveConditionForState(rawCondition, state);
+  // Attach the slug so downstream helpers (e.g. citable-summary fallback)
+  // can derive a clean condition name without re-reading the URL params.
+  if (condition && !condition.slug) condition.slug = conditionSlug;
   const baseUrl = 'https://teledirectmd.com';
   const jsonLd = generateJsonLd(condition, state);
   const today = new Date().toISOString().split('T')[0];
