@@ -2,20 +2,34 @@
   "conditionName": "Tinea Versicolor Treatment",
   "conditionShort": "Tinea Versicolor",
   "conditionSlug": "tinea-versicolor-treatment-online",
-  "pageTitle": "Tinea Versicolor Treatment Online in {state} | Pityriasis Versicolor MD Video Visit | TeleDirectMD",
+  "pageTitle": "Tinea Versicolor Online Treatment in {state} | TeleDirectMD",
   "metaDescription": "Evidence-based tinea versicolor treatment for {state} adults by secure video visit. Red-flag screening, antifungal prescriptions when clinically appropriate, and recurrence prevention guidance. Self pay option starting at $49. Insurance is not required.",
   "ogImageAlt": "Tinea versicolor treatment in {state} by TeleDirectMD",
-
   "hero": {
     "h1": "Tinea Versicolor Treatment in {state} (Pityriasis Versicolor)",
     "subtitle": "{state} adult care by secure video visit, self pay option starting at $49, MD-only, insurance is not required.",
     "introParagraph": "Tinea versicolor, also called pityriasis versicolor, is a common superficial fungal infection caused by overgrowth of Malassezia yeast, a normal part of skin flora. It presents as hypopigmented or hyperpigmented patches on the trunk, upper arms, and neck, and is especially common in warm, humid climates and in young adults. The condition is not contagious and does not cause scarring, but it is cosmetically distressing and has a high recurrence rate. A critical point that many patients misunderstand is that pigmentary changes persist for 2 to 4 months after successful treatment because the yeast disrupts melanin production in the skin and normal pigmentation takes time to return, even after the infection is cleared. TeleDirectMD uses a safety-first telehealth approach that screens for red flags including widespread disease not responding to treatment, uncertain diagnosis requiring biopsy, and immunocompromised status before determining whether treatment by video visit is appropriate. If the history and photo assessment support classic tinea versicolor without red flags, guideline-based antifungal treatment may be prescribed by video, while adults with diagnostic uncertainty, treatment-resistant disease, or atypical presentations are directed to in-person or dermatology care. This page is for adults located in {state}, including {cities}.",
     "tocLinks": [
-      { "href": "eligibility-checklist", "label": "Eligibility checklist" },
-      { "href": "decision-guide", "label": "Decision guide" },
-      { "href": "treatment-options", "label": "Treatment options" },
-      { "href": "faq", "label": "FAQs" },
-      { "href": "references", "label": "References" }
+      {
+        "href": "eligibility-checklist",
+        "label": "Eligibility checklist"
+      },
+      {
+        "href": "decision-guide",
+        "label": "Decision guide"
+      },
+      {
+        "href": "treatment-options",
+        "label": "Treatment options"
+      },
+      {
+        "href": "faq",
+        "label": "FAQs"
+      },
+      {
+        "href": "references",
+        "label": "References"
+      }
     ],
     "benefits": [
       "Self pay option starting at $49",
@@ -35,7 +49,6 @@
     },
     "icd10Display": "B36.0 (final coding depends on clinical details)"
   },
-
   "eligibility": {
     "sectionTitle": "Tinea Versicolor Telehealth Eligibility Checklist for {state}",
     "introText": "You are likely eligible for a TeleDirectMD video visit if ALL of these are true:",
@@ -60,7 +73,6 @@
     ],
     "notEligibleDisclaimer": "If you have red-flag symptoms or diagnostic uncertainty, seek in-person dermatology evaluation. TeleDirectMD is not appropriate for complex or treatment-resistant cases."
   },
-
   "howItWorks": {
     "sectionTitle": "How Online Tinea Versicolor Treatment Works in {state}",
     "steps": [
@@ -82,7 +94,6 @@
       }
     ]
   },
-
   "telehealthRegulations": {
     "sectionTitle": "{state} Telehealth Regulations for Online Tinea Versicolor Care",
     "paragraphs": [
@@ -90,7 +101,6 @@
       "Location matters: you must be physically in {state} during the visit. Insurance is not required. TeleDirectMD does not prescribe controlled substances."
     ]
   },
-
   "comparisonTable": {
     "sectionTitle": "TeleDirectMD vs Other Care Options for Tinea Versicolor in {state}",
     "intro": "Here is how TeleDirectMD compares to common settings for adult tinea versicolor care in {state}:",
@@ -138,7 +148,6 @@
     ],
     "bottomLine": "TeleDirectMD is a strong fit for classic tinea versicolor with characteristic patch distribution and no red flags, with a safety-first approach, direct MD evaluation, antifungal treatment, and recurrence prevention guidance."
   },
-
   "decisionGuide": {
     "sectionTitle": "Should I Use TeleDirectMD for Tinea Versicolor in {state}? Decision Guide",
     "steps": [
@@ -184,7 +193,6 @@
       }
     ]
   },
-
   "pricing": {
     "sectionTitle": "What Does Tinea Versicolor Treatment Cost in {state}?",
     "subtitle": "Transparent options. Insurance is not required.",
@@ -199,15 +207,34 @@
       "Clear follow-up steps"
     ],
     "comparisonBars": [
-      { "name": "TeleDirectMD", "value": "$49", "width": 12, "isTdmd": true },
-      { "name": "Primary Care", "value": "$100 to $250+", "width": 45, "isTdmd": false },
-      { "name": "Urgent Care", "value": "$150 to $300+", "width": 55, "isTdmd": false },
-      { "name": "Emergency Room", "value": "$500 to $3,000+", "width": 100, "isTdmd": false }
+      {
+        "name": "TeleDirectMD",
+        "value": "$49",
+        "width": 12,
+        "isTdmd": true
+      },
+      {
+        "name": "Primary Care",
+        "value": "$100 to $250+",
+        "width": 45,
+        "isTdmd": false
+      },
+      {
+        "name": "Urgent Care",
+        "value": "$150 to $300+",
+        "width": 55,
+        "isTdmd": false
+      },
+      {
+        "name": "Emergency Room",
+        "value": "$500 to $3,000+",
+        "width": 100,
+        "isTdmd": false
+      }
     ],
     "footnote": "Prescription costs at your pharmacy are separate and vary by medication and pharmacy.",
     "noHiddenFees": "No hidden fees. If medication is not clinically appropriate, you still receive a complete evaluation, guidance, and clear instructions on what level of care you need next."
   },
-
   "whatIsCondition": {
     "sectionTitle": "What Is Tinea Versicolor?",
     "paragraphs": [
@@ -216,36 +243,91 @@
       "TeleDirectMD focuses on classic tinea versicolor presentations appropriate for telehealth, with careful screening to direct diagnostic uncertainty, treatment-resistant cases, and immunocompromised or atypical presentations to in-person or dermatology care."
     ]
   },
-
   "causesAndRiskFactors": {
     "sectionTitle": "Causes and Risk Factors",
     "intro": "Tinea versicolor is caused by overgrowth of Malassezia species, particularly Malassezia globosa and Malassezia furfur, which are part of normal skin flora. The conversion from commensal yeast to pathogenic hyphal form is triggered by environmental and host factors. Understanding risk factors helps determine whether telehealth evaluation is appropriate and whether recurrence prevention strategies should be emphasized.",
     "items": [
-      { "label": "Warm, humid climate:", "text": "heat and moisture promote Malassezia overgrowth, which is why tinea versicolor is more common in tropical and subtropical regions and tends to flare during summer months" },
-      { "label": "Oily skin and increased sebaceous activity:", "text": "Malassezia thrives on lipid-rich skin, making young adults with naturally oilier skin more susceptible" },
-      { "label": "Excessive sweating:", "text": "hyperhidrosis and activities that cause heavy perspiration create a favorable microenvironment for yeast proliferation" },
-      { "label": "Immunosuppression:", "text": "corticosteroid use, organ transplantation, HIV, and other immunocompromised states increase risk for more extensive disease that may need in-person management" },
-      { "label": "Genetic predisposition:", "text": "some individuals have a familial tendency toward tinea versicolor recurrence regardless of environmental factors" },
-      { "label": "Topical occlusion:", "text": "heavy creams, oils, sunscreens, and tight-fitting synthetic clothing can trap moisture and promote yeast overgrowth on the trunk and shoulders" }
+      {
+        "label": "Warm, humid climate:",
+        "text": "heat and moisture promote Malassezia overgrowth, which is why tinea versicolor is more common in tropical and subtropical regions and tends to flare during summer months"
+      },
+      {
+        "label": "Oily skin and increased sebaceous activity:",
+        "text": "Malassezia thrives on lipid-rich skin, making young adults with naturally oilier skin more susceptible"
+      },
+      {
+        "label": "Excessive sweating:",
+        "text": "hyperhidrosis and activities that cause heavy perspiration create a favorable microenvironment for yeast proliferation"
+      },
+      {
+        "label": "Immunosuppression:",
+        "text": "corticosteroid use, organ transplantation, HIV, and other immunocompromised states increase risk for more extensive disease that may need in-person management"
+      },
+      {
+        "label": "Genetic predisposition:",
+        "text": "some individuals have a familial tendency toward tinea versicolor recurrence regardless of environmental factors"
+      },
+      {
+        "label": "Topical occlusion:",
+        "text": "heavy creams, oils, sunscreens, and tight-fitting synthetic clothing can trap moisture and promote yeast overgrowth on the trunk and shoulders"
+      }
     ],
     "closing": "Not every patch of discolored skin is tinea versicolor. Vitiligo, pityriasis alba, post-inflammatory hypopigmentation, seborrheic dermatitis, and secondary syphilis can present with similar-appearing patches. TeleDirectMD uses symptom patterns, patch distribution, photo assessment, and clinical history to guide diagnosis and direct uncertain or atypical cases to in-person evaluation with KOH scraping or biopsy."
   },
-
   "symptomsAndRedFlags": {
     "sectionTitle": "Symptoms and Red Flags for Tinea Versicolor in {state}",
     "intro": "Use this table to understand which symptoms fit classic tinea versicolor and which suggest a need for in-person or dermatology evaluation.",
-    "headers": ["Symptom or situation", "What it suggests", "Telehealth appropriate?", "Red flag requiring urgent in-person care"],
+    "headers": [
+      "Symptom or situation",
+      "What it suggests",
+      "Telehealth appropriate?",
+      "Red flag requiring urgent in-person care"
+    ],
     "rows": [
-      ["Flat hypopigmented or hyperpigmented patches on trunk, chest, upper arms, or neck", "Classic tinea versicolor distribution and appearance", "Often yes", "If patches are rapidly spreading with systemic symptoms"],
-      ["Fine scale visible when patches are lightly scratched (positive scratch test)", "Supports Malassezia overgrowth with stratum corneum disruption", "Often yes", "Rarely a red flag alone"],
-      ["Patches more noticeable after sun exposure or tanning", "Classic tinea versicolor — affected skin cannot tan normally because melanin production is disrupted", "Often yes", "If depigmentation is complete and sharply defined (consider vitiligo)"],
-      ["Mild itching in affected areas, especially with sweating", "Typical tinea versicolor — mild pruritus is common", "Often yes", "If severe itching with weeping, crusting, or pain"],
-      ["Seasonal recurrence during warm weather months", "Characteristic of Malassezia overgrowth pattern — supports diagnosis and need for prophylaxis discussion", "Often yes", "If recurrence persists despite multiple treatment courses"],
-      ["Patches with raised, scaling borders and central clearing", "More consistent with dermatophyte infection (tinea corporis/ringworm) rather than tinea versicolor", "Sometimes", "Seek in-person evaluation for KOH scraping to distinguish diagnoses"],
-      ["Widespread patches in an immunocompromised patient or patches unresponsive to multiple treatments", "Higher risk for extensive Malassezia infection or alternative diagnosis", "No", "In-person dermatology evaluation recommended"]
+      [
+        "Flat hypopigmented or hyperpigmented patches on trunk, chest, upper arms, or neck",
+        "Classic tinea versicolor distribution and appearance",
+        "Often yes",
+        "If patches are rapidly spreading with systemic symptoms"
+      ],
+      [
+        "Fine scale visible when patches are lightly scratched (positive scratch test)",
+        "Supports Malassezia overgrowth with stratum corneum disruption",
+        "Often yes",
+        "Rarely a red flag alone"
+      ],
+      [
+        "Patches more noticeable after sun exposure or tanning",
+        "Classic tinea versicolor — affected skin cannot tan normally because melanin production is disrupted",
+        "Often yes",
+        "If depigmentation is complete and sharply defined (consider vitiligo)"
+      ],
+      [
+        "Mild itching in affected areas, especially with sweating",
+        "Typical tinea versicolor — mild pruritus is common",
+        "Often yes",
+        "If severe itching with weeping, crusting, or pain"
+      ],
+      [
+        "Seasonal recurrence during warm weather months",
+        "Characteristic of Malassezia overgrowth pattern — supports diagnosis and need for prophylaxis discussion",
+        "Often yes",
+        "If recurrence persists despite multiple treatment courses"
+      ],
+      [
+        "Patches with raised, scaling borders and central clearing",
+        "More consistent with dermatophyte infection (tinea corporis/ringworm) rather than tinea versicolor",
+        "Sometimes",
+        "Seek in-person evaluation for KOH scraping to distinguish diagnoses"
+      ],
+      [
+        "Widespread patches in an immunocompromised patient or patches unresponsive to multiple treatments",
+        "Higher risk for extensive Malassezia infection or alternative diagnosis",
+        "No",
+        "In-person dermatology evaluation recommended"
+      ]
     ]
   },
-
   "differentialDiagnosis": {
     "sectionTitle": "Differential Diagnosis: Tinea Versicolor vs Other Conditions",
     "intro": "Several conditions can mimic tinea versicolor with similar-appearing patches of altered skin pigmentation. Because definitive KOH scraping confirmation is not available via telehealth, clinical diagnosis relies on characteristic patch distribution, morphology, and clinical history. TeleDirectMD focuses on identifying classic tinea versicolor presentations and directing uncertain or atypical cases to in-person evaluation when appropriate.",
@@ -285,7 +367,6 @@
     ],
     "closing": "If your symptoms do not match classic tinea versicolor or any red flags are present, TeleDirectMD will direct you to in-person care for KOH scraping, Wood lamp examination, or dermatology evaluation."
   },
-
   "telehealthEligibility": {
     "sectionTitle": "When Is a Video Visit Appropriate?",
     "appropriate": {
@@ -313,7 +394,6 @@
       "disclaimer": "If any red-flag symptoms are present, seek in-person dermatology or primary care evaluation. TeleDirectMD is not appropriate for these situations."
     }
   },
-
   "treatmentOptions": {
     "sectionTitle": "Treatment Options",
     "intro": "Tinea versicolor treatment targets the overgrown Malassezia yeast with antifungal agents. Topical antifungals are first-line for localized disease, while oral antifungals are reserved for extensive, refractory, or frequently recurrent cases. A key patient education point is that pigmentary changes persist for 2 to 4 months after successful treatment because the yeast has disrupted melanin production and the skin needs time to repigment, even after the infection is completely cleared. Persistent discoloration after treatment does not mean the antifungal has failed.",
@@ -342,22 +422,55 @@
       "Suspected vitiligo, secondary syphilis, or other conditions mimicking tinea versicolor"
     ]
   },
-
   "medications": {
     "sectionTitle": "Common Medication Options",
     "intro": "These are common examples for tinea versicolor treatment. The actual medication, formulation, and duration are determined by the MD after reviewing your symptoms, extent of disease, prior treatments, allergies, medication interactions, and red flags.",
-    "headers": ["Medication", "Typical dose", "Duration", "Key considerations"],
+    "headers": [
+      "Medication",
+      "Typical dose",
+      "Duration",
+      "Key considerations"
+    ],
     "rows": [
-      ["Ketoconazole 2% shampoo or cream", "Apply to affected areas for 5 to 10 minutes daily (shampoo) or once daily (cream)", "1 to 3 days (shampoo) or 2 to 4 weeks (cream)", "Common first-line topical option. Shampoo formulation is convenient for large areas. Can be used as body wash on the trunk. Available OTC and by prescription."],
-      ["Selenium sulfide 2.5% shampoo or lotion", "Apply to affected areas for 10 minutes daily", "1 week of daily use, then monthly for prophylaxis", "Effective and widely available. Can cause skin irritation in some patients. Useful for both treatment and long-term recurrence prevention."],
-      ["Terbinafine 1% cream (topical only)", "Apply once to twice daily to affected areas", "1 to 4 weeks", "Effective topical option against Malassezia. Important: oral terbinafine is ineffective for tinea versicolor. Only the topical formulation works for this condition."],
-      ["Itraconazole 200 mg (oral)", "200 mg by mouth daily", "5 to 7 days for treatment; 200 mg twice daily for 1 day monthly for prophylaxis", "For extensive or recurrent disease not responsive to topical therapy. Take with food for better absorption. Check for drug interactions (CYP3A4 inhibitor)."],
-      ["Fluconazole 300 mg (oral)", "300 mg by mouth weekly", "2 weeks (2 doses total)", "Convenient oral alternative for extensive disease. Generally well tolerated. Check for drug interactions. Avoid in pregnancy."],
-      ["Ciclopirox 1% cream", "Apply twice daily to affected areas", "2 weeks", "Broad-spectrum antifungal effective against Malassezia. Alternative topical option when ketoconazole or selenium sulfide are not tolerated."]
+      [
+        "Ketoconazole 2% shampoo or cream",
+        "Apply to affected areas for 5 to 10 minutes daily (shampoo) or once daily (cream)",
+        "1 to 3 days (shampoo) or 2 to 4 weeks (cream)",
+        "Common first-line topical option. Shampoo formulation is convenient for large areas. Can be used as body wash on the trunk. Available OTC and by prescription."
+      ],
+      [
+        "Selenium sulfide 2.5% shampoo or lotion",
+        "Apply to affected areas for 10 minutes daily",
+        "1 week of daily use, then monthly for prophylaxis",
+        "Effective and widely available. Can cause skin irritation in some patients. Useful for both treatment and long-term recurrence prevention."
+      ],
+      [
+        "Terbinafine 1% cream (topical only)",
+        "Apply once to twice daily to affected areas",
+        "1 to 4 weeks",
+        "Effective topical option against Malassezia. Important: oral terbinafine is ineffective for tinea versicolor. Only the topical formulation works for this condition."
+      ],
+      [
+        "Itraconazole 200 mg (oral)",
+        "200 mg by mouth daily",
+        "5 to 7 days for treatment; 200 mg twice daily for 1 day monthly for prophylaxis",
+        "For extensive or recurrent disease not responsive to topical therapy. Take with food for better absorption. Check for drug interactions (CYP3A4 inhibitor)."
+      ],
+      [
+        "Fluconazole 300 mg (oral)",
+        "300 mg by mouth weekly",
+        "2 weeks (2 doses total)",
+        "Convenient oral alternative for extensive disease. Generally well tolerated. Check for drug interactions. Avoid in pregnancy."
+      ],
+      [
+        "Ciclopirox 1% cream",
+        "Apply twice daily to affected areas",
+        "2 weeks",
+        "Broad-spectrum antifungal effective against Malassezia. Alternative topical option when ketoconazole or selenium sulfide are not tolerated."
+      ]
     ],
     "note": "Example regimens only. The actual medication, dosing, and duration are determined by the MD after reviewing your symptoms, disease extent, prior treatments, allergies, and red flags. Oral terbinafine is ineffective for tinea versicolor and should not be used for this condition. Oral ketoconazole is not recommended due to hepatotoxicity risk. TeleDirectMD does not prescribe controlled substances."
   },
-
   "homeCare": {
     "sectionTitle": "Home Care, Recovery Timeline, Prevention, and Follow-up",
     "whatToDoNow": {
@@ -391,7 +504,6 @@
       ]
     }
   },
-
   "whenNotToUse": {
     "sectionTitle": "When Not to Use TeleDirectMD for Tinea Versicolor in {state}",
     "intro": "TeleDirectMD is designed for classic tinea versicolor symptoms appropriate for telehealth. We are direct about when telehealth is not appropriate.",
@@ -411,14 +523,25 @@
     "alternatives": {
       "title": "Alternative Care Options",
       "items": [
-        { "label": "Emergency room:", "text": "rarely needed for tinea versicolor; only for severe allergic reaction to treatment or coexisting medical emergency" },
-        { "label": "Urgent care:", "text": "uncertain diagnosis with need for same-day in-person skin examination, or rash with associated systemic symptoms" },
-        { "label": "Dermatology:", "text": "treatment-resistant cases, diagnostic uncertainty requiring biopsy or KOH scraping, extensive disease in immunocompromised patients, or differentiation from vitiligo or secondary syphilis" },
-        { "label": "Primary care:", "text": "follow-up for persistent or recurrent tinea versicolor, co-management of contributing conditions, or immunosuppression workup" }
+        {
+          "label": "Emergency room:",
+          "text": "rarely needed for tinea versicolor; only for severe allergic reaction to treatment or coexisting medical emergency"
+        },
+        {
+          "label": "Urgent care:",
+          "text": "uncertain diagnosis with need for same-day in-person skin examination, or rash with associated systemic symptoms"
+        },
+        {
+          "label": "Dermatology:",
+          "text": "treatment-resistant cases, diagnostic uncertainty requiring biopsy or KOH scraping, extensive disease in immunocompromised patients, or differentiation from vitiligo or secondary syphilis"
+        },
+        {
+          "label": "Primary care:",
+          "text": "follow-up for persistent or recurrent tinea versicolor, co-management of contributing conditions, or immunosuppression workup"
+        }
       ]
     }
   },
-
   "faq": {
     "sectionTitle": "Tinea Versicolor Treatment FAQs for {state}",
     "items": [
@@ -484,15 +607,28 @@
       "text": "Insurance is not required. Adult-only video visits. MD-only care. Safety-first triage, antifungal treatment guidance, and prescriptions only when appropriate."
     }
   },
-
   "references": [
-    { "text": "Tinea Versicolor, StatPearls (2025)", "url": "https://www.ncbi.nlm.nih.gov/books/NBK482500/" },
-    { "text": "Mayo Clinic — Tinea Versicolor: Diagnosis and Treatment", "url": "https://www.mayoclinic.org/diseases-conditions/tinea-versicolor/diagnosis-treatment/drc-20378390" },
-    { "text": "Tinea Versicolor Updated Review of Diagnosis and Management (PMC, 2022)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9677953/" },
-    { "text": "Gupta AK, Foley KA. Antifungal Treatment for Pityriasis Versicolor. J Fungi (Basel). 2015;1(1):13-29.", "url": "https://www.mdpi.com/2309-608X/1/1/13" },
-    { "text": "Hu SW, Bigby M. Pityriasis versicolor: a systematic review of interventions. Arch Dermatol. 2010;146(10):1132-40.", "url": "https://jamanetwork.com/journals/jamadermatology/fullarticle/420978" }
+    {
+      "text": "Tinea Versicolor, StatPearls (2025)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK482500/"
+    },
+    {
+      "text": "Mayo Clinic — Tinea Versicolor: Diagnosis and Treatment",
+      "url": "https://www.mayoclinic.org/diseases-conditions/tinea-versicolor/diagnosis-treatment/drc-20378390"
+    },
+    {
+      "text": "Tinea Versicolor Updated Review of Diagnosis and Management (PMC, 2022)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9677953/"
+    },
+    {
+      "text": "Gupta AK, Foley KA. Antifungal Treatment for Pityriasis Versicolor. J Fungi (Basel). 2015;1(1):13-29.",
+      "url": "https://www.mdpi.com/2309-608X/1/1/13"
+    },
+    {
+      "text": "Hu SW, Bigby M. Pityriasis versicolor: a systematic review of interventions. Arch Dermatol. 2010;146(10):1132-40.",
+      "url": "https://jamanetwork.com/journals/jamadermatology/fullarticle/420978"
+    }
   ],
-
   "disclaimer": {
     "sectionTitle": "TeleDirectMD Telehealth Disclaimer",
     "paragraphs": [
@@ -501,7 +637,6 @@
       "Online tinea versicolor treatment in {state}. Pityriasis versicolor prescription online. Antifungal treatment for skin discoloration by video visit."
     ]
   },
-
   "relatedConditions": [
     {
       "slug": "tinea-treatment-online",
@@ -524,36 +659,74 @@
       "description": "Contact dermatitis can cause post-inflammatory pigment changes that overlap with tinea versicolor appearance"
     }
   ],
-
   "inlineLinks": [
-    { "slug": "eczema-treatment-online", "label": "Eczema" },
-    { "slug": "acne-treatment-online", "label": "Acne" },
-    { "slug": "contact-dermatitis-treatment-online", "label": "Contact Dermatitis" },
-    { "slug": "cellulitis-treatment-online", "label": "Cellulitis" },
-    { "slug": "shingles-treatment-online", "label": "Shingles" },
-    { "slug": "cold-sore-treatment-online", "label": "Cold Sore" },
-    { "slug": "pink-eye-treatment-online", "label": "Pink Eye" },
-    { "slug": "sinus-infection-treatment-online", "label": "Sinus Infection" },
-    { "slug": "uti-treatment-online", "label": "UTI" },
-    { "slug": "yeast-infection-treatment-online", "label": "Yeast Infection" }
+    {
+      "slug": "eczema-treatment-online",
+      "label": "Eczema"
+    },
+    {
+      "slug": "acne-treatment-online",
+      "label": "Acne"
+    },
+    {
+      "slug": "contact-dermatitis-treatment-online",
+      "label": "Contact Dermatitis"
+    },
+    {
+      "slug": "cellulitis-treatment-online",
+      "label": "Cellulitis"
+    },
+    {
+      "slug": "shingles-treatment-online",
+      "label": "Shingles"
+    },
+    {
+      "slug": "cold-sore-treatment-online",
+      "label": "Cold Sore"
+    },
+    {
+      "slug": "pink-eye-treatment-online",
+      "label": "Pink Eye"
+    },
+    {
+      "slug": "sinus-infection-treatment-online",
+      "label": "Sinus Infection"
+    },
+    {
+      "slug": "uti-treatment-online",
+      "label": "UTI"
+    },
+    {
+      "slug": "yeast-infection-treatment-online",
+      "label": "Yeast Infection"
+    }
   ],
-
   "cityBlock": {
     "title": "Adults We Serve Across {state}",
     "text": "TeleDirectMD evaluates adults located throughout {state}, including {citiesExtended}. Whether you are searching for online tinea versicolor treatment in {city1}, pityriasis versicolor care in {city2}, skin discoloration treatment online in {city3}, or telehealth antifungal evaluation anywhere else in {state}, the same telehealth eligibility and safety rules apply."
   },
-
   "icd10Codes": [
-    { "code": "B36.0", "description": "Pityriasis versicolor" }
+    {
+      "code": "B36.0",
+      "description": "Pityriasis versicolor"
+    }
   ],
-
   "jsonLd": {
     "conditionName": "Tinea Versicolor",
-    "conditionAlternateNames": ["Pityriasis versicolor", "Sun fungus", "Malassezia infection"],
+    "conditionAlternateNames": [
+      "Pityriasis versicolor",
+      "Sun fungus",
+      "Malassezia infection"
+    ],
     "conditionDescription": "Tinea versicolor (pityriasis versicolor) is a common superficial fungal infection caused by Malassezia yeast overgrowth, presenting as hypo- or hyperpigmented patches on the trunk and upper extremities. TeleDirectMD evaluates adult tinea versicolor symptoms by video visit with safety-first red-flag screening, guideline-based antifungal treatment when clinically appropriate, recurrence prevention guidance, and clear rules for when in-person dermatology care is needed.",
     "primaryIcd10": "B36.0",
     "anatomy": "Skin (stratum corneum)",
-    "symptoms": ["Hypopigmented or hyperpigmented patches", "Fine scale on scratching", "Mild pruritus", "Patches more noticeable after sun exposure"],
+    "symptoms": [
+      "Hypopigmented or hyperpigmented patches",
+      "Fine scale on scratching",
+      "Mild pruritus",
+      "Patches more noticeable after sun exposure"
+    ],
     "riskFactors": [
       "Warm, humid climate",
       "Oily skin and increased sebaceous activity",
@@ -568,11 +741,26 @@
     ],
     "epidemiology": "Tinea versicolor affects 2 to 8 percent of the population in temperate climates and up to 40 to 50 percent in tropical regions, with highest prevalence in young adults.",
     "drugs": [
-      { "name": "Ketoconazole 2% (topical)", "id": "ketoconazole-topical" },
-      { "name": "Selenium sulfide 2.5%", "id": "selenium-sulfide" },
-      { "name": "Itraconazole (oral)", "id": "itraconazole" },
-      { "name": "Fluconazole (oral)", "id": "fluconazole" },
-      { "name": "Terbinafine 1% cream (topical)", "id": "terbinafine-topical" }
+      {
+        "name": "Ketoconazole 2% (topical)",
+        "id": "ketoconazole-topical"
+      },
+      {
+        "name": "Selenium sulfide 2.5%",
+        "id": "selenium-sulfide"
+      },
+      {
+        "name": "Itraconazole (oral)",
+        "id": "itraconazole"
+      },
+      {
+        "name": "Fluconazole (oral)",
+        "id": "fluconazole"
+      },
+      {
+        "name": "Terbinafine 1% cream (topical)",
+        "id": "terbinafine-topical"
+      }
     ],
     "treatments": [
       "Topical antifungal agents (ketoconazole, selenium sulfide, terbinafine cream, ciclopirox)",
@@ -584,11 +772,30 @@
       "Clinical symptom review and photo-based assessment of patch distribution",
       "KOH scraping and Wood lamp examination when in-person evaluation is needed"
     ],
-    "specialties": ["Family Medicine", "Telemedicine", "Dermatology"],
+    "specialties": [
+      "Family Medicine",
+      "Telemedicine",
+      "Dermatology"
+    ],
     "guidelines": [
-      { "name": "Tinea Versicolor, StatPearls", "url": "https://www.ncbi.nlm.nih.gov/books/NBK482500/", "publisher": "StatPearls", "id": "statpearls" },
-      { "name": "Mayo Clinic Tinea Versicolor Diagnosis and Treatment", "url": "https://www.mayoclinic.org/diseases-conditions/tinea-versicolor/diagnosis-treatment/drc-20378390", "publisher": "Mayo Clinic", "id": "mayo" },
-      { "name": "Tinea Versicolor Updated Review (PMC)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9677953/", "publisher": "PMC", "id": "pmc-review" }
+      {
+        "name": "Tinea Versicolor, StatPearls",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK482500/",
+        "publisher": "StatPearls",
+        "id": "statpearls"
+      },
+      {
+        "name": "Mayo Clinic Tinea Versicolor Diagnosis and Treatment",
+        "url": "https://www.mayoclinic.org/diseases-conditions/tinea-versicolor/diagnosis-treatment/drc-20378390",
+        "publisher": "Mayo Clinic",
+        "id": "mayo"
+      },
+      {
+        "name": "Tinea Versicolor Updated Review (PMC)",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9677953/",
+        "publisher": "PMC",
+        "id": "pmc-review"
+      }
     ],
     "knowsAbout": [
       "Tinea versicolor treatment",
@@ -602,5 +809,7 @@
     ],
     "serviceDescription": "Secure video visit for {state} adults with tinea versicolor symptoms, including red-flag screening, guideline-based antifungal treatment when clinically appropriate, and recurrence prevention guidance.",
     "webpageDescription": "{state} tinea versicolor treatment by secure MD video visit for adults. Evidence-based evaluation of pityriasis versicolor symptoms, red-flag screening, guideline-based antifungal treatment when appropriate, pigment recovery guidance, and clear rules for when in-person dermatology care is needed."
-  }
+  },
+  "guidelineSource": "aad",
+  "conditionType": "treatment"
 }

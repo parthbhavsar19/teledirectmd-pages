@@ -2,20 +2,34 @@
   "conditionName": "Skin Fungus Treatment",
   "conditionShort": "Skin Fungus",
   "conditionSlug": "tinea-treatment-online",
-  "pageTitle": "Skin Fungus Treatment Online in {state} | Ringworm Jock Itch Athlete's Foot MD Video Visit | TeleDirectMD",
+  "pageTitle": "Skin Fungus Online Treatment in {state} | TeleDirectMD",
   "metaDescription": "Evidence-based skin fungus treatment for {state} adults by secure video visit. Red-flag screening, topical and oral antifungal prescriptions when clinically appropriate, and antifungal stewardship guidance. Self pay option starting at $49. Insurance is not required.",
   "ogImageAlt": "Skin fungus treatment in {state} by TeleDirectMD",
-
   "hero": {
     "h1": "Skin Fungus Treatment in {state} (Tinea Corporis, Tinea Cruris, Tinea Pedis)",
     "subtitle": "{state} adult care by secure video visit, self pay option starting at $49, MD-only, insurance is not required.",
     "introParagraph": "Dermatophyte skin infections, commonly called ringworm (tinea corporis), jock itch (tinea cruris), and athlete's foot (tinea pedis), are caused by fungi in the Trichophyton, Microsporum, and Epidermophyton families that invade the outermost layer of skin. These infections produce characteristic annular (ring-shaped) plaques with raised, scaly borders and central clearing on the body, red scaly patches in the groin folds, or peeling, cracking, and itching between the toes and on the soles. AAFP and CDC guidelines support a 2-week empiric trial of topical antifungal therapy as first-line treatment for mild-to-moderate tinea corporis, cruris, and pedis. TeleDirectMD uses a safety-first telehealth approach that screens for red flags including tinea capitis (scalp involvement requiring oral therapy), widespread or severe infection, immunocompromised status, suspected deep fungal infection (Majocchi granuloma), nail involvement (onychomycosis), and failed topical therapy before determining whether treatment by video visit is appropriate. If the history and photo assessment support localized dermatophyte infection without red flags, guideline-based topical or oral antifungal treatment may be prescribed by video, while adults with scalp involvement, extensive disease, deep infection, or immunocompromised status are directed to in-person or specialist care. This page is for adults located in {state}, including {cities}.",
     "tocLinks": [
-      { "href": "eligibility-checklist", "label": "Eligibility checklist" },
-      { "href": "decision-guide", "label": "Decision guide" },
-      { "href": "treatment-options", "label": "Treatment options" },
-      { "href": "faq", "label": "FAQs" },
-      { "href": "references", "label": "References" }
+      {
+        "href": "eligibility-checklist",
+        "label": "Eligibility checklist"
+      },
+      {
+        "href": "decision-guide",
+        "label": "Decision guide"
+      },
+      {
+        "href": "treatment-options",
+        "label": "Treatment options"
+      },
+      {
+        "href": "faq",
+        "label": "FAQs"
+      },
+      {
+        "href": "references",
+        "label": "References"
+      }
     ],
     "benefits": [
       "Self pay option starting at $49",
@@ -35,7 +49,6 @@
     },
     "icd10Display": "B35.4, B35.6, B35.3 (final coding depends on clinical details)"
   },
-
   "eligibility": {
     "sectionTitle": "Skin Fungus Telehealth Eligibility Checklist for {state}",
     "introText": "You are likely eligible for a TeleDirectMD video visit if ALL of these are true:",
@@ -61,7 +74,6 @@
     ],
     "notEligibleDisclaimer": "If you have red-flag symptoms such as scalp involvement, widespread infection, deep fungal lesions, or signs of secondary bacterial infection with fever, seek in-person care or specialist evaluation. TeleDirectMD is not appropriate for complex or severe cases."
   },
-
   "howItWorks": {
     "sectionTitle": "How Online Skin Fungus Treatment Works in {state}",
     "steps": [
@@ -83,7 +95,6 @@
       }
     ]
   },
-
   "telehealthRegulations": {
     "sectionTitle": "{state} Telehealth Regulations for Online Skin Fungus Care",
     "paragraphs": [
@@ -91,7 +102,6 @@
       "Location matters: you must be physically in {state} during the visit. Insurance is not required. TeleDirectMD does not prescribe controlled substances."
     ]
   },
-
   "comparisonTable": {
     "sectionTitle": "TeleDirectMD vs Other Care Options for Skin Fungus in {state}",
     "intro": "Here is how TeleDirectMD compares to common settings for adult skin fungus care in {state}:",
@@ -139,7 +149,6 @@
     ],
     "bottomLine": "TeleDirectMD is a strong fit for localized tinea corporis, cruris, or pedis without red flags, with a safety-first approach, direct MD evaluation, antifungal stewardship, and clear guidance on when in-person care is needed."
   },
-
   "decisionGuide": {
     "sectionTitle": "Should I Use TeleDirectMD for Skin Fungus in {state}? Decision Guide",
     "steps": [
@@ -185,7 +194,6 @@
       }
     ]
   },
-
   "pricing": {
     "sectionTitle": "What Does Skin Fungus Treatment Cost in {state}?",
     "subtitle": "Transparent options. Insurance is not required.",
@@ -200,15 +208,34 @@
       "Clear follow-up steps"
     ],
     "comparisonBars": [
-      { "name": "TeleDirectMD", "value": "$49", "width": 12, "isTdmd": true },
-      { "name": "Primary Care", "value": "$100 to $250+", "width": 45, "isTdmd": false },
-      { "name": "Urgent Care", "value": "$150 to $300+", "width": 55, "isTdmd": false },
-      { "name": "Emergency Room", "value": "$500 to $3,000+", "width": 100, "isTdmd": false }
+      {
+        "name": "TeleDirectMD",
+        "value": "$49",
+        "width": 12,
+        "isTdmd": true
+      },
+      {
+        "name": "Primary Care",
+        "value": "$100 to $250+",
+        "width": 45,
+        "isTdmd": false
+      },
+      {
+        "name": "Urgent Care",
+        "value": "$150 to $300+",
+        "width": 55,
+        "isTdmd": false
+      },
+      {
+        "name": "Emergency Room",
+        "value": "$500 to $3,000+",
+        "width": 100,
+        "isTdmd": false
+      }
     ],
     "footnote": "Prescription costs at your pharmacy are separate and vary by medication and pharmacy.",
     "noHiddenFees": "No hidden fees. If medication is not clinically appropriate, you still receive a complete evaluation, guidance, and clear instructions on what level of care you need next."
   },
-
   "whatIsCondition": {
     "sectionTitle": "What Is Skin Fungus (Tinea)?",
     "paragraphs": [
@@ -217,36 +244,91 @@
       "TeleDirectMD focuses on localized tinea corporis, tinea cruris, and tinea pedis appropriate for telehealth, with careful screening to direct tinea capitis, onychomycosis, widespread disease, deep infection, and immunocompromised or atypical cases to in-person or specialist care."
     ]
   },
-
   "causesAndRiskFactors": {
     "sectionTitle": "Causes and Risk Factors",
     "intro": "Dermatophyte infections are caused by fungi that thrive in warm, moist environments and feed on keratin in the skin. Understanding risk factors helps determine whether telehealth evaluation is appropriate or whether in-person assessment is needed.",
     "items": [
-      { "label": "Warm, moist environments:", "text": "occlusive clothing, sweating, humid climates, and wet skin create ideal conditions for fungal growth, particularly in the groin folds and between the toes" },
-      { "label": "Direct contact exposure:", "text": "skin-to-skin contact with infected individuals, contact sports (wrestling, martial arts), shared gym equipment, locker room floors, and communal showers increase transmission risk" },
-      { "label": "Animal contact:", "text": "cats, dogs, and other animals can carry dermatophytes such as Microsporum canis and transmit them to humans through direct contact" },
-      { "label": "Immunocompromised status:", "text": "diabetes, HIV, organ transplant recipients, chronic corticosteroid use, and other immunosuppressive conditions increase risk of widespread, deep, or treatment-resistant fungal infection" },
-      { "label": "Obesity and skin folds:", "text": "excess skin folds create warm, moist environments that promote fungal growth, particularly in the groin (tinea cruris) and under skin folds" },
-      { "label": "Shared personal items:", "text": "towels, razors, clothing, and bedding can harbor dermatophyte spores and facilitate transmission within households" }
+      {
+        "label": "Warm, moist environments:",
+        "text": "occlusive clothing, sweating, humid climates, and wet skin create ideal conditions for fungal growth, particularly in the groin folds and between the toes"
+      },
+      {
+        "label": "Direct contact exposure:",
+        "text": "skin-to-skin contact with infected individuals, contact sports (wrestling, martial arts), shared gym equipment, locker room floors, and communal showers increase transmission risk"
+      },
+      {
+        "label": "Animal contact:",
+        "text": "cats, dogs, and other animals can carry dermatophytes such as Microsporum canis and transmit them to humans through direct contact"
+      },
+      {
+        "label": "Immunocompromised status:",
+        "text": "diabetes, HIV, organ transplant recipients, chronic corticosteroid use, and other immunosuppressive conditions increase risk of widespread, deep, or treatment-resistant fungal infection"
+      },
+      {
+        "label": "Obesity and skin folds:",
+        "text": "excess skin folds create warm, moist environments that promote fungal growth, particularly in the groin (tinea cruris) and under skin folds"
+      },
+      {
+        "label": "Shared personal items:",
+        "text": "towels, razors, clothing, and bedding can harbor dermatophyte spores and facilitate transmission within households"
+      }
     ],
     "closing": "Not every scaly or itchy rash is a fungal infection. Eczema, contact dermatitis, psoriasis, pityriasis rosea, and granuloma annulare can mimic tinea. The combination of annular morphology, advancing scaly border, central clearing, and distribution in characteristic locations is suggestive but not definitive without KOH preparation or fungal culture. TeleDirectMD uses symptom patterns, rash morphology, and photo assessment to guide diagnosis and direct uncertain or complicated cases to in-person evaluation with KOH scraping or culture."
   },
-
   "symptomsAndRedFlags": {
     "sectionTitle": "Symptoms and Red Flags for Skin Fungus in {state}",
     "intro": "Use this table to understand which symptoms fit localized dermatophyte skin infection and which suggest a need for in-person evaluation.",
-    "headers": ["Symptom or situation", "What it suggests", "Telehealth appropriate?", "Red flag requiring urgent in-person care"],
+    "headers": [
+      "Symptom or situation",
+      "What it suggests",
+      "Telehealth appropriate?",
+      "Red flag requiring urgent in-person care"
+    ],
     "rows": [
-      ["Ring-shaped plaque with raised scaly border and central clearing on trunk or extremities", "Classic tinea corporis (ringworm)", "Often yes", "If rapidly expanding, multiple large lesions, or not responding to 2 weeks of topical antifungal"],
-      ["Red, scaly, itchy rash in groin folds extending to inner thighs, sparing the scrotum", "Classic tinea cruris (jock itch)", "Often yes", "If extending to buttocks or trunk suggesting widespread infection"],
-      ["Peeling, cracking, maceration, or scaling between toes or on soles of feet", "Classic tinea pedis (athlete's foot)", "Often yes", "If severe fissuring with signs of secondary bacterial infection or cellulitis"],
-      ["Itchy, scaly patches on the scalp with hair breakage or bald patches", "Tinea capitis — requires oral antifungal therapy and monitoring", "No", "Requires in-person evaluation and oral antifungal with monitoring"],
-      ["Thickened, discolored, crumbling nails", "Onychomycosis — requires prolonged oral therapy with liver monitoring", "No", "Requires in-person evaluation, nail clipping or culture, and monitored oral therapy"],
-      ["Deep, boggy, pus-filled nodules on legs or arms", "Majocchi granuloma (deep follicular fungal infection)", "No", "Requires in-person evaluation and oral antifungal therapy"],
-      ["Fever with rapidly spreading redness, warmth, or red streaking from the rash", "Secondary bacterial infection or cellulitis complicating the fungal infection", "No", "Urgent in-person care or ER"]
+      [
+        "Ring-shaped plaque with raised scaly border and central clearing on trunk or extremities",
+        "Classic tinea corporis (ringworm)",
+        "Often yes",
+        "If rapidly expanding, multiple large lesions, or not responding to 2 weeks of topical antifungal"
+      ],
+      [
+        "Red, scaly, itchy rash in groin folds extending to inner thighs, sparing the scrotum",
+        "Classic tinea cruris (jock itch)",
+        "Often yes",
+        "If extending to buttocks or trunk suggesting widespread infection"
+      ],
+      [
+        "Peeling, cracking, maceration, or scaling between toes or on soles of feet",
+        "Classic tinea pedis (athlete's foot)",
+        "Often yes",
+        "If severe fissuring with signs of secondary bacterial infection or cellulitis"
+      ],
+      [
+        "Itchy, scaly patches on the scalp with hair breakage or bald patches",
+        "Tinea capitis — requires oral antifungal therapy and monitoring",
+        "No",
+        "Requires in-person evaluation and oral antifungal with monitoring"
+      ],
+      [
+        "Thickened, discolored, crumbling nails",
+        "Onychomycosis — requires prolonged oral therapy with liver monitoring",
+        "No",
+        "Requires in-person evaluation, nail clipping or culture, and monitored oral therapy"
+      ],
+      [
+        "Deep, boggy, pus-filled nodules on legs or arms",
+        "Majocchi granuloma (deep follicular fungal infection)",
+        "No",
+        "Requires in-person evaluation and oral antifungal therapy"
+      ],
+      [
+        "Fever with rapidly spreading redness, warmth, or red streaking from the rash",
+        "Secondary bacterial infection or cellulitis complicating the fungal infection",
+        "No",
+        "Urgent in-person care or ER"
+      ]
     ]
   },
-
   "differentialDiagnosis": {
     "sectionTitle": "Differential Diagnosis: Skin Fungus vs Other Conditions",
     "intro": "Several conditions can mimic dermatophyte infection, and the absence of KOH preparation or fungal culture via telehealth means that clinical diagnosis relies on rash morphology, distribution, and clinical context. AAFP guidelines emphasize that a 2-week empiric trial of topical antifungal is a reasonable diagnostic and therapeutic approach for suspected localized tinea. TeleDirectMD focuses on identifying classic tinea presentations and directing uncertain or atypical cases to in-person evaluation when appropriate.",
@@ -287,7 +369,6 @@
     ],
     "closing": "If your rash does not match classic tinea morphology, does not improve after a 2-week empiric trial of topical antifungal, or any red flags are present, TeleDirectMD will direct you to in-person care for KOH scraping, fungal culture, or dermatology evaluation."
   },
-
   "telehealthEligibility": {
     "sectionTitle": "When Is a Video Visit Appropriate?",
     "appropriate": {
@@ -316,7 +397,6 @@
       "disclaimer": "If any red-flag symptoms are present, seek in-person or specialist care. TeleDirectMD is not appropriate for these situations."
     }
   },
-
   "treatmentOptions": {
     "sectionTitle": "Treatment Options",
     "intro": "Localized dermatophyte skin infections are typically treated with topical antifungal therapy as first-line, with oral antifungals reserved for extensive, refractory, or follicular involvement. AAFP and CDC guidelines recommend a 2-week empiric trial of topical antifungal for suspected localized tinea corporis, cruris, or pedis. A critical antifungal stewardship principle is avoidance of combination antifungal-corticosteroid products, which can mask the infection, promote fungal spread, and cause skin atrophy.",
@@ -346,22 +426,55 @@
       "Suspected treatment-resistant dermatophyte strains (T. indotineae) requiring culture and susceptibility testing"
     ]
   },
-
   "medications": {
     "sectionTitle": "Common Medication Options",
     "intro": "These are common examples for dermatophyte skin infections. The actual medication, dose, and duration are determined by the MD after reviewing your rash location, extent, morphology, prior treatments, allergies, immune status, and red flags.",
-    "headers": ["Medication", "Typical dose", "Duration", "Key considerations"],
+    "headers": [
+      "Medication",
+      "Typical dose",
+      "Duration",
+      "Key considerations"
+    ],
     "rows": [
-      ["Terbinafine 1% cream (topical)", "Apply once daily to affected area and 2 cm beyond visible border", "1 to 2 weeks", "First-line topical antifungal. Highly effective against dermatophytes. Shortest treatment duration among topical options. Available over the counter."],
-      ["Clotrimazole 1% cream (topical)", "Apply twice daily to affected area and 2 cm beyond visible border", "2 to 4 weeks", "Widely available first-line alternative. Effective against dermatophytes and Candida. Available over the counter. Requires longer treatment course than terbinafine."],
-      ["Ketoconazole 2% cream (topical)", "Apply once daily to affected area", "2 to 4 weeks", "Effective broad-spectrum topical antifungal. Prescription formulation. Also available as shampoo for seborrheic dermatitis."],
-      ["Terbinafine 250 mg (oral)", "250 mg by mouth once daily", "2 to 4 weeks", "For extensive, refractory, or follicular involvement. Most commonly prescribed oral antifungal for tinea. May require liver function monitoring with prolonged use. Drug interactions with CYP2D6 substrates."],
-      ["Itraconazole 200 mg (oral)", "200 mg by mouth once daily", "1 to 2 weeks", "Alternative oral antifungal when terbinafine is contraindicated or not tolerated. Take with food for better absorption. Check for drug interactions including statins and calcium channel blockers."],
-      ["Butenafine 1% cream (topical)", "Apply once daily to affected area", "1 to 4 weeks", "Benzylamine antifungal effective against dermatophytes. Available over the counter. Once-daily dosing for convenience."]
+      [
+        "Terbinafine 1% cream (topical)",
+        "Apply once daily to affected area and 2 cm beyond visible border",
+        "1 to 2 weeks",
+        "First-line topical antifungal. Highly effective against dermatophytes. Shortest treatment duration among topical options. Available over the counter."
+      ],
+      [
+        "Clotrimazole 1% cream (topical)",
+        "Apply twice daily to affected area and 2 cm beyond visible border",
+        "2 to 4 weeks",
+        "Widely available first-line alternative. Effective against dermatophytes and Candida. Available over the counter. Requires longer treatment course than terbinafine."
+      ],
+      [
+        "Ketoconazole 2% cream (topical)",
+        "Apply once daily to affected area",
+        "2 to 4 weeks",
+        "Effective broad-spectrum topical antifungal. Prescription formulation. Also available as shampoo for seborrheic dermatitis."
+      ],
+      [
+        "Terbinafine 250 mg (oral)",
+        "250 mg by mouth once daily",
+        "2 to 4 weeks",
+        "For extensive, refractory, or follicular involvement. Most commonly prescribed oral antifungal for tinea. May require liver function monitoring with prolonged use. Drug interactions with CYP2D6 substrates."
+      ],
+      [
+        "Itraconazole 200 mg (oral)",
+        "200 mg by mouth once daily",
+        "1 to 2 weeks",
+        "Alternative oral antifungal when terbinafine is contraindicated or not tolerated. Take with food for better absorption. Check for drug interactions including statins and calcium channel blockers."
+      ],
+      [
+        "Butenafine 1% cream (topical)",
+        "Apply once daily to affected area",
+        "1 to 4 weeks",
+        "Benzylamine antifungal effective against dermatophytes. Available over the counter. Once-daily dosing for convenience."
+      ]
     ],
     "note": "Example regimens only. The actual medication, dosing, and duration are determined by the MD after reviewing your symptoms, rash extent, risk factors, allergies, prior treatments, and red flags. TeleDirectMD does not prescribe controlled substances. Avoid combination antifungal-corticosteroid products such as clotrimazole-betamethasone."
   },
-
   "homeCare": {
     "sectionTitle": "Home Care, Recovery Timeline, Prevention, and Follow-up",
     "whatToDoNow": {
@@ -397,7 +510,6 @@
       ]
     }
   },
-
   "whenNotToUse": {
     "sectionTitle": "When Not to Use TeleDirectMD for Skin Fungus in {state}",
     "intro": "TeleDirectMD is designed for localized dermatophyte skin infections appropriate for telehealth. We are direct about when telehealth is not appropriate.",
@@ -418,14 +530,25 @@
     "alternatives": {
       "title": "Alternative Care Options",
       "items": [
-        { "label": "Emergency room:", "text": "severe secondary bacterial infection with high fever, rapidly spreading cellulitis, or severe allergic reaction" },
-        { "label": "Urgent care:", "text": "same-day in-person exam when diagnosis is uncertain, KOH scraping is needed, or moderate secondary infection is present" },
-        { "label": "Dermatology:", "text": "tinea capitis, onychomycosis, Majocchi granuloma, treatment-resistant cases, suspected resistant strains (T. indotineae), or immunocompromised patients with extensive fungal disease" },
-        { "label": "Primary care:", "text": "follow-up for failed topical therapy, recurrent infections, KOH confirmation, or oral antifungal prescribing with liver monitoring" }
+        {
+          "label": "Emergency room:",
+          "text": "severe secondary bacterial infection with high fever, rapidly spreading cellulitis, or severe allergic reaction"
+        },
+        {
+          "label": "Urgent care:",
+          "text": "same-day in-person exam when diagnosis is uncertain, KOH scraping is needed, or moderate secondary infection is present"
+        },
+        {
+          "label": "Dermatology:",
+          "text": "tinea capitis, onychomycosis, Majocchi granuloma, treatment-resistant cases, suspected resistant strains (T. indotineae), or immunocompromised patients with extensive fungal disease"
+        },
+        {
+          "label": "Primary care:",
+          "text": "follow-up for failed topical therapy, recurrent infections, KOH confirmation, or oral antifungal prescribing with liver monitoring"
+        }
       ]
     }
   },
-
   "faq": {
     "sectionTitle": "Skin Fungus Treatment FAQs for {state}",
     "items": [
@@ -491,16 +614,32 @@
       "text": "Insurance is not required. Adult-only video visits. MD-only care. Safety-first triage, antifungal stewardship, and prescriptions only when appropriate."
     }
   },
-
   "references": [
-    { "text": "CDC — Ringworm: Treatment Guidelines (2024)", "url": "https://www.cdc.gov/ringworm/treatment/index.html" },
-    { "text": "AAFP — Diagnosis and Management of Tinea Infections (2025)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12707599" },
-    { "text": "Tinea Corporis, StatPearls (2025)", "url": "https://www.ncbi.nlm.nih.gov/books/NBK544360/" },
-    { "text": "Tinea Pedis, StatPearls (2025)", "url": "https://www.ncbi.nlm.nih.gov/books/NBK470421/" },
-    { "text": "Ely JW, Rosenfeld S, Seabury Stone M. Diagnosis and management of tinea infections. Am Fam Physician. 2014;90(10):702-710.", "url": "https://www.aafp.org/pubs/afp/issues/2014/1115/p702.html" },
-    { "text": "Sahoo AK, Mahajan R. Management of tinea corporis, tinea cruris, and tinea pedis: A comprehensive review. Indian Dermatol Online J. 2016;7(2):77-86.", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4804599/" }
+    {
+      "text": "CDC — Ringworm: Treatment Guidelines (2024)",
+      "url": "https://www.cdc.gov/ringworm/treatment/index.html"
+    },
+    {
+      "text": "AAFP — Diagnosis and Management of Tinea Infections (2025)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12707599"
+    },
+    {
+      "text": "Tinea Corporis, StatPearls (2025)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK544360/"
+    },
+    {
+      "text": "Tinea Pedis, StatPearls (2025)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK470421/"
+    },
+    {
+      "text": "Ely JW, Rosenfeld S, Seabury Stone M. Diagnosis and management of tinea infections. Am Fam Physician. 2014;90(10):702-710.",
+      "url": "https://www.aafp.org/pubs/afp/issues/2014/1115/p702.html"
+    },
+    {
+      "text": "Sahoo AK, Mahajan R. Management of tinea corporis, tinea cruris, and tinea pedis: A comprehensive review. Indian Dermatol Online J. 2016;7(2):77-86.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4804599/"
+    }
   ],
-
   "disclaimer": {
     "sectionTitle": "TeleDirectMD Telehealth Disclaimer",
     "paragraphs": [
@@ -509,7 +648,6 @@
       "Online skin fungus treatment in {state}. Ringworm prescription online. Jock itch treatment online. Athlete's foot treatment by video visit. Antifungal cream and oral antifungal treatment by video visit."
     ]
   },
-
   "relatedConditions": [
     {
       "slug": "eczema-treatment-online",
@@ -532,38 +670,86 @@
       "description": "Scabies rash can mimic tinea with itchy papules and requires differentiation based on distribution pattern"
     }
   ],
-
   "inlineLinks": [
-    { "slug": "eczema-treatment-online", "label": "Eczema" },
-    { "slug": "contact-dermatitis-treatment-online", "label": "Contact Dermatitis" },
-    { "slug": "acne-treatment-online", "label": "Acne" },
-    { "slug": "scabies-treatment-online", "label": "Scabies" },
-    { "slug": "cellulitis-treatment-online", "label": "Cellulitis" },
-    { "slug": "yeast-infection-treatment-online", "label": "Yeast Infection" },
-    { "slug": "cold-sore-treatment-online", "label": "Cold Sore" },
-    { "slug": "shingles-treatment-online", "label": "Shingles" },
-    { "slug": "uti-treatment-online", "label": "UTI" },
-    { "slug": "sinus-infection-treatment-online", "label": "Sinus Infection" }
+    {
+      "slug": "eczema-treatment-online",
+      "label": "Eczema"
+    },
+    {
+      "slug": "contact-dermatitis-treatment-online",
+      "label": "Contact Dermatitis"
+    },
+    {
+      "slug": "acne-treatment-online",
+      "label": "Acne"
+    },
+    {
+      "slug": "scabies-treatment-online",
+      "label": "Scabies"
+    },
+    {
+      "slug": "cellulitis-treatment-online",
+      "label": "Cellulitis"
+    },
+    {
+      "slug": "yeast-infection-treatment-online",
+      "label": "Yeast Infection"
+    },
+    {
+      "slug": "cold-sore-treatment-online",
+      "label": "Cold Sore"
+    },
+    {
+      "slug": "shingles-treatment-online",
+      "label": "Shingles"
+    },
+    {
+      "slug": "uti-treatment-online",
+      "label": "UTI"
+    },
+    {
+      "slug": "sinus-infection-treatment-online",
+      "label": "Sinus Infection"
+    }
   ],
-
   "cityBlock": {
     "title": "Adults We Serve Across {state}",
     "text": "TeleDirectMD evaluates adults located throughout {state}, including {citiesExtended}. Whether you are searching for online ringworm treatment in {city1}, jock itch treatment online in {city2}, athlete's foot telehealth care in {city3}, or telehealth skin fungus evaluation anywhere else in {state}, the same telehealth eligibility and safety rules apply."
   },
-
   "icd10Codes": [
-    { "code": "B35.4", "description": "Tinea corporis (ringworm of the body)" },
-    { "code": "B35.6", "description": "Tinea cruris (jock itch)" },
-    { "code": "B35.3", "description": "Tinea pedis (athlete's foot)" }
+    {
+      "code": "B35.4",
+      "description": "Tinea corporis (ringworm of the body)"
+    },
+    {
+      "code": "B35.6",
+      "description": "Tinea cruris (jock itch)"
+    },
+    {
+      "code": "B35.3",
+      "description": "Tinea pedis (athlete's foot)"
+    }
   ],
-
   "jsonLd": {
     "conditionName": "Dermatophyte Skin Infection (Tinea)",
-    "conditionAlternateNames": ["Ringworm", "Tinea corporis", "Jock itch", "Tinea cruris", "Athlete's foot", "Tinea pedis", "Skin fungus"],
+    "conditionAlternateNames": [
+      "Ringworm",
+      "Tinea corporis",
+      "Jock itch",
+      "Tinea cruris",
+      "Athlete's foot",
+      "Tinea pedis",
+      "Skin fungus"
+    ],
     "conditionDescription": "Dermatophyte skin infections (tinea) are superficial fungal infections caused by Trichophyton, Microsporum, and Epidermophyton fungi that affect the skin of the body (tinea corporis), groin (tinea cruris), and feet (tinea pedis). TeleDirectMD evaluates adult tinea symptoms by video visit with safety-first red-flag screening, guideline-based topical and oral antifungal treatment when clinically appropriate, antifungal stewardship, and clear rules for when in-person or specialist care is needed.",
     "primaryIcd10": "B35.4",
     "anatomy": "Skin (epidermis, stratum corneum)",
-    "symptoms": ["Annular plaque with raised scaly border and central clearing", "Pruritus", "Erythematous scaly patches in groin folds", "Interdigital maceration and peeling on feet"],
+    "symptoms": [
+      "Annular plaque with raised scaly border and central clearing",
+      "Pruritus",
+      "Erythematous scaly patches in groin folds",
+      "Interdigital maceration and peeling on feet"
+    ],
     "riskFactors": [
       "Warm, moist environments and occlusive clothing",
       "Direct contact with infected individuals or animals",
@@ -579,11 +765,26 @@
     ],
     "epidemiology": "Dermatophyte infections are among the most common skin conditions worldwide. Tinea pedis affects an estimated 15 to 25 percent of the population at any given time.",
     "drugs": [
-      { "name": "Terbinafine 1% cream", "id": "terbinafine-topical" },
-      { "name": "Clotrimazole 1% cream", "id": "clotrimazole" },
-      { "name": "Ketoconazole 2% cream", "id": "ketoconazole-topical" },
-      { "name": "Terbinafine 250 mg oral", "id": "terbinafine-oral" },
-      { "name": "Itraconazole 200 mg oral", "id": "itraconazole" }
+      {
+        "name": "Terbinafine 1% cream",
+        "id": "terbinafine-topical"
+      },
+      {
+        "name": "Clotrimazole 1% cream",
+        "id": "clotrimazole"
+      },
+      {
+        "name": "Ketoconazole 2% cream",
+        "id": "ketoconazole-topical"
+      },
+      {
+        "name": "Terbinafine 250 mg oral",
+        "id": "terbinafine-oral"
+      },
+      {
+        "name": "Itraconazole 200 mg oral",
+        "id": "itraconazole"
+      }
     ],
     "treatments": [
       "Topical antifungal cream (terbinafine, clotrimazole, ketoconazole) as first-line",
@@ -596,11 +797,30 @@
       "KOH preparation when in-person evaluation is needed",
       "Fungal culture for treatment-resistant or atypical cases"
     ],
-    "specialties": ["Family Medicine", "Telemedicine", "Dermatology"],
+    "specialties": [
+      "Family Medicine",
+      "Telemedicine",
+      "Dermatology"
+    ],
     "guidelines": [
-      { "name": "CDC Ringworm Treatment Guidelines", "url": "https://www.cdc.gov/ringworm/treatment/index.html", "publisher": "Centers for Disease Control and Prevention", "id": "cdc" },
-      { "name": "AAFP Diagnosis and Management of Tinea Infections (2025)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12707599", "publisher": "American Academy of Family Physicians", "id": "aafp" },
-      { "name": "Tinea Corporis, StatPearls (2025)", "url": "https://www.ncbi.nlm.nih.gov/books/NBK544360/", "publisher": "StatPearls", "id": "statpearls" }
+      {
+        "name": "CDC Ringworm Treatment Guidelines",
+        "url": "https://www.cdc.gov/ringworm/treatment/index.html",
+        "publisher": "Centers for Disease Control and Prevention",
+        "id": "cdc"
+      },
+      {
+        "name": "AAFP Diagnosis and Management of Tinea Infections (2025)",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12707599",
+        "publisher": "American Academy of Family Physicians",
+        "id": "aafp"
+      },
+      {
+        "name": "Tinea Corporis, StatPearls (2025)",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK544360/",
+        "publisher": "StatPearls",
+        "id": "statpearls"
+      }
     ],
     "knowsAbout": [
       "Tinea corporis treatment",
@@ -615,5 +835,7 @@
     ],
     "serviceDescription": "Secure video visit for {state} adults with skin fungus symptoms, including red-flag screening, guideline-based topical and oral antifungal treatment when clinically appropriate, and antifungal stewardship guidance.",
     "webpageDescription": "{state} skin fungus treatment by secure MD video visit for adults. Evidence-based evaluation of ringworm, jock itch, and athlete's foot symptoms, red-flag screening, guideline-based antifungal treatment when appropriate, and clear rules for when in-person or specialist care is needed."
-  }
+  },
+  "guidelineSource": "aad",
+  "conditionType": "treatment"
 }

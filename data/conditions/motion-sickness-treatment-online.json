@@ -2,20 +2,34 @@
   "conditionName": "Motion Sickness Treatment",
   "conditionShort": "Motion Sickness",
   "conditionSlug": "motion-sickness-treatment-online",
-  "pageTitle": "Motion Sickness Treatment Online in {state} | Scopolamine Patch MD Video Visit | TeleDirectMD",
+  "pageTitle": "Motion Sickness Online Treatment in {state} | TeleDirectMD",
   "metaDescription": "Evidence-based motion sickness prevention and treatment for {state} adults by secure video visit. Scopolamine patch prescriptions, red-flag screening, and travel preparation guidance. Self pay option starting at $49. Insurance is not required.",
   "ogImageAlt": "Motion sickness treatment in {state} by TeleDirectMD",
-
   "hero": {
     "h1": "Motion Sickness Treatment in {state} (Travel-Related Motion Sickness)",
     "subtitle": "{state} adult care by secure video visit, self pay option starting at $49, MD-only, insurance is not required.",
     "introParagraph": "Motion sickness is caused by a vestibular-visual conflict in which the brain receives conflicting signals about motion from the inner ear, eyes, and body position sensors. It affects up to 30 percent of people during car, boat, or air travel, causing nausea, dizziness, cold sweats, and vomiting that can significantly disrupt travel plans. A critical point that many patients do not realize is that prevention is far more effective than treatment once symptoms have already started, and that the scopolamine transdermal patch is the first-line prescription option for motion sickness prevention, providing up to 72 hours of continuous protection when applied at least 4 hours before travel. Another important point is that non-sedating antihistamines such as loratadine and cetirizine are not effective for motion sickness because they do not cross the blood-brain barrier sufficiently to block the vestibular pathways involved. TeleDirectMD uses a safety-first telehealth approach that screens for red flags including persistent vertigo unrelated to motion, hearing loss with dizziness suggesting Meniere disease, neurological symptoms, and head injury with subsequent motion sensitivity before determining whether a prevention prescription by video visit is appropriate. If the history supports travel-related motion sickness without red flags, guideline-based prevention including scopolamine patch or antihistamine options may be reasonable by video, while adults with persistent vestibular symptoms or neurological concerns are directed to in-person neurology or ENT care. This page is for adults located in {state}, including {cities}.",
     "tocLinks": [
-      { "href": "eligibility-checklist", "label": "Eligibility checklist" },
-      { "href": "decision-guide", "label": "Decision guide" },
-      { "href": "treatment-options", "label": "Treatment options" },
-      { "href": "faq", "label": "FAQs" },
-      { "href": "references", "label": "References" }
+      {
+        "href": "eligibility-checklist",
+        "label": "Eligibility checklist"
+      },
+      {
+        "href": "decision-guide",
+        "label": "Decision guide"
+      },
+      {
+        "href": "treatment-options",
+        "label": "Treatment options"
+      },
+      {
+        "href": "faq",
+        "label": "FAQs"
+      },
+      {
+        "href": "references",
+        "label": "References"
+      }
     ],
     "benefits": [
       "Self pay option starting at $49",
@@ -35,7 +49,6 @@
     },
     "icd10Display": "T75.3 (final coding depends on clinical details)"
   },
-
   "eligibility": {
     "sectionTitle": "Motion Sickness Telehealth Eligibility Checklist for {state}",
     "introText": "You are likely eligible for a TeleDirectMD video visit if ALL of these are true:",
@@ -60,7 +73,6 @@
     ],
     "notEligibleDisclaimer": "If you have red-flag symptoms, seek urgent in-person care or emergency care immediately. TeleDirectMD is not appropriate for complex or severe cases."
   },
-
   "howItWorks": {
     "sectionTitle": "How Online Motion Sickness Treatment Works in {state}",
     "steps": [
@@ -82,7 +94,6 @@
       }
     ]
   },
-
   "telehealthRegulations": {
     "sectionTitle": "{state} Telehealth Regulations for Online Motion Sickness Care",
     "paragraphs": [
@@ -90,7 +101,6 @@
       "Location matters: you must be physically in {state} during the visit. Insurance is not required. TeleDirectMD does not prescribe controlled substances."
     ]
   },
-
   "comparisonTable": {
     "sectionTitle": "TeleDirectMD vs Other Care Options for Motion Sickness in {state}",
     "intro": "Here is how TeleDirectMD compares to common settings for motion sickness care in {state}:",
@@ -138,7 +148,6 @@
     ],
     "bottomLine": "TeleDirectMD is a strong fit for pre-travel motion sickness prevention prescriptions, with a safety-first approach and direct MD evaluation to screen for vestibular and neurological conditions."
   },
-
   "decisionGuide": {
     "sectionTitle": "Should I Use TeleDirectMD for Motion Sickness in {state}? Decision Guide",
     "steps": [
@@ -183,7 +192,6 @@
       }
     ]
   },
-
   "pricing": {
     "sectionTitle": "What Does Motion Sickness Treatment Cost in {state}?",
     "subtitle": "Transparent options. Insurance is not required.",
@@ -197,15 +205,34 @@
       "Travel preparation and prevention guidance"
     ],
     "comparisonBars": [
-      { "name": "TeleDirectMD", "value": "$49", "width": 12, "isTdmd": true },
-      { "name": "Primary Care", "value": "$100 to $250+", "width": 45, "isTdmd": false },
-      { "name": "Urgent Care", "value": "$150 to $300+", "width": 55, "isTdmd": false },
-      { "name": "Emergency Room", "value": "$500 to $3,000+", "width": 100, "isTdmd": false }
+      {
+        "name": "TeleDirectMD",
+        "value": "$49",
+        "width": 12,
+        "isTdmd": true
+      },
+      {
+        "name": "Primary Care",
+        "value": "$100 to $250+",
+        "width": 45,
+        "isTdmd": false
+      },
+      {
+        "name": "Urgent Care",
+        "value": "$150 to $300+",
+        "width": 55,
+        "isTdmd": false
+      },
+      {
+        "name": "Emergency Room",
+        "value": "$500 to $3,000+",
+        "width": 100,
+        "isTdmd": false
+      }
     ],
     "footnote": "Prescription costs at your pharmacy are separate and vary by medication and pharmacy.",
     "noHiddenFees": "No hidden fees. If medication is not clinically appropriate, you still receive a complete evaluation, guidance, and clear instructions on what level of care you need next."
   },
-
   "whatIsCondition": {
     "sectionTitle": "What Is Motion Sickness?",
     "paragraphs": [
@@ -214,35 +241,87 @@
       "TeleDirectMD focuses on travel-related motion sickness prevention appropriate for telehealth, with careful screening to direct persistent vertigo, vestibular disorders, neurological symptoms, and unexplained dizziness to in-person ENT or neurology care."
     ]
   },
-
   "causesAndRiskFactors": {
     "sectionTitle": "Causes and Risk Factors",
     "intro": "Motion sickness results from sensory conflict between the vestibular, visual, and proprioceptive systems. Understanding your triggers and risk factors helps guide prevention strategy and determine whether telehealth evaluation is appropriate or in-person vestibular evaluation is needed.",
     "items": [
-      { "label": "Type of motion:", "text": "boat and ship travel causes the highest rates of motion sickness, followed by car travel, air travel, and virtual reality or simulator exposure" },
-      { "label": "Duration and intensity:", "text": "prolonged exposure, rough seas, winding roads, and turbulence increase susceptibility, and some people habituate over days while others do not" },
-      { "label": "Visual conflict:", "text": "reading, using screens, or sitting in enclosed spaces without a view of the horizon worsens symptoms because the eyes report no motion while the vestibular system detects it" },
-      { "label": "Personal susceptibility:", "text": "women are more susceptible than men, people with migraine history have higher rates, and there is a genetic component to motion sickness susceptibility" },
-      { "label": "Age:", "text": "most common in children aged 2 to 12, decreases with age in most people, but some adults remain highly susceptible throughout life" }
+      {
+        "label": "Type of motion:",
+        "text": "boat and ship travel causes the highest rates of motion sickness, followed by car travel, air travel, and virtual reality or simulator exposure"
+      },
+      {
+        "label": "Duration and intensity:",
+        "text": "prolonged exposure, rough seas, winding roads, and turbulence increase susceptibility, and some people habituate over days while others do not"
+      },
+      {
+        "label": "Visual conflict:",
+        "text": "reading, using screens, or sitting in enclosed spaces without a view of the horizon worsens symptoms because the eyes report no motion while the vestibular system detects it"
+      },
+      {
+        "label": "Personal susceptibility:",
+        "text": "women are more susceptible than men, people with migraine history have higher rates, and there is a genetic component to motion sickness susceptibility"
+      },
+      {
+        "label": "Age:",
+        "text": "most common in children aged 2 to 12, decreases with age in most people, but some adults remain highly susceptible throughout life"
+      }
     ],
     "closing": "Not every episode of nausea or dizziness during travel is simple motion sickness. Vestibular disorders such as benign paroxysmal positional vertigo (BPPV), Meniere disease, vestibular migraine, and labyrinthitis can cause similar symptoms but require in-person evaluation. TeleDirectMD uses symptom patterns and safety screening to distinguish travel-related motion sickness from conditions that require in-person care."
   },
-
   "symptomsAndRedFlags": {
     "sectionTitle": "Symptoms and Red Flags for Motion Sickness in {state}",
     "intro": "Use this table to understand which symptoms fit travel-related motion sickness and which symptoms suggest a need for urgent in-person evaluation.",
-    "headers": ["Symptom or situation", "What it suggests", "Telehealth appropriate?", "Red flag requiring urgent in-person care"],
+    "headers": [
+      "Symptom or situation",
+      "What it suggests",
+      "Telehealth appropriate?",
+      "Red flag requiring urgent in-person care"
+    ],
     "rows": [
-      ["Nausea and stomach awareness during travel that resolves when motion stops", "Classic motion sickness", "Often yes (prevention prescription)", "If nausea and vomiting persist for hours after motion exposure ends"],
-      ["Cold sweats, pallor, and yawning during motion exposure", "Early motion sickness autonomic response", "Often yes (prevention prescription)", "If accompanied by chest pain, shortness of breath, or confusion"],
-      ["Dizziness during motion that resolves on stable ground", "Vestibular-visual conflict from motion exposure", "Often yes (prevention prescription)", "If dizziness persists after motion stops or occurs without motion"],
-      ["Vomiting during boat, car, or air travel", "Moderate to severe motion sickness", "Often yes (prevention prescription)", "If uncontrollable vomiting with dehydration or blood in vomit"],
-      ["Headache during or after prolonged motion exposure", "Motion-related headache, common with motion sickness", "Sometimes", "If severe headache with vision changes, weakness, or worst headache of life"],
-      ["Episodic vertigo with hearing loss or ear fullness", "Possible Meniere disease, not simple motion sickness", "No", "In-person ENT evaluation needed"],
-      ["Dizziness triggered by head position changes, not travel", "Possible BPPV or other vestibular disorder", "No", "In-person evaluation for vestibular testing and repositioning maneuvers"]
+      [
+        "Nausea and stomach awareness during travel that resolves when motion stops",
+        "Classic motion sickness",
+        "Often yes (prevention prescription)",
+        "If nausea and vomiting persist for hours after motion exposure ends"
+      ],
+      [
+        "Cold sweats, pallor, and yawning during motion exposure",
+        "Early motion sickness autonomic response",
+        "Often yes (prevention prescription)",
+        "If accompanied by chest pain, shortness of breath, or confusion"
+      ],
+      [
+        "Dizziness during motion that resolves on stable ground",
+        "Vestibular-visual conflict from motion exposure",
+        "Often yes (prevention prescription)",
+        "If dizziness persists after motion stops or occurs without motion"
+      ],
+      [
+        "Vomiting during boat, car, or air travel",
+        "Moderate to severe motion sickness",
+        "Often yes (prevention prescription)",
+        "If uncontrollable vomiting with dehydration or blood in vomit"
+      ],
+      [
+        "Headache during or after prolonged motion exposure",
+        "Motion-related headache, common with motion sickness",
+        "Sometimes",
+        "If severe headache with vision changes, weakness, or worst headache of life"
+      ],
+      [
+        "Episodic vertigo with hearing loss or ear fullness",
+        "Possible Meniere disease, not simple motion sickness",
+        "No",
+        "In-person ENT evaluation needed"
+      ],
+      [
+        "Dizziness triggered by head position changes, not travel",
+        "Possible BPPV or other vestibular disorder",
+        "No",
+        "In-person evaluation for vestibular testing and repositioning maneuvers"
+      ]
     ]
   },
-
   "differentialDiagnosis": {
     "sectionTitle": "Differential Diagnosis: Motion Sickness vs Other Conditions",
     "intro": "Several conditions can cause dizziness and nausea that overlap with motion sickness. AAFP guidelines emphasize distinguishing travel-related motion sickness, which is predictable and self-limiting, from vestibular disorders and neurological conditions that require in-person evaluation. TeleDirectMD focuses on identifying classic motion sickness and directing alternative diagnoses to targeted care when appropriate.",
@@ -282,7 +361,6 @@
     ],
     "closing": "If your symptoms do not match travel-related motion sickness or any red flags are present, TeleDirectMD will direct you to in-person ENT, neurology, or emergency care as appropriate."
   },
-
   "telehealthEligibility": {
     "sectionTitle": "When Is a Video Visit Appropriate?",
     "appropriate": {
@@ -309,7 +387,6 @@
       "disclaimer": "If any red-flag symptoms are present, seek urgent in-person or emergency care. TeleDirectMD is not appropriate for these situations."
     }
   },
-
   "treatmentOptions": {
     "sectionTitle": "Treatment Options",
     "intro": "Motion sickness prevention and treatment follow AAFP and CDC Yellow Book guidelines. The most important principle is that prevention started before travel is significantly more effective than treating symptoms after they begin. The scopolamine transdermal patch is the first-line prescription option for motion sickness prevention, particularly for extended travel such as cruises and long car trips.",
@@ -338,21 +415,49 @@
       "Severe dehydration from prolonged vomiting requiring IV fluid resuscitation"
     ]
   },
-
   "medications": {
     "sectionTitle": "Common Medication Options",
     "intro": "These are common examples for motion sickness prevention and treatment. The actual medication, dose, and duration are determined by the MD after reviewing your symptoms, travel plans, medical history, and any contraindications.",
-    "headers": ["Medication", "Typical dose", "Duration", "Key considerations"],
+    "headers": [
+      "Medication",
+      "Typical dose",
+      "Duration",
+      "Key considerations"
+    ],
     "rows": [
-      ["Scopolamine transdermal patch (Transderm Scop)", "1.5 mg patch applied behind ear", "Apply 4+ hours before travel, effective up to 72 hours per patch", "First-line prescription option for motion sickness prevention. Not a controlled substance. Avoid with uncontrolled narrow-angle glaucoma or urinary retention. Side effects: dry mouth, blurred vision, drowsiness. Wash hands after handling patch."],
-      ["Meclizine (Antivert, Bonine)", "25 to 50 mg by mouth once daily", "Take 1 hour before travel, then once daily as needed", "Less sedating than other first-generation antihistamines. Available over the counter. Good option for mild to moderate motion sickness. May cause drowsiness."],
-      ["Dimenhydrinate (Dramamine Original)", "50 to 100 mg by mouth every 4 to 6 hours", "Start 1 hour before travel, max 400 mg per day", "Available over the counter. More sedating than meclizine. Original formula is effective; non-drowsy Dramamine (meclizine) is a different medication."],
-      ["Promethazine", "25 mg by mouth 30 to 60 minutes before travel, then every 12 hours", "Duration of travel exposure", "Prescription option for severe motion sickness. Most sedating option. Not a controlled substance. Black box warning for respiratory depression in children under 2. Not recommended for elderly."],
-      ["Ondansetron (Zofran)", "4 to 8 mg by mouth or sublingual as needed", "Every 8 hours as needed for acute nausea", "Prescription anti-nausea medication. Better for treating acute nausea than preventing motion sickness. Does not cause sedation. Can be useful as add-on therapy for breakthrough nausea."]
+      [
+        "Scopolamine transdermal patch (Transderm Scop)",
+        "1.5 mg patch applied behind ear",
+        "Apply 4+ hours before travel, effective up to 72 hours per patch",
+        "First-line prescription option for motion sickness prevention. Not a controlled substance. Avoid with uncontrolled narrow-angle glaucoma or urinary retention. Side effects: dry mouth, blurred vision, drowsiness. Wash hands after handling patch."
+      ],
+      [
+        "Meclizine (Antivert, Bonine)",
+        "25 to 50 mg by mouth once daily",
+        "Take 1 hour before travel, then once daily as needed",
+        "Less sedating than other first-generation antihistamines. Available over the counter. Good option for mild to moderate motion sickness. May cause drowsiness."
+      ],
+      [
+        "Dimenhydrinate (Dramamine Original)",
+        "50 to 100 mg by mouth every 4 to 6 hours",
+        "Start 1 hour before travel, max 400 mg per day",
+        "Available over the counter. More sedating than meclizine. Original formula is effective; non-drowsy Dramamine (meclizine) is a different medication."
+      ],
+      [
+        "Promethazine",
+        "25 mg by mouth 30 to 60 minutes before travel, then every 12 hours",
+        "Duration of travel exposure",
+        "Prescription option for severe motion sickness. Most sedating option. Not a controlled substance. Black box warning for respiratory depression in children under 2. Not recommended for elderly."
+      ],
+      [
+        "Ondansetron (Zofran)",
+        "4 to 8 mg by mouth or sublingual as needed",
+        "Every 8 hours as needed for acute nausea",
+        "Prescription anti-nausea medication. Better for treating acute nausea than preventing motion sickness. Does not cause sedation. Can be useful as add-on therapy for breakthrough nausea."
+      ]
     ],
     "note": "Example regimens only. The actual medication, dosing, and duration are determined by the MD after reviewing your travel plans, medical history, and risk factors. Prevention started before travel is significantly more effective than treatment after symptoms begin. Non-sedating antihistamines (loratadine, cetirizine) are NOT effective for motion sickness. TeleDirectMD does not prescribe controlled substances."
   },
-
   "homeCare": {
     "sectionTitle": "Home Care, Travel Preparation, Prevention, and Follow-up",
     "whatToDoNow": {
@@ -386,7 +491,6 @@
       ]
     }
   },
-
   "whenNotToUse": {
     "sectionTitle": "When Not to Use TeleDirectMD for Motion Sickness in {state}",
     "intro": "TeleDirectMD is designed for travel-related motion sickness prevention. We are direct about when telehealth is not appropriate.",
@@ -406,14 +510,25 @@
     "alternatives": {
       "title": "Alternative Care Options",
       "items": [
-        { "label": "Emergency room:", "text": "severe vertigo with neurological symptoms, uncontrollable vomiting with dehydration, confusion, or concern for stroke" },
-        { "label": "Urgent care:", "text": "acute vertigo or nausea needing same-day in-person evaluation, IV fluids for dehydration, or uncertain diagnosis" },
-        { "label": "ENT specialist:", "text": "persistent vertigo, Meniere disease, hearing loss with dizziness, or vestibular disorders needing audiometry and specialized testing" },
-        { "label": "Primary care:", "text": "chronic or recurrent dizziness, ongoing vestibular symptoms, and coordination of specialist referrals" }
+        {
+          "label": "Emergency room:",
+          "text": "severe vertigo with neurological symptoms, uncontrollable vomiting with dehydration, confusion, or concern for stroke"
+        },
+        {
+          "label": "Urgent care:",
+          "text": "acute vertigo or nausea needing same-day in-person evaluation, IV fluids for dehydration, or uncertain diagnosis"
+        },
+        {
+          "label": "ENT specialist:",
+          "text": "persistent vertigo, Meniere disease, hearing loss with dizziness, or vestibular disorders needing audiometry and specialized testing"
+        },
+        {
+          "label": "Primary care:",
+          "text": "chronic or recurrent dizziness, ongoing vestibular symptoms, and coordination of specialist referrals"
+        }
       ]
     }
   },
-
   "faq": {
     "sectionTitle": "Motion Sickness Treatment FAQs for {state}",
     "items": [
@@ -479,15 +594,28 @@
       "text": "Insurance is not required. Adult-only video visits. MD-only care. Safety-first triage, motion sickness prevention prescriptions, and clear next steps."
     }
   },
-
   "references": [
-    { "text": "AAFP Prevention and Treatment of Motion Sickness", "url": "https://www.aafp.org/pubs/afp/issues/2014/0701/p41.html" },
-    { "text": "CDC Yellow Book: Motion Sickness", "url": "https://www.cdc.gov/yellow-book/hcp/travel-air-sea/motion-sickness.html" },
-    { "text": "Motion Sickness: Pathogenesis and Treatment, PMC Review", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7048153/" },
-    { "text": "Motion Sickness, StatPearls (2025)", "url": "https://www.ncbi.nlm.nih.gov/books/NBK539706/" },
-    { "text": "Cochrane Review: Scopolamine for Preventing and Treating Motion Sickness", "url": "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD002851.pub5/full" }
+    {
+      "text": "AAFP Prevention and Treatment of Motion Sickness",
+      "url": "https://www.aafp.org/pubs/afp/issues/2014/0701/p41.html"
+    },
+    {
+      "text": "CDC Yellow Book: Motion Sickness",
+      "url": "https://www.cdc.gov/yellow-book/hcp/travel-air-sea/motion-sickness.html"
+    },
+    {
+      "text": "Motion Sickness: Pathogenesis and Treatment, PMC Review",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7048153/"
+    },
+    {
+      "text": "Motion Sickness, StatPearls (2025)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK539706/"
+    },
+    {
+      "text": "Cochrane Review: Scopolamine for Preventing and Treating Motion Sickness",
+      "url": "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD002851.pub5/full"
+    }
   ],
-
   "disclaimer": {
     "sectionTitle": "TeleDirectMD Telehealth Disclaimer",
     "paragraphs": [
@@ -496,7 +624,6 @@
       "Online motion sickness treatment in {state}. Scopolamine patch prescription online. Motion sickness prevention by video visit. Travel medicine telehealth in {state}."
     ]
   },
-
   "relatedConditions": [
     {
       "slug": "seasonal-allergies-treatment-online",
@@ -519,36 +646,77 @@
       "description": "Upper respiratory congestion can worsen motion sickness susceptibility by affecting inner ear pressure equilibration"
     }
   ],
-
   "inlineLinks": [
-    { "slug": "seasonal-allergies-treatment-online", "label": "Seasonal Allergies" },
-    { "slug": "sinus-infection-treatment-online", "label": "Sinus Infection" },
-    { "slug": "ear-pain-treatment-online", "label": "Ear Pain" },
-    { "slug": "common-cold-treatment-online", "label": "Common Cold" },
-    { "slug": "influenza-treatment-online", "label": "Influenza" },
-    { "slug": "covid-19-treatment-online", "label": "COVID-19" },
-    { "slug": "sore-throat-treatment-online", "label": "Sore Throat" },
-    { "slug": "dental-pain-treatment-online", "label": "Dental Pain" },
-    { "slug": "pink-eye-treatment-online", "label": "Pink Eye" },
-    { "slug": "asthma-refills-online", "label": "Asthma Refills" }
+    {
+      "slug": "seasonal-allergies-treatment-online",
+      "label": "Seasonal Allergies"
+    },
+    {
+      "slug": "sinus-infection-treatment-online",
+      "label": "Sinus Infection"
+    },
+    {
+      "slug": "ear-pain-treatment-online",
+      "label": "Ear Pain"
+    },
+    {
+      "slug": "common-cold-treatment-online",
+      "label": "Common Cold"
+    },
+    {
+      "slug": "influenza-treatment-online",
+      "label": "Influenza"
+    },
+    {
+      "slug": "covid-19-treatment-online",
+      "label": "COVID-19"
+    },
+    {
+      "slug": "sore-throat-treatment-online",
+      "label": "Sore Throat"
+    },
+    {
+      "slug": "dental-pain-treatment-online",
+      "label": "Dental Pain"
+    },
+    {
+      "slug": "pink-eye-treatment-online",
+      "label": "Pink Eye"
+    },
+    {
+      "slug": "asthma-refills-online",
+      "label": "Asthma Refills"
+    }
   ],
-
   "cityBlock": {
     "title": "Adults We Serve Across {state}",
     "text": "TeleDirectMD evaluates adults located throughout {state}, including {citiesExtended}. Whether you are searching for online motion sickness treatment in {city1}, scopolamine patch prescription in {city2}, travel medicine telehealth in {city3}, or motion sickness prevention anywhere else in {state}, the same telehealth eligibility and safety rules apply."
   },
-
   "icd10Codes": [
-    { "code": "T75.3", "description": "Motion sickness" }
+    {
+      "code": "T75.3",
+      "description": "Motion sickness"
+    }
   ],
-
   "jsonLd": {
     "conditionName": "Motion Sickness",
-    "conditionAlternateNames": ["Travel sickness", "Seasickness", "Car sickness", "Kinetosis"],
+    "conditionAlternateNames": [
+      "Travel sickness",
+      "Seasickness",
+      "Car sickness",
+      "Kinetosis"
+    ],
     "conditionDescription": "Motion sickness is a vestibular-visual conflict disorder causing nausea, dizziness, and vomiting during travel. TeleDirectMD evaluates adult motion sickness by video visit with safety-first red-flag screening, guideline-based prevention prescriptions including scopolamine transdermal patch, and clear rules for when in-person vestibular or neurological care is needed.",
     "primaryIcd10": "T75.3",
     "anatomy": "Vestibular system (inner ear), central nervous system",
-    "symptoms": ["Nausea", "Vomiting", "Dizziness", "Cold sweats", "Pallor", "Fatigue"],
+    "symptoms": [
+      "Nausea",
+      "Vomiting",
+      "Dizziness",
+      "Cold sweats",
+      "Pallor",
+      "Fatigue"
+    ],
     "riskFactors": [
       "Sea or boat travel",
       "History of migraine",
@@ -562,10 +730,22 @@
     ],
     "epidemiology": "Motion sickness affects up to 30 percent of people during travel, with the highest rates during sea travel.",
     "drugs": [
-      { "name": "Scopolamine transdermal patch", "id": "scopolamine-patch" },
-      { "name": "Meclizine", "id": "meclizine" },
-      { "name": "Dimenhydrinate", "id": "dimenhydrinate" },
-      { "name": "Ondansetron", "id": "ondansetron" }
+      {
+        "name": "Scopolamine transdermal patch",
+        "id": "scopolamine-patch"
+      },
+      {
+        "name": "Meclizine",
+        "id": "meclizine"
+      },
+      {
+        "name": "Dimenhydrinate",
+        "id": "dimenhydrinate"
+      },
+      {
+        "name": "Ondansetron",
+        "id": "ondansetron"
+      }
     ],
     "treatments": [
       "Scopolamine patch (first-line prescription prevention)",
@@ -577,11 +757,30 @@
       "Clinical symptom review and red-flag screening",
       "Vestibular evaluation when indicated for persistent dizziness (in-person)"
     ],
-    "specialties": ["Family Medicine", "Telemedicine", "Travel Medicine"],
+    "specialties": [
+      "Family Medicine",
+      "Telemedicine",
+      "Travel Medicine"
+    ],
     "guidelines": [
-      { "name": "AAFP Prevention and Treatment of Motion Sickness", "url": "https://www.aafp.org/pubs/afp/issues/2014/0701/p41.html", "publisher": "American Academy of Family Physicians", "id": "aafp" },
-      { "name": "CDC Yellow Book: Motion Sickness", "url": "https://www.cdc.gov/yellow-book/hcp/travel-air-sea/motion-sickness.html", "publisher": "Centers for Disease Control and Prevention", "id": "cdc" },
-      { "name": "Cochrane Review: Scopolamine for Motion Sickness", "url": "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD002851.pub5/full", "publisher": "Cochrane Library", "id": "cochrane" }
+      {
+        "name": "AAFP Prevention and Treatment of Motion Sickness",
+        "url": "https://www.aafp.org/pubs/afp/issues/2014/0701/p41.html",
+        "publisher": "American Academy of Family Physicians",
+        "id": "aafp"
+      },
+      {
+        "name": "CDC Yellow Book: Motion Sickness",
+        "url": "https://www.cdc.gov/yellow-book/hcp/travel-air-sea/motion-sickness.html",
+        "publisher": "Centers for Disease Control and Prevention",
+        "id": "cdc"
+      },
+      {
+        "name": "Cochrane Review: Scopolamine for Motion Sickness",
+        "url": "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD002851.pub5/full",
+        "publisher": "Cochrane Library",
+        "id": "cochrane"
+      }
     ],
     "knowsAbout": [
       "Motion sickness prevention",
@@ -595,5 +794,7 @@
     ],
     "serviceDescription": "Secure video visit for {state} adults with motion sickness, including red-flag screening, guideline-based prevention prescriptions, and scopolamine patch when clinically appropriate.",
     "webpageDescription": "{state} motion sickness treatment by secure MD video visit for adults. Evidence-based prevention with scopolamine patch prescription, red-flag screening for vestibular disorders, and clear rules for when in-person care is needed."
-  }
+  },
+  "guidelineSource": "aafp",
+  "conditionType": "treatment"
 }

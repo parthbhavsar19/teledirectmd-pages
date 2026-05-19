@@ -2,20 +2,34 @@
   "conditionName": "Diabetes Medication Refills",
   "conditionShort": "diabetes",
   "conditionSlug": "diabetes-refills-online",
-  "pageTitle": "Diabetes Medication Refills Online in {state} | Type 2 Diabetes Oral Med Refill MD Video Visit | TeleDirectMD",
+  "pageTitle": "Diabetes Online Refills in {state} | TeleDirectMD",
   "metaDescription": "Evidence-based Type 2 diabetes oral medication refill care for {state} adults by secure video visit. Red-flag screening, metformin and oral diabetes med refill evaluation, and short bridge prescriptions when appropriate. Self pay option starting at $49. Insurance is not required.",
   "ogImageAlt": "Diabetes medication refills in {state} by TeleDirectMD",
-
   "hero": {
     "h1": "Diabetes Medication Refills in {state} (Type 2 Diabetes Oral Med Refill Care)",
     "subtitle": "{state} adult care by secure video visit, self pay option starting at $49, MD-only, insurance is not required.",
     "introParagraph": "Adults with Type 2 diabetes often search for online diabetes medication refills when they are running low on metformin, an SGLT2 inhibitor, a DPP-4 inhibitor, or another established oral diabetes medication, but not every refill request is safe to handle as routine telehealth. The ADA Standards of Care emphasizes that metformin remains the preferred initial pharmacologic agent for Type 2 diabetes in most patients, and that individualized glycemic targets and medication management require ongoing monitoring including A1C and home glucose readings. TeleDirectMD uses a safety-first telemedicine approach by reviewing your current oral diabetes medications, recent home glucose readings, most recent A1C if available, any episodes of hypoglycemia or hyperglycemia, recent lab work, and whether this sounds like a stable bridge refill request or poorly controlled diabetes needing escalation. If the history supports a lower-risk bridge refill of an established oral medication, treatment may be reasonable by video, while adults with signs of diabetic ketoacidosis, severe hyperglycemia, recurrent hypoglycemia, or uncontrolled diabetes are directed to urgent in-person care. This page is for adults located in {state}, including {cities}.",
     "tocLinks": [
-      { "href": "eligibility-checklist", "label": "Eligibility checklist" },
-      { "href": "decision-guide", "label": "Decision guide" },
-      { "href": "treatment-options", "label": "Treatment options" },
-      { "href": "faq", "label": "FAQs" },
-      { "href": "references", "label": "References" }
+      {
+        "href": "eligibility-checklist",
+        "label": "Eligibility checklist"
+      },
+      {
+        "href": "decision-guide",
+        "label": "Decision guide"
+      },
+      {
+        "href": "treatment-options",
+        "label": "Treatment options"
+      },
+      {
+        "href": "faq",
+        "label": "FAQs"
+      },
+      {
+        "href": "references",
+        "label": "References"
+      }
     ],
     "benefits": [
       "Self pay option starting at $49",
@@ -35,7 +49,6 @@
     },
     "icd10Display": "E11.9, E11.65 (final coding depends on clinical details)"
   },
-
   "eligibility": {
     "sectionTitle": "Diabetes Medication Refill Telehealth Eligibility Checklist for {state}",
     "introText": "You are likely eligible for a TeleDirectMD video visit if ALL of these are true:",
@@ -62,7 +75,6 @@
     ],
     "notEligibleDisclaimer": "If you have red-flag symptoms, seek urgent in-person care or emergency care immediately. TeleDirectMD is not an emergency service."
   },
-
   "howItWorks": {
     "sectionTitle": "How Online Diabetes Medication Refills Work in {state}",
     "steps": [
@@ -84,7 +96,6 @@
       }
     ]
   },
-
   "telehealthRegulations": {
     "sectionTitle": "{state} Telehealth Regulations for Online Diabetes Medication Refill Care",
     "paragraphs": [
@@ -92,7 +103,6 @@
       "Location matters: you must be physically in {state} during the visit. Insurance is not required. TeleDirectMD does not prescribe controlled substances. None of the oral diabetes medications refilled through TeleDirectMD are controlled substances."
     ]
   },
-
   "comparisonTable": {
     "sectionTitle": "TeleDirectMD vs Other Care Options for Diabetes Medication Refills in {state}",
     "intro": "Here is how TeleDirectMD compares to common settings for adult diabetes medication refill care in {state}:",
@@ -132,7 +142,6 @@
     ],
     "bottomLine": "TeleDirectMD is a strong fit for selected adult Type 2 diabetes oral medication refill requests when the patient is stable and the visit is clearly a bridge refill rather than an active diabetic emergency or major treatment redesign."
   },
-
   "decisionGuide": {
     "sectionTitle": "Should I Use TeleDirectMD for Diabetes Medication Refills in {state}? Decision Guide",
     "steps": [
@@ -177,7 +186,6 @@
       }
     ]
   },
-
   "pricing": {
     "sectionTitle": "What Do Online Diabetes Medication Refills Cost in {state}?",
     "subtitle": "Transparent options. Insurance is not required.",
@@ -190,15 +198,34 @@
       "Clear follow-up and escalation instructions"
     ],
     "comparisonBars": [
-      { "name": "TeleDirectMD", "value": "$49", "width": 12, "isTdmd": true },
-      { "name": "Primary Care or Endocrinology", "value": "$100 to $350+", "width": 52, "isTdmd": false },
-      { "name": "Urgent Care", "value": "$150 to $300+", "width": 60, "isTdmd": false },
-      { "name": "Emergency Room", "value": "$500 to $3,000+", "width": 100, "isTdmd": false }
+      {
+        "name": "TeleDirectMD",
+        "value": "$49",
+        "width": 12,
+        "isTdmd": true
+      },
+      {
+        "name": "Primary Care or Endocrinology",
+        "value": "$100 to $350+",
+        "width": 52,
+        "isTdmd": false
+      },
+      {
+        "name": "Urgent Care",
+        "value": "$150 to $300+",
+        "width": 60,
+        "isTdmd": false
+      },
+      {
+        "name": "Emergency Room",
+        "value": "$500 to $3,000+",
+        "width": 100,
+        "isTdmd": false
+      }
     ],
     "footnote": "Prescription costs are separate and vary by medication and pharmacy.",
     "noHiddenFees": "No hidden fees. If medication is not clinically appropriate, you still receive a complete evaluation, guidance, and clear instructions on what level of care you need next."
   },
-
   "whatIsCondition": {
     "sectionTitle": "What Is Diabetes Medication Refill Care?",
     "paragraphs": [
@@ -207,36 +234,91 @@
       "A safe telehealth bridge refill depends on whether the patient is stable. Refill care is not the same thing as managing a diabetic emergency, initiating insulin, starting injectable GLP-1 therapy, or redesigning diabetes treatment from scratch."
     ]
   },
-
   "causesAndRiskFactors": {
     "sectionTitle": "Causes and Risk Factors",
     "intro": "Adults request diabetes medication refills for many reasons, but some refill requests actually reflect poor glycemic control, medication non-adherence, recurrent hypoglycemia, or emerging complications rather than simple medication logistics.",
     "items": [
-      { "label": "Running out of metformin or other oral diabetes medication:", "text": "common reason for urgent refill requests, especially when patients have difficulty scheduling primary care follow-up or have lapsed in routine care" },
-      { "label": "Interrupted medication supply:", "text": "gaps in oral diabetes medication can cause hyperglycemia and loss of glycemic control, which may take weeks to recover from" },
-      { "label": "Poor glycemic control:", "text": "persistently elevated blood glucose or A1C above target may signal need for medication adjustment rather than simple continuation" },
-      { "label": "Recurrent hypoglycemia:", "text": "episodes of low blood sugar, especially with sulfonylureas, may indicate a need for dose adjustment or medication change rather than routine refill" },
-      { "label": "New or worsening symptoms:", "text": "increased thirst, frequent urination, unexplained weight loss, fatigue, or blurred vision may suggest worsening diabetes control that needs more than a bridge refill" },
-      { "label": "Medication side effects:", "text": "GI symptoms with metformin, genital infections with SGLT2 inhibitors, or other side effects may need provider assessment beyond a simple refill" }
+      {
+        "label": "Running out of metformin or other oral diabetes medication:",
+        "text": "common reason for urgent refill requests, especially when patients have difficulty scheduling primary care follow-up or have lapsed in routine care"
+      },
+      {
+        "label": "Interrupted medication supply:",
+        "text": "gaps in oral diabetes medication can cause hyperglycemia and loss of glycemic control, which may take weeks to recover from"
+      },
+      {
+        "label": "Poor glycemic control:",
+        "text": "persistently elevated blood glucose or A1C above target may signal need for medication adjustment rather than simple continuation"
+      },
+      {
+        "label": "Recurrent hypoglycemia:",
+        "text": "episodes of low blood sugar, especially with sulfonylureas, may indicate a need for dose adjustment or medication change rather than routine refill"
+      },
+      {
+        "label": "New or worsening symptoms:",
+        "text": "increased thirst, frequent urination, unexplained weight loss, fatigue, or blurred vision may suggest worsening diabetes control that needs more than a bridge refill"
+      },
+      {
+        "label": "Medication side effects:",
+        "text": "GI symptoms with metformin, genital infections with SGLT2 inhibitors, or other side effects may need provider assessment beyond a simple refill"
+      }
     ],
     "closing": "Not every refill request is a routine refill. Some are actually early warning signs that diabetes management needs medication adjustment, additional lab work, or specialist referral rather than simple continuation."
   },
-
   "symptomsAndRedFlags": {
     "sectionTitle": "Symptoms and Red Flags for Diabetes Medication Refills in {state}",
     "intro": "Use this table to understand which diabetes medication refill scenarios may fit short bridge telehealth care and which patterns suggest urgent in-person evaluation.",
-    "headers": ["Symptom or situation", "What it suggests", "Telehealth appropriate?", "Red flag requiring urgent in-person care"],
+    "headers": [
+      "Symptom or situation",
+      "What it suggests",
+      "Telehealth appropriate?",
+      "Red flag requiring urgent in-person care"
+    ],
     "rows": [
-      ["Needs refill of current oral diabetes medication and blood sugar is near usual range", "Routine bridge refill request", "Often yes", "Blood sugar persistently above 300 mg/dL despite medication"],
-      ["Home glucose readings slightly above target but stable pattern", "May reflect need for follow-up optimization but bridge refill still reasonable", "Sometimes", "Blood sugar above 400 mg/dL or rapidly worsening glucose trend"],
-      ["Out of metformin but not experiencing hyperglycemic symptoms", "Bridge refill may be reasonable to maintain glycemic control", "Often yes", "Nausea, vomiting, abdominal pain, or fruity breath suggesting DKA"],
-      ["Occasional mild hypoglycemia that patient self-manages appropriately", "May warrant dose review but stable enough for bridge refill discussion", "Sometimes", "Severe hypoglycemia with confusion, loss of consciousness, or seizures"],
-      ["Mild GI side effects from metformin with otherwise stable control", "Common side effect that may benefit from extended-release switch discussion", "Often yes", "Severe persistent vomiting, dehydration, or inability to take any oral medications"],
-      ["Recent A1C above 9% to 10% with no medication changes planned", "Poorly controlled diabetes likely needing treatment overhaul", "Usually no for simple refill-only approach", "A1C above 10% with symptoms of severe hyperglycemia"],
-      ["New foot numbness, tingling, or wound that is not healing", "Possible diabetic neuropathy or ulcer requiring in-person evaluation", "No", "Open foot ulcer, signs of infection, or new sudden vision changes"]
+      [
+        "Needs refill of current oral diabetes medication and blood sugar is near usual range",
+        "Routine bridge refill request",
+        "Often yes",
+        "Blood sugar persistently above 300 mg/dL despite medication"
+      ],
+      [
+        "Home glucose readings slightly above target but stable pattern",
+        "May reflect need for follow-up optimization but bridge refill still reasonable",
+        "Sometimes",
+        "Blood sugar above 400 mg/dL or rapidly worsening glucose trend"
+      ],
+      [
+        "Out of metformin but not experiencing hyperglycemic symptoms",
+        "Bridge refill may be reasonable to maintain glycemic control",
+        "Often yes",
+        "Nausea, vomiting, abdominal pain, or fruity breath suggesting DKA"
+      ],
+      [
+        "Occasional mild hypoglycemia that patient self-manages appropriately",
+        "May warrant dose review but stable enough for bridge refill discussion",
+        "Sometimes",
+        "Severe hypoglycemia with confusion, loss of consciousness, or seizures"
+      ],
+      [
+        "Mild GI side effects from metformin with otherwise stable control",
+        "Common side effect that may benefit from extended-release switch discussion",
+        "Often yes",
+        "Severe persistent vomiting, dehydration, or inability to take any oral medications"
+      ],
+      [
+        "Recent A1C above 9% to 10% with no medication changes planned",
+        "Poorly controlled diabetes likely needing treatment overhaul",
+        "Usually no for simple refill-only approach",
+        "A1C above 10% with symptoms of severe hyperglycemia"
+      ],
+      [
+        "New foot numbness, tingling, or wound that is not healing",
+        "Possible diabetic neuropathy or ulcer requiring in-person evaluation",
+        "No",
+        "Open foot ulcer, signs of infection, or new sudden vision changes"
+      ]
     ]
   },
-
   "differentialDiagnosis": {
     "sectionTitle": "Differential Diagnosis and Complications",
     "intro": "Elevated blood sugar and diabetes symptoms are not always straightforward stable Type 2 diabetes. Refill visits must separate lower-risk bridge refill requests from uncontrolled diabetes, emerging complications, and from other diagnoses that may mimic or overlap with Type 2 diabetes.",
@@ -277,7 +359,6 @@
     ],
     "closing": "If your symptoms do not match a lower-risk bridge refill scenario or any red flags are present, TeleDirectMD will direct you to urgent in-person care or endocrinology follow-up."
   },
-
   "telehealthEligibility": {
     "sectionTitle": "When Is a Video Visit Appropriate?",
     "appropriate": {
@@ -305,7 +386,6 @@
       "disclaimer": "If any red-flag symptoms are present, seek urgent in-person or emergency care. TeleDirectMD is not an emergency service."
     }
   },
-
   "treatmentOptions": {
     "sectionTitle": "Treatment Options",
     "intro": "Evidence-based Type 2 diabetes care involves individualized oral medication selection, glycemic monitoring, lifestyle modification, and periodic reassessment. The ADA Standards of Care recommends metformin as first-line therapy for most patients and supports individualized glycemic targets based on patient-specific factors including age, comorbidities, and hypoglycemia risk.",
@@ -332,22 +412,55 @@
       "Comprehensive diabetic complication screening (retinopathy, nephropathy, neuropathy exams)"
     ]
   },
-
   "medications": {
     "sectionTitle": "Common Medication Options",
     "intro": "These are common categories discussed for adult Type 2 diabetes oral medication refill care. Medication choice depends on the patient's established regimen, current glycemic control, recent A1C, side effect profile, and whether the request is truly a stable refill request. None of the oral diabetes medications listed below are controlled substances.",
-    "headers": ["Option", "Examples", "Used for", "Key considerations"],
+    "headers": [
+      "Option",
+      "Examples",
+      "Used for",
+      "Key considerations"
+    ],
     "rows": [
-      ["Metformin (biguanide)", "Metformin 500 to 2000 mg daily, extended-release preferred for GI tolerance", "First-line oral therapy for Type 2 diabetes; reduces hepatic glucose output and improves insulin sensitivity", "GI side effects common, contraindicated with eGFR below 30, hold before contrast procedures, B12 deficiency risk with long-term use"],
-      ["SGLT2 inhibitor", "Empagliflozin (Jardiance) 10 to 25 mg, dapagliflozin (Farxiga) 5 to 10 mg, canagliflozin (Invokana)", "Second-line therapy with proven cardiovascular and renal benefits in selected patients", "Risk of genital yeast infections, UTI, rare euglycemic DKA, dehydration; dose adjustment for renal impairment"],
-      ["DPP-4 inhibitor", "Sitagliptin (Januvia) 100 mg, linagliptin (Tradjenta) 5 mg, saxagliptin", "Well-tolerated second-line option, weight-neutral, appropriate for patients who cannot tolerate metformin or need add-on therapy", "Generally well tolerated, dose adjustment for renal impairment with most agents (except linagliptin), rare pancreatitis risk"],
-      ["Sulfonylurea", "Glipizide 5 to 20 mg, glimepiride 1 to 4 mg, glyburide", "Established second-line option that stimulates insulin secretion", "Risk of hypoglycemia (most important concern), weight gain, take with meals, dose adjustment for renal and hepatic impairment"],
-      ["Thiazolidinedione", "Pioglitazone 15 to 45 mg", "Improves insulin sensitivity, sometimes used as add-on therapy", "Fluid retention risk, contraindicated in heart failure, bladder cancer concern with long-term use, weight gain, periodic liver function monitoring"],
-      ["Combination oral therapy", "Metformin combined with SGLT2 inhibitor, DPP-4 inhibitor, or sulfonylurea; fixed-dose combinations available", "Patients already established on multi-drug oral regimen for glycemic control", "Bridge refill of existing combinations; dose adjustments and new combinations should be managed by primary care or endocrinology"]
+      [
+        "Metformin (biguanide)",
+        "Metformin 500 to 2000 mg daily, extended-release preferred for GI tolerance",
+        "First-line oral therapy for Type 2 diabetes; reduces hepatic glucose output and improves insulin sensitivity",
+        "GI side effects common, contraindicated with eGFR below 30, hold before contrast procedures, B12 deficiency risk with long-term use"
+      ],
+      [
+        "SGLT2 inhibitor",
+        "Empagliflozin (Jardiance) 10 to 25 mg, dapagliflozin (Farxiga) 5 to 10 mg, canagliflozin (Invokana)",
+        "Second-line therapy with proven cardiovascular and renal benefits in selected patients",
+        "Risk of genital yeast infections, UTI, rare euglycemic DKA, dehydration; dose adjustment for renal impairment"
+      ],
+      [
+        "DPP-4 inhibitor",
+        "Sitagliptin (Januvia) 100 mg, linagliptin (Tradjenta) 5 mg, saxagliptin",
+        "Well-tolerated second-line option, weight-neutral, appropriate for patients who cannot tolerate metformin or need add-on therapy",
+        "Generally well tolerated, dose adjustment for renal impairment with most agents (except linagliptin), rare pancreatitis risk"
+      ],
+      [
+        "Sulfonylurea",
+        "Glipizide 5 to 20 mg, glimepiride 1 to 4 mg, glyburide",
+        "Established second-line option that stimulates insulin secretion",
+        "Risk of hypoglycemia (most important concern), weight gain, take with meals, dose adjustment for renal and hepatic impairment"
+      ],
+      [
+        "Thiazolidinedione",
+        "Pioglitazone 15 to 45 mg",
+        "Improves insulin sensitivity, sometimes used as add-on therapy",
+        "Fluid retention risk, contraindicated in heart failure, bladder cancer concern with long-term use, weight gain, periodic liver function monitoring"
+      ],
+      [
+        "Combination oral therapy",
+        "Metformin combined with SGLT2 inhibitor, DPP-4 inhibitor, or sulfonylurea; fixed-dose combinations available",
+        "Patients already established on multi-drug oral regimen for glycemic control",
+        "Bridge refill of existing combinations; dose adjustments and new combinations should be managed by primary care or endocrinology"
+      ]
     ],
     "note": "Medication selection and dosing are individualized based on A1C target, renal function, comorbidities, and side effect profile. TeleDirectMD does not prescribe controlled substances, and refill treatment online is intended as bridge care when clinically appropriate, not as a substitute for comprehensive diabetes management or emergency care."
   },
-
   "homeCare": {
     "sectionTitle": "Home Care, Prevention, and Follow-up",
     "whatToDoNow": {
@@ -380,7 +493,6 @@
       ]
     }
   },
-
   "whenNotToUse": {
     "sectionTitle": "When Not to Use TeleDirectMD for Diabetes Medication Refills in {state}",
     "intro": "TeleDirectMD is designed for selected short bridge refill care of established oral diabetes medications only. We are direct about when telehealth is not the right fit.",
@@ -401,13 +513,21 @@
     "alternatives": {
       "title": "Alternative Care Options",
       "items": [
-        { "label": "Emergency room:", "text": "diabetic ketoacidosis, hyperosmolar hyperglycemic state, severe hypoglycemia with altered consciousness, or blood sugar above 400 mg/dL with symptoms" },
-        { "label": "Urgent care:", "text": "significantly elevated blood sugar that is not clearly ER-level but is not stable, or hypoglycemia that is recurrent and difficult to self-manage" },
-        { "label": "Primary care or endocrinology:", "text": "long-term diabetes management, A1C optimization, medication step-up or step-down, insulin initiation, GLP-1 injectable therapy, and comprehensive complication screening" }
+        {
+          "label": "Emergency room:",
+          "text": "diabetic ketoacidosis, hyperosmolar hyperglycemic state, severe hypoglycemia with altered consciousness, or blood sugar above 400 mg/dL with symptoms"
+        },
+        {
+          "label": "Urgent care:",
+          "text": "significantly elevated blood sugar that is not clearly ER-level but is not stable, or hypoglycemia that is recurrent and difficult to self-manage"
+        },
+        {
+          "label": "Primary care or endocrinology:",
+          "text": "long-term diabetes management, A1C optimization, medication step-up or step-down, insulin initiation, GLP-1 injectable therapy, and comprehensive complication screening"
+        }
       ]
     }
   },
-
   "faq": {
     "sectionTitle": "Diabetes Medication Refill FAQs for {state}",
     "items": [
@@ -465,15 +585,28 @@
       "text": "Insurance is not required. Adult-only video visits. MD-only care. Safety-first triage, short bridge refills of oral diabetes medications when appropriate, and clear next steps."
     }
   },
-
   "references": [
-    { "text": "ADA Standards of Care in Diabetes 2025", "url": "https://professional.diabetes.org/standards-of-care" },
-    { "text": "ADA Section 9: Pharmacologic Approaches to Glycemic Treatment 2025", "url": "https://diabetesjournals.org/care/article/49/Supplement_1/S183/163934/9-Pharmacologic-Approaches-to-Glycemic-Treatment" },
-    { "text": "HHS Telehealth for Diabetes Care: Getting Started", "url": "https://telehealth.hhs.gov/providers/best-practice-guides/telehealth-diabetes-care/getting-started-using-telehealth" },
-    { "text": "CDC Type 2 Diabetes Overview", "url": "https://www.cdc.gov/diabetes/about/about-type-2-diabetes.html" },
-    { "text": "NIDDK Type 2 Diabetes Information", "url": "https://www.niddk.nih.gov/health-information/diabetes/overview/what-is-diabetes/type-2-diabetes" }
+    {
+      "text": "ADA Standards of Care in Diabetes 2025",
+      "url": "https://professional.diabetes.org/standards-of-care"
+    },
+    {
+      "text": "ADA Section 9: Pharmacologic Approaches to Glycemic Treatment 2025",
+      "url": "https://diabetesjournals.org/care/article/49/Supplement_1/S183/163934/9-Pharmacologic-Approaches-to-Glycemic-Treatment"
+    },
+    {
+      "text": "HHS Telehealth for Diabetes Care: Getting Started",
+      "url": "https://telehealth.hhs.gov/providers/best-practice-guides/telehealth-diabetes-care/getting-started-using-telehealth"
+    },
+    {
+      "text": "CDC Type 2 Diabetes Overview",
+      "url": "https://www.cdc.gov/diabetes/about/about-type-2-diabetes.html"
+    },
+    {
+      "text": "NIDDK Type 2 Diabetes Information",
+      "url": "https://www.niddk.nih.gov/health-information/diabetes/overview/what-is-diabetes/type-2-diabetes"
+    }
   ],
-
   "disclaimer": {
     "sectionTitle": "TeleDirectMD Telehealth Disclaimer",
     "paragraphs": [
@@ -482,7 +615,6 @@
       "Online diabetes medication refills in {state}. Metformin refill online. Type 2 diabetes oral medication bridge refill care. Diabetes telehealth care in {state}."
     ]
   },
-
   "relatedConditions": [
     {
       "slug": "hypertension-refills-online",
@@ -505,37 +637,82 @@
       "description": "Another common {state} chronic medication refill pathway for adults using TeleDirectMD"
     }
   ],
-
   "inlineLinks": [
-    { "slug": "hypertension-refills-online", "label": "Hypertension Medication Refills" },
-    { "slug": "hyperlipidemia-refills-online", "label": "Hyperlipidemia Medication Refills" },
-    { "slug": "hypothyroidism-refills-online", "label": "Hypothyroidism Medication Refills" },
-    { "slug": "asthma-refills-online", "label": "Asthma Refills" },
-    { "slug": "uti-treatment-online", "label": "UTI" },
-    { "slug": "yeast-infection-treatment-online", "label": "Yeast Infection" },
-    { "slug": "erectile-dysfunction-treatment-online", "label": "Erectile Dysfunction" },
-    { "slug": "gout-treatment-online", "label": "Gout" },
-    { "slug": "smoking-cessation-treatment-online", "label": "Smoking Cessation" },
-    { "slug": "seasonal-allergies-treatment-online", "label": "Seasonal Allergies" }
+    {
+      "slug": "hypertension-refills-online",
+      "label": "Hypertension Medication Refills"
+    },
+    {
+      "slug": "hyperlipidemia-refills-online",
+      "label": "Hyperlipidemia Medication Refills"
+    },
+    {
+      "slug": "hypothyroidism-refills-online",
+      "label": "Hypothyroidism Medication Refills"
+    },
+    {
+      "slug": "asthma-refills-online",
+      "label": "Asthma Refills"
+    },
+    {
+      "slug": "uti-treatment-online",
+      "label": "UTI"
+    },
+    {
+      "slug": "yeast-infection-treatment-online",
+      "label": "Yeast Infection"
+    },
+    {
+      "slug": "erectile-dysfunction-treatment-online",
+      "label": "Erectile Dysfunction"
+    },
+    {
+      "slug": "gout-treatment-online",
+      "label": "Gout"
+    },
+    {
+      "slug": "smoking-cessation-treatment-online",
+      "label": "Smoking Cessation"
+    },
+    {
+      "slug": "seasonal-allergies-treatment-online",
+      "label": "Seasonal Allergies"
+    }
   ],
-
   "cityBlock": {
     "title": "Adults We Serve Across {state}",
     "text": "TeleDirectMD evaluates adults located throughout {state}, including {citiesExtended}. Whether you are searching for online diabetes medication refills in {city1}, metformin refills in {city2}, Type 2 diabetes oral medication bridge care in {city3}, or diabetes refill help anywhere else in {state}, the same telehealth eligibility and safety rules apply."
   },
-
   "icd10Codes": [
-    { "code": "E11.9", "description": "Type 2 diabetes mellitus without complications" },
-    { "code": "E11.65", "description": "Type 2 diabetes mellitus with hyperglycemia" }
+    {
+      "code": "E11.9",
+      "description": "Type 2 diabetes mellitus without complications"
+    },
+    {
+      "code": "E11.65",
+      "description": "Type 2 diabetes mellitus with hyperglycemia"
+    }
   ],
-
   "jsonLd": {
     "conditionName": "Type 2 Diabetes Mellitus",
-    "conditionAlternateNames": ["Type 2 diabetes", "Diabetes medication refill care", "Metformin refill", "Oral diabetes medication refill", "Adult onset diabetes"],
+    "conditionAlternateNames": [
+      "Type 2 diabetes",
+      "Diabetes medication refill care",
+      "Metformin refill",
+      "Oral diabetes medication refill",
+      "Adult onset diabetes"
+    ],
     "conditionDescription": "Type 2 diabetes medication refill care involves reviewing whether it is safe and appropriate to continue a patient's established oral diabetes medications such as metformin, SGLT2 inhibitors, DPP-4 inhibitors, and sulfonylureas. TeleDirectMD evaluates adult refill requests by video visit with safety-first red-flag screening and provides short bridge refill guidance when appropriate, with clear rules for when urgent in-person care or endocrinology referral is needed.",
     "primaryIcd10": "E11.9",
     "anatomy": "Pancreas",
-    "symptoms": ["Hyperglycemia", "Increased thirst", "Frequent urination", "Fatigue", "Blurred vision", "Slow wound healing"],
+    "symptoms": [
+      "Hyperglycemia",
+      "Increased thirst",
+      "Frequent urination",
+      "Fatigue",
+      "Blurred vision",
+      "Slow wound healing"
+    ],
     "riskFactors": [
       "Family history of Type 2 diabetes",
       "Obesity or overweight",
@@ -555,14 +732,38 @@
     ],
     "epidemiology": "Type 2 diabetes affects approximately 37 million Americans, roughly 11% of the US population, and is one of the most common chronic conditions requiring lifelong medication management.",
     "drugs": [
-      { "name": "Metformin", "id": "metformin" },
-      { "name": "Empagliflozin (Jardiance)", "id": "empagliflozin" },
-      { "name": "Dapagliflozin (Farxiga)", "id": "dapagliflozin" },
-      { "name": "Sitagliptin (Januvia)", "id": "sitagliptin" },
-      { "name": "Linagliptin (Tradjenta)", "id": "linagliptin" },
-      { "name": "Glipizide", "id": "glipizide" },
-      { "name": "Glimepiride", "id": "glimepiride" },
-      { "name": "Pioglitazone", "id": "pioglitazone" }
+      {
+        "name": "Metformin",
+        "id": "metformin"
+      },
+      {
+        "name": "Empagliflozin (Jardiance)",
+        "id": "empagliflozin"
+      },
+      {
+        "name": "Dapagliflozin (Farxiga)",
+        "id": "dapagliflozin"
+      },
+      {
+        "name": "Sitagliptin (Januvia)",
+        "id": "sitagliptin"
+      },
+      {
+        "name": "Linagliptin (Tradjenta)",
+        "id": "linagliptin"
+      },
+      {
+        "name": "Glipizide",
+        "id": "glipizide"
+      },
+      {
+        "name": "Glimepiride",
+        "id": "glimepiride"
+      },
+      {
+        "name": "Pioglitazone",
+        "id": "pioglitazone"
+      }
     ],
     "treatments": [
       "Short bridge refill care of established oral diabetes medications",
@@ -575,11 +776,31 @@
       "A1C monitoring (recommended every 3 to 6 months)",
       "Comprehensive metabolic panel and renal function assessment"
     ],
-    "specialties": ["Family Medicine", "Telemedicine", "Endocrinology", "Internal Medicine"],
+    "specialties": [
+      "Family Medicine",
+      "Telemedicine",
+      "Endocrinology",
+      "Internal Medicine"
+    ],
     "guidelines": [
-      { "name": "ADA Standards of Care in Diabetes 2025", "url": "https://professional.diabetes.org/standards-of-care", "publisher": "American Diabetes Association", "id": "ada-soc" },
-      { "name": "ADA Section 9: Pharmacologic Approaches to Glycemic Treatment 2025", "url": "https://diabetesjournals.org/care/article/49/Supplement_1/S183/163934/9-Pharmacologic-Approaches-to-Glycemic-Treatment", "publisher": "American Diabetes Association", "id": "ada-pharm" },
-      { "name": "HHS Telehealth for Diabetes Care", "url": "https://telehealth.hhs.gov/providers/best-practice-guides/telehealth-diabetes-care/getting-started-using-telehealth", "publisher": "US Department of Health and Human Services", "id": "hhs-telehealth" }
+      {
+        "name": "ADA Standards of Care in Diabetes 2025",
+        "url": "https://professional.diabetes.org/standards-of-care",
+        "publisher": "American Diabetes Association",
+        "id": "ada-soc"
+      },
+      {
+        "name": "ADA Section 9: Pharmacologic Approaches to Glycemic Treatment 2025",
+        "url": "https://diabetesjournals.org/care/article/49/Supplement_1/S183/163934/9-Pharmacologic-Approaches-to-Glycemic-Treatment",
+        "publisher": "American Diabetes Association",
+        "id": "ada-pharm"
+      },
+      {
+        "name": "HHS Telehealth for Diabetes Care",
+        "url": "https://telehealth.hhs.gov/providers/best-practice-guides/telehealth-diabetes-care/getting-started-using-telehealth",
+        "publisher": "US Department of Health and Human Services",
+        "id": "hhs-telehealth"
+      }
     ],
     "knowsAbout": [
       "Type 2 diabetes medication refill care",
@@ -592,5 +813,7 @@
     ],
     "serviceDescription": "Secure video visit for {state} adults requesting Type 2 diabetes oral medication refill care, including red-flag screening, glycemic control review, and short bridge refill treatment when appropriate.",
     "webpageDescription": "{state} diabetes medication refill treatment by secure MD video visit for adults. Evidence-based oral diabetes medication refill care, red-flag screening, short bridge refills when appropriate, and clear rules for when urgent in-person care or endocrinology referral is needed."
-  }
+  },
+  "guidelineSource": "ada",
+  "conditionType": "refill"
 }

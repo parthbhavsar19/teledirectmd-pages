@@ -2,20 +2,34 @@
   "conditionName": "Pink Eye",
   "conditionShort": "pink eye",
   "conditionSlug": "pink-eye-treatment-online",
-  "pageTitle": "Pink Eye Treatment Online in {state} | Conjunctivitis MD Video Visit | TeleDirectMD",
+  "pageTitle": "Pink Eye Online Treatment in {state} | TeleDirectMD",
   "metaDescription": "Evidence-based pink eye (conjunctivitis) treatment for {state} adults by secure video visit. Bacterial, viral, and allergic conjunctivitis evaluation with red-flag screening and prescriptions when clinically appropriate. Self pay option starting at $49. Insurance is not required.",
   "ogImageAlt": "Pink eye treatment in {state} by TeleDirectMD",
-
   "hero": {
     "h1": "Pink Eye Treatment in {state} (Conjunctivitis)",
     "subtitle": "{state} adult care by secure video visit, self pay option starting at $49, MD-only, insurance is not required.",
     "introParagraph": "Conjunctivitis (pink eye) is one of the most common eye complaints in outpatient medicine, with bacterial, viral, and allergic forms each requiring a different treatment approach. According to a JAMA Ophthalmology systematic review, the majority of bacterial conjunctivitis cases are self-limiting within one to two weeks, though topical antibiotics can shorten the course and allow earlier return to work and daily activities. Viral conjunctivitis, often associated with adenovirus and upper respiratory infections, has no specific antiviral treatment and resolves with supportive care over two to three weeks. Allergic conjunctivitis affects up to 40 percent of the population and responds to allergen avoidance, antihistamine drops, and mast cell stabilizers. TeleDirectMD uses a safety-first telehealth approach that screens for red flags including significant vision changes, severe eye pain, photophobia, and signs of corneal involvement before determining whether treatment by video visit is appropriate. If the history supports uncomplicated conjunctivitis without red flags, evidence-based treatment including topical antibiotics or OTC allergy drops may be recommended by video, while adults with signs suggesting keratitis, corneal ulcer, or gonococcal or chlamydial conjunctivitis are directed to ophthalmology or emergency care. This page is for adults located in {state}, including {cities}.",
     "tocLinks": [
-      { "href": "eligibility-checklist", "label": "Eligibility checklist" },
-      { "href": "decision-guide", "label": "Decision guide" },
-      { "href": "treatment-options", "label": "Treatment options" },
-      { "href": "faq", "label": "FAQs" },
-      { "href": "references", "label": "References" }
+      {
+        "href": "eligibility-checklist",
+        "label": "Eligibility checklist"
+      },
+      {
+        "href": "decision-guide",
+        "label": "Decision guide"
+      },
+      {
+        "href": "treatment-options",
+        "label": "Treatment options"
+      },
+      {
+        "href": "faq",
+        "label": "FAQs"
+      },
+      {
+        "href": "references",
+        "label": "References"
+      }
     ],
     "benefits": [
       "Self pay option starting at $49",
@@ -35,7 +49,6 @@
     },
     "icd10Display": "H10.9, H10.0, H10.1, H10.3, or B30.9 (final coding depends on clinical details)"
   },
-
   "eligibility": {
     "sectionTitle": "Pink Eye Telehealth Eligibility Checklist for {state}",
     "introText": "You are likely eligible for a TeleDirectMD video visit if ALL of these are true:",
@@ -61,7 +74,6 @@
     ],
     "notEligibleDisclaimer": "If you have red-flag symptoms suggesting corneal involvement, vision-threatening infection, or herpes eye disease, seek ophthalmology or emergency care immediately. TeleDirectMD is not an emergency service."
   },
-
   "howItWorks": {
     "sectionTitle": "How Online Pink Eye Treatment Works in {state}",
     "steps": [
@@ -83,7 +95,6 @@
       }
     ]
   },
-
   "telehealthRegulations": {
     "sectionTitle": "{state} Telehealth Regulations for Online Pink Eye Care",
     "paragraphs": [
@@ -91,7 +102,6 @@
       "Location matters: you must be physically in {state} during the visit. Insurance is not required. TeleDirectMD does not prescribe controlled substances."
     ]
   },
-
   "comparisonTable": {
     "sectionTitle": "TeleDirectMD vs Other Care Options for Pink Eye in {state}",
     "intro": "Here is how TeleDirectMD compares to common settings for adult pink eye care in {state}:",
@@ -139,7 +149,6 @@
     ],
     "bottomLine": "TeleDirectMD is a strong fit for uncomplicated conjunctivitis without vision changes, with careful red-flag screening and direct MD evaluation to determine whether treatment, supportive care, or ophthalmology referral is appropriate."
   },
-
   "decisionGuide": {
     "sectionTitle": "Should I Use TeleDirectMD for Pink Eye in {state}? Decision Guide",
     "steps": [
@@ -186,7 +195,6 @@
       }
     ]
   },
-
   "pricing": {
     "sectionTitle": "What Does Pink Eye Treatment Cost in {state}?",
     "subtitle": "Transparent options. Insurance is not required.",
@@ -200,15 +208,34 @@
       "Clear follow-up steps and ophthalmology referral when needed"
     ],
     "comparisonBars": [
-      { "name": "TeleDirectMD", "value": "$49", "width": 12, "isTdmd": true },
-      { "name": "Primary Care", "value": "$100 to $250+", "width": 45, "isTdmd": false },
-      { "name": "Urgent Care", "value": "$150 to $300+", "width": 55, "isTdmd": false },
-      { "name": "Emergency Room", "value": "$500 to $3,000+", "width": 100, "isTdmd": false }
+      {
+        "name": "TeleDirectMD",
+        "value": "$49",
+        "width": 12,
+        "isTdmd": true
+      },
+      {
+        "name": "Primary Care",
+        "value": "$100 to $250+",
+        "width": 45,
+        "isTdmd": false
+      },
+      {
+        "name": "Urgent Care",
+        "value": "$150 to $300+",
+        "width": 55,
+        "isTdmd": false
+      },
+      {
+        "name": "Emergency Room",
+        "value": "$500 to $3,000+",
+        "width": 100,
+        "isTdmd": false
+      }
     ],
     "footnote": "Prescription costs at your pharmacy are separate and vary by medication and pharmacy.",
     "noHiddenFees": "No hidden fees. If medication is not clinically appropriate, you still receive a complete evaluation, guidance, and clear instructions on what level of care you need next."
   },
-
   "whatIsCondition": {
     "sectionTitle": "What Is Pink Eye (Conjunctivitis)?",
     "paragraphs": [
@@ -217,37 +244,97 @@
       "TeleDirectMD focuses on uncomplicated conjunctivitis appropriate for telehealth, with careful screening to direct cases with vision changes, severe pain, suspected corneal involvement, or gonococcal or chlamydial infection to ophthalmology or emergency care."
     ]
   },
-
   "causesAndRiskFactors": {
     "sectionTitle": "Causes and Risk Factors",
     "intro": "Understanding the type and cause of conjunctivitis helps guide appropriate treatment. Bacterial, viral, and allergic conjunctivitis have different presentations, risk factors, and management approaches.",
     "items": [
-      { "label": "Bacterial infection:", "text": "common pathogens include Staphylococcus aureus, Streptococcus pneumoniae, and Haemophilus influenzae, producing mucopurulent discharge that crusts the eyelids" },
-      { "label": "Viral infection:", "text": "adenovirus is the most common cause, often associated with upper respiratory infection or exposure to an infected person, producing watery discharge and conjunctival follicles" },
-      { "label": "Allergic triggers:", "text": "pollen, dust mites, pet dander, and other allergens cause bilateral itching, tearing, and conjunctival swelling affecting up to 40 percent of the population" },
-      { "label": "Contact lens wear:", "text": "increases risk for bacterial conjunctivitis and potentially serious corneal infections, especially with poor lens hygiene, overnight wear, or swimming with lenses" },
-      { "label": "Close contact and shared items:", "text": "viral and bacterial conjunctivitis are highly contagious through direct contact, shared towels, or contaminated surfaces" },
-      { "label": "Gonococcal or chlamydial exposure:", "text": "sexually transmitted organisms can cause hyperacute or chronic conjunctivitis requiring systemic antibiotics and are not appropriate for telehealth management" }
+      {
+        "label": "Bacterial infection:",
+        "text": "common pathogens include Staphylococcus aureus, Streptococcus pneumoniae, and Haemophilus influenzae, producing mucopurulent discharge that crusts the eyelids"
+      },
+      {
+        "label": "Viral infection:",
+        "text": "adenovirus is the most common cause, often associated with upper respiratory infection or exposure to an infected person, producing watery discharge and conjunctival follicles"
+      },
+      {
+        "label": "Allergic triggers:",
+        "text": "pollen, dust mites, pet dander, and other allergens cause bilateral itching, tearing, and conjunctival swelling affecting up to 40 percent of the population"
+      },
+      {
+        "label": "Contact lens wear:",
+        "text": "increases risk for bacterial conjunctivitis and potentially serious corneal infections, especially with poor lens hygiene, overnight wear, or swimming with lenses"
+      },
+      {
+        "label": "Close contact and shared items:",
+        "text": "viral and bacterial conjunctivitis are highly contagious through direct contact, shared towels, or contaminated surfaces"
+      },
+      {
+        "label": "Gonococcal or chlamydial exposure:",
+        "text": "sexually transmitted organisms can cause hyperacute or chronic conjunctivitis requiring systemic antibiotics and are not appropriate for telehealth management"
+      }
     ],
     "closing": "Not every red eye is conjunctivitis. Other causes of red eye include corneal abrasion, uveitis, acute glaucoma, and foreign body, which is why red-flag screening and appropriate referral are essential parts of the TeleDirectMD evaluation."
   },
-
   "symptomsAndRedFlags": {
     "sectionTitle": "Symptoms and Red Flags for Pink Eye in {state}",
     "intro": "Use this table to understand which symptoms fit uncomplicated conjunctivitis and which patterns suggest a need for urgent ophthalmology or emergency evaluation.",
-    "headers": ["Symptom or situation", "What it suggests", "Telehealth appropriate?", "Red flag requiring urgent in-person care"],
+    "headers": [
+      "Symptom or situation",
+      "What it suggests",
+      "Telehealth appropriate?",
+      "Red flag requiring urgent in-person care"
+    ],
     "rows": [
-      ["Eye redness with watery discharge, recent cold or sick contact", "Viral conjunctivitis likely", "Often yes", "If accompanied by vision changes or severe pain"],
-      ["Eye redness with mucopurulent discharge, eyelid crusting", "Bacterial conjunctivitis possible", "Often yes", "If copious purulent discharge suggesting gonococcal infection"],
-      ["Bilateral eye itching, tearing, and swelling with known allergen exposure", "Allergic conjunctivitis likely", "Often yes", "If vision changes or severe unilateral symptoms"],
-      ["Mild gritty or irritated sensation without severe pain", "Typical of uncomplicated conjunctivitis", "Often yes", "If worsening to severe pain or photophobia"],
-      ["Contact lens wearer with redness and discharge", "Higher risk for bacterial keratitis", "Sometimes", "If severe pain, vision change, or white spot on cornea"],
-      ["Significant vision changes or vision loss", "Possible corneal involvement, uveitis, or other serious cause", "No", "Ophthalmology or emergency evaluation now"],
-      ["Severe eye pain with photophobia", "Possible keratitis, uveitis, or acute glaucoma", "No", "Ophthalmology or emergency evaluation now"],
-      ["Periorbital swelling with fever", "Possible orbital cellulitis", "No", "Emergency evaluation now"]
+      [
+        "Eye redness with watery discharge, recent cold or sick contact",
+        "Viral conjunctivitis likely",
+        "Often yes",
+        "If accompanied by vision changes or severe pain"
+      ],
+      [
+        "Eye redness with mucopurulent discharge, eyelid crusting",
+        "Bacterial conjunctivitis possible",
+        "Often yes",
+        "If copious purulent discharge suggesting gonococcal infection"
+      ],
+      [
+        "Bilateral eye itching, tearing, and swelling with known allergen exposure",
+        "Allergic conjunctivitis likely",
+        "Often yes",
+        "If vision changes or severe unilateral symptoms"
+      ],
+      [
+        "Mild gritty or irritated sensation without severe pain",
+        "Typical of uncomplicated conjunctivitis",
+        "Often yes",
+        "If worsening to severe pain or photophobia"
+      ],
+      [
+        "Contact lens wearer with redness and discharge",
+        "Higher risk for bacterial keratitis",
+        "Sometimes",
+        "If severe pain, vision change, or white spot on cornea"
+      ],
+      [
+        "Significant vision changes or vision loss",
+        "Possible corneal involvement, uveitis, or other serious cause",
+        "No",
+        "Ophthalmology or emergency evaluation now"
+      ],
+      [
+        "Severe eye pain with photophobia",
+        "Possible keratitis, uveitis, or acute glaucoma",
+        "No",
+        "Ophthalmology or emergency evaluation now"
+      ],
+      [
+        "Periorbital swelling with fever",
+        "Possible orbital cellulitis",
+        "No",
+        "Emergency evaluation now"
+      ]
     ]
   },
-
   "differentialDiagnosis": {
     "sectionTitle": "Differential Diagnosis: Pink Eye vs Other Eye Conditions",
     "intro": "Several conditions can cause eye redness that mimics conjunctivitis. TeleDirectMD evaluates symptom patterns to distinguish uncomplicated conjunctivitis from conditions requiring ophthalmology or emergency evaluation.",
@@ -283,7 +370,6 @@
     ],
     "closing": "If your symptoms do not match uncomplicated conjunctivitis or any red flags are present, TeleDirectMD will direct you to ophthalmology or the ER."
   },
-
   "telehealthEligibility": {
     "sectionTitle": "When Is a Video Visit Appropriate?",
     "appropriate": {
@@ -310,7 +396,6 @@
       "disclaimer": "If any red-flag symptoms are present, seek ophthalmology or emergency care immediately. TeleDirectMD is not an emergency service."
     }
   },
-
   "treatmentOptions": {
     "sectionTitle": "Treatment Options",
     "intro": "Treatment depends on the type of conjunctivitis. The JAMA systematic review confirms that most bacterial conjunctivitis is self-limiting, but topical antibiotics shorten the course. Viral conjunctivitis has no specific treatment. Allergic conjunctivitis responds to antihistamines and allergen avoidance. The AAO emphasizes that steroid eye drops should not be prescribed without a slit-lamp examination due to the risk of corneal melting with herpes keratitis.",
@@ -340,23 +425,61 @@
       "Conditions requiring steroid eye drops without slit-lamp exam"
     ]
   },
-
   "medications": {
     "sectionTitle": "Common Medication Options",
     "intro": "These are common options for adult conjunctivitis. The actual medication, dose, and duration are determined by the MD after reviewing your symptoms, discharge type, risk factors, and red flags. Many cases of conjunctivitis resolve with supportive care alone.",
-    "headers": ["Medication", "Typical dose", "Duration", "Key considerations"],
+    "headers": [
+      "Medication",
+      "Typical dose",
+      "Duration",
+      "Key considerations"
+    ],
     "rows": [
-      ["Erythromycin ophthalmic ointment 0.5%", "Apply thin ribbon to affected eye(s) 2 to 4 times daily", "5 to 7 days", "First-line topical antibiotic for bacterial conjunctivitis. Well-tolerated. May cause temporary blurring after application."],
-      ["Polymyxin B/trimethoprim ophthalmic drops", "1 to 2 drops in affected eye(s) every 3 to 6 hours", "7 to 10 days", "Broad-spectrum topical antibiotic drops for bacterial conjunctivitis. Good alternative to ointment when drops are preferred."],
-      ["Ofloxacin ophthalmic drops 0.3%", "1 to 2 drops in affected eye(s) 2 to 4 times daily", "7 days", "Fluoroquinolone topical antibiotic. Used for bacterial conjunctivitis when broader coverage is needed."],
-      ["Artificial tears (over-the-counter)", "1 to 2 drops as needed for comfort", "As needed", "Supportive care for all types of conjunctivitis. Lubricates the eye and flushes irritants. Preservative-free formulations preferred for frequent use."],
-      ["Ketotifen ophthalmic drops (over-the-counter)", "1 drop in affected eye(s) twice daily", "As needed during allergy season", "Over-the-counter antihistamine and mast cell stabilizer eye drop for allergic conjunctivitis. Available without prescription."],
-      ["Olopatadine ophthalmic drops", "1 drop in affected eye(s) once or twice daily", "As needed during allergy season", "Prescription combination antihistamine and mast cell stabilizer for allergic conjunctivitis. More potent than OTC options for persistent symptoms."],
-      ["Cool compresses", "Apply clean cool cloth to closed eyes for 5 to 10 minutes", "As needed for comfort", "Supportive care that provides relief for all types of conjunctivitis. Particularly soothing for viral and allergic forms."]
+      [
+        "Erythromycin ophthalmic ointment 0.5%",
+        "Apply thin ribbon to affected eye(s) 2 to 4 times daily",
+        "5 to 7 days",
+        "First-line topical antibiotic for bacterial conjunctivitis. Well-tolerated. May cause temporary blurring after application."
+      ],
+      [
+        "Polymyxin B/trimethoprim ophthalmic drops",
+        "1 to 2 drops in affected eye(s) every 3 to 6 hours",
+        "7 to 10 days",
+        "Broad-spectrum topical antibiotic drops for bacterial conjunctivitis. Good alternative to ointment when drops are preferred."
+      ],
+      [
+        "Ofloxacin ophthalmic drops 0.3%",
+        "1 to 2 drops in affected eye(s) 2 to 4 times daily",
+        "7 days",
+        "Fluoroquinolone topical antibiotic. Used for bacterial conjunctivitis when broader coverage is needed."
+      ],
+      [
+        "Artificial tears (over-the-counter)",
+        "1 to 2 drops as needed for comfort",
+        "As needed",
+        "Supportive care for all types of conjunctivitis. Lubricates the eye and flushes irritants. Preservative-free formulations preferred for frequent use."
+      ],
+      [
+        "Ketotifen ophthalmic drops (over-the-counter)",
+        "1 drop in affected eye(s) twice daily",
+        "As needed during allergy season",
+        "Over-the-counter antihistamine and mast cell stabilizer eye drop for allergic conjunctivitis. Available without prescription."
+      ],
+      [
+        "Olopatadine ophthalmic drops",
+        "1 drop in affected eye(s) once or twice daily",
+        "As needed during allergy season",
+        "Prescription combination antihistamine and mast cell stabilizer for allergic conjunctivitis. More potent than OTC options for persistent symptoms."
+      ],
+      [
+        "Cool compresses",
+        "Apply clean cool cloth to closed eyes for 5 to 10 minutes",
+        "As needed for comfort",
+        "Supportive care that provides relief for all types of conjunctivitis. Particularly soothing for viral and allergic forms."
+      ]
     ],
     "note": "Example regimens only. The actual medication, dosing, and duration are determined by the MD after reviewing your symptoms, risk factors, allergies, and red flags. TeleDirectMD does not prescribe steroid eye drops without a slit-lamp examination. TeleDirectMD does not prescribe controlled substances."
   },
-
   "homeCare": {
     "sectionTitle": "Home Care, Recovery Timeline, Prevention, and Follow-up",
     "whatToDoNow": {
@@ -391,7 +514,6 @@
       ]
     }
   },
-
   "whenNotToUse": {
     "sectionTitle": "When Not to Use TeleDirectMD for Pink Eye in {state}",
     "intro": "TeleDirectMD is designed for uncomplicated conjunctivitis symptoms. We are direct about when telehealth is not appropriate.",
@@ -412,14 +534,25 @@
     "alternatives": {
       "title": "Alternative Care Options",
       "items": [
-        { "label": "Emergency room:", "text": "significant vision loss, periorbital cellulitis with fever, suspected corneal perforation, or chemical exposure to the eye" },
-        { "label": "Ophthalmology:", "text": "vision changes, severe eye pain, photophobia, suspected keratitis or corneal ulcer, herpes eye disease, or conjunctivitis not responding to treatment" },
-        { "label": "Urgent care:", "text": "moderate symptoms with uncertain diagnosis or when in-person eye examination is needed for reassurance" },
-        { "label": "Primary care:", "text": "recurrent conjunctivitis, chronic eye irritation, allergy management, and routine eye health evaluation" }
+        {
+          "label": "Emergency room:",
+          "text": "significant vision loss, periorbital cellulitis with fever, suspected corneal perforation, or chemical exposure to the eye"
+        },
+        {
+          "label": "Ophthalmology:",
+          "text": "vision changes, severe eye pain, photophobia, suspected keratitis or corneal ulcer, herpes eye disease, or conjunctivitis not responding to treatment"
+        },
+        {
+          "label": "Urgent care:",
+          "text": "moderate symptoms with uncertain diagnosis or when in-person eye examination is needed for reassurance"
+        },
+        {
+          "label": "Primary care:",
+          "text": "recurrent conjunctivitis, chronic eye irritation, allergy management, and routine eye health evaluation"
+        }
       ]
     }
   },
-
   "faq": {
     "sectionTitle": "Pink Eye Treatment FAQs for {state}",
     "items": [
@@ -469,14 +602,24 @@
       "text": "Insurance is not required. Adult-only video visits. MD-only care. Safety-first triage, evidence-based treatment decisions, and prescriptions only when appropriate."
     }
   },
-
   "references": [
-    { "text": "Azari AA, Barney NP. Conjunctivitis: A Systematic Review of Diagnosis and Treatment. JAMA. 2013;310(16):1721-1730.", "url": "https://jamanetwork.com/journals/jama/fullarticle/1758756" },
-    { "text": "American Academy of Ophthalmology: Conjunctivitis Preferred Practice Pattern (2018)", "url": "https://www.aao.org/preferred-practice-pattern/conjunctivitis-ppp-2018" },
-    { "text": "CDC: Conjunctivitis (Pink Eye) - Treatment", "url": "https://www.cdc.gov/conjunctivitis/about/treatment.html" },
-    { "text": "Mayo Clinic: Pink Eye (Conjunctivitis) - Diagnosis and Treatment", "url": "https://www.mayoclinic.org/diseases-conditions/pink-eye/diagnosis-treatment/drc-20376360" }
+    {
+      "text": "Azari AA, Barney NP. Conjunctivitis: A Systematic Review of Diagnosis and Treatment. JAMA. 2013;310(16):1721-1730.",
+      "url": "https://jamanetwork.com/journals/jama/fullarticle/1758756"
+    },
+    {
+      "text": "American Academy of Ophthalmology: Conjunctivitis Preferred Practice Pattern (2018)",
+      "url": "https://www.aao.org/preferred-practice-pattern/conjunctivitis-ppp-2018"
+    },
+    {
+      "text": "CDC: Conjunctivitis (Pink Eye) - Treatment",
+      "url": "https://www.cdc.gov/conjunctivitis/about/treatment.html"
+    },
+    {
+      "text": "Mayo Clinic: Pink Eye (Conjunctivitis) - Diagnosis and Treatment",
+      "url": "https://www.mayoclinic.org/diseases-conditions/pink-eye/diagnosis-treatment/drc-20376360"
+    }
   ],
-
   "disclaimer": {
     "sectionTitle": "TeleDirectMD Telehealth Disclaimer",
     "paragraphs": [
@@ -485,7 +628,6 @@
       "Online pink eye treatment in {state}. Conjunctivitis treatment online. Pink eye care by video visit."
     ]
   },
-
   "relatedConditions": [
     {
       "slug": "seasonal-allergies-treatment-online",
@@ -508,40 +650,93 @@
       "description": "Herpes simplex virus can cause both cold sores and ocular herpes, though the latter requires ophthalmology care"
     }
   ],
-
   "inlineLinks": [
-    { "slug": "seasonal-allergies-treatment-online", "label": "Seasonal Allergies" },
-    { "slug": "common-cold-treatment-online", "label": "Common Cold" },
-    { "slug": "sinus-infection-treatment-online", "label": "Sinus Infection" },
-    { "slug": "cold-sore-treatment-online", "label": "Cold Sore" },
-    { "slug": "sore-throat-treatment-online", "label": "Sore Throat" },
-    { "slug": "influenza-treatment-online", "label": "Influenza" },
-    { "slug": "asthma-refills-online", "label": "Asthma Refills" },
-    { "slug": "uti-treatment-online", "label": "UTI" },
-    { "slug": "yeast-infection-treatment-online", "label": "Yeast Infection" },
-    { "slug": "blood-pressure-medication-refills-online", "label": "Blood Pressure Medication Refills" }
+    {
+      "slug": "seasonal-allergies-treatment-online",
+      "label": "Seasonal Allergies"
+    },
+    {
+      "slug": "common-cold-treatment-online",
+      "label": "Common Cold"
+    },
+    {
+      "slug": "sinus-infection-treatment-online",
+      "label": "Sinus Infection"
+    },
+    {
+      "slug": "cold-sore-treatment-online",
+      "label": "Cold Sore"
+    },
+    {
+      "slug": "sore-throat-treatment-online",
+      "label": "Sore Throat"
+    },
+    {
+      "slug": "influenza-treatment-online",
+      "label": "Influenza"
+    },
+    {
+      "slug": "asthma-refills-online",
+      "label": "Asthma Refills"
+    },
+    {
+      "slug": "uti-treatment-online",
+      "label": "UTI"
+    },
+    {
+      "slug": "yeast-infection-treatment-online",
+      "label": "Yeast Infection"
+    },
+    {
+      "slug": "blood-pressure-medication-refills-online",
+      "label": "Blood Pressure Medication Refills"
+    }
   ],
-
   "cityBlock": {
     "title": "Adults We Serve Across {state}",
     "text": "TeleDirectMD evaluates adults located throughout {state}, including {citiesExtended}. Whether you are searching for online pink eye treatment in {city1}, conjunctivitis care in {city2}, pink eye prescription online in {city3}, or telehealth eye care anywhere else in {state}, the same telehealth eligibility and safety rules apply."
   },
-
   "icd10Codes": [
-    { "code": "H10.9", "description": "Conjunctivitis, unspecified" },
-    { "code": "H10.0", "description": "Mucopurulent conjunctivitis" },
-    { "code": "H10.1", "description": "Acute atopic conjunctivitis" },
-    { "code": "H10.3", "description": "Unspecified acute conjunctivitis" },
-    { "code": "B30.9", "description": "Viral conjunctivitis, unspecified" }
+    {
+      "code": "H10.9",
+      "description": "Conjunctivitis, unspecified"
+    },
+    {
+      "code": "H10.0",
+      "description": "Mucopurulent conjunctivitis"
+    },
+    {
+      "code": "H10.1",
+      "description": "Acute atopic conjunctivitis"
+    },
+    {
+      "code": "H10.3",
+      "description": "Unspecified acute conjunctivitis"
+    },
+    {
+      "code": "B30.9",
+      "description": "Viral conjunctivitis, unspecified"
+    }
   ],
-
   "jsonLd": {
     "conditionName": "Conjunctivitis",
-    "conditionAlternateNames": ["Pink eye", "Bacterial conjunctivitis", "Viral conjunctivitis", "Allergic conjunctivitis"],
+    "conditionAlternateNames": [
+      "Pink eye",
+      "Bacterial conjunctivitis",
+      "Viral conjunctivitis",
+      "Allergic conjunctivitis"
+    ],
     "conditionDescription": "Conjunctivitis (pink eye) is inflammation of the conjunctiva with bacterial, viral, and allergic forms. TeleDirectMD evaluates adult conjunctivitis symptoms by video visit with safety-first red-flag screening, differentiation of bacterial, viral, and allergic types, topical antibiotic prescriptions when clinically appropriate, and clear rules for when ophthalmology or emergency care is needed.",
     "primaryIcd10": "H10.9",
     "anatomy": "Conjunctiva",
-    "symptoms": ["Eye redness", "Eye discharge", "Eyelid crusting", "Itching", "Tearing", "Gritty sensation"],
+    "symptoms": [
+      "Eye redness",
+      "Eye discharge",
+      "Eyelid crusting",
+      "Itching",
+      "Tearing",
+      "Gritty sensation"
+    ],
     "riskFactors": [
       "Contact lens wear",
       "Exposure to infected individuals",
@@ -557,10 +752,22 @@
     ],
     "epidemiology": "Conjunctivitis is one of the most common eye conditions, accounting for approximately 1 percent of all primary care visits in the United States. Allergic conjunctivitis affects up to 40 percent of the population.",
     "drugs": [
-      { "name": "Erythromycin ophthalmic ointment", "id": "erythromycin-ophthalmic" },
-      { "name": "Polymyxin B/trimethoprim drops", "id": "polymyxin-trimethoprim" },
-      { "name": "Ofloxacin ophthalmic drops", "id": "ofloxacin-ophthalmic" },
-      { "name": "Ketotifen ophthalmic drops", "id": "ketotifen-ophthalmic" }
+      {
+        "name": "Erythromycin ophthalmic ointment",
+        "id": "erythromycin-ophthalmic"
+      },
+      {
+        "name": "Polymyxin B/trimethoprim drops",
+        "id": "polymyxin-trimethoprim"
+      },
+      {
+        "name": "Ofloxacin ophthalmic drops",
+        "id": "ofloxacin-ophthalmic"
+      },
+      {
+        "name": "Ketotifen ophthalmic drops",
+        "id": "ketotifen-ophthalmic"
+      }
     ],
     "treatments": [
       "Topical antibiotic therapy for bacterial conjunctivitis",
@@ -574,11 +781,30 @@
       "Red-flag screening for vision changes and corneal involvement",
       "Slit-lamp examination when indicated for complicated cases"
     ],
-    "specialties": ["Family Medicine", "Telemedicine", "Ophthalmology"],
+    "specialties": [
+      "Family Medicine",
+      "Telemedicine",
+      "Ophthalmology"
+    ],
     "guidelines": [
-      { "name": "Conjunctivitis: A Systematic Review of Diagnosis and Treatment (JAMA 2013)", "url": "https://jamanetwork.com/journals/jama/fullarticle/1758756", "publisher": "JAMA", "id": "jama" },
-      { "name": "AAO Conjunctivitis Preferred Practice Pattern", "url": "https://www.aao.org/preferred-practice-pattern/conjunctivitis-ppp-2018", "publisher": "American Academy of Ophthalmology", "id": "aao" },
-      { "name": "CDC Conjunctivitis Treatment Guidance", "url": "https://www.cdc.gov/conjunctivitis/about/treatment.html", "publisher": "Centers for Disease Control and Prevention", "id": "cdc" }
+      {
+        "name": "Conjunctivitis: A Systematic Review of Diagnosis and Treatment (JAMA 2013)",
+        "url": "https://jamanetwork.com/journals/jama/fullarticle/1758756",
+        "publisher": "JAMA",
+        "id": "jama"
+      },
+      {
+        "name": "AAO Conjunctivitis Preferred Practice Pattern",
+        "url": "https://www.aao.org/preferred-practice-pattern/conjunctivitis-ppp-2018",
+        "publisher": "American Academy of Ophthalmology",
+        "id": "aao"
+      },
+      {
+        "name": "CDC Conjunctivitis Treatment Guidance",
+        "url": "https://www.cdc.gov/conjunctivitis/about/treatment.html",
+        "publisher": "Centers for Disease Control and Prevention",
+        "id": "cdc"
+      }
     ],
     "knowsAbout": [
       "Pink eye treatment",
@@ -590,5 +816,7 @@
     ],
     "serviceDescription": "Secure video visit for {state} adults with conjunctivitis symptoms, including red-flag screening, differentiation of bacterial, viral, and allergic types, and prescriptions when clinically appropriate.",
     "webpageDescription": "{state} pink eye treatment by secure MD video visit for adults. Evidence-based evaluation of conjunctivitis symptoms, red-flag screening, topical antibiotic treatment when appropriate, and clear rules for when ophthalmology or emergency care is needed."
-  }
+  },
+  "guidelineSource": "aaoOphth",
+  "conditionType": "treatment"
 }

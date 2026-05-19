@@ -2,20 +2,34 @@
   "conditionName": "Rosacea Treatment",
   "conditionShort": "Rosacea",
   "conditionSlug": "rosacea-treatment-online",
-  "pageTitle": "Rosacea Treatment Online in {state} | Facial Redness MD Video Visit | TeleDirectMD",
+  "pageTitle": "Rosacea Online Treatment in {state} | TeleDirectMD",
   "metaDescription": "Evidence-based rosacea treatment for {state} adults by secure video visit. Photo-based assessment, topical and oral options, trigger management. Self pay option starting at $49. Insurance is not required.",
   "ogImageAlt": "Rosacea treatment in {state} by TeleDirectMD",
-
   "hero": {
     "h1": "Rosacea Treatment in {state} (Facial Redness and Papulopustular Rosacea)",
     "subtitle": "{state} adult care by secure video visit, self pay option starting at $49, MD-only, insurance is not required.",
     "introParagraph": "Rosacea is a chronic inflammatory skin condition that causes persistent facial redness, visible blood vessels, and sometimes papules and pustules on the cheeks, nose, chin, and forehead. It is often mistaken for acne or a sunburn, but rosacea has no comedones (blackheads or whiteheads) and requires a different treatment approach. Telehealth is excellent for rosacea because photo-based assessment is highly effective for identifying the characteristic central facial erythema and papulopustular changes. The American Academy of Dermatology (AAD) and the American Acne and Rosacea Society (AARS) provide evidence-based guidelines for managing rosacea with topical agents, subantimicrobial-dose doxycycline, trigger avoidance, and daily sunscreen. TeleDirectMD uses a safety-first approach that screens for red flags including ocular rosacea with vision changes, rhinophyma requiring surgical evaluation, and lupus-like features with systemic symptoms before determining whether treatment by video visit is appropriate. This page is for adults located in {state}, including {cities}.",
     "tocLinks": [
-      { "href": "eligibility-checklist", "label": "Eligibility checklist" },
-      { "href": "decision-guide", "label": "Decision guide" },
-      { "href": "treatment-options", "label": "Treatment options" },
-      { "href": "faq", "label": "FAQs" },
-      { "href": "references", "label": "References" }
+      {
+        "href": "eligibility-checklist",
+        "label": "Eligibility checklist"
+      },
+      {
+        "href": "decision-guide",
+        "label": "Decision guide"
+      },
+      {
+        "href": "treatment-options",
+        "label": "Treatment options"
+      },
+      {
+        "href": "faq",
+        "label": "FAQs"
+      },
+      {
+        "href": "references",
+        "label": "References"
+      }
     ],
     "benefits": [
       "Self pay option starting at $49",
@@ -35,7 +49,6 @@
     },
     "icd10Display": "L71.9, L71.0, L71.1, L71.8 (final coding depends on clinical details)"
   },
-
   "eligibility": {
     "sectionTitle": "Rosacea Telehealth Eligibility Checklist for {state}",
     "introText": "You are likely eligible for a TeleDirectMD video visit if ALL of these are true:",
@@ -58,7 +71,6 @@
     ],
     "notEligibleDisclaimer": "If you have red-flag symptoms, seek in-person specialist care. TeleDirectMD is not appropriate for ocular rosacea with vision changes, advanced rhinophyma, or suspected systemic autoimmune disease."
   },
-
   "howItWorks": {
     "sectionTitle": "How Online Rosacea Treatment Works in {state}",
     "steps": [
@@ -80,7 +92,6 @@
       }
     ]
   },
-
   "telehealthRegulations": {
     "sectionTitle": "{state} Telehealth Regulations for Online Rosacea Care",
     "paragraphs": [
@@ -88,7 +99,6 @@
       "Location matters: you must be physically in {state} during the visit. Insurance is not required. TeleDirectMD does not prescribe controlled substances."
     ]
   },
-
   "comparisonTable": {
     "sectionTitle": "TeleDirectMD vs Other Care Options for Rosacea in {state}",
     "intro": "Here is how TeleDirectMD compares to common settings for adult rosacea care in {state}:",
@@ -136,7 +146,6 @@
     ],
     "bottomLine": "TeleDirectMD is a strong fit for mild to moderate rosacea with photo-based assessment, topical and oral treatment options, and clear referral when specialist care is needed."
   },
-
   "decisionGuide": {
     "sectionTitle": "Should I Use TeleDirectMD for Rosacea in {state}? Decision Guide",
     "steps": [
@@ -180,7 +189,6 @@
       }
     ]
   },
-
   "pricing": {
     "sectionTitle": "What Does Online Rosacea Treatment Cost in {state}?",
     "subtitle": "Transparent options. Insurance is not required.",
@@ -194,15 +202,34 @@
       "Clear follow-up and specialist referral instructions"
     ],
     "comparisonBars": [
-      { "name": "TeleDirectMD", "value": "$49", "width": 12, "isTdmd": true },
-      { "name": "Primary Care", "value": "$100 to $350+", "width": 52, "isTdmd": false },
-      { "name": "Urgent Care", "value": "$150 to $300+", "width": 60, "isTdmd": false },
-      { "name": "Emergency Room", "value": "$500 to $3,000+", "width": 100, "isTdmd": false }
+      {
+        "name": "TeleDirectMD",
+        "value": "$49",
+        "width": 12,
+        "isTdmd": true
+      },
+      {
+        "name": "Primary Care",
+        "value": "$100 to $350+",
+        "width": 52,
+        "isTdmd": false
+      },
+      {
+        "name": "Urgent Care",
+        "value": "$150 to $300+",
+        "width": 60,
+        "isTdmd": false
+      },
+      {
+        "name": "Emergency Room",
+        "value": "$500 to $3,000+",
+        "width": 100,
+        "isTdmd": false
+      }
     ],
     "footnote": "Prescription costs are separate and vary by medication and pharmacy.",
     "noHiddenFees": "No hidden fees. If medication is not clinically appropriate, you still receive a complete evaluation, guidance, and clear instructions on what level of care you need next."
   },
-
   "whatIsCondition": {
     "sectionTitle": "What Is Rosacea?",
     "paragraphs": [
@@ -211,37 +238,95 @@
       "Telehealth is well suited for rosacea because photo-based assessment is highly effective for identifying the characteristic central facial redness and papulopustular changes. TeleDirectMD manages mild to moderate rosacea with guideline-based topical and oral treatment, and refers severe or refractory cases to dermatology for advanced options including laser therapy and isotretinoin."
     ]
   },
-
   "causesAndRiskFactors": {
     "sectionTitle": "Causes and Risk Factors",
     "intro": "The exact cause of rosacea is not fully understood, but it involves a combination of neurovascular dysregulation, immune system abnormalities, and Demodex mite overpopulation. Several environmental and lifestyle factors can trigger or worsen rosacea flares.",
     "items": [
-      { "label": "Sun exposure:", "text": "the most common trigger, causing flushing and worsening of baseline erythema. Daily sunscreen SPF 30+ is considered foundational treatment." },
-      { "label": "Heat and temperature extremes:", "text": "hot weather, saunas, hot baths, and even hot beverages can trigger flushing episodes in many patients." },
-      { "label": "Alcohol:", "text": "red wine and other alcoholic beverages are common triggers, though not all patients are affected." },
-      { "label": "Spicy food:", "text": "capsaicin and other spicy compounds can trigger vasodilation and flushing." },
-      { "label": "Stress and emotional triggers:", "text": "psychological stress is a common flare trigger and can worsen both erythema and papulopustular disease." },
-      { "label": "Demodex mites:", "text": "overpopulation of Demodex folliculorum on facial skin contributes to inflammation. Topical ivermectin targets this pathway." },
-      { "label": "Fair skin and family history:", "text": "rosacea is more common in people of Northern European descent and often runs in families." }
+      {
+        "label": "Sun exposure:",
+        "text": "the most common trigger, causing flushing and worsening of baseline erythema. Daily sunscreen SPF 30+ is considered foundational treatment."
+      },
+      {
+        "label": "Heat and temperature extremes:",
+        "text": "hot weather, saunas, hot baths, and even hot beverages can trigger flushing episodes in many patients."
+      },
+      {
+        "label": "Alcohol:",
+        "text": "red wine and other alcoholic beverages are common triggers, though not all patients are affected."
+      },
+      {
+        "label": "Spicy food:",
+        "text": "capsaicin and other spicy compounds can trigger vasodilation and flushing."
+      },
+      {
+        "label": "Stress and emotional triggers:",
+        "text": "psychological stress is a common flare trigger and can worsen both erythema and papulopustular disease."
+      },
+      {
+        "label": "Demodex mites:",
+        "text": "overpopulation of Demodex folliculorum on facial skin contributes to inflammation. Topical ivermectin targets this pathway."
+      },
+      {
+        "label": "Fair skin and family history:",
+        "text": "rosacea is more common in people of Northern European descent and often runs in families."
+      }
     ],
     "closing": "Identifying and avoiding personal triggers is a key part of rosacea management. A trigger diary can help patients recognize patterns and reduce flare frequency over time."
   },
-
   "symptomsAndRedFlags": {
     "sectionTitle": "Symptoms and Red Flags for Rosacea in {state}",
     "intro": "Use this table to understand which rosacea symptoms are appropriate for telehealth and which require in-person specialist evaluation.",
-    "headers": ["Symptom or situation", "What it suggests", "Telehealth appropriate?", "Red flag requiring in-person care"],
+    "headers": [
+      "Symptom or situation",
+      "What it suggests",
+      "Telehealth appropriate?",
+      "Red flag requiring in-person care"
+    ],
     "rows": [
-      ["Persistent central facial redness (cheeks, nose, chin)", "Erythematotelangiectatic rosacea", "Yes", "If accompanied by butterfly rash with joint pain or fatigue (possible lupus)"],
-      ["Papules and pustules without comedones", "Papulopustular rosacea", "Yes", "If rapidly spreading with fever (possible secondary infection)"],
-      ["Flushing episodes triggered by sun, heat, or alcohol", "Neurovascular component of rosacea", "Yes", "If associated with severe headache, palpitations, or sweating (consider carcinoid or pheochromocytoma)"],
-      ["Visible blood vessels on cheeks and nose", "Telangiectasia", "Yes, for assessment", "Laser or IPL referral may be needed for cosmetic improvement"],
-      ["Burning or stinging sensation on the face", "Sensitive skin and neurovascular dysfunction", "Yes", "If severe pain or unresponsive to gentle skincare adjustments"],
-      ["Eye redness, dryness, or irritation", "Possible ocular rosacea", "Sometimes", "Eye pain, vision changes, or severe eye redness requires ophthalmology"],
-      ["Thickening of nose skin (bulbous nose)", "Rhinophyma (phymatous rosacea)", "No", "Surgical dermatology referral needed"]
+      [
+        "Persistent central facial redness (cheeks, nose, chin)",
+        "Erythematotelangiectatic rosacea",
+        "Yes",
+        "If accompanied by butterfly rash with joint pain or fatigue (possible lupus)"
+      ],
+      [
+        "Papules and pustules without comedones",
+        "Papulopustular rosacea",
+        "Yes",
+        "If rapidly spreading with fever (possible secondary infection)"
+      ],
+      [
+        "Flushing episodes triggered by sun, heat, or alcohol",
+        "Neurovascular component of rosacea",
+        "Yes",
+        "If associated with severe headache, palpitations, or sweating (consider carcinoid or pheochromocytoma)"
+      ],
+      [
+        "Visible blood vessels on cheeks and nose",
+        "Telangiectasia",
+        "Yes, for assessment",
+        "Laser or IPL referral may be needed for cosmetic improvement"
+      ],
+      [
+        "Burning or stinging sensation on the face",
+        "Sensitive skin and neurovascular dysfunction",
+        "Yes",
+        "If severe pain or unresponsive to gentle skincare adjustments"
+      ],
+      [
+        "Eye redness, dryness, or irritation",
+        "Possible ocular rosacea",
+        "Sometimes",
+        "Eye pain, vision changes, or severe eye redness requires ophthalmology"
+      ],
+      [
+        "Thickening of nose skin (bulbous nose)",
+        "Rhinophyma (phymatous rosacea)",
+        "No",
+        "Surgical dermatology referral needed"
+      ]
     ]
   },
-
   "differentialDiagnosis": {
     "sectionTitle": "Differential Diagnosis: Rosacea vs Other Conditions",
     "intro": "Several conditions can mimic rosacea. Accurate diagnosis is essential because treatment approaches differ significantly. The AAD guidelines emphasize distinguishing rosacea from acne vulgaris, seborrheic dermatitis, and systemic lupus erythematosus. TeleDirectMD uses photo-based assessment and detailed history to identify rosacea and direct alternative diagnoses to targeted care.",
@@ -277,7 +362,6 @@
     ],
     "closing": "If your symptoms do not clearly match rosacea or any red flags are present, TeleDirectMD will direct you to in-person dermatology, ophthalmology, or rheumatology as appropriate."
   },
-
   "telehealthEligibility": {
     "sectionTitle": "When Is a Video Visit Appropriate?",
     "appropriate": {
@@ -304,7 +388,6 @@
       "disclaimer": "If any red-flag symptoms are present, seek in-person specialist care. TeleDirectMD is not appropriate for ocular rosacea with vision changes, rhinophyma, or suspected systemic autoimmune disease."
     }
   },
-
   "treatmentOptions": {
     "sectionTitle": "Treatment Options",
     "intro": "Rosacea treatment is guided by subtype and severity, following AAD, AAFP, and AARS guidelines. Treatment typically involves a combination of trigger avoidance, gentle skincare, daily sunscreen, and targeted topical or oral medications. Improvement takes time — most patients see meaningful results after 8 to 12 weeks of consistent treatment.",
@@ -333,22 +416,55 @@
       "Laser or intense pulsed light (IPL) therapy for telangiectasia (dermatology referral)"
     ]
   },
-
   "medications": {
     "sectionTitle": "Common Medication Options",
     "intro": "These are common examples for rosacea management. The actual medication, dose, and duration are determined by the MD after reviewing your photos, symptoms, rosacea subtype, prior treatments, and any contraindications.",
-    "headers": ["Medication", "Typical use", "Application", "Key considerations"],
+    "headers": [
+      "Medication",
+      "Typical use",
+      "Application",
+      "Key considerations"
+    ],
     "rows": [
-      ["Topical metronidazole 0.75-1% (cream, gel, lotion)", "First-line for papulopustular rosacea", "Apply to affected areas once or twice daily", "Well-established efficacy per AAFP. Improvement seen in 3-6 weeks. Available in multiple formulations."],
-      ["Topical ivermectin 1% cream (Soolantra)", "Papulopustular rosacea, Demodex-associated inflammation", "Apply thin layer to face once daily", "More effective than metronidazole in comparative studies. Also targets Demodex mite overpopulation. Full effect at 12 weeks."],
-      ["Topical azelaic acid 15% gel", "Papulopustular rosacea, mild erythema", "Apply to affected areas twice daily", "Anti-inflammatory and reduces papules. May cause mild stinging initially. Safe in pregnancy (category B)."],
-      ["Brimonidine 0.33% gel (Mirvaso)", "Persistent facial erythema and flushing", "Apply thin layer to face once daily", "Vasoconstrictor that reduces redness within 30 minutes. Effects last up to 12 hours. Some patients experience rebound redness."],
-      ["Oxymetazoline 1% cream (Rhofade)", "Persistent facial erythema", "Apply to face once daily", "Alternative vasoconstrictor for redness. Lower rebound risk than brimonidine. Effects visible within hours."],
-      ["Doxycycline 40 mg daily (Oracea, subantimicrobial dose)", "Moderate to severe papulopustular rosacea", "One capsule by mouth daily", "Anti-inflammatory at subantimicrobial dose — does NOT contribute to antibiotic resistance. Preferred oral option per AAD. Combine with topical therapy."]
+      [
+        "Topical metronidazole 0.75-1% (cream, gel, lotion)",
+        "First-line for papulopustular rosacea",
+        "Apply to affected areas once or twice daily",
+        "Well-established efficacy per AAFP. Improvement seen in 3-6 weeks. Available in multiple formulations."
+      ],
+      [
+        "Topical ivermectin 1% cream (Soolantra)",
+        "Papulopustular rosacea, Demodex-associated inflammation",
+        "Apply thin layer to face once daily",
+        "More effective than metronidazole in comparative studies. Also targets Demodex mite overpopulation. Full effect at 12 weeks."
+      ],
+      [
+        "Topical azelaic acid 15% gel",
+        "Papulopustular rosacea, mild erythema",
+        "Apply to affected areas twice daily",
+        "Anti-inflammatory and reduces papules. May cause mild stinging initially. Safe in pregnancy (category B)."
+      ],
+      [
+        "Brimonidine 0.33% gel (Mirvaso)",
+        "Persistent facial erythema and flushing",
+        "Apply thin layer to face once daily",
+        "Vasoconstrictor that reduces redness within 30 minutes. Effects last up to 12 hours. Some patients experience rebound redness."
+      ],
+      [
+        "Oxymetazoline 1% cream (Rhofade)",
+        "Persistent facial erythema",
+        "Apply to face once daily",
+        "Alternative vasoconstrictor for redness. Lower rebound risk than brimonidine. Effects visible within hours."
+      ],
+      [
+        "Doxycycline 40 mg daily (Oracea, subantimicrobial dose)",
+        "Moderate to severe papulopustular rosacea",
+        "One capsule by mouth daily",
+        "Anti-inflammatory at subantimicrobial dose — does NOT contribute to antibiotic resistance. Preferred oral option per AAD. Combine with topical therapy."
+      ]
     ],
     "note": "Example regimens only. The actual medication, dosing, and duration are determined by the MD after reviewing your symptoms, photos, prior treatments, and risk factors. TeleDirectMD does not prescribe controlled substances."
   },
-
   "homeCare": {
     "sectionTitle": "Home Care, Trigger Management, and Follow-up",
     "whatToDoNow": {
@@ -381,7 +497,6 @@
       ]
     }
   },
-
   "whenNotToUse": {
     "sectionTitle": "When Not to Use TeleDirectMD for Rosacea in {state}",
     "intro": "TeleDirectMD is designed for mild to moderate rosacea in adults. We are direct about when telehealth is not the right fit.",
@@ -399,14 +514,25 @@
     "alternatives": {
       "title": "Alternative Care Options",
       "items": [
-        { "label": "Ophthalmology:", "text": "ocular rosacea with eye pain, vision changes, or chronic eye irritation requiring specialized evaluation" },
-        { "label": "Dermatology:", "text": "severe or refractory rosacea, rhinophyma, laser or IPL treatment for telangiectasia, isotretinoin consideration" },
-        { "label": "Rheumatology:", "text": "suspected lupus with butterfly rash and systemic symptoms including joint pain, fatigue, or oral ulcers" },
-        { "label": "Primary care:", "text": "ongoing rosacea management with in-person skin evaluation and coordination with specialists" }
+        {
+          "label": "Ophthalmology:",
+          "text": "ocular rosacea with eye pain, vision changes, or chronic eye irritation requiring specialized evaluation"
+        },
+        {
+          "label": "Dermatology:",
+          "text": "severe or refractory rosacea, rhinophyma, laser or IPL treatment for telangiectasia, isotretinoin consideration"
+        },
+        {
+          "label": "Rheumatology:",
+          "text": "suspected lupus with butterfly rash and systemic symptoms including joint pain, fatigue, or oral ulcers"
+        },
+        {
+          "label": "Primary care:",
+          "text": "ongoing rosacea management with in-person skin evaluation and coordination with specialists"
+        }
       ]
     }
   },
-
   "faq": {
     "sectionTitle": "Rosacea Treatment FAQs for {state}",
     "items": [
@@ -456,16 +582,32 @@
       "text": "Insurance is not required. Adult-only video visits. MD-only care. Safety-first triage, photo-based assessment, and prescriptions only when appropriate."
     }
   },
-
   "references": [
-    { "text": "American Academy of Dermatology (AAD) Guidelines of Care for Management of Rosacea (2023 Update)", "url": "https://www.aad.org/member/clinical-quality/guidelines/rosacea" },
-    { "text": "American Acne and Rosacea Society (AARS) Expert Consensus on Rosacea Management", "url": "https://www.acneandrosacea.org/resources/guidelines" },
-    { "text": "American Academy of Family Physicians (AAFP): Rosacea Diagnosis and Treatment", "url": "https://www.aafp.org/pubs/afp/issues/2015/0801/p187.html" },
-    { "text": "National Rosacea Society: Triggers and Management Strategies", "url": "https://www.rosacea.org/patients/materials/triggers" },
-    { "text": "Rosacea: Pathophysiology and Management Principles, StatPearls (2025)", "url": "https://www.ncbi.nlm.nih.gov/books/NBK557574/" },
-    { "text": "Ivermectin vs Metronidazole for Rosacea: Systematic Review and Meta-Analysis, Journal of the American Academy of Dermatology", "url": "https://www.jaad.org/article/S0190-9622(16)30636-0/fulltext" }
+    {
+      "text": "American Academy of Dermatology (AAD) Guidelines of Care for Management of Rosacea (2023 Update)",
+      "url": "https://www.aad.org/member/clinical-quality/guidelines/rosacea"
+    },
+    {
+      "text": "American Acne and Rosacea Society (AARS) Expert Consensus on Rosacea Management",
+      "url": "https://www.acneandrosacea.org/resources/guidelines"
+    },
+    {
+      "text": "American Academy of Family Physicians (AAFP): Rosacea Diagnosis and Treatment",
+      "url": "https://www.aafp.org/pubs/afp/issues/2015/0801/p187.html"
+    },
+    {
+      "text": "National Rosacea Society: Triggers and Management Strategies",
+      "url": "https://www.rosacea.org/patients/materials/triggers"
+    },
+    {
+      "text": "Rosacea: Pathophysiology and Management Principles, StatPearls (2025)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK557574/"
+    },
+    {
+      "text": "Ivermectin vs Metronidazole for Rosacea: Systematic Review and Meta-Analysis, Journal of the American Academy of Dermatology",
+      "url": "https://www.jaad.org/article/S0190-9622(16)30636-0/fulltext"
+    }
   ],
-
   "disclaimer": {
     "sectionTitle": "TeleDirectMD Telehealth Disclaimer",
     "paragraphs": [
@@ -474,7 +616,6 @@
       "Online rosacea treatment in {state}. Rosacea prescription online. Facial redness treatment by video visit. Rosacea medication online {state}."
     ]
   },
-
   "relatedConditions": [
     {
       "slug": "acne-treatment-online",
@@ -497,39 +638,89 @@
       "description": "Another facial skin condition evaluated by telehealth with photo-based diagnosis"
     }
   ],
-
   "inlineLinks": [
-    { "slug": "acne-treatment-online", "label": "Acne Treatment" },
-    { "slug": "eczema-treatment-online", "label": "Eczema Treatment" },
-    { "slug": "pink-eye-treatment-online", "label": "Pink Eye" },
-    { "slug": "cold-sore-treatment-online", "label": "Cold Sore" },
-    { "slug": "shingles-treatment-online", "label": "Shingles" },
-    { "slug": "sinus-infection-treatment-online", "label": "Sinus Infection" },
-    { "slug": "sore-throat-treatment-online", "label": "Sore Throat" },
-    { "slug": "uti-treatment-online", "label": "UTI Treatment" },
-    { "slug": "common-cold-treatment-online", "label": "Common Cold" },
-    { "slug": "asthma-refills-online", "label": "Asthma Refills" }
+    {
+      "slug": "acne-treatment-online",
+      "label": "Acne Treatment"
+    },
+    {
+      "slug": "eczema-treatment-online",
+      "label": "Eczema Treatment"
+    },
+    {
+      "slug": "pink-eye-treatment-online",
+      "label": "Pink Eye"
+    },
+    {
+      "slug": "cold-sore-treatment-online",
+      "label": "Cold Sore"
+    },
+    {
+      "slug": "shingles-treatment-online",
+      "label": "Shingles"
+    },
+    {
+      "slug": "sinus-infection-treatment-online",
+      "label": "Sinus Infection"
+    },
+    {
+      "slug": "sore-throat-treatment-online",
+      "label": "Sore Throat"
+    },
+    {
+      "slug": "uti-treatment-online",
+      "label": "UTI Treatment"
+    },
+    {
+      "slug": "common-cold-treatment-online",
+      "label": "Common Cold"
+    },
+    {
+      "slug": "asthma-refills-online",
+      "label": "Asthma Refills"
+    }
   ],
-
   "cityBlock": {
     "title": "Adults We Serve Across {state}",
     "text": "TeleDirectMD evaluates adults located throughout {state}, including {citiesExtended}. Whether you are searching for online rosacea treatment in {city1}, facial redness care in {city2}, rosacea medication online in {city3}, or telehealth rosacea evaluation anywhere else in {state}, the same telehealth eligibility and safety rules apply."
   },
-
   "icd10Codes": [
-    { "code": "L71.9", "description": "Rosacea, unspecified" },
-    { "code": "L71.0", "description": "Perioral dermatitis" },
-    { "code": "L71.1", "description": "Rhinophyma" },
-    { "code": "L71.8", "description": "Other rosacea" }
+    {
+      "code": "L71.9",
+      "description": "Rosacea, unspecified"
+    },
+    {
+      "code": "L71.0",
+      "description": "Perioral dermatitis"
+    },
+    {
+      "code": "L71.1",
+      "description": "Rhinophyma"
+    },
+    {
+      "code": "L71.8",
+      "description": "Other rosacea"
+    }
   ],
-
   "jsonLd": {
     "conditionName": "Rosacea",
-    "conditionAlternateNames": ["Acne rosacea", "Facial redness", "Erythematotelangiectatic rosacea", "Papulopustular rosacea"],
+    "conditionAlternateNames": [
+      "Acne rosacea",
+      "Facial redness",
+      "Erythematotelangiectatic rosacea",
+      "Papulopustular rosacea"
+    ],
     "conditionDescription": "Rosacea is a chronic inflammatory facial skin condition characterized by persistent erythema, telangiectasia, papules, and pustules affecting the central face. TeleDirectMD evaluates adult rosacea symptoms by video visit with photo-based assessment, guideline-based topical and oral treatment, trigger management guidance, and clear referral when specialist care is needed.",
     "primaryIcd10": "L71.9",
     "anatomy": "Facial skin",
-    "symptoms": ["Facial erythema", "Telangiectasia", "Papules", "Pustules", "Flushing", "Burning sensation"],
+    "symptoms": [
+      "Facial erythema",
+      "Telangiectasia",
+      "Papules",
+      "Pustules",
+      "Flushing",
+      "Burning sensation"
+    ],
     "riskFactors": [
       "Sun exposure",
       "Fair skin",
@@ -546,12 +737,30 @@
     ],
     "epidemiology": "Rosacea affects an estimated 16 million Americans and is most common in adults with fair skin between ages 30 and 60.",
     "drugs": [
-      { "name": "Metronidazole topical", "id": "metronidazole-topical" },
-      { "name": "Ivermectin topical", "id": "ivermectin-topical" },
-      { "name": "Azelaic acid", "id": "azelaic-acid" },
-      { "name": "Brimonidine", "id": "brimonidine" },
-      { "name": "Oxymetazoline", "id": "oxymetazoline" },
-      { "name": "Doxycycline", "id": "doxycycline-subantimicrobial" }
+      {
+        "name": "Metronidazole topical",
+        "id": "metronidazole-topical"
+      },
+      {
+        "name": "Ivermectin topical",
+        "id": "ivermectin-topical"
+      },
+      {
+        "name": "Azelaic acid",
+        "id": "azelaic-acid"
+      },
+      {
+        "name": "Brimonidine",
+        "id": "brimonidine"
+      },
+      {
+        "name": "Oxymetazoline",
+        "id": "oxymetazoline"
+      },
+      {
+        "name": "Doxycycline",
+        "id": "doxycycline-subantimicrobial"
+      }
     ],
     "treatments": [
       "Topical anti-inflammatory therapy (metronidazole, ivermectin, azelaic acid)",
@@ -563,11 +772,30 @@
       "Clinical symptom review and photo-based assessment",
       "Red-flag screening for ocular rosacea, rhinophyma, and lupus"
     ],
-    "specialties": ["Family Medicine", "Telemedicine", "Dermatology"],
+    "specialties": [
+      "Family Medicine",
+      "Telemedicine",
+      "Dermatology"
+    ],
     "guidelines": [
-      { "name": "AAD Guidelines of Care for Management of Rosacea", "url": "https://www.aad.org/member/clinical-quality/guidelines/rosacea", "publisher": "American Academy of Dermatology", "id": "aad-rosacea" },
-      { "name": "AARS Expert Consensus on Rosacea Management", "url": "https://www.acneandrosacea.org/resources/guidelines", "publisher": "American Acne and Rosacea Society", "id": "aars-rosacea" },
-      { "name": "AAFP Rosacea Diagnosis and Treatment", "url": "https://www.aafp.org/pubs/afp/issues/2015/0801/p187.html", "publisher": "American Academy of Family Physicians", "id": "aafp-rosacea" }
+      {
+        "name": "AAD Guidelines of Care for Management of Rosacea",
+        "url": "https://www.aad.org/member/clinical-quality/guidelines/rosacea",
+        "publisher": "American Academy of Dermatology",
+        "id": "aad-rosacea"
+      },
+      {
+        "name": "AARS Expert Consensus on Rosacea Management",
+        "url": "https://www.acneandrosacea.org/resources/guidelines",
+        "publisher": "American Acne and Rosacea Society",
+        "id": "aars-rosacea"
+      },
+      {
+        "name": "AAFP Rosacea Diagnosis and Treatment",
+        "url": "https://www.aafp.org/pubs/afp/issues/2015/0801/p187.html",
+        "publisher": "American Academy of Family Physicians",
+        "id": "aafp-rosacea"
+      }
     ],
     "knowsAbout": [
       "Rosacea treatment",
@@ -579,5 +807,7 @@
     ],
     "serviceDescription": "Secure video visit for {state} adults with rosacea symptoms, including photo-based assessment, guideline-based topical and oral treatment, trigger management, and prescriptions when clinically appropriate.",
     "webpageDescription": "{state} rosacea treatment by secure MD video visit for adults. Photo-based evaluation of facial redness and papulopustular rosacea, guideline-based treatment options, trigger management guidance, and clear rules for when specialist care is needed."
-  }
+  },
+  "guidelineSource": "aad",
+  "conditionType": "treatment"
 }

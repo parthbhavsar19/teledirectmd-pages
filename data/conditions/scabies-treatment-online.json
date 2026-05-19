@@ -2,20 +2,34 @@
   "conditionName": "Scabies Treatment",
   "conditionShort": "Scabies",
   "conditionSlug": "scabies-treatment-online",
-  "pageTitle": "Scabies Treatment Online in {state} | Mite Infestation MD Video Visit | TeleDirectMD",
+  "pageTitle": "Scabies Online Treatment in {state} | TeleDirectMD",
   "metaDescription": "Evidence-based scabies treatment for {state} adults by secure video visit. Red-flag screening, permethrin or ivermectin prescriptions when clinically appropriate, and household contact guidance. Self pay option starting at $49. Insurance is not required.",
   "ogImageAlt": "Scabies treatment in {state} by TeleDirectMD",
-
   "hero": {
     "h1": "Scabies Treatment in {state} (Sarcoptes Scabiei Infestation)",
     "subtitle": "{state} adult care by secure video visit, self pay option starting at $49, MD-only, insurance is not required.",
     "introParagraph": "Scabies is a highly contagious skin infestation caused by the Sarcoptes scabiei mite, which burrows into the outer layer of skin and triggers intense itching, especially at night. The hallmark presentation is a pruritic rash in characteristic distribution areas including finger web spaces, wrists, elbows, axillae, waistline, and genitalia. CDC and dermatology guidelines emphasize that all household contacts and close physical contacts must be treated simultaneously, even if they have no symptoms, to prevent reinfestation. TeleDirectMD uses a safety-first telehealth approach that screens for red flags including crusted (Norwegian) scabies, secondary bacterial infection, widespread rash unresponsive to treatment, and immunocompromised status before determining whether treatment by video visit is appropriate. If the history and photo assessment support classic scabies without red flags, guideline-based treatment with permethrin 5% cream or oral ivermectin may be prescribed by video, while adults with crusted scabies, severe secondary infection, or atypical presentations are directed to urgent in-person or specialist care. This page is for adults located in {state}, including {cities}.",
     "tocLinks": [
-      { "href": "eligibility-checklist", "label": "Eligibility checklist" },
-      { "href": "decision-guide", "label": "Decision guide" },
-      { "href": "treatment-options", "label": "Treatment options" },
-      { "href": "faq", "label": "FAQs" },
-      { "href": "references", "label": "References" }
+      {
+        "href": "eligibility-checklist",
+        "label": "Eligibility checklist"
+      },
+      {
+        "href": "decision-guide",
+        "label": "Decision guide"
+      },
+      {
+        "href": "treatment-options",
+        "label": "Treatment options"
+      },
+      {
+        "href": "faq",
+        "label": "FAQs"
+      },
+      {
+        "href": "references",
+        "label": "References"
+      }
     ],
     "benefits": [
       "Self pay option starting at $49",
@@ -35,7 +49,6 @@
     },
     "icd10Display": "B86 (final coding depends on clinical details)"
   },
-
   "eligibility": {
     "sectionTitle": "Scabies Telehealth Eligibility Checklist for {state}",
     "introText": "You are likely eligible for a TeleDirectMD video visit if ALL of these are true:",
@@ -60,7 +73,6 @@
     ],
     "notEligibleDisclaimer": "If you have red-flag symptoms such as crusted scabies, secondary infection with fever, or rapidly worsening symptoms, seek urgent in-person care or emergency care immediately. TeleDirectMD is not appropriate for complex or severe cases."
   },
-
   "howItWorks": {
     "sectionTitle": "How Online Scabies Treatment Works in {state}",
     "steps": [
@@ -82,7 +94,6 @@
       }
     ]
   },
-
   "telehealthRegulations": {
     "sectionTitle": "{state} Telehealth Regulations for Online Scabies Care",
     "paragraphs": [
@@ -90,7 +101,6 @@
       "Location matters: you must be physically in {state} during the visit. Insurance is not required. TeleDirectMD does not prescribe controlled substances."
     ]
   },
-
   "comparisonTable": {
     "sectionTitle": "TeleDirectMD vs Other Care Options for Scabies in {state}",
     "intro": "Here is how TeleDirectMD compares to common settings for adult scabies care in {state}:",
@@ -138,7 +148,6 @@
     ],
     "bottomLine": "TeleDirectMD is a strong fit for classic scabies symptoms with characteristic distribution and no red flags, with a safety-first approach, direct MD evaluation, and comprehensive household treatment guidance."
   },
-
   "decisionGuide": {
     "sectionTitle": "Should I Use TeleDirectMD for Scabies in {state}? Decision Guide",
     "steps": [
@@ -184,7 +193,6 @@
       }
     ]
   },
-
   "pricing": {
     "sectionTitle": "What Does Scabies Treatment Cost in {state}?",
     "subtitle": "Transparent options. Insurance is not required.",
@@ -199,15 +207,34 @@
       "Clear follow-up steps"
     ],
     "comparisonBars": [
-      { "name": "TeleDirectMD", "value": "$49", "width": 12, "isTdmd": true },
-      { "name": "Primary Care", "value": "$100 to $250+", "width": 45, "isTdmd": false },
-      { "name": "Urgent Care", "value": "$150 to $300+", "width": 55, "isTdmd": false },
-      { "name": "Emergency Room", "value": "$500 to $3,000+", "width": 100, "isTdmd": false }
+      {
+        "name": "TeleDirectMD",
+        "value": "$49",
+        "width": 12,
+        "isTdmd": true
+      },
+      {
+        "name": "Primary Care",
+        "value": "$100 to $250+",
+        "width": 45,
+        "isTdmd": false
+      },
+      {
+        "name": "Urgent Care",
+        "value": "$150 to $300+",
+        "width": 55,
+        "isTdmd": false
+      },
+      {
+        "name": "Emergency Room",
+        "value": "$500 to $3,000+",
+        "width": 100,
+        "isTdmd": false
+      }
     ],
     "footnote": "Prescription costs at your pharmacy are separate and vary by medication and pharmacy.",
     "noHiddenFees": "No hidden fees. If medication is not clinically appropriate, you still receive a complete evaluation, guidance, and clear instructions on what level of care you need next."
   },
-
   "whatIsCondition": {
     "sectionTitle": "What Is Scabies?",
     "paragraphs": [
@@ -216,35 +243,87 @@
       "TeleDirectMD focuses on classic scabies presentations appropriate for telehealth, with careful screening to direct crusted scabies, secondary infections, and immunocompromised or atypical cases to in-person or specialist care."
     ]
   },
-
   "causesAndRiskFactors": {
     "sectionTitle": "Causes and Risk Factors",
     "intro": "Scabies is caused by the Sarcoptes scabiei var. hominis mite, which spreads primarily through prolonged direct skin-to-skin contact. The mite cannot fly or jump and typically requires 15 to 20 minutes of direct skin contact to transfer. Understanding risk factors helps determine whether telehealth evaluation is appropriate or whether in-person assessment is needed.",
     "items": [
-      { "label": "Household or close physical contact:", "text": "living with or having prolonged skin-to-skin contact with an infested person is the primary mode of transmission" },
-      { "label": "Institutional settings:", "text": "nursing homes, long-term care facilities, and crowded living conditions increase transmission risk" },
-      { "label": "Sexual contact:", "text": "scabies can be transmitted through intimate physical contact, and genital involvement is common" },
-      { "label": "Immunocompromised status:", "text": "HIV, organ transplant recipients, chronic corticosteroid use, and other immunosuppressive conditions increase risk of crusted (Norwegian) scabies, which is far more contagious" },
-      { "label": "Shared bedding or clothing:", "text": "while less common than direct contact, sharing bedding, towels, or clothing with an infested person can spread mites, especially in crusted scabies" }
+      {
+        "label": "Household or close physical contact:",
+        "text": "living with or having prolonged skin-to-skin contact with an infested person is the primary mode of transmission"
+      },
+      {
+        "label": "Institutional settings:",
+        "text": "nursing homes, long-term care facilities, and crowded living conditions increase transmission risk"
+      },
+      {
+        "label": "Sexual contact:",
+        "text": "scabies can be transmitted through intimate physical contact, and genital involvement is common"
+      },
+      {
+        "label": "Immunocompromised status:",
+        "text": "HIV, organ transplant recipients, chronic corticosteroid use, and other immunosuppressive conditions increase risk of crusted (Norwegian) scabies, which is far more contagious"
+      },
+      {
+        "label": "Shared bedding or clothing:",
+        "text": "while less common than direct contact, sharing bedding, towels, or clothing with an infested person can spread mites, especially in crusted scabies"
+      }
     ],
     "closing": "Not every itchy rash is scabies. Eczema, contact dermatitis, insect bites, folliculitis, and other conditions can mimic scabies. The combination of intense nighttime itching, characteristic distribution pattern, and household contacts with similar symptoms is highly suggestive but not definitive. TeleDirectMD uses symptom patterns, rash distribution, and photo assessment to guide diagnosis and direct uncertain or complicated cases to in-person evaluation with skin scraping."
   },
-
   "symptomsAndRedFlags": {
     "sectionTitle": "Symptoms and Red Flags for Scabies in {state}",
     "intro": "Use this table to understand which symptoms fit classic scabies and which suggest a need for urgent in-person evaluation.",
-    "headers": ["Symptom or situation", "What it suggests", "Telehealth appropriate?", "Red flag requiring urgent in-person care"],
+    "headers": [
+      "Symptom or situation",
+      "What it suggests",
+      "Telehealth appropriate?",
+      "Red flag requiring urgent in-person care"
+    ],
     "rows": [
-      ["Intense itching worse at night, papular rash in finger webs, wrists, waistline", "Classic scabies distribution pattern", "Often yes", "If rash is rapidly worsening or spreading despite treatment"],
-      ["Linear burrow tracks visible on skin surface", "Pathognomonic for scabies (mite tunneling through skin)", "Often yes", "Rarely a red flag alone, but if extensive with crusting, seek in-person care"],
-      ["Household member or close contact with similar itching", "Supports scabies diagnosis and indicates need for simultaneous household treatment", "Often yes", "If multiple household members have secondary infection signs"],
-      ["Papules, vesicles, or nodules on genitalia", "Common scabies distribution in adults, especially males", "Sometimes", "If severe pain, ulceration, or signs of secondary STI"],
-      ["Thick, crusted, scaly plaques on hands, feet, or widespread areas", "Crusted (Norwegian) scabies — extremely contagious", "No", "Urgent dermatology referral needed — highly contagious variant"],
-      ["Fever, red streaking, pus, or rapidly spreading redness around rash", "Secondary bacterial infection (impetigo, cellulitis)", "No", "Urgent in-person care or ER"],
-      ["Immunocompromised patient with widespread or atypical rash", "Higher risk for crusted scabies and complications", "No", "In-person evaluation and possible dermatology referral"]
+      [
+        "Intense itching worse at night, papular rash in finger webs, wrists, waistline",
+        "Classic scabies distribution pattern",
+        "Often yes",
+        "If rash is rapidly worsening or spreading despite treatment"
+      ],
+      [
+        "Linear burrow tracks visible on skin surface",
+        "Pathognomonic for scabies (mite tunneling through skin)",
+        "Often yes",
+        "Rarely a red flag alone, but if extensive with crusting, seek in-person care"
+      ],
+      [
+        "Household member or close contact with similar itching",
+        "Supports scabies diagnosis and indicates need for simultaneous household treatment",
+        "Often yes",
+        "If multiple household members have secondary infection signs"
+      ],
+      [
+        "Papules, vesicles, or nodules on genitalia",
+        "Common scabies distribution in adults, especially males",
+        "Sometimes",
+        "If severe pain, ulceration, or signs of secondary STI"
+      ],
+      [
+        "Thick, crusted, scaly plaques on hands, feet, or widespread areas",
+        "Crusted (Norwegian) scabies — extremely contagious",
+        "No",
+        "Urgent dermatology referral needed — highly contagious variant"
+      ],
+      [
+        "Fever, red streaking, pus, or rapidly spreading redness around rash",
+        "Secondary bacterial infection (impetigo, cellulitis)",
+        "No",
+        "Urgent in-person care or ER"
+      ],
+      [
+        "Immunocompromised patient with widespread or atypical rash",
+        "Higher risk for crusted scabies and complications",
+        "No",
+        "In-person evaluation and possible dermatology referral"
+      ]
     ]
   },
-
   "differentialDiagnosis": {
     "sectionTitle": "Differential Diagnosis: Scabies vs Other Conditions",
     "intro": "Several conditions can mimic scabies, and the absence of definitive skin scraping confirmation via telehealth means that clinical diagnosis relies on symptom pattern, distribution, and epidemiologic context. TeleDirectMD focuses on identifying classic scabies presentations and directing uncertain or atypical cases to in-person evaluation when appropriate.",
@@ -280,7 +359,6 @@
     ],
     "closing": "If your symptoms do not match classic scabies distribution or any red flags are present, TeleDirectMD will direct you to in-person care for skin scraping, biopsy, or specialist evaluation."
   },
-
   "telehealthEligibility": {
     "sectionTitle": "When Is a Video Visit Appropriate?",
     "appropriate": {
@@ -308,7 +386,6 @@
       "disclaimer": "If any red-flag symptoms are present, seek urgent in-person or specialist care. TeleDirectMD is not appropriate for these situations."
     }
   },
-
   "treatmentOptions": {
     "sectionTitle": "Treatment Options",
     "intro": "Scabies treatment requires killing the mites with a scabicidal agent and treating all household contacts and close physical contacts simultaneously, even if they are asymptomatic. CDC and dermatology guidelines emphasize that failure to treat all contacts is the most common cause of reinfestation. Treatment also includes environmental decontamination of bedding, clothing, and towels.",
@@ -337,21 +414,49 @@
       "Institutional outbreaks requiring coordinated public health response"
     ]
   },
-
   "medications": {
     "sectionTitle": "Common Medication Options",
     "intro": "These are common examples for scabies treatment. The actual medication, dose, and duration are determined by the MD after reviewing your symptoms, distribution, prior treatments, allergies, pregnancy status when relevant, immune status, and red flags.",
-    "headers": ["Medication", "Typical dose", "Duration", "Key considerations"],
+    "headers": [
+      "Medication",
+      "Typical dose",
+      "Duration",
+      "Key considerations"
+    ],
     "rows": [
-      ["Permethrin 5% cream", "Apply neck to toes to all skin surfaces, leave on 8-14 hours", "Single application, repeat in 7 days", "First-line treatment. Must cover all skin below the neck including under fingernails. Safe in pregnancy and for children 2 months and older."],
-      ["Oral ivermectin", "200 mcg/kg by mouth", "Single dose, repeat in 7-14 days", "Effective alternative when permethrin fails or is not tolerated. Not for pregnant women or children under 15 kg. Take with food for better absorption."],
-      ["Crotamiton 10% cream or lotion", "Apply to entire body, repeat in 24 hours", "2 applications", "Less effective than permethrin. May be used when other agents are contraindicated. Also has anti-itch properties."],
-      ["Triamcinolone 0.1% cream (for post-scabies itch)", "Apply thin layer to affected areas twice daily", "2-4 weeks as needed", "For post-treatment itching that persists after successful mite eradication. Does not treat scabies itself. Use only after completing scabicidal treatment."],
-      ["Hydroxyzine 25 mg (for itch relief)", "25 mg by mouth at bedtime or up to three times daily", "As needed during treatment and recovery", "Sedating antihistamine helpful for nighttime itching. May cause drowsiness. Use caution with driving or operating machinery."]
+      [
+        "Permethrin 5% cream",
+        "Apply neck to toes to all skin surfaces, leave on 8-14 hours",
+        "Single application, repeat in 7 days",
+        "First-line treatment. Must cover all skin below the neck including under fingernails. Safe in pregnancy and for children 2 months and older."
+      ],
+      [
+        "Oral ivermectin",
+        "200 mcg/kg by mouth",
+        "Single dose, repeat in 7-14 days",
+        "Effective alternative when permethrin fails or is not tolerated. Not for pregnant women or children under 15 kg. Take with food for better absorption."
+      ],
+      [
+        "Crotamiton 10% cream or lotion",
+        "Apply to entire body, repeat in 24 hours",
+        "2 applications",
+        "Less effective than permethrin. May be used when other agents are contraindicated. Also has anti-itch properties."
+      ],
+      [
+        "Triamcinolone 0.1% cream (for post-scabies itch)",
+        "Apply thin layer to affected areas twice daily",
+        "2-4 weeks as needed",
+        "For post-treatment itching that persists after successful mite eradication. Does not treat scabies itself. Use only after completing scabicidal treatment."
+      ],
+      [
+        "Hydroxyzine 25 mg (for itch relief)",
+        "25 mg by mouth at bedtime or up to three times daily",
+        "As needed during treatment and recovery",
+        "Sedating antihistamine helpful for nighttime itching. May cause drowsiness. Use caution with driving or operating machinery."
+      ]
     ],
     "note": "Example regimens only. The actual medication, dosing, and duration are determined by the MD after reviewing your symptoms, risk factors, allergies, prior treatments, and red flags. TeleDirectMD does not prescribe controlled substances. All household contacts must be treated simultaneously regardless of symptoms."
   },
-
   "homeCare": {
     "sectionTitle": "Home Care, Recovery Timeline, Prevention, and Follow-up",
     "whatToDoNow": {
@@ -385,7 +490,6 @@
       ]
     }
   },
-
   "whenNotToUse": {
     "sectionTitle": "When Not to Use TeleDirectMD for Scabies in {state}",
     "intro": "TeleDirectMD is designed for classic scabies symptoms appropriate for telehealth. We are direct about when telehealth is not appropriate.",
@@ -405,14 +509,25 @@
     "alternatives": {
       "title": "Alternative Care Options",
       "items": [
-        { "label": "Emergency room:", "text": "severe secondary bacterial infection with high fever, severe allergic reaction, or rapidly worsening systemic symptoms" },
-        { "label": "Urgent care:", "text": "same-day in-person exam when diagnosis is uncertain, secondary infection is suspected, or skin scraping is needed for confirmation" },
-        { "label": "Dermatology:", "text": "crusted (Norwegian) scabies, treatment-resistant cases, atypical presentations, or immunocompromised patients needing specialist management" },
-        { "label": "Primary care:", "text": "follow-up for persistent symptoms, recurrent infestations, or management of post-scabies eczema" }
+        {
+          "label": "Emergency room:",
+          "text": "severe secondary bacterial infection with high fever, severe allergic reaction, or rapidly worsening systemic symptoms"
+        },
+        {
+          "label": "Urgent care:",
+          "text": "same-day in-person exam when diagnosis is uncertain, secondary infection is suspected, or skin scraping is needed for confirmation"
+        },
+        {
+          "label": "Dermatology:",
+          "text": "crusted (Norwegian) scabies, treatment-resistant cases, atypical presentations, or immunocompromised patients needing specialist management"
+        },
+        {
+          "label": "Primary care:",
+          "text": "follow-up for persistent symptoms, recurrent infestations, or management of post-scabies eczema"
+        }
       ]
     }
   },
-
   "faq": {
     "sectionTitle": "Scabies Treatment FAQs for {state}",
     "items": [
@@ -462,16 +577,32 @@
       "text": "Insurance is not required. Adult-only video visits. MD-only care. Safety-first triage, treatment guidance, and prescriptions only when appropriate."
     }
   },
-
   "references": [
-    { "text": "CDC — Scabies: Prevention and Control, Treatment Guidelines (2024)", "url": "https://www.cdc.gov/scabies/treatment/index.html" },
-    { "text": "AAD — Scabies: Diagnosis and Treatment (American Academy of Dermatology)", "url": "https://www.aad.org/public/diseases/a-z/scabies-treatment" },
-    { "text": "Engelman D, Cantey PT, Marks M, et al. The public health control of scabies: priorities for research and action. Lancet. 2019;394(10192):81-92.", "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(19)31136-5/fulltext" },
-    { "text": "Scabies, StatPearls (2025)", "url": "https://www.ncbi.nlm.nih.gov/books/NBK544306/" },
-    { "text": "Sunderkötter C, et al. S1 guidelines on the diagnosis and treatment of scabies. JDDG. 2016;14(11):1155-1167.", "url": "https://onlinelibrary.wiley.com/doi/full/10.1111/ddg.13130" },
-    { "text": "WHO — Scabies and Other Ectoparasites: Global Epidemiology and Public Health Impact", "url": "https://www.who.int/news-room/fact-sheets/detail/scabies" }
+    {
+      "text": "CDC — Scabies: Prevention and Control, Treatment Guidelines (2024)",
+      "url": "https://www.cdc.gov/scabies/treatment/index.html"
+    },
+    {
+      "text": "AAD — Scabies: Diagnosis and Treatment (American Academy of Dermatology)",
+      "url": "https://www.aad.org/public/diseases/a-z/scabies-treatment"
+    },
+    {
+      "text": "Engelman D, Cantey PT, Marks M, et al. The public health control of scabies: priorities for research and action. Lancet. 2019;394(10192):81-92.",
+      "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(19)31136-5/fulltext"
+    },
+    {
+      "text": "Scabies, StatPearls (2025)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK544306/"
+    },
+    {
+      "text": "Sunderkötter C, et al. S1 guidelines on the diagnosis and treatment of scabies. JDDG. 2016;14(11):1155-1167.",
+      "url": "https://onlinelibrary.wiley.com/doi/full/10.1111/ddg.13130"
+    },
+    {
+      "text": "WHO — Scabies and Other Ectoparasites: Global Epidemiology and Public Health Impact",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/scabies"
+    }
   ],
-
   "disclaimer": {
     "sectionTitle": "TeleDirectMD Telehealth Disclaimer",
     "paragraphs": [
@@ -480,7 +611,6 @@
       "Online scabies treatment in {state}. Scabies prescription online. Permethrin cream and ivermectin treatment by video visit."
     ]
   },
-
   "relatedConditions": [
     {
       "slug": "eczema-treatment-online",
@@ -503,36 +633,74 @@
       "description": "Vesicular rash that can be confused with scabies vesicles but follows a dermatomal pattern"
     }
   ],
-
   "inlineLinks": [
-    { "slug": "eczema-treatment-online", "label": "Eczema" },
-    { "slug": "cellulitis-treatment-online", "label": "Cellulitis" },
-    { "slug": "shingles-treatment-online", "label": "Shingles" },
-    { "slug": "cold-sore-treatment-online", "label": "Cold Sore" },
-    { "slug": "acne-treatment-online", "label": "Acne" },
-    { "slug": "pink-eye-treatment-online", "label": "Pink Eye" },
-    { "slug": "sinus-infection-treatment-online", "label": "Sinus Infection" },
-    { "slug": "sore-throat-treatment-online", "label": "Sore Throat" },
-    { "slug": "yeast-infection-treatment-online", "label": "Yeast Infection" },
-    { "slug": "uti-treatment-online", "label": "UTI" }
+    {
+      "slug": "eczema-treatment-online",
+      "label": "Eczema"
+    },
+    {
+      "slug": "cellulitis-treatment-online",
+      "label": "Cellulitis"
+    },
+    {
+      "slug": "shingles-treatment-online",
+      "label": "Shingles"
+    },
+    {
+      "slug": "cold-sore-treatment-online",
+      "label": "Cold Sore"
+    },
+    {
+      "slug": "acne-treatment-online",
+      "label": "Acne"
+    },
+    {
+      "slug": "pink-eye-treatment-online",
+      "label": "Pink Eye"
+    },
+    {
+      "slug": "sinus-infection-treatment-online",
+      "label": "Sinus Infection"
+    },
+    {
+      "slug": "sore-throat-treatment-online",
+      "label": "Sore Throat"
+    },
+    {
+      "slug": "yeast-infection-treatment-online",
+      "label": "Yeast Infection"
+    },
+    {
+      "slug": "uti-treatment-online",
+      "label": "UTI"
+    }
   ],
-
   "cityBlock": {
     "title": "Adults We Serve Across {state}",
     "text": "TeleDirectMD evaluates adults located throughout {state}, including {citiesExtended}. Whether you are searching for online scabies treatment in {city1}, scabies prescription online in {city2}, permethrin cream telehealth in {city3}, or telehealth scabies evaluation anywhere else in {state}, the same telehealth eligibility and safety rules apply."
   },
-
   "icd10Codes": [
-    { "code": "B86", "description": "Scabies" }
+    {
+      "code": "B86",
+      "description": "Scabies"
+    }
   ],
-
   "jsonLd": {
     "conditionName": "Scabies",
-    "conditionAlternateNames": ["Sarcoptes scabiei infestation", "Mite infestation", "The itch"],
+    "conditionAlternateNames": [
+      "Sarcoptes scabiei infestation",
+      "Mite infestation",
+      "The itch"
+    ],
     "conditionDescription": "Scabies is a contagious skin infestation caused by the Sarcoptes scabiei mite, characterized by intense nocturnal itching and a papular rash in characteristic distribution areas. TeleDirectMD evaluates adult scabies symptoms by video visit with safety-first red-flag screening, guideline-based treatment with permethrin or ivermectin when clinically appropriate, household contact treatment guidance, and clear rules for when urgent in-person care is needed.",
     "primaryIcd10": "B86",
     "anatomy": "Skin (epidermis)",
-    "symptoms": ["Intense pruritus worse at night", "Papular rash in web spaces and flexural areas", "Linear burrows", "Excoriations from scratching"],
+    "symptoms": [
+      "Intense pruritus worse at night",
+      "Papular rash in web spaces and flexural areas",
+      "Linear burrows",
+      "Excoriations from scratching"
+    ],
     "riskFactors": [
       "Close household or physical contact with infested person",
       "Institutional living (nursing homes, dormitories)",
@@ -547,9 +715,18 @@
     ],
     "epidemiology": "Scabies affects an estimated 200 million people worldwide at any given time and occurs across all ages, races, and socioeconomic levels.",
     "drugs": [
-      { "name": "Permethrin 5% cream", "id": "permethrin" },
-      { "name": "Ivermectin (oral)", "id": "ivermectin" },
-      { "name": "Crotamiton 10%", "id": "crotamiton" }
+      {
+        "name": "Permethrin 5% cream",
+        "id": "permethrin"
+      },
+      {
+        "name": "Ivermectin (oral)",
+        "id": "ivermectin"
+      },
+      {
+        "name": "Crotamiton 10%",
+        "id": "crotamiton"
+      }
     ],
     "treatments": [
       "Topical permethrin 5% cream applied neck to toes",
@@ -562,11 +739,30 @@
       "Clinical symptom review and photo-based distribution assessment",
       "Skin scraping with microscopy when in-person evaluation is needed"
     ],
-    "specialties": ["Family Medicine", "Telemedicine", "Dermatology"],
+    "specialties": [
+      "Family Medicine",
+      "Telemedicine",
+      "Dermatology"
+    ],
     "guidelines": [
-      { "name": "CDC Scabies Prevention and Control Guidelines", "url": "https://www.cdc.gov/scabies/treatment/index.html", "publisher": "Centers for Disease Control and Prevention", "id": "cdc" },
-      { "name": "AAD Scabies Diagnosis and Treatment", "url": "https://www.aad.org/public/diseases/a-z/scabies-treatment", "publisher": "American Academy of Dermatology", "id": "aad" },
-      { "name": "Scabies, StatPearls (2025)", "url": "https://www.ncbi.nlm.nih.gov/books/NBK544306/", "publisher": "StatPearls", "id": "statpearls" }
+      {
+        "name": "CDC Scabies Prevention and Control Guidelines",
+        "url": "https://www.cdc.gov/scabies/treatment/index.html",
+        "publisher": "Centers for Disease Control and Prevention",
+        "id": "cdc"
+      },
+      {
+        "name": "AAD Scabies Diagnosis and Treatment",
+        "url": "https://www.aad.org/public/diseases/a-z/scabies-treatment",
+        "publisher": "American Academy of Dermatology",
+        "id": "aad"
+      },
+      {
+        "name": "Scabies, StatPearls (2025)",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK544306/",
+        "publisher": "StatPearls",
+        "id": "statpearls"
+      }
     ],
     "knowsAbout": [
       "Scabies treatment",
@@ -580,5 +776,7 @@
     ],
     "serviceDescription": "Secure video visit for {state} adults with scabies symptoms, including red-flag screening, guideline-based treatment with permethrin or ivermectin when clinically appropriate, and household contact treatment guidance.",
     "webpageDescription": "{state} scabies treatment by secure MD video visit for adults. Evidence-based evaluation of scabies symptoms, red-flag screening, guideline-based permethrin or ivermectin treatment when appropriate, household contact guidance, and clear rules for when urgent in-person care is needed."
-  }
+  },
+  "guidelineSource": "aad",
+  "conditionType": "treatment"
 }

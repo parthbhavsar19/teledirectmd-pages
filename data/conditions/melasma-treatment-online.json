@@ -2,20 +2,34 @@
   "conditionName": "Melasma Treatment",
   "conditionShort": "Melasma",
   "conditionSlug": "melasma-treatment-online",
-  "pageTitle": "Melasma Treatment Online in {state} | Skin Hyperpigmentation MD Video Visit | TeleDirectMD",
+  "pageTitle": "Melasma Online Treatment in {state} | TeleDirectMD",
   "metaDescription": "Evidence-based melasma treatment for {state} adults by secure video visit. Visual assessment of hyperpigmentation pattern, guideline-based prescriptions including hydroquinone and tretinoin, and sun protection counseling. Self pay option starting at $49. Insurance is not required.",
   "ogImageAlt": "Melasma treatment in {state} by TeleDirectMD",
-
   "hero": {
     "h1": "Melasma Treatment in {state} (Facial Hyperpigmentation)",
     "subtitle": "{state} adult care by secure video visit, self pay option starting at $49, MD-only, insurance is not required.",
     "introParagraph": "Melasma is a common chronic skin condition causing brown to gray-brown patches on the face, most often on the cheeks, forehead, upper lip, nose bridge, and chin. It predominantly affects women and is especially common in people with Fitzpatrick skin types III through V — though it can affect anyone. The good news is that melasma is highly visual by nature, making telehealth an effective platform for assessment and treatment planning. During a video visit, the MD reviews your pigmentation pattern, distribution, and history of triggers such as sun exposure, hormonal factors, and medications, then develops a treatment plan based on current evidence. Mild to moderate melasma is well-suited for telehealth management with topical lightening agents and comprehensive sun protection counseling. Presentations that are atypical, rapidly changing, or potentially suspicious for another diagnosis are directed to in-person evaluation. This page is for adults located in {state}, including {cities}.",
     "tocLinks": [
-      { "href": "eligibility-checklist", "label": "Eligibility checklist" },
-      { "href": "decision-guide", "label": "Decision guide" },
-      { "href": "treatment-options", "label": "Treatment options" },
-      { "href": "faq", "label": "FAQs" },
-      { "href": "references", "label": "References" }
+      {
+        "href": "eligibility-checklist",
+        "label": "Eligibility checklist"
+      },
+      {
+        "href": "decision-guide",
+        "label": "Decision guide"
+      },
+      {
+        "href": "treatment-options",
+        "label": "Treatment options"
+      },
+      {
+        "href": "faq",
+        "label": "FAQs"
+      },
+      {
+        "href": "references",
+        "label": "References"
+      }
     ],
     "benefits": [
       "Self pay option starting at $49",
@@ -35,7 +49,6 @@
     },
     "icd10Display": "L81.1 (final coding depends on clinical details)"
   },
-
   "eligibility": {
     "sectionTitle": "Melasma Telehealth Eligibility Checklist for {state}",
     "introText": "You are likely eligible for a TeleDirectMD video visit if ALL of these are true:",
@@ -58,7 +71,6 @@
     ],
     "notEligibleDisclaimer": "If you have a rapidly changing, raised, or suspicious pigmented lesion, seek urgent in-person evaluation or emergency care. TeleDirectMD is not an emergency service and does not perform or arrange biopsies."
   },
-
   "howItWorks": {
     "sectionTitle": "How Online Melasma Treatment Works in {state}",
     "steps": [
@@ -80,7 +92,6 @@
       }
     ]
   },
-
   "telehealthRegulations": {
     "sectionTitle": "{state} Telehealth Regulations for Online Melasma Care",
     "paragraphs": [
@@ -88,7 +99,6 @@
       "Location matters: you must be physically in {state} during the visit. Insurance is not required. TeleDirectMD does not prescribe controlled substances."
     ]
   },
-
   "comparisonTable": {
     "sectionTitle": "TeleDirectMD vs Other Care Options for Melasma in {state}",
     "intro": "Here is how TeleDirectMD compares to common settings for adult melasma care in {state}:",
@@ -128,7 +138,6 @@
     ],
     "bottomLine": "TeleDirectMD is a strong fit for adults with typical melasma who need prescription topical therapy, structured sun protection guidance, and clear next steps — without long dermatology wait times."
   },
-
   "decisionGuide": {
     "sectionTitle": "Should I Use TeleDirectMD for Melasma in {state}? Decision Guide",
     "steps": [
@@ -173,7 +182,6 @@
       }
     ]
   },
-
   "pricing": {
     "sectionTitle": "What Does Melasma Treatment Cost in {state}?",
     "subtitle": "Transparent options. Insurance is not required.",
@@ -188,15 +196,34 @@
       "Clear follow-up steps and dermatology referral criteria"
     ],
     "comparisonBars": [
-      { "name": "TeleDirectMD", "value": "$49", "width": 12, "isTdmd": true },
-      { "name": "Primary Care", "value": "$100 to $350+", "width": 52, "isTdmd": false },
-      { "name": "Dermatology", "value": "$150 to $400+", "width": 65, "isTdmd": false },
-      { "name": "Emergency Room", "value": "$500 to $3,000+", "width": 100, "isTdmd": false }
+      {
+        "name": "TeleDirectMD",
+        "value": "$49",
+        "width": 12,
+        "isTdmd": true
+      },
+      {
+        "name": "Primary Care",
+        "value": "$100 to $350+",
+        "width": 52,
+        "isTdmd": false
+      },
+      {
+        "name": "Dermatology",
+        "value": "$150 to $400+",
+        "width": 65,
+        "isTdmd": false
+      },
+      {
+        "name": "Emergency Room",
+        "value": "$500 to $3,000+",
+        "width": 100,
+        "isTdmd": false
+      }
     ],
     "footnote": "Prescription costs at your pharmacy are separate and vary by medication and pharmacy.",
     "noHiddenFees": "No hidden fees. If medication is not clinically appropriate, you still receive a complete evaluation, guidance, and clear instructions on what level of care you need next."
   },
-
   "whatIsCondition": {
     "sectionTitle": "What Is Melasma?",
     "paragraphs": [
@@ -205,37 +232,97 @@
       "TeleDirectMD focuses on typical melasma in adults where the diagnosis is clinically consistent based on the visual appearance, distribution, and trigger history. The visual nature of melasma makes telehealth an effective platform for evaluation, treatment planning, and medication prescribing. Presentations that are atypical, rapidly changing, raised, or otherwise concerning for another condition are directed to in-person evaluation. TeleDirectMD does not perform biopsies, provide procedural treatments such as chemical peels or laser, or manage melasma requiring dermatology-level procedural care."
     ]
   },
-
   "causesAndRiskFactors": {
     "sectionTitle": "Causes and Risk Factors",
     "intro": "Melasma is multifactorial, arising from the interaction of environmental triggers, hormonal influences, and genetic susceptibility. Understanding the specific triggers in each patient guides treatment selection and prevention counseling.",
     "items": [
-      { "label": "UV and visible light exposure:", "text": "ultraviolet and visible light are the most important triggers for melasma. Sun exposure directly stimulates melanocyte activity and melanin production, which is why melasma predominantly appears on sun-exposed facial areas and worsens in summer months. Visible light, including high-energy visible (HEV or 'blue light') from screens, can also worsen melasma, particularly in individuals with darker skin types — making broad-spectrum, iron-oxide-containing sunscreens especially important." },
-      { "label": "Hormonal factors:", "text": "estrogen and progesterone play a significant role in melasma. Pregnancy is one of the most common triggers (hence the term 'mask of pregnancy'), with melasma occurring in 10 to 15 percent of pregnant women. Oral contraceptive pills and other hormonal contraceptives (patches, implants, IUDs) trigger or worsen melasma in 10 to 25 percent of users. Hormone replacement therapy is another common hormonal trigger. Thyroid disorders have also been associated with melasma in some studies." },
-      { "label": "Genetic predisposition:", "text": "family history is a strong risk factor for melasma. Studies show that over 40 to 60 percent of patients with melasma report having affected first-degree relatives. Genetic factors influence both melanocyte sensitivity to UV light and hormonal stimulation, contributing to the skin types most predisposed to melasma." },
-      { "label": "Fitzpatrick skin types III through V:", "text": "melasma disproportionately affects individuals with moderate to dark baseline skin pigmentation (Fitzpatrick types III through V), including those of Hispanic, Latin American, Middle Eastern, South Asian, Southeast Asian, and African descent. These skin types have more reactive melanocytes that produce more pigment in response to UV exposure and hormonal signals. People with very fair or very dark skin types are less commonly affected." },
-      { "label": "Medications and photosensitizing substances:", "text": "certain medications can trigger or worsen melasma, including some anticonvulsants, targeted cancer therapies, and photosensitizing drugs. Scented cosmetics, perfumed soaps, and toiletries can cause phototoxic reactions that trigger melasma-like hyperpigmentation. A thorough medication and skin care review is part of the evaluation." },
-      { "label": "Skin inflammation and procedures:", "text": "any source of skin irritation, inflammation, or injury — including aggressive skin care routines, harsh chemical peels, or laser treatments — can trigger post-inflammatory hyperpigmentation and worsen melasma, particularly in darker skin types. This is why melasma management must proceed cautiously and why some procedural treatments carry significant risk of worsening in susceptible individuals." }
+      {
+        "label": "UV and visible light exposure:",
+        "text": "ultraviolet and visible light are the most important triggers for melasma. Sun exposure directly stimulates melanocyte activity and melanin production, which is why melasma predominantly appears on sun-exposed facial areas and worsens in summer months. Visible light, including high-energy visible (HEV or 'blue light') from screens, can also worsen melasma, particularly in individuals with darker skin types — making broad-spectrum, iron-oxide-containing sunscreens especially important."
+      },
+      {
+        "label": "Hormonal factors:",
+        "text": "estrogen and progesterone play a significant role in melasma. Pregnancy is one of the most common triggers (hence the term 'mask of pregnancy'), with melasma occurring in 10 to 15 percent of pregnant women. Oral contraceptive pills and other hormonal contraceptives (patches, implants, IUDs) trigger or worsen melasma in 10 to 25 percent of users. Hormone replacement therapy is another common hormonal trigger. Thyroid disorders have also been associated with melasma in some studies."
+      },
+      {
+        "label": "Genetic predisposition:",
+        "text": "family history is a strong risk factor for melasma. Studies show that over 40 to 60 percent of patients with melasma report having affected first-degree relatives. Genetic factors influence both melanocyte sensitivity to UV light and hormonal stimulation, contributing to the skin types most predisposed to melasma."
+      },
+      {
+        "label": "Fitzpatrick skin types III through V:",
+        "text": "melasma disproportionately affects individuals with moderate to dark baseline skin pigmentation (Fitzpatrick types III through V), including those of Hispanic, Latin American, Middle Eastern, South Asian, Southeast Asian, and African descent. These skin types have more reactive melanocytes that produce more pigment in response to UV exposure and hormonal signals. People with very fair or very dark skin types are less commonly affected."
+      },
+      {
+        "label": "Medications and photosensitizing substances:",
+        "text": "certain medications can trigger or worsen melasma, including some anticonvulsants, targeted cancer therapies, and photosensitizing drugs. Scented cosmetics, perfumed soaps, and toiletries can cause phototoxic reactions that trigger melasma-like hyperpigmentation. A thorough medication and skin care review is part of the evaluation."
+      },
+      {
+        "label": "Skin inflammation and procedures:",
+        "text": "any source of skin irritation, inflammation, or injury — including aggressive skin care routines, harsh chemical peels, or laser treatments — can trigger post-inflammatory hyperpigmentation and worsen melasma, particularly in darker skin types. This is why melasma management must proceed cautiously and why some procedural treatments carry significant risk of worsening in susceptible individuals."
+      }
     ],
     "closing": "Not every facial pigmentation is melasma. Post-inflammatory hyperpigmentation, solar lentigines, drug-induced pigmentation, and less common conditions can appear similar. TeleDirectMD uses visual assessment of the pattern, distribution, and clinical history to distinguish typical melasma from conditions that may require in-person evaluation or biopsy."
   },
-
   "symptomsAndRedFlags": {
     "sectionTitle": "Symptoms and Red Flags for Melasma in {state}",
     "intro": "Use this table to understand which melasma presentations are appropriate for telehealth and which may need in-person evaluation.",
-    "headers": ["Symptom or situation", "What it suggests", "Telehealth appropriate?", "Red flag requiring in-person care"],
+    "headers": [
+      "Symptom or situation",
+      "What it suggests",
+      "Telehealth appropriate?",
+      "Red flag requiring in-person care"
+    ],
     "rows": [
-      ["Flat brown to gray-brown patches on the cheeks, forehead, upper lip, or nose bridge, symmetric on both sides", "Classic epidermal or mixed melasma", "Yes", "If distribution is atypical or lesions are not flat"],
-      ["Melasma that worsens with sun exposure or during summer months", "UV-triggered melasma flare", "Yes", "Rarely a red flag; counsel on sun protection"],
-      ["New or worsening melasma after starting oral contraceptives or hormone replacement therapy", "Hormone-triggered melasma", "Yes", "Discuss hormonal trigger management; may suggest discontinuing OCP if appropriate"],
-      ["Melasma during or after pregnancy that has not faded", "Persistent post-partum melasma", "Yes — if postpartum and not breastfeeding with treatment options", "If breastfeeding, many topical agents are not recommended; in-person counseling preferred"],
-      ["Pigmented patch that is raised, nodular, or thickened", "Not consistent with melasma — melasma is always flat; may suggest another condition", "No", "Requires urgent in-person evaluation; raised pigmented lesion may need biopsy to rule out melanoma or other diagnosis"],
-      ["Rapidly changing pigmented lesion — new growth, changing border, or color change over days to weeks", "Concerning for melanoma or other serious condition", "No", "Seek urgent in-person evaluation immediately — do not delay"],
-      ["Diffuse darkening of skin with fatigue, weight loss, salt cravings, and low blood pressure", "Possible Addison's disease (adrenal insufficiency)", "No", "Seek urgent in-person evaluation with laboratory workup — this is a systemic medical emergency"],
-      ["Pigmented patches following prior skin trauma, inflammation, or acne in predictable locations", "Post-inflammatory hyperpigmentation rather than melasma", "Sometimes — can overlap with management approach", "If uncertain or not responding to treatment, in-person evaluation is preferred"]
+      [
+        "Flat brown to gray-brown patches on the cheeks, forehead, upper lip, or nose bridge, symmetric on both sides",
+        "Classic epidermal or mixed melasma",
+        "Yes",
+        "If distribution is atypical or lesions are not flat"
+      ],
+      [
+        "Melasma that worsens with sun exposure or during summer months",
+        "UV-triggered melasma flare",
+        "Yes",
+        "Rarely a red flag; counsel on sun protection"
+      ],
+      [
+        "New or worsening melasma after starting oral contraceptives or hormone replacement therapy",
+        "Hormone-triggered melasma",
+        "Yes",
+        "Discuss hormonal trigger management; may suggest discontinuing OCP if appropriate"
+      ],
+      [
+        "Melasma during or after pregnancy that has not faded",
+        "Persistent post-partum melasma",
+        "Yes — if postpartum and not breastfeeding with treatment options",
+        "If breastfeeding, many topical agents are not recommended; in-person counseling preferred"
+      ],
+      [
+        "Pigmented patch that is raised, nodular, or thickened",
+        "Not consistent with melasma — melasma is always flat; may suggest another condition",
+        "No",
+        "Requires urgent in-person evaluation; raised pigmented lesion may need biopsy to rule out melanoma or other diagnosis"
+      ],
+      [
+        "Rapidly changing pigmented lesion — new growth, changing border, or color change over days to weeks",
+        "Concerning for melanoma or other serious condition",
+        "No",
+        "Seek urgent in-person evaluation immediately — do not delay"
+      ],
+      [
+        "Diffuse darkening of skin with fatigue, weight loss, salt cravings, and low blood pressure",
+        "Possible Addison's disease (adrenal insufficiency)",
+        "No",
+        "Seek urgent in-person evaluation with laboratory workup — this is a systemic medical emergency"
+      ],
+      [
+        "Pigmented patches following prior skin trauma, inflammation, or acne in predictable locations",
+        "Post-inflammatory hyperpigmentation rather than melasma",
+        "Sometimes — can overlap with management approach",
+        "If uncertain or not responding to treatment, in-person evaluation is preferred"
+      ]
     ]
   },
-
   "differentialDiagnosis": {
     "sectionTitle": "Differential Diagnosis: Melasma vs Other Conditions",
     "intro": "Several conditions can cause facial hyperpigmentation that resembles melasma. Accurate diagnosis matters because treatment approaches differ. TeleDirectMD uses the pigmentation pattern, distribution, symmetry, associated features, and clinical history to evaluate for typical melasma and to direct atypical presentations to in-person care.",
@@ -276,7 +363,6 @@
     ],
     "closing": "If your pigmentation does not match typical melasma — particularly if it is raised, rapidly changing, irregular, or accompanied by systemic symptoms — TeleDirectMD will direct you to in-person evaluation. Patient safety is the top priority, and we are direct about the limits of telehealth for pigmentation assessment."
   },
-
   "telehealthEligibility": {
     "sectionTitle": "When Is a Video Visit Appropriate?",
     "appropriate": {
@@ -305,7 +391,6 @@
       "disclaimer": "If any red-flag features are present, seek urgent in-person evaluation. TeleDirectMD is not an emergency service and does not perform biopsies or procedural treatments."
     }
   },
-
   "treatmentOptions": {
     "sectionTitle": "Treatment Options",
     "intro": "Melasma treatment requires a combination approach that includes strict photoprotection as the foundation and topical lightening agents targeting melanin production. Current evidence supports the use of hydroquinone, tretinoin, azelaic acid, and triple combination cream as first-line topical options. Treatment typically requires 8 to 24 weeks to show meaningful improvement, and recurrence is common without ongoing sun protection and maintenance therapy.",
@@ -318,7 +403,6 @@
         "title": "Topical lightening agents",
         "text": "Hydroquinone 4% cream is the most widely used and evidence-supported topical agent for melasma. It works by inhibiting tyrosinase, the key enzyme in melanin production. Hydroquinone is typically used for 8 to 12 weeks at a time (cyclical use) with breaks to reduce the risk of ochronosis with prolonged use. Tretinoin 0.025 to 0.05% cream enhances the penetration and efficacy of hydroquinone, accelerates keratinocyte turnover, and inhibits melanin transfer — making it an important partner in melasma therapy. Azelaic acid 15 to 20% is an effective alternative or adjunct that inhibits tyrosinase, reduces abnormal melanocyte activity, and has anti-inflammatory properties — making it particularly useful in patients with sensitive skin or who cannot tolerate hydroquinone. Triple combination cream (hydroquinone 4%, tretinoin 0.05%, fluocinolone acetonide 0.01%, marketed as Tri-Luma) is FDA-approved for melasma and is among the most effective topical options, with studies showing 77% of patients achieving near-complete clearing."
       },
-
       {
         "title": "Hormonal trigger management",
         "text": "When melasma is triggered or worsened by oral contraceptive pills, hormone replacement therapy, or other hormonal agents, discussing whether to modify or discontinue the offending agent is an important part of the management conversation. Pregnancy-induced melasma often fades naturally in the months after delivery, and treatment is typically deferred to allow spontaneous improvement. The MD will review your hormonal history and help guide these decisions as part of the treatment plan."
@@ -332,21 +416,49 @@
       "Evaluation requiring Wood lamp examination, dermoscopy, or skin biopsy to differentiate melasma from other pigmentary conditions"
     ]
   },
-
   "medications": {
     "sectionTitle": "Common Medication Options",
     "intro": "These are common examples based on melasma type and severity. The actual medication, combination, dose, and duration are determined by the MD after reviewing your pigmentation pattern, skin type, prior treatments, sensitivity, allergies, hormonal history, and relevant medical history.",
-    "headers": ["Medication", "Typical use", "Category", "Key considerations"],
+    "headers": [
+      "Medication",
+      "Typical use",
+      "Category",
+      "Key considerations"
+    ],
     "rows": [
-      ["Hydroquinone 4% cream", "Apply a thin layer to affected patches nightly; use cyclically (8 to 12 weeks on, then a break)", "Topical depigmenting agent (tyrosinase inhibitor)", "Gold standard first-line topical for melasma. Requires prescription (no longer available OTC). Use cyclically to reduce the small risk of ochronosis with prolonged continuous use. Always combine with sunscreen. Mild irritation is common initially. Avoid during pregnancy."],
-      ["Tretinoin 0.025 to 0.05% cream", "Apply a small amount to affected areas nightly, starting 2 to 3 times per week and increasing as tolerated", "Topical retinoid", "Enhances hydroquinone penetration and efficacy, accelerates keratinocyte turnover, and inhibits melanin transfer. Commonly used in combination with hydroquinone. Expect skin irritation, dryness, and sun sensitivity — always use sunscreen. Minimum 24 weeks for full effect. Not for use in pregnancy."],
-      ["Triple combination cream (Tri-Luma: hydroquinone 4% / tretinoin 0.05% / fluocinolone acetonide 0.01%)", "Apply a thin film to affected facial areas once nightly for up to 8 weeks per course", "Combination topical (depigmenting + retinoid + low-potency corticosteroid)", "FDA-approved for melasma. Most effective topical option in clinical trials, with 77% of patients achieving near-complete clearing. The corticosteroid component reduces irritation and inflammation. Not for long-term continuous use due to corticosteroid risks; use in cyclical courses. Not for use in pregnancy."],
-      ["Azelaic acid 15 to 20% gel or cream", "Apply twice daily to affected areas", "Topical depigmenting agent (tyrosinase inhibitor + anti-inflammatory)", "Effective alternative or adjunct for patients who cannot tolerate hydroquinone or retinoids. Also helps with post-inflammatory hyperpigmentation. Better tolerated in darker skin types. Mild burning or stinging common initially. Generally considered safe in pregnancy (discuss with MD). Available in 15% (Finacea) by prescription."],
-      ["Broad-spectrum sunscreen SPF 50+ with iron oxide", "Apply every morning and reapply every 2 hours outdoors; tinted formulations containing iron oxide are strongly preferred", "Photoprotection (not a prescription medication)", "The essential foundation of all melasma treatment. Iron oxide in tinted sunscreens blocks both UV and visible light (HEV), which is important for patients with skin types III through V. Without strict sun protection, topical lightening agents are significantly less effective and recurrence is rapid. Use year-round, even on cloudy days."]
+      [
+        "Hydroquinone 4% cream",
+        "Apply a thin layer to affected patches nightly; use cyclically (8 to 12 weeks on, then a break)",
+        "Topical depigmenting agent (tyrosinase inhibitor)",
+        "Gold standard first-line topical for melasma. Requires prescription (no longer available OTC). Use cyclically to reduce the small risk of ochronosis with prolonged continuous use. Always combine with sunscreen. Mild irritation is common initially. Avoid during pregnancy."
+      ],
+      [
+        "Tretinoin 0.025 to 0.05% cream",
+        "Apply a small amount to affected areas nightly, starting 2 to 3 times per week and increasing as tolerated",
+        "Topical retinoid",
+        "Enhances hydroquinone penetration and efficacy, accelerates keratinocyte turnover, and inhibits melanin transfer. Commonly used in combination with hydroquinone. Expect skin irritation, dryness, and sun sensitivity — always use sunscreen. Minimum 24 weeks for full effect. Not for use in pregnancy."
+      ],
+      [
+        "Triple combination cream (Tri-Luma: hydroquinone 4% / tretinoin 0.05% / fluocinolone acetonide 0.01%)",
+        "Apply a thin film to affected facial areas once nightly for up to 8 weeks per course",
+        "Combination topical (depigmenting + retinoid + low-potency corticosteroid)",
+        "FDA-approved for melasma. Most effective topical option in clinical trials, with 77% of patients achieving near-complete clearing. The corticosteroid component reduces irritation and inflammation. Not for long-term continuous use due to corticosteroid risks; use in cyclical courses. Not for use in pregnancy."
+      ],
+      [
+        "Azelaic acid 15 to 20% gel or cream",
+        "Apply twice daily to affected areas",
+        "Topical depigmenting agent (tyrosinase inhibitor + anti-inflammatory)",
+        "Effective alternative or adjunct for patients who cannot tolerate hydroquinone or retinoids. Also helps with post-inflammatory hyperpigmentation. Better tolerated in darker skin types. Mild burning or stinging common initially. Generally considered safe in pregnancy (discuss with MD). Available in 15% (Finacea) by prescription."
+      ],
+      [
+        "Broad-spectrum sunscreen SPF 50+ with iron oxide",
+        "Apply every morning and reapply every 2 hours outdoors; tinted formulations containing iron oxide are strongly preferred",
+        "Photoprotection (not a prescription medication)",
+        "The essential foundation of all melasma treatment. Iron oxide in tinted sunscreens blocks both UV and visible light (HEV), which is important for patients with skin types III through V. Without strict sun protection, topical lightening agents are significantly less effective and recurrence is rapid. Use year-round, even on cloudy days."
+      ]
     ],
     "note": "Example regimens only. The actual medication, dosing, combination, and duration are individualized by the MD based on your melasma type, skin tone, Fitzpatrick type, prior treatment history, hormonal history, allergies, and relevant medical history. TeleDirectMD does not prescribe controlled substances."
   },
-
   "homeCare": {
     "sectionTitle": "Home Care, Sun Protection, and Follow-up",
     "whatToDoNow": {
@@ -379,7 +491,6 @@
       ]
     }
   },
-
   "whenNotToUse": {
     "sectionTitle": "When Not to Use TeleDirectMD for Melasma in {state}",
     "intro": "TeleDirectMD is designed for typical adult melasma that is well-suited for visual telehealth assessment and topical prescription management. We are direct about when telehealth is not the right fit.",
@@ -400,14 +511,25 @@
     "alternatives": {
       "title": "Alternative Care Options",
       "items": [
-        { "label": "Emergency room or urgent care:", "text": "any rapidly changing, raised, or bleeding pigmented lesion that may suggest melanoma or another serious condition requiring urgent evaluation" },
-        { "label": "Dermatology:", "text": "refractory or severe melasma, procedural treatments (chemical peels, laser, microneedling), atypical presentations needing dermoscopy or biopsy, melasma in pregnancy, or any case failing standard topical and oral therapy" },
-        { "label": "Primary care:", "text": "suspected systemic cause of hyperpigmentation with associated symptoms needing laboratory evaluation, combined visit for other health concerns, or ongoing hormonal management" },
-        { "label": "OB/GYN:", "text": "melasma triggered by hormonal contraception where contraception change is being considered, or melasma in pregnancy requiring comprehensive obstetric and dermatologic coordination" }
+        {
+          "label": "Emergency room or urgent care:",
+          "text": "any rapidly changing, raised, or bleeding pigmented lesion that may suggest melanoma or another serious condition requiring urgent evaluation"
+        },
+        {
+          "label": "Dermatology:",
+          "text": "refractory or severe melasma, procedural treatments (chemical peels, laser, microneedling), atypical presentations needing dermoscopy or biopsy, melasma in pregnancy, or any case failing standard topical and oral therapy"
+        },
+        {
+          "label": "Primary care:",
+          "text": "suspected systemic cause of hyperpigmentation with associated symptoms needing laboratory evaluation, combined visit for other health concerns, or ongoing hormonal management"
+        },
+        {
+          "label": "OB/GYN:",
+          "text": "melasma triggered by hormonal contraception where contraception change is being considered, or melasma in pregnancy requiring comprehensive obstetric and dermatologic coordination"
+        }
       ]
     }
   },
-
   "faq": {
     "sectionTitle": "Melasma Treatment FAQs for {state}",
     "items": [
@@ -465,15 +587,28 @@
       "text": "Insurance is not required. Adult-only video visits. MD-only care. Visual melasma assessment, evidence-based prescriptions when appropriate, comprehensive sun protection counseling, and clear next steps."
     }
   },
-
   "references": [
-    { "text": "Melasma: Diagnosis and Treatment — American Academy of Dermatology (AAD)", "url": "https://www.aad.org/public/diseases/a-z/melasma-treatment" },
-    { "text": "Melasma (Chloasma, Mask of Pregnancy) — DermNet New Zealand", "url": "https://dermnetnz.org/topics/melasma" },
-    { "text": "Melasma — StatPearls, NCBI Bookshelf (Last updated January 2026)", "url": "https://www.ncbi.nlm.nih.gov/books/NBK459271/" },
-    { "text": "Best Practices in the Treatment of Melasma with a Focus on Patients with Skin of Color — Journal of the American Academy of Dermatology (JAAD), 2024", "url": "https://pubmed.ncbi.nlm.nih.gov/37748556/" },
-    { "text": "Update on Melasma Treatments — Annals of Dermatology, PMC/NIH (2024)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11148313/" }
+    {
+      "text": "Melasma: Diagnosis and Treatment — American Academy of Dermatology (AAD)",
+      "url": "https://www.aad.org/public/diseases/a-z/melasma-treatment"
+    },
+    {
+      "text": "Melasma (Chloasma, Mask of Pregnancy) — DermNet New Zealand",
+      "url": "https://dermnetnz.org/topics/melasma"
+    },
+    {
+      "text": "Melasma — StatPearls, NCBI Bookshelf (Last updated January 2026)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK459271/"
+    },
+    {
+      "text": "Best Practices in the Treatment of Melasma with a Focus on Patients with Skin of Color — Journal of the American Academy of Dermatology (JAAD), 2024",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37748556/"
+    },
+    {
+      "text": "Update on Melasma Treatments — Annals of Dermatology, PMC/NIH (2024)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11148313/"
+    }
   ],
-
   "disclaimer": {
     "sectionTitle": "TeleDirectMD Telehealth Disclaimer",
     "paragraphs": [
@@ -482,7 +617,6 @@
       "Online melasma treatment in {state}. Melasma prescription online. Hyperpigmentation treatment by video visit. Hydroquinone prescription online {state}. Melasma doctor online."
     ]
   },
-
   "relatedConditions": [
     {
       "slug": "acne-treatment-online",
@@ -505,28 +639,50 @@
       "description": "Eczema can cause post-inflammatory hyperpigmentation that mimics melasma; treating the underlying inflammation is key"
     }
   ],
-
   "inlineLinks": [
-    { "slug": "acne-treatment-online", "label": "Acne Treatment" },
-    { "slug": "rosacea-treatment-online", "label": "Rosacea Treatment" },
-    { "slug": "anti-aging-treatment-online", "label": "Anti-Aging Treatment" },
-    { "slug": "eczema-treatment-online", "label": "Eczema Treatment" },
-    { "slug": "contact-dermatitis-treatment-online", "label": "Contact Dermatitis" },
-    { "slug": "birth-control-refills-online", "label": "Birth Control Refills" }
+    {
+      "slug": "acne-treatment-online",
+      "label": "Acne Treatment"
+    },
+    {
+      "slug": "rosacea-treatment-online",
+      "label": "Rosacea Treatment"
+    },
+    {
+      "slug": "anti-aging-treatment-online",
+      "label": "Anti-Aging Treatment"
+    },
+    {
+      "slug": "eczema-treatment-online",
+      "label": "Eczema Treatment"
+    },
+    {
+      "slug": "contact-dermatitis-treatment-online",
+      "label": "Contact Dermatitis"
+    },
+    {
+      "slug": "birth-control-refills-online",
+      "label": "Birth Control Refills"
+    }
   ],
-
   "cityBlock": {
     "title": "Adults We Serve Across {state}",
     "text": "TeleDirectMD evaluates adults located throughout {state}, including {citiesExtended}. Whether you are searching for online melasma treatment in {city1}, hydroquinone prescription online in {city2}, melasma care by video visit in {city3}, or melasma treatment anywhere else in {state}, the same telehealth eligibility and safety rules apply."
   },
-
   "icd10Codes": [
-    { "code": "L81.1", "description": "Chloasma (Melasma)" }
+    {
+      "code": "L81.1",
+      "description": "Chloasma (Melasma)"
+    }
   ],
-
   "jsonLd": {
     "conditionName": "Melasma",
-    "conditionAlternateNames": ["Chloasma", "Mask of Pregnancy", "Facial Hyperpigmentation", "Melasma Faciei"],
+    "conditionAlternateNames": [
+      "Chloasma",
+      "Mask of Pregnancy",
+      "Facial Hyperpigmentation",
+      "Melasma Faciei"
+    ],
     "conditionDescription": "Melasma is a common chronic acquired disorder of hyperpigmentation characterized by symmetric, flat brown to gray-brown macules and patches predominantly on sun-exposed facial skin. TeleDirectMD evaluates adult melasma by video visit with visual assessment of pigmentation pattern, trigger history review, guideline-based treatment plans including hydroquinone, tretinoin, azelaic acid, and triple combination cream when appropriate and comprehensive sun protection counseling with clear referral criteria for atypical presentations and procedural management.",
     "primaryIcd10": "L81.1",
     "anatomy": "Skin (melanocytes of facial epidermis and dermis)",
@@ -551,10 +707,22 @@
     ],
     "epidemiology": "Melasma affects up to 5 million Americans and is significantly more prevalent in women and in individuals with Fitzpatrick skin types III through V. It occurs worldwide with higher prevalence in populations from regions with high UV radiation exposure.",
     "drugs": [
-      { "name": "Hydroquinone 4%", "id": "hydroquinone" },
-      { "name": "Tretinoin", "id": "tretinoin" },
-      { "name": "Azelaic acid", "id": "azelaic-acid" },
-      { "name": "Triple combination cream (hydroquinone/tretinoin/fluocinolone)", "id": "tri-luma" }
+      {
+        "name": "Hydroquinone 4%",
+        "id": "hydroquinone"
+      },
+      {
+        "name": "Tretinoin",
+        "id": "tretinoin"
+      },
+      {
+        "name": "Azelaic acid",
+        "id": "azelaic-acid"
+      },
+      {
+        "name": "Triple combination cream (hydroquinone/tretinoin/fluocinolone)",
+        "id": "tri-luma"
+      }
     ],
     "treatments": [
       "Strict broad-spectrum photoprotection with SPF 50+ tinted sunscreen containing iron oxide",
@@ -570,11 +738,30 @@
       "Clinical history review including sun exposure, hormonal, and medication triggers",
       "Wood lamp examination and dermoscopy (in-person, for atypical presentations)"
     ],
-    "specialties": ["Family Medicine", "Dermatology", "Telemedicine"],
+    "specialties": [
+      "Family Medicine",
+      "Dermatology",
+      "Telemedicine"
+    ],
     "guidelines": [
-      { "name": "Melasma: Diagnosis and Treatment — AAD", "url": "https://www.aad.org/public/diseases/a-z/melasma-treatment", "publisher": "American Academy of Dermatology", "id": "aad-melasma" },
-      { "name": "Best Practices in the Treatment of Melasma — JAAD 2024", "url": "https://pubmed.ncbi.nlm.nih.gov/37748556/", "publisher": "Journal of the American Academy of Dermatology", "id": "jaad-melasma-2024" },
-      { "name": "Melasma — StatPearls (2026)", "url": "https://www.ncbi.nlm.nih.gov/books/NBK459271/", "publisher": "StatPearls Publishing", "id": "statpearls-melasma" }
+      {
+        "name": "Melasma: Diagnosis and Treatment — AAD",
+        "url": "https://www.aad.org/public/diseases/a-z/melasma-treatment",
+        "publisher": "American Academy of Dermatology",
+        "id": "aad-melasma"
+      },
+      {
+        "name": "Best Practices in the Treatment of Melasma — JAAD 2024",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/37748556/",
+        "publisher": "Journal of the American Academy of Dermatology",
+        "id": "jaad-melasma-2024"
+      },
+      {
+        "name": "Melasma — StatPearls (2026)",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK459271/",
+        "publisher": "StatPearls Publishing",
+        "id": "statpearls-melasma"
+      }
     ],
     "knowsAbout": [
       "Melasma treatment",
@@ -588,5 +775,7 @@
     ],
     "serviceDescription": "Secure video visit for {state} adults with melasma, including visual assessment of hyperpigmentation pattern, trigger history review, guideline-based topical prescriptions when appropriate, sun protection counseling, and clear referral criteria for atypical presentations and procedural management.",
     "webpageDescription": "{state} melasma treatment by secure MD video visit for adults. Evidence-based evaluation with visual assessment, severity-based treatment including hydroquinone, tretinoin, azelaic acid, triple combination cream and clear guidance for when in-person dermatology is needed."
-  }
+  },
+  "guidelineSource": "aad",
+  "conditionType": "treatment"
 }

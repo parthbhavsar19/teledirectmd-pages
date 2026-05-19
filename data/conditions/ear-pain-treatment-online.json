@@ -2,20 +2,34 @@
   "conditionName": "Ear Pain",
   "conditionShort": "ear pain",
   "conditionSlug": "ear-pain-treatment-online",
-  "pageTitle": "Ear Pain Treatment Online in {state} | Otitis MD Video Visit | TeleDirectMD",
+  "pageTitle": "Ear Pain Online Treatment in {state} | TeleDirectMD",
   "metaDescription": "Evidence-based ear pain evaluation for {state} adults by secure video visit. Otitis externa and otitis media assessment, red-flag screening, topical eardrops when appropriate, and guideline-based treatment. Self pay option starting at $49. Insurance is not required.",
   "ogImageAlt": "Ear pain treatment in {state} by TeleDirectMD",
-
   "hero": {
     "h1": "Ear Pain Treatment in {state} (Otitis Externa & Otitis Media)",
     "subtitle": "{state} adult care by secure video visit, self pay option starting at $49, MD-only, insurance is not required.",
     "introParagraph": "Ear pain is one of the most common reasons adults seek medical care, yet approximately one-third of acute otitis externa cases are inappropriately treated with oral antibiotics instead of the recommended topical therapy. The AAO-HNS 2014 Clinical Practice Guideline for acute otitis externa clearly recommends topical antibiotic eardrops with or without a corticosteroid as first-line treatment, not systemic antibiotics. For acute otitis media in adults, the AAP watchful waiting approach may be appropriate for mild cases, while oral antibiotics such as amoxicillin are indicated when bacterial infection criteria are met. TeleDirectMD uses a safety-first telehealth approach that screens for red flags including mastoid tenderness, facial nerve involvement, severe fever, and signs of necrotizing otitis externa before determining whether treatment by video visit is appropriate. If the history supports uncomplicated ear pain without red flags, guideline-based treatment including topical eardrops for suspected otitis externa or oral antibiotics for otitis media when indicated may be reasonable by video, while adults with complications are directed to ENT or emergency care. This page is for adults located in {state}, including {cities}.",
     "tocLinks": [
-      { "href": "eligibility-checklist", "label": "Eligibility checklist" },
-      { "href": "decision-guide", "label": "Decision guide" },
-      { "href": "treatment-options", "label": "Treatment options" },
-      { "href": "faq", "label": "FAQs" },
-      { "href": "references", "label": "References" }
+      {
+        "href": "eligibility-checklist",
+        "label": "Eligibility checklist"
+      },
+      {
+        "href": "decision-guide",
+        "label": "Decision guide"
+      },
+      {
+        "href": "treatment-options",
+        "label": "Treatment options"
+      },
+      {
+        "href": "faq",
+        "label": "FAQs"
+      },
+      {
+        "href": "references",
+        "label": "References"
+      }
     ],
     "benefits": [
       "Self pay option starting at $49",
@@ -35,7 +49,6 @@
     },
     "icd10Display": "H60.9, H66.9, H92.0, or H60.5 (final coding depends on clinical details)"
   },
-
   "eligibility": {
     "sectionTitle": "Ear Pain Telehealth Eligibility Checklist for {state}",
     "introText": "You are likely eligible for a TeleDirectMD video visit if ALL of these are true:",
@@ -60,7 +73,6 @@
     ],
     "notEligibleDisclaimer": "If you have red-flag symptoms suggesting mastoiditis, necrotizing otitis externa, or intracranial complication, seek emergency care immediately. TeleDirectMD is not an emergency service."
   },
-
   "howItWorks": {
     "sectionTitle": "How Online Ear Pain Treatment Works in {state}",
     "steps": [
@@ -82,7 +94,6 @@
       }
     ]
   },
-
   "telehealthRegulations": {
     "sectionTitle": "{state} Telehealth Regulations for Online Ear Pain Care",
     "paragraphs": [
@@ -90,7 +101,6 @@
       "Location matters: you must be physically in {state} during the visit. Insurance is not required. TeleDirectMD does not prescribe controlled substances."
     ]
   },
-
   "comparisonTable": {
     "sectionTitle": "TeleDirectMD vs Other Care Options for Ear Pain in {state}",
     "intro": "Here is how TeleDirectMD compares to common settings for adult ear pain care in {state}:",
@@ -138,7 +148,6 @@
     ],
     "bottomLine": "TeleDirectMD is a strong fit for uncomplicated ear pain without red flags, with guideline-based treatment decisions and direct MD evaluation."
   },
-
   "decisionGuide": {
     "sectionTitle": "Should I Use TeleDirectMD for Ear Pain in {state}? Decision Guide",
     "steps": [
@@ -184,7 +193,6 @@
       }
     ]
   },
-
   "pricing": {
     "sectionTitle": "What Does Ear Pain Treatment Cost in {state}?",
     "subtitle": "Transparent options. Insurance is not required.",
@@ -198,15 +206,34 @@
       "Clear follow-up steps and escalation instructions"
     ],
     "comparisonBars": [
-      { "name": "TeleDirectMD", "value": "$49", "width": 12, "isTdmd": true },
-      { "name": "Primary Care", "value": "$100 to $250+", "width": 45, "isTdmd": false },
-      { "name": "Urgent Care", "value": "$150 to $300+", "width": 55, "isTdmd": false },
-      { "name": "Emergency Room", "value": "$500 to $3,000+", "width": 100, "isTdmd": false }
+      {
+        "name": "TeleDirectMD",
+        "value": "$49",
+        "width": 12,
+        "isTdmd": true
+      },
+      {
+        "name": "Primary Care",
+        "value": "$100 to $250+",
+        "width": 45,
+        "isTdmd": false
+      },
+      {
+        "name": "Urgent Care",
+        "value": "$150 to $300+",
+        "width": 55,
+        "isTdmd": false
+      },
+      {
+        "name": "Emergency Room",
+        "value": "$500 to $3,000+",
+        "width": 100,
+        "isTdmd": false
+      }
     ],
     "footnote": "Prescription costs at your pharmacy are separate and vary by medication and pharmacy.",
     "noHiddenFees": "No hidden fees. If medication is not clinically appropriate, you still receive a complete evaluation, guidance, and clear instructions on what level of care you need next."
   },
-
   "whatIsCondition": {
     "sectionTitle": "What Is Ear Pain?",
     "paragraphs": [
@@ -215,37 +242,97 @@
       "TeleDirectMD focuses on uncomplicated ear pain appropriate for telehealth, with careful screening to direct complicated cases including mastoiditis, necrotizing otitis externa, and patients with red flags to in-person or emergency care."
     ]
   },
-
   "causesAndRiskFactors": {
     "sectionTitle": "Causes and Risk Factors",
     "intro": "Understanding whether ear pain originates from the outer ear canal (otitis externa) or the middle ear (otitis media) helps determine the appropriate treatment approach. The AAO-HNS emphasizes that these conditions have different causes, risk factors, and treatment strategies.",
     "items": [
-      { "label": "Water exposure and moisture:", "text": "swimming, bathing, or humid environments create conditions for bacterial overgrowth in the ear canal, making otitis externa more likely" },
-      { "label": "Recent upper respiratory infection:", "text": "colds and viral URIs cause eustachian tube dysfunction and fluid accumulation behind the tympanic membrane, predisposing to acute otitis media" },
-      { "label": "Ear canal trauma:", "text": "use of cotton swabs, hearing aids, earbuds, or other objects in the ear canal disrupts the protective skin barrier and increases infection risk" },
-      { "label": "Allergic conditions:", "text": "allergic rhinitis and eczema can affect the ear canal skin and eustachian tube function, increasing susceptibility to both AOE and AOM" },
-      { "label": "Diabetes and immunosuppression:", "text": "these conditions increase the risk of severe and necrotizing otitis externa, which requires urgent in-person evaluation and is not appropriate for telehealth" },
-      { "label": "Anatomic factors:", "text": "narrow ear canals, exostoses from cold water exposure, or prior ear surgery can impair drainage and increase infection risk" }
+      {
+        "label": "Water exposure and moisture:",
+        "text": "swimming, bathing, or humid environments create conditions for bacterial overgrowth in the ear canal, making otitis externa more likely"
+      },
+      {
+        "label": "Recent upper respiratory infection:",
+        "text": "colds and viral URIs cause eustachian tube dysfunction and fluid accumulation behind the tympanic membrane, predisposing to acute otitis media"
+      },
+      {
+        "label": "Ear canal trauma:",
+        "text": "use of cotton swabs, hearing aids, earbuds, or other objects in the ear canal disrupts the protective skin barrier and increases infection risk"
+      },
+      {
+        "label": "Allergic conditions:",
+        "text": "allergic rhinitis and eczema can affect the ear canal skin and eustachian tube function, increasing susceptibility to both AOE and AOM"
+      },
+      {
+        "label": "Diabetes and immunosuppression:",
+        "text": "these conditions increase the risk of severe and necrotizing otitis externa, which requires urgent in-person evaluation and is not appropriate for telehealth"
+      },
+      {
+        "label": "Anatomic factors:",
+        "text": "narrow ear canals, exostoses from cold water exposure, or prior ear surgery can impair drainage and increase infection risk"
+      }
     ],
     "closing": "Not every patient with ear pain has an infection. Referred pain from the temporomandibular joint, dental issues, or throat conditions can cause ear pain without ear pathology. TeleDirectMD evaluates symptom patterns to determine the most likely cause and appropriate treatment."
   },
-
   "symptomsAndRedFlags": {
     "sectionTitle": "Symptoms and Red Flags for Ear Pain in {state}",
     "intro": "Use this table to understand which symptoms fit uncomplicated ear pain and which patterns suggest a need for urgent in-person or emergency evaluation.",
-    "headers": ["Symptom or situation", "What it suggests", "Telehealth appropriate?", "Red flag requiring urgent in-person care"],
+    "headers": [
+      "Symptom or situation",
+      "What it suggests",
+      "Telehealth appropriate?",
+      "Red flag requiring urgent in-person care"
+    ],
     "rows": [
-      ["Ear pain worsening when pulling the outer ear or pressing on the tragus", "Otitis externa (outer ear infection) is likely", "Often yes", "If severe with high fever or spreading cellulitis"],
-      ["Ear pain with discharge, itching, and fullness in the ear canal", "Otitis externa with possible canal debris", "Often yes", "If in a diabetic or immunocompromised patient with rapidly worsening symptoms"],
-      ["Ear pain following a cold or URI with muffled hearing", "Acute otitis media (middle ear infection) is possible", "Often yes", "If accompanied by high fever, severe illness, or mastoid tenderness"],
-      ["Ear pain with fever and swelling or tenderness behind the ear", "Possible mastoiditis requiring urgent evaluation", "No", "Emergency evaluation now"],
-      ["Facial weakness or facial droop with ear pain", "Possible facial nerve involvement or necrotizing otitis externa", "No", "Emergency evaluation now"],
-      ["Severe ear pain in a diabetic with granulation tissue or deep pain", "Possible necrotizing (malignant) otitis externa", "No", "Emergency evaluation now"],
-      ["Ear pain with confusion, severe headache, or neck stiffness", "Possible intracranial complication", "No", "Emergency evaluation now"],
-      ["Sudden complete hearing loss with or without ear pain", "Sudden sensorineural hearing loss requires urgent evaluation", "No", "Urgent ENT or ER evaluation now"]
+      [
+        "Ear pain worsening when pulling the outer ear or pressing on the tragus",
+        "Otitis externa (outer ear infection) is likely",
+        "Often yes",
+        "If severe with high fever or spreading cellulitis"
+      ],
+      [
+        "Ear pain with discharge, itching, and fullness in the ear canal",
+        "Otitis externa with possible canal debris",
+        "Often yes",
+        "If in a diabetic or immunocompromised patient with rapidly worsening symptoms"
+      ],
+      [
+        "Ear pain following a cold or URI with muffled hearing",
+        "Acute otitis media (middle ear infection) is possible",
+        "Often yes",
+        "If accompanied by high fever, severe illness, or mastoid tenderness"
+      ],
+      [
+        "Ear pain with fever and swelling or tenderness behind the ear",
+        "Possible mastoiditis requiring urgent evaluation",
+        "No",
+        "Emergency evaluation now"
+      ],
+      [
+        "Facial weakness or facial droop with ear pain",
+        "Possible facial nerve involvement or necrotizing otitis externa",
+        "No",
+        "Emergency evaluation now"
+      ],
+      [
+        "Severe ear pain in a diabetic with granulation tissue or deep pain",
+        "Possible necrotizing (malignant) otitis externa",
+        "No",
+        "Emergency evaluation now"
+      ],
+      [
+        "Ear pain with confusion, severe headache, or neck stiffness",
+        "Possible intracranial complication",
+        "No",
+        "Emergency evaluation now"
+      ],
+      [
+        "Sudden complete hearing loss with or without ear pain",
+        "Sudden sensorineural hearing loss requires urgent evaluation",
+        "No",
+        "Urgent ENT or ER evaluation now"
+      ]
     ]
   },
-
   "differentialDiagnosis": {
     "sectionTitle": "Differential Diagnosis: Ear Pain Causes and Conditions",
     "intro": "Several conditions can cause ear pain in adults. TeleDirectMD evaluates symptom patterns and history to distinguish uncomplicated otitis externa and otitis media from conditions requiring in-person evaluation or ENT referral.",
@@ -281,7 +368,6 @@
     ],
     "closing": "If your symptoms do not match uncomplicated ear pain or any red flags are present, TeleDirectMD will direct you to urgent in-person care, ENT referral, or the ER."
   },
-
   "telehealthEligibility": {
     "sectionTitle": "When Is a Video Visit Appropriate?",
     "appropriate": {
@@ -308,7 +394,6 @@
       "disclaimer": "If any red-flag symptoms are present, seek emergency care immediately. TeleDirectMD is not an emergency service."
     }
   },
-
   "treatmentOptions": {
     "sectionTitle": "Treatment Options",
     "intro": "The AAO-HNS 2014 guideline strongly recommends topical antibiotic eardrops as first-line therapy for acute otitis externa, not oral antibiotics. Approximately one-third of AOE cases are inappropriately treated with systemic antibiotics, which promotes resistance and provides less effective local drug concentrations than topical therapy. For acute otitis media, oral antibiotics such as amoxicillin may be appropriate when bacterial criteria are met.",
@@ -334,21 +419,49 @@
       "Ear canal debridement or wick placement for severe AOE"
     ]
   },
-
   "medications": {
     "sectionTitle": "Common Medication Options",
     "intro": "These are common options for adult ear pain. The actual medication, dose, and duration are determined by the MD after reviewing your symptoms, history, severity, and red flags. The AAO-HNS strongly recommends topical therapy as first-line for otitis externa rather than oral antibiotics.",
-    "headers": ["Medication", "Typical dose", "Duration", "Key considerations"],
+    "headers": [
+      "Medication",
+      "Typical dose",
+      "Duration",
+      "Key considerations"
+    ],
     "rows": [
-      ["Ofloxacin otic drops", "5 to 10 drops in affected ear twice daily", "7 days", "Fluoroquinolone eardrop for otitis externa. Safe with tympanic membrane perforation. No ototoxicity risk. First-line topical option per AAO-HNS guidelines."],
-      ["Ciprofloxacin/dexamethasone otic drops", "4 drops in affected ear twice daily", "7 days", "Combination antibiotic plus corticosteroid eardrop. Steroid component reduces inflammation and pain. Popular first-line choice for otitis externa."],
-      ["Amoxicillin", "500 mg by mouth three times daily or 875 mg twice daily", "5 to 10 days", "First-line oral antibiotic for acute otitis media when bacterial infection is suspected. Not appropriate for otitis externa (topical therapy is first-line for AOE)."],
-      ["Acetaminophen (Tylenol)", "500 to 1000 mg by mouth every 6 to 8 hours as needed", "As needed", "Over-the-counter pain reliever. The AAO-HNS emphasizes adequate pain management as an essential component of ear pain treatment."],
-      ["Ibuprofen (Advil, Motrin)", "200 to 400 mg by mouth every 6 to 8 hours as needed", "As needed", "Over-the-counter anti-inflammatory pain reliever. Provides both pain relief and anti-inflammatory effect. Take with food."]
+      [
+        "Ofloxacin otic drops",
+        "5 to 10 drops in affected ear twice daily",
+        "7 days",
+        "Fluoroquinolone eardrop for otitis externa. Safe with tympanic membrane perforation. No ototoxicity risk. First-line topical option per AAO-HNS guidelines."
+      ],
+      [
+        "Ciprofloxacin/dexamethasone otic drops",
+        "4 drops in affected ear twice daily",
+        "7 days",
+        "Combination antibiotic plus corticosteroid eardrop. Steroid component reduces inflammation and pain. Popular first-line choice for otitis externa."
+      ],
+      [
+        "Amoxicillin",
+        "500 mg by mouth three times daily or 875 mg twice daily",
+        "5 to 10 days",
+        "First-line oral antibiotic for acute otitis media when bacterial infection is suspected. Not appropriate for otitis externa (topical therapy is first-line for AOE)."
+      ],
+      [
+        "Acetaminophen (Tylenol)",
+        "500 to 1000 mg by mouth every 6 to 8 hours as needed",
+        "As needed",
+        "Over-the-counter pain reliever. The AAO-HNS emphasizes adequate pain management as an essential component of ear pain treatment."
+      ],
+      [
+        "Ibuprofen (Advil, Motrin)",
+        "200 to 400 mg by mouth every 6 to 8 hours as needed",
+        "As needed",
+        "Over-the-counter anti-inflammatory pain reliever. Provides both pain relief and anti-inflammatory effect. Take with food."
+      ]
     ],
     "note": "Example regimens only. The actual medication, dosing, and duration are determined by the MD after reviewing your symptoms, risk factors, allergies, and red flags. Topical eardrops are first-line for otitis externa per AAO-HNS guidelines. Oral antibiotics are reserved for otitis media or when infection extends beyond the ear canal. TeleDirectMD does not prescribe controlled substances."
   },
-
   "homeCare": {
     "sectionTitle": "Home Care, Recovery Timeline, Prevention, and Follow-up",
     "whatToDoNow": {
@@ -382,7 +495,6 @@
       ]
     }
   },
-
   "whenNotToUse": {
     "sectionTitle": "When Not to Use TeleDirectMD for Ear Pain in {state}",
     "intro": "TeleDirectMD is designed for uncomplicated ear pain symptoms. We are direct about when telehealth is not appropriate.",
@@ -402,14 +514,25 @@
     "alternatives": {
       "title": "Alternative Care Options",
       "items": [
-        { "label": "Emergency room:", "text": "severe ear pain with high fever and mastoid swelling, facial nerve paralysis, suspected necrotizing otitis externa, ear pain with confusion, or sudden complete hearing loss" },
-        { "label": "Urgent care:", "text": "moderate symptoms not improving, uncertain diagnosis, or when otoscopic examination is needed to visualize the ear canal and tympanic membrane" },
-        { "label": "ENT (otolaryngology):", "text": "chronic otitis media, cholesteatoma, recurrent infections, tympanic membrane perforation, hearing loss evaluation, ear canal debridement, and surgical evaluation" },
-        { "label": "Primary care:", "text": "recurrent ear infections, hearing concerns, prevention planning, and longer-term ear health evaluation" }
+        {
+          "label": "Emergency room:",
+          "text": "severe ear pain with high fever and mastoid swelling, facial nerve paralysis, suspected necrotizing otitis externa, ear pain with confusion, or sudden complete hearing loss"
+        },
+        {
+          "label": "Urgent care:",
+          "text": "moderate symptoms not improving, uncertain diagnosis, or when otoscopic examination is needed to visualize the ear canal and tympanic membrane"
+        },
+        {
+          "label": "ENT (otolaryngology):",
+          "text": "chronic otitis media, cholesteatoma, recurrent infections, tympanic membrane perforation, hearing loss evaluation, ear canal debridement, and surgical evaluation"
+        },
+        {
+          "label": "Primary care:",
+          "text": "recurrent ear infections, hearing concerns, prevention planning, and longer-term ear health evaluation"
+        }
       ]
     }
   },
-
   "faq": {
     "sectionTitle": "Ear Pain Treatment FAQs for {state}",
     "items": [
@@ -459,14 +582,24 @@
       "text": "Insurance is not required. Adult-only video visits. MD-only care. Safety-first triage, guideline-based treatment decisions, and prescriptions only when appropriate."
     }
   },
-
   "references": [
-    { "text": "AAO-HNS Clinical Practice Guideline: Acute Otitis Externa (Rosenfeld et al., Otolaryngology–Head and Neck Surgery, 2014)", "url": "https://journals.sagepub.com/doi/10.1177/0194599813517083" },
-    { "text": "AAFP: Diagnosis and Management of Acute Otitis Externa", "url": "https://www.aafp.org/pubs/afp/issues/2012/1201/p1055.html" },
-    { "text": "AAP Clinical Practice Guideline: The Diagnosis and Management of Acute Otitis Media", "url": "https://publications.aap.org/pediatrics/article/131/3/e964/30912/The-Diagnosis-and-Management-of-Acute-Otitis-Media" },
-    { "text": "Acute Otitis Externa, StatPearls (2025)", "url": "https://www.ncbi.nlm.nih.gov/books/NBK556055/" }
+    {
+      "text": "AAO-HNS Clinical Practice Guideline: Acute Otitis Externa (Rosenfeld et al., Otolaryngology–Head and Neck Surgery, 2014)",
+      "url": "https://journals.sagepub.com/doi/10.1177/0194599813517083"
+    },
+    {
+      "text": "AAFP: Diagnosis and Management of Acute Otitis Externa",
+      "url": "https://www.aafp.org/pubs/afp/issues/2012/1201/p1055.html"
+    },
+    {
+      "text": "AAP Clinical Practice Guideline: The Diagnosis and Management of Acute Otitis Media",
+      "url": "https://publications.aap.org/pediatrics/article/131/3/e964/30912/The-Diagnosis-and-Management-of-Acute-Otitis-Media"
+    },
+    {
+      "text": "Acute Otitis Externa, StatPearls (2025)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK556055/"
+    }
   ],
-
   "disclaimer": {
     "sectionTitle": "TeleDirectMD Telehealth Disclaimer",
     "paragraphs": [
@@ -475,7 +608,6 @@
       "Online ear pain treatment in {state}. Otitis treatment online. Ear infection care by video visit."
     ]
   },
-
   "relatedConditions": [
     {
       "slug": "sinus-infection-treatment-online",
@@ -498,39 +630,90 @@
       "description": "Flu can cause ear pain and secondary ear infections as a complication of upper respiratory inflammation"
     }
   ],
-
   "inlineLinks": [
-    { "slug": "sinus-infection-treatment-online", "label": "Sinus Infection" },
-    { "slug": "common-cold-treatment-online", "label": "Common Cold" },
-    { "slug": "sore-throat-treatment-online", "label": "Sore Throat" },
-    { "slug": "influenza-treatment-online", "label": "Influenza" },
-    { "slug": "asthma-refills-online", "label": "Asthma Refills" },
-    { "slug": "uti-treatment-online", "label": "UTI" },
-    { "slug": "pink-eye-treatment-online", "label": "Pink Eye" },
-    { "slug": "cold-sore-treatment-online", "label": "Cold Sore" },
-    { "slug": "covid-19-treatment-online", "label": "COVID-19" },
-    { "slug": "seasonal-allergies-treatment-online", "label": "Seasonal Allergies" }
+    {
+      "slug": "sinus-infection-treatment-online",
+      "label": "Sinus Infection"
+    },
+    {
+      "slug": "common-cold-treatment-online",
+      "label": "Common Cold"
+    },
+    {
+      "slug": "sore-throat-treatment-online",
+      "label": "Sore Throat"
+    },
+    {
+      "slug": "influenza-treatment-online",
+      "label": "Influenza"
+    },
+    {
+      "slug": "asthma-refills-online",
+      "label": "Asthma Refills"
+    },
+    {
+      "slug": "uti-treatment-online",
+      "label": "UTI"
+    },
+    {
+      "slug": "pink-eye-treatment-online",
+      "label": "Pink Eye"
+    },
+    {
+      "slug": "cold-sore-treatment-online",
+      "label": "Cold Sore"
+    },
+    {
+      "slug": "covid-19-treatment-online",
+      "label": "COVID-19"
+    },
+    {
+      "slug": "seasonal-allergies-treatment-online",
+      "label": "Seasonal Allergies"
+    }
   ],
-
   "cityBlock": {
     "title": "Adults We Serve Across {state}",
     "text": "TeleDirectMD evaluates adults located throughout {state}, including {citiesExtended}. Whether you are searching for online ear pain treatment in {city1}, otitis externa care in {city2}, ear infection treatment online in {city3}, or telehealth ear pain evaluation anywhere else in {state}, the same telehealth eligibility and safety rules apply."
   },
-
   "icd10Codes": [
-    { "code": "H60.9", "description": "Otitis externa, unspecified" },
-    { "code": "H66.9", "description": "Otitis media, unspecified" },
-    { "code": "H92.0", "description": "Otalgia" },
-    { "code": "H60.5", "description": "Acute otitis externa, unspecified" }
+    {
+      "code": "H60.9",
+      "description": "Otitis externa, unspecified"
+    },
+    {
+      "code": "H66.9",
+      "description": "Otitis media, unspecified"
+    },
+    {
+      "code": "H92.0",
+      "description": "Otalgia"
+    },
+    {
+      "code": "H60.5",
+      "description": "Acute otitis externa, unspecified"
+    }
   ],
-
   "jsonLd": {
     "conditionName": "Ear Pain",
-    "conditionAlternateNames": ["Otalgia", "Otitis externa", "Swimmer's ear", "Otitis media", "Ear infection"],
+    "conditionAlternateNames": [
+      "Otalgia",
+      "Otitis externa",
+      "Swimmer's ear",
+      "Otitis media",
+      "Ear infection"
+    ],
     "conditionDescription": "Ear pain (otalgia) in adults most commonly results from acute otitis externa or acute otitis media. TeleDirectMD evaluates adult ear pain symptoms by video visit with safety-first red-flag screening, guideline-based topical therapy for otitis externa following AAO-HNS recommendations, appropriate oral antibiotics for otitis media when indicated, and clear rules for when ENT referral or emergency care is needed.",
     "primaryIcd10": "H92.0",
     "anatomy": "External auditory canal and middle ear",
-    "symptoms": ["Ear pain", "Ear discharge", "Ear itching", "Ear fullness", "Muffled hearing", "Pain with tragal pressure"],
+    "symptoms": [
+      "Ear pain",
+      "Ear discharge",
+      "Ear itching",
+      "Ear fullness",
+      "Muffled hearing",
+      "Pain with tragal pressure"
+    ],
     "riskFactors": [
       "Water exposure or swimming",
       "Recent upper respiratory infection",
@@ -547,10 +730,22 @@
     ],
     "epidemiology": "Acute otitis externa affects approximately 1 in 123 Americans annually. Otitis media is one of the most common reasons for medical visits, though it is more prevalent in children than adults.",
     "drugs": [
-      { "name": "Ofloxacin otic drops", "id": "ofloxacin-otic" },
-      { "name": "Ciprofloxacin/dexamethasone otic drops", "id": "ciprodex-otic" },
-      { "name": "Amoxicillin", "id": "amoxicillin" },
-      { "name": "Acetaminophen", "id": "acetaminophen" }
+      {
+        "name": "Ofloxacin otic drops",
+        "id": "ofloxacin-otic"
+      },
+      {
+        "name": "Ciprofloxacin/dexamethasone otic drops",
+        "id": "ciprodex-otic"
+      },
+      {
+        "name": "Amoxicillin",
+        "id": "amoxicillin"
+      },
+      {
+        "name": "Acetaminophen",
+        "id": "acetaminophen"
+      }
     ],
     "treatments": [
       "Topical antibiotic eardrops for otitis externa",
@@ -564,11 +759,30 @@
       "Red-flag screening for complications",
       "Otoscopic examination when in-person evaluation is needed"
     ],
-    "specialties": ["Family Medicine", "Telemedicine", "Otolaryngology"],
+    "specialties": [
+      "Family Medicine",
+      "Telemedicine",
+      "Otolaryngology"
+    ],
     "guidelines": [
-      { "name": "AAO-HNS Clinical Practice Guideline: Acute Otitis Externa", "url": "https://journals.sagepub.com/doi/10.1177/0194599813517083", "publisher": "American Academy of Otolaryngology–Head and Neck Surgery", "id": "aao-hns" },
-      { "name": "AAFP Diagnosis and Management of Acute Otitis Externa", "url": "https://www.aafp.org/pubs/afp/issues/2012/1201/p1055.html", "publisher": "American Academy of Family Physicians", "id": "aafp" },
-      { "name": "AAP Clinical Practice Guideline: Acute Otitis Media", "url": "https://publications.aap.org/pediatrics/article/131/3/e964/30912/The-Diagnosis-and-Management-of-Acute-Otitis-Media", "publisher": "American Academy of Pediatrics", "id": "aap" }
+      {
+        "name": "AAO-HNS Clinical Practice Guideline: Acute Otitis Externa",
+        "url": "https://journals.sagepub.com/doi/10.1177/0194599813517083",
+        "publisher": "American Academy of Otolaryngology–Head and Neck Surgery",
+        "id": "aao-hns"
+      },
+      {
+        "name": "AAFP Diagnosis and Management of Acute Otitis Externa",
+        "url": "https://www.aafp.org/pubs/afp/issues/2012/1201/p1055.html",
+        "publisher": "American Academy of Family Physicians",
+        "id": "aafp"
+      },
+      {
+        "name": "AAP Clinical Practice Guideline: Acute Otitis Media",
+        "url": "https://publications.aap.org/pediatrics/article/131/3/e964/30912/The-Diagnosis-and-Management-of-Acute-Otitis-Media",
+        "publisher": "American Academy of Pediatrics",
+        "id": "aap"
+      }
     ],
     "knowsAbout": [
       "Ear pain treatment",
@@ -581,5 +795,7 @@
     ],
     "serviceDescription": "Secure video visit for {state} adults with ear pain symptoms, including red-flag screening, guideline-based topical therapy for otitis externa, appropriate oral antibiotics for otitis media, and prescriptions when clinically appropriate.",
     "webpageDescription": "{state} ear pain treatment by secure MD video visit for adults. Evidence-based evaluation of otitis externa and otitis media symptoms, red-flag screening, topical eardrop prescriptions when appropriate, and clear rules for when ENT referral or emergency care is needed."
-  }
+  },
+  "guidelineSource": "aaohns",
+  "conditionType": "treatment"
 }

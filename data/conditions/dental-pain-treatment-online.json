@@ -2,20 +2,34 @@
   "conditionName": "Dental Pain Treatment",
   "conditionShort": "Dental Pain",
   "conditionSlug": "dental-pain-treatment-online",
-  "pageTitle": "Dental Pain Treatment Online in {state} | Toothache MD Video Visit | TeleDirectMD",
+  "pageTitle": "Dental Pain Online Treatment in {state} | TeleDirectMD",
   "metaDescription": "Evidence-based interim dental pain management for {state} adults by secure video visit. Pain relief guidance, antibiotic stewardship per ADA guidelines, and clear referral to definitive dental care. Self pay option starting at $49. Insurance is not required.",
   "ogImageAlt": "Dental pain treatment in {state} by TeleDirectMD",
-
   "hero": {
     "h1": "Dental Pain Treatment in {state} (Interim Toothache Management)",
     "subtitle": "{state} adult care by secure video visit, self pay option starting at $49, MD-only, insurance is not required.",
     "introParagraph": "Dental pain, commonly called a toothache, can range from mild sensitivity to severe throbbing that disrupts sleep and daily function. While definitive dental treatment such as extraction, root canal, or incision and drainage requires an in-person dentist, many adults face delays getting a dental appointment and need interim pain management now. The American Dental Association emphasizes that antibiotics are not recommended for most dental pain conditions without systemic involvement, and that the combination of ibuprofen plus acetaminophen is the most effective first-line analgesic approach for acute dental pain. TeleDirectMD provides a safety-first telehealth bridge: we screen for red flags including facial swelling with fever, difficulty breathing or swallowing, trismus, and spreading infection, provide evidence-based pain management guidance, and prescribe antibiotics only when signs of systemic involvement are present. Every patient is instructed to follow up with a dentist within 24 to 48 hours for definitive care. This page is for adults located in {state}, including {cities}.",
     "tocLinks": [
-      { "href": "eligibility-checklist", "label": "Eligibility checklist" },
-      { "href": "decision-guide", "label": "Decision guide" },
-      { "href": "treatment-options", "label": "Treatment options" },
-      { "href": "faq", "label": "FAQs" },
-      { "href": "references", "label": "References" }
+      {
+        "href": "eligibility-checklist",
+        "label": "Eligibility checklist"
+      },
+      {
+        "href": "decision-guide",
+        "label": "Decision guide"
+      },
+      {
+        "href": "treatment-options",
+        "label": "Treatment options"
+      },
+      {
+        "href": "faq",
+        "label": "FAQs"
+      },
+      {
+        "href": "references",
+        "label": "References"
+      }
     ],
     "benefits": [
       "Self pay option starting at $49",
@@ -35,7 +49,6 @@
     },
     "icd10Display": "K08.89, K04.0, K04.7, K05.20 (final coding depends on clinical details)"
   },
-
   "eligibility": {
     "sectionTitle": "Dental Pain Telehealth Eligibility Checklist for {state}",
     "introText": "You are likely eligible for a TeleDirectMD video visit if ALL of these are true:",
@@ -58,7 +71,6 @@
     ],
     "notEligibleDisclaimer": "If you have red-flag symptoms, seek urgent in-person care or emergency care immediately. Dental infections can become life-threatening if they spread to the airway or deep tissue spaces. TeleDirectMD is not an emergency service."
   },
-
   "howItWorks": {
     "sectionTitle": "How Online Dental Pain Treatment Works in {state}",
     "steps": [
@@ -80,7 +92,6 @@
       }
     ]
   },
-
   "telehealthRegulations": {
     "sectionTitle": "{state} Telehealth Regulations for Online Dental Pain Care",
     "paragraphs": [
@@ -88,7 +99,6 @@
       "Location matters: you must be physically in {state} during the visit. Insurance is not required. TeleDirectMD does not prescribe controlled substances including opioid pain medications."
     ]
   },
-
   "comparisonTable": {
     "sectionTitle": "TeleDirectMD vs Other Care Options for Dental Pain in {state}",
     "intro": "Here is how TeleDirectMD compares to common settings for adult dental pain care in {state}:",
@@ -136,7 +146,6 @@
     ],
     "bottomLine": "TeleDirectMD provides evidence-based interim dental pain management with a clear bridge to definitive dental care within 24 to 48 hours."
   },
-
   "decisionGuide": {
     "sectionTitle": "Should I Use TeleDirectMD for Dental Pain in {state}? Decision Guide",
     "steps": [
@@ -182,7 +191,6 @@
       }
     ]
   },
-
   "pricing": {
     "sectionTitle": "What Does Online Dental Pain Treatment Cost in {state}?",
     "subtitle": "Transparent options. Insurance is not required.",
@@ -196,15 +204,34 @@
       "Clear referral instructions to see a dentist within 24 to 48 hours"
     ],
     "comparisonBars": [
-      { "name": "TeleDirectMD", "value": "$49", "width": 12, "isTdmd": true },
-      { "name": "Primary Care", "value": "$100 to $250+", "width": 45, "isTdmd": false },
-      { "name": "Urgent Care", "value": "$150 to $300+", "width": 55, "isTdmd": false },
-      { "name": "Emergency Room", "value": "$500 to $3,000+", "width": 100, "isTdmd": false }
+      {
+        "name": "TeleDirectMD",
+        "value": "$49",
+        "width": 12,
+        "isTdmd": true
+      },
+      {
+        "name": "Primary Care",
+        "value": "$100 to $250+",
+        "width": 45,
+        "isTdmd": false
+      },
+      {
+        "name": "Urgent Care",
+        "value": "$150 to $300+",
+        "width": 55,
+        "isTdmd": false
+      },
+      {
+        "name": "Emergency Room",
+        "value": "$500 to $3,000+",
+        "width": 100,
+        "isTdmd": false
+      }
     ],
     "footnote": "Prescription costs at your pharmacy are separate and vary by medication and pharmacy. Definitive dental treatment costs are separate.",
     "noHiddenFees": "No hidden fees. If medication is not clinically appropriate, you still receive a complete evaluation, guidance, and clear instructions on what level of care you need next."
   },
-
   "whatIsCondition": {
     "sectionTitle": "What Is Dental Pain?",
     "paragraphs": [
@@ -213,37 +240,95 @@
       "TeleDirectMD provides an evidence-based telehealth bridge for adults with dental pain: we screen for red flags that require emergency care, provide guideline-based pain management, prescribe antibiotics only when systemic involvement is present per ADA recommendations, and ensure every patient understands the need to see a dentist within 24 to 48 hours for definitive care. This is interim management, not a substitute for dental treatment."
     ]
   },
-
   "causesAndRiskFactors": {
     "sectionTitle": "Causes and Risk Factors",
     "intro": "Dental pain can arise from several conditions affecting the teeth, gums, and surrounding structures. Understanding the likely cause helps determine whether interim medical management is appropriate and how urgently definitive dental care is needed.",
     "items": [
-      { "label": "Irreversible pulpitis:", "text": "inflammation of the tooth nerve (pulp) that causes sharp, lingering pain triggered by hot, cold, or biting, and often becomes spontaneous and constant as the condition progresses" },
-      { "label": "Apical periodontitis:", "text": "infection or inflammation at the root tip of a tooth, causing localized tenderness to biting pressure, and sometimes progressing to abscess formation" },
-      { "label": "Dental abscess:", "text": "a localized collection of pus at the root tip or along the gum line, causing throbbing pain, swelling, and sometimes a visible gum boil or draining fistula" },
-      { "label": "Periodontal disease:", "text": "gum infection causing gum pain, bleeding, recession, and sometimes loose teeth, most common in adults with poor oral hygiene, smoking, or diabetes" },
-      { "label": "Cracked or fractured tooth:", "text": "pain on biting that is often sharp and intermittent, especially with hard or chewy foods" },
-      { "label": "Dry socket (alveolar osteitis):", "text": "severe pain 2 to 4 days after tooth extraction when the blood clot dislodges, exposing bone" },
-      { "label": "TMJ disorder:", "text": "jaw joint pain that can mimic tooth pain, often with clicking, popping, or difficulty opening the mouth, and typically worse with chewing or jaw clenching" }
+      {
+        "label": "Irreversible pulpitis:",
+        "text": "inflammation of the tooth nerve (pulp) that causes sharp, lingering pain triggered by hot, cold, or biting, and often becomes spontaneous and constant as the condition progresses"
+      },
+      {
+        "label": "Apical periodontitis:",
+        "text": "infection or inflammation at the root tip of a tooth, causing localized tenderness to biting pressure, and sometimes progressing to abscess formation"
+      },
+      {
+        "label": "Dental abscess:",
+        "text": "a localized collection of pus at the root tip or along the gum line, causing throbbing pain, swelling, and sometimes a visible gum boil or draining fistula"
+      },
+      {
+        "label": "Periodontal disease:",
+        "text": "gum infection causing gum pain, bleeding, recession, and sometimes loose teeth, most common in adults with poor oral hygiene, smoking, or diabetes"
+      },
+      {
+        "label": "Cracked or fractured tooth:",
+        "text": "pain on biting that is often sharp and intermittent, especially with hard or chewy foods"
+      },
+      {
+        "label": "Dry socket (alveolar osteitis):",
+        "text": "severe pain 2 to 4 days after tooth extraction when the blood clot dislodges, exposing bone"
+      },
+      {
+        "label": "TMJ disorder:",
+        "text": "jaw joint pain that can mimic tooth pain, often with clicking, popping, or difficulty opening the mouth, and typically worse with chewing or jaw clenching"
+      }
     ],
     "closing": "Not every dental pain requires antibiotics. The American Dental Association emphasizes that most pulpal and periapical conditions are best treated with definitive dental procedures, not antibiotics. TeleDirectMD uses careful symptom assessment and ADA guidelines to avoid unnecessary antibiotic prescribing while ensuring that patients with systemic signs of infection receive appropriate treatment."
   },
-
   "symptomsAndRedFlags": {
     "sectionTitle": "Symptoms and Red Flags for Dental Pain in {state}",
     "intro": "Use this table to understand which dental pain symptoms are appropriate for interim telehealth management and which require urgent in-person evaluation.",
-    "headers": ["Symptom or situation", "What it suggests", "Telehealth appropriate?", "Red flag requiring urgent in-person care"],
+    "headers": [
+      "Symptom or situation",
+      "What it suggests",
+      "Telehealth appropriate?",
+      "Red flag requiring urgent in-person care"
+    ],
     "rows": [
-      ["Localized toothache, sensitivity to hot or cold", "Pulpitis or early periapical disease", "Often yes (interim management)", "If pain is uncontrolled despite maximum OTC analgesics"],
-      ["Throbbing pain with localized gum swelling", "Possible dental abscess", "Sometimes (interim management with referral)", "If fever, facial swelling, or spreading redness is present"],
-      ["Pain on biting, tenderness to pressure on one tooth", "Apical periodontitis or cracked tooth", "Often yes (interim management)", "If associated with facial swelling or systemic symptoms"],
-      ["Gum bleeding, soreness, recession", "Periodontal disease", "Sometimes (interim guidance)", "If acute necrotizing periodontal disease with fever and malaise"],
-      ["Severe pain 2 to 4 days after extraction", "Dry socket (alveolar osteitis)", "Sometimes (pain management)", "If fever, purulent drainage, or expanding swelling"],
-      ["Facial swelling with fever or chills", "Spreading dental infection with systemic involvement", "No", "Urgent in-person care or ER immediately"],
-      ["Difficulty breathing, swallowing, or opening mouth", "Possible deep space infection or Ludwig's angina", "No", "Call 911 or go to the ER immediately — airway emergency"]
+      [
+        "Localized toothache, sensitivity to hot or cold",
+        "Pulpitis or early periapical disease",
+        "Often yes (interim management)",
+        "If pain is uncontrolled despite maximum OTC analgesics"
+      ],
+      [
+        "Throbbing pain with localized gum swelling",
+        "Possible dental abscess",
+        "Sometimes (interim management with referral)",
+        "If fever, facial swelling, or spreading redness is present"
+      ],
+      [
+        "Pain on biting, tenderness to pressure on one tooth",
+        "Apical periodontitis or cracked tooth",
+        "Often yes (interim management)",
+        "If associated with facial swelling or systemic symptoms"
+      ],
+      [
+        "Gum bleeding, soreness, recession",
+        "Periodontal disease",
+        "Sometimes (interim guidance)",
+        "If acute necrotizing periodontal disease with fever and malaise"
+      ],
+      [
+        "Severe pain 2 to 4 days after extraction",
+        "Dry socket (alveolar osteitis)",
+        "Sometimes (pain management)",
+        "If fever, purulent drainage, or expanding swelling"
+      ],
+      [
+        "Facial swelling with fever or chills",
+        "Spreading dental infection with systemic involvement",
+        "No",
+        "Urgent in-person care or ER immediately"
+      ],
+      [
+        "Difficulty breathing, swallowing, or opening mouth",
+        "Possible deep space infection or Ludwig's angina",
+        "No",
+        "Call 911 or go to the ER immediately — airway emergency"
+      ]
     ]
   },
-
   "differentialDiagnosis": {
     "sectionTitle": "Differential Diagnosis: Dental Pain vs Other Conditions",
     "intro": "Several conditions can cause pain in the mouth, jaw, or face that mimics dental pain. TeleDirectMD screens for these alternatives to ensure appropriate care, and directs patients to the right provider when dental pain may actually be caused by a non-dental condition.",
@@ -279,7 +364,6 @@
     ],
     "closing": "If your symptoms do not match a straightforward dental pain pattern or any red flags are present, TeleDirectMD will direct you to urgent in-person care or emergency evaluation."
   },
-
   "telehealthEligibility": {
     "sectionTitle": "When Is a Video Visit Appropriate?",
     "appropriate": {
@@ -306,7 +390,6 @@
       "disclaimer": "If any red-flag symptoms are present, seek urgent in-person or emergency care. Dental infections involving the airway or deep tissue spaces can be life-threatening. TeleDirectMD is not an emergency service."
     }
   },
-
   "treatmentOptions": {
     "sectionTitle": "Treatment Options",
     "intro": "The primary role of telehealth in dental pain is interim management — effective pain relief and appropriate antibiotic use while the patient arranges definitive dental care. The American Dental Association 2019 guidelines emphasize that antibiotics are not indicated for most pulpal and periapical conditions without systemic involvement, and that the ibuprofen plus acetaminophen combination is the most effective first-line analgesic for acute dental pain.",
@@ -336,24 +419,67 @@
       "Ongoing dental care, orthodontics, or cosmetic dental concerns"
     ]
   },
-
   "medications": {
     "sectionTitle": "Common Medication Options",
     "intro": "These are common examples for interim dental pain management. The actual medication, dose, and duration are determined by the MD after reviewing your symptoms, allergies, medical history, and red flags. Per ADA 2019 guidelines, the ibuprofen plus acetaminophen combination is first-line for dental pain, and antibiotics are prescribed only when systemic signs of infection are present.",
-    "headers": ["Medication", "Typical dose", "Duration", "Key considerations"],
+    "headers": [
+      "Medication",
+      "Typical dose",
+      "Duration",
+      "Key considerations"
+    ],
     "rows": [
-      ["Ibuprofen + Acetaminophen (combination)", "Ibuprofen 400-600 mg plus Acetaminophen 1000 mg by mouth together", "Every 6 to 8 hours as needed", "Most effective first-line analgesic for dental pain per ADA. Avoid ibuprofen with kidney disease, GI bleeding history, or certain blood thinners. Do not exceed 3000 mg acetaminophen per day."],
-      ["Ibuprofen (alone)", "400 to 600 mg by mouth every 6 to 8 hours with food", "As needed, typically 3 to 7 days", "Effective NSAID for dental pain. Maximum 2400 mg per day. Avoid with kidney disease, GI bleeding, or certain medications."],
-      ["Acetaminophen (alone)", "500 to 1000 mg by mouth every 6 hours", "As needed, typically 3 to 7 days", "Alternative when NSAIDs are not appropriate. Maximum 3000 mg per day (lower in liver disease or alcohol use)."],
-      ["Amoxicillin", "500 mg by mouth three times daily", "3 to 7 days", "First-line antibiotic when systemic signs of infection are present (fever, malaise, spreading infection). Not indicated for localized dental pain without systemic involvement."],
-      ["Penicillin VK", "500 mg by mouth four times daily", "3 to 7 days", "Alternative first-line antibiotic for dental infections with systemic signs. Requires penicillin tolerance."],
-      ["Clindamycin", "300 mg by mouth four times daily", "3 to 7 days", "Alternative for patients with penicillin allergy when antibiotics are indicated. Monitor for GI side effects."],
-      ["Azithromycin", "500 mg day 1, then 250 mg daily", "5 days total", "Alternative for penicillin-allergic patients. Less evidence for dental infections but acceptable when other options are not tolerated."],
-      ["Amoxicillin-clavulanate", "500/125 mg by mouth three times daily", "3 to 7 days", "Option when first-line amoxicillin fails or polymicrobial infection is suspected. Broader spectrum with anaerobic coverage."]
+      [
+        "Ibuprofen + Acetaminophen (combination)",
+        "Ibuprofen 400-600 mg plus Acetaminophen 1000 mg by mouth together",
+        "Every 6 to 8 hours as needed",
+        "Most effective first-line analgesic for dental pain per ADA. Avoid ibuprofen with kidney disease, GI bleeding history, or certain blood thinners. Do not exceed 3000 mg acetaminophen per day."
+      ],
+      [
+        "Ibuprofen (alone)",
+        "400 to 600 mg by mouth every 6 to 8 hours with food",
+        "As needed, typically 3 to 7 days",
+        "Effective NSAID for dental pain. Maximum 2400 mg per day. Avoid with kidney disease, GI bleeding, or certain medications."
+      ],
+      [
+        "Acetaminophen (alone)",
+        "500 to 1000 mg by mouth every 6 hours",
+        "As needed, typically 3 to 7 days",
+        "Alternative when NSAIDs are not appropriate. Maximum 3000 mg per day (lower in liver disease or alcohol use)."
+      ],
+      [
+        "Amoxicillin",
+        "500 mg by mouth three times daily",
+        "3 to 7 days",
+        "First-line antibiotic when systemic signs of infection are present (fever, malaise, spreading infection). Not indicated for localized dental pain without systemic involvement."
+      ],
+      [
+        "Penicillin VK",
+        "500 mg by mouth four times daily",
+        "3 to 7 days",
+        "Alternative first-line antibiotic for dental infections with systemic signs. Requires penicillin tolerance."
+      ],
+      [
+        "Clindamycin",
+        "300 mg by mouth four times daily",
+        "3 to 7 days",
+        "Alternative for patients with penicillin allergy when antibiotics are indicated. Monitor for GI side effects."
+      ],
+      [
+        "Azithromycin",
+        "500 mg day 1, then 250 mg daily",
+        "5 days total",
+        "Alternative for penicillin-allergic patients. Less evidence for dental infections but acceptable when other options are not tolerated."
+      ],
+      [
+        "Amoxicillin-clavulanate",
+        "500/125 mg by mouth three times daily",
+        "3 to 7 days",
+        "Option when first-line amoxicillin fails or polymicrobial infection is suspected. Broader spectrum with anaerobic coverage."
+      ]
     ],
     "note": "Example regimens only. The actual medication, dosing, and duration are determined by the MD after reviewing your symptoms, risk factors, allergies, medical history, and red flags. TeleDirectMD does not prescribe controlled substances including opioid pain medications. Antibiotics are prescribed only when ADA criteria for systemic involvement are met."
   },
-
   "homeCare": {
     "sectionTitle": "Home Care, Recovery, and Follow-up",
     "whatToDoNow": {
@@ -388,7 +514,6 @@
       ]
     }
   },
-
   "whenNotToUse": {
     "sectionTitle": "When Not to Use TeleDirectMD for Dental Pain in {state}",
     "intro": "TeleDirectMD is designed for interim dental pain management in adults. We are direct about when telehealth is not appropriate.",
@@ -410,14 +535,25 @@
     "alternatives": {
       "title": "Alternative Care Options",
       "items": [
-        { "label": "Emergency room:", "text": "facial swelling with fever, difficulty breathing or swallowing, trismus, spreading neck swelling, uncontrolled bleeding, or signs of Ludwig's angina" },
-        { "label": "Urgent care:", "text": "moderate facial swelling, dental pain not responding to OTC medications, or when a same-day in-person exam is needed" },
-        { "label": "Dentist:", "text": "definitive treatment including extraction, root canal, incision and drainage, and all ongoing dental care — this should be your next step within 24 to 48 hours" },
-        { "label": "Primary care:", "text": "dental pain with underlying medical conditions, medication management, or when dental access is limited and medical coordination is needed" }
+        {
+          "label": "Emergency room:",
+          "text": "facial swelling with fever, difficulty breathing or swallowing, trismus, spreading neck swelling, uncontrolled bleeding, or signs of Ludwig's angina"
+        },
+        {
+          "label": "Urgent care:",
+          "text": "moderate facial swelling, dental pain not responding to OTC medications, or when a same-day in-person exam is needed"
+        },
+        {
+          "label": "Dentist:",
+          "text": "definitive treatment including extraction, root canal, incision and drainage, and all ongoing dental care — this should be your next step within 24 to 48 hours"
+        },
+        {
+          "label": "Primary care:",
+          "text": "dental pain with underlying medical conditions, medication management, or when dental access is limited and medical coordination is needed"
+        }
       ]
     }
   },
-
   "faq": {
     "sectionTitle": "Dental Pain Treatment FAQs for {state}",
     "items": [
@@ -467,15 +603,28 @@
       "text": "Insurance is not required. Adult-only video visits. MD-only care. Safety-first triage, interim pain management, and clear referral to definitive dental care."
     }
   },
-
   "references": [
-    { "text": "ADA Clinical Practice Guideline on Antibiotic Use for Emergency Management of Pulpal and Periapical Dental Pain and Intraoral Swelling (Lockhart et al., JADA, 2019)", "url": "https://jada.ada.org/article/S0002-8177(19)30467-X/fulltext" },
-    { "text": "ADA Guideline on Dental Pain Management: NSAIDs and Non-Opioid Analgesics (JADA, 2020)", "url": "https://jada.ada.org/article/S0002-8177(20)30189-4/fulltext" },
-    { "text": "Management of Acute Dental Pain, StatPearls (2025)", "url": "https://www.ncbi.nlm.nih.gov/books/NBK551531/" },
-    { "text": "Dental Abscess, StatPearls (2025)", "url": "https://www.ncbi.nlm.nih.gov/books/NBK493149/" },
-    { "text": "CDC Antibiotic Prescribing in Dentistry — Outpatient Stewardship", "url": "https://www.cdc.gov/antibiotic-use/dentistry.html" }
+    {
+      "text": "ADA Clinical Practice Guideline on Antibiotic Use for Emergency Management of Pulpal and Periapical Dental Pain and Intraoral Swelling (Lockhart et al., JADA, 2019)",
+      "url": "https://jada.ada.org/article/S0002-8177(19)30467-X/fulltext"
+    },
+    {
+      "text": "ADA Guideline on Dental Pain Management: NSAIDs and Non-Opioid Analgesics (JADA, 2020)",
+      "url": "https://jada.ada.org/article/S0002-8177(20)30189-4/fulltext"
+    },
+    {
+      "text": "Management of Acute Dental Pain, StatPearls (2025)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK551531/"
+    },
+    {
+      "text": "Dental Abscess, StatPearls (2025)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK493149/"
+    },
+    {
+      "text": "CDC Antibiotic Prescribing in Dentistry — Outpatient Stewardship",
+      "url": "https://www.cdc.gov/antibiotic-use/dentistry.html"
+    }
   ],
-
   "disclaimer": {
     "sectionTitle": "TeleDirectMD Telehealth Disclaimer",
     "paragraphs": [
@@ -484,7 +633,6 @@
       "Online dental pain treatment in {state}. Toothache treatment online. Emergency toothache relief by video visit. Dental pain antibiotics online."
     ]
   },
-
   "relatedConditions": [
     {
       "slug": "sore-throat-treatment-online",
@@ -507,40 +655,93 @@
       "description": "Oral herpes can cause mouth pain that may be confused with dental conditions"
     }
   ],
-
   "inlineLinks": [
-    { "slug": "sore-throat-treatment-online", "label": "Sore Throat" },
-    { "slug": "ear-pain-treatment-online", "label": "Ear Pain" },
-    { "slug": "sinus-infection-treatment-online", "label": "Sinus Infection" },
-    { "slug": "cold-sore-treatment-online", "label": "Cold Sore" },
-    { "slug": "pink-eye-treatment-online", "label": "Pink Eye" },
-    { "slug": "uti-treatment-online", "label": "UTI Treatment" },
-    { "slug": "common-cold-treatment-online", "label": "Common Cold" },
-    { "slug": "influenza-treatment-online", "label": "Influenza" },
-    { "slug": "covid-19-treatment-online", "label": "COVID-19" },
-    { "slug": "asthma-refills-online", "label": "Asthma Refills" }
+    {
+      "slug": "sore-throat-treatment-online",
+      "label": "Sore Throat"
+    },
+    {
+      "slug": "ear-pain-treatment-online",
+      "label": "Ear Pain"
+    },
+    {
+      "slug": "sinus-infection-treatment-online",
+      "label": "Sinus Infection"
+    },
+    {
+      "slug": "cold-sore-treatment-online",
+      "label": "Cold Sore"
+    },
+    {
+      "slug": "pink-eye-treatment-online",
+      "label": "Pink Eye"
+    },
+    {
+      "slug": "uti-treatment-online",
+      "label": "UTI Treatment"
+    },
+    {
+      "slug": "common-cold-treatment-online",
+      "label": "Common Cold"
+    },
+    {
+      "slug": "influenza-treatment-online",
+      "label": "Influenza"
+    },
+    {
+      "slug": "covid-19-treatment-online",
+      "label": "COVID-19"
+    },
+    {
+      "slug": "asthma-refills-online",
+      "label": "Asthma Refills"
+    }
   ],
-
   "cityBlock": {
     "title": "Adults We Serve Across {state}",
     "text": "TeleDirectMD evaluates adults located throughout {state}, including {citiesExtended}. Whether you are searching for online dental pain treatment in {city1}, toothache care in {city2}, emergency toothache relief in {city3}, or telehealth dental pain management anywhere else in {state}, the same telehealth eligibility and safety rules apply."
   },
-
   "icd10Codes": [
-    { "code": "K08.89", "description": "Other specified disorders of teeth and supporting structures" },
-    { "code": "K04.0", "description": "Pulpitis (inflammation of tooth pulp)" },
-    { "code": "K04.7", "description": "Periapical abscess without sinus" },
-    { "code": "K05.20", "description": "Aggressive periodontitis, unspecified" },
-    { "code": "K04.4", "description": "Acute apical periodontitis of pulpal origin" }
+    {
+      "code": "K08.89",
+      "description": "Other specified disorders of teeth and supporting structures"
+    },
+    {
+      "code": "K04.0",
+      "description": "Pulpitis (inflammation of tooth pulp)"
+    },
+    {
+      "code": "K04.7",
+      "description": "Periapical abscess without sinus"
+    },
+    {
+      "code": "K05.20",
+      "description": "Aggressive periodontitis, unspecified"
+    },
+    {
+      "code": "K04.4",
+      "description": "Acute apical periodontitis of pulpal origin"
+    }
   ],
-
   "jsonLd": {
     "conditionName": "Dental Pain",
-    "conditionAlternateNames": ["Toothache", "Odontogenic pain", "Pulpitis", "Dental abscess", "Tooth pain"],
+    "conditionAlternateNames": [
+      "Toothache",
+      "Odontogenic pain",
+      "Pulpitis",
+      "Dental abscess",
+      "Tooth pain"
+    ],
     "conditionDescription": "Dental pain (toothache) is pain originating from the teeth, gums, or surrounding structures, most commonly caused by pulpitis, periapical disease, dental abscess, or periodontal conditions. TeleDirectMD provides interim management including evidence-based pain relief per ADA guidelines, antibiotic stewardship, and clear referral to definitive dental care within 24 to 48 hours.",
     "primaryIcd10": "K08.89",
     "anatomy": "Teeth and oral cavity",
-    "symptoms": ["Toothache", "Tooth sensitivity to hot or cold", "Throbbing dental pain", "Gum swelling", "Pain on biting"],
+    "symptoms": [
+      "Toothache",
+      "Tooth sensitivity to hot or cold",
+      "Throbbing dental pain",
+      "Gum swelling",
+      "Pain on biting"
+    ],
     "riskFactors": [
       "Poor oral hygiene",
       "Untreated dental caries",
@@ -556,10 +757,22 @@
     ],
     "epidemiology": "Dental emergencies are among the most common reasons for emergency department visits in the United States. The ADA reports that millions of Americans visit ERs annually for dental pain, often due to limited access to timely dental care.",
     "drugs": [
-      { "name": "Ibuprofen", "id": "ibuprofen" },
-      { "name": "Acetaminophen", "id": "acetaminophen" },
-      { "name": "Amoxicillin", "id": "amoxicillin" },
-      { "name": "Clindamycin", "id": "clindamycin" }
+      {
+        "name": "Ibuprofen",
+        "id": "ibuprofen"
+      },
+      {
+        "name": "Acetaminophen",
+        "id": "acetaminophen"
+      },
+      {
+        "name": "Amoxicillin",
+        "id": "amoxicillin"
+      },
+      {
+        "name": "Clindamycin",
+        "id": "clindamycin"
+      }
     ],
     "treatments": [
       "Ibuprofen plus acetaminophen combination (first-line per ADA)",
@@ -571,11 +784,30 @@
       "Photo assessment of visible swelling or dental damage",
       "Dental examination and imaging for definitive diagnosis (in-person)"
     ],
-    "specialties": ["Family Medicine", "Telemedicine", "Dentistry"],
+    "specialties": [
+      "Family Medicine",
+      "Telemedicine",
+      "Dentistry"
+    ],
     "guidelines": [
-      { "name": "ADA Clinical Practice Guideline on Antibiotic Use for Emergency Management of Pulpal and Periapical Pain", "url": "https://jada.ada.org/article/S0002-8177(19)30467-X/fulltext", "publisher": "American Dental Association", "id": "ada-antibiotics" },
-      { "name": "ADA Guideline on Dental Pain Management with NSAIDs and Non-Opioid Analgesics", "url": "https://jada.ada.org/article/S0002-8177(20)30189-4/fulltext", "publisher": "American Dental Association", "id": "ada-pain" },
-      { "name": "CDC Antibiotic Prescribing in Dentistry", "url": "https://www.cdc.gov/antibiotic-use/dentistry.html", "publisher": "Centers for Disease Control and Prevention", "id": "cdc-dental" }
+      {
+        "name": "ADA Clinical Practice Guideline on Antibiotic Use for Emergency Management of Pulpal and Periapical Pain",
+        "url": "https://jada.ada.org/article/S0002-8177(19)30467-X/fulltext",
+        "publisher": "American Dental Association",
+        "id": "ada-antibiotics"
+      },
+      {
+        "name": "ADA Guideline on Dental Pain Management with NSAIDs and Non-Opioid Analgesics",
+        "url": "https://jada.ada.org/article/S0002-8177(20)30189-4/fulltext",
+        "publisher": "American Dental Association",
+        "id": "ada-pain"
+      },
+      {
+        "name": "CDC Antibiotic Prescribing in Dentistry",
+        "url": "https://www.cdc.gov/antibiotic-use/dentistry.html",
+        "publisher": "Centers for Disease Control and Prevention",
+        "id": "cdc-dental"
+      }
     ],
     "knowsAbout": [
       "Dental pain management",
@@ -587,5 +819,7 @@
     ],
     "serviceDescription": "Secure video visit for {state} adults with dental pain, including red-flag screening, ADA guideline-based pain management, antibiotic stewardship, and clear referral to definitive dental care within 24 to 48 hours.",
     "webpageDescription": "{state} dental pain treatment by secure MD video visit for adults. Evidence-based interim toothache management, ADA guideline-based antibiotic stewardship, red-flag screening for serious dental infections, and clear instructions for definitive dental care."
-  }
+  },
+  "guidelineSource": "aafp",
+  "conditionType": "treatment"
 }

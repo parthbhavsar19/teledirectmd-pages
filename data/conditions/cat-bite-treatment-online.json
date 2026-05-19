@@ -2,20 +2,34 @@
   "conditionName": "Cat Bite Treatment",
   "conditionShort": "Cat Bite",
   "conditionSlug": "cat-bite-treatment-online",
-  "pageTitle": "Cat Bite Treatment Online in {state} | Animal Bite MD Video Visit | TeleDirectMD",
+  "pageTitle": "Cat Bite Online Treatment in {state} | TeleDirectMD",
   "metaDescription": "Evidence-based cat bite treatment for {state} adults by secure video visit. Prophylactic antibiotics for Pasteurella coverage, wound care guidance, and red-flag screening. Self pay option starting at $49. Insurance is not required.",
   "ogImageAlt": "Cat bite treatment in {state} by TeleDirectMD",
-
   "hero": {
     "h1": "Cat Bite Treatment in {state} (Cat Bite Wound Infection Prevention)",
     "subtitle": "{state} adult care by secure video visit, self pay option starting at $49, MD-only, insurance is not required.",
     "introParagraph": "Cat bites carry a significantly higher infection rate than dog bites, with 30 to 50 percent of untreated cat bites becoming infected. Cat teeth are narrow and sharp, creating deep puncture wounds that drive bacteria, most commonly Pasteurella multocida, into tissue planes, joints, and tendon sheaths where infection can develop rapidly, sometimes within 12 to 24 hours. Unlike dog bites, where antibiotic prophylaxis is selective, all cat bites should receive prophylactic antibiotics regardless of wound appearance. TeleDirectMD uses a safety-first telehealth approach that screens for red flags including hand bites with decreased function, signs of deep space infection, tenosynovitis, septic arthritis, rapid-onset cellulitis, and immunosuppression before determining whether treatment by video visit is appropriate. If the history and photos support a superficial to moderate cat bite wound without signs of deep infection, guideline-based prophylactic antibiotics and wound care guidance can be initiated by video, while adults with complicated bite wounds or high-risk features are directed to urgent in-person or emergency care. This page is for adults located in {state}, including {cities}.",
     "tocLinks": [
-      { "href": "eligibility-checklist", "label": "Eligibility checklist" },
-      { "href": "decision-guide", "label": "Decision guide" },
-      { "href": "treatment-options", "label": "Treatment options" },
-      { "href": "faq", "label": "FAQs" },
-      { "href": "references", "label": "References" }
+      {
+        "href": "eligibility-checklist",
+        "label": "Eligibility checklist"
+      },
+      {
+        "href": "decision-guide",
+        "label": "Decision guide"
+      },
+      {
+        "href": "treatment-options",
+        "label": "Treatment options"
+      },
+      {
+        "href": "faq",
+        "label": "FAQs"
+      },
+      {
+        "href": "references",
+        "label": "References"
+      }
     ],
     "benefits": [
       "Self pay option starting at $49",
@@ -35,7 +49,6 @@
     },
     "icd10Display": "W55.01A, S61.459A (final coding depends on clinical details)"
   },
-
   "eligibility": {
     "sectionTitle": "Cat Bite Telehealth Eligibility Checklist for {state}",
     "introText": "You are likely eligible for a TeleDirectMD video visit if ALL of these are true:",
@@ -62,7 +75,6 @@
     ],
     "notEligibleDisclaimer": "If you have red-flag symptoms, seek urgent in-person care or emergency care immediately. Cat bite infections can progress rapidly, and hand bites with any functional concern are a potential surgical emergency."
   },
-
   "howItWorks": {
     "sectionTitle": "How Online Cat Bite Treatment Works in {state}",
     "steps": [
@@ -84,7 +96,6 @@
       }
     ]
   },
-
   "telehealthRegulations": {
     "sectionTitle": "{state} Telehealth Regulations for Online Cat Bite Care",
     "paragraphs": [
@@ -92,7 +103,6 @@
       "Location matters: you must be physically in {state} during the visit. Insurance is not required. TeleDirectMD does not prescribe controlled substances."
     ]
   },
-
   "comparisonTable": {
     "sectionTitle": "TeleDirectMD vs Other Care Options for Cat Bite in {state}",
     "intro": "Here is how TeleDirectMD compares to common settings for adult cat bite care in {state}:",
@@ -140,7 +150,6 @@
     ],
     "bottomLine": "TeleDirectMD is a strong fit for getting fast prophylactic antibiotics for superficial to moderate cat bites before infection develops, with a safety-first approach and direct MD evaluation."
   },
-
   "decisionGuide": {
     "sectionTitle": "Should I Use TeleDirectMD for Cat Bite in {state}? Decision Guide",
     "steps": [
@@ -187,7 +196,6 @@
       }
     ]
   },
-
   "pricing": {
     "sectionTitle": "What Does Cat Bite Treatment Cost in {state}?",
     "subtitle": "Transparent options. Insurance is not required.",
@@ -202,15 +210,34 @@
       "Clear follow-up steps and 24 to 48 hour monitoring instructions"
     ],
     "comparisonBars": [
-      { "name": "TeleDirectMD", "value": "$49", "width": 12, "isTdmd": true },
-      { "name": "Primary Care", "value": "$100 to $250+", "width": 45, "isTdmd": false },
-      { "name": "Urgent Care", "value": "$150 to $300+", "width": 55, "isTdmd": false },
-      { "name": "Emergency Room", "value": "$500 to $3,000+", "width": 100, "isTdmd": false }
+      {
+        "name": "TeleDirectMD",
+        "value": "$49",
+        "width": 12,
+        "isTdmd": true
+      },
+      {
+        "name": "Primary Care",
+        "value": "$100 to $250+",
+        "width": 45,
+        "isTdmd": false
+      },
+      {
+        "name": "Urgent Care",
+        "value": "$150 to $300+",
+        "width": 55,
+        "isTdmd": false
+      },
+      {
+        "name": "Emergency Room",
+        "value": "$500 to $3,000+",
+        "width": 100,
+        "isTdmd": false
+      }
     ],
     "footnote": "Prescription costs at your pharmacy are separate and vary by medication and pharmacy.",
     "noHiddenFees": "No hidden fees. If medication is not clinically appropriate, you still receive a complete evaluation, guidance, and clear instructions on what level of care you need next."
   },
-
   "whatIsCondition": {
     "sectionTitle": "What Is a Cat Bite Infection?",
     "paragraphs": [
@@ -219,35 +246,87 @@
       "TeleDirectMD focuses on initiating fast prophylactic antibiotic coverage for cat bites appropriate for telehealth, with careful screening to identify hand bites with functional impairment, signs of deep infection, and other high-risk features that require urgent in-person or emergency evaluation."
     ]
   },
-
   "causesAndRiskFactors": {
     "sectionTitle": "Causes and Risk Factors",
     "intro": "Cat bites are common injuries. Understanding why cat bites are especially infection-prone and which risk factors increase the likelihood of complications helps determine whether telehealth management is appropriate.",
     "items": [
-      { "label": "Deep puncture mechanism:", "text": "cat teeth are thin and sharp, creating narrow, deep wounds that seal over quickly, trapping bacteria in tissue and making effective irrigation difficult" },
-      { "label": "Pasteurella multocida:", "text": "present in the mouths of 70 to 90 percent of cats, this bacterium causes rapidly progressive infections that can develop cellulitis, abscess, tenosynovitis, or septic arthritis within hours to days" },
-      { "label": "Hand and finger bites:", "text": "the hand is the most common location for cat bites and the highest-risk area because of the thin tissue planes, proximity of tendons, joints, and bones, and limited blood supply to some structures" },
-      { "label": "Immunocompromised status:", "text": "diabetes, liver disease, HIV, chemotherapy, organ transplant medications, and asplenia increase the risk of severe or systemic cat bite infections" },
-      { "label": "Delayed treatment:", "text": "infection risk increases significantly when antibiotic prophylaxis is not started promptly, especially for deeper puncture wounds and hand bites" }
+      {
+        "label": "Deep puncture mechanism:",
+        "text": "cat teeth are thin and sharp, creating narrow, deep wounds that seal over quickly, trapping bacteria in tissue and making effective irrigation difficult"
+      },
+      {
+        "label": "Pasteurella multocida:",
+        "text": "present in the mouths of 70 to 90 percent of cats, this bacterium causes rapidly progressive infections that can develop cellulitis, abscess, tenosynovitis, or septic arthritis within hours to days"
+      },
+      {
+        "label": "Hand and finger bites:",
+        "text": "the hand is the most common location for cat bites and the highest-risk area because of the thin tissue planes, proximity of tendons, joints, and bones, and limited blood supply to some structures"
+      },
+      {
+        "label": "Immunocompromised status:",
+        "text": "diabetes, liver disease, HIV, chemotherapy, organ transplant medications, and asplenia increase the risk of severe or systemic cat bite infections"
+      },
+      {
+        "label": "Delayed treatment:",
+        "text": "infection risk increases significantly when antibiotic prophylaxis is not started promptly, especially for deeper puncture wounds and hand bites"
+      }
     ],
     "closing": "Not every wound from a cat requires emergency care, but all cat bites should receive prophylactic antibiotics. TeleDirectMD can provide fast access to appropriate antibiotic coverage while screening for wounds that require in-person evaluation or emergency care."
   },
-
   "symptomsAndRedFlags": {
     "sectionTitle": "Symptoms and Red Flags for Cat Bite in {state}",
     "intro": "Use this table to understand which cat bite presentations are appropriate for telehealth and which require urgent in-person evaluation. Cat bite infections can develop very quickly, so close monitoring is essential.",
-    "headers": ["Symptom or situation", "What it suggests", "Telehealth appropriate?", "Red flag requiring urgent in-person care"],
+    "headers": [
+      "Symptom or situation",
+      "What it suggests",
+      "Telehealth appropriate?",
+      "Red flag requiring urgent in-person care"
+    ],
     "rows": [
-      ["Small puncture wound on arm or leg, no current signs of infection", "Uncomplicated cat bite needing prophylactic antibiotics", "Often yes", "If wound is over a joint or tendon with any functional concern"],
-      ["Hand or finger bite without swelling or decreased movement", "High-risk location but may still be appropriate for prophylaxis if caught early", "Sometimes", "Any swelling, difficulty bending fingers, or warmth over the hand warrants in-person evaluation"],
-      ["Redness and warmth developing around the bite within hours", "Early cellulitis, likely Pasteurella infection developing", "Sometimes if very early and mild", "Rapidly spreading redness, warmth, or swelling needs urgent in-person evaluation"],
-      ["Pus or drainage from the bite wound", "Established infection or abscess forming", "No", "Needs in-person wound assessment and may need incision and drainage"],
-      ["Fever, chills, or feeling systemically ill after a cat bite", "Possible systemic infection or bacteremia", "No", "Urgent in-person care or ER"],
-      ["Red streaking extending from the bite site", "Lymphangitis suggesting spreading infection", "No", "Urgent in-person care or ER"],
-      ["Swollen, stiff, or painful finger or hand after bite", "Possible tenosynovitis or septic arthritis (surgical emergency)", "No", "ER immediately for hand surgery evaluation"]
+      [
+        "Small puncture wound on arm or leg, no current signs of infection",
+        "Uncomplicated cat bite needing prophylactic antibiotics",
+        "Often yes",
+        "If wound is over a joint or tendon with any functional concern"
+      ],
+      [
+        "Hand or finger bite without swelling or decreased movement",
+        "High-risk location but may still be appropriate for prophylaxis if caught early",
+        "Sometimes",
+        "Any swelling, difficulty bending fingers, or warmth over the hand warrants in-person evaluation"
+      ],
+      [
+        "Redness and warmth developing around the bite within hours",
+        "Early cellulitis, likely Pasteurella infection developing",
+        "Sometimes if very early and mild",
+        "Rapidly spreading redness, warmth, or swelling needs urgent in-person evaluation"
+      ],
+      [
+        "Pus or drainage from the bite wound",
+        "Established infection or abscess forming",
+        "No",
+        "Needs in-person wound assessment and may need incision and drainage"
+      ],
+      [
+        "Fever, chills, or feeling systemically ill after a cat bite",
+        "Possible systemic infection or bacteremia",
+        "No",
+        "Urgent in-person care or ER"
+      ],
+      [
+        "Red streaking extending from the bite site",
+        "Lymphangitis suggesting spreading infection",
+        "No",
+        "Urgent in-person care or ER"
+      ],
+      [
+        "Swollen, stiff, or painful finger or hand after bite",
+        "Possible tenosynovitis or septic arthritis (surgical emergency)",
+        "No",
+        "ER immediately for hand surgery evaluation"
+      ]
     ]
   },
-
   "differentialDiagnosis": {
     "sectionTitle": "Differential Diagnosis: Cat Bite Infection vs Other Conditions",
     "intro": "While most cat bites present with a clear history of injury, the resulting wound infections can mimic other conditions, and the severity of a cat bite wound is not always immediately apparent. TeleDirectMD focuses on identifying uncomplicated bite wounds appropriate for prophylactic antibiotics and directing complicated or uncertain cases to in-person care.",
@@ -283,7 +362,6 @@
     ],
     "closing": "If your wound shows signs of infection spreading, involves the hand with any functional limitation, or any red flags are present, TeleDirectMD will direct you to urgent in-person care."
   },
-
   "telehealthEligibility": {
     "sectionTitle": "When Is a Video Visit Appropriate?",
     "appropriate": {
@@ -313,7 +391,6 @@
       "disclaimer": "If any red-flag symptoms are present, seek urgent in-person or emergency care. Cat bite infections can progress rapidly, especially on the hand. TeleDirectMD is not appropriate for these situations."
     }
   },
-
   "treatmentOptions": {
     "sectionTitle": "Treatment Options",
     "intro": "All cat bites should receive prophylactic antibiotics due to the high infection rate of 30 to 50 percent. This differs from dog bites, where antibiotic prophylaxis is selective and reserved for high-risk wounds. Early antibiotic initiation before signs of infection develop is the most effective way to prevent cat bite complications.",
@@ -339,22 +416,55 @@
       "Wounds with uncontrolled bleeding or exposed deep structures needing surgical evaluation"
     ]
   },
-
   "medications": {
     "sectionTitle": "Common Medication Options",
     "intro": "These are common examples for cat bite prophylaxis and treatment. The actual medication, dose, and duration are determined by the MD after reviewing your wound, location, time since bite, allergy history, immune status, and red flags.",
-    "headers": ["Medication", "Typical dose", "Duration", "Key considerations"],
+    "headers": [
+      "Medication",
+      "Typical dose",
+      "Duration",
+      "Key considerations"
+    ],
     "rows": [
-      ["Amoxicillin-clavulanate (Augmentin)", "875/125 mg by mouth twice daily", "3 to 5 days (prophylaxis) or 7 to 10 days (established infection)", "First-line choice for all cat bites. Covers Pasteurella multocida, streptococci, staphylococci, and anaerobes. Take with food to reduce GI side effects."],
-      ["Doxycycline (penicillin allergy alternative)", "100 mg by mouth twice daily", "3 to 5 days (prophylaxis) or 7 to 10 days (treatment)", "Used in combination with metronidazole for penicillin-allergic patients. Covers Pasteurella. Avoid in pregnancy. Take with food and water, avoid lying down for 30 minutes."],
-      ["Metronidazole (paired with doxycycline)", "500 mg by mouth three times daily", "3 to 5 days (prophylaxis) or 7 to 10 days (treatment)", "Provides anaerobic coverage when used alongside doxycycline for penicillin-allergic patients. Avoid alcohol during treatment."],
-      ["TMP-SMX (alternative regimen)", "1 DS tablet by mouth twice daily", "3 to 5 days (prophylaxis) or 7 to 10 days (treatment)", "Alternative for penicillin allergy when combined with clindamycin for broader coverage. Check for sulfa allergy."],
-      ["Clindamycin (paired with TMP-SMX)", "300 mg by mouth four times daily", "3 to 5 days (prophylaxis) or 7 to 10 days (treatment)", "Provides anaerobic and gram-positive coverage when combined with TMP-SMX for penicillin-allergic patients."],
-      ["Ibuprofen (OTC)", "400 to 600 mg by mouth every 6 to 8 hours as needed", "As needed", "Over-the-counter anti-inflammatory for pain and swelling. Take with food. Avoid with certain kidney conditions."]
+      [
+        "Amoxicillin-clavulanate (Augmentin)",
+        "875/125 mg by mouth twice daily",
+        "3 to 5 days (prophylaxis) or 7 to 10 days (established infection)",
+        "First-line choice for all cat bites. Covers Pasteurella multocida, streptococci, staphylococci, and anaerobes. Take with food to reduce GI side effects."
+      ],
+      [
+        "Doxycycline (penicillin allergy alternative)",
+        "100 mg by mouth twice daily",
+        "3 to 5 days (prophylaxis) or 7 to 10 days (treatment)",
+        "Used in combination with metronidazole for penicillin-allergic patients. Covers Pasteurella. Avoid in pregnancy. Take with food and water, avoid lying down for 30 minutes."
+      ],
+      [
+        "Metronidazole (paired with doxycycline)",
+        "500 mg by mouth three times daily",
+        "3 to 5 days (prophylaxis) or 7 to 10 days (treatment)",
+        "Provides anaerobic coverage when used alongside doxycycline for penicillin-allergic patients. Avoid alcohol during treatment."
+      ],
+      [
+        "TMP-SMX (alternative regimen)",
+        "1 DS tablet by mouth twice daily",
+        "3 to 5 days (prophylaxis) or 7 to 10 days (treatment)",
+        "Alternative for penicillin allergy when combined with clindamycin for broader coverage. Check for sulfa allergy."
+      ],
+      [
+        "Clindamycin (paired with TMP-SMX)",
+        "300 mg by mouth four times daily",
+        "3 to 5 days (prophylaxis) or 7 to 10 days (treatment)",
+        "Provides anaerobic and gram-positive coverage when combined with TMP-SMX for penicillin-allergic patients."
+      ],
+      [
+        "Ibuprofen (OTC)",
+        "400 to 600 mg by mouth every 6 to 8 hours as needed",
+        "As needed",
+        "Over-the-counter anti-inflammatory for pain and swelling. Take with food. Avoid with certain kidney conditions."
+      ]
     ],
     "note": "Example regimens only. The actual medication, dosing, and duration are determined by the MD after reviewing your wound, risk factors, allergies, and red flags. All cat bites warrant prophylactic antibiotics. TeleDirectMD does not prescribe controlled substances."
   },
-
   "homeCare": {
     "sectionTitle": "Home Care, Recovery Timeline, and Follow-up",
     "whatToDoNow": {
@@ -388,7 +498,6 @@
       ]
     }
   },
-
   "whenNotToUse": {
     "sectionTitle": "When Not to Use TeleDirectMD for Cat Bite in {state}",
     "intro": "TeleDirectMD is designed for uncomplicated cat bite wounds appropriate for outpatient antibiotic prophylaxis. We are direct about when telehealth is not appropriate.",
@@ -408,14 +517,25 @@
     "alternatives": {
       "title": "Alternative Care Options",
       "items": [
-        { "label": "Emergency room:", "text": "hand bites with functional impairment, tenosynovitis, septic arthritis, rapidly spreading cellulitis, fever, deep wounds needing exploration, or severe systemic illness" },
-        { "label": "Urgent care:", "text": "wounds needing in-person irrigation and assessment, uncertain depth, tetanus booster, or bites from unknown animals needing rabies risk evaluation" },
-        { "label": "Hand surgery:", "text": "hand bites with suspected tendon sheath infection, joint involvement, or deep space infection requiring operative treatment" },
-        { "label": "Primary care:", "text": "follow-up wound checks, antibiotic adjustment if initial therapy is not resolving infection, and tetanus vaccination updates" }
+        {
+          "label": "Emergency room:",
+          "text": "hand bites with functional impairment, tenosynovitis, septic arthritis, rapidly spreading cellulitis, fever, deep wounds needing exploration, or severe systemic illness"
+        },
+        {
+          "label": "Urgent care:",
+          "text": "wounds needing in-person irrigation and assessment, uncertain depth, tetanus booster, or bites from unknown animals needing rabies risk evaluation"
+        },
+        {
+          "label": "Hand surgery:",
+          "text": "hand bites with suspected tendon sheath infection, joint involvement, or deep space infection requiring operative treatment"
+        },
+        {
+          "label": "Primary care:",
+          "text": "follow-up wound checks, antibiotic adjustment if initial therapy is not resolving infection, and tetanus vaccination updates"
+        }
       ]
     }
   },
-
   "faq": {
     "sectionTitle": "Cat Bite Treatment FAQs for {state}",
     "items": [
@@ -465,16 +585,32 @@
       "text": "Insurance is not required. Adult-only video visits. MD-only care. Safety-first triage, fast prophylactic antibiotics for cat bites, and clear next steps."
     }
   },
-
   "references": [
-    { "text": "Animal Bites in Emergency Medicine: Management and Treatment, Medscape/UCSF IDMP", "url": "https://emedicine.medscape.com/article/768875-treatment" },
-    { "text": "Dog and Cat Bites, American Academy of Family Physicians (AAFP)", "url": "https://www.aafp.org/pubs/afp/issues/2014/0815/p239.html" },
-    { "text": "Management of Animal Bite Wounds, UpToDate (2025)", "url": "https://www.uptodate.com/contents/animal-bites-dog-cat-and-other-animals-evaluation-and-management" },
-    { "text": "Pasteurella Infections, StatPearls (2025)", "url": "https://www.ncbi.nlm.nih.gov/books/NBK526043/" },
-    { "text": "Talan DA, et al. Bacteriologic analysis of infected dog and cat bites, NEJM 1999;340(2):85-92", "url": "https://www.nejm.org/doi/full/10.1056/NEJM199901143400202" },
-    { "text": "Bites, Rabies, and Tetanus Prophylaxis, CDC Yellow Book", "url": "https://wwwnc.cdc.gov/travel/yellowbook/2024/posttravel-evaluation/animal-bites" }
+    {
+      "text": "Animal Bites in Emergency Medicine: Management and Treatment, Medscape/UCSF IDMP",
+      "url": "https://emedicine.medscape.com/article/768875-treatment"
+    },
+    {
+      "text": "Dog and Cat Bites, American Academy of Family Physicians (AAFP)",
+      "url": "https://www.aafp.org/pubs/afp/issues/2014/0815/p239.html"
+    },
+    {
+      "text": "Management of Animal Bite Wounds, UpToDate (2025)",
+      "url": "https://www.uptodate.com/contents/animal-bites-dog-cat-and-other-animals-evaluation-and-management"
+    },
+    {
+      "text": "Pasteurella Infections, StatPearls (2025)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK526043/"
+    },
+    {
+      "text": "Talan DA, et al. Bacteriologic analysis of infected dog and cat bites, NEJM 1999;340(2):85-92",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJM199901143400202"
+    },
+    {
+      "text": "Bites, Rabies, and Tetanus Prophylaxis, CDC Yellow Book",
+      "url": "https://wwwnc.cdc.gov/travel/yellowbook/2024/posttravel-evaluation/animal-bites"
+    }
   ],
-
   "disclaimer": {
     "sectionTitle": "TeleDirectMD Telehealth Disclaimer",
     "paragraphs": [
@@ -483,7 +619,6 @@
       "Online cat bite treatment in {state}. Cat bite antibiotics online. Animal bite treatment by video visit."
     ]
   },
-
   "relatedConditions": [
     {
       "slug": "uti-treatment-online",
@@ -506,38 +641,83 @@
       "description": "Another infection requiring prompt antiviral or antibiotic treatment by video visit"
     }
   ],
-
   "inlineLinks": [
-    { "slug": "uti-treatment-online", "label": "UTI Treatment" },
-    { "slug": "sinus-infection-treatment-online", "label": "Sinus Infection" },
-    { "slug": "sore-throat-treatment-online", "label": "Sore Throat" },
-    { "slug": "pink-eye-treatment-online", "label": "Pink Eye" },
-    { "slug": "ear-pain-treatment-online", "label": "Ear Pain" },
-    { "slug": "cold-sore-treatment-online", "label": "Cold Sore" },
-    { "slug": "common-cold-treatment-online", "label": "Common Cold" },
-    { "slug": "influenza-treatment-online", "label": "Influenza" },
-    { "slug": "covid-19-treatment-online", "label": "COVID-19" },
-    { "slug": "shingles-treatment-online", "label": "Shingles" }
+    {
+      "slug": "uti-treatment-online",
+      "label": "UTI Treatment"
+    },
+    {
+      "slug": "sinus-infection-treatment-online",
+      "label": "Sinus Infection"
+    },
+    {
+      "slug": "sore-throat-treatment-online",
+      "label": "Sore Throat"
+    },
+    {
+      "slug": "pink-eye-treatment-online",
+      "label": "Pink Eye"
+    },
+    {
+      "slug": "ear-pain-treatment-online",
+      "label": "Ear Pain"
+    },
+    {
+      "slug": "cold-sore-treatment-online",
+      "label": "Cold Sore"
+    },
+    {
+      "slug": "common-cold-treatment-online",
+      "label": "Common Cold"
+    },
+    {
+      "slug": "influenza-treatment-online",
+      "label": "Influenza"
+    },
+    {
+      "slug": "covid-19-treatment-online",
+      "label": "COVID-19"
+    },
+    {
+      "slug": "shingles-treatment-online",
+      "label": "Shingles"
+    }
   ],
-
   "cityBlock": {
     "title": "Adults We Serve Across {state}",
     "text": "TeleDirectMD evaluates adults located throughout {state}, including {citiesExtended}. Whether you are searching for online cat bite treatment in {city1}, cat bite antibiotics in {city2}, animal bite treatment online in {city3}, or telehealth cat bite evaluation anywhere else in {state}, the same telehealth eligibility and safety rules apply."
   },
-
   "icd10Codes": [
-    { "code": "W55.01XA", "description": "Bitten by cat, initial encounter" },
-    { "code": "S61.459A", "description": "Open bite of unspecified hand, initial encounter" },
-    { "code": "T14.1", "description": "Open wound of unspecified body region" }
+    {
+      "code": "W55.01XA",
+      "description": "Bitten by cat, initial encounter"
+    },
+    {
+      "code": "S61.459A",
+      "description": "Open bite of unspecified hand, initial encounter"
+    },
+    {
+      "code": "T14.1",
+      "description": "Open wound of unspecified body region"
+    }
   ],
-
   "jsonLd": {
     "conditionName": "Cat Bite Wound",
-    "conditionAlternateNames": ["Cat bite", "Cat bite infection", "Animal bite", "Pasteurella infection from cat bite"],
+    "conditionAlternateNames": [
+      "Cat bite",
+      "Cat bite infection",
+      "Animal bite",
+      "Pasteurella infection from cat bite"
+    ],
     "conditionDescription": "A cat bite is a wound caused by cat teeth that creates deep puncture injuries with a 30 to 50 percent infection rate when untreated. TeleDirectMD evaluates adult cat bite wounds by video visit with safety-first red-flag screening, Pasteurella-targeted prophylactic antibiotics, wound care guidance, and clear rules for when urgent in-person or emergency care is needed.",
     "primaryIcd10": "W55.01XA",
     "anatomy": "Skin and soft tissue",
-    "symptoms": ["Puncture wound", "Pain at bite site", "Redness and swelling", "Warmth around wound"],
+    "symptoms": [
+      "Puncture wound",
+      "Pain at bite site",
+      "Redness and swelling",
+      "Warmth around wound"
+    ],
     "riskFactors": [
       "Deep puncture wound mechanism",
       "Hand or finger bite location",
@@ -555,9 +735,18 @@
     ],
     "epidemiology": "Cat bites account for 5 to 15 percent of all animal bite injuries presenting for medical care. Infection rates are 30 to 50 percent without prophylactic antibiotics, significantly higher than the 5 to 25 percent rate for dog bites.",
     "drugs": [
-      { "name": "Amoxicillin-clavulanate", "id": "amoxicillin-clavulanate" },
-      { "name": "Doxycycline", "id": "doxycycline" },
-      { "name": "Metronidazole", "id": "metronidazole" }
+      {
+        "name": "Amoxicillin-clavulanate",
+        "id": "amoxicillin-clavulanate"
+      },
+      {
+        "name": "Doxycycline",
+        "id": "doxycycline"
+      },
+      {
+        "name": "Metronidazole",
+        "id": "metronidazole"
+      }
     ],
     "treatments": [
       "Prophylactic antibiotic therapy for all cat bites",
@@ -570,11 +759,31 @@
       "Clinical wound assessment and photo review",
       "Red-flag screening for deep infection, tenosynovitis, and septic arthritis"
     ],
-    "specialties": ["Family Medicine", "Telemedicine", "Emergency Medicine", "Hand Surgery"],
+    "specialties": [
+      "Family Medicine",
+      "Telemedicine",
+      "Emergency Medicine",
+      "Hand Surgery"
+    ],
     "guidelines": [
-      { "name": "Management of Animal Bite Wounds", "url": "https://www.uptodate.com/contents/animal-bites-dog-cat-and-other-animals-evaluation-and-management", "publisher": "UpToDate", "id": "uptodate-animal-bites" },
-      { "name": "Dog and Cat Bites, AAFP", "url": "https://www.aafp.org/pubs/afp/issues/2014/0815/p239.html", "publisher": "American Academy of Family Physicians", "id": "aafp-bites" },
-      { "name": "Bacteriologic Analysis of Infected Dog and Cat Bites", "url": "https://www.nejm.org/doi/full/10.1056/NEJM199901143400202", "publisher": "New England Journal of Medicine", "id": "nejm-bites" }
+      {
+        "name": "Management of Animal Bite Wounds",
+        "url": "https://www.uptodate.com/contents/animal-bites-dog-cat-and-other-animals-evaluation-and-management",
+        "publisher": "UpToDate",
+        "id": "uptodate-animal-bites"
+      },
+      {
+        "name": "Dog and Cat Bites, AAFP",
+        "url": "https://www.aafp.org/pubs/afp/issues/2014/0815/p239.html",
+        "publisher": "American Academy of Family Physicians",
+        "id": "aafp-bites"
+      },
+      {
+        "name": "Bacteriologic Analysis of Infected Dog and Cat Bites",
+        "url": "https://www.nejm.org/doi/full/10.1056/NEJM199901143400202",
+        "publisher": "New England Journal of Medicine",
+        "id": "nejm-bites"
+      }
     ],
     "knowsAbout": [
       "Cat bite treatment",
@@ -586,5 +795,7 @@
     ],
     "serviceDescription": "Secure video visit for {state} adults with cat bite wounds, including red-flag screening, prophylactic antibiotics targeting Pasteurella, wound care guidance, and tetanus and rabies counseling.",
     "webpageDescription": "{state} cat bite treatment by secure MD video visit for adults. Evidence-based evaluation of cat bite wounds, red-flag screening for deep infection and tenosynovitis, prophylactic antibiotic treatment, and clear rules for when urgent in-person care is needed."
-  }
+  },
+  "guidelineSource": "idsaSsti",
+  "conditionType": "treatment"
 }

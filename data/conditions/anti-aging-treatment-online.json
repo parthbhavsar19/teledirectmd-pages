@@ -2,20 +2,34 @@
   "conditionName": "Anti-Aging Treatment",
   "conditionShort": "Anti-Aging",
   "conditionSlug": "anti-aging-treatment-online",
-  "pageTitle": "Anti-Aging Treatment Online in {state} | Tretinoin for Photoaging MD Video Visit | TeleDirectMD",
+  "pageTitle": "Anti-Aging Online Treatment in {state} | TeleDirectMD",
   "metaDescription": "Evidence-based anti-aging treatment with prescription tretinoin for {state} adults by secure video visit. Red-flag screening, retinoid prescriptions when clinically appropriate, and skin care guidance. Self pay option starting at $49. Insurance is not required.",
   "ogImageAlt": "Anti-aging treatment in {state} by TeleDirectMD",
-
   "hero": {
     "h1": "Anti-Aging Treatment in {state} (Tretinoin for Photoaging)",
     "subtitle": "{state} adult care by secure video visit, self pay option starting at $49, MD-only, insurance is not required.",
     "introParagraph": "Photoaging, the premature aging of skin caused by chronic ultraviolet exposure, presents as fine wrinkles, mottled hyperpigmentation, rough skin texture, and loss of skin elasticity. Tretinoin (Retin-A, Renova) is the gold-standard prescription topical retinoid for photoaging and is the only topical agent with robust, long-term evidence demonstrating reversal of photodamaged skin changes at a molecular level. It works by accelerating epidermal cell turnover, boosting collagen synthesis in the dermis, and reducing irregular melanin distribution. A critical point that many patients do not realize is that tretinoin results take 8 to 12 weeks to become visible and full benefit develops over 6 to 12 months of consistent use. A normal adjustment period called the retinization period causes dryness, peeling, and mild irritation during the first 4 to 8 weeks, which typically resolves with continued use. TeleDirectMD uses a safety-first telehealth approach that screens for red flags including suspicious skin lesions requiring biopsy, severe cystic acne needing isotretinoin, pregnancy or breastfeeding (tretinoin is teratogenic), and skin conditions not responding to retinoid therapy before determining whether treatment by video visit is appropriate. If the history and photo assessment support photoaging appropriate for prescription tretinoin without red flags, guideline-based treatment may be reasonable by video, while adults with suspicious lesions, complex dermatologic conditions, or need for in-office procedures are directed to in-person dermatology care. This page is for adults located in {state}, including {cities}.",
     "tocLinks": [
-      { "href": "eligibility-checklist", "label": "Eligibility checklist" },
-      { "href": "decision-guide", "label": "Decision guide" },
-      { "href": "treatment-options", "label": "Treatment options" },
-      { "href": "faq", "label": "FAQs" },
-      { "href": "references", "label": "References" }
+      {
+        "href": "eligibility-checklist",
+        "label": "Eligibility checklist"
+      },
+      {
+        "href": "decision-guide",
+        "label": "Decision guide"
+      },
+      {
+        "href": "treatment-options",
+        "label": "Treatment options"
+      },
+      {
+        "href": "faq",
+        "label": "FAQs"
+      },
+      {
+        "href": "references",
+        "label": "References"
+      }
     ],
     "benefits": [
       "Self pay option starting at $49",
@@ -35,7 +49,6 @@
     },
     "icd10Display": "L57.0, L90.8 (final coding depends on clinical details)"
   },
-
   "eligibility": {
     "sectionTitle": "Anti-Aging Telehealth Eligibility Checklist for {state}",
     "introText": "You are likely eligible for a TeleDirectMD video visit if ALL of these are true:",
@@ -59,7 +72,6 @@
     ],
     "notEligibleDisclaimer": "If you have suspicious skin lesions or are pregnant, seek in-person dermatology care. TeleDirectMD is not appropriate for complex or high-risk cases."
   },
-
   "howItWorks": {
     "sectionTitle": "How Online Anti-Aging Treatment Works in {state}",
     "steps": [
@@ -81,7 +93,6 @@
       }
     ]
   },
-
   "telehealthRegulations": {
     "sectionTitle": "{state} Telehealth Regulations for Online Anti-Aging Care",
     "paragraphs": [
@@ -89,7 +100,6 @@
       "Location matters: you must be physically in {state} during the visit. Insurance is not required. TeleDirectMD does not prescribe controlled substances."
     ]
   },
-
   "comparisonTable": {
     "sectionTitle": "TeleDirectMD vs Other Care Options for Anti-Aging in {state}",
     "intro": "Here is how TeleDirectMD compares to common settings for anti-aging skin care in {state}:",
@@ -137,7 +147,6 @@
     ],
     "bottomLine": "TeleDirectMD is a strong fit for adults seeking prescription tretinoin for photoaging, with a safety-first approach, direct MD evaluation, and personalized dosing guidance."
   },
-
   "decisionGuide": {
     "sectionTitle": "Should I Use TeleDirectMD for Anti-Aging Treatment in {state}? Decision Guide",
     "steps": [
@@ -182,7 +191,6 @@
       }
     ]
   },
-
   "pricing": {
     "sectionTitle": "What Does Online Anti-Aging Treatment Cost in {state}?",
     "subtitle": "Transparent options. Insurance is not required.",
@@ -196,15 +204,34 @@
       "Clear follow-up instructions for the retinization period"
     ],
     "comparisonBars": [
-      { "name": "TeleDirectMD", "value": "$49", "width": 12, "isTdmd": true },
-      { "name": "Primary Care", "value": "$100 to $250+", "width": 45, "isTdmd": false },
-      { "name": "Dermatology Office", "value": "$150 to $400+", "width": 65, "isTdmd": false },
-      { "name": "Medical Spa", "value": "$200 to $1,000+", "width": 100, "isTdmd": false }
+      {
+        "name": "TeleDirectMD",
+        "value": "$49",
+        "width": 12,
+        "isTdmd": true
+      },
+      {
+        "name": "Primary Care",
+        "value": "$100 to $250+",
+        "width": 45,
+        "isTdmd": false
+      },
+      {
+        "name": "Dermatology Office",
+        "value": "$150 to $400+",
+        "width": 65,
+        "isTdmd": false
+      },
+      {
+        "name": "Medical Spa",
+        "value": "$200 to $1,000+",
+        "width": 100,
+        "isTdmd": false
+      }
     ],
     "footnote": "Prescription costs at your pharmacy are separate and vary by medication and pharmacy. Generic tretinoin typically costs $20 to $50 with insurance.",
     "noHiddenFees": "No hidden fees. If tretinoin is not clinically appropriate, you still receive a complete evaluation, guidance on alternative options, and clear instructions on what level of care you need next."
   },
-
   "whatIsCondition": {
     "sectionTitle": "What Is Photoaging?",
     "paragraphs": [
@@ -213,35 +240,87 @@
       "Tretinoin (all-trans retinoic acid) is the gold-standard prescription topical treatment for photoaging. It is the only topical agent with level I evidence from multiple randomized controlled trials demonstrating measurable improvement in fine wrinkles, hyperpigmentation, and skin roughness. TeleDirectMD focuses on prescription tretinoin for adults with photoaging appropriate for telehealth, with careful screening to direct suspicious lesions, complex conditions, and procedural needs to in-person dermatology care."
     ]
   },
-
   "causesAndRiskFactors": {
     "sectionTitle": "Causes and Risk Factors",
     "intro": "Photoaging results from cumulative UV damage to the skin over years and decades. Understanding your risk factors helps determine whether prescription tretinoin is appropriate and what supporting skin care measures are most important.",
     "items": [
-      { "label": "Cumulative UV exposure:", "text": "chronic sun exposure, outdoor occupations, recreational sun exposure, and tanning bed use are the primary drivers of photoaging" },
-      { "label": "Fitzpatrick skin type:", "text": "lighter skin types (types I and II) are more prone to visible wrinkles and texture changes, while darker skin types may develop more prominent hyperpigmentation" },
-      { "label": "Geographic and lifestyle factors:", "text": "living in high-UV-index areas, high altitude, and reflective environments (water, snow, sand) increases cumulative UV dose" },
-      { "label": "Smoking:", "text": "tobacco use accelerates skin aging independently of UV exposure by impairing collagen synthesis and reducing blood flow to the skin" },
-      { "label": "Inadequate sun protection:", "text": "inconsistent or absent sunscreen use, lack of protective clothing, and midday sun exposure without protection significantly increase photoaging risk" }
+      {
+        "label": "Cumulative UV exposure:",
+        "text": "chronic sun exposure, outdoor occupations, recreational sun exposure, and tanning bed use are the primary drivers of photoaging"
+      },
+      {
+        "label": "Fitzpatrick skin type:",
+        "text": "lighter skin types (types I and II) are more prone to visible wrinkles and texture changes, while darker skin types may develop more prominent hyperpigmentation"
+      },
+      {
+        "label": "Geographic and lifestyle factors:",
+        "text": "living in high-UV-index areas, high altitude, and reflective environments (water, snow, sand) increases cumulative UV dose"
+      },
+      {
+        "label": "Smoking:",
+        "text": "tobacco use accelerates skin aging independently of UV exposure by impairing collagen synthesis and reducing blood flow to the skin"
+      },
+      {
+        "label": "Inadequate sun protection:",
+        "text": "inconsistent or absent sunscreen use, lack of protective clothing, and midday sun exposure without protection significantly increase photoaging risk"
+      }
     ],
     "closing": "Not every skin change is simple photoaging. Suspicious moles, rapidly changing lesions, non-healing wounds, and persistent scaly patches (actinic keratosis with malignant potential) require in-person dermatologic evaluation and may need biopsy. TeleDirectMD uses photo assessment and history to distinguish straightforward photoaging from conditions that need in-person care."
   },
-
   "symptomsAndRedFlags": {
     "sectionTitle": "Signs of Photoaging and Red Flags in {state}",
     "intro": "Use this table to understand which skin changes fit photoaging treatable with tretinoin and which changes suggest a need for in-person dermatology evaluation.",
-    "headers": ["Sign or situation", "What it suggests", "Telehealth appropriate?", "Red flag requiring in-person care"],
+    "headers": [
+      "Sign or situation",
+      "What it suggests",
+      "Telehealth appropriate?",
+      "Red flag requiring in-person care"
+    ],
     "rows": [
-      ["Fine wrinkles on face, around eyes, or around mouth", "Early to moderate photoaging responsive to tretinoin", "Often yes", "If wrinkles are accompanied by suspicious lesions or non-healing areas"],
-      ["Mottled brown spots or uneven pigmentation on sun-exposed skin", "Solar lentigines (sun spots) and irregular melanin from UV damage", "Often yes", "If a dark spot has irregular borders, multiple colors, is growing rapidly, or bleeds"],
-      ["Rough, dry, or leathery skin texture", "Chronic UV damage with impaired skin barrier and abnormal keratin", "Often yes", "If rough patches are persistently scaly, tender, or do not improve (possible actinic keratosis)"],
-      ["Skin laxity and loss of elasticity", "Loss of dermal collagen and elastin from chronic UV exposure", "Sometimes", "If sagging is severe and patient is seeking surgical or procedural intervention"],
-      ["Sallow or yellowish skin tone", "Solar elastosis (abnormal elastin accumulation) from chronic UV damage", "Sometimes", "If skin changes are accompanied by systemic symptoms or unusual discoloration"],
-      ["New, changing, or asymmetric mole", "Possible melanoma or dysplastic nevus requiring biopsy", "No", "Any new or changing mole needs in-person dermatology evaluation promptly"],
-      ["Non-healing wound or persistent scaly patch", "Possible skin cancer (basal cell, squamous cell) or precancerous actinic keratosis", "No", "In-person dermatology for biopsy and definitive management"]
+      [
+        "Fine wrinkles on face, around eyes, or around mouth",
+        "Early to moderate photoaging responsive to tretinoin",
+        "Often yes",
+        "If wrinkles are accompanied by suspicious lesions or non-healing areas"
+      ],
+      [
+        "Mottled brown spots or uneven pigmentation on sun-exposed skin",
+        "Solar lentigines (sun spots) and irregular melanin from UV damage",
+        "Often yes",
+        "If a dark spot has irregular borders, multiple colors, is growing rapidly, or bleeds"
+      ],
+      [
+        "Rough, dry, or leathery skin texture",
+        "Chronic UV damage with impaired skin barrier and abnormal keratin",
+        "Often yes",
+        "If rough patches are persistently scaly, tender, or do not improve (possible actinic keratosis)"
+      ],
+      [
+        "Skin laxity and loss of elasticity",
+        "Loss of dermal collagen and elastin from chronic UV exposure",
+        "Sometimes",
+        "If sagging is severe and patient is seeking surgical or procedural intervention"
+      ],
+      [
+        "Sallow or yellowish skin tone",
+        "Solar elastosis (abnormal elastin accumulation) from chronic UV damage",
+        "Sometimes",
+        "If skin changes are accompanied by systemic symptoms or unusual discoloration"
+      ],
+      [
+        "New, changing, or asymmetric mole",
+        "Possible melanoma or dysplastic nevus requiring biopsy",
+        "No",
+        "Any new or changing mole needs in-person dermatology evaluation promptly"
+      ],
+      [
+        "Non-healing wound or persistent scaly patch",
+        "Possible skin cancer (basal cell, squamous cell) or precancerous actinic keratosis",
+        "No",
+        "In-person dermatology for biopsy and definitive management"
+      ]
     ]
   },
-
   "differentialDiagnosis": {
     "sectionTitle": "Differential Diagnosis: Photoaging vs Other Skin Conditions",
     "intro": "Several skin conditions can overlap with or mimic photoaging. Accurate assessment helps determine whether prescription tretinoin is the right treatment or whether in-person evaluation is needed for biopsy, targeted testing, or alternative therapies.",
@@ -281,7 +360,6 @@
     ],
     "closing": "If your skin changes do not fit straightforward photoaging or any suspicious features are present, TeleDirectMD will direct you to in-person dermatology care for evaluation."
   },
-
   "telehealthEligibility": {
     "sectionTitle": "When Is a Video Visit Appropriate?",
     "appropriate": {
@@ -308,7 +386,6 @@
       "disclaimer": "If you have suspicious skin lesions or are pregnant, seek in-person dermatology care. TeleDirectMD is not appropriate for these situations."
     }
   },
-
   "treatmentOptions": {
     "sectionTitle": "Treatment Options",
     "intro": "Prescription tretinoin is the gold-standard topical treatment for photoaging, supported by level I evidence from randomized controlled trials. Treatment is most effective when combined with consistent sun protection and a supportive skin care routine. Results take 8 to 12 weeks to become visible, and full benefit develops over 6 to 12 months of consistent nightly use.",
@@ -337,21 +414,49 @@
       "Melasma requiring multi-agent treatment plans with hydroquinone and close monitoring"
     ]
   },
-
   "medications": {
     "sectionTitle": "Common Medication Options",
     "intro": "These are common examples for photoaging treatment with prescription retinoids. The actual medication, strength, and regimen are determined by the MD after reviewing your skin type, severity of photoaging, prior retinoid experience, and contraindications.",
-    "headers": ["Medication", "Typical dose", "Duration", "Key considerations"],
+    "headers": [
+      "Medication",
+      "Typical dose",
+      "Duration",
+      "Key considerations"
+    ],
     "rows": [
-      ["Tretinoin cream 0.025% (lowest strength)", "Pea-sized amount to face every other night, increase to nightly as tolerated", "Ongoing (months to years for sustained benefit)", "Recommended starting strength for retinoid-naive patients. Results visible at 8 to 12 weeks, full benefit at 6 to 12 months. Dryness and peeling during retinization period (first 4 to 8 weeks) are normal."],
-      ["Tretinoin cream 0.05% (mid-strength)", "Pea-sized amount to face nightly", "Ongoing", "Step-up strength after tolerating 0.025% or for patients with prior retinoid experience. More effective for moderate photoaging but more initial irritation."],
-      ["Tretinoin cream 0.1% (highest strength)", "Pea-sized amount to face nightly", "Ongoing", "Reserved for patients who have tolerated lower strengths and need stronger treatment. Highest efficacy but most irritation potential. Not a typical starting dose."],
-      ["Broad-spectrum sunscreen SPF 30+ (mandatory adjunct)", "Apply to face and exposed skin every morning, reapply every 2 hours during sun exposure", "Daily, ongoing", "Non-negotiable with tretinoin use. Tretinoin increases photosensitivity by up to 50 percent. Without sunscreen, photodamage can worsen despite treatment."],
-      ["Gentle moisturizer (barrier support)", "Apply morning and evening, can be applied before or after tretinoin at night", "Daily, ongoing", "Supports the skin barrier during the retinization period. Hyaluronic acid or niacinamide-based moisturizers are well tolerated. Buffering (moisturizer before tretinoin) can reduce irritation."]
+      [
+        "Tretinoin cream 0.025% (lowest strength)",
+        "Pea-sized amount to face every other night, increase to nightly as tolerated",
+        "Ongoing (months to years for sustained benefit)",
+        "Recommended starting strength for retinoid-naive patients. Results visible at 8 to 12 weeks, full benefit at 6 to 12 months. Dryness and peeling during retinization period (first 4 to 8 weeks) are normal."
+      ],
+      [
+        "Tretinoin cream 0.05% (mid-strength)",
+        "Pea-sized amount to face nightly",
+        "Ongoing",
+        "Step-up strength after tolerating 0.025% or for patients with prior retinoid experience. More effective for moderate photoaging but more initial irritation."
+      ],
+      [
+        "Tretinoin cream 0.1% (highest strength)",
+        "Pea-sized amount to face nightly",
+        "Ongoing",
+        "Reserved for patients who have tolerated lower strengths and need stronger treatment. Highest efficacy but most irritation potential. Not a typical starting dose."
+      ],
+      [
+        "Broad-spectrum sunscreen SPF 30+ (mandatory adjunct)",
+        "Apply to face and exposed skin every morning, reapply every 2 hours during sun exposure",
+        "Daily, ongoing",
+        "Non-negotiable with tretinoin use. Tretinoin increases photosensitivity by up to 50 percent. Without sunscreen, photodamage can worsen despite treatment."
+      ],
+      [
+        "Gentle moisturizer (barrier support)",
+        "Apply morning and evening, can be applied before or after tretinoin at night",
+        "Daily, ongoing",
+        "Supports the skin barrier during the retinization period. Hyaluronic acid or niacinamide-based moisturizers are well tolerated. Buffering (moisturizer before tretinoin) can reduce irritation."
+      ]
     ],
     "note": "Example regimens only. The actual medication, strength, and regimen are determined by the MD after reviewing your skin type, concerns, and contraindications. Tretinoin is contraindicated in pregnancy and breastfeeding (teratogenic). Tretinoin is not a controlled substance. TeleDirectMD does not prescribe controlled substances."
   },
-
   "homeCare": {
     "sectionTitle": "Home Care, Skin Care Routine, and Follow-up",
     "whatToDoNow": {
@@ -385,7 +490,6 @@
       ]
     }
   },
-
   "whenNotToUse": {
     "sectionTitle": "When Not to Use TeleDirectMD for Anti-Aging Treatment in {state}",
     "intro": "TeleDirectMD is designed for prescription tretinoin for photoaging in appropriate adults. We are direct about when telehealth is not the right fit.",
@@ -405,14 +509,25 @@
     "alternatives": {
       "title": "Alternative Care Options",
       "items": [
-        { "label": "Dermatologist:", "text": "suspicious skin lesions, skin cancer screening, severe acne, complex pigmentation disorders, and in-office procedures" },
-        { "label": "Medical spa:", "text": "chemical peels, microneedling, laser resurfacing, and injectable treatments under medical supervision" },
-        { "label": "Primary care:", "text": "general skin concerns combined with other health issues, skin cancer screening referrals, and prescription coordination" },
-        { "label": "Urgent care or ER:", "text": "severe allergic skin reactions, widespread blistering, or signs of skin infection" }
+        {
+          "label": "Dermatologist:",
+          "text": "suspicious skin lesions, skin cancer screening, severe acne, complex pigmentation disorders, and in-office procedures"
+        },
+        {
+          "label": "Medical spa:",
+          "text": "chemical peels, microneedling, laser resurfacing, and injectable treatments under medical supervision"
+        },
+        {
+          "label": "Primary care:",
+          "text": "general skin concerns combined with other health issues, skin cancer screening referrals, and prescription coordination"
+        },
+        {
+          "label": "Urgent care or ER:",
+          "text": "severe allergic skin reactions, widespread blistering, or signs of skin infection"
+        }
       ]
     }
   },
-
   "faq": {
     "sectionTitle": "Anti-Aging Treatment FAQs for {state}",
     "items": [
@@ -478,15 +593,28 @@
       "text": "Insurance is not required. Adult-only video visits. MD-only care. Safety-first screening, prescription tretinoin when appropriate, and clear skin care guidance."
     }
   },
-
   "references": [
-    { "text": "Mukherjee S et al., Retinoids in the Treatment of Skin Aging: An Overview of Clinical Efficacy and Safety, Clinical Interventions in Aging (2006)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2699641/" },
-    { "text": "Kang S et al., Application of Retinol and Retinoic Acid on Photoaging, Dermatologic Surgery", "url": "https://pubmed.ncbi.nlm.nih.gov/16442038/" },
-    { "text": "FDA Label for Renova (Tretinoin Cream 0.02%) for Photoaging", "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2004/020475s011lbl.pdf" },
-    { "text": "Photoaging, StatPearls (2025)", "url": "https://www.ncbi.nlm.nih.gov/books/NBK535417/" },
-    { "text": "American Academy of Dermatology: Retinoid Therapy for Photoaging", "url": "https://www.aad.org/public/everyday-care/skin-care-basics/anti-aging/retinoid-therapy" }
+    {
+      "text": "Mukherjee S et al., Retinoids in the Treatment of Skin Aging: An Overview of Clinical Efficacy and Safety, Clinical Interventions in Aging (2006)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2699641/"
+    },
+    {
+      "text": "Kang S et al., Application of Retinol and Retinoic Acid on Photoaging, Dermatologic Surgery",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16442038/"
+    },
+    {
+      "text": "FDA Label for Renova (Tretinoin Cream 0.02%) for Photoaging",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2004/020475s011lbl.pdf"
+    },
+    {
+      "text": "Photoaging, StatPearls (2025)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK535417/"
+    },
+    {
+      "text": "American Academy of Dermatology: Retinoid Therapy for Photoaging",
+      "url": "https://www.aad.org/public/everyday-care/skin-care-basics/anti-aging/retinoid-therapy"
+    }
   ],
-
   "disclaimer": {
     "sectionTitle": "TeleDirectMD Telehealth Disclaimer",
     "paragraphs": [
@@ -495,7 +623,6 @@
       "Online anti-aging treatment in {state}. Tretinoin prescription online. Prescription retinoid for wrinkles and sun damage by video visit in {state}."
     ]
   },
-
   "relatedConditions": [
     {
       "slug": "acne-treatment-online",
@@ -518,37 +645,82 @@
       "description": "Another cosmetic dermatology condition treatable by telehealth with prescription bimatoprost"
     }
   ],
-
   "inlineLinks": [
-    { "slug": "acne-treatment-online", "label": "Acne Treatment" },
-    { "slug": "eczema-treatment-online", "label": "Eczema Treatment" },
-    { "slug": "rosacea-treatment-online", "label": "Rosacea Treatment" },
-    { "slug": "cold-sore-treatment-online", "label": "Cold Sore Treatment" },
-    { "slug": "contact-dermatitis-treatment-online", "label": "Contact Dermatitis" },
-    { "slug": "dandruff-treatment-online", "label": "Dandruff Treatment" },
-    { "slug": "shingles-treatment-online", "label": "Shingles Treatment" },
-    { "slug": "scabies-treatment-online", "label": "Scabies Treatment" },
-    { "slug": "tinea-treatment-online", "label": "Tinea Treatment" },
-    { "slug": "excessive-sweating-treatment-online", "label": "Excessive Sweating" }
+    {
+      "slug": "acne-treatment-online",
+      "label": "Acne Treatment"
+    },
+    {
+      "slug": "eczema-treatment-online",
+      "label": "Eczema Treatment"
+    },
+    {
+      "slug": "rosacea-treatment-online",
+      "label": "Rosacea Treatment"
+    },
+    {
+      "slug": "cold-sore-treatment-online",
+      "label": "Cold Sore Treatment"
+    },
+    {
+      "slug": "contact-dermatitis-treatment-online",
+      "label": "Contact Dermatitis"
+    },
+    {
+      "slug": "dandruff-treatment-online",
+      "label": "Dandruff Treatment"
+    },
+    {
+      "slug": "shingles-treatment-online",
+      "label": "Shingles Treatment"
+    },
+    {
+      "slug": "scabies-treatment-online",
+      "label": "Scabies Treatment"
+    },
+    {
+      "slug": "tinea-treatment-online",
+      "label": "Tinea Treatment"
+    },
+    {
+      "slug": "excessive-sweating-treatment-online",
+      "label": "Excessive Sweating"
+    }
   ],
-
   "cityBlock": {
     "title": "Adults We Serve Across {state}",
     "text": "TeleDirectMD evaluates adults located throughout {state}, including {citiesExtended}. Whether you are searching for online anti-aging treatment in {city1}, tretinoin prescriptions in {city2}, prescription retinoid for wrinkles in {city3}, or telehealth skin care evaluation anywhere else in {state}, the same telehealth eligibility and safety rules apply."
   },
-
   "icd10Codes": [
-    { "code": "L57.0", "description": "Actinic keratosis" },
-    { "code": "L90.8", "description": "Other atrophic disorders of skin (photoaging)" }
+    {
+      "code": "L57.0",
+      "description": "Actinic keratosis"
+    },
+    {
+      "code": "L90.8",
+      "description": "Other atrophic disorders of skin (photoaging)"
+    }
   ],
-
   "jsonLd": {
     "conditionName": "Photoaging",
-    "conditionAlternateNames": ["Anti-aging", "Sun damage", "Photodamage", "Skin aging", "Fine wrinkles from sun exposure"],
+    "conditionAlternateNames": [
+      "Anti-aging",
+      "Sun damage",
+      "Photodamage",
+      "Skin aging",
+      "Fine wrinkles from sun exposure"
+    ],
     "conditionDescription": "Photoaging is the premature aging of skin caused by chronic ultraviolet exposure, presenting as fine wrinkles, mottled hyperpigmentation, and rough skin texture. TeleDirectMD evaluates adult photoaging concerns by video visit with safety-first screening, prescription tretinoin when clinically appropriate, and complete skin care and sun protection guidance, with clear rules for when in-person dermatology care is needed.",
     "primaryIcd10": "L57.0",
     "anatomy": "Skin (face, neck, chest, dorsal hands)",
-    "symptoms": ["Fine wrinkles", "Mottled hyperpigmentation", "Rough skin texture", "Skin laxity", "Solar lentigines", "Sallow skin tone"],
+    "symptoms": [
+      "Fine wrinkles",
+      "Mottled hyperpigmentation",
+      "Rough skin texture",
+      "Skin laxity",
+      "Solar lentigines",
+      "Sallow skin tone"
+    ],
     "riskFactors": [
       "Cumulative UV exposure",
       "Fair skin type (Fitzpatrick I-II)",
@@ -563,8 +735,14 @@
     ],
     "epidemiology": "Photoaging affects virtually all adults with cumulative sun exposure. It is the most common reason for cosmetic dermatology consultations.",
     "drugs": [
-      { "name": "Tretinoin cream", "id": "tretinoin" },
-      { "name": "Broad-spectrum sunscreen SPF 30+", "id": "sunscreen-spf30" }
+      {
+        "name": "Tretinoin cream",
+        "id": "tretinoin"
+      },
+      {
+        "name": "Broad-spectrum sunscreen SPF 30+",
+        "id": "sunscreen-spf30"
+      }
     ],
     "treatments": [
       "Prescription tretinoin (gold-standard topical retinoid)",
@@ -576,11 +754,30 @@
       "Clinical and photo assessment of photoaging severity",
       "Red-flag screening for suspicious lesions and contraindications"
     ],
-    "specialties": ["Family Medicine", "Telemedicine", "Dermatology"],
+    "specialties": [
+      "Family Medicine",
+      "Telemedicine",
+      "Dermatology"
+    ],
     "guidelines": [
-      { "name": "Retinoids in the Treatment of Skin Aging (Mukherjee et al.)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2699641/", "publisher": "Clinical Interventions in Aging", "id": "mukherjee-retinoids" },
-      { "name": "FDA Label for Renova (Tretinoin for Photoaging)", "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2004/020475s011lbl.pdf", "publisher": "U.S. Food and Drug Administration", "id": "fda-renova" },
-      { "name": "Photoaging, StatPearls", "url": "https://www.ncbi.nlm.nih.gov/books/NBK535417/", "publisher": "StatPearls Publishing", "id": "statpearls-photoaging" }
+      {
+        "name": "Retinoids in the Treatment of Skin Aging (Mukherjee et al.)",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2699641/",
+        "publisher": "Clinical Interventions in Aging",
+        "id": "mukherjee-retinoids"
+      },
+      {
+        "name": "FDA Label for Renova (Tretinoin for Photoaging)",
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2004/020475s011lbl.pdf",
+        "publisher": "U.S. Food and Drug Administration",
+        "id": "fda-renova"
+      },
+      {
+        "name": "Photoaging, StatPearls",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK535417/",
+        "publisher": "StatPearls Publishing",
+        "id": "statpearls-photoaging"
+      }
     ],
     "knowsAbout": [
       "Anti-aging treatment",
@@ -594,5 +791,7 @@
     ],
     "serviceDescription": "Secure video visit for {state} adults with photoaging concerns, including safety screening, prescription tretinoin when clinically appropriate, and complete skin care and sun protection guidance.",
     "webpageDescription": "{state} anti-aging treatment by secure MD video visit for adults. Evidence-based evaluation of photoaging, prescription tretinoin for fine wrinkles and sun damage, and clear rules for when in-person dermatology care is needed."
-  }
+  },
+  "guidelineSource": "aad",
+  "conditionType": "cosmetic"
 }

@@ -80,27 +80,26 @@ export default async function CostPage({ params }) {
     procedure: cfg.procedure,
   });
 
-  // ── AI-visibility QAPage schema. Emits a standalone Question/Answer pair
+  // ── AI-visibility FAQPage schema. Emits a standalone Question/Answer pair
   //    using the cfg.citableSummary field so AI extractors (ChatGPT, Perplexity,
   //    Gemini, Claude) see a structured, dated, source-named answer to the
-  //    canonical cost query. Lives alongside the FAQPage in jsonLd above.
+  //    canonical cost query. Uses FAQPage (author-written) per Google policy —
+  //    QAPage is for forum/UGC content, not editorial copy.
   const conditionLabel = cfg.breadcrumb.replace(/ Cost$/i, '').replace(/ Treatment Cost$/i, ' treatment').toLowerCase();
   const qaJsonLd = cfg.citableSummary ? {
     '@context': 'https://schema.org',
-    '@type': 'QAPage',
-    'mainEntity': {
+    '@type': 'FAQPage',
+    'datePublished': today,
+    'dateModified': today,
+    'author': { '@type': 'Physician', 'name': 'Parth Bhavsar, MD', 'sameAs': 'https://npiregistry.cms.hhs.gov/provider-view/1104323203' },
+    'mainEntity': [{
       '@type': 'Question',
       'name': `How much does ${conditionLabel} cost in 2026?`,
-      'datePublished': today,
-      'author': { '@type': 'Person', 'name': 'Parth Bhavsar, MD', 'identifier': { '@type': 'PropertyValue', 'name': 'NPI', 'value': '1104323203' } },
       'acceptedAnswer': {
         '@type': 'Answer',
         'text': cfg.citableSummary.replace(/<[^>]+>/g, ''), // strip inline HTML for the plain-text schema field
-        'dateCreated': today,
-        'author': { '@type': 'Person', 'name': 'Parth Bhavsar, MD' },
-        'url': pageUrl,
       },
-    },
+    }],
   } : null;
 
   return (
@@ -133,16 +132,16 @@ export default async function CostPage({ params }) {
       </div>
 
       {/* 2b) Citable Summary — AI-extractor-targeted Q&A block.
-           Rendered as a structured Question/Answer pair for ChatGPT, Perplexity,
-           Gemini, Claude. The text is self-contained, dated, source-named so it
-           can be quoted verbatim. Also emitted as schema.org QAPage node below. */}
+           Rendered as a visible editorial Question/Answer pair for ChatGPT,
+           Perplexity, Gemini, Claude. The text is self-contained, dated, and
+           source-named so it can be quoted verbatim. Also mirrored by the
+           FAQPage JSON-LD block above. Microdata itemProp attributes removed
+           per 2026-05-19 cloaking-risk audit — JSON-LD is the canonical schema. */}
       {cfg.citableSummary && (
         <section
           className="tdmd-citable-summary"
           id={`${pid}-citable-summary`}
           data-speakable="true"
-          itemScope
-          itemType="https://schema.org/Question"
           style={{
             background: '#FFFFFF',
             border: '1px solid #C2E0E5',
@@ -154,21 +153,16 @@ export default async function CostPage({ params }) {
           }}
         >
           <h2
-            itemProp="name"
             style={{ margin: '0 0 0.5rem', fontSize: '1.05rem', fontWeight: 700, color: '#003E52' }}
           >
             {`How much does ${cfg.breadcrumb.replace(/ Cost$/i, '').replace(/ Treatment Cost$/i,' treatment').toLowerCase()} cost in 2026?`}
           </h2>
           <div
-            itemProp="acceptedAnswer"
-            itemScope
-            itemType="https://schema.org/Answer"
-          >
-            <div
-              itemProp="text"
-              style={{ margin: 0, color: '#0A2438', fontSize: '0.97rem' }}
-              dangerouslySetInnerHTML={{ __html: cfg.citableSummary }}
-            />
+            style={{ margin: 0, color: '#0A2438', fontSize: '0.97rem' }}
+            dangerouslySetInnerHTML={{ __html: cfg.citableSummary }}
+          />
+          <div style={{ marginTop: '0.75rem', paddingTop: '0.6rem', borderTop: '1px solid #E6F0F2', fontSize: '0.82rem', color: '#456676', fontStyle: 'italic' }}>
+            {`Medically reviewed by Parth Bhavsar, MD — Updated ${new Date(today).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}`}
           </div>
         </section>
       )}

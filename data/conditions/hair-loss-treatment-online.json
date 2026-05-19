@@ -2,20 +2,34 @@
   "conditionName": "Hair Loss Treatment",
   "conditionShort": "Hair Loss",
   "conditionSlug": "hair-loss-treatment-online",
-  "pageTitle": "Hair Loss Treatment Online in {state} | Male Pattern Baldness MD Video Visit | TeleDirectMD",
+  "pageTitle": "Hair Loss Online Treatment in {state} | TeleDirectMD",
   "metaDescription": "Evidence-based hair loss treatment for {state} adults by secure video visit. Finasteride, minoxidil, and combination therapy for androgenetic alopecia. Self pay option starting at $49. Insurance is not required.",
   "ogImageAlt": "Hair loss treatment in {state} by TeleDirectMD",
-
   "hero": {
     "h1": "Hair Loss Treatment in {state} (Androgenetic Alopecia)",
     "subtitle": "{state} adult care by secure video visit, self pay option starting at $49, MD-only, insurance is not required.",
     "introParagraph": "Male pattern hair loss, also called androgenetic alopecia, is the most common cause of hair loss in men. It is driven by dihydrotestosterone (DHT), which gradually miniaturizes hair follicles over the temples, crown, and mid-scalp. Approximately 50 percent of men are affected by age 50, and prevalence continues to rise with age. The AAD and IADVL guidelines support finasteride and minoxidil as first-line treatments, with combination therapy offering the best outcomes. TeleDirectMD uses a safety-first telehealth approach that screens for red flags including patchy hair loss, scarring alopecia, rapid diffuse shedding, scalp lesions, and systemic symptoms before determining whether treatment by video visit is appropriate. If the history and pattern are consistent with androgenetic alopecia without red flags, guideline-based treatment can be initiated by video visit. Adults with suspected alopecia areata, scarring alopecia, or hair loss with systemic signs are directed to in-person dermatology evaluation. This page is for adults located in {state}, including {cities}.",
     "tocLinks": [
-      { "href": "eligibility-checklist", "label": "Eligibility checklist" },
-      { "href": "decision-guide", "label": "Decision guide" },
-      { "href": "treatment-options", "label": "Treatment options" },
-      { "href": "faq", "label": "FAQs" },
-      { "href": "references", "label": "References" }
+      {
+        "href": "eligibility-checklist",
+        "label": "Eligibility checklist"
+      },
+      {
+        "href": "decision-guide",
+        "label": "Decision guide"
+      },
+      {
+        "href": "treatment-options",
+        "label": "Treatment options"
+      },
+      {
+        "href": "faq",
+        "label": "FAQs"
+      },
+      {
+        "href": "references",
+        "label": "References"
+      }
     ],
     "benefits": [
       "Self pay option starting at $49",
@@ -35,7 +49,6 @@
     },
     "icd10Display": "L64.9 (final coding depends on clinical details)"
   },
-
   "eligibility": {
     "sectionTitle": "Hair Loss Telehealth Eligibility Checklist for {state}",
     "introText": "You are likely eligible for a TeleDirectMD video visit if ALL of these are true:",
@@ -59,7 +72,6 @@
     ],
     "notEligibleDisclaimer": "If you have red-flag symptoms or a pattern that does not fit androgenetic alopecia, seek in-person dermatology evaluation. TeleDirectMD is not appropriate for complex or scarring hair loss."
   },
-
   "howItWorks": {
     "sectionTitle": "How Online Hair Loss Treatment Works in {state}",
     "steps": [
@@ -81,7 +93,6 @@
       }
     ]
   },
-
   "telehealthRegulations": {
     "sectionTitle": "{state} Telehealth Regulations for Online Hair Loss Care",
     "paragraphs": [
@@ -89,7 +100,6 @@
       "Location matters: you must be physically in {state} during the visit. Insurance is not required. TeleDirectMD does not prescribe controlled substances."
     ]
   },
-
   "comparisonTable": {
     "sectionTitle": "TeleDirectMD vs Other Care Options for Hair Loss in {state}",
     "intro": "Here is how TeleDirectMD compares to common settings for adult hair loss care in {state}:",
@@ -137,7 +147,6 @@
     ],
     "bottomLine": "TeleDirectMD is a strong fit for typical male pattern hair loss without red flags, with a safety-first MD evaluation and evidence-based prescribing at a transparent price."
   },
-
   "decisionGuide": {
     "sectionTitle": "Should I Use TeleDirectMD for Hair Loss in {state}? Decision Guide",
     "steps": [
@@ -182,7 +191,6 @@
       }
     ]
   },
-
   "pricing": {
     "sectionTitle": "What Does Hair Loss Treatment Cost in {state}?",
     "subtitle": "Transparent options. Insurance is not required.",
@@ -196,15 +204,34 @@
       "Clear follow-up timeline and side effect guidance"
     ],
     "comparisonBars": [
-      { "name": "TeleDirectMD", "value": "$49", "width": 12, "isTdmd": true },
-      { "name": "Primary Care", "value": "$100 to $250+", "width": 45, "isTdmd": false },
-      { "name": "Dermatology", "value": "$150 to $400+", "width": 60, "isTdmd": false },
-      { "name": "Hair Transplant", "value": "$4,000 to $15,000+", "width": 100, "isTdmd": false }
+      {
+        "name": "TeleDirectMD",
+        "value": "$49",
+        "width": 12,
+        "isTdmd": true
+      },
+      {
+        "name": "Primary Care",
+        "value": "$100 to $250+",
+        "width": 45,
+        "isTdmd": false
+      },
+      {
+        "name": "Dermatology",
+        "value": "$150 to $400+",
+        "width": 60,
+        "isTdmd": false
+      },
+      {
+        "name": "Hair Transplant",
+        "value": "$4,000 to $15,000+",
+        "width": 100,
+        "isTdmd": false
+      }
     ],
     "footnote": "Prescription costs at your pharmacy are separate and vary by medication and pharmacy. Generic finasteride is typically $10 to $15 per month.",
     "noHiddenFees": "No hidden fees. If medication is not clinically appropriate, you still receive a complete evaluation, guidance, and clear instructions on what level of care you need next."
   },
-
   "whatIsCondition": {
     "sectionTitle": "What Is Androgenetic Alopecia (Male Pattern Hair Loss)?",
     "paragraphs": [
@@ -213,36 +240,91 @@
       "Two FDA-approved treatments exist: finasteride, an oral medication that blocks DHT production, and minoxidil, a topical solution that stimulates hair growth. Combination therapy is the most effective approach. TeleDirectMD evaluates adults with typical pattern hair loss by video visit, with screening to identify cases that require in-person dermatology evaluation."
     ]
   },
-
   "causesAndRiskFactors": {
     "sectionTitle": "Causes and Risk Factors",
     "intro": "Androgenetic alopecia is driven by a combination of genetics and androgen hormones. Understanding the causes and risk factors helps determine whether a telehealth evaluation is appropriate or whether in-person testing is needed to rule out other conditions.",
     "items": [
-      { "label": "Genetics:", "text": "the strongest risk factor. Family history of male pattern baldness on either side increases risk significantly. Multiple genes influence follicle sensitivity to DHT." },
-      { "label": "DHT (dihydrotestosterone):", "text": "the primary hormonal driver. Testosterone is converted to DHT by 5-alpha reductase in the scalp. DHT binds to androgen receptors on susceptible follicles and triggers miniaturization over time." },
-      { "label": "Age:", "text": "prevalence increases with each decade. Onset can begin as early as the late teens or early twenties, with progression continuing throughout life." },
-      { "label": "Thyroid disorders:", "text": "hypothyroidism and hyperthyroidism can cause diffuse hair thinning that mimics or overlaps with androgenetic alopecia and may need in-person evaluation." },
-      { "label": "Iron deficiency:", "text": "low ferritin levels can contribute to hair shedding and may need laboratory testing when diffuse thinning is present." },
-      { "label": "Stress and illness:", "text": "telogen effluvium, a diffuse shedding triggered by physical or emotional stress, surgery, or illness, can be confused with progressive pattern hair loss and usually resolves on its own." }
+      {
+        "label": "Genetics:",
+        "text": "the strongest risk factor. Family history of male pattern baldness on either side increases risk significantly. Multiple genes influence follicle sensitivity to DHT."
+      },
+      {
+        "label": "DHT (dihydrotestosterone):",
+        "text": "the primary hormonal driver. Testosterone is converted to DHT by 5-alpha reductase in the scalp. DHT binds to androgen receptors on susceptible follicles and triggers miniaturization over time."
+      },
+      {
+        "label": "Age:",
+        "text": "prevalence increases with each decade. Onset can begin as early as the late teens or early twenties, with progression continuing throughout life."
+      },
+      {
+        "label": "Thyroid disorders:",
+        "text": "hypothyroidism and hyperthyroidism can cause diffuse hair thinning that mimics or overlaps with androgenetic alopecia and may need in-person evaluation."
+      },
+      {
+        "label": "Iron deficiency:",
+        "text": "low ferritin levels can contribute to hair shedding and may need laboratory testing when diffuse thinning is present."
+      },
+      {
+        "label": "Stress and illness:",
+        "text": "telogen effluvium, a diffuse shedding triggered by physical or emotional stress, surgery, or illness, can be confused with progressive pattern hair loss and usually resolves on its own."
+      }
     ],
     "closing": "Not every hair loss pattern is androgenetic alopecia. Patchy loss may suggest alopecia areata, an autoimmune condition. Scarring alopecia causes permanent follicle destruction and requires biopsy. Rapid diffuse shedding with systemic symptoms needs laboratory workup. TeleDirectMD screens for these patterns and directs complex cases to in-person dermatology."
   },
-
   "symptomsAndRedFlags": {
     "sectionTitle": "Symptoms and Red Flags for Hair Loss in {state}",
     "intro": "Use this table to understand which patterns fit androgenetic alopecia and which patterns suggest a need for in-person dermatology evaluation.",
-    "headers": ["Pattern or situation", "What it suggests", "Telehealth appropriate?", "Red flag requiring in-person evaluation"],
+    "headers": [
+      "Pattern or situation",
+      "What it suggests",
+      "Telehealth appropriate?",
+      "Red flag requiring in-person evaluation"
+    ],
     "rows": [
-      ["Gradual thinning at temples and crown over months to years", "Androgenetic alopecia (male pattern hair loss)", "Often yes", "Not a red flag if pattern is typical and no scalp changes"],
-      ["Receding hairline with preserved hair density elsewhere", "Early androgenetic alopecia", "Often yes", "If onset is sudden or associated with scalp symptoms, evaluate further"],
-      ["Diffuse thinning across entire scalp", "May be androgenetic alopecia, telogen effluvium, thyroid disorder, or iron deficiency", "Sometimes", "If accompanied by fatigue, weight changes, or rapid onset, in-person evaluation with labs is often needed"],
-      ["Patchy, well-circumscribed round or oval bald spots", "Alopecia areata (autoimmune, different condition)", "No", "Requires in-person dermatology evaluation and possible treatment with immunomodulators"],
-      ["Scalp scarring, smooth shiny patches, or permanent follicle loss", "Scarring alopecia (cicatricial alopecia)", "No", "Requires scalp biopsy and in-person dermatology evaluation"],
-      ["Scalp redness, scaling, pustules, or itching with hair loss", "Tinea capitis, folliculitis, seborrheic dermatitis, or other scalp condition", "Sometimes", "If severe, spreading, or not responding to initial treatment, in-person evaluation needed"],
-      ["Hair loss with joint pain, facial rash, weight changes, or other systemic symptoms", "Possible autoimmune disease, thyroid disorder, or other systemic condition", "No", "In-person evaluation with laboratory workup is needed"]
+      [
+        "Gradual thinning at temples and crown over months to years",
+        "Androgenetic alopecia (male pattern hair loss)",
+        "Often yes",
+        "Not a red flag if pattern is typical and no scalp changes"
+      ],
+      [
+        "Receding hairline with preserved hair density elsewhere",
+        "Early androgenetic alopecia",
+        "Often yes",
+        "If onset is sudden or associated with scalp symptoms, evaluate further"
+      ],
+      [
+        "Diffuse thinning across entire scalp",
+        "May be androgenetic alopecia, telogen effluvium, thyroid disorder, or iron deficiency",
+        "Sometimes",
+        "If accompanied by fatigue, weight changes, or rapid onset, in-person evaluation with labs is often needed"
+      ],
+      [
+        "Patchy, well-circumscribed round or oval bald spots",
+        "Alopecia areata (autoimmune, different condition)",
+        "No",
+        "Requires in-person dermatology evaluation and possible treatment with immunomodulators"
+      ],
+      [
+        "Scalp scarring, smooth shiny patches, or permanent follicle loss",
+        "Scarring alopecia (cicatricial alopecia)",
+        "No",
+        "Requires scalp biopsy and in-person dermatology evaluation"
+      ],
+      [
+        "Scalp redness, scaling, pustules, or itching with hair loss",
+        "Tinea capitis, folliculitis, seborrheic dermatitis, or other scalp condition",
+        "Sometimes",
+        "If severe, spreading, or not responding to initial treatment, in-person evaluation needed"
+      ],
+      [
+        "Hair loss with joint pain, facial rash, weight changes, or other systemic symptoms",
+        "Possible autoimmune disease, thyroid disorder, or other systemic condition",
+        "No",
+        "In-person evaluation with laboratory workup is needed"
+      ]
     ]
   },
-
   "differentialDiagnosis": {
     "sectionTitle": "Differential Diagnosis: Androgenetic Alopecia vs Other Conditions",
     "intro": "Several conditions can cause hair loss or mimic androgenetic alopecia. TeleDirectMD screens for these patterns during the video visit and directs cases that do not fit typical male pattern hair loss to appropriate in-person evaluation.",
@@ -282,7 +364,6 @@
     ],
     "closing": "If your hair loss pattern does not match typical androgenetic alopecia or any red flags are present, TeleDirectMD will direct you to in-person dermatology evaluation."
   },
-
   "telehealthEligibility": {
     "sectionTitle": "When Is a Video Visit Appropriate?",
     "appropriate": {
@@ -309,7 +390,6 @@
       "disclaimer": "If any red-flag patterns are present, seek in-person dermatology evaluation. TeleDirectMD is not appropriate for complex or scarring hair loss conditions."
     }
   },
-
   "treatmentOptions": {
     "sectionTitle": "Treatment Options",
     "intro": "Androgenetic alopecia is treated with medications that either block DHT or stimulate hair growth directly. The AAD and IADVL guidelines support finasteride and minoxidil as first-line treatments, with combination therapy offering the most effective results. Treatment must be continued indefinitely because hair loss resumes within 12 months of stopping.",
@@ -342,20 +422,43 @@
       "Hair transplant evaluation or procedural treatments such as PRP"
     ]
   },
-
   "medications": {
     "sectionTitle": "Common Medication Options",
     "intro": "These are the primary medications for androgenetic alopecia. The actual treatment plan is determined by the MD after reviewing your hair loss pattern, medical history, current medications, and risk factors.",
-    "headers": ["Medication", "Typical dose", "Timeline", "Key considerations"],
+    "headers": [
+      "Medication",
+      "Typical dose",
+      "Timeline",
+      "Key considerations"
+    ],
     "rows": [
-      ["Finasteride (Propecia/generic)", "1 mg by mouth once daily", "Results at 3-6 months, peak at 1-2 years", "Blocks DHT by approximately 65 percent. Not a controlled substance. Sexual side effects in 1-2 percent, usually reversible. Teratogenic — women who are or may become pregnant must not handle crushed or broken tablets. Must continue indefinitely."],
-      ["Minoxidil 5% topical (Rogaine/generic)", "Apply to scalp twice daily", "Results at 4-6 months", "FDA-approved OTC, no prescription needed for topical form. Works independently of hormones. Initial shedding may occur in the first 2-4 weeks and is normal. Must continue indefinitely."],
-      ["Combination (finasteride + minoxidil)", "Finasteride 1 mg daily + minoxidil 5% twice daily", "Results at 3-6 months", "Most effective medical approach. Addresses both the hormonal driver and follicle stimulation through separate mechanisms."],
-      ["Ketoconazole shampoo 2% (adjunctive)", "Apply to scalp 2-3 times per week", "Ongoing adjunctive use", "Antifungal with mild anti-androgenic properties. May reduce scalp DHT locally. Used as an adjunct to finasteride and minoxidil, not as monotherapy."]
+      [
+        "Finasteride (Propecia/generic)",
+        "1 mg by mouth once daily",
+        "Results at 3-6 months, peak at 1-2 years",
+        "Blocks DHT by approximately 65 percent. Not a controlled substance. Sexual side effects in 1-2 percent, usually reversible. Teratogenic — women who are or may become pregnant must not handle crushed or broken tablets. Must continue indefinitely."
+      ],
+      [
+        "Minoxidil 5% topical (Rogaine/generic)",
+        "Apply to scalp twice daily",
+        "Results at 4-6 months",
+        "FDA-approved OTC, no prescription needed for topical form. Works independently of hormones. Initial shedding may occur in the first 2-4 weeks and is normal. Must continue indefinitely."
+      ],
+      [
+        "Combination (finasteride + minoxidil)",
+        "Finasteride 1 mg daily + minoxidil 5% twice daily",
+        "Results at 3-6 months",
+        "Most effective medical approach. Addresses both the hormonal driver and follicle stimulation through separate mechanisms."
+      ],
+      [
+        "Ketoconazole shampoo 2% (adjunctive)",
+        "Apply to scalp 2-3 times per week",
+        "Ongoing adjunctive use",
+        "Antifungal with mild anti-androgenic properties. May reduce scalp DHT locally. Used as an adjunct to finasteride and minoxidil, not as monotherapy."
+      ]
     ],
     "note": "Treatment plans are individualized by the MD after reviewing your hair loss pattern, medical history, allergies, and goals. Finasteride is not a controlled substance. TeleDirectMD does not prescribe controlled substances."
   },
-
   "homeCare": {
     "sectionTitle": "Home Care, Timeline, and Follow-up",
     "whatToDoNow": {
@@ -387,7 +490,6 @@
       ]
     }
   },
-
   "whenNotToUse": {
     "sectionTitle": "When Not to Use TeleDirectMD for Hair Loss in {state}",
     "intro": "TeleDirectMD is designed for typical androgenetic alopecia in adults. We are direct about when telehealth is not appropriate.",
@@ -407,14 +509,25 @@
     "alternatives": {
       "title": "Alternative Care Options",
       "items": [
-        { "label": "Dermatology:", "text": "patchy hair loss, scarring alopecia, scalp biopsy, advanced or atypical cases, and female pattern hair loss" },
-        { "label": "Primary care:", "text": "hair loss with suspected thyroid disorder, iron deficiency, or other systemic contributing factors requiring laboratory workup" },
-        { "label": "Hair transplant surgeon:", "text": "advanced hair loss unresponsive to medical therapy, cosmetic restoration goals" },
-        { "label": "Endocrinology:", "text": "suspected hormonal imbalance, polycystic ovary syndrome, or adrenal disorder contributing to hair loss" }
+        {
+          "label": "Dermatology:",
+          "text": "patchy hair loss, scarring alopecia, scalp biopsy, advanced or atypical cases, and female pattern hair loss"
+        },
+        {
+          "label": "Primary care:",
+          "text": "hair loss with suspected thyroid disorder, iron deficiency, or other systemic contributing factors requiring laboratory workup"
+        },
+        {
+          "label": "Hair transplant surgeon:",
+          "text": "advanced hair loss unresponsive to medical therapy, cosmetic restoration goals"
+        },
+        {
+          "label": "Endocrinology:",
+          "text": "suspected hormonal imbalance, polycystic ovary syndrome, or adrenal disorder contributing to hair loss"
+        }
       ]
     }
   },
-
   "faq": {
     "sectionTitle": "Hair Loss Treatment FAQs for {state}",
     "items": [
@@ -480,15 +593,28 @@
       "text": "Insurance is not required. Adult-only video visits. MD-only care. Safety-first evaluation and evidence-based hair loss treatment."
     }
   },
-
   "references": [
-    { "text": "AAD Guidelines on Androgenetic Alopecia Treatment", "url": "https://www.aad.org/member/clinical-quality/guidelines/hair-loss" },
-    { "text": "IADVL Guidelines on Finasteride for Androgenetic Alopecia (Mysore et al.)", "url": "https://pubmed.ncbi.nlm.nih.gov/26924401/" },
-    { "text": "Treatment of Androgenetic Alopecia: Current Guidance (PMC, 2023)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10239632/" },
-    { "text": "Healthline: Expert-Reviewed Hair Loss Treatments (2026)", "url": "https://www.healthline.com/health-news/best-hair-loss-treatments-2026-experts" },
-    { "text": "Androgenetic Alopecia, StatPearls (2025)", "url": "https://www.ncbi.nlm.nih.gov/books/NBK430924/" }
+    {
+      "text": "AAD Guidelines on Androgenetic Alopecia Treatment",
+      "url": "https://www.aad.org/member/clinical-quality/guidelines/hair-loss"
+    },
+    {
+      "text": "IADVL Guidelines on Finasteride for Androgenetic Alopecia (Mysore et al.)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26924401/"
+    },
+    {
+      "text": "Treatment of Androgenetic Alopecia: Current Guidance (PMC, 2023)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10239632/"
+    },
+    {
+      "text": "Healthline: Expert-Reviewed Hair Loss Treatments (2026)",
+      "url": "https://www.healthline.com/health-news/best-hair-loss-treatments-2026-experts"
+    },
+    {
+      "text": "Androgenetic Alopecia, StatPearls (2025)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK430924/"
+    }
   ],
-
   "disclaimer": {
     "sectionTitle": "TeleDirectMD Telehealth Disclaimer",
     "paragraphs": [
@@ -497,7 +623,6 @@
       "Online hair loss treatment in {state}. Finasteride online. Minoxidil for male pattern baldness. Androgenetic alopecia treatment by video visit."
     ]
   },
-
   "relatedConditions": [
     {
       "slug": "acne-treatment-online",
@@ -520,36 +645,75 @@
       "description": "Common men's health condition often managed alongside hair loss treatment"
     }
   ],
-
   "inlineLinks": [
-    { "slug": "acne-treatment-online", "label": "Acne Treatment" },
-    { "slug": "anti-aging-treatment-online", "label": "Anti-Aging Treatment" },
-    { "slug": "eyelash-growth-treatment-online", "label": "Eyelash Growth Treatment" },
-    { "slug": "erectile-dysfunction-treatment-online", "label": "Erectile Dysfunction Treatment" },
-    { "slug": "eczema-treatment-online", "label": "Eczema Treatment" },
-    { "slug": "rosacea-treatment-online", "label": "Rosacea Treatment" },
-    { "slug": "smoking-cessation-treatment-online", "label": "Smoking Cessation Treatment" },
-    { "slug": "excessive-sweating-treatment-online", "label": "Excessive Sweating Treatment" },
-    { "slug": "tinea-treatment-online", "label": "Tinea (Ringworm) Treatment" },
-    { "slug": "contact-dermatitis-treatment-online", "label": "Contact Dermatitis Treatment" }
+    {
+      "slug": "acne-treatment-online",
+      "label": "Acne Treatment"
+    },
+    {
+      "slug": "anti-aging-treatment-online",
+      "label": "Anti-Aging Treatment"
+    },
+    {
+      "slug": "eyelash-growth-treatment-online",
+      "label": "Eyelash Growth Treatment"
+    },
+    {
+      "slug": "erectile-dysfunction-treatment-online",
+      "label": "Erectile Dysfunction Treatment"
+    },
+    {
+      "slug": "eczema-treatment-online",
+      "label": "Eczema Treatment"
+    },
+    {
+      "slug": "rosacea-treatment-online",
+      "label": "Rosacea Treatment"
+    },
+    {
+      "slug": "smoking-cessation-treatment-online",
+      "label": "Smoking Cessation Treatment"
+    },
+    {
+      "slug": "excessive-sweating-treatment-online",
+      "label": "Excessive Sweating Treatment"
+    },
+    {
+      "slug": "tinea-treatment-online",
+      "label": "Tinea (Ringworm) Treatment"
+    },
+    {
+      "slug": "contact-dermatitis-treatment-online",
+      "label": "Contact Dermatitis Treatment"
+    }
   ],
-
   "cityBlock": {
     "title": "Adults We Serve Across {state}",
     "text": "TeleDirectMD evaluates adults located throughout {state}, including {citiesExtended}. Whether you are searching for online hair loss treatment in {city1}, finasteride prescription in {city2}, male pattern baldness care in {city3}, or telehealth hair loss evaluation anywhere else in {state}, the same telehealth eligibility and safety rules apply."
   },
-
   "icd10Codes": [
-    { "code": "L64.9", "description": "Androgenetic alopecia, unspecified" }
+    {
+      "code": "L64.9",
+      "description": "Androgenetic alopecia, unspecified"
+    }
   ],
-
   "jsonLd": {
     "conditionName": "Androgenetic Alopecia",
-    "conditionAlternateNames": ["Male pattern hair loss", "Male pattern baldness", "AGA", "Androgenic alopecia"],
+    "conditionAlternateNames": [
+      "Male pattern hair loss",
+      "Male pattern baldness",
+      "AGA",
+      "Androgenic alopecia"
+    ],
     "conditionDescription": "Androgenetic alopecia is the most common cause of hair loss in men, driven by DHT-mediated follicle miniaturization. TeleDirectMD evaluates adult hair loss by video visit with safety-first screening, guideline-based finasteride and minoxidil prescribing when clinically appropriate, and clear rules for when in-person dermatology evaluation is needed.",
     "primaryIcd10": "L64.9",
     "anatomy": "Scalp",
-    "symptoms": ["Gradual hair thinning at temples and crown", "Receding hairline", "Decreased hair density", "Visible scalp through thinning hair"],
+    "symptoms": [
+      "Gradual hair thinning at temples and crown",
+      "Receding hairline",
+      "Decreased hair density",
+      "Visible scalp through thinning hair"
+    ],
     "riskFactors": [
       "Family history of male pattern baldness",
       "Increasing age",
@@ -562,8 +726,14 @@
     ],
     "epidemiology": "Androgenetic alopecia affects approximately 50 percent of men by age 50 and up to 70 percent of men by age 70.",
     "drugs": [
-      { "name": "Finasteride", "id": "finasteride" },
-      { "name": "Minoxidil", "id": "minoxidil" }
+      {
+        "name": "Finasteride",
+        "id": "finasteride"
+      },
+      {
+        "name": "Minoxidil",
+        "id": "minoxidil"
+      }
     ],
     "treatments": [
       "Finasteride 1 mg daily (oral, prescription)",
@@ -575,11 +745,30 @@
       "Clinical pattern assessment and red-flag screening",
       "Scalp biopsy when scarring alopecia is suspected"
     ],
-    "specialties": ["Family Medicine", "Telemedicine", "Dermatology"],
+    "specialties": [
+      "Family Medicine",
+      "Telemedicine",
+      "Dermatology"
+    ],
     "guidelines": [
-      { "name": "AAD Guidelines on Androgenetic Alopecia Treatment", "url": "https://www.aad.org/member/clinical-quality/guidelines/hair-loss", "publisher": "American Academy of Dermatology", "id": "aad" },
-      { "name": "IADVL Guidelines on Finasteride for Androgenetic Alopecia", "url": "https://pubmed.ncbi.nlm.nih.gov/26924401/", "publisher": "Indian Association of Dermatologists, Venereologists and Leprologists", "id": "iadvl" },
-      { "name": "Treatment of Androgenetic Alopecia: Current Guidance", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10239632/", "publisher": "PMC", "id": "pmc-aga" }
+      {
+        "name": "AAD Guidelines on Androgenetic Alopecia Treatment",
+        "url": "https://www.aad.org/member/clinical-quality/guidelines/hair-loss",
+        "publisher": "American Academy of Dermatology",
+        "id": "aad"
+      },
+      {
+        "name": "IADVL Guidelines on Finasteride for Androgenetic Alopecia",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/26924401/",
+        "publisher": "Indian Association of Dermatologists, Venereologists and Leprologists",
+        "id": "iadvl"
+      },
+      {
+        "name": "Treatment of Androgenetic Alopecia: Current Guidance",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10239632/",
+        "publisher": "PMC",
+        "id": "pmc-aga"
+      }
     ],
     "knowsAbout": [
       "Androgenetic alopecia treatment",
@@ -591,5 +780,7 @@
     ],
     "serviceDescription": "Secure video visit for {state} adults with male pattern hair loss, including red-flag screening, guideline-based finasteride and minoxidil prescribing when clinically appropriate, and clear follow-up guidance.",
     "webpageDescription": "{state} hair loss treatment by secure MD video visit for adults. Evidence-based evaluation of androgenetic alopecia, red-flag screening, finasteride and minoxidil prescribing when appropriate, and clear rules for when in-person dermatology evaluation is needed."
-  }
+  },
+  "guidelineSource": "aad",
+  "conditionType": "treatment"
 }

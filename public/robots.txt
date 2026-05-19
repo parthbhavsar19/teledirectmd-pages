@@ -1,5 +1,5 @@
 # TeleDirectMD — robots.txt
-# Last updated: 2026-05-18
+# Last updated: 2026-05-19
 # Explicitly allows modern AI crawlers and AI assistants in addition to
 # traditional search engines. Default policy below the bot list applies
 # to any bot not listed.
@@ -135,6 +135,14 @@ Allow: /
 
 # Kagi
 User-agent: KagiBot
+Allow: /
+
+# Brave Search / Brave Leo (Anthropic Claude relies on Brave Search index for
+# real-time citations — BraveBot access is required for Claude visibility)
+User-agent: BraveBot
+Allow: /
+
+User-agent: Brave-Search
 Allow: /
 
 # ─────────────────────────────────────────────────────────────────────

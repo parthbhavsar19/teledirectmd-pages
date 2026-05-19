@@ -1,26 +1,20 @@
-// CitableSummary — visible HTML block + Schema.org Question/Answer microdata.
+// CitableSummary — visible HTML block + FAQPage JSON-LD.
+//
+// 2026-05-19 OVERHAUL:
+//   - Removed the prior "visually-hidden" rendering mode. Per Google's
+//     structured-data policy, all JSON-LD must mirror visible page content;
+//     hidden microdata blocks are a cloaking-risk pattern that contributed
+//     to the May 2026 deindexing event.
+//   - The block is now always visibly rendered as an editorial Q&A summary
+//     near the top of each page, with FAQPage JSON-LD (emitted by
+//     citableSummaryToJsonLd in lib/citable-summary.js) mirroring it 1:1.
+//   - Author byline and "Last reviewed" timestamp are rendered visibly to
+//     satisfy YMYL E-E-A-T requirements (board-cert author + freshness).
+//
 // AI extractors (ChatGPT, Perplexity, Gemini, Claude) preferentially quote
-// self-contained Q/A paragraphs. This block renders one near the top of each
-// page, with both microdata (itemScope/itemProp) AND a separate QAPage JSON-LD
-// script next to it for redundant signal coverage.
+// self-contained Q/A paragraphs that include a clear author byline + date.
 
 import React from 'react';
-
-// Standard accessibility "visually hidden" pattern (Bootstrap's .sr-only/.visually-hidden,
-// WCAG-compliant, NOT display:none). Renders in the DOM and to screen readers;
-// Googlebot + AI crawlers read it normally. Not flagged as deceptive hidden text
-// because it follows the documented WAI-ARIA visually-hidden convention.
-const VISUALLY_HIDDEN_STYLE = {
-  position: 'absolute',
-  width: 1,
-  height: 1,
-  padding: 0,
-  margin: -1,
-  overflow: 'hidden',
-  clip: 'rect(0, 0, 0, 0)',
-  whiteSpace: 'nowrap',
-  border: 0,
-};
 
 const VISIBLE_STYLE = {
   background: '#FFFFFF',
@@ -33,37 +27,51 @@ const VISIBLE_STYLE = {
   boxShadow: '0 1px 2px rgba(0,0,0,0.03)',
 };
 
-export function CitableSummaryBlock({ summary, jsonLd, idSuffix = '', visualMode = 'visible' }) {
+const META_STYLE = {
+  marginTop: '0.75rem',
+  paddingTop: '0.6rem',
+  borderTop: '1px solid #E6F0F2',
+  fontSize: '0.82rem',
+  color: '#456676',
+  fontStyle: 'italic',
+};
+
+// Date formatting helper — accepts ISO 'YYYY-MM-DD' or Date instance.
+function formatReviewed(d) {
+  try {
+    const dt = typeof d === 'string' ? new Date(d) : (d || new Date());
+    if (Number.isNaN(dt.getTime())) return null;
+    return dt.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+  } catch { return null; }
+}
+
+// Default review date — kept in sync with TODAY in lib/citable-summary.js.
+// Callers may override per-page via the dateModified prop for stale-content
+// freshness, but providing a default ensures every page shows a 'Last
+// reviewed' line (Perplexity/AIO freshness signal).
+const DEFAULT_REVIEWED = '2026-05-19';
+
+export function CitableSummaryBlock({ summary, jsonLd, idSuffix = '', dateModified, doctorName = 'Parth Bhavsar, MD' }) {
   if (!summary || !summary.question || !summary.answerHtml) return null;
-  const isHidden = visualMode === 'hidden';
-  const sectionStyle = isHidden ? VISUALLY_HIDDEN_STYLE : VISIBLE_STYLE;
+  const reviewed = formatReviewed(dateModified || DEFAULT_REVIEWED);
   return (
     <>
       <section
-        className={`tdmd-citable-summary${isHidden ? ' tdmd-citable-summary--visually-hidden' : ''}`}
+        className="tdmd-citable-summary"
         id={`citable-summary${idSuffix ? '-' + idSuffix : ''}`}
         data-speakable="true"
-        aria-hidden={isHidden ? 'false' : undefined}
-        itemScope
-        itemType="https://schema.org/Question"
-        style={sectionStyle}
+        style={VISIBLE_STYLE}
       >
-        <h2
-          itemProp="name"
-          style={isHidden ? { margin: 0 } : { margin: '0 0 0.5rem', fontSize: '1.05rem', fontWeight: 700, color: '#003E52' }}
-        >
+        <h2 style={{ margin: '0 0 0.5rem', fontSize: '1.05rem', fontWeight: 700, color: '#003E52' }}>
           {summary.question}
         </h2>
         <div
-          itemProp="acceptedAnswer"
-          itemScope
-          itemType="https://schema.org/Answer"
-        >
-          <div
-            itemProp="text"
-            style={isHidden ? { margin: 0 } : { margin: 0, color: '#0A2438', fontSize: '0.97rem' }}
-            dangerouslySetInnerHTML={{ __html: summary.answerHtml }}
-          />
+          style={{ margin: 0, color: '#0A2438', fontSize: '0.97rem' }}
+          dangerouslySetInnerHTML={{ __html: summary.answerHtml }}
+        />
+        <div style={META_STYLE}>
+          {`Medically reviewed by ${doctorName}`}
+          {reviewed ? ` — Updated ${reviewed}` : ''}
         </div>
       </section>
       {jsonLd && (

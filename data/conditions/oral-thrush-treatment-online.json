@@ -2,20 +2,34 @@
   "conditionName": "Oral Thrush Treatment",
   "conditionShort": "Oral Thrush",
   "conditionSlug": "oral-thrush-treatment-online",
-  "pageTitle": "Oral Thrush Treatment Online in {state} | Antifungal MD Video Visit | TeleDirectMD",
+  "pageTitle": "Oral Thrush Online Treatment in {state} | TeleDirectMD",
   "metaDescription": "Fast, evidence-based oral thrush treatment for {state} adults by secure video visit. Visual assessment, red-flag screening, antifungal prescriptions when clinically appropriate. Self pay option starting at $49. Insurance is not required.",
   "ogImageAlt": "Oral thrush treatment in {state} by TeleDirectMD",
-
   "hero": {
     "h1": "Oral Thrush Treatment in {state} (Oropharyngeal Candidiasis)",
     "subtitle": "{state} adult care by secure video visit, self pay option starting at $49, MD-only, insurance is not required.",
     "introParagraph": "Oral thrush — also called oropharyngeal candidiasis or oral candidiasis — is a fungal infection of the mouth caused by an overgrowth of Candida, most commonly Candida albicans. It typically appears as creamy white patches or plaques on the tongue, inner cheeks, or palate that may be wiped off, sometimes leaving a raw or bleeding surface. Most cases in adults occur when something disrupts the normal balance of oral flora or weakens local defenses — including inhaled corticosteroid use for asthma or COPD, recent antibiotic treatment, denture use, poorly controlled diabetes, or dry mouth. The IDSA 2016 Clinical Practice Guideline for the Management of Candidiasis recommends topical antifungals such as clotrimazole troches or nystatin suspension for mild cases, and oral fluconazole for moderate to severe cases. TeleDirectMD uses a safety-first video visit approach that visually assesses the oral cavity, identifies the likely underlying cause, screens for red flags such as difficulty or pain swallowing that may signal esophageal involvement, and prescribes guideline-based antifungal treatment when clinically appropriate. This page is for adults located in {state}, including {cities}.",
     "tocLinks": [
-      { "href": "eligibility-checklist", "label": "Eligibility checklist" },
-      { "href": "decision-guide", "label": "Decision guide" },
-      { "href": "treatment-options", "label": "Treatment options" },
-      { "href": "faq", "label": "FAQs" },
-      { "href": "references", "label": "References" }
+      {
+        "href": "eligibility-checklist",
+        "label": "Eligibility checklist"
+      },
+      {
+        "href": "decision-guide",
+        "label": "Decision guide"
+      },
+      {
+        "href": "treatment-options",
+        "label": "Treatment options"
+      },
+      {
+        "href": "faq",
+        "label": "FAQs"
+      },
+      {
+        "href": "references",
+        "label": "References"
+      }
     ],
     "benefits": [
       "Self pay option starting at $49",
@@ -35,7 +49,6 @@
     },
     "icd10Display": "B37.0 — Candidal stomatitis (oral thrush) (final coding depends on clinical details)"
   },
-
   "eligibility": {
     "sectionTitle": "Oral Thrush Telehealth Eligibility Checklist for {state}",
     "introText": "You are likely eligible for a TeleDirectMD video visit if ALL of these are true:",
@@ -58,7 +71,6 @@
     ],
     "notEligibleDisclaimer": "If you have red-flag symptoms, seek urgent in-person care or emergency care immediately. TeleDirectMD is not an emergency service."
   },
-
   "howItWorks": {
     "sectionTitle": "How Online Oral Thrush Treatment Works in {state}",
     "steps": [
@@ -80,7 +92,6 @@
       }
     ]
   },
-
   "telehealthRegulations": {
     "sectionTitle": "{state} Telehealth Regulations for Online Oral Thrush Care",
     "paragraphs": [
@@ -88,7 +99,6 @@
       "Location matters: you must be physically in {state} during the visit. Insurance is not required. TeleDirectMD does not prescribe controlled substances."
     ]
   },
-
   "comparisonTable": {
     "sectionTitle": "TeleDirectMD vs Other Care Options for Oral Thrush in {state}",
     "intro": "Here is how TeleDirectMD compares to common settings for adult oral thrush care in {state}:",
@@ -128,7 +138,6 @@
     ],
     "bottomLine": "TeleDirectMD is a strong fit for adults with typical oral thrush presentation and a clear triggering factor, with safety-first screening and direct MD evaluation."
   },
-
   "decisionGuide": {
     "sectionTitle": "Should I Use TeleDirectMD for Oral Thrush in {state}? Decision Guide",
     "steps": [
@@ -173,7 +182,6 @@
       }
     ]
   },
-
   "pricing": {
     "sectionTitle": "What Does Oral Thrush Treatment Cost in {state}?",
     "subtitle": "Transparent options. Insurance is not required.",
@@ -188,15 +196,34 @@
       "Clear follow-up steps and escalation instructions"
     ],
     "comparisonBars": [
-      { "name": "TeleDirectMD", "value": "$49", "width": 12, "isTdmd": true },
-      { "name": "Primary Care", "value": "$100 to $350+", "width": 52, "isTdmd": false },
-      { "name": "Urgent Care", "value": "$150 to $300+", "width": 60, "isTdmd": false },
-      { "name": "Emergency Room", "value": "$500 to $3,000+", "width": 100, "isTdmd": false }
+      {
+        "name": "TeleDirectMD",
+        "value": "$49",
+        "width": 12,
+        "isTdmd": true
+      },
+      {
+        "name": "Primary Care",
+        "value": "$100 to $350+",
+        "width": 52,
+        "isTdmd": false
+      },
+      {
+        "name": "Urgent Care",
+        "value": "$150 to $300+",
+        "width": 60,
+        "isTdmd": false
+      },
+      {
+        "name": "Emergency Room",
+        "value": "$500 to $3,000+",
+        "width": 100,
+        "isTdmd": false
+      }
     ],
     "footnote": "Prescription costs are separate and vary by medication and pharmacy. Fluconazole and nystatin suspension are commonly available as affordable generics.",
     "noHiddenFees": "No hidden fees. If medication is not clinically appropriate or a drug interaction is identified, you still receive a complete evaluation, guidance, and clear instructions on what level of care you need next."
   },
-
   "whatIsCondition": {
     "sectionTitle": "What Is Oral Thrush?",
     "paragraphs": [
@@ -205,37 +232,97 @@
       "TeleDirectMD evaluates adults with typical oral thrush presentations by secure video visit. Visual assessment of the oral cavity, identification of the likely triggering cause, and targeted antifungal prescribing — with drug interaction screening — are well-suited to the telehealth format. The IDSA 2016 Clinical Practice Guideline for the Management of Candidiasis provides the evidence base for telehealth-appropriate management: topical agents (clotrimazole troches or nystatin suspension) for mild cases, and oral fluconazole for moderate to severe disease. Cases involving difficulty swallowing, severe immunosuppression, lesions not responding to antifungal therapy, or non-healing atypical lesions requiring biopsy are directed to appropriate in-person care."
     ]
   },
-
   "causesAndRiskFactors": {
     "sectionTitle": "Causes and Risk Factors for Oral Thrush",
     "intro": "Oral thrush occurs when Candida — a yeast that normally lives in small amounts in the mouth — overgrows due to a disruption in local defenses or oral flora. Understanding the most likely cause helps determine the best treatment approach and how to prevent recurrence.",
     "items": [
-      { "label": "Inhaled corticosteroid (ICS) use:", "text": "One of the most common causes in adults. Corticosteroid deposited in the mouth suppresses local immune defenses, allowing Candida to overgrow. Using a spacer device with an inhaler and rinsing the mouth with water after each use significantly reduces risk." },
-      { "label": "Recent or prolonged antibiotic use:", "text": "Broad-spectrum antibiotics disrupt normal oral bacterial flora that compete with Candida, allowing the yeast to overgrow. Oral thrush during or shortly after antibiotic treatment is a classic presentation." },
-      { "label": "Denture use:", "text": "Dentures — particularly upper dentures — create a warm, moist environment under the appliance that promotes Candida growth. Poorly fitting or inadequately cleaned dentures are a major risk factor for chronic atrophic candidiasis (denture stomatitis). Proper denture hygiene and soaking dentures overnight are important prevention measures." },
-      { "label": "Diabetes mellitus:", "text": "Poorly controlled diabetes increases salivary glucose, providing an ideal substrate for Candida. Adults with uncontrolled blood sugar are at significantly higher risk of oral thrush and may have more severe or recurrent infections." },
-      { "label": "Dry mouth (xerostomia):", "text": "Saliva has natural antifungal properties. Medications that cause dry mouth — including many antihistamines, antidepressants, bladder medications, and blood pressure drugs — reduce this protective effect and increase thrush risk." },
-      { "label": "Mild immunosuppression or systemic illness:", "text": "Conditions that mildly impair immune function — including autoimmune diseases, malnutrition, and use of systemic corticosteroids or other immunosuppressive medications — can predispose adults to oral thrush. Severe immunosuppression such as advanced HIV/AIDS or active cancer treatment represents a higher-risk category that may require specialist management." }
+      {
+        "label": "Inhaled corticosteroid (ICS) use:",
+        "text": "One of the most common causes in adults. Corticosteroid deposited in the mouth suppresses local immune defenses, allowing Candida to overgrow. Using a spacer device with an inhaler and rinsing the mouth with water after each use significantly reduces risk."
+      },
+      {
+        "label": "Recent or prolonged antibiotic use:",
+        "text": "Broad-spectrum antibiotics disrupt normal oral bacterial flora that compete with Candida, allowing the yeast to overgrow. Oral thrush during or shortly after antibiotic treatment is a classic presentation."
+      },
+      {
+        "label": "Denture use:",
+        "text": "Dentures — particularly upper dentures — create a warm, moist environment under the appliance that promotes Candida growth. Poorly fitting or inadequately cleaned dentures are a major risk factor for chronic atrophic candidiasis (denture stomatitis). Proper denture hygiene and soaking dentures overnight are important prevention measures."
+      },
+      {
+        "label": "Diabetes mellitus:",
+        "text": "Poorly controlled diabetes increases salivary glucose, providing an ideal substrate for Candida. Adults with uncontrolled blood sugar are at significantly higher risk of oral thrush and may have more severe or recurrent infections."
+      },
+      {
+        "label": "Dry mouth (xerostomia):",
+        "text": "Saliva has natural antifungal properties. Medications that cause dry mouth — including many antihistamines, antidepressants, bladder medications, and blood pressure drugs — reduce this protective effect and increase thrush risk."
+      },
+      {
+        "label": "Mild immunosuppression or systemic illness:",
+        "text": "Conditions that mildly impair immune function — including autoimmune diseases, malnutrition, and use of systemic corticosteroids or other immunosuppressive medications — can predispose adults to oral thrush. Severe immunosuppression such as advanced HIV/AIDS or active cancer treatment represents a higher-risk category that may require specialist management."
+      }
     ],
     "closing": "Identifying the most likely cause during a telehealth visit guides both treatment selection and prevention counseling. For many adults, correcting the underlying trigger — optimizing inhaler technique, completing antibiotics, improving denture care, or improving blood sugar control — is as important as the antifungal itself."
   },
-
   "symptomsAndRedFlags": {
     "sectionTitle": "Symptoms and Red Flags for Oral Thrush in {state}",
     "intro": "Use this table to understand which symptoms fit typical oral candidiasis appropriate for telehealth evaluation and which symptoms are red flags requiring urgent in-person care.",
-    "headers": ["Symptom or situation", "What it suggests", "Telehealth appropriate?", "Red flag requiring urgent in-person care"],
+    "headers": [
+      "Symptom or situation",
+      "What it suggests",
+      "Telehealth appropriate?",
+      "Red flag requiring urgent in-person care"
+    ],
     "rows": [
-      ["White or creamy patches on tongue, cheeks, or palate that can be wiped off", "Classic pseudomembranous (acute) oral candidiasis — most common presentation", "Often yes", "If lesions are hard, ulcerated, non-healing, or not removable — biopsy may be needed"],
-      ["Mouth soreness, burning, or cotton-like sensation", "Erythematous (atrophic) oral candidiasis or early thrush", "Often yes", "If pain is severe, prevents eating or drinking, or is worsening rapidly"],
-      ["Cracking or redness at corners of the mouth (angular cheilitis)", "Angular cheilitis, often associated with Candida — commonly seen with denture use", "Often yes", "If spreading, severely painful, or not responding to topical antifungal treatment"],
-      ["Difficulty or pain with swallowing (odynophagia or dysphagia)", "Possible esophageal candidiasis — infection spreading beyond the mouth", "No", "Urgent in-person evaluation — esophageal candidiasis may require higher-dose fluconazole or endoscopy"],
-      ["Loss of taste or altered taste sensation", "Common non-specific symptom of oral candidiasis", "Yes, if no other red flags", "Not a standalone red flag"],
-      ["White patches that cannot be wiped off", "May suggest oral leukoplakia, hairy leukoplakia, or chronic hyperplastic candidiasis — needs in-person evaluation", "No", "In-person biopsy evaluation is required for non-removable lesions"],
-      ["Recurrent oral thrush without a clear cause in a known HIV-positive or immunocompromised patient", "Suggests need for specialist co-management, antiretroviral optimization, or consideration of resistant Candida", "No", "Specialist evaluation (infectious disease or oral medicine) is recommended"],
-      ["Oral thrush not responding after completing a full antifungal course", "Possible resistant Candida, alternative diagnosis, or uncontrolled underlying cause", "Sometimes — initial discussion by video is possible", "In-person evaluation with possible culture and biopsy is recommended"]
+      [
+        "White or creamy patches on tongue, cheeks, or palate that can be wiped off",
+        "Classic pseudomembranous (acute) oral candidiasis — most common presentation",
+        "Often yes",
+        "If lesions are hard, ulcerated, non-healing, or not removable — biopsy may be needed"
+      ],
+      [
+        "Mouth soreness, burning, or cotton-like sensation",
+        "Erythematous (atrophic) oral candidiasis or early thrush",
+        "Often yes",
+        "If pain is severe, prevents eating or drinking, or is worsening rapidly"
+      ],
+      [
+        "Cracking or redness at corners of the mouth (angular cheilitis)",
+        "Angular cheilitis, often associated with Candida — commonly seen with denture use",
+        "Often yes",
+        "If spreading, severely painful, or not responding to topical antifungal treatment"
+      ],
+      [
+        "Difficulty or pain with swallowing (odynophagia or dysphagia)",
+        "Possible esophageal candidiasis — infection spreading beyond the mouth",
+        "No",
+        "Urgent in-person evaluation — esophageal candidiasis may require higher-dose fluconazole or endoscopy"
+      ],
+      [
+        "Loss of taste or altered taste sensation",
+        "Common non-specific symptom of oral candidiasis",
+        "Yes, if no other red flags",
+        "Not a standalone red flag"
+      ],
+      [
+        "White patches that cannot be wiped off",
+        "May suggest oral leukoplakia, hairy leukoplakia, or chronic hyperplastic candidiasis — needs in-person evaluation",
+        "No",
+        "In-person biopsy evaluation is required for non-removable lesions"
+      ],
+      [
+        "Recurrent oral thrush without a clear cause in a known HIV-positive or immunocompromised patient",
+        "Suggests need for specialist co-management, antiretroviral optimization, or consideration of resistant Candida",
+        "No",
+        "Specialist evaluation (infectious disease or oral medicine) is recommended"
+      ],
+      [
+        "Oral thrush not responding after completing a full antifungal course",
+        "Possible resistant Candida, alternative diagnosis, or uncontrolled underlying cause",
+        "Sometimes — initial discussion by video is possible",
+        "In-person evaluation with possible culture and biopsy is recommended"
+      ]
     ]
   },
-
   "differentialDiagnosis": {
     "sectionTitle": "Differential Diagnosis: Oral Thrush vs Other Conditions",
     "intro": "Several conditions can produce white patches, oral soreness, or similar complaints. Careful history and visual assessment help distinguish typical oral thrush from conditions requiring in-person evaluation, testing, or biopsy. TeleDirectMD evaluates the symptom pattern, identifies the likely cause, and directs atypical presentations to appropriate in-person care.",
@@ -276,7 +363,6 @@
     ],
     "closing": "If your oral lesion pattern does not fit typical removable thrush plaques, if lesions are non-healing or suspicious, or if any red flags are present, TeleDirectMD will direct you to in-person evaluation promptly."
   },
-
   "telehealthEligibility": {
     "sectionTitle": "When Is a Video Visit Appropriate for Oral Thrush?",
     "appropriate": {
@@ -303,7 +389,6 @@
       "disclaimer": "If any red-flag symptoms are present, seek urgent in-person or emergency care. TeleDirectMD is not an emergency service and is not appropriate for esophageal candidiasis, suspected oral malignancy, or severely immunocompromised patients with refractory thrush."
     }
   },
-
   "treatmentOptions": {
     "sectionTitle": "Treatment Options for Oral Thrush",
     "intro": "The IDSA 2016 Clinical Practice Guideline for the Management of Candidiasis recommends a stepwise approach to oral thrush treatment based on disease severity. Topical antifungals are first-line for mild disease; oral fluconazole is recommended for moderate to severe cases. Addressing the underlying cause — such as inhaler technique, antibiotic history, denture hygiene, or blood sugar control — is essential to prevent recurrence.",
@@ -329,21 +414,49 @@
       "Fluconazole-refractory candidiasis requiring alternative agents such as itraconazole solution, posaconazole, or voriconazole — these require specialist evaluation"
     ]
   },
-
   "medications": {
     "sectionTitle": "Common Medication Options for Oral Thrush",
     "intro": "The IDSA 2016 Candidiasis Guidelines recommend topical antifungals for mild disease and oral fluconazole for moderate to severe oral thrush. Medication selection depends on disease severity, drug interactions, underlying cause, and patient factors reviewed during the MD visit.",
-    "headers": ["Medication", "Typical dose", "Duration", "Key considerations"],
+    "headers": [
+      "Medication",
+      "Typical dose",
+      "Duration",
+      "Key considerations"
+    ],
     "rows": [
-      ["Clotrimazole troches 10 mg (topical)", "Dissolve 1 troche (10 mg) slowly in mouth 5 times daily", "14 days", "First-line for mild disease per IDSA. Topical — minimal systemic absorption. Must be dissolved slowly (15–30 minutes). Contains sugar — caution in diabetes with frequent use. No significant systemic drug interactions."],
-      ["Nystatin oral suspension (100,000 units/mL)", "4 to 6 mL (400,000 to 600,000 units) swished and swallowed 4 times daily", "7 to 14 days", "First-line topical alternative for mild disease. Swish throughout mouth for several minutes before swallowing. Not absorbed systemically. Remove dentures during use and soak dentures nightly in nystatin if denture stomatitis is present. Most common side effects are nausea and GI upset."],
-      ["Fluconazole (oral)", "200 mg on day 1 (loading dose), then 100 mg once daily", "7 to 14 days total", "First-line systemic treatment for moderate to severe disease. Screen for drug interactions before prescribing — significant interactions with warfarin (elevated INR), many statins, certain cardiac medications. Avoid or use with caution in liver disease. Avoid in first trimester of pregnancy (azoles are teratogenic). Generally well tolerated; GI side effects are most common."],
-      ["Miconazole buccal tablet 50 mg (topical)", "Apply 1 tablet to upper gum near canine tooth once daily", "7 to 14 days", "IDSA-listed alternative for mild disease. Less commonly available. Adherent buccal tablet dissolves slowly. Some drug interactions with warfarin — check before use. Not absorbed significantly systemically."],
-      ["Itraconazole oral solution 200 mg (refractory cases)", "200 mg once daily taken without food", "Up to 28 days", "For fluconazole-refractory disease only — not first-line. Requires specialist guidance. Multiple drug interactions. Oral solution preferred over capsules for OPC."]
+      [
+        "Clotrimazole troches 10 mg (topical)",
+        "Dissolve 1 troche (10 mg) slowly in mouth 5 times daily",
+        "14 days",
+        "First-line for mild disease per IDSA. Topical — minimal systemic absorption. Must be dissolved slowly (15–30 minutes). Contains sugar — caution in diabetes with frequent use. No significant systemic drug interactions."
+      ],
+      [
+        "Nystatin oral suspension (100,000 units/mL)",
+        "4 to 6 mL (400,000 to 600,000 units) swished and swallowed 4 times daily",
+        "7 to 14 days",
+        "First-line topical alternative for mild disease. Swish throughout mouth for several minutes before swallowing. Not absorbed systemically. Remove dentures during use and soak dentures nightly in nystatin if denture stomatitis is present. Most common side effects are nausea and GI upset."
+      ],
+      [
+        "Fluconazole (oral)",
+        "200 mg on day 1 (loading dose), then 100 mg once daily",
+        "7 to 14 days total",
+        "First-line systemic treatment for moderate to severe disease. Screen for drug interactions before prescribing — significant interactions with warfarin (elevated INR), many statins, certain cardiac medications. Avoid or use with caution in liver disease. Avoid in first trimester of pregnancy (azoles are teratogenic). Generally well tolerated; GI side effects are most common."
+      ],
+      [
+        "Miconazole buccal tablet 50 mg (topical)",
+        "Apply 1 tablet to upper gum near canine tooth once daily",
+        "7 to 14 days",
+        "IDSA-listed alternative for mild disease. Less commonly available. Adherent buccal tablet dissolves slowly. Some drug interactions with warfarin — check before use. Not absorbed significantly systemically."
+      ],
+      [
+        "Itraconazole oral solution 200 mg (refractory cases)",
+        "200 mg once daily taken without food",
+        "Up to 28 days",
+        "For fluconazole-refractory disease only — not first-line. Requires specialist guidance. Multiple drug interactions. Oral solution preferred over capsules for OPC."
+      ]
     ],
     "note": "Example regimens only. The actual medication, dosing, and duration are determined by the MD after reviewing disease severity, drug interactions, liver history, current medications, and risk factors. TeleDirectMD always screens for drug interactions before prescribing fluconazole. TeleDirectMD does not prescribe controlled substances."
   },
-
   "homeCare": {
     "sectionTitle": "Home Care, Prevention, and Follow-up",
     "whatToDoNow": {
@@ -378,7 +491,6 @@
       ]
     }
   },
-
   "whenNotToUse": {
     "sectionTitle": "When Not to Use TeleDirectMD for Oral Thrush in {state}",
     "intro": "TeleDirectMD is designed for typical adult oral thrush presentations with identifiable causes and no red flags. We are direct about when telehealth is not the right fit.",
@@ -398,14 +510,25 @@
     "alternatives": {
       "title": "Alternative Care Options",
       "items": [
-        { "label": "Emergency room:", "text": "severe difficulty swallowing or breathing, inability to eat or drink, rapidly worsening lesions, or signs of severe systemic illness" },
-        { "label": "Urgent care:", "text": "same-day in-person evaluation when diagnosis is uncertain, lesions are atypical, or in-person oral exam is needed" },
-        { "label": "Primary care:", "text": "recurrent thrush, optimization of diabetes or inhaler regimen, follow-up after treatment, or evaluation of non-healing lesions" },
-        { "label": "Infectious disease or oral medicine specialist:", "text": "HIV-related recurrent candidiasis, fluconazole-refractory disease, or complex immunosuppressed patients" }
+        {
+          "label": "Emergency room:",
+          "text": "severe difficulty swallowing or breathing, inability to eat or drink, rapidly worsening lesions, or signs of severe systemic illness"
+        },
+        {
+          "label": "Urgent care:",
+          "text": "same-day in-person evaluation when diagnosis is uncertain, lesions are atypical, or in-person oral exam is needed"
+        },
+        {
+          "label": "Primary care:",
+          "text": "recurrent thrush, optimization of diabetes or inhaler regimen, follow-up after treatment, or evaluation of non-healing lesions"
+        },
+        {
+          "label": "Infectious disease or oral medicine specialist:",
+          "text": "HIV-related recurrent candidiasis, fluconazole-refractory disease, or complex immunosuppressed patients"
+        }
       ]
     }
   },
-
   "faq": {
     "sectionTitle": "Oral Thrush FAQs for {state}",
     "items": [
@@ -471,16 +594,32 @@
       "text": "Insurance is not required. Adult-only video visits. MD-only care. Safety-first triage, drug interaction screening, and antifungal prescriptions only when appropriate."
     }
   },
-
   "references": [
-    { "text": "IDSA 2016 Clinical Practice Guideline for the Management of Candidiasis (Pappas et al., Clinical Infectious Diseases)", "url": "https://academic.oup.com/cid/article/62/4/e1/2462830" },
-    { "text": "IDSA Clinical Practice Guideline — Candidiasis (Infectious Diseases Society of America)", "url": "https://www.idsociety.org/practice-guideline/candidiasis/" },
-    { "text": "Oral Candidiasis — StatPearls, NCBI Bookshelf (Taylor, Brizuela, Raja; 2023)", "url": "https://www.ncbi.nlm.nih.gov/books/NBK545282/" },
-    { "text": "Treatment of Candidiasis — CDC (Centers for Disease Control and Prevention)", "url": "https://www.cdc.gov/candidiasis/treatment/index.html" },
-    { "text": "Candidiasis Basics — CDC (Centers for Disease Control and Prevention)", "url": "https://www.cdc.gov/candidiasis/about/index.html" },
-    { "text": "Fluconazole — StatPearls, NCBI Bookshelf (2024)", "url": "https://www.ncbi.nlm.nih.gov/books/NBK537158/" }
+    {
+      "text": "IDSA 2016 Clinical Practice Guideline for the Management of Candidiasis (Pappas et al., Clinical Infectious Diseases)",
+      "url": "https://academic.oup.com/cid/article/62/4/e1/2462830"
+    },
+    {
+      "text": "IDSA Clinical Practice Guideline — Candidiasis (Infectious Diseases Society of America)",
+      "url": "https://www.idsociety.org/practice-guideline/candidiasis/"
+    },
+    {
+      "text": "Oral Candidiasis — StatPearls, NCBI Bookshelf (Taylor, Brizuela, Raja; 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK545282/"
+    },
+    {
+      "text": "Treatment of Candidiasis — CDC (Centers for Disease Control and Prevention)",
+      "url": "https://www.cdc.gov/candidiasis/treatment/index.html"
+    },
+    {
+      "text": "Candidiasis Basics — CDC (Centers for Disease Control and Prevention)",
+      "url": "https://www.cdc.gov/candidiasis/about/index.html"
+    },
+    {
+      "text": "Fluconazole — StatPearls, NCBI Bookshelf (2024)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK537158/"
+    }
   ],
-
   "disclaimer": {
     "sectionTitle": "TeleDirectMD Telehealth Disclaimer",
     "paragraphs": [
@@ -489,7 +628,6 @@
       "Oral thrush treatment online in {state}. Oral candidiasis antifungal prescription by video visit. Oropharyngeal candidiasis telehealth evaluation in {state}. Fluconazole for oral thrush online. Nystatin online prescription in {state}."
     ]
   },
-
   "relatedConditions": [
     {
       "slug": "yeast-infection-treatment-online",
@@ -517,27 +655,46 @@
       "description": "Oral discomfort and pain from dental causes may overlap with thrush-related mouth soreness — evaluation helps direct patients to the right care"
     }
   ],
-
   "inlineLinks": [
-    { "slug": "yeast-infection-treatment-online", "label": "Yeast Infection" },
-    { "slug": "asthma-refills-online", "label": "Asthma Refills" },
-    { "slug": "sore-throat-treatment-online", "label": "Sore Throat" },
-    { "slug": "cold-sore-treatment-online", "label": "Cold Sore" },
-    { "slug": "dental-pain-treatment-online", "label": "Dental Pain" }
+    {
+      "slug": "yeast-infection-treatment-online",
+      "label": "Yeast Infection"
+    },
+    {
+      "slug": "asthma-refills-online",
+      "label": "Asthma Refills"
+    },
+    {
+      "slug": "sore-throat-treatment-online",
+      "label": "Sore Throat"
+    },
+    {
+      "slug": "cold-sore-treatment-online",
+      "label": "Cold Sore"
+    },
+    {
+      "slug": "dental-pain-treatment-online",
+      "label": "Dental Pain"
+    }
   ],
-
   "cityBlock": {
     "title": "Adults We Serve Across {state}",
     "text": "TeleDirectMD evaluates adults located throughout {state}, including {citiesExtended}. Whether you are searching for oral thrush treatment online in {city1}, antifungal prescription by video in {city2}, or oropharyngeal candidiasis care in {city3} or anywhere else in {state}, the same telehealth eligibility and safety rules apply."
   },
-
   "icd10Codes": [
-    { "code": "B37.0", "description": "Candidal stomatitis (oral thrush; oropharyngeal candidiasis)" }
+    {
+      "code": "B37.0",
+      "description": "Candidal stomatitis (oral thrush; oropharyngeal candidiasis)"
+    }
   ],
-
   "jsonLd": {
     "conditionName": "Oral Thrush",
-    "conditionAlternateNames": ["Oropharyngeal candidiasis", "Oral candidiasis", "Candidal stomatitis", "Thrush"],
+    "conditionAlternateNames": [
+      "Oropharyngeal candidiasis",
+      "Oral candidiasis",
+      "Candidal stomatitis",
+      "Thrush"
+    ],
     "conditionDescription": "Oral thrush (oropharyngeal candidiasis) is a fungal infection of the mouth caused by overgrowth of Candida albicans. It presents as white removable plaques, oral redness, or angular cheilitis, commonly triggered by inhaled corticosteroid use, antibiotic treatment, denture use, diabetes, or dry mouth. TeleDirectMD evaluates adult oral thrush by video visit with visual oral assessment, red-flag screening for esophageal involvement, drug interaction review, and antifungal prescriptions guided by IDSA 2016 Candidiasis Guidelines.",
     "primaryIcd10": "B37.0",
     "anatomy": "Oral cavity and oropharynx",
@@ -564,10 +721,22 @@
     ],
     "epidemiology": "Oral thrush is common in adults using inhaled corticosteroids, those receiving broad-spectrum antibiotics, denture wearers, patients with poorly controlled diabetes, and immunocompromised individuals. It is a frequent opportunistic infection in adults with HIV/AIDS.",
     "drugs": [
-      { "name": "Fluconazole", "id": "fluconazole" },
-      { "name": "Clotrimazole troches", "id": "clotrimazole" },
-      { "name": "Nystatin oral suspension", "id": "nystatin" },
-      { "name": "Miconazole buccal tablet", "id": "miconazole" }
+      {
+        "name": "Fluconazole",
+        "id": "fluconazole"
+      },
+      {
+        "name": "Clotrimazole troches",
+        "id": "clotrimazole"
+      },
+      {
+        "name": "Nystatin oral suspension",
+        "id": "nystatin"
+      },
+      {
+        "name": "Miconazole buccal tablet",
+        "id": "miconazole"
+      }
     ],
     "treatments": [
       "Topical antifungal therapy (clotrimazole troches or nystatin suspension) for mild disease",
@@ -580,9 +749,19 @@
       "Drug interaction review before prescribing fluconazole",
       "In-person culture or biopsy when indicated for refractory or atypical cases"
     ],
-    "specialties": ["Family Medicine", "Internal Medicine", "Telemedicine", "Infectious Disease"],
+    "specialties": [
+      "Family Medicine",
+      "Internal Medicine",
+      "Telemedicine",
+      "Infectious Disease"
+    ],
     "guidelines": [
-      { "name": "IDSA 2016 Clinical Practice Guideline for the Management of Candidiasis", "url": "https://academic.oup.com/cid/article/62/4/e1/2462830", "publisher": "Infectious Diseases Society of America", "id": "idsa-candidiasis-2016" }
+      {
+        "name": "IDSA 2016 Clinical Practice Guideline for the Management of Candidiasis",
+        "url": "https://academic.oup.com/cid/article/62/4/e1/2462830",
+        "publisher": "Infectious Diseases Society of America",
+        "id": "idsa-candidiasis-2016"
+      }
     ],
     "knowsAbout": [
       "Oral thrush treatment",
@@ -595,5 +774,7 @@
     ],
     "serviceDescription": "Secure video visit for {state} adults with oral thrush symptoms, including visual oral assessment, red-flag screening for esophageal involvement, drug interaction review, and antifungal prescription when clinically appropriate per IDSA 2016 Candidiasis Guidelines.",
     "webpageDescription": "{state} oral thrush treatment by secure MD video visit for adults. Evidence-based antifungal evaluation, identification of triggering causes, drug interaction screening before prescribing fluconazole, and clear rules for when in-person care is needed."
-  }
+  },
+  "guidelineSource": "cdcThrush",
+  "conditionType": "treatment"
 }

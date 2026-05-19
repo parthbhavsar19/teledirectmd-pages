@@ -2,20 +2,34 @@
   "conditionName": "Bacterial Vaginosis",
   "conditionShort": "bacterial vaginosis",
   "conditionSlug": "bv-treatment-online",
-  "pageTitle": "Bacterial Vaginosis Treatment Online in {state} | BV MD Video Visit | TeleDirectMD",
+  "pageTitle": "Bacterial Vaginosis Online Treatment in {state} | TeleDirectMD",
   "metaDescription": "Evidence-based bacterial vaginosis treatment for {state} adults by secure video visit. CDC guideline-based evaluation, metronidazole or clindamycin prescriptions when clinically appropriate, and recurrent BV management. Self pay option starting at $49. Insurance is not required.",
   "ogImageAlt": "Bacterial vaginosis treatment in {state} by TeleDirectMD",
-
   "hero": {
     "h1": "Bacterial Vaginosis Treatment in {state} (BV)",
     "subtitle": "{state} adult care by secure video visit, self pay option starting at $49, MD-only, insurance is not required.",
     "introParagraph": "Bacterial vaginosis is the most common cause of vaginal discharge in reproductive-age women, affecting an estimated 21 million women in the United States annually. BV results from a shift in the normal vaginal microbiome, with a decrease in protective Lactobacillus species and an overgrowth of anaerobic bacteria. The CDC STI Treatment Guidelines 2021 recommend treatment for all symptomatic women, with first-line options including metronidazole 500mg orally twice daily for 7 days, metronidazole gel 0.75% intravaginally once daily for 5 days, or clindamycin cream 2% intravaginally at bedtime for 7 days. BV is not a sexually transmitted infection, but it is included in the CDC STI guidelines because it is associated with increased risk of acquiring other STIs including HIV, gonorrhea, chlamydia, and herpes. Up to 66% of women experience recurrence within one year of treatment, making follow-up planning essential. TeleDirectMD uses a safety-first telehealth approach that screens for red flags including pelvic pain with fever, pregnancy, and symptoms suggesting an alternative diagnosis before determining whether treatment by video visit is appropriate. If the history supports uncomplicated BV without red flags, guideline-based treatment may be reasonable by video, while patients with pelvic inflammatory disease symptoms, pregnancy, or recurrent episodes not responding to standard therapy are directed to in-person care. This page is for adults located in {state}, including {cities}.",
     "tocLinks": [
-      { "href": "eligibility-checklist", "label": "Eligibility checklist" },
-      { "href": "decision-guide", "label": "Decision guide" },
-      { "href": "treatment-options", "label": "Treatment options" },
-      { "href": "faq", "label": "FAQs" },
-      { "href": "references", "label": "References" }
+      {
+        "href": "eligibility-checklist",
+        "label": "Eligibility checklist"
+      },
+      {
+        "href": "decision-guide",
+        "label": "Decision guide"
+      },
+      {
+        "href": "treatment-options",
+        "label": "Treatment options"
+      },
+      {
+        "href": "faq",
+        "label": "FAQs"
+      },
+      {
+        "href": "references",
+        "label": "References"
+      }
     ],
     "benefits": [
       "Self pay option starting at $49",
@@ -35,7 +49,6 @@
     },
     "icd10Display": "N77.1, N76.0, or B96.89 (final coding depends on clinical details)"
   },
-
   "eligibility": {
     "sectionTitle": "Bacterial Vaginosis Telehealth Eligibility Checklist for {state}",
     "introText": "You are likely eligible for a TeleDirectMD video visit if ALL of these are true:",
@@ -60,7 +73,6 @@
     ],
     "notEligibleDisclaimer": "If you have pelvic pain with fever or other red-flag symptoms, seek in-person medical care. TeleDirectMD is not an emergency service."
   },
-
   "howItWorks": {
     "sectionTitle": "How Online Bacterial Vaginosis Treatment Works in {state}",
     "steps": [
@@ -82,7 +94,6 @@
       }
     ]
   },
-
   "telehealthRegulations": {
     "sectionTitle": "{state} Telehealth Regulations for Online Bacterial Vaginosis Care",
     "paragraphs": [
@@ -90,7 +101,6 @@
       "Location matters: you must be physically in {state} during the visit. Insurance is not required. TeleDirectMD does not prescribe controlled substances."
     ]
   },
-
   "comparisonTable": {
     "sectionTitle": "TeleDirectMD vs Other Care Options for Bacterial Vaginosis in {state}",
     "intro": "Here is how TeleDirectMD compares to common settings for adult BV care in {state}:",
@@ -138,7 +148,6 @@
     ],
     "bottomLine": "TeleDirectMD is a strong fit for uncomplicated BV with typical symptoms, with guideline-based treatment and clear follow-up planning for recurrence."
   },
-
   "decisionGuide": {
     "sectionTitle": "Should I Use TeleDirectMD for Bacterial Vaginosis in {state}? Decision Guide",
     "steps": [
@@ -183,7 +192,6 @@
       }
     ]
   },
-
   "pricing": {
     "sectionTitle": "What Does Bacterial Vaginosis Treatment Cost in {state}?",
     "subtitle": "Transparent options. Insurance is not required.",
@@ -197,15 +205,34 @@
       "Recurrence prevention guidance and follow-up planning"
     ],
     "comparisonBars": [
-      { "name": "TeleDirectMD", "value": "$49", "width": 12, "isTdmd": true },
-      { "name": "Primary Care", "value": "$100 to $250+", "width": 45, "isTdmd": false },
-      { "name": "Urgent Care", "value": "$150 to $300+", "width": 55, "isTdmd": false },
-      { "name": "Emergency Room", "value": "$500 to $3,000+", "width": 100, "isTdmd": false }
+      {
+        "name": "TeleDirectMD",
+        "value": "$49",
+        "width": 12,
+        "isTdmd": true
+      },
+      {
+        "name": "Primary Care",
+        "value": "$100 to $250+",
+        "width": 45,
+        "isTdmd": false
+      },
+      {
+        "name": "Urgent Care",
+        "value": "$150 to $300+",
+        "width": 55,
+        "isTdmd": false
+      },
+      {
+        "name": "Emergency Room",
+        "value": "$500 to $3,000+",
+        "width": 100,
+        "isTdmd": false
+      }
     ],
     "footnote": "Prescription costs at your pharmacy are separate and vary by medication and pharmacy.",
     "noHiddenFees": "No hidden fees. If medication is not clinically appropriate, you still receive a complete evaluation, guidance, and clear instructions on what level of care you need next."
   },
-
   "whatIsCondition": {
     "sectionTitle": "What Is Bacterial Vaginosis?",
     "paragraphs": [
@@ -214,37 +241,97 @@
       "TeleDirectMD focuses on uncomplicated BV appropriate for telehealth, with careful screening to direct patients with symptoms of PID, pregnancy, recurrent BV not responding to standard therapy, or alternative diagnoses to in-person care."
     ]
   },
-
   "causesAndRiskFactors": {
     "sectionTitle": "Causes and Risk Factors",
     "intro": "BV is caused by a shift in the vaginal microbiome rather than a single pathogenic organism. Several factors increase the likelihood of developing BV. Understanding these risk factors helps guide prevention and treatment strategies.",
     "items": [
-      { "label": "Vaginal microbiome disruption:", "text": "a decrease in protective Lactobacillus species and overgrowth of anaerobic bacteria including Gardnerella vaginalis, Prevotella, and Mobiluncus" },
-      { "label": "Sexual activity:", "text": "while not an STI, BV is more common in sexually active women and rare in women who have never had sexual contact" },
-      { "label": "New or multiple sexual partners:", "text": "changes in sexual partners are associated with shifts in vaginal flora and increased BV risk" },
-      { "label": "Douching:", "text": "vaginal douching disrupts the normal microbiome and is strongly associated with BV" },
-      { "label": "Lack of vaginal lactobacilli:", "text": "women with naturally lower levels of hydrogen-peroxide-producing Lactobacillus are more susceptible to BV" },
-      { "label": "IUD use:", "text": "intrauterine devices may be associated with increased BV risk in some women" }
+      {
+        "label": "Vaginal microbiome disruption:",
+        "text": "a decrease in protective Lactobacillus species and overgrowth of anaerobic bacteria including Gardnerella vaginalis, Prevotella, and Mobiluncus"
+      },
+      {
+        "label": "Sexual activity:",
+        "text": "while not an STI, BV is more common in sexually active women and rare in women who have never had sexual contact"
+      },
+      {
+        "label": "New or multiple sexual partners:",
+        "text": "changes in sexual partners are associated with shifts in vaginal flora and increased BV risk"
+      },
+      {
+        "label": "Douching:",
+        "text": "vaginal douching disrupts the normal microbiome and is strongly associated with BV"
+      },
+      {
+        "label": "Lack of vaginal lactobacilli:",
+        "text": "women with naturally lower levels of hydrogen-peroxide-producing Lactobacillus are more susceptible to BV"
+      },
+      {
+        "label": "IUD use:",
+        "text": "intrauterine devices may be associated with increased BV risk in some women"
+      }
     ],
     "closing": "BV is extremely common and should not be stigmatized. It is not caused by poor hygiene, and in fact over-cleaning or douching increases risk. Treatment with appropriate antibiotics is effective, though recurrence is common."
   },
-
   "symptomsAndRedFlags": {
     "sectionTitle": "Symptoms and Red Flags for Bacterial Vaginosis in {state}",
     "intro": "Use this table to understand which symptoms fit uncomplicated BV and which patterns suggest a need for in-person evaluation.",
-    "headers": ["Symptom or situation", "What it suggests", "Telehealth appropriate?", "Red flag requiring urgent in-person care"],
+    "headers": [
+      "Symptom or situation",
+      "What it suggests",
+      "Telehealth appropriate?",
+      "Red flag requiring urgent in-person care"
+    ],
     "rows": [
-      ["Thin gray or white vaginal discharge with fishy odor", "Classic BV presentation", "Often yes", "No, unless accompanied by pelvic pain or fever"],
-      ["Fishy odor more noticeable after intercourse", "Typical of BV due to amine release at higher pH", "Often yes", "No"],
-      ["Mild vaginal irritation without significant itching", "May be BV; significant itching suggests yeast", "Often yes", "If accompanied by other concerning symptoms"],
-      ["Thick white cottage-cheese-like discharge with itching", "More consistent with yeast infection than BV", "Often yes for yeast", "If recurrent or not responding to OTC treatment"],
-      ["Frothy green or yellow discharge with strong odor", "Possible trichomoniasis (an STI requiring testing)", "Not ideal", "Should have in-person testing for trichomoniasis"],
-      ["Pelvic pain, lower abdominal tenderness, fever", "Possible pelvic inflammatory disease", "No", "Seek in-person evaluation promptly"],
-      ["Abnormal vaginal bleeding with systemic symptoms", "May indicate serious gynecologic condition", "No", "In-person evaluation needed"],
-      ["Symptoms during pregnancy", "BV in pregnancy needs in-person management", "No", "OB/GYN evaluation for pregnancy-safe treatment"]
+      [
+        "Thin gray or white vaginal discharge with fishy odor",
+        "Classic BV presentation",
+        "Often yes",
+        "No, unless accompanied by pelvic pain or fever"
+      ],
+      [
+        "Fishy odor more noticeable after intercourse",
+        "Typical of BV due to amine release at higher pH",
+        "Often yes",
+        "No"
+      ],
+      [
+        "Mild vaginal irritation without significant itching",
+        "May be BV; significant itching suggests yeast",
+        "Often yes",
+        "If accompanied by other concerning symptoms"
+      ],
+      [
+        "Thick white cottage-cheese-like discharge with itching",
+        "More consistent with yeast infection than BV",
+        "Often yes for yeast",
+        "If recurrent or not responding to OTC treatment"
+      ],
+      [
+        "Frothy green or yellow discharge with strong odor",
+        "Possible trichomoniasis (an STI requiring testing)",
+        "Not ideal",
+        "Should have in-person testing for trichomoniasis"
+      ],
+      [
+        "Pelvic pain, lower abdominal tenderness, fever",
+        "Possible pelvic inflammatory disease",
+        "No",
+        "Seek in-person evaluation promptly"
+      ],
+      [
+        "Abnormal vaginal bleeding with systemic symptoms",
+        "May indicate serious gynecologic condition",
+        "No",
+        "In-person evaluation needed"
+      ],
+      [
+        "Symptoms during pregnancy",
+        "BV in pregnancy needs in-person management",
+        "No",
+        "OB/GYN evaluation for pregnancy-safe treatment"
+      ]
     ]
   },
-
   "differentialDiagnosis": {
     "sectionTitle": "Differential Diagnosis: Bacterial Vaginosis vs Other Conditions",
     "intro": "Several conditions cause vaginal discharge or odor. TeleDirectMD evaluates symptom patterns to distinguish BV from conditions requiring different treatment or in-person evaluation.",
@@ -280,7 +367,6 @@
     ],
     "closing": "If your symptoms do not match uncomplicated BV or any red flags are present, TeleDirectMD will direct you to in-person care for examination and testing."
   },
-
   "telehealthEligibility": {
     "sectionTitle": "When Is a Video Visit Appropriate?",
     "appropriate": {
@@ -307,7 +393,6 @@
       "disclaimer": "If you have pelvic pain with fever or other red-flag symptoms, seek in-person care. TeleDirectMD is not an emergency service."
     }
   },
-
   "treatmentOptions": {
     "sectionTitle": "Treatment Options",
     "intro": "The CDC STI Treatment Guidelines 2021 recommend treatment for all symptomatic BV. First-line options include oral metronidazole, intravaginal metronidazole gel, or intravaginal clindamycin cream. For recurrent BV, the CDC outlines a stepwise approach, and ACOG 2025 now recommends considering concurrent sexual partner therapy.",
@@ -333,21 +418,49 @@
       "Recurrent BV (4+ episodes per year) not responding to standard stepwise therapy"
     ]
   },
-
   "medications": {
     "sectionTitle": "Common Medication Options",
     "intro": "These are common options for adult bacterial vaginosis. The actual medication, dose, and duration are determined by the MD after reviewing your symptoms, history, recurrence pattern, and any red flags.",
-    "headers": ["Medication", "Typical dose", "Duration", "Key considerations"],
+    "headers": [
+      "Medication",
+      "Typical dose",
+      "Duration",
+      "Key considerations"
+    ],
     "rows": [
-      ["Metronidazole (oral)", "500 mg by mouth twice daily", "7 days", "CDC first-line treatment for BV. Avoid alcohol during treatment and for 24 hours after completion (disulfiram-like reaction). Common side effects include metallic taste and nausea."],
-      ["Metronidazole gel 0.75% (intravaginal)", "One applicatorful intravaginally once daily", "5 days", "CDC first-line alternative. Intravaginal route may have fewer systemic side effects than oral. Avoid alcohol during and 24 hours after use."],
-      ["Clindamycin cream 2% (intravaginal)", "One applicatorful intravaginally at bedtime", "7 days", "CDC first-line alternative. Oil-based formulation may weaken latex condoms and diaphragms for up to 5 days after use."],
-      ["Clindamycin (oral)", "300 mg by mouth twice daily", "7 days", "CDC alternative regimen. May be preferred when intravaginal therapy is not desired. Risk of Clostridioides difficile colitis, though uncommon at this dose."],
-      ["Secnidazole", "2 g oral granules as a single dose", "Single dose", "CDC alternative. Convenient one-dose option. Sprinkle granules on applesauce, yogurt, or pudding. Same alcohol avoidance as metronidazole."]
+      [
+        "Metronidazole (oral)",
+        "500 mg by mouth twice daily",
+        "7 days",
+        "CDC first-line treatment for BV. Avoid alcohol during treatment and for 24 hours after completion (disulfiram-like reaction). Common side effects include metallic taste and nausea."
+      ],
+      [
+        "Metronidazole gel 0.75% (intravaginal)",
+        "One applicatorful intravaginally once daily",
+        "5 days",
+        "CDC first-line alternative. Intravaginal route may have fewer systemic side effects than oral. Avoid alcohol during and 24 hours after use."
+      ],
+      [
+        "Clindamycin cream 2% (intravaginal)",
+        "One applicatorful intravaginally at bedtime",
+        "7 days",
+        "CDC first-line alternative. Oil-based formulation may weaken latex condoms and diaphragms for up to 5 days after use."
+      ],
+      [
+        "Clindamycin (oral)",
+        "300 mg by mouth twice daily",
+        "7 days",
+        "CDC alternative regimen. May be preferred when intravaginal therapy is not desired. Risk of Clostridioides difficile colitis, though uncommon at this dose."
+      ],
+      [
+        "Secnidazole",
+        "2 g oral granules as a single dose",
+        "Single dose",
+        "CDC alternative. Convenient one-dose option. Sprinkle granules on applesauce, yogurt, or pudding. Same alcohol avoidance as metronidazole."
+      ]
     ],
     "note": "Example regimens only. The actual medication, dosing, and duration are determined by the MD after reviewing your symptoms, risk factors, recurrence history, and any red flags. TeleDirectMD does not prescribe controlled substances."
   },
-
   "homeCare": {
     "sectionTitle": "Home Care, Recovery Timeline, Prevention, and Follow-up",
     "whatToDoNow": {
@@ -381,7 +494,6 @@
       ]
     }
   },
-
   "whenNotToUse": {
     "sectionTitle": "When Not to Use TeleDirectMD for Bacterial Vaginosis in {state}",
     "intro": "TeleDirectMD is designed for uncomplicated BV symptoms. We are direct about when telehealth is not appropriate.",
@@ -401,14 +513,25 @@
     "alternatives": {
       "title": "Alternative Care Options",
       "items": [
-        { "label": "Emergency room:", "text": "severe pelvic pain with high fever, signs of sepsis, or systemic illness" },
-        { "label": "Urgent care:", "text": "uncertain diagnosis when in-person pelvic exam is needed, or moderate symptoms not fitting typical BV" },
-        { "label": "OB/GYN:", "text": "recurrent BV not responding to standard therapy, pregnancy-related BV, complex vaginitis, or need for wet mount and microscopy" },
-        { "label": "Primary care:", "text": "comprehensive STI screening, preventive gynecologic care, and longer-term management of recurrent BV" }
+        {
+          "label": "Emergency room:",
+          "text": "severe pelvic pain with high fever, signs of sepsis, or systemic illness"
+        },
+        {
+          "label": "Urgent care:",
+          "text": "uncertain diagnosis when in-person pelvic exam is needed, or moderate symptoms not fitting typical BV"
+        },
+        {
+          "label": "OB/GYN:",
+          "text": "recurrent BV not responding to standard therapy, pregnancy-related BV, complex vaginitis, or need for wet mount and microscopy"
+        },
+        {
+          "label": "Primary care:",
+          "text": "comprehensive STI screening, preventive gynecologic care, and longer-term management of recurrent BV"
+        }
       ]
     }
   },
-
   "faq": {
     "sectionTitle": "Bacterial Vaginosis Treatment FAQs for {state}",
     "items": [
@@ -458,14 +581,24 @@
       "text": "Insurance is not required. Adult-only video visits. MD-only care. Safety-first triage, guideline-based treatment decisions, and prescriptions only when appropriate."
     }
   },
-
   "references": [
-    { "text": "CDC Sexually Transmitted Infections Treatment Guidelines, 2021: Bacterial Vaginosis", "url": "https://www.cdc.gov/std/treatment-guidelines/bv.htm" },
-    { "text": "ACOG Practice Bulletin: Vaginitis in Nonpregnant Patients (2020, updated 2025)", "url": "https://www.acog.org/clinical/clinical-guidance/practice-bulletin/articles/2020/01/vaginitis-in-nonpregnant-patients" },
-    { "text": "AAFP: Bacterial Vaginosis: Diagnosis and Treatment", "url": "https://www.aafp.org/pubs/afp/issues/2022/0700/bacterial-vaginosis.html" },
-    { "text": "Bacterial Vaginosis, StatPearls (2025)", "url": "https://www.ncbi.nlm.nih.gov/books/NBK459216/" }
+    {
+      "text": "CDC Sexually Transmitted Infections Treatment Guidelines, 2021: Bacterial Vaginosis",
+      "url": "https://www.cdc.gov/std/treatment-guidelines/bv.htm"
+    },
+    {
+      "text": "ACOG Practice Bulletin: Vaginitis in Nonpregnant Patients (2020, updated 2025)",
+      "url": "https://www.acog.org/clinical/clinical-guidance/practice-bulletin/articles/2020/01/vaginitis-in-nonpregnant-patients"
+    },
+    {
+      "text": "AAFP: Bacterial Vaginosis: Diagnosis and Treatment",
+      "url": "https://www.aafp.org/pubs/afp/issues/2022/0700/bacterial-vaginosis.html"
+    },
+    {
+      "text": "Bacterial Vaginosis, StatPearls (2025)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK459216/"
+    }
   ],
-
   "disclaimer": {
     "sectionTitle": "TeleDirectMD Telehealth Disclaimer",
     "paragraphs": [
@@ -474,7 +607,6 @@
       "Online bacterial vaginosis treatment in {state}. BV treatment online. Vaginal discharge treatment by video visit."
     ]
   },
-
   "relatedConditions": [
     {
       "slug": "yeast-infection-treatment-online",
@@ -497,38 +629,84 @@
       "description": "BV is associated with increased risk of acquiring HSV-2, and both conditions may require concurrent evaluation"
     }
   ],
-
   "inlineLinks": [
-    { "slug": "yeast-infection-treatment-online", "label": "Yeast Infection" },
-    { "slug": "uti-treatment-online", "label": "UTI" },
-    { "slug": "chlamydia-treatment-online", "label": "Chlamydia" },
-    { "slug": "genital-herpes-treatment-online", "label": "Genital Herpes" },
-    { "slug": "common-cold-treatment-online", "label": "Common Cold" },
-    { "slug": "sinus-infection-treatment-online", "label": "Sinus Infection" },
-    { "slug": "covid-19-treatment-online", "label": "COVID-19" },
-    { "slug": "pink-eye-treatment-online", "label": "Pink Eye" },
-    { "slug": "sore-throat-treatment-online", "label": "Sore Throat" },
-    { "slug": "asthma-refills-online", "label": "Asthma Refills" }
+    {
+      "slug": "yeast-infection-treatment-online",
+      "label": "Yeast Infection"
+    },
+    {
+      "slug": "uti-treatment-online",
+      "label": "UTI"
+    },
+    {
+      "slug": "chlamydia-treatment-online",
+      "label": "Chlamydia"
+    },
+    {
+      "slug": "genital-herpes-treatment-online",
+      "label": "Genital Herpes"
+    },
+    {
+      "slug": "common-cold-treatment-online",
+      "label": "Common Cold"
+    },
+    {
+      "slug": "sinus-infection-treatment-online",
+      "label": "Sinus Infection"
+    },
+    {
+      "slug": "covid-19-treatment-online",
+      "label": "COVID-19"
+    },
+    {
+      "slug": "pink-eye-treatment-online",
+      "label": "Pink Eye"
+    },
+    {
+      "slug": "sore-throat-treatment-online",
+      "label": "Sore Throat"
+    },
+    {
+      "slug": "asthma-refills-online",
+      "label": "Asthma Refills"
+    }
   ],
-
   "cityBlock": {
     "title": "Adults We Serve Across {state}",
     "text": "TeleDirectMD evaluates adults located throughout {state}, including {citiesExtended}. Whether you are searching for online BV treatment in {city1}, bacterial vaginosis care in {city2}, BV antibiotics online in {city3}, or telehealth vaginal discharge evaluation anywhere else in {state}, the same telehealth eligibility and safety rules apply."
   },
-
   "icd10Codes": [
-    { "code": "N77.1", "description": "Vaginitis in diseases classified elsewhere" },
-    { "code": "N76.0", "description": "Acute vaginitis" },
-    { "code": "B96.89", "description": "Other specified bacterial agents as the cause of diseases classified elsewhere" }
+    {
+      "code": "N77.1",
+      "description": "Vaginitis in diseases classified elsewhere"
+    },
+    {
+      "code": "N76.0",
+      "description": "Acute vaginitis"
+    },
+    {
+      "code": "B96.89",
+      "description": "Other specified bacterial agents as the cause of diseases classified elsewhere"
+    }
   ],
-
   "jsonLd": {
     "conditionName": "Bacterial Vaginosis",
-    "conditionAlternateNames": ["BV", "Bacterial vaginitis", "Gardnerella vaginitis", "Vaginal bacteriosis"],
+    "conditionAlternateNames": [
+      "BV",
+      "Bacterial vaginitis",
+      "Gardnerella vaginitis",
+      "Vaginal bacteriosis"
+    ],
     "conditionDescription": "Bacterial vaginosis is the most common cause of vaginal discharge in reproductive-age women, resulting from a disruption of the normal vaginal microbiome with overgrowth of anaerobic bacteria. TeleDirectMD evaluates adult BV symptoms by video visit with safety-first red-flag screening, CDC guideline-based treatment with metronidazole or clindamycin, recurrence management planning, and clear rules for when in-person care is needed.",
     "primaryIcd10": "N77.1",
     "anatomy": "Vagina and vaginal microbiome",
-    "symptoms": ["Thin gray or white vaginal discharge", "Fishy vaginal odor", "Odor worsening after intercourse", "Mild vaginal irritation", "Elevated vaginal pH"],
+    "symptoms": [
+      "Thin gray or white vaginal discharge",
+      "Fishy vaginal odor",
+      "Odor worsening after intercourse",
+      "Mild vaginal irritation",
+      "Elevated vaginal pH"
+    ],
     "riskFactors": [
       "Sexual activity and new sexual partners",
       "Douching",
@@ -544,10 +722,22 @@
     ],
     "epidemiology": "Bacterial vaginosis affects an estimated 21 million women in the United States annually and is the most common cause of vaginal discharge in reproductive-age women. Up to 66% of women experience recurrence within one year of treatment.",
     "drugs": [
-      { "name": "Metronidazole", "id": "metronidazole" },
-      { "name": "Clindamycin", "id": "clindamycin" },
-      { "name": "Secnidazole", "id": "secnidazole" },
-      { "name": "Tinidazole", "id": "tinidazole" }
+      {
+        "name": "Metronidazole",
+        "id": "metronidazole"
+      },
+      {
+        "name": "Clindamycin",
+        "id": "clindamycin"
+      },
+      {
+        "name": "Secnidazole",
+        "id": "secnidazole"
+      },
+      {
+        "name": "Tinidazole",
+        "id": "tinidazole"
+      }
     ],
     "treatments": [
       "Oral metronidazole for 7 days",
@@ -562,11 +752,30 @@
       "Wet mount microscopy for clue cells (in-person)",
       "Vaginal pH testing (in-person)"
     ],
-    "specialties": ["Family Medicine", "Telemedicine", "Obstetrics and Gynecology"],
+    "specialties": [
+      "Family Medicine",
+      "Telemedicine",
+      "Obstetrics and Gynecology"
+    ],
     "guidelines": [
-      { "name": "CDC STI Treatment Guidelines 2021: Bacterial Vaginosis", "url": "https://www.cdc.gov/std/treatment-guidelines/bv.htm", "publisher": "Centers for Disease Control and Prevention", "id": "cdc-sti" },
-      { "name": "ACOG Practice Bulletin: Vaginitis in Nonpregnant Patients", "url": "https://www.acog.org/clinical/clinical-guidance/practice-bulletin/articles/2020/01/vaginitis-in-nonpregnant-patients", "publisher": "American College of Obstetricians and Gynecologists", "id": "acog" },
-      { "name": "AAFP: Bacterial Vaginosis: Diagnosis and Treatment", "url": "https://www.aafp.org/pubs/afp/issues/2022/0700/bacterial-vaginosis.html", "publisher": "American Academy of Family Physicians", "id": "aafp" }
+      {
+        "name": "CDC STI Treatment Guidelines 2021: Bacterial Vaginosis",
+        "url": "https://www.cdc.gov/std/treatment-guidelines/bv.htm",
+        "publisher": "Centers for Disease Control and Prevention",
+        "id": "cdc-sti"
+      },
+      {
+        "name": "ACOG Practice Bulletin: Vaginitis in Nonpregnant Patients",
+        "url": "https://www.acog.org/clinical/clinical-guidance/practice-bulletin/articles/2020/01/vaginitis-in-nonpregnant-patients",
+        "publisher": "American College of Obstetricians and Gynecologists",
+        "id": "acog"
+      },
+      {
+        "name": "AAFP: Bacterial Vaginosis: Diagnosis and Treatment",
+        "url": "https://www.aafp.org/pubs/afp/issues/2022/0700/bacterial-vaginosis.html",
+        "publisher": "American Academy of Family Physicians",
+        "id": "aafp"
+      }
     ],
     "knowsAbout": [
       "Bacterial vaginosis treatment",
@@ -578,5 +787,7 @@
     ],
     "serviceDescription": "Secure video visit for {state} adults with bacterial vaginosis symptoms, including red-flag screening, CDC guideline-based treatment, recurrence management, and prescriptions when clinically appropriate.",
     "webpageDescription": "{state} bacterial vaginosis treatment by secure MD video visit for adults. Evidence-based evaluation of BV symptoms, red-flag screening, guideline-based antibiotic therapy, recurrence planning, and clear rules for when in-person care is needed."
-  }
+  },
+  "guidelineSource": "cdcBv",
+  "conditionType": "treatment"
 }

@@ -2,20 +2,34 @@
   "conditionName": "Cold Sore",
   "conditionShort": "cold sore",
   "conditionSlug": "cold-sore-treatment-online",
-  "pageTitle": "Cold Sore Treatment Online in {state} | Herpes Labialis MD Video Visit | TeleDirectMD",
+  "pageTitle": "Cold Sore Online Treatment in {state} | TeleDirectMD",
   "metaDescription": "FDA-approved cold sore treatment for {state} adults by secure video visit. Time-sensitive antiviral prescriptions at first prodromal symptom. Self pay option starting at $49. Insurance is not required.",
   "ogImageAlt": "Cold sore treatment in {state} by TeleDirectMD",
-
   "hero": {
     "h1": "Cold Sore Treatment in {state} (Herpes Labialis)",
     "subtitle": "{state} adult care by secure video visit, self pay option starting at $49, MD-only, insurance is not required.",
     "introParagraph": "Cold sores (herpes labialis) are caused by herpes simplex virus type 1 (HSV-1), affecting an estimated 50 to 80 percent of US adults. The FDA-approved episodic treatment is valacyclovir (Valtrex) 2g every 12 hours for 1 day, initiated at the very first prodromal symptom such as tingling, itching, or burning. This narrow treatment window is the single most important factor in cold sore management: the medication is not effective once clinical signs like papules, vesicles, or ulcers have appeared. TeleDirectMD provides time-sensitive telehealth access so {state} adults can obtain an antiviral prescription before or at the onset of their next outbreak, rather than waiting days for a clinic appointment while the treatment window closes. For patients with frequent recurrences (6 or more per year), daily suppressive therapy with valacyclovir 500mg to 1g can reduce outbreak frequency by 70 to 80 percent. TeleDirectMD screens for red flags including eczema herpeticum, ocular herpes, and immunocompromised disseminated infection before determining whether treatment by video visit is appropriate. This page is for adults located in {state}, including {cities}.",
     "tocLinks": [
-      { "href": "eligibility-checklist", "label": "Eligibility checklist" },
-      { "href": "decision-guide", "label": "Decision guide" },
-      { "href": "treatment-options", "label": "Treatment options" },
-      { "href": "faq", "label": "FAQs" },
-      { "href": "references", "label": "References" }
+      {
+        "href": "eligibility-checklist",
+        "label": "Eligibility checklist"
+      },
+      {
+        "href": "decision-guide",
+        "label": "Decision guide"
+      },
+      {
+        "href": "treatment-options",
+        "label": "Treatment options"
+      },
+      {
+        "href": "faq",
+        "label": "FAQs"
+      },
+      {
+        "href": "references",
+        "label": "References"
+      }
     ],
     "benefits": [
       "Self pay option starting at $49",
@@ -35,7 +49,6 @@
     },
     "icd10Display": "B00.1 or B00.9 (final coding depends on clinical details)"
   },
-
   "eligibility": {
     "sectionTitle": "Cold Sore Telehealth Eligibility Checklist for {state}",
     "introText": "You are likely eligible for a TeleDirectMD video visit if ALL of these are true:",
@@ -60,7 +73,6 @@
     ],
     "notEligibleDisclaimer": "If you have red-flag symptoms suggesting eczema herpeticum, ocular herpes, or herpes encephalitis, seek emergency care immediately. TeleDirectMD is not an emergency service."
   },
-
   "howItWorks": {
     "sectionTitle": "How Online Cold Sore Treatment Works in {state}",
     "steps": [
@@ -82,7 +94,6 @@
       }
     ]
   },
-
   "telehealthRegulations": {
     "sectionTitle": "{state} Telehealth Regulations for Online Cold Sore Care",
     "paragraphs": [
@@ -90,7 +101,6 @@
       "Location matters: you must be physically in {state} during the visit. Insurance is not required. TeleDirectMD does not prescribe controlled substances."
     ]
   },
-
   "comparisonTable": {
     "sectionTitle": "TeleDirectMD vs Other Care Options for Cold Sore in {state}",
     "intro": "Here is how TeleDirectMD compares to common settings for adult cold sore care in {state}:",
@@ -138,7 +148,6 @@
     ],
     "bottomLine": "TeleDirectMD is a strong fit for time-sensitive cold sore treatment because the treatment window is narrow and waiting days for an appointment means the medication will no longer be effective."
   },
-
   "decisionGuide": {
     "sectionTitle": "Should I Use TeleDirectMD for Cold Sore in {state}? Decision Guide",
     "steps": [
@@ -183,7 +192,6 @@
       }
     ]
   },
-
   "pricing": {
     "sectionTitle": "What Does Cold Sore Treatment Cost in {state}?",
     "subtitle": "Transparent options. Insurance is not required.",
@@ -197,15 +205,34 @@
       "Clear follow-up steps and escalation instructions"
     ],
     "comparisonBars": [
-      { "name": "TeleDirectMD", "value": "$49", "width": 12, "isTdmd": true },
-      { "name": "Primary Care", "value": "$100 to $250+", "width": 45, "isTdmd": false },
-      { "name": "Urgent Care", "value": "$150 to $300+", "width": 55, "isTdmd": false },
-      { "name": "Emergency Room", "value": "$500 to $3,000+", "width": 100, "isTdmd": false }
+      {
+        "name": "TeleDirectMD",
+        "value": "$49",
+        "width": 12,
+        "isTdmd": true
+      },
+      {
+        "name": "Primary Care",
+        "value": "$100 to $250+",
+        "width": 45,
+        "isTdmd": false
+      },
+      {
+        "name": "Urgent Care",
+        "value": "$150 to $300+",
+        "width": 55,
+        "isTdmd": false
+      },
+      {
+        "name": "Emergency Room",
+        "value": "$500 to $3,000+",
+        "width": 100,
+        "isTdmd": false
+      }
     ],
     "footnote": "Prescription costs at your pharmacy are separate and vary by medication and pharmacy.",
     "noHiddenFees": "No hidden fees. If medication is not clinically appropriate, you still receive a complete evaluation, guidance, and clear instructions on what level of care you need next."
   },
-
   "whatIsCondition": {
     "sectionTitle": "What Is a Cold Sore?",
     "paragraphs": [
@@ -214,37 +241,97 @@
       "TeleDirectMD focuses on time-sensitive antiviral treatment for recurrent herpes labialis, with careful screening to direct complicated presentations including eczema herpeticum, ocular herpes, and disseminated infection to emergency care."
     ]
   },
-
   "causesAndRiskFactors": {
     "sectionTitle": "Causes and Risk Factors",
     "intro": "HSV-1 reactivates from latency in the trigeminal ganglion when triggered by specific stressors. Understanding your personal triggers helps you recognize prodromal symptoms early and start treatment within the critical window.",
     "items": [
-      { "label": "Sun exposure (UV radiation):", "text": "one of the most common and well-documented triggers for HSV-1 reactivation, which is why outbreaks often occur after beach trips or extended time outdoors" },
-      { "label": "Physical or emotional stress:", "text": "stress-mediated immune modulation can trigger reactivation, making outbreaks more common during high-stress periods" },
-      { "label": "Illness or fever:", "text": "systemic illness or febrile episodes can trigger reactivation, which is why cold sores are sometimes called fever blisters" },
-      { "label": "Immunosuppression:", "text": "patients with weakened immune systems from HIV, chemotherapy, organ transplant, or other causes may experience more frequent, severe, or atypical outbreaks" },
-      { "label": "Hormonal changes:", "text": "menstruation is a recognized trigger for some women, with outbreaks clustering around the menstrual period" },
-      { "label": "Dental or facial procedures:", "text": "dental work, facial surgery, or cosmetic procedures involving the perioral area can trigger reactivation due to local tissue trauma" }
+      {
+        "label": "Sun exposure (UV radiation):",
+        "text": "one of the most common and well-documented triggers for HSV-1 reactivation, which is why outbreaks often occur after beach trips or extended time outdoors"
+      },
+      {
+        "label": "Physical or emotional stress:",
+        "text": "stress-mediated immune modulation can trigger reactivation, making outbreaks more common during high-stress periods"
+      },
+      {
+        "label": "Illness or fever:",
+        "text": "systemic illness or febrile episodes can trigger reactivation, which is why cold sores are sometimes called fever blisters"
+      },
+      {
+        "label": "Immunosuppression:",
+        "text": "patients with weakened immune systems from HIV, chemotherapy, organ transplant, or other causes may experience more frequent, severe, or atypical outbreaks"
+      },
+      {
+        "label": "Hormonal changes:",
+        "text": "menstruation is a recognized trigger for some women, with outbreaks clustering around the menstrual period"
+      },
+      {
+        "label": "Dental or facial procedures:",
+        "text": "dental work, facial surgery, or cosmetic procedures involving the perioral area can trigger reactivation due to local tissue trauma"
+      }
     ],
     "closing": "Knowing your triggers allows you to anticipate outbreaks and have antiviral medication ready. The FDA-approved episodic treatment must be started at the first prodromal symptom to be effective, making advance preparation the most important factor in cold sore management."
   },
-
   "symptomsAndRedFlags": {
     "sectionTitle": "Symptoms and Red Flags for Cold Sore in {state}",
     "intro": "Use this table to understand which symptoms fit a typical cold sore and which patterns suggest a need for urgent in-person or emergency evaluation.",
-    "headers": ["Symptom or situation", "What it suggests", "Telehealth appropriate?", "Red flag requiring urgent in-person care"],
+    "headers": [
+      "Symptom or situation",
+      "What it suggests",
+      "Telehealth appropriate?",
+      "Red flag requiring urgent in-person care"
+    ],
     "rows": [
-      ["Tingling, itching, or burning on lip border without visible lesion", "Prodromal stage of cold sore, optimal time for treatment", "Yes", "No"],
-      ["Fluid-filled vesicles on lip border or perioral skin", "Active cold sore, typical presentation", "Often yes", "If unusually large, widespread, or not responding to treatment"],
-      ["Crusted lesion on lip border healing over 7 to 10 days", "Healing phase of cold sore", "Often yes", "If secondary bacterial infection with spreading redness or pus"],
-      ["Widespread blistering on skin with history of eczema", "Possible eczema herpeticum", "No", "Emergency evaluation now — this is a medical emergency"],
-      ["Eye pain, vision changes, or vesicles near the eye", "Possible ocular herpes (herpetic keratitis)", "No", "Emergency ophthalmology evaluation now"],
-      ["High fever with widespread vesicles in immunocompromised patient", "Possible disseminated HSV infection", "No", "Emergency evaluation now"],
-      ["Confusion, seizure, or severe headache with fever", "Possible herpes encephalitis", "No", "Emergency evaluation now"],
-      ["Lesions inside mouth only, no lip border involvement", "More likely canker sores (aphthous ulcers), not cold sores", "Sometimes", "If severe, recurrent, or not healing within 2 weeks"]
+      [
+        "Tingling, itching, or burning on lip border without visible lesion",
+        "Prodromal stage of cold sore, optimal time for treatment",
+        "Yes",
+        "No"
+      ],
+      [
+        "Fluid-filled vesicles on lip border or perioral skin",
+        "Active cold sore, typical presentation",
+        "Often yes",
+        "If unusually large, widespread, or not responding to treatment"
+      ],
+      [
+        "Crusted lesion on lip border healing over 7 to 10 days",
+        "Healing phase of cold sore",
+        "Often yes",
+        "If secondary bacterial infection with spreading redness or pus"
+      ],
+      [
+        "Widespread blistering on skin with history of eczema",
+        "Possible eczema herpeticum",
+        "No",
+        "Emergency evaluation now — this is a medical emergency"
+      ],
+      [
+        "Eye pain, vision changes, or vesicles near the eye",
+        "Possible ocular herpes (herpetic keratitis)",
+        "No",
+        "Emergency ophthalmology evaluation now"
+      ],
+      [
+        "High fever with widespread vesicles in immunocompromised patient",
+        "Possible disseminated HSV infection",
+        "No",
+        "Emergency evaluation now"
+      ],
+      [
+        "Confusion, seizure, or severe headache with fever",
+        "Possible herpes encephalitis",
+        "No",
+        "Emergency evaluation now"
+      ],
+      [
+        "Lesions inside mouth only, no lip border involvement",
+        "More likely canker sores (aphthous ulcers), not cold sores",
+        "Sometimes",
+        "If severe, recurrent, or not healing within 2 weeks"
+      ]
     ]
   },
-
   "differentialDiagnosis": {
     "sectionTitle": "Differential Diagnosis: Cold Sore vs Other Conditions",
     "intro": "Several conditions can cause perioral or oral lesions that may be confused with cold sores. TeleDirectMD evaluates lesion location, appearance, and history to distinguish recurrent herpes labialis from conditions requiring different treatment.",
@@ -280,7 +367,6 @@
     ],
     "closing": "If your symptoms do not match a typical cold sore or any red flags are present, TeleDirectMD will direct you to urgent in-person care or the ER."
   },
-
   "telehealthEligibility": {
     "sectionTitle": "When Is a Video Visit Appropriate?",
     "appropriate": {
@@ -307,7 +393,6 @@
       "disclaimer": "If any red-flag symptoms are present, seek emergency care immediately. TeleDirectMD is not an emergency service."
     }
   },
-
   "treatmentOptions": {
     "sectionTitle": "Treatment Options",
     "intro": "The FDA-approved episodic treatment for cold sores is valacyclovir 2g every 12 hours for 1 day, started at the first prodromal symptom. Treatment must not exceed 1 day as longer courses provide no additional benefit. For patients with frequent recurrences (6 or more per year), daily suppressive therapy reduces outbreak frequency by 70 to 80 percent. The critical factor in cold sore treatment is speed: having medication ready before the outbreak begins.",
@@ -337,22 +422,55 @@
       "Genital herpes (evaluated separately)"
     ]
   },
-
   "medications": {
     "sectionTitle": "Common Medication Options",
     "intro": "These are common options for adult cold sore treatment. The actual medication, dose, and duration are determined by the MD after reviewing your outbreak history, recurrence frequency, current symptom stage, and medical history. The treatment window for episodic therapy is narrow and medication must be started at the first prodromal symptom.",
-    "headers": ["Medication", "Typical dose", "Duration", "Key considerations"],
+    "headers": [
+      "Medication",
+      "Typical dose",
+      "Duration",
+      "Key considerations"
+    ],
     "rows": [
-      ["Valacyclovir (episodic)", "2g by mouth every 12 hours (two doses total)", "1 day only", "FDA-approved for cold sore episodic treatment. Must start at first prodromal symptom (tingling, itching, burning). Not effective after blisters appear. Treatment must not exceed 1 day. Dose adjustment needed for renal impairment."],
-      ["Valacyclovir (suppressive)", "500 mg to 1g by mouth once daily", "Ongoing (months to years)", "For patients with 6 or more outbreaks per year. Reduces recurrence frequency by 70 to 80 percent. Also reduces asymptomatic viral shedding."],
-      ["Acyclovir (episodic)", "400 mg by mouth five times daily", "5 days", "Off-label but commonly used alternative for episodic treatment. Less convenient dosing than valacyclovir. Start at first prodromal symptom."],
-      ["Acyclovir (suppressive)", "400 mg by mouth twice daily", "Ongoing (months to years)", "Alternative suppressive regimen for frequent recurrences. Lower cost than valacyclovir in some settings."],
-      ["Docosanol (Abreva) OTC", "10% cream applied to affected area five times daily", "Until healed", "FDA-approved OTC topical. Apply at first sign of outbreak. Modestly effective. Less effective than oral antivirals but available without prescription."],
-      ["Penciclovir cream", "1% cream applied every 2 hours while awake", "4 days", "Prescription topical antiviral. Must be started at first sign of outbreak. Reduces healing time and pain duration modestly."]
+      [
+        "Valacyclovir (episodic)",
+        "2g by mouth every 12 hours (two doses total)",
+        "1 day only",
+        "FDA-approved for cold sore episodic treatment. Must start at first prodromal symptom (tingling, itching, burning). Not effective after blisters appear. Treatment must not exceed 1 day. Dose adjustment needed for renal impairment."
+      ],
+      [
+        "Valacyclovir (suppressive)",
+        "500 mg to 1g by mouth once daily",
+        "Ongoing (months to years)",
+        "For patients with 6 or more outbreaks per year. Reduces recurrence frequency by 70 to 80 percent. Also reduces asymptomatic viral shedding."
+      ],
+      [
+        "Acyclovir (episodic)",
+        "400 mg by mouth five times daily",
+        "5 days",
+        "Off-label but commonly used alternative for episodic treatment. Less convenient dosing than valacyclovir. Start at first prodromal symptom."
+      ],
+      [
+        "Acyclovir (suppressive)",
+        "400 mg by mouth twice daily",
+        "Ongoing (months to years)",
+        "Alternative suppressive regimen for frequent recurrences. Lower cost than valacyclovir in some settings."
+      ],
+      [
+        "Docosanol (Abreva) OTC",
+        "10% cream applied to affected area five times daily",
+        "Until healed",
+        "FDA-approved OTC topical. Apply at first sign of outbreak. Modestly effective. Less effective than oral antivirals but available without prescription."
+      ],
+      [
+        "Penciclovir cream",
+        "1% cream applied every 2 hours while awake",
+        "4 days",
+        "Prescription topical antiviral. Must be started at first sign of outbreak. Reduces healing time and pain duration modestly."
+      ]
     ],
     "note": "Example regimens only. The actual medication, dosing, and duration are determined by the MD after reviewing your symptoms, outbreak history, recurrence frequency, and medical history. TeleDirectMD does not prescribe controlled substances."
   },
-
   "homeCare": {
     "sectionTitle": "Home Care, Recovery Timeline, Prevention, and Follow-up",
     "whatToDoNow": {
@@ -386,7 +504,6 @@
       ]
     }
   },
-
   "whenNotToUse": {
     "sectionTitle": "When Not to Use TeleDirectMD for Cold Sore in {state}",
     "intro": "TeleDirectMD is designed for uncomplicated cold sore symptoms in adults. We are direct about when telehealth is not appropriate.",
@@ -406,14 +523,25 @@
     "alternatives": {
       "title": "Alternative Care Options",
       "items": [
-        { "label": "Emergency room:", "text": "eczema herpeticum (widespread blistering on eczematous skin), ocular herpes with vision changes, immunocompromised disseminated HSV, confusion or seizure suggesting herpes encephalitis" },
-        { "label": "Urgent care:", "text": "secondary bacterial infection of cold sore, uncertain diagnosis, or when in-person exam is needed" },
-        { "label": "Dermatology:", "text": "atypical or persistent lesions, diagnostic uncertainty, treatment-resistant outbreaks, or biopsy needed" },
-        { "label": "Primary care:", "text": "ongoing suppressive therapy management, trigger identification, and long-term prevention planning" }
+        {
+          "label": "Emergency room:",
+          "text": "eczema herpeticum (widespread blistering on eczematous skin), ocular herpes with vision changes, immunocompromised disseminated HSV, confusion or seizure suggesting herpes encephalitis"
+        },
+        {
+          "label": "Urgent care:",
+          "text": "secondary bacterial infection of cold sore, uncertain diagnosis, or when in-person exam is needed"
+        },
+        {
+          "label": "Dermatology:",
+          "text": "atypical or persistent lesions, diagnostic uncertainty, treatment-resistant outbreaks, or biopsy needed"
+        },
+        {
+          "label": "Primary care:",
+          "text": "ongoing suppressive therapy management, trigger identification, and long-term prevention planning"
+        }
       ]
     }
   },
-
   "faq": {
     "sectionTitle": "Cold Sore Treatment FAQs for {state}",
     "items": [
@@ -463,14 +591,24 @@
       "text": "Insurance is not required. Adult-only video visits. MD-only care. Time-sensitive antiviral treatment, suppressive therapy evaluation, and prescriptions only when appropriate."
     }
   },
-
   "references": [
-    { "text": "Valtrex (valacyclovir) FDA Prescribing Information, GlaxoSmithKline", "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2008/020487s014lbl.pdf" },
-    { "text": "CDC STI Treatment Guidelines: Genital HSV Infections (2021)", "url": "https://www.cdc.gov/std/treatment-guidelines/herpes.htm" },
-    { "text": "AAFP: Herpes Labialis (Cold Sores) — Diagnosis and Management", "url": "https://www.aafp.org/pubs/afp/issues/2010/1101/p1075.html" },
-    { "text": "Herpes Simplex Virus, StatPearls (2025)", "url": "https://www.ncbi.nlm.nih.gov/books/NBK482197/" }
+    {
+      "text": "Valtrex (valacyclovir) FDA Prescribing Information, GlaxoSmithKline",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2008/020487s014lbl.pdf"
+    },
+    {
+      "text": "CDC STI Treatment Guidelines: Genital HSV Infections (2021)",
+      "url": "https://www.cdc.gov/std/treatment-guidelines/herpes.htm"
+    },
+    {
+      "text": "AAFP: Herpes Labialis (Cold Sores) — Diagnosis and Management",
+      "url": "https://www.aafp.org/pubs/afp/issues/2010/1101/p1075.html"
+    },
+    {
+      "text": "Herpes Simplex Virus, StatPearls (2025)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK482197/"
+    }
   ],
-
   "disclaimer": {
     "sectionTitle": "TeleDirectMD Telehealth Disclaimer",
     "paragraphs": [
@@ -479,7 +617,6 @@
       "Online cold sore treatment in {state}. Herpes labialis treatment online. Cold sore antiviral prescriptions by video visit."
     ]
   },
-
   "relatedConditions": [
     {
       "slug": "genital-herpes-treatment-online",
@@ -502,37 +639,80 @@
       "description": "Upper respiratory illness that may trigger HSV-1 reactivation and cold sore outbreaks"
     }
   ],
-
   "inlineLinks": [
-    { "slug": "genital-herpes-treatment-online", "label": "Genital Herpes" },
-    { "slug": "sore-throat-treatment-online", "label": "Sore Throat" },
-    { "slug": "common-cold-treatment-online", "label": "Common Cold" },
-    { "slug": "sinus-infection-treatment-online", "label": "Sinus Infection" },
-    { "slug": "yeast-infection-treatment-online", "label": "Yeast Infection" },
-    { "slug": "uti-treatment-online", "label": "UTI" },
-    { "slug": "pink-eye-treatment-online", "label": "Pink Eye" },
-    { "slug": "ear-pain-treatment-online", "label": "Ear Pain" },
-    { "slug": "asthma-refills-online", "label": "Asthma Refills" },
-    { "slug": "chlamydia-treatment-online", "label": "Chlamydia" }
+    {
+      "slug": "genital-herpes-treatment-online",
+      "label": "Genital Herpes"
+    },
+    {
+      "slug": "sore-throat-treatment-online",
+      "label": "Sore Throat"
+    },
+    {
+      "slug": "common-cold-treatment-online",
+      "label": "Common Cold"
+    },
+    {
+      "slug": "sinus-infection-treatment-online",
+      "label": "Sinus Infection"
+    },
+    {
+      "slug": "yeast-infection-treatment-online",
+      "label": "Yeast Infection"
+    },
+    {
+      "slug": "uti-treatment-online",
+      "label": "UTI"
+    },
+    {
+      "slug": "pink-eye-treatment-online",
+      "label": "Pink Eye"
+    },
+    {
+      "slug": "ear-pain-treatment-online",
+      "label": "Ear Pain"
+    },
+    {
+      "slug": "asthma-refills-online",
+      "label": "Asthma Refills"
+    },
+    {
+      "slug": "chlamydia-treatment-online",
+      "label": "Chlamydia"
+    }
   ],
-
   "cityBlock": {
     "title": "Adults We Serve Across {state}",
     "text": "TeleDirectMD evaluates adults located throughout {state}, including {citiesExtended}. Whether you are searching for online cold sore treatment in {city1}, herpes labialis care in {city2}, cold sore antiviral prescriptions online in {city3}, or telehealth cold sore evaluation anywhere else in {state}, the same telehealth eligibility and safety rules apply."
   },
-
   "icd10Codes": [
-    { "code": "B00.1", "description": "Herpesviral vesicular dermatitis (herpes labialis)" },
-    { "code": "B00.9", "description": "Herpesviral infection, unspecified" }
+    {
+      "code": "B00.1",
+      "description": "Herpesviral vesicular dermatitis (herpes labialis)"
+    },
+    {
+      "code": "B00.9",
+      "description": "Herpesviral infection, unspecified"
+    }
   ],
-
   "jsonLd": {
     "conditionName": "Cold Sore",
-    "conditionAlternateNames": ["Herpes labialis", "Fever blister", "Oral herpes", "HSV-1 reactivation"],
+    "conditionAlternateNames": [
+      "Herpes labialis",
+      "Fever blister",
+      "Oral herpes",
+      "HSV-1 reactivation"
+    ],
     "conditionDescription": "A cold sore (herpes labialis) is a recurrent viral infection caused by herpes simplex virus type 1 (HSV-1) that causes fluid-filled vesicles on or around the lips. TeleDirectMD provides time-sensitive telehealth access for FDA-approved antiviral treatment at the first prodromal symptom, suppressive therapy for frequent recurrences, and red-flag screening for eczema herpeticum, ocular herpes, and disseminated infection.",
     "primaryIcd10": "B00.1",
     "anatomy": "Lips and perioral skin",
-    "symptoms": ["Tingling or burning on lip border", "Fluid-filled vesicles on lip", "Crusted perioral lesion", "Itching at outbreak site", "Pain at lesion site"],
+    "symptoms": [
+      "Tingling or burning on lip border",
+      "Fluid-filled vesicles on lip",
+      "Crusted perioral lesion",
+      "Itching at outbreak site",
+      "Pain at lesion site"
+    ],
     "riskFactors": [
       "Prior HSV-1 infection with established latency",
       "Sun exposure (UV radiation)",
@@ -550,10 +730,22 @@
     ],
     "epidemiology": "HSV-1 seroprevalence in US adults is estimated at 50 to 80 percent. Approximately 20 to 40 percent of seropositive individuals experience recurrent symptomatic cold sores, with frequency varying from rare to more than 6 outbreaks per year.",
     "drugs": [
-      { "name": "Valacyclovir", "id": "valacyclovir" },
-      { "name": "Acyclovir", "id": "acyclovir" },
-      { "name": "Docosanol", "id": "docosanol" },
-      { "name": "Penciclovir", "id": "penciclovir" }
+      {
+        "name": "Valacyclovir",
+        "id": "valacyclovir"
+      },
+      {
+        "name": "Acyclovir",
+        "id": "acyclovir"
+      },
+      {
+        "name": "Docosanol",
+        "id": "docosanol"
+      },
+      {
+        "name": "Penciclovir",
+        "id": "penciclovir"
+      }
     ],
     "treatments": [
       "Episodic antiviral therapy at first prodromal symptom",
@@ -567,11 +759,30 @@
       "Red-flag screening for complicated presentations",
       "Viral culture or PCR if diagnostic uncertainty"
     ],
-    "specialties": ["Family Medicine", "Telemedicine", "Dermatology"],
+    "specialties": [
+      "Family Medicine",
+      "Telemedicine",
+      "Dermatology"
+    ],
     "guidelines": [
-      { "name": "Valtrex FDA Prescribing Information", "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2008/020487s014lbl.pdf", "publisher": "FDA / GlaxoSmithKline", "id": "fda-valtrex" },
-      { "name": "CDC STI Treatment Guidelines: Genital HSV Infections", "url": "https://www.cdc.gov/std/treatment-guidelines/herpes.htm", "publisher": "Centers for Disease Control and Prevention", "id": "cdc-hsv" },
-      { "name": "AAFP Herpes Labialis Diagnosis and Management", "url": "https://www.aafp.org/pubs/afp/issues/2010/1101/p1075.html", "publisher": "American Academy of Family Physicians", "id": "aafp-herpes-labialis" }
+      {
+        "name": "Valtrex FDA Prescribing Information",
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2008/020487s014lbl.pdf",
+        "publisher": "FDA / GlaxoSmithKline",
+        "id": "fda-valtrex"
+      },
+      {
+        "name": "CDC STI Treatment Guidelines: Genital HSV Infections",
+        "url": "https://www.cdc.gov/std/treatment-guidelines/herpes.htm",
+        "publisher": "Centers for Disease Control and Prevention",
+        "id": "cdc-hsv"
+      },
+      {
+        "name": "AAFP Herpes Labialis Diagnosis and Management",
+        "url": "https://www.aafp.org/pubs/afp/issues/2010/1101/p1075.html",
+        "publisher": "American Academy of Family Physicians",
+        "id": "aafp-herpes-labialis"
+      }
     ],
     "knowsAbout": [
       "Cold sore treatment",
@@ -584,5 +795,7 @@
     ],
     "serviceDescription": "Secure video visit for {state} adults with cold sore symptoms, including time-sensitive antiviral prescriptions, suppressive therapy evaluation, red-flag screening, and prescriptions when clinically appropriate.",
     "webpageDescription": "{state} cold sore treatment by secure MD video visit for adults. Time-sensitive antiviral prescriptions at first prodromal symptom, suppressive therapy for frequent recurrences, red-flag screening for eczema herpeticum and ocular herpes, and clear rules for when emergency care is needed."
-  }
+  },
+  "guidelineSource": "aad",
+  "conditionType": "treatment"
 }

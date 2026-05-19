@@ -2,20 +2,34 @@
   "conditionName": "Dog Bite Treatment",
   "conditionShort": "Dog Bite",
   "conditionSlug": "dog-bite-treatment-online",
-  "pageTitle": "Dog Bite Treatment Online in {state} | Animal Bite MD Video Visit | TeleDirectMD",
+  "pageTitle": "Dog Bite Online Treatment in {state} | TeleDirectMD",
   "metaDescription": "Evidence-based dog bite treatment for {state} adults by secure video visit. Wound assessment, antibiotic prophylaxis, tetanus and rabies guidance, and infection prevention. Self pay option starting at $49. Insurance is not required.",
   "ogImageAlt": "Dog bite treatment in {state} by TeleDirectMD",
-
   "hero": {
     "h1": "Dog Bite Treatment in {state} (Animal Bite Wound Care)",
     "subtitle": "{state} adult care by secure video visit, self pay option starting at $49, MD-only, insurance is not required.",
     "introParagraph": "Dog bites range from superficial scratches to deep puncture wounds, and the infection rate for dog bites is 5 to 25 percent depending on wound type and location. Not every dog bite requires antibiotics, but high-risk bites to the hand, foot, or over joints, puncture wounds, and crush injuries benefit from prophylactic antibiotic therapy. Copious wound irrigation is the single most important step in preventing infection after any bite. TeleDirectMD uses a safety-first telehealth approach that screens for red flags including deep tissue exposure, uncontrolled bleeding, hand wounds with decreased function, suspected rabies exposure from an unknown or wild animal, and signs of established infection before determining whether treatment by video visit is appropriate. If the wound assessment supports a superficial to moderate bite from a known domestic dog with no red flags, guideline-based wound care, antibiotic prophylaxis, and tetanus and rabies status assessment can be managed by video, while adults with deep wounds, facial lacerations needing repair, or suspected rabies exposure are directed to urgent in-person or emergency care. This page is for adults located in {state}, including {cities}.",
     "tocLinks": [
-      { "href": "eligibility-checklist", "label": "Eligibility checklist" },
-      { "href": "decision-guide", "label": "Decision guide" },
-      { "href": "treatment-options", "label": "Treatment options" },
-      { "href": "faq", "label": "FAQs" },
-      { "href": "references", "label": "References" }
+      {
+        "href": "eligibility-checklist",
+        "label": "Eligibility checklist"
+      },
+      {
+        "href": "decision-guide",
+        "label": "Decision guide"
+      },
+      {
+        "href": "treatment-options",
+        "label": "Treatment options"
+      },
+      {
+        "href": "faq",
+        "label": "FAQs"
+      },
+      {
+        "href": "references",
+        "label": "References"
+      }
     ],
     "benefits": [
       "Self pay option starting at $49",
@@ -35,7 +49,6 @@
     },
     "icd10Display": "W54.0XXA, T14.1, S61.459A (final coding depends on clinical details)"
   },
-
   "eligibility": {
     "sectionTitle": "Dog Bite Telehealth Eligibility Checklist for {state}",
     "introText": "You are likely eligible for a TeleDirectMD video visit if ALL of these are true:",
@@ -61,7 +74,6 @@
     ],
     "notEligibleDisclaimer": "If you have red-flag symptoms, seek urgent in-person care or emergency care immediately. TeleDirectMD is not appropriate for deep, complex, or high-risk bite wounds."
   },
-
   "howItWorks": {
     "sectionTitle": "How Online Dog Bite Treatment Works in {state}",
     "steps": [
@@ -83,7 +95,6 @@
       }
     ]
   },
-
   "telehealthRegulations": {
     "sectionTitle": "{state} Telehealth Regulations for Online Dog Bite Care",
     "paragraphs": [
@@ -91,7 +102,6 @@
       "Location matters: you must be physically in {state} during the visit. Insurance is not required. TeleDirectMD does not prescribe controlled substances."
     ]
   },
-
   "comparisonTable": {
     "sectionTitle": "TeleDirectMD vs Other Care Options for Dog Bite in {state}",
     "intro": "Here is how TeleDirectMD compares to common settings for adult dog bite care in {state}:",
@@ -139,7 +149,6 @@
     ],
     "bottomLine": "TeleDirectMD is a strong fit for superficial to moderate dog bite wounds from known domestic animals, with a safety-first approach, direct MD evaluation, and same-day antibiotic prophylaxis when appropriate."
   },
-
   "decisionGuide": {
     "sectionTitle": "Should I Use TeleDirectMD for Dog Bite in {state}? Decision Guide",
     "steps": [
@@ -186,7 +195,6 @@
       }
     ]
   },
-
   "pricing": {
     "sectionTitle": "What Does Dog Bite Treatment Cost in {state}?",
     "subtitle": "Transparent options. Insurance is not required.",
@@ -201,15 +209,34 @@
       "Clear follow-up steps"
     ],
     "comparisonBars": [
-      { "name": "TeleDirectMD", "value": "$49", "width": 12, "isTdmd": true },
-      { "name": "Primary Care", "value": "$100 to $250+", "width": 45, "isTdmd": false },
-      { "name": "Urgent Care", "value": "$150 to $300+", "width": 55, "isTdmd": false },
-      { "name": "Emergency Room", "value": "$500 to $3,000+", "width": 100, "isTdmd": false }
+      {
+        "name": "TeleDirectMD",
+        "value": "$49",
+        "width": 12,
+        "isTdmd": true
+      },
+      {
+        "name": "Primary Care",
+        "value": "$100 to $250+",
+        "width": 45,
+        "isTdmd": false
+      },
+      {
+        "name": "Urgent Care",
+        "value": "$150 to $300+",
+        "width": 55,
+        "isTdmd": false
+      },
+      {
+        "name": "Emergency Room",
+        "value": "$500 to $3,000+",
+        "width": 100,
+        "isTdmd": false
+      }
     ],
     "footnote": "Prescription costs at your pharmacy are separate and vary by medication and pharmacy. Tetanus booster and rabies post-exposure prophylaxis require in-person administration and are not included.",
     "noHiddenFees": "No hidden fees. If medication is not clinically appropriate, you still receive a complete evaluation, guidance, and clear instructions on what level of care you need next."
   },
-
   "whatIsCondition": {
     "sectionTitle": "What Is a Dog Bite Wound?",
     "paragraphs": [
@@ -218,36 +245,93 @@
       "TeleDirectMD focuses on superficial to moderate dog bite wounds appropriate for telehealth, with careful screening to identify deep wounds, uncontrolled bleeding, rabies exposure risk, and signs of established infection that require urgent in-person or emergency evaluation."
     ]
   },
-
   "causesAndRiskFactors": {
     "sectionTitle": "Causes and Risk Factors for Bite Wound Infection",
     "intro": "Not all dog bites carry the same risk of infection. Understanding which factors increase infection risk helps determine whether telehealth management with antibiotic prophylaxis is appropriate or whether in-person wound care is needed.",
     "items": [
-      { "label": "Wound location:", "text": "hand and foot bites carry the highest infection risk due to limited blood supply, proximity to tendons and joints, and difficulty with thorough wound cleaning in these areas" },
-      { "label": "Wound type:", "text": "puncture wounds are higher risk than lacerations because they drive bacteria deep into tissue and are difficult to irrigate, while crush injuries damage tissue and create a favorable environment for bacterial growth" },
-      { "label": "Delayed treatment:", "text": "bites that go untreated for more than 8 to 12 hours are at increased risk for established infection, especially puncture wounds" },
-      { "label": "Immunosuppression:", "text": "patients with diabetes, liver disease, organ transplant, chemotherapy, or other immune-compromising conditions are at higher risk for wound infection and may need more aggressive management" },
-      { "label": "Inadequate wound irrigation:", "text": "copious irrigation with clean water or saline is the single most important step in reducing bite wound infection, and failure to irrigate thoroughly increases infection rates significantly" }
+      {
+        "label": "Wound location:",
+        "text": "hand and foot bites carry the highest infection risk due to limited blood supply, proximity to tendons and joints, and difficulty with thorough wound cleaning in these areas"
+      },
+      {
+        "label": "Wound type:",
+        "text": "puncture wounds are higher risk than lacerations because they drive bacteria deep into tissue and are difficult to irrigate, while crush injuries damage tissue and create a favorable environment for bacterial growth"
+      },
+      {
+        "label": "Delayed treatment:",
+        "text": "bites that go untreated for more than 8 to 12 hours are at increased risk for established infection, especially puncture wounds"
+      },
+      {
+        "label": "Immunosuppression:",
+        "text": "patients with diabetes, liver disease, organ transplant, chemotherapy, or other immune-compromising conditions are at higher risk for wound infection and may need more aggressive management"
+      },
+      {
+        "label": "Inadequate wound irrigation:",
+        "text": "copious irrigation with clean water or saline is the single most important step in reducing bite wound infection, and failure to irrigate thoroughly increases infection rates significantly"
+      }
     ],
     "closing": "Not every bite wound needs antibiotics. Superficial wounds on the trunk or proximal extremities in healthy patients often heal with proper wound care alone. TeleDirectMD uses wound assessment, location, and patient risk factors to determine when antibiotic prophylaxis is appropriate and when in-person evaluation is needed."
   },
-
   "symptomsAndRedFlags": {
     "sectionTitle": "Symptoms and Red Flags for Dog Bite in {state}",
     "intro": "Use this table to understand which bite wounds are appropriate for telehealth and which require urgent in-person evaluation.",
-    "headers": ["Symptom or situation", "What it suggests", "Telehealth appropriate?", "Red flag requiring urgent in-person care"],
+    "headers": [
+      "Symptom or situation",
+      "What it suggests",
+      "Telehealth appropriate?",
+      "Red flag requiring urgent in-person care"
+    ],
     "rows": [
-      ["Superficial laceration or scratch with controlled bleeding", "Low-risk wound that can be managed with wound care and monitoring", "Often yes", "If on the hand or face, or if patient is immunocompromised"],
-      ["Puncture wound on extremity (not hand or foot)", "Moderate risk, may benefit from antibiotic prophylaxis", "Often yes", "If deep, over a joint, or if decreased function is present"],
-      ["Hand or foot bite wound", "High-risk location for infection, tendon involvement, and joint penetration", "Sometimes", "If any swelling, decreased range of motion, or deep puncture is present"],
-      ["Deep wound with visible tissue, bone, or tendon", "Requires in-person wound exploration and possible surgical repair", "No", "Urgent in-person care or ER"],
-      ["Uncontrolled bleeding that will not stop with pressure", "May need surgical hemostasis or wound repair", "No", "Urgent in-person care or ER"],
-      ["Facial wound with significant tissue damage", "May need plastic surgery or careful cosmetic repair", "No", "Urgent in-person care or ER"],
-      ["Increasing redness, warmth, swelling, pus, or red streaking", "Established wound infection, possible cellulitis or lymphangitis", "No", "Urgent in-person care, especially if fever is present"],
-      ["Bite from unknown, stray, or wild animal", "Rabies exposure risk requiring post-exposure prophylaxis", "No", "ER and local health department for rabies assessment"]
+      [
+        "Superficial laceration or scratch with controlled bleeding",
+        "Low-risk wound that can be managed with wound care and monitoring",
+        "Often yes",
+        "If on the hand or face, or if patient is immunocompromised"
+      ],
+      [
+        "Puncture wound on extremity (not hand or foot)",
+        "Moderate risk, may benefit from antibiotic prophylaxis",
+        "Often yes",
+        "If deep, over a joint, or if decreased function is present"
+      ],
+      [
+        "Hand or foot bite wound",
+        "High-risk location for infection, tendon involvement, and joint penetration",
+        "Sometimes",
+        "If any swelling, decreased range of motion, or deep puncture is present"
+      ],
+      [
+        "Deep wound with visible tissue, bone, or tendon",
+        "Requires in-person wound exploration and possible surgical repair",
+        "No",
+        "Urgent in-person care or ER"
+      ],
+      [
+        "Uncontrolled bleeding that will not stop with pressure",
+        "May need surgical hemostasis or wound repair",
+        "No",
+        "Urgent in-person care or ER"
+      ],
+      [
+        "Facial wound with significant tissue damage",
+        "May need plastic surgery or careful cosmetic repair",
+        "No",
+        "Urgent in-person care or ER"
+      ],
+      [
+        "Increasing redness, warmth, swelling, pus, or red streaking",
+        "Established wound infection, possible cellulitis or lymphangitis",
+        "No",
+        "Urgent in-person care, especially if fever is present"
+      ],
+      [
+        "Bite from unknown, stray, or wild animal",
+        "Rabies exposure risk requiring post-exposure prophylaxis",
+        "No",
+        "ER and local health department for rabies assessment"
+      ]
     ]
   },
-
   "differentialDiagnosis": {
     "sectionTitle": "Differential Diagnosis: Bite Wound Complications",
     "intro": "While the diagnosis of a dog bite wound is usually straightforward, the key clinical questions are whether the wound is infected, how deep the injury extends, and whether there is rabies exposure risk. TeleDirectMD focuses on identifying uncomplicated bite wounds appropriate for telehealth and directing complicated presentations to in-person care.",
@@ -283,7 +367,6 @@
     ],
     "closing": "If your wound appears deeper than initially expected, shows signs of infection, or involves a high-risk location with any functional concern, TeleDirectMD will direct you to urgent in-person care."
   },
-
   "telehealthEligibility": {
     "sectionTitle": "When Is a Video Visit Appropriate?",
     "appropriate": {
@@ -312,7 +395,6 @@
       "disclaimer": "If any red-flag symptoms are present, seek urgent in-person or emergency care. TeleDirectMD is not appropriate for these situations."
     }
   },
-
   "treatmentOptions": {
     "sectionTitle": "Treatment Options",
     "intro": "Dog bite wound management centers on three priorities: thorough wound irrigation, antibiotic prophylaxis for high-risk bites, and assessment of tetanus and rabies status. Copious irrigation is the single most important step in preventing infection after any bite wound.",
@@ -338,21 +420,49 @@
       "Established severe infection requiring intravenous antibiotics or surgical drainage"
     ]
   },
-
   "medications": {
     "sectionTitle": "Common Medication Options",
     "intro": "These are common examples for dog bite wound management. The actual medication, dose, and duration are determined by the MD after reviewing your wound assessment, bite location, time since injury, immune status, allergy history, and red flags.",
-    "headers": ["Medication", "Typical dose", "Duration", "Key considerations"],
+    "headers": [
+      "Medication",
+      "Typical dose",
+      "Duration",
+      "Key considerations"
+    ],
     "rows": [
-      ["Amoxicillin-clavulanate (Augmentin) 875/125 mg", "875/125 mg by mouth twice daily", "3 to 5 days (prophylaxis) or 5 to 7 days (established infection)", "First-line antibiotic for dog bite wounds. Covers Pasteurella, Staphylococcus, Streptococcus, and anaerobes. Take with food to reduce GI side effects."],
-      ["Doxycycline + Metronidazole (penicillin allergy alternative)", "Doxycycline 100 mg by mouth twice daily plus Metronidazole 500 mg by mouth three times daily", "3 to 5 days (prophylaxis) or 5 to 7 days (infection)", "Alternative for patients with penicillin allergy. Provides coverage for Pasteurella and anaerobic organisms. Avoid doxycycline in pregnancy."],
-      ["TMP-SMX + Clindamycin (penicillin allergy alternative)", "TMP-SMX DS 160/800 mg by mouth twice daily plus Clindamycin 300 mg by mouth three times daily", "3 to 5 days (prophylaxis) or 5 to 7 days (infection)", "Another alternative for penicillin allergy. TMP-SMX covers Pasteurella and gram-negatives, clindamycin adds anaerobic and gram-positive coverage."],
-      ["Ibuprofen (OTC)", "400 to 600 mg by mouth every 6 to 8 hours as needed", "As needed", "Over-the-counter anti-inflammatory for pain and swelling. Avoid with certain kidney conditions or GI bleeding risk."],
-      ["Acetaminophen (OTC)", "500 to 1000 mg by mouth every 6 hours as needed", "As needed", "Over-the-counter pain reliever. Can be combined with NSAIDs for additive relief. Avoid exceeding 3000 mg per day."]
+      [
+        "Amoxicillin-clavulanate (Augmentin) 875/125 mg",
+        "875/125 mg by mouth twice daily",
+        "3 to 5 days (prophylaxis) or 5 to 7 days (established infection)",
+        "First-line antibiotic for dog bite wounds. Covers Pasteurella, Staphylococcus, Streptococcus, and anaerobes. Take with food to reduce GI side effects."
+      ],
+      [
+        "Doxycycline + Metronidazole (penicillin allergy alternative)",
+        "Doxycycline 100 mg by mouth twice daily plus Metronidazole 500 mg by mouth three times daily",
+        "3 to 5 days (prophylaxis) or 5 to 7 days (infection)",
+        "Alternative for patients with penicillin allergy. Provides coverage for Pasteurella and anaerobic organisms. Avoid doxycycline in pregnancy."
+      ],
+      [
+        "TMP-SMX + Clindamycin (penicillin allergy alternative)",
+        "TMP-SMX DS 160/800 mg by mouth twice daily plus Clindamycin 300 mg by mouth three times daily",
+        "3 to 5 days (prophylaxis) or 5 to 7 days (infection)",
+        "Another alternative for penicillin allergy. TMP-SMX covers Pasteurella and gram-negatives, clindamycin adds anaerobic and gram-positive coverage."
+      ],
+      [
+        "Ibuprofen (OTC)",
+        "400 to 600 mg by mouth every 6 to 8 hours as needed",
+        "As needed",
+        "Over-the-counter anti-inflammatory for pain and swelling. Avoid with certain kidney conditions or GI bleeding risk."
+      ],
+      [
+        "Acetaminophen (OTC)",
+        "500 to 1000 mg by mouth every 6 hours as needed",
+        "As needed",
+        "Over-the-counter pain reliever. Can be combined with NSAIDs for additive relief. Avoid exceeding 3000 mg per day."
+      ]
     ],
     "note": "Example regimens only. The actual medication, dosing, and duration are determined by the MD after reviewing your wound, bite circumstances, allergies, immune status, and red flags. TeleDirectMD does not prescribe controlled substances. Tetanus booster and rabies post-exposure prophylaxis require in-person administration."
   },
-
   "homeCare": {
     "sectionTitle": "Home Care, Recovery Timeline, Prevention, and Follow-up",
     "whatToDoNow": {
@@ -386,7 +496,6 @@
       ]
     }
   },
-
   "whenNotToUse": {
     "sectionTitle": "When Not to Use TeleDirectMD for Dog Bite in {state}",
     "intro": "TeleDirectMD is designed for superficial to moderate bite wound assessment. We are direct about when telehealth is not appropriate.",
@@ -407,14 +516,25 @@
     "alternatives": {
       "title": "Alternative Care Options",
       "items": [
-        { "label": "Emergency room:", "text": "deep wounds, uncontrolled bleeding, facial lacerations needing repair, suspected rabies exposure, sepsis symptoms, or hand wounds with functional impairment" },
-        { "label": "Urgent care:", "text": "moderate wounds needing in-person exam, wound irrigation under direct visualization, tetanus booster administration, or uncertain wound depth" },
-        { "label": "Primary care:", "text": "wound check follow-up, antibiotic course adjustment, tetanus vaccination update, and ongoing wound monitoring" },
-        { "label": "Hand surgery or orthopedics:", "text": "hand or wrist bites with tendon damage, joint penetration, or deep space infection needing surgical evaluation" }
+        {
+          "label": "Emergency room:",
+          "text": "deep wounds, uncontrolled bleeding, facial lacerations needing repair, suspected rabies exposure, sepsis symptoms, or hand wounds with functional impairment"
+        },
+        {
+          "label": "Urgent care:",
+          "text": "moderate wounds needing in-person exam, wound irrigation under direct visualization, tetanus booster administration, or uncertain wound depth"
+        },
+        {
+          "label": "Primary care:",
+          "text": "wound check follow-up, antibiotic course adjustment, tetanus vaccination update, and ongoing wound monitoring"
+        },
+        {
+          "label": "Hand surgery or orthopedics:",
+          "text": "hand or wrist bites with tendon damage, joint penetration, or deep space infection needing surgical evaluation"
+        }
       ]
     }
   },
-
   "faq": {
     "sectionTitle": "Dog Bite Treatment FAQs for {state}",
     "items": [
@@ -464,16 +584,32 @@
       "text": "Insurance is not required. Adult-only video visits. MD-only care. Safety-first wound assessment, antibiotic prophylaxis when appropriate, and clear next steps."
     }
   },
-
   "references": [
-    { "text": "Management of Human and Animal Bite Wounds, American Family Physician", "url": "https://www.aafp.org/pubs/afp/issues/2014/0815/p239.html" },
-    { "text": "Dog and Cat Bites, Merck Manual Professional Version", "url": "https://www.merckmanuals.com/professional/injuries-poisoning/bites-and-stings/human-and-mammalian-bites" },
-    { "text": "Animal Bites and Infection, Clinical Infectious Diseases (Talan et al.)", "url": "https://academic.oup.com/cid/article/37/11/1481/2089750" },
-    { "text": "Bite Wound Infections, StatPearls (2025)", "url": "https://www.ncbi.nlm.nih.gov/books/NBK430773/" },
-    { "text": "Rabies Prevention, Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/rabies/prevention/index.html" },
-    { "text": "Tetanus Prevention After Wounds, Advisory Committee on Immunization Practices (ACIP)", "url": "https://www.cdc.gov/mmwr/volumes/67/rr/rr6702a1.htm" }
+    {
+      "text": "Management of Human and Animal Bite Wounds, American Family Physician",
+      "url": "https://www.aafp.org/pubs/afp/issues/2014/0815/p239.html"
+    },
+    {
+      "text": "Dog and Cat Bites, Merck Manual Professional Version",
+      "url": "https://www.merckmanuals.com/professional/injuries-poisoning/bites-and-stings/human-and-mammalian-bites"
+    },
+    {
+      "text": "Animal Bites and Infection, Clinical Infectious Diseases (Talan et al.)",
+      "url": "https://academic.oup.com/cid/article/37/11/1481/2089750"
+    },
+    {
+      "text": "Bite Wound Infections, StatPearls (2025)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK430773/"
+    },
+    {
+      "text": "Rabies Prevention, Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/rabies/prevention/index.html"
+    },
+    {
+      "text": "Tetanus Prevention After Wounds, Advisory Committee on Immunization Practices (ACIP)",
+      "url": "https://www.cdc.gov/mmwr/volumes/67/rr/rr6702a1.htm"
+    }
   ],
-
   "disclaimer": {
     "sectionTitle": "TeleDirectMD Telehealth Disclaimer",
     "paragraphs": [
@@ -482,7 +618,6 @@
       "Online dog bite treatment in {state}. Animal bite antibiotics online. Dog bite wound care by video visit."
     ]
   },
-
   "relatedConditions": [
     {
       "slug": "cold-sore-treatment-online",
@@ -505,38 +640,84 @@
       "description": "Another common acute infection evaluated and treated by telehealth"
     }
   ],
-
   "inlineLinks": [
-    { "slug": "cold-sore-treatment-online", "label": "Cold Sore" },
-    { "slug": "sinus-infection-treatment-online", "label": "Sinus Infection" },
-    { "slug": "sore-throat-treatment-online", "label": "Sore Throat" },
-    { "slug": "pink-eye-treatment-online", "label": "Pink Eye" },
-    { "slug": "ear-pain-treatment-online", "label": "Ear Pain" },
-    { "slug": "uti-treatment-online", "label": "UTI" },
-    { "slug": "common-cold-treatment-online", "label": "Common Cold" },
-    { "slug": "influenza-treatment-online", "label": "Influenza" },
-    { "slug": "covid-19-treatment-online", "label": "COVID-19" },
-    { "slug": "shingles-treatment-online", "label": "Shingles" }
+    {
+      "slug": "cold-sore-treatment-online",
+      "label": "Cold Sore"
+    },
+    {
+      "slug": "sinus-infection-treatment-online",
+      "label": "Sinus Infection"
+    },
+    {
+      "slug": "sore-throat-treatment-online",
+      "label": "Sore Throat"
+    },
+    {
+      "slug": "pink-eye-treatment-online",
+      "label": "Pink Eye"
+    },
+    {
+      "slug": "ear-pain-treatment-online",
+      "label": "Ear Pain"
+    },
+    {
+      "slug": "uti-treatment-online",
+      "label": "UTI"
+    },
+    {
+      "slug": "common-cold-treatment-online",
+      "label": "Common Cold"
+    },
+    {
+      "slug": "influenza-treatment-online",
+      "label": "Influenza"
+    },
+    {
+      "slug": "covid-19-treatment-online",
+      "label": "COVID-19"
+    },
+    {
+      "slug": "shingles-treatment-online",
+      "label": "Shingles"
+    }
   ],
-
   "cityBlock": {
     "title": "Adults We Serve Across {state}",
     "text": "TeleDirectMD evaluates adults located throughout {state}, including {citiesExtended}. Whether you are searching for online dog bite treatment in {city1}, animal bite care in {city2}, dog bite antibiotics online in {city3}, or telehealth bite wound evaluation anywhere else in {state}, the same telehealth eligibility and safety rules apply."
   },
-
   "icd10Codes": [
-    { "code": "W54.0XXA", "description": "Bitten by dog, initial encounter" },
-    { "code": "T14.1", "description": "Open wound of unspecified body region" },
-    { "code": "S61.459A", "description": "Open bite of unspecified hand, initial encounter" }
+    {
+      "code": "W54.0XXA",
+      "description": "Bitten by dog, initial encounter"
+    },
+    {
+      "code": "T14.1",
+      "description": "Open wound of unspecified body region"
+    },
+    {
+      "code": "S61.459A",
+      "description": "Open bite of unspecified hand, initial encounter"
+    }
   ],
-
   "jsonLd": {
     "conditionName": "Dog Bite Wound",
-    "conditionAlternateNames": ["Dog bite", "Animal bite", "Canine bite wound", "Dog bite infection"],
+    "conditionAlternateNames": [
+      "Dog bite",
+      "Animal bite",
+      "Canine bite wound",
+      "Dog bite infection"
+    ],
     "conditionDescription": "A dog bite wound is a traumatic injury caused by a dog's teeth that can produce puncture wounds, lacerations, avulsions, or crush injuries with an infection rate of 5 to 25 percent. TeleDirectMD evaluates adult dog bite wounds by video visit with safety-first red-flag screening, photo-based wound assessment, guideline-based antibiotic prophylaxis, tetanus and rabies guidance, and clear rules for when urgent in-person care is needed.",
     "primaryIcd10": "W54.0XXA",
     "anatomy": "Skin and soft tissue",
-    "symptoms": ["Puncture wound", "Laceration", "Pain and swelling", "Bleeding", "Crush injury"],
+    "symptoms": [
+      "Puncture wound",
+      "Laceration",
+      "Pain and swelling",
+      "Bleeding",
+      "Crush injury"
+    ],
     "riskFactors": [
       "Hand or foot bite location",
       "Puncture wound type",
@@ -554,9 +735,18 @@
     ],
     "epidemiology": "An estimated 4.5 million dog bites occur annually in the United States, with an infection rate of 5 to 25 percent depending on wound type and location.",
     "drugs": [
-      { "name": "Amoxicillin-clavulanate", "id": "amoxicillin-clavulanate" },
-      { "name": "Doxycycline", "id": "doxycycline" },
-      { "name": "Metronidazole", "id": "metronidazole" }
+      {
+        "name": "Amoxicillin-clavulanate",
+        "id": "amoxicillin-clavulanate"
+      },
+      {
+        "name": "Doxycycline",
+        "id": "doxycycline"
+      },
+      {
+        "name": "Metronidazole",
+        "id": "metronidazole"
+      }
     ],
     "treatments": [
       "Copious wound irrigation",
@@ -569,11 +759,30 @@
       "Clinical wound assessment and photo review",
       "Red-flag screening for deep tissue injury, rabies exposure, and infection"
     ],
-    "specialties": ["Family Medicine", "Telemedicine", "Emergency Medicine"],
+    "specialties": [
+      "Family Medicine",
+      "Telemedicine",
+      "Emergency Medicine"
+    ],
     "guidelines": [
-      { "name": "Management of Human and Animal Bite Wounds", "url": "https://www.aafp.org/pubs/afp/issues/2014/0815/p239.html", "publisher": "American Family Physician", "id": "aafp-bites" },
-      { "name": "Animal Bites and Infection", "url": "https://academic.oup.com/cid/article/37/11/1481/2089750", "publisher": "Clinical Infectious Diseases", "id": "cid-bites" },
-      { "name": "Rabies Prevention", "url": "https://www.cdc.gov/rabies/prevention/index.html", "publisher": "Centers for Disease Control and Prevention", "id": "cdc-rabies" }
+      {
+        "name": "Management of Human and Animal Bite Wounds",
+        "url": "https://www.aafp.org/pubs/afp/issues/2014/0815/p239.html",
+        "publisher": "American Family Physician",
+        "id": "aafp-bites"
+      },
+      {
+        "name": "Animal Bites and Infection",
+        "url": "https://academic.oup.com/cid/article/37/11/1481/2089750",
+        "publisher": "Clinical Infectious Diseases",
+        "id": "cid-bites"
+      },
+      {
+        "name": "Rabies Prevention",
+        "url": "https://www.cdc.gov/rabies/prevention/index.html",
+        "publisher": "Centers for Disease Control and Prevention",
+        "id": "cdc-rabies"
+      }
     ],
     "knowsAbout": [
       "Dog bite treatment",
@@ -585,5 +794,7 @@
     ],
     "serviceDescription": "Secure video visit for {state} adults with dog bite wounds, including red-flag screening, photo-based wound assessment, antibiotic prophylaxis when appropriate, and tetanus and rabies guidance.",
     "webpageDescription": "{state} dog bite treatment by secure MD video visit for adults. Evidence-based evaluation of bite wounds, red-flag screening for deep injury and rabies exposure, guideline-based antibiotic prophylaxis when appropriate, and clear rules for when urgent in-person care is needed."
-  }
+  },
+  "guidelineSource": "idsaSsti",
+  "conditionType": "treatment"
 }

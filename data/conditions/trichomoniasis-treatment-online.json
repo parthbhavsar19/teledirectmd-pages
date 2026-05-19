@@ -2,20 +2,34 @@
   "conditionName": "Trichomoniasis Treatment",
   "conditionShort": "Trichomoniasis",
   "conditionSlug": "trichomoniasis-treatment-online",
-  "pageTitle": "Trichomoniasis Treatment Online in {state} | STI MD Video Visit | TeleDirectMD",
+  "pageTitle": "Trichomoniasis Online Treatment in {state} | TeleDirectMD",
   "metaDescription": "Evidence-based trichomoniasis treatment for {state} adults by secure video visit. CDC 2021 guideline-based evaluation, metronidazole or tinidazole prescriptions when clinically appropriate, partner treatment guidance, and co-testing recommendations. Self pay option starting at $49. Insurance is not required.",
   "ogImageAlt": "Trichomoniasis treatment in {state} by TeleDirectMD",
-
   "hero": {
     "h1": "Trichomoniasis Treatment in {state} (Trichomonas Vaginalis Infection)",
     "subtitle": "{state} adult care by secure video visit, self pay option starting at $49, MD-only, insurance is not required.",
     "introParagraph": "Trichomoniasis is the most common non-viral sexually transmitted infection (STI) worldwide, caused by the protozoan Trichomonas vaginalis. In the United States, T. vaginalis infection rates exceed those of gonorrhea and chlamydia combined, yet the condition is frequently underdiagnosed because many infected people — especially men — have no symptoms at all. The CDC STI Treatment Guidelines (2021) updated first-line treatment for women to metronidazole 500 mg twice daily for 7 days, which was shown in a multicenter randomized trial to cut treatment failure rates in half compared to the older single-dose regimen. TeleDirectMD can evaluate adults with symptoms or a positive T. vaginalis test result, prescribe appropriate treatment, provide partner treatment guidance, and recommend co-testing for HIV, gonorrhea, chlamydia, and syphilis. TeleDirectMD does not perform STI testing — patients should get tested at a local clinic, lab, or health department and bring results to the visit. This page is for adults located in {state}, including {cities}.",
     "tocLinks": [
-      { "href": "eligibility-checklist", "label": "Eligibility checklist" },
-      { "href": "decision-guide", "label": "Decision guide" },
-      { "href": "treatment-options", "label": "Treatment options" },
-      { "href": "faq", "label": "FAQs" },
-      { "href": "references", "label": "References" }
+      {
+        "href": "eligibility-checklist",
+        "label": "Eligibility checklist"
+      },
+      {
+        "href": "decision-guide",
+        "label": "Decision guide"
+      },
+      {
+        "href": "treatment-options",
+        "label": "Treatment options"
+      },
+      {
+        "href": "faq",
+        "label": "FAQs"
+      },
+      {
+        "href": "references",
+        "label": "References"
+      }
     ],
     "benefits": [
       "Self pay option starting at $49",
@@ -35,7 +49,6 @@
     },
     "icd10Display": "A59.00, A59.01, or A59.9 (final coding depends on clinical details)"
   },
-
   "eligibility": {
     "sectionTitle": "Trichomoniasis Telehealth Eligibility Checklist for {state}",
     "introText": "You are likely eligible for a TeleDirectMD video visit if ALL of these are true:",
@@ -59,7 +72,6 @@
     ],
     "notEligibleDisclaimer": "If you have pelvic pain with fever, signs of pregnancy, or symptoms suggesting severe infection, seek in-person care immediately. TeleDirectMD is not an emergency service."
   },
-
   "howItWorks": {
     "sectionTitle": "How Online Trichomoniasis Treatment Works in {state}",
     "steps": [
@@ -81,7 +93,6 @@
       }
     ]
   },
-
   "telehealthRegulations": {
     "sectionTitle": "{state} Telehealth Regulations for Online Trichomoniasis Care",
     "paragraphs": [
@@ -89,7 +100,6 @@
       "Location matters: you must be physically in {state} during the visit. Insurance is not required. TeleDirectMD does not prescribe controlled substances."
     ]
   },
-
   "comparisonTable": {
     "sectionTitle": "TeleDirectMD vs Other Care Options for Trichomoniasis in {state}",
     "intro": "Here is how TeleDirectMD compares to common settings for adult trichomoniasis care in {state}:",
@@ -137,7 +147,6 @@
     ],
     "bottomLine": "TeleDirectMD is a strong fit for uncomplicated trichomoniasis treatment when you have a positive test result or compatible symptoms, need a prescription quickly, and want partner treatment guidance and co-testing recommendations."
   },
-
   "decisionGuide": {
     "sectionTitle": "Should I Use TeleDirectMD for Trichomoniasis in {state}? Decision Guide",
     "steps": [
@@ -182,7 +191,6 @@
       }
     ]
   },
-
   "pricing": {
     "sectionTitle": "What Does Trichomoniasis Treatment Cost in {state}?",
     "subtitle": "Transparent options. Insurance is not required.",
@@ -196,15 +204,34 @@
       "Clear follow-up steps including reinfection screening at 3 months"
     ],
     "comparisonBars": [
-      { "name": "TeleDirectMD", "value": "$49", "width": 12, "isTdmd": true },
-      { "name": "Primary Care", "value": "$100 to $250+", "width": 45, "isTdmd": false },
-      { "name": "Urgent Care", "value": "$150 to $300+", "width": 55, "isTdmd": false },
-      { "name": "Emergency Room", "value": "$500 to $3,000+", "width": 100, "isTdmd": false }
+      {
+        "name": "TeleDirectMD",
+        "value": "$49",
+        "width": 12,
+        "isTdmd": true
+      },
+      {
+        "name": "Primary Care",
+        "value": "$100 to $250+",
+        "width": 45,
+        "isTdmd": false
+      },
+      {
+        "name": "Urgent Care",
+        "value": "$150 to $300+",
+        "width": 55,
+        "isTdmd": false
+      },
+      {
+        "name": "Emergency Room",
+        "value": "$500 to $3,000+",
+        "width": 100,
+        "isTdmd": false
+      }
     ],
     "footnote": "Prescription costs at your pharmacy are separate and vary by medication and pharmacy. STI testing costs are separate.",
     "noHiddenFees": "No hidden fees. If medication is not clinically appropriate, you still receive a complete evaluation, guidance, and clear instructions on what level of care you need next."
   },
-
   "whatIsCondition": {
     "sectionTitle": "What Is Trichomoniasis?",
     "paragraphs": [
@@ -213,37 +240,97 @@
       "TeleDirectMD can evaluate adults with a positive T. vaginalis test result or compatible symptoms, prescribe CDC-recommended antibiotic treatment (metronidazole or tinidazole), provide partner notification guidance, and recommend co-testing for HIV, gonorrhea, chlamydia, and syphilis. TeleDirectMD does not perform STI testing — patients should get tested at a local clinic, lab, or health department. Trichomoniasis in pregnancy, suspected PID, and recurrent or treatment-resistant infections require in-person management."
     ]
   },
-
   "causesAndRiskFactors": {
     "sectionTitle": "Causes and Risk Factors",
     "intro": "Trichomoniasis is caused by the protozoan Trichomonas vaginalis and is transmitted through direct sexual contact. Unlike many other infections, T. vaginalis can only be spread sexually — it does not survive long outside the body. Understanding risk factors helps guide testing decisions and prevention counseling.",
     "items": [
-      { "label": "Sexual transmission:", "text": "trichomoniasis is acquired through vaginal, anal, or genital skin-to-skin contact with an infected partner; virtually all cases result from sexual transmission" },
-      { "label": "Asymptomatic carriers:", "text": "most men and many women have no symptoms but can still transmit the infection; this makes partner notification and treatment essential to break the cycle of reinfection" },
-      { "label": "Multiple or new sexual partners:", "text": "having multiple partners or a new sexual partner increases exposure risk; trichomoniasis occurs more frequently in people with multiple partners who also have other STIs" },
-      { "label": "History of prior STIs:", "text": "a prior STI diagnosis significantly increases the likelihood of T. vaginalis infection; trichomoniasis is strongly co-associated with HIV, gonorrhea, HPV, herpes, and chlamydia" },
-      { "label": "Inconsistent barrier contraception:", "text": "not using condoms consistently increases both acquisition and transmission risk" },
-      { "label": "High-risk populations:", "text": "elevated prevalence is found in STI clinic attendees, individuals in correctional facilities, women with HIV, and those with a history of incarceration or drug use" }
+      {
+        "label": "Sexual transmission:",
+        "text": "trichomoniasis is acquired through vaginal, anal, or genital skin-to-skin contact with an infected partner; virtually all cases result from sexual transmission"
+      },
+      {
+        "label": "Asymptomatic carriers:",
+        "text": "most men and many women have no symptoms but can still transmit the infection; this makes partner notification and treatment essential to break the cycle of reinfection"
+      },
+      {
+        "label": "Multiple or new sexual partners:",
+        "text": "having multiple partners or a new sexual partner increases exposure risk; trichomoniasis occurs more frequently in people with multiple partners who also have other STIs"
+      },
+      {
+        "label": "History of prior STIs:",
+        "text": "a prior STI diagnosis significantly increases the likelihood of T. vaginalis infection; trichomoniasis is strongly co-associated with HIV, gonorrhea, HPV, herpes, and chlamydia"
+      },
+      {
+        "label": "Inconsistent barrier contraception:",
+        "text": "not using condoms consistently increases both acquisition and transmission risk"
+      },
+      {
+        "label": "High-risk populations:",
+        "text": "elevated prevalence is found in STI clinic attendees, individuals in correctional facilities, women with HIV, and those with a history of incarceration or drug use"
+      }
     ],
     "closing": "Trichomoniasis is often underdiagnosed because symptoms are absent or non-specific. Many patients self-treat with over-the-counter products that are ineffective against T. vaginalis. Nitroimidazoles (metronidazole or tinidazole) are the only antibiotic class with demonstrated efficacy. Testing with nucleic acid amplification tests (NAATs) is the gold standard for accurate diagnosis. TeleDirectMD uses symptom patterns, sexual history, and safety screening to determine whether a telehealth visit is appropriate."
   },
-
   "symptomsAndRedFlags": {
     "sectionTitle": "Symptoms and Red Flags for Trichomoniasis in {state}",
     "intro": "Use this table to understand which presentations fit uncomplicated trichomoniasis appropriate for telehealth treatment and which patterns suggest complications requiring in-person care.",
-    "headers": ["Symptom or situation", "What it suggests", "Telehealth appropriate?", "Red flag requiring urgent in-person care"],
+    "headers": [
+      "Symptom or situation",
+      "What it suggests",
+      "Telehealth appropriate?",
+      "Red flag requiring urgent in-person care"
+    ],
     "rows": [
-      ["Positive T. vaginalis test with no symptoms", "Asymptomatic trichomoniasis — still requires treatment", "Yes", "No red flag; treatment indicated"],
-      ["Frothy, foul-smelling yellow-green vaginal discharge", "Classic trichomoniasis in women", "Yes, with positive test or compatible history", "If accompanied by pelvic pain and fever"],
-      ["Vaginal itching, burning, or vulvar erythema", "Trichomoniasis or other vaginal infection (BV, yeast)", "Sometimes, depends on full picture", "Pelvic pain with fever warrants urgent evaluation"],
-      ["Burning with urination or urinary frequency", "Trichomoniasis-related urethritis or UTI mimicry", "Yes, with appropriate clinical context", "If severe or with systemic symptoms"],
-      ["Urethral discharge in men", "Urethritis, possibly trichomonal", "Yes, with appropriate history", "If associated with testicular pain and swelling"],
-      ["Pelvic pain with fever in a woman", "Possible pelvic inflammatory disease (PID)", "No", "Urgent in-person evaluation — may need IV antibiotics"],
-      ["Pregnancy with trichomoniasis symptoms", "Associated with preterm delivery and adverse outcomes", "No", "In-person OB evaluation needed — do not manage by telehealth"],
-      ["Symptoms persisting after standard treatment course", "Possible reinfection, nonadherence, or resistant T. vaginalis", "No — needs reassessment and possibly specialist guidance", "In-person evaluation recommended for recurrent or resistant cases"]
+      [
+        "Positive T. vaginalis test with no symptoms",
+        "Asymptomatic trichomoniasis — still requires treatment",
+        "Yes",
+        "No red flag; treatment indicated"
+      ],
+      [
+        "Frothy, foul-smelling yellow-green vaginal discharge",
+        "Classic trichomoniasis in women",
+        "Yes, with positive test or compatible history",
+        "If accompanied by pelvic pain and fever"
+      ],
+      [
+        "Vaginal itching, burning, or vulvar erythema",
+        "Trichomoniasis or other vaginal infection (BV, yeast)",
+        "Sometimes, depends on full picture",
+        "Pelvic pain with fever warrants urgent evaluation"
+      ],
+      [
+        "Burning with urination or urinary frequency",
+        "Trichomoniasis-related urethritis or UTI mimicry",
+        "Yes, with appropriate clinical context",
+        "If severe or with systemic symptoms"
+      ],
+      [
+        "Urethral discharge in men",
+        "Urethritis, possibly trichomonal",
+        "Yes, with appropriate history",
+        "If associated with testicular pain and swelling"
+      ],
+      [
+        "Pelvic pain with fever in a woman",
+        "Possible pelvic inflammatory disease (PID)",
+        "No",
+        "Urgent in-person evaluation — may need IV antibiotics"
+      ],
+      [
+        "Pregnancy with trichomoniasis symptoms",
+        "Associated with preterm delivery and adverse outcomes",
+        "No",
+        "In-person OB evaluation needed — do not manage by telehealth"
+      ],
+      [
+        "Symptoms persisting after standard treatment course",
+        "Possible reinfection, nonadherence, or resistant T. vaginalis",
+        "No — needs reassessment and possibly specialist guidance",
+        "In-person evaluation recommended for recurrent or resistant cases"
+      ]
     ]
   },
-
   "differentialDiagnosis": {
     "sectionTitle": "Differential Diagnosis: Trichomoniasis vs Other Conditions",
     "intro": "Several vaginal and urogenital infections can present with overlapping symptoms. A positive T. vaginalis test confirms the diagnosis, but clinical history and red-flag screening help distinguish trichomoniasis from other causes of vaginal discharge, dysuria, and pelvic discomfort. TeleDirectMD also screens for concurrent infections and complications.",
@@ -284,7 +371,6 @@
     ],
     "closing": "If your symptoms do not match uncomplicated trichomoniasis, if red flags are present, or if your infection has failed prior treatment, TeleDirectMD will direct you to appropriate in-person care."
   },
-
   "telehealthEligibility": {
     "sectionTitle": "When Is a Video Visit Appropriate?",
     "appropriate": {
@@ -311,7 +397,6 @@
       "disclaimer": "If any red-flag symptoms are present, seek in-person care or go to the ER. TeleDirectMD is not an emergency service."
     }
   },
-
   "treatmentOptions": {
     "sectionTitle": "Treatment Options",
     "intro": "Trichomoniasis is curable with antibiotic treatment. Nitroimidazoles (metronidazole and tinidazole) are the only antibiotic class with demonstrated efficacy against T. vaginalis — topical treatments are not effective. The CDC STI Treatment Guidelines (2021) updated the preferred treatment for women to metronidazole 500 mg twice daily for 7 days, based on evidence that this multidose regimen reduces treatment failure by half compared to the single 2 g dose. Partner treatment is essential: patients should abstain from sexual contact until both they and their partners are treated and symptoms have resolved.",
@@ -341,19 +426,37 @@
       "Severe illness, high fever, or signs of systemic infection"
     ]
   },
-
   "medications": {
     "sectionTitle": "Common Medication Options",
     "intro": "These are common examples for adult trichomoniasis treatment. The actual medication, dose, and duration are determined by the MD after reviewing your test results, symptoms, sexual history, allergy profile, pregnancy status, and red flags. Treatment requires either a positive test result or compatible clinical presentation.",
-    "headers": ["Medication", "Typical dose", "Duration", "Key considerations"],
+    "headers": [
+      "Medication",
+      "Typical dose",
+      "Duration",
+      "Key considerations"
+    ],
     "rows": [
-      ["Metronidazole (preferred for women)", "500 mg by mouth twice daily", "7 days", "CDC 2021 preferred regimen for women. Shown to reduce treatment failure by half vs. single dose. Also preferred for women with HIV. Avoid alcohol during treatment and for 24 hours after last dose (disulfiram-like reaction). Take with food to reduce nausea. Contraindicated in first trimester of pregnancy."],
-      ["Metronidazole (single dose — option for men)", "2 g by mouth once", "Single dose", "Option for men when the multidose regimen is not practical. Slightly higher treatment failure rate in women compared to 7-day course. Avoid alcohol for 24 hours after dose. Not preferred for women per 2021 CDC update."],
-      ["Tinidazole (alternative)", "2 g by mouth once", "Single dose", "Alternative nitroimidazole with higher serum levels, longer half-life, and fewer GI side effects than metronidazole. Cure rates 92 to 100 percent. Avoid alcohol for 72 hours after dose. Avoid in pregnancy (moderate risk based on animal data). Can be used when metronidazole is not tolerated or in select cases."]
+      [
+        "Metronidazole (preferred for women)",
+        "500 mg by mouth twice daily",
+        "7 days",
+        "CDC 2021 preferred regimen for women. Shown to reduce treatment failure by half vs. single dose. Also preferred for women with HIV. Avoid alcohol during treatment and for 24 hours after last dose (disulfiram-like reaction). Take with food to reduce nausea. Contraindicated in first trimester of pregnancy."
+      ],
+      [
+        "Metronidazole (single dose — option for men)",
+        "2 g by mouth once",
+        "Single dose",
+        "Option for men when the multidose regimen is not practical. Slightly higher treatment failure rate in women compared to 7-day course. Avoid alcohol for 24 hours after dose. Not preferred for women per 2021 CDC update."
+      ],
+      [
+        "Tinidazole (alternative)",
+        "2 g by mouth once",
+        "Single dose",
+        "Alternative nitroimidazole with higher serum levels, longer half-life, and fewer GI side effects than metronidazole. Cure rates 92 to 100 percent. Avoid alcohol for 72 hours after dose. Avoid in pregnancy (moderate risk based on animal data). Can be used when metronidazole is not tolerated or in select cases."
+      ]
     ],
     "note": "Example regimens only. The actual medication is determined by the MD after reviewing your test results, symptoms, and medical history. Abstain from sexual contact until you and all partners are fully treated and symptoms have resolved. Reinfection screening is recommended at approximately 3 months. Avoid alcohol during metronidazole treatment (24 hours after last dose) and tinidazole treatment (72 hours after dose). TeleDirectMD does not prescribe controlled substances."
   },
-
   "homeCare": {
     "sectionTitle": "Home Care, Recovery Timeline, Partner Notification, and Follow-up",
     "whatToDoNow": {
@@ -389,7 +492,6 @@
       ]
     }
   },
-
   "whenNotToUse": {
     "sectionTitle": "When Not to Use TeleDirectMD for Trichomoniasis in {state}",
     "intro": "TeleDirectMD is designed for uncomplicated trichomoniasis treatment based on positive test results or compatible clinical presentation. We are direct about when telehealth is not appropriate.",
@@ -409,14 +511,25 @@
     "alternatives": {
       "title": "Alternative Care Options",
       "items": [
-        { "label": "Emergency room:", "text": "pelvic pain with high fever (possible PID), signs of serious infection, or pregnancy complications" },
-        { "label": "Urgent care or STI clinic:", "text": "STI testing and treatment in one visit, uncertain diagnosis, concurrent gonorrhea needing injection, or need for in-person pelvic exam" },
-        { "label": "OB/GYN:", "text": "trichomoniasis in pregnancy, complicated or recurrent infections, fertility concerns, or need for specialist management" },
-        { "label": "Primary care or infectious disease:", "text": "recurrent or treatment-resistant trichomoniasis requiring specialist-guided high-dose or combination regimens" }
+        {
+          "label": "Emergency room:",
+          "text": "pelvic pain with high fever (possible PID), signs of serious infection, or pregnancy complications"
+        },
+        {
+          "label": "Urgent care or STI clinic:",
+          "text": "STI testing and treatment in one visit, uncertain diagnosis, concurrent gonorrhea needing injection, or need for in-person pelvic exam"
+        },
+        {
+          "label": "OB/GYN:",
+          "text": "trichomoniasis in pregnancy, complicated or recurrent infections, fertility concerns, or need for specialist management"
+        },
+        {
+          "label": "Primary care or infectious disease:",
+          "text": "recurrent or treatment-resistant trichomoniasis requiring specialist-guided high-dose or combination regimens"
+        }
       ]
     }
   },
-
   "faq": {
     "sectionTitle": "Trichomoniasis Treatment FAQs for {state}",
     "items": [
@@ -482,15 +595,28 @@
       "text": "Insurance is not required. Adult-only video visits. MD-only care. Safety-first triage, CDC 2021 guideline-based treatment, partner notification guidance, and prescriptions when clinically appropriate."
     }
   },
-
   "references": [
-    { "text": "CDC STI Treatment Guidelines 2021 — Trichomoniasis", "url": "https://www.cdc.gov/std/treatment-guidelines/trichomoniasis.htm" },
-    { "text": "Trichomoniasis, StatPearls — NCBI Bookshelf (Schumann et al., 2023)", "url": "https://www.ncbi.nlm.nih.gov/books/NBK534826/" },
-    { "text": "WHO Fact Sheet: Trichomoniasis (2025)", "url": "https://www.who.int/news-room/fact-sheets/detail/trichomoniasis" },
-    { "text": "WHO Recommendations for the Treatment of Trichomonas vaginalis (2024)", "url": "https://www.who.int/publications/i/item/9789240096370" },
-    { "text": "CDC STI Treatment Guidelines 2021 — Full Document (PDF)", "url": "https://www.cdc.gov/std/treatment-guidelines/STI-Guidelines-2021.pdf" }
+    {
+      "text": "CDC STI Treatment Guidelines 2021 — Trichomoniasis",
+      "url": "https://www.cdc.gov/std/treatment-guidelines/trichomoniasis.htm"
+    },
+    {
+      "text": "Trichomoniasis, StatPearls — NCBI Bookshelf (Schumann et al., 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK534826/"
+    },
+    {
+      "text": "WHO Fact Sheet: Trichomoniasis (2025)",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/trichomoniasis"
+    },
+    {
+      "text": "WHO Recommendations for the Treatment of Trichomonas vaginalis (2024)",
+      "url": "https://www.who.int/publications/i/item/9789240096370"
+    },
+    {
+      "text": "CDC STI Treatment Guidelines 2021 — Full Document (PDF)",
+      "url": "https://www.cdc.gov/std/treatment-guidelines/STI-Guidelines-2021.pdf"
+    }
   ],
-
   "disclaimer": {
     "sectionTitle": "TeleDirectMD Telehealth Disclaimer",
     "paragraphs": [
@@ -499,7 +625,6 @@
       "Online trichomoniasis treatment in {state}. Trichomoniasis antibiotics online. Trichomonas vaginalis treatment by video visit. Metronidazole prescription online for trichomoniasis in {state}."
     ]
   },
-
   "relatedConditions": [
     {
       "slug": "bv-treatment-online",
@@ -527,40 +652,93 @@
       "description": "Burning with urination and urinary frequency from trichomoniasis can mimic UTI symptoms — testing helps distinguish the cause"
     }
   ],
-
   "inlineLinks": [
-    { "slug": "bv-treatment-online", "label": "Bacterial Vaginosis" },
-    { "slug": "yeast-infection-treatment-online", "label": "Yeast Infection" },
-    { "slug": "chlamydia-treatment-online", "label": "Chlamydia Treatment" },
-    { "slug": "genital-herpes-treatment-online", "label": "Genital Herpes" },
-    { "slug": "uti-treatment-online", "label": "UTI Treatment" },
-    { "slug": "sinus-infection-treatment-online", "label": "Sinus Infection" },
-    { "slug": "sore-throat-treatment-online", "label": "Sore Throat" },
-    { "slug": "pink-eye-treatment-online", "label": "Pink Eye" },
-    { "slug": "cold-sore-treatment-online", "label": "Cold Sore" },
-    { "slug": "asthma-refills-online", "label": "Asthma Refills" }
+    {
+      "slug": "bv-treatment-online",
+      "label": "Bacterial Vaginosis"
+    },
+    {
+      "slug": "yeast-infection-treatment-online",
+      "label": "Yeast Infection"
+    },
+    {
+      "slug": "chlamydia-treatment-online",
+      "label": "Chlamydia Treatment"
+    },
+    {
+      "slug": "genital-herpes-treatment-online",
+      "label": "Genital Herpes"
+    },
+    {
+      "slug": "uti-treatment-online",
+      "label": "UTI Treatment"
+    },
+    {
+      "slug": "sinus-infection-treatment-online",
+      "label": "Sinus Infection"
+    },
+    {
+      "slug": "sore-throat-treatment-online",
+      "label": "Sore Throat"
+    },
+    {
+      "slug": "pink-eye-treatment-online",
+      "label": "Pink Eye"
+    },
+    {
+      "slug": "cold-sore-treatment-online",
+      "label": "Cold Sore"
+    },
+    {
+      "slug": "asthma-refills-online",
+      "label": "Asthma Refills"
+    }
   ],
-
   "cityBlock": {
     "title": "Adults We Serve Across {state}",
     "text": "TeleDirectMD evaluates adults located throughout {state}, including {citiesExtended}. Whether you are searching for online trichomoniasis treatment in {city1}, STI care in {city2}, metronidazole prescription online in {city3}, or telehealth trichomoniasis treatment anywhere else in {state}, the same telehealth eligibility and safety rules apply."
   },
-
   "icd10Codes": [
-    { "code": "A59.00", "description": "Urogenital trichomoniasis, unspecified" },
-    { "code": "A59.01", "description": "Trichomonal vulvovaginitis" },
-    { "code": "A59.02", "description": "Trichomonal prostatitis" },
-    { "code": "A59.03", "description": "Trichomonal cystitis and urethritis" },
-    { "code": "A59.9", "description": "Trichomoniasis, unspecified" }
+    {
+      "code": "A59.00",
+      "description": "Urogenital trichomoniasis, unspecified"
+    },
+    {
+      "code": "A59.01",
+      "description": "Trichomonal vulvovaginitis"
+    },
+    {
+      "code": "A59.02",
+      "description": "Trichomonal prostatitis"
+    },
+    {
+      "code": "A59.03",
+      "description": "Trichomonal cystitis and urethritis"
+    },
+    {
+      "code": "A59.9",
+      "description": "Trichomoniasis, unspecified"
+    }
   ],
-
   "jsonLd": {
     "conditionName": "Trichomoniasis",
-    "conditionAlternateNames": ["Trichomonas vaginalis infection", "Trich", "T. vaginalis infection", "Trichomonal vaginitis"],
+    "conditionAlternateNames": [
+      "Trichomonas vaginalis infection",
+      "Trich",
+      "T. vaginalis infection",
+      "Trichomonal vaginitis"
+    ],
     "conditionDescription": "Trichomoniasis is the most common non-viral sexually transmitted infection in the United States, caused by the protozoan Trichomonas vaginalis. TeleDirectMD evaluates adult trichomoniasis by video visit with red-flag screening for PID, pregnancy, and concurrent infections, CDC 2021 guideline-based antibiotic prescriptions (metronidazole or tinidazole), partner treatment guidance, co-testing recommendations, and clear rules for when in-person care is needed.",
     "primaryIcd10": "A59.00",
     "anatomy": "Genitourinary tract",
-    "symptoms": ["Frothy vaginal discharge with odor", "Vaginal itching or burning", "Dyspareunia", "Dysuria", "Urethral discharge in men", "Often asymptomatic"],
+    "symptoms": [
+      "Frothy vaginal discharge with odor",
+      "Vaginal itching or burning",
+      "Dyspareunia",
+      "Dysuria",
+      "Urethral discharge in men",
+      "Often asymptomatic"
+    ],
     "riskFactors": [
       "Multiple or new sexual partners",
       "History of prior STIs",
@@ -577,8 +755,14 @@
     ],
     "epidemiology": "Trichomoniasis is the most common non-viral STI worldwide, with an estimated 156 million new cases globally in 2020. In the United States, T. vaginalis infection rates are higher than those of gonorrhea and chlamydia combined. Most infected people, especially men, are asymptomatic.",
     "drugs": [
-      { "name": "Metronidazole", "id": "metronidazole" },
-      { "name": "Tinidazole", "id": "tinidazole" }
+      {
+        "name": "Metronidazole",
+        "id": "metronidazole"
+      },
+      {
+        "name": "Tinidazole",
+        "id": "tinidazole"
+      }
     ],
     "treatments": [
       "Metronidazole 500 mg twice daily for 7 days (preferred for women per 2021 CDC)",
@@ -593,11 +777,31 @@
       "Clinical symptom review and red-flag screening",
       "Co-testing for HIV, gonorrhea, chlamydia, and syphilis"
     ],
-    "specialties": ["Family Medicine", "Telemedicine", "Infectious Disease", "OB/GYN"],
+    "specialties": [
+      "Family Medicine",
+      "Telemedicine",
+      "Infectious Disease",
+      "OB/GYN"
+    ],
     "guidelines": [
-      { "name": "CDC STI Treatment Guidelines 2021 — Trichomoniasis", "url": "https://www.cdc.gov/std/treatment-guidelines/trichomoniasis.htm", "publisher": "Centers for Disease Control and Prevention", "id": "cdc-trichomoniasis" },
-      { "name": "WHO Recommendations for the Treatment of Trichomonas vaginalis (2024)", "url": "https://www.who.int/publications/i/item/9789240096370", "publisher": "World Health Organization", "id": "who-trich-2024" },
-      { "name": "Trichomoniasis — StatPearls", "url": "https://www.ncbi.nlm.nih.gov/books/NBK534826/", "publisher": "StatPearls Publishing / NCBI", "id": "statpearls-trich" }
+      {
+        "name": "CDC STI Treatment Guidelines 2021 — Trichomoniasis",
+        "url": "https://www.cdc.gov/std/treatment-guidelines/trichomoniasis.htm",
+        "publisher": "Centers for Disease Control and Prevention",
+        "id": "cdc-trichomoniasis"
+      },
+      {
+        "name": "WHO Recommendations for the Treatment of Trichomonas vaginalis (2024)",
+        "url": "https://www.who.int/publications/i/item/9789240096370",
+        "publisher": "World Health Organization",
+        "id": "who-trich-2024"
+      },
+      {
+        "name": "Trichomoniasis — StatPearls",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK534826/",
+        "publisher": "StatPearls Publishing / NCBI",
+        "id": "statpearls-trich"
+      }
     ],
     "knowsAbout": [
       "Trichomoniasis treatment",
@@ -611,5 +815,7 @@
     ],
     "serviceDescription": "Secure video visit for {state} adults with trichomoniasis test results or compatible symptoms, including red-flag screening, CDC 2021 guideline-based antibiotic prescriptions, partner treatment guidance, and co-testing recommendations.",
     "webpageDescription": "{state} trichomoniasis treatment by secure MD video visit for adults. Evidence-based evaluation based on positive test results or compatible clinical presentation, red-flag screening for PID and pregnancy, metronidazole or tinidazole prescriptions when appropriate, partner notification guidance, and clear rules for when in-person care is needed."
-  }
+  },
+  "guidelineSource": "cdcSti",
+  "conditionType": "treatment"
 }

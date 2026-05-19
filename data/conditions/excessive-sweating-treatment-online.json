@@ -2,20 +2,34 @@
   "conditionName": "Excessive Sweating Treatment",
   "conditionShort": "Excessive Sweating",
   "conditionSlug": "excessive-sweating-treatment-online",
-  "pageTitle": "Excessive Sweating Treatment Online in {state} | Hyperhidrosis MD Video Visit | TeleDirectMD",
+  "pageTitle": "Excessive Sweating Online Treatment in {state} | TeleDirectMD",
   "metaDescription": "Evidence-based excessive sweating (hyperhidrosis) treatment for {state} adults by secure video visit. Red-flag screening for secondary causes, oral glycopyrrolate and topical prescriptions when clinically appropriate. Self pay option starting at $49. Insurance is not required.",
   "ogImageAlt": "Excessive sweating treatment in {state} by TeleDirectMD",
-
   "hero": {
     "h1": "Excessive Sweating Treatment in {state} (Primary Focal Hyperhidrosis)",
     "subtitle": "{state} adult care by secure video visit, self pay option starting at $49, MD-only, insurance is not required.",
     "introParagraph": "Excessive sweating, medically known as hyperhidrosis, is a condition in which the body produces sweat far beyond what is needed for temperature regulation. Primary focal hyperhidrosis affects the axillae (underarms), palms, soles, and face in a bilateral and symmetric pattern, typically beginning in adolescence or young adulthood. It affects approximately 3 to 5 percent of the US population and significantly impacts quality of life, social interactions, and daily functioning. AAFP and International Hyperhidrosis Society guidelines emphasize a stepwise approach starting with topical agents, escalating to oral medications, and referring for procedural treatments when needed. TeleDirectMD uses a safety-first telehealth approach that screens for red flags including generalized sweating, night sweats with weight loss, new-onset sweating in older adults, unilateral sweating, and signs of secondary causes such as hyperthyroidism, diabetes, menopause, medications, or malignancy before determining whether treatment by video visit is appropriate. If the history supports primary focal hyperhidrosis without red flags, guideline-based treatment with topical aluminum chloride, oral glycopyrrolate, or other anticholinergic agents may be prescribed by video, while adults with suspected secondary hyperhidrosis, generalized sweating, or need for procedural treatments such as Botox, iontophoresis, or miraDry are directed to in-person or specialist care. This page is for adults located in {state}, including {cities}.",
     "tocLinks": [
-      { "href": "eligibility-checklist", "label": "Eligibility checklist" },
-      { "href": "decision-guide", "label": "Decision guide" },
-      { "href": "treatment-options", "label": "Treatment options" },
-      { "href": "faq", "label": "FAQs" },
-      { "href": "references", "label": "References" }
+      {
+        "href": "eligibility-checklist",
+        "label": "Eligibility checklist"
+      },
+      {
+        "href": "decision-guide",
+        "label": "Decision guide"
+      },
+      {
+        "href": "treatment-options",
+        "label": "Treatment options"
+      },
+      {
+        "href": "faq",
+        "label": "FAQs"
+      },
+      {
+        "href": "references",
+        "label": "References"
+      }
     ],
     "benefits": [
       "Self pay option starting at $49",
@@ -35,7 +49,6 @@
     },
     "icd10Display": "R61, L74.510 (final coding depends on clinical details)"
   },
-
   "eligibility": {
     "sectionTitle": "Excessive Sweating Telehealth Eligibility Checklist for {state}",
     "introText": "You are likely eligible for a TeleDirectMD video visit if ALL of these are true:",
@@ -60,7 +73,6 @@
     ],
     "notEligibleDisclaimer": "If you have red-flag symptoms such as night sweats with weight loss, new-onset generalized sweating, or suspected endocrine disorder, seek in-person evaluation. TeleDirectMD is not appropriate for complex or secondary hyperhidrosis."
   },
-
   "howItWorks": {
     "sectionTitle": "How Online Excessive Sweating Treatment Works in {state}",
     "steps": [
@@ -82,7 +94,6 @@
       }
     ]
   },
-
   "telehealthRegulations": {
     "sectionTitle": "{state} Telehealth Regulations for Online Excessive Sweating Care",
     "paragraphs": [
@@ -90,7 +101,6 @@
       "Location matters: you must be physically in {state} during the visit. Insurance is not required. TeleDirectMD does not prescribe controlled substances."
     ]
   },
-
   "comparisonTable": {
     "sectionTitle": "TeleDirectMD vs Other Care Options for Excessive Sweating in {state}",
     "intro": "Here is how TeleDirectMD compares to common settings for adult excessive sweating care in {state}:",
@@ -138,7 +148,6 @@
     ],
     "bottomLine": "TeleDirectMD is a strong fit for primary focal hyperhidrosis evaluation and oral medication management, with a safety-first approach that screens for secondary causes and provides clear referral guidance when procedural treatments are needed."
   },
-
   "decisionGuide": {
     "sectionTitle": "Should I Use TeleDirectMD for Excessive Sweating in {state}? Decision Guide",
     "steps": [
@@ -185,7 +194,6 @@
       }
     ]
   },
-
   "pricing": {
     "sectionTitle": "What Does Excessive Sweating Treatment Cost in {state}?",
     "subtitle": "Transparent options. Insurance is not required.",
@@ -200,15 +208,34 @@
       "Clear follow-up steps"
     ],
     "comparisonBars": [
-      { "name": "TeleDirectMD", "value": "$49", "width": 12, "isTdmd": true },
-      { "name": "Primary Care", "value": "$100 to $250+", "width": 45, "isTdmd": false },
-      { "name": "Urgent Care", "value": "$150 to $300+", "width": 55, "isTdmd": false },
-      { "name": "Emergency Room", "value": "$500 to $3,000+", "width": 100, "isTdmd": false }
+      {
+        "name": "TeleDirectMD",
+        "value": "$49",
+        "width": 12,
+        "isTdmd": true
+      },
+      {
+        "name": "Primary Care",
+        "value": "$100 to $250+",
+        "width": 45,
+        "isTdmd": false
+      },
+      {
+        "name": "Urgent Care",
+        "value": "$150 to $300+",
+        "width": 55,
+        "isTdmd": false
+      },
+      {
+        "name": "Emergency Room",
+        "value": "$500 to $3,000+",
+        "width": 100,
+        "isTdmd": false
+      }
     ],
     "footnote": "Prescription costs at your pharmacy are separate and vary by medication and pharmacy.",
     "noHiddenFees": "No hidden fees. If medication is not clinically appropriate, you still receive a complete evaluation, guidance, and clear instructions on what level of care you need next."
   },
-
   "whatIsCondition": {
     "sectionTitle": "What Is Hyperhidrosis (Excessive Sweating)?",
     "paragraphs": [
@@ -217,35 +244,87 @@
       "TeleDirectMD focuses on primary focal hyperhidrosis appropriate for telehealth evaluation and oral medication management, with careful screening to direct secondary hyperhidrosis, generalized sweating, and cases needing procedural treatments such as Botox, iontophoresis, or miraDry to in-person or specialist care."
     ]
   },
-
   "causesAndRiskFactors": {
     "sectionTitle": "Causes and Risk Factors",
     "intro": "Primary focal hyperhidrosis results from overactivity of eccrine sweat glands in specific body regions, driven by the sympathetic nervous system. The exact cause is not fully understood, but genetic predisposition plays a significant role — up to two-thirds of patients have a family member with the same condition. Understanding the distinction between primary and secondary hyperhidrosis is critical for safe telehealth management.",
     "items": [
-      { "label": "Genetic predisposition:", "text": "family history is present in up to 65 percent of patients with primary focal hyperhidrosis, suggesting autosomal dominant inheritance with variable penetrance" },
-      { "label": "Sympathetic nervous system overactivity:", "text": "the eccrine sweat glands in affected areas receive exaggerated signals from the sympathetic nervous system, producing sweat far beyond thermoregulatory needs" },
-      { "label": "Emotional and thermal triggers:", "text": "stress, anxiety, heat, and physical activity can worsen primary hyperhidrosis, though sweating also occurs without obvious triggers" },
-      { "label": "Medications:", "text": "SSRIs, opioids, hormonal agents, and other medications can cause secondary sweating as a side effect" },
-      { "label": "Underlying medical conditions (secondary hyperhidrosis):", "text": "hyperthyroidism, diabetes, menopause, infections, lymphoma, and other malignancies can cause generalized or new-onset sweating that requires in-person workup" }
+      {
+        "label": "Genetic predisposition:",
+        "text": "family history is present in up to 65 percent of patients with primary focal hyperhidrosis, suggesting autosomal dominant inheritance with variable penetrance"
+      },
+      {
+        "label": "Sympathetic nervous system overactivity:",
+        "text": "the eccrine sweat glands in affected areas receive exaggerated signals from the sympathetic nervous system, producing sweat far beyond thermoregulatory needs"
+      },
+      {
+        "label": "Emotional and thermal triggers:",
+        "text": "stress, anxiety, heat, and physical activity can worsen primary hyperhidrosis, though sweating also occurs without obvious triggers"
+      },
+      {
+        "label": "Medications:",
+        "text": "SSRIs, opioids, hormonal agents, and other medications can cause secondary sweating as a side effect"
+      },
+      {
+        "label": "Underlying medical conditions (secondary hyperhidrosis):",
+        "text": "hyperthyroidism, diabetes, menopause, infections, lymphoma, and other malignancies can cause generalized or new-onset sweating that requires in-person workup"
+      }
     ],
     "closing": "Not every case of excessive sweating is primary focal hyperhidrosis. Secondary hyperhidrosis caused by hyperthyroidism, diabetes, menopause, medications, infections, or malignancy requires a different evaluation approach and often needs lab testing. Night sweats with weight loss are a red flag for malignancy. TeleDirectMD screens for secondary causes before prescribing treatment and directs suspected secondary cases to in-person evaluation."
   },
-
   "symptomsAndRedFlags": {
     "sectionTitle": "Symptoms and Red Flags for Excessive Sweating in {state}",
     "intro": "Use this table to understand which sweating patterns fit primary focal hyperhidrosis and which suggest a need for in-person evaluation to rule out secondary causes.",
-    "headers": ["Symptom or situation", "What it suggests", "Telehealth appropriate?", "Red flag requiring urgent in-person care"],
+    "headers": [
+      "Symptom or situation",
+      "What it suggests",
+      "Telehealth appropriate?",
+      "Red flag requiring urgent in-person care"
+    ],
     "rows": [
-      ["Excessive sweating in underarms, palms, soles, or face that is bilateral and symmetric", "Primary focal hyperhidrosis", "Often yes", "Rarely a red flag alone unless new-onset in older adults"],
-      ["Sweating present for 6 or more months with onset before age 25", "Consistent with primary focal hyperhidrosis", "Often yes", "Not typically a red flag"],
-      ["Sweating that interferes with daily activities, work, or social interactions at least once per week", "Moderate to severe hyperhidrosis warranting treatment", "Often yes", "Not typically a red flag alone"],
-      ["Generalized sweating not limited to specific body areas", "Secondary hyperhidrosis — possible systemic cause", "No", "In-person evaluation for thyroid, metabolic, infectious, or malignant causes"],
-      ["Night sweats with unexplained weight loss, fever, or fatigue", "Possible malignancy (lymphoma), tuberculosis, or systemic infection", "No", "Urgent in-person evaluation required"],
-      ["Sweating that is clearly one-sided or asymmetric", "Possible neurological cause", "No", "Neurological evaluation recommended"],
-      ["New-onset excessive sweating in adults over 40 without prior history", "Secondary hyperhidrosis more likely — needs workup", "Rarely", "In-person evaluation with lab testing for thyroid, glucose, and other secondary causes"]
+      [
+        "Excessive sweating in underarms, palms, soles, or face that is bilateral and symmetric",
+        "Primary focal hyperhidrosis",
+        "Often yes",
+        "Rarely a red flag alone unless new-onset in older adults"
+      ],
+      [
+        "Sweating present for 6 or more months with onset before age 25",
+        "Consistent with primary focal hyperhidrosis",
+        "Often yes",
+        "Not typically a red flag"
+      ],
+      [
+        "Sweating that interferes with daily activities, work, or social interactions at least once per week",
+        "Moderate to severe hyperhidrosis warranting treatment",
+        "Often yes",
+        "Not typically a red flag alone"
+      ],
+      [
+        "Generalized sweating not limited to specific body areas",
+        "Secondary hyperhidrosis — possible systemic cause",
+        "No",
+        "In-person evaluation for thyroid, metabolic, infectious, or malignant causes"
+      ],
+      [
+        "Night sweats with unexplained weight loss, fever, or fatigue",
+        "Possible malignancy (lymphoma), tuberculosis, or systemic infection",
+        "No",
+        "Urgent in-person evaluation required"
+      ],
+      [
+        "Sweating that is clearly one-sided or asymmetric",
+        "Possible neurological cause",
+        "No",
+        "Neurological evaluation recommended"
+      ],
+      [
+        "New-onset excessive sweating in adults over 40 without prior history",
+        "Secondary hyperhidrosis more likely — needs workup",
+        "Rarely",
+        "In-person evaluation with lab testing for thyroid, glucose, and other secondary causes"
+      ]
     ]
   },
-
   "differentialDiagnosis": {
     "sectionTitle": "Differential Diagnosis: Primary vs Secondary Hyperhidrosis",
     "intro": "Distinguishing primary focal hyperhidrosis from secondary causes is the most important step in telehealth evaluation. Primary hyperhidrosis is a diagnosis of exclusion — secondary causes must be considered and ruled out before attributing excessive sweating to a primary condition. TeleDirectMD focuses on identifying classic primary focal patterns and directing suspected secondary cases to in-person evaluation with appropriate lab testing.",
@@ -282,7 +361,6 @@
     ],
     "closing": "If your sweating pattern does not match primary focal hyperhidrosis or any red flags are present, TeleDirectMD will direct you to in-person evaluation for lab testing, imaging, or specialist referral."
   },
-
   "telehealthEligibility": {
     "sectionTitle": "When Is a Video Visit Appropriate?",
     "appropriate": {
@@ -310,7 +388,6 @@
       "disclaimer": "If any red-flag symptoms are present, seek in-person evaluation. TeleDirectMD is not appropriate for suspected secondary hyperhidrosis or procedural treatments."
     }
   },
-
   "treatmentOptions": {
     "sectionTitle": "Treatment Options",
     "intro": "Primary focal hyperhidrosis is treated with a stepwise approach: topical agents first, then oral medications, then procedural treatments if needed. AAFP and International Hyperhidrosis Society guidelines recommend starting with topical aluminum chloride, escalating to oral anticholinergic agents such as glycopyrrolate when topical therapy is insufficient, and referring for Botox, iontophoresis, or miraDry when oral medications are not adequate or not tolerated.",
@@ -339,21 +416,49 @@
       "Night sweats with weight loss or systemic symptoms requiring malignancy workup"
     ]
   },
-
   "medications": {
     "sectionTitle": "Common Medication Options",
     "intro": "These are common examples for primary focal hyperhidrosis. The actual medication, dose, and duration are determined by the MD after reviewing your sweating pattern, affected areas, severity, prior treatments, medications, allergies, and red-flag screening for secondary causes.",
-    "headers": ["Medication", "Typical dose", "Duration", "Key considerations"],
+    "headers": [
+      "Medication",
+      "Typical dose",
+      "Duration",
+      "Key considerations"
+    ],
     "rows": [
-      ["Glycopyrrolate (Robinul)", "1-2 mg by mouth 2-3 times daily", "Ongoing with periodic reassessment", "Most commonly prescribed oral agent for hyperhidrosis. Not a controlled substance. Take on empty stomach for best absorption. Anticholinergic side effects include dry mouth, blurred vision, constipation, and urinary retention. Maximum 8 mg per day. Avoid in glaucoma, GI obstruction, myasthenia gravis, or urinary retention."],
-      ["Oxybutynin", "2.5-10 mg by mouth daily", "Ongoing with periodic reassessment", "Alternative oral anticholinergic. Approximately 75 percent of patients report improvement, though 75 percent also experience dry mouth. May be better tolerated at lower doses."],
-      ["Aluminum chloride 20% (Drysol)", "Apply to dry skin at bedtime for 6-8 hours", "Nightly until improvement, then 1-2 times weekly", "First-line topical treatment. Apply to completely dry skin. Wash off in the morning. May cause skin irritation. Use low-potency hydrocortisone cream if irritation develops."],
-      ["Topical glycopyrrolate", "Apply to affected areas once daily", "Ongoing with periodic reassessment", "First-line topical option for craniofacial sweating. Less systemic absorption than oral form. May cause local skin irritation."],
-      ["Glycopyrronium cloth (Qbrexza)", "Apply to axillae once daily using pre-moistened cloth", "Ongoing", "FDA-approved topical anticholinergic for primary axillary hyperhidrosis. May cause dry mouth, urinary hesitancy, blurred vision, and mydriasis. Avoid eye contact."]
+      [
+        "Glycopyrrolate (Robinul)",
+        "1-2 mg by mouth 2-3 times daily",
+        "Ongoing with periodic reassessment",
+        "Most commonly prescribed oral agent for hyperhidrosis. Not a controlled substance. Take on empty stomach for best absorption. Anticholinergic side effects include dry mouth, blurred vision, constipation, and urinary retention. Maximum 8 mg per day. Avoid in glaucoma, GI obstruction, myasthenia gravis, or urinary retention."
+      ],
+      [
+        "Oxybutynin",
+        "2.5-10 mg by mouth daily",
+        "Ongoing with periodic reassessment",
+        "Alternative oral anticholinergic. Approximately 75 percent of patients report improvement, though 75 percent also experience dry mouth. May be better tolerated at lower doses."
+      ],
+      [
+        "Aluminum chloride 20% (Drysol)",
+        "Apply to dry skin at bedtime for 6-8 hours",
+        "Nightly until improvement, then 1-2 times weekly",
+        "First-line topical treatment. Apply to completely dry skin. Wash off in the morning. May cause skin irritation. Use low-potency hydrocortisone cream if irritation develops."
+      ],
+      [
+        "Topical glycopyrrolate",
+        "Apply to affected areas once daily",
+        "Ongoing with periodic reassessment",
+        "First-line topical option for craniofacial sweating. Less systemic absorption than oral form. May cause local skin irritation."
+      ],
+      [
+        "Glycopyrronium cloth (Qbrexza)",
+        "Apply to axillae once daily using pre-moistened cloth",
+        "Ongoing",
+        "FDA-approved topical anticholinergic for primary axillary hyperhidrosis. May cause dry mouth, urinary hesitancy, blurred vision, and mydriasis. Avoid eye contact."
+      ]
     ],
     "note": "Example regimens only. The actual medication, dosing, and duration are determined by the MD after reviewing your symptoms, severity, prior treatments, medications, allergies, and red flags. TeleDirectMD does not prescribe controlled substances. Glycopyrrolate is not a controlled substance."
   },
-
   "homeCare": {
     "sectionTitle": "Home Care, Lifestyle Management, and Follow-up",
     "whatToDoNow": {
@@ -387,7 +492,6 @@
       ]
     }
   },
-
   "whenNotToUse": {
     "sectionTitle": "When Not to Use TeleDirectMD for Excessive Sweating in {state}",
     "intro": "TeleDirectMD is designed for primary focal hyperhidrosis evaluation and oral medication management. We are direct about when telehealth is not appropriate.",
@@ -407,15 +511,29 @@
     "alternatives": {
       "title": "Alternative Care Options",
       "items": [
-        { "label": "Emergency room:", "text": "profuse sweating with chest pain, signs of thyroid storm, or acute systemic illness" },
-        { "label": "Urgent care:", "text": "acute sweating with fever or concern for acute infection or endocrine emergency" },
-        { "label": "Dermatology:", "text": "Botox injections, iontophoresis, miraDry, treatment-resistant hyperhidrosis, or need for specialized procedural evaluation" },
-        { "label": "Primary care:", "text": "comprehensive workup for secondary causes including thyroid function tests, glucose testing, and cancer screening when appropriate" },
-        { "label": "Endocrinology:", "text": "suspected thyroid disorder, adrenal disorder, or other endocrine causes of sweating" }
+        {
+          "label": "Emergency room:",
+          "text": "profuse sweating with chest pain, signs of thyroid storm, or acute systemic illness"
+        },
+        {
+          "label": "Urgent care:",
+          "text": "acute sweating with fever or concern for acute infection or endocrine emergency"
+        },
+        {
+          "label": "Dermatology:",
+          "text": "Botox injections, iontophoresis, miraDry, treatment-resistant hyperhidrosis, or need for specialized procedural evaluation"
+        },
+        {
+          "label": "Primary care:",
+          "text": "comprehensive workup for secondary causes including thyroid function tests, glucose testing, and cancer screening when appropriate"
+        },
+        {
+          "label": "Endocrinology:",
+          "text": "suspected thyroid disorder, adrenal disorder, or other endocrine causes of sweating"
+        }
       ]
     }
   },
-
   "faq": {
     "sectionTitle": "Excessive Sweating Treatment FAQs for {state}",
     "items": [
@@ -481,15 +599,28 @@
       "text": "Insurance is not required. Adult-only video visits. MD-only care. Safety-first triage, treatment guidance, and prescriptions only when appropriate."
     }
   },
-
   "references": [
-    { "text": "AAFP — Hyperhidrosis: Management Options (American Academy of Family Physicians, 2018)", "url": "https://www.aafp.org/pubs/afp/issues/2018/0601/p729.html" },
-    { "text": "Mayo Clinic — Hyperhidrosis: Diagnosis and Treatment", "url": "https://www.mayoclinic.org/diseases-conditions/hyperhidrosis/diagnosis-treatment/drc-20367173" },
-    { "text": "International Hyperhidrosis Society — Clinical Guidelines for Hyperhidrosis Treatment", "url": "https://www.sweathelp.org/treatments-hcp/clinical-guidelines.html" },
-    { "text": "Nawrocki S, Cha J. The etiology, diagnosis, and management of hyperhidrosis: A comprehensive review. J Am Acad Dermatol. 2019;81(3):669-680.", "url": "https://www.jaad.org/article/S0190-9622(18)33052-7/fulltext" },
-    { "text": "Hyperhidrosis, StatPearls (2025)", "url": "https://www.ncbi.nlm.nih.gov/books/NBK459227/" }
+    {
+      "text": "AAFP — Hyperhidrosis: Management Options (American Academy of Family Physicians, 2018)",
+      "url": "https://www.aafp.org/pubs/afp/issues/2018/0601/p729.html"
+    },
+    {
+      "text": "Mayo Clinic — Hyperhidrosis: Diagnosis and Treatment",
+      "url": "https://www.mayoclinic.org/diseases-conditions/hyperhidrosis/diagnosis-treatment/drc-20367173"
+    },
+    {
+      "text": "International Hyperhidrosis Society — Clinical Guidelines for Hyperhidrosis Treatment",
+      "url": "https://www.sweathelp.org/treatments-hcp/clinical-guidelines.html"
+    },
+    {
+      "text": "Nawrocki S, Cha J. The etiology, diagnosis, and management of hyperhidrosis: A comprehensive review. J Am Acad Dermatol. 2019;81(3):669-680.",
+      "url": "https://www.jaad.org/article/S0190-9622(18)33052-7/fulltext"
+    },
+    {
+      "text": "Hyperhidrosis, StatPearls (2025)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK459227/"
+    }
   ],
-
   "disclaimer": {
     "sectionTitle": "TeleDirectMD Telehealth Disclaimer",
     "paragraphs": [
@@ -498,7 +629,6 @@
       "Online excessive sweating treatment in {state}. Hyperhidrosis prescription online. Glycopyrrolate treatment by video visit."
     ]
   },
-
   "relatedConditions": [
     {
       "slug": "acne-treatment-online",
@@ -521,37 +651,80 @@
       "description": "Another common condition well-suited for ongoing telehealth management with oral medications"
     }
   ],
-
   "inlineLinks": [
-    { "slug": "acne-treatment-online", "label": "Acne" },
-    { "slug": "eczema-treatment-online", "label": "Eczema" },
-    { "slug": "rosacea-treatment-online", "label": "Rosacea" },
-    { "slug": "seasonal-allergies-treatment-online", "label": "Seasonal Allergies" },
-    { "slug": "asthma-refills-online", "label": "Asthma Refills" },
-    { "slug": "sinus-infection-treatment-online", "label": "Sinus Infection" },
-    { "slug": "uti-treatment-online", "label": "UTI" },
-    { "slug": "pink-eye-treatment-online", "label": "Pink Eye" },
-    { "slug": "cellulitis-treatment-online", "label": "Cellulitis" },
-    { "slug": "shingles-treatment-online", "label": "Shingles" }
+    {
+      "slug": "acne-treatment-online",
+      "label": "Acne"
+    },
+    {
+      "slug": "eczema-treatment-online",
+      "label": "Eczema"
+    },
+    {
+      "slug": "rosacea-treatment-online",
+      "label": "Rosacea"
+    },
+    {
+      "slug": "seasonal-allergies-treatment-online",
+      "label": "Seasonal Allergies"
+    },
+    {
+      "slug": "asthma-refills-online",
+      "label": "Asthma Refills"
+    },
+    {
+      "slug": "sinus-infection-treatment-online",
+      "label": "Sinus Infection"
+    },
+    {
+      "slug": "uti-treatment-online",
+      "label": "UTI"
+    },
+    {
+      "slug": "pink-eye-treatment-online",
+      "label": "Pink Eye"
+    },
+    {
+      "slug": "cellulitis-treatment-online",
+      "label": "Cellulitis"
+    },
+    {
+      "slug": "shingles-treatment-online",
+      "label": "Shingles"
+    }
   ],
-
   "cityBlock": {
     "title": "Adults We Serve Across {state}",
     "text": "TeleDirectMD evaluates adults located throughout {state}, including {citiesExtended}. Whether you are searching for online excessive sweating treatment in {city1}, hyperhidrosis prescription online in {city2}, glycopyrrolate telehealth in {city3}, or telehealth excessive sweating evaluation anywhere else in {state}, the same telehealth eligibility and safety rules apply."
   },
-
   "icd10Codes": [
-    { "code": "R61", "description": "Generalized hyperhidrosis" },
-    { "code": "L74.510", "description": "Primary focal hyperhidrosis, axillae" }
+    {
+      "code": "R61",
+      "description": "Generalized hyperhidrosis"
+    },
+    {
+      "code": "L74.510",
+      "description": "Primary focal hyperhidrosis, axillae"
+    }
   ],
-
   "jsonLd": {
     "conditionName": "Hyperhidrosis",
-    "conditionAlternateNames": ["Excessive sweating", "Primary focal hyperhidrosis", "Axillary hyperhidrosis", "Palmar hyperhidrosis"],
+    "conditionAlternateNames": [
+      "Excessive sweating",
+      "Primary focal hyperhidrosis",
+      "Axillary hyperhidrosis",
+      "Palmar hyperhidrosis"
+    ],
     "conditionDescription": "Hyperhidrosis is a condition characterized by excessive sweating beyond what is needed for thermoregulation. TeleDirectMD evaluates primary focal hyperhidrosis by video visit with safety-first screening for secondary causes, guideline-based treatment with oral glycopyrrolate or topical agents when clinically appropriate, and clear referral guidance for Botox, iontophoresis, or miraDry when in-person care is needed.",
     "primaryIcd10": "R61",
     "anatomy": "Skin (eccrine sweat glands)",
-    "symptoms": ["Excessive axillary sweating", "Excessive palmar sweating", "Excessive plantar sweating", "Craniofacial sweating", "Bilateral symmetric sweating pattern"],
+    "symptoms": [
+      "Excessive axillary sweating",
+      "Excessive palmar sweating",
+      "Excessive plantar sweating",
+      "Craniofacial sweating",
+      "Bilateral symmetric sweating pattern"
+    ],
     "riskFactors": [
       "Family history of hyperhidrosis",
       "Onset in adolescence or young adulthood",
@@ -566,10 +739,22 @@
     ],
     "epidemiology": "Hyperhidrosis affects approximately 3 to 5 percent of the US population. Many patients never seek treatment despite significant impact on quality of life.",
     "drugs": [
-      { "name": "Glycopyrrolate (Robinul)", "id": "glycopyrrolate" },
-      { "name": "Oxybutynin", "id": "oxybutynin" },
-      { "name": "Aluminum chloride 20% (Drysol)", "id": "aluminum-chloride" },
-      { "name": "Glycopyrronium cloth (Qbrexza)", "id": "qbrexza" }
+      {
+        "name": "Glycopyrrolate (Robinul)",
+        "id": "glycopyrrolate"
+      },
+      {
+        "name": "Oxybutynin",
+        "id": "oxybutynin"
+      },
+      {
+        "name": "Aluminum chloride 20% (Drysol)",
+        "id": "aluminum-chloride"
+      },
+      {
+        "name": "Glycopyrronium cloth (Qbrexza)",
+        "id": "qbrexza"
+      }
     ],
     "treatments": [
       "Topical aluminum chloride application",
@@ -584,11 +769,30 @@
       "Hyperhidrosis Disease Severity Scale (HDSS) assessment",
       "Thyroid function tests when secondary cause suspected (in-person)"
     ],
-    "specialties": ["Family Medicine", "Telemedicine", "Dermatology"],
+    "specialties": [
+      "Family Medicine",
+      "Telemedicine",
+      "Dermatology"
+    ],
     "guidelines": [
-      { "name": "AAFP Hyperhidrosis Management Options", "url": "https://www.aafp.org/pubs/afp/issues/2018/0601/p729.html", "publisher": "American Academy of Family Physicians", "id": "aafp" },
-      { "name": "Mayo Clinic Hyperhidrosis Diagnosis and Treatment", "url": "https://www.mayoclinic.org/diseases-conditions/hyperhidrosis/diagnosis-treatment/drc-20367173", "publisher": "Mayo Clinic", "id": "mayo" },
-      { "name": "International Hyperhidrosis Society Clinical Guidelines", "url": "https://www.sweathelp.org/treatments-hcp/clinical-guidelines.html", "publisher": "International Hyperhidrosis Society", "id": "ihs" }
+      {
+        "name": "AAFP Hyperhidrosis Management Options",
+        "url": "https://www.aafp.org/pubs/afp/issues/2018/0601/p729.html",
+        "publisher": "American Academy of Family Physicians",
+        "id": "aafp"
+      },
+      {
+        "name": "Mayo Clinic Hyperhidrosis Diagnosis and Treatment",
+        "url": "https://www.mayoclinic.org/diseases-conditions/hyperhidrosis/diagnosis-treatment/drc-20367173",
+        "publisher": "Mayo Clinic",
+        "id": "mayo"
+      },
+      {
+        "name": "International Hyperhidrosis Society Clinical Guidelines",
+        "url": "https://www.sweathelp.org/treatments-hcp/clinical-guidelines.html",
+        "publisher": "International Hyperhidrosis Society",
+        "id": "ihs"
+      }
     ],
     "knowsAbout": [
       "Hyperhidrosis treatment",
@@ -602,5 +806,7 @@
     ],
     "serviceDescription": "Secure video visit for {state} adults with excessive sweating symptoms, including red-flag screening for secondary causes, guideline-based treatment with oral glycopyrrolate or topical agents when clinically appropriate, and referral guidance for procedural treatments.",
     "webpageDescription": "{state} excessive sweating treatment by secure MD video visit for adults. Evidence-based evaluation of hyperhidrosis symptoms, secondary cause screening, guideline-based oral and topical treatment when appropriate, and clear rules for when in-person or specialist care is needed."
-  }
+  },
+  "guidelineSource": "aad",
+  "conditionType": "treatment"
 }

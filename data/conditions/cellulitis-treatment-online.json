@@ -2,20 +2,34 @@
   "conditionName": "Cellulitis Treatment",
   "conditionShort": "Cellulitis",
   "conditionSlug": "cellulitis-treatment-online",
-  "pageTitle": "Cellulitis Treatment Online in {state} | Skin Infection MD Video Visit | TeleDirectMD",
+  "pageTitle": "Cellulitis Online Treatment in {state} | TeleDirectMD",
   "metaDescription": "Evidence-based cellulitis treatment for {state} adults by secure video visit. Red-flag screening, antibiotic therapy, and prescriptions when clinically appropriate. Self pay option starting at $49. Insurance is not required.",
   "ogImageAlt": "Cellulitis treatment in {state} by TeleDirectMD",
-
   "hero": {
     "h1": "Cellulitis Treatment in {state} (Acute Bacterial Skin Infection)",
     "subtitle": "{state} adult care by secure video visit, self pay option starting at $49, MD-only, insurance is not required.",
     "introParagraph": "Cellulitis is an acute bacterial infection of the deeper layers of the skin and subcutaneous tissue, most commonly affecting the lower extremities. It presents with spreading redness, warmth, swelling, and tenderness that typically develops around a break in the skin such as a wound, ulcer, or area of cracked skin. Not every red, swollen area is cellulitis, and not every case of cellulitis is safe to manage remotely. The IDSA Practice Guidelines for the Diagnosis and Management of Skin and Soft Tissue Infections emphasize that mild, nonpurulent cellulitis without systemic signs can often be treated with oral antibiotics, while moderate to severe cases, rapidly spreading infection, facial involvement, or abscess formation require urgent in-person evaluation. TeleDirectMD uses a safety-first telehealth approach that screens for red flags including fever, rapid spread, facial or orbital involvement, streaking lymphangitis, abscess needing incision and drainage, and immunosuppression before determining whether treatment by video visit is appropriate. If the history and photos support mild, localized cellulitis without systemic signs, guideline-based oral antibiotic treatment may be reasonable by video, while adults with moderate to severe infection, failed outpatient therapy, or concerning features are directed to urgent in-person care. This page is for adults located in {state}, including {cities}.",
     "tocLinks": [
-      { "href": "eligibility-checklist", "label": "Eligibility checklist" },
-      { "href": "decision-guide", "label": "Decision guide" },
-      { "href": "treatment-options", "label": "Treatment options" },
-      { "href": "faq", "label": "FAQs" },
-      { "href": "references", "label": "References" }
+      {
+        "href": "eligibility-checklist",
+        "label": "Eligibility checklist"
+      },
+      {
+        "href": "decision-guide",
+        "label": "Decision guide"
+      },
+      {
+        "href": "treatment-options",
+        "label": "Treatment options"
+      },
+      {
+        "href": "faq",
+        "label": "FAQs"
+      },
+      {
+        "href": "references",
+        "label": "References"
+      }
     ],
     "benefits": [
       "Self pay option starting at $49",
@@ -35,7 +49,6 @@
     },
     "icd10Display": "L03.90, L03.115, L03.116 (final coding depends on clinical details)"
   },
-
   "eligibility": {
     "sectionTitle": "Cellulitis Telehealth Eligibility Checklist for {state}",
     "introText": "You are likely eligible for a TeleDirectMD video visit if ALL of these are true:",
@@ -63,7 +76,6 @@
     ],
     "notEligibleDisclaimer": "If you have red-flag symptoms, seek urgent in-person care or emergency care immediately. TeleDirectMD is not appropriate for complex, severe, or rapidly progressing skin infections."
   },
-
   "howItWorks": {
     "sectionTitle": "How Online Cellulitis Treatment Works in {state}",
     "steps": [
@@ -85,7 +97,6 @@
       }
     ]
   },
-
   "telehealthRegulations": {
     "sectionTitle": "{state} Telehealth Regulations for Online Cellulitis Care",
     "paragraphs": [
@@ -93,7 +104,6 @@
       "Location matters: you must be physically in {state} during the visit. Insurance is not required. TeleDirectMD does not prescribe controlled substances."
     ]
   },
-
   "comparisonTable": {
     "sectionTitle": "TeleDirectMD vs Other Care Options for Cellulitis in {state}",
     "intro": "Here is how TeleDirectMD compares to common settings for adult cellulitis care in {state}:",
@@ -141,7 +151,6 @@
     ],
     "bottomLine": "TeleDirectMD is a strong fit for mild, localized cellulitis without systemic signs, with a safety-first approach, photo-assisted evaluation, and direct MD care."
   },
-
   "decisionGuide": {
     "sectionTitle": "Should I Use TeleDirectMD for Cellulitis in {state}? Decision Guide",
     "steps": [
@@ -189,7 +198,6 @@
       }
     ]
   },
-
   "pricing": {
     "sectionTitle": "What Does Cellulitis Treatment Cost in {state}?",
     "subtitle": "Transparent options. Insurance is not required.",
@@ -203,15 +211,34 @@
       "Clear follow-up steps and limb elevation guidance"
     ],
     "comparisonBars": [
-      { "name": "TeleDirectMD", "value": "$49", "width": 12, "isTdmd": true },
-      { "name": "Primary Care", "value": "$100 to $250+", "width": 45, "isTdmd": false },
-      { "name": "Urgent Care", "value": "$150 to $300+", "width": 55, "isTdmd": false },
-      { "name": "Emergency Room", "value": "$500 to $3,000+", "width": 100, "isTdmd": false }
+      {
+        "name": "TeleDirectMD",
+        "value": "$49",
+        "width": 12,
+        "isTdmd": true
+      },
+      {
+        "name": "Primary Care",
+        "value": "$100 to $250+",
+        "width": 45,
+        "isTdmd": false
+      },
+      {
+        "name": "Urgent Care",
+        "value": "$150 to $300+",
+        "width": 55,
+        "isTdmd": false
+      },
+      {
+        "name": "Emergency Room",
+        "value": "$500 to $3,000+",
+        "width": 100,
+        "isTdmd": false
+      }
     ],
     "footnote": "Prescription costs at your pharmacy are separate and vary by medication and pharmacy.",
     "noHiddenFees": "No hidden fees. If medication is not clinically appropriate, you still receive a complete evaluation, guidance, and clear instructions on what level of care you need next."
   },
-
   "whatIsCondition": {
     "sectionTitle": "What Is Cellulitis?",
     "paragraphs": [
@@ -220,40 +247,111 @@
       "TeleDirectMD focuses on mild, localized cellulitis without systemic signs that is appropriate for telehealth evaluation, with careful screening to direct moderate to severe infections, abscesses needing drainage, and high-risk cases to in-person care."
     ]
   },
-
   "causesAndRiskFactors": {
     "sectionTitle": "Causes and Risk Factors",
     "intro": "Cellulitis develops when bacteria enter the deeper layers of skin through a portal of entry. Understanding risk factors helps determine whether a telehealth evaluation is appropriate or whether in-person care is needed for a more complex presentation.",
     "items": [
-      { "label": "Skin break or wound:", "text": "cuts, scrapes, surgical wounds, insect bites, animal bites, or puncture wounds provide bacteria a path into deeper tissue" },
-      { "label": "Chronic skin conditions:", "text": "eczema, psoriasis, dermatitis, and tinea pedis (athlete's foot) create cracks in the skin barrier that increase infection risk" },
-      { "label": "Lymphedema or chronic leg swelling:", "text": "impaired lymphatic drainage reduces the body's ability to clear bacteria and is a major risk factor for recurrent cellulitis" },
-      { "label": "Venous insufficiency:", "text": "chronic venous disease with stasis changes, edema, and skin breakdown significantly increases lower extremity cellulitis risk" },
-      { "label": "Diabetes:", "text": "impaired immune function and peripheral neuropathy increase susceptibility to skin infections and may delay recognition of symptoms" },
-      { "label": "Obesity:", "text": "associated with venous insufficiency, lymphedema, and skin fold moisture that promotes bacterial growth" },
-      { "label": "Immunosuppression:", "text": "conditions or medications that weaken the immune system increase the risk and severity of cellulitis and often require in-person evaluation" },
-      { "label": "Prior cellulitis:", "text": "history of previous cellulitis in the same area is one of the strongest risk factors for recurrence" }
+      {
+        "label": "Skin break or wound:",
+        "text": "cuts, scrapes, surgical wounds, insect bites, animal bites, or puncture wounds provide bacteria a path into deeper tissue"
+      },
+      {
+        "label": "Chronic skin conditions:",
+        "text": "eczema, psoriasis, dermatitis, and tinea pedis (athlete's foot) create cracks in the skin barrier that increase infection risk"
+      },
+      {
+        "label": "Lymphedema or chronic leg swelling:",
+        "text": "impaired lymphatic drainage reduces the body's ability to clear bacteria and is a major risk factor for recurrent cellulitis"
+      },
+      {
+        "label": "Venous insufficiency:",
+        "text": "chronic venous disease with stasis changes, edema, and skin breakdown significantly increases lower extremity cellulitis risk"
+      },
+      {
+        "label": "Diabetes:",
+        "text": "impaired immune function and peripheral neuropathy increase susceptibility to skin infections and may delay recognition of symptoms"
+      },
+      {
+        "label": "Obesity:",
+        "text": "associated with venous insufficiency, lymphedema, and skin fold moisture that promotes bacterial growth"
+      },
+      {
+        "label": "Immunosuppression:",
+        "text": "conditions or medications that weaken the immune system increase the risk and severity of cellulitis and often require in-person evaluation"
+      },
+      {
+        "label": "Prior cellulitis:",
+        "text": "history of previous cellulitis in the same area is one of the strongest risk factors for recurrence"
+      }
     ],
     "closing": "Not every area of redness and swelling is cellulitis. Stasis dermatitis, deep vein thrombosis, contact dermatitis, gout, and allergic reactions can mimic cellulitis. The IDSA notes that bilateral lower limb erythema in an afebrile patient should prompt reconsideration of the cellulitis diagnosis. TeleDirectMD uses symptom patterns, photos, and safety screening to avoid unnecessary antibiotics and to direct higher-risk or uncertain cases to in-person care."
   },
-
   "symptomsAndRedFlags": {
     "sectionTitle": "Symptoms and Red Flags for Cellulitis in {state}",
     "intro": "Use this table to understand which symptoms fit mild cellulitis appropriate for telehealth and which symptoms suggest a need for urgent in-person evaluation.",
-    "headers": ["Symptom or situation", "What it suggests", "Telehealth appropriate?", "Red flag requiring urgent in-person care"],
+    "headers": [
+      "Symptom or situation",
+      "What it suggests",
+      "Telehealth appropriate?",
+      "Red flag requiring urgent in-person care"
+    ],
     "rows": [
-      ["Localized redness, warmth, swelling, tenderness in one area", "Mild cellulitis without systemic signs", "Often yes", "If area is rapidly expanding or involves face or eye area"],
-      ["Redness around a small cut, scrape, or insect bite", "Early cellulitis with identifiable portal of entry", "Often yes", "If spreading rapidly, pus collection forming, or red streaking developing"],
-      ["Mild pain with gradual onset over 1 to 3 days", "Typical mild cellulitis progression", "Often yes", "If sudden severe pain suggesting necrotizing infection or abscess"],
-      ["Warm, tender area on lower leg with chronic swelling", "Cellulitis in setting of venous insufficiency or lymphedema", "Sometimes", "If fever, rapid spread, or bilateral involvement suggesting stasis dermatitis instead"],
-      ["Fever above 100.5°F with expanding redness", "Moderate to severe cellulitis or systemic spread", "No", "Urgent in-person care or ER"],
-      ["Red streaking from affected area toward trunk", "Lymphangitis suggesting spreading infection", "No", "Urgent in-person care or ER"],
-      ["Large, fluctuant, tender swelling with possible pus", "Abscess requiring incision and drainage", "No", "Urgent in-person care for drainage"],
-      ["Facial or orbital swelling with redness", "Facial or orbital cellulitis with risk of serious complications", "No", "Urgent in-person care or ER"],
-      ["Rapidly spreading redness in immunocompromised patient", "High-risk cellulitis requiring aggressive treatment", "No", "Urgent in-person care or ER"]
+      [
+        "Localized redness, warmth, swelling, tenderness in one area",
+        "Mild cellulitis without systemic signs",
+        "Often yes",
+        "If area is rapidly expanding or involves face or eye area"
+      ],
+      [
+        "Redness around a small cut, scrape, or insect bite",
+        "Early cellulitis with identifiable portal of entry",
+        "Often yes",
+        "If spreading rapidly, pus collection forming, or red streaking developing"
+      ],
+      [
+        "Mild pain with gradual onset over 1 to 3 days",
+        "Typical mild cellulitis progression",
+        "Often yes",
+        "If sudden severe pain suggesting necrotizing infection or abscess"
+      ],
+      [
+        "Warm, tender area on lower leg with chronic swelling",
+        "Cellulitis in setting of venous insufficiency or lymphedema",
+        "Sometimes",
+        "If fever, rapid spread, or bilateral involvement suggesting stasis dermatitis instead"
+      ],
+      [
+        "Fever above 100.5°F with expanding redness",
+        "Moderate to severe cellulitis or systemic spread",
+        "No",
+        "Urgent in-person care or ER"
+      ],
+      [
+        "Red streaking from affected area toward trunk",
+        "Lymphangitis suggesting spreading infection",
+        "No",
+        "Urgent in-person care or ER"
+      ],
+      [
+        "Large, fluctuant, tender swelling with possible pus",
+        "Abscess requiring incision and drainage",
+        "No",
+        "Urgent in-person care for drainage"
+      ],
+      [
+        "Facial or orbital swelling with redness",
+        "Facial or orbital cellulitis with risk of serious complications",
+        "No",
+        "Urgent in-person care or ER"
+      ],
+      [
+        "Rapidly spreading redness in immunocompromised patient",
+        "High-risk cellulitis requiring aggressive treatment",
+        "No",
+        "Urgent in-person care or ER"
+      ]
     ]
   },
-
   "differentialDiagnosis": {
     "sectionTitle": "Differential Diagnosis: Cellulitis vs Other Conditions",
     "intro": "Several conditions can mimic cellulitis. The IDSA guidelines note that cellulitis is frequently overdiagnosed, and conditions such as stasis dermatitis, deep vein thrombosis, and contact dermatitis are commonly mistaken for infection. TeleDirectMD uses careful history, photo review, and risk-factor assessment to identify cases appropriate for oral antibiotics and to direct uncertain or high-risk cases to in-person evaluation.",
@@ -290,7 +388,6 @@
     ],
     "closing": "If your symptoms do not match mild, localized cellulitis or any red flags are present, TeleDirectMD will direct you to urgent in-person care."
   },
-
   "telehealthEligibility": {
     "sectionTitle": "When Is a Video Visit Appropriate?",
     "appropriate": {
@@ -322,7 +419,6 @@
       "disclaimer": "If any red-flag symptoms are present, seek urgent in-person or emergency care. TeleDirectMD is not appropriate for these situations."
     }
   },
-
   "treatmentOptions": {
     "sectionTitle": "Treatment Options",
     "intro": "Mild, nonpurulent cellulitis without systemic signs is typically treated with oral antibiotics targeting streptococci and staphylococci, combined with supportive measures. The IDSA 2014 Practice Guidelines for the Diagnosis and Management of Skin and Soft Tissue Infections recommend treatment selection based on whether the infection is purulent or nonpurulent, the severity, and patient risk factors including allergy history and MRSA risk.",
@@ -349,22 +445,55 @@
       "Cellulitis that has failed 48 to 72 hours of outpatient oral antibiotics"
     ]
   },
-
   "medications": {
     "sectionTitle": "Common Medication Options",
     "intro": "These are common examples for mild cellulitis. The actual medication, dose, and duration are determined by the MD after reviewing your photos, symptom timeline, allergy history, medical conditions, possible MRSA risk factors, and red flags.",
-    "headers": ["Medication", "Typical dose", "Duration", "Key considerations"],
+    "headers": [
+      "Medication",
+      "Typical dose",
+      "Duration",
+      "Key considerations"
+    ],
     "rows": [
-      ["Cephalexin (Keflex)", "500 mg by mouth four times daily", "5 to 7 days", "Common first-line for nonpurulent cellulitis. Covers streptococci and methicillin-sensitive staphylococci. Avoid with severe cephalosporin or penicillin allergy."],
-      ["Amoxicillin-clavulanate (Augmentin)", "875/125 mg by mouth twice daily", "5 to 7 days", "Alternative first-line for nonpurulent cellulitis. Broader coverage including some anaerobes. May cause gastrointestinal upset."],
-      ["Trimethoprim-sulfamethoxazole (TMP-SMX DS, Bactrim DS)", "1 to 2 tablets by mouth twice daily", "5 to 7 days", "Option when MRSA coverage is needed for purulent cellulitis. Avoid with sulfa allergy. May not provide adequate streptococcal coverage alone for nonpurulent cellulitis."],
-      ["Doxycycline", "100 mg by mouth twice daily", "5 to 7 days", "Option for purulent cellulitis or suspected MRSA. Avoid in pregnancy. Take with food and plenty of water. Avoid prolonged sun exposure."],
-      ["Clindamycin", "300 to 450 mg by mouth three times daily", "5 to 7 days", "Alternative for penicillin-allergic patients or when MRSA coverage is needed. Monitor for gastrointestinal symptoms. Risk of C. difficile colitis with prolonged use."],
-      ["Ibuprofen or acetaminophen (pain relief)", "Ibuprofen 400 to 600 mg every 6 to 8 hours or acetaminophen 500 to 1000 mg every 6 hours", "As needed during acute infection", "Over-the-counter pain and inflammation relief. Not antibiotics. Follow package directions and avoid exceeding maximum daily dose."]
+      [
+        "Cephalexin (Keflex)",
+        "500 mg by mouth four times daily",
+        "5 to 7 days",
+        "Common first-line for nonpurulent cellulitis. Covers streptococci and methicillin-sensitive staphylococci. Avoid with severe cephalosporin or penicillin allergy."
+      ],
+      [
+        "Amoxicillin-clavulanate (Augmentin)",
+        "875/125 mg by mouth twice daily",
+        "5 to 7 days",
+        "Alternative first-line for nonpurulent cellulitis. Broader coverage including some anaerobes. May cause gastrointestinal upset."
+      ],
+      [
+        "Trimethoprim-sulfamethoxazole (TMP-SMX DS, Bactrim DS)",
+        "1 to 2 tablets by mouth twice daily",
+        "5 to 7 days",
+        "Option when MRSA coverage is needed for purulent cellulitis. Avoid with sulfa allergy. May not provide adequate streptococcal coverage alone for nonpurulent cellulitis."
+      ],
+      [
+        "Doxycycline",
+        "100 mg by mouth twice daily",
+        "5 to 7 days",
+        "Option for purulent cellulitis or suspected MRSA. Avoid in pregnancy. Take with food and plenty of water. Avoid prolonged sun exposure."
+      ],
+      [
+        "Clindamycin",
+        "300 to 450 mg by mouth three times daily",
+        "5 to 7 days",
+        "Alternative for penicillin-allergic patients or when MRSA coverage is needed. Monitor for gastrointestinal symptoms. Risk of C. difficile colitis with prolonged use."
+      ],
+      [
+        "Ibuprofen or acetaminophen (pain relief)",
+        "Ibuprofen 400 to 600 mg every 6 to 8 hours or acetaminophen 500 to 1000 mg every 6 hours",
+        "As needed during acute infection",
+        "Over-the-counter pain and inflammation relief. Not antibiotics. Follow package directions and avoid exceeding maximum daily dose."
+      ]
     ],
     "note": "Example regimens only. The actual medication, dosing, and duration are determined by the MD after reviewing your photos, symptoms, risk factors, allergies, medical history, and red flags. A minimum 5-day course is typical, with extension if not improving. TeleDirectMD does not prescribe controlled substances."
   },
-
   "homeCare": {
     "sectionTitle": "Home Care, Recovery Timeline, Prevention, and Follow-up",
     "whatToDoNow": {
@@ -402,7 +531,6 @@
       ]
     }
   },
-
   "whenNotToUse": {
     "sectionTitle": "When Not to Use TeleDirectMD for Cellulitis in {state}",
     "intro": "TeleDirectMD is designed for mild, localized cellulitis without systemic signs. We are direct about when telehealth is not appropriate.",
@@ -424,14 +552,25 @@
     "alternatives": {
       "title": "Alternative Care Options",
       "items": [
-        { "label": "Emergency room:", "text": "rapidly spreading infection with fever, sepsis concern, facial or orbital cellulitis, or severe illness" },
-        { "label": "Urgent care:", "text": "abscess needing drainage, moderate cellulitis needing in-person exam, or diagnostic uncertainty" },
-        { "label": "Primary care:", "text": "follow-up after acute treatment, recurrent cellulitis prevention, and management of contributing conditions like venous insufficiency, lymphedema, or diabetes" },
-        { "label": "Dermatology:", "text": "recurrent cellulitis, atypical presentations, chronic skin conditions contributing to infection, or diagnostic uncertainty between cellulitis and cellulitis mimics" }
+        {
+          "label": "Emergency room:",
+          "text": "rapidly spreading infection with fever, sepsis concern, facial or orbital cellulitis, or severe illness"
+        },
+        {
+          "label": "Urgent care:",
+          "text": "abscess needing drainage, moderate cellulitis needing in-person exam, or diagnostic uncertainty"
+        },
+        {
+          "label": "Primary care:",
+          "text": "follow-up after acute treatment, recurrent cellulitis prevention, and management of contributing conditions like venous insufficiency, lymphedema, or diabetes"
+        },
+        {
+          "label": "Dermatology:",
+          "text": "recurrent cellulitis, atypical presentations, chronic skin conditions contributing to infection, or diagnostic uncertainty between cellulitis and cellulitis mimics"
+        }
       ]
     }
   },
-
   "faq": {
     "sectionTitle": "Cellulitis Treatment FAQs for {state}",
     "items": [
@@ -481,15 +620,28 @@
       "text": "Insurance is not required. Adult-only video visits. MD-only care. Safety-first triage, antibiotic stewardship, and prescriptions only when appropriate."
     }
   },
-
   "references": [
-    { "text": "IDSA Practice Guidelines for the Diagnosis and Management of Skin and Soft Tissue Infections (Stevens et al., Clinical Infectious Diseases, 2014)", "url": "https://academic.oup.com/cid/article/59/2/e10/2895845" },
-    { "text": "Cellulitis and Skin Abscess: An Updated Approach (Raff and Kroshinsky, American Family Physician, 2016)", "url": "https://www.aafp.org/pubs/afp/issues/2016/0901/p344.html" },
-    { "text": "Cellulitis, StatPearls (2025)", "url": "https://www.ncbi.nlm.nih.gov/books/NBK549770/" },
-    { "text": "Interventions for the Prevention of Recurrent Cellulitis (Thomas et al., Cochrane Database of Systematic Reviews)", "url": "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD009758.pub2/full" },
-    { "text": "Distinguishing Cellulitis From Its Mimics (Weng et al., Dermatologic Clinics, 2019)", "url": "https://pubmed.ncbi.nlm.nih.gov/30553800/" }
+    {
+      "text": "IDSA Practice Guidelines for the Diagnosis and Management of Skin and Soft Tissue Infections (Stevens et al., Clinical Infectious Diseases, 2014)",
+      "url": "https://academic.oup.com/cid/article/59/2/e10/2895845"
+    },
+    {
+      "text": "Cellulitis and Skin Abscess: An Updated Approach (Raff and Kroshinsky, American Family Physician, 2016)",
+      "url": "https://www.aafp.org/pubs/afp/issues/2016/0901/p344.html"
+    },
+    {
+      "text": "Cellulitis, StatPearls (2025)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK549770/"
+    },
+    {
+      "text": "Interventions for the Prevention of Recurrent Cellulitis (Thomas et al., Cochrane Database of Systematic Reviews)",
+      "url": "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD009758.pub2/full"
+    },
+    {
+      "text": "Distinguishing Cellulitis From Its Mimics (Weng et al., Dermatologic Clinics, 2019)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30553800/"
+    }
   ],
-
   "disclaimer": {
     "sectionTitle": "TeleDirectMD Telehealth Disclaimer",
     "paragraphs": [
@@ -498,7 +650,6 @@
       "Online cellulitis treatment in {state}. Skin infection antibiotics online. Cellulitis treatment by video visit. Bacterial skin infection care in {state}."
     ]
   },
-
   "relatedConditions": [
     {
       "slug": "cold-sore-treatment-online",
@@ -521,40 +672,92 @@
       "description": "Acute infection where antibiotic stewardship and red-flag screening are essential"
     }
   ],
-
   "inlineLinks": [
-    { "slug": "cold-sore-treatment-online", "label": "Cold Sore" },
-    { "slug": "pink-eye-treatment-online", "label": "Pink Eye" },
-    { "slug": "uti-treatment-online", "label": "UTI Treatment" },
-    { "slug": "sinus-infection-treatment-online", "label": "Sinus Infection" },
-    { "slug": "sore-throat-treatment-online", "label": "Sore Throat" },
-    { "slug": "ear-pain-treatment-online", "label": "Ear Pain" },
-    { "slug": "covid-19-treatment-online", "label": "COVID-19" },
-    { "slug": "influenza-treatment-online", "label": "Influenza" },
-    { "slug": "yeast-infection-treatment-online", "label": "Yeast Infection" },
-    { "slug": "asthma-refills-online", "label": "Asthma Refills" }
+    {
+      "slug": "cold-sore-treatment-online",
+      "label": "Cold Sore"
+    },
+    {
+      "slug": "pink-eye-treatment-online",
+      "label": "Pink Eye"
+    },
+    {
+      "slug": "uti-treatment-online",
+      "label": "UTI Treatment"
+    },
+    {
+      "slug": "sinus-infection-treatment-online",
+      "label": "Sinus Infection"
+    },
+    {
+      "slug": "sore-throat-treatment-online",
+      "label": "Sore Throat"
+    },
+    {
+      "slug": "ear-pain-treatment-online",
+      "label": "Ear Pain"
+    },
+    {
+      "slug": "covid-19-treatment-online",
+      "label": "COVID-19"
+    },
+    {
+      "slug": "influenza-treatment-online",
+      "label": "Influenza"
+    },
+    {
+      "slug": "yeast-infection-treatment-online",
+      "label": "Yeast Infection"
+    },
+    {
+      "slug": "asthma-refills-online",
+      "label": "Asthma Refills"
+    }
   ],
-
   "cityBlock": {
     "title": "Adults We Serve Across {state}",
     "text": "TeleDirectMD evaluates adults located throughout {state}, including {citiesExtended}. Whether you are searching for online cellulitis treatment in {city1}, skin infection care in {city2}, cellulitis antibiotics online in {city3}, or telehealth cellulitis evaluation anywhere else in {state}, the same telehealth eligibility and safety rules apply."
   },
-
   "icd10Codes": [
-    { "code": "L03.90", "description": "Cellulitis, unspecified" },
-    { "code": "L03.115", "description": "Cellulitis of right lower limb" },
-    { "code": "L03.116", "description": "Cellulitis of left lower limb" },
-    { "code": "L03.111", "description": "Cellulitis of right axilla" },
-    { "code": "L03.011", "description": "Cellulitis of right finger" }
+    {
+      "code": "L03.90",
+      "description": "Cellulitis, unspecified"
+    },
+    {
+      "code": "L03.115",
+      "description": "Cellulitis of right lower limb"
+    },
+    {
+      "code": "L03.116",
+      "description": "Cellulitis of left lower limb"
+    },
+    {
+      "code": "L03.111",
+      "description": "Cellulitis of right axilla"
+    },
+    {
+      "code": "L03.011",
+      "description": "Cellulitis of right finger"
+    }
   ],
-
   "jsonLd": {
     "conditionName": "Cellulitis",
-    "conditionAlternateNames": ["Skin infection", "Bacterial skin infection", "Soft tissue infection", "Erysipelas"],
+    "conditionAlternateNames": [
+      "Skin infection",
+      "Bacterial skin infection",
+      "Soft tissue infection",
+      "Erysipelas"
+    ],
     "conditionDescription": "Cellulitis is an acute bacterial infection of the deep dermis and subcutaneous tissue, presenting with spreading redness, warmth, swelling, and tenderness. TeleDirectMD evaluates adult cellulitis symptoms by video visit with safety-first red-flag screening, photo-assisted assessment, guideline-based antibiotic therapy, and prescriptions when clinically appropriate, with clear rules for when urgent in-person care is needed.",
     "primaryIcd10": "L03.90",
     "anatomy": "Skin and subcutaneous tissue",
-    "symptoms": ["Erythema", "Warmth", "Edema", "Tenderness", "Pain at affected site"],
+    "symptoms": [
+      "Erythema",
+      "Warmth",
+      "Edema",
+      "Tenderness",
+      "Pain at affected site"
+    ],
     "riskFactors": [
       "Skin break or wound",
       "Tinea pedis",
@@ -574,11 +777,26 @@
     ],
     "epidemiology": "Cellulitis accounts for approximately 14.5 million cases annually in the United States and is one of the most common reasons for emergency department visits related to skin infection.",
     "drugs": [
-      { "name": "Cephalexin", "id": "cephalexin" },
-      { "name": "Amoxicillin-clavulanate", "id": "amoxicillin-clavulanate" },
-      { "name": "Trimethoprim-sulfamethoxazole", "id": "tmp-smx" },
-      { "name": "Doxycycline", "id": "doxycycline" },
-      { "name": "Clindamycin", "id": "clindamycin" }
+      {
+        "name": "Cephalexin",
+        "id": "cephalexin"
+      },
+      {
+        "name": "Amoxicillin-clavulanate",
+        "id": "amoxicillin-clavulanate"
+      },
+      {
+        "name": "Trimethoprim-sulfamethoxazole",
+        "id": "tmp-smx"
+      },
+      {
+        "name": "Doxycycline",
+        "id": "doxycycline"
+      },
+      {
+        "name": "Clindamycin",
+        "id": "clindamycin"
+      }
     ],
     "treatments": [
       "Oral antibiotic therapy when appropriate",
@@ -591,11 +809,31 @@
       "Photo-assisted assessment of affected area",
       "Blood cultures for severe cases requiring in-person care"
     ],
-    "specialties": ["Family Medicine", "Telemedicine", "Dermatology", "Emergency Medicine"],
+    "specialties": [
+      "Family Medicine",
+      "Telemedicine",
+      "Dermatology",
+      "Emergency Medicine"
+    ],
     "guidelines": [
-      { "name": "IDSA Practice Guidelines for the Diagnosis and Management of Skin and Soft Tissue Infections", "url": "https://academic.oup.com/cid/article/59/2/e10/2895845", "publisher": "Infectious Diseases Society of America", "id": "idsa-ssti" },
-      { "name": "Cellulitis and Skin Abscess: An Updated Approach (AAFP)", "url": "https://www.aafp.org/pubs/afp/issues/2016/0901/p344.html", "publisher": "American Academy of Family Physicians", "id": "aafp-cellulitis" },
-      { "name": "Cellulitis, StatPearls", "url": "https://www.ncbi.nlm.nih.gov/books/NBK549770/", "publisher": "StatPearls Publishing", "id": "statpearls-cellulitis" }
+      {
+        "name": "IDSA Practice Guidelines for the Diagnosis and Management of Skin and Soft Tissue Infections",
+        "url": "https://academic.oup.com/cid/article/59/2/e10/2895845",
+        "publisher": "Infectious Diseases Society of America",
+        "id": "idsa-ssti"
+      },
+      {
+        "name": "Cellulitis and Skin Abscess: An Updated Approach (AAFP)",
+        "url": "https://www.aafp.org/pubs/afp/issues/2016/0901/p344.html",
+        "publisher": "American Academy of Family Physicians",
+        "id": "aafp-cellulitis"
+      },
+      {
+        "name": "Cellulitis, StatPearls",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK549770/",
+        "publisher": "StatPearls Publishing",
+        "id": "statpearls-cellulitis"
+      }
     ],
     "knowsAbout": [
       "Cellulitis treatment",
@@ -608,5 +846,7 @@
     ],
     "serviceDescription": "Secure video visit for {state} adults with mild cellulitis symptoms, including red-flag screening, photo-assisted assessment, guideline-based antibiotic therapy, and prescriptions when clinically appropriate.",
     "webpageDescription": "{state} cellulitis treatment by secure MD video visit for adults. Evidence-based evaluation of bacterial skin infection symptoms, red-flag screening, guideline-based antibiotic treatment when appropriate, and clear rules for when urgent in-person care is needed."
-  }
+  },
+  "guidelineSource": "idsaSsti",
+  "conditionType": "treatment"
 }

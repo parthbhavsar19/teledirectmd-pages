@@ -2,20 +2,34 @@
   "conditionName": "Tick Bite Treatment",
   "conditionShort": "Tick Bite",
   "conditionSlug": "tick-bite-treatment-online",
-  "pageTitle": "Tick Bite Treatment Online in {state} | Lyme Disease Prevention MD Video Visit | TeleDirectMD",
+  "pageTitle": "Tick Bite Online Treatment in {state} | TeleDirectMD",
   "metaDescription": "Evidence-based tick bite evaluation for {state} adults by secure video visit. Lyme disease risk assessment, doxycycline prophylaxis within the 72-hour window when appropriate, and clear monitoring guidance. Self pay option starting at $49. Insurance is not required.",
   "ogImageAlt": "Tick bite treatment in {state} by TeleDirectMD",
-
   "hero": {
     "h1": "Tick Bite Treatment in {state} (Lyme Disease Prevention and Risk Assessment)",
     "subtitle": "{state} adult care by secure video visit, self pay option starting at $49, MD-only, insurance is not required.",
     "introParagraph": "A tick bite raises immediate questions about Lyme disease risk and whether antibiotics are needed. Not every tick bite requires antibiotic prophylaxis, and the decision depends on the tick species, geographic risk, estimated attachment duration, and timing since removal. The IDSA/AAN/ACR 2020 Lyme Disease Guidelines recommend single-dose doxycycline prophylaxis only for high-risk bites meeting specific criteria, while low-risk bites are managed with watchful waiting and monitoring. TeleDirectMD uses a safety-first telehealth approach with photo-based tick and bite assessment, geographic risk evaluation, and structured triage to determine whether prophylaxis is appropriate, whether symptoms suggest early Lyme disease needing full treatment, or whether in-person evaluation is needed. If the history and photos support a straightforward tick bite without red flags, guideline-based management can be initiated by video, while adults with erythema migrans, systemic symptoms, or neurologic or cardiac concerns are directed to urgent in-person care. This page is for adults located in {state}, including {cities}.",
     "tocLinks": [
-      { "href": "eligibility-checklist", "label": "Eligibility checklist" },
-      { "href": "decision-guide", "label": "Decision guide" },
-      { "href": "treatment-options", "label": "Treatment options" },
-      { "href": "faq", "label": "FAQs" },
-      { "href": "references", "label": "References" }
+      {
+        "href": "eligibility-checklist",
+        "label": "Eligibility checklist"
+      },
+      {
+        "href": "decision-guide",
+        "label": "Decision guide"
+      },
+      {
+        "href": "treatment-options",
+        "label": "Treatment options"
+      },
+      {
+        "href": "faq",
+        "label": "FAQs"
+      },
+      {
+        "href": "references",
+        "label": "References"
+      }
     ],
     "benefits": [
       "Self pay option starting at $49",
@@ -35,7 +49,6 @@
     },
     "icd10Display": "S90.469A, T63.4XXA (final coding depends on clinical details)"
   },
-
   "eligibility": {
     "sectionTitle": "Tick Bite Telehealth Eligibility Checklist for {state}",
     "introText": "You are likely eligible for a TeleDirectMD video visit if ALL of these are true:",
@@ -60,7 +73,6 @@
     ],
     "notEligibleDisclaimer": "If you have red-flag symptoms, seek urgent in-person care or emergency care immediately. TeleDirectMD is not appropriate for established Lyme disease with systemic, neurologic, or cardiac involvement."
   },
-
   "howItWorks": {
     "sectionTitle": "How Online Tick Bite Treatment Works in {state}",
     "steps": [
@@ -82,7 +94,6 @@
       }
     ]
   },
-
   "telehealthRegulations": {
     "sectionTitle": "{state} Telehealth Regulations for Online Tick Bite Care",
     "paragraphs": [
@@ -90,7 +101,6 @@
       "Location matters: you must be physically in {state} during the visit. Insurance is not required. TeleDirectMD does not prescribe controlled substances."
     ]
   },
-
   "comparisonTable": {
     "sectionTitle": "TeleDirectMD vs Other Care Options for Tick Bite in {state}",
     "intro": "Here is how TeleDirectMD compares to common settings for adult tick bite evaluation in {state}:",
@@ -138,7 +148,6 @@
     ],
     "bottomLine": "TeleDirectMD is a strong fit for recent tick bites within the 72-hour prophylaxis window, with photo-based risk assessment and same-day guideline-based management when appropriate."
   },
-
   "decisionGuide": {
     "sectionTitle": "Should I Use TeleDirectMD for Tick Bite in {state}? Decision Guide",
     "steps": [
@@ -183,7 +192,6 @@
       }
     ]
   },
-
   "pricing": {
     "sectionTitle": "What Does Tick Bite Treatment Cost in {state}?",
     "subtitle": "Transparent options. Insurance is not required.",
@@ -198,15 +206,34 @@
       "Clear follow-up steps"
     ],
     "comparisonBars": [
-      { "name": "TeleDirectMD", "value": "$49", "width": 12, "isTdmd": true },
-      { "name": "Primary Care", "value": "$100 to $250+", "width": 45, "isTdmd": false },
-      { "name": "Urgent Care", "value": "$150 to $300+", "width": 55, "isTdmd": false },
-      { "name": "Emergency Room", "value": "$500 to $3,000+", "width": 100, "isTdmd": false }
+      {
+        "name": "TeleDirectMD",
+        "value": "$49",
+        "width": 12,
+        "isTdmd": true
+      },
+      {
+        "name": "Primary Care",
+        "value": "$100 to $250+",
+        "width": 45,
+        "isTdmd": false
+      },
+      {
+        "name": "Urgent Care",
+        "value": "$150 to $300+",
+        "width": 55,
+        "isTdmd": false
+      },
+      {
+        "name": "Emergency Room",
+        "value": "$500 to $3,000+",
+        "width": 100,
+        "isTdmd": false
+      }
     ],
     "footnote": "Prescription costs at your pharmacy are separate and vary by medication and pharmacy.",
     "noHiddenFees": "No hidden fees. If medication is not clinically appropriate, you still receive a complete evaluation, risk assessment, monitoring guidance, and clear instructions on what level of care you need next."
   },
-
   "whatIsCondition": {
     "sectionTitle": "What Is a Tick Bite and Why Does It Matter?",
     "paragraphs": [
@@ -215,36 +242,93 @@
       "TeleDirectMD focuses on timely risk assessment for recent tick bites appropriate for telehealth, with photo-based species identification, geographic risk evaluation, and guideline-based prophylaxis decisions, while directing patients with established infection or high-risk systemic symptoms to in-person care."
     ]
   },
-
   "causesAndRiskFactors": {
     "sectionTitle": "Causes and Risk Factors",
     "intro": "Tick bites happen during outdoor activities in areas where ticks are present. Understanding which factors increase the risk of Lyme disease transmission helps determine whether prophylaxis is warranted or whether watchful waiting is appropriate.",
     "items": [
-      { "label": "Tick species:", "text": "Ixodes (blacklegged or deer) ticks are the primary vectors for Lyme disease. Dog ticks and lone star ticks carry different pathogens. Photo-based identification is a key part of risk assessment." },
-      { "label": "Geographic location:", "text": "Lyme disease is concentrated in the Northeast (Connecticut through Virginia), the upper Midwest (Minnesota, Wisconsin), and parts of the West Coast. Risk varies significantly by region." },
-      { "label": "Attachment duration:", "text": "Lyme transmission typically requires 36 or more hours of tick attachment. Engorged ticks suggest longer attachment. Ticks found and removed within 24 hours carry very low Lyme risk." },
-      { "label": "Season and habitat:", "text": "tick activity peaks from April through September. Activities in wooded, brushy, or tall grass areas increase exposure, especially without protective clothing or repellent." },
-      { "label": "Time since removal:", "text": "the 72-hour window after tick removal is critical for prophylaxis eligibility. After 72 hours, single-dose doxycycline is no longer recommended, and the approach shifts to monitoring and early symptom detection." }
+      {
+        "label": "Tick species:",
+        "text": "Ixodes (blacklegged or deer) ticks are the primary vectors for Lyme disease. Dog ticks and lone star ticks carry different pathogens. Photo-based identification is a key part of risk assessment."
+      },
+      {
+        "label": "Geographic location:",
+        "text": "Lyme disease is concentrated in the Northeast (Connecticut through Virginia), the upper Midwest (Minnesota, Wisconsin), and parts of the West Coast. Risk varies significantly by region."
+      },
+      {
+        "label": "Attachment duration:",
+        "text": "Lyme transmission typically requires 36 or more hours of tick attachment. Engorged ticks suggest longer attachment. Ticks found and removed within 24 hours carry very low Lyme risk."
+      },
+      {
+        "label": "Season and habitat:",
+        "text": "tick activity peaks from April through September. Activities in wooded, brushy, or tall grass areas increase exposure, especially without protective clothing or repellent."
+      },
+      {
+        "label": "Time since removal:",
+        "text": "the 72-hour window after tick removal is critical for prophylaxis eligibility. After 72 hours, single-dose doxycycline is no longer recommended, and the approach shifts to monitoring and early symptom detection."
+      }
     ],
     "closing": "Not every tick bite leads to infection, and not every tick bite requires antibiotics. The IDSA 2020 guidelines emphasize that prophylaxis is recommended only for high-risk bites meeting all criteria. TeleDirectMD uses structured risk assessment to avoid both unnecessary antibiotic use and missed opportunities for appropriate prophylaxis."
   },
-
   "symptomsAndRedFlags": {
     "sectionTitle": "Symptoms and Red Flags for Tick Bite in {state}",
     "intro": "Use this table to understand which findings fit a routine tick bite appropriate for telehealth and which symptoms suggest a need for urgent in-person evaluation.",
-    "headers": ["Symptom or situation", "What it suggests", "Telehealth appropriate?", "Red flag requiring urgent in-person care"],
+    "headers": [
+      "Symptom or situation",
+      "What it suggests",
+      "Telehealth appropriate?",
+      "Red flag requiring urgent in-person care"
+    ],
     "rows": [
-      ["Small red bump at bite site without expansion", "Normal local reaction to tick bite (common and benign)", "Often yes", "If redness expands beyond 5 cm or develops ring shape"],
-      ["Tick removed within 72 hours, no symptoms", "Low to moderate risk depending on species and geography; prophylaxis decision needed", "Often yes", "If systemic symptoms develop during monitoring"],
-      ["Expanding ring-shaped or bull's-eye rash (erythema migrans)", "Early Lyme disease requiring full antibiotic treatment course", "Sometimes (if uncomplicated)", "If accompanied by fever, joint swelling, or neurologic symptoms"],
-      ["Fever, chills, or body aches after tick bite", "Possible tick-borne infection (Lyme, anaplasmosis, ehrlichiosis, RMSF)", "No", "Urgent in-person evaluation with blood work"],
-      ["Severe headache with neck stiffness", "Possible Lyme meningitis or other tick-borne meningoencephalitis", "No", "Urgent in-person care or ER"],
-      ["Facial drooping or weakness on one side", "Possible Lyme-associated facial nerve palsy (Bell palsy)", "No", "Urgent in-person evaluation"],
-      ["Heart palpitations, dizziness, or chest pain", "Possible Lyme carditis with heart block", "No", "Urgent in-person care or ER"],
-      ["Ascending weakness in legs", "Possible tick paralysis (rare, caused by tick neurotoxin)", "No", "ER immediately — resolves after tick removal"]
+      [
+        "Small red bump at bite site without expansion",
+        "Normal local reaction to tick bite (common and benign)",
+        "Often yes",
+        "If redness expands beyond 5 cm or develops ring shape"
+      ],
+      [
+        "Tick removed within 72 hours, no symptoms",
+        "Low to moderate risk depending on species and geography; prophylaxis decision needed",
+        "Often yes",
+        "If systemic symptoms develop during monitoring"
+      ],
+      [
+        "Expanding ring-shaped or bull's-eye rash (erythema migrans)",
+        "Early Lyme disease requiring full antibiotic treatment course",
+        "Sometimes (if uncomplicated)",
+        "If accompanied by fever, joint swelling, or neurologic symptoms"
+      ],
+      [
+        "Fever, chills, or body aches after tick bite",
+        "Possible tick-borne infection (Lyme, anaplasmosis, ehrlichiosis, RMSF)",
+        "No",
+        "Urgent in-person evaluation with blood work"
+      ],
+      [
+        "Severe headache with neck stiffness",
+        "Possible Lyme meningitis or other tick-borne meningoencephalitis",
+        "No",
+        "Urgent in-person care or ER"
+      ],
+      [
+        "Facial drooping or weakness on one side",
+        "Possible Lyme-associated facial nerve palsy (Bell palsy)",
+        "No",
+        "Urgent in-person evaluation"
+      ],
+      [
+        "Heart palpitations, dizziness, or chest pain",
+        "Possible Lyme carditis with heart block",
+        "No",
+        "Urgent in-person care or ER"
+      ],
+      [
+        "Ascending weakness in legs",
+        "Possible tick paralysis (rare, caused by tick neurotoxin)",
+        "No",
+        "ER immediately — resolves after tick removal"
+      ]
     ]
   },
-
   "differentialDiagnosis": {
     "sectionTitle": "Differential Diagnosis: Tick Bite vs Other Conditions",
     "intro": "Not every red mark after time outdoors is a tick bite, and not every rash after a tick bite is Lyme disease. TeleDirectMD focuses on identifying straightforward tick bites and early Lyme presentations while directing uncertain or complicated cases to in-person care.",
@@ -280,7 +364,6 @@
     ],
     "closing": "If your situation does not match a straightforward tick bite or any red flags are present, TeleDirectMD will direct you to urgent in-person care or infectious disease evaluation."
   },
-
   "telehealthEligibility": {
     "sectionTitle": "When Is a Video Visit Appropriate?",
     "appropriate": {
@@ -309,7 +392,6 @@
       "disclaimer": "If any red-flag symptoms are present, seek urgent in-person or emergency care. TeleDirectMD is not appropriate for these situations."
     }
   },
-
   "treatmentOptions": {
     "sectionTitle": "Treatment Options",
     "intro": "Management of a tick bite depends on risk stratification. The IDSA/AAN/ACR 2020 Lyme Disease Guidelines recommend single-dose doxycycline prophylaxis only when all high-risk criteria are met. Low-risk bites are managed with watchful waiting, proper wound care, and a structured 30-day monitoring plan.",
@@ -339,22 +421,55 @@
       "Tick paralysis requiring in-person tick identification and removal"
     ]
   },
-
   "medications": {
     "sectionTitle": "Common Medication Options",
     "intro": "These are common examples for tick bite management. The actual medication, dose, and duration are determined by the MD after reviewing your tick photo, bite timing, geographic risk, symptoms, allergies, pregnancy status when relevant, and red flags.",
-    "headers": ["Medication", "Typical dose", "Duration", "Key considerations"],
+    "headers": [
+      "Medication",
+      "Typical dose",
+      "Duration",
+      "Key considerations"
+    ],
     "rows": [
-      ["Doxycycline (single-dose prophylaxis)", "200 mg by mouth once", "Single dose", "Recommended only for high-risk bites: Ixodes tick, endemic area, attachment 36+ hours, within 72 hours of removal. Not recommended for low-risk bites. Avoid in pregnancy."],
-      ["Doxycycline (early Lyme treatment)", "100 mg by mouth twice daily", "10 to 21 days", "First-line treatment when erythema migrans rash develops. Also effective against co-infections such as anaplasmosis. Avoid in pregnancy. Take with food to reduce GI upset."],
-      ["Amoxicillin (early Lyme treatment)", "500 mg by mouth three times daily", "14 to 21 days", "Alternative when doxycycline cannot be used (pregnancy, allergy, age under 8). Does not cover anaplasmosis co-infection."],
-      ["Cefuroxime axetil (early Lyme treatment)", "500 mg by mouth twice daily", "14 to 21 days", "Second-line alternative when both doxycycline and amoxicillin cannot be used. Slightly lower efficacy data compared to first-line options."],
-      ["Ibuprofen (OTC)", "400 to 600 mg by mouth every 6 to 8 hours as needed", "As needed", "Over-the-counter option for bite site discomfort or inflammation. Avoid with certain kidney conditions or GI bleeding risk."],
-      ["Acetaminophen (OTC)", "500 to 1000 mg by mouth every 6 hours as needed", "As needed", "Over-the-counter pain reliever for bite site discomfort. Can be combined with NSAIDs. Avoid exceeding 3000 mg per day."]
+      [
+        "Doxycycline (single-dose prophylaxis)",
+        "200 mg by mouth once",
+        "Single dose",
+        "Recommended only for high-risk bites: Ixodes tick, endemic area, attachment 36+ hours, within 72 hours of removal. Not recommended for low-risk bites. Avoid in pregnancy."
+      ],
+      [
+        "Doxycycline (early Lyme treatment)",
+        "100 mg by mouth twice daily",
+        "10 to 21 days",
+        "First-line treatment when erythema migrans rash develops. Also effective against co-infections such as anaplasmosis. Avoid in pregnancy. Take with food to reduce GI upset."
+      ],
+      [
+        "Amoxicillin (early Lyme treatment)",
+        "500 mg by mouth three times daily",
+        "14 to 21 days",
+        "Alternative when doxycycline cannot be used (pregnancy, allergy, age under 8). Does not cover anaplasmosis co-infection."
+      ],
+      [
+        "Cefuroxime axetil (early Lyme treatment)",
+        "500 mg by mouth twice daily",
+        "14 to 21 days",
+        "Second-line alternative when both doxycycline and amoxicillin cannot be used. Slightly lower efficacy data compared to first-line options."
+      ],
+      [
+        "Ibuprofen (OTC)",
+        "400 to 600 mg by mouth every 6 to 8 hours as needed",
+        "As needed",
+        "Over-the-counter option for bite site discomfort or inflammation. Avoid with certain kidney conditions or GI bleeding risk."
+      ],
+      [
+        "Acetaminophen (OTC)",
+        "500 to 1000 mg by mouth every 6 hours as needed",
+        "As needed",
+        "Over-the-counter pain reliever for bite site discomfort. Can be combined with NSAIDs. Avoid exceeding 3000 mg per day."
+      ]
     ],
     "note": "Example regimens only. The actual medication, dosing, and duration are determined by the MD after reviewing your tick photo, bite timing, geographic risk, symptoms, allergies, and red flags. TeleDirectMD does not prescribe controlled substances."
   },
-
   "homeCare": {
     "sectionTitle": "Home Care, Monitoring Timeline, Prevention, and Follow-up",
     "whatToDoNow": {
@@ -388,7 +503,6 @@
       ]
     }
   },
-
   "whenNotToUse": {
     "sectionTitle": "When Not to Use TeleDirectMD for Tick Bite in {state}",
     "intro": "TeleDirectMD is designed for straightforward adult tick bite evaluation and risk assessment. We are direct about when telehealth is not appropriate.",
@@ -408,14 +522,25 @@
     "alternatives": {
       "title": "Alternative Care Options",
       "items": [
-        { "label": "Emergency room:", "text": "tick paralysis, Lyme carditis with heart palpitations, severe neurologic symptoms, or systemic illness with high fever" },
-        { "label": "Urgent care:", "text": "embedded tick needing removal assistance, uncertain rash requiring in-person exam, or moderate symptoms needing blood work" },
-        { "label": "Infectious disease:", "text": "complicated Lyme disease, co-infections, treatment failure, or persistent symptoms after standard therapy" },
-        { "label": "Primary care:", "text": "follow-up for Lyme disease treatment, chronic symptoms after tick-borne illness, and long-term monitoring" }
+        {
+          "label": "Emergency room:",
+          "text": "tick paralysis, Lyme carditis with heart palpitations, severe neurologic symptoms, or systemic illness with high fever"
+        },
+        {
+          "label": "Urgent care:",
+          "text": "embedded tick needing removal assistance, uncertain rash requiring in-person exam, or moderate symptoms needing blood work"
+        },
+        {
+          "label": "Infectious disease:",
+          "text": "complicated Lyme disease, co-infections, treatment failure, or persistent symptoms after standard therapy"
+        },
+        {
+          "label": "Primary care:",
+          "text": "follow-up for Lyme disease treatment, chronic symptoms after tick-borne illness, and long-term monitoring"
+        }
       ]
     }
   },
-
   "faq": {
     "sectionTitle": "Tick Bite Treatment FAQs for {state}",
     "items": [
@@ -465,16 +590,32 @@
       "text": "Insurance is not required. Adult-only video visits. MD-only care. Safety-first triage, Lyme disease risk assessment, and prophylaxis when appropriate."
     }
   },
-
   "references": [
-    { "text": "IDSA/AAN/ACR 2020 Guidelines for Prevention, Diagnosis, and Treatment of Lyme Disease (Lantos et al.)", "url": "https://academic.oup.com/cid/article/72/1/e1/6010652" },
-    { "text": "Lyme Disease Overview and Tick Identification, Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/lyme/index.html" },
-    { "text": "Single-Dose Doxycycline for Prevention of Lyme Disease (Nadelman et al., NEJM)", "url": "https://www.nejm.org/doi/full/10.1056/NEJM200107123450201" },
-    { "text": "Lyme Disease, StatPearls (2025)", "url": "https://www.ncbi.nlm.nih.gov/books/NBK431066/" },
-    { "text": "Tick-Borne Diseases of the United States: A Reference Manual for Healthcare Providers, CDC", "url": "https://www.cdc.gov/ticks/tickbornediseases/TickborneDiseases-P.pdf" },
-    { "text": "Evaluation of a Clinical Decision Rule for Prophylaxis of Lyme Disease Following Tick Bites (Warshafsky et al.)", "url": "https://pubmed.ncbi.nlm.nih.gov/20455694/" }
+    {
+      "text": "IDSA/AAN/ACR 2020 Guidelines for Prevention, Diagnosis, and Treatment of Lyme Disease (Lantos et al.)",
+      "url": "https://academic.oup.com/cid/article/72/1/e1/6010652"
+    },
+    {
+      "text": "Lyme Disease Overview and Tick Identification, Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/lyme/index.html"
+    },
+    {
+      "text": "Single-Dose Doxycycline for Prevention of Lyme Disease (Nadelman et al., NEJM)",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJM200107123450201"
+    },
+    {
+      "text": "Lyme Disease, StatPearls (2025)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK431066/"
+    },
+    {
+      "text": "Tick-Borne Diseases of the United States: A Reference Manual for Healthcare Providers, CDC",
+      "url": "https://www.cdc.gov/ticks/tickbornediseases/TickborneDiseases-P.pdf"
+    },
+    {
+      "text": "Evaluation of a Clinical Decision Rule for Prophylaxis of Lyme Disease Following Tick Bites (Warshafsky et al.)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20455694/"
+    }
   ],
-
   "disclaimer": {
     "sectionTitle": "TeleDirectMD Telehealth Disclaimer",
     "paragraphs": [
@@ -483,7 +624,6 @@
       "Online tick bite treatment in {state}. Lyme disease prevention online. Tick bite evaluation and doxycycline prophylaxis by video visit."
     ]
   },
-
   "relatedConditions": [
     {
       "slug": "common-cold-treatment-online",
@@ -506,38 +646,84 @@
       "description": "Another acute condition where timely telehealth evaluation and treatment can help"
     }
   ],
-
   "inlineLinks": [
-    { "slug": "common-cold-treatment-online", "label": "Common Cold" },
-    { "slug": "sinus-infection-treatment-online", "label": "Sinus Infection" },
-    { "slug": "uti-treatment-online", "label": "UTI" },
-    { "slug": "sore-throat-treatment-online", "label": "Sore Throat" },
-    { "slug": "ear-pain-treatment-online", "label": "Ear Pain" },
-    { "slug": "pink-eye-treatment-online", "label": "Pink Eye" },
-    { "slug": "covid-19-treatment-online", "label": "COVID-19" },
-    { "slug": "influenza-treatment-online", "label": "Influenza" },
-    { "slug": "shingles-treatment-online", "label": "Shingles" },
-    { "slug": "cold-sore-treatment-online", "label": "Cold Sore" }
+    {
+      "slug": "common-cold-treatment-online",
+      "label": "Common Cold"
+    },
+    {
+      "slug": "sinus-infection-treatment-online",
+      "label": "Sinus Infection"
+    },
+    {
+      "slug": "uti-treatment-online",
+      "label": "UTI"
+    },
+    {
+      "slug": "sore-throat-treatment-online",
+      "label": "Sore Throat"
+    },
+    {
+      "slug": "ear-pain-treatment-online",
+      "label": "Ear Pain"
+    },
+    {
+      "slug": "pink-eye-treatment-online",
+      "label": "Pink Eye"
+    },
+    {
+      "slug": "covid-19-treatment-online",
+      "label": "COVID-19"
+    },
+    {
+      "slug": "influenza-treatment-online",
+      "label": "Influenza"
+    },
+    {
+      "slug": "shingles-treatment-online",
+      "label": "Shingles"
+    },
+    {
+      "slug": "cold-sore-treatment-online",
+      "label": "Cold Sore"
+    }
   ],
-
   "cityBlock": {
     "title": "Adults We Serve Across {state}",
     "text": "TeleDirectMD evaluates adults located throughout {state}, including {citiesExtended}. Whether you are searching for online tick bite treatment in {city1}, Lyme disease prevention care in {city2}, tick bite evaluation online in {city3}, or telehealth tick bite assessment anywhere else in {state}, the same telehealth eligibility and safety rules apply."
   },
-
   "icd10Codes": [
-    { "code": "S90.469A", "description": "Insect bite (nonvenomous), unspecified foot, initial encounter" },
-    { "code": "T63.4XXA", "description": "Toxic effect of venom of other arthropods, initial encounter" },
-    { "code": "A69.20", "description": "Lyme disease, unspecified" }
+    {
+      "code": "S90.469A",
+      "description": "Insect bite (nonvenomous), unspecified foot, initial encounter"
+    },
+    {
+      "code": "T63.4XXA",
+      "description": "Toxic effect of venom of other arthropods, initial encounter"
+    },
+    {
+      "code": "A69.20",
+      "description": "Lyme disease, unspecified"
+    }
   ],
-
   "jsonLd": {
     "conditionName": "Tick Bite",
-    "conditionAlternateNames": ["Tick bite", "Deer tick bite", "Lyme disease prevention", "Tick bite prophylaxis"],
+    "conditionAlternateNames": [
+      "Tick bite",
+      "Deer tick bite",
+      "Lyme disease prevention",
+      "Tick bite prophylaxis"
+    ],
     "conditionDescription": "A tick bite evaluation involves risk assessment for Lyme disease based on tick species, geographic location, and attachment duration. TeleDirectMD evaluates adult tick bites by video visit with photo-based assessment, guideline-based doxycycline prophylaxis within the 72-hour window when high-risk criteria are met, and clear 30-day monitoring guidance with rules for when urgent in-person care is needed.",
     "primaryIcd10": "S90.469A",
     "anatomy": "Skin and soft tissue",
-    "symptoms": ["Tick attachment", "Local redness at bite site", "Erythema migrans", "Fever after tick bite", "Joint pain after tick bite"],
+    "symptoms": [
+      "Tick attachment",
+      "Local redness at bite site",
+      "Erythema migrans",
+      "Fever after tick bite",
+      "Joint pain after tick bite"
+    ],
     "riskFactors": [
       "Ixodes tick species (deer tick)",
       "Lyme-endemic geographic area",
@@ -554,9 +740,18 @@
     ],
     "epidemiology": "Approximately 476,000 cases of Lyme disease are diagnosed annually in the United States. Lyme disease is concentrated in the Northeast, upper Midwest, and parts of the West Coast.",
     "drugs": [
-      { "name": "Doxycycline", "id": "doxycycline" },
-      { "name": "Amoxicillin", "id": "amoxicillin" },
-      { "name": "Cefuroxime axetil", "id": "cefuroxime-axetil" }
+      {
+        "name": "Doxycycline",
+        "id": "doxycycline"
+      },
+      {
+        "name": "Amoxicillin",
+        "id": "amoxicillin"
+      },
+      {
+        "name": "Cefuroxime axetil",
+        "id": "cefuroxime-axetil"
+      }
     ],
     "treatments": [
       "Single-dose doxycycline prophylaxis for high-risk bites",
@@ -569,11 +764,30 @@
       "Clinical symptom review and Lyme disease risk stratification",
       "Lyme serology when indicated for established infection"
     ],
-    "specialties": ["Family Medicine", "Telemedicine", "Infectious Disease"],
+    "specialties": [
+      "Family Medicine",
+      "Telemedicine",
+      "Infectious Disease"
+    ],
     "guidelines": [
-      { "name": "IDSA/AAN/ACR 2020 Lyme Disease Guidelines", "url": "https://academic.oup.com/cid/article/72/1/e1/6010652", "publisher": "Infectious Diseases Society of America", "id": "idsa-lyme-2020" },
-      { "name": "CDC Lyme Disease Overview", "url": "https://www.cdc.gov/lyme/index.html", "publisher": "Centers for Disease Control and Prevention", "id": "cdc-lyme" },
-      { "name": "Single-Dose Doxycycline for Lyme Prevention (Nadelman et al.)", "url": "https://www.nejm.org/doi/full/10.1056/NEJM200107123450201", "publisher": "New England Journal of Medicine", "id": "nejm-doxy" }
+      {
+        "name": "IDSA/AAN/ACR 2020 Lyme Disease Guidelines",
+        "url": "https://academic.oup.com/cid/article/72/1/e1/6010652",
+        "publisher": "Infectious Diseases Society of America",
+        "id": "idsa-lyme-2020"
+      },
+      {
+        "name": "CDC Lyme Disease Overview",
+        "url": "https://www.cdc.gov/lyme/index.html",
+        "publisher": "Centers for Disease Control and Prevention",
+        "id": "cdc-lyme"
+      },
+      {
+        "name": "Single-Dose Doxycycline for Lyme Prevention (Nadelman et al.)",
+        "url": "https://www.nejm.org/doi/full/10.1056/NEJM200107123450201",
+        "publisher": "New England Journal of Medicine",
+        "id": "nejm-doxy"
+      }
     ],
     "knowsAbout": [
       "Tick bite evaluation",
@@ -586,5 +800,7 @@
     ],
     "serviceDescription": "Secure video visit for {state} adults with recent tick bites, including photo-based tick assessment, Lyme disease risk stratification, doxycycline prophylaxis when criteria are met, and 30-day monitoring guidance.",
     "webpageDescription": "{state} tick bite treatment by secure MD video visit for adults. Evidence-based Lyme disease risk assessment, single-dose doxycycline prophylaxis within the 72-hour window when appropriate, and clear rules for when urgent in-person care is needed."
-  }
+  },
+  "guidelineSource": "cdcTick",
+  "conditionType": "treatment"
 }

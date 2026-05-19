@@ -2,20 +2,34 @@
   "conditionName": "Dandruff Treatment",
   "conditionShort": "Dandruff",
   "conditionSlug": "dandruff-treatment-online",
-  "pageTitle": "Dandruff Treatment Online in {state} | Seborrheic Dermatitis MD Video Visit | TeleDirectMD",
+  "pageTitle": "Dandruff Online Treatment in {state} | TeleDirectMD",
   "metaDescription": "Evidence-based dandruff and seborrheic dermatitis treatment for {state} adults by secure video visit. Prescription-strength ketoconazole, antifungal therapy, and scalp care guidance. Self pay option starting at $49. Insurance is not required.",
   "ogImageAlt": "Dandruff treatment in {state} by TeleDirectMD",
-
   "hero": {
     "h1": "Dandruff Treatment in {state} (Seborrheic Dermatitis)",
     "subtitle": "{state} adult care by secure video visit, self pay option starting at $49, MD-only, insurance is not required.",
     "introParagraph": "Dandruff is the most common form of seborrheic dermatitis, a chronic inflammatory condition of the scalp driven by Malassezia yeast overgrowth on sebaceous-gland-rich skin. Symptoms include persistent flaking, itching, scaling, and erythema that wax and wane over months to years. While mild dandruff often responds to over-the-counter medicated shampoos, moderate to severe seborrheic dermatitis frequently requires prescription-strength antifungal therapy such as ketoconazole 2% shampoo or topical antifungal creams. TeleDirectMD provides a structured telehealth evaluation that distinguishes dandruff from conditions that mimic it, including scalp psoriasis, tinea capitis, and contact dermatitis, and determines whether prescription treatment is appropriate based on symptom severity, distribution, prior treatment history, and response to OTC products. This page is for adults located in {state}, including {cities}.",
     "tocLinks": [
-      { "href": "eligibility-checklist", "label": "Eligibility checklist" },
-      { "href": "decision-guide", "label": "Decision guide" },
-      { "href": "treatment-options", "label": "Treatment options" },
-      { "href": "faq", "label": "FAQs" },
-      { "href": "references", "label": "References" }
+      {
+        "href": "eligibility-checklist",
+        "label": "Eligibility checklist"
+      },
+      {
+        "href": "decision-guide",
+        "label": "Decision guide"
+      },
+      {
+        "href": "treatment-options",
+        "label": "Treatment options"
+      },
+      {
+        "href": "faq",
+        "label": "FAQs"
+      },
+      {
+        "href": "references",
+        "label": "References"
+      }
     ],
     "benefits": [
       "Self pay option starting at $49",
@@ -35,7 +49,6 @@
     },
     "icd10Display": "L21.0 (seborrhea capitis), L21.9 (seborrheic dermatitis unspecified)"
   },
-
   "eligibility": {
     "sectionTitle": "Dandruff Telehealth Eligibility Checklist for {state}",
     "introText": "You are likely eligible for a TeleDirectMD video visit if ALL of these are true:",
@@ -58,7 +71,6 @@
     ],
     "notEligibleDisclaimer": "If your symptoms suggest tinea capitis, psoriasis, or secondary infection, seek in-person dermatology evaluation. TeleDirectMD is not appropriate for conditions requiring scalp biopsy or fungal culture."
   },
-
   "howItWorks": {
     "sectionTitle": "How Online Dandruff Treatment Works in {state}",
     "steps": [
@@ -80,7 +92,6 @@
       }
     ]
   },
-
   "telehealthRegulations": {
     "sectionTitle": "{state} Telehealth Regulations for Online Dandruff Care",
     "paragraphs": [
@@ -88,7 +99,6 @@
       "Location matters: you must be physically in {state} during the visit. Insurance is not required. TeleDirectMD does not prescribe controlled substances."
     ]
   },
-
   "comparisonTable": {
     "sectionTitle": "TeleDirectMD vs Other Care Options for Dandruff in {state}",
     "intro": "Here is how TeleDirectMD compares to common settings for adult dandruff and seborrheic dermatitis care in {state}:",
@@ -136,7 +146,6 @@
     ],
     "bottomLine": "TeleDirectMD is a strong fit for dandruff and seborrheic dermatitis evaluation with prescription antifungal therapy and chronic maintenance guidance, all with direct MD care."
   },
-
   "decisionGuide": {
     "sectionTitle": "Should I Use TeleDirectMD for Dandruff in {state}? Decision Guide",
     "steps": [
@@ -180,7 +189,6 @@
       }
     ]
   },
-
   "pricing": {
     "sectionTitle": "What Does Dandruff Treatment Cost in {state}?",
     "subtitle": "Transparent options. Insurance is not required.",
@@ -194,15 +202,34 @@
       "Clear follow-up steps"
     ],
     "comparisonBars": [
-      { "name": "TeleDirectMD", "value": "$49", "width": 12, "isTdmd": true },
-      { "name": "Primary Care", "value": "$100 to $250+", "width": 45, "isTdmd": false },
-      { "name": "Urgent Care", "value": "$150 to $300+", "width": 55, "isTdmd": false },
-      { "name": "Emergency Room", "value": "$500 to $3,000+", "width": 100, "isTdmd": false }
+      {
+        "name": "TeleDirectMD",
+        "value": "$49",
+        "width": 12,
+        "isTdmd": true
+      },
+      {
+        "name": "Primary Care",
+        "value": "$100 to $250+",
+        "width": 45,
+        "isTdmd": false
+      },
+      {
+        "name": "Urgent Care",
+        "value": "$150 to $300+",
+        "width": 55,
+        "isTdmd": false
+      },
+      {
+        "name": "Emergency Room",
+        "value": "$500 to $3,000+",
+        "width": 100,
+        "isTdmd": false
+      }
     ],
     "footnote": "Prescription costs at your pharmacy are separate and vary by medication and pharmacy.",
     "noHiddenFees": "No hidden fees. If medication is not clinically appropriate, you still receive a complete evaluation, guidance, and clear instructions on what level of care you need next."
   },
-
   "whatIsCondition": {
     "sectionTitle": "What Is Dandruff?",
     "paragraphs": [
@@ -211,36 +238,91 @@
       "When seborrheic dermatitis extends beyond the scalp, it commonly involves the eyebrows, nasolabial folds, ears, and central chest. TeleDirectMD evaluates dandruff and seborrheic dermatitis via photo assessment and clinical history, prescribes antifungal therapy when appropriate, and provides chronic maintenance guidance to reduce flare frequency."
     ]
   },
-
   "causesAndRiskFactors": {
     "sectionTitle": "Causes and Risk Factors",
     "intro": "Dandruff and seborrheic dermatitis result from an inflammatory reaction to Malassezia yeast on sebaceous-gland-rich skin. Several factors increase susceptibility and flare frequency.",
     "items": [
-      { "label": "Malassezia yeast overgrowth:", "text": "the primary driver of seborrheic dermatitis, this fungus metabolizes skin oils into oleic acid and other byproducts that trigger inflammation and accelerated skin cell shedding" },
-      { "label": "Sebaceous gland activity:", "text": "areas with the most oil production (scalp, face, chest) are most commonly affected, which is why dandruff is rare before puberty and peaks in young adulthood" },
-      { "label": "Immune status:", "text": "seborrheic dermatitis is significantly more common and more severe in immunocompromised individuals, affecting up to 83% of people with HIV/AIDS" },
-      { "label": "Neurologic conditions:", "text": "Parkinson disease and other neurologic conditions are associated with increased seborrheic dermatitis severity" },
-      { "label": "Stress and fatigue:", "text": "emotional stress, sleep deprivation, and illness can trigger or worsen flares through immune and hormonal pathways" },
-      { "label": "Cold, dry weather:", "text": "seborrheic dermatitis often worsens in fall and winter months and may improve with sun exposure and humidity" }
+      {
+        "label": "Malassezia yeast overgrowth:",
+        "text": "the primary driver of seborrheic dermatitis, this fungus metabolizes skin oils into oleic acid and other byproducts that trigger inflammation and accelerated skin cell shedding"
+      },
+      {
+        "label": "Sebaceous gland activity:",
+        "text": "areas with the most oil production (scalp, face, chest) are most commonly affected, which is why dandruff is rare before puberty and peaks in young adulthood"
+      },
+      {
+        "label": "Immune status:",
+        "text": "seborrheic dermatitis is significantly more common and more severe in immunocompromised individuals, affecting up to 83% of people with HIV/AIDS"
+      },
+      {
+        "label": "Neurologic conditions:",
+        "text": "Parkinson disease and other neurologic conditions are associated with increased seborrheic dermatitis severity"
+      },
+      {
+        "label": "Stress and fatigue:",
+        "text": "emotional stress, sleep deprivation, and illness can trigger or worsen flares through immune and hormonal pathways"
+      },
+      {
+        "label": "Cold, dry weather:",
+        "text": "seborrheic dermatitis often worsens in fall and winter months and may improve with sun exposure and humidity"
+      }
     ],
     "closing": "Not every scalp condition is dandruff. Scalp psoriasis, tinea capitis (fungal infection), contact dermatitis, and other conditions can mimic seborrheic dermatitis. TeleDirectMD uses clinical history and photo assessment to distinguish dandruff from conditions that require in-person evaluation or different treatment."
   },
-
   "symptomsAndRedFlags": {
     "sectionTitle": "Symptoms and Red Flags for Dandruff in {state}",
     "intro": "Use this table to understand which symptoms fit dandruff or seborrheic dermatitis and which symptoms suggest a need for in-person evaluation.",
-    "headers": ["Symptom or situation", "What it suggests", "Telehealth appropriate?", "Red flag requiring in-person care"],
+    "headers": [
+      "Symptom or situation",
+      "What it suggests",
+      "Telehealth appropriate?",
+      "Red flag requiring in-person care"
+    ],
     "rows": [
-      ["White or yellowish flaking on scalp", "Typical dandruff (mild seborrheic dermatitis)", "Yes", "Only if accompanied by hair loss or treatment failure after 4-8 weeks"],
-      ["Itching and greasy scaling on scalp", "Moderate seborrheic dermatitis", "Yes", "If severe and unresponsive to OTC medicated shampoos for several weeks"],
-      ["Redness and flaking in eyebrows, nasolabial folds, or ears", "Facial seborrheic dermatitis", "Yes", "If rapidly spreading or associated with pus or crusting"],
-      ["Flaking on central chest or upper back", "Seborrheic dermatitis of trunk", "Yes", "If extensive or treatment-resistant"],
-      ["Patchy hair loss with scaling", "Possible tinea capitis (fungal scalp infection)", "No — needs culture", "Requires in-person dermatology evaluation and fungal culture"],
-      ["Thick, silvery, well-demarcated plaques", "Possible scalp psoriasis", "No — needs specialist", "Requires dermatology evaluation for diagnosis and targeted therapy"],
-      ["Rapidly spreading redness, pus, fever", "Secondary bacterial infection", "No", "Seek urgent in-person care"]
+      [
+        "White or yellowish flaking on scalp",
+        "Typical dandruff (mild seborrheic dermatitis)",
+        "Yes",
+        "Only if accompanied by hair loss or treatment failure after 4-8 weeks"
+      ],
+      [
+        "Itching and greasy scaling on scalp",
+        "Moderate seborrheic dermatitis",
+        "Yes",
+        "If severe and unresponsive to OTC medicated shampoos for several weeks"
+      ],
+      [
+        "Redness and flaking in eyebrows, nasolabial folds, or ears",
+        "Facial seborrheic dermatitis",
+        "Yes",
+        "If rapidly spreading or associated with pus or crusting"
+      ],
+      [
+        "Flaking on central chest or upper back",
+        "Seborrheic dermatitis of trunk",
+        "Yes",
+        "If extensive or treatment-resistant"
+      ],
+      [
+        "Patchy hair loss with scaling",
+        "Possible tinea capitis (fungal scalp infection)",
+        "No — needs culture",
+        "Requires in-person dermatology evaluation and fungal culture"
+      ],
+      [
+        "Thick, silvery, well-demarcated plaques",
+        "Possible scalp psoriasis",
+        "No — needs specialist",
+        "Requires dermatology evaluation for diagnosis and targeted therapy"
+      ],
+      [
+        "Rapidly spreading redness, pus, fever",
+        "Secondary bacterial infection",
+        "No",
+        "Seek urgent in-person care"
+      ]
     ]
   },
-
   "differentialDiagnosis": {
     "sectionTitle": "Differential Diagnosis: Dandruff vs Other Scalp Conditions",
     "intro": "Several scalp conditions can mimic dandruff. Accurate differentiation is important because treatments differ significantly. TeleDirectMD uses clinical history, symptom patterns, and photo assessment to identify seborrheic dermatitis and direct other conditions to appropriate in-person care.",
@@ -276,7 +358,6 @@
     ],
     "closing": "If your symptoms do not match typical dandruff or seborrheic dermatitis, TeleDirectMD will direct you to in-person dermatology evaluation."
   },
-
   "telehealthEligibility": {
     "sectionTitle": "When Is a Video Visit Appropriate?",
     "appropriate": {
@@ -302,7 +383,6 @@
       "disclaimer": "If your scalp symptoms suggest tinea capitis, psoriasis, or secondary infection, seek in-person dermatology evaluation. TeleDirectMD is not appropriate for conditions requiring biopsy or fungal culture."
     }
   },
-
   "treatmentOptions": {
     "sectionTitle": "Treatment Options",
     "intro": "Dandruff and seborrheic dermatitis are chronic conditions driven by Malassezia yeast. Treatment targets the yeast with antifungal agents and manages inflammation when present. Most patients achieve good control with a combination of medicated shampoos and, when needed, prescription-strength antifungal therapy. Because the underlying cause (Malassezia yeast) cannot be eliminated, maintenance therapy is essential to prevent relapse.",
@@ -331,22 +411,55 @@
       "Secondary bacterial infection requiring in-person wound evaluation"
     ]
   },
-
   "medications": {
     "sectionTitle": "Common Medication Options",
     "intro": "These are common examples for dandruff and seborrheic dermatitis. The actual medication, dose, and duration are determined by the MD after reviewing your symptoms, affected areas, prior treatments, and response to OTC products.",
-    "headers": ["Medication", "Typical dose", "Duration", "Key considerations"],
+    "headers": [
+      "Medication",
+      "Typical dose",
+      "Duration",
+      "Key considerations"
+    ],
     "rows": [
-      ["Ketoconazole 2% shampoo (Rx)", "Apply to wet scalp, lather, leave 3-5 minutes, rinse", "Twice weekly for 4 weeks, then 1-2x/week maintenance", "Prescription-strength antifungal. More effective than OTC 1% ketoconazole. First-line prescription option for moderate-severe scalp seborrheic dermatitis."],
-      ["Ketoconazole 2% cream/foam (Rx)", "Apply thin layer to affected facial or body areas twice daily", "2 to 4 weeks", "For facial seborrheic dermatitis (eyebrows, nasolabial folds, ears) and trunk involvement. Avoid contact with eyes."],
-      ["Ciclopirox 1% shampoo (Rx)", "Apply to wet scalp, lather, leave 3 minutes, rinse", "Twice weekly for 4 weeks", "Alternative prescription antifungal shampoo. Broad-spectrum antifungal with anti-inflammatory properties."],
-      ["Hydrocortisone 1% cream (OTC/Rx)", "Apply thin layer to affected area twice daily", "Short courses, typically 1 to 2 weeks", "Low-potency topical corticosteroid for inflammation and itching during active flares. Safe for facial use in short courses. Avoid prolonged use."],
-      ["Sodium sulfacetamide 10% lotion (Rx)", "Apply thin layer to affected facial areas once or twice daily", "2 to 4 weeks or as directed", "Anti-inflammatory and antimicrobial for facial seborrheic dermatitis. Useful for patients who prefer to avoid topical steroids on the face."],
-      ["Zinc pyrithione 1-2% shampoo (OTC)", "Apply to wet scalp, lather, leave 3-5 minutes, rinse", "Every 3-4 days for 8+ weeks, then maintenance", "OTC first-line. Antifungal and antibacterial. Continue as maintenance therapy 1-2x/week after symptoms improve."]
+      [
+        "Ketoconazole 2% shampoo (Rx)",
+        "Apply to wet scalp, lather, leave 3-5 minutes, rinse",
+        "Twice weekly for 4 weeks, then 1-2x/week maintenance",
+        "Prescription-strength antifungal. More effective than OTC 1% ketoconazole. First-line prescription option for moderate-severe scalp seborrheic dermatitis."
+      ],
+      [
+        "Ketoconazole 2% cream/foam (Rx)",
+        "Apply thin layer to affected facial or body areas twice daily",
+        "2 to 4 weeks",
+        "For facial seborrheic dermatitis (eyebrows, nasolabial folds, ears) and trunk involvement. Avoid contact with eyes."
+      ],
+      [
+        "Ciclopirox 1% shampoo (Rx)",
+        "Apply to wet scalp, lather, leave 3 minutes, rinse",
+        "Twice weekly for 4 weeks",
+        "Alternative prescription antifungal shampoo. Broad-spectrum antifungal with anti-inflammatory properties."
+      ],
+      [
+        "Hydrocortisone 1% cream (OTC/Rx)",
+        "Apply thin layer to affected area twice daily",
+        "Short courses, typically 1 to 2 weeks",
+        "Low-potency topical corticosteroid for inflammation and itching during active flares. Safe for facial use in short courses. Avoid prolonged use."
+      ],
+      [
+        "Sodium sulfacetamide 10% lotion (Rx)",
+        "Apply thin layer to affected facial areas once or twice daily",
+        "2 to 4 weeks or as directed",
+        "Anti-inflammatory and antimicrobial for facial seborrheic dermatitis. Useful for patients who prefer to avoid topical steroids on the face."
+      ],
+      [
+        "Zinc pyrithione 1-2% shampoo (OTC)",
+        "Apply to wet scalp, lather, leave 3-5 minutes, rinse",
+        "Every 3-4 days for 8+ weeks, then maintenance",
+        "OTC first-line. Antifungal and antibacterial. Continue as maintenance therapy 1-2x/week after symptoms improve."
+      ]
     ],
     "note": "Example regimens only. The actual medication and duration are determined by the MD after reviewing your symptoms, distribution, severity, prior treatments, and response. TeleDirectMD does not prescribe controlled substances."
   },
-
   "homeCare": {
     "sectionTitle": "Home Care, Maintenance, Prevention, and Follow-up",
     "whatToDoNow": {
@@ -379,7 +492,6 @@
       ]
     }
   },
-
   "whenNotToUse": {
     "sectionTitle": "When Not to Use TeleDirectMD for Dandruff in {state}",
     "intro": "TeleDirectMD is designed for dandruff and seborrheic dermatitis in adults. We are direct about when telehealth is not appropriate.",
@@ -398,14 +510,25 @@
     "alternatives": {
       "title": "Alternative Care Options",
       "items": [
-        { "label": "Dermatology:", "text": "treatment-resistant seborrheic dermatitis, diagnostic uncertainty, need for scalp biopsy, or suspected tinea capitis or psoriasis" },
-        { "label": "Primary care:", "text": "ongoing management, underlying condition evaluation, or broader medical context for chronic skin disease" },
-        { "label": "Urgent care:", "text": "secondary infection with cellulitis, fever, or rapidly worsening symptoms" },
-        { "label": "Emergency room:", "text": "rarely needed for dandruff, but appropriate for severe secondary infection with systemic illness" }
+        {
+          "label": "Dermatology:",
+          "text": "treatment-resistant seborrheic dermatitis, diagnostic uncertainty, need for scalp biopsy, or suspected tinea capitis or psoriasis"
+        },
+        {
+          "label": "Primary care:",
+          "text": "ongoing management, underlying condition evaluation, or broader medical context for chronic skin disease"
+        },
+        {
+          "label": "Urgent care:",
+          "text": "secondary infection with cellulitis, fever, or rapidly worsening symptoms"
+        },
+        {
+          "label": "Emergency room:",
+          "text": "rarely needed for dandruff, but appropriate for severe secondary infection with systemic illness"
+        }
       ]
     }
   },
-
   "faq": {
     "sectionTitle": "Dandruff Treatment FAQs for {state}",
     "items": [
@@ -455,16 +578,32 @@
       "text": "Insurance is not required. Adult-only video visits. MD-only care. Prescription antifungal therapy when appropriate, chronic maintenance planning, and clear guidance on when to seek in-person care."
     }
   },
-
   "references": [
-    { "text": "Seborrheic Dermatitis and Dandruff: A Comprehensive Review, Journal of Clinical and Investigative Dermatology (2015)", "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4852869/" },
-    { "text": "Seborrheic Dermatitis, StatPearls (2025)", "url": "https://www.ncbi.nlm.nih.gov/books/NBK551707/" },
-    { "text": "Seborrheic Dermatitis: Diagnosis and Management, American Family Physician (AAFP)", "url": "https://www.aafp.org/pubs/afp/issues/2015/0201/p185.html" },
-    { "text": "Malassezia and the Skin: Science and Clinical Practice, Springer (Boekhout et al.)", "url": "https://link.springer.com/book/10.1007/978-3-642-36632-6" },
-    { "text": "Seborrheic Dermatitis — Mayo Clinic Patient Education", "url": "https://www.mayoclinic.org/diseases-conditions/seborrheic-dermatitis/symptoms-causes/syc-20352710" },
-    { "text": "Ketoconazole Shampoo Prescribing Information, DailyMed/FDA", "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ketoconazole-shampoo" }
+    {
+      "text": "Seborrheic Dermatitis and Dandruff: A Comprehensive Review, Journal of Clinical and Investigative Dermatology (2015)",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4852869/"
+    },
+    {
+      "text": "Seborrheic Dermatitis, StatPearls (2025)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK551707/"
+    },
+    {
+      "text": "Seborrheic Dermatitis: Diagnosis and Management, American Family Physician (AAFP)",
+      "url": "https://www.aafp.org/pubs/afp/issues/2015/0201/p185.html"
+    },
+    {
+      "text": "Malassezia and the Skin: Science and Clinical Practice, Springer (Boekhout et al.)",
+      "url": "https://link.springer.com/book/10.1007/978-3-642-36632-6"
+    },
+    {
+      "text": "Seborrheic Dermatitis — Mayo Clinic Patient Education",
+      "url": "https://www.mayoclinic.org/diseases-conditions/seborrheic-dermatitis/symptoms-causes/syc-20352710"
+    },
+    {
+      "text": "Ketoconazole Shampoo Prescribing Information, DailyMed/FDA",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ketoconazole-shampoo"
+    }
   ],
-
   "disclaimer": {
     "sectionTitle": "TeleDirectMD Telehealth Disclaimer",
     "paragraphs": [
@@ -473,7 +612,6 @@
       "Online dandruff treatment in {state}. Seborrheic dermatitis treatment by video visit. Prescription ketoconazole shampoo online."
     ]
   },
-
   "relatedConditions": [
     {
       "slug": "eczema-treatment-online",
@@ -496,38 +634,86 @@
       "description": "Another common infection managed via telehealth with evidence-based prescriptions when appropriate"
     }
   ],
-
   "inlineLinks": [
-    { "slug": "eczema-treatment-online", "label": "Eczema" },
-    { "slug": "cold-sore-treatment-online", "label": "Cold Sore" },
-    { "slug": "pink-eye-treatment-online", "label": "Pink Eye" },
-    { "slug": "sinus-infection-treatment-online", "label": "Sinus Infection" },
-    { "slug": "sore-throat-treatment-online", "label": "Sore Throat" },
-    { "slug": "common-cold-treatment-online", "label": "Common Cold" },
-    { "slug": "shingles-treatment-online", "label": "Shingles" },
-    { "slug": "yeast-infection-treatment-online", "label": "Yeast Infection" },
-    { "slug": "asthma-refills-online", "label": "Asthma Refills" },
-    { "slug": "ear-pain-treatment-online", "label": "Ear Pain" }
+    {
+      "slug": "eczema-treatment-online",
+      "label": "Eczema"
+    },
+    {
+      "slug": "cold-sore-treatment-online",
+      "label": "Cold Sore"
+    },
+    {
+      "slug": "pink-eye-treatment-online",
+      "label": "Pink Eye"
+    },
+    {
+      "slug": "sinus-infection-treatment-online",
+      "label": "Sinus Infection"
+    },
+    {
+      "slug": "sore-throat-treatment-online",
+      "label": "Sore Throat"
+    },
+    {
+      "slug": "common-cold-treatment-online",
+      "label": "Common Cold"
+    },
+    {
+      "slug": "shingles-treatment-online",
+      "label": "Shingles"
+    },
+    {
+      "slug": "yeast-infection-treatment-online",
+      "label": "Yeast Infection"
+    },
+    {
+      "slug": "asthma-refills-online",
+      "label": "Asthma Refills"
+    },
+    {
+      "slug": "ear-pain-treatment-online",
+      "label": "Ear Pain"
+    }
   ],
-
   "cityBlock": {
     "title": "Adults We Serve Across {state}",
     "text": "TeleDirectMD evaluates adults located throughout {state}, including {citiesExtended}. Whether you are searching for online dandruff treatment in {city1}, seborrheic dermatitis care in {city2}, prescription ketoconazole shampoo online in {city3}, or telehealth scalp care anywhere else in {state}, the same telehealth eligibility and safety rules apply."
   },
-
   "icd10Codes": [
-    { "code": "L21.0", "description": "Seborrhea capitis (scalp seborrheic dermatitis / dandruff)" },
-    { "code": "L21.9", "description": "Seborrheic dermatitis, unspecified" },
-    { "code": "L21.1", "description": "Seborrheic infantile dermatitis" }
+    {
+      "code": "L21.0",
+      "description": "Seborrhea capitis (scalp seborrheic dermatitis / dandruff)"
+    },
+    {
+      "code": "L21.9",
+      "description": "Seborrheic dermatitis, unspecified"
+    },
+    {
+      "code": "L21.1",
+      "description": "Seborrheic infantile dermatitis"
+    }
   ],
-
   "jsonLd": {
     "conditionName": "Dandruff (Seborrheic Dermatitis)",
-    "conditionAlternateNames": ["Dandruff", "Seborrheic dermatitis", "Seborrhea capitis", "Scalp seborrheic dermatitis", "Pityriasis capitis"],
+    "conditionAlternateNames": [
+      "Dandruff",
+      "Seborrheic dermatitis",
+      "Seborrhea capitis",
+      "Scalp seborrheic dermatitis",
+      "Pityriasis capitis"
+    ],
     "conditionDescription": "Dandruff is the most common form of seborrheic dermatitis, a chronic inflammatory skin condition driven by Malassezia yeast overgrowth on sebaceous-gland-rich skin areas. TeleDirectMD evaluates dandruff and seborrheic dermatitis symptoms by video visit with photo assessment, prescribes antifungal therapy when clinically appropriate, and provides chronic maintenance guidance to reduce flare frequency.",
     "primaryIcd10": "L21.0",
     "anatomy": "Skin (scalp, face, chest)",
-    "symptoms": ["Scalp flaking", "Scalp itching", "Greasy scaling", "Erythema of scalp", "Eyebrow flaking", "Nasolabial fold redness"],
+    "symptoms": [
+      "Scalp flaking",
+      "Scalp itching",
+      "Greasy scaling",
+      "Erythema of scalp",
+      "Eyebrow flaking",
+      "Nasolabial fold redness"
+    ],
     "riskFactors": [
       "Malassezia yeast overgrowth",
       "Increased sebaceous gland activity",
@@ -544,9 +730,18 @@
     ],
     "epidemiology": "Dandruff affects up to 50% of adults. Seborrheic dermatitis affects 1-3% of the general population, with higher prevalence in immunocompromised individuals.",
     "drugs": [
-      { "name": "Ketoconazole 2% shampoo", "id": "ketoconazole-shampoo" },
-      { "name": "Ketoconazole 2% cream", "id": "ketoconazole-cream" },
-      { "name": "Ciclopirox 1% shampoo", "id": "ciclopirox-shampoo" }
+      {
+        "name": "Ketoconazole 2% shampoo",
+        "id": "ketoconazole-shampoo"
+      },
+      {
+        "name": "Ketoconazole 2% cream",
+        "id": "ketoconazole-cream"
+      },
+      {
+        "name": "Ciclopirox 1% shampoo",
+        "id": "ciclopirox-shampoo"
+      }
     ],
     "treatments": [
       "OTC medicated shampoos (zinc pyrithione, selenium sulfide, ketoconazole 1%, coal tar)",
@@ -558,11 +753,30 @@
       "Clinical symptom review and photo assessment",
       "Fungal culture when tinea capitis is suspected (in-person only)"
     ],
-    "specialties": ["Family Medicine", "Telemedicine", "Dermatology"],
+    "specialties": [
+      "Family Medicine",
+      "Telemedicine",
+      "Dermatology"
+    ],
     "guidelines": [
-      { "name": "Seborrheic Dermatitis: Diagnosis and Management, AAFP", "url": "https://www.aafp.org/pubs/afp/issues/2015/0201/p185.html", "publisher": "American Academy of Family Physicians", "id": "aafp" },
-      { "name": "Seborrheic Dermatitis and Dandruff: A Comprehensive Review", "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4852869/", "publisher": "Journal of Clinical and Investigative Dermatology", "id": "jcid" },
-      { "name": "Seborrheic Dermatitis, StatPearls", "url": "https://www.ncbi.nlm.nih.gov/books/NBK551707/", "publisher": "StatPearls Publishing", "id": "statpearls" }
+      {
+        "name": "Seborrheic Dermatitis: Diagnosis and Management, AAFP",
+        "url": "https://www.aafp.org/pubs/afp/issues/2015/0201/p185.html",
+        "publisher": "American Academy of Family Physicians",
+        "id": "aafp"
+      },
+      {
+        "name": "Seborrheic Dermatitis and Dandruff: A Comprehensive Review",
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4852869/",
+        "publisher": "Journal of Clinical and Investigative Dermatology",
+        "id": "jcid"
+      },
+      {
+        "name": "Seborrheic Dermatitis, StatPearls",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK551707/",
+        "publisher": "StatPearls Publishing",
+        "id": "statpearls"
+      }
     ],
     "knowsAbout": [
       "Dandruff treatment",
@@ -574,5 +788,7 @@
     ],
     "serviceDescription": "Secure video visit for {state} adults with dandruff and seborrheic dermatitis symptoms, including photo assessment, prescription antifungal therapy when clinically appropriate, and chronic maintenance guidance.",
     "webpageDescription": "{state} dandruff treatment by secure MD video visit for adults. Evidence-based evaluation of seborrheic dermatitis symptoms, prescription ketoconazole and antifungal therapy when appropriate, chronic maintenance planning, and clear rules for when in-person dermatology care is needed."
-  }
+  },
+  "guidelineSource": "aad",
+  "conditionType": "treatment"
 }

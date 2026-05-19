@@ -2,20 +2,34 @@
   "conditionName": "Mycoplasma Genitalium Treatment",
   "conditionShort": "Mycoplasma Genitalium",
   "conditionSlug": "mycoplasma-genitalium-treatment-online",
-  "pageTitle": "Mycoplasma Genitalium Treatment Online in {state} | Mgen MD Video Visit | TeleDirectMD",
+  "pageTitle": "M. Genitalium Online Treatment in {state} | TeleDirectMD",
   "metaDescription": "Evidence-based Mycoplasma genitalium (Mgen) treatment for {state} adults by secure video visit. CDC 2021 guideline-based resistance-guided therapy evaluation, doxycycline and moxifloxacin prescriptions when clinically appropriate, partner treatment guidance, and co-testing recommendations. Self pay option starting at $49. Insurance is not required.",
   "ogImageAlt": "Mycoplasma genitalium treatment in {state} by TeleDirectMD",
-
   "hero": {
     "h1": "Mycoplasma Genitalium Treatment in {state} (Mgen, Nongonococcal Urethritis / Cervicitis)",
     "subtitle": "{state} adult care by secure video visit, self pay option starting at $49, MD-only, insurance is not required.",
     "introParagraph": "Mycoplasma genitalium (Mgen) is one of the smallest self-replicating bacteria known and an emerging cause of sexually transmitted infections. It accounts for approximately 15 to 20 percent of all nongonococcal urethritis (NGU) cases in men, and up to 40 percent of persistent or recurrent urethritis after standard therapy. In women, Mgen is detected in 10 to 30 percent of cases of clinical cervicitis and has been associated with pelvic inflammatory disease (PID), preterm birth, and spontaneous abortion. A critical challenge with Mgen is rising antibiotic resistance — macrolide resistance markers are detected in 44 to 90 percent of US strains, which is why the CDC 2021 STI Treatment Guidelines now recommend a two-stage, resistance-guided therapy approach rather than standard azithromycin single-dose. TeleDirectMD can evaluate adults in {state} who present with a positive Mgen NAAT result or a history of persistent or recurrent urethritis and cervicitis after treatment for chlamydia and gonorrhea, review resistance testing results when available, prescribe CDC-recommended sequential therapy, and provide partner treatment guidance. TeleDirectMD does not perform STI testing — patients should be tested at a local clinic, lab, or sexual health center and bring results to the visit. This page is for adults located in {state}, including {cities}.",
     "tocLinks": [
-      { "href": "eligibility-checklist", "label": "Eligibility checklist" },
-      { "href": "decision-guide", "label": "Decision guide" },
-      { "href": "treatment-options", "label": "Treatment options" },
-      { "href": "faq", "label": "FAQs" },
-      { "href": "references", "label": "References" }
+      {
+        "href": "eligibility-checklist",
+        "label": "Eligibility checklist"
+      },
+      {
+        "href": "decision-guide",
+        "label": "Decision guide"
+      },
+      {
+        "href": "treatment-options",
+        "label": "Treatment options"
+      },
+      {
+        "href": "faq",
+        "label": "FAQs"
+      },
+      {
+        "href": "references",
+        "label": "References"
+      }
     ],
     "benefits": [
       "Self pay option starting at $49",
@@ -35,7 +49,6 @@
     },
     "icd10Display": "A49.3, N34.1, or N72 (final coding depends on clinical details and presentation)"
   },
-
   "eligibility": {
     "sectionTitle": "Mycoplasma Genitalium Telehealth Eligibility Checklist for {state}",
     "introText": "You are likely eligible for a TeleDirectMD video visit if ALL of these are true:",
@@ -60,7 +73,6 @@
     ],
     "notEligibleDisclaimer": "If you have pelvic pain with fever, severe testicular pain, or systemic signs of infection, seek in-person care immediately. TeleDirectMD is not an emergency service."
   },
-
   "howItWorks": {
     "sectionTitle": "How Online Mycoplasma Genitalium Treatment Works in {state}",
     "steps": [
@@ -82,7 +94,6 @@
       }
     ]
   },
-
   "telehealthRegulations": {
     "sectionTitle": "{state} Telehealth Regulations for Online Mycoplasma Genitalium Care",
     "paragraphs": [
@@ -90,7 +101,6 @@
       "Location matters: you must be physically in {state} during the visit. Insurance is not required. TeleDirectMD does not prescribe controlled substances."
     ]
   },
-
   "comparisonTable": {
     "sectionTitle": "TeleDirectMD vs Other Care Options for Mycoplasma Genitalium in {state}",
     "intro": "Here is how TeleDirectMD compares to common care settings for adult Mycoplasma genitalium evaluation in {state}:",
@@ -138,7 +148,6 @@
     ],
     "bottomLine": "TeleDirectMD is a strong fit for adults who already have a positive Mgen test result or persistent post-treatment urethritis or cervicitis, need a CDC-guided sequential antibiotic prescription quickly, and want partner treatment guidance — without the time and cost of an in-person visit."
   },
-
   "decisionGuide": {
     "sectionTitle": "Should I Use TeleDirectMD for Mycoplasma Genitalium in {state}? Decision Guide",
     "steps": [
@@ -184,7 +193,6 @@
       }
     ]
   },
-
   "pricing": {
     "sectionTitle": "What Does Mycoplasma Genitalium Treatment Cost in {state}?",
     "subtitle": "Transparent options. Insurance is not required.",
@@ -198,15 +206,34 @@
       "Clear follow-up instructions including test of cure guidance and when to seek specialist referral"
     ],
     "comparisonBars": [
-      { "name": "TeleDirectMD", "value": "$49", "width": 12, "isTdmd": true },
-      { "name": "Primary Care", "value": "$100 to $350+", "width": 52, "isTdmd": false },
-      { "name": "Urgent Care", "value": "$150 to $300+", "width": 60, "isTdmd": false },
-      { "name": "Emergency Room", "value": "$500 to $3,000+", "width": 100, "isTdmd": false }
+      {
+        "name": "TeleDirectMD",
+        "value": "$49",
+        "width": 12,
+        "isTdmd": true
+      },
+      {
+        "name": "Primary Care",
+        "value": "$100 to $350+",
+        "width": 52,
+        "isTdmd": false
+      },
+      {
+        "name": "Urgent Care",
+        "value": "$150 to $300+",
+        "width": 60,
+        "isTdmd": false
+      },
+      {
+        "name": "Emergency Room",
+        "value": "$500 to $3,000+",
+        "width": 100,
+        "isTdmd": false
+      }
     ],
     "footnote": "Prescription costs at your pharmacy are separate and vary by medication and pharmacy. STI testing costs are separate. Moxifloxacin may have higher pharmacy costs than doxycycline — ask your pharmacist about generics.",
     "noHiddenFees": "No hidden fees. If medication is not clinically appropriate, you still receive a complete evaluation, guidance, and clear instructions on what level of care you need next."
   },
-
   "whatIsCondition": {
     "sectionTitle": "What Is Mycoplasma Genitalium?",
     "paragraphs": [
@@ -215,37 +242,97 @@
       "TeleDirectMD can evaluate adults in {state} who present with a positive Mgen NAAT result or persistent or recurrent urethritis or cervicitis after prior STI treatment, prescribe CDC-recommended sequential therapy, provide partner treatment guidance, and direct patients with complications such as PID or epididymitis to appropriate in-person care. TeleDirectMD does not perform STI testing — patients should get tested at a local clinic, lab, or sexual health center and bring results to the visit."
     ]
   },
-
   "causesAndRiskFactors": {
     "sectionTitle": "Causes and Risk Factors",
     "intro": "Mycoplasma genitalium is caused by the bacterium Mycoplasmoides (Mycoplasma) genitalium and is transmitted through sexual contact. Several factors increase the risk of acquisition and of antibiotic-resistant infection.",
     "items": [
-      { "label": "Sexual transmission:", "text": "Mgen is transmitted through vaginal, anal, and oral sexual contact with an infected partner. Like chlamydia, many Mgen infections are asymptomatic, so transmission can occur from partners who have no symptoms." },
-      { "label": "Multiple or new sexual partners:", "text": "Having multiple partners or a new partner increases the risk of Mgen acquisition, consistent with patterns seen for other bacterial STIs." },
-      { "label": "Inconsistent condom use:", "text": "Condoms reduce but do not eliminate the risk of Mgen transmission when used consistently and correctly." },
-      { "label": "History of prior STI or prior antibiotic exposure:", "text": "A history of prior STIs is associated with higher Mgen prevalence. Importantly, prior azithromycin treatment (including single-dose azithromycin used for chlamydia) can select for macrolide-resistant Mgen strains, making subsequent treatment more difficult." },
-      { "label": "Persistent or recurrent urethritis or cervicitis:", "text": "Mgen should be specifically suspected when urethritis or cervicitis symptoms persist or recur after completing standard treatment for chlamydia and gonorrhea, as it is the most common cause of this clinical scenario." },
-      { "label": "Younger age and certain demographic groups:", "text": "Mgen prevalence is higher in persons aged 20 to 29 years and in non-Hispanic Black individuals based on NHANES 2017–2018 national survey data." }
+      {
+        "label": "Sexual transmission:",
+        "text": "Mgen is transmitted through vaginal, anal, and oral sexual contact with an infected partner. Like chlamydia, many Mgen infections are asymptomatic, so transmission can occur from partners who have no symptoms."
+      },
+      {
+        "label": "Multiple or new sexual partners:",
+        "text": "Having multiple partners or a new partner increases the risk of Mgen acquisition, consistent with patterns seen for other bacterial STIs."
+      },
+      {
+        "label": "Inconsistent condom use:",
+        "text": "Condoms reduce but do not eliminate the risk of Mgen transmission when used consistently and correctly."
+      },
+      {
+        "label": "History of prior STI or prior antibiotic exposure:",
+        "text": "A history of prior STIs is associated with higher Mgen prevalence. Importantly, prior azithromycin treatment (including single-dose azithromycin used for chlamydia) can select for macrolide-resistant Mgen strains, making subsequent treatment more difficult."
+      },
+      {
+        "label": "Persistent or recurrent urethritis or cervicitis:",
+        "text": "Mgen should be specifically suspected when urethritis or cervicitis symptoms persist or recur after completing standard treatment for chlamydia and gonorrhea, as it is the most common cause of this clinical scenario."
+      },
+      {
+        "label": "Younger age and certain demographic groups:",
+        "text": "Mgen prevalence is higher in persons aged 20 to 29 years and in non-Hispanic Black individuals based on NHANES 2017–2018 national survey data."
+      }
     ],
     "closing": "Because many Mgen infections are asymptomatic and routine screening is not currently recommended (due to high resistance rates and unclear implications of asymptomatic infection), targeted diagnostic testing is reserved for individuals with symptomatic persistent or recurrent urethritis, cervicitis, or PID where other common pathogens have been excluded. Resistance-guided therapy is strongly preferred when resistance testing results are available."
   },
-
   "symptomsAndRedFlags": {
     "sectionTitle": "Symptoms and Red Flags for Mycoplasma Genitalium in {state}",
     "intro": "Use this table to understand which presentations are appropriate for telehealth evaluation and which patterns suggest complications requiring immediate in-person care.",
-    "headers": ["Symptom or situation", "What it suggests", "Telehealth appropriate?", "Red flag requiring urgent in-person care"],
+    "headers": [
+      "Symptom or situation",
+      "What it suggests",
+      "Telehealth appropriate?",
+      "Red flag requiring urgent in-person care"
+    ],
     "rows": [
-      ["Positive Mgen NAAT result with no or mild symptoms", "Mgen infection detected; treatment needed to prevent complications and transmission", "Yes", "No"],
-      ["Urethral discharge and burning with urination in men (persistent after chlamydia/gonorrhea treatment)", "Persistent NGU — Mgen is the most common cause after prior STI treatment", "Yes, with test results", "If accompanied by testicular pain and swelling"],
-      ["Abnormal vaginal discharge or intermenstrual spotting in women", "Possible Mgen cervicitis", "Yes, with positive test", "If accompanied by pelvic pain and fever"],
-      ["Persistent or recurrent cervicitis after doxycycline or azithromycin", "Possible Mgen as underlying cause", "Yes, with evaluation of prior treatment history", "If fever is present or exam-level pelvic tenderness is suspected"],
-      ["Pelvic pain with fever in a woman", "Possible pelvic inflammatory disease (PID)", "No", "Urgent in-person evaluation — may need IV antibiotics or hospitalization"],
-      ["Testicular pain and swelling in a man", "Possible epididymitis", "No", "Urgent in-person evaluation needed"],
-      ["Pregnancy with suspected or confirmed Mgen", "Moxifloxacin is contraindicated; requires careful in-person management", "No", "In-person prenatal care required — moxifloxacin contraindicated in pregnancy"],
-      ["Treatment failure after completing moxifloxacin regimen", "Possible quinolone-resistant Mgen or multi-drug resistant strain", "Discuss with MD — specialist referral likely needed", "Infectious disease or sexual health specialist referral recommended"]
+      [
+        "Positive Mgen NAAT result with no or mild symptoms",
+        "Mgen infection detected; treatment needed to prevent complications and transmission",
+        "Yes",
+        "No"
+      ],
+      [
+        "Urethral discharge and burning with urination in men (persistent after chlamydia/gonorrhea treatment)",
+        "Persistent NGU — Mgen is the most common cause after prior STI treatment",
+        "Yes, with test results",
+        "If accompanied by testicular pain and swelling"
+      ],
+      [
+        "Abnormal vaginal discharge or intermenstrual spotting in women",
+        "Possible Mgen cervicitis",
+        "Yes, with positive test",
+        "If accompanied by pelvic pain and fever"
+      ],
+      [
+        "Persistent or recurrent cervicitis after doxycycline or azithromycin",
+        "Possible Mgen as underlying cause",
+        "Yes, with evaluation of prior treatment history",
+        "If fever is present or exam-level pelvic tenderness is suspected"
+      ],
+      [
+        "Pelvic pain with fever in a woman",
+        "Possible pelvic inflammatory disease (PID)",
+        "No",
+        "Urgent in-person evaluation — may need IV antibiotics or hospitalization"
+      ],
+      [
+        "Testicular pain and swelling in a man",
+        "Possible epididymitis",
+        "No",
+        "Urgent in-person evaluation needed"
+      ],
+      [
+        "Pregnancy with suspected or confirmed Mgen",
+        "Moxifloxacin is contraindicated; requires careful in-person management",
+        "No",
+        "In-person prenatal care required — moxifloxacin contraindicated in pregnancy"
+      ],
+      [
+        "Treatment failure after completing moxifloxacin regimen",
+        "Possible quinolone-resistant Mgen or multi-drug resistant strain",
+        "Discuss with MD — specialist referral likely needed",
+        "Infectious disease or sexual health specialist referral recommended"
+      ]
     ]
   },
-
   "differentialDiagnosis": {
     "sectionTitle": "Differential Diagnosis: Mycoplasma Genitalium vs Other Conditions",
     "intro": "Several STIs and urogenital conditions share symptoms with Mgen infection. A positive Mgen NAAT confirms the diagnosis, but co-infections are common and TeleDirectMD screens for concurrent infections and complications as part of every evaluation.",
@@ -286,7 +373,6 @@
     ],
     "closing": "If your symptoms suggest PID, complicated epididymitis, concurrent gonorrhea, pregnancy, or multi-drug resistant Mgen after moxifloxacin failure, TeleDirectMD will direct you to appropriate in-person or specialist care."
   },
-
   "telehealthEligibility": {
     "sectionTitle": "When Is a Video Visit Appropriate?",
     "appropriate": {
@@ -315,7 +401,6 @@
       "disclaimer": "If any red-flag symptoms are present, seek in-person care or go to the ER immediately. TeleDirectMD is not an emergency service."
     }
   },
-
   "treatmentOptions": {
     "sectionTitle": "Treatment Options",
     "intro": "The CDC 2021 STI Treatment Guidelines recommend a two-stage, resistance-guided sequential therapy approach for Mycoplasma genitalium. This strategy uses doxycycline first to reduce the organism load (improving the efficacy of the second-stage antibiotic), then targets the organism with either azithromycin (if macrolide-sensitive) or moxifloxacin (if macrolide-resistant or resistance testing is unavailable). This approach achieves cure rates above 90 percent when resistance testing guides therapy, compared to much lower rates with empiric azithromycin alone. A 1-gram single dose of azithromycin alone should no longer be used for Mgen due to high resistance rates and evidence that it actively selects for resistant strains.",
@@ -346,20 +431,43 @@
       "Tubo-ovarian abscess or suspected complicated upper tract infection"
     ]
   },
-
   "medications": {
     "sectionTitle": "Common Medication Options",
     "intro": "These are the CDC 2021-recommended medication regimens for adult Mycoplasma genitalium treatment. The actual medications, doses, and sequencing are determined by the MD after reviewing your test results, resistance testing data, symptom history, allergy profile, and safety screening. Resistance-guided therapy is the strongly preferred approach.",
-    "headers": ["Medication", "Typical dose", "Duration", "Key considerations"],
+    "headers": [
+      "Medication",
+      "Typical dose",
+      "Duration",
+      "Key considerations"
+    ],
     "rows": [
-      ["Doxycycline (stage one — all patients)", "100 mg by mouth twice daily", "7 days (stage one)", "Given first to all patients regardless of resistance status. Reduces Mgen bacterial load and improves efficacy of second-stage antibiotic. Not curative for Mgen alone. Contraindicated in pregnancy. Take with food and water. Avoid dairy within 2 hours. Sun sensitivity."],
-      ["Moxifloxacin (stage two — macrolide-resistant or resistance testing unavailable)", "400 mg by mouth once daily", "7 days (stage two, begins after completing doxycycline)", "CDC-preferred second-stage agent when macrolide resistance is confirmed or resistance testing unavailable. FDA black box warning: tendinitis and tendon rupture (avoid if prior tendon rupture history), QT prolongation (avoid if QTc prolonged or on QT-prolonging drugs), peripheral neuropathy, exacerbation of myasthenia gravis. Contraindicated in pregnancy. Higher pharmacy cost than doxycycline."],
-      ["Azithromycin extended regimen (stage two — macrolide-sensitive only)", "1 g by mouth on day 1, then 500 mg daily for 3 additional days (2.5 g total)", "4 days (stage two, begins after completing doxycycline)", "Used only when macrolide resistance testing confirms susceptibility. A 1g single dose of azithromycin alone should NOT be used for Mgen — it leads to treatment failure and resistance selection. This extended regimen achieves high cure rates for sensitive strains. Contraindicated as sole agent; must follow doxycycline stage one."],
-      ["Doxycycline — PID with Mgen (extended)", "100 mg by mouth twice daily", "14 days", "For women with PID in whom Mgen is detected, standard PID empiric regimens (including a 14-day doxycycline course) are not effective against Mgen alone. If Mgen is confirmed in PID, moxifloxacin 400mg daily for 14 days may be needed after the initial empiric PID treatment. This scenario warrants close follow-up and is often managed in collaboration with gynecology."]
+      [
+        "Doxycycline (stage one — all patients)",
+        "100 mg by mouth twice daily",
+        "7 days (stage one)",
+        "Given first to all patients regardless of resistance status. Reduces Mgen bacterial load and improves efficacy of second-stage antibiotic. Not curative for Mgen alone. Contraindicated in pregnancy. Take with food and water. Avoid dairy within 2 hours. Sun sensitivity."
+      ],
+      [
+        "Moxifloxacin (stage two — macrolide-resistant or resistance testing unavailable)",
+        "400 mg by mouth once daily",
+        "7 days (stage two, begins after completing doxycycline)",
+        "CDC-preferred second-stage agent when macrolide resistance is confirmed or resistance testing unavailable. FDA black box warning: tendinitis and tendon rupture (avoid if prior tendon rupture history), QT prolongation (avoid if QTc prolonged or on QT-prolonging drugs), peripheral neuropathy, exacerbation of myasthenia gravis. Contraindicated in pregnancy. Higher pharmacy cost than doxycycline."
+      ],
+      [
+        "Azithromycin extended regimen (stage two — macrolide-sensitive only)",
+        "1 g by mouth on day 1, then 500 mg daily for 3 additional days (2.5 g total)",
+        "4 days (stage two, begins after completing doxycycline)",
+        "Used only when macrolide resistance testing confirms susceptibility. A 1g single dose of azithromycin alone should NOT be used for Mgen — it leads to treatment failure and resistance selection. This extended regimen achieves high cure rates for sensitive strains. Contraindicated as sole agent; must follow doxycycline stage one."
+      ],
+      [
+        "Doxycycline — PID with Mgen (extended)",
+        "100 mg by mouth twice daily",
+        "14 days",
+        "For women with PID in whom Mgen is detected, standard PID empiric regimens (including a 14-day doxycycline course) are not effective against Mgen alone. If Mgen is confirmed in PID, moxifloxacin 400mg daily for 14 days may be needed after the initial empiric PID treatment. This scenario warrants close follow-up and is often managed in collaboration with gynecology."
+      ]
     ],
     "note": "Example regimens only. The actual medication, dose, and sequence are determined by the MD after reviewing your test results (including resistance testing when available), symptom history, prior antibiotic use, allergy profile, and safety screening for moxifloxacin (QT prolongation, tendon history, pregnancy, myasthenia gravis). Abstain from sexual contact during all stages of treatment. Test of cure is recommended 21 days after completing therapy for symptomatic patients to confirm eradication. TeleDirectMD does not prescribe controlled substances."
   },
-
   "homeCare": {
     "sectionTitle": "Home Care, Recovery, Partner Notification, and Follow-up",
     "whatToDoNow": {
@@ -396,7 +504,6 @@
       ]
     }
   },
-
   "whenNotToUse": {
     "sectionTitle": "When Not to Use TeleDirectMD for Mycoplasma Genitalium in {state}",
     "intro": "TeleDirectMD is designed for uncomplicated Mgen evaluation and treatment. We are direct about when telehealth is not appropriate.",
@@ -417,15 +524,29 @@
     "alternatives": {
       "title": "Alternative Care Options",
       "items": [
-        { "label": "Emergency room:", "text": "pelvic pain with high fever (PID), severe testicular pain and swelling, or signs of sepsis or tubo-ovarian abscess" },
-        { "label": "Urgent care or sexual health clinic:", "text": "STI testing and treatment in one visit, uncertain diagnosis, concurrent gonorrhea needing injection, or need for in-person pelvic or genital exam" },
-        { "label": "Infectious disease specialist:", "text": "treatment failure after moxifloxacin, suspected multi-drug resistant Mgen, or complex cases requiring specialty guidance" },
-        { "label": "OB/GYN or gynecology:", "text": "PID management, pregnancy-associated Mgen, or complicated upper tract infections" },
-        { "label": "Primary care:", "text": "comprehensive STI screening, ongoing sexual health management, and coordination with urology or gynecology for complex or recurrent cases" }
+        {
+          "label": "Emergency room:",
+          "text": "pelvic pain with high fever (PID), severe testicular pain and swelling, or signs of sepsis or tubo-ovarian abscess"
+        },
+        {
+          "label": "Urgent care or sexual health clinic:",
+          "text": "STI testing and treatment in one visit, uncertain diagnosis, concurrent gonorrhea needing injection, or need for in-person pelvic or genital exam"
+        },
+        {
+          "label": "Infectious disease specialist:",
+          "text": "treatment failure after moxifloxacin, suspected multi-drug resistant Mgen, or complex cases requiring specialty guidance"
+        },
+        {
+          "label": "OB/GYN or gynecology:",
+          "text": "PID management, pregnancy-associated Mgen, or complicated upper tract infections"
+        },
+        {
+          "label": "Primary care:",
+          "text": "comprehensive STI screening, ongoing sexual health management, and coordination with urology or gynecology for complex or recurrent cases"
+        }
       ]
     }
   },
-
   "faq": {
     "sectionTitle": "Mycoplasma Genitalium Treatment FAQs for {state}",
     "items": [
@@ -483,16 +604,32 @@
       "text": "Insurance is not required. Adult-only video visits. MD-only care. Safety-first red-flag screening, CDC 2021 guideline-based sequential treatment, moxifloxacin safety screening, partner notification guidance, and prescriptions when clinically appropriate."
     }
   },
-
   "references": [
-    { "text": "CDC STI Treatment Guidelines 2021 — Mycoplasma genitalium", "url": "https://www.cdc.gov/std/treatment-guidelines/mycoplasmagenitalium.htm" },
-    { "text": "CDC STI Treatment Guidelines 2021 — Urethritis and Cervicitis", "url": "https://www.cdc.gov/std/treatment-guidelines/urethritis-and-cervicitis.htm" },
-    { "text": "Mycoplasma genitalium Management in Adults (NYSDOH AIDS Institute Clinical Guidelines, 2022) — NCBI Bookshelf NBK583532", "url": "https://www.ncbi.nlm.nih.gov/books/NBK583532/" },
-    { "text": "Torrone EA, et al. Prevalence of Urogenital Mycoplasma genitalium Infection, United States, 2017 to 2018. Sex Transm Dis. 2021;48(11):e160-e162.", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10955328/" },
-    { "text": "Mycoplasma Infections — StatPearls (2023), NCBI Bookshelf NBK536927", "url": "https://www.ncbi.nlm.nih.gov/books/NBK536927/" },
-    { "text": "Mgen in the US (MyGeniUS): Surveillance Data from Sexual Health Clinics in 4 US Regions. Clin Infect Dis. 2023;77(10):1449.", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10654846/" }
+    {
+      "text": "CDC STI Treatment Guidelines 2021 — Mycoplasma genitalium",
+      "url": "https://www.cdc.gov/std/treatment-guidelines/mycoplasmagenitalium.htm"
+    },
+    {
+      "text": "CDC STI Treatment Guidelines 2021 — Urethritis and Cervicitis",
+      "url": "https://www.cdc.gov/std/treatment-guidelines/urethritis-and-cervicitis.htm"
+    },
+    {
+      "text": "Mycoplasma genitalium Management in Adults (NYSDOH AIDS Institute Clinical Guidelines, 2022) — NCBI Bookshelf NBK583532",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK583532/"
+    },
+    {
+      "text": "Torrone EA, et al. Prevalence of Urogenital Mycoplasma genitalium Infection, United States, 2017 to 2018. Sex Transm Dis. 2021;48(11):e160-e162.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10955328/"
+    },
+    {
+      "text": "Mycoplasma Infections — StatPearls (2023), NCBI Bookshelf NBK536927",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK536927/"
+    },
+    {
+      "text": "Mgen in the US (MyGeniUS): Surveillance Data from Sexual Health Clinics in 4 US Regions. Clin Infect Dis. 2023;77(10):1449.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10654846/"
+    }
   ],
-
   "disclaimer": {
     "sectionTitle": "TeleDirectMD Telehealth Disclaimer",
     "paragraphs": [
@@ -501,7 +638,6 @@
       "Online Mycoplasma genitalium treatment in {state}. Mgen antibiotics online. Persistent urethritis treatment online. Nongonococcal urethritis treatment by video visit. STI telehealth {state}."
     ]
   },
-
   "relatedConditions": [
     {
       "slug": "chlamydia-treatment-online",
@@ -529,35 +665,79 @@
       "description": "BV frequently co-occurs with STIs including Mgen, and vaginal microbiome disruption may influence susceptibility to and outcomes from Mgen infection"
     }
   ],
-
   "inlineLinks": [
-    { "slug": "chlamydia-treatment-online", "label": "Chlamydia Treatment" },
-    { "slug": "trichomoniasis-treatment-online", "label": "Trichomoniasis Treatment" },
-    { "slug": "genital-herpes-treatment-online", "label": "Genital Herpes Treatment" },
-    { "slug": "uti-treatment-online", "label": "UTI Treatment" },
-    { "slug": "bv-treatment-online", "label": "Bacterial Vaginosis Treatment" },
-    { "slug": "yeast-infection-treatment-online", "label": "Yeast Infection Treatment" },
-    { "slug": "sinus-infection-treatment-online", "label": "Sinus Infection Treatment" },
-    { "slug": "sore-throat-treatment-online", "label": "Sore Throat Treatment" },
-    { "slug": "pink-eye-treatment-online", "label": "Pink Eye Treatment" },
-    { "slug": "cold-sore-treatment-online", "label": "Cold Sore Treatment" }
+    {
+      "slug": "chlamydia-treatment-online",
+      "label": "Chlamydia Treatment"
+    },
+    {
+      "slug": "trichomoniasis-treatment-online",
+      "label": "Trichomoniasis Treatment"
+    },
+    {
+      "slug": "genital-herpes-treatment-online",
+      "label": "Genital Herpes Treatment"
+    },
+    {
+      "slug": "uti-treatment-online",
+      "label": "UTI Treatment"
+    },
+    {
+      "slug": "bv-treatment-online",
+      "label": "Bacterial Vaginosis Treatment"
+    },
+    {
+      "slug": "yeast-infection-treatment-online",
+      "label": "Yeast Infection Treatment"
+    },
+    {
+      "slug": "sinus-infection-treatment-online",
+      "label": "Sinus Infection Treatment"
+    },
+    {
+      "slug": "sore-throat-treatment-online",
+      "label": "Sore Throat Treatment"
+    },
+    {
+      "slug": "pink-eye-treatment-online",
+      "label": "Pink Eye Treatment"
+    },
+    {
+      "slug": "cold-sore-treatment-online",
+      "label": "Cold Sore Treatment"
+    }
   ],
-
   "cityBlock": {
     "title": "Adults We Serve Across {state}",
     "text": "TeleDirectMD evaluates adults located throughout {state}, including {citiesExtended}. Whether you are searching for online Mycoplasma genitalium treatment in {city1}, Mgen care in {city2}, persistent urethritis evaluation online in {city3}, or telehealth STI treatment anywhere else in {state}, the same telehealth eligibility and safety rules apply."
   },
-
   "icd10Codes": [
-    { "code": "A49.3", "description": "Mycoplasma infection, unspecified site" },
-    { "code": "N34.1", "description": "Nonspecific urethritis (used when Mgen causes NGU in men)" },
-    { "code": "N72", "description": "Inflammatory disease of cervix uteri (used when Mgen causes cervicitis in women)" },
-    { "code": "N70.01", "description": "Acute salpingitis (used when Mgen is associated with PID / acute salpingitis)" }
+    {
+      "code": "A49.3",
+      "description": "Mycoplasma infection, unspecified site"
+    },
+    {
+      "code": "N34.1",
+      "description": "Nonspecific urethritis (used when Mgen causes NGU in men)"
+    },
+    {
+      "code": "N72",
+      "description": "Inflammatory disease of cervix uteri (used when Mgen causes cervicitis in women)"
+    },
+    {
+      "code": "N70.01",
+      "description": "Acute salpingitis (used when Mgen is associated with PID / acute salpingitis)"
+    }
   ],
-
   "jsonLd": {
     "conditionName": "Mycoplasma Genitalium",
-    "conditionAlternateNames": ["Mgen", "Mgen infection", "Mycoplasma genitalium infection", "Mycoplasmoides genitalium", "MG infection"],
+    "conditionAlternateNames": [
+      "Mgen",
+      "Mgen infection",
+      "Mycoplasma genitalium infection",
+      "Mycoplasmoides genitalium",
+      "MG infection"
+    ],
     "conditionDescription": "Mycoplasma genitalium (Mgen) is an emerging sexually transmitted bacterium that is the second most common cause of nongonococcal urethritis in men and a leading cause of persistent or recurrent urethritis and cervicitis. TeleDirectMD evaluates adult Mgen test results by video visit with red-flag screening for PID and epididymitis, CDC 2021 guideline-based sequential antibiotic prescriptions (doxycycline followed by moxifloxacin or azithromycin based on resistance), partner treatment guidance, moxifloxacin black box safety screening, and clear rules for when in-person or specialist care is needed.",
     "primaryIcd10": "A49.3",
     "anatomy": "Genitourinary tract (urethra, cervix, endometrium, fallopian tubes)",
@@ -588,9 +768,18 @@
     ],
     "epidemiology": "The urogenital prevalence of Mycoplasma genitalium in the US general population is approximately 1.7 percent (NHANES 2017–2018), representing an estimated 3 million infected persons aged 14 to 59 years. In sexual health clinic populations, prevalence ranges from 10 to 25 percent. Mgen causes 15 to 20 percent of all nongonococcal urethritis and up to 40 percent of persistent or recurrent urethritis. Macrolide resistance markers are detected in 44 to 90 percent of US strains.",
     "drugs": [
-      { "name": "Doxycycline", "id": "doxycycline" },
-      { "name": "Moxifloxacin", "id": "moxifloxacin" },
-      { "name": "Azithromycin (extended regimen, macrolide-sensitive only)", "id": "azithromycin" }
+      {
+        "name": "Doxycycline",
+        "id": "doxycycline"
+      },
+      {
+        "name": "Moxifloxacin",
+        "id": "moxifloxacin"
+      },
+      {
+        "name": "Azithromycin (extended regimen, macrolide-sensitive only)",
+        "id": "azithromycin"
+      }
     ],
     "treatments": [
       "Stage one: Doxycycline 100mg twice daily for 7 days (all patients, to reduce bacterial load)",
@@ -605,10 +794,25 @@
       "Co-testing for gonorrhea, chlamydia, HIV, syphilis, and trichomonas",
       "Red-flag screening for PID and epididymitis"
     ],
-    "specialties": ["Family Medicine", "Telemedicine", "Infectious Disease", "Sexual Health"],
+    "specialties": [
+      "Family Medicine",
+      "Telemedicine",
+      "Infectious Disease",
+      "Sexual Health"
+    ],
     "guidelines": [
-      { "name": "CDC STI Treatment Guidelines 2021 — Mycoplasma genitalium", "url": "https://www.cdc.gov/std/treatment-guidelines/mycoplasmagenitalium.htm", "publisher": "Centers for Disease Control and Prevention", "id": "cdc-mgen-2021" },
-      { "name": "Mycoplasma genitalium Management in Adults — NYSDOH AIDS Institute 2022", "url": "https://www.ncbi.nlm.nih.gov/books/NBK583532/", "publisher": "New York State Department of Health AIDS Institute", "id": "nysdoh-mgen-2022" }
+      {
+        "name": "CDC STI Treatment Guidelines 2021 — Mycoplasma genitalium",
+        "url": "https://www.cdc.gov/std/treatment-guidelines/mycoplasmagenitalium.htm",
+        "publisher": "Centers for Disease Control and Prevention",
+        "id": "cdc-mgen-2021"
+      },
+      {
+        "name": "Mycoplasma genitalium Management in Adults — NYSDOH AIDS Institute 2022",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK583532/",
+        "publisher": "New York State Department of Health AIDS Institute",
+        "id": "nysdoh-mgen-2022"
+      }
     ],
     "knowsAbout": [
       "Mycoplasma genitalium treatment",
@@ -623,5 +827,7 @@
     ],
     "serviceDescription": "Secure video visit for {state} adults with positive Mycoplasma genitalium NAAT results or persistent or recurrent urethritis or cervicitis, including red-flag screening, CDC 2021 guideline-based sequential antibiotic prescriptions, moxifloxacin safety screening, partner treatment guidance, and co-testing recommendations.",
     "webpageDescription": "{state} Mycoplasma genitalium treatment by secure MD video visit for adults. Evidence-based sequential therapy evaluation (doxycycline plus moxifloxacin or azithromycin based on resistance testing), red-flag screening for PID and epididymitis, moxifloxacin black box warning safety screening, partner notification guidance, and clear rules for when in-person or specialist care is needed."
-  }
+  },
+  "guidelineSource": "cdcSti",
+  "conditionType": "treatment"
 }

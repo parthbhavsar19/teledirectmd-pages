@@ -2,20 +2,34 @@
   "conditionName": "Genital Herpes",
   "conditionShort": "genital herpes",
   "conditionSlug": "genital-herpes-treatment-online",
-  "pageTitle": "Genital Herpes Treatment Online in {state} | HSV MD Video Visit | TeleDirectMD",
+  "pageTitle": "Genital Herpes Online Treatment in {state} | TeleDirectMD",
   "metaDescription": "Confidential, evidence-based genital herpes treatment for {state} adults by secure video visit. First-episode, episodic, and suppressive antiviral therapy. Board-certified MD care starting at $49. Insurance is not required.",
   "ogImageAlt": "Genital herpes treatment in {state} by TeleDirectMD",
-
   "hero": {
     "h1": "Genital Herpes Treatment in {state} (HSV-2)",
     "subtitle": "{state} adult care by secure video visit, self pay option starting at $49, MD-only, insurance is not required.",
     "introParagraph": "Genital herpes is one of the most common sexually transmitted infections in the United States, with an estimated 1 in 6 adults aged 14 to 49 carrying HSV-2 and many more carrying genital HSV-1. Despite its prevalence, herpes remains widely misunderstood and stigmatized. The CDC STI Treatment Guidelines recommend three FDA-approved antivirals for genital herpes — acyclovir, valacyclovir, and famciclovir — which reduce outbreak severity, shorten healing time, and decrease transmission risk but do not eradicate the virus. Treatment approaches include first-episode therapy for initial outbreaks, episodic therapy started at the first sign of recurrence, and daily suppressive therapy to reduce recurrence frequency and transmission risk. TeleDirectMD provides confidential, judgment-free evaluation by a board-certified MD who can prescribe antiviral therapy when clinically appropriate. We screen for red flags including disseminated HSV, severe primary outbreaks with urinary retention, and signs of immunocompromise before determining whether treatment by video visit is appropriate. This page is for adults located in {state}, including {cities}.",
     "tocLinks": [
-      { "href": "eligibility-checklist", "label": "Eligibility checklist" },
-      { "href": "decision-guide", "label": "Decision guide" },
-      { "href": "treatment-options", "label": "Treatment options" },
-      { "href": "faq", "label": "FAQs" },
-      { "href": "references", "label": "References" }
+      {
+        "href": "eligibility-checklist",
+        "label": "Eligibility checklist"
+      },
+      {
+        "href": "decision-guide",
+        "label": "Decision guide"
+      },
+      {
+        "href": "treatment-options",
+        "label": "Treatment options"
+      },
+      {
+        "href": "faq",
+        "label": "FAQs"
+      },
+      {
+        "href": "references",
+        "label": "References"
+      }
     ],
     "benefits": [
       "Self pay option starting at $49",
@@ -35,7 +49,6 @@
     },
     "icd10Display": "A60.0, A60.9, or B00.9 (final coding depends on clinical details)"
   },
-
   "eligibility": {
     "sectionTitle": "Genital Herpes Telehealth Eligibility Checklist for {state}",
     "introText": "You are likely eligible for a TeleDirectMD video visit if ALL of these are true:",
@@ -60,7 +73,6 @@
     ],
     "notEligibleDisclaimer": "If you have red-flag symptoms suggesting disseminated HSV, herpes encephalitis, or severe complications, seek emergency care immediately. TeleDirectMD is not an emergency service."
   },
-
   "howItWorks": {
     "sectionTitle": "How Online Genital Herpes Treatment Works in {state}",
     "steps": [
@@ -82,7 +94,6 @@
       }
     ]
   },
-
   "telehealthRegulations": {
     "sectionTitle": "{state} Telehealth Regulations for Online Genital Herpes Care",
     "paragraphs": [
@@ -90,7 +101,6 @@
       "Location matters: you must be physically in {state} during the visit. Insurance is not required. TeleDirectMD does not prescribe controlled substances."
     ]
   },
-
   "comparisonTable": {
     "sectionTitle": "TeleDirectMD vs Other Care Options for Genital Herpes in {state}",
     "intro": "Here is how TeleDirectMD compares to common settings for adult genital herpes care in {state}:",
@@ -138,7 +148,6 @@
     ],
     "bottomLine": "TeleDirectMD is a strong fit for uncomplicated genital herpes treatment with confidential, guideline-based antiviral prescribing and direct MD evaluation."
   },
-
   "decisionGuide": {
     "sectionTitle": "Should I Use TeleDirectMD for Genital Herpes in {state}? Decision Guide",
     "steps": [
@@ -183,7 +192,6 @@
       }
     ]
   },
-
   "pricing": {
     "sectionTitle": "What Does Genital Herpes Treatment Cost in {state}?",
     "subtitle": "Transparent options. Insurance is not required.",
@@ -197,15 +205,34 @@
       "Partner counseling, transmission reduction guidance, and follow-up instructions"
     ],
     "comparisonBars": [
-      { "name": "TeleDirectMD", "value": "$49", "width": 12, "isTdmd": true },
-      { "name": "Primary Care", "value": "$100 to $250+", "width": 45, "isTdmd": false },
-      { "name": "Urgent Care", "value": "$150 to $300+", "width": 55, "isTdmd": false },
-      { "name": "Emergency Room", "value": "$500 to $3,000+", "width": 100, "isTdmd": false }
+      {
+        "name": "TeleDirectMD",
+        "value": "$49",
+        "width": 12,
+        "isTdmd": true
+      },
+      {
+        "name": "Primary Care",
+        "value": "$100 to $250+",
+        "width": 45,
+        "isTdmd": false
+      },
+      {
+        "name": "Urgent Care",
+        "value": "$150 to $300+",
+        "width": 55,
+        "isTdmd": false
+      },
+      {
+        "name": "Emergency Room",
+        "value": "$500 to $3,000+",
+        "width": 100,
+        "isTdmd": false
+      }
     ],
     "footnote": "Prescription costs at your pharmacy are separate and vary by medication and pharmacy.",
     "noHiddenFees": "No hidden fees. If medication is not clinically appropriate, you still receive a complete evaluation, guidance, and clear instructions on what level of care you need next."
   },
-
   "whatIsCondition": {
     "sectionTitle": "What Is Genital Herpes?",
     "paragraphs": [
@@ -214,37 +241,97 @@
       "TeleDirectMD provides confidential, judgment-free evaluation for genital herpes with guideline-based antiviral prescribing for first episodes, recurrent outbreaks, and suppressive therapy, with careful screening to direct complicated cases to in-person care."
     ]
   },
-
   "causesAndRiskFactors": {
     "sectionTitle": "Causes and Risk Factors",
     "intro": "Genital herpes is caused by herpes simplex virus transmitted through direct skin-to-skin contact during vaginal, anal, or oral sex. The virus can be transmitted even when no visible sores are present through asymptomatic viral shedding. Understanding transmission and risk factors helps inform prevention strategies and treatment decisions.",
     "items": [
-      { "label": "HSV-2 infection:", "text": "the primary cause of recurrent genital herpes, transmitted through sexual contact with an infected partner, often during asymptomatic shedding" },
-      { "label": "HSV-1 genital infection:", "text": "increasingly common, typically transmitted through oral-genital contact, tends to recur less frequently than HSV-2" },
-      { "label": "Asymptomatic shedding:", "text": "the virus can be present on genital skin without visible lesions, accounting for a significant proportion of HSV transmission" },
-      { "label": "Multiple sexual partners:", "text": "increases cumulative exposure risk, though transmission can occur from a single contact" },
-      { "label": "Immunosuppression:", "text": "HIV infection, organ transplant recipients, and other immunocompromised states increase recurrence frequency and severity" },
-      { "label": "New sexual partnership:", "text": "highest transmission risk occurs during the first year of a sexual relationship with an HSV-positive partner" }
+      {
+        "label": "HSV-2 infection:",
+        "text": "the primary cause of recurrent genital herpes, transmitted through sexual contact with an infected partner, often during asymptomatic shedding"
+      },
+      {
+        "label": "HSV-1 genital infection:",
+        "text": "increasingly common, typically transmitted through oral-genital contact, tends to recur less frequently than HSV-2"
+      },
+      {
+        "label": "Asymptomatic shedding:",
+        "text": "the virus can be present on genital skin without visible lesions, accounting for a significant proportion of HSV transmission"
+      },
+      {
+        "label": "Multiple sexual partners:",
+        "text": "increases cumulative exposure risk, though transmission can occur from a single contact"
+      },
+      {
+        "label": "Immunosuppression:",
+        "text": "HIV infection, organ transplant recipients, and other immunocompromised states increase recurrence frequency and severity"
+      },
+      {
+        "label": "New sexual partnership:",
+        "text": "highest transmission risk occurs during the first year of a sexual relationship with an HSV-positive partner"
+      }
     ],
     "closing": "Having genital herpes is extremely common and does not reflect personal hygiene or character. Daily suppressive antiviral therapy can reduce transmission risk to uninfected partners, and open communication with partners is an important part of managing the condition."
   },
-
   "symptomsAndRedFlags": {
     "sectionTitle": "Symptoms and Red Flags for Genital Herpes in {state}",
     "intro": "Use this table to understand which symptoms fit uncomplicated genital herpes and which patterns suggest a need for urgent in-person or emergency evaluation.",
-    "headers": ["Symptom or situation", "What it suggests", "Telehealth appropriate?", "Red flag requiring urgent in-person care"],
+    "headers": [
+      "Symptom or situation",
+      "What it suggests",
+      "Telehealth appropriate?",
+      "Red flag requiring urgent in-person care"
+    ],
     "rows": [
-      ["Painful genital blisters or ulcers with tingling or burning", "Typical genital herpes outbreak", "Often yes", "If first episode with severe pain and systemic symptoms"],
-      ["Recurrent outbreaks in the same genital area with prodromal tingling", "Recurrent HSV, well-suited for episodic or suppressive therapy", "Often yes", "If atypical or significantly worsening pattern"],
-      ["Mild flu-like symptoms (low-grade fever, body aches) with first outbreak", "Common with first episode of genital herpes", "Often yes", "If high fever with extensive lesions or systemic illness"],
-      ["Painful urination due to lesions near the urethra", "Common complication of genital herpes outbreaks", "Often yes", "If unable to urinate or severe urinary retention develops"],
-      ["Genital lesions in an immunocompromised patient", "Higher risk of severe or disseminated HSV", "Sometimes", "If widespread, necrotic, or not responding to treatment"],
-      ["Widespread vesicular lesions with high fever and systemic illness", "Possible disseminated HSV", "No", "Emergency evaluation now"],
-      ["Confusion, seizures, severe headache with fever, neck stiffness", "Possible herpes encephalitis or meningitis", "No", "Emergency evaluation now"],
-      ["Eye pain, visual changes, or periocular vesicles", "Possible ocular herpes requiring ophthalmologic evaluation", "No", "Urgent ophthalmology or ER evaluation now"]
+      [
+        "Painful genital blisters or ulcers with tingling or burning",
+        "Typical genital herpes outbreak",
+        "Often yes",
+        "If first episode with severe pain and systemic symptoms"
+      ],
+      [
+        "Recurrent outbreaks in the same genital area with prodromal tingling",
+        "Recurrent HSV, well-suited for episodic or suppressive therapy",
+        "Often yes",
+        "If atypical or significantly worsening pattern"
+      ],
+      [
+        "Mild flu-like symptoms (low-grade fever, body aches) with first outbreak",
+        "Common with first episode of genital herpes",
+        "Often yes",
+        "If high fever with extensive lesions or systemic illness"
+      ],
+      [
+        "Painful urination due to lesions near the urethra",
+        "Common complication of genital herpes outbreaks",
+        "Often yes",
+        "If unable to urinate or severe urinary retention develops"
+      ],
+      [
+        "Genital lesions in an immunocompromised patient",
+        "Higher risk of severe or disseminated HSV",
+        "Sometimes",
+        "If widespread, necrotic, or not responding to treatment"
+      ],
+      [
+        "Widespread vesicular lesions with high fever and systemic illness",
+        "Possible disseminated HSV",
+        "No",
+        "Emergency evaluation now"
+      ],
+      [
+        "Confusion, seizures, severe headache with fever, neck stiffness",
+        "Possible herpes encephalitis or meningitis",
+        "No",
+        "Emergency evaluation now"
+      ],
+      [
+        "Eye pain, visual changes, or periocular vesicles",
+        "Possible ocular herpes requiring ophthalmologic evaluation",
+        "No",
+        "Urgent ophthalmology or ER evaluation now"
+      ]
     ]
   },
-
   "differentialDiagnosis": {
     "sectionTitle": "Differential Diagnosis: Genital Herpes vs Other Conditions",
     "intro": "Several conditions can cause genital sores, blisters, or ulcers that may resemble genital herpes. TeleDirectMD evaluates symptom patterns, outbreak history, and prior testing to distinguish uncomplicated genital herpes from conditions requiring different treatment or in-person evaluation.",
@@ -280,7 +367,6 @@
     ],
     "closing": "If your symptoms do not match uncomplicated genital herpes or any red flags are present, TeleDirectMD will direct you to urgent in-person care or the ER."
   },
-
   "telehealthEligibility": {
     "sectionTitle": "When Is a Video Visit Appropriate?",
     "appropriate": {
@@ -307,7 +393,6 @@
       "disclaimer": "If any red-flag symptoms are present, seek emergency care immediately. TeleDirectMD is not an emergency service."
     }
   },
-
   "treatmentOptions": {
     "sectionTitle": "Treatment Options",
     "intro": "The CDC STI Treatment Guidelines recommend three FDA-approved antivirals for genital herpes: acyclovir, valacyclovir, and famciclovir. Treatment approach depends on whether this is a first episode, episodic treatment for recurrences, or daily suppressive therapy. Antivirals reduce outbreak severity, shorten healing time, and decrease transmission risk but do not eradicate the virus.",
@@ -337,25 +422,73 @@
       "Atypical genital ulcers requiring biopsy or in-person dermatologic evaluation"
     ]
   },
-
   "medications": {
     "sectionTitle": "Common Medication Options",
     "intro": "These are common options for adult genital herpes. The actual medication, dose, and duration are determined by the MD after reviewing your symptoms, outbreak history, recurrence frequency, and medical history. Treatment approach varies based on whether this is a first episode, episodic treatment, or suppressive therapy.",
-    "headers": ["Medication", "Typical dose", "Duration", "Key considerations"],
+    "headers": [
+      "Medication",
+      "Typical dose",
+      "Duration",
+      "Key considerations"
+    ],
     "rows": [
-      ["Valacyclovir (first episode)", "1 g by mouth twice daily", "7 to 10 days", "CDC-recommended first-line for first episode. Prodrug of acyclovir with better oral bioavailability and simpler dosing. May extend if healing incomplete."],
-      ["Valacyclovir (episodic)", "500 mg by mouth twice daily OR 1 g daily", "3 days (500mg BID) or 5 days (1g daily)", "Start at first sign of prodromal symptoms or within 24 hours of lesion onset for best efficacy. Keep medication on hand."],
-      ["Valacyclovir (suppressive)", "500 mg by mouth daily OR 1 g daily", "Ongoing daily use", "500mg daily for fewer than 10 recurrences per year. 1g daily for 10 or more recurrences per year. Reduces transmission risk to uninfected partners."],
-      ["Acyclovir (first episode)", "400 mg by mouth three times daily", "7 to 10 days", "Original FDA-approved antiviral for genital herpes. Effective and well-tolerated. May extend if healing incomplete."],
-      ["Acyclovir (episodic)", "800 mg by mouth twice daily", "5 days", "Alternative episodic regimen. Start at first sign of recurrence."],
-      ["Acyclovir (suppressive)", "400 mg by mouth twice daily", "Ongoing daily use", "Well-established suppressive regimen with long safety track record. Requires twice-daily dosing."],
-      ["Famciclovir (first episode)", "250 mg by mouth three times daily", "7 to 10 days", "CDC-recommended alternative for first episode. Prodrug of penciclovir."],
-      ["Famciclovir (episodic)", "1 g by mouth twice daily", "1 day", "Single-day episodic regimen. Start at first sign of recurrence for best efficacy."],
-      ["Famciclovir (suppressive)", "250 mg by mouth twice daily", "Ongoing daily use", "Alternative daily suppressive option. Requires twice-daily dosing."]
+      [
+        "Valacyclovir (first episode)",
+        "1 g by mouth twice daily",
+        "7 to 10 days",
+        "CDC-recommended first-line for first episode. Prodrug of acyclovir with better oral bioavailability and simpler dosing. May extend if healing incomplete."
+      ],
+      [
+        "Valacyclovir (episodic)",
+        "500 mg by mouth twice daily OR 1 g daily",
+        "3 days (500mg BID) or 5 days (1g daily)",
+        "Start at first sign of prodromal symptoms or within 24 hours of lesion onset for best efficacy. Keep medication on hand."
+      ],
+      [
+        "Valacyclovir (suppressive)",
+        "500 mg by mouth daily OR 1 g daily",
+        "Ongoing daily use",
+        "500mg daily for fewer than 10 recurrences per year. 1g daily for 10 or more recurrences per year. Reduces transmission risk to uninfected partners."
+      ],
+      [
+        "Acyclovir (first episode)",
+        "400 mg by mouth three times daily",
+        "7 to 10 days",
+        "Original FDA-approved antiviral for genital herpes. Effective and well-tolerated. May extend if healing incomplete."
+      ],
+      [
+        "Acyclovir (episodic)",
+        "800 mg by mouth twice daily",
+        "5 days",
+        "Alternative episodic regimen. Start at first sign of recurrence."
+      ],
+      [
+        "Acyclovir (suppressive)",
+        "400 mg by mouth twice daily",
+        "Ongoing daily use",
+        "Well-established suppressive regimen with long safety track record. Requires twice-daily dosing."
+      ],
+      [
+        "Famciclovir (first episode)",
+        "250 mg by mouth three times daily",
+        "7 to 10 days",
+        "CDC-recommended alternative for first episode. Prodrug of penciclovir."
+      ],
+      [
+        "Famciclovir (episodic)",
+        "1 g by mouth twice daily",
+        "1 day",
+        "Single-day episodic regimen. Start at first sign of recurrence for best efficacy."
+      ],
+      [
+        "Famciclovir (suppressive)",
+        "250 mg by mouth twice daily",
+        "Ongoing daily use",
+        "Alternative daily suppressive option. Requires twice-daily dosing."
+      ]
     ],
     "note": "Example regimens only. The actual medication, dosing, and duration are determined by the MD after reviewing your symptoms, outbreak history, recurrence frequency, and medical history. Antiviral medications reduce but do not eliminate viral shedding and transmission risk. TeleDirectMD does not prescribe controlled substances."
   },
-
   "homeCare": {
     "sectionTitle": "Home Care, Recovery Timeline, Prevention, and Follow-up",
     "whatToDoNow": {
@@ -389,7 +522,6 @@
       ]
     }
   },
-
   "whenNotToUse": {
     "sectionTitle": "When Not to Use TeleDirectMD for Genital Herpes in {state}",
     "intro": "TeleDirectMD is designed for uncomplicated genital herpes symptoms. We are direct about when telehealth is not appropriate.",
@@ -409,14 +541,25 @@
     "alternatives": {
       "title": "Alternative Care Options",
       "items": [
-        { "label": "Emergency room:", "text": "disseminated HSV with systemic illness, severe urinary retention, suspected herpes encephalitis or meningitis, or widespread lesions in immunocompromised patients" },
-        { "label": "Urgent care:", "text": "first episode requiring in-person examination and testing, uncertain genital ulcer diagnosis, or moderate symptoms not responding to treatment" },
-        { "label": "OB/GYN:", "text": "genital herpes in pregnancy requiring delivery planning, suppressive therapy coordination starting at 36 weeks, or recurring outbreaks during pregnancy" },
-        { "label": "Infectious disease specialist:", "text": "immunocompromised patients with severe or treatment-resistant HSV, disseminated HSV, co-infection management with HIV, or atypical presentations requiring specialist coordination" }
+        {
+          "label": "Emergency room:",
+          "text": "disseminated HSV with systemic illness, severe urinary retention, suspected herpes encephalitis or meningitis, or widespread lesions in immunocompromised patients"
+        },
+        {
+          "label": "Urgent care:",
+          "text": "first episode requiring in-person examination and testing, uncertain genital ulcer diagnosis, or moderate symptoms not responding to treatment"
+        },
+        {
+          "label": "OB/GYN:",
+          "text": "genital herpes in pregnancy requiring delivery planning, suppressive therapy coordination starting at 36 weeks, or recurring outbreaks during pregnancy"
+        },
+        {
+          "label": "Infectious disease specialist:",
+          "text": "immunocompromised patients with severe or treatment-resistant HSV, disseminated HSV, co-infection management with HIV, or atypical presentations requiring specialist coordination"
+        }
       ]
     }
   },
-
   "faq": {
     "sectionTitle": "Genital Herpes Treatment FAQs for {state}",
     "items": [
@@ -466,14 +609,24 @@
       "text": "Insurance is not required. Adult-only video visits. MD-only care. Confidential evaluation, guideline-based treatment decisions, and prescriptions only when appropriate."
     }
   },
-
   "references": [
-    { "text": "CDC Sexually Transmitted Infections Treatment Guidelines (2021) — Genital Herpes", "url": "https://www.cdc.gov/std/treatment-guidelines/herpes.htm" },
-    { "text": "USPSTF Recommendation: Serologic Screening for Genital Herpes Infection", "url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/genital-herpes-screening" },
-    { "text": "Johns Hopkins Medicine: Genital Herpes", "url": "https://www.hopkinsmedicine.org/health/conditions-and-diseases/herpes-hsv1-and-hsv2/genital-herpes" },
-    { "text": "Genital Herpes Simplex Virus, StatPearls (2025)", "url": "https://www.ncbi.nlm.nih.gov/books/NBK525769/" }
+    {
+      "text": "CDC Sexually Transmitted Infections Treatment Guidelines (2021) — Genital Herpes",
+      "url": "https://www.cdc.gov/std/treatment-guidelines/herpes.htm"
+    },
+    {
+      "text": "USPSTF Recommendation: Serologic Screening for Genital Herpes Infection",
+      "url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/genital-herpes-screening"
+    },
+    {
+      "text": "Johns Hopkins Medicine: Genital Herpes",
+      "url": "https://www.hopkinsmedicine.org/health/conditions-and-diseases/herpes-hsv1-and-hsv2/genital-herpes"
+    },
+    {
+      "text": "Genital Herpes Simplex Virus, StatPearls (2025)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK525769/"
+    }
   ],
-
   "disclaimer": {
     "sectionTitle": "TeleDirectMD Telehealth Disclaimer",
     "paragraphs": [
@@ -482,7 +635,6 @@
       "Online genital herpes treatment in {state}. HSV treatment online. Genital herpes care by video visit."
     ]
   },
-
   "relatedConditions": [
     {
       "slug": "cold-sore-treatment-online",
@@ -505,38 +657,84 @@
       "description": "Genital symptoms including discharge and irritation may overlap with BV presentation"
     }
   ],
-
   "inlineLinks": [
-    { "slug": "cold-sore-treatment-online", "label": "Cold Sore" },
-    { "slug": "chlamydia-treatment-online", "label": "Chlamydia" },
-    { "slug": "bv-treatment-online", "label": "Bacterial Vaginosis" },
-    { "slug": "uti-treatment-online", "label": "UTI" },
-    { "slug": "yeast-infection-treatment-online", "label": "Yeast Infection" },
-    { "slug": "sinus-infection-treatment-online", "label": "Sinus Infection" },
-    { "slug": "sore-throat-treatment-online", "label": "Sore Throat" },
-    { "slug": "pink-eye-treatment-online", "label": "Pink Eye" },
-    { "slug": "ear-pain-treatment-online", "label": "Ear Pain" },
-    { "slug": "common-cold-treatment-online", "label": "Common Cold" }
+    {
+      "slug": "cold-sore-treatment-online",
+      "label": "Cold Sore"
+    },
+    {
+      "slug": "chlamydia-treatment-online",
+      "label": "Chlamydia"
+    },
+    {
+      "slug": "bv-treatment-online",
+      "label": "Bacterial Vaginosis"
+    },
+    {
+      "slug": "uti-treatment-online",
+      "label": "UTI"
+    },
+    {
+      "slug": "yeast-infection-treatment-online",
+      "label": "Yeast Infection"
+    },
+    {
+      "slug": "sinus-infection-treatment-online",
+      "label": "Sinus Infection"
+    },
+    {
+      "slug": "sore-throat-treatment-online",
+      "label": "Sore Throat"
+    },
+    {
+      "slug": "pink-eye-treatment-online",
+      "label": "Pink Eye"
+    },
+    {
+      "slug": "ear-pain-treatment-online",
+      "label": "Ear Pain"
+    },
+    {
+      "slug": "common-cold-treatment-online",
+      "label": "Common Cold"
+    }
   ],
-
   "cityBlock": {
     "title": "Adults We Serve Across {state}",
     "text": "TeleDirectMD evaluates adults located throughout {state}, including {citiesExtended}. Whether you are searching for online genital herpes treatment in {city1}, HSV treatment in {city2}, genital herpes medication online in {city3}, or telehealth herpes evaluation anywhere else in {state}, the same telehealth eligibility and safety rules apply."
   },
-
   "icd10Codes": [
-    { "code": "A60.0", "description": "Herpesviral infection of genitalia and urogenital tract" },
-    { "code": "A60.9", "description": "Anogenital herpesviral infection, unspecified" },
-    { "code": "B00.9", "description": "Herpesviral infection, unspecified (for reference only)" }
+    {
+      "code": "A60.0",
+      "description": "Herpesviral infection of genitalia and urogenital tract"
+    },
+    {
+      "code": "A60.9",
+      "description": "Anogenital herpesviral infection, unspecified"
+    },
+    {
+      "code": "B00.9",
+      "description": "Herpesviral infection, unspecified (for reference only)"
+    }
   ],
-
   "jsonLd": {
     "conditionName": "Genital Herpes",
-    "conditionAlternateNames": ["HSV-2", "Herpes simplex virus type 2", "Genital HSV", "Herpes genitalis"],
+    "conditionAlternateNames": [
+      "HSV-2",
+      "Herpes simplex virus type 2",
+      "Genital HSV",
+      "Herpes genitalis"
+    ],
     "conditionDescription": "Genital herpes is a common sexually transmitted infection caused by herpes simplex virus (HSV-2 or HSV-1) that produces recurrent painful genital blisters and ulcers. TeleDirectMD provides confidential evaluation and guideline-based antiviral treatment by video visit for adults in {state}, including first-episode therapy, episodic treatment, and daily suppressive therapy, with clear rules for when emergency care is needed.",
     "primaryIcd10": "A60.0",
     "anatomy": "Genital and urogenital tract",
-    "symptoms": ["Painful genital blisters or ulcers", "Tingling or burning before outbreaks", "Dysuria during outbreaks", "Inguinal lymphadenopathy", "Flu-like symptoms during first episode"],
+    "symptoms": [
+      "Painful genital blisters or ulcers",
+      "Tingling or burning before outbreaks",
+      "Dysuria during outbreaks",
+      "Inguinal lymphadenopathy",
+      "Flu-like symptoms during first episode"
+    ],
     "riskFactors": [
       "Sexual contact with HSV-positive partner",
       "Multiple sexual partners",
@@ -553,9 +751,18 @@
     ],
     "epidemiology": "The CDC estimates approximately 572,000 new genital herpes infections occur annually in the United States. About 1 in 6 Americans aged 14 to 49 has genital HSV-2 infection, with higher prevalence in women than men. Most individuals are unaware of their infection.",
     "drugs": [
-      { "name": "Valacyclovir", "id": "valacyclovir" },
-      { "name": "Acyclovir", "id": "acyclovir" },
-      { "name": "Famciclovir", "id": "famciclovir" }
+      {
+        "name": "Valacyclovir",
+        "id": "valacyclovir"
+      },
+      {
+        "name": "Acyclovir",
+        "id": "acyclovir"
+      },
+      {
+        "name": "Famciclovir",
+        "id": "famciclovir"
+      }
     ],
     "treatments": [
       "First-episode antiviral therapy (7 to 10 days)",
@@ -570,11 +777,31 @@
       "Viral culture or PCR of active lesions (in-person for definitive first-episode diagnosis)",
       "Type-specific HSV serologic testing when indicated"
     ],
-    "specialties": ["Family Medicine", "Telemedicine", "Infectious Disease", "Obstetrics and Gynecology"],
+    "specialties": [
+      "Family Medicine",
+      "Telemedicine",
+      "Infectious Disease",
+      "Obstetrics and Gynecology"
+    ],
     "guidelines": [
-      { "name": "CDC STI Treatment Guidelines — Genital Herpes", "url": "https://www.cdc.gov/std/treatment-guidelines/herpes.htm", "publisher": "Centers for Disease Control and Prevention", "id": "cdc-sti" },
-      { "name": "USPSTF Recommendation: Serologic Screening for Genital Herpes", "url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/genital-herpes-screening", "publisher": "United States Preventive Services Task Force", "id": "uspstf" },
-      { "name": "Johns Hopkins Medicine: Genital Herpes", "url": "https://www.hopkinsmedicine.org/health/conditions-and-diseases/herpes-hsv1-and-hsv2/genital-herpes", "publisher": "Johns Hopkins Medicine", "id": "jhm" }
+      {
+        "name": "CDC STI Treatment Guidelines — Genital Herpes",
+        "url": "https://www.cdc.gov/std/treatment-guidelines/herpes.htm",
+        "publisher": "Centers for Disease Control and Prevention",
+        "id": "cdc-sti"
+      },
+      {
+        "name": "USPSTF Recommendation: Serologic Screening for Genital Herpes",
+        "url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/genital-herpes-screening",
+        "publisher": "United States Preventive Services Task Force",
+        "id": "uspstf"
+      },
+      {
+        "name": "Johns Hopkins Medicine: Genital Herpes",
+        "url": "https://www.hopkinsmedicine.org/health/conditions-and-diseases/herpes-hsv1-and-hsv2/genital-herpes",
+        "publisher": "Johns Hopkins Medicine",
+        "id": "jhm"
+      }
     ],
     "knowsAbout": [
       "Genital herpes treatment",
@@ -587,5 +814,7 @@
     ],
     "serviceDescription": "Secure video visit for {state} adults with genital herpes symptoms, including red-flag screening, guideline-based antiviral prescribing, and prescriptions when clinically appropriate.",
     "webpageDescription": "{state} genital herpes treatment by secure MD video visit for adults. Confidential evaluation, first-episode and recurrent outbreak treatment, suppressive therapy, transmission reduction counseling, and clear rules for when emergency care is needed."
-  }
+  },
+  "guidelineSource": "cdcSti",
+  "conditionType": "treatment"
 }
