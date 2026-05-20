@@ -2,6 +2,7 @@ import { getStates, getStateBySlug, getConditionCategories } from '../../lib/get
 import { getStateInsurance } from '../../lib/insurance-data';
 import { getInsurersForState } from '../../lib/internal-links';
 import { CitableSummaryBlock } from '../components/CitableSummary';
+import FaqAccordion from '../components/FaqAccordion';
 import { summarizeStateLanding, citableSummaryToJsonLd } from '../../lib/citable-summary';
 
 export default function StateLandingPage({ stateSlug }) {
@@ -443,62 +444,61 @@ export default function StateLandingPage({ stateSlug }) {
       {/* 7) FAQ */}
       <section className="tdmd-section tdmd-faq" id={`${pid}-faq`}>
         <div className="tdmd-container">
-          <h2>Frequently Asked Questions — TeleDirectMD in {state.name}</h2>
-
-          <div className="tdmd-faq-list" role="list">
-            <details className="tdmd-faq-item">
-              <summary className="tdmd-faq-question" data-speakable="true">What conditions does TeleDirectMD treat in {state.name}?</summary>
-              <div className="tdmd-faq-answer">
-                <p>TeleDirectMD treats {totalConditions} adult conditions in {state.name}, organized into {categories.length} categories: {categories.map((c) => c.categoryName).join(', ')}. Common conditions include colds, flu, UTIs, sinus infections, acne, eczema, asthma refills, blood pressure refills, and more.</p>
-              </div>
-            </details>
-            <details className="tdmd-faq-item">
-              <summary className="tdmd-faq-question" data-speakable="true">How much does a visit cost?</summary>
-              <div className="tdmd-faq-answer">
-                <p>TeleDirectMD visits start at $49 per visit. There are no hidden fees and no subscription required.{hasInsurance ? ' We also accept select insurance plans — standard copays and cost-sharing apply.' : ' No insurance required.'} The visit fee covers the full MD consultation, diagnosis, treatment plan, and prescriptions sent to your preferred {state.name} pharmacy.</p>
-              </div>
-            </details>
-            <details className="tdmd-faq-item">
-              <summary className="tdmd-faq-question" data-speakable="true">Do I need insurance to use TeleDirectMD?</summary>
-              <div className="tdmd-faq-answer">
-                {hasInsurance ? (
-                  <p>No, insurance is not required. You can always book a $49 self-pay visit. However, TeleDirectMD also accepts select insurance plans in {state.name}, including {stateInsurers.map(i => i.name).join(', ')}. Visit our <a href="/insurance" style={{ color: 'var(--tdmd-teal)', fontWeight: 700 }}>Insurance page</a> to check your coverage.</p>
+          <FaqAccordion
+            sectionTitle={`Frequently Asked Questions — TeleDirectMD in ${state.name}`}
+            items={[
+              {
+                question: `What conditions does TeleDirectMD treat in ${state.name}?`,
+                answer: (
+                  <p>TeleDirectMD treats {totalConditions} adult conditions in {state.name}, organized into {categories.length} categories: {categories.map((c) => c.categoryName).join(', ')}. Common conditions include colds, flu, UTIs, sinus infections, acne, eczema, asthma refills, blood pressure refills, and more.</p>
+                ),
+              },
+              {
+                question: 'How much does a visit cost?',
+                answer: (
+                  <p>TeleDirectMD visits start at $49 per visit. There are no hidden fees and no subscription required.{hasInsurance ? ' We also accept select insurance plans — standard copays and cost-sharing apply.' : ' No insurance required.'} The visit fee covers the full MD consultation, diagnosis, treatment plan, and prescriptions sent to your preferred {state.name} pharmacy.</p>
+                ),
+              },
+              {
+                question: 'Do I need insurance to use TeleDirectMD?',
+                answer: hasInsurance ? (
+                  <p>No, insurance is not required. You can always book a $49 self-pay visit. However, TeleDirectMD also accepts select insurance plans in {state.name}, including {stateInsurers.map(i => i.name).join(', ')}. Visit our <a href="/insurance">Insurance page</a> to check your coverage.</p>
                 ) : (
-                  <p>No. Insurance is not required for a TeleDirectMD visit. The $49 visit fee is the complete cost for your consultation. We are actively expanding insurance coverage to more states — visit our <a href="/insurance" style={{ color: 'var(--tdmd-teal)', fontWeight: 700 }}>Insurance page</a> for the latest information.</p>
-                )}
-              </div>
-            </details>
-            <details className="tdmd-faq-item">
-              <summary className="tdmd-faq-question" data-speakable="true">Can TeleDirectMD prescribe medications in {state.name}?</summary>
-              <div className="tdmd-faq-answer">
-                <p>Yes. After your video visit, your TeleDirectMD physician can send prescriptions electronically to any {state.name} pharmacy, including {pharmacies.join(', ')}. Prescriptions are typically available for pickup within 1–2 hours. TeleDirectMD does not prescribe controlled substances.</p>
-              </div>
-            </details>
-            <details className="tdmd-faq-item">
-              <summary className="tdmd-faq-question" data-speakable="true">Who will I see during my visit?</summary>
-              <div className="tdmd-faq-answer">
-                <p>Every TeleDirectMD visit is conducted by a licensed MD — not a nurse practitioner or physician assistant. Our physicians are licensed to practice medicine in {state.name} and are board-certified.</p>
-              </div>
-            </details>
-            <details className="tdmd-faq-item">
-              <summary className="tdmd-faq-question">How quickly can I get an appointment?</summary>
-              <div className="tdmd-faq-answer">
-                <p>Most TeleDirectMD appointments are available same-day. Simply choose your condition, select an available time, and connect with a doctor from anywhere in {state.name} via secure video.</p>
-              </div>
-            </details>
-            <details className="tdmd-faq-item">
-              <summary className="tdmd-faq-question">Does TeleDirectMD prescribe controlled substances?</summary>
-              <div className="tdmd-faq-answer">
-                <p>No. TeleDirectMD does not prescribe controlled substances (Schedule II–V), including opioids, benzodiazepines, stimulants, or sleep medications. If your condition requires a controlled substance, we will refer you to an appropriate in-person provider.</p>
-              </div>
-            </details>
-            <details className="tdmd-faq-item">
-              <summary className="tdmd-faq-question">Can I use TeleDirectMD for medication refills?</summary>
-              <div className="tdmd-faq-answer">
-                <p>Yes. TeleDirectMD offers convenient refills for chronic medications including asthma inhalers, blood pressure medications, thyroid medications, cholesterol medications, migraine preventives, diabetes medications, acid reflux medications, and EpiPen auto-injectors. A video visit with an MD is required to review your condition and renew your prescription.</p>
-              </div>
-            </details>
-          </div>
+                  <p>No. Insurance is not required for a TeleDirectMD visit. The $49 visit fee is the complete cost for your consultation. We are actively expanding insurance coverage to more states — visit our <a href="/insurance">Insurance page</a> for the latest information.</p>
+                ),
+              },
+              {
+                question: `Can TeleDirectMD prescribe medications in ${state.name}?`,
+                answer: (
+                  <p>Yes. After your video visit, your TeleDirectMD physician can send prescriptions electronically to any {state.name} pharmacy, including {pharmacies.join(', ')}. Prescriptions are typically available for pickup within 1–2 hours. TeleDirectMD does not prescribe controlled substances.</p>
+                ),
+              },
+              {
+                question: 'Who will I see during my visit?',
+                answer: (
+                  <p>Every TeleDirectMD visit is conducted by a licensed MD — not a nurse practitioner or physician assistant. Our physicians are licensed to practice medicine in {state.name} and are board-certified.</p>
+                ),
+              },
+              {
+                question: 'How quickly can I get an appointment?',
+                answer: (
+                  <p>Most TeleDirectMD appointments are available same-day. Simply choose your condition, select an available time, and connect with a doctor from anywhere in {state.name} via secure video.</p>
+                ),
+              },
+              {
+                question: 'Does TeleDirectMD prescribe controlled substances?',
+                answer: (
+                  <p>No. TeleDirectMD does not prescribe controlled substances (Schedule II–V), including opioids, benzodiazepines, stimulants, or sleep medications. If your condition requires a controlled substance, we will refer you to an appropriate in-person provider.</p>
+                ),
+              },
+              {
+                question: 'Can I use TeleDirectMD for medication refills?',
+                answer: (
+                  <p>Yes. TeleDirectMD offers convenient refills for chronic medications including asthma inhalers, blood pressure medications, thyroid medications, cholesterol medications, migraine preventives, diabetes medications, acid reflux medications, and EpiPen auto-injectors. A video visit with an MD is required to review your condition and renew your prescription.</p>
+                ),
+              },
+            ]}
+          />
 
           <div className="tdmd-bottom-cta" role="region" aria-label="Book a visit call to action">
             <div className="tdmd-bottom-cta-copy">

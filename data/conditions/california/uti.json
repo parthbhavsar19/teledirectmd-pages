@@ -1,0 +1,377 @@
+{
+  "page_meta": {
+    "url": "https://teledirectmd.com/ca/uti-treatment-online/",
+    "title": "UTI Treatment Online in California | TeleDirectMD",
+    "description": "UTI treatment by secure video visit for California adults. Board-certified Family Medicine physician. California telehealth law compliant. Aetna in-network. Self pay $49. Evidence-based antibiotic stewardship.",
+    "canonical": "https://teledirectmd.com/ca/uti-treatment-online/",
+    "datePublished": "2026-05-19",
+    "dateModified": "2026-05-19",
+    "lastReviewed": "2026-05-19",
+    "author_npi": "1104323203",
+    "author_name": "Parth Bhavsar, MD",
+    "author_specialty": "Family Medicine",
+    "state": "California",
+    "state_slug": "ca",
+    "condition": "UTI Treatment",
+    "condition_slug": "uti-treatment-online"
+  },
+
+  "california_regulatory": {
+    "primary_statute": {
+      "name": "California Business and Professions Code Section 2290.5",
+      "short_name": "B&P Code §2290.5",
+      "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=2290.5.&lawCode=BPC",
+      "source_name": "California Legislature — B&P Code §2290.5",
+      "retrieved_date": "2026-05-19",
+      "key_provisions": [
+        "Telehealth is defined as delivering health care services via information and communication technologies, including synchronous interactions and asynchronous store-and-forward transfers.",
+        "Before delivery of health care via telehealth, the health care provider must inform the patient about telehealth use and obtain verbal or written consent, which must be documented.",
+        "All laws regarding confidentiality of health care information apply to telehealth interactions.",
+        "All professional responsibility and standards of practice that apply to a health care provider apply equally while providing telehealth services."
+      ],
+      "in_person_requirement": false,
+      "notes": "No prior in-person visit required for new patients under B&P §2290.5. Consent can be verbal or written."
+    },
+    "medical_board_standard_of_care": {
+      "source_url": "https://www.mbc.ca.gov/Resources/Medical-Resources/telehealth.aspx",
+      "source_name": "Medical Board of California — Telehealth",
+      "retrieved_date": "2026-05-19",
+      "value": "The standard of care is the same whether the patient is seen in-person, through telehealth or other methods of electronically enabled health care. Physicians using telehealth technologies to provide care to patients located in California must be licensed in California.",
+      "key_point": "No separate telehealth standard — same standard of care as in-person."
+    },
+    "parity_law": {
+      "name": "California Assembly Bill 744 (2019) — Telehealth Parity",
+      "statutory_citation": "California Health and Safety Code §1374.13; California Insurance Code §10123.85",
+      "source_url": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=201920200AB744",
+      "source_name": "California Legislature — AB 744 (2019)",
+      "retrieved_date": "2026-05-19",
+      "key_provisions": [
+        "Private health plans regulated by the Department of Managed Health Care and the Department of Insurance must reimburse telehealth services on the same basis and to the same extent as in-person services.",
+        "Copayments for telehealth cannot exceed amounts applicable for the same services delivered in-person.",
+        "Health plans cannot require face-to-face contact between patient and provider as a condition of reimbursement.",
+        "Parity provisions apply to payor-provider contracts issued, amended, or renewed after January 1, 2021.",
+        "Parity does NOT apply to Medi-Cal managed care plans or Medicare plans under AB 744."
+      ],
+      "medi_cal_parity_note": "Medi-Cal separately covers telehealth at parity under DHCS rules — see dhcs.ca.gov. AB 744 parity applies to commercial plans only.",
+      "effective_date": "2021-01-01"
+    },
+    "e_prescribing_requirement": {
+      "source_url": "https://www.mbc.ca.gov/News/",
+      "source_name": "Medical Board of California — News",
+      "retrieved_date": "2026-05-19",
+      "value": "Beginning January 1, 2022, all prescriptions issued by a licensed prescriber in California must be done electronically pursuant to Assembly Bill 2789.",
+      "applies_to": "All California-licensed prescribers. Electronic prescriptions sent to California pharmacies."
+    },
+    "controlled_substances": {
+      "value": "TeleDirectMD does not prescribe controlled substances in any state. UTI antibiotics (nitrofurantoin, TMP-SMX, fosfomycin, cephalexin) are not controlled substances and can be prescribed via California telehealth without restriction.",
+      "note": "Schedule II controlled substances generally require an in-person evaluation under the Ryan Haight Online Pharmacy Consumer Protection Act. This is not relevant to UTI treatment."
+    },
+    "medical_board_url": {
+      "value": "https://www.mbc.ca.gov",
+      "source_name": "Medical Board of California"
+    },
+    "medi_cal_telehealth": {
+      "source_url": "https://www.dhcs.ca.gov/provgovpart/Pages/TelehealthFAQ.aspx",
+      "source_name": "California DHCS — Telehealth FAQ",
+      "retrieved_date": "2026-05-19",
+      "value": "Medi-Cal covers synchronous video telehealth and audio-only telehealth for physical health services. Providers billing Medi-Cal for telehealth services must be enrolled as Medi-Cal rendering providers. TeleDirectMD is not currently enrolled as a Medi-Cal provider; Medi-Cal beneficiaries should use the $49 self-pay option or seek an enrolled Medi-Cal telehealth provider."
+    }
+  },
+
+  "california_insurance": {
+    "source": "notion_payor_enrollment.csv",
+    "retrieved_date": "2026-05-19",
+    "payors": [
+      {
+        "name": "Aetna",
+        "status": "Active",
+        "effective_date": "2026-04-30",
+        "in_network": true,
+        "notes": "In-network as of April 30, 2026. Patients with Aetna commercial plans in California may be able to use in-network benefits. Verify current in-network status with Aetna before booking.",
+        "notion_id": "33f5b828-3028-8118-869b-cd9153a31771"
+      },
+      {
+        "name": "Anthem Blue Cross",
+        "status": "Pending",
+        "effective_date": null,
+        "in_network": false,
+        "notes": "Enrollment pending — waiting for determination on whether Anthem Blue Cross will enroll individual providers. Not currently in-network. Self-pay ($49) is available.",
+        "notion_id": "3415b828-3028-810c-98a7-ca4769073fbe"
+      },
+      {
+        "name": "Cigna",
+        "status": "Pending",
+        "effective_date": null,
+        "in_network": false,
+        "notes": "Enrollment pending — systemic Telehealth Only block under review. Not currently in-network. Self-pay ($49) is available.",
+        "notion_id": "3415b828-3028-811d-aa31-ca935a663fe6"
+      },
+      {
+        "name": "United Healthcare Commercial",
+        "status": "Approved",
+        "effective_date": "2026-05-29",
+        "in_network": true,
+        "notes": "Approved effective May 29, 2026. Commercial + Medicare Advantage. Excludes Medi-Cal, Individual Exchange, Navigate/Charter/Core. Fee schedule CA 93880 NonFacility — Current Year CMS RBRVS 100% E&M.",
+        "notion_id": "3415b828-3028-8189-95aa-d68898f6533a"
+      }
+    ],
+    "medi_cal": {
+      "program_name": "Medi-Cal",
+      "accepted": false,
+      "note": "TeleDirectMD is not currently enrolled as a Medi-Cal provider. Medi-Cal beneficiaries can use the $49 self-pay rate or seek a Medi-Cal-enrolled telehealth provider through Covered California or their managed care plan."
+    },
+    "kaiser_note": "Kaiser Permanente operates as a closed health system in California. TeleDirectMD is not part of the Kaiser network. Kaiser members should use Kaiser's telehealth services (kp.org) for UTI care.",
+    "cash_price": 49
+  },
+
+  "california_epidemiology": {
+    "uti_national_burden": {
+      "value": "UTI accounts for more than 8 million healthcare visits annually in the United States, making it one of the most common bacterial infections treated in outpatient and emergency settings.",
+      "source_url": "https://www.cdc.gov/uti/about/index.html",
+      "source_name": "CDC — Urinary Tract Infection Basics",
+      "retrieved_date": "2026-05-19"
+    },
+    "women_lifetime_risk": {
+      "value": "Women have a lifetime risk of approximately 53% of experiencing at least one UTI, according to IDSA 2025 guideline data. Approximately 25–40% of U.S. women aged 20–40 have had a UTI.",
+      "source_url": "https://www.idsociety.org/practice-guideline/complicated-urinary-tract-infections/",
+      "source_name": "IDSA 2025 — Complicated UTI Guideline",
+      "retrieved_date": "2026-05-19"
+    },
+    "california_ar_burden": {
+      "value": "Among Californians, antimicrobial-resistant infections cause roughly 360,000 illnesses and nearly 4,500 deaths each year, according to the California Department of Public Health.",
+      "source_url": "https://www.cdph.ca.gov/Programs/CHCQ/HAI/Pages/AntimicrobialResistanceLandingPage.aspx",
+      "source_name": "CDPH — Antimicrobial Resistance",
+      "retrieved_date": "2026-05-19"
+    },
+    "tmpsm x_resistance_national": {
+      "value": "National data from outpatient urine E. coli isolates show that 25.4% are nonsusceptible to trimethoprim-sulfamethoxazole (TMP-SMX) and 21.1% are nonsusceptible to fluoroquinolones — both consistently above the 20% threshold that IDSA guidelines use to de-prioritize those agents for empiric UTI therapy.",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8664433/",
+      "source_name": "Antimicrobial Resistance Trends in Urine E. coli Isolates — Clinical Infectious Diseases (2021)",
+      "retrieved_date": "2026-05-19",
+      "note": "National data; California data from CDPH ARLN not separately published at county level for outpatient UTI. National Pacific region data applies to California."
+    },
+    "california_asm_stewardship": {
+      "value": "California DHCS and CDPH identify inappropriate treatment of asymptomatic bacteriuria (ASB) — bacteria in urine without UTI symptoms — as a major driver of antibiotic resistance. Approximately 77% of patients with UTIs in California healthcare settings receive prescriptions that are either unnecessary or suboptimal, per CDPH antimicrobial stewardship data.",
+      "source_url": "https://www.cdph.ca.gov/Programs/CHCQ/HAI/Pages/AntimicrobialStewardshipLandingPage.aspx",
+      "source_name": "CDPH — Antimicrobial Stewardship",
+      "retrieved_date": "2026-05-19"
+    },
+    "california_population_context": {
+      "value": "California is the most populous U.S. state with approximately 39 million residents. Applying national UTI epidemiology, an estimated 4–5 million Californians experience at least one UTI annually, with adult women accounting for the large majority of cases.",
+      "source_url": "https://www.census.gov/quickfacts/CA",
+      "source_name": "U.S. Census Bureau — California QuickFacts",
+      "note": "Derived estimate — California population applied to national UTI rate. Not a direct CDPH statistic."
+    }
+  },
+
+  "drug_pricing": {
+    "retrieved_date": "2026-05-19",
+    "source_note": "GoodRx prices are national averages; California-specific pricing not separately published by GoodRx. Prices represent the lowest GoodRx coupon price as of May 18, 2026.",
+    "medications": [
+      {
+        "name": "Nitrofurantoin macrocrystals (Macrobid) 100mg",
+        "typical_regimen": "100 mg twice daily × 5 days (10 capsules) for uncomplicated cystitis",
+        "goodrx_price_14_caps": "$16.76",
+        "goodrx_retail_price_14_caps": "$39.74",
+        "goodrx_lowest": "$15.01",
+        "source_url": "https://www.goodrx.com/nitrofurantoin",
+        "source_name": "GoodRx — Nitrofurantoin",
+        "retrieved_date": "2026-05-19",
+        "first_line": true,
+        "idsa_recommendation": "Nitrofurantoin macrocrystals/monohydrate 100 mg BID × 5 days — first-line for uncomplicated cystitis (IDSA/AUA)",
+        "ca_pharmacy_chains": ["CVS Pharmacy", "Walgreens", "Rite Aid", "Walmart Pharmacy", "Safeway Pharmacy", "Target Pharmacy", "Costco Pharmacy"]
+      },
+      {
+        "name": "Trimethoprim-sulfamethoxazole DS (TMP-SMX, Bactrim DS) 800/160mg",
+        "typical_regimen": "1 tablet twice daily × 3 days for uncomplicated cystitis",
+        "goodrx_price_14_tabs": "$8.90",
+        "goodrx_price_6_tabs_approx": "~$4–$6",
+        "source_url": "https://www.goodrx.com/sulfamethoxazole-trimethoprim",
+        "source_name": "GoodRx — Sulfamethoxazole/Trimethoprim",
+        "retrieved_date": "2026-05-19",
+        "first_line": true,
+        "resistance_caveat": "Use when local E. coli resistance rates are below 20%. California data suggests resistance may be at or above 20% in some regions — physician will assess appropriateness.",
+        "idsa_recommendation": "TMP-SMX DS 160/800 mg BID × 3 days — first-line when local resistance <20% (IDSA/AUA)"
+      },
+      {
+        "name": "Fosfomycin (Monurol) 3g sachet",
+        "typical_regimen": "Single 3g oral dose for uncomplicated cystitis",
+        "goodrx_price_1_packet": "$33.03",
+        "goodrx_retail_price_1_packet": "$88.13",
+        "source_url": "https://www.goodrx.com/monurol",
+        "source_name": "GoodRx — Monurol (Fosfomycin)",
+        "retrieved_date": "2026-05-19",
+        "first_line": true,
+        "idsa_recommendation": "Fosfomycin 3g single dose — first-line alternative for uncomplicated cystitis (IDSA/AUA)",
+        "convenience_note": "Single-dose regimen; useful for patients with drug allergies or resistance concerns"
+      },
+      {
+        "name": "Cephalexin 500mg",
+        "typical_regimen": "500 mg twice daily × 5–7 days",
+        "goodrx_price_note": "Generic cephalexin widely available; typically $10–$20 for a 14-tablet supply with GoodRx",
+        "source_url": "https://www.goodrx.com/cephalexin",
+        "source_name": "GoodRx — Cephalexin",
+        "retrieved_date": "2026-05-19",
+        "first_line": false,
+        "note": "Second-line alternative when first-line agents contraindicated"
+      }
+    ],
+    "cost_comparison": {
+      "teledirectmd_visit": 49,
+      "urgent_care_range": "$150–$300+ before insurance",
+      "emergency_room_range": "$500–$3,000+ before insurance",
+      "primary_care_range": "$100–$250+ before insurance",
+      "note": "Prescription costs at pharmacy are separate and not included in the visit fee."
+    }
+  },
+
+  "clinical_content": {
+    "guidelines": [
+      {
+        "name": "IDSA/ESCMID Guideline for Acute Uncomplicated Cystitis and Pyelonephritis in Women",
+        "authority": "Infectious Diseases Society of America (IDSA)",
+        "source_url": "https://www.idsociety.org/practice-guideline/urinary-tract-infections-in-women/",
+        "source_name": "IDSA — UTI Guidelines"
+      },
+      {
+        "name": "IDSA 2025 Guideline Update on Complicated Urinary Tract Infections",
+        "authority": "Infectious Diseases Society of America (IDSA)",
+        "source_url": "https://www.idsociety.org/practice-guideline/complicated-urinary-tract-infections/",
+        "source_name": "IDSA 2025 — Complicated UTI Guideline",
+        "retrieved_date": "2026-05-19"
+      },
+      {
+        "name": "AUA/CUA/SUFU Guideline on Recurrent Uncomplicated UTIs in Women (2024)",
+        "authority": "American Urological Association (AUA)",
+        "source_url": "https://www.auanet.org/guidelines-and-quality/guidelines/recurrent-uti",
+        "source_name": "AUA — Recurrent UTI Guideline (2024)"
+      },
+      {
+        "name": "Ann Arbor Guide to Triaging Adults With Suspected UTI (Meddings et al., JAMA Network Open, 2026)",
+        "authority": "JAMA Network Open",
+        "source_url": "https://jamanetwork.com/journals/jamanetworkopen",
+        "source_name": "Ann Arbor UTI Triage Guide"
+      }
+    ],
+    "first_line_antibiotics": [
+      "Nitrofurantoin macrocrystals/monohydrate 100 mg BID × 5 days",
+      "Trimethoprim-sulfamethoxazole DS 160/800 mg BID × 3 days (when local resistance <20%)",
+      "Fosfomycin 3g single oral dose"
+    ],
+    "red_flags_requiring_in_person": [
+      "Fever >38°C (100.4°F) — possible kidney infection (pyelonephritis)",
+      "Flank or back pain — possible upper urinary tract involvement",
+      "Nausea or vomiting — systemic illness, possible inability to take oral medications",
+      "Pregnancy with urinary symptoms — higher-risk UTI requiring same-day evaluation",
+      "Hematuria with severe pain — possible kidney stone or other serious cause",
+      "Recurrent UTIs (≥2 in 6 months or ≥3 in 12 months) — warrants in-person workup",
+      "Male patients with UTI symptoms — often require workup for structural/prostate causes",
+      "Indwelling urinary catheter — catheter-associated UTI requires in-person management",
+      "Immunocompromise — higher risk for complicated infection",
+      "Recent urologic instrumentation or procedure"
+    ],
+    "telehealth_appropriate_criteria": [
+      "Adult 18+ located in California at time of visit",
+      "Typical lower UTI symptoms: burning with urination, urinary frequency, urgency, suprapubic discomfort",
+      "No fever, flank pain, chills, or repeated vomiting",
+      "Not pregnant",
+      "No urinary catheter or recent urologic procedure",
+      "No severe immunosuppression or complex kidney disease"
+    ],
+    "pregnancy_note": {
+      "value": "UTI in pregnancy — including asymptomatic bacteriuria — requires same-day in-person evaluation and may require different antibiotic choices. TeleDirectMD does not manage pregnancy-associated UTI. Pregnant patients should contact their OB or go to urgent care or the ER.",
+      "authority": "ACOG — American College of Obstetricians and Gynecologists",
+      "source_url": "https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2020/01/treatment-of-urinary-tract-infections-in-nonpregnant-women",
+      "source_name": "ACOG — UTI Treatment Committee Opinion"
+    },
+    "recurrent_uti_criteria": "Recurrent UTI is defined as 2 or more infections in 6 months or 3 or more in 12 months (AUA 2024). These patients benefit from in-person urine culture, imaging considerations, and prevention planning that goes beyond acute telehealth management.",
+    "dual_path_resources_california": [
+      {
+        "name": "Planned Parenthood California",
+        "type": "Sexual health clinic — UTI testing and treatment",
+        "url": "https://www.plannedparenthood.org/get-care",
+        "note": "Multiple California locations; sliding-scale fees available"
+      },
+      {
+        "name": "Covered California",
+        "type": "Health insurance marketplace — find in-network PCP",
+        "url": "https://www.coveredca.com",
+        "note": "For uninsured Californians seeking coverage for ongoing care"
+      },
+      {
+        "name": "California 211",
+        "type": "Resource referral line — find local urgent care or clinic",
+        "url": "https://www.211ca.org",
+        "note": "Statewide referral service for health and social services"
+      }
+    ]
+  },
+
+  "faqs": [
+    {
+      "id": "faq-ca-1",
+      "question": "Does California require an in-person visit before telehealth?",
+      "answer": "No. California Business and Professions Code Section 2290.5 — the Telehealth Advancement Act — does not require a prior in-person visit before receiving telehealth services. A physician licensed in California can establish a new patient relationship and prescribe appropriate non-controlled medications through a synchronous video visit. TeleDirectMD physicians are licensed in California and comply with all Medical Board of California standards."
+    },
+    {
+      "id": "faq-ca-2",
+      "question": "Is my Aetna plan in California in-network with TeleDirectMD?",
+      "answer": "Aetna became an active in-network payor for TeleDirectMD in California effective April 30, 2026. If you hold an Aetna commercial plan in California, you may be able to use your in-network benefits. Always verify current in-network status with Aetna directly before your visit, as plan eligibility varies by specific plan type."
+    },
+    {
+      "id": "faq-ca-3",
+      "question": "Is UnitedHealthcare in-network with TeleDirectMD in California?",
+      "answer": "UnitedHealthcare Commercial was approved effective May 29, 2026, for California — covering commercial plans and Medicare Advantage. This excludes Medi-Cal, Individual Exchange, and Navigate/Charter/Core plan types. Verify your specific plan's eligibility with UHC before booking."
+    },
+    {
+      "id": "faq-ca-4",
+      "question": "Will Medi-Cal cover my TeleDirectMD visit in California?",
+      "answer": "TeleDirectMD is not currently enrolled as a Medi-Cal provider. Medi-Cal does cover telehealth for physical health services — including UTI treatment — when the provider is an enrolled Medi-Cal rendering provider. If you have Medi-Cal, you can use the $49 self-pay rate at TeleDirectMD, or seek a Medi-Cal-enrolled telehealth provider through your managed care plan or the California Department of Health Care Services provider directory at dhcs.ca.gov."
+    },
+    {
+      "id": "faq-ca-5",
+      "question": "What if I am on a Kaiser Permanente plan in California?",
+      "answer": "Kaiser Permanente operates as a closed health system in California — meaning Kaiser members receive care exclusively from Kaiser-affiliated providers. TeleDirectMD is not part of the Kaiser network. If you have Kaiser coverage, use Kaiser's telehealth services at kp.org or call your Kaiser advice line. TeleDirectMD's self-pay option ($49) is still available to Kaiser members who prefer it, but Kaiser will not reimburse out-of-network telehealth visits."
+    },
+    {
+      "id": "faq-ca-6",
+      "question": "Can I get a UTI antibiotic prescription without a video visit in California?",
+      "answer": "California law permits both synchronous (video) and asynchronous (store-and-forward) telehealth. Eligibility for asynchronous evaluation depends on clinical appropriateness — your symptoms, history, and risk factors. For most patients with classic uncomplicated UTI symptoms, a video visit is preferred to allow direct assessment and red-flag screening. Speak with TeleDirectMD at booking to determine the appropriate modality for your situation."
+    },
+    {
+      "id": "faq-ca-7",
+      "question": "How fast will my prescription reach a California pharmacy?",
+      "answer": "California law requires all prescriptions to be issued electronically (AB 2789, effective January 1, 2022). If medication is clinically appropriate after your video visit, TeleDirectMD sends an e-prescription electronically to your chosen California pharmacy — typically CVS, Walgreens, Rite Aid, Walmart Pharmacy, or Safeway Pharmacy — during or immediately after your visit. Most pharmacies can fill the prescription within one to four hours."
+    },
+    {
+      "id": "faq-ca-8",
+      "question": "Why is antibiotic selection important in California specifically?",
+      "answer": "National data show that more than 25% of E. coli isolates from community UTIs are nonsusceptible to trimethoprim-sulfamethoxazole (TMP-SMX), and more than 21% are nonsusceptible to fluoroquinolones — rates that meet or exceed the IDSA threshold for de-prioritizing those agents empirically. California's CDPH antimicrobial stewardship program identifies inappropriate antibiotic prescribing as a key driver of resistance. TeleDirectMD applies antibiotic stewardship principles on every visit, favoring nitrofurantoin and fosfomycin when clinically appropriate given resistance patterns."
+    },
+    {
+      "id": "faq-ca-9",
+      "question": "Does California law protect my telehealth visit privacy?",
+      "answer": "Yes. California Business and Professions Code Section 2290.5 explicitly states that all California laws regarding the confidentiality of health care information and a patient's rights to their medical information apply equally to telehealth interactions — the same protections as an in-person visit. Federal HIPAA protections also apply. TeleDirectMD uses HIPAA-compliant secure video platforms for all visits."
+    },
+    {
+      "id": "faq-ca-10",
+      "question": "Does California's telehealth parity law mean my insurance must cover TeleDirectMD?",
+      "answer": "California AB 744 (2019) requires commercial health plans to reimburse telehealth services on the same basis as in-person services — they cannot require face-to-face contact or charge higher copays for telehealth. However, parity only applies when the provider is already in-network with your plan. If TeleDirectMD is not in-network with your specific plan, parity law does not require out-of-network coverage. Currently, Aetna (active April 30, 2026) and UnitedHealthcare Commercial (active May 29, 2026) are in-network in California."
+    },
+    {
+      "id": "faq-ca-11",
+      "question": "Can a doctor diagnose a UTI by video visit in California?",
+      "answer": "Often, yes. The Ann Arbor Guide to Triaging Adults With Suspected UTI supports empiric antibiotic treatment for new-onset classic cystitis symptoms — burning, frequency, urgency — in non-pregnant adults without red flags, even without urine testing. The Medical Board of California holds telehealth physicians to the same standard of care as in-person physicians, and careful symptom history and red-flag screening can appropriately identify which patients are safe to treat by video."
+    },
+    {
+      "id": "faq-ca-12",
+      "question": "What if my UTI symptoms do not improve after starting antibiotics?",
+      "answer": "If symptoms are not improving within 48 to 72 hours of starting an antibiotic, you should be reassessed. You may need urine culture testing, a change in antibiotic, or a different diagnosis considered. New fever, flank pain, or vomiting at any time requires urgent in-person evaluation — possible kidney infection. Contact TeleDirectMD for guidance or go to an urgent care or ER if red-flag symptoms develop."
+    },
+    {
+      "id": "faq-ca-13",
+      "question": "Is TeleDirectMD appropriate for recurrent UTIs in California?",
+      "answer": "Recurrent UTIs — defined as 2 or more in 6 months or 3 or more in 12 months — benefit from in-person urine culture testing and evaluation for contributing factors that a video visit alone cannot fully address. TeleDirectMD can discuss prevention strategies and help direct you to a primary care physician or urologist for a comprehensive recurrent UTI workup. In-person resources in California include your primary care physician, urologists, and sexual health clinics including Planned Parenthood California (plannedparenthood.org)."
+    }
+  ]
+}

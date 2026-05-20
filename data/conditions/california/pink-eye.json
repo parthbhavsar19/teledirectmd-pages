@@ -1,0 +1,233 @@
+{
+  "page_meta": {
+    "url": "https://teledirectmd.com/ca/pink-eye-treatment-online/",
+    "title": "Pink Eye Treatment Online in California | TeleDirectMD",
+    "description": "Pink eye treatment online for California adults. Conjunctivitis evaluation \u2014 viral, bacterial, allergic. Board-certified Family Medicine MD. Self pay $49. Aetna in-network. Same-day video visits.",
+    "canonical": "https://teledirectmd.com/ca/pink-eye-treatment-online/",
+    "datePublished": "2026-05-20",
+    "dateModified": "2026-05-20",
+    "lastReviewed": "2026-05-20",
+    "author_npi": "1104323203",
+    "author_name": "Parth Bhavsar, MD",
+    "author_specialty": "Family Medicine",
+    "state": "California",
+    "state_slug": "ca",
+    "condition": "Pink Eye Treatment",
+    "condition_slug": "pink-eye-treatment-online",
+    "icd10": "H10.9",
+    "specialty_authority": "American Academy of Ophthalmology (AAO)",
+    "guideline": "American Academy of Ophthalmology Preferred Practice Pattern: Conjunctivitis"
+  },
+  "california_regulatory": {
+    "primary_statute": {
+      "name": "California Business and Professions Code Section 2290.5",
+      "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=2290.5.&lawCode=BPC",
+      "in_person_requirement": false,
+      "notes": "No prior in-person visit required for new patients under B&P \u00a72290.5."
+    },
+    "parity_law": {
+      "name": "California Assembly Bill 744 (2019) \u2014 Telehealth Parity",
+      "statutory_citation": "California Insurance Code \u00a710123.85",
+      "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=10123.85.&lawCode=INS",
+      "effective_date": "2021-01-01"
+    },
+    "e_prescribing_requirement": {
+      "source_url": "https://www.mbc.ca.gov/News/",
+      "value": "Beginning January 1, 2022, all prescriptions issued in California must be done electronically (Assembly Bill 2789)."
+    }
+  },
+  "california_insurance": {
+    "source": "notion_payor_enrollment.csv",
+    "retrieved_date": "2026-05-20",
+    "payors": [
+      {
+        "name": "Aetna",
+        "status": "Active",
+        "effective_date": "2026-04-30",
+        "in_network": true
+      },
+      {
+        "name": "Anthem Blue Cross",
+        "status": "Pending",
+        "effective_date": null,
+        "in_network": false
+      },
+      {
+        "name": "Cigna",
+        "status": "Pending",
+        "effective_date": null,
+        "in_network": false
+      },
+      {
+        "name": "United Healthcare Commercial",
+        "status": "Approved",
+        "effective_date": "2026-05-29",
+        "in_network": true,
+        "notes": "Commercial + Medicare Advantage. Excludes Medi-Cal, Individual Exchange, Navigate/Charter/Core."
+      }
+    ],
+    "cash_price": 49
+  },
+  "california_epidemiology": {
+    "summary": "Conjunctivitis (pink eye) is one of the most common eye conditions, with an estimated 6 million cases annually in the United States. The California Department of Public Health notes that adenoviral conjunctivitis is the most common cause of infectious conjunctivitis outbreaks in California schools, workplaces, and healthcare settings, with periodic statewide alerts during community outbreak events.",
+    "source_url": "https://www.cdc.gov/conjunctivitis/about/index.html",
+    "source_name": "CDC \u2014 About Conjunctivitis (Pink Eye)"
+  },
+  "clinical_content": {
+    "specialty_authority": "American Academy of Ophthalmology (AAO)",
+    "specialty_authority_url": "https://www.aao.org/eyenet/article/managing-conjunctivitis",
+    "guideline": "American Academy of Ophthalmology Preferred Practice Pattern: Conjunctivitis",
+    "telehealth_appropriate_criteria": [
+      "Adult 18+ located in California at time of visit",
+      "Red, pink, or irritated eye with discharge (watery, mucoid, or purulent)",
+      "Mild to moderate itching, burning, or gritty sensation",
+      "No significant pain, vision loss, or photophobia",
+      "Not a contact lens wearer with severe symptoms",
+      "Able to open the eye and describe symptoms clearly"
+    ],
+    "red_flags_requiring_in_person": [
+      "Severe eye pain (not just irritation)",
+      "Sudden vision loss or significantly blurry vision not cleared by blinking",
+      "Photophobia (light sensitivity) with severe pain",
+      "Corneal opacity or whitish spot on the cornea visible to you",
+      "History of contact lens wear with severe pain (possible corneal ulcer)",
+      "Chemical exposure to the eye",
+      "Injury to the eye",
+      "Eye symptoms after gonococcal STI exposure (hyperacute purulent discharge)"
+    ]
+  },
+  "drug_pricing": {
+    "retrieved_date": "2026-05-20",
+    "source_note": "GoodRx prices are national averages. Prices represent GoodRx coupon price as of May 2026.",
+    "medications": [
+      {
+        "name": "Ofloxacin ophthalmic solution 0.3%",
+        "typical_regimen": "1\u20132 drops in affected eye(s) every 2\u20134 hours \u00d7 2 days, then QID \u00d7 5 days",
+        "goodrx_price": "~$12\u2013$20 generic with GoodRx",
+        "source_url": "https://www.goodrx.com/ofloxacin-ophthalmic",
+        "first_line": true,
+        "notes": "First-line fluoroquinolone eye drop for suspected bacterial conjunctivitis. Broad-spectrum coverage."
+      },
+      {
+        "name": "Polymyxin B / trimethoprim ophthalmic (Polytrim)",
+        "typical_regimen": "1 drop in affected eye(s) every 3 hours up to 6 times/day \u00d7 7\u201310 days",
+        "goodrx_price": "~$10\u2013$18 generic with GoodRx",
+        "source_url": "https://www.goodrx.com/polymyxin-b-trimethoprim-ophthalmic",
+        "first_line": true,
+        "notes": "Alternative first-line for bacterial conjunctivitis. Lower cost option. Good gram-positive and gram-negative coverage."
+      },
+      {
+        "name": "Erythromycin ophthalmic ointment 0.5%",
+        "typical_regimen": "Apply small amount to affected eye(s) up to 6 times/day \u00d7 5\u20137 days",
+        "goodrx_price": "~$15\u2013$25 generic with GoodRx",
+        "source_url": "https://www.goodrx.com/erythromycin-ophthalmic",
+        "first_line": false,
+        "notes": "Alternative for mild bacterial conjunctivitis. Ointment formulation \u2014 may blur vision temporarily."
+      },
+      {
+        "name": "Ketotifen eye drops (Zaditor/Alaway) \u2014 OTC",
+        "typical_regimen": "1 drop in affected eye(s) twice daily as needed",
+        "goodrx_price": "Available OTC ~$10\u2013$15",
+        "source_url": null,
+        "first_line": false,
+        "notes": "For allergic conjunctivitis with itching. Antihistamine/mast cell stabilizer. Available OTC. Not for bacterial infection."
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "id": "faq-1",
+      "question": "Can I get pink eye treatment online in California?",
+      "answer": "Yes. California Business and Professions Code Section 2290.5 permits California-licensed physicians to deliver care via synchronous video telehealth without a prior in-person visit. TeleDirectMD physicians are licensed in California. Adults 18+ in California with pink eye symptoms \u2014 redness, discharge, irritation \u2014 can book a same-day video visit. If your history suggests bacterial conjunctivitis without red-flag symptoms, antibiotic eye drops may be appropriate. Self pay is $49; Aetna is in-network as of April 30, 2026."
+    },
+    {
+      "id": "faq-2",
+      "question": "How can a doctor determine if my pink eye is bacterial, viral, or allergic?",
+      "answer": "The history and symptom pattern guide differentiation. Bacterial conjunctivitis: often unilateral onset spreading to both eyes, purulent (thick yellow/green) discharge, eyelids stuck together upon waking. Viral conjunctivitis: often bilateral from the start, watery discharge, accompanying cold or sore throat, highly contagious. Allergic conjunctivitis: bilateral, prominent itching, seasonal or exposure-triggered, often with other allergy symptoms. A physician evaluates your history at your TeleDirectMD visit to guide the appropriate treatment."
+    },
+    {
+      "id": "faq-3",
+      "question": "What antibiotic eye drops are used for pink eye, and what do they cost in California?",
+      "answer": "For bacterial conjunctivitis, common options include ofloxacin ophthalmic 0.3% (generic ~$12\u2013$20 with GoodRx) or polymyxin B/trimethoprim (Polytrim, generic ~$10\u2013$18 with GoodRx). These are prescription eye drops sent electronically to your California pharmacy. Prescription costs at pharmacy are separate from the TeleDirectMD visit fee ($49). OTC ketotifen drops (Zaditor, ~$10\u2013$15) treat allergic conjunctivitis without a prescription."
+    },
+    {
+      "id": "faq-4",
+      "question": "Does California require an in-person visit before telehealth?",
+      "answer": "No. California B&P Code \u00a72290.5 does not require a prior in-person visit. A California-licensed physician can evaluate your eye symptoms through a synchronous video visit. Note that a telehealth visit cannot perform slit-lamp examination; if visual acuity concerns or serious complications arise, the physician will direct you to urgent ophthalmologic care."
+    },
+    {
+      "id": "faq-5",
+      "question": "Is my Aetna plan in California in-network with TeleDirectMD?",
+      "answer": "Aetna became an active in-network payor for TeleDirectMD in California effective April 30, 2026. If you hold an Aetna commercial plan in California, you may be able to use your in-network benefits. Verify current in-network status directly with Aetna before your visit."
+    },
+    {
+      "id": "faq-6",
+      "question": "When is pink eye dangerous and when should I go to the ER in California?",
+      "answer": "Seek emergency eye care immediately if you have severe eye pain, sudden vision loss, photophobia with pain, a visible white spot on the cornea, or chemical exposure. Contact lens wearers with severe redness and pain should be evaluated urgently \u2014 possible corneal ulcer. A sudden onset of very thick purulent discharge in a sexually active person may indicate gonorrheal conjunctivitis, which requires same-day emergency treatment. TeleDirectMD is not appropriate for these presentations."
+    },
+    {
+      "id": "faq-7",
+      "question": "Is UnitedHealthcare in-network with TeleDirectMD in California?",
+      "answer": "UnitedHealthcare Commercial was approved for California effective May 29, 2026, covering commercial plans and Medicare Advantage. Excludes Medi-Cal, Individual Exchange, and Navigate/Charter/Core plan types. Verify your specific plan eligibility with UHC before booking."
+    },
+    {
+      "id": "faq-8",
+      "question": "Will Medi-Cal cover my TeleDirectMD visit for pink eye?",
+      "answer": "TeleDirectMD is not currently enrolled as a Medi-Cal provider. If you have Medi-Cal, you can use the $49 self-pay rate or find a Medi-Cal-enrolled telehealth provider through your managed care plan or California DHCS at dhcs.ca.gov."
+    },
+    {
+      "id": "faq-9",
+      "question": "How contagious is pink eye and can I go to work in California?",
+      "answer": "Viral and bacterial conjunctivitis are highly contagious. The CDC recommends staying home until eye discharge has resolved or until 24 hours after starting antibiotic drops for confirmed bacterial cases. Avoid touching your eyes, practice frequent handwashing, do not share towels or pillowcases, and discard contact lenses used during the illness. California does not have a specific statewide conjunctivitis workplace exclusion policy, but your employer may have specific protocols."
+    },
+    {
+      "id": "faq-10",
+      "question": "Does California's AB 744 telehealth parity law apply to pink eye visits?",
+      "answer": "California AB 744 (2019) requires commercial health plans to reimburse telehealth services on the same basis as in-person services. Parity applies when the provider is already in-network with your specific plan. Currently, Aetna (active April 30, 2026) and UnitedHealthcare Commercial (active May 29, 2026) are in-network in California for TeleDirectMD."
+    },
+    {
+      "id": "faq-11",
+      "question": "How quickly will my eye drop prescription reach a California pharmacy?",
+      "answer": "California requires all prescriptions to be issued electronically under Assembly Bill 2789 (effective January 1, 2022). If antibiotic eye drops are appropriate, TeleDirectMD sends an e-prescription electronically to your chosen California pharmacy during or after your visit. Most California pharmacies fill within one to four hours."
+    },
+    {
+      "id": "faq-12",
+      "question": "Should I stop wearing contact lenses if I have pink eye?",
+      "answer": "Yes. Per American Academy of Ophthalmology guidance, contact lens wearers with suspected conjunctivitis should discontinue contact lens use until the infection has fully resolved. Do not use the contact lenses worn during the illness again; discard them and use a new pair once the eye has healed. Follow up with your eye care provider if symptoms do not resolve within 5\u20137 days or if vision is affected."
+    }
+  ],
+  "references": [
+    {
+      "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=2290.5.&lawCode=BPC",
+      "text": "California Business and Professions Code Section 2290.5 \u2014 Telehealth Advancement Act. Retrieved May 2026."
+    },
+    {
+      "url": "https://www.mbc.ca.gov/Resources/Medical-Resources/telehealth.aspx",
+      "text": "Medical Board of California \u2014 Telehealth Resources. Retrieved May 2026."
+    },
+    {
+      "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=10123.85.&lawCode=INS",
+      "text": "California Insurance Code \u00a710123.85 \u2014 Telehealth Parity (AB 744). Retrieved May 2026."
+    },
+    {
+      "url": "https://www.dhcs.ca.gov/provgovpart/Pages/TelehealthFAQ.aspx",
+      "text": "California DHCS \u2014 Telehealth FAQ. Retrieved May 2026."
+    },
+    {
+      "url": "https://www.cdc.gov/conjunctivitis/about/index.html",
+      "text": "CDC \u2014 About Conjunctivitis (Pink Eye). Retrieved May 2026."
+    },
+    {
+      "url": "https://www.aao.org/eyenet/article/managing-conjunctivitis",
+      "text": "American Academy of Ophthalmology \u2014 Managing Conjunctivitis. Retrieved May 2026."
+    },
+    {
+      "url": "https://www.cdc.gov/conjunctivitis/clinicians/index.html",
+      "text": "CDC \u2014 Conjunctivitis for Clinicians. Retrieved May 2026."
+    },
+    {
+      "url": "https://www.mbc.ca.gov/News/",
+      "text": "Medical Board of California \u2014 Electronic Prescribing (AB 2789). Retrieved May 2026."
+    }
+  ]
+}

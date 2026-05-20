@@ -1,0 +1,236 @@
+{
+  "page_meta": {
+    "url": "https://teledirectmd.com/ca/sinus-infection-treatment-online/",
+    "title": "Sinus Infection Treatment Online in California | TeleDirectMD",
+    "description": "Sinus infection treatment online for California adults. Board-certified Family Medicine MD. Antibiotic prescriptions when clinically appropriate. Self pay $49. Aetna in-network. Same-day video visits.",
+    "canonical": "https://teledirectmd.com/ca/sinus-infection-treatment-online/",
+    "datePublished": "2026-05-20",
+    "dateModified": "2026-05-20",
+    "lastReviewed": "2026-05-20",
+    "author_npi": "1104323203",
+    "author_name": "Parth Bhavsar, MD",
+    "author_specialty": "Family Medicine",
+    "state": "California",
+    "state_slug": "ca",
+    "condition": "Sinus Infection Treatment",
+    "condition_slug": "sinus-infection-treatment-online",
+    "icd10": "J01.90",
+    "specialty_authority": "American Academy of Otolaryngology \u2013 Head and Neck Surgery (AAO-HNS) and IDSA",
+    "guideline": "AAO-HNS Adult Sinusitis Clinical Practice Guideline (2023 Update) and IDSA Bacterial Rhinosinusitis Guideline"
+  },
+  "california_regulatory": {
+    "primary_statute": {
+      "name": "California Business and Professions Code Section 2290.5",
+      "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=2290.5.&lawCode=BPC",
+      "in_person_requirement": false,
+      "notes": "No prior in-person visit required for new patients under B&P \u00a72290.5."
+    },
+    "parity_law": {
+      "name": "California Assembly Bill 744 (2019) \u2014 Telehealth Parity",
+      "statutory_citation": "California Insurance Code \u00a710123.85",
+      "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=10123.85.&lawCode=INS",
+      "effective_date": "2021-01-01"
+    },
+    "e_prescribing_requirement": {
+      "source_url": "https://www.mbc.ca.gov/News/",
+      "value": "Beginning January 1, 2022, all prescriptions issued in California must be done electronically (Assembly Bill 2789)."
+    }
+  },
+  "california_insurance": {
+    "source": "notion_payor_enrollment.csv",
+    "retrieved_date": "2026-05-20",
+    "payors": [
+      {
+        "name": "Aetna",
+        "status": "Active",
+        "effective_date": "2026-04-30",
+        "in_network": true
+      },
+      {
+        "name": "Anthem Blue Cross",
+        "status": "Pending",
+        "effective_date": null,
+        "in_network": false
+      },
+      {
+        "name": "Cigna",
+        "status": "Pending",
+        "effective_date": null,
+        "in_network": false
+      },
+      {
+        "name": "United Healthcare Commercial",
+        "status": "Approved",
+        "effective_date": "2026-05-29",
+        "in_network": true,
+        "notes": "Commercial + Medicare Advantage. Excludes Medi-Cal, Individual Exchange, Navigate/Charter/Core."
+      }
+    ],
+    "cash_price": 49
+  },
+  "california_epidemiology": {
+    "summary": "Sinusitis (rhinosinusitis) is one of the most common reasons adults seek medical care in the United States, with approximately 29 million adults diagnosed annually per CDC NHIS data. Applying national rates to California's population of approximately 39 million, an estimated 3\u20134 million Californians experience acute sinusitis each year. The California Department of Public Health notes that sinusitis is among the top 5 diagnoses leading to antibiotic prescriptions in California outpatient settings.",
+    "source_url": "https://www.cdc.gov/nchs/fastats/sinusitis.htm",
+    "source_name": "CDC \u2014 Sinusitis (NCHS FastStats)"
+  },
+  "clinical_content": {
+    "specialty_authority": "American Academy of Otolaryngology \u2013 Head and Neck Surgery (AAO-HNS) and IDSA",
+    "specialty_authority_url": "https://www.entnet.org/quality-practice/quality-and-performance/clinical-practice-guidelines/sinusitis/",
+    "guideline": "AAO-HNS Adult Sinusitis Clinical Practice Guideline (2023 Update) and IDSA Bacterial Rhinosinusitis Guideline",
+    "telehealth_appropriate_criteria": [
+      "Adult 18+ located in California at time of visit",
+      "Nasal congestion, facial pressure/pain, purulent nasal discharge for \u226510 days without improvement",
+      "Symptoms worsening after initial cold improvement (double-sickening pattern)",
+      "Severe onset facial pain, purulent discharge, fever consistent with bacterial sinusitis",
+      "No eye swelling, vision changes, neck stiffness, or altered mental status",
+      "History of recurrent sinusitis with familiar symptom pattern"
+    ],
+    "red_flags_requiring_in_person": [
+      "Severe headache or facial pain with high fever",
+      "Swelling around the eye or vision changes (orbital complication)",
+      "Neck stiffness with headache (possible meningitis)",
+      "Altered mental status or confusion",
+      "Symptoms lasting more than 12 weeks (possible chronic sinusitis needing ENT evaluation)",
+      "Prior sinus surgery history with acute flare",
+      "Immunocompromised status (diabetes, HIV, chemotherapy) \u2014 higher risk for serious infection"
+    ]
+  },
+  "drug_pricing": {
+    "retrieved_date": "2026-05-20",
+    "source_note": "GoodRx prices are national averages. Prices represent GoodRx coupon price as of May 2026.",
+    "medications": [
+      {
+        "name": "Amoxicillin-clavulanate (Augmentin) 875/125 mg",
+        "typical_regimen": "1 tablet twice daily \u00d7 5\u20137 days",
+        "goodrx_price": "~$16\u2013$25 generic with GoodRx",
+        "source_url": "https://www.goodrx.com/amoxicillin-clavulanate",
+        "first_line": true,
+        "notes": "First-line per IDSA bacterial rhinosinusitis guideline. Covers S. pneumoniae, H. influenzae, M. catarrhalis. Avoid if penicillin allergy."
+      },
+      {
+        "name": "Amoxicillin 500 mg",
+        "typical_regimen": "500 mg three times daily \u00d7 5\u20137 days",
+        "goodrx_price": "~$6\u2013$12 generic with GoodRx",
+        "source_url": "https://www.goodrx.com/amoxicillin",
+        "first_line": true,
+        "notes": "Alternative first-line per AAO-HNS guideline when patient can tolerate penicillin class. Less broad coverage than amoxicillin-clavulanate."
+      },
+      {
+        "name": "Doxycycline 100 mg",
+        "typical_regimen": "100 mg twice daily \u00d7 5\u20137 days",
+        "goodrx_price": "~$12\u2013$18 with GoodRx",
+        "source_url": "https://www.goodrx.com/doxycycline-hyclate",
+        "first_line": false,
+        "notes": "Alternative when penicillin allergy present. Good gram-positive and atypical coverage. Take with food; avoid in pregnancy and children <8."
+      },
+      {
+        "name": "Fluticasone nasal spray (Rx/OTC)",
+        "typical_regimen": "2 sprays each nostril once daily",
+        "goodrx_price": "~$18\u2013$25 generic with GoodRx",
+        "source_url": "https://www.goodrx.com/fluticasone-propionate",
+        "first_line": false,
+        "notes": "Adjunctive therapy to reduce nasal inflammation. AAO-HNS guidelines support intranasal steroids as adjunct therapy for symptom relief."
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "id": "faq-1",
+      "question": "Can I get sinus infection treatment online in California?",
+      "answer": "Yes. California Business and Professions Code Section 2290.5 permits California-licensed physicians to deliver care via synchronous video telehealth without a prior in-person visit. TeleDirectMD physicians are licensed in California. Adults 18+ in California with classic bacterial sinusitis symptoms \u2014 nasal congestion, facial pressure, purulent discharge for 10+ days \u2014 can book a same-day video visit. If the history supports bacterial sinusitis without red flags, an antibiotic prescription may be appropriate. Self pay is $49; Aetna is in-network as of April 30, 2026."
+    },
+    {
+      "id": "faq-2",
+      "question": "How do I know if my sinus infection is bacterial (needs antibiotics) or viral (does not)?",
+      "answer": "Per AAO-HNS and IDSA guidelines, bacterial sinusitis is suggested by symptoms lasting 10 or more days without improvement, symptoms that worsen after initial improvement following a cold (double-sickening pattern), or severe onset with high fever, facial pain, and purulent nasal discharge. Most acute sinusitis episodes in the first 7\u201310 days are viral and do not benefit from antibiotics. A physician evaluates your specific history to make this determination."
+    },
+    {
+      "id": "faq-3",
+      "question": "What antibiotics treat sinus infections, and what do they cost in California?",
+      "answer": "First-line antibiotics per IDSA guideline include amoxicillin-clavulanate (Augmentin) 875/125 mg twice daily for 5\u20137 days (generic ~$16\u2013$25 with GoodRx coupon) or amoxicillin 500 mg three times daily. For penicillin-allergic patients, doxycycline 100 mg twice daily is an alternative (~$12\u2013$18 with GoodRx). Fluoroquinolones are generally not first-line. Prescription costs at pharmacy are separate from the TeleDirectMD visit fee ($49)."
+    },
+    {
+      "id": "faq-4",
+      "question": "Does California require an in-person visit before telehealth?",
+      "answer": "No. California B&P Code \u00a72290.5 does not require a prior in-person visit. A California-licensed physician can evaluate your sinus symptoms through a synchronous video visit. TeleDirectMD documents telehealth consent at the start of every visit."
+    },
+    {
+      "id": "faq-5",
+      "question": "Is my Aetna plan in California in-network with TeleDirectMD?",
+      "answer": "Aetna became an active in-network payor for TeleDirectMD in California effective April 30, 2026. If you hold an Aetna commercial plan in California, you may be able to use your in-network benefits. Verify current in-network status directly with Aetna before your visit."
+    },
+    {
+      "id": "faq-6",
+      "question": "Is UnitedHealthcare in-network with TeleDirectMD in California?",
+      "answer": "UnitedHealthcare Commercial was approved for California effective May 29, 2026, covering commercial plans and Medicare Advantage. Excludes Medi-Cal, Individual Exchange, and Navigate/Charter/Core plan types. Verify your specific plan eligibility with UHC before booking."
+    },
+    {
+      "id": "faq-7",
+      "question": "Will Medi-Cal cover my TeleDirectMD visit for a sinus infection?",
+      "answer": "TeleDirectMD is not currently enrolled as a Medi-Cal provider. If you have Medi-Cal, you can use the $49 self-pay rate or find a Medi-Cal-enrolled telehealth provider through your managed care plan or the California DHCS directory at dhcs.ca.gov."
+    },
+    {
+      "id": "faq-8",
+      "question": "When is a sinus infection dangerous and when should I go to the ER in California?",
+      "answer": "Seek emergency care immediately if you have swelling around the eye or eyelid, vision changes or double vision, severe headache with neck stiffness, altered mental status, or high fever with severe facial pain. Orbital cellulitis and intracranial extension are rare but serious complications of sinusitis that require emergency evaluation. TeleDirectMD is not appropriate if any of these red-flag symptoms are present."
+    },
+    {
+      "id": "faq-9",
+      "question": "Can sinusitis become chronic and what should I do?",
+      "answer": "Chronic sinusitis is defined as symptoms lasting 12 weeks or more despite medical management. It often requires in-person evaluation by an otolaryngologist (ENT physician) with possible nasal endoscopy or CT imaging. TeleDirectMD can manage acute sinusitis episodes and provide referrals; chronic sinusitis management requires in-person ENT evaluation. The American Academy of Otolaryngology \u2013 Head and Neck Surgery (AAO-HNS) provides patient resources at entnet.org."
+    },
+    {
+      "id": "faq-10",
+      "question": "Does California's AB 744 telehealth parity law apply to sinus infection visits?",
+      "answer": "California AB 744 (2019) requires commercial health plans to reimburse telehealth services on the same basis as in-person services. Parity applies when the provider is already in-network with your specific plan. Currently, Aetna (active April 30, 2026) and UnitedHealthcare Commercial (active May 29, 2026) are in-network in California for TeleDirectMD."
+    },
+    {
+      "id": "faq-11",
+      "question": "How quickly will my antibiotic prescription reach a California pharmacy?",
+      "answer": "California requires all prescriptions to be issued electronically under Assembly Bill 2789 (effective January 1, 2022). If an antibiotic is clinically appropriate, TeleDirectMD sends an e-prescription electronically to your chosen California pharmacy during or immediately after your visit. Most California pharmacies fill within one to four hours."
+    },
+    {
+      "id": "faq-12",
+      "question": "Are nasal steroid sprays helpful for sinusitis?",
+      "answer": "Yes. AAO-HNS clinical practice guidelines for adult sinusitis support the use of intranasal corticosteroids as adjunctive therapy to reduce inflammation and improve nasal symptoms. Fluticasone nasal spray is available OTC (Flonase) or by prescription in generic formulations. A physician can recommend appropriate adjunctive therapy at your TeleDirectMD visit."
+    }
+  ],
+  "references": [
+    {
+      "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=2290.5.&lawCode=BPC",
+      "text": "California Business and Professions Code Section 2290.5 \u2014 Telehealth Advancement Act. Retrieved May 2026."
+    },
+    {
+      "url": "https://www.mbc.ca.gov/Resources/Medical-Resources/telehealth.aspx",
+      "text": "Medical Board of California \u2014 Telehealth Resources. Retrieved May 2026."
+    },
+    {
+      "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=10123.85.&lawCode=INS",
+      "text": "California Insurance Code \u00a710123.85 \u2014 Telehealth Parity (AB 744). Retrieved May 2026."
+    },
+    {
+      "url": "https://www.dhcs.ca.gov/provgovpart/Pages/TelehealthFAQ.aspx",
+      "text": "California DHCS \u2014 Telehealth FAQ. Retrieved May 2026."
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/fastats/sinusitis.htm",
+      "text": "CDC \u2014 Sinusitis (NCHS FastStats). Retrieved May 2026."
+    },
+    {
+      "url": "https://www.entnet.org/quality-practice/quality-and-performance/clinical-practice-guidelines/sinusitis/",
+      "text": "AAO-HNS \u2014 Adult Sinusitis Clinical Practice Guideline. Retrieved May 2026."
+    },
+    {
+      "url": "https://www.idsociety.org/practice-guideline/rhinosinusitis/",
+      "text": "IDSA \u2014 Bacterial Rhinosinusitis Clinical Practice Guideline. Retrieved May 2026."
+    },
+    {
+      "url": "https://www.cdph.ca.gov/Programs/CHCQ/HAI/Pages/AntimicrobialStewardshipLandingPage.aspx",
+      "text": "CDPH \u2014 Antimicrobial Stewardship Program. Retrieved May 2026."
+    },
+    {
+      "url": "https://www.mbc.ca.gov/News/",
+      "text": "Medical Board of California \u2014 Electronic Prescribing (AB 2789). Retrieved May 2026."
+    }
+  ]
+}

@@ -4,6 +4,53 @@ import { getStateInsurance } from '../../../lib/insurance-data';
 import { getInsuranceLinksForConditionState } from '../../../lib/internal-links';
 import { WhatDoesThisCostBlock, CompareTeleDirectMDLinkRow, CommonSymptomsBlock } from '../../components/CostCompareModules';
 import { CitableSummaryBlock } from '../../components/CitableSummary';
+import FaqAccordion from '../../components/FaqAccordion';
+import CaUtiTreatmentOnline from './CaUtiTreatmentOnline';
+import CaYeastInfectionTreatmentOnline from './CaYeastInfectionTreatmentOnline';
+import CaBvTreatmentOnline from './CaBvTreatmentOnline';
+import CaVaginalDrynessTreatmentOnline from './CaVaginalDrynessTreatmentOnline';
+import CaBirthControlRefillsOnline from './CaBirthControlRefillsOnline';
+import CaChlamydiaTreatmentOnline from './CaChlamydiaTreatmentOnline';
+import CaGenitalHerpesTreatmentOnline from './CaGenitalHerpesTreatmentOnline';
+import CaColdSoreTreatmentOnline from './CaColdSoreTreatmentOnline';
+import CaGenitalWartsTreatmentOnline from './CaGenitalWartsTreatmentOnline';
+import CaTrichomoniasisTreatmentOnline from './CaTrichomoniasisTreatmentOnline';
+import CaMycoplasmaGenitaliumTreatmentOnline from './CaMycoplasmaGenitaliumTreatmentOnline';
+import CaDoxypepStiPreventionOnline from './CaDoxypepStiPreventionOnline';
+import CaErectileDysfunctionTreatmentOnline from './CaErectileDysfunctionTreatmentOnline';
+import CaPerformanceAnxietyTreatmentOnline from './CaPerformanceAnxietyTreatmentOnline';
+import CaCommonColdTreatmentOnline from './CaCommonColdTreatmentOnline';
+import CaInfluenzaTreatmentOnline from './CaInfluenzaTreatmentOnline';
+import CaSinusInfectionTreatmentOnline from './CaSinusInfectionTreatmentOnline';
+import CaSoreThroatTreatmentOnline from './CaSoreThroatTreatmentOnline';
+import CaEarPainTreatmentOnline from './CaEarPainTreatmentOnline';
+import CaPinkEyeTreatmentOnline from './CaPinkEyeTreatmentOnline';
+import CaDentalPainTreatmentOnline from './CaDentalPainTreatmentOnline';
+import CaCellulitisTreatmentOnline from './CaCellulitisTreatmentOnline';
+import CaShinglesTreatmentOnline from './CaShinglesTreatmentOnline';
+import CaGoutTreatmentOnline from './CaGoutTreatmentOnline';
+import CaMastitisTreatmentOnline from './CaMastitisTreatmentOnline';
+import CaViralGastroenteritisTreatmentOnline from './CaViralGastroenteritisTreatmentOnline';
+import CaImpetigoTreatmentOnline from './CaImpetigoTreatmentOnline';
+import CaOralThrushTreatmentOnline from './CaOralThrushTreatmentOnline';
+import CaAsthmaRefillsOnline from './CaAsthmaRefillsOnline';
+import CaHypertensionRefillsOnline from './CaHypertensionRefillsOnline';
+import CaHypothyroidismRefillsOnline from './CaHypothyroidismRefillsOnline';
+import CaHyperlipidemiaRefillsOnline from './CaHyperlipidemiaRefillsOnline';
+import CaDiabetesRefillsOnline from './CaDiabetesRefillsOnline';
+import CaMigraineRefillsOnline from './CaMigraineRefillsOnline';
+import CaAcidRefluxRefillsOnline from './CaAcidRefluxRefillsOnline';
+import CaEpipenRefillsOnline from './CaEpipenRefillsOnline';
+import CaHairLossTreatmentOnline from './CaHairLossTreatmentOnline';
+import CaSeasonalAllergiesTreatmentOnline from './CaSeasonalAllergiesTreatmentOnline';
+import CaAntiAgingTreatmentOnline from './CaAntiAgingTreatmentOnline';
+import CaEyelashGrowthTreatmentOnline from './CaEyelashGrowthTreatmentOnline';
+import CaSmokingCessationTreatmentOnline from './CaSmokingCessationTreatmentOnline';
+import CaMotionSicknessTreatmentOnline from './CaMotionSicknessTreatmentOnline';
+// 2026-05-20: wire acne + eczema for today's 20-page drip (other batch-3 derm pages
+// remain off the router until their drip day to avoid burst-publish signal).
+import CaAcneTreatmentOnline from './CaAcneTreatmentOnline';
+import CaEczemaTreatmentOnline from './CaEczemaTreatmentOnline';
 import { summarizeConditionState, citableSummaryToJsonLd } from '../../../lib/citable-summary';
 
 export async function generateStaticParams() {
@@ -20,11 +67,32 @@ export async function generateStaticParams() {
 
 export async function generateMetadata({ params }) {
   const { slug, conditionSlug } = await params;
+  const baseUrl = 'https://teledirectmd.com';
+  const pageUrl = `${baseUrl}/${slug}/${conditionSlug}`;
+
+  // ── v2 CA UTI override: hand-tuned title/description that incorporates
+  //    California-specific regulatory + payor signals (Aetna, UHC).
+  if (slug === 'ca' && conditionSlug === 'uti-treatment-online') {
+    const caTitle = 'UTI Treatment Online in California | TeleDirectMD';
+    const caDescription = 'California adults: get UTI treatment by secure video visit. Board-certified Family Medicine MD, Aetna in-network (effective 2026-04-30), UHC Commercial approved (effective 2026-05-29). CA telehealth law compliant. Self pay $49. Antibiotic stewardship, e-prescriptions to CA pharmacies.';
+    return {
+      title: caTitle,
+      description: caDescription,
+      robots: { index: true, follow: true, 'max-image-preview': 'large', 'max-snippet': -1, 'max-video-preview': -1 },
+      authors: [{ name: 'Parth Bhavsar, MD' }],
+      openGraph: {
+        type: 'website', siteName: 'TeleDirectMD', locale: 'en_US',
+        title: caTitle, description: caDescription, url: pageUrl,
+        images: [{ url: `${baseUrl}/assets/social/tdmd-ca-uti-treatment-online-og.png`, alt: 'UTI treatment in California by TeleDirectMD' }],
+      },
+      twitter: { card: 'summary_large_image', title: caTitle, description: caDescription, images: [`${baseUrl}/assets/social/tdmd-ca-uti-treatment-online-og.png`] },
+      alternates: { canonical: pageUrl },
+    };
+  }
+
   const state = getStateBySlug(slug);
   const rawCondition = getCondition(conditionSlug);
   const condition = resolveConditionForState(rawCondition, state);
-  const baseUrl = 'https://teledirectmd.com';
-  const pageUrl = `${baseUrl}/${slug}/${conditionSlug}`;
 
   return {
     title: condition.pageTitle,
@@ -52,6 +120,144 @@ export async function generateMetadata({ params }) {
 
 export default async function ConditionPage({ params }) {
   const { slug, conditionSlug } = await params;
+
+  // ── v3 Special cases: California × Condition hand-built production pages ──
+  // Each renders at its canonical URL — no redirect.
+  if (slug === 'ca' && conditionSlug === 'uti-treatment-online') {
+    return <CaUtiTreatmentOnline />;
+  }
+  if (slug === 'ca' && conditionSlug === 'yeast-infection-treatment-online') {
+    return <CaYeastInfectionTreatmentOnline />;
+  }
+  if (slug === 'ca' && conditionSlug === 'bv-treatment-online') {
+    return <CaBvTreatmentOnline />;
+  }
+  if (slug === 'ca' && conditionSlug === 'vaginal-dryness-treatment-online') {
+    return <CaVaginalDrynessTreatmentOnline />;
+  }
+  if (slug === 'ca' && conditionSlug === 'birth-control-refills-online') {
+    return <CaBirthControlRefillsOnline />;
+  }
+  if (slug === 'ca' && conditionSlug === 'chlamydia-treatment-online') {
+    return <CaChlamydiaTreatmentOnline />;
+  }
+  if (slug === 'ca' && conditionSlug === 'genital-herpes-treatment-online') {
+    return <CaGenitalHerpesTreatmentOnline />;
+  }
+  if (slug === 'ca' && conditionSlug === 'cold-sore-treatment-online') {
+    return <CaColdSoreTreatmentOnline />;
+  }
+  if (slug === 'ca' && conditionSlug === 'genital-warts-treatment-online') {
+    return <CaGenitalWartsTreatmentOnline />;
+  }
+  if (slug === 'ca' && conditionSlug === 'trichomoniasis-treatment-online') {
+    return <CaTrichomoniasisTreatmentOnline />;
+  }
+  if (slug === 'ca' && conditionSlug === 'mycoplasma-genitalium-treatment-online') {
+    return <CaMycoplasmaGenitaliumTreatmentOnline />;
+  }
+  if (slug === 'ca' && conditionSlug === 'doxypep-sti-prevention-online') {
+    return <CaDoxypepStiPreventionOnline />;
+  }
+  if (slug === 'ca' && conditionSlug === 'erectile-dysfunction-treatment-online') {
+    return <CaErectileDysfunctionTreatmentOnline />;
+  }
+  if (slug === 'ca' && conditionSlug === 'performance-anxiety-treatment-online') {
+    return <CaPerformanceAnxietyTreatmentOnline />;
+  }
+  if (slug === 'ca' && conditionSlug === 'common-cold-treatment-online') {
+    return <CaCommonColdTreatmentOnline />;
+  }
+  if (slug === 'ca' && conditionSlug === 'influenza-treatment-online') {
+    return <CaInfluenzaTreatmentOnline />;
+  }
+  if (slug === 'ca' && conditionSlug === 'sinus-infection-treatment-online') {
+    return <CaSinusInfectionTreatmentOnline />;
+  }
+  if (slug === 'ca' && conditionSlug === 'sore-throat-treatment-online') {
+    return <CaSoreThroatTreatmentOnline />;
+  }
+  if (slug === 'ca' && conditionSlug === 'ear-pain-treatment-online') {
+    return <CaEarPainTreatmentOnline />;
+  }
+  if (slug === 'ca' && conditionSlug === 'pink-eye-treatment-online') {
+    return <CaPinkEyeTreatmentOnline />;
+  }
+  if (slug === 'ca' && conditionSlug === 'dental-pain-treatment-online') {
+    return <CaDentalPainTreatmentOnline />;
+  }
+  if (slug === 'ca' && conditionSlug === 'cellulitis-treatment-online') {
+    return <CaCellulitisTreatmentOnline />;
+  }
+  if (slug === 'ca' && conditionSlug === 'shingles-treatment-online') {
+    return <CaShinglesTreatmentOnline />;
+  }
+  if (slug === 'ca' && conditionSlug === 'gout-treatment-online') {
+    return <CaGoutTreatmentOnline />;
+  }
+  if (slug === 'ca' && conditionSlug === 'mastitis-treatment-online') {
+    return <CaMastitisTreatmentOnline />;
+  }
+  if (slug === 'ca' && conditionSlug === 'viral-gastroenteritis-treatment-online') {
+    return <CaViralGastroenteritisTreatmentOnline />;
+  }
+  if (slug === 'ca' && conditionSlug === 'impetigo-treatment-online') {
+    return <CaImpetigoTreatmentOnline />;
+  }
+  if (slug === 'ca' && conditionSlug === 'oral-thrush-treatment-online') {
+    return <CaOralThrushTreatmentOnline />;
+  }
+  // ── Batch 3 derm — wired progressively, drip-by-drip (2026-05-20: acne + eczema only) ──
+  if (slug === 'ca' && conditionSlug === 'acne-treatment-online') {
+    return <CaAcneTreatmentOnline />;
+  }
+  if (slug === 'ca' && conditionSlug === 'eczema-treatment-online') {
+    return <CaEczemaTreatmentOnline />;
+  }
+  // ── Batch 4 — CA chronic refills + other conditions ──
+  if (slug === 'ca' && conditionSlug === 'asthma-refills-online') {
+    return <CaAsthmaRefillsOnline />;
+  }
+  if (slug === 'ca' && conditionSlug === 'hypertension-refills-online') {
+    return <CaHypertensionRefillsOnline />;
+  }
+  if (slug === 'ca' && conditionSlug === 'hypothyroidism-refills-online') {
+    return <CaHypothyroidismRefillsOnline />;
+  }
+  if (slug === 'ca' && conditionSlug === 'hyperlipidemia-refills-online') {
+    return <CaHyperlipidemiaRefillsOnline />;
+  }
+  if (slug === 'ca' && conditionSlug === 'diabetes-refills-online') {
+    return <CaDiabetesRefillsOnline />;
+  }
+  if (slug === 'ca' && conditionSlug === 'migraine-refills-online') {
+    return <CaMigraineRefillsOnline />;
+  }
+  if (slug === 'ca' && conditionSlug === 'acid-reflux-refills-online') {
+    return <CaAcidRefluxRefillsOnline />;
+  }
+  if (slug === 'ca' && conditionSlug === 'epipen-refills-online') {
+    return <CaEpipenRefillsOnline />;
+  }
+  if (slug === 'ca' && conditionSlug === 'hair-loss-treatment-online') {
+    return <CaHairLossTreatmentOnline />;
+  }
+  if (slug === 'ca' && conditionSlug === 'seasonal-allergies-treatment-online') {
+    return <CaSeasonalAllergiesTreatmentOnline />;
+  }
+  if (slug === 'ca' && conditionSlug === 'anti-aging-treatment-online') {
+    return <CaAntiAgingTreatmentOnline />;
+  }
+  if (slug === 'ca' && conditionSlug === 'eyelash-growth-treatment-online') {
+    return <CaEyelashGrowthTreatmentOnline />;
+  }
+  if (slug === 'ca' && conditionSlug === 'smoking-cessation-treatment-online') {
+    return <CaSmokingCessationTreatmentOnline />;
+  }
+  if (slug === 'ca' && conditionSlug === 'motion-sickness-treatment-online') {
+    return <CaMotionSicknessTreatmentOnline />;
+  }
+
   const state = getStateBySlug(slug);
   const rawCondition = getCondition(conditionSlug);
   const condition = resolveConditionForState(rawCondition, state);
@@ -579,18 +785,14 @@ export default async function ConditionPage({ params }) {
       {/* 17) FAQ Accordion */}
       <section className="tdmd-section tdmd-faq" id={`${pid}-faq`}>
         <div className="tdmd-container">
-          <h2>{condition.faq.sectionTitle}</h2>
-
-          <div className="tdmd-faq-list" role="list">
-            {condition.faq.items.map((item, i) => (
-              <details key={i} className="tdmd-faq-item">
-                <summary className="tdmd-faq-question" data-speakable="true">{item.question}</summary>
-                <div className="tdmd-faq-answer">
-                  <p>{item.answer}</p>
-                </div>
-              </details>
-            ))}
-          </div>
+          <FaqAccordion
+            sectionTitle={condition.faq.sectionTitle}
+            items={condition.faq.items.map((item, i) => ({
+              question: item.question,
+              answer: item.answer,
+              id: `${pid}-faq-${i}`,
+            }))}
+          />
 
           <div className="tdmd-bottom-cta" role="region" aria-label="Book a visit call to action">
             <div className="tdmd-bottom-cta-copy">

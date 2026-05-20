@@ -1,0 +1,85 @@
+{
+  "page_meta": {
+    "url": "https://teledirectmd.com/ca/hypertension-refills-online/",
+    "title": "Hypertension Refills Online in California | TeleDirectMD",
+    "description": "Refill blood pressure medications online in California. Board-certified Family Medicine MD. CA telehealth law compliant. Aetna in-network. Self pay $49. ACC/AHA 2017 + 2024 guideline-based care. CDPH data: ~30% CA adults have hypertension.",
+    "canonical": "https://teledirectmd.com/ca/hypertension-refills-online/",
+    "datePublished": "2026-05-19",
+    "dateModified": "2026-05-19",
+    "lastReviewed": "2026-05-19",
+    "author_npi": "1104323203",
+    "author_name": "Parth Bhavsar, MD",
+    "author_specialty": "Family Medicine",
+    "state": "California",
+    "state_slug": "ca",
+    "condition": "Hypertension Refills",
+    "condition_slug": "hypertension-refills-online",
+    "icd10": "I10",
+    "icd10_display": "I10 (Essential hypertension) — final coding per clinical details"
+  },
+  "opener": {
+    "text": "California adults with established hypertension can refill blood pressure medications — including ACE inhibitors, ARBs, calcium channel blockers, and thiazide diuretics — by secure video visit through TeleDirectMD, consistent with California Business and Professions Code Section 2290.5. Approximately 30% of California adults have hypertension, per the California Department of Public Health. The ACC/AHA 2017 hypertension guideline, supplemented by the 2024 ACC hypertension update, guides medication selection and blood pressure targets. A California-licensed board-certified Family Medicine physician reviews your home blood pressure log, current medications, lab values, and adherence before authorizing refills. Self pay is $49. Aetna is in-network effective April 30, 2026.",
+    "citations": ["https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=2290.5.&lawCode=BPC", "https://www.cdph.ca.gov/Programs/CCDPHP/DCDIC/CVEHB/Pages/HypertensionPrevention.aspx", "https://www.acc.org/guidelines"]
+  },
+  "epidemiology": {
+    "ca_prevalence": "Hypertension affects approximately 30% of California adults — roughly 8 million people — per the California Department of Public Health (CDPH) Chronic Disease Surveillance program. California's hypertension prevalence varies by race/ethnicity: Black Californians have the highest prevalence at approximately 40%, followed by Hispanic/Latino adults at 26%, and Asian Californians at 22%, according to CHIS 2022–2023 data.",
+    "control_rates": "Of Californians with diagnosed hypertension, fewer than 50% have blood pressure controlled to less than 130/80 mmHg — the ACC/AHA 2017 target for high-risk patients. Poor medication adherence, healthcare access barriers, and health literacy are major contributors. Telehealth refill programs reduce access barriers.",
+    "disparities": "The CDPH Heart Disease and Stroke Prevention Program (HDSPP) identifies low-income census tracts in the Central Valley, Los Angeles, and the Inland Empire as hypertension burden hotspots, with emergency hospitalization rates 2–3× the statewide average.",
+    "sources": [
+      {"name": "CDPH — Hypertension Prevention and Control", "url": "https://www.cdph.ca.gov/Programs/CCDPHP/DCDIC/CVEHB/Pages/HypertensionPrevention.aspx"},
+      {"name": "CDPH Heart Disease and Stroke Prevention Program", "url": "https://www.cdph.ca.gov/Programs/CCDPHP/DCDIC/CVEHB/Pages/HeartDiseaseandStrokePrevention.aspx"},
+      {"name": "California Health Interview Survey (CHIS) 2023", "url": "https://healthpolicy.ucla.edu/our-work/california-health-interview-survey-chis/chis-data"}
+    ]
+  },
+  "clinical_guidelines": {
+    "primary": "ACC/AHA 2017 Guideline for High Blood Pressure in Adults + 2024 ACC Hypertension Focused Update",
+    "bp_targets": {
+      "general": "BP target <130/80 mmHg for most adults with confirmed hypertension per ACC/AHA 2017",
+      "frail_elderly": "For adults ≥65 with multiple comorbidities, individualized targets may be less aggressive — physician discusses per-patient risk-benefit",
+      "high_cv_risk": "Adults with established CVD or 10-year ASCVD risk ≥10%: target <130/80 mmHg is Class I recommendation"
+    },
+    "first_line_agents": [
+      "Thiazide diuretics (chlorthalidone preferred over HCTZ per 2024 update — longer half-life, better outcomes data)",
+      "ACE inhibitors (e.g., lisinopril, ramipril) — avoid in pregnancy and bilateral renal artery stenosis; monitor potassium/creatinine",
+      "ARBs (e.g., losartan, valsartan) — preferred for ACE-inhibitor cough or diabetic nephropathy",
+      "Dihydropyridine calcium channel blockers (e.g., amlodipine) — effective in Black patients as monotherapy per JNC 8"
+    ],
+    "asthma_caution": "Beta-blockers are generally avoided in asthma; if required for compelling cardiac indication, cardioselective beta-1 selective agents (metoprolol succinate) may be used cautiously with monitoring.",
+    "telehealth_scope": "TeleDirectMD refills established antihypertensive regimens for patients with documented hypertension, stable BP logs, and no recent hypertensive urgency/emergency. Newly diagnosed Stage 2 hypertension (≥140/90) without prior workup requires in-person evaluation for secondary causes.",
+    "monitoring_requirements": "Home blood pressure log (minimum 5–7 readings), potassium and creatinine if on ACE/ARB (at least annually), and eGFR check for RAAS agents. Physician reviews most recent labs before refilling.",
+    "sources": [
+      {"name": "ACC/AHA 2017 Guideline for High Blood Pressure in Adults", "url": "https://www.acc.org/Latest-in-Cardiology/ten-points-to-remember/2017/11/09/11/41/2017-guideline-for-high-blood-pressure-in-adults"},
+      {"name": "ACC 2024 Hypertension Guideline Update", "url": "https://www.acc.org/guidelines"},
+      {"name": "Whelton PK et al. 2017 ACC/AHA Hypertension Guidelines — JACC", "url": "https://www.jacc.org/doi/10.1016/j.jacc.2017.11.006"}
+    ]
+  },
+  "medications": [
+    {"name": "Lisinopril 5/10/20/40 mg", "class": "ACE inhibitor", "regimen": "10–40 mg once daily", "goodrx_price": "~$4–$12/month GoodRx (generic)", "goodrx_url": "https://www.goodrx.com/lisinopril", "notes": "First-line. Monitor potassium and creatinine. Contraindicated in pregnancy."},
+    {"name": "Losartan 25/50/100 mg", "class": "ARB", "regimen": "25–100 mg once daily", "goodrx_price": "~$8–$20/month GoodRx (generic)", "goodrx_url": "https://www.goodrx.com/losartan", "notes": "Preferred for ACE-inhibitor cough or diabetic nephropathy."},
+    {"name": "Amlodipine 2.5/5/10 mg", "class": "Calcium channel blocker (dihydropyridine)", "regimen": "5–10 mg once daily", "goodrx_price": "~$4–$10/month GoodRx (generic)", "goodrx_url": "https://www.goodrx.com/amlodipine", "notes": "Effective monotherapy, especially in Black patients. May cause pedal edema."},
+    {"name": "Chlorthalidone 12.5/25 mg", "class": "Thiazide-type diuretic", "regimen": "12.5–25 mg once daily in AM", "goodrx_price": "~$10–$25/month GoodRx (generic)", "goodrx_url": "https://www.goodrx.com/chlorthalidone", "notes": "Preferred over HCTZ per 2024 ACC update — longer half-life, superior 24-hour coverage."},
+    {"name": "Metoprolol succinate (Toprol XL) 25/50/100/200 mg", "class": "Beta-1 selective beta-blocker", "regimen": "25–200 mg once daily", "goodrx_price": "~$10–$30/month GoodRx (generic)", "goodrx_url": "https://www.goodrx.com/metoprolol-succinate", "notes": "Not first-line unless comorbid CAD, HFrEF, or rate control. Use cautiously in asthma."}
+  ],
+  "siblings": [
+    {"slug": "diabetes-refills-online", "label": "Diabetes Refills in CA", "why": "Hypertension and T2DM often co-occur — RAAS agents preferred for diabetic nephroprotection."},
+    {"slug": "hyperlipidemia-refills-online", "label": "Hyperlipidemia Refills in CA", "why": "Metabolic syndrome triad — frequently co-managed."},
+    {"slug": "asthma-refills-online", "label": "Asthma Refills in CA", "why": "Beta-blocker caution in asthma+HTN overlap is clinically relevant."},
+    {"slug": "acid-reflux-refills-online", "label": "Acid Reflux Refills in CA", "why": "Common comorbidity in the chronic disease patient population."},
+    {"slug": "migraine-refills-online", "label": "Migraine Refills in CA", "why": "Beta-blockers used in both HTN and migraine prevention."},
+    {"slug": "online-doctor-visits", "label": "All Online Doctor Visits in CA", "why": "General CA telehealth hub."}
+  ],
+  "faqs": [
+    {"question": "Can I refill my blood pressure medication online in California?", "answer": "Yes. California Business and Professions Code Section 2290.5 permits licensed physicians to prescribe appropriate medications via synchronous video telehealth without a prior in-person visit. TeleDirectMD's California-licensed board-certified Family Medicine physician reviews your home blood pressure log, current medications, and most recent lab values (potassium, creatinine, eGFR for ACE inhibitors or ARBs) before authorizing refills for stable established hypertension. Self pay is $49; Aetna is in-network effective April 30, 2026."},
+    {"question": "What blood pressure medications can TeleDirectMD refill in California?", "answer": "TeleDirectMD can refill established antihypertensive medications including ACE inhibitors (lisinopril, ramipril), ARBs (losartan, valsartan, olmesartan), dihydropyridine calcium channel blockers (amlodipine), thiazide-type diuretics (chlorthalidone, HCTZ), and cardioselective beta-blockers (metoprolol succinate) for appropriate indications. Medication selection follows ACC/AHA 2017 and 2024 update guidelines."},
+    {"question": "How prevalent is hypertension in California?", "answer": "Approximately 30% of California adults — roughly 8 million people — have hypertension, per the California Department of Public Health (CDPH) Chronic Disease Surveillance data. Prevalence is highest among Black Californians at approximately 40%, making hypertension one of California's most significant cardiovascular disease drivers. The CDPH Heart Disease and Stroke Prevention Program works to address care gaps in high-burden communities."},
+    {"question": "What blood pressure target does TeleDirectMD use for California hypertension patients?", "answer": "The ACC/AHA 2017 guideline recommends a blood pressure target of less than 130/80 mmHg for most adults with confirmed hypertension, particularly those with established cardiovascular disease or a 10-year ASCVD risk of ≥10%. The 2024 ACC hypertension update reinforces this target and identifies chlorthalidone as the preferred thiazide diuretic over hydrochlorothiazide due to superior 24-hour coverage. The physician individualizes targets for frail elderly patients or those with significant comorbidities."},
+    {"question": "Why is chlorthalidone preferred over HCTZ for hypertension in California?", "answer": "The 2024 ACC hypertension guideline update reinforces chlorthalidone as the preferred thiazide-type diuretic over hydrochlorothiazide (HCTZ). Chlorthalidone has a longer half-life (50–60 hours vs. 8–15 hours for HCTZ), providing better 24-hour blood pressure control and superior outcomes in the ALLHAT trial. Chlorthalidone is available as generic at approximately $10–$25 per month with a GoodRx coupon at California pharmacies."},
+    {"question": "Does California parity law require my insurer to cover telehealth blood pressure visits?", "answer": "California Assembly Bill 744 (2019), codified in Insurance Code §10123.85, requires commercial health plans to reimburse telehealth services on the same basis as in-person care. Parity applies only when TeleDirectMD is in-network with your plan. Aetna commercial plans are active in California as of April 30, 2026; UnitedHealthcare Commercial is approved effective May 29, 2026. Anthem Blue Cross and Cigna are pending. Kaiser Permanente is a closed system — use kp.org for Kaiser telehealth."},
+    {"question": "What labs should I have done before my hypertension refill visit?", "answer": "Before a hypertension refill visit, the physician reviews your home blood pressure log (5–7 readings recommended), most recent potassium and creatinine/eGFR if you are on an ACE inhibitor or ARB, and any recent complete metabolic panel. Labs should be current within 12 months for stable patients. If labs are overdue, the physician will recommend repeat testing as a condition of continued refills. Labs are available at California Quest Diagnostics, LabCorp, and CDPH-supported community health clinics."},
+    {"question": "When does hypertension require in-person care instead of telehealth?", "answer": "Hypertension requires urgent in-person evaluation for: blood pressure readings ≥180/120 mmHg (hypertensive urgency/emergency), new severe headache with high BP, chest pain, shortness of breath, visual changes, or neurological symptoms with elevated BP (possible hypertensive emergency). New hypertension diagnoses with unknown secondary cause (e.g., possible renal artery stenosis, primary aldosteronism) also benefit from in-person workup. TeleDirectMD is appropriate for stable established hypertension."},
+    {"question": "Can I get hypertension medications with my UnitedHealthcare plan in California?", "answer": "UnitedHealthcare Commercial was approved for TeleDirectMD in California effective May 29, 2026, covering commercial plans and Medicare Advantage. This excludes Medi-Cal, Individual Exchange, and Navigate/Charter/Core plan types. Verify your specific UHC plan eligibility before booking. If TeleDirectMD is not in-network with your UHC plan, the self-pay rate is $49."},
+    {"question": "How much do blood pressure medications cost in California with GoodRx?", "answer": "Generic antihypertensive medications are among the most affordable prescriptions with GoodRx coupons at California pharmacies. Lisinopril 10 mg per month: approximately $4–$12. Amlodipine 5 mg: approximately $4–$10. Losartan 50 mg: approximately $8–$20. Chlorthalidone 25 mg: approximately $10–$25. Metoprolol succinate 50 mg: approximately $10–$30. These are GoodRx coupon prices as of May 2026 — actual prices vary by pharmacy and dose."},
+    {"question": "Will Medi-Cal cover my blood pressure medication refill visit at TeleDirectMD?", "answer": "TeleDirectMD is not currently enrolled as a Medi-Cal provider. Medi-Cal does cover telehealth for chronic disease management including hypertension when the provider is an enrolled Medi-Cal rendering provider. If you have Medi-Cal, use the $49 self-pay option at TeleDirectMD or find an enrolled Medi-Cal telehealth provider through your managed care plan or the DHCS provider directory at dhcs.ca.gov. Medi-Cal formulary covers generic antihypertensives at low or no cost-sharing."},
+    {"question": "Is TeleDirectMD appropriate for newly diagnosed high blood pressure in California?", "answer": "For newly elevated blood pressure readings without a prior hypertension diagnosis, TeleDirectMD can perform an initial assessment, review home readings, and discuss lifestyle modifications. However, Stage 2 hypertension (≥140/90) without a prior workup may benefit from in-person evaluation to rule out secondary causes (renal, endocrine), review 10-year ASCVD risk, and obtain baseline labs. The physician will guide you on whether an in-person visit is needed before starting antihypertensive therapy."}
+  ]
+}

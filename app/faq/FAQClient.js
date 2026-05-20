@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
+import FaqAccordion from '../components/FaqAccordion';
 
 /* ─── FAQ-specific CSS using the What We Treat design system ─── */
 const faqCSS = `
@@ -805,17 +806,13 @@ export default function FAQClient() {
                 </div>
               </div>
 
-              <div className="faq-list">
-                {section.faqs.map((faq, j) => (
-                  <details key={j} className="faq-item">
-                    <summary className="faq-question">
-                      <span>{faq.q}</span>
-                      <span className="faq-toggle-icon"><span className="faq-icon-plus">+</span><span className="faq-icon-minus">&ndash;</span></span>
-                    </summary>
-                    <div className="faq-answer">{faq.a}</div>
-                  </details>
-                ))}
-              </div>
+              <FaqAccordion
+                items={section.faqs.map((faq, j) => ({
+                  question: faq.q,
+                  answer: faq.a,
+                  id: `${section.id}-q-${j}`,
+                }))}
+              />
             </div>
           ))}
         </div>

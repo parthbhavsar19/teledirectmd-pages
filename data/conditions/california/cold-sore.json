@@ -1,0 +1,135 @@
+{
+  "page_meta": {
+    "url": "https://teledirectmd.com/ca/cold-sore-treatment-online/",
+    "title": "Orolabial Herpes Treatment Online in California | TeleDirectMD",
+    "condition_slug": "cold-sore-treatment-online",
+    "condition_name": "Orolabial Herpes (Cold Sores / HSV-1)",
+    "icd10": "B00.1",
+    "clinical_authority": "CDC STI Treatment Guidelines 2021 + IDSA",
+    "primary_first_line_rx": "valacyclovir",
+    "state": "California",
+    "state_slug": "ca",
+    "author_npi": "1104323203",
+    "author_name": "Parth Bhavsar, MD",
+    "author_specialty": "Family Medicine",
+    "datePublished": "2026-05-20",
+    "dateModified": "2026-05-20",
+    "lastReviewed": "2026-05-20"
+  },
+  "california_regulatory": {
+    "primary_statute": {
+      "name": "California Business and Professions Code Section 2290.5",
+      "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=2290.5.&lawCode=BPC",
+      "key_provisions": [
+        "No prior in-person visit required",
+        "Telehealth consent must be documented",
+        "Same standard of care as in-person"
+      ]
+    },
+    "medical_board": {
+      "source_url": "https://www.mbc.ca.gov/Resources/Medical-Resources/telehealth.aspx",
+      "value": "The standard of care is the same whether the patient is seen in-person, through telehealth or other methods."
+    },
+    "parity_law": {
+      "name": "California AB 744 (2019) \u2014 Telehealth Parity",
+      "statutory_citation": "California Insurance Code \u00a710123.85",
+      "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=10123.85.&lawCode=INS"
+    },
+    "e_prescribing": {
+      "name": "California Assembly Bill 2789",
+      "effective_date": "2022-01-01",
+      "source_url": "https://www.mbc.ca.gov/News/"
+    }
+  },
+  "california_insurance": {
+    "source": "notion_payor_enrollment.csv",
+    "retrieved_date": "2026-05-20",
+    "payors": [
+      {
+        "name": "Aetna",
+        "status": "Active",
+        "effective_date": "2026-04-30",
+        "in_network": true
+      },
+      {
+        "name": "UnitedHealthcare Commercial",
+        "status": "Approved",
+        "effective_date": "2026-05-29",
+        "in_network": true
+      },
+      {
+        "name": "Anthem Blue Cross",
+        "status": "Pending",
+        "effective_date": null,
+        "in_network": false
+      },
+      {
+        "name": "Cigna",
+        "status": "Pending",
+        "effective_date": null,
+        "in_network": false
+      },
+      {
+        "name": "Kaiser Permanente",
+        "status": "Closed system",
+        "effective_date": null,
+        "in_network": false
+      },
+      {
+        "name": "Medi-Cal",
+        "status": "Not enrolled",
+        "effective_date": null,
+        "in_network": false
+      }
+    ],
+    "cash_price": 49
+  },
+  "california_sti_epidemiology": {
+    "source": "CDPH 2022 STI Surveillance Executive Summary",
+    "source_url": "https://www.cdph.ca.gov/Programs/CID/DCDC/CDPH%20Document%20Library/2022-STD-Surveillance-Executive-Summary.pdf",
+    "chlamydia_2022": {
+      "cases": 193907,
+      "rate_per_100k": 496.8
+    },
+    "gonorrhea_2022": {
+      "cases": 80317,
+      "rate_per_100k": 205.8
+    },
+    "syphilis_total_2022": {
+      "cases": 32794,
+      "rate_per_100k": 84.0
+    },
+    "congenital_syphilis_2022": {
+      "cases": 615,
+      "rate_per_100k_live_births": 146.5
+    }
+  },
+  "drug_pricing": {
+    "retrieved_date": "2026-05-20",
+    "source_note": "GoodRx prices retrieved May 2026 from goodrx.com. Prices are national averages and may vary by pharmacy.",
+    "primary_rx": "valacyclovir",
+    "goodrx_url": "https://www.goodrx.com/valacyclovir"
+  },
+  "dual_path_resources": [
+    {
+      "name": "Planned Parenthood California",
+      "url": "https://www.plannedparenthood.org/get-care",
+      "note": "Free/low-cost sexual and reproductive health care"
+    },
+    {
+      "name": "California Family PACT",
+      "url": "https://www.familypact.org",
+      "note": "Free reproductive health care for eligible low-income Californians"
+    },
+    {
+      "name": "California 211",
+      "url": "https://www.211ca.org",
+      "note": "Statewide referral for health and social services"
+    },
+    {
+      "name": "HHS Title X Family Planning",
+      "url": "https://www.hhs.gov/opa/title-x-family-planning/index.html",
+      "note": "Free or low-cost reproductive health care"
+    }
+  ]
+}

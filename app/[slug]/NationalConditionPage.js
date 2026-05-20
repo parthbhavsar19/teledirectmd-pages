@@ -3,6 +3,7 @@ import { generateNationalJsonLd } from '../../lib/json-ld-national';
 import { INSURERS, INSURANCE_CONDITIONS } from '../../data/insurance/insuranceConfig';
 import { WhatDoesThisCostBlock, CompareTeleDirectMDLinkRow, CommonSymptomsBlock } from '../components/CostCompareModules';
 import { CitableSummaryBlock } from '../components/CitableSummary';
+import FaqAccordion from '../components/FaqAccordion';
 import { summarizeNationalCondition, citableSummaryToJsonLd } from '../../lib/citable-summary';
 
 export default function NationalConditionPage({ conditionSlug }) {
@@ -557,18 +558,14 @@ export default function NationalConditionPage({ conditionSlug }) {
       {/* 17) FAQ Accordion */}
       <section className="tdmd-section tdmd-faq" id={`${pid}-faq`}>
         <div className="tdmd-container">
-          <h2>{condition.faq.sectionTitle}</h2>
-
-          <div className="tdmd-faq-list" role="list">
-            {condition.faq.items.map((item, i) => (
-              <details key={i} className="tdmd-faq-item">
-                <summary className="tdmd-faq-question" data-speakable="true">{item.question}</summary>
-                <div className="tdmd-faq-answer">
-                  <p>{item.answer}</p>
-                </div>
-              </details>
-            ))}
-          </div>
+          <FaqAccordion
+            sectionTitle={condition.faq.sectionTitle}
+            items={condition.faq.items.map((item, i) => ({
+              question: item.question,
+              answer: item.answer,
+              id: `${pid}-faq-${i}`,
+            }))}
+          />
 
           <div className="tdmd-bottom-cta" role="region" aria-label="Book a visit call to action">
             <div className="tdmd-bottom-cta-copy">

@@ -1,0 +1,85 @@
+{
+  "page_meta": {
+    "url": "https://teledirectmd.com/ca/asthma-refills-online/",
+    "title": "Asthma Refills Online in California | TeleDirectMD",
+    "description": "Refill your asthma controller medications online in California. Board-certified Family Medicine MD. CA telehealth law compliant. Aetna in-network. Self pay $49. GINA 2024 stepwise approach. ICS, ICS+LABA, biologics referral criteria.",
+    "canonical": "https://teledirectmd.com/ca/asthma-refills-online/",
+    "datePublished": "2026-05-19",
+    "dateModified": "2026-05-19",
+    "lastReviewed": "2026-05-19",
+    "author_npi": "1104323203",
+    "author_name": "Parth Bhavsar, MD",
+    "author_specialty": "Family Medicine",
+    "state": "California",
+    "state_slug": "ca",
+    "condition": "Asthma Refills",
+    "condition_slug": "asthma-refills-online",
+    "icd10": "J45.20",
+    "icd10_display": "J45.20 (mild intermittent), J45.30 (mild persistent), J45.40 (moderate persistent) — final coding per clinical details"
+  },
+  "opener": {
+    "text": "California adults managing stable asthma can refill controller medications — including inhaled corticosteroids (ICS) and ICS+LABA combination inhalers — by secure video visit through TeleDirectMD, consistent with California Business and Professions Code Section 2290.5. A California-licensed board-certified Family Medicine physician reviews your current regimen, most recent spirometry or peak-flow history, symptom control, and adherence before authorizing refills. The GINA 2024 stepwise framework guides inhaler selection and step-up or step-down decisions. California's CDPH ambient air quality data — including wildfire smoke advisories — are clinically relevant and addressed during the visit. Self pay is $49. Aetna is in-network effective April 30, 2026.",
+    "citations": ["https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=2290.5.&lawCode=BPC", "https://ginasthma.org/2024-gina-main-report/", "https://www.cdph.ca.gov/Programs/OHE/Pages/NR23-005.aspx"]
+  },
+  "epidemiology": {
+    "ca_prevalence": "Approximately 8.5% of California adults — roughly 2.7 million people — have current asthma, per the 2023 California Health Interview Survey (CHIS). California's prevalence exceeds the national average of 7.8%, partly driven by environmental triggers including wildfire smoke, vehicle exhaust in the Central Valley, and coastal marine layer ozone.",
+    "wildfire_context": "California's wildfire seasons now run year-round. The California Air Resources Board (CARB) documents that wildfire smoke events increased fine particulate matter (PM2.5) exposure statewide, driving asthma exacerbation emergency visits by 12–15% during peak smoke events in 2020–2023. The CDPH tracks air quality via the Air Quality Index (AQI) and issues public health advisories for sensitive groups including people with asthma.",
+    "disparities": "Black Californians have asthma prevalence nearly twice that of white Californians (12.2% vs. 7.4%) per CHIS 2023. Pediatric asthma in low-income zip codes correlates with diesel truck traffic from agricultural supply chains. TeleDirectMD treats adults 18+ only.",
+    "sources": [
+      {"name": "California Health Interview Survey (CHIS) 2023 — Asthma", "url": "https://healthpolicy.ucla.edu/our-work/california-health-interview-survey-chis/chis-data"},
+      {"name": "California Air Resources Board (CARB) — Wildfire Smoke and Air Quality", "url": "https://www.arb.ca.gov/research/resnotes/notes/2021-01.htm"},
+      {"name": "CDPH — Air Quality and Health", "url": "https://www.cdph.ca.gov/Programs/OHE/Pages/NR23-005.aspx"}
+    ]
+  },
+  "clinical_guidelines": {
+    "primary": "GINA 2024 (Global Initiative for Asthma) + NAEPP (National Asthma Education and Prevention Program)",
+    "stepwise": [
+      {"step": "Step 1", "severity": "Mild intermittent", "preferred": "SABA PRN (albuterol) — no daily controller", "alternative": "Low-dose ICS PRN (GINA 2024 preferred option 1B)"},
+      {"step": "Step 2", "severity": "Mild persistent", "preferred": "Low-dose ICS daily (e.g., fluticasone 88 mcg BID, budesonide 180 mcg BID)", "alternative": "LTRA (montelukast) — less effective than ICS"},
+      {"step": "Step 3", "severity": "Moderate persistent", "preferred": "Low-dose ICS+LABA (e.g., fluticasone/salmeterol 100/50 BID, budesonide/formoterol 80/4.5 BID)", "alternative": "Medium-dose ICS alone"},
+      {"step": "Step 4", "severity": "Moderate-to-severe persistent", "preferred": "Medium-to-high dose ICS+LABA", "alternative": "Add LAMA (tiotropium)"},
+      {"step": "Step 5", "severity": "Severe persistent", "preferred": "Biologics referral criteria: uncontrolled on Step 4, high eosinophil count (≥300 cells/µL) or high FeNO — refer to allergist/pulmonologist for anti-IL-5, anti-IL-4/IL-13, or anti-IgE therapy", "alternative": "Add OCS bridge — physician discusses risks"}
+    ],
+    "telehealth_scope": "TeleDirectMD refills established stable asthma regimens at Steps 1–4. Step 5 biologics require specialist management — TeleDirectMD assists with referral.",
+    "biologics_referral": "Referral criteria for biologic therapy: uncontrolled symptoms despite medium-high dose ICS+LABA, blood eosinophils ≥300 cells/µL, FeNO >25 ppb, history of ≥2 exacerbations requiring oral steroids in the prior year, or dupilumab/benralizumab/mepolizumab candidacy. Physician facilitates referral to allergist or pulmonologist.",
+    "monitoring": "Annual spirometry or PEG-Flow review, Asthma Control Test (ACT) score at each visit, rescue inhaler use frequency, ER/urgent care visits, oral steroid courses — all reviewed before authorizing refills.",
+    "sources": [
+      {"name": "GINA 2024 Main Report — Global Strategy for Asthma Management and Prevention", "url": "https://ginasthma.org/2024-gina-main-report/"},
+      {"name": "NAEPP Expert Panel Report 3 (EPR-3) — Guidelines for the Diagnosis and Management of Asthma", "url": "https://www.nhlbi.nih.gov/health-topics/guidelines-for-diagnosis-management-of-asthma"}
+    ]
+  },
+  "medications": [
+    {"name": "Albuterol HFA inhaler (ProAir, Ventolin, Proventil)", "class": "SABA (rescue)", "regimen": "2 puffs PRN up to q4h; 2 puffs before exercise", "goodrx_price": "~$30–$60 with GoodRx coupon", "goodrx_url": "https://www.goodrx.com/albuterol", "notes": "Rescue inhaler — not a controller. Refill appropriate if usage ≤2 days/week."},
+    {"name": "Fluticasone propionate HFA (Flovent HFA) 44/88/110/220 mcg", "class": "ICS (controller)", "regimen": "1–2 puffs BID per dose level", "goodrx_price": "~$45–$100/inhaler GoodRx", "goodrx_url": "https://www.goodrx.com/fluticasone-propionate-hfa", "notes": "First-line controller. Step 2 preferred."},
+    {"name": "Budesonide/formoterol (Symbicort) 80/4.5 or 160/4.5 mcg", "class": "ICS+LABA (controller)", "regimen": "2 puffs BID (maintenance) or MART regimen per GINA 2024", "goodrx_price": "~$60–$160/inhaler GoodRx", "goodrx_url": "https://www.goodrx.com/budesonide-formoterol", "notes": "Step 3–4 preferred. GINA 2024 supports MART (maintenance and reliever therapy)."},
+    {"name": "Fluticasone/salmeterol (Advair Diskus/HFA) 100/50, 250/50, 500/50 mcg", "class": "ICS+LABA (controller)", "regimen": "1 inhalation BID", "goodrx_price": "~$60–$180/inhaler GoodRx", "goodrx_url": "https://www.goodrx.com/fluticasone-salmeterol", "notes": "Step 3–4 option. Long-acting — do not use as rescue."},
+    {"name": "Montelukast (Singulair) 10 mg", "class": "LTRA (controller adjunct)", "regimen": "10 mg once daily at bedtime", "goodrx_price": "~$15–$25 GoodRx (generic)", "goodrx_url": "https://www.goodrx.com/montelukast", "notes": "Alternative Step 2. FDA black box warning: neuropsychiatric effects. Physician discusses risks."}
+  ],
+  "ca_medi_cal_coverage": {
+    "ics_coverage": "Medi-Cal covers ICS inhalers including budesonide (Pulmicort) on the formulary. Prior authorization required for brand-name combination inhalers above the preferred tier.",
+    "biologics": "Medi-Cal covers FDA-approved asthma biologics (dupilumab, benralizumab, mepolizumab) with prior authorization and specialist attestation. TeleDirectMD facilitates referral; biologic prescribing requires specialist.",
+    "source_url": "https://medi-cal.ca.gov/provider/formulary"
+  },
+  "siblings": [
+    {"slug": "hypertension-refills-online", "label": "Hypertension Refills in CA", "why": "Common comorbidity — beta-blockers used cautiously in asthma."},
+    {"slug": "seasonal-allergies-treatment-online", "label": "Seasonal Allergies Treatment in CA", "why": "Allergic asthma shares triggers — antihistamines, nasal steroids."},
+    {"slug": "epipen-refills-online", "label": "EpiPen Refills in CA", "why": "Anaphylaxis risk in allergic asthma — emergency action plan companion."},
+    {"slug": "smoking-cessation-treatment-online", "label": "Smoking Cessation in CA", "why": "Smoking worsens asthma — cessation is core management."},
+    {"slug": "acid-reflux-refills-online", "label": "Acid Reflux Refills in CA", "why": "GERD is a common asthma trigger — often co-managed."},
+    {"slug": "online-doctor-visits", "label": "All Online Doctor Visits in CA", "why": "General CA telehealth hub."}
+  ],
+  "faqs": [
+    {"question": "Can I refill my asthma inhalers online in California?", "answer": "Yes. California Business and Professions Code Section 2290.5 permits licensed physicians to deliver care and prescribe appropriate medications via synchronous video telehealth without a prior in-person visit. TeleDirectMD's California-licensed board-certified Family Medicine physician reviews your current asthma regimen — including your ICS, ICS+LABA, rescue inhaler usage, and ACT score — and can authorize refills for stable established asthma. Self pay is $49; Aetna commercial plans are in-network effective April 30, 2026."},
+    {"question": "What asthma inhalers can TeleDirectMD refill in California?", "answer": "TeleDirectMD can refill established asthma controller regimens including inhaled corticosteroids (ICS) such as fluticasone and budesonide, ICS+LABA combination inhalers such as budesonide/formoterol (Symbicort) and fluticasone/salmeterol (Advair), leukotriene receptor antagonists (montelukast), and albuterol rescue inhalers. The physician reviews GINA 2024 stepwise criteria to confirm the current regimen remains appropriate. Biologic therapies (dupilumab, benralizumab, mepolizumab) require specialist management — TeleDirectMD will facilitate an allergist or pulmonologist referral."},
+    {"question": "How does California wildfire smoke affect my asthma refills?", "answer": "California wildfire smoke events significantly increase PM2.5 exposure and drive asthma exacerbations statewide, per the California Air Resources Board. The TeleDirectMD physician reviews recent air quality conditions in your area, the California AQI, and your symptom pattern before authorizing refills. If wildfire smoke has worsened your asthma control, the physician may adjust your step therapy — for example, temporarily increasing ICS dose or adding a course of oral corticosteroids — before renewing the standard regimen."},
+    {"question": "Does California Medi-Cal cover asthma controller inhalers?", "answer": "TeleDirectMD is not currently enrolled as a Medi-Cal provider, so Medi-Cal will not cover TeleDirectMD visits. However, Medi-Cal's formulary does cover asthma controller inhalers including budesonide and generic formulations. If you have Medi-Cal, you can use TeleDirectMD's $49 self-pay rate or seek a Medi-Cal-enrolled primary care provider for your refills. Visit dhcs.ca.gov for the Medi-Cal provider directory."},
+    {"question": "What is the GINA stepwise approach for asthma?", "answer": "The Global Initiative for Asthma (GINA) 2024 stepwise framework organizes asthma treatment into Steps 1–5 based on symptom frequency, nighttime awakenings, rescue inhaler use, and FEV1. Step 1 uses as-needed SABA or low-dose ICS PRN for mild intermittent asthma. Steps 2–3 add daily ICS or ICS+LABA for persistent disease. Steps 4–5 escalate to higher-dose combination therapy, and Step 5 involves biologic therapy for uncontrolled severe asthma. The physician reviews your current step and the Asthma Control Test (ACT) score at every refill visit."},
+    {"question": "When should asthma patients go to the ER or urgent care instead of using TeleDirectMD?", "answer": "Seek emergency care immediately for severe dyspnea at rest, inability to speak full sentences, oxygen saturation below 92%, accessory muscle use, rapid worsening not responding to repeated rescue inhaler use, or silent chest. Use urgent care for moderate exacerbations with incomplete relief after 2–3 albuterol treatments. TeleDirectMD is appropriate for stable asthma refills and mild symptom changes — not for acute exacerbations."},
+    {"question": "Will my Aetna plan in California cover my asthma inhaler refill visit?", "answer": "Aetna became an active in-network payor for TeleDirectMD in California effective April 30, 2026. If you hold an Aetna commercial plan in California, you may be able to use your in-network benefits for your asthma refill visit. Always verify current in-network status with Aetna before booking, as plan eligibility varies by specific plan type. See the Aetna × California coverage details page for more information."},
+    {"question": "What monitoring is required before authorizing an asthma refill?", "answer": "The TeleDirectMD physician reviews: current symptom control (ACT score or validated equivalent), rescue inhaler use frequency (more than 2 days/week indicates poor control), nighttime awakenings, activity limitation, oral corticosteroid courses in the past year, ER or urgent care visits for asthma, spirometry or peak flow history if available, and any environmental exposures including wildfire smoke. Refills are authorized for patients with stable, well-controlled asthma consistent with GINA 2024 criteria."},
+    {"question": "Can TeleDirectMD prescribe montelukast (Singulair) for asthma in California?", "answer": "Yes, montelukast is a leukotriene receptor antagonist (LTRA) approved as an alternative Step 2 controller for mild persistent asthma and as adjunct therapy. The FDA issued a boxed warning for montelukast in 2020 regarding neuropsychiatric adverse events including suicidality. The TeleDirectMD physician reviews this warning with you and documents informed consent before prescribing. Montelukast is generally reserved for patients who cannot use ICS or as adjunct to ICS."},
+    {"question": "Does California parity law (AB 744) require my insurer to cover telehealth asthma care?", "answer": "California AB 744 (2019), codified in Insurance Code §10123.85, requires commercial health plans to reimburse telehealth services on the same basis as in-person services. Parity applies only when TeleDirectMD is already in-network with your specific plan. Currently, Aetna commercial (active April 30, 2026) and UnitedHealthcare Commercial (active May 29, 2026) are in-network in California. Anthem Blue Cross and Cigna enrollments are pending."},
+    {"question": "What is the cost of asthma inhalers in California with GoodRx?", "answer": "GoodRx coupon pricing for common asthma medications in California (May 2026): albuterol HFA approximately $30–$60 per inhaler; fluticasone propionate HFA approximately $45–$100; budesonide/formoterol (Symbicort) approximately $60–$160; fluticasone/salmeterol (Advair) approximately $60–$180; generic montelukast 10 mg approximately $15–$25 per month. Prices vary by pharmacy and dose. The TeleDirectMD visit fee ($49) covers evaluation only — inhaler costs are separate."},
+    {"question": "What if my asthma is worsening — is TeleDirectMD still appropriate?", "answer": "If your asthma is worsening despite your current controller regimen, a video visit may be appropriate for step-up assessment, short oral corticosteroid course authorization, and facilitation of an allergist or pulmonologist referral. However, if you have an acute exacerbation with significant dyspnea, go to urgent care or the ER. Do not use TeleDirectMD for emergencies."}
+  ]
+}

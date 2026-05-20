@@ -1,0 +1,232 @@
+{
+  "page_meta": {
+    "url": "https://teledirectmd.com/ca/ear-pain-treatment-online/",
+    "title": "Ear Pain Treatment Online in California | TeleDirectMD",
+    "description": "Ear pain treatment online for California adults. Otitis media and outer ear evaluation. Board-certified Family Medicine MD. Self pay $49. Aetna in-network. Same-day video visits. CA telehealth compliant.",
+    "canonical": "https://teledirectmd.com/ca/ear-pain-treatment-online/",
+    "datePublished": "2026-05-20",
+    "dateModified": "2026-05-20",
+    "lastReviewed": "2026-05-20",
+    "author_npi": "1104323203",
+    "author_name": "Parth Bhavsar, MD",
+    "author_specialty": "Family Medicine",
+    "state": "California",
+    "state_slug": "ca",
+    "condition": "Ear Pain Treatment",
+    "condition_slug": "ear-pain-treatment-online",
+    "icd10": "H92.9",
+    "specialty_authority": "American Academy of Otolaryngology \u2013 Head and Neck Surgery (AAO-HNS)",
+    "guideline": "AAO-HNS Clinical Practice Guideline: Otitis Media with Effusion and Acute Otitis Media (Adult)"
+  },
+  "california_regulatory": {
+    "primary_statute": {
+      "name": "California Business and Professions Code Section 2290.5",
+      "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=2290.5.&lawCode=BPC",
+      "in_person_requirement": false,
+      "notes": "No prior in-person visit required for new patients under B&P \u00a72290.5."
+    },
+    "parity_law": {
+      "name": "California Assembly Bill 744 (2019) \u2014 Telehealth Parity",
+      "statutory_citation": "California Insurance Code \u00a710123.85",
+      "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=10123.85.&lawCode=INS",
+      "effective_date": "2021-01-01"
+    },
+    "e_prescribing_requirement": {
+      "source_url": "https://www.mbc.ca.gov/News/",
+      "value": "Beginning January 1, 2022, all prescriptions issued in California must be done electronically (Assembly Bill 2789)."
+    }
+  },
+  "california_insurance": {
+    "source": "notion_payor_enrollment.csv",
+    "retrieved_date": "2026-05-20",
+    "payors": [
+      {
+        "name": "Aetna",
+        "status": "Active",
+        "effective_date": "2026-04-30",
+        "in_network": true
+      },
+      {
+        "name": "Anthem Blue Cross",
+        "status": "Pending",
+        "effective_date": null,
+        "in_network": false
+      },
+      {
+        "name": "Cigna",
+        "status": "Pending",
+        "effective_date": null,
+        "in_network": false
+      },
+      {
+        "name": "United Healthcare Commercial",
+        "status": "Approved",
+        "effective_date": "2026-05-29",
+        "in_network": true,
+        "notes": "Commercial + Medicare Advantage. Excludes Medi-Cal, Individual Exchange, Navigate/Charter/Core."
+      }
+    ],
+    "cash_price": 49
+  },
+  "california_epidemiology": {
+    "summary": "Acute otitis externa (swimmer's ear) and otitis media together account for millions of physician visits annually in the United States. Adult acute otitis media (AOM) affects approximately 1 in 100 adults per year, while otitis externa is more common, particularly among California coastal communities with high water-activity participation. The CDC reports that ear infections are one of the top reasons for antibiotic prescriptions in outpatient settings nationwide.",
+    "source_url": "https://www.cdc.gov/antibiotic-use/ear-infection.html",
+    "source_name": "CDC \u2014 Ear Infections and Antibiotic Use"
+  },
+  "clinical_content": {
+    "specialty_authority": "American Academy of Otolaryngology \u2013 Head and Neck Surgery (AAO-HNS)",
+    "specialty_authority_url": "https://www.entnet.org/quality-practice/quality-and-performance/clinical-practice-guidelines/otitis-media-acute/",
+    "guideline": "AAO-HNS Clinical Practice Guideline: Otitis Media with Effusion and Acute Otitis Media (Adult)",
+    "telehealth_appropriate_criteria": [
+      "Adult 18+ located in California at time of visit",
+      "Ear pain with or without drainage, fullness, or decreased hearing",
+      "Suspected otitis externa (swimmer's ear) \u2014 ear canal pain that worsens with ear tug",
+      "Ear pain following recent cold or upper respiratory infection",
+      "No facial weakness, mastoid tenderness, or vertigo with inability to walk",
+      "Able to describe symptom onset and character clearly"
+    ],
+    "red_flags_requiring_in_person": [
+      "Sudden onset complete hearing loss",
+      "Severe vertigo or inability to walk straight (possible labyrinthitis or Meniere's)",
+      "Facial weakness or paralysis on the affected side",
+      "Severe pain with tender mastoid bone behind the ear (possible mastoiditis)",
+      "High fever with ear pain and appears very ill",
+      "Ear canal swelling so severe it is completely closed (may need ENT drainage)",
+      "Ear pain in immunocompromised patient (higher risk for malignant otitis externa)"
+    ]
+  },
+  "drug_pricing": {
+    "retrieved_date": "2026-05-20",
+    "source_note": "GoodRx prices are national averages. Prices represent GoodRx coupon price as of May 2026.",
+    "medications": [
+      {
+        "name": "Ofloxacin otic solution (Floxin Otic) 0.3%",
+        "typical_regimen": "5 drops in affected ear twice daily \u00d7 7 days (otitis externa)",
+        "goodrx_price": "~$25\u2013$45 generic with GoodRx",
+        "source_url": "https://www.goodrx.com/ofloxacin-otic",
+        "first_line": true,
+        "notes": "First-line for uncomplicated otitis externa per AAO-HNS guideline. Fluoroquinolone otic \u2014 excellent coverage. Not systemically absorbed significantly."
+      },
+      {
+        "name": "Ciprofloxacin-dexamethasone otic (Ciprodex)",
+        "typical_regimen": "4 drops in affected ear twice daily \u00d7 7 days",
+        "goodrx_price": "~$30\u2013$60 with GoodRx",
+        "source_url": "https://www.goodrx.com/ciprofloxacin-dexamethasone-otic",
+        "first_line": true,
+        "notes": "First-line for otitis externa \u2014 antibiotic plus corticosteroid to reduce inflammation and pain. Brand name Ciprodex; generic available."
+      },
+      {
+        "name": "Amoxicillin 500 mg (for acute otitis media)",
+        "typical_regimen": "500 mg three times daily \u00d7 5\u20137 days",
+        "goodrx_price": "~$6\u2013$12 generic with GoodRx",
+        "source_url": "https://www.goodrx.com/amoxicillin",
+        "first_line": true,
+        "notes": "First-line for adult acute otitis media when treatment is indicated. Covers most common pathogens (S. pneumoniae, H. influenzae). Avoid if penicillin allergy."
+      },
+      {
+        "name": "Amoxicillin-clavulanate 875/125 mg (for AOM)",
+        "typical_regimen": "1 tablet twice daily \u00d7 5\u20137 days",
+        "goodrx_price": "~$16\u2013$25 generic with GoodRx",
+        "source_url": "https://www.goodrx.com/amoxicillin-clavulanate",
+        "first_line": false,
+        "notes": "Second-line for AOM when first-line amoxicillin fails or if recent antibiotic use or beta-lactamase-producing organisms suspected."
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "id": "faq-1",
+      "question": "Can I get ear pain treatment online in California?",
+      "answer": "Yes. California Business and Professions Code Section 2290.5 permits California-licensed physicians to deliver care via synchronous video telehealth without a prior in-person visit. TeleDirectMD physicians are licensed in California. Adults 18+ in California can book a same-day video visit for ear pain evaluation. If your history supports otitis externa (swimmer's ear) or adult acute otitis media without red flags, prescription ear drops or oral antibiotics may be appropriate. Self pay is $49; Aetna is in-network as of April 30, 2026."
+    },
+    {
+      "id": "faq-2",
+      "question": "What is the difference between an outer ear infection and a middle ear infection?",
+      "answer": "Otitis externa (outer ear infection, 'swimmer's ear') affects the ear canal \u2014 it causes pain that worsens when the outer ear or ear lobe is tugged or pressed, often with drainage and itching. Otitis media (middle ear infection) is behind the eardrum \u2014 it often follows a cold, causes deep ear pain, pressure, and sometimes hearing loss or fluid draining if the eardrum perforates. Both can be evaluated in a TeleDirectMD visit; the treatment differs (otic drops for otitis externa vs. systemic antibiotics for otitis media). A physician determines which type based on your symptom description."
+    },
+    {
+      "id": "faq-3",
+      "question": "What ear drops treat swimmer's ear, and what do they cost in California?",
+      "answer": "First-line prescription ear drops for otitis externa per AAO-HNS guideline include: ofloxacin otic 0.3% (generic ~$25\u2013$45 with GoodRx coupon) or ciprofloxacin-dexamethasone otic (Ciprodex, generic ~$30\u2013$60 with GoodRx). Otic drops are used because they deliver high antibiotic concentrations directly to the ear canal without systemic side effects. Prescription costs at pharmacy are separate from the TeleDirectMD visit fee ($49)."
+    },
+    {
+      "id": "faq-4",
+      "question": "Does California require an in-person visit before telehealth?",
+      "answer": "No. California B&P Code \u00a72290.5 does not require a prior in-person visit. A California-licensed physician can evaluate your ear symptoms through a synchronous video visit. Note that a telehealth visit cannot perform otoscopy (direct visualization of the eardrum) \u2014 the physician relies on your symptom history and description. If physical examination of the ear is important for diagnosis, the physician will direct you to urgent care."
+    },
+    {
+      "id": "faq-5",
+      "question": "Is my Aetna plan in California in-network with TeleDirectMD?",
+      "answer": "Aetna became an active in-network payor for TeleDirectMD in California effective April 30, 2026. If you hold an Aetna commercial plan in California, you may be able to use your in-network benefits. Verify current in-network status directly with Aetna before your visit."
+    },
+    {
+      "id": "faq-6",
+      "question": "When is ear pain dangerous and when should I go to the ER in California?",
+      "answer": "Seek emergency care immediately if you have sudden complete hearing loss, facial weakness or paralysis on the affected side, severe vertigo with inability to walk, severe pain with tenderness behind the ear (mastoid), or if you are immunocompromised with severe ear pain and drainage. These symptoms may indicate mastoiditis, Ramsay Hunt syndrome, or malignant otitis externa \u2014 serious conditions requiring emergency evaluation. TeleDirectMD is not appropriate if red-flag symptoms are present."
+    },
+    {
+      "id": "faq-7",
+      "question": "Is UnitedHealthcare in-network with TeleDirectMD in California?",
+      "answer": "UnitedHealthcare Commercial was approved for California effective May 29, 2026, covering commercial plans and Medicare Advantage. Excludes Medi-Cal, Individual Exchange, and Navigate/Charter/Core plan types. Verify your specific plan eligibility with UHC before booking."
+    },
+    {
+      "id": "faq-8",
+      "question": "Will Medi-Cal cover my TeleDirectMD visit for ear pain?",
+      "answer": "TeleDirectMD is not currently enrolled as a Medi-Cal provider. If you have Medi-Cal, you can use the $49 self-pay rate or find a Medi-Cal-enrolled telehealth provider through your managed care plan or California DHCS at dhcs.ca.gov."
+    },
+    {
+      "id": "faq-9",
+      "question": "What can I do at home for ear pain relief?",
+      "answer": "While waiting for your telehealth visit, adults may use OTC acetaminophen or ibuprofen for pain relief. For otitis externa, keep the ear dry and avoid cotton swabs, which push debris deeper. A warm compress over the ear may provide comfort. Do not insert anything into the ear canal. Do not use home olive oil or hydrogen peroxide without physician guidance. These are comfort measures \u2014 they do not treat the underlying infection."
+    },
+    {
+      "id": "faq-10",
+      "question": "Does California's AB 744 telehealth parity law apply to ear pain visits?",
+      "answer": "California AB 744 (2019) requires commercial health plans to reimburse telehealth services on the same basis as in-person services. Parity applies when the provider is already in-network with your specific plan. Currently, Aetna (active April 30, 2026) and UnitedHealthcare Commercial (active May 29, 2026) are in-network in California for TeleDirectMD."
+    },
+    {
+      "id": "faq-11",
+      "question": "How quickly will my ear drop prescription reach a California pharmacy?",
+      "answer": "California requires all prescriptions to be issued electronically under Assembly Bill 2789 (effective January 1, 2022). If ear drops or an antibiotic is appropriate, TeleDirectMD sends an e-prescription electronically to your chosen California pharmacy during or after your visit. Most California pharmacies fill within one to four hours."
+    },
+    {
+      "id": "faq-12",
+      "question": "Are children with ear pain eligible for TeleDirectMD in California?",
+      "answer": "TeleDirectMD sees adults 18 years and older only. Children with ear pain should be evaluated by their pediatrician, a pediatric urgent care clinic, or a California Children's Services facility. For pediatric urgent care resources across California, visit findahealthcenter.hrsa.gov."
+    }
+  ],
+  "references": [
+    {
+      "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=2290.5.&lawCode=BPC",
+      "text": "California Business and Professions Code Section 2290.5 \u2014 Telehealth Advancement Act. Retrieved May 2026."
+    },
+    {
+      "url": "https://www.mbc.ca.gov/Resources/Medical-Resources/telehealth.aspx",
+      "text": "Medical Board of California \u2014 Telehealth Resources. Retrieved May 2026."
+    },
+    {
+      "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=10123.85.&lawCode=INS",
+      "text": "California Insurance Code \u00a710123.85 \u2014 Telehealth Parity (AB 744). Retrieved May 2026."
+    },
+    {
+      "url": "https://www.dhcs.ca.gov/provgovpart/Pages/TelehealthFAQ.aspx",
+      "text": "California DHCS \u2014 Telehealth FAQ. Retrieved May 2026."
+    },
+    {
+      "url": "https://www.cdc.gov/antibiotic-use/ear-infection.html",
+      "text": "CDC \u2014 Ear Infections and Antibiotic Use. Retrieved May 2026."
+    },
+    {
+      "url": "https://www.entnet.org/quality-practice/quality-and-performance/clinical-practice-guidelines/otitis-media-acute/",
+      "text": "AAO-HNS \u2014 Acute Otitis Media Clinical Practice Guideline. Retrieved May 2026."
+    },
+    {
+      "url": "https://www.aafp.org/pubs/afp/issues/2019/0401/p445.html",
+      "text": "AAFP \u2014 Otitis Externa: An Update. Retrieved May 2026."
+    },
+    {
+      "url": "https://www.mbc.ca.gov/News/",
+      "text": "Medical Board of California \u2014 Electronic Prescribing (AB 2789). Retrieved May 2026."
+    }
+  ]
+}

@@ -1,0 +1,232 @@
+{
+  "page_meta": {
+    "url": "https://teledirectmd.com/ca/common-cold-treatment-online/",
+    "title": "Common Cold Treatment Online in California | TeleDirectMD",
+    "description": "Common cold treatment online for California adults. Board-certified Family Medicine MD. Self pay $49. Aetna in-network. UHC Commercial approved. CA telehealth law compliant. Same-day video visits.",
+    "canonical": "https://teledirectmd.com/ca/common-cold-treatment-online/",
+    "datePublished": "2026-05-20",
+    "dateModified": "2026-05-20",
+    "lastReviewed": "2026-05-20",
+    "author_npi": "1104323203",
+    "author_name": "Parth Bhavsar, MD",
+    "author_specialty": "Family Medicine",
+    "state": "California",
+    "state_slug": "ca",
+    "condition": "Common Cold Treatment",
+    "condition_slug": "common-cold-treatment-online",
+    "icd10": "J00",
+    "specialty_authority": "American Academy of Family Physicians (AAFP)",
+    "guideline": "AAFP Common Cold Management Guidelines"
+  },
+  "california_regulatory": {
+    "primary_statute": {
+      "name": "California Business and Professions Code Section 2290.5",
+      "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=2290.5.&lawCode=BPC",
+      "in_person_requirement": false,
+      "notes": "No prior in-person visit required for new patients under B&P \u00a72290.5."
+    },
+    "parity_law": {
+      "name": "California Assembly Bill 744 (2019) \u2014 Telehealth Parity",
+      "statutory_citation": "California Insurance Code \u00a710123.85",
+      "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=10123.85.&lawCode=INS",
+      "effective_date": "2021-01-01"
+    },
+    "e_prescribing_requirement": {
+      "source_url": "https://www.mbc.ca.gov/News/",
+      "value": "Beginning January 1, 2022, all prescriptions issued in California must be done electronically (Assembly Bill 2789)."
+    }
+  },
+  "california_insurance": {
+    "source": "notion_payor_enrollment.csv",
+    "retrieved_date": "2026-05-20",
+    "payors": [
+      {
+        "name": "Aetna",
+        "status": "Active",
+        "effective_date": "2026-04-30",
+        "in_network": true
+      },
+      {
+        "name": "Anthem Blue Cross",
+        "status": "Pending",
+        "effective_date": null,
+        "in_network": false
+      },
+      {
+        "name": "Cigna",
+        "status": "Pending",
+        "effective_date": null,
+        "in_network": false
+      },
+      {
+        "name": "United Healthcare Commercial",
+        "status": "Approved",
+        "effective_date": "2026-05-29",
+        "in_network": true,
+        "notes": "Commercial + Medicare Advantage. Excludes Medi-Cal, Individual Exchange, Navigate/Charter/Core."
+      }
+    ],
+    "cash_price": 49
+  },
+  "california_epidemiology": {
+    "summary": "California sees approximately 1 billion common colds annually in the United States; applying standard epidemiologic rates, California's 39 million residents experience an estimated 150\u2013180 million cold episodes per year, primarily in fall and winter months.",
+    "source_url": "https://www.cdc.gov/nchs/fastats/common-cold.htm",
+    "source_name": "CDC \u2014 Common Cold Data"
+  },
+  "clinical_content": {
+    "specialty_authority": "American Academy of Family Physicians (AAFP)",
+    "specialty_authority_url": "https://www.aafp.org/pubs/afp/issues/2012/0715/p153.html",
+    "guideline": "AAFP Common Cold Management Guidelines",
+    "telehealth_appropriate_criteria": [
+      "Adult 18+ located in California at time of visit",
+      "Runny nose, sneezing, mild sore throat, nasal congestion for \u226410 days",
+      "Low-grade fever (below 101\u00b0F) or no fever",
+      "No difficulty breathing, chest pain, or neck stiffness",
+      "Seeking symptom management guidance or ruling out bacterial infection",
+      "Guidance on safe OTC medications (decongestants, antihistamines)"
+    ],
+    "red_flags_requiring_in_person": [
+      "Fever above 103\u00b0F (39.4\u00b0C) lasting more than 3 days",
+      "Severe headache or neck stiffness (possible meningitis)",
+      "Difficulty breathing or chest pain",
+      "Symptoms worsening after initial improvement",
+      "Ear pain with fever (possible otitis media)",
+      "Facial pain and pressure lasting more than 10 days without improvement (possible sinusitis)",
+      "Severe sore throat without runny nose (possible strep)"
+    ]
+  },
+  "drug_pricing": {
+    "retrieved_date": "2026-05-20",
+    "source_note": "GoodRx prices are national averages. Prices represent GoodRx coupon price as of May 2026.",
+    "medications": [
+      {
+        "name": "Pseudoephedrine (Sudafed) \u2014 OTC",
+        "typical_regimen": "30\u201360 mg every 4\u20136 hours as needed",
+        "goodrx_price": "Available OTC ~$8\u2013$15",
+        "source_url": "https://www.goodrx.com/pseudoephedrine",
+        "first_line": true,
+        "notes": "Nasal decongestant. Requires ID purchase at pharmacy. Avoid if hypertension, heart disease, or hyperthyroidism."
+      },
+      {
+        "name": "Guaifenesin (Mucinex) \u2014 OTC",
+        "typical_regimen": "400\u2013600 mg every 4 hours as needed",
+        "goodrx_price": "Available OTC ~$7\u2013$12",
+        "source_url": null,
+        "first_line": true,
+        "notes": "Expectorant \u2014 thins mucus. Drink adequate fluids. Available without prescription."
+      },
+      {
+        "name": "Fluticasone propionate nasal spray (Rx or OTC)",
+        "typical_regimen": "2 sprays each nostril daily",
+        "goodrx_price": "Generic ~$18\u2013$25 with GoodRx",
+        "source_url": "https://www.goodrx.com/fluticasone-propionate",
+        "first_line": true,
+        "notes": "Reduces nasal inflammation. Available OTC (Flonase) or Rx. Onset 12\u201324 hours; full effect 1\u20132 weeks."
+      },
+      {
+        "name": "Cetirizine (Zyrtec) \u2014 OTC",
+        "typical_regimen": "10 mg once daily as needed",
+        "goodrx_price": "Available OTC ~$6\u2013$12",
+        "source_url": null,
+        "first_line": false,
+        "notes": "Non-drowsy antihistamine for runny nose and sneezing. Available OTC."
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "id": "faq-1",
+      "question": "Can I get common cold treatment online in California?",
+      "answer": "Yes. California Business and Professions Code Section 2290.5 permits California-licensed physicians to deliver care via synchronous video telehealth without a prior in-person visit. TeleDirectMD physicians are licensed in California. Adults 18+ located in California can book a same-day video visit for cold symptom evaluation. While antibiotics are not effective against viral colds, a physician can rule out bacterial complications, guide safe OTC medication use, and advise on when to seek further care. Self pay is $49; Aetna is in-network as of April 30, 2026."
+    },
+    {
+      "id": "faq-2",
+      "question": "Do I need antibiotics for a common cold?",
+      "answer": "No. The common cold is caused by viruses \u2014 most commonly rhinovirus \u2014 and antibiotics have no effect on viral infections. Prescribing antibiotics for a cold promotes antibiotic resistance without benefit. A TeleDirectMD physician can confirm your symptoms are consistent with an uncomplicated viral URI and advise on appropriate symptom management. If a bacterial complication such as strep throat, ear infection, or sinusitis is suspected based on your history, the physician will direct you appropriately."
+    },
+    {
+      "id": "faq-3",
+      "question": "How long does a common cold last?",
+      "answer": "Most uncomplicated common colds resolve within 7\u201310 days, according to AAFP guidelines. Nasal symptoms typically peak at days 2\u20133 and improve by day 7. A cough may persist for 2\u20133 weeks. If symptoms worsen after initial improvement, last more than 10 days, or include fever above 103\u00b0F, facial pain, or ear pain, a physician should re-evaluate to screen for bacterial complications."
+    },
+    {
+      "id": "faq-4",
+      "question": "Does California require an in-person visit before telehealth?",
+      "answer": "No. California B&P Code \u00a72290.5 does not require a prior in-person visit. A California-licensed physician can establish a new patient relationship and evaluate your symptoms through a synchronous video visit. TeleDirectMD documents consent under CA B&P \u00a72290.5 at the start of every visit."
+    },
+    {
+      "id": "faq-5",
+      "question": "Is my Aetna plan in California in-network with TeleDirectMD?",
+      "answer": "Aetna became an active in-network payor for TeleDirectMD in California effective April 30, 2026. If you hold an Aetna commercial plan in California, you may be able to use your in-network benefits. Always verify current in-network status directly with Aetna before your visit, as plan eligibility varies by specific plan type."
+    },
+    {
+      "id": "faq-6",
+      "question": "Is UnitedHealthcare in-network with TeleDirectMD in California?",
+      "answer": "UnitedHealthcare Commercial was approved for California effective May 29, 2026, covering commercial plans and Medicare Advantage. This excludes Medi-Cal, Individual Exchange, and Navigate/Charter/Core plan types. Verify your specific UHC plan eligibility with UHC before booking."
+    },
+    {
+      "id": "faq-7",
+      "question": "Will Medi-Cal cover my TeleDirectMD visit for a cold in California?",
+      "answer": "TeleDirectMD is not currently enrolled as a Medi-Cal provider. If you have Medi-Cal, you can use the $49 self-pay rate, or find a Medi-Cal-enrolled telehealth provider through your managed care plan or the California DHCS directory at dhcs.ca.gov."
+    },
+    {
+      "id": "faq-8",
+      "question": "What OTC medications are safe for cold symptoms?",
+      "answer": "For adults without contraindications, common OTC options include: pseudoephedrine (Sudafed) for nasal congestion \u2014 requires ID at pharmacy; guaifenesin (Mucinex) to thin mucus; cetirizine (Zyrtec) or loratadine (Claritin) for sneezing and runny nose; and acetaminophen or ibuprofen for fever and body aches. Avoid decongestants if you have uncontrolled high blood pressure, heart disease, or hyperthyroidism. A physician can review your full medical history and medications at a TeleDirectMD visit."
+    },
+    {
+      "id": "faq-9",
+      "question": "When is a cold dangerous and when should I go to the ER in California?",
+      "answer": "Seek urgent in-person care or call 911 if you have difficulty breathing, chest pain, severe headache with neck stiffness, altered mental status, or high fever above 104\u00b0F. Fever above 103\u00b0F lasting more than 3 days, symptoms that worsen after initial improvement, or severe ear or facial pain warrant same-day urgent care. TeleDirectMD is not appropriate if red-flag symptoms are present."
+    },
+    {
+      "id": "faq-10",
+      "question": "Can the common cold be prevented?",
+      "answer": "Hand hygiene is the most effective prevention strategy, according to the CDC. Washing hands frequently with soap and water for 20 seconds, avoiding touching the face, and staying home when symptomatic reduces transmission. Cold viruses (primarily rhinovirus) are transmitted by direct contact with infected secretions and respiratory droplets. No vaccine prevents the common cold due to the large number of causative virus serotypes."
+    },
+    {
+      "id": "faq-11",
+      "question": "Does California's AB 744 telehealth parity law apply to my visit?",
+      "answer": "California AB 744 (2019) requires commercial health plans to reimburse telehealth services on the same basis as in-person services \u2014 the same copay, no requirement for prior in-person contact. This parity applies when the provider is already in-network with your specific plan. Currently, Aetna (active April 30, 2026) and UnitedHealthcare Commercial (active May 29, 2026) are in-network in California for TeleDirectMD."
+    },
+    {
+      "id": "faq-12",
+      "question": "How quickly will my prescription reach a California pharmacy?",
+      "answer": "California requires all prescriptions to be issued electronically under Assembly Bill 2789 (effective January 1, 2022). If a prescription is appropriate \u2014 such as a nasal steroid spray \u2014 TeleDirectMD sends an e-prescription electronically to your chosen California pharmacy \u2014 CVS, Walgreens, Rite Aid, Walmart, Safeway \u2014 during or immediately after your visit. Most California pharmacies fill within one to four hours."
+    }
+  ],
+  "references": [
+    {
+      "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=2290.5.&lawCode=BPC",
+      "text": "California Business and Professions Code Section 2290.5 \u2014 Telehealth Advancement Act. Retrieved May 2026."
+    },
+    {
+      "url": "https://www.mbc.ca.gov/Resources/Medical-Resources/telehealth.aspx",
+      "text": "Medical Board of California \u2014 Telehealth Resources. Retrieved May 2026."
+    },
+    {
+      "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=10123.85.&lawCode=INS",
+      "text": "California Insurance Code \u00a710123.85 \u2014 Telehealth Parity (AB 744). Retrieved May 2026."
+    },
+    {
+      "url": "https://www.dhcs.ca.gov/provgovpart/Pages/TelehealthFAQ.aspx",
+      "text": "California DHCS \u2014 Telehealth FAQ. Retrieved May 2026."
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/fastats/common-cold.htm",
+      "text": "CDC \u2014 Common Cold (NCHS FastStats). Retrieved May 2026."
+    },
+    {
+      "url": "https://www.aafp.org/pubs/afp/issues/2012/0715/p153.html",
+      "text": "AAFP \u2014 Nonpharmacologic Management of Upper Respiratory Tract Infections. Retrieved May 2026."
+    },
+    {
+      "url": "https://www.cdc.gov/antibiotic-use/sinus-infection.html",
+      "text": "CDC \u2014 Antibiotic Use for Common Cold and Sinus Infections. Retrieved May 2026."
+    },
+    {
+      "url": "https://www.mbc.ca.gov/News/",
+      "text": "Medical Board of California \u2014 Electronic Prescribing (AB 2789). Retrieved May 2026."
+    }
+  ]
+}

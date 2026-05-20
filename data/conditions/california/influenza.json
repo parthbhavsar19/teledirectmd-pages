@@ -1,0 +1,228 @@
+{
+  "page_meta": {
+    "url": "https://teledirectmd.com/ca/influenza-treatment-online/",
+    "title": "Influenza Treatment Online in California | TeleDirectMD",
+    "description": "Flu treatment online for California adults. Board-certified Family Medicine MD. Antiviral prescriptions (oseltamivir). Self pay $49. Aetna in-network. Same-day video visits. CA telehealth compliant.",
+    "canonical": "https://teledirectmd.com/ca/influenza-treatment-online/",
+    "datePublished": "2026-05-20",
+    "dateModified": "2026-05-20",
+    "lastReviewed": "2026-05-20",
+    "author_npi": "1104323203",
+    "author_name": "Parth Bhavsar, MD",
+    "author_specialty": "Family Medicine",
+    "state": "California",
+    "state_slug": "ca",
+    "condition": "Influenza Treatment",
+    "condition_slug": "influenza-treatment-online",
+    "icd10": "J11.1",
+    "specialty_authority": "CDC Advisory Committee on Immunization Practices (ACIP) and IDSA",
+    "guideline": "CDC/IDSA Influenza Antiviral Guidance 2025\u20132026"
+  },
+  "california_regulatory": {
+    "primary_statute": {
+      "name": "California Business and Professions Code Section 2290.5",
+      "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=2290.5.&lawCode=BPC",
+      "in_person_requirement": false,
+      "notes": "No prior in-person visit required for new patients under B&P \u00a72290.5."
+    },
+    "parity_law": {
+      "name": "California Assembly Bill 744 (2019) \u2014 Telehealth Parity",
+      "statutory_citation": "California Insurance Code \u00a710123.85",
+      "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=10123.85.&lawCode=INS",
+      "effective_date": "2021-01-01"
+    },
+    "e_prescribing_requirement": {
+      "source_url": "https://www.mbc.ca.gov/News/",
+      "value": "Beginning January 1, 2022, all prescriptions issued in California must be done electronically (Assembly Bill 2789)."
+    }
+  },
+  "california_insurance": {
+    "source": "notion_payor_enrollment.csv",
+    "retrieved_date": "2026-05-20",
+    "payors": [
+      {
+        "name": "Aetna",
+        "status": "Active",
+        "effective_date": "2026-04-30",
+        "in_network": true
+      },
+      {
+        "name": "Anthem Blue Cross",
+        "status": "Pending",
+        "effective_date": null,
+        "in_network": false
+      },
+      {
+        "name": "Cigna",
+        "status": "Pending",
+        "effective_date": null,
+        "in_network": false
+      },
+      {
+        "name": "United Healthcare Commercial",
+        "status": "Approved",
+        "effective_date": "2026-05-29",
+        "in_network": true,
+        "notes": "Commercial + Medicare Advantage. Excludes Medi-Cal, Individual Exchange, Navigate/Charter/Core."
+      }
+    ],
+    "cash_price": 49
+  },
+  "california_epidemiology": {
+    "summary": "California reported some of the highest influenza activity levels in the nation during recent seasons. The California Department of Public Health reports that flu causes an estimated 5\u201320% of the U.S. population to fall ill each year; in California, this translates to approximately 2\u20138 million illness episodes annually, with 140,000\u2013810,000 hospitalizations nationwide per CDC estimates.",
+    "source_url": "https://www.cdph.ca.gov/Programs/CID/DCDC/Pages/Immunization/Influenza.aspx",
+    "source_name": "CDPH \u2014 Influenza Information"
+  },
+  "clinical_content": {
+    "specialty_authority": "CDC Advisory Committee on Immunization Practices (ACIP) and IDSA",
+    "specialty_authority_url": "https://www.cdc.gov/flu/professionals/antivirals/summary-clinicians.htm",
+    "guideline": "CDC/IDSA Influenza Antiviral Guidance 2025\u20132026",
+    "telehealth_appropriate_criteria": [
+      "Adult 18+ located in California at time of visit",
+      "Sudden onset fever, body aches, fatigue, headache, or cough consistent with flu",
+      "Symptom onset within the past 48 hours (antiviral window)",
+      "No difficulty breathing, chest pain, or confusion",
+      "Able to tolerate oral fluids",
+      "Seeking antiviral prescription (oseltamivir/Tamiflu or baloxavir/Xofluza) to shorten illness duration"
+    ],
+    "red_flags_requiring_in_person": [
+      "Difficulty breathing or shortness of breath",
+      "Persistent chest pain or pressure",
+      "Persistent confusion or altered mental status",
+      "Severe vomiting that prevents keeping fluids down",
+      "Signs of dehydration: no urination for 8+ hours, very dark urine, dizziness",
+      "Fever above 104\u00b0F (40\u00b0C) that does not respond to antipyretics",
+      "Symptoms improve then return with worsening fever and cough"
+    ]
+  },
+  "drug_pricing": {
+    "retrieved_date": "2026-05-20",
+    "source_note": "GoodRx prices are national averages. Prices represent GoodRx coupon price as of May 2026.",
+    "medications": [
+      {
+        "name": "Oseltamivir (Tamiflu) 75 mg",
+        "typical_regimen": "75 mg twice daily \u00d7 5 days",
+        "goodrx_price": "~$25\u2013$30 generic with GoodRx",
+        "source_url": "https://www.goodrx.com/oseltamivir",
+        "first_line": true,
+        "notes": "First-line antiviral per CDC. Most effective when started within 48 hours of symptom onset. Generic widely available."
+      },
+      {
+        "name": "Baloxavir marboxil (Xofluza) 40 mg or 80 mg",
+        "typical_regimen": "Single dose (40 mg if <80 kg; 80 mg if \u226580 kg)",
+        "goodrx_price": "~$170\u2013$210 brand; check GoodRx for coupons",
+        "source_url": "https://www.goodrx.com/baloxavir-marboxil",
+        "first_line": true,
+        "notes": "Single-dose oral antiviral per CDC 2025\u20132026 guidance. Alternative to oseltamivir. Do not use with antacids within 2 hours."
+      },
+      {
+        "name": "Acetaminophen (Tylenol) \u2014 OTC",
+        "typical_regimen": "325\u2013650 mg every 4\u20136 hours as needed; max 3,000 mg/day",
+        "goodrx_price": "Available OTC",
+        "source_url": null,
+        "first_line": false,
+        "notes": "For fever and body ache symptom relief. Do not exceed recommended dose. Avoid if significant liver disease."
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "id": "faq-1",
+      "question": "Can I get flu treatment online in California?",
+      "answer": "Yes. California Business and Professions Code Section 2290.5 permits California-licensed physicians to deliver care via synchronous video telehealth without a prior in-person visit. TeleDirectMD physicians are licensed in California. Adults 18+ in California can book a same-day video visit. If your symptom onset is within 48 hours and you have classic flu symptoms without red flags, a physician may prescribe an antiviral such as oseltamivir (Tamiflu) or baloxavir (Xofluza). Self pay is $49; Aetna is in-network as of April 30, 2026."
+    },
+    {
+      "id": "faq-2",
+      "question": "Is there a time window for antiviral flu medication to work?",
+      "answer": "Yes. Per CDC and IDSA 2025\u20132026 guidance, antiviral medications \u2014 oseltamivir (Tamiflu) and baloxavir (Xofluza) \u2014 are most effective when started within 48 hours of symptom onset. They reduce illness duration by approximately 1\u20132 days and reduce the risk of complications. Antivirals can still be beneficial for high-risk patients (age 65+, immunocompromised, chronic lung or heart disease, pregnancy) even after 48 hours. If you are in a high-risk group, book immediately even if symptoms started 2+ days ago."
+    },
+    {
+      "id": "faq-3",
+      "question": "How much does oseltamivir (Tamiflu) cost in California?",
+      "answer": "Generic oseltamivir is available with a GoodRx coupon for approximately $25\u2013$30 for a 5-day course (10 capsules) at California pharmacies including CVS, Walgreens, Rite Aid, Walmart, and Safeway. Verify current pricing at goodrx.com/oseltamivir before your visit. Prescription costs at the pharmacy are separate from the TeleDirectMD visit fee ($49)."
+    },
+    {
+      "id": "faq-4",
+      "question": "What is the difference between a cold and the flu?",
+      "answer": "Influenza typically causes sudden onset of high fever (often above 101\u00b0F), severe body aches, headache, and profound fatigue \u2014 symptoms that usually come on over hours and feel more debilitating than a cold. The common cold typically causes gradual onset of runny nose, mild sore throat, and nasal congestion without high fever or severe myalgia. While no video visit can definitively distinguish cold from flu without a rapid test, the history and symptom pattern guide clinical decision-making for antiviral prescribing."
+    },
+    {
+      "id": "faq-5",
+      "question": "Does California require an in-person visit before telehealth?",
+      "answer": "No. California B&P Code \u00a72290.5 does not require a prior in-person visit. A California-licensed physician can establish a new patient relationship and evaluate your symptoms through a synchronous video visit. TeleDirectMD documents telehealth consent at the start of every visit."
+    },
+    {
+      "id": "faq-6",
+      "question": "Is my Aetna plan in California in-network with TeleDirectMD?",
+      "answer": "Aetna became an active in-network payor for TeleDirectMD in California effective April 30, 2026. If you hold an Aetna commercial plan in California, you may be able to use your in-network benefits. Always verify current in-network status directly with Aetna before your visit."
+    },
+    {
+      "id": "faq-7",
+      "question": "Is UnitedHealthcare in-network with TeleDirectMD in California?",
+      "answer": "UnitedHealthcare Commercial was approved for California effective May 29, 2026, covering commercial plans and Medicare Advantage. This excludes Medi-Cal, Individual Exchange, and Navigate/Charter/Core plan types. Verify your specific UHC plan eligibility before booking."
+    },
+    {
+      "id": "faq-8",
+      "question": "When is flu dangerous and when should I go to the ER in California?",
+      "answer": "Seek emergency care immediately for difficulty breathing, persistent chest pain, confusion, severe vomiting preventing fluid intake, signs of dehydration (no urination for 8+ hours, dizziness), or fever above 104\u00b0F not responding to antipyretics. People at high risk for flu complications \u2014 adults over 65, immunocompromised, pregnant, or with chronic heart or lung disease \u2014 should contact a physician within 24 hours of symptom onset regardless of severity."
+    },
+    {
+      "id": "faq-9",
+      "question": "Will Medi-Cal cover my TeleDirectMD flu visit in California?",
+      "answer": "TeleDirectMD is not currently enrolled as a Medi-Cal provider. If you have Medi-Cal, you can use the $49 self-pay rate, or find a Medi-Cal-enrolled telehealth provider through your managed care plan or the California DHCS directory at dhcs.ca.gov."
+    },
+    {
+      "id": "faq-10",
+      "question": "Should I get a flu vaccine in California?",
+      "answer": "Yes. The California Department of Public Health recommends annual influenza vaccination for all Californians 6 months and older, per CDC ACIP guidance. Vaccination is the most effective prevention strategy \u2014 it reduces the risk of flu illness, hospitalization, and death. Even if vaccinated, you may contract flu, but illness is typically less severe. TeleDirectMD can discuss vaccination with you; vaccination itself is available at California pharmacies, community health centers, and primary care offices statewide."
+    },
+    {
+      "id": "faq-11",
+      "question": "Does California's AB 744 telehealth parity law apply to flu treatment visits?",
+      "answer": "California AB 744 (2019) requires commercial health plans to reimburse telehealth services on the same basis as in-person services. Parity applies when the provider is already in-network with your specific plan. Currently, Aetna (active April 30, 2026) and UnitedHealthcare Commercial (active May 29, 2026) are in-network in California for TeleDirectMD."
+    },
+    {
+      "id": "faq-12",
+      "question": "How quickly will my antiviral prescription reach a California pharmacy?",
+      "answer": "California requires all prescriptions to be issued electronically under Assembly Bill 2789 (effective January 1, 2022). If antiviral treatment is appropriate, TeleDirectMD sends an e-prescription electronically to your chosen California pharmacy during or immediately after your visit. Most California pharmacies fill within one to four hours. Starting antivirals quickly matters \u2014 the sooner within that 48-hour window, the better."
+    }
+  ],
+  "references": [
+    {
+      "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=2290.5.&lawCode=BPC",
+      "text": "California Business and Professions Code Section 2290.5 \u2014 Telehealth Advancement Act. Retrieved May 2026."
+    },
+    {
+      "url": "https://www.mbc.ca.gov/Resources/Medical-Resources/telehealth.aspx",
+      "text": "Medical Board of California \u2014 Telehealth Resources. Retrieved May 2026."
+    },
+    {
+      "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=10123.85.&lawCode=INS",
+      "text": "California Insurance Code \u00a710123.85 \u2014 Telehealth Parity (AB 744). Retrieved May 2026."
+    },
+    {
+      "url": "https://www.dhcs.ca.gov/provgovpart/Pages/TelehealthFAQ.aspx",
+      "text": "California DHCS \u2014 Telehealth FAQ. Retrieved May 2026."
+    },
+    {
+      "url": "https://www.cdph.ca.gov/Programs/CID/DCDC/Pages/Immunization/Influenza.aspx",
+      "text": "CDPH \u2014 Influenza Information. Retrieved May 2026."
+    },
+    {
+      "url": "https://www.cdc.gov/flu/professionals/antivirals/summary-clinicians.htm",
+      "text": "CDC \u2014 Influenza Antiviral Medications: Summary for Clinicians 2025\u20132026. Retrieved May 2026."
+    },
+    {
+      "url": "https://www.idsociety.org/practice-guideline/influenza/",
+      "text": "IDSA \u2014 Influenza Clinical Practice Guideline. Retrieved May 2026."
+    },
+    {
+      "url": "https://www.cdc.gov/flu/about/burden/index.html",
+      "text": "CDC \u2014 Influenza Disease Burden. Retrieved May 2026."
+    },
+    {
+      "url": "https://www.mbc.ca.gov/News/",
+      "text": "Medical Board of California \u2014 Electronic Prescribing (AB 2789). Retrieved May 2026."
+    }
+  ]
+}
