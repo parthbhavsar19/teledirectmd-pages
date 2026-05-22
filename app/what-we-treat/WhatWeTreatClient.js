@@ -163,7 +163,7 @@ export default function WhatWeTreatClient({ categories, conditionDescriptions })
             </div>
             <div className="tdm-trust-item">
               <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
-              $49 flat fee
+              $79 flat fee
             </div>
             <div className="tdm-trust-item">
               <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
@@ -297,7 +297,7 @@ export default function WhatWeTreatClient({ categories, conditionDescriptions })
       <section style={{ padding: "48px 0", background: "#F5FAFA", borderTop: "1px solid rgba(0,62,82,0.10)" }} data-speakable="true">
         <div className="tdm-container">
           <h2 style={{ fontFamily: "'Fraunces', Georgia, serif", fontSize: 28, fontWeight: 700, color: "#003E52", margin: "0 0 8px", textAlign: "center" }}>Insurance Accepted for These Conditions</h2>
-          <p style={{ fontFamily: "'DM Sans', system-ui, sans-serif", fontSize: 16, color: "#4A6870", lineHeight: 1.6, margin: "0 auto 28px", textAlign: "center", maxWidth: 640 }}>We bill Aetna, select Blue Cross Blue Shield plans, and UnitedHealthcare for every condition above in select states. Pick your insurer to see state-specific coverage — or pay $49 flat self-pay anywhere.</p>
+          <p style={{ fontFamily: "'DM Sans', system-ui, sans-serif", fontSize: 16, color: "#4A6870", lineHeight: 1.6, margin: "0 auto 28px", textAlign: "center", maxWidth: 640 }}>We bill Aetna, select Blue Cross Blue Shield plans, and UnitedHealthcare for every condition above in select states. Pick your insurer to see state-specific coverage — or pay $79 flat self-pay anywhere.</p>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(240px, 1fr))", gap: 16, maxWidth: 960, margin: "0 auto" }}>
             {[
               { name: "Aetna", slug: "aetna", accent: "#7B2CBF", bg: "#F3EAFF", states: "AZ · CO · FL · GA · IL · MI · MN · OH · PA · TN" },
@@ -321,7 +321,7 @@ export default function WhatWeTreatClient({ categories, conditionDescriptions })
       <section className="tdm-bottom">
         <div className="tdm-container">
           <h2>Ready to see a doctor today?</h2>
-          <p>$49 flat fee. Select insurances also accepted. Available in 40+ states.</p>
+          <p>$79 flat fee. Select insurances also accepted. Available in 40+ states.</p>
           <a href="/book-online" className="tdm-cta">
             Book Your Visit
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
@@ -336,7 +336,7 @@ export default function WhatWeTreatClient({ categories, conditionDescriptions })
       </section>
 
       {/* ── MOBILE STICKY CTA ── */}
-      <div className="tdm-mobile-cta"><a href="/book-online">Book a Visit — $49</a></div>
+      <div className="tdm-mobile-cta"><a href="/book-online">Book a Visit — $79</a></div>
     </div>
   );
 }

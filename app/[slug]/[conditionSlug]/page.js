@@ -50,7 +50,7 @@ export async function generateMetadata({ params }) {
   //    California-specific regulatory + payor signals (Aetna, UHC).
   if (slug === 'ca' && conditionSlug === 'uti-treatment-online') {
     const caTitle = 'UTI Treatment Online in California | TeleDirectMD';
-    const caDescription = 'California adults: get UTI treatment by secure video visit. Board-certified Family Medicine MD, Aetna in-network (effective 2026-04-30), UHC Commercial approved (effective 2026-05-29). CA telehealth law compliant. Self pay $49. Antibiotic stewardship, e-prescriptions to CA pharmacies.';
+    const caDescription = 'California adults: get UTI treatment by secure video visit. Board-certified Family Medicine MD, Aetna in-network (effective 2026-04-30), UHC Commercial approved (effective 2026-05-29). CA telehealth law compliant. Self pay $79. Antibiotic stewardship, e-prescriptions to CA pharmacies.';
     return {
       title: caTitle,
       description: caDescription,
@@ -214,7 +214,7 @@ export default async function ConditionPage({ params }) {
             {condition.hero.h1.replace(/\bin\b.*/, '').trim()} via telehealth in {state.name}:
           </p>
           <p style={{ margin: '0.35rem 0 0', color: '#003E52', fontSize: '0.97rem' }}>
-            TeleDirectMD offers same-day video visits with a board-certified MD for {condition.conditionName.toLowerCase()} in {state.name}, starting at $49. A physician evaluates your symptoms, confirms the diagnosis, and sends a prescription to your local pharmacy — no waiting room required.
+            TeleDirectMD offers same-day video visits with a board-certified MD for {condition.conditionName.toLowerCase()} in {state.name}, starting at $79. A physician evaluates your symptoms, confirms the diagnosis, and sends a prescription to your local pharmacy — no waiting room required.
           </p>
         </div>
       </div>
@@ -793,7 +793,7 @@ export default async function ConditionPage({ params }) {
         <section className="tdmd-section" id={`${pid}-insurance-coverage`}>
           <div className="tdmd-container" data-speakable="true">
             <h2>Insurance Accepted for {condition.conditionName} in {state.name}</h2>
-            <p>TeleDirectMD is in-network with the following insurers for {condition.conditionName.toLowerCase()} telemedicine visits in {state.name}. Your standard copay applies in place of the $49 self-pay fee.</p>
+            <p>TeleDirectMD is in-network with the following insurers for {condition.conditionName.toLowerCase()} telemedicine visits in {state.name}. Your standard copay applies in place of the $79 self-pay fee.</p>
             <ul style={{ listStyle: 'none', padding: 0, display: 'grid', gap: '0.75rem', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', marginTop: '1rem' }}>
               {insuranceLinks.map((link) => (
                 <li key={link.insurerSlug} style={{ border: '1px solid var(--tdmd-border, #E5E7EB)', borderRadius: '0.5rem', padding: '1rem' }}>
@@ -812,7 +812,7 @@ export default async function ConditionPage({ params }) {
               ))}
             </ul>
             <p style={{ marginTop: '1rem', fontSize: '0.9rem' }}>
-              Don't see your plan? <a href="/insurance" style={{ color: 'var(--tdmd-teal, #14B8A6)', fontWeight: 600 }}>View all insurance options</a> or book a $49 self-pay visit.
+              Don't see your plan? <a href="/insurance" style={{ color: 'var(--tdmd-teal, #14B8A6)', fontWeight: 600 }}>View all insurance options</a> or book a $79 self-pay visit.
             </p>
           </div>
         </section>

@@ -6,7 +6,7 @@ import { summarizeFaqLanding, citableSummaryToJsonLd } from '../../lib/citable-s
 export const metadata = {
   title: 'Frequently Asked Questions | TeleDirectMD',
   description:
-    'Find answers about TeleDirectMD\'s telehealth services, insurance acceptance, $49 self-pay pricing, appointments, prescriptions, and virtual urgent care in 41 states + D.C.',
+    'Find answers about TeleDirectMD\'s telehealth services, insurance acceptance, $79 self-pay pricing, appointments, prescriptions, and virtual urgent care in 41 states + D.C.',
   alternates: { canonical: 'https://teledirectmd.com/faq' },
   openGraph: {
     title: 'Frequently Asked Questions | TeleDirectMD',
@@ -34,7 +34,7 @@ const faqItems = [
   },
   {
     q: 'How is TeleDirectMD different from other telehealth services?',
-    a: 'TeleDirectMD is physician-led and focused on direct access — no subscription fees, no membership, and no waiting rooms. Our flat-rate $49 self-pay video visit keeps pricing transparent, and we now accept select insurance plans in a growing number of states. You get a real doctor, real prescriptions, and real follow-up — all without the overhead of a large telehealth corporation.',
+    a: 'TeleDirectMD is physician-led and focused on direct access — no subscription fees, no membership, and no waiting rooms. Our flat-rate $79 self-pay video visit keeps pricing transparent, and we now accept select insurance plans in a growing number of states. You get a real doctor, real prescriptions, and real follow-up — all without the overhead of a large telehealth corporation.',
   },
   {
     q: 'Who is TeleDirectMD designed for?',
@@ -93,7 +93,7 @@ const faqItems = [
   },
   {
     q: 'How much does a visit cost?',
-    a: 'A TeleDirectMD video visit costs a flat $49 with no hidden fees — this includes the physician consultation, any prescriptions sent to your pharmacy, and a work or school excuse note if needed. If you are using insurance, your standard copay and cost-sharing apply. We also accept HSA and FSA cards.',
+    a: 'A TeleDirectMD video visit costs a flat $79 with no hidden fees — this includes the physician consultation, any prescriptions sent to your pharmacy, and a work or school excuse note if needed. If you are using insurance, your standard copay and cost-sharing apply. We also accept HSA and FSA cards.',
   },
   {
     q: 'What payment methods do you accept?',
@@ -164,7 +164,7 @@ function buildJsonLd(items) {
         '@id': 'https://teledirectmd.com/faq#webpage',
         url: 'https://teledirectmd.com/faq/',
         name: 'Frequently Asked Questions | TeleDirectMD',
-        description: "Answers to common questions about TeleDirectMD's telehealth services, insurance acceptance, $49 self-pay pricing, prescriptions, scope of care, and virtual urgent care in 41 states + D.C.",
+        description: "Answers to common questions about TeleDirectMD's telehealth services, insurance acceptance, $79 self-pay pricing, prescriptions, scope of care, and virtual urgent care in 41 states + D.C.",
         inLanguage: 'en-US',
         breadcrumb: { '@id': 'https://teledirectmd.com/faq#breadcrumbs' },
         about: { '@id': 'https://teledirectmd.com/#organization' },
@@ -186,9 +186,9 @@ function buildJsonLd(items) {
         logo: 'https://teledirectmd.com/logo.webp',
         telephone: '+1-678-956-1855',
         email: 'contact@teledirectmd.com',
-        description: 'Physician-led telemedicine practice. $49 flat-fee video visits with a board-certified MD across 41 states + DC. Select Aetna, Blue Cross Blue Shield, and UnitedHealthcare commercial plans accepted.',
+        description: 'Physician-led telemedicine practice. $79 flat-fee video visits with a board-certified MD across 41 states + DC. Select Aetna, Blue Cross Blue Shield, and UnitedHealthcare commercial plans accepted.',
         medicalSpecialty: ['Family Medicine', 'Urgent Care', 'Telemedicine'],
-        priceRange: '$49',
+        priceRange: '$79',
         currenciesAccepted: 'USD',
         aggregateRating: getAggregateRating(),
       },

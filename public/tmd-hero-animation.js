@@ -60,7 +60,7 @@ const ITEMS = [
   { prob:"Rotating providers",   sol:"Same doctor, every time",  sub:"Continuity of care, always"     },
   { prob:"Chatbot medicine",     sol:"Board-certified MD",       sub:"A real doctor. A real answer."  },
   { prob:"Long wait times",       sol:"Same-day appointments",    sub:"Book online in under 2 minutes" },
-  { prob:"Outrageous bills",     sol:"$49. One price.",          sub:"One payment. Nothing hidden."   },
+  { prob:"Outrageous bills",     sol:"$79. One price.",          sub:"One payment. Nothing hidden."   },
 ];
 
 let scratchPaths=[];
@@ -407,7 +407,7 @@ function drawBrand(elapsed){
     var bf=Math.max(12,Math.round(W*0.014));
     var by=BADGE_Y+br;
     ctx.save(); ctx.globalAlpha=ba; ctx.font="600 "+bf+"px \"Karla\",sans-serif";
-    var labels=["$49 Flat Fee","No Insurance","Board-Certified MD","40+ States"];
+    var labels=["$79 Flat Fee","No Insurance","Board-Certified MD","40+ States"];
     var colors=[ORANGE,TEAL,TEAL,NAVY];
     var pad=W*0.022; var total=0;
     var ws=labels.map(function(l){var w=ctx.measureText(l).width+pad;total+=w+W*0.012;return w;});
@@ -541,7 +541,7 @@ var ITEMS=[
   { prob:"Rotating providers",   sol:"Same doctor, every time", sub:"Continuity of care, always"    },
   { prob:"Chatbot medicine",     sol:"Board-certified MD",      sub:"A real doctor. A real answer." },
   { prob:"Long wait times",       sol:"Same-day appointments",   sub:"Book in under 2 minutes"       },
-  { prob:"Outrageous bills",     sol:"$49. One price.",         sub:"One payment. Nothing hidden."  },
+  { prob:"Outrageous bills",     sol:"$79. One price.",         sub:"One payment. Nothing hidden."  },
 ];
 
 function L(){
@@ -787,7 +787,7 @@ function drawBrand(elapsed){
   if(age>2200){var ba=clamp((age-2200)/550,0,1),br=(1-easeOut(clamp((age-2200)/460,0,1)))*H*0.016;
     var bf=Math.max(12,Math.round(W*0.034));var by=ly+LH+H*0.175+br;
     ctx.save();ctx.globalAlpha=ba;ctx.font="600 "+bf+"px \"Karla\",sans-serif";
-    var labels=["$49 Flat Fee","No Insurance","40+ States"];var colors=[ORANGE,TEAL,NAVY];
+    var labels=["$79 Flat Fee","No Insurance","40+ States"];var colors=[ORANGE,TEAL,NAVY];
     var pad=W*0.030;var total=0;
     var ws=labels.map(function(l){var w=ctx.measureText(l).width+pad;total+=w+W*0.016;return w;});total-=W*0.016;
     var sc=total>W*0.84?W*0.84/total:1;var tx=W/2-total*sc/2;var ph2=bf+W*0.022;

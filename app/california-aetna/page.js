@@ -3,7 +3,7 @@ import CaliforniaAetnaClient from './CaliforniaAetnaClient';
 export const metadata = {
   title: 'Aetna Telehealth in California — Same-Day Online Doctor Visit | TeleDirectMD',
   description:
-    'Use your Aetna commercial plan for a same-day online doctor visit in California. In-network with Aetna across Los Angeles, San Francisco, San Diego, San Jose, and Sacramento. Board-certified MD, $49 self-pay alternative, no app required.',
+    'Use your Aetna commercial plan for a same-day online doctor visit in California. In-network with Aetna across Los Angeles, San Francisco, San Diego, San Jose, and Sacramento. Board-certified MD, $79 self-pay alternative, no app required.',
   alternates: { canonical: 'https://teledirectmd.com/california-aetna' },
   robots: { index: true, follow: true, 'max-image-preview': 'large', 'max-snippet': -1 },
   authors: [{ name: 'Parth Bhavsar, MD' }],

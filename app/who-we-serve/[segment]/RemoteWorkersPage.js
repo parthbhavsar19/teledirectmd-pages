@@ -35,7 +35,7 @@ export default function RemoteWorkersPage() {
     },
     {
       q: 'Do I need insurance to use TeleDirectMD?',
-      a: 'No. TeleDirectMD offers transparent cash-pay pricing starting at $49 per visit — no insurance required. You will know your cost before booking, with no surprise bills. We also accept insurance in select states. HSA and FSA cards are accepted. For remote workers without a local primary care physician — or those between insurance plans during a move — the flat-rate, self-pay model makes getting care straightforward regardless of your coverage situation.'
+      a: 'No. TeleDirectMD offers transparent cash-pay pricing starting at $79 per visit — no insurance required. You will know your cost before booking, with no surprise bills. We also accept insurance in select states. HSA and FSA cards are accepted. For remote workers without a local primary care physician — or those between insurance plans during a move — the flat-rate, self-pay model makes getting care straightforward regardless of your coverage situation.'
     },
     {
       q: 'Can TeleDirectMD be my primary care doctor if I move frequently?',
@@ -113,7 +113,7 @@ export default function RemoteWorkersPage() {
         "@id": `${pageUrl}#webpage`,
         "url": pageUrl,
         "name": "Virtual Doctor for Remote Workers and Digital Nomads — TeleDirectMD",
-        "description": "TeleDirectMD provides telehealth for remote workers and digital nomads across 41 states. See the same board-certified physician wherever you work. No local PCP required. Same-day visits, evenings & weekends. Starting at $49.",
+        "description": "TeleDirectMD provides telehealth for remote workers and digital nomads across 41 states. See the same board-certified physician wherever you work. No local PCP required. Same-day visits, evenings & weekends. Starting at $79.",
         "inLanguage": "en-US",
         "breadcrumb": { "@id": `${pageUrl}#breadcrumbs` },
         "author": { "@id": `${baseUrl}/about#physician` },
@@ -162,14 +162,14 @@ export default function RemoteWorkersPage() {
               <h1>Virtual Doctor for Remote Workers and Digital Nomads</h1>
               <p className="tdmd-hero-sub">Board-certified physician in 41 states. Same doctor, wherever you work. Same-day visits, evenings &amp; weekends.</p>
               <p>
-                More than 35 million Americans now work remotely full-time or the majority of their working hours — a share that has grown dramatically since 2020 and shows no sign of reversing. Remote workers and digital nomads face a structural problem that traditional healthcare never anticipated: their work takes them across cities, states, and sometimes countries, making a stable relationship with a local primary care physician nearly impossible to maintain. TeleDirectMD provides continuity of care across 41 states with the same board-certified family medicine physician, starting at $49 per visit — no matter where your laptop is set up this week.
+                More than 35 million Americans now work remotely full-time or the majority of their working hours — a share that has grown dramatically since 2020 and shows no sign of reversing. Remote workers and digital nomads face a structural problem that traditional healthcare never anticipated: their work takes them across cities, states, and sometimes countries, making a stable relationship with a local primary care physician nearly impossible to maintain. TeleDirectMD provides continuity of care across 41 states with the same board-certified family medicine physician, starting at $79 per visit — no matter where your laptop is set up this week.
               </p>
               <ul className="tdmd-hero-benefits">
                 <li>Board-certified family medicine physician — not a PA, not an NP, not an algorithm</li>
                 <li>Licensed in 41 states — the same doctor follows you wherever you work</li>
                 <li>Same-day visits, evenings &amp; weekends — schedule around your remote work hours</li>
                 <li>Prescriptions sent to any pharmacy, anywhere in the U.S.</li>
-                <li>Transparent cash-pay pricing starting at $49 — no surprise bills</li>
+                <li>Transparent cash-pay pricing starting at $79 — no surprise bills</li>
               </ul>
               <div className="tdmd-hero-ctas">
                 <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
@@ -190,7 +190,7 @@ export default function RemoteWorkersPage() {
                   <li>See a doctor from your home office, co-working space, or Airbnb — in any of 41 states</li>
                   <li>No need to find a new local PCP every time you relocate or travel for work</li>
                   <li>Prescriptions sent to any pharmacy near your current location</li>
-                  <li>No insurance required — transparent cash-pay pricing starting at $49</li>
+                  <li>No insurance required — transparent cash-pay pricing starting at $79</li>
                   <li>HIPAA-compliant, secure video visits from any device — no app download required</li>
                 </ul>
                 <p className="tdmd-hero-note">Works on any smartphone, tablet, or computer. No app required.</p>
@@ -313,11 +313,11 @@ export default function RemoteWorkersPage() {
       <section className="tdmd-section" id="remote-workers-pricing">
         <div className="tdmd-container">
           <h2>Transparent Pricing — No Surprise Bills</h2>
-          <p>Telehealth is significantly more cost-effective than in-person alternatives for the non-emergency conditions remote workers most commonly need care for. A Penn Medicine study found telehealth visits average $96 compared to $509 for comparable in-person episodes. For remote workers paying out-of-pocket — or those between insurance plans during a move — the difference between a $49 telehealth visit and a $150–$350 urgent care visit is substantial. GoodRx data consistently shows telehealth as the most affordable option for straightforward non-emergency conditions.</p>
+          <p>Telehealth is significantly more cost-effective than in-person alternatives for the non-emergency conditions remote workers most commonly need care for. A Penn Medicine study found telehealth visits average $96 compared to $509 for comparable in-person episodes. For remote workers paying out-of-pocket — or those between insurance plans during a move — the difference between a $79 telehealth visit and a $150–$350 urgent care visit is substantial. GoodRx data consistently shows telehealth as the most affordable option for straightforward non-emergency conditions.</p>
           <div className="tdmd-price-grid">
             <div className="tdmd-price-card" aria-label="TeleDirectMD pricing">
               <h3>TeleDirectMD Video Visit</h3>
-              <p className="tdmd-price-big">$49</p>
+              <p className="tdmd-price-big">$79</p>
               <p className="tdmd-price-sub">Self-pay starting price per visit</p>
               <ul className="tdmd-price-includes">
                 <li>Board-certified family medicine physician consultation</li>
@@ -331,7 +331,7 @@ export default function RemoteWorkersPage() {
               <h3>How We Compare</h3>
               <p className="tdmd-price-caption">Typical costs without insurance. Actual costs vary by location.</p>
               <div className="tdmd-bar-row">
-                <div className="tdmd-bar-label"><span>TeleDirectMD</span><span>$49</span></div>
+                <div className="tdmd-bar-label"><span>TeleDirectMD</span><span>$79</span></div>
                 <div className="tdmd-bar-track"><div className="tdmd-bar-fill tdmd-bar-fill-tdmd" style={{ '--w': 10 }} /></div>
               </div>
               <div className="tdmd-bar-row">
@@ -394,7 +394,7 @@ export default function RemoteWorkersPage() {
         <div className="tdmd-container">
           <div className="tdmd-bottom-cta">
             <div className="tdmd-bottom-cta-copy">
-              <h3>Your doctor, wherever you work — same physician, 41 states, starting at $49.</h3>
+              <h3>Your doctor, wherever you work — same physician, 41 states, starting at $79.</h3>
               <p>Request a same-day visit, connect with a board-certified family medicine physician by secure video, and get a prescription sent to the pharmacy nearest to wherever you're working today — no local PCP required.</p>
             </div>
             <div className="tdmd-bottom-cta-actions">

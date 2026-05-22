@@ -32,7 +32,7 @@ export default function SmallBusinessOwnersPage() {
   const faqItems = [
     {
       q: 'How much does TeleDirectMD cost for small business owners without insurance?',
-      a: 'TeleDirectMD visits start at $49 self-pay — no insurance required. You know the cost before you book, with no surprise bills afterward. For comparison, a Penn Medicine study published in JAMA Network Open found that telehealth visits average $96 compared to $509 for equivalent in-person episodes. Urgent care without insurance typically runs $150–$350, and an ER visit can reach $500–$3,000 or more. For a self-employed professional without employer benefits, a $49 telehealth visit is often the most cost-effective option for the vast majority of non-emergency conditions. We also accept HSA and FSA funds, which many small business owners use to manage out-of-pocket healthcare costs.'
+      a: 'TeleDirectMD visits start at $79 self-pay — no insurance required. You know the cost before you book, with no surprise bills afterward. For comparison, a Penn Medicine study published in JAMA Network Open found that telehealth visits average $96 compared to $509 for equivalent in-person episodes. Urgent care without insurance typically runs $150–$350, and an ER visit can reach $500–$3,000 or more. For a self-employed professional without employer benefits, a $79 telehealth visit is often the most cost-effective option for the vast majority of non-emergency conditions. We also accept HSA and FSA funds, which many small business owners use to manage out-of-pocket healthcare costs.'
     },
     {
       q: 'Can TeleDirectMD manage ongoing conditions like high blood pressure or diabetes?',
@@ -52,7 +52,7 @@ export default function SmallBusinessOwnersPage() {
     },
     {
       q: 'How does TeleDirectMD compare to urgent care for cost and convenience?',
-      a: 'For the conditions TeleDirectMD treats, the comparison is straightforward. Urgent care without insurance typically costs $150–$350 and requires a trip to a physical location with wait times that can stretch to an hour or more. TeleDirectMD starts at $49, connects you with a board-certified physician via video from wherever you are, and a typical visit takes 10–15 minutes. GoodRx data consistently shows telehealth as the most affordable option for non-emergency conditions. The one trade-off: telehealth is not appropriate for conditions requiring physical examination, imaging, or lab work at the time of visit. For those, we will refer you to the appropriate in-person resource.'
+      a: 'For the conditions TeleDirectMD treats, the comparison is straightforward. Urgent care without insurance typically costs $150–$350 and requires a trip to a physical location with wait times that can stretch to an hour or more. TeleDirectMD starts at $79, connects you with a board-certified physician via video from wherever you are, and a typical visit takes 10–15 minutes. GoodRx data consistently shows telehealth as the most affordable option for non-emergency conditions. The one trade-off: telehealth is not appropriate for conditions requiring physical examination, imaging, or lab work at the time of visit. For those, we will refer you to the appropriate in-person resource.'
     },
     {
       q: 'Can I see the same doctor every time?',
@@ -118,7 +118,7 @@ export default function SmallBusinessOwnersPage() {
         "@id": `${pageUrl}#webpage`,
         "url": pageUrl,
         "name": "Telehealth for Small Business Owners and Self-Employed Professionals",
-        "description": "TeleDirectMD offers telehealth for small business owners and self-employed professionals across 41 states. No insurance required. Transparent $49 visits with a board-certified physician. Same-day visits, evenings & weekends.",
+        "description": "TeleDirectMD offers telehealth for small business owners and self-employed professionals across 41 states. No insurance required. Transparent $79 visits with a board-certified physician. Same-day visits, evenings & weekends.",
         "inLanguage": "en-US",
         "breadcrumb": { "@id": `${pageUrl}#breadcrumbs` },
         "author": { "@id": `${baseUrl}/about#physician` },
@@ -167,14 +167,14 @@ export default function SmallBusinessOwnersPage() {
               <h1>Telehealth for Small Business Owners and Self-Employed Professionals</h1>
               <p className="tdmd-hero-sub">Licensed physician in 41 states. No insurance required. Same-day visits, evenings &amp; weekends.</p>
               <p>
-                There are more than 34 million small businesses in the United States — nearly 99.9% of all U.S. businesses. But small business owners and self-employed professionals are among the most likely to delay their own healthcare. Without employer benefits, many are navigating expensive individual marketplace plans or going without insurance entirely. With ACA enhanced subsidies expiring at the end of 2025, annual premiums more than doubled for many marketplace enrollees — rising from an average of $888 to $1,904 per year according to Kaiser Family Foundation estimates. TeleDirectMD offers transparent cash-pay visits starting at $49 with a board-certified physician, same-day availability including evenings and weekends, and coverage across 41 states — built for professionals whose time is their most valuable asset.
+                There are more than 34 million small businesses in the United States — nearly 99.9% of all U.S. businesses. But small business owners and self-employed professionals are among the most likely to delay their own healthcare. Without employer benefits, many are navigating expensive individual marketplace plans or going without insurance entirely. With ACA enhanced subsidies expiring at the end of 2025, annual premiums more than doubled for many marketplace enrollees — rising from an average of $888 to $1,904 per year according to Kaiser Family Foundation estimates. TeleDirectMD offers transparent cash-pay visits starting at $79 with a board-certified physician, same-day availability including evenings and weekends, and coverage across 41 states — built for professionals whose time is their most valuable asset.
               </p>
               <ul className="tdmd-hero-benefits">
                 <li>Board-certified physician — not a PA, not an NP, not an algorithm</li>
                 <li>Licensed in 41 states — wherever you run your business</li>
                 <li>No waiting rooms — same-day visits, evenings &amp; weekends</li>
                 <li>Prescriptions sent to any pharmacy near you</li>
-                <li>Transparent cash-pay pricing starting at $49 — HSA/FSA accepted</li>
+                <li>Transparent cash-pay pricing starting at $79 — HSA/FSA accepted</li>
               </ul>
               <div className="tdmd-hero-ctas">
                 <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
@@ -194,7 +194,7 @@ export default function SmallBusinessOwnersPage() {
                 <ul>
                   <li>See a doctor from your office, home, or job site — no commute required</li>
                   <li>Get prescriptions sent to any pharmacy near you</li>
-                  <li>No insurance required — transparent cash-pay pricing starting at $49</li>
+                  <li>No insurance required — transparent cash-pay pricing starting at $79</li>
                   <li>Same-day visits, evenings &amp; weekends — no lost business hours</li>
                   <li>HIPAA-compliant, secure video visits from your phone or laptop</li>
                 </ul>
@@ -239,8 +239,8 @@ export default function SmallBusinessOwnersPage() {
               <p>Same-day visits are available, including evenings and weekends. A typical visit takes 10–15 minutes via secure video. You don't need to close your shop, cancel appointments, or lose a day of billable hours to get a prescription refill or treat a sinus infection.</p>
             </div>
             <div className="tdmd-card tdmd-card-good">
-              <h3>Transparent $49 Cash-Pay Pricing</h3>
-              <p>No insurance? No problem. TeleDirectMD starts at $49 per visit — a fraction of urgent care without insurance. You know your cost upfront, before you book. HSA and FSA funds are accepted, making this a tax-advantaged healthcare option for the self-employed.</p>
+              <h3>Transparent $79 Cash-Pay Pricing</h3>
+              <p>No insurance? No problem. TeleDirectMD starts at $79 per visit — a fraction of urgent care without insurance. You know your cost upfront, before you book. HSA and FSA funds are accepted, making this a tax-advantaged healthcare option for the self-employed.</p>
             </div>
             <div className="tdmd-card tdmd-card-good">
               <h3>Chronic Condition Management Without the Overhead</h3>
@@ -322,7 +322,7 @@ export default function SmallBusinessOwnersPage() {
           <div className="tdmd-price-grid">
             <div className="tdmd-price-card" aria-label="TeleDirectMD pricing">
               <h3>TeleDirectMD Video Visit</h3>
-              <p className="tdmd-price-big">$49</p>
+              <p className="tdmd-price-big">$79</p>
               <p className="tdmd-price-sub">Self-pay starting price per visit</p>
               <ul className="tdmd-price-includes">
                 <li>Board-certified physician consultation</li>
@@ -336,7 +336,7 @@ export default function SmallBusinessOwnersPage() {
               <h3>How We Compare</h3>
               <p className="tdmd-price-caption">Typical costs without insurance. Actual costs vary by location.</p>
               <div className="tdmd-bar-row">
-                <div className="tdmd-bar-label"><span>TeleDirectMD</span><span>$49</span></div>
+                <div className="tdmd-bar-label"><span>TeleDirectMD</span><span>$79</span></div>
                 <div className="tdmd-bar-track"><div className="tdmd-bar-fill tdmd-bar-fill-tdmd" style={{ '--w': 10 }} /></div>
               </div>
               <div className="tdmd-bar-row">

@@ -15,8 +15,8 @@ const PHYSICIAN = { name: 'Parth Bhavsar, MD', npi: '1104323203', specialty: 'Fa
 const CA_PAYORS = [
   { name: 'Aetna', status: 'Active', effective: 'April 30, 2026', inNetwork: true, notes: 'Commercial plans. In-network as of April 30, 2026.' },
   { name: 'UnitedHealthcare Commercial', status: 'Approved', effective: 'May 29, 2026', inNetwork: true, notes: 'Commercial + Medicare Advantage. Excludes Medi-Cal, Individual Exchange, Navigate/Charter/Core.' },
-  { name: 'Anthem Blue Cross', status: 'Pending', effective: 'Pending', inNetwork: false, notes: 'Enrollment pending. Self pay ($49) available.' },
-  { name: 'Cigna', status: 'Pending', effective: 'Pending', inNetwork: false, notes: 'Telehealth Only review in progress. Self pay ($49) available.' },
+  { name: 'Anthem Blue Cross', status: 'Pending', effective: 'Pending', inNetwork: false, notes: 'Enrollment pending. Self pay ($79) available.' },
+  { name: 'Cigna', status: 'Pending', effective: 'Pending', inNetwork: false, notes: 'Telehealth Only review in progress. Self pay ($79) available.' },
   { name: 'Kaiser Permanente', status: 'Closed system', effective: '—', inNetwork: false, notes: 'Closed system. Use Kaiser telehealth at kp.org.' },
   { name: 'Medi-Cal', status: 'Not enrolled', effective: '—', inNetwork: false, notes: 'Not enrolled. Find Medi-Cal providers at dhcs.ca.gov.' },
 ];
@@ -44,7 +44,7 @@ const FAQ_ITEMS = [
   { question: 'Does doxycycline cure chlamydia?', answer: (<p>Yes. Doxycycline 100 mg twice daily × 7 days achieves cure rates of approximately 98% for urogenital chlamydia, per the <a href='https://www.cdc.gov/std/treatment-guidelines/chlamydia.htm' rel='noopener' target='_blank'>CDC STI Treatment Guidelines 2021</a>. Abstain from sex (or use condoms) for 7 days after completing treatment and until sexual partners are also treated. Test-of-cure is not routinely needed for urogenital chlamydia in non-pregnant adults treated with doxycycline.</p>) },
   { question: 'Do my sexual partners need treatment for chlamydia in California?', answer: (<p>Yes. All sexual contacts within the 60 days before a chlamydia diagnosis should be evaluated and treated, per the <a href='https://www.cdc.gov/std/treatment-guidelines/chlamydia.htm' rel='noopener' target='_blank'>CDC</a>. California allows expedited partner therapy (EPT) — the practice of providing medication or a prescription for partners without requiring them to be seen by a physician — which TeleDirectMD supports per California law (Health & Safety Code §120582).</p>) },
   { question: 'Can chlamydia cause infertility in California women?', answer: (<p>Yes. Untreated chlamydia can ascend to the upper reproductive tract and cause pelvic inflammatory disease (PID). PID is a leading cause of preventable infertility in the US, causing fallopian tube scarring that can result in infertility, ectopic pregnancy, and chronic pelvic pain. The <a href='https://www.cdph.ca.gov/Programs/CID/DCDC/Pages/STD.aspx' rel='noopener' target='_blank'>California Department of Public Health</a> prioritizes chlamydia screening in young women to prevent these complications.</p>) },
-  { question: 'Is Aetna in-network with TeleDirectMD in California for chlamydia treatment?', answer: (<p>Aetna became in-network for TeleDirectMD in California effective April 30, 2026. Aetna commercial plan members may be able to use in-network benefits. Verify plan eligibility with Aetna before your visit. Self pay ($49) is available regardless of insurance. See <a href='/insurance'>all insurance options</a>.</p>) },
+  { question: 'Is Aetna in-network with TeleDirectMD in California for chlamydia treatment?', answer: (<p>Aetna became in-network for TeleDirectMD in California effective April 30, 2026. Aetna commercial plan members may be able to use in-network benefits. Verify plan eligibility with Aetna before your visit. Self pay ($79) is available regardless of insurance. See <a href='/insurance'>all insurance options</a>.</p>) },
   { question: 'Will Medi-Cal cover chlamydia treatment at TeleDirectMD?', answer: (<p>TeleDirectMD is not currently enrolled as a Medi-Cal rendering provider. <a href='https://www.dhcs.ca.gov/provgovpart/Pages/TelehealthFAQ.aspx' rel='noopener' target='_blank'>California DHCS</a> covers telehealth for enrolled providers. Free chlamydia testing and treatment is available through <a href='https://www.plannedparenthood.org/get-care' rel='noopener' target='_blank'>Planned Parenthood California</a> and <a href='https://www.familypact.org' rel='noopener' target='_blank'>California Family PACT</a> for eligible Californians.</p>) },
   { question: 'When should chlamydia require in-person care in California?', answer: (<p>Seek in-person care if you have: pelvic pain or tenderness (possible PID), testicular pain or swelling (possible epididymitis), fever or systemic illness, symptoms in a pregnant patient, rectal symptoms requiring exam, or treatment failure after confirmed adequate course. <a href='https://www.plannedparenthood.org/get-care' rel='noopener' target='_blank'>Planned Parenthood California</a> provides in-person STI evaluation with sliding-scale fees across the state.</p>) },
   { question: 'Should I get tested for other STIs when treated for chlamydia in California?', answer: (<p>Yes. Co-infection with gonorrhea is common, and <a href='https://www.cdc.gov/std/treatment-guidelines/chlamydia.htm' rel='noopener' target='_blank'>CDC guidelines</a> recommend testing for gonorrhea, syphilis, and HIV when chlamydia is diagnosed. TeleDirectMD can review your existing test results and recommend appropriate additional testing at an in-person STI clinic or through at-home testing.</p>) },
@@ -53,9 +53,9 @@ const FAQ_ITEMS = [
 ];
 
 function buildSchemas() {
-  const medicalWebPage = { '@context': 'https://schema.org', '@type': 'MedicalWebPage', name: PAGE_TITLE, url: PAGE_URL, description: 'Chlamydia Treatment Online in California | TeleDirectMD by secure video visit for California adults. Board-certified Family Medicine physician. CA telehealth law compliant. Aetna in-network. Self pay $49.', datePublished: DATE_PUBLISHED, dateModified: DATE_MODIFIED, inLanguage: 'en-US', about: { '@type': 'MedicalCondition', name: 'Chlamydia', code: { '@type': 'MedicalCode', code: 'A56.00', codingSystem: 'ICD-10-CM' } }, medicalAudience: { '@type': 'MedicalAudience', audienceType: 'Patient', geographicArea: { '@type': 'AdministrativeArea', name: 'California' } }, reviewedBy: { '@type': 'Physician', '@id': 'https://teledirectmd.com/about/#physician-parth-bhavsar', name: PHYSICIAN.name, identifier: { '@type': 'PropertyValue', propertyID: 'NPI', value: PHYSICIAN.npi }, medicalSpecialty: PHYSICIAN.specialty, hasCredential: [{ '@type': 'EducationalOccupationalCredential', credentialCategory: 'certification', name: 'Board Certification — American Board of Family Medicine' }], licensedIn: PHYSICIAN.licenseState, worksFor: { '@type': 'MedicalOrganization', name: 'TeleDirectMD', url: 'https://teledirectmd.com' }, sameAs: ['https://npiregistry.cms.hhs.gov/provider-view/1104323203', 'https://teledirectmd.com/about/'] }, speakable: { '@type': 'SpeakableSpecification', cssSelector: ['#ca-chlamydia-opening', '#ca-chlamydia-opening p', '.tdmd-ca-chlamydia__byline', '#ca-chlamydia-treatment-online-faq'] } };
+  const medicalWebPage = { '@context': 'https://schema.org', '@type': 'MedicalWebPage', name: PAGE_TITLE, url: PAGE_URL, description: 'Chlamydia Treatment Online in California | TeleDirectMD by secure video visit for California adults. Board-certified Family Medicine physician. CA telehealth law compliant. Aetna in-network. Self pay $79.', datePublished: DATE_PUBLISHED, dateModified: DATE_MODIFIED, inLanguage: 'en-US', about: { '@type': 'MedicalCondition', name: 'Chlamydia', code: { '@type': 'MedicalCode', code: 'A56.00', codingSystem: 'ICD-10-CM' } }, medicalAudience: { '@type': 'MedicalAudience', audienceType: 'Patient', geographicArea: { '@type': 'AdministrativeArea', name: 'California' } }, reviewedBy: { '@type': 'Physician', '@id': 'https://teledirectmd.com/about/#physician-parth-bhavsar', name: PHYSICIAN.name, identifier: { '@type': 'PropertyValue', propertyID: 'NPI', value: PHYSICIAN.npi }, medicalSpecialty: PHYSICIAN.specialty, hasCredential: [{ '@type': 'EducationalOccupationalCredential', credentialCategory: 'certification', name: 'Board Certification — American Board of Family Medicine' }], licensedIn: PHYSICIAN.licenseState, worksFor: { '@type': 'MedicalOrganization', name: 'TeleDirectMD', url: 'https://teledirectmd.com' }, sameAs: ['https://npiregistry.cms.hhs.gov/provider-view/1104323203', 'https://teledirectmd.com/about/'] }, speakable: { '@type': 'SpeakableSpecification', cssSelector: ['#ca-chlamydia-opening', '#ca-chlamydia-opening p', '.tdmd-ca-chlamydia__byline', '#ca-chlamydia-treatment-online-faq'] } };
   const faqPage = { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: FAQ_ITEMS.map((faq) => ({ '@type': 'Question', name: faq.question, acceptedAnswer: { '@type': 'Answer', text: extractPlain(faq.answer) } })) };
-  const howTo = { '@context': 'https://schema.org', '@type': 'HowTo', name: 'How to Get Chlamydia Treatment Online in California', totalTime: 'PT30M', estimatedCost: { '@type': 'MonetaryAmount', currency: 'USD', value: '49' }, step: [{ '@type': 'HowToStep', position: 1, name: 'Book your video visit', text: 'Visit teledirectmd.com. Self pay $49.', url: 'https://teledirectmd.com/book-online' }, { '@type': 'HowToStep', position: 2, name: 'See a California-licensed MD', text: 'Physician reviews symptoms and completes red-flag screening per clinical guidelines.', url: PAGE_URL }, { '@type': 'HowToStep', position: 3, name: 'Receive e-prescription', text: 'If appropriate, e-prescription sent to your California pharmacy under AB 2789.', url: PAGE_URL }] };
+  const howTo = { '@context': 'https://schema.org', '@type': 'HowTo', name: 'How to Get Chlamydia Treatment Online in California', totalTime: 'PT30M', estimatedCost: { '@type': 'MonetaryAmount', currency: 'USD', value: '79' }, step: [{ '@type': 'HowToStep', position: 1, name: 'Book your video visit', text: 'Visit teledirectmd.com. Self pay $79.', url: 'https://teledirectmd.com/book-online' }, { '@type': 'HowToStep', position: 2, name: 'See a California-licensed MD', text: 'Physician reviews symptoms and completes red-flag screening per clinical guidelines.', url: PAGE_URL }, { '@type': 'HowToStep', position: 3, name: 'Receive e-prescription', text: 'If appropriate, e-prescription sent to your California pharmacy under AB 2789.', url: PAGE_URL }] };
   const breadcrumb = { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [{ '@type': 'ListItem', position: 1, name: 'TeleDirectMD', item: 'https://teledirectmd.com' }, { '@type': 'ListItem', position: 2, name: 'California', item: 'https://teledirectmd.com/ca/' }, { '@type': 'ListItem', position: 3, name: 'Chlamydia Treatment Online', item: PAGE_URL }] };
   return [medicalWebPage, faqPage, howTo, breadcrumb];
 }
@@ -94,7 +94,7 @@ export default function CaChlamydiaTreatmentOnline() {
             <div className="tdmd-hero-grid">
               <div className="tdmd-hero-copy">
                 <h1 data-speakable="true">Chlamydia Treatment Online in California</h1>
-                <p className="tdmd-hero-sub" data-speakable="true">California adults: board-certified MD by secure video. Self pay $49 · Aetna in-network · UHC Commercial approved · CDC STI Treatment Guidelines 2021.</p>
+                <p className="tdmd-hero-sub" data-speakable="true">California adults: board-certified MD by secure video. Self pay $79 · Aetna in-network · UHC Commercial approved · CDC STI Treatment Guidelines 2021.</p>
                 <p dangerouslySetInnerHTML={{ __html: "Chlamydia is the most frequently reported STI in California — in 2022, the <a href='https://www.cdph.ca.gov/Programs/CID/DCDC/CDPH%20Document%20Library/2022-STD-Surveillance-Executive-Summary.pdf' rel='noopener' target='_blank'>California Department of Public Health 2022 STI Surveillance Report</a> documented 193,907 chlamydia cases, a 1.5% increase from 2021. Caused by <em>Chlamydia trachomatis</em>, chlamydia is often asymptomatic — up to 70% of women and 50% of men with chlamydia have no symptoms, per the <a href='https://www.cdc.gov/std/treatment-guidelines/chlamydia.htm' rel='noopener' target='_blank'>CDC STI Treatment Guidelines 2021</a>. When symptomatic, chlamydia may cause urethral discharge, dysuria, cervicitis, and pelvic discomfort. Untreated chlamydia causes pelvic inflammatory disease (PID), which can lead to infertility, ectopic pregnancy, and chronic pelvic pain. TeleDirectMD evaluates adults with a confirmed positive chlamydia NAAT result and prescribes CDC-guideline treatment for California adults without complications. Serving Los Angeles, San Diego, San Jose, San Francisco, Fresno, Sacramento, Long Beach, Oakland, Bakersfield, and Anaheim." }} />
 
                 <div className='tdmd-ca-chlamydia__byline' aria-label="Reviewed by physician">
@@ -117,7 +117,7 @@ export default function CaChlamydiaTreatmentOnline() {
                 </ul>
 
                 <ul className="tdmd-hero-benefits">
-                  <li>Self pay $49 — no insurance required</li>
+                  <li>Self pay $79 — no insurance required</li>
                   <li>MD-only care — no mid-levels</li>
                   <li>Aetna in-network (effective April 30, 2026)</li>
                   <li>UnitedHealthcare Commercial approved (effective May 29, 2026)</li>
@@ -125,7 +125,7 @@ export default function CaChlamydiaTreatmentOnline() {
                 </ul>
 
                 <div className="tdmd-hero-ctas">
-                  <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit — $49</a>
+                  <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
                   <a href="/ca/" className="tdmd-btn tdmd-btn-outline">Explore California Pages</a>
                   <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All Conditions</a>
                 </div>
@@ -153,7 +153,7 @@ export default function CaChlamydiaTreatmentOnline() {
           <div className="tdmd-container">
             <div className="tdmd-condition-opener" id='ca-chlamydia-opening'>
               <h2>Can I Get Chlamydia Treatment Online in California?</h2>
-              <p dangerouslySetInnerHTML={{ __html: "<strong>Yes.</strong> <a href='https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=2290.5.&lawCode=BPC' rel='noopener' target='_blank'>California Business and Professions Code Section 2290.5</a> permits California-licensed physicians to prescribe chlamydia treatment via synchronous video visit. The <a href='https://www.mbc.ca.gov/Resources/Medical-Resources/telehealth.aspx' rel='noopener' target='_blank'>Medical Board of California</a> holds telehealth physicians to the same standard of care as in-person physicians. Per the <a href='https://www.cdc.gov/std/treatment-guidelines/chlamydia.htm' rel='noopener' target='_blank'>CDC STI Treatment Guidelines 2021</a>, the recommended first-line regimen for uncomplicated urogenital chlamydia in adults is doxycycline 100 mg orally twice daily × 7 days. TeleDirectMD requires a confirmed positive chlamydia test (NAAT or similar) before prescribing treatment. At-home STI testing is available through multiple California-based services. Self pay is $49. Aetna is in-network as of April 30, 2026." }} />
+              <p dangerouslySetInnerHTML={{ __html: "<strong>Yes.</strong> <a href='https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=2290.5.&lawCode=BPC' rel='noopener' target='_blank'>California Business and Professions Code Section 2290.5</a> permits California-licensed physicians to prescribe chlamydia treatment via synchronous video visit. The <a href='https://www.mbc.ca.gov/Resources/Medical-Resources/telehealth.aspx' rel='noopener' target='_blank'>Medical Board of California</a> holds telehealth physicians to the same standard of care as in-person physicians. Per the <a href='https://www.cdc.gov/std/treatment-guidelines/chlamydia.htm' rel='noopener' target='_blank'>CDC STI Treatment Guidelines 2021</a>, the recommended first-line regimen for uncomplicated urogenital chlamydia in adults is doxycycline 100 mg orally twice daily × 7 days. TeleDirectMD requires a confirmed positive chlamydia test (NAAT or similar) before prescribing treatment. At-home STI testing is available through multiple California-based services. Self pay is $79. Aetna is in-network as of April 30, 2026." }} />
               <small className="tdmd-condition-opener__meta">Reviewed by <a href="/about/">Parth Bhavsar, MD</a> · Board-Certified Family Medicine · NPI 1104323203 · Licensed in California · Last reviewed May 20, 2026</small>
             </div>
           </div>
@@ -186,7 +186,7 @@ export default function CaChlamydiaTreatmentOnline() {
             <div className="tdmd-decision-flow">
               <div className="tdmd-decision-step tdmd-decision-step-check">
                 <div className="tdmd-decision-number">1</div>
-                <div className="tdmd-decision-content"><h3>Book your California video visit</h3><p>No referral required. Self pay $49. Note your symptoms, prior diagnoses, medications, allergies, and relevant sexual health history before your visit.</p></div>
+                <div className="tdmd-decision-content"><h3>Book your California video visit</h3><p>No referral required. Self pay $79. Note your symptoms, prior diagnoses, medications, allergies, and relevant sexual health history before your visit.</p></div>
               </div>
               <div className="tdmd-decision-step tdmd-decision-step-check">
                 <div className="tdmd-decision-number">2</div>
@@ -203,14 +203,14 @@ export default function CaChlamydiaTreatmentOnline() {
         <section className="tdmd-section tdmd-section-highlight" id={`${pid}-cost`}>
           <div className="tdmd-container">
             <h2>Chlamydia Cost &amp; Insurance in California</h2>
-            <p>TeleDirectMD&apos;s self-pay rate is <strong>$49</strong> for a complete MD video visit.</p>
+            <p>TeleDirectMD&apos;s self-pay rate is <strong>$79</strong> for a complete MD video visit.</p>
             <div className="tdmd-price-grid">
-              <div className="tdmd-price-card"><h3>TeleDirectMD Video Visit</h3><p className="tdmd-price-big">$49</p><p className="tdmd-price-sub">Self-pay flat fee — no subscription</p><ul className="tdmd-price-includes"><li>Board-certified MD video evaluation</li><li>Guideline-based treatment plan</li><li>e-Prescription to your CA pharmacy</li><li>Follow-up instructions</li></ul></div>
+              <div className="tdmd-price-card"><h3>TeleDirectMD Video Visit</h3><p className="tdmd-price-big">$79</p><p className="tdmd-price-sub">Self-pay flat fee — no subscription</p><ul className="tdmd-price-includes"><li>Board-certified MD video evaluation</li><li>Guideline-based treatment plan</li><li>e-Prescription to your CA pharmacy</li><li>Follow-up instructions</li></ul></div>
               <div className="tdmd-price-chart" role="group" aria-label="Cost comparison">
                 <h3>Typical Treatment Cost in California</h3>
                 <p className="tdmd-price-caption">Common ranges before insurance. Actual costs vary.</p>
                 <div className="tdmd-vbars" role="list">
-                  {[{ name: 'TeleDirectMD', value: '$49', heightPct: 8, isTdmd: true }, { name: 'Other telehealth', value: '$75–$150', heightPct: 22 }, { name: 'Urgent care', value: '$150–$300', heightPct: 45 }, { name: 'ER visit', value: '$500–$3,000+', heightPct: 100 }].map((bar, i) => (
+                  {[{ name: 'TeleDirectMD', value: '$79', heightPct: 13, isTdmd: true }, { name: 'Other telehealth', value: '$75–$150', heightPct: 22 }, { name: 'Urgent care', value: '$150–$300', heightPct: 45 }, { name: 'ER visit', value: '$500–$3,000+', heightPct: 100 }].map((bar, i) => (
                     <div key={i} className="tdmd-vbar" role="listitem"><span className="tdmd-vbar__value">{bar.value}</span><div className={`tdmd-vbar__fill${bar.isTdmd ? ' tdmd-vbar__fill--tdmd' : ''}`} style={{ height: `${bar.heightPct}%` }} aria-hidden="true" /><span className={`tdmd-vbar__label${bar.isTdmd ? ' tdmd-vbar__label--tdmd' : ''}`}>{bar.name}</span></div>
                   ))}
                 </div>
@@ -259,7 +259,7 @@ export default function CaChlamydiaTreatmentOnline() {
                   <li>Classic symptoms without red-flag complications</li>
                   <li>No fever, severe illness, or systemic symptoms</li>
                   <li>Adult 18+, located in California</li>
-                  <li>Aetna or UHC Commercial (in-network), or self pay $49</li>
+                  <li>Aetna or UHC Commercial (in-network), or self pay $79</li>
                 </ul>
               </div>
               <div className='tdmd-ca-chlamydia__dual-card tdmd-ca-chlamydia__dual-card--alert'>
@@ -280,7 +280,7 @@ export default function CaChlamydiaTreatmentOnline() {
         <section className="tdmd-section" aria-label="Book a visit">
           <div className="tdmd-container">
             <div className='tdmd-ca-chlamydia__cta-strip' role="complementary">
-              <div><p>Book a same-day video visit — California adults, 18+</p><small>Self pay $49 · Aetna in-network · UHC Commercial approved May 2026</small></div>
+              <div><p>Book a same-day video visit — California adults, 18+</p><small>Self pay $79 · Aetna in-network · UHC Commercial approved May 2026</small></div>
               <a className='tdmd-ca-chlamydia__cta-btn' href="/book-online" rel="noopener">Book Now →</a>
             </div>
           </div>
@@ -289,7 +289,7 @@ export default function CaChlamydiaTreatmentOnline() {
         <section className="tdmd-section tdmd-faq" id={`${pid}-faq`}>
           <div className="tdmd-container">
             <FaqAccordion sectionTitle={`Frequently Asked Questions — Chlamydia Treatment in California`} items={FAQ_ITEMS.map((f, i) => ({ ...f, id: `${pid}-faq-${i}` }))} />
-            <div className="tdmd-bottom-cta"><div className="tdmd-bottom-cta-copy"><h3>Ready to see a California-licensed MD?</h3><p>Book a same-day video visit. Self pay $49 · Aetna in-network · UHC Commercial approved.</p></div><div className="tdmd-bottom-cta-actions"><a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a><a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All Conditions</a></div></div>
+            <div className="tdmd-bottom-cta"><div className="tdmd-bottom-cta-copy"><h3>Ready to see a California-licensed MD?</h3><p>Book a same-day video visit. Self pay $79 · Aetna in-network · UHC Commercial approved.</p></div><div className="tdmd-bottom-cta-actions"><a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a><a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All Conditions</a></div></div>
           </div>
         </section>
 

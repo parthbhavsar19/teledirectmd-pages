@@ -100,7 +100,7 @@ export default function InsuranceClient() {
         "@type": "MedicalWebPage",
         "@id": "https://teledirectmd.com/insurance#webpage",
         "name": "Insurance & Pricing | TeleDirectMD",
-        "description": "TeleDirectMD accepts select commercial insurance plans from Aetna, Blue Cross Blue Shield, and UnitedHealthcare in a growing number of states. Self-pay is always $49 flat.",
+        "description": "TeleDirectMD accepts select commercial insurance plans from Aetna, Blue Cross Blue Shield, and UnitedHealthcare in a growing number of states. Self-pay is always $79 flat.",
         "url": "https://teledirectmd.com/insurance",
         "lastReviewed": "2026-05-11",
         "speakable": { "@type": "SpeakableSpecification", "cssSelector": ["[data-speakable]"] },
@@ -163,7 +163,7 @@ export default function InsuranceClient() {
             </div>
             <h3 style={{ fontFamily: B.fd, fontSize: 21, fontWeight: 700, color: B.navy, margin: "0 0 8px" }}>Self-Pay Visits</h3>
             <p style={{ fontSize: 15, color: B.text, lineHeight: 1.6, margin: "0 0 16px" }}>Flat-fee video visits with no surprise bills, no membership, and no insurance required. Available in 40+ states.</p>
-            <div style={{ display: "flex", alignItems: "baseline", gap: 4 }}><span style={{ fontFamily: B.fd, fontSize: 32, fontWeight: 700, color: B.navy }}>$49</span><span style={{ fontSize: 14, color: B.text }}>/visit</span></div>
+            <div style={{ display: "flex", alignItems: "baseline", gap: 4 }}><span style={{ fontFamily: B.fd, fontSize: 32, fontWeight: 700, color: B.navy }}>$79</span><span style={{ fontSize: 14, color: B.text }}>/visit</span></div>
           </div>
           {/* Insurance */}
           <div style={{ background: B.white, border: `1px solid ${B.border}`, borderRadius: B.r, padding: "28px 24px", position: "relative", boxShadow: B.shadow }}>
@@ -252,7 +252,7 @@ export default function InsuranceClient() {
                   </div>
                   <div style={{ marginTop: 20, padding: "16px 20px", background: "#FFF0EC", borderRadius: B.rs, display: "flex", alignItems: "flex-start", gap: 12 }}>
                     <div style={{ flexShrink: 0, marginTop: 2 }}><Ico.Dollar c={B.accent} s={18} /></div>
-                    <p style={{ margin: 0, fontSize: 14, color: "#6B3A2A", lineHeight: 1.6 }}><strong style={{ color: B.navy }}>Not seeing your plan?</strong> You can always book a self-pay visit for a flat $49, no insurance needed. Same doctor, same quality care.</p>
+                    <p style={{ margin: 0, fontSize: 14, color: "#6B3A2A", lineHeight: 1.6 }}><strong style={{ color: B.navy }}>Not seeing your plan?</strong> You can always book a self-pay visit for a flat $79, no insurance needed. Same doctor, same quality care.</p>
                   </div>
                 </>
               ) : (
@@ -260,7 +260,7 @@ export default function InsuranceClient() {
                   <div style={{ padding: "28px 24px", background: "#FFF0EC", borderRadius: B.rs, textAlign: "center" }}>
                     <div style={{ width: 48, height: 48, borderRadius: 14, background: "#FFE0D6", margin: "0 auto 16px", display: "flex", alignItems: "center", justifyContent: "center" }}><Ico.Dollar c={B.accent} s={24} /></div>
                     <h3 style={{ fontFamily: B.fd, fontSize: 20, fontWeight: 700, color: B.navy, margin: "0 0 8px" }}>Self-Pay Available in {stateNames[selectedState]}</h3>
-                    <p style={{ fontSize: 15, color: B.text, lineHeight: 1.6, margin: "0 0 20px", maxWidth: 400, marginLeft: "auto", marginRight: "auto" }}>Insurance billing is not yet available in {stateNames[selectedState]}, but you can book a flat-fee video visit for $49 right now. No insurance needed.</p>
+                    <p style={{ fontSize: 15, color: B.text, lineHeight: 1.6, margin: "0 0 20px", maxWidth: 400, marginLeft: "auto", marginRight: "auto" }}>Insurance billing is not yet available in {stateNames[selectedState]}, but you can book a flat-fee video visit for $79 right now. No insurance needed.</p>
                     <a href="https://www.teledirectmd.com/book-online" target="_blank" rel="noopener" style={{ display: "inline-flex", alignItems: "center", gap: 8, padding: "12px 28px", background: B.accent, color: B.white, borderRadius: B.rs, fontWeight: 600, fontSize: 15, textDecoration: "none", transition: "background 0.2s ease" }} onMouseEnter={(e) => e.currentTarget.style.background = B.accentHover} onMouseLeave={(e) => e.currentTarget.style.background = B.accent}>Book a Visit <Ico.Arrow c={B.white} s={16} /></a>
                   </div>
                   <p style={{ fontSize: 13, color: B.text, textAlign: "center", margin: "16px 0 0", lineHeight: 1.5 }}>We are actively expanding insurance coverage to more states. Check back soon or contact us at <a href="mailto:contact@teledirectmd.com" style={{ color: B.teal }}>contact@teledirectmd.com</a> for updates.</p>
@@ -311,7 +311,7 @@ export default function InsuranceClient() {
         <h2 style={{ fontFamily: B.fd, fontSize: 24, fontWeight: 700, color: B.navy, margin: "0 0 8px" }}>Frequently Asked Questions</h2>
         <p style={{ fontSize: 15, color: B.text, margin: "0 0 24px" }}>Common questions about insurance and payment at TeleDirectMD.</p>
         <div style={{ background: B.white, border: `1px solid ${B.border}`, borderRadius: B.r, padding: "4px 24px", boxShadow: B.shadow }}>
-          <FAQ question="Do I need insurance to be seen?" answer="No. TeleDirectMD was built as a self-pay practice and that model remains fully available. You can book a flat-fee video visit for $49 in any of the 40+ states where we are licensed, with no insurance required. Insurance is simply an additional payment option for patients who prefer to use their benefits." />
+          <FAQ question="Do I need insurance to be seen?" answer="No. TeleDirectMD was built as a self-pay practice and that model remains fully available. You can book a flat-fee video visit for $79 in any of the 40+ states where we are licensed, with no insurance required. Insurance is simply an additional payment option for patients who prefer to use their benefits." />
           <FAQ question="How do I know if my plan is accepted?" answer="Use the Check Your Coverage tool above to select your state and see which insurers and plans are currently in-network. If your specific plan is not listed, you can still book as a self-pay patient. You can also call the member services number on the back of your insurance card and ask if Parth P. Bhavsar, MD (NPI: 1104323203) is listed as an in-network provider." />
           <FAQ question="What will my insurance visit cost?" answer="When using insurance, your cost depends on your specific plan benefits. You may owe a copay, coinsurance, or deductible amount as determined by your insurer. We recommend contacting your insurance company to verify your telehealth benefits before booking. A Good Faith Estimate is available upon request for uninsured or self-pay patients." />
           <FAQ question="Will you accept more insurance plans in the future?" answer="Yes. We are actively credentialing with additional insurers and expanding into more states. Check this page periodically for updates, or email contact@teledirectmd.com to ask about a specific plan." />
@@ -329,7 +329,7 @@ export default function InsuranceClient() {
             { href: "/states-we-serve", label: "States We Serve", desc: "40+ states with same-day visits" },
             { href: "/what-we-treat", label: "What We Treat", desc: "Browse all conditions" },
             { href: "/faq", label: "FAQs", desc: "Common questions answered" },
-            { href: "/book-online", label: "Book a Visit", desc: "$49 flat fee or insurance" },
+            { href: "/book-online", label: "Book a Visit", desc: "$79 flat fee or insurance" },
           ].map((link, i) => (
             <a key={i} href={link.href} style={{ display: "block", padding: "16px", background: B.white, border: `1px solid ${B.border}`, borderRadius: B.r, textDecoration: "none", transition: "border-color 0.2s" }}>
               <div style={{ fontSize: 15, fontWeight: 600, color: B.navy, marginBottom: 4 }}>{link.label}</div>

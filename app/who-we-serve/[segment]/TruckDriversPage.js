@@ -41,7 +41,7 @@ export default function TruckDriversPage() {
     },
     {
       q: 'Do I need insurance to use TeleDirectMD?',
-      a: 'No. TeleDirectMD offers transparent cash-pay pricing starting at $49 per visit. Insurance is not required. We also accept select insurance plans in some states. You will know your cost upfront before booking — no surprise bills.'
+      a: 'No. TeleDirectMD offers transparent cash-pay pricing starting at $79 per visit. Insurance is not required. We also accept select insurance plans in some states. You will know your cost upfront before booking — no surprise bills.'
     },
     {
       q: 'Can you send prescriptions to a pharmacy along my route?',
@@ -174,7 +174,7 @@ export default function TruckDriversPage() {
                 <li>Board-certified physician — not a PA, not an NP, not an algorithm</li>
                 <li>Licensed in 41 states — covers interstate routes coast to coast</li>
                 <li>Prescriptions sent to any pharmacy on your route</li>
-                <li>Transparent cash-pay pricing starting at $49</li>
+                <li>Transparent cash-pay pricing starting at $79</li>
               </ul>
               <div className="tdmd-hero-ctas">
                 <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
@@ -334,7 +334,7 @@ export default function TruckDriversPage() {
           <div className="tdmd-price-grid">
             <div className="tdmd-price-card" aria-label="TeleDirectMD pricing">
               <h3>TeleDirectMD Video Visit</h3>
-              <p className="tdmd-price-big">$49</p>
+              <p className="tdmd-price-big">$79</p>
               <p className="tdmd-price-sub">Self-pay starting price per visit</p>
               <ul className="tdmd-price-includes">
                 <li>Board-certified physician consultation</li>
@@ -347,7 +347,7 @@ export default function TruckDriversPage() {
               <h3>How We Compare</h3>
               <p className="tdmd-price-caption">Typical costs without insurance. Actual costs vary by location.</p>
               <div className="tdmd-bar-row">
-                <div className="tdmd-bar-label"><span>TeleDirectMD</span><span>$49</span></div>
+                <div className="tdmd-bar-label"><span>TeleDirectMD</span><span>$79</span></div>
                 <div className="tdmd-bar-track"><div className="tdmd-bar-fill tdmd-bar-fill-tdmd" style={{ '--w': 10 }} /></div>
               </div>
               <div className="tdmd-bar-row">

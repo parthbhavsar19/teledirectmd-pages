@@ -12,7 +12,7 @@ export async function generateMetadata() {
   const allStates = getStates();
   const stateCount = allStates.length;
   const title = `States We Serve — Licensed Telemedicine in 40+ States | TeleDirectMD`;
-  const description = `Board-certified physicians delivering $49 video consultations to adults 18+ across 40+ U.S. states and territories. Same-day availability, no insurance required. See our full coverage map and book online.`;
+  const description = `Board-certified physicians delivering $79 video consultations to adults 18+ across 40+ U.S. states and territories. Same-day availability, no insurance required. See our full coverage map and book online.`;
   const pageUrl = 'https://teledirectmd.com/states-we-serve';
 
   return {
@@ -87,7 +87,7 @@ function buildJsonLd(allStates, categories) {
         email: 'contact@teledirectmd.com',
         logo: `${baseUrl}/assets/teledirectmd-logo.png`,
         image: `${baseUrl}/assets/og-states-we-serve.jpg`,
-        description: `TeleDirectMD is a direct-pay telemedicine practice offering $49 flat-fee video consultations with board-certified physicians across 40+ U.S. states and territories. Insurance is not required but select plans are accepted in some states.`,
+        description: `TeleDirectMD is a direct-pay telemedicine practice offering $79 flat-fee video consultations with board-certified physicians across 40+ U.S. states and territories. Insurance is not required but select plans are accepted in some states.`,
         medicalSpecialty: ['Family Medicine', 'Urgent Care', 'Dermatology', "Women's Health"],
         address: {
           '@type': 'PostalAddress',
@@ -127,12 +127,12 @@ function buildJsonLd(allStates, categories) {
           {
             '@type': 'Question',
             name: 'How much does a TeleDirectMD visit cost?',
-            acceptedAnswer: { '@type': 'Answer', text: 'Every TeleDirectMD visit is a flat $49 — no hidden fees, no copays, no surprise charges. This includes your full video consultation with a board-certified physician and any prescriptions sent to your pharmacy if clinically appropriate. No insurance is required.' },
+            acceptedAnswer: { '@type': 'Answer', text: 'Every TeleDirectMD visit is a flat $79 — no hidden fees, no copays, no surprise charges. This includes your full video consultation with a board-certified physician and any prescriptions sent to your pharmacy if clinically appropriate. No insurance is required.' },
           },
           {
             '@type': 'Question',
             name: 'Do I need insurance to use TeleDirectMD?',
-            acceptedAnswer: { '@type': 'Answer', text: 'No. TeleDirectMD is a direct-pay telemedicine practice. You pay the flat $49 visit fee directly — no insurance filing, no copays, and no prior authorization needed.' },
+            acceptedAnswer: { '@type': 'Answer', text: 'No. TeleDirectMD is a direct-pay telemedicine practice. You pay the flat $79 visit fee directly — no insurance filing, no copays, and no prior authorization needed.' },
           },
           {
             '@type': 'Question',
@@ -142,7 +142,7 @@ function buildJsonLd(allStates, categories) {
           {
             '@type': 'Question',
             name: 'How do I book a TeleDirectMD appointment?',
-            acceptedAnswer: { '@type': 'Answer', text: 'Booking takes about 2 minutes. Visit teledirectmd.com/book-online, select your condition and preferred time, confirm your state of residence, and complete the $49 payment. Same-day appointments are available 7 days a week. No app download required.' },
+            acceptedAnswer: { '@type': 'Answer', text: 'Booking takes about 2 minutes. Visit teledirectmd.com/book-online, select your condition and preferred time, confirm your state of residence, and complete the $79 payment. Same-day appointments are available 7 days a week. No app download required.' },
           },
           {
             '@type': 'Question',
@@ -157,7 +157,7 @@ function buildJsonLd(allStates, categories) {
           {
             '@type': 'Question',
             name: 'Can TeleDirectMD prescribe medication?',
-            acceptedAnswer: { '@type': 'Answer', text: 'Yes. When clinically appropriate, your physician can prescribe medications and send them electronically to the pharmacy of your choice. Prescription costs are separate from the $49 visit fee and depend on your pharmacy and medication. TeleDirectMD does not prescribe controlled substances.' },
+            acceptedAnswer: { '@type': 'Answer', text: 'Yes. When clinically appropriate, your physician can prescribe medications and send them electronically to the pharmacy of your choice. Prescription costs are separate from the $79 visit fee and depend on your pharmacy and medication. TeleDirectMD does not prescribe controlled substances.' },
           },
         ],
       },
@@ -179,13 +179,13 @@ function buildJsonLd(allStates, categories) {
       {
         '@type': 'HowTo',
         name: 'How to Book a TeleDirectMD Telemedicine Visit',
-        description: 'Book a $49 video consultation with a board-certified physician in under 2 minutes.',
+        description: 'Book a $79 video consultation with a board-certified physician in under 2 minutes.',
         totalTime: 'PT2M',
-        estimatedCost: { '@type': 'MonetaryAmount', currency: 'USD', value: '49' },
+        estimatedCost: { '@type': 'MonetaryAmount', currency: 'USD', value: '79' },
         step: [
           { '@type': 'HowToStep', position: 1, name: 'Choose your condition', text: 'Visit teledirectmd.com/book-online and select the condition you need treated.' },
           { '@type': 'HowToStep', position: 2, name: 'Select your appointment time', text: 'Choose a same-day or future appointment slot. Available 7 days a week.' },
-          { '@type': 'HowToStep', position: 3, name: 'Confirm your location and pay', text: 'Confirm you are in a licensed state and complete the flat $49 payment. No insurance needed.' },
+          { '@type': 'HowToStep', position: 3, name: 'Confirm your location and pay', text: 'Confirm you are in a licensed state and complete the flat $79 payment. No insurance needed.' },
           { '@type': 'HowToStep', position: 4, name: 'Join your video visit', text: 'Connect with your board-certified physician via secure video from your phone, tablet, or computer. No app download required.' },
         ],
       },

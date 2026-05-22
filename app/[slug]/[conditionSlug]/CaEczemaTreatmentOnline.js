@@ -38,14 +38,14 @@ const CA_PAYORS = [
     "status": "Pending",
     "effective": "Pending determination",
     "inNetwork": false,
-    "notes": "Enrollment pending \u2014 waiting for Anthem to confirm individual-provider enrollment for telehealth. Self pay ($49) available."
+    "notes": "Enrollment pending \u2014 waiting for Anthem to confirm individual-provider enrollment for telehealth. Self pay ($79) available."
   },
   {
     "name": "Cigna",
     "status": "Pending",
     "effective": "Pending determination",
     "inNetwork": false,
-    "notes": "Pending \u2014 Telehealth Only review in progress. Self pay ($49) available."
+    "notes": "Pending \u2014 Telehealth Only review in progress. Self pay ($79) available."
   },
   {
     "name": "Kaiser Permanente",
@@ -64,13 +64,13 @@ const CA_PAYORS = [
 ];
 
 const FAQ_ITEMS = [
-  { id: 'ca-eczema-treatment-online-faq-0', question: "Can I get eczema treatment online in California?", answer: (<p>Yes. California Business and Professions Code Section 2290.5 permits California-licensed physicians to evaluate and treat eczema (atopic dermatitis) by secure video visit. TeleDirectMD physicians follow AAD 2023 atopic dermatitis guidelines, prescribing topical corticosteroids, calcineurin inhibitors, and barrier repair counseling. Adults 18+ in California can book same-day. Self pay is $49. Aetna is in-network as of April 30, 2026.</p>) },
+  { id: 'ca-eczema-treatment-online-faq-0', question: "Can I get eczema treatment online in California?", answer: (<p>Yes. California Business and Professions Code Section 2290.5 permits California-licensed physicians to evaluate and treat eczema (atopic dermatitis) by secure video visit. TeleDirectMD physicians follow AAD 2023 atopic dermatitis guidelines, prescribing topical corticosteroids, calcineurin inhibitors, and barrier repair counseling. Adults 18+ in California can book same-day. Self pay is $79. Aetna is in-network as of April 30, 2026.</p>) },
   { id: 'ca-eczema-treatment-online-faq-1', question: "How common is eczema in California?", answer: (<p>Atopic dermatitis affects approximately 16.5 million adults in the United States per AAD data. CDC PLACES county-level data shows California county prevalence of 7–12% in adults. California wildfire smoke events and urban air pollution are documented eczema triggers. Atopic dermatitis is often comorbid with asthma and allergic rhinitis, both prevalent in California's Central Valley and coastal areas.</p>) },
   { id: 'ca-eczema-treatment-online-faq-2', question: "What eczema medications can a California telehealth doctor prescribe?", answer: (<p>A California-licensed telehealth physician can prescribe: mid-potency topical corticosteroids (triamcinolone 0.1%) for acute flares, low-potency TCS (hydrocortisone 2.5%) for face or sensitive areas, tacrolimus 0.03%–0.1% ointment or pimecrolimus 1% cream for steroid-sparing therapy, and crisaborole 2% ointment for mild-moderate disease. Dupilumab (Dupixent) requires in-person specialty evaluation.</p>) },
   { id: 'ca-eczema-treatment-online-faq-3', question: "Does California require an in-person visit before eczema telehealth?", answer: (<p>No. California B&P Code §2290.5 does not require a prior in-person visit. A California-licensed physician can establish a new patient relationship and prescribe appropriate eczema medications through a synchronous video visit when the clinical presentation supports video-based management.</p>) },
   { id: 'ca-eczema-treatment-online-faq-4', question: "When does eczema require emergency or in-person care?", answer: (<p>Go to the ER immediately for eczema herpeticum — rapidly spreading punched-out vesicles with systemic symptoms, which can be life-threatening. Seek urgent in-person care for secondary bacterial infection (crusting, weeping, expanding warmth/redness, fever). Seek in-person dermatology for severe or refractory eczema, or when dupilumab (Dupixent) biologic therapy evaluation is needed.</p>) },
-  { id: 'ca-eczema-treatment-online-faq-5', question: "Is Aetna in-network for eczema treatment at TeleDirectMD in California?", answer: (<p>Yes. Aetna became an active in-network payor effective April 30, 2026. UnitedHealthcare Commercial is approved effective May 29, 2026. Anthem Blue Cross and Cigna enrollments are pending. Self pay is $49.</p>) },
-  { id: 'ca-eczema-treatment-online-faq-6', question: "What is the cost of eczema treatment in California?", answer: (<p>TeleDirectMD charges $49 self-pay for a complete MD video visit. Generic triamcinolone costs ~$5–$15, generic tacrolimus ~$30–$60, pimecrolimus ~$40–$80. In-person dermatology visits in California typically cost $150–$350 with significant wait times.</p>) },
+  { id: 'ca-eczema-treatment-online-faq-5', question: "Is Aetna in-network for eczema treatment at TeleDirectMD in California?", answer: (<p>Yes. Aetna became an active in-network payor effective April 30, 2026. UnitedHealthcare Commercial is approved effective May 29, 2026. Anthem Blue Cross and Cigna enrollments are pending. Self pay is $79.</p>) },
+  { id: 'ca-eczema-treatment-online-faq-6', question: "What is the cost of eczema treatment in California?", answer: (<p>TeleDirectMD charges $79 self-pay for a complete MD video visit. Generic triamcinolone costs ~$5–$15, generic tacrolimus ~$30–$60, pimecrolimus ~$40–$80. In-person dermatology visits in California typically cost $150–$350 with significant wait times.</p>) },
   { id: 'ca-eczema-treatment-online-faq-7', question: "Does California AB 744 parity law cover eczema telehealth?", answer: (<p>Yes, for in-network commercial plans. California AB 744 (2019) requires commercial health plans to reimburse telehealth on the same basis as in-person services. Aetna and UHC Commercial are in-network for TeleDirectMD in California.</p>) },
   { id: 'ca-eczema-treatment-online-faq-8', question: "Can wildfire smoke trigger eczema flares in California?", answer: (<p>Yes. California wildfire season produces fine particulate matter (PM2.5) that penetrates skin and triggers inflammatory responses in atopic individuals. CDPH Office of Health Hazard Assessment documents the relationship between wildfire smoke and skin condition exacerbations. During wildfire alerts, eczema patients should apply barrier moisturizers frequently and use HEPA air filtration indoors.</p>) },
   { id: 'ca-eczema-treatment-online-faq-9', question: "Are tacrolimus and pimecrolimus safe for eczema?", answer: (<p>Tacrolimus and pimecrolimus carry FDA black box warnings about a theoretical risk of lymphoma and skin cancer with long-term use, though clinical studies have not confirmed this risk. AAD 2023 guidelines support their use for eczema, particularly on sensitive areas where topical steroids cause atrophy. TeleDirectMD physicians counsel patients on the black box warning. Not for immunocompromised patients.</p>) },
@@ -82,7 +82,7 @@ function buildSchemas() {
   const medicalWebPage = {
     '@context': 'https://schema.org', '@type': 'MedicalWebPage',
     name: PAGE_TITLE, url: PAGE_URL,
-    description: "Eczema (atopic dermatitis) treatment by secure video visit for California adults. AAD/AAAAI guideline-based care. Board-certified MD. Aetna in-network. Self pay $49.",
+    description: "Eczema (atopic dermatitis) treatment by secure video visit for California adults. AAD/AAAAI guideline-based care. Board-certified MD. Aetna in-network. Self pay $79.",
     datePublished: DATE_PUBLISHED, dateModified: DATE_MODIFIED, inLanguage: 'en-US',
     about: {
       '@type': 'MedicalCondition', name: "Eczema (Atopic Dermatitis)",
@@ -108,13 +108,13 @@ function buildSchemas() {
   const faqPage = {
     '@context': 'https://schema.org', '@type': 'FAQPage',
     mainEntity: [
-    { '@type': 'Question', name: "Can I get eczema treatment online in California?", acceptedAnswer: { '@type': 'Answer', text: "Yes. California Business and Professions Code Section 2290.5 permits California-licensed physicians to evaluate and treat eczema (atopic dermatitis) by secure video visit. TeleDirectMD physicians follow AAD 2023 atopic dermatitis guidelines, prescribing topical corticosteroids, calcineurin inhibitors, and barrier repair counseling. Adults 18+ in California can book same-day. Self pay is $49. Aetna is in-network as of April 30, 2026." } },
+    { '@type': 'Question', name: "Can I get eczema treatment online in California?", acceptedAnswer: { '@type': 'Answer', text: "Yes. California Business and Professions Code Section 2290.5 permits California-licensed physicians to evaluate and treat eczema (atopic dermatitis) by secure video visit. TeleDirectMD physicians follow AAD 2023 atopic dermatitis guidelines, prescribing topical corticosteroids, calcineurin inhibitors, and barrier repair counseling. Adults 18+ in California can book same-day. Self pay is $79. Aetna is in-network as of April 30, 2026." } },
     { '@type': 'Question', name: "How common is eczema in California?", acceptedAnswer: { '@type': 'Answer', text: "Atopic dermatitis affects approximately 16.5 million adults in the United States per AAD data. CDC PLACES county-level data shows California county prevalence of 7\u201312% in adults. California wildfire smoke events and urban air pollution are documented eczema triggers. Atopic dermatitis is often comorbid with asthma and allergic rhinitis, both prevalent in California's Central Valley and coastal areas." } },
     { '@type': 'Question', name: "What eczema medications can a California telehealth doctor prescribe?", acceptedAnswer: { '@type': 'Answer', text: "A California-licensed telehealth physician can prescribe: mid-potency topical corticosteroids (triamcinolone 0.1%) for acute flares, low-potency TCS (hydrocortisone 2.5%) for face or sensitive areas, tacrolimus 0.03%\u20130.1% ointment or pimecrolimus 1% cream for steroid-sparing therapy, and crisaborole 2% ointment for mild-moderate disease. Dupilumab (Dupixent) requires in-person specialty evaluation." } },
     { '@type': 'Question', name: "Does California require an in-person visit before eczema telehealth?", acceptedAnswer: { '@type': 'Answer', text: "No. California B&P Code \u00a72290.5 does not require a prior in-person visit. A California-licensed physician can establish a new patient relationship and prescribe appropriate eczema medications through a synchronous video visit when the clinical presentation supports video-based management." } },
     { '@type': 'Question', name: "When does eczema require emergency or in-person care?", acceptedAnswer: { '@type': 'Answer', text: "Go to the ER immediately for eczema herpeticum \u2014 rapidly spreading punched-out vesicles with systemic symptoms, which can be life-threatening. Seek urgent in-person care for secondary bacterial infection (crusting, weeping, expanding warmth/redness, fever). Seek in-person dermatology for severe or refractory eczema, or when dupilumab (Dupixent) biologic therapy evaluation is needed." } },
-    { '@type': 'Question', name: "Is Aetna in-network for eczema treatment at TeleDirectMD in California?", acceptedAnswer: { '@type': 'Answer', text: "Yes. Aetna became an active in-network payor effective April 30, 2026. UnitedHealthcare Commercial is approved effective May 29, 2026. Anthem Blue Cross and Cigna enrollments are pending. Self pay is $49." } },
-    { '@type': 'Question', name: "What is the cost of eczema treatment in California?", acceptedAnswer: { '@type': 'Answer', text: "TeleDirectMD charges $49 self-pay for a complete MD video visit. Generic triamcinolone costs ~$5\u2013$15, generic tacrolimus ~$30\u2013$60, pimecrolimus ~$40\u2013$80. In-person dermatology visits in California typically cost $150\u2013$350 with significant wait times." } },
+    { '@type': 'Question', name: "Is Aetna in-network for eczema treatment at TeleDirectMD in California?", acceptedAnswer: { '@type': 'Answer', text: "Yes. Aetna became an active in-network payor effective April 30, 2026. UnitedHealthcare Commercial is approved effective May 29, 2026. Anthem Blue Cross and Cigna enrollments are pending. Self pay is $79." } },
+    { '@type': 'Question', name: "What is the cost of eczema treatment in California?", acceptedAnswer: { '@type': 'Answer', text: "TeleDirectMD charges $79 self-pay for a complete MD video visit. Generic triamcinolone costs ~$5\u2013$15, generic tacrolimus ~$30\u2013$60, pimecrolimus ~$40\u2013$80. In-person dermatology visits in California typically cost $150\u2013$350 with significant wait times." } },
     { '@type': 'Question', name: "Does California AB 744 parity law cover eczema telehealth?", acceptedAnswer: { '@type': 'Answer', text: "Yes, for in-network commercial plans. California AB 744 (2019) requires commercial health plans to reimburse telehealth on the same basis as in-person services. Aetna and UHC Commercial are in-network for TeleDirectMD in California." } },
     { '@type': 'Question', name: "Can wildfire smoke trigger eczema flares in California?", acceptedAnswer: { '@type': 'Answer', text: "Yes. California wildfire season produces fine particulate matter (PM2.5) that penetrates skin and triggers inflammatory responses in atopic individuals. CDPH Office of Health Hazard Assessment documents the relationship between wildfire smoke and skin condition exacerbations. During wildfire alerts, eczema patients should apply barrier moisturizers frequently and use HEPA air filtration indoors." } },
     { '@type': 'Question', name: "Are tacrolimus and pimecrolimus safe for eczema?", acceptedAnswer: { '@type': 'Answer', text: "Tacrolimus and pimecrolimus carry FDA black box warnings about a theoretical risk of lymphoma and skin cancer with long-term use, though clinical studies have not confirmed this risk. AAD 2023 guidelines support their use for eczema, particularly on sensitive areas where topical steroids cause atrophy. TeleDirectMD physicians counsel patients on the black box warning. Not for immunocompromised patients." } },
@@ -127,9 +127,9 @@ function buildSchemas() {
     name: "How to Get Eczema Treatment Online in California",
     description: "Three steps to receive Eczema (Atopic Dermatitis) evaluation and, if appropriate, a prescription from a California-licensed board-certified physician.",
     totalTime: 'PT30M',
-    estimatedCost: { '@type': 'MonetaryAmount', currency: 'USD', value: '49' },
+    estimatedCost: { '@type': 'MonetaryAmount', currency: 'USD', value: '79' },
     step: [
-      { '@type': 'HowToStep', position: 1, name: 'Book your video visit', text: 'Visit teledirectmd.com and select California Eczema Treatment. No referral needed. Self pay $49. Many visits available same day.', url: 'https://teledirectmd.com/book-online' },
+      { '@type': 'HowToStep', position: 1, name: 'Book your video visit', text: 'Visit teledirectmd.com and select California Eczema Treatment. No referral needed. Self pay $79. Many visits available same day.', url: 'https://teledirectmd.com/book-online' },
       { '@type': 'HowToStep', position: 2, name: 'See a California-licensed MD by secure video', text: 'Connect with a board-certified Family Medicine physician licensed in California. The physician reviews symptoms, history, and risk factors.', url: PAGE_URL },
       { '@type': 'HowToStep', position: 3, name: 'Receive your treatment plan and e-prescription', text: 'If medication is appropriate, a California-compliant e-prescription is sent to your chosen pharmacy.', url: PAGE_URL },
     ],
@@ -171,7 +171,7 @@ export default function CaEczemaTreatmentOnline() {
             <div className="tdmd-hero-grid">
               <div className="tdmd-hero-copy">
                 <h1 data-speakable="true">Eczema Treatment Online in California</h1>
-                <p className="tdmd-hero-sub" data-speakable="true">AAD/AAAAI guideline-based eczema and atopic dermatitis care by secure video visit. Self pay $49 · Aetna in-network · UHC Commercial approved · MD-only · CA telehealth compliant.</p>
+                <p className="tdmd-hero-sub" data-speakable="true">AAD/AAAAI guideline-based eczema and atopic dermatitis care by secure video visit. Self pay $79 · Aetna in-network · UHC Commercial approved · MD-only · CA telehealth compliant.</p>
                 <p>This page is for adults located in California, including Los Angeles, San Diego, San Jose, San Francisco, Fresno, Sacramento, Long Beach, Oakland, Bakersfield, Anaheim, and surrounding areas seeking telehealth evaluation for eczema (atopic dermatitis).</p>
                 <div className="tdmd-ca-uti__byline" aria-label="Reviewed by physician">
                   <img src={PHYSICIAN.headshot} alt="Parth Bhavsar MD headshot" loading="eager" width={56} height={56} />
@@ -185,14 +185,14 @@ export default function CaEczemaTreatmentOnline() {
                   </div>
                 </div>
                 <ul className="tdmd-hero-benefits">
-                  <li>Self pay $49 — no insurance required</li>
+                  <li>Self pay $79 — no insurance required</li>
                   <li>MD-only care (no mid-levels)</li>
                   <li>Aetna in-network (effective April 30, 2026)</li>
                   <li>UnitedHealthcare Commercial approved (effective May 29, 2026)</li>
                   <li>Licensed telehealth care for adults located in California at the time of the visit</li>
                 </ul>
                 <div className="tdmd-hero-ctas">
-                  <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit — $49</a>
+                  <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
                   <a href="/ca/" className="tdmd-btn tdmd-btn-outline">Explore California Pages</a>
                 </div>
                 <p className="tdmd-icd"><strong>ICD-10 commonly used:</strong> L20.9 — Atopic dermatitis, unspecified (final coding depends on clinical details)</p>
@@ -218,7 +218,7 @@ export default function CaEczemaTreatmentOnline() {
         <section className="tdmd-section" id={`${pid}-opening`}>
           <div className="tdmd-container">
             <div className="tdmd-condition-opener">
-              <p><strong>Can I get eczema (atopic dermatitis) treatment online in California?</strong> Yes. <a href='https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=2290.5.&lawCode=BPC' rel='noopener' target='_blank'>California Business and Professions Code Section 2290.5</a> permits California-licensed physicians to evaluate and manage eczema (atopic dermatitis) by secure video visit. TeleDirectMD physicians follow <a href='https://www.aad.org/member/clinical-quality/guidelines/atopic-dermatitis' rel='noopener' target='_blank'>AAD 2023 atopic dermatitis guidelines</a>, prescribing topical corticosteroids, topical calcineurin inhibitors (tacrolimus, pimecrolimus), and crisaborole for mild-moderate disease. Adults 18+ in California can book same-day. The <a href='https://www.mbc.ca.gov/Resources/Medical-Resources/telehealth.aspx' rel='noopener' target='_blank'>Medical Board of California</a> holds telehealth physicians to the same standard as in-person care. Self pay is $49. <a href='/insurance/aetna/california/eczema-treatment/'>Aetna is in-network</a> as of April 30, 2026.</p>
+              <p><strong>Can I get eczema (atopic dermatitis) treatment online in California?</strong> Yes. <a href='https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=2290.5.&lawCode=BPC' rel='noopener' target='_blank'>California Business and Professions Code Section 2290.5</a> permits California-licensed physicians to evaluate and manage eczema (atopic dermatitis) by secure video visit. TeleDirectMD physicians follow <a href='https://www.aad.org/member/clinical-quality/guidelines/atopic-dermatitis' rel='noopener' target='_blank'>AAD 2023 atopic dermatitis guidelines</a>, prescribing topical corticosteroids, topical calcineurin inhibitors (tacrolimus, pimecrolimus), and crisaborole for mild-moderate disease. Adults 18+ in California can book same-day. The <a href='https://www.mbc.ca.gov/Resources/Medical-Resources/telehealth.aspx' rel='noopener' target='_blank'>Medical Board of California</a> holds telehealth physicians to the same standard as in-person care. Self pay is $79. <a href='/insurance/aetna/california/eczema-treatment/'>Aetna is in-network</a> as of April 30, 2026.</p>
             </div>
           </div>
         </section>
@@ -285,7 +285,7 @@ export default function CaEczemaTreatmentOnline() {
                 <div className="tdmd-decision-number">1</div>
                 <div className="tdmd-decision-content">
                   <h3>Book your video visit</h3>
-                  <p>No referral needed. Self pay $49. Many visits available same day. Note when symptoms started, any prior treatments, allergies, and relevant medical history before your visit.</p>
+                  <p>No referral needed. Self pay $79. Many visits available same day. Note when symptoms started, any prior treatments, allergies, and relevant medical history before your visit.</p>
                 </div>
               </div>
               <div className="tdmd-decision-step tdmd-decision-step-check">
@@ -311,11 +311,11 @@ export default function CaEczemaTreatmentOnline() {
         <section className="tdmd-section" id={`${pid}-cost`}>
           <div className="tdmd-container">
             <h2>Eczema Treatment Cost &amp; Insurance in California</h2>
-            <p>TeleDirectMD&apos;s self-pay rate is <strong>$49</strong> for a complete MD video visit. Patients with in-network insurance pay their plan&apos;s telehealth copay.</p>
+            <p>TeleDirectMD&apos;s self-pay rate is <strong>$79</strong> for a complete MD video visit. Patients with in-network insurance pay their plan&apos;s telehealth copay.</p>
             <div className="tdmd-price-grid">
               <div className="tdmd-price-card">
                 <h3>TeleDirectMD Video Visit</h3>
-                <p className="tdmd-price-big">$49</p>
+                <p className="tdmd-price-big">$79</p>
                 <p className="tdmd-price-sub">Self-pay flat fee — no subscription</p>
                 <ul className="tdmd-price-includes">
                   <li>Board-certified MD video evaluation</li>
@@ -329,7 +329,7 @@ export default function CaEczemaTreatmentOnline() {
                 <h3>Typical Eczema Treatment Cost in California</h3>
                 <div className="tdmd-vbars" role="list" aria-label="Cost comparison bars">
                   {[
-                    { name: 'TeleDirectMD video visit', value: '$49', heightPct: 8, isTdmd: true },
+                    { name: 'TeleDirectMD video visit', value: '$79', heightPct: 13, isTdmd: true },
                     { name: 'Other telehealth', value: '$75–$150', heightPct: 22 },
                     { name: 'Urgent care', value: '$150–$300', heightPct: 45 },
                     { name: 'ER visit', value: '$500–$3,000+', heightPct: 100 },
@@ -371,13 +371,13 @@ export default function CaEczemaTreatmentOnline() {
                     <td><strong>Anthem Blue Cross</strong></td>
                     <td><span className="tdmd-ca-uti__payor-pill tdmd-ca-uti__payor-pill--pending">Pending</span></td>
                     <td>Pending determination</td>
-                    <td>Enrollment pending — waiting for Anthem to confirm individual-provider enrollment for telehealth. Self pay ($49) available.</td>
+                    <td>Enrollment pending — waiting for Anthem to confirm individual-provider enrollment for telehealth. Self pay ($79) available.</td>
                   </tr>
                   <tr>
                     <td><strong>Cigna</strong></td>
                     <td><span className="tdmd-ca-uti__payor-pill tdmd-ca-uti__payor-pill--pending">Pending</span></td>
                     <td>Pending determination</td>
-                    <td>Pending — Telehealth Only review in progress. Self pay ($49) available.</td>
+                    <td>Pending — Telehealth Only review in progress. Self pay ($79) available.</td>
                   </tr>
                   <tr>
                     <td><strong>Kaiser Permanente</strong></td>
@@ -454,7 +454,7 @@ export default function CaEczemaTreatmentOnline() {
             <div className="tdmd-ca-uti__cta-strip" role="complementary">
               <div>
                 <p>Book a same-day video visit — California adults, 18+</p>
-                <small>Self pay $49 · Aetna in-network · UHC Commercial approved May 2026 · No ER wait</small>
+                <small>Self pay $79 · Aetna in-network · UHC Commercial approved May 2026 · No ER wait</small>
               </div>
               <a className="tdmd-ca-uti__cta-btn" href="/book-online" rel="noopener">Book Now →</a>
             </div>
@@ -471,7 +471,7 @@ export default function CaEczemaTreatmentOnline() {
             <div className="tdmd-bottom-cta" role="region" aria-label="Book a visit call to action">
               <div className="tdmd-bottom-cta-copy">
                 <h3>Ready to see a California-licensed MD?</h3>
-                <p>Book a same-day video visit. Self pay $49 · Aetna in-network · UHC Commercial approved.</p>
+                <p>Book a same-day video visit. Self pay $79 · Aetna in-network · UHC Commercial approved.</p>
               </div>
               <div className="tdmd-bottom-cta-actions">
                 <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>

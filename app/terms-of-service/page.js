@@ -462,7 +462,7 @@ export default function TermsOfService() {
           <h2>7. Fees and Payment</h2>
           <h3>7.1 Visit Fee</h3>
           <p>
-            The fee for a telehealth visit is <strong>$49.00 per visit</strong>, payable before the
+            The fee for a telehealth visit is <strong>$79.00 per visit</strong>, payable before the
             visit is conducted. This is the consultation fee and covers the physician evaluation,
             clinical assessment, and a work or school excuse note if one is medically appropriate
             and issued at the Provider&apos;s discretion. If a prescription is issued during your visit,
@@ -524,7 +524,7 @@ export default function TermsOfService() {
           </p>
           <h3>8.3 General Refund Policy</h3>
           <p>
-            The $49 visit fee covers the physician&apos;s time and clinical judgment, which are expended
+            The $79 visit fee covers the physician&apos;s time and clinical judgment, which are expended
             regardless of the outcome of the visit. Accordingly, visit fees are generally
             non-refundable once a visit has been completed.
           </p>
@@ -757,7 +757,7 @@ export default function TermsOfService() {
           <p>
             The limitations of liability in this Section 14 reflect the allocation of risk between
             the parties and are an essential element of the basis of the bargain between TeleDirectMD
-            and you. TeleDirectMD would not be able to provide the Services on a $49 flat-fee basis
+            and you. TeleDirectMD would not be able to provide the Services on a $79 flat-fee basis
             without such limitations.
           </p>
           <h3>14.4 Jurisdictional Variations</h3>

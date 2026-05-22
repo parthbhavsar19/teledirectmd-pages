@@ -174,7 +174,7 @@ export const STATE_PLAN_DETAILS = {
         { name: "Allied Benefit Systems (Aetna)", productType: "PPO" },
         { name: "Aetna Funding Advantage / Leap", productType: "PPO" },
       ],
-      note: "Aetna California commercial network — contracted effective April 30, 2026. Plan acceptance is subject to your specific plan benefits and network tier. Self-pay $49 is always available.",
+      note: "Aetna California commercial network — contracted effective April 30, 2026. Plan acceptance is subject to your specific plan benefits and network tier. Self-pay $79 is always available.",
     },
   },
 };

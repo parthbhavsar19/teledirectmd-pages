@@ -27,7 +27,7 @@ export default function InsuranceConditionClient({ insurerSlug, conditionSlug })
     },
     {
       q: `What does ${insurer.name} pay for a ${cond.name} telemedicine visit?`,
-      a: `Most ${insurer.name} commercial plans have telehealth copays of $0–$40 for ${cond.name} treatment. Many employer-sponsored ${shortName} plans have $0 telehealth copays — particularly for large employer groups. The exact amount depends on your plan tier, deductible status, and state. Log into your ${shortName} member portal or call member services to verify your specific cost before booking. Self-pay is always available for $49 flat if you prefer to skip insurance.`,
+      a: `Most ${insurer.name} commercial plans have telehealth copays of $0–$40 for ${cond.name} treatment. Many employer-sponsored ${shortName} plans have $0 telehealth copays — particularly for large employer groups. The exact amount depends on your plan tier, deductible status, and state. Log into your ${shortName} member portal or call member services to verify your specific cost before booking. Self-pay is always available for $79 flat if you prefer to skip insurance.`,
     },
     {
       q: `How do I see a doctor for ${cond.name} using my ${insurer.name} insurance?`,
@@ -43,7 +43,7 @@ export default function InsuranceConditionClient({ insurerSlug, conditionSlug })
     },
     {
       q: `Is the self-pay option available if my ${shortName} plan does not cover ${cond.name}?`,
-      a: `Yes. If your ${shortName} plan does not cover this visit, if you are in a state where ${shortName} is not in-network with TeleDirectMD, or if your deductible has not yet been met, you can book as a self-pay patient for a flat $49 fee. Same physician, same quality of care, same clinical standards — no insurance required.`,
+      a: `Yes. If your ${shortName} plan does not cover this visit, if you are in a state where ${shortName} is not in-network with TeleDirectMD, or if your deductible has not yet been met, you can book as a self-pay patient for a flat $79 fee. Same physician, same quality of care, same clinical standards — no insurance required.`,
     },
     {
       q: `Will ${insurer.name} cover a prescription for ${cond.name} from a telehealth visit?`,
@@ -55,7 +55,7 @@ export default function InsuranceConditionClient({ insurerSlug, conditionSlug })
     },
     {
       q: `Can I use my ${shortName} FSA or HSA for a ${cond.name} telehealth visit?`,
-      a: `Yes. Telehealth visits with a licensed physician are qualified medical expenses eligible for FSA and HSA payment. If your ${shortName} plan applies your deductible first before covering the visit, your FSA or HSA card can be used to pay your responsibility. The $49 self-pay option is also FSA/HSA eligible as a qualified medical expense.`,
+      a: `Yes. Telehealth visits with a licensed physician are qualified medical expenses eligible for FSA and HSA payment. If your ${shortName} plan applies your deductible first before covering the visit, your FSA or HSA card can be used to pay your responsibility. The $79 self-pay option is also FSA/HSA eligible as a qualified medical expense.`,
     },
     {
       q: `Is TeleDirectMD verified as an in-network provider with ${insurer.name}?`,
@@ -63,7 +63,7 @@ export default function InsuranceConditionClient({ insurerSlug, conditionSlug })
     },
     {
       q: `What ${shortName} plans are NOT accepted at TeleDirectMD?`,
-      a: `The following ${shortName} plan types are not currently accepted: ${insurer.notAccepted?.join(', ')}. ${insurerSlug === 'blue-cross-blue-shield' ? "Note that BCBS varies by state affiliate — TeleDirectMD is in-network with specific state affiliates (Florida Blue, Anthem BCBS GA, BCBS IL, Highmark BCBS PA, BCBS TX) only." : ""} If your specific plan is not in-network, self-pay is available for $49 flat — same physician and quality of care.`,
+      a: `The following ${shortName} plan types are not currently accepted: ${insurer.notAccepted?.join(', ')}. ${insurerSlug === 'blue-cross-blue-shield' ? "Note that BCBS varies by state affiliate — TeleDirectMD is in-network with specific state affiliates (Florida Blue, Anthem BCBS GA, BCBS IL, Highmark BCBS PA, BCBS TX) only." : ""} If your specific plan is not in-network, self-pay is available for $79 flat — same physician and quality of care.`,
     },
     {
       q: `How does the ${insurer.name} billing work for a telehealth visit at TeleDirectMD?`,
@@ -160,7 +160,7 @@ export default function InsuranceConditionClient({ insurerSlug, conditionSlug })
             </a>
             <a href="https://www.teledirectmd.com/book-online" target="_blank" rel="noopener"
               style={{ display: "inline-flex", alignItems: "center", gap: 8, padding: "14px 20px", background: "rgba(255,255,255,0.1)", color: B.white, borderRadius: B.rs, fontWeight: 600, fontSize: 14, textDecoration: "none", border: "1px solid rgba(255,255,255,0.2)" }}>
-              <Ico.Dollar c={B.white} s={16} /> Self-Pay $49 — No Insurance Needed
+              <Ico.Dollar c={B.white} s={16} /> Self-Pay $79 — No Insurance Needed
             </a>
           </div>
         </div>

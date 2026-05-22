@@ -6,7 +6,7 @@ export default function UninsuredAffordableCarePage() {
   /* ── Conditions to link ─────────────────────────────────────────── */
   const conditions = [
     { name: 'UTI / Urinary Tract Infection', slug: 'uti-treatment-online', desc: 'Fast antibiotic prescriptions sent to your local pharmacy — no insurance required, no waiting room.' },
-    { name: 'Sinus Infection', slug: 'sinus-infection-treatment-online', desc: 'Evaluation and treatment for sinus pressure, congestion, and post-nasal drip from your phone for $49.' },
+    { name: 'Sinus Infection', slug: 'sinus-infection-treatment-online', desc: 'Evaluation and treatment for sinus pressure, congestion, and post-nasal drip from your phone for $79.' },
     { name: 'Respiratory Infections', slug: 'common-cold-treatment-online', desc: 'Cold, flu, and respiratory infection treatment — transparent cash-pay pricing, no insurance needed.' },
     { name: 'Hypertension / High Blood Pressure', slug: 'hypertension-refills-online', desc: 'Ongoing blood pressure monitoring and medication refills at a fraction of the cost of an in-person visit.' },
     { name: 'Type 2 Diabetes Management', slug: 'diabetes-refills-online', desc: 'Medication refills and guidance to keep blood sugar in range — affordable, physician-led care.' },
@@ -21,7 +21,7 @@ export default function UninsuredAffordableCarePage() {
   const faqItems = [
     {
       q: 'How much does TeleDirectMD cost without insurance?',
-      a: 'TeleDirectMD charges a transparent flat fee starting at $49 per visit for self-pay patients — no insurance required. You will see your cost before you book, so there are no surprises. For context, a Penn Medicine study found telehealth visits average $96 compared to $509 for an in-person episode of care, and GoodRx reports that telehealth visits without insurance typically range from $40 to $90 depending on the platform. TeleDirectMD\'s $49 starting price is at the lower end of that range and comes with a board-certified physician — not a PA or NP.'
+      a: 'TeleDirectMD charges a transparent flat fee starting at $79 per visit for self-pay patients — no insurance required. You will see your cost before you book, so there are no surprises. For context, a Penn Medicine study found telehealth visits average $96 compared to $509 for an in-person episode of care, and GoodRx reports that telehealth visits without insurance typically range from $40 to $90 depending on the platform. TeleDirectMD\'s $79 starting price is at the lower end of that range and comes with a board-certified physician — not a PA or NP.'
     },
     {
       q: 'Are there any hidden fees?',
@@ -41,7 +41,7 @@ export default function UninsuredAffordableCarePage() {
     },
     {
       q: 'How does TeleDirectMD compare to urgent care or the ER?',
-      a: 'The cost difference is substantial. An urgent care visit without insurance typically costs $150 to $350. An emergency room visit averages $500 to $3,000 or more — and that\'s before imaging, labs, or medications. TeleDirectMD starts at $49 for telehealth-appropriate conditions. For non-emergency issues — infections, medication refills, chronic condition management, and more — a telehealth visit provides the same clinical quality at a fraction of the cost. The American College of Emergency Physicians estimates that a significant share of ER visits could be appropriately handled in lower-acuity settings.'
+      a: 'The cost difference is substantial. An urgent care visit without insurance typically costs $150 to $350. An emergency room visit averages $500 to $3,000 or more — and that\'s before imaging, labs, or medications. TeleDirectMD starts at $79 for telehealth-appropriate conditions. For non-emergency issues — infections, medication refills, chronic condition management, and more — a telehealth visit provides the same clinical quality at a fraction of the cost. The American College of Emergency Physicians estimates that a significant share of ER visits could be appropriately handled in lower-acuity settings.'
     },
     {
       q: 'Can I see the same doctor for ongoing care?',
@@ -107,7 +107,7 @@ export default function UninsuredAffordableCarePage() {
         "@id": `${pageUrl}#webpage`,
         "url": pageUrl,
         "name": "Affordable Online Doctor Visits Without Insurance — Transparent Pricing, No Surprises",
-        "description": "TeleDirectMD offers affordable telehealth visits without insurance across 41 states. Cash-pay starting at $49. Board-certified physician. Same-day visits, evenings & weekends.",
+        "description": "TeleDirectMD offers affordable telehealth visits without insurance across 41 states. Cash-pay starting at $79. Board-certified physician. Same-day visits, evenings & weekends.",
         "inLanguage": "en-US",
         "breadcrumb": { "@id": `${pageUrl}#breadcrumbs` },
         "author": { "@id": `${baseUrl}/about#physician` },
@@ -154,14 +154,14 @@ export default function UninsuredAffordableCarePage() {
           <div className="tdmd-hero-grid">
             <div className="tdmd-hero-copy">
               <h1>Affordable Online Doctor Visits Without Insurance — Transparent Pricing, No Surprises</h1>
-              <p className="tdmd-hero-sub">Licensed physician in 41 states. Cash-pay starting at $49. Same-day visits, evenings &amp; weekends.</p>
+              <p className="tdmd-hero-sub">Licensed physician in 41 states. Cash-pay starting at $79. Same-day visits, evenings &amp; weekends.</p>
               <p>
                 Nearly 9% of Americans who were enrolled in ACA marketplace plans dropped coverage in 2026 after premium increases of over 100% following subsidy expiration. 23% of gig workers had no health insurance even before the lapse, and 58% of uninsured gig workers cited prohibitive cost as the reason. Telehealth is a direct alternative: transparent cash-pay pricing, no insurance required, clinical-quality care from any smartphone.
               </p>
               <ul className="tdmd-hero-benefits">
                 <li>Board-certified physician — not a PA, not an NP, not an algorithm</li>
                 <li>Licensed in 41 states</li>
-                <li>Transparent cash-pay pricing starting at $49 — no hidden fees</li>
+                <li>Transparent cash-pay pricing starting at $79 — no hidden fees</li>
                 <li>No insurance required, no surprise billing</li>
                 <li>Same-day visits, evenings &amp; weekends</li>
               </ul>
@@ -181,7 +181,7 @@ export default function UninsuredAffordableCarePage() {
               <div className="tdmd-hero-card">
                 <h2>Why the Uninsured Choose TeleDirectMD</h2>
                 <ul>
-                  <li>Know your cost upfront — $49 flat fee, no surprise billing</li>
+                  <li>Know your cost upfront — $79 flat fee, no surprise billing</li>
                   <li>No insurance paperwork, no prior authorizations</li>
                   <li>Prescriptions sent to any pharmacy in the U.S.</li>
                   <li>Physician-led care, not an NP or algorithm</li>
@@ -205,11 +205,11 @@ export default function UninsuredAffordableCarePage() {
             Even before the lapse, <strong>more than 30 million Americans were uninsured</strong>, with millions more underinsured. The financial consequences of being uninsured are well-documented: the average emergency room visit costs between $500 and $3,000 or more; a single urgent care visit without insurance runs $150 to $350. Many uninsured Americans delay or forgo care entirely until conditions worsen — often resulting in the most expensive outcome of all: an ER visit.
           </p>
           <p>
-            Telehealth changes this calculus. A <strong>Penn Medicine study found that telehealth visits average $96 compared to $509 for an in-person episode of care</strong> — more than five times less expensive. GoodRx reports telehealth visits without insurance typically range from $40 to $90. TeleDirectMD starts at $49 — with no hidden fees and no surprise billing.
+            Telehealth changes this calculus. A <strong>Penn Medicine study found that telehealth visits average $96 compared to $509 for an in-person episode of care</strong> — more than five times less expensive. GoodRx reports telehealth visits without insurance typically range from $40 to $90. TeleDirectMD starts at $79 — with no hidden fees and no surprise billing.
           </p>
           <div className="tdmd-comparison-note">
             <p style={{ margin: 0 }}>
-              <strong>The scenario:</strong> You lost your ACA plan after premiums doubled in 2026. You've had a sore throat and low-grade fever for three days. You don't have a doctor, and a walk-in clinic would cost $200 or more. With TeleDirectMD, you request a same-day visit from your phone for $49. A board-certified physician evaluates you, and if you need an antibiotic, the prescription is sent to the pharmacy down the street.
+              <strong>The scenario:</strong> You lost your ACA plan after premiums doubled in 2026. You've had a sore throat and low-grade fever for three days. You don't have a doctor, and a walk-in clinic would cost $200 or more. With TeleDirectMD, you request a same-day visit from your phone for $79. A board-certified physician evaluates you, and if you need an antibiotic, the prescription is sent to the pharmacy down the street.
             </p>
           </div>
         </div>
@@ -225,7 +225,7 @@ export default function UninsuredAffordableCarePage() {
           <div className="tdmd-grid tdmd-grid-2">
             <div className="tdmd-card tdmd-card-good">
               <h3>Transparent Cash-Pay Pricing</h3>
-              <p>$49 flat fee per visit. You see the cost before you book. No facility fees, no surprise billing, no insurance paperwork. If you need a prescription, we'll discuss cost-effective generic options at the time of your visit.</p>
+              <p>$79 flat fee per visit. You see the cost before you book. No facility fees, no surprise billing, no insurance paperwork. If you need a prescription, we'll discuss cost-effective generic options at the time of your visit.</p>
             </div>
             <div className="tdmd-card tdmd-card-good">
               <h3>41-State Coverage</h3>
@@ -258,7 +258,7 @@ export default function UninsuredAffordableCarePage() {
           <div className="tdmd-price-grid">
             <div className="tdmd-price-card" aria-label="TeleDirectMD pricing">
               <h3>TeleDirectMD Video Visit</h3>
-              <p className="tdmd-price-big">$49</p>
+              <p className="tdmd-price-big">$79</p>
               <p className="tdmd-price-sub">Self-pay starting price per visit</p>
               <ul className="tdmd-price-includes">
                 <li>Board-certified physician consultation</li>
@@ -272,7 +272,7 @@ export default function UninsuredAffordableCarePage() {
               <h3>How We Compare</h3>
               <p className="tdmd-price-caption">Typical costs without insurance. Actual costs vary by location and condition.</p>
               <div className="tdmd-bar-row">
-                <div className="tdmd-bar-label"><span>TeleDirectMD</span><span>$49</span></div>
+                <div className="tdmd-bar-label"><span>TeleDirectMD</span><span>$79</span></div>
                 <div className="tdmd-bar-track"><div className="tdmd-bar-fill tdmd-bar-fill-tdmd" style={{ '--w': 10 }} /></div>
               </div>
               <div className="tdmd-bar-row">
@@ -331,7 +331,7 @@ export default function UninsuredAffordableCarePage() {
               <div className="tdmd-decision-number">1</div>
               <div className="tdmd-decision-content">
                 <h3>Request a Visit</h3>
-                <p>Go to TeleDirectMD.com on your smartphone and request a visit. No app download needed. You'll see the $49 cost before you confirm — no surprises. Tell us your symptoms and which state you're located in. Takes about 2 minutes.</p>
+                <p>Go to TeleDirectMD.com on your smartphone and request a visit. No app download needed. You'll see the $79 cost before you confirm — no surprises. Tell us your symptoms and which state you're located in. Takes about 2 minutes.</p>
               </div>
             </div>
             <div className="tdmd-decision-step tdmd-decision-step-good">
@@ -396,7 +396,7 @@ export default function UninsuredAffordableCarePage() {
         <div className="tdmd-container">
           <div className="tdmd-bottom-cta">
             <div className="tdmd-bottom-cta-copy">
-              <h3>See a board-certified physician today — starting at $49, no insurance required.</h3>
+              <h3>See a board-certified physician today — starting at $79, no insurance required.</h3>
               <p>Request a same-day visit from your phone. Know your cost before you book. Prescriptions sent to any pharmacy in the U.S.</p>
             </div>
             <div className="tdmd-bottom-cta-actions">

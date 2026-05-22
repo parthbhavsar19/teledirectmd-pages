@@ -255,7 +255,7 @@ const sections = [
           <>
             <p>
               TeleDirectMD is physician-led and focused on direct access — no subscription fees, no
-              membership, and no waiting rooms. Our flat-rate <strong>$49</strong> self-pay video
+              membership, and no waiting rooms. Our flat-rate <strong>$79</strong> self-pay video
               visit keeps pricing transparent, and we now accept select insurance plans in a
               growing number of states.
             </p>
@@ -495,7 +495,7 @@ const sections = [
         a: (
           <>
             <p>
-              A TeleDirectMD video visit costs a flat <strong>$49</strong> with no hidden fees —
+              A TeleDirectMD video visit costs a flat <strong>$79</strong> with no hidden fees —
               this includes the physician consultation, any prescriptions sent to your pharmacy, and
               a work or school excuse note if needed.
             </p>
@@ -728,7 +728,7 @@ export default function FAQClient() {
 
           <div className="faq-hero-ctas">
             <Link href="/book-online" className="faq-btn faq-btn-primary">
-              Book a Visit — $49
+              Book a Visit — $79
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" width="18" height="18"><line x1="5" y1="12" x2="19" y2="12" /><polyline points="12 5 19 12 12 19" /></svg>
             </Link>
             <Link href="/insurance" className="faq-btn faq-btn-secondary">
@@ -826,7 +826,7 @@ export default function FAQClient() {
             Book a visit with a licensed physician today, or reach out — we&apos;re happy to help.
           </p>
           <Link href="/book-online" className="faq-bottom-cta">
-            Book a Visit — $49
+            Book a Visit — $79
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" width="20" height="20"><line x1="5" y1="12" x2="19" y2="12" /><polyline points="12 5 19 12 12 19" /></svg>
           </Link>
           <div className="faq-bottom-features">
@@ -853,7 +853,7 @@ export default function FAQClient() {
       {/* ── Mobile fixed CTA ── */}
       <div className="faq-mobile-cta">
         <Link href="/book-online">
-          Book a Visit — $49
+          Book a Visit — $79
         </Link>
       </div>
     </div>

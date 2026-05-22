@@ -177,7 +177,7 @@ const CONDITION_SLUGS = {
 
 const WHY_FEATURES = [
   { title: 'Board-Certified MD', desc: 'Every visit is with Dr. Parth Bhavsar, a licensed family medicine physician.', icon: 'doctor', img: '/images/why/why-board-certified.png' },
-  { title: '$49 Flat Fee', desc: 'One transparent price. No surprise bills, no co-pays, no hidden charges.', icon: 'dollar', img: '/images/why/why-flat-fee.png' },
+  { title: '$79 Flat Fee', desc: 'One transparent price. No surprise bills, no co-pays, no hidden charges.', icon: 'dollar', img: '/images/why/why-flat-fee.png' },
   { title: '40+ States', desc: 'Licensed in 41 states + DC — 42 coverage areas across the U.S.', icon: 'map', img: '/images/why/why-states.png' },
   { title: 'LegitScript Certified', desc: 'Verified by LegitScript for safe, compliant telehealth prescribing.', icon: 'shield', img: '/images/why/why-legitscript.png' },
   { title: 'Fast Prescriptions', desc: 'Rx sent to your pharmacy — often within an hour of your visit.', icon: 'rx', img: '/images/why/why-fast-rx.png' },
@@ -419,7 +419,7 @@ function useCountDown(from, to, duration = 2000) {
         const step = (now) => {
           const elapsed = now - start;
           const pct = Math.min(elapsed / duration, 1);
-          // ease-out cubic — fast drop at start, dramatic slow-down near $49
+          // ease-out cubic — fast drop at start, dramatic slow-down near $79
           const eased = 1 - Math.pow(1 - pct, 3);
           setCount(Math.round(from - eased * delta));
           if (pct < 1) requestAnimationFrame(step);
@@ -495,7 +495,7 @@ function StickyHowItWorks() {
               </div>
             </div>
             <div style={{ textAlign: 'center', marginTop: 40 }}>
-              <a href="/book-online" className="hp-btn hp-btn-primary">Book Your $49 Visit</a>
+              <a href="/book-online" className="hp-btn hp-btn-primary">Book Your $79 Visit</a>
             </div>
           </div>
         </div>
@@ -510,8 +510,8 @@ function StickyHowItWorks() {
    ============================ */
 function StickyWhySection() {
   const { containerRef, activeIndex } = useStickyScroll(6, { scrollPerItem: 115 });
-  // Static $49 — countdown caused confusion on mobile (screenshot mid-animation showed $932)
-  const whyPriceCountdown = { count: 49, ref: null };
+  // Static $79 — countdown caused confusion on mobile (showed mid-animation values like $932)
+  const whyPriceCountdown = { count: 79, ref: null };
 
   return (
     <section className="hp-why hp-section">
@@ -541,7 +541,7 @@ function StickyWhySection() {
               ))}
             </div>
             <div style={{ textAlign: 'center' }}>
-              <a href="/book-online" className="hp-btn hp-btn-primary">Book a $49 MD Visit</a>
+              <a href="/book-online" className="hp-btn hp-btn-primary">Book a $79 MD Visit</a>
             </div>
           </div>
         </div>
@@ -562,7 +562,7 @@ export default function HomepageClient() {
   const stateCounter = useCountUp(42, 1500);
   const conditionCounter = useCountUp(60, 1200);
   const ratingCounter = useCountUp(49, 1000); // 4.9 -> we'll display as 4.9
-  const priceCountdown = { count: 49, ref: null }; // Static — countdown mid-animation showed wrong values on mobile
+  const priceCountdown = { count: 79, ref: null }; // Static — countdown mid-animation showed wrong values on mobile
 
   // Load the canvas hero animation script after mount
   useEffect(() => {
@@ -605,16 +605,16 @@ export default function HomepageClient() {
             <rect x="60" y="160" width="3" height="20" rx="1.5" fill="#FF5A36" opacity="0.05" transform="rotate(-20 61.5 170)"/>
           </svg>
         </div>
-        <h1 className="hp-visually-hidden">Board-Certified Online Doctor Visits &mdash; $49 Flat Fee, No Subscription, 41 States</h1>
+        <h1 className="hp-visually-hidden">Board-Certified Online Doctor Visits &mdash; $79 Flat Fee, No Subscription, 41 States</h1>
         <div id="tmd-root">
           <div id="tmd-wrap-d">
             <canvas id="tmd-c"></canvas>
-            <button className="tmd-cta" id="tmd-cta-d">Book Your $49 Visit →</button>
+            <button className="tmd-cta" id="tmd-cta-d">Book Your $79 Visit →</button>
             <button className="tmd-replay" id="tmd-replay-d">↺ replay</button>
           </div>
           <div id="tmd-wrap-m">
             <canvas id="tmd-cm"></canvas>
-            <button className="tmd-cta" id="tmd-cta-m">Book Your $49 Visit →</button>
+            <button className="tmd-cta" id="tmd-cta-m">Book Your $79 Visit →</button>
             <button className="tmd-replay" id="tmd-replay-m">↺ replay</button>
           </div>
         </div>
@@ -721,7 +721,7 @@ export default function HomepageClient() {
             <h2 className="hp-section-title hp-animate hp-fade-up">Now accepting major insurance</h2>
             <p className="hp-section-sub hp-animate hp-fade-up" style={{ maxWidth: '480px', margin: '0.75rem auto 0' }}>
               Aetna, Anthem Blue Cross Blue Shield, and UnitedHealthcare accepted in select states.
-              Cash pay always available at $49 flat.
+              Cash pay always available at $79 flat.
             </p>
           </div>
           <div className="hp-insurance-grid hp-stagger">

@@ -20,8 +20,8 @@ const PHYSICIAN = {
 const CA_PAYORS = [
   { name: 'Aetna', status: 'Active', effective: 'April 30, 2026', inNetwork: true, notes: 'Commercial plans. In-network as of April 30, 2026.' },
   { name: 'UnitedHealthcare Commercial', status: 'Approved', effective: 'May 29, 2026', inNetwork: true, notes: 'Commercial + Medicare Advantage. Excludes Medi-Cal, Individual Exchange, Navigate/Charter/Core.' },
-  { name: 'Anthem Blue Cross', status: 'Pending', effective: 'Pending', inNetwork: false, notes: 'Enrollment pending. Self pay ($49) available.' },
-  { name: 'Cigna', status: 'Pending', effective: 'Pending', inNetwork: false, notes: 'Telehealth Only review in progress. Self pay ($49) available.' },
+  { name: 'Anthem Blue Cross', status: 'Pending', effective: 'Pending', inNetwork: false, notes: 'Enrollment pending. Self pay ($79) available.' },
+  { name: 'Cigna', status: 'Pending', effective: 'Pending', inNetwork: false, notes: 'Telehealth Only review in progress. Self pay ($79) available.' },
   { name: 'Kaiser Permanente', status: 'Closed system', effective: '—', inNetwork: false, notes: 'Closed system. Use Kaiser telehealth at kp.org.' },
   { name: 'Medi-Cal', status: 'Not enrolled', effective: '—', inNetwork: false, notes: 'Not enrolled. Find Medi-Cal providers at dhcs.ca.gov.' },
 ];
@@ -45,7 +45,7 @@ const CA_SIBLINGS = [
 
 const FAQ_ITEMS = [
   { question: 'Can I get BV treatment online in California?',
-    answer: (<p>Yes. <a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=2290.5.&lawCode=BPC" rel="noopener" target="_blank">California Business and Professions Code Section 2290.5</a> — the Telehealth Advancement Act — permits California-licensed physicians to diagnose and treat bacterial vaginosis (BV) by synchronous video visit. The <a href="https://www.mbc.ca.gov/Resources/Medical-Resources/telehealth.aspx" rel="noopener" target="_blank">Medical Board of California</a> holds telehealth physicians to the same standard of care as in-person physicians. Classic BV — thin grayish-white discharge with fishy odor, minimal itching, negative for STI symptoms — can be reliably evaluated by detailed symptom history. Per the <a href="https://www.cdc.gov/std/treatment-guidelines/bv.htm" rel="noopener" target="_blank">CDC STI Treatment Guidelines 2021</a>, metronidazole 500 mg twice daily × 7 days or metronidazole vaginal gel 0.75% × 5 days are the recommended first-line treatments. TeleDirectMD self pay is $49. Aetna is in-network as of April 30, 2026.</p>),
+    answer: (<p>Yes. <a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=2290.5.&lawCode=BPC" rel="noopener" target="_blank">California Business and Professions Code Section 2290.5</a> — the Telehealth Advancement Act — permits California-licensed physicians to diagnose and treat bacterial vaginosis (BV) by synchronous video visit. The <a href="https://www.mbc.ca.gov/Resources/Medical-Resources/telehealth.aspx" rel="noopener" target="_blank">Medical Board of California</a> holds telehealth physicians to the same standard of care as in-person physicians. Classic BV — thin grayish-white discharge with fishy odor, minimal itching, negative for STI symptoms — can be reliably evaluated by detailed symptom history. Per the <a href="https://www.cdc.gov/std/treatment-guidelines/bv.htm" rel="noopener" target="_blank">CDC STI Treatment Guidelines 2021</a>, metronidazole 500 mg twice daily × 7 days or metronidazole vaginal gel 0.75% × 5 days are the recommended first-line treatments. TeleDirectMD self pay is $79. Aetna is in-network as of April 30, 2026.</p>),
   },
   { question: 'What causes bacterial vaginosis (BV)?',
     answer: (<p>BV is caused by a disruption of the normal vaginal microbiome — a shift from <em>Lactobacillus</em>-dominant flora to a polymicrobial environment including <em>Gardnerella vaginalis</em>, <em>Prevotella</em> species, <em>Mycoplasma hominis</em>, and other anaerobes. According to the <a href="https://www.cdc.gov/std/treatment-guidelines/bv.htm" rel="noopener" target="_blank">CDC STI Treatment Guidelines 2021</a>, BV is not definitively classified as an STI, though sexual activity is associated with altered vaginal flora. Risk factors include new or multiple sexual partners, douching (which disrupts flora), and lack of Lactobacillus-dominant flora.</p>),
@@ -66,10 +66,10 @@ const FAQ_ITEMS = [
     answer: (<p>Yes. <a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=10123.85.&lawCode=INS" rel="noopener" target="_blank">California Insurance Code §10123.85</a> (AB 744, 2019) requires commercial health plans to reimburse telehealth on the same basis as in-person services. Parity applies when TeleDirectMD is in-network with your plan. Aetna (active April 30, 2026) and UnitedHealthcare Commercial (approved May 29, 2026) are currently in-network in California. Anthem Blue Cross and Cigna enrollments are pending.</p>),
   },
   { question: 'Is Aetna in-network with TeleDirectMD in California for BV treatment?',
-    answer: (<p>Aetna became an active in-network payor for TeleDirectMD in California effective April 30, 2026. If you hold an Aetna commercial plan in California, you may be able to use your in-network benefits. Always verify current in-network status directly with Aetna before your visit, as plan eligibility varies. Self pay ($49) is available regardless of insurance status. See <a href="/insurance">all insurance options</a>.</p>),
+    answer: (<p>Aetna became an active in-network payor for TeleDirectMD in California effective April 30, 2026. If you hold an Aetna commercial plan in California, you may be able to use your in-network benefits. Always verify current in-network status directly with Aetna before your visit, as plan eligibility varies. Self pay ($79) is available regardless of insurance status. See <a href="/insurance">all insurance options</a>.</p>),
   },
   { question: 'Will Medi-Cal cover BV treatment at TeleDirectMD?',
-    answer: (<p>TeleDirectMD is not currently enrolled as a Medi-Cal rendering provider. <a href="https://www.dhcs.ca.gov/provgovpart/Pages/TelehealthFAQ.aspx" rel="noopener" target="_blank">California DHCS</a> confirms that Medi-Cal covers telehealth for physical health services when the provider is enrolled. If you have Medi-Cal, use the $49 self-pay option or find a Medi-Cal-enrolled provider through your managed care plan or DHCS directory. <a href="https://www.plannedparenthood.org/get-care" rel="noopener" target="_blank">Planned Parenthood California</a> and California Title X clinics provide free or low-cost BV testing and treatment.</p>),
+    answer: (<p>TeleDirectMD is not currently enrolled as a Medi-Cal rendering provider. <a href="https://www.dhcs.ca.gov/provgovpart/Pages/TelehealthFAQ.aspx" rel="noopener" target="_blank">California DHCS</a> confirms that Medi-Cal covers telehealth for physical health services when the provider is enrolled. If you have Medi-Cal, use the $79 self-pay option or find a Medi-Cal-enrolled provider through your managed care plan or DHCS directory. <a href="https://www.plannedparenthood.org/get-care" rel="noopener" target="_blank">Planned Parenthood California</a> and California Title X clinics provide free or low-cost BV testing and treatment.</p>),
   },
   { question: 'Can BV come back after treatment?',
     answer: (<p>Yes. Recurrent BV is common — approximately 30% of women experience recurrence within 3 months of treatment, per the <a href="https://www.cdc.gov/std/treatment-guidelines/bv.htm" rel="noopener" target="_blank">CDC</a>. Factors contributing to recurrence include disruption of Lactobacillus-dominant flora (douching, antibiotic use, new sexual partners) and partner reinfection. For recurrent BV, extended suppressive therapy with metronidazole vaginal gel twice weekly for 4–6 months may be appropriate — this warrants in-person evaluation and culture. TeleDirectMD can treat acute episodes but recommends in-person evaluation for RVVC workup after multiple recurrences.</p>),
@@ -89,7 +89,7 @@ function buildSchemas() {
   const medicalWebPage = {
     '@context': 'https://schema.org', '@type': 'MedicalWebPage',
     name: PAGE_TITLE, url: PAGE_URL,
-    description: 'BV (bacterial vaginosis) treatment by secure video visit for California adults. Board-certified Family Medicine physician. CDC-guideline treatment. Aetna in-network. Self pay $49.',
+    description: 'BV (bacterial vaginosis) treatment by secure video visit for California adults. Board-certified Family Medicine physician. CDC-guideline treatment. Aetna in-network. Self pay $79.',
     datePublished: DATE_PUBLISHED, dateModified: DATE_MODIFIED, inLanguage: 'en-US',
     about: { '@type': 'MedicalCondition', name: 'Bacterial Vaginosis', alternateName: ['BV', 'Vaginal Bacteriosis'], code: { '@type': 'MedicalCode', code: 'N76.0', codingSystem: 'ICD-10-CM' } },
     medicalAudience: { '@type': 'MedicalAudience', audienceType: 'Patient', geographicArea: { '@type': 'AdministrativeArea', name: 'California' } },
@@ -97,7 +97,7 @@ function buildSchemas() {
     speakable: { '@type': 'SpeakableSpecification', cssSelector: ['#ca-bv-opening', '#ca-bv-opening p', '.tdmd-ca-bv__byline', '#ca-bv-treatment-online-faq'] },
   };
   const faqPage = { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: FAQ_ITEMS.map((faq) => ({ '@type': 'Question', name: faq.question, acceptedAnswer: { '@type': 'Answer', text: extractPlain(faq.answer) } })) };
-  const howTo = { '@context': 'https://schema.org', '@type': 'HowTo', name: 'How to Get BV Treatment Online in California', description: 'Three steps to receive BV evaluation and metronidazole prescription from a California-licensed physician.', totalTime: 'PT30M', estimatedCost: { '@type': 'MonetaryAmount', currency: 'USD', value: '49' }, step: [{ '@type': 'HowToStep', position: 1, name: 'Book your video visit', text: 'Visit teledirectmd.com and select California BV treatment. Self pay $49.', url: 'https://teledirectmd.com/book-online' }, { '@type': 'HowToStep', position: 2, name: 'See a California-licensed MD', text: 'Physician reviews symptoms, prior BV history, and conducts red-flag screening per CDC guidelines.', url: PAGE_URL }, { '@type': 'HowToStep', position: 3, name: 'Receive e-prescription', text: 'If appropriate, e-prescription sent to your California pharmacy under AB 2789.', url: PAGE_URL }] };
+  const howTo = { '@context': 'https://schema.org', '@type': 'HowTo', name: 'How to Get BV Treatment Online in California', description: 'Three steps to receive BV evaluation and metronidazole prescription from a California-licensed physician.', totalTime: 'PT30M', estimatedCost: { '@type': 'MonetaryAmount', currency: 'USD', value: '79' }, step: [{ '@type': 'HowToStep', position: 1, name: 'Book your video visit', text: 'Visit teledirectmd.com and select California BV treatment. Self pay $79.', url: 'https://teledirectmd.com/book-online' }, { '@type': 'HowToStep', position: 2, name: 'See a California-licensed MD', text: 'Physician reviews symptoms, prior BV history, and conducts red-flag screening per CDC guidelines.', url: PAGE_URL }, { '@type': 'HowToStep', position: 3, name: 'Receive e-prescription', text: 'If appropriate, e-prescription sent to your California pharmacy under AB 2789.', url: PAGE_URL }] };
   const breadcrumb = { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [{ '@type': 'ListItem', position: 1, name: 'TeleDirectMD', item: 'https://teledirectmd.com' }, { '@type': 'ListItem', position: 2, name: 'California', item: 'https://teledirectmd.com/ca/' }, { '@type': 'ListItem', position: 3, name: 'BV Treatment Online in California', item: PAGE_URL }] };
   return [medicalWebPage, faqPage, howTo, breadcrumb];
 }
@@ -136,7 +136,7 @@ export default function CaBvTreatmentOnline() {
             <div className="tdmd-hero-grid">
               <div className="tdmd-hero-copy">
                 <h1 data-speakable="true">BV Treatment Online in California (Bacterial Vaginosis)</h1>
-                <p className="tdmd-hero-sub" data-speakable="true">California adults: board-certified MD by secure video. Self pay $49 · Aetna in-network · UHC Commercial approved · CA B&amp;P §2290.5 compliant.</p>
+                <p className="tdmd-hero-sub" data-speakable="true">California adults: board-certified MD by secure video. Self pay $79 · Aetna in-network · UHC Commercial approved · CA B&amp;P §2290.5 compliant.</p>
                 <p>Bacterial vaginosis (BV) is the most common vaginal infection in reproductive-age women, affecting approximately 29% of women aged 14–49 in the United States according to the <a href="https://www.cdc.gov/std/treatment-guidelines/bv.htm" rel="noopener" target="_blank">Centers for Disease Control and Prevention</a>. BV results from a disruption of the normal <em>Lactobacillus</em>-dominant vaginal flora, replaced by overgrowth of <em>Gardnerella vaginalis</em> and other anaerobes. Classic symptoms include thin, grayish-white discharge with a fishy odor that is often most noticeable after sex — distinct from the thick, white, odorless discharge of a yeast infection. TeleDirectMD screens for red-flag symptoms — fever, pelvic pain, possible STI exposure, pregnancy — before determining whether video treatment is appropriate for California adults in {caCities.join(', ')}, and surrounding areas.</p>
 
                 <div className="tdmd-ca-bv__byline" aria-label="Reviewed by physician">
@@ -159,7 +159,7 @@ export default function CaBvTreatmentOnline() {
                 </ul>
 
                 <ul className="tdmd-hero-benefits">
-                  <li>Self pay $49 — no insurance required</li>
+                  <li>Self pay $79 — no insurance required</li>
                   <li>MD-only care — no mid-levels</li>
                   <li>Aetna in-network (effective April 30, 2026)</li>
                   <li>UnitedHealthcare Commercial approved (effective May 29, 2026)</li>
@@ -167,7 +167,7 @@ export default function CaBvTreatmentOnline() {
                 </ul>
 
                 <div className="tdmd-hero-ctas">
-                  <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit — $49</a>
+                  <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
                   <a href="/ca/" className="tdmd-btn tdmd-btn-outline">Explore California Pages</a>
                   <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All Conditions</a>
                 </div>
@@ -196,7 +196,7 @@ export default function CaBvTreatmentOnline() {
           <div className="tdmd-container">
             <div className="tdmd-condition-opener" id="ca-bv-opening">
               <h2>Can I Get BV Treatment Online in California?</h2>
-              <p><strong>Yes.</strong> <a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=2290.5.&lawCode=BPC" rel="noopener" target="_blank">California B&amp;P Code §2290.5</a> permits California-licensed physicians to treat bacterial vaginosis by synchronous video visit without a prior in-person examination. The <a href="https://www.mbc.ca.gov/Resources/Medical-Resources/telehealth.aspx" rel="noopener" target="_blank">Medical Board of California</a> holds telehealth physicians to the same standard of care as in-person physicians. Classic BV symptoms — thin grayish-white discharge with fishy odor, elevated vaginal pH, minimal itching — can be assessed by careful history, particularly in adults with prior confirmed BV diagnosis. Per the <a href="https://www.cdc.gov/std/treatment-guidelines/bv.htm" rel="noopener" target="_blank">CDC STI Treatment Guidelines 2021</a>, first-line treatment is metronidazole 500 mg orally twice daily × 7 days or metronidazole gel 0.75% × 5 days. Self pay is $49. Aetna is in-network as of April 30, 2026.</p>
+              <p><strong>Yes.</strong> <a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=2290.5.&lawCode=BPC" rel="noopener" target="_blank">California B&amp;P Code §2290.5</a> permits California-licensed physicians to treat bacterial vaginosis by synchronous video visit without a prior in-person examination. The <a href="https://www.mbc.ca.gov/Resources/Medical-Resources/telehealth.aspx" rel="noopener" target="_blank">Medical Board of California</a> holds telehealth physicians to the same standard of care as in-person physicians. Classic BV symptoms — thin grayish-white discharge with fishy odor, elevated vaginal pH, minimal itching — can be assessed by careful history, particularly in adults with prior confirmed BV diagnosis. Per the <a href="https://www.cdc.gov/std/treatment-guidelines/bv.htm" rel="noopener" target="_blank">CDC STI Treatment Guidelines 2021</a>, first-line treatment is metronidazole 500 mg orally twice daily × 7 days or metronidazole gel 0.75% × 5 days. Self pay is $79. Aetna is in-network as of April 30, 2026.</p>
               <small className="tdmd-condition-opener__meta">Reviewed by <a href="/about/">Parth Bhavsar, MD</a> · Board-Certified Family Medicine · NPI 1104323203 · Licensed in California · Last reviewed May 20, 2026</small>
             </div>
           </div>
@@ -264,7 +264,7 @@ export default function CaBvTreatmentOnline() {
             <div className="tdmd-decision-flow">
               <div className="tdmd-decision-step tdmd-decision-step-check">
                 <div className="tdmd-decision-number">1</div>
-                <div className="tdmd-decision-content"><h3>Book your California video visit</h3><p>No referral required. Self pay $49. Before your visit, note your symptoms, prior BV history, current medications, pregnancy status, and recent sexual health history.</p></div>
+                <div className="tdmd-decision-content"><h3>Book your California video visit</h3><p>No referral required. Self pay $79. Before your visit, note your symptoms, prior BV history, current medications, pregnancy status, and recent sexual health history.</p></div>
               </div>
               <div className="tdmd-decision-step tdmd-decision-step-check">
                 <div className="tdmd-decision-number">2</div>
@@ -282,14 +282,14 @@ export default function CaBvTreatmentOnline() {
         <section className="tdmd-section tdmd-section-highlight" id={`${pid}-cost`}>
           <div className="tdmd-container">
             <h2>BV Treatment Cost &amp; Insurance in California</h2>
-            <p>TeleDirectMD&apos;s self-pay rate is <strong>$49</strong>. In-network insurance patients pay their plan&apos;s telehealth copay.</p>
+            <p>TeleDirectMD&apos;s self-pay rate is <strong>$79</strong>. In-network insurance patients pay their plan&apos;s telehealth copay.</p>
             <div className="tdmd-price-grid">
-              <div className="tdmd-price-card"><h3>TeleDirectMD Video Visit</h3><p className="tdmd-price-big">$49</p><p className="tdmd-price-sub">Self-pay flat fee — no subscription</p><ul className="tdmd-price-includes"><li>Board-certified MD evaluation</li><li>Red-flag STI and pregnancy screening</li><li>e-Prescription to your CA pharmacy</li><li>Recurrence prevention guidance</li></ul></div>
+              <div className="tdmd-price-card"><h3>TeleDirectMD Video Visit</h3><p className="tdmd-price-big">$79</p><p className="tdmd-price-sub">Self-pay flat fee — no subscription</p><ul className="tdmd-price-includes"><li>Board-certified MD evaluation</li><li>Red-flag STI and pregnancy screening</li><li>e-Prescription to your CA pharmacy</li><li>Recurrence prevention guidance</li></ul></div>
               <div className="tdmd-price-chart" role="group" aria-label="BV cost comparison">
                 <h3>Typical BV Treatment Cost in California</h3>
                 <p className="tdmd-price-caption">Before insurance. Actual costs vary by location.</p>
                 <div className="tdmd-vbars" role="list">
-                  {[{ name: 'TeleDirectMD', value: '$49', heightPct: 8, isTdmd: true }, { name: 'Other telehealth', value: '$75–$150', heightPct: 22 }, { name: 'Urgent care', value: '$150–$300', heightPct: 45 }, { name: 'ER visit', value: '$500–$3,000+', heightPct: 100 }].map((bar, i) => (
+                  {[{ name: 'TeleDirectMD', value: '$79', heightPct: 13, isTdmd: true }, { name: 'Other telehealth', value: '$75–$150', heightPct: 22 }, { name: 'Urgent care', value: '$150–$300', heightPct: 45 }, { name: 'ER visit', value: '$500–$3,000+', heightPct: 100 }].map((bar, i) => (
                     <div key={i} className="tdmd-vbar" role="listitem"><span className="tdmd-vbar__value">{bar.value}</span><div className={`tdmd-vbar__fill${bar.isTdmd ? ' tdmd-vbar__fill--tdmd' : ''}`} style={{ height: `${bar.heightPct}%` }} aria-hidden="true" /><span className={`tdmd-vbar__label${bar.isTdmd ? ' tdmd-vbar__label--tdmd' : ''}`}>{bar.name}</span></div>
                   ))}
                 </div>
@@ -340,7 +340,7 @@ export default function CaBvTreatmentOnline() {
                   <li>Prior confirmed BV diagnosis with same symptoms</li>
                   <li>No fever, pelvic pain, or STI exposure</li>
                   <li>Not pregnant; adult 18+, in California</li>
-                  <li>Aetna/UHC Commercial or self pay $49</li>
+                  <li>Aetna/UHC Commercial or self pay $79</li>
                 </ul>
               </div>
               <div className="tdmd-ca-bv__dual-card tdmd-ca-bv__dual-card--alert">
@@ -361,7 +361,7 @@ export default function CaBvTreatmentOnline() {
         <section className="tdmd-section" aria-label="Book a visit">
           <div className="tdmd-container">
             <div className="tdmd-ca-bv__cta-strip" role="complementary">
-              <div><p>Book a same-day video visit — California adults, 18+</p><small>Self pay $49 · Aetna in-network · UHC Commercial approved May 2026</small></div>
+              <div><p>Book a same-day video visit — California adults, 18+</p><small>Self pay $79 · Aetna in-network · UHC Commercial approved May 2026</small></div>
               <a className="tdmd-ca-bv__cta-btn" href="/book-online" rel="noopener">Book Now →</a>
             </div>
           </div>
@@ -370,7 +370,7 @@ export default function CaBvTreatmentOnline() {
         <section className="tdmd-section tdmd-faq" id={`${pid}-faq`}>
           <div className="tdmd-container">
             <FaqAccordion sectionTitle="Frequently Asked Questions — BV Treatment in California" items={FAQ_ITEMS.map((f, i) => ({ ...f, id: `${pid}-faq-${i}` }))} />
-            <div className="tdmd-bottom-cta"><div className="tdmd-bottom-cta-copy"><h3>Ready to see a California-licensed MD?</h3><p>Book a same-day video visit. Self pay $49 · Aetna in-network · UHC Commercial approved.</p></div><div className="tdmd-bottom-cta-actions"><a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a><a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All Conditions</a></div></div>
+            <div className="tdmd-bottom-cta"><div className="tdmd-bottom-cta-copy"><h3>Ready to see a California-licensed MD?</h3><p>Book a same-day video visit. Self pay $79 · Aetna in-network · UHC Commercial approved.</p></div><div className="tdmd-bottom-cta-actions"><a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a><a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All Conditions</a></div></div>
           </div>
         </section>
 

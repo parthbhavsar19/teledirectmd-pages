@@ -18,7 +18,7 @@ export default function NationalConditionPage({ conditionSlug }) {
 
   const nationalH1 = condition.hero.h1;
 
-  const nationalSubtitle = 'Nationwide adult care by secure video visit, self pay option starting at $49, MD-only. Insurance is not required but select plans are accepted.';
+  const nationalSubtitle = 'Nationwide adult care by secure video visit, self pay option starting at $79, MD-only. Insurance is not required but select plans are accepted.';
 
   /* National intro — replace residual state-specific text with national copy */
   const nationalIntro = condition.hero.introParagraph
@@ -85,7 +85,7 @@ export default function NationalConditionPage({ conditionSlug }) {
             {condition.conditionName} online telemedicine:
           </p>
           <p style={{ margin: '0.35rem 0 0', color: '#003E52', fontSize: '0.97rem' }}>
-            TeleDirectMD offers same-day video visits with a board-certified MD for {condition.conditionName.toLowerCase()} in 40+ states, starting at $49. A physician evaluates your symptoms, confirms the diagnosis, and sends a prescription to your preferred pharmacy — no waiting room, no referral required. Select your state below to see your state-specific page.
+            TeleDirectMD offers same-day video visits with a board-certified MD for {condition.conditionName.toLowerCase()} in 40+ states, starting at $79. A physician evaluates your symptoms, confirms the diagnosis, and sends a prescription to your preferred pharmacy — no waiting room, no referral required. Select your state below to see your state-specific page.
           </p>
         </div>
       </div>
@@ -641,7 +641,7 @@ export default function NationalConditionPage({ conditionSlug }) {
           <section className="tdmd-section" id={`${pid}-insurance-coverage`}>
             <div className="tdmd-container" data-speakable="true">
               <h2>Insurance Coverage for {condition.conditionName}</h2>
-              <p>TeleDirectMD is in-network with major insurers for {condition.conditionName.toLowerCase()} telemedicine visits. Your standard copay applies in place of the $49 self-pay fee.</p>
+              <p>TeleDirectMD is in-network with major insurers for {condition.conditionName.toLowerCase()} telemedicine visits. Your standard copay applies in place of the $79 self-pay fee.</p>
               <div style={{ display: 'grid', gap: '1rem', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', marginTop: '1rem' }}>
                 {insurerLinks.map((link) => (
                   <div key={link.slug} style={{ border: '1px solid var(--tdmd-border, #E5E7EB)', borderRadius: '0.5rem', padding: '1.25rem' }}>
@@ -726,7 +726,7 @@ export default function NationalConditionPage({ conditionSlug }) {
             </a>
             <a className="tdmd-related-card" role="listitem" href="/who-we-serve/uninsured-affordable-care/">
               <span className="tdmd-related-title">Uninsured & Self-Pay</span>
-              <span className="tdmd-related-desc">$49 visits with no insurance required</span>
+              <span className="tdmd-related-desc">$79 visits with no insurance required</span>
             </a>
             <a className="tdmd-related-card" role="listitem" href="/who-we-serve/remote-workers/">
               <span className="tdmd-related-title">Remote Workers</span>

@@ -25,8 +25,8 @@ export function WhatDoesThisCostBlock({ conditionSlug, conditionName, stateName 
     ? `What does ${phrase} cost${where}?`
     : `What does an online doctor visit${where} cost?`;
   const body = link.isCondition
-    ? `A telehealth visit at TeleDirectMD is $49 flat. With a generic prescription via GoodRx, most patients pay $50–$115 total — a fraction of in-person urgent care. See the full breakdown by care setting on our cost guide.`
-    : `TeleDirectMD\'s $49 flat rate is up to 5× cheaper than an in-person urgent care visit and ~18× cheaper than an uninsured ER visit. See verified 2026 cash-pay prices across every care setting.`;
+    ? `A telehealth visit at TeleDirectMD is $79 flat. With a generic prescription via GoodRx, most patients pay $80–$145 total — a fraction of in-person urgent care. See the full breakdown by care setting on our cost guide.`
+    : `TeleDirectMD\'s $79 flat rate is up to 3× cheaper than an in-person urgent care visit and ~11× cheaper than an uninsured ER visit. See verified 2026 cash-pay prices across every care setting.`;
 
   return (
     <section className="tdmd-section" id={`cost-cta-${conditionSlug || 'default'}`}>
@@ -69,7 +69,7 @@ export function CompareToOtherTelehealthGrid({ heading } = {}) {
     <section className="tdmd-section" id="compare-other-telehealth">
       <div className="tdmd-container" data-speakable="true">
         <h2>{heading || 'Compare TeleDirectMD to Other Telehealth Providers'}</h2>
-        <p>Or pay $49 cash — see how TeleDirectMD\'s flat rate stacks up against the major US telehealth platforms. Side-by-side, with sources.</p>
+        <p>Or pay $79 cash — see how TeleDirectMD\'s flat rate stacks up against the major US telehealth platforms. Side-by-side, with sources.</p>
         <div className="tdmd-related-grid" style={{ marginTop: '1rem' }}>
           {COMPARE_PAGES_INDEX.map((c) => (
             <a key={c.slug} href={`/compare/${c.slug}/`} className="tdmd-related-card">
@@ -91,7 +91,7 @@ export function CompareToOtherTelehealthGrid({ heading } = {}) {
 export function Or49CashLink() {
   return (
     <p style={{ margin: '1.25rem 0 0', fontSize: '0.95rem', color: 'var(--tdmd-muted)' }}>
-      Or pay $49 cash —{' '}
+      Or pay $79 cash —{' '}
       <a href={MASTER_COST_PAGE} style={{ color: 'var(--tdmd-teal)', fontWeight: 600 }}>see the full pricing breakdown</a>
       {' '}across every care setting (TeleDirectMD vs. ER, urgent care, retail clinic, and other telehealth platforms).
     </p>
@@ -106,11 +106,11 @@ export function WhoWeServePricingCTA({ pricingHook, relatedCostPage }) {
     <section className="tdmd-section" id="cost-breakdown-cta">
       <div className="tdmd-container" data-speakable="true">
         <h2>What you\'ll actually pay</h2>
-        <p>{pricingHook || 'A flat $49 visit is up to 5× cheaper than urgent care and ~18× cheaper than an uninsured ER visit. We\'ve published the full price breakdown so you know your total cost upfront.'}</p>
+        <p>{pricingHook || 'A flat $79 visit is up to 3× cheaper than urgent care and ~11× cheaper than an uninsured ER visit. We\'ve published the full price breakdown so you know your total cost upfront.'}</p>
         <div className="tdmd-related-grid" style={{ marginTop: '0.75rem' }}>
           <a href={MASTER_COST_PAGE} className="tdmd-related-card">
             <span className="tdmd-related-title">Online Doctor Visit Cost in 2026</span>
-            <span className="tdmd-related-desc">$49 vs. $150–$280 urgent care vs. ~$2,715 ER, with sources.</span>
+            <span className="tdmd-related-desc">$79 vs. $150–$280 urgent care vs. ~$2,715 ER, with sources.</span>
           </a>
           {relatedCostPage && (
             <a href={`/cost/${relatedCostPage.slug}/`} className="tdmd-related-card">

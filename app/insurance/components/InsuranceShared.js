@@ -62,7 +62,7 @@ export function CopayCard({ insurerName, stateName, copayData, insurerColor }) {
       </div>
       <p style={{ fontSize: 13, color: B.text, lineHeight: 1.65, margin: "0 0 8px" }}>{copayData.note}</p>
       <p style={{ fontSize: 12, color: B.text, opacity: 0.7, margin: 0 }}>
-        Copay ranges are estimates based on published plan data (April 2026). Your exact cost depends on your specific plan. Verify at your {insurerName} member portal or call the number on your card before booking. Self-pay $49 flat always available.
+        Copay ranges are estimates based on published plan data (April 2026). Your exact cost depends on your specific plan. Verify at your {insurerName} member portal or call the number on your card before booking. Self-pay $79 flat always available.
       </p>
     </div>
   );
@@ -81,7 +81,7 @@ export function BookCTA({ insurerName }) {
           Board-certified physician. Same-day video visits. Prescription sent directly to your pharmacy.
         </p>
         <p style={{ fontSize:14, color:"rgba(255,255,255,0.5)", margin:"0 0 24px" }}>
-          Self-pay $49 flat fee always available — no insurance required.
+          Self-pay $79 flat fee always available — no insurance required.
         </p>
         <a href="https://www.teledirectmd.com/book-online" target="_blank" rel="noopener"
           style={{ display:"inline-flex", alignItems:"center", gap:8, padding:"14px 32px", background:B.accent, color:B.white, borderRadius:B.rs, fontWeight:700, fontSize:16, textDecoration:"none" }}>
@@ -99,7 +99,7 @@ export function BookCTA({ insurerName }) {
 export function HowItWorksSteps({ insurerName }) {
   const steps = [
     { icon: <Ico.Cal c={B.teal} s={24} />, title: "Book Your Visit Online", desc: `Go to teledirectmd.com/book-online. Select "Insurance" as your payment method. Have your ${insurerName} member ID card ready — we verify your coverage before your visit.` },
-    { icon: <Ico.Check c={B.teal} s={24} />, title: "Coverage Verified for You", desc: `We confirm your ${insurerName} benefits before you join the video call. If your specific plan isn't in-network, we'll let you know so you can choose self-pay ($49) instead.` },
+    { icon: <Ico.Check c={B.teal} s={24} />, title: "Coverage Verified for You", desc: `We confirm your ${insurerName} benefits before you join the video call. If your specific plan isn't in-network, we'll let you know so you can choose self-pay ($79) instead.` },
     { icon: <Ico.Video c={B.teal} s={24} />, title: "Video Visit with Dr. Bhavsar, MD", desc: "Connect by secure video from your phone, tablet, or computer. Dr. Bhavsar evaluates your symptoms — same clinical standard as an in-person visit, not a PA or NP." },
     { icon: <Ico.Rx c={B.teal} s={24} />, title: "Prescription Sent Instantly", desc: "If a prescription is appropriate, it's sent electronically to your preferred pharmacy the moment your visit ends. Your pharmacy benefit applies to the medication." },
   ];
@@ -335,11 +335,11 @@ export function CoverageChecker() {
                 </span>
               </div>
               <p style={{ fontSize: 14, color: B.text, margin: "0 0 14px", lineHeight: 1.65 }}>
-                TeleDirectMD is not currently in-network with {result.insurerName} in {result.stateName}. You can still see Dr. Bhavsar as a self-pay patient for a flat $49 fee — same physician, same quality, no insurance needed.
+                TeleDirectMD is not currently in-network with {result.insurerName} in {result.stateName}. You can still see Dr. Bhavsar as a self-pay patient for a flat $79 fee — same physician, same quality, no insurance needed.
               </p>
               <a href="https://www.teledirectmd.com/book-online" target="_blank" rel="noopener"
                 style={{ display: "inline-flex", alignItems: "center", gap: 6, padding: "10px 20px", background: B.accent, color: B.white, borderRadius: B.rs, fontWeight: 700, fontSize: 14, textDecoration: "none" }}>
-                Book Self-Pay — $49 Flat Fee
+                Book Self-Pay — $79 Flat Fee
               </a>
             </>
           )}
