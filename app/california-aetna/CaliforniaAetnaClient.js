@@ -43,11 +43,11 @@ const FAQS = [
   },
   {
     q: 'How much will I pay with my Aetna plan in California?',
-    a: "Most Aetna California commercial plans have telehealth copays of $10–$40. Many California employer plans carry $0 telehealth copays. Self-pay is always available at a flat $49 — same physician, same care. Log into aetna.com or call the member-services number on your card to confirm your exact cost-sharing before booking.",
+    a: "Most Aetna California commercial plans have telehealth copays of $10–$40. Many California employer plans carry $0 telehealth copays. Self-pay is always available at a flat $79 — same physician, same care. Log into aetna.com or call the member-services number on your card to confirm your exact cost-sharing before booking.",
   },
   {
     q: 'Which Aetna plans are in-network at TeleDirectMD in California?',
-    a: "Aetna commercial plans — including most employer-sponsored PPO, HMO, and individual marketplace plans — are in-network. Aetna Medicaid, Aetna Better Health (Medi-Cal), Medicare fee-for-service, and Aetna Medicare Advantage plans are NOT accepted. If your plan is not in-network, the $49 self-pay option is available with the same physician and quality of care.",
+    a: "Aetna commercial plans — including most employer-sponsored PPO, HMO, and individual marketplace plans — are in-network. Aetna Medicaid, Aetna Better Health (Medi-Cal), Medicare fee-for-service, and Aetna Medicare Advantage plans are NOT accepted. If your plan is not in-network, the $79 self-pay option is available with the same physician and quality of care.",
   },
   {
     q: 'Where in California can I use TeleDirectMD with my Aetna plan?',
@@ -63,7 +63,7 @@ const FAQS = [
   },
   {
     q: 'Can I use my Aetna FSA or HSA?',
-    a: 'Yes. Telehealth visits with a licensed physician are qualified medical expenses eligible for FSA and HSA payment. Both your insurance copay and the $49 self-pay option are FSA/HSA eligible.',
+    a: 'Yes. Telehealth visits with a licensed physician are qualified medical expenses eligible for FSA and HSA payment. Both your insurance copay and the $79 self-pay option are FSA/HSA eligible.',
   },
   {
     q: 'How do I verify my Aetna telehealth benefits before booking?',
@@ -75,11 +75,11 @@ const FAQS = [
   },
   {
     q: 'Can I use my Covered California plan?',
-    a: 'It depends on the specific carrier on your Covered California plan. <a href="https://www.coveredca.com/learning-center/information-for-existing-members/health-plans/" target="_blank" rel="noopener">Covered California</a> contracts with multiple carriers including Aetna CVS Health, Anthem Blue Cross, Blue Shield of California, Kaiser Permanente, and others. If your Covered California plan is administered by Aetna CVS Health (commercial network), TeleDirectMD is in-network. Other carriers may require self-pay at $49.',
+    a: 'It depends on the specific carrier on your Covered California plan. <a href="https://www.coveredca.com/learning-center/information-for-existing-members/health-plans/" target="_blank" rel="noopener">Covered California</a> contracts with multiple carriers including Aetna CVS Health, Anthem Blue Cross, Blue Shield of California, Kaiser Permanente, and others. If your Covered California plan is administered by Aetna CVS Health (commercial network), TeleDirectMD is in-network. Other carriers may require self-pay at $79.',
   },
   {
     q: 'What if I have an Aetna Medicare Advantage or Medi-Cal plan?',
-    a: 'TeleDirectMD does not accept Aetna Medicare Advantage, Medicare fee-for-service, or Aetna Better Health (Medi-Cal) plans at this time. Medi-Cal members can use <a href="https://www.dhcs.ca.gov/services/medi-cal/Pages/MedicalProviders.aspx" target="_blank" rel="noopener">DHCS Medi-Cal provider resources</a> to find an in-network telehealth provider. The $49 self-pay option is available to any California adult 18 or older regardless of insurance.',
+    a: 'TeleDirectMD does not accept Aetna Medicare Advantage, Medicare fee-for-service, or Aetna Better Health (Medi-Cal) plans at this time. Medi-Cal members can use <a href="https://www.dhcs.ca.gov/services/medi-cal/Pages/MedicalProviders.aspx" target="_blank" rel="noopener">DHCS Medi-Cal provider resources</a> to find an in-network telehealth provider. The $79 self-pay option is available to any California adult 18 or older regardless of insurance.',
   },
   {
     q: 'Are video visits with TeleDirectMD HIPAA-compliant?',
@@ -87,7 +87,7 @@ const FAQS = [
   },
   {
     q: 'When did the Aetna California contract become effective?',
-    a: 'TeleDirectMD became an in-network telehealth provider for Aetna commercial plans in California effective April 30, 2026. The contract covers all 58 California counties for adult (18+) telehealth visits. The clinical scope is unchanged from our $49 self-pay practice — same physician, same conditions, same same-day access; only the billing path changes.',
+    a: 'TeleDirectMD became an in-network telehealth provider for Aetna commercial plans in California effective April 30, 2026. The contract covers all 58 California counties for adult (18+) telehealth visits. The clinical scope is unchanged from our $79 self-pay practice — same physician, same conditions, same same-day access; only the billing path changes.',
   },
 ];
 
@@ -218,7 +218,7 @@ export default function CaliforniaAetnaClient() {
           TeleDirectMD is in-network with Aetna commercial plans in California (effective April 30, 2026).
           Board-certified physician Dr. Parth Bhavsar, MD, treats UTI, sinus infection, asthma refills,
           hypertension refills, and many other adult conditions via secure same-day video visits. Most Aetna
-          California members pay $10–$40 — or choose flat $49 self-pay.
+          California members pay $10–$40 — or choose flat $79 self-pay.
         </p>
         <div style={{ display: 'flex', gap: 12, flexWrap: 'wrap' }}>
           <a
@@ -267,7 +267,7 @@ export default function CaliforniaAetnaClient() {
           {[
             { label: 'In-Network Date', value: 'April 30, 2026' },
             { label: 'Typical Copay', value: '$10–$40' },
-            { label: 'Self-Pay Alternative', value: '$49 flat' },
+            { label: 'Self-Pay Alternative', value: '$79 flat' },
             { label: 'Visit Type', value: 'Secure video' },
           ].map((c) => (
             <div
@@ -477,7 +477,7 @@ export default function CaliforniaAetnaClient() {
             Book Your Aetna Telehealth Visit in California
           </h2>
           <p style={{ fontSize: 17, color: 'rgba(255,255,255,0.92)', margin: '0 0 24px' }}>
-            Same-day video visit. Board-certified MD. Your Aetna copay or $49 self-pay.
+            Same-day video visit. Board-certified MD. Your Aetna copay or $79 self-pay.
           </p>
           <a
             href="/book-online"

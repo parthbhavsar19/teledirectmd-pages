@@ -49,9 +49,9 @@ const CA_PAYORS = [
   { name: 'UnitedHealthcare Commercial', status: 'Approved', effective: 'May 29, 2026', inNetwork: true,
     notes: 'Covers UHC Commercial and Medicare Advantage. Excludes Medi-Cal, Individual Exchange, and Navigate/Charter/Core plan types.' },
   { name: 'Anthem Blue Cross', status: 'Pending', effective: 'Pending determination', inNetwork: false,
-    notes: 'Enrollment pending — self pay ($49) available.' },
+    notes: 'Enrollment pending — self pay ($79) available.' },
   { name: 'Cigna', status: 'Pending', effective: 'Pending determination', inNetwork: false,
-    notes: 'Pending — self pay ($49) available.' },
+    notes: 'Pending — self pay ($79) available.' },
   { name: 'Kaiser Permanente', status: 'Closed system', effective: '—', inNetwork: false,
     notes: 'Kaiser is a closed health system. Use Kaiser telehealth at kp.org. TeleDirectMD self pay available but Kaiser will not reimburse out-of-network visits.' },
   { name: 'Medi-Cal', status: 'Not enrolled', effective: '—', inNetwork: false,
@@ -62,7 +62,7 @@ const FAQ_ITEMS = [
   {
     id: 'seasonal-allergies-treatment-online-faq-0',
     question: "Can I get seasonal allergy treatment online in California?",
-    answer: <p>Yes. California Business and Professions Code Section 2290.5 permits licensed physicians to deliver care via synchronous video telehealth without a prior in-person visit. TeleDirectMD\'s California-licensed board-certified Family Medicine physician evaluates your symptom pattern, allergen triggers, and prior treatment response before prescribing intranasal corticosteroids, antihistamines, leukotriene receptor antagonists, or combination nasal sprays. Self pay is $49; Aetna is in-network effective April 30, 2026.</p>,
+    answer: <p>Yes. California Business and Professions Code Section 2290.5 permits licensed physicians to deliver care via synchronous video telehealth without a prior in-person visit. TeleDirectMD\'s California-licensed board-certified Family Medicine physician evaluates your symptom pattern, allergen triggers, and prior treatment response before prescribing intranasal corticosteroids, antihistamines, leukotriene receptor antagonists, or combination nasal sprays. Self pay is $79; Aetna is in-network effective April 30, 2026.</p>,
   },
   {
     id: 'seasonal-allergies-treatment-online-faq-1',
@@ -136,7 +136,7 @@ function buildSchemas() {
     '@type': 'MedicalWebPage',
     name: PAGE_TITLE,
     url: PAGE_URL,
-    description: 'Get seasonal allergy treatment online in California. Board-certified Family Medicine MD. CA telehealth law compliant. Aetna in-network. Self pay $49. AAAAI/ACAAI + ARIA-EAACI 2026 guidelines. Antihistamines, nasal steroids, immunotherapy referral.',
+    description: 'Get seasonal allergy treatment online in California. Board-certified Family Medicine MD. CA telehealth law compliant. Aetna in-network. Self pay $79. AAAAI/ACAAI + ARIA-EAACI 2026 guidelines. Antihistamines, nasal steroids, immunotherapy referral.',
     datePublished: DATE_PUBLISHED,
     dateModified: DATE_MODIFIED,
     inLanguage: 'en-US',
@@ -185,9 +185,9 @@ function buildSchemas() {
     name: 'How to Get Treatment for Seasonal Allergies Treatment Online in California',
     description: 'Three steps to receive seasonal allergies treatment evaluation and prescription from a California-licensed board-certified physician.',
     totalTime: 'PT30M',
-    estimatedCost: { '@type': 'MonetaryAmount', currency: 'USD', value: '49' },
+    estimatedCost: { '@type': 'MonetaryAmount', currency: 'USD', value: '79' },
     step: [
-      { '@type': 'HowToStep', position: 1, name: 'Book your video visit', text: 'Visit teledirectmd.com and select California Seasonal Allergies Treatment. No referral needed. Self pay $49. Many visits available same day.', url: 'https://teledirectmd.com/book-online' },
+      { '@type': 'HowToStep', position: 1, name: 'Book your video visit', text: 'Visit teledirectmd.com and select California Seasonal Allergies Treatment. No referral needed. Self pay $79. Many visits available same day.', url: 'https://teledirectmd.com/book-online' },
       { '@type': 'HowToStep', position: 2, name: 'See a California-licensed MD by secure video', text: 'Connect with a board-certified Family Medicine physician licensed in California. The physician reviews your history, current medications, lab values, and clinical status. Consent per CA B&P Section 2290.5 confirmed.', url: PAGE_URL },
       { '@type': 'HowToStep', position: 3, name: 'Receive your treatment plan and e-prescription', text: 'If medication is appropriate, a California-compliant e-prescription is sent to your chosen pharmacy during or after the visit per AB 2789. Follow-up instructions provided.', url: PAGE_URL },
     ],
@@ -250,7 +250,7 @@ export default function CaSeasonalAllergiesTreatmentOnline() {
               <div className="tdmd-hero-copy">
                 <h1 data-speakable="true">Seasonal Allergies Treatment</h1>
                 <p className="tdmd-hero-sub" data-speakable="true">
-                  California adults 18+ · Secure video visit · Self pay $49 · Aetna in-network · UHC Commercial approved · MD-only · CA B&amp;P §2290.5 compliant · AAAAI/ACAAI + ARIA-EAACI 2026
+                  California adults 18+ · Secure video visit · Self pay $79 · Aetna in-network · UHC Commercial approved · MD-only · CA B&amp;P §2290.5 compliant · AAAAI/ACAAI + ARIA-EAACI 2026
                 </p>
                 <p>
                   TeleDirectMD provides evidence-based seasonal allergies treatment by secure video visit for California adults. A California-licensed board-certified Family Medicine physician evaluates your history, reviews relevant lab values and prior treatments, and prescribes appropriate medication when clinically indicated. This page is for adults located in California, including {caCities.join(', ')}, and surrounding areas.
@@ -283,7 +283,7 @@ export default function CaSeasonalAllergiesTreatmentOnline() {
                 </ul>
 
                 <ul className="tdmd-hero-benefits">
-                  <li>Self pay $49 — no insurance required</li>
+                  <li>Self pay $79 — no insurance required</li>
                   <li>MD-only care (no mid-levels)</li>
                   <li>Aetna in-network (effective April 30, 2026)</li>
                   <li>UnitedHealthcare Commercial approved (effective May 29, 2026)</li>
@@ -292,7 +292,7 @@ export default function CaSeasonalAllergiesTreatmentOnline() {
                 </ul>
 
                 <div className="tdmd-hero-ctas">
-                  <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit — $49</a>
+                  <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
                   <a href="/ca/" className="tdmd-btn tdmd-btn-outline">Explore California Pages</a>
                   <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
                 </div>
@@ -324,7 +324,7 @@ export default function CaSeasonalAllergiesTreatmentOnline() {
           <div className="tdmd-container">
             <div className="tdmd-condition-opener" id="seasonal-allergies-treatment-online-opening">
               <p>
-                California adults with seasonal allergic rhinitis can receive evaluation and prescription allergy treatment — including intranasal corticosteroids, antihistamines, leukotriene receptor antagonists, and nasal antihistamine/steroid combinations — by secure video visit through TeleDirectMD, consistent with California Business and Professions Code Section 2290.5. A California-licensed board-certified Family Medicine physician reviews your allergen trigger history, symptom pattern, prior treatment response, and comorbid conditions (asthma, allergic conjunctivitis). AAAAI, ACAAI, and the updated ARIA-EAACI 2026 guidelines inform treatment selection. California's year-round pollen seasons — driven by dry chaparral, oak, and grass pollen in the Central Valley and Bay Area — create one of the highest seasonal allergy burdens in the U.S. Self pay is $49. Aetna is in-network effective April 30, 2026.
+                California adults with seasonal allergic rhinitis can receive evaluation and prescription allergy treatment — including intranasal corticosteroids, antihistamines, leukotriene receptor antagonists, and nasal antihistamine/steroid combinations — by secure video visit through TeleDirectMD, consistent with California Business and Professions Code Section 2290.5. A California-licensed board-certified Family Medicine physician reviews your allergen trigger history, symptom pattern, prior treatment response, and comorbid conditions (asthma, allergic conjunctivitis). AAAAI, ACAAI, and the updated ARIA-EAACI 2026 guidelines inform treatment selection. California's year-round pollen seasons — driven by dry chaparral, oak, and grass pollen in the Central Valley and Bay Area — create one of the highest seasonal allergy burdens in the U.S. Self pay is $79. Aetna is in-network effective April 30, 2026.
               </p>
               <span className="tdmd-condition-opener__meta">
                 Reviewed by <a href="/about/">{PHYSICIAN.name}</a>, Board-Certified {PHYSICIAN.specialty} · NPI {PHYSICIAN.npi} · Licensed in {PHYSICIAN.licenseState} ·
@@ -379,12 +379,12 @@ export default function CaSeasonalAllergiesTreatmentOnline() {
         <section className="tdmd-section tdmd-section-highlight" id={`${pid}-cost`}>
           <div className="tdmd-container">
             <h2>Seasonal Allergies Treatment Cost &amp; Insurance in California</h2>
-            <p>TeleDirectMD&apos;s self-pay rate is <strong>$49</strong> for a complete MD video visit, including evaluation, treatment plan, and e-prescription when appropriate. Patients with in-network insurance pay their plan&apos;s telehealth copay instead. The payor table below reflects TeleDirectMD&apos;s current California enrollment, refreshed May 19, 2026.</p>
+            <p>TeleDirectMD&apos;s self-pay rate is <strong>$79</strong> for a complete MD video visit, including evaluation, treatment plan, and e-prescription when appropriate. Patients with in-network insurance pay their plan&apos;s telehealth copay instead. The payor table below reflects TeleDirectMD&apos;s current California enrollment, refreshed May 19, 2026.</p>
 
             <div className="tdmd-price-grid">
               <div className="tdmd-price-card" aria-label="TeleDirectMD pricing">
                 <h3>TeleDirectMD Video Visit</h3>
-                <p className="tdmd-price-big">$49</p>
+                <p className="tdmd-price-big">$79</p>
                 <p className="tdmd-price-sub">Self-pay flat fee — no subscription</p>
                 <ul className="tdmd-price-includes">
                   <li>Board-certified MD video evaluation</li>
@@ -400,7 +400,7 @@ export default function CaSeasonalAllergiesTreatmentOnline() {
                 <p className="tdmd-price-caption">Common ranges Californians see before insurance. Actual costs vary by setting and city.</p>
                 <div className="tdmd-vbars" role="list" aria-label="Cost comparison bars">
                   {[
-                    { name: 'TeleDirectMD video visit', value: '$49', heightPct: 8, isTdmd: true },
+                    { name: 'TeleDirectMD video visit', value: '$79', heightPct: 13, isTdmd: true },
                     { name: 'Other telehealth', value: '$75–$150', heightPct: 22 },
                     { name: 'Urgent care', value: '$150–$300', heightPct: 45 },
                     { name: 'ER visit', value: '$500–$3,000+', heightPct: 100 },
@@ -459,7 +459,7 @@ export default function CaSeasonalAllergiesTreatmentOnline() {
             <p>
               The table below reflects evidence-based medication options per AAAAI/ACAAI + ARIA-EAACI 2026 guidelines.
               GoodRx prices retrieved May 2026 from goodrx.com — national coupon prices; actual cost varies by California pharmacy location.
-              Prescription costs are separate from the $49 TeleDirectMD visit fee.
+              Prescription costs are separate from the $79 TeleDirectMD visit fee.
             </p>
             <div className="tdmd-table-wrap">
               <table className="tdmd-table" aria-label="Seasonal Allergies Treatment medication options and GoodRx prices">
@@ -539,7 +539,7 @@ export default function CaSeasonalAllergiesTreatmentOnline() {
                   <li>Stable on current regimen with recent relevant labs</li>
                   <li>No acute emergency or red-flag symptoms</li>
                   <li>Adult 18+, located in California</li>
-                  <li>Aetna or UHC Commercial (in-network), or self pay $49</li>
+                  <li>Aetna or UHC Commercial (in-network), or self pay $79</li>
                   <li>Seeking refill, monitoring review, or treatment initiation</li>
                 </ul>
               </div>
@@ -564,7 +564,7 @@ export default function CaSeasonalAllergiesTreatmentOnline() {
             <div className="tdmd-ca-uti__cta-strip" role="complementary">
               <div>
                 <p>Book a same-day video visit — California adults, 18+</p>
-                <small>Self pay $49 · Aetna in-network · UHC Commercial approved May 2026 · Seasonal Allergies Treatment</small>
+                <small>Self pay $79 · Aetna in-network · UHC Commercial approved May 2026 · Seasonal Allergies Treatment</small>
               </div>
               <a className="tdmd-ca-uti__cta-btn" href="/book-online" rel="noopener">Book Now →</a>
             </div>
@@ -582,7 +582,7 @@ export default function CaSeasonalAllergiesTreatmentOnline() {
             <div className="tdmd-bottom-cta" role="region" aria-label="Book a visit call to action">
               <div className="tdmd-bottom-cta-copy">
                 <h3>Ready to see a California-licensed MD?</h3>
-                <p>Book a same-day video visit. Self pay $49 · Aetna in-network · UHC Commercial approved.</p>
+                <p>Book a same-day video visit. Self pay $79 · Aetna in-network · UHC Commercial approved.</p>
               </div>
               <div className="tdmd-bottom-cta-actions">
                 <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>

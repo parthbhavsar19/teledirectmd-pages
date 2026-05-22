@@ -57,7 +57,7 @@ export default function InsuranceStateConditionClient({ insurerSlug, stateSlug, 
     },
     {
       q: `What is my ${shortName} copay for ${cond.name} treatment in ${stateName}?`,
-      a: `${copayData ? `Most ${affiliateName} commercial plans in ${stateName} have telehealth copays of ${copayData.typical}. ${copayData.employer}.` : `Most ${shortName} commercial plans in ${stateName} have telehealth copays of $0–$40.`} Your exact cost depends on your specific plan and whether your deductible has been met. Log into your ${shortName} member portal or call the member services number on your card to verify your telehealth copay before your ${cond.name.toLowerCase()} visit. Self-pay is always available for a flat $49 if you prefer to skip insurance.`,
+      a: `${copayData ? `Most ${affiliateName} commercial plans in ${stateName} have telehealth copays of ${copayData.typical}. ${copayData.employer}.` : `Most ${shortName} commercial plans in ${stateName} have telehealth copays of $0–$40.`} Your exact cost depends on your specific plan and whether your deductible has been met. Log into your ${shortName} member portal or call the member services number on your card to verify your telehealth copay before your ${cond.name.toLowerCase()} visit. Self-pay is always available for a flat $79 if you prefer to skip insurance.`,
     },
     {
       q: `How does TeleDirectMD diagnose ${cond.name} via telehealth in ${stateName}?`,
@@ -73,7 +73,7 @@ export default function InsuranceStateConditionClient({ insurerSlug, stateSlug, 
     },
     {
       q: `What if my ${shortName} plan does not cover ${cond.name} in ${stateName}?`,
-      a: `If your specific ${shortName} plan is not in-network with TeleDirectMD in ${stateName}, or if your deductible has not yet been met, you can book as a self-pay patient for a flat $49 fee — same physician, same quality of care, no insurance needed. You may also be eligible to submit an out-of-network claim to ${affiliateName} for partial reimbursement depending on your plan's out-of-network benefit.`,
+      a: `If your specific ${shortName} plan is not in-network with TeleDirectMD in ${stateName}, or if your deductible has not yet been met, you can book as a self-pay patient for a flat $79 fee — same physician, same quality of care, no insurance needed. You may also be eligible to submit an out-of-network claim to ${affiliateName} for partial reimbursement depending on your plan's out-of-network benefit.`,
     },
     {
       q: `How fast can I be seen for ${cond.name} in ${stateName}?`,
@@ -89,7 +89,7 @@ export default function InsuranceStateConditionClient({ insurerSlug, stateSlug, 
     },
     {
       q: `What ${shortName} plans are NOT accepted at TeleDirectMD in ${stateName}?`,
-      a: `${insurer.notAccepted?.join(', ')} ${insurerSlug === 'blue-cross-blue-shield' ? `Note that BCBS varies significantly by state affiliate. TeleDirectMD is in-network with ${affiliateName} specifically — not all BCBS-branded plans are in-network.` : ''} If your plan is not listed, self-pay is available for $49 flat — no insurance required, same physician and quality of care.`,
+      a: `${insurer.notAccepted?.join(', ')} ${insurerSlug === 'blue-cross-blue-shield' ? `Note that BCBS varies significantly by state affiliate. TeleDirectMD is in-network with ${affiliateName} specifically — not all BCBS-branded plans are in-network.` : ''} If your plan is not listed, self-pay is available for $79 flat — no insurance required, same physician and quality of care.`,
     },
     {
       q: `Will ${shortName} send me an Explanation of Benefits after my telehealth visit?`,
@@ -97,7 +97,7 @@ export default function InsuranceStateConditionClient({ insurerSlug, stateSlug, 
     },
     {
       q: `Can I use my ${shortName} FSA or HSA for a ${cond.name} telehealth visit in ${stateName}?`,
-      a: `Yes. Telehealth visits with a licensed physician are qualified medical expenses eligible for FSA (Flexible Spending Account) and HSA (Health Savings Account) payment. If your ${shortName} plan applies your deductible first, your FSA or HSA card can be used to pay your portion. The $49 self-pay option is also FSA/HSA eligible.`,
+      a: `Yes. Telehealth visits with a licensed physician are qualified medical expenses eligible for FSA (Flexible Spending Account) and HSA (Health Savings Account) payment. If your ${shortName} plan applies your deductible first, your FSA or HSA card can be used to pay your portion. The $79 self-pay option is also FSA/HSA eligible.`,
     },
   ];
 
@@ -231,7 +231,7 @@ export default function InsuranceStateConditionClient({ insurerSlug, stateSlug, 
             </a>
             <a href="https://www.teledirectmd.com/book-online" target="_blank" rel="noopener"
               style={{ display: "inline-flex", alignItems: "center", gap: 8, padding: "14px 20px", background: "rgba(255,255,255,0.1)", color: B.white, borderRadius: B.rs, fontWeight: 600, fontSize: 14, textDecoration: "none", border: "1px solid rgba(255,255,255,0.2)" }}>
-              <Ico.Dollar c={B.white} s={16} /> Self-Pay $49 (No Insurance Needed)
+              <Ico.Dollar c={B.white} s={16} /> Self-Pay $79 (No Insurance Needed)
             </a>
           </div>
         </div>
@@ -243,7 +243,7 @@ export default function InsuranceStateConditionClient({ insurerSlug, stateSlug, 
         {/* ANSWER ENGINE BLOCK */}
         <AnswerBlock
           question={`Does ${affiliateName} cover ${cond.displayName} telemedicine in ${stateName}?`}
-          answer={`Yes — ${affiliateName} commercial plans cover ${cond.displayName} telehealth visits in ${stateName}. TeleDirectMD is in-network with ${shortName} in ${stateName}. Dr. Parth Bhavsar, MD evaluates your ${cond.name.toLowerCase()} symptoms by secure video and sends a prescription to your ${stateName} pharmacy if appropriate. Your standard ${shortName} telehealth copay applies — typically ${copayData?.typical || "$0–$40"} for most commercial plans. Self-pay is $49 flat if you prefer to skip insurance.`}
+          answer={`Yes — ${affiliateName} commercial plans cover ${cond.displayName} telehealth visits in ${stateName}. TeleDirectMD is in-network with ${shortName} in ${stateName}. Dr. Parth Bhavsar, MD evaluates your ${cond.name.toLowerCase()} symptoms by secure video and sends a prescription to your ${stateName} pharmacy if appropriate. Your standard ${shortName} telehealth copay applies — typically ${copayData?.typical || "$0–$40"} for most commercial plans. Self-pay is $79 flat if you prefer to skip insurance.`}
           color={insurer.color}
         />
 
@@ -291,7 +291,7 @@ export default function InsuranceStateConditionClient({ insurerSlug, stateSlug, 
                   { label: "Condition", val: cond.displayName },
                   { label: "ICD-10 Code", val: cond.icd10 },
                   { label: "Typical Copay", val: copayData?.typical || "$0–$40" },
-                  { label: "Self-Pay Option", val: "$49 flat fee" },
+                  { label: "Self-Pay Option", val: "$79 flat fee" },
                   { label: "Prescribing MD", val: "Dr. Parth Bhavsar, MD" },
                   { label: "Billing Code", val: "CPT 99213/99214" },
                 ].map((item, i) => (
@@ -389,9 +389,9 @@ export default function InsuranceStateConditionClient({ insurerSlug, stateSlug, 
           return (
             <section style={{ marginBottom: 32, padding: "16px 20px", background: "#F9FAFB", border: `1px solid ${B.border}`, borderRadius: B.r }} data-speakable="true">
               <h2 style={{ fontFamily: B.fd, fontSize: 18, fontWeight: 700, color: B.navy, margin: "0 0 6px" }}>No {shortName}? Self-Pay {cond.name} in {stateName}</h2>
-              <p style={{ fontSize: 14, color: B.text, margin: "0 0 10px", lineHeight: 1.6 }}>Not an {shortName} member? TeleDirectMD offers the same {cond.name.toLowerCase()} telehealth visit for $49 without insurance.</p>
+              <p style={{ fontSize: 14, color: B.text, margin: "0 0 10px", lineHeight: 1.6 }}>Not an {shortName} member? TeleDirectMD offers the same {cond.name.toLowerCase()} telehealth visit for $79 without insurance.</p>
               <div style={{ display: "flex", flexWrap: "wrap", gap: 8 }}>
-                <a href={`/${stateCode.toLowerCase()}/${nationalCondSlug}/`} style={{ fontSize: 14, color: B.teal, textDecoration: "none", padding: "6px 12px", border: `1px solid ${B.teal}`, borderRadius: B.rs }}>$49 {cond.name} in {stateName} →</a>
+                <a href={`/${stateCode.toLowerCase()}/${nationalCondSlug}/`} style={{ fontSize: 14, color: B.teal, textDecoration: "none", padding: "6px 12px", border: `1px solid ${B.teal}`, borderRadius: B.rs }}>$79 {cond.name} in {stateName} →</a>
                 <a href={`/${stateCode.toLowerCase()}/`} style={{ fontSize: 14, color: B.teal, textDecoration: "none", padding: "6px 12px", border: `1px solid ${B.teal}`, borderRadius: B.rs }}>All conditions in {stateName} →</a>
               </div>
             </section>

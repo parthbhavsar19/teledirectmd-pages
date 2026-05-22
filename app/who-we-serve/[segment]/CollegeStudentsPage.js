@@ -20,14 +20,14 @@ export default function CollegeStudentsPage() {
   const scenarios = [
     { title: 'Student health is closed', desc: 'It\'s 9 PM on a Sunday and your student health center opens Monday at 9 AM. TeleDirectMD is available evenings and weekends.' },
     { title: 'You\'re studying in a different state', desc: 'Your PCP is back home and won\'t prescribe remotely across state lines. TeleDirectMD is licensed in 42 states — wherever you\'re enrolled.' },
-    { title: 'You aged off your parent\'s plan', desc: 'Turned 26 and haven\'t locked in new coverage yet? TeleDirectMD requires no insurance — just $49.' },
+    { title: 'You aged off your parent\'s plan', desc: 'Turned 26 and haven\'t locked in new coverage yet? TeleDirectMD requires no insurance — just $79.' },
     { title: 'Back home for break, need a prescription', desc: 'College is out and your campus pharmacy is closed. We send prescriptions to any pharmacy in 42 states.' },
   ];
 
   const faqItems = [
     {
       q: 'I have student health insurance but the campus clinic is backed up. Can I use TeleDirectMD?',
-      a: 'Yes. TeleDirectMD is a direct-pay platform — you can use it regardless of whether you have insurance. Many students find the $49 flat fee faster and more convenient than waiting for a student health appointment, especially for common conditions like UTIs, strep, or sinus infections. You pay $49 and connect same-day.'
+      a: 'Yes. TeleDirectMD is a direct-pay platform — you can use it regardless of whether you have insurance. Many students find the $79 flat fee faster and more convenient than waiting for a student health appointment, especially for common conditions like UTIs, strep, or sinus infections. You pay $79 and connect same-day.'
     },
     {
       q: 'My home doctor is in another state. Can TeleDirectMD treat me at school?',
@@ -39,7 +39,7 @@ export default function CollegeStudentsPage() {
     },
     {
       q: 'I don\'t have insurance right now. Is that okay?',
-      a: 'Absolutely. TeleDirectMD requires no insurance whatsoever. You pay a flat $49 at the time of booking — that\'s the full cost of the visit including the physician consultation and any prescription. No forms, no billing, no surprise charges.'
+      a: 'Absolutely. TeleDirectMD requires no insurance whatsoever. You pay a flat $79 at the time of booking — that\'s the full cost of the visit including the physician consultation and any prescription. No forms, no billing, no surprise charges.'
     },
     {
       q: 'Can you treat anxiety or mental health concerns?',
@@ -150,7 +150,7 @@ export default function CollegeStudentsPage() {
         "@id": `${pageUrl}#webpage`,
         "url": pageUrl,
         "name": "Online Doctor for College Students — Same-Day Care from Your Dorm or Apartment",
-        "description": "TeleDirectMD provides same-day telehealth for college students across 42 states. UTI, strep, sinus, pink eye — $49 flat fee, no insurance required. Prescriptions sent to campus or nearby pharmacy.",
+        "description": "TeleDirectMD provides same-day telehealth for college students across 42 states. UTI, strep, sinus, pink eye — $79 flat fee, no insurance required. Prescriptions sent to campus or nearby pharmacy.",
         "datePublished": "2026-04-20",
         "dateModified": today,
         "author": { "@type": "Physician", "name": "Parth Bhavsar, MD" },
@@ -185,7 +185,7 @@ export default function CollegeStudentsPage() {
             Online doctor for college students:
           </p>
           <p style={{ margin: '0.35rem 0 0', color: '#003E52', fontSize: '0.97rem' }}>
-            TeleDirectMD provides same-day video visits with a board-certified physician for college students in 42 states — UTI, strep, sinus infections, pink eye, skin concerns, and prescription refills for $49 flat fee. Available evenings and weekends when student health is closed. No insurance required. Prescriptions sent to campus or any nearby pharmacy.
+            TeleDirectMD provides same-day video visits with a board-certified physician for college students in 42 states — UTI, strep, sinus infections, pink eye, skin concerns, and prescription refills for $79 flat fee. Available evenings and weekends when student health is closed. No insurance required. Prescriptions sent to campus or any nearby pharmacy.
           </p>
         </div>
       </div>
@@ -197,7 +197,7 @@ export default function CollegeStudentsPage() {
             <div className="tdmd-hero-copy">
               <h1>Online Doctor for College Students — Same-Day Care From Your Dorm, Anywhere in 42 States</h1>
               <p className="tdmd-hero-sub">
-                Student health backed up? Your doctor back home won't prescribe across state lines? TeleDirectMD connects you with a board-certified physician via video — from your dorm, apartment, or anywhere in 42 states. Flat $49 fee. No insurance required. Prescriptions sent to campus or your nearest pharmacy.
+                Student health backed up? Your doctor back home won't prescribe across state lines? TeleDirectMD connects you with a board-certified physician via video — from your dorm, apartment, or anywhere in 42 states. Flat $79 fee. No insurance required. Prescriptions sent to campus or your nearest pharmacy.
               </p>
               <p>
                 College students face a unique healthcare gap. Student health centers operate on limited Monday–Friday schedules, leaving large windows of unmet need — evenings, weekends, and holidays. Out-of-state licensing restrictions mean your home doctor legally cannot prescribe across state lines. High-deductible student insurance plans make urgent care financially painful. TeleDirectMD was built for exactly this gap: board-certified urgent medical care, available when and where you need it.
@@ -222,14 +222,14 @@ export default function CollegeStudentsPage() {
               <ul className="tdmd-hero-benefits">
                 <li>Available evenings &amp; weekends — when student health is closed</li>
                 <li>Licensed in 42 states — wherever your school is, we're there</li>
-                <li>$49 flat fee — no surprise bills</li>
+                <li>$79 flat fee — no surprise bills</li>
                 <li>UTI, strep, sinus, pink eye — diagnosed and treated in one visit</li>
                 <li>Prescriptions sent to campus pharmacy, CVS, Walgreens, or any US pharmacy</li>
                 <li>No insurance required — ever</li>
               </ul>
 
               <div className="tdmd-hero-ctas">
-                <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit — $49</a>
+                <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
                 <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">See What We Treat</a>
               </div>
 
@@ -238,7 +238,7 @@ export default function CollegeStudentsPage() {
 
             <div className="tdmd-hero-side">
               <div className="tdmd-hero-card">
-                <h2>What You Get for $49</h2>
+                <h2>What You Get for $79</h2>
                 <ul>
                   <li>Video visit with board-certified MD</li>
                   <li>Diagnosis of your condition</li>
@@ -295,7 +295,7 @@ export default function CollegeStudentsPage() {
               <div className="tdmd-decision-number">1</div>
               <div className="tdmd-decision-content">
                 <h3>Book &amp; Pay in 2 Minutes</h3>
-                <p>Select a same-day slot or next-available appointment and pay $49. No insurance form. No referral. No waiting room paperwork.</p>
+                <p>Select a same-day slot or next-available appointment and pay $79. No insurance form. No referral. No waiting room paperwork.</p>
               </div>
             </div>
             <div className="tdmd-decision-step tdmd-decision-step-good">
@@ -314,7 +314,7 @@ export default function CollegeStudentsPage() {
             </div>
           </div>
           <div className="tdmd-decision-cta">
-            <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Same-Day Visit — $49</a>
+            <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Same-Day Visit — $79</a>
           </div>
         </div>
       </section>
@@ -333,7 +333,7 @@ export default function CollegeStudentsPage() {
             Student health centers typically operate Monday–Friday during business hours. With approximately 19 million students competing for appointments at under-resourced facilities, waits of 1–3 days for non-emergency visits are common — and that's if you can get an appointment at all. Evenings, weekends, and holiday breaks leave students with no campus option.
           </p>
           <p>
-            The $49 flat fee is often comparable to or less than the student health co-pay for students with high-deductible plans. And unlike student health, TeleDirectMD is available when you actually get sick — not just during business hours.
+            The $79 flat fee is often comparable to or less than the student health co-pay for students with high-deductible plans. And unlike student health, TeleDirectMD is available when you actually get sick — not just during business hours.
           </p>
         </div>
       </section>
@@ -356,7 +356,7 @@ export default function CollegeStudentsPage() {
               <tbody>
                 <tr>
                   <td><strong>TeleDirectMD</strong></td>
-                  <td>$49 flat</td>
+                  <td>$79 flat</td>
                   <td>Usually same-day</td>
                   <td>Evenings &amp; weekends</td>
                   <td>UTI, strep, sinus, skin, refills</td>
@@ -424,7 +424,7 @@ export default function CollegeStudentsPage() {
               <div className="tdmd-decision-content">
                 <h3>Is this a common condition treatable via video?</h3>
                 <p>UTI, strep, sinus, pink eye, skin rash, respiratory infection, allergy, prescription refill?</p>
-                <p><strong>YES:</strong> Book TeleDirectMD — same-day, $49.</p>
+                <p><strong>YES:</strong> Book TeleDirectMD — same-day, $79.</p>
               </div>
             </div>
             <div className="tdmd-decision-step">
@@ -437,7 +437,7 @@ export default function CollegeStudentsPage() {
             </div>
           </div>
           <div className="tdmd-decision-cta">
-            <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit — $49</a>
+            <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
           </div>
         </div>
       </section>
@@ -448,7 +448,7 @@ export default function CollegeStudentsPage() {
           <h2>Cost Breakdown</h2>
           <div className="tdmd-price-grid">
             <div className="tdmd-price-card">
-              <div className="tdmd-price-big">$49</div>
+              <div className="tdmd-price-big">$79</div>
               <div className="tdmd-price-sub">One flat fee, no surprise bills</div>
               <ul className="tdmd-price-includes">
                 <li>Video visit with board-certified MD</li>
@@ -466,7 +466,7 @@ export default function CollegeStudentsPage() {
               <div className="tdmd-bar-track">
                 <div className="tdmd-bar-fill tdmd-bar-fill-tdmd" style={{ width: '4%' }}></div>
               </div>
-              <span>$49</span>
+              <span>$79</span>
             </div>
             <div className="tdmd-bar-row">
               <div className="tdmd-bar-label">Student Health (co-pay)</div>
@@ -492,7 +492,7 @@ export default function CollegeStudentsPage() {
           </div>
 
           <p className="tdmd-cost-note">
-            Even with student health insurance, if you've already met your deductible or need after-hours care, $49 is often the most practical option.
+            Even with student health insurance, if you've already met your deductible or need after-hours care, $79 is often the most practical option.
           </p>
         </div>
       </section>
@@ -508,7 +508,7 @@ export default function CollegeStudentsPage() {
             71% of college students have used telehealth — a higher rate than the general population (54%). But the dominant telehealth platforms in the college market (TimelyCare, Uwill, Hims/Hers) focus almost exclusively on behavioral health: therapy, counseling, and mental wellness. For urgent medical conditions — UTI, strep throat, sinus infections, pink eye, skin infections — there is no dominant telehealth platform dedicated to college students.
           </p>
           <p>
-            TeleDirectMD fills that gap: urgent medical care, not behavioral health. Board-certified MD, not a chatbot or wellness app. $49 flat fee, same-day availability, 42 states covered. Prescriptions sent to any campus pharmacy or nearby Walgreens or CVS.
+            TeleDirectMD fills that gap: urgent medical care, not behavioral health. Board-certified MD, not a chatbot or wellness app. $79 flat fee, same-day availability, 42 states covered. Prescriptions sent to any campus pharmacy or nearby Walgreens or CVS.
           </p>
         </div>
       </section>
@@ -823,10 +823,10 @@ export default function CollegeStudentsPage() {
         <div className="tdmd-container">
           <div className="tdmd-bottom-cta-copy">
             <h2>Sick at School? You Don't Have to Wait.</h2>
-            <p>Same-day visits, evenings and weekends. $49 flat fee. Prescriptions sent to campus pharmacy.</p>
+            <p>Same-day visits, evenings and weekends. $79 flat fee. Prescriptions sent to campus pharmacy.</p>
           </div>
           <div className="tdmd-bottom-cta-actions">
-            <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit — $49</a>
+            <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
             <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">See What We Treat</a>
           </div>
         </div>
@@ -878,7 +878,7 @@ export default function CollegeStudentsPage() {
           <div className="tdmd-related-grid">
             <a href="/who-we-serve/international-visitors" className="tdmd-related-card">
               <div className="tdmd-related-title">International Visitors</div>
-              <div className="tdmd-related-desc">No US insurance? $49 flat-fee care in 42 states.</div>
+              <div className="tdmd-related-desc">No US insurance? $79 flat-fee care in 42 states.</div>
             </a>
             <a href="/who-we-serve/gig-workers" className="tdmd-related-card">
               <div className="tdmd-related-title">Gig Workers</div>
@@ -890,7 +890,7 @@ export default function CollegeStudentsPage() {
             </a>
             <a href="/who-we-serve/early-retirees" className="tdmd-related-card">
               <div className="tdmd-related-title">Early Retirees</div>
-              <div className="tdmd-related-desc">Bridge the gap until Medicare with $49 visits.</div>
+              <div className="tdmd-related-desc">Bridge the gap until Medicare with $79 visits.</div>
             </a>
             <a href="/who-we-serve/remote-workers" className="tdmd-related-card">
               <div className="tdmd-related-title">Remote Workers</div>

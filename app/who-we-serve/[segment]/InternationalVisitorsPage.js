@@ -27,11 +27,11 @@ export default function InternationalVisitorsPage() {
   const faqItems = [
     {
       question: 'Can I use TeleDirectMD without US health insurance?',
-      answer: 'Absolutely. TeleDirectMD is a direct-pay platform — no US health insurance is required at any point. You pay a flat $49 fee at the time of booking. That covers the full visit, including the physician consultation and any prescriptions sent to a US pharmacy. There are no surprise bills or insurance claims to file.'
+      answer: 'Absolutely. TeleDirectMD is a direct-pay platform — no US health insurance is required at any point. You pay a flat $79 fee at the time of booking. That covers the full visit, including the physician consultation and any prescriptions sent to a US pharmacy. There are no surprise bills or insurance claims to file.'
     },
     {
       question: 'I have travel insurance from my home country. Can I use TeleDirectMD?',
-      answer: 'Yes. Many international travel insurance policies reimburse telehealth consultations. After your visit, TeleDirectMD can provide a visit summary and receipt that you can submit to your travel insurer for reimbursement. Check your policy for telehealth coverage terms. Either way, $49 is a fraction of what a US urgent care or ER would cost.'
+      answer: 'Yes. Many international travel insurance policies reimburse telehealth consultations. After your visit, TeleDirectMD can provide a visit summary and receipt that you can submit to your travel insurer for reimbursement. Check your policy for telehealth coverage terms. Either way, $79 is a fraction of what a US urgent care or ER would cost.'
     },
     {
       question: 'Which states is TeleDirectMD available in for international visitors?',
@@ -47,7 +47,7 @@ export default function InternationalVisitorsPage() {
     },
     {
       question: 'How does a visit work? Is it hard to set up?',
-      answer: "It's straightforward. Book a same-day or next-available appointment online, pay the $49 flat fee, and complete a brief intake form. At your appointment time, you'll connect via secure video call from your smartphone or computer — no app download required. Most visits take 10 to 15 minutes. If a prescription is needed, it's sent to a nearby pharmacy before the visit ends."
+      answer: "It's straightforward. Book a same-day or next-available appointment online, pay the $79 flat fee, and complete a brief intake form. At your appointment time, you'll connect via secure video call from your smartphone or computer — no app download required. Most visits take 10 to 15 minutes. If a prescription is needed, it's sent to a nearby pharmacy before the visit ends."
     },
     {
       question: 'Does TeleDirectMD see pediatric patients?',
@@ -150,7 +150,7 @@ export default function InternationalVisitorsPage() {
         "@id": `${pageUrl}#webpage`,
         "url": pageUrl,
         "name": "Online Doctor for International Visitors & Tourists in the USA",
-        "description": "TeleDirectMD provides $49 flat-fee telehealth visits to international visitors and tourists in the USA. No US insurance required. Available in 42 states.",
+        "description": "TeleDirectMD provides $79 flat-fee telehealth visits to international visitors and tourists in the USA. No US insurance required. Available in 42 states.",
         "datePublished": "2026-04-20",
         "dateModified": today,
         "author": { "@type": "Physician", "name": "Parth Bhavsar, MD" },
@@ -192,7 +192,7 @@ export default function InternationalVisitorsPage() {
             Online doctor for international visitors to the USA:
           </p>
           <p style={{ margin: '0.35rem 0 0', color: '#003E52', fontSize: '0.97rem' }}>
-            TeleDirectMD offers same-day video visits with a board-certified US physician for $49 flat — no US insurance required, available in 42 states. Get a diagnosis and prescription sent to a nearby pharmacy without leaving your hotel or vacation rental.
+            TeleDirectMD offers same-day video visits with a board-certified US physician for $79 flat — no US insurance required, available in 42 states. Get a diagnosis and prescription sent to a nearby pharmacy without leaving your hotel or vacation rental.
           </p>
         </div>
       </div>
@@ -207,7 +207,7 @@ export default function InternationalVisitorsPage() {
                 Visiting the US and need a doctor? TeleDirectMD connects you with a board-certified US physician via secure video — from your hotel room, vacation rental, or anywhere in 42 states.
               </p>
               <p>
-                Whether you're here on vacation, a business trip, visiting family, or studying on an F-1 visa, getting sick in the US without domestic insurance can be stressful and expensive. TeleDirectMD was built for exactly this situation: fast, legitimate medical care at a flat $49 fee — with no billing surprises.
+                Whether you're here on vacation, a business trip, visiting family, or studying on an F-1 visa, getting sick in the US without domestic insurance can be stressful and expensive. TeleDirectMD was built for exactly this situation: fast, legitimate medical care at a flat $79 fee — with no billing surprises.
               </p>
 
               <nav className="tdmd-toc" aria-label="Page contents">
@@ -234,7 +234,7 @@ export default function InternationalVisitorsPage() {
 
               <ul className="tdmd-hero-benefits">
                 <li>No US health insurance required — ever</li>
-                <li>$49 flat fee vs. $250–$350 for a cash-pay in-person US doctor visit</li>
+                <li>$79 flat fee vs. $250–$350 for a cash-pay in-person US doctor visit</li>
                 <li>Available in 42 states — all major tourist and business destinations covered</li>
                 <li>Prescriptions sent to any US pharmacy: CVS, Walgreens, Walmart, Rite Aid, and more</li>
                 <li>Same-day visits, evenings &amp; weekends available</li>
@@ -242,7 +242,7 @@ export default function InternationalVisitorsPage() {
               </ul>
 
               <div className="tdmd-hero-ctas">
-                <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit — $49</a>
+                <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
                 <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">See What We Treat</a>
               </div>
 
@@ -251,7 +251,7 @@ export default function InternationalVisitorsPage() {
 
             <div className="tdmd-hero-side">
               <div className="tdmd-hero-card">
-                <h2>What You Get for $49</h2>
+                <h2>What You Get for $79</h2>
                 <ul>
                   <li>Video visit with board-certified MD (Dr. Parth Bhavsar)</li>
                   <li>Prescriptions sent to any US pharmacy</li>
@@ -307,7 +307,7 @@ export default function InternationalVisitorsPage() {
               <div className="tdmd-decision-number">1</div>
               <div className="tdmd-decision-content">
                 <h3>Book &amp; Pay</h3>
-                <p>Select a same-day or next-available appointment at teledirectmd.com and pay the $49 flat fee. No account creation required, no insurance forms.</p>
+                <p>Select a same-day or next-available appointment at teledirectmd.com and pay the $79 flat fee. No account creation required, no insurance forms.</p>
               </div>
             </div>
 
@@ -371,7 +371,7 @@ export default function InternationalVisitorsPage() {
               <tbody>
                 <tr>
                   <td><strong>TeleDirectMD</strong></td>
-                  <td><strong>$49 flat fee</strong></td>
+                  <td><strong>$79 flat fee</strong></td>
                   <td>Same-day, usually &lt;1 hr</td>
                   <td>Board-certified MD</td>
                   <td>Non-emergency conditions, prescription needs</td>
@@ -445,9 +445,9 @@ export default function InternationalVisitorsPage() {
               <div className="tdmd-decision-number">4</div>
               <div className="tdmd-decision-content">
                 <h3>Ready to book?</h3>
-                <p>Same-day appointments available. $49 flat fee. Board-certified MD. Prescriptions sent to any US pharmacy.</p>
+                <p>Same-day appointments available. $79 flat fee. Board-certified MD. Prescriptions sent to any US pharmacy.</p>
                 <div className="tdmd-decision-cta">
-                  <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit — $49</a>
+                  <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
                 </div>
               </div>
             </div>
@@ -462,7 +462,7 @@ export default function InternationalVisitorsPage() {
           <h2>What Does a Visit Cost?</h2>
           <div className="tdmd-price-grid">
             <div className="tdmd-price-card">
-              <div className="tdmd-price-big">$49</div>
+              <div className="tdmd-price-big">$79</div>
               <div className="tdmd-price-sub">One flat fee covers your entire visit</div>
               <ul className="tdmd-price-includes">
                 <li>Video visit with board-certified MD</li>
@@ -480,7 +480,7 @@ export default function InternationalVisitorsPage() {
               <div className="tdmd-bar-track">
                 <div className="tdmd-bar-fill tdmd-bar-fill-tdmd" style={{ width: '4%' }}></div>
               </div>
-              <span>$49</span>
+              <span>$79</span>
             </div>
             <div className="tdmd-bar-row">
               <span className="tdmd-bar-label">US Urgent Care</span>
@@ -655,7 +655,7 @@ export default function InternationalVisitorsPage() {
         <div className="tdmd-container">
           <h2>What TeleDirectMD Provides</h2>
           <p>
-            Every TeleDirectMD visit is conducted by Dr. Parth Bhavsar, MD — board-certified in Family Medicine, residency-trained at the University of Mississippi Medical Center, and licensed in 42 US states. Here is what your $49 visit includes:
+            Every TeleDirectMD visit is conducted by Dr. Parth Bhavsar, MD — board-certified in Family Medicine, residency-trained at the University of Mississippi Medical Center, and licensed in 42 US states. Here is what your $79 visit includes:
           </p>
 
           <h3>Diagnosis &amp; Treatment Plan</h3>
@@ -838,7 +838,7 @@ export default function InternationalVisitorsPage() {
           <div className="tdmd-bottom-cta">
             <div className="tdmd-bottom-cta-copy">
               <h3>Ready to See a Doctor Today?</h3>
-              <p>Same-day appointments. $49 flat fee. Board-certified MD. No US insurance required.</p>
+              <p>Same-day appointments. $79 flat fee. Board-certified MD. No US insurance required.</p>
             </div>
             <div className="tdmd-bottom-cta-actions">
               <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
@@ -924,7 +924,7 @@ export default function InternationalVisitorsPage() {
             </a>
             <a href="/who-we-serve/early-retirees" className="tdmd-related-card">
               <div className="tdmd-related-title">Early Retirees</div>
-              <div className="tdmd-related-desc">Retired before 65? Bridge the gap with $49 visits.</div>
+              <div className="tdmd-related-desc">Retired before 65? Bridge the gap with $79 visits.</div>
             </a>
             <a href="/who-we-serve/uninsured-affordable-care" className="tdmd-related-card">
               <div className="tdmd-related-title">Uninsured Adults</div>

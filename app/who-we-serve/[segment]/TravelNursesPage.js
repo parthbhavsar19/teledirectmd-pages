@@ -35,7 +35,7 @@ export default function TravelNursesPage() {
     },
     {
       q: 'Do I need insurance to use TeleDirectMD as a travel nurse?',
-      a: 'No. TeleDirectMD offers transparent cash-pay pricing starting at $49 per visit — no insurance required. Many travel nurses have insurance through their staffing agency, but it can come with high deductibles, confusing networks that vary by state, or mid-assignment coverage gaps. We also accept insurance in select states. Either way, you\'ll know your cost before you book — no surprise bills. A Penn Medicine study found telehealth visits average $96 compared to $509 for in-person care episodes, making it significantly more cost-effective even when you do have coverage.'
+      a: 'No. TeleDirectMD offers transparent cash-pay pricing starting at $79 per visit — no insurance required. Many travel nurses have insurance through their staffing agency, but it can come with high deductibles, confusing networks that vary by state, or mid-assignment coverage gaps. We also accept insurance in select states. Either way, you\'ll know your cost before you book — no surprise bills. A Penn Medicine study found telehealth visits average $96 compared to $509 for in-person care episodes, making it significantly more cost-effective even when you do have coverage.'
     },
     {
       q: 'Can you refill my prescriptions when I\'m in a new state?',
@@ -43,7 +43,7 @@ export default function TravelNursesPage() {
     },
     {
       q: 'How does TeleDirectMD work with my travel nurse insurance?',
-      a: 'TeleDirectMD accepts insurance in select states. If your staffing agency\'s plan is accepted in the state you\'re currently in, we\'ll bill it accordingly. If not, or if your deductible makes the out-of-pocket cost high, our $49 self-pay option is often more practical. We accept credit cards, debit cards, HSA, and FSA. Because travel nurse insurance networks can be inconsistent across states, many travel nurses find that knowing upfront what they\'ll pay is more useful than navigating an unfamiliar network in a new city. We do not name specific carriers; contact us to confirm whether your plan is accepted in your current state.'
+      a: 'TeleDirectMD accepts insurance in select states. If your staffing agency\'s plan is accepted in the state you\'re currently in, we\'ll bill it accordingly. If not, or if your deductible makes the out-of-pocket cost high, our $79 self-pay option is often more practical. We accept credit cards, debit cards, HSA, and FSA. Because travel nurse insurance networks can be inconsistent across states, many travel nurses find that knowing upfront what they\'ll pay is more useful than navigating an unfamiliar network in a new city. We do not name specific carriers; contact us to confirm whether your plan is accepted in your current state.'
     },
     {
       q: 'Can I see the same doctor for every assignment regardless of state?',
@@ -117,7 +117,7 @@ export default function TravelNursesPage() {
         "@id": `${pageUrl}#webpage`,
         "url": pageUrl,
         "name": "Telehealth for Travel Nurses: Care in Every State You Work",
-        "description": "TeleDirectMD offers telehealth for travel nurses across 41 states — same board-certified physician regardless of your assignment location. Prescription refills, acute care, and chronic condition management. Same-day visits, evenings & weekends. Starting at $49.",
+        "description": "TeleDirectMD offers telehealth for travel nurses across 41 states — same board-certified physician regardless of your assignment location. Prescription refills, acute care, and chronic condition management. Same-day visits, evenings & weekends. Starting at $79.",
         "inLanguage": "en-US",
         "breadcrumb": { "@id": `${pageUrl}#breadcrumbs` },
         "author": { "@id": `${baseUrl}/about#physician` },
@@ -173,7 +173,7 @@ export default function TravelNursesPage() {
                 <li>Licensed in 41 states — the same physician follows you across every assignment</li>
                 <li>Prescription refills for chronic conditions — no lapse between assignments</li>
                 <li>Same-day visits, evenings &amp; weekends — fits your shift schedule</li>
-                <li>Transparent cash-pay pricing starting at $49 — insurance accepted in select states</li>
+                <li>Transparent cash-pay pricing starting at $79 — insurance accepted in select states</li>
               </ul>
               <div className="tdmd-hero-ctas">
                 <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
@@ -193,7 +193,7 @@ export default function TravelNursesPage() {
                 <ul>
                   <li>One physician, 41 states — continuity of care across every assignment</li>
                   <li>Prescription refills sent to any pharmacy near your current assignment</li>
-                  <li>No insurance required — cash-pay pricing starting at $49</li>
+                  <li>No insurance required — cash-pay pricing starting at $79</li>
                   <li>Same-day visits, evenings &amp; weekends — fits your shift schedule</li>
                   <li>HIPAA-compliant, secure video visits from your phone or laptop</li>
                 </ul>
@@ -317,11 +317,11 @@ export default function TravelNursesPage() {
       <section className="tdmd-section" id="travel-nurses-pricing">
         <div className="tdmd-container">
           <h2>Transparent Pricing — No Surprise Bills</h2>
-          <p>Even with staffing agency insurance, travel nurses often face high deductibles, out-of-network charges in unfamiliar states, or coverage gaps between assignments. TeleDirectMD's cash-pay option at $49 per visit is frequently the most practical choice. A Penn Medicine study found telehealth visits average $96 compared to $509 for in-person care episodes — and that's before accounting for the time cost of finding a new provider in an unfamiliar city.</p>
+          <p>Even with staffing agency insurance, travel nurses often face high deductibles, out-of-network charges in unfamiliar states, or coverage gaps between assignments. TeleDirectMD's cash-pay option at $79 per visit is frequently the most practical choice. A Penn Medicine study found telehealth visits average $96 compared to $509 for in-person care episodes — and that's before accounting for the time cost of finding a new provider in an unfamiliar city.</p>
           <div className="tdmd-price-grid">
             <div className="tdmd-price-card" aria-label="TeleDirectMD pricing">
               <h3>TeleDirectMD Video Visit</h3>
-              <p className="tdmd-price-big">$49</p>
+              <p className="tdmd-price-big">$79</p>
               <p className="tdmd-price-sub">Self-pay starting price per visit</p>
               <ul className="tdmd-price-includes">
                 <li>Board-certified Family Medicine physician consultation</li>
@@ -335,7 +335,7 @@ export default function TravelNursesPage() {
               <h3>How We Compare</h3>
               <p className="tdmd-price-caption">Typical costs without insurance. Actual costs vary by location.</p>
               <div className="tdmd-bar-row">
-                <div className="tdmd-bar-label"><span>TeleDirectMD</span><span>$49</span></div>
+                <div className="tdmd-bar-label"><span>TeleDirectMD</span><span>$79</span></div>
                 <div className="tdmd-bar-track"><div className="tdmd-bar-fill tdmd-bar-fill-tdmd" style={{ '--w': 10 }} /></div>
               </div>
               <div className="tdmd-bar-row">

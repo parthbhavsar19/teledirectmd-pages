@@ -19,7 +19,7 @@ export async function generateMetadata({ params }) {
   const state = getStateBySlug(slug);
   if (state) {
     const title = `Online Doctor in ${state.name} — TeleDirectMD Telehealth Visits`;
-    const description = `See an MD-only doctor online in ${state.name}. TeleDirectMD offers same-day video visits for urgent care, chronic medication refills, skin conditions, and more — starting at $49 with no insurance required.`;
+    const description = `See an MD-only doctor online in ${state.name}. TeleDirectMD offers same-day video visits for urgent care, chronic medication refills, skin conditions, and more — starting at $79 with no insurance required.`;
     const pageUrl = `${baseUrl}/${slug}`;
     return {
       title,

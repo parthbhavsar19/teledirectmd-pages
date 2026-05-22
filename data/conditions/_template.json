@@ -5,12 +5,12 @@
   "conditionShort": "SHORT NAME (e.g., 'UTI')",
   "conditionSlug": "URL-SLUG (e.g., 'uti-treatment-online')",
   "pageTitle": "CONDITION NAME Online in {state} | SUBTITLE | TeleDirectMD",
-  "metaDescription": "DESCRIPTION for {state} adults. Self pay option starting at $49. Insurance is not required.",
+  "metaDescription": "DESCRIPTION for {state} adults. Self pay option starting at $79. Insurance is not required.",
   "ogImageAlt": "CONDITION in {state} by TeleDirectMD",
 
   "hero": {
     "h1": "CONDITION in {state} (SUBTITLE)",
-    "subtitle": "{state} adult care by secure video visit, self pay option starting at $49, MD-only, insurance is not required.",
+    "subtitle": "{state} adult care by secure video visit, self pay option starting at $79, MD-only, insurance is not required.",
     "introParagraph": "INTRO PARAGRAPH about the condition. Use {state} for state name and {cities} for city list placeholder.",
     "tocLinks": [
       { "href": "eligibility-checklist", "label": "Eligibility checklist" },
@@ -20,7 +20,7 @@
       { "href": "references", "label": "References" }
     ],
     "benefits": [
-      "Self pay option starting at $49",
+      "Self pay option starting at $79",
       "MD-only care (no mid-levels)",
       "Insurance is not required",
       "Licensed telehealth care for patients located in {state} at the time of the visit"
@@ -91,7 +91,7 @@
     "rows": [
       {
         "option": "TeleDirectMD",
-        "cost": "Self pay option starting at $49",
+        "cost": "Self pay option starting at $79",
         "wait": "Same day, often within hours",
         "provider": "Board-certified MD only (no mid-levels)",
         "bestFor": "BEST FOR DESCRIPTION",
@@ -168,7 +168,7 @@
   "pricing": {
     "sectionTitle": "What Does Online CONDITION Cost in {state}?",
     "subtitle": "Transparent options. Insurance is not required.",
-    "visitPrice": "$49",
+    "visitPrice": "$79",
     "priceSubtext": "Self pay option. Insurance is not required.",
     "includes": [
       "MD evaluation and red-flag screening",
@@ -177,7 +177,7 @@
       "Clear follow-up and escalation instructions"
     ],
     "comparisonBars": [
-      { "name": "TeleDirectMD", "value": "$49", "width": 12, "isTdmd": true },
+      { "name": "TeleDirectMD", "value": "$79", "width": 20, "isTdmd": true },
       { "name": "Primary Care", "value": "$100 to $350+", "width": 52, "isTdmd": false },
       { "name": "Urgent Care", "value": "$150 to $300+", "width": 60, "isTdmd": false },
       { "name": "Emergency Room", "value": "$500 to $3,000+", "width": 100, "isTdmd": false }
@@ -330,7 +330,7 @@
       },
       {
         "question": "How much does an online CONDITION visit cost in {state}?",
-        "answer": "TeleDirectMD offers a transparent self pay option starting at $49 for an adult video visit in {state}. Insurance is not required."
+        "answer": "TeleDirectMD offers a transparent self pay option starting at $79 for an adult video visit in {state}. Insurance is not required."
       },
       {
         "question": "Does {state} allow telemedicine for this kind of visit?",

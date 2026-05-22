@@ -29,9 +29,9 @@ const CA_PAYORS = [
   { name: 'UnitedHealthcare Commercial', status: 'Approved', effective: 'May 29, 2026', inNetwork: true,
     notes: 'Covers UHC Commercial and Medicare Advantage. Excludes Medi-Cal, Individual Exchange, and Navigate/Charter/Core plan types.' },
   { name: 'Anthem Blue Cross', status: 'Pending', effective: 'Pending determination', inNetwork: false,
-    notes: 'Enrollment pending. Self pay ($49) available.' },
+    notes: 'Enrollment pending. Self pay ($79) available.' },
   { name: 'Cigna', status: 'Pending', effective: 'Pending determination', inNetwork: false,
-    notes: 'Pending — Telehealth Only review in progress. Self pay ($49) available.' },
+    notes: 'Pending — Telehealth Only review in progress. Self pay ($79) available.' },
   { name: 'Kaiser Permanente', status: 'Closed system', effective: '—', inNetwork: false,
     notes: 'Kaiser is a closed health system. Use Kaiser telehealth at kp.org.' },
   { name: 'Medi-Cal', status: 'Not enrolled', effective: '—', inNetwork: false,
@@ -78,7 +78,7 @@ const FAQ_ITEMS = [
   { question: 'Can I get yeast infection treatment online in California?',
     answer: (
       <p>
-        Yes. <a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=2290.5.&lawCode=BPC" rel="noopener" target="_blank">California Business and Professions Code Section 2290.5</a> — the Telehealth Advancement Act — permits California-licensed physicians to diagnose and treat uncomplicated vulvovaginal candidiasis (VVC) by synchronous video visit without a prior in-person examination. The <a href="https://www.mbc.ca.gov/Resources/Medical-Resources/telehealth.aspx" rel="noopener" target="_blank">Medical Board of California</a> holds telehealth physicians to the same standard of care as in-person physicians. Classic VVC symptoms — thick white discharge, vaginal itching, and vulvar irritation without odor, fever, or systemic illness — can be reliably evaluated by history. Per <a href="https://www.acog.org/clinical/clinical-guidance/practice-bulletin/articles/2020/06/vaginitis-in-nonpregnant-patients" rel="noopener" target="_blank">ACOG Practice Bulletin 215</a>, empiric oral fluconazole 150 mg is appropriate for women with classic VVC symptoms who have previously been diagnosed. TeleDirectMD self pay is $49. Aetna is in-network as of April 30, 2026.
+        Yes. <a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=2290.5.&lawCode=BPC" rel="noopener" target="_blank">California Business and Professions Code Section 2290.5</a> — the Telehealth Advancement Act — permits California-licensed physicians to diagnose and treat uncomplicated vulvovaginal candidiasis (VVC) by synchronous video visit without a prior in-person examination. The <a href="https://www.mbc.ca.gov/Resources/Medical-Resources/telehealth.aspx" rel="noopener" target="_blank">Medical Board of California</a> holds telehealth physicians to the same standard of care as in-person physicians. Classic VVC symptoms — thick white discharge, vaginal itching, and vulvar irritation without odor, fever, or systemic illness — can be reliably evaluated by history. Per <a href="https://www.acog.org/clinical/clinical-guidance/practice-bulletin/articles/2020/06/vaginitis-in-nonpregnant-patients" rel="noopener" target="_blank">ACOG Practice Bulletin 215</a>, empiric oral fluconazole 150 mg is appropriate for women with classic VVC symptoms who have previously been diagnosed. TeleDirectMD self pay is $79. Aetna is in-network as of April 30, 2026.
       </p>
     ),
   },
@@ -127,14 +127,14 @@ const FAQ_ITEMS = [
   { question: 'Is my Aetna plan in California in-network with TeleDirectMD?',
     answer: (
       <p>
-        Aetna became an active in-network payor for TeleDirectMD in California effective April 30, 2026. Aetna commercial plan members in California may be able to use in-network benefits. Always verify current in-network status directly with Aetna before your visit. See <a href="/insurance">all insurance options</a>. Self pay ($49) is available regardless of insurance status.
+        Aetna became an active in-network payor for TeleDirectMD in California effective April 30, 2026. Aetna commercial plan members in California may be able to use in-network benefits. Always verify current in-network status directly with Aetna before your visit. See <a href="/insurance">all insurance options</a>. Self pay ($79) is available regardless of insurance status.
       </p>
     ),
   },
   { question: 'Will Medi-Cal cover my yeast infection treatment visit at TeleDirectMD?',
     answer: (
       <p>
-        TeleDirectMD is not currently enrolled as a Medi-Cal rendering provider. <a href="https://www.dhcs.ca.gov/provgovpart/Pages/TelehealthFAQ.aspx" rel="noopener" target="_blank">California DHCS</a> confirms that Medi-Cal covers telehealth for physical health services when the provider is enrolled. If you have Medi-Cal, you can use the $49 self-pay rate at TeleDirectMD, or find a Medi-Cal-enrolled telehealth provider through your managed care plan or the DHCS directory.
+        TeleDirectMD is not currently enrolled as a Medi-Cal rendering provider. <a href="https://www.dhcs.ca.gov/provgovpart/Pages/TelehealthFAQ.aspx" rel="noopener" target="_blank">California DHCS</a> confirms that Medi-Cal covers telehealth for physical health services when the provider is enrolled. If you have Medi-Cal, you can use the $79 self-pay rate at TeleDirectMD, or find a Medi-Cal-enrolled telehealth provider through your managed care plan or the DHCS directory.
       </p>
     ),
   },
@@ -174,7 +174,7 @@ function buildSchemas() {
     '@type': 'MedicalWebPage',
     name: PAGE_TITLE,
     url: PAGE_URL,
-    description: 'Yeast infection (vulvovaginal candidiasis) treatment by secure video visit for California adults. Board-certified Family Medicine physician. California telehealth law compliant. Aetna in-network. Self pay $49. ACOG-guideline treatment.',
+    description: 'Yeast infection (vulvovaginal candidiasis) treatment by secure video visit for California adults. Board-certified Family Medicine physician. California telehealth law compliant. Aetna in-network. Self pay $79. ACOG-guideline treatment.',
     datePublished: DATE_PUBLISHED,
     dateModified: DATE_MODIFIED,
     inLanguage: 'en-US',
@@ -225,9 +225,9 @@ function buildSchemas() {
     name: 'How to Get Yeast Infection Treatment Online in California',
     description: 'Three steps to receive yeast infection evaluation and, if appropriate, a fluconazole prescription from a California-licensed board-certified physician.',
     totalTime: 'PT30M',
-    estimatedCost: { '@type': 'MonetaryAmount', currency: 'USD', value: '49' },
+    estimatedCost: { '@type': 'MonetaryAmount', currency: 'USD', value: '79' },
     step: [
-      { '@type': 'HowToStep', position: 1, name: 'Book your video visit', text: 'Visit teledirectmd.com and select California yeast infection treatment. No referral needed. Self pay $49.', url: 'https://teledirectmd.com/book-online' },
+      { '@type': 'HowToStep', position: 1, name: 'Book your video visit', text: 'Visit teledirectmd.com and select California yeast infection treatment. No referral needed. Self pay $79.', url: 'https://teledirectmd.com/book-online' },
       { '@type': 'HowToStep', position: 2, name: 'See a California-licensed MD by secure video', text: 'The physician reviews your symptoms, prior episodes, medications, pregnancy status, and risk factors. Consent per CA B&P Section 2290.5 confirmed.', url: PAGE_URL },
       { '@type': 'HowToStep', position: 3, name: 'Receive your treatment plan and e-prescription', text: 'If medication is appropriate, a California-compliant e-prescription (fluconazole or other antifungal) is sent to your chosen California pharmacy.', url: PAGE_URL },
     ],
@@ -321,7 +321,7 @@ export default function CaYeastInfectionTreatmentOnline() {
               <div className="tdmd-hero-copy">
                 <h1 data-speakable="true">Yeast Infection Treatment Online in California</h1>
                 <p className="tdmd-hero-sub" data-speakable="true">
-                  California adults: secure video visit with a board-certified MD. Self pay $49 · Aetna in-network · UHC Commercial approved · CA B&amp;P §2290.5 compliant.
+                  California adults: secure video visit with a board-certified MD. Self pay $79 · Aetna in-network · UHC Commercial approved · CA B&amp;P §2290.5 compliant.
                 </p>
                 <p>
                   Vulvovaginal candidiasis (VVC) — commonly called a yeast infection — is one of the most common gynecological conditions, affecting approximately 75% of women at least once in their lifetime per the <a href="https://www.acog.org/clinical/clinical-guidance/practice-bulletin/articles/2020/06/vaginitis-in-nonpregnant-patients" rel="noopener" target="_blank">American College of Obstetricians and Gynecologists</a>. Classic symptoms include thick, white, cottage cheese-like vaginal discharge, vulvar itching, burning, and redness — typically without vaginal odor. When symptoms are classic and a prior diagnosis has been confirmed, oral fluconazole 150 mg single dose or OTC intravaginal azoles are effective first-line treatment options. TeleDirectMD screens for red-flag symptoms — fever, pelvic pain, unusual discharge, possible STI exposure — before determining whether treatment by video is appropriate. This page serves California adults in {caCities.join(', ')}, and surrounding areas.
@@ -353,7 +353,7 @@ export default function CaYeastInfectionTreatmentOnline() {
                 </ul>
 
                 <ul className="tdmd-hero-benefits">
-                  <li>Self pay $49 — no insurance required</li>
+                  <li>Self pay $79 — no insurance required</li>
                   <li>MD-only care (no mid-levels)</li>
                   <li>Aetna in-network (effective April 30, 2026)</li>
                   <li>UnitedHealthcare Commercial approved (effective May 29, 2026)</li>
@@ -361,7 +361,7 @@ export default function CaYeastInfectionTreatmentOnline() {
                 </ul>
 
                 <div className="tdmd-hero-ctas">
-                  <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit — $49</a>
+                  <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
                   <a href="/ca/" className="tdmd-btn tdmd-btn-outline">Explore California Pages</a>
                   <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
                 </div>
@@ -394,7 +394,7 @@ export default function CaYeastInfectionTreatmentOnline() {
             <div className="tdmd-condition-opener" id="ca-yeast-opening">
               <h2>Can I Get Yeast Infection Treatment Online in California?</h2>
               <p>
-                <strong>Yes.</strong> <a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=2290.5.&lawCode=BPC" rel="noopener" target="_blank">California Business and Professions Code Section 2290.5</a> — the Telehealth Advancement Act — authorizes California-licensed physicians to evaluate and treat uncomplicated vulvovaginal candidiasis (VVC) via synchronous video visit without a prior in-person examination. The <a href="https://www.mbc.ca.gov/Resources/Medical-Resources/telehealth.aspx" rel="noopener" target="_blank">Medical Board of California</a> holds telehealth physicians to the same standard of care as in-person physicians. Classic VVC — thick white discharge, vulvar itching, burning — can be reliably assessed by history when symptoms are typical and a prior diagnosis is established. Per <a href="https://www.acog.org/clinical/clinical-guidance/practice-bulletin/articles/2020/06/vaginitis-in-nonpregnant-patients" rel="noopener" target="_blank">ACOG Practice Bulletin 215</a>, empiric oral fluconazole 150 mg is appropriate for women with classic VVC symptoms. TeleDirectMD&apos;s self-pay rate is $49. <a href="/insurance/aetna/california/yeast-infection-treatment/">Aetna is in-network</a> as of April 30, 2026. UnitedHealthcare Commercial is approved effective May 29, 2026.
+                <strong>Yes.</strong> <a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=2290.5.&lawCode=BPC" rel="noopener" target="_blank">California Business and Professions Code Section 2290.5</a> — the Telehealth Advancement Act — authorizes California-licensed physicians to evaluate and treat uncomplicated vulvovaginal candidiasis (VVC) via synchronous video visit without a prior in-person examination. The <a href="https://www.mbc.ca.gov/Resources/Medical-Resources/telehealth.aspx" rel="noopener" target="_blank">Medical Board of California</a> holds telehealth physicians to the same standard of care as in-person physicians. Classic VVC — thick white discharge, vulvar itching, burning — can be reliably assessed by history when symptoms are typical and a prior diagnosis is established. Per <a href="https://www.acog.org/clinical/clinical-guidance/practice-bulletin/articles/2020/06/vaginitis-in-nonpregnant-patients" rel="noopener" target="_blank">ACOG Practice Bulletin 215</a>, empiric oral fluconazole 150 mg is appropriate for women with classic VVC symptoms. TeleDirectMD&apos;s self-pay rate is $79. <a href="/insurance/aetna/california/yeast-infection-treatment/">Aetna is in-network</a> as of April 30, 2026. UnitedHealthcare Commercial is approved effective May 29, 2026.
               </p>
               <small className="tdmd-condition-opener__meta">
                 Reviewed by <a href="/about/">Parth Bhavsar, MD</a> — Board-Certified Family Medicine · NPI 1104323203 · Licensed in California · Last reviewed May 20, 2026
@@ -519,7 +519,7 @@ export default function CaYeastInfectionTreatmentOnline() {
                 <div className="tdmd-decision-number">1</div>
                 <div className="tdmd-decision-content">
                   <h3>Book your California video visit</h3>
-                  <p>No referral or insurance required. Self pay $49. Many visits available same day. Before your visit, note your symptoms, how long they have lasted, any prior yeast infection diagnoses, recent antibiotics, current medications, and pregnancy status.</p>
+                  <p>No referral or insurance required. Self pay $79. Many visits available same day. Before your visit, note your symptoms, how long they have lasted, any prior yeast infection diagnoses, recent antibiotics, current medications, and pregnancy status.</p>
                 </div>
               </div>
               <div className="tdmd-decision-step tdmd-decision-step-check">
@@ -547,12 +547,12 @@ export default function CaYeastInfectionTreatmentOnline() {
         <section className="tdmd-section tdmd-section-highlight" id={`${pid}-cost`}>
           <div className="tdmd-container">
             <h2>Yeast Infection Treatment Cost &amp; Insurance in California</h2>
-            <p>TeleDirectMD&apos;s self-pay rate is <strong>$49</strong> for a complete MD video visit. In-network insurance patients pay their plan&apos;s telehealth copay. The table below reflects TeleDirectMD payor enrollment for California, refreshed May 20, 2026.</p>
+            <p>TeleDirectMD&apos;s self-pay rate is <strong>$79</strong> for a complete MD video visit. In-network insurance patients pay their plan&apos;s telehealth copay. The table below reflects TeleDirectMD payor enrollment for California, refreshed May 20, 2026.</p>
 
             <div className="tdmd-price-grid">
               <div className="tdmd-price-card" aria-label="TeleDirectMD pricing">
                 <h3>TeleDirectMD Video Visit</h3>
-                <p className="tdmd-price-big">$49</p>
+                <p className="tdmd-price-big">$79</p>
                 <p className="tdmd-price-sub">Self-pay flat fee — no subscription</p>
                 <ul className="tdmd-price-includes">
                   <li>Board-certified MD video evaluation</li>
@@ -568,7 +568,7 @@ export default function CaYeastInfectionTreatmentOnline() {
                 <p className="tdmd-price-caption">Common ranges before insurance. Actual costs vary.</p>
                 <div className="tdmd-vbars" role="list" aria-label="Cost comparison bars">
                   {[
-                    { name: 'TeleDirectMD video visit', value: '$49', heightPct: 8, isTdmd: true },
+                    { name: 'TeleDirectMD video visit', value: '$79', heightPct: 13, isTdmd: true },
                     { name: 'Other telehealth', value: '$75–$150', heightPct: 22 },
                     { name: 'Urgent care', value: '$150–$300', heightPct: 45 },
                     { name: 'ER visit', value: '$500–$3,000+', heightPct: 100 },
@@ -663,7 +663,7 @@ export default function CaYeastInfectionTreatmentOnline() {
                   <li>No fever, pelvic pain, skin lesions, or STI exposure</li>
                   <li>Not pregnant</li>
                   <li>Adult 18+, located in California</li>
-                  <li>Aetna or UHC Commercial (in-network), or self pay $49</li>
+                  <li>Aetna or UHC Commercial (in-network), or self pay $79</li>
                 </ul>
               </div>
               <div className="tdmd-ca-yeast__dual-card tdmd-ca-yeast__dual-card--alert">
@@ -687,7 +687,7 @@ export default function CaYeastInfectionTreatmentOnline() {
             <div className="tdmd-ca-yeast__cta-strip" role="complementary">
               <div>
                 <p>Book a same-day video visit — California adults, 18+</p>
-                <small>Self pay $49 · Aetna in-network · UHC Commercial approved May 2026 · No ER wait</small>
+                <small>Self pay $79 · Aetna in-network · UHC Commercial approved May 2026 · No ER wait</small>
               </div>
               <a className="tdmd-ca-yeast__cta-btn" href="/book-online" rel="noopener">Book Now →</a>
             </div>
@@ -705,7 +705,7 @@ export default function CaYeastInfectionTreatmentOnline() {
             <div className="tdmd-bottom-cta" role="region" aria-label="Book a visit call to action">
               <div className="tdmd-bottom-cta-copy">
                 <h3>Ready to see a California-licensed MD?</h3>
-                <p>Book a same-day video visit. Self pay $49 · Aetna in-network · UHC Commercial approved.</p>
+                <p>Book a same-day video visit. Self pay $79 · Aetna in-network · UHC Commercial approved.</p>
               </div>
               <div className="tdmd-bottom-cta-actions">
                 <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>

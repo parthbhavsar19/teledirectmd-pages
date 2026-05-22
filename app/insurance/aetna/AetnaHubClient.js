@@ -16,9 +16,9 @@ const AETNA_FAQS = [
   { q: "What is my copay for a TeleDirectMD visit with Aetna?", a: "Copays vary by plan. Most Aetna commercial plans have a telehealth copay of $0–$40. To find your exact cost, log in to your Aetna member portal at aetna.com, call the member services number on your insurance card, or simply ask us at booking — we will verify your benefits before your visit." },
   { q: "Does Aetna cover telehealth for urgent care conditions?", a: "Yes. Aetna covers telehealth for urgent care conditions including UTI, sinus infection, ear infection, strep throat, pink eye, and similar conditions. These are exactly the conditions TeleDirectMD specializes in treating via video visit." },
   { q: "Does Aetna cover prescription refills through telemedicine?", a: "Yes. Aetna covers telemedicine visits for prescription refills for stable chronic conditions including asthma, hypertension, hypothyroidism, hyperlipidemia, and acid reflux. The prescription is sent to your pharmacy immediately after the visit." },
-  { q: "How do I book a TeleDirectMD visit using my Aetna insurance?", a: "Book at teledirectmd.com/book-online and select 'Insurance' as your payment method. Have your Aetna member ID card ready. We will verify your coverage before your visit. If you prefer, you can also book as a self-pay patient for a flat $49 fee." },
-  { q: "What if my specific Aetna plan is not covered?", a: "If your specific Aetna plan is not in-network with TeleDirectMD, you can still see Dr. Bhavsar as a self-pay patient for a flat $49 fee. No insurance is required. You may also be able to submit an out-of-network claim to Aetna for partial reimbursement — contact Aetna to ask about your out-of-network benefits." },
-  { q: "Does TeleDirectMD accept Aetna Medicaid?", a: "No. TeleDirectMD does not currently accept Aetna Medicaid (Aetna Better Health) plans. We accept Aetna commercial plans only. If you have Aetna Medicaid, you may book as a self-pay patient for $49." },
+  { q: "How do I book a TeleDirectMD visit using my Aetna insurance?", a: "Book at teledirectmd.com/book-online and select 'Insurance' as your payment method. Have your Aetna member ID card ready. We will verify your coverage before your visit. If you prefer, you can also book as a self-pay patient for a flat $79 fee." },
+  { q: "What if my specific Aetna plan is not covered?", a: "If your specific Aetna plan is not in-network with TeleDirectMD, you can still see Dr. Bhavsar as a self-pay patient for a flat $79 fee. No insurance is required. You may also be able to submit an out-of-network claim to Aetna for partial reimbursement — contact Aetna to ask about your out-of-network benefits." },
+  { q: "Does TeleDirectMD accept Aetna Medicaid?", a: "No. TeleDirectMD does not currently accept Aetna Medicaid (Aetna Better Health) plans. We accept Aetna commercial plans only. If you have Aetna Medicaid, you may book as a self-pay patient for $79." },
   { q: "Is Aetna Medicare Advantage accepted?", a: "Currently, TeleDirectMD accepts Aetna commercial plans. Aetna Medicare Advantage acceptance varies by state — contact us at contact@teledirectmd.com to ask about your specific plan." },
 ];
 
@@ -281,7 +281,7 @@ export default function AetnaHubClient() {
           <div style={{ display:"grid", gridTemplateColumns:"repeat(auto-fit, minmax(240px, 1fr))", gap:16 }}>
             {[
               { title:"With Aetna Insurance", color:insurer.color, colorLight:insurer.colorLight, items:["Standard Aetna telehealth copay ($0–$40 for most plans)","Deductible applies if not yet met","Coinsurance may apply after deductible","Contact Aetna to verify your exact cost"] },
-              { title:"Without Insurance (Self-Pay)", color:B.accent, colorLight:"#FFF0EC", items:["Flat $49 per visit — always","No copay, no deductible, no surprise bills","No insurance needed","Available in all 40+ licensed states"] },
+              { title:"Without Insurance (Self-Pay)", color:B.accent, colorLight:"#FFF0EC", items:["Flat $79 per visit — always","No copay, no deductible, no surprise bills","No insurance needed","Available in all 40+ licensed states"] },
             ].map((card, i) => (
               <div key={i} style={{ background:B.white, border:`2px solid ${card.color}22`, borderRadius:B.r, padding:"24px 20px", borderTop:`3px solid ${card.color}`, boxShadow:B.shadow }}>
                 <h3 style={{ fontFamily:B.fd, fontSize:18, fontWeight:700, color:B.navy, margin:"0 0 16px" }}>{card.title}</h3>
@@ -324,7 +324,7 @@ export default function AetnaHubClient() {
             ))}
           </div>
           <p style={{ fontSize:13, color:B.text, margin:"16px 0 0" }}>
-            Not seeing your state? <a href="/insurance" style={{ color:B.teal }}>Check all insurance options</a> or book a self-pay visit for $49.
+            Not seeing your state? <a href="/insurance" style={{ color:B.teal }}>Check all insurance options</a> or book a self-pay visit for $79.
           </p>
         </section>
 

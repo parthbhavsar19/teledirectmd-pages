@@ -2,14 +2,14 @@ import HomepageClient from './HomepageClient';
 import { getAggregateRating, getReviewBlock } from '../lib/review-schema';
 
 export const metadata = {
-  title: 'TeleDirectMD | $49 Online Doctor Visits — Board-Certified Telehealth',
+  title: 'TeleDirectMD | $79 Online Doctor Visits — Board-Certified Telehealth',
   description:
-    'See a board-certified family medicine doctor from home for just $49. No insurance needed. Treat 60+ conditions including urgent care, skin issues, STIs, and chronic refills. Licensed in 41 states + DC.',
+    'See a board-certified family medicine doctor from home for just $79. No insurance needed. Treat 60+ conditions including urgent care, skin issues, STIs, and chronic refills. Licensed in 41 states + DC.',
   alternates: { canonical: 'https://teledirectmd.com/' },
   openGraph: {
-    title: 'TeleDirectMD | $49 Online Doctor Visits',
+    title: 'TeleDirectMD | $79 Online Doctor Visits',
     description:
-      'Board-certified telehealth for $49. Urgent care, skin conditions, sexual health, chronic medication refills, and more — from the comfort of home.',
+      'Board-certified telehealth for $79. Urgent care, skin conditions, sexual health, chronic medication refills, and more — from the comfort of home.',
     url: 'https://teledirectmd.com/',
     siteName: 'TeleDirectMD',
     type: 'website',
@@ -24,9 +24,9 @@ export const metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'TeleDirectMD | $49 Online Doctor Visits',
+    title: 'TeleDirectMD | $79 Online Doctor Visits',
     description:
-      'Board-certified telehealth for $49. No insurance needed. 60+ conditions treated across 41 states + DC.',
+      'Board-certified telehealth for $79. No insurance needed. 60+ conditions treated across 41 states + DC.',
     images: ['https://teledirectmd.com/images/dr-parth-bhavsar.jpg'],
   },
 };
@@ -42,10 +42,10 @@ const jsonLd = {
       logo: 'https://teledirectmd.com/logo.webp',
       image: 'https://teledirectmd.com/images/dr-parth-bhavsar.jpg',
       description:
-        'TeleDirectMD is a physician-led telehealth practice providing $49 flat-fee virtual visits with a board-certified family medicine doctor across 41 states and DC.',
+        'TeleDirectMD is a physician-led telehealth practice providing $79 flat-fee virtual visits with a board-certified family medicine doctor across 41 states and DC.',
       telephone: '678-956-1855',
       email: 'contact@teledirectmd.com',
-      priceRange: '$49',
+      priceRange: '$79',
       currenciesAccepted: 'USD',
       paymentAccepted: 'Cash, Credit Card, Insurance (select states)',
       areaServed: {
@@ -159,9 +159,9 @@ const jsonLd = {
       '@type': 'WebPage',
       '@id': 'https://teledirectmd.com/',
       url: 'https://teledirectmd.com/',
-      name: 'TeleDirectMD | $49 Online Doctor Visits — Board-Certified Telehealth',
+      name: 'TeleDirectMD | $79 Online Doctor Visits — Board-Certified Telehealth',
       description:
-        'See a board-certified family medicine doctor from home for just $49. No insurance needed. Treat 60+ conditions across 40+ states.',
+        'See a board-certified family medicine doctor from home for just $79. No insurance needed. Treat 60+ conditions across 40+ states.',
       isPartOf: { '@id': 'https://teledirectmd.com/#website' },
     },
     {
@@ -169,7 +169,7 @@ const jsonLd = {
       '@id': 'https://teledirectmd.com/#website',
       url: 'https://teledirectmd.com/',
       name: 'TeleDirectMD',
-      description: 'Physician-led telehealth platform offering $49 board-certified online doctor visits in 42 US states + DC.',
+      description: 'Physician-led telehealth platform offering $79 board-certified online doctor visits in 42 US states + DC.',
       publisher: { '@id': 'https://teledirectmd.com/#organization' },
       inLanguage: 'en-US',
       potentialAction: {
@@ -185,17 +185,17 @@ const jsonLd = {
       '@type': 'HowTo',
       '@id': 'https://teledirectmd.com/#howto-book-visit',
       name: 'How to Book a TeleDirectMD Online Doctor Visit',
-      description: 'Three steps to see Dr. Parth Bhavsar, MD by video for $49 (cash-pay) or your insurance copay (Aetna, Blue Cross Blue Shield, United Healthcare in participating states).',
+      description: 'Three steps to see Dr. Parth Bhavsar, MD by video for $79 (cash-pay) or your insurance copay (Aetna, Blue Cross Blue Shield, United Healthcare in participating states).',
       totalTime: 'PT5M',
       supply: [
         { '@type': 'HowToSupply', name: 'A device with a camera (phone, tablet, or computer)' },
         { '@type': 'HowToSupply', name: 'A valid government-issued ID' },
-        { '@type': 'HowToSupply', name: 'Insurance card OR a payment method ($49 cash-pay)' },
+        { '@type': 'HowToSupply', name: 'Insurance card OR a payment method ($79 cash-pay)' },
       ],
       tool: [
         { '@type': 'HowToTool', name: 'TeleDirectMD secure video-visit platform' },
       ],
-      estimatedCost: { '@type': 'MonetaryAmount', currency: 'USD', value: '49' },
+      estimatedCost: { '@type': 'MonetaryAmount', currency: 'USD', value: '79' },
       step: [
         {
           '@type': 'HowToStep',

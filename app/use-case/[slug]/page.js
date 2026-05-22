@@ -137,7 +137,7 @@ export default async function UseCasePage({ params }) {
               </ul>
 
               <div className="tdmd-hero-ctas">
-                <a href="/book-online" className="tdmd-btn tdmd-btn-primary">{cfg.primaryCta || 'Start a $49 Visit With an MD'}</a>
+                <a href="/book-online" className="tdmd-btn tdmd-btn-primary">{cfg.primaryCta || 'Start a $79 Visit With an MD'}</a>
                 <a href="/insurance/" className="tdmd-btn tdmd-btn-outline">Use Insurance</a>
               </div>
 
@@ -298,15 +298,15 @@ export default async function UseCasePage({ params }) {
       {/* 12) Conditions cross-link */}
       <section className="tdmd-section tdmd-section-highlight" id={`${pid}-conditions`}>
         <div className="tdmd-container">
-          <h2>Common Conditions Treated at the $49 Visit</h2>
-          <p>The same flat $49 visit covers any of these adult conditions:</p>
+          <h2>Common Conditions Treated at the $79 Visit</h2>
+          <p>The same flat $79 visit covers any of these adult conditions:</p>
           <div className="tdmd-related-grid">
-            <a href="/uti-treatment-online/"             className="tdmd-related-card"><span className="tdmd-related-title">UTI Treatment</span><span className="tdmd-related-desc">$49 visit + $5\u2013$16 antibiotic</span></a>
-            <a href="/sinus-infection-treatment-online/" className="tdmd-related-card"><span className="tdmd-related-title">Sinus Infection</span><span className="tdmd-related-desc">$49 visit + $9\u2013$20 antibiotic if indicated</span></a>
-            <a href="/sore-throat-treatment-online/"     className="tdmd-related-card"><span className="tdmd-related-title">Sore Throat / Strep</span><span className="tdmd-related-desc">$49 visit + $9\u2013$18 amoxicillin if positive</span></a>
-            <a href="/hypertension-refills-online/"      className="tdmd-related-card"><span className="tdmd-related-title">Blood Pressure Refills</span><span className="tdmd-related-desc">$49 visit + $2\u2013$16 lisinopril</span></a>
-            <a href="/asthma-refills-online/"            className="tdmd-related-card"><span className="tdmd-related-title">Asthma Refills</span><span className="tdmd-related-desc">$49 visit + $19\u2013$24 albuterol</span></a>
-            <a href="/birth-control-refills-online/"     className="tdmd-related-card"><span className="tdmd-related-title">Birth Control Refills</span><span className="tdmd-related-desc">$49 visit + $5\u2013$30 generic</span></a>
+            <a href="/uti-treatment-online/"             className="tdmd-related-card"><span className="tdmd-related-title">UTI Treatment</span><span className="tdmd-related-desc">$79 visit + $5\u2013$16 antibiotic</span></a>
+            <a href="/sinus-infection-treatment-online/" className="tdmd-related-card"><span className="tdmd-related-title">Sinus Infection</span><span className="tdmd-related-desc">$79 visit + $9\u2013$20 antibiotic if indicated</span></a>
+            <a href="/sore-throat-treatment-online/"     className="tdmd-related-card"><span className="tdmd-related-title">Sore Throat / Strep</span><span className="tdmd-related-desc">$79 visit + $9\u2013$18 amoxicillin if positive</span></a>
+            <a href="/hypertension-refills-online/"      className="tdmd-related-card"><span className="tdmd-related-title">Blood Pressure Refills</span><span className="tdmd-related-desc">$79 visit + $2\u2013$16 lisinopril</span></a>
+            <a href="/asthma-refills-online/"            className="tdmd-related-card"><span className="tdmd-related-title">Asthma Refills</span><span className="tdmd-related-desc">$79 visit + $19\u2013$24 albuterol</span></a>
+            <a href="/birth-control-refills-online/"     className="tdmd-related-card"><span className="tdmd-related-title">Birth Control Refills</span><span className="tdmd-related-desc">$79 visit + $5\u2013$30 generic</span></a>
           </div>
           <div className="tdmd-related-cta" style={{ marginTop: '1rem' }}>
             <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">View all 60 conditions we treat</a>
@@ -318,14 +318,14 @@ export default async function UseCasePage({ params }) {
       <section className="tdmd-section" id={`${pid}-insurance`}>
         <div className="tdmd-container" data-speakable="true">
           <h2>Insurance Accepted (Select States)</h2>
-          <p>TeleDirectMD is in-network with three major insurers. Your standard telehealth copay applies in place of the $49 self-pay fee.</p>
+          <p>TeleDirectMD is in-network with three major insurers. Your standard telehealth copay applies in place of the $79 self-pay fee.</p>
           <div className="tdmd-related-grid">
             <a href="/insurance/aetna/"                   className="tdmd-related-card"><span className="tdmd-related-title">Aetna</span><span className="tdmd-related-desc">In-network in 10 states</span></a>
             <a href="/insurance/blue-cross-blue-shield/"  className="tdmd-related-card"><span className="tdmd-related-title">Blue Cross Blue Shield</span><span className="tdmd-related-desc">In-network in 5 states</span></a>
             <a href="/insurance/united-healthcare/"        className="tdmd-related-card"><span className="tdmd-related-title">UnitedHealthcare</span><span className="tdmd-related-desc">In-network in 11 states</span></a>
           </div>
           <p style={{ marginTop: '1rem', fontSize: '0.92rem', color: 'var(--tdmd-muted)' }}>
-            Don\u2019t see your plan? <a href="/insurance/" style={{ color: 'var(--tdmd-teal)', fontWeight: 600 }}>View all insurance options</a> or book the flat $49 self-pay visit.
+            Don\u2019t see your plan? <a href="/insurance/" style={{ color: 'var(--tdmd-teal)', fontWeight: 600 }}>View all insurance options</a> or book the flat $79 self-pay visit.
           </p>
         </div>
       </section>
@@ -386,10 +386,10 @@ export default async function UseCasePage({ params }) {
       {/* 15) Pricing reinforcement */}
       <section className="tdmd-section tdmd-section-highlight" id={`${pid}-price-card`}>
         <div className="tdmd-container">
-          <h2>$49 Flat. HSA / FSA Accepted.</h2>
+          <h2>$79 Flat. HSA / FSA Accepted.</h2>
           <div className="tdmd-price-grid">
             <div className="tdmd-price-card">
-              <div className="tdmd-price-big">$49</div>
+              <div className="tdmd-price-big">$79</div>
               <div className="tdmd-price-sub">One flat fee covers your entire visit</div>
               <ul className="tdmd-price-includes">
                 <li>Board-certified MD video consultation</li>
@@ -423,11 +423,11 @@ export default async function UseCasePage({ params }) {
         <div className="tdmd-container">
           <div className="tdmd-bottom-cta">
             <div className="tdmd-bottom-cta-copy">
-              <h3>$49. Live MD video. 41 states. Same-day evenings & weekends.</h3>
+              <h3>$79. Live MD video. 41 states. Same-day evenings & weekends.</h3>
               <p>{cfg.finalCtaSub || 'Book a visit in under two minutes.'}</p>
             </div>
             <div className="tdmd-bottom-cta-actions">
-              <a href="/book-online" className="tdmd-btn tdmd-btn-primary">{cfg.primaryCta || 'Start a $49 Visit With an MD'}</a>
+              <a href="/book-online" className="tdmd-btn tdmd-btn-primary">{cfg.primaryCta || 'Start a $79 Visit With an MD'}</a>
               <a href="/insurance/" className="tdmd-btn tdmd-btn-outline">Use Insurance</a>
             </div>
           </div>

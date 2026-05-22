@@ -11,7 +11,7 @@ export async function generateMetadata() {
   const totalConditions = categories.reduce((sum, cat) => sum + cat.conditions.length, 0);
 
   const title = `What We Treat Online | ${totalConditions}+ Conditions via Video Visit | TeleDirectMD`;
-  const description = `TeleDirectMD treats ${totalConditions}+ adult conditions via secure video visits with board-certified MDs. $49 flat fee, select insurances accepted, same-day appointments in 40+ states. Urgent care, skin conditions, men's health, lifestyle medicine, and chronic medication refills.`;
+  const description = `TeleDirectMD treats ${totalConditions}+ adult conditions via secure video visits with board-certified MDs. $79 flat fee, select insurances accepted, same-day appointments in 40+ states. Urgent care, skin conditions, men's health, lifestyle medicine, and chronic medication refills.`;
   const pageUrl = 'https://teledirectmd.com/what-we-treat';
 
   return {
@@ -42,7 +42,7 @@ function buildJsonLd(categories, allStates) {
         url: `${baseUrl}/${c.slug}`,
         procedureType: 'Telemedicine consultation',
       },
-      price: '49',
+      price: '79',
       priceCurrency: 'USD',
       seller: { '@id': `${baseUrl}#organization` },
     })),
@@ -64,7 +64,7 @@ function buildJsonLd(categories, allStates) {
         '@id': `${baseUrl}/what-we-treat#webpage`,
         url: `${baseUrl}/what-we-treat`,
         name: `What We Treat Online | ${totalConditions}+ Conditions via Video Visit | TeleDirectMD`,
-        description: `TeleDirectMD treats ${totalConditions}+ adult conditions via secure video visits with board-certified MDs. $49 flat fee, select insurances accepted, same-day appointments in 40+ states. Urgent care, skin conditions, men's health, lifestyle medicine, and chronic medication refills.`,
+        description: `TeleDirectMD treats ${totalConditions}+ adult conditions via secure video visits with board-certified MDs. $79 flat fee, select insurances accepted, same-day appointments in 40+ states. Urgent care, skin conditions, men's health, lifestyle medicine, and chronic medication refills.`,
         inLanguage: 'en-US',
         breadcrumb: { '@id': `${baseUrl}/what-we-treat#breadcrumbs` },
         isPartOf: { '@type': 'WebSite', name: 'TeleDirectMD', url: baseUrl },
@@ -84,8 +84,8 @@ function buildJsonLd(categories, allStates) {
         url: baseUrl,
         telephone: '+1-678-956-1855',
         email: 'contact@teledirectmd.com',
-        description: `TeleDirectMD is an MD-only virtual urgent care practice offering $49 flat-fee video visits for adults 18+ in 40+ states. Board-certified physicians evaluate and treat ${totalConditions}+ conditions including UTIs, sinus infections, skin conditions, erectile dysfunction, and chronic medication refills. Select insurance plans also accepted. Featured in TIME, Newsweek, HuffPost, and 21+ national publications.`,
-        priceRange: '$49',
+        description: `TeleDirectMD is an MD-only virtual urgent care practice offering $79 flat-fee video visits for adults 18+ in 40+ states. Board-certified physicians evaluate and treat ${totalConditions}+ conditions including UTIs, sinus infections, skin conditions, erectile dysfunction, and chronic medication refills. Select insurance plans also accepted. Featured in TIME, Newsweek, HuffPost, and 21+ national publications.`,
+        priceRange: '$79',
         paymentAccepted: ['Credit Card', 'Debit Card', 'Select Insurance Plans'],
         currenciesAccepted: 'USD',
         medicalSpecialty: ['Family Medicine', 'Urgent Care', 'Dermatology', 'Telemedicine'],
@@ -126,7 +126,7 @@ function buildJsonLd(categories, allStates) {
         '@type': 'OfferCatalog',
         '@id': `${baseUrl}/what-we-treat#servicecatalog`,
         name: 'TeleDirectMD Conditions Treated',
-        description: `Complete catalog of ${totalConditions}+ adult conditions treated via secure video visit by board-certified MDs at TeleDirectMD for $49 flat fee.`,
+        description: `Complete catalog of ${totalConditions}+ adult conditions treated via secure video visit by board-certified MDs at TeleDirectMD for $79 flat fee.`,
         numberOfItems: totalConditions,
         itemListElement: offerCatalogs,
       },
@@ -186,7 +186,7 @@ export default function WhatWeTreatPage() {
       >
         TeleDirectMD is an MD-only virtual urgent care practice founded by Dr. Parth Bhavsar, a board-certified physician.
         TeleDirectMD treats {categories.reduce((sum, cat) => sum + cat.conditions.length, 0)}+ adult conditions via secure video visits
-        for a $49 flat fee. Select insurance plans are also accepted. The practice operates in 40+ U.S. states
+        for a $79 flat fee. Select insurance plans are also accepted. The practice operates in 40+ U.S. states
         and offers same-day appointments. Conditions treated include urinary tract infections, sinus infections, bacterial vaginosis,
         yeast infections, COVID-19, influenza, acne, eczema, rosacea, erectile dysfunction, male pattern hair loss, genital warts,
         trichomoniasis, birth control refills, and chronic medication refills for hypertension, asthma, migraines, hypothyroidism,

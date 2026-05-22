@@ -59,9 +59,9 @@ const CA_PAYORS = [
   { name: 'UnitedHealthcare Commercial', status: 'Approved', effective: 'May 29, 2026', inNetwork: true,
     notes: 'Covers UHC Commercial and Medicare Advantage. Excludes Medi-Cal, Individual Exchange, and Navigate/Charter/Core plan types.' },
   { name: 'Anthem Blue Cross', status: 'Pending', effective: 'Pending determination', inNetwork: false,
-    notes: 'Enrollment pending — waiting for Anthem to confirm individual-provider enrollment for telehealth. Self pay ($49) available.' },
+    notes: 'Enrollment pending — waiting for Anthem to confirm individual-provider enrollment for telehealth. Self pay ($79) available.' },
   { name: 'Cigna', status: 'Pending', effective: 'Pending determination', inNetwork: false,
-    notes: 'Pending — Telehealth Only review in progress. Self pay ($49) available.' },
+    notes: 'Pending — Telehealth Only review in progress. Self pay ($79) available.' },
   { name: 'Kaiser Permanente', status: 'Closed system', effective: '—', inNetwork: false,
     notes: 'Kaiser is a closed health system. Use Kaiser telehealth at kp.org. TeleDirectMD self pay is available but Kaiser will not reimburse out-of-network visits.' },
   { name: 'Medi-Cal', status: 'Not enrolled', effective: '—', inNetwork: false,
@@ -107,7 +107,7 @@ const FAQ_ITEMS = [
   { question: 'Can I get UTI treatment online in California?',
     answer: (
       <p>
-        Yes. <a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=2290.5.&lawCode=BPC" rel="noopener" target="_blank">California Business and Professions Code Section 2290.5</a> — the Telehealth Advancement Act — permits licensed physicians to deliver care via synchronous video telehealth without a prior in-person visit. TeleDirectMD physicians are licensed in California and held to the same standard of care as in-person physicians by the <a href="https://www.mbc.ca.gov/Resources/Medical-Resources/telehealth.aspx" rel="noopener" target="_blank">Medical Board of California</a>. Adults 18+ located in California can book a same-day video visit. If your symptoms are consistent with uncomplicated cystitis and you pass a red-flag screening, a prescription can be sent electronically to your California pharmacy. Self pay is $49. <a href="/insurance/aetna/california/uti-treatment/">Aetna is in-network</a> as of April 30, 2026.
+        Yes. <a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=2290.5.&lawCode=BPC" rel="noopener" target="_blank">California Business and Professions Code Section 2290.5</a> — the Telehealth Advancement Act — permits licensed physicians to deliver care via synchronous video telehealth without a prior in-person visit. TeleDirectMD physicians are licensed in California and held to the same standard of care as in-person physicians by the <a href="https://www.mbc.ca.gov/Resources/Medical-Resources/telehealth.aspx" rel="noopener" target="_blank">Medical Board of California</a>. Adults 18+ located in California can book a same-day video visit. If your symptoms are consistent with uncomplicated cystitis and you pass a red-flag screening, a prescription can be sent electronically to your California pharmacy. Self pay is $79. <a href="/insurance/aetna/california/uti-treatment/">Aetna is in-network</a> as of April 30, 2026.
       </p>
     ),
   },
@@ -121,7 +121,7 @@ const FAQ_ITEMS = [
   { question: 'Is my Aetna plan in California in-network with TeleDirectMD?',
     answer: (
       <p>
-        Aetna became an active in-network payor for TeleDirectMD in California effective April 30, 2026. If you hold an Aetna commercial plan in California, you may be able to use your in-network benefits. Always verify current in-network status directly with Aetna before your visit, as plan eligibility varies by specific plan type. See <a href="/insurance/aetna/california/uti-treatment/">Aetna × California × UTI coverage details</a>. Self pay ($49) is available regardless of insurance status.
+        Aetna became an active in-network payor for TeleDirectMD in California effective April 30, 2026. If you hold an Aetna commercial plan in California, you may be able to use your in-network benefits. Always verify current in-network status directly with Aetna before your visit, as plan eligibility varies by specific plan type. See <a href="/insurance/aetna/california/uti-treatment/">Aetna × California × UTI coverage details</a>. Self pay ($79) is available regardless of insurance status.
       </p>
     ),
   },
@@ -135,14 +135,14 @@ const FAQ_ITEMS = [
   { question: 'Will Medi-Cal cover my TeleDirectMD visit in California?',
     answer: (
       <p>
-        TeleDirectMD is not currently enrolled as a Medi-Cal provider. <a href="https://www.dhcs.ca.gov/provgovpart/Pages/TelehealthFAQ.aspx" rel="noopener" target="_blank">California DHCS</a> confirms that Medi-Cal covers telehealth for physical health services when the provider is an enrolled Medi-Cal rendering provider. If you have Medi-Cal, you can use the $49 self-pay rate, or find a Medi-Cal-enrolled telehealth provider through your managed care plan or the DHCS directory at dhcs.ca.gov.
+        TeleDirectMD is not currently enrolled as a Medi-Cal provider. <a href="https://www.dhcs.ca.gov/provgovpart/Pages/TelehealthFAQ.aspx" rel="noopener" target="_blank">California DHCS</a> confirms that Medi-Cal covers telehealth for physical health services when the provider is an enrolled Medi-Cal rendering provider. If you have Medi-Cal, you can use the $79 self-pay rate, or find a Medi-Cal-enrolled telehealth provider through your managed care plan or the DHCS directory at dhcs.ca.gov.
       </p>
     ),
   },
   { question: 'What if I am on a Kaiser Permanente plan in California?',
     answer: (
       <p>
-        Kaiser Permanente operates as a closed health system in California. TeleDirectMD is not part of the Kaiser network. Use Kaiser&apos;s telehealth services at kp.org or call your Kaiser advice line. TeleDirectMD&apos;s $49 self-pay option is available to Kaiser members, but Kaiser will not reimburse out-of-network visits.
+        Kaiser Permanente operates as a closed health system in California. TeleDirectMD is not part of the Kaiser network. Use Kaiser&apos;s telehealth services at kp.org or call your Kaiser advice line. TeleDirectMD&apos;s $79 self-pay option is available to Kaiser members, but Kaiser will not reimburse out-of-network visits.
       </p>
     ),
   },
@@ -217,7 +217,7 @@ function buildSchemas() {
     '@type': 'MedicalWebPage',
     name: PAGE_TITLE,
     url: PAGE_URL,
-    description: 'UTI treatment by secure video visit for California adults. Board-certified Family Medicine physician. California telehealth law compliant. Aetna in-network. UHC Commercial approved. Self pay $49. Evidence-based antibiotic stewardship.',
+    description: 'UTI treatment by secure video visit for California adults. Board-certified Family Medicine physician. California telehealth law compliant. Aetna in-network. UHC Commercial approved. Self pay $79. Evidence-based antibiotic stewardship.',
     datePublished: DATE_PUBLISHED,
     dateModified: DATE_MODIFIED,
     inLanguage: 'en-US',
@@ -278,9 +278,9 @@ function buildSchemas() {
     name: 'How to Get UTI Treatment Online in California',
     description: 'Three steps to receive UTI evaluation and, if appropriate, an antibiotic prescription from a California-licensed board-certified physician.',
     totalTime: 'PT30M',
-    estimatedCost: { '@type': 'MonetaryAmount', currency: 'USD', value: '49' },
+    estimatedCost: { '@type': 'MonetaryAmount', currency: 'USD', value: '79' },
     step: [
-      { '@type': 'HowToStep', position: 1, name: 'Book your video visit', text: 'Visit teledirectmd.com and select California UTI treatment. No referral needed. Self pay $49. Many visits available same day.', url: 'https://teledirectmd.com/book-online' },
+      { '@type': 'HowToStep', position: 1, name: 'Book your video visit', text: 'Visit teledirectmd.com and select California UTI treatment. No referral needed. Self pay $79. Many visits available same day.', url: 'https://teledirectmd.com/book-online' },
       { '@type': 'HowToStep', position: 2, name: 'See a California-licensed MD by secure video', text: 'Connect with a board-certified Family Medicine physician licensed in California. The physician reviews symptoms, history, risk factors, and performs red-flag screening. Consent per CA B&P Section 2290.5 confirmed.', url: PAGE_URL },
       { '@type': 'HowToStep', position: 3, name: 'Receive your treatment plan and e-prescription', text: 'If medication is appropriate, a California-compliant e-prescription is sent to your chosen pharmacy during or after the visit. Follow-up instructions provided regardless of treatment choice.', url: PAGE_URL },
     ],
@@ -428,7 +428,7 @@ export default function CaUtiTreatmentOnline() {
 
         {/* v3: cyan "Answer block" fenced widget removed. Hero is the first
             visual element after the breadcrumb. The same AI-extraction signals
-            (same-day video visit, $49, Aetna in-network, UHC approved) now
+            (same-day video visit, $79, Aetna in-network, UHC approved) now
             live in the inline opener paragraph below the hero. */},
         {/* ─── 1) HERO ────────────────────────────────────────────────────── */}
         <section className="tdmd-hero" id={`${pid}-hero`}>
@@ -437,7 +437,7 @@ export default function CaUtiTreatmentOnline() {
               <div className="tdmd-hero-copy">
                 <h1 data-speakable="true">UTI Treatment Online in California (Acute Uncomplicated Cystitis)</h1>
                 <p className="tdmd-hero-sub" data-speakable="true">
-                  California adult care by secure video visit. Self pay $49 · Aetna in-network · UHC Commercial approved · MD-only · CA B&amp;P §2290.5 compliant.
+                  California adult care by secure video visit. Self pay $79 · Aetna in-network · UHC Commercial approved · MD-only · CA B&amp;P §2290.5 compliant.
                 </p>
                 <p>
                   A urinary tract infection (UTI), often called a bladder infection, commonly causes burning with urination, urinary frequency, and urgency. Not every patient with these symptoms needs antibiotics, and not every urinary complaint is a simple bladder infection. TeleDirectMD uses a safety-first telehealth approach that screens for red flags — fever, flank pain, pregnancy, catheter use, immunosuppression, recent urologic procedures — before determining whether treatment by video visit is appropriate. If the history supports uncomplicated cystitis without red flags, guideline-based antibiotic treatment may be reasonable by video; adults with pyelonephritis concern, complicated UTI, or severe illness are directed to urgent in-person care. This page is for adults located in California, including {caCities.join(', ')}, and surrounding areas.
@@ -469,7 +469,7 @@ export default function CaUtiTreatmentOnline() {
                 </ul>
 
                 <ul className="tdmd-hero-benefits">
-                  <li>Self pay $49 — no insurance required</li>
+                  <li>Self pay $79 — no insurance required</li>
                   <li>MD-only care (no mid-levels)</li>
                   <li>Aetna in-network (effective April 30, 2026)</li>
                   <li>UnitedHealthcare Commercial approved (effective May 29, 2026)</li>
@@ -477,7 +477,7 @@ export default function CaUtiTreatmentOnline() {
                 </ul>
 
                 <div className="tdmd-hero-ctas">
-                  <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit — $49</a>
+                  <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
                   <a href="/ca/" className="tdmd-btn tdmd-btn-outline">Explore California Pages</a>
                   <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
                 </div>
@@ -606,12 +606,12 @@ export default function CaUtiTreatmentOnline() {
         <section className="tdmd-section tdmd-section-highlight" id={`${pid}-cost`}>
           <div className="tdmd-container">
             <h2>UTI Treatment Cost &amp; Insurance in California</h2>
-            <p>TeleDirectMD&apos;s self-pay rate is <strong>$49</strong> for a complete MD video visit, including evaluation, treatment plan, and e-prescription. Patients with in-network insurance pay their plan&apos;s telehealth copay instead. The table below reflects the current TeleDirectMD payor enrollment for California, refreshed from the internal payor enrollment system on May 19, 2026.</p>
+            <p>TeleDirectMD&apos;s self-pay rate is <strong>$79</strong> for a complete MD video visit, including evaluation, treatment plan, and e-prescription. Patients with in-network insurance pay their plan&apos;s telehealth copay instead. The table below reflects the current TeleDirectMD payor enrollment for California, refreshed from the internal payor enrollment system on May 19, 2026.</p>
 
             <div className="tdmd-price-grid">
               <div className="tdmd-price-card" aria-label="TeleDirectMD pricing">
                 <h3>TeleDirectMD Video Visit</h3>
-                <p className="tdmd-price-big">$49</p>
+                <p className="tdmd-price-big">$79</p>
                 <p className="tdmd-price-sub">Self-pay flat fee — no subscription</p>
                 <ul className="tdmd-price-includes">
                   <li>Board-certified MD video evaluation</li>
@@ -627,7 +627,7 @@ export default function CaUtiTreatmentOnline() {
                 <p className="tdmd-price-caption">Common ranges Californians see before insurance. Actual costs vary by setting and city.</p>
                 <div className="tdmd-vbars" role="list" aria-label="Cost comparison bars">
                   {[
-                    { name: 'TeleDirectMD video visit', value: '$49', heightPct: 8, isTdmd: true },
+                    { name: 'TeleDirectMD video visit', value: '$79', heightPct: 13, isTdmd: true },
                     { name: 'Other telehealth', value: '$75–$150', heightPct: 22 },
                     { name: 'Urgent care', value: '$150–$300', heightPct: 45 },
                     { name: 'ER visit', value: '$500–$3,000+', heightPct: 100 },
@@ -756,7 +756,7 @@ export default function CaUtiTreatmentOnline() {
                   <li>Not pregnant</li>
                   <li>No catheter or recent urologic procedure</li>
                   <li>Adult 18+, located in California</li>
-                  <li>Aetna or UHC Commercial plan (in-network), or self pay $49</li>
+                  <li>Aetna or UHC Commercial plan (in-network), or self pay $79</li>
                 </ul>
               </div>
               <div className="tdmd-ca-uti__dual-card tdmd-ca-uti__dual-card--alert">
@@ -780,7 +780,7 @@ export default function CaUtiTreatmentOnline() {
             <div className="tdmd-ca-uti__cta-strip" role="complementary">
               <div>
                 <p>Book a same-day video visit — California adults, 18+</p>
-                <small>Self pay $49 · Aetna in-network · UHC Commercial approved May 2026 · No ER wait</small>
+                <small>Self pay $79 · Aetna in-network · UHC Commercial approved May 2026 · No ER wait</small>
               </div>
               <a className="tdmd-ca-uti__cta-btn" href="/book-online" rel="noopener">Book Now →</a>
             </div>
@@ -798,7 +798,7 @@ export default function CaUtiTreatmentOnline() {
             <div className="tdmd-bottom-cta" role="region" aria-label="Book a visit call to action">
               <div className="tdmd-bottom-cta-copy">
                 <h3>Ready to see a California-licensed MD?</h3>
-                <p>Book a same-day video visit. Self pay $49 · Aetna in-network · UHC Commercial approved.</p>
+                <p>Book a same-day video visit. Self pay $79 · Aetna in-network · UHC Commercial approved.</p>
               </div>
               <div className="tdmd-bottom-cta-actions">
                 <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>

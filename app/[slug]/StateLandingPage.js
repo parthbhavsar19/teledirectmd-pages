@@ -61,7 +61,7 @@ export default function StateLandingPage({ stateSlug }) {
         "url": pageUrl,
         "telephone": "+1-678-956-1855",
         "email": "contact@teledirectmd.com",
-        "description": `TeleDirectMD provides MD-only telehealth video visits in ${state.name} for ${totalConditions} adult conditions, starting at $49.${hasInsurance ? ' Select insurance plans accepted.' : ' No insurance required.'}`,
+        "description": `TeleDirectMD provides MD-only telehealth video visits in ${state.name} for ${totalConditions} adult conditions, starting at $79.${hasInsurance ? ' Select insurance plans accepted.' : ' No insurance required.'}`,
         "areaServed": {
           "@type": "AdministrativeArea",
           "name": state.name,
@@ -69,7 +69,7 @@ export default function StateLandingPage({ stateSlug }) {
         },
         "medicalSpecialty": ["Primary Care", "Family Medicine", "Telemedicine"],
         "parentOrganization": { "@id": `${baseUrl}#organization` },
-        "priceRange": "$49",
+        "priceRange": "$79",
         "isAcceptingNewPatients": true,
         "availableService": categories.map((cat) => ({
           "@type": "MedicalProcedure",
@@ -102,7 +102,7 @@ export default function StateLandingPage({ stateSlug }) {
         "@id": `${pageUrl}#webpage`,
         "url": pageUrl,
         "name": `Online Doctor in ${state.name} — TeleDirectMD`,
-        "description": `See an MD-only doctor online in ${state.name}. TeleDirectMD offers same-day video visits for ${totalConditions} adult conditions, starting at $49.`,
+        "description": `See an MD-only doctor online in ${state.name}. TeleDirectMD offers same-day video visits for ${totalConditions} adult conditions, starting at $79.`,
         "inLanguage": "en-US",
         "breadcrumb": { "@id": `${pageUrl}#breadcrumbs` },
         "isPartOf": { "@id": `${baseUrl}#website` },
@@ -125,12 +125,12 @@ export default function StateLandingPage({ stateSlug }) {
           {
             "@type": "Question",
             "name": `How much does a TeleDirectMD visit cost in ${state.name}?`,
-            "acceptedAnswer": { "@type": "Answer", "text": `TeleDirectMD visits start at $49. There are no hidden fees, no subscription required, and insurance is not needed.${hasInsurance ? ' Select insurance plans are also accepted — standard copays apply.' : ''} The visit fee covers the full consultation, diagnosis, treatment plan, and any prescribed medications sent directly to your preferred ${state.name} pharmacy.` }
+            "acceptedAnswer": { "@type": "Answer", "text": `TeleDirectMD visits start at $79. There are no hidden fees, no subscription required, and insurance is not needed.${hasInsurance ? ' Select insurance plans are also accepted — standard copays apply.' : ''} The visit fee covers the full consultation, diagnosis, treatment plan, and any prescribed medications sent directly to your preferred ${state.name} pharmacy.` }
           },
           {
             "@type": "Question",
             "name": `Do I need insurance for a TeleDirectMD visit in ${state.name}?`,
-            "acceptedAnswer": { "@type": "Answer", "text": hasInsurance ? `No, insurance is not required. TeleDirectMD offers a flat $49 self-pay option. However, we also accept select insurance plans in ${state.name}, including ${stateInsurers.map(i => i.name).join(', ')}. Visit our Insurance page for details.` : `No. TeleDirectMD is a self-pay telehealth service. Insurance is not required. The transparent $49 visit fee covers your entire consultation. We are actively expanding insurance coverage to more states.` }
+            "acceptedAnswer": { "@type": "Answer", "text": hasInsurance ? `No, insurance is not required. TeleDirectMD offers a flat $79 self-pay option. However, we also accept select insurance plans in ${state.name}, including ${stateInsurers.map(i => i.name).join(', ')}. Visit our Insurance page for details.` : `No. TeleDirectMD is a self-pay telehealth service. Insurance is not required. The transparent $79 visit fee covers your entire consultation. We are actively expanding insurance coverage to more states.` }
           },
           {
             "@type": "Question",
@@ -233,7 +233,7 @@ export default function StateLandingPage({ stateSlug }) {
             Online doctor in {state.name}:
           </p>
           <p style={{ margin: '0.35rem 0 0', color: '#003E52', fontSize: '0.97rem' }}>
-            TeleDirectMD provides same-day video visits with a board-certified MD in {state.name} for {totalConditions} adult conditions — starting at $49, no insurance required{hasInsurance ? `, though select plans are accepted in ${state.name}` : ''}. Book online, see a licensed physician via secure video, and get a prescription sent directly to your local {state.name} pharmacy.
+            TeleDirectMD provides same-day video visits with a board-certified MD in {state.name} for {totalConditions} adult conditions — starting at $79, no insurance required{hasInsurance ? `, though select plans are accepted in ${state.name}` : ''}. Book online, see a licensed physician via secure video, and get a prescription sent directly to your local {state.name} pharmacy.
           </p>
         </div>
       </div>
@@ -243,7 +243,7 @@ export default function StateLandingPage({ stateSlug }) {
         <div className="tdmd-container">
           <h1 data-speakable="true">Online Doctor in {state.name} — TeleDirectMD</h1>
           <p className="tdmd-state-hero-sub">
-            MD-only telehealth visits for {totalConditions} adult conditions. Same-day appointments, starting at $49{hasInsurance ? ' — select insurance plans accepted' : ' — no insurance required'}.
+            MD-only telehealth visits for {totalConditions} adult conditions. Same-day appointments, starting at $79{hasInsurance ? ' — select insurance plans accepted' : ' — no insurance required'}.
           </p>
           <p>
             TeleDirectMD connects you with a licensed physician in {state.name} through a secure video visit. Whether you need urgent care for a cold or UTI, a chronic medication refill for asthma or blood pressure, or treatment for a skin condition — we are here to help. Prescriptions are sent directly to your local {state.name} pharmacy.
@@ -255,7 +255,7 @@ export default function StateLandingPage({ stateSlug }) {
               <div className="tdmd-state-stat-label">Conditions treated</div>
             </div>
             <div className="tdmd-state-stat">
-              <div className="tdmd-state-stat-number">$49</div>
+              <div className="tdmd-state-stat-number">$79</div>
               <div className="tdmd-state-stat-label">Starting price</div>
             </div>
             <div className="tdmd-state-stat">
@@ -355,7 +355,7 @@ export default function StateLandingPage({ stateSlug }) {
           <div className="tdmd-pricing-simple">
             <div className="tdmd-pricing-card tdmd-pricing-card-highlight">
               <h3>Video Visit</h3>
-              <div className="tdmd-price-big">$49</div>
+              <div className="tdmd-price-big">$79</div>
               <p>One-time fee per visit — no subscription</p>
               <ul className="tdmd-pricing-includes">
                 <li>Full MD consultation via secure video</li>
@@ -380,7 +380,7 @@ export default function StateLandingPage({ stateSlug }) {
           </div>
 
           <p className="tdmd-cost-note">
-            <strong>No hidden fees.</strong> Your $49 visit fee is the complete cost for your TeleDirectMD consultation.{hasInsurance ? <> Select insurance plans are also accepted in {state.name} — <a href="/insurance" style={{ color: 'var(--tdmd-teal)', fontWeight: 700 }}>check your coverage</a>.</> : ' Insurance is not required.'}
+            <strong>No hidden fees.</strong> Your $79 visit fee is the complete cost for your TeleDirectMD consultation.{hasInsurance ? <> Select insurance plans are also accepted in {state.name} — <a href="/insurance" style={{ color: 'var(--tdmd-teal)', fontWeight: 700 }}>check your coverage</a>.</> : ' Insurance is not required.'}
           </p>
         </div>
       </section>
@@ -456,15 +456,15 @@ export default function StateLandingPage({ stateSlug }) {
               {
                 question: 'How much does a visit cost?',
                 answer: (
-                  <p>TeleDirectMD visits start at $49 per visit. There are no hidden fees and no subscription required.{hasInsurance ? ' We also accept select insurance plans — standard copays and cost-sharing apply.' : ' No insurance required.'} The visit fee covers the full MD consultation, diagnosis, treatment plan, and prescriptions sent to your preferred {state.name} pharmacy.</p>
+                  <p>TeleDirectMD visits start at $79 per visit. There are no hidden fees and no subscription required.{hasInsurance ? ' We also accept select insurance plans — standard copays and cost-sharing apply.' : ' No insurance required.'} The visit fee covers the full MD consultation, diagnosis, treatment plan, and prescriptions sent to your preferred {state.name} pharmacy.</p>
                 ),
               },
               {
                 question: 'Do I need insurance to use TeleDirectMD?',
                 answer: hasInsurance ? (
-                  <p>No, insurance is not required. You can always book a $49 self-pay visit. However, TeleDirectMD also accepts select insurance plans in {state.name}, including {stateInsurers.map(i => i.name).join(', ')}. Visit our <a href="/insurance">Insurance page</a> to check your coverage.</p>
+                  <p>No, insurance is not required. You can always book a $79 self-pay visit. However, TeleDirectMD also accepts select insurance plans in {state.name}, including {stateInsurers.map(i => i.name).join(', ')}. Visit our <a href="/insurance">Insurance page</a> to check your coverage.</p>
                 ) : (
-                  <p>No. Insurance is not required for a TeleDirectMD visit. The $49 visit fee is the complete cost for your consultation. We are actively expanding insurance coverage to more states — visit our <a href="/insurance">Insurance page</a> for the latest information.</p>
+                  <p>No. Insurance is not required for a TeleDirectMD visit. The $79 visit fee is the complete cost for your consultation. We are actively expanding insurance coverage to more states — visit our <a href="/insurance">Insurance page</a> for the latest information.</p>
                 ),
               },
               {
@@ -503,7 +503,7 @@ export default function StateLandingPage({ stateSlug }) {
           <div className="tdmd-bottom-cta" role="region" aria-label="Book a visit call to action">
             <div className="tdmd-bottom-cta-copy">
               <h3>Ready to see a doctor in {state.name}?</h3>
-              <p>Book a same-day video visit with a licensed MD. Starting at $49{hasInsurance ? ', select insurance accepted' : ', no insurance required'}.</p>
+              <p>Book a same-day video visit with a licensed MD. Starting at $79{hasInsurance ? ', select insurance accepted' : ', no insurance required'}.</p>
             </div>
             <div className="tdmd-bottom-cta-actions">
               <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>

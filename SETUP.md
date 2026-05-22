@@ -252,7 +252,7 @@ Each condition file contains all 20 page sections:
 | Regulations | `telehealthRegulations` | State telehealth law display |
 | Comparison | `comparisonTable` | TeleDirectMD vs ER vs urgent care |
 | Decision Guide | `decisionGuide` | When to use TeleDirectMD |
-| Pricing | `pricing` | Cost information ($49) |
+| Pricing | `pricing` | Cost information ($79) |
 | What Is | `whatIsCondition` | Educational medical content |
 | Causes | `causesAndRiskFactors` | Medical causes and risk factors |
 | Symptoms | `symptomsAndRedFlags` | Symptoms + emergency red flags |

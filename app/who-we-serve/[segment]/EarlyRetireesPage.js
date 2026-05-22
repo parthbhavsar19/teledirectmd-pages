@@ -20,11 +20,11 @@ export default function EarlyRetireesPage() {
   const faqItems = [
     {
       q: 'I retired at 62 and won\'t be on Medicare until 65. Can TeleDirectMD help?',
-      a: 'Absolutely — this is exactly the gap TeleDirectMD was built for. Whether you\'re on a high-deductible ACA plan, letting COBRA lapse, or currently uninsured, TeleDirectMD gives you access to a board-certified Family Medicine physician for $49 per visit. No prior authorization, no referral chains, no insurance required.'
+      a: 'Absolutely — this is exactly the gap TeleDirectMD was built for. Whether you\'re on a high-deductible ACA plan, letting COBRA lapse, or currently uninsured, TeleDirectMD gives you access to a board-certified Family Medicine physician for $79 per visit. No prior authorization, no referral chains, no insurance required.'
     },
     {
       q: 'My ACA plan has a $5,000 deductible. Is it cheaper to pay TeleDirectMD directly?',
-      a: 'For routine and non-emergency visits, often yes. If you haven\'t met your deductible, you\'re effectively paying cash for every in-network visit — often $150–$350 for a primary care appointment. TeleDirectMD\'s $49 flat fee is frequently cheaper for common conditions like blood pressure checks, medication refills, UTIs, sinus infections, and skin concerns.'
+      a: 'For routine and non-emergency visits, often yes. If you haven\'t met your deductible, you\'re effectively paying cash for every in-network visit — often $150–$350 for a primary care appointment. TeleDirectMD\'s $79 flat fee is frequently cheaper for common conditions like blood pressure checks, medication refills, UTIs, sinus infections, and skin concerns.'
     },
     {
       q: 'Can you manage my chronic conditions — blood pressure, diabetes, cholesterol?',
@@ -32,7 +32,7 @@ export default function EarlyRetireesPage() {
     },
     {
       q: 'Do I need insurance to use TeleDirectMD?',
-      a: 'No. TeleDirectMD is a direct-pay platform. You pay $49 at the time of booking — that\'s the complete cost of the visit. No insurance card, no co-pay surprises, no EOB to interpret. We also accept select insurance plans in some states if you prefer to use coverage.'
+      a: 'No. TeleDirectMD is a direct-pay platform. You pay $79 at the time of booking — that\'s the complete cost of the visit. No insurance card, no co-pay surprises, no EOB to interpret. We also accept select insurance plans in some states if you prefer to use coverage.'
     },
     {
       q: 'What if I move to a different state in retirement?',
@@ -48,7 +48,7 @@ export default function EarlyRetireesPage() {
     },
     {
       q: 'How do I book and what does the visit look like?',
-      a: 'Book online at teledirectmd.com — no referral or insurance pre-authorization needed. Pay the $49 fee, complete a short intake form, and connect via secure video at your appointment time. Most visits are 10–15 minutes. Prescriptions are sent electronically to your preferred pharmacy before the visit ends.'
+      a: 'Book online at teledirectmd.com — no referral or insurance pre-authorization needed. Pay the $79 fee, complete a short intake form, and connect via secure video at your appointment time. Most visits are 10–15 minutes. Prescriptions are sent electronically to your preferred pharmacy before the visit ends.'
     },
   ];
 
@@ -143,7 +143,7 @@ export default function EarlyRetireesPage() {
         "@id": `${pageUrl}#webpage`,
         "url": pageUrl,
         "name": "Telehealth for Early Retirees — Affordable Care Before Medicare at 65",
-        "description": "TeleDirectMD offers $49 flat-fee telehealth for early retirees in the pre-Medicare gap (ages 55–64). Chronic condition management, prescription refills, and same-day visits in 42 states. No insurance required.",
+        "description": "TeleDirectMD offers $79 flat-fee telehealth for early retirees in the pre-Medicare gap (ages 55–64). Chronic condition management, prescription refills, and same-day visits in 42 states. No insurance required.",
         "datePublished": "2026-04-20",
         "dateModified": today,
         "author": { "@type": "Physician", "name": "Parth Bhavsar, MD" },
@@ -178,7 +178,7 @@ export default function EarlyRetireesPage() {
             Telehealth for early retirees in the pre-Medicare gap:
           </p>
           <p style={{ margin: '0.35rem 0 0', color: '#003E52', fontSize: '0.97rem' }}>
-            TeleDirectMD offers $49 flat-fee video visits with a board-certified Family Medicine physician for early retirees navigating the 55–64 coverage gap — managing chronic conditions like hypertension, diabetes, and high cholesterol, with prescription refills sent to any pharmacy in 42 states. No insurance required.
+            TeleDirectMD offers $79 flat-fee video visits with a board-certified Family Medicine physician for early retirees navigating the 55–64 coverage gap — managing chronic conditions like hypertension, diabetes, and high cholesterol, with prescription refills sent to any pharmacy in 42 states. No insurance required.
           </p>
         </div>
       </div>
@@ -190,10 +190,10 @@ export default function EarlyRetireesPage() {
             <div className="tdmd-hero-copy">
               <h1>Telehealth for Early Retirees — Affordable Care in the Pre-Medicare Gap</h1>
               <p className="tdmd-hero-sub">
-                Retired before 65 and facing the coverage gap? TeleDirectMD provides $49 flat-fee video visits with a board-certified Family Medicine physician — chronic condition management, prescription refills, and acute care in 42 states. No referrals. No prior authorization. No surprise bills.
+                Retired before 65 and facing the coverage gap? TeleDirectMD provides $79 flat-fee video visits with a board-certified Family Medicine physician — chronic condition management, prescription refills, and acute care in 42 states. No referrals. No prior authorization. No surprise bills.
               </p>
               <p>
-                The average American retires at <strong>62</strong>. Medicare begins at <strong>65</strong>. That three-year structural gap — often filled with expensive COBRA, high-deductible ACA plans, or no coverage at all — is exactly where TeleDirectMD fits. For the routine visits that make up the vast majority of healthcare needs, a $49 flat-fee telehealth visit is frequently the most economical and fastest option available.
+                The average American retires at <strong>62</strong>. Medicare begins at <strong>65</strong>. That three-year structural gap — often filled with expensive COBRA, high-deductible ACA plans, or no coverage at all — is exactly where TeleDirectMD fits. For the routine visits that make up the vast majority of healthcare needs, a $79 flat-fee telehealth visit is frequently the most economical and fastest option available.
               </p>
 
               <nav className="tdmd-toc" aria-label="Page contents">
@@ -217,7 +217,7 @@ export default function EarlyRetireesPage() {
               </nav>
 
               <ul className="tdmd-hero-benefits">
-                <li>$49 flat fee — often less than your ACA or COBRA visit cost before deductible</li>
+                <li>$79 flat fee — often less than your ACA or COBRA visit cost before deductible</li>
                 <li>Chronic condition management: hypertension, diabetes, cholesterol, thyroid, GERD, anxiety</li>
                 <li>Prescription refills when your old PCP retired, moved, or is unavailable</li>
                 <li>Licensed in 42 states — follows you wherever you retire or split time</li>
@@ -226,7 +226,7 @@ export default function EarlyRetireesPage() {
               </ul>
 
               <div className="tdmd-hero-ctas">
-                <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit — $49</a>
+                <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
                 <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">See What We Treat</a>
               </div>
 
@@ -235,7 +235,7 @@ export default function EarlyRetireesPage() {
 
             <div className="tdmd-hero-side">
               <div className="tdmd-hero-card">
-                <h2>What You Get for $49</h2>
+                <h2>What You Get for $79</h2>
                 <ul>
                   <li>Video visit with board-certified Family Medicine MD</li>
                   <li>Chronic condition evaluation and management</li>
@@ -289,8 +289,8 @@ export default function EarlyRetireesPage() {
             <div className="tdmd-decision-step tdmd-decision-step-good">
               <div className="tdmd-decision-number">1</div>
               <div className="tdmd-decision-content">
-                <h3>Book &amp; Pay ($49)</h3>
-                <p>Select same-day or next-available appointment online. No referral required, no prior authorization, no insurance pre-check. Pay the $49 flat fee at booking.</p>
+                <h3>Book &amp; Pay ($79)</h3>
+                <p>Select same-day or next-available appointment online. No referral required, no prior authorization, no insurance pre-check. Pay the $79 flat fee at booking.</p>
               </div>
             </div>
             <div className="tdmd-decision-step tdmd-decision-step-good">
@@ -309,7 +309,7 @@ export default function EarlyRetireesPage() {
             </div>
           </div>
           <div className="tdmd-decision-cta">
-            <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit — $49</a>
+            <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
           </div>
         </div>
       </section>
@@ -325,7 +325,7 @@ export default function EarlyRetireesPage() {
             COBRA continuation coverage is available for up to 18 months after leaving employer-sponsored insurance — but it costs <strong>$700–$1,400 per month</strong> for a single person, as you pay both the employee and employer share of the premium. The ACA marketplace offers an alternative, but many early retirees find themselves with a Bronze plan carrying a $5,000–$8,000 deductible, meaning they are effectively paying cash-equivalent rates for every routine visit until they meet that deductible. Silver plans reduce the deductible but cost $600–$900 per month. Enhanced subsidies introduced post-COVID are subject to legislative renewal and are not guaranteed past 2025.
           </p>
           <p>
-            The result: millions of early retirees are paying cash-equivalent out-of-pocket costs for routine primary care visits — the very visits that are most predictable and most necessary. A single primary care appointment on a pre-deductible high-deductible plan typically costs $150–$300. TeleDirectMD's $49 flat fee is frequently less than the out-of-pocket cost of an in-network visit under those same plans.
+            The result: millions of early retirees are paying cash-equivalent out-of-pocket costs for routine primary care visits — the very visits that are most predictable and most necessary. A single primary care appointment on a pre-deductible high-deductible plan typically costs $150–$300. TeleDirectMD's $79 flat fee is frequently less than the out-of-pocket cost of an in-network visit under those same plans.
           </p>
           <p>
             TeleDirectMD does not replace major medical coverage — but for the routine, predictable visits that represent the vast majority of healthcare utilization in this age group, it is often the most economical and most accessible option available.
@@ -369,7 +369,7 @@ export default function EarlyRetireesPage() {
                 <tr className="tdmd-row-highlight">
                   <td><strong>TeleDirectMD</strong></td>
                   <td><strong>$0/mo premium</strong></td>
-                  <td><strong>$49 flat fee per visit</strong></td>
+                  <td><strong>$79 flat fee per visit</strong></td>
                   <td>Routine and urgent care between plans or alongside high-deductible plan</td>
                 </tr>
               </tbody>
@@ -425,7 +425,7 @@ export default function EarlyRetireesPage() {
             </div>
           </div>
           <div className="tdmd-decision-cta">
-            <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit — $49</a>
+            <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
           </div>
         </div>
       </section>
@@ -436,7 +436,7 @@ export default function EarlyRetireesPage() {
           <h2>Cost Breakdown</h2>
           <div className="tdmd-price-grid">
             <div className="tdmd-price-card">
-              <div className="tdmd-price-big">$49</div>
+              <div className="tdmd-price-big">$79</div>
               <div className="tdmd-price-sub">One flat fee covers the entire visit</div>
               <ul className="tdmd-price-includes">
                 <li>Video visit with board-certified MD</li>
@@ -454,7 +454,7 @@ export default function EarlyRetireesPage() {
               <div className="tdmd-bar-track">
                 <div className="tdmd-bar-fill tdmd-bar-fill-tdmd" style={{ width: '4%' }}></div>
               </div>
-              <span>$49</span>
+              <span>$79</span>
             </div>
             <div className="tdmd-bar-row">
               <span className="tdmd-bar-label">ACA Silver PCP (after deductible met)</span>
@@ -487,7 +487,7 @@ export default function EarlyRetireesPage() {
           </div>
 
           <p className="tdmd-cost-note">
-            On a $6,000 deductible plan, you are paying cash-equivalent rates for every visit until you hit the deductible. TeleDirectMD's $49 is often the most economical option for routine care.
+            On a $6,000 deductible plan, you are paying cash-equivalent rates for every visit until you hit the deductible. TeleDirectMD's $79 is often the most economical option for routine care.
           </p>
         </div>
       </section>
@@ -503,7 +503,7 @@ export default function EarlyRetireesPage() {
             Yet this group sits in a structural coverage limbo. Too young for Medicare. Often off employer-sponsored insurance after retirement. Facing COBRA costs that exceed $700–$1,400 per month for an individual. Navigating ACA marketplace plans with deductibles of $5,000–$8,000 that leave them effectively paying cash rates for routine visits. No major telehealth platform has built dedicated infrastructure for this population — leaving them to navigate a system built for either the insured employed or the Medicare-eligible elderly.
           </p>
           <p>
-            TeleDirectMD was built for continuity during this gap. Not to replace the specialist or the annual in-person physical — but to keep chronic conditions stable, medications filled, and acute issues addressed without the friction, cost, and delay of the traditional system. For early retirees, $49 per visit is not just convenient — it is often the most rational economic choice given the cost structure of available coverage options.
+            TeleDirectMD was built for continuity during this gap. Not to replace the specialist or the annual in-person physical — but to keep chronic conditions stable, medications filled, and acute issues addressed without the friction, cost, and delay of the traditional system. For early retirees, $79 per visit is not just convenient — it is often the most rational economic choice given the cost structure of available coverage options.
           </p>
         </div>
       </section>
@@ -786,7 +786,7 @@ export default function EarlyRetireesPage() {
                 <li>Urgent in-person need → Urgent Care center</li>
                 <li>Specialist care → request referral from your PCP or internist</li>
                 <li>Ongoing preventive care → annual in-person physical with PCP</li>
-                <li>Routine and acute care → TeleDirectMD, $49</li>
+                <li>Routine and acute care → TeleDirectMD, $79</li>
               </ul>
             </div>
           </div>
@@ -815,10 +815,10 @@ export default function EarlyRetireesPage() {
           <div className="tdmd-container">
             <div className="tdmd-bottom-cta-copy">
               <h2>Ready to Bridge the Gap?</h2>
-              <p>$49 flat fee. Same-day availability. 42 states. No insurance required.</p>
+              <p>$79 flat fee. Same-day availability. 42 states. No insurance required.</p>
             </div>
             <div className="tdmd-bottom-cta-actions">
-              <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit — $49</a>
+              <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
               <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">See What We Treat</a>
             </div>
           </div>
@@ -871,11 +871,11 @@ export default function EarlyRetireesPage() {
           <div className="tdmd-related-grid">
             <a href="/who-we-serve/international-visitors" className="tdmd-related-card">
               <div className="tdmd-related-title">International Visitors</div>
-              <div className="tdmd-related-desc">No US insurance? $49 flat-fee care in 42 states.</div>
+              <div className="tdmd-related-desc">No US insurance? $79 flat-fee care in 42 states.</div>
             </a>
             <a href="/who-we-serve/military-families" className="tdmd-related-card">
               <div className="tdmd-related-title">Military Families</div>
-              <div className="tdmd-related-desc">TRICARE gaps? Bridge coverage with $49 visits.</div>
+              <div className="tdmd-related-desc">TRICARE gaps? Bridge coverage with $79 visits.</div>
             </a>
             <a href="/who-we-serve/uninsured-affordable-care" className="tdmd-related-card">
               <div className="tdmd-related-title">Uninsured Adults</div>

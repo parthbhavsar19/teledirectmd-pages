@@ -40,7 +40,7 @@ const FAQS = [
   },
   {
     q: 'What is the difference between this and in-person urgent care?',
-    a: "In-person urgent care typically costs $160–$320 cash (or your Aetna urgent-care copay, often $50–$100) and includes hands-on exam, point-of-care testing (rapid strep, flu, COVID swabs), wound care, and X-rays when needed. TeleDirectMD covers the subset of urgent-care complaints that can be safely evaluated via video — typically $10–$40 with your Aetna copay or $49 self-pay. We will refer you to in-person care for anything requiring physical exam, imaging, IV fluids, or in-person testing.",
+    a: "In-person urgent care typically costs $160–$320 cash (or your Aetna urgent-care copay, often $50–$100) and includes hands-on exam, point-of-care testing (rapid strep, flu, COVID swabs), wound care, and X-rays when needed. TeleDirectMD covers the subset of urgent-care complaints that can be safely evaluated via video — typically $10–$40 with your Aetna copay or $79 self-pay. We will refer you to in-person care for anything requiring physical exam, imaging, IV fluids, or in-person testing.",
   },
   {
     q: 'When should I go to in-person urgent care or the ER instead?',
@@ -110,7 +110,7 @@ const SCHEMA = {
       url: 'https://teledirectmd.com/california/telehealth-urgent-care-aetna',
       medicalSpecialty: 'Family Medicine',
       areaServed: { '@type': 'State', name: 'California' },
-      priceRange: '$49 self-pay / $10–$40 with Aetna copay',
+      priceRange: '$79 self-pay / $10–$40 with Aetna copay',
       aggregateRating: {
         '@type': 'AggregateRating',
         ratingValue: '5.0',
@@ -204,7 +204,7 @@ export default function TelehealthUrgentCareAetnaClient() {
           Same-day virtual urgent care for adults in California — covered by your Aetna commercial plan. Board-certified
           physician Dr. Parth Bhavsar, MD, treats UTI, sinus infection, asthma refills, hypertension refills, pink eye,
           strep throat, and other non-emergency adult conditions. Most California Aetna members pay $10–$40, or choose
-          flat $49 self-pay.
+          flat $79 self-pay.
         </p>
         <div style={{ display: 'flex', gap: 12, flexWrap: 'wrap' }}>
           <a
@@ -376,7 +376,7 @@ export default function TelehealthUrgentCareAetnaClient() {
                 <tr>
                   <td style={{ padding: 12, borderBottom: `1px solid ${B.border}`, fontWeight: 600 }}>TeleDirectMD Telehealth</td>
                   <td style={{ padding: 12, borderBottom: `1px solid ${B.border}`, color: B.teal, fontWeight: 700 }}>$10–$40</td>
-                  <td style={{ padding: 12, borderBottom: `1px solid ${B.border}` }}>$49 flat</td>
+                  <td style={{ padding: 12, borderBottom: `1px solid ${B.border}` }}>$79 flat</td>
                   <td style={{ padding: 12, borderBottom: `1px solid ${B.border}` }}>1–4 hrs same day</td>
                 </tr>
                 <tr>
@@ -485,7 +485,7 @@ export default function TelehealthUrgentCareAetnaClient() {
             See an MD Today — California Aetna In-Network
           </h2>
           <p style={{ fontSize: 16, color: 'rgba(255,255,255,0.92)', margin: '0 0 24px' }}>
-            Same-day video visit with Dr. Parth Bhavsar, MD. Most California Aetna members pay $10–$40 — or flat $49 self-pay.
+            Same-day video visit with Dr. Parth Bhavsar, MD. Most California Aetna members pay $10–$40 — or flat $79 self-pay.
           </p>
           <a
             href="/book-online"

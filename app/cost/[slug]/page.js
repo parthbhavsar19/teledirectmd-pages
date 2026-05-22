@@ -181,7 +181,7 @@ export default async function CostPage({ params }) {
               </ul>
 
               <div className="tdmd-hero-ctas">
-                <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit — $49</a>
+                <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
                 <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">See What We Treat</a>
               </div>
 
@@ -282,7 +282,7 @@ export default async function CostPage({ params }) {
       <section className="tdmd-section" id={`${pid}-states`}>
         <div className="tdmd-container">
           <h2>Available in 41 States</h2>
-          <p>The flat $49 rate applies in every state where Dr. Bhavsar is licensed. Select your state:</p>
+          <p>The flat $79 rate applies in every state where Dr. Bhavsar is licensed. Select your state:</p>
           <div className="tdmd-other-states-grid">
             {STATE_LIST.map(([abbr, name]) => (
               <a key={abbr} href={`/${name.toLowerCase().replace(/\s+/g, '-')}/`} className="tdmd-other-state-link">{name}</a>
@@ -294,17 +294,17 @@ export default async function CostPage({ params }) {
       {/* 9) Conditions we treat — related links */}
       <section className="tdmd-section tdmd-section-highlight" id={`${pid}-conditions`}>
         <div className="tdmd-container">
-          <h2>Conditions Commonly Treated at the $49 Visit</h2>
-          <p>The same flat $49 visit covers any of these adult conditions:</p>
+          <h2>Conditions Commonly Treated at the $79 Visit</h2>
+          <p>The same flat $79 visit covers any of these adult conditions:</p>
           <div className="tdmd-related-grid">
-            <a href="/uti-treatment-online/" className="tdmd-related-card"><span className="tdmd-related-title">UTI Treatment</span><span className="tdmd-related-desc">$49 visit + $6–$14 antibiotic</span></a>
-            <a href="/sinus-infection-treatment-online/" className="tdmd-related-card"><span className="tdmd-related-title">Sinus Infection</span><span className="tdmd-related-desc">$49 visit + $9–$20 antibiotic if indicated</span></a>
-            <a href="/sore-throat-treatment-online/" className="tdmd-related-card"><span className="tdmd-related-title">Sore Throat / Strep</span><span className="tdmd-related-desc">$49 visit + $9 amoxicillin if positive</span></a>
-            <a href="/pink-eye-treatment-online/" className="tdmd-related-card"><span className="tdmd-related-title">Pink Eye</span><span className="tdmd-related-desc">$49 visit + eye-drop prescription</span></a>
-            <a href="/hypertension-refills-online/" className="tdmd-related-card"><span className="tdmd-related-title">Blood Pressure Refills</span><span className="tdmd-related-desc">$49 visit + $4–$12 lisinopril/metoprolol</span></a>
-            <a href="/asthma-refills-online/" className="tdmd-related-card"><span className="tdmd-related-title">Asthma Refills</span><span className="tdmd-related-desc">$49 visit + $20–$25 albuterol</span></a>
-            <a href="/acid-reflux-refills-online/" className="tdmd-related-card"><span className="tdmd-related-title">Acid Reflux / GERD</span><span className="tdmd-related-desc">$49 visit + $4–$12 omeprazole</span></a>
-            <a href="/influenza-treatment-online/" className="tdmd-related-card"><span className="tdmd-related-title">Flu / Influenza</span><span className="tdmd-related-desc">$49 visit + Tamiflu when indicated</span></a>
+            <a href="/uti-treatment-online/" className="tdmd-related-card"><span className="tdmd-related-title">UTI Treatment</span><span className="tdmd-related-desc">$79 visit + $6–$14 antibiotic</span></a>
+            <a href="/sinus-infection-treatment-online/" className="tdmd-related-card"><span className="tdmd-related-title">Sinus Infection</span><span className="tdmd-related-desc">$79 visit + $9–$20 antibiotic if indicated</span></a>
+            <a href="/sore-throat-treatment-online/" className="tdmd-related-card"><span className="tdmd-related-title">Sore Throat / Strep</span><span className="tdmd-related-desc">$79 visit + $9 amoxicillin if positive</span></a>
+            <a href="/pink-eye-treatment-online/" className="tdmd-related-card"><span className="tdmd-related-title">Pink Eye</span><span className="tdmd-related-desc">$79 visit + eye-drop prescription</span></a>
+            <a href="/hypertension-refills-online/" className="tdmd-related-card"><span className="tdmd-related-title">Blood Pressure Refills</span><span className="tdmd-related-desc">$79 visit + $4–$12 lisinopril/metoprolol</span></a>
+            <a href="/asthma-refills-online/" className="tdmd-related-card"><span className="tdmd-related-title">Asthma Refills</span><span className="tdmd-related-desc">$79 visit + $20–$25 albuterol</span></a>
+            <a href="/acid-reflux-refills-online/" className="tdmd-related-card"><span className="tdmd-related-title">Acid Reflux / GERD</span><span className="tdmd-related-desc">$79 visit + $4–$12 omeprazole</span></a>
+            <a href="/influenza-treatment-online/" className="tdmd-related-card"><span className="tdmd-related-title">Flu / Influenza</span><span className="tdmd-related-desc">$79 visit + Tamiflu when indicated</span></a>
           </div>
           <div className="tdmd-related-cta" style={{ marginTop: '1rem' }}>
             <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">View all 60 conditions we treat</a>
@@ -316,14 +316,14 @@ export default async function CostPage({ params }) {
       <section className="tdmd-section" id={`${pid}-insurance`}>
         <div className="tdmd-container" data-speakable="true">
           <h2>Insurance Accepted (Select States)</h2>
-          <p>TeleDirectMD is in-network with three major insurers. Your standard telehealth copay applies in place of the $49 self-pay fee.</p>
+          <p>TeleDirectMD is in-network with three major insurers. Your standard telehealth copay applies in place of the $79 self-pay fee.</p>
           <div className="tdmd-related-grid">
             <a href="/insurance/aetna/" className="tdmd-related-card"><span className="tdmd-related-title">Aetna</span><span className="tdmd-related-desc">In-network in 10 states</span></a>
             <a href="/insurance/blue-cross-blue-shield/" className="tdmd-related-card"><span className="tdmd-related-title">Blue Cross Blue Shield</span><span className="tdmd-related-desc">In-network in 5 states</span></a>
             <a href="/insurance/united-healthcare/" className="tdmd-related-card"><span className="tdmd-related-title">UnitedHealthcare</span><span className="tdmd-related-desc">In-network in 11 states</span></a>
           </div>
           <p style={{ marginTop: '1rem', fontSize: '0.92rem', color: 'var(--tdmd-muted)' }}>
-            Don't see your plan? <a href="/insurance/" style={{ color: 'var(--tdmd-teal)', fontWeight: 600 }}>View all insurance options</a> or book the flat $49 self-pay visit.
+            Don't see your plan? <a href="/insurance/" style={{ color: 'var(--tdmd-teal)', fontWeight: 600 }}>View all insurance options</a> or book the flat $79 self-pay visit.
           </p>
         </div>
       </section>
@@ -331,10 +331,10 @@ export default async function CostPage({ params }) {
       {/* 11) Pricing reinforcement */}
       <section className="tdmd-section tdmd-section-highlight" id={`${pid}-pricing`}>
         <div className="tdmd-container">
-          <h2>$49 Flat. HSA / FSA Accepted.</h2>
+          <h2>$79 Flat. HSA / FSA Accepted.</h2>
           <div className="tdmd-price-grid">
             <div className="tdmd-price-card">
-              <div className="tdmd-price-big">$49</div>
+              <div className="tdmd-price-big">$79</div>
               <div className="tdmd-price-sub">One flat fee covers your entire visit</div>
               <ul className="tdmd-price-includes">
                 <li>Board-certified MD video consultation</li>
@@ -347,7 +347,7 @@ export default async function CostPage({ params }) {
             <div className="tdmd-price-chart" role="group" aria-label="Cost comparison">
               <h3>Cash-Pay Cost vs. Other Settings</h3>
               <div className="tdmd-bar-row">
-                <div className="tdmd-bar-label"><span>TeleDirectMD</span><span>$49</span></div>
+                <div className="tdmd-bar-label"><span>TeleDirectMD</span><span>$79</span></div>
                 <div className="tdmd-bar-track"><div className="tdmd-bar-fill tdmd-bar-fill-tdmd" style={{ '--w': 5 }} /></div>
               </div>
               <div className="tdmd-bar-row">
@@ -375,13 +375,13 @@ export default async function CostPage({ params }) {
       {/* 12) How It Works */}
       <section className="tdmd-section" id={`${pid}-how`}>
         <div className="tdmd-container">
-          <h2>How a $49 TeleDirectMD Visit Works</h2>
+          <h2>How a $79 TeleDirectMD Visit Works</h2>
           <div className="tdmd-decision-flow">
             <div className="tdmd-decision-step tdmd-decision-step-good">
               <div className="tdmd-decision-number">1</div>
               <div className="tdmd-decision-content">
                 <h3>Book online</h3>
-                <p>Pick a same-day or next-available appointment at <a href="/book-online">teledirectmd.com/book-online</a>. Pay $49 at checkout (or use HSA/FSA, or apply your in-network insurance).</p>
+                <p>Pick a same-day or next-available appointment at <a href="/book-online">teledirectmd.com/book-online</a>. Pay $79 at checkout (or use HSA/FSA, or apply your in-network insurance).</p>
               </div>
             </div>
             <div className="tdmd-decision-step tdmd-decision-step-good">
@@ -397,7 +397,7 @@ export default async function CostPage({ params }) {
                 <h3>Get treated, fill the script</h3>
                 <p>Receive a diagnosis, a written visit summary, and an e-prescription routed to your pharmacy of choice — usually within 30 minutes of the visit.</p>
                 <div className="tdmd-decision-cta">
-                  <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a $49 Visit Now</a>
+                  <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a $79 Visit Now</a>
                 </div>
               </div>
             </div>
@@ -623,11 +623,11 @@ export default async function CostPage({ params }) {
 
           <div className="tdmd-bottom-cta" style={{ marginTop: '1.5rem' }}>
             <div className="tdmd-bottom-cta-copy">
-              <h3>Stop guessing. Book a $49 visit and know your cost upfront.</h3>
+              <h3>Stop guessing. Book a $79 visit and know your cost upfront.</h3>
               <p>Same-day. No insurance required. HSA/FSA accepted. 41 states. Last verified {today}.</p>
             </div>
             <div className="tdmd-bottom-cta-actions">
-              <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Start a $49 Visit</a>
+              <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Start a $79 Visit</a>
               <a href="/insurance/" className="tdmd-btn tdmd-btn-outline">Use Insurance</a>
             </div>
           </div>

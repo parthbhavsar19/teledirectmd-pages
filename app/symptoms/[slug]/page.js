@@ -139,18 +139,18 @@ export default async function SymptomPage({ params }) {
                 Talk to a board-certified MD by video — typically a 10-minute visit, with a treatment plan and any prescription routed to your pharmacy of choice.
               </p>
               <p>
-                This page is informational guidance, not a diagnosis. If your symptoms match a clear pattern below, you can start a $49 video visit; if any of the red-flag signs apply, see in-person care or call 911.
+                This page is informational guidance, not a diagnosis. If your symptoms match a clear pattern below, you can start a $79 video visit; if any of the red-flag signs apply, see in-person care or call 911.
               </p>
 
               <ul className="tdmd-hero-benefits">
-                <li>$49 flat — board-certified MD video visit, prescription same-day if appropriate</li>
+                <li>$79 flat — board-certified MD video visit, prescription same-day if appropriate</li>
                 <li>41 states — same-day, evenings & weekends</li>
                 <li>HSA / FSA accepted; in-network with Aetna, BCBS, UnitedHealthcare</li>
                 <li>Routes you to in-person urgent care or the ER if your symptoms warrant it</li>
               </ul>
 
               <div className="tdmd-hero-ctas">
-                <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Talk to a Doctor — $49</a>
+                <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Talk to a Doctor — $79</a>
                 <a href={conditionUrl} className="tdmd-btn tdmd-btn-outline">{cfg.symptomDef.conditionDisplayName} treatment page →</a>
               </div>
 
@@ -166,7 +166,7 @@ export default async function SymptomPage({ params }) {
                 <ul>
                   <li><strong>What this usually is:</strong> {cfg.symptomDef.conditionDisplayName}</li>
                   <li><strong>Treatment:</strong> {cfg.symptomDef.treatment}</li>
-                  <li><strong>Visit cost:</strong> $49 flat at TeleDirectMD</li>
+                  <li><strong>Visit cost:</strong> $79 flat at TeleDirectMD</li>
                   <li><strong>Time to prescription:</strong> ~30 minutes after booking</li>
                   <li><strong>States:</strong> 41 (board-certified MD)</li>
                 </ul>
@@ -257,7 +257,7 @@ export default async function SymptomPage({ params }) {
       <section className="tdmd-section tdmd-section-highlight" id={`${pid}-eligibility`}>
         <div className="tdmd-container">
           <h2>When Telehealth Is the Right Choice for This Symptom</h2>
-          <p>A $49 video visit is appropriate if you fit the following profile:</p>
+          <p>A $79 video visit is appropriate if you fit the following profile:</p>
           <ul className="tdmd-checklist tdmd-checklist--good">
             {cfg.eligibility.map((e, i) => <li key={i}>{e}</li>)}
           </ul>
@@ -384,12 +384,12 @@ export default async function SymptomPage({ params }) {
         <div className="tdmd-container" data-speakable="true">
           <h2>What does treatment cost?</h2>
           <p>
-            A $49 telehealth visit is the lowest-cost legitimate care setting for this kind of symptom. {costPageSlug
+            A $79 telehealth visit is the lowest-cost legitimate care setting for this kind of symptom. {costPageSlug
               ? `For a full breakdown of treatment cost — visit + medication + tests — see our cost guide.`
               : `For a full breakdown comparing telehealth, urgent care, retail clinics, and ER pricing for an online doctor visit, see our master cost guide.`}
           </p>
           <ul style={{ lineHeight: 1.7 }}>
-            <li><strong>TeleDirectMD video visit:</strong> $49 flat, cash-pay or HSA/FSA</li>
+            <li><strong>TeleDirectMD video visit:</strong> $79 flat, cash-pay or HSA/FSA</li>
             <li><strong>Average national telehealth visit:</strong> ~$82 per a 2024 industry survey</li>
             <li><strong>Retail clinic (CVS MinuteClinic, Walgreens):</strong> $99–$139 cash</li>
             <li><strong>Primary care office visit (cash):</strong> ~$171 average</li>
@@ -437,7 +437,7 @@ export default async function SymptomPage({ params }) {
       <section className="tdmd-section" id={`${pid}-states`}>
         <div className="tdmd-container">
           <h2>Available in 41 States</h2>
-          <p>The flat $49 rate applies in every state where Dr. Bhavsar is licensed. Select your state for a state-specific page:</p>
+          <p>The flat $79 rate applies in every state where Dr. Bhavsar is licensed. Select your state for a state-specific page:</p>
           <div className="tdmd-other-states-grid">
             {STATE_LIST.map(([abbr, name]) => (
               <a key={abbr} href={`/${name.toLowerCase().replace(/\s+/g, '-')}/`} className="tdmd-other-state-link">{name}</a>
@@ -449,15 +449,15 @@ export default async function SymptomPage({ params }) {
       {/* 18) Conditions we treat */}
       <section className="tdmd-section tdmd-section-highlight" id={`${pid}-conditions`}>
         <div className="tdmd-container">
-          <h2>Conditions Commonly Treated at the $49 Visit</h2>
-          <p>The same flat $49 visit covers these adult conditions:</p>
+          <h2>Conditions Commonly Treated at the $79 Visit</h2>
+          <p>The same flat $79 visit covers these adult conditions:</p>
           <div className="tdmd-related-grid">
-            <a href="/uti-treatment-online/"             className="tdmd-related-card"><span className="tdmd-related-title">UTI Treatment</span><span className="tdmd-related-desc">$49 visit + $6–$14 antibiotic</span></a>
-            <a href="/sinus-infection-treatment-online/" className="tdmd-related-card"><span className="tdmd-related-title">Sinus Infection</span><span className="tdmd-related-desc">$49 visit + $9–$20 antibiotic if indicated</span></a>
-            <a href="/sore-throat-treatment-online/"     className="tdmd-related-card"><span className="tdmd-related-title">Sore Throat / Strep</span><span className="tdmd-related-desc">$49 visit + $9 amoxicillin if positive</span></a>
-            <a href="/pink-eye-treatment-online/"        className="tdmd-related-card"><span className="tdmd-related-title">Pink Eye</span><span className="tdmd-related-desc">$49 visit + eye-drop prescription</span></a>
-            <a href="/asthma-refills-online/"            className="tdmd-related-card"><span className="tdmd-related-title">Asthma Refills</span><span className="tdmd-related-desc">$49 visit + $20–$25 albuterol</span></a>
-            <a href="/acid-reflux-refills-online/"       className="tdmd-related-card"><span className="tdmd-related-title">Acid Reflux / GERD</span><span className="tdmd-related-desc">$49 visit + $4–$12 omeprazole</span></a>
+            <a href="/uti-treatment-online/"             className="tdmd-related-card"><span className="tdmd-related-title">UTI Treatment</span><span className="tdmd-related-desc">$79 visit + $6–$14 antibiotic</span></a>
+            <a href="/sinus-infection-treatment-online/" className="tdmd-related-card"><span className="tdmd-related-title">Sinus Infection</span><span className="tdmd-related-desc">$79 visit + $9–$20 antibiotic if indicated</span></a>
+            <a href="/sore-throat-treatment-online/"     className="tdmd-related-card"><span className="tdmd-related-title">Sore Throat / Strep</span><span className="tdmd-related-desc">$79 visit + $9 amoxicillin if positive</span></a>
+            <a href="/pink-eye-treatment-online/"        className="tdmd-related-card"><span className="tdmd-related-title">Pink Eye</span><span className="tdmd-related-desc">$79 visit + eye-drop prescription</span></a>
+            <a href="/asthma-refills-online/"            className="tdmd-related-card"><span className="tdmd-related-title">Asthma Refills</span><span className="tdmd-related-desc">$79 visit + $20–$25 albuterol</span></a>
+            <a href="/acid-reflux-refills-online/"       className="tdmd-related-card"><span className="tdmd-related-title">Acid Reflux / GERD</span><span className="tdmd-related-desc">$79 visit + $4–$12 omeprazole</span></a>
           </div>
           <div className="tdmd-related-cta" style={{ marginTop: '1rem' }}>
             <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">View all 60 conditions we treat</a>
@@ -502,8 +502,8 @@ export default async function SymptomPage({ params }) {
       {/* 22) Insurance + cash-pay reinforcement */}
       <section className="tdmd-section" id={`${pid}-insurance`}>
         <div className="tdmd-container" data-speakable="true">
-          <h2>$49 Cash-Pay or In-Network with Aetna, BCBS, UHC</h2>
-          <p>The $49 flat rate applies to all 41 states. If you have insurance, TeleDirectMD is in-network with Aetna, BCBS, and UnitedHealthcare in select states — your standard telehealth copay applies in place of the $49.</p>
+          <h2>$79 Cash-Pay or In-Network with Aetna, BCBS, UHC</h2>
+          <p>The $79 flat rate applies to all 41 states. If you have insurance, TeleDirectMD is in-network with Aetna, BCBS, and UnitedHealthcare in select states — your standard telehealth copay applies in place of the $79.</p>
           <div className="tdmd-related-grid">
             <a href="/insurance/aetna/"                   className="tdmd-related-card"><span className="tdmd-related-title">Aetna</span><span className="tdmd-related-desc">In-network in 10 states</span></a>
             <a href="/insurance/blue-cross-blue-shield/"  className="tdmd-related-card"><span className="tdmd-related-title">Blue Cross Blue Shield</span><span className="tdmd-related-desc">In-network in 5 states</span></a>
@@ -519,7 +519,7 @@ export default async function SymptomPage({ params }) {
           <div className="tdmd-related-grid">
             <a href={MASTER_COST_PAGE} className="tdmd-related-card">
               <span className="tdmd-related-title">How Much Does an Online Doctor Visit Cost?</span>
-              <span className="tdmd-related-desc">$49 vs. $150–$280 urgent care vs. ~$2,715 ER, with sources.</span>
+              <span className="tdmd-related-desc">$79 vs. $150–$280 urgent care vs. ~$2,715 ER, with sources.</span>
             </a>
             <a href={`/compare/${DEFAULT_COMPARE_PAGE.slug}/`} className="tdmd-related-card">
               <span className="tdmd-related-title">TeleDirectMD vs. {DEFAULT_COMPARE_PAGE.competitor}</span>
@@ -537,7 +537,7 @@ export default async function SymptomPage({ params }) {
             Most patients searching <em>"{cfg.query}"</em> are looking for two things: <strong>what this is</strong> and <strong>how to get treated quickly</strong>. The visit covers both — a focused history with a board-certified MD, a clear diagnosis or working diagnosis, and a prescription routed to your pharmacy of choice when one is appropriate.
           </p>
           <p>
-            The <a href={conditionUrl} style={{ color: 'var(--tdmd-teal)', fontWeight: 600 }}>{cfg.symptomDef.conditionDisplayName} treatment page</a> covers the full clinical picture for the routed condition — what we treat, what we don&apos;t, eligibility, medications, and references. Use the symptom page to decide whether a $49 visit is the right next step.
+            The <a href={conditionUrl} style={{ color: 'var(--tdmd-teal)', fontWeight: 600 }}>{cfg.symptomDef.conditionDisplayName} treatment page</a> covers the full clinical picture for the routed condition — what we treat, what we don&apos;t, eligibility, medications, and references. Use the symptom page to decide whether a $79 visit is the right next step.
           </p>
         </div>
       </section>
@@ -545,9 +545,9 @@ export default async function SymptomPage({ params }) {
       {/* 25) The healthcare-access gap */}
       <section className="tdmd-section tdmd-section-highlight" id={`${pid}-context`}>
         <div className="tdmd-container">
-          <h2>Why a $49 Visit Matters Here</h2>
+          <h2>Why a $79 Visit Matters Here</h2>
           <p>
-            In 2024, <a href="https://www.kff.org/uninsured/key-facts-about-the-uninsured-population/" rel="nofollow noopener" target="_blank">26.7 million Americans under 65 were uninsured</a> per KFF, and <strong>38.6% of uninsured adults reported delaying or skipping needed care due to cost</strong>. For symptoms like the one this page covers — non-emergency, treatable with a focused visit and a generic prescription — a $49 telehealth visit is often the lowest-friction path to actually getting treated.
+            In 2024, <a href="https://www.kff.org/uninsured/key-facts-about-the-uninsured-population/" rel="nofollow noopener" target="_blank">26.7 million Americans under 65 were uninsured</a> per KFF, and <strong>38.6% of uninsured adults reported delaying or skipping needed care due to cost</strong>. For symptoms like the one this page covers — non-emergency, treatable with a focused visit and a generic prescription — a $79 telehealth visit is often the lowest-friction path to actually getting treated.
           </p>
           <p>
             A 2024 <a href="https://www.pennmedicine.org/news/study-finds-telemedicine-visits-cost-far-less-than-office-visits" rel="nofollow noopener" target="_blank">Penn Medicine / JAMA Network Open study</a> of 160,000+ visits found telemedicine episodes averaged <strong>$96 vs. $509 for in-person care</strong> — about 5× cheaper. For appropriate conditions, the savings come without any clinical compromise.
@@ -561,7 +561,7 @@ export default async function SymptomPage({ params }) {
           <h2>What To Do Next</h2>
           <ol style={{ lineHeight: 1.7, paddingLeft: '1.25rem' }}>
             <li><strong>Check the red-flag list above.</strong> If any apply, this page is not the right care path — go to in-person urgent care or the ER.</li>
-            <li><strong>If symptoms match the patterns described</strong>, book a $49 video visit. Most appointments take 10–15 minutes.</li>
+            <li><strong>If symptoms match the patterns described</strong>, book a $79 video visit. Most appointments take 10–15 minutes.</li>
             <li><strong>If a prescription is appropriate</strong>, it&apos;s sent to your pharmacy of choice — usually within 30 minutes of the visit ending.</li>
             <li><strong>If the visit determines a different care path is needed</strong> (lab work, in-person exam, specialist referral), you&apos;ll receive clear next steps. No charge for the misroute.</li>
           </ol>
@@ -585,11 +585,11 @@ export default async function SymptomPage({ params }) {
         <div className="tdmd-container">
           <div className="tdmd-bottom-cta">
             <div className="tdmd-bottom-cta-copy">
-              <h3>Ready to talk to a doctor? $49 flat. No insurance required.</h3>
+              <h3>Ready to talk to a doctor? $79 flat. No insurance required.</h3>
               <p>Same-day, evenings & weekends. Board-certified MD. 41 states. Last reviewed {today}.</p>
             </div>
             <div className="tdmd-bottom-cta-actions">
-              <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Talk to a Doctor — $49</a>
+              <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Talk to a Doctor — $79</a>
               <a href={conditionUrl} className="tdmd-btn tdmd-btn-outline">{cfg.symptomDef.conditionDisplayName} →</a>
             </div>
           </div>

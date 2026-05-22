@@ -202,7 +202,7 @@ export default function AetnaCaliforniaAnnouncement() {
           <li><strong>Plan types accepted:</strong> Aetna commercial plans (employer-sponsored PPO/HMO, individual marketplace)</li>
           <li><strong>Plan types NOT accepted:</strong> Aetna Medicaid, Aetna Better Health (Medi-Cal), Medicare fee-for-service, Aetna Medicare Advantage</li>
           <li><strong>Typical member cost:</strong> $10–$40 copay (varies by plan); $0 for many California employer plans</li>
-          <li><strong>Self-pay alternative:</strong> $49 flat — same physician, no membership required</li>
+          <li><strong>Self-pay alternative:</strong> $79 flat — same physician, no membership required</li>
           <li><strong>Geographic coverage:</strong> Statewide California — Los Angeles, San Francisco, San Diego, San Jose, Sacramento, Fresno, Oakland, Long Beach, Anaheim, and all other California cities</li>
           <li><strong>Billing codes:</strong> CPT 99213 / 99214 (standard / moderate complexity telehealth)</li>
         </ul>
@@ -213,7 +213,7 @@ export default function AetnaCaliforniaAnnouncement() {
         <p style={{ fontSize: 16, lineHeight: 1.7, color: B.text, margin: '0 0 16px' }}>
           TeleDirectMD is a physician-led telehealth practice licensed in 41 U.S. states. Board-certified family
           medicine physician Dr. Parth Bhavsar, MD (NPI 1104323203), provides secure video visits for adults with
-          non-emergency conditions. Transparent $49 cash-pay pricing. Same-day visits available including evenings and
+          non-emergency conditions. Transparent $79 cash-pay pricing. Same-day visits available including evenings and
           weekends. HIPAA-compliant. LegitScript certified. Organization NPI: 1104610450 (Mahavir Health Services, LLC
           dba TeleDirectMD).
         </p>
@@ -288,7 +288,7 @@ export default function AetnaCaliforniaAnnouncement() {
             Book Your Aetna California Visit
           </h2>
           <p style={{ color: 'rgba(255,255,255,0.92)', margin: '0 0 18px', fontSize: 15 }}>
-            Same-day video visit. Aetna copay or $49 self-pay.
+            Same-day video visit. Aetna copay or $79 self-pay.
           </p>
           <a
             href="/book-online"

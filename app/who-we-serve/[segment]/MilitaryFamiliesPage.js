@@ -20,7 +20,7 @@ export default function MilitaryFamiliesPage() {
   const faqItems = [
     {
       q: 'My spouse just separated from the military and TRICARE has ended. What are our options?',
-      a: 'After TRICARE ends, you have several options: TAMP (180 days transitional coverage for qualifying separations), the ACA marketplace, or employer coverage once your spouse starts a new job. During any gap period — or for visits where direct-pay is faster — TeleDirectMD offers $49 flat-fee telehealth visits with no insurance required. We serve 42 states so we\'re available wherever you land during the transition.'
+      a: 'After TRICARE ends, you have several options: TAMP (180 days transitional coverage for qualifying separations), the ACA marketplace, or employer coverage once your spouse starts a new job. During any gap period — or for visits where direct-pay is faster — TeleDirectMD offers $79 flat-fee telehealth visits with no insurance required. We serve 42 states so we\'re available wherever you land during the transition.'
     },
     {
       q: 'We just PCS\'d and I can\'t get a primary care appointment for 8 weeks. Can you help?',
@@ -28,11 +28,11 @@ export default function MilitaryFamiliesPage() {
     },
     {
       q: 'Does TeleDirectMD accept TRICARE?',
-      a: 'TeleDirectMD is a direct-pay platform and does not currently bill TRICARE directly. The visit cost is $49 flat fee, paid at booking. Some TRICARE plans may allow out-of-network reimbursement for telehealth — check your specific plan terms. Either way, $49 is often far less than the cost of a TRICARE-covered in-person visit with co-pays and travel time factored in.'
+      a: 'TeleDirectMD is a direct-pay platform and does not currently bill TRICARE directly. The visit cost is $79 flat fee, paid at booking. Some TRICARE plans may allow out-of-network reimbursement for telehealth — check your specific plan terms. Either way, $79 is often far less than the cost of a TRICARE-covered in-person visit with co-pays and travel time factored in.'
     },
     {
       q: 'I\'m a Reservist and my TRICARE coverage isn\'t active right now. Can I use TeleDirectMD?',
-      a: 'Absolutely. TeleDirectMD requires no insurance at any time. Reservists and Guard members whose TRICARE eligibility isn\'t currently active can use TeleDirectMD for any of our 60 covered conditions at the $49 flat fee.'
+      a: 'Absolutely. TeleDirectMD requires no insurance at any time. Reservists and Guard members whose TRICARE eligibility isn\'t currently active can use TeleDirectMD for any of our 60 covered conditions at the $79 flat fee.'
     },
     {
       q: 'Can you prescribe refills for medications my military provider prescribed?',
@@ -137,7 +137,7 @@ export default function MilitaryFamiliesPage() {
         "@id": `${pageUrl}#webpage`,
         "url": pageUrl,
         "name": "Telehealth for Military Families — Coverage When TRICARE Has Gaps",
-        "description": "TeleDirectMD fills TRICARE gaps for military families during separation, PCS moves, and Reserve/Guard transitions. $49 flat-fee telehealth in 42 states near every major installation. No insurance required.",
+        "description": "TeleDirectMD fills TRICARE gaps for military families during separation, PCS moves, and Reserve/Guard transitions. $79 flat-fee telehealth in 42 states near every major installation. No insurance required.",
         "datePublished": "2026-04-20",
         "dateModified": today,
         "author": { "@type": "Physician", "name": "Parth Bhavsar, MD" },
@@ -172,7 +172,7 @@ export default function MilitaryFamiliesPage() {
             Telehealth for military families when TRICARE has gaps:
           </p>
           <p style={{ margin: '0.35rem 0 0', color: '#003E52', fontSize: '0.97rem' }}>
-            TeleDirectMD provides $49 flat-fee video visits for military families during separation, PCS moves, and Reserve/Guard activation gaps — prescription bridge refills for blood pressure, thyroid, cholesterol, and anxiety, plus acute care for UTIs, sinus infections, and respiratory illness, in 42 states with no insurance required.
+            TeleDirectMD provides $79 flat-fee video visits for military families during separation, PCS moves, and Reserve/Guard activation gaps — prescription bridge refills for blood pressure, thyroid, cholesterol, and anxiety, plus acute care for UTIs, sinus infections, and respiratory illness, in 42 states with no insurance required.
           </p>
         </div>
       </div>
@@ -184,7 +184,7 @@ export default function MilitaryFamiliesPage() {
             <div className="tdmd-hero-copy">
               <h1>Telehealth for Military Families — Prescription Bridge &amp; Acute Care When TRICARE Has Gaps</h1>
               <p className="tdmd-hero-sub">
-                TRICARE is excellent — when it's active. But separation, PCS moves, and Reserve/Guard transitions create real coverage gaps. TeleDirectMD provides $49 flat-fee telehealth visits in 42 states — prescription bridge refills, acute care, no insurance required.
+                TRICARE is excellent — when it's active. But separation, PCS moves, and Reserve/Guard transitions create real coverage gaps. TeleDirectMD provides $79 flat-fee telehealth visits in 42 states — prescription bridge refills, acute care, no insurance required.
               </p>
               <p>
                 Military families face unique healthcare gaps that civilians rarely encounter: 200,000+ service members separate each year, PCS moves create provider waitlists of 6–10 weeks, and Reserve/Guard members cycle in and out of coverage between activation periods. TeleDirectMD exists for exactly these moments — board-certified Family Medicine, same-day availability, and prescription capability from anywhere in 42 states.
@@ -206,21 +206,21 @@ export default function MilitaryFamiliesPage() {
               </nav>
               <ul className="tdmd-hero-benefits">
                 <li>Bridge prescriptions (BP, thyroid, cholesterol, anxiety) during PCS — keep medications stable</li>
-                <li>No insurance required — $49 flat fee per visit, direct pay</li>
+                <li>No insurance required — $79 flat fee per visit, direct pay</li>
                 <li>Post-separation coverage when TRICARE and TAMP end</li>
                 <li>Licensed in 42 states — every major installation location covered</li>
                 <li>Same-day availability, evenings &amp; weekends</li>
                 <li>HIPAA-compliant visit records you can share with your new provider</li>
               </ul>
               <div className="tdmd-hero-ctas">
-                <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit — $49</a>
+                <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
                 <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">See What We Treat</a>
               </div>
               <p className="tdmd-reviewed">Medically reviewed by Parth Bhavsar, MD, board-certified Family Medicine · Updated {today}</p>
             </div>
             <div className="tdmd-hero-side">
               <div className="tdmd-hero-card">
-                <h2>What You Get for $49</h2>
+                <h2>What You Get for $79</h2>
                 <ul>
                   <li>Video visit with board-certified Family Medicine MD</li>
                   <li>Prescription bridge refills (BP, thyroid, cholesterol, anxiety)</li>
@@ -274,8 +274,8 @@ export default function MilitaryFamiliesPage() {
             <div className="tdmd-decision-step tdmd-decision-step-good">
               <div className="tdmd-decision-number">1</div>
               <div className="tdmd-decision-content">
-                <h3>Book &amp; Pay ($49)</h3>
-                <p>No TRICARE card, no referral, no prior authorization. Select a same-day or next-available appointment. Pay $49 at booking — flat fee, no hidden costs, no insurance required.</p>
+                <h3>Book &amp; Pay ($79)</h3>
+                <p>No TRICARE card, no referral, no prior authorization. Select a same-day or next-available appointment. Pay $79 at booking — flat fee, no hidden costs, no insurance required.</p>
               </div>
             </div>
             <div className="tdmd-decision-step tdmd-decision-step-good">
@@ -291,7 +291,7 @@ export default function MilitaryFamiliesPage() {
                 <h3>Prescriptions &amp; Documentation</h3>
                 <p>Dr. Bhavsar prescribes bridge medications, treats acute conditions, and provides a visit summary for your new provider. Prescriptions sent to any US pharmacy — including TRICARE Express Scripts.</p>
                 <div className="tdmd-decision-cta">
-                  <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit — $49</a>
+                  <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
                 </div>
               </div>
             </div>
@@ -307,7 +307,7 @@ export default function MilitaryFamiliesPage() {
           <p>The problem: it's tied to service status. Separation ends TRICARE coverage immediately on the separation date. PCS moves disrupt existing provider relationships for 6–10 weeks or longer — the new base PCP may not be accepting new patients. Reserve/Guard coverage fluctuates between activation periods, leaving dependents uninsured during those gaps.</p>
           <p>TAMP — the Transitional Assistance Management Program — provides 180 days of transitional coverage for qualifying separation types. But not all separations qualify, and families who don't qualify face an immediate gap. Even for those who do qualify, TAMP eventually ends.</p>
           <p>The result: military families who are experts at navigating hardship often face a healthcare system that wasn't built for their transitions. Prescriptions lapse. Acute conditions go untreated. New PCPs have months-long waitlists.</p>
-          <p><strong>TeleDirectMD doesn't replace TRICARE. It bridges the gap</strong> — $49 flat-fee telehealth with a board-certified Family Medicine physician, available same-day in 42 states, no insurance required.</p>
+          <p><strong>TeleDirectMD doesn't replace TRICARE. It bridges the gap</strong> — $79 flat-fee telehealth with a board-certified Family Medicine physician, available same-day in 42 states, no insurance required.</p>
         </div>
       </section>
 
@@ -330,7 +330,7 @@ export default function MilitaryFamiliesPage() {
                   <td><strong>Post-Separation (after TAMP)</strong></td>
                   <td>Ended</td>
                   <td>No coverage; civilian plans not yet in place</td>
-                  <td>$49 direct-pay visits in 42 states, no insurance</td>
+                  <td>$79 direct-pay visits in 42 states, no insurance</td>
                 </tr>
                 <tr>
                   <td><strong>Mid-PCS Move</strong></td>
@@ -394,7 +394,7 @@ export default function MilitaryFamiliesPage() {
                 <p><strong>YES:</strong> Book TeleDirectMD — same-day evaluation and treatment.</p>
                 <p><strong>Needs in-person exam/imaging:</strong> Urgent Care or ER.</p>
                 <div className="tdmd-decision-cta">
-                  <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit — $49</a>
+                  <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
                 </div>
               </div>
             </div>
@@ -408,7 +408,7 @@ export default function MilitaryFamiliesPage() {
           <h2>Cost Breakdown</h2>
           <div className="tdmd-price-grid">
             <div className="tdmd-price-card">
-              <div className="tdmd-price-big">$49</div>
+              <div className="tdmd-price-big">$79</div>
               <div className="tdmd-price-sub">One flat fee — no TRICARE authorization required</div>
               <ul className="tdmd-price-includes">
                 <li>Video visit with board-certified MD</li>
@@ -417,7 +417,7 @@ export default function MilitaryFamiliesPage() {
                 <li>Visit summary for new provider</li>
                 <li>HIPAA-compliant records</li>
               </ul>
-              <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book Now — $49</a>
+              <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book Now — $79</a>
             </div>
           </div>
           <div className="tdmd-price-chart">
@@ -426,7 +426,7 @@ export default function MilitaryFamiliesPage() {
               <div className="tdmd-bar-track">
                 <div className="tdmd-bar-fill tdmd-bar-fill-tdmd" style={{ width: '4%' }}></div>
               </div>
-              <span>$49</span>
+              <span>$79</span>
             </div>
             <div className="tdmd-bar-row">
               <span className="tdmd-bar-label">TRICARE Prime (in-network, when active)</span>
@@ -457,7 +457,7 @@ export default function MilitaryFamiliesPage() {
               <span>$1,500–$5,000+</span>
             </div>
           </div>
-          <p className="tdmd-cost-note">When TRICARE is active and you're in-network, it's hard to beat. But during transitions, $49 is far less than the cost of out-of-network TRICARE care — or a civilian urgent care visit.</p>
+          <p className="tdmd-cost-note">When TRICARE is active and you're in-network, it's hard to beat. But during transitions, $79 is far less than the cost of out-of-network TRICARE care — or a civilian urgent care visit.</p>
         </div>
       </section>
 
@@ -467,7 +467,7 @@ export default function MilitaryFamiliesPage() {
           <h2>What Is the Military Healthcare Transition Gap?</h2>
           <p>Approximately 700,000 active duty service member families are part of a system that provides world-class coverage — but only when the conditions are right. Every year, 200,000+ service members separate, PCS families move to new installations, and Reserve/Guard members move in and out of activation cycles.</p>
           <p>Each transition creates a gap. Prescriptions lapse. New PCPs have waitlists of 6–12 weeks. TAMP provides a 180-day bridge for qualifying separations — but not all separations qualify, and even TAMP eventually expires. The gap is filled by urgent care visits, ER trips, and missed medications — not because families don't want care, but because the system wasn't designed for transitions.</p>
-          <p>TeleDirectMD was built for exactly this: board-certified Family Medicine, 42 states, $49 flat fee, and prescription capability the day you need it. Not a replacement for TRICARE — a bridge to keep you stable until TRICARE catches up.</p>
+          <p>TeleDirectMD was built for exactly this: board-certified Family Medicine, 42 states, $79 flat fee, and prescription capability the day you need it. Not a replacement for TRICARE — a bridge to keep you stable until TRICARE catches up.</p>
         </div>
       </section>
 
@@ -757,10 +757,10 @@ export default function MilitaryFamiliesPage() {
           <div className="tdmd-bottom-cta">
             <div className="tdmd-bottom-cta-copy">
               <h2>Your Family's Health Shouldn't Wait for TRICARE to Catch Up</h2>
-              <p>$49 flat-fee visits. Same-day availability. 42 states. No insurance required.</p>
+              <p>$79 flat-fee visits. Same-day availability. 42 states. No insurance required.</p>
             </div>
             <div className="tdmd-bottom-cta-actions">
-              <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit — $49</a>
+              <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
               <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">See What We Treat</a>
             </div>
           </div>
@@ -811,7 +811,7 @@ export default function MilitaryFamiliesPage() {
           <div className="tdmd-related-grid">
             <div className="tdmd-related-card">
               <p className="tdmd-related-title">Early Retirees</p>
-              <p className="tdmd-related-desc">Bridge the pre-Medicare gap with $49 visits.</p>
+              <p className="tdmd-related-desc">Bridge the pre-Medicare gap with $79 visits.</p>
               <a href="/who-we-serve/early-retirees" className="tdmd-btn tdmd-btn-outline">Learn More</a>
             </div>
             <div className="tdmd-related-card">
