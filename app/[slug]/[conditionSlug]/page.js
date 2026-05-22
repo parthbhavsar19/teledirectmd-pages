@@ -27,6 +27,28 @@ import CaSeasonalAllergiesTreatmentOnline from './CaSeasonalAllergiesTreatmentOn
 // remain off the router until their drip day to avoid burst-publish signal).
 import CaAcneTreatmentOnline from './CaAcneTreatmentOnline';
 import CaEczemaTreatmentOnline from './CaEczemaTreatmentOnline';
+
+// ── Drip 2 (2026-05-22): batch 2 women's/sexual + batch 3 derm + batch 1 acute ──
+import CaCellulitisTreatmentOnline from './CaCellulitisTreatmentOnline';
+import CaContactDermatitisTreatmentOnline from './CaContactDermatitisTreatmentOnline';
+import CaDandruffTreatmentOnline from './CaDandruffTreatmentOnline';
+import CaDentalPainTreatmentOnline from './CaDentalPainTreatmentOnline';
+import CaDoxypepStiPreventionOnline from './CaDoxypepStiPreventionOnline';
+import CaErectileDysfunctionTreatmentOnline from './CaErectileDysfunctionTreatmentOnline';
+import CaGenitalHerpesTreatmentOnline from './CaGenitalHerpesTreatmentOnline';
+import CaGenitalWartsTreatmentOnline from './CaGenitalWartsTreatmentOnline';
+import CaGoutTreatmentOnline from './CaGoutTreatmentOnline';
+import CaImpetigoTreatmentOnline from './CaImpetigoTreatmentOnline';
+import CaMastitisTreatmentOnline from './CaMastitisTreatmentOnline';
+import CaMycoplasmaGenitaliumTreatmentOnline from './CaMycoplasmaGenitaliumTreatmentOnline';
+import CaOralThrushTreatmentOnline from './CaOralThrushTreatmentOnline';
+import CaPerformanceAnxietyTreatmentOnline from './CaPerformanceAnxietyTreatmentOnline';
+import CaPsoriasisRefillsOnline from './CaPsoriasisRefillsOnline';
+import CaRosaceaTreatmentOnline from './CaRosaceaTreatmentOnline';
+import CaShinglesTreatmentOnline from './CaShinglesTreatmentOnline';
+import CaTrichomoniasisTreatmentOnline from './CaTrichomoniasisTreatmentOnline';
+import CaVaginalDrynessTreatmentOnline from './CaVaginalDrynessTreatmentOnline';
+import CaViralGastroenteritisTreatmentOnline from './CaViralGastroenteritisTreatmentOnline';
 import { summarizeConditionState, citableSummaryToJsonLd } from '../../../lib/citable-summary';
 
 export async function generateStaticParams() {
@@ -160,6 +182,68 @@ export default async function ConditionPage({ params }) {
   }
   if (slug === 'ca' && conditionSlug === 'seasonal-allergies-treatment-online') {
     return <CaSeasonalAllergiesTreatmentOnline />;
+  }
+
+  // ── Drip 2 (2026-05-22): 20 CA condition pages — batch 2 women's/sexual + batch 3 derm + batch 1 acute ──
+  if (slug === 'ca' && conditionSlug === 'cellulitis-treatment-online') {
+    return <CaCellulitisTreatmentOnline />;
+  }
+  if (slug === 'ca' && conditionSlug === 'contact-dermatitis-treatment-online') {
+    return <CaContactDermatitisTreatmentOnline />;
+  }
+  if (slug === 'ca' && conditionSlug === 'dandruff-treatment-online') {
+    return <CaDandruffTreatmentOnline />;
+  }
+  if (slug === 'ca' && conditionSlug === 'dental-pain-treatment-online') {
+    return <CaDentalPainTreatmentOnline />;
+  }
+  if (slug === 'ca' && conditionSlug === 'doxypep-sti-prevention-online') {
+    return <CaDoxypepStiPreventionOnline />;
+  }
+  if (slug === 'ca' && conditionSlug === 'erectile-dysfunction-treatment-online') {
+    return <CaErectileDysfunctionTreatmentOnline />;
+  }
+  if (slug === 'ca' && conditionSlug === 'genital-herpes-treatment-online') {
+    return <CaGenitalHerpesTreatmentOnline />;
+  }
+  if (slug === 'ca' && conditionSlug === 'genital-warts-treatment-online') {
+    return <CaGenitalWartsTreatmentOnline />;
+  }
+  if (slug === 'ca' && conditionSlug === 'gout-treatment-online') {
+    return <CaGoutTreatmentOnline />;
+  }
+  if (slug === 'ca' && conditionSlug === 'impetigo-treatment-online') {
+    return <CaImpetigoTreatmentOnline />;
+  }
+  if (slug === 'ca' && conditionSlug === 'mastitis-treatment-online') {
+    return <CaMastitisTreatmentOnline />;
+  }
+  if (slug === 'ca' && conditionSlug === 'mycoplasma-genitalium-treatment-online') {
+    return <CaMycoplasmaGenitaliumTreatmentOnline />;
+  }
+  if (slug === 'ca' && conditionSlug === 'oral-thrush-treatment-online') {
+    return <CaOralThrushTreatmentOnline />;
+  }
+  if (slug === 'ca' && conditionSlug === 'performance-anxiety-treatment-online') {
+    return <CaPerformanceAnxietyTreatmentOnline />;
+  }
+  if (slug === 'ca' && conditionSlug === 'psoriasis-refills-online') {
+    return <CaPsoriasisRefillsOnline />;
+  }
+  if (slug === 'ca' && conditionSlug === 'rosacea-treatment-online') {
+    return <CaRosaceaTreatmentOnline />;
+  }
+  if (slug === 'ca' && conditionSlug === 'shingles-treatment-online') {
+    return <CaShinglesTreatmentOnline />;
+  }
+  if (slug === 'ca' && conditionSlug === 'trichomoniasis-treatment-online') {
+    return <CaTrichomoniasisTreatmentOnline />;
+  }
+  if (slug === 'ca' && conditionSlug === 'vaginal-dryness-treatment-online') {
+    return <CaVaginalDrynessTreatmentOnline />;
+  }
+  if (slug === 'ca' && conditionSlug === 'viral-gastroenteritis-treatment-online') {
+    return <CaViralGastroenteritisTreatmentOnline />;
   }
 
   const state = getStateBySlug(slug);
