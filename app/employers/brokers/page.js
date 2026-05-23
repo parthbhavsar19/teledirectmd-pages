@@ -122,7 +122,7 @@ export default function BrokerPage() {
                 </p>
                 <div className="tdmd-emp-ctas">
                   <a href="#form" className="tdmd-emp-btn tdmd-emp-btn--primary">Become a Partner</a>
-                  <a href="#offer" className="tdmd-emp-btn tdmd-emp-btn--outline">See the offer</a>
+                  <a href="/employers/brief" className="tdmd-emp-btn tdmd-emp-btn--outline">Download the Brief (PDF)</a>
                 </div>
               </div>
               <div className="tdmd-emp-feecard">

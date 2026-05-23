@@ -23,6 +23,8 @@ const STATIC_ROUTES = [
   // 2026-05-23: Employer + Broker pages
   { path: '/employers', priority: 0.9, changefreq: 'weekly' },
   { path: '/employers/brokers', priority: 0.8, changefreq: 'weekly' },
+  // 2026-05-23: Gated PDF lead magnet landing page
+  { path: '/employers/brief', priority: 0.8, changefreq: 'monthly' },
   // 2026-05-23: Industry-specific employer pages
   { path: '/employers/trucking', priority: 0.85, changefreq: 'monthly' },
   { path: '/employers/restaurants', priority: 0.85, changefreq: 'monthly' },

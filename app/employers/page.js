@@ -200,7 +200,7 @@ export default function EmployersPage() {
                 </p>
                 <div className="tdmd-emp-ctas">
                   <a href="#form" className="tdmd-emp-btn tdmd-emp-btn--primary">Book a 15-Minute Discovery Call</a>
-                  <a href="#how" className="tdmd-emp-btn tdmd-emp-btn--outline">See how it works</a>
+                  <a href="/employers/brief" className="tdmd-emp-btn tdmd-emp-btn--outline">Download the Brief (PDF)</a>
                 </div>
               </div>
               <aside className="tdmd-emp-pricecard" aria-label="Pricing snapshot">
