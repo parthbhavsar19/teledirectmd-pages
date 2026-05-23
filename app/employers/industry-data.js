@@ -20,11 +20,11 @@ export const INDUSTRY_DATA = {
     shortName: 'Trucking',
     audienceLabel: 'OTR Drivers, Owner-Operators, Fleet HR',
     metaDescription:
-      'Virtual primary care for OTR truck drivers and owner-operators. Manage hypertension, diabetes, sleep apnea so drivers keep their DOT card. Same-day visits in 41 states + DC. $0 employer cost.',
+      'Virtual primary care for OTR truck drivers and owner-operators. Manage hypertension, diabetes, and dyslipidemia to support drivers between DOT exams. Same-day visits in 41 states + DC. $0 employer cost.',
     heroHeadline: 'Virtual primary care for the people who keep America moving.',
     heroHeadlineEm: 'No truck-stop detour required.',
     heroSub:
-      "TeleDirectMD is physician-led virtual primary care designed for OTR drivers and owner-operators. We don't replace your DOT medical exam — federal law requires that in person. We manage the conditions that most often shorten a driver's card or get them disqualified: high blood pressure, diabetes, dyslipidemia, sleep apnea follow-up, mental health, and acute illness on the road. Licensed in 41 states + DC.",
+      "TeleDirectMD is physician-led virtual primary care designed for OTR drivers and owner-operators. We don't perform or replace your DOT medical exam — federal law requires that in person. What we do is provide the day-to-day primary care that drivers struggle to access on the road: managing high blood pressure, diabetes, cholesterol, mental health, and acute illness from anywhere a driver can get online. Licensed in 41 states + DC.",
     workforceProfile: {
       shortDesc: 'OTR driver',
       intro:
@@ -74,14 +74,14 @@ export const INDUSTRY_DATA = {
       },
       {
         name: 'Type 2 Diabetes / Prediabetes',
-        why: 'Diabetes prevalence in long-haul drivers is 14% vs. 7% in the general working population. Non-insulin diabetes managed to HbA1c targets is typically DOT-certifiable. Insulin-treated drivers can have Dr. Bhavsar complete the FMCSA MCSA-5870 ITDM Assessment Form.',
+        why: 'Diabetes prevalence in long-haul drivers is 14% vs. 7% in the general working population. Non-insulin diabetes managed to HbA1c targets is typically DOT-certifiable. Ongoing management of medications, labs, and lifestyle is exactly what virtual primary care does well.',
         citations: [
           { label: 'CDC NIOSH Bulletin 2015', url: 'https://www.cdc.gov/niosh/bulletin/2015/truck-driver-health.html' },
         ],
       },
       {
-        name: 'Obstructive Sleep Apnea — CPAP adherence monitoring',
-        why: 'Roughly 28% of commercial drivers have OSA. We cannot diagnose OSA (sleep study required) but we can review CPAP adherence data, manage comorbidities (HTN, DM2) that worsen it, and document compliance for the in-person Medical Examiner.',
+        name: 'Sleep apnea comorbidity management',
+        why: 'Roughly 28% of commercial drivers have OSA, and the conditions that drive OSA severity (HTN, DM2, BMI) are exactly what virtual primary care manages well. We do not diagnose OSA (sleep study required) and we are not your sleep specialist — but managing the comorbidities consistently is itself meaningful.',
         citations: [
           { label: 'FMCSA Sleep Apnea PDF', url: 'https://www.fmcsa.dot.gov/sites/fmcsa.dot.gov/files/docs/Driving-Sleep-Apnea_508CLN.pdf' },
         ],
@@ -140,31 +140,26 @@ export const INDUSTRY_DATA = {
     ],
     regulatoryNotes: `
 <p><strong>The DOT physical itself stays in person — that's federal law.</strong> The FMCSA Medical Examiner's Certificate (49 CFR §391.43) requires an in-person exam by an FMCSA-listed Medical Examiner. TeleDirectMD does not perform DOT physicals.</p>
-<p>What we do is manage the conditions that most often shorten a driver's card or get them disqualified — so drivers arrive at their next DOT exam in their best shape:</p>
+<p>What we do is ongoing primary care between exams — the same kind of care your driver would get from any family physician, just accessible from the road:</p>
 <ul>
-  <li><strong>FMCSA §391.41(b)(6) blood pressure thresholds.</strong> BP &lt;140/90 = 2-year card. Stage 1 HTN = 1-year card. Stage 2 HTN = 3-month one-time card. BP ≥180/110 = disqualified. Consistent virtual antihypertensive management is direct card-protection.</li>
-  <li><strong>National Registry II (2025–2026).</strong> Exam results now transmit electronically to the driver's CDLIS/MVR overnight. Lapses are visible to employers. Carrying chronic disease through TeleDirectMD between exams prevents preventable downgrade events.</li>
-  <li><strong>Insulin-treated diabetes (ITDM) MCSA-5870 form.</strong> The treating physician completes this — Dr. Bhavsar can sign for drivers he actively manages.</li>
-  <li><strong>Return-to-work letters after illness/injury.</strong> FMCSRs do not mandate a new DOT exam after every illness, but most carriers require physician fitness-for-duty documentation. Same-day via telehealth.</li>
+  <li><strong>FMCSA §391.41(b)(6) context for chronic disease.</strong> Blood pressure, diabetes, and cholesterol are FMCSA-relevant conditions. Drivers with well-managed BP &lt;140/90 typically qualify for the full 2-year certification period; drivers with uncontrolled disease often receive shorter cards. Consistent primary-care management — what we do — supports better health and, by extension, more straightforward DOT exams.</li>
+  <li><strong>National Registry II (2025–2026).</strong> Exam results now transmit electronically to the driver's CDLIS/MVR overnight. Drivers who let chronic disease drift between exams are more visible to employers under the new system.</li>
+  <li><strong>Acute illness on the road.</strong> UTIs, sinus infections, skin infections, GI illness — handled by video, prescriptions sent to the pharmacy nearest the driver.</li>
   <li><strong>Drug & alcohol program (49 CFR Part 382).</strong> Testing is administered by employers/TPAs — not by physicians. TeleDirectMD does not perform DOT drug screens.</li>
 </ul>
 `,
     whatWeSolve: [
       {
-        headline: 'DOT-card preservation',
-        body: 'Ongoing virtual management of HTN, DM2, dyslipidemia keeps biomarkers within FMCSA certification thresholds — protecting the 2-year card and avoiding the cascade of 1-year, 3-month, or disqualified outcomes.',
+        headline: 'Ongoing chronic disease management',
+        body: 'Hypertension, diabetes, and high cholesterol are the conditions most likely to drift in a driver who lives on the road without consistent primary care. Virtual visits, lab orders, and medication management keep treatment moving regardless of route.',
       },
       {
-        headline: 'Eliminate clinic detours',
-        body: 'Virtual visits run roughly one-third the cost of in-person urgent care and eliminate the 2–4 hour route deviation. UTIs, sinus infections, skin infections — all handled from a truck-stop parking lot.',
-      },
-      {
-        headline: 'ITDM and fitness-for-duty documentation',
-        body: 'Dr. Bhavsar can complete the MCSA-5870 ITDM form and write fitness-for-duty clearance letters same-day for drivers he manages — without requiring them to return home.',
+        headline: 'Eliminate clinic detours for acute illness',
+        body: 'UTIs, sinus infections, skin infections, GI illness — handled by video, prescriptions sent to the pharmacy nearest the driver. No 2–4 hour route deviation.',
       },
       {
         headline: 'Mental health support on the road',
-        body: 'SSRIs/SNRIs are not categorically DOT-disqualifying. Virtual management plus medication-safety documentation for the Medical Examiner addresses driver mental health without putting the card at risk.',
+        body: 'SSRIs and SNRIs (non-controlled) are within scope. We do not treat addiction or prescribe controlled-substance ADHD or anxiety medications, but stable management of depression and anxiety is exactly what virtual primary care does well.',
       },
       {
         headline: 'One physician across 41 states + DC',
@@ -172,7 +167,8 @@ export const INDUSTRY_DATA = {
       },
     ],
     whatWeDont: [
-      { headline: 'No DOT physical exams', body: 'Federal law (49 CFR §391.43) requires DOT exams to be performed in person by an FMCSA-listed Medical Examiner. We do not — and cannot — replace that exam. We make sure drivers are ready to pass it.' },
+      { headline: 'No DOT physical exams or Medical Examiner Certificates', body: 'Federal law (49 CFR §391.43) requires DOT exams to be performed in person by an FMCSA-listed Medical Examiner. We do not replace that exam, and we are not currently set up to complete DOT-specific forms (such as the MCSA-5870 ITDM Assessment) as a packaged service.' },
+      { headline: 'No CPAP or sleep study management', body: 'Sleep studies are in-person and CPAP titration is handled by sleep medicine. We can manage the conditions that often coexist with sleep apnea (HTN, DM2), but the OSA workup itself is outside scope.' },
       { headline: 'No controlled substances', body: 'No Schedule II–V prescriptions via telehealth — no opioids, no stimulants, no benzodiazepines. This is a deliberate clinical-safety decision.' },
       { headline: 'No DOT drug or alcohol testing', body: 'Required by 49 CFR Part 382 — administered by employers and Third Party Administrators, not by physicians.' },
       { headline: 'No pediatric care', body: 'Adults only (18+). The benefit covers your drivers themselves.' },
@@ -188,11 +184,11 @@ export const INDUSTRY_DATA = {
     faqs: [
       {
         q: 'Can a telehealth doctor help me pass my DOT physical?',
-        a: "TeleDirectMD cannot perform your DOT physical — 49 CFR §391.43 requires that exam to be done in person by an FMCSA-certified Medical Examiner. What we can do is manage the conditions that most often shorten your card or get you disqualified: high blood pressure, diabetes, and high cholesterol. If your BP is Stage 2 (160–179/100–109), you only get a 3-month card. If we help you get it below 140/90 consistently, you qualify for a full 2-year card. Many drivers see us regularly specifically to stay DOT-ready year-round.",
+        a: "TeleDirectMD does not perform your DOT physical — 49 CFR §391.43 requires that exam to be done in person by an FMCSA-certified Medical Examiner. What we provide is ongoing primary care between DOT exams: managing high blood pressure, diabetes, cholesterol, and mental health so a driver stays healthy. Better-managed chronic conditions generally lead to more straightforward DOT exams.",
       },
       {
         q: "I'm an owner-operator without company health insurance. How does this work for me?",
-        a: 'TeleDirectMD is a direct-pay virtual primary care service — no insurance required. You get same-day video visits with Dr. Bhavsar for acute illness, prescription refills, lab review, and ongoing chronic disease management — all from your cab or a truck stop. Prescriptions are sent to a pharmacy near your current location. You are not tied to one city or one clinic.',
+        a: 'TeleDirectMD is a direct-pay virtual primary care service — no insurance required. You get same-day video visits with Dr. Bhavsar for acute illness, prescription refills, lab review, and ongoing chronic disease management — all from your cab or a truck stop. Prescriptions are sent to a pharmacy near your current location.',
       },
       {
         q: 'My fleet has drivers in multiple states. Can one telehealth doctor cover all of them?',
@@ -208,11 +204,11 @@ export const INDUSTRY_DATA = {
     shortName: 'Restaurant',
     audienceLabel: 'Restaurant Owners, F&B HR, Hospitality GMs',
     metaDescription:
-      'Virtual primary care for restaurant workers — burns, cuts, contact dermatitis, norovirus clearance, food-handler documentation. Same-day visits, $0 employer cost, 41 states + DC.',
+      'Virtual primary care for restaurant workers — minor burn assessment, cut and wound care, contact dermatitis, work notes when staff are sick. Same-day visits, $0 employer cost, 41 states + DC.',
     heroHeadline: "A telehealth benefit your kitchen and front-of-house can actually use.",
     heroHeadlineEm: 'Without losing a shift.',
     heroSub:
-      "Restaurants have the highest burn and laceration rates of any private industry, the highest occupational dermatitis rates, and a 22% uninsured workforce. TeleDirectMD provides same-day virtual primary care for burns, cuts, contact dermatitis, norovirus clearance, food-handler health documentation, and mental health for late-shift workers — all without anyone leaving the line for a 3-hour urgent care detour.",
+      "Restaurants have the highest burn and laceration rates of any private industry, the highest occupational dermatitis rates, and a 22% uninsured workforce. TeleDirectMD provides same-day virtual primary care for burns and cuts, contact dermatitis, GI illness, mental health for late-shift workers, and work-excuse notes when staff need them — all without anyone leaving the line for a 3-hour urgent care detour.",
     workforceProfile: {
       shortDesc: 'restaurant worker',
       intro:
@@ -272,17 +268,10 @@ export const INDUSTRY_DATA = {
         ],
       },
       {
-        name: 'Norovirus / acute gastroenteritis',
-        why: 'Norovirus is responsible for ~50% of all US foodborne illness outbreaks. CDC guidance: ill food workers must stay home until at least 48 hours after symptoms resolve. We provide same-day clearance-to-return documentation for FDA Food Code compliance.',
+        name: 'Acute gastroenteritis (norovirus, viral GI)',
+        why: 'Norovirus is responsible for ~50% of all US foodborne illness outbreaks. CDC guidance directs ill food workers to stay home until at least 48 hours after symptoms resolve. We treat the illness, advise on the recovery timeline, and write a standard work-excuse note covering the symptomatic period.',
         citations: [
           { label: 'CDC Norovirus for Food Workers 2024', url: 'https://www.cdc.gov/norovirus/communication-resources/facts-for-food-workers.html' },
-        ],
-      },
-      {
-        name: 'Hepatitis A — vaccination documentation review',
-        why: 'Hepatitis A is a top foodborne viral threat. We review vaccination records and provide documentation; vaccine administration itself requires an in-person clinic visit.',
-        citations: [
-          { label: 'TrainCan WHO/FAO 2024', url: 'https://www.traincan.com/foodsafetynews/how-viruses-like-hepatitis-a-and-norovirus-are-changing-the-global-food-safety-landscape' },
         ],
       },
       {
@@ -311,31 +300,32 @@ export const INDUSTRY_DATA = {
         ],
       },
       {
-        name: 'Food-handler health card documentation',
-        why: 'Many counties require a food handler card or physician-signed health attestation. We provide the physician documentation piece quickly and remotely; the county test itself still goes through the local health authority.',
+        name: 'Work-excuse notes for missed shifts',
+        why: 'When a worker is sick or recovering from a minor injury, a standard work-excuse note is part of any primary-care visit. We do not issue jurisdiction-specific food handler cards — those go through the local health authority — but the routine work note for a missed shift is included.',
       },
     ],
     regulatoryNotes: `
-<p>Restaurant operators live with three regulatory layers on worker health: the FDA Food Code, OSHA recordkeeping, and county-level food handler requirements. TeleDirectMD plugs into each one without replacing any of them.</p>
+<p>Restaurant operators live with three regulatory layers on worker health: the FDA Food Code, OSHA recordkeeping, and county-level food handler requirements. TeleDirectMD is a primary-care service — not an occupational health vendor — so the way we fit in is narrower than the way an on-site clinic would.</p>
 <ul>
-  <li><strong>FDA Food Code ill-employee provisions.</strong> Workers with vomiting, diarrhea, jaundice, fever-plus-sore-throat, or open lesions are restricted from food contact. Dr. Bhavsar provides same-day clearance letters after symptom resolution — replacing the need to find a local clinic on short notice.</li>
-  <li><strong>OSHA injury recordkeeping (29 CFR Part 1904).</strong> Injuries requiring medical treatment beyond first aid must be recorded. TeleDirectMD encounters can qualify as "medical treatment" for the OSHA 300 log when prescriptions are involved — your safety manager should know this.</li>
-  <li><strong>Workers' compensation documentation.</strong> Restaurants have high injury frequency and need prompt WC documentation. A virtual assessment within hours of injury supports timely filing.</li>
-  <li><strong>Food handler cards / county health permits.</strong> Requirements differ by county. TeleDirectMD provides medical history review and physician attestation; county-issued cards themselves go through the local health authority.</li>
+  <li><strong>FDA Food Code ill-employee provisions.</strong> Workers with vomiting, diarrhea, jaundice, fever-plus-sore-throat, or open lesions are restricted from food contact. We treat the illness and write a standard work-excuse note covering the recovery period; jurisdiction-specific "clearance to return to food handling" letters that some health departments require are not a standalone service we offer today.</li>
+  <li><strong>OSHA injury recordkeeping (29 CFR Part 1904).</strong> Injuries requiring medical treatment beyond first aid must be recorded. The clinical record from a TeleDirectMD visit (prescription written, follow-up plan, etc.) is yours to use in your OSHA documentation — your safety manager makes the recordability determination.</li>
+  <li><strong>Workers' compensation documentation.</strong> Restaurants have high injury frequency. A virtual assessment within hours of injury produces a clinical note your worker can share with the WC carrier; we do not currently offer specialized WC-vendor documentation packages.</li>
+  <li><strong>Food handler cards / county health permits.</strong> These go through the local health authority. We do not issue food handler cards.</li>
 </ul>
 `,
     whatWeSolve: [
-      { headline: 'Same-day burn, cut, and skin care', body: 'A line cook with a burn or laceration can be assessed by video within an hour, get prescribed topical antibiotic or oral antibiotic if infected, and have WC documentation in hand before the shift ends.' },
-      { headline: 'Norovirus clearance letters', body: 'When a worker calls in with GI symptoms, FDA Food Code requires clearance before return to food handling. We provide same-day written clearance once symptoms resolve.' },
-      { headline: 'Care for the 22% uninsured', body: 'Many restaurant workers will not see a doctor without our flat-rate option. UTIs, cellulitis, and burns that would otherwise become ER visits are handled by primary care.' },
-      { headline: 'Mental health for late shifts', body: 'Dr. Bhavsar treats anxiety, depression, and shift-work insomnia at hours that work for night-shift staff — no daytime clinic appointment that conflicts with sleep.' },
+      { headline: 'Same-day burn, cut, and skin care', body: 'A line cook with a minor burn or laceration can be assessed by video within an hour and treated by primary care if the injury is within virtual scope — or triaged to in-person care if it is not.' },
+      { headline: 'GI illness and standard work-excuse notes', body: 'When a worker calls in with norovirus-style symptoms, we treat the illness and provide a standard work-excuse note covering the symptomatic period. Returning to food handling is per the worker\'s health department guidance, not ours.' },
+      { headline: 'Care for the 22% uninsured', body: 'Many restaurant workers will not see a doctor without our flat-rate option. UTIs, cellulitis, and minor burns that would otherwise become ER visits are handled by primary care.' },
+      { headline: 'Mental health for late shifts', body: 'Dr. Bhavsar treats anxiety, depression, and shift-work insomnia within standard primary-care scope — SSRIs, SNRIs, sleep hygiene counseling. No controlled substances.' },
       { headline: 'One benefit across multiple locations', body: 'Restaurant groups with multiple sites can offer one virtual primary care benefit to all hourly workers — no negotiating with multiple local clinics or insurance networks.' },
     ],
     whatWeDont: [
-      { headline: 'No sutures or in-person procedures', body: 'Deep or gaping lacerations need an in-person clinician with sterile instruments. We assess by video, refer immediately when sutures are needed, and provide the WC documentation.' },
-      { headline: 'No severe-burn management', body: 'Burns greater than 10% body surface area or full-thickness burns need ER care. We triage, but we do not manage these virtually.' },
-      { headline: 'No vaccine administration', body: 'We can review immunization records and write attestations — but vaccines themselves are given at a pharmacy or clinic.' },
-      { headline: 'No county-issued food handler cards', body: 'County health departments issue the card. We provide the physician documentation many counties require as one component.' },
+      { headline: 'No sutures or in-person procedures', body: 'Deep or gaping lacerations need an in-person clinician with sterile instruments. We assess by video and refer immediately when sutures are needed.' },
+      { headline: 'No severe-burn management', body: 'Burns greater than 10% body surface area or full-thickness burns need ER care. We triage but do not manage these virtually.' },
+      { headline: 'No vaccine administration', body: 'Vaccines themselves are given at a pharmacy or clinic. Vaccine record review and attestations are not a packaged service we offer today.' },
+      { headline: 'No food handler cards or jurisdiction-specific food-safety clearance letters', body: 'County health departments issue food handler cards. Clearance letters worded to specific jurisdiction food codes are not a service we offer today — we issue standard work-excuse notes from primary care.' },
+      { headline: 'No occupational-health surveillance programs', body: 'We are a primary-care practice, not an OSHA-recordkeeping or workers-comp-management vendor.' },
       { headline: 'No controlled substances', body: 'No Schedule II–V prescriptions via telehealth.' },
       { headline: 'No pediatric care', body: 'Adults only (18+).' },
     ],
@@ -351,15 +341,15 @@ export const INDUSTRY_DATA = {
     faqs: [
       {
         q: 'My employee cut their hand on a knife. Can a telehealth doctor help?',
-        a: 'Yes, for most knife cuts. Dr. Bhavsar can assess the wound by video, decide whether it needs in-person suturing (and refer immediately if so), prescribe antibiotics if it shows signs of infection, and provide workers\' compensation documentation — all within the hour. Suture-requiring wounds get triaged to urgent care right away; the majority that don\'t are managed completely by telehealth.',
+        a: 'Yes, for most knife cuts. Dr. Bhavsar can assess the wound by video, decide whether it needs in-person suturing (and refer immediately if so), and prescribe antibiotics if it shows signs of infection — within the hour. Suture-requiring wounds get triaged to urgent care right away; the majority that don\'t are managed completely by telehealth. The clinical record is yours to use for workers\' comp if needed.',
       },
       {
         q: 'Our state requires food handler cards. Can TeleDirectMD help with that?',
-        a: 'We can review vaccination records, document medical history, and provide written physician attestations that many counties accept as part of the food handler clearance process. The specific card or test required by your local health department still needs to be obtained through that authority — requirements vary significantly by county. What we handle is the physician-documentation piece, which often slows down hiring.',
+        a: 'No — food handler cards are issued by the local health authority, and we are not a food-handler-card vendor. What we do offer is standard primary-care work-excuse notes when a worker is sick, and routine medical history review during a regular visit. For the jurisdiction-specific food handler card itself, your workers go through the county or state health department.',
       },
       {
         q: "Half my staff doesn't have health insurance and they call out sick without seeing a doctor. What can I do?",
-        a: 'TeleDirectMD\'s flat-rate visits cost a fraction of urgent care or ER, with no transportation barrier and no lost shift to get an appointment. Employers who add this as a voluntary benefit see uninsured workers use it for conditions they\'d previously push through — norovirus, UTIs, skin infections — reducing both spread and absenteeism.',
+        a: 'TeleDirectMD\'s flat-rate visits cost a fraction of urgent care or ER, with no transportation barrier and no lost shift to get an appointment. Employers who add this as a voluntary benefit see uninsured workers use it for conditions they\'d previously push through — viral GI, UTIs, skin infections — reducing both spread and absenteeism.',
       },
     ],
   },
@@ -371,11 +361,11 @@ export const INDUSTRY_DATA = {
     shortName: 'Home Care',
     audienceLabel: 'Home Care Agencies, Home Health HR',
     metaDescription:
-      'Virtual primary care for home health aides and personal care aides — TB and Hep B documentation, back-injury triage, return-to-work clearance, mental health. $0 employer cost, 41 states + DC.',
+      'Virtual primary care for home health aides and personal care aides — acute care, back and shoulder pain, chronic disease management, mental health. $0 employer cost, 41 states + DC.',
     heroHeadline: 'Virtual primary care for the people who care for everyone else.',
     heroHeadlineEm: "Built for an aging, mostly-female, mostly-immigrant workforce.",
     heroSub:
-      "Home health aides are 87% women, 42% foreign-born, with a median wage of $34,900 and back-injury rates more than 5× the general workforce. TeleDirectMD provides TB and Hep B record review, back-injury triage, return-to-work clearance, mental health care, and chronic disease management — designed for a workforce that often can't take a daytime appointment without losing pay.",
+      "Home health aides are 87% women, 42% foreign-born, with a median wage of $34,900 and back-injury rates more than 5× the general workforce. TeleDirectMD provides primary care for the conditions this workforce actually shows up with: back and shoulder pain, acute illness, chronic disease, and mental health — designed for a workforce that often can't take a daytime appointment without losing pay.",
     workforceProfile: {
       shortDesc: 'home-care worker',
       intro:
@@ -422,22 +412,8 @@ export const INDUSTRY_DATA = {
         why: 'Home care environments require floor-level work that institutional settings minimize. Anti-inflammatory management, ergonomic counseling, referral as needed.',
       },
       {
-        name: 'TB documentation and LTBI consultation',
-        why: 'CDC recommends baseline TB testing for healthcare personnel at hire. We review IGRA/TST results, manage latent TB (isoniazid, rifapentine — non-controlled), and write clearance letters. Skin test administration itself is in-person.',
-        citations: [
-          { label: 'CDC TB Screening for HCP', url: 'https://www.cdc.gov/tb-healthcare-settings/hcp/screening-testing/index.html' },
-        ],
-      },
-      {
-        name: 'Hepatitis B vaccination documentation',
-        why: 'OSHA Bloodborne Pathogens Standard (29 CFR 1910.1030) requires Hep B vaccine series for workers with reasonably anticipated blood exposure. We review records, order titers, document immunity status — vaccine administration is in-person.',
-        citations: [
-          { label: 'OSHA Hep B Factsheet', url: 'https://www.osha.gov/sites/default/files/publications/BBFACT05.pdf' },
-        ],
-      },
-      {
-        name: 'Influenza / COVID-19 vaccination documentation',
-        why: 'Many home care agencies and Medicaid contracts require documented worker vaccination. We provide records review and written documentation; administration is via pharmacy or clinic.',
+        name: 'Acute illness (URI, GI, UTI, skin infections)',
+        why: 'Aides travel between multiple patients\' homes daily, with high exposure and limited time for clinic visits. Standard primary-care management of common acute conditions, with prescriptions sent to the worker\'s preferred pharmacy.',
       },
       {
         name: 'Upper respiratory infections',
@@ -460,24 +436,24 @@ export const INDUSTRY_DATA = {
       },
     ],
     regulatoryNotes: `
-<p>Home care employers operate under a stack of compliance obligations on worker health: TB testing, Hep B documentation, vaccination records, and workers' comp for back injuries. TeleDirectMD fits into each.</p>
+<p>Home care employers operate under several compliance obligations on worker health: TB testing, Hep B documentation, vaccination records, and workers' comp for back injuries. TeleDirectMD is a primary-care practice — not an occupational health vendor or credentialing service — so the way we fit in is narrower than the way an on-site occupational medicine clinic would.</p>
 <ul>
-  <li><strong>TB screening (CDC HCP guidance, Dec 2023).</strong> Baseline IGRA or TST plus risk assessment at hire; subsequent testing based on individual risk reassessment — not automatically annual for every worker (state requirements vary). We can review results, manage latent TB treatment, and provide clearance letters.</li>
-  <li><strong>OSHA Bloodborne Pathogens (29 CFR 1910.1030).</strong> Hep B vaccine offer required for workers with anticipated blood exposure. We support documentation of vaccination status and titer results.</li>
-  <li><strong>Medicaid / managed care credentialing.</strong> Many Medicaid-funded agencies require documented health clearances at hire. Standardized clearance letters available.</li>
-  <li><strong>Workers' comp for back injuries.</strong> Prompt physician documentation supports timely WC filing — and same-day virtual assessment means the documentation happens within hours of the injury, not days.</li>
+  <li><strong>TB screening, Hep B titers, vaccine documentation.</strong> These are credentialing workflows agencies typically run through dedicated occupational medicine vendors. We do not currently offer TB result interpretation, latent-TB treatment programs, vaccine attestation letters, or titer ordering as packaged services.</li>
+  <li><strong>Workers' comp for back injuries.</strong> When an aide reports an injury, a virtual primary-care visit produces a clinical note your worker can share with the WC carrier. We do not offer specialized WC vendor documentation packages.</li>
+  <li><strong>What we do.</strong> Primary care: chronic disease management (HTN, DM2, depression, anxiety, hypothyroid), acute illness, musculoskeletal pain assessment within virtual scope, standard work-excuse notes, prescription refills.</li>
 </ul>
 `,
     whatWeSolve: [
-      { headline: 'TB documentation workflow', body: 'Instead of sending each new hire to a clinic for result review, agencies route TB test results to Dr. Bhavsar for same-day interpretation, latent-TB management, and written clearance — material for an industry projecting 765,800 annual openings.' },
-      { headline: 'Back injury triage and return-to-work', body: 'When an aide reports a back injury after a transfer, we provide same-day assessment, conservative management, and WC documentation — preventing the cycle of "show up the next day more injured" or "miss two weeks without documentation."' },
+      { headline: 'Back and shoulder injury assessment within virtual scope', body: 'When an aide reports a back or shoulder injury after a transfer, we provide same-day primary-care assessment and conservative management (NSAIDs, ergonomic counseling, PT referral). The clinical note is yours to share with WC if needed. Injuries that need imaging or in-person exam are triaged.' },
       { headline: 'Accessible care for a low-wage workforce', body: 'A workforce that\'s 87% female, median $34,900/year, 36% near poverty cannot easily take a daytime appointment. Virtual visits remove the transportation, childcare, and unpaid-time barriers.' },
-      { headline: 'Chronic disease management for an older workforce', body: '38.5% of aides are 55+. Managing their HTN, DM2, and joint disease keeps experienced workers on the job — protecting the $2,000+ replacement cost.' },
-      { headline: 'Interpreter-supported care', body: 'With 41.9% foreign-born and 24.9% Hispanic, professional interpretation services are a meaningful access feature.' },
+      { headline: 'Chronic disease management for an older workforce', body: '38.5% of aides are 55+. Managing their HTN, DM2, depression, and other chronic conditions through primary care keeps experienced workers on the job.' },
+      { headline: 'Acute illness handled without missing a shift', body: 'URI, GI illness, UTI, skin infections — standard primary-care management with prescriptions sent to the worker\'s pharmacy.' },
+      { headline: 'Same physician every visit', body: 'Unlike random-doctor rotations on carrier-bundled telehealth, every visit is with Dr. Bhavsar — so continuity of care is real.' },
     ],
     whatWeDont: [
-      { headline: 'No TB skin test administration', body: 'TST placement and reading requires an in-person clinical visit. We can manage IGRA blood tests entirely virtually and review TST results when done elsewhere.' },
-      { headline: 'No vaccine administration', body: 'Hep B, flu, COVID-19 vaccines themselves are given at a pharmacy or clinic. We handle record review, titer ordering, and documentation.' },
+      { headline: 'No TB testing, screening, or LTBI treatment programs', body: 'TB skin test placement is in-person; TB result interpretation and latent-TB treatment are services we do not currently package for agency-credentialing use.' },
+      { headline: 'No Hep B titers, vaccine documentation, or vaccine administration', body: 'OSHA Bloodborne Pathogens record-keeping for agencies typically goes through dedicated occupational medicine vendors. We do not offer this as a standalone service today.' },
+      { headline: 'No agency credentialing packages', body: 'Medicaid / managed care credentialing health-clearance letters are an occupational medicine workflow, not a primary-care workflow. Not a service we offer today.' },
       { headline: 'No in-person physical exam', body: 'When a physical exam is required (e.g., some annual occupational health exams), we refer to an occupational medicine clinic.' },
       { headline: 'No controlled substances', body: 'No Schedule II–V prescribing via telehealth.' },
       { headline: 'No pediatric care', body: 'Adults only (18+).' },
@@ -492,16 +468,16 @@ export const INDUSTRY_DATA = {
 `,
     faqs: [
       {
-        q: 'Our agency requires TB tests before hire. Can TeleDirectMD handle this?',
-        a: 'We can review TB test results (IGRA or TST), interpret them, manage any positive findings (latent TB referral and documentation), and provide written health clearance letters. The actual TST skin test injection requires in-person placement and reading — we refer new hires to a local clinic for the test itself, then handle the clinical review and documentation piece. IGRA (blood test) results can be reviewed entirely by telehealth.',
+        q: 'Our agency requires TB tests and Hep B documentation before hire. Can TeleDirectMD handle this?',
+        a: 'No — those are credentialing workflows typically handled by occupational medicine vendors, and they are not a service we offer today. TeleDirectMD is a primary-care practice for ongoing worker health: chronic disease management, acute illness, mental health, and routine primary-care concerns. For TB testing, Hep B titers, or vaccine documentation specifically, your agency should continue using its existing occupational medicine vendor.',
       },
       {
         q: 'My aide threw her back out lifting a patient. What should she do?',
-        a: 'She should connect with us right away for a same-day video assessment. Dr. Bhavsar evaluates the injury, prescribes anti-inflammatory medication if appropriate, provides activity-modification guidance, and documents the injury for workers\' compensation. If imaging is needed, he orders it and directs her to a facility. Most acute muscle strains can be fully managed by telehealth — keeping care accessible and producing the documentation the WC claim requires.',
+        a: 'She should connect with us right away for a same-day video assessment. Dr. Bhavsar evaluates the injury, prescribes anti-inflammatory medication if appropriate, and provides activity-modification guidance. If imaging is needed, he orders it and directs her to a facility. The clinical note is hers to share with the WC carrier if she files a claim. Most acute muscle strains can be managed by primary care; injuries needing in-person exam are triaged.',
       },
       {
         q: 'Our agency has very high turnover. Can healthcare benefits really make a difference?',
-        a: 'Research consistently links healthcare access to reduced turnover in hourly workforce roles. For a workforce where 36% live near poverty and 49% rely on public assistance, access to a low-cost primary care option is meaningful in a way voluntary wellness programs are not. An aide who can call a doctor for a UTI or an illness does not miss two shifts waiting to feel better — reducing the "I can\'t take this job with no benefits" attrition that drives the 80% turnover rate.',
+        a: 'Research consistently links healthcare access to reduced turnover in hourly workforce roles. For a workforce where 36% live near poverty and 49% rely on public assistance, access to a low-cost primary care option is meaningful in a way voluntary wellness programs are not. An aide who can call a doctor for a UTI or an illness does not miss two shifts waiting to feel better.',
       },
     ],
   },
@@ -513,11 +489,11 @@ export const INDUSTRY_DATA = {
     shortName: 'Construction',
     audienceLabel: 'GCs, Subcontractors, Construction HR',
     metaDescription:
-      'Virtual primary care for construction crews — OSHA 1910.134 respirator medical evaluations via telehealth, eye injury triage, MSK and return-to-work documentation. $0 employer cost, 41 states + DC.',
+      'Virtual primary care for construction crews — same-day care for back pain, sprains, minor lacerations, hypertension management for the 27.8% uninsured workforce. $0 employer cost, 41 states + DC.',
     heroHeadline: 'Virtual primary care for the trades.',
-    heroHeadlineEm: 'OSHA respirator clearances done by telehealth.',
+    heroHeadlineEm: 'For the days you do not need to be in a clinic.',
     heroSub:
-      "Construction has the second-highest uninsured rate of any occupation (27.8%), the highest occupational eye injury rate, and is the single largest user of OSHA respirator medical evaluations. TeleDirectMD performs the OSHA 29 CFR 1910.134 respirator clearance entirely virtually, triages eye injuries to keep crews out of the ER unnecessarily, and provides same-day return-to-work documentation after sprains, strains, and lacerations.",
+      "Construction has the second-highest uninsured rate of any occupation (27.8%) — most small specialty subcontractors offer no benefits. TeleDirectMD provides virtual primary care for the conditions trades workers actually let drift: hypertension, diabetes, back and shoulder pain, minor lacerations and cellulitis, mental health. For the day-to-day primary care that an uninsured tradesperson would otherwise skip entirely.",
     workforceProfile: {
       shortDesc: 'tradesperson',
       intro:
@@ -546,7 +522,7 @@ export const INDUSTRY_DATA = {
       ],
     },
     complaintsLede:
-      "Construction medicine is musculoskeletal injury, eye injury, respiratory exposure, and uncontrolled chronic disease. The single highest-value virtual service for a construction employer is the OSHA 1910.134 respirator medical evaluation — fully completed by telehealth, with same-day written clearance.",
+      "Construction medicine is musculoskeletal injury, occasional acute injury, respiratory irritation, and a lot of uncontrolled chronic disease. TeleDirectMD is a primary-care practice for the chronic and routine — not an OSHA-recordkeeping or occupational-medicine vendor.",
     commonComplaints: [
       {
         name: 'Acute low back pain / lumbar strain',
@@ -567,8 +543,8 @@ export const INDUSTRY_DATA = {
         why: 'Repetitive overhead work in electricians, painters, drywallers, HVAC. NSAIDs, activity modification, imaging referral if needed.',
       },
       {
-        name: 'Eye injuries — conjunctival foreign body / chemical splash',
-        why: 'Construction trades had 2,120 occupational eye injury cases in 2020 — the highest of any group. 59.6% of all occupational eye injuries involve foreign matter abrasion. Non-embedded foreign bodies with post-irrigation can be assessed by video and managed with antibiotic drops. Embedded foreign body, open globe, or chemical alkali splash with ongoing pain = ER immediately.',
+        name: 'Minor eye irritation (referral-heavy)',
+        why: 'Construction trades have the highest occupational eye injury rate of any group. Most job-site eye injuries (embedded foreign body, chemical splash, vision change) require in-person care — we do not manage these by telehealth. Mild conjunctivitis or post-irrigation follow-up can be assessed by video, but our default is to triage to ER or urgent care.',
         citations: [
           { label: 'BLS Eye Injuries 2023', url: 'https://www.bls.gov/opub/ted/2023/workers-suffered-18510-eye-related-injuries-and-illnesses-in-2020.htm' },
         ],
@@ -578,8 +554,8 @@ export const INDUSTRY_DATA = {
         why: 'Tool injuries from power tools, saws, sheet metal. Wound assessment, antibiotic prescribing for infected wounds, WC documentation, tetanus review — virtual. Deep/gaping wounds get an immediate suturing referral.',
       },
       {
-        name: 'Respiratory irritation / occupational asthma',
-        why: 'Silica dust (29 CFR 1926.1153), wood dust, drywall dust, isocyanates in spray foam — significant particulate and sensitizer exposure across the trades. Bronchodilator initiation and pulmonary function testing referral are core scope; spirometry itself is in-person.',
+        name: 'Asthma management (workplace-aware)',
+        why: 'Silica dust, wood dust, drywall dust, isocyanates from spray foam — significant particulate exposure across the trades. Standard asthma medication management is primary-care scope. Spirometry, OSHA medical surveillance exams, and occupational asthma evaluations are in-person and handled by occupational medicine.',
       },
       {
         name: 'Wound cellulitis from contaminated abrasions',
@@ -599,25 +575,26 @@ export const INDUSTRY_DATA = {
       },
     ],
     regulatoryNotes: `
-<p>The single highest-leverage regulatory service for construction employers is the OSHA respirator medical evaluation. It is the one place where telehealth maps perfectly to an OSHA requirement.</p>
+<p>Construction operates under heavy OSHA medical surveillance requirements (respirator clearances, silica, lead, asbestos). These are <strong>occupational-medicine workflows handled by dedicated vendors</strong> — they are not primary-care services. TeleDirectMD is a primary-care practice; OSHA surveillance is not what we do.</p>
 <ul>
-  <li><strong>OSHA 29 CFR 1910.134 Appendix C — respirator medical evaluation (telehealth-eligible).</strong> Before any worker assigned to a respirator is fit-tested, a Physician or Licensed Healthcare Professional must review the OSHA medical evaluation questionnaire. <strong>This review can be conducted by telehealth</strong> — confirmed by <a href="http://www.osha.gov/laws-regs/standardinterpretations/2004-10-21" target="_blank" rel="noopener noreferrer">OSHA interpretation letters</a>. Dr. Bhavsar reviews each worker's Appendix C questionnaire and issues written clearance, clearance with restrictions, or denial — typically same-day. For a contractor mobilizing 20 workers for a respirator-required job, this replaces $1,500–$3,000 in occupational-medicine clinic fees.</li>
-  <li><strong>OSHA Silica Standard (29 CFR 1926.1153).</strong> Medical surveillance includes periodic exams. Spirometry is in-person, but we can handle initial health-history review, symptom screening, and ongoing management of related conditions.</li>
-  <li><strong>Lead and Asbestos Standards (29 CFR 1926.62 and 1926.1101).</strong> Blood lead and PFT requirements are in-person. We review lab results and manage related conditions (HTN from lead exposure).</li>
-  <li><strong>Return-to-work documentation.</strong> Same-day clearance or modified-duty restrictions after sprains, strains, lacerations.</li>
+  <li><strong>OSHA respirator medical evaluations (29 CFR 1910.134), silica surveillance (29 CFR 1926.1153), lead/asbestos surveillance (29 CFR 1926.62 / 1926.1101).</strong> These are vendor services your contractor likely already procures through occupational medicine. We do not offer them.</li>
+  <li><strong>What we do.</strong> Primary care between OSHA-mandated exams: hypertension management, diabetes management, cholesterol, mental health, acute illness, minor MSK assessment, prescription refills. Particularly valuable for the 27.8% of construction workers who are uninsured and have no primary-care home.</li>
+  <li><strong>Return-to-work after illness or minor injury.</strong> When a worker has had a primary-care visit with us, a standard work-excuse note is part of the encounter. For injury-specific WC return-to-work programs, your contractor should use its dedicated WC clinical vendor.</li>
 </ul>
 `,
     whatWeSolve: [
-      { headline: 'OSHA 1910.134 respirator clearances by telehealth', body: 'A general contractor with 20 workers assigned to respirator use can have all 20 complete the OSHA Appendix C questionnaire and receive Dr. Bhavsar\'s written medical clearance same-day, without any worker leaving the site. This satisfies the full OSHA requirement.' },
-      { headline: 'Eye injury triage in minutes', body: 'After a foreign body or splash, a worker connects with Dr. Bhavsar in minutes. Non-embedded foreign body with no vision change → antibiotic drops and avoid a 4-hour ER wait. Anything serious → faster, better-informed ER referral with documentation.' },
-      { headline: 'Same-day return-to-work letters', body: 'After a strain, sprain, laceration, or burn, Dr. Bhavsar provides same-day written clearance — full duty or modified duty — keeping the job moving and the WC file complete.' },
-      { headline: 'Hypertension management for the 27.8% uninsured', body: 'These workers have no primary care home. We initiate treatment and monitor — reducing the risk of a hypertensive event on the job, which is both a clinical and a workers\' comp exposure.' },
+      { headline: 'Hypertension and chronic disease management for the 27.8% uninsured', body: 'These workers have no primary care home. We initiate treatment, monitor labs, and manage routine refills via flat-rate visits — the kind of primary care this workforce typically goes without.' },
+      { headline: 'Acute illness without losing a day', body: 'Sinus infections, UTIs, skin infections, GI illness — handled by video, prescriptions sent to the worker\'s pharmacy. No clinic detour mid-job.' },
+      { headline: 'Back and shoulder pain within virtual scope', body: 'Minor MSK injuries (lumbar strain, rotator cuff irritation) can be assessed and conservatively managed by primary care. Injuries that need imaging or in-person exam are triaged.' },
+      { headline: 'Mental health for trades workers', body: 'A construction worker who needs an SSRI or SNRI for depression or anxiety can get one through primary care. No controlled substances, no addiction treatment.' },
       { headline: 'Spanish-language accessibility', body: '33% Hispanic workforce. Professional interpretation services expand access for crews where English is not the primary language.' },
     ],
     whatWeDont: [
+      { headline: 'No OSHA medical surveillance programs', body: 'Respirator medical evaluations (29 CFR 1910.134), silica surveillance, lead and asbestos surveillance, audiometric programs — these are occupational medicine services. We are a primary-care practice and do not offer them.' },
+      { headline: 'No workers\' compensation clinical packages', body: 'A construction visit with us produces a standard primary-care clinical note. Specialized WC return-to-work programs are run by dedicated occupational medicine vendors.' },
       { headline: 'No DOT/CDL exams', body: 'If your tradesperson also drives commercially, the DOT physical itself remains in person.' },
-      { headline: 'No in-person procedures', body: 'No sutures, no embedded foreign body removal, no abscess drainage, no spirometry. We triage, refer, and document.' },
-      { headline: 'No emergency care', body: 'Severe chemical splash, eye injury with vision change, heat stroke, severe respiratory distress = ER or 911. We make that call fast.' },
+      { headline: 'No in-person procedures', body: 'No sutures, no embedded foreign body removal, no abscess drainage, no spirometry. Anything that needs hands-on care gets triaged.' },
+      { headline: 'No emergency care', body: 'Severe chemical splash, eye injury with vision change, heat stroke, severe respiratory distress = ER or 911.' },
       { headline: 'No controlled substances', body: 'No Schedule II–V prescribing via telehealth.' },
       { headline: 'No pediatric care', body: 'Adults only (18+).' },
     ],
@@ -632,16 +609,16 @@ export const INDUSTRY_DATA = {
 `,
     faqs: [
       {
-        q: 'We have workers who need OSHA respirator clearances before they can start a job. Can TeleDirectMD do those?',
-        a: 'Yes. OSHA\'s respirator medical evaluation standard (29 CFR 1910.134) requires a licensed healthcare professional to review each worker\'s medical questionnaire — and that review can be conducted by telehealth. Workers complete the OSHA Appendix C questionnaire, Dr. Bhavsar reviews each one and issues written clearance typically same-day, and you have your PLHCP documentation for the OSHA file. No clinic appointments. Particularly useful when mobilizing a crew for a new contract.',
+        q: 'We have workers who need OSHA respirator medical clearances before they can start a job. Can TeleDirectMD do those?',
+        a: 'No — OSHA respirator medical evaluations are an occupational-medicine workflow, and we are a primary-care practice. Your contractor should continue to use its dedicated occupational medicine vendor for 1910.134 clearances, silica surveillance, lead and asbestos surveillance. What TeleDirectMD provides is the day-to-day primary care between those exams: hypertension, diabetes, acute illness, mental health.',
       },
       {
         q: 'One of my workers got something in his eye on a job site. Is this a telehealth situation?',
-        a: 'It depends on the injury. Dr. Bhavsar can assess by video right away — that assessment itself takes 10 minutes and tells you whether it\'s an ER case or a telehealth-manageable case. Non-embedded foreign body with no vision change after irrigation → antibiotic drops by telehealth. Embedded foreign body, chemical splash with ongoing pain, any vision change → ER immediately. The telehealth visit either saves a 4-hour ER trip or gets the worker there faster with clear documentation.',
+        a: 'For most eye injuries, no. Embedded foreign body, chemical splash with ongoing pain, any vision change — those need in-person care immediately. For mild post-irrigation follow-up or simple conjunctivitis, primary care can help, but our default is to refer to in-person urgent care or ER. Construction has the highest occupational eye injury rate of any group precisely because these are serious injuries.',
       },
       {
         q: "My subcontractors don't offer health insurance to their crews. Is there anything I can do as a general contractor?",
-        a: 'Some general contractors are now including TeleDirectMD access as a project-level benefit for all workers on their sites — regardless of which subcontractor employs them. This isn\'t traditional health insurance, so it does not create an employment relationship or ACA obligation. It does ensure your 27% uninsured crew members have a doctor to call. Reduces lost-time injuries, reduces ER utilization, and signals to subcontractors that crew health matters.',
+        a: 'Some general contractors are now including TeleDirectMD access as a primary-care benefit for all workers on their sites — regardless of which subcontractor employs them. This isn\'t traditional health insurance, so it does not create an employment relationship or ACA obligation. It ensures your 27% uninsured crew members have a doctor to call for chronic disease management, acute illness, or mental health. It is not a replacement for site-specific OSHA medical surveillance, which still goes through occupational medicine.',
       },
     ],
   },
@@ -653,11 +630,11 @@ export const INDUSTRY_DATA = {
     shortName: 'Janitorial',
     audienceLabel: 'Cleaning Contractors, Janitorial HR',
     metaDescription:
-      'Virtual primary care for janitorial crews — contact dermatitis, occupational asthma, chemical exposure incidents, OSHA respirator clearances, night-shift health. $0 employer cost, 41 states + DC.',
+      'Virtual primary care for janitorial crews — contact dermatitis management, asthma care, chronic disease, mental health. Night-shift accessible, $0 employer cost, 41 states + DC.',
     heroHeadline: 'Virtual primary care for cleaning crews.',
-    heroHeadlineEm: 'Designed for chemical exposure and night-shift hours.',
+    heroHeadlineEm: 'A doctor your team can actually reach.',
     heroSub:
-      "Janitorial and cleaning workers face cleaning-chemical asthma, contact dermatitis, eye splashes, and night-shift health barriers — and a 21.9% uninsured rate (much higher in immigrant subgroups). TeleDirectMD provides same-day virtual care for chemical exposure incidents, contact dermatitis, occupational asthma, OSHA respirator clearances, and the chronic conditions a transient workforce typically lets drift.",
+      "Janitorial and cleaning workers face contact dermatitis, asthma, and night-shift health barriers — with a 21.9% uninsured rate, much higher in immigrant subgroups. TeleDirectMD provides virtual primary care for the chronic and routine: contact dermatitis, asthma management, hypertension, mental health, acute illness. Designed for a workforce that often can't reach a daytime clinic.",
     workforceProfile: {
       shortDesc: 'janitorial worker',
       intro:
@@ -686,7 +663,7 @@ export const INDUSTRY_DATA = {
       ],
     },
     complaintsLede:
-      "Cleaning medicine is chemicals, skin, lungs, and night-shift health — all converging on a workforce that historically gets less primary care than almost any other. Same-day virtual visits in the worker's language change that.",
+      "Cleaning chemistry takes a real toll on skin and lungs, on top of a workforce that historically gets less primary care than almost any other. TeleDirectMD is a primary-care practice for the chronic and routine — we are not an occupational medicine vendor for OSHA recordkeeping or workers'-comp incident management.",
     commonComplaints: [
       {
         name: 'Irritant contact dermatitis (hands, forearms)',
@@ -703,11 +680,10 @@ export const INDUSTRY_DATA = {
         ],
       },
       {
-        name: 'Occupational asthma',
-        why: 'More than 250 substances in cleaning products are recognized asthma inducers. Mixing bleach and ammonia produces chloramine gas — severe lung damage or death. Bronchodilator initiation, inhaled corticosteroid management, PFT referral.',
+        name: 'Asthma management',
+        why: 'Cleaning workers are a high-risk group for asthma (more than 250 substances in cleaning products are recognized asthma inducers). Standard inhaler management — albuterol, inhaled corticosteroids — is primary-care scope. Occupational asthma WC evaluations and pulmonary function testing are in-person and handled by occupational medicine.',
         citations: [
           { label: 'Mt Sinai Today June 2022', url: 'https://health.mountsinai.org/blog/occupational-asthma-and-cleaning/' },
-          { label: 'OSHA-NIOSH InfoSheet', url: 'https://www.osha.gov/sites/default/files/publications/OSHA3512.pdf' },
         ],
       },
       {
@@ -743,25 +719,26 @@ export const INDUSTRY_DATA = {
       },
     ],
     regulatoryNotes: `
-<p>Cleaning operators interact with two OSHA standards regularly: Hazard Communication and Respiratory Protection. Both have telehealth-relevant components.</p>
+<p>Cleaning operators interact with OSHA standards on hazard communication and respiratory protection. These are occupational medicine workflows. TeleDirectMD is a primary-care practice; OSHA compliance is not what we do.</p>
 <ul>
-  <li><strong>OSHA Hazard Communication Standard (HCS, 29 CFR 1910.1200).</strong> Employers must provide SDS for all cleaning chemicals and train workers in a language they understand. When chemical exposure happens, TeleDirectMD provides the clinical assessment, treatment, and documented incident record for OSHA files.</li>
-  <li><strong>OSHA Respirator Medical Evaluation (29 CFR 1910.134).</strong> Janitors assigned to respirators for asbestos abatement, mold remediation, or chemical spraying need PLHCP medical clearance — and that clearance can be completed by telehealth, same-day.</li>
-  <li><strong>Workers' compensation documentation for occupational dermatitis and asthma.</strong> Proving work-relatedness requires physician documentation linking symptoms to workplace exposures. Ongoing virtual care produces stronger WC support than a single urgent-care visit.</li>
-  <li><strong>Language access.</strong> OSHA requires hazard training in a worker's language. TeleDirectMD interactions using professional interpretation services reflect that same principle — clinical care in the worker's language.</li>
+  <li><strong>OSHA Hazard Communication Standard (29 CFR 1910.1200) and OSHA 300 log entries.</strong> Recordkeeping for chemical exposure events is your safety manager's domain. Our clinical note from a primary-care visit is yours to use as you see fit, but we do not produce OSHA-300-formatted documentation as a service.</li>
+  <li><strong>OSHA Respirator Medical Evaluations (29 CFR 1910.134).</strong> Occupational medicine vendor service. Not something we offer.</li>
+  <li><strong>Workers' comp evaluations for occupational dermatitis or asthma.</strong> Specialized WC vendor work. We can manage the day-to-day clinical condition; we do not offer WC-vendor documentation packages.</li>
+  <li><strong>What we do.</strong> Treat the contact dermatitis. Manage the asthma. Manage hypertension, diabetes, and depression. Write prescriptions. Provide standard work-excuse notes.</li>
 </ul>
 `,
     whatWeSolve: [
-      { headline: 'Night-shift accessible care', body: '~27% of building service workers work non-daytime shifts. Same-day evening/weekend availability means a worker with a skin rash or breathing problem during their 11 PM–7 AM shift can connect with a physician — not wait days or go to an ER.' },
-      { headline: 'Chemical exposure incident response', body: 'When a worker is exposed to a cleaning chemical, we provide immediate clinical assessment, prescription if needed, and an event record for the employer\'s OSHA 300 log — all before the shift ends.' },
-      { headline: 'Early dermatitis management', body: 'Irritant contact dermatitis treated early rarely progresses to full allergic sensitization. Allergic ACD, once established, may permanently disqualify a worker from cleaning work entirely. Early virtual intervention protects livelihood.' },
-      { headline: 'Occupational asthma WC documentation', body: 'Proving work-relatedness for occupational asthma requires a physician who understands the exposure history. Ongoing virtual care builds that documented relationship.' },
-      { headline: 'Interpreter-supported care for immigrant workers', body: 'Janitorial work is among the top employment categories for undocumented and immigrant workers. Professional interpretation services close the systemic access gap that drives this workforce\'s underutilization of care.' },
+      { headline: 'Contact dermatitis treated early', body: 'Irritant contact dermatitis treated early rarely progresses to full allergic sensitization. Topical corticosteroids, barrier-cream counseling, and irritant-avoidance advice are core primary-care services.' },
+      { headline: 'Asthma management', body: 'Standard inhaler regimens (albuterol, inhaled corticosteroids) for workers with workplace-triggered asthma. We do not perform pulmonary function testing or occupational asthma WC evaluations — those go to occupational medicine.' },
+      { headline: 'Care for the 21.9% uninsured (much higher in immigrant subgroups)', body: 'Cleaning workers are heavily uninsured. Flat-rate primary care for chronic disease, acute illness, and mental health fills the gap their employers and the larger system have left.' },
+      { headline: 'Mental health within standard primary-care scope', body: 'PHQ-9 / GAD-7 screening, SSRIs, SNRIs. No controlled substances.' },
+      { headline: 'Interpreter-supported care for immigrant workers', body: 'Janitorial work is among the top employment categories for immigrant workers. Professional interpretation services close the systemic access gap.' },
     ],
     whatWeDont: [
-      { headline: 'No severe chemical exposure management', body: 'Severe respiratory distress, alkali eye injury, or systemic chemical poisoning = ER or 911. We triage fast and document clearly.' },
-      { headline: 'No spirometry or in-person PFT', body: 'We can order pulmonary function testing and review results; the test itself is in person.' },
-      { headline: 'No patch testing', body: 'Allergen identification requires in-person patch testing. We refer.' },
+      { headline: 'No OSHA recordkeeping or compliance services', body: 'OSHA 300 log entries, Hazard Communication training, respirator medical evaluations — these are occupational medicine and safety-manager workflows. Not services we offer.' },
+      { headline: 'No workers\' compensation clinical packages', body: 'For WC evaluation of occupational asthma, dermatitis, or chemical injury claims, your operator should use a dedicated WC clinical vendor.' },
+      { headline: 'No emergency care for chemical incidents', body: 'Severe respiratory distress, alkali eye injury, or systemic chemical poisoning = ER or 911. We are not the right channel for acute chemical emergencies.' },
+      { headline: 'No spirometry, PFT, or patch testing', body: 'These are in-person diagnostic procedures handled by specialists.' },
       { headline: 'No controlled substances', body: 'No Schedule II–V prescribing via telehealth.' },
       { headline: 'No pediatric care', body: 'Adults only (18+).' },
     ],
@@ -776,15 +753,15 @@ export const INDUSTRY_DATA = {
     faqs: [
       {
         q: 'My cleaning crews are getting skin rashes from the chemicals they use. Can a telehealth doctor actually help with that?',
-        a: 'Yes. Contact dermatitis from cleaning chemicals is the most common occupational skin disease in this industry. Dr. Bhavsar can assess the rash by video, determine whether it\'s irritant or allergic, prescribe topical steroids and barrier cream, and counsel your worker on which products or tasks to modify. If the rash is severe or unresponsive, he refers to a dermatologist and provides the workers\' compensation documentation linking it to workplace chemical exposure. This is a bread-and-butter telehealth case — no in-person exam needed.',
+        a: 'Yes. Contact dermatitis from cleaning chemicals is the most common occupational skin disease in this industry, and it\'s within standard primary-care scope. Dr. Bhavsar can assess the rash by video, prescribe topical steroids and barrier cream, and counsel your worker on irritant avoidance. If the rash is severe, allergic, or needs patch testing, he refers to a dermatologist. For workers\' comp claims linking dermatitis to workplace exposure, your operator should also use its dedicated WC vendor — our note documents the clinical care, not a formal WC-vendor evaluation.',
       },
       {
         q: 'One of my workers mixed the wrong chemicals and started coughing badly. What should they do?',
-        a: 'If they\'re having severe difficulty breathing, chest tightness, or wheezing — call 911 immediately and get them to fresh air. Bleach mixed with ammonia creates chloramine gas, which can cause serious lung damage. For moderate symptoms — coughing, eye irritation, throat burning — after fresh air, they should connect with TeleDirectMD. Dr. Bhavsar evaluates symptom severity, prescribes a bronchodilator if needed, determines whether ER evaluation is warranted, and documents the exposure incident for your OSHA records. For the future, OSHA\'s Hazard Communication Standard requires all workers to be trained never to mix different cleaning products.',
+        a: 'If they\'re having severe difficulty breathing, chest tightness, or wheezing — call 911 immediately and get them to fresh air. Bleach mixed with ammonia creates chloramine gas, which can cause serious lung damage. TeleDirectMD is not the right channel for acute chemical emergencies. For follow-up care after the acute event, primary-care visits can manage residual asthma or irritation.',
       },
       {
         q: "My janitorial company has huge turnover and I can't afford full health insurance. Is there a practical option?",
-        a: 'Direct-pay virtual primary care through TeleDirectMD is designed for this exact situation. Far less than a traditional group insurance premium gives your employees access to a primary care physician for acute illness, skin problems, respiratory issues, and chronic conditions. Workers who have someone to call when they\'re sick miss fewer shifts and stay on the job longer. In an industry with 200% annual turnover, even a modest reduction saves far more than the cost of the benefit.',
+        a: 'Direct-pay virtual primary care through TeleDirectMD is designed for this exact situation. Far less than a traditional group insurance premium gives your employees access to a primary care physician for acute illness, skin problems, respiratory issues, and chronic conditions. Workers who have someone to call when they\'re sick miss fewer shifts and stay on the job longer.',
       },
     ],
   },
