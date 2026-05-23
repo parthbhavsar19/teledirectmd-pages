@@ -2,7 +2,9 @@ import { getStates, getConditionSlugs, getCondition, getConditionCategories, res
 import { generateNationalJsonLd } from '../../lib/json-ld-national';
 import { INSURERS, INSURANCE_CONDITIONS } from '../../data/insurance/insuranceConfig';
 import { WhatDoesThisCostBlock, CompareTeleDirectMDLinkRow, CommonSymptomsBlock } from '../components/CostCompareModules';
-import { CitableSummaryBlock } from '../components/CitableSummary';
+// v3 (2026-05-23): CitableSummaryBlock no longer rendered on national condition pages —
+// summary text is surfaced inline via the hero introParagraph. CitableSummary.js itself
+// stays in the codebase because /about, /insurance, /faq still import it.
 import FaqAccordion from '../components/FaqAccordion';
 import { summarizeNationalCondition, citableSummaryToJsonLd } from '../../lib/citable-summary';
 
@@ -62,7 +64,13 @@ export default function NationalConditionPage({ conditionSlug }) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <CitableSummaryBlock summary={citableSummary_AI} jsonLd={citableJsonLd_AI} idSuffix={`national-${conditionSlug}`} />
+      {/* v3 (2026-05-23): citable-summary AI JSON-LD still emitted for AI extractors,
+          but the boxed summary block above the hero is removed. The summary text is
+          available inline through condition.hero.introParagraph. */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(citableJsonLd_AI) }}
+      />
 
       {/* 0) Breadcrumb */}
       <nav className="tdmd-breadcrumbs" aria-label="Breadcrumb">
@@ -305,20 +313,22 @@ export default function NationalConditionPage({ conditionSlug }) {
               <h3>Typical Cost Comparison</h3>
               <p className="tdmd-price-caption">Common ranges people see before insurance. Actual costs vary.</p>
 
-              {condition.pricing.comparisonBars.map((bar, i) => (
-                <div key={i} className="tdmd-bar-row" role="list">
-                  <div className="tdmd-bar-label" role="listitem">
-                    <span className="tdmd-bar-name">{bar.name}</span>
-                    <span className="tdmd-bar-value">{bar.value}</span>
-                  </div>
-                  <div className="tdmd-bar-track" aria-hidden="true">
+              {/* v3 (2026-05-23): vertical tdmd-vbar chart replacing horizontal tdmd-bar-row.
+                  heightPct comes from the bar.width value in data/conditions/*.json (same
+                  numeric scale, vertical axis instead of horizontal). */}
+              <div className="tdmd-vbars" role="list" aria-label="Cost comparison bars">
+                {condition.pricing.comparisonBars.map((bar, i) => (
+                  <div key={i} className="tdmd-vbar" role="listitem" aria-label={`${bar.name}: ${bar.value}`}>
+                    <span className="tdmd-vbar__value">{bar.value}</span>
                     <div
-                      className={`tdmd-bar-fill${bar.isTdmd ? ' tdmd-bar-fill-tdmd' : ''}`}
-                      style={{ '--w': bar.width }}
+                      className={`tdmd-vbar__fill${bar.isTdmd ? ' tdmd-vbar__fill--tdmd' : ''}`}
+                      style={{ height: `${bar.width}%` }}
+                      aria-hidden="true"
                     />
+                    <span className={`tdmd-vbar__label${bar.isTdmd ? ' tdmd-vbar__label--tdmd' : ''}`}>{bar.name}</span>
                   </div>
-                </div>
-              ))}
+                ))}
+              </div>
 
               <p className="tdmd-price-footnote">{condition.pricing.footnote}</p>
             </div>
