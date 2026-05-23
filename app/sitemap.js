@@ -20,6 +20,15 @@ const STATIC_ROUTES = [
   { path: '/faq', priority: 0.7, changefreq: 'monthly' },
   { path: '/media-mentions', priority: 0.6, changefreq: 'monthly' },
   { path: '/about', priority: 0.6, changefreq: 'monthly' },
+  // 2026-05-23: 5 hub pages added to repair orphan-parent breadcrumb violations
+  // (each was previously HTTP 404 while child pages declared them as parents
+  // in BreadcrumbList JSON-LD). See /home/user/workspace/insurance_cleanup for
+  // related Q1 2026 deindex audit context.
+  { path: '/symptoms', priority: 0.85, changefreq: 'weekly' },
+  { path: '/compare', priority: 0.85, changefreq: 'weekly' },
+  { path: '/cost', priority: 0.85, changefreq: 'weekly' },
+  { path: '/faq/deep-dive', priority: 0.75, changefreq: 'monthly' },
+  { path: '/news', priority: 0.7, changefreq: 'weekly' },
   // Aetna California rollout — May 2026
   { path: '/california-aetna', priority: 0.9, changefreq: 'weekly' },
   { path: '/california/telehealth-urgent-care-aetna', priority: 0.85, changefreq: 'weekly' },

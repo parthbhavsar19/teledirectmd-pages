@@ -9,6 +9,56 @@ import {
   SYMPTOM_TO_CONDITION,
   SYMPTOM_TO_COST_PAGE,
 } from '../../../lib/symptom-pages-config';
+
+// ── v3 (2026-05-23) per-symptom React components ──
+// Surgical-router pattern matching the CA cohort: each slug below renders its
+// dedicated v3 component (Symptom*.js, ~5,000-5,500 words, vertical cost bar,
+// premium FaqAccordion, MedicalWebPage+FAQPage+HowTo+BreadcrumbList schema).
+// Any slug NOT in this dispatch falls through to the shared dynamic template
+// below, so the route still works for slugs added in future without code edits.
+import SymptomAcidReflux from './SymptomAcidReflux';
+import SymptomAcneBreakout from './SymptomAcneBreakout';
+import SymptomAllergySymptoms from './SymptomAllergySymptoms';
+import SymptomAsthma from './SymptomAsthma';
+import SymptomBirthControl from './SymptomBirthControl';
+import SymptomBronchitis from './SymptomBronchitis';
+import SymptomBurningUrination from './SymptomBurningUrination';
+import SymptomColdSore from './SymptomColdSore';
+import SymptomCysticAcne from './SymptomCysticAcne';
+import SymptomEarPain from './SymptomEarPain';
+import SymptomErectileDysfunction from './SymptomErectileDysfunction';
+import SymptomMigraine from './SymptomMigraine';
+import SymptomPersistentCough from './SymptomPersistentCough';
+import SymptomPinkEye from './SymptomPinkEye';
+import SymptomSinusInfection from './SymptomSinusInfection';
+import SymptomSinusPressure from './SymptomSinusPressure';
+import SymptomSkinRash from './SymptomSkinRash';
+import SymptomSoreThroat from './SymptomSoreThroat';
+import SymptomStrepThroat from './SymptomStrepThroat';
+import SymptomYeastInfection from './SymptomYeastInfection';
+
+const V3_SYMPTOM_COMPONENTS = {
+  'acid-reflux': SymptomAcidReflux,
+  'acne-breakout': SymptomAcneBreakout,
+  'allergy-symptoms': SymptomAllergySymptoms,
+  'asthma': SymptomAsthma,
+  'birth-control': SymptomBirthControl,
+  'bronchitis': SymptomBronchitis,
+  'burning-urination': SymptomBurningUrination,
+  'cold-sore': SymptomColdSore,
+  'cystic-acne': SymptomCysticAcne,
+  'ear-pain': SymptomEarPain,
+  'erectile-dysfunction': SymptomErectileDysfunction,
+  'migraine': SymptomMigraine,
+  'persistent-cough': SymptomPersistentCough,
+  'pink-eye': SymptomPinkEye,
+  'sinus-infection': SymptomSinusInfection,
+  'sinus-pressure': SymptomSinusPressure,
+  'skin-rash': SymptomSkinRash,
+  'sore-throat': SymptomSoreThroat,
+  'strep-throat': SymptomStrepThroat,
+  'yeast-infection': SymptomYeastInfection,
+};
 import { buildSymptomJsonLd } from '../../../lib/symptom-schema';
 import { COST_PAGES } from '../../../lib/cost-pages-config';
 import { AGGREGATE_RATING_VALUE, TOTAL_REVIEW_COUNT } from '../../../lib/review-schema';
@@ -51,6 +101,12 @@ export async function generateMetadata({ params }) {
 
 export default async function SymptomPage({ params }) {
   const { slug } = await params;
+
+  // v3 surgical dispatch: if a per-symptom v3 component exists, use it.
+  const V3Component = V3_SYMPTOM_COMPONENTS[slug];
+  if (V3Component) return <V3Component />;
+
+  // Fallback: shared dynamic template (legacy path, kept for forward-compat).
   const cfg = SYMPTOM_PAGES[slug];
   if (!cfg) return null;
 
