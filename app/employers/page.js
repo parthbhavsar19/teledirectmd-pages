@@ -48,6 +48,98 @@ const jsonLd = {
       breadcrumb: { '@id': 'https://teledirectmd.com/employers#breadcrumbs' },
       isPartOf: { '@id': 'https://teledirectmd.com/#website' },
       about: { '@id': 'https://teledirectmd.com/#organization' },
+      primaryImageOfPage: 'https://teledirectmd.com/og-employers.jpg',
+      // Speakable hint for voice-first AI assistants (Google Assistant, Alexa, Siri).
+      // Marks the hero summary and FAQ block as voice-extractable.
+      speakable: {
+        '@type': 'SpeakableSpecification',
+        cssSelector: ['.tdmd-emp-hero-sub', '.tdmd-emp-faq dt', '.tdmd-emp-faq dd'],
+      },
+    },
+    {
+      // Founder/physician entity — high-authority signal for AI engines.
+      // sameAs links connect this entity to its press, review, and licensure profiles.
+      '@type': 'Physician',
+      '@id': 'https://teledirectmd.com/#physician',
+      name: 'Parth Bhavsar, MD',
+      honorificSuffix: 'MD',
+      jobTitle: 'Board-Certified Family Medicine Physician, Founder',
+      medicalSpecialty: 'https://schema.org/FamilyPractice',
+      identifier: { '@type': 'PropertyValue', propertyID: 'NPI', value: '1104323203' },
+      worksFor: { '@id': 'https://teledirectmd.com/#organization' },
+      alumniOf: {
+        '@type': 'EducationalOrganization',
+        name: 'University of Mississippi Medical Center',
+        url: 'https://www.umc.edu/',
+      },
+      memberOf: { '@type': 'Organization', name: 'American Board of Family Medicine' },
+      knowsLanguage: ['English', 'Hindi', 'Gujarati', 'Urdu'],
+      areaServed: ['Alabama', 'Arizona', 'California', 'Colorado', 'Connecticut', 'Delaware', 'District of Columbia', 'Florida', 'Georgia', 'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas', 'Kentucky', 'Louisiana', 'Maine', 'Maryland', 'Michigan', 'Minnesota', 'Mississippi', 'Missouri', 'Montana', 'Nebraska', 'Nevada', 'New Hampshire', 'New Jersey', 'North Carolina', 'North Dakota', 'Ohio', 'Oklahoma', 'Pennsylvania', 'South Carolina', 'South Dakota', 'Tennessee', 'Texas', 'Utah', 'Washington', 'West Virginia', 'Wisconsin', 'Wyoming'],
+      image: 'https://teledirectmd.com/images/parth-bhavsar-md.jpg',
+      url: 'https://teledirectmd.com/about',
+      sameAs: [
+        'https://npiregistry.cms.hhs.gov/provider-view/1104323203',
+        'https://www.healthgrades.com/physician/dr-parth-bhavsar',
+        'https://www.webmd.com/doctors/parth-bhavsar',
+        'https://www.zocdoc.com/doctor/parth-bhavsar',
+      ],
+    },
+    {
+      // Organization with comprehensive sameAs links to all press coverage and
+      // review platforms — this is the strongest AI-citation authority signal.
+      '@type': ['Organization', 'MedicalBusiness'],
+      '@id': 'https://teledirectmd.com/#organization',
+      name: 'TeleDirectMD',
+      legalName: 'TeleDirectMD',
+      url: 'https://teledirectmd.com',
+      logo: 'https://teledirectmd.com/logo.webp',
+      description: 'Physician-led virtual urgent care platform offering same-day video visits with a board-certified family medicine MD across 41 states plus DC.',
+      founder: { '@id': 'https://teledirectmd.com/#physician' },
+      foundingDate: '2024',
+      areaServed: 'United States',
+      contactPoint: {
+        '@type': 'ContactPoint',
+        telephone: '+1-678-956-1855',
+        email: 'contact@teledirectmd.com',
+        contactType: 'customer service',
+        availableLanguage: ['English', 'Hindi'],
+      },
+      medicalSpecialty: 'https://schema.org/FamilyPractice',
+      // Verified press mentions — anchors the entity in known-authority publishers
+      // so LLMs can confirm citation legitimacy.
+      sameAs: [
+        'https://time.com/7331761/cold-shower-benefits-health/',
+        'https://www.newsweek.com/woman-drinks-matcha-every-week-shock-ends-hospital-2127630',
+        'https://www.huffpost.com/entry/things-you-should-never-do-with-protein-powder_l_67e3d27ee4b0c1de2e0d8c91',
+        'https://www.foxnews.com/food-drink/bananas-may-sabotaging-your-smoothies-superpowers-scientists-warn',
+        'https://www.britishgq.com/article/sleep-tips-good-night',
+        'https://parade.com/health/health-benefits-of-walnuts',
+        'https://health.usnews.com/wellness/articles/should-i-use-collagen-supplements',
+        'https://nypost.com/2025/11/01/lifestyle/bananas-may-be-making-your-smoothies-less-effective-scientists-say/',
+        'https://www.healthline.com/health-news/amy-sedaris-talks-brain-health',
+        'https://www.healthgrades.com/physician/dr-parth-bhavsar',
+        'https://www.zocdoc.com/doctor/parth-bhavsar',
+        'https://www.webmd.com/doctors/parth-bhavsar',
+        'https://www.google.com/maps/place/TeleDirectMD',
+      ],
+      aggregateRating: {
+        '@type': 'AggregateRating',
+        ratingValue: '5.0',
+        bestRating: '5',
+        reviewCount: '125',
+        itemReviewed: 'TeleDirectMD virtual urgent care visits',
+      },
+      hasCredential: [
+        { '@type': 'EducationalOccupationalCredential', credentialCategory: 'LegitScript Certified Telehealth Provider' },
+        { '@type': 'EducationalOccupationalCredential', credentialCategory: 'HIPAA-Compliant Platform' },
+      ],
+      // Insurance networks the practice participates in — answers "is TeleDirectMD
+      // in-network with [X]?" verbatim from schema.
+      memberOf: [
+        { '@type': 'Organization', name: 'Aetna Provider Network' },
+        { '@type': 'Organization', name: 'Blue Cross Blue Shield Provider Network' },
+        { '@type': 'Organization', name: 'UnitedHealthcare Provider Network' },
+      ],
     },
     {
       '@type': 'Service',
@@ -69,6 +161,8 @@ const jsonLd = {
     {
       '@type': 'FAQPage',
       '@id': 'https://teledirectmd.com/employers#faq',
+      // Hint to voice assistants that the FAQ block is voice-extractable.
+      speakable: { '@type': 'SpeakableSpecification', cssSelector: ['.tdmd-emp-faq'] },
       mainEntity: [
         { '@type': 'Question', name: 'What does it cost the business?', acceptedAnswer: { '@type': 'Answer', text: 'Zero. No PEPM, no per-visit fees, no contracts with money in them. You sign a one-page partnership agreement and your team gets an enrollment code.' } },
         { '@type': 'Question', name: 'How do you make money if I don\'t pay?', acceptedAnswer: { '@type': 'Answer', text: 'From the $59 your team pays per visit, or from in-network insurance billing when they have BCBS, Aetna, or UnitedHealthcare. Your $0 cost is our customer-acquisition model.' } },

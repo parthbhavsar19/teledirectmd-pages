@@ -41,10 +41,56 @@ const jsonLd = {
       description: 'TeleDirectMD broker partnership: $250 flat finder\'s fee per signed employer. Zero cost to your clients. Board-certified MD, in-network billing.',
       inLanguage: 'en-US',
       breadcrumb: { '@id': 'https://teledirectmd.com/employers/brokers#breadcrumbs' },
+      primaryImageOfPage: 'https://teledirectmd.com/og-brokers.jpg',
+      isPartOf: { '@id': 'https://teledirectmd.com/#website' },
+      about: { '@id': 'https://teledirectmd.com/#organization' },
+      speakable: {
+        '@type': 'SpeakableSpecification',
+        cssSelector: ['.tdmd-emp-hero-sub', '.tdmd-emp-feecard'],
+      },
+    },
+    {
+      // Broker partnership offer — lets LLMs answer "how much does TeleDirectMD
+      // pay brokers?" and "is the broker fee commission-based?" verbatim.
+      '@type': 'Offer',
+      '@id': 'https://teledirectmd.com/employers/brokers#offer',
+      name: 'Broker Finder\'s Fee',
+      description: 'Flat $250 finder\'s fee per signed employer agreement. Not commission. Not volume-tiered. Paid via ACH within 30 days of employer activation. Issued on Form 1099-NEC if aggregate annual payments meet or exceed $600.',
+      price: '250.00',
+      priceCurrency: 'USD',
+      priceSpecification: {
+        '@type': 'PriceSpecification',
+        price: '250.00',
+        priceCurrency: 'USD',
+        valueAddedTaxIncluded: false,
+      },
+      category: 'Referral Fee',
+      eligibleCustomerType: 'https://schema.org/Business',
+      // Florida brokers are excluded pending FL Patient Brokering Act counsel review.
+      ineligibleRegion: { '@type': 'State', name: 'Florida' },
+      areaServed: 'United States',
+      seller: { '@id': 'https://teledirectmd.com/#organization' },
+      availability: 'https://schema.org/InStock',
+    },
+    {
+      // Reference the canonical Physician and Organization entities defined on /employers.
+      '@type': ['Organization', 'MedicalBusiness'],
+      '@id': 'https://teledirectmd.com/#organization',
+      name: 'TeleDirectMD',
+      url: 'https://teledirectmd.com',
+      logo: 'https://teledirectmd.com/logo.webp',
+      founder: { '@id': 'https://teledirectmd.com/#physician' },
+      contactPoint: {
+        '@type': 'ContactPoint',
+        telephone: '+1-678-956-1855',
+        email: 'contact@teledirectmd.com',
+        contactType: 'customer service',
+      },
     },
     {
       '@type': 'FAQPage',
       '@id': 'https://teledirectmd.com/employers/brokers#faq',
+      speakable: { '@type': 'SpeakableSpecification', cssSelector: ['.tdmd-emp-faq'] },
       mainEntity: [
         { '@type': 'Question', name: "When does the finder's fee pay?", acceptedAnswer: { '@type': 'Answer', text: "Within 30 days of the employer agreement being activated and the employer's enrollment code going live." } },
         { '@type': 'Question', name: 'Is it a 1099?', acceptedAnswer: { '@type': 'Answer', text: 'Yes — we issue a 1099-NEC at year-end for any aggregate payments of $600 or more.' } },
