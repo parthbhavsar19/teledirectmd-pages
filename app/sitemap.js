@@ -20,6 +20,9 @@ const STATIC_ROUTES = [
   { path: '/faq', priority: 0.7, changefreq: 'monthly' },
   { path: '/media-mentions', priority: 0.6, changefreq: 'monthly' },
   { path: '/about', priority: 0.6, changefreq: 'monthly' },
+  // 2026-05-23: Employer + Broker pages
+  { path: '/employers', priority: 0.9, changefreq: 'weekly' },
+  { path: '/employers/brokers', priority: 0.8, changefreq: 'weekly' },
   // 2026-05-23: 5 hub pages added to repair orphan-parent breadcrumb violations
   // (each was previously HTTP 404 while child pages declared them as parents
   // in BreadcrumbList JSON-LD). See /home/user/workspace/insurance_cleanup for
