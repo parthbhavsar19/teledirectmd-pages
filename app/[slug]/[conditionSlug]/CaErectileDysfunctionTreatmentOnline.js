@@ -340,9 +340,9 @@ export default function CaErectileDysfunctionTreatmentOnline() {
                   <li>Chest pain or shortness of breath with exertion — possible cardiac disease requiring in-person evaluation before PDE5 inhibitor use</li>
                   <li>Current nitrate medication use (nitroglycerin, isosorbide, amyl nitrite/poppers) — ABSOLUTE CONTRAINDICATION to PDE5 inhibitors; severe hypotension risk</li>
                   <li>Recent (within 90 days) myocardial infarction or stroke</li>
-                  <li>Uncontrolled blood pressure (systolic >170 or diastolic >100)</li>
+                  <li>Uncontrolled blood pressure (systolic &gt;170 or diastolic &gt;100)</li>
                   <li>Sudden onset complete ED under age 40 with cardiovascular risk factors — may indicate significant cardiovascular disease</li>
-                  <li>Priapism (erection lasting >4 hours) — urological emergency; seek ER care immediately</li>
+                  <li>Priapism (erection lasting &gt;4 hours) — urological emergency; seek ER care immediately</li>
                 </ul>
                 <p style={{ marginTop: '0.75rem', color: 'var(--tdmd-muted)', fontSize: '0.92rem' }}>
                   <strong>If you have red-flag symptoms, seek urgent in-person care or emergency care immediately. TeleDirectMD is not appropriate for complex or severe cases.</strong>
@@ -581,9 +581,9 @@ export default function CaErectileDysfunctionTreatmentOnline() {
                   <li>Chest pain or shortness of breath with exertion — possible cardiac disease requiring in-person evaluation before PDE5 inhibitor use</li>
                   <li>Current nitrate medication use (nitroglycerin, isosorbide, amyl nitrite/poppers) — ABSOLUTE CONTRAINDICATION to PDE5 inhibitors; severe hypotension risk</li>
                   <li>Recent (within 90 days) myocardial infarction or stroke</li>
-                  <li>Uncontrolled blood pressure (systolic >170 or diastolic >100)</li>
+                  <li>Uncontrolled blood pressure (systolic &gt;170 or diastolic &gt;100)</li>
                   <li>Sudden onset complete ED under age 40 with cardiovascular risk factors — may indicate significant cardiovascular disease</li>
-                  <li>Priapism (erection lasting >4 hours) — urological emergency; seek ER care immediately</li>
+                  <li>Priapism (erection lasting &gt;4 hours) — urological emergency; seek ER care immediately</li>
                 </ul>
                 <ul>
                   <li><strong>ER / 911:</strong> Any life-threatening symptom — difficulty breathing, chest pain, severe confusion, signs of sepsis</li>

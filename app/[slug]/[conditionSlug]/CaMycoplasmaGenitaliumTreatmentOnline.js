@@ -341,7 +341,7 @@ export default function CaMycoplasmaGenitaliumTreatmentOnline() {
                   <li>Epididymitis with fever or scrotal swelling — in-person urologic evaluation required</li>
                   <li>M. genitalium treatment failure after confirmed adequate two-step course — possible highly resistant strain requiring specialist management</li>
                   <li>Suspected M. genitalium in pregnancy — requires OB/GYN-coordinated in-person care</li>
-                  <li>Systemic symptoms (fever >101°F, chills) accompanying urethritis or cervicitis — consider disseminated STI</li>
+                  <li>Systemic symptoms (fever &gt;101°F, chills) accompanying urethritis or cervicitis — consider disseminated STI</li>
                 </ul>
                 <p style={{ marginTop: '0.75rem', color: 'var(--tdmd-muted)', fontSize: '0.92rem' }}>
                   <strong>If you have red-flag symptoms, seek urgent in-person care or emergency care immediately. TeleDirectMD is not appropriate for complex or severe cases.</strong>
@@ -540,7 +540,7 @@ export default function CaMycoplasmaGenitaliumTreatmentOnline() {
                     <td><strong>Moxifloxacin 400 mg (Step 2A — macrolide-resistant or resistance unknown)</strong> · First-line</td>
                     <td>400 mg orally once daily × 7 days (after completing doxycycline Step 1)</td>
                     <td><a href="https://www.goodrx.com/moxifloxacin" target="_blank" rel="noopener">~$30–$60 with GoodRx coupon</a></td>
-                    <td>Step 2A per CDC 2021 when macrolide resistance is suspected or resistance testing unavailable. High global macrolide resistance rates (>30–50%) make this the default Step 2 in most clinical settings.</td>
+                    <td>Step 2A per CDC 2021 when macrolide resistance is suspected or resistance testing unavailable. High global macrolide resistance rates (&gt;30–50%) make this the default Step 2 in most clinical settings.</td>
                   </tr>
                   <tr>
                     <td><strong>Azithromycin 1 g day 1 + 500 mg × 3 days (Step 2B — macrolide-sensitive confirmed)</strong></td>
@@ -581,7 +581,7 @@ export default function CaMycoplasmaGenitaliumTreatmentOnline() {
                   <li>Epididymitis with fever or scrotal swelling — in-person urologic evaluation required</li>
                   <li>M. genitalium treatment failure after confirmed adequate two-step course — possible highly resistant strain requiring specialist management</li>
                   <li>Suspected M. genitalium in pregnancy — requires OB/GYN-coordinated in-person care</li>
-                  <li>Systemic symptoms (fever >101°F, chills) accompanying urethritis or cervicitis — consider disseminated STI</li>
+                  <li>Systemic symptoms (fever &gt;101°F, chills) accompanying urethritis or cervicitis — consider disseminated STI</li>
                 </ul>
                 <ul>
                   <li><strong>ER / 911:</strong> Any life-threatening symptom — difficulty breathing, chest pain, severe confusion, signs of sepsis</li>

@@ -542,13 +542,13 @@ export default function CaMastitisTreatmentOnline() {
                     <td><strong>Cephalexin 500 mg</strong> · First-line</td>
                     <td>500 mg four times daily × 10–14 days</td>
                     <td><a href="https://www.goodrx.com/cephalexin" target="_blank" rel="noopener">~$10–$20 generic with GoodRx</a></td>
-                    <td>Alternative first-line per ABM Protocol #36. Compatible with breastfeeding. Cross-reactivity with penicillin <2%; check allergy history.</td>
+                    <td>Alternative first-line per ABM Protocol #36. Compatible with breastfeeding. Cross-reactivity with penicillin &lt;2%; check allergy history.</td>
                   </tr>
                   <tr>
                     <td><strong>TMP-SMX DS (Bactrim DS)</strong></td>
                     <td>1 tablet twice daily × 10–14 days</td>
                     <td><a href="https://www.goodrx.com/sulfamethoxazole-trimethoprim" target="_blank" rel="noopener">~$8–$15 generic with GoodRx</a></td>
-                    <td>For suspected CA-MRSA mastitis per ABM Protocol #36. Note: Safety in lactation is generally acceptable but discuss with physician; avoid in infants <2 months, premature infants, or with G6PD deficiency.</td>
+                    <td>For suspected CA-MRSA mastitis per ABM Protocol #36. Note: Safety in lactation is generally acceptable but discuss with physician; avoid in infants &lt;2 months, premature infants, or with G6PD deficiency.</td>
                   </tr>
                   <tr>
                     <td><strong>Clindamycin 300 mg</strong></td>

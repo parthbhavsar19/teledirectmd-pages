@@ -542,7 +542,7 @@ export default function CaViralGastroenteritisTreatmentOnline() {
                     <td><strong>Loperamide (Imodium) 2 mg — OTC</strong></td>
                     <td>4 mg initially, then 2 mg after each loose stool; max 16 mg/day</td>
                     <td>Available OTC ~$5–$10</td>
-                    <td>For symptomatic diarrhea relief only. Avoid if blood in stool, fever >38.5°C, or suspected invasive bacterial diarrhea — can worsen those conditions.</td>
+                    <td>For symptomatic diarrhea relief only. Avoid if blood in stool, fever &gt;38.5°C, or suspected invasive bacterial diarrhea — can worsen those conditions.</td>
                   </tr>
                   <tr>
                     <td><strong>Promethazine 12.5 mg</strong></td>

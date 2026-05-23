@@ -546,7 +546,7 @@ export default function CaDoxypepStiPreventionOnline() {
                     <td><strong>Azithromycin 1 g (single-dose; alternative when doxycycline contraindicated)</strong></td>
                     <td>1 g orally as a single dose for chlamydia post-exposure prophylaxis only</td>
                     <td><a href="https://www.goodrx.com/azithromycin" target="_blank" rel="noopener">~$11 / 1 g dose with GoodRx</a></td>
-                    <td>Per CDC 2021 STI Treatment Guidelines, azithromycin 1 g is an alternative for chlamydia post-exposure prophylaxis in patients with doxycycline allergy or contraindication (e.g., pregnancy, age <8). NOT recommended as first-line PEP due to inferior efficacy against gonorrhea and lower bactericidal activity vs. doxycycline.</td>
+                    <td>Per CDC 2021 STI Treatment Guidelines, azithromycin 1 g is an alternative for chlamydia post-exposure prophylaxis in patients with doxycycline allergy or contraindication (e.g., pregnancy, age &lt;8). NOT recommended as first-line PEP due to inferior efficacy against gonorrhea and lower bactericidal activity vs. doxycycline.</td>
                   </tr>
                 </tbody>
               </table>
