@@ -14,7 +14,7 @@ export const metadata = {
     locale: 'en_US',
     title: 'Broker Partnership Program | $250 per Signed | TeleDirectMD',
     description:
-      'Differentiate your book with a telehealth benefit at $0 cost to your client. Same physician every visit. Earn $250 flat per signed employer.',
+      'Differentiate your book with a telehealth benefit at $0 cost to your client. A consistent physician relationship, not a rotating roster. Earn $250 flat per signed employer.',
     url: 'https://teledirectmd.com/employers/brokers',
     images: ['https://teledirectmd.com/og-brokers.jpg'],
   },
@@ -118,7 +118,7 @@ export default function BrokerPage() {
                 <span className="tdmd-emp-eyebrow">For Benefits Brokers & Consultants</span>
                 <h1>A telehealth benefit your SMB clients <em>haven't seen before.</em></h1>
                 <p className="tdmd-emp-hero-sub">
-                  Physician-founded virtual urgent care, in-network with BCBS, Aetna, and UnitedHealthcare across 41 states + DC. Zero cost to your client. Their team pays $59 per visit instead of our $79 retail. You earn a flat $250 finder's fee on every signed employer.
+                  Physician-founded virtual care, in-network with BCBS, Aetna, and UnitedHealthcare across 41 states + DC. Zero cost to your client. Their team pays $59 per visit instead of our $79 retail. You earn a flat $250 finder's fee on every signed employer. Physician roster currently expanding to add capacity across the service area.
                 </p>
                 <div className="tdmd-emp-ctas">
                   <a href="#form" className="tdmd-emp-btn tdmd-emp-btn--primary">Become a Partner</a>
@@ -155,7 +155,7 @@ export default function BrokerPage() {
               Most of your sub-200-employee clients on BCBS, Aetna, or UnitedHealthcare have carrier-bundled Teladoc or MDLive running at the industry-benchmark <strong style={{ color: 'var(--tdmd-accent)' }}>~7% utilization</strong>. Their employees don't trust seeing a different stranger every visit — and most don't know they have the benefit at all.
             </p>
             <p style={{ color: '#ffffff', fontWeight: 700, fontSize: '1.0625rem', marginTop: '1.5rem' }}>
-              TeleDirectMD is the supplement, not a replacement. Same board-certified MD every visit. In-network billing that counts toward the deductible. Zero cost to your client to add.
+              TeleDirectMD is the supplement, not a replacement. A consistent board-certified physician relationship, not a rotating roster of strangers. In-network billing that counts toward the deductible. Zero cost to your client to add.
             </p>
           </div>
         </section>
@@ -170,7 +170,7 @@ export default function BrokerPage() {
             <ul className="tdmd-emp-offerlist">
               <li><strong>Employer pays $0.</strong> No PEPM, no per-visit fees, no contracts with money in them.</li>
               <li><strong>Employees pay $59 per visit</strong> (vs. our $79 retail rate) — or use BCBS / Aetna / UnitedHealthcare in-network.</li>
-              <li><strong>Same board-certified MD every visit.</strong> No NPs, no PAs, no rotating network of strangers.</li>
+              <li><strong>A board-certified physician your team actually gets to know.</strong> Patients are assigned to a physician and stay with them — no NPs, no PAs, no rotating network of strangers.</li>
               <li><strong>41 states + DC coverage.</strong> Same-day appointments, including evenings and weekends.</li>
               <li><strong>One-page partnership agreement, terminate at-will.</strong></li>
             </ul>

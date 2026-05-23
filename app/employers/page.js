@@ -93,7 +93,7 @@ const jsonLd = {
       legalName: 'TeleDirectMD',
       url: 'https://teledirectmd.com',
       logo: 'https://teledirectmd.com/logo.webp',
-      description: 'Physician-led virtual urgent care platform offering same-day video visits with a board-certified family medicine MD across 41 states plus DC.',
+      description: 'Physician-led virtual care platform offering same-day video visits with a board-certified family medicine MD across 41 states plus DC. Physician roster currently expanding.',
       founder: { '@id': 'https://teledirectmd.com/#physician' },
       foundingDate: '2024',
       areaServed: 'United States',
@@ -127,7 +127,7 @@ const jsonLd = {
         ratingValue: '5.0',
         bestRating: '5',
         reviewCount: '125',
-        itemReviewed: 'TeleDirectMD virtual urgent care visits',
+        itemReviewed: 'TeleDirectMD virtual care visits',
       },
       hasCredential: [
         { '@type': 'EducationalOccupationalCredential', credentialCategory: 'LegitScript Certified Telehealth Provider' },
@@ -147,7 +147,7 @@ const jsonLd = {
       serviceType: 'Employee Telehealth Benefit',
       provider: { '@id': 'https://teledirectmd.com/#organization' },
       description:
-        'Direct-pay virtual urgent care for employer-endorsed teams. Zero employer cost. Employees pay $59 per visit or use BCBS, Aetna, or UnitedHealthcare in-network. Adult patients 18+. Covers 41 states plus DC.',
+        'Direct-pay virtual care for employer-endorsed teams. Zero employer cost. Employees pay $59 per visit or use BCBS, Aetna, or UnitedHealthcare in-network. Adult patients 18+. Covers 41 states plus DC. Physician roster currently expanding.',
       audience: { '@type': 'BusinessAudience', audienceType: 'Small and mid-market employers' },
       offers: {
         '@type': 'Offer',
@@ -168,7 +168,7 @@ const jsonLd = {
         { '@type': 'Question', name: 'How do you make money if I don\'t pay?', acceptedAnswer: { '@type': 'Answer', text: 'From the $59 your team pays per visit, or from in-network insurance billing when they have BCBS, Aetna, or UnitedHealthcare. Your $0 cost is our customer-acquisition model.' } },
         { '@type': 'Question', name: 'What about my employees\' kids or dependents?', acceptedAnswer: { '@type': 'Answer', text: 'Right now we\'re adults-only (18 and up). Pediatric care for ages 5 and up is on our roadmap. For now, the benefit covers your employees themselves.' } },
         { '@type': 'Question', name: 'Do you prescribe controlled substances?', acceptedAnswer: { '@type': 'Answer', text: 'No. TeleDirectMD does not prescribe controlled substances via telehealth — no stimulants, benzodiazepines, or opioids. This is a deliberate clinical-safety decision.' } },
-        { '@type': 'Question', name: 'We already have Teladoc through our carrier. Why add this?', acceptedAnswer: { '@type': 'Answer', text: 'Carrier-bundled telehealth averages around 7 percent utilization. Most employees do not know it exists. TeleDirectMD is a supplement — same physician every visit, in-network billing that counts toward the deductible, and no cost to you.' } },
+        { '@type': 'Question', name: 'We already have Teladoc through our carrier. Why add this?', acceptedAnswer: { '@type': 'Answer', text: 'Carrier-bundled telehealth averages around 7 percent utilization. Most employees do not know it exists. TeleDirectMD is a supplement — a consistent physician relationship rather than a rotating roster of strangers, in-network billing that counts toward the deductible, and no cost to you.' } },
         { '@type': 'Question', name: 'How fast can my team get a visit?', acceptedAnswer: { '@type': 'Answer', text: 'Same-day or next-day, every day — including evenings and weekends.' } },
         { '@type': 'Question', name: 'What states do you cover?', acceptedAnswer: { '@type': 'Answer', text: '41 states plus the District of Columbia. We do not currently serve Alaska, Arkansas, Massachusetts, New Mexico, New York, Oregon, Rhode Island, Vermont, or Virginia.' } },
         { '@type': 'Question', name: 'Can our employees use HSA or FSA dollars?', acceptedAnswer: { '@type': 'Answer', text: 'Yes. A $59 telehealth visit is an IRS-qualified medical expense.' } },
@@ -196,7 +196,7 @@ export default function EmployersPage() {
                 <span className="tdmd-emp-eyebrow">For Employers · Brokers · HR Teams</span>
                 <h1>Real doctor visits for your team. <em>$0 cost to you.</em></h1>
                 <p className="tdmd-emp-hero-sub">
-                  TeleDirectMD is physician-founded virtual urgent care in 41 states + DC. Your team books $59 video visits with the same board-certified MD — or uses BCBS, Aetna, or UnitedHealthcare in-network. You pay zero. You sign one page. You're live in a week.
+                  TeleDirectMD is physician-founded virtual care in 41 states + DC. Your team books $59 video visits with a board-certified family medicine physician — or uses BCBS, Aetna, or UnitedHealthcare in-network. You pay zero. You sign one page. You're live in a week. Our physician roster is currently expanding to add capacity across our service area.
                 </p>
                 <div className="tdmd-emp-ctas">
                   <a href="#form" className="tdmd-emp-btn tdmd-emp-btn--primary">Book a 15-Minute Discovery Call</a>
@@ -429,7 +429,7 @@ export default function EmployersPage() {
                   <tr><td>Employer cost</td><td className="tdmd-emp-us">$0</td><td>Embedded in premium</td><td>PEPM ($5–$12+)</td><td>$20/EE/month</td></tr>
                   <tr><td>Employee per visit</td><td className="tdmd-emp-us">$59</td><td>$0 — but unused</td><td>$0</td><td>Marketplace prices</td></tr>
                   <tr><td>In-network insurance</td><td className="tdmd-emp-us"><span className="tdmd-emp-yes">Yes — BCBS · Aetna · UHC</span></td><td>Through your carrier only</td><td><span className="tdmd-emp-no">No (cash-pay)</span></td><td><span className="tdmd-emp-no">No (cash-pay)</span></td></tr>
-                  <tr><td>Same MD every visit</td><td className="tdmd-emp-us"><span className="tdmd-emp-yes">Yes — Dr. Bhavsar</span></td><td><span className="tdmd-emp-no">Random doctor</span></td><td>Network of physicians</td><td>Marketplace</td></tr>
+                  <tr><td>Continuity with one physician</td><td className="tdmd-emp-us"><span className="tdmd-emp-yes">Yes — assigned, not rotated</span></td><td><span className="tdmd-emp-no">Random doctor</span></td><td>Network of physicians</td><td>Marketplace</td></tr>
                   <tr><td>Physician-only (no NPs/PAs)</td><td className="tdmd-emp-us"><span className="tdmd-emp-yes">Yes</span></td><td>Mixed</td><td>Mixed</td><td>Mixed</td></tr>
                   <tr><td>Typical utilization</td><td className="tdmd-emp-us">Driven by real visits</td><td>~7%</td><td>60% claimed</td><td>Self-directed</td></tr>
                 </tbody>
@@ -456,7 +456,7 @@ export default function EmployersPage() {
                   Residency: University of Mississippi Medical Center, 2021 · NPI 1104323203
                 </p>
                 <p>
-                  Most virtual care platforms route your team to a different stranger every visit — often an NP or PA, not a physician. TeleDirectMD is built around continuity: every visit is with Dr. Bhavsar, licensed in 41 states and DC. That's not a marketing line. It's the entire model.
+                  Most virtual care platforms route your team to a different stranger every visit — often an NP or PA, not a physician. TeleDirectMD is built around continuity: each patient is assigned to a board-certified physician and stays with that physician across visits. Dr. Bhavsar founded the practice and is licensed in 41 states + DC; the physician roster is currently expanding to add capacity. That's not a marketing line. It's the entire model.
                 </p>
                 <div className="tdmd-emp-founder-badges">
                   <span className="tdmd-emp-badge">LegitScript Certified</span>
@@ -518,7 +518,7 @@ export default function EmployersPage() {
               <details><summary>How do you make money if I don't pay?</summary><div><p>Honestly — from the $59 your team pays per visit, or from in-network insurance billing when they have BCBS, Aetna, or UnitedHealthcare. Your $0 cost is our customer-acquisition model.</p></div></details>
               <details><summary>What about my employees' kids or dependents?</summary><div><p>Right now we're adults-only (18+). Pediatric care for ages 5 and up is on our roadmap. For now, the benefit covers your employees themselves.</p></div></details>
               <details><summary>Do you prescribe ADHD meds, benzos, or opioids?</summary><div><p>No. We do not prescribe controlled substances via telehealth. That's a deliberate clinical-safety decision — it keeps us aligned with DEA guidance and our malpractice scope.</p></div></details>
-              <details><summary>We already have Teladoc through our carrier. Why add this?</summary><div><p>Carrier-bundled telehealth at large employers averages around 7% utilization. Most of your team doesn't even know it exists, and the platform routes them to a different stranger every visit. We're a supplement, not a replacement — same physician each visit, in-network billing that counts toward your deductible, and no cost to you.</p></div></details>
+              <details><summary>We already have Teladoc through our carrier. Why add this?</summary><div><p>Carrier-bundled telehealth at large employers averages around 7% utilization. Most of your team doesn't even know it exists, and the platform routes them to a different stranger every visit. We're a supplement, not a replacement — a consistent physician relationship rather than a rotating roster, in-network billing that counts toward your deductible, and no cost to you.</p></div></details>
               <details><summary>How fast can my team get a visit?</summary><div><p>Same-day or next-day, every day — including evenings and weekends.</p></div></details>
               <details><summary>What states do you cover?</summary><div><p>41 states plus the District of Columbia. We do not currently serve Alaska, Arkansas, Massachusetts, New Mexico, New York, Oregon, Rhode Island, Vermont, or Virginia. <a href="/states-we-serve/" style={{ color: 'var(--tdmd-teal)', fontWeight: 700 }}>See the full coverage map →</a></p></div></details>
               <details><summary>What if my team is on Cigna?</summary><div><p>Cigna is not in our in-network roster yet. Your team can still use the $59 cash-pay rate, and Cigna is on our credentialing roadmap.</p></div></details>

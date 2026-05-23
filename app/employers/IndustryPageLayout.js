@@ -12,7 +12,7 @@
  *   3. Common acute clinical complaints (longest section — this is the AI/AEO
  *      money block; each complaint is a citable claim with primary source)
  *   4. Industry-specific regulatory notes (DOT/OSHA/USDA/state-specific)
- *   5. What virtual primary care solves (3-5 numbered value props)
+ *   5. What virtual care solves (3-5 numbered value props)
  *   6. What we honestly can't do (disclaimer block; builds trust + protects
  *      against scope-of-practice complaints + future compliance audits)
  *   7. Employer economics with cost data
@@ -100,7 +100,7 @@ export default function IndustryPageLayout({ industry }) {
         <section className="tdmd-emp-section" id="how">
           <div className="tdmd-emp-container tdmd-emp-narrow">
             <span className="tdmd-emp-eyebrow">What we treat for this workforce</span>
-            <h2>The {industry.workforceProfile.shortDesc || industry.shortName} health problems virtual primary care actually solves</h2>
+            <h2>The {industry.workforceProfile.shortDesc || industry.shortName} health problems virtual care actually solves</h2>
             <p className="tdmd-emp-section-lede">{industry.complaintsLede}</p>
             <div className="tdmd-emp-complaint-list">
               {industry.commonComplaints.map((c, i) => (
@@ -158,7 +158,7 @@ export default function IndustryPageLayout({ industry }) {
             <span className="tdmd-emp-eyebrow">Honest scope</span>
             <h2>What TeleDirectMD honestly cannot do</h2>
             <p className="tdmd-emp-section-lede">
-              We tell employers up front where virtual primary care stops. It protects your team, your liability posture, and our license.
+              We tell employers up front where virtual care stops. It protects your team, your liability posture, and our license.
             </p>
             <ul className="tdmd-emp-dontlist">
               {industry.whatWeDont.map((d, i) => (

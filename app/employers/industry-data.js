@@ -20,11 +20,11 @@ export const INDUSTRY_DATA = {
     shortName: 'Trucking',
     audienceLabel: 'OTR Drivers, Owner-Operators, Fleet HR',
     metaDescription:
-      'Virtual primary care for OTR truck drivers and owner-operators. Manage hypertension, diabetes, and dyslipidemia to support drivers between DOT exams. Same-day visits in 41 states + DC. $0 employer cost.',
-    heroHeadline: 'Virtual primary care for the people who keep America moving.',
+      'Virtual care for OTR truck drivers and owner-operators. Manage hypertension, diabetes, and dyslipidemia to support drivers between DOT exams. Same-day visits in 41 states + DC. $0 employer cost.',
+    heroHeadline: 'Virtual care for the people who keep America moving.',
     heroHeadlineEm: 'No truck-stop detour required.',
     heroSub:
-      "TeleDirectMD is physician-led virtual primary care designed for OTR drivers and owner-operators. We don't perform or replace your DOT medical exam — federal law requires that in person. What we do is provide the day-to-day primary care that drivers struggle to access on the road: managing high blood pressure, diabetes, cholesterol, mental health, and acute illness from anywhere a driver can get online. Licensed in 41 states + DC.",
+      "TeleDirectMD is physician-led virtual care designed for OTR drivers and owner-operators. We don't perform or replace your DOT medical exam — federal law requires that in person. What we do is provide the day-to-day care that drivers struggle to access on the road: managing high blood pressure, diabetes, cholesterol, mental health, and acute illness from anywhere a driver can get online. Licensed in 41 states + DC.",
     workforceProfile: {
       shortDesc: 'OTR driver',
       intro:
@@ -62,7 +62,7 @@ export const INDUSTRY_DATA = {
       ],
     },
     complaintsLede:
-      "Every condition below falls within Dr. Bhavsar's scope of virtual primary care (adult, non-emergent, non-controlled). DOT physical exams themselves remain in-person by federal law (49 CFR §391.43) — but the chronic conditions that drive DOT card disqualification are exactly what virtual primary care does best.",
+      "Every condition below falls within our scope of virtual care (adult, non-emergent, non-controlled). DOT physical exams themselves remain in-person by federal law (49 CFR §391.43) — but the chronic conditions that drive DOT card disqualification are exactly what virtual care does best.",
     commonComplaints: [
       {
         name: 'Hypertension (Stage 1–2)',
@@ -74,14 +74,14 @@ export const INDUSTRY_DATA = {
       },
       {
         name: 'Type 2 Diabetes / Prediabetes',
-        why: 'Diabetes prevalence in long-haul drivers is 14% vs. 7% in the general working population. Non-insulin diabetes managed to HbA1c targets is typically DOT-certifiable. Ongoing management of medications, labs, and lifestyle is exactly what virtual primary care does well.',
+        why: 'Diabetes prevalence in long-haul drivers is 14% vs. 7% in the general working population. Non-insulin diabetes managed to HbA1c targets is typically DOT-certifiable. Ongoing management of medications, labs, and lifestyle is exactly what virtual care does well.',
         citations: [
           { label: 'CDC NIOSH Bulletin 2015', url: 'https://www.cdc.gov/niosh/bulletin/2015/truck-driver-health.html' },
         ],
       },
       {
         name: 'Sleep apnea comorbidity management',
-        why: 'Roughly 28% of commercial drivers have OSA, and the conditions that drive OSA severity (HTN, DM2, BMI) are exactly what virtual primary care manages well. We do not diagnose OSA (sleep study required) and we are not your sleep specialist — but managing the comorbidities consistently is itself meaningful.',
+        why: 'Roughly 28% of commercial drivers have OSA, and the conditions that drive OSA severity (HTN, DM2, BMI) are exactly what virtual care manages well. We do not diagnose OSA (sleep study required) and we are not your sleep specialist — but managing the comorbidities consistently is itself meaningful.',
         citations: [
           { label: 'FMCSA Sleep Apnea PDF', url: 'https://www.fmcsa.dot.gov/sites/fmcsa.dot.gov/files/docs/Driving-Sleep-Apnea_508CLN.pdf' },
         ],
@@ -159,7 +159,7 @@ export const INDUSTRY_DATA = {
       },
       {
         headline: 'Mental health support on the road',
-        body: 'SSRIs and SNRIs (non-controlled) are within scope. We do not treat addiction or prescribe controlled-substance ADHD or anxiety medications, but stable management of depression and anxiety is exactly what virtual primary care does well.',
+        body: 'SSRIs and SNRIs (non-controlled) are within scope. We do not treat addiction or prescribe controlled-substance ADHD or anxiety medications, but stable management of depression and anxiety is exactly what virtual care does well.',
       },
       {
         headline: 'One physician across 41 states + DC',
@@ -188,7 +188,7 @@ export const INDUSTRY_DATA = {
       },
       {
         q: "I'm an owner-operator without company health insurance. How does this work for me?",
-        a: 'TeleDirectMD is a direct-pay virtual primary care service — no insurance required. You get same-day video visits with Dr. Bhavsar for acute illness, prescription refills, lab review, and ongoing chronic disease management — all from your cab or a truck stop. Prescriptions are sent to a pharmacy near your current location.',
+        a: 'TeleDirectMD is a direct-pay virtual care service — no insurance required. You get same-day video visits for acute illness, prescription refills, lab review, and ongoing chronic disease management — all from your cab or a truck stop. Prescriptions are sent to a pharmacy near your current location.',
       },
       {
         q: 'My fleet has drivers in multiple states. Can one telehealth doctor cover all of them?',
@@ -204,11 +204,11 @@ export const INDUSTRY_DATA = {
     shortName: 'Restaurant',
     audienceLabel: 'Restaurant Owners, F&B HR, Hospitality GMs',
     metaDescription:
-      'Virtual primary care for restaurant workers — minor burn assessment, cut and wound care, contact dermatitis, work notes when staff are sick. Same-day visits, $0 employer cost, 41 states + DC.',
+      'Virtual care for restaurant workers — minor burn assessment, cut and wound care, contact dermatitis, work notes when staff are sick. Same-day visits, $0 employer cost, 41 states + DC.',
     heroHeadline: "A telehealth benefit your kitchen and front-of-house can actually use.",
     heroHeadlineEm: 'Without losing a shift.',
     heroSub:
-      "Restaurants have the highest burn and laceration rates of any private industry, the highest occupational dermatitis rates, and a 22% uninsured workforce. TeleDirectMD provides same-day virtual primary care for burns and cuts, contact dermatitis, GI illness, mental health for late-shift workers, and work-excuse notes when staff need them — all without anyone leaving the line for a 3-hour urgent care detour.",
+      "Restaurants have the highest burn and laceration rates of any private industry, the highest occupational dermatitis rates, and a 22% uninsured workforce. TeleDirectMD provides same-day virtual care for burns and cuts, contact dermatitis, GI illness, mental health for late-shift workers, and work-excuse notes when staff need them — all without anyone leaving the line for a 3-hour urgent care detour.",
     workforceProfile: {
       shortDesc: 'restaurant worker',
       intro:
@@ -243,7 +243,7 @@ export const INDUSTRY_DATA = {
       ],
     },
     complaintsLede:
-      "Burns, cuts, contact dermatitis, and shift-related illness dominate the clinical reality of restaurant work. Most of these are exactly what virtual primary care does well — fast assessment, prompt prescription, written WC and food-safety documentation. The ones that need in-person care (deep lacerations needing sutures, severe burns) we refer immediately and provide the triage call.",
+      "Burns, cuts, contact dermatitis, and shift-related illness dominate the clinical reality of restaurant work. Most of these are exactly what virtual care does well — fast assessment, prompt prescription, written work-excuse and follow-up documentation. The ones that need in-person care (deep lacerations needing sutures, severe burns) we refer immediately and provide the triage call.",
     commonComplaints: [
       {
         name: 'Thermal burns (hands, forearms)',
@@ -318,7 +318,7 @@ export const INDUSTRY_DATA = {
       { headline: 'GI illness and standard work-excuse notes', body: 'When a worker calls in with norovirus-style symptoms, we treat the illness and provide a standard work-excuse note covering the symptomatic period. Returning to food handling is per the worker\'s health department guidance, not ours.' },
       { headline: 'Care for the 22% uninsured', body: 'Many restaurant workers will not see a doctor without our flat-rate option. UTIs, cellulitis, and minor burns that would otherwise become ER visits are handled by primary care.' },
       { headline: 'Mental health for late shifts', body: 'Dr. Bhavsar treats anxiety, depression, and shift-work insomnia within standard primary-care scope — SSRIs, SNRIs, sleep hygiene counseling. No controlled substances.' },
-      { headline: 'One benefit across multiple locations', body: 'Restaurant groups with multiple sites can offer one virtual primary care benefit to all hourly workers — no negotiating with multiple local clinics or insurance networks.' },
+      { headline: 'One benefit across multiple locations', body: 'Restaurant groups with multiple sites can offer one virtual care benefit to all hourly workers — no negotiating with multiple local clinics or insurance networks.' },
     ],
     whatWeDont: [
       { headline: 'No sutures or in-person procedures', body: 'Deep or gaping lacerations need an in-person clinician with sterile instruments. We assess by video and refer immediately when sutures are needed.' },
@@ -361,11 +361,11 @@ export const INDUSTRY_DATA = {
     shortName: 'Home Care',
     audienceLabel: 'Home Care Agencies, Home Health HR',
     metaDescription:
-      'Virtual primary care for home health aides and personal care aides — acute care, back and shoulder pain, chronic disease management, mental health. $0 employer cost, 41 states + DC.',
-    heroHeadline: 'Virtual primary care for the people who care for everyone else.',
+      'Virtual care for home health aides and personal care aides — acute care, back and shoulder pain, chronic disease management, mental health. $0 employer cost, 41 states + DC.',
+    heroHeadline: 'Virtual care for the people who care for everyone else.',
     heroHeadlineEm: "Built for an aging, mostly-female, mostly-immigrant workforce.",
     heroSub:
-      "Home health aides are 87% women, 42% foreign-born, with a median wage of $34,900 and back-injury rates more than 5× the general workforce. TeleDirectMD provides primary care for the conditions this workforce actually shows up with: back and shoulder pain, acute illness, chronic disease, and mental health — designed for a workforce that often can't take a daytime appointment without losing pay.",
+      "Home health aides are 87% women, 42% foreign-born, with a median wage of $34,900 and back-injury rates more than 5× the general workforce. TeleDirectMD provides virtual care for the conditions this workforce actually shows up with: back and shoulder pain, acute illness, chronic disease, and mental health — designed for a workforce that often can't take a daytime appointment without losing pay.",
     workforceProfile: {
       shortDesc: 'home-care worker',
       intro:
@@ -448,7 +448,7 @@ export const INDUSTRY_DATA = {
       { headline: 'Accessible care for a low-wage workforce', body: 'A workforce that\'s 87% female, median $34,900/year, 36% near poverty cannot easily take a daytime appointment. Virtual visits remove the transportation, childcare, and unpaid-time barriers.' },
       { headline: 'Chronic disease management for an older workforce', body: '38.5% of aides are 55+. Managing their HTN, DM2, depression, and other chronic conditions through primary care keeps experienced workers on the job.' },
       { headline: 'Acute illness handled without missing a shift', body: 'URI, GI illness, UTI, skin infections — standard primary-care management with prescriptions sent to the worker\'s pharmacy.' },
-      { headline: 'Same physician every visit', body: 'Unlike random-doctor rotations on carrier-bundled telehealth, every visit is with Dr. Bhavsar — so continuity of care is real.' },
+      { headline: 'Continuity with one physician', body: 'Unlike random-doctor rotations on carrier-bundled telehealth, patients are assigned to a board-certified physician and stay with them — so continuity of care is real.' },
     ],
     whatWeDont: [
       { headline: 'No TB testing, screening, or LTBI treatment programs', body: 'TB skin test placement is in-person; TB result interpretation and latent-TB treatment are services we do not currently package for agency-credentialing use.' },
@@ -489,11 +489,11 @@ export const INDUSTRY_DATA = {
     shortName: 'Construction',
     audienceLabel: 'GCs, Subcontractors, Construction HR',
     metaDescription:
-      'Virtual primary care for construction crews — same-day care for back pain, sprains, minor lacerations, hypertension management for the 27.8% uninsured workforce. $0 employer cost, 41 states + DC.',
-    heroHeadline: 'Virtual primary care for the trades.',
+      'Virtual care for construction crews — same-day care for back pain, sprains, minor lacerations, hypertension management for the 27.8% uninsured workforce. $0 employer cost, 41 states + DC.',
+    heroHeadline: 'Virtual care for the trades.',
     heroHeadlineEm: 'For the days you do not need to be in a clinic.',
     heroSub:
-      "Construction has the second-highest uninsured rate of any occupation (27.8%) — most small specialty subcontractors offer no benefits. TeleDirectMD provides virtual primary care for the conditions trades workers actually let drift: hypertension, diabetes, back and shoulder pain, minor lacerations and cellulitis, mental health. For the day-to-day primary care that an uninsured tradesperson would otherwise skip entirely.",
+      "Construction has the second-highest uninsured rate of any occupation (27.8%) — most small specialty subcontractors offer no benefits. TeleDirectMD provides virtual care for the conditions trades workers actually let drift: hypertension, diabetes, back and shoulder pain, minor lacerations and cellulitis, mental health. For the day-to-day care that an uninsured tradesperson would otherwise skip entirely.",
     workforceProfile: {
       shortDesc: 'tradesperson',
       intro:
@@ -630,15 +630,15 @@ export const INDUSTRY_DATA = {
     shortName: 'Janitorial',
     audienceLabel: 'Cleaning Contractors, Janitorial HR',
     metaDescription:
-      'Virtual primary care for janitorial crews — contact dermatitis management, asthma care, chronic disease, mental health. Night-shift accessible, $0 employer cost, 41 states + DC.',
-    heroHeadline: 'Virtual primary care for cleaning crews.',
+      'Virtual care for janitorial crews — contact dermatitis management, asthma care, chronic disease, mental health. Night-shift accessible, $0 employer cost, 41 states + DC.',
+    heroHeadline: 'Virtual care for cleaning crews.',
     heroHeadlineEm: 'A doctor your team can actually reach.',
     heroSub:
-      "Janitorial and cleaning workers face contact dermatitis, asthma, and night-shift health barriers — with a 21.9% uninsured rate, much higher in immigrant subgroups. TeleDirectMD provides virtual primary care for the chronic and routine: contact dermatitis, asthma management, hypertension, mental health, acute illness. Designed for a workforce that often can't reach a daytime clinic.",
+      "Janitorial and cleaning workers face contact dermatitis, asthma, and night-shift health barriers — with a 21.9% uninsured rate, much higher in immigrant subgroups. TeleDirectMD provides virtual care for the chronic and routine: contact dermatitis, asthma management, hypertension, mental health, acute illness. Designed for a workforce that often can't reach a daytime clinic.",
     workforceProfile: {
       shortDesc: 'janitorial worker',
       intro:
-        'Cleaning crews work nights, work alone, work with chemicals, and are heavily immigrant — all of which make traditional clinic-based care structurally hard to reach. Virtual primary care is built for exactly this profile.',
+        'Cleaning crews work nights, work alone, work with chemicals, and are heavily immigrant — all of which make traditional clinic-based care structurally hard to reach. Our virtual care service is built for exactly this profile.',
       stats: [
         {
           value: '~2.45M',
@@ -761,7 +761,7 @@ export const INDUSTRY_DATA = {
       },
       {
         q: "My janitorial company has huge turnover and I can't afford full health insurance. Is there a practical option?",
-        a: 'Direct-pay virtual primary care through TeleDirectMD is designed for this exact situation. Far less than a traditional group insurance premium gives your employees access to a primary care physician for acute illness, skin problems, respiratory issues, and chronic conditions. Workers who have someone to call when they\'re sick miss fewer shifts and stay on the job longer.',
+        a: 'Direct-pay virtual care through TeleDirectMD is designed for this exact situation. Far less than a traditional group insurance premium gives your employees access to a board-certified physician for acute illness, skin problems, respiratory issues, and chronic conditions. Workers who have someone to call when they\'re sick miss fewer shifts and stay on the job longer.',
       },
     ],
   },

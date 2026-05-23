@@ -20,7 +20,7 @@
  *   name:               'Trucking & Logistics',
  *   shortName:          'trucking',
  *   audienceLabel:      'OTR Drivers, Owner-Operators, Fleet HR',
- *   heroHeadline:       'Virtual primary care for the people who keep America moving.',
+ *   heroHeadline:       'Virtual care for the people who keep America moving.',
  *   heroHeadlineEm:     'No truck stop required.',
  *   heroSub:            '90-120 word physician-led intro mentioning the actual clinical pain points + cost framing',
  *   workforceProfile:   { count: '3.5M', source: 'BLS 2026', notes: '...' },
@@ -80,7 +80,7 @@ export function buildIndustryJsonLd(industry) {
         '@id': `${url}#service`,
         serviceType: `${industry.name} Telehealth Benefit`,
         provider: { '@id': `${SITE}/#organization` },
-        description: `Direct-pay virtual urgent care endorsed by ${industry.name.toLowerCase()} employers for their adult workforce (18+). Zero employer cost. Employees pay $59 per visit or use BCBS, Aetna, or UnitedHealthcare in-network. Same board-certified family medicine MD every visit. 41 states + DC.`,
+        description: `Direct-pay virtual care endorsed by ${industry.name.toLowerCase()} employers for their adult workforce (18+). Zero employer cost. Employees pay $59 per visit or use BCBS, Aetna, or UnitedHealthcare in-network. Board-certified family medicine physician. 41 states + DC, with the physician roster currently expanding.`,
         audience: {
           '@type': 'BusinessAudience',
           audienceType: industry.audienceLabel,

@@ -4,7 +4,7 @@ import BriefFormEmbed from './BriefFormEmbed';
 export const metadata = {
   title: 'The Employer Brief — Free PDF | TeleDirectMD',
   description:
-    'A practical 8-page guide to $0-employer-cost virtual primary care. Who we treat, what it costs, what we honestly cannot do, and how a one-page agreement gets your team live in a week. Free PDF.',
+    'A practical 8-page guide to $0-employer-cost virtual care. Who we treat, what it costs, what we honestly cannot do, and how a one-page agreement gets your team live in a week. Free PDF.',
   alternates: { canonical: 'https://teledirectmd.com/employers/brief' },
   robots: { index: true, follow: true, 'max-image-preview': 'large', 'max-snippet': -1 },
   authors: [{ name: 'Parth Bhavsar, MD' }],
@@ -14,7 +14,7 @@ export const metadata = {
     locale: 'en_US',
     title: 'The Employer Brief — Free PDF | TeleDirectMD',
     description:
-      'An 8-page broker-and-HR guide to $0-employer-cost virtual primary care. Honest scope, primary-source citations, compliance posture.',
+      'An 8-page broker-and-HR guide to $0-employer-cost virtual care. Honest scope, primary-source citations, compliance posture.',
     url: 'https://teledirectmd.com/employers/brief',
     images: ['https://teledirectmd.com/og-employers.jpg'],
   },
@@ -38,7 +38,7 @@ const jsonLd = {
       '@id': 'https://teledirectmd.com/employers/brief#webpage',
       url: 'https://teledirectmd.com/employers/brief/',
       name: 'The Employer Brief | TeleDirectMD',
-      description: 'Free 8-page PDF guide to $0-employer-cost virtual primary care for SMB owners, HR teams, and benefits brokers.',
+      description: 'Free 8-page PDF guide to $0-employer-cost virtual care for SMB owners, HR teams, and benefits brokers.',
       inLanguage: 'en-US',
       breadcrumb: { '@id': 'https://teledirectmd.com/employers/brief#breadcrumbs' },
       primaryImageOfPage: 'https://teledirectmd.com/og-employers.jpg',
@@ -48,7 +48,7 @@ const jsonLd = {
       '@type': 'DigitalDocument',
       '@id': 'https://teledirectmd.com/employers/brief#document',
       name: 'The TeleDirectMD Employer Brief',
-      description: 'An 8-page guide to $0-employer-cost virtual primary care covering scope, pricing, compliance, industry fit, and how to launch.',
+      description: 'An 8-page guide to $0-employer-cost virtual care covering scope, pricing, compliance, industry fit, and how to launch.',
       url: 'https://teledirectmd.com/downloads/teledirectmd-employer-brief.pdf',
       encodingFormat: 'application/pdf',
       author: { '@id': 'https://teledirectmd.com/#physician' },
@@ -61,7 +61,7 @@ const jsonLd = {
 
 const previewItems = [
   { num: '01', label: 'The Problem', body: 'Mercer $17,496 PEPY cost. 27.8% uninsured in construction. 22% in food service. Primary-source citations.' },
-  { num: '02', label: 'What TeleDirectMD Is', body: 'Physician-led practice. $0 to employer. $59 / $79 / in-network. Same MD every visit.' },
+  { num: '02', label: 'What TeleDirectMD Is', body: 'Physician-led practice. $0 to employer. $59 / $79 / in-network. Continuity with a board-certified physician, not a rotating roster.' },
   { num: '03', label: 'Scope — What We Honestly Cannot Do', body: 'In scope: chronic disease, acute illness, mental health. Out of scope: DOT physicals, OSHA 1910.134, controlled substances, TB testing.' },
   { num: '04', label: 'How It Works', body: 'Discovery call → one-page agreement → enrollment code → booking. Typically one week from first call to first visit.' },
   { num: '05', label: 'Industry Fit', body: 'Where the benefit moves the needle: trucking, restaurants, home care, construction, cleaning.' },
@@ -84,7 +84,7 @@ export default function BriefPage() {
             <div className="tdmd-emp-hero-grid">
               <div>
                 <span className="tdmd-emp-eyebrow">Free Download · 8-Page PDF · 2026 Edition</span>
-                <h1>The Employer Brief: a practical guide to <em>$0-employer-cost</em> virtual primary care.</h1>
+                <h1>The Employer Brief: a practical guide to <em>$0-employer-cost</em> virtual care.</h1>
                 <p className="tdmd-emp-hero-sub">
                   Built for SMB owners, HR teams, and benefits brokers evaluating direct-pay telehealth as a benefit. Includes the scope we cover, the things we honestly will <strong>not</strong> do, primary-source citations, compliance posture, and a one-week launch timeline.
                 </p>
@@ -97,7 +97,7 @@ export default function BriefPage() {
                 <div className="tdmd-brief-cover-inner">
                   <div className="tdmd-brief-cover-eyebrow">For Employers · Brokers · HR Teams</div>
                   <div className="tdmd-brief-cover-title">The Employer Brief</div>
-                  <div className="tdmd-brief-cover-sub">A practical guide to $0-employer-cost virtual primary care.</div>
+                  <div className="tdmd-brief-cover-sub">A practical guide to $0-employer-cost virtual care.</div>
                   <div className="tdmd-brief-cover-meta">8 pages · Free PDF · Updated May 2026</div>
                 </div>
                 <div className="tdmd-brief-cover-bar" aria-hidden="true"></div>
@@ -173,6 +173,9 @@ export default function BriefPage() {
               <h2 style={{ marginBottom: '0.5rem' }}>Authored by Parth Bhavsar, MD</h2>
               <p style={{ color: 'var(--tdmd-muted)', fontSize: '1.0625rem' }}>
                 Board-Certified Family Medicine Physician. Founder of TeleDirectMD. Residency: University of Mississippi Medical Center (UMMC), 2021. Licensed in 41 states + DC. NPI 1104323203. 5.0&star; across 125 verified reviews on Healthgrades, ZocDoc, WebMD, and Google.
+              </p>
+              <p style={{ color: 'var(--tdmd-muted)', fontSize: '0.95rem', marginTop: '1rem' }}>
+                <strong style={{ color: 'var(--tdmd-navy)' }}>Physician roster expanding.</strong> TeleDirectMD is currently expanding the physician roster to add capacity across the service area. Brokers and employers evaluating multi-state rollouts can ask for the current state-coverage roster on a discovery call.
               </p>
             </div>
           </div>
