@@ -11,8 +11,11 @@ import { useState, useEffect, useRef } from 'react';
  *   2. Replace EMPLOYER_FORM_URL and BROKER_FORM_URL below with the JotForm "Direct Link" URLs.
  *   3. Deploy. Done.
  */
-const EMPLOYER_FORM_URL = ''; // e.g. 'https://form.jotform.com/250000000000'
-const BROKER_FORM_URL = '';   // e.g. 'https://form.jotform.com/250000000001'
+// Live JotForm forms (created 2026-05-23)
+//   Employer Inquiry: https://form.jotform.com/261425492541052
+//   Broker Partner Inquiry: https://form.jotform.com/261425799417064
+const EMPLOYER_FORM_URL = 'https://form.jotform.com/261425492541052';
+const BROKER_FORM_URL = 'https://form.jotform.com/261425799417064';
 
 export default function LeadFormEmbed({ defaultPath = 'employer' }) {
   const [path, setPath] = useState(defaultPath);
