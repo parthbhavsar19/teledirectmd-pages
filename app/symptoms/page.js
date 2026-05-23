@@ -41,16 +41,6 @@ const SYMPTOM_CATALOG = [
     desc: 'Seasonal sneezing, itchy eyes, nasal congestion, and post-nasal drip evaluated online with prescription antihistamines or nasal steroids when appropriate.',
   },
   {
-    slug: 'asthma',
-    name: 'Asthma',
-    desc: 'Established asthma patients can get rescue inhaler and controller medication refills via a quick video visit — no in-person appointment required.',
-  },
-  {
-    slug: 'birth-control',
-    name: 'Birth Control',
-    desc: 'Oral contraceptive refills and new-start evaluations available via video visit for adults 18+ with no prior complications.',
-  },
-  {
     slug: 'bronchitis',
     name: 'Bronchitis',
     desc: 'Productive cough lasting more than a week, chest tightness, and wheezing — differentiated from pneumonia and treated appropriately online.',
@@ -61,24 +51,9 @@ const SYMPTOM_CATALOG = [
     desc: 'Painful urination, urgency, and frequency are classic UTI symptoms. A physician can evaluate and send antibiotics to your pharmacy the same day.',
   },
   {
-    slug: 'cold-sore',
-    name: 'Cold Sore',
-    desc: 'Cold sores caused by HSV-1 can be treated with antiviral medication. Get a same-day prescription for a new outbreak or suppression therapy.',
-  },
-  {
-    slug: 'cystic-acne',
-    name: 'Cystic Acne',
-    desc: 'Painful, deep cysts that leave scarring require physician-grade treatment. Online evaluation for topical or oral antibiotics and referral planning.',
-  },
-  {
     slug: 'ear-pain',
     name: 'Ear Pain',
     desc: 'Ear pain, fullness, and muffled hearing from swimmer\u2019s ear or early otitis media can often be evaluated and treated via video visit.',
-  },
-  {
-    slug: 'erectile-dysfunction',
-    name: 'Erectile Dysfunction',
-    desc: 'ED affects roughly 30 million men in the US. Physician evaluation and evidence-based treatment options including PDE5 inhibitors where appropriate.',
   },
   {
     slug: 'migraine',
@@ -89,16 +64,6 @@ const SYMPTOM_CATALOG = [
     slug: 'persistent-cough',
     name: 'Persistent Cough',
     desc: 'A cough that won\u2019t go away after two weeks may signal post-viral irritation, GERD, or an underlying issue. Physician evaluation online.',
-  },
-  {
-    slug: 'pink-eye',
-    name: 'Pink Eye',
-    desc: 'Bacterial conjunctivitis with discharge, crusting, and redness is a common same-day telehealth visit. Antibiotic eye drops prescribed when indicated.',
-  },
-  {
-    slug: 'sinus-infection',
-    name: 'Sinus Infection',
-    desc: 'Facial pressure, thick colored discharge, and fever after 10+ days of symptoms suggest bacterial sinusitis — treated online with antibiotics when appropriate.',
   },
   {
     slug: 'sinus-pressure',
@@ -114,16 +79,6 @@ const SYMPTOM_CATALOG = [
     slug: 'sore-throat',
     name: 'Sore Throat',
     desc: 'Determine if your sore throat is viral or strep — and get antibiotics if appropriate — without a clinic visit.',
-  },
-  {
-    slug: 'strep-throat',
-    name: 'Strep Throat',
-    desc: 'Severe sore throat with exudate, swollen lymph nodes, and fever. Rapid strep testing guidance and antibiotic prescriptions sent same day.',
-  },
-  {
-    slug: 'yeast-infection',
-    name: 'Yeast Infection',
-    desc: 'Vaginal yeast infections with classic symptoms can be evaluated and treated online with prescription antifungals — private, fast, and convenient.',
   },
 ];
 
@@ -347,7 +302,7 @@ export default function SymptomsHubPage() {
 
         {/* Symptom Catalog Grid */}
         <section className="sym-section" aria-labelledby="catalog-heading">
-          <h2 id="catalog-heading" className="sym-h2">Symptom Directory — 20 Guides</h2>
+          <h2 id="catalog-heading" className="sym-h2">Symptom Directory — 11 Guides</h2>
           <p className="sym-p">
             Each guide below covers how the symptom is evaluated online, what clinical findings support or rule out telehealth treatment,
             which medications are typically appropriate, and what cost to expect — all from a physician-reviewed perspective.
@@ -525,10 +480,8 @@ export default function SymptomsHubPage() {
           </p>
           <div className="sym-link-cloud">
             <a href="/symptoms/sore-throat">Sore Throat</a>
-            <a href="/symptoms/strep-throat">Strep Throat</a>
             <a href="/symptoms/persistent-cough">Persistent Cough</a>
             <a href="/symptoms/bronchitis">Bronchitis</a>
-            <a href="/symptoms/sinus-infection">Sinus Infection</a>
             <a href="/symptoms/sinus-pressure">Sinus Pressure</a>
             <a href="/symptoms/allergy-symptoms">Allergy Symptoms</a>
           </div>
@@ -542,9 +495,6 @@ export default function SymptomsHubPage() {
           </p>
           <div className="sym-link-cloud">
             <a href="/symptoms/burning-urination">Burning Urination (UTI)</a>
-            <a href="/symptoms/yeast-infection">Yeast Infection</a>
-            <a href="/symptoms/birth-control">Birth Control Refills</a>
-            <a href="/symptoms/erectile-dysfunction">Erectile Dysfunction</a>
           </div>
 
           <h3 className="sym-h3" style={{ marginTop: '1.5rem' }}>Skin &amp; Eyes</h3>
@@ -555,10 +505,7 @@ export default function SymptomsHubPage() {
             Conditions requiring biopsy or dermoscopy — such as atypical moles — are referred to dermatology.
           </p>
           <div className="sym-link-cloud">
-            <a href="/symptoms/pink-eye">Pink Eye</a>
             <a href="/symptoms/acne-breakout">Acne Breakout</a>
-            <a href="/symptoms/cystic-acne">Cystic Acne</a>
-            <a href="/symptoms/cold-sore">Cold Sore</a>
             <a href="/symptoms/skin-rash">Skin Rash</a>
           </div>
 
@@ -582,7 +529,6 @@ export default function SymptomsHubPage() {
             insufficient. These refill visits are typically straightforward and can be completed in 10&ndash;15 minutes.
           </p>
           <div className="sym-link-cloud">
-            <a href="/symptoms/asthma">Asthma Refills</a>
             <a href="/symptoms/allergy-symptoms">Allergy Symptoms</a>
             <a href="/symptoms/acid-reflux">Acid Reflux</a>
             <a href="/symptoms/migraine">Migraine Refills</a>

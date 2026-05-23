@@ -132,7 +132,23 @@ export default function sitemap() {
   }
 
   // 11) Symptom-led landing pages (/symptoms/{slug}/)
-  for (const slug of SYMPTOM_PAGE_SLUGS) {
+  // 2026-05-23 PRUNE: this list is now the canonical sitemap source for symptom
+  // URLs. Do NOT use SYMPTOM_PAGE_SLUGS (which still contains the 9 cannibalizing
+  // slugs + the 3 renamed-from slugs, all of which now 301 via vercel.json).
+  const SYMPTOM_SITEMAP_SLUGS = [
+    'acid-reflux',
+    'acne-breakout',
+    'allergy-symptoms',
+    'bronchitis',
+    'burning-urination',
+    'ear-pain',
+    'migraine',
+    'persistent-cough',
+    'sinus-pressure',
+    'skin-rash',
+    'sore-throat',
+  ];
+  for (const slug of SYMPTOM_SITEMAP_SLUGS) {
     urls.push(url(`/symptoms/${slug}/`, 0.75, 'monthly'));
   }
 

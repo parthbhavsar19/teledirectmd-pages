@@ -33,6 +33,51 @@
       "dest": "https://teledirectmd-verify.vercel.app/download"
     },
     {
+      "src": "/symptoms/asthma/?",
+      "headers": { "Location": "/asthma-refills-online/" },
+      "status": 301
+    },
+    {
+      "src": "/symptoms/birth-control/?",
+      "headers": { "Location": "/birth-control-refills-online/" },
+      "status": 301
+    },
+    {
+      "src": "/symptoms/cold-sore/?",
+      "headers": { "Location": "/cold-sore-treatment-online/" },
+      "status": 301
+    },
+    {
+      "src": "/symptoms/cystic-acne/?",
+      "headers": { "Location": "/acne-treatment-online/" },
+      "status": 301
+    },
+    {
+      "src": "/symptoms/erectile-dysfunction/?",
+      "headers": { "Location": "/erectile-dysfunction-treatment-online/" },
+      "status": 301
+    },
+    {
+      "src": "/symptoms/pink-eye/?",
+      "headers": { "Location": "/pink-eye-treatment-online/" },
+      "status": 301
+    },
+    {
+      "src": "/symptoms/sinus-infection/?",
+      "headers": { "Location": "/sinus-infection-treatment-online/" },
+      "status": 301
+    },
+    {
+      "src": "/symptoms/strep-throat/?",
+      "headers": { "Location": "/sore-throat-treatment-online/" },
+      "status": 301
+    },
+    {
+      "src": "/symptoms/yeast-infection/?",
+      "headers": { "Location": "/yeast-infection-treatment-online/" },
+      "status": 301
+    },
+    {
       "src": "/skin-fungus-tinea-treatment-online(/?)",
       "headers": {
         "Location": "/tinea-treatment-online/"

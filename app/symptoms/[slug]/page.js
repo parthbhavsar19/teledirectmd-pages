@@ -14,50 +14,39 @@ import {
 // Surgical-router pattern matching the CA cohort: each slug below renders its
 // dedicated v3 component (Symptom*.js, ~5,000-5,500 words, vertical cost bar,
 // premium FaqAccordion, MedicalWebPage+FAQPage+HowTo+BreadcrumbList schema).
-// Any slug NOT in this dispatch falls through to the shared dynamic template
-// below, so the route still works for slugs added in future without code edits.
+//
+// 2026-05-23 PRUNE PHASE 1: 9 slugs removed for cannibalizing national condition
+// pages (asthma, birth-control, cold-sore, cystic-acne, erectile-dysfunction,
+// pink-eye, sinus-infection, strep-throat, yeast-infection). Those URLs now
+// 301 to their canonical condition page via vercel.json.
+//
+// PHASE 2 (next deploy): rename 3 diagnosis-named slugs to true-symptom slugs
+// (acid-reflux→heartburn-and-regurgitation, bronchitis→chest-cough-with-mucus,
+// migraine→severe-recurring-headache) once their body content has been reframed.
 import SymptomAcidReflux from './SymptomAcidReflux';
 import SymptomAcneBreakout from './SymptomAcneBreakout';
 import SymptomAllergySymptoms from './SymptomAllergySymptoms';
-import SymptomAsthma from './SymptomAsthma';
-import SymptomBirthControl from './SymptomBirthControl';
 import SymptomBronchitis from './SymptomBronchitis';
 import SymptomBurningUrination from './SymptomBurningUrination';
-import SymptomColdSore from './SymptomColdSore';
-import SymptomCysticAcne from './SymptomCysticAcne';
 import SymptomEarPain from './SymptomEarPain';
-import SymptomErectileDysfunction from './SymptomErectileDysfunction';
 import SymptomMigraine from './SymptomMigraine';
 import SymptomPersistentCough from './SymptomPersistentCough';
-import SymptomPinkEye from './SymptomPinkEye';
-import SymptomSinusInfection from './SymptomSinusInfection';
 import SymptomSinusPressure from './SymptomSinusPressure';
 import SymptomSkinRash from './SymptomSkinRash';
 import SymptomSoreThroat from './SymptomSoreThroat';
-import SymptomStrepThroat from './SymptomStrepThroat';
-import SymptomYeastInfection from './SymptomYeastInfection';
 
 const V3_SYMPTOM_COMPONENTS = {
   'acid-reflux': SymptomAcidReflux,
   'acne-breakout': SymptomAcneBreakout,
   'allergy-symptoms': SymptomAllergySymptoms,
-  'asthma': SymptomAsthma,
-  'birth-control': SymptomBirthControl,
   'bronchitis': SymptomBronchitis,
   'burning-urination': SymptomBurningUrination,
-  'cold-sore': SymptomColdSore,
-  'cystic-acne': SymptomCysticAcne,
   'ear-pain': SymptomEarPain,
-  'erectile-dysfunction': SymptomErectileDysfunction,
   'migraine': SymptomMigraine,
   'persistent-cough': SymptomPersistentCough,
-  'pink-eye': SymptomPinkEye,
-  'sinus-infection': SymptomSinusInfection,
   'sinus-pressure': SymptomSinusPressure,
   'skin-rash': SymptomSkinRash,
   'sore-throat': SymptomSoreThroat,
-  'strep-throat': SymptomStrepThroat,
-  'yeast-infection': SymptomYeastInfection,
 };
 import { buildSymptomJsonLd } from '../../../lib/symptom-schema';
 import { COST_PAGES } from '../../../lib/cost-pages-config';
@@ -73,12 +62,19 @@ const BASE_URL = 'https://teledirectmd.com';
 const MASTER_COST_PAGE = '/cost/online-doctor-visit-cost/';
 const DEFAULT_COMPARE_PAGE = { slug: 'teledirectmd-vs-teladoc', competitor: 'Teladoc' };
 
+// 2026-05-23 PRUNE: only build the 11 surviving v3 symptom slugs at static-export
+// time. The 9 deleted slugs (asthma, birth-control, cold-sore, cystic-acne,
+// erectile-dysfunction, pink-eye, sinus-infection, strep-throat, yeast-infection)
+// and the 3 renamed-from slugs (acid-reflux, bronchitis, migraine) are NOT
+// produced as static pages — their old URLs 301 at the edge via vercel.json.
 export async function generateStaticParams() {
-  return SYMPTOM_PAGE_SLUGS.map((slug) => ({ slug }));
+  return Object.keys(V3_SYMPTOM_COMPONENTS).map((slug) => ({ slug }));
 }
 
 export async function generateMetadata({ params }) {
   const { slug } = await params;
+  // For v3 symptom pages the metadata is owned by the component itself.
+  if (V3_SYMPTOM_COMPONENTS[slug]) return {};
   const cfg = SYMPTOM_PAGES[slug];
   if (!cfg) return {};
   const pageUrl = `${BASE_URL}/symptoms/${slug}/`;
