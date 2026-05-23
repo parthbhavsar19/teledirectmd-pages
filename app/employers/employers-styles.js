@@ -1,8 +1,15 @@
 // Employer pages — scoped CSS that extends the existing tdmd-* design system
-// Uses the brand tokens already defined in lib/tdmd-styles.js
+// Typography mirrors /what-we-treat: Fraunces (display) + DM Sans (body)
+// loaded from Google Fonts inline so we don't depend on layout.js changes.
 export const employersCSS = `
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:wght@500;600;700&display=swap');
+
 /* ===== Scoped to .tdmd-emp so nothing leaks out ===== */
-.tdmd-emp { color: var(--tdmd-text); }
+.tdmd-emp {
+  color: var(--tdmd-text);
+  font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
 .tdmd-emp *, .tdmd-emp *::before, .tdmd-emp *::after { box-sizing: border-box; }
 
 .tdmd-emp-section { padding: 3rem 0; }
@@ -25,37 +32,38 @@ export const employersCSS = `
 }
 
 .tdmd-emp h1 {
-  font-family: 'Merriweather', Georgia, serif;
-  font-size: clamp(2rem, 4.6vw, 3.4rem);
-  font-weight: 700;
-  line-height: 1.12;
-  letter-spacing: -0.02em;
+  font-family: 'Fraunces', Georgia, serif;
+  font-size: clamp(24px, 5vw, 48px);
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: -0.5px;
   color: var(--tdmd-navy);
-  margin: 0 0 1.25rem;
+  margin: 0 0 1rem;
 }
 .tdmd-emp h1 em {
   font-style: italic;
   color: var(--tdmd-accent);
-  font-weight: 700;
+  font-weight: 600;
 }
 .tdmd-emp h2 {
-  font-family: 'Merriweather', Georgia, serif;
-  font-size: clamp(1.5rem, 3vw, 2.25rem);
-  font-weight: 700;
-  letter-spacing: -0.01em;
-  line-height: 1.18;
-  margin: 0 0 1rem;
+  font-family: 'Fraunces', Georgia, serif;
+  font-size: clamp(22px, 3.5vw, 32px);
+  font-weight: 600;
+  letter-spacing: -0.3px;
+  line-height: 1.25;
+  margin: 0 0 0.75rem;
   color: var(--tdmd-navy);
 }
 .tdmd-emp h3 {
-  font-family: 'Inter', system-ui, sans-serif;
-  font-size: 1.15rem;
-  font-weight: 700;
+  font-family: 'Fraunces', Georgia, serif;
+  font-size: 17px;
+  font-weight: 600;
+  letter-spacing: -0.1px;
   margin: 0 0 0.5rem;
   color: var(--tdmd-navy);
 }
 
-.tdmd-emp p { margin: 0 0 1rem; line-height: 1.65; }
+.tdmd-emp p { margin: 0 0 1rem; line-height: 1.6; font-size: 1rem; }
 .tdmd-emp p:last-child { margin-bottom: 0; }
 
 /* ===== Hero ===== */
@@ -142,7 +150,7 @@ export const employersCSS = `
   margin-bottom: 0.375rem;
 }
 .tdmd-emp-priceamount {
-  font-family: 'Merriweather', Georgia, serif;
+  font-family: 'Fraunces', Georgia, serif;
   font-size: 2.5rem;
   font-weight: 700;
   color: var(--tdmd-navy);
@@ -246,7 +254,7 @@ export const employersCSS = `
   border-radius: 50%;
   display: grid;
   place-items: center;
-  font-family: 'Merriweather', Georgia, serif;
+  font-family: 'Fraunces', Georgia, serif;
   font-size: 1.25rem;
   font-weight: 700;
   box-shadow: 0 6px 16px rgba(255, 90, 54, 0.35);
@@ -270,7 +278,7 @@ export const employersCSS = `
 .tdmd-emp-vcard:nth-child(2) { border-top-color: var(--tdmd-navy); }
 .tdmd-emp-vcard:nth-child(3) { border-top-color: var(--tdmd-accent); }
 .tdmd-emp-bigstat {
-  font-family: 'Merriweather', Georgia, serif;
+  font-family: 'Fraunces', Georgia, serif;
   font-size: 2.5rem;
   font-weight: 700;
   line-height: 1;
@@ -509,7 +517,7 @@ export const employersCSS = `
   font-weight: 800;
 }
 .tdmd-emp-review-rating {
-  font-family: 'Merriweather', Georgia, serif;
+  font-family: 'Fraunces', Georgia, serif;
   font-size: 1.75rem;
   font-weight: 700;
   color: var(--tdmd-accent);
@@ -652,7 +660,7 @@ export const employersCSS = `
   margin-bottom: 0.25rem;
 }
 .tdmd-emp-feecard-number {
-  font-family: 'Merriweather', Georgia, serif;
+  font-family: 'Fraunces', Georgia, serif;
   font-size: 4.5rem;
   font-weight: 700;
   line-height: 1;
@@ -746,7 +754,7 @@ export const employersCSS = `
   letter-spacing: 0.12em;
   margin: 0 0 0.625rem;
   font-weight: 800;
-  font-family: 'Inter', system-ui, sans-serif;
+  font-family: 'DM Sans', -apple-system, sans-serif;
 }
 .tdmd-emp-compliance-block {
   margin-bottom: 1.5rem;
