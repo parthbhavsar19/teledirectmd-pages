@@ -10,7 +10,7 @@ export default function SiteFooter() {
               <img src="/logo-white.webp" alt="TeleDirectMD" width="140" height="140" />
             </a>
             <p className="tdmd-footer-desc">
-              Board-certified family medicine physician. $79 flat-fee virtual visits across 40+ states. Insurance accepted in select states.
+              Board-certified family medicine physician. $79 flat-fee virtual visits across 41 states + DC. Insurance accepted in select states. Employer plans available.
             </p>
             <a href="/book-online" className="tdmd-footer-cta">Book a Visit →</a>
           </div>
@@ -35,7 +35,20 @@ export default function SiteFooter() {
             <a href="/media-mentions">Media Mentions</a>
           </div>
 
-          {/* Column 4: Legal & Policies */}
+          {/* Column 4: For Business (Employers + Brokers) */}
+          <div className="tdmd-footer-col">
+            <h4 className="tdmd-footer-heading">FOR BUSINESS</h4>
+            <a href="/employers">For Employers</a>
+            <a href="/employers/brokers">For Brokers</a>
+            <a href="/employers/brief">Employer Brief (PDF)</a>
+            <a href="/employers/trucking">Trucking &amp; Logistics</a>
+            <a href="/employers/restaurants">Restaurants &amp; Hospitality</a>
+            <a href="/employers/home-care">Home Care</a>
+            <a href="/employers/construction">Construction &amp; Trades</a>
+            <a href="/employers/cleaning">Cleaning &amp; Janitorial</a>
+          </div>
+
+          {/* Column 5: Legal & Policies */}
           <div className="tdmd-footer-col">
             <h4 className="tdmd-footer-heading">LEGAL & POLICIES</h4>
             <a href="/terms-of-service">Terms of Service</a>
