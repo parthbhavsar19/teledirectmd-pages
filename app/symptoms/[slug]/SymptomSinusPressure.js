@@ -3,7 +3,7 @@
  *
  * Symptom: Sinus Pressure
  * Slug:    /symptoms/sinus-pressure/
- * ICD-10:  J01.90 — Acute sinusitis, unspecified
+ * ICD-10:  J32.9 — Chronic sinusitis, unspecified
  *
  * v3 standard: inline opener, vertical cost bars (tdmd-vbar), FaqAccordion (12 items),
  * 4 JSON-LD schemas (MedicalWebPage + FAQPage + HowTo + BreadcrumbList), NPI 1104323203.
@@ -13,7 +13,7 @@
  *   • FAQPage schema only (no QA variant)
  *   • No CitableSummaryBlock import
  *   • NPI 1104323203 in Physician schema
- *   • Literal < and > in JSX text escaped as < >
+ *   • Literal < and > in JSX text escaped as &lt; &gt;
  *   • Medically reviewed by Parth Bhavsar, MD — Updated May 23, 2026
  *
  * Generated: 2026-05-23. DO NOT edit manually — regenerate from config.
@@ -23,7 +23,7 @@ import FaqAccordion from '../../components/FaqAccordion';
 
 // ─── Page constants ────────────────────────────────────────────────────────────
 const PAGE_URL = 'https://teledirectmd.com/symptoms/sinus-pressure/';
-const PAGE_TITLE = `Sinus Pressure & Headache Lasting >7 Days — Telehealth Treatment | TeleDirectMD`;
+const PAGE_TITLE = `Sinus Pressure — What Might Be Causing It and When to See a Doctor | TeleDirectMD`;
 const DATE_PUBLISHED = '2026-05-23';
 const DATE_MODIFIED = '2026-05-23';
 const LAST_REVIEWED = '2026-05-23';
@@ -47,146 +47,135 @@ const COST_BARS = [
 // ─── Medications ───────────────────────────────────────────────────────────────
 const MEDICATIONS = [
   {
-    generic: `Amoxicillin-clavulanate`,
+    generic: `amoxicillin-clavulanate`,
     brand: `Augmentin`,
     form: `Oral tablet`,
-    drugClass: `Beta-lactam antibiotic`,
-    dose: `875/125 mg twice daily × 5–7 days`,
-    price: `$14–$35`,
-    priceUrl: `https://www.goodrx.com/amoxicillin-potassium-clavulanate`,
+    drugClass: `Aminopenicillin/beta-lactamase inhibitor antibiotic`,
+    dose: `875/125 mg PO BID × 5–7 days (acute bacterial sinusitis)`,
+    price: `$15–$55`,
+    priceUrl: `https://www.goodrx.com/amoxicillin-clavulanate`,
     priceLabel: `GoodRx`,
-    sideEffects: `Diarrhea, GI upset, rash`,
+    sideEffects: `GI upset, diarrhea; take with food; check penicillin allergy`,
   },
   {
-    generic: `Doxycycline`,
-    brand: `Vibramycin`,
-    form: `Oral capsule`,
-    drugClass: `Tetracycline antibiotic`,
-    dose: `100 mg twice daily × 5–7 days`,
-    price: `$5–$48`,
-    priceUrl: `https://www.goodrx.com/doxycycline-hyclate`,
-    priceLabel: `GoodRx`,
-    sideEffects: `Photosensitivity, GI upset; avoid in pregnancy`,
-  },
-  {
-    generic: `Fluticasone propionate`,
+    generic: `fluticasone propionate nasal spray`,
     brand: `Flonase`,
     form: `Nasal spray`,
     drugClass: `Intranasal corticosteroid`,
-    dose: `2 sprays each nostril once daily`,
-    price: `$14–$53`,
-    priceUrl: `https://www.goodrx.com/fluticasone-propionate`,
+    dose: `2 sprays per nostril once daily`,
+    price: `$15–$40`,
+    priceUrl: `https://www.goodrx.com/fluticasone-nasal`,
     priceLabel: `GoodRx`,
-    sideEffects: `Nasal dryness, occasional epistaxis`,
+    sideEffects: `Nasal dryness, epistaxis; systemic absorption minimal at standard doses`,
   },
   {
-    generic: `Pseudoephedrine`,
+    generic: `pseudoephedrine`,
     brand: `Sudafed`,
-    form: `Oral tablet`,
-    drugClass: `Sympathomimetic decongestant`,
-    dose: `30–60 mg every 4–6 hours, max 3–5 days`,
-    price: `$2–$8`,
+    form: `Oral tablet (behind pharmacy counter)`,
+    drugClass: `Oral decongestant (alpha-adrenergic agonist)`,
+    dose: `60 mg PO q4–6h as needed; 120 mg ER q12h (max 240 mg/day)`,
+    price: `$10–$25`,
     priceUrl: `https://www.goodrx.com/pseudoephedrine`,
     priceLabel: `GoodRx`,
-    sideEffects: `Insomnia, jitteriness, BP elevation`,
+    sideEffects: `Tachycardia, insomnia, hypertension; avoid in uncontrolled hypertension or heart disease`,
   },
   {
-    generic: `Sumatriptan (if migraine)`,
-    brand: `Imitrex`,
-    form: `Oral tablet`,
-    drugClass: `5-HT1B/1D agonist (triptan)`,
-    dose: `50–100 mg at headache onset; may repeat once after 2 hours`,
-    price: `$6–$70`,
-    priceUrl: `https://www.goodrx.com/sumatriptan`,
+    generic: `oxymetazoline nasal spray`,
+    brand: `Afrin`,
+    form: `Nasal spray (OTC)`,
+    drugClass: `Topical nasal decongestant`,
+    dose: `2–3 sprays per nostril q10–12h; maximum 3 days to avoid rebound congestion`,
+    price: `$8–$18`,
+    priceUrl: `https://www.goodrx.com/oxymetazoline-nasal`,
     priceLabel: `GoodRx`,
-    sideEffects: `Chest tightness, flushing; avoid with CV disease`,
+    sideEffects: `Rebound congestion (rhinitis medicamentosa) if used &gt;3 days; avoid in pregnancy`,
   },
 ];
 
 // ─── FAQ items (12) ───────────────────────────────────────────────────────────
 const FAQ_ITEMS = [
   {
-    question: `How do I know if my sinus pressure is bacterial vs. viral?`,
-    answerPlain: `Three criteria suggest bacterial sinusitis (per IDSA/AAFP): symptoms lasting more than 10 days without any improvement; severe symptoms at onset (high fever ≥39°C plus purulent discharge for 3–4 days); or double-worsening (initial improvement followed by worsening). Without one of these, it's almost certainly viral and antibiotics will not help.`,
+    question: `What could be causing sinus pressure?`,
+    answerPlain: `Sinus pressure — a sensation of fullness, pain, or heaviness over the forehead, cheeks, or around the eyes — most commonly arises from a viral upper respiratory infection causing mucosal swelling and sinus ostia obstruction. Other causes include allergic rhinitis, acute bacterial sinusitis, nasal polyps, a deviated nasal septum, dental infection (especially upper molars near the maxillary sinus), or barotrauma. A physician evaluation determines whether the cause is viral (self-limiting), allergic (requiring antihistamine or steroid), or bacterial (requiring antibiotic).`,
     answer: (
-      <p dangerouslySetInnerHTML={{ __html: `Three criteria suggest bacterial sinusitis (per IDSA/AAFP): symptoms lasting more than 10 days without any improvement; severe symptoms at onset (high fever &ge;39°C plus purulent discharge for 3–4 days); or double-worsening (initial improvement followed by worsening). Without one of these, it's almost certainly viral and antibiotics will not help.` }} />
+      <p dangerouslySetInnerHTML={{ __html: `Sinus pressure — a sensation of fullness, pain, or heaviness over the forehead, cheeks, or around the eyes — most commonly arises from a viral upper respiratory infection causing mucosal swelling and sinus ostia obstruction. Other causes include allergic rhinitis, acute bacterial sinusitis, nasal polyps, a deviated nasal septum, dental infection (especially upper molars near the maxillary sinus), or barotrauma. A physician evaluation determines whether the cause is viral (self-limiting), allergic (requiring antihistamine or steroid), or bacterial (requiring antibiotic).` }} />
     ),
   },
   {
-    question: `Can a telehealth doctor prescribe antibiotics for sinus pressure?`,
-    answerPlain: `Yes — when bacterial criteria are documented. Dr. Bhavsar can prescribe amoxicillin-clavulanate (first-line) or doxycycline (penicillin-allergic) when your symptom timeline meets IDSA criteria. We will not prescribe antibiotics for clearly viral sinusitis — that's antibiotic stewardship and protects you from unnecessary side effects and resistance.`,
+    question: `When should I see a doctor for sinus pressure?`,
+    answerPlain: `See a physician if sinus pressure persists beyond 10 days without improvement, worsens after initial improvement (double-worsening pattern), is accompanied by thick discolored nasal discharge and fever — these features suggest acute bacterial sinusitis requiring antibiotic evaluation per IDSA guidelines. A physician evaluation is also appropriate when sinus pressure is recurrent (more than 4 episodes per year), severely impacts quality of life, or does not respond to OTC decongestants and nasal saline.`,
     answer: (
-      <p dangerouslySetInnerHTML={{ __html: `Yes — when bacterial criteria are documented. Dr. Bhavsar can prescribe amoxicillin-clavulanate (first-line) or doxycycline (penicillin-allergic) when your symptom timeline meets IDSA criteria. We will not prescribe antibiotics for clearly viral sinusitis — that's antibiotic stewardship and protects you from unnecessary side effects and resistance.` }} />
+      <p dangerouslySetInnerHTML={{ __html: `See a physician if sinus pressure persists beyond 10 days without improvement, worsens after initial improvement (double-worsening pattern), is accompanied by thick discolored nasal discharge and fever — these features suggest acute bacterial sinusitis requiring antibiotic evaluation per IDSA guidelines. A physician evaluation is also appropriate when sinus pressure is recurrent (more than 4 episodes per year), severely impacts quality of life, or does not respond to OTC decongestants and nasal saline.` }} />
     ),
   },
   {
-    question: `Is yellow or green mucus a sign of bacterial infection?`,
-    answerPlain: `No. Mucus color alone does NOT distinguish viral from bacterial sinusitis. Yellow-green mucus simply means white blood cells are present, which happens in both viral and bacterial cases. Duration and pattern are what matter.`,
+    question: `When is sinus pressure an emergency?`,
+    answerPlain: `Call 911 or go to the ER immediately if sinus pressure is accompanied by: severe headache with stiff neck or photophobia (possible meningitis), sudden vision changes or eye swelling and proptosis (possible orbital cellulitis), high fever (&gt;39°C / 102.2°F) with altered mental status or severe headache, or soft swelling over the forehead suggesting Pott's puffy tumor (osteomyelitis of the frontal bone). These are rare but serious complications of sinusitis requiring emergency evaluation.`,
     answer: (
-      <p dangerouslySetInnerHTML={{ __html: `No. Mucus color alone does NOT distinguish viral from bacterial sinusitis. Yellow-green mucus simply means white blood cells are present, which happens in both viral and bacterial cases. Duration and pattern are what matter.` }} />
+      <p dangerouslySetInnerHTML={{ __html: `Call 911 or go to the ER immediately if sinus pressure is accompanied by: severe headache with stiff neck or photophobia (possible meningitis), sudden vision changes or eye swelling and proptosis (possible orbital cellulitis), high fever (&gt;39°C / 102.2°F) with altered mental status or severe headache, or soft swelling over the forehead suggesting Pott's puffy tumor (osteomyelitis of the frontal bone). These are rare but serious complications of sinusitis requiring emergency evaluation.` }} />
     ),
   },
   {
-    question: `How long does sinus pressure last?`,
-    answerPlain: `Viral sinusitis peaks at days 3–5 and resolves by day 10. Bacterial sinusitis treated with appropriate antibiotics typically improves within 48–72 hours and resolves within 7–10 days. If symptoms last over 4 weeks, it's subacute; over 12 weeks, chronic — both warrant further evaluation.`,
+    question: `How long is too long to have sinus pressure before seeing a doctor?`,
+    answerPlain: `Sinus pressure lasting up to 10 days following a cold is typically viral and self-limiting — antibiotics are not recommended during this period per IDSA and AAFP guidelines. Sinus pressure persisting beyond 10 days without improvement, or that worsens after initial improvement, meets criteria for possible acute bacterial sinusitis and warrants physician evaluation. Recurrent sinus pressure occurring more than 4 times per year also warrants evaluation for underlying allergic rhinitis or nasal polyps.`,
     answer: (
-      <p dangerouslySetInnerHTML={{ __html: `Viral sinusitis peaks at days 3–5 and resolves by day 10. Bacterial sinusitis treated with appropriate antibiotics typically improves within 48–72 hours and resolves within 7–10 days. If symptoms last over 4 weeks, it's subacute; over 12 weeks, chronic — both warrant further evaluation.` }} />
+      <p dangerouslySetInnerHTML={{ __html: `Sinus pressure lasting up to 10 days following a cold is typically viral and self-limiting — antibiotics are not recommended during this period per IDSA and AAFP guidelines. Sinus pressure persisting beyond 10 days without improvement, or that worsens after initial improvement, meets criteria for possible acute bacterial sinusitis and warrants physician evaluation. Recurrent sinus pressure occurring more than 4 times per year also warrants evaluation for underlying allergic rhinitis or nasal polyps.` }} />
     ),
   },
   {
-    question: `Should I get a CT scan?`,
-    answerPlain: `CT scans are NOT recommended for uncomplicated acute sinusitis. They're reserved for chronic sinusitis (>12 weeks), recurrent sinusitis (4+ episodes/year), suspected complications (orbital, intracranial), or pre-surgical planning. Your telehealth visit will identify if you meet criteria.`,
+    question: `Can a virtual doctor evaluate sinus pressure?`,
+    answerPlain: `Yes — physician evaluation of sinus pressure via telehealth is appropriate and effective for the majority of presentations. A physician can assess symptom duration, character, the presence of the double-worsening pattern, associated fever, and nasal discharge color to determine whether criteria for acute bacterial sinusitis are met. California Business and Professions Code 2290.5 authorizes telehealth evaluation and prescription for sinusitis. TeleDirectMD provides $79 California video evaluations for adults 18+.`,
     answer: (
-      <p dangerouslySetInnerHTML={{ __html: `CT scans are NOT recommended for uncomplicated acute sinusitis. They're reserved for chronic sinusitis (&gt;12 weeks), recurrent sinusitis (4+ episodes/year), suspected complications (orbital, intracranial), or pre-surgical planning. Your telehealth visit will identify if you meet criteria.` }} />
+      <p dangerouslySetInnerHTML={{ __html: `Yes — physician evaluation of sinus pressure via telehealth is appropriate and effective for the majority of presentations. A physician can assess symptom duration, character, the presence of the double-worsening pattern, associated fever, and nasal discharge color to determine whether criteria for acute bacterial sinusitis are met. California Business and Professions Code 2290.5 authorizes telehealth evaluation and prescription for sinusitis. TeleDirectMD provides $79 California video evaluations for adults 18+.` }} />
     ),
   },
   {
-    question: `Does a saline rinse really help?`,
-    answerPlain: `Yes — strong evidence. Cochrane reviews and AAFP guidelines recommend high-volume saline irrigation as a cornerstone of sinusitis care. It mechanically clears mucus, reduces inflammation, and improves drainage. Use distilled or previously boiled water to avoid rare amebic infections.`,
+    question: `What will the doctor do for sinus pressure at TeleDirectMD?`,
+    answerPlain: `The physician evaluates symptom duration, character (viral vs. bacterial features), pain location (frontal, maxillary, ethmoid), nasal discharge color, fever, prior sinusitis history, allergies, dental history, and response to OTC treatment. Based on the evaluation, a physician may prescribe amoxicillin-clavulanate or an alternative antibiotic for acute bacterial sinusitis per IDSA criteria, or prescribe an intranasal corticosteroid for allergic sinusitis. This is an evaluation — prescribing depends on whether bacterial criteria are met.`,
     answer: (
-      <p dangerouslySetInnerHTML={{ __html: `Yes — strong evidence. Cochrane reviews and AAFP guidelines recommend high-volume saline irrigation as a cornerstone of sinusitis care. It mechanically clears mucus, reduces inflammation, and improves drainage. Use distilled or previously boiled water to avoid rare amebic infections.` }} />
+      <p dangerouslySetInnerHTML={{ __html: `The physician evaluates symptom duration, character (viral vs. bacterial features), pain location (frontal, maxillary, ethmoid), nasal discharge color, fever, prior sinusitis history, allergies, dental history, and response to OTC treatment. Based on the evaluation, a physician may prescribe amoxicillin-clavulanate or an alternative antibiotic for acute bacterial sinusitis per IDSA criteria, or prescribe an intranasal corticosteroid for allergic sinusitis. This is an evaluation — prescribing depends on whether bacterial criteria are met.` }} />
     ),
   },
   {
-    question: `What\'s the difference between sinus headache and migraine?`,
-    answerPlain: `Studies show approximately 88% of self-diagnosed "sinus headaches" actually meet migraine criteria. Migraines are typically throbbing, one-sided, with light/sound sensitivity and nausea. True sinus headaches involve face pressure with other infection signs (purulent discharge, fever). Many people get triptans on telehealth and find their "sinus headaches" disappear.`,
+    question: `Will I get a prescription for sinus pressure?`,
+    answerPlain: `Antibiotics are prescribed only when acute bacterial sinusitis criteria are met per IDSA guidelines: symptoms persisting &gt;10 days without improvement, double-worsening pattern, or severe symptoms (fever &gt;39°C, unilateral facial pain). Most sinus pressure from viral URIs or allergic rhinitis does not require antibiotics. An intranasal corticosteroid prescription may be provided for allergic or inflammatory sinusitis. If bacterial sinusitis is present, first-line therapy is amoxicillin-clavulanate.`,
     answer: (
-      <p dangerouslySetInnerHTML={{ __html: `Studies show approximately 88% of self-diagnosed "sinus headaches" actually meet migraine criteria. Migraines are typically throbbing, one-sided, with light/sound sensitivity and nausea. True sinus headaches involve face pressure with other infection signs (purulent discharge, fever). Many people get triptans on telehealth and find their "sinus headaches" disappear.` }} />
+      <p dangerouslySetInnerHTML={{ __html: `Antibiotics are prescribed only when acute bacterial sinusitis criteria are met per IDSA guidelines: symptoms persisting &gt;10 days without improvement, double-worsening pattern, or severe symptoms (fever &gt;39°C, unilateral facial pain). Most sinus pressure from viral URIs or allergic rhinitis does not require antibiotics. An intranasal corticosteroid prescription may be provided for allergic or inflammatory sinusitis. If bacterial sinusitis is present, first-line therapy is amoxicillin-clavulanate.` }} />
     ),
   },
   {
-    question: `Can I take pseudoephedrine if I have high blood pressure?`,
-    answerPlain: `Use caution. Pseudoephedrine can raise blood pressure and heart rate. If your hypertension is well-controlled, short courses (3–5 days) are usually safe. If uncontrolled, avoid pseudoephedrine and use intranasal alternatives (saline, intranasal steroid). Discuss with your provider.`,
+    question: `Is sinus pressure something I can manage at home?`,
+    answerPlain: `Viral sinusitis causing sinus pressure (the most common cause) is self-limiting and responds well to home management: saline nasal irrigation (NeilMed twice daily), OTC pseudoephedrine or oxymetazoline for short-term decongestant relief (do not use oxymetazoline for more than 3 days), steam inhalation, adequate hydration, and ibuprofen or acetaminophen for pain. OTC intranasal corticosteroid (Flonase) can help reduce mucosal swelling. If symptoms persist beyond 10 days or worsen, physician evaluation is appropriate.`,
     answer: (
-      <p dangerouslySetInnerHTML={{ __html: `Use caution. Pseudoephedrine can raise blood pressure and heart rate. If your hypertension is well-controlled, short courses (3–5 days) are usually safe. If uncontrolled, avoid pseudoephedrine and use intranasal alternatives (saline, intranasal steroid). Discuss with your provider.` }} />
+      <p dangerouslySetInnerHTML={{ __html: `Viral sinusitis causing sinus pressure (the most common cause) is self-limiting and responds well to home management: saline nasal irrigation (NeilMed twice daily), OTC pseudoephedrine or oxymetazoline for short-term decongestant relief (do not use oxymetazoline for more than 3 days), steam inhalation, adequate hydration, and ibuprofen or acetaminophen for pain. OTC intranasal corticosteroid (Flonase) can help reduce mucosal swelling. If symptoms persist beyond 10 days or worsen, physician evaluation is appropriate.` }} />
     ),
   },
   {
-    question: `How long can I use Afrin (oxymetazoline)?`,
-    answerPlain: `No more than 3 consecutive days. Longer use causes rhinitis medicamentosa — rebound congestion that gets worse every time you stop. If you've been using it longer, taper by switching to one nostril at a time and adding intranasal steroid.`,
+    question: `Does insurance cover a TeleDirectMD visit for sinus pressure?`,
+    answerPlain: `TeleDirectMD accepts Aetna, UnitedHealthcare (UHC), and Blue Cross Blue Shield (BCBS) commercial plans. The self-pay rate is $79 flat — no subscription, no hidden fees. Prescription antibiotic costs are separate; generic amoxicillin-clavulanate is typically $15–$55 and OTC fluticasone nasal spray is $15–$40 at GoodRx pricing.`,
     answer: (
-      <p dangerouslySetInnerHTML={{ __html: `No more than 3 consecutive days. Longer use causes rhinitis medicamentosa — rebound congestion that gets worse every time you stop. If you've been using it longer, taper by switching to one nostril at a time and adding intranasal steroid.` }} />
+      <p dangerouslySetInnerHTML={{ __html: `TeleDirectMD accepts Aetna, UnitedHealthcare (UHC), and Blue Cross Blue Shield (BCBS) commercial plans. The self-pay rate is $79 flat — no subscription, no hidden fees. Prescription antibiotic costs are separate; generic amoxicillin-clavulanate is typically $15–$55 and OTC fluticasone nasal spray is $15–$40 at GoodRx pricing.` }} />
     ),
   },
   {
-    question: `Are antibiotics safer if \'just in case\'?`,
-    answerPlain: `No. Unnecessary antibiotics cause GI side effects, yeast infections, C. difficile colitis, allergic reactions, and contribute to resistance. AAFP estimates 50% of sinusitis antibiotic prescriptions are unnecessary. We follow IDSA criteria — that's the safer, evidence-based path.`,
+    question: `How fast can I be seen for sinus pressure?`,
+    answerPlain: `Same-day $79 video evaluations are frequently available for California adults. Book at book.teledirectmd.com — select your preferred time and a board-certified Family Medicine physician will meet you by secure video. No referral required. Most visits are 15 minutes.`,
     answer: (
-      <p dangerouslySetInnerHTML={{ __html: `No. Unnecessary antibiotics cause GI side effects, yeast infections, C. difficile colitis, allergic reactions, and contribute to resistance. AAFP estimates 50% of sinusitis antibiotic prescriptions are unnecessary. We follow IDSA criteria — that's the safer, evidence-based path.` }} />
+      <p dangerouslySetInnerHTML={{ __html: `Same-day $79 video evaluations are frequently available for California adults. Book at book.teledirectmd.com — select your preferred time and a board-certified Family Medicine physician will meet you by secure video. No referral required. Most visits are 15 minutes.` }} />
     ),
   },
   {
-    question: `Can I fly with sinus pressure?`,
-    answerPlain: `It's not dangerous but can be very painful. Pressure changes during ascent and descent can cause severe pain (sinus barotrauma) and rarely bleeding. If you must fly, use oxymetazoline 30 minutes before takeoff/landing and chew gum during descent.`,
+    question: `What if I need an in-person visit for sinus pressure?`,
+    answerPlain: `In-person evaluation or ENT referral is appropriate when sinus symptoms recur frequently (&gt;4 episodes per year) suggesting chronic sinusitis, nasal polyps, or anatomic obstruction; when CT sinuses imaging is needed; when orbital or intracranial complications are suspected (eye swelling, severe headache, altered mental status); or when severe facial pain or swelling is present. A referral with clear instructions will be provided at no additional charge.`,
     answer: (
-      <p dangerouslySetInnerHTML={{ __html: `It's not dangerous but can be very painful. Pressure changes during ascent and descent can cause severe pain (sinus barotrauma) and rarely bleeding. If you must fly, use oxymetazoline 30 minutes before takeoff/landing and chew gum during descent.` }} />
+      <p dangerouslySetInnerHTML={{ __html: `In-person evaluation or ENT referral is appropriate when sinus symptoms recur frequently (&gt;4 episodes per year) suggesting chronic sinusitis, nasal polyps, or anatomic obstruction; when CT sinuses imaging is needed; when orbital or intracranial complications are suspected (eye swelling, severe headache, altered mental status); or when severe facial pain or swelling is present. A referral with clear instructions will be provided at no additional charge.` }} />
     ),
   },
   {
-    question: `Why does my sinus pressure get worse when I bend over?`,
-    answerPlain: `Sinus pressure that worsens with bending or head movement is classic for sinusitis — gravity shifts the trapped mucus and inflamed tissues. This sign helps distinguish sinusitis from tension headache or migraine.`,
+    question: `How is sinus pressure different from a sinus headache or migraine?`,
+    answerPlain: `True sinus pressure from sinusitis involves facial fullness or pain over the cheeks, forehead, or around the eyes, and is accompanied by nasal congestion and discharge. A "sinus headache" without nasal symptoms or discharge is more likely a migraine or tension headache — studies show that most self-diagnosed sinus headaches meet migraine criteria. Migraine can also cause facial pain through trigeminal nerve pathways. A physician evaluation helps distinguish these conditions, as treatment differs substantially.`,
     answer: (
-      <p dangerouslySetInnerHTML={{ __html: `Sinus pressure that worsens with bending or head movement is classic for sinusitis — gravity shifts the trapped mucus and inflamed tissues. This sign helps distinguish sinusitis from tension headache or migraine.` }} />
+      <p dangerouslySetInnerHTML={{ __html: `True sinus pressure from sinusitis involves facial fullness or pain over the cheeks, forehead, or around the eyes, and is accompanied by nasal congestion and discharge. A "sinus headache" without nasal symptoms or discharge is more likely a migraine or tension headache — studies show that most self-diagnosed sinus headaches meet migraine criteria. Migraine can also cause facial pain through trigeminal nerve pathways. A physician evaluation helps distinguish these conditions, as treatment differs substantially.` }} />
     ),
   },
 ];
@@ -194,10 +183,10 @@ const FAQ_ITEMS = [
 // ─── Related condition links ───────────────────────────────────────────────────
 const RELATED_CONDITIONS = [
   { slug: '/sinus-infection-treatment-online/', label: 'Sinus Infection Treatment Online' },
-  { slug: '/seasonal-allergies-treatment-online/', label: 'Seasonal Allergies Treatment Online' },
-  { slug: '/common-cold-treatment-online/', label: 'Common Cold Treatment Online' },
   { slug: '/sore-throat-treatment-online/', label: 'Sore Throat Treatment Online' },
-  { slug: '/ear-pain-treatment-online/', label: 'Ear Pain Treatment Online' },
+  { slug: '/common-cold-treatment-online/', label: 'Common Cold Treatment Online' },
+  { slug: '/asthma-refills-online/', label: 'Asthma Inhaler Refills Online' },
+  { slug: '/uti-treatment-online/', label: 'UTI Treatment Online' },
 ];
 
 // ─── JSON-LD schemas ───────────────────────────────────────────────────────────
@@ -208,15 +197,15 @@ function buildSchemas() {
     '@type': 'MedicalWebPage',
     name: PAGE_TITLE,
     url: PAGE_URL,
-    description: `Sinus pressure persisting >10 days, worsening after improvement, or with face pain often signals bacterial sinusitis. Same-day $79 telehealth visit.`,
+    description: `Sinus pressure evaluation online. Determine likely cause — viral sinusitis, allergic sinusitis, or acute bacterial sinusitis — and whether antibiotic treatment is needed. $79 California video evaluation by board-certified Family Medicine physician.`,
     datePublished: DATE_PUBLISHED,
     dateModified: DATE_MODIFIED,
     inLanguage: 'en-US',
     about: {
       '@type': 'MedicalCondition',
-      name: 'Sinusitis / Sinus Pressure',
-      alternateName: ['Sinus Congestion', 'Sinusitis', 'Nasal Pressure', 'Facial Pressure'],
-      code: { '@type': 'MedicalCode', code: 'J01.90', codingSystem: 'ICD-10-CM' },
+      name: 'Sinusitis',
+      alternateName: ['Sinus Pressure', 'Sinus Congestion', 'Sinus Pain', 'Sinusitis'],
+      code: { '@type': 'MedicalCode', code: 'J32.9', codingSystem: 'ICD-10-CM' },
     },
     medicalAudience: {
       '@type': 'MedicalAudience',
@@ -260,14 +249,14 @@ function buildSchemas() {
   const howTo = {
     '@context': 'https://schema.org',
     '@type': 'HowTo',
-    name: `How to Get Sinus Pressure Relief Online`,
-    description: `Three steps to receive sinus pressure evaluation and treatment from a board-certified physician.`,
+    name: `How to Get a Sinus Pressure Evaluation Online`,
+    description: `Three steps to receive a physician evaluation for sinus pressure from a board-certified physician.`,
     totalTime: 'PT30M',
     estimatedCost: { '@type': 'MonetaryAmount', currency: 'USD', value: '79' },
     step: [
-      { '@type': 'HowToStep', position: 1, name: `Book your video visit`, text: `Select sinus pressure on teledirectmd.com. Self pay $79. No referral needed.`, url: `https://teledirectmd.com/symptoms/sinus-pressure/` },
-      { '@type': 'HowToStep', position: 2, name: `See a board-certified MD by secure video`, text: `Physician reviews symptom duration, discharge color, facial pain severity, and preceding upper respiratory illness.`, url: `https://teledirectmd.com/symptoms/sinus-pressure/` },
-      { '@type': 'HowToStep', position: 3, name: `Receive your treatment plan`, text: `Nasal corticosteroid, antibiotic if bacterial, or combination therapy prescribed and sent to your pharmacy.`, url: `https://teledirectmd.com/symptoms/sinus-pressure/` }
+      { '@type': 'HowToStep', position: 1, name: `Book your $79 video visit`, text: `Select sinus pressure on teledirectmd.com. Self pay $79. No referral needed. Same-day visits often available for California adults.`, url: `https://teledirectmd.com/symptoms/sinus-pressure/` },
+      { '@type': 'HowToStep', position: 2, name: `See a board-certified MD by secure video`, text: `Physician evaluates symptom duration, discharge character, fever, and double-worsening pattern to determine if bacterial criteria are met and whether antibiotic is appropriate.`, url: `https://teledirectmd.com/symptoms/sinus-pressure/` },
+      { '@type': 'HowToStep', position: 3, name: `Receive your evaluation results and plan`, text: `Antibiotic prescription for bacterial sinusitis if IDSA criteria are met. Intranasal corticosteroid for allergic sinusitis. ENT referral for recurrent or complicated cases.`, url: `https://teledirectmd.com/symptoms/sinus-pressure/` }
     ],
   };
 
@@ -352,12 +341,12 @@ export default function SymptomSinusPressure() {
           <div className="tdmd-container">
             <div className="tdmd-hero-grid">
               <div className="tdmd-hero-copy">
-                <h1 data-speakable="true" dangerouslySetInnerHTML={{ __html: `Sinus Pressure That Won't Quit — When It's Bacterial vs. Viral` }} />
+                <h1 data-speakable="true" dangerouslySetInnerHTML={{ __html: `Sinus Pressure — What Might Be Causing It and When to See a Doctor` }} />
                 <p className="tdmd-hero-sub" data-speakable="true">
-                  Sinus Pressure — same-day video visit with a board-certified family medicine MD. Self pay $79 &amp;middot; 41 states &amp;middot; MD-only care.
+                  Experiencing facial pressure, congestion, or heaviness around your eyes and forehead? A $79 California evaluation can determine whether the cause is viral, allergic, or bacterial — and whether an antibiotic is actually needed.
                 </p>
                 <p>
-                  Sinus Pressure is one of the most common reasons adults seek medical care. TeleDirectMD provides same-day evaluation and treatment by a board-certified family medicine physician via secure video visit. Self-pay is $79 with no insurance required. Available in 41 states.
+                  Sinus pressure is one of the most common reasons adults seek medical evaluation, but not all sinus pressure requires antibiotics. Most cases are viral and self-limiting; antibiotic therapy is appropriate only when specific bacterial criteria are met. A physician evaluation prevents unnecessary antibiotic use while ensuring bacterial sinusitis is properly treated. TeleDirectMD provides same-day physician evaluation for California adults via secure video visit. Self-pay is $79 with no insurance required.
                 </p>
 
                 {/* Physician byline (E-E-A-T) */}
@@ -376,11 +365,11 @@ export default function SymptomSinusPressure() {
                 <p className="tdmd-toc-intro" style={{ marginTop: '1.25rem' }}><strong>Quick navigation:</strong></p>
                 <ul className="tdmd-toc">
                   <li><a href={`#${pid}-opening`}>Overview</a></li>
-                  <li><a href={`#${pid}-eligibility`}>Eligibility checklist</a></li>
-                  <li><a href={`#${pid}-differentials`}>Differential diagnosis</a></li>
-                  <li><a href={`#${pid}-cost`}>Cost comparison</a></li>
-                  <li><a href={`#${pid}-medications`}>Medications</a></li>
+                  <li><a href={`#${pid}-causes`}>What might be causing this?</a></li>
                   <li><a href={`#${pid}-red-flags`}>Red flags</a></li>
+                  <li><a href={`#${pid}-self-care`}>Self-care to try first</a></li>
+                  <li><a href={`#${pid}-when-to-book`}>When to book a visit</a></li>
+                  <li><a href={`#${pid}-cost`}>Cost comparison</a></li>
                   <li><a href={`#${pid}-faq`}>FAQs</a></li>
                   <li><a href={`#${pid}-references`}>References</a></li>
                 </ul>
@@ -388,31 +377,31 @@ export default function SymptomSinusPressure() {
                 <ul className="tdmd-hero-benefits">
                   <li>Self pay $79 — no insurance required</li>
                   <li>MD-only care (no mid-levels)</li>
-                  <li>Same-day visits available in 41 states</li>
+                  <li>Same-day evaluations available in California</li>
                   <li>Board-certified Family Medicine physician</li>
                   <li>e-Prescription to your pharmacy when appropriate</li>
                 </ul>
 
                 <div className="tdmd-hero-ctas">
-                  <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
+                  <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a $79 California Evaluation</a>
                   <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
                 </div>
 
-                <p className="tdmd-icd"><strong>ICD-10 commonly used:</strong> J01.90 — Acute sinusitis, unspecified (final coding depends on clinical details)</p>
+                <p className="tdmd-icd"><strong>ICD-10 commonly used:</strong> J32.9 — Chronic sinusitis, unspecified / J01.90 — Acute sinusitis, unspecified (final coding depends on clinical details)</p>
               </div>
 
               <div className="tdmd-hero-side">
                 <div className="tdmd-hero-card">
-                  <h2>Online MD-Only Sinus Pressure Care</h2>
+                  <h2>What a TeleDirectMD Evaluation Includes</h2>
                   <ul>
-                    <li>Fast evaluation and treatment plan</li>
-                    <li>Safety screening before any prescription</li>
-                    <li>Guideline-based medication choices</li>
-                    <li>e-Prescription to your pharmacy</li>
-                    <li>Follow-up guidance and red-flag instructions</li>
+                    <li>Viral vs. bacterial sinusitis differentiation</li>
+                    <li>IDSA-criteria antibiotic assessment</li>
+                    <li>Intranasal corticosteroid if allergic component</li>
+                    <li>Decongestant and saline irrigation guidance</li>
+                    <li>ENT or imaging referral for recurrent/complex cases</li>
                   </ul>
                   <p className="tdmd-hero-note">
-                    Adults 18+ only. TeleDirectMD is not an emergency service. If you have severe symptoms, difficulty breathing, chest pain, high fever, or rapidly worsening condition, seek urgent in-person or emergency care immediately.
+                    Adults 18+ only. Eye swelling, severe headache, or altered mental status with sinus symptoms require emergency evaluation. TeleDirectMD is not an emergency service.
                   </p>
                 </div>
               </div>
@@ -423,167 +412,136 @@ export default function SymptomSinusPressure() {
         {/* ─── 2) INLINE OPENER (v3 — replaces CitableSummaryBlock) ──────────── */}
         <section className="tdmd-section tdmd-sym__opener" id={`${pid}-opening`}>
           <div className="tdmd-container">
-            <p dangerouslySetInnerHTML={{ __html: `Sinus pressure or facial pressure — typically felt in the cheeks, forehead, or behind the eyes — is most often caused by viral upper respiratory infection, allergic rhinitis, or early bacterial sinusitis. TeleDirectMD evaluates duration, discharge color, fever, and dental symptoms to guide treatment, prescribing nasal corticosteroids, decongestants, or antibiotics when bacterial involvement is supported by symptom criteria — all for $79.` }} />
+            <p dangerouslySetInnerHTML={{ __html: `When should you see a doctor for sinus pressure? A physician evaluation is appropriate when sinus pressure has persisted beyond 10 days without improvement, worsens after initial improvement (double-worsening), is accompanied by thick discolored nasal discharge and fever, or recurs more than 4 times per year. Sinus pressure could be caused by viral upper respiratory infection (most common, self-limiting), allergic rhinitis, acute bacterial sinusitis, nasal polyps, or a dental source — and only bacterial sinusitis requires antibiotic therapy. TeleDirectMD provides $79 same-day California video evaluation for adults with sinus pressure, with a board-certified Family Medicine physician applying evidence-based IDSA criteria to determine whether antibiotic treatment is needed.` }} />
             <p style={{ marginTop: '1rem' }}>
-              <strong>Self-pay cost:</strong> $79 flat rate — no subscription, no hidden fees. Prescription costs are separate and vary by pharmacy; see the medication table below for GoodRx estimates. TeleDirectMD does not prescribe controlled substances in any state.
+              <strong>Self-pay cost:</strong> $79 flat rate — no subscription, no hidden fees. Prescription costs are separate and vary by pharmacy. TeleDirectMD does not prescribe controlled substances in any state.
             </p>
             <p>
-              TeleDirectMD physicians hold Board Certification from the <a href="https://www.theabfm.org/" rel="noopener" target="_blank">American Board of Family Medicine (ABFM)</a> and follow clinical guidelines from the CDC, AAFP, and relevant specialty societies. Every visit includes red-flag screening, a structured history, a treatment plan, and clear follow-up instructions.
+              TeleDirectMD physicians hold Board Certification from the <a href="https://www.theabfm.org/" rel="noopener" target="_blank">American Board of Family Medicine (ABFM)</a> and follow IDSA and AAFP sinusitis guidelines. California telehealth visits are authorized under Business and Professions Code 2290.5.
             </p>
           </div>
         </section>
 
-        {/* ─── 3) ELIGIBILITY CHECKLIST ─────────────────────────────────────── */}
-        <section className="tdmd-section" id={`${pid}-eligibility`}>
+        {/* ─── 3) WHAT MIGHT BE CAUSING THIS ──────────────────────────────── */}
+        <section className="tdmd-section" id={`${pid}-causes`}>
           <div className="tdmd-container">
-            <h2>Sinus Pressure Telehealth Eligibility Checklist</h2>
-            <p><strong>You are likely eligible for a TeleDirectMD video visit if ALL of these are true:</strong></p>
-            <div className="tdmd-sym__dual">
-              <div className="tdmd-sym__dual-card tdmd-sym__dual-card--good">
-                <h3>&#10003; You Are Eligible If</h3>
-                <ul>
-              <li dangerouslySetInnerHTML={{ __html: `Adults 18+ in any of our 41 states` }} />
-              <li dangerouslySetInnerHTML={{ __html: `Sinus pressure 7–14 days, with or without improvement pattern` }} />
-              <li dangerouslySetInnerHTML={{ __html: `Mild-to-moderate symptoms (no high fever, no vision change)` }} />
-              <li dangerouslySetInnerHTML={{ __html: `Want guidance on whether antibiotics are appropriate` }} />
-              <li dangerouslySetInnerHTML={{ __html: `Need an OTC plan (saline + intranasal steroid) reviewed` }} />
-              <li dangerouslySetInnerHTML={{ __html: `Recurrent sinusitis but currently stable, want refill or new course` }} />
-              <li dangerouslySetInnerHTML={{ __html: `Symptoms post-cold lasting longer than expected` }} />
-              <li dangerouslySetInnerHTML={{ __html: `Want a telehealth assessment before deciding on antibiotics` }} />
-                </ul>
+            <h2>What Might Be Causing Sinus Pressure?</h2>
+            <p>A physician would evaluate for the following causes based on symptom duration, discharge character, fever pattern, timing, and associated history:</p>
+
+            <h3>Common and self-limiting</h3>
+            <ul>
+              <li dangerouslySetInnerHTML={{ __html: `<strong>Viral acute sinusitis (viral rhinosinusitis):</strong> The most common cause of sinus pressure, occurring as part of or following a viral upper respiratory infection. Mucosal edema causes sinus ostia obstruction and pressure sensation. Per IDSA guidelines, the vast majority of acute sinusitis episodes are viral, typically resolve within 7–10 days, and do not require antibiotics. A physician would identify viral sinusitis when symptoms began acutely with a cold and are improving within the first 10 days.` }} />
+              <li dangerouslySetInnerHTML={{ __html: `<strong>Allergic rhinosinusitis:</strong> Allergic inflammation of the nasal and sinus mucosa from pollen, dust mites, or pet dander producing sinus pressure, nasal congestion, and postnasal drip in a seasonal or perennial pattern. Recurs predictably each allergy season. A physician would evaluate for this cause when sinus pressure correlates with allergen exposure and responds to antihistamines or intranasal corticosteroids.` }} />
+            </ul>
+
+            <h3>Common and requiring evaluation</h3>
+            <ul>
+              <li dangerouslySetInnerHTML={{ __html: `<strong>Acute bacterial sinusitis:</strong> Secondary bacterial infection of the sinus cavities following viral sinusitis or allergic inflammation, most commonly caused by Streptococcus pneumoniae or Haemophilus influenzae. Per IDSA diagnostic criteria, bacterial sinusitis is suggested by: symptom duration &gt;10 days without improvement, severe symptoms (fever &gt;39°C, unilateral facial pain/swelling), or double-worsening after initial improvement. Requires antibiotic therapy. See our <a href="/sinus-infection-treatment-online/">sinus infection treatment page</a> if a sinus infection is diagnosed.` }} />
+              <li dangerouslySetInnerHTML={{ __html: `<strong>Dental infection extending to maxillary sinus:</strong> Upper molar periapical abscesses can extend into the maxillary sinus, causing unilateral maxillary sinus pressure with facial pain. A physician would evaluate for dental source when sinus pressure is predominantly unilateral, maxillary, and accompanied by dental pain or recent dental procedure.` }} />
+            </ul>
+
+            <h3>Less common but requiring evaluation</h3>
+            <ul>
+              <li dangerouslySetInnerHTML={{ __html: `<strong>Nasal polyps:</strong> Benign mucosal growths in the nasal and sinus cavities causing persistent bilateral obstruction, reduced sense of smell, and recurrent sinus pressure. Associated with aspirin-exacerbated respiratory disease and chronic sinusitis. A physician would evaluate for polyps when sinus pressure is chronic, bilateral, and associated with hyposmia and poor response to antihistamines.` }} />
+              <li dangerouslySetInnerHTML={{ __html: `<strong>Barotrauma sinusitis:</strong> Sudden pressure change (air travel, diving, altitude change) causing mucosal injury and sinus pressure. Typically self-limiting. A physician would evaluate for this cause when sinus pressure began immediately following a flight or diving activity.` }} />
+            </ul>
+
+            <div className="tdmd-sym__cta-strip" role="complementary" style={{ marginTop: '1.5rem' }}>
+              <div>
+                <p>Sinus pressure beyond 10 days? Book a $79 evaluation</p>
+                <small>Board-certified Family Medicine physician &amp;middot; California &amp;middot; Same-day available</small>
               </div>
-              <div className="tdmd-sym__dual-card tdmd-sym__dual-card--alert">
-                <h3>&#10007; You Are Not Eligible If</h3>
-                <ul>
-              <li dangerouslySetInnerHTML={{ __html: `Severe vision change, eye pain, or eye swelling — ER now` }} />
-              <li dangerouslySetInnerHTML={{ __html: `High fever with neck stiffness or confusion — ER now` }} />
-              <li dangerouslySetInnerHTML={{ __html: `Symptoms &gt;12 weeks (chronic) — needs ENT and CT scan` }} />
-              <li dangerouslySetInnerHTML={{ __html: `Children under 2 with ear pain — pediatric in-person` }} />
-              <li dangerouslySetInnerHTML={{ __html: `Severe immunocompromise (chemo, transplant) — in-person` }} />
-              <li dangerouslySetInnerHTML={{ __html: `Recurrent failures of multiple antibiotic courses — ENT specialist` }} />
-                </ul>
-                <p style={{ marginTop: '0.75rem', color: 'var(--tdmd-muted)', fontSize: '0.92rem' }}>
-                  <strong>If you have red-flag symptoms, seek urgent in-person or emergency care immediately. TeleDirectMD is not appropriate for severe or complex cases.</strong>
-                </p>
-              </div>
+              <a className="tdmd-sym__cta-btn" href="/book-online" rel="noopener">Book Now &amp;rarr;</a>
             </div>
           </div>
         </section>
 
-        {/* ─── 4) HOW IT WORKS ─────────────────────────────────────────────── */}
-        <section className="tdmd-section tdmd-section-highlight" id={`${pid}-how-it-works`}>
+        {/* ─── 4) RED FLAGS ────────────────────────────────────────────────── */}
+        <section className="tdmd-section tdmd-section-highlight" id={`${pid}-red-flags`}>
           <div className="tdmd-container">
-            <h2>How Sinus Pressure Treatment Works Online</h2>
-            <div className="tdmd-decision-flow">
-              <div className="tdmd-decision-step tdmd-decision-step-check">
-                <div className="tdmd-decision-number">1</div>
-                <div className="tdmd-decision-content">
-                  <h3>Book your $79 video visit</h3>
-                  <p>No insurance required. No referral needed. Many visits available same day in 41 states. Have your symptom timeline and current medication list ready.</p>
-                </div>
-              </div>
-              <div className="tdmd-decision-step tdmd-decision-step-check">
-                <div className="tdmd-decision-number">2</div>
-                <div className="tdmd-decision-content">
-                  <h3>See a board-certified MD by secure video</h3>
-                  <p>The physician takes a structured medical history, performs a targeted virtual exam, screens for red flags, and applies current clinical guidelines. If in-person care is needed, you&apos;ll be redirected at no charge.</p>
-                </div>
-              </div>
-              <div className="tdmd-decision-step tdmd-decision-step-good">
-                <div className="tdmd-decision-number">3</div>
-                <div className="tdmd-decision-content">
-                  <h3>Get your treatment plan and, if appropriate, a prescription</h3>
-                  <p>If medication is clinically appropriate, an e-prescription is sent to your chosen pharmacy during or after the visit. Clear follow-up instructions and red-flag criteria are provided regardless of treatment choice.</p>
-                  <div className="tdmd-decision-cta">
-                    <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
-                  </div>
-                </div>
-              </div>
+            <h2>Red Flags — When to Call 911 or Go to the ER</h2>
+            <div className="tdmd-sym__dual-card tdmd-sym__dual-card--alert" style={{ marginTop: '0.75rem' }}>
+              <h3>Seek Emergency Care Immediately If You Have</h3>
+              <ul>
+                <li dangerouslySetInnerHTML={{ __html: `<strong>Severe headache with stiff neck or light sensitivity (photophobia)</strong> — possible meningitis; call 911` }} />
+                <li dangerouslySetInnerHTML={{ __html: `<strong>Eye swelling, proptosis (eye bulging), or double vision</strong> — possible orbital cellulitis or abscess; ER evaluation` }} />
+                <li dangerouslySetInnerHTML={{ __html: `<strong>High fever (&gt;39°C / 102.2°F) with confusion or altered mental status</strong> — possible intracranial complication; call 911` }} />
+                <li dangerouslySetInnerHTML={{ __html: `<strong>Forehead swelling or doughy forehead edema</strong> — possible Pott's puffy tumor (frontal osteomyelitis); ER evaluation` }} />
+                <li dangerouslySetInnerHTML={{ __html: `<strong>Severe unilateral facial swelling extending beyond the sinus region</strong> — possible spreading cellulitis; urgent in-person evaluation` }} />
+                <li dangerouslySetInnerHTML={{ __html: `<strong>Vision changes or loss of vision</strong> — possible orbital or intracranial extension; call 911` }} />
+              </ul>
             </div>
           </div>
         </section>
 
-        {/* ─── 5) DIFFERENTIAL DIAGNOSIS ───────────────────────────────────── */}
-        <section className="tdmd-section" id={`${pid}-differentials`}>
+        {/* ─── 5) SELF-CARE TO TRY FIRST ───────────────────────────────────── */}
+        <section className="tdmd-section" id={`${pid}-self-care`}>
           <div className="tdmd-container">
-            <h2>What Causes Sinus Pressure? Differential Diagnosis</h2>
-            <p>Not all sinus pressure is the same condition. The table below lists the most common causes your physician will consider, with features that distinguish them.</p>
-            <div className="tdmd-table-wrap">
-              <table className="tdmd-table" aria-label="Sinus Pressure differential diagnosis">
-                <thead>
-                  <tr>
-                    <th>Condition</th>
-                    <th>Description</th>
-                    <th>Prevalence</th>
-                    <th>Key Features</th>
-                    <th>Next Step</th>
-                  </tr>
-                </thead>
-                <tbody>
-              <tr>
-                <td><strong dangerouslySetInnerHTML={{ __html: `Viral rhinosinusitis` }} /></td>
-                <td dangerouslySetInnerHTML={{ __html: `Self-limited viral inflammation following a URI.` }} />
-                <td dangerouslySetInnerHTML={{ __html: `~90% of acute sinusitis cases` }} />
-                <td dangerouslySetInnerHTML={{ __html: `Bilateral pressure, clear-to-yellow mucus, peaks day 3–5, resolves by day 10` }} />
-                <td dangerouslySetInnerHTML={{ __html: `Saline rinse + intranasal steroid + decongestant; no antibiotic` }} />
-              </tr>
-              <tr>
-                <td><strong dangerouslySetInnerHTML={{ __html: `Acute bacterial rhinosinusitis` }} /></td>
-                <td dangerouslySetInnerHTML={{ __html: `Bacterial superinfection of sinuses (typically S. pneumoniae, H. influenzae).` }} />
-                <td dangerouslySetInnerHTML={{ __html: `~2% of acute sinusitis` }} />
-                <td dangerouslySetInnerHTML={{ __html: `Symptoms &gt;10 days without improvement, double-worsening, severe unilateral facial pain, fever &gt;39°C with purulent discharge` }} />
-                <td dangerouslySetInnerHTML={{ __html: `Amoxicillin-clavulanate 875/125 mg BID × 5–7 days (first-line per IDSA)` }} />
-              </tr>
-              <tr>
-                <td><strong dangerouslySetInnerHTML={{ __html: `Allergic rhinitis` }} /></td>
-                <td dangerouslySetInnerHTML={{ __html: `IgE-mediated nasal inflammation from environmental allergens.` }} />
-                <td dangerouslySetInnerHTML={{ __html: `Affects ~25% of US adults` }} />
-                <td dangerouslySetInnerHTML={{ __html: `Itchy eyes, sneezing, clear watery discharge, seasonal pattern, history of allergies` }} />
-                <td dangerouslySetInnerHTML={{ __html: `Intranasal steroid daily + oral antihistamine (loratadine/cetirizine)` }} />
-              </tr>
-              <tr>
-                <td><strong dangerouslySetInnerHTML={{ __html: `Migraine with sinus features` }} /></td>
-                <td dangerouslySetInnerHTML={{ __html: `Migraine misperceived as sinus headache.` }} />
-                <td dangerouslySetInnerHTML={{ __html: `~88% of "sinus headaches" meet migraine criteria` }} />
-                <td dangerouslySetInnerHTML={{ __html: `Throbbing pain, light/sound sensitivity, nausea, recurs in same pattern, no purulent discharge` }} />
-                <td dangerouslySetInnerHTML={{ __html: `Migraine abortive (sumatriptan) and preventive evaluation` }} />
-              </tr>
-              <tr>
-                <td><strong dangerouslySetInnerHTML={{ __html: `Dental abscess (referred pain)` }} /></td>
-                <td dangerouslySetInnerHTML={{ __html: `Upper-tooth root infection mimicking maxillary sinus pressure.` }} />
-                <td dangerouslySetInnerHTML={{ __html: `Cause of ~10% of unilateral maxillary pain` }} />
-                <td dangerouslySetInnerHTML={{ __html: `One-sided cheek pressure, tooth pain on tapping, worse with chewing` }} />
-                <td dangerouslySetInnerHTML={{ __html: `Dental referral; in-person urgent evaluation` }} />
-              </tr>
-                </tbody>
-              </table>
+            <h2>Self-Care to Try First</h2>
+            <p>For sinus pressure within the first 10 days of a viral respiratory illness, the following evidence-based home measures per IDSA and AAFP guidance may reduce symptoms:</p>
+            <ul>
+              <li dangerouslySetInnerHTML={{ __html: `<strong>Saline nasal irrigation twice daily</strong> — NeilMed sinus rinse or neti pot with sterile saline; flushes mucus and allergens from sinus passages and reduces mucosal edema. Most evidence-supported non-pharmacologic measure.` }} />
+              <li dangerouslySetInnerHTML={{ __html: `<strong>OTC intranasal corticosteroid</strong> — fluticasone (Flonase) 2 sprays per nostril daily reduces sinus mucosal inflammation; takes several days for full effect.` }} />
+              <li dangerouslySetInnerHTML={{ __html: `<strong>Short-term oral decongestant</strong> — pseudoephedrine 60 mg every 4–6 hours as needed for nasal congestion relief; avoid in uncontrolled hypertension or heart disease.` }} />
+              <li dangerouslySetInnerHTML={{ __html: `<strong>OTC oxymetazoline nasal spray</strong> — Afrin 2–3 sprays per nostril twice daily for no more than 3 days to avoid rebound congestion (rhinitis medicamentosa).` }} />
+              <li dangerouslySetInnerHTML={{ __html: `<strong>Steam inhalation or warm compress</strong> — applied over the affected sinus area for 5–10 minutes several times daily to promote sinus drainage.` }} />
+              <li dangerouslySetInnerHTML={{ __html: `<strong>Adequate hydration and rest</strong> — helps thin sinus secretions and supports immune recovery.` }} />
+            </ul>
+            <p>If symptoms do not improve within 10 days, or worsen after initial improvement, book a physician evaluation to assess for bacterial sinusitis.</p>
+          </div>
+        </section>
+
+        {/* ─── 6) WHEN TO BOOK A VISIT ──────────────────────────────────────── */}
+        <section className="tdmd-section tdmd-section-highlight" id={`${pid}-when-to-book`}>
+          <div className="tdmd-container">
+            <h2>When to Book a TeleDirectMD Visit</h2>
+            <p>A $79 California video evaluation is appropriate for sinus pressure when:</p>
+            <ul>
+              <li dangerouslySetInnerHTML={{ __html: `Sinus pressure has persisted for &gt;10 days without improvement` }} />
+              <li dangerouslySetInnerHTML={{ __html: `Symptoms worsened after initial improvement (double-worsening pattern)` }} />
+              <li dangerouslySetInnerHTML={{ __html: `Thick yellow-green discharge with fever (&gt;38.5°C) is present` }} />
+              <li dangerouslySetInnerHTML={{ __html: `OTC decongestants and saline have not adequately controlled symptoms` }} />
+              <li dangerouslySetInnerHTML={{ __html: `Sinus pressure recurs more than 4 times per year` }} />
+              <li dangerouslySetInnerHTML={{ __html: `You are immunocompromised or &gt;65 years old with persistent sinus symptoms` }} />
+            </ul>
+            <h3>What Happens in a TeleDirectMD Evaluation</h3>
+            <ol>
+              <li dangerouslySetInnerHTML={{ __html: `<strong>Book your visit</strong> at book.teledirectmd.com — select a same-day or next-day time slot. No referral required.` }} />
+              <li dangerouslySetInnerHTML={{ __html: `<strong>15-minute secure video visit</strong> with a board-certified Family Medicine physician. The doctor evaluates symptom duration, discharge character, fever, double-worsening pattern, allergies, dental history, and prior sinusitis episodes.` }} />
+              <li dangerouslySetInnerHTML={{ __html: `<strong>Evaluation results and plan:</strong> Antibiotic prescription for bacterial sinusitis if IDSA criteria are met. Intranasal corticosteroid for allergic component. ENT or imaging referral for recurrent or complicated cases.` }} />
+            </ol>
+            <div className="tdmd-sym__cta-strip" role="complementary" style={{ marginTop: '1.5rem' }}>
+              <div>
+                <p>Book a $79 California evaluation for sinus pressure</p>
+                <small>Same-day visits available &amp;middot; Board-certified Family Medicine &amp;middot; e-Prescription same day</small>
+              </div>
+              <a className="tdmd-sym__cta-btn" href="https://book.teledirectmd.com" rel="noopener">Book Now &amp;rarr;</a>
             </div>
           </div>
         </section>
 
-        {/* ─── 6) COST COMPARISON (vertical bars — tdmd-vbar) ──────────────── */}
-        <section className="tdmd-section tdmd-section-highlight" id={`${pid}-cost`}>
+        {/* ─── 7) COST COMPARISON (vertical bars — tdmd-vbar) ──────────────── */}
+        <section className="tdmd-section" id={`${pid}-cost`}>
           <div className="tdmd-container">
-            <h2>Sinus Pressure Treatment Cost Comparison</h2>
-            <p>TeleDirectMD&apos;s self-pay rate is <strong>$79</strong> for a complete MD video visit — evaluation, treatment plan, and e-prescription included. The chart below shows how that compares to typical out-of-pocket costs at other settings. Prescription medication costs are separate.</p>
+            <h2>Evaluation Cost Comparison</h2>
+            <p>TeleDirectMD&apos;s self-pay rate is <strong>$79</strong> for a complete MD video evaluation. Prescription medication costs are separate.</p>
 
             <div className="tdmd-price-grid">
               <div className="tdmd-price-card" aria-label="TeleDirectMD pricing">
-                <h3>TeleDirectMD Video Visit</h3>
+                <h3>TeleDirectMD Video Evaluation</h3>
                 <p className="tdmd-price-big">$79</p>
                 <p className="tdmd-price-sub">Self-pay flat fee — no subscription</p>
                 <ul className="tdmd-price-includes">
-                  <li>Board-certified MD video evaluation</li>
-                  <li>Red-flag screening &amp;amp; structured triage</li>
-                  <li>e-Prescription to your pharmacy (when appropriate)</li>
-                  <li>Follow-up instructions &amp;amp; prevention guidance</li>
+                  <li>Board-certified Family Medicine physician</li>
+                  <li>Sinus pressure cause assessment</li>
+                  <li>Antibiotic prescription if bacterial criteria met</li>
                   <li>No hidden fees — $79 is the total visit cost</li>
                 </ul>
               </div>
 
-              <div className="tdmd-price-chart" role="group" aria-label="Typical Sinus Pressure cost comparison">
-                <h3>Typical Sinus Pressure Visit Cost</h3>
-                <p className="tdmd-price-caption">Typical out-of-pocket costs before insurance. Actual costs vary by location and plan. ER average per Mira Health 2025 data.</p>
+              <div className="tdmd-price-chart" role="group" aria-label="Typical sinusitis visit cost comparison">
+                <h3>Typical Sinusitis Visit Cost</h3>
+                <p className="tdmd-price-caption">Typical out-of-pocket costs before insurance. Actual costs vary by location and plan.</p>
                 <div className="tdmd-vbars" role="list" aria-label="Cost comparison bars">
                   {COST_BARS.map((bar, i) => (
                     <div key={i} className="tdmd-vbar" role="listitem" aria-label={`${bar.name}: ${bar.value}`}>
@@ -599,188 +557,27 @@ export default function SymptomSinusPressure() {
                 </div>
                 <p className="tdmd-price-footnote">
                   TeleDirectMD $79 · Retail Clinic $139 · Urgent Care $200 · ER $2,715 avg.
-                  Source: Mira Health cost benchmarks, Feb 2025. Actual costs vary by setting, location, and insurance.
+                  Source: Mira Health cost benchmarks, Feb 2025.
                 </p>
               </div>
             </div>
-
-            <p style={{ marginTop: '1rem' }}>
-              For more detail, see <a href="/what-we-treat">all conditions we treat</a> or view our <a href="/faq">FAQ page</a> for common billing questions. TeleDirectMD does not bill insurance for self-pay visits.
-            </p>
           </div>
         </section>
 
-        {/* ─── 7) MEDICATION TABLE ─────────────────────────────────────────── */}
-        <section className="tdmd-section" id={`${pid}-medications`}>
-          <div className="tdmd-container">
-            <h2>Sinus Pressure Treatment Options &amp;amp; Medication Guide</h2>
-            <p>
-              The medications listed below represent evidence-based options used for sinus pressure. The physician selects the most appropriate agent based on your history, allergies, kidney function, drug interactions, and symptom severity at the time of the visit. GoodRx prices retrieved May 2026; actual cost varies by pharmacy.
-            </p>
-            <div className="tdmd-table-wrap">
-              <table className="tdmd-table" aria-label="Sinus Pressure medication options">
-                <caption style={{ captionSide: 'bottom', textAlign: 'left', padding: '0.5rem 0', fontSize: '0.85rem', color: 'var(--tdmd-muted)' }}>
-                  GoodRx prices retrieved May 2026. Prescription costs are separate from the $79 TeleDirectMD visit fee. Actual pharmacy costs vary.
-                </caption>
-                <thead>
-                  <tr>
-                    <th>Medication</th>
-                    <th>Form</th>
-                    <th>Drug Class</th>
-                    <th>Typical Dose</th>
-                    <th>GoodRx Price</th>
-                    <th>Key Considerations</th>
-                  </tr>
-                </thead>
-                <tbody>
-              <tr>
-                <td><strong>Amoxicillin-clavulanate</strong> <span className="tdmd-sym__med-brand">(Augmentin)</span></td>
-                <td>Oral tablet</td>
-                <td>Beta-lactam antibiotic</td>
-                <td dangerouslySetInnerHTML={{ __html: `875/125 mg twice daily × 5–7 days` }} />
-                <td><a href="https://www.goodrx.com/amoxicillin-potassium-clavulanate" target="_blank" rel="noopener">$14–$35</a></td>
-                <td dangerouslySetInnerHTML={{ __html: `Diarrhea, GI upset, rash` }} />
-              </tr>
-              <tr>
-                <td><strong>Doxycycline</strong> <span className="tdmd-sym__med-brand">(Vibramycin)</span></td>
-                <td>Oral capsule</td>
-                <td>Tetracycline antibiotic</td>
-                <td dangerouslySetInnerHTML={{ __html: `100 mg twice daily × 5–7 days` }} />
-                <td><a href="https://www.goodrx.com/doxycycline-hyclate" target="_blank" rel="noopener">$5–$48</a></td>
-                <td dangerouslySetInnerHTML={{ __html: `Photosensitivity, GI upset; avoid in pregnancy` }} />
-              </tr>
-              <tr>
-                <td><strong>Fluticasone propionate</strong> <span className="tdmd-sym__med-brand">(Flonase)</span></td>
-                <td>Nasal spray</td>
-                <td>Intranasal corticosteroid</td>
-                <td dangerouslySetInnerHTML={{ __html: `2 sprays each nostril once daily` }} />
-                <td><a href="https://www.goodrx.com/fluticasone-propionate" target="_blank" rel="noopener">$14–$53</a></td>
-                <td dangerouslySetInnerHTML={{ __html: `Nasal dryness, occasional epistaxis` }} />
-              </tr>
-              <tr>
-                <td><strong>Pseudoephedrine</strong> <span className="tdmd-sym__med-brand">(Sudafed)</span></td>
-                <td>Oral tablet</td>
-                <td>Sympathomimetic decongestant</td>
-                <td dangerouslySetInnerHTML={{ __html: `30–60 mg every 4–6 hours, max 3–5 days` }} />
-                <td><a href="https://www.goodrx.com/pseudoephedrine" target="_blank" rel="noopener">$2–$8</a></td>
-                <td dangerouslySetInnerHTML={{ __html: `Insomnia, jitteriness, BP elevation` }} />
-              </tr>
-              <tr>
-                <td><strong>Sumatriptan (if migraine)</strong> <span className="tdmd-sym__med-brand">(Imitrex)</span></td>
-                <td>Oral tablet</td>
-                <td>5-HT1B/1D agonist (triptan)</td>
-                <td dangerouslySetInnerHTML={{ __html: `50–100 mg at headache onset; may repeat once after 2 hours` }} />
-                <td><a href="https://www.goodrx.com/sumatriptan" target="_blank" rel="noopener">$6–$70</a></td>
-                <td dangerouslySetInnerHTML={{ __html: `Chest tightness, flushing; avoid with CV disease` }} />
-              </tr>
-                </tbody>
-              </table>
-            </div>
-            <p className="tdmd-med-note">
-              <strong>Important:</strong> Do not start any prescription medication without a clinical evaluation. The appropriate choice depends on your individual history, allergies, comorbidities, and current medications — all assessed by the physician at your visit. TeleDirectMD does not prescribe controlled substances.
-            </p>
-          </div>
-        </section>
-
-        {/* ─── 8) RED FLAGS ────────────────────────────────────────────────── */}
-        <section className="tdmd-section tdmd-section-highlight" id={`${pid}-red-flags`}>
-          <div className="tdmd-container">
-            <h2>Red Flags — When to Seek Emergency or Urgent In-Person Care</h2>
-            <p>
-              TeleDirectMD is not appropriate for severe or complex presentations. The following symptoms require immediate in-person or emergency evaluation. Do not use telehealth if any of the following apply:
-            </p>
-            <div className="tdmd-sym__dual-card tdmd-sym__dual-card--alert" style={{ marginTop: '0.75rem' }}>
-              <h3>Seek Urgent / Emergency Care Immediately If</h3>
-              <ul>
-              <li dangerouslySetInnerHTML={{ __html: `<strong>Severe one-sided face or eye pain with vision change</strong> — possible orbital cellulitis (ER now)` }} />
-              <li dangerouslySetInnerHTML={{ __html: `<strong>High fever &gt;39°C with stiff neck or confusion</strong> — possible intracranial spread` }} />
-              <li dangerouslySetInnerHTML={{ __html: `<strong>Eyelid swelling, redness, or proptosis</strong> — orbital complication` }} />
-              <li dangerouslySetInnerHTML={{ __html: `<strong>Severe headache unlike any before</strong> with sinus symptoms — needs imaging` }} />
-              <li dangerouslySetInnerHTML={{ __html: `<strong>Symptoms &gt;12 weeks</strong> — chronic sinusitis; needs ENT and CT` }} />
-              <li dangerouslySetInnerHTML={{ __html: `<strong&gt;4+ acute episodes per year</strong> — recurrent acute sinusitis; ENT evaluation` }} />
-              <li dangerouslySetInnerHTML={{ __html: `<strong>Recent facial trauma or surgery</strong> with new pressure` }} />
-              </ul>
-            </div>
-            <p style={{ marginTop: '1rem' }}>
-              Call 911 or go to your nearest emergency room for any life-threatening symptoms. For non-emergency in-person needs, <a href="https://findahealthcenter.hrsa.gov/" rel="noopener" target="_blank">HRSA Health Center Finder</a> can locate a low-cost clinic near you.
-            </p>
-          </div>
-        </section>
-
-        {/* ─── 9) RECOVERY TIMELINE ────────────────────────────────────────── */}
-        <section className="tdmd-section" id={`${pid}-recovery`}>
-          <div className="tdmd-container">
-            <h2>What to Expect: Sinus Pressure Recovery Timeline</h2>
-            <p>Recovery timelines are approximate and depend on the underlying cause, treatment chosen, and individual factors. Use these as general guides, not guarantees.</p>
-            <div className="tdmd-table-wrap">
-              <table className="tdmd-table" aria-label="Sinus Pressure recovery timeline">
-                <thead>
-                  <tr>
-                    <th>Timeframe</th>
-                    <th>What to Expect</th>
-                  </tr>
-                </thead>
-                <tbody>
-              <tr>
-                <td><strong>Day 1–2</strong></td>
-                <td dangerouslySetInnerHTML={{ __html: `Saline rinses 2× daily and intranasal steroid started. If antibiotic prescribed, fever and pain begin to improve within 48 hours.` }} />
-              </tr>
-              <tr>
-                <td><strong>Day 3–5</strong></td>
-                <td dangerouslySetInnerHTML={{ __html: `Significant pressure relief expected. If on antibiotic and no improvement at 72 hours, recheck — may need broader coverage.` }} />
-              </tr>
-              <tr>
-                <td><strong>Day 5–7</strong></td>
-                <td dangerouslySetInnerHTML={{ __html: `Most symptoms 70–90% resolved. Continue intranasal steroid for full course.` }} />
-              </tr>
-              <tr>
-                <td><strong>Day 7–14</strong></td>
-                <td dangerouslySetInnerHTML={{ __html: `Residual mild congestion is normal. Maintenance saline rinses help prevent recurrence.` }} />
-              </tr>
-              <tr>
-                <td><strong>Beyond 4 weeks</strong></td>
-                <td dangerouslySetInnerHTML={{ __html: `If symptoms persist, this is subacute sinusitis — re-evaluate; consider ENT referral and imaging.` }} />
-              </tr>
-                </tbody>
-              </table>
-            </div>
-          </div>
-        </section>
-
-        {/* ─── 10) HOME CARE ───────────────────────────────────────────────── */}
-        <section className="tdmd-section tdmd-section-highlight" id={`${pid}-home-care`}>
-          <div className="tdmd-container">
-            <h2>Home Care &amp;amp; Self-Management Tips for Sinus Pressure</h2>
-            <p>These evidence-based home care strategies can complement prescription treatment. They are not substitutes for medical evaluation.</p>
-            <ul>
-              <li dangerouslySetInnerHTML={{ __html: `Saline nasal irrigation with a Neti pot or squeeze bottle 1–2× daily using distilled or boiled water` }} />
-              <li dangerouslySetInnerHTML={{ __html: `Sleep with head elevated 30–45° to promote sinus drainage` }} />
-              <li dangerouslySetInnerHTML={{ __html: `Warm compresses over the cheeks and forehead 15 minutes 3× daily` }} />
-              <li dangerouslySetInnerHTML={{ __html: `Run a cool-mist humidifier in the bedroom (clean weekly)` }} />
-              <li dangerouslySetInnerHTML={{ __html: `Stay well-hydrated — 2+ liters water daily thins mucus` }} />
-              <li dangerouslySetInnerHTML={{ __html: `Steam inhalation from a hot shower or bowl 2× daily` }} />
-              <li dangerouslySetInnerHTML={{ __html: `Avoid known allergens (dust mites, pet dander) and smoke exposure` }} />
-              <li dangerouslySetInnerHTML={{ __html: `Don't fly if symptoms are severe — pressure changes can worsen pain` }} />
-              <li dangerouslySetInnerHTML={{ __html: `Limit alcohol and caffeine while symptomatic` }} />
-              <li dangerouslySetInnerHTML={{ __html: `Don't use oxymetazoline &gt;3 days — rebound congestion is real` }} />
-            </ul>
-          </div>
-        </section>
-
-        {/* ─── 11) CTA STRIP ────────────────────────────────────────────────── */}
+        {/* ─── 8) CTA STRIP ────────────────────────────────────────────────── */}
         <section className="tdmd-section" aria-label="Book a visit">
           <div className="tdmd-container">
             <div className="tdmd-sym__cta-strip" role="complementary">
               <div>
-                <p>Book a same-day video visit — adults 18+ in 41 states</p>
-                <small>Self pay $79 &amp;middot; MD-only care &amp;middot; No ER wait &amp;middot; e-Prescription same day</small>
+                <p>Book a same-day California evaluation — adults 18+ &amp;middot; $79 self-pay</p>
+                <small>Board-certified Family Medicine &amp;middot; MD-only care &amp;middot; e-Prescription same day</small>
               </div>
               <a className="tdmd-sym__cta-btn" href="/book-online" rel="noopener">Book Now &amp;rarr;</a>
             </div>
           </div>
         </section>
 
-        {/* ─── 12) FAQ ACCORDION ───────────────────────────────────────────── */}
+        {/* ─── 9) FAQ ACCORDION ───────────────────────────────────────────── */}
         <section className="tdmd-section tdmd-faq" id={`${pid}-faq`}>
           <div className="tdmd-container">
             <FaqAccordion
@@ -790,8 +587,8 @@ export default function SymptomSinusPressure() {
 
             <div className="tdmd-bottom-cta" role="region" aria-label="Book a visit call to action">
               <div className="tdmd-bottom-cta-copy">
-                <h3>Ready to see a board-certified MD?</h3>
-                <p>Book a same-day video visit. Self pay $79 &amp;middot; 41 states &amp;middot; MD-only care.</p>
+                <h3>Ready to get your sinus pressure evaluated?</h3>
+                <p>Book a same-day $79 California video visit. Board-certified Family Medicine &amp;middot; MD-only care.</p>
               </div>
               <div className="tdmd-bottom-cta-actions">
                 <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
@@ -801,11 +598,10 @@ export default function SymptomSinusPressure() {
           </div>
         </section>
 
-        {/* ─── 13) RELATED CONDITIONS ──────────────────────────────────────── */}
+        {/* ─── 10) RELATED CONDITIONS ──────────────────────────────────────── */}
         <section className="tdmd-section tdmd-section-highlight" id={`${pid}-related-conditions`}>
           <div className="tdmd-container">
             <h2>Related Conditions We Treat Online</h2>
-            <p>These condition pages cover related symptoms or treatments that may be relevant to your sinus pressure visit.</p>
             <div className="tdmd-sym__sibling-grid">
               {RELATED_CONDITIONS.map((s) => (
                 <a key={s.slug} className="tdmd-sym__sibling" href={s.slug}>
@@ -816,7 +612,7 @@ export default function SymptomSinusPressure() {
           </div>
         </section>
 
-        {/* ─── 14) RELATED RESOURCE LINKS ─────────────────────────────────── */}
+        {/* ─── 11) RELATED RESOURCE LINKS ─────────────────────────────────── */}
         <section className="tdmd-section" id={`${pid}-related`}>
           <div className="tdmd-container">
             <h2>Related Resources from TeleDirectMD</h2>
@@ -832,22 +628,20 @@ export default function SymptomSinusPressure() {
           </div>
         </section>
 
-        {/* ─── 15) REFERENCES ──────────────────────────────────────────────── */}
+        {/* ─── 12) REFERENCES ──────────────────────────────────────────────── */}
         <section className="tdmd-section" id={`${pid}-references`}>
           <div className="tdmd-container">
             <h2>References and Primary Sources</h2>
             <ol className="tdmd-ref-list">
-              <li><a href="https://www.idsociety.org/practice-guideline/rhinosinusitis/" rel="noopener" target="_blank">IDSA — Bacterial Rhinosinusitis Clinical Practice Guideline</a>. Retrieved May 23, 2026.</li>
-              <li><a href="https://www.aafp.org/pubs/afp/issues/2018/0601/p735.html" rel="noopener" target="_blank">AAFP — Acute Rhinosinusitis: Diagnosis and Management</a>. Retrieved May 23, 2026.</li>
-              <li><a href="https://www.cdc.gov/antibiotic-use/sinus-infection.html" rel="noopener" target="_blank">CDC — Sinus Infection Overview</a>. Retrieved May 23, 2026.</li>
-              <li><a href="https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=fluticasone+nasal" rel="noopener" target="_blank">FDA DailyMed — Fluticasone Nasal</a>. Retrieved May 23, 2026.</li>
-              <li><a href="https://www.goodrx.com/fluticasone-nasal" rel="noopener" target="_blank">GoodRx — Nasal Steroid Pricing</a>. Retrieved May 23, 2026.</li>
-              <li><a href="https://www.theabfm.org/" rel="noopener" target="_blank">ABFM — Primary Care ENT Resources</a>. Retrieved May 23, 2026.</li>
+              <li><a href="https://www.idsociety.org/practice-guideline/sinusitis/" rel="noopener" target="_blank">IDSA — Clinical Practice Guideline for Acute Bacterial Rhinosinusitis</a>. Retrieved May 23, 2026.</li>
+              <li><a href="https://www.aafp.org/pubs/afp/issues/2011/0215/p420.html" rel="noopener" target="_blank">AAFP — Diagnosis and Treatment of Acute Sinusitis</a>. Retrieved May 23, 2026.</li>
+              <li><a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&amp;sectionNum=2290.5." rel="noopener" target="_blank">California B&amp;P Code 2290.5 — Telehealth</a>. Retrieved May 23, 2026.</li>
+              <li><a href="https://www.theabfm.org/" rel="noopener" target="_blank">ABFM — Board Certification Standards</a>. Retrieved May 23, 2026.</li>
             </ol>
           </div>
         </section>
 
-        {/* ─── 16) MEDICAL DISCLAIMER ─────────────────────────────────────── */}
+        {/* ─── 13) MEDICAL DISCLAIMER ─────────────────────────────────────── */}
         <section className="tdmd-section tdmd-footnote" id={`${pid}-disclaimer`}>
           <div className="tdmd-container">
             <h2>Medical Disclaimer</h2>
@@ -855,7 +649,7 @@ export default function SymptomSinusPressure() {
               This page is for informational purposes only and is not a substitute for individualized medical advice, diagnosis, or treatment. Use of TeleDirectMD does not establish a physician-patient relationship until a video visit is initiated and documented. Treatment decisions are made by a board-certified physician based on the clinical history presented at the time of the visit.
             </p>
             <p>
-              If you have red-flag or emergency symptoms, seek urgent in-person or emergency care immediately — do not use TeleDirectMD. The $79 visit fee covers the physician evaluation only; prescription medication costs are separate and vary by pharmacy. GoodRx price estimates are retrieved May 2026 and are subject to change. Insurance information on this page is current as of May 23, 2026; verify with your insurer before booking. TeleDirectMD does not prescribe controlled substances in any state.
+              If you have red-flag symptoms such as neck stiffness with headache, eye swelling, or altered mental status, seek emergency care immediately — do not use TeleDirectMD. The $79 visit fee covers the physician evaluation only; prescription medication costs are separate and vary by pharmacy. TeleDirectMD does not prescribe controlled substances in any state.
             </p>
           </div>
         </section>

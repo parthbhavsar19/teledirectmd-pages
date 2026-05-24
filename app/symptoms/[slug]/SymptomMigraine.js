@@ -1,7 +1,7 @@
 /**
  * SymptomMigraine.js — TeleDirectMD Symptom Page v3
  *
- * Symptom: Migraine
+ * Symptom: Severe Recurring Headache (Migraine)
  * Slug:    /symptoms/migraine/
  * ICD-10:  G43.909 — Migraine, unspecified, not intractable, without status migrainosus
  *
@@ -13,7 +13,7 @@
  *   • FAQPage schema only (no QA variant)
  *   • No CitableSummaryBlock import
  *   • NPI 1104323203 in Physician schema
- *   • Literal < and > in JSX text escaped as < >
+ *   • Literal < and > in JSX text escaped as &lt; &gt;
  *   • Medically reviewed by Parth Bhavsar, MD — Updated May 23, 2026
  *
  * Generated: 2026-05-23. DO NOT edit manually — regenerate from config.
@@ -23,7 +23,7 @@ import FaqAccordion from '../../components/FaqAccordion';
 
 // ─── Page constants ────────────────────────────────────────────────────────────
 const PAGE_URL = 'https://teledirectmd.com/symptoms/migraine/';
-const PAGE_TITLE = `Migraine Treatment Online — Sumatriptan Rx Same Day | TeleDirectMD`;
+const PAGE_TITLE = `Severe Recurring Headache — What Might Be Causing It? | TeleDirectMD`;
 const DATE_PUBLISHED = '2026-05-23';
 const DATE_MODIFIED = '2026-05-23';
 const LAST_REVIEWED = '2026-05-23';
@@ -49,155 +49,144 @@ const MEDICATIONS = [
   {
     generic: `Sumatriptan`,
     brand: `Imitrex`,
-    form: `Oral tablet / nasal / SC`,
-    drugClass: `5-HT1B/1D agonist (triptan)`,
-    dose: `50–100 mg PO at onset; may repeat after 2h`,
-    price: `$6–$12`,
+    form: `Oral tablet`,
+    drugClass: `Triptan (serotonin agonist)`,
+    dose: `50–100 mg PO at onset; may repeat in 2h (max 200 mg/day)`,
+    price: `$12–$85`,
     priceUrl: `https://www.goodrx.com/sumatriptan`,
     priceLabel: `GoodRx`,
-    sideEffects: `Chest tightness, flushing, paresthesia; avoid in CAD/uncontrolled HTN`,
+    sideEffects: `Tingling, flushing, chest pressure; contraindicated in CAD, uncontrolled HTN`,
   },
   {
     generic: `Rizatriptan`,
     brand: `Maxalt`,
-    form: `Oral disintegrating tablet`,
-    drugClass: `5-HT1B/1D agonist (triptan)`,
-    dose: `10 mg ODT at onset; may repeat after 2h`,
-    price: `$14–$233`,
+    form: `Oral tablet, ODT`,
+    drugClass: `Triptan`,
+    dose: `10 mg PO at onset; may repeat in 2h (max 30 mg/day)`,
+    price: `$15–$180`,
     priceUrl: `https://www.goodrx.com/rizatriptan`,
     priceLabel: `GoodRx`,
-    sideEffects: `Drowsiness, dizziness; same CV cautions`,
+    sideEffects: `Dizziness, somnolence, chest pressure`,
   },
   {
-    generic: `Propranolol`,
-    brand: `Inderal`,
+    generic: `Naproxen sodium`,
+    brand: `Aleve`,
     form: `Oral tablet`,
-    drugClass: `Non-selective beta-blocker`,
-    dose: `40 mg BID, titrate to 80–160 mg/day`,
-    price: `$6–$28`,
-    priceUrl: `https://www.goodrx.com/propranolol`,
+    drugClass: `NSAID`,
+    dose: `500 mg PO at onset; may repeat in 6–8h`,
+    price: `$3–$15`,
+    priceUrl: `https://www.goodrx.com/naproxen`,
     priceLabel: `GoodRx`,
-    sideEffects: `Fatigue, bradycardia, sexual dysfunction; avoid in asthma`,
+    sideEffects: `GI upset; avoid in CKD, peptic ulcer, or anticoagulant use`,
   },
   {
     generic: `Topiramate`,
     brand: `Topamax`,
     form: `Oral tablet`,
-    drugClass: `Antiepileptic`,
-    dose: `25 mg daily, titrate to 100 mg/day in divided doses`,
-    price: `$9–$38`,
+    drugClass: `Migraine prophylaxis — antiepileptic`,
+    dose: `25–100 mg PO daily (titrated slowly)`,
+    price: `$10–$60`,
     priceUrl: `https://www.goodrx.com/topiramate`,
     priceLabel: `GoodRx`,
-    sideEffects: `Cognitive slowing, paresthesia, weight loss, kidney stones`,
-  },
-  {
-    generic: `Amitriptyline`,
-    brand: `Elavil`,
-    form: `Oral tablet`,
-    drugClass: `Tricyclic antidepressant`,
-    dose: `10–50 mg at bedtime`,
-    price: `$4–$11`,
-    priceUrl: `https://www.goodrx.com/amitriptyline`,
-    priceLabel: `GoodRx`,
-    sideEffects: `Sedation, anticholinergic, weight gain`,
+    sideEffects: `Cognitive slowing, paresthesia, weight loss; contraindicated in pregnancy`,
   },
 ];
 
 // ─── FAQ items (12) ───────────────────────────────────────────────────────────
 const FAQ_ITEMS = [
   {
-    question: `Can a telehealth doctor prescribe sumatriptan?`,
-    answerPlain: `Yes — sumatriptan and other triptans are non-controlled medications. Dr. Bhavsar can prescribe them after a focused history and screen for cardiovascular contraindications. Same-day prescription typical.`,
+    question: `What could be causing my severe recurring headache?`,
+    answerPlain: `Severe recurring headache can be caused by migraine (the most common diagnosis for recurrent severe headache), tension-type headache, cluster headache, cervicogenic headache, or medication overuse headache. Rarely, recurring severe headache may have a secondary cause such as a brain tumor, arteriovenous malformation, or hypertensive crisis. A physician evaluation helps determine the most likely type based on your pattern, associated symptoms (aura, nausea, photophobia), and triggers.`,
     answer: (
-      <p dangerouslySetInnerHTML={{ __html: `Yes — sumatriptan and other triptans are non-controlled medications. Dr. Bhavsar can prescribe them after a focused history and screen for cardiovascular contraindications. Same-day prescription typical.` }} />
+      <p dangerouslySetInnerHTML={{ __html: `Severe recurring headache can be caused by migraine (the most common diagnosis for recurrent severe headache), tension-type headache, cluster headache, cervicogenic headache, or medication overuse headache. Rarely, recurring severe headache may have a secondary cause such as a brain tumor, arteriovenous malformation, or hypertensive crisis. A physician evaluation helps determine the most likely type based on your pattern, associated symptoms (aura, nausea, photophobia), and triggers.` }} />
     ),
   },
   {
-    question: `How fast do triptans work?`,
-    answerPlain: `50–60% of patients have significant relief within 2 hours of oral sumatriptan. Subcutaneous sumatriptan works within 10 minutes; nasal forms within 15–30 minutes. Take at headache onset for best effect — not during aura, not when severe.`,
+    question: `When should I see a doctor for a severe recurring headache?`,
+    answerPlain: `See a physician if your headaches are new or have changed in character, occur more than 4 times per month, significantly limit daily activities, require frequent use of OTC pain relievers (more than 10 days per month), or are accompanied by neurological symptoms. Per AAN and AAFP guidelines, recurrent severe headache warrants a structured evaluation to diagnose the headache type and determine appropriate preventive or abortive therapy. A $79 TeleDirectMD video evaluation is appropriate for California adults without emergency features.`,
     answer: (
-      <p dangerouslySetInnerHTML={{ __html: `50–60% of patients have significant relief within 2 hours of oral sumatriptan. Subcutaneous sumatriptan works within 10 minutes; nasal forms within 15–30 minutes. Take at headache onset for best effect — not during aura, not when severe.` }} />
+      <p dangerouslySetInnerHTML={{ __html: `See a physician if your headaches are new or have changed in character, occur more than 4 times per month, significantly limit daily activities, require frequent use of OTC pain relievers (more than 10 days per month), or are accompanied by neurological symptoms. Per AAN and AAFP guidelines, recurrent severe headache warrants a structured evaluation to diagnose the headache type and determine appropriate preventive or abortive therapy. A $79 TeleDirectMD video evaluation is appropriate for California adults without emergency features.` }} />
     ),
   },
   {
-    question: `Can I take a triptan if I also have an SSRI?`,
-    answerPlain: `Yes, in most cases. The serotonin syndrome risk from triptan + SSRI/SNRI combinations is very low at usual doses. American Headache Society and FDA reviews support continued combined use; we just monitor for symptoms.`,
+    question: `When is a severe headache an emergency?`,
+    answerPlain: `Call 911 or go to the ER immediately for any headache described as the "worst headache of your life" (possible subarachnoid hemorrhage), a sudden thunderclap onset reaching maximum intensity within seconds, headache with fever and stiff neck (possible meningitis), headache with neurological changes (weakness, slurred speech, vision loss, confusion), headache following head trauma, or new severe headache in someone over 50 with no prior history.`,
     answer: (
-      <p dangerouslySetInnerHTML={{ __html: `Yes, in most cases. The serotonin syndrome risk from triptan + SSRI/SNRI combinations is very low at usual doses. American Headache Society and FDA reviews support continued combined use; we just monitor for symptoms.` }} />
+      <p dangerouslySetInnerHTML={{ __html: `Call 911 or go to the ER immediately for any headache described as the "worst headache of your life" (possible subarachnoid hemorrhage), a sudden thunderclap onset reaching maximum intensity within seconds, headache with fever and stiff neck (possible meningitis), headache with neurological changes (weakness, slurred speech, vision loss, confusion), headache following head trauma, or new severe headache in someone over 50 with no prior history.` }} />
     ),
   },
   {
-    question: `How often can I take a triptan?`,
-    answerPlain: `Maximum 9–10 days of triptan use per month to avoid medication-overuse headache. If you're using triptans more often, you need a preventive medication. We can prescribe one alongside the triptan.`,
+    question: `How long is too long to have recurring headaches before seeing a doctor?`,
+    answerPlain: `Any headache pattern recurring more than 2–4 times per month and interfering with daily activities warrants a physician evaluation. Medication overuse headache (rebound headache) can develop if OTC analgesics are used more than 10–15 days per month — this requires a specific management plan from a physician. New headaches persisting more than 3 days or worsening over time should be evaluated promptly.`,
     answer: (
-      <p dangerouslySetInnerHTML={{ __html: `Maximum 9–10 days of triptan use per month to avoid medication-overuse headache. If you're using triptans more often, you need a preventive medication. We can prescribe one alongside the triptan.` }} />
+      <p dangerouslySetInnerHTML={{ __html: `Any headache pattern recurring more than 2–4 times per month and interfering with daily activities warrants a physician evaluation. Medication overuse headache (rebound headache) can develop if OTC analgesics are used more than 10–15 days per month — this requires a specific management plan from a physician. New headaches persisting more than 3 days or worsening over time should be evaluated promptly.` }} />
     ),
   },
   {
-    question: `What\'s the difference between migraine and tension headache?`,
-    answerPlain: `Migraine: unilateral throbbing pulsating, moderate-severe, with nausea/photophobia/phonophobia, worse with activity. Tension: bilateral pressing band-like, mild-moderate, no nausea or photophobia. Treatment differs significantly — that's why diagnosis matters.`,
+    question: `Can a virtual doctor evaluate severe recurring headaches?`,
+    answerPlain: `Yes — for adults with a clear recurrent headache pattern without emergency features, a telehealth evaluation is appropriate and effective. A physician uses validated tools (POUND criteria, ID Migraine screener) to assess whether migraine or another headache type is most likely. California Business and Professions Code 2290.5 authorizes telehealth evaluation and prescription for headache disorders. TeleDirectMD provides $79 California evaluations for adults 18+.`,
     answer: (
-      <p dangerouslySetInnerHTML={{ __html: `Migraine: unilateral throbbing pulsating, moderate-severe, with nausea/photophobia/phonophobia, worse with activity. Tension: bilateral pressing band-like, mild-moderate, no nausea or photophobia. Treatment differs significantly — that's why diagnosis matters.` }} />
+      <p dangerouslySetInnerHTML={{ __html: `Yes — for adults with a clear recurrent headache pattern without emergency features, a telehealth evaluation is appropriate and effective. A physician uses validated tools (POUND criteria, ID Migraine screener) to assess whether migraine or another headache type is most likely. California Business and Professions Code 2290.5 authorizes telehealth evaluation and prescription for headache disorders. TeleDirectMD provides $79 California evaluations for adults 18+.` }} />
     ),
   },
   {
-    question: `Should I get an MRI for my migraines?`,
-    answerPlain: `Routine imaging is NOT recommended for typical recurrent migraine that meets diagnostic criteria. American Headache Society explicitly says imaging is unnecessary for stable migraine pattern. Imaging is reserved for atypical features or red flags.`,
+    question: `What will the doctor do for recurring headaches at TeleDirectMD?`,
+    answerPlain: `The physician takes a structured headache history covering character, location, duration, frequency, associated symptoms (nausea, photophobia, phonophobia, aura), triggers, and current medication use. Based on this evaluation, the physician assesses whether migraine, tension-type, cluster, or medication overuse headache is most likely — and determines whether abortive therapy (triptan) or preventive therapy is indicated. This is an evaluation, not a predetermined prescription.`,
     answer: (
-      <p dangerouslySetInnerHTML={{ __html: `Routine imaging is NOT recommended for typical recurrent migraine that meets diagnostic criteria. American Headache Society explicitly says imaging is unnecessary for stable migraine pattern. Imaging is reserved for atypical features or red flags.` }} />
+      <p dangerouslySetInnerHTML={{ __html: `The physician takes a structured headache history covering character, location, duration, frequency, associated symptoms (nausea, photophobia, phonophobia, aura), triggers, and current medication use. Based on this evaluation, the physician assesses whether migraine, tension-type, cluster, or medication overuse headache is most likely — and determines whether abortive therapy (triptan) or preventive therapy is indicated. This is an evaluation, not a predetermined prescription.` }} />
     ),
   },
   {
-    question: `What are common migraine triggers?`,
-    answerPlain: `Top triggers: stress, sleep changes (too little or too much), skipped meals, dehydration, hormonal changes (menstruation), specific foods (red wine, aged cheese, processed meats), bright lights, weather changes, strong smells. A diary identifies your specific pattern.`,
+    question: `Will I get a prescription for recurring headaches?`,
+    answerPlain: `A prescription depends on the evaluation. If migraine is the most likely diagnosis and triptans are not contraindicated, a physician may prescribe an abortive triptan (such as sumatriptan or rizatriptan) per AAN/AAFP guidelines. If headaches are frequent (4+ per month), preventive therapy (topiramate, amitriptyline, propranolol) may be initiated or referred to neurology. Triptans are contraindicated in cardiovascular disease and uncontrolled hypertension — these will be screened.`,
     answer: (
-      <p dangerouslySetInnerHTML={{ __html: `Top triggers: stress, sleep changes (too little or too much), skipped meals, dehydration, hormonal changes (menstruation), specific foods (red wine, aged cheese, processed meats), bright lights, weather changes, strong smells. A diary identifies your specific pattern.` }} />
+      <p dangerouslySetInnerHTML={{ __html: `A prescription depends on the evaluation. If migraine is the most likely diagnosis and triptans are not contraindicated, a physician may prescribe an abortive triptan (such as sumatriptan or rizatriptan) per AAN/AAFP guidelines. If headaches are frequent (4+ per month), preventive therapy (topiramate, amitriptyline, propranolol) may be initiated or referred to neurology. Triptans are contraindicated in cardiovascular disease and uncontrolled hypertension — these will be screened.` }} />
     ),
   },
   {
-    question: `Is migraine with aura a stroke risk?`,
-    answerPlain: `Yes — migraine with aura roughly doubles stroke risk overall (still low absolute risk). Combined with smoking and combined hormonal contraceptives, the relative risk increases significantly. We screen for these and adjust contraception if needed.`,
+    question: `Is a severe recurring headache something I can manage at home?`,
+    answerPlain: `For infrequent (less than 4 per month) moderate headaches, OTC treatment with ibuprofen 400–600 mg or naproxen 500 mg at onset is appropriate per AAFP. Resting in a dark, quiet room, applying cold packs, and staying hydrated can help. For migraines with identified triggers, a headache diary helps identify and avoid them. Do not use OTC analgesics more than 10–15 days per month — this can cause medication overuse headache.`,
     answer: (
-      <p dangerouslySetInnerHTML={{ __html: `Yes — migraine with aura roughly doubles stroke risk overall (still low absolute risk). Combined with smoking and combined hormonal contraceptives, the relative risk increases significantly. We screen for these and adjust contraception if needed.` }} />
+      <p dangerouslySetInnerHTML={{ __html: `For infrequent (less than 4 per month) moderate headaches, OTC treatment with ibuprofen 400–600 mg or naproxen 500 mg at onset is appropriate per AAFP. Resting in a dark, quiet room, applying cold packs, and staying hydrated can help. For migraines with identified triggers, a headache diary helps identify and avoid them. Do not use OTC analgesics more than 10–15 days per month — this can cause medication overuse headache.` }} />
     ),
   },
   {
-    question: `Can hormonal birth control trigger migraines?`,
-    answerPlain: `For women with migraine with aura, combined hormonal contraceptives (pill, patch, ring) increase stroke risk significantly (CDC MEC Category 4 — avoid). Progestin-only pill, IUD, or non-hormonal options are safer alternatives.`,
+    question: `Does insurance cover a TeleDirectMD visit for recurring headaches?`,
+    answerPlain: `TeleDirectMD accepts Aetna, UnitedHealthcare (UHC), and Blue Cross Blue Shield (BCBS) commercial plans. The self-pay rate is $79 flat — no subscription, no hidden fees. Prescription costs are separate; sumatriptan is often $12–$85 at GoodRx pricing.`,
     answer: (
-      <p dangerouslySetInnerHTML={{ __html: `For women with migraine with aura, combined hormonal contraceptives (pill, patch, ring) increase stroke risk significantly (CDC MEC Category 4 — avoid). Progestin-only pill, IUD, or non-hormonal options are safer alternatives.` }} />
+      <p dangerouslySetInnerHTML={{ __html: `TeleDirectMD accepts Aetna, UnitedHealthcare (UHC), and Blue Cross Blue Shield (BCBS) commercial plans. The self-pay rate is $79 flat — no subscription, no hidden fees. Prescription costs are separate; sumatriptan is often $12–$85 at GoodRx pricing.` }} />
     ),
   },
   {
-    question: `What about CGRP antagonists like Aimovig or Nurtec?`,
-    answerPlain: `CGRP monoclonal antibodies (erenumab, fremanezumab, galcanezumab) and oral CGRP antagonists (atogepant, rimegepant) are highly effective for prevention and abortive use. They're typically prescribed after trying generic preventives or by specialists; insurance often requires step-therapy.`,
+    question: `How fast can I be seen for a severe recurring headache?`,
+    answerPlain: `Same-day $79 video evaluations are frequently available for California adults. Book at book.teledirectmd.com — select your preferred time and a board-certified Family Medicine physician will meet you by secure video. No referral required. Most visits are 15 minutes.`,
     answer: (
-      <p dangerouslySetInnerHTML={{ __html: `CGRP monoclonal antibodies (erenumab, fremanezumab, galcanezumab) and oral CGRP antagonists (atogepant, rimegepant) are highly effective for prevention and abortive use. They're typically prescribed after trying generic preventives or by specialists; insurance often requires step-therapy.` }} />
+      <p dangerouslySetInnerHTML={{ __html: `Same-day $79 video evaluations are frequently available for California adults. Book at book.teledirectmd.com — select your preferred time and a board-certified Family Medicine physician will meet you by secure video. No referral required. Most visits are 15 minutes.` }} />
     ),
   },
   {
-    question: `Can chronic migraine be cured?`,
-    answerPlain: `Migraine cannot be "cured" but can be effectively managed. With abortive + preventive + lifestyle approach, many patients reduce attacks by 70%+ and return to normal function. Some achieve long-term remission.`,
+    question: `What if I need an in-person visit for my recurring headaches?`,
+    answerPlain: `If emergency headache features are identified — thunderclap onset, neurological changes, fever with neck stiffness — you will be directed to the ER immediately. If neuroimaging is needed to evaluate a new headache pattern in someone over 50 or with atypical features, you will be referred for in-person evaluation with clear instructions. Neurology referral is recommended for complex or refractory migraine.`,
     answer: (
-      <p dangerouslySetInnerHTML={{ __html: `Migraine cannot be "cured" but can be effectively managed. With abortive + preventive + lifestyle approach, many patients reduce attacks by 70%+ and return to normal function. Some achieve long-term remission.` }} />
+      <p dangerouslySetInnerHTML={{ __html: `If emergency headache features are identified — thunderclap onset, neurological changes, fever with neck stiffness — you will be directed to the ER immediately. If neuroimaging is needed to evaluate a new headache pattern in someone over 50 or with atypical features, you will be referred for in-person evaluation with clear instructions. Neurology referral is recommended for complex or refractory migraine.` }} />
     ),
   },
   {
-    question: `What if I\'m pregnant?`,
-    answerPlain: `Pregnancy changes migraine treatment. Acetaminophen is first-line; avoid NSAIDs after 20 weeks. Triptans are generally avoided though sumatriptan has the most data. Preventives: propranolol or magnesium are options. We work with your OB.`,
+    question: `How is migraine different from tension headache or cluster headache?`,
+    answerPlain: `Migraine typically causes moderate-to-severe unilateral pulsating headache lasting 4–72 hours, with nausea, vomiting, and sensitivity to light and sound; it may be preceded by aura (visual, sensory, or speech changes). Tension-type headache is bilateral, described as pressing or tightening (not pulsating), mild-to-moderate in severity, without nausea or light/sound sensitivity. Cluster headache causes severe unilateral orbital pain lasting 15–180 minutes, occurring in cluster periods with ipsilateral tearing, nasal congestion, and ptosis. A physician's evaluation helps distinguish these headache types.`,
     answer: (
-      <p dangerouslySetInnerHTML={{ __html: `Pregnancy changes migraine treatment. Acetaminophen is first-line; avoid NSAIDs after 20 weeks. Triptans are generally avoided though sumatriptan has the most data. Preventives: propranolol or magnesium are options. We work with your OB.` }} />
+      <p dangerouslySetInnerHTML={{ __html: `Migraine typically causes moderate-to-severe unilateral pulsating headache lasting 4–72 hours, with nausea, vomiting, and sensitivity to light and sound; it may be preceded by aura (visual, sensory, or speech changes). Tension-type headache is bilateral, described as pressing or tightening (not pulsating), mild-to-moderate in severity, without nausea or light/sound sensitivity. Cluster headache causes severe unilateral orbital pain lasting 15–180 minutes, occurring in cluster periods with ipsilateral tearing, nasal congestion, and ptosis. A physician's evaluation helps distinguish these headache types.` }} />
     ),
   },
 ];
 
 // ─── Related condition links ───────────────────────────────────────────────────
 const RELATED_CONDITIONS = [
-  { slug: '/migraine-refills-online/', label: 'Migraine Refills Online' },
   { slug: '/sinus-infection-treatment-online/', label: 'Sinus Infection Treatment Online' },
+  { slug: '/common-cold-treatment-online/', label: 'Common Cold Treatment Online' },
+  { slug: '/uti-treatment-online/', label: 'UTI Treatment Online' },
   { slug: '/sore-throat-treatment-online/', label: 'Sore Throat Treatment Online' },
   { slug: '/asthma-refills-online/', label: 'Asthma Inhaler Refills Online' },
-  { slug: '/acid-reflux-refills-online/', label: 'Acid Reflux Refills Online' },
 ];
 
 // ─── JSON-LD schemas ───────────────────────────────────────────────────────────
@@ -208,14 +197,14 @@ function buildSchemas() {
     '@type': 'MedicalWebPage',
     name: PAGE_TITLE,
     url: PAGE_URL,
-    description: `Throbbing one-sided headache with light sensitivity? Most migraines respond to triptans. $79 telehealth visit, sumatriptan or rizatriptan prescription same day in 41 states.`,
+    description: `Severe recurring headache may be migraine, tension, cluster, or medication overuse headache. $79 California video evaluation to identify the cause and determine appropriate treatment.`,
     datePublished: DATE_PUBLISHED,
     dateModified: DATE_MODIFIED,
     inLanguage: 'en-US',
     about: {
       '@type': 'MedicalCondition',
-      name: 'Migraine',
-      alternateName: ['Migraine Headache', 'Vascular Headache', 'Hemicrania'],
+      name: 'Migraine Headache',
+      alternateName: ['Migraine', 'Severe Headache', 'Recurring Headache', 'Migraine Disorder'],
       code: { '@type': 'MedicalCode', code: 'G43.909', codingSystem: 'ICD-10-CM' },
     },
     medicalAudience: {
@@ -260,14 +249,14 @@ function buildSchemas() {
   const howTo = {
     '@context': 'https://schema.org',
     '@type': 'HowTo',
-    name: `How to Get Migraine Treatment Online`,
-    description: `Three steps to receive migraine evaluation and triptan or preventive prescription from a board-certified physician.`,
+    name: `How to Get a Severe Recurring Headache Evaluation Online`,
+    description: `Three steps to receive a physician evaluation for severe recurring headache symptoms from a board-certified physician.`,
     totalTime: 'PT30M',
     estimatedCost: { '@type': 'MonetaryAmount', currency: 'USD', value: '79' },
     step: [
-      { '@type': 'HowToStep', position: 1, name: `Book your video visit`, text: `Select migraine on teledirectmd.com. Self pay $79. No referral needed.`, url: `https://teledirectmd.com/symptoms/migraine/` },
-      { '@type': 'HowToStep', position: 2, name: `See a board-certified MD by secure video`, text: `Physician reviews headache pattern, frequency, aura, disability, and current medication use.`, url: `https://teledirectmd.com/symptoms/migraine/` },
-      { '@type': 'HowToStep', position: 3, name: `Receive your prescription`, text: `Triptan, CGRP antagonist, or preventive medication prescribed and sent to your pharmacy same day.`, url: `https://teledirectmd.com/symptoms/migraine/` }
+      { '@type': 'HowToStep', position: 1, name: `Book your $79 video visit`, text: `Select migraine/headache on teledirectmd.com. Self pay $79. No referral needed. Same-day visits often available for California adults.`, url: `https://teledirectmd.com/symptoms/migraine/` },
+      { '@type': 'HowToStep', position: 2, name: `See a board-certified MD by secure video`, text: `Physician reviews headache pattern, associated symptoms, triggers, and medication history to assess headache type and triage appropriately.`, url: `https://teledirectmd.com/symptoms/migraine/` },
+      { '@type': 'HowToStep', position: 3, name: `Receive your evaluation results and plan`, text: `Abortive or preventive prescription provided if clinically indicated. Referral for neuroimaging or neurology if atypical features are present.`, url: `https://teledirectmd.com/symptoms/migraine/` }
     ],
   };
 
@@ -352,12 +341,12 @@ export default function SymptomMigraine() {
           <div className="tdmd-container">
             <div className="tdmd-hero-grid">
               <div className="tdmd-hero-copy">
-                <h1 data-speakable="true" dangerouslySetInnerHTML={{ __html: `Migraine Headache — Same-Day Triptan or Preventive Rx` }} />
+                <h1 data-speakable="true" dangerouslySetInnerHTML={{ __html: `Severe Recurring Headache — What Might Be Causing It?` }} />
                 <p className="tdmd-hero-sub" data-speakable="true">
-                  Migraine — same-day video visit with a board-certified family medicine MD. Self pay $79 &amp;middot; 41 states &amp;middot; MD-only care.
+                  Experiencing debilitating headaches that keep coming back? Migraine is the most common diagnosis, but tension, cluster, and medication overuse headache are also possibilities. A $79 California evaluation helps determine the cause and the right next step.
                 </p>
                 <p>
-                  Migraine is one of the most common reasons adults seek medical care. TeleDirectMD provides same-day evaluation and treatment by a board-certified family medicine physician via secure video visit. Self-pay is $79 with no insurance required. Available in 41 states.
+                  Severe recurring headache can significantly impact quality of life, but not all recurring headaches are migraines. TeleDirectMD provides same-day physician evaluation for California adults experiencing severe recurring headache via secure video visit, with a board-certified Family Medicine physician performing a structured headache assessment and determining whether abortive, preventive, or other therapy is appropriate. Self-pay is $79 with no insurance required.
                 </p>
 
                 {/* Physician byline (E-E-A-T) */}
@@ -376,11 +365,11 @@ export default function SymptomMigraine() {
                 <p className="tdmd-toc-intro" style={{ marginTop: '1.25rem' }}><strong>Quick navigation:</strong></p>
                 <ul className="tdmd-toc">
                   <li><a href={`#${pid}-opening`}>Overview</a></li>
-                  <li><a href={`#${pid}-eligibility`}>Eligibility checklist</a></li>
-                  <li><a href={`#${pid}-differentials`}>Differential diagnosis</a></li>
-                  <li><a href={`#${pid}-cost`}>Cost comparison</a></li>
-                  <li><a href={`#${pid}-medications`}>Medications</a></li>
+                  <li><a href={`#${pid}-causes`}>What might be causing this?</a></li>
                   <li><a href={`#${pid}-red-flags`}>Red flags</a></li>
+                  <li><a href={`#${pid}-self-care`}>Self-care to try first</a></li>
+                  <li><a href={`#${pid}-when-to-book`}>When to book a visit</a></li>
+                  <li><a href={`#${pid}-cost`}>Cost comparison</a></li>
                   <li><a href={`#${pid}-faq`}>FAQs</a></li>
                   <li><a href={`#${pid}-references`}>References</a></li>
                 </ul>
@@ -388,31 +377,31 @@ export default function SymptomMigraine() {
                 <ul className="tdmd-hero-benefits">
                   <li>Self pay $79 — no insurance required</li>
                   <li>MD-only care (no mid-levels)</li>
-                  <li>Same-day visits available in 41 states</li>
+                  <li>Same-day evaluations available in California</li>
                   <li>Board-certified Family Medicine physician</li>
                   <li>e-Prescription to your pharmacy when appropriate</li>
                 </ul>
 
                 <div className="tdmd-hero-ctas">
-                  <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
+                  <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a $79 California Evaluation</a>
                   <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
                 </div>
 
-                <p className="tdmd-icd"><strong>ICD-10 commonly used:</strong> G43.909 — Migraine, unspecified, not intractable, without status migrainosus (final coding depends on clinical details)</p>
+                <p className="tdmd-icd"><strong>ICD-10 commonly used:</strong> G43.909 — Migraine, unspecified (final coding depends on clinical details)</p>
               </div>
 
               <div className="tdmd-hero-side">
                 <div className="tdmd-hero-card">
-                  <h2>Online MD-Only Migraine Care</h2>
+                  <h2>What a TeleDirectMD Evaluation Includes</h2>
                   <ul>
-                    <li>Fast evaluation and treatment plan</li>
-                    <li>Safety screening before any prescription</li>
-                    <li>Guideline-based medication choices</li>
-                    <li>e-Prescription to your pharmacy</li>
-                    <li>Follow-up guidance and red-flag instructions</li>
+                    <li>Structured headache type assessment</li>
+                    <li>Emergency feature and red-flag screening</li>
+                    <li>Abortive and preventive therapy evaluation</li>
+                    <li>e-Prescription to your pharmacy if appropriate</li>
+                    <li>Clear follow-up and referral instructions</li>
                   </ul>
                   <p className="tdmd-hero-note">
-                    Adults 18+ only. TeleDirectMD is not an emergency service. If you have severe symptoms, difficulty breathing, chest pain, high fever, or rapidly worsening condition, seek urgent in-person or emergency care immediately.
+                    Adults 18+ only. TeleDirectMD is not an emergency service. If you have a sudden "worst headache of your life," neurological changes, or fever with neck stiffness, seek emergency care immediately.
                   </p>
                 </div>
               </div>
@@ -423,167 +412,141 @@ export default function SymptomMigraine() {
         {/* ─── 2) INLINE OPENER (v3 — replaces CitableSummaryBlock) ──────────── */}
         <section className="tdmd-section tdmd-sym__opener" id={`${pid}-opening`}>
           <div className="tdmd-container">
-            <p dangerouslySetInnerHTML={{ __html: `Migraine is a neurological disorder characterized by recurrent moderate-to-severe unilateral headache with associated nausea, photophobia, and phonophobia, often with an aura phase. Triptans (sumatriptan, rizatriptan) are first-line abortive therapy per AHS/AAN guidelines; CGRP antagonists (rimegepant, ubrogepant) are newer options. TeleDirectMD evaluates migraine pattern, prescribes acute or preventive therapy for $79, and refers complex cases to neurology.` }} />
+            <p dangerouslySetInnerHTML={{ __html: `When should you see a doctor for severe recurring headache? A physician evaluation is appropriate when headaches occur more than 4 times per month, significantly limit daily activities, require frequent OTC pain relievers, or include neurological symptoms such as visual aura, tingling, or speech changes. Severe recurring headache could be migraine, tension-type headache, cluster headache, or medication overuse headache — and each type has different optimal treatment. TeleDirectMD provides $79 same-day California video evaluation for adults experiencing severe recurring headache, with a board-certified Family Medicine physician performing a structured assessment to identify the most likely headache type and determine appropriate care.` }} />
             <p style={{ marginTop: '1rem' }}>
-              <strong>Self-pay cost:</strong> $79 flat rate — no subscription, no hidden fees. Prescription costs are separate and vary by pharmacy; see the medication table below for GoodRx estimates. TeleDirectMD does not prescribe controlled substances in any state.
+              <strong>Self-pay cost:</strong> $79 flat rate — no subscription, no hidden fees. Prescription costs are separate and vary by pharmacy. TeleDirectMD does not prescribe controlled substances in any state.
             </p>
             <p>
-              TeleDirectMD physicians hold Board Certification from the <a href="https://www.theabfm.org/" rel="noopener" target="_blank">American Board of Family Medicine (ABFM)</a> and follow clinical guidelines from the CDC, AAFP, and relevant specialty societies. Every visit includes red-flag screening, a structured history, a treatment plan, and clear follow-up instructions.
+              TeleDirectMD physicians hold Board Certification from the <a href="https://www.theabfm.org/" rel="noopener" target="_blank">American Board of Family Medicine (ABFM)</a> and follow clinical guidelines from the AAN and AAFP. Every visit includes red-flag screening, a structured symptom history, and clear follow-up instructions.
             </p>
           </div>
         </section>
 
-        {/* ─── 3) ELIGIBILITY CHECKLIST ─────────────────────────────────────── */}
-        <section className="tdmd-section" id={`${pid}-eligibility`}>
+        {/* ─── 3) WHAT MIGHT BE CAUSING THIS ──────────────────────────────── */}
+        <section className="tdmd-section" id={`${pid}-causes`}>
           <div className="tdmd-container">
-            <h2>Migraine Telehealth Eligibility Checklist</h2>
-            <p><strong>You are likely eligible for a TeleDirectMD video visit if ALL of these are true:</strong></p>
-            <div className="tdmd-sym__dual">
-              <div className="tdmd-sym__dual-card tdmd-sym__dual-card--good">
-                <h3>&#10003; You Are Eligible If</h3>
-                <ul>
-              <li dangerouslySetInnerHTML={{ __html: `Adults 18+ in our 41 states` }} />
-              <li dangerouslySetInnerHTML={{ __html: `Established migraine pattern or first attack with classic features` }} />
-              <li dangerouslySetInnerHTML={{ __html: `No red flag features` }} />
-              <li dangerouslySetInnerHTML={{ __html: `Want triptan PRN or preventive prescription` }} />
-              <li dangerouslySetInnerHTML={{ __html: `Established patient needing refill` }} />
-              <li dangerouslySetInnerHTML={{ __html: `Frequent attacks (&gt;4/month) wanting preventive plan` }} />
-              <li dangerouslySetInnerHTML={{ __html: `No cardiovascular contraindications to triptans` }} />
-              <li dangerouslySetInnerHTML={{ __html: `Not pregnant (or seeking pregnancy-safe options)` }} />
-                </ul>
+            <h2>What Might Be Causing Severe Recurring Headache?</h2>
+            <p>A physician would evaluate for the following causes based on your headache character, location, duration, associated symptoms, and triggers:</p>
+
+            <h3>Common primary headache disorders</h3>
+            <ul>
+              <li dangerouslySetInnerHTML={{ __html: `<strong>Migraine:</strong> The most common cause of recurrent severe headache in adults, affecting approximately 12% of the population. Migraine causes moderate-to-severe unilateral or bilateral throbbing headache lasting 4–72 hours, typically accompanied by nausea, vomiting, photophobia, and phonophobia. About one-third of migraineurs experience aura (visual, sensory, or speech changes) before the headache. A physician would evaluate for migraine using validated criteria and may prescribe triptan abortive therapy or preventive treatment.` }} />
+              <li dangerouslySetInnerHTML={{ __html: `<strong>Tension-type headache:</strong> The most common headache type overall, but usually mild-to-moderate and bilateral with a pressing or tightening (not throbbing) quality. Tension headache does not typically cause nausea or sensitivity to light and sound. A physician would evaluate for tension-type when these features are present and migraine criteria are not met. OTC NSAIDs are first-line.` }} />
+              <li dangerouslySetInnerHTML={{ __html: `<strong>Medication overuse headache (rebound headache):</strong> Using OTC analgesics more than 10–15 days per month can paradoxically worsen headache frequency and severity over time. A physician would evaluate for this when headaches are daily or near-daily and the patient uses frequent pain relievers. Treatment requires a supervised medication withdrawal plan.` }} />
+            </ul>
+
+            <h3>Less common but requiring evaluation</h3>
+            <ul>
+              <li dangerouslySetInnerHTML={{ __html: `<strong>Cluster headache:</strong> Rare but extremely severe unilateral headache around or behind the eye, lasting 15–180 minutes and occurring in clusters (multiple times per day for weeks to months). Associated with ipsilateral lacrimation, nasal congestion, and ptosis. Distinct from migraine; requires specific treatment (high-flow oxygen, sumatriptan injection, verapamil prophylaxis).` }} />
+              <li dangerouslySetInnerHTML={{ __html: `<strong>Hormonal/menstrual migraine:</strong> Migraine triggered by hormonal fluctuations around menstruation or associated with hormonal contraceptive use. A physician would evaluate for this in women with menstrual cycle-linked severe recurring headache.` }} />
+              <li dangerouslySetInnerHTML={{ __html: `<strong>Secondary headache causes (requiring referral):</strong> Intracranial hypertension, brain tumor, arteriovenous malformation, chronic sinusitis, or cervicogenic headache can all cause recurrent head pain. A physician would refer for imaging if the headache pattern is progressive, worsening, or associated with neurological changes.` }} />
+            </ul>
+
+            <div className="tdmd-sym__cta-strip" role="complementary" style={{ marginTop: '1.5rem' }}>
+              <div>
+                <p>Not sure what is causing your recurring headache? Book a $79 evaluation</p>
+                <small>Board-certified Family Medicine physician &amp;middot; California &amp;middot; Same-day available</small>
               </div>
-              <div className="tdmd-sym__dual-card tdmd-sym__dual-card--alert">
-                <h3>&#10007; You Are Not Eligible If</h3>
-                <ul>
-              <li dangerouslySetInnerHTML={{ __html: `Sudden thunderclap headache — ER now` }} />
-              <li dangerouslySetInnerHTML={{ __html: `New headache after age 50 — needs in-person workup` }} />
-              <li dangerouslySetInnerHTML={{ __html: `Headache with focal deficit — ER` }} />
-              <li dangerouslySetInnerHTML={{ __html: `Headache with fever and neck stiffness — ER` }} />
-              <li dangerouslySetInnerHTML={{ __html: `Severe coronary artery disease (triptan contraindicated)` }} />
-              <li dangerouslySetInnerHTML={{ __html: `Recent stroke or TIA (triptan contraindicated)` }} />
-              <li dangerouslySetInnerHTML={{ __html: `Hemiplegic or basilar migraine (triptan contraindicated; specialist)` }} />
-                </ul>
-                <p style={{ marginTop: '0.75rem', color: 'var(--tdmd-muted)', fontSize: '0.92rem' }}>
-                  <strong>If you have red-flag symptoms, seek urgent in-person or emergency care immediately. TeleDirectMD is not appropriate for severe or complex cases.</strong>
-                </p>
-              </div>
+              <a className="tdmd-sym__cta-btn" href="/book-online" rel="noopener">Book Now &amp;rarr;</a>
             </div>
           </div>
         </section>
 
-        {/* ─── 4) HOW IT WORKS ─────────────────────────────────────────────── */}
-        <section className="tdmd-section tdmd-section-highlight" id={`${pid}-how-it-works`}>
+        {/* ─── 4) RED FLAGS ────────────────────────────────────────────────── */}
+        <section className="tdmd-section tdmd-section-highlight" id={`${pid}-red-flags`}>
           <div className="tdmd-container">
-            <h2>How Migraine Treatment Works Online</h2>
-            <div className="tdmd-decision-flow">
-              <div className="tdmd-decision-step tdmd-decision-step-check">
-                <div className="tdmd-decision-number">1</div>
-                <div className="tdmd-decision-content">
-                  <h3>Book your $79 video visit</h3>
-                  <p>No insurance required. No referral needed. Many visits available same day in 41 states. Have your symptom timeline and current medication list ready.</p>
-                </div>
+            <h2>Red Flags — When to Call 911 or Go to the ER</h2>
+            <p>
+              Do not use TeleDirectMD if any of the following apply. These headache features require immediate emergency evaluation:
+            </p>
+            <div className="tdmd-sym__dual-card tdmd-sym__dual-card--alert" style={{ marginTop: '0.75rem' }}>
+              <h3>Seek Emergency Care Immediately If You Have</h3>
+              <ul>
+              <li dangerouslySetInnerHTML={{ __html: `<strong>"Worst headache of your life"</strong> — possible subarachnoid hemorrhage; call 911` }} />
+              <li dangerouslySetInnerHTML={{ __html: `<strong>Thunderclap headache (maximum intensity within seconds)</strong> — ER immediately` }} />
+              <li dangerouslySetInnerHTML={{ __html: `<strong>Headache with fever and stiff neck</strong> — possible meningitis; ER` }} />
+              <li dangerouslySetInnerHTML={{ __html: `<strong>Headache with new neurological symptoms</strong> (weakness, slurred speech, vision loss, confusion) — call 911` }} />
+              <li dangerouslySetInnerHTML={{ __html: `<strong>Headache following head trauma or loss of consciousness</strong> — ER` }} />
+              <li dangerouslySetInnerHTML={{ __html: `<strong>New severe headache in someone over 50 with no prior headache history</strong> — ER` }} />
+              <li dangerouslySetInnerHTML={{ __html: `<strong>Progressive worsening headache over days to weeks</strong> — in-person evaluation; possible intracranial hypertension` }} />
+              </ul>
+            </div>
+            <p style={{ marginTop: '1rem' }}>
+              Call 911 or go to your nearest emergency room for any life-threatening symptoms. For non-emergency in-person needs, <a href="https://findahealthcenter.hrsa.gov/" rel="noopener" target="_blank">HRSA Health Center Finder</a> can locate a low-cost clinic near you.
+            </p>
+          </div>
+        </section>
+
+        {/* ─── 5) SELF-CARE TO TRY FIRST ───────────────────────────────────── */}
+        <section className="tdmd-section" id={`${pid}-self-care`}>
+          <div className="tdmd-container">
+            <h2>Self-Care to Try First</h2>
+            <p>For infrequent (less than 4 per month) moderate headaches without emergency features, per AAFP guidance:</p>
+            <ul>
+              <li dangerouslySetInnerHTML={{ __html: `<strong>Ibuprofen 400–600 mg at headache onset</strong> — take at the first sign of a headache, before it reaches maximum intensity. Take with food and water.` }} />
+              <li dangerouslySetInnerHTML={{ __html: `<strong>Rest in a dark, quiet room</strong> — minimizes sensory input that worsens migraine; most effective in the first 30 minutes of onset.` }} />
+              <li dangerouslySetInnerHTML={{ __html: `<strong>Cold pack on the forehead or base of skull</strong> — can reduce migraine pain via vasoconstriction.` }} />
+              <li dangerouslySetInnerHTML={{ __html: `<strong>Hydration</strong> — dehydration is a common headache trigger; drink 2–3 large glasses of water at onset.` }} />
+              <li dangerouslySetInnerHTML={{ __html: `<strong>Headache diary</strong> — track triggers (sleep, food, hormones, stress, weather), duration, severity, and response to treatment over 2–4 weeks to inform the physician evaluation.` }} />
+              <li dangerouslySetInnerHTML={{ __html: `<strong>Avoid analgesic overuse</strong> — do not use OTC pain relievers more than 10–15 days per month; exceeding this causes medication overuse headache.` }} />
+              <li dangerouslySetInnerHTML={{ __html: `<strong>Sleep hygiene and stress management</strong> — irregular sleep and high stress are among the most common modifiable migraine triggers.` }} />
+            </ul>
+            <p>If OTC measures are inadequate, headaches recur more than 4 times per month, or they significantly impair daily function, book a physician evaluation for prescription abortive or preventive therapy.</p>
+          </div>
+        </section>
+
+        {/* ─── 6) WHEN TO BOOK A VISIT ──────────────────────────────────────── */}
+        <section className="tdmd-section tdmd-section-highlight" id={`${pid}-when-to-book`}>
+          <div className="tdmd-container">
+            <h2>When to Book a TeleDirectMD Visit</h2>
+            <p>A $79 California video evaluation is appropriate for severe recurring headache when:</p>
+            <ul>
+              <li dangerouslySetInnerHTML={{ __html: `Headaches occur &gt;4 times per month` }} />
+              <li dangerouslySetInnerHTML={{ __html: `OTC analgesics are inadequate or taken &gt;10 days per month` }} />
+              <li dangerouslySetInnerHTML={{ __html: `Headaches significantly limit work, school, or daily activities` }} />
+              <li dangerouslySetInnerHTML={{ __html: `You need a prescription abortive medication (triptan) evaluated` }} />
+              <li dangerouslySetInnerHTML={{ __html: `You have aura (visual disturbance, tingling, speech changes) with headaches` }} />
+              <li dangerouslySetInnerHTML={{ __html: `You are pregnant or postpartum and experiencing recurrent severe headache` }} />
+              <li dangerouslySetInnerHTML={{ __html: `You have risk factors: hypertension, cardiovascular disease, or migraine with aura (affects triptan candidacy)` }} />
+            </ul>
+            <h3>What Happens in a TeleDirectMD Evaluation</h3>
+            <ol>
+              <li dangerouslySetInnerHTML={{ __html: `<strong>Book your visit</strong> at book.teledirectmd.com — select a same-day or next-day time slot. No referral required.` }} />
+              <li dangerouslySetInnerHTML={{ __html: `<strong>15-minute secure video visit</strong> with a board-certified Family Medicine physician. The doctor reviews your headache character, frequency, associated symptoms, triggers, and prior treatments.` }} />
+              <li dangerouslySetInnerHTML={{ __html: `<strong>Evaluation results and plan:</strong> If migraine is the most likely diagnosis and triptans are not contraindicated, a physician may prescribe a triptan (sumatriptan or rizatriptan) electronically to your local pharmacy. Preventive therapy or neurology referral may be recommended if appropriate.` }} />
+            </ol>
+            <div className="tdmd-sym__cta-strip" role="complementary" style={{ marginTop: '1.5rem' }}>
+              <div>
+                <p>Book a $79 California evaluation for severe recurring headache</p>
+                <small>Same-day visits available &amp;middot; Board-certified Family Medicine &amp;middot; e-Prescription same day</small>
               </div>
-              <div className="tdmd-decision-step tdmd-decision-step-check">
-                <div className="tdmd-decision-number">2</div>
-                <div className="tdmd-decision-content">
-                  <h3>See a board-certified MD by secure video</h3>
-                  <p>The physician takes a structured medical history, performs a targeted virtual exam, screens for red flags, and applies current clinical guidelines. If in-person care is needed, you&apos;ll be redirected at no charge.</p>
-                </div>
-              </div>
-              <div className="tdmd-decision-step tdmd-decision-step-good">
-                <div className="tdmd-decision-number">3</div>
-                <div className="tdmd-decision-content">
-                  <h3>Get your treatment plan and, if appropriate, a prescription</h3>
-                  <p>If medication is clinically appropriate, an e-prescription is sent to your chosen pharmacy during or after the visit. Clear follow-up instructions and red-flag criteria are provided regardless of treatment choice.</p>
-                  <div className="tdmd-decision-cta">
-                    <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
-                  </div>
-                </div>
-              </div>
+              <a className="tdmd-sym__cta-btn" href="https://book.teledirectmd.com" rel="noopener">Book Now &amp;rarr;</a>
             </div>
           </div>
         </section>
 
-        {/* ─── 5) DIFFERENTIAL DIAGNOSIS ───────────────────────────────────── */}
-        <section className="tdmd-section" id={`${pid}-differentials`}>
+        {/* ─── 7) COST COMPARISON (vertical bars — tdmd-vbar) ──────────────── */}
+        <section className="tdmd-section" id={`${pid}-cost`}>
           <div className="tdmd-container">
-            <h2>What Causes Migraine? Differential Diagnosis</h2>
-            <p>Not all migraine is the same condition. The table below lists the most common causes your physician will consider, with features that distinguish them.</p>
-            <div className="tdmd-table-wrap">
-              <table className="tdmd-table" aria-label="Migraine differential diagnosis">
-                <thead>
-                  <tr>
-                    <th>Condition</th>
-                    <th>Description</th>
-                    <th>Prevalence</th>
-                    <th>Key Features</th>
-                    <th>Next Step</th>
-                  </tr>
-                </thead>
-                <tbody>
-              <tr>
-                <td><strong dangerouslySetInnerHTML={{ __html: `Migraine without aura` }} /></td>
-                <td dangerouslySetInnerHTML={{ __html: `Recurrent throbbing headache meeting ICHD-3 criteria.` }} />
-                <td dangerouslySetInnerHTML={{ __html: `~9% of US adults` }} />
-                <td dangerouslySetInnerHTML={{ __html: `Unilateral pulsating, photophobia, nausea, moderate-severe, 4–72 hours` }} />
-                <td dangerouslySetInnerHTML={{ __html: `Triptan PRN; preventive if ≥4 attacks/month or disabling` }} />
-              </tr>
-              <tr>
-                <td><strong dangerouslySetInnerHTML={{ __html: `Migraine with aura` }} /></td>
-                <td dangerouslySetInnerHTML={{ __html: `Migraine preceded by reversible focal neuro symptoms.` }} />
-                <td dangerouslySetInnerHTML={{ __html: `~3% of US adults` }} />
-                <td dangerouslySetInnerHTML={{ __html: `Visual zigzags or scintillations 20–60 min before headache; reversible` }} />
-                <td dangerouslySetInnerHTML={{ __html: `Triptan; avoid combined hormonal contraceptives if aura` }} />
-              </tr>
-              <tr>
-                <td><strong dangerouslySetInnerHTML={{ __html: `Tension-type headache` }} /></td>
-                <td dangerouslySetInnerHTML={{ __html: `Bilateral pressing band-like headache.` }} />
-                <td dangerouslySetInnerHTML={{ __html: `Most common headache type` }} />
-                <td dangerouslySetInnerHTML={{ __html: `Bilateral, pressing, mild-moderate, no nausea, no photophobia/phonophobia` }} />
-                <td dangerouslySetInnerHTML={{ __html: `NSAIDs PRN; lifestyle (sleep, hydration); preventive amitriptyline if frequent` }} />
-              </tr>
-              <tr>
-                <td><strong dangerouslySetInnerHTML={{ __html: `Cluster headache` }} /></td>
-                <td dangerouslySetInnerHTML={{ __html: `Severe unilateral periorbital pain in attacks.` }} />
-                <td dangerouslySetInnerHTML={{ __html: `Rare but distinct` }} />
-                <td dangerouslySetInnerHTML={{ __html: `Excruciating one-sided eye pain, tearing, nasal congestion, restlessness, lasts 15 min–3 hr` }} />
-                <td dangerouslySetInnerHTML={{ __html: `100% O2 for abortive; verapamil prevention; specialist referral` }} />
-              </tr>
-              <tr>
-                <td><strong dangerouslySetInnerHTML={{ __html: `Medication-overuse headache` }} /></td>
-                <td dangerouslySetInnerHTML={{ __html: `Daily headache from analgesic overuse.` }} />
-                <td dangerouslySetInnerHTML={{ __html: `Affects ~1–2% adults` }} />
-                <td dangerouslySetInnerHTML={{ __html: `Headache ≥15 days/month, frequent NSAID/triptan/opioid use` }} />
-                <td dangerouslySetInnerHTML={{ __html: `Withdrawal of overused med; preventive therapy; specialist help` }} />
-              </tr>
-                </tbody>
-              </table>
-            </div>
-          </div>
-        </section>
-
-        {/* ─── 6) COST COMPARISON (vertical bars — tdmd-vbar) ──────────────── */}
-        <section className="tdmd-section tdmd-section-highlight" id={`${pid}-cost`}>
-          <div className="tdmd-container">
-            <h2>Migraine Treatment Cost Comparison</h2>
-            <p>TeleDirectMD&apos;s self-pay rate is <strong>$79</strong> for a complete MD video visit — evaluation, treatment plan, and e-prescription included. The chart below shows how that compares to typical out-of-pocket costs at other settings. Prescription medication costs are separate.</p>
+            <h2>Evaluation Cost Comparison</h2>
+            <p>TeleDirectMD&apos;s self-pay rate is <strong>$79</strong> for a complete MD video evaluation. Prescription medication costs are separate.</p>
 
             <div className="tdmd-price-grid">
               <div className="tdmd-price-card" aria-label="TeleDirectMD pricing">
-                <h3>TeleDirectMD Video Visit</h3>
+                <h3>TeleDirectMD Video Evaluation</h3>
                 <p className="tdmd-price-big">$79</p>
                 <p className="tdmd-price-sub">Self-pay flat fee — no subscription</p>
                 <ul className="tdmd-price-includes">
-                  <li>Board-certified MD video evaluation</li>
-                  <li>Red-flag screening &amp;amp; structured triage</li>
+                  <li>Board-certified Family Medicine physician</li>
+                  <li>Structured headache type assessment</li>
+                  <li>Red-flag and emergency screening</li>
                   <li>e-Prescription to your pharmacy (when appropriate)</li>
-                  <li>Follow-up instructions &amp;amp; prevention guidance</li>
                   <li>No hidden fees — $79 is the total visit cost</li>
                 </ul>
               </div>
 
-              <div className="tdmd-price-chart" role="group" aria-label="Typical Migraine cost comparison">
-                <h3>Typical Migraine Visit Cost</h3>
+              <div className="tdmd-price-chart" role="group" aria-label="Typical headache visit cost comparison">
+                <h3>Typical Headache Visit Cost</h3>
                 <p className="tdmd-price-caption">Typical out-of-pocket costs before insurance. Actual costs vary by location and plan. ER average per Mira Health 2025 data.</p>
                 <div className="tdmd-vbars" role="list" aria-label="Cost comparison bars">
                   {COST_BARS.map((bar, i) => (
@@ -600,200 +563,38 @@ export default function SymptomMigraine() {
                 </div>
                 <p className="tdmd-price-footnote">
                   TeleDirectMD $79 · Retail Clinic $139 · Urgent Care $200 · ER $2,715 avg.
-                  Source: Mira Health cost benchmarks, Feb 2025. Actual costs vary by setting, location, and insurance.
+                  Source: Mira Health cost benchmarks, Feb 2025.
                 </p>
               </div>
             </div>
-
-            <p style={{ marginTop: '1rem' }}>
-              For more detail, see <a href="/what-we-treat">all conditions we treat</a> or view our <a href="/faq">FAQ page</a> for common billing questions. TeleDirectMD does not bill insurance for self-pay visits.
-            </p>
           </div>
         </section>
 
-        {/* ─── 7) MEDICATION TABLE ─────────────────────────────────────────── */}
-        <section className="tdmd-section" id={`${pid}-medications`}>
-          <div className="tdmd-container">
-            <h2>Migraine Treatment Options &amp;amp; Medication Guide</h2>
-            <p>
-              The medications listed below represent evidence-based options used for migraine. The physician selects the most appropriate agent based on your history, allergies, kidney function, drug interactions, and symptom severity at the time of the visit. GoodRx prices retrieved May 2026; actual cost varies by pharmacy.
-            </p>
-            <div className="tdmd-table-wrap">
-              <table className="tdmd-table" aria-label="Migraine medication options">
-                <caption style={{ captionSide: 'bottom', textAlign: 'left', padding: '0.5rem 0', fontSize: '0.85rem', color: 'var(--tdmd-muted)' }}>
-                  GoodRx prices retrieved May 2026. Prescription costs are separate from the $79 TeleDirectMD visit fee. Actual pharmacy costs vary.
-                </caption>
-                <thead>
-                  <tr>
-                    <th>Medication</th>
-                    <th>Form</th>
-                    <th>Drug Class</th>
-                    <th>Typical Dose</th>
-                    <th>GoodRx Price</th>
-                    <th>Key Considerations</th>
-                  </tr>
-                </thead>
-                <tbody>
-              <tr>
-                <td><strong>Sumatriptan</strong> <span className="tdmd-sym__med-brand">(Imitrex)</span></td>
-                <td>Oral tablet / nasal / SC</td>
-                <td>5-HT1B/1D agonist (triptan)</td>
-                <td dangerouslySetInnerHTML={{ __html: `50–100 mg PO at onset; may repeat after 2h` }} />
-                <td><a href="https://www.goodrx.com/sumatriptan" target="_blank" rel="noopener">$6–$12</a></td>
-                <td dangerouslySetInnerHTML={{ __html: `Chest tightness, flushing, paresthesia; avoid in CAD/uncontrolled HTN` }} />
-              </tr>
-              <tr>
-                <td><strong>Rizatriptan</strong> <span className="tdmd-sym__med-brand">(Maxalt)</span></td>
-                <td>Oral disintegrating tablet</td>
-                <td>5-HT1B/1D agonist (triptan)</td>
-                <td dangerouslySetInnerHTML={{ __html: `10 mg ODT at onset; may repeat after 2h` }} />
-                <td><a href="https://www.goodrx.com/rizatriptan" target="_blank" rel="noopener">$14–$233</a></td>
-                <td dangerouslySetInnerHTML={{ __html: `Drowsiness, dizziness; same CV cautions` }} />
-              </tr>
-              <tr>
-                <td><strong>Propranolol</strong> <span className="tdmd-sym__med-brand">(Inderal)</span></td>
-                <td>Oral tablet</td>
-                <td>Non-selective beta-blocker</td>
-                <td dangerouslySetInnerHTML={{ __html: `40 mg BID, titrate to 80–160 mg/day` }} />
-                <td><a href="https://www.goodrx.com/propranolol" target="_blank" rel="noopener">$6–$28</a></td>
-                <td dangerouslySetInnerHTML={{ __html: `Fatigue, bradycardia, sexual dysfunction; avoid in asthma` }} />
-              </tr>
-              <tr>
-                <td><strong>Topiramate</strong> <span className="tdmd-sym__med-brand">(Topamax)</span></td>
-                <td>Oral tablet</td>
-                <td>Antiepileptic</td>
-                <td dangerouslySetInnerHTML={{ __html: `25 mg daily, titrate to 100 mg/day in divided doses` }} />
-                <td><a href="https://www.goodrx.com/topiramate" target="_blank" rel="noopener">$9–$38</a></td>
-                <td dangerouslySetInnerHTML={{ __html: `Cognitive slowing, paresthesia, weight loss, kidney stones` }} />
-              </tr>
-              <tr>
-                <td><strong>Amitriptyline</strong> <span className="tdmd-sym__med-brand">(Elavil)</span></td>
-                <td>Oral tablet</td>
-                <td>Tricyclic antidepressant</td>
-                <td dangerouslySetInnerHTML={{ __html: `10–50 mg at bedtime` }} />
-                <td><a href="https://www.goodrx.com/amitriptyline" target="_blank" rel="noopener">$4–$11</a></td>
-                <td dangerouslySetInnerHTML={{ __html: `Sedation, anticholinergic, weight gain` }} />
-              </tr>
-                </tbody>
-              </table>
-            </div>
-            <p className="tdmd-med-note">
-              <strong>Important:</strong> Do not start any prescription medication without a clinical evaluation. The appropriate choice depends on your individual history, allergies, comorbidities, and current medications — all assessed by the physician at your visit. TeleDirectMD does not prescribe controlled substances.
-            </p>
-          </div>
-        </section>
-
-        {/* ─── 8) RED FLAGS ────────────────────────────────────────────────── */}
-        <section className="tdmd-section tdmd-section-highlight" id={`${pid}-red-flags`}>
-          <div className="tdmd-container">
-            <h2>Red Flags — When to Seek Emergency or Urgent In-Person Care</h2>
-            <p>
-              TeleDirectMD is not appropriate for severe or complex presentations. The following symptoms require immediate in-person or emergency evaluation. Do not use telehealth if any of the following apply:
-            </p>
-            <div className="tdmd-sym__dual-card tdmd-sym__dual-card--alert" style={{ marginTop: '0.75rem' }}>
-              <h3>Seek Urgent / Emergency Care Immediately If</h3>
-              <ul>
-              <li dangerouslySetInnerHTML={{ __html: `<strong>Sudden "thunderclap" onset</strong> (worst headache of life, peaks in seconds) — possible SAH; ER` }} />
-              <li dangerouslySetInnerHTML={{ __html: `<strong>New-onset headache after age 50</strong> — possible GCA, tumor` }} />
-              <li dangerouslySetInnerHTML={{ __html: `<strong>Headache with fever and neck stiffness</strong> — possible meningitis; ER` }} />
-              <li dangerouslySetInnerHTML={{ __html: `<strong>Focal neurologic deficit not resolving</strong> — possible stroke/TIA` }} />
-              <li dangerouslySetInnerHTML={{ __html: `<strong>Confusion, seizure, or syncope</strong> with headache — ER` }} />
-              <li dangerouslySetInnerHTML={{ __html: `<strong>Progressively worsening headache over weeks</strong> — needs imaging` }} />
-              <li dangerouslySetInnerHTML={{ __html: `<strong>Headache after head trauma</strong> — needs evaluation` }} />
-              <li dangerouslySetInnerHTML={{ __html: `<strong>Pregnancy with new severe headache</strong> — rule out preeclampsia` }} />
-              </ul>
-            </div>
-            <p style={{ marginTop: '1rem' }}>
-              Call 911 or go to your nearest emergency room for any life-threatening symptoms. For non-emergency in-person needs, <a href="https://findahealthcenter.hrsa.gov/" rel="noopener" target="_blank">HRSA Health Center Finder</a> can locate a low-cost clinic near you.
-            </p>
-          </div>
-        </section>
-
-        {/* ─── 9) RECOVERY TIMELINE ────────────────────────────────────────── */}
-        <section className="tdmd-section" id={`${pid}-recovery`}>
-          <div className="tdmd-container">
-            <h2>What to Expect: Migraine Recovery Timeline</h2>
-            <p>Recovery timelines are approximate and depend on the underlying cause, treatment chosen, and individual factors. Use these as general guides, not guarantees.</p>
-            <div className="tdmd-table-wrap">
-              <table className="tdmd-table" aria-label="Migraine recovery timeline">
-                <thead>
-                  <tr>
-                    <th>Timeframe</th>
-                    <th>What to Expect</th>
-                  </tr>
-                </thead>
-                <tbody>
-              <tr>
-                <td><strong>Hour 0 (attack onset)</strong></td>
-                <td dangerouslySetInnerHTML={{ __html: `Take triptan as soon as headache begins (not aura). NSAID can be combined for added benefit. Antiemetic if nausea.` }} />
-              </tr>
-              <tr>
-                <td><strong>Hour 1–2</strong></td>
-                <td dangerouslySetInnerHTML={{ __html: `50–60% of patients have significant relief by 2 hours with triptan.` }} />
-              </tr>
-              <tr>
-                <td><strong>Hour 2 (if needed)</strong></td>
-                <td dangerouslySetInnerHTML={{ __html: `May repeat triptan once if headache persists. If still no relief, the episode may need rescue (NSAID + antiemetic).` }} />
-              </tr>
-              <tr>
-                <td><strong>Day 1–2</strong></td>
-                <td dangerouslySetInnerHTML={{ __html: `Postdrome phase — fatigue, mental fog, neck stiffness — common and self-resolving.` }} />
-              </tr>
-              <tr>
-                <td><strong>Long-term</strong></td>
-                <td dangerouslySetInnerHTML={{ __html: `With effective abortive + lifestyle changes, expect 50%+ reduction in attack burden. Preventive medication adds another 50% reduction in frequency.` }} />
-              </tr>
-                </tbody>
-              </table>
-            </div>
-          </div>
-        </section>
-
-        {/* ─── 10) HOME CARE ───────────────────────────────────────────────── */}
-        <section className="tdmd-section tdmd-section-highlight" id={`${pid}-home-care`}>
-          <div className="tdmd-container">
-            <h2>Home Care &amp;amp; Self-Management Tips for Migraine</h2>
-            <p>These evidence-based home care strategies can complement prescription treatment. They are not substitutes for medical evaluation.</p>
-            <ul>
-              <li dangerouslySetInnerHTML={{ __html: `Maintain consistent sleep schedule (same bedtime/wake every day)` }} />
-              <li dangerouslySetInnerHTML={{ __html: `Hydrate — aim for 2+ liters water daily` }} />
-              <li dangerouslySetInnerHTML={{ __html: `Eat regular meals — skipping meals is a top trigger` }} />
-              <li dangerouslySetInnerHTML={{ __html: `Limit caffeine to ≤200 mg daily (and consistent — withdrawal triggers migraine)` }} />
-              <li dangerouslySetInnerHTML={{ __html: `Limit alcohol; identify your specific triggers (red wine common)` }} />
-              <li dangerouslySetInnerHTML={{ __html: `Track migraines in a diary (app or paper) — identifies patterns` }} />
-              <li dangerouslySetInnerHTML={{ __html: `Manage stress with daily relaxation (10 min meditation, deep breathing)` }} />
-              <li dangerouslySetInnerHTML={{ __html: `Cool compress on forehead and dark quiet room during attack` }} />
-              <li dangerouslySetInnerHTML={{ __html: `Regular aerobic exercise 150 min/week reduces frequency` }} />
-              <li dangerouslySetInnerHTML={{ __html: `Consider magnesium 400 mg + riboflavin 400 mg + CoQ10 100 mg daily (modest evidence)` }} />
-            </ul>
-          </div>
-        </section>
-
-        {/* ─── 11) CTA STRIP ────────────────────────────────────────────────── */}
+        {/* ─── 8) CTA STRIP ────────────────────────────────────────────────── */}
         <section className="tdmd-section" aria-label="Book a visit">
           <div className="tdmd-container">
             <div className="tdmd-sym__cta-strip" role="complementary">
               <div>
-                <p>Book a same-day video visit — adults 18+ in 41 states</p>
-                <small>Self pay $79 &amp;middot; MD-only care &amp;middot; No ER wait &amp;middot; e-Prescription same day</small>
+                <p>Book a same-day California evaluation — adults 18+ &amp;middot; $79 self-pay</p>
+                <small>Board-certified Family Medicine &amp;middot; MD-only care &amp;middot; e-Prescription same day</small>
               </div>
               <a className="tdmd-sym__cta-btn" href="/book-online" rel="noopener">Book Now &amp;rarr;</a>
             </div>
           </div>
         </section>
 
-        {/* ─── 12) FAQ ACCORDION ───────────────────────────────────────────── */}
+        {/* ─── 9) FAQ ACCORDION ───────────────────────────────────────────── */}
         <section className="tdmd-section tdmd-faq" id={`${pid}-faq`}>
           <div className="tdmd-container">
             <FaqAccordion
-              sectionTitle={`Frequently Asked Questions — Migraine`}
+              sectionTitle={`Frequently Asked Questions — Severe Recurring Headache`}
               items={FAQ_ITEMS.map((f, i) => ({ ...f, id: `${pid}-faq-${i}` }))}
             />
 
             <div className="tdmd-bottom-cta" role="region" aria-label="Book a visit call to action">
               <div className="tdmd-bottom-cta-copy">
-                <h3>Ready to see a board-certified MD?</h3>
-                <p>Book a same-day video visit. Self pay $79 &amp;middot; 41 states &amp;middot; MD-only care.</p>
+                <h3>Ready to get your recurring headaches evaluated?</h3>
+                <p>Book a same-day $79 California video visit. Board-certified Family Medicine &amp;middot; MD-only care.</p>
               </div>
               <div className="tdmd-bottom-cta-actions">
                 <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
@@ -803,11 +604,10 @@ export default function SymptomMigraine() {
           </div>
         </section>
 
-        {/* ─── 13) RELATED CONDITIONS ──────────────────────────────────────── */}
+        {/* ─── 10) RELATED CONDITIONS ──────────────────────────────────────── */}
         <section className="tdmd-section tdmd-section-highlight" id={`${pid}-related-conditions`}>
           <div className="tdmd-container">
             <h2>Related Conditions We Treat Online</h2>
-            <p>These condition pages cover related symptoms or treatments that may be relevant to your migraine visit.</p>
             <div className="tdmd-sym__sibling-grid">
               {RELATED_CONDITIONS.map((s) => (
                 <a key={s.slug} className="tdmd-sym__sibling" href={s.slug}>
@@ -818,7 +618,7 @@ export default function SymptomMigraine() {
           </div>
         </section>
 
-        {/* ─── 14) RELATED RESOURCE LINKS ─────────────────────────────────── */}
+        {/* ─── 11) RELATED RESOURCE LINKS ─────────────────────────────────── */}
         <section className="tdmd-section" id={`${pid}-related`}>
           <div className="tdmd-container">
             <h2>Related Resources from TeleDirectMD</h2>
@@ -834,22 +634,21 @@ export default function SymptomMigraine() {
           </div>
         </section>
 
-        {/* ─── 15) REFERENCES ──────────────────────────────────────────────── */}
+        {/* ─── 12) REFERENCES ──────────────────────────────────────────────── */}
         <section className="tdmd-section" id={`${pid}-references`}>
           <div className="tdmd-container">
             <h2>References and Primary Sources</h2>
             <ol className="tdmd-ref-list">
-              <li><a href="https://headachejournal.onlinelibrary.wiley.com/doi/10.1111/head.13204" rel="noopener" target="_blank">AHS/AAN — Pharmacological Treatment for Episodic Migraine Prevention</a>. Retrieved May 23, 2026.</li>
-              <li><a href="https://www.aafp.org/pubs/afp/issues/2018/1215/p737.html" rel="noopener" target="_blank">AAFP — Acute Migraine Treatment</a>. Retrieved May 23, 2026.</li>
-              <li><a href="https://www.cdc.gov/dotw/migraine/index.html" rel="noopener" target="_blank">CDC — Migraine Overview</a>. Retrieved May 23, 2026.</li>
-              <li><a href="https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=sumatriptan" rel="noopener" target="_blank">FDA DailyMed — Sumatriptan</a>. Retrieved May 23, 2026.</li>
-              <li><a href="https://www.goodrx.com/sumatriptan" rel="noopener" target="_blank">GoodRx — Sumatriptan Pricing</a>. Retrieved May 23, 2026.</li>
-              <li><a href="https://www.theabfm.org/" rel="noopener" target="_blank">ABFM — Neurology Resources</a>. Retrieved May 23, 2026.</li>
+              <li><a href="https://www.aafp.org/pubs/afp/issues/2006/0201/p480.html" rel="noopener" target="_blank">AAFP — Diagnosis and Treatment of Migraine</a>. Retrieved May 23, 2026.</li>
+              <li><a href="https://www.aan.com/Guidelines/home/GetGuidelineContent/706" rel="noopener" target="_blank">AAN — Migraine Prevention in Adults Clinical Practice Guideline</a>. Retrieved May 23, 2026.</li>
+              <li><a href="https://www.cdc.gov/nchs/fastats/headaches.htm" rel="noopener" target="_blank">CDC — Headache Statistics</a>. Retrieved May 23, 2026.</li>
+              <li><a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&amp;sectionNum=2290.5." rel="noopener" target="_blank">California B&amp;P Code 2290.5 — Telehealth</a>. Retrieved May 23, 2026.</li>
+              <li><a href="https://www.theabfm.org/" rel="noopener" target="_blank">ABFM — Board Certification Standards</a>. Retrieved May 23, 2026.</li>
             </ol>
           </div>
         </section>
 
-        {/* ─── 16) MEDICAL DISCLAIMER ─────────────────────────────────────── */}
+        {/* ─── 13) MEDICAL DISCLAIMER ─────────────────────────────────────── */}
         <section className="tdmd-section tdmd-footnote" id={`${pid}-disclaimer`}>
           <div className="tdmd-container">
             <h2>Medical Disclaimer</h2>
@@ -857,7 +656,7 @@ export default function SymptomMigraine() {
               This page is for informational purposes only and is not a substitute for individualized medical advice, diagnosis, or treatment. Use of TeleDirectMD does not establish a physician-patient relationship until a video visit is initiated and documented. Treatment decisions are made by a board-certified physician based on the clinical history presented at the time of the visit.
             </p>
             <p>
-              If you have red-flag or emergency symptoms, seek urgent in-person or emergency care immediately — do not use TeleDirectMD. The $79 visit fee covers the physician evaluation only; prescription medication costs are separate and vary by pharmacy. GoodRx price estimates are retrieved May 2026 and are subject to change. Insurance information on this page is current as of May 23, 2026; verify with your insurer before booking. TeleDirectMD does not prescribe controlled substances in any state.
+              If you have red-flag or emergency symptoms, seek urgent in-person or emergency care immediately — do not use TeleDirectMD. The $79 visit fee covers the physician evaluation only; prescription medication costs are separate and vary by pharmacy. TeleDirectMD does not prescribe controlled substances in any state.
             </p>
           </div>
         </section>

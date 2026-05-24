@@ -3,7 +3,7 @@
  *
  * Symptom: Skin Rash
  * Slug:    /symptoms/skin-rash/
- * ICD-10:  L25.9 — Unspecified contact dermatitis, unspecified cause
+ * ICD-10:  R21 — Rash and other nonspecific skin eruption
  *
  * v3 standard: inline opener, vertical cost bars (tdmd-vbar), FaqAccordion (12 items),
  * 4 JSON-LD schemas (MedicalWebPage + FAQPage + HowTo + BreadcrumbList), NPI 1104323203.
@@ -13,7 +13,7 @@
  *   • FAQPage schema only (no QA variant)
  *   • No CitableSummaryBlock import
  *   • NPI 1104323203 in Physician schema
- *   • Literal < and > in JSX text escaped as < >
+ *   • Literal < and > in JSX text escaped as &lt; &gt;
  *   • Medically reviewed by Parth Bhavsar, MD — Updated May 23, 2026
  *
  * Generated: 2026-05-23. DO NOT edit manually — regenerate from config.
@@ -23,7 +23,7 @@ import FaqAccordion from '../../components/FaqAccordion';
 
 // ─── Page constants ────────────────────────────────────────────────────────────
 const PAGE_URL = 'https://teledirectmd.com/symptoms/skin-rash/';
-const PAGE_TITLE = `Skin Rash Treatment Online — Same-Day Rx | TeleDirectMD`;
+const PAGE_TITLE = `Skin Rash — What Might Be Causing It and When to See a Doctor | TeleDirectMD`;
 const DATE_PUBLISHED = '2026-05-23';
 const DATE_MODIFIED = '2026-05-23';
 const LAST_REVIEWED = '2026-05-23';
@@ -47,157 +47,146 @@ const COST_BARS = [
 // ─── Medications ───────────────────────────────────────────────────────────────
 const MEDICATIONS = [
   {
-    generic: `Triamcinolone 0.1%`,
+    generic: `triamcinolone acetonide cream`,
     brand: `Kenalog`,
-    form: `Topical cream/ointment`,
-    drugClass: `Medium-potency topical corticosteroid`,
-    dose: `Apply BID × 1–2 weeks`,
-    price: `$5–$25`,
-    priceUrl: `https://www.goodrx.com/kenalog`,
-    priceLabel: `GoodRx`,
-    sideEffects: `Skin thinning with prolonged use; avoid face/groin`,
-  },
-  {
-    generic: `Hydrocortisone 1–2.5%`,
-    brand: `Cortizone`,
     form: `Topical cream`,
-    drugClass: `Low-potency topical corticosteroid`,
-    dose: `Apply BID × 1–2 weeks`,
-    price: `$4–$11`,
-    priceUrl: `https://www.goodrx.com/hydrocortisone`,
+    drugClass: `Medium-potency topical corticosteroid`,
+    dose: `0.1% applied to affected area BID–TID × 7–14 days`,
+    price: `$10–$35`,
+    priceUrl: `https://www.goodrx.com/triamcinolone-topical`,
     priceLabel: `GoodRx`,
-    sideEffects: `Minimal at low potency; suitable for face/groin`,
+    sideEffects: `Skin atrophy with prolonged use; avoid on face; use for short courses`,
   },
   {
-    generic: `Clobetasol 0.05%`,
-    brand: `Temovate`,
-    form: `Topical cream/ointment`,
-    drugClass: `Super-high-potency topical corticosteroid`,
-    dose: `Apply BID × max 2 weeks`,
-    price: `$11–$251`,
-    priceUrl: `https://www.goodrx.com/clobetasol`,
-    priceLabel: `GoodRx`,
-    sideEffects: `Skin thinning; use only on body, short courses`,
-  },
-  {
-    generic: `Terbinafine`,
-    brand: `Lamisil`,
-    form: `Topical cream / oral`,
-    drugClass: `Antifungal`,
-    dose: `Apply 1% cream BID × 2–4 weeks; oral 250 mg daily for 2–6 weeks for severe`,
-    price: `$6–$64`,
-    priceUrl: `https://www.goodrx.com/terbinafine`,
-    priceLabel: `GoodRx`,
-    sideEffects: `Local irritation (cream); LFT elevation (oral)`,
-  },
-  {
-    generic: `Cetirizine`,
+    generic: `cetirizine`,
     brand: `Zyrtec`,
     form: `Oral tablet`,
     drugClass: `Second-generation antihistamine`,
-    dose: `10 mg once daily; up to 40 mg/day for chronic urticaria`,
-    price: `$2–$10`,
+    dose: `10 mg PO once daily for urticaria or allergic rash`,
+    price: `$8–$25`,
     priceUrl: `https://www.goodrx.com/cetirizine`,
     priceLabel: `GoodRx`,
-    sideEffects: `Mild drowsiness; dry mouth`,
+    sideEffects: `Mild sedation, dry mouth; less sedating than diphenhydramine`,
+  },
+  {
+    generic: `cephalexin`,
+    brand: `Keflex`,
+    form: `Oral capsule`,
+    drugClass: `First-generation cephalosporin antibiotic`,
+    dose: `500 mg PO QID × 7 days (cellulitis or bacterial skin infection)`,
+    price: `$10–$30`,
+    priceUrl: `https://www.goodrx.com/cephalexin`,
+    priceLabel: `GoodRx`,
+    sideEffects: `GI upset, rash; check for penicillin/cephalosporin allergy`,
+  },
+  {
+    generic: `hydrocortisone 1% cream`,
+    brand: `Cortaid (OTC)`,
+    form: `Topical cream`,
+    drugClass: `Low-potency topical corticosteroid (OTC)`,
+    dose: `Apply to affected area 2–4 times daily × 7 days (contact dermatitis)`,
+    price: `$5–$15`,
+    priceUrl: `https://www.goodrx.com/hydrocortisone-topical`,
+    priceLabel: `GoodRx`,
+    sideEffects: `Minimal systemic absorption at 1%; avoid in infected skin`,
   },
 ];
 
 // ─── FAQ items (12) ───────────────────────────────────────────────────────────
 const FAQ_ITEMS = [
   {
-    question: `Can a telehealth doctor prescribe medication for a rash?`,
-    answerPlain: `Yes — for most uncomplicated rashes. Dr. Bhavsar reviews your photos and history to identify the pattern and prescribe appropriate topical or oral medication. Same-day prescription typical.`,
+    question: `What could be causing a skin rash?`,
+    answerPlain: `A skin rash can have many causes, including contact dermatitis (reaction to a substance touching the skin), eczema (atopic dermatitis), urticaria (hives from an allergic reaction), viral exanthem (rash associated with a viral infection), tinea (fungal infection), psoriasis, drug reaction, cellulitis (bacterial skin infection), or shingles (herpes zoster). The distribution, appearance, timing, and associated symptoms help a physician determine the most likely cause. A physician evaluation is important because treatments differ substantially across these categories.`,
     answer: (
-      <p dangerouslySetInnerHTML={{ __html: `Yes — for most uncomplicated rashes. Dr. Bhavsar reviews your photos and history to identify the pattern and prescribe appropriate topical or oral medication. Same-day prescription typical.` }} />
+      <p dangerouslySetInnerHTML={{ __html: `A skin rash can have many causes, including contact dermatitis (reaction to a substance touching the skin), eczema (atopic dermatitis), urticaria (hives from an allergic reaction), viral exanthem (rash associated with a viral infection), tinea (fungal infection), psoriasis, drug reaction, cellulitis (bacterial skin infection), or shingles (herpes zoster). The distribution, appearance, timing, and associated symptoms help a physician determine the most likely cause. A physician evaluation is important because treatments differ substantially across these categories.` }} />
     ),
   },
   {
-    question: `What kind of photos should I upload?`,
-    answerPlain: `At least 2: one wide shot showing the distribution (where on body), one close-up showing morphology (texture, color, vesicles, scale). Use natural light, avoid flash glare. Include a measuring reference (coin, ruler) if helpful.`,
+    question: `When should I see a doctor for a skin rash?`,
+    answerPlain: `See a physician if a rash is spreading rapidly, is painful or blistering, appears infected (warm, red, swollen with pus), is associated with fever, has been present for more than 2 weeks without improvement, or is in a sensitive area (face, genitals, near eyes). Per AAD guidance, a physician evaluation is also appropriate when OTC 1% hydrocortisone cream has not improved a rash after 7 days of consistent use. A $79 TeleDirectMD evaluation can provide visual assessment and prescription management for most rash types.`,
     answer: (
-      <p dangerouslySetInnerHTML={{ __html: `At least 2: one wide shot showing the distribution (where on body), one close-up showing morphology (texture, color, vesicles, scale). Use natural light, avoid flash glare. Include a measuring reference (coin, ruler) if helpful.` }} />
+      <p dangerouslySetInnerHTML={{ __html: `See a physician if a rash is spreading rapidly, is painful or blistering, appears infected (warm, red, swollen with pus), is associated with fever, has been present for more than 2 weeks without improvement, or is in a sensitive area (face, genitals, near eyes). Per AAD guidance, a physician evaluation is also appropriate when OTC 1% hydrocortisone cream has not improved a rash after 7 days of consistent use. A $79 TeleDirectMD evaluation can provide visual assessment and prescription management for most rash types.` }} />
     ),
   },
   {
-    question: `Is hydrocortisone enough or do I need a prescription steroid?`,
-    answerPlain: `OTC hydrocortisone 1% works for mild dermatitis, especially on the face. Body areas with significant inflammation usually need prescription-strength triamcinolone 0.1%. We'll match potency to severity and location.`,
+    question: `When is a skin rash an emergency?`,
+    answerPlain: `Call 911 or go to the ER immediately if a rash is accompanied by: throat tightening, difficulty breathing, or swelling of the lips/tongue (anaphylaxis); rapidly spreading redness and warmth with high fever suggesting necrotizing fasciitis or severe cellulitis; a purpuric (non-blanching, purple/red) rash with fever suggesting meningococcemia; or Stevens-Johnson syndrome features (painful diffuse blistering, mucous membrane involvement, skin sloughing). These are medical emergencies.`,
     answer: (
-      <p dangerouslySetInnerHTML={{ __html: `OTC hydrocortisone 1% works for mild dermatitis, especially on the face. Body areas with significant inflammation usually need prescription-strength triamcinolone 0.1%. We'll match potency to severity and location.` }} />
+      <p dangerouslySetInnerHTML={{ __html: `Call 911 or go to the ER immediately if a rash is accompanied by: throat tightening, difficulty breathing, or swelling of the lips/tongue (anaphylaxis); rapidly spreading redness and warmth with high fever suggesting necrotizing fasciitis or severe cellulitis; a purpuric (non-blanching, purple/red) rash with fever suggesting meningococcemia; or Stevens-Johnson syndrome features (painful diffuse blistering, mucous membrane involvement, skin sloughing). These are medical emergencies.` }} />
     ),
   },
   {
-    question: `How do I know if it\'s contact dermatitis vs. eczema?`,
-    answerPlain: `Contact dermatitis: clear trigger, often linear or geometric, typically resolves with trigger avoidance. Eczema: chronic relapsing, flexural areas, history of allergies/asthma, often family history. We use photos and history to distinguish.`,
+    question: `How long is too long to have a skin rash before seeing a doctor?`,
+    answerPlain: `Any rash that has not improved after 7–14 days of OTC hydrocortisone cream (for non-infected inflammatory rashes) warrants physician evaluation. Rashes with spreading, blistering, or infection signs should be evaluated immediately — same day or next day. Chronic rashes such as psoriasis or eczema that are inadequately controlled with OTC measures should be evaluated, as prescription topical corticosteroids or other agents significantly improve outcomes per AAD guidelines.`,
     answer: (
-      <p dangerouslySetInnerHTML={{ __html: `Contact dermatitis: clear trigger, often linear or geometric, typically resolves with trigger avoidance. Eczema: chronic relapsing, flexural areas, history of allergies/asthma, often family history. We use photos and history to distinguish.` }} />
+      <p dangerouslySetInnerHTML={{ __html: `Any rash that has not improved after 7–14 days of OTC hydrocortisone cream (for non-infected inflammatory rashes) warrants physician evaluation. Rashes with spreading, blistering, or infection signs should be evaluated immediately — same day or next day. Chronic rashes such as psoriasis or eczema that are inadequately controlled with OTC measures should be evaluated, as prescription topical corticosteroids or other agents significantly improve outcomes per AAD guidelines.` }} />
     ),
   },
   {
-    question: `What if my rash is from a medication?`,
-    answerPlain: `Stop the suspected medication if possible (after talking with us if it's prescribed). Mild morbilliform drug rashes resolve with stopping the drug + topical steroid + antihistamine. SEVERE features (mucosal involvement, blistering, fever) need ER.`,
+    question: `Can a virtual doctor evaluate a skin rash?`,
+    answerPlain: `Yes — a physician can visually evaluate rash morphology (macules, papules, vesicles, plaques), distribution, and associated features via video visit with good lighting. The patient can show the rash directly to the camera. California Business and Professions Code 2290.5 authorizes telehealth evaluation and prescription for dermatologic conditions including contact dermatitis, eczema, urticaria, and fungal infections. TeleDirectMD provides $79 California video evaluations for adults 18+. Rashes with signs of serious infection, systemic illness, or emergency features require in-person or ER evaluation.`,
     answer: (
-      <p dangerouslySetInnerHTML={{ __html: `Stop the suspected medication if possible (after talking with us if it's prescribed). Mild morbilliform drug rashes resolve with stopping the drug + topical steroid + antihistamine. SEVERE features (mucosal involvement, blistering, fever) need ER.` }} />
+      <p dangerouslySetInnerHTML={{ __html: `Yes — a physician can visually evaluate rash morphology (macules, papules, vesicles, plaques), distribution, and associated features via video visit with good lighting. The patient can show the rash directly to the camera. California Business and Professions Code 2290.5 authorizes telehealth evaluation and prescription for dermatologic conditions including contact dermatitis, eczema, urticaria, and fungal infections. TeleDirectMD provides $79 California video evaluations for adults 18+. Rashes with signs of serious infection, systemic illness, or emergency features require in-person or ER evaluation.` }} />
     ),
   },
   {
-    question: `Is it ringworm or eczema?`,
-    answerPlain: `Ringworm (tinea): annular (ring-shaped) with central clearing and active scaly border. Eczema: poorly defined, on flexural areas, no central clearing. KOH prep can confirm in person if uncertain — but usually photo + history is enough.`,
+    question: `What will the doctor do for a skin rash at TeleDirectMD?`,
+    answerPlain: `The physician evaluates rash appearance, distribution, duration, associated symptoms (fever, pruritus, pain), recent exposures (new products, medications, plants, travel), prior skin conditions, and current medications. Based on the visual evaluation, a physician may prescribe a medium-potency topical corticosteroid (for eczema or contact dermatitis), antihistamine (for urticaria), antifungal agent (for tinea), antibiotic (for cellulitis or impetigo), or antiviral (for herpes zoster/shingles). This is an evaluation — prescribing depends on the rash type identified.`,
     answer: (
-      <p dangerouslySetInnerHTML={{ __html: `Ringworm (tinea): annular (ring-shaped) with central clearing and active scaly border. Eczema: poorly defined, on flexural areas, no central clearing. KOH prep can confirm in person if uncertain — but usually photo + history is enough.` }} />
+      <p dangerouslySetInnerHTML={{ __html: `The physician evaluates rash appearance, distribution, duration, associated symptoms (fever, pruritus, pain), recent exposures (new products, medications, plants, travel), prior skin conditions, and current medications. Based on the visual evaluation, a physician may prescribe a medium-potency topical corticosteroid (for eczema or contact dermatitis), antihistamine (for urticaria), antifungal agent (for tinea), antibiotic (for cellulitis or impetigo), or antiviral (for herpes zoster/shingles). This is an evaluation — prescribing depends on the rash type identified.` }} />
     ),
   },
   {
-    question: `Why do I keep getting eczema flares?`,
-    answerPlain: `Common triggers: dry skin (especially winter), hot showers, fragrances, harsh soaps, wool/synthetic fabrics, stress, sweat, food allergies (in some). Daily moisturizer is the foundation of prevention.`,
+    question: `Will I get a prescription for a skin rash?`,
+    answerPlain: `A prescription depends on the evaluation findings. For eczema or contact dermatitis not controlled by OTC 1% hydrocortisone, a medium-potency topical corticosteroid (triamcinolone 0.1%) may be prescribed. For urticaria (hives), a non-sedating antihistamine such as cetirizine 10 mg will be recommended. For bacterial skin infection (cellulitis, impetigo), cephalexin or other appropriate antibiotic will be prescribed. For mild rashes appropriately manageable with OTC products, prescription guidance will be provided without a new Rx.`,
     answer: (
-      <p dangerouslySetInnerHTML={{ __html: `Common triggers: dry skin (especially winter), hot showers, fragrances, harsh soaps, wool/synthetic fabrics, stress, sweat, food allergies (in some). Daily moisturizer is the foundation of prevention.` }} />
+      <p dangerouslySetInnerHTML={{ __html: `A prescription depends on the evaluation findings. For eczema or contact dermatitis not controlled by OTC 1% hydrocortisone, a medium-potency topical corticosteroid (triamcinolone 0.1%) may be prescribed. For urticaria (hives), a non-sedating antihistamine such as cetirizine 10 mg will be recommended. For bacterial skin infection (cellulitis, impetigo), cephalexin or other appropriate antibiotic will be prescribed. For mild rashes appropriately manageable with OTC products, prescription guidance will be provided without a new Rx.` }} />
     ),
   },
   {
-    question: `Do I need a biopsy?`,
-    answerPlain: `Not for most rashes. Biopsies are reserved for atypical, persistent, or concerning lesions, suspected drug reactions with systemic features, suspected vasculitis, or possible skin cancer. We refer to dermatology if biopsy is appropriate.`,
+    question: `Is a skin rash something I can manage at home?`,
+    answerPlain: `Mild contact dermatitis or eczema flares can often be managed with OTC 1% hydrocortisone cream (2–4 times daily × up to 7 days), discontinuation of the suspected trigger (new soap, lotion, detergent, or jewelry), cool compresses to reduce itch and inflammation, a gentle fragrance-free moisturizer, and oral OTC cetirizine or loratadine for itch relief. Per AAD guidance, consistent moisturizer use is essential for eczema management. If OTC measures do not improve the rash within 7 days, or if the rash spreads or becomes painful, a physician evaluation is appropriate.`,
     answer: (
-      <p dangerouslySetInnerHTML={{ __html: `Not for most rashes. Biopsies are reserved for atypical, persistent, or concerning lesions, suspected drug reactions with systemic features, suspected vasculitis, or possible skin cancer. We refer to dermatology if biopsy is appropriate.` }} />
+      <p dangerouslySetInnerHTML={{ __html: `Mild contact dermatitis or eczema flares can often be managed with OTC 1% hydrocortisone cream (2–4 times daily × up to 7 days), discontinuation of the suspected trigger (new soap, lotion, detergent, or jewelry), cool compresses to reduce itch and inflammation, a gentle fragrance-free moisturizer, and oral OTC cetirizine or loratadine for itch relief. Per AAD guidance, consistent moisturizer use is essential for eczema management. If OTC measures do not improve the rash within 7 days, or if the rash spreads or becomes painful, a physician evaluation is appropriate.` }} />
     ),
   },
   {
-    question: `How long until my rash gets better?`,
-    answerPlain: `Contact dermatitis: 7–14 days with treatment + trigger avoidance. Tinea: 2–4 weeks of topical antifungal. Eczema flare: 5–14 days with topical steroid; chronic management is daily moisturizer. Urticaria: minutes to days.`,
+    question: `Does insurance cover a TeleDirectMD visit for a skin rash?`,
+    answerPlain: `TeleDirectMD accepts Aetna, UnitedHealthcare (UHC), and Blue Cross Blue Shield (BCBS) commercial plans. The self-pay rate is $79 flat — no subscription, no hidden fees. Prescription costs are separate and vary by pharmacy; generic triamcinolone cream is typically $10–$35 and generic cephalexin is $10–$30 at GoodRx pricing.`,
     answer: (
-      <p dangerouslySetInnerHTML={{ __html: `Contact dermatitis: 7–14 days with treatment + trigger avoidance. Tinea: 2–4 weeks of topical antifungal. Eczema flare: 5–14 days with topical steroid; chronic management is daily moisturizer. Urticaria: minutes to days.` }} />
+      <p dangerouslySetInnerHTML={{ __html: `TeleDirectMD accepts Aetna, UnitedHealthcare (UHC), and Blue Cross Blue Shield (BCBS) commercial plans. The self-pay rate is $79 flat — no subscription, no hidden fees. Prescription costs are separate and vary by pharmacy; generic triamcinolone cream is typically $10–$35 and generic cephalexin is $10–$30 at GoodRx pricing.` }} />
     ),
   },
   {
-    question: `Can I use my partner\'s prescription cream?`,
-    answerPlain: `Not recommended — different rashes need different treatments. Steroid creams worsen fungal infections; antifungals don't help eczema. Get an accurate diagnosis first.`,
+    question: `How fast can I be seen for a skin rash?`,
+    answerPlain: `Same-day $79 video evaluations are frequently available for California adults. Book at book.teledirectmd.com — select your preferred time and a board-certified Family Medicine physician will meet you by secure video. No referral required. Most visits are 15 minutes. Have good lighting available to show the rash clearly on camera.`,
     answer: (
-      <p dangerouslySetInnerHTML={{ __html: `Not recommended — different rashes need different treatments. Steroid creams worsen fungal infections; antifungals don't help eczema. Get an accurate diagnosis first.` }} />
+      <p dangerouslySetInnerHTML={{ __html: `Same-day $79 video evaluations are frequently available for California adults. Book at book.teledirectmd.com — select your preferred time and a board-certified Family Medicine physician will meet you by secure video. No referral required. Most visits are 15 minutes. Have good lighting available to show the rash clearly on camera.` }} />
     ),
   },
   {
-    question: `What if my rash is spreading?`,
-    answerPlain: `If spreading rapidly with fever, blisters, or systemic symptoms, that's a red flag — go to in-person care. Slow spread of contact dermatitis from oils tracking around (poison-ivy) is normal but the rash itself doesn't transfer person-to-person.`,
+    question: `What if I need an in-person visit for a skin rash?`,
+    answerPlain: `In-person evaluation is recommended when a rash shows signs of serious bacterial infection (spreading cellulitis, fever, abscess), when biopsy is needed to confirm a diagnosis (suspected psoriasis, atypical lesion, or lesion with malignant features), when a rash is widespread and unresponsive to topical treatment, or when systemic therapy (biologics, phototherapy, immunosuppressants) is needed for severe psoriasis or atopic dermatitis. Dermatology referral will be provided with clear instructions at no additional charge.`,
     answer: (
-      <p dangerouslySetInnerHTML={{ __html: `If spreading rapidly with fever, blisters, or systemic symptoms, that's a red flag — go to in-person care. Slow spread of contact dermatitis from oils tracking around (poison-ivy) is normal but the rash itself doesn't transfer person-to-person.` }} />
+      <p dangerouslySetInnerHTML={{ __html: `In-person evaluation is recommended when a rash shows signs of serious bacterial infection (spreading cellulitis, fever, abscess), when biopsy is needed to confirm a diagnosis (suspected psoriasis, atypical lesion, or lesion with malignant features), when a rash is widespread and unresponsive to topical treatment, or when systemic therapy (biologics, phototherapy, immunosuppressants) is needed for severe psoriasis or atopic dermatitis. Dermatology referral will be provided with clear instructions at no additional charge.` }} />
     ),
   },
   {
-    question: `Is the rash contagious?`,
-    answerPlain: `Most rashes (contact dermatitis, eczema, drug rashes) are NOT contagious. Tinea (ringworm), scabies, impetigo, and some viral exanthems ARE contagious. We identify which type your rash is.`,
+    question: `How is a rash from contact dermatitis different from eczema or psoriasis?`,
+    answerPlain: `Contact dermatitis is a localized inflammatory rash occurring at the site of skin contact with an irritant or allergen (nickel, latex, plants, cosmetics); it resolves when the trigger is removed. Eczema (atopic dermatitis) is a chronic inflammatory skin condition causing recurrent itchy, dry, scaly patches typically in skin folds; it is associated with asthma and allergic rhinitis. Psoriasis causes well-defined thick silvery-scaled plaques, most commonly on the elbows, knees, and scalp; it is an autoimmune condition. A physician evaluation — including visual assessment of morphology and distribution — helps distinguish these conditions, as treatments differ substantially.`,
     answer: (
-      <p dangerouslySetInnerHTML={{ __html: `Most rashes (contact dermatitis, eczema, drug rashes) are NOT contagious. Tinea (ringworm), scabies, impetigo, and some viral exanthems ARE contagious. We identify which type your rash is.` }} />
+      <p dangerouslySetInnerHTML={{ __html: `Contact dermatitis is a localized inflammatory rash occurring at the site of skin contact with an irritant or allergen (nickel, latex, plants, cosmetics); it resolves when the trigger is removed. Eczema (atopic dermatitis) is a chronic inflammatory skin condition causing recurrent itchy, dry, scaly patches typically in skin folds; it is associated with asthma and allergic rhinitis. Psoriasis causes well-defined thick silvery-scaled plaques, most commonly on the elbows, knees, and scalp; it is an autoimmune condition. A physician evaluation — including visual assessment of morphology and distribution — helps distinguish these conditions, as treatments differ substantially.` }} />
     ),
   },
 ];
 
 // ─── Related condition links ───────────────────────────────────────────────────
 const RELATED_CONDITIONS = [
-  { slug: '/contact-dermatitis-treatment-online/', label: 'Contact Dermatitis Treatment Online' },
-  { slug: '/acne-treatment-online/', label: 'Acne Treatment Online' },
-  { slug: '/sinus-infection-treatment-online/', label: 'Sinus Infection Treatment Online' },
-  { slug: '/seasonal-allergies-treatment-online/', label: 'Seasonal Allergies Treatment Online' },
   { slug: '/uti-treatment-online/', label: 'UTI Treatment Online' },
+  { slug: '/sinus-infection-treatment-online/', label: 'Sinus Infection Treatment Online' },
+  { slug: '/sore-throat-treatment-online/', label: 'Sore Throat Treatment Online' },
+  { slug: '/common-cold-treatment-online/', label: 'Common Cold Treatment Online' },
+  { slug: '/asthma-refills-online/', label: 'Asthma Inhaler Refills Online' },
 ];
 
 // ─── JSON-LD schemas ───────────────────────────────────────────────────────────
@@ -208,15 +197,15 @@ function buildSchemas() {
     '@type': 'MedicalWebPage',
     name: PAGE_TITLE,
     url: PAGE_URL,
-    description: `Itchy red rash from contact, eczema, allergies, or fungal infection? $79 video visit, photo evaluation, prescription same day in 41 states.`,
+    description: `Skin rash evaluation online. Determine likely cause — contact dermatitis, eczema, urticaria, cellulitis, or other — and whether prescription treatment is needed. $79 California video evaluation by board-certified Family Medicine physician.`,
     datePublished: DATE_PUBLISHED,
     dateModified: DATE_MODIFIED,
     inLanguage: 'en-US',
     about: {
       '@type': 'MedicalCondition',
-      name: 'Contact Dermatitis / Skin Rash',
-      alternateName: ['Contact Dermatitis', 'Eczematous Rash', 'Dermatitis', 'Urticaria'],
-      code: { '@type': 'MedicalCode', code: 'L25.9', codingSystem: 'ICD-10-CM' },
+      name: 'Skin Rash',
+      alternateName: ['Rash', 'Skin Eruption', 'Dermatitis', 'Urticaria'],
+      code: { '@type': 'MedicalCode', code: 'R21', codingSystem: 'ICD-10-CM' },
     },
     medicalAudience: {
       '@type': 'MedicalAudience',
@@ -260,14 +249,14 @@ function buildSchemas() {
   const howTo = {
     '@context': 'https://schema.org',
     '@type': 'HowTo',
-    name: `How to Get Skin Rash Treatment Online`,
-    description: `Three steps to receive rash evaluation and prescription treatment from a board-certified physician.`,
+    name: `How to Get a Skin Rash Evaluation Online`,
+    description: `Three steps to receive a physician evaluation for a skin rash from a board-certified physician.`,
     totalTime: 'PT30M',
     estimatedCost: { '@type': 'MonetaryAmount', currency: 'USD', value: '79' },
     step: [
-      { '@type': 'HowToStep', position: 1, name: `Book your video visit`, text: `Select skin rash on teledirectmd.com. Self pay $79. No referral needed.`, url: `https://teledirectmd.com/symptoms/skin-rash/` },
-      { '@type': 'HowToStep', position: 2, name: `See a board-certified MD by secure video`, text: `Physician reviews rash appearance via photos, distribution, timeline, and potential triggers or allergens.`, url: `https://teledirectmd.com/symptoms/skin-rash/` },
-      { '@type': 'HowToStep', position: 3, name: `Receive your treatment plan`, text: `Topical corticosteroid, oral antihistamine, or other targeted treatment prescribed based on rash type.`, url: `https://teledirectmd.com/symptoms/skin-rash/` }
+      { '@type': 'HowToStep', position: 1, name: `Book your $79 video visit`, text: `Select skin rash on teledirectmd.com. Self pay $79. No referral needed. Same-day visits often available for California adults. Have good lighting to show the rash on camera.`, url: `https://teledirectmd.com/symptoms/skin-rash/` },
+      { '@type': 'HowToStep', position: 2, name: `See a board-certified MD by secure video`, text: `Physician visually evaluates rash morphology, distribution, and associated symptoms to identify the most likely cause (contact dermatitis, eczema, urticaria, infection, or other).`, url: `https://teledirectmd.com/symptoms/skin-rash/` },
+      { '@type': 'HowToStep', position: 3, name: `Receive your evaluation results and plan`, text: `Prescription topical corticosteroid, antihistamine, antifungal, or antibiotic provided based on rash type. Dermatology referral for biopsied lesions or complex cases.`, url: `https://teledirectmd.com/symptoms/skin-rash/` }
     ],
   };
 
@@ -352,12 +341,12 @@ export default function SymptomSkinRash() {
           <div className="tdmd-container">
             <div className="tdmd-hero-grid">
               <div className="tdmd-hero-copy">
-                <h1 data-speakable="true" dangerouslySetInnerHTML={{ __html: `Itchy or Red Rash — Same-Day Telehealth Treatment` }} />
+                <h1 data-speakable="true" dangerouslySetInnerHTML={{ __html: `Skin Rash — What Might Be Causing It and When to See a Doctor` }} />
                 <p className="tdmd-hero-sub" data-speakable="true">
-                  Skin Rash — same-day video visit with a board-certified family medicine MD. Self pay $79 &amp;middot; 41 states &amp;middot; MD-only care.
+                  Developed a new rash? A $79 California evaluation can help identify the likely cause — contact dermatitis, eczema, urticaria, infection, or another condition — and determine whether prescription treatment is the right next step.
                 </p>
                 <p>
-                  Skin Rash is one of the most common reasons adults seek medical care. TeleDirectMD provides same-day evaluation and treatment by a board-certified family medicine physician via secure video visit. Self-pay is $79 with no insurance required. Available in 41 states.
+                  A skin rash can signal anything from a mild allergic reaction to a bacterial skin infection to a viral illness — and the right treatment depends entirely on an accurate evaluation of rash type, distribution, and associated symptoms. TeleDirectMD provides same-day physician evaluation for California adults via secure video visit, allowing a physician to visually assess most rash types. Self-pay is $79 with no insurance required.
                 </p>
 
                 {/* Physician byline (E-E-A-T) */}
@@ -376,11 +365,11 @@ export default function SymptomSkinRash() {
                 <p className="tdmd-toc-intro" style={{ marginTop: '1.25rem' }}><strong>Quick navigation:</strong></p>
                 <ul className="tdmd-toc">
                   <li><a href={`#${pid}-opening`}>Overview</a></li>
-                  <li><a href={`#${pid}-eligibility`}>Eligibility checklist</a></li>
-                  <li><a href={`#${pid}-differentials`}>Differential diagnosis</a></li>
-                  <li><a href={`#${pid}-cost`}>Cost comparison</a></li>
-                  <li><a href={`#${pid}-medications`}>Medications</a></li>
+                  <li><a href={`#${pid}-causes`}>What might be causing this?</a></li>
                   <li><a href={`#${pid}-red-flags`}>Red flags</a></li>
+                  <li><a href={`#${pid}-self-care`}>Self-care to try first</a></li>
+                  <li><a href={`#${pid}-when-to-book`}>When to book a visit</a></li>
+                  <li><a href={`#${pid}-cost`}>Cost comparison</a></li>
                   <li><a href={`#${pid}-faq`}>FAQs</a></li>
                   <li><a href={`#${pid}-references`}>References</a></li>
                 </ul>
@@ -388,31 +377,31 @@ export default function SymptomSkinRash() {
                 <ul className="tdmd-hero-benefits">
                   <li>Self pay $79 — no insurance required</li>
                   <li>MD-only care (no mid-levels)</li>
-                  <li>Same-day visits available in 41 states</li>
+                  <li>Same-day evaluations available in California</li>
                   <li>Board-certified Family Medicine physician</li>
                   <li>e-Prescription to your pharmacy when appropriate</li>
                 </ul>
 
                 <div className="tdmd-hero-ctas">
-                  <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
+                  <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a $79 California Evaluation</a>
                   <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
                 </div>
 
-                <p className="tdmd-icd"><strong>ICD-10 commonly used:</strong> L25.9 — Unspecified contact dermatitis, unspecified cause (final coding depends on clinical details)</p>
+                <p className="tdmd-icd"><strong>ICD-10 commonly used:</strong> R21 — Rash and other nonspecific skin eruption (final coding depends on clinical details)</p>
               </div>
 
               <div className="tdmd-hero-side">
                 <div className="tdmd-hero-card">
-                  <h2>Online MD-Only Skin Rash Care</h2>
+                  <h2>What a TeleDirectMD Evaluation Includes</h2>
                   <ul>
-                    <li>Fast evaluation and treatment plan</li>
-                    <li>Safety screening before any prescription</li>
-                    <li>Guideline-based medication choices</li>
-                    <li>e-Prescription to your pharmacy</li>
-                    <li>Follow-up guidance and red-flag instructions</li>
+                    <li>Visual rash morphology and distribution assessment</li>
+                    <li>Rash type identification (contact, eczema, urticaria, infection)</li>
+                    <li>Prescription topical corticosteroid or antibiotic if appropriate</li>
+                    <li>Trigger identification and avoidance guidance</li>
+                    <li>Dermatology referral for biopsy or complex cases</li>
                   </ul>
                   <p className="tdmd-hero-note">
-                    Adults 18+ only. TeleDirectMD is not an emergency service. If you have severe symptoms, difficulty breathing, chest pain, high fever, or rapidly worsening condition, seek urgent in-person or emergency care immediately.
+                    Adults 18+ only. Have good lighting when showing the rash on camera. Rashes with spreading infection, blistering, or systemic symptoms require in-person or emergency evaluation. TeleDirectMD is not an emergency service.
                   </p>
                 </div>
               </div>
@@ -423,168 +412,138 @@ export default function SymptomSkinRash() {
         {/* ─── 2) INLINE OPENER (v3 — replaces CitableSummaryBlock) ──────────── */}
         <section className="tdmd-section tdmd-sym__opener" id={`${pid}-opening`}>
           <div className="tdmd-container">
-            <p dangerouslySetInnerHTML={{ __html: `A new skin rash can range from mild contact dermatitis to a more serious systemic condition. TeleDirectMD uses photo-based video evaluation to assess rash morphology, distribution, timeline, and associated symptoms, prescribing topical corticosteroids, oral antihistamines, or antifungals as appropriate for $79. Rashes with fever, rapid spread, blistering, mucous membrane involvement, or difficulty breathing require immediate in-person or ER care.` }} />
+            <p dangerouslySetInnerHTML={{ __html: `When should you see a doctor for a skin rash? A physician evaluation is appropriate when a rash is spreading, blistering, painful, associated with fever, has not improved after 7–14 days of OTC hydrocortisone cream, or is in a sensitive location. A skin rash could be caused by contact dermatitis, eczema, urticaria, viral exanthem, tinea, psoriasis, drug reaction, cellulitis, or shingles — and the correct treatment depends entirely on an accurate evaluation. TeleDirectMD provides $79 same-day California video evaluation for adults with skin rashes, with a board-certified Family Medicine physician visually assessing rash morphology and determining appropriate prescription therapy.` }} />
             <p style={{ marginTop: '1rem' }}>
-              <strong>Self-pay cost:</strong> $79 flat rate — no subscription, no hidden fees. Prescription costs are separate and vary by pharmacy; see the medication table below for GoodRx estimates. TeleDirectMD does not prescribe controlled substances in any state.
+              <strong>Self-pay cost:</strong> $79 flat rate — no subscription, no hidden fees. Prescription costs are separate and vary by pharmacy. TeleDirectMD does not prescribe controlled substances in any state.
             </p>
             <p>
-              TeleDirectMD physicians hold Board Certification from the <a href="https://www.theabfm.org/" rel="noopener" target="_blank">American Board of Family Medicine (ABFM)</a> and follow clinical guidelines from the CDC, AAFP, and relevant specialty societies. Every visit includes red-flag screening, a structured history, a treatment plan, and clear follow-up instructions.
+              TeleDirectMD physicians hold Board Certification from the <a href="https://www.theabfm.org/" rel="noopener" target="_blank">American Board of Family Medicine (ABFM)</a> and follow AAD clinical guidelines. California telehealth visits are authorized under Business and Professions Code 2290.5.
             </p>
           </div>
         </section>
 
-        {/* ─── 3) ELIGIBILITY CHECKLIST ─────────────────────────────────────── */}
-        <section className="tdmd-section" id={`${pid}-eligibility`}>
+        {/* ─── 3) WHAT MIGHT BE CAUSING THIS ──────────────────────────────── */}
+        <section className="tdmd-section" id={`${pid}-causes`}>
           <div className="tdmd-container">
-            <h2>Skin Rash Telehealth Eligibility Checklist</h2>
-            <p><strong>You are likely eligible for a TeleDirectMD video visit if ALL of these are true:</strong></p>
-            <div className="tdmd-sym__dual">
-              <div className="tdmd-sym__dual-card tdmd-sym__dual-card--good">
-                <h3>&#10003; You Are Eligible If</h3>
-                <ul>
-              <li dangerouslySetInnerHTML={{ __html: `Adults and children in our 41 states` }} />
-              <li dangerouslySetInnerHTML={{ __html: `Localized rash with photo upload available` }} />
-              <li dangerouslySetInnerHTML={{ __html: `No fever, no mucosal involvement, no systemic illness` }} />
-              <li dangerouslySetInnerHTML={{ __html: `Rash &lt;2 weeks duration without spreading rapidly` }} />
-              <li dangerouslySetInnerHTML={{ __html: `Want guidance on OTC vs. prescription options` }} />
-              <li dangerouslySetInnerHTML={{ __html: `Recurrent eczema or contact dermatitis flare` }} />
-              <li dangerouslySetInnerHTML={{ __html: `Suspected fungal infection` }} />
-              <li dangerouslySetInnerHTML={{ __html: `Allergic reaction without anaphylaxis signs` }} />
-                </ul>
+            <h2>What Might Be Causing a Skin Rash?</h2>
+            <p>A physician would evaluate for the following causes based on rash morphology, distribution, timing, exposures, and associated symptoms:</p>
+
+            <h3>Common and self-limiting or OTC-manageable</h3>
+            <ul>
+              <li dangerouslySetInnerHTML={{ __html: `<strong>Contact dermatitis (irritant or allergic):</strong> Localized inflammatory rash at the site of skin contact with an irritant (soaps, detergents, acids) or allergen (nickel, latex, poison oak/ivy, cosmetics). Allergic contact dermatitis develops 24–72 hours after allergen exposure and causes intensely pruritic vesicular or weeping rash. A physician would evaluate for contact dermatitis when the rash distribution correlates with a specific exposure area and appeared after contact with a new substance.` }} />
+              <li dangerouslySetInnerHTML={{ __html: `<strong>Urticaria (hives):</strong> Raised, itchy wheals or welts that appear suddenly and move around the body; individual lesions typically resolve within 24 hours but new ones appear. Most commonly triggered by foods, medications, or infections. A physician would evaluate for urticaria when wheals are transient and migratory and associated with a recent food, medication, or infection exposure. Antihistamines are the primary treatment.` }} />
+              <li dangerouslySetInnerHTML={{ __html: `<strong>Eczema (atopic dermatitis):</strong> Chronic relapsing inflammatory skin condition causing itchy, dry, scaly, or weeping patches typically in flexural areas (antecubital fossae, popliteal fossae, neck). Per AAD data, atopic dermatitis affects approximately 10% of adults. A physician would evaluate for eczema flares when itchy, inflamed skin is chronic or recurrent and associated with other atopic conditions (asthma, allergic rhinitis).` }} />
+            </ul>
+
+            <h3>Common and requiring physician evaluation</h3>
+            <ul>
+              <li dangerouslySetInnerHTML={{ __html: `<strong>Tinea (ringworm, athlete's foot, jock itch):</strong> Dermatophyte fungal infection causing a scaly, pruritic, ring-shaped or confluent rash with a raised border and central clearing. Tinea pedis (athlete's foot), tinea cruris (jock itch), and tinea corporis (ringworm) are common presentations. A physician would evaluate for tinea when a rash is annular with a raised scaly border and does not improve with topical corticosteroid alone (corticosteroids can worsen fungal infections).` }} />
+              <li dangerouslySetInnerHTML={{ __html: `<strong>Cellulitis (bacterial skin infection):</strong> Acute bacterial infection of the dermis and subcutaneous tissue — most commonly Staphylococcus aureus or Streptococcus — causing spreading redness, warmth, swelling, and tenderness. Per IDSA guidelines, non-purulent cellulitis is typically treated with cephalexin or TMP-SMX. A physician would evaluate for cellulitis when a skin area is warm, red, and swollen with distinct borders, particularly if fever is present.` }} />
+              <li dangerouslySetInnerHTML={{ __html: `<strong>Shingles (herpes zoster):</strong> Reactivation of the varicella-zoster virus causing a painful, unilateral dermatomal rash with grouped vesicles on an erythematous base. Often preceded by burning or shooting pain in the affected dermatome. Per CDC recommendations, antiviral therapy (valacyclovir) is most effective when started within 72 hours of rash onset. A physician would urgently evaluate for shingles when a painful unilateral blistering rash is present, particularly in patients &gt;50 years or immunocompromised.` }} />
+            </ul>
+
+            <h3>Less common but requiring evaluation</h3>
+            <ul>
+              <li dangerouslySetInnerHTML={{ __html: `<strong>Drug reaction (maculopapular drug exanthem):</strong> Many medications can cause a symmetric maculopapular rash appearing 7–14 days after drug initiation. Common culprits include antibiotics (amoxicillin, TMP-SMX), NSAIDs, and anticonvulsants. A physician would evaluate for drug reaction when a symmetrically distributed maculopapular rash appears within 2 weeks of starting a new medication.` }} />
+              <li dangerouslySetInnerHTML={{ __html: `<strong>Psoriasis:</strong> Autoimmune condition causing well-demarcated silvery-scaled plaques most commonly on the elbows, knees, scalp, and lower back. Chronic and recurrent; associated with psoriatic arthritis and cardiovascular risk. Per AAD guidelines, moderate-to-severe psoriasis may require systemic or biologic therapy. A physician would evaluate for psoriasis when well-defined scaly plaques are present on extensor surfaces.` }} />
+            </ul>
+
+            <div className="tdmd-sym__cta-strip" role="complementary" style={{ marginTop: '1.5rem' }}>
+              <div>
+                <p>Rash not improving? Book a $79 evaluation</p>
+                <small>Board-certified Family Medicine physician &amp;middot; California &amp;middot; Visual assessment via secure video</small>
               </div>
-              <div className="tdmd-sym__dual-card tdmd-sym__dual-card--alert">
-                <h3>&#10007; You Are Not Eligible If</h3>
-                <ul>
-              <li dangerouslySetInnerHTML={{ __html: `Anaphylaxis (breathing difficulty, throat swelling) — ER NOW` }} />
-              <li dangerouslySetInnerHTML={{ __html: `Stevens-Johnson signs (mucosal lesions) — ER` }} />
-              <li dangerouslySetInnerHTML={{ __html: `Cellulitis with fever or systemic signs — in-person` }} />
-              <li dangerouslySetInnerHTML={{ __html: `Petechiae/purpura — in-person` }} />
-              <li dangerouslySetInnerHTML={{ __html: `Severe blistering covering large body area — in-person` }} />
-              <li dangerouslySetInnerHTML={{ __html: `Whole-body rash 1–2 weeks after new medication — in-person evaluation` }} />
-              <li dangerouslySetInnerHTML={{ __html: `Rash in immunocompromised patient with concerns — in-person` }} />
-                </ul>
-                <p style={{ marginTop: '0.75rem', color: 'var(--tdmd-muted)', fontSize: '0.92rem' }}>
-                  <strong>If you have red-flag symptoms, seek urgent in-person or emergency care immediately. TeleDirectMD is not appropriate for severe or complex cases.</strong>
-                </p>
-              </div>
+              <a className="tdmd-sym__cta-btn" href="/book-online" rel="noopener">Book Now &amp;rarr;</a>
             </div>
           </div>
         </section>
 
-        {/* ─── 4) HOW IT WORKS ─────────────────────────────────────────────── */}
-        <section className="tdmd-section tdmd-section-highlight" id={`${pid}-how-it-works`}>
+        {/* ─── 4) RED FLAGS ────────────────────────────────────────────────── */}
+        <section className="tdmd-section tdmd-section-highlight" id={`${pid}-red-flags`}>
           <div className="tdmd-container">
-            <h2>How Skin Rash Treatment Works Online</h2>
-            <div className="tdmd-decision-flow">
-              <div className="tdmd-decision-step tdmd-decision-step-check">
-                <div className="tdmd-decision-number">1</div>
-                <div className="tdmd-decision-content">
-                  <h3>Book your $79 video visit</h3>
-                  <p>No insurance required. No referral needed. Many visits available same day in 41 states. Have your symptom timeline and current medication list ready.</p>
-                </div>
-              </div>
-              <div className="tdmd-decision-step tdmd-decision-step-check">
-                <div className="tdmd-decision-number">2</div>
-                <div className="tdmd-decision-content">
-                  <h3>See a board-certified MD by secure video</h3>
-                  <p>The physician takes a structured medical history, performs a targeted virtual exam, screens for red flags, and applies current clinical guidelines. If in-person care is needed, you&apos;ll be redirected at no charge.</p>
-                </div>
-              </div>
-              <div className="tdmd-decision-step tdmd-decision-step-good">
-                <div className="tdmd-decision-number">3</div>
-                <div className="tdmd-decision-content">
-                  <h3>Get your treatment plan and, if appropriate, a prescription</h3>
-                  <p>If medication is clinically appropriate, an e-prescription is sent to your chosen pharmacy during or after the visit. Clear follow-up instructions and red-flag criteria are provided regardless of treatment choice.</p>
-                  <div className="tdmd-decision-cta">
-                    <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
-                  </div>
-                </div>
-              </div>
+            <h2>Red Flags — When to Call 911 or Go to the ER</h2>
+            <div className="tdmd-sym__dual-card tdmd-sym__dual-card--alert" style={{ marginTop: '0.75rem' }}>
+              <h3>Seek Emergency Care Immediately If You Have</h3>
+              <ul>
+                <li dangerouslySetInnerHTML={{ __html: `<strong>Rash with throat tightening, difficulty breathing, or tongue/lip swelling</strong> — anaphylaxis; use epinephrine if available, call 911` }} />
+                <li dangerouslySetInnerHTML={{ __html: `<strong>Rapidly spreading redness and warmth with high fever</strong> — possible necrotizing fasciitis or severe cellulitis; call 911` }} />
+                <li dangerouslySetInnerHTML={{ __html: `<strong>Non-blanching purpuric (purple/red) rash with fever</strong> — possible meningococcemia; call 911 immediately` }} />
+                <li dangerouslySetInnerHTML={{ __html: `<strong>Widespread painful blistering with mucous membrane involvement</strong> — possible Stevens-Johnson syndrome; ER evaluation` }} />
+                <li dangerouslySetInnerHTML={{ __html: `<strong>Rash with altered mental status, stiff neck, or photophobia</strong> — possible meningitis or meningococcal disease; call 911` }} />
+                <li dangerouslySetInnerHTML={{ __html: `<strong>Skin sloughing or necrosis</strong> — toxic epidermal necrolysis or severe drug reaction; ER evaluation` }} />
+              </ul>
             </div>
           </div>
         </section>
 
-        {/* ─── 5) DIFFERENTIAL DIAGNOSIS ───────────────────────────────────── */}
-        <section className="tdmd-section" id={`${pid}-differentials`}>
+        {/* ─── 5) SELF-CARE TO TRY FIRST ───────────────────────────────────── */}
+        <section className="tdmd-section" id={`${pid}-self-care`}>
           <div className="tdmd-container">
-            <h2>What Causes Skin Rash? Differential Diagnosis</h2>
-            <p>Not all skin rash is the same condition. The table below lists the most common causes your physician will consider, with features that distinguish them.</p>
-            <div className="tdmd-table-wrap">
-              <table className="tdmd-table" aria-label="Skin Rash differential diagnosis">
-                <thead>
-                  <tr>
-                    <th>Condition</th>
-                    <th>Description</th>
-                    <th>Prevalence</th>
-                    <th>Key Features</th>
-                    <th>Next Step</th>
-                  </tr>
-                </thead>
-                <tbody>
-              <tr>
-                <td><strong dangerouslySetInnerHTML={{ __html: `Allergic contact dermatitis` }} /></td>
-                <td dangerouslySetInnerHTML={{ __html: `Type IV hypersensitivity to allergens (nickel, poison ivy, fragrance, etc.).` }} />
-                <td dangerouslySetInnerHTML={{ __html: `Very common` }} />
-                <td dangerouslySetInnerHTML={{ __html: `Linear or geometric pattern, intense itch, vesicles in acute phase, identifiable trigger` }} />
-                <td dangerouslySetInnerHTML={{ __html: `Identify and stop trigger; topical steroid (triamcinolone 0.1%); oral antihistamine` }} />
-              </tr>
-              <tr>
-                <td><strong dangerouslySetInnerHTML={{ __html: `Atopic dermatitis (eczema)` }} /></td>
-                <td dangerouslySetInnerHTML={{ __html: `Chronic relapsing inflammatory skin disease.` }} />
-                <td dangerouslySetInnerHTML={{ __html: `~10–15% of adults, ~15–20% of children` }} />
-                <td dangerouslySetInnerHTML={{ __html: `Flexural distribution (elbows, knees), dry itchy skin, chronic relapsing, atopic history` }} />
-                <td dangerouslySetInnerHTML={{ __html: `Daily emollient + topical steroid for flares; trigger avoidance` }} />
-              </tr>
-              <tr>
-                <td><strong dangerouslySetInnerHTML={{ __html: `Tinea (fungal infection)` }} /></td>
-                <td dangerouslySetInnerHTML={{ __html: `Dermatophyte infection of skin (corporis, cruris, pedis).` }} />
-                <td dangerouslySetInnerHTML={{ __html: `Common` }} />
-                <td dangerouslySetInnerHTML={{ __html: `Annular scaly red patches with central clearing, may have advancing border` }} />
-                <td dangerouslySetInnerHTML={{ __html: `Topical antifungal (clotrimazole, terbinafine) × 2–4 weeks; oral if extensive` }} />
-              </tr>
-              <tr>
-                <td><strong dangerouslySetInnerHTML={{ __html: `Urticaria (hives)` }} /></td>
-                <td dangerouslySetInnerHTML={{ __html: `IgE-mediated or non-allergic mast cell activation.` }} />
-                <td dangerouslySetInnerHTML={{ __html: `~20% of population at some point` }} />
-                <td dangerouslySetInnerHTML={{ __html: `Wheals (raised pink-white plaques) lasting &lt;24 hours each, intense itch, may migrate` }} />
-                <td dangerouslySetInnerHTML={{ __html: `Cetirizine 10–20 mg daily; identify trigger; epinephrine if angioedema/anaphylaxis` }} />
-              </tr>
-              <tr>
-                <td><strong dangerouslySetInnerHTML={{ __html: `Drug reaction` }} /></td>
-                <td dangerouslySetInnerHTML={{ __html: `Cutaneous adverse reaction to medication.` }} />
-                <td dangerouslySetInnerHTML={{ __html: `~2–5% of new medication starts` }} />
-                <td dangerouslySetInnerHTML={{ __html: `Symmetric morbilliform rash 7–14 days after starting drug, often itchy` }} />
-                <td dangerouslySetInnerHTML={{ __html: `Stop offending drug; supportive; topical steroid; in-person if mucosal/systemic` }} />
-              </tr>
-                </tbody>
-              </table>
+            <h2>Self-Care to Try First</h2>
+            <p>For mild contact dermatitis or eczema flares without infection, blistering, or spreading, the following measures are evidence-based per AAD guidance:</p>
+            <ul>
+              <li dangerouslySetInnerHTML={{ __html: `<strong>Remove the suspected trigger immediately</strong> — discontinue new soaps, lotions, detergents, jewelry, or cosmetics. Wash affected skin thoroughly with gentle cleanser and water.` }} />
+              <li dangerouslySetInnerHTML={{ __html: `<strong>OTC hydrocortisone 1% cream</strong> — apply to affected area 2–4 times daily × up to 7 days. Reduces inflammation and itch for contact dermatitis and mild eczema. Do not use on infected skin.` }} />
+              <li dangerouslySetInnerHTML={{ __html: `<strong>Cool compresses</strong> — apply a cool, damp cloth to the rash for 10–15 minutes several times daily to relieve itch and reduce inflammation.` }} />
+              <li dangerouslySetInnerHTML={{ __html: `<strong>OTC cetirizine 10 mg daily</strong> — for itch relief from urticaria or allergic rash. Less sedating than diphenhydramine (Benadryl); more effective as a daily antihistamine for hives.` }} />
+              <li dangerouslySetInnerHTML={{ __html: `<strong>Fragrance-free moisturizer</strong> — apply generously after bathing on eczema-prone skin to restore barrier function. Per AAD guidance, moisturizer is the cornerstone of eczema management.` }} />
+              <li dangerouslySetInnerHTML={{ __html: `<strong>Avoid scratching</strong> — scratching breaks the skin barrier, increases infection risk, and worsens inflammation.` }} />
+            </ul>
+            <p>If the rash does not improve within 7 days, spreads, becomes painful, develops pus or crusting, or is accompanied by fever, book a physician evaluation.</p>
+          </div>
+        </section>
+
+        {/* ─── 6) WHEN TO BOOK A VISIT ──────────────────────────────────────── */}
+        <section className="tdmd-section tdmd-section-highlight" id={`${pid}-when-to-book`}>
+          <div className="tdmd-container">
+            <h2>When to Book a TeleDirectMD Visit</h2>
+            <p>A $79 California video evaluation is appropriate for a skin rash when:</p>
+            <ul>
+              <li dangerouslySetInnerHTML={{ __html: `Rash has not improved after 7 days of OTC hydrocortisone cream` }} />
+              <li dangerouslySetInnerHTML={{ __html: `Rash is spreading beyond the initial area` }} />
+              <li dangerouslySetInnerHTML={{ __html: `Rash is painful, blistering, or crusting (possible shingles or impetigo)` }} />
+              <li dangerouslySetInnerHTML={{ __html: `A new medication was started in the past 2 weeks and a rash developed` }} />
+              <li dangerouslySetInnerHTML={{ __html: `Rash is significantly affecting sleep or quality of life` }} />
+              <li dangerouslySetInnerHTML={{ __html: `You are immunocompromised or &gt;50 years old with a unilateral blistering rash (possible shingles)` }} />
+            </ul>
+            <h3>What Happens in a TeleDirectMD Evaluation</h3>
+            <ol>
+              <li dangerouslySetInnerHTML={{ __html: `<strong>Book your visit</strong> at book.teledirectmd.com — select a same-day or next-day time slot. No referral required. Ensure good lighting when showing the rash on camera.` }} />
+              <li dangerouslySetInnerHTML={{ __html: `<strong>15-minute secure video visit</strong> with a board-certified Family Medicine physician. The doctor visually evaluates rash morphology, distribution, and associated symptoms, and reviews exposures, medications, and prior skin conditions.` }} />
+              <li dangerouslySetInnerHTML={{ __html: `<strong>Evaluation results and plan:</strong> Targeted prescription provided based on rash type (topical corticosteroid, antihistamine, antifungal, antibiotic, or antiviral). Dermatology referral provided for biopsy-warranted lesions or complex systemic conditions.` }} />
+            </ol>
+            <div className="tdmd-sym__cta-strip" role="complementary" style={{ marginTop: '1.5rem' }}>
+              <div>
+                <p>Book a $79 California evaluation for skin rash</p>
+                <small>Same-day visits available &amp;middot; Board-certified Family Medicine &amp;middot; e-Prescription same day</small>
+              </div>
+              <a className="tdmd-sym__cta-btn" href="https://book.teledirectmd.com" rel="noopener">Book Now &amp;rarr;</a>
             </div>
           </div>
         </section>
 
-        {/* ─── 6) COST COMPARISON (vertical bars — tdmd-vbar) ──────────────── */}
-        <section className="tdmd-section tdmd-section-highlight" id={`${pid}-cost`}>
+        {/* ─── 7) COST COMPARISON (vertical bars — tdmd-vbar) ──────────────── */}
+        <section className="tdmd-section" id={`${pid}-cost`}>
           <div className="tdmd-container">
-            <h2>Skin Rash Treatment Cost Comparison</h2>
-            <p>TeleDirectMD&apos;s self-pay rate is <strong>$79</strong> for a complete MD video visit — evaluation, treatment plan, and e-prescription included. The chart below shows how that compares to typical out-of-pocket costs at other settings. Prescription medication costs are separate.</p>
+            <h2>Evaluation Cost Comparison</h2>
+            <p>TeleDirectMD&apos;s self-pay rate is <strong>$79</strong> for a complete MD video evaluation. Prescription medication costs are separate.</p>
 
             <div className="tdmd-price-grid">
               <div className="tdmd-price-card" aria-label="TeleDirectMD pricing">
-                <h3>TeleDirectMD Video Visit</h3>
+                <h3>TeleDirectMD Video Evaluation</h3>
                 <p className="tdmd-price-big">$79</p>
                 <p className="tdmd-price-sub">Self-pay flat fee — no subscription</p>
                 <ul className="tdmd-price-includes">
-                  <li>Board-certified MD video evaluation</li>
-                  <li>Red-flag screening &amp;amp; structured triage</li>
-                  <li>e-Prescription to your pharmacy (when appropriate)</li>
-                  <li>Follow-up instructions &amp;amp; prevention guidance</li>
+                  <li>Board-certified Family Medicine physician</li>
+                  <li>Visual rash evaluation and cause assessment</li>
+                  <li>Prescription topical or systemic therapy if appropriate</li>
                   <li>No hidden fees — $79 is the total visit cost</li>
                 </ul>
               </div>
 
-              <div className="tdmd-price-chart" role="group" aria-label="Typical Skin Rash cost comparison">
+              <div className="tdmd-price-chart" role="group" aria-label="Typical skin rash visit cost comparison">
                 <h3>Typical Skin Rash Visit Cost</h3>
-                <p className="tdmd-price-caption">Typical out-of-pocket costs before insurance. Actual costs vary by location and plan. ER average per Mira Health 2025 data.</p>
+                <p className="tdmd-price-caption">Typical out-of-pocket costs before insurance. Actual costs vary by location and plan.</p>
                 <div className="tdmd-vbars" role="list" aria-label="Cost comparison bars">
                   {COST_BARS.map((bar, i) => (
                     <div key={i} className="tdmd-vbar" role="listitem" aria-label={`${bar.name}: ${bar.value}`}>
@@ -600,189 +559,27 @@ export default function SymptomSkinRash() {
                 </div>
                 <p className="tdmd-price-footnote">
                   TeleDirectMD $79 · Retail Clinic $139 · Urgent Care $200 · ER $2,715 avg.
-                  Source: Mira Health cost benchmarks, Feb 2025. Actual costs vary by setting, location, and insurance.
+                  Source: Mira Health cost benchmarks, Feb 2025.
                 </p>
               </div>
             </div>
-
-            <p style={{ marginTop: '1rem' }}>
-              For more detail, see <a href="/what-we-treat">all conditions we treat</a> or view our <a href="/faq">FAQ page</a> for common billing questions. TeleDirectMD does not bill insurance for self-pay visits.
-            </p>
           </div>
         </section>
 
-        {/* ─── 7) MEDICATION TABLE ─────────────────────────────────────────── */}
-        <section className="tdmd-section" id={`${pid}-medications`}>
-          <div className="tdmd-container">
-            <h2>Skin Rash Treatment Options &amp;amp; Medication Guide</h2>
-            <p>
-              The medications listed below represent evidence-based options used for skin rash. The physician selects the most appropriate agent based on your history, allergies, kidney function, drug interactions, and symptom severity at the time of the visit. GoodRx prices retrieved May 2026; actual cost varies by pharmacy.
-            </p>
-            <div className="tdmd-table-wrap">
-              <table className="tdmd-table" aria-label="Skin Rash medication options">
-                <caption style={{ captionSide: 'bottom', textAlign: 'left', padding: '0.5rem 0', fontSize: '0.85rem', color: 'var(--tdmd-muted)' }}>
-                  GoodRx prices retrieved May 2026. Prescription costs are separate from the $79 TeleDirectMD visit fee. Actual pharmacy costs vary.
-                </caption>
-                <thead>
-                  <tr>
-                    <th>Medication</th>
-                    <th>Form</th>
-                    <th>Drug Class</th>
-                    <th>Typical Dose</th>
-                    <th>GoodRx Price</th>
-                    <th>Key Considerations</th>
-                  </tr>
-                </thead>
-                <tbody>
-              <tr>
-                <td><strong>Triamcinolone 0.1%</strong> <span className="tdmd-sym__med-brand">(Kenalog)</span></td>
-                <td>Topical cream/ointment</td>
-                <td>Medium-potency topical corticosteroid</td>
-                <td dangerouslySetInnerHTML={{ __html: `Apply BID × 1–2 weeks` }} />
-                <td><a href="https://www.goodrx.com/kenalog" target="_blank" rel="noopener">$5–$25</a></td>
-                <td dangerouslySetInnerHTML={{ __html: `Skin thinning with prolonged use; avoid face/groin` }} />
-              </tr>
-              <tr>
-                <td><strong>Hydrocortisone 1–2.5%</strong> <span className="tdmd-sym__med-brand">(Cortizone)</span></td>
-                <td>Topical cream</td>
-                <td>Low-potency topical corticosteroid</td>
-                <td dangerouslySetInnerHTML={{ __html: `Apply BID × 1–2 weeks` }} />
-                <td><a href="https://www.goodrx.com/hydrocortisone" target="_blank" rel="noopener">$4–$11</a></td>
-                <td dangerouslySetInnerHTML={{ __html: `Minimal at low potency; suitable for face/groin` }} />
-              </tr>
-              <tr>
-                <td><strong>Clobetasol 0.05%</strong> <span className="tdmd-sym__med-brand">(Temovate)</span></td>
-                <td>Topical cream/ointment</td>
-                <td>Super-high-potency topical corticosteroid</td>
-                <td dangerouslySetInnerHTML={{ __html: `Apply BID × max 2 weeks` }} />
-                <td><a href="https://www.goodrx.com/clobetasol" target="_blank" rel="noopener">$11–$251</a></td>
-                <td dangerouslySetInnerHTML={{ __html: `Skin thinning; use only on body, short courses` }} />
-              </tr>
-              <tr>
-                <td><strong>Terbinafine</strong> <span className="tdmd-sym__med-brand">(Lamisil)</span></td>
-                <td>Topical cream / oral</td>
-                <td>Antifungal</td>
-                <td dangerouslySetInnerHTML={{ __html: `Apply 1% cream BID × 2–4 weeks; oral 250 mg daily for 2–6 weeks for severe` }} />
-                <td><a href="https://www.goodrx.com/terbinafine" target="_blank" rel="noopener">$6–$64</a></td>
-                <td dangerouslySetInnerHTML={{ __html: `Local irritation (cream); LFT elevation (oral)` }} />
-              </tr>
-              <tr>
-                <td><strong>Cetirizine</strong> <span className="tdmd-sym__med-brand">(Zyrtec)</span></td>
-                <td>Oral tablet</td>
-                <td>Second-generation antihistamine</td>
-                <td dangerouslySetInnerHTML={{ __html: `10 mg once daily; up to 40 mg/day for chronic urticaria` }} />
-                <td><a href="https://www.goodrx.com/cetirizine" target="_blank" rel="noopener">$2–$10</a></td>
-                <td dangerouslySetInnerHTML={{ __html: `Mild drowsiness; dry mouth` }} />
-              </tr>
-                </tbody>
-              </table>
-            </div>
-            <p className="tdmd-med-note">
-              <strong>Important:</strong> Do not start any prescription medication without a clinical evaluation. The appropriate choice depends on your individual history, allergies, comorbidities, and current medications — all assessed by the physician at your visit. TeleDirectMD does not prescribe controlled substances.
-            </p>
-          </div>
-        </section>
-
-        {/* ─── 8) RED FLAGS ────────────────────────────────────────────────── */}
-        <section className="tdmd-section tdmd-section-highlight" id={`${pid}-red-flags`}>
-          <div className="tdmd-container">
-            <h2>Red Flags — When to Seek Emergency or Urgent In-Person Care</h2>
-            <p>
-              TeleDirectMD is not appropriate for severe or complex presentations. The following symptoms require immediate in-person or emergency evaluation. Do not use telehealth if any of the following apply:
-            </p>
-            <div className="tdmd-sym__dual-card tdmd-sym__dual-card--alert" style={{ marginTop: '0.75rem' }}>
-              <h3>Seek Urgent / Emergency Care Immediately If</h3>
-              <ul>
-              <li dangerouslySetInnerHTML={{ __html: `<strong>Rash with fever, mucosal lesions (mouth, eyes, genitals)</strong> — possible Stevens-Johnson syndrome; ER` }} />
-              <li dangerouslySetInnerHTML={{ __html: `<strong>Expanding painful red area with fever</strong> — cellulitis or necrotizing infection; in-person urgent` }} />
-              <li dangerouslySetInnerHTML={{ __html: `<strong>Petechiae/purpura that don't blanch</strong> — possible meningococcemia, vasculitis; ER` }} />
-              <li dangerouslySetInnerHTML={{ __html: `<strong>Rash with breathing difficulty or facial/throat swelling</strong> — anaphylaxis; ER` }} />
-              <li dangerouslySetInnerHTML={{ __html: `<strong>Blisters covering large area</strong> — burn, severe drug reaction; ER` }} />
-              <li dangerouslySetInnerHTML={{ __html: `<strong>Painful purple/black necrotic skin</strong> — necrotizing fasciitis; ER` }} />
-              <li dangerouslySetInnerHTML={{ __html: `<strong>Whole-body rash with new medication 1–2 weeks ago</strong> — possible severe drug reaction (DRESS, SJS)` }} />
-              <li dangerouslySetInnerHTML={{ __html: `<strong>Rash in pregnancy with fever</strong> — needs urgent evaluation` }} />
-              </ul>
-            </div>
-            <p style={{ marginTop: '1rem' }}>
-              Call 911 or go to your nearest emergency room for any life-threatening symptoms. For non-emergency in-person needs, <a href="https://findahealthcenter.hrsa.gov/" rel="noopener" target="_blank">HRSA Health Center Finder</a> can locate a low-cost clinic near you.
-            </p>
-          </div>
-        </section>
-
-        {/* ─── 9) RECOVERY TIMELINE ────────────────────────────────────────── */}
-        <section className="tdmd-section" id={`${pid}-recovery`}>
-          <div className="tdmd-container">
-            <h2>What to Expect: Skin Rash Recovery Timeline</h2>
-            <p>Recovery timelines are approximate and depend on the underlying cause, treatment chosen, and individual factors. Use these as general guides, not guarantees.</p>
-            <div className="tdmd-table-wrap">
-              <table className="tdmd-table" aria-label="Skin Rash recovery timeline">
-                <thead>
-                  <tr>
-                    <th>Timeframe</th>
-                    <th>What to Expect</th>
-                  </tr>
-                </thead>
-                <tbody>
-              <tr>
-                <td><strong>Day 1–3</strong></td>
-                <td dangerouslySetInnerHTML={{ __html: `Itch begins to decrease with treatment. Avoid the trigger (if known).` }} />
-              </tr>
-              <tr>
-                <td><strong>Week 1</strong></td>
-                <td dangerouslySetInnerHTML={{ __html: `Most contact dermatitis 50%+ resolved with topical steroid + trigger avoidance.` }} />
-              </tr>
-              <tr>
-                <td><strong>Week 2</strong></td>
-                <td dangerouslySetInnerHTML={{ __html: `Tinea typically clearing with topical antifungal; complete the full 4-week course to prevent relapse.` }} />
-              </tr>
-              <tr>
-                <td><strong>Week 4</strong></td>
-                <td dangerouslySetInnerHTML={{ __html: `Eczema flare resolved with consistent steroid + maintenance moisturizer.` }} />
-              </tr>
-              <tr>
-                <td><strong>Long-term</strong></td>
-                <td dangerouslySetInnerHTML={{ __html: `Eczema is chronic — daily moisturizer + intermittent steroid for flares is the foundation. Identify and avoid triggers.` }} />
-              </tr>
-                </tbody>
-              </table>
-            </div>
-          </div>
-        </section>
-
-        {/* ─── 10) HOME CARE ───────────────────────────────────────────────── */}
-        <section className="tdmd-section tdmd-section-highlight" id={`${pid}-home-care`}>
-          <div className="tdmd-container">
-            <h2>Home Care &amp;amp; Self-Management Tips for Skin Rash</h2>
-            <p>These evidence-based home care strategies can complement prescription treatment. They are not substitutes for medical evaluation.</p>
-            <ul>
-              <li dangerouslySetInnerHTML={{ __html: `Identify and avoid the trigger (food, soap, plant, jewelry, fabric)` }} />
-              <li dangerouslySetInnerHTML={{ __html: `Cool compresses 15 min × 3 daily for itch and inflammation` }} />
-              <li dangerouslySetInnerHTML={{ __html: `Lukewarm (not hot) showers and gentle fragrance-free cleanser` }} />
-              <li dangerouslySetInnerHTML={{ __html: `Pat dry; apply moisturizer within 3 minutes of bath` }} />
-              <li dangerouslySetInnerHTML={{ __html: `Apply prescribed topical medication first, then moisturizer on top` }} />
-              <li dangerouslySetInnerHTML={{ __html: `Use thick moisturizers (CeraVe, Cetaphil cream, Vanicream)` }} />
-              <li dangerouslySetInnerHTML={{ __html: `Wear loose 100% cotton clothing while symptomatic` }} />
-              <li dangerouslySetInnerHTML={{ __html: `Avoid scratching — keep nails short, consider cotton gloves at night` }} />
-              <li dangerouslySetInnerHTML={{ __html: `Oatmeal baths (Aveeno colloidal) for widespread itch` }} />
-              <li dangerouslySetInnerHTML={{ __html: `Take antihistamines before bed to reduce night-time scratching` }} />
-            </ul>
-          </div>
-        </section>
-
-        {/* ─── 11) CTA STRIP ────────────────────────────────────────────────── */}
+        {/* ─── 8) CTA STRIP ────────────────────────────────────────────────── */}
         <section className="tdmd-section" aria-label="Book a visit">
           <div className="tdmd-container">
             <div className="tdmd-sym__cta-strip" role="complementary">
               <div>
-                <p>Book a same-day video visit — adults 18+ in 41 states</p>
-                <small>Self pay $79 &amp;middot; MD-only care &amp;middot; No ER wait &amp;middot; e-Prescription same day</small>
+                <p>Book a same-day California evaluation — adults 18+ &amp;middot; $79 self-pay</p>
+                <small>Board-certified Family Medicine &amp;middot; MD-only care &amp;middot; e-Prescription same day</small>
               </div>
               <a className="tdmd-sym__cta-btn" href="/book-online" rel="noopener">Book Now &amp;rarr;</a>
             </div>
           </div>
         </section>
 
-        {/* ─── 12) FAQ ACCORDION ───────────────────────────────────────────── */}
+        {/* ─── 9) FAQ ACCORDION ───────────────────────────────────────────── */}
         <section className="tdmd-section tdmd-faq" id={`${pid}-faq`}>
           <div className="tdmd-container">
             <FaqAccordion
@@ -792,8 +589,8 @@ export default function SymptomSkinRash() {
 
             <div className="tdmd-bottom-cta" role="region" aria-label="Book a visit call to action">
               <div className="tdmd-bottom-cta-copy">
-                <h3>Ready to see a board-certified MD?</h3>
-                <p>Book a same-day video visit. Self pay $79 &amp;middot; 41 states &amp;middot; MD-only care.</p>
+                <h3>Ready to get your skin rash evaluated?</h3>
+                <p>Book a same-day $79 California video visit. Board-certified Family Medicine &amp;middot; MD-only care.</p>
               </div>
               <div className="tdmd-bottom-cta-actions">
                 <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
@@ -803,11 +600,10 @@ export default function SymptomSkinRash() {
           </div>
         </section>
 
-        {/* ─── 13) RELATED CONDITIONS ──────────────────────────────────────── */}
+        {/* ─── 10) RELATED CONDITIONS ──────────────────────────────────────── */}
         <section className="tdmd-section tdmd-section-highlight" id={`${pid}-related-conditions`}>
           <div className="tdmd-container">
             <h2>Related Conditions We Treat Online</h2>
-            <p>These condition pages cover related symptoms or treatments that may be relevant to your skin rash visit.</p>
             <div className="tdmd-sym__sibling-grid">
               {RELATED_CONDITIONS.map((s) => (
                 <a key={s.slug} className="tdmd-sym__sibling" href={s.slug}>
@@ -818,7 +614,7 @@ export default function SymptomSkinRash() {
           </div>
         </section>
 
-        {/* ─── 14) RELATED RESOURCE LINKS ─────────────────────────────────── */}
+        {/* ─── 11) RELATED RESOURCE LINKS ─────────────────────────────────── */}
         <section className="tdmd-section" id={`${pid}-related`}>
           <div className="tdmd-container">
             <h2>Related Resources from TeleDirectMD</h2>
@@ -834,22 +630,20 @@ export default function SymptomSkinRash() {
           </div>
         </section>
 
-        {/* ─── 15) REFERENCES ──────────────────────────────────────────────── */}
+        {/* ─── 12) REFERENCES ──────────────────────────────────────────────── */}
         <section className="tdmd-section" id={`${pid}-references`}>
           <div className="tdmd-container">
             <h2>References and Primary Sources</h2>
             <ol className="tdmd-ref-list">
-              <li><a href="https://www.aad.org/member/clinical-quality/guidelines/contact-dermatitis" rel="noopener" target="_blank">AAD — Contact Dermatitis Clinical Guidelines</a>. Retrieved May 23, 2026.</li>
-              <li><a href="https://www.aafp.org/pubs/afp/issues/2012/0815/p356.html" rel="noopener" target="_blank">AAFP — Dermatitis: Diagnosis and Management</a>. Retrieved May 23, 2026.</li>
-              <li><a href="https://www.cdc.gov/niosh/topics/skin/default.html" rel="noopener" target="_blank">CDC — Dermatological Conditions Overview</a>. Retrieved May 23, 2026.</li>
-              <li><a href="https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=triamcinolone+topical" rel="noopener" target="_blank">FDA DailyMed — Triamcinolone Topical</a>. Retrieved May 23, 2026.</li>
-              <li><a href="https://www.goodrx.com/triamcinolone-topical" rel="noopener" target="_blank">GoodRx — Topical Steroid Pricing</a>. Retrieved May 23, 2026.</li>
-              <li><a href="https://www.theabfm.org/" rel="noopener" target="_blank">ABFM — Dermatology Resources</a>. Retrieved May 23, 2026.</li>
+              <li><a href="https://www.aad.org/public/diseases/eczema/types/atopic-dermatitis" rel="noopener" target="_blank">AAD — Atopic Dermatitis: Overview and Treatment</a>. Retrieved May 23, 2026.</li>
+              <li><a href="https://www.cdc.gov/shingles/hcp/clinical-overview.html" rel="noopener" target="_blank">CDC — Shingles (Herpes Zoster): Clinical Overview</a>. Retrieved May 23, 2026.</li>
+              <li><a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&amp;sectionNum=2290.5." rel="noopener" target="_blank">California B&amp;P Code 2290.5 — Telehealth</a>. Retrieved May 23, 2026.</li>
+              <li><a href="https://www.theabfm.org/" rel="noopener" target="_blank">ABFM — Board Certification Standards</a>. Retrieved May 23, 2026.</li>
             </ol>
           </div>
         </section>
 
-        {/* ─── 16) MEDICAL DISCLAIMER ─────────────────────────────────────── */}
+        {/* ─── 13) MEDICAL DISCLAIMER ─────────────────────────────────────── */}
         <section className="tdmd-section tdmd-footnote" id={`${pid}-disclaimer`}>
           <div className="tdmd-container">
             <h2>Medical Disclaimer</h2>
@@ -857,7 +651,7 @@ export default function SymptomSkinRash() {
               This page is for informational purposes only and is not a substitute for individualized medical advice, diagnosis, or treatment. Use of TeleDirectMD does not establish a physician-patient relationship until a video visit is initiated and documented. Treatment decisions are made by a board-certified physician based on the clinical history presented at the time of the visit.
             </p>
             <p>
-              If you have red-flag or emergency symptoms, seek urgent in-person or emergency care immediately — do not use TeleDirectMD. The $79 visit fee covers the physician evaluation only; prescription medication costs are separate and vary by pharmacy. GoodRx price estimates are retrieved May 2026 and are subject to change. Insurance information on this page is current as of May 23, 2026; verify with your insurer before booking. TeleDirectMD does not prescribe controlled substances in any state.
+              If you have red-flag symptoms such as difficulty breathing with a rash, rapidly spreading skin infection, or a non-blanching purpuric rash, seek emergency care immediately — do not use TeleDirectMD. The $79 visit fee covers the physician evaluation only; prescription medication costs are separate and vary by pharmacy. TeleDirectMD does not prescribe controlled substances in any state.
             </p>
           </div>
         </section>

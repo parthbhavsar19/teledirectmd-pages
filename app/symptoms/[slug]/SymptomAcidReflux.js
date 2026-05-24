@@ -1,7 +1,7 @@
 /**
  * SymptomAcidReflux.js — TeleDirectMD Symptom Page v3
  *
- * Symptom: Acid Reflux
+ * Symptom: Heartburn and Regurgitation (Acid Reflux)
  * Slug:    /symptoms/acid-reflux/
  * ICD-10:  K21.0 — Gastro-esophageal reflux disease with esophagitis
  *
@@ -13,7 +13,7 @@
  *   • FAQPage schema only (no QA variant)
  *   • No CitableSummaryBlock import
  *   • NPI 1104323203 in Physician schema
- *   • Literal < and > in JSX text escaped as < >
+ *   • Literal < and > in JSX text escaped as &lt; &gt;
  *   • Medically reviewed by Parth Bhavsar, MD — Updated May 23, 2026
  *
  * Generated: 2026-05-23. DO NOT edit manually — regenerate from config.
@@ -23,7 +23,7 @@ import FaqAccordion from '../../components/FaqAccordion';
 
 // ─── Page constants ────────────────────────────────────────────────────────────
 const PAGE_URL = 'https://teledirectmd.com/symptoms/acid-reflux/';
-const PAGE_TITLE = `Acid Reflux Treatment Online — PPI Prescription | TeleDirectMD`;
+const PAGE_TITLE = `Heartburn and Regurgitation — What Could Be Causing It? | TeleDirectMD`;
 const DATE_PUBLISHED = '2026-05-23';
 const DATE_MODIFIED = '2026-05-23';
 const LAST_REVIEWED = '2026-05-23';
@@ -106,87 +106,87 @@ const MEDICATIONS = [
 // ─── FAQ items (12) ───────────────────────────────────────────────────────────
 const FAQ_ITEMS = [
   {
-    question: `Can a telehealth doctor prescribe omeprazole or pantoprazole?`,
-    answerPlain: `Yes — these are non-controlled medications. Dr. Bhavsar can prescribe an 8-week PPI trial after a focused history that screens for cardiac and alarm-feature red flags. ACG and AAFP guidelines support this approach.`,
+    question: `What could be causing my heartburn and regurgitation symptoms?`,
+    answerPlain: `Heartburn and regurgitation are most commonly caused by gastroesophageal reflux disease (GERD), where stomach acid flows back into the esophagus. Other possible causes include functional dyspepsia, H. pylori gastritis, a hiatal hernia, or — importantly — cardiac chest pain, which can mimic heartburn. A physician evaluation helps determine which cause is most likely for your specific pattern of symptoms.`,
     answer: (
-      <p dangerouslySetInnerHTML={{ __html: `Yes — these are non-controlled medications. Dr. Bhavsar can prescribe an 8-week PPI trial after a focused history that screens for cardiac and alarm-feature red flags. ACG and AAFP guidelines support this approach.` }} />
+      <p dangerouslySetInnerHTML={{ __html: `Heartburn and regurgitation are most commonly caused by gastroesophageal reflux disease (GERD), where stomach acid flows back into the esophagus. Other possible causes include functional dyspepsia, H. pylori gastritis, a hiatal hernia, or — importantly — cardiac chest pain, which can mimic heartburn. A physician evaluation helps determine which cause is most likely for your specific pattern of symptoms.` }} />
     ),
   },
   {
-    question: `How long should I take a PPI?`,
-    answerPlain: `For uncomplicated GERD, 8 weeks at standard dose, then taper to lowest effective dose or switch to H2 blocker. Long-term daily PPI use is appropriate for severe esophagitis or Barrett's esophagus, but otherwise on-demand or low-dose maintenance is preferred.`,
+    question: `When should I see a doctor for heartburn and regurgitation?`,
+    answerPlain: `See a physician if heartburn occurs 2 or more days per week, persists despite over-the-counter antacids for 2 weeks, is accompanied by difficulty swallowing, causes nighttime awakening, or if you have lost weight unintentionally. A $79 TeleDirectMD video evaluation can help determine the likely cause and whether a proton pump inhibitor trial is appropriate under California B&P 2290.5 telehealth law.`,
     answer: (
-      <p dangerouslySetInnerHTML={{ __html: `For uncomplicated GERD, 8 weeks at standard dose, then taper to lowest effective dose or switch to H2 blocker. Long-term daily PPI use is appropriate for severe esophagitis or Barrett's esophagus, but otherwise on-demand or low-dose maintenance is preferred.` }} />
+      <p dangerouslySetInnerHTML={{ __html: `See a physician if heartburn occurs 2 or more days per week, persists despite over-the-counter antacids for 2 weeks, is accompanied by difficulty swallowing, causes nighttime awakening, or if you have lost weight unintentionally. A $79 TeleDirectMD video evaluation can help determine the likely cause and whether a proton pump inhibitor trial is appropriate under California B&amp;P 2290.5 telehealth law.` }} />
     ),
   },
   {
-    question: `Are PPIs safe long-term?`,
-    answerPlain: `Generally yes when used appropriately. Long-term concerns include modest increased risk of bone fractures, B12 deficiency, magnesium deficiency, and C. diff infection. The relative risks are small but real — that's why we recommend stepping down to lowest effective dose.`,
+    question: `When is heartburn or chest burning an emergency?`,
+    answerPlain: `Seek ER care immediately if your chest discomfort is pressure or squeezing rather than burning, comes on with exertion, radiates to your arm or jaw, is accompanied by sweating or shortness of breath, or if you vomit blood or notice black tarry stools. These features suggest a cardiac or GI emergency, not reflux.`,
     answer: (
-      <p dangerouslySetInnerHTML={{ __html: `Generally yes when used appropriately. Long-term concerns include modest increased risk of bone fractures, B12 deficiency, magnesium deficiency, and C. diff infection. The relative risks are small but real — that's why we recommend stepping down to lowest effective dose.` }} />
+      <p dangerouslySetInnerHTML={{ __html: `Seek ER care immediately if your chest discomfort is pressure or squeezing rather than burning, comes on with exertion, radiates to your arm or jaw, is accompanied by sweating or shortness of breath, or if you vomit blood or notice black tarry stools. These features suggest a cardiac or GI emergency, not reflux.` }} />
     ),
   },
   {
-    question: `What\'s the difference between omeprazole and pantoprazole?`,
-    answerPlain: `Both are equally effective for typical GERD. Pantoprazole has fewer drug interactions (preferred if you take clopidogrel, methotrexate, or atazanavir). Omeprazole is the cheapest and most studied. Choice often comes down to insurance coverage.`,
+    question: `How long is too long to have heartburn before seeing a doctor?`,
+    answerPlain: `Heartburn occurring more than twice a week for 2 weeks without improvement on OTC antacids warrants evaluation. New-onset heartburn after age 50, or any heartburn with alarm features (difficulty swallowing, weight loss, bleeding), should be evaluated promptly regardless of duration. Per AAFP guidelines, persistent GERD warrants a structured assessment before starting a PPI course.`,
     answer: (
-      <p dangerouslySetInnerHTML={{ __html: `Both are equally effective for typical GERD. Pantoprazole has fewer drug interactions (preferred if you take clopidogrel, methotrexate, or atazanavir). Omeprazole is the cheapest and most studied. Choice often comes down to insurance coverage.` }} />
+      <p dangerouslySetInnerHTML={{ __html: `Heartburn occurring more than twice a week for 2 weeks without improvement on OTC antacids warrants evaluation. New-onset heartburn after age 50, or any heartburn with alarm features (difficulty swallowing, weight loss, bleeding), should be evaluated promptly regardless of duration. Per AAFP guidelines, persistent GERD warrants a structured assessment before starting a PPI course.` }} />
     ),
   },
   {
-    question: `Should I take my PPI with food or empty stomach?`,
-    answerPlain: `30–60 minutes BEFORE breakfast, on an empty stomach. PPIs need to be present in your blood when proton pumps are activated by the meal. Taking with food reduces effectiveness ~50%.`,
+    question: `Can a virtual doctor evaluate heartburn and regurgitation?`,
+    answerPlain: `Yes — for typical heartburn and regurgitation without alarm features, a telehealth video visit is appropriate and endorsed by ACG and AAFP guidelines. California Business and Professions Code 2290.5 explicitly permits telehealth evaluation and prescription for conditions like GERD. A physician takes a structured history, screens for cardiac and alarm-feature red flags, and if appropriate, initiates treatment.`,
     answer: (
-      <p dangerouslySetInnerHTML={{ __html: `30–60 minutes BEFORE breakfast, on an empty stomach. PPIs need to be present in your blood when proton pumps are activated by the meal. Taking with food reduces effectiveness ~50%.` }} />
+      <p dangerouslySetInnerHTML={{ __html: `Yes — for typical heartburn and regurgitation without alarm features, a telehealth video visit is appropriate and endorsed by ACG and AAFP guidelines. California Business and Professions Code 2290.5 explicitly permits telehealth evaluation and prescription for conditions like GERD. A physician takes a structured history, screens for cardiac and alarm-feature red flags, and if appropriate, initiates treatment.` }} />
     ),
   },
   {
-    question: `Why does my chest burn at night?`,
-    answerPlain: `Lying flat removes gravity's help in keeping acid down. Solutions: elevate head of bed 6–8 inches (blocks under bedposts, NOT pillows), don't eat within 3 hours of bed, sleep on your left side, and lose weight if applicable.`,
+    question: `What will the doctor do for heartburn at TeleDirectMD?`,
+    answerPlain: `The physician takes a structured history of your heartburn and regurgitation pattern, asks about alarm features (dysphagia, weight loss, bleeding), reviews your medication list for drug-induced causes, and screens for cardiac risk factors. If the evaluation supports GERD, a physician may initiate an 8-week proton pump inhibitor trial per ACG guidelines, along with lifestyle guidance. This is an evaluation — not a predetermined treatment.`,
     answer: (
-      <p dangerouslySetInnerHTML={{ __html: `Lying flat removes gravity's help in keeping acid down. Solutions: elevate head of bed 6–8 inches (blocks under bedposts, NOT pillows), don't eat within 3 hours of bed, sleep on your left side, and lose weight if applicable.` }} />
+      <p dangerouslySetInnerHTML={{ __html: `The physician takes a structured history of your heartburn and regurgitation pattern, asks about alarm features (dysphagia, weight loss, bleeding), reviews your medication list for drug-induced causes, and screens for cardiac risk factors. If the evaluation supports GERD, a physician may initiate an 8-week proton pump inhibitor trial per ACG guidelines, along with lifestyle guidance. This is an evaluation — not a predetermined treatment.` }} />
     ),
   },
   {
-    question: `Can heartburn be a heart attack?`,
-    answerPlain: `Yes — cardiac chest pain can mimic GERD. Red flags: pressure/squeezing rather than burning, exertional onset, radiation to arm/jaw, sweating, shortness of breath. Any of these — go to ER, don't try to wait it out.`,
+    question: `Will I get a prescription if I have heartburn symptoms?`,
+    answerPlain: `A prescription is not guaranteed — it depends on the clinical evaluation. If a physician determines typical GERD is the most likely cause and no alarm features are present, an 8-week PPI (such as omeprazole or pantoprazole) may be prescribed. If cardiac or other serious causes cannot be ruled out via telehealth, you will be referred for in-person evaluation at no additional charge.`,
     answer: (
-      <p dangerouslySetInnerHTML={{ __html: `Yes — cardiac chest pain can mimic GERD. Red flags: pressure/squeezing rather than burning, exertional onset, radiation to arm/jaw, sweating, shortness of breath. Any of these — go to ER, don't try to wait it out.` }} />
+      <p dangerouslySetInnerHTML={{ __html: `A prescription is not guaranteed — it depends on the clinical evaluation. If a physician determines typical GERD is the most likely cause and no alarm features are present, an 8-week PPI (such as omeprazole or pantoprazole) may be prescribed. If cardiac or other serious causes cannot be ruled out via telehealth, you will be referred for in-person evaluation at no additional charge.` }} />
     ),
   },
   {
-    question: `Do I need an endoscopy?`,
-    answerPlain: `Not for typical uncomplicated GERD responding to PPI. Endoscopy is indicated for alarm features (dysphagia, weight loss, bleeding, anemia, persistent vomiting), failure of 8-week PPI trial, or new-onset symptoms after age 50.`,
+    question: `Is heartburn and regurgitation something I can manage at home?`,
+    answerPlain: `Mild occasional heartburn can often be managed with OTC antacids and lifestyle changes: elevating the head of bed 6–8 inches, avoiding meals within 3 hours of bedtime, limiting trigger foods (coffee, alcohol, chocolate, fatty meals), and losing weight if BMI is above 25. Per NIDDK guidance, these measures can reduce symptom frequency but are not sufficient for frequent or severe GERD.`,
     answer: (
-      <p dangerouslySetInnerHTML={{ __html: `Not for typical uncomplicated GERD responding to PPI. Endoscopy is indicated for alarm features (dysphagia, weight loss, bleeding, anemia, persistent vomiting), failure of 8-week PPI trial, or new-onset symptoms after age 50.` }} />
+      <p dangerouslySetInnerHTML={{ __html: `Mild occasional heartburn can often be managed with OTC antacids and lifestyle changes: elevating the head of bed 6–8 inches, avoiding meals within 3 hours of bedtime, limiting trigger foods (coffee, alcohol, chocolate, fatty meals), and losing weight if BMI is above 25. Per NIDDK guidance, these measures can reduce symptom frequency but are not sufficient for frequent or severe GERD.` }} />
     ),
   },
   {
-    question: `Can I drink coffee with GERD?`,
-    answerPlain: `Coffee is a common trigger but tolerance varies. Try eliminating for 2 weeks; if symptoms improve, you have your answer. Some find low-acid or cold-brew coffee more tolerable. Avoid drinking coffee within 3 hours of bed.`,
+    question: `Does insurance cover the TeleDirectMD visit for heartburn?`,
+    answerPlain: `TeleDirectMD accepts Aetna, UnitedHealthcare (UHC), and Blue Cross Blue Shield (BCBS) commercial plans. The self-pay rate is $79 flat — no subscription, no hidden fees. Prescription medication costs are separate and vary by pharmacy; GoodRx can reduce OTC PPI costs to $8–$27.`,
     answer: (
-      <p dangerouslySetInnerHTML={{ __html: `Coffee is a common trigger but tolerance varies. Try eliminating for 2 weeks; if symptoms improve, you have your answer. Some find low-acid or cold-brew coffee more tolerable. Avoid drinking coffee within 3 hours of bed.` }} />
+      <p dangerouslySetInnerHTML={{ __html: `TeleDirectMD accepts Aetna, UnitedHealthcare (UHC), and Blue Cross Blue Shield (BCBS) commercial plans. The self-pay rate is $79 flat — no subscription, no hidden fees. Prescription medication costs are separate and vary by pharmacy; GoodRx can reduce OTC PPI costs to $8–$27.` }} />
     ),
   },
   {
-    question: `Will losing weight cure my GERD?`,
-    answerPlain: `For many people, yes — significantly. A 2016 New England Journal of Medicine review found weight loss of just 10% reduced GERD symptoms by 40%+. Losing weight is the single highest-yield lifestyle change.`,
+    question: `How fast can I be seen for heartburn symptoms?`,
+    answerPlain: `Same-day $79 video visits are frequently available for California adults. Book at book.teledirectmd.com — select your preferred time and a board-certified Family Medicine physician will meet you by secure video. No referral required.`,
     answer: (
-      <p dangerouslySetInnerHTML={{ __html: `For many people, yes — significantly. A 2016 New England Journal of Medicine review found weight loss of just 10% reduced GERD symptoms by 40%+. Losing weight is the single highest-yield lifestyle change.` }} />
+      <p dangerouslySetInnerHTML={{ __html: `Same-day $79 video visits are frequently available for California adults. Book at book.teledirectmd.com — select your preferred time and a board-certified Family Medicine physician will meet you by secure video. No referral required.` }} />
     ),
   },
   {
-    question: `What about H. pylori — should I be tested?`,
-    answerPlain: `H. pylori testing is recommended for: dyspepsia not responding to PPI, history of peptic ulcer, family history of gastric cancer, long-term PPI use, or suspected MALT lymphoma. Not routine for typical GERD. Stool antigen or breath testing is non-invasive.`,
+    question: `What if I need an in-person visit for my heartburn?`,
+    answerPlain: `If alarm features are identified during the evaluation — such as difficulty swallowing, unintentional weight loss, GI bleeding, or failure of 8 weeks of appropriate PPI therapy — a physician will recommend in-person evaluation and, where appropriate, GI referral for upper endoscopy. You will be advised clearly and referred at no additional charge.`,
     answer: (
-      <p dangerouslySetInnerHTML={{ __html: `H. pylori testing is recommended for: dyspepsia not responding to PPI, history of peptic ulcer, family history of gastric cancer, long-term PPI use, or suspected MALT lymphoma. Not routine for typical GERD. Stool antigen or breath testing is non-invasive.` }} />
+      <p dangerouslySetInnerHTML={{ __html: `If alarm features are identified during the evaluation — such as difficulty swallowing, unintentional weight loss, GI bleeding, or failure of 8 weeks of appropriate PPI therapy — a physician will recommend in-person evaluation and, where appropriate, GI referral for upper endoscopy. You will be advised clearly and referred at no additional charge.` }} />
     ),
   },
   {
-    question: `Are antacids enough?`,
-    answerPlain: `For occasional mild heartburn, yes. For typical GERD (symptoms ≥2 days/week), antacids alone are inadequate — H2 blockers or PPIs are needed. Antacids are useful as PRN add-ons for breakthrough symptoms.`,
+    question: `How is heartburn different from chest pain caused by the heart?`,
+    answerPlain: `Heartburn typically produces a burning sensation behind the breastbone, often after meals or when lying down, sometimes with a sour taste in the mouth. Cardiac chest pain is more often described as pressure, squeezing, or tightness; it may be triggered by exertion and can radiate to the arm or jaw. Sweating and shortness of breath accompanying chest discomfort are red flags for a cardiac cause. If you are uncertain, go to the ER — do not try to self-diagnose the difference.`,
     answer: (
-      <p dangerouslySetInnerHTML={{ __html: `For occasional mild heartburn, yes. For typical GERD (symptoms &ge;2 days/week), antacids alone are inadequate — H2 blockers or PPIs are needed. Antacids are useful as PRN add-ons for breakthrough symptoms.` }} />
+      <p dangerouslySetInnerHTML={{ __html: `Heartburn typically produces a burning sensation behind the breastbone, often after meals or when lying down, sometimes with a sour taste in the mouth. Cardiac chest pain is more often described as pressure, squeezing, or tightness; it may be triggered by exertion and can radiate to the arm or jaw. Sweating and shortness of breath accompanying chest discomfort are red flags for a cardiac cause. If you are uncertain, go to the ER — do not try to self-diagnose the difference.` }} />
     ),
   },
 ];
@@ -208,7 +208,7 @@ function buildSchemas() {
     '@type': 'MedicalWebPage',
     name: PAGE_TITLE,
     url: PAGE_URL,
-    description: `Burning chest pain, regurgitation, sour taste? Most acid reflux responds to lifestyle change + omeprazole/pantoprazole. $79 telehealth, prescription same day in 41 states.`,
+    description: `Burning chest pain, regurgitation, sour taste? Most acid reflux responds to lifestyle change + omeprazole/pantoprazole. $79 telehealth evaluation, California adults.`,
     datePublished: DATE_PUBLISHED,
     dateModified: DATE_MODIFIED,
     inLanguage: 'en-US',
@@ -260,14 +260,14 @@ function buildSchemas() {
   const howTo = {
     '@context': 'https://schema.org',
     '@type': 'HowTo',
-    name: `How to Get Acid Reflux Treatment Online`,
-    description: `Three steps to receive GERD evaluation and PPI prescription from a board-certified physician.`,
+    name: `How to Get a Heartburn and Regurgitation Evaluation Online`,
+    description: `Three steps to receive a physician evaluation for heartburn and regurgitation symptoms from a board-certified physician.`,
     totalTime: 'PT30M',
     estimatedCost: { '@type': 'MonetaryAmount', currency: 'USD', value: '79' },
     step: [
-      { '@type': 'HowToStep', position: 1, name: `Book your video visit`, text: `Select acid reflux / GERD on teledirectmd.com. No referral needed. Self pay $79. Same-day visits often available.`, url: `https://teledirectmd.com/symptoms/acid-reflux/` },
-      { '@type': 'HowToStep', position: 2, name: `See a board-certified MD by secure video`, text: `The physician reviews your symptom pattern, alarm features, medications, and cardiac risk factors. Red-flag screening performed before any prescription.`, url: `https://teledirectmd.com/symptoms/acid-reflux/` },
-      { '@type': 'HowToStep', position: 3, name: `Receive your treatment plan and e-prescription`, text: `If appropriate, an 8-week PPI prescription (omeprazole, pantoprazole) plus lifestyle guidance sent to your pharmacy.`, url: `https://teledirectmd.com/symptoms/acid-reflux/` }
+      { '@type': 'HowToStep', position: 1, name: `Book your $79 video visit`, text: `Select acid reflux / heartburn on teledirectmd.com. No referral needed. Self pay $79. Same-day visits often available for California adults.`, url: `https://teledirectmd.com/symptoms/acid-reflux/` },
+      { '@type': 'HowToStep', position: 2, name: `See a board-certified MD by secure video`, text: `The physician reviews your heartburn and regurgitation pattern, alarm features, medications, and cardiac risk factors. Red-flag screening is performed before any prescription.`, url: `https://teledirectmd.com/symptoms/acid-reflux/` },
+      { '@type': 'HowToStep', position: 3, name: `Receive your evaluation results and, if appropriate, a prescription`, text: `If evaluation supports GERD, an 8-week PPI prescription plus lifestyle guidance may be sent to your pharmacy. If in-person workup is needed, you will be referred.`, url: `https://teledirectmd.com/symptoms/acid-reflux/` }
     ],
   };
 
@@ -352,12 +352,12 @@ export default function SymptomAcidReflux() {
           <div className="tdmd-container">
             <div className="tdmd-hero-grid">
               <div className="tdmd-hero-copy">
-                <h1 data-speakable="true" dangerouslySetInnerHTML={{ __html: `Acid Reflux & Heartburn — Same-Day PPI Prescription Online` }} />
+                <h1 data-speakable="true" dangerouslySetInnerHTML={{ __html: `Heartburn and Regurgitation — What Might Be Causing It?` }} />
                 <p className="tdmd-hero-sub" data-speakable="true">
-                  Acid Reflux — same-day video visit with a board-certified family medicine MD. Self pay $79 &amp;middot; 41 states &amp;middot; MD-only care.
+                  Experiencing burning chest discomfort or a sour taste rising into your throat? A $79 California video evaluation can help identify the cause and determine the right next step.
                 </p>
                 <p>
-                  Acid Reflux is one of the most common reasons adults seek medical care. TeleDirectMD provides same-day evaluation and treatment by a board-certified family medicine physician via secure video visit. Self-pay is $79 with no insurance required. Available in 41 states.
+                  Heartburn and regurgitation are among the most common digestive symptoms in adults, but they can have several different causes — some self-limiting, some requiring treatment, and a few that warrant immediate attention. TeleDirectMD provides same-day physician evaluation for California adults experiencing these symptoms via secure video visit. Self-pay is $79 with no insurance required.
                 </p>
 
                 {/* Physician byline (E-E-A-T) */}
@@ -376,11 +376,11 @@ export default function SymptomAcidReflux() {
                 <p className="tdmd-toc-intro" style={{ marginTop: '1.25rem' }}><strong>Quick navigation:</strong></p>
                 <ul className="tdmd-toc">
                   <li><a href={`#${pid}-opening`}>Overview</a></li>
-                  <li><a href={`#${pid}-eligibility`}>Eligibility checklist</a></li>
-                  <li><a href={`#${pid}-differentials`}>Differential diagnosis</a></li>
-                  <li><a href={`#${pid}-cost`}>Cost comparison</a></li>
-                  <li><a href={`#${pid}-medications`}>Medications</a></li>
+                  <li><a href={`#${pid}-causes`}>What might be causing this?</a></li>
                   <li><a href={`#${pid}-red-flags`}>Red flags</a></li>
+                  <li><a href={`#${pid}-self-care`}>Self-care to try first</a></li>
+                  <li><a href={`#${pid}-when-to-book`}>When to book a visit</a></li>
+                  <li><a href={`#${pid}-cost`}>Cost comparison</a></li>
                   <li><a href={`#${pid}-faq`}>FAQs</a></li>
                   <li><a href={`#${pid}-references`}>References</a></li>
                 </ul>
@@ -388,13 +388,13 @@ export default function SymptomAcidReflux() {
                 <ul className="tdmd-hero-benefits">
                   <li>Self pay $79 — no insurance required</li>
                   <li>MD-only care (no mid-levels)</li>
-                  <li>Same-day visits available in 41 states</li>
+                  <li>Same-day evaluations available in California</li>
                   <li>Board-certified Family Medicine physician</li>
                   <li>e-Prescription to your pharmacy when appropriate</li>
                 </ul>
 
                 <div className="tdmd-hero-ctas">
-                  <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
+                  <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a $79 California Evaluation</a>
                   <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
                 </div>
 
@@ -403,16 +403,16 @@ export default function SymptomAcidReflux() {
 
               <div className="tdmd-hero-side">
                 <div className="tdmd-hero-card">
-                  <h2>Online MD-Only Acid Reflux Care</h2>
+                  <h2>What a TeleDirectMD Evaluation Includes</h2>
                   <ul>
-                    <li>Fast evaluation and treatment plan</li>
-                    <li>Safety screening before any prescription</li>
-                    <li>Guideline-based medication choices</li>
-                    <li>e-Prescription to your pharmacy</li>
-                    <li>Follow-up guidance and red-flag instructions</li>
+                    <li>Structured symptom history and triage</li>
+                    <li>Red-flag and cardiac screening</li>
+                    <li>Differential assessment of possible causes</li>
+                    <li>e-Prescription to your pharmacy if appropriate</li>
+                    <li>Clear follow-up instructions</li>
                   </ul>
                   <p className="tdmd-hero-note">
-                    Adults 18+ only. TeleDirectMD is not an emergency service. If you have severe symptoms, difficulty breathing, chest pain, high fever, or rapidly worsening condition, seek urgent in-person or emergency care immediately.
+                    Adults 18+ only. TeleDirectMD is not an emergency service. If you have crushing chest pain, difficulty swallowing, vomiting blood, or rapidly worsening symptoms, seek emergency care immediately.
                   </p>
                 </div>
               </div>
@@ -423,166 +423,151 @@ export default function SymptomAcidReflux() {
         {/* ─── 2) INLINE OPENER (v3 — replaces CitableSummaryBlock) ──────────── */}
         <section className="tdmd-section tdmd-sym__opener" id={`${pid}-opening`}>
           <div className="tdmd-container">
-            <p dangerouslySetInnerHTML={{ __html: `Burning chest discomfort after meals, sour taste in the mouth, or the sensation of acid rising into the throat is the classic presentation of <strong>gastroesophageal reflux disease (GERD)</strong>. Per ACG and AAFP guidelines, an 8-week proton pump inhibitor trial plus lifestyle modification is first-line and can be initiated through a $79 telehealth visit. TeleDirectMD screens carefully for cardiac and alarm-feature red flags before prescribing — crushing or exertional chest pain goes to the ER, not telehealth.` }} />
+            <p dangerouslySetInnerHTML={{ __html: `When should you see a doctor for heartburn and regurgitation? If burning chest discomfort or a sour taste in the mouth occurs more than twice a week, wakes you at night, or persists despite two weeks of over-the-counter antacids, a physician evaluation is the right next step. Heartburn-and-regurgitation symptoms could be caused by GERD, functional dyspepsia, H. pylori infection, or — critically — cardiac disease. TeleDirectMD provides $79 same-day California video evaluation for adults experiencing heartburn and regurgitation, with a board-certified Family Medicine physician screening for alarm features and cardiac risk factors before any treatment decision is made.` }} />
             <p style={{ marginTop: '1rem' }}>
               <strong>Self-pay cost:</strong> $79 flat rate — no subscription, no hidden fees. Prescription costs are separate and vary by pharmacy; see the medication table below for GoodRx estimates. TeleDirectMD does not prescribe controlled substances in any state.
             </p>
             <p>
-              TeleDirectMD physicians hold Board Certification from the <a href="https://www.theabfm.org/" rel="noopener" target="_blank">American Board of Family Medicine (ABFM)</a> and follow clinical guidelines from the CDC, AAFP, and relevant specialty societies. Every visit includes red-flag screening, a structured history, a treatment plan, and clear follow-up instructions.
+              TeleDirectMD physicians hold Board Certification from the <a href="https://www.theabfm.org/" rel="noopener" target="_blank">American Board of Family Medicine (ABFM)</a> and follow clinical guidelines from the ACG, AAFP, and NIDDK. Every visit includes red-flag screening, a structured symptom history, a differential assessment, and clear follow-up instructions.
             </p>
           </div>
         </section>
 
-        {/* ─── 3) ELIGIBILITY CHECKLIST ─────────────────────────────────────── */}
-        <section className="tdmd-section" id={`${pid}-eligibility`}>
+        {/* ─── 3) WHAT MIGHT BE CAUSING THIS ──────────────────────────────── */}
+        <section className="tdmd-section" id={`${pid}-causes`}>
           <div className="tdmd-container">
-            <h2>Acid Reflux Telehealth Eligibility Checklist</h2>
-            <p><strong>You are likely eligible for a TeleDirectMD video visit if ALL of these are true:</strong></p>
-            <div className="tdmd-sym__dual">
-              <div className="tdmd-sym__dual-card tdmd-sym__dual-card--good">
-                <h3>&#10003; You Are Eligible If</h3>
-                <ul>
-              <li dangerouslySetInnerHTML={{ __html: `Adults 18+ in our 41 states` }} />
-              <li dangerouslySetInnerHTML={{ __html: `Classic heartburn / regurgitation pattern` }} />
-              <li dangerouslySetInnerHTML={{ __html: `No alarm features (dysphagia, weight loss, GI bleeding)` }} />
-              <li dangerouslySetInnerHTML={{ __html: `Symptoms &lt;5 years duration without prior workup` }} />
-              <li dangerouslySetInnerHTML={{ __html: `Want PPI 8-week trial` }} />
-              <li dangerouslySetInnerHTML={{ __html: `Need refill of established GERD medication` }} />
-              <li dangerouslySetInnerHTML={{ __html: `Open to lifestyle change recommendations` }} />
-              <li dangerouslySetInnerHTML={{ __html: `Already had endoscopy and need maintenance therapy` }} />
-                </ul>
+            <h2>What Might Be Causing Heartburn and Regurgitation?</h2>
+            <p>Heartburn and regurgitation can have several different causes. A physician would evaluate for the following possibilities based on your symptom pattern, risk factors, and history:</p>
+
+            <h3>Common and usually self-limiting</h3>
+            <ul>
+              <li dangerouslySetInnerHTML={{ __html: `<strong>Dietary trigger reflux:</strong> Fatty meals, coffee, alcohol, chocolate, and carbonated drinks can temporarily relax the lower esophageal sphincter, allowing acid to rise into the esophagus. This type of heartburn is often intermittent and tied to specific foods. Most adults can manage it with dietary modification and OTC antacids.` }} />
+              <li dangerouslySetInnerHTML={{ __html: `<strong>Positional reflux:</strong> Lying flat or bending over after meals can cause acid to reflux due to gravity. Heartburn that appears mainly at night or after large meals, with no other alarm features, is often positional in origin.` }} />
+            </ul>
+
+            <h3>Common and requiring evaluation or treatment</h3>
+            <ul>
+              <li dangerouslySetInnerHTML={{ __html: `<strong>Gastroesophageal reflux disease (GERD):</strong> GERD affects approximately 20% of U.S. adults and occurs when the lower esophageal sphincter is chronically weakened, allowing repeated acid reflux. A physician would evaluate for GERD when heartburn occurs &gt;2 days per week, regurgitation is present, or symptoms disrupt sleep. Per ACG and AAFP guidelines, an 8-week proton pump inhibitor trial is first-line treatment. If your doctor diagnoses GERD, our <a href="/what-we-treat">conditions page</a> explains available treatment options.` }} />
+              <li dangerouslySetInnerHTML={{ __html: `<strong>Functional dyspepsia:</strong> Upper-abdominal discomfort, early satiety, or postprandial fullness without a clear structural cause. A physician would consider this when heartburn is accompanied by bloating or upper-abdominal pain without classic regurgitation. H. pylori testing may be recommended per AAFP guidelines.` }} />
+              <li dangerouslySetInnerHTML={{ __html: `<strong>H. pylori gastritis or peptic ulcer:</strong> Helicobacter pylori infection can cause burning epigastric pain that may be confused with GERD. A physician would evaluate for this when symptoms are atypical for GERD, do not respond to PPI, or when there is a history of peptic ulcer disease. Non-invasive stool antigen or breath testing is available.` }} />
+            </ul>
+
+            <h3>Less common but requiring evaluation</h3>
+            <ul>
+              <li dangerouslySetInnerHTML={{ __html: `<strong>Cardiac chest pain (angina / ACS):</strong> This is the most important condition to distinguish from heartburn. Coronary artery disease can produce chest discomfort that mimics GERD. A physician would specifically screen for cardiac features: pressure or squeezing quality, exertional onset, radiation to the arm or jaw, sweating, and shortness of breath. Any of these features requires ER evaluation, not telehealth.` }} />
+              <li dangerouslySetInnerHTML={{ __html: `<strong>Eosinophilic esophagitis (EoE):</strong> An allergic-mediated inflammatory condition of the esophagus causing heartburn and dysphagia, particularly in patients with atopy. A physician would consider EoE when symptoms do not respond to 8 weeks of appropriate PPI therapy; GI referral for endoscopy is needed.` }} />
+            </ul>
+
+            <div className="tdmd-sym__cta-strip" role="complementary" style={{ marginTop: '1.5rem' }}>
+              <div>
+                <p>Not sure what is causing your heartburn? Book a $79 evaluation</p>
+                <small>Board-certified Family Medicine physician &amp;middot; California &amp;middot; Same-day available</small>
               </div>
-              <div className="tdmd-sym__dual-card tdmd-sym__dual-card--alert">
-                <h3>&#10007; You Are Not Eligible If</h3>
-                <ul>
-              <li dangerouslySetInnerHTML={{ __html: `Chest pain suggestive of cardiac origin — ER` }} />
-              <li dangerouslySetInnerHTML={{ __html: `Difficulty swallowing or food impaction — needs endoscopy` }} />
-              <li dangerouslySetInnerHTML={{ __html: `Hematemesis, melena, or hematochezia — ER` }} />
-              <li dangerouslySetInnerHTML={{ __html: `Unintentional weight loss — needs workup` }} />
-              <li dangerouslySetInnerHTML={{ __html: `Symptoms unresolved after 8+ weeks of appropriate PPI — endoscopy` }} />
-              <li dangerouslySetInnerHTML={{ __html: `Age &gt;50 with new alarm features — in-person workup` }} />
-                </ul>
-                <p style={{ marginTop: '0.75rem', color: 'var(--tdmd-muted)', fontSize: '0.92rem' }}>
-                  <strong>If you have red-flag symptoms, seek urgent in-person or emergency care immediately. TeleDirectMD is not appropriate for severe or complex cases.</strong>
-                </p>
-              </div>
+              <a className="tdmd-sym__cta-btn" href="/book-online" rel="noopener">Book Now &amp;rarr;</a>
             </div>
           </div>
         </section>
 
-        {/* ─── 4) HOW IT WORKS ─────────────────────────────────────────────── */}
-        <section className="tdmd-section tdmd-section-highlight" id={`${pid}-how-it-works`}>
+        {/* ─── 4) RED FLAGS ────────────────────────────────────────────────── */}
+        <section className="tdmd-section tdmd-section-highlight" id={`${pid}-red-flags`}>
           <div className="tdmd-container">
-            <h2>How Acid Reflux Treatment Works Online</h2>
-            <div className="tdmd-decision-flow">
-              <div className="tdmd-decision-step tdmd-decision-step-check">
-                <div className="tdmd-decision-number">1</div>
-                <div className="tdmd-decision-content">
-                  <h3>Book your $79 video visit</h3>
-                  <p>No insurance required. No referral needed. Many visits available same day in 41 states. Have your symptom timeline and current medication list ready.</p>
-                </div>
+            <h2>Red Flags — When to Call 911 or Go to the ER</h2>
+            <p>
+              Do not use TeleDirectMD if any of the following apply. These symptoms require immediate emergency evaluation:
+            </p>
+            <div className="tdmd-sym__dual-card tdmd-sym__dual-card--alert" style={{ marginTop: '0.75rem' }}>
+              <h3>Seek Emergency Care Immediately If You Have</h3>
+              <ul>
+              <li dangerouslySetInnerHTML={{ __html: `<strong>Crushing, pressure-like, or squeezing chest pain</strong> — possible cardiac event; call 911` }} />
+              <li dangerouslySetInnerHTML={{ __html: `<strong>Chest pain radiating to the arm, jaw, or back</strong> — possible ACS; ER` }} />
+              <li dangerouslySetInnerHTML={{ __html: `<strong>Chest pain with sweating, nausea, or shortness of breath</strong> — ER` }} />
+              <li dangerouslySetInnerHTML={{ __html: `<strong>Difficulty swallowing or food sticking in the throat</strong> — needs endoscopy` }} />
+              <li dangerouslySetInnerHTML={{ __html: `<strong>Vomiting blood or coffee-ground material</strong> — ER` }} />
+              <li dangerouslySetInnerHTML={{ __html: `<strong>Black tarry stools or bright red blood per rectum</strong> — ER` }} />
+              <li dangerouslySetInnerHTML={{ __html: `<strong>Unintentional weight loss &gt;5% body weight</strong> — needs in-person workup` }} />
+              <li dangerouslySetInnerHTML={{ __html: `<strong>Age &gt;50 with new-onset heartburn or regurgitation symptoms</strong> — lower threshold for endoscopy` }} />
+              </ul>
+            </div>
+            <p style={{ marginTop: '1rem' }}>
+              Call 911 or go to your nearest emergency room for any life-threatening symptoms. For non-emergency in-person needs, <a href="https://findahealthcenter.hrsa.gov/" rel="noopener" target="_blank">HRSA Health Center Finder</a> can locate a low-cost clinic near you.
+            </p>
+          </div>
+        </section>
+
+        {/* ─── 5) SELF-CARE TO TRY FIRST ───────────────────────────────────── */}
+        <section className="tdmd-section" id={`${pid}-self-care`}>
+          <div className="tdmd-container">
+            <h2>Self-Care to Try First</h2>
+            <p>For mild, infrequent heartburn without alarm features, evidence-based home measures can reduce symptom frequency before or while awaiting a physician visit. Per NIDDK and AAFP guidance:</p>
+            <ul>
+              <li dangerouslySetInnerHTML={{ __html: `<strong>Elevate the head of bed 6–8 inches</strong> using blocks under the bedposts (not extra pillows) — reduces nocturnal reflux by using gravity to keep acid in the stomach.` }} />
+              <li dangerouslySetInnerHTML={{ __html: `<strong>Avoid eating within 3 hours of bedtime</strong> — allows gastric emptying before lying flat.` }} />
+              <li dangerouslySetInnerHTML={{ __html: `<strong>Eat smaller, more frequent meals</strong> rather than large meals that increase gastric pressure.` }} />
+              <li dangerouslySetInnerHTML={{ __html: `<strong>Identify and limit personal trigger foods</strong> — common triggers include coffee, alcohol, chocolate, peppermint, fatty foods, and carbonated drinks. Keep a food diary for 1–2 weeks.` }} />
+              <li dangerouslySetInnerHTML={{ __html: `<strong>Lose weight if BMI is &gt;25</strong> — weight loss of 10% has been shown to reduce GERD symptom frequency by &gt;40% per NEJM review data. This is the single highest-yield lifestyle change.` }} />
+              <li dangerouslySetInnerHTML={{ __html: `<strong>Stop smoking</strong> — nicotine relaxes the lower esophageal sphincter, worsening reflux.` }} />
+              <li dangerouslySetInnerHTML={{ __html: `<strong>OTC antacids (calcium carbonate, famotidine)</strong> — appropriate for occasional breakthrough symptoms. Not adequate for frequent heartburn occurring &ge;2 days per week.` }} />
+              <li dangerouslySetInnerHTML={{ __html: `<strong>Sleep on your left side</strong> — anatomically reduces reflux compared to right-side sleeping.` }} />
+            </ul>
+            <p>If these measures do not control your symptoms within 2 weeks, or if heartburn occurs &ge;2 days per week, a physician evaluation is appropriate.</p>
+          </div>
+        </section>
+
+        {/* ─── 6) WHEN TO BOOK A VISIT ──────────────────────────────────────── */}
+        <section className="tdmd-section tdmd-section-highlight" id={`${pid}-when-to-book`}>
+          <div className="tdmd-container">
+            <h2>When to Book a TeleDirectMD Visit</h2>
+            <p>A $79 California video evaluation is appropriate for heartburn and regurgitation when:</p>
+            <ul>
+              <li dangerouslySetInnerHTML={{ __html: `Symptoms occur &gt;2 days per week for &gt;2 weeks despite OTC antacids` }} />
+              <li dangerouslySetInnerHTML={{ __html: `Heartburn wakes you from sleep` }} />
+              <li dangerouslySetInnerHTML={{ __html: `You have regurgitation of food or sour liquid multiple times per week` }} />
+              <li dangerouslySetInnerHTML={{ __html: `You need an 8-week PPI prescription trial per ACG guidelines` }} />
+              <li dangerouslySetInnerHTML={{ __html: `You have risk factors such as obesity, pregnancy, or age &gt;40 with new symptoms` }} />
+              <li dangerouslySetInnerHTML={{ __html: `You are immunocompromised or have diabetes and notice worsening GI symptoms` }} />
+              <li dangerouslySetInnerHTML={{ __html: `You need a refill of an established GERD medication` }} />
+            </ul>
+            <p>
+              TeleDirectMD accepts Aetna, UnitedHealthcare, and Blue Cross Blue Shield commercial plans. Self-pay is $79 flat — no subscription, no hidden fees. California telehealth visits are authorized under Business and Professions Code 2290.5.
+            </p>
+            <h3>What Happens in a TeleDirectMD Evaluation</h3>
+            <ol>
+              <li dangerouslySetInnerHTML={{ __html: `<strong>Book your visit</strong> at book.teledirectmd.com — select a same-day or next-day time slot. No referral required.` }} />
+              <li dangerouslySetInnerHTML={{ __html: `<strong>15-minute secure video visit</strong> with a board-certified Family Medicine physician. The doctor reviews your heartburn and regurgitation pattern, screens for alarm features and cardiac risk, and reviews your medication list.` }} />
+              <li dangerouslySetInnerHTML={{ __html: `<strong>Evaluation results and plan:</strong> If GERD is the most likely diagnosis and no red flags are present, a physician may prescribe an 8-week PPI (e.g., omeprazole or pantoprazole) electronically to your local pharmacy. If in-person workup is needed, you will be referred with clear instructions.` }} />
+            </ol>
+            <div className="tdmd-sym__cta-strip" role="complementary" style={{ marginTop: '1.5rem' }}>
+              <div>
+                <p>Book a $79 California evaluation for heartburn and regurgitation</p>
+                <small>Same-day visits available &amp;middot; Board-certified Family Medicine &amp;middot; e-Prescription same day</small>
               </div>
-              <div className="tdmd-decision-step tdmd-decision-step-check">
-                <div className="tdmd-decision-number">2</div>
-                <div className="tdmd-decision-content">
-                  <h3>See a board-certified MD by secure video</h3>
-                  <p>The physician takes a structured medical history, performs a targeted virtual exam, screens for red flags, and applies current clinical guidelines. If in-person care is needed, you&apos;ll be redirected at no charge.</p>
-                </div>
-              </div>
-              <div className="tdmd-decision-step tdmd-decision-step-good">
-                <div className="tdmd-decision-number">3</div>
-                <div className="tdmd-decision-content">
-                  <h3>Get your treatment plan and, if appropriate, a prescription</h3>
-                  <p>If medication is clinically appropriate, an e-prescription is sent to your chosen pharmacy during or after the visit. Clear follow-up instructions and red-flag criteria are provided regardless of treatment choice.</p>
-                  <div className="tdmd-decision-cta">
-                    <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
-                  </div>
-                </div>
-              </div>
+              <a className="tdmd-sym__cta-btn" href="https://book.teledirectmd.com" rel="noopener">Book Now &amp;rarr;</a>
             </div>
           </div>
         </section>
 
-        {/* ─── 5) DIFFERENTIAL DIAGNOSIS ───────────────────────────────────── */}
-        <section className="tdmd-section" id={`${pid}-differentials`}>
+        {/* ─── 7) COST COMPARISON (vertical bars — tdmd-vbar) ──────────────── */}
+        <section className="tdmd-section" id={`${pid}-cost`}>
           <div className="tdmd-container">
-            <h2>What Causes Acid Reflux? Differential Diagnosis</h2>
-            <p>Not all acid reflux is the same condition. The table below lists the most common causes your physician will consider, with features that distinguish them.</p>
-            <div className="tdmd-table-wrap">
-              <table className="tdmd-table" aria-label="Acid Reflux differential diagnosis">
-                <thead>
-                  <tr>
-                    <th>Condition</th>
-                    <th>Description</th>
-                    <th>Prevalence</th>
-                    <th>Key Features</th>
-                    <th>Next Step</th>
-                  </tr>
-                </thead>
-                <tbody>
-              <tr>
-                <td><strong dangerouslySetInnerHTML={{ __html: `GERD (acid reflux)` }} /></td>
-                <td dangerouslySetInnerHTML={{ __html: `Lower esophageal sphincter dysfunction allowing acid reflux.` }} />
-                <td dangerouslySetInnerHTML={{ __html: `~20% of US adults` }} />
-                <td dangerouslySetInnerHTML={{ __html: `Heartburn after meals, regurgitation, sour taste, worse lying down` }} />
-                <td dangerouslySetInnerHTML={{ __html: `PPI 8-week trial + lifestyle (weight loss, head elevation, avoid trigger foods)` }} />
-              </tr>
-              <tr>
-                <td><strong dangerouslySetInnerHTML={{ __html: `Functional dyspepsia` }} /></td>
-                <td dangerouslySetInnerHTML={{ __html: `Upper-abdominal symptoms without structural cause.` }} />
-                <td dangerouslySetInnerHTML={{ __html: `~10–15% adults` }} />
-                <td dangerouslySetInnerHTML={{ __html: `Postprandial fullness, early satiety, epigastric pain without classic heartburn` }} />
-                <td dangerouslySetInnerHTML={{ __html: `PPI trial + dietary modification; consider H. pylori test` }} />
-              </tr>
-              <tr>
-                <td><strong dangerouslySetInnerHTML={{ __html: `H. pylori-related gastritis or ulcer` }} /></td>
-                <td dangerouslySetInnerHTML={{ __html: `Gastric or duodenal infection causing inflammation/ulcer.` }} />
-                <td dangerouslySetInnerHTML={{ __html: `~10–15% in US` }} />
-                <td dangerouslySetInnerHTML={{ __html: `Burning epigastric pain, may be relieved by food (duodenal) or worsened (gastric)` }} />
-                <td dangerouslySetInnerHTML={{ __html: `H. pylori test (stool antigen or breath); triple/quadruple therapy if positive` }} />
-              </tr>
-              <tr>
-                <td><strong dangerouslySetInnerHTML={{ __html: `Cardiac chest pain` }} /></td>
-                <td dangerouslySetInnerHTML={{ __html: `Coronary artery disease — angina or acute coronary syndrome.` }} />
-                <td dangerouslySetInnerHTML={{ __html: `Critical to rule out` }} />
-                <td dangerouslySetInnerHTML={{ __html: `Pressure/squeezing rather than burning, exertional, radiates to arm/jaw, sweating, SOB` }} />
-                <td dangerouslySetInnerHTML={{ __html: `ER immediately if suspected` }} />
-              </tr>
-              <tr>
-                <td><strong dangerouslySetInnerHTML={{ __html: `Eosinophilic esophagitis` }} /></td>
-                <td dangerouslySetInnerHTML={{ __html: `Allergic-mediated esophageal inflammation.` }} />
-                <td dangerouslySetInnerHTML={{ __html: `Increasingly recognized` }} />
-                <td dangerouslySetInnerHTML={{ __html: `Dysphagia, food impaction, history of atopy, poor PPI response` }} />
-                <td dangerouslySetInnerHTML={{ __html: `GI referral for endoscopy with biopsies` }} />
-              </tr>
-                </tbody>
-              </table>
-            </div>
-          </div>
-        </section>
-
-        {/* ─── 6) COST COMPARISON (vertical bars — tdmd-vbar) ──────────────── */}
-        <section className="tdmd-section tdmd-section-highlight" id={`${pid}-cost`}>
-          <div className="tdmd-container">
-            <h2>Acid Reflux Treatment Cost Comparison</h2>
-            <p>TeleDirectMD&apos;s self-pay rate is <strong>$79</strong> for a complete MD video visit — evaluation, treatment plan, and e-prescription included. The chart below shows how that compares to typical out-of-pocket costs at other settings. Prescription medication costs are separate.</p>
+            <h2>Evaluation Cost Comparison</h2>
+            <p>TeleDirectMD&apos;s self-pay rate is <strong>$79</strong> for a complete MD video evaluation — symptom assessment, differential review, and e-prescription if appropriate. Prescription medication costs are separate.</p>
 
             <div className="tdmd-price-grid">
               <div className="tdmd-price-card" aria-label="TeleDirectMD pricing">
-                <h3>TeleDirectMD Video Visit</h3>
+                <h3>TeleDirectMD Video Evaluation</h3>
                 <p className="tdmd-price-big">$79</p>
                 <p className="tdmd-price-sub">Self-pay flat fee — no subscription</p>
                 <ul className="tdmd-price-includes">
-                  <li>Board-certified MD video evaluation</li>
-                  <li>Red-flag screening &amp;amp; structured triage</li>
+                  <li>Board-certified Family Medicine physician</li>
+                  <li>Red-flag screening &amp;amp; triage</li>
+                  <li>Differential assessment of possible causes</li>
                   <li>e-Prescription to your pharmacy (when appropriate)</li>
-                  <li>Follow-up instructions &amp;amp; prevention guidance</li>
                   <li>No hidden fees — $79 is the total visit cost</li>
                 </ul>
               </div>
 
-              <div className="tdmd-price-chart" role="group" aria-label="Typical Acid Reflux cost comparison">
-                <h3>Typical Acid Reflux Visit Cost</h3>
+              <div className="tdmd-price-chart" role="group" aria-label="Typical heartburn visit cost comparison">
+                <h3>Typical Heartburn Visit Cost</h3>
                 <p className="tdmd-price-caption">Typical out-of-pocket costs before insurance. Actual costs vary by location and plan. ER average per Mira Health 2025 data.</p>
                 <div className="tdmd-vbars" role="list" aria-label="Cost comparison bars">
                   {COST_BARS.map((bar, i) => (
@@ -610,15 +595,15 @@ export default function SymptomAcidReflux() {
           </div>
         </section>
 
-        {/* ─── 7) MEDICATION TABLE ─────────────────────────────────────────── */}
-        <section className="tdmd-section" id={`${pid}-medications`}>
+        {/* ─── 8) MEDICATION TABLE ─────────────────────────────────────────── */}
+        <section className="tdmd-section tdmd-section-highlight" id={`${pid}-medications`}>
           <div className="tdmd-container">
-            <h2>Acid Reflux Treatment Options &amp;amp; Medication Guide</h2>
+            <h2>Commonly Prescribed Medications for GERD</h2>
             <p>
-              The medications listed below represent evidence-based options used for acid reflux. The physician selects the most appropriate agent based on your history, allergies, kidney function, drug interactions, and symptom severity at the time of the visit. GoodRx prices retrieved May 2026; actual cost varies by pharmacy.
+              If a physician evaluates your heartburn and regurgitation and determines that GERD is the most likely cause without alarm features, the following evidence-based medications may be prescribed. The physician selects the most appropriate agent based on your history, allergies, kidney function, and drug interactions. GoodRx prices retrieved May 2026.
             </p>
             <div className="tdmd-table-wrap">
-              <table className="tdmd-table" aria-label="Acid Reflux medication options">
+              <table className="tdmd-table" aria-label="GERD medication options">
                 <caption style={{ captionSide: 'bottom', textAlign: 'left', padding: '0.5rem 0', fontSize: '0.85rem', color: 'var(--tdmd-muted)' }}>
                   GoodRx prices retrieved May 2026. Prescription costs are separate from the $79 TeleDirectMD visit fee. Actual pharmacy costs vary.
                 </caption>
@@ -647,7 +632,7 @@ export default function SymptomAcidReflux() {
                 <td>Proton pump inhibitor</td>
                 <td dangerouslySetInnerHTML={{ __html: `40 mg daily before breakfast × 8 weeks` }} />
                 <td><a href="https://www.goodrx.com/pantoprazole" target="_blank" rel="noopener">$6–$27</a></td>
-                <td dangerouslySetInnerHTML={{ __html: `Headache, diarrhea; same long-term concerns as omeprazole` }} />
+                <td dangerouslySetInnerHTML={{ __html: `Headache, diarrhea; fewer drug interactions than omeprazole` }} />
               </tr>
               <tr>
                 <td><strong>Esomeprazole</strong> <span className="tdmd-sym__med-brand">(Nexium)</span></td>
@@ -663,7 +648,7 @@ export default function SymptomAcidReflux() {
                 <td>H2 receptor antagonist</td>
                 <td dangerouslySetInnerHTML={{ __html: `20–40 mg twice daily` }} />
                 <td><a href="https://www.goodrx.com/famotidine" target="_blank" rel="noopener">$2–$89</a></td>
-                <td dangerouslySetInnerHTML={{ __html: `Headache, dizziness; renal dose adjustment` }} />
+                <td dangerouslySetInnerHTML={{ __html: `Headache, dizziness; renal dose adjustment needed` }} />
               </tr>
               <tr>
                 <td><strong>Calcium carbonate</strong> <span className="tdmd-sym__med-brand">(Tums)</span></td>
@@ -671,7 +656,7 @@ export default function SymptomAcidReflux() {
                 <td>Antacid</td>
                 <td dangerouslySetInnerHTML={{ __html: `500–1000 mg PRN heartburn` }} />
                 <td><a href="https://www.goodrx.com/calcium-carbonate" target="_blank" rel="noopener">$5–$8</a></td>
-                <td dangerouslySetInnerHTML={{ __html: `Constipation, hypercalcemia at high doses` }} />
+                <td dangerouslySetInnerHTML={{ __html: `Constipation, hypercalcemia at high doses; for breakthrough symptoms only` }} />
               </tr>
                 </tbody>
               </table>
@@ -682,117 +667,31 @@ export default function SymptomAcidReflux() {
           </div>
         </section>
 
-        {/* ─── 8) RED FLAGS ────────────────────────────────────────────────── */}
-        <section className="tdmd-section tdmd-section-highlight" id={`${pid}-red-flags`}>
-          <div className="tdmd-container">
-            <h2>Red Flags — When to Seek Emergency or Urgent In-Person Care</h2>
-            <p>
-              TeleDirectMD is not appropriate for severe or complex presentations. The following symptoms require immediate in-person or emergency evaluation. Do not use telehealth if any of the following apply:
-            </p>
-            <div className="tdmd-sym__dual-card tdmd-sym__dual-card--alert" style={{ marginTop: '0.75rem' }}>
-              <h3>Seek Urgent / Emergency Care Immediately If</h3>
-              <ul>
-              <li dangerouslySetInnerHTML={{ __html: `<strong>Crushing chest pain, exertional pain, or pain radiating to arm/jaw</strong> — possible cardiac event; ER` }} />
-              <li dangerouslySetInnerHTML={{ __html: `<strong>Difficulty swallowing or food sticking</strong> — needs endoscopy` }} />
-              <li dangerouslySetInnerHTML={{ __html: `<strong>Vomiting blood or coffee-ground material</strong> — ER` }} />
-              <li dangerouslySetInnerHTML={{ __html: `<strong>Black tarry stools or bright red blood</strong> — ER` }} />
-              <li dangerouslySetInnerHTML={{ __html: `<strong>Unintentional weight loss &gt;5%</strong> — needs workup` }} />
-              <li dangerouslySetInnerHTML={{ __html: `<strong>Persistent vomiting</strong> — in-person evaluation` }} />
-              <li dangerouslySetInnerHTML={{ __html: `<strong>Symptoms unresolved after 8 weeks of PPI</strong> — endoscopy referral` }} />
-              <li dangerouslySetInnerHTML={{ __html: `<strong>Age &gt;50 with new-onset symptoms</strong> — endoscopy threshold lower` }} />
-              </ul>
-            </div>
-            <p style={{ marginTop: '1rem' }}>
-              Call 911 or go to your nearest emergency room for any life-threatening symptoms. For non-emergency in-person needs, <a href="https://findahealthcenter.hrsa.gov/" rel="noopener" target="_blank">HRSA Health Center Finder</a> can locate a low-cost clinic near you.
-            </p>
-          </div>
-        </section>
-
-        {/* ─── 9) RECOVERY TIMELINE ────────────────────────────────────────── */}
-        <section className="tdmd-section" id={`${pid}-recovery`}>
-          <div className="tdmd-container">
-            <h2>What to Expect: Acid Reflux Recovery Timeline</h2>
-            <p>Recovery timelines are approximate and depend on the underlying cause, treatment chosen, and individual factors. Use these as general guides, not guarantees.</p>
-            <div className="tdmd-table-wrap">
-              <table className="tdmd-table" aria-label="Acid Reflux recovery timeline">
-                <thead>
-                  <tr>
-                    <th>Timeframe</th>
-                    <th>What to Expect</th>
-                  </tr>
-                </thead>
-                <tbody>
-              <tr>
-                <td><strong>Day 1–3</strong></td>
-                <td dangerouslySetInnerHTML={{ __html: `Begin PPI before breakfast and lifestyle changes. Symptoms may not improve immediately — PPI takes 3–5 days for peak effect.` }} />
-              </tr>
-              <tr>
-                <td><strong>Week 1–2</strong></td>
-                <td dangerouslySetInnerHTML={{ __html: `Heartburn frequency and severity should decrease 50%+. Use antacids PRN for breakthrough.` }} />
-              </tr>
-              <tr>
-                <td><strong>Week 4</strong></td>
-                <td dangerouslySetInnerHTML={{ __html: `Most patients are symptom-free. If not, dose may be doubled or timing reviewed.` }} />
-              </tr>
-              <tr>
-                <td><strong>Week 8</strong></td>
-                <td dangerouslySetInnerHTML={{ __html: `Reassess: if symptom-free, taper to lowest effective dose. If still symptomatic, GI referral for endoscopy.` }} />
-              </tr>
-              <tr>
-                <td><strong>Long-term</strong></td>
-                <td dangerouslySetInnerHTML={{ __html: `On-demand PPI use (only when symptomatic) is preferred over chronic daily use to minimize long-term risks.` }} />
-              </tr>
-                </tbody>
-              </table>
-            </div>
-          </div>
-        </section>
-
-        {/* ─── 10) HOME CARE ───────────────────────────────────────────────── */}
-        <section className="tdmd-section tdmd-section-highlight" id={`${pid}-home-care`}>
-          <div className="tdmd-container">
-            <h2>Home Care &amp;amp; Self-Management Tips for Acid Reflux</h2>
-            <p>These evidence-based home care strategies can complement prescription treatment. They are not substitutes for medical evaluation.</p>
-            <ul>
-              <li dangerouslySetInnerHTML={{ __html: `Elevate head of bed 6–8 inches with blocks (pillows alone don't work)` }} />
-              <li dangerouslySetInnerHTML={{ __html: `Avoid lying down within 3 hours of eating` }} />
-              <li dangerouslySetInnerHTML={{ __html: `Eat smaller, more frequent meals` }} />
-              <li dangerouslySetInnerHTML={{ __html: `Lose weight if BMI &gt;25 — single most effective lifestyle change` }} />
-              <li dangerouslySetInnerHTML={{ __html: `Keep a food diary to identify personal triggers` }} />
-              <li dangerouslySetInnerHTML={{ __html: `Limit coffee, alcohol, chocolate, peppermint, and carbonated drinks` }} />
-              <li dangerouslySetInnerHTML={{ __html: `Avoid tight-fitting clothes around the abdomen` }} />
-              <li dangerouslySetInnerHTML={{ __html: `Stop smoking — nicotine relaxes the LES` }} />
-              <li dangerouslySetInnerHTML={{ __html: `Chew sugar-free gum after meals (increases saliva, neutralizes acid)` }} />
-              <li dangerouslySetInnerHTML={{ __html: `Sleep on left side (anatomically reduces reflux vs. right side)` }} />
-            </ul>
-          </div>
-        </section>
-
-        {/* ─── 11) CTA STRIP ────────────────────────────────────────────────── */}
+        {/* ─── 9) CTA STRIP ────────────────────────────────────────────────── */}
         <section className="tdmd-section" aria-label="Book a visit">
           <div className="tdmd-container">
             <div className="tdmd-sym__cta-strip" role="complementary">
               <div>
-                <p>Book a same-day video visit — adults 18+ in 41 states</p>
-                <small>Self pay $79 &amp;middot; MD-only care &amp;middot; No ER wait &amp;middot; e-Prescription same day</small>
+                <p>Book a same-day California evaluation — adults 18+ &amp;middot; $79 self-pay</p>
+                <small>Board-certified Family Medicine &amp;middot; MD-only care &amp;middot; e-Prescription same day</small>
               </div>
               <a className="tdmd-sym__cta-btn" href="/book-online" rel="noopener">Book Now &amp;rarr;</a>
             </div>
           </div>
         </section>
 
-        {/* ─── 12) FAQ ACCORDION ───────────────────────────────────────────── */}
+        {/* ─── 10) FAQ ACCORDION ───────────────────────────────────────────── */}
         <section className="tdmd-section tdmd-faq" id={`${pid}-faq`}>
           <div className="tdmd-container">
             <FaqAccordion
-              sectionTitle={`Frequently Asked Questions — Acid Reflux`}
+              sectionTitle={`Frequently Asked Questions — Heartburn and Regurgitation`}
               items={FAQ_ITEMS.map((f, i) => ({ ...f, id: `${pid}-faq-${i}` }))}
             />
 
             <div className="tdmd-bottom-cta" role="region" aria-label="Book a visit call to action">
               <div className="tdmd-bottom-cta-copy">
-                <h3>Ready to see a board-certified MD?</h3>
-                <p>Book a same-day video visit. Self pay $79 &amp;middot; 41 states &amp;middot; MD-only care.</p>
+                <h3>Ready to get your heartburn symptoms evaluated?</h3>
+                <p>Book a same-day $79 California video visit. Board-certified Family Medicine &amp;middot; MD-only care.</p>
               </div>
               <div className="tdmd-bottom-cta-actions">
                 <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
@@ -802,11 +701,11 @@ export default function SymptomAcidReflux() {
           </div>
         </section>
 
-        {/* ─── 13) RELATED CONDITIONS ──────────────────────────────────────── */}
+        {/* ─── 11) RELATED CONDITIONS ──────────────────────────────────────── */}
         <section className="tdmd-section tdmd-section-highlight" id={`${pid}-related-conditions`}>
           <div className="tdmd-container">
             <h2>Related Conditions We Treat Online</h2>
-            <p>These condition pages cover related symptoms or treatments that may be relevant to your acid reflux visit.</p>
+            <p>These condition pages cover related symptoms or treatments that may be relevant to your evaluation.</p>
             <div className="tdmd-sym__sibling-grid">
               {RELATED_CONDITIONS.map((s) => (
                 <a key={s.slug} className="tdmd-sym__sibling" href={s.slug}>
@@ -817,7 +716,7 @@ export default function SymptomAcidReflux() {
           </div>
         </section>
 
-        {/* ─── 14) RELATED RESOURCE LINKS ─────────────────────────────────── */}
+        {/* ─── 12) RELATED RESOURCE LINKS ─────────────────────────────────── */}
         <section className="tdmd-section" id={`${pid}-related`}>
           <div className="tdmd-container">
             <h2>Related Resources from TeleDirectMD</h2>
@@ -833,22 +732,22 @@ export default function SymptomAcidReflux() {
           </div>
         </section>
 
-        {/* ─── 15) REFERENCES ──────────────────────────────────────────────── */}
+        {/* ─── 13) REFERENCES ──────────────────────────────────────────────── */}
         <section className="tdmd-section" id={`${pid}-references`}>
           <div className="tdmd-container">
             <h2>References and Primary Sources</h2>
             <ol className="tdmd-ref-list">
               <li><a href="https://gi.org/guideline/diagnosis-and-management-of-gastroesophageal-reflux-disease/" rel="noopener" target="_blank">ACG Clinical Guideline: Diagnosis and Management of GERD</a>. Retrieved May 23, 2026.</li>
-              <li><a href="https://www.aafp.org/pubs/afp/issues/2010/0501/p1278.html" rel="noopener" target="_blank">AAFP — Diagnosis and Management of GERD (2010)</a>. Retrieved May 23, 2026.</li>
+              <li><a href="https://www.aafp.org/pubs/afp/issues/2010/0501/p1278.html" rel="noopener" target="_blank">AAFP — Diagnosis and Management of GERD</a>. Retrieved May 23, 2026.</li>
               <li><a href="https://www.niddk.nih.gov/health-information/digestive-diseases/acid-reflux-ger-gerd-adults" rel="noopener" target="_blank">NIDDK — Acid Reflux (GER &amp; GERD) in Adults</a>. Retrieved May 23, 2026.</li>
               <li><a href="https://www.gastrojournal.org/article/S0016-5085(22)00718-7/fulltext" rel="noopener" target="_blank">AGA — GERD Best Practice Advice</a>. Retrieved May 23, 2026.</li>
-              <li><a href="https://www.goodrx.com/omeprazole" rel="noopener" target="_blank">GoodRx — Omeprazole Pricing</a>. Retrieved May 23, 2026.</li>
               <li><a href="https://www.cdc.gov/antibiotic-use/index.html" rel="noopener" target="_blank">CDC — Antibiotic Use &amp; Stewardship</a>. Retrieved May 23, 2026.</li>
+              <li><a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&amp;sectionNum=2290.5." rel="noopener" target="_blank">California B&amp;P Code 2290.5 — Telehealth</a>. Retrieved May 23, 2026.</li>
             </ol>
           </div>
         </section>
 
-        {/* ─── 16) MEDICAL DISCLAIMER ─────────────────────────────────────── */}
+        {/* ─── 14) MEDICAL DISCLAIMER ─────────────────────────────────────── */}
         <section className="tdmd-section tdmd-footnote" id={`${pid}-disclaimer`}>
           <div className="tdmd-container">
             <h2>Medical Disclaimer</h2>

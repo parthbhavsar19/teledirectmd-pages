@@ -13,7 +13,7 @@
  *   • FAQPage schema only (no QA variant)
  *   • No CitableSummaryBlock import
  *   • NPI 1104323203 in Physician schema
- *   • Literal < and > in JSX text escaped as < >
+ *   • Literal < and > in JSX text escaped as &lt; &gt;
  *   • Medically reviewed by Parth Bhavsar, MD — Updated May 23, 2026
  *
  * Generated: 2026-05-23. DO NOT edit manually — regenerate from config.
@@ -23,7 +23,7 @@ import FaqAccordion from '../../components/FaqAccordion';
 
 // ─── Page constants ────────────────────────────────────────────────────────────
 const PAGE_URL = 'https://teledirectmd.com/symptoms/ear-pain/';
-const PAGE_TITLE = `Ear Pain Treatment Online — Adult Ear Infection Rx | TeleDirectMD`;
+const PAGE_TITLE = `Ear Pain — What Might Be Causing It? When to See a Doctor | TeleDirectMD`;
 const DATE_PUBLISHED = '2026-05-23';
 const DATE_MODIFIED = '2026-05-23';
 const LAST_REVIEWED = '2026-05-23';
@@ -49,144 +49,133 @@ const MEDICATIONS = [
   {
     generic: `Ofloxacin`,
     brand: `Floxin Otic`,
-    form: `Ear drops`,
-    drugClass: `Topical fluoroquinolone`,
-    dose: `5 drops in affected ear twice daily × 7 days`,
-    price: `$20–$155`,
-    priceUrl: `https://www.goodrx.com/floxin`,
+    form: `Otic drops`,
+    drugClass: `Fluoroquinolone antibiotic`,
+    dose: `5 drops in affected ear twice daily × 10 days (AOM with perforation or otitis externa)`,
+    price: `$15–$60`,
+    priceUrl: `https://www.goodrx.com/ofloxacin`,
     priceLabel: `GoodRx`,
-    sideEffects: `Local irritation, taste changes`,
-  },
-  {
-    generic: `Ciprofloxacin / Dexamethasone`,
-    brand: `Ciprodex`,
-    form: `Ear drops`,
-    drugClass: `Topical fluoroquinolone + steroid`,
-    dose: `4 drops in affected ear twice daily × 7 days`,
-    price: `$55–$211`,
-    priceUrl: `https://www.goodrx.com/ciprofloxacin-dexamethasone`,
-    priceLabel: `GoodRx`,
-    sideEffects: `Local irritation; faster pain relief due to steroid`,
+    sideEffects: `Ear irritation; minimal systemic absorption`,
   },
   {
     generic: `Amoxicillin`,
     brand: `Amoxil`,
-    form: `Oral capsule/suspension`,
-    drugClass: `Beta-lactam antibiotic`,
-    dose: `1 g three times daily × 7 days for adult AOM`,
-    price: `$4–$16`,
+    form: `Oral capsule`,
+    drugClass: `Aminopenicillin antibiotic`,
+    dose: `500 mg PO TID × 5–10 days (AOM)`,
+    price: `$5–$21`,
     priceUrl: `https://www.goodrx.com/amoxicillin`,
     priceLabel: `GoodRx`,
-    sideEffects: `GI upset, rash, diarrhea`,
+    sideEffects: `Diarrhea, rash`,
   },
   {
     generic: `Amoxicillin-clavulanate`,
     brand: `Augmentin`,
     form: `Oral tablet`,
-    drugClass: `Beta-lactam + beta-lactamase inhibitor`,
-    dose: `875/125 mg BID × 7 days`,
-    price: `(see medication table)`,
-    priceUrl: null,
-    priceLabel: ``,
-    sideEffects: `Diarrhea, GI upset`,
+    drugClass: `Beta-lactam/beta-lactamase inhibitor`,
+    dose: `875/125 mg PO BID × 5–7 days`,
+    price: `$15–$70`,
+    priceUrl: `https://www.goodrx.com/amoxicillin-clavulanate`,
+    priceLabel: `GoodRx`,
+    sideEffects: `Diarrhea, nausea; use for amoxicillin-resistant AOM`,
   },
   {
-    generic: `Pseudoephedrine`,
-    brand: `Sudafed`,
+    generic: `Ibuprofen`,
+    brand: `Advil, Motrin`,
     form: `Oral tablet`,
-    drugClass: `Decongestant`,
-    dose: `60 mg every 4–6 hours × 3–5 days`,
-    price: `$6–$7`,
-    priceUrl: `https://www.goodrx.com/pseudoephedrine`,
+    drugClass: `NSAID`,
+    dose: `400–600 mg PO every 6h PRN pain`,
+    price: `$2–$13`,
+    priceUrl: `https://www.goodrx.com/ibuprofen`,
     priceLabel: `GoodRx`,
-    sideEffects: `Insomnia, BP elevation`,
+    sideEffects: `GI upset; avoid in CKD or peptic ulcer`,
   },
 ];
 
 // ─── FAQ items (12) ───────────────────────────────────────────────────────────
 const FAQ_ITEMS = [
   {
-    question: `Can a telehealth doctor prescribe ear drops?`,
-    answerPlain: `Yes — ofloxacin and ciprofloxacin/dexamethasone otic drops are non-controlled medications. Dr. Bhavsar can prescribe them after a focused history and video exam for typical otitis externa.`,
+    question: `What could be causing my ear pain?`,
+    answerPlain: `Ear pain can be caused by acute otitis media (middle ear infection), otitis externa (swimmer's ear), eustachian tube dysfunction, TMJ disorder, referred dental pain, or — less commonly — mastoiditis or a foreign body. A physician evaluation helps determine the most likely cause based on your symptom pattern, onset, and associated features such as fever, hearing changes, or discharge.`,
     answer: (
-      <p dangerouslySetInnerHTML={{ __html: `Yes — ofloxacin and ciprofloxacin/dexamethasone otic drops are non-controlled medications. Dr. Bhavsar can prescribe them after a focused history and video exam for typical otitis externa.` }} />
+      <p dangerouslySetInnerHTML={{ __html: `Ear pain can be caused by acute otitis media (middle ear infection), otitis externa (swimmer's ear), eustachian tube dysfunction, TMJ disorder, referred dental pain, or — less commonly — mastoiditis or a foreign body. A physician evaluation helps determine the most likely cause based on your symptom pattern, onset, and associated features such as fever, hearing changes, or discharge.` }} />
     ),
   },
   {
-    question: `How do I know if it\'s swimmer\'s ear or middle ear infection?`,
-    answerPlain: `Otitis externa (swimmer's ear): pain WORSE with tugging on the ear or pushing the tragus; recent water exposure. Acute otitis media: deep ear pain, fullness, hearing reduction, often after a cold; pulling the ear doesn't make it worse.`,
+    question: `When should I see a doctor for ear pain?`,
+    answerPlain: `See a physician if ear pain is severe, persists more than 48–72 hours, is accompanied by fever above 101°F, you notice drainage from the ear canal, hearing has decreased significantly, or there is swelling or redness behind the ear. Per AAFP guidelines, adults with these features benefit from clinical evaluation. A $79 TeleDirectMD video evaluation is appropriate for California adults without emergency features.`,
     answer: (
-      <p dangerouslySetInnerHTML={{ __html: `Otitis externa (swimmer's ear): pain WORSE with tugging on the ear or pushing the tragus; recent water exposure. Acute otitis media: deep ear pain, fullness, hearing reduction, often after a cold; pulling the ear doesn't make it worse.` }} />
+      <p dangerouslySetInnerHTML={{ __html: `See a physician if ear pain is severe, persists more than 48–72 hours, is accompanied by fever above 101°F, you notice drainage from the ear canal, hearing has decreased significantly, or there is swelling or redness behind the ear. Per AAFP guidelines, adults with these features benefit from clinical evaluation. A $79 TeleDirectMD video evaluation is appropriate for California adults without emergency features.` }} />
     ),
   },
   {
-    question: `Do adults with ear infections need antibiotics?`,
-    answerPlain: `Otitis externa: yes — antibiotic drops are first-line. Acute otitis media in adults: many cases are viral or self-resolve; antibiotics are recommended for moderate-severe pain, fever >39°C, or symptoms not improving in 48 hours. We follow AAFP guidance.`,
+    question: `When is ear pain an emergency?`,
+    answerPlain: `Go to the ER if you have redness, swelling, or tenderness over the mastoid bone behind the ear (possible mastoiditis), high fever with severe ear pain and neck stiffness (consider meningitis), sudden loss of hearing, facial weakness or paralysis on the same side as the ear pain, or severe dizziness with nausea and vomiting (possible labyrinthitis or serious inner ear event).`,
     answer: (
-      <p dangerouslySetInnerHTML={{ __html: `Otitis externa: yes — antibiotic drops are first-line. Acute otitis media in adults: many cases are viral or self-resolve; antibiotics are recommended for moderate-severe pain, fever &gt;39°C, or symptoms not improving in 48 hours. We follow AAFP guidance.` }} />
+      <p dangerouslySetInnerHTML={{ __html: `Go to the ER if you have redness, swelling, or tenderness over the mastoid bone behind the ear (possible mastoiditis), high fever with severe ear pain and neck stiffness (consider meningitis), sudden loss of hearing, facial weakness or paralysis on the same side as the ear pain, or severe dizziness with nausea and vomiting (possible labyrinthitis or serious inner ear event).` }} />
     ),
   },
   {
-    question: `How fast do ear drops work?`,
-    answerPlain: `Ciprodex (with steroid) typically reduces pain within 24 hours. Plain antibiotic drops (ofloxacin) take 2–3 days for noticeable improvement. Complete the full course (7 days) even if symptoms resolve early.`,
+    question: `How long is too long to have ear pain before seeing a doctor?`,
+    answerPlain: `Mild ear discomfort from eustachian tube dysfunction or a cold can improve within 48–72 hours with supportive care. If ear pain persists beyond 72 hours, worsens despite analgesics, or is accompanied by fever or discharge, a physician evaluation is warranted. In adults over 65 or immunocompromised patients, evaluation is appropriate earlier given higher risk of complications.`,
     answer: (
-      <p dangerouslySetInnerHTML={{ __html: `Ciprodex (with steroid) typically reduces pain within 24 hours. Plain antibiotic drops (ofloxacin) take 2–3 days for noticeable improvement. Complete the full course (7 days) even if symptoms resolve early.` }} />
+      <p dangerouslySetInnerHTML={{ __html: `Mild ear discomfort from eustachian tube dysfunction or a cold can improve within 48–72 hours with supportive care. If ear pain persists beyond 72 hours, worsens despite analgesics, or is accompanied by fever or discharge, a physician evaluation is warranted. In adults over 65 or immunocompromised patients, evaluation is appropriate earlier given higher risk of complications.` }} />
     ),
   },
   {
-    question: `Why does my ear hurt after a cold?`,
-    answerPlain: `Most likely eustachian tube dysfunction. The cold inflames the tube connecting your middle ear to the back of your throat, preventing pressure equalization. Decongestant + intranasal steroid helps. Resolves over 1–2 weeks usually.`,
+    question: `Can a virtual doctor evaluate ear pain?`,
+    answerPlain: `Yes — for typical ear pain presentations without emergency features, a telehealth evaluation is appropriate and effective for most adults. A physician assesses the probability of AOM versus otitis externa versus referred pain based on symptom history, exposure history (recent water exposure, upper respiratory illness, dental pain), and any visible changes you can describe or show on camera. California Business and Professions Code 2290.5 authorizes telehealth evaluation and prescription for ear infections.`,
     answer: (
-      <p dangerouslySetInnerHTML={{ __html: `Most likely eustachian tube dysfunction. The cold inflames the tube connecting your middle ear to the back of your throat, preventing pressure equalization. Decongestant + intranasal steroid helps. Resolves over 1–2 weeks usually.` }} />
+      <p dangerouslySetInnerHTML={{ __html: `Yes — for typical ear pain presentations without emergency features, a telehealth evaluation is appropriate and effective for most adults. A physician assesses the probability of AOM versus otitis externa versus referred pain based on symptom history, exposure history (recent water exposure, upper respiratory illness, dental pain), and any visible changes you can describe or show on camera. California Business and Professions Code 2290.5 authorizes telehealth evaluation and prescription for ear infections.` }} />
     ),
   },
   {
-    question: `Can I fly with ear pain?`,
-    answerPlain: `Flying with active ear infection or significant ETD can be very painful and rarely cause eardrum perforation. If you must fly, use pseudoephedrine 30 min before takeoff/landing and chew gum. Avoid flying if severe pain or fever.`,
+    question: `What will the doctor do for ear pain at TeleDirectMD?`,
+    answerPlain: `The physician takes a structured history covering onset, severity, fever, hearing changes, discharge, water exposure, and recent upper respiratory illness. Based on the evaluation, a physician assesses which cause — AOM, otitis externa, eustachian dysfunction, TMJ, or referred pain — is most likely. If an ear infection is the most likely diagnosis, our ear pain treatment page explains antibiotic options in detail. This is a physician evaluation, not a predetermined prescription.`,
     answer: (
-      <p dangerouslySetInnerHTML={{ __html: `Flying with active ear infection or significant ETD can be very painful and rarely cause eardrum perforation. If you must fly, use pseudoephedrine 30 min before takeoff/landing and chew gum. Avoid flying if severe pain or fever.` }} />
+      <p dangerouslySetInnerHTML={{ __html: `The physician takes a structured history covering onset, severity, fever, hearing changes, discharge, water exposure, and recent upper respiratory illness. Based on the evaluation, a physician assesses which cause — AOM, otitis externa, eustachian dysfunction, TMJ, or referred pain — is most likely. If an ear infection is the most likely diagnosis, our <a href="/ear-pain-treatment-online/">ear pain treatment page</a> explains antibiotic options in detail. This is a physician evaluation, not a predetermined prescription.` }} />
     ),
   },
   {
-    question: `Is it safe to use Q-tips?`,
-    answerPlain: `No — Q-tips push wax deeper, damage canal skin, and increase otitis externa risk. The ear is self-cleaning. If wax causes problems, use carbamide peroxide drops or have it removed in-office.`,
+    question: `Will I get a prescription for ear pain?`,
+    answerPlain: `A prescription depends on the evaluation. If acute otitis media or otitis externa is the most likely diagnosis and meets clinical criteria, a physician may prescribe appropriate antibiotic therapy. For eustachian tube dysfunction or mild AOM in adults, watchful waiting with analgesics may be recommended first per AAFP guidelines. TeleDirectMD does not prescribe antibiotics unless a clinical indication is established.`,
     answer: (
-      <p dangerouslySetInnerHTML={{ __html: `No — Q-tips push wax deeper, damage canal skin, and increase otitis externa risk. The ear is self-cleaning. If wax causes problems, use carbamide peroxide drops or have it removed in-office.` }} />
+      <p dangerouslySetInnerHTML={{ __html: `A prescription depends on the evaluation. If acute otitis media or otitis externa is the most likely diagnosis and meets clinical criteria, a physician may prescribe appropriate antibiotic therapy. For eustachian tube dysfunction or mild AOM in adults, watchful waiting with analgesics may be recommended first per AAFP guidelines. TeleDirectMD does not prescribe antibiotics unless a clinical indication is established.` }} />
     ),
   },
   {
-    question: `What if my ear is draining fluid?`,
-    answerPlain: `Clear or yellow drainage often indicates a perforated eardrum (often from middle ear infection) or otitis externa. Don't put cotton in the ear. We can prescribe appropriate drops; some perforations need ENT follow-up.`,
+    question: `Is ear pain something I can manage at home?`,
+    answerPlain: `Mild ear pain without fever, discharge, or hearing loss can be managed initially with ibuprofen or acetaminophen for pain relief, warm compress applied to the outer ear, and nasal saline irrigation if congestion is contributing to eustachian tube dysfunction. Keep water out of the ear canal. If symptoms persist beyond 48–72 hours or worsen, seek evaluation.`,
     answer: (
-      <p dangerouslySetInnerHTML={{ __html: `Clear or yellow drainage often indicates a perforated eardrum (often from middle ear infection) or otitis externa. Don't put cotton in the ear. We can prescribe appropriate drops; some perforations need ENT follow-up.` }} />
+      <p dangerouslySetInnerHTML={{ __html: `Mild ear pain without fever, discharge, or hearing loss can be managed initially with ibuprofen or acetaminophen for pain relief, warm compress applied to the outer ear, and nasal saline irrigation if congestion is contributing to eustachian tube dysfunction. Keep water out of the ear canal. If symptoms persist beyond 48–72 hours or worsen, seek evaluation.` }} />
     ),
   },
   {
-    question: `Should I get a hearing test?`,
-    answerPlain: `Routine hearing tests are not needed for typical ear infections. Hearing tests are warranted for: hearing loss persisting >4 weeks after infection, sudden hearing loss (urgent), or recurrent ear infections.`,
+    question: `Does insurance cover a TeleDirectMD visit for ear pain?`,
+    answerPlain: `TeleDirectMD accepts Aetna, UnitedHealthcare (UHC), and Blue Cross Blue Shield (BCBS) commercial plans. The self-pay rate is $79 flat — no subscription, no hidden fees. Prescription antibiotic costs are separate and vary by pharmacy.`,
     answer: (
-      <p dangerouslySetInnerHTML={{ __html: `Routine hearing tests are not needed for typical ear infections. Hearing tests are warranted for: hearing loss persisting &gt;4 weeks after infection, sudden hearing loss (urgent), or recurrent ear infections.` }} />
+      <p dangerouslySetInnerHTML={{ __html: `TeleDirectMD accepts Aetna, UnitedHealthcare (UHC), and Blue Cross Blue Shield (BCBS) commercial plans. The self-pay rate is $79 flat — no subscription, no hidden fees. Prescription antibiotic costs are separate and vary by pharmacy.` }} />
     ),
   },
   {
-    question: `Can ear pain be referred from somewhere else?`,
-    answerPlain: `Yes — "referred otalgia" is common. Sources include teeth (especially upper molars), TMJ disorder, throat (tonsillitis, even cancer), and cervical spine. If your ear exam is normal, we look elsewhere.`,
+    question: `How fast can I be seen for ear pain?`,
+    answerPlain: `Same-day $79 video evaluations are frequently available for California adults. Book at book.teledirectmd.com — select your preferred time and a board-certified Family Medicine physician will meet you by secure video. No referral required. Most visits are 15 minutes.`,
     answer: (
-      <p dangerouslySetInnerHTML={{ __html: `Yes — "referred otalgia" is common. Sources include teeth (especially upper molars), TMJ disorder, throat (tonsillitis, even cancer), and cervical spine. If your ear exam is normal, we look elsewhere.` }} />
+      <p dangerouslySetInnerHTML={{ __html: `Same-day $79 video evaluations are frequently available for California adults. Book at book.teledirectmd.com — select your preferred time and a board-certified Family Medicine physician will meet you by secure video. No referral required. Most visits are 15 minutes.` }} />
     ),
   },
   {
-    question: `How do I prevent swimmer\'s ear?`,
-    answerPlain: `Dry ears thoroughly after swimming (towel + tilt head); use 50/50 alcohol/white vinegar drops after swimming if prone; wear earplugs while swimming; avoid Q-tips; treat skin conditions like eczema in the canal.`,
+    question: `What if I need an in-person visit for my ear pain?`,
+    answerPlain: `If mastoiditis, facial nerve involvement, severe dizziness, or foreign body is suspected, you will be directed to the ER or urgent care for in-person examination with an otoscope. For recurrent ear infections warranting ENT evaluation, you will be referred with clear guidance. No additional charge for the referral.`,
     answer: (
-      <p dangerouslySetInnerHTML={{ __html: `Dry ears thoroughly after swimming (towel + tilt head); use 50/50 alcohol/white vinegar drops after swimming if prone; wear earplugs while swimming; avoid Q-tips; treat skin conditions like eczema in the canal.` }} />
+      <p dangerouslySetInnerHTML={{ __html: `If mastoiditis, facial nerve involvement, severe dizziness, or foreign body is suspected, you will be directed to the ER or urgent care for in-person examination with an otoscope. For recurrent ear infections warranting ENT evaluation, you will be referred with clear guidance. No additional charge for the referral.` }} />
     ),
   },
   {
-    question: `What if my child has ear pain?`,
-    answerPlain: `Children under 2 are best evaluated in person — exam findings drive treatment decisions. For children 2+, telehealth can be appropriate for typical mild cases with parental input and clear escalation criteria.`,
+    question: `How is an ear infection different from swimmer's ear or TMJ?`,
+    answerPlain: `Acute otitis media (middle ear infection) causes deep-seated ear pain, often follows an upper respiratory illness, and may include fever and muffled hearing. Swimmer's ear (otitis externa) causes pain with movement of the outer ear or when touching the tragus, with a history of water exposure; the ear canal may be red and swollen. TMJ disorder causes jaw joint pain that radiates to the ear — it is worse with chewing and there is tenderness over the jaw joint. A physician's evaluation helps distinguish these causes.`,
     answer: (
-      <p dangerouslySetInnerHTML={{ __html: `Children under 2 are best evaluated in person — exam findings drive treatment decisions. For children 2+, telehealth can be appropriate for typical mild cases with parental input and clear escalation criteria.` }} />
+      <p dangerouslySetInnerHTML={{ __html: `Acute otitis media (middle ear infection) causes deep-seated ear pain, often follows an upper respiratory illness, and may include fever and muffled hearing. Swimmer's ear (otitis externa) causes pain with movement of the outer ear or when touching the tragus, with a history of water exposure; the ear canal may be red and swollen. TMJ disorder causes jaw joint pain that radiates to the ear — it is worse with chewing and there is tenderness over the jaw joint. A physician's evaluation helps distinguish these causes.` }} />
     ),
   },
 ];
@@ -197,7 +186,7 @@ const RELATED_CONDITIONS = [
   { slug: '/sinus-infection-treatment-online/', label: 'Sinus Infection Treatment Online' },
   { slug: '/sore-throat-treatment-online/', label: 'Sore Throat Treatment Online' },
   { slug: '/common-cold-treatment-online/', label: 'Common Cold Treatment Online' },
-  { slug: '/seasonal-allergies-treatment-online/', label: 'Seasonal Allergies Treatment Online' },
+  { slug: '/uti-treatment-online/', label: 'UTI Treatment Online' },
 ];
 
 // ─── JSON-LD schemas ───────────────────────────────────────────────────────────
@@ -208,14 +197,14 @@ function buildSchemas() {
     '@type': 'MedicalWebPage',
     name: PAGE_TITLE,
     url: PAGE_URL,
-    description: `Adult ear pain, fullness, or hearing change? Get evaluated for middle/outer ear infection or eustachian tube issue. $79 telehealth, prescription same day in 41 states.`,
+    description: `Ear pain could be AOM, otitis externa, eustachian dysfunction, TMJ, or referred dental pain. $79 California video evaluation by board-certified Family Medicine physician.`,
     datePublished: DATE_PUBLISHED,
     dateModified: DATE_MODIFIED,
     inLanguage: 'en-US',
     about: {
       '@type': 'MedicalCondition',
-      name: 'Otitis Media / Ear Infection',
-      alternateName: ['Otalgia', 'Earache', 'Otitis Media', 'Ear Infection'],
+      name: 'Ear Pain (Otalgia)',
+      alternateName: ['Otalgia', 'Ear Ache', 'Otitis Media', 'Ear Infection'],
       code: { '@type': 'MedicalCode', code: 'H66.90', codingSystem: 'ICD-10-CM' },
     },
     medicalAudience: {
@@ -260,14 +249,14 @@ function buildSchemas() {
   const howTo = {
     '@context': 'https://schema.org',
     '@type': 'HowTo',
-    name: `How to Get Ear Infection Treatment Online`,
-    description: `Three steps to receive ear pain evaluation and antibiotic prescription from a board-certified physician.`,
+    name: `How to Get an Ear Pain Evaluation Online`,
+    description: `Three steps to receive a physician evaluation for ear pain from a board-certified physician.`,
     totalTime: 'PT30M',
     estimatedCost: { '@type': 'MonetaryAmount', currency: 'USD', value: '79' },
     step: [
-      { '@type': 'HowToStep', position: 1, name: `Book your video visit`, text: `Select ear pain on teledirectmd.com. Self pay $79. No referral needed.`, url: `https://teledirectmd.com/symptoms/ear-pain/` },
-      { '@type': 'HowToStep', position: 2, name: `See a board-certified MD by secure video`, text: `Physician reviews onset, severity, drainage, hearing change, and screens for complications.`, url: `https://teledirectmd.com/symptoms/ear-pain/` },
-      { '@type': 'HowToStep', position: 3, name: `Receive your treatment plan`, text: `Antibiotic drops or oral antibiotic prescribed if bacterial infection is confirmed, with pain management guidance.`, url: `https://teledirectmd.com/symptoms/ear-pain/` }
+      { '@type': 'HowToStep', position: 1, name: `Book your $79 video visit`, text: `Select ear pain on teledirectmd.com. Self pay $79. No referral needed. Same-day visits often available for California adults.`, url: `https://teledirectmd.com/symptoms/ear-pain/` },
+      { '@type': 'HowToStep', position: 2, name: `See a board-certified MD by secure video`, text: `Physician reviews ear pain history, fever, discharge, water exposure, and recent URIs to assess likely cause and triage appropriately.`, url: `https://teledirectmd.com/symptoms/ear-pain/` },
+      { '@type': 'HowToStep', position: 3, name: `Receive your evaluation results and plan`, text: `Antibiotic prescribed if ear infection is the most likely diagnosis. Referral provided if in-person examination or ENT evaluation is needed.`, url: `https://teledirectmd.com/symptoms/ear-pain/` }
     ],
   };
 
@@ -352,12 +341,12 @@ export default function SymptomEarPain() {
           <div className="tdmd-container">
             <div className="tdmd-hero-grid">
               <div className="tdmd-hero-copy">
-                <h1 data-speakable="true" dangerouslySetInnerHTML={{ __html: `Ear Pain — Same-Day Telehealth for Ear Infection` }} />
+                <h1 data-speakable="true" dangerouslySetInnerHTML={{ __html: `Ear Pain — What Might Be Causing It and When to See a Doctor` }} />
                 <p className="tdmd-hero-sub" data-speakable="true">
-                  Ear Pain — same-day video visit with a board-certified family medicine MD. Self pay $79 &amp;middot; 41 states &amp;middot; MD-only care.
+                  Ear pain could be an infection, swimmer's ear, eustachian tube problem, or referred pain from your jaw or teeth. A $79 California evaluation helps identify the cause and the right next step.
                 </p>
                 <p>
-                  Ear Pain is one of the most common reasons adults seek medical care. TeleDirectMD provides same-day evaluation and treatment by a board-certified family medicine physician via secure video visit. Self-pay is $79 with no insurance required. Available in 41 states.
+                  Ear pain in adults can have several different causes — and choosing the right approach depends on which one is most likely. TeleDirectMD provides same-day physician evaluation for California adults experiencing ear pain via secure video visit, triaging between causes that can be managed remotely and those that require in-person or emergency care. Self-pay is $79 with no insurance required.
                 </p>
 
                 {/* Physician byline (E-E-A-T) */}
@@ -376,11 +365,11 @@ export default function SymptomEarPain() {
                 <p className="tdmd-toc-intro" style={{ marginTop: '1.25rem' }}><strong>Quick navigation:</strong></p>
                 <ul className="tdmd-toc">
                   <li><a href={`#${pid}-opening`}>Overview</a></li>
-                  <li><a href={`#${pid}-eligibility`}>Eligibility checklist</a></li>
-                  <li><a href={`#${pid}-differentials`}>Differential diagnosis</a></li>
-                  <li><a href={`#${pid}-cost`}>Cost comparison</a></li>
-                  <li><a href={`#${pid}-medications`}>Medications</a></li>
+                  <li><a href={`#${pid}-causes`}>What might be causing this?</a></li>
                   <li><a href={`#${pid}-red-flags`}>Red flags</a></li>
+                  <li><a href={`#${pid}-self-care`}>Self-care to try first</a></li>
+                  <li><a href={`#${pid}-when-to-book`}>When to book a visit</a></li>
+                  <li><a href={`#${pid}-cost`}>Cost comparison</a></li>
                   <li><a href={`#${pid}-faq`}>FAQs</a></li>
                   <li><a href={`#${pid}-references`}>References</a></li>
                 </ul>
@@ -388,31 +377,31 @@ export default function SymptomEarPain() {
                 <ul className="tdmd-hero-benefits">
                   <li>Self pay $79 — no insurance required</li>
                   <li>MD-only care (no mid-levels)</li>
-                  <li>Same-day visits available in 41 states</li>
+                  <li>Same-day evaluations available in California</li>
                   <li>Board-certified Family Medicine physician</li>
                   <li>e-Prescription to your pharmacy when appropriate</li>
                 </ul>
 
                 <div className="tdmd-hero-ctas">
-                  <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
+                  <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a $79 California Evaluation</a>
                   <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
                 </div>
 
-                <p className="tdmd-icd"><strong>ICD-10 commonly used:</strong> H66.90 — Otitis media, unspecified, unspecified ear (final coding depends on clinical details)</p>
+                <p className="tdmd-icd"><strong>ICD-10 commonly used:</strong> H66.90 — Otitis media, unspecified (final coding depends on clinical details)</p>
               </div>
 
               <div className="tdmd-hero-side">
                 <div className="tdmd-hero-card">
-                  <h2>Online MD-Only Ear Pain Care</h2>
+                  <h2>What a TeleDirectMD Evaluation Includes</h2>
                   <ul>
-                    <li>Fast evaluation and treatment plan</li>
-                    <li>Safety screening before any prescription</li>
-                    <li>Guideline-based medication choices</li>
-                    <li>e-Prescription to your pharmacy</li>
-                    <li>Follow-up guidance and red-flag instructions</li>
+                    <li>Structured ear pain symptom triage</li>
+                    <li>AOM vs. otitis externa vs. referred pain assessment</li>
+                    <li>Red-flag and emergency feature screening</li>
+                    <li>e-Prescription to your pharmacy if appropriate</li>
+                    <li>Clear follow-up and referral instructions</li>
                   </ul>
                   <p className="tdmd-hero-note">
-                    Adults 18+ only. TeleDirectMD is not an emergency service. If you have severe symptoms, difficulty breathing, chest pain, high fever, or rapidly worsening condition, seek urgent in-person or emergency care immediately.
+                    Adults 18+ only. TeleDirectMD is not an emergency service. If you have mastoid swelling, facial paralysis, or sudden hearing loss, seek emergency care immediately.
                   </p>
                 </div>
               </div>
@@ -423,166 +412,147 @@ export default function SymptomEarPain() {
         {/* ─── 2) INLINE OPENER (v3 — replaces CitableSummaryBlock) ──────────── */}
         <section className="tdmd-section tdmd-sym__opener" id={`${pid}-opening`}>
           <div className="tdmd-container">
-            <p dangerouslySetInnerHTML={{ __html: `Ear pain (otalgia) most commonly results from acute otitis media (middle ear infection), otitis externa (swimmer's ear), or eustachian tube dysfunction — all conditions frequently manageable via telehealth. TeleDirectMD evaluates your symptom pattern, assesses drainage and hearing change, and prescribes antibiotic drops or oral antibiotics when bacterial infection is likely, for $79. Severe pain, facial droop, high fever, or mastoid tenderness require in-person or ER evaluation.` }} />
+            <p dangerouslySetInnerHTML={{ __html: `When should you see a doctor for ear pain? Ear pain that persists beyond 48–72 hours, is accompanied by fever, discharge from the ear canal, or a significant change in hearing warrants a physician evaluation. Ear pain could be caused by acute otitis media (middle ear infection), otitis externa (swimmer's ear), eustachian tube dysfunction, TMJ disorder, or referred pain from dental disease. TeleDirectMD provides $79 same-day California video evaluation for adults experiencing ear pain, with a board-certified Family Medicine physician triaging the most likely cause and directing appropriate next steps — including referral when in-person examination is needed.` }} />
             <p style={{ marginTop: '1rem' }}>
-              <strong>Self-pay cost:</strong> $79 flat rate — no subscription, no hidden fees. Prescription costs are separate and vary by pharmacy; see the medication table below for GoodRx estimates. TeleDirectMD does not prescribe controlled substances in any state.
+              <strong>Self-pay cost:</strong> $79 flat rate — no subscription, no hidden fees. Prescription costs are separate and vary by pharmacy. TeleDirectMD does not prescribe controlled substances in any state.
             </p>
             <p>
-              TeleDirectMD physicians hold Board Certification from the <a href="https://www.theabfm.org/" rel="noopener" target="_blank">American Board of Family Medicine (ABFM)</a> and follow clinical guidelines from the CDC, AAFP, and relevant specialty societies. Every visit includes red-flag screening, a structured history, a treatment plan, and clear follow-up instructions.
+              TeleDirectMD physicians hold Board Certification from the <a href="https://www.theabfm.org/" rel="noopener" target="_blank">American Board of Family Medicine (ABFM)</a> and follow clinical guidelines from the AAFP and AAO-HNS. Every visit includes red-flag screening, a structured symptom history, and clear follow-up instructions.
             </p>
           </div>
         </section>
 
-        {/* ─── 3) ELIGIBILITY CHECKLIST ─────────────────────────────────────── */}
-        <section className="tdmd-section" id={`${pid}-eligibility`}>
+        {/* ─── 3) WHAT MIGHT BE CAUSING THIS ──────────────────────────────── */}
+        <section className="tdmd-section" id={`${pid}-causes`}>
           <div className="tdmd-container">
-            <h2>Ear Pain Telehealth Eligibility Checklist</h2>
-            <p><strong>You are likely eligible for a TeleDirectMD video visit if ALL of these are true:</strong></p>
-            <div className="tdmd-sym__dual">
-              <div className="tdmd-sym__dual-card tdmd-sym__dual-card--good">
-                <h3>&#10003; You Are Eligible If</h3>
-                <ul>
-              <li dangerouslySetInnerHTML={{ __html: `Adults and adolescents in our 41 states` }} />
-              <li dangerouslySetInnerHTML={{ __html: `Ear pain, fullness, or hearing reduction` }} />
-              <li dangerouslySetInnerHTML={{ __html: `No red flag features` }} />
-              <li dangerouslySetInnerHTML={{ __html: `Recent water exposure (otitis externa) or cold (ETD/AOM)` }} />
-              <li dangerouslySetInnerHTML={{ __html: `Want guidance on antibiotics vs. supportive care` }} />
-              <li dangerouslySetInnerHTML={{ __html: `Recurrent eustachian tube dysfunction needing refill` }} />
-              <li dangerouslySetInnerHTML={{ __html: `Pain manageable while awaiting plan` }} />
-              <li dangerouslySetInnerHTML={{ __html: `Need work/school note` }} />
-                </ul>
+            <h2>What Might Be Causing Ear Pain?</h2>
+            <p>A physician would evaluate for the following causes based on your symptom pattern, associated features, and exposure history:</p>
+
+            <h3>Common and often self-limiting</h3>
+            <ul>
+              <li dangerouslySetInnerHTML={{ __html: `<strong>Eustachian tube dysfunction:</strong> The eustachian tube connects the middle ear to the back of the throat. When blocked — often during a cold, allergy, or sinus infection — pressure builds in the middle ear, causing aching or a full sensation. A physician would evaluate for this when ear pain follows an upper respiratory illness without fever or discharge. Often improves with nasal decongestants and time.` }} />
+              <li dangerouslySetInnerHTML={{ __html: `<strong>Referred dental pain:</strong> Dental disease (tooth abscess, impacted wisdom tooth) can cause pain that radiates to the ear on the same side. A physician would consider this when ear pain is accompanied by jaw pain, tooth pain, or dental sensitivity and there are no signs of ear infection.` }} />
+              <li dangerouslySetInnerHTML={{ __html: `<strong>TMJ (temporomandibular joint) disorder:</strong> Inflammation or dysfunction of the jaw joint can produce ear pain, especially with chewing or mouth opening. Tenderness directly over the jaw joint in front of the ear is a distinguishing feature.` }} />
+            </ul>
+
+            <h3>Common and requiring evaluation</h3>
+            <ul>
+              <li dangerouslySetInnerHTML={{ __html: `<strong>Acute otitis media (AOM — middle ear infection):</strong> Bacterial or viral infection of the middle ear, typically following an upper respiratory illness. Causes deep, throbbing ear pain, often with fever and a sensation of muffled hearing. A physician would evaluate for AOM and, if appropriate, prescribe antibiotics. If your doctor diagnoses an ear infection, our <a href="/ear-pain-treatment-online/">ear pain treatment page</a> covers antibiotic options and expected recovery.` }} />
+              <li dangerouslySetInnerHTML={{ __html: `<strong>Otitis externa (swimmer's ear):</strong> Infection of the outer ear canal, typically from water exposure or skin trauma. Causes pain when the tragus (the bump in front of the ear canal) is pressed or when the outer ear is pulled. The ear canal may be red, swollen, and have discharge. A physician would evaluate for this with a history of recent swimming or humid environment exposure.` }} />
+            </ul>
+
+            <h3>Less common but serious — requires evaluation</h3>
+            <ul>
+              <li dangerouslySetInnerHTML={{ __html: `<strong>Mastoiditis:</strong> Infection spreading to the mastoid bone behind the ear — a complication of untreated AOM. Features include redness, swelling, and tenderness directly over the mastoid prominence behind the ear, with high fever. This requires ER evaluation and IV antibiotics.` }} />
+              <li dangerouslySetInnerHTML={{ __html: `<strong>Herpes zoster oticus (Ramsay Hunt syndrome):</strong> Reactivation of varicella-zoster virus in the ear can cause severe ear pain, a vesicular rash in the ear canal, and facial weakness. This requires prompt antiviral treatment and in-person evaluation.` }} />
+            </ul>
+
+            <div className="tdmd-sym__cta-strip" role="complementary" style={{ marginTop: '1.5rem' }}>
+              <div>
+                <p>Not sure what is causing your ear pain? Book a $79 evaluation</p>
+                <small>Board-certified Family Medicine physician &amp;middot; California &amp;middot; Same-day available</small>
               </div>
-              <div className="tdmd-sym__dual-card tdmd-sym__dual-card--alert">
-                <h3>&#10007; You Are Not Eligible If</h3>
-                <ul>
-              <li dangerouslySetInnerHTML={{ __html: `Sudden hearing loss — urgent ENT (≤72 hours for steroids)` }} />
-              <li dangerouslySetInnerHTML={{ __html: `Severe vertigo — in-person` }} />
-              <li dangerouslySetInnerHTML={{ __html: `Facial weakness — needs in-person` }} />
-              <li dangerouslySetInnerHTML={{ __html: `Fever with neck stiffness — ER` }} />
-              <li dangerouslySetInnerHTML={{ __html: `Mastoid swelling/tenderness behind ear — ER` }} />
-              <li dangerouslySetInnerHTML={{ __html: `Children under 2 — pediatric in-person preferred` }} />
-              <li dangerouslySetInnerHTML={{ __html: `Suspected foreign body — in-person removal` }} />
-                </ul>
-                <p style={{ marginTop: '0.75rem', color: 'var(--tdmd-muted)', fontSize: '0.92rem' }}>
-                  <strong>If you have red-flag symptoms, seek urgent in-person or emergency care immediately. TeleDirectMD is not appropriate for severe or complex cases.</strong>
-                </p>
-              </div>
+              <a className="tdmd-sym__cta-btn" href="/book-online" rel="noopener">Book Now &amp;rarr;</a>
             </div>
           </div>
         </section>
 
-        {/* ─── 4) HOW IT WORKS ─────────────────────────────────────────────── */}
-        <section className="tdmd-section tdmd-section-highlight" id={`${pid}-how-it-works`}>
+        {/* ─── 4) RED FLAGS ────────────────────────────────────────────────── */}
+        <section className="tdmd-section tdmd-section-highlight" id={`${pid}-red-flags`}>
           <div className="tdmd-container">
-            <h2>How Ear Pain Treatment Works Online</h2>
-            <div className="tdmd-decision-flow">
-              <div className="tdmd-decision-step tdmd-decision-step-check">
-                <div className="tdmd-decision-number">1</div>
-                <div className="tdmd-decision-content">
-                  <h3>Book your $79 video visit</h3>
-                  <p>No insurance required. No referral needed. Many visits available same day in 41 states. Have your symptom timeline and current medication list ready.</p>
-                </div>
+            <h2>Red Flags — When to Call 911 or Go to the ER</h2>
+            <p>
+              Do not use TeleDirectMD if any of the following apply. These symptoms require immediate emergency evaluation:
+            </p>
+            <div className="tdmd-sym__dual-card tdmd-sym__dual-card--alert" style={{ marginTop: '0.75rem' }}>
+              <h3>Seek Emergency Care Immediately If You Have</h3>
+              <ul>
+              <li dangerouslySetInnerHTML={{ __html: `<strong>Swelling, redness, or tenderness over the mastoid bone behind the ear</strong> — possible mastoiditis; ER` }} />
+              <li dangerouslySetInnerHTML={{ __html: `<strong>Facial weakness or paralysis on the same side as the ear pain</strong> — ER` }} />
+              <li dangerouslySetInnerHTML={{ __html: `<strong>Sudden complete hearing loss</strong> — sudden sensorineural hearing loss; ER within 24–48 hours` }} />
+              <li dangerouslySetInnerHTML={{ __html: `<strong>Severe vertigo with nausea, vomiting, and inability to walk</strong> — ER` }} />
+              <li dangerouslySetInnerHTML={{ __html: `<strong>High fever (&gt;103°F) with ear pain and stiff neck</strong> — consider meningitis; ER` }} />
+              <li dangerouslySetInnerHTML={{ __html: `<strong>Vesicular (blister-like) rash visible in or around the ear canal</strong> — possible Ramsay Hunt syndrome; urgent evaluation` }} />
+              <li dangerouslySetInnerHTML={{ __html: `<strong>Blood or clear fluid draining from the ear following head trauma</strong> — ER` }} />
+              </ul>
+            </div>
+            <p style={{ marginTop: '1rem' }}>
+              Call 911 or go to your nearest emergency room for any life-threatening symptoms. For non-emergency in-person needs, <a href="https://findahealthcenter.hrsa.gov/" rel="noopener" target="_blank">HRSA Health Center Finder</a> can locate a low-cost clinic near you.
+            </p>
+          </div>
+        </section>
+
+        {/* ─── 5) SELF-CARE TO TRY FIRST ───────────────────────────────────── */}
+        <section className="tdmd-section" id={`${pid}-self-care`}>
+          <div className="tdmd-container">
+            <h2>Self-Care to Try First</h2>
+            <p>For mild ear pain without fever, discharge, or hearing loss, the following measures may help while awaiting evaluation:</p>
+            <ul>
+              <li dangerouslySetInnerHTML={{ __html: `<strong>Ibuprofen or acetaminophen</strong> — for pain relief. Ibuprofen 400 mg every 6 hours with food; acetaminophen 500–1000 mg every 6 hours.` }} />
+              <li dangerouslySetInnerHTML={{ __html: `<strong>Warm compress</strong> — a warm (not hot) cloth or heating pad on the outer ear for 10–15 minutes can reduce pain.` }} />
+              <li dangerouslySetInnerHTML={{ __html: `<strong>Nasal saline irrigation</strong> — if eustachian tube dysfunction from congestion is suspected, nasal saline spray can improve drainage.` }} />
+              <li dangerouslySetInnerHTML={{ __html: `<strong>Keep water out of the ear</strong> — especially if swimmer's ear is suspected. Use a cotton ball with petroleum jelly when showering.` }} />
+              <li dangerouslySetInnerHTML={{ __html: `<strong>Avoid inserting objects into the ear canal</strong> — do not use cotton swabs, which can worsen otitis externa and push debris deeper.` }} />
+              <li dangerouslySetInnerHTML={{ __html: `<strong>Swallowing or yawning</strong> — can help equalize pressure in the eustachian tube if fullness or pressure is the main symptom.` }} />
+            </ul>
+            <p>If ear pain worsens, fever develops, or symptoms do not improve within 48–72 hours, book a physician evaluation.</p>
+          </div>
+        </section>
+
+        {/* ─── 6) WHEN TO BOOK A VISIT ──────────────────────────────────────── */}
+        <section className="tdmd-section tdmd-section-highlight" id={`${pid}-when-to-book`}>
+          <div className="tdmd-container">
+            <h2>When to Book a TeleDirectMD Visit</h2>
+            <p>A $79 California video evaluation is appropriate for ear pain when:</p>
+            <ul>
+              <li dangerouslySetInnerHTML={{ __html: `Pain persists &gt;48–72 hours or worsens despite analgesics` }} />
+              <li dangerouslySetInnerHTML={{ __html: `Fever above 101°F is present or develops` }} />
+              <li dangerouslySetInnerHTML={{ __html: `Discharge (clear or purulent) is visible in or from the ear canal` }} />
+              <li dangerouslySetInnerHTML={{ __html: `Hearing feels muffled or decreased on the affected side` }} />
+              <li dangerouslySetInnerHTML={{ __html: `Recent water exposure (swimming pool, ocean, river) suggests swimmer's ear` }} />
+              <li dangerouslySetInnerHTML={{ __html: `Recent URI followed by ear pressure and pain` }} />
+              <li dangerouslySetInnerHTML={{ __html: `You are immunocompromised, pregnant, or age &gt;65 with any ear pain` }} />
+            </ul>
+            <p>
+              TeleDirectMD accepts Aetna, UnitedHealthcare, and Blue Cross Blue Shield commercial plans. Self-pay is $79 flat — no subscription, no hidden fees. California telehealth visits are authorized under Business and Professions Code 2290.5.
+            </p>
+            <h3>What Happens in a TeleDirectMD Evaluation</h3>
+            <ol>
+              <li dangerouslySetInnerHTML={{ __html: `<strong>Book your visit</strong> at book.teledirectmd.com — select a same-day or next-day time slot. No referral required.` }} />
+              <li dangerouslySetInnerHTML={{ __html: `<strong>15-minute secure video visit</strong> with a board-certified Family Medicine physician. The doctor reviews your ear pain history, fever, discharge, water exposure, and hearing changes to assess the most likely cause.` }} />
+              <li dangerouslySetInnerHTML={{ __html: `<strong>Evaluation results and plan:</strong> If an ear infection is the most likely diagnosis, a physician may prescribe antibiotic therapy electronically to your local pharmacy. If your doctor diagnoses an ear infection, see our <a href="/ear-pain-treatment-online/">ear pain treatment page</a> for full treatment details. If in-person examination is needed, you will be referred with clear instructions.` }} />
+            </ol>
+            <div className="tdmd-sym__cta-strip" role="complementary" style={{ marginTop: '1.5rem' }}>
+              <div>
+                <p>Book a $79 California evaluation for ear pain</p>
+                <small>Same-day visits available &amp;middot; Board-certified Family Medicine &amp;middot; e-Prescription same day</small>
               </div>
-              <div className="tdmd-decision-step tdmd-decision-step-check">
-                <div className="tdmd-decision-number">2</div>
-                <div className="tdmd-decision-content">
-                  <h3>See a board-certified MD by secure video</h3>
-                  <p>The physician takes a structured medical history, performs a targeted virtual exam, screens for red flags, and applies current clinical guidelines. If in-person care is needed, you&apos;ll be redirected at no charge.</p>
-                </div>
-              </div>
-              <div className="tdmd-decision-step tdmd-decision-step-good">
-                <div className="tdmd-decision-number">3</div>
-                <div className="tdmd-decision-content">
-                  <h3>Get your treatment plan and, if appropriate, a prescription</h3>
-                  <p>If medication is clinically appropriate, an e-prescription is sent to your chosen pharmacy during or after the visit. Clear follow-up instructions and red-flag criteria are provided regardless of treatment choice.</p>
-                  <div className="tdmd-decision-cta">
-                    <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
-                  </div>
-                </div>
-              </div>
+              <a className="tdmd-sym__cta-btn" href="https://book.teledirectmd.com" rel="noopener">Book Now &amp;rarr;</a>
             </div>
           </div>
         </section>
 
-        {/* ─── 5) DIFFERENTIAL DIAGNOSIS ───────────────────────────────────── */}
-        <section className="tdmd-section" id={`${pid}-differentials`}>
+        {/* ─── 7) COST COMPARISON (vertical bars — tdmd-vbar) ──────────────── */}
+        <section className="tdmd-section" id={`${pid}-cost`}>
           <div className="tdmd-container">
-            <h2>What Causes Ear Pain? Differential Diagnosis</h2>
-            <p>Not all ear pain is the same condition. The table below lists the most common causes your physician will consider, with features that distinguish them.</p>
-            <div className="tdmd-table-wrap">
-              <table className="tdmd-table" aria-label="Ear Pain differential diagnosis">
-                <thead>
-                  <tr>
-                    <th>Condition</th>
-                    <th>Description</th>
-                    <th>Prevalence</th>
-                    <th>Key Features</th>
-                    <th>Next Step</th>
-                  </tr>
-                </thead>
-                <tbody>
-              <tr>
-                <td><strong dangerouslySetInnerHTML={{ __html: `Otitis externa` }} /></td>
-                <td dangerouslySetInnerHTML={{ __html: `Bacterial infection of ear canal (often Pseudomonas or Staph).` }} />
-                <td dangerouslySetInnerHTML={{ __html: `Common — peaks in summer` }} />
-                <td dangerouslySetInnerHTML={{ __html: `Pain worse with tragus pressure or pinna pull, canal swelling, recent water exposure` }} />
-                <td dangerouslySetInnerHTML={{ __html: `Ofloxacin or ciprofloxacin/dexamethasone otic drops × 7 days; keep ear dry` }} />
-              </tr>
-              <tr>
-                <td><strong dangerouslySetInnerHTML={{ __html: `Acute otitis media` }} /></td>
-                <td dangerouslySetInnerHTML={{ __html: `Middle-ear bacterial or viral infection.` }} />
-                <td dangerouslySetInnerHTML={{ __html: `Less common in adults than children` }} />
-                <td dangerouslySetInnerHTML={{ __html: `Deep ear pain, fullness, hearing reduction, often after URI` }} />
-                <td dangerouslySetInnerHTML={{ __html: `Amoxicillin 1 g TID × 7 days, or watchful waiting if mild; analgesics` }} />
-              </tr>
-              <tr>
-                <td><strong dangerouslySetInnerHTML={{ __html: `Eustachian tube dysfunction` }} /></td>
-                <td dangerouslySetInnerHTML={{ __html: `Inability to equalize middle-ear pressure.` }} />
-                <td dangerouslySetInnerHTML={{ __html: `Very common after URI` }} />
-                <td dangerouslySetInnerHTML={{ __html: `Fullness, popping, mild pain, recent cold or flight` }} />
-                <td dangerouslySetInnerHTML={{ __html: `Decongestant + intranasal steroid; Valsalva; usually self-resolves 1–2 weeks` }} />
-              </tr>
-              <tr>
-                <td><strong dangerouslySetInnerHTML={{ __html: `Cerumen impaction` }} /></td>
-                <td dangerouslySetInnerHTML={{ __html: `Hardened earwax causing pressure.` }} />
-                <td dangerouslySetInnerHTML={{ __html: `~5% adults yearly` }} />
-                <td dangerouslySetInnerHTML={{ __html: `Fullness, hearing reduction, mild pain, no inflammation` }} />
-                <td dangerouslySetInnerHTML={{ __html: `Carbamide peroxide drops; in-office irrigation if persistent` }} />
-              </tr>
-              <tr>
-                <td><strong dangerouslySetInnerHTML={{ __html: `Referred pain (TMJ, dental, throat)` }} /></td>
-                <td dangerouslySetInnerHTML={{ __html: `Pain perceived in ear from neighboring structures.` }} />
-                <td dangerouslySetInnerHTML={{ __html: `Common` }} />
-                <td dangerouslySetInnerHTML={{ __html: `Normal ear exam, pain with chewing/jaw/swallowing` }} />
-                <td dangerouslySetInnerHTML={{ __html: `Treat underlying cause (dental visit, TMJ care, strep evaluation)` }} />
-              </tr>
-                </tbody>
-              </table>
-            </div>
-          </div>
-        </section>
-
-        {/* ─── 6) COST COMPARISON (vertical bars — tdmd-vbar) ──────────────── */}
-        <section className="tdmd-section tdmd-section-highlight" id={`${pid}-cost`}>
-          <div className="tdmd-container">
-            <h2>Ear Pain Treatment Cost Comparison</h2>
-            <p>TeleDirectMD&apos;s self-pay rate is <strong>$79</strong> for a complete MD video visit — evaluation, treatment plan, and e-prescription included. The chart below shows how that compares to typical out-of-pocket costs at other settings. Prescription medication costs are separate.</p>
+            <h2>Evaluation Cost Comparison</h2>
+            <p>TeleDirectMD&apos;s self-pay rate is <strong>$79</strong> for a complete MD video evaluation — symptom assessment, differential triage, and e-prescription if appropriate. Prescription medication costs are separate.</p>
 
             <div className="tdmd-price-grid">
               <div className="tdmd-price-card" aria-label="TeleDirectMD pricing">
-                <h3>TeleDirectMD Video Visit</h3>
+                <h3>TeleDirectMD Video Evaluation</h3>
                 <p className="tdmd-price-big">$79</p>
                 <p className="tdmd-price-sub">Self-pay flat fee — no subscription</p>
                 <ul className="tdmd-price-includes">
-                  <li>Board-certified MD video evaluation</li>
-                  <li>Red-flag screening &amp;amp; structured triage</li>
+                  <li>Board-certified Family Medicine physician</li>
+                  <li>Ear pain triage and cause assessment</li>
+                  <li>Red-flag and emergency screening</li>
                   <li>e-Prescription to your pharmacy (when appropriate)</li>
-                  <li>Follow-up instructions &amp;amp; prevention guidance</li>
                   <li>No hidden fees — $79 is the total visit cost</li>
                 </ul>
               </div>
 
-              <div className="tdmd-price-chart" role="group" aria-label="Typical Ear Pain cost comparison">
+              <div className="tdmd-price-chart" role="group" aria-label="Typical ear pain visit cost comparison">
                 <h3>Typical Ear Pain Visit Cost</h3>
                 <p className="tdmd-price-caption">Typical out-of-pocket costs before insurance. Actual costs vary by location and plan. ER average per Mira Health 2025 data.</p>
                 <div className="tdmd-vbars" role="list" aria-label="Cost comparison bars">
@@ -604,184 +574,23 @@ export default function SymptomEarPain() {
                 </p>
               </div>
             </div>
-
-            <p style={{ marginTop: '1rem' }}>
-              For more detail, see <a href="/what-we-treat">all conditions we treat</a> or view our <a href="/faq">FAQ page</a> for common billing questions. TeleDirectMD does not bill insurance for self-pay visits.
-            </p>
           </div>
         </section>
 
-        {/* ─── 7) MEDICATION TABLE ─────────────────────────────────────────── */}
-        <section className="tdmd-section" id={`${pid}-medications`}>
-          <div className="tdmd-container">
-            <h2>Ear Pain Treatment Options &amp;amp; Medication Guide</h2>
-            <p>
-              The medications listed below represent evidence-based options used for ear pain. The physician selects the most appropriate agent based on your history, allergies, kidney function, drug interactions, and symptom severity at the time of the visit. GoodRx prices retrieved May 2026; actual cost varies by pharmacy.
-            </p>
-            <div className="tdmd-table-wrap">
-              <table className="tdmd-table" aria-label="Ear Pain medication options">
-                <caption style={{ captionSide: 'bottom', textAlign: 'left', padding: '0.5rem 0', fontSize: '0.85rem', color: 'var(--tdmd-muted)' }}>
-                  GoodRx prices retrieved May 2026. Prescription costs are separate from the $79 TeleDirectMD visit fee. Actual pharmacy costs vary.
-                </caption>
-                <thead>
-                  <tr>
-                    <th>Medication</th>
-                    <th>Form</th>
-                    <th>Drug Class</th>
-                    <th>Typical Dose</th>
-                    <th>GoodRx Price</th>
-                    <th>Key Considerations</th>
-                  </tr>
-                </thead>
-                <tbody>
-              <tr>
-                <td><strong>Ofloxacin</strong> <span className="tdmd-sym__med-brand">(Floxin Otic)</span></td>
-                <td>Ear drops</td>
-                <td>Topical fluoroquinolone</td>
-                <td dangerouslySetInnerHTML={{ __html: `5 drops in affected ear twice daily × 7 days` }} />
-                <td><a href="https://www.goodrx.com/floxin" target="_blank" rel="noopener">$20–$155</a></td>
-                <td dangerouslySetInnerHTML={{ __html: `Local irritation, taste changes` }} />
-              </tr>
-              <tr>
-                <td><strong>Ciprofloxacin / Dexamethasone</strong> <span className="tdmd-sym__med-brand">(Ciprodex)</span></td>
-                <td>Ear drops</td>
-                <td>Topical fluoroquinolone + steroid</td>
-                <td dangerouslySetInnerHTML={{ __html: `4 drops in affected ear twice daily × 7 days` }} />
-                <td><a href="https://www.goodrx.com/ciprofloxacin-dexamethasone" target="_blank" rel="noopener">$55–$211</a></td>
-                <td dangerouslySetInnerHTML={{ __html: `Local irritation; faster pain relief due to steroid` }} />
-              </tr>
-              <tr>
-                <td><strong>Amoxicillin</strong> <span className="tdmd-sym__med-brand">(Amoxil)</span></td>
-                <td>Oral capsule/suspension</td>
-                <td>Beta-lactam antibiotic</td>
-                <td dangerouslySetInnerHTML={{ __html: `1 g three times daily × 7 days for adult AOM` }} />
-                <td><a href="https://www.goodrx.com/amoxicillin" target="_blank" rel="noopener">$4–$16</a></td>
-                <td dangerouslySetInnerHTML={{ __html: `GI upset, rash, diarrhea` }} />
-              </tr>
-              <tr>
-                <td><strong>Amoxicillin-clavulanate</strong> <span className="tdmd-sym__med-brand">(Augmentin)</span></td>
-                <td>Oral tablet</td>
-                <td>Beta-lactam + beta-lactamase inhibitor</td>
-                <td dangerouslySetInnerHTML={{ __html: `875/125 mg BID × 7 days` }} />
-                <td>(see medication table)</td>
-                <td dangerouslySetInnerHTML={{ __html: `Diarrhea, GI upset` }} />
-              </tr>
-              <tr>
-                <td><strong>Pseudoephedrine</strong> <span className="tdmd-sym__med-brand">(Sudafed)</span></td>
-                <td>Oral tablet</td>
-                <td>Decongestant</td>
-                <td dangerouslySetInnerHTML={{ __html: `60 mg every 4–6 hours × 3–5 days` }} />
-                <td><a href="https://www.goodrx.com/pseudoephedrine" target="_blank" rel="noopener">$6–$7</a></td>
-                <td dangerouslySetInnerHTML={{ __html: `Insomnia, BP elevation` }} />
-              </tr>
-                </tbody>
-              </table>
-            </div>
-            <p className="tdmd-med-note">
-              <strong>Important:</strong> Do not start any prescription medication without a clinical evaluation. The appropriate choice depends on your individual history, allergies, comorbidities, and current medications — all assessed by the physician at your visit. TeleDirectMD does not prescribe controlled substances.
-            </p>
-          </div>
-        </section>
-
-        {/* ─── 8) RED FLAGS ────────────────────────────────────────────────── */}
-        <section className="tdmd-section tdmd-section-highlight" id={`${pid}-red-flags`}>
-          <div className="tdmd-container">
-            <h2>Red Flags — When to Seek Emergency or Urgent In-Person Care</h2>
-            <p>
-              TeleDirectMD is not appropriate for severe or complex presentations. The following symptoms require immediate in-person or emergency evaluation. Do not use telehealth if any of the following apply:
-            </p>
-            <div className="tdmd-sym__dual-card tdmd-sym__dual-card--alert" style={{ marginTop: '0.75rem' }}>
-              <h3>Seek Urgent / Emergency Care Immediately If</h3>
-              <ul>
-              <li dangerouslySetInnerHTML={{ __html: `<strong>Sudden hearing loss</strong> — emergency; ENT within 72 hours for systemic steroids` }} />
-              <li dangerouslySetInnerHTML={{ __html: `<strong>Severe vertigo with hearing loss</strong> — possible labyrinthitis; in-person` }} />
-              <li dangerouslySetInnerHTML={{ __html: `<strong>Facial weakness or asymmetry</strong> — possible Bell's palsy or Ramsay-Hunt; in-person` }} />
-              <li dangerouslySetInnerHTML={{ __html: `<strong>Fever with severe headache or neck stiffness</strong> — meningitis risk; ER` }} />
-              <li dangerouslySetInnerHTML={{ __html: `<strong>Mastoid swelling/redness behind the ear</strong> — possible mastoiditis; ER` }} />
-              <li dangerouslySetInnerHTML={{ __html: `<strong>Foul-smelling discharge with hearing loss in chronic case</strong> — cholesteatoma; ENT` }} />
-              <li dangerouslySetInnerHTML={{ __html: `<strong>Severe vertigo with vomiting</strong> — vestibular neuritis vs. central cause` }} />
-              </ul>
-            </div>
-            <p style={{ marginTop: '1rem' }}>
-              Call 911 or go to your nearest emergency room for any life-threatening symptoms. For non-emergency in-person needs, <a href="https://findahealthcenter.hrsa.gov/" rel="noopener" target="_blank">HRSA Health Center Finder</a> can locate a low-cost clinic near you.
-            </p>
-          </div>
-        </section>
-
-        {/* ─── 9) RECOVERY TIMELINE ────────────────────────────────────────── */}
-        <section className="tdmd-section" id={`${pid}-recovery`}>
-          <div className="tdmd-container">
-            <h2>What to Expect: Ear Pain Recovery Timeline</h2>
-            <p>Recovery timelines are approximate and depend on the underlying cause, treatment chosen, and individual factors. Use these as general guides, not guarantees.</p>
-            <div className="tdmd-table-wrap">
-              <table className="tdmd-table" aria-label="Ear Pain recovery timeline">
-                <thead>
-                  <tr>
-                    <th>Timeframe</th>
-                    <th>What to Expect</th>
-                  </tr>
-                </thead>
-                <tbody>
-              <tr>
-                <td><strong>Day 1–2</strong></td>
-                <td dangerouslySetInnerHTML={{ __html: `Pain begins to decrease with appropriate treatment. Otitis externa drops with steroid (Ciprodex) typically fastest pain relief.` }} />
-              </tr>
-              <tr>
-                <td><strong>Day 3–5</strong></td>
-                <td dangerouslySetInnerHTML={{ __html: `Most pain resolved; complete the full antibiotic course even if better.` }} />
-              </tr>
-              <tr>
-                <td><strong>Day 7</strong></td>
-                <td dangerouslySetInnerHTML={{ __html: `Treatment course complete; hearing typically restored. ETD may take longer.` }} />
-              </tr>
-              <tr>
-                <td><strong>Week 2</strong></td>
-                <td dangerouslySetInnerHTML={{ __html: `Eustachian tube dysfunction usually fully resolved by now.` }} />
-              </tr>
-              <tr>
-                <td><strong>Beyond 4 weeks</strong></td>
-                <td dangerouslySetInnerHTML={{ __html: `Persistent symptoms warrant ENT referral — possible chronic otitis media, eustachian tube dysfunction, or cholesteatoma.` }} />
-              </tr>
-                </tbody>
-              </table>
-            </div>
-          </div>
-        </section>
-
-        {/* ─── 10) HOME CARE ───────────────────────────────────────────────── */}
-        <section className="tdmd-section tdmd-section-highlight" id={`${pid}-home-care`}>
-          <div className="tdmd-container">
-            <h2>Home Care &amp;amp; Self-Management Tips for Ear Pain</h2>
-            <p>These evidence-based home care strategies can complement prescription treatment. They are not substitutes for medical evaluation.</p>
-            <ul>
-              <li dangerouslySetInnerHTML={{ __html: `Keep ear dry during otitis externa treatment (cotton ball + petroleum jelly in shower)` }} />
-              <li dangerouslySetInnerHTML={{ __html: `No swimming until cleared` }} />
-              <li dangerouslySetInnerHTML={{ __html: `Don't use Q-tips — they push wax in and damage canal lining` }} />
-              <li dangerouslySetInnerHTML={{ __html: `Warm compress 15 minutes 3× daily for pain` }} />
-              <li dangerouslySetInnerHTML={{ __html: `Sleep with affected ear up if possible` }} />
-              <li dangerouslySetInnerHTML={{ __html: `Stay hydrated and elevate head for ETD` }} />
-              <li dangerouslySetInnerHTML={{ __html: `For ETD: try Valsalva maneuver (pinch nose, gently blow) and yawning` }} />
-              <li dangerouslySetInnerHTML={{ __html: `Chew gum during altitude changes` }} />
-              <li dangerouslySetInnerHTML={{ __html: `Avoid loud noise exposure during recovery` }} />
-              <li dangerouslySetInnerHTML={{ __html: `Don't fly if severe symptoms — use decongestant 30 min before flight if needed` }} />
-            </ul>
-          </div>
-        </section>
-
-        {/* ─── 11) CTA STRIP ────────────────────────────────────────────────── */}
+        {/* ─── 8) CTA STRIP ────────────────────────────────────────────────── */}
         <section className="tdmd-section" aria-label="Book a visit">
           <div className="tdmd-container">
             <div className="tdmd-sym__cta-strip" role="complementary">
               <div>
-                <p>Book a same-day video visit — adults 18+ in 41 states</p>
-                <small>Self pay $79 &amp;middot; MD-only care &amp;middot; No ER wait &amp;middot; e-Prescription same day</small>
+                <p>Book a same-day California evaluation — adults 18+ &amp;middot; $79 self-pay</p>
+                <small>Board-certified Family Medicine &amp;middot; MD-only care &amp;middot; e-Prescription same day</small>
               </div>
               <a className="tdmd-sym__cta-btn" href="/book-online" rel="noopener">Book Now &amp;rarr;</a>
             </div>
           </div>
         </section>
 
-        {/* ─── 12) FAQ ACCORDION ───────────────────────────────────────────── */}
+        {/* ─── 9) FAQ ACCORDION ───────────────────────────────────────────── */}
         <section className="tdmd-section tdmd-faq" id={`${pid}-faq`}>
           <div className="tdmd-container">
             <FaqAccordion
@@ -791,22 +600,22 @@ export default function SymptomEarPain() {
 
             <div className="tdmd-bottom-cta" role="region" aria-label="Book a visit call to action">
               <div className="tdmd-bottom-cta-copy">
-                <h3>Ready to see a board-certified MD?</h3>
-                <p>Book a same-day video visit. Self pay $79 &amp;middot; 41 states &amp;middot; MD-only care.</p>
+                <h3>Ready to get your ear pain evaluated?</h3>
+                <p>Book a same-day $79 California video visit. Board-certified Family Medicine &amp;middot; MD-only care.</p>
               </div>
               <div className="tdmd-bottom-cta-actions">
                 <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
-                <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
+                <a href="/ear-pain-treatment-online/" className="tdmd-btn tdmd-btn-outline">Ear Pain Treatment Details</a>
               </div>
             </div>
           </div>
         </section>
 
-        {/* ─── 13) RELATED CONDITIONS ──────────────────────────────────────── */}
+        {/* ─── 10) RELATED CONDITIONS ──────────────────────────────────────── */}
         <section className="tdmd-section tdmd-section-highlight" id={`${pid}-related-conditions`}>
           <div className="tdmd-container">
             <h2>Related Conditions We Treat Online</h2>
-            <p>These condition pages cover related symptoms or treatments that may be relevant to your ear pain visit.</p>
+            <p>These condition pages cover related symptoms or treatments that may be relevant to your evaluation.</p>
             <div className="tdmd-sym__sibling-grid">
               {RELATED_CONDITIONS.map((s) => (
                 <a key={s.slug} className="tdmd-sym__sibling" href={s.slug}>
@@ -817,7 +626,7 @@ export default function SymptomEarPain() {
           </div>
         </section>
 
-        {/* ─── 14) RELATED RESOURCE LINKS ─────────────────────────────────── */}
+        {/* ─── 11) RELATED RESOURCE LINKS ─────────────────────────────────── */}
         <section className="tdmd-section" id={`${pid}-related`}>
           <div className="tdmd-container">
             <h2>Related Resources from TeleDirectMD</h2>
@@ -833,22 +642,21 @@ export default function SymptomEarPain() {
           </div>
         </section>
 
-        {/* ─── 15) REFERENCES ──────────────────────────────────────────────── */}
+        {/* ─── 12) REFERENCES ──────────────────────────────────────────────── */}
         <section className="tdmd-section" id={`${pid}-references`}>
           <div className="tdmd-container">
             <h2>References and Primary Sources</h2>
             <ol className="tdmd-ref-list">
-              <li><a href="https://www.aafp.org/pubs/afp/issues/2014/0201/p153.html" rel="noopener" target="_blank">AAP/AAFP — Otitis Media Clinical Practice Guideline</a>. Retrieved May 23, 2026.</li>
-              <li><a href="https://www.cdc.gov/antibiotic-use/ear-infection.html" rel="noopener" target="_blank">CDC — Ear Infection Overview</a>. Retrieved May 23, 2026.</li>
-              <li><a href="https://www.aafp.org/pubs/afp/issues/2012/1101/p771.html" rel="noopener" target="_blank">AAFP — Otitis Externa Management</a>. Retrieved May 23, 2026.</li>
-              <li><a href="https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=ofloxacin+otic" rel="noopener" target="_blank">FDA DailyMed — Ofloxacin Otic</a>. Retrieved May 23, 2026.</li>
-              <li><a href="https://www.goodrx.com/ofloxacin-otic" rel="noopener" target="_blank">GoodRx — Ear Drop Pricing</a>. Retrieved May 23, 2026.</li>
-              <li><a href="https://www.theabfm.org/" rel="noopener" target="_blank">ABFM — Otolaryngology Resources</a>. Retrieved May 23, 2026.</li>
+              <li><a href="https://www.aafp.org/pubs/afp/issues/2012/0201/p254.html" rel="noopener" target="_blank">AAFP — Acute Otitis Media: Diagnosis and Management</a>. Retrieved May 23, 2026.</li>
+              <li><a href="https://www.cdc.gov/antibiotic-use/ear-infection.html" rel="noopener" target="_blank">CDC — Ear Infection and Antibiotic Use</a>. Retrieved May 23, 2026.</li>
+              <li><a href="https://www.entnet.org/quality-practice/quality-products/clinical-practice-guidelines/" rel="noopener" target="_blank">AAO-HNS — Clinical Practice Guidelines: Otitis Media with Effusion</a>. Retrieved May 23, 2026.</li>
+              <li><a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&amp;sectionNum=2290.5." rel="noopener" target="_blank">California B&amp;P Code 2290.5 — Telehealth</a>. Retrieved May 23, 2026.</li>
+              <li><a href="https://www.theabfm.org/" rel="noopener" target="_blank">ABFM — Board Certification Standards</a>. Retrieved May 23, 2026.</li>
             </ol>
           </div>
         </section>
 
-        {/* ─── 16) MEDICAL DISCLAIMER ─────────────────────────────────────── */}
+        {/* ─── 13) MEDICAL DISCLAIMER ─────────────────────────────────────── */}
         <section className="tdmd-section tdmd-footnote" id={`${pid}-disclaimer`}>
           <div className="tdmd-container">
             <h2>Medical Disclaimer</h2>
@@ -856,7 +664,7 @@ export default function SymptomEarPain() {
               This page is for informational purposes only and is not a substitute for individualized medical advice, diagnosis, or treatment. Use of TeleDirectMD does not establish a physician-patient relationship until a video visit is initiated and documented. Treatment decisions are made by a board-certified physician based on the clinical history presented at the time of the visit.
             </p>
             <p>
-              If you have red-flag or emergency symptoms, seek urgent in-person or emergency care immediately — do not use TeleDirectMD. The $79 visit fee covers the physician evaluation only; prescription medication costs are separate and vary by pharmacy. GoodRx price estimates are retrieved May 2026 and are subject to change. Insurance information on this page is current as of May 23, 2026; verify with your insurer before booking. TeleDirectMD does not prescribe controlled substances in any state.
+              If you have red-flag or emergency symptoms, seek urgent in-person or emergency care immediately — do not use TeleDirectMD. The $79 visit fee covers the physician evaluation only; prescription medication costs are separate and vary by pharmacy. Insurance information on this page is current as of May 23, 2026; verify with your insurer before booking. TeleDirectMD does not prescribe controlled substances in any state.
             </p>
           </div>
         </section>
