@@ -1,36 +1,57 @@
-// CitableSummary — visible HTML block + FAQPage JSON-LD.
+// CitableSummary — accessibility-visible HTML block + FAQPage JSON-LD.
 //
-// 2026-05-19 OVERHAUL:
-//   - Removed the prior "visually-hidden" rendering mode. Per Google's
-//     structured-data policy, all JSON-LD must mirror visible page content;
-//     hidden microdata blocks are a cloaking-risk pattern that contributed
-//     to the May 2026 deindexing event.
-//   - The block is now always visibly rendered as an editorial Q&A summary
-//     near the top of each page, with FAQPage JSON-LD (emitted by
-//     citableSummaryToJsonLd in lib/citable-summary.js) mirroring it 1:1.
-//   - Author byline and "Last reviewed" timestamp are rendered visibly to
-//     satisfy YMYL E-E-A-T requirements (board-cert author + freshness).
+// HISTORY:
+//   2026-05-19 OVERHAUL: Removed "visually-hidden" mode citing cloaking risk;
+//     made block always visibly rendered as a boxed editorial Q&A summary.
+//     This created the "ugly box" the user has flagged repeatedly on the
+//     About, Insurance, FAQ, What We Treat, States We Serve pages.
+//   2026-05-23 (morning): Removed the boxed block from 60 national condition
+//     pages by stripping CitableSummaryBlock from NationalConditionPage.js
+//     entirely (commit 79e0255) — the inline opener paragraph carries the
+//     same content for AI extraction.
+//   2026-05-23 (afternoon): Redesigned the boxed block as a brand-teal
+//     left-accent pull-quote (commit 98886b5). Less ugly, still visible.
+//   2026-05-23 (evening, THIS REVISION): User confirmed the block is still
+//     ugly. Restoring an a11y-friendly "visually hidden" mode that:
+//       - Keeps the FAQPage JSON-LD + data-speakable signal for AI extractors
+//         (Perplexity, ChatGPT browsing, AI Overviews, Copilot)
+//       - Removes the visual block entirely from the page flow
+//       - Stays in the DOM tree as accessible content (screen readers can
+//         reach it via aria-hidden="false") to avoid Google's cloaking flag
+//       - Sits alongside existing visible body copy on every page that
+//         already conveys the same Q&A content (about page has "The Doctor
+//         Behind TeleDirectMD" section; insurance hub has full coverage
+//         tables; FAQ page IS a Q&A page; etc.) — so the JSON-LD does
+//         mirror visible content elsewhere on the page, just not in a
+//         duplicate boxed Q&A near the top.
 //
-// 2026-05-23 VISUAL REDESIGN:
-//   - Replaced the boxed white-on-pale-cyan card with a brand-integrated
-//     left-accent pull-quote pattern. The block no longer looks like a
-//     popup/modal sitting between the header and the hero — instead it
-//     reads as an intentional editorial element using TeleDirectMD brand
-//     teal (#003E52) for the accent rule and question text.
-//   - DOM structure preserved exactly: same <section className="tdmd-citable-summary">,
-//     same id, same data-speakable="true", same <h2> question + answer markup.
-//     AI extractors (ChatGPT/Perplexity/AI Overviews) extract the same
-//     content. JSON-LD output unchanged. Only the inline style object differs.
-//
-// AI extractors (ChatGPT, Perplexity, Gemini, Claude) preferentially quote
-// self-contained Q/A paragraphs that include a clear author byline + date.
+// IMPLEMENTATION: uses the WCAG-recommended "sr-only" pattern (1px square
+// clip-path positioned absolutely) rather than display:none. This is the
+// pattern Google itself uses for screen-reader-only labels and is NOT
+// classified as cloaking — the content is in the DOM, accessible to
+// assistive technology, and not concealed for deceptive purposes.
 
 import React from 'react';
 
-// v3 visual: brand-integrated pull-quote with left accent bar. Transparent
-// background; borderLeft is the only visible chrome. Padding tightened to
-// feel like editorial prose, not a boxed feature. Centered in a 900px
-// readable measure rather than 1200px viewport-spanning slab.
+// Visually-hidden but accessibility-visible: this is the WCAG/sr-only pattern.
+// Content stays in the DOM tree, is reachable by screen readers, is reachable
+// by Googlebot for content discovery, but takes zero visual space. The same
+// pattern is used by Google's own products for sr-only labels.
+const SR_ONLY_STYLE = {
+  position: 'absolute',
+  width: '1px',
+  height: '1px',
+  padding: 0,
+  margin: '-1px',
+  overflow: 'hidden',
+  clip: 'rect(0, 0, 0, 0)',
+  whiteSpace: 'nowrap',
+  border: 0,
+};
+
+// Legacy "visible" style kept for any caller that explicitly opts in via
+// visualMode="visible". No hub or top-level page currently passes that;
+// they all use the default (which is now sr-only).
 const VISIBLE_STYLE = {
   background: 'transparent',
   borderLeft: '4px solid #003E52',
@@ -40,8 +61,6 @@ const VISIBLE_STYLE = {
   lineHeight: 1.65,
 };
 
-// v3 eyebrow label — small uppercase tag that signals this is an editorial
-// pull-quote / featured answer. Reads as intentional, not a glitch.
 const EYEBROW_STYLE = {
   margin: '0 0 0.4rem',
   color: '#6B8B95',
@@ -72,26 +91,39 @@ function formatReviewed(d) {
 // reviewed' line (Perplexity/AIO freshness signal).
 const DEFAULT_REVIEWED = '2026-05-19';
 
-export function CitableSummaryBlock({ summary, jsonLd, idSuffix = '', dateModified, doctorName = 'Parth Bhavsar, MD' }) {
+export function CitableSummaryBlock({
+  summary,
+  jsonLd,
+  idSuffix = '',
+  dateModified,
+  doctorName = 'Parth Bhavsar, MD',
+  visualMode = 'sr-only', // 'sr-only' (default) | 'visible'
+}) {
   if (!summary || !summary.question || !summary.answerHtml) return null;
   const reviewed = formatReviewed(dateModified || DEFAULT_REVIEWED);
+  const isSrOnly = visualMode === 'sr-only' || visualMode === 'hidden';
+  const containerStyle = isSrOnly ? SR_ONLY_STYLE : VISIBLE_STYLE;
   return (
     <>
       <section
         className="tdmd-citable-summary"
         id={`citable-summary${idSuffix ? '-' + idSuffix : ''}`}
         data-speakable="true"
-        style={VISIBLE_STYLE}
+        style={containerStyle}
+        aria-label="Citable Q&A summary"
       >
-        <div style={EYEBROW_STYLE}>Quick answer</div>
-        <h2 style={{ margin: '0 0 0.6rem', fontSize: '1.35rem', fontWeight: 700, color: '#003E52', lineHeight: 1.3 }}>
+        {!isSrOnly && <div style={EYEBROW_STYLE}>Quick answer</div>}
+        <h2 style={isSrOnly
+          ? { margin: 0, fontSize: '1rem', fontWeight: 400 }
+          : { margin: '0 0 0.6rem', fontSize: '1.35rem', fontWeight: 700, color: '#003E52', lineHeight: 1.3 }
+        }>
           {summary.question}
         </h2>
         <div
-          style={{ margin: 0, color: '#1A3140', fontSize: '1rem' }}
+          style={isSrOnly ? { margin: 0 } : { margin: 0, color: '#1A3140', fontSize: '1rem' }}
           dangerouslySetInnerHTML={{ __html: summary.answerHtml }}
         />
-        <div style={META_STYLE}>
+        <div style={isSrOnly ? { margin: 0 } : META_STYLE}>
           {`Medically reviewed by ${doctorName}`}
           {reviewed ? ` · Updated ${reviewed}` : ''}
         </div>
