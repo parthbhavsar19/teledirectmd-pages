@@ -107,7 +107,7 @@ const FAQ_ITEMS = [
     question: 'What are the risks of long-term PPI use I should know about?',
     answer: (
       <p>
-        ACG 2022 confirms that long-term PPI use is associated with several risks: hypomagnesemia (low magnesium — risk with use >1 year), vitamin B12 deficiency (impaired absorption), a modest increase in osteoporotic fracture risk at very high doses, increased risk of Clostridioides difficile intestinal infection, and a possible association with chronic kidney disease. The physician reviews PPI necessity at each refill visit and recommends the lowest effective dose for the shortest clinically appropriate duration.
+        ACG 2022 confirms that long-term PPI use is associated with several risks: hypomagnesemia (low magnesium — risk with use &gt;1 year), vitamin B12 deficiency (impaired absorption), a modest increase in osteoporotic fracture risk at very high doses, increased risk of Clostridioides difficile intestinal infection, and a possible association with chronic kidney disease. The physician reviews PPI necessity at each refill visit and recommends the lowest effective dose for the shortest clinically appropriate duration.
       </p>
     ),
   },

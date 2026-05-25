@@ -152,7 +152,7 @@ const FAQ_ITEMS = [
     question: 'When should anti-aging skin concerns require in-person dermatology evaluation?',
     answer: (
       <p>
-        See a dermatologist in-person for: any new or changing pigmented lesion suspicious for melanoma (asymmetry, irregular border, multiple colors, diameter >6mm, evolving — the ABCDE criteria); nodular or raised skin lesions; painful or bleeding skin lesions; rash with systemic symptoms (fever, joint pain — possible connective tissue disease); or when a TeleDirectMD physician assessment by video is insufficient to characterize a concerning lesion. Early melanoma detection is critical in sun-heavy California — annual skin checks with a dermatologist are recommended for adults with significant cumulative UV exposure.
+        See a dermatologist in-person for: any new or changing pigmented lesion suspicious for melanoma (asymmetry, irregular border, multiple colors, diameter &gt;6mm, evolving — the ABCDE criteria); nodular or raised skin lesions; painful or bleeding skin lesions; rash with systemic symptoms (fever, joint pain — possible connective tissue disease); or when a TeleDirectMD physician assessment by video is insufficient to characterize a concerning lesion. Early melanoma detection is critical in sun-heavy California — annual skin checks with a dermatologist are recommended for adults with significant cumulative UV exposure.
       </p>
     ),
   },

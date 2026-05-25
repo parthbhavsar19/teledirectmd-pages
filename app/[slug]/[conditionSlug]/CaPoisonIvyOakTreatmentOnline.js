@@ -98,7 +98,7 @@ const FAQ_ITEMS = [
     question: 'When does poison oak/ivy require emergency or in-person care?',
     answer: (
       <p>
-        Go to the ER for: anaphylaxis (throat swelling, difficulty breathing after plant exposure), inhaled urushiol (burning poison oak/ivy — severe respiratory distress), or reaction involving eyes, mouth, or genitals with swelling. Seek urgent care for widespread reactions covering >30% of body with fever, or secondarily infected rash. TeleDirectMD is appropriate for moderate reactions on limbs or trunk without these red flags.
+        Go to the ER for: anaphylaxis (throat swelling, difficulty breathing after plant exposure), inhaled urushiol (burning poison oak/ivy — severe respiratory distress), or reaction involving eyes, mouth, or genitals with swelling. Seek urgent care for widespread reactions covering &gt;30% of body with fever, or secondarily infected rash. TeleDirectMD is appropriate for moderate reactions on limbs or trunk without these red flags.
       </p>
     ),
   },
