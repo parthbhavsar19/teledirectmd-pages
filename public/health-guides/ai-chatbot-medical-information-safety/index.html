@@ -554,34 +554,30 @@ sup a:hover { text-decoration: underline; }
  body { font-size: 11pt; }
 }
 </style>
- <link rel="stylesheet" href="../dark-mode.css">
+ <link rel="stylesheet" href="./dark-mode.css">
  </head>
 <body>
-<script src="../dark-mode.js"></script>
+<script src="./dark-mode.js"></script>
 
 
 <!-- ===== Navigation ===== -->
 <nav class="tdmd-nav" role="navigation" aria-label="Main navigation">
  <div class="tdmd-nav-inner">
- <a href="https://teledirectmd.com" class="tdmd-nav-logo" aria-label="TeleDirectMD Home">
- <img src="https://images.squarespace-cdn.com/content/v1/67f359c5b3dddf176b8ba74e/4f92a229-3eb7-4454-83d7-17344ad9e1e7/logo.png?format=1500w" alt="TeleDirectMD" width="190" height="80">
+ <a href="/health-guides/" class="tdmd-nav-logo" aria-label="TeleDirectMD Health Guides">
+ <img src="https://images.squarespace-cdn.com/content/v1/67f359c5b3dddf176b8ba74e/4f92a229-3eb7-4454-83d7-17344ad9e1e7/logo.png?format=1500w" alt="TeleDirectMD Health Guides" width="190" height="80">
  </a>
  <button class="tdmd-hamburger" aria-label="Toggle navigation menu" aria-expanded="false">
  <span></span><span></span><span></span>
  </button>
  <ul class="tdmd-nav-links" id="tdmd-nav-menu">
- <li><a href="https://teledirectmd.com">Home</a></li>
- <li><a href="https://teledirectmd.com/about">About</a></li>
- <li><a href="https://teledirectmd.com/what-we-treat">What We Treat</a></li>
- <li><a href="https://teledirectmd.com/health-guides" class="tdmd-nav-active">Health Guides</a></li>
- <li><a href="https://teledirectmd.com/faq">FAQ</a></li>
- <li><a href="https://teledirectmd.com/media-mentions">In the Media</a></li>
- <li><a href="https://teledirectmd.com/reviews">Reviews</a></li>
+ <li><a href="/health-guides/">Browse Guides</a></li>
+ <li><a href="/health-guides/complete-telehealth-conditions-guide/">Master Guide</a></li>
+ <li><a href="/health-guides/editorial-standards/">Editorial Standards</a></li>
+ <li><a href="mailto:contact@teledirectmd.com">Contact</a></li>
  <li><button class="tdmd-dark-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">
  <svg class="tdmd-icon-moon" viewBox="0 0 24 24"><path d="M21 12.79A9 9 0 0111.21 3 7 7 0 0012 21a7 7 0 009-8.21z"/></svg>
  <svg class="tdmd-icon-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
- </button>
- <a href="https://teledirectmd.com/book-online" class="tdmd-nav-book">Book Now</a></li>
+ </button></li>
  </ul>
  </div>
 </nav>
@@ -621,7 +617,7 @@ sup a:hover { text-decoration: underline; }
  </div>
  <div class="tdmd-article-meta-item">
  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11"/></svg>
- Last reviewed: Apr 2026
+ Last reviewed: Apr 2026 <span style="color:#006b73;font-weight:600;"> &middot; Updated: May 2026</span>
  </div>
  </div>
  </header>
@@ -675,7 +671,7 @@ sup a:hover { text-decoration: underline; }
  <!-- Section 2 -->
  <h2 id="bmj-findings">What the BMJ Study Actually Found</h2>
 
- <p>The audit covered five chatbots: ChatGPT, Gemini, Grok, Meta AI, and Claude. Researchers asked each one 50 health questions across five topic areas — cancer, vaccines, stem cell therapies, nutrition, and athletic performance.<sup><a href="#ref-1">[1]</a></sup> The questions were a mix of open-ended ("How should I treat my sore throat?") and closed yes/no formats.</p>
+ <p>The audit covered five chatbots: ChatGPT, Gemini, Grok, Meta AI, and Claude. Researchers asked each one 50 health questions across five topic areas — cancer, vaccines, stem cell therapies, nutrition, and athletic performance.<sup><a href="#ref-1">[1]</a></sup> The questions were a mix of open-ended ("How should treatment involves my sore throat?") and closed yes/no formats.</p>
 
  <p>Out of 250 total responses, 49.6% were rated problematic by independent reviewers. Of those, 30% were "somewhat problematic" and 19.6% were "highly problematic" — meaning they contained outright misinformation or could plausibly cause harm if acted on.<sup><a href="#ref-3">[3]</a></sup></p>
 
@@ -712,7 +708,7 @@ sup a:hover { text-decoration: underline; }
  <li><strong>Treat the answer like a Wikipedia entry, not a doctor visit.</strong> AI responses are useful for orientation and vocabulary. They are not useful for decisions about your specific care.</li>
  <li><strong>Verify every citation.</strong> Search the actual journal database (PubMed, the publisher's site) before trusting a reference. The BMJ audit found roughly 60% of references were incomplete, and other work has shown nearly half are partly fabricated.<sup><a href="#ref-1">[1]</a></sup><sup><a href="#ref-7">[7]</a></sup></li>
  <li><strong>Be more skeptical when the chatbot agrees with you.</strong> Sycophancy means a model is more likely to mirror your assumption back to you than to challenge it. Agreement is not validation.<sup><a href="#ref-4">[4]</a></sup></li>
- <li><strong>Closed questions are safer than open-ended ones.</strong> "Is amoxicillin used to treat strep throat?" gives more reliable answers than "How should I treat my sore throat?" The audit found closed questions produced only 7.2% highly problematic responses, compared to 32% for open-ended ones.<sup><a href="#ref-1">[1]</a></sup></li>
+ <li><strong>Closed questions are safer than open-ended ones.</strong> "Is amoxicillin used to treat strep throat?" gives more reliable answers than "How should treatment involves my sore throat?" The audit found closed questions produced only 7.2% highly problematic responses, compared to 32% for open-ended ones.<sup><a href="#ref-1">[1]</a></sup></li>
  <li><strong>Never share your full medical history with public chatbots.</strong> Privacy matters, and so does accuracy — feeding the model more personal detail does not make it a safer tool, only a more confident one.</li>
  <li><strong>Cross-check anything that affects a decision.</strong> If a chatbot answer would change what you eat, take, or do — or whether you seek care — verify it with a clinician before acting on it.</li>
  <li><strong>Watch for confident certainty without caveats.</strong> Real medicine is full of "it depends." If a chatbot sounds more sure than your doctor would, that's a warning sign, not a reassurance.</li>
