@@ -28,6 +28,27 @@ import CaSeasonalAllergiesTreatmentOnline from './CaSeasonalAllergiesTreatmentOn
 import CaAcneTreatmentOnline from './CaAcneTreatmentOnline';
 import CaEczemaTreatmentOnline from './CaEczemaTreatmentOnline';
 
+// ── Drip 3 (2026-05-25) FINAL — completes CA cohort 59/59 (dermatology + bites + refills + cosmetic) ──
+import CaAcidRefluxRefillsOnline from './CaAcidRefluxRefillsOnline';
+import CaAntiAgingTreatmentOnline from './CaAntiAgingTreatmentOnline';
+import CaCatBiteTreatmentOnline from './CaCatBiteTreatmentOnline';
+import CaDogBiteTreatmentOnline from './CaDogBiteTreatmentOnline';
+import CaEpipenRefillsOnline from './CaEpipenRefillsOnline';
+import CaExcessiveSweatingTreatmentOnline from './CaExcessiveSweatingTreatmentOnline';
+import CaEyelashGrowthTreatmentOnline from './CaEyelashGrowthTreatmentOnline';
+import CaHairLossTreatmentOnline from './CaHairLossTreatmentOnline';
+import CaHeadLiceTreatmentOnline from './CaHeadLiceTreatmentOnline';
+import CaMelasmaTreatmentOnline from './CaMelasmaTreatmentOnline';
+import CaMigraineRefillsOnline from './CaMigraineRefillsOnline';
+import CaMotionSicknessTreatmentOnline from './CaMotionSicknessTreatmentOnline';
+import CaPerioralDermatitisTreatmentOnline from './CaPerioralDermatitisTreatmentOnline';
+import CaPoisonIvyOakTreatmentOnline from './CaPoisonIvyOakTreatmentOnline';
+import CaScabiesTreatmentOnline from './CaScabiesTreatmentOnline';
+import CaSmokingCessationTreatmentOnline from './CaSmokingCessationTreatmentOnline';
+import CaTickBiteTreatmentOnline from './CaTickBiteTreatmentOnline';
+import CaTineaTreatmentOnline from './CaTineaTreatmentOnline';
+import CaTineaVersicolorTreatmentOnline from './CaTineaVersicolorTreatmentOnline';
+
 // ── Drip 2 (2026-05-22): batch 2 women's/sexual + batch 3 derm + batch 1 acute ──
 import CaCellulitisTreatmentOnline from './CaCellulitisTreatmentOnline';
 import CaContactDermatitisTreatmentOnline from './CaContactDermatitisTreatmentOnline';
@@ -244,6 +265,65 @@ export default async function ConditionPage({ params }) {
   }
   if (slug === 'ca' && conditionSlug === 'viral-gastroenteritis-treatment-online') {
     return <CaViralGastroenteritisTreatmentOnline />;
+  }
+
+  // ── Drip 3 (2026-05-25) FINAL: 19 CA condition pages — completes cohort 59/59 ──
+  if (slug === 'ca' && conditionSlug === 'acid-reflux-refills-online') {
+    return <CaAcidRefluxRefillsOnline />;
+  }
+  if (slug === 'ca' && conditionSlug === 'anti-aging-treatment-online') {
+    return <CaAntiAgingTreatmentOnline />;
+  }
+  if (slug === 'ca' && conditionSlug === 'cat-bite-treatment-online') {
+    return <CaCatBiteTreatmentOnline />;
+  }
+  if (slug === 'ca' && conditionSlug === 'dog-bite-treatment-online') {
+    return <CaDogBiteTreatmentOnline />;
+  }
+  if (slug === 'ca' && conditionSlug === 'epipen-refills-online') {
+    return <CaEpipenRefillsOnline />;
+  }
+  if (slug === 'ca' && conditionSlug === 'excessive-sweating-treatment-online') {
+    return <CaExcessiveSweatingTreatmentOnline />;
+  }
+  if (slug === 'ca' && conditionSlug === 'eyelash-growth-treatment-online') {
+    return <CaEyelashGrowthTreatmentOnline />;
+  }
+  if (slug === 'ca' && conditionSlug === 'hair-loss-treatment-online') {
+    return <CaHairLossTreatmentOnline />;
+  }
+  if (slug === 'ca' && conditionSlug === 'head-lice-treatment-online') {
+    return <CaHeadLiceTreatmentOnline />;
+  }
+  if (slug === 'ca' && conditionSlug === 'melasma-treatment-online') {
+    return <CaMelasmaTreatmentOnline />;
+  }
+  if (slug === 'ca' && conditionSlug === 'migraine-refills-online') {
+    return <CaMigraineRefillsOnline />;
+  }
+  if (slug === 'ca' && conditionSlug === 'motion-sickness-treatment-online') {
+    return <CaMotionSicknessTreatmentOnline />;
+  }
+  if (slug === 'ca' && conditionSlug === 'perioral-dermatitis-treatment-online') {
+    return <CaPerioralDermatitisTreatmentOnline />;
+  }
+  if (slug === 'ca' && conditionSlug === 'poison-ivy-oak-treatment-online') {
+    return <CaPoisonIvyOakTreatmentOnline />;
+  }
+  if (slug === 'ca' && conditionSlug === 'scabies-treatment-online') {
+    return <CaScabiesTreatmentOnline />;
+  }
+  if (slug === 'ca' && conditionSlug === 'smoking-cessation-treatment-online') {
+    return <CaSmokingCessationTreatmentOnline />;
+  }
+  if (slug === 'ca' && conditionSlug === 'tick-bite-treatment-online') {
+    return <CaTickBiteTreatmentOnline />;
+  }
+  if (slug === 'ca' && conditionSlug === 'tinea-treatment-online') {
+    return <CaTineaTreatmentOnline />;
+  }
+  if (slug === 'ca' && conditionSlug === 'tinea-versicolor-treatment-online') {
+    return <CaTineaVersicolorTreatmentOnline />;
   }
 
   const state = getStateBySlug(slug);
