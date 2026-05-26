@@ -365,6 +365,11 @@
       "status": 301
     },
     {
+      "src": "/or/asthma-refills-online/?",
+      "headers": { "Location": "/asthma-refills-online/" },
+      "status": 301
+    },
+    {
       "handle": "filesystem"
     },
     {
