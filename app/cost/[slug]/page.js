@@ -5,7 +5,7 @@
 import { COST_PAGES, COST_PAGE_SLUGS, COST_RELATED_LINKS } from '../../../lib/cost-pages-config';
 import { COMPARE_PAGES } from '../../../lib/compare-pages-config';
 import { AGGREGATE_RATING_VALUE, TOTAL_REVIEW_COUNT } from '../../../lib/review-schema';
-import { buildCostCompareJsonLd } from '../../../lib/cost-compare-schema';
+import { buildCostCompareJsonLd, buildCostComparisonAggregateOffer } from '../../../lib/cost-compare-schema';
 import { SYMPTOM_PAGES } from '../../../lib/symptom-pages-config';
 
 // Map cost-page slug → symptom-page slugs that surface this cost guide.
@@ -102,11 +102,26 @@ export default async function CostPage({ params }) {
     }],
   } : null;
 
+  // ── AggregateOffer schema for cost-comparison pages. Opt-in per slug via
+  //    cfg.costComparisonOffers. AI engines (Perplexity, ChatGPT) preferentially
+  //    cite structured price comparison data when answering "how much does X cost"
+  //    queries. The visible HTML on the page already contains this comparison;
+  //    this just makes it machine-readable for AI extraction.
+  const aggregateOfferJsonLd = buildCostComparisonAggregateOffer({
+    pageUrl,
+    headline: cfg.h1,
+    costComparisonOffers: cfg.costComparisonOffers,
+    conditionLabel,
+  });
+
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       {qaJsonLd && (
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(qaJsonLd) }} />
+      )}
+      {aggregateOfferJsonLd && (
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(aggregateOfferJsonLd) }} />
       )}
 
       {/* 1) Breadcrumb */}
@@ -282,11 +297,20 @@ export default async function CostPage({ params }) {
       <section className="tdmd-section" id={`${pid}-states`}>
         <div className="tdmd-container">
           <h2>Available in 41 States</h2>
-          <p>The flat $79 rate applies in every state where Dr. Bhavsar is licensed. Select your state:</p>
+          <p>{cfg.stateDeepLinkConditionSlug
+            ? `The flat $79 ${conditionLabel} visit is available in every state where Dr. Bhavsar is licensed. Get state-specific pricing and book directly:`
+            : 'The flat $79 rate applies in every state where Dr. Bhavsar is licensed. Select your state:'}</p>
           <div className="tdmd-other-states-grid">
-            {STATE_LIST.map(([abbr, name]) => (
-              <a key={abbr} href={`/${name.toLowerCase().replace(/\s+/g, '-')}/`} className="tdmd-other-state-link">{name}</a>
-            ))}
+            {STATE_LIST.map(([abbr, name]) => {
+              const stateAbbr = abbr.toLowerCase();
+              const stateHubSlug = name.toLowerCase().replace(/\s+/g, '-');
+              const href = cfg.stateDeepLinkConditionSlug
+                ? `/${stateAbbr}/${cfg.stateDeepLinkConditionSlug}/`
+                : `/${stateHubSlug}/`;
+              return (
+                <a key={abbr} href={href} className="tdmd-other-state-link">{name}</a>
+              );
+            })}
           </div>
         </div>
       </section>

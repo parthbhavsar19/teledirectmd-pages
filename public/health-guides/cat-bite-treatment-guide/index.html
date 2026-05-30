@@ -413,6 +413,57 @@ sup a:hover { text-decoration: underline; }
  font-size: 2rem;
  line-height: 1.25;
  margin-bottom: 0.25rem;
+}.tdmd-guide-cta-banner {
+  background: linear-gradient(135deg, #EAF7F8 0%, #D7EEF1 100%);
+  border-left: 4px solid #006B73;
+  border-radius: 8px;
+  padding: 1.25rem 1.5rem;
+  margin: 1.5rem 0;
+}.tdmd-guide-cta-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem 1.5rem;
+  align-items: center;
+  justify-content: space-between;
+}.tdmd-guide-cta-message {
+  flex: 1 1 280px;
+  color: #003E52;
+  font-size: 1rem;
+  line-height: 1.55;
+}.tdmd-guide-cta-actions {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.35rem;
+  flex-shrink: 0;
+}.tdmd-guide-cta-button {
+  display: inline-block;
+  background: #006B73;
+  color: #FFFFFF;
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 0.7rem 1.4rem;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background 0.15s ease;
+}.tdmd-guide-cta-button:hover,
+.tdmd-guide-cta-button:focus {
+  background: #00525A;
+}.tdmd-guide-cta-meta {
+  font-size: 0.82rem;
+  color: #456676;
+}.tdmd-guide-cta-disclaimer {
+  margin: 0.85rem 0 0;
+  padding-top: 0.75rem;
+  border-top: 1px solid #C2E0E5;
+  font-size: 0.85rem;
+  color: #456676;
+  line-height: 1.5;
+}
+@media (max-width: 640px) {
+  .tdmd-guide-cta-content { flex-direction: column; align-items: stretch; }
+  .tdmd-guide-cta-actions { align-items: stretch; }
+  .tdmd-guide-cta-button { text-align: center; }
 }.tdmd-article-subtitle {
  font-size: 1.1rem;
  color: var(--tdmd-muted);
@@ -729,6 +780,20 @@ sup a:hover { text-decoration: underline; }
  <span class="tdmd-badge">Evidence-Based Guide</span>
  <h1 class="tdmd-article-title">Cat Bites: Infection Risk, Antibiotics &amp; When to Go to the ER</h1>
  <p class="tdmd-article-subtitle">Why cat bites carry a 30–50% infection rate, how to recognize Pasteurella multocida infection, when to go to the ER, and exactly what treatment to expect.</p>
+ <aside class="tdmd-guide-cta-banner" role="complementary" aria-label="Get treatment now">
+ <div class="tdmd-guide-cta-content">
+ <div class="tdmd-guide-cta-message">
+ <strong>Bitten in the last 24 hours?</strong> Cat bites carry a 30–50% infection rate without antibiotics, and infection can develop within 12 hours. A board-certified MD can prescribe Pasteurella-targeted antibiotics by video visit — typically the same day.
+ </div>
+ <div class="tdmd-guide-cta-actions">
+ <a href="/cat-bite-treatment-online/" class="tdmd-guide-cta-button">See an MD now — $79</a>
+ <span class="tdmd-guide-cta-meta">Same-day · No insurance required · 40+ states</span>
+ </div>
+ </div>
+ <p class="tdmd-guide-cta-disclaimer">
+ If you have a hand or finger bite with swelling, deep puncture wounds over a joint, rapidly spreading redness, fever, or red streaking from the wound — go to an ER or urgent care, not video.
+ </p>
+ </aside>
  <div class="tdmd-article-meta">
  <div class="tdmd-article-meta-item">
  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
