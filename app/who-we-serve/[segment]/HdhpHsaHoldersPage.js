@@ -284,16 +284,16 @@ export default function HdhpHsaHoldersPage() {
               <h3>How $79 Compares on an HDHP</h3>
               <p className="tdmd-price-caption">Typical costs before HDHP deductible is met. Actual costs vary by plan and provider.</p>
               <div className="tdmd-bar-row">
-                <div className="tdmd-bar-label"><span>TeleDirectMD</span><span>$79</span></div>
-                <div className="tdmd-bar-track"><div className="tdmd-bar-fill tdmd-bar-fill-tdmd" style={{ '--w': 10 }} /></div>
-              </div>
-              <div className="tdmd-bar-row">
-                <div className="tdmd-bar-label"><span>Urgent care (cash-pay before deductible)</span><span>$150&ndash;$350</span></div>
-                <div className="tdmd-bar-track"><div className="tdmd-bar-fill" style={{ '--w': 40 }} /></div>
+                <div className="tdmd-bar-label"><span>TeleDirectMD <strong style={{ color: 'var(--tdmd-accent)', fontWeight: 700 }}>(lowest)</strong></span><span>$79</span></div>
+                <div className="tdmd-bar-track"><div className="tdmd-bar-fill tdmd-bar-fill-tdmd" style={{ '--w': 22 }} /></div>
               </div>
               <div className="tdmd-bar-row">
                 <div className="tdmd-bar-label"><span>In-network office visit (full contracted rate)</span><span>$110&ndash;$280</span></div>
-                <div className="tdmd-bar-track"><div className="tdmd-bar-fill" style={{ '--w': 32 }} /></div>
+                <div className="tdmd-bar-track"><div className="tdmd-bar-fill" style={{ '--w': 38 }} /></div>
+              </div>
+              <div className="tdmd-bar-row">
+                <div className="tdmd-bar-label"><span>Urgent care (cash-pay before deductible)</span><span>$150&ndash;$350</span></div>
+                <div className="tdmd-bar-track"><div className="tdmd-bar-fill" style={{ '--w': 60 }} /></div>
               </div>
               <div className="tdmd-bar-row">
                 <div className="tdmd-bar-label"><span>ER (HDHP, no insurance reduction)</span><span>$750&ndash;$3,000+</span></div>
@@ -365,34 +365,36 @@ export default function HdhpHsaHoldersPage() {
       {/* ── 7. How it works ─────────────────────────────────────── */}
       <section className="tdmd-section" id="hsa-how-it-works">
         <div className="tdmd-container">
-          <h2>How Your Visit Works</h2>
-          <div className="tdmd-steps">
-            <div className="tdmd-step">
-              <span className="tdmd-step-num">1</span>
-              <div>
-                <h3>Book online</h3>
-                <p>Pick a time that works. Pay with HSA, FSA, or any major credit/debit card &mdash; $79 flat.</p>
+          <h2>How Your Visit Works &mdash; Four Simple Steps</h2>
+          <p>From booking to prescription pickup, every step is built for HDHP and HSA holders who want predictable, transparent care.</p>
+          <div className="tdmd-decision-flow">
+            <div className="tdmd-decision-step tdmd-decision-step-good">
+              <div className="tdmd-decision-number">1</div>
+              <div className="tdmd-decision-content">
+                <h3>Book Online &mdash; Pay With Your HSA Card</h3>
+                <p>Pick a time that works for you, enter your HSA, FSA, or any major credit/debit card, and confirm the $79 flat fee before booking. No surprise charges &mdash; you see the exact cost upfront.</p>
               </div>
             </div>
-            <div className="tdmd-step">
-              <span className="tdmd-step-num">2</span>
-              <div>
-                <h3>Complete intake</h3>
-                <p>A brief intake form captures your medical history, current symptoms, and any medications you take.</p>
+            <div className="tdmd-decision-step tdmd-decision-step-good">
+              <div className="tdmd-decision-number">2</div>
+              <div className="tdmd-decision-content">
+                <h3>Complete a Brief Intake</h3>
+                <p>A short intake form captures your medical history, current symptoms, current medications, and any allergies. Takes about 2 minutes &mdash; everything stays HIPAA-secure.</p>
               </div>
             </div>
-            <div className="tdmd-step">
-              <span className="tdmd-step-num">3</span>
-              <div>
-                <h3>Meet with a physician by video</h3>
-                <p>Secure video visit with a board-certified physician. Typical visit length: 10 to 15 minutes.</p>
+            <div className="tdmd-decision-step tdmd-decision-step-good">
+              <div className="tdmd-decision-number">3</div>
+              <div className="tdmd-decision-content">
+                <h3>Meet With a Board-Certified Physician by Video</h3>
+                <p>Connect with a real physician &mdash; not a PA, not an NP, not an algorithm &mdash; over secure video. Typical visit length is 10 to 15 minutes. We review your history, evaluate your symptoms, and discuss a treatment plan together.</p>
               </div>
             </div>
-            <div className="tdmd-step">
-              <span className="tdmd-step-num">4</span>
-              <div>
-                <h3>Receive your treatment plan</h3>
-                <p>Prescription sent electronically to your pharmacy if appropriate. Itemized receipt by email for deductible &amp; HSA records.</p>
+            <div className="tdmd-decision-step tdmd-decision-step-good">
+              <div className="tdmd-decision-number">4</div>
+              <div className="tdmd-decision-content">
+                <h3>Get Your Prescription + Itemized Receipt</h3>
+                <p>If a prescription is appropriate, it&rsquo;s sent electronically to the pharmacy of your choice anywhere in the U.S. You receive an itemized receipt by email &mdash; suitable for HSA reimbursement, FSA submission, and deductible accumulation.</p>
+                <a href="/book-online" className="tdmd-btn tdmd-btn-primary" style={{ marginTop: '0.75rem', display: 'inline-block' }}>Book a $79 Visit</a>
               </div>
             </div>
           </div>
