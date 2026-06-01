@@ -46,11 +46,11 @@ const STATIC_ROUTES = [
   { path: '/news/aetna-california-may-2026', priority: 0.7, changefreq: 'monthly' },
 ];
 
-// Who We Serve segments (8 pages)
+// Who We Serve segments (10 pages)
 const WWS_SEGMENTS = [
   'uninsured-affordable-care', 'truck-drivers', 'travel-nurses', 'small-business-owners',
   'remote-workers', 'military-families', 'international-visitors', 'early-retirees',
-  'college-students',
+  'college-students', 'hdhp-hsa-holders',
 ];
 
 // Insurer state slugs (full state names used by hub routes)

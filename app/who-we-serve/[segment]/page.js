@@ -10,6 +10,7 @@ import InternationalVisitorsPage from './InternationalVisitorsPage';
 import EarlyRetireesPage from './EarlyRetireesPage';
 import CollegeStudentsPage from './CollegeStudentsPage';
 import MilitaryFamiliesPage from './MilitaryFamiliesPage';
+import HdhpHsaHoldersPage from './HdhpHsaHoldersPage';
 import { WhoWeServePricingCTA } from '../../components/CostCompareModules';
 import { CitableSummaryBlock } from '../../components/CitableSummary';
 import { summarizeWhoWeServe, citableSummaryToJsonLd } from '../../../lib/citable-summary';
@@ -27,6 +28,7 @@ const SEGMENT_PRICING_CONFIG = {
   'travel-nurses':              { hook: 'One licensed MD across 41 states — predictable $79 flat regardless of where the next assignment lands you.', related: null },
   'international-visitors':     { hook: '$79 flat (~£37, ~€42, ~CAD 67) versus $250–$350 for a US in-person cash-pay visit. Receipt suitable for travel-insurance reimbursement.', related: null },
   'military-families':          { hook: 'PCS to a new state? Same physician at $79 flat. HSA/FSA accepted; visit summary to share with your home-station provider.', related: null },
+  'hdhp-hsa-holders':           { hook: 'High-deductible plan? $79 flat, HSA/FSA card accepted at checkout. Itemized receipt counts toward your deductible.', related: { slug: 'online-prescription-cost', title: 'Online Prescription Cost', tagline: '$79 visit + $4–$30 generic via GoodRx for stable refills.' } },
 };
 
 /* Pre-render all audience segment pages at build time */
@@ -69,6 +71,7 @@ function renderSegment(slug) {
     case 'early-retirees':             return <EarlyRetireesPage />;
     case 'college-students':           return <CollegeStudentsPage />;
     case 'military-families':          return <MilitaryFamiliesPage />;
+    case 'hdhp-hsa-holders':           return <HdhpHsaHoldersPage />;
     default:                           return null;
   }
 }
