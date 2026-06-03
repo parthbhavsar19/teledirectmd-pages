@@ -61,7 +61,7 @@ const jsonLd = {
 
 const previewItems = [
   { num: '01', label: 'The Problem', body: 'Mercer $17,496 PEPY cost. 27.8% uninsured in construction. 22% in food service. Primary-source citations.' },
-  { num: '02', label: 'What TeleDirectMD Is', body: 'Physician-led practice. $0 to employer. $59 / $79 / in-network. Continuity with a board-certified physician, not a rotating roster.' },
+  { num: '02', label: 'What TeleDirectMD Is', body: 'Physician-led practice. $0 to employer. Preferred employer per-visit rate or in-network billing. Continuity with a board-certified physician, not a rotating roster.' },
   { num: '03', label: 'Scope — What We Honestly Cannot Do', body: 'In scope: chronic disease, acute illness, mental health. Out of scope: DOT physicals, OSHA 1910.134, controlled substances, TB testing.' },
   { num: '04', label: 'How It Works', body: 'Discovery call → one-page agreement → enrollment code → booking. Typically one week from first call to first visit.' },
   { num: '05', label: 'Industry Fit', body: 'Where the benefit moves the needle: trucking, restaurants, home care, construction, cleaning.' },

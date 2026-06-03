@@ -5,7 +5,7 @@ import LeadFormEmbed from './LeadFormEmbed';
 export const metadata = {
   title: 'Telehealth for Employees | $0 Employer Cost | TeleDirectMD',
   description:
-    "Add telehealth to your team's benefits at zero employer cost. Board-certified family medicine MD, $59/visit, in-network with BCBS, Aetna, and UnitedHealthcare across 41 states + DC.",
+    "Add telehealth to your team's benefits at zero employer cost. Board-certified family medicine MD, preferred employer pricing, in-network with BCBS, Aetna, and UnitedHealthcare across 41 states + DC.",
   alternates: { canonical: 'https://teledirectmd.com/employers' },
   robots: { index: true, follow: true, 'max-image-preview': 'large', 'max-snippet': -1, 'max-video-preview': -1 },
   authors: [{ name: 'Parth Bhavsar, MD' }],
@@ -15,14 +15,14 @@ export const metadata = {
     locale: 'en_US',
     title: 'Telehealth for Employees | $0 Employer Cost | TeleDirectMD',
     description:
-      'Real doctor visits for your team. Zero cost to you. $59/visit or in-network with BCBS, Aetna, UHC. 41 states + DC.',
+      'Real doctor visits for your team. Zero cost to you. Preferred employer pricing or in-network with BCBS, Aetna, UHC. 41 states + DC.',
     url: 'https://teledirectmd.com/employers',
     images: ['https://teledirectmd.com/og-employers.jpg'],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Telehealth for Employees | $0 Employer Cost | TeleDirectMD',
-    description: 'Real doctor visits for your team. Zero cost to you. $59/visit.',
+    description: 'Real doctor visits for your team. Zero cost to you. Preferred employer pricing.',
   },
 };
 
@@ -43,7 +43,7 @@ const jsonLd = {
       url: 'https://teledirectmd.com/employers/',
       name: 'Telehealth for Employees | $0 Employer Cost | TeleDirectMD',
       description:
-        "Add telehealth to your team's benefits at zero employer cost. Board-certified MD, $59/visit, in-network with BCBS, Aetna, UnitedHealthcare. 41 states + DC.",
+        "Add telehealth to your team's benefits at zero employer cost. Board-certified MD, preferred employer pricing, in-network with BCBS, Aetna, UnitedHealthcare. 41 states + DC.",
       inLanguage: 'en-US',
       breadcrumb: { '@id': 'https://teledirectmd.com/employers#breadcrumbs' },
       isPartOf: { '@id': 'https://teledirectmd.com/#website' },
@@ -147,14 +147,14 @@ const jsonLd = {
       serviceType: 'Employee Telehealth Benefit',
       provider: { '@id': 'https://teledirectmd.com/#organization' },
       description:
-        'Direct-pay virtual care for employer-endorsed teams. Zero employer cost. Employees pay $59 per visit or use BCBS, Aetna, or UnitedHealthcare in-network. Adult patients 18+. Covers 41 states plus DC. Physician roster currently expanding.',
+        'Direct-pay virtual care for employer-endorsed teams. Zero employer cost. Employees access a preferred per-visit rate (custom-set per employer partnership) or use BCBS, Aetna, or UnitedHealthcare in-network. Adult patients 18+. Covers 41 states plus DC. Physician roster currently expanding.',
       audience: { '@type': 'BusinessAudience', audienceType: 'Small and mid-market employers' },
       offers: {
         '@type': 'Offer',
         price: '0',
         priceCurrency: 'USD',
         eligibleCustomerType: 'https://schema.org/Business',
-        description: 'Zero employer cost. Employees pay $59 per visit or use commercial insurance in-network.',
+        description: 'Zero employer cost. Employees access a preferred per-visit rate set per employer partnership, or use commercial insurance in-network.',
       },
       areaServed: 'United States',
     },
@@ -165,13 +165,13 @@ const jsonLd = {
       speakable: { '@type': 'SpeakableSpecification', cssSelector: ['.tdmd-emp-faq'] },
       mainEntity: [
         { '@type': 'Question', name: 'What does it cost the business?', acceptedAnswer: { '@type': 'Answer', text: 'Zero. No PEPM, no per-visit fees, no contracts with money in them. You sign a one-page partnership agreement and your team gets an enrollment code.' } },
-        { '@type': 'Question', name: 'How do you make money if I don\'t pay?', acceptedAnswer: { '@type': 'Answer', text: 'From the $59 your team pays per visit, or from in-network insurance billing when they have BCBS, Aetna, or UnitedHealthcare. Your $0 cost is our customer-acquisition model.' } },
+        { '@type': 'Question', name: 'How do you make money if I don\'t pay?', acceptedAnswer: { '@type': 'Answer', text: 'From the preferred per-visit rate your team pays (custom-set per employer partnership), or from in-network insurance billing when they have BCBS, Aetna, or UnitedHealthcare. Your $0 cost is our customer-acquisition model.' } },
         { '@type': 'Question', name: 'What about my employees\' kids or dependents?', acceptedAnswer: { '@type': 'Answer', text: 'Right now we\'re adults-only (18 and up). Pediatric care for ages 5 and up is on our roadmap. For now, the benefit covers your employees themselves.' } },
         { '@type': 'Question', name: 'Do you prescribe controlled substances?', acceptedAnswer: { '@type': 'Answer', text: 'No. TeleDirectMD does not prescribe controlled substances via telehealth — no stimulants, benzodiazepines, or opioids. This is a deliberate clinical-safety decision.' } },
         { '@type': 'Question', name: 'We already have Teladoc through our carrier. Why add this?', acceptedAnswer: { '@type': 'Answer', text: 'Carrier-bundled telehealth averages around 7 percent utilization. Most employees do not know it exists. TeleDirectMD is a supplement — a consistent physician relationship rather than a rotating roster of strangers, in-network billing that counts toward the deductible, and no cost to you.' } },
         { '@type': 'Question', name: 'How fast can my team get a visit?', acceptedAnswer: { '@type': 'Answer', text: 'Same-day or next-day, every day — including evenings and weekends.' } },
         { '@type': 'Question', name: 'What states do you cover?', acceptedAnswer: { '@type': 'Answer', text: '41 states plus the District of Columbia. We do not currently serve Alaska, Arkansas, Massachusetts, New Mexico, New York, Oregon, Rhode Island, Vermont, or Virginia.' } },
-        { '@type': 'Question', name: 'Can our employees use HSA or FSA dollars?', acceptedAnswer: { '@type': 'Answer', text: 'Yes. A $59 telehealth visit is an IRS-qualified medical expense.' } },
+        { '@type': 'Question', name: 'Can our employees use HSA or FSA dollars?', acceptedAnswer: { '@type': 'Answer', text: 'Yes. A TeleDirectMD telehealth visit is an IRS-qualified medical expense.' } },
         { '@type': 'Question', name: 'Can we reimburse employees through ICHRA or QSEHRA?', acceptedAnswer: { '@type': 'Answer', text: 'Yes. TeleDirectMD visits are HRA-eligible. Consult your benefits counsel on plan-design specifics.' } },
         { '@type': 'Question', name: 'Is this an ERISA-regulated health plan?', acceptedAnswer: { '@type': 'Answer', text: 'Our partnership is structured as a voluntary, employee-pay-all arrangement designed to fall within the Department of Labor voluntary-plan safe harbor. Consult your benefits counsel for specifics.' } },
         { '@type': 'Question', name: 'What\'s the contract length?', acceptedAnswer: { '@type': 'Answer', text: 'Month-to-month. Terminate at-will, any time. The agreement is one page.' } },
@@ -196,7 +196,7 @@ export default function EmployersPage() {
                 <span className="tdmd-emp-eyebrow">For Employers · Brokers · HR Teams</span>
                 <h1>Real doctor visits for your team. <em>$0 cost to you.</em></h1>
                 <p className="tdmd-emp-hero-sub">
-                  TeleDirectMD is physician-founded virtual care in 41 states + DC. Your team books $59 video visits with a board-certified family medicine physician — or uses BCBS, Aetna, or UnitedHealthcare in-network. You pay zero. You sign one page. You're live in a week. Our physician roster is currently expanding to add capacity across our service area.
+                  TeleDirectMD is physician-founded virtual care in 41 states + DC. Your team books video visits with a board-certified family medicine physician at a preferred employer rate — or uses BCBS, Aetna, or UnitedHealthcare in-network. You pay zero. You sign one page. You're live in a week. Our physician roster is currently expanding to add capacity across our service area.
                 </p>
                 <div className="tdmd-emp-ctas">
                   <a href="#form" className="tdmd-emp-btn tdmd-emp-btn--primary">Book a 15-Minute Discovery Call</a>
@@ -211,8 +211,8 @@ export default function EmployersPage() {
                 </div>
                 <div className="tdmd-emp-priceblock">
                   <div className="tdmd-emp-pricelabel">Your employee pays</div>
-                  <div className="tdmd-emp-priceamount">$59</div>
-                  <div className="tdmd-emp-pricedetail">vs. our $79 retail rate. Same-day visit. HSA/FSA eligible.</div>
+                  <div className="tdmd-emp-priceamount" style={{ fontSize: '1.4rem' }}>Preferred Rate</div>
+                  <div className="tdmd-emp-pricedetail">Custom per-visit rate set per employer partnership. Same-day visit. HSA/FSA eligible.</div>
                 </div>
                 <div className="tdmd-emp-priceblock">
                   <div className="tdmd-emp-pricelabel">Or use insurance</div>
@@ -283,7 +283,7 @@ export default function EmployersPage() {
               </div>
               <div className="tdmd-emp-step">
                 <h3>Your team gets a code.</h3>
-                <p>Each business receives a unique enrollment code. Employees book on TeleDirectMD, see Dr. Bhavsar via video, and pay $59 per visit — or use BCBS / Aetna / UnitedHealthcare in-network.</p>
+                <p>Each business receives a unique enrollment code. Employees book on TeleDirectMD, see Dr. Bhavsar via video, and pay the preferred employer rate set in your partnership agreement — or use BCBS / Aetna / UnitedHealthcare in-network.</p>
               </div>
               <div className="tdmd-emp-step">
                 <h3>Visits count toward their deductible.</h3>
@@ -304,7 +304,7 @@ export default function EmployersPage() {
               <div className="tdmd-emp-vcard">
                 <h3>Your people skip the ER</h3>
                 <span className="tdmd-emp-bigstat">$1,454</span>
-                <p>Average ER visit cost. A TeleDirectMD visit is $59 cash or in-network. A 2017–2019 Penn Medicine study (<em>American Journal of Managed Care</em>) found employee telehealth visits cost <strong>23% less per episode</strong> than in-person — about $113 less per visit.</p>
+                <p>Average ER visit cost. A TeleDirectMD visit is a fraction of that — paid at the preferred employer rate or in-network through commercial insurance. A 2017–2019 Penn Medicine study (<em>American Journal of Managed Care</em>) found employee telehealth visits cost <strong>23% less per episode</strong> than in-person — about $113 less per visit.</p>
                 <span className="tdmd-emp-caveat">Results vary by setting. Penn Medicine findings come from a health-system study; your outcomes may differ.</span>
               </div>
               <div className="tdmd-emp-vcard">
@@ -382,7 +382,7 @@ export default function EmployersPage() {
               </div>
               <div className="tdmd-emp-pricerow">
                 <span className="tdmd-emp-plabel">Your employee pays cash</span>
-                <span className="tdmd-emp-pvalue tdmd-emp-pvalue--accent">$59 per visit</span>
+                <span className="tdmd-emp-pvalue tdmd-emp-pvalue--accent">Preferred employer rate</span>
               </div>
               <div className="tdmd-emp-pricerow">
                 <span className="tdmd-emp-plabel">Or insurance copay (BCBS · Aetna · UHC)</span>
@@ -427,7 +427,7 @@ export default function EmployersPage() {
                 </thead>
                 <tbody>
                   <tr><td>Employer cost</td><td className="tdmd-emp-us">$0</td><td>Embedded in premium</td><td>PEPM ($5–$12+)</td><td>$20/EE/month</td></tr>
-                  <tr><td>Employee per visit</td><td className="tdmd-emp-us">$59</td><td>$0 — but unused</td><td>$0</td><td>Marketplace prices</td></tr>
+                  <tr><td>Employee per visit</td><td className="tdmd-emp-us">Preferred employer rate</td><td>$0 — but unused</td><td>$0</td><td>Marketplace prices</td></tr>
                   <tr><td>In-network insurance</td><td className="tdmd-emp-us"><span className="tdmd-emp-yes">Yes — BCBS · Aetna · UHC</span></td><td>Through your carrier only</td><td><span className="tdmd-emp-no">No (cash-pay)</span></td><td><span className="tdmd-emp-no">No (cash-pay)</span></td></tr>
                   <tr><td>Continuity with one physician</td><td className="tdmd-emp-us"><span className="tdmd-emp-yes">Yes — assigned, not rotated</span></td><td><span className="tdmd-emp-no">Random doctor</span></td><td>Network of physicians</td><td>Marketplace</td></tr>
                   <tr><td>Physician-only (no NPs/PAs)</td><td className="tdmd-emp-us"><span className="tdmd-emp-yes">Yes</span></td><td>Mixed</td><td>Mixed</td><td>Mixed</td></tr>
@@ -515,14 +515,14 @@ export default function EmployersPage() {
             </div>
             <div className="tdmd-emp-faq">
               <details><summary>What does it cost the business?</summary><div><p>Zero. No PEPM, no per-visit fees, no contracts with money in them. You sign a one-page partnership agreement and your team gets an enrollment code. That's it.</p></div></details>
-              <details><summary>How do you make money if I don't pay?</summary><div><p>Honestly — from the $59 your team pays per visit, or from in-network insurance billing when they have BCBS, Aetna, or UnitedHealthcare. Your $0 cost is our customer-acquisition model.</p></div></details>
+              <details><summary>How do you make money if I don't pay?</summary><div><p>Honestly — from the preferred per-visit rate your team pays (custom-set per employer partnership), or from in-network insurance billing when they have BCBS, Aetna, or UnitedHealthcare. Your $0 cost is our customer-acquisition model.</p></div></details>
               <details><summary>What about my employees' kids or dependents?</summary><div><p>Right now we're adults-only (18+). Pediatric care for ages 5 and up is on our roadmap. For now, the benefit covers your employees themselves.</p></div></details>
               <details><summary>Do you prescribe ADHD meds, benzos, or opioids?</summary><div><p>No. We do not prescribe controlled substances via telehealth. That's a deliberate clinical-safety decision — it keeps us aligned with DEA guidance and our malpractice scope.</p></div></details>
               <details><summary>We already have Teladoc through our carrier. Why add this?</summary><div><p>Carrier-bundled telehealth at large employers averages around 7% utilization. Most of your team doesn't even know it exists, and the platform routes them to a different stranger every visit. We're a supplement, not a replacement — a consistent physician relationship rather than a rotating roster, in-network billing that counts toward your deductible, and no cost to you.</p></div></details>
               <details><summary>How fast can my team get a visit?</summary><div><p>Same-day or next-day, every day — including evenings and weekends.</p></div></details>
               <details><summary>What states do you cover?</summary><div><p>41 states plus the District of Columbia. We do not currently serve Alaska, Arkansas, Massachusetts, New Mexico, New York, Oregon, Rhode Island, Vermont, or Virginia. <a href="/states-we-serve/" style={{ color: 'var(--tdmd-teal)', fontWeight: 700 }}>See the full coverage map →</a></p></div></details>
-              <details><summary>What if my team is on Cigna?</summary><div><p>Cigna is not in our in-network roster yet. Your team can still use the $59 cash-pay rate, and Cigna is on our credentialing roadmap.</p></div></details>
-              <details><summary>Can our employees use HSA or FSA dollars?</summary><div><p>Yes. A $59 telehealth visit is an IRS-qualified medical expense.</p></div></details>
+              <details><summary>What if my team is on Cigna?</summary><div><p>Cigna is not in our in-network roster yet. Your team can still use the preferred employer cash-pay rate set in your partnership agreement, and Cigna is on our credentialing roadmap.</p></div></details>
+              <details><summary>Can our employees use HSA or FSA dollars?</summary><div><p>Yes. A TeleDirectMD telehealth visit is an IRS-qualified medical expense.</p></div></details>
               <details><summary>Can we reimburse employees through ICHRA or QSEHRA?</summary><div><p>Yes. TeleDirectMD visits are HRA-eligible. Consult your benefits counsel on plan-design specifics.</p></div></details>
               <details><summary>Is this an ERISA-regulated health plan?</summary><div><p>Our partnership is structured as a voluntary, employee-pay-all arrangement designed to fall within the U.S. Department of Labor's voluntary-plan safe harbor — meaning no PEPM payment from the employer, no employer payroll deduction beyond optional voluntary deduction, and minimal employer involvement. Consult your benefits counsel for specifics in your situation.</p></div></details>
               <details><summary>What's the contract length?</summary><div><p>Month-to-month. Terminate at-will, any time. The agreement is one page.</p></div></details>

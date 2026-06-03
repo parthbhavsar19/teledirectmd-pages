@@ -72,7 +72,7 @@ export default function IndustryPageLayout({ industry }) {
                 <div className="tdmd-emp-feecard-number">$0</div>
                 <p>
                   No PEPM, no per-visit fees, no contracts with money in them. Your team pays{' '}
-                  <strong>$59</strong> per visit or uses BCBS / Aetna / UHC in-network.
+                  Preferred employer per-visit rate (set in your partnership agreement) or uses BCBS / Aetna / UHC in-network.
                 </p>
               </div>
             </div>

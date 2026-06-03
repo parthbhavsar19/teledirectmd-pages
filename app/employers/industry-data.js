@@ -177,7 +177,7 @@ export const INDUSTRY_DATA = {
 <p>For a fleet operator or owner-operator, the financial math runs on three numbers: <strong>out-of-service days, healthcare cost per worker, and turnover</strong>. Each one is directly affected by whether your drivers have ongoing primary care.</p>
 <ul>
   <li><strong>DOT card disqualification is a livelihood event.</strong> A driver pulled from service costs an owner-operator $500–$1,500 per day in lost revenue, or a fleet $2,000–$4,000+ per day in freight value. Most preventable disqualifications come from uncontrolled HTN, DM2, or BMI-driven sleep apnea.</li>
-  <li><strong>Average employer health cost in 2025: $17,496 per employee per year (<a href="https://www.mercer.com/en-us/insights/us-health-news/employers-are-challenged-to-keep-healthcare-affordable-as-costs-soar-survey-results/" target="_blank" rel="noopener noreferrer">Mercer 2025</a>).</strong> TeleDirectMD costs the business $0 — drivers pay $59 per visit or use BCBS/Aetna/UHC in-network.</li>
+  <li><strong>Average employer health cost in 2025: $17,496 per employee per year (<a href="https://www.mercer.com/en-us/insights/us-health-news/employers-are-challenged-to-keep-healthcare-affordable-as-costs-soar-survey-results/" target="_blank" rel="noopener noreferrer">Mercer 2025</a>).</strong> TeleDirectMD costs the business $0 — drivers access a preferred employer per-visit rate (set in your partnership agreement) or use BCBS/Aetna/UHC in-network.</li>
   <li><strong>Absenteeism costs ~$1,685 per employee per year (<a href="https://www.teamsense.com/blog/absenteeism-workplace-statistics" target="_blank" rel="noopener noreferrer">CDC via TeamSense</a>).</strong> Quick virtual triage replaces "I'll just push through it" or "I have to leave the route" — both of which cost the carrier more than the visit itself.</li>
 </ul>
 `,
@@ -335,7 +335,7 @@ export const INDUSTRY_DATA = {
   <li><strong>Replacement cost: ~$1,500 per hourly worker</strong> (<a href="https://www.cirrusmd.com/resources/case-studies/retailer-benefits-by-providing-telehealth-to-uninsured-and-unenrolled-workers" target="_blank" rel="noopener noreferrer">CirrusMD case study</a>). Even a modest reduction in turnover from "I can't get healthcare" pays for the benefit many times over.</li>
   <li><strong>Outbreak exposure.</strong> A norovirus outbreak traced to an ill food worker can trigger a health department closure, $50,000–$100,000+ in lost revenue, and reputational damage that lasts years. Same-day clearance letters protect against this.</li>
   <li><strong>Absenteeism: ~$1,685 per employee per year</strong> (<a href="https://www.teamsense.com/blog/absenteeism-workplace-statistics" target="_blank" rel="noopener noreferrer">CDC via TeamSense</a>). Uninsured workers skip care, get sicker, miss more shifts.</li>
-  <li><strong>$0 to the business.</strong> Employees pay $59 per visit or use BCBS/Aetna/UHC in-network. The restaurant signs a one-page agreement and the team gets an enrollment code.</li>
+  <li><strong>$0 to the business.</strong> Employees access a preferred employer per-visit rate (set in your partnership agreement) or use BCBS/Aetna/UHC in-network. The restaurant signs a one-page agreement and the team gets an enrollment code.</li>
 </ul>
 `,
     faqs: [
@@ -463,7 +463,7 @@ export const INDUSTRY_DATA = {
 <ul>
   <li><strong>Replacement cost: ~$2,000+ per direct care worker</strong> (<a href="https://attendanceondemand.com/blog/the-price-of-employee-turnover/" target="_blank" rel="noopener noreferrer">Attendance on Demand</a>). A 100-aide agency at 80% turnover spends $160,000+ annually on replacement alone.</li>
   <li><strong>MSD cost burden.</strong> Healthcare and social assistance had 99,600 MSDs in 2021–2022 — the highest of any industry — averaging 14+ days away per case (<a href="https://www.cpwr.com/wp-content/uploads/DataBulletin-June2025.pdf" target="_blank" rel="noopener noreferrer">CPWR June 2025</a>).</li>
-  <li><strong>$0 to the agency.</strong> Aides pay $59 per visit or use commercial insurance in-network. The agency signs a one-page partnership agreement.</li>
+  <li><strong>$0 to the agency.</strong> Aides access a preferred employer per-visit rate (set in your partnership agreement) or use commercial insurance in-network. The agency signs a one-page partnership agreement.</li>
 </ul>
 `,
     faqs: [
@@ -604,7 +604,7 @@ export const INDUSTRY_DATA = {
   <li><strong>27.8% of construction workers are uninsured.</strong> A condition that could have been managed by primary care often becomes a $1,200–$2,500 ER visit instead — borne by whoever ends up paying.</li>
   <li><strong>MSD median: 15 lost days per case.</strong> At a median $58,360 salary (~$28/hour), 15 missed days = $3,360+ per case in direct wage continuation, plus replacement labor (<a href="https://www.cpwr.com/wp-content/uploads/DataBulletin-June2025.pdf" target="_blank" rel="noopener noreferrer">CPWR June 2025</a>).</li>
   <li><strong>OSHA respirator clearance commercial pricing: $75–$150 per worker.</strong> Telehealth processing reduces this substantially with same-day turnaround — particularly valuable when mobilizing dozens of workers for a new contract.</li>
-  <li><strong>$0 to the employer.</strong> Workers pay $59 per visit or use commercial insurance in-network. The contractor signs a one-page agreement.</li>
+  <li><strong>$0 to the employer.</strong> Workers access a preferred employer per-visit rate (set in your partnership agreement) or use commercial insurance in-network. The contractor signs a one-page agreement.</li>
 </ul>
 `,
     faqs: [
@@ -747,7 +747,7 @@ export const INDUSTRY_DATA = {
 <ul>
   <li><strong>Replacement cost: ~$1,000 per cleaning worker</strong> (<a href="https://www.4-m.com/wp-content/uploads/2024/11/HowJanitorialTurnoverImpactsYourBusiness.pdf" target="_blank" rel="noopener noreferrer">4M Building Solutions 2024</a>). A 100-worker company at 200% turnover spends ~$200,000 annually on replacement alone.</li>
   <li><strong>OSHA willful-violation exposure: up to $156,259 per violation (2025).</strong> A chemical incident handled properly — with prompt clinical assessment and documentation — is materially less likely to escalate into a citation.</li>
-  <li><strong>$0 to the company.</strong> Workers pay $59 per visit or use commercial insurance in-network. The cleaning company signs a one-page agreement.</li>
+  <li><strong>$0 to the company.</strong> Workers access a preferred employer per-visit rate (set in your partnership agreement) or use commercial insurance in-network. The cleaning company signs a one-page agreement.</li>
 </ul>
 `,
     faqs: [

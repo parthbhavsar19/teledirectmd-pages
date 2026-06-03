@@ -6,7 +6,7 @@ const TABS = [
     id: 'trucking',
     label: 'Trucking & Logistics',
     title: 'Trucking & Logistics',
-    body: 'Drivers can\'t stop on a route to see a doctor. Our $59 visits handle the routine primary care: chronic refills (blood pressure, asthma, hypothyroid), acute illness like sinus and UTI, mental health. Same-day appointments from any truck stop. We do not perform DOT physicals — those still require an in-person FMCSA-certified Medical Examiner — but the day-to-day primary care between exams, we handle.',
+    body: 'Drivers can\'t stop on a route to see a doctor. Our visits handle the routine primary care: chronic refills (blood pressure, asthma, hypothyroid), acute illness like sinus and UTI, mental health — at a preferred employer rate set in your partnership agreement, or in-network through BCBS / Aetna / UHC. Same-day appointments from any truck stop. We do not perform DOT physicals — those still require an in-person FMCSA-certified Medical Examiner — but the day-to-day primary care between exams, we handle.',
     detailHref: '/employers/trucking',
   },
   {
