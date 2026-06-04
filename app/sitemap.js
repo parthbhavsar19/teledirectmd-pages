@@ -79,12 +79,26 @@ export default function sitemap() {
   for (const seg of WWS_SEGMENTS) urls.push(url(`/who-we-serve/${seg}`, 0.7, 'monthly'));
 
   // 3) State landing pages + condition×state pages (/{state}/, /{state}/{condition}/)
+  // VT pilot cohort (2026-06-04): Vermont is a new-state launch limited to 6 hand-crafted
+  // condition pages. Do NOT emit /vt/<every-condition>/ — only the 6 pilot URLs are surgical-
+  // routed; the rest would fall through to the generic template and trigger Google's
+  // scaled-content classifier (the April 2026 deindex pattern).
+  const VT_PILOT_CONDITIONS = new Set([
+    'uti-treatment-online',
+    'yeast-infection-treatment-online',
+    'bv-treatment-online',
+    'cold-sore-treatment-online',
+    'seasonal-allergies-treatment-online',
+    'hypertension-refills-online',
+  ]);
   const states = getStates();
   const conditionSlugs = getConditionSlugs();
   for (const state of states) {
     urls.push(url(`/${state.slug}/`, 0.9, 'weekly'));
     urls.push(url(`/${state.slug}/online-doctor-visits/`, 0.7, 'monthly'));
     for (const cond of conditionSlugs) {
+      // VT: emit only the 6 pilot condition pages
+      if (state.slug === 'vt' && !VT_PILOT_CONDITIONS.has(cond)) continue;
       urls.push(url(`/${state.slug}/${cond}/`, 0.8, 'weekly'));
     }
   }

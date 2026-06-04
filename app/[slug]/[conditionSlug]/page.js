@@ -70,7 +70,26 @@ import CaShinglesTreatmentOnline from './CaShinglesTreatmentOnline';
 import CaTrichomoniasisTreatmentOnline from './CaTrichomoniasisTreatmentOnline';
 import CaVaginalDrynessTreatmentOnline from './CaVaginalDrynessTreatmentOnline';
 import CaViralGastroenteritisTreatmentOnline from './CaViralGastroenteritisTreatmentOnline';
+// ── VT pilot cohort (2026-06-04) — 6 conditions, cash-pay only, new state launch ──
+import VtUtiTreatmentOnline from './VtUtiTreatmentOnline';
+import VtYeastInfectionTreatmentOnline from './VtYeastInfectionTreatmentOnline';
+import VtBvTreatmentOnline from './VtBvTreatmentOnline';
+import VtColdSoreTreatmentOnline from './VtColdSoreTreatmentOnline';
+import VtSeasonalAllergiesTreatmentOnline from './VtSeasonalAllergiesTreatmentOnline';
+import VtHypertensionRefillsOnline from './VtHypertensionRefillsOnline';
 import { summarizeConditionState, citableSummaryToJsonLd } from '../../../lib/citable-summary';
+
+// VT pilot cohort (2026-06-04): restrict /vt/ static generation to the 6 hand-crafted
+// condition pages — the other ~54 slugs are not staged and must NOT fall through to the
+// generic template (would emit scaled templated content, the April 2026 deindex trap).
+const VT_PILOT_CONDITIONS = new Set([
+  'uti-treatment-online',
+  'yeast-infection-treatment-online',
+  'bv-treatment-online',
+  'cold-sore-treatment-online',
+  'seasonal-allergies-treatment-online',
+  'hypertension-refills-online',
+]);
 
 export async function generateStaticParams() {
   const states = getStates();
@@ -78,6 +97,8 @@ export async function generateStaticParams() {
   const params = [];
   for (const state of states) {
     for (const cSlug of conditionSlugs) {
+      // VT: only generate the 6 pilot condition pages
+      if (state.slug === 'vt' && !VT_PILOT_CONDITIONS.has(cSlug)) continue;
       params.push({ slug: state.slug, conditionSlug: cSlug });
     }
   }
@@ -324,6 +345,26 @@ export default async function ConditionPage({ params }) {
   }
   if (slug === 'ca' && conditionSlug === 'tinea-versicolor-treatment-online') {
     return <CaTineaVersicolorTreatmentOnline />;
+  }
+
+  // ── VT pilot cohort (2026-06-04) ──
+  if (slug === 'vt' && conditionSlug === 'uti-treatment-online') {
+    return <VtUtiTreatmentOnline />;
+  }
+  if (slug === 'vt' && conditionSlug === 'yeast-infection-treatment-online') {
+    return <VtYeastInfectionTreatmentOnline />;
+  }
+  if (slug === 'vt' && conditionSlug === 'bv-treatment-online') {
+    return <VtBvTreatmentOnline />;
+  }
+  if (slug === 'vt' && conditionSlug === 'cold-sore-treatment-online') {
+    return <VtColdSoreTreatmentOnline />;
+  }
+  if (slug === 'vt' && conditionSlug === 'seasonal-allergies-treatment-online') {
+    return <VtSeasonalAllergiesTreatmentOnline />;
+  }
+  if (slug === 'vt' && conditionSlug === 'hypertension-refills-online') {
+    return <VtHypertensionRefillsOnline />;
   }
 
   const state = getStateBySlug(slug);
