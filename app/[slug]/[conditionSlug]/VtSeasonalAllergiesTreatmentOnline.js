@@ -29,9 +29,9 @@ import FaqAccordion from '../../components/FaqAccordion';
 
 const PAGE_URL = 'https://teledirectmd.com/vt/seasonal-allergies-treatment-online/';
 const PAGE_TITLE = 'Seasonal Allergies Treatment Online in Vermont | TeleDirectMD';
-const DATE_PUBLISHED = '2026-05-19';
-const DATE_MODIFIED = '2026-05-19';
-const LAST_REVIEWED = '2026-05-19';
+const DATE_PUBLISHED = '2026-06-04';
+const DATE_MODIFIED = '2026-06-04';
+const LAST_REVIEWED = '2026-06-04';
 
 const PHYSICIAN = {
   name: 'Parth Bhavsar, MD',
@@ -146,7 +146,19 @@ function buildSchemas() {
       hasCredential: [
         { '@type': 'EducationalOccupationalCredential', credentialCategory: 'degree', name: 'Doctor of Medicine (MD)' },
         { '@type': 'EducationalOccupationalCredential', credentialCategory: 'certification', name: 'Board Certification — American Board of Family Medicine' },
+        {
+          '@type': 'EducationalOccupationalCredential',
+          credentialCategory: 'Medical License',
+          name: 'Vermont Medical License',
+          identifier: '042.0040345-COMP',
+          recognizedBy: {
+            '@type': 'GovernmentOrganization',
+            name: 'Vermont Board of Medical Practice',
+            url: 'https://www.healthvermont.gov/systems/board-medical-practice',
+          },
+        },
       ],
+      areaServed: { '@type': 'State', name: 'Vermont' },
       licensedIn: PHYSICIAN.licenseState,
       worksFor: { '@type': 'MedicalOrganization', name: 'TeleDirectMD', url: 'https://teledirectmd.com' },
       sameAs: ['https://npiregistry.cms.hhs.gov/provider-view/1104323203', 'https://teledirectmd.com/about/'],
@@ -251,7 +263,7 @@ export default function VtSeasonalAllergiesTreatmentOnline() {
                       Reviewed by <a href={PHYSICIAN.bioUrl}>{PHYSICIAN.name}</a> — Board-Certified {PHYSICIAN.specialty}
                     </span>
                     <span className="tdmd-vt-uti__byline-meta">
-                      NPI {PHYSICIAN.npi} · Licensed in {PHYSICIAN.licenseState} · Last reviewed{' '}
+                      NPI {PHYSICIAN.npi} · Vermont Medical License #042.0040345-COMP (<a href="https://secure.professionals.healthvermont.gov/PROD/PORTAL/PRLicenseSearch/SearchPage" rel="noopener" target="_blank">verify</a>) · Last reviewed{' '}
                       <time dateTime={DATE_MODIFIED}>{new Date(DATE_MODIFIED).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</time>
                     </span>
                   </div>

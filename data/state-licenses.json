@@ -1,0 +1,19 @@
+{
+  "_comment": "TeleDirectMD physician state medical licenses. Single source of truth for Physician.hasCredential JSON-LD across all state-specific pages. Add new states here when license is issued. Empty entries are intentionally blank — page-level code falls back to generic 'Licensed in <state>' without a credential identifier when no number is present.",
+  "_physician": {
+    "name": "Parth Bhavsar, MD",
+    "npi": "1104323203",
+    "boardCert": "American Board of Family Medicine",
+    "primaryState": "GA"
+  },
+  "licenses": {
+    "vt": {
+      "stateName": "Vermont",
+      "licenseNumber": "042.0040345-COMP",
+      "issuingBoard": "Vermont Board of Medical Practice",
+      "issuingBoardUrl": "https://www.healthvermont.gov/systems/board-medical-practice",
+      "verificationUrl": "https://secure.professionals.healthvermont.gov/PROD/PORTAL/PRLicenseSearch/SearchPage",
+      "credentialCategory": "Medical License"
+    }
+  }
+}

@@ -34,9 +34,9 @@ import { WhatDoesThisCostBlock, CompareTeleDirectMDLinkRow, CommonSymptomsBlock 
 // ────────────────────────────────────────────────────────────────────────────
 const PAGE_URL = 'https://teledirectmd.com/vt/uti-treatment-online/';
 const PAGE_TITLE = 'UTI Treatment Online in Vermont | TeleDirectMD';
-const DATE_PUBLISHED = '2026-05-19';
-const DATE_MODIFIED = '2026-05-19';
-const LAST_REVIEWED = '2026-05-19';
+const DATE_PUBLISHED = '2026-06-04';
+const DATE_MODIFIED = '2026-06-04';
+const LAST_REVIEWED = '2026-06-04';
 
 const PHYSICIAN = {
   name: 'Parth Bhavsar, MD',
@@ -193,7 +193,19 @@ function buildSchemas() {
       hasCredential: [
         { '@type': 'EducationalOccupationalCredential', credentialCategory: 'degree', name: 'Doctor of Medicine (MD)' },
         { '@type': 'EducationalOccupationalCredential', credentialCategory: 'certification', name: 'Board Certification — American Board of Family Medicine' },
+        {
+          '@type': 'EducationalOccupationalCredential',
+          credentialCategory: 'Medical License',
+          name: 'Vermont Medical License',
+          identifier: '042.0040345-COMP',
+          recognizedBy: {
+            '@type': 'GovernmentOrganization',
+            name: 'Vermont Board of Medical Practice',
+            url: 'https://www.healthvermont.gov/systems/board-medical-practice',
+          },
+        },
       ],
+      areaServed: { '@type': 'State', name: 'Vermont' },
       licensedIn: PHYSICIAN.licenseState,
       worksFor: { '@type': 'MedicalOrganization', name: 'TeleDirectMD', url: 'https://teledirectmd.com' },
       sameAs: ['https://npiregistry.cms.hhs.gov/provider-view/1104323203', 'https://teledirectmd.com/about/'],
@@ -503,7 +515,7 @@ export default function VtUtiTreatmentOnline() {
 
             <h3>What standard of care applies to Vermont telehealth physicians?</h3>
             <p>
-              The <a href="https://www.healthvermont.gov/systems/board-medical-practice" rel="noopener" target="_blank">Vermont Board of Medical Practice</a> is explicit: &ldquo;The standard of care is the same whether the patient is seen in-person, through telehealth or other methods of electronically enabled health care.&rdquo; Physicians must be licensed in Vermont to provide telehealth to Vermont patients — a requirement TeleDirectMD satisfies. See our <a href="/about/">Dr. Bhavsar bio</a> for credential details.
+              The <a href="https://www.healthvermont.gov/systems/board-medical-practice" rel="noopener" target="_blank">Vermont Board of Medical Practice</a> is explicit: &ldquo;The standard of care is the same whether the patient is seen in-person, through telehealth or other methods of electronically enabled health care.&rdquo; Physicians must be licensed in Vermont to provide telehealth to Vermont patients — a requirement TeleDirectMD satisfies. Dr. Bhavsar holds Vermont Medical License #042.0040345-COMP issued by the Vermont Board of Medical Practice. <a href="https://secure.professionals.healthvermont.gov/PROD/PORTAL/PRLicenseSearch/SearchPage" rel="noopener" target="_blank">Verify license</a> · <a href="/about/">Dr. Bhavsar bio</a>.
             </p>
 
             

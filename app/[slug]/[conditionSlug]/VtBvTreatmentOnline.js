@@ -8,9 +8,9 @@ import { WhatDoesThisCostBlock, CompareTeleDirectMDLinkRow, CommonSymptomsBlock 
 
 const PAGE_URL = 'https://teledirectmd.com/vt/bv-treatment-online/';
 const PAGE_TITLE = 'BV Treatment Online in Vermont | TeleDirectMD';
-const DATE_PUBLISHED = '2026-05-20';
-const DATE_MODIFIED = '2026-05-20';
-const LAST_REVIEWED = '2026-05-20';
+const DATE_PUBLISHED = '2026-06-04';
+const DATE_MODIFIED = '2026-06-04';
+const LAST_REVIEWED = '2026-06-04';
 
 const PHYSICIAN = {
   name: 'Parth Bhavsar, MD', npi: '1104323203', specialty: 'Family Medicine',
@@ -83,7 +83,7 @@ function buildSchemas() {
     datePublished: DATE_PUBLISHED, dateModified: DATE_MODIFIED, inLanguage: 'en-US',
     about: { '@type': 'MedicalCondition', name: 'Bacterial Vaginosis', alternateName: ['BV', 'Vaginal Bacteriosis'], code: { '@type': 'MedicalCode', code: 'N76.0', codingSystem: 'ICD-10-CM' } },
     medicalAudience: { '@type': 'MedicalAudience', audienceType: 'Patient', geographicArea: { '@type': 'AdministrativeArea', name: 'Vermont' } },
-    reviewedBy: { '@type': 'Physician', '@id': 'https://teledirectmd.com/about/#physician-parth-bhavsar', name: PHYSICIAN.name, identifier: { '@type': 'PropertyValue', propertyID: 'NPI', value: PHYSICIAN.npi }, medicalSpecialty: PHYSICIAN.specialty, hasCredential: [{ '@type': 'EducationalOccupationalCredential', credentialCategory: 'certification', name: 'Board Certification — American Board of Family Medicine' }], licensedIn: PHYSICIAN.licenseState, worksFor: { '@type': 'MedicalOrganization', name: 'TeleDirectMD', url: 'https://teledirectmd.com' }, sameAs: ['https://npiregistry.cms.hhs.gov/provider-view/1104323203', 'https://teledirectmd.com/about/'] },
+    reviewedBy: { '@type': 'Physician', '@id': 'https://teledirectmd.com/about/#physician-parth-bhavsar', name: PHYSICIAN.name, identifier: { '@type': 'PropertyValue', propertyID: 'NPI', value: PHYSICIAN.npi }, medicalSpecialty: PHYSICIAN.specialty, hasCredential: [{ '@type': 'EducationalOccupationalCredential', credentialCategory: 'certification', name: 'Board Certification — American Board of Family Medicine' }, { '@type': 'EducationalOccupationalCredential', credentialCategory: 'Medical License', name: 'Vermont Medical License', identifier: '042.0040345-COMP', recognizedBy: { '@type': 'GovernmentOrganization', name: 'Vermont Board of Medical Practice', url: 'https://www.healthvermont.gov/systems/board-medical-practice' } }], areaServed: { '@type': 'State', name: 'Vermont' }, licensedIn: PHYSICIAN.licenseState, worksFor: { '@type': 'MedicalOrganization', name: 'TeleDirectMD', url: 'https://teledirectmd.com' }, sameAs: ['https://npiregistry.cms.hhs.gov/provider-view/1104323203', 'https://teledirectmd.com/about/'] },
     speakable: { '@type': 'SpeakableSpecification', cssSelector: ['#vt-bv-opening', '#vt-bv-opening p', '.tdmd-vt-bv__byline', '#vt-bv-treatment-online-faq'] },
   };
   const faqPage = { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: FAQ_ITEMS.map((faq) => ({ '@type': 'Question', name: faq.question, acceptedAnswer: { '@type': 'Answer', text: extractPlain(faq.answer) } })) };
@@ -185,7 +185,7 @@ export default function VtBvTreatmentOnline() {
             <div className="tdmd-condition-opener" id="vt-bv-opening">
               <h2>Can I Get BV Treatment Online in Vermont?</h2>
               <p><strong>Yes.</strong> <a href="https://legislature.vermont.gov/statutes/fullchapter/18/219" rel="noopener" target="_blank">18 V.S.A. Chapter 219 (Vermont&apos;s telemedicine statute)</a> permits Vermont-licensed physicians to treat bacterial vaginosis by synchronous video visit without a prior in-person examination. The <a href="https://www.healthvermont.gov/systems/board-medical-practice" rel="noopener" target="_blank">Vermont Board of Medical Practice</a> holds telehealth physicians to the same standard of care as in-person physicians. Classic BV symptoms — thin grayish-white discharge with fishy odor, elevated vaginal pH, minimal itching — can be assessed by careful history, particularly in adults with prior confirmed BV diagnosis. Per the <a href="https://www.cdc.gov/std/treatment-guidelines/bv.htm" rel="noopener" target="_blank">CDC STI Treatment Guidelines 2021</a>, first-line treatment is metronidazole 500 mg orally twice daily × 7 days or metronidazole gel 0.75% × 5 days. Self pay is $79.</p>
-              <small className="tdmd-condition-opener__meta">Reviewed by <a href="/about/">Parth Bhavsar, MD</a> · Board-Certified Family Medicine · NPI 1104323203 · Licensed in Vermont · Last reviewed May 20, 2026</small>
+              <small className="tdmd-condition-opener__meta">Reviewed by <a href="/about/">Parth Bhavsar, MD</a> · Board-Certified Family Medicine · NPI 1104323203 · Licensed in Vermont (License #042.0040345-COMP · <a href="https://secure.professionals.healthvermont.gov/PROD/PORTAL/PRLicenseSearch/SearchPage" rel="noopener" target="_blank">verify</a>) · Last reviewed June 4, 2026</small>
             </div>
           </div>
         </section>

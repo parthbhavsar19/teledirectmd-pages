@@ -10,9 +10,9 @@ import { WhatDoesThisCostBlock, CompareTeleDirectMDLinkRow, CommonSymptomsBlock 
 
 const PAGE_URL = 'https://teledirectmd.com/vt/yeast-infection-treatment-online/';
 const PAGE_TITLE = 'Yeast Infection Treatment Online in Vermont | TeleDirectMD';
-const DATE_PUBLISHED = '2026-05-20';
-const DATE_MODIFIED = '2026-05-20';
-const LAST_REVIEWED = '2026-05-20';
+const DATE_PUBLISHED = '2026-06-04';
+const DATE_MODIFIED = '2026-06-04';
+const LAST_REVIEWED = '2026-06-04';
 
 const PHYSICIAN = {
   name: 'Parth Bhavsar, MD',
@@ -170,7 +170,19 @@ function buildSchemas() {
       hasCredential: [
         { '@type': 'EducationalOccupationalCredential', credentialCategory: 'degree', name: 'Doctor of Medicine (MD)' },
         { '@type': 'EducationalOccupationalCredential', credentialCategory: 'certification', name: 'Board Certification — American Board of Family Medicine' },
+        {
+          '@type': 'EducationalOccupationalCredential',
+          credentialCategory: 'Medical License',
+          name: 'Vermont Medical License',
+          identifier: '042.0040345-COMP',
+          recognizedBy: {
+            '@type': 'GovernmentOrganization',
+            name: 'Vermont Board of Medical Practice',
+            url: 'https://www.healthvermont.gov/systems/board-medical-practice',
+          },
+        },
       ],
+      areaServed: { '@type': 'State', name: 'Vermont' },
       licensedIn: PHYSICIAN.licenseState,
       worksFor: { '@type': 'MedicalOrganization', name: 'TeleDirectMD', url: 'https://teledirectmd.com' },
       sameAs: ['https://npiregistry.cms.hhs.gov/provider-view/1104323203', 'https://teledirectmd.com/about/'],
@@ -367,7 +379,7 @@ export default function VtYeastInfectionTreatmentOnline() {
                 <strong>Yes.</strong> <a href="https://legislature.vermont.gov/statutes/fullchapter/18/219" rel="noopener" target="_blank">18 V.S.A. Chapter 219 (Vermont&apos;s telemedicine statute)</a> — authorizes Vermont-licensed physicians to evaluate and treat uncomplicated vulvovaginal candidiasis (VVC) via synchronous video visit without a prior in-person examination. The <a href="https://www.healthvermont.gov/systems/board-medical-practice" rel="noopener" target="_blank">Vermont Board of Medical Practice</a> holds telehealth physicians to the same standard of care as in-person physicians. Classic VVC — thick white discharge, vulvar itching, burning — can be reliably assessed by history when symptoms are typical and a prior diagnosis is established. Per <a href="https://www.acog.org/clinical/clinical-guidance/practice-bulletin/articles/2020/06/vaginitis-in-nonpregnant-patients" rel="noopener" target="_blank">ACOG Practice Bulletin 215</a>, empiric oral fluconazole 150 mg is appropriate for women with classic VVC symptoms. TeleDirectMD&apos;s self-pay rate is $79.
               </p>
               <small className="tdmd-condition-opener__meta">
-                Reviewed by <a href="/about/">Parth Bhavsar, MD</a> — Board-Certified Family Medicine · NPI 1104323203 · Licensed in Vermont · Last reviewed May 20, 2026
+                Reviewed by <a href="/about/">Parth Bhavsar, MD</a> — Board-Certified Family Medicine · NPI 1104323203 · Licensed in Vermont (License #042.0040345-COMP · <a href="https://secure.professionals.healthvermont.gov/PROD/PORTAL/PRLicenseSearch/SearchPage" rel="noopener" target="_blank">verify</a>) · Last reviewed June 4, 2026
               </small>
             </div>
           </div>
