@@ -70,17 +70,24 @@ import CaShinglesTreatmentOnline from './CaShinglesTreatmentOnline';
 import CaTrichomoniasisTreatmentOnline from './CaTrichomoniasisTreatmentOnline';
 import CaVaginalDrynessTreatmentOnline from './CaVaginalDrynessTreatmentOnline';
 import CaViralGastroenteritisTreatmentOnline from './CaViralGastroenteritisTreatmentOnline';
-// ── VT pilot cohort (2026-06-04) — 6 conditions, cash-pay only, new state launch ──
+// ── VT pilot cohort — 10 conditions total, cash-pay only, new state launch ──
+// First 6 shipped 2026-06-04. Held 4 (PinkEye/Shingles/SinusInfection/SoreThroat)
+// rewritten with deeper VT differentiation (Lyme/tick + maple-sugaring + Centor
+// criteria + outdoor-rec triggers) and shipped same day to clear 50% Jaccard.
 import VtUtiTreatmentOnline from './VtUtiTreatmentOnline';
 import VtYeastInfectionTreatmentOnline from './VtYeastInfectionTreatmentOnline';
 import VtBvTreatmentOnline from './VtBvTreatmentOnline';
 import VtColdSoreTreatmentOnline from './VtColdSoreTreatmentOnline';
 import VtSeasonalAllergiesTreatmentOnline from './VtSeasonalAllergiesTreatmentOnline';
 import VtHypertensionRefillsOnline from './VtHypertensionRefillsOnline';
+import VtPinkEyeTreatmentOnline from './VtPinkEyeTreatmentOnline';
+import VtShinglesTreatmentOnline from './VtShinglesTreatmentOnline';
+import VtSinusInfectionTreatmentOnline from './VtSinusInfectionTreatmentOnline';
+import VtSoreThroatTreatmentOnline from './VtSoreThroatTreatmentOnline';
 import { summarizeConditionState, citableSummaryToJsonLd } from '../../../lib/citable-summary';
 
-// VT pilot cohort (2026-06-04): restrict /vt/ static generation to the 6 hand-crafted
-// condition pages — the other ~54 slugs are not staged and must NOT fall through to the
+// VT pilot cohort (2026-06-04): restrict /vt/ static generation to the 10 hand-crafted
+// condition pages — the other ~50 slugs are not staged and must NOT fall through to the
 // generic template (would emit scaled templated content, the April 2026 deindex trap).
 const VT_PILOT_CONDITIONS = new Set([
   'uti-treatment-online',
@@ -89,6 +96,10 @@ const VT_PILOT_CONDITIONS = new Set([
   'cold-sore-treatment-online',
   'seasonal-allergies-treatment-online',
   'hypertension-refills-online',
+  'pink-eye-treatment-online',
+  'shingles-treatment-online',
+  'sinus-infection-treatment-online',
+  'sore-throat-treatment-online',
 ]);
 
 export async function generateStaticParams() {
@@ -365,6 +376,18 @@ export default async function ConditionPage({ params }) {
   }
   if (slug === 'vt' && conditionSlug === 'hypertension-refills-online') {
     return <VtHypertensionRefillsOnline />;
+  }
+  if (slug === 'vt' && conditionSlug === 'pink-eye-treatment-online') {
+    return <VtPinkEyeTreatmentOnline />;
+  }
+  if (slug === 'vt' && conditionSlug === 'shingles-treatment-online') {
+    return <VtShinglesTreatmentOnline />;
+  }
+  if (slug === 'vt' && conditionSlug === 'sinus-infection-treatment-online') {
+    return <VtSinusInfectionTreatmentOnline />;
+  }
+  if (slug === 'vt' && conditionSlug === 'sore-throat-treatment-online') {
+    return <VtSoreThroatTreatmentOnline />;
   }
 
   const state = getStateBySlug(slug);

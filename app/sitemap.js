@@ -79,8 +79,8 @@ export default function sitemap() {
   for (const seg of WWS_SEGMENTS) urls.push(url(`/who-we-serve/${seg}`, 0.7, 'monthly'));
 
   // 3) State landing pages + condition×state pages (/{state}/, /{state}/{condition}/)
-  // VT pilot cohort (2026-06-04): Vermont is a new-state launch limited to 6 hand-crafted
-  // condition pages. Do NOT emit /vt/<every-condition>/ — only the 6 pilot URLs are surgical-
+  // VT pilot cohort (2026-06-04): Vermont is a new-state launch limited to 10 hand-crafted
+  // condition pages. Do NOT emit /vt/<every-condition>/ — only the 10 pilot URLs are surgical-
   // routed; the rest would fall through to the generic template and trigger Google's
   // scaled-content classifier (the April 2026 deindex pattern).
   const VT_PILOT_CONDITIONS = new Set([
@@ -90,6 +90,10 @@ export default function sitemap() {
     'cold-sore-treatment-online',
     'seasonal-allergies-treatment-online',
     'hypertension-refills-online',
+    'pink-eye-treatment-online',
+    'shingles-treatment-online',
+    'sinus-infection-treatment-online',
+    'sore-throat-treatment-online',
   ]);
   const states = getStates();
   const conditionSlugs = getConditionSlugs();
