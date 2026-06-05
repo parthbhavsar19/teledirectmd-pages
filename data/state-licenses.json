@@ -13,7 +13,23 @@
       "issuingBoard": "Vermont Board of Medical Practice",
       "issuingBoardUrl": "https://www.healthvermont.gov/systems/board-medical-practice",
       "verificationUrl": "https://secure.professionals.healthvermont.gov/PROD/PORTAL/PRLicenseSearch/SearchPage",
-      "credentialCategory": "Medical License"
+      "credentialCategory": "Medical License",
+      "credentialDisplayShort": "Vermont Medical License",
+      "credentialDisplayLong": "Vermont Medical License (issued by Vermont Board of Medical Practice)",
+      "phrasingForPages": "Vermont-licensed physician"
+    },
+    "fl": {
+      "stateName": "Florida",
+      "licenseNumber": "TPME5921",
+      "issuingBoard": "Florida Department of Health",
+      "issuingBoardUrl": "https://flhealthsource.gov/telehealth/",
+      "verificationUrl": "https://flhealthsource.gov/telehealth/",
+      "credentialCategory": "Telehealth Provider Registration",
+      "credentialDisplayShort": "FL Telehealth Provider Registration",
+      "credentialDisplayLong": "Florida Out-of-State Telehealth Provider Registration (under Fla. Stat. \u00a7 456.47(4))",
+      "phrasingForPages": "Florida-registered telehealth physician",
+      "statuteAuthority": "Fla. Stat. \u00a7 456.47(4)",
+      "notes": "Out-of-state telehealth provider registration. NOT a full Florida medical license. Dr. Bhavsar holds a Georgia medical license; this registration permits telehealth practice with Florida patients per \u00a7456.47. Does not expire or require renewal per FL DOH record."
     }
   }
 }
