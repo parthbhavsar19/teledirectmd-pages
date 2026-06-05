@@ -1047,10 +1047,13 @@ export default async function ConditionPage({ params }) {
 
             {activeInsurers.map((payer) => {
               const headerName = payer.displayName || payer.name;
+              // Strip trailing ' Treatment' for natural copy — 'UTI Treatment' → 'UTI'
+              // (header already says 'coverage for X in Texas', the word 'treatment' is implied)
+              const condShort = condition.conditionName.replace(/\s+Treatment$/i, '');
               return (
                 <div key={payer.anchor || payer.name} style={{ marginTop: '2rem' }}>
-                  <h3 id={payer.anchor || ''}>{headerName} coverage for {condition.conditionName.toLowerCase()} in {state.name}</h3>
-                  <p>TeleDirectMD accepts {headerName} in {state.name} for {condition.conditionName.toLowerCase()} visits. Your specific coverage, copay, and any prior authorization requirements depend on your individual plan; we verify benefits before your visit. Prescription medications, if appropriate, are paid separately at your pharmacy.</p>
+                  <h3 id={payer.anchor || ''}>{headerName} coverage for {condShort.toLowerCase()} treatment in {state.name}</h3>
+                  <p>TeleDirectMD accepts {headerName} in {state.name} for {condShort.toLowerCase()} visits. Your specific coverage, copay, and any prior authorization requirements depend on your individual plan; we verify benefits before your visit. Prescription medications, if appropriate, are paid separately at your pharmacy.</p>
                   {payer.plans && (
                     <p style={{ fontSize: '0.9rem', color: 'var(--tdmd-text-muted, #525252)' }}>
                       <strong>Plans accepted:</strong> {payer.plans}
