@@ -1,6 +1,6 @@
 import { getStates, getConditionSlugs, getCondition, getStateBySlug, resolveConditionForState } from '../../../lib/get-data';
 import { generateJsonLd } from '../../../lib/json-ld';
-import { getStateInsurance } from '../../../lib/insurance-data';
+import { getStateInsurance, getActiveInsurers, getPendingInsurers, hasInlineInsuranceSection } from '../../../lib/insurance-data';
 import { getInsuranceLinksForConditionState } from '../../../lib/internal-links';
 import { WhatDoesThisCostBlock, CompareTeleDirectMDLinkRow, CommonSymptomsBlock } from '../../components/CostCompareModules';
 import { CitableSummaryBlock } from '../../components/CitableSummary';
@@ -409,6 +409,21 @@ export default async function ConditionPage({ params }) {
   const otherStates = allStates.filter((s) => s.slug !== slug);
   // Build insurance cross-links for this condition × state combo
   const insuranceLinks = state && state.abbr ? getInsuranceLinksForConditionState(conditionSlug, state.abbr) : [];
+  // ── Inline insurance sections (hybrid consolidation pattern, approved 2026-05-28) ──
+  // For states with a TDMD-active payer roster, render H3-anchored sections per insurer
+  // + FAQPage Q&A pairs + MedicalBusiness.acceptedInsurance JSON-LD nested below.
+  // Cash-pay-only states (VT) are intentionally absent from insuranceByState — no section renders.
+  // Closed/declined contracts (e.g. Cigna TX as of 2026-05-29) are NEVER listed — FTC NextMed compliance gate.
+  //
+  // ROLLOUT GATE (2026-06-05): TX-only first push. Other 12 states with insuranceByState entries
+  // (AZ/CO/FL/GA/IL/MI/MN/NC/NJ/OH/PA/TN/WA) are gated OFF until explicitly enabled per-state.
+  // FL/PA/GA will be enabled here when their cohort research drips ship (FL Mon 6/8, PA 6/15, GA 6/22).
+  // The other 9 states stay gated off pending per-state payer verification.
+  const INLINE_INSURANCE_ENABLED_STATES = new Set(['TX']);
+  const insuranceGateOpen = state && state.abbr && INLINE_INSURANCE_ENABLED_STATES.has(state.abbr);
+  const activeInsurers = insuranceGateOpen ? getActiveInsurers(state.abbr) : [];
+  const pendingInsurers = insuranceGateOpen ? getPendingInsurers(state.abbr) : [];
+  const renderInlineInsurance = insuranceGateOpen && hasInlineInsuranceSection(state.abbr);
 
   // ── Citable summary for AI extractors (Condition × State)
   const citableSummary_AI = summarizeConditionState({ state, condition });
@@ -1020,6 +1035,51 @@ export default async function ConditionPage({ params }) {
           </div>
         </div>
       </section>
+
+      {/* 20a) Inline payer sections — hybrid consolidation pattern (2026-05-28).
+            Renders only for states with active or pending TDMD payer contracts (insuranceByState entries).
+            Cash-pay states (e.g. VT) skip this entirely. */}
+      {renderInlineInsurance && (activeInsurers.length > 0 || pendingInsurers.length > 0) && (
+        <section className="tdmd-section" id={`${pid}-insurance-inline`}>
+          <div className="tdmd-container" data-speakable="true">
+            <h2>Insurance Coverage for {condition.conditionName} in {state.name}</h2>
+            <p>TeleDirectMD bills the following commercial insurers in-network in {state.name}. If you are covered, your standard plan copay applies in place of the $79 self-pay fee. We verify benefits before your appointment, and prescription costs at your pharmacy are billed separately under your pharmacy benefit.</p>
+
+            {activeInsurers.map((payer) => {
+              const headerName = payer.displayName || payer.name;
+              return (
+                <div key={payer.anchor || payer.name} style={{ marginTop: '2rem' }}>
+                  <h3 id={payer.anchor || ''}>{headerName} coverage for {condition.conditionName.toLowerCase()} in {state.name}</h3>
+                  <p>TeleDirectMD accepts {headerName} in {state.name} for {condition.conditionName.toLowerCase()} visits. Your specific coverage, copay, and any prior authorization requirements depend on your individual plan; we verify benefits before your visit. Prescription medications, if appropriate, are paid separately at your pharmacy.</p>
+                  {payer.plans && (
+                    <p style={{ fontSize: '0.9rem', color: 'var(--tdmd-text-muted, #525252)' }}>
+                      <strong>Plans accepted:</strong> {payer.plans}
+                    </p>
+                  )}
+                  {payer.effectiveDate && (
+                    <p style={{ fontSize: '0.85rem', color: 'var(--tdmd-text-muted, #525252)' }}>
+                      <em>Coverage confirmed for {state.name} as of {new Date(payer.effectiveDate).toLocaleDateString('en-US', { year: 'numeric', month: 'long' })}. Source: TeleDirectMD payor enrollment records.</em>
+                    </p>
+                  )}
+                </div>
+              );
+            })}
+
+            {pendingInsurers.length > 0 && (
+              <div style={{ marginTop: '2rem', padding: '1rem', background: 'var(--tdmd-bg-soft)', borderLeft: '3px solid var(--tdmd-teal, #14B8A6)', borderRadius: '0.25rem' }}>
+                <h3 style={{ marginTop: 0 }}>Expanding payer relationships in {state.name}</h3>
+                <p style={{ marginBottom: 0 }}>
+                  TeleDirectMD is actively expanding payer relationships in {state.name}. We are currently in network with the insurers listed above; {pendingInsurers.map((p) => p.displayName || p.name).join(' and ')} {pendingInsurers.length === 1 ? 'is' : 'are'} pending. For up-to-date coverage information, contact our intake team before booking, or use the $79 self-pay option which is HSA/FSA eligible.
+                </p>
+              </div>
+            )}
+
+            <p style={{ marginTop: '1.5rem', fontSize: '0.9rem', color: 'var(--tdmd-text-muted, #525252)' }}>
+              Specific copay amounts and any prior authorization requirements vary by plan. Confirm with your insurer's member services or our intake team before booking. $79 cash-pay covers the video visit with the physician. Prescription medications, if appropriate, are paid separately at your pharmacy. No subscription fees.
+            </p>
+          </div>
+        </section>
+      )}
 
       {/* 20b) Insurance Cross-links — internal linking for AI visibility */}
       {insuranceLinks.length > 0 && (
