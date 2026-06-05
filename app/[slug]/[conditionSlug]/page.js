@@ -84,6 +84,7 @@ import VtPinkEyeTreatmentOnline from './VtPinkEyeTreatmentOnline';
 import VtShinglesTreatmentOnline from './VtShinglesTreatmentOnline';
 import VtSinusInfectionTreatmentOnline from './VtSinusInfectionTreatmentOnline';
 import VtSoreThroatTreatmentOnline from './VtSoreThroatTreatmentOnline';
+import VtTickBiteTreatmentOnline from './VtTickBiteTreatmentOnline'; // Pilot 2 marquee (2026-06-04) — deep-content Lyme/tick-bite page
 import { summarizeConditionState, citableSummaryToJsonLd } from '../../../lib/citable-summary';
 
 // VT pilot cohort (2026-06-04): restrict /vt/ static generation to the 10 hand-crafted
@@ -100,6 +101,7 @@ const VT_PILOT_CONDITIONS = new Set([
   'shingles-treatment-online',
   'sinus-infection-treatment-online',
   'sore-throat-treatment-online',
+  'tick-bite-treatment-online', // Pilot 2 marquee (2026-06-04) — shipped early ahead of Mon Jun 8 batch
 ]);
 
 export async function generateStaticParams() {
@@ -388,6 +390,9 @@ export default async function ConditionPage({ params }) {
   }
   if (slug === 'vt' && conditionSlug === 'sore-throat-treatment-online') {
     return <VtSoreThroatTreatmentOnline />;
+  }
+  if (slug === 'vt' && conditionSlug === 'tick-bite-treatment-online') {
+    return <VtTickBiteTreatmentOnline />;
   }
 
   const state = getStateBySlug(slug);

@@ -94,6 +94,7 @@ export default function sitemap() {
     'shingles-treatment-online',
     'sinus-infection-treatment-online',
     'sore-throat-treatment-online',
+    'tick-bite-treatment-online',
   ]);
   const states = getStates();
   const conditionSlugs = getConditionSlugs();
