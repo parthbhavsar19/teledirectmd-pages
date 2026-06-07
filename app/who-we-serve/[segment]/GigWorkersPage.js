@@ -43,7 +43,7 @@ export default function GigWorkersPage() {
     },
     {
       q: 'Can I use TeleDirectMD in any state I\'m working in?',
-      a: 'TeleDirectMD is licensed in 41 states. As long as you are physically located in one of our covered states at the time of your visit, you can be seen — regardless of where you live or where you are registered as a gig worker. This is especially valuable for gig workers who move between markets, travel for freelance assignments, or work across state lines.'
+      a: 'TeleDirectMD is licensed in 43 states. As long as you are physically located in one of our covered states at the time of your visit, you can be seen — regardless of where you live or where you are registered as a gig worker. This is especially valuable for gig workers who move between markets, travel for freelance assignments, or work across state lines.'
     },
     {
       q: 'How quickly can I get a prescription sent to a local pharmacy?',
@@ -117,7 +117,7 @@ export default function GigWorkersPage() {
         "@id": `${pageUrl}#webpage`,
         "url": pageUrl,
         "name": "Telehealth for Gig Workers, Delivery Drivers & Freelancers — Healthcare Without a 9-to-5",
-        "description": "TeleDirectMD offers telehealth for gig workers, Uber/Lyft drivers, DoorDash couriers, and freelancers across 41 states. No insurance required. Same-day visits, evenings & weekends. Starting at $79.",
+        "description": "TeleDirectMD offers telehealth for gig workers, Uber/Lyft drivers, DoorDash couriers, and freelancers across 43 states. No insurance required. Same-day visits, evenings & weekends. Starting at $79.",
         "inLanguage": "en-US",
         "breadcrumb": { "@id": `${pageUrl}#breadcrumbs` },
         "author": { "@id": `${baseUrl}/about#physician` },
@@ -164,13 +164,13 @@ export default function GigWorkersPage() {
           <div className="tdmd-hero-grid">
             <div className="tdmd-hero-copy">
               <h1>Telehealth for Gig Workers, Delivery Drivers &amp; Freelancers — Healthcare Without a 9-to-5</h1>
-              <p className="tdmd-hero-sub">Licensed physician in 41 states. No insurance required. Same-day visits, evenings &amp; weekends.</p>
+              <p className="tdmd-hero-sub">Licensed physician in 43 states. No insurance required. Same-day visits, evenings &amp; weekends.</p>
               <p>
-                76 million Americans now work as freelancers — 36% of the U.S. workforce. Gig workers are uninsured at three times the rate of average Americans (35% vs. 10.5%). With ACA enhanced subsidies expiring in 2026, premiums more than doubled for many marketplace enrollees. TeleDirectMD offers transparent cash-pay pricing starting at $79, same-day availability including evenings and weekends, and coverage across 41 states — built for workers whose schedules and income don't fit the traditional healthcare model.
+                76 million Americans now work as freelancers — 36% of the U.S. workforce. Gig workers are uninsured at three times the rate of average Americans (35% vs. 10.5%). With ACA enhanced subsidies expiring in 2026, premiums more than doubled for many marketplace enrollees. TeleDirectMD offers transparent cash-pay pricing starting at $79, same-day availability including evenings and weekends, and coverage across 43 states — built for workers whose schedules and income don't fit the traditional healthcare model.
               </p>
               <ul className="tdmd-hero-benefits">
                 <li>Board-certified physician — not a PA, not an NP, not an algorithm</li>
-                <li>Licensed in 41 states — follows you wherever your work takes you</li>
+                <li>Licensed in 43 states — follows you wherever your work takes you</li>
                 <li>No scheduling conflicts — same-day visits, evenings &amp; weekends</li>
                 <li>Prescriptions sent to any pharmacy near you</li>
                 <li>Transparent cash-pay pricing starting at $79</li>
@@ -191,7 +191,7 @@ export default function GigWorkersPage() {
               <div className="tdmd-hero-card">
                 <h2>Why Gig Workers Choose TeleDirectMD</h2>
                 <ul>
-                  <li>See a doctor from your car, home, or wherever you work in 41 states</li>
+                  <li>See a doctor from your car, home, or wherever you work in 43 states</li>
                   <li>Get prescriptions sent to any pharmacy near you — including 24-hour locations</li>
                   <li>No insurance required — transparent cash-pay pricing starting at $79</li>
                   <li>No scheduling conflicts — same-day visits, evenings &amp; weekends</li>
@@ -235,7 +235,7 @@ export default function GigWorkersPage() {
           <div className="tdmd-grid tdmd-grid-2">
             <div className="tdmd-card tdmd-card-good">
               <h3>41-State Coverage</h3>
-              <p>Work in multiple cities or states? TeleDirectMD is licensed in 41 states, meaning the same board-certified physician can see you wherever you are working — no need to find a new provider every time you cross a state line or pick up work in a new market.</p>
+              <p>Work in multiple cities or states? TeleDirectMD is licensed in 43 states, meaning the same board-certified physician can see you wherever you are working — no need to find a new provider every time you cross a state line or pick up work in a new market.</p>
             </div>
             <div className="tdmd-card tdmd-card-good">
               <h3>Same-Day, Evenings &amp; Weekends</h3>
@@ -360,11 +360,11 @@ export default function GigWorkersPage() {
         <div className="tdmd-container">
           <h2>Who You're Seeing — A Real Doctor, Not an Algorithm</h2>
           <p>
-            When you visit TeleDirectMD, you're seeing a licensed, board-certified physician — not a physician assistant, not a nurse practitioner, not a chatbot. <a href="/about" style={{ color: 'var(--tdmd-navy)', fontWeight: 700 }}>Dr. Parth Bhavsar, MD</a>, is a board-certified family medicine physician licensed across 41 states, providing the same standard of care you'd receive in person.
+            When you visit TeleDirectMD, you're seeing a licensed, board-certified physician — not a physician assistant, not a nurse practitioner, not a chatbot. <a href="/about" style={{ color: 'var(--tdmd-navy)', fontWeight: 700 }}>Dr. Parth Bhavsar, MD</a>, is a board-certified family medicine physician licensed across 43 states, providing the same standard of care you'd receive in person.
           </p>
           <ul className="tdmd-hero-benefits">
             <li>Board-certified in Family Medicine</li>
-            <li>Licensed in 41 U.S. states</li>
+            <li>Licensed in 43 U.S. states</li>
             <li>HIPAA-compliant platform — your data is encrypted and protected</li>
             <li>TeleDirectMD does not sell or share your health information</li>
           </ul>
@@ -411,7 +411,7 @@ export default function GigWorkersPage() {
       <section className="tdmd-section" id="gig-workers-states">
         <div className="tdmd-container">
           <h2>Telehealth for Gig Workers — Available in These High-Activity States</h2>
-          <p>TeleDirectMD is licensed in 41 states. Here are some of the states with the highest gig worker populations where we can see you today:</p>
+          <p>TeleDirectMD is licensed in 43 states. Here are some of the states with the highest gig worker populations where we can see you today:</p>
           <div className="tdmd-other-states-grid">
             {featuredStates.map((s) => (
               <a key={s.slug} className="tdmd-other-state-link" href={`/${s.slug}`}>
@@ -420,7 +420,7 @@ export default function GigWorkersPage() {
             ))}
           </div>
           <p style={{ marginTop: '0.75rem' }}>
-            <a href="/states-we-serve" style={{ color: 'var(--tdmd-navy)', fontWeight: 700, textDecoration: 'underline' }}>View all 41 states we serve →</a>
+            <a href="/states-we-serve" style={{ color: 'var(--tdmd-navy)', fontWeight: 700, textDecoration: 'underline' }}>View all 43 states we serve →</a>
           </p>
         </div>
       </section>

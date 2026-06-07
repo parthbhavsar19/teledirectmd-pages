@@ -172,7 +172,7 @@ export default function BriefPage() {
             <div className="tdmd-emp-author" style={{ maxWidth: 820, margin: '0 auto' }}>
               <h2 style={{ marginBottom: '0.5rem' }}>Authored by Parth Bhavsar, MD</h2>
               <p style={{ color: 'var(--tdmd-muted)', fontSize: '1.0625rem' }}>
-                Board-Certified Family Medicine Physician. Founder of TeleDirectMD. Residency: University of Mississippi Medical Center (UMMC), 2021. Licensed in 41 states + DC. NPI 1104323203. 5.0&star; across 125 verified reviews on Healthgrades, ZocDoc, WebMD, and Google.
+                Board-Certified Family Medicine Physician. Founder of TeleDirectMD. Residency: University of Mississippi Medical Center (UMMC), 2021. Licensed in 43 states + DC. NPI 1104323203. 5.0&star; across 125 verified reviews on Healthgrades, ZocDoc, WebMD, and Google.
               </p>
               <p style={{ color: 'var(--tdmd-muted)', fontSize: '0.95rem', marginTop: '1rem' }}>
                 <strong style={{ color: 'var(--tdmd-navy)' }}>Physician roster expanding.</strong> TeleDirectMD is currently expanding the physician roster to add capacity across the service area. Brokers and employers evaluating multi-state rollouts can ask for the current state-coverage roster on a discovery call.
@@ -203,7 +203,7 @@ export default function BriefPage() {
           </div>
           <div className="tdmd-emp-compliance-block">
             <h4>Provider identity</h4>
-            <p>Brief authored by Parth Bhavsar, MD — Board-Certified Family Medicine Physician · NPI 1104323203 · Residency: University of Mississippi Medical Center, 2021 · Licensed in 41 states + DC.</p>
+            <p>Brief authored by Parth Bhavsar, MD — Board-Certified Family Medicine Physician · NPI 1104323203 · Residency: University of Mississippi Medical Center, 2021 · Licensed in 43 states + DC.</p>
           </div>
         </div>
       </section>

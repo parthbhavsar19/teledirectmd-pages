@@ -10,7 +10,7 @@ export default function TravelNursesPage() {
     { name: 'Respiratory Infections / Common Cold', slug: 'common-cold-treatment-online', desc: 'Upper respiratory infection and common cold treatment — because healthcare workers are exposed to more pathogens than almost anyone, and you still need to show up tomorrow.' },
     { name: 'Anxiety / Stress Management', slug: 'performance-anxiety-treatment-online', desc: 'Support for anxiety and stress related to the unique pressures of travel nursing — constant relocation, isolation from support networks, and assignment transitions.' },
     { name: 'Migraines', slug: 'migraine-refills-online', desc: 'Prescription migraine refills and treatment — no need to find a new neurologist every quarter. Your physician knows your history and can continue your regimen.' },
-    { name: 'Hypertension / High Blood Pressure', slug: 'hypertension-refills-online', desc: 'Blood pressure medication refills across all 41 states we serve — no lapse in your regimen when you start a new assignment in a new state.' },
+    { name: 'Hypertension / High Blood Pressure', slug: 'hypertension-refills-online', desc: 'Blood pressure medication refills across all 43 states we serve — no lapse in your regimen when you start a new assignment in a new state.' },
     { name: 'Hypothyroidism Refills', slug: 'hypothyroidism-refills-online', desc: 'Thyroid medication refills and management — consistent care regardless of which state you\'re assigned to this quarter.' },
     { name: 'Acid Reflux / GERD', slug: 'acid-reflux-refills-online', desc: 'Ongoing medication management for heartburn and reflux — common among nurses working long shifts with irregular meal schedules.' },
     { name: 'Seasonal Allergies', slug: 'seasonal-allergies-treatment-online', desc: 'Allergy evaluation and prescription treatment — every new state brings a new pollen season and different environmental triggers.' },
@@ -31,7 +31,7 @@ export default function TravelNursesPage() {
   const faqItems = [
     {
       q: 'Can TeleDirectMD treat me if I\'m on assignment in a different state?',
-      a: 'Yes — as long as you are physically located in one of our 41 licensed states at the time of your visit, you can be seen. You do not need to be a resident of the state. Travel nurses are among the most mobile patients in the country, and TeleDirectMD was designed for exactly this situation. Whether you\'re on your third assignment in 18 months or just arrived in a new city this week, you don\'t need an established physician relationship to get care. Just tell us which state you\'re currently in and we\'ll confirm eligibility before you book.'
+      a: 'Yes — as long as you are physically located in one of our 43 licensed states at the time of your visit, you can be seen. You do not need to be a resident of the state. Travel nurses are among the most mobile patients in the country, and TeleDirectMD was designed for exactly this situation. Whether you\'re on your third assignment in 18 months or just arrived in a new city this week, you don\'t need an established physician relationship to get care. Just tell us which state you\'re currently in and we\'ll confirm eligibility before you book.'
     },
     {
       q: 'Do I need insurance to use TeleDirectMD as a travel nurse?',
@@ -47,7 +47,7 @@ export default function TravelNursesPage() {
     },
     {
       q: 'Can I see the same doctor for every assignment regardless of state?',
-      a: 'Yes, that\'s one of the primary advantages TeleDirectMD offers travel nurses. Dr. Parth Bhavsar, MD, is board-certified in Family Medicine and licensed in 41 states. That means the same physician who treated your sinus infection in Texas can manage your prescription refill when you\'re on assignment in Florida three months later — without requiring you to repeat your health history or re-establish care with a new provider. Continuity of care is rare for travel nurses, and TeleDirectMD is one of the few options that makes it possible.'
+      a: 'Yes, that\'s one of the primary advantages TeleDirectMD offers travel nurses. Dr. Parth Bhavsar, MD, is board-certified in Family Medicine and licensed in 43 states. That means the same physician who treated your sinus infection in Texas can manage your prescription refill when you\'re on assignment in Florida three months later — without requiring you to repeat your health history or re-establish care with a new provider. Continuity of care is rare for travel nurses, and TeleDirectMD is one of the few options that makes it possible.'
     },
     {
       q: 'What conditions can TeleDirectMD treat via telehealth?',
@@ -117,7 +117,7 @@ export default function TravelNursesPage() {
         "@id": `${pageUrl}#webpage`,
         "url": pageUrl,
         "name": "Telehealth for Travel Nurses: Care in Every State You Work",
-        "description": "TeleDirectMD offers telehealth for travel nurses across 41 states — same board-certified physician regardless of your assignment location. Prescription refills, acute care, and chronic condition management. Same-day visits, evenings & weekends. Starting at $79.",
+        "description": "TeleDirectMD offers telehealth for travel nurses across 43 states — same board-certified physician regardless of your assignment location. Prescription refills, acute care, and chronic condition management. Same-day visits, evenings & weekends. Starting at $79.",
         "inLanguage": "en-US",
         "breadcrumb": { "@id": `${pageUrl}#breadcrumbs` },
         "author": { "@id": `${baseUrl}/about#physician` },
@@ -164,13 +164,13 @@ export default function TravelNursesPage() {
           <div className="tdmd-hero-grid">
             <div className="tdmd-hero-copy">
               <h1>Telehealth for Travel Nurses: Care in Every State You Work</h1>
-              <p className="tdmd-hero-sub">Board-certified physician in 41 states. One consistent doctor — regardless of which assignment you're on. Same-day visits, evenings &amp; weekends.</p>
+              <p className="tdmd-hero-sub">Board-certified physician in 43 states. One consistent doctor — regardless of which assignment you're on. Same-day visits, evenings &amp; weekends.</p>
               <p>
-                There are more than 175,000 travel nurses actively on assignment across the United States, cycling through 13-week contracts that take them from Texas to Florida to North Carolina and back. Travel nurses spend their careers taking care of patients — but struggle to access consistent care for themselves. Every new assignment means a new city, a new state, and no established physician. Finding a new primary care doctor every quarter isn't practical. TeleDirectMD provides a consistent, board-certified physician licensed across 41 states — so the same doctor who treated your sinus infection in Georgia is the same one who refills your prescription in Arizona three months later.
+                There are more than 175,000 travel nurses actively on assignment across the United States, cycling through 13-week contracts that take them from Texas to Florida to North Carolina and back. Travel nurses spend their careers taking care of patients — but struggle to access consistent care for themselves. Every new assignment means a new city, a new state, and no established physician. Finding a new primary care doctor every quarter isn't practical. TeleDirectMD provides a consistent, board-certified physician licensed across 43 states — so the same doctor who treated your sinus infection in Georgia is the same one who refills your prescription in Arizona three months later.
               </p>
               <ul className="tdmd-hero-benefits">
                 <li>Board-certified Family Medicine physician — not a PA, not an NP, not an algorithm</li>
-                <li>Licensed in 41 states — the same physician follows you across every assignment</li>
+                <li>Licensed in 43 states — the same physician follows you across every assignment</li>
                 <li>Prescription refills for chronic conditions — no lapse between assignments</li>
                 <li>Same-day visits, evenings &amp; weekends — fits your shift schedule</li>
                 <li>Transparent cash-pay pricing starting at $79 — insurance accepted in select states</li>
@@ -191,7 +191,7 @@ export default function TravelNursesPage() {
               <div className="tdmd-hero-card">
                 <h2>Why Travel Nurses Choose TeleDirectMD</h2>
                 <ul>
-                  <li>One physician, 41 states — continuity of care across every assignment</li>
+                  <li>One physician, 43 states — continuity of care across every assignment</li>
                   <li>Prescription refills sent to any pharmacy near your current assignment</li>
                   <li>No insurance required — cash-pay pricing starting at $79</li>
                   <li>Same-day visits, evenings &amp; weekends — fits your shift schedule</li>
@@ -234,8 +234,8 @@ export default function TravelNursesPage() {
           </p>
           <div className="tdmd-grid tdmd-grid-2">
             <div className="tdmd-card tdmd-card-good">
-              <h3>One Physician Across 41 States</h3>
-              <p>Dr. Parth Bhavsar, MD, is board-certified in Family Medicine and licensed in 41 states — including the most common travel nurse assignment destinations: Texas, California, Florida, North Carolina, Georgia, Tennessee, and Arizona. The same physician who knows your health history can see you whether you're starting your next assignment or wrapping up your current one.</p>
+              <h3>One Physician Across 43 States</h3>
+              <p>Dr. Parth Bhavsar, MD, is board-certified in Family Medicine and licensed in 43 states — including the most common travel nurse assignment destinations: Texas, California, Florida, North Carolina, Georgia, Tennessee, and Arizona. The same physician who knows your health history can see you whether you're starting your next assignment or wrapping up your current one.</p>
             </div>
             <div className="tdmd-card tdmd-card-good">
               <h3>Prescription Continuity Between Assignments</h3>
@@ -361,11 +361,11 @@ export default function TravelNursesPage() {
         <div className="tdmd-container">
           <h2>Who You're Seeing — A Real Doctor Who Knows Your History</h2>
           <p>
-            As a travel nurse, you know the difference between seeing a physician and seeing a mid-level provider. When you visit TeleDirectMD, you're seeing a licensed, board-certified physician — not a physician assistant, not a nurse practitioner, not a chatbot. <a href="/about" style={{ color: 'var(--tdmd-navy)', fontWeight: 700 }}>Dr. Parth Bhavsar, MD</a>, is board-certified in Family Medicine and licensed across 41 states. He provides the same standard of care you'd receive from an established PCP — including the clinical knowledge that comes from seeing you consistently over time.
+            As a travel nurse, you know the difference between seeing a physician and seeing a mid-level provider. When you visit TeleDirectMD, you're seeing a licensed, board-certified physician — not a physician assistant, not a nurse practitioner, not a chatbot. <a href="/about" style={{ color: 'var(--tdmd-navy)', fontWeight: 700 }}>Dr. Parth Bhavsar, MD</a>, is board-certified in Family Medicine and licensed across 43 states. He provides the same standard of care you'd receive from an established PCP — including the clinical knowledge that comes from seeing you consistently over time.
           </p>
           <ul className="tdmd-hero-benefits">
             <li>Board-certified in Family Medicine — a real physician, not a PA or NP</li>
-            <li>Licensed in 41 U.S. states — same physician across every assignment</li>
+            <li>Licensed in 43 U.S. states — same physician across every assignment</li>
             <li>HIPAA-compliant platform — encrypted visits, secure medical records</li>
             <li>LegitScript certified — a recognized mark of telehealth compliance</li>
             <li>TeleDirectMD does not sell or share your health information</li>
@@ -398,7 +398,7 @@ export default function TravelNursesPage() {
         <div className="tdmd-container">
           <div className="tdmd-bottom-cta">
             <div className="tdmd-bottom-cta-copy">
-              <h3>The same doctor. Every assignment. All 41 states.</h3>
+              <h3>The same doctor. Every assignment. All 43 states.</h3>
               <p>Request a same-day visit, connect with a board-certified Family Medicine physician, and get prescriptions sent to the pharmacy nearest to your current assignment — whether you're in week one or week twelve.</p>
             </div>
             <div className="tdmd-bottom-cta-actions">
@@ -413,7 +413,7 @@ export default function TravelNursesPage() {
       <section className="tdmd-section" id="travel-nurses-states">
         <div className="tdmd-container">
           <h2>Telehealth for Travel Nurses — Available in Top Assignment States</h2>
-          <p>TeleDirectMD is licensed in 41 states, including the most popular travel nurse assignment destinations. Here are high-demand states where we can see you today:</p>
+          <p>TeleDirectMD is licensed in 43 states, including the most popular travel nurse assignment destinations. Here are high-demand states where we can see you today:</p>
           <div className="tdmd-other-states-grid">
             {featuredStates.map((s) => (
               <a key={s.slug} className="tdmd-other-state-link" href={`/${s.slug}`}>
@@ -422,7 +422,7 @@ export default function TravelNursesPage() {
             ))}
           </div>
           <p style={{ marginTop: '0.75rem' }}>
-            <a href="/states-we-serve" style={{ color: 'var(--tdmd-navy)', fontWeight: 700, textDecoration: 'underline' }}>View all 41 states we serve →</a>
+            <a href="/states-we-serve" style={{ color: 'var(--tdmd-navy)', fontWeight: 700, textDecoration: 'underline' }}>View all 43 states we serve →</a>
           </p>
         </div>
       </section>

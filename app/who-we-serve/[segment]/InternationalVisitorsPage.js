@@ -35,7 +35,7 @@ export default function InternationalVisitorsPage() {
     },
     {
       question: 'Which states is TeleDirectMD available in for international visitors?',
-      answer: 'TeleDirectMD is licensed in 42 US states. You can be seen by Dr. Bhavsar as long as you are physically located in one of our covered states at the time of the visit. This includes all major tourist destinations — Florida, California, New York, Texas, Nevada, Hawaii, Georgia, and more.'
+      answer: 'TeleDirectMD is licensed in 43 US states. You can be seen by Dr. Bhavsar as long as you are physically located in one of our covered states at the time of the visit. This includes all major tourist destinations — Florida, California, New York, Texas, Nevada, Hawaii, Georgia, and more.'
     },
     {
       question: 'Can you send a prescription to a pharmacy near me?',
@@ -55,7 +55,7 @@ export default function InternationalVisitorsPage() {
     },
     {
       question: 'Is a telehealth visit with TeleDirectMD legitimate medical care?',
-      answer: 'Yes. TeleDirectMD is operated by Dr. Parth Bhavsar, MD, a board-certified Family Medicine physician licensed in 42 US states. Prescriptions issued through TeleDirectMD are valid at any US pharmacy. Your visit is documented in a HIPAA-compliant medical record system, and you can receive a visit summary to share with your home-country physician if needed.'
+      answer: 'Yes. TeleDirectMD is operated by Dr. Parth Bhavsar, MD, a board-certified Family Medicine physician licensed in 43 US states. Prescriptions issued through TeleDirectMD are valid at any US pharmacy. Your visit is documented in a HIPAA-compliant medical record system, and you can receive a visit summary to share with your home-country physician if needed.'
     },
   ];
 
@@ -150,7 +150,7 @@ export default function InternationalVisitorsPage() {
         "@id": `${pageUrl}#webpage`,
         "url": pageUrl,
         "name": "Online Doctor for International Visitors & Tourists in the USA",
-        "description": "TeleDirectMD provides $79 flat-fee telehealth visits to international visitors and tourists in the USA. No US insurance required. Available in 42 states.",
+        "description": "TeleDirectMD provides $79 flat-fee telehealth visits to international visitors and tourists in the USA. No US insurance required. Available in 43 states.",
         "datePublished": "2026-04-20",
         "dateModified": today,
         "author": { "@type": "Physician", "name": "Parth Bhavsar, MD" },
@@ -192,7 +192,7 @@ export default function InternationalVisitorsPage() {
             Online doctor for international visitors to the USA:
           </p>
           <p style={{ margin: '0.35rem 0 0', color: '#003E52', fontSize: '0.97rem' }}>
-            TeleDirectMD offers same-day video visits with a board-certified US physician for $79 flat — no US insurance required, available in 42 states. Get a diagnosis and prescription sent to a nearby pharmacy without leaving your hotel or vacation rental.
+            TeleDirectMD offers same-day video visits with a board-certified US physician for $79 flat — no US insurance required, available in 43 states. Get a diagnosis and prescription sent to a nearby pharmacy without leaving your hotel or vacation rental.
           </p>
         </div>
       </div>
@@ -204,7 +204,7 @@ export default function InternationalVisitorsPage() {
             <div className="tdmd-hero-copy">
               <h1>Online Doctor for International Visitors &amp; Tourists in the USA — No US Insurance Required</h1>
               <p className="tdmd-hero-sub">
-                Visiting the US and need a doctor? TeleDirectMD connects you with a board-certified US physician via secure video — from your hotel room, vacation rental, or anywhere in 42 states.
+                Visiting the US and need a doctor? TeleDirectMD connects you with a board-certified US physician via secure video — from your hotel room, vacation rental, or anywhere in 43 states.
               </p>
               <p>
                 Whether you're here on vacation, a business trip, visiting family, or studying on an F-1 visa, getting sick in the US without domestic insurance can be stressful and expensive. TeleDirectMD was built for exactly this situation: fast, legitimate medical care at a flat $79 fee — with no billing surprises.
@@ -235,7 +235,7 @@ export default function InternationalVisitorsPage() {
               <ul className="tdmd-hero-benefits">
                 <li>No US health insurance required — ever</li>
                 <li>$79 flat fee vs. $250–$350 for a cash-pay in-person US doctor visit</li>
-                <li>Available in 42 states — all major tourist and business destinations covered</li>
+                <li>Available in 43 states — all major tourist and business destinations covered</li>
                 <li>Prescriptions sent to any US pharmacy: CVS, Walgreens, Walmart, Rite Aid, and more</li>
                 <li>Same-day visits, evenings &amp; weekends available</li>
                 <li>HIPAA-compliant records — visit summary suitable for travel insurance reimbursement</li>
@@ -256,7 +256,7 @@ export default function InternationalVisitorsPage() {
                   <li>Video visit with board-certified MD (Dr. Parth Bhavsar)</li>
                   <li>Prescriptions sent to any US pharmacy</li>
                   <li>No US insurance required</li>
-                  <li>Available in 42 US states</li>
+                  <li>Available in 43 US states</li>
                   <li>Same-day appointments, evenings &amp; weekends</li>
                   <li>HIPAA-compliant visit records</li>
                 </ul>
@@ -275,7 +275,7 @@ export default function InternationalVisitorsPage() {
             <div className="tdmd-card tdmd-card-good">
               <h3>You Are Eligible If</h3>
               <ul className="tdmd-checklist tdmd-checklist--good">
-                <li>You are physically located in one of our 42 licensed states at the time of the visit</li>
+                <li>You are physically located in one of our 43 licensed states at the time of the visit</li>
                 <li>You are 18 years of age or older</li>
                 <li>You have a non-emergency condition (UTI, sinus infection, strep, rash, traveler's diarrhea, allergies, refills, etc.)</li>
                 <li>You have a smartphone or computer with camera and internet access</li>
@@ -342,7 +342,7 @@ export default function InternationalVisitorsPage() {
             Yes — telehealth care through TeleDirectMD is fully legal and available to any person physically located in a licensed US state, regardless of visa status, citizenship, or insurance coverage. The key regulatory rule is straightforward: the treating physician must be licensed in the state where the <strong>patient is physically located</strong> at the time of the visit.
           </p>
           <p>
-            Dr. Parth Bhavsar, MD is licensed in 42 US states. When you connect with TeleDirectMD, your visit is conducted under the laws of the state you are in — your nationality, immigration status, and home-country insurance have no bearing on your eligibility for care.
+            Dr. Parth Bhavsar, MD is licensed in 43 US states. When you connect with TeleDirectMD, your visit is conducted under the laws of the state you are in — your nationality, immigration status, and home-country insurance have no bearing on your eligibility for care.
           </p>
           <p>
             Prescriptions issued through TeleDirectMD are valid at any US pharmacy and are governed by US federal and state pharmacy law — the same as any prescription from an in-person physician visit. There is no legal distinction between a telehealth prescription and one written in a clinic.
@@ -655,7 +655,7 @@ export default function InternationalVisitorsPage() {
         <div className="tdmd-container">
           <h2>What TeleDirectMD Provides</h2>
           <p>
-            Every TeleDirectMD visit is conducted by Dr. Parth Bhavsar, MD — board-certified in Family Medicine, residency-trained at the University of Mississippi Medical Center, and licensed in 42 US states. Here is what your $79 visit includes:
+            Every TeleDirectMD visit is conducted by Dr. Parth Bhavsar, MD — board-certified in Family Medicine, residency-trained at the University of Mississippi Medical Center, and licensed in 43 US states. Here is what your $79 visit includes:
           </p>
 
           <h3>Diagnosis &amp; Treatment Plan</h3>
@@ -899,9 +899,9 @@ export default function InternationalVisitorsPage() {
       {/* Section 21: States Grid */}
       <section className="tdmd-section" id={`${pid}-states`}>
         <div className="tdmd-container">
-          <h2>Available in 42 States — Wherever Your Trip Takes You</h2>
+          <h2>Available in 43 States — Wherever Your Trip Takes You</h2>
           <p>
-            TeleDirectMD is licensed in 42 US states. Whether you're visiting New York City, the Florida Keys, the California coast, or any destination in between, you can access board-certified care from where you are. Select your state for location-specific information:
+            TeleDirectMD is licensed in 43 US states. Whether you're visiting New York City, the Florida Keys, the California coast, or any destination in between, you can access board-certified care from where you are. Select your state for location-specific information:
           </p>
           <div className="tdmd-other-states-grid">
             {allStates.map(s => (
@@ -920,7 +920,7 @@ export default function InternationalVisitorsPage() {
           <div className="tdmd-related-grid">
             <a href="/who-we-serve/college-students" className="tdmd-related-card">
               <div className="tdmd-related-title">College Students</div>
-              <div className="tdmd-related-desc">Away at school and need a doctor? Same-day visits, 42 states.</div>
+              <div className="tdmd-related-desc">Away at school and need a doctor? Same-day visits, 43 states.</div>
             </a>
             <a href="/who-we-serve/early-retirees" className="tdmd-related-card">
               <div className="tdmd-related-title">Early Retirees</div>
@@ -940,7 +940,7 @@ export default function InternationalVisitorsPage() {
             </a>
             <a href="/who-we-serve/truck-drivers" className="tdmd-related-card">
               <div className="tdmd-related-title">Truck Drivers</div>
-              <div className="tdmd-related-desc">Care from any truck stop in 42 states.</div>
+              <div className="tdmd-related-desc">Care from any truck stop in 43 states.</div>
             </a>
           </div>
 

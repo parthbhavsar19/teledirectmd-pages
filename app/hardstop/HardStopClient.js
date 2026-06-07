@@ -390,7 +390,7 @@ export default function HardStopClient() {
         <div style={styles.npiLine}>
           TeleDirectMD is a service of Mahavir Health Services LLC. Care
           provided by a board-certified family medicine physician · NPI
-          1104323203. Licensed in 41 states + DC. Telehealth services are not a
+          1104323203. Licensed in 43 states + DC. Telehealth services are not a
           substitute for emergency care.
         </div>
 

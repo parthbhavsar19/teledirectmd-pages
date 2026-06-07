@@ -66,7 +66,7 @@ const FAQS = [
   {
     question: 'Is TeleDirectMD expanding to new states?',
     answer:
-      'Yes. TeleDirectMD is actively pursuing additional state medical licenses and insurance contracts. The practice currently serves 42 states + Washington DC. Expansions to additional states will be announced on this news page when they are completed. Patients in currently unserved states (AK, HI, NY, MA, RI, VT, NM, OR, AR) can check back periodically or contact the practice directly for an update on their state.',
+      'Yes. TeleDirectMD is actively pursuing additional state medical licenses and insurance contracts. The practice currently serves 43 states + Washington DC. Expansions to additional states will be announced on this news page when they are completed. Patients in currently unserved states (AK, HI, NY, MA, RI, NM, OR, AR) can check back periodically or contact the practice directly for an update on their state.',
   },
   {
     question: 'What is TeleDirectMD\'s position on telehealth regulation?',
@@ -304,7 +304,7 @@ export default function NewsHubPage() {
           <div className="nws-timeline">
             {[
               { date: 'May 2026', title: 'Aetna California in-network', desc: 'TeleDirectMD becomes in-network with Aetna commercial plans in California, effective April 30, 2026. Expands Aetna coverage to California adults across all California markets.' },
-              { date: 'Spring 2026', title: '42 states + DC covered', desc: 'Telehealth licensure expands to 42 states and Washington DC, making TeleDirectMD available to a majority of US adults. Select insurance now accepted in multiple states.' },
+              { date: 'Spring 2026', title: '43 states + DC covered', desc: 'Telehealth licensure expands to 43 states and Washington DC, making TeleDirectMD available to a majority of US adults. Select insurance now accepted in multiple states.' },
               { date: '2026', title: 'LegitScript certified', desc: 'TeleDirectMD receives LegitScript certification, an independent verification of compliant and ethical online pharmacy and telemedicine practices.' },
               { date: '2025\u20132026', title: 'Media expert commentary', desc: 'Dr. Bhavsar quoted as medical expert in 21+ national publications including TIME, Newsweek, HuffPost, U.S. News, Fox News Digital, and NY Post.' },
               { date: '2025', title: 'BCBS and UHC partnerships', desc: 'TeleDirectMD establishes in-network relationships with Blue Cross Blue Shield and UnitedHealthcare commercial plans in select states, expanding insurance options for patients.' },

@@ -10,7 +10,7 @@ export default function SiteFooter() {
               <img src="/logo-white.webp" alt="TeleDirectMD" width="140" height="140" />
             </a>
             <p className="tdmd-footer-desc">
-              Board-certified family medicine physician. $79 flat-fee virtual visits across 41 states + DC. Insurance accepted in select states. Employer plans available.
+              Board-certified family medicine physician. $79 flat-fee virtual visits across 43 states + DC. Insurance accepted in select states. Employer plans available.
             </p>
             <a href="/book-online" className="tdmd-footer-cta">Book a Visit →</a>
           </div>

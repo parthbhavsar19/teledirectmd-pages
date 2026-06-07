@@ -4,7 +4,7 @@ import { getAggregateRating, getReviewBlock } from '../lib/review-schema';
 export const metadata = {
   title: 'TeleDirectMD | $79 Online Doctor Visits — Board-Certified Telehealth',
   description:
-    'See a board-certified family medicine doctor from home for just $79. No insurance needed. Treat 60+ conditions including urgent care, skin issues, STIs, and chronic refills. Licensed in 42 states + DC.',
+    'See a board-certified family medicine doctor from home for just $79. No insurance needed. Treat 60+ conditions including urgent care, skin issues, STIs, and chronic refills. Licensed in 43 states + DC.',
   alternates: { canonical: 'https://teledirectmd.com/' },
   openGraph: {
     title: 'TeleDirectMD | $79 Online Doctor Visits',
@@ -26,7 +26,7 @@ export const metadata = {
     card: 'summary_large_image',
     title: 'TeleDirectMD | $79 Online Doctor Visits',
     description:
-      'Board-certified telehealth for $79. No insurance needed. 60+ conditions treated across 42 states + DC.',
+      'Board-certified telehealth for $79. No insurance needed. 60+ conditions treated across 43 states + DC.',
     images: ['https://teledirectmd.com/images/dr-parth-bhavsar.jpg'],
   },
 };
@@ -42,7 +42,7 @@ const jsonLd = {
       logo: 'https://teledirectmd.com/logo.webp',
       image: 'https://teledirectmd.com/images/dr-parth-bhavsar.jpg',
       description:
-        'TeleDirectMD is a physician-led telehealth practice providing $79 flat-fee virtual visits with a board-certified family medicine doctor across 42 states and DC.',
+        'TeleDirectMD is a physician-led telehealth practice providing $79 flat-fee virtual visits with a board-certified family medicine doctor across 43 states and DC.',
       telephone: '678-956-1855',
       email: 'contact@teledirectmd.com',
       priceRange: '$79',
@@ -169,7 +169,7 @@ const jsonLd = {
       '@id': 'https://teledirectmd.com/#website',
       url: 'https://teledirectmd.com/',
       name: 'TeleDirectMD',
-      description: 'Physician-led telehealth platform offering $79 board-certified online doctor visits in 42 US states + DC.',
+      description: 'Physician-led telehealth platform offering $79 board-certified online doctor visits in 43 US states + DC.',
       publisher: { '@id': 'https://teledirectmd.com/#organization' },
       inLanguage: 'en-US',
       potentialAction: {

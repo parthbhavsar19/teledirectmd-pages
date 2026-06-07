@@ -80,7 +80,7 @@ export function buildIndustryJsonLd(industry) {
         '@id': `${url}#service`,
         serviceType: `${industry.name} Telehealth Benefit`,
         provider: { '@id': `${SITE}/#organization` },
-        description: `Direct-pay virtual care endorsed by ${industry.name.toLowerCase()} employers for their adult workforce (18+). Zero employer cost. Employees access a preferred employer per-visit rate (set in the partnership agreement) or use BCBS, Aetna, or UnitedHealthcare in-network. Board-certified family medicine physician. 41 states + DC, with the physician roster currently expanding.`,
+        description: `Direct-pay virtual care endorsed by ${industry.name.toLowerCase()} employers for their adult workforce (18+). Zero employer cost. Employees access a preferred employer per-visit rate (set in the partnership agreement) or use BCBS, Aetna, or UnitedHealthcare in-network. Board-certified family medicine physician. 43 states + DC, with the physician roster currently expanding.`,
         audience: {
           '@type': 'BusinessAudience',
           audienceType: industry.audienceLabel,

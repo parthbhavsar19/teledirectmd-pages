@@ -20,7 +20,7 @@ export default function MilitaryFamiliesPage() {
   const faqItems = [
     {
       q: 'My spouse just separated from the military and TRICARE has ended. What are our options?',
-      a: 'After TRICARE ends, you have several options: TAMP (180 days transitional coverage for qualifying separations), the ACA marketplace, or employer coverage once your spouse starts a new job. During any gap period — or for visits where direct-pay is faster — TeleDirectMD offers $79 flat-fee telehealth visits with no insurance required. We serve 42 states so we\'re available wherever you land during the transition.'
+      a: 'After TRICARE ends, you have several options: TAMP (180 days transitional coverage for qualifying separations), the ACA marketplace, or employer coverage once your spouse starts a new job. During any gap period — or for visits where direct-pay is faster — TeleDirectMD offers $79 flat-fee telehealth visits with no insurance required. We serve 43 states so we\'re available wherever you land during the transition.'
     },
     {
       q: 'We just PCS\'d and I can\'t get a primary care appointment for 8 weeks. Can you help?',
@@ -40,7 +40,7 @@ export default function MilitaryFamiliesPage() {
     },
     {
       q: 'What states is TeleDirectMD licensed in?',
-      a: 'TeleDirectMD is licensed in 42 US states, covering virtually every major military installation location — Georgia (Fort Moore, Fort Stewart), North Carolina (Fort Bragg, Camp Lejeune), Texas (Fort Hood, Fort Sam Houston), Florida (MacDill, Eglin, Hurlburt), Virginia (Quantico, Fort Belvoir), Colorado (Fort Carson, Peterson), Washington (Joint Base Lewis-McChord), and more.'
+      a: 'TeleDirectMD is licensed in 43 US states, covering virtually every major military installation location — Georgia (Fort Moore, Fort Stewart), North Carolina (Fort Bragg, Camp Lejeune), Texas (Fort Hood, Fort Sam Houston), Florida (MacDill, Eglin, Hurlburt), Virginia (Quantico, Fort Belvoir), Colorado (Fort Carson, Peterson), Washington (Joint Base Lewis-McChord), and more.'
     },
     {
       q: 'My family just moved to a rural area near a base with limited medical access. Can telehealth help?',
@@ -137,7 +137,7 @@ export default function MilitaryFamiliesPage() {
         "@id": `${pageUrl}#webpage`,
         "url": pageUrl,
         "name": "Telehealth for Military Families — Coverage When TRICARE Has Gaps",
-        "description": "TeleDirectMD fills TRICARE gaps for military families during separation, PCS moves, and Reserve/Guard transitions. $79 flat-fee telehealth in 42 states near every major installation. No insurance required.",
+        "description": "TeleDirectMD fills TRICARE gaps for military families during separation, PCS moves, and Reserve/Guard transitions. $79 flat-fee telehealth in 43 states near every major installation. No insurance required.",
         "datePublished": "2026-04-20",
         "dateModified": today,
         "author": { "@type": "Physician", "name": "Parth Bhavsar, MD" },
@@ -172,7 +172,7 @@ export default function MilitaryFamiliesPage() {
             Telehealth for military families when TRICARE has gaps:
           </p>
           <p style={{ margin: '0.35rem 0 0', color: '#003E52', fontSize: '0.97rem' }}>
-            TeleDirectMD provides $79 flat-fee video visits for military families during separation, PCS moves, and Reserve/Guard activation gaps — prescription bridge refills for blood pressure, thyroid, cholesterol, and anxiety, plus acute care for UTIs, sinus infections, and respiratory illness, in 42 states with no insurance required.
+            TeleDirectMD provides $79 flat-fee video visits for military families during separation, PCS moves, and Reserve/Guard activation gaps — prescription bridge refills for blood pressure, thyroid, cholesterol, and anxiety, plus acute care for UTIs, sinus infections, and respiratory illness, in 43 states with no insurance required.
           </p>
         </div>
       </div>
@@ -184,10 +184,10 @@ export default function MilitaryFamiliesPage() {
             <div className="tdmd-hero-copy">
               <h1>Telehealth for Military Families — Prescription Bridge &amp; Acute Care When TRICARE Has Gaps</h1>
               <p className="tdmd-hero-sub">
-                TRICARE is excellent — when it's active. But separation, PCS moves, and Reserve/Guard transitions create real coverage gaps. TeleDirectMD provides $79 flat-fee telehealth visits in 42 states — prescription bridge refills, acute care, no insurance required.
+                TRICARE is excellent — when it's active. But separation, PCS moves, and Reserve/Guard transitions create real coverage gaps. TeleDirectMD provides $79 flat-fee telehealth visits in 43 states — prescription bridge refills, acute care, no insurance required.
               </p>
               <p>
-                Military families face unique healthcare gaps that civilians rarely encounter: 200,000+ service members separate each year, PCS moves create provider waitlists of 6–10 weeks, and Reserve/Guard members cycle in and out of coverage between activation periods. TeleDirectMD exists for exactly these moments — board-certified Family Medicine, same-day availability, and prescription capability from anywhere in 42 states.
+                Military families face unique healthcare gaps that civilians rarely encounter: 200,000+ service members separate each year, PCS moves create provider waitlists of 6–10 weeks, and Reserve/Guard members cycle in and out of coverage between activation periods. TeleDirectMD exists for exactly these moments — board-certified Family Medicine, same-day availability, and prescription capability from anywhere in 43 states.
               </p>
               <nav className="tdmd-toc" aria-label="Page sections">
                 <p className="tdmd-toc-intro">On this page:</p>
@@ -208,7 +208,7 @@ export default function MilitaryFamiliesPage() {
                 <li>Bridge prescriptions (BP, thyroid, cholesterol, anxiety) during PCS — keep medications stable</li>
                 <li>No insurance required — $79 flat fee per visit, direct pay</li>
                 <li>Post-separation coverage when TRICARE and TAMP end</li>
-                <li>Licensed in 42 states — every major installation location covered</li>
+                <li>Licensed in 43 states — every major installation location covered</li>
                 <li>Same-day availability, evenings &amp; weekends</li>
                 <li>HIPAA-compliant visit records you can share with your new provider</li>
               </ul>
@@ -226,7 +226,7 @@ export default function MilitaryFamiliesPage() {
                   <li>Prescription bridge refills (BP, thyroid, cholesterol, anxiety)</li>
                   <li>Acute condition treatment (UTI, sinus, respiratory, skin)</li>
                   <li>No TRICARE required — direct-pay</li>
-                  <li>Available in 42 states near all major installations</li>
+                  <li>Available in 43 states near all major installations</li>
                   <li>Visit summary for your new provider's onboarding</li>
                 </ul>
                 <p className="tdmd-comparison-note">TeleDirectMD does not bill TRICARE directly. Some TRICARE plans may reimburse out-of-network. Check your plan.</p>
@@ -245,7 +245,7 @@ export default function MilitaryFamiliesPage() {
               <h3>&#10003; You Are Eligible If</h3>
               <ul className="tdmd-checklist tdmd-checklist--good">
                 <li>You are a military family member (active duty, Reserve/Guard, veteran) or dependent</li>
-                <li>You are physically located in one of our 42 licensed states at the time of the visit</li>
+                <li>You are physically located in one of our 43 licensed states at the time of the visit</li>
                 <li>Your TRICARE coverage has ended, lapsed, or is between activation periods</li>
                 <li>You are mid-PCS and your new TRICARE provider isn't accepting new patients yet</li>
                 <li>You need bridge prescriptions for ongoing medications (blood pressure, thyroid, cholesterol, anxiety, GERD)</li>
@@ -282,7 +282,7 @@ export default function MilitaryFamiliesPage() {
               <div className="tdmd-decision-number">2</div>
               <div className="tdmd-decision-content">
                 <h3>Intake &amp; Video Connect</h3>
-                <p>Bring your current medication list. Fill out the intake form and connect via secure video from your phone, anywhere in 42 states. Dr. Bhavsar reviews your history and conducts the evaluation.</p>
+                <p>Bring your current medication list. Fill out the intake form and connect via secure video from your phone, anywhere in 43 states. Dr. Bhavsar reviews your history and conducts the evaluation.</p>
               </div>
             </div>
             <div className="tdmd-decision-step tdmd-decision-step-good">
@@ -307,7 +307,7 @@ export default function MilitaryFamiliesPage() {
           <p>The problem: it's tied to service status. Separation ends TRICARE coverage immediately on the separation date. PCS moves disrupt existing provider relationships for 6–10 weeks or longer — the new base PCP may not be accepting new patients. Reserve/Guard coverage fluctuates between activation periods, leaving dependents uninsured during those gaps.</p>
           <p>TAMP — the Transitional Assistance Management Program — provides 180 days of transitional coverage for qualifying separation types. But not all separations qualify, and families who don't qualify face an immediate gap. Even for those who do qualify, TAMP eventually ends.</p>
           <p>The result: military families who are experts at navigating hardship often face a healthcare system that wasn't built for their transitions. Prescriptions lapse. Acute conditions go untreated. New PCPs have months-long waitlists.</p>
-          <p><strong>TeleDirectMD doesn't replace TRICARE. It bridges the gap</strong> — $79 flat-fee telehealth with a board-certified Family Medicine physician, available same-day in 42 states, no insurance required.</p>
+          <p><strong>TeleDirectMD doesn't replace TRICARE. It bridges the gap</strong> — $79 flat-fee telehealth with a board-certified Family Medicine physician, available same-day in 43 states, no insurance required.</p>
         </div>
       </section>
 
@@ -330,7 +330,7 @@ export default function MilitaryFamiliesPage() {
                   <td><strong>Post-Separation (after TAMP)</strong></td>
                   <td>Ended</td>
                   <td>No coverage; civilian plans not yet in place</td>
-                  <td>$79 direct-pay visits in 42 states, no insurance</td>
+                  <td>$79 direct-pay visits in 43 states, no insurance</td>
                 </tr>
                 <tr>
                   <td><strong>Mid-PCS Move</strong></td>
@@ -353,7 +353,7 @@ export default function MilitaryFamiliesPage() {
               </tbody>
             </table>
           </div>
-          <p className="tdmd-comparison-note">In every transition scenario, TeleDirectMD provides what TRICARE cannot in that moment: immediate access to a board-certified physician and prescriptions, from anywhere in 42 states.</p>
+          <p className="tdmd-comparison-note">In every transition scenario, TeleDirectMD provides what TRICARE cannot in that moment: immediate access to a board-certified physician and prescriptions, from anywhere in 43 states.</p>
         </div>
       </section>
 
@@ -467,7 +467,7 @@ export default function MilitaryFamiliesPage() {
           <h2>What Is the Military Healthcare Transition Gap?</h2>
           <p>Approximately 700,000 active duty service member families are part of a system that provides world-class coverage — but only when the conditions are right. Every year, 200,000+ service members separate, PCS families move to new installations, and Reserve/Guard members move in and out of activation cycles.</p>
           <p>Each transition creates a gap. Prescriptions lapse. New PCPs have waitlists of 6–12 weeks. TAMP provides a 180-day bridge for qualifying separations — but not all separations qualify, and even TAMP eventually expires. The gap is filled by urgent care visits, ER trips, and missed medications — not because families don't want care, but because the system wasn't designed for transitions.</p>
-          <p>TeleDirectMD was built for exactly this: board-certified Family Medicine, 42 states, $79 flat fee, and prescription capability the day you need it. Not a replacement for TRICARE — a bridge to keep you stable until TRICARE catches up.</p>
+          <p>TeleDirectMD was built for exactly this: board-certified Family Medicine, 43 states, $79 flat fee, and prescription capability the day you need it. Not a replacement for TRICARE — a bridge to keep you stable until TRICARE catches up.</p>
         </div>
       </section>
 
@@ -757,7 +757,7 @@ export default function MilitaryFamiliesPage() {
           <div className="tdmd-bottom-cta">
             <div className="tdmd-bottom-cta-copy">
               <h2>Your Family's Health Shouldn't Wait for TRICARE to Catch Up</h2>
-              <p>$79 flat-fee visits. Same-day availability. 42 states. No insurance required.</p>
+              <p>$79 flat-fee visits. Same-day availability. 43 states. No insurance required.</p>
             </div>
             <div className="tdmd-bottom-cta-actions">
               <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
@@ -793,7 +793,7 @@ export default function MilitaryFamiliesPage() {
       <section id={`${pid}-states`} className="tdmd-section tdmd-section-highlight">
         <div className="tdmd-container">
           <h2>Licensed Near Every Major Military Installation</h2>
-          <p>TeleDirectMD is licensed in 42 states — covering every major installation and the surrounding communities where military families live. Whether you're at Fort Moore in Georgia, Fort Bragg in North Carolina, Fort Hood in Texas, or JBLM in Washington, we're licensed where you are.</p>
+          <p>TeleDirectMD is licensed in 43 states — covering every major installation and the surrounding communities where military families live. Whether you're at Fort Moore in Georgia, Fort Bragg in North Carolina, Fort Hood in Texas, or JBLM in Washington, we're licensed where you are.</p>
           <div className="tdmd-other-states-grid">
             {allStates.map(s => (
               <a key={s.abbr} href={`/${s.abbr.toLowerCase()}`} className="tdmd-other-state-link">
@@ -831,7 +831,7 @@ export default function MilitaryFamiliesPage() {
             </div>
             <div className="tdmd-related-card">
               <p className="tdmd-related-title">Travel Nurses</p>
-              <p className="tdmd-related-desc">Same doctor across every assignment, 42 states.</p>
+              <p className="tdmd-related-desc">Same doctor across every assignment, 43 states.</p>
               <a href="/who-we-serve/travel-nurses" className="tdmd-btn tdmd-btn-outline">Learn More</a>
             </div>
             <div className="tdmd-related-card">

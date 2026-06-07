@@ -4,7 +4,7 @@ import FaqAccordion from '../../components/FaqAccordion';
 export const metadata = {
   title: 'Online Prescriptions by Medication — Deep-Dive FAQ Hub | TeleDirectMD',
   description:
-    'Can you get Finasteride, Sildenafil, Tadalafil, Propranolol, or UTI antibiotics online? State-by-state deep-dive FAQ guides (210 pages across 5 medications and 42 states). Board-certified MD evaluation, $79 flat fee.',
+    'Can you get Finasteride, Sildenafil, Tadalafil, Propranolol, or UTI antibiotics online? State-by-state deep-dive FAQ guides (210 pages across 5 medications and 43 states). Board-certified MD evaluation, $79 flat fee.',
   alternates: { canonical: 'https://teledirectmd.com/faq/deep-dive' },
   robots: { index: true, follow: true, 'max-image-preview': 'large', 'max-snippet': -1, 'max-video-preview': -1 },
   authors: [{ name: 'Parth Bhavsar, MD' }],
@@ -173,7 +173,7 @@ const FAQS = [
   {
     question: 'What states does TeleDirectMD serve for these prescriptions?',
     answer:
-      'TeleDirectMD is currently licensed in 42 states + Washington DC. Each medication guide is available for all 42 states + DC. You must be physically located in a covered state at the time of your visit. The full list is available on the States We Serve page. States not currently covered include Alaska, Hawaii, New York, Massachusetts, Rhode Island, Vermont, New Mexico, Oregon, and Arkansas.',
+      'TeleDirectMD is currently licensed in 43 states + Washington DC. Each medication guide is available for all 43 states + DC. You must be physically located in a covered state at the time of your visit. The full list is available on the States We Serve page. States not currently covered include Alaska, Hawaii, New York, Massachusetts, Rhode Island, New Mexico, Oregon, and Arkansas.',
   },
   {
     question: 'Is a prescription guaranteed from a TeleDirectMD visit?',
@@ -208,7 +208,7 @@ const jsonLd = {
       url: `${BASE_URL}/faq/deep-dive/`,
       name: 'Online Prescriptions by Medication — Deep-Dive FAQ Hub | TeleDirectMD',
       description:
-        'Hub for 210 state-by-medication FAQ pages covering online prescriptions for Finasteride, Sildenafil, Tadalafil, Propranolol, and UTI antibiotics across 42 states + DC.',
+        'Hub for 215 state-by-medication FAQ pages covering online prescriptions for Finasteride, Sildenafil, Tadalafil, Propranolol, and UTI antibiotics across 43 states + DC.',
       inLanguage: 'en-US',
       breadcrumb: { '@id': `${BASE_URL}/faq/deep-dive#breadcrumbs` },
       publisher: { '@id': `${BASE_URL}/#organization` },
@@ -333,9 +333,9 @@ export default function FaqDeepDiveHubPage() {
           </nav>
           <h1 className="fdd-h1">Online Prescriptions by Medication — State-by-State Deep-Dive FAQ</h1>
           <p className="fdd-lead">
-            This section covers 210 state-by-medication FAQ pages answering the question: &ldquo;Can you get [medication] online
+            This section covers 215 state-by-medication FAQ pages answering the question: &ldquo;Can you get [medication] online
             in [state]?&rdquo; For each of the five medications below, there is a dedicated guide for every state TeleDirectMD
-            serves — 42 states + Washington DC.
+            serves — 43 states + Washington DC.
           </p>
           <p className="fdd-lead">
             The five medications covered are <strong>Finasteride</strong> (hair loss), <strong>Sildenafil</strong> (erectile dysfunction),
@@ -347,7 +347,7 @@ export default function FaqDeepDiveHubPage() {
           <div className="fdd-badge-row">
             <span className="fdd-badge fdd-badge--accent">$79 Flat</span>
             <span className="fdd-badge">210 State-Medication Guides</span>
-            <span className="fdd-badge">42 States + DC</span>
+            <span className="fdd-badge">43 States + DC</span>
             <span className="fdd-badge">MD-Only</span>
             <span className="fdd-badge">Non-Controlled Meds Only</span>
           </div>
@@ -458,7 +458,7 @@ export default function FaqDeepDiveHubPage() {
         <section className="fdd-section" aria-labelledby="states-heading">
           <h2 id="states-heading" className="fdd-h2">State Coverage for Medication Evaluations</h2>
           <p className="fdd-p">
-            TeleDirectMD is licensed in the following 42 states + Washington DC. Patients must be physically located in
+            TeleDirectMD is licensed in the following 43 states + Washington DC. Patients must be physically located in
             a covered state at the time of their visit. Each state link below leads to the general state page — for
             medication-specific guides, use the state links in the medication cards above.
           </p>
@@ -468,7 +468,7 @@ export default function FaqDeepDiveHubPage() {
             ))}
           </div>
           <p className="fdd-p" style={{ marginTop: '1rem' }}>
-            States not currently served: Alaska, Hawaii, New York, Massachusetts, Rhode Island, Vermont, New Mexico, Oregon,
+            States not currently served: Alaska, Hawaii, New York, Massachusetts, Rhode Island, New Mexico, Oregon,
             and Arkansas. Patients in those states should seek care from a locally licensed telehealth service.
           </p>
         </section>
@@ -557,7 +557,7 @@ export default function FaqDeepDiveHubPage() {
         <div className="fdd-cta-bar">
           <div>
             <h3>Ready for a medication evaluation? Book today for $79.</h3>
-            <p>Board-certified MD, same-day video visit, non-controlled prescriptions, 42 states + DC. No membership required.</p>
+            <p>Board-certified MD, same-day video visit, non-controlled prescriptions, 43 states + DC. No membership required.</p>
           </div>
           <div className="fdd-cta-bar-actions">
             <a href="/book-online" className="fdd-btn fdd-btn-primary">Book a Visit</a>
