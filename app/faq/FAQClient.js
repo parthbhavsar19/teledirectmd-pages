@@ -222,7 +222,7 @@ const sections = [
               affordable healthcare from the comfort of your home.
             </p>
             <p>
-              We are currently available in <strong>41 U.S. states</strong> plus Washington, D.C.
+              We are currently available in <strong>42 U.S. states</strong> plus Washington, D.C.
             </p>
           </>
         ),
@@ -312,7 +312,7 @@ const sections = [
         a: (
           <>
             <p>
-              TeleDirectMD is licensed and available in <strong>41 U.S. states</strong> plus the
+              TeleDirectMD is licensed and available in <strong>42 U.S. states</strong> plus the
               District of Columbia:
             </p>
             <p>
@@ -320,7 +320,7 @@ const sections = [
               Hawaii, Idaho, Illinois, Indiana, Iowa, Kansas, Kentucky, Louisiana, Maine, Maryland,
               Michigan, Minnesota, Mississippi, Missouri, Montana, Nebraska, Nevada, New Hampshire,
               New Jersey, North Carolina, North Dakota, Ohio, Oklahoma, Pennsylvania, South Carolina,
-              South Dakota, Tennessee, Texas, Utah, Washington, West Virginia, Wisconsin, and
+              South Dakota, Tennessee, Texas, Utah, Vermont, Washington, West Virginia, Wisconsin, and
               Wyoming.
             </p>
             <p>D.C. was added as our 42nd coverage area in March 2026.</p>
@@ -723,7 +723,7 @@ export default function FAQClient() {
           <h1>Everything You Need to Know</h1>
           <p className="faq-hero-sub">
             Get answers about TeleDirectMD&apos;s physician-led telehealth services — from insurance
-            and pricing to prescriptions, appointments, and virtual urgent care across 41 states + D.C.
+            and pricing to prescriptions, appointments, and virtual urgent care across 42 states + D.C.
           </p>
 
           <div className="faq-hero-ctas">
@@ -747,7 +747,7 @@ export default function FAQClient() {
             </span>
             <span className="faq-trust-item">
               <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" /></svg>
-              42 States + D.C.
+              43 States + D.C.
             </span>
             <span className="faq-trust-item">
               <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" /></svg>
