@@ -84,6 +84,7 @@ export default function sitemap() {
   // routed; the rest would fall through to the generic template and trigger Google's
   // scaled-content classifier (the April 2026 deindex pattern).
   const VT_PILOT_CONDITIONS = new Set([
+    // ── VT Pilot 1 (2026-06-04) ──
     'uti-treatment-online',
     'yeast-infection-treatment-online',
     'bv-treatment-online',
@@ -94,7 +95,18 @@ export default function sitemap() {
     'shingles-treatment-online',
     'sinus-infection-treatment-online',
     'sore-throat-treatment-online',
+    // ── VT Pilot 2 marquee (2026-06-04) ──
     'tick-bite-treatment-online',
+    // ── VT Pilot 2 remaining 9 (2026-06-08) ──
+    'influenza-treatment-online',
+    'common-cold-treatment-online',
+    'ear-pain-treatment-online',
+    'hyperlipidemia-refills-online',
+    'hypothyroidism-refills-online',
+    'chlamydia-treatment-online',
+    'doxypep-sti-prevention-online',
+    'acne-treatment-online',
+    'cellulitis-treatment-online',
   ]);
   const states = getStates();
   const conditionSlugs = getConditionSlugs();

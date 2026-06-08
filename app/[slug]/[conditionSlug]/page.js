@@ -85,12 +85,24 @@ import VtShinglesTreatmentOnline from './VtShinglesTreatmentOnline';
 import VtSinusInfectionTreatmentOnline from './VtSinusInfectionTreatmentOnline';
 import VtSoreThroatTreatmentOnline from './VtSoreThroatTreatmentOnline';
 import VtTickBiteTreatmentOnline from './VtTickBiteTreatmentOnline'; // Pilot 2 marquee (2026-06-04) — deep-content Lyme/tick-bite page
+// VT Pilot 2 remaining 9 (2026-06-08) — same cash-pay pattern, 3 accuracy flags applied:
+// 2026 ACC/AHA guideline on hyperlipidemia, no false EEE Chittenden case, DoxyPEP MSM/TGW scope.
+import VtInfluenzaTreatmentOnline from './VtInfluenzaTreatmentOnline';
+import VtCommonColdTreatmentOnline from './VtCommonColdTreatmentOnline';
+import VtEarPainTreatmentOnline from './VtEarPainTreatmentOnline';
+import VtHyperlipidemiaRefillsOnline from './VtHyperlipidemiaRefillsOnline';
+import VtHypothyroidismRefillsOnline from './VtHypothyroidismRefillsOnline';
+import VtChlamydiaTreatmentOnline from './VtChlamydiaTreatmentOnline';
+import VtDoxypepStiPreventionOnline from './VtDoxypepStiPreventionOnline';
+import VtAcneTreatmentOnline from './VtAcneTreatmentOnline';
+import VtCellulitisTreatmentOnline from './VtCellulitisTreatmentOnline';
 import { summarizeConditionState, citableSummaryToJsonLd } from '../../../lib/citable-summary';
 
 // VT pilot cohort (2026-06-04): restrict /vt/ static generation to the 10 hand-crafted
 // condition pages — the other ~50 slugs are not staged and must NOT fall through to the
 // generic template (would emit scaled templated content, the April 2026 deindex trap).
 const VT_PILOT_CONDITIONS = new Set([
+  // ── VT Pilot 1 (2026-06-04) ──
   'uti-treatment-online',
   'yeast-infection-treatment-online',
   'bv-treatment-online',
@@ -101,7 +113,18 @@ const VT_PILOT_CONDITIONS = new Set([
   'shingles-treatment-online',
   'sinus-infection-treatment-online',
   'sore-throat-treatment-online',
-  'tick-bite-treatment-online', // Pilot 2 marquee (2026-06-04) — shipped early ahead of Mon Jun 8 batch
+  // ── VT Pilot 2 marquee (2026-06-04) ──
+  'tick-bite-treatment-online',
+  // ── VT Pilot 2 remaining 9 (2026-06-08) ──
+  'influenza-treatment-online',
+  'common-cold-treatment-online',
+  'ear-pain-treatment-online',
+  'hyperlipidemia-refills-online',
+  'hypothyroidism-refills-online',
+  'chlamydia-treatment-online',
+  'doxypep-sti-prevention-online',
+  'acne-treatment-online',
+  'cellulitis-treatment-online',
 ]);
 
 export async function generateStaticParams() {
@@ -393,6 +416,34 @@ export default async function ConditionPage({ params }) {
   }
   if (slug === 'vt' && conditionSlug === 'tick-bite-treatment-online') {
     return <VtTickBiteTreatmentOnline />;
+  }
+  // ── VT Pilot 2 remaining 9 (2026-06-08) ──
+  if (slug === 'vt' && conditionSlug === 'influenza-treatment-online') {
+    return <VtInfluenzaTreatmentOnline />;
+  }
+  if (slug === 'vt' && conditionSlug === 'common-cold-treatment-online') {
+    return <VtCommonColdTreatmentOnline />;
+  }
+  if (slug === 'vt' && conditionSlug === 'ear-pain-treatment-online') {
+    return <VtEarPainTreatmentOnline />;
+  }
+  if (slug === 'vt' && conditionSlug === 'hyperlipidemia-refills-online') {
+    return <VtHyperlipidemiaRefillsOnline />;
+  }
+  if (slug === 'vt' && conditionSlug === 'hypothyroidism-refills-online') {
+    return <VtHypothyroidismRefillsOnline />;
+  }
+  if (slug === 'vt' && conditionSlug === 'chlamydia-treatment-online') {
+    return <VtChlamydiaTreatmentOnline />;
+  }
+  if (slug === 'vt' && conditionSlug === 'doxypep-sti-prevention-online') {
+    return <VtDoxypepStiPreventionOnline />;
+  }
+  if (slug === 'vt' && conditionSlug === 'acne-treatment-online') {
+    return <VtAcneTreatmentOnline />;
+  }
+  if (slug === 'vt' && conditionSlug === 'cellulitis-treatment-online') {
+    return <VtCellulitisTreatmentOnline />;
   }
 
   const state = getStateBySlug(slug);
