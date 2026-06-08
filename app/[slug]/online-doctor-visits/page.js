@@ -1,5 +1,6 @@
 import { getStates, getStateBySlug, getConditionCategories } from '../../../lib/get-data';
 import { getStateInsurance } from '../../../lib/insurance-data';
+import { FlCredentialBlock, FlFooterCompliance } from '../../components/FlCompliance';
 import { notFound } from 'next/navigation';
 
 const defined_states = ['al', 'az', 'ca', 'co', 'ct', 'dc', 'de', 'fl', 'ga', 'hi', 'id', 'il', 'in', 'ia', 'ks', 'ky', 'la', 'me', 'md', 'mi', 'mn', 'ms', 'mo', 'mt', 'ne', 'nv', 'nh', 'nj', 'nc', 'nd', 'oh', 'ok', 'pa', 'sc', 'sd', 'tn', 'tx', 'ut', 'wa', 'wv', 'wi', 'wy'];
@@ -292,9 +293,14 @@ export default async function OnlineDoctorVisitsPage({ params }) {
             TeleDirectMD provides MD-only virtual urgent care for adults (18+) in {state.name}. Insurance is not required{hasInsurance ? ' but select plans are accepted' : ''}. You must be physically located in {state.name} at the time of your video visit. TeleDirectMD does not prescribe controlled substances. TeleDirectMD is not an emergency service and is not a replacement for urgent in-person care. If you are experiencing a medical emergency, call 911.
           </p>
           <p style={{ fontSize: '0.75rem', color: '#d1d5db', marginTop: '8px' }}>Medically reviewed by Parth Bhavsar, MD. Last updated {today}.</p>
+          {/* FL: A1 credential disclosure + A3 verify-link placement 1 of 3. */}
+          {state.abbr === 'FL' && <FlCredentialBlock />}
         </section>
 
       </div>
+
+      {/* FL: A2 no-in-person-care + A4 standard-of-care (softer) + A3 verify-link placement 2 of 3. */}
+      {state.abbr === 'FL' && <FlFooterCompliance idSuffix={`${slug}-odv-fl-compliance`} />}
     </>
   );
 }

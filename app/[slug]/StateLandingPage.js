@@ -3,6 +3,7 @@ import { getStateInsurance } from '../../lib/insurance-data';
 import { getInsurersForState } from '../../lib/internal-links';
 import { CitableSummaryBlock } from '../components/CitableSummary';
 import FaqAccordion from '../components/FaqAccordion';
+import { FlCredentialBlock, FlFooterCompliance } from '../components/FlCompliance';
 import { summarizeStateLanding, citableSummaryToJsonLd } from '../../lib/citable-summary';
 
 export default function StateLandingPage({ stateSlug }) {
@@ -280,6 +281,8 @@ export default function StateLandingPage({ stateSlug }) {
               Parth Bhavsar, MD
             </a>
           </p>
+          {/* FL: A1 credential disclosure + A3 verify-link placement 1 of 3. */}
+          {state.abbr === 'FL' && <FlCredentialBlock />}
         </div>
       </section>
 
@@ -554,10 +557,16 @@ export default function StateLandingPage({ stateSlug }) {
             TeleDirectMD does not guarantee that a prescription will be issued for any condition. If your physician determines that your condition requires in-person evaluation, lab work, imaging, or a specialist referral, they will advise you accordingly. TeleDirectMD does not prescribe controlled substances. If you are experiencing a medical emergency, call 911 or go to your nearest emergency room immediately.
           </p>
           <p>
-            TeleDirectMD physicians are licensed in {state.name} and operate in compliance with state telehealth regulations. All visits are subject to clinical appropriateness as determined by your treating physician.
+            {state.abbr === 'FL'
+              ? <>TeleDirectMD&rsquo;s telehealth physician is registered to provide telehealth services in {state.name} under Fla. Stat. § 456.47(4) and operates in compliance with state telehealth regulations. All visits are subject to clinical appropriateness as determined by your treating physician.</>
+              : <>TeleDirectMD physicians are licensed in {state.name} and operate in compliance with state telehealth regulations. All visits are subject to clinical appropriateness as determined by your treating physician.</>
+            }
           </p>
         </div>
       </section>
+
+      {/* FL: A2 no-in-person-care + A4 standard-of-care (softer) + A3 verify-link placement 2 of 3. */}
+      {state.abbr === 'FL' && <FlFooterCompliance idSuffix={`${pid}-fl-compliance`} />}
     </>
   );
 }

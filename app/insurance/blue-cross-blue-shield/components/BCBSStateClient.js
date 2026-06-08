@@ -5,6 +5,7 @@ import { CompareToOtherTelehealthGrid, Or49CashLink } from '../../../components/
 import { Ico } from '../../components/InsuranceIcons';
 import { getAggregateRating, getReviewBlock } from '../../../../lib/review-schema';
 import { CitableSummaryBlock } from '../../../components/CitableSummary';
+import { FlCredentialBlock, FlFooterCompliance } from '../../../components/FlCompliance';
 import { summarizeInsuranceStateLanding, citableSummaryToJsonLd } from '../../../../lib/citable-summary';
 
 const insurer = INSURERS['blue-cross-blue-shield'];
@@ -47,7 +48,7 @@ export default function BCBSStateClient({ stateSlug }) {
     { q:`What ${affiliateName} plans are NOT accepted at TeleDirectMD in ${stateName}?`, a:`The following plan types are not accepted: ${affiliateName} Medicaid, ${shortName} Community Health Plan, Medicare fee-for-service, and ${shortName} Medicare Advantage plans. If you are unsure about your plan type, self-pay is available for $79 flat — same physician and care quality, no insurance required.` },
     { q:`Can I use my ${affiliateName} FSA or HSA for a TeleDirectMD visit in ${stateName}?`, a:`Yes. Telehealth visits with a licensed physician are qualified medical expenses eligible for FSA and HSA payment. If your ${affiliateName} plan applies your deductible before covering the visit, your FSA or HSA card can be used to pay your cost-sharing. The $79 self-pay option is also FSA/HSA eligible.` },
     { q:`Does ${affiliateName} in ${stateName} cover my prescription from the telehealth visit?`, a:`${affiliateName} covers the telehealth visit under your medical benefit. Prescription coverage is handled by your ${affiliateName} pharmacy benefit. Most first-line medications for common conditions (antibiotics, antivirals, PPIs, antihypertensives) are Tier 1 generic drugs covered by virtually all ${affiliateName} commercial plans for $4–$15. Check your ${shortName} formulary at ${memberPortal} or ask your pharmacy.` },
-    { q:`What if my specific ${affiliateName} plan in ${stateName} is not covered?`, a:`If your specific ${affiliateName} plan is not in-network with TeleDirectMD in ${stateName}, you can still see Dr. Bhavsar as a self-pay patient for a flat $79 fee. You may also submit an out-of-network claim to ${affiliateName} for partial reimbursement depending on your plan's out-of-network benefit.` },
+    { q:`What if my specific ${affiliateName} plan in ${stateName} is not covered?`, a:`If your specific ${affiliateName} plan is not in-network with TeleDirectMD in ${stateName}, you can still see Dr. Bhavsar, MD as a self-pay patient for a flat $79 fee. You may also submit an out-of-network claim to ${affiliateName} for partial reimbursement depending on your plan's out-of-network benefit.` },
     { q:`How do I verify my ${affiliateName} telehealth benefits before booking in ${stateName}?`, a:`Log into your ${affiliateName} member portal at ${memberPortal}, navigate to "Benefits," and look for "Telehealth" or "Virtual Care" under your plan details. You can also call the member services number on the back of your ${affiliateName} card. When calling, ask: "Is TeleDirectMD in-network for telehealth?" and "What is my telehealth copay?" Have your member ID ready.` },
     { q:`Is there a difference between ${affiliateName} telehealth and in-person copays in ${stateName}?`, a:`In most ${affiliateName} commercial plans in ${stateName}, telehealth copays are equal to or lower than your primary care in-person copay. Many employer-sponsored ${affiliateName} plans carry $0 telehealth copays — particularly since the post-pandemic expansion of telehealth benefits. Your specific plan determines the exact amount. Log into ${memberPortal} to confirm your telehealth cost-sharing.` },
   ];
@@ -117,6 +118,8 @@ export default function BCBSStateClient({ stateSlug }) {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(SCHEMA) }} />
       <CitableSummaryBlock summary={citableSummary_AI} jsonLd={citableJsonLd_AI} idSuffix={`blue-cross-blue-shield-${stateSlug}`} />
       <Breadcrumb items={[{label:'Home',href:'/'},{label:'Insurance',href:'/insurance'},{label:'Blue Cross Blue Shield',href:'/insurance/blue-cross-blue-shield'},{label:stateName}]} />
+      {/* FL: A1 credential disclosure + A3 verify-link placement 1 of 3. */}
+      {stateCode === 'FL' && <FlCredentialBlock />}
 
       {/* HERO */}
       <div style={{ background:`linear-gradient(165deg, ${B.navyDarker} 0%, ${B.navy} 40%, ${B.navyDeep} 100%)`, padding:'56px 24px 64px', position:'relative', overflow:'hidden', marginTop:16 }}>
@@ -234,6 +237,8 @@ export default function BCBSStateClient({ stateSlug }) {
 
         <div style={{ marginBottom:48 }}><InsuranceDisclaimer /></div>
       </div>
+      {/* FL: A2 no-in-person-care + A4 standard-of-care (softer) + A3 verify-link placement 2 of 3. */}
+      {stateCode === 'FL' && <FlFooterCompliance idSuffix={`bcbs-${stateSlug}-fl-compliance`} />}
     </div>
   );
 }
