@@ -100,7 +100,7 @@ export function HowItWorksSteps({ insurerName }) {
   const steps = [
     { icon: <Ico.Cal c={B.teal} s={24} />, title: "Book Your Visit Online", desc: `Go to teledirectmd.com/book-online. Select "Insurance" as your payment method. Have your ${insurerName} member ID card ready — we verify your coverage before your visit.` },
     { icon: <Ico.Check c={B.teal} s={24} />, title: "Coverage Verified for You", desc: `We confirm your ${insurerName} benefits before you join the video call. If your specific plan isn't in-network, we'll let you know so you can choose self-pay ($79) instead.` },
-    { icon: <Ico.Video c={B.teal} s={24} />, title: "Video Visit with Dr. Bhavsar, MD", desc: "Connect by secure video from your phone, tablet, or computer. Dr. Bhavsar evaluates your symptoms — same clinical standard as an in-person visit, not a PA or NP." },
+    { icon: <Ico.Video c={B.teal} s={24} />, title: "Video Visit with Dr. Bhavsar, MD", desc: "Connect by secure video from your phone, tablet, or computer. Dr. Bhavsar, MD evaluates your symptoms — same clinical standard as an in-person visit, not a PA or NP." },
     { icon: <Ico.Rx c={B.teal} s={24} />, title: "Prescription Sent Instantly", desc: "If a prescription is appropriate, it's sent electronically to your preferred pharmacy the moment your visit ends. Your pharmacy benefit applies to the medication." },
   ];
 
@@ -142,7 +142,7 @@ export function PatientJourney({ insurerName, conditionName }) {
   const timeline = [
     { time: "Before your visit", icon: "📋", title: "What to have ready", desc: `Your ${insurerName} member ID card, a list of current medications, your pharmacy name and zip code, and 5–10 minutes of quiet time. Your phone's camera needs to be working — that's it.` },
     { time: "Visit start", icon: "🖥️", title: "What you'll see on screen", desc: `A secure, HIPAA-compliant video window opens. You'll see Dr. Bhavsar, MD — not a bot, not a PA. The average visit runs 8–12 minutes. He'll ask about your symptoms, review your history, and ask follow-up questions.` },
-    { time: "During your visit", icon: "🩺", title: "What Dr. Bhavsar evaluates", desc: `For ${cond}: Dr. Bhavsar uses validated clinical criteria — not a generic symptom checklist — to assess your presentation, rule out red flags that require in-person care, and determine whether a prescription is appropriate.` },
+    { time: "During your visit", icon: "🩺", title: "What Dr. Bhavsar, MD evaluates", desc: `For ${cond}: Dr. Bhavsar, MD uses validated clinical criteria — not a generic symptom checklist — to assess your presentation, rule out red flags that require in-person care, and determine whether a prescription is appropriate.` },
     { time: "Visit end", icon: "💊", title: "Your prescription", desc: `If a prescription is clinically appropriate, it is sent electronically to your preferred pharmacy before the video call ends. Most pharmacies fill it within 1–2 hours. You'll also receive a visit summary.` },
     { time: "After your visit", icon: "🧾", title: "Your insurance claim", desc: `${insurerName} receives the claim automatically — billing codes 99213 or 99214 depending on visit complexity. Your ${insurerName} Explanation of Benefits (EOB) arrives within 2–4 weeks showing what was billed and your cost.` },
   ];
@@ -335,7 +335,7 @@ export function CoverageChecker() {
                 </span>
               </div>
               <p style={{ fontSize: 14, color: B.text, margin: "0 0 14px", lineHeight: 1.65 }}>
-                TeleDirectMD is not currently in-network with {result.insurerName} in {result.stateName}. You can still see Dr. Bhavsar as a self-pay patient for a flat $79 fee — same physician, same quality, no insurance needed.
+                TeleDirectMD is not currently in-network with {result.insurerName} in {result.stateName}. You can still see Dr. Bhavsar, MD as a self-pay patient for a flat $79 fee — same physician, same quality, no insurance needed.
               </p>
               <a href="https://www.teledirectmd.com/book-online" target="_blank" rel="noopener"
                 style={{ display: "inline-flex", alignItems: "center", gap: 6, padding: "10px 20px", background: B.accent, color: B.white, borderRadius: B.rs, fontWeight: 700, fontSize: 14, textDecoration: "none" }}>

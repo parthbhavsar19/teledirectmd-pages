@@ -39,7 +39,7 @@ export default function InsuranceConditionClient({ insurerSlug, conditionSlug })
     },
     {
       q: `What prescription can I get for ${cond.name} through ${insurer.name} telehealth?`,
-      a: `${cond.rxInfo?.typical ? `For ${cond.name.toLowerCase()}, Dr. Bhavsar may prescribe: ${cond.rxInfo.typical}. ${cond.rxInfo.alternatives ? `Alternatives include: ${cond.rxInfo.alternatives}.` : ''} ${cond.rxInfo.coveredByInsurance || ''}` : `If clinically appropriate, Dr. Bhavsar will send a prescription to your preferred pharmacy immediately after your visit.`} ${cond.rxInfo?.notes || ''}`,
+      a: `${cond.rxInfo?.typical ? `For ${cond.name.toLowerCase()}, Dr. Bhavsar, MD may prescribe: ${cond.rxInfo.typical}. ${cond.rxInfo.alternatives ? `Alternatives include: ${cond.rxInfo.alternatives}.` : ''} ${cond.rxInfo.coveredByInsurance || ''}` : `If clinically appropriate, Dr. Bhavsar, MD will send a prescription to your preferred pharmacy immediately after your visit.`} ${cond.rxInfo?.notes || ''}`,
     },
     {
       q: `Is the self-pay option available if my ${shortName} plan does not cover ${cond.name}?`,
@@ -51,7 +51,7 @@ export default function InsuranceConditionClient({ insurerSlug, conditionSlug })
     },
     {
       q: `How does TeleDirectMD diagnose ${cond.name} via telehealth?`,
-      a: `${cond.diagnosisMethod || `Dr. Bhavsar uses validated clinical criteria to evaluate your ${cond.name.toLowerCase()} symptoms during a secure video visit.`} Telehealth is a well-validated, evidence-based modality for ${cond.name.toLowerCase()} management in adults. The same clinical decision-making applied in an in-person office visit is used during your telehealth appointment.`,
+      a: `${cond.diagnosisMethod || `Dr. Bhavsar, MD uses validated clinical criteria to evaluate your ${cond.name.toLowerCase()} symptoms during a secure video visit.`} Telehealth is a well-validated, evidence-based modality for ${cond.name.toLowerCase()} management in adults. The same clinical decision-making applied in an in-person office visit is used during your telehealth appointment.`,
     },
     {
       q: `Can I use my ${shortName} FSA or HSA for a ${cond.name} telehealth visit?`,
@@ -186,7 +186,7 @@ export default function InsuranceConditionClient({ insurerSlug, conditionSlug })
               <p style={{ fontSize: 15, color: B.text, lineHeight: 1.8, margin: "0 0 16px" }}>{cond.clinicalDepth}</p>
               {cond.diagnosisMethod && (
                 <>
-                  <div style={{ fontSize: 12, fontWeight: 700, color: B.teal, textTransform: "uppercase", letterSpacing: "0.05em", marginBottom: 8 }}>How Dr. Bhavsar Evaluates {cond.name} via Telehealth</div>
+                  <div style={{ fontSize: 12, fontWeight: 700, color: B.teal, textTransform: "uppercase", letterSpacing: "0.05em", marginBottom: 8 }}>How Dr. Bhavsar, MD Evaluates {cond.name} via Telehealth</div>
                   <p style={{ fontSize: 14, color: B.text, lineHeight: 1.75, margin: 0 }}>{cond.diagnosisMethod}</p>
                 </>
               )}

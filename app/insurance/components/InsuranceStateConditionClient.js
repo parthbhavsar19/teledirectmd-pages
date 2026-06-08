@@ -61,11 +61,11 @@ export default function InsuranceStateConditionClient({ insurerSlug, stateSlug, 
     },
     {
       q: `How does TeleDirectMD diagnose ${cond.name} via telehealth in ${stateName}?`,
-      a: `${cond.diagnosisMethod || `Dr. Bhavsar uses validated clinical criteria to evaluate your ${cond.name.toLowerCase()} symptoms during a secure video visit.`} Telehealth is a well-established, evidence-based modality for ${cond.name.toLowerCase()} management. The same clinical standards used in an in-person office visit are applied — you are seen by Dr. Bhavsar, MD, a board-certified physician, not a nurse practitioner or PA.`,
+      a: `${cond.diagnosisMethod || `Dr. Bhavsar, MD uses validated clinical criteria to evaluate your ${cond.name.toLowerCase()} symptoms during a secure video visit.`} Telehealth is a well-established, evidence-based modality for ${cond.name.toLowerCase()} management. The same clinical standards used in an in-person office visit are applied — you are seen by Dr. Bhavsar, MD, a board-certified physician, not a nurse practitioner or PA.`,
     },
     {
       q: `What prescription can I get for ${cond.name} through ${shortName} telehealth in ${stateName}?`,
-      a: `${cond.rxInfo?.typical ? `For ${cond.name.toLowerCase()}, Dr. Bhavsar may prescribe: ${cond.rxInfo.typical}. ${cond.rxInfo.alternatives ? `Alternatives include: ${cond.rxInfo.alternatives}.` : ''} ${cond.rxInfo.coveredByInsurance || ''}` : `If clinically appropriate, Dr. Bhavsar will send a prescription to your preferred ${stateName} pharmacy immediately after your visit. Coverage of the prescription depends on your ${shortName} pharmacy benefit plan.`} ${cond.rxInfo?.notes || ''}`,
+      a: `${cond.rxInfo?.typical ? `For ${cond.name.toLowerCase()}, Dr. Bhavsar, MD may prescribe: ${cond.rxInfo.typical}. ${cond.rxInfo.alternatives ? `Alternatives include: ${cond.rxInfo.alternatives}.` : ''} ${cond.rxInfo.coveredByInsurance || ''}` : `If clinically appropriate, Dr. Bhavsar, MD will send a prescription to your preferred ${stateName} pharmacy immediately after your visit. Coverage of the prescription depends on your ${shortName} pharmacy benefit plan.`} ${cond.rxInfo?.notes || ''}`,
     },
     {
       q: `Can I get a ${cond.name} prescription through telemedicine with ${shortName} in ${stateName}?`,
@@ -332,7 +332,7 @@ export default function InsuranceStateConditionClient({ insurerSlug, stateSlug, 
               </div>
               {cond.diagnosisMethod && (
                 <div style={{ borderTop: `1px solid ${B.border}`, marginTop: 20, paddingTop: 20 }}>
-                  <div style={{ fontSize: 12, fontWeight: 700, color: B.teal, textTransform: "uppercase", letterSpacing: "0.05em", marginBottom: 8 }}>How Dr. Bhavsar Diagnoses {cond.name} via Telehealth</div>
+                  <div style={{ fontSize: 12, fontWeight: 700, color: B.teal, textTransform: "uppercase", letterSpacing: "0.05em", marginBottom: 8 }}>How Dr. Bhavsar, MD Diagnoses {cond.name} via Telehealth</div>
                   <p style={{ fontSize: 14, color: B.text, lineHeight: 1.7, margin: 0 }}>{cond.diagnosisMethod}</p>
                 </div>
               )}
