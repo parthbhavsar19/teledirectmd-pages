@@ -44,6 +44,8 @@ const STATIC_ROUTES = [
   { path: '/california-aetna', priority: 0.9, changefreq: 'weekly' },
   { path: '/california/telehealth-urgent-care-aetna', priority: 0.85, changefreq: 'weekly' },
   { path: '/news/aetna-california-may-2026', priority: 0.7, changefreq: 'monthly' },
+  // Florida Blue dedicated hub — June 2026 (single-state BCBS licensee)
+  { path: '/insurance/florida-blue', priority: 0.95, changefreq: 'weekly' },
 ];
 
 // Who We Serve segments (10 pages)
