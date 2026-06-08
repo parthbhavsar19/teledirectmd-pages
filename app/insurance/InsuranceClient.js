@@ -2,22 +2,22 @@
 
 import { useState, useEffect, useRef } from "react";
 
-// ─── Data: Only ACTIVE contracts (live for billing as of June 2026) ───
+// ─── Data: Only ACTIVE contracts (live for billing as of June 2026) — updated 2026-06-08 ───
 const insuranceData = {
   AZ: { state: "Arizona", insurers: [{ name: "Aetna", group: "Aetna", plans: ["Commercial plans accepted"] }] },
   CA: { state: "California", insurers: [{ name: "Aetna", group: "Aetna", plans: ["Commercial plans accepted"] }, { name: "UnitedHealthcare", group: "UHC", plans: ["Commercial + Medicare Advantage (excludes Medi-Cal, Individual Exchange, Navigate/Charter/Core)"] }] },
   CO: { state: "Colorado", insurers: [{ name: "Aetna", group: "Aetna", plans: ["Commercial plans accepted"] }, { name: "UnitedHealthcare", group: "UHC", plans: ["Commercial plans accepted"] }] },
-  FL: { state: "Florida", insurers: [{ name: "Aetna", group: "Aetna", plans: ["Commercial plans accepted"] }, { name: "Florida Blue", group: "BCBS", plans: ["Individual plans", "Group plans"] }] },
+  FL: { state: "Florida", insurers: [{ name: "Aetna", group: "Aetna", plans: ["Commercial plans accepted"] }, { name: "Florida Blue", group: "BCBS", plans: ["Individual plans", "Group plans"] }, { name: "UnitedHealthcare", group: "UHC", plans: ["Commercial plans accepted"] }] },
   GA: { state: "Georgia", insurers: [{ name: "Aetna", group: "Aetna", plans: ["Commercial plans accepted"] }, { name: "Anthem Blue Cross Blue Shield", group: "BCBS", plans: ["Commercial plans accepted"] }, { name: "UnitedHealthcare", group: "UHC", plans: ["Commercial plans accepted"] }] },
   IL: { state: "Illinois", insurers: [{ name: "Aetna", group: "Aetna", plans: ["Commercial plans accepted"] }, { name: "Blue Cross Blue Shield of Illinois", group: "BCBS", plans: ["Commercial plans accepted"] }, { name: "UnitedHealthcare", group: "UHC", plans: ["Commercial plans accepted"] }] },
-  MI: { state: "Michigan", insurers: [{ name: "Aetna", group: "Aetna", plans: ["Commercial plans accepted"] }] },
+  MI: { state: "Michigan", insurers: [{ name: "Aetna", group: "Aetna", plans: ["Commercial plans accepted"] }, { name: "UnitedHealthcare", group: "UHC", plans: ["Commercial plans accepted"] }] },
   MN: { state: "Minnesota", insurers: [{ name: "Aetna", group: "Aetna", plans: ["Commercial plans accepted"] }, { name: "UnitedHealthcare", group: "UHC", plans: ["Commercial plans accepted"] }] },
   NC: { state: "North Carolina", insurers: [{ name: "UnitedHealthcare", group: "UHC", plans: ["Commercial plans accepted"] }] },
   NJ: { state: "New Jersey", insurers: [{ name: "UnitedHealthcare", group: "UHC", plans: ["Commercial plans accepted"] }] },
   OH: { state: "Ohio", insurers: [{ name: "Aetna", group: "Aetna", plans: ["Commercial plans accepted"] }, { name: "UnitedHealthcare", group: "UHC", plans: ["Commercial plans accepted"] }] },
   PA: { state: "Pennsylvania", insurers: [{ name: "Aetna", group: "Aetna", plans: ["Commercial plans accepted"] }, { name: "Highmark Blue Cross Blue Shield", group: "BCBS", plans: ["Commercial plans accepted"] }, { name: "UnitedHealthcare", group: "UHC", plans: ["Commercial plans accepted"] }] },
   TN: { state: "Tennessee", insurers: [{ name: "Aetna", group: "Aetna", plans: ["Commercial plans accepted"] }, { name: "UnitedHealthcare", group: "UHC", plans: ["Commercial plans accepted"] }] },
-  TX: { state: "Texas", insurers: [{ name: "Blue Cross Blue Shield of Texas", group: "BCBS", plans: ["Blue Advantage HMO","Blue Choice PPO","Health Select","Blue Essentials","Medicare Advantage HMO","Medicare Advantage PPO","Dual Special Needs Plan (D-SNP)","WellMed MA HMO"] }] },
+  TX: { state: "Texas", insurers: [{ name: "Blue Cross Blue Shield of Texas", group: "BCBS", plans: ["Blue Advantage HMO","Blue Choice PPO","Health Select","Blue Essentials","Medicare Advantage HMO","Medicare Advantage PPO","Dual Special Needs Plan (D-SNP)","WellMed MA HMO"] }, { name: "Aetna", group: "Aetna", plans: ["Commercial plans accepted"] }, { name: "UnitedHealthcare", group: "UHC", plans: ["Commercial plans accepted"] }] },
   WA: { state: "Washington", insurers: [{ name: "UnitedHealthcare", group: "UHC", plans: ["Commercial plans accepted"] }] },
 };
 
@@ -102,7 +102,7 @@ export default function InsuranceClient() {
         "name": "Insurance & Pricing | TeleDirectMD",
         "description": "TeleDirectMD accepts select commercial insurance plans from Aetna, Blue Cross Blue Shield, and UnitedHealthcare in a growing number of states. Self-pay is always $79 flat.",
         "url": "https://teledirectmd.com/insurance",
-        "lastReviewed": "2026-05-11",
+        "lastReviewed": "2026-06-08",
         "speakable": { "@type": "SpeakableSpecification", "cssSelector": ["[data-speakable]"] },
       },
       {
@@ -277,9 +277,9 @@ export default function InsuranceClient() {
         <p style={{ fontSize: 15, color: B.text, margin: "0 0 24px", lineHeight: 1.5 }}>We are in-network with the following insurers across select states. Coverage is expanding regularly.</p>
         <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(200px, 1fr))", gap: 12 }}>
           {[
-            { group: "Aetna", color: insurerColors.Aetna, states: ["AZ","CA","CO","FL","GA","IL","MI","MN","OH","PA","TN"], note: "Commercial plans" },
+            { group: "Aetna", color: insurerColors.Aetna, states: ["AZ","CA","CO","FL","GA","IL","MI","MN","OH","PA","TN","TX"], note: "Commercial plans" },
             { group: "Blue Cross Blue Shield", color: insurerColors.BCBS, states: ["FL","GA","IL","PA","TX"], note: "Select plans by state" },
-            { group: "UnitedHealthcare", color: insurerColors.UHC, states: ["CA","CO","GA","IL","MN","NC","NJ","OH","PA","TN","WA"], note: "Commercial plans" },
+            { group: "UnitedHealthcare", color: insurerColors.UHC, states: ["CA","CO","FL","GA","IL","MI","MN","NC","NJ","OH","OK","PA","TN","TX","WA"], note: "Commercial plans" },
           ].map((item, i) => (
             <div key={i} style={{ background: B.white, border: `1px solid ${item.color.accent}22`, borderRadius: B.r, padding: "24px 20px", borderTop: `3px solid ${item.color.accent}`, boxShadow: B.shadow }}>
               <h3 style={{ fontFamily: B.fd, fontSize: 18, fontWeight: 700, color: B.navy, margin: "0 0 6px" }}>{item.group}</h3>
