@@ -6,11 +6,13 @@ import { summarizeCompare, summarizeUseCase, summarizeWhoWeServe, summarizeFaqDe
 
 const STATES = ['al','az','ca','co','ct','dc','de','fl','ga','hi','id','il','in','ia','ks','ky','la','me','md','mi','mn','ms','mo','mt','ne','nv','nh','nj','nc','nd','oh','ok','pa','sc','sd','tn','tx','ut','wa','wv','wi','wy'];
 
+// 2026-06-10: Retired finasteride/sildenafil/tadalafil/propranolol deep-dive
+// families (168 thin templated pages, 65-72% Jaccard within/across medications).
+// They earned 9 clicks combined in 30 days while contributing duplication signal.
+// 410-Gone routes added to vercel.json; URLs auto-removed from build via this
+// MEDICATIONS array. Only UTI antibiotics kept (276 impr, 4 clicks, 42 pages)
+// pending Phase 3 enrichment to match the per-state JSON template depth.
 const MEDICATIONS = [
-  { key: 'finasteride', medication: 'Finasteride', condition: 'Hair Loss', conditionSlug: 'hair-loss-treatment-online', slugPrefix: 'can-you-get-finasteride-online-in', concern: 'hair loss', evalContext: 'experiencing hair loss and want to discuss treatment options including' },
-  { key: 'sildenafil', medication: 'Sildenafil', condition: 'Erectile Dysfunction', conditionSlug: 'erectile-dysfunction-treatment-online', slugPrefix: 'can-you-get-sildenafil-online-in', concern: 'erectile dysfunction', evalContext: 'experiencing erectile dysfunction and want to discuss treatment options including' },
-  { key: 'tadalafil', medication: 'Tadalafil', condition: 'Erectile Dysfunction', conditionSlug: 'erectile-dysfunction-treatment-online', slugPrefix: 'can-you-get-tadalafil-online-in', concern: 'erectile dysfunction', evalContext: 'experiencing erectile dysfunction and want to discuss treatment options including' },
-  { key: 'propranolol', medication: 'Propranolol', condition: 'Speech Anxiety', conditionSlug: 'performance-anxiety-treatment-online', slugPrefix: 'can-you-get-propranolol-online-in', concern: 'speech anxiety', evalContext: 'experiencing speech anxiety and want to discuss treatment options including' },
   { key: 'uti-antibiotics', medication: 'UTI Antibiotics', condition: 'UTI Treatment', conditionSlug: 'uti-treatment-online', slugPrefix: 'can-you-get-uti-treatment-online-in', concern: 'urinary tract infection symptoms', evalContext: 'experiencing UTI symptoms and want to discuss treatment options including antibiotics for' }
 ];
 
