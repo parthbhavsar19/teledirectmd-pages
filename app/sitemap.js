@@ -3,6 +3,7 @@ import path from 'path';
 import { getStates, getConditionSlugs } from '../lib/get-data';
 import { INSURERS, INSURANCE_CONDITIONS } from '../data/insurance/insuranceConfig';
 import { AETNA_CA_CONDITION_DETAILS } from '../data/insurance/aetna-ca-conditions';
+import { isRetiredInsuranceUrl } from '../data/insurance/retired-urls';
 import { COST_PAGE_SLUGS } from '../lib/cost-pages-config';
 import { COMPARE_PAGE_SLUGS } from '../lib/compare-pages-config';
 import { SYMPTOM_PAGE_SLUGS } from '../lib/symptom-pages-config';
@@ -129,13 +130,15 @@ export default function sitemap() {
 
   // 5) Insurance hubs (/insurance/{insurer}/)
   for (const insurerSlug of Object.keys(INSURERS)) {
-    urls.push(url(`/insurance/${insurerSlug}/`, 0.95, 'weekly'));
+    const p = `/insurance/${insurerSlug}/`;
+    if (!isRetiredInsuranceUrl(p)) urls.push(url(p, 0.95, 'weekly'));
   }
 
   // 6) Insurer × state pages (/insurance/{insurer}/{state}/)
   for (const [insurerSlug, stateList] of Object.entries(INSURER_STATES)) {
     for (const stateSlug of stateList) {
-      urls.push(url(`/insurance/${insurerSlug}/${stateSlug}/`, 0.9, 'weekly'));
+      const p = `/insurance/${insurerSlug}/${stateSlug}/`;
+      if (!isRetiredInsuranceUrl(p)) urls.push(url(p, 0.9, 'weekly'));
     }
   }
 
@@ -143,7 +146,8 @@ export default function sitemap() {
   const insuranceConditionSlugs = Object.keys(INSURANCE_CONDITIONS);
   for (const insurerSlug of Object.keys(INSURERS)) {
     for (const condSlug of insuranceConditionSlugs) {
-      urls.push(url(`/insurance/${insurerSlug}/${condSlug}/`, 0.85, 'weekly'));
+      const p = `/insurance/${insurerSlug}/${condSlug}/`;
+      if (!isRetiredInsuranceUrl(p)) urls.push(url(p, 0.85, 'weekly'));
     }
   }
 
@@ -151,7 +155,8 @@ export default function sitemap() {
   for (const [insurerSlug, stateList] of Object.entries(INSURER_STATES)) {
     for (const stateSlug of stateList) {
       for (const condSlug of insuranceConditionSlugs) {
-        urls.push(url(`/insurance/${insurerSlug}/${stateSlug}/${condSlug}/`, 0.8, 'weekly'));
+        const p = `/insurance/${insurerSlug}/${stateSlug}/${condSlug}/`;
+        if (!isRetiredInsuranceUrl(p)) urls.push(url(p, 0.8, 'weekly'));
       }
     }
   }
@@ -162,7 +167,8 @@ export default function sitemap() {
   const baseCondSet = new Set(insuranceConditionSlugs);
   for (const condSlug of Object.keys(AETNA_CA_CONDITION_DETAILS)) {
     if (baseCondSet.has(condSlug)) continue; // safety guard against accidental overlap
-    urls.push(url(`/insurance/aetna/california/${condSlug}/`, 0.85, 'weekly'));
+    const p = `/insurance/aetna/california/${condSlug}/`;
+    if (!isRetiredInsuranceUrl(p)) urls.push(url(p, 0.85, 'weekly'));
   }
 
   // 9) Cost-comparison pages (/cost/{slug}/)
