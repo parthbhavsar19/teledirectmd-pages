@@ -2,9 +2,9 @@ import { getAggregateRating, getReviewBlock } from '../../../lib/review-schema';
 import FaqAccordion from '../../components/FaqAccordion';
 
 export const metadata = {
-  title: 'Online Prescriptions by Medication — Deep-Dive FAQ Hub | TeleDirectMD',
+  title: 'UTI Antibiotics Online — State-by-State FAQ | TeleDirectMD',
   description:
-    'Can you get Finasteride, Sildenafil, Tadalafil, Propranolol, or UTI antibiotics online? State-by-state deep-dive FAQ guides (210 pages across 5 medications and 43 states). Board-certified MD evaluation, $79 flat fee.',
+    'Can you get UTI antibiotics online in your state? Board-certified MD video visits across 42 states. $79 flat self-pay, HSA/FSA accepted, prescriptions sent electronically to your pharmacy.',
   alternates: { canonical: 'https://teledirectmd.com/faq/deep-dive' },
   robots: { index: true, follow: true, 'max-image-preview': 'large', 'max-snippet': -1, 'max-video-preview': -1 },
   authors: [{ name: 'Parth Bhavsar, MD' }],
@@ -12,84 +12,20 @@ export const metadata = {
     type: 'website',
     siteName: 'TeleDirectMD',
     locale: 'en_US',
-    title: 'Online Prescriptions by Medication — Deep-Dive FAQ Hub | TeleDirectMD',
+    title: 'UTI Antibiotics Online — State-by-State FAQ | TeleDirectMD',
     description:
-      'State-by-state FAQ guides for getting Finasteride, Sildenafil, Tadalafil, Propranolol, and UTI antibiotics online. $79, board-certified MD.',
+      'State-by-state FAQ guides for getting UTI antibiotics online. $79 flat self-pay, board-certified MD.',
     url: 'https://teledirectmd.com/faq/deep-dive',
   },
 };
 
 const BASE_URL = 'https://teledirectmd.com';
 
+// 2026-06-10: Retired finasteride/sildenafil/tadalafil/propranolol deep-dive
+// families (168 thin templated pages, 65-72% Jaccard within/across medications).
+// They earned 9 clicks combined in 30 days while contributing duplication signal.
+// Only UTI antibiotics retained (276 impr/mo, 4 clicks); pending Phase 3 enrichment.
 const MEDICATIONS = [
-  {
-    key: 'finasteride',
-    medication: 'Finasteride',
-    slugPrefix: 'can-you-get-finasteride-online-in',
-    condition: 'Hair Loss (Male Pattern Baldness)',
-    conditionSlug: 'hair-loss-treatment-online',
-    icon: '\u2702\ufe0f',
-    concern: 'hair loss',
-    summary:
-      'Finasteride is a 5-alpha reductase inhibitor FDA-approved for male pattern hair loss (androgenetic alopecia). It works by reducing DHT levels in the scalp, slowing hair loss and in many men promoting regrowth. Online evaluation requires a physician visit to review your medical history, rule out contraindications, and confirm appropriate use.',
-    howItWorks:
-      'Finasteride blocks the conversion of testosterone to dihydrotestosterone (DHT) in the scalp. Clinical trials (Merck, 1998; NEJM) demonstrated that 1 mg daily produced significant hair preservation and regrowth over 2\u20135 years compared to placebo. Onset of visible effect typically requires 3\u20136 months of consistent use.',
-    contraindications:
-      'Finasteride is contraindicated in women of childbearing potential (FDA Category X — teratogenic). It is not prescribed for women at TeleDirectMD. In men, relative contraindications include known hypersensitivity and current use of medications that interact with 5-alpha reductase pathways. The physician will review your full medication list before prescribing.',
-    costNote: '$79 visit + $15\u2013$40 generic finasteride (GoodRx, 2025)',
-    stateGuideIntro: 'Each state guide below answers: Is a video visit sufficient for finasteride in that state? What does the evaluation include? What is the cost?',
-  },
-  {
-    key: 'sildenafil',
-    medication: 'Sildenafil',
-    slugPrefix: 'can-you-get-sildenafil-online-in',
-    condition: 'Erectile Dysfunction',
-    conditionSlug: 'erectile-dysfunction-treatment-online',
-    icon: '\ud83d\udcca',
-    concern: 'erectile dysfunction',
-    summary:
-      'Sildenafil (generic Viagra) is a PDE5 inhibitor FDA-approved for erectile dysfunction. It works by increasing blood flow to the penis during sexual stimulation. Generic sildenafil became widely available after Pfizer\u2019s patent expiration and has dropped dramatically in price — often $10\u201340 per supply with GoodRx. Online evaluation by a physician determines appropriateness based on cardiac history, current medications, and other risk factors.',
-    howItWorks:
-      'Sildenafil inhibits PDE5, the enzyme responsible for degrading cGMP in smooth muscle. This allows cGMP to accumulate, causing smooth muscle relaxation and increased blood flow to penile tissue during sexual stimulation. It does not cause erections without sexual arousal. Typical onset is 30\u201360 minutes; duration is 4\u20136 hours. Doses range from 25 mg to 100 mg.',
-    contraindications:
-      'Sildenafil is contraindicated with nitrate medications (nitroglycerin, isosorbide) due to risk of severe hypotension. It must be used with caution in patients with significant cardiovascular disease, recent stroke or MI, uncontrolled hypertension, or retinitis pigmentosa. The physician will review your cardiac history and current medications before prescribing.',
-    costNote: '$79 visit + $10\u2013$50 generic sildenafil (GoodRx, 2025)',
-    stateGuideIntro: 'State guides answer: Can a video visit produce a sildenafil prescription in your state? What does the evaluation cover? Is insurance accepted?',
-  },
-  {
-    key: 'tadalafil',
-    medication: 'Tadalafil',
-    slugPrefix: 'can-you-get-tadalafil-online-in',
-    condition: 'Erectile Dysfunction',
-    conditionSlug: 'erectile-dysfunction-treatment-online',
-    icon: '\u23f0',
-    concern: 'erectile dysfunction',
-    summary:
-      'Tadalafil (generic Cialis) is the "weekend pill" PDE5 inhibitor — its primary clinical distinction is a longer duration of action (up to 36 hours) compared to sildenafil (4\u20136 hours). A daily low-dose (2.5 or 5 mg) formulation allows for spontaneity without timing a dose. Also FDA-approved for benign prostatic hyperplasia (BPH). Generic tadalafil is widely available at low cost since the patent expiration.',
-    howItWorks:
-      'Tadalafil inhibits PDE5 with a half-life of approximately 17.5 hours (compared to 4 hours for sildenafil), producing its significantly longer duration of action. Daily low-dose tadalafil maintains steady-state plasma levels that support erectile function without peak-trough fluctuations. It does not cause erections without sexual stimulation.',
-    contraindications:
-      'Same nitrate contraindication as sildenafil. Tadalafil additionally requires caution with alpha-blockers used for BPH (risk of orthostatic hypotension). The physician will review all current medications including over-the-counter supplements before prescribing.',
-    costNote: '$79 visit + $20\u2013$60 generic tadalafil (GoodRx, 2025)',
-    stateGuideIntro: 'State guides answer: Does tadalafil require a different evaluation than sildenafil in your state? What does the visit include? What is the cost?',
-  },
-  {
-    key: 'propranolol',
-    medication: 'Propranolol',
-    slugPrefix: 'can-you-get-propranolol-online-in',
-    condition: 'Performance / Speech Anxiety',
-    conditionSlug: 'performance-anxiety-treatment-online',
-    icon: '\ud83c\udfa4',
-    concern: 'speech anxiety',
-    summary:
-      'Propranolol is a non-selective beta-blocker with a well-established off-label use for situational anxiety — specifically performance and speech anxiety. It blocks the physical symptoms of anxiety (racing heart, tremor, sweating) without sedation or impaired cognition. It is not addictive and is not a controlled substance. Evaluation includes cardiac history review, current medications, and contraindication screening.',
-    howItWorks:
-      'Propranolol blocks beta-1 and beta-2 adrenergic receptors, reducing the heart rate and blood pressure response to adrenaline. For situational anxiety, a single dose taken 30\u201360 minutes before the event reduces palpitations, tremor, and voice quiver. It does not cause sedation or affect mental sharpness. Typical doses for performance anxiety: 10\u201340 mg as needed.',
-    contraindications:
-      'Propranolol is contraindicated in asthma (beta-2 blockade causes bronchospasm), uncontrolled heart failure, sick sinus syndrome, and second- or third-degree AV block without a pacemaker. Caution with diabetes (masks hypoglycemia symptoms). The physician will screen for asthma and cardiovascular conditions before prescribing.',
-    costNote: '$79 visit + $4\u2013$15 generic propranolol (GoodRx, 2025)',
-    stateGuideIntro: 'State guides answer: Can performance anxiety be evaluated and propranolol prescribed online in your state? What is the process?',
-  },
   {
     key: 'uti-antibiotics',
     medication: 'UTI Antibiotics',
@@ -206,9 +142,9 @@ const jsonLd = {
       '@type': 'CollectionPage',
       '@id': `${BASE_URL}/faq/deep-dive#webpage`,
       url: `${BASE_URL}/faq/deep-dive/`,
-      name: 'Online Prescriptions by Medication — Deep-Dive FAQ Hub | TeleDirectMD',
+      name: 'UTI Antibiotics Online — State-by-State FAQ | TeleDirectMD',
       description:
-        'Hub for 215 state-by-medication FAQ pages covering online prescriptions for Finasteride, Sildenafil, Tadalafil, Propranolol, and UTI antibiotics across 43 states + DC.',
+        'Hub for state-by-state FAQ pages covering online UTI antibiotics prescriptions across 42 states. Other medication families (finasteride, sildenafil, tadalafil, propranolol) retired 2026-06-10.',
       inLanguage: 'en-US',
       breadcrumb: { '@id': `${BASE_URL}/faq/deep-dive#breadcrumbs` },
       publisher: { '@id': `${BASE_URL}/#organization` },
@@ -331,23 +267,20 @@ export default function FaqDeepDiveHubPage() {
             <span aria-hidden="true">/</span>
             <span aria-current="page">Deep-Dive FAQ</span>
           </nav>
-          <h1 className="fdd-h1">Online Prescriptions by Medication — State-by-State Deep-Dive FAQ</h1>
+          <h1 className="fdd-h1">UTI Antibiotics Online — State-by-State FAQ</h1>
           <p className="fdd-lead">
-            This section covers 215 state-by-medication FAQ pages answering the question: &ldquo;Can you get [medication] online
-            in [state]?&rdquo; For each of the five medications below, there is a dedicated guide for every state TeleDirectMD
-            serves — 43 states + Washington DC.
+            State-by-state FAQ pages answering: &ldquo;Can you get UTI antibiotics online in [state]?&rdquo; Each guide
+            covers the evaluation process, prescribing options, and pricing for the state TeleDirectMD serves.
           </p>
           <p className="fdd-lead">
-            The five medications covered are <strong>Finasteride</strong> (hair loss), <strong>Sildenafil</strong> (erectile dysfunction),
-            <strong>Tadalafil</strong> (erectile dysfunction), <strong>Propranolol</strong> (performance anxiety), and{' '}
-            <strong>UTI antibiotics</strong>. All are non-controlled substances that can be prescribed following a thorough
-            telemedicine evaluation by Dr. Parth Bhavsar, MD — a board-certified family medicine physician
-            (NPI&nbsp;1104323203). Self-pay visits are <strong>$79</strong> flat.
+            UTI antibiotics (nitrofurantoin, trimethoprim-sulfamethoxazole, fosfomycin, and others) are non-controlled
+            prescription medications appropriate for uncomplicated urinary tract infection in adult women, prescribed
+            after a thorough telemedicine evaluation by Dr. Parth Bhavsar, MD — a board-certified family medicine
+            physician (NPI&nbsp;1104323203). Self-pay visits are <strong>$79</strong> flat.
           </p>
           <div className="fdd-badge-row">
             <span className="fdd-badge fdd-badge--accent">$79 Flat</span>
-            <span className="fdd-badge">210 State-Medication Guides</span>
-            <span className="fdd-badge">43 States + DC</span>
+            <span className="fdd-badge">42-State UTI Guide</span>
             <span className="fdd-badge">MD-Only</span>
             <span className="fdd-badge">Non-Controlled Meds Only</span>
           </div>
@@ -479,11 +412,11 @@ export default function FaqDeepDiveHubPage() {
         <section className="fdd-section" aria-labelledby="regulatory-heading">
           <h2 id="regulatory-heading" className="fdd-h2">Telehealth and Prescription Law — What Patients Should Know</h2>
           <p className="fdd-p">
-            All five medications on this page are non-controlled substances. This distinction is important because the
+            UTI antibiotics are non-controlled substances. This distinction is important because the
             Ryan Haight Online Pharmacy Consumer Protection Act (2008) and associated DEA rules require an in-person
-            evaluation prior to prescribing controlled substances via telemedicine (with narrow exceptions). Since
-            finasteride, sildenafil, tadalafil, propranolol, and common UTI antibiotics are not scheduled controlled
-            substances, they can be prescribed following a thorough telemedicine evaluation that meets standard clinical requirements.
+            evaluation prior to prescribing controlled substances via telemedicine (with narrow exceptions). Common UTI
+            antibiotics (nitrofurantoin, TMP-SMX, fosfomycin) are not scheduled controlled substances and can be
+            prescribed following a thorough telemedicine evaluation that meets standard clinical requirements.
           </p>
           <p className="fdd-p">
             State-level telehealth laws vary. Some states have additional informed consent requirements for certain
