@@ -98,6 +98,11 @@ import VtDoxypepStiPreventionOnline from './VtDoxypepStiPreventionOnline';
 import VtAcneTreatmentOnline from './VtAcneTreatmentOnline';
 import VtCellulitisTreatmentOnline from './VtCellulitisTreatmentOnline';
 import { summarizeConditionState, citableSummaryToJsonLd } from '../../../lib/citable-summary';
+// ── 2026-06-10 Phase 2: per-state JSON template architecture ──
+// loadStateTemplate(slug) returns null when no template exists for that state,
+// causing all `stateTpl && (...)` guards below to render NOTHING — pages fall
+// back to current generic behavior. See data/state-templates/_schema.md.
+import { loadStateTemplate, getConditionOverride, mergeFaqs } from '../../../lib/state-template';
 
 // VT pilot cohort (2026-06-04): restrict /vt/ static generation to the 10 hand-crafted
 // condition pages — the other ~50 slugs are not staged and must NOT fall through to the
@@ -464,7 +469,10 @@ export default async function ConditionPage({ params }) {
   // can derive a clean condition name without re-reading the URL params.
   if (condition && !condition.slug) condition.slug = conditionSlug;
   const baseUrl = 'https://teledirectmd.com';
-  const jsonLd = generateJsonLd(condition, state);
+  // 2026-06-10: load state-template first so generateJsonLd can pick up its FAQs
+  // and Physician credential. When stateTpl is null, JSON-LD output is unchanged.
+  const _earlyStateTpl = loadStateTemplate(slug);
+  const jsonLd = generateJsonLd(condition, state, _earlyStateTpl);
   const today = new Date().toISOString().split('T')[0];
   const pid = `${slug}-${conditionSlug}`;
   const allStates = getStates();
@@ -492,6 +500,14 @@ export default async function ConditionPage({ params }) {
   const pageUrl_AI = `https://teledirectmd.com/${slug}/${conditionSlug}`;
   const citableJsonLd_AI = citableSummaryToJsonLd(citableSummary_AI, { pageUrl: pageUrl_AI });
 
+  // ── 2026-06-10 Phase 2: state-template (null when no template exists yet) ──
+  // (reuses _earlyStateTpl loaded above via cache; safe to call twice)
+  const stateTpl = _earlyStateTpl;
+  const stateConditionOverride = getConditionOverride(stateTpl, conditionSlug);
+  // Merge state FAQs into condition FAQ items. When stateTpl is null, this is
+  // a no-op pass-through, so JSON-LD generation upstream isn't affected.
+  const enrichedFaqItems = mergeFaqs(condition.faq && condition.faq.items, stateTpl);
+
 
   return (
     <>
@@ -500,6 +516,20 @@ export default async function ConditionPage({ params }) {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
       <CitableSummaryBlock summary={citableSummary_AI} jsonLd={citableJsonLd_AI} idSuffix={`${slug}-${conditionSlug}`} />
+
+      {/* INJECT 1: State opener paragraph (replaces generic intro on stated states) */}
+      {stateTpl && stateTpl.stateHero && stateTpl.stateHero.openingParagraph && (
+        <div className="tdmd-state-opener" data-speakable="true" style={{
+          background: '#FAFCFD', borderLeft: '4px solid #006B73',
+          padding: '1rem 1.25rem', margin: '0', lineHeight: 1.65
+        }}>
+          <div className="tdmd-container">
+            <p style={{ margin: 0, color: '#0A2438', fontSize: '0.98rem' }}>
+              {stateTpl.stateHero.openingParagraph}
+            </p>
+          </div>
+        </div>
+      )}
 
       {/* 0) Breadcrumb */}
       <nav className="tdmd-breadcrumbs" aria-label="Breadcrumb">
@@ -999,12 +1029,43 @@ export default async function ConditionPage({ params }) {
         </div>
       </section>
 
+      {/* INJECT 9: State condition × state intersection paragraph (just before FAQ) */}
+      {stateConditionOverride && stateConditionOverride.stateConditionParagraph && (
+        <section className="tdmd-section tdmd-state-condition" id={`${pid}-state-condition`}>
+          <div className="tdmd-container">
+            <h2>{condition.conditionName} in {state.name}</h2>
+            <p>{stateConditionOverride.stateConditionParagraph}</p>
+          </div>
+        </section>
+      )}
+
+      {/* INJECT 10: "Practicing in {State}" bounded block (compliance + cities + epi) */}
+      {stateTpl && (
+        <section className="tdmd-section tdmd-practicing-in-state" id={`${pid}-practicing-in-${slug}`}>
+          <div className="tdmd-container">
+            <h2>Practicing in {state.name}</h2>
+            {stateTpl.stateCompliance && stateTpl.stateCompliance.credentialBlock && (
+              <p>{stateTpl.stateCompliance.credentialBlock}</p>
+            )}
+            {stateTpl.stateCities && stateTpl.stateCities.metroAndRural && (
+              <p>{stateTpl.stateCities.metroAndRural}</p>
+            )}
+            {stateTpl.stateEpidemiology && stateTpl.stateEpidemiology.general && (
+              <p>{stateTpl.stateEpidemiology.general}</p>
+            )}
+            {stateTpl.stateInsurance && stateTpl.stateInsurance.selfPayDisclosure && (
+              <p>{stateTpl.stateInsurance.selfPayDisclosure}</p>
+            )}
+          </div>
+        </section>
+      )}
+
       {/* 17) FAQ Accordion */}
       <section className="tdmd-section tdmd-faq" id={`${pid}-faq`}>
         <div className="tdmd-container">
           <FaqAccordion
             sectionTitle={condition.faq.sectionTitle}
-            items={condition.faq.items.map((item, i) => ({
+            items={enrichedFaqItems.map((item, i) => ({
               question: item.question,
               answer: item.answer,
               id: `${pid}-faq-${i}`,
