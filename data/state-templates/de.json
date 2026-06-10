@@ -1,0 +1,305 @@
+{
+  "stateCode": "DE",
+  "stateName": "Delaware",
+  "schemaVersion": "1.0",
+  "lastReviewed": "2026-06-10",
+  "reviewedBy": "Parth Bhavsar, MD",
+  "writingNotes": {
+    "statuteNote": "Delaware Code Title 24, Chapter 17, \u00a7 1769D was repealed effective July 1, 2021 (83 Del. Laws, c. 52, \u00a7 6). Telehealth practice authority in Delaware is now governed by Title 24, Chapter 60 (\u00a7\u00a7 6001\u20136010), a consolidated telehealth chapter that superseded \u00a7 1769D. The old citation still appears in older regulatory language and is recognized by the DSBMLD as the predecessor statute; the current operative citation is 24 Del. C. \u00a7 6002 et seq. Both citations are included in the legal layer for completeness.",
+    "lymeNote": "CDC 2022 MMWR data (MMWR Vol 73 No 6, Feb 2024) shows Delaware reported 298 Lyme disease cases in 2022; median incidence for high-incidence jurisdictions was 68.3/100k. Delaware is classified as a high-incidence Lyme jurisdiction by CDC. The 590 figure in the table for Delaware is the 2017\u20132019 annual average, not a 2022 figure.",
+    "highmarkPlanNames": "Highmark Blue Cross Blue Shield Delaware (HIOS ID 76168) 2026 marketplace plans verified via Delaware Department of Insurance filing (insurance.delaware.gov). State employee plans documented via DE Open Enrollment Guide 2025\u201326 (PPO Blue, First State Basic, First State Comprehensive). Commercial plan names (Blue Preferred PPO, Blue Select EPO) are consistent with Highmark DE product lines; exact 2026 commercial plan lineup not independently verified from a primary source \u2014 flag for compliance review before deploy.",
+    "delawareFirstHealthNote": "Delaware First Health (Payor ID 68069) joined Highmark Health Options and AmeriHealth Caritas DE as the third Delaware Medicaid MCO per a 2023 announcement. The original 2017 DHSS announcement named only two MCOs. Delaware First Health is now the third Medicaid MCO; included in FAQ answer accordingly."
+  },
+  "voiceProfile": {
+    "density": "mid",
+    "regulation": "standard",
+    "payerLandscape": "self-pay-only",
+    "epidemiology": [
+      "lyme-high",
+      "allergy-moderate",
+      "coastal-uv-sussex",
+      "flu-northeast"
+    ],
+    "boardStrictness": "standard",
+    "culturalRegister": "northeast",
+    "voiceNotes": "Delaware's sub-1,100-square-mile footprint and northeast corridor location call for a direct, clinically precise voice with mid-Atlantic awareness. TeleDirectMD operates self-pay only in Delaware ($79 flat) \u2014 no commercial payer enrollment. Lyme disease is a CDC-designated high-incidence concern, and the Sussex County coast introduces UV and outdoor-exposure framing. No frontier or rural softening needed; all three counties are medically developed."
+  },
+  "stateHero": {
+    "openingParagraph": "Delaware residents seeking same-day treatment for common illnesses can book a video visit with Parth Bhavsar, MD \u2014 board-certified Family Medicine \u2014 without leaving home. TeleDirectMD holds an active Delaware medical license (C1-0029257) issued by the Delaware Board of Medical Licensure and Discipline, verifiable through DELPROS at delpros.delaware.gov. Delaware's compact size \u2014 one of the most densely populated states in the country \u2014 still leaves many Delaware residents facing long waits at urgent care clinics in Wilmington, Dover, and Newark. A same-day Delaware telehealth visit costs $79 flat self-pay, with no insurance complexity, no prior auth, and no surprise billing. HSA and FSA cards are accepted. Adults 18 and older located anywhere in Delaware are eligible.",
+    "stateContextHint": "Licensed in Delaware (C1-0029257) by the Delaware Board of Medical Licensure and Discipline. Same-day video visits for Delaware adults. $79 flat self-pay \u2014 no insurance, no copay surprises, no prior auth.",
+    "saturation": {
+      "stateNameMentions": 6,
+      "stateEntityMentions": 4
+    }
+  },
+  "stateEligibility": {
+    "intro": "TeleDirectMD serves adults age 18 and older who are physically located in Delaware at the time of the video visit. Delaware Code Title 24, Chapter 60 requires the patient to be at an originating site within Delaware during a telehealth encounter. Patients visiting Delaware for work or tourism \u2014 such as those spending time on the Sussex County beaches or at Dover's casinos \u2014 are eligible while present in the state. Students at the University of Delaware in Newark and Delaware State University in Dover are eligible. Minors and patients requiring DEA-controlled substances are outside the scope of TeleDirectMD's Delaware telehealth service.",
+    "localTriggers": [
+      "Delaware Code Title 24, Chapter 60, \u00a7 6004 requires the patient to be physically located at an originating site within Delaware at the time of the telehealth visit \u2014 a patient who has moved to another state is not eligible under the Delaware license.",
+      "Delaware does not require an initial in-person visit before a telehealth physician-patient relationship can be established, provided the physician meets the standard-of-care requirements under 24 Del. C. \u00a7 6004(a)(4) using audio-visual communication.",
+      "Patients located in Wilmington near the Pennsylvania border or in Newark near the Maryland state line must confirm they are physically in Delaware \u2014 not a neighboring state \u2014 at the time of the visit for the Delaware license to apply.",
+      "Delaware telehealth law (24 Del. C. \u00a7 6004(b)(7)) requires the physician to provide a written visit summary to the patient; TeleDirectMD fulfills this by sending a secure after-visit summary within 24 hours of each Delaware telehealth encounter."
+    ]
+  },
+  "statePricing": {
+    "context": "TeleDirectMD charges $79 flat self-pay for all Delaware telehealth visits \u2014 no insurance required, no copay tiers, no surprise billing, no claim denials. HSA and FSA cards are accepted at the time of booking. Self-pay simplifies the Delaware patient experience: no prior authorization, no in-network/out-of-network ambiguity, and no follow-up billing weeks after the visit. Delaware Medicaid is administered through three managed care organizations \u2014 Highmark Health Options, AmeriHealth Caritas Delaware, and Delaware First Health \u2014 none of which TeleDirectMD currently participates in; Delaware Medicaid beneficiaries should contact their MCO for in-network telehealth providers. For Delaware patients with commercial insurance, the $79 flat rate is often comparable to or less than a typical specialist copay, particularly for high-deductible plans where the patient is responsible for the full visit cost before deductible. Delaware Code Title 18, Chapter 33, \u00a7 3370 (Delaware's telehealth parity law) governs how insurers reimburse telehealth, but only applies if a payer relationship exists; TeleDirectMD does not bill Delaware insurance and charges the same flat $79 to every Delaware patient regardless of coverage.",
+    "additionalNotes": [
+      "$79 flat self-pay \u2014 no hidden fees, no facility charges, no follow-up billing.",
+      "HSA and FSA cards accepted at booking.",
+      "No insurance verification or prior authorization required."
+    ]
+  },
+  "stateTreatmentContext": {
+    "pharmacyAndRx": "Prescriptions issued during Delaware telehealth visits are transmitted electronically under Delaware's mandatory e-prescribing law (24 Del. C. \u00a7 1764A, effective January 1, 2021), which requires all Delaware-licensed physicians to issue prescriptions electronically except in defined exception circumstances. E-prescriptions are routed to the Delaware pharmacy of the patient's choice in real time. Delaware pharmacy chains include CVS (multiple locations in Wilmington, Newark, Dover, and throughout New Castle, Kent, and Sussex counties), Walgreens (statewide including Wilmington, Bear, and Georgetown), Walmart Pharmacy (locations in Bear, Dover, Middletown, and Seaford), and Acme Markets pharmacies serving northern Delaware. Happy Harry's, the Delaware-heritage drugstore brand founded in Wilmington in 1962, now operates as part of Walgreens but retains strong brand recognition among longtime Delaware residents. Rite Aid locations remain in select Delaware communities. Prescribers and pharmacies dispensing controlled substances in Delaware must register with the Delaware Prescription Monitoring Program (PMP), authorized under 16 Del. C. \u00a7 4798 and administered by the Office of Controlled Substances (OCS) within the Delaware Division of Professional Regulation. TeleDirectMD does not prescribe DEA-controlled substances (Schedules II\u2013V) via telehealth per the federal Ryan Haight Act and Delaware prescribing standards.",
+    "pharmacyChains": [
+      {
+        "name": "CVS Pharmacy",
+        "coverageNote": "Multiple locations in Wilmington, Newark, Dover, Milford, Georgetown, and across all three Delaware counties",
+        "eRxAccepted": true
+      },
+      {
+        "name": "Walgreens / Happy Harry's",
+        "coverageNote": "Walgreens operates former Happy Harry's Delaware locations statewide; Happy Harry's was a Delaware-founded chain (Wilmington, 1962) now integrated into Walgreens",
+        "eRxAccepted": true
+      },
+      {
+        "name": "Walmart Pharmacy",
+        "coverageNote": "Bear (New Castle County), Dover (Kent County), Middletown, Seaford (Sussex County)",
+        "eRxAccepted": true
+      },
+      {
+        "name": "Acme Markets Pharmacy",
+        "coverageNote": "Northern Delaware and Wilmington metro; regional supermarket chain with pharmacy counters",
+        "eRxAccepted": true
+      },
+      {
+        "name": "Rite Aid",
+        "coverageNote": "Select Delaware locations; coverage varies \u2014 confirm at riteaid.com",
+        "eRxAccepted": true
+      }
+    ]
+  },
+  "stateEpidemiology": {
+    "general": "Delaware is classified by the CDC as a high-incidence Lyme disease jurisdiction, with 298 confirmed cases reported in 2022 (down from a 2017\u20132019 average of 590 annually per MMWR Vol. 73 No. 6, Feb. 2024). The black-legged tick (Ixodes scapularis) is established throughout Delaware's wooded areas, particularly in New Castle and Sussex counties. Delaware's mid-Atlantic position and humid summers drive moderate-to-high seasonal allergy burden: ragweed peaks August through October statewide, with tree pollen (oak, maple, birch) peaking March through May in northern Delaware. Sussex County's Atlantic coastal beaches \u2014 including Rehoboth Beach, Bethany Beach, and Dewey Beach \u2014 create elevated UV exposure risk for southern Delaware residents and seasonal visitors. Delaware's Division of Public Health (DPH), within the Delaware Department of Health and Social Services (DHSS), maintains statewide surveillance for reportable communicable diseases including influenza, Lyme disease, and sexually transmitted infections under Delaware's Communicable Disease regulations (16 Del. C. Chapter 5).",
+    "citations": [
+      {
+        "label": "CDC MMWR Vol. 73 No. 6 (Feb. 2024) \u2014 Lyme Disease Surveillance 2022, Delaware high-incidence classification",
+        "url": "https://www.cdc.gov/mmwr/volumes/73/wr/mm7306a1.htm"
+      },
+      {
+        "label": "Delaware Division of Professional Regulation \u2014 Board of Medical Licensure and Discipline",
+        "url": "https://dpr.delaware.gov/boards/medicalpractice/"
+      },
+      {
+        "label": "Delaware Code Title 24, Chapter 60 \u2014 Provisions Applicable to Telehealth and Telemedicine (current operative telehealth statute, effective July 1, 2021)",
+        "url": "https://delcode.delaware.gov/title24/c060/"
+      },
+      {
+        "label": "Delaware Prescription Monitoring Program (PMP) \u2014 authorized under 16 Del. C. \u00a7 4798, administered by Office of Controlled Substances",
+        "url": "https://dpr.delaware.gov/boards/pmp/"
+      },
+      {
+        "label": "Delaware DHSS \u2014 DHSS Announces Highmark and AmeriHealth Caritas Selected to Operate Medicaid MCO Program (Oct. 2017)",
+        "url": "https://news.delaware.gov/2017/10/02/dhss-announces-highmark-amerihealth-caritas-selected-operate-medicaid-managed-care-program/"
+      },
+      {
+        "label": "Delaware Code Title 18, Chapter 33, \u00a7 3370 \u2014 Telemedicine coverage parity for Delaware insurers (enacted House Bill 69, 80 Del. Laws c. 80)",
+        "url": "https://legis.delaware.gov/SessionLaws?volume=80&chapter=80"
+      },
+      {
+        "label": "Delaware DHSS \u2014 Vector-Borne Disease Surveillance Report 2023",
+        "url": "https://www.dhss.delaware.gov/wp-content/uploads/sites/10/dph/pdf/DEVBDReport2023FINAL.pdf"
+      },
+      {
+        "label": "Delaware Division of Professional Regulation \u2014 DELPROS License Verification Portal",
+        "url": "https://delpros.delaware.gov/OH_Web_Agency_Login"
+      }
+    ]
+  },
+  "stateCompliance": {
+    "credentialBlock": "Parth Bhavsar, MD \u2014 board-certified Family Medicine \u2014 holds an active Delaware medical license (C1-0029257) issued February 17, 2026, by the Delaware Board of Medical Licensure and Discipline (DSBMLD), operating under the Delaware Division of Professional Regulation. The DSBMLD's statutory authority derives from Delaware Code Title 24, Chapter 17, and telehealth practice in Delaware is currently governed by Delaware Code Title 24, Chapter 60 (\u00a7\u00a7 6001\u20136010), the Provisions Applicable to Telehealth and Telemedicine, effective July 1, 2021. Delaware patients may independently verify Dr. Bhavsar's Delaware license through the DELPROS online portal. The license expires March 31, 2027. NPI: 1104323203.",
+    "verifyUrl": "https://delpros.delaware.gov/OH_Web_Agency_Login",
+    "statuteCitation": "Delaware Code Title 24, Chapter 60, \u00a7\u00a7 6001\u20136010 (Provisions Applicable to Telehealth and Telemedicine, effective July 1, 2021); predecessor authority: Delaware Code Title 24, Ch. 17, \u00a7 1769D (now repealed)",
+    "licenseNumber": "C1-0029257",
+    "boardName": "Delaware Board of Medical Licensure and Discipline",
+    "boardUrl": "https://dpr.delaware.gov/boards/medicalpractice/",
+    "dateIssued": "2026-02-17",
+    "dateExpires": "2027-03-31"
+  },
+  "stateCities": {
+    "metroAndRural": "TeleDirectMD serves adults located anywhere in Delaware across all three counties. New Castle County \u2014 Delaware's most populous \u2014 includes Wilmington (Delaware's largest city), Newark (home to the University of Delaware), Bear, Hockessin, Pike Creek, and Middletown. Kent County's county seat is Dover, Delaware's capital, which anchors the central part of the state; Smyrna, Milford, and Harrington are also served. Sussex County, the southernmost and largest county by area, includes Georgetown (the county seat), Seaford, Laurel, Milford, and the Atlantic coastal resort communities of Rehoboth Beach and Lewes. Delaware has no frontier counties; all regions have established broadband infrastructure and pharmacy access for e-prescription fulfillment.",
+    "cityList": [
+      {
+        "city": "Wilmington",
+        "county": "New Castle County",
+        "note": "Delaware's largest city and economic hub"
+      },
+      {
+        "city": "Newark",
+        "county": "New Castle County",
+        "note": "University of Delaware campus city"
+      },
+      {
+        "city": "Bear",
+        "county": "New Castle County",
+        "note": "Suburban New Castle County"
+      },
+      {
+        "city": "Hockessin",
+        "county": "New Castle County",
+        "note": "Northern Delaware suburb"
+      },
+      {
+        "city": "Pike Creek",
+        "county": "New Castle County",
+        "note": "Suburban Wilmington community"
+      },
+      {
+        "city": "Middletown",
+        "county": "New Castle County",
+        "note": "Rapidly growing southern New Castle County"
+      },
+      {
+        "city": "Smyrna",
+        "county": "Kent / New Castle County line",
+        "note": "Straddles county line"
+      },
+      {
+        "city": "Dover",
+        "county": "Kent County",
+        "note": "Delaware state capital"
+      },
+      {
+        "city": "Milford",
+        "county": "Kent / Sussex County",
+        "note": "Straddles Kent and Sussex county lines"
+      },
+      {
+        "city": "Harrington",
+        "county": "Kent County",
+        "note": "Central Delaware"
+      },
+      {
+        "city": "Georgetown",
+        "county": "Sussex County",
+        "note": "Sussex County seat"
+      },
+      {
+        "city": "Seaford",
+        "county": "Sussex County",
+        "note": "Western Sussex County"
+      },
+      {
+        "city": "Laurel",
+        "county": "Sussex County",
+        "note": "Southwestern Sussex County"
+      },
+      {
+        "city": "Rehoboth Beach",
+        "county": "Sussex County",
+        "note": "Atlantic coastal resort community"
+      },
+      {
+        "city": "Lewes",
+        "county": "Sussex County",
+        "note": "Historic coastal town, Cape Henlopen area"
+      }
+    ],
+    "frontierCounties": []
+  },
+  "stateInsurance": {
+    "mode": "self-pay-only",
+    "selfPayDisclosure": "TeleDirectMD operates self-pay only in Delaware \u2014 no commercial insurance, no Medicaid, no Medicare. Every Delaware visit is $79 flat self-pay, paid at booking. There are no hidden fees, facility charges, or follow-up bills. HSA and FSA debit cards are accepted. Delaware patients with commercial insurance may still book TeleDirectMD telehealth at the $79 flat rate; the visit is paid out-of-pocket and may be submitted to the patient's plan for out-of-network reimbursement at the patient's discretion, though TeleDirectMD does not guarantee reimbursement and does not file insurance claims on behalf of Delaware patients. Delaware Medicaid beneficiaries \u2014 including those enrolled with Highmark Health Options, AmeriHealth Caritas Delaware, or Delaware First Health \u2014 should contact their MCO to locate in-network telehealth options.",
+    "payers": []
+  },
+  "stateFaqs": [
+    {
+      "question": "Do you accept Delaware Medicaid \u2014 including Highmark Health Options, AmeriHealth Caritas Delaware, or Delaware First Health?",
+      "answer": "TeleDirectMD does not currently accept Delaware Medicaid managed care plans. Delaware Medicaid is administered through three managed care organizations: Highmark Health Options, AmeriHealth Caritas Delaware, and Delaware First Health. None of these MCOs are currently in TeleDirectMD's Delaware network. Delaware Medicaid beneficiaries may visit dhss.delaware.gov or contact their MCO directly to find covered telehealth providers. The $79 flat self-pay rate is available to all Delaware patients regardless of Medicaid status."
+    },
+    {
+      "question": "Is telehealth legal for treating conditions like sinus infections, UTIs, and allergies in Delaware?",
+      "answer": "Yes. Delaware Code Title 24, Chapter 60 (effective July 1, 2021) authorizes Delaware-licensed physicians to deliver clinical health-care services via real-time audio-visual telehealth without a prior in-person visit, provided the physician establishes a proper provider-patient relationship through audio-visual evaluation meeting the standard of care. Common conditions \u2014 including acute bacterial sinusitis, uncomplicated UTI, seasonal allergies, pink eye, and skin conditions \u2014 are routinely appropriate for telehealth evaluation in Delaware. Dr. Bhavsar holds an active Delaware medical license (C1-0029257) from the Delaware Board of Medical Licensure and Discipline (DSBMLD)."
+    },
+    {
+      "question": "Which Delaware pharmacies will receive my prescription?",
+      "answer": "TeleDirectMD transmits prescriptions electronically under Delaware's mandatory e-prescribing law (24 Del. C. \u00a7 1764A). You choose any Delaware pharmacy at booking: CVS locations throughout Wilmington, Newark, Dover, and Sussex County; Walgreens (including former Happy Harry's Delaware locations); Walmart Pharmacy in Bear, Dover, Middletown, and Seaford; Acme Markets pharmacy in northern Delaware; and Rite Aid in select Delaware communities. Your prescription is routed directly to your chosen Delaware pharmacy, typically ready within one to two hours."
+    },
+    {
+      "question": "Are TeleDirectMD physicians licensed in Delaware? How do I verify?",
+      "answer": "Yes. Parth Bhavsar, MD \u2014 board-certified Family Medicine \u2014 holds Delaware medical license C1-0029257, issued February 17, 2026, by the Delaware Board of Medical Licensure and Discipline (DSBMLD) under the Delaware Division of Professional Regulation. You can independently verify this license at any time through the DELPROS portal at delpros.delaware.gov. The license is active and expires March 31, 2027. TeleDirectMD complies with all Delaware telehealth practice requirements under 24 Del. C. Chapter 60."
+    },
+    {
+      "question": "Where in Delaware do you serve patients \u2014 is TeleDirectMD available in all three counties?",
+      "answer": "TeleDirectMD serves adults 18+ located anywhere in Delaware during the visit \u2014 in all three counties. New Castle County: Wilmington, Newark, Bear, Hockessin, Pike Creek, and Middletown. Kent County: Dover (Delaware's capital), Smyrna, Harrington, and Milford. Sussex County: Georgetown, Seaford, Laurel, Rehoboth Beach, Lewes, and surrounding communities. Delaware has no frontier or access-restricted areas. All visits require the patient to be physically in Delaware at the time of the telehealth encounter per 24 Del. C. \u00a7 6004."
+    },
+    {
+      "question": "What if I'm in Delaware and need a controlled-substance medication \u2014 can TeleDirectMD prescribe it?",
+      "answer": "No. Per the federal Ryan Haight Online Pharmacy Consumer Protection Act and Delaware prescribing standards, TeleDirectMD does not prescribe DEA-controlled substances (Schedules II\u2013V) \u2014 including opioids, benzodiazepines, stimulants (ADHD medications), or sleep medications \u2014 via telehealth without a prior in-person physician-patient relationship. Delaware Code Title 24, Chapter 60 permits telehealth prescribing subject to Board limitations. Delaware's Prescription Monitoring Program (PMP), authorized under 16 Del. C. \u00a7 4798 and administered by the Office of Controlled Substances, tracks all controlled substance prescriptions in the state. For controlled substances, patients should contact their in-person Delaware primary care physician or a Delaware urgent care facility."
+    }
+  ],
+  "conditionOverrides": {
+    "sinus-infection-treatment-online": {
+      "stateConditionParagraph": "Sinus infection visits in Delaware peak August through October, driven by the state's high ragweed pollen burden \u2014 Delaware's mid-Atlantic location places it squarely in the ragweed corridor that runs from the Wilmington suburbs through Kent and Sussex counties. Delaware's humid summers and moderate winters create favorable conditions for both viral upper respiratory infections and secondary bacterial sinusitis. The Delaware Division of Public Health (DPH) monitors respiratory illness statewide; ABRS (acute bacterial rhinosinusitis) meeting IDSA diagnostic criteria \u2014 symptoms persisting 10+ days without improvement, or double-worsening after initial viral illness \u2014 is appropriate for telehealth evaluation. A same-day Delaware telehealth visit with Dr. Bhavsar costs $79 flat self-pay, no insurance required."
+    },
+    "dandruff-treatment-online": {
+      "stateConditionParagraph": "Dandruff and seborrheic dermatitis in Delaware are influenced by the state's humid coastal climate, particularly in Sussex County, where Atlantic Ocean proximity raises year-round humidity. Malassezia yeast overgrowth \u2014 the primary driver of seborrheic dermatitis \u2014 thrives in humid environments, making Sussex County residents and seasonal beach visitors particularly susceptible to flares during summer months. In-person dermatology appointments in Delaware can involve waits of six to eight weeks at ChristianaCare and Beebe Healthcare dermatology practices. TeleDirectMD offers same-day Delaware telehealth evaluation for dandruff and seborrheic dermatitis: prescription-strength ketoconazole shampoo, topical selenium sulfide, or antifungal scalp treatments can be prescribed and routed to any Delaware CVS, Walgreens, or Walmart Pharmacy. A Delaware video visit with Dr. Bhavsar costs $79 flat self-pay, with no insurance complexity."
+    },
+    "influenza-treatment-online": {
+      "stateConditionParagraph": "Delaware influenza season typically runs November through March, consistent with the broader Northeast pattern. The Delaware Division of Public Health (DHSS/DPH) participates in CDC's influenza surveillance network and publishes weekly flu activity reports during peak season. Delaware's Route 1 coastal corridor and Dover Air Force Base create points of interstate population transit that can accelerate flu spread into the state. Oral antiviral therapy with oseltamivir (Tamiflu) is most effective when initiated within 48 hours of symptom onset \u2014 Delaware patients can book a same-day video visit through TeleDirectMD, receive clinical evaluation by a Delaware-licensed physician, and have a prescription transmitted electronically to a Delaware Walgreens, CVS, or Walmart Pharmacy the same day. Self-pay is $79 flat."
+    },
+    "ear-pain-treatment-online": {
+      "stateConditionParagraph": "Ear pain in Delaware adults spans multiple etiologies: acute otitis media with effusion in adults recovering from upper respiratory infections, otitis externa (swimmer's ear) peaking in summer among Sussex County beach communities including Rehoboth Beach, Dewey Beach, and Bethany Beach, and eustachian tube dysfunction driven by Delaware's ragweed allergy season. ENT specialist access in Delaware is concentrated at ChristianaCare in Wilmington and Bayhealth in Dover, with referral wait times frequently exceeding three weeks for non-emergent ear complaints. TeleDirectMD performs audio-visual ear pain evaluations for Delaware adults; patients should have adequate lighting for the physician to assess visible ear canal abnormalities when possible. Prescriptions are transmitted to any Delaware pharmacy electronically. A Delaware video visit with Dr. Bhavsar costs $79 flat self-pay, with no insurance complexity."
+    },
+    "genital-herpes-treatment-online": {
+      "stateConditionParagraph": "Delaware's Division of Public Health (DPH) tracks sexually transmitted infections under mandatory Delaware Communicable Disease regulations (16 Del. C. Chapter 5). Genital herpes (HSV-2) is endemic statewide; Delaware's Wilmington metro population and university communities in Newark create consistent STI exposure patterns. TeleDirectMD Delaware telehealth visits for genital herpes management are conducted on HIPAA-compliant video infrastructure \u2014 visit records are not reported to DPH (genital herpes is not a Delaware reportable disease). Patients can discuss antiviral suppressive therapy (valacyclovir, acyclovir) for Delaware residents managing recurrent outbreaks without visiting an in-person clinic. Prescriptions are routed electronically to any Delaware pharmacy. No in-person visit required for telehealth evaluation under Delaware's current telehealth practice standards. A Delaware video visit with Dr. Bhavsar costs $79 flat self-pay, with no insurance complexity."
+    },
+    "gout-treatment-online": {
+      "stateConditionParagraph": "Gout prevalence in Delaware is clinically significant among the state's older adult population, particularly in Sussex County, which has one of Delaware's highest proportions of adults age 65 and older. Delaware's BRFSS (Behavioral Risk Factor Surveillance System) data collected by DHSS shows Delaware adults carry above-average rates of hyperuricemia-related conditions. Sussex County's seasonal population influx during summer beach season \u2014 with dietary patterns rich in shellfish, red meat, and alcohol common among vacation-goers at Rehoboth Beach and Lewes \u2014 can trigger acute gout attacks. TeleDirectMD evaluates acute gout flares in Delaware adults; colchicine, indomethacin, or oral corticosteroid therapy can be prescribed and sent electronically to Delaware pharmacies. Uric acid management and allopurinol titration can also be discussed during a Delaware telehealth visit. A Delaware video visit with Dr. Bhavsar costs $79 flat self-pay, with no insurance complexity."
+    },
+    "hypertension-refills-online": {
+      "stateConditionParagraph": "Hypertension is one of Delaware's most prevalent chronic conditions. Delaware DHSS BRFSS data consistently shows approximately one-third of Delaware adults have diagnosed hypertension, and access to routine chronic disease management is a known gap in Delaware's primary care system, particularly in Kent and Sussex counties. ChristianaCare, Bayhealth Medical Center, and Beebe Healthcare are Delaware's major health systems managing hypertension, but new-patient primary care appointment waits of four to six weeks are common. TeleDirectMD can provide Delaware adults with same-day telehealth refills of established antihypertensive medications \u2014 beta-blockers, ACE inhibitors, ARBs, calcium channel blockers, and thiazide diuretics \u2014 when the patient has a previously established diagnosis and no red-flag symptoms. Prescriptions are transmitted electronically to Delaware CVS, Walgreens, Walmart, or Acme Markets pharmacy locations. Self-pay is $79 flat."
+    },
+    "head-lice-treatment-online": {
+      "stateConditionParagraph": "Head lice outbreaks in Delaware follow the back-to-school transmission pattern documented by school districts across New Castle, Kent, and Sussex counties, typically peaking in August and September as Delaware students return to class at Colonial School District (New Castle County), Capital School District (Dover/Kent County), and Indian River School District (Sussex County). Delaware Department of Education (DOE) school health guidelines address exclusion and treatment protocols for pediculosis. TeleDirectMD Delaware telehealth visits allow a Delaware-licensed physician to evaluate and prescribe Delaware-approved pediculicidal treatments \u2014 prescription permethrin, malathion lotion, or spinosad suspension \u2014 transmitted electronically to a Delaware CVS, Walgreens, or Walmart Pharmacy for same-day pickup. The $79 flat self-pay rate covers the full visit."
+    },
+    "pink-eye-treatment-online": {
+      "stateConditionParagraph": "Conjunctivitis in Delaware follows two distinct seasonal peaks: viral and bacterial pink eye spreading through Delaware schools and daycares in fall and winter (peaking in late October through February) and allergic conjunctivitis coinciding with Delaware's ragweed season (August\u2013October) and spring tree pollen season (March\u2013May). New Castle County's urban density in Wilmington and Newark contributes to rapid viral conjunctivitis transmission. Delaware adults with typical bacterial conjunctivitis \u2014 purulent discharge, crusting on waking, absence of itching \u2014 can receive a same-day Delaware telehealth evaluation. Prescription antibiotic eye drops (polymyxin-trimethoprim, tobramycin, or ciprofloxacin) are transmitted electronically to any Delaware pharmacy. Prescription antihistamine eye drops can be prescribed for Delaware patients with allergic conjunctivitis not controlled by over-the-counter options. A Delaware video visit with Dr. Bhavsar costs $79 flat self-pay, with no insurance complexity."
+    },
+    "seasonal-allergies-treatment-online": {
+      "stateConditionParagraph": "Delaware's allergy season runs nearly year-round across its three counties: tree pollen (oak, maple, birch, ash) peaks March through May in New Castle County's forested suburbs including Hockessin, Pike Creek, and Newark; grass pollen (Timothy, Kentucky bluegrass) peaks June through July across Delaware's agricultural Kent and Sussex counties; and ragweed \u2014 Delaware's most potent allergen \u2014 peaks August through October statewide and is particularly severe along the Sussex County coast, where onshore Atlantic breezes concentrate aeroallergens. Delaware patients with moderate-to-severe seasonal allergic rhinitis uncontrolled by OTC antihistamines can receive telehealth evaluation and prescription-strength nasal corticosteroids (fluticasone, mometasone, budesonide), leukotriene receptor antagonists (montelukast), or prescription antihistamines from a Delaware-licensed physician. Prescriptions are routed to any Delaware pharmacy. Self-pay is $79 flat self-pay available."
+    },
+    "common-cold-treatment-online": {
+      "stateConditionParagraph": "Common cold (viral rhinosinusitis) in Delaware peaks November through February, consistent with the broader northeast rhinovirus and coronavirus seasonal pattern. Delaware's I-95 corridor, running through Wilmington and connecting to the Philadelphia metro, enables rapid viral spread across state lines during fall and winter respiratory virus seasons. Delaware's DPH participates in CDC's ILINet (Influenza-Like Illness Surveillance Network), which captures statewide viral respiratory illness trends. TeleDirectMD Delaware telehealth visits for common cold focus on ruling out complications \u2014 bacterial superinfection, influenza, or COVID-19 \u2014 and optimizing symptomatic management. Delaware adults can access same-day telehealth evaluation when uncertain whether symptoms require antibiotics or antiviral treatment. Self-pay $79 flat."
+    },
+    "tinea-treatment-online": {
+      "stateConditionParagraph": "Tinea infections \u2014 including tinea corporis (ringworm), tinea pedis (athlete's foot), and tinea versicolor \u2014 are influenced by Delaware's humid climate and the coastal environment of Sussex County. Delaware's Atlantic coast resort communities experience heightened dermatophyte transmission in summer, as shared surfaces at beach showers, pool areas, and locker facilities at Rehoboth Beach and Bethany Beach create transmission opportunities. Tinea versicolor, caused by Malassezia yeast, is exacerbated by Delaware's humid summers throughout all three counties. TeleDirectMD Delaware telehealth evaluation uses audio-visual examination to characterize skin findings; prescription topical antifungals (clotrimazole, ketoconazole, terbinafine cream) or oral antifungal therapy (fluconazole, terbinafine tablets) can be prescribed and transmitted electronically to any Delaware CVS, Walgreens, or Walmart Pharmacy location. A Delaware video visit with Dr. Bhavsar costs $79 flat self-pay, with no insurance complexity."
+    }
+  },
+  "stateLegalLayer": {
+    "required": true,
+    "blocks": [
+      {
+        "statute": "Delaware Code Title 24, Chapter 60, \u00a7\u00a7 6001\u20136010 (Provisions Applicable to Telehealth and Telemedicine)",
+        "renderAt": "hero-credential",
+        "content": "Telehealth services delivered to Delaware patients are governed by Delaware Code Title 24, Chapter 60 (effective July 1, 2021), which authorizes Delaware-licensed health-care providers to deliver clinical health-care services via real-time two-way audio-visual technology. Under 24 Del. C. \u00a7 6004, a physician-patient relationship may be established via telehealth provided the physician fully verifies patient identity and location, discloses credentials, obtains informed consent, establishes a diagnosis through acceptable medical practices using audio-visual evaluation, and provides a written visit summary. Delaware does not require an initial in-person visit before telehealth care may be delivered. The patient must be physically located in Delaware at the originating site at the time of the visit. TeleDirectMD complies with all requirements of 24 Del. C. Chapter 60."
+      },
+      {
+        "statute": "Delaware Code Title 24, Chapter 17, \u00a7 1764A (Electronic Prescribing \u2014 Physicians)",
+        "renderAt": "footer",
+        "content": "Delaware Code Title 24, \u00a7 1764A (effective January 1, 2021) requires all Delaware-licensed physicians to issue prescriptions electronically, except in defined exception circumstances. TeleDirectMD fulfills this requirement by transmitting all Delaware prescriptions via certified e-prescribing software directly to the Delaware pharmacy of the patient's choice. No paper, fax, or phone-in prescriptions are issued for Delaware patients except in cases of documented technological exception as permitted under \u00a7 1764A."
+      },
+      {
+        "statute": "Delaware Code Title 16, \u00a7 4798 \u2014 Delaware Prescription Monitoring Program (PMP)",
+        "renderAt": "footer",
+        "content": "The Delaware Prescription Monitoring Program (PMP), authorized under 16 Del. C. \u00a7 4798 and administered by the Office of Controlled Substances (OCS) within the Delaware Division of Professional Regulation, requires prescribers and dispensers of controlled substances (Schedules II\u2013V) to report to the PMP daily. TeleDirectMD does not prescribe controlled substances via Delaware telehealth. The PMP is cited here for Delaware patient transparency regarding how controlled substance prescriptions are tracked in Delaware."
+      },
+      {
+        "statute": "Delaware Code Title 18, Chapter 33, \u00a7 3370 \u2014 Telemedicine Insurance Parity",
+        "renderAt": "footer",
+        "content": "Delaware Code Title 18, \u00a7 3370 (Delaware's telehealth parity law) requires Delaware-regulated insurers to cover telehealth services at parity with equivalent in-person services and prohibits imposition of any copay, coinsurance, or deductible on telehealth that is not equally applied to in-person care. This law governs the relationship between Delaware patients and their own insurers; TeleDirectMD does not bill Delaware insurance and charges $79 flat self-pay for every Delaware telehealth visit. Delaware patients may submit our receipt to their insurer for possible out-of-network reimbursement."
+      }
+    ],
+    "forbiddenPhrases": []
+  }
+}
