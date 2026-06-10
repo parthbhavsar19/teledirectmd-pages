@@ -213,8 +213,8 @@ const jsonLd = {
         {
           '@type': 'HowToStep',
           position: 3,
-          name: 'Receive your prescription or doctor\'s note',
-          text: 'If clinically appropriate, your prescription is sent electronically to your pharmacy within minutes of the visit. Doctor\'s notes and visit summaries are delivered by email. Insurance claims (if applicable) are submitted electronically using CPT codes 99213/99214.',
+          name: 'Receive your prescription',
+          text: 'If clinically appropriate, your prescription is sent electronically to your pharmacy within minutes of the visit. Visit summaries are delivered by email. Insurance claims (if applicable) are submitted electronically using CPT codes 99213/99214.',
         },
       ],
     },

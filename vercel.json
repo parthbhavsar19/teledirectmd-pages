@@ -34,47 +34,65 @@
     },
     {
       "src": "/symptoms/asthma/?",
-      "headers": { "Location": "/asthma-refills-online/" },
+      "headers": {
+        "Location": "/asthma-refills-online/"
+      },
       "status": 301
     },
     {
       "src": "/symptoms/birth-control/?",
-      "headers": { "Location": "/birth-control-refills-online/" },
+      "headers": {
+        "Location": "/birth-control-refills-online/"
+      },
       "status": 301
     },
     {
       "src": "/symptoms/cold-sore/?",
-      "headers": { "Location": "/cold-sore-treatment-online/" },
+      "headers": {
+        "Location": "/cold-sore-treatment-online/"
+      },
       "status": 301
     },
     {
       "src": "/symptoms/cystic-acne/?",
-      "headers": { "Location": "/acne-treatment-online/" },
+      "headers": {
+        "Location": "/acne-treatment-online/"
+      },
       "status": 301
     },
     {
       "src": "/symptoms/erectile-dysfunction/?",
-      "headers": { "Location": "/erectile-dysfunction-treatment-online/" },
+      "headers": {
+        "Location": "/erectile-dysfunction-treatment-online/"
+      },
       "status": 301
     },
     {
       "src": "/symptoms/pink-eye/?",
-      "headers": { "Location": "/pink-eye-treatment-online/" },
+      "headers": {
+        "Location": "/pink-eye-treatment-online/"
+      },
       "status": 301
     },
     {
       "src": "/symptoms/sinus-infection/?",
-      "headers": { "Location": "/sinus-infection-treatment-online/" },
+      "headers": {
+        "Location": "/sinus-infection-treatment-online/"
+      },
       "status": 301
     },
     {
       "src": "/symptoms/strep-throat/?",
-      "headers": { "Location": "/sore-throat-treatment-online/" },
+      "headers": {
+        "Location": "/sore-throat-treatment-online/"
+      },
       "status": 301
     },
     {
       "src": "/symptoms/yeast-infection/?",
-      "headers": { "Location": "/yeast-infection-treatment-online/" },
+      "headers": {
+        "Location": "/yeast-infection-treatment-online/"
+      },
       "status": 301
     },
     {
@@ -366,337 +384,582 @@
     },
     {
       "src": "/or/asthma-refills-online/?",
-      "headers": { "Location": "/asthma-refills-online/" },
+      "headers": {
+        "Location": "/asthma-refills-online/"
+      },
       "status": 301
     },
     {
       "src": "/insurance/united-healthcare/acid-reflux/?",
-      "headers": { "Location": "/acid-reflux-refills-online/" },
+      "headers": {
+        "Location": "/acid-reflux-refills-online/"
+      },
       "status": 301
     },
     {
       "src": "/insurance/aetna/illinois/acid-reflux/?",
-      "headers": { "Location": "/il/acid-reflux-refills-online/" },
+      "headers": {
+        "Location": "/il/acid-reflux-refills-online/"
+      },
       "status": 301
     },
     {
       "src": "/insurance/aetna/colorado/strep-throat/?",
-      "headers": { "Location": "/co/sore-throat-treatment-online/" },
+      "headers": {
+        "Location": "/co/sore-throat-treatment-online/"
+      },
       "status": 301
     },
     {
       "src": "/insurance/aetna/tennessee/acid-reflux/?",
-      "headers": { "Location": "/tn/acid-reflux-refills-online/" },
+      "headers": {
+        "Location": "/tn/acid-reflux-refills-online/"
+      },
       "status": 301
     },
     {
       "src": "/insurance/aetna/minnesota/flu-treatment/?",
-      "headers": { "Location": "/mn/influenza-treatment-online/" },
+      "headers": {
+        "Location": "/mn/influenza-treatment-online/"
+      },
       "status": 301
     },
     {
       "src": "/insurance/aetna/illinois/flu-treatment/?",
-      "headers": { "Location": "/il/influenza-treatment-online/" },
+      "headers": {
+        "Location": "/il/influenza-treatment-online/"
+      },
       "status": 301
     },
     {
       "src": "/insurance/aetna/minnesota/hypertension-refill/?",
-      "headers": { "Location": "/mn/hypertension-refills-online/" },
+      "headers": {
+        "Location": "/mn/hypertension-refills-online/"
+      },
       "status": 301
     },
     {
       "src": "/insurance/aetna/pennsylvania/sinus-infection/?",
-      "headers": { "Location": "/pa/sinus-infection-treatment-online/" },
+      "headers": {
+        "Location": "/pa/sinus-infection-treatment-online/"
+      },
       "status": 301
     },
     {
       "src": "/insurance/aetna/colorado/acid-reflux/?",
-      "headers": { "Location": "/co/acid-reflux-refills-online/" },
+      "headers": {
+        "Location": "/co/acid-reflux-refills-online/"
+      },
       "status": 301
     },
     {
       "src": "/insurance/united-healthcare/georgia/sinus-infection/?",
-      "headers": { "Location": "/ga/sinus-infection-treatment-online/" },
+      "headers": {
+        "Location": "/ga/sinus-infection-treatment-online/"
+      },
       "status": 301
     },
     {
       "src": "/insurance/aetna/tennessee/flu-treatment/?",
-      "headers": { "Location": "/tn/influenza-treatment-online/" },
+      "headers": {
+        "Location": "/tn/influenza-treatment-online/"
+      },
       "status": 301
     },
     {
       "src": "/insurance/blue-cross-blue-shield/acid-reflux/?",
-      "headers": { "Location": "/acid-reflux-refills-online/" },
+      "headers": {
+        "Location": "/acid-reflux-refills-online/"
+      },
       "status": 301
     },
     {
       "src": "/insurance/united-healthcare/pink-eye/?",
-      "headers": { "Location": "/pink-eye-treatment-online/" },
+      "headers": {
+        "Location": "/pink-eye-treatment-online/"
+      },
       "status": 301
     },
     {
       "src": "/insurance/united-healthcare/tennessee/uti-treatment/?",
-      "headers": { "Location": "/tn/uti-treatment-online/" },
+      "headers": {
+        "Location": "/tn/uti-treatment-online/"
+      },
       "status": 301
     },
     {
       "src": "/insurance/aetna/illinois/hypertension-refill/?",
-      "headers": { "Location": "/il/hypertension-refills-online/" },
+      "headers": {
+        "Location": "/il/hypertension-refills-online/"
+      },
       "status": 301
     },
     {
       "src": "/insurance/united-healthcare/colorado/strep-throat/?",
-      "headers": { "Location": "/co/sore-throat-treatment-online/" },
+      "headers": {
+        "Location": "/co/sore-throat-treatment-online/"
+      },
       "status": 301
     },
     {
       "src": "/insurance/aetna/georgia/asthma-refill/?",
-      "headers": { "Location": "/ga/asthma-refills-online/" },
+      "headers": {
+        "Location": "/ga/asthma-refills-online/"
+      },
       "status": 301
     },
     {
       "src": "/insurance/united-healthcare/colorado/asthma-refill/?",
-      "headers": { "Location": "/co/asthma-refills-online/" },
+      "headers": {
+        "Location": "/co/asthma-refills-online/"
+      },
       "status": 301
     },
     {
       "src": "/insurance/united-healthcare/uti-treatment/?",
-      "headers": { "Location": "/uti-treatment-online/" },
+      "headers": {
+        "Location": "/uti-treatment-online/"
+      },
       "status": 301
     },
     {
       "src": "/insurance/aetna/georgia/sinus-infection/?",
-      "headers": { "Location": "/ga/sinus-infection-treatment-online/" },
+      "headers": {
+        "Location": "/ga/sinus-infection-treatment-online/"
+      },
       "status": 301
     },
     {
       "src": "/insurance/united-healthcare/new-jersey/pink-eye/?",
-      "headers": { "Location": "/nj/pink-eye-treatment-online/" },
+      "headers": {
+        "Location": "/nj/pink-eye-treatment-online/"
+      },
       "status": 301
     },
     {
       "src": "/insurance/aetna/uti-treatment/?",
-      "headers": { "Location": "/uti-treatment-online/" },
+      "headers": {
+        "Location": "/uti-treatment-online/"
+      },
       "status": 301
     },
     {
       "src": "/insurance/united-healthcare/washington/sinus-infection/?",
-      "headers": { "Location": "/wa/sinus-infection-treatment-online/" },
+      "headers": {
+        "Location": "/wa/sinus-infection-treatment-online/"
+      },
       "status": 301
     },
     {
       "src": "/insurance/united-healthcare/pennsylvania/pink-eye/?",
-      "headers": { "Location": "/pa/pink-eye-treatment-online/" },
+      "headers": {
+        "Location": "/pa/pink-eye-treatment-online/"
+      },
       "status": 301
     },
     {
       "src": "/insurance/aetna/arizona/hypertension-refill/?",
-      "headers": { "Location": "/az/hypertension-refills-online/" },
+      "headers": {
+        "Location": "/az/hypertension-refills-online/"
+      },
       "status": 301
     },
     {
       "src": "/insurance/aetna/georgia/strep-throat/?",
-      "headers": { "Location": "/ga/sore-throat-treatment-online/" },
+      "headers": {
+        "Location": "/ga/sore-throat-treatment-online/"
+      },
       "status": 301
     },
     {
       "src": "/insurance/united-healthcare/washington/acid-reflux/?",
-      "headers": { "Location": "/wa/acid-reflux-refills-online/" },
+      "headers": {
+        "Location": "/wa/acid-reflux-refills-online/"
+      },
       "status": 301
     },
     {
       "src": "/insurance/aetna/minnesota/uti-treatment/?",
-      "headers": { "Location": "/mn/uti-treatment-online/" },
+      "headers": {
+        "Location": "/mn/uti-treatment-online/"
+      },
       "status": 301
     },
     {
       "src": "/insurance/united-healthcare/new-jersey/asthma-refill/?",
-      "headers": { "Location": "/nj/asthma-refills-online/" },
+      "headers": {
+        "Location": "/nj/asthma-refills-online/"
+      },
       "status": 301
     },
     {
       "src": "/insurance/aetna/ohio/ear-infection/?",
-      "headers": { "Location": "/oh/ear-pain-treatment-online/" },
+      "headers": {
+        "Location": "/oh/ear-pain-treatment-online/"
+      },
       "status": 301
     },
     {
       "src": "/insurance/united-healthcare/tennessee/acid-reflux/?",
-      "headers": { "Location": "/tn/acid-reflux-refills-online/" },
+      "headers": {
+        "Location": "/tn/acid-reflux-refills-online/"
+      },
       "status": 301
     },
     {
       "src": "/insurance/united-healthcare/colorado/pink-eye/?",
-      "headers": { "Location": "/co/pink-eye-treatment-online/" },
+      "headers": {
+        "Location": "/co/pink-eye-treatment-online/"
+      },
       "status": 301
     },
     {
       "src": "/insurance/united-healthcare/minnesota/strep-throat/?",
-      "headers": { "Location": "/mn/sore-throat-treatment-online/" },
+      "headers": {
+        "Location": "/mn/sore-throat-treatment-online/"
+      },
       "status": 301
     },
     {
       "src": "/insurance/aetna/colorado/flu-treatment/?",
-      "headers": { "Location": "/co/influenza-treatment-online/" },
+      "headers": {
+        "Location": "/co/influenza-treatment-online/"
+      },
       "status": 301
     },
     {
       "src": "/insurance/aetna/arizona/sinus-infection/?",
-      "headers": { "Location": "/az/sinus-infection-treatment-online/" },
+      "headers": {
+        "Location": "/az/sinus-infection-treatment-online/"
+      },
       "status": 301
     },
     {
       "src": "/insurance/united-healthcare/north-carolina/strep-throat/?",
-      "headers": { "Location": "/nc/sore-throat-treatment-online/" },
+      "headers": {
+        "Location": "/nc/sore-throat-treatment-online/"
+      },
       "status": 301
     },
     {
       "src": "/insurance/aetna/asthma-refill/?",
-      "headers": { "Location": "/asthma-refills-online/" },
+      "headers": {
+        "Location": "/asthma-refills-online/"
+      },
       "status": 301
     },
     {
       "src": "/insurance/blue-cross-blue-shield/pennsylvania/ear-infection/?",
-      "headers": { "Location": "/pa/ear-pain-treatment-online/" },
+      "headers": {
+        "Location": "/pa/ear-pain-treatment-online/"
+      },
       "status": 301
     },
     {
       "src": "/insurance/aetna/minnesota/sinus-infection/?",
-      "headers": { "Location": "/mn/sinus-infection-treatment-online/" },
+      "headers": {
+        "Location": "/mn/sinus-infection-treatment-online/"
+      },
       "status": 301
     },
     {
       "src": "/insurance/blue-cross-blue-shield/georgia/flu-treatment/?",
-      "headers": { "Location": "/ga/influenza-treatment-online/" },
+      "headers": {
+        "Location": "/ga/influenza-treatment-online/"
+      },
       "status": 301
     },
     {
       "src": "/insurance/united-healthcare/pennsylvania/sinus-infection/?",
-      "headers": { "Location": "/pa/sinus-infection-treatment-online/" },
+      "headers": {
+        "Location": "/pa/sinus-infection-treatment-online/"
+      },
       "status": 301
     },
     {
       "src": "/insurance/aetna/minnesota/ear-infection/?",
-      "headers": { "Location": "/mn/ear-pain-treatment-online/" },
+      "headers": {
+        "Location": "/mn/ear-pain-treatment-online/"
+      },
       "status": 301
     },
     {
       "src": "/insurance/blue-cross-blue-shield/georgia/pink-eye/?",
-      "headers": { "Location": "/ga/pink-eye-treatment-online/" },
+      "headers": {
+        "Location": "/ga/pink-eye-treatment-online/"
+      },
       "status": 301
     },
     {
       "src": "/insurance/aetna/florida/uti-treatment/?",
-      "headers": { "Location": "/fl/uti-treatment-online/" },
+      "headers": {
+        "Location": "/fl/uti-treatment-online/"
+      },
       "status": 301
     },
     {
       "src": "/insurance/blue-cross-blue-shield/illinois/strep-throat/?",
-      "headers": { "Location": "/il/sore-throat-treatment-online/" },
+      "headers": {
+        "Location": "/il/sore-throat-treatment-online/"
+      },
       "status": 301
     },
     {
       "src": "/insurance/united-healthcare/north-carolina/ear-infection/?",
-      "headers": { "Location": "/nc/ear-pain-treatment-online/" },
+      "headers": {
+        "Location": "/nc/ear-pain-treatment-online/"
+      },
       "status": 301
     },
     {
       "src": "/insurance/aetna/flu-treatment/?",
-      "headers": { "Location": "/influenza-treatment-online/" },
+      "headers": {
+        "Location": "/influenza-treatment-online/"
+      },
       "status": 301
     },
     {
       "src": "/insurance/united-healthcare/minnesota/sinus-infection/?",
-      "headers": { "Location": "/mn/sinus-infection-treatment-online/" },
+      "headers": {
+        "Location": "/mn/sinus-infection-treatment-online/"
+      },
       "status": 301
     },
     {
       "src": "/insurance/united-healthcare/minnesota/uti-treatment/?",
-      "headers": { "Location": "/mn/uti-treatment-online/" },
+      "headers": {
+        "Location": "/mn/uti-treatment-online/"
+      },
       "status": 301
     },
     {
       "src": "/insurance/united-healthcare/ohio/uti-treatment/?",
-      "headers": { "Location": "/oh/uti-treatment-online/" },
+      "headers": {
+        "Location": "/oh/uti-treatment-online/"
+      },
       "status": 301
     },
     {
       "src": "/insurance/united-healthcare/washington/flu-treatment/?",
-      "headers": { "Location": "/wa/influenza-treatment-online/" },
+      "headers": {
+        "Location": "/wa/influenza-treatment-online/"
+      },
       "status": 301
     },
     {
       "src": "/insurance/united-healthcare/north-carolina/acid-reflux/?",
-      "headers": { "Location": "/nc/acid-reflux-refills-online/" },
+      "headers": {
+        "Location": "/nc/acid-reflux-refills-online/"
+      },
       "status": 301
     },
     {
       "src": "/insurance/aetna/georgia/pink-eye/?",
-      "headers": { "Location": "/ga/pink-eye-treatment-online/" },
+      "headers": {
+        "Location": "/ga/pink-eye-treatment-online/"
+      },
       "status": 301
     },
     {
       "src": "/insurance/aetna/florida/sinus-infection/?",
-      "headers": { "Location": "/fl/sinus-infection-treatment-online/" },
+      "headers": {
+        "Location": "/fl/sinus-infection-treatment-online/"
+      },
       "status": 301
     },
     {
       "src": "/insurance/blue-cross-blue-shield/texas/flu-treatment/?",
-      "headers": { "Location": "/tx/influenza-treatment-online/" },
+      "headers": {
+        "Location": "/tx/influenza-treatment-online/"
+      },
       "status": 301
     },
     {
       "src": "/insurance/aetna/colorado/asthma-refill/?",
-      "headers": { "Location": "/co/asthma-refills-online/" },
+      "headers": {
+        "Location": "/co/asthma-refills-online/"
+      },
       "status": 301
     },
     {
       "src": "/insurance/aetna/michigan/flu-treatment/?",
-      "headers": { "Location": "/mi/influenza-treatment-online/" },
+      "headers": {
+        "Location": "/mi/influenza-treatment-online/"
+      },
       "status": 301
     },
     {
       "src": "/insurance/united-healthcare/washington/strep-throat/?",
-      "headers": { "Location": "/wa/sore-throat-treatment-online/" },
+      "headers": {
+        "Location": "/wa/sore-throat-treatment-online/"
+      },
       "status": 301
     },
     {
       "src": "/insurance/aetna/georgia/acid-reflux/?",
-      "headers": { "Location": "/ga/acid-reflux-refills-online/" },
+      "headers": {
+        "Location": "/ga/acid-reflux-refills-online/"
+      },
       "status": 301
     },
     {
       "src": "/insurance/blue-cross-blue-shield/pennsylvania/asthma-refill/?",
-      "headers": { "Location": "/pa/asthma-refills-online/" },
+      "headers": {
+        "Location": "/pa/asthma-refills-online/"
+      },
       "status": 301
     },
     {
       "src": "/insurance/aetna/tennessee/hypertension-refill/?",
-      "headers": { "Location": "/tn/hypertension-refills-online/" },
+      "headers": {
+        "Location": "/tn/hypertension-refills-online/"
+      },
       "status": 301
     },
     {
       "src": "/insurance/blue-cross-blue-shield/flu-treatment/?",
-      "headers": { "Location": "/influenza-treatment-online/" },
+      "headers": {
+        "Location": "/influenza-treatment-online/"
+      },
       "status": 301
     },
     {
       "src": "/insurance/united-healthcare/colorado/acid-reflux/?",
-      "headers": { "Location": "/co/acid-reflux-refills-online/" },
+      "headers": {
+        "Location": "/co/acid-reflux-refills-online/"
+      },
       "status": 301
     },
     {
       "src": "/insurance/united-healthcare/illinois/hypertension-refill/?",
-      "headers": { "Location": "/il/hypertension-refills-online/" },
+      "headers": {
+        "Location": "/il/hypertension-refills-online/"
+      },
       "status": 301
     },
     {
       "src": "/insurance/united-healthcare/georgia/acid-reflux/?",
-      "headers": { "Location": "/ga/acid-reflux-refills-online/" },
+      "headers": {
+        "Location": "/ga/acid-reflux-refills-online/"
+      },
       "status": 301
     },
     {
       "src": "/insurance/united-healthcare/pennsylvania/strep-throat/?",
-      "headers": { "Location": "/pa/sore-throat-treatment-online/" },
+      "headers": {
+        "Location": "/pa/sore-throat-treatment-online/"
+      },
+      "status": 301
+    },
+    {
+      "src": "/use-case/work-school-note/?",
+      "status": 410,
+      "headers": {
+        "Content-Type": "text/plain",
+        "X-Retired": "wen-service-2026-06-09"
+      },
+      "dest": "/410-wen.txt"
+    },
+    {
+      "src": "/work-excuse-note/?",
+      "status": 410,
+      "headers": {
+        "Content-Type": "text/plain",
+        "X-Retired": "wen-service-2026-06-09"
+      },
+      "dest": "/410-wen.txt"
+    },
+    {
+      "src": "/(al|az|ca|co|ct|dc|de|fl|ga|hi|ia|id|il|in|ks|ky|la|md|me|mi|mn|mo|ms|mt|nc|nd|ne|nh|nj|nv|oh|ok|pa|sc|sd|tn|tx|ut|vt|wa|wi|wv|wy)/work-excuse-note/?",
+      "status": 410,
+      "headers": {
+        "Content-Type": "text/plain",
+        "X-Retired": "wen-service-2026-06-09"
+      },
+      "dest": "/410-wen.txt"
+    },
+    {
+      "src": "/health-guides/sinusinfection/?",
+      "headers": {
+        "Location": "/health-guides/sinus-infection-guide/"
+      },
+      "status": 301
+    },
+    {
+      "src": "/health-guides/allergic-rhinitis-what-works/?",
+      "headers": {
+        "Location": "/health-guides/seasonal-allergies-guide/"
+      },
+      "status": 301
+    },
+    {
+      "src": "/health-guides/ear-pain-treatment-online-fast-same-day-care/?",
+      "headers": {
+        "Location": "/health-guides/ear-infection-guide/"
+      },
+      "status": 301
+    },
+    {
+      "src": "/health-guides/common-cold-treatment-online/?",
+      "headers": {
+        "Location": "/health-guides/cold-and-flu-guide/"
+      },
+      "status": 301
+    },
+    {
+      "src": "/health-guides/skin-rashes-amp-infections-treatment-online-fast-same-day-relief/?",
+      "headers": {
+        "Location": "/health-guides/telehealth-skin-condition-triage-photos/"
+      },
+      "status": 301
+    },
+    {
+      "src": "/health-guides/anti-aging-topical-retinoids-guide/?",
+      "headers": {
+        "Location": "/health-guides/anti-aging-treatment-guide/"
+      },
+      "status": 301
+    },
+    {
+      "src": "/health-guides/migraine-amp-severe-headache-treatment-online-fast-relief/?",
+      "headers": {
+        "Location": "/health-guides/migraine-treatment-guide/"
+      },
+      "status": 301
+    },
+    {
+      "src": "/health-guides/gout-flare-treatment-online-mgmr7/?",
+      "headers": {
+        "Location": "/health-guides/gout-acute-guide/"
+      },
+      "status": 301
+    },
+    {
+      "src": "/health-guides/skin-infection-abscess-cellulitis-treatment-online/?",
+      "headers": {
+        "Location": "/health-guides/cellulitis-guide/"
+      },
+      "status": 301
+    },
+    {
+      "src": "/health-guides/type-2-diabetes-medication-refills-online/?",
+      "headers": {
+        "Location": "/health-guides/type-2-diabetes-medication-guide/"
+      },
+      "status": 301
+    },
+    {
+      "src": "/health-guides/swimmers-ear-otitis-externa/?",
+      "headers": {
+        "Location": "/health-guides/ear-infection-guide/"
+      },
+      "status": 301
+    },
+    {
+      "src": "/health-guides/pink-eye-conjunctivitis-viral-bacterial-allergic/?",
+      "headers": {
+        "Location": "/health-guides/pink-eye-conjunctivitis-guide/"
+      },
       "status": 301
     },
     {
