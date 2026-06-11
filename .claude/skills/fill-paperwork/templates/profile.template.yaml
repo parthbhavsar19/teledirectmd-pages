@@ -1,0 +1,68 @@
+# Paperwork profile — your reusable info for filling out admin forms.
+# Copied to paperwork/profile/profile.yaml (gitignored). Fill what applies;
+# leave the rest blank. Add fields freely — keep keys lowercase_snake_case.
+#
+# Sensitive numbers (ssn, dea, etc.) live here ONLY because paperwork/ is
+# gitignored and never pushed. Do not move this file outside paperwork/.
+
+personal:
+  first_name:
+  middle_name:
+  last_name:
+  preferred_name:
+  date_of_birth:        # YYYY-MM-DD
+  ssn:                  # sensitive
+  gender:
+  email:
+  phone_mobile:
+  phone_work:
+
+address_home:
+  line1:
+  line2:
+  city:
+  state:
+  zip:
+  country: USA
+
+provider:               # clinical / credentialing identifiers
+  npi:                  # National Provider Identifier
+  license_number:
+  license_state:
+  dea_number:           # sensitive
+  taxonomy:             # specialty taxonomy code/description
+  caqh_id:
+  medicare_ptan:
+  medicaid_id:
+
+practice:               # clinic / employer
+  legal_name:
+  dba_name:
+  tax_id_ein:           # sensitive
+  group_npi:
+  address_line1:
+  address_line2:
+  city:
+  state:
+  zip:
+  phone:
+  fax:
+
+insurance:
+  carrier:
+  member_id:
+  group_number:
+  plan_name:
+
+emergency_contact:
+  name:
+  relationship:
+  phone:
+
+banking:                # only if a form genuinely needs it; sensitive
+  account_name:
+  routing_number:
+  account_number:
+
+# Free-form extras the schema doesn't cover. e.g. custom: { board_cert: "..." }
+custom: {}
