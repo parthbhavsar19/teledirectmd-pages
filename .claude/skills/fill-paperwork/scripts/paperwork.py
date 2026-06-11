@@ -106,10 +106,25 @@ def cmd_fill_pdf(args):
                     on = w.on_state() or "Yes"
                     truthy = str(val).strip().lower() in ("1", "true", "yes", "on", "x", "checked")
                     w.field_value = on if truthy else "Off"
+                    w.update()
+                    filled.append(name)
+                elif ftype == fitz.PDF_WIDGET_TYPE_RADIOBUTTON:
+                    # Each widget in the group is one option. Select the one
+                    # whose export (on) state matches the requested value, by
+                    # raw or space-decoded ("#20" -> " ") comparison.
+                    target = str(val).strip().lower()
+                    on = w.on_state() or ""
+                    on_dec = on.replace("#20", " ").strip().lower()
+                    if target in (on.strip().lower(), on_dec):
+                        w.field_value = w.on_state()
+                        w.update()
+                        filled.append(name)
+                    else:
+                        continue  # leave this option off; don't count unmatched
                 else:
                     w.field_value = str(val)
-                w.update()
-                filled.append(name)
+                    w.update()
+                    filled.append(name)
                 if name in unmatched:
                     unmatched.remove(name)
 
