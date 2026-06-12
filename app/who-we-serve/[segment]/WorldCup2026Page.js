@@ -201,6 +201,7 @@ export default function WorldCup2026Page() {
               </p>
               <ul className="tdmd-hero-benefits">
                 <li>Board-certified physician — not a PA, not an NP, not an algorithm</li>
+                <li>Summer heat, stomach bugs, or ran out of medication? We handle the most common World Cup complaints</li>
                 <li>No US insurance required — flat $79, no surprise bills</li>
                 <li>Covers {coveredCount} of 11 US host cities across 8 states — Atlanta, Miami, Dallas, Houston, LA &amp; more</li>
                 <li>Prescriptions sent to any US pharmacy near your hotel or stadium</li>
@@ -278,6 +279,24 @@ export default function WorldCup2026Page() {
           <div className="tdmd-comparison-note">
             <p style={{ margin: 0 }}>
               <strong>The scenario:</strong> You flew in for a group-stage match in Atlanta and woke up with a stomach bug and a fever. You have no US insurance and no local doctor, and your next match is tonight. With TeleDirectMD, you request a same-day visit from your hotel, connect with a board-certified US physician by video, and — if appropriate — have a prescription sent to the pharmacy two blocks away. Flat $79. No claim forms. Back in time for kickoff.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* ── 2b. Heat illness (summer-tournament emphasis) ───────── */}
+      <section className="tdmd-section" id="world-cup-2026-heat">
+        <div className="tdmd-container">
+          <h2>Summer Heat Is the World Cup's Hidden Health Risk</h2>
+          <p>
+            This is a June–July tournament across some of the hottest US cities. Dallas (Arlington) and Houston routinely hit 38–40°C (100–104°F), and Atlanta and Miami stay hot and humid for hours of standing in line, walking between venues, and sitting in open stadiums. The CDC has a dedicated <a href="https://www.cdc.gov/soccer/index.html" rel="nofollow noopener" target="_blank" style={{ color: 'var(--tdmd-navy)', fontWeight: 700 }}>Safety for Soccer Fans</a> guide for exactly this reason, with a "Beat the Heat" section on hydration and heat-illness prevention.
+          </p>
+          <p>
+            <strong>Heat exhaustion</strong> — heavy sweating; cold, pale, clammy skin; nausea; muscle cramps; tiredness; dizziness; headache — is common and often manageable with rest, cooling, and rehydration. If you feel this way after a hot day at the match, a quick video visit can help you assess your symptoms, rule out anything more serious, and get a clear rehydration and recovery plan — without losing hours in an urgent care or ER waiting room.
+          </p>
+          <div className="tdmd-comparison-note" style={{ borderLeft: '4px solid var(--tdmd-coral)' }}>
+            <p style={{ margin: 0 }}>
+              <strong>When it is an emergency — call 911, not us:</strong> Heat stroke is life-threatening and is never appropriate for telehealth. Call 911 immediately for a body temperature of 103°F (39.4°C) or higher; hot, red, dry or damp skin; a fast, strong pulse; confusion; or loss of consciousness, per <a href="https://www.cdc.gov/disasters/extremeheat/pdf/Heat_Related_Illness.pdf" rel="nofollow noopener" target="_blank" style={{ color: 'var(--tdmd-navy)', fontWeight: 700 }}>CDC guidance</a>. We will always tell you honestly when you need in-person or emergency care.
             </p>
           </div>
         </div>
@@ -362,8 +381,8 @@ export default function WorldCup2026Page() {
           <div style={{ display: 'grid', gap: '0.85rem', marginTop: '1rem' }}>
             {conditions.map((c) => (
               <a
-                key={c.slug}
-                href={`/${c.slug}`}
+                key={c.name}
+                href={c.slug ? `/${c.slug}` : c.anchor}
                 className="tdmd-card"
                 style={{ textDecoration: 'none', color: 'var(--tdmd-text)', borderLeft: '4px solid var(--tdmd-teal)' }}
               >
