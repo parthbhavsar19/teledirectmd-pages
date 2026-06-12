@@ -14,8 +14,11 @@ export const INSURERS = {
     color: "#7B2CBF",
     colorLight: "#F3EAFF",
     tagline: "Commercial & Medicare Advantage plans accepted",
-    description: "Aetna is one of the nation's largest health insurers, offering commercial, Medicare Advantage, and marketplace plans. TeleDirectMD is in-network with Aetna commercial plans in 11 states.",
-    states: ["AZ","CA","CO","FL","GA","IL","MI","MN","OH","PA","TN"],
+    description: "Aetna is one of the nation's largest health insurers, offering commercial, Medicare Advantage, and marketplace plans. TeleDirectMD is in-network with Aetna commercial plans in 10 states.",
+    // 2026-06-12: PA removed — Aetna is NOT in lib/insurance-data.js insuranceByState['PA'].
+    // PA has Highmark BCBS + UHC, not Aetna. FTC NextMed compliance: never claim a
+    // payer relationship without a signed contract.
+    states: ["AZ","CA","CO","FL","GA","IL","MI","MN","OH","TN"],
     planTypes: ["Commercial plans", "Employer-sponsored plans", "Individual & Family Plans"],
     notAccepted: ["Medicaid","Medicare fee-for-service","Aetna Better Health (Medicaid)"],
     memberPortal: "https://www.aetna.com/individuals-families/member-rights-resources/find-a-form.html",
@@ -23,9 +26,9 @@ export const INSURERS = {
     billingCodes: ["99213","99214"],
     claimsPhone: "1-888-632-3862",
     metaTitle: "Online Doctor That Accepts Aetna Insurance | TeleDirectMD",
-    metaDescription: "TeleDirectMD accepts Aetna insurance in 11 states. Board-certified physician. Video visits for UTI, sinus, asthma, hypertension & more. Check your state coverage.",
+    metaDescription: "TeleDirectMD accepts Aetna insurance in 10 states. Board-certified physician. Video visits for UTI, sinus, asthma, hypertension & more. Check your state coverage.",
     h1: "Online Doctor Visits Covered by Aetna",
-    heroSubtitle: "TeleDirectMD is in-network with Aetna commercial plans in Arizona, California, Colorado, Florida, Georgia, Illinois, Michigan, Minnesota, Ohio, Pennsylvania, and Tennessee.",
+    heroSubtitle: "TeleDirectMD is in-network with Aetna commercial plans in Arizona, California, Colorado, Florida, Georgia, Illinois, Michigan, Minnesota, Ohio, and Tennessee.",
     faqSlug: "aetna",
   },
   "blue-cross-blue-shield": {
@@ -72,9 +75,11 @@ export const INSURERS = {
     logo: "/logos/unitedhealthcare.svg",
     color: "#1A7A3A",
     colorLight: "#E6FFF0",
-    tagline: "Commercial UHC plans accepted in 10 states",
-    description: "UnitedHealthcare is the largest health insurer in the United States. TeleDirectMD is in-network with UHC commercial plans in 10 states, including major markets like Georgia, Ohio, Pennsylvania, and Illinois.",
-    states: ["CO","GA","IL","MN","NC","NJ","OH","PA","TN","WA"],
+    tagline: "Commercial UHC plans accepted in 11 states",
+    description: "UnitedHealthcare is the largest health insurer in the United States. TeleDirectMD is in-network with UHC commercial plans in 11 states, including major markets like Texas, Georgia, Ohio, Pennsylvania, and Illinois.",
+    // 2026-06-12: TX added — UnitedHealthcare is active in TX per lib/insurance-data.js
+    // insuranceByState['TX']. Config was lagging the source of truth.
+    states: ["CO","GA","IL","MN","NC","NJ","OH","PA","TN","TX","WA"],
     planTypes: ["Commercial plans","Employer-sponsored plans","UnitedHealthcare Choice","UnitedHealthcare Options PPO"],
     notAccepted: ["Medicaid (UnitedHealthcare Community Plan)","Medicare fee-for-service","AARP Medicare Advantage"],
     memberPortal: "https://www.myuhc.com",
@@ -82,9 +87,9 @@ export const INSURERS = {
     billingCodes: ["99213","99214"],
     claimsPhone: "1-866-892-9993",
     metaTitle: "Online Doctor That Accepts UnitedHealthcare | TeleDirectMD",
-    metaDescription: "TeleDirectMD accepts UnitedHealthcare commercial plans in 10 states. Board-certified physician. Same-day video visits for UTI, sinus infection, hypertension & more.",
+    metaDescription: "TeleDirectMD accepts UnitedHealthcare commercial plans in 11 states. Board-certified physician. Same-day video visits for UTI, sinus infection, hypertension & more.",
     h1: "Online Doctor Visits Covered by UnitedHealthcare",
-    heroSubtitle: "TeleDirectMD is in-network with UnitedHealthcare commercial plans in Colorado, Georgia, Illinois, Minnesota, North Carolina, New Jersey, Ohio, Pennsylvania, Tennessee, and Washington.",
+    heroSubtitle: "TeleDirectMD is in-network with UnitedHealthcare commercial plans in Colorado, Georgia, Illinois, Minnesota, North Carolina, New Jersey, Ohio, Pennsylvania, Tennessee, Texas, and Washington.",
     faqSlug: "uhc",
   },
 };
