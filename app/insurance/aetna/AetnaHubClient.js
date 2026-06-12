@@ -10,7 +10,7 @@ import { summarizeInsurerHub, citableSummaryToJsonLd } from '../../../lib/citabl
 const insurer = INSURERS.aetna;
 
 const AETNA_FAQS = [
-  { q: "Is TeleDirectMD in-network with Aetna?", a: "Yes. TeleDirectMD is in-network with Aetna commercial plans in Arizona, California, Colorado, Florida, Georgia, Illinois, Michigan, Minnesota, Ohio, Pennsylvania, and Tennessee. If you have an Aetna employer-sponsored or individual commercial plan in one of these states, your telehealth visit with Dr. Bhavsar may be covered subject to your plan's copay or deductible." },
+  { q: "Is TeleDirectMD in-network with Aetna?", a: "Yes. TeleDirectMD is in-network with Aetna commercial plans in Arizona, California, Colorado, Florida, Georgia, Illinois, Michigan, Minnesota, Ohio, and Tennessee. If you have an Aetna employer-sponsored or individual commercial plan in one of these states, your telehealth visit with Dr. Bhavsar may be covered subject to your plan's copay or deductible." },
   { q: "Does Aetna cover telemedicine visits?", a: "Aetna covers telehealth visits for most commercial plan members. Federal law requires most commercial insurers to cover telehealth services comparably to in-person visits. Your actual out-of-pocket cost depends on your specific plan's copay, coinsurance, and deductible. Contact the member services number on the back of your Aetna card to verify your telehealth benefits before booking." },
   { q: "What conditions does Aetna cover for telemedicine with TeleDirectMD?", a: "Aetna covers telehealth visits for a wide range of conditions. At TeleDirectMD, we treat UTIs, sinus infections, strep throat, ear infections, pink eye, asthma refills, hypertension refills, acid reflux, flu, yeast infections, and many more. Coverage depends on your plan benefits. See our <a href='/what-we-treat' style='color:#006B73'>What We Treat</a> page for the full condition list." },
   { q: "What is my copay for a TeleDirectMD visit with Aetna?", a: "Copays vary by plan. Most Aetna commercial plans have a telehealth copay of $0–$40. To find your exact cost, log in to your Aetna member portal at aetna.com, call the member services number on your insurance card, or simply ask us at booking — we will verify your benefits before your visit." },
@@ -31,17 +31,16 @@ const CONDITIONS_COVERED = [
 ];
 
 const AETNA_STATES = [
-  { code:"AZ", name:"Arizona", url:"/insurance/aetna/arizona" },
+  { code:"AZ", name:"Arizona", url:"/az/" },
   { code:"CA", name:"California", url:"/insurance/aetna/california", newBadge:"New · May 2026" },
-  { code:"CO", name:"Colorado", url:"/insurance/aetna/colorado" },
+  { code:"CO", name:"Colorado", url:"/co/" },
   { code:"FL", name:"Florida", url:"/insurance/aetna/florida" },
-  { code:"GA", name:"Georgia", url:"/insurance/aetna/georgia" },
-  { code:"IL", name:"Illinois", url:"/insurance/aetna/illinois" },
-  { code:"MI", name:"Michigan", url:"/insurance/aetna/michigan" },
-  { code:"MN", name:"Minnesota", url:"/insurance/aetna/minnesota" },
-  { code:"OH", name:"Ohio", url:"/insurance/aetna/ohio" },
-  { code:"PA", name:"Pennsylvania", url:"/insurance/aetna/pennsylvania" },
-  { code:"TN", name:"Tennessee", url:"/insurance/aetna/tennessee" },
+  { code:"GA", name:"Georgia", url:"/ga/" },
+  { code:"IL", name:"Illinois", url:"/il/" },
+  { code:"MI", name:"Michigan", url:"/mi/" },
+  { code:"MN", name:"Minnesota", url:"/mn/" },
+  { code:"OH", name:"Ohio", url:"/oh/" },
+  { code:"TN", name:"Tennessee", url:"/tn/" },
 ];
 
 const SCHEMA = {
@@ -116,67 +115,67 @@ const SCHEMA = {
                       "@type": "ListItem",
                       "position": 1,
                       "name": "TeleDirectMD x Aetna - Arizona",
-                      "url": "https://teledirectmd.com/insurance/aetna/arizona/"
+                      "url": "https://teledirectmd.com/az/"
                 },
                 {
                       "@type": "ListItem",
                       "position": 2,
                       "name": "TeleDirectMD x Aetna - California",
-                      "url": "https://teledirectmd.com/insurance/aetna/california/"
+                      "url": "https://teledirectmd.com/ca/"
                 },
                 {
                       "@type": "ListItem",
                       "position": 3,
                       "name": "TeleDirectMD x Aetna - Colorado",
-                      "url": "https://teledirectmd.com/insurance/aetna/colorado/"
+                      "url": "https://teledirectmd.com/co/"
                 },
                 {
                       "@type": "ListItem",
                       "position": 4,
                       "name": "TeleDirectMD x Aetna - Florida",
-                      "url": "https://teledirectmd.com/insurance/aetna/florida/"
+                      "url": "https://teledirectmd.com/fl/"
                 },
                 {
                       "@type": "ListItem",
                       "position": 5,
                       "name": "TeleDirectMD x Aetna - Georgia",
-                      "url": "https://teledirectmd.com/insurance/aetna/georgia/"
+                      "url": "https://teledirectmd.com/ga/"
                 },
                 {
                       "@type": "ListItem",
                       "position": 6,
                       "name": "TeleDirectMD x Aetna - Illinois",
-                      "url": "https://teledirectmd.com/insurance/aetna/illinois/"
+                      "url": "https://teledirectmd.com/il/"
                 },
                 {
                       "@type": "ListItem",
                       "position": 7,
                       "name": "TeleDirectMD x Aetna - Michigan",
-                      "url": "https://teledirectmd.com/insurance/aetna/michigan/"
+                      "url": "https://teledirectmd.com/mi/"
                 },
                 {
                       "@type": "ListItem",
                       "position": 8,
                       "name": "TeleDirectMD x Aetna - Minnesota",
-                      "url": "https://teledirectmd.com/insurance/aetna/minnesota/"
+                      "url": "https://teledirectmd.com/mn/"
                 },
                 {
                       "@type": "ListItem",
                       "position": 9,
                       "name": "TeleDirectMD x Aetna - Ohio",
-                      "url": "https://teledirectmd.com/insurance/aetna/ohio/"
+                      "url": "https://teledirectmd.com/oh/"
                 },
                 {
                       "@type": "ListItem",
                       "position": 10,
                       "name": "TeleDirectMD x Aetna - Pennsylvania",
-                      "url": "https://teledirectmd.com/insurance/aetna/pennsylvania/"
+                      "url": "https://teledirectmd.com/pa/"
                 },
                 {
                       "@type": "ListItem",
                       "position": 11,
                       "name": "TeleDirectMD x Aetna - Tennessee",
-                      "url": "https://teledirectmd.com/insurance/aetna/tennessee/"
+                      "url": "https://teledirectmd.com/tn/"
                 }
           ]
     },
@@ -361,14 +360,14 @@ export default function AetnaHubClient() {
           <h2 style={{ fontFamily:B.fd, fontSize:22, fontWeight:700, color:B.navy, margin:"0 0 8px" }}>Popular Aetna Coverage in Top Markets</h2>
           <p style={{ fontSize:14, color:B.text, margin:"0 0 16px", lineHeight:1.6 }}>Most-searched in-network Aetna telemedicine combinations at TeleDirectMD:</p>
           <div style={{ display:"grid", gridTemplateColumns:"repeat(auto-fill, minmax(260px, 1fr))", gap:10 }}>
-            <a href="/insurance/aetna/california/uti-treatment" style={{ display:"block", background:B.white, border:`1px solid ${B.border}`, borderRadius:B.rs, padding:"12px 14px", textDecoration:"none", boxShadow:B.shadow, color:B.navy }}>UTI treatment covered by Aetna in California →</a>
-            <a href="/insurance/aetna/california/sinus-infection" style={{ display:"block", background:B.white, border:`1px solid ${B.border}`, borderRadius:B.rs, padding:"12px 14px", textDecoration:"none", boxShadow:B.shadow, color:B.navy }}>Sinus infection covered by Aetna in California →</a>
-            <a href="/insurance/aetna/georgia/uti-treatment" style={{ display:"block", background:B.white, border:`1px solid ${B.border}`, borderRadius:B.rs, padding:"12px 14px", textDecoration:"none", boxShadow:B.shadow, color:B.navy }}>UTI treatment covered by Aetna in Georgia →</a>
-            <a href="/insurance/aetna/florida/sinus-infection" style={{ display:"block", background:B.white, border:`1px solid ${B.border}`, borderRadius:B.rs, padding:"12px 14px", textDecoration:"none", boxShadow:B.shadow, color:B.navy }}>Sinus infection covered by Aetna in Florida →</a>
-            <a href="/insurance/aetna/pennsylvania/strep-throat" style={{ display:"block", background:B.white, border:`1px solid ${B.border}`, borderRadius:B.rs, padding:"12px 14px", textDecoration:"none", boxShadow:B.shadow, color:B.navy }}>Strep throat covered by Aetna in Pennsylvania →</a>
-            <a href="/insurance/aetna/ohio/flu-treatment" style={{ display:"block", background:B.white, border:`1px solid ${B.border}`, borderRadius:B.rs, padding:"12px 14px", textDecoration:"none", boxShadow:B.shadow, color:B.navy }}>Flu treatment covered by Aetna in Ohio →</a>
-            <a href="/insurance/aetna/illinois/ear-infection" style={{ display:"block", background:B.white, border:`1px solid ${B.border}`, borderRadius:B.rs, padding:"12px 14px", textDecoration:"none", boxShadow:B.shadow, color:B.navy }}>Ear infection covered by Aetna in Illinois →</a>
-            <a href="/insurance/aetna/tennessee/pink-eye" style={{ display:"block", background:B.white, border:`1px solid ${B.border}`, borderRadius:B.rs, padding:"12px 14px", textDecoration:"none", boxShadow:B.shadow, color:B.navy }}>Pink eye covered by Aetna in Tennessee →</a>
+            <a href="/ca/uti-treatment-online/" style={{ display:"block", background:B.white, border:`1px solid ${B.border}`, borderRadius:B.rs, padding:"12px 14px", textDecoration:"none", boxShadow:B.shadow, color:B.navy }}>UTI treatment covered by Aetna in California →</a>
+            <a href="/ca/sinus-infection-treatment-online/" style={{ display:"block", background:B.white, border:`1px solid ${B.border}`, borderRadius:B.rs, padding:"12px 14px", textDecoration:"none", boxShadow:B.shadow, color:B.navy }}>Sinus infection covered by Aetna in California →</a>
+            <a href="/ga/uti-treatment-online/" style={{ display:"block", background:B.white, border:`1px solid ${B.border}`, borderRadius:B.rs, padding:"12px 14px", textDecoration:"none", boxShadow:B.shadow, color:B.navy }}>UTI treatment covered by Aetna in Georgia →</a>
+            <a href="/fl/sinus-infection-treatment-online/" style={{ display:"block", background:B.white, border:`1px solid ${B.border}`, borderRadius:B.rs, padding:"12px 14px", textDecoration:"none", boxShadow:B.shadow, color:B.navy }}>Sinus infection covered by Aetna in Florida →</a>
+            <a href="/pa/sore-throat-treatment-online/" style={{ display:"block", background:B.white, border:`1px solid ${B.border}`, borderRadius:B.rs, padding:"12px 14px", textDecoration:"none", boxShadow:B.shadow, color:B.navy }}>Strep throat covered by Aetna in Pennsylvania →</a>
+            <a href="/oh/influenza-treatment-online/" style={{ display:"block", background:B.white, border:`1px solid ${B.border}`, borderRadius:B.rs, padding:"12px 14px", textDecoration:"none", boxShadow:B.shadow, color:B.navy }}>Flu treatment covered by Aetna in Ohio →</a>
+            <a href="/il/ear-infection-treatment-online/" style={{ display:"block", background:B.white, border:`1px solid ${B.border}`, borderRadius:B.rs, padding:"12px 14px", textDecoration:"none", boxShadow:B.shadow, color:B.navy }}>Ear infection covered by Aetna in Illinois →</a>
+            <a href="/tn/pink-eye-treatment-online/" style={{ display:"block", background:B.white, border:`1px solid ${B.border}`, borderRadius:B.rs, padding:"12px 14px", textDecoration:"none", boxShadow:B.shadow, color:B.navy }}>Pink eye covered by Aetna in Tennessee →</a>
           </div>
         </section>
 
