@@ -10,16 +10,16 @@ import { summarizeInsurerHub, citableSummaryToJsonLd } from '../../../lib/citabl
 const insurer = INSURERS["united-healthcare"];
 
 const UHC_STATES = [
-  { code:"CO", name:"Colorado", url:"/insurance/united-healthcare/colorado" },
-  { code:"GA", name:"Georgia", url:"/insurance/united-healthcare/georgia" },
-  { code:"IL", name:"Illinois", url:"/insurance/united-healthcare/illinois" },
-  { code:"MN", name:"Minnesota", url:"/insurance/united-healthcare/minnesota" },
-  { code:"NC", name:"North Carolina", url:"/insurance/united-healthcare/north-carolina" },
-  { code:"NJ", name:"New Jersey", url:"/insurance/united-healthcare/new-jersey" },
-  { code:"OH", name:"Ohio", url:"/insurance/united-healthcare/ohio" },
-  { code:"PA", name:"Pennsylvania", url:"/insurance/united-healthcare/pennsylvania" },
-  { code:"TN", name:"Tennessee", url:"/insurance/united-healthcare/tennessee" },
-  { code:"WA", name:"Washington", url:"/insurance/united-healthcare/washington" },
+  { code:"CO", name:"Colorado", url:"/co/" },
+  { code:"GA", name:"Georgia", url:"/ga/" },
+  { code:"IL", name:"Illinois", url:"/il/" },
+  { code:"MN", name:"Minnesota", url:"/mn/" },
+  { code:"NC", name:"North Carolina", url:"/nc/" },
+  { code:"NJ", name:"New Jersey", url:"/nj/" },
+  { code:"OH", name:"Ohio", url:"/oh/" },
+  { code:"PA", name:"Pennsylvania", url:"/pa/" },
+  { code:"TN", name:"Tennessee", url:"/tn/" },
+  { code:"WA", name:"Washington", url:"/wa/" },
 ];
 
 const UHC_FAQS = [
@@ -71,61 +71,61 @@ const SCHEMA = {
                       "@type": "ListItem",
                       "position": 1,
                       "name": "TeleDirectMD x United Healthcare - Colorado",
-                      "url": "https://teledirectmd.com/insurance/united-healthcare/colorado/"
+                      "url": "https://teledirectmd.com/co/"
                 },
                 {
                       "@type": "ListItem",
                       "position": 2,
                       "name": "TeleDirectMD x United Healthcare - Georgia",
-                      "url": "https://teledirectmd.com/insurance/united-healthcare/georgia/"
+                      "url": "https://teledirectmd.com/ga/"
                 },
                 {
                       "@type": "ListItem",
                       "position": 3,
                       "name": "TeleDirectMD x United Healthcare - Illinois",
-                      "url": "https://teledirectmd.com/insurance/united-healthcare/illinois/"
+                      "url": "https://teledirectmd.com/il/"
                 },
                 {
                       "@type": "ListItem",
                       "position": 4,
                       "name": "TeleDirectMD x United Healthcare - Minnesota",
-                      "url": "https://teledirectmd.com/insurance/united-healthcare/minnesota/"
+                      "url": "https://teledirectmd.com/mn/"
                 },
                 {
                       "@type": "ListItem",
                       "position": 5,
                       "name": "TeleDirectMD x United Healthcare - North Carolina",
-                      "url": "https://teledirectmd.com/insurance/united-healthcare/north-carolina/"
+                      "url": "https://teledirectmd.com/nc/"
                 },
                 {
                       "@type": "ListItem",
                       "position": 6,
                       "name": "TeleDirectMD x United Healthcare - New Jersey",
-                      "url": "https://teledirectmd.com/insurance/united-healthcare/new-jersey/"
+                      "url": "https://teledirectmd.com/nj/"
                 },
                 {
                       "@type": "ListItem",
                       "position": 7,
                       "name": "TeleDirectMD x United Healthcare - Ohio",
-                      "url": "https://teledirectmd.com/insurance/united-healthcare/ohio/"
+                      "url": "https://teledirectmd.com/oh/"
                 },
                 {
                       "@type": "ListItem",
                       "position": 8,
                       "name": "TeleDirectMD x United Healthcare - Pennsylvania",
-                      "url": "https://teledirectmd.com/insurance/united-healthcare/pennsylvania/"
+                      "url": "https://teledirectmd.com/pa/"
                 },
                 {
                       "@type": "ListItem",
                       "position": 9,
                       "name": "TeleDirectMD x United Healthcare - Tennessee",
-                      "url": "https://teledirectmd.com/insurance/united-healthcare/tennessee/"
+                      "url": "https://teledirectmd.com/tn/"
                 },
                 {
                       "@type": "ListItem",
                       "position": 10,
                       "name": "TeleDirectMD x United Healthcare - Washington",
-                      "url": "https://teledirectmd.com/insurance/united-healthcare/washington/"
+                      "url": "https://teledirectmd.com/wa/"
                 }
           ]
     },
@@ -250,12 +250,12 @@ export default function UHCHubClient() {
           <h2 style={{ fontFamily:B.fd, fontSize:22, fontWeight:700, color:B.navy, margin:"0 0 8px" }}>Popular UnitedHealthcare Coverage in Top Markets</h2>
           <p style={{ fontSize:14, color:B.text, margin:"0 0 16px", lineHeight:1.6 }}>Most-searched in-network UHC telemedicine combinations at TeleDirectMD:</p>
           <div style={{ display:"grid", gridTemplateColumns:"repeat(auto-fill, minmax(260px, 1fr))", gap:10 }}>
-            <a href="/insurance/united-healthcare/georgia/uti-treatment" style={{ display:"block", background:B.white, border:`1px solid ${B.border}`, borderRadius:B.rs, padding:"12px 14px", textDecoration:"none", boxShadow:B.shadow, color:B.navy }}>UTI treatment covered by UHC in Georgia →</a>
-            <a href="/insurance/united-healthcare/pennsylvania/sinus-infection" style={{ display:"block", background:B.white, border:`1px solid ${B.border}`, borderRadius:B.rs, padding:"12px 14px", textDecoration:"none", boxShadow:B.shadow, color:B.navy }}>Sinus infection covered by UHC in Pennsylvania →</a>
-            <a href="/insurance/united-healthcare/ohio/strep-throat" style={{ display:"block", background:B.white, border:`1px solid ${B.border}`, borderRadius:B.rs, padding:"12px 14px", textDecoration:"none", boxShadow:B.shadow, color:B.navy }}>Strep throat covered by UHC in Ohio →</a>
-            <a href="/insurance/united-healthcare/illinois/flu-treatment" style={{ display:"block", background:B.white, border:`1px solid ${B.border}`, borderRadius:B.rs, padding:"12px 14px", textDecoration:"none", boxShadow:B.shadow, color:B.navy }}>Flu treatment covered by UHC in Illinois →</a>
-            <a href="/insurance/united-healthcare/north-carolina/ear-infection" style={{ display:"block", background:B.white, border:`1px solid ${B.border}`, borderRadius:B.rs, padding:"12px 14px", textDecoration:"none", boxShadow:B.shadow, color:B.navy }}>Ear infection covered by UHC in North Carolina →</a>
-            <a href="/insurance/united-healthcare/tennessee/pink-eye" style={{ display:"block", background:B.white, border:`1px solid ${B.border}`, borderRadius:B.rs, padding:"12px 14px", textDecoration:"none", boxShadow:B.shadow, color:B.navy }}>Pink eye covered by UHC in Tennessee →</a>
+            <a href="/ga/" style={{ display:"block", background:B.white, border:`1px solid ${B.border}`, borderRadius:B.rs, padding:"12px 14px", textDecoration:"none", boxShadow:B.shadow, color:B.navy }}>UTI treatment covered by UHC in Georgia →</a>
+            <a href="/pa/" style={{ display:"block", background:B.white, border:`1px solid ${B.border}`, borderRadius:B.rs, padding:"12px 14px", textDecoration:"none", boxShadow:B.shadow, color:B.navy }}>Sinus infection covered by UHC in Pennsylvania →</a>
+            <a href="/oh/" style={{ display:"block", background:B.white, border:`1px solid ${B.border}`, borderRadius:B.rs, padding:"12px 14px", textDecoration:"none", boxShadow:B.shadow, color:B.navy }}>Strep throat covered by UHC in Ohio →</a>
+            <a href="/il/" style={{ display:"block", background:B.white, border:`1px solid ${B.border}`, borderRadius:B.rs, padding:"12px 14px", textDecoration:"none", boxShadow:B.shadow, color:B.navy }}>Flu treatment covered by UHC in Illinois →</a>
+            <a href="/nc/" style={{ display:"block", background:B.white, border:`1px solid ${B.border}`, borderRadius:B.rs, padding:"12px 14px", textDecoration:"none", boxShadow:B.shadow, color:B.navy }}>Ear infection covered by UHC in North Carolina →</a>
+            <a href="/tn/" style={{ display:"block", background:B.white, border:`1px solid ${B.border}`, borderRadius:B.rs, padding:"12px 14px", textDecoration:"none", boxShadow:B.shadow, color:B.navy }}>Pink eye covered by UHC in Tennessee →</a>
           </div>
         </section>
 

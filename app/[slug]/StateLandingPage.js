@@ -5,9 +5,16 @@ import { CitableSummaryBlock } from '../components/CitableSummary';
 import FaqAccordion from '../components/FaqAccordion';
 import { FlCredentialBlock, FlFooterCompliance } from '../components/FlCompliance';
 import { summarizeStateLanding, citableSummaryToJsonLd } from '../../lib/citable-summary';
+// ── 2026-06-12 Phase 2 task 4: state-hub uniqueness architecture ──
+// Same per-state JSON template that powers /[slug]/[conditionSlug] also feeds
+// /[slug] (state hub). loadStateTemplate returns null when no template exists,
+// causing the stateTpl && (...) guards below to render NOTHING — pages fall
+// back to current generic behavior. See data/state-templates/_schema.md.
+import { loadStateTemplate } from '../../lib/state-template';
 
 export default function StateLandingPage({ stateSlug }) {
   const state = getStateBySlug(stateSlug);
+  const stateTpl = loadStateTemplate(stateSlug);
   const categories = getConditionCategories();
   const baseUrl = 'https://teledirectmd.com';
   const pageUrl = `${baseUrl}/${stateSlug}`;
@@ -223,6 +230,20 @@ export default function StateLandingPage({ stateSlug }) {
           <span aria-current="page">{state.name}</span>
         </div>
       </nav>
+
+      {/* INJECT 1: State hub uniqueness opener (renders only when stateTpl populated) */}
+      {stateTpl && stateTpl.stateHero && stateTpl.stateHero.openingParagraph && (
+        <div className="tdmd-state-hub-opener" data-speakable="true" style={{
+          background: '#FAFCFD', borderLeft: '4px solid #006B73',
+          padding: '1rem 1.25rem', margin: '1rem 0', lineHeight: 1.65, borderRadius: '6px'
+        }}>
+          <div className="tdmd-container">
+            <p style={{ margin: 0, color: '#0A2438', fontSize: '0.98rem' }}>
+              {stateTpl.stateHero.openingParagraph}
+            </p>
+          </div>
+        </div>
+      )}
 
       {/* 0b) Answer Block — AI snippet target */}
       <div className="tdmd-answer-block" data-speakable="true" style={{
@@ -502,6 +523,25 @@ export default function StateLandingPage({ stateSlug }) {
               },
             ]}
           />
+
+          {/* INJECT 2: 'Practicing in {State}' bounded block (compliance + cities + epi) */}
+          {stateTpl && (
+            <section className="tdmd-state-block" id={`${pid}-practicing-in-${stateSlug}`} style={{margin: '2rem 0'}}>
+              <h2>Practicing in {state.name}</h2>
+              {stateTpl.stateCompliance && stateTpl.stateCompliance.credentialBlock && (
+                <p>{stateTpl.stateCompliance.credentialBlock}</p>
+              )}
+              {stateTpl.stateCities && stateTpl.stateCities.metroAndRural && (
+                <p>{stateTpl.stateCities.metroAndRural}</p>
+              )}
+              {stateTpl.stateEpidemiology && stateTpl.stateEpidemiology.general && (
+                <p>{stateTpl.stateEpidemiology.general}</p>
+              )}
+              {stateTpl.stateInsurance && stateTpl.stateInsurance.selfPayDisclosure && (
+                <p>{stateTpl.stateInsurance.selfPayDisclosure}</p>
+              )}
+            </section>
+          )}
 
           <div className="tdmd-bottom-cta" role="region" aria-label="Book a visit call to action">
             <div className="tdmd-bottom-cta-copy">

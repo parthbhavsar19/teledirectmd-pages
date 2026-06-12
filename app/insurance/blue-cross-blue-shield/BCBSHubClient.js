@@ -10,11 +10,11 @@ import { summarizeInsurerHub, citableSummaryToJsonLd } from '../../../lib/citabl
 const insurer = INSURERS["blue-cross-blue-shield"];
 
 const BCBS_STATE_AFFILIATES = [
-  { code:"FL", name:"Florida", affiliate:"Florida Blue", url:"/insurance/blue-cross-blue-shield/florida" },
-  { code:"GA", name:"Georgia", affiliate:"Anthem Blue Cross Blue Shield", url:"/insurance/blue-cross-blue-shield/georgia" },
-  { code:"IL", name:"Illinois", affiliate:"Blue Cross Blue Shield of Illinois", url:"/insurance/blue-cross-blue-shield/illinois" },
-  { code:"PA", name:"Pennsylvania", affiliate:"Highmark Blue Cross Blue Shield", url:"/insurance/blue-cross-blue-shield/pennsylvania" },
-  { code:"TX", name:"Texas", affiliate:"Blue Cross Blue Shield of Texas", url:"/insurance/blue-cross-blue-shield/texas" },
+  { code:"FL", name:"Florida", affiliate:"Florida Blue", url:"/fl/" },
+  { code:"GA", name:"Georgia", affiliate:"Anthem Blue Cross Blue Shield", url:"/ga/" },
+  { code:"IL", name:"Illinois", affiliate:"Blue Cross Blue Shield of Illinois", url:"/il/" },
+  { code:"PA", name:"Pennsylvania", affiliate:"Highmark Blue Cross Blue Shield", url:"/pa/" },
+  { code:"TX", name:"Texas", affiliate:"Blue Cross Blue Shield of Texas", url:"/tx/" },
 ];
 
 const BCBS_FAQS = [
@@ -66,31 +66,31 @@ const SCHEMA = {
                       "@type": "ListItem",
                       "position": 1,
                       "name": "TeleDirectMD x Blue Cross Blue Shield - Florida",
-                      "url": "https://teledirectmd.com/insurance/blue-cross-blue-shield/florida/"
+                      "url": "https://teledirectmd.com/fl/"
                 },
                 {
                       "@type": "ListItem",
                       "position": 2,
                       "name": "TeleDirectMD x Blue Cross Blue Shield - Georgia",
-                      "url": "https://teledirectmd.com/insurance/blue-cross-blue-shield/georgia/"
+                      "url": "https://teledirectmd.com/ga/"
                 },
                 {
                       "@type": "ListItem",
                       "position": 3,
                       "name": "TeleDirectMD x Blue Cross Blue Shield - Illinois",
-                      "url": "https://teledirectmd.com/insurance/blue-cross-blue-shield/illinois/"
+                      "url": "https://teledirectmd.com/il/"
                 },
                 {
                       "@type": "ListItem",
                       "position": 4,
                       "name": "TeleDirectMD x Blue Cross Blue Shield - Pennsylvania",
-                      "url": "https://teledirectmd.com/insurance/blue-cross-blue-shield/pennsylvania/"
+                      "url": "https://teledirectmd.com/pa/"
                 },
                 {
                       "@type": "ListItem",
                       "position": 5,
                       "name": "TeleDirectMD x Blue Cross Blue Shield - Texas",
-                      "url": "https://teledirectmd.com/insurance/blue-cross-blue-shield/texas/"
+                      "url": "https://teledirectmd.com/tx/"
                 }
           ]
     },
@@ -227,12 +227,12 @@ export default function BCBSHubClient() {
           <h2 style={{ fontFamily:B.fd, fontSize:22, fontWeight:700, color:B.navy, margin:"0 0 8px" }}>Popular BCBS Coverage in Top Markets</h2>
           <p style={{ fontSize:14, color:B.text, margin:"0 0 16px", lineHeight:1.6 }}>Most-searched in-network BCBS telemedicine combinations at TeleDirectMD:</p>
           <div style={{ display:"grid", gridTemplateColumns:"repeat(auto-fill, minmax(260px, 1fr))", gap:10 }}>
-            <a href="/insurance/blue-cross-blue-shield/texas/sinus-infection" style={{ display:"block", background:B.white, border:`1px solid ${B.border}`, borderRadius:B.rs, padding:"12px 14px", textDecoration:"none", boxShadow:B.shadow, color:B.navy }}>Sinus infection covered by BCBS in Texas →</a>
-            <a href="/insurance/blue-cross-blue-shield/georgia/uti-treatment" style={{ display:"block", background:B.white, border:`1px solid ${B.border}`, borderRadius:B.rs, padding:"12px 14px", textDecoration:"none", boxShadow:B.shadow, color:B.navy }}>UTI treatment covered by BCBS in Georgia →</a>
-            <a href="/insurance/blue-cross-blue-shield/florida/strep-throat" style={{ display:"block", background:B.white, border:`1px solid ${B.border}`, borderRadius:B.rs, padding:"12px 14px", textDecoration:"none", boxShadow:B.shadow, color:B.navy }}>Strep throat covered by BCBS in Florida →</a>
-            <a href="/insurance/blue-cross-blue-shield/illinois/flu-treatment" style={{ display:"block", background:B.white, border:`1px solid ${B.border}`, borderRadius:B.rs, padding:"12px 14px", textDecoration:"none", boxShadow:B.shadow, color:B.navy }}>Flu treatment covered by BCBS in Illinois →</a>
-            <a href="/insurance/blue-cross-blue-shield/pennsylvania/ear-infection" style={{ display:"block", background:B.white, border:`1px solid ${B.border}`, borderRadius:B.rs, padding:"12px 14px", textDecoration:"none", boxShadow:B.shadow, color:B.navy }}>Ear infection covered by BCBS in Pennsylvania →</a>
-            <a href="/insurance/blue-cross-blue-shield/texas/pink-eye" style={{ display:"block", background:B.white, border:`1px solid ${B.border}`, borderRadius:B.rs, padding:"12px 14px", textDecoration:"none", boxShadow:B.shadow, color:B.navy }}>Pink eye covered by BCBS in Texas →</a>
+            <a href="/tx/" style={{ display:"block", background:B.white, border:`1px solid ${B.border}`, borderRadius:B.rs, padding:"12px 14px", textDecoration:"none", boxShadow:B.shadow, color:B.navy }}>Sinus infection covered by BCBS in Texas →</a>
+            <a href="/ga/" style={{ display:"block", background:B.white, border:`1px solid ${B.border}`, borderRadius:B.rs, padding:"12px 14px", textDecoration:"none", boxShadow:B.shadow, color:B.navy }}>UTI treatment covered by BCBS in Georgia →</a>
+            <a href="/fl/" style={{ display:"block", background:B.white, border:`1px solid ${B.border}`, borderRadius:B.rs, padding:"12px 14px", textDecoration:"none", boxShadow:B.shadow, color:B.navy }}>Strep throat covered by BCBS in Florida →</a>
+            <a href="/il/" style={{ display:"block", background:B.white, border:`1px solid ${B.border}`, borderRadius:B.rs, padding:"12px 14px", textDecoration:"none", boxShadow:B.shadow, color:B.navy }}>Flu treatment covered by BCBS in Illinois →</a>
+            <a href="/pa/" style={{ display:"block", background:B.white, border:`1px solid ${B.border}`, borderRadius:B.rs, padding:"12px 14px", textDecoration:"none", boxShadow:B.shadow, color:B.navy }}>Ear infection covered by BCBS in Pennsylvania →</a>
+            <a href="/tx/" style={{ display:"block", background:B.white, border:`1px solid ${B.border}`, borderRadius:B.rs, padding:"12px 14px", textDecoration:"none", boxShadow:B.shadow, color:B.navy }}>Pink eye covered by BCBS in Texas →</a>
           </div>
         </section>
 
