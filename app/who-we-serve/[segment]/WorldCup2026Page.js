@@ -199,6 +199,36 @@ export default function WorldCup2026Page() {
         </div>
       </section>
 
+      {/* ── 1b. Bilingual welcome (ES / PT) for largest fan bases ── */}
+      <section className="tdmd-section tdmd-section-highlight" id="world-cup-2026-languages">
+        <div className="tdmd-container">
+          <h2>Para aficionados internacionales · Para torcedores internacionais</h2>
+          <div className="tdmd-grid tdmd-grid-2">
+            <div className="tdmd-card" lang="es">
+              <h3 style={{ color: 'var(--tdmd-navy)' }}>¿Está en EE. UU. para el Mundial 2026 sin seguro médico estadounidense?</h3>
+              <p style={{ margin: '0.5rem 0 0' }}>
+                Vea a un médico estadounidense certificado por video por una tarifa fija de $79 dólares — el mismo día, por las tardes y los fines de semana. No necesita seguro médico de EE. UU. Enviamos las recetas a cualquier farmacia cerca de su hotel. Disponible en 10 de las 11 sedes del torneo en EE. UU., incluidas Atlanta, Miami, Dallas, Houston y Los Ángeles.
+              </p>
+              <p style={{ margin: '0.75rem 0 0' }}>
+                <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Reservar una consulta</a>
+              </p>
+            </div>
+            <div className="tdmd-card" lang="pt">
+              <h3 style={{ color: 'var(--tdmd-navy)' }}>Está nos EUA para a Copa do Mundo de 2026 sem plano de saúde americano?</h3>
+              <p style={{ margin: '0.5rem 0 0' }}>
+                Consulte um médico americano certificado por vídeo por uma taxa fixa de US$ 79 — no mesmo dia, à noite e nos fins de semana. Não é necessário plano de saúde dos EUA. Enviamos as receitas para qualquer farmácia perto do seu hotel. Disponível em 10 das 11 cidades-sede nos EUA, incluindo Atlanta, Miami, Dallas, Houston e Los Angeles.
+              </p>
+              <p style={{ margin: '0.75rem 0 0' }}>
+                <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Agendar uma consulta</a>
+              </p>
+            </div>
+          </div>
+          <p style={{ marginTop: '0.85rem', fontSize: '0.88rem', color: 'var(--tdmd-muted)' }}>
+            The full visit is conducted in English. A friend or family member may interpret for you, and the physician can arrange interpretation support when needed.
+          </p>
+        </div>
+      </section>
+
       {/* ── 2. The Problem ──────────────────────────────────────── */}
       <section className="tdmd-section" id="world-cup-2026-problem">
         <div className="tdmd-container">
