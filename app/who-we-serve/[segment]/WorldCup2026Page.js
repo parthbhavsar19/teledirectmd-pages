@@ -68,6 +68,10 @@ export default function WorldCup2026Page() {
       a: 'Yes. TeleDirectMD is operated by Dr. Parth Bhavsar, MD, a board-certified Family Medicine physician licensed in 43 US states — not a chatbot, a PA, or an NP. Prescriptions issued through TeleDirectMD are valid at any US pharmacy, your visit is documented in a HIPAA-compliant record system, and you can receive a visit summary to share with your home-country physician.'
     },
     {
+      q: 'I do not speak English well. Can I still have a visit?',
+      a: 'Yes. Dr. Bhavsar conducts visits in English and Hindi, with conversational Spanish for routine visits. For Spanish, Portuguese, or any other language, TeleDirectMD provides a professional, HIPAA-compliant medical interpreter through Jeenie — a live, on-demand interpretation service — at no additional cost to you. You may also choose to have a family member or trusted adult join the video call to interpret. Just note your preferred language when you book so we can have an interpreter ready.'
+    },
+    {
       q: 'Do you treat children? My family is traveling with me.',
       a: 'TeleDirectMD sees patients 18 and older and does not see pediatric patients at this time. If a child traveling with you is ill, please visit a US urgent care clinic or emergency room. Adults in your group, however, are welcome to book a visit.'
     },
@@ -224,7 +228,7 @@ export default function WorldCup2026Page() {
             </div>
           </div>
           <p style={{ marginTop: '0.85rem', fontSize: '0.88rem', color: 'var(--tdmd-muted)' }}>
-            The full visit is conducted in English. A friend or family member may interpret for you, and the physician can arrange interpretation support when needed.
+            Dr. Bhavsar conducts visits in English and Hindi, with conversational Spanish for routine visits. For Spanish, Portuguese, or any other language, TeleDirectMD provides a professional HIPAA-compliant medical interpreter through Jeenie, a live on-demand interpretation service, at no extra cost to you. You may also have a family member or trusted adult join the video call to interpret. Please note your preferred language at booking.
           </p>
         </div>
       </section>
