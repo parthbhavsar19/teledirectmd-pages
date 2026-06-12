@@ -99,7 +99,25 @@ export default function WorldCup2026Page() {
         "telephone": "+1-678-956-1855",
         "medicalSpecialty": "GeneralPractice",
         "availableService": { "@type": "MedicalTherapy", "name": "Telehealth Consultations" },
-        "areaServed": licensedAbbrs
+        "areaServed": licensedAbbrs,
+        "availableLanguage": ["en", "hi", "es", "pt"],
+        "makesOffer": {
+          "@type": "Offer",
+          "name": "Telehealth video visit — flat self-pay",
+          "description": "Flat self-pay telehealth video visit with a board-certified US physician. No US health insurance required. Includes the consultation and any prescription sent to a US pharmacy.",
+          "price": "79.00",
+          "priceCurrency": "USD",
+          "priceSpecification": {
+            "@type": "PriceSpecification",
+            "price": "79.00",
+            "priceCurrency": "USD",
+            "valueAddedTaxIncluded": true
+          },
+          "category": "Self-pay / cash-pay",
+          "eligibleCustomerType": "https://schema.org/Patient",
+          "availability": "https://schema.org/InStock",
+          "url": `${baseUrl}/book-online`
+        }
       },
       {
         "@type": "Physician",
@@ -123,14 +141,28 @@ export default function WorldCup2026Page() {
         "@id": `${pageUrl}#webpage`,
         "url": pageUrl,
         "name": "Online Doctor for World Cup 2026 Visitors — No US Insurance Required",
-        "description": "TeleDirectMD offers $79 flat-fee video visits with a board-certified US physician for 2026 World Cup visitors without US insurance, available near host cities in 8 of the 11 US host states.",
-        "inLanguage": "en-US",
+        "description": "TeleDirectMD offers $79 flat self-pay video visits with a board-certified US physician for 2026 World Cup visitors without US insurance, available in 10 of the 11 US host cities across 8 licensed states.",
         "breadcrumb": { "@id": `${pageUrl}#breadcrumbs` },
         "author": { "@id": `${baseUrl}/about#physician` },
         "datePublished": today,
         "dateModified": today,
         "publisher": { "@type": "Organization", "name": "TeleDirectMD", "url": baseUrl },
         "audience": { "@type": "MedicalAudience", "audienceType": "Patient" },
+        "inLanguage": "en-US",
+        "availableLanguage": ["en", "hi", "es", "pt"],
+        "keywords": "2026 World Cup doctor, World Cup 2026 healthcare, online doctor no US insurance, World Cup visitors telehealth, urgent care for tourists, see a US doctor without insurance",
+        "about": [
+          { "@type": "Thing", "name": "2026 FIFA World Cup", "sameAs": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup" },
+          { "@type": "MedicalBusiness", "name": "Telehealth urgent care" }
+        ],
+        "offers": {
+          "@type": "Offer",
+          "price": "79.00",
+          "priceCurrency": "USD",
+          "category": "Self-pay / cash-pay",
+          "availability": "https://schema.org/InStock",
+          "url": `${baseUrl}/book-online`
+        },
         "speakable": {
           "@type": "SpeakableSpecification",
           "cssSelector": ["h1", ".tdmd-hero-sub", "#world-cup-2026-faq .tdmd-faq-question"]
