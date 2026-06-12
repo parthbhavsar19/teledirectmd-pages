@@ -19,11 +19,12 @@ const UHC_STATES = [
   { code:"OH", name:"Ohio", url:"/oh/" },
   { code:"PA", name:"Pennsylvania", url:"/pa/" },
   { code:"TN", name:"Tennessee", url:"/tn/" },
-  { code:"WA", name:"Washington", url:"/wa/" },
+  { code:"TX", name:"Texas", url:"/tx/", newBadge:"New · June 2026" },
+      { code:"WA", name:"Washington", url:"/wa/" },
 ];
 
 const UHC_FAQS = [
-  { q:"Is TeleDirectMD in-network with UnitedHealthcare?", a:"Yes. TeleDirectMD is in-network with UnitedHealthcare commercial plans in 10 states: Colorado, Georgia, Illinois, Minnesota, North Carolina, New Jersey, Ohio, Pennsylvania, Tennessee, and Washington. If you have a UHC employer-sponsored or individual commercial plan in one of these states, your telehealth visit with Dr. Bhavsar may be covered." },
+  { q:"Is TeleDirectMD in-network with UnitedHealthcare?", a:"Yes. TeleDirectMD is in-network with UnitedHealthcare commercial plans in 11 states: Colorado, Georgia, Illinois, Minnesota, North Carolina, New Jersey, Ohio, Pennsylvania, Tennessee, Texas, and Washington. If you have a UHC employer-sponsored or individual commercial plan in one of these states, your telehealth visit with Dr. Bhavsar may be covered." },
   { q:"Does UnitedHealthcare cover telemedicine visits?", a:"Yes. UnitedHealthcare covers telehealth visits for most commercial plan members. Under the UHC telehealth benefit, virtual visits with in-network providers are covered comparably to in-person visits. Your actual out-of-pocket cost — copay, coinsurance, or deductible — depends on your specific plan. Call the member services number on your UHC card or log into myuhc.com to verify your telehealth benefits." },
   { q:"What UnitedHealthcare plans does TeleDirectMD accept?", a:"TeleDirectMD accepts UnitedHealthcare commercial plans including UnitedHealthcare Choice, UnitedHealthcare Options PPO, and employer-sponsored UHC group plans in the 10 listed states. UHC Community Plan (Medicaid), AARP Medicare Advantage, and fee-for-service Medicare plans are not currently accepted." },
   { q:"What conditions does UHC cover for telehealth at TeleDirectMD?", a:"UHC covers telehealth visits for a wide range of conditions including UTI, sinus infection, strep throat, ear infection, pink eye, flu, asthma refills, hypertension refills, and many more. Coverage is subject to your plan's specific benefits. See our <a href='/what-we-treat' style='color:#006B73'>What We Treat</a> page for the complete list." },
@@ -46,7 +47,7 @@ const CONDITIONS_COVERED = [
 const SCHEMA = {
   "@context":"https://schema.org",
   "@graph":[
-    { "@type":"MedicalOrganization","@id":"https://teledirectmd.com/#organization","name":"TeleDirectMD","url":"https://teledirectmd.com","description":"Physician-led telemedicine practice accepting UnitedHealthcare commercial plans in 10 states.","aggregateRating": getAggregateRating() },
+    { "@type":"MedicalOrganization","@id":"https://teledirectmd.com/#organization","name":"TeleDirectMD","url":"https://teledirectmd.com","description":"Physician-led telemedicine practice accepting UnitedHealthcare commercial plans in 11 states.","aggregateRating": getAggregateRating() },
     { "@type":"Physician","@id":"https://teledirectmd.com/#physician","name":"Parth Bhavsar, MD","identifier":{"@type":"PropertyValue","name":"NPI","value":"1104323203"},"medicalSpecialty":"Family Medicine","acceptsInsurance":[{"@type":"HealthInsurancePlan","name":"UnitedHealthcare Commercial Plans"}], ...getReviewBlock() },
     { "@type":"FAQPage","mainEntity":UHC_FAQS.map(f=>({ "@type":"Question","name":f.q,"acceptedAnswer":{"@type":"Answer","text":f.a.replace(/<[^>]+>/g,'')} })) },
     { "@type":"WebPage","@id":"https://teledirectmd.com/insurance/united-healthcare#webpage","url":"https://teledirectmd.com/insurance/united-healthcare","name":"Online Doctor That Accepts UnitedHealthcare | TeleDirectMD","speakable":{"@type":"SpeakableSpecification","cssSelector":["[data-speakable]"]} },
@@ -64,7 +65,7 @@ const SCHEMA = {
           "@type": "ItemList",
           "@id": "https://teledirectmd.com/insurance/united-healthcare#statelist",
           "name": "States where TeleDirectMD is in-network with United Healthcare",
-          "numberOfItems": 10,
+          "numberOfItems": 11,
           "itemListOrder": "https://schema.org/ItemListOrderAscending",
           "itemListElement": [
                 {
@@ -162,7 +163,7 @@ export default function UHCHubClient() {
             Online Doctor Visits Covered<br />by UnitedHealthcare
           </h1>
           <p data-speakable="true" style={{ fontFamily:B.fb, fontSize:"clamp(16px, 2.5vw, 19px)", color:"rgba(255,255,255,0.75)", lineHeight:1.6, margin:"0 0 28px", maxWidth:600 }}>
-            TeleDirectMD is in-network with UnitedHealthcare commercial plans in 10 states. Same-day video visits with a board-certified physician. Standard UHC copay applies.
+            TeleDirectMD is in-network with UnitedHealthcare commercial plans in 11 states. Same-day video visits with a board-certified physician. Standard UHC copay applies.
           </p>
           <div style={{ display:"flex", flexWrap:"wrap", gap:12 }}>
             <a href="https://www.teledirectmd.com/book-online" target="_blank" rel="noopener"
@@ -182,13 +183,13 @@ export default function UHCHubClient() {
         {/* QUICK ANSWER — AI visibility */}
         <AnswerBlock
           question="Is TeleDirectMD in-network with UnitedHealthcare?"
-          answer="Yes. TeleDirectMD accepts UnitedHealthcare commercial plans in 10 states. Book a same-day video visit with Dr. Parth Bhavsar, MD — your standard UHC copay applies. Bring your UHC member ID at booking and we will verify your benefits before the visit."
+          answer="Yes. TeleDirectMD accepts UnitedHealthcare commercial plans in 11 states. Book a same-day video visit with Dr. Parth Bhavsar, MD — your standard UHC copay applies. Bring your UHC member ID at booking and we will verify your benefits before the visit."
           color={B.teal}
         />
 
         <section style={{ marginBottom:48 }}>
           <h2 style={{ fontFamily:B.fd, fontSize:26, fontWeight:700, color:B.navy, margin:"0 0 8px" }}>States Where We Accept UnitedHealthcare</h2>
-          <p style={{ fontSize:15, color:B.text, margin:"0 0 24px", lineHeight:1.6 }}>TeleDirectMD is in-network with UHC commercial plans in 10 states. Click your state for detailed coverage information.</p>
+          <p style={{ fontSize:15, color:B.text, margin:"0 0 24px", lineHeight:1.6 }}>TeleDirectMD is in-network with UHC commercial plans in 11 states. Click your state for detailed coverage information.</p>
           <div style={{ display:"grid", gridTemplateColumns:"repeat(auto-fill, minmax(160px, 1fr))", gap:10 }}>
             {UHC_STATES.map((st) => (
               <a key={st.code} href={st.url}
