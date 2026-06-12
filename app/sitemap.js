@@ -49,11 +49,11 @@ const STATIC_ROUTES = [
   { path: '/insurance/florida-blue', priority: 0.95, changefreq: 'weekly' },
 ];
 
-// Who We Serve segments (10 pages)
+// Who We Serve segments (11 pages)
 const WWS_SEGMENTS = [
   'uninsured-affordable-care', 'truck-drivers', 'travel-nurses', 'small-business-owners',
   'remote-workers', 'military-families', 'international-visitors', 'early-retirees',
-  'college-students', 'hdhp-hsa-holders',
+  'college-students', 'hdhp-hsa-holders', 'world-cup-2026',
 ];
 
 // Insurer state slugs (full state names used by hub routes)
