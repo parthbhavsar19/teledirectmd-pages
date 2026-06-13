@@ -852,6 +852,24 @@
       "status": 301
     },
     {
+      "src": "/use-case/refill-medication-online/?",
+      "status": 410,
+      "headers": {
+        "Content-Type": "text/plain",
+        "X-Retired": "refill-retired-2026-06-13"
+      },
+      "dest": "/410-refill.txt"
+    },
+    {
+      "src": "/(al|az|ca|co|ct|dc|de|fl|ga|hi|ia|id|il|in|ks|ky|la|md|me|mi|mn|mo|ms|mt|nc|nd|ne|nh|nj|nv|oh|ok|pa|sc|sd|tn|tx|ut|vt|wa|wi|wv|wy)/use-case/refill-medication-online/?",
+      "status": 410,
+      "headers": {
+        "Content-Type": "text/plain",
+        "X-Retired": "refill-retired-2026-06-13"
+      },
+      "dest": "/410-refill.txt"
+    },
+    {
       "src": "/use-case/work-school-note/?",
       "status": 410,
       "headers": {
