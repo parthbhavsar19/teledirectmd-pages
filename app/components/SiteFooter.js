@@ -1,5 +1,3 @@
-import PressStrip from './PressStrip';
-
 export default function SiteFooter() {
 
   return (
@@ -67,9 +65,6 @@ export default function SiteFooter() {
             <a href="/accessibility">Accessibility</a>
           </div>
         </div>
-
-        {/* As Featured In strip — compact, site-wide press signal */}
-        <PressStrip variant="footer" />
 
         {/* Trust badges + Social */}
         <div className="tdmd-footer-bottom-bar">

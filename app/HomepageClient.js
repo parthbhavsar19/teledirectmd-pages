@@ -46,8 +46,8 @@ const SERVICE_CATEGORIES = [
   {
     title: 'Travel Medicine',
     desc: 'Altitude sickness prevention, malaria prophylaxis, traveler’s diarrhea standby, and motion sickness — before you fly.',
-    icon: 'refills',
-    img: '/images/services/svc-lifestyle.png',
+    icon: 'travel',
+    img: '/images/services/svc-travel.png',
     href: '/travel-medicine-treatment-online',
   },
 ];
