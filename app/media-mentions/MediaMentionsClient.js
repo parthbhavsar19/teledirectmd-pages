@@ -21,6 +21,7 @@ const LOGO_CLASS_MAP = {
   'Parade': 'logo-parade',
   "Men's Journal": 'logo-mensjournal',
   'SHEfinds': 'logo-shefinds',
+  'Atlanta Journal-Constitution': 'logo-ajc',
 };
 
 // Filter buttons config
@@ -204,6 +205,7 @@ const CSS = `
 .tdmd-media__logobar-item.logo-mensjournal img { height: 38px; }
 .tdmd-media__logobar-item.logo-shefinds img { height: 36px; }
 .tdmd-media__logobar-item.logo-gq img { height: 42px; }
+.tdmd-media__logobar-item.logo-ajc img { height: 48px; max-width: 200px; }
 
 @media (max-width: 768px) {
   .tdmd-media__logobar { padding: 32px 0; }
@@ -212,6 +214,7 @@ const CSS = `
   .tdmd-media__logobar-item.logo-time img { height: 40px !important; }
   .tdmd-media__logobar-item.logo-fox img { height: 38px !important; }
   .tdmd-media__logobar-item.logo-gq img { height: 36px !important; }
+  .tdmd-media__logobar-item.logo-ajc img { height: 38px !important; max-width: 150px; }
   .tdmd-media__logobar::before,
   .tdmd-media__logobar::after { width: 40px; }
 }
