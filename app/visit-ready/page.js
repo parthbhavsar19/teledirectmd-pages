@@ -456,15 +456,17 @@ export default function VisitReady() {
           <div style={styles.joinCard}>
             <div style={styles.joinLabel}>Your video visit</div>
             <h2 id="vr-join-title" style={{ ...styles.h2, marginBottom: 8 }}>
-              Join Dr. Bhavsar on secure video
+              At the time of your appointment, click the button below to connect
             </h2>
             <p style={styles.joinHint}>
-              Please join at your scheduled appointment time using the button
-              below.
+              There&apos;s nothing more to do right now. When your scheduled
+              appointment time arrives, return to this page and click{' '}
+              <strong>Join Your Video Visit</strong> to connect with Dr. Bhavsar
+              on secure video.
             </p>
             <div>
               <span style={styles.timePill}>
-                Join at your scheduled appointment time
+                Click to connect at your scheduled appointment time
               </span>
             </div>
             <div>
