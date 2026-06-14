@@ -668,9 +668,6 @@ export default function HomepageClient() {
                 </div>
                 <h3>{svc.title}</h3>
                 <p>{svc.desc}</p>
-                {i === SERVICE_CATEGORIES.length - 1 && (
-                  <span className="hp-btn hp-btn-sm">Book Now</span>
-                )}
               </a>
             ))}
           </div>
