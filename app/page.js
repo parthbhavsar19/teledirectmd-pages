@@ -69,6 +69,11 @@ const jsonLd = {
           name: 'Skin Condition Treatment',
           description: 'Expert telehealth consults for acne, eczema, rosacea, and other skin concerns.',
         },
+        {
+          '@type': 'MedicalProcedure',
+          name: 'Travel Medicine',
+          description: 'Pre-travel video visits for altitude sickness prevention (acetazolamide), malaria prophylaxis, travelers diarrhea standby antibiotics, and motion sickness. Non-controlled medications only.',
+        },
       ],
       sameAs: [
         'https://instagram.com/teledirectmd',

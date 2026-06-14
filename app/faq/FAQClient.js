@@ -363,6 +363,12 @@ const sections = [
               infections, bronchitis, and more.
             </p>
             <p>
+              We also offer <Link href="/travel-medicine-treatment-online"><strong>travel medicine</strong></Link>{' '}
+              by video visit before you fly — including{' '}
+              <Link href="/altitude-sickness-treatment-online"><strong>altitude sickness prevention</strong></Link>{' '}
+              (acetazolamide/Diamox), malaria prophylaxis, a traveler’s diarrhea standby antibiotic, and motion sickness medication. These are non-controlled medications only; we do not administer travel vaccines.
+            </p>
+            <p>
               Visit our{' '}
               <Link href="/what-we-treat">
                 <strong>What We Treat</strong>

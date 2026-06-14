@@ -43,6 +43,13 @@ const SERVICE_CATEGORIES = [
     img: '/images/services/svc-lifestyle.png',
     href: '/what-we-treat',
   },
+  {
+    title: 'Travel Medicine',
+    desc: 'Altitude sickness prevention, malaria prophylaxis, traveler’s diarrhea standby, and motion sickness — before you fly.',
+    icon: 'refills',
+    img: '/images/services/svc-lifestyle.png',
+    href: '/travel-medicine-treatment-online',
+  },
 ];
 
 const CONDITION_CATEGORIES = [
@@ -72,7 +79,11 @@ const CONDITION_CATEGORIES = [
   },
   {
     name: 'Wellness & Lifestyle',
-    conditions: ['Hair Loss', 'Anti-Aging', 'Eyelash Growth', 'Smoking Cessation', 'Motion Sickness'],
+    conditions: ['Hair Loss', 'Anti-Aging', 'Eyelash Growth', 'Smoking Cessation'],
+  },
+  {
+    name: 'Travel Medicine',
+    conditions: ['Travel Medicine', 'Altitude Sickness', 'Motion Sickness'],
   },
 ];
 
@@ -173,6 +184,8 @@ const CONDITION_SLUGS = {
   'Eyelash Growth': '/eyelash-growth-treatment-online',
   'Smoking Cessation': '/smoking-cessation-treatment-online',
   'Motion Sickness': '/motion-sickness-treatment-online',
+  'Travel Medicine': '/travel-medicine-treatment-online',
+  'Altitude Sickness': '/altitude-sickness-treatment-online',
 };
 
 const WHY_FEATURES = [
