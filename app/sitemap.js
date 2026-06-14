@@ -120,6 +120,8 @@ export default function sitemap() {
   const NATIONAL_ONLY_CONDITIONS = new Set([
     'travel-medicine-treatment-online',
     'altitude-sickness-treatment-online',
+    'malaria-prophylaxis-treatment-online',
+    'travelers-diarrhea-treatment-online',
   ]);
   const states = getStates();
   const conditionSlugs = getConditionSlugs();

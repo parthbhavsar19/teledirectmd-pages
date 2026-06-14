@@ -1,0 +1,853 @@
+{
+  "conditionName": "Malaria Prophylaxis Online",
+  "conditionShort": "Malaria Prophylaxis",
+  "conditionSlug": "malaria-prophylaxis-treatment-online",
+  "pageTitle": "Malaria Prophylaxis Online in {state} | TeleDirectMD",
+  "metaDescription": "Malaria prophylaxis prescription online in {state} — atovaquone-proguanil (Malarone) or doxycycline by board-certified MD video visit. Destination-specific CDC-guided drug selection for Africa, Asia, Latin America, and the Caribbean. Self pay option starting at $79. Insurance is not required. Adults 18+ only.",
+  "ogImageAlt": "Malaria prophylaxis prescription online in {state} — Malarone and doxycycline by video visit from TeleDirectMD",
+  "hero": {
+    "h1": "Malaria Prophylaxis Online in {state} (Pre-Travel Antimalarial Prescription)",
+    "subtitle": "{state} adult care by secure video visit, self pay option starting at $79, MD-only, insurance is not required.",
+    "introParagraph": "Malaria is a life-threatening mosquito-borne parasitic disease caused by Plasmodium species — primarily P. falciparum, P. vivax, P. ovale, P. malariae, and P. knowlesi — transmitted through the bite of infected Anopheles mosquitoes. According to the World Health Organization, there were an estimated 249 million cases of malaria worldwide in 2022, with the vast majority occurring in sub-Saharan Africa, followed by South Asia and parts of Latin America. For US travelers, malaria is an entirely preventable disease: the combination of appropriate chemoprophylaxis and personal protective measures (insect repellent, permethrin-treated clothing, mosquito nets) dramatically reduces the risk of infection. The critical framing for this page is this — TeleDirectMD prescribes malaria PROPHYLAXIS (prevention) for travelers departing to malaria-endemic regions. We do NOT treat active malaria infection via telehealth. Active malaria is a medical emergency requiring in-person evaluation, blood smear, rapid diagnostic testing, and parenteral or supervised oral therapy that is outside the scope of telemedicine. If you have returned from a malaria-endemic region and have fever, chills, sweats, or headache, go to an emergency room immediately and tell them about your travel history. TeleDirectMD helps you prevent malaria before and during your trip. The front-line prophylaxis options we prescribe are atovaquone-proguanil (brand name Malarone) and doxycycline, both of which are started before departure, taken during travel, and continued for a defined post-travel period. Mefloquine is discussed as a case-by-case option with important psychiatric and cardiac screening requirements. Primaquine and tafenoquine require a quantitative G6PD enzyme test before use and are not available via telehealth at TeleDirectMD — patients who are candidates for these agents are referred to an in-person travel clinic. Drug selection is destination-driven and follows CDC guidelines. This page is for adults located in {state}, including {cities}.",
+    "tocLinks": [
+      {
+        "href": "eligibility-checklist",
+        "label": "Eligibility checklist"
+      },
+      {
+        "href": "decision-guide",
+        "label": "Decision guide"
+      },
+      {
+        "href": "treatment-options",
+        "label": "Treatment options"
+      },
+      {
+        "href": "faq",
+        "label": "FAQs"
+      },
+      {
+        "href": "references",
+        "label": "References"
+      }
+    ],
+    "benefits": [
+      "Self pay option starting at $79",
+      "MD-only care (no mid-levels)",
+      "Insurance is not required",
+      "Licensed telehealth care for patients located in {state} at the time of the visit"
+    ],
+    "sideCard": {
+      "h2": "Online MD-Only Malaria Prophylaxis in {state}",
+      "features": [
+        "Destination-specific CDC-guided drug selection (Malarone or doxycycline as front-line)",
+        "Chloroquine-resistance region assessment for Africa, Asia, and Latin America",
+        "Contraindication screening for pregnancy, renal function, photosensitivity",
+        "Mefloquine neuropsychiatric and cardiac screening when case-by-case consideration applies",
+        "Clear referral criteria for G6PD-testing-required agents (primaquine, tafenoquine)"
+      ],
+      "note": "Adults 18+ only. TeleDirectMD prescribes malaria PREVENTION (prophylaxis) only. Active malaria infection with fever, chills, and rigors after returning from an endemic region is a medical emergency — go to an emergency room immediately and report your travel history. TeleDirectMD does not prescribe controlled substances. No vaccines are administered via telehealth."
+    },
+    "icd10Display": "Z29.9 (encounter for prophylactic measures, unspecified — prophylaxis context; active malaria B50–B54 is out of telehealth scope)"
+  },
+  "eligibility": {
+    "sectionTitle": "Malaria Prophylaxis Telehealth Eligibility Checklist for {state}",
+    "introText": "You are likely eligible for a TeleDirectMD malaria prophylaxis video visit if ALL of these are true:",
+    "eligible": [
+      "You are 18 years old or older",
+      "You are physically located in {state} at the time of the visit",
+      "You are planning travel to a malaria-endemic region (sub-Saharan Africa, South or Southeast Asia, Central or South America, the Caribbean, Oceania) and have not yet departed or are in the pre-travel planning phase",
+      "You do not have a history of severe psychiatric illness, seizure disorder, or cardiac conduction abnormalities that would preclude mefloquine (relevant if mefloquine is under consideration)",
+      "You are not pregnant and are not breastfeeding a child under 5 kg (doxycycline is contraindicated all trimesters; Malarone is also contraindicated in pregnancy and breastfeeding under 5 kg)",
+      "You do not have severe renal impairment (atovaquone-proguanil is contraindicated with creatinine clearance below 30 mL/min)",
+      "You are not currently experiencing fever, chills, rigors, or sweating consistent with active malaria infection after returning from an endemic region",
+      "Insurance is not required. A self pay option is available."
+    ],
+    "notEligible": [
+      "You are under 18 years old",
+      "You are currently experiencing fever, chills, sweating, or severe headache after returning from a malaria-endemic region (active malaria — go to an emergency room immediately)",
+      "You are pregnant or may be pregnant (doxycycline is absolutely contraindicated in all trimesters; atovaquone-proguanil is contraindicated in pregnancy; malaria in pregnancy requires in-person travel medicine evaluation)",
+      "You have severe renal impairment (CrCl < 30 mL/min) — atovaquone-proguanil is contraindicated",
+      "You need primaquine or tafenoquine — both require quantitative G6PD enzyme testing before prescribing, which must be performed in person",
+      "You have a history of psychosis, bipolar disorder, seizure disorder, or cardiac conduction abnormalities relevant to mefloquine consideration",
+      "You are located in New York State at the time of the visit",
+      "You are seeking malaria vaccines (RTS,S, R21) — vaccines are not administered via telehealth"
+    ],
+    "notEligibleDisclaimer": "Active malaria is a medical emergency. Symptoms typically appear 10 to 15 days after an infected mosquito bite but can be delayed weeks to months. If you have fever, chills, headache, myalgia, or vomiting after travel to an endemic region, seek emergency evaluation immediately, tell the treating team your travel history, and request malaria blood smears and rapid diagnostic testing. Do not attempt to self-diagnose or self-treat active malaria."
+  },
+  "howItWorks": {
+    "sectionTitle": "How Online Malaria Prophylaxis Works in {state}",
+    "steps": [
+      {
+        "type": "check",
+        "title": "Book your video visit",
+        "description": "Insurance is not required. No referral needed. Same-day appointments are often available. Before your visit, have your travel itinerary ready including your destination country and specific regions, departure date, duration of stay, and planned activities (urban hotel vs rural jungle or bush lodging). Also note any known drug allergies, current medications, psychiatric history (relevant to mefloquine screening), history of renal disease, and whether you are pregnant or breastfeeding. Book well in advance — mefloquine requires starting 1 to 2 weeks before departure; Malarone and doxycycline require only 1 to 2 days before departure."
+      },
+      {
+        "type": "check",
+        "title": "See a {state} licensed MD by video",
+        "description": "Your physician reviews your destination country and specific regions, the CDC resistance pattern for that area (chloroquine-resistant vs. chloroquine-sensitive malaria zones), your medical and psychiatric history, current medications for interactions, and any contraindications. The CDC drug selection table — available at cdc.gov/malaria/hcp/drug-malaria — organizes recommended agents by country and region. For most sub-Saharan Africa travel and Southeast Asia, atovaquone-proguanil (Malarone) or doxycycline are the preferred front-line agents given their efficacy against chloroquine-resistant P. falciparum. Mefloquine is considered only after psychiatric and cardiac screening clears the patient for this agent, given its FDA boxed warning."
+      },
+      {
+        "type": "good",
+        "title": "Get a destination-specific malaria prophylaxis prescription if clinically appropriate",
+        "description": "If prophylaxis is clinically appropriate for your itinerary, we send an e-prescription to common {state} pharmacies such as {pharmacies}. You receive complete dosing instructions including when to start, how to take the medication (Malarone is taken with food or milk), how long to continue after leaving the endemic area, what side effects to monitor, and clear criteria for when to stop the medication and seek in-person evaluation. Personal protective measures — DEET-containing repellent, permethrin-treated clothing, long sleeves and pants, mosquito nets — are reviewed at every visit as essential adjuncts to chemoprophylaxis.",
+        "showCta": true
+      }
+    ]
+  },
+  "telehealthRegulations": {
+    "sectionTitle": "{state} Telehealth Regulations for Online Malaria Prophylaxis",
+    "paragraphs": [
+      "{telehealthRegulation}",
+      "Location matters: you must be physically in {state} during the visit. Insurance is not required. TeleDirectMD does not prescribe controlled substances. Atovaquone-proguanil (Malarone), doxycycline, and mefloquine are all non-controlled prescription medications fully within our telehealth prescribing scope when clinically appropriate. No vaccines are administered via telehealth — yellow fever, typhoid, and hepatitis A vaccines for travel require in-person administration at a travel clinic or pharmacy."
+    ]
+  },
+  "comparisonTable": {
+    "sectionTitle": "TeleDirectMD vs Other Care Options for Malaria Prophylaxis in {state}",
+    "intro": "Here is how TeleDirectMD compares to common settings for pre-travel malaria prophylaxis in {state}:",
+    "rows": [
+      {
+        "option": "TeleDirectMD",
+        "cost": "Self pay option starting at $79",
+        "wait": "Same day, often within hours",
+        "provider": "Board-certified MD only (no mid-levels)",
+        "bestFor": "Destination-specific Malarone or doxycycline prophylaxis prescription for adults with straightforward itineraries to chloroquine-resistant regions; psychiatric and cardiac screening for mefloquine consideration",
+        "highlight": true
+      },
+      {
+        "option": "In-Person Travel Clinic",
+        "cost": "$150 to $500+ (consultation plus vaccines)",
+        "wait": "Days to weeks for appointment",
+        "provider": "Travel medicine MD, DO, or specialist",
+        "bestFor": "Complex multi-destination itineraries, all required travel vaccines (yellow fever, typhoid, hepatitis A/B), G6PD testing for primaquine or tafenoquine, malaria-in-pregnancy evaluation, and immunocompromised travelers",
+        "highlight": false
+      },
+      {
+        "option": "Urgent Care",
+        "cost": "$150 to $300+ (before insurance)",
+        "wait": "1 to 3 hours typical",
+        "provider": "MD, DO, PA, or NP",
+        "bestFor": "Acute illness evaluation; most urgent care centers are not specialized in destination-specific malaria prophylaxis drug selection",
+        "highlight": false
+      },
+      {
+        "option": "Primary Care",
+        "cost": "$100 to $250+ (varies)",
+        "wait": "3 to 14 days typical",
+        "provider": "Family medicine or internal medicine MD or DO",
+        "bestFor": "Baseline health evaluation, referral coordination, and antimalarial prescribing for established patients — many primary care physicians are not current on destination-specific CDC resistance data",
+        "highlight": false
+      },
+      {
+        "option": "Emergency Room",
+        "cost": "$500 to $3,000+ (before insurance)",
+        "wait": "2 to 6 hours typical",
+        "provider": "Emergency medicine MD or DO",
+        "bestFor": "Active malaria emergency — fever, rigors, altered mental status, respiratory distress after return from endemic region; blood smear diagnosis and IV treatment initiation",
+        "highlight": false
+      }
+    ],
+    "bottomLine": "TeleDirectMD is an efficient, cost-effective option for pre-travel Malarone or doxycycline prophylaxis prescriptions for adults traveling to malaria-endemic regions. Complex itineraries requiring vaccines, G6PD testing, or malaria-in-pregnancy evaluation require an in-person travel clinic. Active malaria is always an emergency room condition."
+  },
+  "decisionGuide": {
+    "sectionTitle": "Should I Use TeleDirectMD for Malaria Prophylaxis in {state}? Decision Guide",
+    "steps": [
+      {
+        "type": "urgent",
+        "title": "Do you currently have fever, chills, rigors, headache, or myalgia after returning from a malaria-endemic region?",
+        "items": [
+          "Fever above 38°C (100.4°F) after any travel to sub-Saharan Africa, South Asia, Southeast Asia, Central or South America, or the Caribbean",
+          "Cyclical or recurring fever with sweats and chills",
+          "Severe headache, myalgia, and fatigue after recent tropical travel",
+          "Jaundice, dark urine, or altered mental status after return from endemic region",
+          "Any febrile illness within 12 months of travel to a malaria-endemic area"
+        ],
+        "yesAction": "If yes, go to an emergency room immediately — do not use telehealth. Tell the treating team your travel history and destination. Request malaria blood smears and rapid antigen testing. Active malaria, particularly P. falciparum, can be fatal within 24 to 48 hours without treatment.",
+        "noAction": "If no, continue to Step 2"
+      },
+      {
+        "type": "check",
+        "title": "Are you 18+ and currently in {state}?",
+        "items": [],
+        "yesAction": "If yes, continue to Step 3",
+        "noAction": "If no, seek care in your current state or use in-person care"
+      },
+      {
+        "type": "check",
+        "title": "Are you planning travel to a malaria-endemic destination?",
+        "items": [
+          "Sub-Saharan Africa (Kenya, Tanzania, Uganda, Ghana, Nigeria, Mozambique, Madagascar, etc.)",
+          "South or Southeast Asia (India, Thailand, Myanmar, Cambodia, Laos, Vietnam, Indonesia, Philippines)",
+          "Central America (Guatemala, Honduras, Belize, Panama) or South America (Colombia, Peru, Brazil Amazon basin, Bolivia, Venezuela, Ecuador)",
+          "The Caribbean (Haiti and parts of the Dominican Republic)",
+          "Oceania (Papua New Guinea, Solomon Islands, Vanuatu)",
+          "Parts of the Middle East (Yemen, Syria) and South Asia (Pakistan, Afghanistan)"
+        ],
+        "yesAction": "If yes, continue to Step 4",
+        "noAction": "If no malaria-endemic travel planned, prophylaxis is not indicated"
+      },
+      {
+        "type": "check",
+        "title": "Are you pregnant, or do you have key contraindications?",
+        "items": [
+          "Currently pregnant or may be pregnant (any trimester) — doxycycline is absolutely contraindicated; Malarone is contraindicated in pregnancy; malaria in pregnancy is a serious obstetric complication requiring in-person travel medicine",
+          "Severe renal impairment (creatinine clearance below 30 mL/min) — atovaquone-proguanil contraindicated",
+          "History of psychosis, schizophrenia, major depression, bipolar disorder, or seizure disorder (relevant to mefloquine; Malarone and doxycycline may still be options)",
+          "Need for G6PD-dependent agents (primaquine, tafenoquine) — require in-person G6PD testing"
+        ],
+        "yesAction": "If yes, disclose during your visit. Pregnancy and severe renal disease require in-person travel medicine evaluation. Psychiatric history may still permit Malarone or doxycycline — the physician will assess.",
+        "noAction": "If no, continue to Step 5"
+      },
+      {
+        "type": "good",
+        "title": "You are likely appropriate for a TeleDirectMD malaria prophylaxis video visit",
+        "description": "TeleDirectMD can evaluate your travel destination, assess the CDC resistance profile for your specific region, select the most appropriate front-line agent (atovaquone-proguanil or doxycycline for most chloroquine-resistant regions), perform psychiatric and cardiac screening if mefloquine is under consideration, prescribe the appropriate antimalarial, and provide complete personal protective measures counseling. If your itinerary requires vaccines, G6PD testing, or pregnancy-specific malaria management, we will direct you to an in-person travel clinic.",
+        "items": [],
+        "showCta": true
+      }
+    ]
+  },
+  "pricing": {
+    "sectionTitle": "What Does Malaria Prophylaxis Cost in {state}?",
+    "subtitle": "Transparent options. Insurance is not required.",
+    "visitPrice": "$79",
+    "priceSubtext": "Self pay option. Insurance is not required.",
+    "includes": [
+      "MD evaluation of travel destination and CDC resistance profile for your specific region",
+      "Contraindication screening (pregnancy, renal function, psychiatric history for mefloquine)",
+      "Atovaquone-proguanil (Malarone) or doxycycline prescription if clinically appropriate",
+      "Complete dosing, timing, and side-effect counseling",
+      "Personal protective measures protocol (DEET, permethrin, mosquito nets)",
+      "Referral criteria for G6PD-testing-required agents and travel vaccine administration"
+    ],
+    "comparisonBars": [
+      {
+        "name": "TeleDirectMD",
+        "value": "$79",
+        "width": 18,
+        "isTdmd": true
+      },
+      {
+        "name": "Primary Care",
+        "value": "$100 to $250+",
+        "width": 42,
+        "isTdmd": false
+      },
+      {
+        "name": "In-Person Travel Clinic",
+        "value": "$150 to $500+",
+        "width": 65,
+        "isTdmd": false
+      },
+      {
+        "name": "Emergency Room",
+        "value": "$500 to $3,000+",
+        "width": 100,
+        "isTdmd": false
+      }
+    ],
+    "footnote": "Prescription costs at your pharmacy are separate. Doxycycline 100 mg is widely available as an inexpensive generic — a 6-week course (for a 4-week trip) typically costs under $30 at most pharmacies with GoodRx (pricing verified 2026-06-13; costs vary). Atovaquone-proguanil (generic Malarone) for a 2-week trip typically ranges from $40 to $120+ for generic depending on pharmacy and coupon availability (GoodRx, 2026-06-13). Brand Malarone is significantly more expensive. Medication costs vary by pharmacy, quantity, and coupon availability.",
+    "noHiddenFees": "No hidden fees. If malaria prophylaxis is not clinically appropriate for your specific travel scenario, or if you require in-person care (G6PD testing, vaccines, pregnancy evaluation), you still receive a complete evaluation and clear guidance on the most appropriate next steps."
+  },
+  "whatIsCondition": {
+    "sectionTitle": "What Is Malaria, and Why Does Prophylaxis Matter?",
+    "paragraphs": [
+      "Malaria is caused by Plasmodium parasites transmitted through the bite of infected female Anopheles mosquitoes, which are most active at dusk and dawn. Five species infect humans: P. falciparum (responsible for most severe disease and nearly all malaria deaths), P. vivax (the most geographically widespread), P. ovale (two subspecies), P. malariae, and P. knowlesi (a zoonotic species in Southeast Asia). The parasite undergoes a complex life cycle: sporozoites injected during a mosquito bite travel to the liver where they undergo asexual reproduction (the liver or pre-erythrocytic stage, which is asymptomatic), then emerge as merozoites to invade red blood cells (the erythrocytic stage, which causes the clinical syndrome of cyclical fever, chills, and hemolysis). P. vivax and P. ovale form dormant liver stage forms called hypnozoites that can reactivate weeks to years later — this relapsing biology is why primaquine and tafenoquine (which address the liver stage) are important for P. vivax-dominant regions, and why these agents require G6PD testing before use.",
+      "For US travelers, malaria is largely preventable. The CDC's Yellow Book provides a detailed country-by-country malaria prevention guide based on current surveillance data about species distribution and drug resistance patterns. The dominant clinical concern in most high-risk travel destinations, particularly sub-Saharan Africa, is P. falciparum, which can cause rapid clinical deterioration and death through cerebral malaria, severe anemia, acute respiratory distress syndrome, renal failure, and hypoglycemia. Unlike altitude sickness or traveler's diarrhea — which typically cause significant morbidity but are rarely immediately fatal — untreated P. falciparum malaria can kill an unimmunized adult traveler within 24 to 48 hours of symptom onset. This severity makes pre-travel prophylaxis consultation a high-stakes, genuinely life-saving intervention for travelers to Africa and other high-transmission regions.",
+      "The fundamental framing that guides TeleDirectMD's malaria service is prevention, not treatment. We prescribe chemoprophylaxis — medications that prevent the parasitic infection from establishing itself or progressing to clinical illness. None of the agents TeleDirectMD prescribes are appropriate for treating an established malaria infection. If you return from a malaria-endemic region with fever, this is a medical emergency requiring blood smear diagnosis, species identification, and treatment protocols that are only possible with in-person evaluation and laboratory capability. The emergency room is the correct care setting for a febrile traveler returning from Africa or Asia — not telehealth."
+    ]
+  },
+  "causesAndRiskFactors": {
+    "sectionTitle": "Risk Factors and Destination-Specific Malaria Risk",
+    "intro": "Malaria risk for travelers depends heavily on destination, activities, accommodation type, season, and individual factors. Understanding your specific risk profile is central to selecting the appropriate prophylaxis regimen.",
+    "items": [
+      {
+        "label": "Destination country and region:",
+        "text": "the single most important determinant of malaria risk. Sub-Saharan Africa has the highest transmission intensity globally — a traveler to rural Kenya, Tanzania, or West Africa faces dramatically higher risk than a traveler to an urban hotel in an Indian metro city. Within countries, rural and forested areas typically carry higher risk than urban centers."
+      },
+      {
+        "label": "Plasmodium species in destination region:",
+        "text": "P. falciparum dominates in sub-Saharan Africa, parts of Southeast Asia (Myanmar, Cambodia, Papua New Guinea), and Haiti. P. vivax dominates in Central America (excluding Panama's Darien region), parts of South America, and South/Central Asia. P. knowlesi is increasingly recognized in Borneo/Malaysia. Species distribution drives drug selection, particularly for regions where vivax with hypnozoites may be the primary species."
+      },
+      {
+        "label": "Chloroquine resistance profile:",
+        "text": "Chloroquine-resistant P. falciparum is present throughout sub-Saharan Africa, most of South and Southeast Asia, Central America (east of the Panama Canal), South America, and Oceania. Chloroquine-sensitive regions include Central America west of the Panama Canal, Haiti, the Dominican Republic, and limited areas of the Middle East. Mefloquine resistance is present in parts of Thailand-Myanmar and Cambodia border regions, making doxycycline or Malarone the preferred choices there."
+      },
+      {
+        "label": "Type of accommodation:",
+        "text": "sleeping outdoors, in rural open-air housing, or without screens or air conditioning dramatically increases Anopheles mosquito exposure compared to air-conditioned hotels in urban centers. Safari lodges in East Africa, jungle lodges in the Amazon, and rural homestays in South Asia all carry higher exposure risk."
+      },
+      {
+        "label": "Seasonal and transmission intensity variations:",
+        "text": "malaria transmission typically peaks during and after rainy seasons in tropical regions. Some destinations have distinct low-transmission seasons, though for most sub-Saharan African destinations, year-round prophylaxis is recommended for any duration of travel."
+      },
+      {
+        "label": "Duration of exposure:",
+        "text": "a 3-day business trip to Lagos, Nigeria carries a different risk profile than a 3-week safari in Tanzania or a 3-month NGO posting in rural Uganda. Longer exposure, especially in high-transmission areas, justifies a more rigorous prophylaxis approach."
+      },
+      {
+        "label": "Individual host factors:",
+        "text": "adults who grew up in malaria-endemic regions and have some degree of naturally acquired immunity are not fully protected but may tolerate exposure better than completely naive US-born travelers. Immunocompromised individuals (HIV, immunosuppressive therapy, asplenia) face higher risk of severe disease. Pregnancy dramatically increases the risk of severe malaria and its obstetric complications."
+      }
+    ],
+    "closing": "The CDC malaria prevention website and Yellow Book provide country-by-country risk information and recommended prophylaxis agents. Your TeleDirectMD physician reviews the CDC resistance profile for your specific destination and travel activities as the foundation for drug selection, following the guidance at https://www.cdc.gov/malaria/hcp/drug-malaria/index.html."
+  },
+  "symptomsAndRedFlags": {
+    "sectionTitle": "Malaria Symptoms, Warning Signs, and When to Seek Emergency Care",
+    "intro": "This table distinguishes the prevention context (appropriate for telehealth) from active malaria infection (always an emergency room condition). Prophylaxis prevents you from ever reaching the clinical disease columns.",
+    "headers": [
+      "Symptom or situation",
+      "What it suggests",
+      "Telehealth appropriate?",
+      "Red flag requiring immediate action"
+    ],
+    "rows": [
+      [
+        "Pre-travel planning — no symptoms, departing for endemic region in 1 to 30 days",
+        "Indication for malaria chemoprophylaxis consultation",
+        "Yes — telehealth is the right setting for prophylaxis prescription",
+        "None at this stage"
+      ],
+      [
+        "Fever above 38°C, chills, sweats, and headache 1 to 4 weeks after return from Africa, South Asia, or Southeast Asia",
+        "Classic P. falciparum malaria — life-threatening emergency",
+        "No — go to ER immediately",
+        "Report travel history; request malaria blood smears and rapid antigen testing immediately"
+      ],
+      [
+        "Cyclical fever every 48 to 72 hours after tropical travel (may begin weeks after return)",
+        "P. vivax, P. ovale, or P. malariae malaria — can relapse months to years later",
+        "No — go to ER or urgent infectious disease evaluation",
+        "Tell treating team about all travel in past 12 months; P. vivax relapse can occur well after return"
+      ],
+      [
+        "Confusion, altered mental status, seizures after return from malaria-endemic region",
+        "Cerebral malaria (P. falciparum) — life-threatening neurological emergency",
+        "No — 911 / emergency services immediately",
+        "Cerebral malaria mortality without immediate IV treatment is very high"
+      ],
+      [
+        "Dark urine, jaundice, severe pallor after tropical travel with fever",
+        "Severe hemolytic malaria with hemolysis and possible blackwater fever (P. falciparum)",
+        "No — emergency evaluation required",
+        "Hemolysis, renal failure, and hemoglobinuria require ICU-level care"
+      ],
+      [
+        "Nausea, vomiting, unable to take oral medications after malaria diagnosis at destination",
+        "Complicated or severe malaria requiring parenteral treatment",
+        "No — in-person parenteral therapy",
+        "Quinidine IV or artesunate IV (CDC emergency use) for severe falciparum malaria"
+      ],
+      [
+        "GI upset while taking Malarone or doxycycline for prophylaxis during travel",
+        "Common side effect of chemoprophylaxis — not active malaria",
+        "Yes — telehealth appropriate to assess side effects",
+        "Take Malarone with food; doxycycline with water and upright posture; switch discussion if intolerable"
+      ]
+    ]
+  },
+  "differentialDiagnosis": {
+    "sectionTitle": "Malaria vs Other Febrile Travel Illnesses",
+    "intro": "Fever after tropical travel has a broad differential that includes malaria, dengue fever, typhoid, chikungunya, Zika, rickettsial disease, and other infections. TeleDirectMD focuses on pre-travel prophylaxis; post-travel fever evaluation requires in-person clinical assessment and laboratory diagnostics.",
+    "telehealthAppropriate": {
+      "title": "Appropriate for Pre-Travel Telehealth Evaluation",
+      "items": [
+        "Pre-departure malaria prophylaxis prescription for adults traveling to endemic regions",
+        "Destination-specific CDC-guided drug selection (Malarone vs doxycycline vs mefloquine case-by-case)",
+        "Contraindication screening (pregnancy, renal disease, psychiatric history, photosensitivity)",
+        "Personal protective measures counseling and chemoprophylaxis adherence planning",
+        "Assessment of whether itinerary requires in-person travel clinic vs. telehealth"
+      ]
+    },
+    "requiresInPerson": {
+      "title": "Requires In-Person or Emergency Evaluation",
+      "items": [
+        "Active malaria: any febrile illness after return from malaria-endemic region",
+        "Malaria in pregnancy: requires in-person travel medicine with obstetric coordination",
+        "G6PD-deficiency testing for primaquine or tafenoquine eligibility",
+        "Travel vaccines: yellow fever, typhoid, hepatitis A/B, meningococcal — in-person administration only",
+        "Immunocompromised travelers: HIV, organ transplant, or immunosuppressive therapy — require in-person travel medicine evaluation"
+      ]
+    },
+    "compareCards": [
+      {
+        "title": "Malaria vs Dengue Fever",
+        "text": "Dengue fever is caused by the dengue virus transmitted by Aedes aegypti mosquitoes — the same bite prevention measures (DEET, clothing, nets) reduce both malaria and dengue risk. However, dengue has no chemoprophylaxis — unlike malaria, you cannot take a daily pill to prevent dengue. The clinical presentation overlaps: both cause high fever, severe headache, and myalgia after tropical travel. Classic dengue features include retro-orbital eye pain, a characteristic maculopapular rash appearing 3 to 5 days after fever onset, and thrombocytopenia. The key distinction for returning travelers: both dengue and malaria can present with fever after tropical travel, and both require in-person evaluation. Blood smear and rapid antigen testing for malaria, plus dengue NS1 antigen and serological testing, are typically ordered together for febrile travelers. Never assume fever after Africa or Asia is just dengue — malaria blood smears must be performed."
+      },
+      {
+        "title": "Malaria vs Typhoid Fever",
+        "text": "Typhoid fever (Salmonella typhi) is another major cause of febrile illness after travel to South Asia, Southeast Asia, and parts of Africa. Unlike malaria, typhoid can be prevented by vaccination (typhoid vaccine is available as injectable or oral forms at travel clinics — not via telehealth). Clinical presentation of typhoid includes sustained fever (often step-wise rising), relative bradycardia, rose spots, and gastrointestinal symptoms including constipation or diarrhea. Typhoid lacks the cyclical fever pattern more characteristic of malaria. Both require blood cultures and malaria smears as part of the fever workup in a returning traveler. TeleDirectMD does not administer vaccines — travelers going to typhoid-endemic South Asia should discuss typhoid vaccination at their travel clinic appointment in addition to antimalarial prophylaxis."
+      },
+      {
+        "title": "Malaria vs Traveler's Diarrhea",
+        "text": "Traveler's diarrhea (TD) is the most common travel illness — far more common than malaria — but it is a distinct syndrome caused by enteric pathogens (ETEC, Campylobacter, Shigella, etc.) rather than parasites transmitted by mosquitoes. TD presents primarily with diarrhea, abdominal cramping, nausea, and sometimes low-grade fever, but does not produce the high fever, rigors, cyclical sweats, and severe myalgia characteristic of malaria. Importantly, significant diarrheal illness during malaria travel can impair absorption of oral chemoprophylaxis — travelers experiencing vomiting or severe diarrhea while taking Malarone should seek medical advice, as absorption may be compromised. TeleDirectMD offers standby azithromycin prescriptions for traveler's diarrhea as a separate consultation — see our Traveler's Diarrhea spoke page."
+      }
+    ],
+    "closing": "Any febrile illness in a traveler returning from a malaria-endemic region must be evaluated in person with blood smears. Malaria can be fatal within 24 to 48 hours if not diagnosed and treated. The correct clinical question is never 'could this be something other than malaria?' — the correct question is 'has malaria been definitively excluded by blood smear?' TeleDirectMD does not evaluate post-travel fever."
+  },
+  "telehealthEligibility": {
+    "sectionTitle": "When Is a Video Visit Appropriate for Malaria Prophylaxis?",
+    "appropriate": {
+      "title": "When a Pre-Travel Video Visit Is Appropriate",
+      "items": [
+        "Planning upcoming travel to a malaria-endemic country or region",
+        "Need for destination-specific drug selection (Malarone vs doxycycline based on resistance profile and trip length)",
+        "No pregnancy, severe renal disease, or G6PD-testing requirement that would mandate in-person care",
+        "No prior active malaria infection — prevention only",
+        "Located in {state} (excluding NY) at time of visit",
+        "Trip duration and timing allow for appropriate prophylaxis start (Malarone/doxycycline: 1–2 days before; mefloquine: 1–2 weeks before)"
+      ]
+    },
+    "redFlags": {
+      "title": "Red Flags Requiring Emergency Room or In-Person Evaluation",
+      "items": [
+        "Fever above 38°C (100.4°F) after return from any malaria-endemic region — emergency room immediately",
+        "Cyclical fever with chills and sweats after tropical travel — malaria until proven otherwise",
+        "Confusion, seizures, altered mental status, or severe pallor after tropical travel — 911",
+        "Dark urine or jaundice after febrile illness following tropical travel — ER evaluation for hemolysis",
+        "Severe vomiting preventing oral medication intake during travel to a high-malaria-risk destination — in-person evaluation",
+        "Pregnancy with planned travel to any malaria-endemic region — in-person travel medicine required"
+      ],
+      "disclaimer": "Malaria, particularly P. falciparum, is a potentially fatal disease. The incubation period is typically 10 to 15 days after the infective bite but can be delayed for weeks to months. Any febrile illness within 12 months of travel to an endemic region should prompt malaria blood smear testing regardless of prophylaxis use — no prophylaxis is 100% effective. Do not use telehealth to evaluate fever after tropical travel."
+    }
+  },
+  "treatmentOptions": {
+    "sectionTitle": "Malaria Chemoprophylaxis Options",
+    "intro": "Malaria chemoprophylaxis works by interfering with the parasite's life cycle — either preventing the liver stage from establishing (causal prophylaxis) or clearing blood-stage parasites before they cause clinical illness (suppressive prophylaxis). Drug selection is driven by the destination country's species distribution, resistance profile, trip duration, and individual patient contraindications. All four regimens described below are non-controlled prescription medications. The front-line options at TeleDirectMD are atovaquone-proguanil (Malarone) and doxycycline. Mefloquine is considered case-by-case. Primaquine and tafenoquine require in-person G6PD testing and are not available via TeleDirectMD telehealth.",
+    "sections": [
+      {
+        "title": "Atovaquone-Proguanil (Malarone) — Front-Line Option for Most Destinations",
+        "text": "Atovaquone-proguanil (Malarone) is a fixed-dose combination tablet containing atovaquone 250 mg and proguanil 100 mg in the adult formulation. Atovaquone disrupts mitochondrial electron transport in the parasite, while proguanil (metabolized to cycloguanil) inhibits the dihydrofolate reductase enzyme critical for parasite DNA synthesis — the two mechanisms have synergistic activity, and the combination is also causal prophylaxis, targeting both the liver stage and the blood stage. This dual mechanism also dramatically reduces the likelihood of resistance development. Dosing: 1 adult tablet by mouth once daily with food or milk (fat improves atovaquone absorption). Start 1 to 2 days before entering the endemic area; continue daily during travel; continue for 7 days after leaving the endemic area. The 7-day post-travel tail is shorter than doxycycline's 4 weeks, making Malarone the preferred option for travelers who want a shorter post-travel commitment. Key contraindications: pregnancy (not recommended), breastfeeding a child under 5 kg, and severe renal impairment (creatinine clearance below 30 mL/min). Primary side effects: nausea, vomiting, abdominal pain (take with food), and headache; serious adverse reactions are uncommon. Malarone generic is significantly less expensive than brand, though still more costly than doxycycline for long trips. Not a controlled substance."
+      },
+      {
+        "title": "Doxycycline — Front-Line Option and Most Cost-Effective for Long Trips",
+        "text": "Doxycycline 100 mg by mouth once daily is the most cost-effective malaria chemoprophylaxis option, particularly for long-duration travel. Doxycycline inhibits bacterial and parasite protein synthesis (it acts against the P. falciparum apicoplast, an organelle derived from an endosymbiotic cyanobacterium), providing both causal and suppressive prophylaxis. It is also effective against other travel-related infections including rickettsial diseases (spotted fevers) and leptospirosis, which makes it attractive for travelers engaging in outdoor activities involving hiking, camping, freshwater exposure, or animal contact. Dosing: 100 mg by mouth once daily, starting 1 to 2 days before entering the endemic area, continuing daily during travel, and continuing for 4 weeks after leaving the endemic area. The 4-week post-travel course is the main practical drawback versus Malarone's 7 days. Absolute contraindications: pregnancy (all trimesters — causes fetal bone and tooth development disruption), children under 8 years old, and known tetracycline antibiotic allergy. Key side effects: photosensitivity (increased sunburn risk — travelers must use sunscreen and sun-protective clothing), esophageal irritation (take with a full glass of water and remain upright for 30 minutes), and vaginal yeast infections (carry OTC antifungal treatment). Not a controlled substance."
+      },
+      {
+        "title": "Mefloquine — Weekly Option, Case-by-Case with Neuropsychiatric Screening",
+        "text": "Mefloquine (228 mg base / 250 mg salt tablet) is a weekly oral antimalarial that has been used since the 1970s. Its main practical advantage is once-weekly dosing during travel. However, mefloquine carries an FDA boxed warning for serious neuropsychiatric adverse reactions — including anxiety, paranoia, depression, hallucinations, aggression, and in rare cases psychosis or suicidal ideation — that may persist after stopping the drug. The neuropsychiatric risk has led to significant restrictions in its use compared to 15 to 20 years ago, when it was the dominant prophylaxis agent. Mefloquine is also contraindicated in patients with known seizure disorders, and it is not recommended for persons with cardiac conduction abnormalities (it can prolong the QTc interval). For travelers who cannot take Malarone or doxycycline, and who pass an appropriate psychiatric and cardiac screen, mefloquine may be considered on a case-by-case basis. Dosing: 1 tablet (250 mg salt) by mouth once weekly starting 1 to 2 weeks before travel, continuing weekly during travel, and continuing for 4 weeks after leaving the endemic area. The 1 to 2 week pre-travel start allows detection of early neuropsychiatric side effects before departure. Mefloquine is not used in mefloquine-resistant areas (parts of the Thailand-Myanmar and Thailand-Cambodia border regions). Not a controlled substance."
+      },
+      {
+        "title": "Primaquine and Tafenoquine — Off TeleDirectMD Menu (G6PD Testing Required)",
+        "text": "Primaquine (30 mg base daily) and tafenoquine (Arakoda, 200 mg loading regimen) are the only chemoprophylaxis agents that also address the dormant liver stage (hypnozoites) of P. vivax and P. ovale, making them particularly valuable for travelers to regions where these relapsing species predominate (parts of South and Central Asia, Central America, Pacific Islands). Both agents cause hemolytic anemia in patients with glucose-6-phosphate dehydrogenase (G6PD) deficiency — a genetic enzyme deficiency that is relatively common (affecting up to 10 to 15% of some populations, particularly those of African, South Asian, and Mediterranean descent). Because of this hemolytic risk, both primaquine and tafenoquine are absolutely contraindicated in anyone who has not had a quantitative G6PD enzyme assay (not just qualitative screening). This laboratory requirement means these agents cannot be safely prescribed via telehealth — a quantitative G6PD test must be obtained through an in-person laboratory before the prescription can be written. TeleDirectMD refers patients who are candidates for primaquine or tafenoquine to an in-person travel medicine clinic or primary care provider who can order and review the G6PD assay. Tafenoquine is also only approved for adults and carries additional neuropsychiatric contraindications in patients with psychotic disorders."
+      }
+    ],
+    "doesNotManage": [
+      "Active malaria infection — any febrile illness after return from endemic region",
+      "Malaria in pregnancy — requires in-person travel medicine evaluation with obstetric coordination",
+      "Primaquine or tafenoquine prescribing — both require in-person quantitative G6PD enzyme testing",
+      "Travel vaccines (yellow fever, typhoid, hepatitis A/B, meningococcal) — in-person administration only",
+      "Pediatric malaria prophylaxis (under 18 years old)",
+      "Parenteral artesunate or IV quinidine for severe malaria — emergency room only"
+    ]
+  },
+  "medications": {
+    "sectionTitle": "Common Medication Options for Malaria Prophylaxis",
+    "intro": "These are common examples for malaria prophylaxis. Actual medication, dose, and duration are determined by the MD after reviewing your destination, CDC resistance profile, medical history, and contraindications. Drug selection is destination-driven per CDC guidance.",
+    "headers": [
+      "Medication",
+      "Typical adult dose",
+      "Start / duration / post-travel",
+      "Key considerations"
+    ],
+    "rows": [
+      [
+        "Atovaquone-Proguanil (Malarone — generic available)",
+        "1 adult tablet (250/100 mg) once daily with food or milk",
+        "Start 1–2 days before; daily during travel; 7 days after leaving endemic area",
+        "Front-line for most chloroquine-resistant regions including sub-Saharan Africa and SE Asia. Shorter post-travel tail (7 days vs 4 weeks). Contraindicated in pregnancy and CrCl <30 mL/min. Take with food for absorption. Not a controlled substance. Generic is less expensive than brand Malarone."
+      ],
+      [
+        "Doxycycline 100 mg",
+        "100 mg by mouth once daily",
+        "Start 1–2 days before; daily during travel; 4 weeks after leaving endemic area",
+        "Most cost-effective option, especially for longer trips. Absolutely contraindicated in pregnancy (all trimesters) and children under 8. Photosensitivity — use sunscreen. Take with full glass of water; remain upright 30 minutes (esophageal risk). May increase vaginal yeast infection risk. Not a controlled substance."
+      ],
+      [
+        "Mefloquine 250 mg salt (weekly)",
+        "1 tablet (250 mg salt / 228 mg base) by mouth once weekly",
+        "Start 1–2 weeks before; weekly during travel; 4 weeks after leaving endemic area",
+        "FDA BOXED WARNING: serious neuropsychiatric adverse effects (anxiety, paranoia, hallucinations, depression, psychosis). Contraindicated in psychiatric disorders (psychosis, major depression, bipolar, schizophrenia), seizure disorders, and cardiac conduction abnormalities. Not for mefloquine-resistant regions (Thai-Myanmar/Cambodian border). Case-by-case use only after screening. Not a controlled substance."
+      ],
+      [
+        "Primaquine 30 mg base (CANNOT be prescribed via TeleDirectMD telehealth)",
+        "30 mg base daily",
+        "Start 1–2 days before; daily; 7 days after leaving endemic area",
+        "Requires quantitative G6PD enzyme test before use — hemolysis risk in G6PD deficiency. Best for P. vivax dominant regions. NOT available at TeleDirectMD — refer to in-person travel clinic. Not a controlled substance, but G6PD testing is a prerequisite."
+      ],
+      [
+        "Tafenoquine (Arakoda) (CANNOT be prescribed via TeleDirectMD telehealth)",
+        "200 mg daily × 3 days loading, then 200 mg weekly",
+        "Loading 3 days before; 200 mg weekly during travel; 1 week after leaving",
+        "Adults only. Requires quantitative G6PD enzyme test before use. Not for children. Not for patients with psychotic disorders. NOT available at TeleDirectMD — refer to in-person travel clinic. Not a controlled substance."
+      ]
+    ],
+    "note": "Example regimens only. Chloroquine is NOT listed as a front-line agent because the vast majority of malaria-endemic travel destinations (sub-Saharan Africa, Southeast Asia, most of South Asia, South America east of the Andes) have chloroquine-resistant P. falciparum. Chloroquine-sensitive regions (Central America west of the Panama Canal, Haiti, parts of the Middle East) are limited — your physician will assess your specific destination. Primaquine and tafenoquine rows are included for educational completeness — TeleDirectMD does not prescribe these agents. TeleDirectMD does not prescribe controlled substances."
+  },
+  "homeCare": {
+    "sectionTitle": "Personal Protective Measures, Adherence Guidance, and Pre-Travel Checklist",
+    "whatToDoNow": {
+      "title": "Before Departure: Optimizing Prophylaxis Effectiveness",
+      "items": [
+        "Start Malarone 1 to 2 days before arrival in the endemic area, OR start doxycycline 1 to 2 days before — do not wait until you arrive to begin your prophylaxis",
+        "Take Malarone with food or milk at the same time each day — fat enhances atovaquone absorption, and a missed dose or vomiting within 30 minutes of taking the dose may reduce efficacy",
+        "Apply DEET-based insect repellent (30 to 50% DEET for adults) to exposed skin at dawn and dusk and whenever outdoors in endemic areas — Anopheles mosquitoes are primarily active during these crepuscular and nighttime hours",
+        "Treat clothing with permethrin spray or wear permethrin-treated clothing — permethrin kills mosquitoes on contact and provides protection even when DEET has been washed off or worn away",
+        "Sleep under insecticide-treated bed nets (ITNs) when staying in open-air accommodations, rural lodges, or any setting without reliable air conditioning and intact window/door screens",
+        "Wear long-sleeved shirts and long pants from dusk to dawn in high-risk environments — cover as much skin as possible during peak Anopheles feeding hours"
+      ]
+    },
+    "whatToWatch": {
+      "title": "What to Monitor During and After Travel",
+      "items": [
+        "Adhere strictly to the dosing schedule — missing doses of any antimalarial significantly reduces protection. Set a daily phone alarm for Malarone/doxycycline, and note your weekly day for mefloquine",
+        "If you vomit within 30 minutes of taking Malarone, take a repeat dose as soon as possible",
+        "Monitor for doxycycline-specific side effects: sunburn despite low UV index (photosensitivity), esophageal discomfort (take with full glass of water, remain upright), vaginal yeast infection symptoms",
+        "Monitor for mefloquine neuropsychiatric effects: vivid or disturbing dreams, anxiety, mood changes, confusion — if these develop, seek medical evaluation before continuing mefloquine",
+        "Continue your prophylaxis for the full post-travel period — Malarone for 7 days after leaving the endemic area, doxycycline for 4 weeks — blood-stage parasites may still be cleared during this window",
+        "Fever, chills, sweats, or severe headache within 12 months of return from any endemic region: go to an emergency room immediately and report your destination. Do not wait to see if it improves on its own."
+      ]
+    },
+    "followUp": {
+      "title": "Post-Travel Protocol and Follow-up",
+      "items": [
+        "Complete the full post-travel prophylaxis tail regardless of how well you feel — residual blood-stage parasites require time to clear",
+        "If you experience any febrile illness within 3 months of return from sub-Saharan Africa or Southeast Asia, seek blood smear testing at an ER or urgent care immediately — this is the highest-risk window",
+        "Fever or febrile illness can occur up to 12 months after return from P. vivax regions (India, Central America, Pacific) due to hypnozoite reactivation — always mention your travel history to any treating provider",
+        "If you traveled to a P. vivax-dominant region and were not prescribed primaquine or tafenoquine, discuss radical cure with your primary care physician or infectious disease specialist after returning — they can assess your G6PD status and need for primaquine to eliminate the liver stage",
+        "Document your prophylaxis regimen, trip dates, and destination for your medical records — this information is crucial for any future febrile illness evaluation"
+      ]
+    }
+  },
+  "whenNotToUse": {
+    "sectionTitle": "When Not to Use TeleDirectMD for Malaria in {state}",
+    "intro": "TeleDirectMD is designed for pre-travel malaria chemoprophylaxis for adults with straightforward itineraries. We are direct about when telehealth is not appropriate.",
+    "shouldNotUse": {
+      "title": "You Should Not Use TeleDirectMD If",
+      "items": [
+        "You are under 18 years old",
+        "You currently have fever, chills, sweats, or rigors after returning from a malaria-endemic region — go to an ER immediately",
+        "You are pregnant or may be pregnant — doxycycline is absolutely contraindicated all trimesters; Malarone is contraindicated in pregnancy; malaria-in-pregnancy requires in-person travel medicine evaluation",
+        "You need primaquine or tafenoquine — these require in-person quantitative G6PD enzyme testing before prescribing",
+        "You require travel vaccines as part of your pre-travel workup — vaccines require in-person administration",
+        "You are immunocompromised (HIV, transplant, immunosuppressive therapy) — complex malaria prophylaxis in immunocompromised patients warrants in-person travel medicine",
+        "You are located in New York State at the time of the visit",
+        "You have severe renal impairment (CrCl < 30 mL/min) and need Malarone — refer to in-person care"
+      ]
+    },
+    "alternatives": {
+      "title": "Alternative Care Options",
+      "items": [
+        {
+          "label": "Emergency room:",
+          "text": "any febrile illness after return from a malaria-endemic region — blood smear, rapid antigen test, and treatment. P. falciparum malaria can be fatal within 24 to 48 hours; this is always an emergency"
+        },
+        {
+          "label": "In-person travel clinic:",
+          "text": "complex multi-destination itineraries, travel vaccines (yellow fever, typhoid, hepatitis A), G6PD testing for primaquine/tafenoquine eligibility, malaria-in-pregnancy evaluation, immunocompromised travelers, and patients needing mefloquine with complex psychiatric or cardiac histories"
+        },
+        {
+          "label": "Primary care or infectious disease:",
+          "text": "post-travel radical cure discussion for P. vivax/ovale travelers, G6PD testing, evaluation of febrile illness weeks to months after return from endemic regions"
+        },
+        {
+          "label": "CDC Malaria Hotline:",
+          "text": "the CDC operates a 24/7 malaria clinical consultation service for clinicians managing suspected malaria cases: 1-770-488-7788 (toll-free: 1-855-856-4713)"
+        }
+      ]
+    }
+  },
+  "faq": {
+    "sectionTitle": "Malaria Prophylaxis FAQs for {state}",
+    "items": [
+      {
+        "question": "Can I get a Malarone (atovaquone-proguanil) prescription online in {state}?",
+        "answer": "Yes. If you are an adult 18 or older located in {state} (excluding NY), planning travel to a malaria-endemic region, and do not have contraindications such as pregnancy or severe renal impairment (CrCl < 30 mL/min), TeleDirectMD can prescribe atovaquone-proguanil (generic Malarone) after a video visit evaluation. Atovaquone-proguanil is not a controlled substance and is fully within our telehealth prescribing scope. The self pay option is $79 for the visit, and the prescription is sent to your pharmacy."
+      },
+      {
+        "question": "Doxycycline vs Malarone for malaria — which is better?",
+        "answer": "Neither is universally better — the choice depends on your trip profile and individual factors. Malarone (atovaquone-proguanil) has a shorter post-travel tail (7 days vs 4 weeks for doxycycline), fewer drug interactions, and is preferred for travelers who want less post-travel commitment. It also has causal prophylaxis activity targeting the liver stage. Doxycycline is significantly more cost-effective for longer trips (3+ months), is taken once daily, and provides coverage for additional travel infections like rickettsial diseases and leptospirosis. Doxycycline is absolutely contraindicated in pregnancy (all trimesters) and children under 8. Malarone is contraindicated in pregnancy and severe renal impairment. Photosensitivity is a meaningful doxycycline side effect for beach or safari destinations with high sun exposure. Malarone must be taken with food for optimal absorption. Your TeleDirectMD physician will review your destination, trip duration, budget, and medical history to recommend the most appropriate option for you."
+      },
+      {
+        "question": "Which malaria pill should I take for Africa?",
+        "answer": "For most sub-Saharan Africa travel, atovaquone-proguanil (Malarone) or doxycycline are the front-line CDC-recommended options. Sub-Saharan Africa is predominantly chloroquine-resistant P. falciparum territory, so chloroquine is not appropriate. Mefloquine has historically been used for Africa but its neuropsychiatric boxed warning has led most travel medicine providers to prefer Malarone or doxycycline when either is tolerable. Malarone is often preferred for shorter trips to Africa (under 4 weeks) because of its shorter post-travel period. Doxycycline is often preferred for longer African deployments (over 4 to 6 weeks) due to cost. The specific region within Africa matters — your physician will review the CDC country-specific resistance profile during your visit."
+      },
+      {
+        "question": "Which malaria pill should I take for Southeast Asia (Thailand, Vietnam, Cambodia, Indonesia)?",
+        "answer": "Southeast Asia has a heterogeneous malaria landscape. Most urban tourist areas in Thailand, Vietnam, and major cities have minimal malaria risk — the CDC sometimes recommends mosquito bite precautions only for low-risk urban stays. For rural or forested areas, border regions, and Papua/Indonesia, atovaquone-proguanil (Malarone) or doxycycline are front-line options. Mefloquine resistance is specifically documented on the Thailand-Myanmar and Thailand-Cambodia border — mefloquine should NOT be used for these particular border areas; doxycycline or Malarone are required. Your TeleDirectMD physician will review the CDC country data for your exact destination and planned activities (urban vs. rural) to determine whether prophylaxis is indicated and which agent is appropriate."
+      },
+      {
+        "question": "Which malaria pill should I take for India?",
+        "answer": "India has both P. falciparum (predominantly in Odisha, Chhattisgarh, Jharkhand, and the northeast) and P. vivax (more widespread). Most urban centers (Delhi, Mumbai, Chennai, Bengaluru) have low to minimal malaria risk, but rural and forested areas carry significant risk. For India, atovaquone-proguanil (Malarone) or doxycycline are the primary CDC-recommended options for chloroquine-resistant P. falciparum regions. For areas where P. vivax is the dominant species, primaquine is additionally considered for radical cure of the liver stage — but this requires quantitative G6PD testing before prescribing, which is not available via telehealth at TeleDirectMD. Travelers to India who may benefit from primaquine as part of their regimen should discuss G6PD testing with an in-person travel clinic."
+      },
+      {
+        "question": "Which malaria pill should I take for Central and South America?",
+        "answer": "This depends on the specific country and region. Central America west of the Panama Canal (Guatemala highlands, Honduras, Belize north) may still have chloroquine-sensitive P. falciparum in some areas, making chloroquine a theoretical option — however, Malarone or doxycycline are also appropriate and often preferred for simplicity. In South America, the Amazon basin countries (Peru, Brazil, Colombia, Bolivia, Venezuela, Ecuador) carry the highest risk and predominantly harbor chloroquine-resistant P. falciparum, requiring Malarone or doxycycline. Haiti has limited chloroquine-sensitive malaria. Urban areas in most South American countries have minimal to no malaria risk. Your physician will map your itinerary against CDC country resistance data during your visit."
+      },
+      {
+        "question": "What is the difference between doxycycline and Malarone for malaria side effects?",
+        "answer": "The side effect profiles of doxycycline and Malarone are distinct. Doxycycline's main clinically significant side effects are photosensitivity (increased susceptibility to sunburn — important for beach or outdoor tropical trips), esophageal irritation if not taken with adequate water and in an upright position, and increased risk of vaginal yeast infections in women. Gastrointestinal side effects (nausea) are more common with doxycycline than Malarone. Malarone's main side effects are GI-related (nausea, vomiting, abdominal pain) but these are largely mitigated by taking the medication with food or milk; neuropsychiatric side effects are much rarer with Malarone than with mefloquine. Neither Malarone nor doxycycline carry the mefloquine-type neuropsychiatric boxed warning. Malarone is generally considered the better-tolerated of the two."
+      },
+      {
+        "question": "Is Malarone safe in pregnancy?",
+        "answer": "No. Atovaquone-proguanil (Malarone) is not recommended for use during pregnancy — the safety data are insufficient, and animal studies have raised concerns. Doxycycline is absolutely contraindicated in pregnancy (all trimesters) due to effects on fetal bone and tooth development. Mefloquine is the antimalarial that has been used during pregnancy, and it is one of the few malaria chemoprophylaxis options considered compatible with pregnancy — however, this decision is complex and requires in-person evaluation by a travel medicine specialist with obstetric coordination. Malaria in pregnancy carries extremely high risk of maternal and fetal complications including preterm birth, low birth weight, severe anemia, and maternal death. Pregnant travelers to malaria-endemic regions, or women who may become pregnant during travel, should consult an in-person travel medicine clinic before departure. TeleDirectMD does not prescribe malaria prophylaxis for pregnant patients."
+      },
+      {
+        "question": "What is the mefloquine boxed warning, and should I be concerned?",
+        "answer": "Mefloquine carries an FDA boxed warning for serious neuropsychiatric adverse reactions that may occur after stopping the drug and may persist for months to years. These include anxiety, paranoia, unusual dreams, depression, hallucinations, aggression, confusion, and in rare cases psychosis or suicidal ideation. The neuropsychiatric side effects can be severe and disabling in susceptible individuals. Because of this warning, mefloquine is contraindicated in patients with a current or past history of psychotic disorder, major depression, bipolar disorder, schizophrenia, and seizure disorder. It is also not recommended for patients with cardiac conduction abnormalities. The neuropsychiatric effects typically emerge within the first few doses — which is why the CDC recommends starting mefloquine 1 to 2 weeks before departure, to allow early side effects to manifest before you are overseas. TeleDirectMD treats mefloquine as a case-by-case option after careful psychiatric and cardiac screening, not as a routine first choice. Most adults going to Africa or Southeast Asia are better served by Malarone or doxycycline."
+      },
+      {
+        "question": "Why does primaquine require a blood test before prescribing?",
+        "answer": "Primaquine (and tafenoquine) cause oxidative stress in red blood cells, which is well-tolerated in individuals with normal glucose-6-phosphate dehydrogenase (G6PD) enzyme activity but causes potentially severe hemolytic anemia in individuals with G6PD deficiency. G6PD deficiency is the most common inherited enzyme deficiency globally, affecting an estimated 400 million people — it is X-linked and more common in populations from sub-Saharan Africa, the Mediterranean, the Middle East, and South Asia. The deficiency is often asymptomatic until the individual is exposed to oxidative stressors including certain medications. Both primaquine and tafenoquine are absolutely contraindicated in G6PD-deficient patients without exception. The CDC requires a quantitative G6PD enzyme assay (not just a qualitative screen, which can miss intermediate-deficiency females) before prescribing either agent. This laboratory test cannot be performed via telehealth — it requires a blood draw and laboratory processing. This is why TeleDirectMD refers patients who may benefit from primaquine or tafenoquine to an in-person travel clinic."
+      },
+      {
+        "question": "How much does malaria prophylaxis medication cost?",
+        "answer": "Medication costs depend on the agent, trip duration, and pharmacy. Doxycycline 100 mg is the most cost-effective option — a 6-week course (covering a 4-week trip with the 4-week tail) typically costs under $30 at most US pharmacies with discount coupons (GoodRx data, verified 2026-06-13). Generic atovaquone-proguanil (Malarone) for a 2-week trip typically ranges from $40 to $120+ depending on pharmacy and coupon (brand Malarone is significantly more expensive). For a 3-month trip, doxycycline is usually substantially cheaper than Malarone. Mefloquine (weekly) has moderate cost. The TeleDirectMD visit itself is a self pay option starting at $79 — insurance is not required. Prescription costs are separate and paid at your pharmacy."
+      },
+      {
+        "question": "Do I need malaria prophylaxis for a safari in Kenya or Tanzania?",
+        "answer": "Yes — Kenya and Tanzania are high-transmission P. falciparum countries where the CDC recommends antimalarial prophylaxis for all travelers, regardless of accommodation type or itinerary. Even travelers staying in luxury lodges in the Maasai Mara, Serengeti, or Ngorongoro are at risk from infected Anopheles mosquitoes present throughout these regions. The CDC recommends atovaquone-proguanil, doxycycline, or mefloquine (case-by-case) for Kenya and Tanzania. Atovaquone-proguanil or doxycycline are the preferred front-line choices at TeleDirectMD. Personal protective measures — DEET, permethrin-treated clothing, mosquito nets — are essential adjuncts regardless of which medication is taken. Book your telehealth visit at least 5 to 7 days before departure to allow time to fill the prescription and start the medication on schedule."
+      },
+      {
+        "question": "Does malaria prophylaxis prevent all malaria infections?",
+        "answer": "No chemoprophylaxis regimen is 100% effective. Atovaquone-proguanil, doxycycline, and mefloquine each have high but not perfect efficacy against P. falciparum malaria — studies typically report 90 to 98% efficacy under controlled conditions, with real-world effectiveness somewhat lower due to adherence issues. Chemoprophylaxis must always be combined with personal protective measures (DEET-based repellent, permethrin-treated clothing, mosquito nets, long sleeves at dusk and dawn) for maximum protection. Notably, none of the agents that TeleDirectMD prescribes eliminate P. vivax or P. ovale hypnozoites from the liver — travelers to P. vivax-dominant regions who are not prescribed primaquine remain at risk of relapsing vivax malaria for months to years after return. If you develop fever within 12 months of return from any malaria-endemic region, seek emergency evaluation immediately regardless of whether you completed prophylaxis."
+      },
+      {
+        "question": "How soon before my trip should I book a malaria prophylaxis telehealth visit?",
+        "answer": "Book as early as possible, and no later than 1 week before departure. Malarone and doxycycline can be started as late as 1 to 2 days before entering the endemic area, so even a few days' lead time allows adequate prophylaxis start. However, booking well in advance (2 to 4 weeks before departure) is ideal because: it allows time to try an initial test dose of your chosen medication before travel to assess tolerability; if mefloquine is under consideration, it must be started 1 to 2 weeks before departure; if your itinerary also requires in-person travel vaccines (yellow fever, typhoid, hepatitis A), those appointments need to be scheduled separately and may have lead time requirements. Don't wait until the day before departure — while same-day appointments are often available, giving yourself a week ensures a smooth pre-travel pharmacological preparation."
+      },
+      {
+        "question": "Can I take Malarone or doxycycline if I have a G6PD deficiency?",
+        "answer": "Yes. Atovaquone-proguanil (Malarone) and doxycycline are both safe for use in patients with G6PD deficiency — neither agent causes oxidative hemolysis. The G6PD testing requirement applies specifically to primaquine and tafenoquine, both of which are hemolytic in G6PD-deficient individuals. If you have G6PD deficiency (or have not been tested), you can still use Malarone or doxycycline as your malaria chemoprophylaxis. The implication is that primaquine radical cure therapy for P. vivax and P. ovale hypnozoites cannot be used — this does not affect prophylaxis effectiveness against P. falciparum for most Africa and Southeast Asia itineraries."
+      }
+    ],
+    "bottomCta": {
+      "title": "Ready to protect yourself against malaria before your trip?",
+      "text": "Insurance is not required. Adult-only video visits. MD-only care. Destination-specific Malarone or doxycycline prescription if clinically appropriate, personal protective measures protocol, and clear guidance on when in-person travel clinic care is needed."
+    }
+  },
+  "references": [
+    {
+      "text": "CDC Malaria: Choosing a Drug to Prevent Malaria — Drug Selection Table",
+      "url": "https://www.cdc.gov/malaria/hcp/drug-malaria/index.html"
+    },
+    {
+      "text": "CDC Yellow Book 2024: Malaria — Chapter on Malaria Prevention",
+      "url": "https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/malaria.html"
+    },
+    {
+      "text": "CDC Yellow Book 2024: Malaria Prevention Information by Country",
+      "url": "https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/malaria-prevention-information-by-country.html"
+    },
+    {
+      "text": "CDC Yellow Book 2024: The Pre-Travel Consultation",
+      "url": "https://www.cdc.gov/yellow-book/hcp/preparing-international-travelers/the-pre-travel-consultation.html"
+    },
+    {
+      "text": "Atovaquone/Proguanil (Malarone) DailyMed Drug Label (NLM/NIH)",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=atovaquone+proguanil"
+    },
+    {
+      "text": "Mefloquine FDA Drug Label with Boxed Warning (DailyMed)",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=mefloquine"
+    },
+    {
+      "text": "Malaria — StatPearls (NCBI Bookshelf, 2024)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK551711/"
+    },
+    {
+      "text": "WHO World Malaria Report 2023",
+      "url": "https://www.who.int/teams/global-malaria-programme/reports/world-malaria-report-2023"
+    }
+  ],
+  "disclaimer": {
+    "sectionTitle": "TeleDirectMD Telehealth Disclaimer",
+    "paragraphs": [
+      "TeleDirectMD provides MD-only virtual care for adults (18+) in {state} using secure video visits to prescribe malaria CHEMOPROPHYLAXIS (prevention) for travelers departing to malaria-endemic regions. Insurance is not required. You must be physically located in {state} at the time of your video visit. TeleDirectMD does not prescribe controlled substances. No vaccines are administered via telehealth.",
+      "TeleDirectMD does NOT manage active malaria infection. Active malaria is a medical emergency. If you have returned from a malaria-endemic region and have fever, chills, sweats, headache, or myalgia, go to an emergency room immediately and provide your travel history. TeleDirectMD does not prescribe primaquine or tafenoquine, which require quantitative G6PD enzyme testing obtainable only in person. Malaria in pregnancy requires in-person travel medicine evaluation. This page discusses prophylaxis ICD-10 context Z29.9 — active malaria codes B50 through B54 are explicitly outside TeleDirectMD's telehealth scope.",
+      "Online malaria prophylaxis in {state}. Malarone prescription online. Doxycycline malaria prescription by video visit. Pre-travel malaria prevention telehealth in {state}. Atovaquone-proguanil online in {state}."
+    ]
+  },
+  "relatedConditions": [
+    {
+      "slug": "travel-medicine-treatment-online",
+      "title": "Travel Medicine",
+      "description": "Comprehensive pre-travel health evaluation covering malaria prophylaxis, traveler's diarrhea standby treatment, altitude sickness prevention, and motion sickness — all in one telehealth visit"
+    },
+    {
+      "slug": "travelers-diarrhea-treatment-online",
+      "title": "Traveler's Diarrhea",
+      "description": "Standby azithromycin prescription for self-treatment of active traveler's diarrhea — a common co-concern for travelers to sub-Saharan Africa, South Asia, and Southeast Asia where both malaria and TD risk overlap"
+    },
+    {
+      "slug": "altitude-sickness-treatment-online",
+      "title": "Altitude Sickness Prevention",
+      "description": "Acetazolamide (Diamox) prophylaxis for travelers to high-altitude destinations — relevant for itineraries combining malaria-endemic lowlands with high-altitude destinations such as Peru, Bolivia, or Ethiopia"
+    },
+    {
+      "slug": "motion-sickness-treatment-online",
+      "title": "Motion Sickness",
+      "description": "Scopolamine patch and meclizine options for long-haul flights, boat crossings, and overland journeys commonly associated with international travel to malaria-endemic regions"
+    }
+  ],
+  "inlineLinks": [
+    {
+      "slug": "travel-medicine-treatment-online",
+      "label": "Travel Medicine"
+    },
+    {
+      "slug": "travelers-diarrhea-treatment-online",
+      "label": "Traveler's Diarrhea"
+    },
+    {
+      "slug": "altitude-sickness-treatment-online",
+      "label": "Altitude Sickness Prevention"
+    },
+    {
+      "slug": "motion-sickness-treatment-online",
+      "label": "Motion Sickness"
+    },
+    {
+      "slug": "tick-bite-treatment-online",
+      "label": "Tick Bite"
+    },
+    {
+      "slug": "doxypep-sti-prevention-online",
+      "label": "DoxyPEP STI Prevention"
+    },
+    {
+      "slug": "sinus-infection-treatment-online",
+      "label": "Sinus Infection"
+    },
+    {
+      "slug": "influenza-treatment-online",
+      "label": "Influenza"
+    },
+    {
+      "slug": "covid-19-treatment-online",
+      "label": "COVID-19"
+    },
+    {
+      "slug": "viral-gastroenteritis-treatment-online",
+      "label": "Viral Gastroenteritis"
+    }
+  ],
+  "cityBlock": {
+    "title": "Adults We Serve Across {state}",
+    "text": "TeleDirectMD evaluates adults located throughout {state}, including {citiesExtended}. Whether you are searching for online malaria prophylaxis in {city1}, Malarone prescription online in {city2}, doxycycline malaria prescription by video in {city3}, or pre-travel antimalarial telehealth anywhere else in {state}, the same telehealth eligibility and safety rules apply."
+  },
+  "icd10Codes": [
+    {
+      "code": "Z29.9",
+      "description": "Encounter for prophylactic measures, unspecified — prophylaxis encounter context for malaria prevention"
+    },
+    {
+      "code": "Z29.8",
+      "description": "Encounter for other specified prophylactic measures"
+    },
+    {
+      "code": "Z77.121",
+      "description": "Contact with and (suspected) exposure to harmful, chiefly nonmedicinal, chemicals — vector exposure context"
+    }
+  ],
+  "jsonLd": {
+    "conditionName": "Malaria Prophylaxis",
+    "conditionAlternateNames": [
+      "Malaria prevention",
+      "Antimalarial chemoprophylaxis",
+      "Malarone prescription online",
+      "Doxycycline malaria prophylaxis",
+      "Pre-travel malaria prevention"
+    ],
+    "conditionDescription": "Malaria chemoprophylaxis is the use of antimalarial medications — primarily atovaquone-proguanil (Malarone) or doxycycline — to prevent malaria infection in travelers departing to malaria-endemic regions. TeleDirectMD provides destination-specific CDC-guided prophylaxis prescriptions via video visit for adults in {state}. Active malaria is out of telehealth scope.",
+    "primaryIcd10": "Z29.9",
+    "anatomy": "Erythrocytes (red blood cells), hepatocytes (liver stage), Anopheles mosquito vector, systemic immune response to Plasmodium parasites",
+    "symptoms": [
+      "Prevention context — no symptoms at time of telehealth visit",
+      "Target: prevent fever, chills, rigors, myalgia, headache of active malaria",
+      "Target: prevent severe complications (cerebral malaria, severe anemia, respiratory distress, renal failure)"
+    ],
+    "riskFactors": [
+      "Travel to sub-Saharan Africa",
+      "Travel to South or Southeast Asia",
+      "Rural or forested accommodation in endemic regions",
+      "Travel during high-transmission (rainy) season",
+      "Lack of mosquito bite precautions",
+      "Non-immune (no prior acquired immunity) traveler"
+    ],
+    "complications": [
+      "Cerebral malaria (P. falciparum) — life-threatening",
+      "Severe hemolytic anemia",
+      "Acute respiratory distress syndrome",
+      "Acute renal failure",
+      "Hypoglycemia",
+      "Malaria in pregnancy — preterm birth, low birth weight, maternal death",
+      "Relapsing vivax malaria months to years after return"
+    ],
+    "epidemiology": "An estimated 249 million malaria cases globally in 2022 (WHO). The vast majority of cases occur in sub-Saharan Africa (approximately 94% of cases). US travelers to Africa, South Asia, and Southeast Asia face significant risk without prophylaxis.",
+    "drugs": [
+      {
+        "name": "Atovaquone-Proguanil (Malarone)",
+        "id": "atovaquone-proguanil"
+      },
+      {
+        "name": "Doxycycline 100 mg",
+        "id": "doxycycline"
+      },
+      {
+        "name": "Mefloquine (case-by-case, neuropsychiatric boxed warning)",
+        "id": "mefloquine"
+      }
+    ],
+    "treatments": [
+      "Atovaquone-proguanil 250/100 mg daily (start 1–2 days before; continue 7 days after)",
+      "Doxycycline 100 mg daily (start 1–2 days before; continue 4 weeks after; contraindicated in pregnancy)",
+      "Mefloquine 250 mg salt weekly — case-by-case with psychiatric/cardiac screen (FDA boxed warning)",
+      "Personal protective measures: DEET repellent, permethrin-treated clothing, insecticide-treated bed nets"
+    ],
+    "tests": [
+      "Destination and resistance profile review (CDC drug selection table)",
+      "Contraindication screening: pregnancy status, renal function, psychiatric history",
+      "Medication interaction review",
+      "G6PD quantitative assay (for primaquine/tafenoquine — performed in person, not via TeleDirectMD)"
+    ],
+    "specialties": [
+      "Travel Medicine",
+      "Infectious Disease",
+      "Preventive Medicine",
+      "Family Medicine",
+      "Telemedicine"
+    ],
+    "guidelines": [
+      {
+        "name": "CDC: Choosing a Drug to Prevent Malaria",
+        "url": "https://www.cdc.gov/malaria/hcp/drug-malaria/index.html",
+        "publisher": "Centers for Disease Control and Prevention",
+        "id": "cdc-malaria-drugs"
+      },
+      {
+        "name": "CDC Yellow Book 2024: Malaria Prevention",
+        "url": "https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/malaria.html",
+        "publisher": "Centers for Disease Control and Prevention",
+        "id": "cdc-yellow-book-malaria"
+      }
+    ],
+    "knowsAbout": [
+      "Malaria chemoprophylaxis",
+      "Atovaquone-proguanil (Malarone) prescribing",
+      "Doxycycline malaria prophylaxis",
+      "Mefloquine neuropsychiatric boxed warning",
+      "Chloroquine resistance patterns",
+      "Destination-specific drug selection per CDC",
+      "G6PD deficiency and primaquine/tafenoquine referral",
+      "Personal protective measures against malaria",
+      "Travel medicine",
+      "Telehealth triage for pre-travel care"
+    ],
+    "serviceDescription": "Secure video visit for {state} adults planning travel to malaria-endemic regions, including destination-specific Malarone or doxycycline prophylaxis prescriptions, contraindication screening, and personal protective measures counseling.",
+    "webpageDescription": "{state} malaria prophylaxis by secure MD video visit for adults. CDC-guided atovaquone-proguanil (Malarone) or doxycycline prescription, destination-specific resistance profile review, and clear referral criteria for vaccines, G6PD testing, and active malaria emergencies."
+  },
+  "guidelineSource": "cdc",
+  "conditionType": "prevention"
+}

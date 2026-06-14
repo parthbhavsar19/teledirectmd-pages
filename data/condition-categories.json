@@ -112,8 +112,10 @@
     "categorySlug": "travel-medicine",
     "categoryDescription": "Pre-travel prescriptions by secure video visit — altitude sickness, malaria prophylaxis, traveler's diarrhea standby, and motion sickness. Non-controlled medications only; self-pay starting at $79.",
     "conditions": [
-      { "slug": "travel-medicine-treatment-online", "name": "Travel Medicine" },
+      { "slug": "travel-medicine-treatment-online", "name": "Travel Medicine (Overview)" },
       { "slug": "altitude-sickness-treatment-online", "name": "Altitude Sickness" },
+      { "slug": "malaria-prophylaxis-treatment-online", "name": "Malaria Prophylaxis" },
+      { "slug": "travelers-diarrhea-treatment-online", "name": "Traveler's Diarrhea" },
       { "slug": "motion-sickness-treatment-online", "name": "Motion Sickness" }
     ]
   }

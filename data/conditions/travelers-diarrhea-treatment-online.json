@@ -1,0 +1,833 @@
+{
+  "conditionName": "Traveler's Diarrhea Treatment Online",
+  "conditionShort": "Traveler's Diarrhea",
+  "conditionSlug": "travelers-diarrhea-treatment-online",
+  "pageTitle": "Traveler's Diarrhea Treatment Online in {state} | TeleDirectMD",
+  "metaDescription": "Traveler's diarrhea treatment online in {state} — standby azithromycin prescription for self-treatment of active episodes, plus prevention counseling. Board-certified MD video visit. Preferred for South and Southeast Asia (fluoroquinolone-resistant Campylobacter). Self pay option starting at $79. Adults 18+. Insurance is not required.",
+  "ogImageAlt": "Traveler's diarrhea treatment online in {state} — standby azithromycin prescription by video visit from TeleDirectMD",
+  "hero": {
+    "h1": "Traveler's Diarrhea Treatment Online in {state} (Standby Antibiotic Prescription)",
+    "subtitle": "{state} adult care by secure video visit, self pay option starting at $79, MD-only, insurance is not required.",
+    "introParagraph": "Traveler's diarrhea (TD) is the most common travel-related illness, affecting an estimated 30 to 70 percent of travelers to high-risk destinations in any given 2-week trip. It is caused primarily by bacterial enteric pathogens — most commonly enterotoxigenic Escherichia coli (ETEC), Campylobacter jejuni, Shigella species, and Salmonella — transmitted through contaminated food and water. Unlike some other travel conditions where telehealth provides only prevention counseling, traveler's diarrhea is an active treatment scenario where a TeleDirectMD video visit provides genuine clinical value: we prescribe standby azithromycin for self-treatment of an active episode of moderate-to-severe TD. This is the evidence-based practice known as empiric standby therapy — the traveler carries the prescription, fills it at their home pharmacy before departure, and self-administers treatment when symptoms meet defined severity criteria during the trip. Azithromycin is the CDC-preferred treatment agent for most destinations, particularly South and Southeast Asia where fluoroquinolone-resistant Campylobacter is prevalent — the same mechanism that makes ciprofloxacin unreliable in Thailand and India makes azithromycin the first choice. Loperamide (Imodium) is prescribed as an adjunct antimotility agent for symptom control. Prevention counseling covers food and water safety, bismuth subsalicylate options, and the critical point that the CDC discourages routine antibiotic prophylaxis for most travelers due to resistance concerns, C. difficile risk, and adverse effect profiles. This page is for adults located in {state}, including {cities}.",
+    "tocLinks": [
+      {
+        "href": "eligibility-checklist",
+        "label": "Eligibility checklist"
+      },
+      {
+        "href": "decision-guide",
+        "label": "Decision guide"
+      },
+      {
+        "href": "treatment-options",
+        "label": "Treatment options"
+      },
+      {
+        "href": "faq",
+        "label": "FAQs"
+      },
+      {
+        "href": "references",
+        "label": "References"
+      }
+    ],
+    "benefits": [
+      "Self pay option starting at $79",
+      "MD-only care (no mid-levels)",
+      "Insurance is not required",
+      "Licensed telehealth care for patients located in {state} at the time of the visit"
+    ],
+    "sideCard": {
+      "h2": "Online MD-Only Traveler's Diarrhea Treatment in {state}",
+      "features": [
+        "Standby azithromycin prescription for self-treatment during travel (1,000 mg single dose or 500 mg × 3 days)",
+        "Loperamide adjunct prescription for symptomatic antimotility relief",
+        "Destination-specific guidance (azithromycin preferred for South and Southeast Asia)",
+        "Red flag counseling: bloody stool, high fever, severe dehydration — in-person or ER",
+        "Prevention counseling: food and water safety, bismuth subsalicylate, antibiotic prophylaxis guidance"
+      ],
+      "note": "Adults 18+ only. TeleDirectMD is not an emergency service. Red flags requiring immediate in-person or ER evaluation: bloody or bloody-mucoid stool (dysentery), fever above 38.5°C (101.3°F), signs of severe dehydration (inability to keep fluids down, dizziness on standing, no urination for 8+ hours), and altered mental status. TeleDirectMD does not prescribe controlled substances."
+    },
+    "icd10Display": "A09 (infectious gastroenteritis and colitis, unspecified — traveler's diarrhea in active treatment context; ICD-10 A04.x for specific pathogen identification at laboratory level)"
+  },
+  "eligibility": {
+    "sectionTitle": "Traveler's Diarrhea Telehealth Eligibility Checklist for {state}",
+    "introText": "You are likely eligible for a TeleDirectMD traveler's diarrhea video visit if ALL of these are true:",
+    "eligible": [
+      "You are 18 years old or older",
+      "You are physically located in {state} at the time of the visit",
+      "You are planning travel to a high-risk destination (South Asia, Southeast Asia, sub-Saharan Africa, Central or South America, the Caribbean, or Middle East) and want a standby azithromycin prescription before departure, OR you are currently experiencing moderate-to-severe TD and need antibiotic treatment",
+      "You do not have a known allergy to azithromycin or macrolide antibiotics (erythromycin, clarithromycin)",
+      "You do not have a known prolonged QTc interval or cardiac arrhythmia that would be a contraindication to azithromycin (your physician will screen)",
+      "You are not pregnant (azithromycin is category B but decisions are individualized; discuss with your physician)",
+      "Your symptoms do not include red flags: bloody stool, high fever (above 38.5°C / 101.3°F), signs of severe dehydration, or altered mental status — those require in-person or ER evaluation",
+      "Insurance is not required. A self pay option is available."
+    ],
+    "notEligible": [
+      "You are under 18 years old",
+      "You have severe dehydration — you cannot keep any fluids down, have had no urination for 8+ hours, or are experiencing dizziness on standing (orthostatic hypotension) — seek in-person or ER care for IV rehydration",
+      "You have bloody or bloody-mucoid stool (dysentery) with high fever — this requires in-person evaluation to assess for complicated bacterial dysentery or non-infectious causes",
+      "You have altered mental status — confusion, lethargy, or extreme weakness — seek emergency evaluation for severe dehydration, hemolytic uremic syndrome (rare, from Shiga-toxin E. coli), or other complications",
+      "You have a known allergy to macrolide antibiotics (azithromycin, erythromycin, clarithromycin)",
+      "You have a history of prolonged QTc or serious cardiac arrhythmia (will be assessed individually)",
+      "You are located in New York State at the time of the visit",
+      "You have a history of inflammatory bowel disease with flare — this may require specialist evaluation to distinguish TD from an IBD exacerbation"
+    ],
+    "notEligibleDisclaimer": "Severe TD with dysentery, high fever, or dehydration requiring IV fluids is an in-person emergency. In children and elderly travelers, dehydration can progress quickly. Hemolytic uremic syndrome (HUS) — a rare but life-threatening complication of Shiga-toxin-producing E. coli (STEC) — is associated with bloody diarrhea and requires immediate in-person evaluation. Do not attempt to self-treat bloody diarrhea in combination with high fever without medical evaluation."
+  },
+  "howItWorks": {
+    "sectionTitle": "How Online Traveler's Diarrhea Treatment Works in {state}",
+    "steps": [
+      {
+        "type": "check",
+        "title": "Book your video visit",
+        "description": "Insurance is not required. No referral needed. Same-day appointments are often available. For pre-departure standby prescription visits, have your travel itinerary ready including destination countries and specific regions, departure date, and duration of stay. For visits during an active TD episode, be ready to describe symptom onset and progression, number of loose stools per day, presence or absence of blood in stool, fever, ability to tolerate fluids, and any prior antibiotic treatment already attempted. Note any known drug allergies (especially to macrolides or quinolones), current medications, cardiac history, and any history of C. difficile infection."
+      },
+      {
+        "type": "check",
+        "title": "See a {state} licensed MD by video",
+        "description": "Your physician assesses your destination risk profile and, if you are in an active TD episode, determines severity (mild, moderate, or severe) per CDC Yellow Book criteria. Mild TD (tolerable, not interfering with activities) typically does not require antibiotics — loperamide and oral rehydration are first-line. Moderate TD (distressing or interfering with planned activities) may warrant azithromycin. Severe TD (incapacitating, all dysentery) requires antibiotic treatment. Azithromycin is the CDC-preferred first-line agent for South and Southeast Asia because of prevalent fluoroquinolone-resistant Campylobacter. Red flag assessment is performed at every visit — bloody stool with high fever triggers in-person referral rather than antibiotic prescription over telehealth."
+      },
+      {
+        "type": "good",
+        "title": "Get a standby azithromycin prescription and complete self-treatment protocol",
+        "description": "If antibiotic treatment or standby therapy is clinically appropriate, we send an e-prescription to common {state} pharmacies such as {pharmacies}. You receive complete instructions including the self-treatment algorithm (when to start the antibiotic, dosing options — 1,000 mg single dose or 500 mg × 3 days), how to use loperamide as adjunct therapy, oral rehydration guidance, and the specific red flag symptoms that should prompt stopping self-treatment and seeking in-person or emergency care.",
+        "showCta": true
+      }
+    ]
+  },
+  "telehealthRegulations": {
+    "sectionTitle": "{state} Telehealth Regulations for Online Traveler's Diarrhea Treatment",
+    "paragraphs": [
+      "{telehealthRegulation}",
+      "Location matters: you must be physically in {state} during the visit. Insurance is not required. TeleDirectMD does not prescribe controlled substances. Azithromycin and loperamide are both non-controlled medications fully within our telehealth prescribing scope for appropriate adult patients. Azithromycin is a macrolide antibiotic; loperamide is an OTC antimotility agent also available by prescription."
+    ]
+  },
+  "comparisonTable": {
+    "sectionTitle": "TeleDirectMD vs Other Care Options for Traveler's Diarrhea in {state}",
+    "intro": "Here is how TeleDirectMD compares to common settings for traveler's diarrhea management in {state}:",
+    "rows": [
+      {
+        "option": "TeleDirectMD",
+        "cost": "Self pay option starting at $79",
+        "wait": "Same day, often within hours",
+        "provider": "Board-certified MD only (no mid-levels)",
+        "bestFor": "Pre-departure standby azithromycin prescription for moderate-to-severe TD self-treatment; active uncomplicated TD episodes without red flags (no bloody stool, high fever, or severe dehydration)",
+        "highlight": true
+      },
+      {
+        "option": "In-Person Travel Clinic",
+        "cost": "$150 to $500+ (consultation plus vaccines)",
+        "wait": "Days to weeks for appointment",
+        "provider": "Travel medicine MD or specialist",
+        "bestFor": "Complex travel health workup including vaccines, malaria prophylaxis, standby TD treatment as part of a comprehensive pre-travel visit; immunocompromised travelers or those with inflammatory bowel disease",
+        "highlight": false
+      },
+      {
+        "option": "Urgent Care",
+        "cost": "$150 to $300+ (before insurance)",
+        "wait": "1 to 3 hours typical",
+        "provider": "MD, DO, PA, or NP",
+        "bestFor": "Active moderate-to-severe TD with dehydration, high fever, or diagnostic uncertainty; stool cultures if pathogen identification is needed",
+        "highlight": false
+      },
+      {
+        "option": "Primary Care",
+        "cost": "$100 to $250+ (varies)",
+        "wait": "3 to 14 days typical",
+        "provider": "Family medicine or internal medicine MD or DO",
+        "bestFor": "Establishing care, obtaining standby prescriptions for established patients; post-travel persistent diarrhea evaluation",
+        "highlight": false
+      },
+      {
+        "option": "Emergency Room",
+        "cost": "$500 to $3,000+ (before insurance)",
+        "wait": "2 to 6 hours typical",
+        "provider": "Emergency medicine MD or DO",
+        "bestFor": "Severe dehydration requiring IV fluids, bloody dysentery with high fever, altered mental status, suspected hemolytic uremic syndrome, or inability to tolerate oral fluids",
+        "highlight": false
+      }
+    ],
+    "bottomLine": "TeleDirectMD is the most convenient and cost-effective option for a pre-departure standby azithromycin prescription and for uncomplicated active TD episodes. Severe dehydration, bloody dysentery, or high fever warrant urgent care or emergency evaluation regardless of insurance status."
+  },
+  "decisionGuide": {
+    "sectionTitle": "Should I Use TeleDirectMD for Traveler's Diarrhea in {state}? Decision Guide",
+    "steps": [
+      {
+        "type": "urgent",
+        "title": "Are you experiencing any of these red flag symptoms?",
+        "items": [
+          "Bloody or bloody-mucoid stool (dysentery) with fever above 38.5°C (101.3°F)",
+          "Severe dehydration: inability to keep any fluids down, dizziness on standing, no urination for 8+ hours, or rapid heart rate at rest",
+          "Altered mental status, confusion, or extreme lethargy associated with diarrheal illness",
+          "Severe abdominal pain suggesting possible surgical emergency (appendicitis, bowel obstruction)",
+          "Returning traveler with fever — bloody diarrhea after travel to malaria-endemic region could represent complicated infection requiring blood smears"
+        ],
+        "yesAction": "If yes, seek in-person urgent care or emergency room immediately — do not use telehealth. Severe dehydration and bloody dysentery require in-person evaluation, possible IV fluids, and stool diagnostics.",
+        "noAction": "If no red flags, continue to Step 2"
+      },
+      {
+        "type": "check",
+        "title": "Are you 18+ and currently in {state}?",
+        "items": [],
+        "yesAction": "If yes, continue to Step 3",
+        "noAction": "If no, seek care in your current state or setting"
+      },
+      {
+        "type": "check",
+        "title": "What is the severity of your current diarrheal illness (or are you seeking a pre-departure standby prescription)?",
+        "items": [
+          "Mild TD: tolerable loose stools not interfering with activities — no antibiotic typically recommended; oral rehydration and loperamide are first-line",
+          "Moderate TD: distressing diarrhea interfering with planned activities — azithromycin appropriate; can request telehealth visit",
+          "Severe TD: incapacitating diarrhea, unable to continue activities, or any dysentery — azithromycin appropriate; use telehealth if no red flags above",
+          "Pre-departure standby: you have no current symptoms and want a prescription to carry — telehealth appropriate"
+        ],
+        "yesAction": "If moderate, severe (without red flags), or pre-departure standby: continue to Step 4",
+        "noAction": "If mild: oral rehydration and loperamide are appropriate; telehealth visit optional for guidance"
+      },
+      {
+        "type": "check",
+        "title": "Do you have any contraindications to azithromycin?",
+        "items": [
+          "Known allergy to macrolide antibiotics (azithromycin, erythromycin, clarithromycin)",
+          "History of prolonged QTc or serious cardiac arrhythmia (will be assessed individually by physician)",
+          "Current use of medications with significant QTc-prolonging interactions"
+        ],
+        "yesAction": "If yes, disclose during your visit — your physician will assess whether azithromycin is appropriate or whether an alternative is needed",
+        "noAction": "If no, continue to Step 5"
+      },
+      {
+        "type": "good",
+        "title": "You are likely appropriate for a TeleDirectMD video visit",
+        "description": "TeleDirectMD can prescribe standby azithromycin for traveler's diarrhea self-treatment, provide a complete self-treatment protocol including severity criteria for starting antibiotics, adjunct loperamide for symptom control, oral rehydration guidance, and clear red flag thresholds for when to stop self-treatment and seek in-person care. Prevention counseling includes food and water safety practices and bismuth subsalicylate as an optional OTC prevention option.",
+        "items": [],
+        "showCta": true
+      }
+    ]
+  },
+  "pricing": {
+    "sectionTitle": "What Does Traveler's Diarrhea Treatment Cost in {state}?",
+    "subtitle": "Transparent options. Insurance is not required.",
+    "visitPrice": "$79",
+    "priceSubtext": "Self pay option. Insurance is not required.",
+    "includes": [
+      "MD evaluation of destination risk profile and TD severity (or pre-departure standby assessment)",
+      "Red flag screening and referral if in-person evaluation is indicated",
+      "Azithromycin standby prescription if clinically appropriate (1,000 mg single dose or 500 mg × 3 days protocol)",
+      "Loperamide adjunct prescription for antimotility relief",
+      "Complete self-treatment protocol: when to start antibiotics, oral rehydration guidance, red flag thresholds",
+      "Prevention counseling: food and water safety, bismuth subsalicylate option, antibiotic prophylaxis guidance"
+    ],
+    "comparisonBars": [
+      {
+        "name": "TeleDirectMD",
+        "value": "$79",
+        "width": 18,
+        "isTdmd": true
+      },
+      {
+        "name": "Primary Care",
+        "value": "$100 to $250+",
+        "width": 42,
+        "isTdmd": false
+      },
+      {
+        "name": "Urgent Care",
+        "value": "$150 to $300+",
+        "width": 52,
+        "isTdmd": false
+      },
+      {
+        "name": "Emergency Room",
+        "value": "$500 to $3,000+",
+        "width": 100,
+        "isTdmd": false
+      }
+    ],
+    "footnote": "Prescription costs at your pharmacy are separate. Azithromycin 250 mg generic tablets are widely available at very low cost — a 3-day course (6 × 500 mg tablets) typically costs under $15 to $25 at most pharmacies with GoodRx coupons (pricing verified 2026-06-13; costs vary by pharmacy and quantity). Loperamide is available over the counter (Imodium) at approximately $5 to $10 for a travel pack. A standby antibiotic prescription filled before departure ensures you have the medication when needed without searching for a pharmacy abroad.",
+    "noHiddenFees": "No hidden fees. If you present with red flag symptoms that require in-person evaluation, you will receive a complete assessment and clear referral guidance — the visit fee is not charged if a clinical evaluation cannot be appropriately completed via telehealth."
+  },
+  "whatIsCondition": {
+    "sectionTitle": "What Is Traveler's Diarrhea?",
+    "paragraphs": [
+      "Traveler's diarrhea (TD) is defined clinically as the passage of 3 or more unformed stools per 24 hours with at least one accompanying symptom — such as abdominal cramps, nausea, vomiting, fever, urgency, or tenesmus — occurring in a traveler during or shortly after visiting a high-risk destination. It is the most common illness affecting international travelers, with attack rates ranging from 30 to 70 percent for 2-week stays in high-risk regions including South Asia, Southeast Asia, sub-Saharan Africa, Central and South America, and the Middle East. The CDC Yellow Book classifies destinations into three risk tiers: low-risk (US, Canada, Western Europe, Australia, New Zealand, Japan, South Korea), intermediate-risk (parts of Eastern Europe, Caribbean, Southern Africa), and high-risk (most of Asia, Africa, Central and South America, and the Middle East).",
+      "The vast majority of TD is caused by bacterial pathogens. Enterotoxigenic Escherichia coli (ETEC) is the most common global cause. Campylobacter jejuni is particularly prevalent in South and Southeast Asia and is notable for its high rates of fluoroquinolone resistance — this resistance pattern is the primary reason azithromycin (a macrolide) has replaced ciprofloxacin as the first-line treatment for South and Southeast Asia destinations. Other bacterial causes include Shigella species (cause of bacillary dysentery), non-typhoidal Salmonella, enteropathogenic E. coli (EPEC), enteroaggregative E. coli (EAEC), and Vibrio cholerae in specific endemic settings. Viral pathogens (norovirus, rotavirus) account for some TD, particularly in cruise settings, but are not responsive to antibiotics. Parasitic causes (Giardia lamblia, Entamoeba histolytica, Cryptosporidium) are less common but more likely in travelers with prolonged or post-travel diarrhea lasting over 2 weeks.",
+      "The transmission route is almost exclusively fecal-oral through contaminated food and water. Classic exposure scenarios include ice in drinks (made with tap water), salads and raw vegetables washed with contaminated water, undercooked meats or shellfish, food prepared by street vendors, and unpasteurized dairy products. The adage 'boil it, cook it, peel it, or forget it' captures the food safety principle, though evidence suggests that even careful travelers cannot fully eliminate risk in high-risk environments — food safety practices reduce but do not eliminate TD risk.",
+      "The illness spectrum ranges from mild loose stools that do not significantly impair travel activities to severe, incapacitating watery diarrhea or dysentery with high fever and bloody stool. Most TD episodes are self-limiting and resolve within 3 to 5 days without antibiotic therapy. However, antibiotic treatment with azithromycin reduces the duration and severity of moderate-to-severe TD from 3 to 5 days to approximately 1 to 2 days — a clinically meaningful difference for travelers with important activities, limited bathroom access, or long-distance transportation commitments."
+    ]
+  },
+  "causesAndRiskFactors": {
+    "sectionTitle": "Causes and Risk Factors for Traveler's Diarrhea",
+    "intro": "TD risk varies by destination, traveler behavior, and individual host factors. Understanding these factors guides the decision to prescribe standby antibiotics, prevention counseling emphasis, and post-travel follow-up planning.",
+    "items": [
+      {
+        "label": "Destination risk tier:",
+        "text": "the strongest predictor of TD risk. High-risk regions — South Asia (India, Nepal, Bangladesh, Pakistan), Southeast Asia (Thailand, Vietnam, Cambodia, Laos, Indonesia, Philippines), sub-Saharan Africa, Central America, South America (particularly Andean, Amazon, and coastal regions), and the Middle East — carry 30 to 70 percent TD attack rates. All travelers to these regions should consider pre-departure standby antibiotic consultation."
+      },
+      {
+        "label": "Specific pathogen distribution:",
+        "text": "ETEC is the most common global cause. Campylobacter is disproportionately prevalent in South and Southeast Asia and carries high fluoroquinolone resistance rates. Shigella (dysentery) is more common in sub-Saharan Africa and South Asia. This distribution determines antibiotic selection — azithromycin is preferred for Asia because ciprofloxacin fails against resistant Campylobacter."
+      },
+      {
+        "label": "Accommodation and dining type:",
+        "text": "travelers staying in luxury hotels with international food chains are at lower risk than backpackers eating at street stalls or staying in local guesthouses. However, even five-star hotels in high-risk countries have documented TD outbreaks — the risk reduction from upscale accommodations is real but not complete."
+      },
+      {
+        "label": "Travel purpose and duration:",
+        "text": "adventure travelers, backpackers, long-term volunteers, and those visiting friends and relatives (VFR travelers) have higher TD attack rates than business travelers staying in international hotels. Longer trips carry higher cumulative exposure. Some long-stay travelers develop partial immunity to local ETEC strains, which may explain somewhat lower attack rates in permanent expatriates."
+      },
+      {
+        "label": "Individual gastric acid production:",
+        "text": "gastric acid provides an important innate defense against enteric pathogens. Use of proton pump inhibitors (PPIs) or H2 blockers before and during travel reduces gastric acid and increases TD susceptibility. If you take PPIs regularly, mention this during your telehealth visit as it affects your TD risk profile."
+      },
+      {
+        "label": "Prior antibiotic use:",
+        "text": "recent antibiotic use disrupts the protective gut microbiome, increasing susceptibility to colonization with antibiotic-resistant enteric pathogens (ESBL-producing Enterobacteriaceae, C. difficile) encountered during travel."
+      },
+      {
+        "label": "Immunosuppression:",
+        "text": "travelers with HIV, inflammatory bowel disease, on immunosuppressive medications, or with functional asplenia are at higher risk of severe or complicated TD and should consider in-person travel medicine consultation for their pre-travel workup."
+      }
+    ],
+    "closing": "The CDC Yellow Book recommends that all travelers to high-risk destinations be counseled on food and water safety, oral rehydration, and the availability of effective antibiotic self-treatment for moderate-to-severe TD. Most travelers benefit from a pre-departure visit to obtain a standby prescription rather than trying to obtain antibiotics abroad where formulations and quality may differ from US-standard medications."
+  },
+  "symptomsAndRedFlags": {
+    "sectionTitle": "Traveler's Diarrhea Symptoms, Severity, and Red Flags in {state}",
+    "intro": "This table categorizes TD by severity and guides appropriate management, including when telehealth is appropriate versus when in-person or emergency care is required.",
+    "headers": [
+      "Symptom or situation",
+      "Severity / category",
+      "Telehealth appropriate?",
+      "Action"
+    ],
+    "rows": [
+      [
+        "1 to 2 loose stools per day with mild abdominal cramping, no fever, tolerating fluids well",
+        "Mild TD — does not significantly impair activities",
+        "Yes — telehealth appropriate for counseling and loperamide guidance",
+        "Oral rehydration (electrolyte solutions), loperamide for comfort; antibiotics not routinely recommended for mild TD per CDC guidelines"
+      ],
+      [
+        "3 to 5 loose stools per day with significant cramping, nausea, fatigue, and clear impact on planned activities",
+        "Moderate TD — distressing, interferes with activities",
+        "Yes — telehealth appropriate; azithromycin indicated",
+        "Azithromycin 1,000 mg single dose (preferred) or 500 mg × 3 days; oral rehydration; loperamide adjunct for symptom control"
+      ],
+      [
+        "6 or more loose stools per day, incapacitating illness, or any dysentery regardless of stool count",
+        "Severe TD or dysentery — incapacitating",
+        "Yes if no red flags; in-person if red flags present",
+        "Azithromycin is preferred; evaluate for red flags below before initiating telehealth self-treatment"
+      ],
+      [
+        "Bloody or bloody-mucoid stool (dysentery) with fever above 38.5°C (101.3°F)",
+        "Severe complicated TD — bacterial dysentery (Shigella, Campylobacter, E. histolytica)",
+        "No — in-person urgent care or ER",
+        "In-person evaluation with stool culture; assess for hemolytic uremic syndrome if STEC (Shiga-toxin E. coli) suspected; empiric azithromycin appropriate pending culture but requires in-person evaluation"
+      ],
+      [
+        "Inability to keep any oral fluids down, dizziness on standing, no urination for 8+ hours",
+        "Severe dehydration — clinical hypovolemia",
+        "No — in-person or ER for IV rehydration",
+        "IV fluid replacement; evaluation for underlying cause; electrolyte monitoring"
+      ],
+      [
+        "Diarrhea persisting beyond 14 days after return home",
+        "Persistent diarrhea — possible parasitic cause (Giardia, Cryptosporidium, E. histolytica) or post-infectious IBS",
+        "Telehealth appropriate for initial evaluation; stool O&P (ova and parasites) testing likely needed",
+        "Azithromycin will not treat parasitic causes; metronidazole or tinidazole for giardiasis; primary care or GI follow-up for persistent symptoms"
+      ],
+      [
+        "Altered mental status or confusion associated with diarrheal illness",
+        "Possible severe complication — severe dehydration, septicemia, or hemolytic uremic syndrome",
+        "No — 911 / emergency services immediately",
+        "Emergency evaluation for possible E. coli O157:H7 HUS, bacteremia, or severe electrolyte disturbance"
+      ]
+    ]
+  },
+  "differentialDiagnosis": {
+    "sectionTitle": "Traveler's Diarrhea vs Other Conditions",
+    "intro": "The differential diagnosis of diarrhea in a returning or current traveler is broad. TeleDirectMD's telehealth scope is uncomplicated bacterial TD responding to oral azithromycin. Conditions below require in-person evaluation.",
+    "telehealthAppropriate": {
+      "title": "Appropriate for Telehealth Evaluation",
+      "items": [
+        "Pre-departure standby azithromycin and loperamide prescription for planned travel to high-risk destinations",
+        "Active moderate-to-severe TD episode without red flags (no bloody stool, no high fever, no severe dehydration)",
+        "TD prevention counseling: food and water safety, bismuth subsalicylate dosing, antibiotic prophylaxis discussion",
+        "Mild TD management guidance: oral rehydration protocol, loperamide use, dietary modifications",
+        "Post-treatment follow-up for uncomplicated TD responding to azithromycin"
+      ]
+    },
+    "requiresInPerson": {
+      "title": "Requires In-Person or Emergency Evaluation",
+      "items": [
+        "Bloody dysentery with high fever — bacterial dysentery requiring stool cultures and possibly IV antibiotics",
+        "Severe dehydration unable to maintain oral fluid intake — IV hydration",
+        "Diarrhea persisting over 14 days — parasitic infection (Giardia, Cryptosporidium, E. histolytica) requiring stool O&P testing",
+        "Suspected hemolytic uremic syndrome — bloody diarrhea with pallor, decreased urine output, confusion",
+        "Inflammatory bowel disease flare mimicking TD — requires colonoscopy and specialist evaluation",
+        "TD in immunocompromised travelers — HIV, transplant, or immunosuppressive medications"
+      ]
+    },
+    "compareCards": [
+      {
+        "title": "Traveler's Diarrhea vs Viral Gastroenteritis",
+        "text": "Viral gastroenteritis (norovirus, rotavirus) and bacterial TD can present similarly with watery diarrhea, nausea, and abdominal cramping. Key distinctions: viral gastroenteritis typically has a shorter incubation (12 to 48 hours vs 6 to 72 hours for ETEC), often involves prominent vomiting as a leading symptom, is frequently seen in group outbreaks (cruise ships, shared meals), and does not respond to azithromycin or any antibiotic. Attempting to treat viral gastroenteritis with azithromycin provides no benefit and adds unnecessary antibiotic exposure. In practice, clinical differentiation of viral from bacterial TD during an active episode is difficult without stool testing — the empiric azithromycin approach is reasonable for moderate-to-severe TD because the bacterial fraction is clinically significant and the treatment is generally safe. Viral gastroenteritis is managed with oral rehydration only."
+      },
+      {
+        "title": "Traveler's Diarrhea vs Malaria",
+        "text": "Both malaria and TD can occur after travel to sub-Saharan Africa or South Asia, and they can coexist in the same patient. The critical distinction: malaria presents with fever (often high and cyclical), chills, rigors, and myalgia, and diarrhea is a less prominent feature. Traveler's diarrhea presents primarily with gastrointestinal symptoms — loose stools, cramping, nausea. Any febrile illness with significant diarrhea after return from Africa or Asia should be evaluated for malaria by blood smear testing — treating TD with antibiotics will not address malaria. The two conditions require parallel evaluation in the emergency room. TeleDirectMD manages malaria prevention (prophylaxis) separately — see our Malaria Prophylaxis spoke page."
+      },
+      {
+        "title": "Traveler's Diarrhea vs Post-Travel Irritable Bowel Syndrome",
+        "text": "Post-infectious irritable bowel syndrome (PI-IBS) is a well-recognized sequela of moderate-to-severe TD in a subset of travelers — estimated to occur in 3 to 17% of TD cases. Following an acute episode of bacterial TD, some travelers develop persistent altered bowel habits (loose stools, urgency, abdominal discomfort) lasting weeks to months after the acute infection resolves. PI-IBS is not caused by ongoing infection and does not respond to further antibiotics. It is managed symptomatically with dietary modification, soluble fiber, and antispasmodics under the guidance of a primary care physician or gastroenterologist. Early effective antibiotic treatment of an acute TD episode (with azithromycin) has been postulated to reduce PI-IBS risk by shortening the duration of mucosal inflammation — though evidence is not definitive."
+      }
+    ],
+    "closing": "For any active moderate-to-severe diarrheal illness in a traveler, TeleDirectMD's approach is to assess severity, apply red flag criteria, and prescribe azithromycin empirically for bacterial TD while maintaining clear in-person referral pathways for complicated or atypical presentations. If symptoms persist beyond 7 days of appropriate antibiotic treatment, post-travel evaluation for parasitic infection should be performed."
+  },
+  "telehealthEligibility": {
+    "sectionTitle": "When Is a Video Visit Appropriate for Traveler's Diarrhea?",
+    "appropriate": {
+      "title": "When a Video Visit Is Appropriate",
+      "items": [
+        "Pre-departure: obtaining a standby azithromycin prescription before travel to South Asia, Southeast Asia, sub-Saharan Africa, or other high-risk destinations",
+        "Active moderate-to-severe TD without red flags (no bloody stool with high fever, no severe dehydration, no altered mental status)",
+        "Mild TD guidance: oral rehydration protocol and loperamide dosing counseling",
+        "Prevention counseling for upcoming travel to high-risk destinations",
+        "Located in {state} at time of visit"
+      ]
+    },
+    "redFlags": {
+      "title": "Red Flags Requiring In-Person or Emergency Care",
+      "items": [
+        "Bloody or bloody-mucoid stool (dysentery) with fever above 38.5°C (101.3°F) — in-person urgent care or ER",
+        "Inability to maintain oral fluid intake — signs of severe dehydration requiring IV hydration",
+        "Dizziness on standing (orthostatic hypotension), rapid heart rate, or no urination for 8+ hours — ER for IV fluids",
+        "Altered mental status, confusion, or extreme weakness with diarrhea — 911 / emergency services",
+        "Diarrhea lasting more than 14 days — parasitic etiology must be excluded with stool O&P testing in person",
+        "Fever with diarrhea after travel to malaria-endemic region — both TD and malaria must be evaluated in person simultaneously"
+      ],
+      "disclaimer": "Severe dehydration from diarrheal illness can be life-threatening in elderly patients, those with diabetes, and travelers on diuretics or blood pressure medications. When in doubt about severity, seek in-person evaluation. TeleDirectMD is not an emergency service."
+    }
+  },
+  "treatmentOptions": {
+    "sectionTitle": "Treatment and Prevention Options for Traveler's Diarrhea",
+    "intro": "TD management follows a severity-based framework per CDC Yellow Book guidelines. The cornerstone of all TD treatment is oral rehydration. Antibiotic treatment is reserved for moderate-to-severe episodes and significantly shortens illness duration. Prevention focuses on food and water safety — the CDC does not recommend routine antibiotic prophylaxis for most travelers because the risks (antibiotic resistance, C. difficile, adverse effects) outweigh the benefits.",
+    "sections": [
+      {
+        "title": "Azithromycin — CDC-Preferred Front-Line Antibiotic Treatment",
+        "text": "Azithromycin is the antibiotic of choice for traveler's diarrhea treatment, particularly for destinations with fluoroquinolone-resistant Campylobacter. It is a macrolide antibiotic that inhibits bacterial protein synthesis by binding to the 50S ribosomal subunit, with broad activity against the major TD pathogens including ETEC, Campylobacter (including fluoroquinolone-resistant strains), Shigella, and Salmonella. The CDC Yellow Book recommends two equivalent azithromycin regimens: a single 1,000 mg dose (two 500 mg tablets taken together) for maximum convenience, or 500 mg once daily for 3 days for travelers who experience nausea with the larger single dose — both regimens have comparable efficacy. The 1,000 mg single dose is preferred for travelers who need rapid return to activity (such as those on a tour bus or airplane). For South and Southeast Asia specifically, azithromycin is the CDC-recommended first choice because ciprofloxacin fails against resistant Campylobacter isolates in this region. Azithromycin is not a controlled substance."
+      },
+      {
+        "title": "Loperamide (Imodium) — Antimotility Adjunct",
+        "text": "Loperamide is a synthetic opioid receptor agonist that acts on the mu-opioid receptors in the myenteric plexus of the gut wall without significant central nervous system penetration, slowing intestinal transit, reducing stool frequency, and decreasing fluid losses. It is widely available OTC as Imodium. The CDC Yellow Book confirms that the safety of loperamide combined with antibiotics has been well established, even in cases of invasive pathogens. Dosing: 4 mg initially (two 2 mg tablets), then 2 mg (one tablet) after each loose stool, not to exceed 16 mg per day. Loperamide is particularly helpful for travelers facing long journeys (airplane, bus, boat) where bathroom access is limited, and for professional obligations where illness must be managed quickly. Important restriction: loperamide is NOT recommended as sole therapy for patients with bloody diarrhea or diarrhea combined with fever — it masks symptoms and can worsen outcomes in complicated bacterial dysentery. Use only as an adjunct with azithromycin in these settings, or avoid until evaluated in person."
+      },
+      {
+        "title": "Oral Rehydration — Cornerstone of All TD Management",
+        "text": "Regardless of antibiotic therapy, oral rehydration is the single most important intervention for TD. Fluid and electrolyte losses during diarrheal illness — particularly in hot climates where insensible losses are also high — can rapidly lead to dehydration, electrolyte imbalance, and organ stress. The World Health Organization (WHO) oral rehydration solution (ORS) is the gold standard for replacing fluid and electrolyte losses from diarrheal illness. ORS packets are widely available at pharmacies and stores throughout most high-risk travel destinations. In mild cases, sports drinks (diluted if high-sugar) or safe bottled water with salty crackers can suffice. Travelers should drink to thirst and continue oral intake even if drinking worsens the urge to defecate — rehydration is essential. Signs of adequate rehydration include normal urine output, improvement in dizziness, and improved energy. Avoid excessive consumption of high-sugar soft drinks, which can cause osmotic diarrhea."
+      },
+      {
+        "title": "Bismuth Subsalicylate (Pepto-Bismol) — Prevention Option",
+        "text": "Bismuth subsalicylate (BSS, brand name Pepto-Bismol) is the only non-antibiotic agent with demonstrated prophylactic efficacy against TD — studies from Mexico show approximately 50% reduction in TD incidence with regular BSS use. The mechanism involves both anti-secretory and antimicrobial effects. However, the prevention regimen requires taking 2 tablets (or 2 tablespoons of liquid) four times daily — a total of 8 tablets per day — which is inconvenient for most travelers. Side effects include blackening of the tongue and stool (harmless but alarming to uninformed patients), constipation, and nausea. BSS should not be used by travelers allergic to aspirin, those with gout or renal insufficiency, those taking anticoagulants (warfarin), methotrexate, or probenecid. BSS is not recommended for children under 12 years old or pregnant women. Due to the inconvenient dosing and limited absolute risk reduction, BSS is rarely used as routine TD prophylaxis but is a reasonable option for short-trip travelers (2 to 3 weeks) who want additional protection and can tolerate the regimen."
+      },
+      {
+        "title": "Antibiotic Prophylaxis — CDC Does Not Recommend for Most Travelers",
+        "text": "The CDC Yellow Book explicitly discourages routine antibiotic prophylaxis for most travelers, and TeleDirectMD follows this guidance. While controlled studies showed that prophylactic antibiotics reduced TD attack rates by up to 90%, the risks outweigh the benefits for most healthy travelers. Key concerns: (1) antibiotic use promotes selection and carriage of antibiotic-resistant bacteria including extended-spectrum beta-lactamase-producing Enterobacteriaceae (ESBL-PE), which can colonize the traveler's gut during travel and persist for months after return; (2) antibiotic prophylaxis increases risk of Clostridioides difficile colitis; (3) using a prophylactic antibiotic limits which antibiotic can be used therapeutically if TD occurs; (4) fluoroquinolones, which were historically used for prophylaxis, now carry an FDA black box warning for serious adverse effects including tendinitis, tendon rupture, aortic aneurysm, peripheral neuropathy, and mental health effects. Prophylactic antibiotics might rarely be considered for short-term high-risk travelers who are immunocompromised or have significant medical comorbidities — a decision made on an individual basis after careful risk-benefit discussion, not as a routine recommendation."
+      }
+    ],
+    "doesNotManage": [
+      "Bloody dysentery with high fever requiring in-person evaluation and stool cultures",
+      "Severe dehydration requiring IV fluid resuscitation",
+      "TD in pediatric patients (under 18 years old)",
+      "Parasitic diarrhea (Giardia, Cryptosporidium, E. histolytica) — requires stool O&P testing and specific antiparasitic treatment not available via TeleDirectMD",
+      "Post-infectious irritable bowel syndrome — primary care or GI management",
+      "TD in immunocompromised travelers — requires in-person travel medicine evaluation"
+    ]
+  },
+  "medications": {
+    "sectionTitle": "Common Medication Options for Traveler's Diarrhea Treatment",
+    "intro": "These are common examples for TD treatment. Actual medication, dose, and duration are determined by the MD after reviewing your destination, symptom severity, red flag assessment, and contraindications.",
+    "headers": [
+      "Medication",
+      "Typical dose",
+      "When to use",
+      "Key considerations"
+    ],
+    "rows": [
+      [
+        "Azithromycin (Z-Pack style — 500 mg tabs)",
+        "1,000 mg single dose (two 500 mg tabs at once) OR 500 mg once daily × 3 days",
+        "Moderate-to-severe TD; first-line for South and Southeast Asia (fluoroquinolone-resistant Campylobacter); preferred for dysentery or febrile diarrhea",
+        "CDC-preferred first-line for most destinations. Macrolide antibiotic. Not a controlled substance. Nausea can occur with the 1,000 mg single dose — splitting into two 500 mg doses taken several hours apart on the same day reduces GI side effects. Contraindicated with known macrolide allergy. Use caution with QTc-prolonging conditions. Preferred over fluoroquinolones for Asia destinations."
+      ],
+      [
+        "Loperamide (Imodium) — adjunct antimotility",
+        "4 mg initially (two 2 mg caps), then 2 mg after each loose stool; max 16 mg/24 hours",
+        "Adjunct to azithromycin for symptomatic relief; helpful for long-haul travel when bathroom access is limited",
+        "Available OTC; also can be prescribed. Do NOT use as sole therapy for bloody diarrhea or diarrhea with high fever. Well tolerated; synthetic opioid receptor agonist acting locally on gut. Reduces stool frequency and fluid losses. Discontinue if symptoms worsen or red flags develop. Not a controlled substance."
+      ],
+      [
+        "Bismuth subsalicylate (Pepto-Bismol) — prevention only, OTC",
+        "2 tablets (262 mg each) four times daily; up to 3 weeks maximum",
+        "Prevention of TD in travelers to high-risk destinations (reduces incidence by approximately 50%)",
+        "OTC prevention option. Turns tongue and stool black (harmless). Avoid with aspirin allergy, gout, renal insufficiency, anticoagulants (warfarin), methotrexate, probenecid. Not for children under 12 or pregnant women. Inconvenient dosing (8 tablets/day) limits use."
+      ],
+      [
+        "Ciprofloxacin (NOT prescribed by TeleDirectMD as first-line for Asia destinations)",
+        "750 mg single dose OR 500 mg BID × 3 days",
+        "Historical use for non-Asia TD; no longer first-line for South or Southeast Asia",
+        "Fluoroquinolone. High rates of Campylobacter resistance in South and Southeast Asia render ciprofloxacin unreliable for these destinations. FDA black box warning: tendinitis/tendon rupture, aortic aneurysm, peripheral neuropathy, hypoglycemia, mental health effects. TeleDirectMD uses azithromycin as first-line. Not a controlled substance, but boxed warning limits use."
+      ]
+    ],
+    "note": "Example regimens only. Rifaximin (a non-absorbable antibiotic) is an alternative for non-invasive, non-dysenteric TD in low-risk regions but is not effective for invasive pathogens (Campylobacter, Shigella) and is not the preferred agent for South or Southeast Asia — azithromycin covers the broader pathogen spectrum and invasive organisms. TeleDirectMD does not prescribe controlled substances."
+  },
+  "homeCare": {
+    "sectionTitle": "Self-Treatment Protocol, Oral Rehydration, and Prevention Checklist",
+    "whatToDoNow": {
+      "title": "Self-Treatment Protocol: When to Start Your Standby Azithromycin",
+      "items": [
+        "Mild TD (1 to 2 loose stools, tolerable, not interfering with activities): do NOT start antibiotics. Use oral rehydration and loperamide for comfort. Most mild episodes resolve in 1 to 2 days without antibiotics.",
+        "Moderate TD (3 or more loose stools per day, distressing, interfering with activities): START azithromycin now. Take 1,000 mg as a single dose (preferred) or 500 mg on day 1, continue for 3 days total. Add loperamide 4 mg initially, then 2 mg after each loose stool.",
+        "Severe TD (incapacitating diarrhea, unable to continue activities, or any dysentery without red flag symptoms): START azithromycin immediately. Check red flags below — if any are present, stop self-treatment and seek in-person care.",
+        "RED FLAGS — stop self-treatment and seek in-person or ER care: bloody stool with fever above 38.5°C (101.3°F); inability to keep fluids down (severe dehydration); dizziness on standing; no urination for 8+ hours; confusion or altered mental status.",
+        "Oral rehydration is ALWAYS indicated: drink ORS solution or safe electrolyte beverages continuously throughout the illness. Prioritize rehydration above everything else.",
+        "Continue to eat small amounts of bland, easily digestible foods (rice, bananas, toast, boiled potatoes) as tolerated — there is no evidence that fasting accelerates recovery from TD."
+      ]
+    },
+    "whatToWatch": {
+      "title": "What to Monitor During and After Your TD Episode",
+      "items": [
+        "Track stool frequency and character hourly during the first 12 to 24 hours — note when blood appears, when frequency peaks, and when improvement begins",
+        "Monitor hydration status: urine color (pale yellow = adequate hydration; dark amber or none = dehydration), dizziness on standing, dry mouth",
+        "Monitor fever: temperature above 38.5°C (101.3°F) with bloody stool is the threshold for stopping self-treatment and seeking in-person evaluation",
+        "Expect improvement within 24 to 48 hours of starting azithromycin — if no improvement after 48 hours of appropriate antibiotic therapy, re-evaluate; possible parasitic cause or antibiotic-resistant pathogen",
+        "Complete the 3-day course if that regimen was started even if symptoms resolve before day 3 — this reduces likelihood of relapse and minimizes resistance selection",
+        "After returning home, if you have persistent diarrhea (over 14 days), abdominal bloating, or recurring loose stools, seek evaluation for Giardia, Cryptosporidium, or post-infectious IBS — stool ova and parasite testing is needed"
+      ]
+    },
+    "followUp": {
+      "title": "Food and Water Prevention During Travel",
+      "items": [
+        "Drink only bottled water with sealed caps, carbonated beverages (carbonation inhibits some pathogens), boiled water, or water treated with iodine or chlorine tablets — avoid tap water even for teeth brushing in high-risk countries",
+        "Avoid ice cubes in drinks — ice is almost universally made from tap water in high-risk destinations, even at reputable restaurants",
+        "Eat cooked foods served hot; avoid buffets where food sits at ambient temperature; avoid raw salads and vegetables washed with tap water",
+        "Choose freshly prepared street food cooked to order over pre-cooked food sitting on display — high turnover, fresh preparation, and visible cooking reduces risk compared to pre-made food sitting at room temperature",
+        "Fruits are generally safe if you peel them yourself just before eating — pre-peeled fruit sold at markets or cut melon from buffets carries risk",
+        "Wash hands with soap and water before eating and after using the toilet — when soap and water are unavailable, use hand sanitizer with at least 60% alcohol"
+      ]
+    }
+  },
+  "whenNotToUse": {
+    "sectionTitle": "When Not to Use TeleDirectMD for Traveler's Diarrhea in {state}",
+    "intro": "TeleDirectMD manages uncomplicated TD and pre-departure standby prescriptions. We are direct about when in-person evaluation is required.",
+    "shouldNotUse": {
+      "title": "You Should Not Use TeleDirectMD If",
+      "items": [
+        "You are under 18 years old",
+        "You have bloody stool with fever above 38.5°C (101.3°F) — seek urgent care or ER for bacterial dysentery evaluation",
+        "You cannot keep any fluids down and have signs of severe dehydration — you need IV fluid resuscitation in person",
+        "You have altered mental status or extreme weakness — go to the emergency room",
+        "You have diarrhea persisting more than 14 days — you need stool O&P testing for parasitic infection in person",
+        "You are immunocompromised (HIV, transplant, immunosuppressive medications) — your TD risk profile requires in-person travel medicine evaluation",
+        "You have a history of inflammatory bowel disease and are experiencing a flare that may mimic TD — requires gastroenterology evaluation",
+        "You are located in New York State at the time of the visit"
+      ]
+    },
+    "alternatives": {
+      "title": "Alternative Care Options",
+      "items": [
+        {
+          "label": "Emergency room:",
+          "text": "severe dehydration with inability to tolerate oral fluids, bloody dysentery with high fever, altered mental status, or suspected hemolytic uremic syndrome. IV fluid replacement and IV antibiotics if indicated."
+        },
+        {
+          "label": "Urgent care:",
+          "text": "moderate TD with dehydration not responding to oral rehydration, stool cultures needed for diagnostic clarity, or moderate TD in a high-risk host who needs in-person evaluation"
+        },
+        {
+          "label": "In-person travel clinic:",
+          "text": "complex pre-travel workup including vaccines, malaria prophylaxis, and TD standby prescription together; immunocompromised travelers; pregnant travelers; those with IBD"
+        },
+        {
+          "label": "Primary care or gastroenterology:",
+          "text": "post-travel persistent diarrhea evaluation, stool O&P testing for parasitic infection, post-infectious IBS management"
+        }
+      ]
+    }
+  },
+  "faq": {
+    "sectionTitle": "Traveler's Diarrhea FAQs for {state}",
+    "items": [
+      {
+        "question": "Can I get a traveler's diarrhea prescription online in {state}?",
+        "answer": "Yes. If you are an adult 18 or older located in {state} (excluding NY), traveling to a high-risk destination, and do not have contraindications to azithromycin (macrolide allergy, significant QTc prolongation), TeleDirectMD can prescribe standby azithromycin for self-treatment of moderate-to-severe traveler's diarrhea episodes. The self pay visit option is $79. The prescription is sent to your pharmacy so you can fill it before departure and carry it during your trip."
+      },
+      {
+        "question": "What is the best antibiotic for traveler's diarrhea?",
+        "answer": "Azithromycin is the CDC-preferred first-line antibiotic for most traveler's diarrhea, particularly for South and Southeast Asia destinations. The reason is fluoroquinolone resistance: Campylobacter jejuni — a major TD pathogen in Thailand, India, Cambodia, Vietnam, and Indonesia — has extremely high rates of resistance to ciprofloxacin and levofloxacin in these regions, rendering those antibiotics unreliable. Azithromycin retains activity against fluoroquinolone-resistant Campylobacter, making it the preferred agent. For other regions where Campylobacter and fluoroquinolone resistance are less dominant (parts of Latin America, Middle East), ciprofloxacin or rifaximin can be alternative options — but azithromycin is effective globally and is the safest blanket choice for a standby prescription intended to cover multiple destinations."
+      },
+      {
+        "question": "Azithromycin 1000 mg single dose vs 500 mg for 3 days — which is better for traveler's diarrhea?",
+        "answer": "Both regimens have been shown in clinical trials to have comparable efficacy for traveler's diarrhea treatment. The choice between them is largely practical. The 1,000 mg single dose (two 500 mg tablets taken together) is convenient — one dose, immediate compliance, no need to remember a multi-day course. It is the preferred option when rapid return to activity is critical (e.g., boarding an airplane, a tour, or a business presentation). The 500 mg once daily × 3 days regimen is better tolerated by patients who experience nausea from the larger single dose. If nausea is a concern with the 1,000 mg dose, the CDC Yellow Book notes that it can be taken as two 500 mg doses on the same day, several hours apart, to reduce GI side effects while maintaining the single-day convenience. TeleDirectMD prescribes the regimen most appropriate for your situation after discussion."
+      },
+      {
+        "question": "Should I take antibiotics to prevent traveler's diarrhea before my trip?",
+        "answer": "The CDC Yellow Book recommends against routine antibiotic prophylaxis for most travelers, and TeleDirectMD follows this guidance. The main reasons are: (1) antibiotic prophylaxis promotes colonization with antibiotic-resistant bacteria including ESBL-producing enterobacteriaceae that can persist in your gut microbiome for months after returning home; (2) there is a risk of Clostridioides difficile colitis; (3) if you take an antibiotic prophylactically, you cannot use the same antibiotic to treat a breakthrough TD episode; (4) fluoroquinolones, historically used for TD prophylaxis, now carry an FDA black box warning for serious adverse effects. The preferred approach for most healthy travelers is standby therapy: carry a prescription for azithromycin and start it only when symptoms meet defined severity criteria (moderate-to-severe TD). This targeted approach treats the illness when it actually occurs without the risks of continuous antibiotic exposure."
+      },
+      {
+        "question": "Can I use Imodium (loperamide) alone for traveler's diarrhea?",
+        "answer": "Loperamide can be used alone for mild, uncomplicated TD to provide symptomatic relief and reduce stool frequency, particularly when bathroom access is limited. However, loperamide is NOT recommended as sole therapy when there is bloody stool or when diarrhea is accompanied by fever above 38.5°C (101.3°F). In these situations, loperamide monotherapy can slow gut motility while allowing invasive pathogens (Shigella, Campylobacter) to penetrate the gut wall more extensively, worsening the infection. In moderate-to-severe TD, loperamide is appropriately used as an adjunct to azithromycin, not as a replacement for antibiotic treatment."
+      },
+      {
+        "question": "What are the red flags that mean I should stop self-treating and see a doctor?",
+        "answer": "Stop self-treatment and seek in-person urgent care or emergency care immediately if any of these develop: bloody or bloody-mucoid stool combined with fever above 38.5°C (101.3°F); inability to keep any oral fluids down (severe vomiting with diarrhea); signs of significant dehydration — dizziness or fainting on standing, no urination for 8 or more hours, heart racing at rest; confusion, altered mental status, or extreme weakness; and diarrhea that does not improve after 48 hours of appropriate azithromycin treatment. These red flags suggest complicated bacterial dysentery, severe dehydration requiring IV fluids, hemolytic uremic syndrome, or another diagnosis that requires in-person evaluation."
+      },
+      {
+        "question": "Does the 'boil it, cook it, peel it, or forget it' rule prevent traveler's diarrhea?",
+        "answer": "Careful food and water selection reduces TD risk but does not eliminate it. Studies have shown that travelers who are scrupulous about food and water choices still develop TD at substantial rates — the contamination risk in high-risk environments is pervasive enough that avoidance alone is insufficient for full protection. Drinking only bottled or boiled water (including for teeth brushing), avoiding ice in drinks, eating cooked foods served hot, peeling fruits yourself, and avoiding salads or raw vegetables washed with tap water are all important risk-reduction measures. However, given that perfect adherence is difficult in practice and TD remains common even in careful travelers, having a standby azithromycin prescription provides essential backup protection when prevention measures inevitably fail."
+      },
+      {
+        "question": "Why is ciprofloxacin no longer recommended for traveler's diarrhea in Southeast Asia?",
+        "answer": "Campylobacter jejuni is a major cause of traveler's diarrhea in South and Southeast Asia, and resistance to fluoroquinolone antibiotics (ciprofloxacin, levofloxacin) among Campylobacter isolates from this region has reached levels of 85 to 95% in some studies. This means that ciprofloxacin will fail to clear Campylobacter infection in the majority of cases in Thailand, India, Cambodia, Vietnam, and Indonesia — the infection will continue for the same duration as if no antibiotic were taken. Azithromycin retains efficacy against fluoroquinolone-resistant Campylobacter because its mechanism of action (ribosomal protein synthesis inhibition) is entirely different from fluoroquinolones (DNA gyrase inhibition). This is why the CDC specifically recommends azithromycin as the preferred agent for South and Southeast Asia TD. Fluoroquinolone resistance is also increasing in Shigella and Salmonella globally, further limiting the utility of ciprofloxacin for empiric TD treatment."
+      },
+      {
+        "question": "How long does traveler's diarrhea last without treatment?",
+        "answer": "Most acute bacterial TD episodes are self-limiting and resolve without antibiotic treatment within 3 to 5 days, occasionally up to 7 days. Mild TD (1 to 2 loose stools, tolerable) typically resolves within 1 to 2 days with oral rehydration alone. Moderate-to-severe TD with high stool frequency and cramping typically lasts 3 to 5 days without antibiotics. Azithromycin treatment shortens this to approximately 1 to 2 days — a 2 to 3 day difference that is highly meaningful for a traveler on a 7 to 10 day trip. TD episodes lasting more than 14 days suggest a parasitic etiology (Giardia, Cryptosporidium, E. histolytica) or post-infectious IBS that requires different evaluation and treatment."
+      },
+      {
+        "question": "Is bismuth subsalicylate (Pepto-Bismol) safe to use for traveler's diarrhea prevention?",
+        "answer": "Bismuth subsalicylate (BSS) is an FDA-approved, well-studied OTC option for TD prevention that reduces incidence by approximately 50% in studies from Mexico. It is safe for most healthy adults. Key contraindications and cautions: avoid if you are allergic to aspirin or salicylates; avoid if you have gout (BSS increases uric acid); avoid if you have significant renal insufficiency; avoid if you take anticoagulants (warfarin), methotrexate, or probenecid — drug interactions exist. BSS turns the tongue and stool black — this is completely harmless but can be alarming if you are not prepared for it. It is not recommended for children under 12 or pregnant women. Studies have not established safety beyond 3 weeks of continuous use. The practical limitation is the dosing regimen: 2 tablets (262 mg) four times daily, totaling 8 tablets per day. Most travelers find this inconvenient for a 2 to 3 week trip, which limits its adoption despite its effectiveness."
+      },
+      {
+        "question": "What causes traveler's diarrhea in India vs Thailand vs Mexico?",
+        "answer": "The dominant pathogens differ by region. In India and Bangladesh, ETEC, Campylobacter (with high fluoroquinolone resistance), and Shigella are common — azithromycin is the CDC-preferred agent. In Thailand and Southeast Asia, Campylobacter with fluoroquinolone resistance is particularly prevalent, along with ETEC — azithromycin is strongly preferred over ciprofloxacin. In Mexico and Latin America, ETEC is the dominant pathogen, fluoroquinolone resistance is lower than in Asia (though rising), and either azithromycin or ciprofloxacin can be effective — azithromycin is still the safer blanket choice. In sub-Saharan Africa, ETEC, Campylobacter, and Shigella are all common; azithromycin is appropriate. The key practical point: azithromycin is appropriate for all high-risk destinations, while ciprofloxacin is unreliable for South and Southeast Asia specifically due to Campylobacter resistance."
+      },
+      {
+        "question": "How much does traveler's diarrhea treatment cost in {state}?",
+        "answer": "The TeleDirectMD video visit is a self pay option starting at $79 — insurance is not required. The azithromycin prescription cost at your pharmacy is separate. Generic azithromycin 250 mg tablets are very inexpensive — a 3-day course (six 250 mg tablets for two × 500 mg doses, or six tablets for 500 mg × 3 days) typically costs under $15 to $25 with GoodRx coupons at most US pharmacies (pricing verified 2026-06-13; costs vary by pharmacy and quantity). Loperamide (Imodium) is available OTC for approximately $5 to $10 per travel pack. Filling your prescription at a US pharmacy before departure ensures you have FDA-standard medications — attempting to purchase azithromycin abroad varies widely in availability, formulation, and quality."
+      },
+      {
+        "question": "Can I get a traveler's diarrhea prescription if I'm already sick during my trip?",
+        "answer": "Yes — TeleDirectMD can evaluate an active TD episode via video visit for adult patients located in {state} at the time of the visit. The physician will assess the severity of your symptoms, screen for red flags (bloody stool with high fever, severe dehydration, altered mental status), and prescribe azithromycin if indicated. However, if you are outside of your home state during travel, you would need to be in a state where TeleDirectMD physicians are licensed to practice. Pre-departure standby prescriptions filled before your trip eliminate the need to arrange a telehealth visit while already ill abroad — this is the preferred approach."
+      }
+    ],
+    "bottomCta": {
+      "title": "Ready to prepare for your trip with a standby traveler's diarrhea prescription?",
+      "text": "Insurance is not required. Adult-only video visits. MD-only care. Standby azithromycin prescription if clinically appropriate, loperamide adjunct, self-treatment protocol, prevention counseling, and clear red flag guidance for when to seek in-person care."
+    }
+  },
+  "references": [
+    {
+      "text": "CDC Yellow Book 2024: Travelers' Diarrhea",
+      "url": "https://www.cdc.gov/yellow-book/hcp/preparing-international-travelers/travelers-diarrhea.html"
+    },
+    {
+      "text": "CDC Yellow Book 2024: The Pre-Travel Consultation",
+      "url": "https://www.cdc.gov/yellow-book/hcp/preparing-international-travelers/the-pre-travel-consultation.html"
+    },
+    {
+      "text": "Azithromycin DailyMed Drug Label (NLM/NIH)",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=azithromycin"
+    },
+    {
+      "text": "Travelers' Diarrhea — StatPearls (NCBI Bookshelf, 2024)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK459348/"
+    },
+    {
+      "text": "Fluoroquinolone Resistance in Campylobacter — CDC",
+      "url": "https://www.cdc.gov/campylobacter/clinicians/antibiotic-resistance.html"
+    },
+    {
+      "text": "WHO Oral Rehydration Salts — Production of the New ORS",
+      "url": "https://www.who.int/docs/default-source/child-health/ors.pdf"
+    }
+  ],
+  "disclaimer": {
+    "sectionTitle": "TeleDirectMD Telehealth Disclaimer",
+    "paragraphs": [
+      "TeleDirectMD provides MD-only virtual care for adults (18+) in {state} using secure video visits to prescribe standby azithromycin for traveler's diarrhea self-treatment and to provide prevention counseling for travelers to high-risk destinations. Insurance is not required. You must be physically located in {state} at the time of your video visit. TeleDirectMD does not prescribe controlled substances.",
+      "TeleDirectMD does NOT manage bloody dysentery with high fever, severe dehydration requiring IV fluid resuscitation, altered mental status associated with diarrheal illness, or diarrhea persisting over 14 days without parasitic etiology evaluation. These presentations require in-person or emergency care. ICD-10 A09 context applies to the active TD treatment framing of this page; specific bacterial pathogen codes (A04.x series) require laboratory identification and in-person evaluation.",
+      "Online traveler's diarrhea treatment in {state}. Azithromycin prescription online for traveler's diarrhea. Standby antibiotic prescription by video visit. TD treatment telehealth in {state}. Pre-travel diarrhea prescription in {state}."
+    ]
+  },
+  "relatedConditions": [
+    {
+      "slug": "travel-medicine-treatment-online",
+      "title": "Travel Medicine",
+      "description": "Comprehensive pre-travel health evaluation covering malaria prophylaxis, traveler's diarrhea standby treatment, altitude sickness prevention, and motion sickness — all in one telehealth visit"
+    },
+    {
+      "slug": "malaria-prophylaxis-treatment-online",
+      "title": "Malaria Prophylaxis",
+      "description": "Pre-travel Malarone (atovaquone-proguanil) or doxycycline prescription for travelers to sub-Saharan Africa, South Asia, and Southeast Asia — the same high-risk destinations where traveler's diarrhea is also prevalent"
+    },
+    {
+      "slug": "altitude-sickness-treatment-online",
+      "title": "Altitude Sickness Prevention",
+      "description": "Acetazolamide (Diamox) prophylaxis for high-altitude travel to Peru, Bolivia, and the Himalayas — many itineraries combining tropical lowland malaria regions with high-altitude destinations require both types of pre-travel prophylaxis"
+    },
+    {
+      "slug": "motion-sickness-treatment-online",
+      "title": "Motion Sickness",
+      "description": "Scopolamine and meclizine options for long-haul flights, cruise ships, and overland transit — motion sickness and traveler's diarrhea are among the most common concurrent travel illness concerns"
+    }
+  ],
+  "inlineLinks": [
+    {
+      "slug": "travel-medicine-treatment-online",
+      "label": "Travel Medicine"
+    },
+    {
+      "slug": "malaria-prophylaxis-treatment-online",
+      "label": "Malaria Prophylaxis"
+    },
+    {
+      "slug": "altitude-sickness-treatment-online",
+      "label": "Altitude Sickness Prevention"
+    },
+    {
+      "slug": "motion-sickness-treatment-online",
+      "label": "Motion Sickness"
+    },
+    {
+      "slug": "viral-gastroenteritis-treatment-online",
+      "label": "Viral Gastroenteritis"
+    },
+    {
+      "slug": "sinus-infection-treatment-online",
+      "label": "Sinus Infection"
+    },
+    {
+      "slug": "tick-bite-treatment-online",
+      "label": "Tick Bite"
+    },
+    {
+      "slug": "influenza-treatment-online",
+      "label": "Influenza"
+    },
+    {
+      "slug": "uti-treatment-online",
+      "label": "UTI Treatment"
+    },
+    {
+      "slug": "covid-19-treatment-online",
+      "label": "COVID-19"
+    }
+  ],
+  "cityBlock": {
+    "title": "Adults We Serve Across {state}",
+    "text": "TeleDirectMD evaluates adults located throughout {state}, including {citiesExtended}. Whether you are searching for online traveler's diarrhea treatment in {city1}, standby azithromycin prescription in {city2}, pre-travel diarrhea prescription by video in {city3}, or TD treatment telehealth anywhere else in {state}, the same telehealth eligibility and safety rules apply."
+  },
+  "icd10Codes": [
+    {
+      "code": "A09",
+      "description": "Infectious gastroenteritis and colitis, unspecified — traveler's diarrhea (active treatment context)"
+    },
+    {
+      "code": "K52.9",
+      "description": "Noninfective gastroenteritis and colitis, unspecified (differential context — to distinguish from IBD flare)"
+    },
+    {
+      "code": "Z29.8",
+      "description": "Encounter for other specified prophylactic measures (pre-departure standby prescription encounter context)"
+    }
+  ],
+  "jsonLd": {
+    "conditionName": "Traveler's Diarrhea",
+    "conditionAlternateNames": [
+      "TD",
+      "Montezuma's revenge",
+      "Delhi belly",
+      "Tourist diarrhea",
+      "Turista",
+      "Enteric traveler's illness"
+    ],
+    "conditionDescription": "Traveler's diarrhea (TD) is the most common travel illness, affecting 30 to 70 percent of travelers to high-risk destinations. TeleDirectMD provides pre-departure standby azithromycin prescriptions and active TD treatment via video visit for adults in {state}, following CDC Yellow Book guidelines. Red flag presentations require in-person or emergency care.",
+    "primaryIcd10": "A09",
+    "anatomy": "Small intestine and large intestine (enteric mucosa), gut microbiome, immune response to enteric pathogens (ETEC, Campylobacter, Shigella, Salmonella)",
+    "symptoms": [
+      "Loose or watery stools (3 or more per 24 hours for moderate-severe)",
+      "Abdominal cramping and urgency",
+      "Nausea and vomiting",
+      "Low-grade fever (in some cases)",
+      "Tenesmus (feeling of incomplete evacuation)",
+      "Fatigue and malaise"
+    ],
+    "riskFactors": [
+      "Travel to South or Southeast Asia (highest fluoroquinolone-resistant Campylobacter risk)",
+      "Travel to sub-Saharan Africa",
+      "Travel to Central or South America",
+      "Rural accommodation or street food consumption",
+      "Proton pump inhibitor use (reduced gastric acid defense)",
+      "Immunosuppression",
+      "Lack of food and water safety precautions"
+    ],
+    "complications": [
+      "Severe dehydration (rare in otherwise healthy adults, serious in elderly and immunocompromised)",
+      "Hemolytic uremic syndrome (rare, from Shiga-toxin E. coli — bloody diarrhea)",
+      "Post-infectious irritable bowel syndrome (PI-IBS) in 3 to 17% of cases",
+      "Reactive arthritis (post-Campylobacter, post-Shigella)",
+      "Colonization with ESBL-producing bacteria from antibiotic exposure"
+    ],
+    "epidemiology": "30 to 70% attack rate per 2-week stay in high-risk destinations including South Asia, Southeast Asia, sub-Saharan Africa, Central and South America, and the Middle East (CDC Yellow Book). Most common travel illness globally.",
+    "drugs": [
+      {
+        "name": "Azithromycin 1,000 mg single dose or 500 mg × 3 days",
+        "id": "azithromycin"
+      },
+      {
+        "name": "Loperamide (Imodium) — antimotility adjunct",
+        "id": "loperamide"
+      },
+      {
+        "name": "Bismuth subsalicylate (prevention) — OTC",
+        "id": "bismuth-subsalicylate"
+      }
+    ],
+    "treatments": [
+      "Oral rehydration therapy (cornerstone of all TD treatment)",
+      "Azithromycin 1,000 mg single dose OR 500 mg × 3 days for moderate-to-severe TD",
+      "Loperamide 4 mg initial dose, 2 mg after each loose stool (adjunct, not solo for bloody/febrile diarrhea)",
+      "Bismuth subsalicylate for prevention (2 tabs 4× daily; approximately 50% reduction in TD incidence)",
+      "Food and water safety precautions: boil, cook, peel, or bottled"
+    ],
+    "tests": [
+      "Clinical severity assessment (mild / moderate / severe per CDC criteria)",
+      "Red flag screening (bloody stool, fever, dehydration, altered mental status)",
+      "Stool O&P for persistent diarrhea over 14 days (in-person, not via telehealth)",
+      "Stool culture for complicated dysentery (in-person)"
+    ],
+    "specialties": [
+      "Travel Medicine",
+      "Infectious Disease",
+      "Family Medicine",
+      "Gastroenterology (for persistent TD)",
+      "Telemedicine"
+    ],
+    "guidelines": [
+      {
+        "name": "CDC Yellow Book 2024: Travelers' Diarrhea",
+        "url": "https://www.cdc.gov/yellow-book/hcp/preparing-international-travelers/travelers-diarrhea.html",
+        "publisher": "Centers for Disease Control and Prevention",
+        "id": "cdc-yellow-book-td"
+      }
+    ],
+    "knowsAbout": [
+      "Traveler's diarrhea treatment",
+      "Azithromycin standby prescription",
+      "Fluoroquinolone-resistant Campylobacter",
+      "Loperamide adjunct therapy",
+      "Oral rehydration therapy",
+      "Bismuth subsalicylate prevention",
+      "Food and water safety",
+      "TD red flag recognition",
+      "Pre-departure standby antibiotic prescribing",
+      "Travel medicine",
+      "Telehealth triage for travel illness"
+    ],
+    "serviceDescription": "Secure video visit for {state} adults planning travel to high-risk destinations or managing an active TD episode, including standby azithromycin prescription, loperamide adjunct, oral rehydration guidance, red flag counseling, and prevention education.",
+    "webpageDescription": "{state} traveler's diarrhea treatment by secure MD video visit for adults. Standby azithromycin (1,000 mg single dose or 500 mg × 3 days) prescription for self-treatment, loperamide adjunct, CDC-guided severity-based protocol, and red flag thresholds for in-person or emergency care."
+  },
+  "guidelineSource": "cdc",
+  "conditionType": "treatment"
+}

@@ -83,7 +83,7 @@ const CONDITION_CATEGORIES = [
   },
   {
     name: 'Travel Medicine',
-    conditions: ['Travel Medicine', 'Altitude Sickness', 'Motion Sickness'],
+    conditions: ['Travel Medicine', 'Altitude Sickness', 'Malaria Prophylaxis', "Traveler's Diarrhea", 'Motion Sickness'],
   },
 ];
 
@@ -186,6 +186,8 @@ const CONDITION_SLUGS = {
   'Motion Sickness': '/motion-sickness-treatment-online',
   'Travel Medicine': '/travel-medicine-treatment-online',
   'Altitude Sickness': '/altitude-sickness-treatment-online',
+  'Malaria Prophylaxis': '/malaria-prophylaxis-treatment-online',
+  "Traveler's Diarrhea": '/travelers-diarrhea-treatment-online',
 };
 
 const WHY_FEATURES = [

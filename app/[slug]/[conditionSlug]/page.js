@@ -179,6 +179,8 @@ export async function generateMetadata({ params }) {
   const NATIONAL_ONLY_CONDITIONS = new Set([
     'travel-medicine-treatment-online',
     'altitude-sickness-treatment-online',
+    'malaria-prophylaxis-treatment-online',
+    'travelers-diarrhea-treatment-online',
   ]);
   if (NATIONAL_ONLY_CONDITIONS.has(conditionSlug)) {
     const nationalUrl = `${baseUrl}/${conditionSlug}`;
