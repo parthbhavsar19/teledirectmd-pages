@@ -30,6 +30,7 @@ const FILTERS = [
   { label: 'Infectious Disease', value: 'infectious-disease' },
   { label: 'Wellness', value: 'wellness' },
   { label: 'Safety', value: 'safety' },
+  { label: 'Healthcare Costs', value: 'healthcare-costs' },
 ];
 
 // Sort options
@@ -630,7 +631,7 @@ export default function MediaMentionsClient() {
           <p className="tdmd-media__kicker">Press &amp; Editorial Coverage</p>
           <h1>TeleDirectMD in the Media</h1>
           <p className="tdmd-media__lede">
-            Dr.&nbsp;Parth Bhavsar, board-certified family medicine physician and founder of TeleDirectMD, has been quoted in <strong>26+ major national and international publications</strong> including TIME, Newsweek, British GQ, HuffPost, FOX News Digital, New York Post, Daily Mail, U.S.&nbsp;News &amp; World Report, Healthline, and Yahoo Health — providing expert commentary on evidence-based wellness, nutrition science, infectious disease, and medication safety.
+            Dr.&nbsp;Parth Bhavsar, board-certified family medicine physician and founder of TeleDirectMD, has been quoted in <strong>27+ major national and international publications</strong> including TIME, Newsweek, British GQ, HuffPost, FOX News Digital, New York Post, Daily Mail, U.S.&nbsp;News &amp; World Report, Healthline, and Yahoo Health — providing expert commentary on evidence-based wellness, nutrition science, infectious disease, and medication safety.
           </p>
         </section>
 

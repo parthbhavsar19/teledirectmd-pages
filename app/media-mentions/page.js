@@ -3,12 +3,12 @@ import MediaMentionsClient from './MediaMentionsClient';
 export const metadata = {
   title: 'Media Mentions | TeleDirectMD Expert Coverage & Press',
   description:
-    'TeleDirectMD physicians are quoted and featured in TIME, Newsweek, British GQ, HuffPost, FOX News Digital, Healthline, and 10+ other major outlets. Browse 26 expert media appearances across nutrition, wellness, infectious disease, and safety.',
+    'TeleDirectMD physicians are quoted and featured in TIME, Newsweek, British GQ, HuffPost, FOX News Digital, Healthline, and 10+ other major outlets. Browse 27 expert media appearances across nutrition, wellness, infectious disease, and safety.',
   alternates: { canonical: 'https://teledirectmd.com/media-mentions' },
   openGraph: {
     title: 'Media Mentions | TeleDirectMD Expert Coverage & Press',
     description:
-      'Expert physician commentary from TeleDirectMD featured in TIME, Newsweek, British GQ, and 15 other major health and lifestyle publications.',
+      'Expert physician commentary from TeleDirectMD featured in TIME, Newsweek, British GQ, and 16 other major health and lifestyle publications.',
     url: 'https://teledirectmd.com/media-mentions',
     siteName: 'TeleDirectMD',
     type: 'website',
@@ -25,7 +25,7 @@ const jsonLd = {
       url: 'https://teledirectmd.com/media-mentions',
       name: 'TeleDirectMD in the Media | Press & Editorial Coverage',
       description:
-        'TeleDirectMD physicians are trusted expert sources in national health journalism, featured in 26 articles across TIME, Newsweek, British GQ, and 15 other major outlets.',
+        'TeleDirectMD physicians are trusted expert sources in national health journalism, featured in 27 articles across TIME, Newsweek, British GQ, and 16 other major outlets.',
       inLanguage: 'en-US',
       isPartOf: {
         '@type': 'WebSite',
@@ -41,6 +41,13 @@ const jsonLd = {
           'TeleDirectMD is a physician-led telehealth service providing direct access to board-certified doctors via video visit.',
       },
       hasPart: [
+        {
+          '@type': 'NewsArticle',
+          headline: 'Rising Healthcare Costs Don\u2019t Have to Derail Your Budget After 50',
+          datePublished: '2026-06-11',
+          publisher: { '@type': 'Organization', name: 'Atlanta Journal-Constitution' },
+          url: 'https://www.ajc.com/wellness/2026/06/rising-healthcare-costs-dont-have-to-derail-your-budget-after-50/',
+        },
         {
           '@type': 'NewsArticle',
           headline: 'When \u201cPicky Eating\u201d Is Actually Digestive Pain',
