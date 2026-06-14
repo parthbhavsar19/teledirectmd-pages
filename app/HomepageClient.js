@@ -110,16 +110,25 @@ const REVIEWS = [
   { text: "I had a great experience with Dr. Parth Bhavsar. He was really helpful, understanding, and made the whole process super easy. I got my prescription quickly and felt well taken care of.", author: 'Verified Patient', source: 'Google' },
 ];
 
-/* 8 logos — matches live teledirectmd.com exactly */
+/* 17 logos — all outlets with self-hosted logos, links to /media-mentions for full coverage */
 const MEDIA_OUTLETS = [
+  { name: 'TIME', logo: '/logos/time.png', href: '/media-mentions' },
+  { name: 'Newsweek', logo: '/logos/newsweek.png', href: '/media-mentions' },
   { name: 'HuffPost', logo: '/logos/huffpost.jpg', href: '/media-mentions' },
-  { name: 'Newsweek', logo: '/logos/newsweek.png', href: 'https://www.newsweek.com/woman-drinks-matcha-every-week-shock-ends-hospital-2127630' },
-  { name: 'TIME', logo: '/logos/time.png', href: 'https://time.com/7331761/cold-shower-benefits-health/' },
-  { name: 'U.S. News', logo: '/logos/usnews.png', href: 'https://health.usnews.com/wellness/articles/should-i-use-collagen-supplements' },
-  { name: 'New York Post', logo: '/logos/nypost.png', href: 'https://nypost.com/2025/11/01/lifestyle/bananas-may-be-making-your-smoothies-less-effective-scientists-say/' },
-  { name: 'Fox News', logo: '/logos/fox.png', href: 'https://www.foxnews.com/food-drink/bananas-may-sabotaging-your-smoothies-superpowers-scientists-warn' },
-  { name: 'Healthline', logo: '/logos/healthline.png', href: 'https://www.healthline.com/health-news/amy-sedaris-talks-brain-health' },
-  { name: 'Daily Mail', logo: '/logos/dailymail.png', href: 'https://www.newsweek.com/woman-drinks-matcha-every-week-shock-ends-hospital-2127630' },
+  { name: 'U.S. News', logo: '/logos/usnews.png', href: '/media-mentions' },
+  { name: 'British GQ', logo: '/logos/gq.jpg', href: '/media-mentions' },
+  { name: 'Atlanta Journal-Constitution', logo: '/logos/ajc.svg', href: '/media-mentions' },
+  { name: 'New York Post', logo: '/logos/nypost.png', href: '/media-mentions' },
+  { name: 'Fox News', logo: '/logos/fox.png', href: '/media-mentions' },
+  { name: 'Daily Mail', logo: '/logos/dailymail.png', href: '/media-mentions' },
+  { name: 'Healthline', logo: '/logos/healthline.png', href: '/media-mentions' },
+  { name: 'Yahoo Health', logo: '/logos/yahoo.png', href: '/media-mentions' },
+  { name: "Woman's World", logo: '/logos/womansworld.png', href: '/media-mentions' },
+  { name: 'EatingWell', logo: '/logos/eatingwell.jpg', href: '/media-mentions' },
+  { name: 'Everyday Health', logo: '/logos/everydayhealth.png', href: '/media-mentions' },
+  { name: 'Parade', logo: '/logos/parade.png', href: '/media-mentions' },
+  { name: "Men's Journal", logo: '/logos/mensjournal.png', href: '/media-mentions' },
+  { name: 'SHEfinds', logo: '/logos/shefinds.png', href: '/media-mentions' },
 ];
 
 /* Condition name → URL slug mapping (from live site) */

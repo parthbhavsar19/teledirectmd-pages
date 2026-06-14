@@ -6,6 +6,7 @@ import { WhatDoesThisCostBlock, CompareTeleDirectMDLinkRow, CommonSymptomsBlock 
 import { CitableSummaryBlock } from '../../components/CitableSummary';
 import FaqAccordion from '../../components/FaqAccordion';
 import { FlCredentialBlock, FlFooterCompliance } from '../../components/FlCompliance';
+import PressStrip from '../../components/PressStrip';
 import CaUtiTreatmentOnline from './CaUtiTreatmentOnline';
 import CaYeastInfectionTreatmentOnline from './CaYeastInfectionTreatmentOnline';
 import CaBvTreatmentOnline from './CaBvTreatmentOnline';
@@ -1277,6 +1278,9 @@ export default async function ConditionPage({ params }) {
           </div>
         </div>
       </section>
+
+      {/* 21b) As Featured In — press trust signal above cost/compare blocks */}
+      <PressStrip variant="full" />
 
       {/* 22) What does this cost? — links to /cost/ pages from PR 4 */}
       <WhatDoesThisCostBlock conditionSlug={conditionSlug} conditionName={condition.conditionName} stateName={state.name} />
