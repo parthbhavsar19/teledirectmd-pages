@@ -1,4 +1,4 @@
-import { getStates, getConditionSlugs, getCondition, getStateBySlug, resolveConditionForState } from '../../../lib/get-data';
+import { getStates, getConditionSlugs, getCondition, getStateBySlug, resolveConditionForState, resolveConditionNational } from '../../../lib/get-data';
 import { generateJsonLd } from '../../../lib/json-ld';
 import { getStateInsurance, getActiveInsurers, getPendingInsurers, hasInlineInsuranceSection } from '../../../lib/insurance-data';
 import { getInsuranceLinksForConditionState } from '../../../lib/internal-links';
@@ -169,6 +169,27 @@ export async function generateMetadata({ params }) {
       },
       twitter: { card: 'summary_large_image', title: caTitle, description: caDescription, images: [`${baseUrl}/assets/social/tdmd-ca-uti-treatment-online-og.png`] },
       alternates: { canonical: pageUrl },
+    };
+  }
+
+  // NATIONAL-ONLY conditions (2026-06-14): travel-medicine and altitude-sickness have a single
+  // canonical national page and no per-state clinical differentiation. State-prefixed variants
+  // still render for direct/legacy links, but are marked noindex with a canonical to the national
+  // page so they can never enter Google's index as near-duplicates (May 2026 deindex guard).
+  const NATIONAL_ONLY_CONDITIONS = new Set([
+    'travel-medicine-treatment-online',
+    'altitude-sickness-treatment-online',
+  ]);
+  if (NATIONAL_ONLY_CONDITIONS.has(conditionSlug)) {
+    const nationalUrl = `${baseUrl}/${conditionSlug}`;
+    const rawC = getCondition(conditionSlug);
+    const cNat = resolveConditionNational(rawC);
+    return {
+      title: cNat.pageTitle,
+      description: cNat.metaDescription,
+      robots: { index: false, follow: true },
+      authors: [{ name: 'Parth Bhavsar, MD' }],
+      alternates: { canonical: nationalUrl },
     };
   }
 

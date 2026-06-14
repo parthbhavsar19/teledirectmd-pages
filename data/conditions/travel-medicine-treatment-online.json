@@ -1,0 +1,887 @@
+{
+  "conditionName": "Travel Medicine Treatment Online",
+  "conditionShort": "Travel Medicine",
+  "conditionSlug": "travel-medicine-treatment-online",
+  "pageTitle": "Travel Medicine Online in {state} | Malaria, TD & Altitude Prescriptions | TeleDirectMD",
+  "metaDescription": "Complete pre-travel medicine consultation by MD video visit in {state}. Malaria prophylaxis (Malarone, doxycycline), traveler's diarrhea standby (azithromycin), altitude sickness prevention (acetazolamide), and motion sickness prescriptions. Self pay option starting at $79. Insurance is not required. Adults 18+ only.",
+  "ogImageAlt": "Travel medicine consultation and prescription online in {state} by TeleDirectMD",
+  "hero": {
+    "h1": "Travel Medicine Online in {state} — Pre-Travel Prescriptions for Malaria, Traveler's Diarrhea, Altitude Sickness, and Motion Sickness",
+    "subtitle": "{state} adult care by secure video visit, self pay option starting at $79, MD-only, insurance is not required.",
+    "introParagraph": "Pre-travel medicine is among the highest-value preventive medicine consultations available — a single telehealth visit before your departure can prevent illnesses that would otherwise ruin your trip, require emergency evacuation, or cause serious long-term harm. TeleDirectMD's travel formulary covers four core categories of travel-related illness that are amenable to pharmacological prevention or standby treatment: malaria prophylaxis for travel to chloroquine-resistant regions; traveler's diarrhea (TD) standby therapy; altitude sickness (acute mountain sickness) prevention; and motion sickness prevention. Each of these categories involves distinct disease mechanisms, different drugs, different contraindications, and different clinical decision points — making a physician-led evaluation essential for selecting the right regimen. For malaria prophylaxis, the front-line options are atovaquone-proguanil (Malarone) and doxycycline, selected based on the destination, trip duration, tolerance, and contraindications. For traveler's diarrhea, azithromycin is the preferred standby antibiotic for most destinations, particularly South and Southeast Asia where fluoroquinolone-resistant Campylobacter is prevalent. For altitude sickness, acetazolamide (Diamox) at 125 mg twice daily is the only FDA-approved prophylaxis for acute mountain sickness. For motion sickness during sea, air, or ground transit, the scopolamine transdermal patch or meclizine can prevent symptoms before they start. TeleDirectMD does not administer vaccines (yellow fever requires a designated vaccination center) and does not prescribe controlled substances. No payer/insurance claims are made for travel medicine — this is a self-pay, cash-pay service. This page is for adults located in {state}, including {cities}.",
+    "tocLinks": [
+      {
+        "href": "eligibility-checklist",
+        "label": "Eligibility checklist"
+      },
+      {
+        "href": "decision-guide",
+        "label": "Decision guide"
+      },
+      {
+        "href": "treatment-options",
+        "label": "Treatment options"
+      },
+      {
+        "href": "faq",
+        "label": "FAQs"
+      },
+      {
+        "href": "references",
+        "label": "References"
+      }
+    ],
+    "benefits": [
+      "Self pay option starting at $79",
+      "MD-only care (no mid-levels)",
+      "Insurance is not required",
+      "Licensed telehealth care for patients located in {state} at the time of the visit"
+    ],
+    "sideCard": {
+      "h2": "Online MD-Only Travel Medicine in {state}",
+      "features": [
+        "Malaria prophylaxis prescriptions: Malarone (atovaquone-proguanil) and doxycycline",
+        "Traveler's diarrhea standby: azithromycin",
+        "Altitude sickness prevention: acetazolamide (Diamox)",
+        "Motion sickness prevention: scopolamine patch or meclizine",
+        "Destination-based risk assessment and combined travel formulary"
+      ],
+      "note": "Adults 18+ only. TeleDirectMD is not an emergency service. No vaccines administered — yellow fever and other required vaccines must be obtained at an authorized vaccination center. No controlled substances prescribed. No primaquine or tafenoquine (require G6PD testing, refer to in-person travel clinic). Do not use if you have emergency symptoms requiring immediate care."
+    },
+    "icd10Display": "Z29.9 (encounter for prophylactic measures) / A09 / T70.29 (final coding depends on clinical details)"
+  },
+  "eligibility": {
+    "sectionTitle": "Travel Medicine Telehealth Eligibility Checklist for {state}",
+    "introText": "You are likely eligible for a TeleDirectMD travel medicine video visit if ALL of these are true:",
+    "eligible": [
+      "You are 18 years old or older",
+      "You are physically located in {state} at the time of the visit",
+      "You are planning international or high-altitude domestic travel and need pre-travel prescriptions",
+      "You need one or more of: malaria prophylaxis (Malarone or doxycycline), traveler's diarrhea standby (azithromycin), altitude sickness prevention (acetazolamide), or motion sickness prevention (scopolamine or meclizine)",
+      "You do not need yellow fever or other required vaccines (vaccine administration requires an authorized vaccination center)",
+      "You do not need primaquine or tafenoquine (these require quantitative G6PD enzyme testing at an in-person lab)",
+      "Insurance is not required. A self pay option is available."
+    ],
+    "notEligible": [
+      "You are under 18 years old",
+      "You are pregnant and need malaria prophylaxis — doxycycline is contraindicated in pregnancy; Malarone requires careful risk-benefit discussion",
+      "You are traveling to a P. vivax or P. ovale endemic region and require primaquine or tafenoquine for radical cure (G6PD testing required — refer to in-person travel clinic)",
+      "You have a history of serious psychoneurological adverse events to mefloquine",
+      "You require yellow fever, typhoid, Japanese encephalitis, rabies, or other travel vaccines — these require an authorized vaccination center",
+      "You have active severe illness requiring emergency care"
+    ],
+    "notEligibleDisclaimer": "If you need yellow fever vaccine, international certificate of vaccination, or G6PD testing for primaquine eligibility, you must visit an in-person travel clinic or health department vaccination center. TeleDirectMD is not a vaccination clinic."
+  },
+  "howItWorks": {
+    "sectionTitle": "How Online Travel Medicine Works in {state}",
+    "steps": [
+      {
+        "type": "check",
+        "title": "Book your video visit",
+        "description": "Insurance is not required. No referral needed. Same-day appointments are often available. Before your visit, prepare your travel itinerary including all destinations, planned departure date, duration of each stay, planned activities (rural/jungle vs urban), accommodations (air-conditioned hotel vs camping), and prior travel medicine history. Also gather your current medication list, known drug allergies, kidney and liver function history, and any history of G6PD deficiency. Book at least 1 to 2 weeks before departure when possible — some malaria prophylaxis regimens need to begin before you leave."
+      },
+      {
+        "type": "check",
+        "title": "See a {state} licensed MD by video",
+        "description": "Your physician performs a destination-based risk assessment using CDC Yellow Book and current CDC malaria destination tables. Malaria drug selection depends on whether the destination has chloroquine-resistant Plasmodium falciparum (the vast majority of sub-Saharan Africa, most of Southeast Asia and South Asia), P. vivax, or low-risk areas. The visit covers malaria drug selection and tolerability, traveler's diarrhea risk and azithromycin standby therapy, altitude illness risk if applicable, and motion sickness prevention if applicable. The physician selects a combined formulary tailored to your specific itinerary and health history."
+      },
+      {
+        "type": "good",
+        "title": "Get your complete travel prescription bundle and instructions",
+        "description": "If medications are clinically appropriate, we send e-prescriptions to common {state} pharmacies such as {pharmacies}. You receive written instructions for each medication: when to start Malarone or doxycycline before departure, how long to continue after return, azithromycin standby dosing thresholds, acetazolamide start timing and altitude protocol, and motion sickness patch application timing. We also provide clear criteria for when to seek emergency care while traveling.",
+        "showCta": true
+      }
+    ]
+  },
+  "telehealthRegulations": {
+    "sectionTitle": "{state} Telehealth Regulations for Online Travel Medicine",
+    "paragraphs": [
+      "{telehealthRegulation}",
+      "Location matters: you must be physically in {state} during the visit. Insurance is not required. TeleDirectMD does not prescribe controlled substances and does not administer vaccines. All prescriptions issued are non-controlled medications within our telehealth formulary."
+    ]
+  },
+  "comparisonTable": {
+    "sectionTitle": "TeleDirectMD vs Other Care Options for Pre-Travel Medicine in {state}",
+    "intro": "Here is how TeleDirectMD compares to common settings for pre-travel medicine care in {state}:",
+    "rows": [
+      {
+        "option": "TeleDirectMD",
+        "cost": "Self pay option starting at $79",
+        "wait": "Same day, often within hours",
+        "provider": "Board-certified MD only (no mid-levels)",
+        "bestFor": "Prescription-only travel formulary: malaria prophylaxis (Malarone/doxycycline), TD standby (azithromycin), altitude prevention (acetazolamide), motion sickness prevention — no vaccines needed",
+        "highlight": true
+      },
+      {
+        "option": "In-Person Travel Clinic",
+        "cost": "$150 to $500+ (consultation + vaccines)",
+        "wait": "Days to weeks for appointment",
+        "provider": "Travel medicine specialist MD",
+        "bestFor": "Full-service pre-travel care including yellow fever and other required vaccines, G6PD testing for primaquine, complex multi-country itineraries, mefloquine counseling, and emergency medication kits",
+        "highlight": false
+      },
+      {
+        "option": "Primary Care",
+        "cost": "$100 to $250+ (varies)",
+        "wait": "3 to 14 days typical",
+        "provider": "Family medicine or internal medicine MD or DO",
+        "bestFor": "Patients with established primary care relationships; availability of travel medicine expertise varies significantly",
+        "highlight": false
+      },
+      {
+        "option": "Urgent Care",
+        "cost": "$150 to $300+ (before insurance)",
+        "wait": "1 to 3 hours typical",
+        "provider": "MD, DO, PA, or NP",
+        "bestFor": "Acute illness treatment after return from travel, not typically optimized for pre-travel prophylaxis formulary selection",
+        "highlight": false
+      },
+      {
+        "option": "Pharmacy Travel Health",
+        "cost": "Varies",
+        "wait": "Walk-in available at some locations",
+        "provider": "Pharmacist (some states allow pharmacist prescribing)",
+        "bestFor": "Hepatitis A and typhoid vaccines at some pharmacy locations; limited scope for complex malaria drug selection",
+        "highlight": false
+      }
+    ],
+    "bottomLine": "TeleDirectMD fills the gap between pharmacy walk-ins (vaccine-only) and full travel clinics (multi-week waits): a physician-led destination-based risk assessment with a complete non-vaccine prescription formulary, available same day."
+  },
+  "decisionGuide": {
+    "sectionTitle": "Should I Use TeleDirectMD for Travel Medicine in {state}? Decision Guide",
+    "steps": [
+      {
+        "type": "urgent",
+        "title": "Do you have any emergency symptoms right now?",
+        "items": [
+          "Fever above 38.5°C (101.3°F) with recent return from malaria-endemic region — seek emergency care immediately",
+          "Severe diarrhea with blood, high fever, or signs of dehydration requiring IV fluids",
+          "Confusion, altered consciousness, or seizure (could indicate cerebral malaria)",
+          "Difficulty breathing or chest pain",
+          "Jaundice with fever after travel to a malaria zone"
+        ],
+        "yesAction": "If yes, seek emergency care immediately — do not use telehealth for suspected active malaria",
+        "noAction": "If no, continue to Step 2"
+      },
+      {
+        "type": "check",
+        "title": "Are you 18+ and currently in {state}?",
+        "items": [],
+        "yesAction": "If yes, continue to Step 3",
+        "noAction": "If no, use in-person care as appropriate"
+      },
+      {
+        "type": "check",
+        "title": "What type of travel care do you need?",
+        "items": [
+          "Malaria prophylaxis for travel to Africa, Southeast Asia, South Asia, or Latin America",
+          "Traveler's diarrhea standby antibiotic (azithromycin) for high-risk destinations",
+          "Altitude sickness prevention (acetazolamide) for Cusco, La Paz, or Colorado mountains",
+          "Motion sickness prevention for sea, air, or ground travel",
+          "A combination of the above in one visit"
+        ],
+        "yesAction": "If yes to one or more, continue to Step 4",
+        "noAction": "If you need yellow fever vaccine, G6PD testing, or primaquine — you need an in-person travel clinic"
+      },
+      {
+        "type": "check",
+        "title": "Do you have any key contraindications for the medications you need?",
+        "items": [
+          "Pregnancy or breastfeeding (doxycycline contraindicated; Malarone risk-benefit discussion needed)",
+          "Age under 8 (doxycycline contraindicated in young children — adults only at TeleDirectMD)",
+          "Sulfa allergy (acetazolamide contraindication)",
+          "History of psychoneurological adverse events to mefloquine (case-by-case with full disclosure)",
+          "Severe kidney or liver disease (affects Malarone and acetazolamide dosing)"
+        ],
+        "yesAction": "Disclose during your visit — alternatives may be available or referral to in-person clinic may be appropriate",
+        "noAction": "If no, continue to Step 5"
+      },
+      {
+        "type": "good",
+        "title": "You are likely appropriate for a TeleDirectMD travel medicine video visit",
+        "description": "TeleDirectMD can perform a destination-based risk assessment, select the appropriate malaria prophylaxis regimen, prescribe azithromycin for TD standby, prescribe acetazolamide if altitude travel is planned, add motion sickness prevention if needed, and provide written travel instructions covering all prescribed medications. If your itinerary requires vaccines or medications outside our formulary, we will direct you to an in-person travel clinic.",
+        "items": [],
+        "showCta": true
+      }
+    ]
+  },
+  "pricing": {
+    "sectionTitle": "What Does Online Travel Medicine Cost in {state}?",
+    "subtitle": "Transparent options. Insurance is not required.",
+    "visitPrice": "$79",
+    "priceSubtext": "Self pay option. Insurance is not required.",
+    "includes": [
+      "MD-led destination-based risk assessment covering your full itinerary",
+      "Malaria prophylaxis selection and prescription (Malarone or doxycycline) if appropriate",
+      "Traveler's diarrhea standby antibiotic prescription (azithromycin) if appropriate",
+      "Altitude sickness prevention prescription (acetazolamide) if altitude travel is planned",
+      "Motion sickness prevention prescription (scopolamine or meclizine) if needed",
+      "Written travel instructions and medication timing guide for all prescribed medications"
+    ],
+    "comparisonBars": [
+      {
+        "name": "TeleDirectMD",
+        "value": "$79",
+        "width": 20,
+        "isTdmd": true
+      },
+      {
+        "name": "Primary Care",
+        "value": "$100 to $250+",
+        "width": 45,
+        "isTdmd": false
+      },
+      {
+        "name": "In-Person Travel Clinic",
+        "value": "$150 to $500+",
+        "width": 65,
+        "isTdmd": false
+      },
+      {
+        "name": "Emergency Room",
+        "value": "$500 to $3,000+",
+        "width": 100,
+        "isTdmd": false
+      }
+    ],
+    "footnote": "Prescription costs at your pharmacy are separate and vary by medication. Malaria prophylaxis, azithromycin, and acetazolamide are available as generics at US pharmacies. TeleDirectMD does not administer vaccines.",
+    "noHiddenFees": "No hidden fees. One flat visit fee covers the full pre-travel consultation regardless of how many medications are discussed. If any medication is not clinically appropriate, you still receive a complete evaluation and guidance."
+  },
+  "whatIsCondition": {
+    "sectionTitle": "What Is Travel Medicine?",
+    "paragraphs": [
+      "Travel medicine is a preventive medicine specialty focused on protecting travelers from health risks encountered while visiting foreign countries or high-risk domestic destinations. It encompasses destination-specific risk assessment, vaccine counseling, pharmaceutical prophylaxis for infection and environmental illness, and preparation for managing common travel health problems abroad. The field is anchored by the CDC Yellow Book — Health Information for International Travel — the authoritative evidence-based reference updated biennially by the CDC Division of Global Migration Health, which provides country-specific recommendations for malaria prophylaxis, vaccine requirements, and traveler's diarrhea risk.",
+      "The scope of TeleDirectMD's travel medicine service covers four core areas of pharmacological prevention and standby treatment that do not require physical examination or vaccine administration: (1) malaria chemoprophylaxis using oral non-controlled prescription medications; (2) traveler's diarrhea standby antibiotic therapy for use when self-limited diarrhea progresses to febrile or bloody illness; (3) acute mountain sickness prevention using acetazolamide for moderate-altitude destinations; and (4) motion sickness prevention using transdermal or oral medications for sea, air, or ground transit. Together, these four interventions address the most common and most preventable travel-associated illnesses that a healthy adult traveler is likely to encounter.",
+      "Important scope boundaries: TeleDirectMD does not administer vaccines, does not prescribe yellow fever vaccination certificates, does not prescribe primaquine or tafenoquine (which require G6PD enzyme testing), does not manage active malaria or tropical infections, and does not prescribe controlled substances. Travelers with complex itineraries, multiple endemic-region destinations, or medical conditions requiring detailed cardiac or pulmonary clearance should also consult an in-person travel medicine specialist."
+    ]
+  },
+  "causesAndRiskFactors": {
+    "sectionTitle": "Travel Health Risks by Destination Category",
+    "intro": "Travel medicine risk varies substantially by destination, type of travel, activities, and accommodations. The following destination categories cover the most common risk profiles encountered in TeleDirectMD's travel formulary.",
+    "items": [
+      {
+        "label": "Sub-Saharan Africa:",
+        "text": "highest malaria risk worldwide, predominantly chloroquine-resistant Plasmodium falciparum; front-line prophylaxis is atovaquone-proguanil (Malarone) or doxycycline; mefloquine is an alternative with weekly dosing and neuropsychiatric boxed warning; TD risk is high throughout rural Africa; yellow fever vaccination is required for entry in many countries (must be obtained at a vaccination center)"
+      },
+      {
+        "label": "South Asia (India, Nepal, Bangladesh, Sri Lanka):",
+        "text": "chloroquine-resistant P. falciparum and P. vivax malaria in most areas outside urban centers; Malarone or doxycycline for prophylaxis; highest rates of fluoroquinolone-resistant Campylobacter jejuni, making azithromycin the preferred TD standby antibiotic over ciprofloxacin; altitude illness risk significant in Nepal Himalayan trekking routes (Everest, Annapurna) — acetazolamide appropriate for trekking itineraries"
+      },
+      {
+        "label": "Southeast Asia (Thailand, Vietnam, Cambodia, Indonesia, Philippines):",
+        "text": "malaria risk is lower in urban tourist areas of Thailand and Vietnam but present in rural and forested areas; doxycycline is preferred over Malarone in regions with possible multi-drug resistance (Thai-Myanmar and Thai-Cambodia borders); high TD risk; dengue risk in urban areas is not preventable by prophylaxis; check country-specific CDC malaria maps for exact risk areas"
+      },
+      {
+        "label": "Latin America (Peru, Bolivia, Ecuador, Colombia, Brazil):",
+        "text": "malaria present in Amazon basin and rural lowland areas; most of Peru outside the Amazon (including Cusco, Lima, and Machu Picchu) is malaria-free but has significant altitude illness risk; atovaquone-proguanil or doxycycline for Amazon travel; acetazolamide for high-altitude destinations including Cusco (~3,400 m), La Paz (~3,600 m), and Quito (~2,850 m); TD risk is high throughout the region"
+      },
+      {
+        "label": "High-altitude domestic and international destinations:",
+        "text": "altitude illness risk at ski resorts and mountain towns above 2,500 m, including Breckenridge, Aspen, and Vail in Colorado; acetazolamide 125 mg BID starting 24 hours before ascent is the evidence-based prophylaxis for adults with prior AMS history or rapid ascent itineraries; see the dedicated altitude sickness page for full detail"
+      },
+      {
+        "label": "Cruise and sea travel:",
+        "text": "motion sickness is a primary concern during ocean crossings and river cruises; norovirus and foodborne illness are risks on cruise ships; TD standby may be appropriate for cruise itineraries with port stops in high-risk regions; scopolamine patch is the first-line motion sickness prevention for extended sea travel"
+      }
+    ],
+    "closing": "A physician-led destination-based risk assessment is the most important step in pre-travel health planning. The right medication selection depends on your specific destinations, itinerary details, medical history, and tolerability — not generic destination categories alone."
+  },
+  "symptomsAndRedFlags": {
+    "sectionTitle": "Travel Health Symptoms and Red Flags",
+    "intro": "This table covers both pre-travel decision-making and post-travel symptom recognition. TeleDirectMD is a pre-travel prescription service; travelers with febrile illness after return from a malaria zone must seek emergency evaluation, not telehealth.",
+    "headers": [
+      "Symptom or situation",
+      "What it suggests",
+      "Telehealth appropriate?",
+      "Red flag requiring urgent in-person care"
+    ],
+    "rows": [
+      [
+        "Planning travel to a malaria-endemic region (Africa, South Asia, Southeast Asia, Amazon basin)",
+        "Pre-travel malaria prophylaxis indication",
+        "Yes — pre-travel Malarone or doxycycline prescription",
+        "Not a current symptom; book visit 2 weeks before departure"
+      ],
+      [
+        "Fever above 38.5°C within 3 months of return from sub-Saharan Africa or any malaria zone",
+        "Malaria must be ruled out immediately",
+        "No — seek emergency evaluation now",
+        "Blood smear and RDT malaria testing required; falciparum malaria can be fatal within 24–48 hours"
+      ],
+      [
+        "Diarrhea more than 3 loose stools per day with fever, bloody stool, or severe cramping while traveling",
+        "Complicated traveler's diarrhea: possible bacterial infection (Campylobacter, Salmonella, Shigella, ETEC)",
+        "Standby azithromycin appropriate if diagnosed before departure; active complicated TD may need in-person evaluation",
+        "Bloody diarrhea with high fever or signs of dehydration: seek local emergency care while traveling"
+      ],
+      [
+        "Watery diarrhea while traveling in South or Southeast Asia, without fever",
+        "Simple traveler's diarrhea — most commonly ETEC or Norovirus",
+        "Standby azithromycin appropriate; oral rehydration is first line for mild TD",
+        "If unable to maintain hydration, seek local IV fluid support"
+      ],
+      [
+        "Headache, fatigue, and nausea within 24 hours of arriving in Cusco, La Paz, or other altitude destination",
+        "Acute Mountain Sickness (AMS) — Lake Louise criteria",
+        "Pre-travel acetazolamide prevention: yes. Active AMS: rest at same altitude; do not ascend",
+        "Confusion or ataxia at altitude: HACE emergency — descend immediately"
+      ],
+      [
+        "Nausea and vomiting during ocean cruise or long-haul car travel",
+        "Motion sickness",
+        "Pre-travel scopolamine or meclizine prescription: yes",
+        "Persistent vomiting with dehydration or neurological symptoms: seek in-person evaluation"
+      ],
+      [
+        "Jaundice, dark urine, and fatigue after returning from travel",
+        "Possible hepatitis A or E, malaria with hemolysis, or leptospirosis",
+        "No — seek emergency evaluation",
+        "Jaundice with fever or altered consciousness is a medical emergency"
+      ]
+    ]
+  },
+  "differentialDiagnosis": {
+    "sectionTitle": "Travel Medicine Scope: What We Prescribe vs What Requires In-Person Care",
+    "intro": "TeleDirectMD's travel formulary addresses the four most common pharmacologically preventable or treatable travel health conditions. The following framework clarifies what is and is not within our telehealth scope.",
+    "telehealthAppropriate": {
+      "title": "Within TeleDirectMD Telehealth Scope",
+      "items": [
+        "Malaria chemoprophylaxis with atovaquone-proguanil (Malarone) or doxycycline for chloroquine-resistant destinations",
+        "Traveler's diarrhea standby therapy with azithromycin for South/Southeast Asia, Africa, and Latin America",
+        "Acute mountain sickness prophylaxis with acetazolamide 125 mg BID for moderate-altitude destinations (2,500–4,000 m)",
+        "Motion sickness prevention with scopolamine transdermal patch or meclizine for sea, air, or ground travel",
+        "Mefloquine on a case-by-case basis after full neuropsychiatric risk disclosure — not first-line",
+        "Combined travel formulary addressing multiple destination risks in a single visit"
+      ]
+    },
+    "requiresInPerson": {
+      "title": "Requires In-Person Travel Clinic or Emergency Care",
+      "items": [
+        "Yellow fever vaccination and international certificate of vaccination (Carte Jaune) — requires an authorized vaccination center",
+        "Primaquine or tafenoquine for P. vivax/P. ovale radical cure — require quantitative G6PD enzyme testing at a lab",
+        "Active suspected malaria after return from an endemic region — emergency blood testing required",
+        "Typhoid, Japanese encephalitis, rabies pre-exposure, and other travel vaccines",
+        "HACE or HAPE management at altitude — immediate descent and emergency services required",
+        "Complex cardiac or pulmonary clearance before high-altitude or dive travel"
+      ]
+    },
+    "compareCards": [
+      {
+        "title": "Malarone vs Doxycycline for Malaria Prophylaxis",
+        "text": "Atovaquone-proguanil (Malarone) is taken daily starting 1 to 2 days before entering a malaria zone and for only 7 days after return, making it ideal for shorter trips and travelers who dislike extended post-trip medication. It can be taken with food to minimize nausea and is generally well tolerated. Doxycycline is taken daily starting 1 to 2 days before exposure and must be continued for 4 full weeks after leaving the malaria zone, making it more practical for longer stays. Doxycycline provides the added benefit of some activity against TD-causing bacteria. Key contraindications differ: Malarone is avoided in severe renal impairment (creatinine clearance <30 mL/min); doxycycline is contraindicated in pregnancy and children under 8. Both are effective against chloroquine-resistant P. falciparum."
+      },
+      {
+        "title": "Azithromycin vs Ciprofloxacin for Traveler's Diarrhea Standby",
+        "text": "Azithromycin (1,000 mg single dose or 500 mg daily for 3 days) is the preferred standby antibiotic for most destinations, particularly South and Southeast Asia where fluoroquinolone-resistant Campylobacter is endemic. The CDC recommends azithromycin as first-line for these regions. Ciprofloxacin (a fluoroquinolone) was historically standard but is no longer recommended for South/Southeast Asia due to resistance. For Latin America and Africa, both azithromycin and fluoroquinolones retain activity, but azithromycin provides broader coverage. Azithromycin standby is prescribed as a self-treatment resource to use if TD becomes febrile, bloody, or severe enough to interfere with travel."
+      },
+      {
+        "title": "Acetazolamide vs Graded Acclimatization Alone for Altitude",
+        "text": "Graded acclimatization — gaining no more than 300 to 500 meters of sleeping altitude per day above 2,500 m — is the non-pharmacological gold standard for AMS prevention. However, many travel itineraries do not allow for gradual ascent: travelers flying directly to Cusco (3,400 m) or La Paz (3,600 m) arrive at altitude without any acclimatization period. For these rapid-ascent itineraries, acetazolamide 125 mg BID starting 24 hours before ascent provides significant protection. The two approaches are complementary, not mutually exclusive. Travelers who do have time for gradual acclimatization but have a prior AMS history still benefit from acetazolamide prophylaxis."
+      }
+    ],
+    "closing": "If your itinerary involves destinations or conditions outside TeleDirectMD's travel formulary, we will provide clear direction to the appropriate level of in-person care rather than prescribe outside our scope."
+  },
+  "telehealthEligibility": {
+    "sectionTitle": "When Is a Travel Medicine Video Visit Appropriate?",
+    "appropriate": {
+      "title": "When a Pre-Travel Video Visit Is Appropriate",
+      "items": [
+        "Planning travel to a malaria-endemic region and need Malarone or doxycycline prophylaxis",
+        "Traveling to South/Southeast Asia, Africa, or Latin America and want azithromycin standby for TD",
+        "Planning travel to moderate-altitude destinations (2,500–4,000 m) and want acetazolamide AMS prophylaxis",
+        "Extended sea voyage or cruise and want scopolamine patch or meclizine for motion sickness prevention",
+        "Combination of two or more of the above in one visit",
+        "Located in {state} at time of visit",
+        "Adults 18+ only, no current emergency symptoms"
+      ]
+    },
+    "redFlags": {
+      "title": "Red Flags Requiring In-Person or Emergency Care",
+      "items": [
+        "Fever with recent return from a malaria zone — emergency evaluation for blood smear testing",
+        "Bloody diarrhea with high fever during or after travel — seek local emergency care",
+        "Jaundice with fever after travel — possible hepatitis, malaria, or other serious infection",
+        "Confusion or ataxia at altitude — HACE emergency; descend immediately",
+        "Severe dyspnea at rest at altitude — HAPE emergency; descend immediately",
+        "Seizure, altered consciousness, or extreme prostration after return from malaria zone — possible cerebral malaria"
+      ],
+      "disclaimer": "Malaria is a medical emergency. Fever within 3 months of return from any malaria-endemic region must be evaluated urgently with blood smear or rapid diagnostic testing, not by telehealth alone. TeleDirectMD is not appropriate for managing suspected active tropical infections."
+    }
+  },
+  "treatmentOptions": {
+    "sectionTitle": "Treatment Options in the TeleDirectMD Travel Formulary",
+    "intro": "TeleDirectMD's travel medicine evaluation covers four pillars of pharmacological prevention and standby treatment, each with distinct evidence bases and prescribing principles. All medications in our travel formulary are non-controlled prescription medications.",
+    "sections": [
+      {
+        "title": "Malaria Prophylaxis: Atovaquone-Proguanil (Malarone) — Front-Line Option",
+        "text": "Atovaquone-proguanil (brand name Malarone; generic widely available) is a fixed-dose combination tablet effective against chloroquine-resistant Plasmodium falciparum, the most dangerous malaria species and the predominant species in sub-Saharan Africa, Southeast Asia, and South Asia. The adult dose is one fixed-dose combination tablet daily, taken with food or a milky drink to improve absorption and reduce nausea. Dosing starts 1 to 2 days before entering a malaria zone and continues for 7 days after leaving the malaria zone. This short post-exposure duration (7 days vs 4 weeks for doxycycline) makes Malarone practical for shorter trips. Malarone acts on liver-stage and blood-stage parasites through the combination of atovaquone (mitochondrial electron transport inhibition) and proguanil (dihydrofolate reductase inhibition), providing a causal prophylactic effect. It does not cover liver hypnozoites of P. vivax or P. ovale. Malarone is generally well tolerated; gastrointestinal side effects (nausea, vomiting, abdominal pain) are the most common and are significantly reduced by taking with food."
+      },
+      {
+        "title": "Malaria Prophylaxis: Doxycycline — Front-Line Alternative",
+        "text": "Doxycycline is a broad-spectrum tetracycline antibiotic with well-established efficacy against Plasmodium falciparum, including chloroquine-resistant strains. The adult prophylaxis dose is 100 mg once daily, taken with food to reduce gastrointestinal side effects. Dosing begins 1 to 2 days before malaria zone entry and must continue for 4 full weeks after leaving the malaria zone — the key differentiator from Malarone. Doxycycline is preferred over Malarone for travelers to the Thai-Myanmar or Thai-Cambodia border regions where multi-drug resistance may be a concern, and for longer-term travelers where the cost of daily Malarone becomes prohibitive. Additional benefits include some protection against rickettsial diseases and leptospirosis, and partial reduction in traveler's diarrhea bacterial burden. Key contraindications: pregnancy (all trimesters — fetal tooth and bone effects), children under 8 years, and known tetracycline allergy. Photosensitivity is a common side effect — travelers should use SPF 30+ sunscreen daily. Doxycycline can reduce the efficacy of the live typhoid oral vaccine (Vivotif) — space the two apart by at least 3 days."
+      },
+      {
+        "title": "Malaria Prophylaxis: Mefloquine — Case-by-Case",
+        "text": "Mefloquine is a weekly oral antimalarial effective against chloroquine-resistant P. falciparum. It offers the practical advantage of once-weekly dosing (one tablet once per week, starting 2 weeks before travel to allow steady-state levels and early detection of neuropsychiatric side effects). However, mefloquine carries an FDA boxed warning for serious neuropsychiatric adverse effects including depression, anxiety, hallucinations, paranoia, and psychosis — effects that may persist long after the medication is stopped. This warning significantly limits its use in routine prescribing. TeleDirectMD prescribes mefloquine on a case-by-case basis only, after careful neuropsychiatric history screening, and never as a first-line option when Malarone or doxycycline are appropriate. Mefloquine is absolutely contraindicated in patients with a prior history of psychiatric illness, seizure disorder, or prior serious neuropsychiatric reaction to mefloquine."
+      },
+      {
+        "title": "Traveler's Diarrhea Standby: Azithromycin",
+        "text": "Traveler's diarrhea (TD) is the most common travel-related illness, affecting 30 to 70 percent of international travelers depending on destination and risk behaviors. The most common causative organisms are enterotoxigenic E. coli (ETEC), Campylobacter jejuni, Salmonella, and Shigella. The CDC Yellow Book recommends azithromycin as the first-line standby antibiotic for most destinations, particularly South and Southeast Asia, where fluoroquinolone-resistant Campylobacter has made ciprofloxacin unreliable. Azithromycin is prescribed as a standby (self-treatment) resource — not for routine prophylaxis, as the CDC explicitly discourages routine antibiotic prophylaxis for TD. The standby dose for adults is 1,000 mg as a single dose, or 500 mg once daily for 3 days for more severe presentations. Standby therapy is initiated by the traveler when TD symptoms are severe (more than 3 loose stools per day significantly impairing travel), febrile (oral temperature above 38.5°C / 101.3°F), or bloody. Mild self-limited TD is managed with oral rehydration (electrolyte solution or water with salt and sugar), not antibiotics."
+      },
+      {
+        "title": "Altitude Sickness Prevention: Acetazolamide (Diamox)",
+        "text": "Acetazolamide 125 mg twice daily, starting 24 hours before ascent and continued for 2 days at maximum altitude, is the FDA-approved prophylaxis for acute mountain sickness (AMS). The carbonic anhydrase inhibitor mechanism stimulates ventilation by inducing a mild metabolic acidosis, accelerating the physiological acclimatization process. This medication is covered in depth on the TeleDirectMD altitude sickness page. The primary contraindication is sulfonamide (sulfa) allergy. Expected side effects include paresthesia, polyuria, and flat taste in carbonated beverages. Acetazolamide is not appropriate for extreme-altitude expeditions above 4,000 m requiring emergency medication kits."
+      },
+      {
+        "title": "Motion Sickness Prevention: Scopolamine and Meclizine",
+        "text": "Motion sickness prevention is addressed in detail on the TeleDirectMD motion sickness page. For travel medicine hub visits, the physician may add scopolamine transdermal patch or meclizine to the travel formulary for patients undertaking cruise itineraries, long sea crossings, winding mountain road transit at altitude destinations, or extended air travel. The scopolamine patch (applied 4+ hours before travel, effective up to 72 hours per patch) is the first-line prescription option for extended sea travel. Meclizine 25 to 50 mg once daily is a less sedating oral alternative for shorter exposures. Neither scopolamine nor meclizine is a controlled substance."
+      },
+      {
+        "title": "What the TeleDirectMD Travel Formulary Does Not Cover",
+        "text": "The following are outside TeleDirectMD's travel medicine telehealth scope: yellow fever vaccine and international certificate of vaccination; typhoid, hepatitis A/B, rabies pre-exposure, Japanese encephalitis, and meningococcal vaccines; primaquine and tafenoquine for P. vivax/P. ovale radical cure (require quantitative G6PD lab testing); management of active malaria, dengue, typhoid fever, or other tropical infections after return from travel; dexamethasone and nifedipine HACE/HAPE emergency kits; and any controlled substances."
+      }
+    ],
+    "doesNotManage": [
+      "Active malaria or suspected malaria after return from endemic region — emergency blood testing required",
+      "Yellow fever and other required travel vaccines — must be administered at an authorized vaccination center",
+      "Primaquine or tafenoquine prescriptions — require quantitative G6PD enzyme testing at a clinical lab",
+      "Active HACE or HAPE at altitude — emergency descent and rescue required",
+      "Post-travel febrile illness evaluation — in-person evaluation with tropical disease workup required",
+      "Pediatric travel medicine (under 18 years old)"
+    ]
+  },
+  "medications": {
+    "sectionTitle": "Common Medication Options in the Travel Formulary",
+    "intro": "These are common examples for the TeleDirectMD travel formulary. The actual medications, doses, and durations are determined by the MD after reviewing your destinations, itinerary, medical history, and any contraindications. All medications listed are non-controlled prescription medications.",
+    "headers": [
+      "Medication",
+      "Typical dose",
+      "Duration",
+      "Key considerations"
+    ],
+    "rows": [
+      [
+        "Atovaquone-proguanil (Malarone)",
+        "1 adult fixed-dose tablet (250 mg/100 mg) once daily with food",
+        "Start 1–2 days before malaria zone; continue 7 days after leaving",
+        "Front-line for chloroquine-resistant P. falciparum. Take with food to reduce nausea. Avoid in severe renal impairment (CrCl <30 mL/min). Not controlled. Generic widely available. Pregnancy: risk-benefit discussion required."
+      ],
+      [
+        "Doxycycline hyclate or monohydrate (Vibramycin)",
+        "100 mg once daily with food",
+        "Start 1–2 days before malaria zone; continue 4 full weeks after return",
+        "Front-line for longer trips; preferred for Thai border regions. Contraindicated in pregnancy (all trimesters) and age <8. Causes photosensitivity — use SPF 30+ daily. Reduces oral typhoid vaccine (Vivotif) efficacy — space 3+ days apart. Take with full glass of water and remain upright 30 min (esophageal irritation prevention). Not controlled."
+      ],
+      [
+        "Mefloquine (Lariam)",
+        "250 mg once weekly",
+        "Start 2 weeks before travel; continue 4 weeks after return",
+        "Case-by-case only. FDA boxed warning: serious neuropsychiatric adverse effects (depression, hallucinations, psychosis). Contraindicated with history of psychiatric illness or seizure disorder. Weekly dosing is convenient but must be started 2 weeks early for side effect monitoring. Not first-line when Malarone or doxycycline are suitable."
+      ],
+      [
+        "Azithromycin (Z-pak equivalent)",
+        "1,000 mg single dose or 500 mg daily x3 days",
+        "Standby — initiate only when TD is severe, febrile, or bloody",
+        "First-line TD standby for South/Southeast Asia due to fluoroquinolone-resistant Campylobacter. Not for routine prophylaxis (CDC advises against). Mild TD: oral rehydration, not antibiotics. Avoid in patients with QT-prolonging conditions or severe liver disease. Generally well tolerated. Not controlled."
+      ],
+      [
+        "Acetazolamide (Diamox generic)",
+        "125 mg twice daily (BID)",
+        "Start 24 hours before ascent; continue 2 days at maximum altitude",
+        "Only FDA-approved AMS prophylaxis. Contraindicated with sulfa allergy. Expect paresthesia, polyuria, and flat taste in carbonated drinks. Generic pricing approximately $6.68–$20.29/course (GoodRx, 2026-06-13). Not controlled."
+      ],
+      [
+        "Scopolamine transdermal patch (Transderm Scop)",
+        "1.5 mg patch applied behind one ear",
+        "Apply 4+ hours before travel; replace every 72 hours for extended trips",
+        "First-line prescription motion sickness prevention for sea travel and cruises. Side effects: dry mouth, blurred near vision, drowsiness. Not for narrow-angle glaucoma or urinary retention. Not controlled. Wash hands after handling patch."
+      ],
+      [
+        "Meclizine (Antivert, Bonine)",
+        "25 to 50 mg once daily",
+        "Take 1 hour before motion exposure",
+        "Less sedating than other oral antihistamine options. Good for shorter travel or air travel. OTC at lower doses; prescription at higher doses. Not controlled."
+      ]
+    ],
+    "note": "Example regimens only. The actual medications, doses, and durations are determined by the MD after reviewing your itinerary, travel dates, medical history, and risk factors. TeleDirectMD does not prescribe controlled substances, vaccines, primaquine, or tafenoquine. For malaria prophylaxis, the physician selects the most appropriate agent based on destination, trip duration, contraindications, and tolerability."
+  },
+  "homeCare": {
+    "sectionTitle": "Travel Preparation, Medication Timing, and While-Traveling Guidance",
+    "whatToDoNow": {
+      "title": "Before Departure: Starting Your Travel Medications Correctly",
+      "items": [
+        "Malarone: fill and start 1 to 2 days before entering the malaria zone — if your trip begins with a non-malaria destination (e.g., London), wait to start Malarone until 1 to 2 days before the malaria-risk leg",
+        "Doxycycline: start 1 to 2 days before the malaria zone and prepare to take it daily for 4 full weeks after your final day in a malaria-risk area — set a phone alarm to remember the post-trip continuation",
+        "Acetazolamide: start 24 hours before your planned ascent to altitude, not your departure date — factor in transit time before reaching altitude",
+        "Azithromycin: fill the prescription before departure and pack it in your carry-on luggage; do not initiate unless TD symptoms meet the threshold (febrile, bloody, or severely disabling diarrhea)",
+        "Scopolamine patch: apply behind one ear at least 4 hours before sea departure; wash hands thoroughly after application",
+        "Compile your full medication list and allergy information in a travel health card to carry with you abroad"
+      ]
+    },
+    "whatToWatch": {
+      "title": "What to Monitor During Travel",
+      "items": [
+        "Malaria: any fever above 38.5°C while in or within 3 months after leaving a malaria zone requires urgent blood smear testing at a local clinic or hospital — do not self-treat with standby malaria medications unless this was specifically discussed and prescribed",
+        "Doxycycline photosensitivity: apply SPF 30+ sunscreen daily, wear protective clothing in high UV environments, and seek shade during peak sun hours — sunburn can occur rapidly even with incidental sun exposure",
+        "Azithromycin standby threshold: start azithromycin if you develop 3 or more loose stools in 24 hours PLUS fever or bloody stool, or if diarrhea is severe enough to significantly impair planned activities; mild watery diarrhea without fever or blood should be managed with oral rehydration first",
+        "Altitude: monitor yourself for the AMS symptom complex (headache, fatigue, nausea) in the first 24 to 48 hours at altitude; do not ascend further if symptoms are present; paresthesia from acetazolamide is expected and benign",
+        "Malarone nausea: take with the largest meal of the day and a full glass of water if gastrointestinal side effects occur; consider splitting the dose if stomach upset is significant — discuss with the physician"
+      ]
+    },
+    "followUp": {
+      "title": "After Return: Post-Trip Guidance",
+      "items": [
+        "Complete the full doxycycline or Malarone post-trip course as prescribed — stopping early increases malaria risk",
+        "Any fever, jaundice, or severe fatigue within 3 months of returning from a malaria zone requires urgent evaluation at an emergency room or tropical medicine clinic with same-day blood smear testing",
+        "If you used azithromycin standby during the trip, document the episode and note whether it resolved rapidly — persistent post-travel diarrhea lasting more than 14 days should be evaluated for parasitic causes (Giardia, Cryptosporidium) or post-infectious IBS",
+        "For future travel to the same or similar destinations, your prior medication tolerability and any TD or AMS episodes help guide optimized formulary selection",
+        "Re-book a telehealth visit for upcoming international travel — each itinerary warrants a fresh destination-based risk assessment as CDC recommendations and regional resistance patterns can change"
+      ]
+    }
+  },
+  "whenNotToUse": {
+    "sectionTitle": "When Not to Use TeleDirectMD for Travel Medicine in {state}",
+    "intro": "TeleDirectMD's travel medicine service is designed for pre-travel prescription consultations. We are direct about when telehealth is not the right choice.",
+    "shouldNotUse": {
+      "title": "You Should Not Use TeleDirectMD If",
+      "items": [
+        "You are under 18 years old",
+        "You have a fever and have recently returned from a malaria-endemic region — seek emergency evaluation immediately",
+        "You need yellow fever vaccination or an international certificate of vaccination",
+        "You need primaquine or tafenoquine for P. vivax/P. ovale radical cure — G6PD testing is required at a clinical laboratory",
+        "You need typhoid, hepatitis A, rabies pre-exposure, Japanese encephalitis, or meningococcal vaccines",
+        "You have complex cardiac or pulmonary conditions requiring in-person medical clearance before travel",
+        "You are currently experiencing an acute emergency requiring immediate care",
+        "You are not physically in {state} at the time of the visit"
+      ]
+    },
+    "alternatives": {
+      "title": "Alternative Care Options",
+      "items": [
+        {
+          "label": "Emergency room:",
+          "text": "fever after return from malaria zone, suspected cerebral malaria (confusion, seizure), severe dehydration from TD, HACE or HAPE at altitude"
+        },
+        {
+          "label": "In-person travel clinic or health department:",
+          "text": "yellow fever and required vaccines, G6PD testing and primaquine/tafenoquine prescribing, complex multi-country itineraries, HACE/HAPE emergency kit prescribing, and cardiac clearance for expedition travel"
+        },
+        {
+          "label": "Urgent care:",
+          "text": "post-travel acute illness not requiring emergency evaluation, dehydration from TD needing IV fluids, or wound care after animal exposure abroad"
+        },
+        {
+          "label": "Primary care or infectious disease:",
+          "text": "persistent post-travel diarrhea evaluation, post-travel parasitology workup, long-term follow-up for travel-acquired conditions, or pre-travel evaluation for travelers with complex comorbidities"
+        }
+      ]
+    }
+  },
+  "faq": {
+    "sectionTitle": "Travel Medicine FAQs for {state}",
+    "items": [
+      {
+        "question": "Can I get malaria prevention medication online in {state}?",
+        "answer": "Yes, if you are an adult 18+ located in {state} and your itinerary involves travel to a malaria-endemic region. TeleDirectMD can prescribe atovaquone-proguanil (Malarone) or doxycycline for chloroquine-resistant malaria prophylaxis after a destination-based risk assessment by video visit. Mefloquine is available on a case-by-case basis. None of these are controlled substances."
+      },
+      {
+        "question": "What is the difference between Malarone and doxycycline for malaria prophylaxis?",
+        "answer": "Both are effective front-line options for chloroquine-resistant P. falciparum malaria. Malarone (atovaquone-proguanil) is taken daily starting 1 to 2 days before travel and for only 7 days after return — ideal for shorter trips. Doxycycline is taken daily starting 1 to 2 days before and must continue for 4 full weeks after leaving the malaria zone — more practical for longer stays. Doxycycline is contraindicated in pregnancy and children under 8; Malarone is avoided in severe kidney impairment. Your physician selects the best option based on your specific itinerary and health history."
+      },
+      {
+        "question": "Do I need malaria pills if I'm only visiting cities in Peru (Cusco) or Colombia (Bogotá)?",
+        "answer": "No, malaria pills are not required for Cusco or Bogotá. Cusco (approximately 3,400 m) and the Sacred Valley, Machu Picchu, and Lima are malaria-free areas. Bogotá (approximately 2,600 m) is similarly malaria-free. However, these cities DO carry significant altitude illness risk — acetazolamide AMS prophylaxis is relevant for these destinations. Malaria chemoprophylaxis is needed for travel to Amazon basin areas of Peru or Colombia."
+      },
+      {
+        "question": "What is traveler's diarrhea standby therapy and when should I use it?",
+        "answer": "Traveler's diarrhea standby therapy means receiving a prescription for an antibiotic before you depart that you carry with you and self-administer only if TD becomes severe enough to meet specific thresholds. The CDC-recommended thresholds are: 3 or more loose stools in 24 hours AND fever, bloody stool, or symptoms severe enough to significantly impair your planned activities. Mild self-limiting watery diarrhea does not require antibiotics — oral rehydration is sufficient. Azithromycin is the preferred standby antibiotic for South/Southeast Asia; it is also effective for most other destinations."
+      },
+      {
+        "question": "Why is azithromycin preferred over Cipro for traveler's diarrhea in Asia?",
+        "answer": "Fluoroquinolone-resistant Campylobacter jejuni is now endemic throughout South Asia (India, Nepal) and Southeast Asia (Thailand, Vietnam, Cambodia). Ciprofloxacin and other fluoroquinolones retain high activity in vitro but fail clinically in these regions due to resistance prevalence. Azithromycin retains activity against fluoroquinolone-resistant Campylobacter and ETEC in these regions, making it the CDC's first-line recommendation for standby therapy when traveling to South and Southeast Asia."
+      },
+      {
+        "question": "How much does online travel medicine cost in {state}?",
+        "answer": "TeleDirectMD offers a self pay option starting at $79 for an adult video visit in {state}. Insurance is not required. The $79 visit fee covers the full consultation regardless of how many travel medications are discussed. Prescription costs at your pharmacy are separate and vary by medication. Malarone, doxycycline, azithromycin, and acetazolamide are all available as generics at US pharmacies."
+      },
+      {
+        "question": "Can TeleDirectMD provide yellow fever vaccination for travel?",
+        "answer": "No. Yellow fever vaccination requires a designated authorized vaccination center and cannot be administered via telehealth. An international certificate of vaccination (Carte Jaune) requires that the vaccine be given by a certified provider. You will need to locate a yellow fever vaccination center in your area — the CDC maintains a directory of authorized US vaccination centers. TeleDirectMD can still prescribe non-vaccine components of your travel formulary (malaria pills, azithromycin standby, acetazolamide) even if you are also visiting a vaccination center for yellow fever."
+      },
+      {
+        "question": "What is mefloquine and why isn't it first-line?",
+        "answer": "Mefloquine (Lariam) is a weekly oral antimalarial effective against chloroquine-resistant Plasmodium falciparum. Its practical advantage is once-weekly dosing. However, the FDA issued a boxed warning in 2013 for serious and potentially permanent neuropsychiatric adverse effects including depression, anxiety, hallucinations, paranoia, and psychosis. These effects can persist long after stopping the drug. For this reason, Malarone and doxycycline are preferred first-line options when appropriate. TeleDirectMD may prescribe mefloquine on a case-by-case basis after full neuropsychiatric history review."
+      },
+      {
+        "question": "Can I get prescriptions for malaria, TD standby, altitude sickness, and motion sickness all in one visit?",
+        "answer": "Yes. If your itinerary involves destinations that warrant multiple types of prophylaxis — for example, a trip to Africa (malaria + TD standby) combined with a mountain trek in East Africa (altitude) — the physician can address all relevant components of your travel formulary in a single $79 visit. You receive a combined set of prescriptions with individual written instructions for timing and use."
+      },
+      {
+        "question": "Is travel medicine covered by insurance at TeleDirectMD?",
+        "answer": "Insurance is not required. Travel medicine is primarily a self-pay service at TeleDirectMD. A self pay option is available at $79 for the video visit. Prescription costs at your pharmacy are separate."
+      },
+      {
+        "question": "Do I need malaria pills if I am going on an African safari?",
+        "answer": "Yes, in almost all cases. Sub-Saharan Africa has the highest malaria burden in the world, and nearly all safari destinations in East, West, Central, and Southern Africa have significant malaria risk with chloroquine-resistant P. falciparum. Both game reserves and urban gateway cities can carry risk. The standard of care for virtually all adult safari travelers is malaria chemoprophylaxis with either Malarone or doxycycline, selected based on trip duration, tolerability, and any contraindications. Your physician will confirm this based on your specific safari destination and dates."
+      },
+      {
+        "question": "Can I take doxycycline for malaria if I am also prone to yeast infections?",
+        "answer": "Doxycycline, like any antibiotic, can alter vaginal flora and increase susceptibility to vulvovaginal candidiasis (yeast infection). Travelers prone to antibiotic-associated yeast infections may wish to carry an over-the-counter azole antifungal (such as miconazole or fluconazole) as a precaution. If this is a recurring concern, discuss it during your visit — Malarone is a non-antibiotic alternative that does not carry this risk and may be a better option for you."
+      },
+      {
+        "question": "Does TeleDirectMD treat travel medicine in other states?",
+        "answer": "Yes. TeleDirectMD offers adult evaluations via video visits across multiple states where our physicians are licensed. You must be physically located in the state where you are requesting care at the time of your video visit."
+      },
+      {
+        "question": "Can I use my insurance for a TeleDirectMD visit?",
+        "answer": "Insurance is not required. If your plan is eligible, you may be able to use insurance. A self pay option is also available."
+      }
+    ],
+    "bottomCta": {
+      "title": "Planning international travel? Protect your trip.",
+      "text": "Insurance is not required. Adult-only video visits. MD-only care. Malaria prophylaxis, traveler's diarrhea standby, altitude sickness prevention, and motion sickness prescriptions — all in one pre-travel visit."
+    }
+  },
+  "references": [
+    {
+      "text": "CDC Yellow Book: High-Altitude Travel and Altitude Illness (2024)",
+      "url": "https://www.cdc.gov/yellow-book/hcp/environmental-hazards-risks/high-altitude-travel-and-altitude-illness.html"
+    },
+    {
+      "text": "CDC: Choosing a Drug to Prevent Malaria (2024)",
+      "url": "https://www.cdc.gov/malaria/hcp/drug-malaria/index.html"
+    },
+    {
+      "text": "CDC Yellow Book: Travelers' Diarrhea (2024)",
+      "url": "https://www.cdc.gov/yellow-book/hcp/preparing-international-travelers/travelers-diarrhea.html"
+    },
+    {
+      "text": "CDC Yellow Book: The Pre-Travel Consultation (2024)",
+      "url": "https://www.cdc.gov/yellow-book/hcp/preparing-international-travelers/the-pre-travel-consultation.html"
+    },
+    {
+      "text": "CDC Yellow Book: Motion Sickness",
+      "url": "https://www.cdc.gov/yellow-book/hcp/travel-air-sea/motion-sickness.html"
+    },
+    {
+      "text": "Acetazolamide DailyMed Drug Label (NLM/NIH)",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=acetazolamide"
+    },
+    {
+      "text": "Atovaquone-Proguanil (Malarone) DailyMed Drug Label",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=atovaquone+proguanil"
+    }
+  ],
+  "disclaimer": {
+    "sectionTitle": "TeleDirectMD Telehealth Disclaimer",
+    "paragraphs": [
+      "TeleDirectMD provides MD-only virtual urgent care for adults (18+) in {state} using secure video visits to provide pre-travel medicine consultations, destination-based risk assessment, and prescriptions for malaria prophylaxis, traveler's diarrhea standby therapy, altitude sickness prevention, and motion sickness prevention when clinically appropriate. Insurance is not required. You must be physically located in {state} at the time of your video visit. TeleDirectMD does not prescribe controlled substances and does not administer vaccines.",
+      "TeleDirectMD is not an emergency service and is not a replacement for emergency evaluation of suspected active malaria, post-travel febrile illness, or altitude emergencies. Malaria is a medical emergency — fever within 3 months of return from an endemic region requires urgent blood smear testing, not telehealth alone. Yellow fever vaccination, primaquine, tafenoquine, and G6PD testing require an in-person travel clinic or vaccination center.",
+      "Online travel medicine in {state}. Malaria prescription online. Malarone prescription by video visit. Doxycycline malaria prophylaxis online. Traveler's diarrhea azithromycin prescription. Altitude sickness prevention telehealth. Pre-travel medicine telehealth in {state}."
+    ]
+  },
+  "relatedConditions": [
+    {
+      "slug": "altitude-sickness-treatment-online",
+      "title": "Altitude Sickness",
+      "description": "Detailed clinical page for acetazolamide (Diamox) AMS prophylaxis for high-altitude destinations including Cusco, La Paz, and Colorado mountain towns — with sulfa-allergy screening and full acclimatization protocol"
+    },
+    {
+      "slug": "motion-sickness-treatment-online",
+      "title": "Motion Sickness",
+      "description": "Scopolamine patch and meclizine prescriptions for cruise, sea, air, and ground travel — detailed vestibular disorder screening and prevention guidance"
+    },
+    {
+      "slug": "doxypep-sti-prevention-online",
+      "title": "STI Prevention (Doxy-PEP)",
+      "description": "Travelers to certain destinations may also need STI prevention counseling — doxycycline post-exposure prophylaxis is a non-vaccine STI prevention option"
+    },
+    {
+      "slug": "sinus-infection-treatment-online",
+      "title": "Sinus Infection",
+      "description": "Sinus and ear congestion should be treated before departure — eustachian tube dysfunction worsens altitude headache and flight discomfort"
+    }
+  ],
+  "inlineLinks": [
+    {
+      "slug": "altitude-sickness-treatment-online",
+      "label": "Altitude Sickness"
+    },
+    {
+      "slug": "motion-sickness-treatment-online",
+      "label": "Motion Sickness"
+    },
+    {
+      "slug": "doxypep-sti-prevention-online",
+      "label": "Doxy-PEP"
+    },
+    {
+      "slug": "sinus-infection-treatment-online",
+      "label": "Sinus Infection"
+    },
+    {
+      "slug": "common-cold-treatment-online",
+      "label": "Common Cold"
+    },
+    {
+      "slug": "ear-pain-treatment-online",
+      "label": "Ear Pain"
+    },
+    {
+      "slug": "influenza-treatment-online",
+      "label": "Influenza"
+    },
+    {
+      "slug": "covid-19-treatment-online",
+      "label": "COVID-19"
+    },
+    {
+      "slug": "asthma-refills-online",
+      "label": "Asthma Refills"
+    },
+    {
+      "slug": "dental-pain-treatment-online",
+      "label": "Dental Pain"
+    }
+  ],
+  "cityBlock": {
+    "title": "Adults We Serve Across {state}",
+    "text": "TeleDirectMD evaluates adults located throughout {state}, including {citiesExtended}. Whether you are searching for travel medicine online in {city1}, malaria prevention prescription in {city2}, pre-travel health consultation in {city3}, or traveler's diarrhea and altitude sickness prescriptions anywhere else in {state}, the same telehealth eligibility and safety rules apply."
+  },
+  "icd10Codes": [
+    {
+      "code": "Z29.9",
+      "description": "Encounter for prophylactic measures, unspecified — pre-travel medical consultation"
+    },
+    {
+      "code": "A09",
+      "description": "Other gastroenteritis and colitis of infectious and unspecified origin — traveler's diarrhea context"
+    },
+    {
+      "code": "B54",
+      "description": "Unspecified malaria — prophylaxis prevention context"
+    },
+    {
+      "code": "T70.29",
+      "description": "Other effects of high altitude — altitude sickness prevention context"
+    }
+  ],
+  "jsonLd": {
+    "conditionName": "Travel Medicine",
+    "conditionAlternateNames": [
+      "Pre-travel medicine",
+      "Travel health consultation",
+      "Malaria prophylaxis",
+      "Traveler's diarrhea prevention",
+      "Altitude sickness prevention for travelers"
+    ],
+    "conditionDescription": "Travel medicine is a preventive specialty covering malaria chemoprophylaxis, traveler's diarrhea standby therapy, altitude sickness prevention, and motion sickness prevention for international travelers. TeleDirectMD provides destination-based risk assessment by MD video visit with a non-vaccine prescription formulary including atovaquone-proguanil (Malarone), doxycycline, azithromycin, acetazolamide, and motion sickness prevention medications.",
+    "primaryIcd10": "Z29.9",
+    "anatomy": "Erythrocytes (malaria), gastrointestinal epithelium (TD), pulmonary-cerebral vasculature (altitude), vestibular system (motion sickness)",
+    "symptoms": [
+      "Pre-travel prophylaxis need (malaria endemic destination)",
+      "Traveler's diarrhea risk (South/Southeast Asia, Africa, Latin America)",
+      "Altitude sickness risk (Cusco, La Paz, high-altitude trekking)",
+      "Motion sickness risk (cruise, sea travel, mountain roads)"
+    ],
+    "riskFactors": [
+      "Travel to sub-Saharan Africa",
+      "Travel to South or Southeast Asia",
+      "Travel to Latin American malaria zones",
+      "Rapid ascent to moderate-altitude destinations",
+      "Extended sea or cruise travel"
+    ],
+    "complications": [
+      "Plasmodium falciparum malaria — life-threatening without prophylaxis",
+      "Complicated traveler's diarrhea with dehydration",
+      "Acute mountain sickness progressing to HACE or HAPE",
+      "Motion sickness incapacitating planned travel activities"
+    ],
+    "epidemiology": "Malaria kills over 600,000 people annually worldwide; TD affects 30–70% of international travelers; AMS affects approximately 25% of visitors to moderate-altitude destinations. All are largely preventable with appropriate pre-travel care.",
+    "drugs": [
+      {
+        "name": "Atovaquone-proguanil (Malarone)",
+        "id": "malarone"
+      },
+      {
+        "name": "Doxycycline",
+        "id": "doxycycline-malaria"
+      },
+      {
+        "name": "Azithromycin (TD standby)",
+        "id": "azithromycin-td"
+      },
+      {
+        "name": "Acetazolamide (Diamox)",
+        "id": "acetazolamide-travel"
+      },
+      {
+        "name": "Scopolamine transdermal patch",
+        "id": "scopolamine-travel"
+      },
+      {
+        "name": "Meclizine",
+        "id": "meclizine-travel"
+      }
+    ],
+    "treatments": [
+      "Atovaquone-proguanil (Malarone) — malaria chemoprophylaxis, daily, 7 days post-exposure",
+      "Doxycycline — malaria chemoprophylaxis, daily, 4 weeks post-exposure",
+      "Azithromycin standby — TD self-treatment for febrile or severe diarrhea",
+      "Acetazolamide 125 mg BID — AMS prophylaxis starting 24 hours before ascent",
+      "Scopolamine patch — motion sickness prevention for sea and extended travel",
+      "Oral rehydration therapy — first-line for mild TD"
+    ],
+    "tests": [
+      "Destination-based risk assessment using CDC Yellow Book",
+      "Contraindication screening (pregnancy, renal function, allergies, psychiatric history)",
+      "Sulfa allergy screening for acetazolamide",
+      "Neuropsychiatric history for mefloquine candidacy"
+    ],
+    "specialties": [
+      "Travel Medicine",
+      "Family Medicine",
+      "Preventive Medicine",
+      "Telemedicine"
+    ],
+    "guidelines": [
+      {
+        "name": "CDC Yellow Book: Choosing a Drug to Prevent Malaria",
+        "url": "https://www.cdc.gov/malaria/hcp/drug-malaria/index.html",
+        "publisher": "Centers for Disease Control and Prevention",
+        "id": "cdc-malaria"
+      },
+      {
+        "name": "CDC Yellow Book: Travelers' Diarrhea",
+        "url": "https://www.cdc.gov/yellow-book/hcp/preparing-international-travelers/travelers-diarrhea.html",
+        "publisher": "Centers for Disease Control and Prevention",
+        "id": "cdc-td"
+      },
+      {
+        "name": "CDC Yellow Book: The Pre-Travel Consultation",
+        "url": "https://www.cdc.gov/yellow-book/hcp/preparing-international-travelers/the-pre-travel-consultation.html",
+        "publisher": "Centers for Disease Control and Prevention",
+        "id": "cdc-pretrav"
+      }
+    ],
+    "knowsAbout": [
+      "Malaria chemoprophylaxis",
+      "Atovaquone-proguanil (Malarone) prescribing",
+      "Doxycycline malaria prophylaxis",
+      "Traveler's diarrhea azithromycin standby",
+      "Fluoroquinolone-resistant Campylobacter",
+      "Altitude sickness prevention",
+      "Acetazolamide for AMS",
+      "Motion sickness prevention for cruise travel",
+      "Destination-based risk assessment",
+      "CDC Yellow Book travel guidelines",
+      "Travel Medicine",
+      "Preventive Medicine",
+      "Telehealth triage"
+    ],
+    "serviceDescription": "Secure video visit for {state} adults planning international or high-altitude travel, including destination-based risk assessment and prescriptions for malaria prophylaxis, traveler's diarrhea standby, altitude sickness prevention, and motion sickness prevention.",
+    "webpageDescription": "{state} pre-travel medicine by secure MD video visit for adults. Malaria prophylaxis (Malarone, doxycycline), traveler's diarrhea standby (azithromycin), altitude sickness prevention (acetazolamide), and motion sickness prescriptions. Self pay starting at $79."
+  },
+  "guidelineSource": "cdc",
+  "conditionType": "treatment"
+}

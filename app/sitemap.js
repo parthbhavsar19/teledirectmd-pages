@@ -111,12 +111,24 @@ export default function sitemap() {
     'acne-treatment-online',
     'cellulitis-treatment-online',
   ]);
+  // NATIONAL-ONLY conditions (2026-06-14): travel-medicine and altitude-sickness are
+  // single, unique national pages. Do NOT emit /{state}/<these>/ — they have no per-state
+  // clinical differentiation, so 42 templated state variants each would re-create the exact
+  // near-duplicate cluster that drove the May 2026 deindex. Only the national /{cond}/ URLs
+  // are submitted; the state-prefixed variants still render (routing) but are kept out of the
+  // sitemap until the Delaware-canary recovery validates the deep-content state template.
+  const NATIONAL_ONLY_CONDITIONS = new Set([
+    'travel-medicine-treatment-online',
+    'altitude-sickness-treatment-online',
+  ]);
   const states = getStates();
   const conditionSlugs = getConditionSlugs();
   for (const state of states) {
     urls.push(url(`/${state.slug}/`, 0.9, 'weekly'));
     urls.push(url(`/${state.slug}/online-doctor-visits/`, 0.7, 'monthly'));
     for (const cond of conditionSlugs) {
+      // National-only conditions: never emit a state-prefixed variant
+      if (NATIONAL_ONLY_CONDITIONS.has(cond)) continue;
       // VT: emit only the 6 pilot condition pages
       if (state.slug === 'vt' && !VT_PILOT_CONDITIONS.has(cond)) continue;
       urls.push(url(`/${state.slug}/${cond}/`, 0.8, 'weekly'));

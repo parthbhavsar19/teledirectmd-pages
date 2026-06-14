@@ -94,6 +94,7 @@ export default function WhatWeTreatClient({ categories, conditionDescriptions })
     'bites-and-infestations': '🐾',
     'chronic-medication-refills': '💊',
     'wellness-and-lifestyle': '✨',
+    'travel-medicine': '✈️',
   };
 
   return (
