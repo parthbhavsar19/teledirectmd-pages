@@ -1,0 +1,919 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Bixonimania Experiment: How a Fake Disease Fooled ChatGPT, Gemini, and Copilot | TeleDirectMD</title>
+<meta name="description" content="Scientists invented a disease called bixonimania—complete with absurd fake citations—and watched AI chatbots confidently repeat it as medical fact. What this experiment reveals about AI medical reliability, citation contamination, and what clinicians must know.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://teledirectmd.com/health-guides/bixonimania-fake-disease-ai-experiment/">
+
+<!-- Open Graph -->
+<meta property="og:type" content="article">
+<meta property="og:title" content="The Bixonimania Experiment: How a Fake Disease Fooled ChatGPT, Gemini, and Copilot">
+<meta property="og:description" content="Scientists invented a disease called bixonimania—complete with absurd fake citations—and watched AI chatbots confidently repeat it as medical fact. What the experiment reveals about AI reliability in medicine.">
+<meta property="og:url" content="https://teledirectmd.com/health-guides/bixonimania-fake-disease-ai-experiment/">
+<meta property="og:site_name" content="TeleDirectMD Health Guides">
+<meta property="og:image" content="https://teledirectmd.com/health-guides/bixonimania-fake-disease-ai-experiment/images/hero-bixonimania.png">
+<meta property="og:image:width" content="1024">
+<meta property="og:image:height" content="576">
+<meta property="article:published_time" content="2026-06-15T00:00:00-04:00">
+<meta property="article:modified_time" content="2026-06-15T00:00:00-04:00">
+<meta property="article:author" content="https://teledirectmd.com/health-guides/about-the-editor/">
+<meta property="article:section" content="AI in Medicine">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="The Bixonimania Experiment: How a Fake Disease Fooled ChatGPT, Gemini, and Copilot">
+<meta name="twitter:description" content="Scientists invented a fake disease with obvious fictional clues. AI chatbots confidently described it as a real medical condition. Here's what happened.">
+<meta name="twitter:image" content="https://teledirectmd.com/health-guides/bixonimania-fake-disease-ai-experiment/images/hero-bixonimania.png">
+
+<!-- JSON-LD Structured Data -->
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "WebSite",
+   "@id": "https://teledirectmd.com/#website",
+   "url": "https://teledirectmd.com",
+   "name": "TeleDirectMD",
+   "publisher": { "@id": "https://teledirectmd.com/#organization" }
+  },
+  {
+   "@type": "BreadcrumbList",
+   "@id": "https://teledirectmd.com/health-guides/bixonimania-fake-disease-ai-experiment#breadcrumb",
+   "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://teledirectmd.com" },
+    { "@type": "ListItem", "position": 2, "name": "Health Guides", "item": "https://teledirectmd.com/health-guides" },
+    { "@type": "ListItem", "position": 3, "name": "The Bixonimania Experiment", "item": "https://teledirectmd.com/health-guides/bixonimania-fake-disease-ai-experiment" }
+   ]
+  },
+  {
+   "@type": "Organization",
+   "editorialPolicy": "https://teledirectmd.com/health-guides/editorial-standards/",
+   "correctionsPolicy": "https://teledirectmd.com/health-guides/editorial-standards/#corrections",
+   "verificationFactCheckingPolicy": "https://teledirectmd.com/health-guides/editorial-standards/#methodology",
+   "ownershipFundingInfo": "https://teledirectmd.com/health-guides/editorial-standards/#funding-conflicts",
+   "publishingPrinciples": "https://teledirectmd.com/health-guides/editorial-standards/",
+   "@id": "https://teledirectmd.com/#organization",
+   "name": "TeleDirectMD",
+   "url": "https://teledirectmd.com",
+   "logo": { "@type": "ImageObject", "url": "https://teledirectmd.com/logo.webp" },
+   "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+1-678-956-1855",
+    "contactType": "customer service",
+    "email": "contact@teledirectmd.com"
+   }
+  },
+  {
+   "@type": "Person",
+   "@id": "https://teledirectmd.com/about#physician",
+   "name": "Parth Bhavsar, MD",
+   "jobTitle": "Board-Certified Family Medicine Physician",
+   "url": "https://teledirectmd.com/health-guides/about-the-editor/",
+   "affiliation": { "@id": "https://teledirectmd.com/#organization" },
+   "sameAs": [
+    "https://npiregistry.cms.hhs.gov/provider-view/1104323203",
+    "https://www.linkedin.com/in/parth-bhavsar-md-0527143a6",
+    "https://orcid.org/0009-0001-7308-5653"
+   ]
+  },
+  {
+   "@type": "MedicalWebPage",
+   "@id": "https://teledirectmd.com/health-guides/bixonimania-fake-disease-ai-experiment#webpage",
+   "url": "https://teledirectmd.com/health-guides/bixonimania-fake-disease-ai-experiment",
+   "name": "The Bixonimania Experiment: How a Fake Disease Fooled ChatGPT, Gemini, and Copilot",
+   "lastReviewed": "2026-06-15",
+   "reviewedBy": { "@id": "https://teledirectmd.com/about#physician" },
+   "medicalAudience": { "@type": "MedicalAudience", "audienceType": "Patient" },
+   "datePublished": "2026-06-15",
+   "dateModified": "2026-06-15",
+   "isPartOf": { "@id": "https://teledirectmd.com/#website" },
+   "breadcrumb": { "@id": "https://teledirectmd.com/health-guides/bixonimania-fake-disease-ai-experiment#breadcrumb" },
+   "speakable": { "@type": "SpeakableSpecification", "cssSelector": [".tdmd-article-title", ".tdmd-key-points"] },
+   "citation": [
+    "https://www.nature.com/articles/d41586-026-01100-y",
+    "https://www.smithsonianmag.com/smart-news/scientists-invented-a-disease-to-test-whether-ai-knew-it-was-fake-then-chatbots-started-saying-it-was-real-180988924/",
+    "https://pubmed.ncbi.nlm.nih.gov/41672646/",
+    "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)00603-3/fulltext",
+    "https://retractionwatch.com/2026/05/07/one-in-277-pubmed-indexed-papers-in-2026-shows-fabricated-references-says-analysis/",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC10484980/",
+    "https://medinform.jmir.org/2024/1/e54345",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC12318031/"
+   ]
+  },
+  {
+   "@type": "Article",
+   "@id": "https://teledirectmd.com/health-guides/bixonimania-fake-disease-ai-experiment#article",
+   "headline": "The Bixonimania Experiment: How a Fake Disease Fooled ChatGPT, Gemini, and Copilot",
+   "datePublished": "2026-06-15",
+   "dateModified": "2026-06-15",
+   "author": { "@id": "https://teledirectmd.com/about#physician" },
+   "publisher": { "@id": "https://teledirectmd.com/#organization" },
+   "image": "https://teledirectmd.com/health-guides/bixonimania-fake-disease-ai-experiment/images/hero-bixonimania.png",
+   "mainEntityOfPage": { "@id": "https://teledirectmd.com/health-guides/bixonimania-fake-disease-ai-experiment#webpage" },
+   "articleSection": "AI in Medicine",
+   "wordCount": 1200
+  }
+ ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "FAQPage",
+ "@id": "https://teledirectmd.com/health-guides/bixonimania-fake-disease-ai-experiment#faq",
+ "mainEntity": [
+  {
+   "@type": "Question",
+   "name": "Is bixonimania a real disease?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "No. Bixonimania does not exist. It was deliberately invented in 2024 by researcher Almira Osmanovic Thunström at the University of Gothenburg, Sweden to test whether large language models (AI chatbots) would repeat fabricated medical information as fact. The fake preprints describing it have since been removed from the preprint server. One peer-reviewed paper that cited bixonimania was retracted in March 2026."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Why did ChatGPT and Gemini describe bixonimania as a real condition?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Large language models are trained on vast amounts of internet text, including unverified preprint servers and blog posts. Once fake papers describing bixonimania were posted online, those texts entered the training data ecosystem. AI models do not verify sources — they generate statistically plausible text based on patterns in training data. When the fake preprints were credible-looking, the models repeated their claims as though they were established medical facts."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "How many biomedical papers now contain AI-fabricated citations?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "A 2026 audit of 2.5 million biomedical papers published in The Lancet found that roughly 1 in 277 papers published in early 2026 contained at least one fabricated reference — a 12-fold increase from the 2023 rate of 1 in 2,828 papers. At the time of the audit, 98.4% of affected papers had received no publisher correction or retraction."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Can AI be safely used for medical questions at all?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Published evidence supports AI use in specific, well-defined tasks where outputs are checkable: drug interaction screening against validated databases, flagging scheduling gaps, drafting administrative communications, and image triage in narrow domains with established validation data. Where evidence does not support reliance on AI alone: rare disease identification, novel literature synthesis, citation generation for clinical claims, and any query where the AI must retrieve and verify a specific source. Human review by a qualified clinician remains essential for any clinically consequential decision."
+   }
+  }
+ ]
+}
+</script>
+
+<style>
+/* ===== CSS Reset & Variables ===== */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+ --tdmd-navy: #003e52;
+ --tdmd-teal: #006b73;
+ --tdmd-text: #12323a;
+ --tdmd-muted: #4b5f66;
+ --tdmd-bg-soft: #f3fafb;
+ --tdmd-border: #dde3e6;
+ --tdmd-accent: #ff5a36;
+ --tdmd-radius: 18px;
+ --tdmd-footer-bg: #0e3d4d;
+ --tdmd-white: #ffffff;
+ --tdmd-font: system-ui, -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', sans-serif;
+}
+
+html { scroll-behavior: smooth; overflow-x: hidden; }
+
+body {
+ font-family: var(--tdmd-font);
+ font-size: 1rem;
+ line-height: 1.7;
+ color: var(--tdmd-text);
+ background: var(--tdmd-white);
+ -webkit-font-smoothing: antialiased;
+ -moz-osx-font-smoothing: grayscale;
+ overflow-x: hidden;
+ max-width: 100vw;
+}
+
+/* ===== Typography ===== */
+h1, h2, h3, h4 { color: var(--tdmd-navy); line-height: 1.3; font-weight: 700; }
+h1 { font-size: 2rem; margin-bottom: 0.75rem; }
+h2 { font-size: 1.5rem; margin-bottom: 0.75rem; margin-top: 2.5rem; }
+h3 { font-size: 1.15rem; margin-bottom: 0.5rem; margin-top: 1.5rem; }
+p { margin-bottom: 1rem; }
+a { color: var(--tdmd-teal); text-decoration: none; }
+a:hover { text-decoration: underline; }
+ul, ol { margin-bottom: 1rem; padding-left: 1.5rem; }
+li { margin-bottom: 0.35rem; }
+sup a { color: var(--tdmd-teal); font-weight: 600; text-decoration: none; font-size: 0.75em; }
+sup a:hover { text-decoration: underline; }
+blockquote {
+ border-left: 4px solid var(--tdmd-teal);
+ padding: 0.75rem 1.25rem;
+ background: var(--tdmd-bg-soft);
+ border-radius: 0 var(--tdmd-radius) var(--tdmd-radius) 0;
+ margin: 1.25rem 0;
+ font-style: italic;
+ color: var(--tdmd-muted);
+}
+blockquote cite { display: block; margin-top: 0.5rem; font-style: normal; font-size: 0.87rem; color: var(--tdmd-navy); font-weight: 600; }
+
+/* ===== Layout ===== */
+.tdmd-container { max-width: 1100px; margin: 0 auto; padding: 0 1.5rem; width: 100%; box-sizing: border-box; }
+.tdmd-section { padding: 2.5rem 0; }
+.tdmd-section-highlight { background: var(--tdmd-bg-soft); }
+
+/* ===== Navigation ===== */
+.tdmd-nav { background: var(--tdmd-white); border-bottom: 1px solid #eef2f4; position: sticky; top: 0; z-index: 1000; }
+.tdmd-nav-inner { display: flex; align-items: center; justify-content: space-between; padding: 0.75rem 1.5rem; max-width: 1100px; margin: 0 auto; }
+.tdmd-nav-logo img { height: 80px; width: auto; display: block; }
+.tdmd-nav-links { display: flex; align-items: center; gap: 1.75rem; list-style: none; margin: 0; padding: 0; }
+.tdmd-nav-links a { color: var(--tdmd-navy); font-size: 0.95rem; font-weight: 500; text-decoration: none; transition: color 0.2s; }
+.tdmd-nav-links a:hover { color: var(--tdmd-teal); text-decoration: none; }
+.tdmd-hamburger { display: none; background: none; border: none; cursor: pointer; padding: 0.5rem; }
+.tdmd-hamburger span { display: block; width: 24px; height: 2px; background: var(--tdmd-navy); margin: 5px 0; transition: all 0.3s; border-radius: 2px; }
+
+/* Dark mode toggle button */
+.tdmd-dark-toggle {
+ background: none; border: 1px solid var(--tdmd-border); border-radius: 50px;
+ padding: 0.35rem 0.7rem; cursor: pointer; color: var(--tdmd-navy); display: flex; align-items: center; gap: 0.35rem; font-size: 0.85rem; transition: all 0.2s;
+}
+.tdmd-dark-toggle:hover { background: var(--tdmd-bg-soft); }
+.tdmd-dark-toggle svg { width: 16px; height: 16px; fill: none; stroke: currentColor; stroke-width: 2; }
+.tdmd-icon-sun { display: none; }
+
+@media (max-width: 768px) {
+ .tdmd-nav-links { display: none; }
+ .tdmd-hamburger { display: block; }
+ .tdmd-nav-links.tdmd-nav-open {
+  display: flex; flex-direction: column; position: absolute; top: 100%; left: 0; right: 0;
+  background: var(--tdmd-white); border-bottom: 1px solid #eef2f4; padding: 1rem 1.5rem;
+  gap: 0.75rem; box-shadow: 0 8px 20px rgba(0,0,0,0.06);
+ }
+ .tdmd-nav-links.tdmd-nav-open a { font-size: 1.05rem; padding: 0.5rem 0; display: block; }
+}
+
+/* ===== Series Banner ===== */
+.tdmd-series-banner {
+ background: linear-gradient(135deg, var(--tdmd-navy) 0%, var(--tdmd-teal) 100%);
+ color: #fff;
+ padding: 0.6rem 0;
+ font-size: 0.85rem;
+ text-align: center;
+}
+.tdmd-series-banner span { opacity: 0.85; }
+.tdmd-series-banner strong { opacity: 1; }
+
+/* ===== Breadcrumb ===== */
+.tdmd-breadcrumb { padding: 1rem 0 0; font-size: 0.875rem; color: var(--tdmd-muted); }
+.tdmd-breadcrumb a { color: var(--tdmd-teal); }
+.tdmd-breadcrumb span { margin: 0 0.4rem; }
+
+/* ===== Article Header ===== */
+.tdmd-article-header { padding: 2rem 0 1.5rem; border-bottom: 1px solid var(--tdmd-border); margin-bottom: 2rem; }
+.tdmd-article-meta { display: flex; flex-wrap: wrap; align-items: center; gap: 1rem; margin-top: 1rem; font-size: 0.9rem; color: var(--tdmd-muted); }
+.tdmd-article-meta-item { display: flex; align-items: center; gap: 0.35rem; }
+.tdmd-article-meta svg { width: 16px; height: 16px; flex-shrink: 0; }
+.tdmd-badge { display: inline-block; background: var(--tdmd-bg-soft); color: var(--tdmd-teal); font-size: 0.8rem; font-weight: 600; padding: 0.25rem 0.75rem; border-radius: 50px; border: 1px solid var(--tdmd-border); }
+.tdmd-badge--ai { background: #e8f4f5; color: var(--tdmd-teal); border-color: #b8dde0; }
+.tdmd-article-title { font-size: 2rem; line-height: 1.25; margin-bottom: 0.25rem; }
+.tdmd-article-subtitle { font-size: 1.1rem; color: var(--tdmd-muted); font-weight: 400; margin-bottom: 0; }
+
+/* ===== Content Layout ===== */
+.tdmd-content-grid { display: grid; grid-template-columns: 1fr 300px; gap: 3rem; align-items: start; min-width: 0; }
+.tdmd-article-body { min-width: 0; overflow-wrap: break-word; word-wrap: break-word; }
+@media (max-width: 900px) {
+ .tdmd-content-grid { grid-template-columns: 1fr; gap: 1.5rem; }
+ .tdmd-sidebar { order: -1; }
+ .tdmd-sidebar-card { position: static; }
+}
+@media (max-width: 480px) {
+ h1, .tdmd-article-title { font-size: 1.6rem; }
+ h2 { font-size: 1.3rem; }
+ .tdmd-container { padding: 0 1rem; }
+}
+
+/* ===== Article Body ===== */
+.tdmd-article-body h2 { padding-top: 1rem; border-top: 1px solid var(--tdmd-border); }
+.tdmd-article-body h2:first-of-type { border-top: none; padding-top: 0; }
+
+/* Callout cards */
+.tdmd-callout { background: var(--tdmd-bg-soft); border-left: 4px solid var(--tdmd-teal); padding: 1.25rem 1.5rem; border-radius: 0 var(--tdmd-radius) var(--tdmd-radius) 0; margin: 1.5rem 0; }
+.tdmd-callout-warning { border-left-color: var(--tdmd-accent); background: #fff8f6; }
+.tdmd-callout-title { font-weight: 700; color: var(--tdmd-navy); margin-bottom: 0.5rem; font-size: 0.95rem; display: flex; align-items: center; gap: 0.5rem; }
+.tdmd-callout p:last-child { margin-bottom: 0; }
+
+/* Key points card */
+.tdmd-key-points { background: var(--tdmd-white); border: 1px solid var(--tdmd-border); border-radius: var(--tdmd-radius); padding: 1.5rem; box-shadow: 0 8px 20px rgba(0,0,0,0.06); margin-bottom: 2rem; }
+.tdmd-key-points h3 { color: var(--tdmd-navy); font-size: 1rem; margin-top: 0; margin-bottom: 0.75rem; display: flex; align-items: center; gap: 0.5rem; }
+.tdmd-key-points ul { margin-bottom: 0; padding-left: 1.25rem; }
+.tdmd-key-points li { font-size: 0.95rem; margin-bottom: 0.5rem; }
+
+/* Evidence table */
+.tdmd-table-wrap { overflow-x: auto; margin: 1.5rem 0; border-radius: var(--tdmd-radius); border: 1px solid var(--tdmd-border); max-width: 100%; }
+.tdmd-table { width: 100%; border-collapse: collapse; font-size: 0.95rem; }
+.tdmd-table th { background: var(--tdmd-navy); color: var(--tdmd-white); padding: 0.75rem 1rem; text-align: left; font-weight: 600; font-size: 0.9rem; }
+.tdmd-table td { padding: 0.75rem 1rem; border-bottom: 1px solid var(--tdmd-border); vertical-align: top; }
+.tdmd-table tr:last-child td { border-bottom: none; }
+.tdmd-table tr:nth-child(even) { background: var(--tdmd-bg-soft); }
+.tdmd-table .good { color: #1a7a4c; font-weight: 600; }
+.tdmd-table .warn { color: #c44520; font-weight: 600; }
+
+/* Dual path boxes */
+.tdmd-dual-path { display: grid; grid-template-columns: 1fr 1fr; gap: 1.25rem; margin: 1.5rem 0; }
+@media (max-width: 600px) { .tdmd-dual-path { grid-template-columns: 1fr; } }
+.tdmd-path-box { border-radius: var(--tdmd-radius); padding: 1.25rem 1.5rem; }
+.tdmd-path-box.trust { background: #f0faf5; border: 1px solid #b7e4c7; }
+.tdmd-path-box.verify { background: #fff8f6; border: 1px solid #ffd5cc; }
+.tdmd-path-box h4 { font-size: 0.95rem; margin-bottom: 0.75rem; margin-top: 0; display: flex; align-items: center; gap: 0.5rem; }
+.tdmd-path-box.trust h4 { color: #1a7a4c; }
+.tdmd-path-box.verify h4 { color: #c44520; }
+.tdmd-path-box ul { margin-bottom: 0; padding-left: 1.25rem; font-size: 0.93rem; }
+.tdmd-path-box li { margin-bottom: 0.4rem; }
+
+/* ===== Sidebar ===== */
+.tdmd-sidebar-card { background: var(--tdmd-white); border: 1px solid var(--tdmd-border); border-radius: var(--tdmd-radius); padding: 1.5rem; box-shadow: 0 8px 20px rgba(0,0,0,0.06); margin-bottom: 1.5rem; position: sticky; top: 100px; }
+.tdmd-sidebar-card h4 { font-size: 0.9rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--tdmd-muted); margin-bottom: 0.75rem; }
+.tdmd-toc { list-style: none; padding: 0; margin: 0; }
+.tdmd-toc li { margin-bottom: 0.4rem; }
+.tdmd-toc a { font-size: 0.9rem; color: var(--tdmd-text); display: block; padding: 0.25rem 0; border-left: 2px solid transparent; padding-left: 0.75rem; transition: all 0.2s; }
+.tdmd-toc a:hover { color: var(--tdmd-teal); border-left-color: var(--tdmd-teal); text-decoration: none; }
+.tdmd-series-nav { list-style: none; padding: 0; margin: 0; }
+.tdmd-series-nav li { margin-bottom: 0.4rem; font-size: 0.88rem; }
+.tdmd-series-nav li.current { font-weight: 700; color: var(--tdmd-navy); padding-left: 0.75rem; border-left: 2px solid var(--tdmd-teal); }
+.tdmd-series-nav a { color: var(--tdmd-teal); font-size: 0.88rem; }
+
+/* ===== References ===== */
+.tdmd-references { background: var(--tdmd-bg-soft); border-radius: var(--tdmd-radius); padding: 1.5rem; margin-top: 2rem; }
+.tdmd-references h2 { margin-top: 0; font-size: 1.15rem; border-top: none; padding-top: 0; }
+.tdmd-references ol { padding-left: 1.25rem; margin-bottom: 0; font-size: 0.9rem; color: var(--tdmd-muted); }
+.tdmd-references li { margin-bottom: 0.5rem; }
+.tdmd-references a { word-break: break-all; }
+
+/* ===== Author Bio ===== */
+.tdmd-author-bio { display: flex; gap: 1.5rem; align-items: flex-start; background: var(--tdmd-white); border: 1px solid var(--tdmd-border); border-radius: var(--tdmd-radius); padding: 1.5rem; margin-top: 2.5rem; box-shadow: 0 8px 20px rgba(0,0,0,0.06); }
+.tdmd-author-avatar { width: 80px; height: 80px; border-radius: 50%; background: var(--tdmd-bg-soft); flex-shrink: 0; display: flex; align-items: center; justify-content: center; font-size: 1.75rem; font-weight: 700; color: var(--tdmd-teal); }
+.tdmd-author-info h3 { margin-top: 0; font-size: 1.1rem; }
+.tdmd-author-info p { font-size: 0.95rem; color: var(--tdmd-muted); margin-bottom: 0.5rem; }
+.tdmd-author-info p:last-child { margin-bottom: 0; }
+@media (max-width: 480px) { .tdmd-author-bio { flex-direction: column; align-items: center; text-align: center; } }
+
+/* ===== Article Figures ===== */
+.tdmd-article-figure { margin: 1.5rem 0; }
+.tdmd-article-figure img { width: 100%; height: auto; border-radius: var(--tdmd-radius); display: block; }
+.tdmd-article-figure figcaption { font-size: 0.85rem; color: var(--tdmd-muted); text-align: center; margin-top: 0.5rem; line-height: 1.5; }
+
+/* ===== Related guide link ===== */
+.tdmd-related-guide { background: var(--tdmd-bg-soft); border: 1px solid var(--tdmd-border); border-radius: var(--tdmd-radius); padding: 1.25rem 1.5rem; margin-top: 2rem; display: flex; align-items: center; gap: 1rem; }
+.tdmd-related-guide svg { flex-shrink: 0; color: var(--tdmd-teal); }
+.tdmd-related-guide p { margin-bottom: 0; font-size: 0.95rem; }
+
+/* FAQ section */
+.tdmd-faq-item { border-bottom: 1px solid var(--tdmd-border); padding: 1rem 0; }
+.tdmd-faq-item:last-child { border-bottom: none; }
+.tdmd-faq-q { font-weight: 700; color: var(--tdmd-navy); margin-bottom: 0.5rem; }
+.tdmd-faq-a { color: var(--tdmd-muted); font-size: 0.95rem; margin-bottom: 0; }
+
+/* ===== Footer ===== */
+.tdmd-footer { background: var(--tdmd-footer-bg); color: rgba(255,255,255,0.8); padding: 3.5rem 0 0; margin-top: 3rem; }
+.tdmd-footer a { color: rgba(255,255,255,0.75); transition: color 0.2s; }
+.tdmd-footer a:hover { color: var(--tdmd-white); text-decoration: none; }
+.tdmd-footer-grid { display: grid; grid-template-columns: 1.5fr 1fr 1fr 1fr; gap: 2.5rem; }
+@media (max-width: 768px) { .tdmd-footer-grid { grid-template-columns: 1fr 1fr; gap: 2rem; } }
+@media (max-width: 480px) { .tdmd-footer-grid { grid-template-columns: 1fr; } }
+.tdmd-footer-brand img { height: auto; max-height: 115px; width: 125px; margin-bottom: 1rem; display: block; object-fit: contain; }
+.tdmd-footer-brand p { font-size: 0.9rem; line-height: 1.6; margin-bottom: 1rem; }
+.tdmd-footer-col h5 { color: var(--tdmd-white); font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 1rem; font-weight: 700; }
+.tdmd-footer-links { list-style: none; padding: 0; margin: 0; }
+.tdmd-footer-links li { margin-bottom: 0.5rem; }
+.tdmd-footer-links a { font-size: 0.9rem; }
+.tdmd-footer-bottom { border-top: 1px solid rgba(255,255,255,0.12); margin-top: 2.5rem; padding: 1.5rem 0; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 1rem; font-size: 0.8rem; }
+.tdmd-footer-badges { display: flex; align-items: center; gap: 1rem; }
+.tdmd-footer-badges img { height: 60px; width: auto; opacity: 0.85; object-fit: contain; }
+.tdmd-footer-legal { display: flex; flex-wrap: wrap; gap: 1rem; align-items: center; }
+.tdmd-footer-legal a { font-size: 0.8rem; }
+.tdmd-footer-social { display: flex; gap: 0.75rem; }
+.tdmd-footer-social a { width: 32px; height: 32px; border-radius: 50%; background: rgba(255,255,255,0.1); display: inline-flex; align-items: center; justify-content: center; transition: background 0.2s; cursor: pointer; position: relative; z-index: 1; }
+.tdmd-footer-social a:hover { background: rgba(255,255,255,0.2); }
+.tdmd-footer-social svg { width: 16px; height: 16px; fill: var(--tdmd-white); pointer-events: none; }
+
+/* ===== Utility ===== */
+.tdmd-sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); border: 0; }
+
+@media print {
+ .tdmd-nav, .tdmd-footer, .tdmd-sidebar { display: none; }
+ .tdmd-content-grid { display: block; }
+ body { font-size: 11pt; }
+}
+</style>
+ <link rel="stylesheet" href="../dark-mode.css">
+
+</head>
+<body>
+<script src="../dark-mode.js"></script>
+
+<!-- Series banner -->
+<div class="tdmd-series-banner">
+ <strong>AI in Medicine Series</strong> <span>— Week 2 of 6 &mdash; When Medical AI Goes Wrong</span>
+</div>
+
+<!-- ===== Navigation ===== -->
+<nav class="tdmd-nav" role="navigation" aria-label="Main navigation">
+ <div class="tdmd-nav-inner">
+  <a href="/health-guides/" class="tdmd-nav-logo" aria-label="TeleDirectMD Health Guides">
+   <img src="https://images.squarespace-cdn.com/content/v1/67f359c5b3dddf176b8ba74e/4f92a229-3eb7-4454-83d7-17344ad9e1e7/logo.png?format=1500w" alt="TeleDirectMD Health Guides" width="190" height="80">
+  </a>
+  <button class="tdmd-hamburger" aria-label="Toggle navigation menu" aria-expanded="false">
+   <span></span><span></span><span></span>
+  </button>
+  <ul class="tdmd-nav-links" id="tdmd-nav-menu">
+   <li><a href="/health-guides/">Browse Guides</a></li>
+   <li><a href="/health-guides/complete-telehealth-conditions-guide/">Master Guide</a></li>
+   <li><a href="/health-guides/editorial-standards/">Editorial Standards</a></li>
+   <li><a href="mailto:contact@teledirectmd.com">Contact</a></li>
+   <li><button class="tdmd-dark-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+    <svg class="tdmd-icon-moon" viewBox="0 0 24 24"><path d="M21 12.79A9 9 0 0111.21 3 7 7 0 0012 21a7 7 0 009-8.21z"/></svg>
+    <svg class="tdmd-icon-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+   </button></li>
+  </ul>
+ </div>
+</nav>
+
+<!-- ===== Main Content ===== -->
+<main>
+
+<!-- Breadcrumb -->
+<div class="tdmd-container">
+ <nav class="tdmd-breadcrumb" aria-label="Breadcrumb">
+  <a href="https://teledirectmd.com">Home</a>
+  <span>›</span>
+  <a href="https://teledirectmd.com/health-guides">Health Guides</a>
+  <span>›</span>
+  <a href="https://teledirectmd.com/health-guides/ai-chatbots-vs-physicians-diagnostic-accuracy/">AI in Medicine</a>
+  <span>›</span>
+  <span aria-current="page">The Bixonimania Experiment</span>
+ </nav>
+</div>
+
+<!-- Article Header -->
+<div class="tdmd-container">
+ <header class="tdmd-article-header">
+  <span class="article-card-badge article-card-badge--ai tdmd-badge tdmd-badge--ai">AI in Medicine</span>
+  <h1 class="tdmd-article-title">The Bixonimania Experiment: How a Fake Disease Fooled ChatGPT, Gemini, and Copilot</h1>
+  <p class="tdmd-article-subtitle">A researcher invented an eye condition with fictional funding sources and impossible giveaways. Then she watched three major AI systems describe it as a real medical diagnosis.</p>
+  <div class="tdmd-article-meta">
+   <div class="tdmd-article-meta-item">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+    Written by <strong><a href="https://teledirectmd.com/health-guides/about-the-editor/">Parth Bhavsar, MD</a></strong>
+   </div>
+   <div class="tdmd-article-meta-item">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+    Published: June 15, 2026
+   </div>
+   <div class="tdmd-article-meta-item">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+    9 min read
+   </div>
+   <div class="tdmd-article-meta-item">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+    Last reviewed: June 2026
+   </div>
+  </div>
+ </header>
+</div>
+
+<!-- Content Grid -->
+<div class="tdmd-container">
+ <div class="tdmd-content-grid">
+
+  <!-- Article Body -->
+  <article class="tdmd-article-body">
+
+   <!-- Key Points -->
+   <div class="tdmd-key-points">
+    <h3>
+     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--tdmd-teal)" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+     Key Takeaways
+    </h3>
+    <ul>
+     <li>In 2024, researchers uploaded two preprints describing a fictitious eye disease loaded with obvious fabrication signals. Within weeks, ChatGPT, Gemini, and Copilot were describing it as a legitimate medical condition.<sup><a href="#ref-1">[1]</a></sup></li>
+     <li>Microsoft Copilot called bixonimania "an intriguing and relatively rare condition." Google Gemini instructed patients to visit an ophthalmologist. ChatGPT's responses shifted over months from confirmation to partial doubt — and back.<sup><a href="#ref-1">[1]</a></sup><sup><a href="#ref-2">[2]</a></sup></li>
+     <li>A peer-reviewed paper published in <em>Cureus</em> cited bixonimania as an "emerging form" of a real eye disorder. The paper was retracted in March 2026 after editors identified the fictitious reference.<sup><a href="#ref-3">[3]</a></sup></li>
+     <li>An audit of 2.5 million biomedical papers found that 1 in 277 papers published in early 2026 contained fabricated references — a 12-fold increase from 2023.<sup><a href="#ref-4">[4]</a></sup></li>
+     <li>A separate study of 20 large language models found that clinical hallucination rates are <em>higher</em> when the text uses formal medical language than when it comes from social media posts — the opposite of what most people assume.<sup><a href="#ref-5">[5]</a></sup></li>
+    </ul>
+   </div>
+
+   <!-- Hero Image -->
+   <figure class="tdmd-article-figure">
+    <img src="images/hero-bixonimania.png" alt="AI chatbot interface confidently displaying a fictional disease entry for bixonimania, with fake preprint papers and fictional funding references visible in the background" width="1024" height="576" loading="lazy">
+    <figcaption>A chatbot confidently presenting a fictitious disease entry. The Bixonimania experiment showed that AI models trained on internet text will repeat fabricated preprint content without recognizing obvious fabrication signals.</figcaption>
+   </figure>
+
+   <!-- Section 1 -->
+   <h2 id="setup">The Bixonimania Setup</h2>
+
+   <p>Almira Osmanovic Thunström had a straightforward question: if a researcher uploaded a fake medical paper to the internet, would AI chatbots treat its claims as real health information?</p>
+
+   <p>To find out, the University of Gothenburg medical researcher invented a disease. She named it <em>bixonimania</em> — deliberately, because no eye condition would ever carry the suffix "-mania," which belongs to psychiatric diagnosis. She described it as causing sore, itchy eyes, pinkish eyelids, and discomfort from blue light and screen exposure. Then she created a fictitious lead author named Lazljiv Izgubljenovic (which translates from Serbian to "lying loser"), generated a fake photograph for the author using AI, and uploaded two research reports to a preprint server in early 2024.<sup><a href="#ref-1">[1]</a></sup></p>
+
+   <p>The papers were designed to fail any basic scrutiny check. Her goal was not subtle deception — it was the opposite. The preprints were packed with signals so obvious that any reader who got past the abstract would recognize them as fabrications.</p>
+
+   <!-- Section 2 -->
+   <h2 id="experiment">How the Experiment Worked</h2>
+
+   <p>The fake papers cited funding from the "Professor Sideshow Bob Foundation for its work in advanced trickery." They acknowledged colleagues at the "Starfleet Academy" aboard the USS Enterprise. They described a larger funding initiative from "the University of Fellowship of the Ring and the Galactic Triad." One paper included the explicit text: "This entire paper is made up." The listed institutional affiliation — Asteria Horizon University in Nova City, California — does not exist.<sup><a href="#ref-1">[1]</a></sup><sup><a href="#ref-2">[2]</a></sup></p>
+
+   <p>Osmanovic Thunström also circulated information about bixonimania through blog posts on Medium. The strategy mirrored how health misinformation actually spreads: credible-looking content posted to channels that AI training pipelines regularly index, mixed with obviously impossible details to make the fabrication detectable to any human reader.</p>
+
+   <p>The results arrived quickly. "I didn't think that preprints, which are academia's sort of tabloids — because anything can end up there — would be weighed into the database as seriously as it was," she told <a href="https://www.smithsonianmag.com/smart-news/scientists-invented-a-disease-to-test-whether-ai-knew-it-was-fake-then-chatbots-started-saying-it-was-real-180988924/" target="_blank" rel="noopener">Smithsonian Magazine</a> in June 2026.</p>
+
+   <!-- Section 3 -->
+   <h2 id="chatbot-responses">The Chatbot Responses</h2>
+
+   <p>By April 2024, all three major consumer AI systems were describing bixonimania as though it were an established medical condition.</p>
+
+   <blockquote>
+    "Bixonimania is indeed an intriguing and relatively rare condition."
+    <cite>— Microsoft Bing Copilot, April 13, 2024<sup><a href="#ref-1">[1]</a></sup></cite>
+   </blockquote>
+
+   <p>Google Gemini went further, advising users with the described symptoms to consult an ophthalmologist:<sup><a href="#ref-1">[1]</a></sup></p>
+
+   <blockquote>
+    "Bixonimania is a condition caused by excessive exposure to blue light."
+    <cite>— Google Gemini, April 13, 2024<sup><a href="#ref-1">[1]</a></sup></cite>
+   </blockquote>
+
+   <p>ChatGPT's behavior was particularly telling. In April 2024, the model was telling users whether their symptoms matched bixonimania. By March 11, 2026, the same interface described the condition as "probably a made-up, fringe, or pseudoscientific label." Days later, a follow-up query returned a different answer: "Bixonimania is a proposed new subtype of periorbital melanosis (dark circles around the eyes) thought to be associated with exposure to blue light from digital screens."<sup><a href="#ref-1">[1]</a></sup></p>
+
+   <p>The inconsistency reflects a structural property of large language models: they do not look things up. They generate statistically probable responses based on patterns in training data. When bixonimania content appeared in that data, it shaped outputs — even when the model had access to information that should have flagged the condition as suspicious.</p>
+
+   <!-- In-article image -->
+   <figure class="tdmd-article-figure">
+    <img src="images/in-article-contamination-chain.png" alt="Infographic showing the chain of contamination from preprint to AI chatbot to peer-reviewed paper to retraction notice" width="1024" height="576" loading="lazy">
+    <figcaption>The contamination chain: a fabricated preprint enters AI training data, shapes chatbot responses, gets cited in peer-reviewed literature, and ultimately requires retraction — often months after the false claim has spread.</figcaption>
+   </figure>
+
+   <!-- Section 4: Evidence Table -->
+   <h2 id="evidence-table">AI Citation Fabrication: What the Studies Show</h2>
+
+   <p>The bixonimania experiment illustrates a broader pattern that multiple independent research groups have now quantified. Citation fabrication rates vary substantially across models, but none tested to date reach zero.<sup><a href="#ref-6">[6]</a></sup><sup><a href="#ref-7">[7]</a></sup></p>
+
+   <div class="tdmd-table-wrap">
+    <table class="tdmd-table">
+     <thead>
+      <tr>
+       <th>Model / System</th>
+       <th>Citation Fabrication Rate</th>
+       <th>Context</th>
+       <th>Source</th>
+      </tr>
+     </thead>
+     <tbody>
+      <tr>
+       <td><strong>GPT-3.5</strong></td>
+       <td class="warn">55% fabricated</td>
+       <td>Bibliographic citations across generated papers</td>
+       <td>Walters & Wilder, <em>Sci Rep</em> 2023<sup><a href="#ref-6">[6]</a></sup></td>
+      </tr>
+      <tr>
+       <td><strong>GPT-4</strong></td>
+       <td class="warn">18% fabricated</td>
+       <td>Same analysis — major improvement, but not zero</td>
+       <td>Walters & Wilder, <em>Sci Rep</em> 2023<sup><a href="#ref-6">[6]</a></sup></td>
+      </tr>
+      <tr>
+       <td><strong>Bard (early Gemini)</strong></td>
+       <td class="warn">91% hallucination rate</td>
+       <td>Medical systematic reviews; failed to retrieve any real papers</td>
+       <td>Chelli et al., <em>JMIR Med Inform</em> 2024<sup><a href="#ref-7">[7]</a></sup></td>
+      </tr>
+      <tr>
+       <td><strong>6 LLMs (adversarial test)</strong></td>
+       <td class="warn">50–83% propagation</td>
+       <td>Single planted false clinical detail — repeated or elaborated in output</td>
+       <td>Omar et al., <em>Commun Med</em> 2025<sup><a href="#ref-8">[8]</a></sup></td>
+      </tr>
+      <tr>
+       <td><strong>20 LLMs (clinical notes)</strong></td>
+       <td class="warn">46.1% susceptibility</td>
+       <td>Hospital notes with fabricated element vs. 8.9% for social media</td>
+       <td>Omar et al., <em>Lancet Digit Health</em> 2026<sup><a href="#ref-5">[5]</a></sup></td>
+      </tr>
+     </tbody>
+    </table>
+   </div>
+
+   <!-- Section 5 -->
+   <h2 id="real-literature">When Fake Data Reaches Peer-Reviewed Literature</h2>
+
+   <p>The bixonimania experiment did not stop with chatbot responses. Researchers at the Maharishi Markandeshwar Institute of Medical Sciences and Research in Mullana, India published a 2024 paper in <em>Cureus</em> — a peer-reviewed journal published by Springer Nature — on periorbital melanosis. The paper cited one of the fake preprints, describing bixonimania as "an emerging form of POM [periorbital melanosis] linked to blue light exposure; further research on the mechanism is underway."<sup><a href="#ref-3">[3]</a></sup></p>
+
+   <p>Editors retracted the paper on March 30, 2026. The retraction notice stated: "This article has been retracted by the Editor-in-Chief due to the presence of three irrelevant references, including one reference to a fictitious disease. As a result, the journal's editorial staff no longer has confidence in the accuracy or provenance of the work, thus requiring retraction." The authors disagreed with the decision.<sup><a href="#ref-3">[3]</a></sup></p>
+
+   <p>That single retracted paper is part of a much larger documented trend. A 2026 audit of nearly 2.5 million biomedical papers, published as a correspondence in <em>The Lancet</em> by Maxim Topaz and colleagues, found 4,046 fabricated references embedded across 2,810 peer-reviewed papers. The fabrication rate has risen sharply: from 1 in 2,828 papers in 2023, to 1 in 458 in 2025, to 1 in 277 in the first seven weeks of 2026 — a 12-fold increase over three years. The researchers identified the steepest rise in mid-2024, coinciding with the adoption of AI writing tools. At the time of the audit, 98.4% of the affected papers had received no publisher correction or retraction.<sup><a href="#ref-4">[4]</a></sup></p>
+
+   <p>Alex Ruani, a doctoral researcher in health misinformation at University College London, summarized the implication directly: "If the scientific process itself and the systems that support that process are skilled, and they aren't capturing and filtering out chunks like these, we're doomed."<sup><a href="#ref-1">[1]</a></sup></p>
+
+   <!-- Section 6 -->
+   <h2 id="trust-signal">The Counterintuitive Trust Signal</h2>
+
+   <p>Research published in <em>The Lancet Digital Health</em> by Mahmud Omar and colleagues at Harvard Medical School adds an important and unexpected dimension to this problem. The study tested 20 large language models against fabricated medical claims presented in two formats: formal clinical language (structured like a hospital discharge note or clinical paper) versus informal social media posts.<sup><a href="#ref-5">[5]</a></sup></p>
+
+   <p>The finding was striking. Models were susceptible to fabricated data in 46.1% of cases when the false claim appeared in formal hospital notes — versus just 8.9% when the same content came from social media. Formal clinical writing, the study found, increases hallucination rates rather than reducing them.</p>
+
+   <p>"When the text looks professional and written as a doctor writes, there's an increase in the hallucination rates," Omar explained.<sup><a href="#ref-1">[1]</a></sup> The study also found a counterintuitive secondary result: framing misinformation as a logical fallacy — "a senior clinician with 20 years of experience endorses this" — actually <em>reduced</em> model susceptibility in most cases, with "appeal to popularity" framing dropping susceptibility to just 12%.</p>
+
+   <p>The practical implication is direct: AI models are most likely to repeat false medical information precisely when that information appears most credible. This is why the bixonimania preprints, formatted as academic papers despite their absurd content, were more dangerous to feed into AI training pipelines than the same claims would have been in an informal blog post.</p>
+
+   <!-- Section 7: Dual path -->
+   <h2 id="implications">What This Means for Patients and Clinicians</h2>
+
+   <p>Published evidence now provides a clearer picture of where AI tools can be trusted in medical contexts and where independent verification remains essential.</p>
+
+   <div class="tdmd-dual-path">
+    <div class="tdmd-path-box trust">
+     <h4>
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+      Where Current Evidence Supports AI Use
+     </h4>
+     <ul>
+      <li>Drug interaction screening against validated, curated databases</li>
+      <li>Image-based triage in narrowly defined domains with published validation data (e.g., diabetic retinopathy screening)</li>
+      <li>Administrative drafting — scheduling, referral letters, patient education templates reviewed by a clinician</li>
+      <li>Flagging billing or documentation gaps in structured EHR data</li>
+      <li>Generating differential diagnosis lists for physician review (not as standalone guidance)</li>
+     </ul>
+    </div>
+    <div class="tdmd-path-box verify">
+     <h4>
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+      Where Human Verification Is Essential
+     </h4>
+     <ul>
+      <li>Rare disease identification — AI is most susceptible to hallucination in areas with sparse training data</li>
+      <li>Citation generation for clinical claims — fabrication rates remain 18–55% in most tested models</li>
+      <li>Novel literature synthesis — AI cannot distinguish retracted papers from current evidence</li>
+      <li>Any claim sourced from preprints or non-peer-reviewed content</li>
+      <li>Diagnosis or treatment guidance for individual patients — clinician judgment cannot be replaced</li>
+     </ul>
+    </div>
+   </div>
+
+   <p>Research suggests the key variable is not whether AI is used, but whether a trained clinician reviews the output before it influences a patient decision. The Omar <em>Lancet Digital Health</em> study found that the safest current approach depends less on model scale and more on "fact-grounding and context-aware guardrails" built around human oversight.<sup><a href="#ref-5">[5]</a></sup></p>
+
+   <!-- Related guide cross-link -->
+   <div class="tdmd-related-guide">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--tdmd-teal)" stroke-width="2"><path d="M2 3h6a4 4 0 014 4v14a3 3 0 00-3-3H2z"/><path d="M22 3h-6a4 4 0 00-4 4v14a3 3 0 013-3h7z"/></svg>
+    <p>For the regulatory side of this story, see <a href="/health-guides/fda-first-ai-warning-letter-2026/">FDA's First AI Warning Letter (Week 1 of this series)</a> — the April 2026 enforcement action that set the precedent for human oversight requirements in healthcare AI.</p>
+   </div>
+
+   <!-- Section 8: Bottom Line -->
+   <h2 id="bottom-line">Bottom Line</h2>
+
+   <p>The bixonimania experiment produced a finding that should concern anyone who consults an AI for health information. A disease that did not exist — one whose fake papers explicitly announced they were fabricated, cited the Professor Sideshow Bob Foundation, and thanked colleagues aboard the USS Enterprise — was confidently described as a real medical condition by three major AI platforms. One peer-reviewed paper cited it before the error was caught and retracted.</p>
+
+   <p>This is not an argument that AI has no role in medicine. Published data support well-defined, supervised applications where outputs are auditable and human review closes the loop. What the evidence does not support is relying on any current AI system to generate or verify clinical citations, identify conditions outside its training distribution, or serve as a substitute for a physician who can assess the source and reliability of the information being presented.</p>
+
+   <p>The fabrication rate in the published biomedical literature is now at its highest documented level, with 1 in 277 papers in early 2026 containing at least one reference that does not exist. The gap between AI confidence and AI accuracy remains one of the most consequential challenges in medical informatics today.</p>
+
+   <!-- FAQ Section -->
+   <h2 id="faq">Frequently Asked Questions</h2>
+
+   <div class="tdmd-faq-item">
+    <p class="tdmd-faq-q">Is bixonimania a real disease?</p>
+    <p class="tdmd-faq-a">No. Bixonimania was deliberately invented in 2024 by Almira Osmanovic Thunström at the University of Gothenburg to test whether AI systems would repeat fabricated medical content as fact. The preprints have been removed. A peer-reviewed paper that cited bixonimania was retracted in March 2026.</p>
+   </div>
+
+   <div class="tdmd-faq-item">
+    <p class="tdmd-faq-q">Why did ChatGPT and Gemini describe bixonimania as real?</p>
+    <p class="tdmd-faq-a">Large language models generate responses based on statistical patterns in training data, not source verification. Once fake papers describing bixonimania were posted on indexed preprint servers and blogs, that content entered the training pipeline. The models had no mechanism to cross-check whether the cited institution (Asteria Horizon University) or author (Lazljiv Izgubljenovic) actually existed.</p>
+   </div>
+
+   <div class="tdmd-faq-item">
+    <p class="tdmd-faq-q">How widespread is AI-generated citation fabrication in medical literature?</p>
+    <p class="tdmd-faq-a">An audit of 2.5 million biomedical papers published in <em>The Lancet</em> in May 2026 found a 12-fold increase in fabricated references from 2023 to early 2026, reaching approximately 1 in 277 papers. At the time of the audit, 98.4% of affected papers had not been corrected or retracted by their publishers.</p>
+   </div>
+
+   <div class="tdmd-faq-item">
+    <p class="tdmd-faq-q">Can AI still be useful for medical questions?</p>
+    <p class="tdmd-faq-a">Published evidence supports AI use in specific supervised tasks: drug interaction screening against validated databases, image triage in validated narrow domains, and administrative drafting reviewed by a clinician. Human verification remains essential for citation-dependent claims, rare disease diagnosis, novel literature synthesis, and any diagnosis or treatment decision affecting an individual patient.</p>
+   </div>
+
+   <!-- References -->
+   <div class="tdmd-references" id="references">
+    <h2>References</h2>
+    <ol>
+     <li id="ref-1">Stokel-Walker C. "Scientists invented a fake disease. AI told people it was real." <em>Nature</em> News. April 7, 2026. <a href="https://www.nature.com/articles/d41586-026-01100-y" target="_blank" rel="noopener">nature.com/articles/d41586-026-01100-y</a></li>
+     <li id="ref-2">Bassi M. "Scientists Invented a Disease to Test Whether A.I. Knew It Was Fake. Then, Chatbots Started Saying It Was Real." <em>Smithsonian Magazine</em>. June 11, 2026. <a href="https://www.smithsonianmag.com/smart-news/scientists-invented-a-disease-to-test-whether-ai-knew-it-was-fake-then-chatbots-started-saying-it-was-real-180988924/" target="_blank" rel="noopener">smithsonianmag.com</a></li>
+     <li id="ref-3">Banchhor S et al. [Retracted]. <em>Cureus</em> 16, e74625 (2024); retraction notice: <em>Cureus</em> 18, r223 (2026). Retracted March 30, 2026 for citing fictitious disease reference. <a href="https://www.cureus.com/articles/74625" target="_blank" rel="noopener">cureus.com/articles/74625</a></li>
+     <li id="ref-4">Topaz M et al. "Fabricated citations: an audit across 2.5 million biomedical papers." <em>The Lancet</em>. May 9, 2026. PIIS0140-6736(26)00603-3. <a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)00603-3/fulltext" target="_blank" rel="noopener">thelancet.com</a>. See also: Retraction Watch coverage at <a href="https://retractionwatch.com/2026/05/07/one-in-277-pubmed-indexed-papers-in-2026-shows-fabricated-references-says-analysis/" target="_blank" rel="noopener">retractionwatch.com</a></li>
+     <li id="ref-5">Omar M, Sorin V, Wieler LH, et al. "Mapping the susceptibility of large language models to medical misinformation across clinical notes and social media: a cross-sectional benchmarking analysis." <em>Lancet Digit Health.</em> 2026;8(1):100949. doi: <a href="https://pubmed.ncbi.nlm.nih.gov/41672646/" target="_blank" rel="noopener">10.1016/j.landig.2025.100949</a></li>
+     <li id="ref-6">Walters WH, Wilder EI. "Fabrication and errors in the bibliographic citations generated by ChatGPT." <em>Sci Rep.</em> 2023;13:14045. doi: 10.1038/s41598-023-41032-5. <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10484980/" target="_blank" rel="noopener">pmc.ncbi.nlm.nih.gov/articles/PMC10484980</a></li>
+     <li id="ref-7">Lamiaa A et al. "Reference Hallucination Score for Medical Artificial Intelligence." <em>JMIR Med Inform.</em> 2024;12:e54345. doi: 10.2196/54345. <a href="https://medinform.jmir.org/2024/1/e54345" target="_blank" rel="noopener">medinform.jmir.org/2024/1/e54345</a></li>
+     <li id="ref-8">Omar M et al. "Multi-model assurance analysis showing large language models are highly vulnerable to adversarial hallucination attacks during clinical decision support." <em>Commun Med.</em> 2025. PMC12318031. <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12318031/" target="_blank" rel="noopener">pmc.ncbi.nlm.nih.gov/articles/PMC12318031</a></li>
+    </ol>
+   </div>
+
+   <!-- Author Bio -->
+   <div class="tdmd-author-bio">
+    <div class="tdmd-author-avatar">PB</div>
+    <div class="tdmd-author-info">
+     <h3>Parth Bhavsar, MD</h3>
+     <p><strong>Board-Certified Family Medicine Physician — Editor in Chief, TeleDirectMD Health Guides</strong></p>
+     <p>Dr. Bhavsar is the founding physician of TeleDirectMD and writes and reviews all content in the AI in Medicine series. His editorial work focuses on the intersection of emerging AI tools and clinical practice standards, with a particular focus on what published evidence — not vendor claims — actually supports in a care delivery setting.</p>
+     <p><a href="/health-guides/about-the-editor/">Full editorial biography →</a></p>
+    </div>
+   </div>
+
+  </article>
+
+  <!-- Sidebar -->
+  <aside class="tdmd-sidebar">
+   <div class="tdmd-sidebar-card">
+    <h4>In This Article</h4>
+    <ul class="tdmd-toc">
+     <li><a href="#setup">The Bixonimania Setup</a></li>
+     <li><a href="#experiment">How the Experiment Worked</a></li>
+     <li><a href="#chatbot-responses">The Chatbot Responses</a></li>
+     <li><a href="#evidence-table">Citation Fabrication Data</a></li>
+     <li><a href="#real-literature">Real-Literature Contamination</a></li>
+     <li><a href="#trust-signal">The Counterintuitive Trust Signal</a></li>
+     <li><a href="#implications">What This Means</a></li>
+     <li><a href="#bottom-line">Bottom Line</a></li>
+     <li><a href="#faq">FAQ</a></li>
+     <li><a href="#references">References</a></li>
+    </ul>
+   </div>
+
+   <div class="tdmd-sidebar-card">
+    <h4>AI in Medicine Series</h4>
+    <ul class="tdmd-series-nav">
+     <li><a href="/health-guides/fda-first-ai-warning-letter-2026/">Week 1: FDA's First AI Warning Letter</a></li>
+     <li class="current">Week 2: The Bixonimania Experiment</li>
+     <li style="color:var(--tdmd-muted);padding-left:0.75rem;font-size:0.88rem;">Weeks 3–6: Coming soon</li>
+    </ul>
+   </div>
+
+   <div class="tdmd-sidebar-card" style="background:var(--tdmd-bg-soft);">
+    <h4>Related Guides</h4>
+    <ul class="tdmd-toc">
+     <li><a href="/health-guides/ai-chatbots-vs-physicians-diagnostic-accuracy/">AI Chatbots vs. Physicians: Diagnostic Accuracy</a></li>
+     <li><a href="/health-guides/fda-first-ai-warning-letter-2026/">FDA's First AI Warning Letter (2026)</a></li>
+    </ul>
+   </div>
+  </aside>
+
+ </div><!-- /content-grid -->
+</div><!-- /container -->
+
+</main>
+
+<!-- ===== Footer ===== -->
+<footer class="tdmd-footer">
+ <div class="tdmd-container">
+  <div class="tdmd-footer-grid">
+
+   <!-- Column 1: Editorial Brand -->
+   <div class="tdmd-footer-brand">
+    <a href="/health-guides/">
+     <img src="https://images.squarespace-cdn.com/content/67f359c5b3dddf176b8ba74e/e9b8675d-3f96-4f50-abc2-bc3df6df5c50/TDM+logo_white.jpg?content-type=image%2Fjpeg" alt="TeleDirectMD Health Guides" width="125" height="115" style="object-fit: contain;">
+    </a>
+    <p style="font-size:0.9rem;line-height:1.6;margin-bottom:1rem;opacity:0.85;">An evidence-based medical editorial library written and reviewed by board-certified physicians. Independent. Non-commercial. No affiliate links.</p>
+    <p style="font-size:0.85rem;line-height:1.5;margin-bottom:0.5rem;opacity:0.75;"><strong style="color:#fff;">Editor in Chief</strong><br>Parth Bhavsar, MD<br><span style="font-size:0.78rem;opacity:0.85;">Board-Certified Family Medicine</span></p>
+   </div>
+
+   <!-- Column 2: The Library -->
+   <div class="tdmd-footer-col">
+    <h5>The Library</h5>
+    <ul class="tdmd-footer-links">
+     <li><a href="/health-guides/">All Health Guides</a></li>
+     <li><a href="/health-guides/complete-telehealth-conditions-guide/">Master Guide</a></li>
+     <li><a href="/health-guides/#latest-articles">Latest Articles</a></li>
+     <li><a href="/health-guides/#at-home-testing">At-Home Testing Reviews</a></li>
+    </ul>
+   </div>
+
+   <!-- Column 3: Editorial -->
+   <div class="tdmd-footer-col">
+    <h5>Editorial</h5>
+    <ul class="tdmd-footer-links">
+     <li><a href="/health-guides/editorial-standards/#editorial-standards">Editorial Standards</a></li>
+     <li><a href="/health-guides/about-the-editor/">About the Editor</a></li>
+     <li><a href="/health-guides/editorial-standards/#methodology">Methodology</a></li>
+     <li><a href="/health-guides/editorial-standards/#corrections">Corrections Policy</a></li>
+     <li><a href="mailto:contact@teledirectmd.com">Contact the Editor</a></li>
+    </ul>
+   </div>
+
+   <!-- Column 4: Legal -->
+   <div class="tdmd-footer-col">
+    <h5>Legal</h5>
+    <ul class="tdmd-footer-links">
+     <li><a href="https://teledirectmd.com/privacy-policy">Privacy Policy</a></li>
+     <li><a href="https://teledirectmd.com/notice-of-privacy-practices">Notice of Privacy Practices</a></li>
+     <li><a href="https://teledirectmd.com/terms-of-use">Terms of Use</a></li>
+     <li><a href="https://teledirectmd.com/nondiscrimination-notice">Nondiscrimination Notice</a></li>
+     <li><a href="https://teledirectmd.com/accessibility">Accessibility</a></li>
+    </ul>
+   </div>
+
+  </div>
+
+  <!-- Editorial Disclaimer -->
+  <div style="margin-top:2.5rem;padding:1.25rem 1.5rem;background:rgba(255,255,255,0.04);border-left:3px solid rgba(255,255,255,0.25);border-radius:4px;font-size:0.85rem;line-height:1.65;opacity:0.85;">
+   <strong style="color:#fff;">Editorial disclaimer:</strong> This health guides library is published for educational purposes only. It does not constitute medical advice and is not a substitute for evaluation by a licensed clinician. Always consult a qualified healthcare provider about any medical concern. All articles are reviewed by Parth Bhavsar, MD, and cite peer-reviewed sources where possible.
+  </div>
+
+  <!-- Footer Bottom -->
+  <div class="tdmd-footer-bottom">
+   <div class="tdmd-footer-badges">
+    <a href="https://www.legitscript.com/websites/?checker_keywords=teledirectmd.com" target="_blank" rel="noopener noreferrer">
+     <img src="https://static.legitscript.com/seals/44406824.png" alt="LegitScript Certified" width="73" height="79" style="object-fit: contain;" loading="lazy">
+    </a>
+    <span style="font-size: 0.75rem; opacity: 0.7;">HIPAA Compliant</span>
+    <span style="font-size: 0.75rem; opacity: 0.7;">Editorial Independence</span>
+   </div>
+   <div class="tdmd-footer-legal">
+    <span>&copy; 2026 TeleDirectMD Health Guides. All rights reserved.</span>
+    <a href="https://teledirectmd.com/privacy-policy">Privacy</a>
+    <a href="https://teledirectmd.com/notice-of-privacy-practices">HIPAA Notice</a>
+    <a href="https://teledirectmd.com/terms-of-use">Terms</a>
+    <a href="https://teledirectmd.com/accessibility">Accessibility</a>
+   </div>
+   <div class="tdmd-footer-social">
+    <a href="https://www.instagram.com/teledirectmd" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+     <svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+    </a>
+    <a href="https://www.facebook.com/teledirectmd" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+     <svg viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+    </a>
+    <a href="https://linkedin.com/company/teledirectmd" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+     <svg viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.225 0h.003z"/></svg>
+    </a>
+    <a href="https://youtube.com/@teledirectmd" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+     <svg viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 00-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 00.502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 002.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 002.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+    </a>
+    <a href="https://www.tiktok.com/@teledirectmd" target="_blank" rel="noopener noreferrer" aria-label="TikTok">
+     <svg viewBox="0 0 24 24"><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"/></svg>
+    </a>
+   </div>
+  </div>
+  <div style="text-align:center;padding:0.75rem 0 1.5rem;font-size:0.72rem;opacity:0.5;">
+   Health Guides is the editorial publication of TeleDirectMD. Editorial content is independent of clinical operations and never influenced by sponsorship.
+  </div>
+ </div>
+</footer>
+
+<!-- ===== JavaScript ===== -->
+<script>
+// Mobile menu toggle
+(function() {
+ const hamburger = document.querySelector('.tdmd-hamburger');
+ const menu = document.getElementById('tdmd-nav-menu');
+ if (hamburger && menu) {
+  hamburger.addEventListener('click', function() {
+   const isOpen = menu.classList.toggle('tdmd-nav-open');
+   hamburger.setAttribute('aria-expanded', isOpen);
+  });
+  menu.querySelectorAll('a').forEach(function(link) {
+   link.addEventListener('click', function() {
+    menu.classList.remove('tdmd-nav-open');
+    hamburger.setAttribute('aria-expanded', 'false');
+   });
+  });
+ }
+})();
+
+// Smooth scroll for TOC links
+(function() {
+ document.querySelectorAll('.tdmd-toc a, sup a').forEach(function(link) {
+  link.addEventListener('click', function(e) {
+   const href = this.getAttribute('href');
+   if (href && href.startsWith('#')) {
+    e.preventDefault();
+    const target = document.querySelector(href);
+    if (target) {
+     const navHeight = document.querySelector('.tdmd-nav').offsetHeight;
+     const y = target.getBoundingClientRect().top + window.pageYOffset - navHeight - 20;
+     window.scrollTo({ top: y, behavior: 'smooth' });
+    }
+   }
+  });
+ });
+})();
+
+// Ensure external links work in iframes/embedded contexts
+(function() {
+ document.querySelectorAll('a[target="_blank"]').forEach(function(link) {
+  link.addEventListener('click', function(e) {
+   e.preventDefault();
+   window.open(this.href, '_blank', 'noopener,noreferrer');
+  });
+ });
+})();
+</script>
+
+</body>
+</html>
