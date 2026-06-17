@@ -36,8 +36,8 @@ export async function generateMetadata({ params }) {
   const rawCondition = getCondition(slug);
   const condition = resolveConditionNational(rawCondition);
   const pageUrl = `${baseUrl}/${slug}`;
-  const nationalTitle = condition.pageTitle;
-  const nationalDesc = condition.metaDescription;
+  const nationalTitle = condition.nationalOverrides?.pageTitle || condition.pageTitle;
+  const nationalDesc = condition.nationalOverrides?.metaDescription || condition.metaDescription;
 
   return {
     title: nationalTitle,

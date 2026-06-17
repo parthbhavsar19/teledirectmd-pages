@@ -2,6 +2,7 @@
 
 import { useState, useMemo } from 'react';
 import statesData from '../../data/states.json';
+import { getStoredAttribution, decorateUrl } from '../../lib/attribution';
 
 // Full US states + DC for the dropdown (so parents in non-licensed states
 // can still pick their state and be told we're not in their state yet).
@@ -56,7 +57,10 @@ export default function StartGateClient() {
     setTouched(true);
     if (!eligible) return;
     // Pre-fill Jotform via URL parameters. No PHI: only age + state abbreviation.
-    const url = `${JOTFORM_URL}?childAge=${encodeURIComponent(ageNum)}&state=${encodeURIComponent(stateAbbr)}`;
+    // Marketing attribution (utm_* / click IDs / landing page) is appended so
+    // the JotForm intake can capture it in hidden fields (Action 6).
+    const baseUrl = `${JOTFORM_URL}?childAge=${encodeURIComponent(ageNum)}&state=${encodeURIComponent(stateAbbr)}`;
+    const url = decorateUrl(baseUrl, getStoredAttribution());
     if (typeof window !== 'undefined') {
       try {
         if (typeof window.gtag === 'function') {

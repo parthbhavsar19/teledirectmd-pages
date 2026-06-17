@@ -18,7 +18,8 @@ export default function NationalConditionPage({ conditionSlug }) {
   const allStates = getStates();
   const categories = getConditionCategories();
 
-  const nationalH1 = condition.hero.h1;
+  const nationalH1 = condition.nationalOverrides?.h1 || condition.hero.h1;
+  const directAnswer = condition.nationalOverrides?.directAnswer;
 
   const nationalSubtitle = 'Nationwide adult care by secure video visit, self pay option starting at $79, MD-only. Insurance is not required but select plans are accepted.';
 
@@ -97,6 +98,27 @@ export default function NationalConditionPage({ conditionSlug }) {
           </p>
         </div>
       </div>
+
+      {/* 0c) Direct-answer block — extractable Q&A pairs for AI assistants.
+          Rendered only when a condition supplies nationalOverrides.directAnswer.
+          The same items are merged into FAQPage schema (lib/json-ld-national.js). */}
+      {directAnswer && directAnswer.items?.length > 0 && (
+        <section className="tdmd-section" id={`${pid}-direct-answers`} data-speakable="true">
+          <div className="tdmd-container">
+            {directAnswer.heading && <h2>{directAnswer.heading}</h2>}
+            <dl className="tdmd-direct-answers" style={{ margin: 0 }}>
+              {directAnswer.items.map((item, i) => (
+                <div key={i} style={{ marginBottom: i === directAnswer.items.length - 1 ? 0 : '1.25rem' }}>
+                  <dt style={{ fontWeight: 700, color: '#003E52', fontSize: '1.05rem', marginBottom: '0.25rem' }}>
+                    {item.question}
+                  </dt>
+                  <dd style={{ margin: 0, lineHeight: 1.6 }}>{item.answer}</dd>
+                </div>
+              ))}
+            </dl>
+          </div>
+        </section>
+      )}
 
       {/* 1) Hero */}
       <section className="tdmd-hero" id={`${pid}-hero`}>
