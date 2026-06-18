@@ -1,7 +1,6 @@
 'use client';
 import { B, INSURERS, STATE_NAMES, INSURANCE_CONDITIONS } from '../../../data/insurance/insuranceConfig';
 import { FAQ, BookCTA, HowItWorksSteps, TrustBar, Breadcrumb, InsuranceDisclaimer, AnswerBlock } from '../components/InsuranceShared';
-import { CompareToOtherTelehealthGrid, Or49CashLink } from '../../components/CostCompareModules';
 import { Ico } from '../components/InsuranceIcons';
 import { getAggregateRating, getReviewBlock } from '../../../lib/review-schema';
 import { CitableSummaryBlock } from '../../components/CitableSummary';
@@ -19,24 +18,33 @@ const BCBS_STATE_AFFILIATES = [
 ];
 
 const BCBS_FAQS = [
-  { q: "Is TeleDirectMD in-network with Blue Cross Blue Shield?", a: "Yes. TeleDirectMD is in-network with select Blue Cross Blue Shield affiliate plans in five states: Florida (Florida Blue), Georgia (Anthem BCBS), Illinois (BCBS of Illinois), Pennsylvania (Highmark BCBS), and Texas (BCBS of Texas). Because BCBS is a federation of independent plans, in-network status varies by state affiliate." },
-  { q: "Does Blue Cross Blue Shield cover telemedicine visits?", a: "Yes. Most BCBS commercial plans cover telehealth visits. Federal law requires most commercial insurers to cover telehealth services. Your actual cost depends on your plan's copay, coinsurance, and deductible. Call the member services number on the back of your BCBS card or log into your member portal to verify your telehealth benefits." },
-  { q: "Which Blue Cross Blue Shield plans are accepted?", a: "TeleDirectMD accepts commercial plans from Florida Blue, Anthem Blue Cross Blue Shield (Georgia), Blue Cross Blue Shield of Illinois, Highmark Blue Cross Blue Shield (Pennsylvania), and Blue Cross Blue Shield of Texas. Not all plans within each affiliate may be in-network. Federal Employee Program (FEP) plans and most Medicaid managed care plans are not accepted." },
-  { q: "What conditions does BCBS cover for telehealth at TeleDirectMD?", a: "BCBS covers telehealth visits for a wide range of conditions including UTI, sinus infection, strep throat, ear infection, pink eye, flu, asthma refills, hypertension refills, and many others. Coverage is subject to your plan's specific benefits. See our <a href='/what-we-treat' style='color:#006B73'>What We Treat</a> page for the full list." },
-  { q: "What is my copay for a BCBS telemedicine visit?", a: "Most BCBS commercial plans have telehealth copays of $0–$40. Your exact cost depends on your specific plan. Log into your BCBS member portal or call member services to verify your telehealth copay before your visit." },
-  { q: "Does BCBS cover prescription refills through telemedicine?", a: "Yes. BCBS covers telemedicine visits for chronic medication refills including asthma, hypertension, hypothyroidism, hyperlipidemia, and acid reflux. Prescriptions are sent to your pharmacy immediately after your visit with Dr. Bhavsar." },
-  { q: "How do I use my BCBS insurance with TeleDirectMD?", a: "Book at teledirectmd.com/book-online, select 'Insurance' as your payment method, and have your BCBS member ID card ready. We verify your coverage before your visit. You can also choose the flat $79 self-pay option at any time." },
-  { q: "Does TeleDirectMD accept Anthem Blue Cross Blue Shield?", a: "Yes. In Georgia, TeleDirectMD is in-network with Anthem Blue Cross Blue Shield commercial plans. If your Anthem BCBS card is issued in Georgia, your visit may be covered. Other Anthem-affiliated states are not currently in-network." },
-  { q: "Is Highmark BCBS accepted at TeleDirectMD?", a: "Yes. In Pennsylvania, TeleDirectMD is in-network with Highmark Blue Cross Blue Shield commercial plans. Pennsylvania residents with Highmark BCBS can use their benefits for video visits with Dr. Bhavsar." },
-  { q: "Does TeleDirectMD accept BCBS of Texas?", a: "Yes. In Texas, TeleDirectMD accepts Blue Cross Blue Shield of Texas commercial plans including Blue Advantage HMO, Blue Choice PPO, Health Select, Blue Essentials, and select Medicare Advantage plans. Texas is one of TeleDirectMD's most comprehensive BCBS markets." },
+  { q: "Which Blue Cross Blue Shield affiliates are in-network with TeleDirectMD?", a: "TeleDirectMD contracts with five BCBS affiliates: Anthem Blue Cross Blue Shield (Georgia), Blue Cross Blue Shield of Illinois (BCBS-IL), Highmark Blue Cross Blue Shield (Pennsylvania), Blue Cross Blue Shield of Texas (BCBS-TX), and Florida Blue (Florida — commercial only). Each affiliate operates an independent network — your card's three-letter prefix determines which affiliate holds your contract." },
+  { q: "I have BCBS but I'm visiting from another state — am I covered (BlueCard)?", a: "BlueCard host-state processing applies. If you have a BCBS plan from a state where TeleDirectMD is not directly contracted (for example, BCBS Massachusetts) and you're a resident in one of our contracted states, the host BCBS affiliate processes the claim under BlueCard PPO. Call your home plan's member services before booking to confirm BlueCard PPO is active on your plan." },
+  { q: "Florida Blue: which plan types are excluded?", a: "Florida Blue is commercial-only at TeleDirectMD. Florida Blue Medicare Advantage (BlueMedicare), Florida Blue Medicaid, Florida Blue State Group, and the Federal Employee Program (FEP / BCBS Federal) are not in-network. Florida Blue HMO BlueOptions, BlueSelect, BlueChoice, and BlueCare PPO commercial plans are in-network." },
+  { q: "Anthem in Georgia: which products are accepted?", a: "Anthem BCBS Georgia HMO, PPO, EPO, POS, and Medicare Advantage are in-network. Amerigroup Georgia (Anthem's Medicaid product line) is not in-network. Anthem Pathway HMO products on the Georgia individual marketplace are in-network." },
+  { q: "Highmark Pennsylvania: which network areas are covered?", a: "Highmark BCBS Pennsylvania (Western PA, Central PA, and Northeast PA service areas) is in-network. Independence Blue Cross (Southeast PA, Philadelphia metro) is a separate BCBS affiliate and is not currently contracted with TeleDirectMD. Check the back of your card for 'Highmark' branding to confirm." },
+  { q: "BCBS-Texas: any commercial-only restrictions?", a: "BCBS-TX is currently commercial-only at TeleDirectMD. BCBS-TX Medicare Advantage is not in-network in Texas. BCBS-TX HMO Blue, PPO Blue Choice, and Blue Advantage HMO commercial plans are in-network. WellMed (a BCBS-TX Medicare Advantage delegate) and BCBS-TX Medicaid (STAR / STAR+PLUS) are not in-network." },
+  { q: "BCBS-Illinois: is BlueCare Direct or Blue Precision HMO in-network?", a: "BCBS-IL PPO, HMO Illinois, Blue Advantage HMO, and Blue Choice Preferred PPO commercial plans are in-network. BCBS-IL Medicare Advantage is not in-network (commercial-only contract in IL). BCBS-IL Community plans (Medicaid managed care) are not in-network." },
+  { q: "Does TeleDirectMD accept any BCBS Medicaid product?", a: "No. TeleDirectMD is not in-network with any BCBS Medicaid plan, including Amerigroup Georgia (Anthem), BCBS-IL Community, BCBS-TX Medicaid (STAR / STAR+PLUS), or Florida Blue Medicaid. Self-pay $79 visits remain available." },
 ];
 
 const CONDITIONS_COVERED = [
-  "UTI (Urinary Tract Infection)","Sinus Infection","Strep Throat","Ear Infection",
-  "Pink Eye (Conjunctivitis)","Flu / Influenza","Yeast Infection","Cold Sores",
-  "Asthma Inhaler Refills","Hypertension Medication Refills","Acid Reflux / GERD Refills",
-  "Hypothyroidism Refills","Hyperlipidemia Refills","Seasonal Allergies","Acne",
-  "Birth Control Refills","COVID-19 Treatment","Eczema","Contact Dermatitis","Nausea / Vomiting",
+  "Urinary Tract Infection (UTI)",
+  "Sinus Infection",
+  "Strep Throat",
+  "Ear Infection",
+  "Pink Eye",
+  "Flu / Influenza",
+  "Anthem GA Asthma Refills",
+  "Highmark PA Hypertension Refills",
+  "BCBS-IL Cholesterol Refills",
+  "BCBS-TX Diabetes Refills",
+  "Florida Blue Acid Reflux Refills",
+  "BlueCard Out-of-State Visits",
+  "Cold Sores",
+  "Yeast Infection",
+  "Contraception Refills",
+  "COVID-19 Evaluation",
 ];
 
 const SCHEMA = {
@@ -100,11 +108,19 @@ const SCHEMA = {
 };
 
 export default function BCBSHubClient() {
+  const customSteps = [
+    { icon: <Ico.Cal c={B.teal} s={24} />, title: "Book with BCBS ID", desc: "Enter your BCBS member ID (three-letter prefix included) at teledirectmd.com/book-online." },
+    { icon: <Ico.Check c={B.teal} s={24} />, title: "Affiliate routing", desc: "We route the claim to your specific BCBS affiliate — Anthem, Highmark, Florida Blue, BCBS-IL, or BCBS-TX." },
+    { icon: <Ico.Video c={B.teal} s={24} />, title: "Video visit + e-Rx", desc: "Same-day visit with Dr. Bhavsar, MD. Prescription routed via your BCBS pharmacy benefit." },
+  ];
+
   // ── Citable summary for AI extractors (Blue Cross Blue Shield hub)
   const citableSummary_AI = summarizeInsurerHub({
     insurerName: 'Blue Cross Blue Shield',
     stateCount: insurer?.states?.length || null,
     stateList: insurer?.states ? insurer.states.map(s => STATE_NAMES[s] || s) : null,
+    planTypes: "PPO, HMO, EPO, POS, and (state-permitting) Medicare Advantage",
+    payerSpecificCopy: "Blue Cross Blue Shield coverage at TeleDirectMD is held through five affiliate contracts: Anthem BCBS Georgia, Highmark BCBS Pennsylvania (Western/Central/Northeast PA only \u2014 not Independence Blue Cross), BCBS Illinois (HCSC), BCBS Texas (HCSC), and Florida Blue (commercial-only). Each affiliate uses its own payer ID and claims clearinghouse. BlueCard PPO host-state processing applies if you carry a BCBS plan from a non-contracted state and visit one of ours. Amerigroup Georgia, BCBS-IL Community, BCBS-TX Medicaid (STAR / STAR+PLUS), and Florida Blue Medicaid are excluded in every state. BCBS-TX, BCBS-IL, and Florida Blue exclude Medicare Advantage.",
   });
   const pageUrl_AI = 'https://teledirectmd.com/insurance/blue-cross-blue-shield/';
   const citableJsonLd_AI = citableSummaryToJsonLd(citableSummary_AI, { pageUrl: pageUrl_AI });
@@ -197,10 +213,10 @@ export default function BCBSHubClient() {
         <section style={{ marginBottom:48 }}>
           <h2 style={{ fontFamily:B.fd, fontSize:26, fontWeight:700, color:B.navy, margin:"0 0 8px" }}>How to Use Your BCBS Insurance</h2>
           <p style={{ fontSize:15, color:B.text, margin:"0 0 24px", lineHeight:1.6 }}>Using your Blue Cross Blue Shield benefits with TeleDirectMD is straightforward.</p>
-          <HowItWorksSteps insurerName="Blue Cross Blue Shield" />
+          <HowItWorksSteps insurerName="Blue Cross Blue Shield" customSteps={customSteps} />
         </section>
 
-        <section style={{ marginBottom:48 }}><BookCTA insurerName="Blue Cross Blue Shield" /></section>
+        <section style={{ marginBottom:48 }}><BookCTA insurerName="Blue Cross Blue Shield" tagline="Anthem GA, Highmark PA, BCBS-IL, BCBS-TX, and Florida Blue — each affiliate routed to the right payer ID before your visit." subtagline="Out-of-state BCBS members visiting our states are processed via BlueCard PPO; or pay $79 self-pay." /></section>
 
         {/* Sitewide Medicaid + D-SNP exclusion */}
         <MedicaidExclusion headingLevel="h2" idSuffix="bcbs-hub" />
@@ -213,38 +229,33 @@ export default function BCBSHubClient() {
           </div>
         </section>
 
+        
+        {/* EXPLORE LINKS — top-6 BCBS combos */}
         <section style={{ marginBottom:48 }}>
-          <h2 style={{ fontFamily:B.fd, fontSize:22, fontWeight:700, color:B.navy, margin:"0 0 16px" }}>Explore BCBS Coverage by Condition</h2>
-          <div style={{ display:"grid", gridTemplateColumns:"repeat(auto-fill, minmax(200px, 1fr))", gap:10 }}>
-            {Object.values(INSURANCE_CONDITIONS).map((cond,i) => (
-              <a key={i} href={`/insurance/blue-cross-blue-shield/${cond.slug}`}
+          <h2 style={{ fontFamily:B.fd, fontSize:22, fontWeight:700, color:B.navy, margin:"0 0 16px" }}>Top BCBS telehealth combinations by affiliate</h2>
+          <div style={{ display:"grid", gridTemplateColumns:"repeat(auto-fill, minmax(220px, 1fr))", gap:10 }}>
+            {[
+              { slug: 'uti-treatment-online', label: 'UTI (Anthem GA / Highmark PA)' },
+              { slug: 'sinus-infection-treatment-online', label: 'Sinus infection (BCBS-IL / BCBS-TX)' },
+              { slug: 'pink-eye-treatment-online', label: 'Pink eye (Florida Blue)' },
+              { slug: 'sore-throat-treatment-online', label: 'Strep throat (Anthem GA)' },
+              { slug: 'yeast-infection-treatment-online', label: 'Yeast infection (Highmark PA)' },
+              { slug: 'ear-pain-treatment-online', label: 'Ear infection (BlueCard PPO)' },
+            ].map((c, i) => (
+              <a key={i} href={`/insurance/blue-cross-blue-shield/${c.slug}`}
                 style={{ display:"block", background:B.white, border:`1px solid ${B.border}`, borderRadius:B.rs, padding:"14px 16px", textDecoration:"none", boxShadow:B.shadow }}>
-                <div style={{ fontSize:14, fontWeight:600, color:B.navy, marginBottom:2 }}>BCBS + {cond.name}</div>
-                <div style={{ fontSize:12, color:B.text }}>Does BCBS cover {cond.name.toLowerCase()}?</div>
+                <div style={{ fontSize:14, fontWeight:600, color:B.navy }}>{c.label}</div>
+                <div style={{ fontSize:12, color:B.text, marginTop:2 }}>Affiliate-specific copay · check Blue Card prefix</div>
               </a>
             ))}
           </div>
         </section>
-
-        {/* FEATURED DEEP COVERAGE — internal linking to triple-matrix pages */}
-        <section style={{ marginBottom:48 }} data-speakable="true">
-          <h2 style={{ fontFamily:B.fd, fontSize:22, fontWeight:700, color:B.navy, margin:"0 0 8px" }}>Popular BCBS Coverage in Top Markets</h2>
-          <p style={{ fontSize:14, color:B.text, margin:"0 0 16px", lineHeight:1.6 }}>Most-searched in-network BCBS telemedicine combinations at TeleDirectMD:</p>
-          <div style={{ display:"grid", gridTemplateColumns:"repeat(auto-fill, minmax(260px, 1fr))", gap:10 }}>
-            <a href="/tx/" style={{ display:"block", background:B.white, border:`1px solid ${B.border}`, borderRadius:B.rs, padding:"12px 14px", textDecoration:"none", boxShadow:B.shadow, color:B.navy }}>Sinus infection covered by BCBS in Texas →</a>
-            <a href="/ga/" style={{ display:"block", background:B.white, border:`1px solid ${B.border}`, borderRadius:B.rs, padding:"12px 14px", textDecoration:"none", boxShadow:B.shadow, color:B.navy }}>UTI treatment covered by BCBS in Georgia →</a>
-            <a href="/fl/" style={{ display:"block", background:B.white, border:`1px solid ${B.border}`, borderRadius:B.rs, padding:"12px 14px", textDecoration:"none", boxShadow:B.shadow, color:B.navy }}>Strep throat covered by BCBS in Florida →</a>
-            <a href="/il/" style={{ display:"block", background:B.white, border:`1px solid ${B.border}`, borderRadius:B.rs, padding:"12px 14px", textDecoration:"none", boxShadow:B.shadow, color:B.navy }}>Flu treatment covered by BCBS in Illinois →</a>
-            <a href="/pa/" style={{ display:"block", background:B.white, border:`1px solid ${B.border}`, borderRadius:B.rs, padding:"12px 14px", textDecoration:"none", boxShadow:B.shadow, color:B.navy }}>Ear infection covered by BCBS in Pennsylvania →</a>
-            <a href="/tx/" style={{ display:"block", background:B.white, border:`1px solid ${B.border}`, borderRadius:B.rs, padding:"12px 14px", textDecoration:"none", boxShadow:B.shadow, color:B.navy }}>Pink eye covered by BCBS in Texas →</a>
-          </div>
-        </section>
-
-        {/* Cost-page link + compare-grid (PR 3 of cost-and-compare sprint) */}
-        <Or49CashLink />
-        <CompareToOtherTelehealthGrid heading="Compare TeleDirectMD to Other Telehealth Providers" />
-
-        <div style={{ marginBottom:48 }}><InsuranceDisclaimer /></div>
+        {/* Compact link out to /insurance/ — full cost comparison lives there */}
+        <div style={{ background:"#F3FAFB", border:"1px solid #DDE3E6", borderRadius:18, padding:"18px 22px", margin:"0 0 32px", display:"flex", flexWrap:"wrap", alignItems:"center", justifyContent:"space-between", gap:12 }}>
+          <p style={{ margin:0, fontSize:14, color:"#12323A" }}>Not in-network on your plan? Self-pay is a flat <strong>$79</strong> in all our licensed states (HSA/FSA eligible).</p>
+          <a href="/insurance/" style={{ display:"inline-flex", alignItems:"center", gap:6, padding:"10px 18px", background:"#006B73", color:"#fff", borderRadius:10, fontWeight:700, fontSize:14, textDecoration:"none", whiteSpace:"nowrap" }}>Compare options →</a>
+        </div>
+<div style={{ marginBottom:48 }}><InsuranceDisclaimer payerNote="BCBS network status reflects five affiliate contracts (Anthem GA, Highmark PA, BCBS-IL, BCBS-TX, Florida Blue). Amerigroup GA, BCBS-IL Community, BCBS-TX Medicaid, and Florida Blue Medicaid are excluded." /></div>
       </div>
     </div>
   );

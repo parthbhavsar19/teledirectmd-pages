@@ -1,7 +1,6 @@
 'use client';
 import { B, INSURERS } from '../../../data/insurance/insuranceConfig';
 import { FAQ, BookCTA, HowItWorksSteps, TrustBar, Breadcrumb, InsuranceDisclaimer, AnswerBlock } from '../components/InsuranceShared';
-import { CompareToOtherTelehealthGrid, Or49CashLink } from '../../components/CostCompareModules';
 import { Ico } from '../components/InsuranceIcons';
 import { getAggregateRating, getReviewBlock } from '../../../lib/review-schema';
 import { CitableSummaryBlock } from '../../components/CitableSummary';
@@ -21,26 +20,14 @@ const bcbs = INSURERS['blue-cross-blue-shield'];
 const fbColor = '#0073B7'; // Florida Blue corporate blue
 
 const FB_FAQS = [
-  { q: "Is TeleDirectMD in-network with Florida Blue?",
-    a: "Yes. TeleDirectMD is in-network with Florida Blue (the BCBS licensee for Florida) commercial plans, effective 2026-02-01. Florida Blue Medicaid, Florida Blue Medicare Advantage, and Federal Employee Program (FEP) plans are not in-network at this time." },
-  { q: "Does Florida Blue cover telemedicine visits?",
-    a: "Yes. Florida Blue commercial plans cover telehealth visits. Your specific copay or coinsurance depends on your individual plan. Many Florida Blue employer-sponsored plans carry $0 telehealth copays. Verify your benefits at floridablue.com or call the member services number on the back of your card." },
-  { q: "Which Florida Blue plans are accepted at TeleDirectMD?",
-    a: "TeleDirectMD accepts Florida Blue commercial individual and group plans, including BlueOptions, BlueSelect, BlueCare HMO, and most employer-sponsored plans. Federal Employee Program (FEP) plans, Florida Blue Medicaid, and Florida Blue Medicare Advantage are NOT currently in-network." },
-  { q: "What is my Florida Blue copay for a TeleDirectMD telemedicine visit?",
-    a: "Most Florida Blue commercial plans have telehealth copays of $0–$30. Many employer-sponsored Florida Blue plans carry $0 telehealth copays. Your specific cost-sharing depends on your individual plan. Log into floridablue.com or call member services to verify your telehealth copay before your visit." },
-  { q: "What conditions does Florida Blue cover for telehealth at TeleDirectMD?",
-    a: "Florida Blue covers telehealth visits for a wide range of acute and chronic conditions, including UTI, sinus infection, strep throat, ear infection, pink eye, flu, yeast infection, cold sores, asthma refills, hypertension refills, hyperlipidemia refills, hypothyroidism refills, acid reflux refills, seasonal allergies, acne, eczema, chlamydia, BV, cellulitis, and more. Coverage is subject to your plan's specific benefits." },
-  { q: "Does Florida Blue cover prescription refills through telemedicine?",
-    a: "Yes. Florida Blue covers telemedicine visits for chronic medication refills including asthma, hypertension, hypothyroidism, hyperlipidemia, and acid reflux. Prescriptions are sent electronically to your Florida pharmacy immediately after your visit with Dr. Parth Bhavsar, MD." },
-  { q: "How do I use my Florida Blue insurance with TeleDirectMD?",
-    a: "Book at teledirectmd.com/book-online, select 'Insurance' as your payment method, and have your Florida Blue member ID card ready. We verify your coverage and copay before your visit. You can also choose the $79 flat self-pay option at any time — same physician, same care quality." },
-  { q: "Can I see Dr. Bhavsar, MD in person in Florida?",
-    a: "No. Dr. Parth Bhavsar, MD is registered to provide telehealth services in Florida under Fla. Stat. § 456.47(4) (Florida Telehealth Provider Registration #TPME5921). This registration permits telehealth services only. If your condition requires in-person evaluation or treatment, your TeleDirectMD physician will refer you to a Florida-licensed provider in your area." },
-  { q: "How does TeleDirectMD bill Florida Blue for my visit?",
-    a: "TeleDirectMD submits your claim electronically to Florida Blue using CPT codes 99213 (standard complexity) or 99214 (moderate complexity). Florida Blue processes the claim and applies it to your benefits. You'll receive an Explanation of Benefits (EOB) within 2–4 weeks." },
-  { q: "What if my specific Florida Blue plan isn't in-network?",
-    a: "If your specific Florida Blue plan is not in-network, you can still see Dr. Bhavsar, MD as a self-pay patient for the $79 flat fee. You may also submit an out-of-network claim to Florida Blue for partial reimbursement, depending on your plan's out-of-network benefit." },
+  { q: "Which Florida Blue plans are in-network with TeleDirectMD?", a: "TeleDirectMD is in-network with Florida Blue's commercial plans only: BlueOptions PPO, BlueSelect PPO, BlueChoice PPO, BlueCare HMO, and Florida Blue's small-group and individual marketplace HMO/PPO products. Florida Blue Medicare Advantage (BlueMedicare HMO/PPO), Florida Blue Medicaid, Florida Blue State Group (state employee plan), and the Federal Employee Program (FEP) are not in-network." },
+  { q: "What is the difference between Florida Blue and BlueCross BlueShield Federal (FEP)?", a: "Florida Blue is the local BCBS affiliate that issues commercial plans to Florida residents. The Federal Employee Program (FEP / 'BCBS Federal', card prefix 'R') is a separate national program for federal employees, administered by the BCBS Association — it is not in-network at TeleDirectMD even when the cardholder lives in Florida. Look at your member ID prefix: 'XJG', 'XGJ', 'XOJ', or 'YPF' is typically commercial Florida Blue; 'R' is FEP." },
+  { q: "I have Florida Blue Medicare Advantage (BlueMedicare) — can I still see a TeleDirectMD physician?", a: "Yes, as a $79 self-pay patient. We are not in-network for Florida Blue Medicare Advantage, but the $79 flat fee is HSA/FSA eligible and there is no copay, deductible, or surprise bill." },
+  { q: "My Florida Blue plan card says 'State Group' — am I covered?", a: "No. Florida Blue State Group (the Florida state employees / retirees plan) runs through a separate state-administered contract and is not in-network at TeleDirectMD. Self-pay $79 visits remain available." },
+  { q: "What's my Florida Blue copay for a telehealth visit?", a: "Most Florida Blue commercial PPO/HMO plans apply a $0–$30 telehealth copay (often lower than the in-person specialist copay). High-deductible health plans (HDHP) may apply the full contracted rate (~$110–$130) toward the deductible until met. Log into floridablue.com or the Florida Blue app to verify." },
+  { q: "Will Florida Blue pharmacy benefits cover my prescription?", a: "Yes. The visit and the prescription are separately billed — Florida Blue's pharmacy benefit (Prime Therapeutics for most commercial plans) applies when the e-prescription is filled at your pharmacy. Generic medications on Florida Blue's standard formulary are typically $0–$10." },
+  { q: "Florida Blue out-of-state members visiting Florida — am I covered?", a: "BlueCard PPO host processing applies. If you have a BCBS plan from another state and you're physically located in Florida at the time of the visit, Florida Blue acts as the host plan and processes the claim through BlueCard. Call your home plan's member services to confirm BlueCard PPO is active." },
+  { q: "Does TeleDirectMD accept Florida Blue Medicaid?", a: "No. Florida Blue Medicaid is not in-network. TeleDirectMD is not in-network with any Medicaid plan in any state. Self-pay $79 visits remain available." },
 ];
 
 const FB_CONDITIONS_COVERED = [
@@ -110,11 +97,19 @@ const SCHEMA = {
 };
 
 export default function FloridaBlueHubClient() {
+  const customSteps = [
+    { icon: <Ico.Cal c={B.teal} s={24} />, title: "Confirm commercial plan", desc: "Florida Blue commercial only — check your member ID prefix is XJG/XGJ/XOJ/YPF, not 'R' (FEP)." },
+    { icon: <Ico.Check c={B.teal} s={24} />, title: "Benefits verified", desc: "We confirm your Florida Blue commercial copay before the video call (typically $0–$30)." },
+    { icon: <Ico.Video c={B.teal} s={24} />, title: "Video visit + Prime Rx", desc: "Same-day video with Dr. Bhavsar, MD. Prescription routed via Florida Blue's Prime Therapeutics pharmacy benefit." },
+  ];
+
   // Citable summary for AI extractors
   const citableSummary_AI = summarizeInsurerHub({
     insurerName: 'Florida Blue',
     stateCount: 1,
     stateList: ['Florida'],
+    planTypes: "commercial PPO, HMO, EPO, and POS",
+    payerSpecificCopy: "Florida Blue is the BCBS affiliate covering Florida residents. TeleDirectMD's Florida Blue contract is commercial-only: BlueOptions PPO, BlueSelect PPO, BlueChoice PPO, BlueCare HMO, and the small-group/individual marketplace plans are in-network. Florida Blue Medicare Advantage (BlueMedicare HMO/PPO), Florida Blue Medicaid, Florida Blue State Group, and the Federal Employee Program (FEP / BCBS Federal, member ID prefix 'R') are not in-network. Pharmacy benefits run through Prime Therapeutics for most commercial plans. BlueCard PPO host-state processing applies for visiting out-of-state BCBS members physically located in Florida at the time of the visit. Typical telehealth copay: $0\u2013$30.",
   });
   const pageUrl_AI = 'https://teledirectmd.com/insurance/florida-blue/';
   const citableJsonLd_AI = citableSummaryToJsonLd(citableSummary_AI, { pageUrl: pageUrl_AI });
@@ -178,7 +173,7 @@ export default function FloridaBlueHubClient() {
         <section style={{ marginBottom: 48 }}>
           <h2 style={{ fontFamily: B.fd, fontSize: 26, fontWeight: 700, color: B.navy, margin: "0 0 8px" }}>How it works with Florida Blue</h2>
           <p style={{ fontSize: 15, color: B.text, margin: "0 0 24px", lineHeight: 1.6 }}>From booking to prescription, a Florida Blue-covered visit with Dr. Bhavsar, MD takes under 30 minutes from start to finish.</p>
-          <HowItWorksSteps insurer="Florida Blue" />
+          <HowItWorksSteps insurerName="Florida Blue" customSteps={customSteps} />
         </section>
 
         {/* CONDITIONS COVERED */}
@@ -204,8 +199,12 @@ export default function FloridaBlueHubClient() {
           <p style={{ fontSize: 15, color: B.text, margin: "0 0 16px", lineHeight: 1.7 }}>
             Prefer to skip insurance entirely? The TeleDirectMD self-pay rate is <strong>$79 flat</strong> for the video visit. Prescription medications, if appropriate, are paid separately at your pharmacy. This is often the simplest option if you have a high-deductible plan or if you&rsquo;d rather not file a claim.
           </p>
-          <Or49CashLink />
-        </section>
+        {/* Compact link out to /insurance/ — full cost comparison lives there */}
+        <div style={{ background:"#F3FAFB", border:"1px solid #DDE3E6", borderRadius:18, padding:"18px 22px", margin:"0 0 32px", display:"flex", flexWrap:"wrap", alignItems:"center", justifyContent:"space-between", gap:12 }}>
+          <p style={{ margin:0, fontSize:14, color:"#12323A" }}>Not in-network on your plan? Self-pay is a flat <strong>$79</strong> in all our licensed states (HSA/FSA eligible).</p>
+          <a href="/insurance/" style={{ display:"inline-flex", alignItems:"center", gap:6, padding:"10px 18px", background:"#006B73", color:"#fff", borderRadius:10, fontWeight:700, fontSize:14, textDecoration:"none", whiteSpace:"nowrap" }}>Compare options →</a>
+        </div>
+</section>
 
         {/* Sitewide Medicaid + D-SNP exclusion */}
         <MedicaidExclusion headingLevel="h2" idSuffix="florida-blue-hub" />
@@ -216,13 +215,10 @@ export default function FloridaBlueHubClient() {
           <FAQ items={FB_FAQS} />
         </section>
 
-        {/* COMPARE */}
-        <CompareToOtherTelehealthGrid heading="Compare TeleDirectMD to Other Telehealth Providers" />
+        {/* COMPARE */}{/* BOOK CTA */}
+        <BookCTA insurerName="Florida Blue" tagline="Florida Blue commercial PPO, HMO, EPO, and POS plans — verified before your video visit. FEP, Medicaid, State Group, and BlueMedicare are not in-network." subtagline="Or pay $79 self-pay (HSA/FSA eligible) — no claim, no copay surprises." />
 
-        {/* BOOK CTA */}
-        <BookCTA insurer="Florida Blue" color={fbColor} />
-
-        <div style={{ marginBottom: 48 }}><InsuranceDisclaimer /></div>
+        <div style={{ marginBottom: 48 }}><InsuranceDisclaimer payerNote="Florida Blue network status reflects our commercial-only contract. Florida Blue Medicare Advantage (BlueMedicare), State Group, FEP (member ID prefix 'R'), and Florida Blue Medicaid are not in-network." /></div>
       </div>
 
       {/* FL: A2 no-in-person-care + A4 standard-of-care (softer) + A3 verify-link placement 2 of 3. */}

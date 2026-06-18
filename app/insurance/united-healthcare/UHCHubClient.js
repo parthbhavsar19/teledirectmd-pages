@@ -1,7 +1,6 @@
 'use client';
 import { B, INSURERS, STATE_NAMES, INSURANCE_CONDITIONS } from '../../../data/insurance/insuranceConfig';
 import { FAQ, BookCTA, HowItWorksSteps, TrustBar, Breadcrumb, InsuranceDisclaimer, AnswerBlock } from '../components/InsuranceShared';
-import { CompareToOtherTelehealthGrid, Or49CashLink } from '../../components/CostCompareModules';
 import { Ico } from '../components/InsuranceIcons';
 import { getAggregateRating, getReviewBlock } from '../../../lib/review-schema';
 import { CitableSummaryBlock } from '../../components/CitableSummary';
@@ -25,24 +24,33 @@ const UHC_STATES = [
 ];
 
 const UHC_FAQS = [
-  { q:"Is TeleDirectMD in-network with UnitedHealthcare?", a:"Yes. TeleDirectMD is in-network with UnitedHealthcare PPO, HMO, EPO, POS, and Medicare Advantage plans in 17 states: Arizona, California, Colorado, Florida, Georgia, Illinois, Louisiana, Michigan, Minnesota, North Carolina, New Jersey, Ohio, Oklahoma, Pennsylvania, Tennessee, Texas, and Washington. Medicare Advantage is not in-network in Illinois, Minnesota, or Texas (commercial-only contracts). If you have a UHC employer-sponsored or individual plan in one of these states, your telehealth visit with Dr. Bhavsar may be covered." },
-  { q:"Does UnitedHealthcare cover telemedicine visits?", a:"Yes. UnitedHealthcare covers telehealth visits for most commercial plan members. Under the UHC telehealth benefit, virtual visits with in-network providers are covered comparably to in-person visits. Your actual out-of-pocket cost — copay, coinsurance, or deductible — depends on your specific plan. Call the member services number on your UHC card or log into myuhc.com to verify your telehealth benefits." },
-  { q:"What UnitedHealthcare plans does TeleDirectMD accept?", a:"TeleDirectMD accepts UnitedHealthcare commercial plans including UnitedHealthcare Choice, UnitedHealthcare Options PPO, and employer-sponsored UHC group plans in the 10 listed states. UHC Community Plan (Medicaid), AARP Medicare Advantage, and fee-for-service Medicare plans are not currently accepted." },
-  { q:"What conditions does UHC cover for telehealth at TeleDirectMD?", a:"UHC covers telehealth visits for a wide range of conditions including UTI, sinus infection, strep throat, ear infection, pink eye, flu, asthma refills, hypertension refills, and many more. Coverage is subject to your plan's specific benefits. See our <a href='/what-we-treat' style='color:#006B73'>What We Treat</a> page for the complete list." },
-  { q:"What is my UHC copay for a TeleDirectMD visit?", a:"UHC telehealth copays for commercial plans typically range from $0–$40 depending on your plan. Many UHC employer plans have $0 telehealth copays. Log into myuhc.com or call member services to verify your exact cost before booking." },
-  { q:"Does UHC cover prescription refills through telemedicine?", a:"Yes. UHC covers telemedicine visits for chronic medication refills for stable conditions including asthma, hypertension, hypothyroidism, hyperlipidemia, and acid reflux. Prescriptions are sent to your preferred pharmacy immediately after your video visit." },
-  { q:"How do I book a UnitedHealthcare telemedicine visit with TeleDirectMD?", a:"Book at teledirectmd.com/book-online and select 'Insurance' as your payment method. Have your UHC member ID card ready. We will verify your coverage before your visit. You can also book as a self-pay patient at any time for $79 flat." },
-  { q:"Does TeleDirectMD accept UHC Medicaid (Community Plan)?", a:"No. TeleDirectMD does not accept UnitedHealthcare Community Plan (Medicaid) at this time. We accept UHC commercial plans only. If you have UHC Medicaid, you may book as a self-pay patient for $79." },
-  { q:"Is AARP UnitedHealthcare Medicare Advantage accepted?", a:"Currently, TeleDirectMD accepts UHC commercial plans. AARP UHC Medicare Advantage acceptance varies — contact us at contact@teledirectmd.com to ask about your specific Medicare Advantage plan." },
-  { q:"What if UHC is not available in my state?", a:"If UHC is not in-network in your state, you can still see Dr. Bhavsar as a self-pay patient for a flat $79 fee. You may also be eligible to submit an out-of-network claim to UHC for partial reimbursement — contact UHC to learn about your out-of-network benefits." },
+  { q: "Which UnitedHealthcare plans are in-network with TeleDirectMD?", a: "TeleDirectMD is in-network with UnitedHealthcare PPO, HMO, EPO, POS, and Medicare Advantage plans in 17 states. Three states are commercial-only and exclude Medicare Advantage: Illinois, Minnesota, and Texas. Colorado excludes UHC Navigate, UHC Charter, and Colorado Doctors Plan products. UHC Community Plan (Medicaid), Dual Complete (D-SNP), and Optum behavioral-only plans are not in-network in any state." },
+  { q: "Is the contract held with UnitedHealthcare or Optum?", a: "Our medical-benefit contract is with UnitedHealthcare (payer ID 87726). Optum Care, Optum Behavioral Health, and OptumRx are separate Optum-family entities — only UnitedHealthcare's medical-benefit network covers our visits. If your card says 'Optum' only, call the member number on the back to confirm UHC medical benefits before booking." },
+  { q: "Colorado UHC members: which products are excluded?", a: "If you have UHC Navigate, UHC Charter, or the Colorado Doctors Plan, you are not in-network with TeleDirectMD in Colorado — these are narrow-network products UHC limits to specific in-state physical clinics. Standard UHC Choice, Choice Plus, Options PPO, and UHC Medicare Advantage in Colorado are in-network." },
+  { q: "Illinois / Minnesota / Texas UHC: why is Medicare Advantage excluded?", a: "Our UnitedHealthcare contract in Illinois, Minnesota, and Texas is commercial-only — UHC and AARP UnitedHealthcare Medicare Advantage plans are not included in those three state contracts. UHC Medicare Advantage is in-network in our other 14 UHC states. If you have AARP UHC Medicare Advantage in IL/MN/TX, use the $79 self-pay rate." },
+  { q: "What is my UHC telehealth copay?", a: "UHC commercial telehealth copays are typically $0–$40; many employer plans waive the copay for telehealth entirely. AARP UnitedHealthcare Medicare Advantage typically applies $0–$20. Log into myuhc.com or the UHC app, or call the member services number on your card, to see your exact copay before booking." },
+  { q: "Will my prescription work with OptumRx?", a: "Yes. We send e-prescriptions to any pharmacy you select — OptumRx mail-order, OptumRx home delivery, or any retail pharmacy in UHC's network. Your usual UHC pharmacy benefit and copay apply." },
+  { q: "Can I use a UHC HRA, HSA, or FSA?", a: "Yes. Telehealth visits at TeleDirectMD are eligible expenses for UHC HRA, HSA, and FSA accounts whether the visit is billed to UHC or paid $79 self-pay. Your UHC debit card runs at booking." },
+  { q: "Does TeleDirectMD accept UHC Community Plan (Medicaid)?", a: "No. TeleDirectMD is not in-network with UHC Community Plan, UHC Dual Complete (D-SNP), or any Medicaid managed care plan, in any state. Self-pay $79 visits remain available." },
 ];
 
 const CONDITIONS_COVERED = [
-  "UTI (Urinary Tract Infection)","Sinus Infection","Strep Throat","Ear Infection",
-  "Pink Eye (Conjunctivitis)","Flu / Influenza","Yeast Infection","Cold Sores",
-  "Asthma Inhaler Refills","Hypertension Medication Refills","Acid Reflux / GERD Refills",
-  "Hypothyroidism Refills","Hyperlipidemia Refills","Seasonal Allergies","Acne",
-  "Birth Control Refills","COVID-19 Treatment","Eczema","Contact Dermatitis","Nausea / Vomiting",
+  "Urinary Tract Infection (UTI)",
+  "Sinus Infection",
+  "Strep Throat",
+  "Pink Eye",
+  "Ear Infection",
+  "Flu / Influenza",
+  "Yeast Infection",
+  "COVID-19 Evaluation",
+  "UHC Choice Plus Asthma Refills",
+  "UHC Choice Plus Hypertension Refills",
+  "UHC Medicare Advantage Diabetes Refills",
+  "OptumRx-routed Cholesterol Refills",
+  "Birth Control (OptumRx mail-order)",
+  "Cold Sores",
+  "Eczema",
+  "Contact Dermatitis",
 ];
 
 const SCHEMA = {
@@ -136,11 +144,19 @@ const SCHEMA = {
 };
 
 export default function UHCHubClient() {
+  const customSteps = [
+    { icon: <Ico.Cal c={B.teal} s={24} />, title: "Book with UHC ID", desc: "Enter your UnitedHealthcare member ID at teledirectmd.com/book-online — payer ID 87726." },
+    { icon: <Ico.Check c={B.teal} s={24} />, title: "myuhc verified", desc: "We pull your UHC eligibility and Optum copay before the visit (typically $0–$40)." },
+    { icon: <Ico.Video c={B.teal} s={24} />, title: "Video visit + e-Rx", desc: "Same-day visit with Dr. Bhavsar, MD. Prescription routed via OptumRx or your retail pharmacy." },
+  ];
+
   // ── Citable summary for AI extractors (United Healthcare hub)
   const citableSummary_AI = summarizeInsurerHub({
     insurerName: 'United Healthcare',
     stateCount: insurer?.states?.length || null,
     stateList: insurer?.states ? insurer.states.map(s => STATE_NAMES[s] || s) : null,
+    planTypes: "PPO, HMO, EPO, POS, and Medicare Advantage",
+    payerSpecificCopy: "UnitedHealthcare claims route through UHC's electronic clearinghouse (payer ID 87726). Our UHC medical-benefit contract is separate from Optum Behavioral, Optum Care, and OptumRx \u2014 if your card says \u2018Optum\u2019 only, confirm UHC medical benefits before booking. Illinois, Minnesota, and Texas are commercial-only contracts; UHC Medicare Advantage and AARP UnitedHealthcare Medicare Advantage are excluded in those three states. Colorado excludes UHC Navigate, UHC Charter, and the Colorado Doctors Plan. UHC Community Plan (Medicaid), Dual Complete (D-SNP), and Optum behavioral-only plans are not in-network in any state. Pharmacy benefits run through OptumRx.",
   });
   const pageUrl_AI = 'https://teledirectmd.com/insurance/united-healthcare/';
   const citableJsonLd_AI = citableSummaryToJsonLd(citableSummary_AI, { pageUrl: pageUrl_AI });
@@ -221,10 +237,10 @@ export default function UHCHubClient() {
         <section style={{ marginBottom:48 }}>
           <h2 style={{ fontFamily:B.fd, fontSize:26, fontWeight:700, color:B.navy, margin:"0 0 8px" }}>How to Use Your UHC Insurance</h2>
           <p style={{ fontSize:15, color:B.text, margin:"0 0 24px", lineHeight:1.6 }}>Three steps to see a physician using your UnitedHealthcare benefits.</p>
-          <HowItWorksSteps insurerName="UnitedHealthcare" />
+          <HowItWorksSteps insurerName="UnitedHealthcare" customSteps={customSteps} />
         </section>
 
-        <section style={{ marginBottom:48 }}><BookCTA insurerName="UnitedHealthcare" /></section>
+        <section style={{ marginBottom:48 }}><BookCTA insurerName="UnitedHealthcare" tagline="UHC PPO, HMO, EPO, POS, and Medicare Advantage — eligibility checked via payer ID 87726 before the call." subtagline="Or pay $79 self-pay (HSA/FSA eligible) and skip prior auth entirely." /></section>
 
         {/* Sitewide Medicaid + D-SNP exclusion */}
         <MedicaidExclusion headingLevel="h2" idSuffix="uhc-hub" />
@@ -237,38 +253,33 @@ export default function UHCHubClient() {
           </div>
         </section>
 
+        
+        {/* EXPLORE LINKS — top-6 UHC combos */}
         <section style={{ marginBottom:48 }}>
-          <h2 style={{ fontFamily:B.fd, fontSize:22, fontWeight:700, color:B.navy, margin:"0 0 16px" }}>Explore UHC Coverage by Condition</h2>
-          <div style={{ display:"grid", gridTemplateColumns:"repeat(auto-fill, minmax(200px, 1fr))", gap:10 }}>
-            {Object.values(INSURANCE_CONDITIONS).map((cond,i) => (
-              <a key={i} href={`/insurance/united-healthcare/${cond.slug}`}
+          <h2 style={{ fontFamily:B.fd, fontSize:22, fontWeight:700, color:B.navy, margin:"0 0 16px" }}>Most-requested UHC telehealth conditions</h2>
+          <div style={{ display:"grid", gridTemplateColumns:"repeat(auto-fill, minmax(220px, 1fr))", gap:10 }}>
+            {[
+              { slug: 'uti-treatment-online', label: 'UTI under UHC Choice Plus' },
+              { slug: 'sinus-infection-treatment-online', label: 'Sinus infection under UHC' },
+              { slug: 'covid-treatment-online', label: 'COVID-19 evaluation (UHC)' },
+              { slug: 'sore-throat-treatment-online', label: 'Strep throat (UHC commercial)' },
+              { slug: 'pink-eye-treatment-online', label: 'Pink eye (UHC PPO)' },
+              { slug: 'yeast-infection-treatment-online', label: 'Yeast infection (UHC)' },
+            ].map((c, i) => (
+              <a key={i} href={`/insurance/united-healthcare/${c.slug}`}
                 style={{ display:"block", background:B.white, border:`1px solid ${B.border}`, borderRadius:B.rs, padding:"14px 16px", textDecoration:"none", boxShadow:B.shadow }}>
-                <div style={{ fontSize:14, fontWeight:600, color:B.navy, marginBottom:2 }}>UHC + {cond.name}</div>
-                <div style={{ fontSize:12, color:B.text }}>Does UHC cover {cond.name.toLowerCase()}?</div>
+                <div style={{ fontSize:14, fontWeight:600, color:B.navy }}>{c.label}</div>
+                <div style={{ fontSize:12, color:B.text, marginTop:2 }}>$0–$40 copay typical · OptumRx pharmacy</div>
               </a>
             ))}
           </div>
         </section>
-
-        {/* FEATURED DEEP COVERAGE — internal linking to triple-matrix pages */}
-        <section style={{ marginBottom:48 }} data-speakable="true">
-          <h2 style={{ fontFamily:B.fd, fontSize:22, fontWeight:700, color:B.navy, margin:"0 0 8px" }}>Popular UnitedHealthcare Coverage in Top Markets</h2>
-          <p style={{ fontSize:14, color:B.text, margin:"0 0 16px", lineHeight:1.6 }}>Most-searched in-network UHC telemedicine combinations at TeleDirectMD:</p>
-          <div style={{ display:"grid", gridTemplateColumns:"repeat(auto-fill, minmax(260px, 1fr))", gap:10 }}>
-            <a href="/ga/" style={{ display:"block", background:B.white, border:`1px solid ${B.border}`, borderRadius:B.rs, padding:"12px 14px", textDecoration:"none", boxShadow:B.shadow, color:B.navy }}>UTI treatment covered by UHC in Georgia →</a>
-            <a href="/pa/" style={{ display:"block", background:B.white, border:`1px solid ${B.border}`, borderRadius:B.rs, padding:"12px 14px", textDecoration:"none", boxShadow:B.shadow, color:B.navy }}>Sinus infection covered by UHC in Pennsylvania →</a>
-            <a href="/oh/" style={{ display:"block", background:B.white, border:`1px solid ${B.border}`, borderRadius:B.rs, padding:"12px 14px", textDecoration:"none", boxShadow:B.shadow, color:B.navy }}>Strep throat covered by UHC in Ohio →</a>
-            <a href="/il/" style={{ display:"block", background:B.white, border:`1px solid ${B.border}`, borderRadius:B.rs, padding:"12px 14px", textDecoration:"none", boxShadow:B.shadow, color:B.navy }}>Flu treatment covered by UHC in Illinois →</a>
-            <a href="/nc/" style={{ display:"block", background:B.white, border:`1px solid ${B.border}`, borderRadius:B.rs, padding:"12px 14px", textDecoration:"none", boxShadow:B.shadow, color:B.navy }}>Ear infection covered by UHC in North Carolina →</a>
-            <a href="/tn/" style={{ display:"block", background:B.white, border:`1px solid ${B.border}`, borderRadius:B.rs, padding:"12px 14px", textDecoration:"none", boxShadow:B.shadow, color:B.navy }}>Pink eye covered by UHC in Tennessee →</a>
-          </div>
-        </section>
-
-        {/* Cost-page link + compare-grid (PR 3 of cost-and-compare sprint) */}
-        <Or49CashLink />
-        <CompareToOtherTelehealthGrid heading="Compare TeleDirectMD to Other Telehealth Providers" />
-
-        <div style={{ marginBottom:48 }}><InsuranceDisclaimer /></div>
+        {/* Compact link out to /insurance/ — full cost comparison lives there */}
+        <div style={{ background:"#F3FAFB", border:"1px solid #DDE3E6", borderRadius:18, padding:"18px 22px", margin:"0 0 32px", display:"flex", flexWrap:"wrap", alignItems:"center", justifyContent:"space-between", gap:12 }}>
+          <p style={{ margin:0, fontSize:14, color:"#12323A" }}>Not in-network on your plan? Self-pay is a flat <strong>$79</strong> in all our licensed states (HSA/FSA eligible).</p>
+          <a href="/insurance/" style={{ display:"inline-flex", alignItems:"center", gap:6, padding:"10px 18px", background:"#006B73", color:"#fff", borderRadius:10, fontWeight:700, fontSize:14, textDecoration:"none", whiteSpace:"nowrap" }}>Compare options →</a>
+        </div>
+<div style={{ marginBottom:48 }}><InsuranceDisclaimer payerNote="UnitedHealthcare network status reflects our 2026 commercial contract; UHC Community Plan, Dual Complete (D-SNP), and Optum behavioral-only plans are excluded. Medicare Advantage is excluded in IL, MN, and TX." /></div>
       </div>
     </div>
   );

@@ -1,7 +1,6 @@
 'use client';
 import { B, INSURERS, STATE_NAMES, INSURANCE_CONDITIONS } from '../../../data/insurance/insuranceConfig';
 import { FAQ, BookCTA, HowItWorksSteps, TrustBar, Breadcrumb, InsuranceDisclaimer, AnswerBlock } from '../components/InsuranceShared';
-import { CompareToOtherTelehealthGrid, Or49CashLink } from '../../components/CostCompareModules';
 import { Ico } from '../components/InsuranceIcons';
 import { getAggregateRating, getReviewBlock } from '../../../lib/review-schema';
 import { CitableSummaryBlock } from '../../components/CitableSummary';
@@ -11,24 +10,33 @@ import MedicaidExclusion from '../../components/MedicaidExclusion';
 const insurer = INSURERS.aetna;
 
 const AETNA_FAQS = [
-  { q: "Is TeleDirectMD in-network with Aetna?", a: "Yes. TeleDirectMD is in-network with Aetna PPO, HMO, EPO, POS, and Medicare Advantage plans in Arizona, California, Colorado, Florida, Georgia, Illinois, Louisiana, Michigan, Minnesota, North Carolina, Ohio, Pennsylvania, and Tennessee. California excludes HMO and QPOS plans. If you have an Aetna employer-sponsored or individual commercial plan in one of these states, your telehealth visit with Dr. Bhavsar may be covered subject to your plan's copay or deductible." },
-  { q: "Does Aetna cover telemedicine visits?", a: "Aetna covers telehealth visits for most commercial plan members. Federal law requires most commercial insurers to cover telehealth services comparably to in-person visits. Your actual out-of-pocket cost depends on your specific plan's copay, coinsurance, and deductible. Contact the member services number on the back of your Aetna card to verify your telehealth benefits before booking." },
-  { q: "What conditions does Aetna cover for telemedicine with TeleDirectMD?", a: "Aetna covers telehealth visits for a wide range of conditions. At TeleDirectMD, we treat UTIs, sinus infections, strep throat, ear infections, pink eye, asthma refills, hypertension refills, acid reflux, flu, yeast infections, and many more. Coverage depends on your plan benefits. See our <a href='/what-we-treat' style='color:#006B73'>What We Treat</a> page for the full condition list." },
-  { q: "What is my copay for a TeleDirectMD visit with Aetna?", a: "Copays vary by plan. Most Aetna commercial plans have a telehealth copay of $0–$40. To find your exact cost, log in to your Aetna member portal at aetna.com, call the member services number on your insurance card, or simply ask us at booking — we will verify your benefits before your visit." },
-  { q: "Does Aetna cover telehealth for urgent care conditions?", a: "Yes. Aetna covers telehealth for urgent care conditions including UTI, sinus infection, ear infection, strep throat, pink eye, and similar conditions. These are exactly the conditions TeleDirectMD specializes in treating via video visit." },
-  { q: "Does Aetna cover prescription refills through telemedicine?", a: "Yes. Aetna covers telemedicine visits for prescription refills for stable chronic conditions including asthma, hypertension, hypothyroidism, hyperlipidemia, and acid reflux. The prescription is sent to your pharmacy immediately after the visit." },
-  { q: "How do I book a TeleDirectMD visit using my Aetna insurance?", a: "Book at teledirectmd.com/book-online and select 'Insurance' as your payment method. Have your Aetna member ID card ready. We will verify your coverage before your visit. If you prefer, you can also book as a self-pay patient for a flat $79 fee." },
-  { q: "What if my specific Aetna plan is not covered?", a: "If your specific Aetna plan is not in-network with TeleDirectMD, you can still see Dr. Bhavsar as a self-pay patient for a flat $79 fee. No insurance is required. You may also be able to submit an out-of-network claim to Aetna for partial reimbursement — contact Aetna to ask about your out-of-network benefits." },
-  { q: "Does TeleDirectMD accept Aetna Medicaid?", a: "No. TeleDirectMD does not currently accept Aetna Medicaid (Aetna Better Health) plans. We accept Aetna commercial plans only. If you have Aetna Medicaid, you may book as a self-pay patient for $79." },
-  { q: "Is Aetna Medicare Advantage accepted?", a: "Currently, TeleDirectMD accepts Aetna commercial plans. Aetna Medicare Advantage acceptance varies by state — contact us at contact@teledirectmd.com to ask about your specific plan." },
+  { q: "Which Aetna plans are in-network with TeleDirectMD?", a: "TeleDirectMD is in-network with Aetna PPO, HMO, EPO, POS, and Medicare Advantage plans in 13 states: Arizona, California, Colorado, Florida, Georgia, Illinois, Louisiana, Michigan, Minnesota, North Carolina, Ohio, Pennsylvania, and Tennessee. California excludes Aetna HMO and QPOS. Minnesota patients are billed under the Allina | Aetna joint venture network. Aetna Better Health (Medicaid), Aetna D-SNP, and CHIP plans are not in-network in any state." },
+  { q: "What is the Aetna provider PIN for Dr. Parth Bhavsar?", a: "Dr. Parth Bhavsar, MD (NPI 1104323203) is credentialed with Aetna in each contracted state. The contract is held under TeleDirectMD's group TIN and routes through Aetna's electronic claims clearinghouse (payer ID 60054). We will not ask you for a PIN — we submit the claim on our end after the visit." },
+  { q: "California Aetna members: am I covered?", a: "If you have an Aetna PPO, EPO, POS, or Medicare Advantage plan in California, yes. Aetna HMO and Aetna QPOS plans in California are not in-network — Aetna restricts those to in-state physical-clinic networks. If you have one of those plans, use the $79 self-pay option." },
+  { q: "What does an Aetna telehealth visit cost at TeleDirectMD?", a: "Most Aetna commercial plans apply a $0–$40 telehealth copay; Aetna Medicare Advantage typically applies a $0–$25 copay; high-deductible plans may apply full visit cost (~$130 contracted rate) toward deductible until met. Verify by logging into your member account at aetna.com or calling the number on your Aetna card." },
+  { q: "Will my prescription be covered by my Aetna pharmacy benefit?", a: "Your medication is dispensed under Aetna's pharmacy benefit manager (CVS Caremark for most commercial plans), separate from the visit copay. Generics on Aetna's standard formulary are typically $0–$10. We send the e-prescription to your preferred pharmacy at visit end — your usual Aetna pharmacy copay applies." },
+  { q: "Can I use an Aetna HSA or FSA card?", a: "Yes. Telehealth visits at TeleDirectMD are HSA/FSA eligible whether billed to Aetna or paid $79 self-pay. Your HSA/FSA card runs at booking; the system itemizes the visit for IRS substantiation." },
+  { q: "What happens if Aetna denies my claim?", a: "Denials are rare for the conditions we treat, but if Aetna denies the claim, we contact you within 48 hours with options: appeal (we provide the medical records at no cost), or convert the visit to the $79 self-pay rate retroactively and refund any difference." },
+  { q: "Does TeleDirectMD accept Aetna Medicaid (Aetna Better Health)?", a: "No. TeleDirectMD is not in-network with any Medicaid plan, including Aetna Better Health, in any state. We are also not in-network with Aetna D-SNP. Self-pay $79 visits remain available." },
 ];
 
 const CONDITIONS_COVERED = [
-  "UTI (Urinary Tract Infection)", "Sinus Infection", "Strep Throat", "Ear Infection",
-  "Pink Eye (Conjunctivitis)", "Flu / Influenza", "Yeast Infection", "Cold Sores",
-  "Asthma Inhaler Refills", "Hypertension Medication Refills", "Acid Reflux / GERD Refills",
-  "Hypothyroidism Refills", "Hyperlipidemia Refills", "Seasonal Allergies", "Acne",
-  "Birth Control Refills", "COVID-19 Treatment", "Eczema", "Contact Dermatitis", "Nausea / Vomiting",
+  "Urinary Tract Infection (UTI)",
+  "Sinus Infection (Sinusitis)",
+  "Pink Eye (Conjunctivitis)",
+  "Strep Throat",
+  "Ear Infection (Otitis Media)",
+  "Flu / Influenza",
+  "Yeast Infection",
+  "Bacterial Vaginosis (BV)",
+  "Aetna-Covered Asthma Inhaler Refills",
+  "Aetna-Covered Hypertension Refills",
+  "Aetna-Covered Hypothyroidism Refills",
+  "Aetna-Covered Acid Reflux Refills",
+  "Birth Control Refills (CVS Caremark)",
+  "Cold Sores (HSV)",
+  "Acne",
+  "Seasonal Allergies",
 ];
 
 const AETNA_STATES = [
@@ -179,11 +187,19 @@ const SCHEMA = {
 };
 
 export default function AetnaHubClient() {
+  const customSteps = [
+    { icon: <Ico.Cal c={B.teal} s={24} />, title: "Book with Aetna ID", desc: "Have your Aetna member ID card ready at teledirectmd.com/book-online — payer ID 60054." },
+    { icon: <Ico.Check c={B.teal} s={24} />, title: "Benefits verified", desc: "We confirm your Aetna copay (typically $0–$40) before the visit starts." },
+    { icon: <Ico.Video c={B.teal} s={24} />, title: "Video visit + e-Rx", desc: "Same-day visit with Dr. Bhavsar, MD. Prescription routed via Aetna's CVS Caremark pharmacy benefit." },
+  ];
+
   // ── Citable summary for AI extractors (Aetna hub)
   const citableSummary_AI = summarizeInsurerHub({
     insurerName: 'Aetna',
     stateCount: insurer?.states?.length || null,
     stateList: insurer?.states ? insurer.states.map(s => STATE_NAMES[s] || s) : null,
+    planTypes: "PPO, HMO, EPO, POS, and Medicare Advantage",
+    payerSpecificCopy: "Aetna routes telehealth claims through Aetna's electronic clearinghouse (payer ID 60054). The contract is held under TeleDirectMD's group TIN and credentials Dr. Bhavsar in each contracted state. California excludes Aetna HMO and QPOS plans; Minnesota patients are billed under the Allina | Aetna joint venture. Telehealth copays for Aetna commercial plans typically run $0\u2013$40; Aetna Medicare Advantage applies $0\u2013$25 in most plans. Aetna Better Health (Medicaid), Aetna D-SNP, and CHIP plans are excluded in every state. The pharmacy benefit runs through CVS Caremark for most commercial plans.",
   });
   const pageUrl_AI = 'https://teledirectmd.com/insurance/aetna/';
   const citableJsonLd_AI = citableSummaryToJsonLd(citableSummary_AI, { pageUrl: pageUrl_AI });
@@ -265,7 +281,7 @@ export default function AetnaHubClient() {
         <section style={{ marginBottom:48 }}>
           <h2 style={{ fontFamily:B.fd, fontSize:26, fontWeight:700, color:B.navy, margin:"0 0 8px" }}>How to Use Your Aetna Insurance with TeleDirectMD</h2>
           <p style={{ fontSize:15, color:B.text, margin:"0 0 24px", lineHeight:1.6 }}>Three simple steps to see a physician using your Aetna benefits.</p>
-          <HowItWorksSteps insurerName="Aetna" />
+          <HowItWorksSteps insurerName="Aetna" customSteps={customSteps} />
         </section>
 
         {/* COST SECTION */}
@@ -324,7 +340,7 @@ export default function AetnaHubClient() {
 
         {/* BOOK CTA */}
         <section style={{ marginBottom:48 }}>
-          <BookCTA insurerName="Aetna" />
+          <BookCTA insurerName="Aetna" tagline="Aetna PPO, HMO, EPO, POS, and Medicare Advantage — verified at payer ID 60054 before your video visit." subtagline="Or skip insurance entirely: $79 self-pay (HSA/FSA eligible)." />
         </section>
 
         {/* Sitewide Medicaid + D-SNP exclusion */}
@@ -338,42 +354,33 @@ export default function AetnaHubClient() {
             {AETNA_FAQS.map((faq, i) => <FAQ key={i} question={faq.q} answer={faq.a} />)}
           </div>
         </section>
-
-        {/* EXPLORE LINKS */}
+        {/* EXPLORE LINKS — top-6 Aetna combos */}
         <section style={{ marginBottom:48 }}>
-          <h2 style={{ fontFamily:B.fd, fontSize:22, fontWeight:700, color:B.navy, margin:"0 0 16px" }}>Explore Aetna Coverage by Condition</h2>
-          <div style={{ display:"grid", gridTemplateColumns:"repeat(auto-fill, minmax(200px, 1fr))", gap:10 }}>
-            {Object.values(INSURANCE_CONDITIONS).map((cond, i) => (
-              <a key={i} href={`/insurance/aetna/${cond.slug}`}
+          <h2 style={{ fontFamily:B.fd, fontSize:22, fontWeight:700, color:B.navy, margin:"0 0 16px" }}>Most-searched Aetna telehealth combinations</h2>
+          <div style={{ display:"grid", gridTemplateColumns:"repeat(auto-fill, minmax(220px, 1fr))", gap:10 }}>
+            {[
+              { slug: 'uti-treatment-online', label: 'UTI billed to Aetna' },
+              { slug: 'sinus-infection-treatment-online', label: 'Sinus infection billed to Aetna' },
+              { slug: 'pink-eye-treatment-online', label: 'Pink eye billed to Aetna' },
+              { slug: 'sore-throat-treatment-online', label: 'Strep / sore throat billed to Aetna' },
+              { slug: 'ear-pain-treatment-online', label: 'Ear infection billed to Aetna' },
+              { slug: 'yeast-infection-treatment-online', label: 'Yeast infection billed to Aetna' },
+            ].map((c, i) => (
+              <a key={i} href={`/insurance/aetna/${c.slug}`}
                 style={{ display:"block", background:B.white, border:`1px solid ${B.border}`, borderRadius:B.rs, padding:"14px 16px", textDecoration:"none", boxShadow:B.shadow }}>
-                <div style={{ fontSize:14, fontWeight:600, color:B.navy, marginBottom:2 }}>Aetna + {cond.name}</div>
-                <div style={{ fontSize:12, color:B.text }}>Does Aetna cover {cond.name.toLowerCase()}?</div>
+                <div style={{ fontSize:14, fontWeight:600, color:B.navy }}>{c.label}</div>
+                <div style={{ fontSize:12, color:B.text, marginTop:2 }}>$0–$40 copay typical · CVS Caremark Rx</div>
               </a>
             ))}
           </div>
         </section>
-
-        {/* FEATURED DEEP COVERAGE — internal linking to triple-matrix pages */}
-        <section style={{ marginBottom:48 }} data-speakable="true">
-          <h2 style={{ fontFamily:B.fd, fontSize:22, fontWeight:700, color:B.navy, margin:"0 0 8px" }}>Popular Aetna Coverage in Top Markets</h2>
-          <p style={{ fontSize:14, color:B.text, margin:"0 0 16px", lineHeight:1.6 }}>Most-searched in-network Aetna telemedicine combinations at TeleDirectMD:</p>
-          <div style={{ display:"grid", gridTemplateColumns:"repeat(auto-fill, minmax(260px, 1fr))", gap:10 }}>
-            <a href="/ca/uti-treatment-online/" style={{ display:"block", background:B.white, border:`1px solid ${B.border}`, borderRadius:B.rs, padding:"12px 14px", textDecoration:"none", boxShadow:B.shadow, color:B.navy }}>UTI treatment covered by Aetna in California →</a>
-            <a href="/ca/sinus-infection-treatment-online/" style={{ display:"block", background:B.white, border:`1px solid ${B.border}`, borderRadius:B.rs, padding:"12px 14px", textDecoration:"none", boxShadow:B.shadow, color:B.navy }}>Sinus infection covered by Aetna in California →</a>
-            <a href="/ga/uti-treatment-online/" style={{ display:"block", background:B.white, border:`1px solid ${B.border}`, borderRadius:B.rs, padding:"12px 14px", textDecoration:"none", boxShadow:B.shadow, color:B.navy }}>UTI treatment covered by Aetna in Georgia →</a>
-            <a href="/fl/sinus-infection-treatment-online/" style={{ display:"block", background:B.white, border:`1px solid ${B.border}`, borderRadius:B.rs, padding:"12px 14px", textDecoration:"none", boxShadow:B.shadow, color:B.navy }}>Sinus infection covered by Aetna in Florida →</a>
-            <a href="/oh/influenza-treatment-online/" style={{ display:"block", background:B.white, border:`1px solid ${B.border}`, borderRadius:B.rs, padding:"12px 14px", textDecoration:"none", boxShadow:B.shadow, color:B.navy }}>Flu treatment covered by Aetna in Ohio →</a>
-            <a href="/il/ear-infection-treatment-online/" style={{ display:"block", background:B.white, border:`1px solid ${B.border}`, borderRadius:B.rs, padding:"12px 14px", textDecoration:"none", boxShadow:B.shadow, color:B.navy }}>Ear infection covered by Aetna in Illinois →</a>
-            <a href="/tn/pink-eye-treatment-online/" style={{ display:"block", background:B.white, border:`1px solid ${B.border}`, borderRadius:B.rs, padding:"12px 14px", textDecoration:"none", boxShadow:B.shadow, color:B.navy }}>Pink eye covered by Aetna in Tennessee →</a>
-          </div>
-        </section>
-
-        {/* Cost-page link + compare-grid (PR 3 of cost-and-compare sprint) */}
-        <Or49CashLink />
-        <CompareToOtherTelehealthGrid heading="Compare TeleDirectMD to Other Telehealth Providers" />
-
-        <div style={{ marginBottom:48 }}>
-          <InsuranceDisclaimer />
+        {/* Compact link out to /insurance/ — full cost comparison lives there */}
+        <div style={{ background:"#F3FAFB", border:"1px solid #DDE3E6", borderRadius:18, padding:"18px 22px", margin:"0 0 32px", display:"flex", flexWrap:"wrap", alignItems:"center", justifyContent:"space-between", gap:12 }}>
+          <p style={{ margin:0, fontSize:14, color:"#12323A" }}>Not in-network on your plan? Self-pay is a flat <strong>$79</strong> in all our licensed states (HSA/FSA eligible).</p>
+          <a href="/insurance/" style={{ display:"inline-flex", alignItems:"center", gap:6, padding:"10px 18px", background:"#006B73", color:"#fff", borderRadius:10, fontWeight:700, fontSize:14, textDecoration:"none", whiteSpace:"nowrap" }}>Compare options →</a>
+        </div>
+<div style={{ marginBottom:48 }}>
+          <InsuranceDisclaimer payerNote="Aetna network status reflects our 2026 commercial contract with Aetna under TeleDirectMD's group TIN; Aetna Better Health (Medicaid), Aetna D-SNP, and CHIP are excluded sitewide." />
         </div>
       </div>
     </div>
