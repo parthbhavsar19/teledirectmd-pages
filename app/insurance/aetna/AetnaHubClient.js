@@ -6,11 +6,12 @@ import { Ico } from '../components/InsuranceIcons';
 import { getAggregateRating, getReviewBlock } from '../../../lib/review-schema';
 import { CitableSummaryBlock } from '../../components/CitableSummary';
 import { summarizeInsurerHub, citableSummaryToJsonLd } from '../../../lib/citable-summary';
+import MedicaidExclusion from '../../components/MedicaidExclusion';
 
 const insurer = INSURERS.aetna;
 
 const AETNA_FAQS = [
-  { q: "Is TeleDirectMD in-network with Aetna?", a: "Yes. TeleDirectMD is in-network with Aetna commercial plans in Arizona, California, Colorado, Florida, Georgia, Illinois, Michigan, Minnesota, Ohio, and Tennessee. If you have an Aetna employer-sponsored or individual commercial plan in one of these states, your telehealth visit with Dr. Bhavsar may be covered subject to your plan's copay or deductible." },
+  { q: "Is TeleDirectMD in-network with Aetna?", a: "Yes. TeleDirectMD is in-network with Aetna PPO, HMO, EPO, POS, and Medicare Advantage plans in Arizona, California, Colorado, Florida, Georgia, Illinois, Louisiana, Michigan, Minnesota, North Carolina, Ohio, Pennsylvania, and Tennessee. California excludes HMO and QPOS plans. If you have an Aetna employer-sponsored or individual commercial plan in one of these states, your telehealth visit with Dr. Bhavsar may be covered subject to your plan's copay or deductible." },
   { q: "Does Aetna cover telemedicine visits?", a: "Aetna covers telehealth visits for most commercial plan members. Federal law requires most commercial insurers to cover telehealth services comparably to in-person visits. Your actual out-of-pocket cost depends on your specific plan's copay, coinsurance, and deductible. Contact the member services number on the back of your Aetna card to verify your telehealth benefits before booking." },
   { q: "What conditions does Aetna cover for telemedicine with TeleDirectMD?", a: "Aetna covers telehealth visits for a wide range of conditions. At TeleDirectMD, we treat UTIs, sinus infections, strep throat, ear infections, pink eye, asthma refills, hypertension refills, acid reflux, flu, yeast infections, and many more. Coverage depends on your plan benefits. See our <a href='/what-we-treat' style='color:#006B73'>What We Treat</a> page for the full condition list." },
   { q: "What is my copay for a TeleDirectMD visit with Aetna?", a: "Copays vary by plan. Most Aetna commercial plans have a telehealth copay of $0–$40. To find your exact cost, log in to your Aetna member portal at aetna.com, call the member services number on your insurance card, or simply ask us at booking — we will verify your benefits before your visit." },
@@ -52,7 +53,7 @@ const SCHEMA = {
       "name": "TeleDirectMD",
       "url": "https://teledirectmd.com",
       "logo": "https://teledirectmd.com/logo.png",
-      "description": "Physician-led telemedicine practice accepting Aetna commercial insurance in 10 states.",
+      "description": "Physician-led telemedicine practice accepting Aetna PPO, HMO, EPO, POS, and Medicare Advantage plans in 13 states.",
       "medicalSpecialty": "General Practice",
       "availableService": { "@type": "MedicalTherapy", "name": "Telehealth Video Visit" },
       "aggregateRating": getAggregateRating(),
@@ -212,7 +213,7 @@ export default function AetnaHubClient() {
             Online Doctor Visits<br />Covered by Aetna
           </h1>
           <p data-speakable="true" style={{ fontFamily:B.fb, fontSize:"clamp(16px, 2.5vw, 19px)", color:"rgba(255,255,255,0.75)", lineHeight:1.6, margin:"0 0 28px", maxWidth:580 }}>
-            TeleDirectMD is in-network with Aetna commercial plans in 10 states. See a board-certified physician by video today — your standard Aetna copay applies.
+            TeleDirectMD is in-network with Aetna PPO, HMO, EPO, POS, and Medicare Advantage plans in 13 states. See a board-certified physician by video today — your standard Aetna copay applies.
           </p>
           <div style={{ display:"flex", flexWrap:"wrap", gap:12 }}>
             <a href="https://www.teledirectmd.com/book-online" target="_blank" rel="noopener"
@@ -237,7 +238,7 @@ export default function AetnaHubClient() {
         {/* QUICK ANSWER — AI visibility */}
         <AnswerBlock
           question="Is TeleDirectMD in-network with Aetna?"
-          answer="Yes. TeleDirectMD accepts Aetna commercial insurance in 10 states: Arizona, California, Colorado, Florida, Georgia, Illinois, Michigan, Minnesota, Ohio, and Tennessee. Book a same-day video visit with Dr. Parth Bhavsar, MD — your standard Aetna copay applies."
+          answer="Yes. TeleDirectMD accepts Aetna PPO, HMO, EPO, POS, and Medicare Advantage plans in 13 states: Arizona, California, Colorado, Florida, Georgia, Illinois, Louisiana, Michigan, Minnesota, North Carolina, Ohio, Pennsylvania, and Tennessee. California excludes HMO and QPOS plans. Book a same-day video visit with Dr. Parth Bhavsar, MD — your standard Aetna copay applies."
           color={B.teal}
         />
 
@@ -293,7 +294,7 @@ export default function AetnaHubClient() {
         <section style={{ marginBottom:48 }}>
           <h2 style={{ fontFamily:B.fd, fontSize:26, fontWeight:700, color:B.navy, margin:"0 0 8px" }}>States Where We Accept Aetna Insurance</h2>
           <p style={{ fontSize:15, color:B.text, margin:"0 0 24px", lineHeight:1.6 }}>
-            TeleDirectMD is in-network with Aetna commercial plans in the following states. Click your state for detailed coverage information.
+            TeleDirectMD is in-network with Aetna PPO, HMO, EPO, POS, and Medicare Advantage plans in the following states. Click your state for detailed coverage information.
           </p>
           <div style={{ display:"grid", gridTemplateColumns:"repeat(auto-fill, minmax(160px, 1fr))", gap:10 }}>
             {AETNA_STATES.map((st) => (
@@ -325,6 +326,9 @@ export default function AetnaHubClient() {
         <section style={{ marginBottom:48 }}>
           <BookCTA insurerName="Aetna" />
         </section>
+
+        {/* Sitewide Medicaid + D-SNP exclusion */}
+        <MedicaidExclusion headingLevel="h2" idSuffix="aetna-hub" />
 
         {/* FAQ */}
         <section style={{ marginBottom:48 }}>

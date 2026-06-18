@@ -32,7 +32,7 @@ export async function generateMetadata({ params }) {
   if (cond) {
     return {
       title: `Does Aetna Cover ${cond.displayName} Telemedicine? | TeleDirectMD`,
-      description: `Yes — Aetna commercial plans cover ${cond.name} telehealth visits. TeleDirectMD is in-network with Aetna in 11 states. Board-certified physician. Same-day video visits.`,
+      description: `Yes — Aetna commercial plans cover ${cond.name} telehealth visits. TeleDirectMD is in-network with Aetna in 13 states. Board-certified physician. Same-day video visits.`,
       alternates: { canonical: `https://teledirectmd.com/insurance/aetna/${segment}` },
       openGraph: { title: `Does Aetna Cover ${cond.displayName} Telemedicine? | TeleDirectMD`, url: `https://teledirectmd.com/insurance/aetna/${segment}`, siteName:'TeleDirectMD', type:'website' },
     };

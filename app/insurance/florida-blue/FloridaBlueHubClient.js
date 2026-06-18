@@ -7,6 +7,7 @@ import { getAggregateRating, getReviewBlock } from '../../../lib/review-schema';
 import { CitableSummaryBlock } from '../../components/CitableSummary';
 import { FlCredentialBlock, FlFooterCompliance } from '../../components/FlCompliance';
 import { summarizeInsurerHub, citableSummaryToJsonLd } from '../../../lib/citable-summary';
+import MedicaidExclusion from '../../components/MedicaidExclusion';
 
 // Florida Blue is the BCBS licensee for Florida — single-state, no [segment] routing.
 // Brand search queries: "florida blue telehealth", "doctor that takes florida blue",
@@ -205,6 +206,9 @@ export default function FloridaBlueHubClient() {
           </p>
           <Or49CashLink />
         </section>
+
+        {/* Sitewide Medicaid + D-SNP exclusion */}
+        <MedicaidExclusion headingLevel="h2" idSuffix="florida-blue-hub" />
 
         {/* FAQ */}
         <section style={{ marginBottom: 48 }}>

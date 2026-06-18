@@ -6,6 +6,7 @@ import { Ico } from '../components/InsuranceIcons';
 import { getAggregateRating, getReviewBlock } from '../../../lib/review-schema';
 import { CitableSummaryBlock } from '../../components/CitableSummary';
 import { summarizeInsurerHub, citableSummaryToJsonLd } from '../../../lib/citable-summary';
+import MedicaidExclusion from '../../components/MedicaidExclusion';
 
 const insurer = INSURERS["blue-cross-blue-shield"];
 
@@ -200,6 +201,9 @@ export default function BCBSHubClient() {
         </section>
 
         <section style={{ marginBottom:48 }}><BookCTA insurerName="Blue Cross Blue Shield" /></section>
+
+        {/* Sitewide Medicaid + D-SNP exclusion */}
+        <MedicaidExclusion headingLevel="h2" idSuffix="bcbs-hub" />
 
         <section style={{ marginBottom:48 }}>
           <h2 style={{ fontFamily:B.fd, fontSize:26, fontWeight:700, color:B.navy, margin:"0 0 8px" }}>BCBS & TeleDirectMD: Frequently Asked Questions</h2>

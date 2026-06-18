@@ -7,6 +7,7 @@ import { COMPARE_PAGES } from '../../../lib/compare-pages-config';
 import { AGGREGATE_RATING_VALUE, TOTAL_REVIEW_COUNT } from '../../../lib/review-schema';
 import { buildCostCompareJsonLd, buildCostComparisonAggregateOffer } from '../../../lib/cost-compare-schema';
 import { SYMPTOM_PAGES } from '../../../lib/symptom-pages-config';
+import { getPayerFamilyStateCount } from '../../../lib/insurance-data';
 
 // Map cost-page slug → symptom-page slugs that surface this cost guide.
 // The master /cost/online-doctor-visit-cost/ surfaces a sample of high-volume
@@ -342,9 +343,9 @@ export default async function CostPage({ params }) {
           <h2>Insurance Accepted (Select States)</h2>
           <p>TeleDirectMD is in-network with three major insurers. Your standard telehealth copay applies in place of the $79 self-pay fee.</p>
           <div className="tdmd-related-grid">
-            <a href="/insurance/aetna/" className="tdmd-related-card"><span className="tdmd-related-title">Aetna</span><span className="tdmd-related-desc">In-network in 10 states</span></a>
-            <a href="/insurance/blue-cross-blue-shield/" className="tdmd-related-card"><span className="tdmd-related-title">Blue Cross Blue Shield</span><span className="tdmd-related-desc">In-network in 5 states</span></a>
-            <a href="/insurance/united-healthcare/" className="tdmd-related-card"><span className="tdmd-related-title">UnitedHealthcare</span><span className="tdmd-related-desc">In-network in 11 states</span></a>
+            <a href="/insurance/aetna/" className="tdmd-related-card"><span className="tdmd-related-title">Aetna</span><span className="tdmd-related-desc">{`In-network in ${getPayerFamilyStateCount('aetna')} states`}</span></a>
+            <a href="/insurance/blue-cross-blue-shield/" className="tdmd-related-card"><span className="tdmd-related-title">Blue Cross Blue Shield</span><span className="tdmd-related-desc">{`In-network in ${getPayerFamilyStateCount('bcbs')} states`}</span></a>
+            <a href="/insurance/united-healthcare/" className="tdmd-related-card"><span className="tdmd-related-title">UnitedHealthcare</span><span className="tdmd-related-desc">{`In-network in ${getPayerFamilyStateCount('uhc')} states`}</span></a>
           </div>
           <p style={{ marginTop: '1rem', fontSize: '0.92rem', color: 'var(--tdmd-muted)' }}>
             Don't see your plan? <a href="/insurance/" style={{ color: 'var(--tdmd-teal)', fontWeight: 600 }}>View all insurance options</a> or book the flat $79 self-pay visit.

@@ -2,7 +2,7 @@ import UHCHubClient from './UHCHubClient';
 
 export const metadata = {
   title: 'Online Doctor That Accepts UnitedHealthcare | TeleDirectMD',
-  description: 'TeleDirectMD accepts UnitedHealthcare commercial plans in 10 states. Board-certified physician. Same-day video visits for UTI, sinus infection, hypertension refills & more.',
+  description: 'TeleDirectMD accepts UnitedHealthcare PPO, HMO, EPO, POS, and Medicare Advantage plans in 17 states. Board-certified physician. Same-day video visits for UTI, sinus infection, hypertension refills & more.',
   alternates: { canonical: 'https://teledirectmd.com/insurance/united-healthcare' },
   openGraph: {
     title: 'Online Doctor That Accepts UnitedHealthcare | TeleDirectMD',

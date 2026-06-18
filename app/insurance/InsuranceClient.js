@@ -414,6 +414,12 @@ function resolveResult(stateAbbr, payerId, planId) {
     planExcluded = true;
     excludeReason = `Our UnitedHealthcare contract in ${STATE_NAMES[stateAbbr]} is Commercial-only — Medicare Advantage is not in-network in this state.`;
   }
+  // FL Florida Blue is Commercial-only — Florida Blue Medicare Advantage,
+  // Florida Blue Medicaid, and FEP are not in-network.
+  if (stateAbbr === 'FL' && family?.id === 'bcbs' && planId === 'ma') {
+    planExcluded = true;
+    excludeReason = 'Our Florida Blue contract is Commercial-only — Florida Blue Medicare Advantage, Florida Blue Medicaid, and Federal Employee Program (FEP) plans are not in-network.';
+  }
 
   if (planExcluded) {
     return {
