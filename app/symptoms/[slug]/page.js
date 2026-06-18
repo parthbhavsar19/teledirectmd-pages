@@ -3,6 +3,7 @@
 // Structure mirrors the gold-standard condition-page pattern (4,300+ words,
 // 14 FAQs, 25+ H2/H3 headings, per-symptom differentials + medications).
 
+import { getPayerFamilyStateCount } from '../../../lib/insurance-data';
 import {
   SYMPTOM_PAGES,
   SYMPTOM_PAGE_SLUGS,
@@ -557,9 +558,9 @@ export default async function SymptomPage({ params }) {
           <h2>$79 Cash-Pay or In-Network with Aetna, BCBS, UHC</h2>
           <p>The $79 flat rate applies to all 43 states. If you have insurance, TeleDirectMD is in-network with Aetna, BCBS, and UnitedHealthcare in select states — your standard telehealth copay applies in place of the $79.</p>
           <div className="tdmd-related-grid">
-            <a href="/insurance/aetna/"                   className="tdmd-related-card"><span className="tdmd-related-title">Aetna</span><span className="tdmd-related-desc">In-network in 10 states</span></a>
-            <a href="/insurance/blue-cross-blue-shield/"  className="tdmd-related-card"><span className="tdmd-related-title">Blue Cross Blue Shield</span><span className="tdmd-related-desc">In-network in 5 states</span></a>
-            <a href="/insurance/united-healthcare/"        className="tdmd-related-card"><span className="tdmd-related-title">UnitedHealthcare</span><span className="tdmd-related-desc">In-network in 11 states</span></a>
+            <a href="/insurance/aetna/"                   className="tdmd-related-card"><span className="tdmd-related-title">Aetna</span><span className="tdmd-related-desc">{`In-network in ${getPayerFamilyStateCount('aetna')} states`}</span></a>
+            <a href="/insurance/blue-cross-blue-shield/"  className="tdmd-related-card"><span className="tdmd-related-title">Blue Cross Blue Shield</span><span className="tdmd-related-desc">{`In-network in ${getPayerFamilyStateCount('bcbs')} states`}</span></a>
+            <a href="/insurance/united-healthcare/"        className="tdmd-related-card"><span className="tdmd-related-title">UnitedHealthcare</span><span className="tdmd-related-desc">{`In-network in ${getPayerFamilyStateCount('uhc')} states`}</span></a>
           </div>
         </div>
       </section>

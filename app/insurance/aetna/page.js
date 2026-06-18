@@ -2,7 +2,7 @@ import AetnaHubClient from './AetnaHubClient';
 
 export const metadata = {
   title: 'Online Doctor That Accepts Aetna Insurance | TeleDirectMD',
-  description: 'TeleDirectMD accepts Aetna commercial insurance in 10 states. Board-certified physician. Same-day video visits for UTI, sinus infection, asthma, hypertension & more. Check your state.',
+  description: 'TeleDirectMD accepts Aetna PPO, HMO, EPO, POS, and Medicare Advantage plans in 13 states. Board-certified physician. Same-day video visits for UTI, sinus infection, asthma, hypertension & more. Check your state.',
   alternates: { canonical: 'https://teledirectmd.com/insurance/aetna' },
   openGraph: {
     title: 'Online Doctor That Accepts Aetna Insurance | TeleDirectMD',
