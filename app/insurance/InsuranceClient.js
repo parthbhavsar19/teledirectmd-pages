@@ -423,7 +423,7 @@ function resolveResult(stateAbbr, payerId, planId) {
       headline: `${family.label} ${planLabel} in ${STATE_NAMES[stateAbbr]} — not in-network.`,
       text: `${excludeReason} We are in-network with this payer's other plan types in this state — try changing the plan type above. Or book a $79 self-pay visit.`,
       status: 'Plan excluded',
-      eff: matchedActive.effectiveDate || '—',
+      eff: formatDate(matchedActive.effectiveDate),
       plans: matchedActive.planSummary || 'See contract details',
       ctaText: 'Book $79 self-pay visit →',
       ctaHref: `/book-online?state=${stateAbbr}`,
