@@ -2,25 +2,83 @@
 
 import { useState, useEffect, useRef } from "react";
 
-// ─── Data: Only ACTIVE contracts (live for billing as of June 2026) — updated 2026-06-08 ───
+// Data: Only ACTIVE contracts (live for billing). Synced 2026-06-18 from
+//   Payor Enrollment Tracking Sheet + Notion DB + signed contract PDFs.
+//   Mirrors lib/insurance-data.js — keep both in sync.
+// Public-facing policy: Medicaid, Managed Medicaid, CHIP, MME, and D-SNP
+//   are NEVER surfaced here. UHC NJ Community Plan (NJ FamilyCare Medicaid),
+//   UHC WA Medicaid/CHIP/Uninsured, and BCBS-TX D-SNP / WellMed MA HMO are
+//   contractually in-network but intentionally omitted from public lists.
 const insuranceData = {
-  AZ: { state: "Arizona", insurers: [{ name: "Aetna", group: "Aetna", plans: ["Commercial plans accepted"] }, { name: "UnitedHealthcare", group: "UHC", plans: ["Commercial plans accepted"] }] },
-  CA: { state: "California", insurers: [{ name: "Aetna", group: "Aetna", plans: ["Commercial plans accepted"] }, { name: "UnitedHealthcare", group: "UHC", plans: ["Commercial + Medicare Advantage (excludes Medi-Cal, Individual Exchange, Navigate/Charter/Core)"] }] },
-  CO: { state: "Colorado", insurers: [{ name: "Aetna", group: "Aetna", plans: ["Commercial plans accepted"] }, { name: "UnitedHealthcare", group: "UHC", plans: ["Commercial plans accepted"] }] },
-  FL: { state: "Florida", insurers: [{ name: "Aetna", group: "Aetna", plans: ["Commercial plans accepted"] }, { name: "Florida Blue", group: "BCBS", plans: ["Individual plans", "Group plans"] }, { name: "UnitedHealthcare", group: "UHC", plans: ["Commercial plans accepted"] }] },
-  GA: { state: "Georgia", insurers: [{ name: "Aetna", group: "Aetna", plans: ["Commercial plans accepted"] }, { name: "Anthem Blue Cross Blue Shield", group: "BCBS", plans: ["Commercial plans accepted"] }, { name: "UnitedHealthcare", group: "UHC", plans: ["Commercial plans accepted"] }] },
-  IL: { state: "Illinois", insurers: [{ name: "Aetna", group: "Aetna", plans: ["Commercial plans accepted"] }, { name: "Blue Cross Blue Shield of Illinois", group: "BCBS", plans: ["Commercial plans accepted"] }, { name: "UnitedHealthcare", group: "UHC", plans: ["Commercial plans accepted"] }] },
-  LA: { state: "Louisiana", insurers: [{ name: "UnitedHealthcare", group: "UHC", plans: ["Commercial plans accepted"] }] },
-  MI: { state: "Michigan", insurers: [{ name: "Aetna", group: "Aetna", plans: ["Commercial plans accepted"] }, { name: "UnitedHealthcare", group: "UHC", plans: ["Commercial plans accepted"] }] },
-  MN: { state: "Minnesota", insurers: [{ name: "Aetna", group: "Aetna", plans: ["Commercial plans accepted"] }, { name: "UnitedHealthcare", group: "UHC", plans: ["Commercial plans accepted"] }] },
-  NC: { state: "North Carolina", insurers: [{ name: "UnitedHealthcare", group: "UHC", plans: ["Commercial plans accepted"] }] },
-  NJ: { state: "New Jersey", insurers: [{ name: "UnitedHealthcare", group: "UHC", plans: ["Commercial plans accepted"] }] },
-  OH: { state: "Ohio", insurers: [{ name: "Aetna", group: "Aetna", plans: ["Commercial plans accepted"] }, { name: "UnitedHealthcare", group: "UHC", plans: ["Commercial plans accepted"] }] },
-  OK: { state: "Oklahoma", insurers: [{ name: "UnitedHealthcare", group: "UHC", plans: ["Commercial plans accepted"] }] },
-  PA: { state: "Pennsylvania", insurers: [{ name: "Aetna", group: "Aetna", plans: ["Commercial plans accepted"] }, { name: "Highmark Blue Cross Blue Shield", group: "BCBS", plans: ["Commercial plans accepted"] }, { name: "UnitedHealthcare", group: "UHC", plans: ["Commercial plans accepted"] }] },
-  TN: { state: "Tennessee", insurers: [{ name: "Aetna", group: "Aetna", plans: ["Commercial plans accepted"] }, { name: "UnitedHealthcare", group: "UHC", plans: ["Commercial plans accepted"] }] },
-  TX: { state: "Texas", insurers: [{ name: "Blue Cross Blue Shield of Texas", group: "BCBS", plans: ["Blue Advantage HMO","Blue Choice PPO","Health Select","Blue Essentials","Medicare Advantage HMO","Medicare Advantage PPO","Dual Special Needs Plan (D-SNP)","WellMed MA HMO"] }, { name: "UnitedHealthcare", group: "UHC", plans: ["Commercial plans accepted"] }] },
-  WA: { state: "Washington", insurers: [{ name: "UnitedHealthcare", group: "UHC", plans: ["Commercial plans accepted"] }] },
+  AZ: { state: "Arizona", insurers: [
+    { name: "Aetna", group: "Aetna", plans: ["PPO, HMO, EPO, POS", "Medicare Advantage"] },
+    { name: "UnitedHealthcare", group: "UHC", plans: ["PPO, HMO, EPO, POS", "Medicare Advantage"] },
+  ] },
+  CA: { state: "California", insurers: [
+    { name: "Aetna", group: "Aetna", plans: ["PPO, EPO, POS (excludes HMO and QPOS)", "Medicare Advantage (excludes Medicare HMO)"] },
+    { name: "UnitedHealthcare", group: "UHC", plans: ["PPO, HMO, EPO, POS", "Medicare Advantage", "Excludes Medi-Cal, Individual Exchange, Navigate/Charter/Core narrow networks"] },
+  ] },
+  CO: { state: "Colorado", insurers: [
+    { name: "Aetna", group: "Aetna", plans: ["PPO, HMO, EPO, POS", "Medicare Advantage"] },
+    { name: "UnitedHealthcare", group: "UHC", plans: ["PPO, HMO, EPO, POS", "Medicare Advantage", "Excludes Navigate, Charter, Colorado Doctors Plan"] },
+  ] },
+  FL: { state: "Florida", insurers: [
+    { name: "Florida Blue", group: "BCBS", plans: ["PPO, HMO, EPO, POS", "Medicare Advantage"] },
+    { name: "Aetna", group: "Aetna", plans: ["PPO, HMO, EPO, POS", "Medicare Advantage"] },
+    { name: "UnitedHealthcare", group: "UHC", plans: ["PPO, HMO, EPO, POS", "Medicare Advantage"] },
+  ] },
+  GA: { state: "Georgia", insurers: [
+    { name: "Aetna", group: "Aetna", plans: ["PPO, HMO, EPO, POS", "Medicare Advantage"] },
+    { name: "Anthem Blue Cross Blue Shield", group: "BCBS", plans: ["PPO, HMO, EPO, POS", "Medicare Advantage"] },
+    { name: "UnitedHealthcare", group: "UHC", plans: ["PPO, HMO, EPO, POS", "Medicare Advantage"] },
+  ] },
+  IL: { state: "Illinois", insurers: [
+    { name: "Aetna", group: "Aetna", plans: ["PPO, HMO, EPO, POS", "Medicare Advantage"] },
+    { name: "Blue Cross Blue Shield of Illinois", group: "BCBS", plans: ["Blue Choice PPO", "Broad PPO", "HPN EPO", "Medicare Advantage PPO"] },
+    { name: "UnitedHealthcare", group: "UHC", plans: ["PPO, HMO, EPO, POS (Commercial only)", "Medicare Advantage not in-network in IL"] },
+  ] },
+  LA: { state: "Louisiana", insurers: [
+    { name: "Aetna", group: "Aetna", plans: ["PPO, HMO, EPO, POS", "Medicare Advantage"] },
+    { name: "UnitedHealthcare", group: "UHC", plans: ["PPO, HMO, EPO, POS", "Medicare Advantage"] },
+  ] },
+  MI: { state: "Michigan", insurers: [
+    { name: "Aetna", group: "Aetna", plans: ["PPO, HMO, EPO, POS", "Medicare Advantage"] },
+    { name: "UnitedHealthcare", group: "UHC", plans: ["PPO, HMO, EPO, POS", "Medicare Advantage"] },
+  ] },
+  MN: { state: "Minnesota", insurers: [
+    { name: "Allina Health | Aetna", group: "Aetna", plans: ["PPO, HMO, EPO, POS", "Medicare Advantage", "Allina Health | Aetna joint venture"] },
+    { name: "UnitedHealthcare", group: "UHC", plans: ["PPO, HMO, EPO, POS (Commercial only)", "Medicare Advantage not in-network in MN"] },
+  ] },
+  NC: { state: "North Carolina", insurers: [
+    { name: "Aetna", group: "Aetna", plans: ["PPO, HMO, EPO, POS", "Medicare Advantage"] },
+    { name: "UnitedHealthcare", group: "UHC", plans: ["PPO, HMO, EPO, POS", "Medicare Advantage"] },
+  ] },
+  NJ: { state: "New Jersey", insurers: [
+    { name: "UnitedHealthcare", group: "UHC", plans: ["PPO, HMO, EPO, POS", "Medicare Advantage"] },
+  ] },
+  OH: { state: "Ohio", insurers: [
+    { name: "Aetna", group: "Aetna", plans: ["PPO, HMO, EPO, POS", "Medicare Advantage"] },
+    { name: "UnitedHealthcare", group: "UHC", plans: ["PPO, HMO, EPO, POS", "Medicare Advantage"] },
+  ] },
+  OK: { state: "Oklahoma", insurers: [
+    { name: "UnitedHealthcare", group: "UHC", plans: ["PPO, HMO, EPO, POS", "Medicare Advantage"] },
+  ] },
+  PA: { state: "Pennsylvania", insurers: [
+    { name: "Aetna", group: "Aetna", plans: ["PPO, HMO, EPO, POS", "Medicare Advantage"] },
+    { name: "Highmark Blue Cross Blue Shield", group: "BCBS", plans: ["PPO, HMO, EPO, POS", "Medicare Advantage"] },
+    { name: "UnitedHealthcare", group: "UHC", plans: ["PPO, HMO, EPO, POS", "Medicare Advantage"] },
+  ] },
+  TN: { state: "Tennessee", insurers: [
+    { name: "Aetna", group: "Aetna", plans: ["PPO, HMO, EPO, POS", "Medicare Advantage"] },
+    { name: "UnitedHealthcare", group: "UHC", plans: ["PPO, HMO, EPO, POS", "Medicare Advantage"] },
+  ] },
+  TX: { state: "Texas", insurers: [
+    { name: "Blue Cross Blue Shield of Texas", group: "BCBS", plans: ["Blue Advantage HMO","Blue Choice PPO","Health Select","Blue Essentials","Medicare Advantage HMO","Medicare Advantage PPO"] },
+    { name: "UnitedHealthcare", group: "UHC", plans: ["PPO, HMO, EPO, POS (Commercial only)", "Medicare Advantage not in-network in TX"] },
+  ] },
+  WA: { state: "Washington", insurers: [
+    { name: "UnitedHealthcare", group: "UHC", plans: ["PPO, HMO, EPO, POS", "Medicare Advantage"] },
+  ] },
 };
 
 const allStates = ["AL","AZ","CA","CO","CT","DC","DE","FL","GA","HI","ID","IL","IN","IA","KS","KY","LA","ME","MD","MI","MN","MS","MO","MT","NE","NV","NH","NJ","NC","ND","OH","OK","PA","SC","SD","TN","TX","UT","WA","WV","WI","WY"];
