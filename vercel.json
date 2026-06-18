@@ -2502,15 +2502,6 @@
       "dest": "/410-insurance.txt"
     },
     {
-      "src": "/insurance/florida-blue/?",
-      "status": 410,
-      "headers": {
-        "Content-Type": "text/plain",
-        "X-Retired": "insurance-consolidation-2026-06-09"
-      },
-      "dest": "/410-insurance.txt"
-    },
-    {
       "src": "/insurance/united-healthcare/illinois/flu-treatment/?",
       "status": 410,
       "headers": {
@@ -2521,15 +2512,6 @@
     },
     {
       "src": "/insurance/united-healthcare/minnesota/flu-treatment/?",
-      "status": 410,
-      "headers": {
-        "Content-Type": "text/plain",
-        "X-Retired": "insurance-consolidation-2026-06-09"
-      },
-      "dest": "/410-insurance.txt"
-    },
-    {
-      "src": "/insurance/?",
       "status": 410,
       "headers": {
         "Content-Type": "text/plain",
