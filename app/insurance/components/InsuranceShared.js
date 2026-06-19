@@ -69,7 +69,9 @@ export function CopayCard({ insurerName, stateName, copayData, insurerColor }) {
 }
 
 // ─── Book CTA ─────────────────────────────────────────────────────────────────
-export function BookCTA({ insurerName }) {
+export function BookCTA({ insurerName, tagline, subtagline }) {
+  const defaultTagline = `Board-certified physician. Same-day video visits. Prescription sent directly to your pharmacy.`;
+  const defaultSub = `Self-pay $79 flat fee always available — no insurance required.`;
   return (
     <div style={{ background:`linear-gradient(135deg, ${B.navyDarker}, ${B.navy})`, borderRadius:B.r, padding:"40px 28px", display:"flex", flexDirection:"column", alignItems:"center", textAlign:"center", position:"relative", overflow:"hidden" }}>
       <div style={{ position:"absolute", inset:0, opacity:0.05, backgroundImage:"radial-gradient(circle, white 1px, transparent 1px)", backgroundSize:"24px 24px" }} />
@@ -78,10 +80,10 @@ export function BookCTA({ insurerName }) {
           Ready to Use Your {insurerName} Benefits?
         </h2>
         <p style={{ fontSize:16, color:"rgba(255,255,255,0.7)", margin:"0 0 4px", maxWidth:480 }}>
-          Board-certified physician. Same-day video visits. Prescription sent directly to your pharmacy.
+          {tagline || defaultTagline}
         </p>
         <p style={{ fontSize:14, color:"rgba(255,255,255,0.5)", margin:"0 0 24px" }}>
-          Self-pay $79 flat fee always available — no insurance required.
+          {subtagline || defaultSub}
         </p>
         <a href="https://www.teledirectmd.com/book-online" target="_blank" rel="noopener"
           style={{ display:"inline-flex", alignItems:"center", gap:8, padding:"14px 32px", background:B.accent, color:B.white, borderRadius:B.rs, fontWeight:700, fontSize:16, textDecoration:"none" }}>
@@ -96,13 +98,13 @@ export function BookCTA({ insurerName }) {
 }
 
 // ─── HowItWorks — with HowTo schema JSON-LD ──────────────────────────────────
-export function HowItWorksSteps({ insurerName }) {
-  const steps = [
-    { icon: <Ico.Cal c={B.teal} s={24} />, title: "Book Your Visit Online", desc: `Go to teledirectmd.com/book-online. Select "Insurance" as your payment method. Have your ${insurerName} member ID card ready — we verify your coverage before your visit.` },
-    { icon: <Ico.Check c={B.teal} s={24} />, title: "Coverage Verified for You", desc: `We confirm your ${insurerName} benefits before you join the video call. If your specific plan isn't in-network, we'll let you know so you can choose self-pay ($79) instead.` },
-    { icon: <Ico.Video c={B.teal} s={24} />, title: "Video Visit with Dr. Bhavsar, MD", desc: "Connect by secure video from your phone, tablet, or computer. Dr. Bhavsar, MD evaluates your symptoms — same clinical standard as an in-person visit, not a PA or NP." },
-    { icon: <Ico.Rx c={B.teal} s={24} />, title: "Prescription Sent Instantly", desc: "If a prescription is appropriate, it's sent electronically to your preferred pharmacy the moment your visit ends. Your pharmacy benefit applies to the medication." },
+export function HowItWorksSteps({ insurerName, customSteps }) {
+  const defaultSteps = [
+    { icon: <Ico.Cal c={B.teal} s={24} />, title: "Book online", desc: `Have your ${insurerName} member ID ready at teledirectmd.com/book-online.` },
+    { icon: <Ico.Check c={B.teal} s={24} />, title: "We verify benefits", desc: `Your ${insurerName} coverage is confirmed before the visit — or pay $79 self-pay.` },
+    { icon: <Ico.Video c={B.teal} s={24} />, title: "Video visit + Rx", desc: "Same-day video with Dr. Bhavsar, MD. Prescription sent to your pharmacy at visit end." },
   ];
+  const steps = customSteps || defaultSteps;
 
   const howToSchema = {
     "@context": "https://schema.org",
@@ -405,10 +407,13 @@ export function CommissionerLink({ stateCode, stateName }) {
 }
 
 // ─── Insurance Disclaimer ─────────────────────────────────────────────────────
-export function InsuranceDisclaimer() {
+export function InsuranceDisclaimer({ payerNote }) {
+  // payerNote: optional payer-specific one-liner that gets injected at the start
+  // so each hub's disclaimer differs in its first sentence — reduces near-duplicate dedup risk.
   return (
     <p style={{ fontSize:12, color:B.text, lineHeight:1.7, borderTop:`1px solid ${B.border}`, paddingTop:20, opacity:0.7 }}>
-      Insurance coverage and plan acceptance are subject to change. Information reflects active contracts as of April 2026 and is verified monthly. Not all plans from a listed insurer may be accepted — Medicaid and Medicare fee-for-service plans are not accepted unless specifically noted. Copay estimates are based on published plan data and may not reflect your exact cost. Patients should verify benefits with their insurer before booking. TeleDirectMD does not guarantee insurance coverage for any specific service. Dr. Parth Bhavsar, MD · NPI: 1104323203 · Board-Certified Family Medicine · Contact: <a href="mailto:contact@teledirectmd.com" style={{ color:B.teal }}>contact@teledirectmd.com</a>.
+      {payerNote ? <><strong>{payerNote}</strong> </> : null}
+      Coverage and plan acceptance are subject to change; this page reflects active contracts verified monthly. Copay estimates draw from published plan data — verify your exact cost with your insurer before booking. TeleDirectMD does not guarantee coverage for any specific service. Dr. Parth Bhavsar, MD · NPI: 1104323203 · Board-Certified Family Medicine · <a href="mailto:contact@teledirectmd.com" style={{ color:B.teal }}>contact@teledirectmd.com</a>.
     </p>
   );
 }
