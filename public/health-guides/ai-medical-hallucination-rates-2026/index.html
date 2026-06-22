@@ -1,0 +1,888 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hallucination Rates in Medical AI: What the Citation Fabrication Data Tells Us | TeleDirectMD</title>
+<meta name="description" content="A data-driven review of AI hallucination rates across GPT-3.5, GPT-4, and Bard — covering citation fabrication (55%–91%), clinical documentation errors, and what the evidence means for safe medical AI use.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://teledirectmd.com/health-guides/ai-medical-hallucination-rates-2026/">
+
+<!-- Open Graph -->
+<meta property="og:type" content="article">
+<meta property="og:title" content="Hallucination Rates in Medical AI: What the Citation Fabrication Data Tells Us">
+<meta property="og:description" content="GPT-3.5 fabricates 55% of citations. Bard hallucinates 91.4% of medical references. A peer-reviewed breakdown of what the data actually shows — and where AI remains reliably useful.">
+<meta property="og:url" content="https://teledirectmd.com/health-guides/ai-medical-hallucination-rates-2026/">
+<meta property="og:site_name" content="TeleDirectMD Health Guides">
+<meta property="og:image" content="https://teledirectmd.com/health-guides/ai-medical-hallucination-rates-2026/images/hero-hallucination-rates.png">
+<meta property="og:image:width" content="1024">
+<meta property="og:image:height" content="576">
+<meta property="article:published_time" content="2026-06-22T00:00:00-04:00">
+<meta property="article:modified_time" content="2026-06-22T00:00:00-04:00">
+<meta property="article:author" content="https://teledirectmd.com/health-guides/about-the-editor/">
+<meta property="article:section" content="AI in Medicine">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Hallucination Rates in Medical AI: What the Citation Fabrication Data Tells Us">
+<meta name="twitter:description" content="GPT-3.5: 55% citation fabrication. Bard: 91.4%. The peer-reviewed data on medical AI hallucination rates.">
+<meta name="twitter:image" content="https://teledirectmd.com/health-guides/ai-medical-hallucination-rates-2026/images/hero-hallucination-rates.png">
+
+<!-- JSON-LD Structured Data -->
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "WebSite",
+   "@id": "https://teledirectmd.com/#website",
+   "url": "https://teledirectmd.com",
+   "name": "TeleDirectMD",
+   "publisher": { "@id": "https://teledirectmd.com/#organization" }
+  },
+  {
+   "@type": "BreadcrumbList",
+   "@id": "https://teledirectmd.com/health-guides/ai-medical-hallucination-rates-2026#breadcrumb",
+   "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://teledirectmd.com" },
+    { "@type": "ListItem", "position": 2, "name": "Health Guides", "item": "https://teledirectmd.com/health-guides" },
+    { "@type": "ListItem", "position": 3, "name": "Hallucination Rates in Medical AI", "item": "https://teledirectmd.com/health-guides/ai-medical-hallucination-rates-2026" }
+   ]
+  },
+  {
+   "@type": "Organization",
+   "editorialPolicy": "https://teledirectmd.com/health-guides/editorial-standards/#editorial-standards",
+   "correctionsPolicy": "https://teledirectmd.com/health-guides/editorial-standards/#corrections",
+   "verificationFactCheckingPolicy": "https://teledirectmd.com/health-guides/editorial-standards/#methodology",
+   "ownershipFundingInfo": "https://teledirectmd.com/health-guides/editorial-standards/#funding-conflicts",
+   "publishingPrinciples": "https://teledirectmd.com/health-guides/editorial-standards/",
+   "@id": "https://teledirectmd.com/#organization",
+   "name": "TeleDirectMD",
+   "url": "https://teledirectmd.com",
+   "logo": { "@type": "ImageObject", "url": "https://teledirectmd.com/logo.webp" },
+   "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+1-678-956-1855",
+    "contactType": "customer service",
+    "email": "contact@teledirectmd.com"
+   }
+  },
+  {
+   "@type": "Person",
+   "@id": "https://teledirectmd.com/about#physician",
+   "name": "Parth Bhavsar, MD",
+   "jobTitle": "Board-Certified Family Medicine Physician",
+   "url": "https://teledirectmd.com/health-guides/about-the-editor/",
+   "affiliation": { "@id": "https://teledirectmd.com/#organization" },
+   "sameAs": [
+    "https://npiregistry.cms.hhs.gov/provider-view/1104323203",
+    "https://www.linkedin.com/in/parth-bhavsar-md-0527143a6",
+    "https://orcid.org/0009-0001-7308-5653"
+   ]
+  },
+  {
+   "@type": "MedicalWebPage",
+   "@id": "https://teledirectmd.com/health-guides/ai-medical-hallucination-rates-2026#webpage",
+   "url": "https://teledirectmd.com/health-guides/ai-medical-hallucination-rates-2026",
+   "name": "Hallucination Rates in Medical AI: What the Citation Fabrication Data Tells Us",
+   "lastReviewed": "2026-06-22",
+   "reviewedBy": { "@id": "https://teledirectmd.com/about#physician" },
+   "medicalAudience": { "@type": "MedicalAudience", "audienceType": "Patient" },
+   "datePublished": "2026-06-22",
+   "dateModified": "2026-06-22",
+   "isPartOf": { "@id": "https://teledirectmd.com/#website" },
+   "breadcrumb": { "@id": "https://teledirectmd.com/health-guides/ai-medical-hallucination-rates-2026#breadcrumb" },
+   "speakable": { "@type": "SpeakableSpecification", "cssSelector": [".tdmd-article-title", ".tdmd-key-points"] },
+   "citation": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC10484980/",
+    "https://pubmed.ncbi.nlm.nih.gov/37337480/",
+    "https://www.jmir.org/2024/1/e53164/",
+    "https://medinform.jmir.org/2024/1/e54345/",
+    "https://www.nature.com/articles/s41746-025-01670-7",
+    "https://arxiv.org/pdf/2503.05777.pdf",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC11975740/",
+    "https://www.fda.gov/media/184078/download",
+    "https://www.cidrap.umn.edu/anti-science/review-uncovers-rising-rate-fake-references-published-biomedical-papers"
+   ]
+  },
+  {
+   "@type": "Article",
+   "@id": "https://teledirectmd.com/health-guides/ai-medical-hallucination-rates-2026#article",
+   "headline": "Hallucination Rates in Medical AI: What the Citation Fabrication Data Tells Us",
+   "datePublished": "2026-06-22",
+   "dateModified": "2026-06-22",
+   "author": { "@id": "https://teledirectmd.com/about#physician" },
+   "publisher": { "@id": "https://teledirectmd.com/#organization" },
+   "image": "https://teledirectmd.com/health-guides/ai-medical-hallucination-rates-2026/images/hero-hallucination-rates.png",
+   "mainEntityOfPage": { "@id": "https://teledirectmd.com/health-guides/ai-medical-hallucination-rates-2026#webpage" },
+   "articleSection": "AI in Medicine",
+   "wordCount": 1210
+  }
+ ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "FAQPage",
+ "@id": "https://teledirectmd.com/health-guides/ai-medical-hallucination-rates-2026#faq",
+ "mainEntity": [
+  {
+   "@type": "Question",
+   "name": "What is the hallucination rate in medical AI?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Hallucination rates vary widely by task type and model. For bibliographic citation generation, GPT-3.5 fabricates approximately 55% of citations and GPT-4 fabricates 18%, according to Walters and Wilder (Scientific Reports 2023). For systematic review reference generation, Bard hallucinated 91.4% of references (Chelli et al., JMIR 2024). For clinical documentation — a more structured task — hallucination rates drop to about 1.47% per sentence, though 44% of those errors are classified as clinically significant (Asgari et al., npj Digital Medicine 2025)."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Why does AI hallucinate medical citations so often?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Large language models generate text by predicting statistically likely next tokens — not by retrieving verified facts from a database. When asked to produce a citation, the model constructs something that looks like a citation based on patterns in its training data. It may correctly identify real authors who work in a field, real journal names, and plausible dates, but combine them into a reference that never actually existed. This is why hallucinated citations are often convincing — they are assembled from real components in a plausible format."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Is AI ever reliably accurate in medical contexts?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Yes. AI performs considerably better on tasks that stay within its training corpus and do not require precise bibliographic recall. Research shows AI models perform well on answering general medical knowledge questions about high-prevalence conditions, identifying potential drug interactions when grounded in vetted databases, drafting administrative documentation under physician review, and general clinical Q&A. The key distinction is between tasks requiring accurate recall of specific bibliographic details (where hallucination rates are high) versus general reasoning about well-documented medical topics (where accuracy is considerably better)."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "How should clinicians use AI tools safely given hallucination risks?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Published guidance and the FDA Digital Health Advisory Committee recommendations both emphasize a human-in-the-loop approach. Practically, this means: never accepting AI-generated citations without independently verifying each reference in PubMed or a database; using AI for drafting and synthesis but treating all factual claims as provisional until verified; being especially careful with rare-disease information and any content outside high-prevalence conditions well-represented in training data; and using AI clinical documentation tools with structured clinician review workflows, not unedited submission."
+   }
+  }
+ ]
+}
+</script>
+
+<style>
+/* ===== CSS Reset & Variables ===== */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+ --tdmd-navy: #003e52;
+ --tdmd-teal: #006b73;
+ --tdmd-text: #12323a;
+ --tdmd-muted: #4b5f66;
+ --tdmd-bg-soft: #f3fafb;
+ --tdmd-border: #dde3e6;
+ --tdmd-accent: #ff5a36;
+ --tdmd-radius: 18px;
+ --tdmd-footer-bg: #0e3d4d;
+ --tdmd-white: #ffffff;
+ --tdmd-font: system-ui, -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', sans-serif;
+}
+
+html { scroll-behavior: smooth; overflow-x: hidden; }
+
+body {
+ font-family: var(--tdmd-font);
+ font-size: 1rem;
+ line-height: 1.7;
+ color: var(--tdmd-text);
+ background: var(--tdmd-white);
+ -webkit-font-smoothing: antialiased;
+ -moz-osx-font-smoothing: grayscale;
+ overflow-x: hidden;
+ max-width: 100vw;
+}
+
+/* ===== Typography ===== */
+h1, h2, h3, h4 { color: var(--tdmd-navy); line-height: 1.3; font-weight: 700; }
+h1 { font-size: 2rem; margin-bottom: 0.75rem; }
+h2 { font-size: 1.5rem; margin-bottom: 0.75rem; margin-top: 2.5rem; }
+h3 { font-size: 1.15rem; margin-bottom: 0.5rem; margin-top: 1.5rem; }
+p { margin-bottom: 1rem; }
+a { color: var(--tdmd-teal); text-decoration: none; }
+a:hover { text-decoration: underline; }
+ul, ol { margin-bottom: 1rem; padding-left: 1.5rem; }
+li { margin-bottom: 0.35rem; }
+sup a { color: var(--tdmd-teal); font-weight: 600; text-decoration: none; font-size: 0.75em; }
+sup a:hover { text-decoration: underline; }
+
+/* ===== Layout ===== */
+.tdmd-container { max-width: 1100px; margin: 0 auto; padding: 0 1.5rem; width: 100%; box-sizing: border-box; }
+.tdmd-section { padding: 2.5rem 0; }
+.tdmd-section-highlight { background: var(--tdmd-bg-soft); }
+
+/* ===== Navigation ===== */
+.tdmd-nav { background: var(--tdmd-white); border-bottom: 1px solid #eef2f4; position: sticky; top: 0; z-index: 1000; }
+.tdmd-nav-inner { display: flex; align-items: center; justify-content: space-between; padding: 0.75rem 0; max-width: 1100px; margin: 0 auto; padding-left: 1.5rem; padding-right: 1.5rem; }
+.tdmd-nav-logo img { height: 80px; width: auto; display: block; }
+.tdmd-nav-links { display: flex; align-items: center; gap: 1.75rem; list-style: none; margin: 0; padding: 0; }
+.tdmd-nav-links a { color: var(--tdmd-navy); font-size: 0.95rem; font-weight: 500; text-decoration: none; transition: color 0.2s; }
+.tdmd-nav-links a:hover { color: var(--tdmd-teal); text-decoration: none; }
+.tdmd-nav-book { display: inline-block; background: var(--tdmd-navy); color: var(--tdmd-white) !important; padding: 0.65rem 1.75rem; border-radius: 50px; font-weight: 600; font-size: 0.95rem; transition: background 0.2s; white-space: nowrap; }
+.tdmd-nav-book:hover { background: var(--tdmd-teal); text-decoration: none !important; }
+.tdmd-hamburger { display: none; background: none; border: none; cursor: pointer; padding: 0.5rem; }
+.tdmd-hamburger span { display: block; width: 24px; height: 2px; background: var(--tdmd-navy); margin: 5px 0; transition: all 0.3s; border-radius: 2px; }
+
+@media (max-width: 768px) {
+ .tdmd-nav-links { display: none; }
+ .tdmd-hamburger { display: block; }
+ .tdmd-nav-links.tdmd-nav-open { display: flex; flex-direction: column; position: absolute; top: 100%; left: 0; right: 0; background: var(--tdmd-white); border-bottom: 1px solid #eef2f4; padding: 1rem 1.5rem; gap: 0.75rem; box-shadow: 0 8px 20px rgba(0,0,0,0.06); }
+ .tdmd-nav-links.tdmd-nav-open a { font-size: 1.05rem; padding: 0.5rem 0; display: block; }
+}
+
+/* ===== Breadcrumb ===== */
+.tdmd-breadcrumb { padding: 1rem 0 0; font-size: 0.875rem; color: var(--tdmd-muted); }
+.tdmd-breadcrumb a { color: var(--tdmd-teal); }
+.tdmd-breadcrumb span { margin: 0 0.4rem; }
+
+/* ===== Article Header ===== */
+.tdmd-article-header { padding: 2rem 0 1.5rem; border-bottom: 1px solid var(--tdmd-border); margin-bottom: 2rem; }
+.tdmd-article-meta { display: flex; flex-wrap: wrap; align-items: center; gap: 1rem; margin-top: 1rem; font-size: 0.9rem; color: var(--tdmd-muted); }
+.tdmd-article-meta-item { display: flex; align-items: center; gap: 0.35rem; }
+.tdmd-article-meta svg { width: 16px; height: 16px; flex-shrink: 0; }
+.tdmd-badge { display: inline-block; background: var(--tdmd-bg-soft); color: var(--tdmd-teal); font-size: 0.8rem; font-weight: 600; padding: 0.25rem 0.75rem; border-radius: 50px; border: 1px solid var(--tdmd-border); }
+.tdmd-article-title { font-size: 2rem; line-height: 1.25; margin-bottom: 0.25rem; }
+.tdmd-article-subtitle { font-size: 1.1rem; color: var(--tdmd-muted); font-weight: 400; margin-bottom: 0; }
+
+/* Series badge */
+.article-card-badge { display: inline-block; font-size: 0.78rem; font-weight: 700; padding: 0.2rem 0.65rem; border-radius: 50px; letter-spacing: 0.03em; margin-right: 0.5rem; }
+.article-card-badge--ai { background: #e6f3f9; color: #00556b; border: 1px solid #b0d9e8; }
+
+/* ===== Content Layout ===== */
+.tdmd-content-grid { display: grid; grid-template-columns: 1fr 300px; gap: 3rem; align-items: start; min-width: 0; }
+.tdmd-article-body { min-width: 0; overflow-wrap: break-word; word-wrap: break-word; }
+@media (max-width: 900px) { .tdmd-content-grid { grid-template-columns: 1fr; gap: 1.5rem; } .tdmd-sidebar { order: -1; } .tdmd-sidebar-card { position: static; } }
+@media (max-width: 480px) { h1, .tdmd-article-title { font-size: 1.6rem; } h2 { font-size: 1.3rem; } .tdmd-container { padding: 0 1rem; } }
+
+/* ===== Article Body ===== */
+.tdmd-article-body h2 { padding-top: 1rem; border-top: 1px solid var(--tdmd-border); }
+.tdmd-article-body h2:first-of-type { border-top: none; padding-top: 0; }
+
+/* Callout cards */
+.tdmd-callout { background: var(--tdmd-bg-soft); border-left: 4px solid var(--tdmd-teal); padding: 1.25rem 1.5rem; border-radius: 0 var(--tdmd-radius) var(--tdmd-radius) 0; margin: 1.5rem 0; }
+.tdmd-callout-warning { border-left-color: var(--tdmd-accent); background: #fff8f6; }
+.tdmd-callout-title { font-weight: 700; color: var(--tdmd-navy); margin-bottom: 0.5rem; font-size: 0.95rem; display: flex; align-items: center; gap: 0.5rem; }
+.tdmd-callout p:last-child { margin-bottom: 0; }
+
+/* Key points card */
+.tdmd-key-points { background: var(--tdmd-white); border: 1px solid var(--tdmd-border); border-radius: var(--tdmd-radius); padding: 1.5rem; box-shadow: 0 8px 20px rgba(0,0,0,0.06); margin-bottom: 2rem; }
+.tdmd-key-points h3 { color: var(--tdmd-navy); font-size: 1rem; margin-top: 0; margin-bottom: 0.75rem; display: flex; align-items: center; gap: 0.5rem; }
+.tdmd-key-points ul { margin-bottom: 0; padding-left: 1.25rem; }
+.tdmd-key-points li { font-size: 0.95rem; margin-bottom: 0.5rem; }
+
+/* Comparison table */
+.tdmd-table-wrap { overflow-x: auto; margin: 1.5rem 0; border-radius: var(--tdmd-radius); border: 1px solid var(--tdmd-border); max-width: 100%; }
+.tdmd-table { width: 100%; border-collapse: collapse; font-size: 0.92rem; }
+.tdmd-table th { background: var(--tdmd-navy); color: var(--tdmd-white); padding: 0.75rem 1rem; text-align: left; font-weight: 600; font-size: 0.88rem; }
+.tdmd-table td { padding: 0.75rem 1rem; border-bottom: 1px solid var(--tdmd-border); vertical-align: top; }
+.tdmd-table tr:last-child td { border-bottom: none; }
+.tdmd-table tr:nth-child(even) { background: var(--tdmd-bg-soft); }
+.rate-high { color: #c44520; font-weight: 700; }
+.rate-med { color: #b07800; font-weight: 700; }
+.rate-low { color: #1a7a4c; font-weight: 700; }
+
+/* ===== Sidebar ===== */
+.tdmd-sidebar-card { background: var(--tdmd-white); border: 1px solid var(--tdmd-border); border-radius: var(--tdmd-radius); padding: 1.5rem; box-shadow: 0 8px 20px rgba(0,0,0,0.06); margin-bottom: 1.5rem; position: sticky; top: 100px; }
+.tdmd-sidebar-card h4 { font-size: 0.9rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--tdmd-muted); margin-bottom: 0.75rem; }
+.tdmd-toc { list-style: none; padding: 0; margin: 0; }
+.tdmd-toc li { margin-bottom: 0.4rem; }
+.tdmd-toc a { font-size: 0.9rem; color: var(--tdmd-text); display: block; padding: 0.25rem 0; border-left: 2px solid transparent; padding-left: 0.75rem; transition: all 0.2s; }
+.tdmd-toc a:hover { color: var(--tdmd-teal); border-left-color: var(--tdmd-teal); text-decoration: none; }
+
+/* ===== References ===== */
+.tdmd-references { background: var(--tdmd-bg-soft); border-radius: var(--tdmd-radius); padding: 1.5rem; margin-top: 2rem; }
+.tdmd-references h2 { margin-top: 0; font-size: 1.15rem; border-top: none; padding-top: 0; }
+.tdmd-references ol { padding-left: 1.25rem; margin-bottom: 0; font-size: 0.9rem; color: var(--tdmd-muted); }
+.tdmd-references li { margin-bottom: 0.5rem; }
+.tdmd-references a { word-break: break-all; }
+
+/* ===== Author Bio ===== */
+.tdmd-author-bio { display: flex; gap: 1.5rem; align-items: flex-start; background: var(--tdmd-white); border: 1px solid var(--tdmd-border); border-radius: var(--tdmd-radius); padding: 1.5rem; margin-top: 2.5rem; box-shadow: 0 8px 20px rgba(0,0,0,0.06); }
+.tdmd-author-avatar { width: 80px; height: 80px; border-radius: 50%; background: var(--tdmd-bg-soft); flex-shrink: 0; display: flex; align-items: center; justify-content: center; font-size: 1.75rem; font-weight: 700; color: var(--tdmd-teal); }
+.tdmd-author-info h3 { margin-top: 0; font-size: 1.1rem; }
+.tdmd-author-info p { font-size: 0.95rem; color: var(--tdmd-muted); margin-bottom: 0.5rem; }
+.tdmd-author-info p:last-child { margin-bottom: 0; }
+@media (max-width: 480px) { .tdmd-author-bio { flex-direction: column; align-items: center; text-align: center; } }
+
+/* ===== Article Figures ===== */
+.tdmd-article-figure { margin: 1.5rem 0; }
+.tdmd-article-figure img { width: 100%; height: auto; border-radius: var(--tdmd-radius); display: block; }
+.tdmd-article-figure figcaption { font-size: 0.85rem; color: var(--tdmd-muted); text-align: center; margin-top: 0.5rem; line-height: 1.5; }
+
+/* ===== Dual-Path Boxes ===== */
+.tdmd-appropriateness-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.25rem; margin: 1.5rem 0; }
+@media (max-width: 600px) { .tdmd-appropriateness-grid { grid-template-columns: 1fr; } }
+.tdmd-appropriate-box { border-radius: var(--tdmd-radius); padding: 1.25rem 1.5rem; }
+.tdmd-appropriate-box.good { background: #f0faf5; border: 1px solid #b7e4c7; }
+.tdmd-appropriate-box.caution { background: #fff8f6; border: 1px solid #ffd5cc; }
+.tdmd-appropriate-box h4 { font-size: 0.95rem; margin-bottom: 0.75rem; display: flex; align-items: center; gap: 0.5rem; }
+.tdmd-appropriate-box.good h4 { color: #1a7a4c; }
+.tdmd-appropriate-box.caution h4 { color: #c44520; }
+.tdmd-appropriate-box ul { margin-bottom: 0; padding-left: 1.25rem; font-size: 0.93rem; }
+.tdmd-appropriate-box li { margin-bottom: 0.4rem; }
+
+/* Related guide link */
+.tdmd-related-guide { background: var(--tdmd-bg-soft); border: 1px solid var(--tdmd-border); border-radius: var(--tdmd-radius); padding: 1.25rem 1.5rem; margin-top: 2rem; display: flex; align-items: center; gap: 1rem; }
+.tdmd-related-guide svg { flex-shrink: 0; color: var(--tdmd-teal); }
+.tdmd-related-guide p { margin-bottom: 0; font-size: 0.95rem; }
+
+/* ===== Footer ===== */
+.tdmd-footer { background: var(--tdmd-footer-bg); color: rgba(255,255,255,0.8); padding: 3.5rem 0 0; margin-top: 3rem; }
+.tdmd-footer a { color: rgba(255,255,255,0.75); transition: color 0.2s; }
+.tdmd-footer a:hover { color: var(--tdmd-white); text-decoration: none; }
+.tdmd-footer-grid { display: grid; grid-template-columns: 1.5fr 1fr 1fr 1fr; gap: 2.5rem; }
+@media (max-width: 768px) { .tdmd-footer-grid { grid-template-columns: 1fr 1fr; gap: 2rem; } }
+@media (max-width: 480px) { .tdmd-footer-grid { grid-template-columns: 1fr; } }
+.tdmd-footer-brand img { height: auto; max-height: 115px; width: 125px; margin-bottom: 1rem; display: block; object-fit: contain; }
+.tdmd-footer-brand p { font-size: 0.9rem; line-height: 1.6; margin-bottom: 1rem; }
+.tdmd-footer-cta { display: inline-block; background: var(--tdmd-accent); color: var(--tdmd-white) !important; padding: 0.6rem 1.5rem; border-radius: 50px; font-weight: 600; font-size: 0.9rem; transition: opacity 0.2s; }
+.tdmd-footer-cta:hover { opacity: 0.9; }
+.tdmd-footer-col h5 { color: var(--tdmd-white); font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 1rem; font-weight: 700; }
+.tdmd-footer-links { list-style: none; padding: 0; margin: 0; }
+.tdmd-footer-links li { margin-bottom: 0.5rem; }
+.tdmd-footer-links a { font-size: 0.9rem; }
+.tdmd-footer-bottom { border-top: 1px solid rgba(255,255,255,0.12); margin-top: 2.5rem; padding: 1.5rem 0; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 1rem; font-size: 0.8rem; }
+.tdmd-footer-badges { display: flex; align-items: center; gap: 1rem; }
+.tdmd-footer-badges img { height: 60px; width: auto; opacity: 0.85; object-fit: contain; }
+.tdmd-footer-legal { display: flex; flex-wrap: wrap; gap: 1rem; align-items: center; }
+.tdmd-footer-legal a { font-size: 0.8rem; }
+.tdmd-footer-social { display: flex; gap: 0.75rem; }
+.tdmd-footer-social a { width: 32px; height: 32px; border-radius: 50%; background: rgba(255,255,255,0.1); display: inline-flex; align-items: center; justify-content: center; transition: background 0.2s; cursor: pointer; position: relative; z-index: 1; }
+.tdmd-footer-social a:hover { background: rgba(255,255,255,0.2); }
+.tdmd-footer-social svg { width: 16px; height: 16px; fill: var(--tdmd-white); pointer-events: none; }
+
+/* ===== Utility ===== */
+.tdmd-sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); border: 0; }
+
+/* Print styles */
+@media print { .tdmd-nav, .tdmd-footer, .tdmd-sidebar { display: none; } .tdmd-content-grid { display: block; } body { font-size: 11pt; } }
+</style>
+ <link rel="stylesheet" href="../dark-mode.css">
+</head>
+<body>
+<script src="../dark-mode.js"></script>
+
+<!-- ===== Navigation ===== -->
+<nav class="tdmd-nav" role="navigation" aria-label="Main navigation">
+ <div class="tdmd-nav-inner">
+  <a href="/health-guides/" class="tdmd-nav-logo" aria-label="TeleDirectMD Health Guides">
+   <img src="https://images.squarespace-cdn.com/content/v1/67f359c5b3dddf176b8ba74e/4f92a229-3eb7-4454-83d7-17344ad9e1e7/logo.png?format=1500w" alt="TeleDirectMD Health Guides" width="190" height="80">
+  </a>
+  <button class="tdmd-hamburger" aria-label="Toggle navigation menu" aria-expanded="false">
+   <span></span><span></span><span></span>
+  </button>
+  <ul class="tdmd-nav-links" id="tdmd-nav-menu">
+   <li><a href="/health-guides/">Browse Guides</a></li>
+   <li><a href="/health-guides/complete-telehealth-conditions-guide/">Master Guide</a></li>
+   <li><a href="/health-guides/editorial-standards/">Editorial Standards</a></li>
+   <li><a href="mailto:contact@teledirectmd.com">Contact</a></li>
+   <li><button class="tdmd-dark-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+    <svg class="tdmd-icon-moon" viewBox="0 0 24 24"><path d="M21 12.79A9 9 0 0111.21 3 7 7 0 0012 21a7 7 0 009-8.21z"/></svg>
+    <svg class="tdmd-icon-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+   </button></li>
+  </ul>
+ </div>
+</nav>
+
+<!-- ===== Main Content ===== -->
+<main>
+
+<!-- Breadcrumb -->
+<div class="tdmd-container">
+ <nav class="tdmd-breadcrumb" aria-label="Breadcrumb">
+  <a href="https://teledirectmd.com">Home</a>
+  <span>›</span>
+  <a href="https://teledirectmd.com/health-guides">Health Guides</a>
+  <span>›</span>
+  <span aria-current="page">Hallucination Rates in Medical AI</span>
+ </nav>
+</div>
+
+<!-- Article Header -->
+<div class="tdmd-container">
+ <header class="tdmd-article-header">
+  <span class="article-card-badge article-card-badge--ai">AI in Medicine</span>
+  <span class="tdmd-badge">Series: Week 3 of 6</span>
+  <h1 class="tdmd-article-title">Hallucination Rates in Medical AI: What the Citation Fabrication Data Tells Us</h1>
+  <p class="tdmd-article-subtitle">Peer-reviewed studies now quantify exactly how often AI models fabricate medical references — and the numbers range from manageable to alarming depending on the model and task.</p>
+  <div class="tdmd-article-meta">
+   <div class="tdmd-article-meta-item">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+    Written by <strong><a href="/health-guides/about-the-editor/">Parth Bhavsar, MD</a></strong>
+   </div>
+   <div class="tdmd-article-meta-item">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+    Published: June 22, 2026
+   </div>
+   <div class="tdmd-article-meta-item">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+    8–10 min read
+   </div>
+   <div class="tdmd-article-meta-item">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 013 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+    Last reviewed: June 2026
+   </div>
+  </div>
+ </header>
+
+<!-- Content Grid -->
+<div class="tdmd-content-grid">
+
+ <!-- Article Body -->
+ <article class="tdmd-article-body">
+
+  <!-- Key Takeaways -->
+  <div class="tdmd-key-points">
+   <h3>
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--tdmd-teal)" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+    Key Takeaways
+   </h3>
+   <ul>
+    <li>GPT-3.5 fabricates <strong>55% of bibliographic citations</strong> in literature reviews; GPT-4 reduces this to 18% — still a meaningful error rate for clinical use.<sup><a href="#ref-1">[1]</a></sup></li>
+    <li>Bard (Google's early LLM) hallucinated <strong>91.4% of medical references</strong> in a systematic review replication study, with zero relevant papers correctly retrieved.<sup><a href="#ref-3">[3]</a></sup></li>
+    <li>Clinical documentation hallucination runs lower — <strong>1.47% per sentence</strong> — but 44% of those errors are classified as clinically significant enough to affect diagnosis or management.<sup><a href="#ref-5">[5]</a></sup></li>
+    <li>A global clinician survey found <strong>91.8% had encountered medical AI hallucinations</strong>, and 84.7% believed they could directly cause patient harm.<sup><a href="#ref-6">[6]</a></sup></li>
+    <li>AI performs considerably better on general clinical reasoning than on bibliographic recall — the gap between tasks shows where human verification is essential versus where AI adds reliable value.<sup><a href="#ref-1">[1]</a></sup><sup><a href="#ref-5">[5]</a></sup></li>
+   </ul>
+  </div>
+
+  <!-- Hero Image -->
+  <figure class="tdmd-article-figure">
+   <img src="images/hero-hallucination-rates.png" alt="Bar chart visualization showing AI citation fabrication rates: GPT-3.5 at 55%, GPT-4 at 18%, and Bard at 91% with dissolving citation fragments in the background" width="1024" height="576" loading="eager">
+   <figcaption>Citation fabrication rates vary dramatically across AI models. GPT-4 cut GPT-3.5's rate by two-thirds — yet even 18% fabrication is clinically unacceptable without verification. Data from Walters &amp; Wilder (Sci Rep 2023) and Chelli et al. (JMIR 2024).</figcaption>
+  </figure>
+
+  <!-- Section 1: What Hallucination Means -->
+  <h2 id="definition">What "Hallucination" Means in Medical AI — and What It Does Not</h2>
+
+  <p>In AI research, a hallucination is not a simple factual error. It is something more specific: plausible, fluently generated content that has no basis in the underlying data. When a large language model hallucinates a citation, it does not retrieve a misremembered reference — it constructs one from scratch. The author names are real researchers who publish in that field. The journal exists. The title sounds right. The DOI is formatted correctly. The paper does not exist anywhere in any database.</p>
+
+  <p>This is what makes AI hallucination in medicine genuinely different from other types of AI errors. A wrong number in a calculation is obvious. A fabricated citation survives casual inspection because every individual component is plausible. Published research confirms that clinicians and researchers frequently cannot distinguish AI-fabricated citations from real ones on first review — they look the same in a reference list.</p>
+
+  <p>The distinction from simple errors also matters for how we respond. Factual errors in AI output can often be caught by general vigilance. Hallucinated citations require a separate verification step — specifically, checking each reference against PubMed or a comparable indexed database — because general reading cannot detect them.</p>
+
+  <p>AI hallucination in clinical documentation works somewhat differently. Here, the model is summarizing a real patient encounter transcript. Hallucinations in this context tend to be invented findings (fabrication), contradictions of stated facts (negation), mixing in information from unrelated context (contextual errors), or speculative causal statements unsupported by the source material. All four types can affect patient care if they reach the clinical record uncorrected.</p>
+
+  <!-- Section 2: The Numbers -->
+  <h2 id="citation-numbers">The Citation Fabrication Numbers: Model by Model</h2>
+
+  <p>The quantitative picture of AI citation hallucination began taking shape in 2023 with two independent studies published within months of each other. Both reached alarming conclusions about GPT-3.5 — and showed that GPT-4, while substantially better, still posed real verification challenges.</p>
+
+  <p>Walters and Wilder, writing in <em>Scientific Reports</em>, generated 84 short literature reviews across 42 multidisciplinary topics using GPT-3.5 and GPT-4, then verified each of the 636 resulting citations against multiple academic databases.<sup><a href="#ref-1">[1]</a></sup> The results were striking: <strong>55% of GPT-3.5 citations were fabricated</strong> — they did not exist as published works. GPT-4 cut that number to <strong>18%</strong>, a major improvement, but still meant that nearly one in five citations in a GPT-4 literature review was invented. Among non-fabricated GPT-3.5 citations, 43% contained substantive errors in author names, dates, volume numbers, or page numbers. Even GPT-4's real citations carried a 24% error rate.</p>
+
+  <p>Bhattacharyya and colleagues, publishing in <em>Cureus</em>, took a slightly different approach — asking GPT-3.5 to generate 30 short medical papers with at least three references each, then checking all 115 resulting citations.<sup><a href="#ref-2">[2]</a></sup> The outcome was even more severe: 47% were complete fabrications. Only 7% were authentic and accurate. The remaining 46% were real papers rendered with significant errors — wrong PMIDs, wrong volume numbers, wrong years of publication. The mean number of inaccurate components per citation was 4.3 out of a possible seven fields evaluated.</p>
+
+  <p>Gravel and colleagues at Montreal's CHU Sainte-Justine tested ChatGPT across a diverse set of medical questions and found 41 of 59 evaluated references (69%) were fabricated — despite appearing deceptively credible.<sup><a href="#ref-8">[8]</a></sup> Most fabricated citations used names of authors with genuine publications in the field, real journal names, and coherent formatting. Twenty-nine of the 41 fabricated articles were reportedly published in known, indexed journals with plausible volume and page numbers that matched the journal's formatting conventions.</p>
+
+  <!-- In-Article Image -->
+  <figure class="tdmd-article-figure">
+   <img src="images/in-article-task-spectrum.png" alt="Infographic showing AI use case spectrum from reliable tasks on the left (drug interaction checks, administrative documentation) to verification-essential tasks on the right (citation generation, rare disease literature)" width="1024" height="576" loading="lazy">
+   <figcaption>Not all AI tasks carry the same hallucination risk. The gap between citation generation (high-risk) and general medical reasoning (lower-risk) has practical implications for how clinicians and researchers should use these tools.</figcaption>
+  </figure>
+
+  <!-- Evidence Comparison Table -->
+  <h2 id="evidence-table">Evidence Comparison: Hallucination Rates Across Studies</h2>
+
+  <p>The table below consolidates the primary quantitative findings from the major hallucination studies to date. Rates are not directly comparable across rows — task type, prompt design, model version, and verification methodology all affect the numbers — but taken together, they convey the scale of the problem.</p>
+
+  <div class="tdmd-table-wrap">
+   <table class="tdmd-table">
+    <thead>
+     <tr>
+      <th>Study</th>
+      <th>Model Tested</th>
+      <th>Task</th>
+      <th>N Items</th>
+      <th>Hallucination / Fabrication Rate</th>
+      <th>Citation</th>
+     </tr>
+    </thead>
+    <tbody>
+     <tr>
+      <td><strong>Walters &amp; Wilder 2023</strong></td>
+      <td>GPT-3.5</td>
+      <td>Literature review citations (multidisciplinary)</td>
+      <td>636 citations</td>
+      <td><span class="rate-high">55% fabricated</span></td>
+      <td><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10484980/" target="_blank" rel="noopener">Sci Rep 2023<sup>[1]</sup></a></td>
+     </tr>
+     <tr>
+      <td><strong>Walters &amp; Wilder 2023</strong></td>
+      <td>GPT-4</td>
+      <td>Literature review citations (multidisciplinary)</td>
+      <td>636 citations</td>
+      <td><span class="rate-med">18% fabricated</span></td>
+      <td><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10484980/" target="_blank" rel="noopener">Sci Rep 2023<sup>[1]</sup></a></td>
+     </tr>
+     <tr>
+      <td><strong>Bhattacharyya et al. 2023</strong></td>
+      <td>GPT-3.5</td>
+      <td>Medical paper references (30 papers)</td>
+      <td>115 references</td>
+      <td><span class="rate-high">47% fabricated; 93% with ≥1 error</span></td>
+      <td><a href="https://pubmed.ncbi.nlm.nih.gov/37337480/" target="_blank" rel="noopener">Cureus 2023<sup>[2]</sup></a></td>
+     </tr>
+     <tr>
+      <td><strong>Chelli et al. 2024</strong></td>
+      <td>GPT-3.5 / GPT-4 / Bard</td>
+      <td>Systematic review replication (rotator cuff)</td>
+      <td>471 references (33 prompts)</td>
+      <td>GPT-3.5: <span class="rate-high">39.6%</span> · GPT-4: <span class="rate-med">28.6%</span> · Bard: <span class="rate-high">91.4%</span></td>
+      <td><a href="https://www.jmir.org/2024/1/e53164/" target="_blank" rel="noopener">JMIR 2024<sup>[3]</sup></a></td>
+     </tr>
+     <tr>
+      <td><strong>Lamiaa et al. 2024</strong></td>
+      <td>GPT-3.5, Bing, Bard, Elicit, SciSpace, Perplexity</td>
+      <td>Medical reference generation (10 prompts)</td>
+      <td>500 references</td>
+      <td>ChatGPT 3.5 RHS = 11 (highest); Bard failed to generate any references; Reference relevancy hallucination: <span class="rate-high">61.6%</span></td>
+      <td><a href="https://medinform.jmir.org/2024/1/e54345/" target="_blank" rel="noopener">JMIR Med Inform 2024<sup>[4]</sup></a></td>
+     </tr>
+     <tr>
+      <td><strong>Gravel et al. 2023</strong></td>
+      <td>GPT-3.5 (ChatGPT)</td>
+      <td>Medical Q&amp;A references (diverse topics)</td>
+      <td>59 references</td>
+      <td><span class="rate-high">69% fabricated</span></td>
+      <td><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11975740/" target="_blank" rel="noopener">Mayo Clin Proc Digit Health 2023<sup>[8]</sup></a></td>
+     </tr>
+     <tr>
+      <td><strong>Asgari et al. 2025</strong></td>
+      <td>Multiple LLMs (clinical note generation)</td>
+      <td>Clinical documentation summarization</td>
+      <td>12,999 sentences, 450 notes</td>
+      <td><span class="rate-low">1.47% per sentence</span>; <span class="rate-high">44% of those = clinically major</span></td>
+      <td><a href="https://www.nature.com/articles/s41746-025-01670-7" target="_blank" rel="noopener">npj Digital Med 2025<sup>[5]</sup></a></td>
+     </tr>
+    </tbody>
+   </table>
+  </div>
+
+  <!-- Section 3: Beyond Citations -->
+  <h2 id="beyond-citations">Beyond Citations: Clinical Vignettes and Documentation Hallucination</h2>
+
+  <p>Citation fabrication gets the most attention because it is easy to measure — a reference either exists or it does not. But the more clinically consequential hallucination problem involves what AI models do when generating or summarizing actual patient information.</p>
+
+  <p>Asgari and colleagues published what is among the most rigorous evaluations of clinical documentation hallucination to date, in <em>npj Digital Medicine</em> in 2025.<sup><a href="#ref-5">[5]</a></sup> They analyzed 12,999 clinician-annotated sentences from 450 AI-generated clinical notes across 18 experimental configurations, covering 49,590 transcript sentences. The headline hallucination rate of 1.47% per sentence sounds reassuringly low. Read the next line: <strong>44% of those hallucinated sentences were classified as major</strong> — errors that could directly affect patient diagnosis or management if left uncorrected.</p>
+
+  <p>The breakdown of hallucination types in Asgari's data reveals where the clinical danger concentrates. Fabrication accounted for 43% of hallucinations (completely invented information). Negation — where the model contradicts a stated clinical fact, for example documenting that a symptom was absent when the patient reported it — accounted for 30%. These negation hallucinations are particularly dangerous because they can directly invert a clinician's documented finding. Contextual errors (17%) and causality hallucinations (10%) round out the picture.</p>
+
+  <p>Hallucinations in clinical notes appeared most commonly in the Planning section (21% of major hallucinations), followed by Assessment (10.5%) and Symptoms (5.2%). The planning section matters most: it is where treatment decisions are documented and where downstream providers look for care instructions.</p>
+
+  <p>Earlier clinical vignette studies showed AI models amplify errors in a related way. When AI tools are given clinical vignettes with embedded diagnostic challenges, research has documented that plausible-but-incorrect reasoning can propagate through AI-generated differential diagnoses — with error amplification rates cited in the range of 80% or more across scenarios where the AI anchored on a misleading detail in the case presentation. These errors differ from documentation hallucinations but share a root cause: the model optimizes for plausibility, not accuracy.</p>
+
+  <p>The Asgari group also showed something more hopeful: prompt engineering and workflow optimization can substantially reduce hallucination rates. In their GPT-4 experiments, targeted prompt iteration reduced major hallucinations by 75% and major omissions by 58%. The baseline problem is real, but it is not fixed — it responds to structured interventions.</p>
+
+  <!-- Section 4: The Clinician Perspective -->
+  <h2 id="clinician-perspective">The Clinician Perspective: What Surveys Show</h2>
+
+  <p>The quantitative studies above describe laboratory conditions. The clinician survey data describes what is happening in actual practice — and the picture is sobering.</p>
+
+  <p>A 2025 global survey of 70 clinicians across 15 specialties, published as part of a systematic analysis of medical AI hallucinations, found that <strong>91.8% had personally encountered medical AI hallucinations</strong> while using AI tools in their work.<sup><a href="#ref-6">[6]</a></sup> Among those, <strong>84.7% believed the hallucinations they encountered were capable of causing direct patient harm</strong>. These are not hypothetical concerns from clinicians who have never used AI — these are physicians and specialists who have used these tools and encountered problems firsthand.</p>
+
+  <p>The same research found that physician audits of hallucination cases identified that 64–72% of residual hallucinations stemmed from failures in causal or temporal reasoning rather than simple knowledge gaps. This reframes the problem: the solution is not purely about training more medical data into models. A meaningful proportion of hallucinations arise from how models reason about sequences of events and cause-effect relationships — a fundamentally different challenge from knowledge recall.</p>
+
+  <p>Clinicians surveyed identified three primary causes of hallucinations, with roughly equal attribution: insufficient training data (51.7%), biased datasets (51.7%), and architectural limitations of current transformer models (50.0%). The convergence across these categories suggests clinicians are accurately identifying that hallucination is a multifactorial problem without a single technical fix.</p>
+
+  <p>The regulatory response confirms these concerns. The FDA Digital Health Advisory Committee's November 2024 meeting formally included hallucination rates among required premarket evaluation metrics for generative AI-enabled medical devices.<sup><a href="#ref-9">[9]</a></sup> The Committee called for postmarket monitoring specifically targeting hallucination detection and adverse events, and reaffirmed that maintaining a human-in-the-loop is essential to patient safety in any clinical AI deployment.</p>
+
+  <!-- Section 5: Why Rates Vary -->
+  <h2 id="why-rates-vary">Why Hallucination Rates Vary: Training Data, Task Type, and Prompt Format</h2>
+
+  <p>Not all AI tasks produce equivalent hallucination risk. Understanding why rates differ so dramatically — 1.47% in structured clinical documentation versus 55–91% in citation generation — helps identify where verification effort should concentrate.</p>
+
+  <p>The core explanation is the difference between <em>reasoning tasks</em> and <em>recall tasks</em>. When an AI model answers a general clinical question about, say, the mechanism of action of metformin, it is pattern-matching against a large, well-represented body of training data. Errors occur but are relatively uncommon for common conditions with extensive published literature. When the same model is asked to cite a specific paper with accurate authors, journal, volume, and page numbers, it must retrieve a precise bibliographic fact — something fundamentally different from general reasoning. Large language models do not retrieve from an indexed database; they generate the most statistically probable token sequence. Fabricated citations are the result.</p>
+
+  <p>Training data exposure amplifies this gap. High-prevalence conditions with extensive literature coverage produce lower hallucination rates on clinical questions. Rare diseases with sparse training representation produce substantially higher hallucination rates — the model generates plausible-sounding information where its training data is thin.</p>
+
+  <p>Prompt format also affects hallucination risk in ways that have practical implications. Research on clinical documentation has shown that highly formal clinical text prompts can increase hallucination rates compared to more conversational input formats — the model may "fill in" expected clinical language patterns even when the source material does not support them. The Asgari group's finding that prompt optimization can reduce major hallucinations by 75% shows how consequential these design choices are.</p>
+
+  <p>The Lancet systematic review published in 2026, analyzing 97.1 million verified references in published biomedical papers, found a 12-fold increase in fabricated reference rates from 2023 to 2025 — rising from four per 10,000 papers to over 56 per 10,000.<sup><a href="#ref-7">[7]</a></sup> Review articles had fabrication rates 57% higher than other paper types. This reflects a troubling secondary effect: AI-generated hallucinated citations are now appearing in peer-reviewed literature, suggesting that verification workflows have not kept pace with AI adoption in research writing.</p>
+
+  <!-- Section 6: Dual-Path Framing -->
+  <h2 id="dual-path">What This Means: Where AI Is Reliable vs. Where Verification Is Essential</h2>
+
+  <p>The evidence reviewed here does not support a blanket conclusion that medical AI is unreliable. It supports a more specific and practically useful conclusion: hallucination risk is task-dependent, and the tasks with the highest risk are identifiable in advance.</p>
+
+  <p>Current evidence shows AI performs reliably enough for supervised use in several medical contexts:</p>
+
+  <div class="tdmd-appropriateness-grid">
+   <div class="tdmd-appropriate-box good">
+    <h4>
+     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+     AI Performs Reliably When Used For:
+    </h4>
+    <ul>
+     <li>General medical knowledge Q&amp;A about high-prevalence conditions well-represented in training data</li>
+     <li>Drafting administrative documentation (prior auth letters, referral notes) under physician review before submission</li>
+     <li>Drug interaction lookups when the AI is grounded in a vetted pharmacological database rather than generating from memory</li>
+     <li>Structured clinical documentation with human review and workflow-optimized prompts</li>
+     <li>Differential diagnosis generation as a <em>starting point</em> for clinician reasoning — not a final answer</li>
+    </ul>
+   </div>
+   <div class="tdmd-appropriate-box caution">
+    <h4>
+     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+     Verification Is Essential When Using AI For:
+    </h4>
+    <ul>
+     <li>Generating bibliographic citations — every reference must be independently verified in PubMed or an indexed database</li>
+     <li>Summarizing rare-disease literature — hallucination rates are substantially higher where training data is sparse</li>
+     <li>Producing patient-facing prescription instructions — never transmit without prescriber review of every line</li>
+     <li>Clinical documentation with negation-type statements (patient does not have X) — specific vulnerability to negation hallucinations</li>
+     <li>Any clinical reasoning in nuanced presentations where multiple competing diagnoses apply</li>
+    </ul>
+   </div>
+  </div>
+
+  <p>The distinction between these two categories is not about trust in AI as a concept — it is about matching the tool to the task. A physician who uses AI to draft a referral letter and reviews it before sending is applying AI where it adds efficiency with manageable risk. A researcher who submits an AI-generated literature review without checking each citation is relying on a tool in exactly the context where its failure rate is highest.</p>
+
+  <!-- Cross-links -->
+  <div class="tdmd-callout">
+   <div class="tdmd-callout-title">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 014 4v14a3 3 0 00-3-3H2z"/><path d="M22 3h-6a4 4 0 00-4 4v14a3 3 0 013-3h7z"/></svg>
+    Related Reading in This Series
+   </div>
+   <p>Week 1 explored how AI invents entire medical conditions that do not exist — see <a href="/health-guides/bixonimania-fake-disease-ai-experiment/">The Bixonimania Experiment: How AI Fabricates Diseases</a>.</p>
+   <p>Week 2 reviewed the first FDA warning letter targeting an AI medical tool — see <a href="/health-guides/fda-first-ai-warning-letter-2026/">FDA's First AI Warning Letter: What It Means for Medical AI Oversight</a>.</p>
+   <p>For the diagnostic accuracy comparison, see <a href="/health-guides/ai-chatbots-vs-physicians-diagnostic-accuracy/">AI Chatbots vs. Physicians: Diagnostic Accuracy Head-to-Head</a>.</p>
+  </div>
+
+  <!-- Section 7: Bottom Line -->
+  <h2 id="bottom-line">Bottom Line</h2>
+
+  <p>The data on medical AI hallucination is now substantial enough to draw firm conclusions. Citation fabrication rates between 18% and 91% — depending on model and task — are not edge cases or early-adoption bugs. They reflect a structural property of how large language models generate text. GPT-4 is meaningfully better than GPT-3.5. Models will continue improving. But the improvement trajectory does not make current tools safe for unverified citation use in clinical or academic contexts.</p>
+
+  <p>The clinical documentation picture is more encouraging. A 1.47% per-sentence hallucination rate is manageable with structured review workflows — and published data shows it can be reduced substantially with prompt optimization. The 44% rate of clinically major errors among those hallucinations means the workflow cannot be perfunctory; it requires genuine clinician attention to the output, not rubber-stamp approval.</p>
+
+  <p>The clinician survey data — 91.8% encountering hallucinations, 84.7% believing them capable of patient harm — is not a call to stop using AI in medicine. It is a call to use it with the same critical evaluation that clinicians apply to any new diagnostic tool or information source. Research evidence has never been trusted without verification. AI-generated content should not be the first exception.</p>
+
+  <!-- FAQ -->
+  <h2 id="faq">Frequently Asked Questions</h2>
+
+  <div style="margin: 1.5rem 0;">
+   <h3>What is the hallucination rate in medical AI?</h3>
+   <p>Rates vary substantially by task and model. For bibliographic citations, GPT-3.5 fabricates roughly 55% and GPT-4 fabricates 18%, per Walters and Wilder's <em>Scientific Reports</em> analysis.<sup><a href="#ref-1">[1]</a></sup> For systematic review reference generation, Bard reached 91.4% hallucination — the highest published rate for a major model.<sup><a href="#ref-3">[3]</a></sup> For structured clinical documentation, the per-sentence hallucination rate drops to about 1.47%, though 44% of those errors carry clinical significance.<sup><a href="#ref-5">[5]</a></sup></p>
+
+   <h3>Why does AI fabricate medical citations?</h3>
+   <p>Large language models generate text by predicting statistically probable next tokens — not by retrieving facts from an indexed database. A citation requires precise bibliographic recall of a specific combination of author names, journal, year, volume, and page numbers. When that combination is not directly represented in training data, the model constructs a plausible-looking citation from its component parts. The result appears credible but may not correspond to any real paper.</p>
+
+   <h3>Is AI ever reliably accurate in clinical settings?</h3>
+   <p>Yes. Current evidence shows AI performs well on general clinical Q&amp;A about common conditions, administrative documentation drafting under review, and differential diagnosis generation as a starting point. The key distinction is between tasks requiring precise bibliographic recall (high hallucination risk) and tasks requiring general reasoning about well-documented medical topics (substantially lower risk).</p>
+
+   <h3>How should clinicians handle AI tools given these hallucination rates?</h3>
+   <p>The FDA Digital Health Advisory Committee's guidance and published clinical research both point to the same answer: human-in-the-loop review for every high-stakes output.<sup><a href="#ref-9">[9]</a></sup> Practically, this means checking every AI-generated citation against PubMed before use, reviewing AI clinical documentation sentence by sentence before it enters the medical record, and treating AI output as a draft requiring physician verification — not a final product.</p>
+  </div>
+
+  <!-- References -->
+  <div class="tdmd-references" id="references">
+   <h2>References</h2>
+   <ol>
+    <li id="ref-1">Walters WH, Wilder EI. "Fabrication and errors in the bibliographic citations generated by ChatGPT." <em>Sci Rep</em>. 2023 Sep 7;13(1):14045. doi: 10.1038/s41598-023-41032-5. <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10484980/" target="_blank" rel="noopener">pmc.ncbi.nlm.nih.gov/articles/PMC10484980/</a></li>
+    <li id="ref-2">Bhattacharyya M, Miller VM, Bhattacharyya D, Miller LE. "High Rates of Fabricated and Inaccurate References in ChatGPT-Generated Medical Content." <em>Cureus</em>. 2023 May 19;15(5):e39238. doi: 10.7759/cureus.39238. <a href="https://pubmed.ncbi.nlm.nih.gov/37337480/" target="_blank" rel="noopener">pubmed.ncbi.nlm.nih.gov/37337480/</a></li>
+    <li id="ref-3">Chelli M et al. "Hallucination Rates and Reference Accuracy of ChatGPT and Bard for Systematic Reviews: Comparative Analysis." <em>J Med Internet Res</em>. 2024 May 22;26:e53164. doi: 10.2196/53164. <a href="https://www.jmir.org/2024/1/e53164/" target="_blank" rel="noopener">jmir.org/2024/1/e53164/</a></li>
+    <li id="ref-4">Lamiaa A et al. "Reference Hallucination Score for Medical Artificial Intelligence." <em>JMIR Med Inform</em>. 2024 Jul 31;12(1):e54345. doi: 10.2196/54345. <a href="https://medinform.jmir.org/2024/1/e54345/" target="_blank" rel="noopener">medinform.jmir.org/2024/1/e54345/</a></li>
+    <li id="ref-5">Asgari E et al. "A framework to assess clinical safety and hallucination rates of LLMs for medical text summarisation." <em>npj Digit Med</em>. 2025 May 13;8:274. doi: 10.1038/s41746-025-01670-7. <a href="https://www.nature.com/articles/s41746-025-01670-7" target="_blank" rel="noopener">nature.com/articles/s41746-025-01670-7</a></li>
+    <li id="ref-6">"Medical Hallucinations in Foundation Models and Their Impact on Healthcare." arXiv preprint 2503.05777. 2025. <a href="https://arxiv.org/pdf/2503.05777.pdf" target="_blank" rel="noopener">arxiv.org/pdf/2503.05777.pdf</a></li>
+    <li id="ref-7">Topaz M et al. [Systematic review of fabricated references in published biomedical papers]. <em>The Lancet</em>. 2026. Reported via CIDRAP: <a href="https://www.cidrap.umn.edu/anti-science/review-uncovers-rising-rate-fake-references-published-biomedical-papers" target="_blank" rel="noopener">cidrap.umn.edu</a></li>
+    <li id="ref-8">Gravel J, D'Amours-Gravel M, Osmanlliu E. "Learning to Fake It: Limited Responses and Fabricated References Provided by ChatGPT for Medical Questions." <em>Mayo Clin Proc Digit Health</em>. 2023 Jun 12. <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11975740/" target="_blank" rel="noopener">pmc.ncbi.nlm.nih.gov/articles/PMC11975740/</a></li>
+    <li id="ref-9">U.S. Food and Drug Administration. Digital Health Advisory Committee Meeting Summary, November 20–21, 2024. <a href="https://www.fda.gov/media/184078/download" target="_blank" rel="noopener">fda.gov/media/184078/download</a></li>
+    <li id="ref-10">Chelli M et al. "From Innovation to Inaccuracy: The Impact of ChatGPT on Orthopaedic Surgery Research Citations in Sports Medicine." <em>J Orthop Exerc Interv</em>. 2026 Jun 14. <a href="https://journaloei.scholasticahq.com/article/161594-from-innovation-to-inaccuracy-the-impact-of-chatgpt-on-orthopaedic-surgery-research-citations-in-sports-medicine" target="_blank" rel="noopener">journaloei.scholasticahq.com</a></li>
+   </ol>
+  </div>
+
+  <!-- Author Bio -->
+  <div class="tdmd-author-bio">
+   <div class="tdmd-author-avatar">PB</div>
+   <div class="tdmd-author-info">
+    <h3>Parth Bhavsar, MD</h3>
+    <p><strong>Board-Certified Family Medicine Physician · Editor in Chief, TeleDirectMD Health Guides</strong></p>
+    <p>Dr. Bhavsar founded TeleDirectMD and leads its editorial library. His work on AI in medicine focuses on translating complex research findings into evidence-based guidance for clinicians and patients. He tracks the peer-reviewed literature on AI hallucination rates, diagnostic accuracy, and regulatory developments as part of the <em>When Medical AI Goes Wrong</em> series.</p>
+    <p><a href="/health-guides/about-the-editor/">About the Editor</a> · <a href="https://npiregistry.cms.hhs.gov/provider-view/1104323203" target="_blank" rel="noopener">NPI Registry</a> · <a href="https://orcid.org/0009-0001-7308-5653" target="_blank" rel="noopener">ORCID</a></p>
+   </div>
+  </div>
+
+ </article>
+
+ <!-- Sidebar -->
+ <aside class="tdmd-sidebar">
+  <div class="tdmd-sidebar-card">
+   <h4>In This Article</h4>
+   <ul class="tdmd-toc">
+    <li><a href="#definition">What Hallucination Means in Medical AI</a></li>
+    <li><a href="#citation-numbers">Citation Fabrication Numbers</a></li>
+    <li><a href="#evidence-table">Evidence Comparison Table</a></li>
+    <li><a href="#beyond-citations">Clinical Vignettes &amp; Documentation</a></li>
+    <li><a href="#clinician-perspective">The Clinician Perspective</a></li>
+    <li><a href="#why-rates-vary">Why Hallucination Rates Vary</a></li>
+    <li><a href="#dual-path">Reliable vs. Verification-Essential</a></li>
+    <li><a href="#bottom-line">Bottom Line</a></li>
+    <li><a href="#faq">FAQ</a></li>
+    <li><a href="#references">References</a></li>
+   </ul>
+  </div>
+  <div class="tdmd-sidebar-card" style="background: var(--tdmd-bg-soft);">
+   <h4>AI in Medicine Series</h4>
+   <ul class="tdmd-toc" style="font-size:0.85rem;">
+    <li><a href="/health-guides/bixonimania-fake-disease-ai-experiment/">Week 1: The Bixonimania Experiment</a></li>
+    <li><a href="/health-guides/fda-first-ai-warning-letter-2026/">Week 2: FDA's First AI Warning Letter</a></li>
+    <li><a href="/health-guides/ai-medical-hallucination-rates-2026/" style="color:var(--tdmd-teal); font-weight:600; border-left-color:var(--tdmd-teal);">Week 3: Hallucination Rates ← You are here</a></li>
+   </ul>
+  </div>
+ </aside>
+
+</div><!-- /content-grid -->
+</div><!-- /container -->
+
+</main>
+
+<!-- ===== Footer ===== -->
+<footer class="tdmd-footer">
+ <div class="tdmd-container">
+  <div class="tdmd-footer-grid">
+
+   <!-- Column 1: Editorial Brand -->
+   <div class="tdmd-footer-brand">
+    <a href="/health-guides/">
+     <img src="https://images.squarespace-cdn.com/content/67f359c5b3dddf176b8ba74e/e9b8675d-3f96-4f50-abc2-bc3df6df5c50/TDM+logo_white.jpg?content-type=image%2Fjpeg" alt="TeleDirectMD Health Guides" width="125" height="115" style="object-fit: contain;">
+    </a>
+    <p style="font-size:0.9rem;line-height:1.6;margin-bottom:1rem;opacity:0.85;">An evidence-based medical editorial library written and reviewed by board-certified physicians. Independent. Non-commercial. No affiliate links.</p>
+    <p style="font-size:0.85rem;line-height:1.5;margin-bottom:0.5rem;opacity:0.75;"><strong style="color:#fff;">Editor in Chief</strong><br>Parth Bhavsar, MD<br><span style="font-size:0.78rem;opacity:0.85;">Board-Certified Family Medicine</span></p>
+   </div>
+
+   <!-- Column 2: The Library -->
+   <div class="tdmd-footer-col">
+    <h5>The Library</h5>
+    <ul class="tdmd-footer-links">
+     <li><a href="/health-guides/">All Health Guides</a></li>
+     <li><a href="/health-guides/complete-telehealth-conditions-guide/">Master Guide</a></li>
+     <li><a href="/health-guides/#latest-articles">Latest Articles</a></li>
+     <li><a href="/health-guides/#at-home-testing">At-Home Testing Reviews</a></li>
+    </ul>
+   </div>
+
+   <!-- Column 3: Editorial -->
+   <div class="tdmd-footer-col">
+    <h5>Editorial</h5>
+    <ul class="tdmd-footer-links">
+     <li><a href="/health-guides/editorial-standards/#editorial-standards">Editorial Standards</a></li>
+     <li><a href="/health-guides/about-the-editor/">About the Editor</a></li>
+     <li><a href="/health-guides/editorial-standards/#methodology">Methodology</a></li>
+     <li><a href="/health-guides/editorial-standards/#corrections">Corrections Policy</a></li>
+     <li><a href="mailto:contact@teledirectmd.com">Contact the Editor</a></li>
+    </ul>
+   </div>
+
+   <!-- Column 4: Legal -->
+   <div class="tdmd-footer-col">
+    <h5>Legal</h5>
+    <ul class="tdmd-footer-links">
+     <li><a href="https://teledirectmd.com/privacy-policy">Privacy Policy</a></li>
+     <li><a href="https://teledirectmd.com/notice-of-privacy-practices">Notice of Privacy Practices</a></li>
+     <li><a href="https://teledirectmd.com/terms-of-use">Terms of Use</a></li>
+     <li><a href="https://teledirectmd.com/nondiscrimination-notice">Nondiscrimination Notice</a></li>
+     <li><a href="https://teledirectmd.com/accessibility">Accessibility</a></li>
+    </ul>
+   </div>
+
+  </div>
+
+  <!-- Editorial Disclaimer -->
+  <div style="margin-top:2.5rem;padding:1.25rem 1.5rem;background:rgba(255,255,255,0.04);border-left:3px solid rgba(255,255,255,0.25);border-radius:4px;font-size:0.85rem;line-height:1.65;opacity:0.85;">
+   <strong style="color:#fff;">Editorial disclaimer:</strong> This health guides library is published for educational purposes only. It does not constitute medical advice and is not a substitute for evaluation by a licensed clinician. Always consult a qualified healthcare provider about any medical concern. All articles are reviewed by Parth Bhavsar, MD, and cite peer-reviewed sources where possible.
+  </div>
+
+  <!-- Footer Bottom -->
+  <div class="tdmd-footer-bottom">
+   <div class="tdmd-footer-badges">
+    <a href="https://www.legitscript.com/websites/?checker_keywords=teledirectmd.com" target="_blank" rel="noopener noreferrer">
+     <img src="https://static.legitscript.com/seals/44406824.png" alt="LegitScript Certified" width="73" height="79" style="object-fit: contain;" loading="lazy">
+    </a>
+    <span style="font-size: 0.75rem; opacity: 0.7;">HIPAA Compliant</span>
+    <span style="font-size: 0.75rem; opacity: 0.7;">Editorial Independence</span>
+   </div>
+   <div class="tdmd-footer-legal">
+    <span>&copy; 2026 TeleDirectMD Health Guides. All rights reserved.</span>
+    <a href="https://teledirectmd.com/privacy-policy">Privacy</a>
+    <a href="https://teledirectmd.com/notice-of-privacy-practices">HIPAA Notice</a>
+    <a href="https://teledirectmd.com/terms-of-use">Terms</a>
+    <a href="https://teledirectmd.com/accessibility">Accessibility</a>
+   </div>
+   <div class="tdmd-footer-social">
+    <a href="https://www.instagram.com/teledirectmd" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+     <svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+    </a>
+    <a href="https://www.facebook.com/teledirectmd" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+     <svg viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+    </a>
+    <a href="https://linkedin.com/company/teledirectmd" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+     <svg viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.225 0z"/></svg>
+    </a>
+    <a href="https://youtube.com/@teledirectmd" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+     <svg viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 00-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 00.502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 002.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 002.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+    </a>
+    <a href="https://www.tiktok.com/@teledirectmd" target="_blank" rel="noopener noreferrer" aria-label="TikTok">
+     <svg viewBox="0 0 24 24"><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"/></svg>
+    </a>
+   </div>
+  </div>
+  <div style="text-align:center;padding:0.75rem 0 1.5rem;font-size:0.72rem;opacity:0.5;">
+   Health Guides is the editorial publication of TeleDirectMD. Editorial content is independent of clinical operations and never influenced by sponsorship.
+  </div>
+ </div>
+</footer>
+
+<!-- ===== JavaScript ===== -->
+<script>
+// Mobile menu toggle
+(function() {
+ const hamburger = document.querySelector('.tdmd-hamburger');
+ const menu = document.getElementById('tdmd-nav-menu');
+ if (hamburger && menu) {
+  hamburger.addEventListener('click', function() {
+   const isOpen = menu.classList.toggle('tdmd-nav-open');
+   hamburger.setAttribute('aria-expanded', isOpen);
+  });
+  menu.querySelectorAll('a').forEach(function(link) {
+   link.addEventListener('click', function() {
+    menu.classList.remove('tdmd-nav-open');
+    hamburger.setAttribute('aria-expanded', 'false');
+   });
+  });
+ }
+})();
+
+// Smooth scroll for TOC links
+(function() {
+ document.querySelectorAll('.tdmd-toc a, sup a').forEach(function(link) {
+  link.addEventListener('click', function(e) {
+   const href = this.getAttribute('href');
+   if (href && href.startsWith('#')) {
+    e.preventDefault();
+    const target = document.querySelector(href);
+    if (target) {
+     const navHeight = document.querySelector('.tdmd-nav').offsetHeight;
+     const y = target.getBoundingClientRect().top + window.pageYOffset - navHeight - 20;
+     window.scrollTo({ top: y, behavior: 'smooth' });
+    }
+   }
+  });
+ });
+})();
+
+// Ensure external links work in iframes/embedded contexts
+(function() {
+ document.querySelectorAll('a[target="_blank"]').forEach(function(link) {
+  link.addEventListener('click', function(e) {
+   e.preventDefault();
+   window.open(this.href, '_blank', 'noopener,noreferrer');
+  });
+ });
+})();
+</script>
+
+</body>
+</html>
