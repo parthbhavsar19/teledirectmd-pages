@@ -6,6 +6,7 @@ import {
   MASTER_COST_PAGE,
   COMPARE_PAGES_INDEX,
   getCostPageLinkForCondition,
+  getSecondaryCostPagesForCondition,
   getTopComparePageForCondition,
   getSymptomsForCondition,
 } from '../../lib/internal-links';
@@ -15,6 +16,7 @@ import {
 // page rendered.
 export function WhatDoesThisCostBlock({ conditionSlug, conditionName, stateName }) {
   const link = getCostPageLinkForCondition(conditionSlug);
+  const secondary = getSecondaryCostPagesForCondition(conditionSlug);
   const where = stateName ? ` in ${stateName}` : '';
   // Avoid doubling the word "treatment" — condition names like "UTI Treatment"
   // already include it; condition names like "Hypertension Refills" don't.
@@ -36,6 +38,16 @@ export function WhatDoesThisCostBlock({ conditionSlug, conditionName, stateName 
         <div className="tdmd-related-cta" style={{ marginTop: '0.75rem' }}>
           <a href={link.url} className="tdmd-btn tdmd-btn-primary">{link.title} →</a>
         </div>
+        {secondary.length > 0 && (
+          <p className="tdmd-link-cloud" style={{ marginTop: '0.75rem' }}>
+            {secondary.map((s, i) => (
+              <span key={s.url}>
+                {i > 0 && ' · '}
+                <a href={s.url}>{s.title}</a>
+              </span>
+            ))}
+          </p>
+        )}
       </div>
     </section>
   );

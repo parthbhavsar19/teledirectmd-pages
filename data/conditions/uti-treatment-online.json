@@ -115,7 +115,7 @@
       },
       {
         "option": "Urgent Care",
-        "cost": "$150 to $300+ (before insurance)",
+        "cost": "$150 to $450 (before insurance)",
         "wait": "1 to 3 hours typical",
         "provider": "MD, DO, PA, or NP",
         "bestFor": "Moderate symptoms, uncertain diagnosis, or when urine testing is needed quickly",
@@ -219,7 +219,7 @@
       },
       {
         "name": "Urgent Care",
-        "value": "$150 to $300+",
+        "value": "$150 to $450",
         "width": 55,
         "isTdmd": false
       },
@@ -574,6 +574,18 @@
       {
         "question": "What if my symptoms do not improve after starting treatment?",
         "answer": "If symptoms are not improving within 48 to 72 hours, you should be reassessed. You may need urine testing, a different diagnosis considered, or a change in therapy. New fever, flank pain, or vomiting requires urgent in-person evaluation."
+      },
+      {
+        "question": "What are the symptoms of a UTI?",
+        "answer": "The most common symptoms of a UTI (bladder infection) are a burning sensation when urinating, a frequent urge to urinate, urgency, and lower abdominal or pelvic pressure. Urine may look cloudy or smell strong, and a small amount of blood can appear. The classic triad of burning, frequency, and urgency together strongly predicts a UTI in otherwise healthy women. Fever, flank or back pain, nausea, or vomiting suggest the infection has reached the kidneys and warrant prompt in-person care. In older adults, new confusion can sometimes be the only sign."
+      },
+      {
+        "question": "Are there over-the-counter antibiotics for a UTI, and how do I get medication online?",
+        "answer": "No. In the United States there are no over-the-counter oral antibiotics for a UTI — every antibiotic that cures a UTI (such as nitrofurantoin, trimethoprim-sulfamethoxazole, cephalexin, or fosfomycin) requires a prescription. OTC products like AZO (phenazopyridine) only numb the burning; they do not treat the infection. The fastest legal way to get UTI medication is a same-day telehealth visit: an MD can assess your symptoms by video and send an e-prescription to your pharmacy, usually within an hour, with the generic antibiotic costing about $5 to $25."
+      },
+      {
+        "question": "How do you get rid of a UTI fast?",
+        "answer": "The fastest way to clear a UTI is a prescription antibiotic — most patients feel significant relief within 24 to 48 hours of starting one. Because an uncomplicated UTI in a healthy, non-pregnant adult woman needs no urinalysis under current IDSA guidance, a same-day video visit is often the quickest route to a prescription. Drinking plenty of water and using an over-the-counter urinary analgesic can ease symptoms while you arrange treatment, but they do not cure the infection."
       },
       {
         "question": "What if I keep getting UTIs again and again?",
