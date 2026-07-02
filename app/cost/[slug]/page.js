@@ -15,6 +15,7 @@ import { getPayerFamilyStateCount } from '../../../lib/insurance-data';
 const COST_PAGE_TO_SYMPTOMS = {
   'online-doctor-visit-cost':       ['burning-urination', 'sinus-pressure', 'sore-throat', 'persistent-cough', 'allergy-symptoms', 'acid-reflux'],
   'uti-treatment-cost':             ['burning-urination'],
+  'uti-antibiotics-cost':           ['burning-urination'],
   'sinus-infection-treatment-cost': ['sinus-pressure', 'sinus-infection'],
   'sore-throat-treatment-cost':     ['sore-throat', 'strep-throat'],
   'online-prescription-cost':       ['acid-reflux', 'asthma', 'birth-control'],
