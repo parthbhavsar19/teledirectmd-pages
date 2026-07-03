@@ -1,6 +1,7 @@
 import SiteHeader from './components/SiteHeader';
 import SiteFooter from './components/SiteFooter';
 import GlobalStyles from './components/GlobalStyles';
+import Analytics from './components/Analytics';
 
 export const metadata = {
   metadataBase: new URL('https://teledirectmd.com'),
@@ -21,6 +22,7 @@ export default function RootLayout({ children }) {
         <SiteHeader />
         <main id="main-content">{children}</main>
         <SiteFooter />
+        <Analytics />
       </body>
     </html>
   );
