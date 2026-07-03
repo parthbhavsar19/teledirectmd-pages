@@ -35,8 +35,8 @@ export default function StickyBookingBar({ price = '79' }) {
           }}
         >
           <div style={{ display: 'flex', alignItems: 'baseline', gap: '0.6rem', flexWrap: 'wrap' }}>
-            <strong style={{ fontSize: '1.05rem' }}>Get treated today for ${price}</strong>
-            <span style={{ fontSize: '0.9rem', opacity: 0.9 }}>
+            <strong style={{ fontSize: '1.05rem', color: '#ffffff' }}>Get treated today for ${price}</strong>
+            <span style={{ fontSize: '0.9rem', color: '#e8f2f4' }}>
               Same-day video visit &middot; prescription sent to your pharmacy
             </span>
           </div>

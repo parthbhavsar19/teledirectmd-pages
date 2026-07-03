@@ -110,14 +110,14 @@ export default function NationalConditionPage({ conditionSlug }) {
             display: 'flex', alignItems: 'center', justifyContent: 'center',
             gap: '1.25rem', flexWrap: 'wrap', textAlign: 'center'
           }}>
-            <span style={{ fontSize: '0.95rem' }}>
-              <strong>${conversion.price || '79'} flat</strong> &middot; no insurance needed
+            <span style={{ fontSize: '0.95rem', color: '#ffffff' }}>
+              <strong style={{ color: '#ffffff' }}>${conversion.price || '79'} flat</strong> &middot; no insurance needed
             </span>
-            <span style={{ fontSize: '0.95rem' }}>
-              <strong>Same-day</strong> appointments, evenings &amp; weekends
+            <span style={{ fontSize: '0.95rem', color: '#ffffff' }}>
+              <strong style={{ color: '#ffffff' }}>Same-day</strong> appointments, evenings &amp; weekends
             </span>
-            <span style={{ fontSize: '0.95rem' }}>
-              Prescription to <strong>your pharmacy</strong> within the hour
+            <span style={{ fontSize: '0.95rem', color: '#ffffff' }}>
+              Prescription to <strong style={{ color: '#ffffff' }}>your pharmacy</strong> within the hour
             </span>
             <a href="/book-online" className="tdmd-btn tdmd-btn-primary" style={{ whiteSpace: 'nowrap' }}>
               Book Now &rarr;
