@@ -790,5 +790,10 @@
     "webpageDescription": "{state} UTI treatment by secure MD video visit for adults. Evidence-based evaluation of bladder infection symptoms, red-flag screening, guideline-based antibiotic treatment when appropriate, and clear rules for when urgent in-person care is needed."
   },
   "guidelineSource": "idsaUti",
-  "conditionType": "treatment"
+  "conditionType": "treatment",
+  "conversion": {
+    "stickyBar": true,
+    "urgencyStrip": true,
+    "price": "79"
+  }
 }

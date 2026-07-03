@@ -6,6 +6,7 @@ import { WhatDoesThisCostBlock, CompareTeleDirectMDLinkRow, CommonSymptomsBlock 
 // summary text is surfaced inline via the hero introParagraph. CitableSummary.js itself
 // stays in the codebase because /about, /insurance, /faq still import it.
 import FaqAccordion from '../components/FaqAccordion';
+import StickyBookingBar from '../components/StickyBookingBar';
 import { summarizeNationalCondition, citableSummaryToJsonLd } from '../../lib/citable-summary';
 
 export default function NationalConditionPage({ conditionSlug }) {
@@ -57,6 +58,8 @@ export default function NationalConditionPage({ conditionSlug }) {
   const pageUrl_AI = `https://teledirectmd.com/${conditionSlug}/`;
   const citableJsonLd_AI = citableSummaryToJsonLd(citableSummary_AI, { pageUrl: pageUrl_AI });
 
+  // Conversion architecture (per-condition opt-in; UTI canary first)
+  const conversion = condition.conversion || {};
 
   return (
     <>
@@ -97,6 +100,31 @@ export default function NationalConditionPage({ conditionSlug }) {
           </p>
         </div>
       </div>
+
+      {/* 0c) Above-fold urgency / value strip (per-condition opt-in) */}
+      {conversion.urgencyStrip && (
+        <div className="tdmd-urgency-strip" style={{
+          background: '#003E52', color: '#fff', padding: '0.65rem 1rem'
+        }}>
+          <div className="tdmd-container" style={{
+            display: 'flex', alignItems: 'center', justifyContent: 'center',
+            gap: '1.25rem', flexWrap: 'wrap', textAlign: 'center'
+          }}>
+            <span style={{ fontSize: '0.95rem' }}>
+              <strong>${conversion.price || '79'} flat</strong> &middot; no insurance needed
+            </span>
+            <span style={{ fontSize: '0.95rem' }}>
+              <strong>Same-day</strong> appointments, evenings &amp; weekends
+            </span>
+            <span style={{ fontSize: '0.95rem' }}>
+              Prescription to <strong>your pharmacy</strong> within the hour
+            </span>
+            <a href="/book-online" className="tdmd-btn tdmd-btn-primary" style={{ whiteSpace: 'nowrap' }}>
+              Book Now &rarr;
+            </a>
+          </div>
+        </div>
+      )}
 
       {/* 1) Hero */}
       <section className="tdmd-hero" id={`${pid}-hero`}>
@@ -778,6 +806,11 @@ export default function NationalConditionPage({ conditionSlug }) {
 
       {/* 26) Common symptoms — back-links to /symptoms/* pages */}
       <CommonSymptomsBlock conditionSlug={conditionSlug} conditionName={condition.conditionName} />
+
+      {/* 27) Conversion architecture — sticky booking bar (per-condition opt-in) */}
+      {conversion.stickyBar && (
+        <StickyBookingBar price={conversion.price || '79'} />
+      )}
     </>
   );
 }
