@@ -1,3 +1,197 @@
+/* Page-scoped redesign styles — applied only under .tdmd-intl-redesign so no
+   other page or shared component is affected. Brand tokens (navy #172140,
+   coral #FF5A36, slate-blue #536c7c, warm off-white) are set as the same
+   --tdmd-* custom properties the shared components already consume, so the
+   existing markup re-skins itself. Dark-mode variants mirror the site's
+   [data-theme] / prefers-color-scheme scheme. */
+const IV_STYLES = `
+  .tdmd-intl-redesign{
+    --tdmd-navy:#172140;
+    --tdmd-teal:#536c7c;
+    --tdmd-accent:#ff5a36;
+    --tdmd-bg-soft:#faf6ef;
+    --tdmd-border:#e8e0d4;
+    --tdmd-text:#1e2733;
+    --tdmd-muted:#556173;
+    --tdmd-card:#ffffff;
+    --tdmd-shadow:0 12px 32px rgba(23,33,64,0.09);
+    --tdmd-radius:20px;
+    --iv-heading:'Fraunces',Georgia,'Times New Roman',serif;
+    --iv-body:'DM Sans',system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
+    --iv-th-bg:#172140;
+    --iv-th-fg:#ffffff;
+    --iv-good:#2f9e6f;
+  }
+  :root[data-theme="dark"] .tdmd-intl-redesign{
+    --tdmd-navy:#c9d3f0;
+    --tdmd-teal:#93aac0;
+    --tdmd-accent:#ff7a5c;
+    --tdmd-bg-soft:#161b26;
+    --tdmd-border:#2a3242;
+    --tdmd-text:#e7eaf1;
+    --tdmd-muted:#9aa5b6;
+    --tdmd-card:#1b2130;
+    --tdmd-shadow:0 12px 32px rgba(0,0,0,0.4);
+    --iv-th-bg:#232c40;
+    --iv-th-fg:#e7eaf1;
+    --iv-good:#4fc79a;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]) .tdmd-intl-redesign{
+      --tdmd-navy:#c9d3f0;
+      --tdmd-teal:#93aac0;
+      --tdmd-accent:#ff7a5c;
+      --tdmd-bg-soft:#161b26;
+      --tdmd-border:#2a3242;
+      --tdmd-text:#e7eaf1;
+      --tdmd-muted:#9aa5b6;
+      --tdmd-card:#1b2130;
+      --tdmd-shadow:0 12px 32px rgba(0,0,0,0.4);
+      --iv-th-bg:#232c40;
+      --iv-th-fg:#e7eaf1;
+      --iv-good:#4fc79a;
+    }
+  }
+
+  /* Typography */
+  .tdmd-intl-redesign .tdmd-container{font-family:var(--iv-body);}
+  .tdmd-intl-redesign h1,.tdmd-intl-redesign h2,.tdmd-intl-redesign h3,.tdmd-intl-redesign h4{
+    font-family:var(--iv-heading);letter-spacing:-0.015em;font-weight:600;
+  }
+  .tdmd-intl-redesign .tdmd-section{padding:3.25rem 0;}
+  .tdmd-intl-redesign .tdmd-section h2{font-size:1.95rem;line-height:1.15;color:var(--tdmd-navy);margin:0 0 0.6rem;}
+  .tdmd-intl-redesign .tdmd-section > .tdmd-container > p{max-width:72ch;line-height:1.65;}
+
+  /* Answer block */
+  .tdmd-intl-redesign .tdmd-answer-block{border-radius:0 14px 14px 0;}
+
+  /* Hero — navy band */
+  .tdmd-intl-redesign .tdmd-hero{
+    background:linear-gradient(155deg,#141d38 0%,#1f2c52 55%,#243459 100%);
+    padding:3.75rem 0 3.25rem;
+  }
+  .tdmd-intl-redesign .tdmd-hero .tdmd-container{color:#e9ecf7;}
+  .tdmd-intl-redesign .tdmd-hero-copy h1{color:#ffffff;font-size:2.5rem;line-height:1.1;font-weight:600;}
+  .tdmd-intl-redesign .tdmd-hero-sub{color:#ffd7cc;font-weight:600;}
+  .tdmd-intl-redesign .tdmd-hero-copy > p{color:#cfd6ea;}
+  .tdmd-intl-redesign .tdmd-hero-benefits li{color:#e9ecf7;}
+  .tdmd-intl-redesign .tdmd-hero-benefits li::before{color:#ff8a6e;}
+  .tdmd-intl-redesign .tdmd-reviewed{color:#9aa6c6;}
+
+  /* Hero trust chips */
+  .tdmd-intl-redesign .iv-trust-chips{
+    list-style:none;display:flex;flex-wrap:wrap;gap:0.5rem 0.6rem;
+    padding:0;margin:0.35rem 0 1.25rem;
+  }
+  .tdmd-intl-redesign .iv-trust-chips li{
+    display:inline-flex;align-items:center;gap:0.4rem;
+    padding:0.4rem 0.9rem;border-radius:999px;
+    background:rgba(255,255,255,0.08);border:1px solid rgba(255,255,255,0.18);
+    color:#ffffff;font-size:0.85rem;font-weight:600;font-family:var(--iv-body);
+  }
+  .tdmd-intl-redesign .iv-trust-chips li::before{content:"\\2713";color:#ff8a6e;font-weight:800;}
+
+  /* Hero TOC on navy */
+  .tdmd-intl-redesign .tdmd-hero .tdmd-toc{
+    background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.12);
+    border-radius:14px;padding:1rem 1rem 1rem 2.3rem;margin:1rem 0 1.25rem;
+  }
+  .tdmd-intl-redesign .tdmd-hero .tdmd-toc-intro{color:#ffffff;font-weight:700;margin:0 0 0.4rem;}
+  .tdmd-intl-redesign .tdmd-hero .tdmd-toc a{color:#cdd6ee;font-weight:600;}
+  .tdmd-intl-redesign .tdmd-hero .tdmd-toc a:hover{color:#ff9b83;}
+
+  /* Hero side card stays readable on the navy band (light-surface card) */
+  .tdmd-intl-redesign .tdmd-hero-card{color:var(--tdmd-text);border:1px solid var(--tdmd-border);}
+  .tdmd-intl-redesign .tdmd-hero-card h2{color:var(--tdmd-navy);font-family:var(--iv-heading);}
+  .tdmd-intl-redesign .tdmd-hero-card li,.tdmd-intl-redesign .tdmd-hero-card p{color:var(--tdmd-text);}
+
+  /* Buttons — coral primary CTA, slate/white outline */
+  .tdmd-intl-redesign .tdmd-btn{font-family:var(--iv-body);padding:0.75rem 1.6rem;}
+  .tdmd-intl-redesign .tdmd-btn-primary{
+    background:var(--tdmd-accent);color:#ffffff;
+    box-shadow:0 8px 20px rgba(255,90,54,0.32);
+  }
+  .tdmd-intl-redesign .tdmd-btn-primary:hover{background:#e8492a;}
+  .tdmd-intl-redesign .tdmd-hero .tdmd-btn-outline,
+  .tdmd-intl-redesign .tdmd-bottom-cta .tdmd-btn-outline{
+    border:1px solid rgba(255,255,255,0.55);color:#ffffff;background:transparent;
+  }
+  .tdmd-intl-redesign .tdmd-hero .tdmd-btn-outline:hover,
+  .tdmd-intl-redesign .tdmd-bottom-cta .tdmd-btn-outline:hover{background:rgba(255,255,255,0.12);}
+
+  /* Cards */
+  .tdmd-intl-redesign .tdmd-card h3,.tdmd-intl-redesign .tdmd-card h4{color:var(--tdmd-navy);}
+
+  /* Eligibility — green vs warm accents */
+  .tdmd-intl-redesign #intl-visitors-eligibility .tdmd-card-good{
+    border-top:4px solid var(--iv-good);
+    background:linear-gradient(180deg,rgba(47,158,111,0.07),var(--tdmd-card) 55%);
+  }
+  .tdmd-intl-redesign #intl-visitors-eligibility .tdmd-card-alert{
+    border-top:4px solid var(--tdmd-accent);
+    background:linear-gradient(180deg,rgba(255,90,54,0.07),var(--tdmd-card) 55%);
+  }
+
+  /* Decision-flow — numbered step timeline with connecting line */
+  .tdmd-intl-redesign .tdmd-decision-flow{position:relative;}
+  .tdmd-intl-redesign .tdmd-decision-step{position:relative;overflow:visible;}
+  .tdmd-intl-redesign .tdmd-decision-step:not(:last-child) .tdmd-decision-number::after{
+    content:"";position:absolute;top:100%;left:50%;transform:translateX(-50%);
+    width:3px;height:calc(1.25rem + 2.5rem);
+    background:linear-gradient(var(--tdmd-accent),rgba(255,90,54,0));
+    z-index:0;
+  }
+  .tdmd-intl-redesign #intl-visitors-how-it-works .tdmd-decision-number{background:var(--tdmd-accent);}
+
+  /* Tables — navy header, highlighted TeleDirectMD row */
+  .tdmd-intl-redesign .tdmd-table th{background:var(--iv-th-bg);color:var(--iv-th-fg);border-color:var(--iv-th-bg);}
+  .tdmd-intl-redesign #intl-visitors-comparison .tdmd-table tbody tr:first-child td{
+    background:rgba(255,90,54,0.10);font-weight:600;
+  }
+  .tdmd-intl-redesign #intl-visitors-comparison .tdmd-table tbody tr:first-child td:first-child{
+    box-shadow:inset 4px 0 0 var(--tdmd-accent);
+  }
+
+  /* Personas — 4-card grid */
+  .tdmd-intl-redesign #intl-visitors-who-we-help .tdmd-grid-2{grid-template-columns:repeat(4,minmax(0,1fr));}
+  @media(max-width:900px){.tdmd-intl-redesign #intl-visitors-who-we-help .tdmd-grid-2{grid-template-columns:repeat(2,minmax(0,1fr));}}
+  @media(max-width:560px){.tdmd-intl-redesign #intl-visitors-who-we-help .tdmd-grid-2{grid-template-columns:minmax(0,1fr);}}
+
+  /* Pricing */
+  .tdmd-intl-redesign .tdmd-price-big{color:var(--tdmd-accent);font-family:var(--iv-heading);font-size:3rem;}
+  .tdmd-intl-redesign .tdmd-price-card{border-top:4px solid var(--tdmd-accent);}
+  .tdmd-intl-redesign .tdmd-bar-fill-tdmd{background:linear-gradient(90deg,var(--tdmd-accent),#ff8a6e);}
+
+  /* FAQ accordion */
+  .tdmd-intl-redesign .tdmd-faq-item{border-left:3px solid transparent;transition:border-color .15s;}
+  .tdmd-intl-redesign details[open].tdmd-faq-item{border-left-color:var(--tdmd-accent);}
+  .tdmd-intl-redesign .tdmd-faq-question::after{color:var(--tdmd-accent);}
+
+  /* Final CTA band — navy with coral button */
+  .tdmd-intl-redesign .tdmd-bottom-cta{
+    background:linear-gradient(135deg,#141d38,#243459);border:none;
+    padding:2rem 1.75rem;
+  }
+  .tdmd-intl-redesign .tdmd-bottom-cta-copy h3{color:#ffffff;font-family:var(--iv-heading);font-size:1.5rem;}
+  .tdmd-intl-redesign .tdmd-bottom-cta-copy p{color:rgba(255,255,255,0.82);}
+
+  /* State list — tidy multi-column grid */
+  .tdmd-intl-redesign .tdmd-other-states-grid{
+    display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:0.55rem;
+  }
+  .tdmd-intl-redesign .tdmd-other-state-link{text-align:center;}
+
+  /* Responsive hero */
+  @media(max-width:768px){
+    .tdmd-intl-redesign .tdmd-hero-copy h1{font-size:1.95rem;}
+    .tdmd-intl-redesign .tdmd-section h2{font-size:1.6rem;}
+  }
+
+  @media (prefers-reduced-motion: reduce){
+    .tdmd-intl-redesign *{transition:none !important;}
+  }
+`;
+
 export default function InternationalVisitorsPage() {
   const baseUrl = 'https://teledirectmd.com';
   const pageUrl = `${baseUrl}/who-we-serve/international-visitors`;
@@ -160,7 +354,14 @@ export default function InternationalVisitorsPage() {
   };
 
   return (
-    <>
+    <div className="tdmd-intl-redesign">
+      {/* Page-scoped fonts + styles (brand system, this page only) */}
+      <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&display=swap"
+      />
+      <style dangerouslySetInnerHTML={{ __html: IV_STYLES }} />
+
       {/* Section 0: JSON-LD Schema */}
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
 
@@ -180,18 +381,18 @@ export default function InternationalVisitorsPage() {
         className="tdmd-answer-block"
         data-speakable="true"
         style={{
-          background: '#EAF7F8',
-          borderLeft: '4px solid #006B73',
+          background: 'var(--tdmd-bg-soft)',
+          borderLeft: '4px solid var(--tdmd-accent)',
           padding: '1rem 1.25rem',
           margin: '0 0 0',
           lineHeight: 1.6
         }}
       >
         <div className="tdmd-container">
-          <p style={{ margin: 0, fontWeight: 700, color: '#003E52', fontSize: '1.05rem' }}>
+          <p style={{ margin: 0, fontWeight: 700, color: 'var(--tdmd-navy)', fontSize: '1.05rem', fontFamily: 'var(--iv-heading)' }}>
             Online doctor for international visitors to the USA:
           </p>
-          <p style={{ margin: '0.35rem 0 0', color: '#003E52', fontSize: '0.97rem' }}>
+          <p style={{ margin: '0.35rem 0 0', color: 'var(--tdmd-text)', fontSize: '0.97rem' }}>
             TeleDirectMD offers same-day video visits with a board-certified US physician for $79 flat — no US insurance required, available in 43 states. Get a diagnosis and prescription sent to a nearby pharmacy without leaving your hotel or vacation rental.
           </p>
         </div>
@@ -206,6 +407,12 @@ export default function InternationalVisitorsPage() {
               <p className="tdmd-hero-sub">
                 Visiting the US and need a doctor? TeleDirectMD connects you with a board-certified US physician via secure video — from your hotel room, vacation rental, or anywhere in 43 states.
               </p>
+              <ul className="iv-trust-chips" aria-label="At a glance">
+                <li>$79 flat</li>
+                <li>43 states</li>
+                <li>No US insurance</li>
+                <li>Same-day</li>
+              </ul>
               <p>
                 Whether you're here on vacation, a business trip, visiting family, or studying on an F-1 visa, getting sick in the US without domestic insurance can be stressful and expensive. TeleDirectMD was built for exactly this situation: fast, legitimate medical care at a flat $79 fee — with no billing surprises.
               </p>
@@ -964,6 +1171,6 @@ export default function InternationalVisitorsPage() {
           </div>
         </div>
       </section>
-    </>
+    </div>
   );
 }
