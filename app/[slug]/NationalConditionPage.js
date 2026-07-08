@@ -7,6 +7,7 @@ import { WhatDoesThisCostBlock, CompareTeleDirectMDLinkRow, CommonSymptomsBlock 
 // stays in the codebase because /about, /insurance, /faq still import it.
 import FaqAccordion from '../components/FaqAccordion';
 import StickyBookingBar from '../components/StickyBookingBar';
+import ConditionPageRedesign from '../components/ConditionPageRedesign';
 import { summarizeNationalCondition, citableSummaryToJsonLd } from '../../lib/citable-summary';
 
 export default function NationalConditionPage({ conditionSlug }) {
@@ -85,6 +86,17 @@ export default function NationalConditionPage({ conditionSlug }) {
           <span aria-current="page">{condition.conditionName}</span>
         </div>
       </nav>
+
+      {/* Redesigned layout (rolling out). UTI first; schema above still applies. */}
+      {conditionSlug === 'uti-treatment-online' && (
+        <>
+          <ConditionPageRedesign condition={condition} />
+          {conversion.stickyBar && <StickyBookingBar price={conversion.price || '79'} />}
+        </>
+      )}
+
+      {conditionSlug !== 'uti-treatment-online' && (
+      <>
 
       {/* 0b) Answer Block — AI snippet target */}
       <div className="tdmd-answer-block" data-speakable="true" style={{
@@ -810,6 +822,8 @@ export default function NationalConditionPage({ conditionSlug }) {
       {/* 27) Conversion architecture — sticky booking bar (per-condition opt-in) */}
       {conversion.stickyBar && (
         <StickyBookingBar price={conversion.price || '79'} />
+      )}
+      </>
       )}
     </>
   );
