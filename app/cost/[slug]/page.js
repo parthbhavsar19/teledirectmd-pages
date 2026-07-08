@@ -3,7 +3,7 @@
 // 23-section gold standard in app/who-we-serve/[segment]/InternationalVisitorsPage.js.
 
 import { COST_PAGES, COST_PAGE_SLUGS, COST_RELATED_LINKS } from '../../../lib/cost-pages-config';
-import UtiAntibioticsVisual from '../../components/UtiAntibioticsVisual';
+import UtiAntibioticsPage from '../../components/UtiAntibioticsPage';
 import { COMPARE_PAGES } from '../../../lib/compare-pages-config';
 import { AGGREGATE_RATING_VALUE, TOTAL_REVIEW_COUNT } from '../../../lib/review-schema';
 import { buildCostCompareJsonLd, buildCostComparisonAggregateOffer } from '../../../lib/cost-compare-schema';
@@ -138,7 +138,14 @@ export default async function CostPage({ params }) {
         </div>
       </nav>
 
+      {/* UTI antibiotics: fully custom-designed page (schema above still applies).
+           Renders its own body and skips the shared bland template below. */}
+      {slug === 'uti-antibiotics-cost' && <UtiAntibioticsPage price="79" />}
+      {slug !== 'uti-antibiotics-cost' && (
+      <>
+
       {/* 2) Answer Block */}
+      {/* (standard template body begins) */}
       <div className="tdmd-answer-block" data-speakable="true" style={{
         background: '#EAF7F8', borderLeft: '4px solid #006B73',
         padding: '1rem 1.25rem', margin: '0', lineHeight: 1.6,
@@ -185,10 +192,7 @@ export default async function CostPage({ params }) {
         </section>
       )}
 
-      {/* 3) Hero — bold visual overhaul for the UTI antibiotics page (design pilot);
-           standard hero for all other cost pages. */}
-      {slug === 'uti-antibiotics-cost' && <UtiAntibioticsVisual price="79" />}
-      {slug !== 'uti-antibiotics-cost' && (
+      {/* 3) Hero (standard cost-page hero) */}
       <section className="tdmd-hero" id={`${pid}-hero`}>
         <div className="tdmd-container">
           <div className="tdmd-hero-grid">
@@ -224,7 +228,6 @@ export default async function CostPage({ params }) {
           </div>
         </div>
       </section>
-      )}
 
       {/* 4) The "Money" Comparison Table — page hero */}
       <section className="tdmd-section tdmd-section-highlight" id={`${pid}-cost-table`}>
@@ -686,6 +689,8 @@ export default async function CostPage({ params }) {
           </p>
         </div>
       </section>
+      </>
+      )}
     </>
   );
 }
