@@ -87,11 +87,46 @@ export default function NationalConditionPage({ conditionSlug }) {
         </div>
       </nav>
 
-      {/* Redesigned layout (rolling out). UTI first; schema above still applies. */}
+      {/* Redesigned layout (rolling out). UTI first; schema above still applies.
+           No standalone StickyBookingBar here — the site already renders a global
+           sticky "$79 Flat Fee / Book Now" CTA in SiteFooter, so we avoid duplication.
+           Internal-link modules from the original template are preserved below. */}
       {conditionSlug === 'uti-treatment-online' && (
         <>
           <ConditionPageRedesign condition={condition} />
-          {conversion.stickyBar && <StickyBookingBar price={conversion.price || '79'} />}
+
+          {/* Preserved internal linking (cost, compare, symptoms, related conditions) */}
+          <div className="tdmd-container" style={{ paddingTop: '1rem', paddingBottom: '2rem' }}>
+            <WhatDoesThisCostBlock conditionSlug={conditionSlug} conditionName={condition.conditionName} />
+            <CompareTeleDirectMDLinkRow conditionSlug={conditionSlug} />
+            <CommonSymptomsBlock conditionSlug={conditionSlug} conditionName={condition.conditionName} />
+          </div>
+
+          <section className="tdmd-section tdmd-section-highlight" id={`${pid}-related-conditions`}>
+            <div className="tdmd-container">
+              <h2>Related Conditions We Treat Online</h2>
+              <p>These conditions can help when symptoms overlap or when you want to explore other telehealth care options from TeleDirectMD.</p>
+              {relatedFromCategory.length > 0 && (
+                <div className="tdmd-related-grid" role="list">
+                  {relatedFromCategory.map((rc, i) => (
+                    <a key={i} className="tdmd-related-card" role="listitem" href={`/${rc.slug}`} aria-label={`${rc.name} treatment online`}>
+                      <span className="tdmd-related-title">{rc.name}</span>
+                      <span className="tdmd-related-desc">Online MD video visit</span>
+                    </a>
+                  ))}
+                </div>
+              )}
+              <div className="tdmd-inline-links">
+                <h3>All Conditions We Treat</h3>
+                <p className="tdmd-link-cloud">
+                  {otherConditions.map((cc, i) => (<a key={i} href={`/${cc.slug}`}>{cc.name}</a>))}
+                </p>
+              </div>
+              <div className="tdmd-related-cta">
+                <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">Explore All Adult Conditions</a>
+              </div>
+            </div>
+          </section>
         </>
       )}
 

@@ -109,9 +109,16 @@ export default function ConditionPageRedesign({ condition, stateName = '' }) {
         .cpr-table td:first-child{font-weight:700;color:var(--ink);}
         .cpr-table-wrap{overflow-x:auto;}
 
-        .cpr-faqitem{border-bottom:1px solid var(--line);padding:1.1rem 0;}
-        .cpr-faqitem h3{font-size:1.03rem;color:var(--navy);margin:0 0 .35rem;}
-        .cpr-faqitem p{margin:0;font-size:.94rem;line-height:1.6;color:var(--muted);}
+        .cpr-faqitem{border-bottom:1px solid var(--line);}
+        .cpr-faqitem summary{list-style:none;cursor:pointer;display:flex;align-items:center;justify-content:space-between;gap:1rem;padding:1.05rem 0;font-family:'Fraunces',Georgia,serif;font-weight:600;font-size:1.03rem;color:var(--navy);}
+        .cpr-faqitem summary::-webkit-details-marker{display:none;}
+        .cpr-faqitem .cpr-plus{flex:0 0 auto;width:24px;height:24px;position:relative;transition:transform .2s;}
+        .cpr-faqitem .cpr-plus::before,.cpr-faqitem .cpr-plus::after{content:'';position:absolute;background:var(--teal);border-radius:2px;}
+        .cpr-faqitem .cpr-plus::before{top:11px;left:3px;width:18px;height:2px;}
+        .cpr-faqitem .cpr-plus::after{top:3px;left:11px;width:2px;height:18px;transition:opacity .2s;}
+        .cpr-faqitem[open] .cpr-plus::after{opacity:0;}
+        .cpr-faqitem[open] summary{color:var(--teal);}
+        .cpr-faqitem .cpr-ans{margin:0;padding:0 0 1.1rem;font-size:.94rem;line-height:1.6;color:var(--muted);}
 
         .cpr-close{background:linear-gradient(160deg,#01465a,#065f6b);color:#fff;border-radius:22px;padding:2.5rem;text-align:center;}
         .cpr-close h2{color:#fff;font-size:clamp(1.6rem,3.3vw,2.2rem);margin:0 0 .5rem;}
@@ -248,10 +255,13 @@ export default function ConditionPageRedesign({ condition, stateName = '' }) {
             <h2>{clean((c.faq && c.faq.sectionTitle) || 'Frequently asked questions', stateName)}</h2>
             <div style={{ marginTop: '1.2rem', borderTop: '1px solid var(--line)' }}>
               {faqs.map((f, i) => (
-                <div className="cpr-faqitem" key={i}>
-                  <h3>{clean(f.question || f.q || '', stateName)}</h3>
-                  <p>{clean(f.answer || f.a || '', stateName)}</p>
-                </div>
+                <details className="cpr-faqitem" key={i}>
+                  <summary>
+                    <span>{clean(f.question || f.q || '', stateName)}</span>
+                    <span className="cpr-plus" aria-hidden="true" />
+                  </summary>
+                  <p className="cpr-ans">{clean(f.answer || f.a || '', stateName)}</p>
+                </details>
               ))}
             </div>
           </div>
