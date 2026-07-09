@@ -47,7 +47,8 @@
       ],
       "note": "Adults 18+ only. TeleDirectMD is not an emergency service. Seek urgent in-person care now for vomiting blood, black tarry stools, severe difficulty swallowing, chest pain that could be cardiac, persistent vomiting, or rapidly worsening symptoms. TeleDirectMD does not prescribe controlled substances."
     },
-    "icd10Display": "K21.0, K21.9 (final coding depends on clinical details)"
+    "icd10Display": "K21.0, K21.9 (final coding depends on clinical details)",
+    "quickAnswer": "Yes \u2014 you can refill acid reflux (GERD) medication online in {state}. A board-certified MD reviews your history by secure video and, when appropriate, refills your PPI (omeprazole, pantoprazole, or esomeprazole) or H2 blocker (famotidine) sent to your pharmacy the same day. Visit price: $79 flat, no insurance required. Lifestyle steps \u2014 smaller meals, not lying down after eating, elevating the head of the bed \u2014 help too. Trouble swallowing, weight loss, black stools, or chest pain need in-person evaluation."
   },
   "eligibility": {
     "sectionTitle": "Acid Reflux Refill Telehealth Eligibility Checklist for {state}",
@@ -190,7 +191,7 @@
     "sectionTitle": "What Do Online Acid Reflux Refills Cost in {state}?",
     "subtitle": "Transparent options. Insurance is not required.",
     "visitPrice": "$79",
-    "priceSubtext": "Self pay option. Insurance is not required.",
+    "priceSubtext": "$79 flat visit \u00b7 no insurance required \u00b7 generic PPIs often $4\u2013$12",
     "includes": [
       "MD evaluation and red-flag screening",
       "GERD control and medication refill review",
@@ -223,7 +224,7 @@
         "isTdmd": false
       }
     ],
-    "footnote": "Prescription costs are separate and vary by medication and pharmacy.",
+    "footnote": "Total cost is transparent: the $79 visit plus a generic PPI (omeprazole, pantoprazole, or esomeprazole, often $4\u2013$12 with a GoodRx coupon) means most patients pay about $83\u2013$91 all-in \u2014 no membership, no surprise fees.",
     "noHiddenFees": "No hidden fees. If medication is not clinically appropriate, you still receive a complete evaluation, guidance, and clear instructions on what level of care you need next."
   },
   "whatIsCondition": {
@@ -542,6 +543,14 @@
         "answer": "Yes, selected adults in {state} may be appropriate for a short bridge telehealth visit for acid reflux medication refills after red-flag screening. TeleDirectMD can help with triage and refill care when clinically appropriate."
       },
       {
+        "question": "How do I get acid reflux medication online without insurance?",
+        "answer": "Insurance is not required. TeleDirectMD is a flat $79 video visit. If a refill is appropriate, generic PPIs (omeprazole, pantoprazole, esomeprazole) typically add only $4\u2013$12 with a GoodRx coupon, so most patients pay about $83\u2013$91 total \u2014 no membership and no coupon math."
+      },
+      {
+        "question": "How do you get rid of acid reflux fast?",
+        "answer": "For quick relief, an over-the-counter antacid or H2 blocker (famotidine) can calm symptoms, while a PPI (omeprazole, pantoprazole, esomeprazole) works best taken 30\u201360 minutes before your first meal for ongoing control. Lifestyle steps help fast too: eat smaller meals, avoid lying down for 3 hours after eating, and elevate the head of your bed. If you need a prescription refill, a same-day TeleDirectMD video visit can send one to your pharmacy. Trouble swallowing, weight loss, or black stools need in-person care."
+      },
+      {
         "question": "How much does an online acid reflux refill visit cost in {state}?",
         "answer": "TeleDirectMD offers a transparent self pay option starting at $79 for an adult video visit in {state}. Insurance is not required. Prescription costs are separate and vary by medication and pharmacy."
       },
@@ -550,12 +559,12 @@
         "answer": "Often, yes. If you are stable on your current PPI and requesting a bridge refill without alarm symptoms such as difficulty swallowing, GI bleeding, or unexplained weight loss, a short bridge refill may be reasonable by video visit."
       },
       {
-        "question": "Can I refill famotidine (Pepcid) online?",
-        "answer": "Yes, if you are already taking famotidine for established GERD and your symptoms are stable. Famotidine is also available over the counter at lower doses, but prescription-strength refills can be provided when appropriate."
-      },
-      {
         "question": "When should I take my PPI for best results?",
         "answer": "The ACG recommends taking PPIs 30 to 60 minutes before a meal for maximum acid suppression. Most patients take their PPI before breakfast. If you are on twice-daily dosing, take the second dose before dinner."
+      },
+      {
+        "question": "Can I refill famotidine (Pepcid) online?",
+        "answer": "Yes, if you are already taking famotidine for established GERD and your symptoms are stable. Famotidine is also available over the counter at lower doses, but prescription-strength refills can be provided when appropriate."
       },
       {
         "question": "Can I stop my PPI if my symptoms are better?",
@@ -605,11 +614,11 @@
       "url": "https://gi.org/topics/acid-reflux/"
     },
     {
-      "text": "NIDDK — Gastroesophageal Reflux (GER) and GERD Information",
+      "text": "NIDDK \u2014 Gastroesophageal Reflux (GER) and GERD Information",
       "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/acid-reflux-ger-gerd-adults"
     },
     {
-      "text": "StatPearls — Gastroesophageal Reflux Disease",
+      "text": "StatPearls \u2014 Gastroesophageal Reflux Disease",
       "url": "https://www.ncbi.nlm.nih.gov/books/NBK441938/"
     }
   ],

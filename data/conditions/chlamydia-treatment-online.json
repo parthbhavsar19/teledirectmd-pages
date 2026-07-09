@@ -8,7 +8,7 @@
   "hero": {
     "h1": "Chlamydia Treatment in {state} (Chlamydial Infection)",
     "subtitle": "{state} adult care by secure video visit, self pay option starting at $79, MD-only, insurance is not required.",
-    "introParagraph": "Chlamydia is the most common reportable bacterial sexually transmitted infection (STI) in the United States, with over 1.8 million cases reported annually. Many patients are asymptomatic, making screening and prompt treatment essential to prevent complications including pelvic inflammatory disease (PID), infertility, and ectopic pregnancy. The CDC STI Treatment Guidelines (2021) now recommend doxycycline 100mg twice daily for 7 days as the preferred first-line treatment, replacing the previous recommendation of azithromycin single dose. TeleDirectMD can prescribe treatment based on a positive chlamydia test result that you bring to your video visit. TeleDirectMD does not perform STI testing itself — patients should get tested at a local clinic, lab, or health department and bring results to the visit. Partner notification and treatment is a critical public health priority: sex partners from the prior 60 days need evaluation and presumptive treatment. This page is for adults located in {state}, including {cities}.",
+    "introParagraph": "Chlamydia is the most common reportable bacterial sexually transmitted infection (STI) in the United States, with over 1.8 million cases reported annually. Many patients are asymptomatic, making screening and prompt treatment essential to prevent complications including pelvic inflammatory disease (PID), infertility, and ectopic pregnancy. The CDC STI Treatment Guidelines (2021) now recommend doxycycline 100mg twice daily for 7 days as the preferred first-line treatment, replacing the previous recommendation of azithromycin single dose. TeleDirectMD can prescribe treatment based on a positive chlamydia test result that you bring to your video visit. TeleDirectMD does not perform STI testing itself \u2014 patients should get tested at a local clinic, lab, or health department and bring results to the visit. Partner notification and treatment is a critical public health priority: sex partners from the prior 60 days need evaluation and presumptive treatment. This page is for adults located in {state}, including {cities}.",
     "tocLinks": [
       {
         "href": "eligibility-checklist",
@@ -45,9 +45,10 @@
         "CDC guideline-based antibiotic prescriptions (doxycycline preferred)",
         "Partner treatment guidance and co-testing recommendations (HIV, gonorrhea, syphilis)"
       ],
-      "note": "Adults 18+ only. TeleDirectMD is not an emergency service. Go to the ER now for pelvic pain with high fever (possible PID requiring IV antibiotics), severe testicular pain and swelling, or signs of disseminated infection. TeleDirectMD does not prescribe controlled substances. TeleDirectMD does not perform STI testing — bring your positive test result to the visit."
+      "note": "Adults 18+ only. TeleDirectMD is not an emergency service. Go to the ER now for pelvic pain with high fever (possible PID requiring IV antibiotics), severe testicular pain and swelling, or signs of disseminated infection. TeleDirectMD does not prescribe controlled substances. TeleDirectMD does not perform STI testing \u2014 bring your positive test result to the visit."
     },
-    "icd10Display": "A56.0, A56.1, or A74.9 (final coding depends on clinical details)"
+    "icd10Display": "A56.0, A56.1, or A74.9 (final coding depends on clinical details)",
+    "quickAnswer": "Yes \u2014 chlamydia can be treated online in {state}. A board-certified MD reviews your test result or symptoms by secure video and, when appropriate, prescribes the CDC first-line antibiotic \u2014 doxycycline 100 mg twice daily for 7 days (azithromycin 1 g single dose is an alternative) \u2014 sent to your pharmacy the same day. Visit price: $79 flat, no insurance required, fully confidential. Partners should be treated too. Re-test in 3 months. Not for pregnancy or pelvic/abdominal pain with fever, which need in-person care."
   },
   "eligibility": {
     "sectionTitle": "Chlamydia Telehealth Eligibility Checklist for {state}",
@@ -196,7 +197,7 @@
     "sectionTitle": "What Does Chlamydia Treatment Cost in {state}?",
     "subtitle": "Transparent options. Insurance is not required.",
     "visitPrice": "$79",
-    "priceSubtext": "Self pay option. Insurance is not required.",
+    "priceSubtext": "$79 flat, confidential visit \u00b7 no insurance required \u00b7 generic doxycycline often $4\u2013$15",
     "includes": [
       "MD evaluation and red-flag screening",
       "Review of positive test results and sexual history",
@@ -230,15 +231,15 @@
         "isTdmd": false
       }
     ],
-    "footnote": "Prescription costs at your pharmacy are separate and vary by medication and pharmacy. STI testing costs are separate.",
+    "footnote": "Total cost is transparent: the $79 visit plus generic doxycycline (often $4\u2013$15 with a GoodRx coupon) means most patients pay about $83\u2013$95 all-in \u2014 discreet, no membership, prescription sent to your pharmacy.",
     "noHiddenFees": "No hidden fees. If medication is not clinically appropriate, you still receive a complete evaluation, guidance, and clear instructions on what level of care you need next."
   },
   "whatIsCondition": {
     "sectionTitle": "What Is Chlamydia?",
     "paragraphs": [
       "Chlamydia is a bacterial sexually transmitted infection caused by Chlamydia trachomatis. It is the most common reportable bacterial STI in the United States, with over 1.8 million cases reported to the CDC annually. Chlamydia is transmitted through vaginal, anal, or oral sexual contact.",
-      "A critical feature of chlamydia is that many infections are asymptomatic — up to 70 percent of women and 50 percent of men with chlamydia have no symptoms. When symptoms do occur, they may include abnormal genital discharge, burning with urination, pelvic pain in women, or testicular pain in men. Untreated chlamydia can lead to serious complications including pelvic inflammatory disease (PID), infertility, ectopic pregnancy, and chronic pelvic pain.",
-      "TeleDirectMD can prescribe treatment for adults with a positive chlamydia test result, provide partner notification guidance, recommend co-testing for HIV, gonorrhea, and syphilis, and direct patients with complications to in-person care. TeleDirectMD does not perform STI testing — patients should get tested at a local clinic, lab, or health department."
+      "A critical feature of chlamydia is that many infections are asymptomatic \u2014 up to 70 percent of women and 50 percent of men with chlamydia have no symptoms. When symptoms do occur, they may include abnormal genital discharge, burning with urination, pelvic pain in women, or testicular pain in men. Untreated chlamydia can lead to serious complications including pelvic inflammatory disease (PID), infertility, ectopic pregnancy, and chronic pelvic pain.",
+      "TeleDirectMD can prescribe treatment for adults with a positive chlamydia test result, provide partner notification guidance, recommend co-testing for HIV, gonorrhea, and syphilis, and direct patients with complications to in-person care. TeleDirectMD does not perform STI testing \u2014 patients should get tested at a local clinic, lab, or health department."
     ]
   },
   "causesAndRiskFactors": {
@@ -284,7 +285,7 @@
     "rows": [
       [
         "Positive chlamydia test with no symptoms",
-        "Asymptomatic chlamydia — still requires treatment",
+        "Asymptomatic chlamydia \u2014 still requires treatment",
         "Yes",
         "No"
       ],
@@ -304,7 +305,7 @@
         "Pelvic pain with fever in a woman",
         "Possible pelvic inflammatory disease (PID)",
         "No",
-        "Urgent in-person evaluation — may need IV antibiotics"
+        "Urgent in-person evaluation \u2014 may need IV antibiotics"
       ],
       [
         "Testicular pain and swelling",
@@ -338,7 +339,7 @@
     "telehealthAppropriate": {
       "title": "Sometimes Appropriate for Telehealth",
       "items": [
-        "Uncomplicated chlamydia with positive test result — treatment and partner guidance",
+        "Uncomplicated chlamydia with positive test result \u2014 treatment and partner guidance",
         "Asymptomatic positive chlamydia screening result",
         "Co-testing recommendations for HIV, gonorrhea, and syphilis",
         "Reinfection screening counseling at 3 months",
@@ -458,18 +459,18 @@
     "whatToDoNow": {
       "title": "Recovery Timeline and What to Do Now",
       "items": [
-        "Take all medication exactly as prescribed — complete the full course even if you feel fine",
+        "Take all medication exactly as prescribed \u2014 complete the full course even if you feel fine",
         "Abstain from all sexual contact for 7 days after completing treatment (or 7 days after single-dose azithromycin)",
         "Notify all sex partners from the prior 60 days so they can be evaluated and treated",
         "If taking doxycycline, take with food and a full glass of water. Avoid lying down for 30 minutes after. Avoid dairy within 2 hours of doses.",
-        "Chlamydia is curable — with proper treatment, the infection clears completely"
+        "Chlamydia is curable \u2014 with proper treatment, the infection clears completely"
       ]
     },
     "whatToWatch": {
       "title": "What to Watch For After Treatment",
       "items": [
-        "Pelvic pain with fever developing at any point (possible PID — seek in-person care)",
-        "Testicular pain and swelling (possible epididymitis — seek in-person care)",
+        "Pelvic pain with fever developing at any point (possible PID \u2014 seek in-person care)",
+        "Testicular pain and swelling (possible epididymitis \u2014 seek in-person care)",
         "Symptoms not improving after completing treatment (may need reassessment)",
         "Joint pain, eye redness, or skin lesions after infection (possible reactive arthritis)",
         "New symptoms suggesting reinfection after completing treatment"
@@ -478,7 +479,7 @@
     "followUp": {
       "title": "Partner Notification and Follow-up",
       "items": [
-        "Reinfection screening is recommended at approximately 3 months after treatment — reinfection is common",
+        "Reinfection screening is recommended at approximately 3 months after treatment \u2014 reinfection is common",
         "Test of cure is NOT routinely recommended (except in pregnancy), as repeat testing before 4 weeks can yield false positives from nonviable organisms",
         "Ensure all sex partners from the prior 60 days are notified, evaluated, and treated",
         "If you were not already tested for HIV, gonorrhea, and syphilis, discuss co-testing with your provider",
@@ -533,12 +534,16 @@
         "answer": "Yes, if you are an adult 18+ located in {state} and have a positive chlamydia test result. TeleDirectMD can prescribe CDC-recommended treatment based on your test results, provide partner notification guidance, and recommend co-testing for other STIs. You must have your positive test result available for the visit."
       },
       {
+        "question": "How can I get chlamydia treatment online without insurance?",
+        "answer": "Insurance is not required. TeleDirectMD is a flat $79 confidential video visit. If antibiotics are appropriate, generic doxycycline typically adds only $4\u2013$15 with a GoodRx coupon, so most patients pay about $83\u2013$95 total \u2014 no membership and no coupon math. Your visit and prescription are private."
+      },
+      {
         "question": "How much does online chlamydia treatment cost in {state}?",
         "answer": "TeleDirectMD offers a transparent self pay option starting at $79 for an adult video visit in {state}. Insurance is not required. Prescription costs at your pharmacy and STI testing costs are separate."
       },
       {
-        "question": "Can telehealth treat chlamydia?",
-        "answer": "Yes. Telehealth is appropriate for uncomplicated chlamydia treatment when you have a positive test result. The standard treatment (doxycycline 100mg twice daily for 7 days) is an oral medication that can be prescribed via telehealth. TeleDirectMD cannot perform testing — you need to get tested at a local clinic or lab first."
+        "question": "What is the fastest way to get chlamydia antibiotics online?",
+        "answer": "Book a same-day TeleDirectMD video visit. A board-certified MD reviews your positive test or symptoms and exposure history, and if appropriate sends an e-prescription for doxycycline (CDC first-line) to your pharmacy \u2014 usually ready within a couple of hours. Abstain from sex for 7 days after treatment, and make sure recent partners are treated too."
       },
       {
         "question": "Do my partners need treatment?",
@@ -547,6 +552,10 @@
       {
         "question": "How long until chlamydia is cured?",
         "answer": "Chlamydia is curable with appropriate antibiotic treatment. With doxycycline (7-day course), the infection clears during treatment. You must abstain from sexual contact for 7 days after completing all medication. If you took single-dose azithromycin, abstain for 7 days after the dose. Reinfection screening at approximately 3 months is recommended."
+      },
+      {
+        "question": "Can telehealth treat chlamydia?",
+        "answer": "Yes. Telehealth is appropriate for uncomplicated chlamydia treatment when you have a positive test result. The standard treatment (doxycycline 100mg twice daily for 7 days) is an oral medication that can be prescribed via telehealth. TeleDirectMD cannot perform testing \u2014 you need to get tested at a local clinic or lab first."
       },
       {
         "question": "Can you have chlamydia without symptoms?",
@@ -572,7 +581,7 @@
   },
   "references": [
     {
-      "text": "CDC STI Treatment Guidelines 2021 — Chlamydial Infections",
+      "text": "CDC STI Treatment Guidelines 2021 \u2014 Chlamydial Infections",
       "url": "https://www.cdc.gov/std/treatment-guidelines/chlamydia.htm"
     },
     {
@@ -580,7 +589,7 @@
       "url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/chlamydia-and-gonorrhea-screening"
     },
     {
-      "text": "AAFP: Sexually Transmitted Infections — Chlamydia",
+      "text": "AAFP: Sexually Transmitted Infections \u2014 Chlamydia",
       "url": "https://www.aafp.org/pubs/afp/issues/2022/0800/sexually-transmitted-infections.html"
     },
     {
@@ -610,7 +619,7 @@
     {
       "slug": "uti-treatment-online",
       "title": "UTI",
-      "description": "Dysuria from chlamydia can mimic UTI symptoms — testing is needed to distinguish between them"
+      "description": "Dysuria from chlamydia can mimic UTI symptoms \u2014 testing is needed to distinguish between them"
     }
   ],
   "inlineLinks": [
@@ -729,7 +738,7 @@
       "Reinfection screening at 3 months"
     ],
     "tests": [
-      "Nucleic acid amplification test (NAAT) — gold standard",
+      "Nucleic acid amplification test (NAAT) \u2014 gold standard",
       "Co-testing for HIV, gonorrhea, and syphilis",
       "Red-flag screening for PID and epididymitis"
     ],
@@ -740,7 +749,7 @@
     ],
     "guidelines": [
       {
-        "name": "CDC STI Treatment Guidelines 2021 — Chlamydial Infections",
+        "name": "CDC STI Treatment Guidelines 2021 \u2014 Chlamydial Infections",
         "url": "https://www.cdc.gov/std/treatment-guidelines/chlamydia.htm",
         "publisher": "Centers for Disease Control and Prevention",
         "id": "cdc-chlamydia"
