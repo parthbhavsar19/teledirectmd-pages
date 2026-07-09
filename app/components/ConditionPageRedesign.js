@@ -187,7 +187,7 @@ export default function ConditionPageRedesign({
             <h1>{clean(hero.h1, stateName)}</h1>
             {hero.subtitle && <p className="sub">{clean(hero.subtitle, stateName)}</p>}
             {hero.introParagraph && <p className="intro">{clean(hero.introParagraph, stateName)}</p>}
-            <div><a href="/book-online" className="cpr-cta">Book a Visit — {price} →</a></div>
+            <div><a href="/book-online" className="cpr-cta">Book a Visit, {price} →</a></div>
             <p className="cpr-trust">Board-certified MD · 43 states · evenings &amp; weekends · HSA/FSA accepted · 5.0★ (125 reviews)</p>
           </div>
           <div className="cpr-hcard">
@@ -584,7 +584,7 @@ export default function ConditionPageRedesign({
           <div className="cpr-close">
             <h2>Get treated today</h2>
             <p>A board-certified MD, a same-day visit, and a flat {price}. No waiting room, no insurance required.</p>
-            <a href="/book-online" className="cpr-cta">Book a Visit — {price} →</a>
+            <a href="/book-online" className="cpr-cta">Book a Visit, {price} →</a>
           </div>
         </div>
       </section>
