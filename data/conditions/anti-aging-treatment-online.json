@@ -47,7 +47,8 @@
       ],
       "note": "Adults 18+ only. TeleDirectMD is not an emergency service. Seek in-person dermatology care for suspicious moles, changing skin lesions, non-healing wounds, or severe skin reactions. TeleDirectMD does not prescribe controlled substances."
     },
-    "icd10Display": "L57.0, L90.8 (final coding depends on clinical details)"
+    "icd10Display": "L57.0, L90.8 (final coding depends on clinical details)",
+    "quickAnswer": "Yes — adults (18+) in {state} seeking a photoaging skincare plan can be evaluated online. A board-certified MD reviews your skin type and history by secure video and, when appropriate, prescribes tretinoin — the gold-standard topical retinoid for photoaging — sent to your pharmacy same day, alongside mandatory sunscreen guidance. Visit price: $79 flat, no insurance required. Full results take 6–12 months of nightly use. Not for pregnancy, breastfeeding, or suspicious changing skin lesions, which need in-person evaluation."
   },
   "eligibility": {
     "sectionTitle": "Anti-Aging Telehealth Eligibility Checklist for {state}",
@@ -195,7 +196,7 @@
     "sectionTitle": "What Does Online Anti-Aging Treatment Cost in {state}?",
     "subtitle": "Transparent options. Insurance is not required.",
     "visitPrice": "$79",
-    "priceSubtext": "Self pay option. Insurance is not required.",
+    "priceSubtext": "$79 flat visit · no insurance required · generic tretinoin often $20–$50",
     "includes": [
       "MD evaluation and safety screening",
       "Photoaging assessment and skin type evaluation",
@@ -229,7 +230,7 @@
         "isTdmd": false
       }
     ],
-    "footnote": "Prescription costs at your pharmacy are separate and vary by medication and pharmacy. Generic tretinoin typically costs $20 to $50 with insurance.",
+    "footnote": "Total cost is transparent: the $79 visit plus generic tretinoin (roughly $20–$50 with insurance or a pharmacy discount card) means most patients pay about $99–$129 all-in — no membership, no in-office procedure fees.",
     "noHiddenFees": "No hidden fees. If tretinoin is not clinically appropriate, you still receive a complete evaluation, guidance on alternative options, and clear instructions on what level of care you need next."
   },
   "whatIsCondition": {
@@ -586,6 +587,14 @@
       {
         "question": "Will my skin go back to how it was if I stop using tretinoin?",
         "answer": "Yes. Tretinoin benefits are maintained only with continued use. If you stop, the improvements in wrinkles, texture, and pigmentation will gradually reverse over weeks to months as normal photoaging processes resume. This is why tretinoin is considered a long-term treatment. Consistent daily sunscreen use helps preserve results even if tretinoin is paused."
+      },
+      {
+        "question": "How much does online tretinoin treatment for anti-aging cost in {state}?",
+        "answer": "The visit is $79 flat with no insurance required. Generic tretinoin typically runs $20 to $50 at the pharmacy, so most patients pay under $130 total to start a prescription-strength anti-aging regimen."
+      },
+      {
+        "question": "Do I need to stop tretinoin if my skin gets irritated during the retinization period?",
+        "answer": "Mild peeling, redness, or dryness in the first few weeks is common and usually improves as your skin adjusts. If irritation is severe, reducing frequency to every other night or using a moisturizer buffer often helps; TeleDirectMD can advise on adjusting your regimen at follow-up."
       }
     ],
     "bottomCta": {

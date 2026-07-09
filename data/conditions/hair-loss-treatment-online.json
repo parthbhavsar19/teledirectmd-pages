@@ -47,7 +47,8 @@
       ],
       "note": "Adults 18+ only. TeleDirectMD is not an emergency service. Seek in-person dermatology evaluation for patchy hair loss, scalp scarring or pain, rapid diffuse shedding with systemic symptoms, or scalp lesions. TeleDirectMD does not prescribe controlled substances."
     },
-    "icd10Display": "L64.9 (final coding depends on clinical details)"
+    "icd10Display": "L64.9 (final coding depends on clinical details)",
+    "quickAnswer": "Yes — adults (18+) in {state} with androgenetic alopecia can get treatment online. A board-certified MD reviews your hair loss pattern by secure video and, per AAD and IADVL guidance, prescribes finasteride, topical minoxidil 5%, or a combination for the most effective results, sent to your pharmacy same day. Visit price: $79 flat, no insurance required. Treatment must continue indefinitely, since loss resumes within 12 months of stopping. Patchy, well-circumscribed bald spots need in-person evaluation for alopecia areata instead."
   },
   "eligibility": {
     "sectionTitle": "Hair Loss Telehealth Eligibility Checklist for {state}",
@@ -195,7 +196,7 @@
     "sectionTitle": "What Does Hair Loss Treatment Cost in {state}?",
     "subtitle": "Transparent options. Insurance is not required.",
     "visitPrice": "$79",
-    "priceSubtext": "Self pay option. Insurance is not required.",
+    "priceSubtext": "$79 flat visit · no insurance required · generic finasteride often $10–$15/month",
     "includes": [
       "MD evaluation and red-flag screening",
       "Assessment for androgenetic alopecia vs other causes of hair loss",
@@ -229,7 +230,7 @@
         "isTdmd": false
       }
     ],
-    "footnote": "Prescription costs at your pharmacy are separate and vary by medication and pharmacy. Generic finasteride is typically $10 to $15 per month.",
+    "footnote": "Total cost is transparent: the $79 visit plus generic finasteride (typically $10–$15 per month) or OTC minoxidil means most patients pay about $89–$94 in the first month all-in — no membership, with ongoing monthly medication cost separate.",
     "noHiddenFees": "No hidden fees. If medication is not clinically appropriate, you still receive a complete evaluation, guidance, and clear instructions on what level of care you need next."
   },
   "whatIsCondition": {
@@ -586,6 +587,14 @@
       {
         "question": "Can TeleDirectMD provide hair loss care in other states?",
         "answer": "Yes. TeleDirectMD offers adult evaluations via video visits across multiple states. You must be physically located in the state where you are requesting care at the time of the visit."
+      },
+      {
+        "question": "How much does hair loss treatment cost online per month without insurance in {state}?",
+        "answer": "The first visit is $79 flat with no insurance required, and ongoing generic finasteride typically costs $10 to $15 per month at the pharmacy — minoxidil is available over the counter for a similar modest monthly cost."
+      },
+      {
+        "question": "Can women get finasteride prescribed for hair loss online in {state}?",
+        "answer": "Finasteride is generally reserved for men due to pregnancy-related risks and limited evidence in women; the MD will discuss appropriate alternatives, such as topical minoxidil, for women experiencing hair thinning after reviewing your history."
       }
     ],
     "bottomCta": {

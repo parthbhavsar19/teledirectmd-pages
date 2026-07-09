@@ -47,7 +47,8 @@
       ],
       "note": "Adults 18+ only. TeleDirectMD is not an emergency service. Go to the ER or urgent care now for pelvic pain with fever (possible PID requiring IV antibiotics), severe testicular pain and swelling (possible epididymitis), or signs of sepsis. Moxifloxacin carries an FDA black box warning — screening for QT prolongation risk, tendon history, and pregnancy is performed before prescribing. TeleDirectMD does not prescribe controlled substances. TeleDirectMD does not perform STI testing — bring your test results to the visit."
     },
-    "icd10Display": "A49.3, N34.1, or N72 (final coding depends on clinical details and presentation)"
+    "icd10Display": "A49.3, N34.1, or N72 (final coding depends on clinical details and presentation)",
+    "quickAnswer": "Yes — Mycoplasma genitalium can be treated online in {state}. A board-certified MD reviews your test results by secure video and, per 2021 CDC guidelines, prescribes resistance-guided sequential therapy — doxycycline first, then azithromycin extended regimen or moxifloxacin depending on resistance testing — sent to your pharmacy same day. Visit price: $79 flat, no insurance required, confidential. A single dose of azithromycin alone is outdated and not used. Pelvic pain with fever, or severe testicular pain, needs in-person care."
   },
   "eligibility": {
     "sectionTitle": "Mycoplasma Genitalium Telehealth Eligibility Checklist for {state}",
@@ -197,7 +198,7 @@
     "sectionTitle": "What Does Mycoplasma Genitalium Treatment Cost in {state}?",
     "subtitle": "Transparent options. Insurance is not required.",
     "visitPrice": "$79",
-    "priceSubtext": "Self pay option. Insurance is not required.",
+    "priceSubtext": "$79 flat, confidential visit · no insurance required · doxycycline and azithromycin generics widely available",
     "includes": [
       "MD evaluation and red-flag screening (PID, epididymitis, moxifloxacin safety)",
       "Review of positive Mgen NAAT and resistance test results",
@@ -231,7 +232,7 @@
         "isTdmd": false
       }
     ],
-    "footnote": "Prescription costs at your pharmacy are separate and vary by medication and pharmacy. STI testing costs are separate. Moxifloxacin may have higher pharmacy costs than doxycycline — ask your pharmacist about generics.",
+    "footnote": "Total cost is transparent: the $79 visit plus generic doxycycline and the second-stage antibiotic (azithromycin or moxifloxacin, cost varies by pharmacy) means most patients pay a modest total beyond the visit — STI testing costs are separate and depend on your lab.",
     "noHiddenFees": "No hidden fees. If medication is not clinically appropriate, you still receive a complete evaluation, guidance, and clear instructions on what level of care you need next."
   },
   "whatIsCondition": {
@@ -597,6 +598,14 @@
       {
         "question": "Can Mycoplasma genitalium be cured?",
         "answer": "Yes — with appropriate sequential antibiotic therapy following CDC 2021 guidelines, Mgen can be successfully treated. The two-stage doxycycline plus moxifloxacin approach achieves cure rates above 90 percent when resistance testing is used to guide therapy. The key is completing the full course of both stages, ensuring partners are treated to prevent reinfection, and confirming eradication with a test of cure 21 days after completing all therapy."
+      },
+      {
+        "question": "How much does Mycoplasma genitalium treatment cost online without insurance in {state}?",
+        "answer": "The visit is $79 flat with no insurance required. Generic doxycycline is inexpensive, while the second-stage antibiotic (azithromycin or moxifloxacin) cost varies by pharmacy — ask about generic pricing to keep your total down."
+      },
+      {
+        "question": "Why can't I just take the same antibiotic I used for chlamydia to treat Mgen in {state}?",
+        "answer": "A single 1-gram dose of azithromycin, often used for chlamydia, is no longer recommended for Mycoplasma genitalium because resistance rates are high and this approach can actually select for resistant strains. CDC guidance instead recommends starting with doxycycline, then a resistance-guided second antibiotic."
       }
     ],
     "bottomCta": {

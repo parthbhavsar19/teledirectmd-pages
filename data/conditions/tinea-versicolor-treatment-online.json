@@ -47,7 +47,8 @@
       ],
       "note": "Adults 18+ only. TeleDirectMD is not an emergency service. Go to urgent care or a dermatologist for rapidly spreading rash with systemic symptoms, diagnostic uncertainty requiring biopsy or KOH scraping, patches unresponsive to multiple treatment courses, or immunocompromised patients with widespread skin involvement. TeleDirectMD does not prescribe controlled substances."
     },
-    "icd10Display": "B36.0 (final coding depends on clinical details)"
+    "icd10Display": "B36.0 (final coding depends on clinical details)",
+    "quickAnswer": "Yes — adults (18+) in {state} with tinea versicolor can be treated online. A board-certified MD reviews your skin discoloration pattern by secure video and prescribes an antifungal — ketoconazole or selenium sulfide shampoo for topical use, or oral itraconazole/fluconazole for extensive or recurrent cases — sent to your pharmacy same day. Visit price: $79 flat, no insurance required. Pigment changes can persist 2–4 months after successful treatment — this doesn't mean it failed. Raised, scaling-bordered patches need in-person evaluation for ringworm instead."
   },
   "eligibility": {
     "sectionTitle": "Tinea Versicolor Telehealth Eligibility Checklist for {state}",
@@ -197,7 +198,7 @@
     "sectionTitle": "What Does Tinea Versicolor Treatment Cost in {state}?",
     "subtitle": "Transparent options. Insurance is not required.",
     "visitPrice": "$79",
-    "priceSubtext": "Self pay option. Insurance is not required.",
+    "priceSubtext": "$79 flat visit · no insurance required · generic ketoconazole shampoo often $10–$25",
     "includes": [
       "MD evaluation and red-flag screening",
       "Photo-based assessment of patch distribution, color, and morphology",
@@ -232,7 +233,7 @@
         "isTdmd": false
       }
     ],
-    "footnote": "Prescription costs at your pharmacy are separate and vary by medication and pharmacy.",
+    "footnote": "Total cost is transparent: the $79 visit plus generic ketoconazole or selenium sulfide shampoo (typically $10–$25 with a pharmacy coupon), or oral antifungal for extensive cases, means most patients pay about $89–$104 all-in — no membership.",
     "noHiddenFees": "No hidden fees. If medication is not clinically appropriate, you still receive a complete evaluation, guidance, and clear instructions on what level of care you need next."
   },
   "whatIsCondition": {
@@ -600,6 +601,14 @@
       {
         "question": "Does {state} allow telemedicine for tinea versicolor treatment?",
         "answer": "Yes. {state} allows licensed professionals to provide telemedicine within their scope when appropriate and according to accepted standards of care. You must be physically located in {state} at the time of your visit."
+      },
+      {
+        "question": "How much does tinea versicolor treatment cost online without insurance in {state}?",
+        "answer": "The visit is $79 flat, no insurance required, and generic antifungal shampoo typically adds $10 to $25 at the pharmacy — most patients pay under $105 total, with oral antifungals costing somewhat more for extensive cases."
+      },
+      {
+        "question": "Why are my skin patches still discolored months after finishing treatment in {state}?",
+        "answer": "This is expected and doesn't mean treatment failed — the yeast disrupts melanin production, and it takes 2 to 4 months for your skin's normal pigment to return even after the infection is fully cleared. The MD can confirm the infection itself has resolved if you're unsure."
       }
     ],
     "bottomCta": {

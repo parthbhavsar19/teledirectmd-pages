@@ -47,7 +47,8 @@
       ],
       "note": "Adults 18+ only. TeleDirectMD is not an emergency service. Seek urgent in-person evaluation immediately for any pigmented lesion that is rapidly changing, has irregular borders, is raised or nodular, bleeds spontaneously, or has features that may suggest melanoma. TeleDirectMD does not prescribe controlled substances."
     },
-    "icd10Display": "L81.1 (final coding depends on clinical details)"
+    "icd10Display": "L81.1 (final coding depends on clinical details)",
+    "quickAnswer": "Yes — adults (18+) in {state} with melasma can be treated online. A board-certified MD reviews your pigmentation pattern by secure video and prescribes a combination approach — hydroquinone, tretinoin, azelaic acid, or triple combination cream — alongside mandatory broad-spectrum SPF 50+ sunscreen with iron oxide, sent to your pharmacy same day. Visit price: $79 flat, no insurance required. Improvement takes 8–24 weeks and recurrence is common without ongoing sun protection. A raised or nodular pigmented lesion needs in-person evaluation, since melasma is always flat."
   },
   "eligibility": {
     "sectionTitle": "Melasma Telehealth Eligibility Checklist for {state}",
@@ -186,7 +187,7 @@
     "sectionTitle": "What Does Melasma Treatment Cost in {state}?",
     "subtitle": "Transparent options. Insurance is not required.",
     "visitPrice": "$79",
-    "priceSubtext": "Self pay option. Insurance is not required.",
+    "priceSubtext": "$79 flat visit · no insurance required · combination creams vary by formulation",
     "includes": [
       "MD evaluation with visual assessment of hyperpigmentation pattern",
       "Trigger review including sun exposure, hormonal factors, and medication history",
@@ -221,7 +222,7 @@
         "isTdmd": false
       }
     ],
-    "footnote": "Prescription costs at your pharmacy are separate and vary by medication and pharmacy.",
+    "footnote": "Total cost is transparent: the $79 visit covers evaluation and a tailored topical combination; pharmacy cost varies by whether hydroquinone, tretinoin, or triple combination cream (Tri-Luma) is prescribed, so ask your pharmacist about generic pricing.",
     "noHiddenFees": "No hidden fees. If medication is not clinically appropriate, you still receive a complete evaluation, guidance, and clear instructions on what level of care you need next."
   },
   "whatIsCondition": {
@@ -580,6 +581,14 @@
       {
         "question": "Does sunscreen really matter that much for melasma?",
         "answer": "Yes — sunscreen is the single most important part of melasma management. UV and visible light exposure are the primary triggers for melasma, and without consistent daily photoprotection, topical treatments will have significantly limited efficacy and recurrence after treatment will be rapid. A broad-spectrum SPF 50+ sunscreen containing iron oxide (found in tinted formulations) is strongly recommended because iron oxide blocks both UV light and high-energy visible (blue) light, both of which can worsen melasma — particularly in Fitzpatrick skin types III through V."
+      },
+      {
+        "question": "How much does online melasma treatment cost without insurance in {state}?",
+        "answer": "The visit is $79 flat with no insurance required. Topical medication cost varies depending on whether a single agent like hydroquinone or a triple combination cream is prescribed, so ask your pharmacist about generic options."
+      },
+      {
+        "question": "Does birth control make melasma worse, and can telehealth help with that in {state}?",
+        "answer": "Yes — hormonal contraception is a known melasma trigger for many patients, and the MD can discuss this connection along with your treatment plan. Switching contraceptive methods, if relevant, would need a separate conversation about your birth control specifically."
       }
     ],
     "bottomCta": {

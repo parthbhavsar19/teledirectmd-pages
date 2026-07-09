@@ -47,7 +47,8 @@
       ],
       "note": "Adults 18+ only. TeleDirectMD is not an emergency service. Go to urgent care or the ER now for fever with an acutely swollen joint, first-episode joint swelling without prior gout diagnosis, inability to bear weight, severe systemic illness, or concern for joint infection. TeleDirectMD does not prescribe controlled substances."
     },
-    "icd10Display": "M10.9, M10.00, M10.071 (final coding depends on clinical details)"
+    "icd10Display": "M10.9, M10.00, M10.071 (final coding depends on clinical details)",
+    "quickAnswer": "Yes — adults (18+) in {state} with a diagnosed history of gout experiencing a flare can be treated online. A board-certified MD reviews your symptoms by secure video and, per ACR 2020 guidelines, prescribes anti-inflammatory therapy started as early as possible — colchicine, an NSAID like indomethacin, or a short prednisone course — sent to your pharmacy same day. Visit price: $79 flat, no insurance required. A first-ever episode of joint swelling, or fever with an acutely swollen joint, needs in-person evaluation to rule out joint infection."
   },
   "eligibility": {
     "sectionTitle": "Gout Telehealth Eligibility Checklist for {state}",
@@ -195,7 +196,7 @@
     "sectionTitle": "What Does Gout Treatment Cost in {state}?",
     "subtitle": "Transparent options. Insurance is not required.",
     "visitPrice": "$79",
-    "priceSubtext": "Self pay option. Insurance is not required.",
+    "priceSubtext": "$79 flat visit · no insurance required · generic colchicine/NSAIDs often $5–$20",
     "includes": [
       "MD evaluation and red-flag screening",
       "Assessment for recurrent gout flare vs other causes of acute joint pain",
@@ -230,7 +231,7 @@
         "isTdmd": false
       }
     ],
-    "footnote": "Prescription costs at your pharmacy are separate and vary by medication and pharmacy.",
+    "footnote": "Total cost is transparent: the $79 visit plus generic colchicine, an NSAID, or a short prednisone course (typically $5–$20 with a pharmacy coupon) means most patients pay about $84–$99 all-in — no membership, with treatment most effective when started within 24 hours of flare onset.",
     "noHiddenFees": "No hidden fees. If medication is not clinically appropriate, you still receive a complete evaluation, guidance, and clear instructions on what level of care you need next."
   },
   "whatIsCondition": {
@@ -586,6 +587,14 @@
       {
         "question": "What if my gout flare does not improve after starting treatment?",
         "answer": "If symptoms are not improving within 48 to 72 hours, you should be reassessed. You may need a change in therapy, combination treatment, or reconsideration of the diagnosis. New fever at any time requires urgent in-person evaluation to rule out joint infection. If you cannot tolerate oral medications, in-person care with injectable options may be needed."
+      },
+      {
+        "question": "How fast can I get treatment for a gout flare online in {state}?",
+        "answer": "A same-day video visit is ideal, since anti-inflammatory treatment works best when started within 24 hours of a flare beginning. The MD can prescribe colchicine, an NSAID, or a corticosteroid based on your kidney function and prior response."
+      },
+      {
+        "question": "Can TeleDirectMD start me on allopurinol during a gout flare in {state}?",
+        "answer": "Starting urate-lowering therapy like allopurinol during an active flare isn't the typical first step — it's usually started after the flare resolves, since starting it acutely can sometimes prolong the attack. The MD can discuss long-term prevention once your current flare is under control."
       }
     ],
     "bottomCta": {

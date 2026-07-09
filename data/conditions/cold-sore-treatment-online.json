@@ -47,7 +47,8 @@
       ],
       "note": "Adults 18+ only. TeleDirectMD is not an emergency service. Go to the ER now for widespread blistering on eczematous skin (eczema herpeticum), eye pain or vision changes with periocular lesions, high fever with widespread vesicles in immunocompromised patients, or signs of herpes encephalitis such as confusion, seizure, or altered mental status. TeleDirectMD does not prescribe controlled substances."
     },
-    "icd10Display": "B00.1 or B00.9 (final coding depends on clinical details)"
+    "icd10Display": "B00.1 or B00.9 (final coding depends on clinical details)",
+    "quickAnswer": "Yes — adults (18+) in {state} can get cold sore treatment online, and speed matters most. A board-certified MD reviews your outbreak stage by secure video and prescribes the FDA-approved episodic regimen — valacyclovir 2g every 12 hours for 1 day — or, for 6+ outbreaks yearly, daily suppressive valacyclovir/acyclovir, sent to your pharmacy same day. Visit price: $79 flat, no insurance required. Widespread blistering with eczema history or eye involvement need in-person evaluation."
   },
   "eligibility": {
     "sectionTitle": "Cold Sore Telehealth Eligibility Checklist for {state}",
@@ -196,7 +197,7 @@
     "sectionTitle": "What Does Cold Sore Treatment Cost in {state}?",
     "subtitle": "Transparent options. Insurance is not required.",
     "visitPrice": "$79",
-    "priceSubtext": "Self pay option. Insurance is not required.",
+    "priceSubtext": "$79 flat visit · no insurance required · generic valacyclovir often $10–$25",
     "includes": [
       "MD evaluation and red-flag screening",
       "Assessment of outbreak stage and treatment window",
@@ -230,7 +231,7 @@
         "isTdmd": false
       }
     ],
-    "footnote": "Prescription costs at your pharmacy are separate and vary by medication and pharmacy.",
+    "footnote": "Total cost is transparent: the $79 visit plus generic valacyclovir (roughly $10–$25 for the 1-day episodic course via a pharmacy coupon) means most patients pay about $89–$104 all-in — no membership, and treatment is fastest when started at the very first tingle.",
     "noHiddenFees": "No hidden fees. If medication is not clinically appropriate, you still receive a complete evaluation, guidance, and clear instructions on what level of care you need next."
   },
   "whatIsCondition": {
@@ -584,6 +585,14 @@
       {
         "question": "Is a cold sore the same as genital herpes?",
         "answer": "No, though they are related. Cold sores are primarily caused by HSV-1 and typically affect the lip and perioral area. Genital herpes is primarily caused by HSV-2 and affects the genital area. However, cross-infection can occur: HSV-1 can cause genital herpes through oral-genital contact, and HSV-2 can occasionally cause oral lesions. TeleDirectMD evaluates cold sores and genital herpes as separate conditions."
+      },
+      {
+        "question": "How fast can I get cold sore medication online before my outbreak gets worse in {state}?",
+        "answer": "A same-day video visit is ideal, since episodic valacyclovir only works well when started at the first prodromal tingle or bump — before the blister fully forms. Having a prescription ready in advance, if you get frequent outbreaks, can help you treat the very next one within minutes of symptom onset."
+      },
+      {
+        "question": "Can TeleDirectMD prescribe daily suppressive therapy so I stop getting cold sores as often in {state}?",
+        "answer": "Yes — for patients with 6 or more outbreaks per year, the MD can discuss daily suppressive valacyclovir or acyclovir, which reduces outbreak frequency by roughly 70 to 80 percent. This is determined after reviewing your outbreak history and overall health."
       }
     ],
     "bottomCta": {

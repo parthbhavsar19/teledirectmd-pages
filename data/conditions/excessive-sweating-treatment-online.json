@@ -47,7 +47,8 @@
       ],
       "note": "Adults 18+ only. TeleDirectMD is not an emergency service. Go to urgent care or the ER now for night sweats with unexplained weight loss, new-onset generalized sweating with fever, severe chest pain or shortness of breath with sweating, or signs of thyroid storm. TeleDirectMD does not prescribe controlled substances."
     },
-    "icd10Display": "R61, L74.510 (final coding depends on clinical details)"
+    "icd10Display": "R61, L74.510 (final coding depends on clinical details)",
+    "quickAnswer": "Yes — adults (18+) in {state} with primary focal hyperhidrosis can be treated online. A board-certified MD reviews your sweating pattern and rules out secondary causes by secure video, then follows the stepwise AAFP/International Hyperhidrosis Society approach — starting with topical aluminum chloride or glycopyrrolate cloths, then oral glycopyrrolate — sent to your pharmacy same day. Visit price: $79 flat, no insurance required. Night sweats with unexplained weight loss or fever need in-person evaluation for secondary causes."
   },
   "eligibility": {
     "sectionTitle": "Excessive Sweating Telehealth Eligibility Checklist for {state}",
@@ -198,7 +199,7 @@
     "sectionTitle": "What Does Excessive Sweating Treatment Cost in {state}?",
     "subtitle": "Transparent options. Insurance is not required.",
     "visitPrice": "$79",
-    "priceSubtext": "Self pay option. Insurance is not required.",
+    "priceSubtext": "$79 flat visit · no insurance required · generic glycopyrrolate often $10–$30",
     "includes": [
       "MD evaluation and red-flag screening for secondary causes",
       "Hyperhidrosis severity assessment using HDSS",
@@ -233,7 +234,7 @@
         "isTdmd": false
       }
     ],
-    "footnote": "Prescription costs at your pharmacy are separate and vary by medication and pharmacy.",
+    "footnote": "Total cost is transparent: the $79 visit plus generic oral or topical glycopyrrolate (roughly $10–$30 with a pharmacy coupon) means most patients pay about $89–$109 all-in — no membership, with Botox or iontophoresis reserved for cases not controlled by medication.",
     "noHiddenFees": "No hidden fees. If medication is not clinically appropriate, you still receive a complete evaluation, guidance, and clear instructions on what level of care you need next."
   },
   "whatIsCondition": {
@@ -592,6 +593,14 @@
       {
         "question": "What is the Hyperhidrosis Disease Severity Scale?",
         "answer": "The HDSS is a simple 4-point scale used to assess how much excessive sweating interferes with daily activities. A score of 1 means sweating is never noticeable and never interferes with daily activities, while a score of 4 means sweating is intolerable and always interferes. Scores of 3 or 4 generally warrant active medical treatment and may qualify for procedural interventions."
+      },
+      {
+        "question": "How much does online treatment for excessive sweating cost without insurance in {state}?",
+        "answer": "The visit is $79 flat, no insurance required, and generic glycopyrrolate typically adds $10 to $30 at the pharmacy, so most patients pay under $110 total to start first-line medical therapy."
+      },
+      {
+        "question": "Can TeleDirectMD prescribe Botox for excessive sweating in {state}?",
+        "answer": "No — Botox for hyperhidrosis is an in-office injectable procedure and isn't something TeleDirectMD prescribes or administers via telehealth. The MD can start you on topical or oral medication and refer you for Botox, iontophoresis, or miraDry if those steps aren't sufficient."
       }
     ],
     "bottomCta": {

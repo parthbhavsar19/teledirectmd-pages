@@ -47,7 +47,8 @@
       ],
       "note": "Adults 18+ only. TeleDirectMD is not an emergency service. Go to urgent care or the ER now if you have severe difficulty or pain swallowing, inability to eat or drink, severe throat pain, rapidly worsening symptoms, signs of severe illness, or known HIV/AIDS or cancer with recurrent thrush. TeleDirectMD does not prescribe controlled substances."
     },
-    "icd10Display": "B37.0 — Candidal stomatitis (oral thrush) (final coding depends on clinical details)"
+    "icd10Display": "B37.0 — Candidal stomatitis (oral thrush) (final coding depends on clinical details)",
+    "quickAnswer": "Yes — adults (18+) in {state} with oral thrush can be treated online. A board-certified MD reviews your symptoms and underlying risk factors by secure video and, per IDSA 2016 guidelines, prescribes topical antifungals like clotrimazole troches for mild disease or oral fluconazole for moderate to severe cases, sent to your pharmacy same day. Visit price: $79 flat, no insurance required. Addressing the cause — inhaler technique, dentures, blood sugar — helps prevent recurrence. Pain or difficulty swallowing needs in-person evaluation for possible esophageal candidiasis."
   },
   "eligibility": {
     "sectionTitle": "Oral Thrush Telehealth Eligibility Checklist for {state}",
@@ -186,7 +187,7 @@
     "sectionTitle": "What Does Oral Thrush Treatment Cost in {state}?",
     "subtitle": "Transparent options. Insurance is not required.",
     "visitPrice": "$79",
-    "priceSubtext": "Self pay option. Insurance is not required.",
+    "priceSubtext": "$79 flat visit · no insurance required · generic fluconazole/nystatin often $8–$20",
     "includes": [
       "MD evaluation and red-flag screening for esophageal involvement and severe immunosuppression",
       "Visual oral cavity assessment by video and identification of likely cause",
@@ -221,7 +222,7 @@
         "isTdmd": false
       }
     ],
-    "footnote": "Prescription costs are separate and vary by medication and pharmacy. Fluconazole and nystatin suspension are commonly available as affordable generics.",
+    "footnote": "Total cost is transparent: the $79 visit plus generic fluconazole or nystatin suspension (typically $8–$20 with a pharmacy coupon) means most patients pay about $87–$99 all-in — no membership, and addressing the underlying cause helps prevent recurrence.",
     "noHiddenFees": "No hidden fees. If medication is not clinically appropriate or a drug interaction is identified, you still receive a complete evaluation, guidance, and clear instructions on what level of care you need next."
   },
   "whatIsCondition": {
@@ -587,6 +588,14 @@
       {
         "question": "What if my oral thrush does not improve after treatment?",
         "answer": "If symptoms are not improving after completing the full antifungal course, you should be reassessed in person. Possible explanations include a resistant Candida species (more common in patients who have received multiple fluconazole courses or who are severely immunocompromised), an alternative diagnosis such as oral leukoplakia or lichen planus, or a persistent underlying trigger such as poorly controlled diabetes or ongoing inhaler exposure without mouth rinsing. Cultures and in-person evaluation are recommended."
+      },
+      {
+        "question": "How much does online oral thrush treatment cost without insurance in {state}?",
+        "answer": "The visit is $79 flat, no insurance required, and generic fluconazole or nystatin suspension typically costs $8 to $20 at the pharmacy, so most patients pay under $100 total."
+      },
+      {
+        "question": "Why do I keep getting oral thrush after using my asthma inhaler in {state}?",
+        "answer": "Inhaled corticosteroids can deposit in the mouth and allow yeast overgrowth if you don't rinse afterward, which is a common cause of recurrent thrush. The MD can review your inhaler technique and discuss rinsing habits alongside prescribing antifungal treatment."
       }
     ],
     "bottomCta": {

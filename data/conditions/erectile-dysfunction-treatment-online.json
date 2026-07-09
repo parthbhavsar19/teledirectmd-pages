@@ -47,7 +47,8 @@
       ],
       "note": "Adults 18+ only. TeleDirectMD is not an emergency service. Go to the ER now for chest pain, priapism (erection lasting more than 4 hours), sudden vision loss, or sudden hearing loss after taking ED medication. TeleDirectMD does not prescribe controlled substances."
     },
-    "icd10Display": "N52.9 (final coding depends on clinical details)"
+    "icd10Display": "N52.9 (final coding depends on clinical details)",
+    "quickAnswer": "Yes — adults (18+) in {state} can get ED treatment online. A board-certified MD reviews your cardiovascular history and current medications by secure video and, per the AUA 2018 Guideline's strong recommendation, prescribes a PDE5 inhibitor — sildenafil, tadalafil, vardenafil, or avanafil — sent to your pharmacy same day. Visit price: $79 flat, no insurance required, discreet. Sexual stimulation is still required. Any use of nitrates (nitroglycerin, isosorbide) is an absolute contraindication and needs in-person care instead."
   },
   "eligibility": {
     "sectionTitle": "Erectile Dysfunction Telehealth Eligibility Checklist for {state}",
@@ -194,7 +195,7 @@
     "sectionTitle": "What Does Erectile Dysfunction Treatment Cost in {state}?",
     "subtitle": "Transparent options. Insurance is not required.",
     "visitPrice": "$79",
-    "priceSubtext": "Self pay option. Insurance is not required.",
+    "priceSubtext": "$79 flat, discreet visit · no insurance required · generic sildenafil/tadalafil often $2–$20",
     "includes": [
       "MD evaluation and cardiovascular safety screening",
       "Nitrate and medication interaction check",
@@ -228,7 +229,7 @@
         "isTdmd": false
       }
     ],
-    "footnote": "Prescription costs at your pharmacy are separate and vary by medication and pharmacy. Generic sildenafil and tadalafil are widely available at reduced cost.",
+    "footnote": "Total cost is transparent: the $79 visit plus generic sildenafil or tadalafil (often $2–$20 per dose with a pharmacy coupon) means most patients pay about $81–$99 all-in — no membership, no clinic waiting room.",
     "noHiddenFees": "No hidden fees. If medication is not clinically appropriate, you still receive a complete evaluation, guidance, and clear instructions on what level of care you need next."
   },
   "whatIsCondition": {
@@ -602,6 +603,14 @@
       {
         "question": "Can TeleDirectMD prescribe daily tadalafil for ED and BPH together?",
         "answer": "Yes. Daily tadalafil 5 mg is FDA-approved for both erectile dysfunction and lower urinary tract symptoms from benign prostatic hyperplasia (BPH). If you have both conditions and meet the safety criteria, this may be discussed during your video visit as a single medication option for both."
+      },
+      {
+        "question": "How much does ED treatment cost online without insurance in {state}?",
+        "answer": "The visit is $79 flat with no insurance required, and generic sildenafil or tadalafil often costs just $2 to $20 per dose with a pharmacy coupon, keeping most visits under $100 total."
+      },
+      {
+        "question": "Can TeleDirectMD prescribe daily low-dose tadalafil if I have both ED and BPH symptoms in {state}?",
+        "answer": "Yes — daily tadalafil 5 mg is FDA-approved for ED with concurrent benign prostatic hyperplasia (BPH) symptoms, and the MD can discuss whether this combination approach fits your history and current medications, including any alpha-blocker use."
       }
     ],
     "bottomCta": {

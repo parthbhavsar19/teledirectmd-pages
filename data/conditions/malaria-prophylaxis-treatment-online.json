@@ -48,7 +48,8 @@
       ],
       "note": "Adults 18+ only. TeleDirectMD prescribes malaria PREVENTION (prophylaxis) only. Active malaria infection with fever, chills, and rigors after returning from an endemic region is a medical emergency — go to an emergency room immediately and report your travel history. TeleDirectMD does not prescribe controlled substances. No vaccines are administered via telehealth."
     },
-    "icd10Display": "Z29.9 (encounter for prophylactic measures, unspecified — prophylaxis context; active malaria B50–B54 is out of telehealth scope)"
+    "icd10Display": "Z29.9 (encounter for prophylactic measures, unspecified — prophylaxis context; active malaria B50–B54 is out of telehealth scope)",
+    "quickAnswer": "Yes — adults (18+) in {state} planning travel to a malaria-endemic region can get prophylaxis prescribed online. A board-certified MD reviews your destination, itinerary, and health history by secure video and, per CDC guidance, prescribes atovaquone-proguanil (Malarone) or doxycycline as front-line options, with mefloquine considered case-by-case, sent to your pharmacy same day. Visit price: $79 flat, no insurance required. Primaquine and tafenoquine require in-person G6PD testing and aren't available via this telehealth visit."
   },
   "eligibility": {
     "sectionTitle": "Malaria Prophylaxis Telehealth Eligibility Checklist for {state}",
@@ -212,7 +213,7 @@
     "sectionTitle": "What Does Malaria Prophylaxis Cost in {state}?",
     "subtitle": "Transparent options. Insurance is not required.",
     "visitPrice": "$79",
-    "priceSubtext": "Self pay option. Insurance is not required.",
+    "priceSubtext": "$79 flat visit · no insurance required · doxycycline course often under $30, Malarone $40–$120+",
     "includes": [
       "MD evaluation of travel destination and CDC resistance profile for your specific region",
       "Contraindication screening (pregnancy, renal function, psychiatric history for mefloquine)",
@@ -247,7 +248,7 @@
         "isTdmd": false
       }
     ],
-    "footnote": "Prescription costs at your pharmacy are separate. Doxycycline 100 mg is widely available as an inexpensive generic — a 6-week course (for a 4-week trip) typically costs under $30 at most pharmacies with GoodRx (pricing verified 2026-06-13; costs vary). Atovaquone-proguanil (generic Malarone) for a 2-week trip typically ranges from $40 to $120+ for generic depending on pharmacy and coupon availability (GoodRx, 2026-06-13). Brand Malarone is significantly more expensive. Medication costs vary by pharmacy, quantity, and coupon availability.",
+    "footnote": "Total cost is transparent: the $79 visit plus a destination-driven regimen — doxycycline (typically under $30 for a course, GoodRx verified 2026-06-13) or generic atovaquone-proguanil (roughly $40–$120+ depending on trip length and pharmacy) — means total cost depends heavily on which drug fits your trip and health history.",
     "noHiddenFees": "No hidden fees. If malaria prophylaxis is not clinically appropriate for your specific travel scenario, or if you require in-person care (G6PD testing, vaccines, pregnancy evaluation), you still receive a complete evaluation and clear guidance on the most appropriate next steps."
   },
   "whatIsCondition": {
@@ -620,6 +621,14 @@
       {
         "question": "Can I take Malarone or doxycycline if I have a G6PD deficiency?",
         "answer": "Yes. Atovaquone-proguanil (Malarone) and doxycycline are both safe for use in patients with G6PD deficiency — neither agent causes oxidative hemolysis. The G6PD testing requirement applies specifically to primaquine and tafenoquine, both of which are hemolytic in G6PD-deficient individuals. If you have G6PD deficiency (or have not been tested), you can still use Malarone or doxycycline as your malaria chemoprophylaxis. The implication is that primaquine radical cure therapy for P. vivax and P. ovale hypnozoites cannot be used — this does not affect prophylaxis effectiveness against P. falciparum for most Africa and Southeast Asia itineraries."
+      },
+      {
+        "question": "How soon before my trip should I book a malaria prophylaxis visit in {state}?",
+        "answer": "Book at least a week or two before departure if possible, since some regimens like mefloquine need to start 2–3 weeks in advance, while doxycycline and Malarone can start closer to your trip. Booking earlier also gives time to fill the prescription and address any side effects before you travel."
+      },
+      {
+        "question": "Which malaria medication is right for my specific destination in {state}?",
+        "answer": "The MD selects your regimen based on the destination country's malaria species and resistance profile, your trip length, and your medical history — CDC guidance drives this destination-specific decision. Doxycycline and atovaquone-proguanil are the front-line options TeleDirectMD prescribes for most itineraries."
       }
     ],
     "bottomCta": {

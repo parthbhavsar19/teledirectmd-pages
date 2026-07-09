@@ -47,7 +47,8 @@
       ],
       "note": "Adults 18+ only. TeleDirectMD is not an emergency service. Go to the ER or urgent care now if you have active symptoms of an STI (ulcers, discharge, pelvic pain with fever, rash) — these require treatment, not prophylaxis. DoxyPEP is not for active infections. TeleDirectMD does not prescribe controlled substances."
     },
-    "icd10Display": "Z29.8, Z20.2 (final coding depends on clinical details)"
+    "icd10Display": "Z29.8, Z20.2 (final coding depends on clinical details)",
+    "quickAnswer": "Yes — adults (18+) in {state} eligible for doxy-PEP can get a standing prescription online. A board-certified MD reviews your sexual health history by secure video and, per 2024 CDC guidance, prescribes doxycycline 200mg (two 100mg tablets) as a PRN dose to self-administer within 72 hours of sex — ideally within 24 hours — as part of a broader prevention plan including regular STI/HIV testing. Visit price: $79 flat, no insurance required. Active STI symptoms need testing and treatment, not a preventive prescription."
   },
   "eligibility": {
     "sectionTitle": "DoxyPEP Telehealth Eligibility Checklist for {state}",
@@ -196,7 +197,7 @@
     "sectionTitle": "What Does a DoxyPEP Prescription Visit Cost in {state}?",
     "subtitle": "Transparent options. Insurance is not required.",
     "visitPrice": "$79",
-    "priceSubtext": "Self pay option. Insurance is not required.",
+    "priceSubtext": "$79 flat, confidential visit · no insurance required · generic doxycycline widely available at low cost",
     "includes": [
       "MD risk assessment and eligibility screening for doxy-PEP",
       "CDC-recommended doxycycline prescription when clinically appropriate",
@@ -230,7 +231,7 @@
         "isTdmd": false
       }
     ],
-    "footnote": "Prescription costs at your pharmacy are separate and vary by medication and pharmacy. Doxycycline is widely available as a low-cost generic. STI testing costs are separate and depend on your lab or clinic.",
+    "footnote": "Total cost is transparent: the $79 visit plus a supply of low-cost generic doxycycline (widely available and inexpensive at most pharmacies) means the ongoing cost of doxy-PEP stays modest — discreet, no membership, prescription sent to your pharmacy of choice.",
     "noHiddenFees": "No hidden fees. If doxy-PEP is not clinically appropriate for your situation, you still receive a complete evaluation, guidance on STI prevention alternatives, and clear instructions on the right level of care for you."
   },
   "whatIsCondition": {
@@ -586,6 +587,14 @@
       {
         "question": "What if I forget to take DoxyPEP within 72 hours?",
         "answer": "If more than 72 hours have passed since condomless sex, doxy-PEP is not recommended for that exposure — the evidence is based on dosing within 72 hours, ideally within 24 hours. You cannot retroactively take doxy-PEP for a past exposure that is more than 72 hours old. If you are concerned about STI exposure, you should get STI testing at 2 to 4 weeks after exposure (or per your provider's recommendation) and return to taking doxy-PEP within 72 hours of future condomless sex encounters."
+      },
+      {
+        "question": "How much does a DoxyPEP prescription cost without insurance in {state}?",
+        "answer": "The visit is $79 flat with no insurance required, and generic doxycycline is one of the least expensive antibiotics available, keeping ongoing medication costs low since it's taken PRN rather than daily."
+      },
+      {
+        "question": "Can I get DoxyPEP the same day I request it in {state}?",
+        "answer": "Often yes — since doxy-PEP is a standing, as-needed prescription rather than an urgent treatment, a same-day video visit is typically enough time for the MD to review your eligibility and sexual health history and send the prescription to your pharmacy."
       }
     ],
     "bottomCta": {

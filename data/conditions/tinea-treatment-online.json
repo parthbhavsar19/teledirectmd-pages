@@ -47,7 +47,8 @@
       ],
       "note": "Adults 18+ only. TeleDirectMD is not an emergency service. Go to urgent care or the ER now for rapidly spreading skin infection with fever, signs of cellulitis or abscess, severe allergic reaction, or worsening rash with systemic symptoms. TeleDirectMD does not prescribe controlled substances."
     },
-    "icd10Display": "B35.4, B35.6, B35.3 (final coding depends on clinical details)"
+    "icd10Display": "B35.4, B35.6, B35.3 (final coding depends on clinical details)",
+    "quickAnswer": "Yes — adults (18+) in {state} with a suspected fungal skin infection (ringworm, jock itch, athlete's foot) can be treated online. A board-certified MD reviews your rash photos by secure video and, per AAFP/CDC guidance, prescribes a topical antifungal like terbinafine or clotrimazole for a 2-week trial, or oral terbinafine for extensive/refractory cases, sent to your pharmacy same day. Visit price: $79 flat, no insurance required. Combination antifungal-steroid products are avoided. Scalp scaling with hair loss, or thickened nails, needs in-person evaluation."
   },
   "eligibility": {
     "sectionTitle": "Skin Fungus Telehealth Eligibility Checklist for {state}",
@@ -198,7 +199,7 @@
     "sectionTitle": "What Does Skin Fungus Treatment Cost in {state}?",
     "subtitle": "Transparent options. Insurance is not required.",
     "visitPrice": "$79",
-    "priceSubtext": "Self pay option. Insurance is not required.",
+    "priceSubtext": "$79 flat visit · no insurance required · generic topical antifungals often $8–$20",
     "includes": [
       "MD evaluation and red-flag screening",
       "Photo-based assessment of rash morphology and distribution",
@@ -233,7 +234,7 @@
         "isTdmd": false
       }
     ],
-    "footnote": "Prescription costs at your pharmacy are separate and vary by medication and pharmacy.",
+    "footnote": "Total cost is transparent: the $79 visit plus a generic topical antifungal like terbinafine or clotrimazole (typically $8–$20 with a pharmacy coupon) means most patients pay about $87–$99 all-in — no membership, with oral therapy reserved for extensive or resistant cases.",
     "noHiddenFees": "No hidden fees. If medication is not clinically appropriate, you still receive a complete evaluation, guidance, and clear instructions on what level of care you need next."
   },
   "whatIsCondition": {
@@ -607,6 +608,14 @@
       {
         "question": "What if my rash does not improve after using antifungal cream?",
         "answer": "If your rash is not improving after 2 weeks of consistent topical antifungal use, several possibilities should be considered: the rash may not be a fungal infection (eczema, psoriasis, and contact dermatitis can mimic tinea), you may have a treatment-resistant strain, or the infection may involve deeper skin structures requiring oral antifungal therapy. Seek in-person evaluation for KOH scraping to confirm the diagnosis and guide further treatment."
+      },
+      {
+        "question": "How much does online skin fungus (ringworm) treatment cost without insurance in {state}?",
+        "answer": "The visit is $79 flat, no insurance required, and a generic topical antifungal like terbinafine or clotrimazole typically adds $8 to $20 at the pharmacy — most patients pay under $100 total."
+      },
+      {
+        "question": "Why shouldn't I use a combination antifungal-steroid cream for my rash in {state}?",
+        "answer": "Combination products can suppress the visible inflammation while allowing the fungal infection to actually spread underneath, and can also thin the skin with prolonged use. The MD will typically prescribe a plain topical antifungal instead, per antifungal stewardship guidance."
       }
     ],
     "bottomCta": {

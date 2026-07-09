@@ -47,7 +47,8 @@
       ],
       "note": "Adults 18+ only. TeleDirectMD is not an emergency service. Go to urgent care or the ER now for grouped vesicles with punched-out erosions and fever (possible eczema herpeticum), widespread honey-crusted lesions suggesting bacterial superinfection, severe rash covering most of the body, signs of severe illness, or rapidly worsening symptoms. TeleDirectMD does not prescribe controlled substances."
     },
-    "icd10Display": "L30.9, L20.9, L20.89 (final coding depends on clinical details)"
+    "icd10Display": "L30.9, L20.9, L20.89 (final coding depends on clinical details)",
+    "quickAnswer": "Yes — adults (18+) in {state} with mild to moderate eczema can be treated online. A board-certified MD reviews your rash photos and flare history by secure video and, following AAAAI/AAD 2023 guidance, prescribes a topical corticosteroid like hydrocortisone or triamcinolone, or a steroid-sparing option such as tacrolimus, sent to your pharmacy same day. Visit price: $79 flat, no insurance required. Consistent moisturizing is foundational. Grouped vesicles with fever (eczema herpeticum) is a medical emergency requiring immediate in-person care."
   },
   "eligibility": {
     "sectionTitle": "Eczema Telehealth Eligibility Checklist for {state}",
@@ -196,7 +197,7 @@
     "sectionTitle": "What Does Eczema Treatment Cost in {state}?",
     "subtitle": "Transparent options. Insurance is not required.",
     "visitPrice": "$79",
-    "priceSubtext": "Self pay option. Insurance is not required.",
+    "priceSubtext": "$79 flat visit · no insurance required · generic topical steroids often $5–$15",
     "includes": [
       "MD evaluation and red-flag screening",
       "Photo-based assessment for eczema vs conditions requiring in-person care",
@@ -231,7 +232,7 @@
         "isTdmd": false
       }
     ],
-    "footnote": "Prescription costs at your pharmacy are separate and vary by medication and pharmacy.",
+    "footnote": "Total cost is transparent: the $79 visit plus a generic topical corticosteroid (typically $5–$15 with a pharmacy coupon) means most patients pay about $84–$94 all-in — no membership, and your treatment plan is tailored to flare severity and location.",
     "noHiddenFees": "No hidden fees. If medication is not clinically appropriate, you still receive a complete evaluation, guidance, and clear instructions on what level of care you need next."
   },
   "whatIsCondition": {
@@ -575,6 +576,14 @@
       {
         "question": "Can I use my insurance for a TeleDirectMD visit?",
         "answer": "Insurance is not required. If your plan is eligible, you may be able to use insurance. A self pay option is also available."
+      },
+      {
+        "question": "Is it safe to use topical steroids for eczema long-term, and can telehealth monitor that in {state}?",
+        "answer": "Topical steroids are safe when used as directed for flares, and the MD tailors potency and duration to minimize side effects like skin thinning. TeleDirectMD can monitor your response at follow-up visits and adjust the plan, including moving to steroid-sparing options for sensitive areas or long-term use."
+      },
+      {
+        "question": "How do I know if my eczema flare is actually eczema herpeticum and needs emergency care in {state}?",
+        "answer": "Eczema herpeticum typically presents as grouped, punched-out blisters or erosions along with fever, and it's a medical emergency requiring immediate in-person evaluation, not telehealth. If you have this pattern, seek emergency care right away rather than waiting for a video visit."
       }
     ],
     "bottomCta": {

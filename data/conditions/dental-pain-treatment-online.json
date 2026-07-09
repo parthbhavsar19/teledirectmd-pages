@@ -47,7 +47,8 @@
       ],
       "note": "Adults 18+ only. TeleDirectMD is not an emergency service. Go to the ER now for facial swelling with fever, difficulty breathing or swallowing, inability to open your mouth, spreading facial or neck swelling, or uncontrolled bleeding. TeleDirectMD does not prescribe controlled substances including opioid pain medications."
     },
-    "icd10Display": "K08.89, K04.0, K04.7, K05.20 (final coding depends on clinical details)"
+    "icd10Display": "K08.89, K04.0, K04.7, K05.20 (final coding depends on clinical details)",
+    "quickAnswer": "Yes — adults (18+) in {state} with acute dental pain can get interim relief online while arranging dental care. A board-certified MD reviews your symptoms by secure video and, per 2019 ADA guidance, recommends the ibuprofen-plus-acetaminophen combination as first-line, adding amoxicillin or penicillin VK only if systemic infection signs are present. Visit price: $79 flat, no insurance required. Facial swelling with fever, trouble breathing/swallowing, or inability to open your mouth needs ER care immediately."
   },
   "eligibility": {
     "sectionTitle": "Dental Pain Telehealth Eligibility Checklist for {state}",
@@ -195,7 +196,7 @@
     "sectionTitle": "What Does Online Dental Pain Treatment Cost in {state}?",
     "subtitle": "Transparent options. Insurance is not required.",
     "visitPrice": "$79",
-    "priceSubtext": "Self pay option. Insurance is not required.",
+    "priceSubtext": "$79 flat visit · no insurance required · generic amoxicillin often $4–$15 if needed",
     "includes": [
       "MD evaluation and red-flag screening for serious dental infections",
       "Evidence-based pain management guidance per ADA recommendations",
@@ -229,7 +230,7 @@
         "isTdmd": false
       }
     ],
-    "footnote": "Prescription costs at your pharmacy are separate and vary by medication and pharmacy. Definitive dental treatment costs are separate.",
+    "footnote": "Total cost is transparent: the $79 visit plus, if antibiotics are indicated, generic amoxicillin (typically $4–$15) means most patients pay about $83–$94 all-in for interim relief — but definitive dental treatment (fillings, extractions, root canals) still requires a dentist and is billed separately.",
     "noHiddenFees": "No hidden fees. If medication is not clinically appropriate, you still receive a complete evaluation, guidance, and clear instructions on what level of care you need next."
   },
   "whatIsCondition": {
@@ -596,6 +597,14 @@
       {
         "question": "What if my dental pain gets worse after the telehealth visit?",
         "answer": "If your pain worsens significantly despite following the recommended pain management plan, or if you develop new symptoms such as facial swelling, fever, difficulty breathing or swallowing, or spreading redness, seek urgent in-person care or go to the ER. Do not wait if you have signs of a worsening infection."
+      },
+      {
+        "question": "Can telehealth actually help with a toothache, or do I just need a dentist in {state}?",
+        "answer": "Telehealth is best for interim pain control and determining whether you need an antibiotic while you arrange a dental appointment — it can't fix the underlying dental problem like a cavity or abscess. The MD provides bridge care, but you'll still need to see a dentist for definitive treatment."
+      },
+      {
+        "question": "Will TeleDirectMD prescribe opioid pain medication for severe dental pain in {state}?",
+        "answer": "No — TeleDirectMD does not prescribe opioid pain medication for dental pain. Per ADA guidance, the ibuprofen-plus-acetaminophen combination is actually the most effective first-line option for acute dental pain, and this combination is what the MD will typically recommend."
       }
     ],
     "bottomCta": {

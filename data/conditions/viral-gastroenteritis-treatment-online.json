@@ -47,7 +47,8 @@
       ],
       "note": "Adults 18+ only. TeleDirectMD is not an emergency service. Go to the ER now if you have severe dehydration (unable to keep any fluids down for 12+ hours, dizziness on standing, no urine output), bloody diarrhea, high fever above 102°F, severe abdominal pain, or signs of serious illness. TeleDirectMD does not prescribe controlled substances."
     },
-    "icd10Display": "A08.4, A08.1, A08.0 (final coding depends on clinical details)"
+    "icd10Display": "A08.4, A08.1, A08.0 (final coding depends on clinical details)",
+    "quickAnswer": "Yes — adults (18+) in {state} with viral gastroenteritis (stomach flu) can be evaluated online. A board-certified MD reviews your symptoms and hydration status by secure video and, since antibiotics aren't appropriate for viral causes, recommends oral rehydration solution as the priority, plus symptom relief like ondansetron for nausea or loperamide for diarrhea, sent to your pharmacy same day if prescription options are needed. Visit price: $79 flat, no insurance required. Bloody or black tarry stools, or fever above 102°F with severe abdominal pain, needs ER evaluation."
   },
   "eligibility": {
     "sectionTitle": "Viral Gastroenteritis Telehealth Eligibility Checklist for {state}",
@@ -192,7 +193,7 @@
     "sectionTitle": "What Does Online Viral Gastroenteritis Treatment Cost in {state}?",
     "subtitle": "Transparent options. Insurance is not required.",
     "visitPrice": "$79",
-    "priceSubtext": "Self pay option. Insurance is not required.",
+    "priceSubtext": "$79 flat visit · no insurance required · OTC rehydration solution and loperamide are low-cost",
     "includes": [
       "MD evaluation and red-flag screening",
       "Hydration status assessment and oral rehydration guidance",
@@ -226,7 +227,7 @@
         "isTdmd": false
       }
     ],
-    "footnote": "Prescription costs are separate and vary by medication and pharmacy.",
+    "footnote": "Total cost is transparent: the $79 visit is often the main cost, since oral rehydration solution and loperamide are inexpensive over-the-counter options; if prescription ondansetron for nausea is appropriate, its pharmacy cost is separate and varies.",
     "noHiddenFees": "No hidden fees. If medication is not clinically appropriate, you still receive a complete evaluation, oral rehydration guidance, and clear instructions on what level of care you need next."
   },
   "whatIsCondition": {
@@ -598,6 +599,14 @@
       {
         "question": "How do I prevent spreading the stomach flu to others in my household?",
         "answer": "Wash your hands frequently with soap and water — handwashing is more effective than alcohol-based hand sanitizer against norovirus. The CDC recommends staying home and avoiding food preparation for others while sick and for at least 48 hours after symptoms resolve. Clean and disinfect contaminated surfaces with a bleach-based solution. Avoid sharing utensils, towels, or cups."
+      },
+      {
+        "question": "Can TeleDirectMD prescribe something for nausea and vomiting from the stomach flu in {state}?",
+        "answer": "Yes — the MD can prescribe ondansetron (Zofran) for nausea and vomiting when appropriate, after reviewing your symptoms and hydration status by video. Staying hydrated with oral rehydration solution remains the most important part of recovery alongside any medication."
+      },
+      {
+        "question": "How do I know if my stomach bug is viral gastroenteritis or food poisoning in {state}?",
+        "answer": "Both can cause similar symptoms, but food poisoning often comes on faster after a specific meal and may affect others who ate the same food, while viral gastroenteritis spreads person-to-person and often includes more prolonged symptoms. The MD can review your timeline and exposures to help sort out the likely cause."
       }
     ],
     "bottomCta": {

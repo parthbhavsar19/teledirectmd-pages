@@ -48,7 +48,8 @@
       ],
       "note": "Adults 18+ only. TeleDirectMD is not an emergency service. Red flags requiring immediate in-person or ER evaluation: bloody or bloody-mucoid stool (dysentery), fever above 38.5°C (101.3°F), signs of severe dehydration (inability to keep fluids down, dizziness on standing, no urination for 8+ hours), and altered mental status. TeleDirectMD does not prescribe controlled substances."
     },
-    "icd10Display": "A09 (infectious gastroenteritis and colitis, unspecified — traveler's diarrhea in active treatment context; ICD-10 A04.x for specific pathogen identification at laboratory level)"
+    "icd10Display": "A09 (infectious gastroenteritis and colitis, unspecified — traveler's diarrhea in active treatment context; ICD-10 A04.x for specific pathogen identification at laboratory level)",
+    "quickAnswer": "Yes — adults (18+) in {state} traveling internationally can get standby traveler's diarrhea treatment online before or during their trip. A board-certified MD reviews your destination and symptoms by secure video and, per CDC Yellow Book guidance, prescribes azithromycin for moderate-to-severe episodes plus loperamide as an adjunct, sent to your pharmacy same day — routine antibiotic prophylaxis is not recommended. Visit price: $79 flat, no insurance required. Bloody stool with fever above 101.3°F needs urgent in-person evaluation for possible bacterial dysentery."
   },
   "eligibility": {
     "sectionTitle": "Traveler's Diarrhea Telehealth Eligibility Checklist for {state}",
@@ -209,7 +210,7 @@
     "sectionTitle": "What Does Traveler's Diarrhea Treatment Cost in {state}?",
     "subtitle": "Transparent options. Insurance is not required.",
     "visitPrice": "$79",
-    "priceSubtext": "Self pay option. Insurance is not required.",
+    "priceSubtext": "$79 flat visit · no insurance required · azithromycin course often under $25",
     "includes": [
       "MD evaluation of destination risk profile and TD severity (or pre-departure standby assessment)",
       "Red flag screening and referral if in-person evaluation is indicated",
@@ -244,7 +245,7 @@
         "isTdmd": false
       }
     ],
-    "footnote": "Prescription costs at your pharmacy are separate. Azithromycin 250 mg generic tablets are widely available at very low cost — a 3-day course (6 × 500 mg tablets) typically costs under $15 to $25 at most pharmacies with GoodRx coupons (pricing verified 2026-06-13; costs vary by pharmacy and quantity). Loperamide is available over the counter (Imodium) at approximately $5 to $10 for a travel pack. A standby antibiotic prescription filled before departure ensures you have the medication when needed without searching for a pharmacy abroad.",
+    "footnote": "Total cost is transparent: the $79 visit plus generic azithromycin (typically under $15–$25 for a 3-day course via GoodRx, verified 2026-06-13) means a standby prescription filled before departure costs most travelers under $105 all-in — no searching for a foreign pharmacy mid-trip.",
     "noHiddenFees": "No hidden fees. If you present with red flag symptoms that require in-person evaluation, you will receive a complete assessment and clear referral guidance — the visit fee is not charged if a clinical evaluation cannot be appropriately completed via telehealth."
   },
   "whatIsCondition": {
@@ -609,6 +610,14 @@
       {
         "question": "Can I get a traveler's diarrhea prescription if I'm already sick during my trip?",
         "answer": "Yes — TeleDirectMD can evaluate an active TD episode via video visit for adult patients located in {state} at the time of the visit. The physician will assess the severity of your symptoms, screen for red flags (bloody stool with high fever, severe dehydration, altered mental status), and prescribe azithromycin if indicated. However, if you are outside of your home state during travel, you would need to be in a state where TeleDirectMD physicians are licensed to practice. Pre-departure standby prescriptions filled before your trip eliminate the need to arrange a telehealth visit while already ill abroad — this is the preferred approach."
+      },
+      {
+        "question": "Should I get a standby antibiotic prescription before my trip or wait until I'm sick in {state}?",
+        "answer": "Getting it beforehand is strongly recommended — having azithromycin on hand means you can start treatment immediately when symptoms hit rather than searching for a pharmacy abroad, which can be difficult depending on your destination. The MD can prescribe it during your pre-trip visit for you to carry with you."
+      },
+      {
+        "question": "How much does traveler's diarrhea treatment cost online without insurance in {state}?",
+        "answer": "The visit is $79 flat, no insurance required, and generic azithromycin typically costs under $15 to $25 for a 3-day course with a pharmacy coupon — so most travelers pay under $105 total for standby treatment."
       }
     ],
     "bottomCta": {

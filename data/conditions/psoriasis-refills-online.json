@@ -47,7 +47,8 @@
       ],
       "note": "Adults 18+ only. TeleDirectMD is not an emergency service. Seek urgent in-person care now for widespread redness covering most of your body, widespread pustules with fever, rapidly spreading rash with systemic illness, or signs of secondary skin infection with fever and spreading warmth. TeleDirectMD does not prescribe controlled substances."
     },
-    "icd10Display": "L40.0, L40.9 (final coding depends on clinical details)"
+    "icd10Display": "L40.0, L40.9 (final coding depends on clinical details)",
+    "quickAnswer": "Yes — adults (18+) in {state} on established topical psoriasis therapy can refill it online. A board-certified MD reviews your plaque locations and disease stability by secure video and continues your current topical corticosteroid, vitamin D analog, or combination calcipotriene/betamethasone, sent to your pharmacy same day. Visit price: $79 flat, no insurance required. This refill service covers topicals only — biologics and methotrexate require in-person specialist care. Widespread body redness (possible erythrodermic psoriasis) needs urgent in-person evaluation."
   },
   "eligibility": {
     "sectionTitle": "Psoriasis Refill Telehealth Eligibility Checklist for {state}",
@@ -193,7 +194,7 @@
     "sectionTitle": "What Do Online Psoriasis Medication Refills Cost in {state}?",
     "subtitle": "Transparent options. Insurance is not required.",
     "visitPrice": "$79",
-    "priceSubtext": "Self pay option. Insurance is not required.",
+    "priceSubtext": "$79 flat visit · no insurance required · topical steroid/vitamin D combos vary in cost",
     "includes": [
       "MD evaluation and red-flag screening",
       "Psoriasis severity assessment and topical refill review",
@@ -226,7 +227,7 @@
         "isTdmd": false
       }
     ],
-    "footnote": "Prescription costs are separate and vary by medication and pharmacy.",
+    "footnote": "Total cost is transparent: the $79 visit covers the refill evaluation; pharmacy cost for your topical corticosteroid or combination product varies by formulation, so ask your pharmacist about generic availability to reduce your total.",
     "noHiddenFees": "No hidden fees. If medication is not clinically appropriate, you still receive a complete evaluation, guidance, and clear instructions on what level of care you need next."
   },
   "whatIsCondition": {
@@ -591,6 +592,14 @@
       {
         "question": "Can TeleDirectMD provide psoriasis refill care in other states?",
         "answer": "Yes. TeleDirectMD offers adult evaluations via video visits across multiple states. You must be physically located in the state where you are requesting care at the time of the visit."
+      },
+      {
+        "question": "Can TeleDirectMD refill biologics or methotrexate for psoriasis online in {state}?",
+        "answer": "No — this refill service is limited to topical therapies like corticosteroids and vitamin D analogs. Biologics and methotrexate require closer specialist monitoring and are managed through in-person dermatology or rheumatology care."
+      },
+      {
+        "question": "How do I know if my psoriasis has become too severe for a routine topical refill visit in {state}?",
+        "answer": "Signs like widespread redness covering most of your body, rapidly spreading plaques, or joint pain suggesting psoriatic arthritis mean you likely need more than a topical refill. The MD will screen for these signs during your visit and direct you to in-person or specialist care if needed."
       }
     ],
     "bottomCta": {

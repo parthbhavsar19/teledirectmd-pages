@@ -47,7 +47,8 @@
       ],
       "note": "Adults 18+ only. TeleDirectMD is not an emergency service. Go to the ER now for difficulty breathing or shortness of breath, high fever with confusion or altered mental status, severe chest pain or chest pressure, signs of severe dehydration, or any symptoms that are rapidly worsening. TeleDirectMD does not prescribe controlled substances."
     },
-    "icd10Display": "J00 or J06.9 (final coding depends on clinical details)"
+    "icd10Display": "J00 or J06.9 (final coding depends on clinical details)",
+    "quickAnswer": "Yes — adults (18+) in {state} with common cold symptoms can get an online evaluation. Per CDC guidance, there's no cure and no antiviral for the common cold, so a board-certified MD reviews your symptoms by secure video and recommends OTC symptom relief — acetaminophen, pseudoephedrine, dextromethorphan, or guaifenesin — and prescribes treatment only if a bacterial complication develops. Visit price: $79 flat, no insurance required. Difficulty breathing or fever above 102°F for 3+ days needs in-person care."
   },
   "eligibility": {
     "sectionTitle": "Common Cold Telehealth Eligibility Checklist for {state}",
@@ -197,7 +198,7 @@
     "sectionTitle": "What Does Common Cold Treatment Cost in {state}?",
     "subtitle": "Transparent options. Insurance is not required.",
     "visitPrice": "$79",
-    "priceSubtext": "Self pay option. Insurance is not required.",
+    "priceSubtext": "$79 flat visit · no insurance required · most treatment uses OTC medication",
     "includes": [
       "MD evaluation and red-flag screening",
       "Differential diagnosis to rule out flu, COVID, strep, and sinusitis",
@@ -231,7 +232,7 @@
         "isTdmd": false
       }
     ],
-    "footnote": "Most common cold treatment uses over-the-counter medications available without prescription. Prescription costs, if needed for a bacterial complication, are separate and vary by medication and pharmacy.",
+    "footnote": "Total cost is transparent: the $79 visit is often the only cost, since common cold care relies mainly on over-the-counter medications you likely already have; a prescription is added only if a bacterial complication is identified, with pharmacy cost varying by medication.",
     "noHiddenFees": "No hidden fees. Even if no prescription is needed (which is the case for most uncomplicated colds), you receive a complete evaluation, evidence-based guidance, and clear instructions on what to watch for."
   },
   "whatIsCondition": {
@@ -587,6 +588,14 @@
       {
         "question": "How is a cold different from COVID-19?",
         "answer": "COVID-19 and the common cold share symptoms like nasal congestion, sore throat, and cough, but COVID-19 more commonly causes loss of taste or smell, significant fatigue, and can cause more severe respiratory illness. The distinction matters because COVID-19 may benefit from antiviral treatment (nirmatrelvir/ritonavir) if started within 5 days in high-risk patients. If COVID-19 is suspected, testing is recommended, which currently requires in-person evaluation."
+      },
+      {
+        "question": "Is it worth paying for a telehealth visit for a common cold in {state}?",
+        "answer": "It's most useful when you're unsure if your symptoms are a cold, the flu, or something needing antibiotics, or if symptoms are lingering or worsening. The MD can confirm it's a typical viral cold, recommend the right OTC combination, and catch early signs of a bacterial complication like sinusitis."
+      },
+      {
+        "question": "Can a telehealth doctor tell if my cold has turned into a sinus infection or bronchitis in {state}?",
+        "answer": "The MD can review your symptom progression and duration by video to assess for signs of a bacterial complication, such as worsening facial pain or fever after initial improvement. If a complication is likely, appropriate prescription treatment can be sent to your pharmacy the same day."
       }
     ],
     "bottomCta": {

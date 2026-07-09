@@ -47,7 +47,8 @@
       ],
       "note": "Adults 18+ only. TeleDirectMD is not an emergency service. Go to urgent care or the ER now for rash involving the eye or forehead, widespread blistering beyond one dermatome, facial weakness or hearing changes, severe headache with stiff neck, signs of bacterial skin infection with fever, or rapidly worsening symptoms. TeleDirectMD does not prescribe controlled substances."
     },
-    "icd10Display": "B02.9, B02.29, B02.22 (final coding depends on clinical details)"
+    "icd10Display": "B02.9, B02.29, B02.22 (final coding depends on clinical details)",
+    "quickAnswer": "Yes — adults (18+) in {state} with shingles can be treated online, and speed matters. A board-certified MD reviews your rash timing and location by secure video and prescribes an antiviral — valacyclovir, famciclovir, or acyclovir — ideally within 72 hours of rash onset, plus pain management like gabapentin, sent to your pharmacy same day. Visit price: $79 flat, no insurance required. A rash involving your eye, forehead, or nose tip, or facial weakness/hearing changes, needs urgent in-person evaluation."
   },
   "eligibility": {
     "sectionTitle": "Shingles Telehealth Eligibility Checklist for {state}",
@@ -196,7 +197,7 @@
     "sectionTitle": "What Does Shingles Treatment Cost in {state}?",
     "subtitle": "Transparent options. Insurance is not required.",
     "visitPrice": "$79",
-    "priceSubtext": "Self pay option. Insurance is not required.",
+    "priceSubtext": "$79 flat visit · no insurance required · generic valacyclovir often $10–$30",
     "includes": [
       "MD evaluation and red-flag screening",
       "Assessment for uncomplicated shingles vs conditions requiring in-person care",
@@ -231,7 +232,7 @@
         "isTdmd": false
       }
     ],
-    "footnote": "Prescription costs at your pharmacy are separate and vary by medication and pharmacy.",
+    "footnote": "Total cost is transparent: the $79 visit plus generic valacyclovir or famciclovir (typically $10–$30 with a pharmacy coupon) means most patients pay about $89–$109 all-in — no membership, with treatment most effective when started within 72 hours of rash onset.",
     "noHiddenFees": "No hidden fees. If medication is not clinically appropriate, you still receive a complete evaluation, guidance, and clear instructions on what level of care you need next."
   },
   "whatIsCondition": {
@@ -572,6 +573,14 @@
       {
         "question": "Can I use my insurance for a TeleDirectMD visit?",
         "answer": "Insurance is not required. If your plan is eligible, you may be able to use insurance. A self pay option is also available."
+      },
+      {
+        "question": "How fast can I get shingles medication online before the 72-hour window closes in {state}?",
+        "answer": "A same-day video visit is strongly recommended, since antivirals work best when started within 72 hours of rash onset to reduce severity and lower the risk of lingering nerve pain. The MD can typically send your prescription to the pharmacy right after your visit."
+      },
+      {
+        "question": "How do I know if my shingles rash needs emergency care instead of telehealth in {state}?",
+        "answer": "A rash near your eye, forehead, or nose tip may indicate ophthalmic zoster, and facial weakness or hearing changes may suggest Ramsay Hunt syndrome — both need urgent in-person evaluation rather than telehealth. The MD will screen for these patterns during your visit."
       }
     ],
     "bottomCta": {

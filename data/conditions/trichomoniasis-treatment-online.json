@@ -47,7 +47,8 @@
       ],
       "note": "Adults 18+ only. TeleDirectMD is not an emergency service. Go to the ER now for severe pelvic pain with high fever (possible PID requiring IV antibiotics), signs of pregnancy with trich symptoms, or severe illness. TeleDirectMD does not prescribe controlled substances. TeleDirectMD does not perform STI testing — bring your positive test result or describe your symptoms at the visit."
     },
-    "icd10Display": "A59.00, A59.01, or A59.9 (final coding depends on clinical details)"
+    "icd10Display": "A59.00, A59.01, or A59.9 (final coding depends on clinical details)",
+    "quickAnswer": "Yes — trichomoniasis can be treated online in {state}. A board-certified MD reviews your test results or symptoms by secure video and, per 2021 CDC updated guidelines, prescribes metronidazole 500 mg twice daily for 7 days for women (or a single dose for men), or tinidazole as an alternative, sent to your pharmacy same day. Visit price: $79 flat, no insurance required, confidential. Partners need simultaneous treatment. Pregnancy needs in-person OB management rather than this telehealth pathway."
   },
   "eligibility": {
     "sectionTitle": "Trichomoniasis Telehealth Eligibility Checklist for {state}",
@@ -195,7 +196,7 @@
     "sectionTitle": "What Does Trichomoniasis Treatment Cost in {state}?",
     "subtitle": "Transparent options. Insurance is not required.",
     "visitPrice": "$79",
-    "priceSubtext": "Self pay option. Insurance is not required.",
+    "priceSubtext": "$79 flat, confidential visit · no insurance required · generic metronidazole often $4–$15",
     "includes": [
       "MD evaluation and red-flag screening",
       "Review of test results or symptom pattern and sexual history",
@@ -229,7 +230,7 @@
         "isTdmd": false
       }
     ],
-    "footnote": "Prescription costs at your pharmacy are separate and vary by medication and pharmacy. STI testing costs are separate.",
+    "footnote": "Total cost is transparent: the $79 visit plus generic metronidazole or tinidazole (often $4–$15 with a pharmacy coupon) means most patients pay about $83–$94 all-in — discreet, no membership, prescription sent to your pharmacy.",
     "noHiddenFees": "No hidden fees. If medication is not clinically appropriate, you still receive a complete evaluation, guidance, and clear instructions on what level of care you need next."
   },
   "whatIsCondition": {
@@ -588,6 +589,14 @@
       {
         "question": "What if my trichomoniasis keeps coming back?",
         "answer": "Recurrent trichomoniasis most commonly results from reinfection due to an untreated partner. If reinfection is unlikely and symptoms persist after a complete course of standard treatment, drug-resistant T. vaginalis should be considered. Resistant cases require specialist-guided high-dose regimens and are not appropriate for standard telehealth management. TeleDirectMD will direct you to appropriate in-person or specialist care if your infection has failed standard treatment."
+      },
+      {
+        "question": "What changed about trichomoniasis treatment in the updated CDC guidelines in {state}?",
+        "answer": "The CDC updated its preferred treatment for women to a 7-day course of metronidazole twice daily instead of a single 2-gram dose, because the multi-day regimen roughly cuts treatment failure in half. The MD will follow this current guidance when prescribing for you."
+      },
+      {
+        "question": "How much does online trichomoniasis treatment cost without insurance in {state}?",
+        "answer": "The visit is $79 flat, no insurance required, and generic metronidazole or tinidazole typically adds only $4 to $15 at the pharmacy — most patients pay under $95 total."
       }
     ],
     "bottomCta": {

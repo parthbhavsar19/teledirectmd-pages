@@ -47,7 +47,8 @@
       ],
       "note": "Adults 18+ only. TeleDirectMD is not an emergency service. Go to the ER now for difficulty breathing or shortness of breath, persistent chest pain or pressure, confusion or inability to stay awake, pale gray or blue-colored skin lips or nail beds (cyanosis), oxygen saturation below 94 percent, or any signs of severe illness. TeleDirectMD does not prescribe controlled substances."
     },
-    "icd10Display": "U07.1, J12.82, or M35.81 (final coding depends on clinical details)"
+    "icd10Display": "U07.1, J12.82, or M35.81 (final coding depends on clinical details)",
+    "quickAnswer": "Yes — adults (18+) in {state} with COVID-19 symptoms can be treated online. A board-certified MD reviews your symptoms, risk factors, and medication list by secure video and, per February 2026 CDC guidance, prescribes nirmatrelvir/ritonavir (Paxlovid) within 5 days of onset if you have risk factors for severe disease, or supportive care like acetaminophen for milder illness. Visit price: $79 flat, no insurance required. Shortness of breath at rest, chest pressure, or confusion needs ER care, not telehealth."
   },
   "eligibility": {
     "sectionTitle": "COVID-19 Telehealth Eligibility Checklist for {state}",
@@ -197,7 +198,7 @@
     "sectionTitle": "What Does COVID-19 Treatment Cost in {state}?",
     "subtitle": "Transparent options. Insurance is not required.",
     "visitPrice": "$79",
-    "priceSubtext": "Self pay option. Insurance is not required.",
+    "priceSubtext": "$79 flat visit · no insurance required · Paxlovid may be free through government/insurance programs",
     "includes": [
       "MD evaluation and red-flag screening",
       "Risk-factor assessment for severe COVID-19",
@@ -231,7 +232,7 @@
         "isTdmd": false
       }
     ],
-    "footnote": "Prescription costs at your pharmacy are separate and vary by medication and pharmacy. Paxlovid may be available at no cost through government programs or insurance coverage.",
+    "footnote": "Total cost is transparent: the $79 visit is often the main cost, since Paxlovid may be available at no charge through government programs or insurance, and OTC symptom-relief medications for milder cases typically cost only a few dollars.",
     "noHiddenFees": "No hidden fees. If medication is not clinically appropriate, you still receive a complete evaluation, guidance, and clear instructions on what level of care you need next."
   },
   "whatIsCondition": {
@@ -589,6 +590,14 @@
       {
         "question": "How long does COVID-19 last?",
         "answer": "Most mild to moderate COVID-19 cases improve within 7 to 14 days. Some patients experience lingering symptoms such as fatigue and cough for several weeks. If symptoms persist beyond 4 weeks, this may represent post-COVID conditions (long COVID) and should be evaluated by your primary care provider."
+      },
+      {
+        "question": "Do I need a positive COVID test before my telehealth visit in {state}?",
+        "answer": "A prior positive test is helpful but not always required — the MD can evaluate your symptoms and exposure history to determine likelihood of COVID-19 and whether Paxlovid or supportive care is appropriate. Testing recommendations may still be given during the visit."
+      },
+      {
+        "question": "How quickly do I need to start Paxlovid after COVID symptoms begin in {state}?",
+        "answer": "Paxlovid should be started within 5 days of symptom onset for the best chance of preventing severe illness, so a same-day video visit is important if you have risk factors. The MD will also check for drug interactions and kidney or liver function history before prescribing."
       }
     ],
     "bottomCta": {

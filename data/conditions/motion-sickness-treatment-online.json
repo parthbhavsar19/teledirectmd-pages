@@ -47,7 +47,8 @@
       ],
       "note": "Adults 18+ only. TeleDirectMD is not an emergency service. Go to urgent care or the ER now for persistent vertigo with hearing loss, severe headache with neurological symptoms, uncontrollable vomiting with dehydration, or confusion after head injury. TeleDirectMD does not prescribe controlled substances."
     },
-    "icd10Display": "T75.3 (final coding depends on clinical details)"
+    "icd10Display": "T75.3 (final coding depends on clinical details)",
+    "quickAnswer": "Yes — adults (18+) in {state} planning travel can get motion sickness prevention medication online. A board-certified MD reviews your travel plans by secure video and, per AAFP and CDC Yellow Book guidance, prescribes the scopolamine transdermal patch as first-line for extended travel like cruises, or meclizine/dimenhydrinate for shorter trips, sent to your pharmacy same day. Visit price: $79 flat, no insurance required. Prevention started before travel works far better than treating symptoms after they start. Persistent dizziness without motion exposure needs in-person evaluation instead."
   },
   "eligibility": {
     "sectionTitle": "Motion Sickness Telehealth Eligibility Checklist for {state}",
@@ -196,7 +197,7 @@
     "sectionTitle": "What Does Motion Sickness Treatment Cost in {state}?",
     "subtitle": "Transparent options. Insurance is not required.",
     "visitPrice": "$79",
-    "priceSubtext": "Self pay option. Insurance is not required.",
+    "priceSubtext": "$79 flat visit · no insurance required · scopolamine patch and meclizine vary in cost",
     "includes": [
       "MD evaluation and red-flag screening",
       "Assessment of motion sickness history and travel plans",
@@ -230,7 +231,7 @@
         "isTdmd": false
       }
     ],
-    "footnote": "Prescription costs at your pharmacy are separate and vary by medication and pharmacy.",
+    "footnote": "Total cost is transparent: the $79 visit covers evaluation and a prescription tailored to your trip length; the scopolamine patch and generic meclizine both vary in pharmacy price, so ask about generic options to keep your total low.",
     "noHiddenFees": "No hidden fees. If medication is not clinically appropriate, you still receive a complete evaluation, guidance, and clear instructions on what level of care you need next."
   },
   "whatIsCondition": {
@@ -587,6 +588,14 @@
       {
         "question": "Is my dizziness motion sickness or something else?",
         "answer": "Motion sickness occurs predictably during travel or motion exposure and resolves once the motion stops. If you experience dizziness, vertigo, or nausea without motion exposure, or if symptoms persist long after travel ends, you may have a different condition such as BPPV, Meniere disease, vestibular migraine, or another vestibular disorder. These conditions require in-person evaluation and TeleDirectMD will direct you to appropriate specialist care."
+      },
+      {
+        "question": "How far before my trip should I book a motion sickness visit online in {state}?",
+        "answer": "A few days ahead is ideal, since the scopolamine patch should be applied several hours before travel begins and you'll want time to fill the prescription. A same-day visit can still work if your trip is imminent."
+      },
+      {
+        "question": "Can TeleDirectMD prescribe something for motion sickness for a cruise specifically in {state}?",
+        "answer": "Yes — the scopolamine transdermal patch is particularly well suited for extended travel like cruises because a single patch provides continuous prevention for up to 3 days. The MD will confirm it's appropriate based on your medical history before prescribing."
       }
     ],
     "bottomCta": {

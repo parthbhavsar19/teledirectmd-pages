@@ -48,7 +48,8 @@
       ],
       "note": "Adults 18+ only. TeleDirectMD is not an emergency service. No vaccines administered — yellow fever and other required vaccines must be obtained at an authorized vaccination center. No controlled substances prescribed. No primaquine or tafenoquine (require G6PD testing, refer to in-person travel clinic). Do not use if you have emergency symptoms requiring immediate care."
     },
-    "icd10Display": "Z29.9 (encounter for prophylactic measures) / A09 / T70.29 (final coding depends on clinical details)"
+    "icd10Display": "Z29.9 (encounter for prophylactic measures) / A09 / T70.29 (final coding depends on clinical details)",
+    "quickAnswer": "Yes — adults (18+) in {state} preparing for international travel can get a comprehensive prevention visit online. A board-certified MD reviews your full itinerary by secure video and prescribes from TeleDirectMD's travel formulary — malaria prophylaxis (Malarone or doxycycline), traveler's diarrhea standby antibiotics, altitude sickness prevention, or motion sickness medication — all in one visit, sent to your pharmacy same day. Visit price: $79 flat, no insurance required. TeleDirectMD does not administer vaccines. A fever after returning from a malaria-endemic region needs emergency evaluation immediately."
   },
   "eligibility": {
     "sectionTitle": "Travel Medicine Telehealth Eligibility Checklist for {state}",
@@ -209,7 +210,7 @@
     "sectionTitle": "What Does Online Travel Medicine Cost in {state}?",
     "subtitle": "Transparent options. Insurance is not required.",
     "visitPrice": "$79",
-    "priceSubtext": "Self pay option. Insurance is not required.",
+    "priceSubtext": "$79 flat visit · no insurance required · covers multiple travel prescriptions in a single visit",
     "includes": [
       "MD-led destination-based risk assessment covering your full itinerary",
       "Malaria prophylaxis selection and prescription (Malarone or doxycycline) if appropriate",
@@ -244,7 +245,7 @@
         "isTdmd": false
       }
     ],
-    "footnote": "Prescription costs at your pharmacy are separate and vary by medication. Malaria prophylaxis, azithromycin, and acetazolamide are available as generics at US pharmacies. TeleDirectMD does not administer vaccines.",
+    "footnote": "Total cost is transparent: the $79 visit can cover evaluation for several travel medications at once — malaria prophylaxis, traveler's diarrhea standby therapy, altitude or motion sickness prevention — with each medication's pharmacy cost varying separately by drug and quantity.",
     "noHiddenFees": "No hidden fees. One flat visit fee covers the full pre-travel consultation regardless of how many medications are discussed. If any medication is not clinically appropriate, you still receive a complete evaluation and guidance."
   },
   "whatIsCondition": {
@@ -643,6 +644,14 @@
       {
         "question": "Which malaria pill is best for my destination?",
         "answer": "The right malaria prophylaxis medication depends on your specific destination, travel duration, and health profile, per CDC malaria drug-selection guidelines. Sub-Saharan Africa (East, West, Central, Southern Africa including safari destinations): chloroquine-resistant Plasmodium falciparum is endemic throughout — both Malarone and doxycycline are effective first-line options; for shorter trips (1 to 2 weeks), Malarone's 7-day post-trip duration is convenient; for longer trips, doxycycline is more cost-effective. South Asia (India, Nepal, Sri Lanka): chloroquine-resistant P. falciparum and P. vivax; Malarone or doxycycline are both recommended; azithromycin standby is particularly important here due to fluoroquinolone-resistant Campylobacter. Southeast Asia (Thailand, Vietnam, Cambodia, Indonesia): doxycycline is preferred for travel to the Thai-Myanmar and Thai-Cambodia border regions due to potential multi-drug resistance; urban tourist areas of Thailand and Vietnam have lower malaria risk; confirm destination-specific risk with the CDC malaria map. Latin America Amazon basin (Peru, Bolivia, Brazil, Colombia lowlands): Malarone or doxycycline for Amazon travel; note that Cusco, Lima, Machu Picchu, Bogotá, and other highland cities are malaria-free. Primaquine and tafenoquine require G6PD testing and are not available via TeleDirectMD — these are prescribed at in-person travel clinics for travelers to P. vivax or P. ovale endemic regions needing radical cure."
+      },
+      {
+        "question": "Can I get prescriptions for malaria prevention, traveler's diarrhea, and altitude sickness all in one visit in {state}?",
+        "answer": "Yes — the $79 travel medicine visit is designed to cover your full itinerary in one session, so the MD can evaluate and prescribe for multiple travel-related risks at once rather than requiring separate visits for each concern."
+      },
+      {
+        "question": "Does TeleDirectMD provide travel vaccines like yellow fever in {state}?",
+        "answer": "No — TeleDirectMD does not administer vaccines, since these require in-person injection. The MD can advise on which vaccines are typically recommended for your destination, but you'll need to get them at a travel clinic or pharmacy that offers vaccination services."
       }
     ],
     "bottomCta": {

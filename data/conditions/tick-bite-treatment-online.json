@@ -47,7 +47,8 @@
       ],
       "note": "Adults 18+ only. TeleDirectMD is not an emergency service. Go to urgent care or the ER now for expanding bull's-eye rash (erythema migrans), fever with severe headache or neck stiffness, facial drooping or weakness, heart palpitations or chest pain after a tick bite, or tick paralysis symptoms such as ascending weakness. TeleDirectMD does not prescribe controlled substances."
     },
-    "icd10Display": "S90.469A, T63.4XXA (final coding depends on clinical details)"
+    "icd10Display": "S90.469A, T63.4XXA (final coding depends on clinical details)",
+    "quickAnswer": "Yes — adults (18+) in {state} with a recent tick bite can be evaluated online. A board-certified MD reviews your tick photo and bite timing by secure video and, per IDSA/AAN/ACR 2020 Lyme guidelines, prescribes single-dose doxycycline prophylaxis only when all high-risk criteria are met, or supportive watchful-waiting guidance otherwise. Visit price: $79 flat, no insurance required. The 72-hour window after the bite is important for prophylaxis eligibility. An expanding bull's-eye rash with fever, or facial drooping, needs in-person evaluation."
   },
   "eligibility": {
     "sectionTitle": "Tick Bite Telehealth Eligibility Checklist for {state}",
@@ -196,7 +197,7 @@
     "sectionTitle": "What Does Tick Bite Treatment Cost in {state}?",
     "subtitle": "Transparent options. Insurance is not required.",
     "visitPrice": "$79",
-    "priceSubtext": "Self pay option. Insurance is not required.",
+    "priceSubtext": "$79 flat visit · no insurance required · single-dose doxycycline typically low cost",
     "includes": [
       "MD evaluation and red-flag screening",
       "Photo-based tick species and engorgement assessment",
@@ -231,7 +232,7 @@
         "isTdmd": false
       }
     ],
-    "footnote": "Prescription costs at your pharmacy are separate and vary by medication and pharmacy.",
+    "footnote": "Total cost is transparent: the $79 visit plus, if prophylaxis criteria are met, a single dose of generic doxycycline (typically low cost at most pharmacies) means most patients pay a modest total all-in — no membership, and not every tick bite requires antibiotics.",
     "noHiddenFees": "No hidden fees. If medication is not clinically appropriate, you still receive a complete evaluation, risk assessment, monitoring guidance, and clear instructions on what level of care you need next."
   },
   "whatIsCondition": {
@@ -583,6 +584,14 @@
       {
         "question": "Can I use my insurance for a TeleDirectMD visit?",
         "answer": "Insurance is not required. If your plan is eligible, you may be able to use insurance. A self pay option is also available."
+      },
+      {
+        "question": "How much does online tick bite treatment cost without insurance in {state}?",
+        "answer": "The visit is $79 flat, no insurance required, and if single-dose doxycycline prophylaxis is appropriate, it typically adds only a small amount at the pharmacy — most patients pay well under $100 total."
+      },
+      {
+        "question": "Why does the timing of my tick bite matter so much for getting antibiotics in {state}?",
+        "answer": "Single-dose doxycycline prophylaxis is only effective and recommended within 72 hours of tick removal, per IDSA/AAN/ACR guidelines, along with meeting other risk criteria like tick species and attachment time. Outside that window, watchful waiting and monitoring for symptoms like a bull's-eye rash is the recommended approach instead."
       }
     ],
     "bottomCta": {

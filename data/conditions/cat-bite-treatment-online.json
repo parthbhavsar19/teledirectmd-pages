@@ -47,7 +47,8 @@
       ],
       "note": "Adults 18+ only. TeleDirectMD is not an emergency service. Go to urgent care or the ER now for hand bites with swelling or decreased finger movement, deep punctures over joints or tendons, rapid-onset redness and swelling, fever, red streaking from the wound, signs of severe infection, or bites from unknown or wild animals requiring rabies evaluation. TeleDirectMD does not prescribe controlled substances."
     },
-    "icd10Display": "W55.01A, S61.459A (final coding depends on clinical details)"
+    "icd10Display": "W55.01A, S61.459A (final coding depends on clinical details)",
+    "quickAnswer": "Yes — adults (18+) in {state} with a cat bite can be evaluated online, since cat bites carry a 30–50% infection rate and benefit from early prophylactic antibiotics. A board-certified MD reviews your wound photos by secure video and prescribes amoxicillin-clavulanate, or doxycycline plus metronidazole for penicillin allergy, sent to your pharmacy same day. Visit price: $79 flat, no insurance required. Hand/finger bites with swelling or reduced movement, or deep puncture wounds over a joint, need in-person care."
   },
   "eligibility": {
     "sectionTitle": "Cat Bite Telehealth Eligibility Checklist for {state}",
@@ -200,7 +201,7 @@
     "sectionTitle": "What Does Cat Bite Treatment Cost in {state}?",
     "subtitle": "Transparent options. Insurance is not required.",
     "visitPrice": "$79",
-    "priceSubtext": "Self pay option. Insurance is not required.",
+    "priceSubtext": "$79 flat visit · no insurance required · generic amoxicillin-clavulanate often $10–$25",
     "includes": [
       "MD evaluation and red-flag screening",
       "Photo-based wound assessment for depth and infection risk",
@@ -235,7 +236,7 @@
         "isTdmd": false
       }
     ],
-    "footnote": "Prescription costs at your pharmacy are separate and vary by medication and pharmacy.",
+    "footnote": "Total cost is transparent: the $79 visit plus generic amoxicillin-clavulanate (roughly $10–$25 with a pharmacy coupon) means most patients pay about $89–$104 all-in — critical given how quickly untreated cat bites can become infected.",
     "noHiddenFees": "No hidden fees. If medication is not clinically appropriate, you still receive a complete evaluation, guidance, and clear instructions on what level of care you need next."
   },
   "whatIsCondition": {
@@ -578,6 +579,14 @@
       {
         "question": "Can I use my insurance for a TeleDirectMD visit?",
         "answer": "Insurance is not required. If your plan is eligible, you may be able to use insurance. A self pay option is also available."
+      },
+      {
+        "question": "How fast can I get antibiotics for a cat bite online in {state}?",
+        "answer": "A same-day video visit is the fastest route, and speed matters — cat bites can become infected within just 12 to 24 hours. The MD assesses your wound and bite timing, then sends a prophylactic antibiotic to your pharmacy immediately if appropriate."
+      },
+      {
+        "question": "Do I still need a tetanus shot or rabies evaluation after a cat bite treated via telehealth?",
+        "answer": "Possibly — tetanus boosters and rabies post-exposure prophylaxis both require in-person administration and are not part of a telehealth antibiotic visit. The MD can advise whether either is likely needed based on your vaccination history and the circumstances of the bite."
       }
     ],
     "bottomCta": {

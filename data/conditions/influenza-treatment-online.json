@@ -47,7 +47,8 @@
       ],
       "note": "Adults 18+ only. TeleDirectMD is not an emergency service. Seek urgent in-person care now for difficulty breathing or shortness of breath, persistent chest pain or pressure, confusion, inability to keep fluids down, severe muscle weakness, seizures, or high fever unresponsive to antipyretics. TeleDirectMD does not prescribe controlled substances."
     },
-    "icd10Display": "J11.1, J10.1, J11.89, or J09.X2 (final coding depends on clinical details)"
+    "icd10Display": "J11.1, J10.1, J11.89, or J09.X2 (final coding depends on clinical details)",
+    "quickAnswer": "Yes — adults (18+) in {state} with flu symptoms can be treated online, and timing matters. A board-certified MD reviews your symptom onset by secure video and, per CDC guidance, prescribes an antiviral — oseltamivir, baloxavir, or zanamivir — ideally within 48 hours of symptom onset to shorten illness by 1–2 days, plus supportive medications like acetaminophen. Visit price: $79 flat, no insurance required. Difficulty breathing, chest pain, or confusion needs ER care, not telehealth."
   },
   "eligibility": {
     "sectionTitle": "Influenza Telehealth Eligibility Checklist for {state}",
@@ -190,7 +191,7 @@
     "sectionTitle": "What Does Influenza Treatment Cost in {state}?",
     "subtitle": "Transparent options. Insurance is not required.",
     "visitPrice": "$79",
-    "priceSubtext": "Self pay option. Insurance is not required.",
+    "priceSubtext": "$79 flat visit · no insurance required · generic oseltamivir often $15–$40",
     "includes": [
       "MD evaluation and red-flag screening",
       "Assessment for uncomplicated influenza vs complications",
@@ -224,7 +225,7 @@
         "isTdmd": false
       }
     ],
-    "footnote": "Prescription costs at your pharmacy are separate and vary by medication and pharmacy.",
+    "footnote": "Total cost is transparent: the $79 visit plus generic oseltamivir (typically $15–$40 with a pharmacy coupon) means most patients pay about $94–$119 all-in — no membership, and starting treatment quickly is key to shortening your illness.",
     "noHiddenFees": "No hidden fees. If antiviral medication is not clinically appropriate, you still receive a complete evaluation, symptom management guidance, and clear instructions on what level of care you need next."
   },
   "whatIsCondition": {
@@ -570,6 +571,14 @@
       {
         "question": "Can TeleDirectMD treat the flu in other states?",
         "answer": "Yes. TeleDirectMD offers adult evaluations via video visits across multiple states where our physicians are licensed. You must be physically located in the state where you are requesting care at the time of your video visit."
+      },
+      {
+        "question": "How fast do I need to be seen online to get Tamiflu for the flu in {state}?",
+        "answer": "Antiviral treatment is most effective within 48 hours of symptom onset, so a same-day video visit is important if you suspect flu. The MD can still consider treatment slightly beyond that window for higher-risk patients or worsening symptoms."
+      },
+      {
+        "question": "Do I need a positive flu test before an online visit in {state}?",
+        "answer": "Not necessarily — the MD can assess your symptoms, timing, and risk factors to determine whether starting antiviral treatment is appropriate without requiring a prior test result, though testing recommendations may still come up during your visit."
       }
     ],
     "bottomCta": {

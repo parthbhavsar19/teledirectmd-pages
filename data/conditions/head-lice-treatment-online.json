@@ -47,7 +47,8 @@
       ],
       "note": "Adults 18+ only. TeleDirectMD is not an emergency service. Go to urgent care or your primary care provider for secondary bacterial infection of the scalp with fever, spreading cellulitis, or infants under 2 months of age. TeleDirectMD does not prescribe controlled substances."
     },
-    "icd10Display": "B85.0 (final coding depends on clinical details)"
+    "icd10Display": "B85.0 (final coding depends on clinical details)",
+    "quickAnswer": "Yes — adults (18+) in {state} with head lice, especially after OTC treatment failure, can be treated online. A board-certified MD reviews your history by secure video and, per CDC/AAP guidance, prescribes a stepped-up option — ivermectin lotion, spinosad suspension, malathion lotion, or oral ivermectin for resistant cases — sent to your pharmacy same day. Visit price: $79 flat, no insurance required. All close contacts need simultaneous treatment. Fever with spreading scalp redness or pus needs in-person evaluation for secondary infection."
   },
   "eligibility": {
     "sectionTitle": "Head Lice Telehealth Eligibility Checklist for {state}",
@@ -190,7 +191,7 @@
     "sectionTitle": "What Does Head Lice Treatment Cost in {state}?",
     "subtitle": "Transparent options. Insurance is not required.",
     "visitPrice": "$79",
-    "priceSubtext": "Self pay option. Insurance is not required.",
+    "priceSubtext": "$79 flat visit · no insurance required · prescription lice treatments vary by medication",
     "includes": [
       "MD evaluation and photo-based lice assessment",
       "OTC treatment guidance or prescription when clinically appropriate",
@@ -224,7 +225,7 @@
         "isTdmd": false
       }
     ],
-    "footnote": "Prescription costs at your pharmacy are separate and vary by medication and pharmacy.",
+    "footnote": "Total cost is transparent: the $79 visit covers evaluation and a prescription-strength option when OTC pediculicides have failed; pharmacy cost varies by medication, so ask about generic availability for ivermectin lotion or malathion.",
     "noHiddenFees": "No hidden fees. If medication is not clinically appropriate, you still receive a complete evaluation, guidance, and clear instructions on what level of care you need next."
   },
   "whatIsCondition": {
@@ -565,6 +566,14 @@
       {
         "question": "Can I use my insurance for a TeleDirectMD visit?",
         "answer": "Insurance is not required. If your plan is eligible, you may be able to use insurance. A self pay option is also available."
+      },
+      {
+        "question": "How much does prescription head lice treatment cost online without insurance in {state}?",
+        "answer": "The visit is $79 flat with no insurance required. Prescription options like ivermectin lotion or malathion vary in pharmacy price, so it's worth asking about generic alternatives, especially if OTC permethrin has already failed."
+      },
+      {
+        "question": "Do I need to treat my whole household if only I have head lice in {state}?",
+        "answer": "Yes — CDC and AAP guidance recommends treating all close contacts simultaneously, even household members without visible lice or itching, since untreated contacts are the most common cause of reinfestation. Household decontamination of bedding and clothing is also important."
       }
     ],
     "bottomCta": {

@@ -47,7 +47,8 @@
       ],
       "note": "Adults 18+ only. TeleDirectMD is not an emergency service. Go to urgent care or the ER now for difficulty breathing or swallowing, facial swelling, rash around eyes that swells shut, rash covering most of the body, signs of secondary infection with fever, or inhalation of urushiol smoke from burning plants. TeleDirectMD does not prescribe controlled substances."
     },
-    "icd10Display": "L23.7, L25.5 (final coding depends on clinical details)"
+    "icd10Display": "L23.7, L25.5 (final coding depends on clinical details)",
+    "quickAnswer": "Yes — adults (18+) in {state} with a poison ivy or oak rash can be treated online. A board-certified MD reviews your rash extent and body surface area involved by secure video and prescribes a 2–3 week oral prednisone taper (not a short 6-day dose pack, which risks rebound), a high-potency topical steroid, or an antihistamine for itch, sent to your pharmacy same day. Visit price: $79 flat, no insurance required. Difficulty breathing, throat tightness, or an eye swelling shut needs emergency care, not telehealth."
   },
   "eligibility": {
     "sectionTitle": "Poison Ivy/Oak Telehealth Eligibility Checklist for {state}",
@@ -199,7 +200,7 @@
     "sectionTitle": "What Does Poison Ivy/Oak Treatment Cost in {state}?",
     "subtitle": "Transparent options. Insurance is not required.",
     "visitPrice": "$79",
-    "priceSubtext": "Self pay option. Insurance is not required.",
+    "priceSubtext": "$79 flat visit · no insurance required · generic prednisone/topical steroids often $8–$20",
     "includes": [
       "MD evaluation and red-flag screening",
       "Photo-based assessment of rash pattern, severity, and distribution",
@@ -234,7 +235,7 @@
         "isTdmd": false
       }
     ],
-    "footnote": "Prescription costs at your pharmacy are separate and vary by medication and pharmacy.",
+    "footnote": "Total cost is transparent: the $79 visit plus a generic oral prednisone taper or topical steroid (typically $8–$20 with a pharmacy coupon) means most patients pay about $87–$99 all-in — no membership, with a longer taper used to avoid the rebound flares seen with short dose packs.",
     "noHiddenFees": "No hidden fees. If medication is not clinically appropriate, you still receive a complete evaluation, guidance, and clear instructions on what level of care you need next."
   },
   "whatIsCondition": {
@@ -599,6 +600,14 @@
       {
         "question": "Why should I avoid topical antihistamines like Benadryl cream on my rash?",
         "answer": "Topical antihistamines such as diphenhydramine cream can cause additional allergic contact sensitization when applied to already-inflamed skin, potentially worsening the rash or creating a new allergic reaction. Oral antihistamines are preferred for itch relief because they work systemically without risking additional skin sensitization."
+      },
+      {
+        "question": "How much does online poison ivy treatment cost without insurance in {state}?",
+        "answer": "The visit is $79 flat, no insurance required, and a generic oral prednisone taper or topical steroid typically adds $8 to $20 at the pharmacy, so most patients pay under $100 total."
+      },
+      {
+        "question": "My 6-day Medrol dose pack didn't work and my poison ivy rash came back — what now in {state}?",
+        "answer": "This rebound pattern is common with short steroid courses for poison ivy, since 6 days often isn't long enough to fully control the reaction. The MD can prescribe a proper 2 to 3 week prednisone taper instead, which is the guideline-recommended approach for more extensive cases."
       }
     ],
     "bottomCta": {

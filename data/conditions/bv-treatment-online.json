@@ -47,7 +47,8 @@
       ],
       "note": "Adults 18+ only. TeleDirectMD is not an emergency service. Go to the ER now for severe pelvic pain with high fever, signs of sepsis, or any symptoms suggesting pelvic inflammatory disease with systemic illness. TeleDirectMD does not prescribe controlled substances."
     },
-    "icd10Display": "N77.1, N76.0, or B96.89 (final coding depends on clinical details)"
+    "icd10Display": "N77.1, N76.0, or B96.89 (final coding depends on clinical details)",
+    "quickAnswer": "Yes — bacterial vaginosis can be treated online in {state}. A board-certified MD reviews your symptoms by secure video and, per 2021 CDC guidelines, prescribes a first-line option — oral or intravaginal metronidazole, or intravaginal clindamycin cream — sent to your pharmacy same day. Visit price: $79 flat, no insurance required. Partner treatment may be discussed per 2025 ACOG guidance on recurrent BV. Not for pelvic pain with fever/chills or suspected pregnancy, which need in-person evaluation."
   },
   "eligibility": {
     "sectionTitle": "Bacterial Vaginosis Telehealth Eligibility Checklist for {state}",
@@ -196,7 +197,7 @@
     "sectionTitle": "What Does Bacterial Vaginosis Treatment Cost in {state}?",
     "subtitle": "Transparent options. Insurance is not required.",
     "visitPrice": "$79",
-    "priceSubtext": "Self pay option. Insurance is not required.",
+    "priceSubtext": "$79 flat visit · no insurance required · generic metronidazole often $4–$15",
     "includes": [
       "MD evaluation and red-flag screening",
       "Assessment for BV vs yeast infection vs other causes",
@@ -230,7 +231,7 @@
         "isTdmd": false
       }
     ],
-    "footnote": "Prescription costs at your pharmacy are separate and vary by medication and pharmacy.",
+    "footnote": "Total cost is transparent: the $79 visit plus generic metronidazole or clindamycin (often $4–$15 with a pharmacy coupon) means most patients pay about $83–$94 all-in — no membership, prescription sent straight to your pharmacy.",
     "noHiddenFees": "No hidden fees. If medication is not clinically appropriate, you still receive a complete evaluation, guidance, and clear instructions on what level of care you need next."
   },
   "whatIsCondition": {
@@ -574,6 +575,14 @@
       {
         "question": "Can I drink alcohol while taking metronidazole for BV?",
         "answer": "No. You should avoid alcohol during metronidazole treatment and for at least 24 hours after completing the course. Combining metronidazole with alcohol can cause a disulfiram-like reaction including nausea, vomiting, flushing, and headache. If you prefer to avoid this restriction, discuss alternative treatment options such as intravaginal clindamycin cream with your MD."
+      },
+      {
+        "question": "What is the fastest way to treat bacterial vaginosis in {state}?",
+        "answer": "A same-day video visit is typically the quickest route to a prescription, since BV is diagnosed from your symptom pattern and history rather than requiring an in-person exam in most uncomplicated cases. Starting metronidazole or clindamycin promptly usually brings relief within a few days."
+      },
+      {
+        "question": "Why does my BV keep coming back after treatment in {state}?",
+        "answer": "Recurrent BV is common because standard treatment doesn't always restore normal vaginal flora long-term. TeleDirectMD can discuss recurrence patterns and, per current guidance, whether concurrent partner therapy or an extended treatment approach may help reduce repeat episodes."
       }
     ],
     "bottomCta": {

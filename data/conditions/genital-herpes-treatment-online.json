@@ -47,7 +47,8 @@
       ],
       "note": "Adults 18+ only. TeleDirectMD is not an emergency service. Go to the ER now for widespread skin lesions with fever in an immunocompromised patient, severe urinary retention, signs of herpes encephalitis (confusion, seizures, headache with fever), or disseminated HSV with systemic illness. TeleDirectMD does not prescribe controlled substances."
     },
-    "icd10Display": "A60.0, A60.9, or B00.9 (final coding depends on clinical details)"
+    "icd10Display": "A60.0, A60.9, or B00.9 (final coding depends on clinical details)",
+    "quickAnswer": "Yes — genital herpes can be treated online in {state}. A board-certified MD reviews your outbreak history by secure video and, per CDC STI guidelines, prescribes one of three FDA-approved antivirals — valacyclovir, acyclovir, or famciclovir — for a first episode, episodic recurrences, or daily suppressive therapy, sent to your pharmacy same day. Visit price: $79 flat, no insurance required, confidential. Antivirals reduce outbreaks and transmission risk but don't cure the virus. Widespread lesions with fever, or urinary retention, need in-person care."
   },
   "eligibility": {
     "sectionTitle": "Genital Herpes Telehealth Eligibility Checklist for {state}",
@@ -196,7 +197,7 @@
     "sectionTitle": "What Does Genital Herpes Treatment Cost in {state}?",
     "subtitle": "Transparent options. Insurance is not required.",
     "visitPrice": "$79",
-    "priceSubtext": "Self pay option. Insurance is not required.",
+    "priceSubtext": "$79 flat, confidential visit · no insurance required · generic valacyclovir often $10–$25",
     "includes": [
       "MD evaluation and red-flag screening",
       "Assessment for first-episode, recurrent, or suppressive therapy needs",
@@ -230,7 +231,7 @@
         "isTdmd": false
       }
     ],
-    "footnote": "Prescription costs at your pharmacy are separate and vary by medication and pharmacy.",
+    "footnote": "Total cost is transparent: the $79 visit plus generic valacyclovir or acyclovir (roughly $10–$25 with a pharmacy coupon) means most patients pay about $89–$104 all-in — discreet, no membership, prescription sent to your pharmacy.",
     "noHiddenFees": "No hidden fees. If medication is not clinically appropriate, you still receive a complete evaluation, guidance, and clear instructions on what level of care you need next."
   },
   "whatIsCondition": {
@@ -602,6 +603,14 @@
       {
         "question": "Can TeleDirectMD diagnose genital herpes or order HSV testing?",
         "answer": "TeleDirectMD can evaluate your symptoms and prescribe antiviral treatment based on clinical presentation and history. For definitive diagnosis of a first episode, viral culture or PCR testing of an active lesion is most accurate and typically requires in-person evaluation. If you have a known HSV diagnosis and typical recurrences, clinical evaluation by video is usually sufficient for prescribing treatment."
+      },
+      {
+        "question": "How much does online genital herpes treatment cost without insurance in {state}?",
+        "answer": "The visit is $79 flat, no insurance required, and generic valacyclovir or acyclovir typically adds $10 to $25 at the pharmacy — so most patients pay under $105 total, whether for a first episode or a recurrence."
+      },
+      {
+        "question": "What's the difference between treating my first outbreak versus ongoing suppressive therapy in {state}?",
+        "answer": "A first episode typically needs a longer initial antiviral course to control symptoms, while recurrences can be treated episodically at the first sign of an outbreak or prevented with daily suppressive therapy if outbreaks are frequent. The MD determines the right approach based on your outbreak history and recurrence pattern."
       }
     ],
     "bottomCta": {

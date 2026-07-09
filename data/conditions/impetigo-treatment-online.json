@@ -47,7 +47,8 @@
       ],
       "note": "Adults 18+ only. TeleDirectMD is not an emergency service. Go to urgent care or the ER now for rapidly spreading redness beyond the lesion borders, fever or chills, red streaks on skin (lymphangitis), lesions near the eyes with swelling, severe pain, deep ulcerations, or signs of systemic illness. TeleDirectMD does not prescribe controlled substances."
     },
-    "icd10Display": "L01.00, L01.01, L01.03 (final coding depends on clinical details)"
+    "icd10Display": "L01.00, L01.01, L01.03 (final coding depends on clinical details)",
+    "quickAnswer": "Yes — adults (18+) in {state} with impetigo can be treated online. A board-certified MD reviews your lesion photos by secure video and, per IDSA guidelines, prescribes topical mupirocin for limited disease or an oral antibiotic — cephalexin, dicloxacillin, or TMP-SMX for MRSA risk — for more extensive cases, sent to your pharmacy same day. Visit price: $79 flat, no insurance required. Rapidly spreading redness beyond lesion borders, or red streaks toward lymph nodes, needs in-person care for possible cellulitis."
   },
   "eligibility": {
     "sectionTitle": "Impetigo Telehealth Eligibility Checklist for {state}",
@@ -188,7 +189,7 @@
     "sectionTitle": "What Does Online Impetigo Treatment Cost in {state}?",
     "subtitle": "Transparent options. Insurance is not required.",
     "visitPrice": "$79",
-    "priceSubtext": "Self pay option. Insurance is not required.",
+    "priceSubtext": "$79 flat visit · no insurance required · generic mupirocin/cephalexin often $8–$20",
     "includes": [
       "MD evaluation and red-flag screening",
       "Visual assessment of lesion characteristics via video",
@@ -222,7 +223,7 @@
         "isTdmd": false
       }
     ],
-    "footnote": "Prescription costs at your pharmacy are separate and vary by medication and pharmacy.",
+    "footnote": "Total cost is transparent: the $79 visit plus generic mupirocin ointment or an oral antibiotic like cephalexin (typically $8–$20 with a pharmacy coupon) means most patients pay about $87–$99 all-in — no membership, treatment selected by lesion extent and MRSA risk.",
     "noHiddenFees": "No hidden fees. If medication is not clinically appropriate, you still receive a complete evaluation, guidance, and clear instructions on what level of care you need next."
   },
   "whatIsCondition": {
@@ -608,6 +609,14 @@
       {
         "question": "How long does impetigo take to heal with treatment?",
         "answer": "With appropriate antibiotic treatment, most cases of impetigo clear within 7 to 10 days. Topical therapy for limited disease typically shows improvement within 2 to 3 days. Without treatment, impetigo can take 2 to 3 weeks to resolve on its own and carries a higher risk of spreading to others and developing complications."
+      },
+      {
+        "question": "How much does treating impetigo online cost without insurance in {state}?",
+        "answer": "The visit is $79 flat, no insurance required, and generic mupirocin ointment or an oral antibiotic like cephalexin typically adds $8 to $20 at the pharmacy — most patients pay under $100 total."
+      },
+      {
+        "question": "How do I keep impetigo from spreading to other parts of my body or my family in {state}?",
+        "answer": "Impetigo is contagious through direct contact, so avoid sharing towels or bedding, keep the area covered, and wash your hands frequently while it heals. The MD can also advise on how long to expect contagiousness to last once treatment starts."
       }
     ],
     "bottomCta": {

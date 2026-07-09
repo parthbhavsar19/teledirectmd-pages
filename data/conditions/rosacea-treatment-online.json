@@ -47,7 +47,8 @@
       ],
       "note": "Adults 18+ only. TeleDirectMD is not an emergency service. Seek ophthalmology care for eye pain, vision changes, or severe ocular rosacea. Seek dermatology referral for rhinophyma, severe refractory disease, or isotretinoin consideration. TeleDirectMD does not prescribe controlled substances."
     },
-    "icd10Display": "L71.9, L71.0, L71.1, L71.8 (final coding depends on clinical details)"
+    "icd10Display": "L71.9, L71.0, L71.1, L71.8 (final coding depends on clinical details)",
+    "quickAnswer": "Yes — adults (18+) in {state} with rosacea can be treated online. A board-certified MD reviews your photos and subtype by secure video and, per AAD/AAFP/AARS guidance, prescribes topical metronidazole, ivermectin cream, or azelaic acid for redness and bumps, or subantimicrobial-dose doxycycline for inflammatory rosacea, sent to your pharmacy same day. Visit price: $79 flat, no insurance required. Improvement takes 8–12 weeks of consistent use. Eye pain or vision changes, or significant nasal thickening, needs in-person specialist evaluation."
   },
   "eligibility": {
     "sectionTitle": "Rosacea Telehealth Eligibility Checklist for {state}",
@@ -193,7 +194,7 @@
     "sectionTitle": "What Does Online Rosacea Treatment Cost in {state}?",
     "subtitle": "Transparent options. Insurance is not required.",
     "visitPrice": "$79",
-    "priceSubtext": "Self pay option. Insurance is not required.",
+    "priceSubtext": "$79 flat visit · no insurance required · generic topical metronidazole often $10–$25",
     "includes": [
       "MD evaluation and red-flag screening",
       "Photo-based rosacea assessment and subtype classification",
@@ -227,7 +228,7 @@
         "isTdmd": false
       }
     ],
-    "footnote": "Prescription costs are separate and vary by medication and pharmacy.",
+    "footnote": "Total cost is transparent: the $79 visit plus generic topical metronidazole, azelaic acid, or low-dose doxycycline (typically $10–$25 with a pharmacy coupon) means most patients pay about $89–$104 all-in — no membership, with results building over 8–12 weeks.",
     "noHiddenFees": "No hidden fees. If medication is not clinically appropriate, you still receive a complete evaluation, guidance, and clear instructions on what level of care you need next."
   },
   "whatIsCondition": {
@@ -575,6 +576,14 @@
       {
         "question": "How long does rosacea treatment take to work?",
         "answer": "Most patients see initial improvement in 4-6 weeks, with meaningful results at 8-12 weeks of consistent treatment. Topical vasoconstrictors for redness (brimonidine, oxymetazoline) work within 30 minutes but provide temporary relief. Long-term management with anti-inflammatory topicals and trigger avoidance provides the most durable results."
+      },
+      {
+        "question": "How much does online rosacea treatment cost without insurance in {state}?",
+        "answer": "The visit is $79 flat, no insurance required, and generic topical metronidazole or azelaic acid typically adds $10 to $25 at the pharmacy, so most patients pay under $105 total."
+      },
+      {
+        "question": "Can rosacea affect my eyes, and would telehealth catch that in {state}?",
+        "answer": "Yes — ocular rosacea can cause eye dryness, irritation, or redness, and the MD will ask about eye symptoms during your visit. If you have eye pain, vision changes, or significant ocular symptoms, you'll need an in-person ophthalmology evaluation rather than telehealth alone."
       }
     ],
     "bottomCta": {

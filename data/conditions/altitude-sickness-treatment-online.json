@@ -47,7 +47,8 @@
       ],
       "note": "Adults 18+ only. TeleDirectMD is not an emergency service. If you are currently at altitude with severe headache, confusion, loss of coordination, persistent dry cough, or shortness of breath at rest, descend immediately and seek emergency care. TeleDirectMD does not prescribe controlled substances and does not prescribe emergency medications such as dexamethasone or nifedipine."
     },
-    "icd10Display": "T70.29 (other effects of high altitude — final coding depends on clinical details)"
+    "icd10Display": "T70.29 (other effects of high altitude — final coding depends on clinical details)",
+    "quickAnswer": "Yes — adults (18+) in {state} planning high-altitude travel can get AMS prevention medication online before their trip. A board-certified MD reviews your itinerary and ascent profile by secure video and, when acclimatization time is limited, prescribes acetazolamide — the only FDA-approved AMS prophylaxis medication — sent to your pharmacy same day. Visit price: $79 flat, no insurance required. Not for a sulfa allergy or if you're already experiencing confusion or ataxia at altitude, which need emergency descent and care."
   },
   "eligibility": {
     "sectionTitle": "Altitude Sickness Telehealth Eligibility Checklist for {state}",
@@ -211,7 +212,7 @@
     "sectionTitle": "What Does Altitude Sickness Prevention Cost in {state}?",
     "subtitle": "Transparent options. Insurance is not required.",
     "visitPrice": "$79",
-    "priceSubtext": "Self pay option. Insurance is not required.",
+    "priceSubtext": "$79 flat visit · no insurance required · generic acetazolamide often $7–$20 for a 10-day course",
     "includes": [
       "MD evaluation of travel plans, ascent profile, and altitude history",
       "Sulfa-allergy screening and contraindication assessment",
@@ -245,7 +246,7 @@
         "isTdmd": false
       }
     ],
-    "footnote": "Prescription costs at your pharmacy are separate. Acetazolamide (generic Diamox) is widely available as a generic. Retail pricing for a 10-day course has been cited as approximately $6.68 to $20.29 depending on pharmacy and supply (GoodRx data, verified 2026-06-13). Costs vary by pharmacy, quantity, and coupon availability.",
+    "footnote": "Total cost is transparent: the $79 visit plus generic acetazolamide (about $7–$20 for a 10-day course via GoodRx, verified 2026-06-13) means most travelers pay roughly $86–$99 all-in before departure — no membership, no clinic visit needed.",
     "noHiddenFees": "No hidden fees. If acetazolamide is not clinically appropriate, you still receive a complete evaluation, acclimatization guidance, and clear instructions on what level of care is most appropriate for your planned trip."
   },
   "whatIsCondition": {
@@ -642,6 +643,14 @@
       {
         "question": "Should I take Diamox or just acclimatize naturally?",
         "answer": "This depends on your itinerary, destination altitude, ascent rate, and prior AMS history. Gradual acclimatization — gaining no more than 300 to 500 meters of sleeping altitude per day above 2,500 meters — is the non-pharmacological gold standard for AMS prevention and is recommended for all travelers regardless of medication use. However, many common travel itineraries do not permit gradual ascent: travelers flying directly to Cusco (3,400 m), La Paz (3,600 m), or arriving at Breckenridge from sea level on the same day have no acclimatization period. For these rapid-ascent itineraries, the CDC Yellow Book recommends acetazolamide prophylaxis. The two approaches are complementary, not mutually exclusive — most travelers benefit from both acetazolamide and building in acclimatization rest days on arrival. Travelers with prior AMS history reliably benefit from acetazolamide regardless of ascent rate, because their individual susceptibility means even moderate ascent rates can trigger symptoms. A telehealth visit reviews your specific itinerary to determine whether pharmacological prophylaxis is warranted."
+      },
+      {
+        "question": "How far in advance of my trip should I book an altitude sickness visit in {state}?",
+        "answer": "Book at least a few days before departure so the prescription arrives and you can start acetazolamide the day before ascent, since it works best when started 24 hours prior. Last-minute visits are still possible, but earlier booking avoids pharmacy delays."
+      },
+      {
+        "question": "Can TeleDirectMD prescribe medication for a Kilimanjaro or high-altitude trek in {state}?",
+        "answer": "Yes — the MD reviews your specific ascent profile (altitude, ascent rate, itinerary) and prior altitude sickness history to determine if acetazolamide prophylaxis is appropriate. Emergency medications like dexamethasone for HACE are not prescribed via telehealth and require in-person or on-trek emergency care."
       }
     ],
     "bottomCta": {

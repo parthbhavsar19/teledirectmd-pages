@@ -47,7 +47,8 @@
       ],
       "note": "Adults 18+ only. TeleDirectMD is not an emergency service. Go to urgent care or the ER now for difficulty breathing, wheezing with respiratory distress, severe facial swelling, signs of anaphylaxis, or high fever with severe sinus pain. TeleDirectMD does not prescribe controlled substances."
     },
-    "icd10Display": "J30.1, J30.2 (final coding depends on clinical details)"
+    "icd10Display": "J30.1, J30.2 (final coding depends on clinical details)",
+    "quickAnswer": "Yes — adults (18+) in {state} with seasonal allergic rhinitis can be treated online. A board-certified MD reviews your symptom pattern by secure video and, per ARIA-EAACI/AAAAI guidance, prescribes an intranasal corticosteroid like fluticasone as the most effective single agent, plus a second-generation antihistamine like cetirizine or montelukast as needed, sent to your pharmacy same day. Visit price: $79 flat, no insurance required. Starting 2–4 weeks before pollen season works best. Wheezing or chest tightness suggesting asthma needs additional in-person evaluation."
   },
   "eligibility": {
     "sectionTitle": "Seasonal Allergy Telehealth Eligibility Checklist for {state}",
@@ -197,7 +198,7 @@
     "sectionTitle": "What Does Seasonal Allergy Treatment Cost in {state}?",
     "subtitle": "Transparent options. Insurance is not required.",
     "visitPrice": "$79",
-    "priceSubtext": "Self pay option. Insurance is not required.",
+    "priceSubtext": "$79 flat visit · no insurance required · many first-line allergy meds available OTC at low cost",
     "includes": [
       "MD evaluation and red-flag screening",
       "Symptom severity classification and trigger assessment",
@@ -232,7 +233,7 @@
         "isTdmd": false
       }
     ],
-    "footnote": "Prescription costs at your pharmacy are separate and vary by medication and pharmacy. Many first-line allergy medications are available over the counter at low cost.",
+    "footnote": "Total cost is transparent: the $79 visit covers evaluation and a tailored regimen; many first-line allergy medications, like fluticasone nasal spray and cetirizine, are available over the counter at low cost, keeping your total modest.",
     "noHiddenFees": "No hidden fees. If medication is not clinically appropriate, you still receive a complete evaluation, guidance, and clear instructions on what level of care you need next."
   },
   "whatIsCondition": {
@@ -598,6 +599,14 @@
       {
         "question": "Is montelukast (Singulair) a good option for seasonal allergies?",
         "answer": "Montelukast is a leukotriene modifier that can help with allergic rhinitis, especially when co-occurring with asthma. However, it is generally less effective than intranasal corticosteroids as monotherapy for nasal allergy symptoms. The FDA has issued a boxed warning for montelukast regarding potential neuropsychiatric side effects including mood changes, sleep disturbances, and suicidal thoughts. Your MD will discuss the risks and benefits and determine whether montelukast is appropriate for your specific situation."
+      },
+      {
+        "question": "How much does online seasonal allergy treatment cost without insurance in {state}?",
+        "answer": "The visit is $79 flat with no insurance required, and many effective first-line medications, including intranasal steroids and second-generation antihistamines, are available over the counter at low cost."
+      },
+      {
+        "question": "When should I start allergy medication before pollen season hits in {state}?",
+        "answer": "Starting 2 to 4 weeks before your expected pollen season gives intranasal corticosteroids time to reach full effectiveness, since they take several days to build up. The MD can help time your regimen to your local pollen patterns."
       }
     ],
     "bottomCta": {

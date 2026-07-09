@@ -47,7 +47,8 @@
       ],
       "note": "Adults 18+ only. TeleDirectMD is not an emergency service. Go to the ER now for severe ear pain with high fever and mastoid swelling, facial nerve paralysis or facial droop, signs of necrotizing otitis externa (especially in diabetics or immunocompromised patients), ear pain with confusion or severe headache, bloody or clear fluid draining from the ear, or sudden complete hearing loss. TeleDirectMD does not prescribe controlled substances."
     },
-    "icd10Display": "H60.9, H66.9, H92.0, or H60.5 (final coding depends on clinical details)"
+    "icd10Display": "H60.9, H66.9, H92.0, or H60.5 (final coding depends on clinical details)",
+    "quickAnswer": "Yes — adults (18+) in {state} with ear pain can be evaluated online. A board-certified MD reviews your symptoms by secure video and, per AAO-HNS 2014 guidance, prescribes topical antibiotic eardrops like ofloxacin as first-line for swimmer's ear (not oral antibiotics), or amoxicillin when acute otitis media criteria are met, sent to your pharmacy same day. Visit price: $79 flat, no insurance required. Severe pain with high fever and swelling behind the ear, or facial weakness, needs in-person or ER evaluation."
   },
   "eligibility": {
     "sectionTitle": "Ear Pain Telehealth Eligibility Checklist for {state}",
@@ -197,7 +198,7 @@
     "sectionTitle": "What Does Ear Pain Treatment Cost in {state}?",
     "subtitle": "Transparent options. Insurance is not required.",
     "visitPrice": "$79",
-    "priceSubtext": "Self pay option. Insurance is not required.",
+    "priceSubtext": "$79 flat visit · no insurance required · generic otic drops often $10–$25",
     "includes": [
       "MD evaluation and red-flag screening",
       "Assessment for otitis externa vs otitis media vs referred pain",
@@ -231,7 +232,7 @@
         "isTdmd": false
       }
     ],
-    "footnote": "Prescription costs at your pharmacy are separate and vary by medication and pharmacy.",
+    "footnote": "Total cost is transparent: the $79 visit plus generic ofloxacin otic drops or amoxicillin (typically $10–$25 with a pharmacy coupon) means most patients pay about $89–$104 all-in — no membership, and topical therapy is preferred over oral antibiotics for swimmer's ear.",
     "noHiddenFees": "No hidden fees. If medication is not clinically appropriate, you still receive a complete evaluation, guidance, and clear instructions on what level of care you need next."
   },
   "whatIsCondition": {
@@ -575,6 +576,14 @@
       {
         "question": "When should I see an ENT specialist for ear pain?",
         "answer": "Consider ENT referral for recurrent ear infections (3 or more episodes per year), chronic ear drainage lasting more than 6 weeks, hearing loss that does not improve after infection treatment, suspected cholesteatoma or tympanic membrane perforation, ear canal conditions requiring debridement or wick placement, or when initial treatment has not resolved symptoms."
+      },
+      {
+        "question": "How much does online ear pain treatment cost without insurance in {state}?",
+        "answer": "The visit is $79 flat, no insurance required, and generic prescription eardrops or amoxicillin typically add $10 to $25 at the pharmacy, keeping most visits under $105 total."
+      },
+      {
+        "question": "Why did my doctor prescribe eardrops instead of an oral antibiotic pill for my ear pain in {state}?",
+        "answer": "For swimmer's ear (otitis externa), topical eardrops deliver a much higher local antibiotic concentration directly to the infection than an oral pill would, and AAO-HNS guidance strongly recommends this approach. Oral antibiotics are typically reserved for middle ear infections or when topical therapy isn't appropriate."
       }
     ],
     "bottomCta": {

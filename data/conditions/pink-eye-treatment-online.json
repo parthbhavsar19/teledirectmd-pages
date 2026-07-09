@@ -47,7 +47,8 @@
       ],
       "note": "Adults 18+ only. TeleDirectMD is not an emergency service. Go to the ER or see an ophthalmologist now for significant vision changes or vision loss, severe eye pain, copious purulent discharge suggesting gonococcal infection, photophobia, suspected corneal ulcer, periorbital swelling with fever, or suspected herpes eye disease. TeleDirectMD does not prescribe controlled substances."
     },
-    "icd10Display": "H10.9, H10.0, H10.1, H10.3, or B30.9 (final coding depends on clinical details)"
+    "icd10Display": "H10.9, H10.0, H10.1, H10.3, or B30.9 (final coding depends on clinical details)",
+    "quickAnswer": "Yes — adults (18+) in {state} with pink eye can be evaluated online. A board-certified MD reviews your discharge type and symptoms by secure video to distinguish bacterial, viral, or allergic conjunctivitis, then prescribes antibiotic drops like erythromycin ointment or polymyxin B/trimethoprim if bacterial, or antihistamine drops if allergic, sent to your pharmacy same day. Visit price: $79 flat, no insurance required. Steroid drops are never prescribed without a slit-lamp exam. Vision changes, severe worsening eye pain, or copious discharge need in-person evaluation."
   },
   "eligibility": {
     "sectionTitle": "Pink Eye Telehealth Eligibility Checklist for {state}",
@@ -199,7 +200,7 @@
     "sectionTitle": "What Does Pink Eye Treatment Cost in {state}?",
     "subtitle": "Transparent options. Insurance is not required.",
     "visitPrice": "$79",
-    "priceSubtext": "Self pay option. Insurance is not required.",
+    "priceSubtext": "$79 flat visit · no insurance required · generic antibiotic eye drops often $10–$25",
     "includes": [
       "MD evaluation and red-flag screening",
       "Assessment of bacterial vs viral vs allergic conjunctivitis",
@@ -233,7 +234,7 @@
         "isTdmd": false
       }
     ],
-    "footnote": "Prescription costs at your pharmacy are separate and vary by medication and pharmacy.",
+    "footnote": "Total cost is transparent: the $79 visit plus generic antibiotic eye drops (typically $10–$25 with a pharmacy coupon) means most patients pay about $89–$104 all-in — no membership, and many cases actually resolve with supportive care alone.",
     "noHiddenFees": "No hidden fees. If medication is not clinically appropriate, you still receive a complete evaluation, guidance, and clear instructions on what level of care you need next."
   },
   "whatIsCondition": {
@@ -595,6 +596,14 @@
       {
         "question": "Can telehealth prescribe steroid eye drops for pink eye?",
         "answer": "No. TeleDirectMD does not prescribe steroid eye drops because their use requires a slit-lamp examination to rule out herpes keratitis. Using steroid drops on an eye with undiagnosed herpes infection can cause corneal melting and permanent vision damage. If you believe you need steroid drops, in-person ophthalmology evaluation is required."
+      },
+      {
+        "question": "How much does online pink eye treatment cost without insurance in {state}?",
+        "answer": "The visit is $79 flat, no insurance required, and generic antibiotic eye drops, if bacterial conjunctivitis is likely, typically add $10 to $25 at the pharmacy — most patients pay under $105 total."
+      },
+      {
+        "question": "Can I wear contact lenses while I have pink eye in {state}?",
+        "answer": "No — contact lenses should be avoided until your pink eye has fully resolved and you've discarded any lenses worn during the infection, since they can worsen or prolong the condition. The MD can advise on timing for safely resuming contact lens wear."
       }
     ],
     "bottomCta": {

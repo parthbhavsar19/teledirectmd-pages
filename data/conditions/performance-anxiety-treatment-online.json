@@ -47,7 +47,8 @@
       ],
       "note": "Adults 18+ only. TeleDirectMD is not an emergency service. Go to urgent care or the ER now for chest pain, severe shortness of breath, fainting, or active suicidal ideation. TeleDirectMD does not prescribe controlled substances. Propranolol is not a controlled substance."
     },
-    "icd10Display": "F40.10, R45.0 (final coding depends on clinical details)"
+    "icd10Display": "F40.10, R45.0 (final coding depends on clinical details)",
+    "quickAnswer": "Yes — adults (18+) in {state} with situational performance anxiety can be treated online. A board-certified MD reviews your symptoms and history by secure video and, when appropriate, prescribes propranolol — used off-label to block the physical adrenaline response without sedation — plus behavioral strategies, sent to your pharmacy same day. Visit price: $79 flat, no insurance required, discreet. Propranolol is not a controlled substance. Asthma, COPD, or reactive airway disease is an absolute contraindication and needs a different approach."
   },
   "eligibility": {
     "sectionTitle": "Performance Anxiety Telehealth Eligibility Checklist for {state}",
@@ -196,7 +197,7 @@
     "sectionTitle": "What Does Performance Anxiety Treatment Cost in {state}?",
     "subtitle": "Transparent options. Insurance is not required.",
     "visitPrice": "$79",
-    "priceSubtext": "Self pay option. Insurance is not required.",
+    "priceSubtext": "$79 flat, discreet visit · no insurance required · generic propranolol often inexpensive",
     "includes": [
       "MD evaluation and contraindication screening",
       "Assessment of situational vs chronic anxiety pattern",
@@ -230,7 +231,7 @@
         "isTdmd": false
       }
     ],
-    "footnote": "Prescription costs at your pharmacy are separate and vary by medication and pharmacy. Generic propranolol is widely available and typically inexpensive.",
+    "footnote": "Total cost is transparent: the $79 visit plus generic propranolol (widely available and typically inexpensive) means most patients pay a modest total all-in — no membership, and a test dose before your first event is often recommended.",
     "noHiddenFees": "No hidden fees. If medication is not clinically appropriate, you still receive a complete evaluation, guidance, and clear instructions on what level of care you need next."
   },
   "whatIsCondition": {
@@ -591,6 +592,14 @@
       {
         "question": "Is it safe to take propranolol with other medications?",
         "answer": "Propranolol can interact with certain medications including other blood pressure medications, calcium channel blockers, and some antidepressants. The MD will review your current medication list during the video visit. Always disclose all medications and supplements you are taking."
+      },
+      {
+        "question": "How much does a performance anxiety visit cost online without insurance in {state}?",
+        "answer": "The visit is $79 flat, no insurance required, and generic propranolol is widely available at low cost, keeping your total modest whether you need it occasionally or before recurring events."
+      },
+      {
+        "question": "Can I try propranolol before an important event without testing it first in {state}?",
+        "answer": "It's strongly recommended to try a test dose on a low-stakes day before relying on it for an important event, since individual response and side effects vary. The MD can advise on timing and dosing so you know what to expect ahead of time."
       }
     ],
     "bottomCta": {

@@ -47,7 +47,8 @@
       ],
       "note": "Adults 18+ only. TeleDirectMD is not an emergency service. Seek urgent in-person care now for severe muscle pain with weakness or dark urine, chest pain, new jaundice, or confusion. TeleDirectMD does not prescribe controlled substances."
     },
-    "icd10Display": "E78.5, E78.00 (final coding depends on clinical details)"
+    "icd10Display": "E78.5, E78.00 (final coding depends on clinical details)",
+    "quickAnswer": "Yes — adults (18+) in {state} on an established statin or other lipid-lowering therapy can refill it online. A board-certified MD reviews your cardiovascular risk history by secure video and, per ACC/AHA 2018 guidance, continues your current high-, moderate-, or low-intensity statin, or an add-on like a cholesterol absorption inhibitor, sent to your pharmacy same day. Visit price: $79 flat, no insurance required. Severe muscle pain/weakness or dark urine (possible rhabdomyolysis) needs in-person evaluation, not a refill."
   },
   "eligibility": {
     "sectionTitle": "Hyperlipidemia Refill Telehealth Eligibility Checklist for {state}",
@@ -189,7 +190,7 @@
     "sectionTitle": "What Do Online Cholesterol Medication Refills Cost in {state}?",
     "subtitle": "Transparent options. Insurance is not required.",
     "visitPrice": "$79",
-    "priceSubtext": "Self pay option. Insurance is not required.",
+    "priceSubtext": "$79 flat visit · no insurance required · generic statins often $4–$15/month",
     "includes": [
       "MD evaluation and red-flag screening",
       "Statin and lipid-lowering medication refill review",
@@ -223,7 +224,7 @@
         "isTdmd": false
       }
     ],
-    "footnote": "Prescription costs are separate and vary by medication and pharmacy. Generic statins such as atorvastatin and simvastatin are typically $4 to $15 per month at most pharmacies.",
+    "footnote": "Total cost is transparent: the $79 visit plus a generic statin like atorvastatin or simvastatin (often $4–$15 per month) means most patients pay about $83–$94 all-in for a stable refill — no membership, no repeat lab draw at every single visit.",
     "noHiddenFees": "No hidden fees. If medication is not clinically appropriate, you still receive a complete evaluation, guidance, and clear instructions on what level of care you need next."
   },
   "whatIsCondition": {
@@ -590,6 +591,14 @@
       {
         "question": "Can TeleDirectMD provide cholesterol medication refill care in other states?",
         "answer": "Yes. TeleDirectMD offers adult evaluations via video visits across multiple states. You must be physically located in the state where you are requesting care at the time of the visit."
+      },
+      {
+        "question": "How much does a cholesterol medication refill cost online without insurance in {state}?",
+        "answer": "The visit is $79 flat, no insurance required, and generic statins like atorvastatin or simvastatin typically cost $4 to $15 per month, so most patients pay under $95 total for the visit plus a month's supply."
+      },
+      {
+        "question": "What happens if I stop my statin for a few weeks before getting a refill in {state}?",
+        "answer": "A short gap usually doesn't cause immediate harm, but stopping a statin removes its cardiovascular protection while you're off it, and restarting is generally fine once you get a refill. The MD will confirm there's no new muscle or liver symptom before continuing your prescription."
       }
     ],
     "bottomCta": {

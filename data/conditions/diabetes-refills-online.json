@@ -47,7 +47,8 @@
       ],
       "note": "Adults 18+ only. TeleDirectMD is not an emergency service. Seek urgent in-person care now for blood sugar above 400 mg/dL, symptoms of diabetic ketoacidosis (nausea, vomiting, abdominal pain, fruity breath, rapid breathing), severe hypoglycemia (confusion, loss of consciousness, seizures), or new signs of diabetic complications such as foot ulcers or sudden vision changes. TeleDirectMD does not prescribe controlled substances."
     },
-    "icd10Display": "E11.9, E11.65 (final coding depends on clinical details)"
+    "icd10Display": "E11.9, E11.65 (final coding depends on clinical details)",
+    "quickAnswer": "Yes — adults (18+) in {state} on a stable oral Type 2 diabetes regimen can refill medication online. A board-certified MD reviews your glycemic control history by secure video and, per ADA Standards of Care, refills metformin, an SGLT2 inhibitor, DPP-4 inhibitor, or other established oral therapy sent to your pharmacy same day. Visit price: $79 flat, no insurance required. This is refill/continuation care, not new diagnosis; insulin and GLP-1 injectables like Ozempic are not prescribed. Blood sugar above 400 mg/dL or DKA symptoms need emergency care."
   },
   "eligibility": {
     "sectionTitle": "Diabetes Medication Refill Telehealth Eligibility Checklist for {state}",
@@ -190,7 +191,7 @@
     "sectionTitle": "What Do Online Diabetes Medication Refills Cost in {state}?",
     "subtitle": "Transparent options. Insurance is not required.",
     "visitPrice": "$79",
-    "priceSubtext": "Self pay option. Insurance is not required.",
+    "priceSubtext": "$79 flat visit · no insurance required · generic metformin often $4–$15",
     "includes": [
       "MD evaluation and red-flag screening",
       "Diabetes medication and glycemic control review",
@@ -223,7 +224,7 @@
         "isTdmd": false
       }
     ],
-    "footnote": "Prescription costs are separate and vary by medication and pharmacy.",
+    "footnote": "Total cost is transparent: the $79 visit plus generic metformin or another oral diabetes medication (often $4–$15 at most pharmacies) means most patients pay about $83–$94 all-in for a stable refill — no membership, no lab draw required at every visit.",
     "noHiddenFees": "No hidden fees. If medication is not clinically appropriate, you still receive a complete evaluation, guidance, and clear instructions on what level of care you need next."
   },
   "whatIsCondition": {
@@ -578,6 +579,14 @@
       {
         "question": "Can TeleDirectMD provide diabetes medication refill care in other states?",
         "answer": "Yes. TeleDirectMD offers adult evaluations via video visits across multiple states. You must be physically located in the state where you are requesting care at the time of the visit."
+      },
+      {
+        "question": "What is the fastest way to refill diabetes medication online in {state}?",
+        "answer": "A same-day video visit is usually fastest when your diabetes is stable and this is a genuine continuation of your current regimen. The MD confirms recent control and any red flags, then sends the refill to your pharmacy right away."
+      },
+      {
+        "question": "Can TeleDirectMD refill insulin or Ozempic (GLP-1 injectables) online in {state}?",
+        "answer": "No — TeleDirectMD's diabetes refill service covers oral medications like metformin, SGLT2 inhibitors, and DPP-4 inhibitors only. Insulin and GLP-1 injectables require closer monitoring and are not part of this telehealth refill service."
       }
     ],
     "bottomCta": {

@@ -47,7 +47,8 @@
       ],
       "note": "Adults 18+ only. TeleDirectMD is not an emergency service. Seek emergency care immediately for sudden severe headache, vision changes, chest pain, shortness of breath, severe leg pain or swelling, or any concern for stroke, pulmonary embolism, or heart attack — these can be rare but serious complications associated with combined hormonal contraceptives. TeleDirectMD does not prescribe controlled substances."
     },
-    "icd10Display": "Z30.41, Z30.49 (final coding depends on clinical details)"
+    "icd10Display": "Z30.41, Z30.49 (final coding depends on clinical details)",
+    "quickAnswer": "Yes — adults (18+) in {state} already established on hormonal contraception can refill it online. A board-certified MD screens for contraindications by secure video and continues your existing pill, patch, or ring — such as a combined OCP or progestin-only mini-pill — sent to your pharmacy same day. Visit price: $79 flat, no insurance required. This is a continuation service, not a first-time start. New migraines with aura, high blood pressure, or a DVT/PE history need in-person evaluation before continuing."
   },
   "eligibility": {
     "sectionTitle": "Birth Control Refill Telehealth Eligibility Checklist for {state}",
@@ -190,7 +191,7 @@
     "sectionTitle": "What Do Online Birth Control Refills Cost in {state}?",
     "subtitle": "Transparent options. Insurance is not required.",
     "visitPrice": "$79",
-    "priceSubtext": "Self pay option. Insurance is not required.",
+    "priceSubtext": "$79 flat visit · no insurance required · pill/patch/ring costs vary by brand and pharmacy",
     "includes": [
       "MD evaluation and contraindication screening per CDC US MEC 2024",
       "Review of current method, dose, adherence, and satisfaction",
@@ -223,7 +224,7 @@
         "isTdmd": false
       }
     ],
-    "footnote": "Prescription costs at your pharmacy are separate and vary by medication, brand versus generic, and pharmacy.",
+    "footnote": "Total cost is transparent: the $79 visit covers contraindication screening and the refill; your contraceptive's pharmacy cost depends on brand versus generic and your insurance, so ask your pharmacist about generic substitution to lower it further.",
     "noHiddenFees": "No hidden fees. If a refill is not clinically appropriate after the visit, you still receive a complete evaluation, clear explanation of why, and instructions on what level of care you need next."
   },
   "whatIsCondition": {
@@ -604,6 +605,14 @@
       {
         "question": "Can I use my insurance for a TeleDirectMD visit?",
         "answer": "Insurance is not required. If your plan is eligible, you may be able to use insurance for a TeleDirectMD visit. A self pay option starting at $79 is also available."
+      },
+      {
+        "question": "How much does an online birth control refill cost without insurance in {state}?",
+        "answer": "The visit itself is $79 flat, no insurance required. Your contraceptive's cost at the pharmacy depends on whether it's brand or generic — generics are often far cheaper, so ask your pharmacist about substitution options."
+      },
+      {
+        "question": "Can I switch to a different birth control pill during a TeleDirectMD refill visit?",
+        "answer": "TeleDirectMD refill visits are designed to continue your current, established prescription rather than switch formulations. If you're interested in changing methods, that discussion is better suited to a visit focused on starting a new contraceptive, which may need more detailed evaluation."
       }
     ],
     "bottomCta": {

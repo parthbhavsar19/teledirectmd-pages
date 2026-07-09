@@ -47,7 +47,8 @@
       ],
       "note": "Adults 18+ only. TeleDirectMD is not an emergency service. Go to urgent care or the ER now for difficulty breathing or throat swelling (anaphylaxis), severe facial or periorbital swelling, signs of secondary infection with fever or red streaking, widespread blistering covering more than 10 percent of body surface area, or rapidly worsening symptoms. TeleDirectMD does not prescribe controlled substances."
     },
-    "icd10Display": "L25.9, L23.9, L24.9 (final coding depends on clinical details)"
+    "icd10Display": "L25.9, L23.9, L24.9 (final coding depends on clinical details)",
+    "quickAnswer": "Yes — adults (18+) in {state} with a suspected allergic or irritant skin reaction can be treated online. A board-certified MD reviews your rash photos and exposure history by secure video and, after trigger identification, prescribes topical steroids like triamcinolone, an oral prednisone taper for severe cases, or an antihistamine such as cetirizine, sent to your pharmacy same day. Visit price: $79 flat, no insurance required. Difficulty breathing, throat tightness, or severe facial swelling needs emergency care, not telehealth."
   },
   "eligibility": {
     "sectionTitle": "Contact Dermatitis Telehealth Eligibility Checklist for {state}",
@@ -197,7 +198,7 @@
     "sectionTitle": "What Does Contact Dermatitis Treatment Cost in {state}?",
     "subtitle": "Transparent options. Insurance is not required.",
     "visitPrice": "$79",
-    "priceSubtext": "Self pay option. Insurance is not required.",
+    "priceSubtext": "$79 flat visit · no insurance required · generic topical steroids often $5–$15",
     "includes": [
       "MD evaluation and red-flag screening",
       "Assessment of rash pattern and exposure history for irritant vs allergic contact dermatitis",
@@ -231,7 +232,7 @@
         "isTdmd": false
       }
     ],
-    "footnote": "Prescription costs at your pharmacy are separate and vary by medication and pharmacy.",
+    "footnote": "Total cost is transparent: the $79 visit plus a generic topical or oral steroid (typically $5–$15 with a pharmacy coupon) means most patients pay about $84–$94 all-in — no membership, and identifying the trigger is the most important step toward clearing the rash.",
     "noHiddenFees": "No hidden fees. If medication is not clinically appropriate, you still receive a complete evaluation, guidance, and clear instructions on what level of care you need next."
   },
   "whatIsCondition": {
@@ -580,6 +581,14 @@
       {
         "question": "Does TeleDirectMD do patch testing for allergies?",
         "answer": "No. Patch testing is an in-person procedure performed by a dermatologist or allergist. It involves applying small amounts of common allergens to the skin under patches and reading the results after 48 to 96 hours. TeleDirectMD can evaluate and treat contact dermatitis and refer you for patch testing if recurrent allergic contact dermatitis is suspected and the trigger has not been identified."
+      },
+      {
+        "question": "How much does online contact dermatitis treatment cost without insurance in {state}?",
+        "answer": "The visit is $79 flat with no insurance required, and generic topical steroids typically add only $5 to $15 at the pharmacy, so most patients pay under $95 total."
+      },
+      {
+        "question": "Can TeleDirectMD tell me what caused my contact dermatitis rash in {state}?",
+        "answer": "The MD can review your exposure history and rash pattern to identify likely irritant or allergic triggers, such as a new product, plant, or metal. Confirming a specific allergen with formal patch testing, however, requires an in-person dermatology referral."
       }
     ],
     "bottomCta": {

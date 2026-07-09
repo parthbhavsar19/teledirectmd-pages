@@ -47,7 +47,8 @@
       ],
       "note": "Adults 18+ only. TeleDirectMD is not an emergency service. TeleDirectMD does not prescribe isotretinoin (Accutane) or controlled substances. Severe nodulocystic acne, acne with significant scarring, or cases requiring isotretinoin should be evaluated by a dermatologist in person."
     },
-    "icd10Display": "L70.0, L70.1, L70.9 (final coding depends on clinical details)"
+    "icd10Display": "L70.0, L70.1, L70.9 (final coding depends on clinical details)",
+    "quickAnswer": "Yes — adults (18+) in {state} with mild to moderate acne can be evaluated online. A board-certified MD reviews your photos and history by secure video and, per AAD 2024 guidance, prescribes foundational therapy — a topical retinoid like adapalene, benzoyl peroxide, or, when appropriate, an oral agent such as doxycycline or spironolactone — sent to your pharmacy the same day. Visit price: $79 flat, no insurance required. Expect 6–12 weeks for visible improvement. Severe nodulocystic acne or isotretinoin candidates need in-person dermatology."
   },
   "eligibility": {
     "sectionTitle": "Acne Telehealth Eligibility Checklist for {state}",
@@ -195,7 +196,7 @@
     "sectionTitle": "What Does Acne Treatment Cost in {state}?",
     "subtitle": "Transparent options. Insurance is not required.",
     "visitPrice": "$79",
-    "priceSubtext": "Self pay option. Insurance is not required.",
+    "priceSubtext": "$79 flat visit · no insurance required · most generic topicals add only $5–$20",
     "includes": [
       "MD evaluation with photo-based acne assessment",
       "Severity grading and treatment plan based on AAD guidelines",
@@ -229,7 +230,7 @@
         "isTdmd": false
       }
     ],
-    "footnote": "Prescription costs at your pharmacy are separate and vary by medication and pharmacy.",
+    "footnote": "Total cost is transparent: the $79 visit plus a generic topical retinoid or benzoyl peroxide (typically $5–$20 with a pharmacy coupon) means most patients pay about $84–$99 all-in — no membership, no surprise fees, and treatment often layers multiple mechanisms per AAD guidance.",
     "noHiddenFees": "No hidden fees. If medication is not clinically appropriate, you still receive a complete evaluation, guidance, and clear instructions on what level of care you need next."
   },
   "whatIsCondition": {
@@ -572,6 +573,14 @@
       {
         "question": "What if over-the-counter products have not helped my acne?",
         "answer": "Many people try over-the-counter products without seeing adequate results because the products may not be the right strength, combination, or type for their acne severity. Prescription-strength retinoids, topical antibiotic and benzoyl peroxide combinations, and oral antibiotics for moderate acne are often significantly more effective than OTC products alone. TeleDirectMD can evaluate your acne and determine whether prescription treatment is appropriate."
+      },
+      {
+        "question": "How much does online acne treatment cost without insurance in {state}?",
+        "answer": "The TeleDirectMD visit is $79 flat with no insurance required. Most first-line acne medications — topical retinoids, benzoyl peroxide, or generic oral antibiotics — cost roughly $5 to $20 at the pharmacy, so total out-of-pocket is typically under $100."
+      },
+      {
+        "question": "Can TeleDirectMD treat acne caused by hormones or PCOS?",
+        "answer": "Yes, if it's mild to moderate — the MD may consider spironolactone as part of a hormonal-acne approach after reviewing your history. Severe or treatment-resistant hormonal acne, or acne needing hormonal workup, is best paired with in-person or specialist evaluation."
       }
     ],
     "bottomCta": {

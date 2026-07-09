@@ -47,7 +47,8 @@
       ],
       "note": "Adults 18+ only. TeleDirectMD is not an emergency service. If you are experiencing anaphylaxis symptoms now — throat swelling, difficulty breathing, widespread hives with dizziness, or collapse — use your EpiPen immediately and call 911. Do not use telehealth for active anaphylaxis. TeleDirectMD does not prescribe controlled substances."
     },
-    "icd10Display": "Z87.892, T78.2XXA (final coding depends on clinical details)"
+    "icd10Display": "Z87.892, T78.2XXA (final coding depends on clinical details)",
+    "quickAnswer": "Yes — adults (18+) in {state} with a known severe allergy can refill their epinephrine auto-injector online. A board-certified MD confirms your allergy history by secure video and refills your EpiPen, generic epinephrine auto-injector, or an alternative device like Auvi-Q, typically as a 2-pack per national guidelines, sent to your pharmacy same day. Visit price: $79 flat, no insurance required. If you're experiencing anaphylaxis right now, use your EpiPen and call 911 — this is not a substitute for emergency care."
   },
   "eligibility": {
     "sectionTitle": "EpiPen Refill Telehealth Eligibility Checklist for {state}",
@@ -188,7 +189,7 @@
     "sectionTitle": "What Do Online EpiPen Refills Cost in {state}?",
     "subtitle": "Transparent options. Insurance is not required.",
     "visitPrice": "$79",
-    "priceSubtext": "Self pay option. Insurance is not required.",
+    "priceSubtext": "$79 flat visit · no insurance required · auto-injector cost varies widely by brand/generic",
     "includes": [
       "MD evaluation and red-flag screening",
       "Allergy history and anaphylaxis risk review",
@@ -221,7 +222,7 @@
         "isTdmd": false
       }
     ],
-    "footnote": "Prescription costs are separate and vary by auto-injector brand and pharmacy. EpiPen and generic epinephrine auto-injector costs vary widely — ask your pharmacist about savings programs and generic options.",
+    "footnote": "Total cost is transparent: the $79 visit covers the refill evaluation; epinephrine auto-injector pricing varies substantially between brand-name EpiPen and generic versions, so ask your pharmacist about savings programs to reduce your total cost.",
     "noHiddenFees": "No hidden fees. If a refill is not clinically appropriate, you still receive a complete evaluation, guidance, and clear instructions on what level of care you need next."
   },
   "whatIsCondition": {
@@ -575,6 +576,14 @@
       {
         "question": "Can TeleDirectMD provide EpiPen refill care in other states?",
         "answer": "Yes. TeleDirectMD offers adult evaluations via video visits across multiple states. You must be physically located in the state where you are requesting care at the time of the visit."
+      },
+      {
+        "question": "How much does an EpiPen refill visit cost without insurance in {state}?",
+        "answer": "The visit is $79 flat, no insurance required. The auto-injector itself varies in price depending on whether you choose brand-name EpiPen or a generic epinephrine auto-injector, so it's worth asking your pharmacist about lower-cost options."
+      },
+      {
+        "question": "Can TeleDirectMD refill my EpiPen if it's already expired in {state}?",
+        "answer": "Yes — this is actually one of the most common reasons for a refill visit, since expired auto-injectors may have reduced effectiveness. The MD will confirm your allergy history and prescribe a fresh 2-pack so you always have unexpired epinephrine on hand."
       }
     ],
     "bottomCta": {

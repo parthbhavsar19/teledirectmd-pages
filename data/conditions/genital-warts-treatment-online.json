@@ -47,7 +47,8 @@
       ],
       "note": "Adults 18+ only. TeleDirectMD is not an emergency service. Seek urgent in-person care immediately for rapidly growing, bleeding, or ulcerated genital lesions, lesions suspected of malignant transformation, large or obstructing warts, or signs of severe systemic illness. TeleDirectMD does not prescribe controlled substances."
     },
-    "icd10Display": "A63.0 (final coding depends on clinical details)"
+    "icd10Display": "A63.0 (final coding depends on clinical details)",
+    "quickAnswer": "Yes — adults (18+) in {state} with external anogenital warts can get patient-applied treatment online. A board-certified MD reviews your wart location and history by secure video and, per 2021 CDC STI Treatment Guidelines, prescribes one of three topical regimens — imiquimod cream, podofilox solution, or sinecatechins ointment — sent to your pharmacy same day. Visit price: $79 flat, no insurance required, confidential. Treatment choice depends on wart size, location, and pregnancy status. Internal or extensive warts need in-person procedural evaluation."
   },
   "eligibility": {
     "sectionTitle": "Genital Warts Telehealth Eligibility Checklist for {state}",
@@ -194,7 +195,7 @@
     "sectionTitle": "What Does Online Genital Warts Treatment Cost in {state}?",
     "subtitle": "Transparent options. Insurance is not required.",
     "visitPrice": "$79",
-    "priceSubtext": "Self pay option. Insurance is not required.",
+    "priceSubtext": "$79 flat, confidential visit · no insurance required · topical costs vary by medication",
     "includes": [
       "MD evaluation and red-flag screening",
       "Visual assessment of external warts by secure video",
@@ -228,7 +229,7 @@
         "isTdmd": false
       }
     ],
-    "footnote": "Prescription costs are separate and vary by medication and pharmacy. Topical treatments for genital warts (imiquimod, podofilox, sinecatechins) can vary widely in cost; ask your pharmacist about generic availability and pricing.",
+    "footnote": "Total cost is transparent: the $79 visit covers evaluation and prescription of a CDC-recommended topical regimen; pharmacy cost for imiquimod, podofilox, or sinecatechins varies, so ask your pharmacist about generic availability to keep your total as low as possible.",
     "noHiddenFees": "No hidden fees. If medication is not clinically appropriate or in-person care is needed, you still receive a complete evaluation, guidance, and clear instructions on what level of care you need next."
   },
   "whatIsCondition": {
@@ -586,6 +587,14 @@
       {
         "question": "What is the difference between genital warts and herpes?",
         "answer": "Genital warts are soft, raised, flesh-colored, painless or mildly uncomfortable growths caused by HPV types 6 or 11. Genital herpes causes painful vesicles (blisters) that progress to ulcers, often with tingling, burning, or flu-like symptoms, and is caused by herpes simplex virus (HSV). They are different viruses requiring different treatments. TeleDirectMD can help evaluate which is more likely based on your symptom history."
+      },
+      {
+        "question": "How much does online genital warts treatment cost without insurance in {state}?",
+        "answer": "The visit is $79 flat with no insurance required. Topical medication costs at the pharmacy vary by which regimen is prescribed, so ask your pharmacist about generic options for imiquimod or podofilox to reduce your total."
+      },
+      {
+        "question": "Will patient-applied topical treatment fully cure my genital warts in {state}?",
+        "answer": "Topical treatments clear visible warts in many patients, but no single treatment works for everyone, and warts can recur since the underlying HPV virus isn't eliminated. The MD selects your regimen based on wart size, location, and history, and can discuss provider-administered options if topical therapy isn't enough."
       }
     ],
     "bottomCta": {

@@ -47,7 +47,8 @@
       ],
       "note": "Adults 18+ only. TeleDirectMD is not an emergency service. Go to urgent care or the ER now for sudden vision loss, severe eye pain, eye trauma, signs of eye infection with swelling and discharge, or severe allergic reaction. TeleDirectMD does not prescribe controlled substances."
     },
-    "icd10Display": "H02.739 (final coding depends on clinical details)"
+    "icd10Display": "H02.739 (final coding depends on clinical details)",
+    "quickAnswer": "Yes — adults (18+) in {state} seeking longer, fuller eyelashes can be evaluated online. A board-certified MD reviews your eye health history by secure video and, since bimatoprost 0.03% (Latisse) is the only FDA-approved prescription treatment for eyelash hypotrichosis, prescribes it or its generic equivalent, sent to your pharmacy same day. Visit price: $79 flat, no insurance required. Results begin at 8 weeks, full results at 16 weeks, and must be maintained with continued use. Active eye infection, eye pain, or glaucoma history needs in-person evaluation first."
   },
   "eligibility": {
     "sectionTitle": "Eyelash Growth Telehealth Eligibility Checklist for {state}",
@@ -195,7 +196,7 @@
     "sectionTitle": "What Does Eyelash Growth Treatment Cost in {state}?",
     "subtitle": "Transparent options. Insurance is not required.",
     "visitPrice": "$79",
-    "priceSubtext": "Self pay option. Insurance is not required.",
+    "priceSubtext": "$79 flat visit · no insurance required · generic bimatoprost often cheaper than brand Latisse",
     "includes": [
       "MD evaluation and red-flag screening for eye disease",
       "Assessment of eyelash hypotrichosis and underlying causes",
@@ -229,7 +230,7 @@
         "isTdmd": false
       }
     ],
-    "footnote": "Prescription costs at your pharmacy are separate and vary by medication and pharmacy. Brand-name Latisse is typically more expensive than generic bimatoprost.",
+    "footnote": "Total cost is transparent: the $79 visit plus generic bimatoprost (typically less expensive than brand-name Latisse) means most patients keep their total well under $150 — no membership, no in-office visit required.",
     "noHiddenFees": "No hidden fees. If medication is not clinically appropriate, you still receive a complete evaluation, guidance, and clear instructions on what level of care you need next."
   },
   "whatIsCondition": {
@@ -591,6 +592,14 @@
       {
         "question": "What if my eyelash loss is from a medical condition?",
         "answer": "If your eyelash loss is caused by an underlying condition such as alopecia areata, thyroid disease, or medication side effects, the underlying cause should be evaluated and treated in addition to or before starting bimatoprost. TeleDirectMD screens for red flags suggesting underlying conditions and will refer you to in-person dermatology, endocrinology, or ophthalmology when appropriate."
+      },
+      {
+        "question": "How much does an online Latisse (bimatoprost) prescription cost in {state}?",
+        "answer": "The visit is $79 flat with no insurance required. Generic bimatoprost is typically much less expensive than brand-name Latisse, so choosing the generic can meaningfully lower your total cost."
+      },
+      {
+        "question": "Will my eyelashes fall out if I stop using bimatoprost in {state}?",
+        "answer": "Your lashes will gradually return to their pre-treatment length and thickness over weeks to months after stopping, rather than falling out abruptly. Continued nightly use is needed to maintain the longer, fuller results."
       }
     ],
     "bottomCta": {

@@ -47,7 +47,8 @@
       ],
       "note": "Adults 18+ only. TeleDirectMD is not an emergency service. Seek in-person care for hair loss with scaling suspicious for tinea capitis (fungal infection requiring culture), severe treatment-resistant seborrheic dermatitis after 4-8 weeks of therapy, or thick silvery plaques suggesting psoriasis. TeleDirectMD does not prescribe controlled substances."
     },
-    "icd10Display": "L21.0 (seborrhea capitis), L21.9 (seborrheic dermatitis unspecified)"
+    "icd10Display": "L21.0 (seborrhea capitis), L21.9 (seborrheic dermatitis unspecified)",
+    "quickAnswer": "Yes — adults (18+) in {state} with dandruff or seborrheic dermatitis can be treated online. A board-certified MD reviews your scalp symptoms by secure video and, since Malassezia yeast drives the condition, prescribes an antifungal such as ketoconazole 2% shampoo or cream, or ciclopirox shampoo when OTC options have failed, sent to your pharmacy same day. Visit price: $79 flat, no insurance required. Maintenance therapy is usually needed since the underlying cause can't be eliminated. Patchy hair loss with scaling needs in-person fungal culture testing."
   },
   "eligibility": {
     "sectionTitle": "Dandruff Telehealth Eligibility Checklist for {state}",
@@ -193,7 +194,7 @@
     "sectionTitle": "What Does Dandruff Treatment Cost in {state}?",
     "subtitle": "Transparent options. Insurance is not required.",
     "visitPrice": "$79",
-    "priceSubtext": "Self pay option. Insurance is not required.",
+    "priceSubtext": "$79 flat visit · no insurance required · generic ketoconazole shampoo often $10–$25",
     "includes": [
       "MD evaluation and scalp symptom assessment",
       "Differentiation from psoriasis, tinea capitis, and contact dermatitis",
@@ -227,7 +228,7 @@
         "isTdmd": false
       }
     ],
-    "footnote": "Prescription costs at your pharmacy are separate and vary by medication and pharmacy.",
+    "footnote": "Total cost is transparent: the $79 visit plus generic prescription-strength ketoconazole shampoo (roughly $10–$25 with a pharmacy coupon) means most patients pay about $89–$104 all-in — no membership, and ongoing maintenance use keeps flare-ups controlled.",
     "noHiddenFees": "No hidden fees. If medication is not clinically appropriate, you still receive a complete evaluation, guidance, and clear instructions on what level of care you need next."
   },
   "whatIsCondition": {
@@ -571,6 +572,14 @@
       {
         "question": "Does TeleDirectMD treat dandruff in other states?",
         "answer": "Yes. TeleDirectMD offers adult evaluations via video visits across multiple states where our physicians are licensed. You must be physically located in the state where you are requesting care at the time of your video visit."
+      },
+      {
+        "question": "Is prescription ketoconazole shampoo worth paying for online if OTC dandruff shampoo hasn't worked in {state}?",
+        "answer": "Yes, if OTC zinc pyrithione or selenium sulfide hasn't controlled your flaking, prescription-strength ketoconazole 2% targets the underlying Malassezia yeast more effectively. The MD can confirm dandruff versus another scalp condition first, since treatment differs."
+      },
+      {
+        "question": "How do I know if my flaky scalp is dandruff or something else like psoriasis in {state}?",
+        "answer": "Dandruff typically causes fine, white-to-yellow flaking with mild itching, while scalp psoriasis often produces thicker, silvery, well-defined plaques. The MD can assess your photos and symptom pattern by video, though thick or unusual plaques may need an in-person look to rule out psoriasis."
       }
     ],
     "bottomCta": {

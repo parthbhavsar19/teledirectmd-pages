@@ -47,7 +47,8 @@
       ],
       "note": "Adults 18+ only. TeleDirectMD is not an emergency service. Go to the ER now for severe headache with high fever, visual changes or eye swelling, altered mental status, neck stiffness, facial cellulitis spreading rapidly, or any signs of orbital or intracranial complication. TeleDirectMD does not prescribe controlled substances."
     },
-    "icd10Display": "J01.90, J01.00, J01.10, or J01.20 (final coding depends on clinical details)"
+    "icd10Display": "J01.90, J01.00, J01.10, or J01.20 (final coding depends on clinical details)",
+    "quickAnswer": "Yes — adults (18+) in {state} with sinus infection symptoms can be evaluated online. A board-certified MD reviews your symptom duration by secure video and, per AAO-HNS 2025 guidance, may recommend watchful waiting for 3–5 days first, since most cases improve without antibiotics; when antibiotics are indicated, amoxicillin-clavulanate is prescribed per IDSA guidance, sent to your pharmacy same day. Visit price: $79 flat, no insurance required. Severe rapidly worsening headache with fever, or visual changes/eye swelling, needs in-person or ER evaluation."
   },
   "eligibility": {
     "sectionTitle": "Sinus Infection Telehealth Eligibility Checklist for {state}",
@@ -196,7 +197,7 @@
     "sectionTitle": "What Does Sinus Infection Treatment Cost in {state}?",
     "subtitle": "Transparent options. Insurance is not required.",
     "visitPrice": "$79",
-    "priceSubtext": "Self pay option. Insurance is not required.",
+    "priceSubtext": "$79 flat visit · no insurance required · generic amoxicillin-clavulanate often $10–$25",
     "includes": [
       "MD evaluation and red-flag screening",
       "Assessment for acute bacterial vs viral sinusitis",
@@ -230,7 +231,7 @@
         "isTdmd": false
       }
     ],
-    "footnote": "Prescription costs at your pharmacy are separate and vary by medication and pharmacy.",
+    "footnote": "Total cost is transparent: the $79 visit plus, if antibiotics are indicated, generic amoxicillin-clavulanate (typically $10–$25 with a pharmacy coupon) means most patients pay about $89–$104 all-in — no membership, and many cases resolve with supportive care alone.",
     "noHiddenFees": "No hidden fees. If medication is not clinically appropriate, you still receive a complete evaluation, guidance, and clear instructions on what level of care you need next."
   },
   "whatIsCondition": {
@@ -586,6 +587,14 @@
       {
         "question": "Can TeleDirectMD treat chronic sinusitis?",
         "answer": "No. TeleDirectMD focuses on uncomplicated acute sinusitis. Chronic rhinosinusitis, defined as symptoms lasting 12 or more weeks, typically requires in-person evaluation with imaging and often ENT referral. If your symptoms have been ongoing for many weeks, we will direct you to the appropriate level of in-person care."
+      },
+      {
+        "question": "Do I need antibiotics for a sinus infection, or will telehealth just tell me to wait it out in {state}?",
+        "answer": "Often the latter — most acute sinus infections are viral and improve within 3 to 5 days without antibiotics, so the MD may recommend supportive care like nasal saline and decongestants first. Antibiotics are reserved for cases meeting specific bacterial criteria or that aren't improving."
+      },
+      {
+        "question": "How much does online sinus infection treatment cost without insurance in {state}?",
+        "answer": "The visit is $79 flat, no insurance required, and generic amoxicillin-clavulanate, if prescribed, typically adds $10 to $25 at the pharmacy — most patients pay under $105 total."
       }
     ],
     "bottomCta": {

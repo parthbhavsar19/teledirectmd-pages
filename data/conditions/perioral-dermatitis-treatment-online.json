@@ -47,7 +47,8 @@
       ],
       "note": "Adults 18+ only. TeleDirectMD is not an emergency service. Go to urgent care or the ER if you have periocular involvement affecting your vision, a rapidly worsening or spreading rash with fever or systemic symptoms, or any concern for systemic lupus. TeleDirectMD does not prescribe controlled substances."
     },
-    "icd10Display": "L71.0 (final coding depends on clinical details)"
+    "icd10Display": "L71.0 (final coding depends on clinical details)",
+    "quickAnswer": "Yes — adults (18+) in {state} with perioral dermatitis can be treated online. A board-certified MD reviews your rash and trigger history by secure video — most commonly topical steroids or irritating skincare — and prescribes topical metronidazole, azelaic acid, or, for persistent cases, oral doxycycline, sent to your pharmacy same day. Visit price: $79 flat, no insurance required. Stopping the triggering product is the essential first step. Periocular involvement with vision changes or eye redness needs in-person evaluation."
   },
   "eligibility": {
     "sectionTitle": "Perioral Dermatitis Telehealth Eligibility Checklist for {state}",
@@ -192,7 +193,7 @@
     "sectionTitle": "What Does Perioral Dermatitis Treatment Cost in {state}?",
     "subtitle": "Transparent options. Insurance is not required.",
     "visitPrice": "$79",
-    "priceSubtext": "Self pay option. Insurance is not required.",
+    "priceSubtext": "$79 flat visit · no insurance required · generic topical metronidazole often $10–$25",
     "includes": [
       "MD evaluation and red-flag screening",
       "Visual assessment of rash characteristics and distribution by secure video",
@@ -226,7 +227,7 @@
         "isTdmd": false
       }
     ],
-    "footnote": "Prescription costs at your pharmacy are separate and vary by medication and pharmacy.",
+    "footnote": "Total cost is transparent: the $79 visit plus generic topical metronidazole or azelaic acid (typically $10–$25 with a pharmacy coupon) means most patients pay about $89–$104 all-in — no membership, with trigger removal essential alongside medication.",
     "noHiddenFees": "No hidden fees. If medication is not clinically appropriate, you still receive a complete evaluation, trigger guidance, and clear instructions on what level of care you need next."
   },
   "whatIsCondition": {
@@ -600,6 +601,14 @@
       {
         "question": "What if my perioral dermatitis does not improve with treatment?",
         "answer": "If your rash is not improving after 6 to 8 weeks of appropriate treatment, follow-up is recommended. The diagnosis may need to be reconsidered — possibilities include allergic contact dermatitis requiring patch testing, rosacea, acne, or a granulomatous variant. In-person dermatology evaluation may be needed. TeleDirectMD will direct you to the appropriate level of care if your case does not respond as expected."
+      },
+      {
+        "question": "How much does perioral dermatitis treatment cost online without insurance in {state}?",
+        "answer": "The visit is $79 flat, no insurance required, and generic topical metronidazole or azelaic acid typically adds $10 to $25 at the pharmacy, keeping most visits under $105 total."
+      },
+      {
+        "question": "Why did my rash get worse after I stopped using hydrocortisone cream on it in {state}?",
+        "answer": "This is a classic rebound flare seen with perioral dermatitis — topical steroids can temporarily mask the rash while actually feeding the underlying problem, so stopping often causes a flare before it improves. The MD can guide you through this transition with appropriate non-steroid treatment."
       }
     ],
     "bottomCta": {

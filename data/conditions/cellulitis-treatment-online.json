@@ -47,7 +47,8 @@
       ],
       "note": "Adults 18+ only. TeleDirectMD is not an emergency service. Go to urgent care or the ER now for fever with rapidly spreading redness, facial or orbital swelling, red streaking from the affected area, abscess with fluctuance needing drainage, severe illness or confusion, or worsening symptoms after 48 to 72 hours of antibiotics. TeleDirectMD does not prescribe controlled substances."
     },
-    "icd10Display": "L03.90, L03.115, L03.116 (final coding depends on clinical details)"
+    "icd10Display": "L03.90, L03.115, L03.116 (final coding depends on clinical details)",
+    "quickAnswer": "Yes — adults (18+) in {state} with mild, nonpurulent cellulitis can be treated online. A board-certified MD reviews your wound photos and symptom timeline by secure video and, following IDSA guidance, prescribes an oral antibiotic — cephalexin, amoxicillin-clavulanate, or TMP-SMX/doxycycline for MRSA risk — sent to your pharmacy same day. Visit price: $79 flat, no insurance required. Fever above 100.5°F with spreading redness, or infection near the face/eye/neck, needs in-person or ER evaluation."
   },
   "eligibility": {
     "sectionTitle": "Cellulitis Telehealth Eligibility Checklist for {state}",
@@ -202,7 +203,7 @@
     "sectionTitle": "What Does Cellulitis Treatment Cost in {state}?",
     "subtitle": "Transparent options. Insurance is not required.",
     "visitPrice": "$79",
-    "priceSubtext": "Self pay option. Insurance is not required.",
+    "priceSubtext": "$79 flat visit · no insurance required · generic cephalexin often $4–$15",
     "includes": [
       "MD evaluation and red-flag screening",
       "Photo-assisted assessment for cellulitis severity and abscess",
@@ -236,7 +237,7 @@
         "isTdmd": false
       }
     ],
-    "footnote": "Prescription costs at your pharmacy are separate and vary by medication and pharmacy.",
+    "footnote": "Total cost is transparent: the $79 visit plus generic cephalexin or TMP-SMX (typically $4–$15 with a pharmacy coupon) means most patients pay about $83–$94 all-in — no membership, no urgent care facility fee.",
     "noHiddenFees": "No hidden fees. If medication is not clinically appropriate, you still receive a complete evaluation, guidance, and clear instructions on what level of care you need next."
   },
   "whatIsCondition": {
@@ -613,6 +614,14 @@
       {
         "question": "What if my cellulitis is not improving after starting antibiotics?",
         "answer": "If there is no improvement after 48 to 72 hours of oral antibiotics, you need reassessment. You may need a different antibiotic, the diagnosis may need to be reconsidered (the redness could be something other than cellulitis), or you may need in-person evaluation for abscess drainage or IV antibiotics. New fever, rapid spread, or worsening pain requires urgent in-person care."
+      },
+      {
+        "question": "How much does treating cellulitis online cost without insurance in {state}?",
+        "answer": "The visit is $79 flat, no insurance required, and generic oral antibiotics like cephalexin typically add only $4 to $15 at the pharmacy — so most patients pay under $95 total for mild, uncomplicated cellulitis."
+      },
+      {
+        "question": "Why do I keep getting cellulitis in the same spot in {state}?",
+        "answer": "Recurrent cellulitis often points to an underlying issue like chronic swelling, skin barrier damage, or a prior infection that hasn't fully resolved. TeleDirectMD can discuss the pattern with you, but recurrent cases often benefit from an in-person evaluation to identify and address the root cause."
       }
     ],
     "bottomCta": {

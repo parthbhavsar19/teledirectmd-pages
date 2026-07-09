@@ -47,7 +47,8 @@
       ],
       "note": "Adults 18+ only. TeleDirectMD is not an emergency service. Seek in-person care now for heavy vaginal bleeding, severe pelvic pain, vaginal or vulvar masses, or any signs of serious illness. TeleDirectMD does not prescribe controlled substances."
     },
-    "icd10Display": "N95.2 (final coding depends on clinical details)"
+    "icd10Display": "N95.2 (final coding depends on clinical details)",
+    "quickAnswer": "Yes — adults (18+) in {state} with genitourinary syndrome of menopause (vaginal dryness) can be treated online. A board-certified MD reviews your symptoms and history by secure video and, per NAMS 2020/AUA 2025 guidance, prescribes low-dose vaginal estrogen — cream, insert, or ring — as the gold standard for moderate to severe symptoms with minimal systemic absorption, or a non-hormonal option like ospemifene, sent to your pharmacy same day. Visit price: $79 flat, no insurance required. Treatment is ongoing. Unexplained vaginal bleeding, especially after menopause, needs in-person evaluation first."
   },
   "eligibility": {
     "sectionTitle": "Vaginal Dryness Telehealth Eligibility Checklist for {state}",
@@ -195,7 +196,7 @@
     "sectionTitle": "What Does Vaginal Dryness Treatment Cost in {state}?",
     "subtitle": "Transparent options. Insurance is not required.",
     "visitPrice": "$79",
-    "priceSubtext": "Self pay option. Insurance is not required.",
+    "priceSubtext": "$79 flat visit · no insurance required · vaginal estrogen cost varies by formulation",
     "includes": [
       "MD evaluation and red-flag screening",
       "Assessment of GSM severity, menopausal status, and treatment history",
@@ -229,7 +230,7 @@
         "isTdmd": false
       }
     ],
-    "footnote": "Prescription costs at your pharmacy are separate and vary by medication and pharmacy.",
+    "footnote": "Total cost is transparent: the $79 visit covers evaluation and prescription of a tailored regimen; pharmacy cost for vaginal estrogen products varies by formulation (cream, insert, or ring), so ask your pharmacist about generic availability.",
     "noHiddenFees": "No hidden fees. If medication is not clinically appropriate, you still receive a complete evaluation, guidance, and clear instructions on what level of care you need next."
   },
   "whatIsCondition": {
@@ -592,6 +593,14 @@
       {
         "question": "Can younger women have vaginal dryness?",
         "answer": "Yes. While GSM is most common after menopause, younger women can experience vaginal dryness from breastfeeding, certain medications (aromatase inhibitors, some birth control methods), cancer treatments, surgical removal of the ovaries, or conditions that suppress estrogen. The evaluation approach is similar, but the underlying cause guides treatment selection."
+      },
+      {
+        "question": "How much does vaginal estrogen treatment cost online without insurance in {state}?",
+        "answer": "The visit is $79 flat with no insurance required. Pharmacy cost for vaginal estrogen varies by formulation — cream, insert, or ring — so ask your pharmacist about generic options and typical pricing for your specific prescription."
+      },
+      {
+        "question": "Is vaginal estrogen safe if I've had breast cancer in {state}?",
+        "answer": "This requires careful, individualized discussion — low-dose vaginal estrogen has minimal systemic absorption, but a breast cancer history changes the risk-benefit calculation and often needs coordination with your oncology team. The MD will review your cancer history in detail and may recommend non-hormonal options or an in-person specialist discussion first."
       }
     ],
     "bottomCta": {

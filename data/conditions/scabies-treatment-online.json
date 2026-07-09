@@ -47,7 +47,8 @@
       ],
       "note": "Adults 18+ only. TeleDirectMD is not an emergency service. Go to urgent care or the ER now for widespread crusted scabies, signs of cellulitis or bacterial superinfection with fever, severe allergic reaction, or rapidly worsening rash with systemic symptoms. TeleDirectMD does not prescribe controlled substances."
     },
-    "icd10Display": "B86 (final coding depends on clinical details)"
+    "icd10Display": "B86 (final coding depends on clinical details)",
+    "quickAnswer": "Yes — adults (18+) in {state} with scabies can be treated online. A board-certified MD reviews your symptom distribution by secure video and prescribes a scabicidal agent — permethrin 5% cream or oral ivermectin — plus an antihistamine or topical steroid for post-treatment itch, sent to your pharmacy same day. Visit price: $79 flat, no insurance required. All household and close contacts need simultaneous treatment even if asymptomatic, and bedding/clothing need decontamination. Thick, crusted skin lesions over large areas need in-person evaluation for crusted scabies."
   },
   "eligibility": {
     "sectionTitle": "Scabies Telehealth Eligibility Checklist for {state}",
@@ -197,7 +198,7 @@
     "sectionTitle": "What Does Scabies Treatment Cost in {state}?",
     "subtitle": "Transparent options. Insurance is not required.",
     "visitPrice": "$79",
-    "priceSubtext": "Self pay option. Insurance is not required.",
+    "priceSubtext": "$79 flat visit · no insurance required · generic permethrin cream often $10–$25",
     "includes": [
       "MD evaluation and red-flag screening",
       "Photo-based assessment of rash distribution and characteristics",
@@ -232,7 +233,7 @@
         "isTdmd": false
       }
     ],
-    "footnote": "Prescription costs at your pharmacy are separate and vary by medication and pharmacy.",
+    "footnote": "Total cost is transparent: the $79 visit plus generic permethrin cream or oral ivermectin (typically $10–$25 with a pharmacy coupon) means most patients pay about $89–$104 all-in — no membership, and treating all contacts at once prevents reinfestation.",
     "noHiddenFees": "No hidden fees. If medication is not clinically appropriate, you still receive a complete evaluation, guidance, and clear instructions on what level of care you need next."
   },
   "whatIsCondition": {
@@ -570,6 +571,14 @@
       {
         "question": "Can I use my insurance for a TeleDirectMD visit?",
         "answer": "Insurance is not required. If your plan is eligible, you may be able to use insurance. A self pay option is also available."
+      },
+      {
+        "question": "How much does online scabies treatment cost without insurance in {state}?",
+        "answer": "The visit is $79 flat, no insurance required, and generic permethrin cream or oral ivermectin typically adds $10 to $25 at the pharmacy, keeping most visits under $105 total."
+      },
+      {
+        "question": "Why am I still itching for weeks after finishing scabies treatment in {state}?",
+        "answer": "Itching commonly persists for 2 to 4 weeks after the mites are killed because your skin is still reacting to dead mite proteins, even after successful treatment — this doesn't mean the treatment failed. The MD can prescribe an antihistamine or topical steroid to manage this lingering itch."
       }
     ],
     "bottomCta": {

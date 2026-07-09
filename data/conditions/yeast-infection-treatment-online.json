@@ -47,7 +47,8 @@
       ],
       "note": "Adults 18+ only. TeleDirectMD is not an emergency service. Seek in-person care for recurrent yeast infections (4+ per year), symptoms during pregnancy, symptoms not responding to OTC treatment after 7 days, foul-smelling discharge suggesting a different diagnosis, pelvic pain with fever, or immunocompromised status with worsening symptoms. TeleDirectMD does not prescribe controlled substances."
     },
-    "icd10Display": "B37.3 or B37.49 (final coding depends on clinical details)"
+    "icd10Display": "B37.3 or B37.49 (final coding depends on clinical details)",
+    "quickAnswer": "Yes — adults (18+) in {state} with a yeast infection can be treated online. A board-certified MD reviews your symptoms by secure video and, per CDC guidelines, prescribes oral fluconazole 150mg as a single dose or recommends a topical azole like clotrimazole or miconazole, both achieving 80–90% cure rates. Visit price: $79 flat, no insurance required. Pregnancy, 4+ infections in the past year, or foul-smelling discharge with pelvic pain/fever need in-person evaluation instead of standard treatment."
   },
   "eligibility": {
     "sectionTitle": "Yeast Infection Telehealth Eligibility Checklist for {state}",
@@ -196,7 +197,7 @@
     "sectionTitle": "What Does Yeast Infection Treatment Cost in {state}?",
     "subtitle": "Transparent options. Insurance is not required.",
     "visitPrice": "$79",
-    "priceSubtext": "Self pay option. Insurance is not required.",
+    "priceSubtext": "$79 flat visit · no insurance required · generic fluconazole often $4–$15",
     "includes": [
       "MD evaluation and symptom assessment",
       "Differentiation from bacterial vaginosis and other causes",
@@ -230,7 +231,7 @@
         "isTdmd": false
       }
     ],
-    "footnote": "Prescription costs at your pharmacy are separate and vary by medication and pharmacy.",
+    "footnote": "Total cost is transparent: the $79 visit plus generic fluconazole (often $4–$15 with a pharmacy coupon) means most patients pay about $83–$94 all-in — no membership, and many uncomplicated yeast infections can also be managed with OTC topical antifungals.",
     "noHiddenFees": "No hidden fees. If medication is not clinically appropriate, you still receive a complete evaluation, guidance, and clear instructions on what level of care you need next."
   },
   "whatIsCondition": {
@@ -586,6 +587,14 @@
       {
         "question": "What if OTC treatment does not work?",
         "answer": "If symptoms do not improve after completing a full course of OTC antifungal treatment (typically 3 to 7 days), the diagnosis may be incorrect or you may have a resistant Candida species. In this case, seek in-person evaluation for pelvic exam and vaginal culture. Prescription options including oral fluconazole or terconazole may be considered, and species identification can guide targeted therapy."
+      },
+      {
+        "question": "How much does online yeast infection treatment cost without insurance in {state}?",
+        "answer": "The visit is $79 flat, no insurance required, and generic fluconazole typically costs only $4 to $15 at the pharmacy — most patients pay under $95 total, and OTC topical options can be even less."
+      },
+      {
+        "question": "What if I keep getting yeast infections over and over in {state}?",
+        "answer": "Four or more yeast infections in a year is considered recurrent and usually needs a different approach than single-episode treatment, along with evaluation for contributing factors like diabetes or antibiotic use. TeleDirectMD can discuss this pattern with you, though recurrent cases often benefit from more detailed in-person workup."
       }
     ],
     "bottomCta": {
