@@ -117,7 +117,7 @@ export function WhoWeServePricingCTA({ pricingHook, relatedCostPage }) {
   return (
     <section className="tdmd-section" id="cost-breakdown-cta">
       <div className="tdmd-container" data-speakable="true">
-        <h2>What you\'ll actually pay</h2>
+        <h2>What you&apos;ll actually pay</h2>
         <p>{pricingHook || 'A flat $79 visit is up to 3× cheaper than urgent care and ~11× cheaper than an uninsured ER visit. We\'ve published the full price breakdown so you know your total cost upfront.'}</p>
         <div className="tdmd-related-grid" style={{ marginTop: '0.75rem' }}>
           <a href={MASTER_COST_PAGE} className="tdmd-related-card">
