@@ -4,6 +4,7 @@
 
 import { COST_PAGES, COST_PAGE_SLUGS, COST_RELATED_LINKS } from '../../../lib/cost-pages-config';
 import UtiAntibioticsPage from '../../components/UtiAntibioticsPage';
+import CostPageRedesign from '../../components/CostPageRedesign';
 import { COMPARE_PAGES } from '../../../lib/compare-pages-config';
 import { AGGREGATE_RATING_VALUE, TOTAL_REVIEW_COUNT } from '../../../lib/review-schema';
 import { buildCostCompareJsonLd, buildCostComparisonAggregateOffer } from '../../../lib/cost-compare-schema';
@@ -141,7 +142,16 @@ export default async function CostPage({ params }) {
       {/* UTI antibiotics: fully custom-designed page (schema above still applies).
            Renders its own body and skips the shared bland template below. */}
       {slug === 'uti-antibiotics-cost' && <UtiAntibioticsPage price="79" />}
-      {slug !== 'uti-antibiotics-cost' && (
+
+      {/* Redesigned cost page (rolling out). online-doctor-visit-cost first. */}
+      {slug === 'online-doctor-visit-cost' && (
+        <CostPageRedesign
+          cfg={cfg}
+          relatedCost={(related.relatedCost || []).map((s) => (COST_PAGES[s] ? { url: `/cost/${s}/`, title: COST_PAGES[s].h1 || COST_PAGES[s].breadcrumb } : null)).filter(Boolean)}
+          comparePages={(related.relatedCompare || []).map((s) => (COMPARE_PAGES[s] ? { url: `/compare/${s}/`, title: (COMPARE_PAGES[s].h1 || COMPARE_PAGES[s].breadcrumb || s) } : null)).filter(Boolean)}
+        />
+      )}
+      {slug !== 'uti-antibiotics-cost' && slug !== 'online-doctor-visit-cost' && (
       <>
 
       {/* 2) Answer Block */}
