@@ -87,11 +87,11 @@ export default function NationalConditionPage({ conditionSlug }) {
         </div>
       </nav>
 
-      {/* Redesigned layout (rolling out). UTI first; schema above still applies.
-           No standalone StickyBookingBar here — the site already renders a global
-           sticky "$79 Flat Fee / Book Now" CTA in SiteFooter, so we avoid duplication.
-           Internal-link modules from the original template are preserved below. */}
-      {conditionSlug === 'uti-treatment-online' && (
+      {/* Redesigned layout is now the DEFAULT for all condition pages.
+           Schema/JSON-LD above still applies. No standalone StickyBookingBar —
+           the site already renders a global "$79 Flat Fee / Book Now" sticky CTA
+           in SiteFooter. Internal-link modules preserved below. */}
+      {true && (
         <>
           <ConditionPageRedesign condition={condition} />
 
@@ -130,10 +130,10 @@ export default function NationalConditionPage({ conditionSlug }) {
         </>
       )}
 
-      {conditionSlug !== 'uti-treatment-online' && (
+      {false && (
       <>
 
-      {/* 0b) Answer Block — AI snippet target */}
+      {/* 0b) Answer Block — AI snippet target (legacy template, disabled) */}
       <div className="tdmd-answer-block" data-speakable="true" style={{
         background: '#EAF7F8', borderLeft: '4px solid #006B73',
         padding: '1rem 1.25rem', margin: '0 0 0', lineHeight: 1.6
