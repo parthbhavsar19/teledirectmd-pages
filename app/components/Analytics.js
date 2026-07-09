@@ -13,14 +13,25 @@
 // HIPAA NOTE: Google will not sign a BAA for standard GA4, so GA4 must never run
 //   where patients enter info. The BLOCKED_PREFIXES list below is that hard stop.
 //
-// SETUP: paste your GA4 Measurement ID into GA4_MEASUREMENT_ID below. Until you
-//   do, GA4 stays dormant (the source-token capture still works regardless).
-// ─────────────────────────────────────────────────────────────────────────────
+// SETUP: GA4 Measurement ID is configured below. GA4 loads ONLY on public
+//   marketing pages (never on /book-online or downstream), so no PHI reaches
+//   Google. Source-token capture works regardless.
+//
+// ATTRIBUTION (source → booking intent), HIPAA-safe:
+//   When a visitor clicks any "Book" link, we fire a non-PHI `select_source`
+//   event carrying sid / src_page / source / campaign / condition as GA4
+//   custom-dimension params — captured on the PUBLIC page, BEFORE the hard-stop.
+//   This makes "which visibility source produced booking intent" reportable in
+//   GA4 without ever tracking the patient through the booking/intake flow.
+//   Register these as event-scoped custom dimensions in GA4 Admin:
+//     tdmd_sid, tdmd_src_page, tdmd_source, tdmd_campaign, tdmd_condition
+//   and mark `select_source` as a Key Event to count it as a conversion.
+// ──────────────────────────────────────────────────────────────────────
 
 import { useEffect } from 'react';
 
-// TODO(parth): replace with your real GA4 ID, e.g. 'G-XXXXXXXXXX'. Dormant until set.
-const GA4_MEASUREMENT_ID = '';
+// TeleDirectMD GA4 Measurement ID (property 486446598).
+const GA4_MEASUREMENT_ID = 'G-5L6V2GJ84V';
 
 // Pages where NO analytics may load (booking / intake / anything PHI-adjacent).
 const BLOCKED_PREFIXES = ['/book-online', '/verify', '/download'];
@@ -72,48 +83,90 @@ export default function Analytics() {
     // Make every "Book" link carry the source token forward to /book-online
     // (and onward to Acuity). This keeps the "how they arrived" tag attached
     // as the visitor moves toward scheduling, without loading any tracker.
+    // ALSO: fire a non-PHI `select_source` GA4 event on Book-link click so
+    // "source → booking intent" becomes reportable (see header block).
     try {
       const src = getCookie('tdmd_src');
-      if (src) {
-        const parsed = JSON.parse(decodeURIComponent(src));
-        const sid = parsed.sid || '';
-        const utm_source = parsed.utm_source || '';
-        const utm_campaign = parsed.utm_campaign || '';
-        const landing = parsed.landing || '';
-        const decorate = () => {
-          document.querySelectorAll('a[href*="/book-online"]').forEach((a) => {
-            try {
-              const u = new URL(a.href, window.location.origin);
-              if (!u.searchParams.get('sid')) {
-                if (sid) u.searchParams.set('sid', sid);
-                if (utm_source) u.searchParams.set('utm_source', utm_source);
-                if (utm_campaign) u.searchParams.set('utm_campaign', utm_campaign);
-                if (landing) u.searchParams.set('src_page', landing);
-                a.href = u.pathname + u.search + u.hash;
-              }
-            } catch (e) { /* skip malformed link */ }
-          });
-        };
-        decorate();
-      }
+      const parsed = src ? JSON.parse(decodeURIComponent(src)) : {};
+      const sid = parsed.sid || '';
+      const utm_source = parsed.utm_source || '';
+      const utm_campaign = parsed.utm_campaign || '';
+      const landing = parsed.landing || '';
+      // The condition/topic the visitor is booking FROM = the current public
+      // page path (never PHI — it's a public marketing URL slug).
+      const currentSlug = window.location.pathname;
+
+      const decorate = () => {
+        document.querySelectorAll('a[href*="/book-online"]').forEach((a) => {
+          try {
+            const u = new URL(a.href, window.location.origin);
+            if (!u.searchParams.get('sid')) {
+              if (sid) u.searchParams.set('sid', sid);
+              if (utm_source) u.searchParams.set('utm_source', utm_source);
+              if (utm_campaign) u.searchParams.set('utm_campaign', utm_campaign);
+              if (landing) u.searchParams.set('src_page', landing);
+              a.href = u.pathname + u.search + u.hash;
+            }
+            // Attach a one-time click handler that fires the attribution event
+            // while we are STILL on the public page (before the GA4 hard-stop
+            // on /book-online). Guard against double-binding.
+            if (!a.dataset.tdmdBound) {
+              a.dataset.tdmdBound = '1';
+              a.addEventListener('click', () => {
+                try {
+                  if (typeof window.gtag === 'function') {
+                    window.gtag('event', 'select_source', {
+                      tdmd_sid: sid || '(none)',
+                      tdmd_src_page: landing || currentSlug,
+                      tdmd_source: utm_source || '(direct)',
+                      tdmd_campaign: utm_campaign || '(none)',
+                      tdmd_condition: currentSlug,
+                    });
+                  }
+                } catch (e) { /* never block navigation */ }
+              }, { passive: true });
+            }
+          } catch (e) { /* skip malformed link */ }
+        });
+      };
+      decorate();
+      // Re-decorate shortly after mount to catch links rendered by client
+      // components / hydration that weren't in the DOM on first pass.
+      setTimeout(decorate, 1200);
     } catch (e) { /* no-op */ }
 
     // Load GA4 only on public pages AND only if an ID is configured.
+    // IDEMPOTENT: this site may already load GA4 via a GTM / platform
+    // integration. If gtag for THIS id is already present, we DO NOT inject a
+    // second loader (that would double-count) — we just reuse window.gtag so
+    // the select_source event above still fires. We only self-load if nothing
+    // else has set up gtag for this measurement id.
     if (GA4_MEASUREMENT_ID && !isBlockedPath(path)) {
-      const s = document.createElement('script');
-      s.async = true;
-      s.src = `https://www.googletagmanager.com/gtag/js?id=${GA4_MEASUREMENT_ID}`;
-      document.head.appendChild(s);
+      const alreadyLoaded =
+        typeof window.gtag === 'function' ||
+        !!document.querySelector(
+          `script[src*="googletagmanager.com/gtag/js"], script[src*="googletagmanager.com/gtm.js"]`
+        );
+
+      // Ensure gtag exists so select_source can be pushed regardless.
       window.dataLayer = window.dataLayer || [];
-      function gtag() { window.dataLayer.push(arguments); }
-      window.gtag = gtag;
-      gtag('js', new Date());
-      // anonymize_ip + no ad personalization = lower-risk marketing analytics
-      gtag('config', GA4_MEASUREMENT_ID, {
-        anonymize_ip: true,
-        allow_google_signals: false,
-        allow_ad_personalization_signals: false,
-      });
+      if (typeof window.gtag !== 'function') {
+        window.gtag = function gtag() { window.dataLayer.push(arguments); };
+      }
+
+      if (!alreadyLoaded) {
+        const s = document.createElement('script');
+        s.async = true;
+        s.src = `https://www.googletagmanager.com/gtag/js?id=${GA4_MEASUREMENT_ID}`;
+        document.head.appendChild(s);
+        window.gtag('js', new Date());
+        // anonymize_ip + no ad personalization = lower-risk marketing analytics
+        window.gtag('config', GA4_MEASUREMENT_ID, {
+          anonymize_ip: true,
+          allow_google_signals: false,
+          allow_ad_personalization_signals: false,
+        });
+      }
     }
   }, []);
 
