@@ -47,7 +47,8 @@
       ],
       "note": "Adults 18+ only. TeleDirectMD is not an emergency service. Go to urgent care or the ER now for fever, flank pain, persistent vomiting, severe illness, confusion, pregnancy with concerning urinary symptoms, or worsening symptoms with back pain. TeleDirectMD does not prescribe controlled substances."
     },
-    "icd10Display": "N39.0 (final coding depends on clinical details)"
+    "icd10Display": "N39.0 (final coding depends on clinical details)",
+    "quickAnswer": "Yes \u2014 adults (18+) in {state} with typical UTI symptoms (burning, urgency, frequency) can be treated online without an in-person exam. A board-certified MD reviews your symptoms by secure video and, if appropriate, prescribes a guideline-first antibiotic \u2014 nitrofurantoin, trimethoprim-sulfamethoxazole, or fosfomycin \u2014 sent to your pharmacy the same day. Visit price: $79 flat, no insurance required. Not for pregnancy, fever with flank pain, or complicated cases, which need in-person care."
   },
   "eligibility": {
     "sectionTitle": "UTI Telehealth Eligibility Checklist for {state}",
@@ -196,7 +197,7 @@
     "sectionTitle": "What Does UTI Treatment Cost in {state}?",
     "subtitle": "Transparent options. Insurance is not required.",
     "visitPrice": "$79",
-    "priceSubtext": "Self pay option. Insurance is not required.",
+    "priceSubtext": "$79 flat visit \u00b7 no insurance required \u00b7 most generic antibiotics add only $1\u2013$15",
     "includes": [
       "MD evaluation and red-flag screening",
       "Assessment for uncomplicated bladder infection vs common alternatives",
@@ -230,7 +231,7 @@
         "isTdmd": false
       }
     ],
-    "footnote": "Prescription costs at your pharmacy are separate and vary by medication and pharmacy.",
+    "footnote": "Total cost is transparent: the $79 visit plus a generic antibiotic (nitrofurantoin, TMP-SMX, or fosfomycin) via a GoodRx coupon means most patients pay about $80\u2013$95 all-in \u2014 no membership, no coupon math, no surprise facility fees.",
     "noHiddenFees": "No hidden fees. If medication is not clinically appropriate, you still receive a complete evaluation, guidance, and clear instructions on what level of care you need next."
   },
   "whatIsCondition": {
@@ -528,8 +529,24 @@
         "answer": "Yes, if you are an adult 18+ located in {state} and your symptoms are appropriate for telehealth after red-flag screening. TeleDirectMD can prescribe medication when clinically appropriate, and some cases are managed with supportive care depending on the likely cause and safety factors."
       },
       {
+        "question": "How can I get UTI treatment online without insurance?",
+        "answer": "Insurance is not required. TeleDirectMD is a flat $79 self-pay video visit \u2014 no membership and no coupon math. If an antibiotic is appropriate, the generic (nitrofurantoin, TMP-SMX, or fosfomycin) typically adds only $1\u2013$15 with a GoodRx coupon, so most patients pay about $80\u2013$95 total, versus $150\u2013$450 at urgent care without insurance."
+      },
+      {
         "question": "How much does online UTI treatment cost in {state}?",
         "answer": "TeleDirectMD offers a transparent self pay option starting at $79 for an adult video visit in {state}. Insurance is not required. Prescription costs at your pharmacy are separate and vary by medication and pharmacy."
+      },
+      {
+        "question": "What antibiotics are commonly used for uncomplicated UTI?",
+        "answer": "Common first-line options include nitrofurantoin for 5 days, trimethoprim-sulfamethoxazole for 3 days when local resistance rates are acceptable, and fosfomycin as a single dose. Cephalexin is an alternative when first-line agents cannot be used. The actual choice depends on your allergies, kidney history, pregnancy status when relevant, and red flags."
+      },
+      {
+        "question": "How quickly will I get my prescription after the video visit?",
+        "answer": "If medication is clinically appropriate, prescriptions are typically sent electronically to common {state} pharmacies during or shortly after your video visit. Most pharmacies can fill the prescription within hours."
+      },
+      {
+        "question": "Can men get UTI treatment online?",
+        "answer": "Yes. Unlike many online UTI services that treat women only, TeleDirectMD evaluates adult men and women by video. Because UTIs in men are considered complicated more often, the MD screens carefully for red flags (fever, flank or prostate pain, retention) and directs anyone needing hands-on evaluation to in-person care. When symptoms are uncomplicated, a guideline-based antibiotic can be prescribed the same day."
       },
       {
         "question": "Can a doctor diagnose UTI without an in-person exam?",
@@ -542,14 +559,6 @@
       {
         "question": "Do I need a urine test before getting antibiotics for a UTI?",
         "answer": "Not always. For uncomplicated cystitis in low-risk patients, guidelines support symptom-based treatment when clinically appropriate. The Ann Arbor Guide considers empiric antibiotics appropriate for classic cystitis symptoms in non-pregnant women without risk factors for resistance. If your history suggests a higher-risk infection, recurrent symptoms, or uncertain diagnosis, in-person urine testing may be recommended."
-      },
-      {
-        "question": "What antibiotics are commonly used for uncomplicated UTI?",
-        "answer": "Common first-line options include nitrofurantoin for 5 days, trimethoprim-sulfamethoxazole for 3 days when local resistance rates are acceptable, and fosfomycin as a single dose. Cephalexin is an alternative when first-line agents cannot be used. The actual choice depends on your allergies, kidney history, pregnancy status when relevant, and red flags."
-      },
-      {
-        "question": "How quickly will I get my prescription after the video visit?",
-        "answer": "If medication is clinically appropriate, prescriptions are typically sent electronically to common {state} pharmacies during or shortly after your video visit. Most pharmacies can fill the prescription within hours."
       },
       {
         "question": "When is UTI dangerous and when should I go to the ER?",

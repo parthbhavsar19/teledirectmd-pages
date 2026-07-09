@@ -177,6 +177,8 @@ export default function ConditionPageRedesign({
         .cpr-close{background:linear-gradient(160deg,#01465a,#065f6b);color:#fff;border-radius:22px;padding:2.5rem;text-align:center;}
         .cpr-close h2{color:#fff;font-size:clamp(1.6rem,3.3vw,2.2rem);margin:0 0 .5rem;}
         .cpr-close p{color:#d7ebee;font-size:1.03rem;margin:0 0 1.5rem;}
+        .cpr-answer{background:#EAF7F8;border-left:4px solid #006B73;border-radius:0 10px 10px 0;padding:.9rem 1.15rem;margin:1rem 0 1.1rem;}
+        .cpr-answer p{margin:0;color:#003E52;font-size:1.02rem;line-height:1.55;font-weight:500;}
       `}</style>
 
       {/* HERO */}
@@ -186,6 +188,11 @@ export default function ConditionPageRedesign({
             <p className="cpr-kicker" style={{ color: '#7fd0d8' }}>{clean(c.conditionName, stateName)} · Online Treatment</p>
             <h1>{clean(hero.h1, stateName)}</h1>
             {hero.subtitle && <p className="sub">{clean(hero.subtitle, stateName)}</p>}
+            {hero.quickAnswer && (
+              <div className="cpr-answer" data-speakable="true" id={`${c.conditionSlug}-quick-answer`}>
+                <p>{clean(hero.quickAnswer, stateName)}</p>
+              </div>
+            )}
             {hero.introParagraph && <p className="intro">{clean(hero.introParagraph, stateName)}</p>}
             <div><a href="/book-online" className="cpr-cta">Book a Visit, {price} →</a></div>
             <p className="cpr-trust">Board-certified MD · 43 states · evenings &amp; weekends · HSA/FSA accepted · 5.0★ (125 reviews)</p>
