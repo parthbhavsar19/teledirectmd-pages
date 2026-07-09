@@ -143,15 +143,16 @@ export default async function CostPage({ params }) {
            Renders its own body and skips the shared bland template below. */}
       {slug === 'uti-antibiotics-cost' && <UtiAntibioticsPage price="79" />}
 
-      {/* Redesigned cost page (rolling out). online-doctor-visit-cost first. */}
-      {slug === 'online-doctor-visit-cost' && (
+      {/* Redesigned cost page (Fraunces + DM Sans design system). Default for
+           every cost slug except the bespoke uti-antibiotics-cost page above. */}
+      {slug !== 'uti-antibiotics-cost' && (
         <CostPageRedesign
           cfg={cfg}
           relatedCost={(related.relatedCost || []).map((s) => (COST_PAGES[s] ? { url: `/cost/${s}/`, title: COST_PAGES[s].h1 || COST_PAGES[s].breadcrumb } : null)).filter(Boolean)}
           comparePages={(related.relatedCompare || []).map((s) => (COMPARE_PAGES[s] ? { url: `/compare/${s}/`, title: (COMPARE_PAGES[s].h1 || COMPARE_PAGES[s].breadcrumb || s) } : null)).filter(Boolean)}
         />
       )}
-      {slug !== 'uti-antibiotics-cost' && slug !== 'online-doctor-visit-cost' && (
+      {false && (
       <>
 
       {/* 2) Answer Block */}
