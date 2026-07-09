@@ -12,7 +12,15 @@ function clean(str, stateName) {
   return String(str).replace(/\{state\}/g, stateName || 'your state').replace(/\s+/g, ' ').trim();
 }
 
-export default function ConditionPageRedesign({ condition, stateName = '' }) {
+export default function ConditionPageRedesign({
+  condition,
+  stateName = '',
+  otherConditions = [],
+  costLink = null,
+  secondaryCostPages = [],
+  comparePage = null,
+  symptomLinks = [],
+}) {
   const c = condition;
   const price = (c.pricing && c.pricing.visitPrice) || '$79';
   const hero = c.hero || {};
@@ -28,6 +36,15 @@ export default function ConditionPageRedesign({ condition, stateName = '' }) {
   const eligBad = elig.redFlags || elig.notEligible || [];
   const faqs = (c.faq && Array.isArray(c.faq.items)) ? c.faq.items : [];
   const symptoms = c.symptomsAndRedFlags || {};
+  const whatIs = c.whatIsCondition || {};
+  const causes = c.causesAndRiskFactors || {};
+  const diff = c.differentialDiagnosis || {};
+  const treat = c.treatmentOptions || {};
+  const home = c.homeCare || {};
+  const whenNot = c.whenNotToUse || {};
+  const decision = c.decisionGuide || {};
+  const refs = Array.isArray(c.references) ? c.references : [];
+  const relatedConds = Array.isArray(c.relatedConditions) ? c.relatedConditions : [];
 
   // Parse a "$X to $Y" style bar value into a relative width for the chart.
   const nums = bars.map((b) => {
@@ -119,6 +136,43 @@ export default function ConditionPageRedesign({ condition, stateName = '' }) {
         .cpr-faqitem[open] .cpr-plus::after{opacity:0;}
         .cpr-faqitem[open] summary{color:var(--teal);}
         .cpr-faqitem .cpr-ans{margin:0;padding:0 0 1.1rem;font-size:.94rem;line-height:1.6;color:var(--muted);}
+
+        /* prose + list sections */
+        .cpr-prose p{font-size:.98rem;line-height:1.68;color:var(--ink);max-width:70ch;margin:0 0 1rem;}
+        .cpr-deflist{list-style:none;margin:1rem 0 0;padding:0;display:grid;gap:.7rem;}
+        .cpr-deflist li{background:#fff;border:1px solid var(--line);border-left:3px solid var(--teal);border-radius:10px;padding:.75rem 1rem;font-size:.94rem;line-height:1.5;}
+        .cpr-deflist li b{color:var(--navy);}
+        .cpr-cardgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1rem;margin-top:1.2rem;}
+        .cpr-infocard{background:#fff;border:1px solid var(--line);border-radius:14px;padding:1.15rem 1.25rem;}
+        .cpr-infocard h3{font-size:1.02rem;color:var(--navy);margin:0 0 .4rem;}
+        .cpr-infocard p{margin:0;font-size:.92rem;line-height:1.55;color:var(--muted);}
+        .cpr-listcard{background:#fff;border:1px solid var(--line);border-radius:14px;padding:1.2rem 1.3rem;}
+        .cpr-listcard h3{font-size:1.02rem;color:var(--navy);margin:0 0 .6rem;}
+        .cpr-listcard ul{list-style:none;margin:0;padding:0;}
+        .cpr-listcard li{position:relative;padding-left:1.4rem;margin:.42rem 0;font-size:.92rem;line-height:1.5;color:var(--ink);}
+        .cpr-listcard li::before{content:'';position:absolute;left:0;top:.5rem;width:6px;height:6px;border-radius:50%;background:var(--teal);}
+        .cpr-decision{display:grid;gap:.9rem;margin-top:1.3rem;}
+        .cpr-dstep{background:#fff;border:1px solid var(--line);border-radius:14px;padding:1.1rem 1.3rem;border-left:4px solid var(--teal);}
+        .cpr-dstep.urgent{border-left-color:#c2582f;background:#fdf5f2;}
+        .cpr-dstep h3{font-size:1rem;color:var(--navy);margin:0 0 .5rem;}
+        .cpr-dstep ul{margin:.3rem 0 .6rem;padding-left:1.2rem;font-size:.9rem;color:var(--ink);line-height:1.5;}
+        .cpr-dstep .act{font-size:.88rem;margin:.15rem 0;}
+        .cpr-dstep .act b{color:var(--teal);}
+        .cpr-dstep.urgent .act b{color:#c2582f;}
+        .cpr-refs{list-style:none;margin:1.2rem 0 0;padding:0;display:grid;gap:.55rem;}
+        .cpr-refs li{font-size:.88rem;line-height:1.5;color:var(--muted);padding-left:1.2rem;position:relative;}
+        .cpr-refs li::before{content:'→';position:absolute;left:0;color:var(--teal);}
+        .cpr-refs a{color:var(--teal);text-decoration:none;}
+        .cpr-refs a:hover{text-decoration:underline;}
+        /* internal links footer (styled) */
+        .cpr-links{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:.75rem;margin-top:1.2rem;}
+        .cpr-linkcard{background:#fff;border:1px solid var(--line);border-radius:12px;padding:.9rem 1.1rem;text-decoration:none;transition:all .15s;}
+        .cpr-linkcard:hover{border-color:var(--teal);box-shadow:0 6px 18px rgba(12,143,153,.12);transform:translateY(-1px);}
+        .cpr-linkcard .t{display:block;font-weight:700;color:var(--navy);font-size:.95rem;}
+        .cpr-linkcard .d{display:block;font-size:.8rem;color:var(--muted);margin-top:.15rem;}
+        .cpr-chips{display:flex;flex-wrap:wrap;gap:.5rem;margin-top:1rem;}
+        .cpr-chip{font-size:.82rem;font-weight:600;color:var(--navy);background:#fff;border:1px solid var(--line);border-radius:999px;padding:.4rem .8rem;text-decoration:none;transition:all .15s;}
+        .cpr-chip:hover{border-color:var(--teal);color:var(--teal);}
 
         .cpr-close{background:linear-gradient(160deg,#01465a,#065f6b);color:#fff;border-radius:22px;padding:2.5rem;text-align:center;}
         .cpr-close h2{color:#fff;font-size:clamp(1.6rem,3.3vw,2.2rem);margin:0 0 .5rem;}
@@ -247,6 +301,169 @@ export default function ConditionPageRedesign({ condition, stateName = '' }) {
         </section>
       )}
 
+      {/* WHAT IS + CAUSES */}
+      {(Array.isArray(whatIs.paragraphs) || Array.isArray(causes.items)) && (
+        <section className="cpr-sec cpr-alt">
+          <div className="cpr-wrap">
+            {Array.isArray(whatIs.paragraphs) && whatIs.paragraphs.length > 0 && (
+              <div className="cpr-prose" style={{ marginBottom: causes.items ? '2.25rem' : 0 }}>
+                <p className="cpr-kicker">Understanding it</p>
+                <h2>{clean(whatIs.sectionTitle || 'What is it?', stateName)}</h2>
+                {whatIs.paragraphs.map((p, i) => <p key={i}>{clean(p, stateName)}</p>)}
+              </div>
+            )}
+            {Array.isArray(causes.items) && causes.items.length > 0 && (
+              <div>
+                <p className="cpr-kicker">Causes &amp; risk factors</p>
+                <h2>{clean(causes.sectionTitle || 'Causes and risk factors', stateName)}</h2>
+                {causes.intro && <p className="cpr-lead">{clean(causes.intro, stateName)}</p>}
+                <ul className="cpr-deflist">
+                  {causes.items.map((it, i) => (
+                    <li key={i}><b>{clean(it.label || '', stateName)}</b> {clean(it.text || (typeof it === 'string' ? it : ''), stateName)}</li>
+                  ))}
+                </ul>
+                {causes.closing && <p className="cpr-prose" style={{ marginTop: '1rem' }}>{clean(causes.closing, stateName)}</p>}
+              </div>
+            )}
+          </div>
+        </section>
+      )}
+
+      {/* SYMPTOMS & RED FLAGS TABLE */}
+      {Array.isArray(symptoms.rows) && symptoms.rows.length > 0 && (
+        <section className="cpr-sec">
+          <div className="cpr-wrap">
+            <p className="cpr-kicker">Symptoms &amp; red flags</p>
+            <h2>{clean(symptoms.sectionTitle || 'Symptoms and red flags', stateName)}</h2>
+            {symptoms.intro && <p className="cpr-lead">{clean(symptoms.intro, stateName)}</p>}
+            <div className="cpr-table-wrap">
+              <table className="cpr-table">
+                {Array.isArray(symptoms.headers) && <thead><tr>{symptoms.headers.map((h, i) => <th key={i}>{clean(h, stateName)}</th>)}</tr></thead>}
+                <tbody>{symptoms.rows.map((row, i) => (<tr key={i}>{(Array.isArray(row) ? row : Object.values(row)).map((cell, j) => <td key={j}>{clean(cell, stateName)}</td>)}</tr>))}</tbody>
+              </table>
+            </div>
+          </div>
+        </section>
+      )}
+
+      {/* DIFFERENTIAL DIAGNOSIS */}
+      {(diff.telehealthAppropriate || diff.compareCards) && (
+        <section className="cpr-sec cpr-alt">
+          <div className="cpr-wrap">
+            <p className="cpr-kicker">Not every symptom is the same</p>
+            <h2>{clean(diff.sectionTitle || 'Differential diagnosis', stateName)}</h2>
+            {diff.intro && <p className="cpr-lead">{clean(diff.intro, stateName)}</p>}
+            <div className="cpr-two">
+              {diff.telehealthAppropriate && (
+                <div className="cpr-listcard">
+                  <h3>{clean(diff.telehealthAppropriate.title || 'Sometimes appropriate for telehealth', stateName)}</h3>
+                  <ul>{(diff.telehealthAppropriate.items || []).map((x, i) => <li key={i}>{clean(x, stateName)}</li>)}</ul>
+                </div>
+              )}
+              {diff.requiresInPerson && (
+                <div className="cpr-listcard">
+                  <h3>{clean(diff.requiresInPerson.title || 'Often requires in-person evaluation', stateName)}</h3>
+                  <ul>{(diff.requiresInPerson.items || []).map((x, i) => <li key={i}>{clean(x, stateName)}</li>)}</ul>
+                </div>
+              )}
+            </div>
+            {Array.isArray(diff.compareCards) && diff.compareCards.length > 0 && (
+              <div className="cpr-cardgrid">
+                {diff.compareCards.map((cc, i) => (
+                  <div className="cpr-infocard" key={i}><h3>{clean(cc.title || '', stateName)}</h3><p>{clean(cc.text || '', stateName)}</p></div>
+                ))}
+              </div>
+            )}
+            {diff.closing && <p className="cpr-prose" style={{ marginTop: '1.2rem' }}>{clean(diff.closing, stateName)}</p>}
+          </div>
+        </section>
+      )}
+
+      {/* TREATMENT OPTIONS */}
+      {Array.isArray(treat.sections) && treat.sections.length > 0 && (
+        <section className="cpr-sec">
+          <div className="cpr-wrap">
+            <p className="cpr-kicker">Treatment approach</p>
+            <h2>{clean(treat.sectionTitle || 'Treatment options', stateName)}</h2>
+            {treat.intro && <p className="cpr-lead">{clean(treat.intro, stateName)}</p>}
+            <div className="cpr-cardgrid">
+              {treat.sections.map((s, i) => (
+                <div className="cpr-infocard" key={i}><h3>{clean(s.title || '', stateName)}</h3><p>{clean(s.text || '', stateName)}</p></div>
+              ))}
+            </div>
+            {Array.isArray(treat.doesNotManage) && treat.doesNotManage.length > 0 && (
+              <div className="cpr-listcard" style={{ marginTop: '1.2rem' }}>
+                <h3>What we do not manage by video</h3>
+                <ul>{treat.doesNotManage.map((x, i) => <li key={i}>{clean(x, stateName)}</li>)}</ul>
+              </div>
+            )}
+          </div>
+        </section>
+      )}
+
+      {/* DECISION GUIDE */}
+      {Array.isArray(decision.steps) && decision.steps.length > 0 && (
+        <section className="cpr-sec cpr-alt">
+          <div className="cpr-wrap">
+            <p className="cpr-kicker">Decision guide</p>
+            <h2>{clean(decision.sectionTitle || 'Should you use TeleDirectMD?', stateName)}</h2>
+            <div className="cpr-decision">
+              {decision.steps.map((s, i) => (
+                <div className={`cpr-dstep${s.type === 'urgent' ? ' urgent' : ''}`} key={i}>
+                  <h3>{clean(s.title || '', stateName)}</h3>
+                  {Array.isArray(s.items) && s.items.length > 0 && <ul>{s.items.map((x, j) => <li key={j}>{clean(x, stateName)}</li>)}</ul>}
+                  {s.yesAction && <p className="act"><b>Yes:</b> {clean(s.yesAction, stateName).replace(/^If yes,?\s*/i, '')}</p>}
+                  {s.noAction && <p className="act"><b>No:</b> {clean(s.noAction, stateName).replace(/^If no,?\s*/i, '')}</p>}
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
+
+      {/* HOME CARE */}
+      {(home.whatToDoNow || home.whatToWatch || home.followUp) && (
+        <section className="cpr-sec">
+          <div className="cpr-wrap">
+            <p className="cpr-kicker">Recovery &amp; prevention</p>
+            <h2>{clean(home.sectionTitle || 'Home care, recovery, and prevention', stateName)}</h2>
+            <div className="cpr-cardgrid">
+              {[home.whatToDoNow, home.whatToWatch, home.followUp].filter(Boolean).map((blk, i) => (
+                <div className="cpr-listcard" key={i}>
+                  <h3>{clean(blk.title || '', stateName)}</h3>
+                  <ul>{(blk.items || []).map((x, j) => <li key={j}>{clean(typeof x === 'string' ? x : (x.text || ''), stateName)}</li>)}</ul>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
+
+      {/* WHEN NOT TO USE */}
+      {(whenNot.shouldNotUse || whenNot.alternatives) && (
+        <section className="cpr-sec cpr-alt">
+          <div className="cpr-wrap">
+            <p className="cpr-kicker">Safety first</p>
+            <h2>{clean(whenNot.sectionTitle || 'When not to use telehealth', stateName)}</h2>
+            {whenNot.intro && <p className="cpr-lead">{clean(whenNot.intro, stateName)}</p>}
+            <div className="cpr-two">
+              {whenNot.shouldNotUse && (
+                <div className="cpr-fit bad">
+                  <h3>{clean(whenNot.shouldNotUse.title || 'Do not use if', stateName)}</h3>
+                  <ul>{(whenNot.shouldNotUse.items || []).map((x, i) => <li key={i}>{clean(x, stateName)}</li>)}</ul>
+                </div>
+              )}
+              {whenNot.alternatives && (
+                <div className="cpr-listcard">
+                  <h3>{clean(whenNot.alternatives.title || 'Alternative care options', stateName)}</h3>
+                  <ul>{(whenNot.alternatives.items || []).map((x, i) => <li key={i}>{typeof x === 'string' ? clean(x, stateName) : <><b style={{ color: 'var(--navy)' }}>{clean(x.label || '', stateName)}</b> {clean(x.text || '', stateName)}</>}</li>)}</ul>
+                </div>
+              )}
+            </div>
+          </div>
+        </section>
+      )}
+
       {/* FAQ */}
       {faqs.length > 0 && (
         <section className="cpr-sec cpr-alt">
@@ -263,6 +480,99 @@ export default function ConditionPageRedesign({ condition, stateName = '' }) {
                   <p className="cpr-ans">{clean(f.answer || f.a || '', stateName)}</p>
                 </details>
               ))}
+            </div>
+          </div>
+        </section>
+      )}
+
+      {/* REFERENCES */}
+      {refs.length > 0 && (
+        <section className="cpr-sec">
+          <div className="cpr-wrap">
+            <p className="cpr-kicker">Clinical sources</p>
+            <h2>References</h2>
+            <ul className="cpr-refs">
+              {refs.map((r, i) => (
+                <li key={i}>
+                  {r.url ? <a href={r.url} rel="nofollow noopener">{clean(r.text || r.label || r.url, stateName)}</a> : clean(r.text || r.label || String(r), stateName)}
+                </li>
+              ))}
+            </ul>
+          </div>
+        </section>
+      )}
+
+      {/* RELATED CONDITIONS (styled) */}
+      {relatedConds.length > 0 && (
+        <section className="cpr-sec cpr-alt">
+          <div className="cpr-wrap">
+            <p className="cpr-kicker">Explore more care</p>
+            <h2>Related conditions we treat online</h2>
+            <div className="cpr-links">
+              {relatedConds.map((rc, i) => {
+                const slug = rc.slug || rc.href || '';
+                const name = rc.name || rc.title || rc.label || '';
+                return (
+                  <a className="cpr-linkcard" key={i} href={slug.startsWith('/') ? slug : `/${slug}`}>
+                    <span className="t">{clean(name, stateName)}</span>
+                    <span className="d">Online MD video visit</span>
+                  </a>
+                );
+              })}
+            </div>
+          </div>
+        </section>
+      )}
+
+      {/* QUICK LINKS: cost, compare, symptoms (styled cards) */}
+      {(costLink || comparePage || (symptomLinks && symptomLinks.length > 0) || (secondaryCostPages && secondaryCostPages.length > 0)) && (
+        <section className="cpr-sec">
+          <div className="cpr-wrap">
+            <p className="cpr-kicker">Helpful links</p>
+            <h2>Pricing, comparisons &amp; symptoms</h2>
+            <div className="cpr-links">
+              {costLink && (
+                <a className="cpr-linkcard" href={costLink.url}>
+                  <span className="t">{costLink.title}</span>
+                  <span className="d">Transparent cost breakdown</span>
+                </a>
+              )}
+              {secondaryCostPages.map((s, i) => (
+                <a className="cpr-linkcard" href={s.url} key={`sc${i}`}>
+                  <span className="t">{s.title}</span>
+                  <span className="d">Cost &amp; options</span>
+                </a>
+              ))}
+              {comparePage && (
+                <a className="cpr-linkcard" href={`/compare/${comparePage.slug}/`}>
+                  <span className="t">{comparePage.title || comparePage.name || 'Compare TeleDirectMD'}</span>
+                  <span className="d">Side-by-side comparison</span>
+                </a>
+              )}
+              {(symptomLinks || []).filter(Boolean).map((s, i) => (
+                <a className="cpr-linkcard" href={`/symptoms/${s.slug}/`} key={`sy${i}`}>
+                  <span className="t">{s.title || s.name || s.slug}</span>
+                  <span className="d">Symptom guide</span>
+                </a>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
+
+      {/* ALL CONDITIONS link cloud (styled chips) */}
+      {otherConditions && otherConditions.length > 0 && (
+        <section className="cpr-sec cpr-alt">
+          <div className="cpr-wrap">
+            <p className="cpr-kicker">Everything we treat</p>
+            <h2>All conditions we treat online</h2>
+            <div className="cpr-chips">
+              {otherConditions.map((cc, i) => (
+                <a className="cpr-chip" key={i} href={`/${cc.slug}`}>{clean(cc.name, stateName)}</a>
+              ))}
+            </div>
+            <div style={{ marginTop: '1.5rem' }}>
+              <a href="/what-we-treat" className="cpr-cta cpr-cta--navy">Explore All Adult Conditions →</a>
             </div>
           </div>
         </section>
