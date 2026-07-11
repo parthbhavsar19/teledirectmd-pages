@@ -563,9 +563,7 @@ export default function StateLandingPage({ stateSlug }) {
           <p>Explore more about TeleDirectMD services available in {state.name}.</p>
           <div className="tdmd-inline-links">
             <p className="tdmd-link-cloud">
-              {stateSlug !== 'va' && (
-                <a href={`/${stateSlug}/online-doctor-visits`}>Online Doctor Visits in {state.name}</a>
-              )}
+              <a href={`/${stateSlug}/online-doctor-visits`}>Online Doctor Visits in {state.name}</a>
               <a href="/insurance">Insurance & Pricing</a>
               <a href="/faq">Frequently Asked Questions</a>
               <a href="/states-we-serve">All States We Serve</a>
