@@ -78,7 +78,7 @@ export default function WorldCup2026Page() {
   ];
 
   /* ── JSON-LD Schema ──────────────────────────────────────────────── */
-  const licensedAbbrs = ["AL","AZ","CA","CO","CT","DE","FL","GA","HI","ID","IL","IN","IA","KS","KY","LA","ME","MD","MI","MN","MS","MO","MT","NE","NV","NH","NJ","NC","ND","OH","OK","PA","SC","SD","TN","TX","UT","WA","WV","WI","WY"];
+  const licensedAbbrs = ["AL","AZ","CA","CO","CT","DE","FL","GA","HI","ID","IL","IN","IA","KS","KY","LA","ME","MD","MI","MN","MS","MO","MT","NE","NV","NH","NJ","NC","ND","OH","OK","PA","SC","SD","TN","TX","UT","VA","WA","WV","WI","WY"];
   const jsonLd = {
     "@context": "https://schema.org",
     "@graph": [

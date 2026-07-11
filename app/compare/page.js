@@ -377,7 +377,7 @@ export default function CompareHubPage() {
                 </tr>
                 <tr>
                   <td>States covered</td>
-                  <td>42 + DC</td>
+                  <td>43 + DC</td>
                   <td>All 50</td>
                   <td>Most states</td>
                   <td>Most states</td>

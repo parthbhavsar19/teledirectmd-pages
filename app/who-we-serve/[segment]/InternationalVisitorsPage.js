@@ -354,6 +354,7 @@ export default function InternationalVisitorsPage() {
     { abbr: 'TX', name: 'Texas' },
     { abbr: 'UT', name: 'Utah' },
     { abbr: 'VT', name: 'Vermont' },
+    { abbr: 'VA', name: 'Virginia' },
     { abbr: 'WA', name: 'Washington' },
     { abbr: 'DC', name: 'Washington, D.C.' },
     { abbr: 'WV', name: 'West Virginia' },

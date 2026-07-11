@@ -4,19 +4,19 @@ import { notFound } from 'next/navigation';
 import { CitableSummaryBlock } from '../../../components/CitableSummary';
 import { summarizeCompare, summarizeUseCase, summarizeWhoWeServe, summarizeFaqDeepDive, citableSummaryToJsonLd } from '../../../../lib/citable-summary';
 
-const STATES = ['al','az','ca','co','ct','dc','de','fl','ga','hi','id','il','in','ia','ks','ky','la','me','md','mi','mn','ms','mo','mt','ne','nv','nh','nj','nc','nd','oh','ok','pa','sc','sd','tn','tx','ut','wa','wv','wi','wy'];
+const STATES = ['al','az','ca','co','ct','dc','de','fl','ga','hi','id','il','in','ia','ks','ky','la','me','md','mi','mn','ms','mo','mt','ne','nv','nh','nj','nc','nd','oh','ok','pa','sc','sd','tn','tx','ut','va','wa','wv','wi','wy'];
 
 // 2026-06-10: Retired finasteride/sildenafil/tadalafil/propranolol deep-dive
 // families (168 thin templated pages, 65-72% Jaccard within/across medications).
 // They earned 9 clicks combined in 30 days while contributing duplication signal.
 // 410-Gone routes added to vercel.json; URLs auto-removed from build via this
-// MEDICATIONS array. Only UTI antibiotics kept (276 impr, 4 clicks, 42 pages)
+// MEDICATIONS array. Only UTI antibiotics kept (276 impr, 4 clicks, 43 pages)
 // pending Phase 3 enrichment to match the per-state JSON template depth.
 const MEDICATIONS = [
   { key: 'uti-antibiotics', medication: 'UTI Antibiotics', condition: 'UTI Treatment', conditionSlug: 'uti-treatment-online', slugPrefix: 'can-you-get-uti-treatment-online-in', concern: 'urinary tract infection symptoms', evalContext: 'experiencing UTI symptoms and want to discuss treatment options including antibiotics for' }
 ];
 
-const STATE_NAMES = { al:'alabama',az:'arizona',ca:'california',co:'colorado',ct:'connecticut',dc:'washington-dc',de:'delaware',fl:'florida',ga:'georgia',hi:'hawaii',id:'idaho',il:'illinois',in:'indiana',ia:'iowa',ks:'kansas',ky:'kentucky',la:'louisiana',me:'maine',md:'maryland',mi:'michigan',mn:'minnesota',ms:'mississippi',mo:'missouri',mt:'montana',ne:'nebraska',nv:'nevada',nh:'new-hampshire',nj:'new-jersey',nc:'north-carolina',nd:'north-dakota',oh:'ohio',ok:'oklahoma',pa:'pennsylvania',sc:'south-carolina',sd:'south-dakota',tn:'tennessee',tx:'texas',ut:'utah',wa:'washington',wv:'west-virginia',wi:'wisconsin',wy:'wyoming' };
+const STATE_NAMES = { al:'alabama',az:'arizona',ca:'california',co:'colorado',ct:'connecticut',dc:'washington-dc',de:'delaware',fl:'florida',ga:'georgia',hi:'hawaii',id:'idaho',il:'illinois',in:'indiana',ia:'iowa',ks:'kansas',ky:'kentucky',la:'louisiana',me:'maine',md:'maryland',mi:'michigan',mn:'minnesota',ms:'mississippi',mo:'missouri',mt:'montana',ne:'nebraska',nv:'nevada',nh:'new-hampshire',nj:'new-jersey',nc:'north-carolina',nd:'north-dakota',oh:'ohio',ok:'oklahoma',pa:'pennsylvania',sc:'south-carolina',sd:'south-dakota',tn:'tennessee',tx:'texas',ut:'utah',va:'virginia',wa:'washington',wv:'west-virginia',wi:'wisconsin',wy:'wyoming' };
 
 const FAQ_PAGES = [];
 MEDICATIONS.forEach((med) => {

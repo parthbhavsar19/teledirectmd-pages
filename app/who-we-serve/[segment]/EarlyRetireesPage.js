@@ -90,6 +90,7 @@ export default function EarlyRetireesPage() {
     { abbr: 'TN', name: 'Tennessee' },
     { abbr: 'TX', name: 'Texas' },
     { abbr: 'UT', name: 'Utah' },
+    { abbr: 'VA', name: 'Virginia' },
     { abbr: 'WA', name: 'Washington' },
     { abbr: 'WV', name: 'West Virginia' },
     { abbr: 'WI', name: 'Wisconsin' },

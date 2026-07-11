@@ -583,7 +583,7 @@ export default function HomepageClient() {
   const reviewTrackRef = useRef(null);
 
   // Counter hooks for stats
-  const stateCounter = useCountUp(42, 1500);
+  const stateCounter = useCountUp(43, 1500);
   const conditionCounter = useCountUp(60, 1200);
   const ratingCounter = useCountUp(49, 1000); // 4.9 -> we'll display as 4.9
   const priceCountdown = { count: 79, ref: null }; // Static — countdown mid-animation showed wrong values on mobile
