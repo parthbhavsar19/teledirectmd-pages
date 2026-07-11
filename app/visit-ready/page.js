@@ -31,7 +31,7 @@ const jsonLd = {
   url: 'https://teledirectmd.com',
   logo: 'https://teledirectmd.com/logo.png',
   description:
-    'Physician-owned virtual urgent care. Licensed in 43 states plus DC. Flat $79 visit fee with no subscription.',
+    'Physician-owned virtual urgent care. Licensed in 44 states plus DC. Flat $79 visit fee with no subscription.',
   priceRange: '$79',
   telephone: '+1-678-956-1855',
   email: 'contact@teledirectmd.com',

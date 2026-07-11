@@ -778,7 +778,7 @@ export default function NationalConditionPage({ conditionSlug }) {
           <div className="tdmd-related-grid" role="list">
             <a className="tdmd-related-card" role="listitem" href="/who-we-serve/truck-drivers/">
               <span className="tdmd-related-title">Truck Drivers</span>
-              <span className="tdmd-related-desc">Healthcare from any truck stop in 43 states</span>
+              <span className="tdmd-related-desc">Healthcare from any truck stop in 44 states</span>
             </a>
             <a className="tdmd-related-card" role="listitem" href="/who-we-serve/gig-workers/">
               <span className="tdmd-related-title">Gig Workers & Freelancers</span>

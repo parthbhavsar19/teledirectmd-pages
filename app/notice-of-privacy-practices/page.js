@@ -1,6 +1,6 @@
 export const metadata = {
   title: 'Notice of Privacy Practices (HIPAA NPP) | TeleDirectMD',
-  description: 'TeleDirectMD HIPAA Notice of Privacy Practices — how we use and disclose your protected health information (PHI) and your rights under HIPAA across 43 states.',
+  description: 'TeleDirectMD HIPAA Notice of Privacy Practices — how we use and disclose your protected health information (PHI) and your rights under HIPAA across 44 states.',
   alternates: { canonical: 'https://teledirectmd.com/notice-of-privacy-practices' },
 };
 

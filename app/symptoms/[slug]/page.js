@@ -197,7 +197,7 @@ export default async function SymptomPage({ params }) {
 
               <ul className="tdmd-hero-benefits">
                 <li>$79 flat — board-certified MD video visit, prescription same-day if appropriate</li>
-                <li>43 states — same-day, evenings & weekends</li>
+                <li>44 states — same-day, evenings & weekends</li>
                 <li>HSA / FSA accepted; in-network with Aetna, BCBS, UnitedHealthcare</li>
                 <li>Routes you to in-person urgent care or the ER if your symptoms warrant it</li>
               </ul>
@@ -460,7 +460,7 @@ export default async function SymptomPage({ params }) {
         <div className="tdmd-container">
           <h2>Why TeleDirectMD: A Real Doctor, Not an Algorithm</h2>
           <p>
-            When you visit TeleDirectMD, you see <a href="/about" style={{ fontWeight: 700, color: 'var(--tdmd-navy)' }}>Dr. Parth Bhavsar, MD</a> — a board-certified Family Medicine physician licensed in 43 states. Not a panel of rotating providers, not a physician assistant, not a chatbot.
+            When you visit TeleDirectMD, you see <a href="/about" style={{ fontWeight: 700, color: 'var(--tdmd-navy)' }}>Dr. Parth Bhavsar, MD</a> — a board-certified Family Medicine physician licensed in 44 states. Not a panel of rotating providers, not a physician assistant, not a chatbot.
           </p>
           <ul className="tdmd-hero-benefits">
             <li>Board-certified Family Medicine — University of Mississippi Medical Center</li>
@@ -489,7 +489,7 @@ export default async function SymptomPage({ params }) {
       {/* 17) State coverage */}
       <section className="tdmd-section" id={`${pid}-states`}>
         <div className="tdmd-container">
-          <h2>Available in 43 States</h2>
+          <h2>Available in 44 States</h2>
           <p>The flat $79 rate applies in every state where Dr. Bhavsar is licensed. Select your state for a state-specific page:</p>
           <div className="tdmd-other-states-grid">
             {STATE_LIST.map(([abbr, name]) => (
@@ -556,7 +556,7 @@ export default async function SymptomPage({ params }) {
       <section className="tdmd-section" id={`${pid}-insurance`}>
         <div className="tdmd-container" data-speakable="true">
           <h2>$79 Cash-Pay or In-Network with Aetna, BCBS, UHC</h2>
-          <p>The $79 flat rate applies to all 43 states. If you have insurance, TeleDirectMD is in-network with Aetna, BCBS, and UnitedHealthcare in select states — your standard telehealth copay applies in place of the $79.</p>
+          <p>The $79 flat rate applies to all 44 states. If you have insurance, TeleDirectMD is in-network with Aetna, BCBS, and UnitedHealthcare in select states — your standard telehealth copay applies in place of the $79.</p>
           <div className="tdmd-related-grid">
             <a href="/insurance/aetna/"                   className="tdmd-related-card"><span className="tdmd-related-title">Aetna</span><span className="tdmd-related-desc">{`In-network in ${getPayerFamilyStateCount('aetna')} states`}</span></a>
             <a href="/insurance/blue-cross-blue-shield/"  className="tdmd-related-card"><span className="tdmd-related-title">Blue Cross Blue Shield</span><span className="tdmd-related-desc">{`In-network in ${getPayerFamilyStateCount('bcbs')} states`}</span></a>
@@ -639,7 +639,7 @@ export default async function SymptomPage({ params }) {
           <div className="tdmd-bottom-cta">
             <div className="tdmd-bottom-cta-copy">
               <h3>Ready to talk to a doctor? $79 flat. No insurance required.</h3>
-              <p>Same-day, evenings & weekends. Board-certified MD. 43 states. Last reviewed {today}.</p>
+              <p>Same-day, evenings & weekends. Board-certified MD. 44 states. Last reviewed {today}.</p>
             </div>
             <div className="tdmd-bottom-cta-actions">
               <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Talk to a Doctor — $79</a>
@@ -654,7 +654,7 @@ export default async function SymptomPage({ params }) {
         <div className="tdmd-container">
           <h2>Medical Disclaimer</h2>
           <p>
-            This page is informational and is not a diagnosis or substitute for medical care. <strong>Last reviewed {today} by Parth Bhavsar, MD (NPI 1104323203), board-certified Family Medicine.</strong> Telehealth services are for non-emergency conditions in adults 18+ physically located in one of TeleDirectMD&apos;s 43 licensed states at the time of the visit. We do not prescribe controlled substances. If you are experiencing a medical emergency — including any of the red-flag scenarios above — call 911 or go to the nearest emergency room.
+            This page is informational and is not a diagnosis or substitute for medical care. <strong>Last reviewed {today} by Parth Bhavsar, MD (NPI 1104323203), board-certified Family Medicine.</strong> Telehealth services are for non-emergency conditions in adults 18+ physically located in one of TeleDirectMD&apos;s 44 licensed states at the time of the visit. We do not prescribe controlled substances. If you are experiencing a medical emergency — including any of the red-flag scenarios above — call 911 or go to the nearest emergency room.
           </p>
         </div>
       </section>

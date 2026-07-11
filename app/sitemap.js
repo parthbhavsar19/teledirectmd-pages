@@ -127,6 +127,9 @@ export default function sitemap() {
   const conditionSlugs = getConditionSlugs();
   for (const state of states) {
     urls.push(url(`/${state.slug}/`, 0.9, 'weekly'));
+    // VA: cash-pay-only hub launch — only the /va/ hub is live. No online-doctor-visits
+    // page and no state-prefixed condition pages are generated for VA, so emit neither.
+    if (state.slug === 'va') continue;
     urls.push(url(`/${state.slug}/online-doctor-visits/`, 0.7, 'monthly'));
     for (const cond of conditionSlugs) {
       // National-only conditions: never emit a state-prefixed variant

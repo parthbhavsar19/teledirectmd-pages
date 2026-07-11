@@ -1,0 +1,54 @@
+{
+  "stateCode": "VA",
+  "stateName": "Virginia",
+  "schemaVersion": "1.0",
+  "lastReviewed": "2026-07-11",
+  "reviewedBy": "Parth Bhavsar, MD",
+  "writingNotes": {
+    "regulatoryNote": "Virginia hub launched cash-pay only. Per launch scope, regulatory copy is intentionally conservative: license verification + service facts only. Do NOT add specific Virginia telehealth statute or prescribing-authority citations to this template unless a primary-source citation is verified and added to the repo. Universal safety/compliance language (no controlled substances, standard of care, emergency disclaimer) comes from lib/global-invariants.js.",
+    "payerNote": "Virginia has ZERO payer enrollments (self-pay only). VA is absent from lib/insurance-data.js insuranceByState, so lib/payer-truth.js getPayerMode('VA') resolves to 'self-pay-only' and assertPayerTruth blocks any payer claim. Never name a specific insurer on any Virginia surface."
+  },
+  "voiceProfile": {
+    "tone": "plain, factual, reassuring",
+    "avoid": "statute citations, prescribing-authority claims, insurer names, superlatives"
+  },
+  "stateHero": {
+    "openingParagraph": "Virginia residents seeking same-day care for common conditions can book a video visit with Parth Bhavsar, MD — board-certified in Family Medicine — without leaving home. TeleDirectMD holds an active Virginia medical license (0101290265) issued by the Virginia Board of Medicine, which operates within the Virginia Department of Health Professions (DHP); the license is independently verifiable through the DHP License Lookup. From Virginia Beach and Norfolk in Hampton Roads to Richmond, Arlington and the rest of Northern Virginia, and out to Roanoke and the Shenandoah Valley, a Virginia telehealth visit is $79 flat self-pay — no insurance, no prior authorization, and no surprise billing. HSA and FSA cards are accepted. Adults 18 and older located anywhere in Virginia are eligible."
+  },
+  "stateEligibility": {
+    "summary": "Adults 18 and older physically located in Virginia at the time of the visit are eligible for a $79 cash-pay telehealth visit."
+  },
+  "statePricing": {
+    "amount": 79,
+    "phrase": "$79 flat self-pay",
+    "hsaFsa": "HSA and FSA cards are accepted."
+  },
+  "stateTreatmentContext": {
+    "general": "TeleDirectMD provides MD-only video visits for common adult conditions to patients located in Virginia. A prescription, when clinically appropriate, is sent electronically to the patient's preferred Virginia pharmacy. TeleDirectMD does not prescribe controlled substances via telehealth."
+  },
+  "stateEpidemiology": {
+    "general": "Virginia spans distinct regions — the Atlantic coastal plain and Hampton Roads, the Richmond and Northern Virginia metro corridors, the Piedmont, and the Blue Ridge and Appalachian mountains to the west. Seasonal allergy burden and tick exposure vary by region, with tree and grass pollen in spring and summer and ragweed later in the season; wooded and rural areas across the state carry higher tick-exposure risk during warmer months. This general context is provided for patient awareness only and is not a substitute for individual medical evaluation."
+  },
+  "stateCompliance": {
+    "credentialBlock": "Parth Bhavsar, MD — board-certified in Family Medicine — holds an active Virginia medical license (number 0101290265) issued July 10, 2026, by the Virginia Board of Medicine, which operates within the Virginia Department of Health Professions (DHP). Virginia patients may independently verify Dr. Bhavsar's Virginia license through the DHP License Lookup at dhp.virginiainteractive.org/Lookup/Detail/0101290265. The license expires September 30, 2028. NPI: 1104323203.",
+    "verifyUrl": "https://dhp.virginiainteractive.org/Lookup/Detail/0101290265",
+    "licenseNumber": "0101290265",
+    "boardName": "Virginia Board of Medicine (Department of Health Professions)",
+    "boardUrl": "https://www.dhp.virginia.gov/",
+    "dateIssued": "2026-07-10",
+    "dateExpires": "2028-09-30"
+  },
+  "stateCities": {
+    "metroAndRural": "TeleDirectMD serves adults located anywhere in Virginia. Hampton Roads includes Virginia Beach (the state's most populous city), Chesapeake, Norfolk, Newport News, Hampton, Portsmouth, and Suffolk. The Richmond metro anchors the central Piedmont, while Northern Virginia — Arlington, Alexandria, and the Washington, D.C. suburbs — sits in the north. Charlottesville anchors the central Piedmont around the University of Virginia, Harrisonburg and the Shenandoah Valley run through the west, Lynchburg and Roanoke sit along the Blue Ridge, and the rural counties of Southwest Virginia extend into Appalachia. All regions have pharmacy access for e-prescription fulfillment."
+  },
+  "stateInsurance": {
+    "mode": "self-pay-only",
+    "selfPayDisclosure": "TeleDirectMD operates self-pay only in Virginia — no commercial insurance, no Medicaid, and no Medicare. Every Virginia visit is $79 flat self-pay, paid at booking. There are no hidden fees, facility charges, or follow-up bills, and HSA and FSA debit cards are accepted. TeleDirectMD does not file insurance claims on behalf of Virginia patients.",
+    "payers": []
+  },
+  "stateFaqs": [],
+  "conditionOverrides": {},
+  "stateLegalLayer": {
+    "notShownAsStatuteClaims": "Virginia launch is license-verification + service-facts only. No state-specific statute or prescribing-authority assertions are made here; universal compliance language is inherited from lib/global-invariants.js COMPLIANCE_BLOCKS."
+  }
+}

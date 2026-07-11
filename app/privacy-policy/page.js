@@ -1,6 +1,6 @@
 export const metadata = {
   title: 'Privacy Policy | TeleDirectMD',
-  description: 'Learn how TeleDirectMD protects your health data with HIPAA-compliant policies, secure telemedicine services, and strict privacy measures across 43 states.',
+  description: 'Learn how TeleDirectMD protects your health data with HIPAA-compliant policies, secure telemedicine services, and strict privacy measures across 44 states.',
   alternates: { canonical: 'https://teledirectmd.com/privacy-policy' },
 };
 

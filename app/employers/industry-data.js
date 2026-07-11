@@ -20,11 +20,11 @@ export const INDUSTRY_DATA = {
     shortName: 'Trucking',
     audienceLabel: 'OTR Drivers, Owner-Operators, Fleet HR',
     metaDescription:
-      'Virtual care for OTR truck drivers and owner-operators. Manage hypertension, diabetes, and dyslipidemia to support drivers between DOT exams. Same-day visits in 43 states + DC. $0 employer cost.',
+      'Virtual care for OTR truck drivers and owner-operators. Manage hypertension, diabetes, and dyslipidemia to support drivers between DOT exams. Same-day visits in 44 states + DC. $0 employer cost.',
     heroHeadline: 'Virtual care for the people who keep America moving.',
     heroHeadlineEm: 'No truck-stop detour required.',
     heroSub:
-      "TeleDirectMD is physician-led virtual care designed for OTR drivers and owner-operators. We don't perform or replace your DOT medical exam — federal law requires that in person. What we do is provide the day-to-day care that drivers struggle to access on the road: managing high blood pressure, diabetes, cholesterol, mental health, and acute illness from anywhere a driver can get online. Licensed in 43 states + DC.",
+      "TeleDirectMD is physician-led virtual care designed for OTR drivers and owner-operators. We don't perform or replace your DOT medical exam — federal law requires that in person. What we do is provide the day-to-day care that drivers struggle to access on the road: managing high blood pressure, diabetes, cholesterol, mental health, and acute illness from anywhere a driver can get online. Licensed in 44 states + DC.",
     workforceProfile: {
       shortDesc: 'OTR driver',
       intro:
@@ -162,8 +162,8 @@ export const INDUSTRY_DATA = {
         body: 'SSRIs and SNRIs (non-controlled) are within scope. We do not treat addiction or prescribe controlled-substance ADHD or anxiety medications, but stable management of depression and anxiety is exactly what virtual care does well.',
       },
       {
-        headline: 'One physician across 43 states + DC',
-        body: 'OTR drivers move between states constantly. Dr. Bhavsar holds licenses in 43 states + DC — drivers get care wherever they happen to be (as long as they are physically located in a licensed state at the time of the visit).',
+        headline: 'One physician across 44 states + DC',
+        body: 'OTR drivers move between states constantly. Dr. Bhavsar holds licenses in 44 states + DC — drivers get care wherever they happen to be (as long as they are physically located in a licensed state at the time of the visit).',
       },
     ],
     whatWeDont: [
@@ -192,7 +192,7 @@ export const INDUSTRY_DATA = {
       },
       {
         q: 'My fleet has drivers in multiple states. Can one telehealth doctor cover all of them?',
-        a: 'Yes. Dr. Bhavsar is licensed in 43 states plus DC — which covers the vast majority of US interstate OTR routes. Drivers must be physically located in a licensed state at the time of the visit; we confirm this at booking. This is the operational reason a telehealth-first practice works for geographically distributed workforces in a way that a single-state clinic cannot.',
+        a: 'Yes. Dr. Bhavsar is licensed in 44 states plus DC — which covers the vast majority of US interstate OTR routes. Drivers must be physically located in a licensed state at the time of the visit; we confirm this at booking. This is the operational reason a telehealth-first practice works for geographically distributed workforces in a way that a single-state clinic cannot.',
       },
     ],
   },
@@ -204,7 +204,7 @@ export const INDUSTRY_DATA = {
     shortName: 'Restaurant',
     audienceLabel: 'Restaurant Owners, F&B HR, Hospitality GMs',
     metaDescription:
-      'Virtual care for restaurant workers — minor burn assessment, cut and wound care, contact dermatitis, work notes when staff are sick. Same-day visits, $0 employer cost, 43 states + DC.',
+      'Virtual care for restaurant workers — minor burn assessment, cut and wound care, contact dermatitis, work notes when staff are sick. Same-day visits, $0 employer cost, 44 states + DC.',
     heroHeadline: "A telehealth benefit your kitchen and front-of-house can actually use.",
     heroHeadlineEm: 'Without losing a shift.',
     heroSub:
@@ -361,7 +361,7 @@ export const INDUSTRY_DATA = {
     shortName: 'Home Care',
     audienceLabel: 'Home Care Agencies, Home Health HR',
     metaDescription:
-      'Virtual care for home health aides and personal care aides — acute care, back and shoulder pain, chronic disease management, mental health. $0 employer cost, 43 states + DC.',
+      'Virtual care for home health aides and personal care aides — acute care, back and shoulder pain, chronic disease management, mental health. $0 employer cost, 44 states + DC.',
     heroHeadline: 'Virtual care for the people who care for everyone else.',
     heroHeadlineEm: "Built for an aging, mostly-female, mostly-immigrant workforce.",
     heroSub:
@@ -489,7 +489,7 @@ export const INDUSTRY_DATA = {
     shortName: 'Construction',
     audienceLabel: 'GCs, Subcontractors, Construction HR',
     metaDescription:
-      'Virtual care for construction crews — same-day care for back pain, sprains, minor lacerations, hypertension management for the 27.8% uninsured workforce. $0 employer cost, 43 states + DC.',
+      'Virtual care for construction crews — same-day care for back pain, sprains, minor lacerations, hypertension management for the 27.8% uninsured workforce. $0 employer cost, 44 states + DC.',
     heroHeadline: 'Virtual care for the trades.',
     heroHeadlineEm: 'For the days you do not need to be in a clinic.',
     heroSub:
@@ -630,7 +630,7 @@ export const INDUSTRY_DATA = {
     shortName: 'Janitorial',
     audienceLabel: 'Cleaning Contractors, Janitorial HR',
     metaDescription:
-      'Virtual care for janitorial crews — contact dermatitis management, asthma care, chronic disease, mental health. Night-shift accessible, $0 employer cost, 43 states + DC.',
+      'Virtual care for janitorial crews — contact dermatitis management, asthma care, chronic disease, mental health. Night-shift accessible, $0 employer cost, 44 states + DC.',
     heroHeadline: 'Virtual care for cleaning crews.',
     heroHeadlineEm: 'A doctor your team can actually reach.',
     heroSub:

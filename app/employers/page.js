@@ -5,7 +5,7 @@ import LeadFormEmbed from './LeadFormEmbed';
 export const metadata = {
   title: 'Telehealth for Employees | $0 Employer Cost | TeleDirectMD',
   description:
-    "Add telehealth to your team's benefits at zero employer cost. Board-certified family medicine MD, preferred employer pricing, in-network with BCBS, Aetna, and UnitedHealthcare across 43 states + DC.",
+    "Add telehealth to your team's benefits at zero employer cost. Board-certified family medicine MD, preferred employer pricing, in-network with BCBS, Aetna, and UnitedHealthcare across 44 states + DC.",
   alternates: { canonical: 'https://teledirectmd.com/employers' },
   robots: { index: true, follow: true, 'max-image-preview': 'large', 'max-snippet': -1, 'max-video-preview': -1 },
   authors: [{ name: 'Parth Bhavsar, MD' }],
@@ -15,7 +15,7 @@ export const metadata = {
     locale: 'en_US',
     title: 'Telehealth for Employees | $0 Employer Cost | TeleDirectMD',
     description:
-      'Real doctor visits for your team. Zero cost to you. Preferred employer pricing or in-network with BCBS, Aetna, UHC. 43 states + DC.',
+      'Real doctor visits for your team. Zero cost to you. Preferred employer pricing or in-network with BCBS, Aetna, UHC. 44 states + DC.',
     url: 'https://teledirectmd.com/employers',
     images: ['https://teledirectmd.com/og-employers.jpg'],
   },
@@ -43,7 +43,7 @@ const jsonLd = {
       url: 'https://teledirectmd.com/employers/',
       name: 'Telehealth for Employees | $0 Employer Cost | TeleDirectMD',
       description:
-        "Add telehealth to your team's benefits at zero employer cost. Board-certified MD, preferred employer pricing, in-network with BCBS, Aetna, UnitedHealthcare. 43 states + DC.",
+        "Add telehealth to your team's benefits at zero employer cost. Board-certified MD, preferred employer pricing, in-network with BCBS, Aetna, UnitedHealthcare. 44 states + DC.",
       inLanguage: 'en-US',
       breadcrumb: { '@id': 'https://teledirectmd.com/employers#breadcrumbs' },
       isPartOf: { '@id': 'https://teledirectmd.com/#website' },
@@ -93,7 +93,7 @@ const jsonLd = {
       legalName: 'TeleDirectMD',
       url: 'https://teledirectmd.com',
       logo: 'https://teledirectmd.com/logo.webp',
-      description: 'Physician-led virtual care platform offering same-day video visits with a board-certified family medicine MD across 43 states plus DC. Physician roster currently expanding.',
+      description: 'Physician-led virtual care platform offering same-day video visits with a board-certified family medicine MD across 44 states plus DC. Physician roster currently expanding.',
       founder: { '@id': 'https://teledirectmd.com/#physician' },
       foundingDate: '2024',
       areaServed: 'United States',
@@ -147,7 +147,7 @@ const jsonLd = {
       serviceType: 'Employee Telehealth Benefit',
       provider: { '@id': 'https://teledirectmd.com/#organization' },
       description:
-        'Direct-pay virtual care for employer-endorsed teams. Zero employer cost. Employees access a preferred per-visit rate (custom-set per employer partnership) or use BCBS, Aetna, or UnitedHealthcare in-network. Adult patients 18+. Covers 43 states plus DC. Physician roster currently expanding.',
+        'Direct-pay virtual care for employer-endorsed teams. Zero employer cost. Employees access a preferred per-visit rate (custom-set per employer partnership) or use BCBS, Aetna, or UnitedHealthcare in-network. Adult patients 18+. Covers 44 states plus DC. Physician roster currently expanding.',
       audience: { '@type': 'BusinessAudience', audienceType: 'Small and mid-market employers' },
       offers: {
         '@type': 'Offer',
@@ -170,7 +170,7 @@ const jsonLd = {
         { '@type': 'Question', name: 'Do you prescribe controlled substances?', acceptedAnswer: { '@type': 'Answer', text: 'No. TeleDirectMD does not prescribe controlled substances via telehealth — no stimulants, benzodiazepines, or opioids. This is a deliberate clinical-safety decision.' } },
         { '@type': 'Question', name: 'We already have Teladoc through our carrier. Why add this?', acceptedAnswer: { '@type': 'Answer', text: 'Carrier-bundled telehealth averages around 7 percent utilization. Most employees do not know it exists. TeleDirectMD is a supplement — a consistent physician relationship rather than a rotating roster of strangers, in-network billing that counts toward the deductible, and no cost to you.' } },
         { '@type': 'Question', name: 'How fast can my team get a visit?', acceptedAnswer: { '@type': 'Answer', text: 'Same-day or next-day, every day — including evenings and weekends.' } },
-        { '@type': 'Question', name: 'What states do you cover?', acceptedAnswer: { '@type': 'Answer', text: '43 states plus the District of Columbia. We do not currently serve Alaska, Arkansas, Massachusetts, New Mexico, New York, Oregon, Rhode Island, or Virginia.' } },
+        { '@type': 'Question', name: 'What states do you cover?', acceptedAnswer: { '@type': 'Answer', text: '44 states plus the District of Columbia. We do not currently serve Alaska, Arkansas, Massachusetts, New Mexico, New York, Oregon, Rhode Island, or Virginia.' } },
         { '@type': 'Question', name: 'Can our employees use HSA or FSA dollars?', acceptedAnswer: { '@type': 'Answer', text: 'Yes. A TeleDirectMD telehealth visit is an IRS-qualified medical expense.' } },
         { '@type': 'Question', name: 'Can we reimburse employees through ICHRA or QSEHRA?', acceptedAnswer: { '@type': 'Answer', text: 'Yes. TeleDirectMD visits are HRA-eligible. Consult your benefits counsel on plan-design specifics.' } },
         { '@type': 'Question', name: 'Is this an ERISA-regulated health plan?', acceptedAnswer: { '@type': 'Answer', text: 'Our partnership is structured as a voluntary, employee-pay-all arrangement designed to fall within the Department of Labor voluntary-plan safe harbor. Consult your benefits counsel for specifics.' } },
@@ -196,7 +196,7 @@ export default function EmployersPage() {
                 <span className="tdmd-emp-eyebrow">For Employers · Brokers · HR Teams</span>
                 <h1>Real doctor visits for your team. <em>$0 cost to you.</em></h1>
                 <p className="tdmd-emp-hero-sub">
-                  TeleDirectMD is physician-founded virtual care in 43 states + DC. Your team books video visits with a board-certified family medicine physician at a preferred employer rate — or uses BCBS, Aetna, or UnitedHealthcare in-network. You pay zero. You sign one page. You're live in a week. Our physician roster is currently expanding to add capacity across our service area.
+                  TeleDirectMD is physician-founded virtual care in 44 states + DC. Your team books video visits with a board-certified family medicine physician at a preferred employer rate — or uses BCBS, Aetna, or UnitedHealthcare in-network. You pay zero. You sign one page. You're live in a week. Our physician roster is currently expanding to add capacity across our service area.
                 </p>
                 <div className="tdmd-emp-ctas">
                   <a href="#form" className="tdmd-emp-btn tdmd-emp-btn--primary">Book a 15-Minute Discovery Call</a>
@@ -228,7 +228,7 @@ export default function EmployersPage() {
         <div className="tdmd-emp-trust">
           <div className="tdmd-emp-container">
             <div className="tdmd-emp-trust-row">
-              <div className="tdmd-emp-trust-item"><span className="tdmd-emp-trust-dot" aria-hidden="true"></span>Licensed in 43 states + DC</div>
+              <div className="tdmd-emp-trust-item"><span className="tdmd-emp-trust-dot" aria-hidden="true"></span>Licensed in 44 states + DC</div>
               <div className="tdmd-emp-trust-item"><span className="tdmd-emp-trust-dot" aria-hidden="true"></span>Board-Certified Family Medicine</div>
               <div className="tdmd-emp-trust-item"><span className="tdmd-emp-trust-dot" aria-hidden="true"></span>In-Network: BCBS · Aetna · UHC</div>
               <div className="tdmd-emp-trust-item"><span className="tdmd-emp-trust-stars" aria-hidden="true">★★★★★</span>5.0 · 125 Verified Reviews</div>
@@ -456,13 +456,13 @@ export default function EmployersPage() {
                   Residency: University of Mississippi Medical Center, 2021 · NPI 1104323203
                 </p>
                 <p>
-                  Most virtual care platforms route your team to a different stranger every visit — often an NP or PA, not a physician. TeleDirectMD is built around continuity: each patient is assigned to a board-certified physician and stays with that physician across visits. Dr. Bhavsar founded the practice and is licensed in 43 states + DC; the physician roster is currently expanding to add capacity. That's not a marketing line. It's the entire model.
+                  Most virtual care platforms route your team to a different stranger every visit — often an NP or PA, not a physician. TeleDirectMD is built around continuity: each patient is assigned to a board-certified physician and stays with that physician across visits. Dr. Bhavsar founded the practice and is licensed in 44 states + DC; the physician roster is currently expanding to add capacity. That's not a marketing line. It's the entire model.
                 </p>
                 <div className="tdmd-emp-founder-badges">
                   <span className="tdmd-emp-badge">LegitScript Certified</span>
                   <span className="tdmd-emp-badge">HIPAA-Compliant</span>
                   <span className="tdmd-emp-badge">NPI 1104323203</span>
-                  <span className="tdmd-emp-badge">43 States + DC</span>
+                  <span className="tdmd-emp-badge">44 States + DC</span>
                 </div>
               </div>
             </div>
@@ -520,7 +520,7 @@ export default function EmployersPage() {
               <details><summary>Do you prescribe ADHD meds, benzos, or opioids?</summary><div><p>No. We do not prescribe controlled substances via telehealth. That's a deliberate clinical-safety decision — it keeps us aligned with DEA guidance and our malpractice scope.</p></div></details>
               <details><summary>We already have Teladoc through our carrier. Why add this?</summary><div><p>Carrier-bundled telehealth at large employers averages around 7% utilization. Most of your team doesn't even know it exists, and the platform routes them to a different stranger every visit. We're a supplement, not a replacement — a consistent physician relationship rather than a rotating roster, in-network billing that counts toward your deductible, and no cost to you.</p></div></details>
               <details><summary>How fast can my team get a visit?</summary><div><p>Same-day or next-day, every day — including evenings and weekends.</p></div></details>
-              <details><summary>What states do you cover?</summary><div><p>43 states plus the District of Columbia. We do not currently serve Alaska, Arkansas, Massachusetts, New Mexico, New York, Oregon, Rhode Island, or Virginia. <a href="/states-we-serve/" style={{ color: 'var(--tdmd-teal)', fontWeight: 700 }}>See the full coverage map →</a></p></div></details>
+              <details><summary>What states do you cover?</summary><div><p>44 states plus the District of Columbia. We do not currently serve Alaska, Arkansas, Massachusetts, New Mexico, New York, Oregon, Rhode Island, or Virginia. <a href="/states-we-serve/" style={{ color: 'var(--tdmd-teal)', fontWeight: 700 }}>See the full coverage map →</a></p></div></details>
               <details><summary>What if my team is on Cigna?</summary><div><p>Cigna is not in our in-network roster yet. Your team can still use the preferred employer cash-pay rate set in your partnership agreement, and Cigna is on our credentialing roadmap.</p></div></details>
               <details><summary>Can our employees use HSA or FSA dollars?</summary><div><p>Yes. A TeleDirectMD telehealth visit is an IRS-qualified medical expense.</p></div></details>
               <details><summary>Can we reimburse employees through ICHRA or QSEHRA?</summary><div><p>Yes. TeleDirectMD visits are HRA-eligible. Consult your benefits counsel on plan-design specifics.</p></div></details>
@@ -556,7 +556,7 @@ export default function EmployersPage() {
           </div>
           <div className="tdmd-emp-compliance-block">
             <h4>Provider identity</h4>
-            <p>Care provided by Parth Bhavsar, MD — Board-Certified Family Medicine Physician · NPI 1104323203 · Residency: University of Mississippi Medical Center, 2021 · Licensed in 43 states + DC.</p>
+            <p>Care provided by Parth Bhavsar, MD — Board-Certified Family Medicine Physician · NPI 1104323203 · Residency: University of Mississippi Medical Center, 2021 · Licensed in 44 states + DC.</p>
           </div>
         </div>
       </section>

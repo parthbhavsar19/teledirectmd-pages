@@ -5,7 +5,7 @@ import { COMPARE_PAGE_SLUGS } from '../../lib/compare-pages-config';
 export const metadata = {
   title: 'TeleDirectMD vs. Other Telehealth Services — 2026 Comparisons',
   description:
-    'Side-by-side comparisons of TeleDirectMD ($79 flat, MD-only, 43 states) vs. Teladoc, MDLIVE, Amwell, Doctor on Demand, Sesame, K Health, HealthTap, and Walgreens Virtual. Sourced, honest, updated May 2026.',
+    'Side-by-side comparisons of TeleDirectMD ($79 flat, MD-only, 44 states) vs. Teladoc, MDLIVE, Amwell, Doctor on Demand, Sesame, K Health, HealthTap, and Walgreens Virtual. Sourced, honest, updated May 2026.',
   alternates: { canonical: 'https://teledirectmd.com/compare' },
   robots: { index: true, follow: true, 'max-image-preview': 'large', 'max-snippet': -1, 'max-video-preview': -1 },
   authors: [{ name: 'Parth Bhavsar, MD' }],
@@ -96,7 +96,7 @@ const FAQS = [
   {
     question: 'Which telehealth service covers the most states?',
     answer:
-      'Teladoc covers all 50 states. TeleDirectMD is available in 43 states + Washington DC — it does not currently serve Alaska, Hawaii, New York, Massachusetts, Rhode Island, New Mexico, Oregon, or Arkansas. MDLIVE, Amwell, and Doctor on Demand also cover most states. If you are in one of the eight states TeleDirectMD does not serve, you will need to use a different platform or in-person care.',
+      'Teladoc covers all 50 states. TeleDirectMD is available in 44 states + Washington DC — it does not currently serve Alaska, Hawaii, New York, Massachusetts, Rhode Island, New Mexico, Oregon, or Arkansas. MDLIVE, Amwell, and Doctor on Demand also cover most states. If you are in one of the eight states TeleDirectMD does not serve, you will need to use a different platform or in-person care.',
   },
   {
     question: 'Which telehealth service accepts the most insurance plans?',
@@ -289,13 +289,13 @@ export default function CompareHubPage() {
           </p>
           <p className="cmp-lead">
             <strong>TeleDirectMD at a glance:</strong> $79 flat self-pay, board-certified MD on every visit (Dr. Parth Bhavsar,
-            NPI&nbsp;1104323203), 43 states + DC, no membership required, select Aetna / BCBS / UHC insurance accepted, same-day
+            NPI&nbsp;1104323203), 44 states + DC, no membership required, select Aetna / BCBS / UHC insurance accepted, same-day
             appointments including evenings and weekends.
           </p>
           <div className="cmp-badge-row">
             <span className="cmp-badge cmp-badge--accent">$79 Flat</span>
             <span className="cmp-badge">MD-Only Model</span>
-            <span className="cmp-badge">43 States + DC</span>
+            <span className="cmp-badge">44 States + DC</span>
             <span className="cmp-badge">No Membership</span>
             <span className="cmp-badge">Verified Pricing</span>
           </div>
@@ -504,7 +504,7 @@ export default function CompareHubPage() {
               <ul className="cmp-list">
                 <li>You want a board-certified MD (not an NP or PA) on every visit</li>
                 <li>You are paying cash-pay and want the lowest flat rate among physician-staffed platforms</li>
-                <li>You are in one of the 43 states + DC TeleDirectMD serves</li>
+                <li>You are in one of the 44 states + DC TeleDirectMD serves</li>
                 <li>You need urgent care, a medication refill, or a common acute condition treated</li>
                 <li>You do not need mental health, psychiatry, or dermatology</li>
               </ul>

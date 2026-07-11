@@ -153,7 +153,7 @@ export default function CostPageRedesign({ cfg, relatedCost = [], comparePages =
               <span className="big">${price}</span><span className="lab">flat · no insurance required</span>
             </div>
             <div><a href="/book-online" className="cxr-cta">Book a Visit, ${price} →</a></div>
-            <p className="cxr-trust">Board-certified MD · 43 states · evenings &amp; weekends · HSA/FSA accepted · 5.0★ (125 reviews)</p>
+            <p className="cxr-trust">Board-certified MD · 44 states · evenings &amp; weekends · HSA/FSA accepted · 5.0★ (125 reviews)</p>
           </div>
           <div className="cxr-hcard">
             <h3>{p.heroCardTitle || `What you get for $${price}`}</h3>
