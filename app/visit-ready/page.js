@@ -1,3 +1,5 @@
+import VisitVideo from '../../components/VisitVideo';
+
 export const metadata = {
   title: "You're All Set — TeleDirectMD",
   description:
@@ -316,48 +318,6 @@ export default function VisitReady() {
       lineHeight: 1.55,
       margin: 0,
     },
-    videoCard: {
-      background: SURFACE,
-      border: `1px solid ${BORDER}`,
-      borderRadius: 16,
-      padding: 24,
-      textAlign: 'center',
-      boxShadow:
-        '0 1px 3px rgba(13,56,77,0.04), 0 4px 16px rgba(13,56,77,0.06)',
-    },
-    videoEyebrow: {
-      fontFamily: '"Space Mono", monospace',
-      textTransform: 'uppercase',
-      letterSpacing: '0.14em',
-      fontSize: 11,
-      fontWeight: 700,
-      color: CORAL,
-      marginBottom: 6,
-    },
-    videoHeading: {
-      fontSize: 20,
-      fontWeight: 700,
-      letterSpacing: '-0.01em',
-      color: NAVY_DARK,
-      marginBottom: 18,
-    },
-    videoFrame: {
-      position: 'relative',
-      width: '100%',
-      maxWidth: 340,
-      margin: '0 auto',
-      aspectRatio: '9 / 16',
-      borderRadius: 16,
-      overflow: 'hidden',
-      background: '#000',
-      boxShadow: '0 10px 30px rgba(13,56,77,0.18)',
-    },
-    video: {
-      width: '100%',
-      height: '100%',
-      objectFit: 'cover',
-      display: 'block',
-    },
   };
 
   const deviceChecks = [
@@ -495,31 +455,13 @@ export default function VisitReady() {
       <div style={styles.container}>
         {/* Explainer video */}
         <section style={styles.section} aria-labelledby="vr-video-title">
-          <div style={styles.videoCard}>
-            <div style={styles.videoEyebrow}>Watch first</div>
-            <h2 id="vr-video-title" style={styles.videoHeading}>
-              A quick look at what to expect
-            </h2>
-            <div style={styles.videoFrame}>
-              <video
-                style={styles.video}
-                controls
-                playsInline
-                preload="metadata"
-                poster="/videos/visit-ready-explainer-poster.jpg"
-              >
-                <source
-                  src="/videos/visit-ready-explainer.mp4"
-                  type="video/mp4"
-                />
-                Your browser does not support embedded video. You can{' '}
-                <a href="/videos/visit-ready-explainer.mp4">
-                  download the video
-                </a>{' '}
-                instead.
-              </video>
-            </div>
-          </div>
+          <VisitVideo
+            src="/videos/visit-ready-explainer.mp4"
+            poster="/videos/visit-ready-explainer-poster.jpg"
+            eyebrow="Watch first"
+            heading="A quick look at what to expect"
+            colors={{ navyDark: NAVY_DARK, coral: CORAL, surface: SURFACE, border: BORDER }}
+          />
         </section>
 
         {/* Join your visit */}
