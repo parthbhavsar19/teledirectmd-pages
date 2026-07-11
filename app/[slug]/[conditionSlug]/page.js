@@ -139,6 +139,9 @@ export async function generateStaticParams() {
   const conditionSlugs = getConditionSlugs();
   const params = [];
   for (const state of states) {
+    // VA: cash-pay-only hub launch — state-prefixed condition pages are halted.
+    // Only the /va/ hub is live; do NOT generate any /va/<condition>/ pages.
+    if (state.slug === 'va') continue;
     for (const cSlug of conditionSlugs) {
       // VT: only generate the 6 pilot condition pages
       if (state.slug === 'vt' && !VT_PILOT_CONDITIONS.has(cSlug)) continue;

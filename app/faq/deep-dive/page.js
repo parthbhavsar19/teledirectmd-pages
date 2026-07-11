@@ -4,7 +4,7 @@ import FaqAccordion from '../../components/FaqAccordion';
 export const metadata = {
   title: 'UTI Antibiotics Online — State-by-State FAQ | TeleDirectMD',
   description:
-    'Can you get UTI antibiotics online in your state? Board-certified MD video visits across 42 states. $79 flat self-pay, HSA/FSA accepted, prescriptions sent electronically to your pharmacy.',
+    'Can you get UTI antibiotics online in your state? Board-certified MD video visits across 43 states. $79 flat self-pay, HSA/FSA accepted, prescriptions sent electronically to your pharmacy.',
   alternates: { canonical: 'https://teledirectmd.com/faq/deep-dive' },
   robots: { index: true, follow: true, 'max-image-preview': 'large', 'max-snippet': -1, 'max-video-preview': -1 },
   authors: [{ name: 'Parth Bhavsar, MD' }],
@@ -144,7 +144,7 @@ const jsonLd = {
       url: `${BASE_URL}/faq/deep-dive/`,
       name: 'UTI Antibiotics Online — State-by-State FAQ | TeleDirectMD',
       description:
-        'Hub for state-by-state FAQ pages covering online UTI antibiotics prescriptions across 42 states. Other medication families (finasteride, sildenafil, tadalafil, propranolol) retired 2026-06-10.',
+        'Hub for state-by-state FAQ pages covering online UTI antibiotics prescriptions across 43 states. Other medication families (finasteride, sildenafil, tadalafil, propranolol) retired 2026-06-10.',
       inLanguage: 'en-US',
       breadcrumb: { '@id': `${BASE_URL}/faq/deep-dive#breadcrumbs` },
       publisher: { '@id': `${BASE_URL}/#organization` },
