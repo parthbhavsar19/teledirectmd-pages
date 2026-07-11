@@ -3,8 +3,8 @@ export default function FlightAttendantsPage() {
   const pageUrl = `${baseUrl}/who-we-serve/flight-attendants`;
   const today = new Date().toISOString().split('T')[0];
 
-  /* Accurate current footprint: 42 states + DC (includes VT and DC per current licensing). */
-  const areaServed = ["AL","AZ","CA","CO","CT","DC","DE","FL","GA","HI","ID","IL","IN","IA","KS","KY","LA","ME","MD","MI","MN","MS","MO","MT","NE","NV","NH","NJ","NC","ND","OH","OK","PA","SC","SD","TN","TX","UT","VT","WA","WV","WI","WY"];
+  /* Accurate current footprint: 43 states + DC (includes VA, VT, and DC per current licensing). */
+  const areaServed = ["AL","AZ","CA","CO","CT","DC","DE","FL","GA","HI","ID","IL","IN","IA","KS","KY","LA","ME","MD","MI","MN","MS","MO","MT","NE","NV","NH","NJ","NC","ND","OH","OK","PA","SC","SD","TN","TX","UT","VA","VT","WA","WV","WI","WY"];
 
   /* ── Conditions to link — reframed for the cabin-crew reality ─────── */
   const conditions = [
@@ -33,7 +33,7 @@ export default function FlightAttendantsPage() {
   const faqItems = [
     {
       q: 'Can I see a doctor from my layover hotel?',
-      a: 'Yes. As long as you are physically located in one of the 42 states or Washington, D.C. where TeleDirectMD is licensed at the time of your visit, you can connect by secure video from your hotel room, the crew lounge, or anywhere with a signal. You do not need to be a resident of that state \u2014 only physically present in it during the visit. This is the entire reason cabin crew use TeleDirectMD: you are rarely in your home city when a clinic is open, but you are almost always in a covered state during a layover. Tell us where you are landing and we will confirm eligibility before you book.'
+      a: 'Yes. As long as you are physically located in one of the 43 states or Washington, D.C. where TeleDirectMD is licensed at the time of your visit, you can connect by secure video from your hotel room, the crew lounge, or anywhere with a signal. You do not need to be a resident of that state \u2014 only physically present in it during the visit. This is the entire reason cabin crew use TeleDirectMD: you are rarely in your home city when a clinic is open, but you are almost always in a covered state during a layover. Tell us where you are landing and we will confirm eligibility before you book.'
     },
     {
       q: 'Do you provide FAA medical certificates or fitness-to-fly clearance?',
@@ -119,7 +119,7 @@ export default function FlightAttendantsPage() {
         "@id": `${pageUrl}#webpage`,
         "url": pageUrl,
         "name": "Telehealth for Flight Attendants: See a Doctor on Your Layover",
-        "description": "TeleDirectMD provides telehealth for flight attendants and cabin crew across 42 states plus D.C. \u2014 UTIs, sinus and ear issues, prescription refills, women's health, and travel medicine, treated by a board-certified physician from your layover hotel. Not for FAA certificates or in-flight emergencies. Same-day visits, evenings & weekends. Starting at $79.",
+        "description": "TeleDirectMD provides telehealth for flight attendants and cabin crew across 43 states plus D.C. \u2014 UTIs, sinus and ear issues, prescription refills, women's health, and travel medicine, treated by a board-certified physician from your layover hotel. Not for FAA certificates or in-flight emergencies. Same-day visits, evenings & weekends. Starting at $79.",
         "inLanguage": "en-US",
         "breadcrumb": { "@id": `${pageUrl}#breadcrumbs` },
         "author": { "@id": `${baseUrl}/about#physician` },
@@ -167,13 +167,13 @@ export default function FlightAttendantsPage() {
           <div className="tdmd-hero-grid">
             <div className="tdmd-hero-copy">
               <h1>Telehealth for Flight Attendants: See a Doctor on Your Layover</h1>
-              <p className="tdmd-hero-sub">A board-certified physician you can reach from your hotel room, in 42 states plus D.C. UTIs, sinus infections, refills, and travel medicine &mdash; same-day, evenings &amp; weekends. Not for FAA certificates or in-flight emergencies.</p>
+              <p className="tdmd-hero-sub">A board-certified physician you can reach from your hotel room, in 43 states plus D.C. UTIs, sinus infections, refills, and travel medicine &mdash; same-day, evenings &amp; weekends. Not for FAA certificates or in-flight emergencies.</p>
               <p>
                 Cabin crew are among the hardest-working people in the country to keep healthy &mdash; not because they neglect it, but because the job makes ordinary care nearly impossible to reach. You are rarely in your home city when a clinic or pharmacy is open. Reserve and on-call assignments make it impossible to plan an appointment. Long duty days, restricted lavatory breaks, and dry cabin air drive recurrent UTIs. Repeated pressurization aggravates sinuses and ears. And when something comes up on a layover, the alternative is finding an unfamiliar urgent care in a city you land in tonight and leave tomorrow. TeleDirectMD was built for exactly this: a real physician you can reach by secure video from your hotel, wherever this rotation has taken you.
               </p>
               <ul className="tdmd-hero-benefits">
                 <li>Board-certified Family Medicine physician &mdash; not a PA, not an NP, not an algorithm</li>
-                <li>Licensed in 42 states plus D.C. &mdash; care from nearly any layover or base</li>
+                <li>Licensed in 43 states plus D.C. &mdash; care from nearly any layover or base</li>
                 <li>Prescriptions to any pharmacy near your hotel &mdash; no controlled substances</li>
                 <li>Same-day visits, evenings &amp; weekends &mdash; built around back-of-the-clock schedules</li>
                 <li>Transparent $79 cash-pay &mdash; no insurance required, no surprise bills</li>
@@ -242,7 +242,7 @@ export default function FlightAttendantsPage() {
                 <li>Treat non-emergency conditions by secure video &mdash; UTIs, sinus and ear issues, women&rsquo;s health, skin problems, allergies</li>
                 <li>Refill non-controlled maintenance medications to any U.S. pharmacy near you</li>
                 <li>Provide travel-medicine care such as motion sickness and standby therapy for traveler&rsquo;s diarrhea</li>
-                <li>See you from any of 42 states plus D.C., same-day, evenings and weekends</li>
+                <li>See you from any of 43 states plus D.C., same-day, evenings and weekends</li>
               </ul>
             </div>
             <div className="tdmd-card tdmd-card-bad">
@@ -369,11 +369,11 @@ export default function FlightAttendantsPage() {
         <div className="tdmd-container">
           <h2>Who You&rsquo;re Seeing &mdash; A Real Physician</h2>
           <p>
-            When you visit TeleDirectMD you are seeing a licensed, board-certified physician &mdash; not a physician assistant, not a nurse practitioner, not a chatbot. <a href="/about" style={{ color: 'var(--tdmd-navy)', fontWeight: 700 }}>Dr. Parth Bhavsar, MD</a>, is board-certified in Family Medicine and licensed across 42 states plus Washington, D.C. You get the same standard of care you would expect from an established primary-care physician &mdash; reachable from wherever your schedule has put you tonight.
+            When you visit TeleDirectMD you are seeing a licensed, board-certified physician &mdash; not a physician assistant, not a nurse practitioner, not a chatbot. <a href="/about" style={{ color: 'var(--tdmd-navy)', fontWeight: 700 }}>Dr. Parth Bhavsar, MD</a>, is board-certified in Family Medicine and licensed across 43 states plus Washington, D.C. You get the same standard of care you would expect from an established primary-care physician &mdash; reachable from wherever your schedule has put you tonight.
           </p>
           <ul className="tdmd-hero-benefits">
             <li>Board-certified in Family Medicine &mdash; a real physician, not a PA or NP</li>
-            <li>Licensed in 42 states plus D.C. &mdash; care across nearly any layover or base</li>
+            <li>Licensed in 43 states plus D.C. &mdash; care across nearly any layover or base</li>
             <li>HIPAA-compliant platform &mdash; encrypted visits, secure records</li>
             <li>LegitScript certified &mdash; a recognized mark of telehealth compliance</li>
             <li>TeleDirectMD does not sell or share your health information</li>
@@ -406,7 +406,7 @@ export default function FlightAttendantsPage() {
         <div className="tdmd-container">
           <div className="tdmd-bottom-cta">
             <div className="tdmd-bottom-cta-copy">
-              <h3>A doctor you can reach from your hotel. 42 states plus D.C.</h3>
+              <h3>A doctor you can reach from your hotel. 43 states plus D.C.</h3>
               <p>Request a same-day visit, connect with a board-certified physician by secure video, and get a prescription sent to the pharmacy nearest your layover &mdash; before the next duty day.</p>
             </div>
             <div className="tdmd-bottom-cta-actions">
@@ -421,7 +421,7 @@ export default function FlightAttendantsPage() {
       <section className="tdmd-section" id="flight-attendants-bases">
         <div className="tdmd-container">
           <h2>Telehealth for Flight Attendants &mdash; Available Across Crew Base States</h2>
-          <p>TeleDirectMD is licensed in 42 states plus D.C., including the states behind the busiest crew bases and layover cities. As long as you are physically present in a covered state during your visit, we can see you:</p>
+          <p>TeleDirectMD is licensed in 43 states plus D.C., including the states behind the busiest crew bases and layover cities. As long as you are physically present in a covered state during your visit, we can see you:</p>
           <div className="tdmd-other-states-grid">
             {featuredBases.map((s) => (
               <a key={s.slug} className="tdmd-other-state-link" href={`/${s.slug}`}>

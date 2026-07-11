@@ -31,7 +31,7 @@ export default function RemoteWorkersPage() {
   const faqItems = [
     {
       q: 'Can I use TeleDirectMD if I\'m working remotely in a different state than where I live?',
-      a: 'Yes. Telehealth visits are regulated by the state where you are physically located at the time of your visit — not your home state or the state on your driver\'s license. TeleDirectMD is licensed in 44 states, so as long as you are in one of our covered states when your visit begins, you can be seen. This makes TeleDirectMD a natural fit for remote workers who travel between cities, move seasonally, or work from different states throughout the year. Simply tell us which state you are currently in when you request your visit.'
+      a: 'Yes. Telehealth visits are regulated by the state where you are physically located at the time of your visit — not your home state or the state on your driver\'s license. TeleDirectMD is licensed in 43 states, so as long as you are in one of our covered states when your visit begins, you can be seen. This makes TeleDirectMD a natural fit for remote workers who travel between cities, move seasonally, or work from different states throughout the year. Simply tell us which state you are currently in when you request your visit.'
     },
     {
       q: 'Do I need insurance to use TeleDirectMD?',
@@ -39,7 +39,7 @@ export default function RemoteWorkersPage() {
     },
     {
       q: 'Can TeleDirectMD be my primary care doctor if I move frequently?',
-      a: 'TeleDirectMD can provide ongoing primary care-level services — routine prescription refills, follow-up visits, management of chronic conditions, and evaluation of new symptoms — across all 44 states where we are licensed. Because you are seeing the same board-certified physician regardless of your location, there is genuine continuity: your doctor knows your history, your medications, and your preferences. For remote workers and digital nomads who relocate frequently, this eliminates the need to establish care with a new local physician in every city.'
+      a: 'TeleDirectMD can provide ongoing primary care-level services — routine prescription refills, follow-up visits, management of chronic conditions, and evaluation of new symptoms — across all 43 states where we are licensed. Because you are seeing the same board-certified physician regardless of your location, there is genuine continuity: your doctor knows your history, your medications, and your preferences. For remote workers and digital nomads who relocate frequently, this eliminates the need to establish care with a new local physician in every city.'
     },
     {
       q: 'How does a telehealth visit work for remote workers?',
@@ -113,7 +113,7 @@ export default function RemoteWorkersPage() {
         "@id": `${pageUrl}#webpage`,
         "url": pageUrl,
         "name": "Virtual Doctor for Remote Workers and Digital Nomads — TeleDirectMD",
-        "description": "TeleDirectMD provides telehealth for remote workers and digital nomads across 44 states. See the same board-certified physician wherever you work. No local PCP required. Same-day visits, evenings & weekends. Starting at $79.",
+        "description": "TeleDirectMD provides telehealth for remote workers and digital nomads across 43 states. See the same board-certified physician wherever you work. No local PCP required. Same-day visits, evenings & weekends. Starting at $79.",
         "inLanguage": "en-US",
         "breadcrumb": { "@id": `${pageUrl}#breadcrumbs` },
         "author": { "@id": `${baseUrl}/about#physician` },
@@ -160,13 +160,13 @@ export default function RemoteWorkersPage() {
           <div className="tdmd-hero-grid">
             <div className="tdmd-hero-copy">
               <h1>Virtual Doctor for Remote Workers and Digital Nomads</h1>
-              <p className="tdmd-hero-sub">Board-certified physician in 44 states. Same doctor, wherever you work. Same-day visits, evenings &amp; weekends.</p>
+              <p className="tdmd-hero-sub">Board-certified physician in 43 states. Same doctor, wherever you work. Same-day visits, evenings &amp; weekends.</p>
               <p>
-                More than 35 million Americans now work remotely full-time or the majority of their working hours — a share that has grown dramatically since 2020 and shows no sign of reversing. Remote workers and digital nomads face a structural problem that traditional healthcare never anticipated: their work takes them across cities, states, and sometimes countries, making a stable relationship with a local primary care physician nearly impossible to maintain. TeleDirectMD provides continuity of care across 44 states with the same board-certified family medicine physician, starting at $79 per visit — no matter where your laptop is set up this week.
+                More than 35 million Americans now work remotely full-time or the majority of their working hours — a share that has grown dramatically since 2020 and shows no sign of reversing. Remote workers and digital nomads face a structural problem that traditional healthcare never anticipated: their work takes them across cities, states, and sometimes countries, making a stable relationship with a local primary care physician nearly impossible to maintain. TeleDirectMD provides continuity of care across 43 states with the same board-certified family medicine physician, starting at $79 per visit — no matter where your laptop is set up this week.
               </p>
               <ul className="tdmd-hero-benefits">
                 <li>Board-certified family medicine physician — not a PA, not an NP, not an algorithm</li>
-                <li>Licensed in 44 states — the same doctor follows you wherever you work</li>
+                <li>Licensed in 43 states — the same doctor follows you wherever you work</li>
                 <li>Same-day visits, evenings &amp; weekends — schedule around your remote work hours</li>
                 <li>Prescriptions sent to any pharmacy, anywhere in the U.S.</li>
                 <li>Transparent cash-pay pricing starting at $79 — no surprise bills</li>
@@ -187,7 +187,7 @@ export default function RemoteWorkersPage() {
               <div className="tdmd-hero-card">
                 <h2>Why Remote Workers Choose TeleDirectMD</h2>
                 <ul>
-                  <li>See a doctor from your home office, co-working space, or Airbnb — in any of 44 states</li>
+                  <li>See a doctor from your home office, co-working space, or Airbnb — in any of 43 states</li>
                   <li>No need to find a new local PCP every time you relocate or travel for work</li>
                   <li>Prescriptions sent to any pharmacy near your current location</li>
                   <li>No insurance required — transparent cash-pay pricing starting at $79</li>
@@ -230,8 +230,8 @@ export default function RemoteWorkersPage() {
           </p>
           <div className="tdmd-grid tdmd-grid-2">
             <div className="tdmd-card tdmd-card-good">
-              <h3>Continuity Across 44 States</h3>
-              <p>Work from California one month and Colorado the next? TeleDirectMD is licensed in 44 states, and the same board-certified physician sees you every time. There's no re-establishing care, no transferring records, and no starting over with a new provider who doesn't know your history.</p>
+              <h3>Continuity Across 43 States</h3>
+              <p>Work from California one month and Colorado the next? TeleDirectMD is licensed in 43 states, and the same board-certified physician sees you every time. There's no re-establishing care, no transferring records, and no starting over with a new provider who doesn't know your history.</p>
             </div>
             <div className="tdmd-card tdmd-card-good">
               <h3>Same-Day, Evenings &amp; Weekends</h3>
@@ -357,11 +357,11 @@ export default function RemoteWorkersPage() {
         <div className="tdmd-container">
           <h2>Who You're Seeing — A Real Doctor, Not an Algorithm</h2>
           <p>
-            When you visit TeleDirectMD, you are seeing a licensed, board-certified physician — not a physician assistant, not a nurse practitioner, not a chatbot. <a href="/about" style={{ color: 'var(--tdmd-navy)', fontWeight: 700 }}>Dr. Parth Bhavsar, MD</a>, is a board-certified family medicine physician licensed in 44 states. Remote workers who use TeleDirectMD see the same physician across visits — building a genuine longitudinal care relationship that doesn't dissolve when you change your home base.
+            When you visit TeleDirectMD, you are seeing a licensed, board-certified physician — not a physician assistant, not a nurse practitioner, not a chatbot. <a href="/about" style={{ color: 'var(--tdmd-navy)', fontWeight: 700 }}>Dr. Parth Bhavsar, MD</a>, is a board-certified family medicine physician licensed in 43 states. Remote workers who use TeleDirectMD see the same physician across visits — building a genuine longitudinal care relationship that doesn't dissolve when you change your home base.
           </p>
           <ul className="tdmd-hero-benefits">
             <li>Board-certified in Family Medicine</li>
-            <li>Licensed in 44 U.S. states — follows you wherever you work</li>
+            <li>Licensed in 43 U.S. states — follows you wherever you work</li>
             <li>HIPAA-compliant, LegitScript certified platform — your data is encrypted and protected</li>
             <li>TeleDirectMD does not sell or share your health information</li>
             <li>No app download required — works on any device, any browser</li>
@@ -394,7 +394,7 @@ export default function RemoteWorkersPage() {
         <div className="tdmd-container">
           <div className="tdmd-bottom-cta">
             <div className="tdmd-bottom-cta-copy">
-              <h3>Your doctor, wherever you work — same physician, 44 states, starting at $79.</h3>
+              <h3>Your doctor, wherever you work — same physician, 43 states, starting at $79.</h3>
               <p>Request a same-day visit, connect with a board-certified family medicine physician by secure video, and get a prescription sent to the pharmacy nearest to wherever you're working today — no local PCP required.</p>
             </div>
             <div className="tdmd-bottom-cta-actions">
@@ -409,7 +409,7 @@ export default function RemoteWorkersPage() {
       <section className="tdmd-section" id="remote-workers-states">
         <div className="tdmd-container">
           <h2>Telehealth for Remote Workers — Available in These High-Concentration States</h2>
-          <p>TeleDirectMD is licensed in 44 states. Here are states with some of the highest concentrations of remote workers where we can see you today:</p>
+          <p>TeleDirectMD is licensed in 43 states. Here are states with some of the highest concentrations of remote workers where we can see you today:</p>
           <div className="tdmd-other-states-grid">
             {featuredStates.map((s) => (
               <a key={s.slug} className="tdmd-other-state-link" href={`/${s.slug}`}>
@@ -418,7 +418,7 @@ export default function RemoteWorkersPage() {
             ))}
           </div>
           <p style={{ marginTop: '0.75rem' }}>
-            <a href="/states-we-serve" style={{ color: 'var(--tdmd-navy)', fontWeight: 700, textDecoration: 'underline' }}>View all 44 states we serve →</a>
+            <a href="/states-we-serve" style={{ color: 'var(--tdmd-navy)', fontWeight: 700, textDecoration: 'underline' }}>View all 43 states we serve →</a>
           </p>
         </div>
       </section>

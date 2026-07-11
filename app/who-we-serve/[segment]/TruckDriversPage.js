@@ -33,7 +33,7 @@ export default function TruckDriversPage() {
   const faqItems = [
     {
       q: 'Can TeleDirectMD treat me if I\'m in a different state than my home state?',
-      a: 'Yes. TeleDirectMD is licensed in 44 states. You can be seen by the same board-certified physician regardless of which state you are driving through, as long as you are physically located in one of our covered states at the time of the visit. This is one of the core advantages for interstate truck drivers — no need to find a new provider every time you cross a state line.'
+      a: 'Yes. TeleDirectMD is licensed in 43 states. You can be seen by the same board-certified physician regardless of which state you are driving through, as long as you are physically located in one of our covered states at the time of the visit. This is one of the core advantages for interstate truck drivers — no need to find a new provider every time you cross a state line.'
     },
     {
       q: 'Can you help me manage my blood pressure to pass my DOT physical?',
@@ -119,7 +119,7 @@ export default function TruckDriversPage() {
         "@id": `${pageUrl}#webpage`,
         "url": pageUrl,
         "name": "Telehealth for Truck Drivers — See a Doctor From Anywhere on the Road",
-        "description": "TeleDirectMD offers telehealth for truck drivers across 44 states. Manage blood pressure, diabetes, and chronic conditions from your cab. No insurance required.",
+        "description": "TeleDirectMD offers telehealth for truck drivers across 43 states. Manage blood pressure, diabetes, and chronic conditions from your cab. No insurance required.",
         "inLanguage": "en-US",
         "breadcrumb": { "@id": `${pageUrl}#breadcrumbs` },
         "author": { "@id": `${baseUrl}/about#physician` },
@@ -166,13 +166,13 @@ export default function TruckDriversPage() {
           <div className="tdmd-hero-grid">
             <div className="tdmd-hero-copy">
               <h1>Telehealth for Truck Drivers — See a Doctor From Anywhere on the Road</h1>
-              <p className="tdmd-hero-sub">Licensed physician in 44 states. No insurance required. Same-day visits, evenings & weekends.</p>
+              <p className="tdmd-hero-sub">Licensed physician in 43 states. No insurance required. Same-day visits, evenings & weekends.</p>
               <p>
-                Long-haul truckers face the worst occupational health profile in America — yet millions can't get care because they're always on the move. TeleDirectMD brings the doctor to your cab, your truck stop, your sleeper berth. A board-certified physician with same-day availability — including evenings and weekends — licensed across 44 states.
+                Long-haul truckers face the worst occupational health profile in America — yet millions can't get care because they're always on the move. TeleDirectMD brings the doctor to your cab, your truck stop, your sleeper berth. A board-certified physician with same-day availability — including evenings and weekends — licensed across 43 states.
               </p>
               <ul className="tdmd-hero-benefits">
                 <li>Board-certified physician — not a PA, not an NP, not an algorithm</li>
-                <li>Licensed in 44 states — covers interstate routes coast to coast</li>
+                <li>Licensed in 43 states — covers interstate routes coast to coast</li>
                 <li>Prescriptions sent to any pharmacy on your route</li>
                 <li>Transparent cash-pay pricing starting at $79</li>
               </ul>
@@ -192,7 +192,7 @@ export default function TruckDriversPage() {
               <div className="tdmd-hero-card">
                 <h2>Why Truck Drivers Choose TeleDirectMD</h2>
                 <ul>
-                  <li>See a doctor from any truck stop in 44 states</li>
+                  <li>See a doctor from any truck stop in 43 states</li>
                   <li>Get prescriptions sent to pharmacies along your route</li>
                   <li>Manage blood pressure and diabetes to protect your CDL</li>
                   <li>No scheduling conflicts — same-day visits, evenings & weekends</li>
@@ -233,7 +233,7 @@ export default function TruckDriversPage() {
           <div className="tdmd-grid tdmd-grid-2">
             <div className="tdmd-card tdmd-card-good">
               <h3>41-State Coverage</h3>
-              <p>You cross state lines constantly. TeleDirectMD is licensed in 44 states, meaning the same physician can treat you whether you're in Texas, Tennessee, Ohio, or anywhere on your route. No need to find a new provider at every stop.</p>
+              <p>You cross state lines constantly. TeleDirectMD is licensed in 43 states, meaning the same physician can treat you whether you're in Texas, Tennessee, Ohio, or anywhere on your route. No need to find a new provider at every stop.</p>
             </div>
             <div className="tdmd-card tdmd-card-good">
               <h3>Same-Day, Evenings & Weekends</h3>
@@ -373,11 +373,11 @@ export default function TruckDriversPage() {
         <div className="tdmd-container">
           <h2>Who You're Seeing — A Real Doctor, Not an Algorithm</h2>
           <p>
-            When you visit TeleDirectMD, you're seeing a licensed, board-certified physician — not a physician assistant, not a nurse practitioner, not a chatbot. <a href="/about" style={{ color: 'var(--tdmd-navy)', fontWeight: 700 }}>Dr. Parth Bhavsar, MD</a>, is a board-certified family medicine physician licensed across 44 states, providing the same standard of care you'd receive in person.
+            When you visit TeleDirectMD, you're seeing a licensed, board-certified physician — not a physician assistant, not a nurse practitioner, not a chatbot. <a href="/about" style={{ color: 'var(--tdmd-navy)', fontWeight: 700 }}>Dr. Parth Bhavsar, MD</a>, is a board-certified family medicine physician licensed across 43 states, providing the same standard of care you'd receive in person.
           </p>
           <ul className="tdmd-hero-benefits">
             <li>Board-certified in Family Medicine</li>
-            <li>Licensed in 44 U.S. states</li>
+            <li>Licensed in 43 U.S. states</li>
             <li>HIPAA-compliant platform — your data is encrypted and protected</li>
             <li>TeleDirectMD does not sell or share your health information</li>
           </ul>
@@ -424,7 +424,7 @@ export default function TruckDriversPage() {
       <section className="tdmd-section" id="truck-drivers-states">
         <div className="tdmd-container">
           <h2>Telehealth for Truckers — Available in These High-Traffic States</h2>
-          <p>TeleDirectMD is licensed in 44 states. Here are some of the states with the highest trucking traffic where we can see you today:</p>
+          <p>TeleDirectMD is licensed in 43 states. Here are some of the states with the highest trucking traffic where we can see you today:</p>
           <div className="tdmd-other-states-grid">
             {featuredStates.map((s) => (
               <a key={s.slug} className="tdmd-other-state-link" href={`/${s.slug}`}>
@@ -433,7 +433,7 @@ export default function TruckDriversPage() {
             ))}
           </div>
           <p style={{ marginTop: '0.75rem' }}>
-            <a href="/states-we-serve" style={{ color: 'var(--tdmd-navy)', fontWeight: 700, textDecoration: 'underline' }}>View all 44 states we serve →</a>
+            <a href="/states-we-serve" style={{ color: 'var(--tdmd-navy)', fontWeight: 700, textDecoration: 'underline' }}>View all 43 states we serve →</a>
           </p>
         </div>
       </section>

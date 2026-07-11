@@ -37,7 +37,7 @@ const FAQS = [
   { q: 'How do I get UTI antibiotics without seeing a doctor in person?', a: 'Book a telehealth visit. A licensed MD can assess your symptoms by video and send an e-prescription to your pharmacy same-day, with no in-person appointment or urinalysis required for an uncomplicated UTI.' },
   { q: 'Is AZO an antibiotic?', a: 'No. AZO (phenazopyridine) is a urinary analgesic that numbs burning within about 20 minutes. It has no antibacterial activity and will not cure your UTI.' },
   { q: 'What is the cheapest UTI antibiotic?', a: 'Trimethoprim-sulfamethoxazole (generic Bactrim) is often the cheapest at $5–$20, followed closely by nitrofurantoin. Your prescriber picks based on local resistance and your history.' },
-  { q: 'Can I get UTI antibiotics online same-day?', a: 'Yes. A $79 TeleDirectMD video visit typically results in an antibiotic at your pharmacy within an hour, with same-day visits available evenings and weekends in 44 states.' },
+  { q: 'Can I get UTI antibiotics online same-day?', a: 'Yes. A $79 TeleDirectMD video visit typically results in an antibiotic at your pharmacy within an hour, with same-day visits available evenings and weekends in 43 states.' },
 ];
 
 export default function UtiAntibioticsPage({ price = '79' }) {
@@ -167,7 +167,7 @@ export default function UtiAntibioticsPage({ price = '79' }) {
               <span className="med">$5–$25</span><span className="lab">generic antibiotic</span>
             </div>
             <div><a href="/book-online" className="uap-cta">Get a UTI Prescription Today →</a></div>
-            <p className="uap-trust">Board-certified MD · 44 states · evenings &amp; weekends · HSA/FSA accepted · 5.0★ (125 reviews)</p>
+            <p className="uap-trust">Board-certified MD · 43 states · evenings &amp; weekends · HSA/FSA accepted · 5.0★ (125 reviews)</p>
           </div>
           <div className="uap-hcard">
             <h3>What each UTI antibiotic costs</h3>
@@ -330,7 +330,7 @@ export default function UtiAntibioticsPage({ price = '79' }) {
           </div>
 
           <div style={{ marginTop: '2.5rem' }}>
-            <p className="uap-kicker">Licensed in 44 states</p>
+            <p className="uap-kicker">Licensed in 43 states</p>
             <div className="uap-chips">
               {['Alabama','Arizona','California','Colorado','Connecticut','Delaware','Florida','Georgia','Hawaii','Idaho','Illinois','Indiana','Iowa','Kansas','Kentucky','Louisiana','Maine','Maryland','Michigan','Minnesota','Mississippi','Missouri','Montana','Nebraska','Nevada','New Hampshire','New Jersey','North Carolina','North Dakota','Ohio','Oklahoma','Pennsylvania','South Carolina','South Dakota','Tennessee','Texas','Utah','Washington','West Virginia','Wisconsin','Wyoming'].map((s) => (
                 <span className="uap-chip" key={s}>{s}</span>

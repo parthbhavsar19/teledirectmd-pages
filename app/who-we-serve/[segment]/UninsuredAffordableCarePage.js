@@ -37,7 +37,7 @@ export default function UninsuredAffordableCarePage() {
     },
     {
       q: 'Is TeleDirectMD available in my state?',
-      a: 'TeleDirectMD is licensed in 44 states: Alabama, Arizona, California, Colorado, Connecticut, Delaware, Florida, Georgia, Hawaii, Idaho, Illinois, Indiana, Iowa, Kansas, Kentucky, Louisiana, Maine, Maryland, Michigan, Minnesota, Mississippi, Missouri, Montana, Nebraska, Nevada, New Hampshire, New Jersey, North Carolina, North Dakota, Ohio, Oklahoma, Pennsylvania, South Carolina, South Dakota, Tennessee, Texas, Utah, Washington, West Virginia, Wisconsin, and Wyoming. You must be physically located in one of these states at the time of your visit. Visit our States We Serve page for the full list.'
+      a: 'TeleDirectMD is licensed in 43 states: Alabama, Arizona, California, Colorado, Connecticut, Delaware, Florida, Georgia, Hawaii, Idaho, Illinois, Indiana, Iowa, Kansas, Kentucky, Louisiana, Maine, Maryland, Michigan, Minnesota, Mississippi, Missouri, Montana, Nebraska, Nevada, New Hampshire, New Jersey, North Carolina, North Dakota, Ohio, Oklahoma, Pennsylvania, South Carolina, South Dakota, Tennessee, Texas, Utah, Washington, West Virginia, Wisconsin, and Wyoming. You must be physically located in one of these states at the time of your visit. Visit our States We Serve page for the full list.'
     },
     {
       q: 'How does TeleDirectMD compare to urgent care or the ER?',
@@ -107,7 +107,7 @@ export default function UninsuredAffordableCarePage() {
         "@id": `${pageUrl}#webpage`,
         "url": pageUrl,
         "name": "Affordable Online Doctor Visits Without Insurance — Transparent Pricing, No Surprises",
-        "description": "TeleDirectMD offers affordable telehealth visits without insurance across 44 states. Cash-pay starting at $79. Board-certified physician. Same-day visits, evenings & weekends.",
+        "description": "TeleDirectMD offers affordable telehealth visits without insurance across 43 states. Cash-pay starting at $79. Board-certified physician. Same-day visits, evenings & weekends.",
         "inLanguage": "en-US",
         "breadcrumb": { "@id": `${pageUrl}#breadcrumbs` },
         "author": { "@id": `${baseUrl}/about#physician` },
@@ -154,13 +154,13 @@ export default function UninsuredAffordableCarePage() {
           <div className="tdmd-hero-grid">
             <div className="tdmd-hero-copy">
               <h1>Affordable Online Doctor Visits Without Insurance — Transparent Pricing, No Surprises</h1>
-              <p className="tdmd-hero-sub">Licensed physician in 44 states. Cash-pay starting at $79. Same-day visits, evenings &amp; weekends.</p>
+              <p className="tdmd-hero-sub">Licensed physician in 43 states. Cash-pay starting at $79. Same-day visits, evenings &amp; weekends.</p>
               <p>
                 Nearly 9% of Americans who were enrolled in ACA marketplace plans dropped coverage in 2026 after premium increases of over 100% following subsidy expiration. 23% of gig workers had no health insurance even before the lapse, and 58% of uninsured gig workers cited prohibitive cost as the reason. Telehealth is a direct alternative: transparent cash-pay pricing, no insurance required, clinical-quality care from any smartphone.
               </p>
               <ul className="tdmd-hero-benefits">
                 <li>Board-certified physician — not a PA, not an NP, not an algorithm</li>
-                <li>Licensed in 44 states</li>
+                <li>Licensed in 43 states</li>
                 <li>Transparent cash-pay pricing starting at $79 — no hidden fees</li>
                 <li>No insurance required, no surprise billing</li>
                 <li>Same-day visits, evenings &amp; weekends</li>
@@ -229,7 +229,7 @@ export default function UninsuredAffordableCarePage() {
             </div>
             <div className="tdmd-card tdmd-card-good">
               <h3>41-State Coverage</h3>
-              <p>TeleDirectMD is licensed in 44 states, so whether you're in Florida, Texas, California, or any of our covered states, you can see the same board-certified physician — without finding a new provider or paying to establish care.</p>
+              <p>TeleDirectMD is licensed in 43 states, so whether you're in Florida, Texas, California, or any of our covered states, you can see the same board-certified physician — without finding a new provider or paying to establish care.</p>
             </div>
             <div className="tdmd-card tdmd-card-good">
               <h3>Same-Day, Evenings &amp; Weekends</h3>
@@ -360,11 +360,11 @@ export default function UninsuredAffordableCarePage() {
         <div className="tdmd-container">
           <h2>Who You're Seeing — A Real Doctor, Not an Algorithm</h2>
           <p>
-            When you visit TeleDirectMD, you're seeing a licensed, board-certified physician — not a physician assistant, not a nurse practitioner, not a chatbot. <a href="/about" style={{ color: 'var(--tdmd-navy)', fontWeight: 700 }}>Dr. Parth Bhavsar, MD</a>, is a board-certified family medicine physician licensed across 44 states, providing the same standard of care you'd receive in person — at a fraction of the cost.
+            When you visit TeleDirectMD, you're seeing a licensed, board-certified physician — not a physician assistant, not a nurse practitioner, not a chatbot. <a href="/about" style={{ color: 'var(--tdmd-navy)', fontWeight: 700 }}>Dr. Parth Bhavsar, MD</a>, is a board-certified family medicine physician licensed across 43 states, providing the same standard of care you'd receive in person — at a fraction of the cost.
           </p>
           <ul className="tdmd-hero-benefits">
             <li>Board-certified in Family Medicine</li>
-            <li>Licensed in 44 U.S. states</li>
+            <li>Licensed in 43 U.S. states</li>
             <li>HIPAA-compliant platform — your data is encrypted and protected</li>
             <li>TeleDirectMD does not sell or share your health information</li>
           </ul>

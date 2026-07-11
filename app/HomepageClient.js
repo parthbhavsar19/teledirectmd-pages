@@ -202,7 +202,7 @@ const CONDITION_SLUGS = {
 const WHY_FEATURES = [
   { title: 'Board-Certified MD', desc: 'Every visit is with Dr. Parth Bhavsar, a licensed family medicine physician.', icon: 'doctor', img: '/images/why/why-board-certified.png' },
   { title: '$79 Flat Fee', desc: 'One transparent price. No surprise bills, no co-pays, no hidden charges.', icon: 'dollar', img: '/images/why/why-flat-fee.png' },
-  { title: '40+ States', desc: 'Licensed in 44 states + DC — 45 coverage areas across the U.S.', icon: 'map', img: '/images/why/why-states.png' },
+  { title: '40+ States', desc: 'Licensed in 43 states + DC — 44 coverage areas across the U.S.', icon: 'map', img: '/images/why/why-states.png' },
   { title: 'LegitScript Certified', desc: 'Verified by LegitScript for safe, compliant telehealth prescribing.', icon: 'shield', img: '/images/why/why-legitscript.png' },
   { title: 'Fast Prescriptions', desc: 'Rx sent to your pharmacy — often within an hour of your visit.', icon: 'rx', img: '/images/why/why-fast-rx.png' },
   { title: 'No Waiting Rooms', desc: 'Skip the drive and the wait. See a doctor from your couch.', icon: 'home', img: '/images/why/why-no-waiting.png' },
@@ -629,7 +629,7 @@ export default function HomepageClient() {
             <rect x="60" y="160" width="3" height="20" rx="1.5" fill="#FF5A36" opacity="0.05" transform="rotate(-20 61.5 170)"/>
           </svg>
         </div>
-        <h1 className="hp-visually-hidden">Board-Certified Online Doctor Visits &mdash; $79 Flat Fee, No Subscription, 44 States</h1>
+        <h1 className="hp-visually-hidden">Board-Certified Online Doctor Visits &mdash; $79 Flat Fee, No Subscription, 43 States</h1>
         <div id="tmd-root">
           <div id="tmd-wrap-d">
             <canvas id="tmd-c"></canvas>

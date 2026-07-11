@@ -274,8 +274,8 @@ export default function TermsOfService() {
           <p>
             You must be physically located within a state or jurisdiction where TeleDirectMD is
             authorized to provide telehealth services at the <strong>time of your visit</strong>
-            —not merely at the time of booking. TeleDirectMD currently serves patients in 44 states
-            plus the District of Columbia (42 jurisdictions total). Geographic coverage may change;
+            —not merely at the time of booking. TeleDirectMD currently serves patients in 43 states
+            plus the District of Columbia (44 jurisdictions total). Geographic coverage may change;
             please verify current coverage at{' '}
             <a href="/states-we-serve">teledirectmd.com/states-we-serve</a> before scheduling.
           </p>

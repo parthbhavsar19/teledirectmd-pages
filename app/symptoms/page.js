@@ -5,7 +5,7 @@ import { SYMPTOM_PAGE_SLUGS } from '../../lib/symptom-pages-config';
 export const metadata = {
   title: 'Symptoms & Online Treatment | TeleDirectMD',
   description:
-    'Look up your symptom and see a board-certified MD by same-day video visit. TeleDirectMD evaluates 20+ symptoms — UTI, sinus infection, strep, acne, migraines, cold sores, pink eye, and more — for a flat $79 self-pay fee in 44 states + DC.',
+    'Look up your symptom and see a board-certified MD by same-day video visit. TeleDirectMD evaluates 20+ symptoms — UTI, sinus infection, strep, acne, migraines, cold sores, pink eye, and more — for a flat $79 self-pay fee in 43 states + DC.',
   alternates: { canonical: 'https://teledirectmd.com/symptoms' },
   robots: { index: true, follow: true, 'max-image-preview': 'large', 'max-snippet': -1, 'max-video-preview': -1 },
   authors: [{ name: 'Parth Bhavsar, MD' }],
@@ -15,7 +15,7 @@ export const metadata = {
     locale: 'en_US',
     title: 'Symptoms & Online Treatment | TeleDirectMD',
     description:
-      'Match your symptom to a board-certified MD video visit. $79 flat, same-day, 44 states + DC. No membership needed.',
+      'Match your symptom to a board-certified MD video visit. $79 flat, same-day, 43 states + DC. No membership needed.',
     url: 'https://teledirectmd.com/symptoms',
   },
 };
@@ -86,7 +86,7 @@ const FAQS = [
   {
     question: 'Can I see a doctor online for symptoms without leaving home?',
     answer:
-      'Yes. TeleDirectMD offers live, synchronous video visits with a board-certified MD — Dr. Parth Bhavsar — for adults 18+ physically located in one of the 44 states + DC the practice serves. You connect by secure video, describe your symptoms, and the physician evaluates you in real time. If a prescription is appropriate, it is sent to your preferred pharmacy the same day. There is no commute, no waiting room, and no subscription required.',
+      'Yes. TeleDirectMD offers live, synchronous video visits with a board-certified MD — Dr. Parth Bhavsar — for adults 18+ physically located in one of the 43 states + DC the practice serves. You connect by secure video, describe your symptoms, and the physician evaluates you in real time. If a prescription is appropriate, it is sent to your preferred pharmacy the same day. There is no commute, no waiting room, and no subscription required.',
   },
   {
     question: 'What symptoms can be evaluated online?',
@@ -106,7 +106,7 @@ const FAQS = [
   {
     question: 'Is TeleDirectMD available in my state?',
     answer:
-      'TeleDirectMD is licensed in 44 states + Washington DC. You must be physically located in a covered state at the time of your visit — not just a resident. Visit the States We Serve page for the full list. Coverage is expanding to additional states as new licenses are obtained.',
+      'TeleDirectMD is licensed in 43 states + Washington DC. You must be physically located in a covered state at the time of your visit — not just a resident. Visit the States We Serve page for the full list. Coverage is expanding to additional states as new licenses are obtained.',
   },
   {
     question: 'What happens if my symptom requires an in-person visit?',
@@ -282,7 +282,7 @@ export default function SymptomsHubPage() {
           <div className="sym-badge-row">
             <span className="sym-badge sym-badge--accent">$79 Flat Fee</span>
             <span className="sym-badge">Same-Day Appointments</span>
-            <span className="sym-badge">44 States + DC</span>
+            <span className="sym-badge">43 States + DC</span>
             <span className="sym-badge">Board-Certified MD Only</span>
             <span className="sym-badge">No Membership</span>
           </div>
@@ -455,7 +455,7 @@ export default function SymptomsHubPage() {
             in-person care when it is the appropriate standard.
           </p>
           <p className="sym-p">
-            Dr. Bhavsar is licensed in 44 states + DC and has been featured as a medical expert in TIME, Newsweek, HuffPost, U.S. News,
+            Dr. Bhavsar is licensed in 43 states + DC and has been featured as a medical expert in TIME, Newsweek, HuffPost, U.S. News,
             Fox News Digital, and more than 21 national publications. The same physician who sees you today is the one your visit record
             stays with — there is continuity that large multi-provider platforms cannot match.
           </p>
@@ -541,7 +541,7 @@ export default function SymptomsHubPage() {
         <section className="sym-section" aria-labelledby="states-heading">
           <h2 id="states-heading" className="sym-h2">States Where Symptom Evaluations Are Available</h2>
           <p className="sym-p">
-            TeleDirectMD is currently licensed to provide telehealth services in 44 states and Washington DC. You must be physically located
+            TeleDirectMD is currently licensed to provide telehealth services in 43 states and Washington DC. You must be physically located
             in a covered state at the time of your visit. The full state list is on the{' '}
             <a href="/states-we-serve">States We Serve</a> page. If your state is not currently covered, the practice is actively seeking
             additional licensure — check back or sign up for notifications.

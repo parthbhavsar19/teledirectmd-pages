@@ -118,7 +118,7 @@ export default function BrokerPage() {
                 <span className="tdmd-emp-eyebrow">For Benefits Brokers & Consultants</span>
                 <h1>A telehealth benefit your SMB clients <em>haven't seen before.</em></h1>
                 <p className="tdmd-emp-hero-sub">
-                  Physician-founded virtual care, in-network with BCBS, Aetna, and UnitedHealthcare across 44 states + DC. Zero cost to your client. Their team pays a preferred employer per-visit rate (custom-set per partnership) below our standard retail. You earn a flat $250 finder's fee on every signed employer. Physician roster currently expanding to add capacity across the service area.
+                  Physician-founded virtual care, in-network with BCBS, Aetna, and UnitedHealthcare across 43 states + DC. Zero cost to your client. Their team pays a preferred employer per-visit rate (custom-set per partnership) below our standard retail. You earn a flat $250 finder's fee on every signed employer. Physician roster currently expanding to add capacity across the service area.
                 </p>
                 <div className="tdmd-emp-ctas">
                   <a href="#form" className="tdmd-emp-btn tdmd-emp-btn--primary">Become a Partner</a>
@@ -141,7 +141,7 @@ export default function BrokerPage() {
               <div className="tdmd-emp-trust-item"><span className="tdmd-emp-trust-dot" aria-hidden="true"></span>Board-Certified Family Medicine</div>
               <div className="tdmd-emp-trust-item"><span className="tdmd-emp-trust-stars" aria-hidden="true">★★★★★</span>5.0 · 125 Verified Reviews</div>
               <div className="tdmd-emp-trust-item"><span className="tdmd-emp-trust-dot" aria-hidden="true"></span>LegitScript · HIPAA-Compliant</div>
-              <div className="tdmd-emp-trust-item"><span className="tdmd-emp-trust-dot" aria-hidden="true"></span>Licensed in 44 states + DC</div>
+              <div className="tdmd-emp-trust-item"><span className="tdmd-emp-trust-dot" aria-hidden="true"></span>Licensed in 43 states + DC</div>
             </div>
           </div>
         </div>
@@ -171,7 +171,7 @@ export default function BrokerPage() {
               <li><strong>Employer pays $0.</strong> No PEPM, no per-visit fees, no contracts with money in them.</li>
               <li><strong>Employees access a preferred employer per-visit rate</strong> (custom-set per partnership, below our standard retail) — or use BCBS / Aetna / UnitedHealthcare in-network.</li>
               <li><strong>A board-certified physician your team actually gets to know.</strong> Patients are assigned to a physician and stay with them — no NPs, no PAs, no rotating network of strangers.</li>
-              <li><strong>44 states + DC coverage.</strong> Same-day appointments, including evenings and weekends.</li>
+              <li><strong>43 states + DC coverage.</strong> Same-day appointments, including evenings and weekends.</li>
               <li><strong>One-page partnership agreement, terminate at-will.</strong></li>
             </ul>
           </div>
@@ -270,7 +270,7 @@ export default function BrokerPage() {
           </div>
           <div className="tdmd-emp-compliance-block">
             <h4>Provider identity</h4>
-            <p>Care provided by Parth Bhavsar, MD — Board-Certified Family Medicine Physician · NPI 1104323203 · Residency: University of Mississippi Medical Center, 2021 · Licensed in 44 states + DC.</p>
+            <p>Care provided by Parth Bhavsar, MD — Board-Certified Family Medicine Physician · NPI 1104323203 · Residency: University of Mississippi Medical Center, 2021 · Licensed in 43 states + DC.</p>
           </div>
         </div>
       </section>

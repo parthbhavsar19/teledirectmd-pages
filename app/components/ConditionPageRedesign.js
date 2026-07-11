@@ -195,7 +195,7 @@ export default function ConditionPageRedesign({
             )}
             {hero.introParagraph && <p className="intro">{clean(hero.introParagraph, stateName)}</p>}
             <div><a href="/book-online" className="cpr-cta">Book a Visit, {price} →</a></div>
-            <p className="cpr-trust">Board-certified MD · 44 states · evenings &amp; weekends · HSA/FSA accepted · 5.0★ (125 reviews)</p>
+            <p className="cpr-trust">Board-certified MD · 43 states · evenings &amp; weekends · HSA/FSA accepted · 5.0★ (125 reviews)</p>
           </div>
           <div className="cpr-hcard">
             <h3>{clean((hero.sideCard && hero.sideCard.h2) || 'What the visit includes', stateName)}</h3>
