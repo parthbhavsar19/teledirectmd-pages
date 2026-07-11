@@ -86,6 +86,7 @@ export default function MilitaryFamiliesPage() {
     { abbr: 'TN', name: 'Tennessee' },
     { abbr: 'TX', name: 'Texas' },
     { abbr: 'UT', name: 'Utah' },
+    { abbr: 'VA', name: 'Virginia' },
     { abbr: 'WA', name: 'Washington' },
     { abbr: 'WV', name: 'West Virginia' },
     { abbr: 'WI', name: 'Wisconsin' },
@@ -112,7 +113,7 @@ export default function MilitaryFamiliesPage() {
         "telephone": "+1-678-956-1855",
         "medicalSpecialty": "GeneralPractice",
         "availableService": { "@type": "MedicalTherapy", "name": "Telehealth Consultations" },
-        "areaServed": ["AL","AZ","CA","CO","CT","DE","FL","GA","HI","ID","IL","IN","IA","KS","KY","LA","ME","MD","MI","MN","MS","MO","MT","NE","NV","NH","NJ","NC","ND","OH","OK","PA","SC","SD","TN","TX","UT","WA","WV","WI","WY"]
+        "areaServed": ["AL","AZ","CA","CO","CT","DE","FL","GA","HI","ID","IL","IN","IA","KS","KY","LA","ME","MD","MI","MN","MS","MO","MT","NE","NV","NH","NJ","NC","ND","OH","OK","PA","SC","SD","TN","TX","UT","VA","WA","WV","WI","WY"]
       },
       {
         "@type": "Physician",
@@ -121,7 +122,7 @@ export default function MilitaryFamiliesPage() {
         "medicalSpecialty": "FamilyMedicine",
         "worksFor": { "@type": "MedicalOrganization", "name": "TeleDirectMD" },
         "alumniOf": { "@type": "EducationalOrganization", "name": "University of Mississippi Medical Center" },
-        "licensedIn": ["AL","AZ","CA","CO","CT","DE","FL","GA","HI","ID","IL","IN","IA","KS","KY","LA","ME","MD","MI","MN","MS","MO","MT","NE","NV","NH","NJ","NC","ND","OH","OK","PA","SC","SD","TN","TX","UT","WA","WV","WI","WY"]
+        "licensedIn": ["AL","AZ","CA","CO","CT","DE","FL","GA","HI","ID","IL","IN","IA","KS","KY","LA","ME","MD","MI","MN","MS","MO","MT","NE","NV","NH","NJ","NC","ND","OH","OK","PA","SC","SD","TN","TX","UT","VA","WA","WV","WI","WY"]
       },
       {
         "@type": "FAQPage",

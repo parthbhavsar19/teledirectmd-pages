@@ -320,8 +320,8 @@ const sections = [
               Hawaii, Idaho, Illinois, Indiana, Iowa, Kansas, Kentucky, Louisiana, Maine, Maryland,
               Michigan, Minnesota, Mississippi, Missouri, Montana, Nebraska, Nevada, New Hampshire,
               New Jersey, North Carolina, North Dakota, Ohio, Oklahoma, Pennsylvania, South Carolina,
-              South Dakota, Tennessee, Texas, Utah, Vermont, Washington, West Virginia, Wisconsin, and
-              Wyoming.
+              South Dakota, Tennessee, Texas, Utah, Vermont, Virginia, Washington, West Virginia,
+              Wisconsin, and Wyoming.
             </p>
             <p>D.C. was added as our 42nd coverage area in March 2026.</p>
           </>

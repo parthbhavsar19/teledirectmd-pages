@@ -44,7 +44,7 @@ export default function SmallBusinessOwnersPage() {
     },
     {
       q: 'Is TeleDirectMD available in my state?',
-      a: 'TeleDirectMD is licensed in 43 states. The states we serve include Texas, California, Florida, Georgia, North Carolina, Ohio, Pennsylvania, and 36 more across the country. The states we do not currently serve are New York, Alaska, Arkansas, Massachusetts, New Mexico, Oregon, Rhode Island, and Virginia. As long as you are physically located in one of our covered states at the time of your visit, you can be seen — regardless of where your business is registered or where you primarily live. Visit our States We Serve page for the complete list.'
+      a: 'TeleDirectMD is licensed in 43 states. The states we serve include Texas, California, Florida, Georgia, North Carolina, Ohio, Pennsylvania, and 36 more across the country. The states we do not currently serve are New York, Alaska, Arkansas, Massachusetts, New Mexico, Oregon, and Rhode Island. As long as you are physically located in one of our covered states at the time of your visit, you can be seen — regardless of where your business is registered or where you primarily live. Visit our States We Serve page for the complete list.'
     },
     {
       q: 'Can you prescribe medications during a telehealth visit?',
@@ -88,7 +88,7 @@ export default function SmallBusinessOwnersPage() {
           "@type": "MedicalTherapy",
           "name": "Telehealth Consultations"
         },
-        "areaServed": ["AL","AZ","CA","CO","CT","DE","FL","GA","HI","ID","IL","IN","IA","KS","KY","LA","ME","MD","MI","MN","MS","MO","MT","NE","NV","NH","NJ","NC","ND","OH","OK","PA","SC","SD","TN","TX","UT","WA","WV","WI","WY"]
+        "areaServed": ["AL","AZ","CA","CO","CT","DE","FL","GA","HI","ID","IL","IN","IA","KS","KY","LA","ME","MD","MI","MN","MS","MO","MT","NE","NV","NH","NJ","NC","ND","OH","OK","PA","SC","SD","TN","TX","UT","VA","WA","WV","WI","WY"]
       },
       {
         "@type": "Physician",
@@ -99,7 +99,7 @@ export default function SmallBusinessOwnersPage() {
           "@type": "MedicalOrganization",
           "name": "TeleDirectMD"
         },
-        "licensedIn": ["AL","AZ","CA","CO","CT","DE","FL","GA","HI","ID","IL","IN","IA","KS","KY","LA","ME","MD","MI","MN","MS","MO","MT","NE","NV","NH","NJ","NC","ND","OH","OK","PA","SC","SD","TN","TX","UT","WA","WV","WI","WY"]
+        "licensedIn": ["AL","AZ","CA","CO","CT","DE","FL","GA","HI","ID","IL","IN","IA","KS","KY","LA","ME","MD","MI","MN","MS","MO","MT","NE","NV","NH","NJ","NC","ND","OH","OK","PA","SC","SD","TN","TX","UT","VA","WA","WV","WI","WY"]
       },
       {
         "@type": "FAQPage",

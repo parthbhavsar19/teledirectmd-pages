@@ -49,7 +49,7 @@ export default function HdhpHsaHoldersPage() {
     },
     {
       q: 'Is TeleDirectMD available in my state?',
-      a: 'TeleDirectMD is licensed in 43 states: Alabama, Arizona, California, Colorado, Connecticut, Delaware, Florida, Georgia, Hawaii, Idaho, Illinois, Indiana, Iowa, Kansas, Kentucky, Louisiana, Maine, Maryland, Michigan, Minnesota, Mississippi, Missouri, Montana, Nebraska, Nevada, New Hampshire, New Jersey, North Carolina, North Dakota, Ohio, Oklahoma, Pennsylvania, South Carolina, South Dakota, Tennessee, Texas, Utah, Washington, West Virginia, Wisconsin, and Wyoming. You must be physically located in one of these states at the time of your visit. See our States We Serve page for the current list.'
+      a: 'TeleDirectMD is licensed in 43 states: Alabama, Arizona, California, Colorado, Connecticut, Delaware, Florida, Georgia, Hawaii, Idaho, Illinois, Indiana, Iowa, Kansas, Kentucky, Louisiana, Maine, Maryland, Michigan, Minnesota, Mississippi, Missouri, Montana, Nebraska, Nevada, New Hampshire, New Jersey, North Carolina, North Dakota, Ohio, Oklahoma, Pennsylvania, South Carolina, South Dakota, Tennessee, Texas, Utah, Virginia, Washington, West Virginia, Wisconsin, and Wyoming. You must be physically located in one of these states at the time of your visit. See our States We Serve page for the current list.'
     },
     {
       q: 'Can I see the same physician for ongoing care?',
@@ -84,7 +84,7 @@ export default function HdhpHsaHoldersPage() {
           "@type": "MedicalTherapy",
           "name": "Telehealth Consultations"
         },
-        "areaServed": ["AL","AZ","CA","CO","CT","DE","FL","GA","HI","ID","IL","IN","IA","KS","KY","LA","ME","MD","MI","MN","MS","MO","MT","NE","NV","NH","NJ","NC","ND","OH","OK","PA","SC","SD","TN","TX","UT","WA","WV","WI","WY"]
+        "areaServed": ["AL","AZ","CA","CO","CT","DE","FL","GA","HI","ID","IL","IN","IA","KS","KY","LA","ME","MD","MI","MN","MS","MO","MT","NE","NV","NH","NJ","NC","ND","OH","OK","PA","SC","SD","TN","TX","UT","VA","WA","WV","WI","WY"]
       },
       {
         "@type": "Physician",
@@ -95,7 +95,7 @@ export default function HdhpHsaHoldersPage() {
           "@type": "MedicalOrganization",
           "name": "TeleDirectMD"
         },
-        "licensedIn": ["AL","AZ","CA","CO","CT","DE","FL","GA","HI","ID","IL","IN","IA","KS","KY","LA","ME","MD","MI","MN","MS","MO","MT","NE","NV","NH","NJ","NC","ND","OH","OK","PA","SC","SD","TN","TX","UT","WA","WV","WI","WY"]
+        "licensedIn": ["AL","AZ","CA","CO","CT","DE","FL","GA","HI","ID","IL","IN","IA","KS","KY","LA","ME","MD","MI","MN","MS","MO","MT","NE","NV","NH","NJ","NC","ND","OH","OK","PA","SC","SD","TN","TX","UT","VA","WA","WV","WI","WY"]
       },
       {
         "@type": "FAQPage",

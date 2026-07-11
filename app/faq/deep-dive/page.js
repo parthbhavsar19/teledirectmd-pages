@@ -58,7 +58,7 @@ const STATES = [
   { abbr: 'nj', name: 'New Jersey' }, { abbr: 'nc', name: 'North Carolina' }, { abbr: 'nd', name: 'North Dakota' },
   { abbr: 'oh', name: 'Ohio' }, { abbr: 'ok', name: 'Oklahoma' }, { abbr: 'pa', name: 'Pennsylvania' },
   { abbr: 'sc', name: 'South Carolina' }, { abbr: 'sd', name: 'South Dakota' }, { abbr: 'tn', name: 'Tennessee' },
-  { abbr: 'tx', name: 'Texas' }, { abbr: 'ut', name: 'Utah' }, { abbr: 'wa', name: 'Washington' },
+  { abbr: 'tx', name: 'Texas' }, { abbr: 'ut', name: 'Utah' }, { abbr: 'va', name: 'Virginia' }, { abbr: 'wa', name: 'Washington' },
   { abbr: 'wv', name: 'West Virginia' }, { abbr: 'wi', name: 'Wisconsin' }, { abbr: 'wy', name: 'Wyoming' },
 ];
 
@@ -70,7 +70,7 @@ function stateSlugName(abbr) {
     mn:'minnesota',ms:'mississippi',mo:'missouri',mt:'montana',ne:'nebraska',nv:'nevada',
     nh:'new-hampshire',nj:'new-jersey',nc:'north-carolina',nd:'north-dakota',oh:'ohio',ok:'oklahoma',
     pa:'pennsylvania',sc:'south-carolina',sd:'south-dakota',tn:'tennessee',tx:'texas',ut:'utah',
-    wa:'washington',wv:'west-virginia',wi:'wisconsin',wy:'wyoming',
+    va:'virginia',wa:'washington',wv:'west-virginia',wi:'wisconsin',wy:'wyoming',
   };
   return map[abbr] || abbr;
 }
@@ -280,7 +280,7 @@ export default function FaqDeepDiveHubPage() {
           </p>
           <div className="fdd-badge-row">
             <span className="fdd-badge fdd-badge--accent">$79 Flat</span>
-            <span className="fdd-badge">42-State UTI Guide</span>
+            <span className="fdd-badge">43-State UTI Guide</span>
             <span className="fdd-badge">MD-Only</span>
             <span className="fdd-badge">Non-Controlled Meds Only</span>
           </div>
