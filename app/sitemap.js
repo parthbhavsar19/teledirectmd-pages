@@ -123,16 +123,25 @@ export default function sitemap() {
     'malaria-prophylaxis-treatment-online',
     'travelers-diarrhea-treatment-online',
   ]);
+  // VA pilot cohort (2026-07-11): mirror VT's cohort exactly. Virginia is a
+  // demand-gated cash-pay pilot — only the /va/ hub and these condition pages
+  // are emitted; no /va/online-doctor-visits/ and no non-cohort condition URLs.
+  const VA_PILOT_CONDITIONS = new Set(VT_PILOT_CONDITIONS);
   const states = getStates();
   const conditionSlugs = getConditionSlugs();
   for (const state of states) {
     urls.push(url(`/${state.slug}/`, 0.9, 'weekly'));
-    urls.push(url(`/${state.slug}/online-doctor-visits/`, 0.7, 'monthly'));
+    // VA pilot: no state-level online-doctor-visits page is generated.
+    if (state.slug !== 'va') {
+      urls.push(url(`/${state.slug}/online-doctor-visits/`, 0.7, 'monthly'));
+    }
     for (const cond of conditionSlugs) {
       // National-only conditions: never emit a state-prefixed variant
       if (NATIONAL_ONLY_CONDITIONS.has(cond)) continue;
-      // VT: emit only the 6 pilot condition pages
+      // VT: emit only the pilot cohort condition pages
       if (state.slug === 'vt' && !VT_PILOT_CONDITIONS.has(cond)) continue;
+      // VA: emit only the pilot cohort condition pages
+      if (state.slug === 'va' && !VA_PILOT_CONDITIONS.has(cond)) continue;
       urls.push(url(`/${state.slug}/${cond}/`, 0.8, 'weekly'));
     }
   }

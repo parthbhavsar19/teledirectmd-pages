@@ -134,14 +134,24 @@ const VT_PILOT_CONDITIONS = new Set([
   'cellulitis-treatment-online',
 ]);
 
+// VA pilot cohort (2026-07-11): Virginia is a demand-gated cash-pay pilot like VT,
+// not a broad rollout. Mirror VT's condition cohort exactly (no VA-specific demand
+// data exists in-repo). Only these slugs generate; all others 404 and stay out of
+// the sitemap. The /va/ hub remains live. State-uniqueness layer is injected from
+// data/state-templates/va.json + data/state-licenses.json (Virginia Board of Medicine,
+// license 0101290265).
+const VA_PILOT_CONDITIONS = new Set(VT_PILOT_CONDITIONS);
+
 export async function generateStaticParams() {
   const states = getStates();
   const conditionSlugs = getConditionSlugs();
   const params = [];
   for (const state of states) {
     for (const cSlug of conditionSlugs) {
-      // VT: only generate the 6 pilot condition pages
+      // VT: only generate the pilot cohort condition pages
       if (state.slug === 'vt' && !VT_PILOT_CONDITIONS.has(cSlug)) continue;
+      // VA: only generate the pilot cohort condition pages
+      if (state.slug === 'va' && !VA_PILOT_CONDITIONS.has(cSlug)) continue;
       params.push({ slug: state.slug, conditionSlug: cSlug });
     }
   }
