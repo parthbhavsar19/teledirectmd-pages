@@ -1,73 +1,29 @@
 'use client';
 import { useState, useId } from 'react';
 
-/* ── Stroke-based line icons (brand teal via currentColor) ──
-   Consistent 24×24, stroke-width 1.75, round joins. No emoji, no fills. */
-const iconProps = {
-  viewBox: '0 0 24 24',
-  fill: 'none',
-  stroke: 'currentColor',
-  strokeWidth: 1.75,
-  strokeLinecap: 'round',
-  strokeLinejoin: 'round',
-  'aria-hidden': 'true',
-  focusable: 'false',
-};
+/* ── Soft-3D ceramic icons (owner-approved WebP assets in /public/icons/wwt) ──
+   Decorative: alt="" since the adjacent condition name conveys the label. */
+const ICON_BASE = '/icons/wwt';
+const HEADER_ICON = 'stethoscope.webp';
 
-const Icons = {
-  thermometer: (
-    <svg {...iconProps}><path d="M14 14.76V5a2 2 0 0 0-4 0v9.76a4 4 0 1 0 4 0z" /></svg>
-  ),
-  virus: (
-    <svg {...iconProps}><circle cx="12" cy="12" r="4" /><path d="M12 2v2M12 20v2M2 12h2M20 12h2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M19.1 4.9l-1.4 1.4M6.3 17.7l-1.4 1.4" /></svg>
-  ),
-  lungs: (
-    <svg {...iconProps}><path d="M12 3v9" /><path d="M9 9c0 3-1 4-3.5 7C4 18 3 16.5 3 14c0-2.5 1.5-5 3-6 1.5-1 3 .5 3 1z" /><path d="M15 9c0 3 1 4 3.5 7 1.5-1 2.5-2.5 2.5-5 0-2.5-1.5-5-3-6-1.5-1-3 .5-3 1z" /></svg>
-  ),
-  droplet: (
-    <svg {...iconProps}><path d="M12 2.7l5.3 6.9a6.7 6.7 0 1 1-10.6 0z" /></svg>
-  ),
-  ear: (
-    <svg {...iconProps}><path d="M6 8.5a6 6 0 1 1 12 0c0 3-2.5 3.7-3.5 5.5-.6 1.1-.3 3-2 3a2.5 2.5 0 0 1-2.5-2.5" /><path d="M9 8.5a3 3 0 0 1 6 0" /></svg>
-  ),
-  eye: (
-    <svg {...iconProps}><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7-10-7-10-7z" /><circle cx="12" cy="12" r="2.5" /></svg>
-  ),
-  tooth: (
-    <svg {...iconProps}><path d="M12 5.5C10.5 4 8 3.5 6.5 5 5 6.5 5.5 9 6 11c.6 2.4.6 8 2 8s1-4 2-4 .6 4 2 4 1.4-5.6 2-8c.5-2 1-4.5-.5-6-1.5-1.5-4-1-5.5.5z" /></svg>
-  ),
-  bandage: (
-    <svg {...iconProps}><rect x="3" y="8" width="18" height="8" rx="4" transform="rotate(-45 12 12)" /><path d="M12 10v.01M14 12v.01M10 12v.01M12 14v.01" /></svg>
-  ),
-  wave: (
-    <svg {...iconProps}><path d="M3 12h3l2-6 3 12 2.5-9 2 5h4.5" /></svg>
-  ),
-  crystal: (
-    <svg {...iconProps}><path d="M6 3h12l3 6-9 12L3 9z" /><path d="M3 9h18M9 3l3 6 3-6M12 9v12" /></svg>
-  ),
-  stethoscope: (
-    <svg {...iconProps}><path d="M6 3v5a4 4 0 0 0 8 0V3" /><path d="M6 3H4M14 3h2M10 15v1a5 5 0 0 0 5 5 4 4 0 0 0 4-4v-2" /><circle cx="19" cy="11" r="2" /></svg>
-  ),
-};
-
-/* Map each urgent-care condition to a consistent line icon; fallback = stethoscope. */
-const conditionIcon = {
-  'common-cold-treatment-online': Icons.droplet,
-  'covid-19-treatment-online': Icons.virus,
-  'influenza-treatment-online': Icons.thermometer,
-  'sinus-infection-treatment-online': Icons.lungs,
-  'sore-throat-treatment-online': Icons.wave,
-  'ear-pain-treatment-online': Icons.ear,
-  'pink-eye-treatment-online': Icons.eye,
-  'dental-pain-treatment-online': Icons.tooth,
-  'uti-treatment-online': Icons.droplet,
-  'cellulitis-treatment-online': Icons.bandage,
-  'shingles-treatment-online': Icons.wave,
-  'gout-treatment-online': Icons.crystal,
-  'mastitis-treatment-online': Icons.droplet,
-  'viral-gastroenteritis-treatment-online': Icons.virus,
-  'impetigo-treatment-online': Icons.bandage,
-  'oral-thrush-treatment-online': Icons.wave,
+/* Map each urgent-care condition slug to its icon filename; fallback = stethoscope. */
+const conditionIconFile = {
+  'common-cold-treatment-online': 'common_cold.webp',
+  'covid-19-treatment-online': 'covid.webp',
+  'influenza-treatment-online': 'influenza.webp',
+  'sinus-infection-treatment-online': 'sinus.webp',
+  'sore-throat-treatment-online': 'sore_throat.webp',
+  'ear-pain-treatment-online': 'ear_pain.webp',
+  'pink-eye-treatment-online': 'pink_eye.webp',
+  'dental-pain-treatment-online': 'dental.webp',
+  'uti-treatment-online': 'uti.webp',
+  'cellulitis-treatment-online': 'cellulitis.webp',
+  'shingles-treatment-online': 'shingles.webp',
+  'gout-treatment-online': 'gout.webp',
+  'mastitis-treatment-online': 'mastitis.webp',
+  'viral-gastroenteritis-treatment-online': 'gastro.webp',
+  'impetigo-treatment-online': 'impetigo.webp',
+  'oral-thrush-treatment-online': 'oral_thrush.webp',
 };
 
 export default function ConditionGridCanary({ category, conditionDescriptions }) {
@@ -80,7 +36,9 @@ export default function ConditionGridCanary({ category, conditionDescriptions })
     <section className="tdm-section wwtc" id={category.categorySlug}>
       {/* Clean header: small line icon + serif title + one-line subhead (no emoji, no teal banner) */}
       <header className="wwtc-header">
-        <span className="wwtc-header-icon">{Icons.stethoscope}</span>
+        <span className="wwtc-header-icon">
+          <img src={`${ICON_BASE}/${HEADER_ICON}`} alt="" width="64" height="64" loading="lazy" decoding="async" />
+        </span>
         <div className="wwtc-header-text">
           <h2 className="wwtc-title">{category.categoryName}</h2>
           <p className="wwtc-subtitle">{category.categoryDescription}</p>
@@ -103,9 +61,11 @@ export default function ConditionGridCanary({ category, conditionDescriptions })
                 aria-controls={panelId}
                 onClick={() => toggle(c.slug)}
               >
-                <span className="wwtc-tile-icon">{conditionIcon[c.slug] || Icons.stethoscope}</span>
+                <span className="wwtc-tile-icon">
+                  <img src={`${ICON_BASE}/${conditionIconFile[c.slug] || HEADER_ICON}`} alt="" width="48" height="48" loading="lazy" decoding="async" />
+                </span>
                 <span className="wwtc-tile-name">{c.name}</span>
-                <svg className="wwtc-tile-chevron" {...iconProps}><polyline points="6 9 12 15 18 9" /></svg>
+                <svg className="wwtc-tile-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true" focusable="false"><polyline points="6 9 12 15 18 9" /></svg>
               </button>
 
               {/* Full description stays server-rendered in the DOM at all times;
