@@ -42,6 +42,13 @@ export default function WhatWeTreatClient({ categories, conditionDescriptions })
     setCollapsedSections((prev) => ({ ...prev, [slug]: !prev[slug] }));
   };
 
+  /* Dark-mode toggle — reuses the health-guide mechanism:
+     class "tdmd-dark" on <html> + localStorage key "tdmd-dark-mode". */
+  const toggleDarkMode = () => {
+    const isDark = document.documentElement.classList.toggle('tdmd-dark');
+    try { localStorage.setItem('tdmd-dark-mode', isDark); } catch (e) { /* ignore */ }
+  };
+
   /* Scroll-spy for sidebar active link */
   useEffect(() => {
     const sections = document.querySelectorAll('.tdm-section');
@@ -102,6 +109,16 @@ export default function WhatWeTreatClient({ categories, conditionDescriptions })
     <div className="tdm-page">
       {/* ── HERO ── */}
       <header className="tdm-hero">
+        <button
+          type="button"
+          className="tdmd-dark-toggle"
+          aria-label="Toggle dark mode"
+          title="Toggle dark mode"
+          onClick={toggleDarkMode}
+        >
+          <svg className="tdmd-icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 0111.21 3 7 7 0 0012 21a7 7 0 009-8.21z"/></svg>
+          <svg className="tdmd-icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+        </button>
         <div className="tdm-container">
           <div className="tdm-badge">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
@@ -307,7 +324,7 @@ export default function WhatWeTreatClient({ categories, conditionDescriptions })
       </div>
 
       {/* ── INSURANCE ACCEPTED (state-specific discoverability) ── */}
-      <section style={{ padding: "48px 0", background: "#F5FAFA", borderTop: "1px solid rgba(0,62,82,0.10)" }} data-speakable="true">
+      <section className="tdm-insurance" style={{ padding: "48px 0", background: "#F5FAFA", borderTop: "1px solid rgba(0,62,82,0.10)" }} data-speakable="true">
         <div className="tdm-container">
           <h2 style={{ fontFamily: "'Fraunces', Georgia, serif", fontSize: 28, fontWeight: 700, color: "#003E52", margin: "0 0 8px", textAlign: "center" }}>Insurance Accepted for These Conditions</h2>
           <p style={{ fontFamily: "'DM Sans', system-ui, sans-serif", fontSize: 16, color: "#4A6870", lineHeight: 1.6, margin: "0 auto 28px", textAlign: "center", maxWidth: 640 }}>We bill Aetna, select Blue Cross Blue Shield plans, and UnitedHealthcare for every condition above in select states. Pick your insurer to see state-specific coverage — or pay $79 flat self-pay anywhere.</p>
