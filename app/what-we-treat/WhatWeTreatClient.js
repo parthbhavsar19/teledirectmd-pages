@@ -1,5 +1,6 @@
 'use client';
 import { useState, useEffect, useRef, useMemo } from 'react';
+import ConditionGridCanary from './ConditionGridCanary';
 
 export default function WhatWeTreatClient({ categories, conditionDescriptions }) {
   const [searchQuery, setSearchQuery] = useState('');
@@ -243,7 +244,18 @@ export default function WhatWeTreatClient({ categories, conditionDescriptions })
             </a>
 
             {/* Category sections */}
-            {categories.map((cat) => {
+            {categories.map((cat, catIndex) => {
+              /* Canary: only the FIRST category (Urgent Care) uses the compact
+                 grid + progressive-disclosure redesign. All others unchanged. */
+              if (catIndex === 0) {
+                return (
+                  <ConditionGridCanary
+                    key={cat.categorySlug}
+                    category={cat}
+                    conditionDescriptions={conditionDescriptions}
+                  />
+                );
+              }
               const isCollapsed = collapsedSections[cat.categorySlug];
               return (
                 <section
@@ -295,7 +307,7 @@ export default function WhatWeTreatClient({ categories, conditionDescriptions })
       </div>
 
       {/* ── INSURANCE ACCEPTED (state-specific discoverability) ── */}
-      <section style={{ padding: "48px 0", background: "#F5FAFA", borderTop: "1px solid rgba(0,62,82,0.10)" }} data-speakable="true">
+      <section className="tdm-insurance" style={{ padding: "48px 0", background: "#F5FAFA", borderTop: "1px solid rgba(0,62,82,0.10)" }} data-speakable="true">
         <div className="tdm-container">
           <h2 style={{ fontFamily: "'Fraunces', Georgia, serif", fontSize: 28, fontWeight: 700, color: "#003E52", margin: "0 0 8px", textAlign: "center" }}>Insurance Accepted for These Conditions</h2>
           <p style={{ fontFamily: "'DM Sans', system-ui, sans-serif", fontSize: 16, color: "#4A6870", lineHeight: 1.6, margin: "0 auto 28px", textAlign: "center", maxWidth: 640 }}>We bill Aetna, select Blue Cross Blue Shield plans, and UnitedHealthcare for every condition above in select states. Pick your insurer to see state-specific coverage — or pay $79 flat self-pay anywhere.</p>
