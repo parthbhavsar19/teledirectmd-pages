@@ -47,6 +47,7 @@ const FAQ_ITEMS = [
   { question: "How should I take levothyroxine?", answerHtml: `Take levothyroxine on an empty stomach, 30 to 60 minutes before eating, and keep calcium and iron supplements at least four hours apart because they reduce absorption. Stay on the same brand or generic, since switching can shift your TSH.`, answerPlain: "Take levothyroxine on an empty stomach, 30 to 60 minutes before eating, and keep calcium and iron supplements at least four hours apart because they reduce absorption. Stay on the same brand or generic, since switching can shift your TSH." },
   { question: "Do I need lab work for a levothyroxine refill?", answerHtml: `TSH monitoring is the patient&apos;s responsibility between visits — typically every 6 to 12 weeks after a dose change and every 6 to 12 months when stable. Refills assume a TSH within the past 12 months; if it has been longer, the physician will recommend a check at a local Vermont lab.`, answerPlain: "TSH monitoring is the patient’s responsibility between visits — typically every 6 to 12 weeks after a dose change and every 6 to 12 months when stable. Refills assume a TSH within the past 12 months; if it has been longer, the physician will recommend a check at a local Vermont lab." },
   { question: "Can an underactive thyroid raise my cholesterol?", answerHtml: `Yes. Untreated hypothyroidism raises LDL cholesterol by reducing LDL-receptor activity in the liver, so getting thyroid levels in range can improve lipids. See our Vermont hyperlipidemia refills page for cholesterol management. <a href="/vt/hyperlipidemia-refills-online/">Vermont hyperlipidemia refills page</a>.`, answerPlain: "Yes. Untreated hypothyroidism raises LDL cholesterol by reducing LDL-receptor activity in the liver, so getting thyroid levels in range can improve lipids. See our Vermont hyperlipidemia refills page for cholesterol management." },
+  { question: "Does TeleDirectMD prescribe Armour Thyroid, NP Thyroid, or natural desiccated thyroid in Vermont?", answerHtml: `No. TeleDirectMD prescribes levothyroxine (or Tirosint) only, per ATA guidelines. We do not prescribe, refill, or transfer Armour Thyroid, NP Thyroid, Nature-Throid, WP Thyroid, any natural desiccated thyroid (NDT) product, or compounded T3/T4 combination therapy under any circumstances. Patients seeking NDT or T3 therapy should follow up with their primary care provider or an endocrinologist.`, answerPlain: "No. TeleDirectMD prescribes levothyroxine (or Tirosint) only, per ATA guidelines. We do not prescribe, refill, or transfer Armour Thyroid, NP Thyroid, Nature-Throid, WP Thyroid, any natural desiccated thyroid (NDT) product, or compounded T3/T4 combination therapy under any circumstances. Patients seeking NDT or T3 therapy should follow up with their primary care provider or an endocrinologist." },
   { question: "When does hypothyroidism need in-person care?", answerHtml: `See a clinician in person for a new diagnosis, a TSH markedly out of range requiring titration, pregnancy, post-thyroid-cancer suppressive therapy, new cardiac symptoms, or rare signs of thyroid storm. TeleDirectMD is appropriate for stable, established hypothyroidism.`, answerPlain: "See a clinician in person for a new diagnosis, a TSH markedly out of range requiring titration, pregnancy, post-thyroid-cancer suppressive therapy, new cardiac symptoms, or rare signs of thyroid storm. TeleDirectMD is appropriate for stable, established hypothyroidism." },
   { question: "Do you accept insurance in Vermont?", answerHtml: `TeleDirectMD operates as a cash-pay practice in Vermont. Your $79 visit fee is paid at booking. Prescription costs are filled separately at your pharmacy and may be covered by your pharmacy benefit. HSA and FSA cards are accepted. There is no insurance billing in Vermont.`, answerPlain: "TeleDirectMD operates as a cash-pay practice in Vermont. Your $79 visit fee is paid at booking. Prescription costs are filled separately at your pharmacy and may be covered by your pharmacy benefit. HSA and FSA cards are accepted. There is no insurance billing in Vermont." }
 ];
@@ -77,7 +78,7 @@ function buildSchemas() {
     '@type': 'MedicalWebPage',
     name: PAGE_TITLE,
     url: PAGE_URL,
-    description: "Refill levothyroxine and manage stable hypothyroidism online in Vermont. Board-certified Family Medicine MD. Care aligned with American Thyroid Association guidance and TSH monitoring. Cash-pay only at $79 flat.",
+    description: "Refill levothyroxine and manage stable hypothyroidism online in Vermont. Board-certified Family Medicine MD. Care aligned with American Thyroid Association guidance and TSH monitoring. Cash-pay only at $79 flat. Levothyroxine only — no Armour, no NP Thyroid, no desiccated thyroid (NDT).",
     datePublished: DATE_PUBLISHED,
     dateModified: DATE_MODIFIED,
     lastReviewed: LAST_REVIEWED,
@@ -239,7 +240,7 @@ export default function VtHypothyroidismRefillsOnline() {
               <div className="tdmd-hero-copy">
                 <h1 data-speakable="true">Hypothyroidism (Levothyroxine) Refills Online in Vermont</h1>
                 <p className="tdmd-hero-sub" data-speakable="true">Vermont adults 18+ · Secure video visit · Cash-pay $79 flat · MD-only · 18 V.S.A. Chapter 219 compliant · ATA + AACE guidance</p>
-                <p dangerouslySetInnerHTML={{ __html: `TeleDirectMD provides levothyroxine refills by secure video visit for Vermont adults with stable, established hypothyroidism. A Vermont-licensed board-certified Family Medicine physician reviews your symptom control, screens for signs of over- or under-treatment, confirms you are taking a consistent brand or formulation, and continues your current dose when it remains appropriate. Care follows American Thyroid Association guidance, with levothyroxine as the standard of care and TSH as the primary monitoring marker. This page is for adults located in Vermont, including {CITIES}, and surrounding areas.`.replace('{CITIES}', vtCities.join(', ')) }} />
+                <p dangerouslySetInnerHTML={{ __html: `TeleDirectMD provides levothyroxine refills by secure video visit for Vermont adults with stable, established hypothyroidism. A Vermont-licensed board-certified Family Medicine physician reviews your symptom control, screens for signs of over- or under-treatment, confirms you are taking a consistent brand or formulation, and continues your current dose when it remains appropriate. Care follows American Thyroid Association guidance, with levothyroxine as the standard of care and TSH as the primary monitoring marker. TeleDirectMD prescribes levothyroxine (or Tirosint) only and does NOT prescribe, refill, or transfer natural desiccated thyroid (Armour Thyroid, NP Thyroid, Nature-Throid, WP Thyroid), any NDT product, or compounded T3/T4 therapy under any circumstances. This page is for adults located in Vermont, including {CITIES}, and surrounding areas.`.replace('{CITIES}', vtCities.join(', ')) }} />
 
                 {/* Visible byline (E-E-A-T) */}
                 <div className="vt-hypothyroidism-refills-online__byline" aria-label="Reviewed by physician">
@@ -309,6 +310,16 @@ export default function VtHypothyroidismRefillsOnline() {
           </div>
         </section>
 
+        {/* ─── 2b) MEDICATION SCOPE: LEVOTHYROXINE ONLY (NDT exclusion) ─── */}
+        <section className="tdmd-section" id={`${pid}-scope`}>
+          <div className="tdmd-container">
+            <div style={{ background: '#FFF3CD', border: '2px solid #FFC107', borderRadius: 'var(--tdmd-radius,18px)', padding: '1.1rem 1.5rem', marginTop: '1.5rem' }}>
+              <h3 style={{ color: '#856404', marginTop: 0 }}>⚠ Medication Scope: Levothyroxine Only</h3>
+              <p style={{ color: '#533f03', margin: 0 }}>TeleDirectMD prescribes LEVOTHYROXINE (or Tirosint) ONLY for hypothyroidism management. This service does NOT prescribe, refill, or transfer: Armour Thyroid, NP Thyroid, Nature-Throid, WP Thyroid, any natural desiccated thyroid (NDT) product, liothyronine (Cytomel, generic T3), or any compounded T3/T4 combination therapy — under any circumstances. The ATA guidelines establish levothyroxine monotherapy as the standard of care. Patients seeking NDT or T3 therapy should consult their primary care provider or an endocrinologist.</p>
+            </div>
+          </div>
+        </section>
+
         {/* ─── 3) ELIGIBILITY CHECKLIST ─── */}
         <section className="tdmd-section" id={`${pid}-eligibility`}>
           <div className="tdmd-container">
@@ -333,6 +344,7 @@ export default function VtHypothyroidismRefillsOnline() {
               <li>You are pregnant (TSH targets change; OB or endocrinology should manage)</li>
               <li>You are on suppressive therapy after thyroid cancer or thyroidectomy</li>
               <li>You have new cardiac symptoms or signs of thyroid storm (fever, racing heart, confusion)</li>
+              <li>You take or want natural desiccated thyroid (Armour Thyroid, NP Thyroid, Nature-Throid, WP Thyroid) or compounded T3/T4 — we do not prescribe or refill NDT products</li>
                 </ul>
                 <p style={{ marginTop: '0.75rem', color: 'var(--tdmd-muted)', fontSize: '0.92rem' }}>
                   <strong>If you have red-flag symptoms, seek urgent in-person care or emergency care immediately. TeleDirectMD is not appropriate for complex or severe cases.</strong>
@@ -458,7 +470,7 @@ export default function VtHypothyroidismRefillsOnline() {
         <section className="tdmd-section" id={`${pid}-medications`}>
           <div className="tdmd-container">
             <h2>Levothyroxine Refill Options and Pricing in Vermont</h2>
-            <p dangerouslySetInnerHTML={{ __html: `Levothyroxine is the only medication TeleDirectMD refills in this category, consistent with <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4267409/" rel="noopener" target="_blank">ATA guidance</a>. It is non-controlled and prescribable by Vermont telehealth. GoodRx prices retrieved May 2026; actual cost varies by Vermont pharmacy. Prescription costs are separate from the $79 visit fee.` }} />
+            <p dangerouslySetInnerHTML={{ __html: `Levothyroxine is the only medication TeleDirectMD refills in this category, consistent with <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4267409/" rel="noopener" target="_blank">ATA guidance</a>. It is non-controlled and prescribable by Vermont telehealth. <strong>TeleDirectMD does NOT prescribe, refill, or transfer natural desiccated thyroid (Armour Thyroid, NP Thyroid, Nature-Throid, WP Thyroid), any NDT product, or compounded T3/T4 therapy under any circumstances.</strong> GoodRx prices retrieved May 2026; actual cost varies by Vermont pharmacy. Prescription costs are separate from the $79 visit fee.` }} />
             <div className="tdmd-table-wrap">
               <table className="tdmd-table" aria-label="Hypothyroidism Refills medication options and prices">
                 <caption style={{ captionSide: 'bottom', textAlign: 'left', padding: '0.5rem 0', fontSize: '0.85rem', color: 'var(--tdmd-muted)' }}>

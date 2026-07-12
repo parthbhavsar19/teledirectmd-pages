@@ -71,6 +71,10 @@ const faqItems = [
     a: 'No. TeleDirectMD does not prescribe controlled substances (Schedule II–V), including narcotics, benzodiazepines, stimulants, or sleep medications. This is in accordance with federal telemedicine prescribing regulations and our commitment to responsible care.',
   },
   {
+    q: 'Do you prescribe Armour Thyroid, NP Thyroid, or natural desiccated thyroid (NDT)?',
+    a: 'No. For hypothyroidism, TeleDirectMD prescribes levothyroxine (or Tirosint) only, consistent with American Thyroid Association (ATA) guidelines. We do not prescribe, refill, or transfer Armour Thyroid, NP Thyroid, Nature-Throid, WP Thyroid, any natural desiccated thyroid (NDT) product, liothyronine (Cytomel/T3), or compounded T3/T4 combination therapy under any circumstances. Patients seeking these alternatives should follow up with their primary care provider or an endocrinologist.',
+  },
+  {
     q: 'What about GLP-1 or weight-loss medications?',
     a: 'TeleDirectMD does not prescribe GLP-1 agonists (such as semaglutide or tirzepatide) or other weight-loss medications. These require ongoing monitoring and management that falls outside the scope of episodic urgent-care telemedicine.',
   },
