@@ -405,6 +405,7 @@
       }
     ],
     "doesNotManage": [
+      "Natural desiccated thyroid (Armour Thyroid, NP Thyroid, Nature-Throid, WP Thyroid) or any compounded T3/T4 product — we do not initiate, refill, or transfer these under any circumstances",
       "New hypothyroidism diagnosis requiring full workup",
       "Dose titration requiring current lab results",
       "Thyroid disease in pregnancy or planned pregnancy",
@@ -414,7 +415,7 @@
   },
   "medications": {
     "sectionTitle": "Common Medication Options",
-    "intro": "Levothyroxine is the standard of care for hypothyroidism per ATA guidelines. TeleDirectMD focuses on bridge refills of levothyroxine at the patient's current established dose when clinically appropriate.",
+    "intro": "Levothyroxine is the standard of care for hypothyroidism per ATA guidelines. TeleDirectMD focuses on bridge refills of levothyroxine at the patient's current established dose when clinically appropriate. TeleDirectMD prescribes levothyroxine (or Tirosint) only. We do NOT prescribe, refill, or transfer natural desiccated thyroid (Armour Thyroid, NP Thyroid, Nature-Throid, WP Thyroid), any NDT product, or compounded T3/T4 therapy under any circumstances.",
     "headers": [
       "Medication",
       "Typical dose range",
@@ -439,9 +440,15 @@
         "Varies",
         "Dose change based on new TSH results",
         "Dose changes should only be made with recent lab confirmation. TSH should be rechecked 6-8 weeks after any dose change. This is NOT appropriate as a bridge refill."
+      ],
+      [
+        "Natural desiccated thyroid (Armour Thyroid, NP Thyroid, Nature-Throid, WP Thyroid) and compounded T3/T4",
+        "Not prescribed",
+        "Not prescribed by TeleDirectMD",
+        "TeleDirectMD does NOT prescribe, refill, or transfer natural desiccated thyroid (NDT), Armour Thyroid, NP Thyroid, Nature-Throid, WP Thyroid, or any compounded T3/T4 product under any circumstances. We prescribe levothyroxine (or Tirosint) only, per ATA guidelines. Patients seeking NDT should follow up with their primary care provider or endocrinologist."
       ]
     ],
-    "note": "Medication selection and dosing are individualized by the MD. Thyroid medications are not controlled substances. TeleDirectMD does not prescribe controlled substances. Bridge refill treatment online is intended for stable patients continuing their current dose, not for dose changes or new prescriptions."
+    "note": "Medication selection and dosing are individualized by the MD. TeleDirectMD prescribes levothyroxine (or Tirosint) only and does NOT prescribe, refill, or transfer natural desiccated thyroid (Armour Thyroid, NP Thyroid, Nature-Throid, WP Thyroid), any NDT product, or compounded T3/T4 therapy under any circumstances. Thyroid medications are not controlled substances. TeleDirectMD does not prescribe controlled substances. Bridge refill treatment online is intended for stable patients continuing their current dose, not for dose changes or new prescriptions."
   },
   "homeCare": {
     "sectionTitle": "Home Care, Monitoring, and Follow-up",
@@ -481,6 +488,7 @@
     "shouldNotUse": {
       "title": "You Should Not Use TeleDirectMD If",
       "items": [
+        "You are taking or requesting natural desiccated thyroid (Armour Thyroid, NP Thyroid, Nature-Throid, WP Thyroid) or any compounded T3/T4 product — we do not prescribe or refill NDT products under any circumstances",
         "You have never been diagnosed with hypothyroidism and need a new workup",
         "You are pregnant, breastfeeding, or actively planning pregnancy",
         "You have severe confusion, altered mental status, or very low body temperature (possible myxedema crisis)",
@@ -540,6 +548,10 @@
       {
         "question": "Can I switch between brand and generic levothyroxine?",
         "answer": "Switching between different manufacturers or between brand and generic levothyroxine can sometimes cause small changes in TSH because bioequivalence is not always exact. If you switch, your TSH should be rechecked in 6 to 8 weeks. Inform your provider of any changes."
+      },
+      {
+        "question": "Does TeleDirectMD prescribe Armour Thyroid, NP Thyroid, or natural desiccated thyroid?",
+        "answer": "No. TeleDirectMD only prescribes levothyroxine or Tirosint per ATA guidelines. We do not prescribe, refill, or transfer prescriptions for Armour Thyroid, NP Thyroid, Nature-Throid, WP Thyroid, or any natural desiccated thyroid (NDT) product, including compounded T3/T4 combinations, under any circumstances. Patients seeking NDT should follow up with their primary care provider or endocrinologist."
       },
       {
         "question": "Is levothyroxine a controlled substance?",
