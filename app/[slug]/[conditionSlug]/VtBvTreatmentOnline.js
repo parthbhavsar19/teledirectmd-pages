@@ -4,6 +4,7 @@
  * Authority: CDC STI Treatment Guidelines 2021 + ACOG
  */
 import FaqAccordion from '../../components/FaqAccordion';
+import { VtNationalStyle } from '../../components/VtNationalChrome';
 import { WhatDoesThisCostBlock, CompareTeleDirectMDLinkRow, CommonSymptomsBlock } from '../../components/CostCompareModules';
 
 const PAGE_URL = 'https://teledirectmd.com/vt/bv-treatment-online/';
@@ -112,7 +113,8 @@ export default function VtBvTreatmentOnline() {
       {schemas.map((schema, i) => (<script key={`schema-${i}`} type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />))}
       <style dangerouslySetInnerHTML={{ __html: PAGE_CSS }} />
 
-      <div className="tdmd-vt-bv">
+      <div className="tdmd-vt-bv tdmd-natl">
+        <VtNationalStyle />
         <nav className="tdmd-breadcrumbs" aria-label="Breadcrumb">
           <div className="tdmd-container" style={{ paddingTop: '0.5rem', paddingBottom: 0 }}>
             <a href="/">Home</a><span className="tdmd-bc-sep" aria-hidden="true">/</span>
@@ -155,7 +157,7 @@ export default function VtBvTreatmentOnline() {
                 </ul>
 
                 <div className="tdmd-hero-ctas">
-                  <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
+                  <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit, $79</a>
                   <a href="/vt/" className="tdmd-btn tdmd-btn-outline">Explore Vermont Pages</a>
                   <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All Conditions</a>
                 </div>
