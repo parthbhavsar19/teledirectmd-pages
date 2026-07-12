@@ -1,5 +1,6 @@
 'use client';
 import { useState, useEffect, useRef, useMemo } from 'react';
+import ConditionGridCanary from './ConditionGridCanary';
 
 export default function WhatWeTreatClient({ categories, conditionDescriptions }) {
   const [searchQuery, setSearchQuery] = useState('');
@@ -243,7 +244,18 @@ export default function WhatWeTreatClient({ categories, conditionDescriptions })
             </a>
 
             {/* Category sections */}
-            {categories.map((cat) => {
+            {categories.map((cat, catIndex) => {
+              /* Canary: only the FIRST category (Urgent Care) uses the compact
+                 grid + progressive-disclosure redesign. All others unchanged. */
+              if (catIndex === 0) {
+                return (
+                  <ConditionGridCanary
+                    key={cat.categorySlug}
+                    category={cat}
+                    conditionDescriptions={conditionDescriptions}
+                  />
+                );
+              }
               const isCollapsed = collapsedSections[cat.categorySlug];
               return (
                 <section

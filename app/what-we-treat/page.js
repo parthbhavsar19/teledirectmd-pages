@@ -156,10 +156,11 @@ export default function WhatWeTreatPage() {
         }
         conditionDescriptions[c.slug] = {
           description: cardDesc,
+          full: intro,
           keywords: (condition.conditionName + ' ' + (condition.conditionShort || '')).toLowerCase(),
         };
       } catch {
-        conditionDescriptions[c.slug] = { description: '', keywords: '' };
+        conditionDescriptions[c.slug] = { description: '', full: '', keywords: '' };
       }
     });
   });
