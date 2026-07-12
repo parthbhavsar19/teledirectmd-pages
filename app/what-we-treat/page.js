@@ -170,13 +170,6 @@ export default function WhatWeTreatPage() {
 
   return (
     <>
-      {/* No-flash dark-mode init — same mechanism as health guides:
-          class "tdmd-dark" on <html>, localStorage key "tdmd-dark-mode". */}
-      <script
-        dangerouslySetInnerHTML={{
-          __html: "(function(){try{if(localStorage.getItem('tdmd-dark-mode')==='true'){document.documentElement.classList.add('tdmd-dark');}}catch(e){}})();",
-        }}
-      />
       <CitableSummaryBlock summary={citableSummary_AI} jsonLd={citableJsonLd_AI} idSuffix="wwt" visualMode="hidden" />
       <script
         type="application/ld+json"
