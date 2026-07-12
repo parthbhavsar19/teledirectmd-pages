@@ -1,5 +1,5 @@
 {
-  "_comment": "TeleDirectMD physician state medical licenses. Single source of truth for Physician.hasCredential JSON-LD across all state-specific pages. Add new states here when license is issued. Empty entries are intentionally blank \u2014 page-level code falls back to generic 'Licensed in <state>' without a credential identifier when no number is present.",
+  "_comment": "TeleDirectMD physician state medical licenses. Single source of truth for Physician.hasCredential JSON-LD across all state-specific pages. Add new states here when license is issued. Empty entries are intentionally blank — page-level code falls back to generic 'Licensed in <state>' without a credential identifier when no number is present.",
   "_physician": {
     "name": "Parth Bhavsar, MD",
     "npi": "1104323203",
@@ -79,7 +79,7 @@
     },
     "dc": {
       "stateName": "Washington D.C.",
-      "licenseNumber": null,
+      "licenseNumber": "MD600005773",
       "issuingBoard": "DC Board of Medicine",
       "issuingBoardUrl": "https://dchealth.dc.gov/bomed",
       "verificationUrl": "https://dchealth.dc.gov/service/get-verification-your-license",
@@ -87,8 +87,10 @@
       "credentialDisplayShort": "DC Medical License",
       "credentialDisplayLong": "District of Columbia Medical License (issued by DC Board of Medicine)",
       "phrasingForPages": "District of Columbia-licensed physician",
-      "notes": "License number not found in Notion License Registry. State Licenses page (2026-03-26) marks DC as confirmed active. BEFORE PHASE 3 ROLLOUT FOR DC: obtain license number directly from DC Board of Medicine (https://dchealth.dc.gov/service/get-verification-your-license) and add to this record. Until then, phase3Ready=false and DC will be excluded from state-template scale-out.",
-      "phase3Ready": false
+      "notes": "Verified 2026-07-11 via DC Health License Verification Portal (dohenterprise.my.site.com/ver/s/): Medicine and Surgery, Active, no discipline. phase3Ready left false deliberately - state-template scale-out is halted as content strategy, not a data gap.",
+      "phase3Ready": false,
+      "dateIssued": "2026-03-26",
+      "dateExpires": "2028-09-30"
     },
     "de": {
       "stateName": "Delaware",
@@ -112,10 +114,10 @@
       "verificationUrl": "https://flhealthsource.gov/telehealth/",
       "credentialCategory": "Telehealth Provider Registration",
       "credentialDisplayShort": "FL Telehealth Provider Registration",
-      "credentialDisplayLong": "Florida Out-of-State Telehealth Provider Registration (under Fla. Stat. \u00a7 456.47(4))",
+      "credentialDisplayLong": "Florida Out-of-State Telehealth Provider Registration (under Fla. Stat. § 456.47(4))",
       "phrasingForPages": "Florida-registered telehealth physician",
-      "statuteAuthority": "Fla. Stat. \u00a7 456.47(4)",
-      "notes": "Out-of-state telehealth provider registration. NOT a full Florida medical license. Dr. Bhavsar holds a Georgia medical license; this registration permits telehealth practice with Florida patients per \u00a7456.47. Does not expire or require renewal per FL DOH record.",
+      "statuteAuthority": "Fla. Stat. § 456.47(4)",
+      "notes": "Out-of-state telehealth provider registration. NOT a full Florida medical license. Dr. Bhavsar holds a Georgia medical license; this registration permits telehealth practice with Florida patients per §456.47. Does not expire or require renewal per FL DOH record.",
       "phase3Ready": true
     },
     "ga": {
@@ -204,16 +206,18 @@
     },
     "ks": {
       "stateName": "Kansas",
-      "licenseNumber": null,
+      "licenseNumber": "04-52853",
       "issuingBoard": "Kansas Board of Healing Arts",
       "issuingBoardUrl": "https://www.ksbha.org/",
-      "verificationUrl": "https://www.ksbha.org/licensing/license-lookup",
+      "verificationUrl": "https://www.kansas.gov/ssrv-ksbhada/details.html?id=731257913",
       "credentialCategory": "Medical License",
       "credentialDisplayShort": "Kansas Medical License",
       "credentialDisplayLong": "Kansas Medical License (issued by Kansas Board of Healing Arts)",
       "phrasingForPages": "Kansas-licensed physician",
-      "notes": "STATUS CONFLICT: License Registry shows 'Pending' (application submitted, awaiting approval); State Licenses page (2026-03-26) shows 'Active'. License number not available. RESOLUTION as of 2026-06-12: trust the Registry \u2014 license is PENDING. BEFORE PHASE 3 ROLLOUT FOR KS: confirm license issued (poll Kansas Board of Healing Arts) and add license number to this record. Until then, phase3Ready=false and KS will be excluded.",
-      "phase3Ready": false
+      "notes": "Verified 2026-07-11 via KSBHA licensee search: MD 04-52853, Current/Active, issued 2026-03-20, renewed 2026-07-09, expires 2027-07-31. Prior PENDING conflict resolved - license is active. phase3Ready left false deliberately - state-template scale-out is halted as content strategy, not a data gap.",
+      "phase3Ready": false,
+      "dateIssued": "2026-03-20",
+      "dateExpires": "2027-07-31"
     },
     "ky": {
       "stateName": "Kentucky",
@@ -283,7 +287,7 @@
       "phrasingForPages": "Michigan-licensed physician",
       "dateIssued": "2026-01-05",
       "dateExpires": "2029-02-16",
-      "notes": "Michigan IMLC sunset effective 2026-03-28. License EMC0002968 (exp 2029-02-16) \u2014 must verify whether issued via IMLC compact or traditional Michigan pathway. If IMLC-issued, the license may require conversion to a traditional Michigan license to remain valid post-sunset. BEFORE PHASE 3 ROLLOUT FOR MI: confirm license pathway with Michigan LARA (https://www.michigan.gov/lara/bureau-list/bpl/health). Current phase3Ready=false pending this verification \u2014 to enable, change phase3Ready to true after confirmation.",
+      "notes": "Michigan IMLC sunset effective 2026-03-28. License EMC0002968 (exp 2029-02-16) — must verify whether issued via IMLC compact or traditional Michigan pathway. If IMLC-issued, the license may require conversion to a traditional Michigan license to remain valid post-sunset. BEFORE PHASE 3 ROLLOUT FOR MI: confirm license pathway with Michigan LARA (https://www.michigan.gov/lara/bureau-list/bpl/health). Current phase3Ready=false pending this verification — to enable, change phase3Ready to true after confirmation.",
       "phase3Ready": false
     },
     "mn": {
@@ -396,7 +400,7 @@
       "phrasingForPages": "physician licensed in New Hampshire via the Interstate Medical Licensure Compact",
       "dateIssued": "2026-03-12",
       "dateExpires": "2028-03-12",
-      "notes": "Compact Physician \u2013 Family Practice/Family Medicine. Issued via IMLC. OPLC license PDF received 3/12/2026.",
+      "notes": "Compact Physician – Family Practice/Family Medicine. Issued via IMLC. OPLC license PDF received 3/12/2026.",
       "phase3Ready": true
     },
     "nj": {
