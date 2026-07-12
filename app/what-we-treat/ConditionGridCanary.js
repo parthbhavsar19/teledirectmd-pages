@@ -26,11 +26,43 @@ const conditionIconFile = {
   'oral-thrush-treatment-online': 'oral_thrush.webp',
 };
 
+/* Display-only tile order, ranked by real-world booking frequency.
+   Scoped to canary-grid rendering; does not affect source data or schema. */
+const DISPLAY_ORDER = [
+  'uti-treatment-online',
+  'influenza-treatment-online',
+  'sore-throat-treatment-online',
+  'shingles-treatment-online',
+  'pink-eye-treatment-online',
+  'sinus-infection-treatment-online',
+  'common-cold-treatment-online',
+  'covid-19-treatment-online',
+  'viral-gastroenteritis-treatment-online',
+  'ear-pain-treatment-online',
+  'dental-pain-treatment-online',
+  'cellulitis-treatment-online',
+  'gout-treatment-online',
+  'mastitis-treatment-online',
+  'impetigo-treatment-online',
+  'oral-thrush-treatment-online',
+];
+
 export default function ConditionGridCanary({ category, conditionDescriptions }) {
   const [openSlug, setOpenSlug] = useState(null);
   const baseId = useId();
 
   const toggle = (slug) => setOpenSlug((prev) => (prev === slug ? null : slug));
+
+  /* Reorder tiles for RENDERING only; never mutate category.conditions
+     (the JSON-LD ItemList builder consumes the original source order). */
+  const rank = (slug) => {
+    const i = DISPLAY_ORDER.indexOf(slug);
+    return i === -1 ? DISPLAY_ORDER.length : i;
+  };
+  const orderedConditions = category.conditions
+    .map((c, i) => ({ c, i }))
+    .sort((a, b) => rank(a.c.slug) - rank(b.c.slug) || a.i - b.i)
+    .map((x) => x.c);
 
   return (
     <section className="tdm-section wwtc" id={category.categorySlug}>
@@ -47,7 +79,7 @@ export default function ConditionGridCanary({ category, conditionDescriptions })
       </header>
 
       <div className="wwtc-grid">
-        {category.conditions.map((c) => {
+        {orderedConditions.map((c) => {
           const desc = conditionDescriptions[c.slug] || {};
           const full = desc.full || desc.description || '';
           const isOpen = openSlug === c.slug;
