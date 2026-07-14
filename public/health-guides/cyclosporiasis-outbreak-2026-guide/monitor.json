@@ -2,7 +2,7 @@
   "$comment": "SINGLE SOURCE OF TRUTH for the 2026 cyclosporiasis outbreak monitor. Updated by scripts/update-cyclosporiasis-monitor via scheduled task, then injected into the guide HTML by scripts/inject-outbreak-monitor.js at build time. Never hand-edit case numbers without a primary-source URL + verifiedDate. All regulatory/surveillance claims must trace to CDC or FDA.",
   "slug": "cyclosporiasis-outbreak-2026-guide",
   "outbreakActive": true,
-  "season": "May 1 – August 31, 2026",
+  "season": "May 1 \u2013 August 31, 2026",
   "lastVerified": "2026-07-14",
   "cdc": {
     "asOf": "2026-07-09",
@@ -13,7 +13,7 @@
     "additionalUnderReview": 1500,
     "travelAssociatedCases": 343,
     "medianAge": 44,
-    "ageRange": "5–88",
+    "ageRange": "5\u201388",
     "percentFemale": 59,
     "medianOnset": "2026-06-18",
     "sourceUrl": "https://www.cdc.gov/cyclosporiasis/php/surveillance/index.html",
@@ -84,9 +84,9 @@
     }
   ],
   "keyClinical": {
-    "incubationDays": "about 7 (range 2–14+)",
+    "incubationDays": "about 7 (range 2\u201314+)",
     "hallmark": "watery, sometimes explosive diarrhea in a remitting-relapsing pattern lasting weeks if untreated",
-    "treatment": "TMP-SMX (Bactrim/Septra) one double-strength tablet twice daily for 7–10 days",
+    "treatment": "TMP-SMX (Bactrim/Septra) one double-strength tablet twice daily for 7\u201310 days",
     "personToPerson": false
   }
 }
