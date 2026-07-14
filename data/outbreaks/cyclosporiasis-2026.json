@@ -1,0 +1,47 @@
+{
+  "$comment": "SINGLE SOURCE OF TRUTH for the 2026 cyclosporiasis outbreak monitor. Updated by scripts/update-cyclosporiasis-monitor via scheduled task, then injected into the guide HTML by scripts/inject-outbreak-monitor.js at build time. Never hand-edit case numbers without a primary-source URL + verifiedDate. All regulatory/surveillance claims must trace to CDC or FDA.",
+  "slug": "cyclosporiasis-outbreak-2026-guide",
+  "outbreakActive": true,
+  "season": "May 1 – August 31, 2026",
+  "lastVerified": "2026-07-14",
+  "cdc": {
+    "asOf": "2026-07-09",
+    "domesticCases": 843,
+    "statesReporting": 31,
+    "hospitalizations": 86,
+    "deaths": 0,
+    "additionalUnderReview": 1500,
+    "travelAssociatedCases": 343,
+    "medianAge": 44,
+    "ageRange": "5–88",
+    "percentFemale": 59,
+    "medianOnset": "2026-06-18",
+    "sourceUrl": "https://www.cdc.gov/cyclosporiasis/php/surveillance/index.html",
+    "sourceName": "CDC Cyclosporiasis Surveillance"
+  },
+  "fda": {
+    "asOf": "2026-07-08",
+    "activeInvestigations": 4,
+    "sourceIdentified": false,
+    "recallIssued": false,
+    "investigations": [
+      { "ref": "1385", "datePosted": "2026-07-08", "product": "Not Yet Identified", "cases": 7, "status": "Ongoing" },
+      { "ref": "1384", "datePosted": "2026-07-08", "product": "Not Yet Identified", "cases": 18, "status": "Ongoing" },
+      { "ref": "1381", "datePosted": "2026-06-17", "product": "Not Yet Identified", "cases": 2, "status": "Ongoing" },
+      { "ref": "1375", "datePosted": "2026-06-03", "product": "Not Yet Identified", "cases": 8, "status": "Ended" }
+    ],
+    "sourceUrl": "https://www.fda.gov/food/outbreaks-foodborne-illness/investigations-foodborne-illness-outbreaks",
+    "sourceName": "FDA CORE Outbreak Investigation Table"
+  },
+  "statesHardestHit": [
+    { "state": "Michigan", "cases": 2640, "asOf": "2026-07-13", "note": "Largest cluster in state history; lettuce/salad greens a recurring product in the state investigation, though no grower or supplier confirmed.", "sourceUrl": "https://www.cnn.com/2026/07/13/health/cyclospora-parasite-diarrhea-outbreak-increase", "sourceName": "CNN" },
+    { "state": "Ohio", "cases": 361, "asOf": "2026-07-13", "note": "Concentrated in northwest Ohio (Lucas County) near the Michigan border.", "sourceUrl": "https://www.cnn.com/2026/07/13/health/cyclospora-parasite-diarrhea-outbreak-increase", "sourceName": "CNN" },
+    { "state": "New York", "cases": 470, "asOf": "2026-07-10", "note": "Includes New York City; second-highest state count.", "sourceUrl": "https://abcnews.com/Health/cyclosporiasis-spreading-cases-confirmed-32-states/story?id=134646334", "sourceName": "ABC News" }
+  ],
+  "keyClinical": {
+    "incubationDays": "about 7 (range 2–14+)",
+    "hallmark": "watery, sometimes explosive diarrhea in a remitting-relapsing pattern lasting weeks if untreated",
+    "treatment": "TMP-SMX (Bactrim/Septra) one double-strength tablet twice daily for 7–10 days",
+    "personToPerson": false
+  }
+}
