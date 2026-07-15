@@ -3,14 +3,14 @@
   "slug": "cyclosporiasis-outbreak-2026-guide",
   "outbreakActive": true,
   "season": "May 1 – August 31, 2026",
-  "lastVerified": "2026-07-14",
+  "lastVerified": "2026-07-15",
   "cdc": {
-    "asOf": "2026-07-09",
-    "domesticCases": 843,
-    "statesReporting": 31,
-    "hospitalizations": 86,
+    "asOf": "2026-07-13",
+    "domesticCases": 1645,
+    "statesReporting": 34,
+    "hospitalizations": 141,
     "deaths": 0,
-    "additionalUnderReview": 1500,
+    "additionalUnderReview": 5100,
     "travelAssociatedCases": 343,
     "medianAge": 44,
     "ageRange": "5–88",
@@ -34,10 +34,12 @@
     "sourceName": "FDA CORE Outbreak Investigation Table"
   },
   "statesHardestHit": [
-    { "state": "Michigan", "cases": 2640, "asOf": "2026-07-13", "note": "Largest cluster in state history; lettuce/salad greens a recurring product in the state investigation, though no grower or supplier confirmed.", "sourceUrl": "https://www.cnn.com/2026/07/13/health/cyclospora-parasite-diarrhea-outbreak-increase", "sourceName": "CNN" },
-    { "state": "Ohio", "cases": 361, "asOf": "2026-07-13", "note": "Concentrated in northwest Ohio (Lucas County) near the Michigan border.", "sourceUrl": "https://www.cnn.com/2026/07/13/health/cyclospora-parasite-diarrhea-outbreak-increase", "sourceName": "CNN" },
-    { "state": "New York", "cases": 470, "asOf": "2026-07-10", "note": "Includes New York City; second-highest state count.", "sourceUrl": "https://abcnews.com/Health/cyclosporiasis-spreading-cases-confirmed-32-states/story?id=134646334", "sourceName": "ABC News" }
+    { "state": "Michigan", "cases": 3309, "asOf": "2026-07-14", "note": "Largest cluster in state history (usual annual total is ~50). After 1,000+ patient interviews, MDHHS says lettuce/salad greens is a likely source, though no grower, brand, or product is confirmed.", "sourceUrl": "https://www.cidrap.umn.edu/cyclospora/what-we-truly-know-about-huge-us-cyclospora-outbreak-and-what-we-don-t", "sourceName": "CIDRAP" },
+    { "state": "New York", "cases": 470, "asOf": "2026-07-10", "note": "Second-highest state count; includes New York City.", "sourceUrl": "https://abcnews.com/Health/cyclosporiasis-spreading-cases-confirmed-32-states/story?id=134646334", "sourceName": "ABC News" },
+    { "state": "Ohio", "cases": 661, "asOf": "2026-07-09", "note": "Part of a CDC-linked 4-state Midwest cluster (Michigan, Ohio, West Virginia, Kentucky).", "sourceUrl": "https://foodpoisoningbulletin.com/2026/how-big-is-the-nationwide-cyclospora-outbreak-a-closer-look/", "sourceName": "Food Poisoning Bulletin" }
   ],
+  "linkedCluster": { "states": ["Michigan", "Ohio", "West Virginia", "Kentucky"], "cases": 400, "asOf": "2026-07-13", "note": "CDC has linked a multistate cluster of 400+ cases across four Midwestern states.", "sourceUrl": "https://www.cdc.gov/cyclosporiasis/outbreaks/07-26/index.html", "sourceName": "CDC" },
+  "likelySource": { "product": "Lettuce / salad greens (per Michigan MDHHS, not federally confirmed)", "confirmed": false },
   "keyClinical": {
     "incubationDays": "about 7 (range 2–14+)",
     "hallmark": "watery, sometimes explosive diarrhea in a remitting-relapsing pattern lasting weeks if untreated",
