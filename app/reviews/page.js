@@ -50,12 +50,11 @@ function Stars({ count = 5 }) {
 }
 
 export const metadata = {
-  title: 'Patient Reviews | TeleDirectMD – 5-Star Rated Telehealth',
+  title: 'Patient Reviews | TeleDirectMD – Rated 4.9+ by Patients',
   description:
-    `Read verified ${AGGREGATE_RATING_VALUE}-star patient reviews of TeleDirectMD. ` +
-    `Board-certified family medicine physician Dr. Parth Bhavsar offers ${PRICE_SHORT} ` +
-    `flat-fee video visits across ${COVERAGE_PHRASE} — ${TOTAL_REVIEW_COUNT} five-star ` +
-    `reviews on Google, Zocdoc, WebMD, and Healthgrades.`,
+    `Read ${TOTAL_REVIEW_COUNT} verified patient reviews of TeleDirectMD — a ${AGGREGATE_RATING_VALUE}★ ` +
+    `average across Google, Zocdoc, WebMD, and Healthgrades. Board-certified family medicine ` +
+    `physician Dr. Parth Bhavsar offers ${PRICE_SHORT} flat-fee video visits across ${COVERAGE_PHRASE}.`,
   robots: {
     index: true,
     follow: true,
@@ -68,18 +67,18 @@ export const metadata = {
     type: 'website',
     siteName: 'TeleDirectMD',
     locale: 'en_US',
-    title: 'Patient Reviews | TeleDirectMD – 5-Star Rated Telehealth',
+    title: 'Patient Reviews | TeleDirectMD – Rated 4.9+ by Patients',
     description:
-      `Verified ${AGGREGATE_RATING_VALUE}-star patient reviews of TeleDirectMD. ${PRICE_SHORT} ` +
-      `flat-fee video visits with Dr. Parth Bhavsar across ${COVERAGE_PHRASE}.`,
+      `${TOTAL_REVIEW_COUNT} verified patient reviews of TeleDirectMD — a ${AGGREGATE_RATING_VALUE}★ average ` +
+      `across Google, Zocdoc, WebMD, and Healthgrades. ${PRICE_SHORT} flat-fee video visits with Dr. Parth Bhavsar.`,
     url: PAGE_URL,
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Patient Reviews | TeleDirectMD – 5-Star Rated Telehealth',
+    title: 'Patient Reviews | TeleDirectMD – Rated 4.9+ by Patients',
     description:
-      `Verified ${AGGREGATE_RATING_VALUE}-star patient reviews of TeleDirectMD. ${PRICE_SHORT} ` +
-      `flat-fee video visits with Dr. Parth Bhavsar across ${COVERAGE_PHRASE}.`,
+      `${TOTAL_REVIEW_COUNT} verified patient reviews of TeleDirectMD — a ${AGGREGATE_RATING_VALUE}★ average ` +
+      `across Google, Zocdoc, WebMD, and Healthgrades. ${PRICE_SHORT} flat-fee video visits with Dr. Parth Bhavsar.`,
   },
   alternates: { canonical: PAGE_URL },
 };
@@ -101,8 +100,9 @@ const jsonLd = {
       url: PAGE_URL,
       name: 'Patient Reviews | TeleDirectMD',
       description:
-        `Verified ${AGGREGATE_RATING_VALUE}-star patient reviews of TeleDirectMD, a physician-led ` +
-        `telehealth practice offering ${PRICE_SHORT} flat-fee video visits across ${COVERAGE_PHRASE}.`,
+        `${TOTAL_REVIEW_COUNT} verified patient reviews of TeleDirectMD (a ${AGGREGATE_RATING_VALUE}★ average ` +
+        `across Google, Zocdoc, WebMD, and Healthgrades), a physician-led telehealth practice offering ` +
+        `${PRICE_SHORT} flat-fee video visits across ${COVERAGE_PHRASE}.`,
       inLanguage: 'en-US',
       breadcrumb: { '@id': `${SITE}/reviews#breadcrumbs` },
       about: { '@id': `${SITE}/#physician` },
@@ -252,7 +252,7 @@ export default function ReviewsPage() {
               <div className="rv-trust-score">
                 <span className="rv-big">{AGGREGATE_RATING_VALUE}</span>
                 <Stars count={5} />
-                <small>{TOTAL_REVIEW_COUNT} verified reviews</small>
+                <small>avg across {TOTAL_REVIEW_COUNT} verified reviews</small>
               </div>
               <div className="rv-platforms">
                 {REVIEW_PLATFORMS.map((p) => (
@@ -322,7 +322,7 @@ export default function ReviewsPage() {
         {/* ── CLOSING CTA ── */}
         <section className="rv-cta" aria-label="Book a visit">
           <div className="rv-cta-inner">
-            <h2>Join thousands of {AGGREGATE_RATING_VALUE}-star visits</h2>
+            <h2>Join thousands of highly rated visits</h2>
             <p>See Dr. Bhavsar by secure video today. Flat {PRICE_SHORT}, no insurance required.</p>
             <a href={BOOK_URL} className="rv-cta-btn">Book a {PRICE_SHORT} Visit</a>
           </div>
