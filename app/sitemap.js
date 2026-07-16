@@ -21,6 +21,7 @@ const STATIC_ROUTES = [
   { path: '/faq', priority: 0.7, changefreq: 'monthly' },
   { path: '/media-mentions', priority: 0.6, changefreq: 'monthly' },
   { path: '/about', priority: 0.6, changefreq: 'monthly' },
+  { path: '/reviews', priority: 0.7, changefreq: 'weekly' },
   // 2026-05-23: Employer + Broker pages
   { path: '/employers', priority: 0.9, changefreq: 'weekly' },
   { path: '/employers/brokers', priority: 0.8, changefreq: 'weekly' },
