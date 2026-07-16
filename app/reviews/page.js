@@ -54,7 +54,7 @@ export const metadata = {
   description:
     `Read ${TOTAL_REVIEW_COUNT} verified patient reviews of TeleDirectMD — a ${AGGREGATE_RATING_VALUE}★ ` +
     `average across Google, Zocdoc, WebMD, and Healthgrades. Board-certified family medicine ` +
-    `physician Dr. Parth Bhavsar offers ${PRICE_SHORT} flat-fee video visits across ${COVERAGE_PHRASE}.`,
+    `physician Dr. Parth Bhavsar offers ${PRICE_SHORT} flat-fee video visits across ${COVERAGE_PHRASE}`,
   robots: {
     index: true,
     follow: true,
@@ -102,7 +102,7 @@ const jsonLd = {
       description:
         `${TOTAL_REVIEW_COUNT} verified patient reviews of TeleDirectMD (a ${AGGREGATE_RATING_VALUE}★ average ` +
         `across Google, Zocdoc, WebMD, and Healthgrades), a physician-led telehealth practice offering ` +
-        `${PRICE_SHORT} flat-fee video visits across ${COVERAGE_PHRASE}.`,
+        `${PRICE_SHORT} flat-fee video visits across ${COVERAGE_PHRASE}`,
       inLanguage: 'en-US',
       breadcrumb: { '@id': `${SITE}/reviews#breadcrumbs` },
       about: { '@id': `${SITE}/#physician` },
