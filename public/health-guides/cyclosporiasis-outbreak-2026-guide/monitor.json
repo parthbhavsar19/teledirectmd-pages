@@ -3,7 +3,17 @@
   "slug": "cyclosporiasis-outbreak-2026-guide",
   "outbreakActive": true,
   "season": "May 1 – August 31, 2026",
-  "lastVerified": "2026-07-15",
+  "lastVerified": "2026-07-17",
+  "sourceIdentified": {
+    "product": "Shredded iceberg lettuce from Mexico served at Taco Bell locations in Indiana, Kentucky, Michigan, Ohio, and West Virginia",
+    "confirmedBy": "FDA & CDC (advisory July 15–16, 2026)",
+    "clusterCases": 1644,
+    "clusterHospitalizations": 94,
+    "supplierNote": "FDA traced it to a single lettuce supplier in Mexico but has not publicly named the company; news outlets (Washington Post, CNN, Fox Business) report it as Taylor Farms, citing sources familiar with the investigation — not federally confirmed.",
+    "scopeNote": "This 5-state Taco Bell cluster is a subset of the larger nationwide outbreak; other brands, retailers, or products may still be identified.",
+    "sourceUrl": "https://www.fda.gov/food/outbreaks-foodborne-illness/investigation-5-state-outbreak-cyclospora-illnesses-iceberg-lettuce-july-2026",
+    "sourceName": "FDA Outbreak Advisory"
+  },
   "cdc": {
     "asOf": "2026-07-13",
     "domesticCases": 1645,
@@ -20,16 +30,23 @@
     "sourceName": "CDC Cyclosporiasis Surveillance"
   },
   "fda": {
-    "asOf": "2026-07-08",
-    "activeInvestigations": 4,
-    "sourceIdentified": false,
-    "recallIssued": false,
+    "asOf": "2026-07-16",
+    "activeInvestigations": 5,
+    "sourceIdentified": true,
+    "recallIssued": true,
     "investigations": [
+      {
+        "ref": "1390",
+        "datePosted": "2026-07-15",
+        "product": "Shredded iceberg lettuce (Taco Bell, 5 states)",
+        "cases": 1644,
+        "status": "Active — advisory issued"
+      },
       {
         "ref": "1385",
         "datePosted": "2026-07-08",
         "product": "Not Yet Identified",
-        "cases": 7,
+        "cases": 8,
         "status": "Ongoing"
       },
       {
