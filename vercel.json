@@ -5,6 +5,13 @@
   "trailingSlash": true,
   "routes": [
     {
+      "src": "/health-guides/anti-aging-treatment-guide/?",
+      "headers": {
+        "Location": "/health-guides/tretinoin-guide/"
+      },
+      "status": 301
+    },
+    {
       "src": "/verify/?",
       "dest": "https://teledirectmd-verify.vercel.app/"
     },
@@ -934,7 +941,7 @@
     {
       "src": "/health-guides/anti-aging-topical-retinoids-guide/?",
       "headers": {
-        "Location": "/health-guides/anti-aging-treatment-guide/"
+        "Location": "/health-guides/tretinoin-guide/"
       },
       "status": 301
     },
