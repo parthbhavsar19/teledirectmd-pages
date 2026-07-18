@@ -6,7 +6,7 @@ import { AETNA_CA_CONDITION_DETAILS } from '../data/insurance/aetna-ca-condition
 import { isRetiredInsuranceUrl } from '../data/insurance/retired-urls';
 import { COST_PAGE_SLUGS } from '../lib/cost-pages-config';
 import { COMPARE_PAGE_SLUGS } from '../lib/compare-pages-config';
-import { SYMPTOM_PAGE_SLUGS } from '../lib/symptom-pages-config';
+// SYMPTOM_PAGE_SLUGS import removed 2026-07-18 — standalone /symptoms/* URLs retired.
 import { USE_CASE_PAGE_SLUGS } from '../lib/use-case-pages-config';
 
 const SITE = 'https://teledirectmd.com';
@@ -37,7 +37,7 @@ const STATIC_ROUTES = [
   // (each was previously HTTP 404 while child pages declared them as parents
   // in BreadcrumbList JSON-LD). See /home/user/workspace/insurance_cleanup for
   // related Q1 2026 deindex audit context.
-  { path: '/symptoms', priority: 0.85, changefreq: 'weekly' },
+  // 2026-07-18: /symptoms hub removed — entire cluster retired, 301s in vercel.json
   { path: '/compare', priority: 0.85, changefreq: 'weekly' },
   { path: '/cost', priority: 0.85, changefreq: 'weekly' },
   { path: '/faq/deep-dive', priority: 0.75, changefreq: 'monthly' },
@@ -205,26 +205,9 @@ export default function sitemap() {
     urls.push(url(`/compare/${slug}/`, 0.8, 'monthly'));
   }
 
-  // 11) Symptom-led landing pages (/symptoms/{slug}/)
-  // 2026-05-23 PRUNE: this list is now the canonical sitemap source for symptom
-  // URLs. Do NOT use SYMPTOM_PAGE_SLUGS (which still contains the 9 cannibalizing
-  // slugs + the 3 renamed-from slugs, all of which now 301 via vercel.json).
-  const SYMPTOM_SITEMAP_SLUGS = [
-    'acid-reflux',
-    'acne-breakout',
-    'allergy-symptoms',
-    'bronchitis',
-    'burning-urination',
-    'ear-pain',
-    'migraine',
-    'persistent-cough',
-    'sinus-pressure',
-    'skin-rash',
-    'sore-throat',
-  ];
-  for (const slug of SYMPTOM_SITEMAP_SLUGS) {
-    urls.push(url(`/symptoms/${slug}/`, 0.75, 'monthly'));
-  }
+  // 11) Symptom-led landing pages — REMOVED 2026-07-18
+  // Entire /symptoms/* cluster retired. All slugs now 301 via vercel.json to
+  // the winning sibling (mostly /cost/* and /health-guides/*).
 
   // 12) Use-case landing pages (/use-case/{slug}/)
   for (const slug of USE_CASE_PAGE_SLUGS) {

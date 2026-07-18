@@ -110,11 +110,6 @@ const COST_CATALOG = [
     desc: 'Viral vs. strep evaluation and treatment — $79 at TeleDirectMD vs. $150\u2013$200 at urgent care.',
   },
   {
-    slug: 'strep-throat-cost',
-    name: 'Strep Throat Cost',
-    desc: 'Amoxicillin or azithromycin for strep throat — prescription sent same day for $79 flat.',
-  },
-  {
     slug: 'uti-treatment-cost',
     name: 'UTI Treatment Cost',
     desc: 'Uncomplicated UTI antibiotics online — $79 for the visit. Full sourced comparison to urgent care, retail clinic, and ER.',

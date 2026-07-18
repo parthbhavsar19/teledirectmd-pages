@@ -9,6 +9,7 @@ import { COMPARE_PAGES } from '../../../lib/compare-pages-config';
 import { AGGREGATE_RATING_VALUE, TOTAL_REVIEW_COUNT } from '../../../lib/review-schema';
 import { buildCostCompareJsonLd, buildCostComparisonAggregateOffer } from '../../../lib/cost-compare-schema';
 import { SYMPTOM_PAGES } from '../../../lib/symptom-pages-config';
+import { SYMPTOM_SLUG_TO_DESTINATION } from '../../../lib/internal-links';
 import { getPayerFamilyStateCount } from '../../../lib/insurance-data';
 
 // Map cost-page slug → symptom-page slugs that surface this cost guide.
@@ -612,7 +613,9 @@ export default async function CostPage({ params }) {
         </div>
       </section>
 
-      {/* 22b) Symptom guides that lead here — back-links to /symptoms/* */}
+      {/* 22b) Symptom guides that lead here — back-links to final destinations.
+          2026-07-18: standalone /symptoms/* URLs retired; each chip now links
+          directly to the post-301 target (see SYMPTOM_SLUG_TO_DESTINATION). */}
       {(COST_PAGE_TO_SYMPTOMS[slug] || []).length > 0 && (
         <section className="tdmd-section" id={`${pid}-symptom-back-links`}>
           <div className="tdmd-container" data-speakable="true">
@@ -621,9 +624,10 @@ export default async function CostPage({ params }) {
             <div className="tdmd-related-grid">
               {(COST_PAGE_TO_SYMPTOMS[slug] || []).map((s) => {
                 const r = SYMPTOM_PAGES[s];
-                if (!r) return null;
+                const dest = SYMPTOM_SLUG_TO_DESTINATION[s];
+                if (!r || !dest) return null;
                 return (
-                  <a key={s} href={`/symptoms/${s}/`} className="tdmd-related-card">
+                  <a key={s} href={dest} className="tdmd-related-card">
                     <span className="tdmd-related-title">{r.breadcrumb}</span>
                     <span className="tdmd-related-desc">"{r.query}"</span>
                   </a>
