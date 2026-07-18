@@ -12,7 +12,7 @@ export default function NoticeOfPrivacyPractices() {
   return (
     <div style={{ maxWidth: 800, margin: '0 auto', padding: '40px 24px 80px' }}>
       <h1 style={{ fontSize: '2rem', fontWeight: 700, color: '#1a1a1a', marginBottom: 8 }}>Notice of Privacy Practices</h1>
-      <p style={{ color: '#666', fontSize: '0.95rem', marginBottom: 8 }}>Effective date: February 14, 2026</p>
+      <p style={{ color: '#666', fontSize: '0.95rem', marginBottom: 8 }}>Effective date: July 18, 2026</p>
       <p style={{ fontWeight: 700, fontSize: '0.92rem', textTransform: 'uppercase', letterSpacing: '0.04em', color: '#1a1a1a', margin: '16px 0 24px' }}>
         This notice describes how medical information about you may be used and disclosed and how you can get access to this information. Please review it carefully.
       </p>
@@ -67,6 +67,7 @@ export default function NoticeOfPrivacyPractices() {
         <p><strong>Electronic health records.</strong> Your medical records are maintained in a HIPAA-compliant electronic health record (EHR) system with role-based access controls, audit logging, and encryption at rest and in transit.</p>
         <p><strong>Electronic prescribing.</strong> Prescriptions are transmitted electronically to your chosen pharmacy using HIPAA-compliant e-prescribing systems.</p>
         <p><strong>Insurance claims transmission.</strong> If we submit claims to your health plan on your behalf, that information is transmitted through secure, HIPAA-compliant electronic data interchange (EDI) channels.</p>
+        <p><strong>AI-assisted clinical documentation.</strong> As part of our health care operations, TeleDirectMD uses an AI-assisted medical scribe built into our electronic health record system (Elation Health) to help your physician document your visit accurately. During your visit, the AI may process the audio of the conversation to generate a draft clinical note. Your physician reviews and edits every note before it is finalized in your medical record. The AI does not make medical decisions and does not replace physician judgment. All audio, transcripts, and drafts are handled as PHI under HIPAA and are covered by our Business Associate Agreement with Elation Health. You may ask your physician to disable the AI scribe at any time during your visit; this will not affect the care you receive.</p>
         <p><strong>Your responsibility.</strong> When participating in a telehealth visit, we recommend you join from a private location where others cannot overhear your conversation, and connect over a secure internet connection. We cannot guarantee the security of information on your end of the communication.</p>
 
         <h2 style={s.h2}>Changes to This Notice</h2>
