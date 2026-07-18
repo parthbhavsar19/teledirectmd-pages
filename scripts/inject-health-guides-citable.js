@@ -24,7 +24,7 @@ const GUIDES_DIR = path.join(__dirname, '..', 'public', 'health-guides');
 const DATA_PATH = path.join(__dirname, '..', 'data', 'health-guides-citable.json');
 const NPI = '1104323203';
 const DOCTOR = 'Parth Bhavsar, MD';
-const TODAY = '2026-05-19';
+const TODAY = '2026-07-18';
 
 const MARKER_START = '<!-- tdmd:citable-summary-start -->';
 const MARKER_END = '<!-- tdmd:citable-summary-end -->';
