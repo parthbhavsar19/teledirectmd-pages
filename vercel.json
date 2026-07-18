@@ -4130,6 +4130,97 @@
         "X-Frame-Options": "SAMEORIGIN",
         "Referrer-Policy": "strict-origin-when-cross-origin"
       }
+    },
+    {
+      "src": "/symptoms/?",
+      "headers": {
+        "Location": "/what-we-treat/"
+      },
+      "status": 301
+    },
+    {
+      "src": "/symptoms/acid-reflux/?",
+      "headers": {
+        "Location": "/health-guides/acid-reflux-gerd-guide/"
+      },
+      "status": 301
+    },
+    {
+      "src": "/symptoms/acne-breakout/?",
+      "headers": {
+        "Location": "/cost/acne-treatment-cost/"
+      },
+      "status": 301
+    },
+    {
+      "src": "/symptoms/allergy-symptoms/?",
+      "headers": {
+        "Location": "/health-guides/seasonal-allergy-guidelines-2026/"
+      },
+      "status": 301
+    },
+    {
+      "src": "/symptoms/bronchitis/?",
+      "headers": {
+        "Location": "/health-guides/complete-telehealth-conditions-guide/"
+      },
+      "status": 301
+    },
+    {
+      "src": "/symptoms/burning-urination/?",
+      "headers": {
+        "Location": "/uti-treatment-online/"
+      },
+      "status": 301
+    },
+    {
+      "src": "/symptoms/ear-pain/?",
+      "headers": {
+        "Location": "/cost/ear-infection-cost/"
+      },
+      "status": 301
+    },
+    {
+      "src": "/symptoms/migraine/?",
+      "headers": {
+        "Location": "/cost/migraine-treatment-cost/"
+      },
+      "status": 301
+    },
+    {
+      "src": "/symptoms/persistent-cough/?",
+      "headers": {
+        "Location": "/what-we-treat/"
+      },
+      "status": 301
+    },
+    {
+      "src": "/symptoms/sinus-pressure/?",
+      "headers": {
+        "Location": "/cost/sinus-infection-treatment-cost/"
+      },
+      "status": 301
+    },
+    {
+      "src": "/symptoms/skin-rash/?",
+      "headers": {
+        "Location": "/what-we-treat/"
+      },
+      "status": 301
+    },
+    {
+      "src": "/symptoms/sore-throat/?",
+      "headers": {
+        "Location": "/cost/sore-throat-treatment-cost/"
+      },
+      "status": 301
+    },
+    {
+      "src": "/cost/strep-throat-cost/?",
+      "headers": {
+        "Location": "/cost/sore-throat-treatment-cost/"
+      },
+      "status": 301
     }
   ]
 }
