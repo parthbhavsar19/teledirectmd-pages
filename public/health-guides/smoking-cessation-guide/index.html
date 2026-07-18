@@ -35,238 +35,104 @@
 <!-- JSON-LD Structured Data -->
 <script type="application/ld+json">
 {
- "@context": "https://schema.org",
- "@graph": [
+ "@context": "https://schema.org", "@graph": [
  {
- "@type": "WebSite",
- "@id": "https://teledirectmd.com/#website",
- "url": "https://teledirectmd.com",
- "name": "TeleDirectMD",
- "publisher": { "@id": "https://teledirectmd.com/#organization" }
- },
+ "@type": "WebSite", "@id": "https://teledirectmd.com/#website", "url": "https://teledirectmd.com", "name": "TeleDirectMD", "publisher": { "@id": "https://teledirectmd.com/#organization" }
+ }, {
+ "@type": "BreadcrumbList", "@id": "https://teledirectmd.com/health-guides/smoking-cessation-guide#breadcrumb", "itemListElement": [
  {
- "@type": "BreadcrumbList",
- "@id": "https://teledirectmd.com/health-guides/smoking-cessation-guide#breadcrumb",
- "itemListElement": [
- {
- "@type": "ListItem",
- "position": 1,
- "name": "Home",
- "item": "https://teledirectmd.com"
- },
- {
- "@type": "ListItem",
- "position": 2,
- "name": "Health Guides",
- "item": "https://teledirectmd.com/health-guides"
- },
- {
- "@type": "ListItem",
- "position": 3,
- "name": "Smoking Cessation",
- "item": "https://teledirectmd.com/health-guides/smoking-cessation-guide"
+ "@type": "ListItem", "position": 1, "name": "Home", "item": "https://teledirectmd.com"
+ }, {
+ "@type": "ListItem", "position": 2, "name": "Health Guides", "item": "https://teledirectmd.com/health-guides"
+ }, {
+ "@type": "ListItem", "position": 3, "name": "Smoking Cessation", "item": "https://teledirectmd.com/health-guides/smoking-cessation-guide"
  }
  ]
- },
- {
- "@type": "Organization","editorialPolicy":"https://teledirectmd.com/health-guides/editorial-standards/#editorial-standards","correctionsPolicy":"https://teledirectmd.com/health-guides/editorial-standards/#corrections","verificationFactCheckingPolicy":"https://teledirectmd.com/health-guides/editorial-standards/#methodology","ownershipFundingInfo":"https://teledirectmd.com/health-guides/editorial-standards/#funding-conflicts","publishingPrinciples":"https://teledirectmd.com/health-guides/editorial-standards/",
- "@id": "https://teledirectmd.com/#organization",
- "name": "TeleDirectMD",
- "url": "https://teledirectmd.com",
- "logo": {
- "@type": "ImageObject",
- "url": "https://teledirectmd.com/logo.webp"
- },
- "contactPoint": {
- "@type": "ContactPoint",
- "telephone": "+1-678-956-1855",
- "contactType": "customer service",
- "email": "contact@teledirectmd.com"
+ }, {
+ "@type": "Organization","editorialPolicy":"https://teledirectmd.com/health-guides/editorial-standards/#editorial-standards","correctionsPolicy":"https://teledirectmd.com/health-guides/editorial-standards/#corrections","verificationFactCheckingPolicy":"https://teledirectmd.com/health-guides/editorial-standards/#methodology","ownershipFundingInfo":"https://teledirectmd.com/health-guides/editorial-standards/#funding-conflicts","publishingPrinciples":"https://teledirectmd.com/health-guides/editorial-standards/", "@id": "https://teledirectmd.com/#organization", "name": "TeleDirectMD", "url": "https://teledirectmd.com", "logo": {
+ "@type": "ImageObject", "url": "https://teledirectmd.com/logo.webp"
+ }, "contactPoint": {
+ "@type": "ContactPoint", "telephone": "+1-678-956-1855", "contactType": "customer service", "email": "contact@teledirectmd.com"
  }
- },
- {
- "@type": "Person",
- "@id": "https://teledirectmd.com/about#physician",
- "name": "Parth Bhavsar, MD",
- "jobTitle": "Board-Certified Family Medicine Physician",
- "url": "https://teledirectmd.com/health-guides/about-the-editor/",
- "affiliation": { "@id": "https://teledirectmd.com/#organization" },
- "sameAs": [
- "https://www.doximity.com/pub/parth-bhavsar-md",
- "https://teledirectmd.com/about",
- "https://www.linkedin.com/in/parthbhavsar"
+ }, {
+ "@type": "Person", "@id": "https://teledirectmd.com/about#physician", "name": "Parth Bhavsar, MD", "jobTitle": "Board-Certified Family Medicine Physician", "url": "https://teledirectmd.com/health-guides/about-the-editor/", "affiliation": { "@id": "https://teledirectmd.com/#organization" }, "sameAs": [
+ "https://www.doximity.com/pub/parth-bhavsar-md", "https://teledirectmd.com/about", "https://www.linkedin.com/in/parthbhavsar"
  ]
- },
- {
- "@type": "MedicalWebPage",
- "@id": "https://teledirectmd.com/health-guides/smoking-cessation-guide#webpage",
- "url": "https://teledirectmd.com/health-guides/smoking-cessation-guide",
- "name": "Smoking Cessation",
- "lastReviewed": "2026-07-18",
- "reviewedBy": { "@id": "https://teledirectmd.com/about#physician" },
- "medicalAudience": {
- "@type": "MedicalAudience",
- "audienceType": "Patient"
- },
- "datePublished": "2026-01-15",
- "dateModified": "2026-07-18",
- "isPartOf": { "@id": "https://teledirectmd.com/#website" },
- "breadcrumb": { "@id": "https://teledirectmd.com/health-guides/smoking-cessation-guide#breadcrumb" },
- "speakable": {
- "@type": "SpeakableSpecification",
- "cssSelector": [".tdmd-article-title", ".tdmd-faq-question"]
- },
- "citation": ["https://www.uspreventiveservicestaskforce.org/uspstf/document/final-evidence-summary/tobacco-use-in-adults-and-pregnant-women-counseling-and-interventions", "https://www.vqi.org/wp-content/uploads/Treatment-of-SC-review-by-Rigotti.pdf", "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(16)30272-0/fulltext", "https://www.fda.gov/drugs/drug-safety-and-availability/fda-drug-safety-communication-safety-review-update-chantix-varenicline-and-risk-neuropsychiatric", "https://www.cochrane.org/evidence/CD013308_what-best-way-use-nicotine-replacement-therapy-quit-smoking", "https://www.nejm.org/doi/full/10.1056/NEJMoa1808779", "https://www.bmj.com/content/338/bmj.b1024", "https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2832701", "https://pmc.ncbi.nlm.nih.gov/articles/PMC12887925/", "https://www.cdc.gov/tobacco/hcp/patient-care/quitlines-and-other-resources.html", "https://www.aafp.org/pubs/afp/issues/2007/0301/p650.html", "https://onlinelibrary.wiley.com/doi/abs/10.1111/jebm.12570", "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(11)60701-0/fulltext", "https://pubmed.ncbi.nlm.nih.gov/39659160/"]
- },
- {
- "@type": "Article",
- "@id": "https://teledirectmd.com/health-guides/smoking-cessation-guide#article",
- "headline": "Smoking Cessation",
- "datePublished": "2026-01-15",
- "dateModified": "2026-07-18",
- "author": { "@id": "https://teledirectmd.com/about#physician" },
- "publisher": { "@id": "https://teledirectmd.com/#organization" },
- "image": "https://teledirectmd.com/health-guides/smoking-cessation-guide/images/hero-smoking-cessation-guide.png",
- "mainEntityOfPage": { "@id": "https://teledirectmd.com/health-guides/smoking-cessation-guide#webpage" },
- "articleSection": "Health Guides",
- "wordCount": 6140
- },
- {
- "@type": "FAQPage",
- "@id": "https://teledirectmd.com/health-guides/smoking-cessation-guide#faq",
- "mainEntity": [
+ }, {
+ "@type": "MedicalWebPage", "@id": "https://teledirectmd.com/health-guides/smoking-cessation-guide#webpage", "url": "https://teledirectmd.com/health-guides/smoking-cessation-guide", "name": "Smoking Cessation", "lastReviewed": "2026-07-18", "reviewedBy": { "@id": "https://teledirectmd.com/about#physician" }, "medicalAudience": {
+ "@type": "MedicalAudience", "audienceType": "Patient"
+ }, "datePublished": "2026-01-15", "dateModified": "2026-07-18", "isPartOf": { "@id": "https://teledirectmd.com/#website" }, "breadcrumb": { "@id": "https://teledirectmd.com/health-guides/smoking-cessation-guide#breadcrumb" }, "speakable": {
+ "@type": "SpeakableSpecification", "cssSelector": [".tdmd-article-title", ".tdmd-faq-question"]
+ }, "citation": ["https://www.uspreventiveservicestaskforce.org/uspstf/document/final-evidence-summary/tobacco-use-in-adults-and-pregnant-women-counseling-and-interventions", "https://www.vqi.org/wp-content/uploads/Treatment-of-SC-review-by-Rigotti.pdf", "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(16)30272-0/fulltext", "https://www.fda.gov/drugs/drug-safety-and-availability/fda-drug-safety-communication-safety-review-update-chantix-varenicline-and-risk-neuropsychiatric", "https://www.cochrane.org/evidence/CD013308_what-best-way-use-nicotine-replacement-therapy-quit-smoking", "https://www.nejm.org/doi/full/10.1056/NEJMoa1808779", "https://www.bmj.com/content/338/bmj.b1024", "https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2832701", "https://pmc.ncbi.nlm.nih.gov/articles/PMC12887925/", "https://www.cdc.gov/tobacco/hcp/patient-care/quitlines-and-other-resources.html", "https://www.aafp.org/pubs/afp/issues/2007/0301/p650.html", "https://onlinelibrary.wiley.com/doi/abs/10.1111/jebm.12570", "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(11)60701-0/fulltext", "https://pubmed.ncbi.nlm.nih.gov/39659160/"]
+ }, {
+ "@type": "Article", "@id": "https://teledirectmd.com/health-guides/smoking-cessation-guide#article", "headline": "Smoking Cessation", "datePublished": "2026-01-15", "dateModified": "2026-07-18", "author": { "@id": "https://teledirectmd.com/about#physician" }, "publisher": { "@id": "https://teledirectmd.com/#organization" }, "image": "https://teledirectmd.com/health-guides/smoking-cessation-guide/images/hero-smoking-cessation-guide.png", "mainEntityOfPage": { "@id": "https://teledirectmd.com/health-guides/smoking-cessation-guide#webpage" }, "articleSection": "Health Guides", "wordCount": 6140
+ }, {
+ "@type": "FAQPage", "@id": "https://teledirectmd.com/health-guides/smoking-cessation-guide#faq", "mainEntity": [
   {
-   "@type": "Question",
-   "name": "How long does it take to actually quit smoking?",
-   "acceptedAnswer": {
-    "@type": "Answer",
-    "text": "The pharmacologic withdrawal peaks in the first 3 days and largely resolves within 2 to 4 weeks. However, conditioned cravings — the urges triggered by specific cues (coffee, alcohol, stress, specific places) — can persist for months to years, and are why many patients relapse well after acute withdrawal is over. The full 12-week medication course is designed to cover the highest-risk period. Long-term abstinence usually solidifies at the 6- to 12-month mark."
+   "@type": "Question", "name": "How long does it take to actually quit smoking?", "acceptedAnswer": {
+    "@type": "Answer", "text": "The pharmacologic withdrawal peaks in the first 3 days and largely resolves within 2 to 4 weeks. However, conditioned cravings, the urges triggered by specific cues (coffee, alcohol, stress, specific places), can persist for months to years, and are why many patients relapse well after acute withdrawal is over. The full 12-week medication course is designed to cover the highest-risk period. Long-term abstinence usually solidifies at the 6- to 12-month mark."
    }
-  },
-  {
-   "@type": "Question",
-   "name": "Which medication is the most effective for smoking cessation?",
-   "acceptedAnswer": {
-    "@type": "Answer",
-    "text": "In head-to-head trials, varenicline produces the highest single-agent quit rates (21.8 percent at 6 months in EAGLES). Combination NRT (patch plus a fast-acting form) is a close second and is available over the counter. Bupropion and single-form NRT are comparable to each other and less effective than varenicline. The best medication is the one you will actually take for the full course."
+  }, {
+   "@type": "Question", "name": "Which medication is the most effective for smoking cessation?", "acceptedAnswer": {
+    "@type": "Answer", "text": "In head-to-head trials, varenicline produces the highest single-agent quit rates (21.8 percent at 6 months in EAGLES). Combination NRT (patch plus a fast-acting form) is a close second and is available over the counter. Bupropion and single-form NRT are comparable to each other and less effective than varenicline. The best medication is the one you will actually take for the full course."
    }
-  },
-  {
-   "@type": "Question",
-   "name": "Is varenicline (Chantix) safe if I have depression or anxiety?",
-   "acceptedAnswer": {
-    "@type": "Answer",
-    "text": "Yes. The EAGLES trial enrolled 4,116 patients with stable psychiatric illness and found no increase in serious neuropsychiatric adverse events with varenicline versus placebo. The FDA removed the boxed warning for varenicline in December 2016 based on this data. Patients should still be monitored for mood changes during a quit attempt because nicotine withdrawal itself can worsen mood, but the medication is no longer considered high-risk in this population."
+  }, {
+   "@type": "Question", "name": "Is varenicline (Chantix) safe if I have depression or anxiety?", "acceptedAnswer": {
+    "@type": "Answer", "text": "Yes. The EAGLES trial enrolled 4,116 patients with stable psychiatric illness and found no increase in serious neuropsychiatric adverse events with varenicline versus placebo. The FDA removed the boxed warning for varenicline in December 2016 based on this data. Patients should still be monitored for mood changes during a quit attempt because nicotine withdrawal itself can worsen mood, but the medication is no longer considered high-risk in this population."
    }
-  },
-  {
-   "@type": "Question",
-   "name": "Do I need to pick a specific quit date, or can I just cut down over time?",
-   "acceptedAnswer": {
-    "@type": "Answer",
-    "text": "Both approaches work. The traditional approach — set a quit date 1 to 2 weeks in advance, start medication before that date, and stop smoking abruptly — has the strongest evidence base. However, reduce to quit using NRT is a valid alternative and doubles eventual quit rates versus placebo (RR 2.06). Pick the approach that matches your readiness — an ambivalent smoker who starts with reduction is likely to progress faster than one who is asked to commit to an abrupt quit before they are ready."
+  }, {
+   "@type": "Question", "name": "Do I need to pick a specific quit date, or can I just cut down over time?", "acceptedAnswer": {
+    "@type": "Answer", "text": "Both approaches work. The traditional approach, set a quit date 1 to 2 weeks in advance, start medication before that date, and stop smoking abruptly, has the strongest evidence base. However, reduce to quit using NRT is a valid alternative and doubles eventual quit rates versus placebo (RR 2.06). Pick the approach that matches your readiness, an ambivalent smoker who starts with reduction is likely to progress faster than one who is asked to commit to an abrupt quit before they are ready."
    }
-  },
-  {
-   "@type": "Question",
-   "name": "How much does smoking cessation medication cost in 2026?",
-   "acceptedAnswer": {
-    "@type": "Answer",
-    "text": "Generic varenicline: approximately $70 to $130 for a 12-week course at major U.S. pharmacies with common discount cards or coupons. Generic bupropion SR: $30 to $60 for a 12-week course. OTC combination NRT: $150 to $250 for 8 to 12 weeks (patch plus lozenge or gum). Many insurance plans, Medicaid, and Medicare cover cessation medications with minimal copay. State quitlines often provide free NRT starter kits."
+  }, {
+   "@type": "Question", "name": "How much does smoking cessation medication cost in 2026?", "acceptedAnswer": {
+    "@type": "Answer", "text": "Generic varenicline: approximately $70 to $130 for a 12-week course at major U.S. pharmacies with common discount cards or coupons. Generic bupropion SR: $30 to $60 for a 12-week course. OTC combination NRT: $150 to $250 for 8 to 12 weeks (patch plus lozenge or gum). Many insurance plans, Medicaid, and Medicare cover cessation medications with minimal copay. State quitlines often provide free NRT starter kits."
    }
-  },
-  {
-   "@type": "Question",
-   "name": "Are e-cigarettes a good way to quit smoking?",
-   "acceptedAnswer": {
-    "@type": "Answer",
-    "text": "Not first-line. E-cigarettes may be more effective than NRT in some populations (Hajek NEJM 2019, 18.0 percent vs 9.9 percent), but long-term safety is not established, they are not FDA-approved for cessation, and USPSTF has not endorsed them. For a smoker who has failed multiple courses of FDA-approved therapy, a full switch to e-cigarettes followed by tapering off is a defensible harm-reduction strategy. Dual use — continuing combustible cigarettes alongside e-cigarettes — should be actively avoided."
+  }, {
+   "@type": "Question", "name": "Are e-cigarettes a good way to quit smoking?", "acceptedAnswer": {
+    "@type": "Answer", "text": "Not first-line. E-cigarettes may be more effective than NRT in some populations (Hajek NEJM 2019, 18.0 percent vs 9.9 percent), but long-term safety is not established, they are not FDA-approved for cessation, and USPSTF has not endorsed them. For a smoker who has failed multiple courses of FDA-approved therapy, a full switch to e-cigarettes followed by tapering off is a defensible harm-reduction strategy. Dual use, continuing combustible cigarettes alongside e-cigarettes, should be actively avoided."
    }
-  },
-  {
-   "@type": "Question",
-   "name": "Will I gain weight if I quit smoking?",
-   "acceptedAnswer": {
-    "@type": "Answer",
-    "text": "Most people gain 4 to 10 pounds in the first year after quitting. This is real, but the cardiovascular and cancer-risk reductions from quitting vastly outweigh the health impact of modest weight gain. Increased physical activity, mindful eating, and (when appropriate) concurrent medical weight management can minimize gain. Bupropion and NRT may modestly delay post-quit weight gain; varenicline has minimal effect."
+  }, {
+   "@type": "Question", "name": "Will I gain weight if I quit smoking?", "acceptedAnswer": {
+    "@type": "Answer", "text": "Most people gain 4 to 10 pounds in the first year after quitting. This is real, but the cardiovascular and cancer-risk reductions from quitting vastly outweigh the health impact of modest weight gain. Increased physical activity, mindful eating, and (when appropriate) concurrent medical weight management can minimize gain. Bupropion and NRT may modestly delay post-quit weight gain; varenicline has minimal effect."
    }
-  },
-  {
-   "@type": "Question",
-   "name": "How long should I stay on smoking cessation medication?",
-   "acceptedAnswer": {
-    "@type": "Answer",
-    "text": "Standard courses: 12 weeks for varenicline and bupropion, 8 to 12 weeks for NRT. Longer courses (up to 24 weeks) reduce relapse in some patients and are considered safe. Do not stop medication early because you feel confident — stopping early is the single strongest predictor of relapse. If you have quit successfully at 12 weeks, discuss extending medication for an additional 12 weeks with your clinician."
+  }, {
+   "@type": "Question", "name": "How long should I stay on smoking cessation medication?", "acceptedAnswer": {
+    "@type": "Answer", "text": "Standard courses: 12 weeks for varenicline and bupropion, 8 to 12 weeks for NRT. Longer courses (up to 24 weeks) reduce relapse in some patients and are considered safe. Do not stop medication early because you feel confident, stopping early is the single strongest predictor of relapse. If you have quit successfully at 12 weeks, discuss extending medication for an additional 12 weeks with your clinician."
    }
-  },
-  {
-   "@type": "Question",
-   "name": "Can I get smoking cessation medication through a telehealth visit?",
-   "acceptedAnswer": {
-    "@type": "Answer",
-    "text": "Yes. Varenicline, bupropion, and prescription-strength NRT (inhaler, nasal spray) are non-controlled substances and can be prescribed after a synchronous telehealth visit in all 50 U.S. states, subject to standard telehealth licensure requirements. No in-person visit is required for a straightforward quit attempt."
+  }, {
+   "@type": "Question", "name": "Can I get smoking cessation medication through a telehealth visit?", "acceptedAnswer": {
+    "@type": "Answer", "text": "Yes. Varenicline, bupropion, and prescription-strength NRT (inhaler, nasal spray) are non-controlled substances and can be prescribed after a synchronous telehealth visit in all 50 U.S. states, subject to standard telehealth licensure requirements. No in-person visit is required for a straightforward quit attempt."
    }
-  },
-  {
-   "@type": "Question",
-   "name": "What if I've already tried to quit and it didn't work?",
-   "acceptedAnswer": {
-    "@type": "Answer",
-    "text": "You are the norm, not the exception. Median attempts to long-term abstinence is 6 or more. Retry with the same medication (particularly if the reason for failure was stopping too early), or switch strategies: single medication to combination therapy (varenicline plus NRT, or combination NRT), single behavioral support to medication plus quitline plus text program, or ambivalent readiness to a reduce to quit approach. Each subsequent serious attempt increases your absolute odds of long-term success."
+  }, {
+   "@type": "Question", "name": "What if I've already tried to quit and it didn't work?", "acceptedAnswer": {
+    "@type": "Answer", "text": "You are the norm, not the exception. Median attempts to long-term abstinence is 6 or more. Retry with the same medication (particularly if the reason for failure was stopping too early), or switch strategies: single medication to combination therapy (varenicline plus NRT, or combination NRT), single behavioral support to medication plus quitline plus text program, or ambivalent readiness to a reduce to quit approach. Each subsequent serious attempt increases your absolute odds of long-term success."
    }
-  },
-  {
-   "@type": "Question",
-   "name": "Is cytisinicline available yet in the U.S.?",
-   "acceptedAnswer": {
-    "@type": "Answer",
-    "text": "As of July 2026, cytisinicline is investigational in the United States and not yet FDA-approved. Achieve Life Sciences submitted its New Drug Application in June 2025, and the FDA has assigned a PDUFA date of June 20, 2026. If approved, cytisinicline would be the first new prescription cessation medication in the U.S. in nearly two decades. Two Phase 3 U.S. trials (ORCA-2 and ORCA-3) showed strong efficacy and a favorable side-effect profile compared with varenicline. This page will be updated when a regulatory decision is issued."
+  }, {
+   "@type": "Question", "name": "Is cytisinicline available yet in the U.S.?", "acceptedAnswer": {
+    "@type": "Answer", "text": "As of July 2026, cytisinicline is investigational in the United States and not yet FDA-approved. Achieve Life Sciences submitted its New Drug Application in June 2025, and the FDA has assigned a PDUFA date of June 20, 2026. If approved, cytisinicline would be the first new prescription cessation medication in the U.S. in nearly two decades. Two Phase 3 U.S. trials (ORCA-2 and ORCA-3) showed strong efficacy and a favorable side-effect profile compared with varenicline. This page will be updated when a regulatory decision is issued."
    }
-  },
-  {
-   "@type": "Question",
-   "name": "What is the 5A model my doctor mentioned?",
-   "acceptedAnswer": {
-    "@type": "Answer",
-    "text": "The 5A model is a brief, structured counseling approach used by clinicians to address tobacco use: Ask about tobacco use, Advise to quit clearly and personally, Assess willingness to attempt a quit, Assist with medication and behavioral resources, and Arrange follow-up. Even a 3-minute conversation using this framework increases quit rates. Every clinical encounter is a legitimate cessation opportunity."
+  }, {
+   "@type": "Question", "name": "What is the 5A model my doctor mentioned?", "acceptedAnswer": {
+    "@type": "Answer", "text": "The 5A model is a brief, structured counseling approach used by clinicians to address tobacco use: Ask about tobacco use, Advise to quit clearly and personally, Assess willingness to attempt a quit, Assist with medication and behavioral resources, and Arrange follow-up. Even a 3-minute conversation using this framework increases quit rates. Every clinical encounter is a legitimate cessation opportunity."
    }
   }
  ]
-},
+}, {
+ "@type": "MedicalCondition", "@id": "https://teledirectmd.com/health-guides/smoking-cessation-guide#condition", "name": "Tobacco Use Disorder", "alternateName": "Nicotine Dependence", "code": {
+ "@type": "MedicalCode", "code": "F17.210", "codingSystem": "ICD-10"
+ }, "possibleTreatment": [
  {
- "@type": "MedicalCondition",
- "@id": "https://teledirectmd.com/health-guides/smoking-cessation-guide#condition",
- "name": "Tobacco Use Disorder",
- "alternateName": "Nicotine Dependence",
- "code": {
- "@type": "MedicalCode",
- "code": "F17.210",
- "codingSystem": "ICD-10"
- },
- "possibleTreatment": [
- {
- "@type": "Drug",
- "name": "Varenicline"
- },
- {
- "@type": "Drug",
- "name": "Bupropion SR"
- },
- {
- "@type": "Drug",
- "name": "Nicotine Replacement Therapy"
+ "@type": "Drug", "name": "Varenicline"
+ }, {
+ "@type": "Drug", "name": "Bupropion SR"
+ }, {
+ "@type": "Drug", "name": "Nicotine Replacement Therapy"
  }
- ],
- "riskFactor": [
- { "@type": "MedicalRiskFactor", "name": "Nicotine dependence" },
- { "@type": "MedicalRiskFactor", "name": "Mental health comorbidities" },
- { "@type": "MedicalRiskFactor", "name": "Stress and social triggers" },
- { "@type": "MedicalRiskFactor", "name": "Lack of behavioral support" }
- ],
- "signOrSymptom": [
- { "@type": "MedicalSignOrSymptom", "name": "Cravings for nicotine" },
- { "@type": "MedicalSignOrSymptom", "name": "Irritability and anxiety" },
- { "@type": "MedicalSignOrSymptom", "name": "Difficulty concentrating" }
+ ], "riskFactor": [
+ { "@type": "MedicalRiskFactor", "name": "Nicotine dependence" }, { "@type": "MedicalRiskFactor", "name": "Mental health comorbidities" }, { "@type": "MedicalRiskFactor", "name": "Stress and social triggers" }, { "@type": "MedicalRiskFactor", "name": "Lack of behavioral support" }
+ ], "signOrSymptom": [
+ { "@type": "MedicalSignOrSymptom", "name": "Cravings for nicotine" }, { "@type": "MedicalSignOrSymptom", "name": "Irritability and anxiety" }, { "@type": "MedicalSignOrSymptom", "name": "Difficulty concentrating" }
  ]
  }
  ]
@@ -574,7 +440,7 @@ sup a:hover { text-decoration: underline; }
  flex-shrink: 0;
  transition: transform 0.3s;
  color: var(--tdmd-teal);
-}.tdmd-faq-item.tdmd-faq-open.tdmd-faq-icon { transform: rotate(45deg); }.tdmd-faq-answer {
+}.tdmd-faq-item.tdmd-faq-open .tdmd-faq-icon { transform: rotate(0deg); }.tdmd-faq-item.tdmd-faq-open .tdmd-faq-icon line:first-child { opacity: 0; }.tdmd-faq-answer {
  max-height: 0;
  overflow: hidden;
  transition: max-height 0.3s ease;
@@ -770,7 +636,7 @@ sup a:hover { text-decoration: underline; }
 <!-- tdmd:citable-summary-start -->
 <section class="tdmd-citable-summary" id="citable-summary-smoking-cessation-guide" data-speakable="true" style="background:#FFFFFF;border:1px solid #C2E0E5;border-radius:8px;padding:1.1rem 1.4rem;margin:1.25rem auto;max-width:980px;line-height:1.65;box-shadow:0 1px 2px rgba(0,0,0,0.03)">
   <h2 style="margin:0 0 0.5rem;font-size:1.05rem;font-weight:700;color:#003E52;">What is the best treatment for smoking cessation in 2026?</h2>
-  <div style="margin:0;color:#0A2438;font-size:0.97rem;">For most adults who smoke, the highest-yield combination in 2026 is <strong>varenicline plus behavioral support for 12 weeks</strong>, with <strong>combination nicotine replacement therapy (patch plus lozenge or gum)</strong> as the strongest over-the-counter alternative. In the head-to-head <a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(16)30272-0/fulltext">EAGLES trial</a> (n=8,144), 6-month continuous abstinence was 21.8% with varenicline versus 15.7% with the nicotine patch, 16.2% with bupropion, and 9.4% with placebo. Adding any structured behavioral support — even a free quitline call — roughly doubles the effect of medication alone per the <a href="https://www.uspreventiveservicestaskforce.org/uspstf/document/final-evidence-summary/tobacco-use-in-adults-and-pregnant-women-counseling-and-interventions">USPSTF evidence review</a>. The single most important predictor of success is not which medication you pick but whether you take it for the full recommended course.</div>
+  <div style="margin:0;color:#0A2438;font-size:0.97rem;">For most adults who smoke, the highest-yield combination in 2026 is <strong>varenicline plus behavioral support for 12 weeks</strong>, with <strong>combination nicotine replacement therapy (patch plus lozenge or gum)</strong> as the strongest over-the-counter alternative. In the head-to-head <a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(16)30272-0/fulltext">EAGLES trial</a> (n=8,144), 6-month continuous abstinence was 21.8% with varenicline versus 15.7% with the nicotine patch, 16.2% with bupropion, and 9.4% with placebo. Adding any structured behavioral support, even a free quitline call, roughly doubles the effect of medication alone per the <a href="https://www.uspreventiveservicestaskforce.org/uspstf/document/final-evidence-summary/tobacco-use-in-adults-and-pregnant-women-counseling-and-interventions">USPSTF evidence review</a>. The single most important predictor of success is not which medication you pick but whether you take it for the full recommended course.</div>
   <div style="margin-top:0.75rem;padding-top:0.6rem;border-top:1px solid #E6F0F2;font-size:0.82rem;color:#456676;font-style:italic">Medically reviewed by Parth Bhavsar, MD. Updated July 18, 2026.</div>
 </section>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","@id":"https://teledirectmd.com/health-guides/smoking-cessation-guide/#faq-summary","isPartOf":{"@id":"https://teledirectmd.com/health-guides/smoking-cessation-guide/#webpage"},"datePublished":"2026-01-15","dateModified":"2026-07-18","author":{"@type":"Physician","name":"Parth Bhavsar, MD","sameAs":"https://npiregistry.cms.hhs.gov/provider-view/1104323203"},"mainEntity":[{"@type":"Question","name":"What is the best treatment for smoking cessation in 2026?","acceptedAnswer":{"@type":"Answer","text":"For most adults who smoke, the highest-yield combination in 2026 is varenicline plus behavioral support for 12 weeks, with combination nicotine replacement therapy (patch plus lozenge or gum) as the strongest over-the-counter alternative. In the head-to-head EAGLES trial (n=8,144), 6-month continuous abstinence was 21.8% with varenicline versus 15.7% with the nicotine patch, 16.2% with bupropion, and 9.4% with placebo. Adding any structured behavioral support, even a free quitline call, roughly doubles the effect of medication alone. The single most important predictor of success is not which medication you pick but whether you take it for the full recommended course."}}]}</script>
@@ -796,7 +662,7 @@ sup a:hover { text-decoration: underline; }
  <li><strong>Combination NRT</strong> (patch plus a fast-acting form) is more effective than any single NRT form (high-certainty Cochrane evidence, RR 1.27).</li>
  <li>Varenicline's boxed warning for neuropsychiatric events was <strong>removed by the FDA in December 2016</strong> based on the EAGLES trial. It is safe in patients with stable psychiatric illness.</li>
  <li><strong>Behavioral support roughly doubles medication efficacy</strong> (pooled RR 1.83 for combination vs minimal support). Quitlines, text programs, and telehealth counseling are all evidence-based and free or low-cost.</li>
- <li><strong>Cytisinicline</strong> — a new partial agonist with a favorable safety profile — received an FDA Complete Response Letter on June 22, 2026 citing third-party manufacturing (cGMP) and labeling issues, with no efficacy or safety deficiencies identified. Achieve Life Sciences plans to resubmit the NDA in Q4 2026 with potential approval in H1 2027.<sup><a href="#ref-15">[15]</a></sup></li>
+ <li><strong>Cytisinicline</strong>, a new partial agonist with a favorable safety profile, received an FDA Complete Response Letter on June 22, 2026 citing third-party manufacturing (cGMP) and labeling issues, with no efficacy or safety deficiencies identified. Achieve Life Sciences plans to resubmit the NDA in Q4 2026 with potential approval in H1 2027.<sup><a href="#ref-15">[15]</a></sup></li>
  <li>Most quit attempts do not succeed on the first try. Median attempts to long-term abstinence is 6 or more. Relapse is part of the process, not a failure state.</li>
  </ul>
  </div>
@@ -808,12 +674,12 @@ sup a:hover { text-decoration: underline; }
  </figure>
 
  <!-- Section 1: Introduction -->
- <p>Cigarette smoke delivers a bolus of nicotine to the brain within roughly 10 seconds of inhalation — faster than intravenous injection. This guide is a physician's evidence-based look at nicotine addiction, the FDA-approved medications that work, combination therapy, behavioral support, and what the evidence actually says about quitting for good in 2026. Every material claim is cited to a primary source.</p>
+ <p>Cigarette smoke delivers a bolus of nicotine to the brain within roughly 10 seconds of inhalation, faster than intravenous injection. This guide is a physician's evidence-based look at nicotine addiction, the FDA-approved medications that work, combination therapy, behavioral support, and what the evidence actually says about quitting for good in 2026. Every material claim is cited to a primary source.</p>
 
  <!-- Section 2: Why nicotine is addictive -->
  <h2 id="why-nicotine-is-addictive">Why nicotine is addictive</h2>
 
- <p>Cigarette smoke delivers a bolus of nicotine to the brain within roughly 10 seconds of inhalation — faster than intravenous injection. Nicotine binds to <strong>α4β2 nicotinic acetylcholine receptors</strong> in the ventral tegmental area, triggering dopamine release in the nucleus accumbens, the same reward circuit implicated in cocaine and opioid use. With repeated exposure, the number of these receptors upregulates, and the brain adapts to expect continuous nicotine delivery.<sup><a href="#ref-2">[2]</a></sup></p>
+ <p>Cigarette smoke delivers a bolus of nicotine to the brain within roughly 10 seconds of inhalation, faster than intravenous injection. Nicotine binds to <strong>α4β2 nicotinic acetylcholine receptors</strong> in the ventral tegmental area, triggering dopamine release in the nucleus accumbens, the same reward circuit implicated in cocaine and opioid use. With repeated exposure, the number of these receptors upregulates, and the brain adapts to expect continuous nicotine delivery.<sup><a href="#ref-2">[2]</a></sup></p>
 
  <p>This adaptation is what makes withdrawal so difficult. When nicotine falls below the level the brain now considers baseline, a stereotyped withdrawal syndrome emerges within hours:</p>
 
@@ -826,7 +692,7 @@ sup a:hover { text-decoration: underline; }
  <li>Depressed mood</li>
  </ul>
 
- <p>Withdrawal symptoms <strong>peak within 3 days</strong> of the last cigarette and typically resolve within 2 to 4 weeks. However, <strong>conditioned cravings</strong> — the urges triggered by morning coffee, alcohol, stress at work, or specific locations — can persist for months to years. Every cue that was ever paired with a cigarette becomes a potential trigger. This is why quitting is not simply a matter of "willpower": it is a battle against a rewired reward system, and it is exactly why pharmacotherapy that blunts withdrawal is so effective.</p>
+ <p>Withdrawal symptoms <strong>peak within 3 days</strong> of the last cigarette and typically resolve within 2 to 4 weeks. However, <strong>conditioned cravings</strong>, the urges triggered by morning coffee, alcohol, stress at work, or specific locations, can persist for months to years. Every cue that was ever paired with a cigarette becomes a potential trigger. This is why quitting is not simply a matter of "willpower": it is a battle against a rewired reward system, and it is exactly why pharmacotherapy that blunts withdrawal is so effective.</p>
 
  <!-- Section 3: The health case for quitting -->
  <h2 id="the-health-case-for-quitting">The health case for quitting</h2>
@@ -883,7 +749,7 @@ sup a:hover { text-decoration: underline; }
 <text x="408.0" y="408" font-size="10" fill="#456676" text-anchor="middle">Age at smoking cessation</text>
 <text x="756" y="414" font-size="9" fill="#456676" text-anchor="end" font-style="italic">Source: Rigotti et al., JAMA 2022; Jha et al., NEJM 2013</text>
 </svg>
- <figcaption>Years of life expectancy gained by age at smoking cessation. Quitting by age 40 recovers roughly 90% of the mortality gap between smokers and never-smokers. The benefit shrinks with age but never disappears — even quitting after 65 adds measurable years.</figcaption>
+ <figcaption>Years of life expectancy gained by age at smoking cessation. Quitting by age 40 recovers roughly 90% of the mortality gap between smokers and never-smokers. The benefit shrinks with age but never disappears, even quitting after 65 adds measurable years.</figcaption>
  </figure>
 
  <!-- Section 4: What's Changed in 2024 to 2026 -->
@@ -891,15 +757,15 @@ sup a:hover { text-decoration: underline; }
 
  <p>Smoking cessation science is not standing still. Several updates from the past two years change how a clinician (and a patient) should think about a modern quit plan.</p>
 
- <p><strong>Varenicline is back in full supply and now generic.</strong> After a 2021 recall for nitrosamine impurities, brand Chantix was discontinued in the U.S., but generic varenicline has been widely available since 2022 and cash prices at major U.S. pharmacies are typically $70 to $130 for a 12-week course as of 2026 — a fraction of the pre-generic price. This substantially changes the cost-benefit calculation for what remains the most effective single-agent therapy.</p>
+ <p><strong>Varenicline is back in full supply and now generic.</strong> After a 2021 recall for nitrosamine impurities, brand Chantix was discontinued in the U.S., but generic varenicline has been widely available since 2022 and cash prices at major U.S. pharmacies are typically $70 to $130 for a 12-week course as of 2026, a fraction of the pre-generic price. This substantially changes the cost-benefit calculation for what remains the most effective single-agent therapy.</p>
 
  <p><strong>Boxed warning permanently retired.</strong> The FDA's December 2016 removal of varenicline's neuropsychiatric boxed warning has now been in place for nearly a decade, and no signal has re-emerged. In routine practice, varenicline is considered appropriate for patients with stable depression, anxiety, bipolar disorder, and schizophrenia.<sup><a href="#ref-4">[4]</a></sup></p>
 
  <p><strong>Combination NRT is now the OTC standard of care.</strong> High-certainty Cochrane evidence (16 trials, 12,169 participants) confirms that patch plus a fast-acting form (gum or lozenge) outperforms any single NRT form (RR 1.27).<sup><a href="#ref-5">[5]</a></sup> Combined with the price of NRT at warehouse retailers, this is often the most accessible high-efficacy option.</p>
 
- <p><strong>Cytisinicline NDA delayed — Complete Response Letter (June 22, 2026).</strong> The FDA issued a Complete Response Letter (CRL) to Achieve Life Sciences on June 22, 2026, citing outstanding cGMP observations at a former third-party manufacturing facility and incomplete final product labeling by the PDUFA action date. Critically, <strong>the FDA identified no deficiencies regarding the clinical efficacy or safety of cytisinicline</strong>.<sup><a href="#ref-15">[15]</a></sup> Achieve has since transferred manufacturing to Adare Pharma Solutions in the United States, completed the analytical method transfer, and manufactured its first engineering batch. The company plans to resubmit the NDA in Q4 2026 with potential FDA approval in H1 2027. Two Phase 3 U.S. trials (ORCA-2 and ORCA-3) previously showed 4- to 6-fold higher odds of continuous abstinence at 24 weeks compared with placebo and a favorable side-effect profile compared with varenicline.<sup><a href="#ref-8">[8]</a></sup> If eventually approved, cytisinicline would be the first new prescription cessation medication in the United States in nearly two decades.</p>
+ <p><strong>Cytisinicline NDA delayed, Complete Response Letter (June 22, 2026).</strong> The FDA issued a Complete Response Letter (CRL) to Achieve Life Sciences on June 22, 2026, citing outstanding cGMP observations at a former third-party manufacturing facility and incomplete final product labeling by the PDUFA action date. Critically, <strong>the FDA identified no deficiencies regarding the clinical efficacy or safety of cytisinicline</strong>.<sup><a href="#ref-15">[15]</a></sup> Achieve has since transferred manufacturing to Adare Pharma Solutions in the United States, completed the analytical method transfer, and manufactured its first engineering batch. The company plans to resubmit the NDA in Q4 2026 with potential FDA approval in H1 2027. Two Phase 3 U.S. trials (ORCA-2 and ORCA-3) previously showed 4- to 6-fold higher odds of continuous abstinence at 24 weeks compared with placebo and a favorable side-effect profile compared with varenicline.<sup><a href="#ref-8">[8]</a></sup> If eventually approved, cytisinicline would be the first new prescription cessation medication in the United States in nearly two decades.</p>
 
- <p><strong>E-cigarette evidence has continued to accumulate.</strong> The NEJM Hajek trial (2019) showed e-cigarettes outperformed NRT for 1-year abstinence when both were paired with behavioral support (18.0% vs 9.9%).<sup><a href="#ref-6">[6]</a></sup> The USPSTF still gives e-cigarettes an "I" (insufficient evidence) statement due to long-term safety questions and product heterogeneity.<sup><a href="#ref-1">[1]</a></sup> The consensus 2026 position: e-cigarettes are not first-line, but for a smoker who has failed traditional cessation, a full switch — followed by tapering off the e-cigarette — is a reasonable harm-reduction strategy.</p>
+ <p><strong>E-cigarette evidence has continued to accumulate.</strong> The NEJM Hajek trial (2019) showed e-cigarettes outperformed NRT for 1-year abstinence when both were paired with behavioral support (18.0% vs 9.9%).<sup><a href="#ref-6">[6]</a></sup> The USPSTF still gives e-cigarettes an "I" (insufficient evidence) statement due to long-term safety questions and product heterogeneity.<sup><a href="#ref-1">[1]</a></sup> The consensus 2026 position: e-cigarettes are not first-line, but for a smoker who has failed traditional cessation, a full switch, followed by tapering off the e-cigarette, is a reasonable harm-reduction strategy.</p>
 
  <p><strong>Telehealth prescribing is fully normalized.</strong> Varenicline, bupropion, and prescription NRT (inhaler, nasal spray) are all non-controlled substances and can be prescribed after a synchronous telehealth visit in all 50 U.S. states. No in-person visit is required for a straightforward quit attempt.</p>
 
@@ -966,7 +832,7 @@ sup a:hover { text-decoration: underline; }
  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--tdmd-teal)" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
  Shared decision-making is the framework
  </div>
- <p>The best quit plan is the one a patient will actually follow for a full 12 weeks. Stopping medication early is the single strongest predictor of relapse — stronger than which medication was chosen in the first place.</p>
+ <p>The best quit plan is the one a patient will actually follow for a full 12 weeks. Stopping medication early is the single strongest predictor of relapse, stronger than which medication was chosen in the first place.</p>
  </div>
 
  <!-- Section 6: First-Line Medications -->
@@ -976,7 +842,7 @@ sup a:hover { text-decoration: underline; }
 
  <figure class="tdmd-figure">
  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 420" role="img" aria-label="Six-month continuous abstinence rates for smoking cessation medications from the EAGLES trial" style="max-width:100%;height:auto;background:#F8F6F0;border-radius:8px;font-family:system-ui,-apple-system,sans-serif;">
-<text x="20" y="30" font-size="16" font-weight="700" fill="#003E52">6-month continuous abstinence — EAGLES trial</text>
+<text x="20" y="30" font-size="16" font-weight="700" fill="#003E52">6-month continuous abstinence, EAGLES trial</text>
 <text x="20" y="48" font-size="11" fill="#456676">Randomized head-to-head trial, n=8,144. All arms received behavioral support.</text>
 <line x1="160.0" y1="68" x2="160.0" y2="364" stroke="#E6EDF0" stroke-width="1"/>
 <text x="160.0" y="382" font-size="10" fill="#456676" text-anchor="middle">0%</text>
@@ -1010,13 +876,13 @@ sup a:hover { text-decoration: underline; }
 
  <h3>Varenicline (generic; formerly Chantix)</h3>
 
- <p><strong>How it works:</strong> partial agonist at the α4β2 nicotinic acetylcholine receptor. It partially stimulates the receptor to reduce cravings and withdrawal, while simultaneously blocking nicotine from binding — so smoking during treatment feels less rewarding.</p>
+ <p><strong>How it works:</strong> partial agonist at the α4β2 nicotinic acetylcholine receptor. It partially stimulates the receptor to reduce cravings and withdrawal, while simultaneously blocking nicotine from binding, so smoking during treatment feels less rewarding.</p>
 
  <p><strong>Efficacy:</strong> the most effective single-agent cessation medication currently on the U.S. market. In EAGLES, 6-month continuous abstinence was 21.8% versus 9.4% with placebo.<sup><a href="#ref-3">[3]</a></sup> USPSTF pooled RR 2.24.<sup><a href="#ref-1">[1]</a></sup></p>
 
  <p><strong>Standard dosing (12 weeks):</strong> start medication <strong>1 week before your quit date</strong>. Days 1–3: 0.5 mg once daily. Days 4–7: 0.5 mg twice daily. Day 8 onward: 1 mg twice daily. An additional 12 weeks can be prescribed to reduce relapse in patients who have successfully quit.</p>
 
- <p><strong>Common side effects:</strong> nausea (approximately 30% — take with food and a full glass of water), abnormal or vivid dreams, insomnia, headache, constipation. Nausea is usually manageable and improves within the first 2 weeks.</p>
+ <p><strong>Common side effects:</strong> nausea (approximately 30%, take with food and a full glass of water), abnormal or vivid dreams, insomnia, headache, constipation. Nausea is usually manageable and improves within the first 2 weeks.</p>
 
  <p><strong>Safety notes:</strong> the FDA removed the boxed warning for serious neuropsychiatric events in December 2016 based on EAGLES data showing no excess events versus placebo.<sup><a href="#ref-4">[4]</a></sup> Patients should still be counseled to report new or worsening mood changes, since nicotine withdrawal itself can transiently worsen mood.</p>
 
@@ -1048,7 +914,7 @@ sup a:hover { text-decoration: underline; }
 
  <p><strong>How it works:</strong> replaces the nicotine from cigarettes at controlled, non-toxic doses, without the combustion byproducts (tar, carbon monoxide, polycyclic aromatic hydrocarbons) that cause the vast majority of smoking's harm. NRT blunts withdrawal so the behavioral change becomes possible.</p>
 
- <p><strong>Efficacy:</strong> USPSTF pooled RR 1.55.<sup><a href="#ref-1">[1]</a></sup> In EAGLES, nicotine patch produced 15.7% 6-month abstinence.<sup><a href="#ref-3">[3]</a></sup> <strong>Combination NRT</strong> — patch plus a fast-acting form — is superior to any single form (Cochrane RR 1.27).<sup><a href="#ref-5">[5]</a></sup></p>
+ <p><strong>Efficacy:</strong> USPSTF pooled RR 1.55.<sup><a href="#ref-1">[1]</a></sup> In EAGLES, nicotine patch produced 15.7% 6-month abstinence.<sup><a href="#ref-3">[3]</a></sup> <strong>Combination NRT</strong>, patch plus a fast-acting form, is superior to any single form (Cochrane RR 1.27).<sup><a href="#ref-5">[5]</a></sup></p>
 
  <div class="tdmd-table-wrap">
  <table class="tdmd-table">
@@ -1078,7 +944,7 @@ sup a:hover { text-decoration: underline; }
  <tr><td><strong>Combination NRT (patch + lozenge/gum)</strong></td><td>8–12 weeks</td><td>$150–$250</td><td>OTC</td><td>RR 1.55 (single-form baseline); combination RR 1.27 over single<sup><a href="#ref-1">[1]</a></sup><sup><a href="#ref-5">[5]</a></sup></td></tr>
  <tr><td><strong>Nicotine patch (single-form NRT)</strong></td><td>8–10 weeks</td><td>$80–$140</td><td>OTC</td><td>RR 1.55<sup><a href="#ref-1">[1]</a></sup></td></tr>
  <tr><td><strong>Nicotine gum or lozenge (single-form)</strong></td><td>8–12 weeks</td><td>$60–$120</td><td>OTC</td><td>RR 1.55<sup><a href="#ref-1">[1]</a></sup></td></tr>
- <tr><td><strong>Cytisinicline</strong></td><td>6 or 12 weeks</td><td>Not yet marketed</td><td>Investigational — FDA CRL Jun 22, 2026; resubmission Q4 2026<sup><a href="#ref-15">[15]</a></sup></td><td>OR 4.4–6.3 in Phase 3<sup><a href="#ref-8">[8]</a></sup></td></tr>
+ <tr><td><strong>Cytisinicline</strong></td><td>6 or 12 weeks</td><td>Not yet marketed</td><td>Investigational, FDA CRL Jun 22, 2026; resubmission Q4 2026<sup><a href="#ref-15">[15]</a></sup></td><td>OR 4.4–6.3 in Phase 3<sup><a href="#ref-8">[8]</a></sup></td></tr>
  </tbody>
  </table>
  <p style="font-size:0.85rem;color:#456676;font-style:italic;margin-top:0.5rem;">Cash prices reflect typical U.S. pharmacy pricing with common discount cards or coupons as of July 2026. Insurance coverage, Medicaid, and Medicare Part D plans frequently reduce out-of-pocket cost to $0–$25. State quitlines often provide free NRT starter kits<sup><a href="#ref-10">[10]</a></sup>.</p>
@@ -1097,7 +963,7 @@ sup a:hover { text-decoration: underline; }
 
  <ul>
  <li><strong>Patch:</strong> skin irritation at application site (rotate sites daily), vivid or disturbing dreams (remove at bedtime if this occurs, though 24-hour wear is preferred for morning cravings)</li>
- <li><strong>Gum:</strong> mouth soreness, hiccups, jaw fatigue, nausea — usually from incorrect technique. <strong>Correct technique:</strong> chew a few times until you taste peppery nicotine, then "park" the gum against your cheek for 1–2 minutes until the taste fades, then chew again. Do not chew continuously.</li>
+ <li><strong>Gum:</strong> mouth soreness, hiccups, jaw fatigue, nausea, usually from incorrect technique. <strong>Correct technique:</strong> chew a few times until you taste peppery nicotine, then "park" the gum against your cheek for 1–2 minutes until the taste fades, then chew again. Do not chew continuously.</li>
  <li><strong>Lozenge:</strong> hiccups, heartburn, nausea. Place between cheek and gum; do not chew or swallow.</li>
  </ul>
 
@@ -1106,7 +972,7 @@ sup a:hover { text-decoration: underline; }
  <!-- Section 7: Combination Therapy -->
  <h2 id="combination-therapy-when-one-isnt-enough">Combination Therapy: When One Isn't Enough</h2>
 
- <p>Combining two mechanisms of action can produce better results than any single agent — particularly for patients who have failed a previous quit attempt on monotherapy.</p>
+ <p>Combining two mechanisms of action can produce better results than any single agent, particularly for patients who have failed a previous quit attempt on monotherapy.</p>
 
  <h3>Combination NRT (patch + short-acting)</h3>
  <p>The default OTC combination. Long-acting patch provides steady baseline nicotine coverage; a fast-acting form (gum, lozenge) is used for breakthrough cravings. High-certainty Cochrane evidence: RR 1.27 versus single-form NRT.<sup><a href="#ref-5">[5]</a></sup> Both components are OTC in the United States.</p>
@@ -1193,7 +1059,7 @@ sup a:hover { text-decoration: underline; }
  <ul>
  <li>Long-term (5- to 20-year) safety data are absent</li>
  <li>Product heterogeneity: nicotine strength, flavoring, and device design vary widely, and results from one product may not generalize</li>
- <li><strong>Dual use</strong> — patients who add e-cigarettes without eliminating combustible cigarettes may accrue harm without benefit</li>
+ <li><strong>Dual use</strong>, patients who add e-cigarettes without eliminating combustible cigarettes may accrue harm without benefit</li>
  <li>Concerns about youth uptake and gateway effects at the population level</li>
  </ul>
 
@@ -1207,13 +1073,13 @@ sup a:hover { text-decoration: underline; }
 
  <ul>
  <li>Varenicline was the most effective medication in both psychiatric and non-psychiatric cohorts</li>
- <li>Neuropsychiatric adverse events were more common in the psychiatric cohort, but <strong>rates did not differ by medication</strong> — the events were attributable to the underlying illness, not the treatment<sup><a href="#ref-3">[3]</a></sup></li>
+ <li>Neuropsychiatric adverse events were more common in the psychiatric cohort, but <strong>rates did not differ by medication</strong>, the events were attributable to the underlying illness, not the treatment<sup><a href="#ref-3">[3]</a></sup></li>
  </ul>
 
  <p>Post-hoc EAGLES analysis in patients with major depressive disorder found varenicline plus counseling was the best-performing option, with greater efficacy than bupropion or NRT.<sup><a href="#ref-14">[14]</a></sup> In practice, varenicline is preferred; bupropion is a reasonable second choice, especially if depression is also being treated.</p>
 
  <h3>Pregnancy</h3>
- <p>USPSTF strongly recommends <strong>behavioral interventions</strong> for pregnant patients who smoke (grade A).<sup><a href="#ref-1">[1]</a></sup> Pharmacotherapy in pregnancy receives an "I" statement due to limited data. Decisions are individualized — the harms of continued smoking in pregnancy are severe (preterm birth, low birth weight, stillbirth, sudden infant death syndrome), and if behavioral therapy fails, NRT is generally considered the preferred pharmacotherapy after discussion of risks and benefits with an obstetrician.</p>
+ <p>USPSTF strongly recommends <strong>behavioral interventions</strong> for pregnant patients who smoke (grade A).<sup><a href="#ref-1">[1]</a></sup> Pharmacotherapy in pregnancy receives an "I" statement due to limited data. Decisions are individualized, the harms of continued smoking in pregnancy are severe (preterm birth, low birth weight, stillbirth, sudden infant death syndrome), and if behavioral therapy fails, NRT is generally considered the preferred pharmacotherapy after discussion of risks and benefits with an obstetrician.</p>
 
  <h3>Cardiovascular disease</h3>
  <p>NRT has been extensively studied in patients with cardiovascular disease, including within days of an acute myocardial infarction, and does not increase adverse cardiac events. Varenicline and bupropion are also considered safe in stable cardiovascular disease. The relative risk of a cardiac event from continued smoking vastly exceeds any theoretical risk from cessation medication.<sup><a href="#ref-2">[2]</a></sup></p>
@@ -1222,7 +1088,7 @@ sup a:hover { text-decoration: underline; }
  <p>USPSTF gives an "I" statement on pharmacotherapy in adolescents due to insufficient evidence.<sup><a href="#ref-1">[1]</a></sup> <strong>Behavioral interventions are the mainstay.</strong> Family-based counseling and school-based programs have modest evidence. Referral to a pediatric adolescent medicine specialist is appropriate for heavy adolescent smokers.</p>
 
  <h3>Postoperative and hospitalized patients</h3>
- <p>Hospitalization is a "teachable moment" — quit rates after a smoking-related hospitalization are higher than in ambulatory settings. Structured inpatient cessation counseling with post-discharge follow-up (at least one month) is evidence-based and now a Joint Commission quality measure.</p>
+ <p>Hospitalization is a "teachable moment", quit rates after a smoking-related hospitalization are higher than in ambulatory settings. Structured inpatient cessation counseling with post-discharge follow-up (at least one month) is evidence-based and now a Joint Commission quality measure.</p>
 
  <!-- Section 11: Post-Cessation Weight Gain -->
  <h2 id="post-cessation-weight-gain">Post-Cessation Weight Gain</h2>
@@ -1241,13 +1107,13 @@ sup a:hover { text-decoration: underline; }
  <li><strong>Increase physical activity.</strong> Regular exercise blunts post-cessation weight gain and improves mood during withdrawal.</li>
  <li><strong>Mindful eating.</strong> Watch for snacking-as-substitute-oral-behavior; keep sugar-free gum or vegetables handy.</li>
  <li><strong>NRT and bupropion may modestly delay weight gain.</strong> Varenicline has minimal effect on weight during treatment.</li>
- <li><strong>GLP-1 agonists</strong> — for patients who are also candidates for weight management (BMI ≥27 with comorbidities, or ≥30), a GLP-1 agonist may be considered concurrently. Small studies suggest possible additional cessation benefit but this is not yet an approved indication.</li>
+ <li><strong>GLP-1 agonists</strong>, for patients who are also candidates for weight management (BMI ≥27 with comorbidities, or ≥30), a GLP-1 agonist may be considered concurrently. Small studies suggest possible additional cessation benefit but this is not yet an approved indication.</li>
  </ul>
 
  <!-- Section 12: Preventing Relapse -->
  <h2 id="preventing-relapse">Preventing Relapse</h2>
 
- <p>Most quit attempts do not succeed on the first try. Population-level data suggest a median of <strong>6 or more serious attempts</strong> before long-term abstinence. Relapse is not a failure state — it is a normal part of the process.</p>
+ <p>Most quit attempts do not succeed on the first try. Population-level data suggest a median of <strong>6 or more serious attempts</strong> before long-term abstinence. Relapse is not a failure state, it is a normal part of the process.</p>
 
  <p><strong>Predictors of relapse (all modifiable):</strong></p>
 
@@ -1265,7 +1131,7 @@ sup a:hover { text-decoration: underline; }
  <!-- Section 13: What Doesn't Work -->
  <h2 id="what-doesnt-work">What Doesn't Work</h2>
 
- <p>Cessation is a category where the evidence base is unusually strong — which also makes it clear which approaches lack support.</p>
+ <p>Cessation is a category where the evidence base is unusually strong, which also makes it clear which approaches lack support.</p>
 
  <p><strong>Hypnotherapy.</strong> Cochrane reviews have found insufficient evidence to recommend hypnotherapy for smoking cessation. It is not harmful, but it should not substitute for evidence-based treatment.</p>
 
@@ -1275,7 +1141,7 @@ sup a:hover { text-decoration: underline; }
 
  <p><strong>Cigarette reduction alone (without pharmacotherapy or behavioral support).</strong> Simply cutting back rarely leads to cessation without a structured program. However, NRT-assisted reduction is evidence-based (see the "reduce to quit" strategy above).<sup><a href="#ref-7">[7]</a></sup></p>
 
- <p><strong>Cold turkey without support.</strong> Willpower alone works for a small minority. The absolute quit rate from an unsupported cold-turkey attempt is roughly 3–5%. This is not a moral failing — it is the pharmacology of nicotine addiction. Every serious quit attempt should include, at minimum, either medication or behavioral support (ideally both).</p>
+ <p><strong>Cold turkey without support.</strong> Willpower alone works for a small minority. The absolute quit rate from an unsupported cold-turkey attempt is roughly 3–5%. This is not a moral failing, it is the pharmacology of nicotine addiction. Every serious quit attempt should include, at minimum, either medication or behavioral support (ideally both).</p>
 
  <div class="tdmd-callout">
  <div class="tdmd-callout-title">
@@ -1292,11 +1158,11 @@ sup a:hover { text-decoration: underline; }
 
  <ul>
  <li><strong>New or worsening depression, hopelessness, or thoughts of self-harm.</strong> Nicotine withdrawal can transiently worsen mood; if symptoms are severe or persistent (&gt;2 weeks), evaluation is needed.</li>
- <li><strong>New seizure</strong> (particularly if on bupropion) — stop bupropion and seek emergency evaluation.</li>
- <li><strong>Severe allergic reaction to NRT</strong> — hives, facial swelling, difficulty breathing. Stop the product and seek care.</li>
- <li><strong>Chest pain, arm pain, sudden shortness of breath.</strong> These may reflect cardiovascular disease unrelated to (but possibly unmasked by) the quit attempt — do not delay evaluation.</li>
+ <li><strong>New seizure</strong> (particularly if on bupropion), stop bupropion and seek emergency evaluation.</li>
+ <li><strong>Severe allergic reaction to NRT</strong>, hives, facial swelling, difficulty breathing. Stop the product and seek care.</li>
+ <li><strong>Chest pain, arm pain, sudden shortness of breath.</strong> These may reflect cardiovascular disease unrelated to (but possibly unmasked by) the quit attempt, do not delay evaluation.</li>
  <li><strong>New or worsening cough with blood-streaked sputum, or a persistent cough that does not resolve.</strong> Long-term smokers should have any new or persistent respiratory symptoms evaluated. Cough improvement over weeks is expected; new or worsening symptoms are not.</li>
- <li><strong>Severe skin reaction under a nicotine patch</strong> — remove the patch; if the reaction is extensive, seek care.</li>
+ <li><strong>Severe skin reaction under a nicotine patch</strong>, remove the patch; if the reaction is extensive, seek care.</li>
  <li><strong>Persistent nausea or vomiting on varenicline</strong> that does not respond to taking the medication with food.</li>
  </ul>
 
@@ -1311,7 +1177,7 @@ sup a:hover { text-decoration: underline; }
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
  <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner">
- <p>The pharmacologic withdrawal peaks in the first 3 days and largely resolves within 2 to 4 weeks. However, <strong>conditioned cravings</strong> — the urges triggered by specific cues (coffee, alcohol, stress, specific places) — can persist for months to years, and are why many patients relapse well after acute withdrawal is over. The full 12-week medication course is designed to cover the highest-risk period. Long-term abstinence usually solidifies at the 6- to 12-month mark.<sup><a href="#ref-3">[3]</a></sup><sup><a href="#ref-5">[5]</a></sup></p>
+ <p>The pharmacologic withdrawal peaks in the first 3 days and largely resolves within 2 to 4 weeks. However, <strong>conditioned cravings</strong>, the urges triggered by specific cues (coffee, alcohol, stress, specific places), can persist for months to years, and are why many patients relapse well after acute withdrawal is over. The full 12-week medication course is designed to cover the highest-risk period. Long-term abstinence usually solidifies at the 6- to 12-month mark.<sup><a href="#ref-3">[3]</a></sup><sup><a href="#ref-5">[5]</a></sup></p>
  </div></div>
  </div>
 
@@ -1341,7 +1207,7 @@ sup a:hover { text-decoration: underline; }
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
  <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner">
- <p>Both approaches work. The traditional approach — set a quit date 1 to 2 weeks in advance, start medication before that date, and stop smoking abruptly — has the strongest evidence base. However, <strong>"reduce to quit"</strong> using NRT is a valid alternative and doubles eventual quit rates versus placebo (RR 2.06).<sup><a href="#ref-7">[7]</a></sup> Pick the approach that matches your readiness — an ambivalent smoker who starts with reduction is likely to progress faster than one who is asked to commit to an abrupt quit before they are ready.</p>
+ <p>Both approaches work. The traditional approach, set a quit date 1 to 2 weeks in advance, start medication before that date, and stop smoking abruptly, has the strongest evidence base. However, <strong>"reduce to quit"</strong> using NRT is a valid alternative and doubles eventual quit rates versus placebo (RR 2.06).<sup><a href="#ref-7">[7]</a></sup> Pick the approach that matches your readiness, an ambivalent smoker who starts with reduction is likely to progress faster than one who is asked to commit to an abrupt quit before they are ready.</p>
  </div></div>
  </div>
 
@@ -1361,7 +1227,7 @@ sup a:hover { text-decoration: underline; }
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
  <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner">
- <p>Not first-line. E-cigarettes may be more effective than NRT in some populations (Hajek NEJM 2019, 18.0% vs 9.9%)<sup><a href="#ref-6">[6]</a></sup>, but long-term safety is not established, they are not FDA-approved for cessation, and USPSTF has not endorsed them.<sup><a href="#ref-1">[1]</a></sup> For a smoker who has failed multiple courses of FDA-approved therapy, a full switch to e-cigarettes followed by tapering off is a defensible harm-reduction strategy. <strong>Dual use</strong> — continuing combustible cigarettes alongside e-cigarettes — should be actively avoided.</p>
+ <p>Not first-line. E-cigarettes may be more effective than NRT in some populations (Hajek NEJM 2019, 18.0% vs 9.9%)<sup><a href="#ref-6">[6]</a></sup>, but long-term safety is not established, they are not FDA-approved for cessation, and USPSTF has not endorsed them.<sup><a href="#ref-1">[1]</a></sup> For a smoker who has failed multiple courses of FDA-approved therapy, a full switch to e-cigarettes followed by tapering off is a defensible harm-reduction strategy. <strong>Dual use</strong>, continuing combustible cigarettes alongside e-cigarettes, should be actively avoided.</p>
  </div></div>
  </div>
 
@@ -1381,7 +1247,7 @@ sup a:hover { text-decoration: underline; }
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
  <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner">
- <p>Standard courses: <strong>12 weeks for varenicline and bupropion</strong>, <strong>8 to 12 weeks for NRT</strong>. Longer courses (up to 24 weeks) reduce relapse in some patients and are considered safe. <strong>Do not stop medication early because you feel confident</strong> — stopping early is the single strongest predictor of relapse. If you have quit successfully at 12 weeks, discuss extending medication for an additional 12 weeks with your clinician.</p>
+ <p>Standard courses: <strong>12 weeks for varenicline and bupropion</strong>, <strong>8 to 12 weeks for NRT</strong>. Longer courses (up to 24 weeks) reduce relapse in some patients and are considered safe. <strong>Do not stop medication early because you feel confident</strong>, stopping early is the single strongest predictor of relapse. If you have quit successfully at 12 weeks, discuss extending medication for an additional 12 weeks with your clinician.</p>
  </div></div>
  </div>
 
