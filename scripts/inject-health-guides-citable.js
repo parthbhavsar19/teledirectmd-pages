@@ -77,7 +77,7 @@ function renderBlock(slug, entry) {
 <section class="tdmd-citable-summary" id="citable-summary-${slug}" data-speakable="true" style="${css}">
   <h2 style="margin:0 0 0.5rem;font-size:1.05rem;font-weight:700;color:#003E52;">${escapeHtml(entry.question)}</h2>
   <div style="margin:0;color:#0A2438;font-size:0.97rem;">${entry.answerHtml}</div>
-  <div style="${metaCss}">Medically reviewed by ${escapeHtml(DOCTOR)} — Updated ${reviewed}</div>
+  <div style="${metaCss}">Medically reviewed by ${escapeHtml(DOCTOR)}. Updated ${reviewed}.</div>
 </section>
 <script type="application/ld+json">${JSON.stringify(faqSchema)}</script>
 ${MARKER_END}`;
