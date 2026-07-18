@@ -104,10 +104,18 @@ def main():
         "aad.org", "jaad.org", "nejm.org", "jamanetwork.com", "bmj.com", "thelancet.com",
         "onlinelibrary.wiley.com", "academic.oup.com", "nature.com", "acc.org",
         "endocrine.org", "supplysidesj.com", "nadacprice.com",
+        # Added 2026-07-18 after CI runs on GitHub Azure IPs surfaced 403/404 on these
+        # public URLs that resolve fine from other networks.
+        "doi.org", "fda.gov", "accessdata.fda.gov",
     )
+    # Also treat 404s from these domains as bot-blocks (some hosts return 404 as an anti-bot signal from Azure IPs)
+    BOT_BLOCK_404_DOMAINS = ("fda.gov", "accessdata.fda.gov")
     def is_bot_blocked(url, status):
-        if status != 403: return False
-        return any(f"//{d}" in url or f".{d}" in url for d in BOT_BLOCK_DOMAINS)
+        if status == 403:
+            return any(f"//{d}" in url or f".{d}" in url for d in BOT_BLOCK_DOMAINS)
+        if status == 404:
+            return any(f"//{d}" in url or f".{d}" in url for d in BOT_BLOCK_404_DOMAINS)
+        return False
 
     broken = []
     warn_bot_blocked = []
