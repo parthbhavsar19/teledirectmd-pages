@@ -4137,15 +4137,6 @@
       "handle": "filesystem"
     },
     {
-      "src": "/(.*)",
-      "dest": "https://pepper-saxophone-p8le.squarespace.com/$1",
-      "headers": {
-        "X-Content-Type-Options": "nosniff",
-        "X-Frame-Options": "SAMEORIGIN",
-        "Referrer-Policy": "strict-origin-when-cross-origin"
-      }
-    },
-    {
       "src": "/symptoms/?",
       "headers": {
         "Location": "/what-we-treat/"
@@ -4235,6 +4226,15 @@
         "Location": "/cost/sore-throat-treatment-cost/"
       },
       "status": 301
+    },
+    {
+      "src": "/(.*)",
+      "dest": "https://pepper-saxophone-p8le.squarespace.com/$1",
+      "headers": {
+        "X-Content-Type-Options": "nosniff",
+        "X-Frame-Options": "SAMEORIGIN",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      }
     }
   ]
 }
