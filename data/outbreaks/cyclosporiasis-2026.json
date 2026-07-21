@@ -3,16 +3,19 @@
   "slug": "cyclosporiasis-outbreak-2026-guide",
   "outbreakActive": true,
   "season": "May 1 – August 31, 2026",
-  "lastVerified": "2026-07-17",
+  "lastVerified": "2026-07-21",
   "sourceIdentified": {
-    "product": "Shredded iceberg lettuce from Mexico served at Taco Bell locations in Indiana, Kentucky, Michigan, Ohio, and West Virginia",
-    "confirmedBy": "FDA & CDC (advisory July 15–16, 2026)",
+    "product": "Shredded iceberg lettuce from Taylor Farms de Mexico (central Mexico) served at Taco Bell locations in Indiana, Kentucky, Michigan, Ohio, and West Virginia",
+    "confirmedBy": "FDA & CDC epidemiologic and traceback data (advisory July 16–17, 2026; still active July 21)",
     "clusterCases": 1644,
     "clusterHospitalizations": 94,
-    "supplierNote": "FDA traced it to a single lettuce supplier in Mexico but has not publicly named the company; news outlets (Washington Post, CNN, Fox Business) report it as Taylor Farms, citing sources familiar with the investigation — not federally confirmed.",
-    "scopeNote": "This 5-state Taco Bell cluster is a subset of the larger nationwide outbreak; other brands, retailers, or products may still be identified.",
+    "basisNote": "The link rests on epidemiologic and traceback evidence (how FDA usually identifies a source), not on a positive food test. CDC states this lettuce 'is contaminated with Cyclospora and is making people sick.'",
+    "falsePositiveNote": "On July 18 the FDA reported a separate border-screening lettuce sample as positive; on July 19 lab experts re-reviewed it and called it a FALSE POSITIVE, and the FDA apologized to Taylor Farms for that lab error. FDA says this does NOT change the ongoing investigation or the recall, which remain in effect. As of July 19 there are no confirmed positive product samples.",
+    "recallStatus": "Taylor Farms de Mexico's voluntary recall of central-Mexico iceberg lettuce (27 states) remains active; Taco Bell has stopped using the implicated supplier.",
+    "scopeNote": "This 5-state Taco Bell cluster is a subset of the larger nationwide outbreak; other products may still be identified for remaining cases.",
     "sourceUrl": "https://www.fda.gov/food/outbreaks-foodborne-illness/investigation-5-state-outbreak-cyclospora-illnesses-iceberg-lettuce-july-2026",
-    "sourceName": "FDA Outbreak Advisory"
+    "sourceName": "FDA Outbreak Advisory",
+    "cdcUrl": "https://www.cdc.gov/cyclosporiasis/outbreaks/07-26/investigation.html"
   },
   "cdc": {
     "asOf": "2026-07-13",
