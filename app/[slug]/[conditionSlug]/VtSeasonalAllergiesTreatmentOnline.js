@@ -26,6 +26,7 @@
  *   • All .gov and clinical society citations are live <a href> tags
  */
 import FaqAccordion from '../../components/FaqAccordion';
+import { VtNationalStyle } from '../../components/VtNationalChrome';
 
 const PAGE_URL = 'https://teledirectmd.com/vt/seasonal-allergies-treatment-online/';
 const PAGE_TITLE = 'Seasonal Allergies Treatment Online in Vermont | TeleDirectMD';
@@ -230,7 +231,8 @@ export default function VtSeasonalAllergiesTreatmentOnline() {
         />
       ))}
 
-      <div className="tdmd-vt-uti">
+      <div className="tdmd-vt-uti tdmd-natl">
+        <VtNationalStyle />
         {/* Breadcrumb */}
         <nav className="tdmd-breadcrumbs" aria-label="Breadcrumb">
           <div className="tdmd-container" style={{ paddingTop: '0.5rem', paddingBottom: 0 }}>
@@ -289,7 +291,7 @@ export default function VtSeasonalAllergiesTreatmentOnline() {
                 </ul>
 
                 <div className="tdmd-hero-ctas">
-                  <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
+                  <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit, $79</a>
                   <a href="/vt/" className="tdmd-btn tdmd-btn-outline">Explore Vermont Pages</a>
                   <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
                 </div>

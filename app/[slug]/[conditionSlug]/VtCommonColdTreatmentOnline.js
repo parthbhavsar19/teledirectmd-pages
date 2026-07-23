@@ -13,6 +13,7 @@
  */
 
 import FaqAccordion from '../../components/FaqAccordion';
+import { VtNationalStyle } from '../../components/VtNationalChrome';
 import { WhatDoesThisCostBlock, CompareTeleDirectMDLinkRow, CommonSymptomsBlock } from '../../components/CostCompareModules';
 
 // ────────────────────────────────────────────────────────────────────────────
@@ -223,7 +224,8 @@ export default function VtCommonColdTreatmentOnline() {
       ))}
       <style dangerouslySetInnerHTML={{ __html: PAGE_CSS }} />
 
-      <div className="vt-common-cold-treatment-online">
+      <div className="vt-common-cold-treatment-online tdmd-natl">
+        <VtNationalStyle />
         {/* Breadcrumb */}
         <nav className="tdmd-breadcrumbs" aria-label="Breadcrumb">
           <div className="tdmd-container" style={{ paddingTop: '0.5rem', paddingBottom: 0 }}>
@@ -276,7 +278,7 @@ export default function VtCommonColdTreatmentOnline() {
                 </ul>
 
                 <div className="tdmd-hero-ctas">
-                  <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
+                  <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit, $79</a>
                   <a href="/vt/" className="tdmd-btn tdmd-btn-outline">Explore Vermont Pages</a>
                   <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
                 </div>

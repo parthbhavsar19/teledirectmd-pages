@@ -27,6 +27,7 @@
 // hero — same content, same inline citations, no fenced summary widget. Other
 // pages (/about, /faq) continue to use CitableSummaryBlock.
 import FaqAccordion from '../../components/FaqAccordion';
+import { VtNationalStyle } from '../../components/VtNationalChrome';
 import { WhatDoesThisCostBlock, CompareTeleDirectMDLinkRow, CommonSymptomsBlock } from '../../components/CostCompareModules';
 
 // ────────────────────────────────────────────────────────────────────────────
@@ -377,7 +378,8 @@ export default function VtUtiTreatmentOnline() {
           / FAQPage JSON-LD. Hero is now the first thing the reader sees,
           matching the physician CEO's preferred layout. */}
 
-      <div className="tdmd-vt-uti">
+      <div className="tdmd-vt-uti tdmd-natl">
+        <VtNationalStyle />
         {/* Breadcrumb */}
         <nav className="tdmd-breadcrumbs" aria-label="Breadcrumb">
           <div className="tdmd-container" style={{ paddingTop: '0.5rem', paddingBottom: 0 }}>
@@ -438,7 +440,7 @@ export default function VtUtiTreatmentOnline() {
                 </ul>
 
                 <div className="tdmd-hero-ctas">
-                  <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
+                  <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit, $79</a>
                   <a href="/vt/" className="tdmd-btn tdmd-btn-outline">Explore Vermont Pages</a>
                   <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
                 </div>
