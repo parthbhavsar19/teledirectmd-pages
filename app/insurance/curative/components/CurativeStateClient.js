@@ -48,6 +48,254 @@ const STATE_COPY = {
       },
     ],
   },
+  CA: {
+    conditionPrefix: '/ca/',
+    intro:
+      'California is the largest of the states activated under the Curative agreement. Parth Bhavsar, MD is board-certified in Family Medicine, licensed in California, and treats California members by secure video for the everyday problems that otherwise mean a half day at an urgent care in Los Angeles or the Bay Area.',
+    networkPara:
+      'California members are covered under TeleDirectMD’s direct contract with Curative for Commercial PPO, EPO, and self-funded plans, effective July 7, 2026. The visit is submitted as in-network care, not as an out-of-network claim, and no referral is required.',
+    localPara:
+      'Members connect from Los Angeles, San Diego, San Jose, San Francisco, Fresno, and Sacramento, and from Central Valley and far northern counties where the nearest in-network office visit can be an hour away. Prescriptions are sent electronically to CVS, Walgreens, Rite Aid, Safeway, and Walmart pharmacies statewide.',
+    faqs: [
+      {
+        q: 'Which doctors take Curative insurance in California?',
+        a: 'TeleDirectMD is in-network with Curative in California for Commercial PPO, EPO, and self-funded plans. Visits are with Parth Bhavsar, MD, a board-certified Family Medicine physician licensed in California (NPI 1104323203), and are usually available the same day.',
+      },
+      {
+        q: 'What will a California Curative member pay for a video visit?',
+        a: 'Curative members who complete their annual Baseline Visit within 120 days of their plan start date have $0 copays, $0 deductible, and 0% coinsurance for in-network care, which includes this visit. Members who have not completed the Baseline Visit pay toward their plan deductible, commonly $5,000 individual and $10,000 family on the EPO product. A flat $79 self-pay visit is available if you would rather not use insurance.',
+      },
+      {
+        q: 'Does California telehealth law allow a video visit to count as a full visit?',
+        a: 'Yes. California’s Telehealth Advancement Act (Business and Professions Code Section 2290.5) permits a licensed physician to evaluate and prescribe by real-time video, and the Medical Board of California applies the same standard of care that governs an in-person visit.',
+      },
+      {
+        q: 'Does the Curative contract include anything specific to California?',
+        a: 'Yes. California is one of the jurisdictions with its own regulatory addendum attached to the Curative provider agreement, so the plan is written to meet California-specific requirements for insured members alongside the national contract terms.',
+      },
+      {
+        q: 'Does TeleDirectMD accept Medi-Cal or Medicare plans through Curative?',
+        a: 'No. The Curative agreement covers Commercial PPO, EPO, and self-funded plans only. TeleDirectMD is not in-network with Medi-Cal, Managed Medi-Cal, CHIP, or Medicare-Medicaid plans, and does not bill them in any state. The $79 flat self-pay visit remains available.',
+      },
+    ],
+  },
+  DC: {
+    conditionPrefix: '/dc/',
+    intro:
+      'District of Columbia members are covered under the Curative agreement, and visits are with Parth Bhavsar, MD, board-certified in Family Medicine and licensed in the District. A video visit fits around a workday downtown rather than replacing one.',
+    networkPara:
+      'The District is covered by TeleDirectMD’s direct contract with Curative for Commercial PPO, EPO, and self-funded plans, effective July 7, 2026. Visits bill as in-network care at the contracted rate, with no referral needed.',
+    localPara:
+      'Members join from Capitol Hill, Georgetown, Dupont Circle, Columbia Heights, Foggy Bottom, and Brookland, including commuters who live in the District but work irregular hours. Prescriptions route electronically to CVS, Walgreens, Rite Aid, Giant Food, and Walmart pharmacies across the District.',
+    faqs: [
+      {
+        q: 'Which doctors take Curative insurance in Washington, D.C.?',
+        a: 'TeleDirectMD is in-network with Curative in the District of Columbia for Commercial PPO, EPO, and self-funded plans. Visits are with Parth Bhavsar, MD (NPI 1104323203), board-certified in Family Medicine and licensed in the District.',
+      },
+      {
+        q: 'What will a District of Columbia Curative member pay?',
+        a: 'Members who complete their annual Baseline Visit within 120 days of their plan start date have $0 copays, $0 deductible, and 0% coinsurance for in-network care, including this visit. Without the Baseline Visit, the visit applies to your plan deductible, commonly $5,000 individual and $10,000 family on the EPO product. The flat $79 self-pay option is always available.',
+      },
+      {
+        q: 'Can a D.C. physician start care by telehealth?',
+        a: 'Yes. D.C. Code Section 3-1201.05 allows a physician-patient relationship to be established through telehealth, and the D.C. Board of Medicine requires an adequate evaluation before prescribing, at the same standard of care as an in-person encounter.',
+      },
+      {
+        q: 'Is there a District-specific part of the Curative contract?',
+        a: 'Yes. A District of Columbia regulatory addendum sits alongside the national Curative provider agreement, so District-specific requirements for insured members are built into the contract that covers your visit.',
+      },
+      {
+        q: 'Does TeleDirectMD bill D.C. Medicaid or Alliance plans through Curative?',
+        a: 'No. The Curative agreement is limited to Commercial PPO, EPO, and self-funded plans. TeleDirectMD is not in-network with D.C. Medicaid, Managed Medicaid, CHIP, or Medicare-Medicaid plans, and does not bill them in any state. Self-pay is $79 flat.',
+      },
+    ],
+  },
+  FL: {
+    conditionPrefix: '/fl/',
+    intro:
+      'Florida members are covered under the Curative agreement, with visits handled by Parth Bhavsar, MD, board-certified in Family Medicine and licensed in Florida. Same-day video visits cover the routine adult problems that fill Florida urgent care waiting rooms.',
+    networkPara:
+      'Florida is covered by TeleDirectMD’s direct contract with Curative for Commercial PPO, EPO, and self-funded plans, effective July 7, 2026, so a video visit processes as in-network care rather than an out-of-network claim.',
+    localPara:
+      'Members connect from Jacksonville, Miami, Tampa, Orlando, St. Petersburg, and Fort Lauderdale, and from Panhandle and inland counties where driving to an in-network office is the main obstacle. Prescriptions go electronically to CVS, Walgreens, Publix, Winn-Dixie, and Walmart pharmacies.',
+    faqs: [
+      {
+        q: 'Which doctors take Curative insurance in Florida?',
+        a: 'TeleDirectMD is in-network with Curative in Florida for Commercial PPO, EPO, and self-funded plans. Visits are with Parth Bhavsar, MD (NPI 1104323203), board-certified in Family Medicine and licensed in Florida, usually same day.',
+      },
+      {
+        q: 'What will a Florida Curative member pay for a video visit?',
+        a: 'Members who complete their annual Baseline Visit within 120 days of their plan start date have $0 copays, $0 deductible, and 0% coinsurance for in-network care, including this visit. Members who have not completed it pay toward their plan deductible, commonly $5,000 individual and $10,000 family on the EPO product. A flat $79 self-pay visit is also available.',
+      },
+      {
+        q: 'Does Florida law allow prescribing after a video visit?',
+        a: 'Yes. Florida Statute 456.47 lets a registered telehealth provider establish a patient relationship and prescribe by video for adult conditions, subject to the prevailing standard of care. Controlled substances are outside what TeleDirectMD prescribes.',
+      },
+      {
+        q: 'Is Florida covered by a state addendum in the Curative contract?',
+        a: 'Yes. Florida has a dedicated regulatory addendum in the Curative provider agreement, meaning the plan meets Florida-specific requirements for insured members in addition to the national contract terms.',
+      },
+      {
+        q: 'Does TeleDirectMD accept Florida Medicaid or Medicare plans through Curative?',
+        a: 'No. The Curative agreement covers Commercial PPO, EPO, and self-funded plans only. TeleDirectMD is not in-network with Florida Medicaid, Managed Medicaid, Florida KidCare (CHIP), or Medicare-Medicaid plans, in any state. The $79 flat self-pay visit remains available.',
+      },
+    ],
+  },
+  IN: {
+    conditionPrefix: '/in/',
+    intro:
+      'Indiana members are covered under the Curative agreement. Parth Bhavsar, MD is board-certified in Family Medicine and licensed in Indiana, and sees Indiana members by secure video for common adult conditions and stable medication refills.',
+    networkPara:
+      'Indiana is covered by TeleDirectMD’s direct contract with Curative for Commercial PPO, EPO, and self-funded plans, effective July 7, 2026. Benefits and any remaining deductible are verified before the visit, and the claim is filed as in-network care.',
+    localPara:
+      'Members join from Indianapolis, Fort Wayne, Evansville, South Bend, Carmel, and Bloomington, as well as smaller counties where the nearest urgent care closes in the early evening. Prescriptions are routed electronically to CVS, Walgreens, Kroger, Meijer, and Walmart pharmacies.',
+    faqs: [
+      {
+        q: 'Which doctors take Curative insurance in Indiana?',
+        a: 'TeleDirectMD is in-network with Curative in Indiana for Commercial PPO, EPO, and self-funded plans. Visits are with Parth Bhavsar, MD (NPI 1104323203), board-certified in Family Medicine and licensed in Indiana.',
+      },
+      {
+        q: 'What will an Indiana Curative member pay?',
+        a: 'Members who complete their annual Baseline Visit within 120 days of their plan start date have $0 copays, $0 deductible, and 0% coinsurance for in-network care, including this visit. Otherwise the visit applies to your plan deductible, commonly $5,000 individual and $10,000 family on the EPO product. Self-pay is a flat $79.',
+      },
+      {
+        q: 'Does Indiana allow a new patient relationship to start by telehealth?',
+        a: 'Yes. Indiana Code 25-1-9.5 permits a licensed provider to establish a provider-patient relationship through telehealth, with prescribing authority consistent with in-person standards of care.',
+      },
+      {
+        q: 'Does the Curative agreement address Indiana specifically?',
+        a: 'Yes. The provider agreement includes an Indiana regulatory addendum, so the plan is written to satisfy Indiana-specific requirements for insured members.',
+      },
+      {
+        q: 'Does TeleDirectMD accept Indiana Medicaid or HIP plans through Curative?',
+        a: 'No. Coverage is limited to Commercial PPO, EPO, and self-funded plans. TeleDirectMD is not in-network with Indiana Medicaid, the Healthy Indiana Plan, CHIP, or Medicare-Medicaid plans, and does not bill them in any state. The $79 self-pay visit is still available.',
+      },
+    ],
+  },
+  LA: {
+    conditionPrefix: '/la/',
+    intro:
+      'Louisiana members are covered under the Curative agreement, with visits handled by Parth Bhavsar, MD, board-certified in Family Medicine and licensed in Louisiana. Video visits suit the routine problems that would otherwise mean an after-hours clinic trip.',
+    networkPara:
+      'Louisiana is covered by TeleDirectMD’s direct contract with Curative for Commercial PPO, EPO, and self-funded plans, effective July 7, 2026, billed at the contracted in-network rate.',
+    localPara:
+      'Members connect from New Orleans, Baton Rouge, Shreveport, Lafayette, Lake Charles, and Monroe, including parishes where storm season and long drives make a scheduled office visit unreliable. Prescriptions go electronically to CVS, Walgreens, Winn-Dixie, Brookshire’s, and Walmart pharmacies.',
+    faqs: [
+      {
+        q: 'Which doctors take Curative insurance in Louisiana?',
+        a: 'TeleDirectMD is in-network with Curative in Louisiana for Commercial PPO, EPO, and self-funded plans. Visits are with Parth Bhavsar, MD (NPI 1104323203), board-certified in Family Medicine and licensed in Louisiana.',
+      },
+      {
+        q: 'What will a Louisiana Curative member pay for a video visit?',
+        a: 'Members who complete their annual Baseline Visit within 120 days of their plan start date have $0 copays, $0 deductible, and 0% coinsurance for in-network care, including this visit. Members who have not completed it pay toward their plan deductible, commonly $5,000 individual and $10,000 family on the EPO product. A flat $79 self-pay visit is available.',
+      },
+      {
+        q: 'What does Louisiana require of a telemedicine visit?',
+        a: 'Louisiana Revised Statutes Title 37, Section 1271.1 permits telemedicine by a licensed practitioner, and the Louisiana State Board of Medical Examiners requires the same standard of care and documentation as in-person treatment.',
+      },
+      {
+        q: 'Is Louisiana an addendum state under the Curative contract?',
+        a: 'Yes. Louisiana is one of the addendum jurisdictions under the Curative provider agreement, so Louisiana-specific requirements for insured members are incorporated into the contract behind your visit.',
+      },
+      {
+        q: 'Does TeleDirectMD accept Louisiana Medicaid or Healthy Louisiana plans through Curative?',
+        a: 'No. The Curative agreement covers Commercial PPO, EPO, and self-funded plans only. TeleDirectMD is not in-network with Louisiana Medicaid, Healthy Louisiana managed care, LaCHIP, or Medicare-Medicaid plans, in any state. Self-pay is $79 flat.',
+      },
+    ],
+  },
+  MD: {
+    conditionPrefix: '/md/',
+    intro:
+      'Maryland members are covered under the Curative agreement. Parth Bhavsar, MD is board-certified in Family Medicine and licensed in Maryland, and treats Maryland members by secure video, usually the same day.',
+    networkPara:
+      'Maryland is covered by TeleDirectMD’s direct contract with Curative for Commercial PPO, EPO, and self-funded plans, effective July 7, 2026. No referral is required, and the visit is filed as in-network care.',
+    localPara:
+      'Members join from Baltimore, Columbia, Silver Spring, Frederick, Germantown, and Waldorf, including commuters in the Washington and Baltimore corridors who cannot give up a workday for a clinic visit. Prescriptions route electronically to CVS, Walgreens, Rite Aid, Giant Food, and Walmart pharmacies.',
+    faqs: [
+      {
+        q: 'Which doctors take Curative insurance in Maryland?',
+        a: 'TeleDirectMD is in-network with Curative in Maryland for Commercial PPO, EPO, and self-funded plans. Visits are with Parth Bhavsar, MD (NPI 1104323203), board-certified in Family Medicine and licensed in Maryland.',
+      },
+      {
+        q: 'What will a Maryland Curative member pay?',
+        a: 'Members who complete their annual Baseline Visit within 120 days of their plan start date have $0 copays, $0 deductible, and 0% coinsurance for in-network care, including this visit. Without it, the visit applies to your plan deductible, commonly $5,000 individual and $10,000 family on the EPO product. The flat $79 self-pay rate is always available.',
+      },
+      {
+        q: 'Does Maryland treat a telehealth visit the same as an office visit?',
+        a: 'Maryland Health-General Article Section 19-319 supports forming a bona fide patient relationship through interactive audio and video, and Maryland requires telehealth coverage parity for services that would be covered in person.',
+      },
+      {
+        q: 'Does the Curative contract include a Maryland addendum?',
+        a: 'Yes. The provider agreement attaches a Maryland regulatory addendum, so the plan meets Maryland-specific requirements for insured members on top of the national terms.',
+      },
+      {
+        q: 'Does TeleDirectMD accept Maryland Medicaid or HealthChoice plans through Curative?',
+        a: 'No. The agreement covers Commercial PPO, EPO, and self-funded plans only. TeleDirectMD is not in-network with Maryland Medicaid, HealthChoice managed care, CHIP, or Medicare-Medicaid plans, and does not bill them in any state. Self-pay is $79 flat.',
+      },
+    ],
+  },
+  OH: {
+    conditionPrefix: '/oh/',
+    intro:
+      'Ohio members are covered under the Curative agreement, with visits handled by Parth Bhavsar, MD, board-certified in Family Medicine and licensed in Ohio. Video visits cover the everyday adult conditions and stable refills that do not need hands-on examination.',
+    networkPara:
+      'Ohio is covered by TeleDirectMD’s direct contract with Curative for Commercial PPO, EPO, and self-funded plans, effective July 7, 2026, and the visit is processed as in-network care.',
+    localPara:
+      'Members connect from Columbus, Cleveland, Cincinnati, Toledo, Akron, and Dayton, and from Appalachian counties where primary care appointments run weeks out. Prescriptions are sent electronically to CVS, Walgreens, Kroger, Giant Eagle, and Walmart pharmacies.',
+    faqs: [
+      {
+        q: 'Which doctors take Curative insurance in Ohio?',
+        a: 'TeleDirectMD is in-network with Curative in Ohio for Commercial PPO, EPO, and self-funded plans. Visits are with Parth Bhavsar, MD (NPI 1104323203), board-certified in Family Medicine and licensed in Ohio.',
+      },
+      {
+        q: 'What will an Ohio Curative member pay for a video visit?',
+        a: 'Members who complete their annual Baseline Visit within 120 days of their plan start date have $0 copays, $0 deductible, and 0% coinsurance for in-network care, including this visit. Members who have not completed it pay toward their plan deductible, commonly $5,000 individual and $10,000 family on the EPO product. A flat $79 self-pay visit is available.',
+      },
+      {
+        q: 'What does Ohio require for telehealth prescribing?',
+        a: 'Ohio Revised Code Section 4743.09 authorizes telehealth care, and the State Medical Board of Ohio applies the same standard of care, prescribing rules, and documentation standards that apply to in-person practice.',
+      },
+      {
+        q: 'Is there an Ohio-specific piece of the Curative contract?',
+        a: 'Yes. Ohio carries its own regulatory addendum within the Curative provider agreement, which means the plan is written to meet Ohio-specific requirements for insured members.',
+      },
+      {
+        q: 'Does TeleDirectMD accept Ohio Medicaid or Medicare plans through Curative?',
+        a: 'No. The Curative agreement covers Commercial PPO, EPO, and self-funded plans only. TeleDirectMD is not in-network with Ohio Medicaid, Managed Medicaid, CHIP, or Medicare-Medicaid plans, in any state. The $79 flat self-pay visit remains available.',
+      },
+    ],
+  },
+  TX: {
+    conditionPrefix: '/tx/',
+    intro:
+      'Texas is the largest activated state by member volume under the Curative agreement, and Curative is a Texas-founded plan. Parth Bhavsar, MD is board-certified in Family Medicine, licensed in Texas, and sees Texas members by secure video for the same problems handled at a primary care or urgent care office.',
+    networkPara:
+      'Texas members are covered under TeleDirectMD’s direct contract with Curative for Commercial PPO, EPO, and self-funded plans, effective July 7, 2026, so the visit is billed as in-network care rather than an out-of-network claim.',
+    localPara:
+      'Members connect from Houston, San Antonio, Dallas, Austin, Fort Worth, and El Paso, and from West Texas and Rio Grande Valley counties where the nearest in-network clinic can be a long drive. Prescriptions are routed electronically to CVS, Walgreens, H-E-B, Kroger, and Walmart pharmacies statewide.',
+    faqs: [
+      {
+        q: 'Which doctors take Curative insurance in Texas?',
+        a: 'TeleDirectMD is in-network with Curative in Texas for Commercial PPO, EPO, and self-funded plans. Visits are with Parth Bhavsar, MD, a board-certified Family Medicine physician licensed in Texas (NPI 1104323203), usually available the same day.',
+      },
+      {
+        q: 'What will a Texas Curative member pay for a video visit?',
+        a: 'Curative members who complete their annual Baseline Visit within 120 days of their plan start date have $0 copays, $0 deductible, and 0% coinsurance for in-network care, which includes this visit. Members who have not completed the Baseline Visit pay toward their plan deductible, commonly $5,000 individual and $10,000 family on the EPO product. A flat $79 self-pay visit is available either way.',
+      },
+      {
+        q: 'Does Texas require an in-person visit first?',
+        a: 'No. Texas Occupations Code Chapter 111 and Senate Bill 1107 removed the prior in-person visit requirement, so a physician-patient relationship can be established by video under the same standard of care as an office visit.',
+      },
+      {
+        q: 'Is Texas an addendum state under the Curative contract?',
+        a: 'Yes. Texas is one of the addendum jurisdictions in the Curative provider agreement, so Texas-specific requirements for insured members are folded into the contract that covers your visit.',
+      },
+      {
+        q: 'Does TeleDirectMD accept Texas Medicaid or STAR plans through Curative?',
+        a: 'No. The Curative agreement covers Commercial PPO, EPO, and self-funded plans only. TeleDirectMD is not in-network with Texas Medicaid, STAR or STAR+PLUS managed care, CHIP, or Medicare-Medicaid plans, and does not bill them in any state. The $79 flat self-pay visit remains available.',
+      },
+    ],
+  },
 };
 
 const CONDITIONS = [
@@ -78,7 +326,7 @@ export default function CurativeStateClient({ state }) {
     answerHtml:
       `TeleDirectMD is in-network with Curative in ${state.name} for Commercial PPO, EPO, and self-funded plans (EPO Value, EPO (PPOx), PPO (PPO+), and PPO Max), effective ${state.effectiveDate}. ` +
       `Visits are with Parth Bhavsar, MD (NPI 1104323203), board-certified in Family Medicine and licensed in ${state.name}. ` +
-      `${state.networkAccessNote} ` +
+      `${state.networkAccessNote} ${state.addendumNote} ` +
       'Curative members who complete their annual Baseline Visit within 120 days of their plan start date have $0 copays, $0 deductible, and 0% coinsurance for in-network care, including virtual visits; members who have not completed it are subject to their plan deductible. ' +
       'TeleDirectMD is not in-network with Medicaid, Managed Medicaid, CHIP, or Medicare-Medicaid plans. Self-pay alternative: $79 flat, HSA and FSA eligible.',
     answerText: '',
@@ -203,9 +451,20 @@ export default function CurativeStateClient({ state }) {
           <Ico.Shield c={cColor} s={22} />
           <div>
             <div style={{ fontSize: 15, fontWeight: 700, color: B.navy, marginBottom: 6 }}>How {state.name} members reach the network</div>
-            <p style={{ fontSize: 14, color: B.text, margin: 0, lineHeight: 1.65 }}>{state.networkAccessNote} Credentialing was confirmed active on {state.credentialingConfirmed}.</p>
+            <p style={{ fontSize: 14, color: B.text, margin: 0, lineHeight: 1.65 }}>
+              {state.networkAccessNote}
+              {state.credentialingConfirmed ? ` Credentialing was confirmed active on ${state.credentialingConfirmed}.` : ''}
+            </p>
           </div>
         </div>
+
+        {/* STATE REGULATORY ADDENDUM + LICENSURE */}
+        <section style={{ marginBottom: 40 }}>
+          <h2 style={{ fontFamily: B.fd, fontSize: 22, fontWeight: 700, color: B.navy, margin: '0 0 12px' }}>{state.name} regulatory addendum and licensure</h2>
+          <p style={{ fontSize: 15, color: B.text, margin: '0 0 14px', lineHeight: 1.75 }}>{state.addendumNote}</p>
+          <p style={{ fontSize: 15, color: B.text, margin: '0 0 14px', lineHeight: 1.75 }}>{state.telehealthNote}</p>
+          <p style={{ fontSize: 15, color: B.text, margin: 0, lineHeight: 1.75 }}>{state.licenseNote}</p>
+        </section>
 
         {/* CONTRACTED PLANS */}
         {planDetail && (

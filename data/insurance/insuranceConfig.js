@@ -100,9 +100,9 @@ export const INSURERS = {
     logo: "/logos/curative.svg",
     color: "#0B6E99",
     colorLight: "#E7F4FA",
-    tagline: "Curative employer plans accepted in Georgia",
-    description: "Curative is an employer-sponsored health plan built around a no-copay, no-deductible design for members who complete their annual Baseline Visit. TeleDirectMD is in-network with Curative Commercial PPO, EPO, and self-funded plans in Georgia under an agreement effective July 7, 2026.",
-    states: ["GA"],
+    tagline: "Curative employer plans accepted in 9 states",
+    description: "Curative is an employer-sponsored health plan built around a no-copay, no-deductible design for members who complete their annual Baseline Visit. TeleDirectMD is in-network with Curative Commercial PPO, EPO, and self-funded plans under a national agreement effective July 7, 2026, with live state pages in 9 states including Texas, California, and Florida.",
+    states: ["GA", "CA", "DC", "FL", "IN", "LA", "MD", "OH", "TX"],
     // Curative pages are hub + state only. No insurer x condition matrix pages
     // exist for this payer, so the sitemap must skip the condition loops.
     conditionMatrix: false,
@@ -113,9 +113,9 @@ export const INSURERS = {
     billingCodes: ["99213", "99214"],
     claimsPhone: "See member card",
     metaTitle: "Online Doctor That Accepts Curative Insurance | TeleDirectMD",
-    metaDescription: "TeleDirectMD is in-network with Curative Commercial PPO, EPO, and self-funded plans in Georgia. Members who complete their Baseline Visit typically pay $0 for a virtual visit. $79 flat self-pay always available.",
+    metaDescription: "TeleDirectMD is in-network with Curative Commercial PPO, EPO, and self-funded plans for members in 9 states including Texas, California, and Florida. Members who complete their Baseline Visit typically pay $0 for a virtual visit. $79 flat self-pay always available.",
     h1: "Online Doctor Visits Covered by Curative",
-    heroSubtitle: "TeleDirectMD is in-network with Curative Commercial PPO, EPO, and self-funded plans in Georgia, effective July 7, 2026.",
+    heroSubtitle: "TeleDirectMD is in-network with Curative Commercial PPO, EPO, and self-funded plans for members in 9 states including Texas, California, and Florida, effective July 7, 2026, with more states activating.",
     faqSlug: "curative",
   },
 };
@@ -177,13 +177,9 @@ export const COPAY_DATA = {
     TN: { typical: "$5–$35", employer: "Often $0–$15 for employer plans", note: "UHC Tennessee is strong in the Nashville employer market. Virtual Care benefits frequently $0 for large employer plans." },
     WA: { typical: "$0–$25", employer: "Often $0 for employer plans", note: "UHC Washington has excellent telehealth benefits for tech-sector employer plans in the Seattle–Bellevue corridor." },
   },
-  curative: {
-    GA: {
-      typical: "$0 after Baseline Visit",
-      employer: "$0 for members who complete the Baseline Visit",
-      note: "Curative members who complete their annual Baseline Visit within 120 days of the plan start date have $0 copays, $0 deductible, and 0% coinsurance for in-network care, including virtual visits. Members who have not completed the Baseline Visit are subject to their plan deductible (for example, $5,000 individual and $10,000 family on the EPO product).",
-    },
-  },
+  // Curative cost sharing turns on the Baseline Visit and is identical in every
+  // activated state, so entries are derived from CURATIVE_STATES below.
+  curative: {},
 };
 
 // ─── State-specific contracted plan detail ───────────────────────────────────
@@ -215,28 +211,29 @@ export const STATE_PLAN_DETAILS = {
       note: "Aetna California commercial network — contracted effective April 30, 2026. Plan acceptance is subject to your specific plan benefits and network tier. Self-pay $79 is always available.",
     },
   },
-  curative: {
-    GA: {
-      effectiveDate: "July 7, 2026",
-      effectiveDateISO: "2026-07-07",
-      productLines: ["Commercial PPO", "Commercial EPO", "Self-Funded plans"],
-      excludedLines: ["Medicaid", "Managed Medicaid", "CHIP", "Medicare-Medicaid (MME)", "Dual Special Needs Plan (D-SNP)", "Medicare Advantage", "HMO"],
-      plans: [
-        { name: "Curative EPO Value", productType: "EPO" },
-        { name: "Curative EPO (PPOx)", productType: "EPO" },
-        { name: "Curative PPO (PPO+)", productType: "PPO" },
-        { name: "Curative PPO Max", productType: "PPO" },
-      ],
-      note: "Curative Georgia participating networks per contract Exhibit C, effective July 7, 2026. Plan acceptance is subject to your specific plan benefits. Self-pay $79 is always available.",
-    },
-  },
+  // Curative's participating networks (contract Exhibit C) are national, so the
+  // per-state entries are derived from CURATIVE_STATES below.
+  curative: {},
 };
+
+// Contracted Curative plan families per contract Exhibit C. Identical in every
+// activated state; the state-level variation is the Exhibit D addendum.
+export const CURATIVE_PLANS = [
+  { name: "Curative EPO Value", productType: "EPO" },
+  { name: "Curative EPO (PPOx)", productType: "EPO" },
+  { name: "Curative PPO (PPO+)", productType: "PPO" },
+  { name: "Curative PPO Max", productType: "PPO" },
+];
+
+export const CURATIVE_EXCLUDED_LINES = ["Medicaid", "Managed Medicaid", "CHIP", "Medicare-Medicaid (MME)", "Dual Special Needs Plan (D-SNP)", "Medicare Advantage", "HMO"];
 
 // ─── Curative state enablement ───────────────────────────────────────────────
 // Adding a state here (with enabled: true) is the only change required to ship
 // a new /insurance/curative/{state}/ page. The route's generateStaticParams and
-// the sitemap both read this map. Georgia is the only enabled state until
-// Curative confirms the Exhibit D state list.
+// the sitemap both read this map. The nine enabled states are the jurisdictions
+// with a state regulatory addendum (Exhibit D) attached to the Curative
+// national provider agreement. The contract itself is national; these are the
+// states with live pages today.
 export const CURATIVE_STATES = {
   GA: {
     enabled: true,
@@ -248,10 +245,126 @@ export const CURATIVE_STATES = {
     // Georgia members reach the network through Curative's Cigna Healthcare PPO
     // wrap arrangement. TeleDirectMD participates by direct contract with Curative.
     networkAccessNote: "Georgia members access the network through Curative's Cigna Healthcare PPO wrap network arrangement. TeleDirectMD participates through a direct contract with Curative.",
+    addendumNote: "The Curative provider agreement carries a Georgia regulatory addendum, so the plan is written to satisfy Georgia-specific requirements for insured members alongside the national contract terms.",
+    telehealthNote: "Georgia telehealth rules allow a licensed physician to evaluate and prescribe for adult patients by real-time video when clinically appropriate, held to the same standard of care as an in-person visit.",
     licenseNote: "Parth Bhavsar, MD is board-certified in Family Medicine and licensed to practice in Georgia. Georgia is TeleDirectMD's home state.",
     majorMetros: ["Atlanta", "Savannah", "Augusta", "Columbus", "Macon", "Athens"],
   },
+  CA: {
+    enabled: true,
+    slug: "california",
+    name: "California",
+    effectiveDate: "July 7, 2026",
+    effectiveDateISO: "2026-07-07",
+    networkAccessNote: "California members are covered under TeleDirectMD's direct contract with Curative for Commercial PPO, EPO, and self-funded plans. No referral is required for a virtual visit.",
+    addendumNote: "California is one of the jurisdictions with its own regulatory addendum attached to the Curative provider agreement, which means the plan is written to meet California-specific requirements for insured members.",
+    telehealthNote: "California's Telehealth Advancement Act (Business and Professions Code Section 2290.5) permits care by synchronous video, and the Medical Board of California applies the same standard of care that governs an office visit.",
+    licenseNote: "Parth Bhavsar, MD is board-certified in Family Medicine and licensed to practice in California.",
+    majorMetros: ["Los Angeles", "San Diego", "San Jose", "San Francisco", "Fresno", "Sacramento"],
+  },
+  DC: {
+    enabled: true,
+    slug: "district-of-columbia",
+    name: "District of Columbia",
+    effectiveDate: "July 7, 2026",
+    effectiveDateISO: "2026-07-07",
+    networkAccessNote: "District of Columbia members are covered under TeleDirectMD's direct contract with Curative for Commercial PPO, EPO, and self-funded plans, billed as in-network care rather than an out-of-network claim.",
+    addendumNote: "A District of Columbia regulatory addendum sits alongside the national Curative provider agreement, so District-specific requirements for insured members are built into the contract that covers your visit.",
+    telehealthNote: "The District permits a physician-patient relationship to be established by telehealth (D.C. Code Section 3-1201.05), and the D.C. Telehealth Reimbursement Act requires coverage of services that would be covered in person.",
+    licenseNote: "Parth Bhavsar, MD is board-certified in Family Medicine and licensed to practice in the District of Columbia.",
+    majorMetros: ["Capitol Hill", "Georgetown", "Dupont Circle", "Columbia Heights", "Foggy Bottom", "Brookland"],
+  },
+  FL: {
+    enabled: true,
+    slug: "florida",
+    name: "Florida",
+    effectiveDate: "July 7, 2026",
+    effectiveDateISO: "2026-07-07",
+    networkAccessNote: "Florida members are covered under TeleDirectMD's direct contract with Curative for Commercial PPO, EPO, and self-funded plans, so a video visit processes as in-network care.",
+    addendumNote: "Florida has a dedicated regulatory addendum in the Curative provider agreement, meaning the plan meets Florida-specific requirements for insured members in addition to the national contract terms.",
+    telehealthNote: "Florida Statute 456.47 lets a registered telehealth provider establish a patient relationship and prescribe by video, subject to the prevailing standard of care.",
+    licenseNote: "Parth Bhavsar, MD is board-certified in Family Medicine and licensed to practice in Florida.",
+    majorMetros: ["Jacksonville", "Miami", "Tampa", "Orlando", "St. Petersburg", "Fort Lauderdale"],
+  },
+  IN: {
+    enabled: true,
+    slug: "indiana",
+    name: "Indiana",
+    effectiveDate: "July 7, 2026",
+    effectiveDateISO: "2026-07-07",
+    networkAccessNote: "Indiana members are covered under TeleDirectMD's direct contract with Curative for Commercial PPO, EPO, and self-funded plans. Benefits are verified before the visit.",
+    addendumNote: "Because the Curative provider agreement includes an Indiana regulatory addendum, the plan is written to satisfy Indiana-specific requirements for insured members.",
+    telehealthNote: "Indiana Code 25-1-9.5 allows a licensed provider to establish a provider-patient relationship by telehealth, with prescribing authority consistent with in-person standards.",
+    licenseNote: "Parth Bhavsar, MD is board-certified in Family Medicine and licensed to practice in Indiana.",
+    majorMetros: ["Indianapolis", "Fort Wayne", "Evansville", "South Bend", "Carmel", "Bloomington"],
+  },
+  LA: {
+    enabled: true,
+    slug: "louisiana",
+    name: "Louisiana",
+    effectiveDate: "July 7, 2026",
+    effectiveDateISO: "2026-07-07",
+    networkAccessNote: "Louisiana members are covered under TeleDirectMD's direct contract with Curative for Commercial PPO, EPO, and self-funded plans, billed at the contracted in-network rate.",
+    addendumNote: "Louisiana is an addendum jurisdiction under the Curative provider agreement, so Louisiana-specific requirements for insured members are incorporated into the contract behind your visit.",
+    telehealthNote: "Louisiana Revised Statutes Title 37, Section 1271.1 permits telemedicine by a licensed practitioner, and the Louisiana State Board of Medical Examiners requires the same standard of care and documentation as in-person treatment.",
+    licenseNote: "Parth Bhavsar, MD is board-certified in Family Medicine and licensed to practice in Louisiana.",
+    majorMetros: ["New Orleans", "Baton Rouge", "Shreveport", "Lafayette", "Lake Charles", "Monroe"],
+  },
+  MD: {
+    enabled: true,
+    slug: "maryland",
+    name: "Maryland",
+    effectiveDate: "July 7, 2026",
+    effectiveDateISO: "2026-07-07",
+    networkAccessNote: "Maryland members are covered under TeleDirectMD's direct contract with Curative for Commercial PPO, EPO, and self-funded plans, with no referral required.",
+    addendumNote: "The Curative provider agreement attaches a Maryland regulatory addendum, so the plan meets Maryland-specific requirements for insured members on top of the national terms.",
+    telehealthNote: "Maryland Health-General Article Section 19-319 supports a bona fide patient relationship formed by interactive audio and video, and Maryland requires telehealth coverage parity.",
+    licenseNote: "Parth Bhavsar, MD is board-certified in Family Medicine and licensed to practice in Maryland.",
+    majorMetros: ["Baltimore", "Columbia", "Silver Spring", "Frederick", "Germantown", "Waldorf"],
+  },
+  OH: {
+    enabled: true,
+    slug: "ohio",
+    name: "Ohio",
+    effectiveDate: "July 7, 2026",
+    effectiveDateISO: "2026-07-07",
+    networkAccessNote: "Ohio members are covered under TeleDirectMD's direct contract with Curative for Commercial PPO, EPO, and self-funded plans, processed as in-network care.",
+    addendumNote: "Ohio carries its own regulatory addendum within the Curative provider agreement, which means the plan is written to meet Ohio-specific requirements for insured members.",
+    telehealthNote: "Ohio Revised Code Section 4743.09 authorizes telehealth care, and the State Medical Board of Ohio applies the same standard of care, prescribing rules, and documentation standards as in-person practice.",
+    licenseNote: "Parth Bhavsar, MD is board-certified in Family Medicine and licensed to practice in Ohio.",
+    majorMetros: ["Columbus", "Cleveland", "Cincinnati", "Toledo", "Akron", "Dayton"],
+  },
+  TX: {
+    enabled: true,
+    slug: "texas",
+    name: "Texas",
+    effectiveDate: "July 7, 2026",
+    effectiveDateISO: "2026-07-07",
+    networkAccessNote: "Texas members are covered under TeleDirectMD's direct contract with Curative for Commercial PPO, EPO, and self-funded plans, so the visit is billed as in-network care.",
+    addendumNote: "Texas is one of the addendum jurisdictions in the Curative provider agreement, so Texas-specific requirements for insured members are folded into the contract that covers your visit.",
+    telehealthNote: "Texas Occupations Code Chapter 111 and Senate Bill 1107 removed any prior in-person visit requirement, so a physician-patient relationship can be established by video under the same standard of care.",
+    licenseNote: "Parth Bhavsar, MD is board-certified in Family Medicine and licensed to practice in Texas.",
+    majorMetros: ["Houston", "San Antonio", "Dallas", "Austin", "Fort Worth", "El Paso"],
+  },
 };
+
+// Fill the per-state Curative plan and cost-sharing entries from the state map so
+// activating a state stays a single-place change.
+for (const [code, st] of Object.entries(CURATIVE_STATES)) {
+  STATE_PLAN_DETAILS.curative[code] = {
+    effectiveDate: st.effectiveDate,
+    effectiveDateISO: st.effectiveDateISO,
+    productLines: ["Commercial PPO", "Commercial EPO", "Self-Funded plans"],
+    excludedLines: CURATIVE_EXCLUDED_LINES,
+    plans: CURATIVE_PLANS,
+    note: `Curative ${st.name} participating networks per contract Exhibit C, effective ${st.effectiveDate}, with the ${st.name} regulatory addendum per Exhibit D. Plan acceptance is subject to your specific plan benefits. Self-pay $79 is always available.`,
+  };
+  COPAY_DATA.curative[code] = {
+    typical: "$0 after Baseline Visit",
+    employer: "$0 for members who complete the Baseline Visit",
+    note: `Curative members in ${st.name} who complete their annual Baseline Visit within 120 days of the plan start date have $0 copays, $0 deductible, and 0% coinsurance for in-network care, including virtual visits. Members who have not completed the Baseline Visit are subject to their plan deductible (for example, $5,000 individual and $10,000 family on the EPO product).`,
+  };
+}
 
 /**
  * State codes where Curative is live (config-driven, used by routes and sitemap).
