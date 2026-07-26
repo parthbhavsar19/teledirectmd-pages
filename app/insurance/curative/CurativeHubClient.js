@@ -1,5 +1,5 @@
 'use client';
-import { B, INSURERS, CURATIVE_STATES, getCurativeStateCodes, STATE_PLAN_DETAILS } from '../../../data/insurance/insuranceConfig';
+import { B, INSURERS, CURATIVE_STATES, getCurativeStateCodes, CURATIVE_PLANS } from '../../../data/insurance/insuranceConfig';
 import { FAQ, BookCTA, HowItWorksSteps, Breadcrumb, InsuranceDisclaimer, AnswerBlock } from '../components/InsuranceShared';
 import { Ico } from '../components/InsuranceIcons';
 import { getAggregateRating, getReviewBlock } from '../../../lib/review-schema';
@@ -9,21 +9,21 @@ import MedicaidExclusion from '../../components/MedicaidExclusion';
 
 // Curative is an employer-sponsored health plan. TeleDirectMD contracts directly
 // with Curative; the participating networks per contract Exhibit C are Commercial
-// PPO, EPO, and Self-Funded plans. Georgia is the only live state until Curative
-// confirms the Exhibit D state list, so this hub reads CURATIVE_STATES rather than
-// hardcoding a state roster.
+// PPO, EPO, and Self-Funded plans. The contract is national; live state pages exist
+// for the nine jurisdictions that carry a state regulatory addendum (Exhibit D), so
+// this hub reads CURATIVE_STATES rather than hardcoding a state roster.
 
 const curative = INSURERS.curative;
 const cColor = curative.color;
 const PAGE_URL = 'https://teledirectmd.com/insurance/curative/';
 
 const LIVE_STATES = getCurativeStateCodes().map((code) => CURATIVE_STATES[code]);
-const GA_PLANS = STATE_PLAN_DETAILS.curative.GA;
+const CONTRACT_PLANS = CURATIVE_PLANS;
 
 const CURATIVE_FAQS = [
   {
     q: 'Does Curative insurance cover telehealth visits at TeleDirectMD?',
-    a: 'Yes. TeleDirectMD is in-network with Curative for Commercial PPO, EPO, and self-funded plans under an agreement effective July 7, 2026. Virtual visits are billed to Curative as in-network care using standard office visit codes (CPT 99213 and 99214). Coverage is currently live for Curative members in Georgia.',
+    a: 'Yes. TeleDirectMD is in-network with Curative for Commercial PPO, EPO, and self-funded plans under an agreement effective July 7, 2026. Virtual visits are billed to Curative as in-network care using standard office visit codes (CPT 99213 and 99214). Coverage is live for Curative members in nine states, including Texas, California, and Florida, with more states activating.',
   },
   {
     q: 'Which Curative plans are in-network with TeleDirectMD?',
@@ -38,8 +38,8 @@ const CURATIVE_FAQS = [
     a: 'If you have completed your Baseline Visit, most Curative members pay $0 for an in-network virtual visit with TeleDirectMD. If you have not completed it, the visit applies to your plan deductible at the contracted rate. TeleDirectMD also offers a flat $79 self-pay visit (HSA and FSA eligible) in every state we serve, which some members prefer when a deductible has not been met.',
   },
   {
-    q: 'Is TeleDirectMD in the Curative network in Georgia?',
-    a: 'Yes. Georgia is the first live state for the Curative relationship. Georgia members access the network through Curative’s Cigna Healthcare PPO wrap network arrangement, and TeleDirectMD participates through a direct contract with Curative. Credentialing was confirmed active on July 24, 2026.',
+    q: 'Which states have live Curative coverage with TeleDirectMD?',
+    a: 'Nine states have live pages today: California, the District of Columbia, Florida, Georgia, Indiana, Louisiana, Maryland, Ohio, and Texas. Those are the jurisdictions with a state regulatory addendum attached to the Curative provider agreement. Georgia was the first state activated, where members reach the network through Curative’s Cigna Healthcare PPO wrap arrangement and credentialing was confirmed active on July 24, 2026.',
   },
   {
     q: 'Can I use my Curative plan for virtual urgent care?',
@@ -50,8 +50,8 @@ const CURATIVE_FAQS = [
     a: 'No. The Curative contract covers Commercial PPO, EPO, and self-funded plans only. TeleDirectMD is not in-network with any state Medicaid, Managed Medicaid, CHIP, or Medicare-Medicaid plan, in any state. If your plan is outside the contracted networks, the $79 flat self-pay visit is still available.',
   },
   {
-    q: 'What if I have Curative but live outside Georgia?',
-    a: 'Georgia is the only state currently activated for the Curative agreement. Additional states will be added as Curative confirms the state list, and this page is updated when that happens. In the meantime, the $79 flat self-pay visit is available in every state where TeleDirectMD is licensed.',
+    q: 'What if I have Curative but live outside the nine live states?',
+    a: 'The Curative agreement is national, but live state pages exist today for California, the District of Columbia, Florida, Georgia, Indiana, Louisiana, Maryland, Ohio, and Texas. More states are activated as coverage is confirmed, and this page is updated when that happens. In the meantime, the $79 flat self-pay visit is available in every state where TeleDirectMD is licensed.',
   },
 ];
 
@@ -81,7 +81,7 @@ const SCHEMA = {
       '@id': 'https://teledirectmd.com/#organization',
       'name': 'TeleDirectMD',
       'url': 'https://teledirectmd.com',
-      'description': 'Physician-led telemedicine practice in-network with Curative Commercial PPO, EPO, and self-funded plans in Georgia.',
+      'description': 'Physician-led telemedicine practice in-network with Curative Commercial PPO, EPO, and self-funded plans, with live coverage pages in 9 states including Texas, California, and Florida.',
       'aggregateRating': getAggregateRating(),
     },
     {
@@ -90,11 +90,11 @@ const SCHEMA = {
       'name': 'Parth Bhavsar, MD',
       'identifier': [{ '@type': 'PropertyValue', 'name': 'NPI', 'value': '1104323203' }],
       'medicalSpecialty': 'Family Medicine',
-      'acceptsInsurance': GA_PLANS.plans.map((p) => ({
+      'acceptsInsurance': CONTRACT_PLANS.map((p) => ({
         '@type': 'HealthInsurancePlan',
         'name': p.name,
-        'description': `Curative ${p.productType} plan, in-network with TeleDirectMD in Georgia.`,
-        'validFrom': GA_PLANS.effectiveDateISO,
+        'description': `Curative ${p.productType} plan, in-network with TeleDirectMD in 9 states including Texas, California, and Florida.`,
+        'validFrom': '2026-07-07',
       })),
       'sameAs': ['https://npiregistry.cms.hhs.gov/provider-view/1104323203'],
       ...getReviewBlock(),
@@ -141,7 +141,7 @@ export default function CurativeHubClient() {
     payerSpecificCopy:
       'Curative is an employer-sponsored health plan. The participating networks under the TeleDirectMD agreement, effective July 7, 2026, are Commercial PPO, EPO, and Self-Funded plans, covering the EPO Value, EPO (PPOx), PPO (PPO+), and PPO Max products. ' +
       'Curative members who complete their annual Baseline Visit within 120 days of their plan start date have $0 copays, $0 deductible, and 0% coinsurance for in-network care, including virtual visits. Members who have not completed the Baseline Visit are subject to their plan deductible (for example, $5,000 individual and $10,000 family on the EPO product). ' +
-      'Georgia members access the network through Curative’s Cigna Healthcare PPO wrap network arrangement, and TeleDirectMD participates through a direct contract with Curative. ' +
+      'Live state pages cover the nine jurisdictions with a state regulatory addendum to the agreement: California, the District of Columbia, Florida, Georgia, Indiana, Louisiana, Maryland, Ohio, and Texas. Georgia members access the network through Curative’s Cigna Healthcare PPO wrap network arrangement, and TeleDirectMD participates through a direct contract with Curative. ' +
       'TeleDirectMD is not in-network with Medicaid, Managed Medicaid, CHIP, or Medicare-Medicaid plans in any state. Self-pay alternative: $79 flat, HSA and FSA eligible.',
   });
   // emitAs QAPage so this page carries exactly one FAQPage node (the main graph above).
@@ -167,15 +167,15 @@ export default function CurativeHubClient() {
             Online Doctor Visits Covered<br />by Curative
           </h1>
           <p data-speakable="true" style={{ fontFamily: B.fb, fontSize: 'clamp(16px, 2.5vw, 19px)', color: 'rgba(255,255,255,0.75)', lineHeight: 1.6, margin: '0 0 28px', maxWidth: 600 }}>
-            TeleDirectMD is in-network with Curative Commercial PPO, EPO, and self-funded plans, effective July 7, 2026. See Parth Bhavsar, MD by secure video, usually the same day.
+            TeleDirectMD is in-network with Curative Commercial PPO, EPO, and self-funded plans, effective July 7, 2026, for members in 9 states including Texas, California, and Florida. See Parth Bhavsar, MD by secure video, usually the same day.
           </p>
           <div style={{ display: 'flex', flexWrap: 'wrap', gap: 12 }}>
             <a href="https://www.teledirectmd.com/book-online" target="_blank" rel="noopener"
               style={{ display: 'inline-flex', alignItems: 'center', gap: 8, padding: '14px 28px', background: B.accent, color: B.white, borderRadius: B.rs, fontWeight: 700, fontSize: 15, textDecoration: 'none' }}>
               <Ico.Cal c={B.white} s={18} /> Book with Curative
             </a>
-            <a href="/insurance/curative/georgia/" style={{ display: 'inline-flex', alignItems: 'center', gap: 8, padding: '14px 24px', background: 'rgba(255,255,255,0.1)', color: B.white, borderRadius: B.rs, fontWeight: 600, fontSize: 15, textDecoration: 'none', border: '1px solid rgba(255,255,255,0.2)' }}>
-              Curative coverage in Georgia
+            <a href="/insurance/curative/texas/" style={{ display: 'inline-flex', alignItems: 'center', gap: 8, padding: '14px 24px', background: 'rgba(255,255,255,0.1)', color: B.white, borderRadius: B.rs, fontWeight: 600, fontSize: 15, textDecoration: 'none', border: '1px solid rgba(255,255,255,0.2)' }}>
+              Curative coverage in Texas
             </a>
           </div>
         </div>
@@ -187,7 +187,7 @@ export default function CurativeHubClient() {
         {/* AI ANSWER CAPSULE */}
         <AnswerBlock
           question="Does TeleDirectMD accept Curative insurance?"
-          answer="Yes. TeleDirectMD is in-network with Curative Commercial PPO, EPO, and self-funded plans, currently in Georgia, effective July 7, 2026. Most Curative members who have completed their annual Baseline Visit pay $0 for a virtual visit with a board-certified physician. A $79 flat self-pay option is available in every state we serve."
+          answer="Yes. TeleDirectMD is in-network with Curative Commercial PPO, EPO, and self-funded plans, effective July 7, 2026, with live coverage pages for members in 9 states including Texas, California, and Florida. Most Curative members who have completed their annual Baseline Visit pay $0 for a virtual visit with a board-certified physician. A $79 flat self-pay option is available in every state we serve."
           color={B.teal}
         />
 
@@ -201,7 +201,7 @@ export default function CurativeHubClient() {
                 The participating networks under our Curative agreement are <strong>Commercial PPO</strong>, <strong>Commercial EPO</strong>, and <strong>Self-Funded</strong> plans. In member-facing terms, those are the plans below.
               </p>
               <ul style={{ margin: '0 0 12px', paddingLeft: 20, fontSize: 14, color: B.text, lineHeight: 1.8 }}>
-                {GA_PLANS.plans.map((p) => (
+                {CONTRACT_PLANS.map((p) => (
                   <li key={p.name}><strong>{p.name}</strong> ({p.productType})</li>
                 ))}
               </ul>
@@ -241,7 +241,7 @@ export default function CurativeHubClient() {
         <section style={{ marginBottom: 48 }}>
           <h2 style={{ fontFamily: B.fd, fontSize: 26, fontWeight: 700, color: B.navy, margin: '0 0 8px' }}>Where Curative coverage is live</h2>
           <p style={{ fontSize: 15, color: B.text, margin: '0 0 20px', lineHeight: 1.6 }}>
-            Georgia is the first live state for this agreement. Additional states are added as Curative confirms the contracted state list.
+            The Curative contract is national. Live pages cover the nine jurisdictions with a state regulatory addendum to the agreement, and more states are activated as coverage is confirmed.
           </p>
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(240px, 1fr))', gap: 12 }}>
             {LIVE_STATES.map((s) => (
@@ -286,7 +286,7 @@ export default function CurativeHubClient() {
         />
 
         <div style={{ marginBottom: 48 }}>
-          <InsuranceDisclaimer payerNote="Curative network status reflects our Commercial PPO, EPO, and self-funded contract effective July 7, 2026, with Georgia as the only currently activated state. Cost sharing depends on your plan and on whether your annual Baseline Visit is complete. Verify benefits with Curative before your visit." />
+          <InsuranceDisclaimer payerNote="Curative network status reflects our national Commercial PPO, EPO, and self-funded contract effective July 7, 2026, with live state pages in 9 states including Texas, California, and Florida. Cost sharing depends on your plan and on whether your annual Baseline Visit is complete. Verify benefits with Curative before your visit." />
         </div>
       </div>
     </div>
