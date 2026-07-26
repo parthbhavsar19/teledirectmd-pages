@@ -49,6 +49,7 @@ const PAYER_FAMILIES = [
   { id:'bcbs',  label:'Blue Cross Blue Shield / Anthem / Highmark / Florida Blue',
     match:(name) => /blue cross|bcbs|anthem|highmark|florida blue/i.test(name) },
   { id:'uhc',   label:'UnitedHealthcare', match:(name) => /unitedhealthcare|united healthcare|uhc/i.test(name) },
+  { id:'curative', label:'Curative', match:(name) => /curative/i.test(name) },
   { id:'cigna', label:'Cigna', match:() => false },
   { id:'medicaid', label:'Medicaid / Managed Medicaid', match:() => false },
   { id:'other', label:'Other / not listed', match:() => false },
@@ -420,6 +421,11 @@ function resolveResult(stateAbbr, payerId, planId) {
     planExcluded = true;
     excludeReason = 'Our Florida Blue contract is Commercial-only — Florida Blue Medicare Advantage, Florida Blue Medicaid, and Federal Employee Program (FEP) plans are not in-network.';
   }
+  // Curative is contracted for Commercial PPO, EPO, and self-funded plans only.
+  if (family?.id === 'curative' && (planId === 'hmo' || planId === 'ma')) {
+    planExcluded = true;
+    excludeReason = 'Our Curative contract covers Commercial PPO, EPO, and self-funded plans only. HMO and Medicare Advantage products are not in-network.';
+  }
 
   if (planExcluded) {
     return {
@@ -448,7 +454,7 @@ function resolveResult(stateAbbr, payerId, planId) {
     banner: 'In-Network — You\'re Covered',
     icon: '✓',
     headline: `${displayName} in ${STATE_NAMES[stateAbbr]} — you're in our network.`,
-    text: `Dr. Parth Bhavsar is in-network with ${displayName} in ${STATE_NAMES[stateAbbr]}. ${planId === 'unsure' ? '' : `We accept ${planLabel} plans with this payer. `}Your standard copay applies. We verify your benefits before your visit.`,
+    text: `Dr. Parth Bhavsar is in-network with ${displayName} in ${STATE_NAMES[stateAbbr]}. ${planId === 'unsure' ? '' : `We accept ${planLabel} plans with this payer. `}${family.id === 'curative' ? 'Curative members who have completed their annual Baseline Visit typically have $0 cost sharing for in-network care; members who have not completed it are subject to their plan deductible.' : 'Your standard copay applies.'} We verify your benefits before your visit.`,
     status: 'Active',
     eff: formatDate(matchedActive.effectiveDate),
     plans: matchedActive.plans || 'PPO, HMO, EPO, POS, Medicare Advantage',
@@ -467,8 +473,8 @@ function formatDate(iso) {
 }
 
 const FAQ_ITEMS = [
-  { q:'Does TeleDirectMD accept insurance?', a:'Yes. We are in-network with Aetna, Blue Cross Blue Shield affiliates (Florida Blue, Anthem, Highmark, BCBS-IL, BCBS-TX), and UnitedHealthcare across 17 states. Use the coverage checker above to confirm your specific plan.' },
-  { q:'Which plan types do you accept?', a:'PPO, HMO, EPO, POS, and Medicare Advantage. State-specific exclusions apply (for example, Aetna California excludes HMO and QPOS; UnitedHealthcare in Illinois, Minnesota, and Texas is commercial-only). The checker above shows your exact result.' },
+  { q:'Does TeleDirectMD accept insurance?', a:'Yes. We are in-network with Aetna, Blue Cross Blue Shield affiliates (Florida Blue, Anthem, Highmark, BCBS-IL, BCBS-TX), UnitedHealthcare, and Curative (Georgia) across 17 states. Use the coverage checker above to confirm your specific plan.' },
+  { q:'Which plan types do you accept?', a:'PPO, HMO, EPO, POS, and Medicare Advantage. State-specific exclusions apply (for example, Aetna California excludes HMO and QPOS; UnitedHealthcare in Illinois, Minnesota, and Texas is commercial-only; Curative is Commercial PPO, EPO, and self-funded only). The checker above shows your exact result.' },
   { q:'Does TeleDirectMD accept Medicaid?', a:'No. We are not in-network with any Medicaid program, Managed Medicaid plan, CHIP, Medicare-Medicaid (MME), or Dual Special Needs Plan (D-SNP) in any state we serve. Patients with Medicaid-only coverage can still book a $79 self-pay visit (HSA/FSA eligible).' },
   { q:'How much is a self-pay visit?', a:'$79 flat fee. Includes the physician consultation, any clinically appropriate prescriptions, and a work or school excuse note when medically appropriate. HSA and FSA cards accepted.' },
   { q:'What if my plan is not in-network?', a:'You can book as a self-pay patient for $79 and submit an out-of-network claim to your insurer for partial reimbursement. Many commercial plans cover out-of-network telehealth.' },

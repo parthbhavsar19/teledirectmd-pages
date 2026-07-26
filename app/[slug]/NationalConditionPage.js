@@ -691,7 +691,8 @@ export default function NationalConditionPage({ conditionSlug }) {
         };
         const insCondSlug = nationalToInsurance[conditionSlug];
         if (!insCondSlug || !INSURANCE_CONDITIONS[insCondSlug]) return null;
-        const insurerLinks = Object.values(INSURERS).map((ins) => ({
+        // Insurers flagged conditionMatrix: false have no /insurance/{insurer}/{condition}/ page.
+        const insurerLinks = Object.values(INSURERS).filter((ins) => ins.conditionMatrix !== false).map((ins) => ({
           slug: ins.slug, name: ins.name,
           hubUrl: `/insurance/${ins.slug}`,
           condUrl: `/insurance/${ins.slug}/${insCondSlug}`,

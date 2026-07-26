@@ -1,7 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import { getStates, getConditionSlugs } from '../lib/get-data';
-import { INSURERS, INSURANCE_CONDITIONS } from '../data/insurance/insuranceConfig';
+import { INSURERS, INSURANCE_CONDITIONS, getInsurerStateSlugs } from '../data/insurance/insuranceConfig';
 import { AETNA_CA_CONDITION_DETAILS } from '../data/insurance/aetna-ca-conditions';
 import { isRetiredInsuranceUrl } from '../data/insurance/retired-urls';
 import { COST_PAGE_SLUGS } from '../lib/cost-pages-config';
@@ -62,6 +62,9 @@ const INSURER_STATES = {
   aetna: ['arizona','california','colorado','florida','georgia','illinois','michigan','minnesota','ohio','pennsylvania','tennessee'],
   'blue-cross-blue-shield': ['florida','georgia','illinois','pennsylvania','texas'],
   'united-healthcare': ['colorado','georgia','illinois','minnesota','north-carolina','new-jersey','ohio','pennsylvania','tennessee','washington'],
+  // Curative state pages are config-driven: enabling a state in CURATIVE_STATES
+  // adds it here, to the route's generateStaticParams, and to the sitemap at once.
+  curative: getInsurerStateSlugs('curative'),
 };
 
 function url(path, priority = 0.7, changefreq = 'monthly') {
@@ -168,7 +171,11 @@ export default function sitemap() {
 
   // 7) Insurer × condition national pages (/insurance/{insurer}/{condition}/) — 30 pages
   const insuranceConditionSlugs = Object.keys(INSURANCE_CONDITIONS);
+  // Insurers flagged conditionMatrix: false have hub + state pages only, so the
+  // insurer x condition and insurer x state x condition URLs do not exist for them.
+  const hasConditionMatrix = (slug) => INSURERS[slug]?.conditionMatrix !== false;
   for (const insurerSlug of Object.keys(INSURERS)) {
+    if (!hasConditionMatrix(insurerSlug)) continue;
     for (const condSlug of insuranceConditionSlugs) {
       const p = `/insurance/${insurerSlug}/${condSlug}/`;
       if (!isRetiredInsuranceUrl(p)) urls.push(url(p, 0.85, 'weekly'));
@@ -177,6 +184,7 @@ export default function sitemap() {
 
   // 8) Insurer × state × condition triple-matrix pages — the biggest bucket
   for (const [insurerSlug, stateList] of Object.entries(INSURER_STATES)) {
+    if (!hasConditionMatrix(insurerSlug)) continue;
     for (const stateSlug of stateList) {
       for (const condSlug of insuranceConditionSlugs) {
         const p = `/insurance/${insurerSlug}/${stateSlug}/${condSlug}/`;
