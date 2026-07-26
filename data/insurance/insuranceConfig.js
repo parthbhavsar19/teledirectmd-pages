@@ -92,6 +92,32 @@ export const INSURERS = {
     heroSubtitle: "TeleDirectMD is in-network with UnitedHealthcare PPO, HMO, EPO, POS, and Medicare Advantage plans in Arizona, California, Colorado, Florida, Georgia, Illinois, Louisiana, Michigan, Minnesota, North Carolina, New Jersey, Ohio, Oklahoma, Pennsylvania, Tennessee, Texas, and Washington. Medicare Advantage is not in-network in Illinois, Minnesota, or Texas.",
     faqSlug: "uhc",
   },
+  curative: {
+    id: "curative",
+    name: "Curative",
+    fullName: "Curative Insurance Company",
+    slug: "curative",
+    logo: "/logos/curative.svg",
+    color: "#0B6E99",
+    colorLight: "#E7F4FA",
+    tagline: "Curative employer plans accepted in Georgia",
+    description: "Curative is an employer-sponsored health plan built around a no-copay, no-deductible design for members who complete their annual Baseline Visit. TeleDirectMD is in-network with Curative Commercial PPO, EPO, and self-funded plans in Georgia under an agreement effective July 7, 2026.",
+    states: ["GA"],
+    // Curative pages are hub + state only. No insurer x condition matrix pages
+    // exist for this payer, so the sitemap must skip the condition loops.
+    conditionMatrix: false,
+    planTypes: ["Commercial PPO", "Commercial EPO", "Self-Funded plans", "EPO Value", "EPO (PPOx)", "PPO (PPO+)", "PPO Max"],
+    notAccepted: ["Medicaid", "Managed Medicaid", "CHIP", "Medicare-Medicaid (MME)", "Dual Special Needs Plan (D-SNP)", "Medicare Advantage", "HMO"],
+    memberPortal: "https://curative.com",
+    providerDirectory: "https://curative.com",
+    billingCodes: ["99213", "99214"],
+    claimsPhone: "See member card",
+    metaTitle: "Online Doctor That Accepts Curative Insurance | TeleDirectMD",
+    metaDescription: "TeleDirectMD is in-network with Curative Commercial PPO, EPO, and self-funded plans in Georgia. Members who complete their Baseline Visit typically pay $0 for a virtual visit. $79 flat self-pay always available.",
+    h1: "Online Doctor Visits Covered by Curative",
+    heroSubtitle: "TeleDirectMD is in-network with Curative Commercial PPO, EPO, and self-funded plans in Georgia, effective July 7, 2026.",
+    faqSlug: "curative",
+  },
 };
 
 export const STATE_NAMES = {
@@ -151,6 +177,13 @@ export const COPAY_DATA = {
     TN: { typical: "$5–$35", employer: "Often $0–$15 for employer plans", note: "UHC Tennessee is strong in the Nashville employer market. Virtual Care benefits frequently $0 for large employer plans." },
     WA: { typical: "$0–$25", employer: "Often $0 for employer plans", note: "UHC Washington has excellent telehealth benefits for tech-sector employer plans in the Seattle–Bellevue corridor." },
   },
+  curative: {
+    GA: {
+      typical: "$0 after Baseline Visit",
+      employer: "$0 for members who complete the Baseline Visit",
+      note: "Curative members who complete their annual Baseline Visit within 120 days of the plan start date have $0 copays, $0 deductible, and 0% coinsurance for in-network care, including virtual visits. Members who have not completed the Baseline Visit are subject to their plan deductible (for example, $5,000 individual and $10,000 family on the EPO product).",
+    },
+  },
 };
 
 // ─── State-specific contracted plan detail ───────────────────────────────────
@@ -182,7 +215,65 @@ export const STATE_PLAN_DETAILS = {
       note: "Aetna California commercial network — contracted effective April 30, 2026. Plan acceptance is subject to your specific plan benefits and network tier. Self-pay $79 is always available.",
     },
   },
+  curative: {
+    GA: {
+      effectiveDate: "July 7, 2026",
+      effectiveDateISO: "2026-07-07",
+      productLines: ["Commercial PPO", "Commercial EPO", "Self-Funded plans"],
+      excludedLines: ["Medicaid", "Managed Medicaid", "CHIP", "Medicare-Medicaid (MME)", "Dual Special Needs Plan (D-SNP)", "Medicare Advantage", "HMO"],
+      plans: [
+        { name: "Curative EPO Value", productType: "EPO" },
+        { name: "Curative EPO (PPOx)", productType: "EPO" },
+        { name: "Curative PPO (PPO+)", productType: "PPO" },
+        { name: "Curative PPO Max", productType: "PPO" },
+      ],
+      note: "Curative Georgia participating networks per contract Exhibit C, effective July 7, 2026. Plan acceptance is subject to your specific plan benefits. Self-pay $79 is always available.",
+    },
+  },
 };
+
+// ─── Curative state enablement ───────────────────────────────────────────────
+// Adding a state here (with enabled: true) is the only change required to ship
+// a new /insurance/curative/{state}/ page. The route's generateStaticParams and
+// the sitemap both read this map. Georgia is the only enabled state until
+// Curative confirms the Exhibit D state list.
+export const CURATIVE_STATES = {
+  GA: {
+    enabled: true,
+    slug: "georgia",
+    name: "Georgia",
+    effectiveDate: "July 7, 2026",
+    effectiveDateISO: "2026-07-07",
+    credentialingConfirmed: "July 24, 2026",
+    // Georgia members reach the network through Curative's Cigna Healthcare PPO
+    // wrap arrangement. TeleDirectMD participates by direct contract with Curative.
+    networkAccessNote: "Georgia members access the network through Curative's Cigna Healthcare PPO wrap network arrangement. TeleDirectMD participates through a direct contract with Curative.",
+    licenseNote: "Parth Bhavsar, MD is board-certified in Family Medicine and licensed to practice in Georgia. Georgia is TeleDirectMD's home state.",
+    majorMetros: ["Atlanta", "Savannah", "Augusta", "Columbus", "Macon", "Athens"],
+  },
+};
+
+/**
+ * State codes where Curative is live (config-driven, used by routes and sitemap).
+ */
+export function getCurativeStateCodes() {
+  return Object.keys(CURATIVE_STATES).filter((code) => CURATIVE_STATES[code].enabled);
+}
+
+/**
+ * URL slugs for an insurer's live state pages. Curative reads CURATIVE_STATES so
+ * enabling a new state needs no sitemap or route code change.
+ */
+export function getInsurerStateSlugs(insurerId) {
+  if (insurerId === "curative") {
+    return getCurativeStateCodes().map((code) => CURATIVE_STATES[code].slug);
+  }
+  const insurer = INSURERS[insurerId];
+  if (!insurer) return [];
+  return (insurer.states || []).map((code) =>
+    (STATE_NAMES[code] || code).toLowerCase().replace(/\s+/g, "-")
+  );
+}
 
 // ─── Condition clinical data — clinical depth for matrix pages ───────────────
 export const INSURANCE_CONDITIONS = {
@@ -399,7 +490,7 @@ export const STATE_INSURANCE_MAP = {
     majorEmployers: ["AdventHealth", "HCA Healthcare", "Raymond James", "Publix"],
   },
   GA: {
-    insurers: ["aetna","blue-cross-blue-shield","united-healthcare"],
+    insurers: ["aetna","blue-cross-blue-shield","united-healthcare","curative"],
     population: 10912000,
     priority: "high",
     commissioner: { name: "Georgia Office of Insurance and Safety Fire Commissioner", url: "https://oci.georgia.gov/" },

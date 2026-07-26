@@ -413,7 +413,7 @@ export function InsuranceDisclaimer({ payerNote }) {
   return (
     <p style={{ fontSize:12, color:B.text, lineHeight:1.7, borderTop:`1px solid ${B.border}`, paddingTop:20, opacity:0.7 }}>
       {payerNote ? <><strong>{payerNote}</strong> </> : null}
-      Coverage and plan acceptance are subject to change; this page reflects active contracts verified monthly. Copay estimates draw from published plan data — verify your exact cost with your insurer before booking. TeleDirectMD does not guarantee coverage for any specific service. Dr. Parth Bhavsar, MD · NPI: 1104323203 · Board-Certified Family Medicine · <a href="mailto:contact@teledirectmd.com" style={{ color:B.teal }}>contact@teledirectmd.com</a>.
+      Coverage and plan acceptance are subject to change; this page reflects active contracts verified monthly. Copay estimates draw from published plan data. Verify your exact cost with your insurer before booking. TeleDirectMD does not guarantee coverage for any specific service. Dr. Parth Bhavsar, MD · NPI: 1104323203 · Board-Certified Family Medicine · <a href="mailto:contact@teledirectmd.com" style={{ color:B.teal }}>contact@teledirectmd.com</a>.
     </p>
   );
 }
