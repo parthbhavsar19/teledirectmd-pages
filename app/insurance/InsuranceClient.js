@@ -20,13 +20,6 @@ import {
 // surfaced as in-network in any state. Selecting Medicaid as the plan type
 // always returns the Medicaid exclusion result.
 
-const STATE_NAMES = {
-  AZ:'Arizona', CA:'California', CO:'Colorado', FL:'Florida', GA:'Georgia',
-  IL:'Illinois', LA:'Louisiana', MI:'Michigan', MN:'Minnesota', NC:'North Carolina',
-  NJ:'New Jersey', OH:'Ohio', OK:'Oklahoma', PA:'Pennsylvania', TN:'Tennessee',
-  TX:'Texas', WA:'Washington',
-};
-
 const ALL_US_STATES = [
   ['AL','Alabama'],['AK','Alaska'],['AZ','Arizona'],['AR','Arkansas'],['CA','California'],
   ['CO','Colorado'],['CT','Connecticut'],['DE','Delaware'],['FL','Florida'],['GA','Georgia'],
@@ -40,6 +33,10 @@ const ALL_US_STATES = [
   ['VA','Virginia'],['WA','Washington'],['WV','West Virginia'],['WI','Wisconsin'],['WY','Wyoming'],
   ['DC','District of Columbia'],
 ];
+
+// Result copy names the selected state, so this must cover every option in the
+// dropdown above, not just the states that had payers when the checker shipped.
+const STATE_NAMES = Object.fromEntries(ALL_US_STATES);
 
 // Family-level payer dropdown choices. Selecting a family resolves to a
 // state-specific payer name when the result is computed (e.g. BCBS in TX
@@ -473,8 +470,8 @@ function formatDate(iso) {
 }
 
 const FAQ_ITEMS = [
-  { q:'Does TeleDirectMD accept insurance?', a:'Yes. We are in-network with Aetna, Blue Cross Blue Shield affiliates (Florida Blue, Anthem, Highmark, BCBS-IL, BCBS-TX), UnitedHealthcare, and Curative (Georgia) across 17 states. Use the coverage checker above to confirm your specific plan.' },
-  { q:'Which plan types do you accept?', a:'PPO, HMO, EPO, POS, and Medicare Advantage. State-specific exclusions apply (for example, Aetna California excludes HMO and QPOS; UnitedHealthcare in Illinois, Minnesota, and Texas is commercial-only; Curative is Commercial PPO, EPO, and self-funded only). The checker above shows your exact result.' },
+  { q:'Does TeleDirectMD accept insurance?', a:'Yes. We are in-network with Aetna, Blue Cross Blue Shield affiliates (Florida Blue, Anthem, Highmark, BCBS-IL, BCBS-TX), UnitedHealthcare, and Curative. Curative is in-network in 38 states under a national provider agreement; the other payers are contracted state by state. Use the coverage checker above to confirm your specific plan.' },
+  { q:'Which plan types do you accept?', a:'PPO, HMO, EPO, POS, and Medicare Advantage. State-specific exclusions apply (for example, Aetna California excludes HMO and QPOS; UnitedHealthcare in Illinois, Minnesota, and Texas is commercial-only; Curative is Commercial PPO, EPO, and self-funded only, with no HMO or Medicare Advantage). The checker above shows your exact result.' },
   { q:'Does TeleDirectMD accept Medicaid?', a:'No. We are not in-network with any Medicaid program, Managed Medicaid plan, CHIP, Medicare-Medicaid (MME), or Dual Special Needs Plan (D-SNP) in any state we serve. Patients with Medicaid-only coverage can still book a $79 self-pay visit (HSA/FSA eligible).' },
   { q:'How much is a self-pay visit?', a:'$79 flat fee. Includes the physician consultation, any clinically appropriate prescriptions, and a work or school excuse note when medically appropriate. HSA and FSA cards accepted.' },
   { q:'What if my plan is not in-network?', a:'You can book as a self-pay patient for $79 and submit an out-of-network claim to your insurer for partial reimbursement. Many commercial plans cover out-of-network telehealth.' },

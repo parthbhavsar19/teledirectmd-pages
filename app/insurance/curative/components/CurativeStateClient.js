@@ -1,5 +1,5 @@
 'use client';
-import { B, INSURERS, COPAY_DATA, STATE_PLAN_DETAILS } from '../../../../data/insurance/insuranceConfig';
+import { B, INSURERS } from '../../../../data/insurance/insuranceConfig';
 import { FAQ, BookCTA, HowItWorksSteps, Breadcrumb, InsuranceDisclaimer, AnswerBlock, CopayCard, CommissionerLink } from '../../components/InsuranceShared';
 import { Ico } from '../../components/InsuranceIcons';
 import { getAggregateRating, getReviewBlock } from '../../../../lib/review-schema';
@@ -10,75 +10,23 @@ import MedicaidExclusion from '../../../components/MedicaidExclusion';
 const curative = INSURERS.curative;
 const cColor = curative.color;
 
-// State-differentiated copy lives here, keyed by state code, so enabling a new
-// Curative state in CURATIVE_STATES only requires adding its narrative block.
-const STATE_COPY = {
-  GA: {
-    conditionPrefix: '/ga/',
-    intro:
-      'Georgia is TeleDirectMD’s home state and the first state activated under the Curative agreement. Parth Bhavsar, MD is board-certified in Family Medicine, licensed to practice in Georgia, and sees Georgia patients by secure video for the same everyday problems you would take to a primary care or urgent care office.',
-    networkPara:
-      'Georgia members reach the network through Curative’s Cigna Healthcare PPO wrap network arrangement. TeleDirectMD participates through a direct contract with Curative, so your visit is processed as in-network care rather than as an out-of-network claim. The agreement took effect July 7, 2026, and credentialing was confirmed active on July 24, 2026.',
-    localPara:
-      'Because the visit is virtual, there is no drive into Midtown Atlanta traffic and no waiting room. Georgia patients from Atlanta, Savannah, Augusta, Columbus, Macon, and Athens, as well as rural counties without a nearby urgent care, connect from home or from work. Prescriptions are routed electronically to your local pharmacy, including CVS, Walgreens, Publix, Kroger, and Walmart locations across the state.',
-    faqs: [
-      {
-        q: 'Which doctors take Curative insurance in Georgia?',
-        a: 'TeleDirectMD is in-network with Curative in Georgia for Commercial PPO, EPO, and self-funded plans. Visits are with Parth Bhavsar, MD, a board-certified Family Medicine physician licensed in Georgia (NPI 1104323203). Appointments are virtual and usually available the same day.',
-      },
-      {
-        q: 'How do Georgia Curative members access the TeleDirectMD network?',
-        a: 'Georgia members access the network through Curative’s Cigna Healthcare PPO wrap network arrangement. TeleDirectMD holds a direct contract with Curative, effective July 7, 2026, so your virtual visit is billed as in-network care. You do not need a referral.',
-      },
-      {
-        q: 'What will a Georgia Curative member pay for a video visit?',
-        a: 'Curative members who complete their annual Baseline Visit within 120 days of their plan start date have $0 copays, $0 deductible, and 0% coinsurance for in-network care, including this visit. Members who have not completed the Baseline Visit pay toward their plan deductible, commonly $5,000 individual and $10,000 family on the EPO product. A flat $79 self-pay visit is also available if you prefer not to use insurance.',
-      },
-      {
-        q: 'Is Parth Bhavsar, MD licensed in Georgia?',
-        a: 'Yes. Dr. Bhavsar holds an active Georgia medical license and is board-certified in Family Medicine. Georgia is TeleDirectMD’s home state, and Georgia telehealth rules allow a licensed physician to evaluate and prescribe for established and new adult patients by real-time video when clinically appropriate.',
-      },
-      {
-        q: 'What can a Georgia Curative member be treated for online?',
-        a: 'Common adult conditions such as urinary tract infections, sinus infections, sore throat, ear pain, pink eye, flu, cold sores, rashes, and seasonal allergies, plus refills for hypertension, hyperlipidemia, and hypothyroidism. If your symptoms need an in-person exam, imaging, or emergency care, we will say so during the visit and point you to the right Georgia facility.',
-      },
-      {
-        q: 'Does TeleDirectMD accept Georgia Medicaid or Medicare plans through Curative?',
-        a: 'No. The Curative agreement covers Commercial PPO, EPO, and self-funded plans only. TeleDirectMD is not in-network with Georgia Medicaid, Managed Medicaid, PeachCare for Kids (CHIP), or Medicare-Medicaid plans, and does not bill them in any state. The $79 flat self-pay visit remains available.',
-      },
-    ],
-  },
-};
+// All state-varying copy arrives as the `content` prop, assembled server-side by
+// lib/curative-content.js from data/state-licenses.json and data/states.json. The
+// component holds no per-state strings, so a new state cannot render as a
+// state-name substitution of another.
+export default function CurativeStateClient({ content }) {
+  const c = content;
+  const pageUrl = `https://teledirectmd.com/insurance/curative/${c.slug}/`;
+  const lic = c.license;
 
-const CONDITIONS = [
-  { slug: 'uti-treatment-online', label: 'UTI (Urinary Tract Infection)' },
-  { slug: 'sinus-infection-treatment-online', label: 'Sinus Infection' },
-  { slug: 'sore-throat-treatment-online', label: 'Sore Throat' },
-  { slug: 'ear-pain-treatment-online', label: 'Ear Infection and Ear Pain' },
-  { slug: 'pink-eye-treatment-online', label: 'Pink Eye (Conjunctivitis)' },
-  { slug: 'influenza-treatment-online', label: 'Flu and Influenza' },
-  { slug: 'yeast-infection-treatment-online', label: 'Yeast Infection' },
-  { slug: 'bv-treatment-online', label: 'BV (Bacterial Vaginosis)' },
-  { slug: 'shingles-treatment-online', label: 'Shingles' },
-  { slug: 'seasonal-allergies-treatment-online', label: 'Seasonal Allergies' },
-  { slug: 'hypertension-refills-online', label: 'Hypertension Refills' },
-  { slug: 'hyperlipidemia-refills-online', label: 'Hyperlipidemia Refills' },
-];
-
-export default function CurativeStateClient({ state }) {
-  const copy = STATE_COPY[state.code];
-  const planDetail = STATE_PLAN_DETAILS.curative?.[state.code];
-  const copay = COPAY_DATA.curative?.[state.code];
-  const pageUrl = `https://teledirectmd.com/insurance/curative/${state.slug}/`;
-
-  const capsule = `Yes. TeleDirectMD is in-network with Curative Commercial PPO, EPO, and self-funded plans in ${state.name}, effective ${state.effectiveDate}. ${state.name} members who have completed their annual Baseline Visit typically pay $0 for a same-day video visit with Parth Bhavsar, MD. A flat $79 self-pay option is always available.`;
+  const capsule = `Yes. TeleDirectMD is in-network with Curative Commercial PPO, EPO, and self-funded plans in ${c.name}, effective ${c.effectiveDate}, under a national provider agreement. ${c.name} members who have completed their annual Baseline Visit pay $0 for a same-day video visit with Parth Bhavsar, MD. A flat $79 self-pay option is always available.`;
 
   const citableSummary = {
-    question: `Which doctors take Curative insurance in ${state.name}?`,
+    question: `Which doctors take Curative insurance in ${c.name}?`,
     answerHtml:
-      `TeleDirectMD is in-network with Curative in ${state.name} for Commercial PPO, EPO, and self-funded plans (EPO Value, EPO (PPOx), PPO (PPO+), and PPO Max), effective ${state.effectiveDate}. ` +
-      `Visits are with Parth Bhavsar, MD (NPI 1104323203), board-certified in Family Medicine and licensed in ${state.name}. ` +
-      `${state.networkAccessNote} ` +
+      `TeleDirectMD is in-network with Curative in ${c.name} for Commercial PPO, EPO, and self-funded plans (EPO Value, EPO (PPOx), PPO (PPO+), and PPO Max), effective ${c.effectiveDate}. ` +
+      `Visits are with Parth Bhavsar, MD (NPI 1104323203), board-certified in Family Medicine. ${lic.credential} ` +
+      `${c.regulatory.lead} ` +
       'Curative members who complete their annual Baseline Visit within 120 days of their plan start date have $0 copays, $0 deductible, and 0% coinsurance for in-network care, including virtual visits; members who have not completed it are subject to their plan deductible. ' +
       'TeleDirectMD is not in-network with Medicaid, Managed Medicaid, CHIP, or Medicare-Medicaid plans. Self-pay alternative: $79 flat, HSA and FSA eligible.',
     answerText: '',
@@ -87,23 +35,21 @@ export default function CurativeStateClient({ state }) {
   citableSummary.answerText = citableSummary.answerHtml.replace(/<[^>]+>/g, '');
   const citableJsonLd = citableSummaryToJsonLd(citableSummary, { pageUrl });
 
-  const faqs = copy?.faqs || [];
-
   const schema = {
     '@context': 'https://schema.org',
     '@graph': [
       {
         '@type': 'MedicalBusiness',
         '@id': `${pageUrl}#business`,
-        'name': `TeleDirectMD Curative coverage in ${state.name}`,
+        'name': `TeleDirectMD Curative coverage in ${c.name}`,
         'url': pageUrl,
-        'areaServed': { '@type': 'AdministrativeArea', 'name': state.name },
+        'areaServed': { '@type': 'AdministrativeArea', 'name': c.name },
         'aggregateRating': getAggregateRating(),
-        'acceptedInsurance': (planDetail?.plans || []).map((p) => ({
+        'acceptedInsurance': c.plans.map((p) => ({
           '@type': 'HealthInsurancePlan',
           'name': p.name,
-          'description': `Curative ${p.productType} plan, in-network with TeleDirectMD in ${state.name}.`,
-          'validFrom': planDetail.effectiveDateISO,
+          'description': `Curative ${p.productType} plan, in-network with TeleDirectMD in ${c.name}.`,
+          'validFrom': c.effectiveDateISO,
         })),
       },
       {
@@ -112,24 +58,33 @@ export default function CurativeStateClient({ state }) {
         'name': 'Parth Bhavsar, MD',
         'medicalSpecialty': 'Family Medicine',
         'identifier': [{ '@type': 'PropertyValue', 'name': 'NPI', 'value': '1104323203' }],
-        'areaServed': { '@type': 'AdministrativeArea', 'name': state.name },
+        'areaServed': { '@type': 'AdministrativeArea', 'name': c.name },
+        'hasCredential': {
+          '@type': 'EducationalOccupationalCredential',
+          'credentialCategory': lic.isTelehealthRegistration
+            ? 'Out-of-state telehealth provider registration'
+            : 'State medical license',
+          'name': lic.credential,
+          'identifier': lic.number,
+          'recognizedBy': { '@type': 'GovernmentOrganization', 'name': lic.board, 'url': lic.boardUrl },
+        },
         'sameAs': ['https://npiregistry.cms.hhs.gov/provider-view/1104323203'],
         ...getReviewBlock(),
       },
-      ...(faqs.length > 0 ? [{
+      {
         '@type': 'FAQPage',
         '@id': `${pageUrl}#faq`,
-        'mainEntity': faqs.map((f) => ({
+        'mainEntity': c.faqs.map((f) => ({
           '@type': 'Question',
           'name': f.q,
           'acceptedAnswer': { '@type': 'Answer', 'text': f.a.replace(/<[^>]+>/g, '') },
         })),
-      }] : []),
+      },
       {
         '@type': 'WebPage',
         '@id': `${pageUrl}#webpage`,
         'url': pageUrl,
-        'name': `Doctors That Take Curative Insurance in ${state.name} | TeleDirectMD`,
+        'name': `Doctors That Take Curative Insurance in ${c.name} | TeleDirectMD`,
         'speakable': { '@type': 'SpeakableSpecification', 'cssSelector': ['[data-speakable]'] },
       },
       {
@@ -138,42 +93,42 @@ export default function CurativeStateClient({ state }) {
           { '@type': 'ListItem', 'position': 1, 'name': 'Home', 'item': 'https://teledirectmd.com' },
           { '@type': 'ListItem', 'position': 2, 'name': 'Insurance', 'item': 'https://teledirectmd.com/insurance' },
           { '@type': 'ListItem', 'position': 3, 'name': 'Curative', 'item': 'https://teledirectmd.com/insurance/curative/' },
-          { '@type': 'ListItem', 'position': 4, 'name': state.name, 'item': pageUrl },
+          { '@type': 'ListItem', 'position': 4, 'name': c.name, 'item': pageUrl },
         ],
       },
     ],
   };
 
   const customSteps = [
-    { icon: <Ico.Cal c={B.teal} s={24} />, title: 'Confirm plan and Baseline', desc: `Your Curative card should show a Commercial PPO, EPO, or self-funded plan. Baseline Visit completion is what unlocks $0 in-network cost sharing.` },
-    { icon: <Ico.Check c={B.teal} s={24} />, title: 'Benefits verified', desc: `We confirm your Curative benefits and any remaining deductible before your ${state.name} video visit.` },
-    { icon: <Ico.Video c={B.teal} s={24} />, title: 'Video visit and prescription', desc: `Same-day video with Parth Bhavsar, MD, licensed in ${state.name}. Any prescription goes electronically to your local pharmacy.` },
+    { icon: <Ico.Cal c={B.teal} s={24} />, title: 'Confirm plan and Baseline', desc: 'Your Curative card should show a Commercial PPO, EPO, or self-funded plan. Baseline Visit completion is what unlocks $0 in-network cost sharing.' },
+    { icon: <Ico.Check c={B.teal} s={24} />, title: 'Benefits verified', desc: `We confirm your Curative benefits and any remaining deductible before your ${c.name} video visit.` },
+    { icon: <Ico.Video c={B.teal} s={24} />, title: 'Video visit and prescription', desc: `Same-day video with Parth Bhavsar, MD, ${lic.isTelehealthRegistration ? `registered for telehealth practice in ${c.name}` : `licensed in ${c.name}`}. Any prescription goes electronically to your local pharmacy.` },
   ];
 
   return (
     <div style={{ fontFamily: B.fb, background: B.bg, color: B.navy }}>
       <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400&family=DM+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
-      <CitableSummaryBlock summary={citableSummary} jsonLd={citableJsonLd} idSuffix={`curative-${state.slug}`} />
-      <Breadcrumb items={[{ label: 'Home', href: '/' }, { label: 'Insurance', href: '/insurance' }, { label: 'Curative', href: '/insurance/curative/' }, { label: state.name }]} />
+      <CitableSummaryBlock summary={citableSummary} jsonLd={citableJsonLd} idSuffix={`curative-${c.slug}`} />
+      <Breadcrumb items={[{ label: 'Home', href: '/' }, { label: 'Insurance', href: '/insurance' }, { label: 'Curative', href: '/insurance/curative/' }, { label: c.name }]} />
 
       {/* HERO */}
       <div style={{ background: `linear-gradient(165deg, ${B.navyDarker} 0%, ${B.navy} 40%, ${B.navyDeep} 100%)`, padding: '56px 24px 64px', position: 'relative', overflow: 'hidden', marginTop: 16 }}>
         <div style={{ maxWidth: 760, margin: '0 auto', position: 'relative', zIndex: 1 }}>
           <div style={{ display: 'inline-flex', alignItems: 'center', gap: 8, background: 'rgba(255,255,255,0.08)', borderRadius: 100, padding: '8px 16px', marginBottom: 24, border: '1px solid rgba(255,255,255,0.12)' }}>
             <Ico.Shield c={cColor} s={16} />
-            <span style={{ fontFamily: B.fb, fontSize: 13, fontWeight: 600, color: '#8FD3EE', letterSpacing: '0.04em', textTransform: 'uppercase' }}>Curative In-Network in {state.name}</span>
+            <span style={{ fontFamily: B.fb, fontSize: 13, fontWeight: 600, color: '#8FD3EE', letterSpacing: '0.04em', textTransform: 'uppercase' }}>Curative In-Network in {c.name}</span>
           </div>
           <h1 style={{ fontFamily: B.fd, fontSize: 'clamp(28px, 5vw, 44px)', fontWeight: 700, color: B.white, lineHeight: 1.15, margin: '0 0 16px' }}>
-            Doctors That Take Curative Insurance in {state.name}
+            Doctors That Take Curative Insurance in {c.name}
           </h1>
           <p data-speakable="true" style={{ fontFamily: B.fb, fontSize: 'clamp(16px, 2.5vw, 19px)', color: 'rgba(255,255,255,0.75)', lineHeight: 1.6, margin: '0 0 28px', maxWidth: 620 }}>
-            Same-day video visits with Parth Bhavsar, MD, licensed in {state.name}, in-network with Curative Commercial PPO, EPO, and self-funded plans since {state.effectiveDate}.
+            Same-day video visits with Parth Bhavsar, MD, {lic.isTelehealthRegistration ? `registered for telehealth practice in ${c.name}` : `licensed in ${c.name}`}, in-network with Curative Commercial PPO, EPO, and self-funded plans since {c.effectiveDate}.
           </p>
           <div style={{ display: 'flex', flexWrap: 'wrap', gap: 12 }}>
             <a href="https://www.teledirectmd.com/book-online" target="_blank" rel="noopener"
               style={{ display: 'inline-flex', alignItems: 'center', gap: 8, padding: '14px 28px', background: B.accent, color: B.white, borderRadius: B.rs, fontWeight: 700, fontSize: 15, textDecoration: 'none' }}>
-              <Ico.Cal c={B.white} s={18} /> Book a {state.name} visit
+              <Ico.Cal c={B.white} s={18} /> Book a {c.name} visit
             </a>
             <a href="/insurance/curative/" style={{ display: 'inline-flex', alignItems: 'center', gap: 8, padding: '14px 24px', background: 'rgba(255,255,255,0.1)', color: B.white, borderRadius: B.rs, fontWeight: 600, fontSize: 15, textDecoration: 'none', border: '1px solid rgba(255,255,255,0.2)' }}>
               All Curative coverage
@@ -185,56 +140,102 @@ export default function CurativeStateClient({ state }) {
       <div style={{ maxWidth: 880, margin: '0 auto', padding: '32px 24px 0' }}>
         {/* AI ANSWER CAPSULE */}
         <AnswerBlock
-          question={`Does TeleDirectMD accept Curative insurance in ${state.name}?`}
+          question={`Does TeleDirectMD accept Curative insurance in ${c.name}?`}
           answer={capsule}
           color={B.teal}
         />
 
         {/* STATE CONTEXT */}
         <section style={{ marginBottom: 40 }}>
-          <h2 style={{ fontFamily: B.fd, fontSize: 26, fontWeight: 700, color: B.navy, margin: '0 0 12px' }}>Curative coverage for {state.name} members</h2>
-          <p style={{ fontSize: 15, color: B.text, margin: '0 0 14px', lineHeight: 1.75 }}>{copy?.intro}</p>
-          <p style={{ fontSize: 15, color: B.text, margin: '0 0 14px', lineHeight: 1.75 }}>{copy?.networkPara}</p>
-          <p style={{ fontSize: 15, color: B.text, margin: 0, lineHeight: 1.75 }}>{copy?.localPara}</p>
+          <h2 style={{ fontFamily: B.fd, fontSize: 26, fontWeight: 700, color: B.navy, margin: '0 0 12px' }}>Curative coverage for {c.name} members</h2>
+          <p style={{ fontSize: 15, color: B.text, margin: '0 0 14px', lineHeight: 1.75 }}>{c.intro}</p>
+          <p style={{ fontSize: 15, color: B.text, margin: '0 0 14px', lineHeight: 1.75 }}>{c.networkPara}</p>
+          <p style={{ fontSize: 15, color: B.text, margin: 0, lineHeight: 1.75 }}>{c.localPara}</p>
         </section>
 
-        {/* NETWORK ACCESS CALLOUT */}
-        <div style={{ background: curative.colorLight, border: `1px solid ${cColor}33`, borderRadius: B.r, padding: '20px 24px', marginBottom: 40, display: 'flex', gap: 14, alignItems: 'flex-start' }}>
-          <Ico.Shield c={cColor} s={22} />
-          <div>
-            <div style={{ fontSize: 15, fontWeight: 700, color: B.navy, marginBottom: 6 }}>How {state.name} members reach the network</div>
-            <p style={{ fontSize: 14, color: B.text, margin: 0, lineHeight: 1.65 }}>{state.networkAccessNote} Credentialing was confirmed active on {state.credentialingConfirmed}.</p>
+        {/* REGULATORY: Exhibit D addendum states get a materially different block
+            from states covered by the base agreement alone. */}
+        <section style={{ marginBottom: 40, background: B.white, border: `1px solid ${cColor}22`, borderLeft: `4px solid ${cColor}`, borderRadius: B.r, padding: '24px 28px', boxShadow: B.shadow }}>
+          <div style={{ display: 'inline-block', background: curative.colorLight, color: cColor, borderRadius: 100, padding: '4px 12px', fontSize: 12, fontWeight: 700, letterSpacing: '0.03em', marginBottom: 12 }}>
+            {c.regulatory.badge}
           </div>
-        </div>
+          <h2 style={{ fontFamily: B.fd, fontSize: 22, fontWeight: 700, color: B.navy, margin: '0 0 10px' }}>{c.regulatory.heading}</h2>
+          <p style={{ fontSize: 15, color: B.navy, fontWeight: 600, margin: '0 0 14px', lineHeight: 1.7 }}>{c.regulatory.lead}</p>
+          {c.regulatory.body.map((para, i) => (
+            <p key={i} style={{ fontSize: 15, color: B.text, margin: i === c.regulatory.body.length - 1 ? 0 : '0 0 14px', lineHeight: 1.75 }}>{para}</p>
+          ))}
+        </section>
+
+        {/* LICENSURE AND VERIFICATION */}
+        <section style={{ marginBottom: 40 }}>
+          <h2 style={{ fontFamily: B.fd, fontSize: 22, fontWeight: 700, color: B.navy, margin: '0 0 12px' }}>
+            {lic.isTelehealthRegistration ? `Telehealth registration on file in ${c.name}` : `Who you see, and how to verify the ${c.name} license`}
+          </h2>
+          <p style={{ fontSize: 15, color: B.text, margin: '0 0 16px', lineHeight: 1.75 }}>{c.licensurePara}</p>
+          <div style={{ background: B.white, border: `1px solid ${cColor}22`, borderRadius: B.r, padding: '16px 20px', display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: 14 }}>
+            <div>
+              <div style={{ fontSize: 12, color: B.text, textTransform: 'uppercase', letterSpacing: '0.04em', fontWeight: 700, marginBottom: 4 }}>
+                {lic.isTelehealthRegistration ? 'Registration number' : 'License number'}
+              </div>
+              <div style={{ fontSize: 15, fontWeight: 700, color: B.navy }}>{lic.number}</div>
+            </div>
+            <div>
+              <div style={{ fontSize: 12, color: B.text, textTransform: 'uppercase', letterSpacing: '0.04em', fontWeight: 700, marginBottom: 4 }}>Issuing board</div>
+              <div style={{ fontSize: 15, fontWeight: 700, color: B.navy }}>{lic.board}</div>
+            </div>
+            {lic.expires && (
+              <div>
+                <div style={{ fontSize: 12, color: B.text, textTransform: 'uppercase', letterSpacing: '0.04em', fontWeight: 700, marginBottom: 4 }}>Current through</div>
+                <div style={{ fontSize: 15, fontWeight: 700, color: B.navy }}>{lic.expires}</div>
+              </div>
+            )}
+            {lic.verificationUrl && (
+              <div>
+                <div style={{ fontSize: 12, color: B.text, textTransform: 'uppercase', letterSpacing: '0.04em', fontWeight: 700, marginBottom: 4 }}>Public registry</div>
+                <a href={lic.verificationUrl} target="_blank" rel="noopener noreferrer" style={{ fontSize: 15, fontWeight: 700, color: cColor, textDecoration: 'none' }}>
+                  Verify with the board
+                </a>
+              </div>
+            )}
+          </div>
+        </section>
+
+        {/* STATE TELEHEALTH RULES */}
+        <section style={{ marginBottom: 40 }}>
+          <h2 style={{ fontFamily: B.fd, fontSize: 22, fontWeight: 700, color: B.navy, margin: '0 0 12px' }}>What {c.name} telehealth law allows during the visit</h2>
+          <p style={{ fontSize: 15, color: B.text, margin: '0 0 14px', lineHeight: 1.75 }}>{c.telehealthPara}</p>
+          <p style={{ fontSize: 15, color: B.text, margin: 0, lineHeight: 1.75 }}>
+            Within those rules Dr. Bhavsar can evaluate you by real-time video and, when clinically appropriate, send a prescription to a {c.name} pharmacy. Controlled substances are never prescribed. If your symptoms need an in-person exam, imaging, or emergency care, we say so during the visit and point you to the right {c.name} facility.
+          </p>
+        </section>
 
         {/* CONTRACTED PLANS */}
-        {planDetail && (
-          <section style={{ marginBottom: 40 }}>
-            <h2 style={{ fontFamily: B.fd, fontSize: 22, fontWeight: 700, color: B.navy, margin: '0 0 8px' }}>Contracted Curative plans in {state.name}</h2>
-            <p style={{ fontSize: 14, color: B.text, margin: '0 0 16px', lineHeight: 1.6 }}>
-              Participating networks effective {planDetail.effectiveDate}: {planDetail.productLines.join(', ')}.
-            </p>
-            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(220px, 1fr))', gap: 10, marginBottom: 16 }}>
-              {planDetail.plans.map((p) => (
-                <div key={p.name} style={{ background: B.white, border: `1px solid ${cColor}22`, borderLeft: `3px solid ${cColor}`, borderRadius: B.r, padding: '12px 14px' }}>
-                  <div style={{ fontSize: 14, fontWeight: 700, color: B.navy }}>{p.name}</div>
-                  <div style={{ fontSize: 12, color: B.text }}>{p.productType}</div>
-                </div>
-              ))}
-            </div>
-            <p style={{ fontSize: 13, color: B.text, margin: 0, lineHeight: 1.6 }}>
-              Not contracted: {planDetail.excludedLines.join(', ')}. If your plan falls outside the contracted networks, the flat $79 self-pay visit is still available.
-            </p>
-          </section>
-        )}
+        <section style={{ marginBottom: 40 }}>
+          <h2 style={{ fontFamily: B.fd, fontSize: 22, fontWeight: 700, color: B.navy, margin: '0 0 8px' }}>Contracted Curative plans in {c.name}</h2>
+          <p style={{ fontSize: 14, color: B.text, margin: '0 0 16px', lineHeight: 1.6 }}>
+            Participating networks effective {c.effectiveDate}: {c.productLines.join(', ')}.
+          </p>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(220px, 1fr))', gap: 10, marginBottom: 16 }}>
+            {c.plans.map((p) => (
+              <div key={p.name} style={{ background: B.white, border: `1px solid ${cColor}22`, borderLeft: `3px solid ${cColor}`, borderRadius: B.r, padding: '12px 14px' }}>
+                <div style={{ fontSize: 14, fontWeight: 700, color: B.navy }}>{p.name}</div>
+                <div style={{ fontSize: 12, color: B.text }}>{p.productType}</div>
+              </div>
+            ))}
+          </div>
+          <p style={{ fontSize: 13, color: B.text, margin: '0 0 8px', lineHeight: 1.6 }}>
+            Not contracted: {c.excludedLines.join(', ')}. If your plan falls outside the contracted networks, the flat $79 self-pay visit is still available.
+          </p>
+          <p style={{ fontSize: 13, color: B.text, margin: 0, lineHeight: 1.6 }}>{c.planNote}</p>
+        </section>
 
         {/* COST */}
-        <CopayCard insurerName="Curative" stateName={state.name} copayData={copay} insurerColor={cColor} />
+        <CopayCard insurerName="Curative" stateName={c.name} copayData={c.copay} insurerColor={cColor} />
 
         <section style={{ marginBottom: 40, background: B.white, border: `1px solid ${cColor}22`, borderRadius: B.r, padding: '24px 28px', boxShadow: B.shadow }}>
           <h2 style={{ fontFamily: B.fd, fontSize: 22, fontWeight: 700, color: B.navy, margin: '0 0 12px' }}>The Baseline Visit decides your cost</h2>
           <p style={{ fontSize: 15, color: B.text, margin: '0 0 14px', lineHeight: 1.75 }}>
-            Curative members who complete the annual Baseline Visit within 120 days of their plan start date have <strong>$0 copays, $0 deductible, and 0% coinsurance</strong> for in-network care, which includes a video visit with TeleDirectMD in {state.name}.
+            Curative members who complete the annual Baseline Visit within 120 days of their plan start date have <strong>$0 copays, $0 deductible, and 0% coinsurance</strong> for in-network care, which includes a video visit with TeleDirectMD in {c.name}.
           </p>
           <p style={{ fontSize: 15, color: B.text, margin: '0 0 14px', lineHeight: 1.75 }}>
             If the Baseline Visit is not complete, your plan deductible applies (for example, $5,000 individual and $10,000 family on the EPO product). Confirm your status with Curative before booking.
@@ -246,45 +247,48 @@ export default function CurativeStateClient({ state }) {
 
         {/* HOW IT WORKS */}
         <section style={{ marginBottom: 40 }}>
-          <h2 style={{ fontFamily: B.fd, fontSize: 26, fontWeight: 700, color: B.navy, margin: '0 0 20px' }}>Using your Curative plan in {state.name}</h2>
+          <h2 style={{ fontFamily: B.fd, fontSize: 26, fontWeight: 700, color: B.navy, margin: '0 0 20px' }}>Using your Curative plan in {c.name}</h2>
           <HowItWorksSteps insurerName="Curative" customSteps={customSteps} />
         </section>
 
         {/* CONDITIONS */}
         <section style={{ marginBottom: 40 }}>
-          <h2 style={{ fontFamily: B.fd, fontSize: 26, fontWeight: 700, color: B.navy, margin: '0 0 8px' }}>What {state.name} Curative members can be treated for</h2>
-          <p style={{ fontSize: 15, color: B.text, margin: '0 0 20px', lineHeight: 1.6 }}>Each link opens the {state.name} clinical page for that condition, with treatment detail and local pharmacy information.</p>
+          <h2 style={{ fontFamily: B.fd, fontSize: 26, fontWeight: 700, color: B.navy, margin: '0 0 8px' }}>What {c.name} Curative members can be treated for</h2>
+          <p style={{ fontSize: 15, color: B.text, margin: '0 0 20px', lineHeight: 1.6 }}>Each link opens the {c.name} clinical page for that condition, with treatment detail and local pharmacy information.</p>
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(220px, 1fr))', gap: 10 }}>
-            {CONDITIONS.map((c) => (
-              <a key={c.slug} href={`${copy?.conditionPrefix || '/'}${c.slug}/`}
+            {c.conditions.map((cond) => (
+              <a key={cond.slug} href={`${c.conditionPrefix}${cond.slug}/`}
                 style={{ display: 'block', background: B.white, border: `1px solid ${cColor}22`, borderLeft: `3px solid ${cColor}`, borderRadius: B.r, padding: '12px 14px', textDecoration: 'none', fontSize: 14, fontWeight: 600, color: B.navy }}>
-                {c.label}
+                {cond.label}
               </a>
             ))}
           </div>
+          <p style={{ fontSize: 14, color: B.text, margin: '16px 0 0', lineHeight: 1.6 }}>
+            You can also see everything we treat on the <a href={`/${c.stateSlug}/`} style={{ color: cColor, fontWeight: 600 }}>{c.name} telehealth page</a>, or compare payers on the <a href="/insurance/" style={{ color: cColor, fontWeight: 600 }}>insurance coverage checker</a>.
+          </p>
         </section>
 
         {/* Sitewide Medicaid + D-SNP exclusion */}
-        <MedicaidExclusion headingLevel="h2" idSuffix={`curative-${state.slug}`} />
+        <MedicaidExclusion headingLevel="h2" idSuffix={`curative-${c.slug}`} />
 
         {/* FAQ */}
         <section style={{ marginBottom: 40 }}>
-          <h2 style={{ fontFamily: B.fd, fontSize: 26, fontWeight: 700, color: B.navy, margin: '0 0 24px' }}>Curative in {state.name}: questions members ask</h2>
-          {faqs.map((f, i) => (
+          <h2 style={{ fontFamily: B.fd, fontSize: 26, fontWeight: 700, color: B.navy, margin: '0 0 24px' }}>Curative in {c.name}: questions members ask</h2>
+          {c.faqs.map((f, i) => (
             <FAQ key={i} question={f.q} answer={f.a} />
           ))}
         </section>
 
         <BookCTA
           insurerName="Curative"
-          tagline={`Curative Commercial PPO, EPO, and self-funded plans in ${state.name}, verified before your video visit.`}
+          tagline={`Curative Commercial PPO, EPO, and self-funded plans in ${c.name}, verified before your video visit.`}
           subtagline="Or pay $79 flat self-pay (HSA and FSA eligible), with no claim and no copay surprises."
         />
 
-        <CommissionerLink stateCode={state.code} stateName={state.name} />
+        <CommissionerLink stateCode={c.code} stateName={c.name} />
 
         <div style={{ marginBottom: 48 }}>
-          <InsuranceDisclaimer payerNote={`Curative network status in ${state.name} reflects our Commercial PPO, EPO, and self-funded contract effective ${state.effectiveDate}. Cost sharing depends on your plan and on whether your annual Baseline Visit is complete. Verify benefits with Curative before your visit.`} />
+          <InsuranceDisclaimer payerNote={`Curative network status in ${c.name} reflects a national Commercial PPO, EPO, and self-funded contract effective ${c.effectiveDate}, in-network in every state where Dr. Bhavsar holds an active license. Cost sharing depends on your plan and on whether your annual Baseline Visit is complete. Verify benefits with Curative before your visit.`} />
         </div>
       </div>
     </div>

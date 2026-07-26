@@ -100,9 +100,11 @@ export const INSURERS = {
     logo: "/logos/curative.svg",
     color: "#0B6E99",
     colorLight: "#E7F4FA",
-    tagline: "Curative employer plans accepted in Georgia",
-    description: "Curative is an employer-sponsored health plan built around a no-copay, no-deductible design for members who complete their annual Baseline Visit. TeleDirectMD is in-network with Curative Commercial PPO, EPO, and self-funded plans in Georgia under an agreement effective July 7, 2026.",
-    states: ["GA"],
+    tagline: "Curative employer plans accepted in 38 states",
+    description: "Curative is an employer-sponsored health plan built around a no-copay, no-deductible design for members who complete their annual Baseline Visit. TeleDirectMD is in-network with Curative Commercial PPO, EPO, and self-funded plans under a national provider agreement effective July 7, 2026, in every state where Parth Bhavsar, MD holds an active license.",
+    // National agreement. Mirrors the enabled roster in CURATIVE_STATES below, kept
+    // literal here because INSURERS is defined before that constant.
+    states: ["AL", "AZ", "CA", "CO", "CT", "DC", "FL", "GA", "HI", "IA", "ID", "IL", "IN", "KS", "KY", "LA", "MD", "ME", "MI", "MN", "MO", "MT", "NC", "ND", "NE", "NH", "NJ", "NV", "OH", "OK", "PA", "SC", "SD", "TN", "TX", "UT", "WA", "WI"],
     // Curative pages are hub + state only. No insurer x condition matrix pages
     // exist for this payer, so the sitemap must skip the condition loops.
     conditionMatrix: false,
@@ -113,9 +115,9 @@ export const INSURERS = {
     billingCodes: ["99213", "99214"],
     claimsPhone: "See member card",
     metaTitle: "Online Doctor That Accepts Curative Insurance | TeleDirectMD",
-    metaDescription: "TeleDirectMD is in-network with Curative Commercial PPO, EPO, and self-funded plans in Georgia. Members who complete their Baseline Visit typically pay $0 for a virtual visit. $79 flat self-pay always available.",
+    metaDescription: "TeleDirectMD is in-network with Curative Commercial PPO, EPO, and self-funded plans in 38 states. Members who complete their Baseline Visit pay $0 for a virtual visit. $79 flat self-pay always available.",
     h1: "Online Doctor Visits Covered by Curative",
-    heroSubtitle: "TeleDirectMD is in-network with Curative Commercial PPO, EPO, and self-funded plans in Georgia, effective July 7, 2026.",
+    heroSubtitle: "TeleDirectMD is in-network with Curative Commercial PPO, EPO, and self-funded plans in 38 states under a national provider agreement effective July 7, 2026.",
     faqSlug: "curative",
   },
 };
@@ -177,13 +179,7 @@ export const COPAY_DATA = {
     TN: { typical: "$5–$35", employer: "Often $0–$15 for employer plans", note: "UHC Tennessee is strong in the Nashville employer market. Virtual Care benefits frequently $0 for large employer plans." },
     WA: { typical: "$0–$25", employer: "Often $0 for employer plans", note: "UHC Washington has excellent telehealth benefits for tech-sector employer plans in the Seattle–Bellevue corridor." },
   },
-  curative: {
-    GA: {
-      typical: "$0 after Baseline Visit",
-      employer: "$0 for members who complete the Baseline Visit",
-      note: "Curative members who complete their annual Baseline Visit within 120 days of the plan start date have $0 copays, $0 deductible, and 0% coinsurance for in-network care, including virtual visits. Members who have not completed the Baseline Visit are subject to their plan deductible (for example, $5,000 individual and $10,000 family on the EPO product).",
-    },
-  },
+  // Curative cost sharing is set by the contract, not by state. See CURATIVE_PLAN_DETAIL.
 };
 
 // ─── State-specific contracted plan detail ───────────────────────────────────
@@ -215,44 +211,109 @@ export const STATE_PLAN_DETAILS = {
       note: "Aetna California commercial network — contracted effective April 30, 2026. Plan acceptance is subject to your specific plan benefits and network tier. Self-pay $79 is always available.",
     },
   },
-  curative: {
-    GA: {
-      effectiveDate: "July 7, 2026",
-      effectiveDateISO: "2026-07-07",
-      productLines: ["Commercial PPO", "Commercial EPO", "Self-Funded plans"],
-      excludedLines: ["Medicaid", "Managed Medicaid", "CHIP", "Medicare-Medicaid (MME)", "Dual Special Needs Plan (D-SNP)", "Medicare Advantage", "HMO"],
-      plans: [
-        { name: "Curative EPO Value", productType: "EPO" },
-        { name: "Curative EPO (PPOx)", productType: "EPO" },
-        { name: "Curative PPO (PPO+)", productType: "PPO" },
-        { name: "Curative PPO Max", productType: "PPO" },
-      ],
-      note: "Curative Georgia participating networks per contract Exhibit C, effective July 7, 2026. Plan acceptance is subject to your specific plan benefits. Self-pay $79 is always available.",
-    },
+};
+
+// ─── Curative plan and cost detail (payer level, not per state) ──────────────
+// The Curative contract sets participating networks and cost sharing nationally.
+// Inventing per-state variation here would be fabrication, so these live once.
+export const CURATIVE_PLAN_DETAIL = {
+  productLines: ["Commercial PPO", "Commercial EPO", "Self-Funded plans"],
+  excludedLines: ["Medicaid", "Managed Medicaid", "CHIP", "Medicare-Medicaid (MME)", "Dual Special Needs Plan (D-SNP)", "Medicare Advantage", "HMO"],
+  plans: [
+    { name: "Curative EPO Value", productType: "EPO" },
+    { name: "Curative EPO (PPOx)", productType: "EPO" },
+    { name: "Curative PPO (PPO+)", productType: "PPO" },
+    { name: "Curative PPO Max", productType: "PPO" },
+  ],
+  copay: {
+    typical: "$0 after Baseline Visit",
+    employer: "$0 for members who complete the Baseline Visit",
+    note: "Curative members who complete their annual Baseline Visit within 120 days of the plan start date have $0 copays, $0 deductible, and 0% coinsurance for in-network care, including virtual visits. Members who have not completed the Baseline Visit are subject to their plan deductible (for example, $5,000 individual and $10,000 family on the EPO product).",
   },
 };
 
 // ─── Curative state enablement ───────────────────────────────────────────────
 // Adding a state here (with enabled: true) is the only change required to ship
 // a new /insurance/curative/{state}/ page. The route's generateStaticParams and
-// the sitemap both read this map. Georgia is the only enabled state until
-// Curative confirms the Exhibit D state list.
+// the sitemap both read this map.
+//
+// Curative Network Contracting confirmed in writing on 2026-07-26 that the
+// TeleDirectMD provider agreement is national: in-network for Curative members in
+// every state where Dr. Bhavsar holds an active license. The roster below is the
+// intersection of that agreement with data/state-licenses.json.
+//
+// Not enabled, and why (each is a licensure or positioning fact in this repo, not
+// a gap in the Curative contract):
+//   MS, WV, WY  state-licenses.json records dateExpires 2026-06-30 with no renewal
+//               on file, so active licensure cannot be affirmed today.
+//   VT, VA, DE  deliberate cash-pay-only positioning. VT is intentionally absent
+//               from insuranceByState, VA is a demand-gated cash-pay pilot, and the
+//               Delaware state template asserts self-pay-only in narrative copy.
+//
+// slug     URL segment for /insurance/curative/{slug}/
+// slugAbbr key into data/state-licenses.json and data/states.json, and the prefix
+//          for /{slugAbbr}/{condition}/ condition links
 export const CURATIVE_STATES = {
-  GA: {
-    enabled: true,
-    slug: "georgia",
-    name: "Georgia",
-    effectiveDate: "July 7, 2026",
-    effectiveDateISO: "2026-07-07",
-    credentialingConfirmed: "July 24, 2026",
-    // Georgia members reach the network through Curative's Cigna Healthcare PPO
-    // wrap arrangement. TeleDirectMD participates by direct contract with Curative.
-    networkAccessNote: "Georgia members access the network through Curative's Cigna Healthcare PPO wrap network arrangement. TeleDirectMD participates through a direct contract with Curative.",
-    licenseNote: "Parth Bhavsar, MD is board-certified in Family Medicine and licensed to practice in Georgia. Georgia is TeleDirectMD's home state.",
-    majorMetros: ["Atlanta", "Savannah", "Augusta", "Columbus", "Macon", "Athens"],
-  },
+  AL: { enabled: true, slug: "alabama", slugAbbr: "al", name: "Alabama", effectiveDate: "July 7, 2026", effectiveDateISO: "2026-07-07" },
+  AZ: { enabled: true, slug: "arizona", slugAbbr: "az", name: "Arizona", effectiveDate: "July 7, 2026", effectiveDateISO: "2026-07-07" },
+  CA: { enabled: true, slug: "california", slugAbbr: "ca", name: "California", effectiveDate: "July 7, 2026", effectiveDateISO: "2026-07-07" },
+  CO: { enabled: true, slug: "colorado", slugAbbr: "co", name: "Colorado", effectiveDate: "July 7, 2026", effectiveDateISO: "2026-07-07" },
+  CT: { enabled: true, slug: "connecticut", slugAbbr: "ct", name: "Connecticut", effectiveDate: "July 7, 2026", effectiveDateISO: "2026-07-07" },
+  DC: { enabled: true, slug: "washington-dc", slugAbbr: "dc", name: "Washington D.C.", effectiveDate: "July 7, 2026", effectiveDateISO: "2026-07-07" },
+  FL: { enabled: true, slug: "florida", slugAbbr: "fl", name: "Florida", effectiveDate: "July 7, 2026", effectiveDateISO: "2026-07-07" },
+  GA: { enabled: true, slug: "georgia", slugAbbr: "ga", name: "Georgia", effectiveDate: "July 7, 2026", effectiveDateISO: "2026-07-07", credentialingConfirmed: "July 24, 2026" },
+  HI: { enabled: true, slug: "hawaii", slugAbbr: "hi", name: "Hawaii", effectiveDate: "July 7, 2026", effectiveDateISO: "2026-07-07" },
+  IA: { enabled: true, slug: "iowa", slugAbbr: "ia", name: "Iowa", effectiveDate: "July 7, 2026", effectiveDateISO: "2026-07-07" },
+  ID: { enabled: true, slug: "idaho", slugAbbr: "id", name: "Idaho", effectiveDate: "July 7, 2026", effectiveDateISO: "2026-07-07" },
+  IL: { enabled: true, slug: "illinois", slugAbbr: "il", name: "Illinois", effectiveDate: "July 7, 2026", effectiveDateISO: "2026-07-07" },
+  IN: { enabled: true, slug: "indiana", slugAbbr: "in", name: "Indiana", effectiveDate: "July 7, 2026", effectiveDateISO: "2026-07-07" },
+  KS: { enabled: true, slug: "kansas", slugAbbr: "ks", name: "Kansas", effectiveDate: "July 7, 2026", effectiveDateISO: "2026-07-07" },
+  KY: { enabled: true, slug: "kentucky", slugAbbr: "ky", name: "Kentucky", effectiveDate: "July 7, 2026", effectiveDateISO: "2026-07-07" },
+  LA: { enabled: true, slug: "louisiana", slugAbbr: "la", name: "Louisiana", effectiveDate: "July 7, 2026", effectiveDateISO: "2026-07-07" },
+  MD: { enabled: true, slug: "maryland", slugAbbr: "md", name: "Maryland", effectiveDate: "July 7, 2026", effectiveDateISO: "2026-07-07" },
+  ME: { enabled: true, slug: "maine", slugAbbr: "me", name: "Maine", effectiveDate: "July 7, 2026", effectiveDateISO: "2026-07-07" },
+  MI: { enabled: true, slug: "michigan", slugAbbr: "mi", name: "Michigan", effectiveDate: "July 7, 2026", effectiveDateISO: "2026-07-07" },
+  MN: { enabled: true, slug: "minnesota", slugAbbr: "mn", name: "Minnesota", effectiveDate: "July 7, 2026", effectiveDateISO: "2026-07-07" },
+  MO: { enabled: true, slug: "missouri", slugAbbr: "mo", name: "Missouri", effectiveDate: "July 7, 2026", effectiveDateISO: "2026-07-07" },
+  MT: { enabled: true, slug: "montana", slugAbbr: "mt", name: "Montana", effectiveDate: "July 7, 2026", effectiveDateISO: "2026-07-07" },
+  NC: { enabled: true, slug: "north-carolina", slugAbbr: "nc", name: "North Carolina", effectiveDate: "July 7, 2026", effectiveDateISO: "2026-07-07" },
+  ND: { enabled: true, slug: "north-dakota", slugAbbr: "nd", name: "North Dakota", effectiveDate: "July 7, 2026", effectiveDateISO: "2026-07-07" },
+  NE: { enabled: true, slug: "nebraska", slugAbbr: "ne", name: "Nebraska", effectiveDate: "July 7, 2026", effectiveDateISO: "2026-07-07" },
+  NH: { enabled: true, slug: "new-hampshire", slugAbbr: "nh", name: "New Hampshire", effectiveDate: "July 7, 2026", effectiveDateISO: "2026-07-07" },
+  NJ: { enabled: true, slug: "new-jersey", slugAbbr: "nj", name: "New Jersey", effectiveDate: "July 7, 2026", effectiveDateISO: "2026-07-07" },
+  NV: { enabled: true, slug: "nevada", slugAbbr: "nv", name: "Nevada", effectiveDate: "July 7, 2026", effectiveDateISO: "2026-07-07" },
+  OH: { enabled: true, slug: "ohio", slugAbbr: "oh", name: "Ohio", effectiveDate: "July 7, 2026", effectiveDateISO: "2026-07-07" },
+  OK: { enabled: true, slug: "oklahoma", slugAbbr: "ok", name: "Oklahoma", effectiveDate: "July 7, 2026", effectiveDateISO: "2026-07-07" },
+  PA: { enabled: true, slug: "pennsylvania", slugAbbr: "pa", name: "Pennsylvania", effectiveDate: "July 7, 2026", effectiveDateISO: "2026-07-07" },
+  SC: { enabled: true, slug: "south-carolina", slugAbbr: "sc", name: "South Carolina", effectiveDate: "July 7, 2026", effectiveDateISO: "2026-07-07" },
+  SD: { enabled: true, slug: "south-dakota", slugAbbr: "sd", name: "South Dakota", effectiveDate: "July 7, 2026", effectiveDateISO: "2026-07-07" },
+  TN: { enabled: true, slug: "tennessee", slugAbbr: "tn", name: "Tennessee", effectiveDate: "July 7, 2026", effectiveDateISO: "2026-07-07" },
+  TX: { enabled: true, slug: "texas", slugAbbr: "tx", name: "Texas", effectiveDate: "July 7, 2026", effectiveDateISO: "2026-07-07" },
+  UT: { enabled: true, slug: "utah", slugAbbr: "ut", name: "Utah", effectiveDate: "July 7, 2026", effectiveDateISO: "2026-07-07" },
+  WA: { enabled: true, slug: "washington", slugAbbr: "wa", name: "Washington", effectiveDate: "July 7, 2026", effectiveDateISO: "2026-07-07" },
+  WI: { enabled: true, slug: "wisconsin", slugAbbr: "wi", name: "Wisconsin", effectiveDate: "July 7, 2026", effectiveDateISO: "2026-07-07" },
 };
 
+/**
+ * The nine jurisdictions carrying a state regulatory addendum under Exhibit D of
+ * the provider agreement. Exhibit D conforms the contract to each state's
+ * insurance code; it does NOT limit the agreement's reach, which is national.
+ * Drives a materially different content block on those state pages.
+ */
+export const EXHIBIT_D_STATES = ["CA", "DC", "FL", "GA", "IN", "LA", "MD", "OH", "TX"];
+
+/**
+ * Provenance for the national-scope claim. Cited in visible copy wherever the
+ * site asserts coverage beyond Georgia.
+ */
+export const CURATIVE_CONTRACT = {
+  source: "Curative Network Contracting",
+  confirmedDate: "July 26, 2026",
+  confirmedDateISO: "2026-07-26",
+  effectiveDate: "July 7, 2026",
+  effectiveDateISO: "2026-07-07",
+  scope: "National provider agreement, in-network in every state where the treating physician holds an active license.",
+};
 /**
  * State codes where Curative is live (config-driven, used by routes and sitemap).
  */
