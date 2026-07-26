@@ -4,6 +4,520 @@
 // Last verified: May 2026
 // ─────────────────────────────────────────────────────────────────────────────
 
+// ─── Curative state enablement ───────────────────────────────────────────────
+// The Curative agreement is NATIONAL: Curative Network Contracting confirmed in
+// writing on 07/26/2026 that TeleDirectMD is in-network for Curative members in
+// every state where Parth Bhavsar, MD holds an active medical license.
+// This map therefore mirrors data/state-licenses.json (43 states + DC), the
+// single source of truth for licensure. Adding a license there and mirroring it
+// here is the only change required to ship a new /insurance/curative/{state}/
+// page: the route's generateStaticParams and the sitemap both read this map.
+// Display names and slugs follow the STATE_NAMES convention used by every other
+// insurer route (District of Columbia, not the license file's "Washington D.C.").
+// Member-facing product names for the contracted Curative networks (Exhibit C).
+export const CURATIVE_PLANS = [
+  { name: "Curative EPO Value", productType: "EPO" },
+  { name: "Curative EPO (PPOx)", productType: "EPO" },
+  { name: "Curative PPO (PPO+)", productType: "PPO" },
+  { name: "Curative PPO Max", productType: "PPO" },
+];
+
+export const CURATIVE_STATES = {
+  AL: {
+    enabled: true,
+    slug: "alabama",
+    name: "Alabama",
+    effectiveDate: "July 7, 2026",
+    effectiveDateISO: "2026-07-07",
+    credentialingConfirmed: "July 26, 2026",
+    networkAccessNote: "Alabama members are in-network under the national TeleDirectMD agreement with Curative. TeleDirectMD participates through a direct contract with Curative, so a video visit booked from Alabama is processed as in-network care rather than as an out-of-network claim.",
+    licenseNote: "Parth Bhavsar, MD is board-certified in Family Medicine and holds an active Alabama medical license issued by the Alabama Board of Medical Examiners.",
+    majorMetros: ["Birmingham","Montgomery","Huntsville","Mobile","Tuscaloosa","Hoover"],
+  },
+  AZ: {
+    enabled: true,
+    slug: "arizona",
+    name: "Arizona",
+    effectiveDate: "July 7, 2026",
+    effectiveDateISO: "2026-07-07",
+    credentialingConfirmed: "July 26, 2026",
+    networkAccessNote: "Arizona members are in-network under the national TeleDirectMD agreement with Curative. TeleDirectMD participates through a direct contract with Curative, so a video visit booked from Arizona is processed as in-network care rather than as an out-of-network claim.",
+    licenseNote: "Parth Bhavsar, MD is board-certified in Family Medicine and holds an active Arizona medical license issued by the Arizona Medical Board.",
+    majorMetros: ["Phoenix","Tucson","Mesa","Chandler","Scottsdale","Glendale"],
+  },
+  CA: {
+    enabled: true,
+    slug: "california",
+    name: "California",
+    effectiveDate: "July 7, 2026",
+    effectiveDateISO: "2026-07-07",
+    credentialingConfirmed: "July 26, 2026",
+    networkAccessNote: "California members are in-network under the national TeleDirectMD agreement with Curative. TeleDirectMD participates through a direct contract with Curative, so a video visit booked from California is processed as in-network care rather than as an out-of-network claim.",
+    licenseNote: "Parth Bhavsar, MD is board-certified in Family Medicine and holds an active California medical license issued by the Medical Board of California.",
+    majorMetros: ["Los Angeles","San Francisco","San Diego","San Jose","Sacramento","Fresno"],
+  },
+  CO: {
+    enabled: true,
+    slug: "colorado",
+    name: "Colorado",
+    effectiveDate: "July 7, 2026",
+    effectiveDateISO: "2026-07-07",
+    credentialingConfirmed: "July 26, 2026",
+    networkAccessNote: "Colorado members are in-network under the national TeleDirectMD agreement with Curative. TeleDirectMD participates through a direct contract with Curative, so a video visit booked from Colorado is processed as in-network care rather than as an out-of-network claim.",
+    licenseNote: "Parth Bhavsar, MD is board-certified in Family Medicine and holds an active Colorado medical license issued by the Colorado Medical Board.",
+    majorMetros: ["Denver","Colorado Springs","Aurora","Fort Collins","Lakewood","Thornton"],
+  },
+  CT: {
+    enabled: true,
+    slug: "connecticut",
+    name: "Connecticut",
+    effectiveDate: "July 7, 2026",
+    effectiveDateISO: "2026-07-07",
+    credentialingConfirmed: "July 26, 2026",
+    networkAccessNote: "Connecticut members are in-network under the national TeleDirectMD agreement with Curative. TeleDirectMD participates through a direct contract with Curative, so a video visit booked from Connecticut is processed as in-network care rather than as an out-of-network claim.",
+    licenseNote: "Parth Bhavsar, MD is board-certified in Family Medicine and holds an active Connecticut medical license issued by the Connecticut Medical Examining Board.",
+    majorMetros: ["Bridgeport","New Haven","Stamford","Hartford","Waterbury","Norwalk"],
+  },
+  DC: {
+    enabled: true,
+    slug: "district-of-columbia",
+    name: "District of Columbia",
+    effectiveDate: "July 7, 2026",
+    effectiveDateISO: "2026-07-07",
+    credentialingConfirmed: "July 26, 2026",
+    networkAccessNote: "District of Columbia members are in-network under the national TeleDirectMD agreement with Curative. TeleDirectMD participates through a direct contract with Curative, so a video visit booked from District of Columbia is processed as in-network care rather than as an out-of-network claim.",
+    licenseNote: "Parth Bhavsar, MD is board-certified in Family Medicine and holds an active District of Columbia medical license issued by the DC Board of Medicine.",
+    majorMetros: ["Capitol Hill","Georgetown","Dupont Circle","Adams Morgan","Columbia Heights","Foggy Bottom"],
+  },
+  DE: {
+    enabled: true,
+    slug: "delaware",
+    name: "Delaware",
+    effectiveDate: "July 7, 2026",
+    effectiveDateISO: "2026-07-07",
+    credentialingConfirmed: "July 26, 2026",
+    networkAccessNote: "Delaware members are in-network under the national TeleDirectMD agreement with Curative. TeleDirectMD participates through a direct contract with Curative, so a video visit booked from Delaware is processed as in-network care rather than as an out-of-network claim.",
+    licenseNote: "Parth Bhavsar, MD is board-certified in Family Medicine and holds an active Delaware medical license issued by the Delaware Board of Medical Licensure and Discipline.",
+    majorMetros: ["Wilmington","Dover","Newark","Middletown","Bear","Glasgow"],
+  },
+  FL: {
+    enabled: true,
+    slug: "florida",
+    name: "Florida",
+    effectiveDate: "July 7, 2026",
+    effectiveDateISO: "2026-07-07",
+    credentialingConfirmed: "July 26, 2026",
+    networkAccessNote: "Florida members are in-network under the national TeleDirectMD agreement with Curative. TeleDirectMD participates through a direct contract with Curative, so a video visit booked from Florida is processed as in-network care rather than as an out-of-network claim.",
+    licenseNote: "Parth Bhavsar, MD is board-certified in Family Medicine and holds an active Florida medical license issued by the Florida Department of Health.",
+    majorMetros: ["Jacksonville","Miami","Tampa","Orlando","St. Petersburg","Hialeah"],
+  },
+  GA: {
+    enabled: true,
+    slug: "georgia",
+    name: "Georgia",
+    effectiveDate: "July 7, 2026",
+    effectiveDateISO: "2026-07-07",
+    credentialingConfirmed: "July 24, 2026",
+    // Georgia members reach the network through Curative's Cigna Healthcare PPO
+    // wrap arrangement. TeleDirectMD participates by direct contract with Curative.
+    networkAccessNote: "Georgia members access the network through Curative's Cigna Healthcare PPO wrap network arrangement. TeleDirectMD participates through a direct contract with Curative.",
+    licenseNote: "Parth Bhavsar, MD is board-certified in Family Medicine and licensed to practice in Georgia. Georgia is TeleDirectMD's home state.",
+    majorMetros: ["Atlanta","Augusta","Columbus","Savannah","Athens","Macon"],
+  },
+  HI: {
+    enabled: true,
+    slug: "hawaii",
+    name: "Hawaii",
+    effectiveDate: "July 7, 2026",
+    effectiveDateISO: "2026-07-07",
+    credentialingConfirmed: "July 26, 2026",
+    networkAccessNote: "Hawaii members are in-network under the national TeleDirectMD agreement with Curative. TeleDirectMD participates through a direct contract with Curative, so a video visit booked from Hawaii is processed as in-network care rather than as an out-of-network claim.",
+    licenseNote: "Parth Bhavsar, MD is board-certified in Family Medicine and holds an active Hawaii medical license issued by the Hawaii Medical Board.",
+    majorMetros: ["Honolulu","Pearl City","Hilo","Kailua","Waipahu","Kaneohe"],
+  },
+  IA: {
+    enabled: true,
+    slug: "iowa",
+    name: "Iowa",
+    effectiveDate: "July 7, 2026",
+    effectiveDateISO: "2026-07-07",
+    credentialingConfirmed: "July 26, 2026",
+    networkAccessNote: "Iowa members are in-network under the national TeleDirectMD agreement with Curative. TeleDirectMD participates through a direct contract with Curative, so a video visit booked from Iowa is processed as in-network care rather than as an out-of-network claim.",
+    licenseNote: "Parth Bhavsar, MD is board-certified in Family Medicine and holds an active Iowa medical license issued by the Iowa Board of Medicine.",
+    majorMetros: ["Des Moines","Cedar Rapids","Davenport","Sioux City","Iowa City","Waterloo"],
+  },
+  ID: {
+    enabled: true,
+    slug: "idaho",
+    name: "Idaho",
+    effectiveDate: "July 7, 2026",
+    effectiveDateISO: "2026-07-07",
+    credentialingConfirmed: "July 26, 2026",
+    networkAccessNote: "Idaho members are in-network under the national TeleDirectMD agreement with Curative. TeleDirectMD participates through a direct contract with Curative, so a video visit booked from Idaho is processed as in-network care rather than as an out-of-network claim.",
+    licenseNote: "Parth Bhavsar, MD is board-certified in Family Medicine and holds an active Idaho medical license issued by the Idaho State Board of Medicine.",
+    majorMetros: ["Boise","Meridian","Nampa","Idaho Falls","Caldwell","Pocatello"],
+  },
+  IL: {
+    enabled: true,
+    slug: "illinois",
+    name: "Illinois",
+    effectiveDate: "July 7, 2026",
+    effectiveDateISO: "2026-07-07",
+    credentialingConfirmed: "July 26, 2026",
+    networkAccessNote: "Illinois members are in-network under the national TeleDirectMD agreement with Curative. TeleDirectMD participates through a direct contract with Curative, so a video visit booked from Illinois is processed as in-network care rather than as an out-of-network claim.",
+    licenseNote: "Parth Bhavsar, MD is board-certified in Family Medicine and holds an active Illinois medical license issued by the Illinois Department of Financial and Professional Regulation.",
+    majorMetros: ["Chicago","Aurora","Naperville","Joliet","Rockford","Springfield"],
+  },
+  IN: {
+    enabled: true,
+    slug: "indiana",
+    name: "Indiana",
+    effectiveDate: "July 7, 2026",
+    effectiveDateISO: "2026-07-07",
+    credentialingConfirmed: "July 26, 2026",
+    networkAccessNote: "Indiana members are in-network under the national TeleDirectMD agreement with Curative. TeleDirectMD participates through a direct contract with Curative, so a video visit booked from Indiana is processed as in-network care rather than as an out-of-network claim.",
+    licenseNote: "Parth Bhavsar, MD is board-certified in Family Medicine and holds an active Indiana medical license issued by the Indiana Medical Licensing Board.",
+    majorMetros: ["Indianapolis","Fort Wayne","Evansville","South Bend","Carmel","Fishers"],
+  },
+  KS: {
+    enabled: true,
+    slug: "kansas",
+    name: "Kansas",
+    effectiveDate: "July 7, 2026",
+    effectiveDateISO: "2026-07-07",
+    credentialingConfirmed: "July 26, 2026",
+    networkAccessNote: "Kansas members are in-network under the national TeleDirectMD agreement with Curative. TeleDirectMD participates through a direct contract with Curative, so a video visit booked from Kansas is processed as in-network care rather than as an out-of-network claim.",
+    licenseNote: "Parth Bhavsar, MD is board-certified in Family Medicine and holds an active Kansas medical license issued by the Kansas Board of Healing Arts.",
+    majorMetros: ["Wichita","Overland Park","Kansas City","Olathe","Topeka","Lawrence"],
+  },
+  KY: {
+    enabled: true,
+    slug: "kentucky",
+    name: "Kentucky",
+    effectiveDate: "July 7, 2026",
+    effectiveDateISO: "2026-07-07",
+    credentialingConfirmed: "July 26, 2026",
+    networkAccessNote: "Kentucky members are in-network under the national TeleDirectMD agreement with Curative. TeleDirectMD participates through a direct contract with Curative, so a video visit booked from Kentucky is processed as in-network care rather than as an out-of-network claim.",
+    licenseNote: "Parth Bhavsar, MD is board-certified in Family Medicine and holds an active Kentucky medical license issued by the Kentucky Board of Medical Licensure.",
+    majorMetros: ["Louisville","Lexington","Bowling Green","Owensboro","Covington","Richmond"],
+  },
+  LA: {
+    enabled: true,
+    slug: "louisiana",
+    name: "Louisiana",
+    effectiveDate: "July 7, 2026",
+    effectiveDateISO: "2026-07-07",
+    credentialingConfirmed: "July 26, 2026",
+    networkAccessNote: "Louisiana members are in-network under the national TeleDirectMD agreement with Curative. TeleDirectMD participates through a direct contract with Curative, so a video visit booked from Louisiana is processed as in-network care rather than as an out-of-network claim.",
+    licenseNote: "Parth Bhavsar, MD is board-certified in Family Medicine and holds an active Louisiana medical license issued by the Louisiana State Board of Medical Examiners.",
+    majorMetros: ["New Orleans","Baton Rouge","Shreveport","Lafayette","Lake Charles","Kenner"],
+  },
+  MD: {
+    enabled: true,
+    slug: "maryland",
+    name: "Maryland",
+    effectiveDate: "July 7, 2026",
+    effectiveDateISO: "2026-07-07",
+    credentialingConfirmed: "July 26, 2026",
+    networkAccessNote: "Maryland members are in-network under the national TeleDirectMD agreement with Curative. TeleDirectMD participates through a direct contract with Curative, so a video visit booked from Maryland is processed as in-network care rather than as an out-of-network claim.",
+    licenseNote: "Parth Bhavsar, MD is board-certified in Family Medicine and holds an active Maryland medical license issued by the Maryland Board of Physicians.",
+    majorMetros: ["Baltimore","Columbia","Germantown","Silver Spring","Waldorf","Frederick"],
+  },
+  ME: {
+    enabled: true,
+    slug: "maine",
+    name: "Maine",
+    effectiveDate: "July 7, 2026",
+    effectiveDateISO: "2026-07-07",
+    credentialingConfirmed: "July 26, 2026",
+    networkAccessNote: "Maine members are in-network under the national TeleDirectMD agreement with Curative. TeleDirectMD participates through a direct contract with Curative, so a video visit booked from Maine is processed as in-network care rather than as an out-of-network claim.",
+    licenseNote: "Parth Bhavsar, MD is board-certified in Family Medicine and holds an active Maine medical license issued by the Maine Board of Licensure in Medicine.",
+    majorMetros: ["Portland","Lewiston","Bangor","South Portland","Auburn","Biddeford"],
+  },
+  MI: {
+    enabled: true,
+    slug: "michigan",
+    name: "Michigan",
+    effectiveDate: "July 7, 2026",
+    effectiveDateISO: "2026-07-07",
+    credentialingConfirmed: "July 26, 2026",
+    networkAccessNote: "Michigan members are in-network under the national TeleDirectMD agreement with Curative. TeleDirectMD participates through a direct contract with Curative, so a video visit booked from Michigan is processed as in-network care rather than as an out-of-network claim.",
+    licenseNote: "Parth Bhavsar, MD is board-certified in Family Medicine and holds an active Michigan medical license issued by the Michigan Board of Medicine.",
+    majorMetros: ["Detroit","Grand Rapids","Warren","Sterling Heights","Ann Arbor","Lansing"],
+  },
+  MN: {
+    enabled: true,
+    slug: "minnesota",
+    name: "Minnesota",
+    effectiveDate: "July 7, 2026",
+    effectiveDateISO: "2026-07-07",
+    credentialingConfirmed: "July 26, 2026",
+    networkAccessNote: "Minnesota members are in-network under the national TeleDirectMD agreement with Curative. TeleDirectMD participates through a direct contract with Curative, so a video visit booked from Minnesota is processed as in-network care rather than as an out-of-network claim.",
+    licenseNote: "Parth Bhavsar, MD is board-certified in Family Medicine and holds an active Minnesota medical license issued by the Minnesota Board of Medical Practice.",
+    majorMetros: ["Minneapolis","Saint Paul","Rochester","Bloomington","Duluth","Brooklyn Park"],
+  },
+  MO: {
+    enabled: true,
+    slug: "missouri",
+    name: "Missouri",
+    effectiveDate: "July 7, 2026",
+    effectiveDateISO: "2026-07-07",
+    credentialingConfirmed: "July 26, 2026",
+    networkAccessNote: "Missouri members are in-network under the national TeleDirectMD agreement with Curative. TeleDirectMD participates through a direct contract with Curative, so a video visit booked from Missouri is processed as in-network care rather than as an out-of-network claim.",
+    licenseNote: "Parth Bhavsar, MD is board-certified in Family Medicine and holds an active Missouri medical license issued by the Missouri State Board of Registration for the Healing Arts.",
+    majorMetros: ["Kansas City","St. Louis","Springfield","Columbia","Independence","Lee's Summit"],
+  },
+  MS: {
+    enabled: true,
+    slug: "mississippi",
+    name: "Mississippi",
+    effectiveDate: "July 7, 2026",
+    effectiveDateISO: "2026-07-07",
+    credentialingConfirmed: "July 26, 2026",
+    networkAccessNote: "Mississippi members are in-network under the national TeleDirectMD agreement with Curative. TeleDirectMD participates through a direct contract with Curative, so a video visit booked from Mississippi is processed as in-network care rather than as an out-of-network claim.",
+    licenseNote: "Parth Bhavsar, MD is board-certified in Family Medicine and holds an active Mississippi medical license issued by the Mississippi State Board of Medical Licensure.",
+    majorMetros: ["Jackson","Gulfport","Southaven","Hattiesburg","Biloxi","Meridian"],
+  },
+  MT: {
+    enabled: true,
+    slug: "montana",
+    name: "Montana",
+    effectiveDate: "July 7, 2026",
+    effectiveDateISO: "2026-07-07",
+    credentialingConfirmed: "July 26, 2026",
+    networkAccessNote: "Montana members are in-network under the national TeleDirectMD agreement with Curative. TeleDirectMD participates through a direct contract with Curative, so a video visit booked from Montana is processed as in-network care rather than as an out-of-network claim.",
+    licenseNote: "Parth Bhavsar, MD is board-certified in Family Medicine and holds an active Montana medical license issued by the Montana Board of Medical Examiners.",
+    majorMetros: ["Billings","Missoula","Great Falls","Bozeman","Butte","Helena"],
+  },
+  NC: {
+    enabled: true,
+    slug: "north-carolina",
+    name: "North Carolina",
+    effectiveDate: "July 7, 2026",
+    effectiveDateISO: "2026-07-07",
+    credentialingConfirmed: "July 26, 2026",
+    networkAccessNote: "North Carolina members are in-network under the national TeleDirectMD agreement with Curative. TeleDirectMD participates through a direct contract with Curative, so a video visit booked from North Carolina is processed as in-network care rather than as an out-of-network claim.",
+    licenseNote: "Parth Bhavsar, MD is board-certified in Family Medicine and holds an active North Carolina medical license issued by the North Carolina Medical Board.",
+    majorMetros: ["Charlotte","Raleigh","Greensboro","Durham","Winston-Salem","Fayetteville"],
+  },
+  ND: {
+    enabled: true,
+    slug: "north-dakota",
+    name: "North Dakota",
+    effectiveDate: "July 7, 2026",
+    effectiveDateISO: "2026-07-07",
+    credentialingConfirmed: "July 26, 2026",
+    networkAccessNote: "North Dakota members are in-network under the national TeleDirectMD agreement with Curative. TeleDirectMD participates through a direct contract with Curative, so a video visit booked from North Dakota is processed as in-network care rather than as an out-of-network claim.",
+    licenseNote: "Parth Bhavsar, MD is board-certified in Family Medicine and holds an active North Dakota medical license issued by the North Dakota State Board of Medical Examiners.",
+    majorMetros: ["Fargo","Bismarck","Grand Forks","Minot","West Fargo","Williston"],
+  },
+  NE: {
+    enabled: true,
+    slug: "nebraska",
+    name: "Nebraska",
+    effectiveDate: "July 7, 2026",
+    effectiveDateISO: "2026-07-07",
+    credentialingConfirmed: "July 26, 2026",
+    networkAccessNote: "Nebraska members are in-network under the national TeleDirectMD agreement with Curative. TeleDirectMD participates through a direct contract with Curative, so a video visit booked from Nebraska is processed as in-network care rather than as an out-of-network claim.",
+    licenseNote: "Parth Bhavsar, MD is board-certified in Family Medicine and holds an active Nebraska medical license issued by the Nebraska Department of Health and Human Services.",
+    majorMetros: ["Omaha","Lincoln","Bellevue","Grand Island","Kearney","Fremont"],
+  },
+  NH: {
+    enabled: true,
+    slug: "new-hampshire",
+    name: "New Hampshire",
+    effectiveDate: "July 7, 2026",
+    effectiveDateISO: "2026-07-07",
+    credentialingConfirmed: "July 26, 2026",
+    networkAccessNote: "New Hampshire members are in-network under the national TeleDirectMD agreement with Curative. TeleDirectMD participates through a direct contract with Curative, so a video visit booked from New Hampshire is processed as in-network care rather than as an out-of-network claim.",
+    licenseNote: "Parth Bhavsar, MD is board-certified in Family Medicine and holds an active New Hampshire medical license issued by the New Hampshire Board of Medicine.",
+    majorMetros: ["Manchester","Nashua","Concord","Derry","Dover","Rochester"],
+  },
+  NJ: {
+    enabled: true,
+    slug: "new-jersey",
+    name: "New Jersey",
+    effectiveDate: "July 7, 2026",
+    effectiveDateISO: "2026-07-07",
+    credentialingConfirmed: "July 26, 2026",
+    networkAccessNote: "New Jersey members are in-network under the national TeleDirectMD agreement with Curative. TeleDirectMD participates through a direct contract with Curative, so a video visit booked from New Jersey is processed as in-network care rather than as an out-of-network claim.",
+    licenseNote: "Parth Bhavsar, MD is board-certified in Family Medicine and holds an active New Jersey medical license issued by the New Jersey State Board of Medical Examiners.",
+    majorMetros: ["Newark","Jersey City","Paterson","Elizabeth","Trenton","Clifton"],
+  },
+  NV: {
+    enabled: true,
+    slug: "nevada",
+    name: "Nevada",
+    effectiveDate: "July 7, 2026",
+    effectiveDateISO: "2026-07-07",
+    credentialingConfirmed: "July 26, 2026",
+    networkAccessNote: "Nevada members are in-network under the national TeleDirectMD agreement with Curative. TeleDirectMD participates through a direct contract with Curative, so a video visit booked from Nevada is processed as in-network care rather than as an out-of-network claim.",
+    licenseNote: "Parth Bhavsar, MD is board-certified in Family Medicine and holds an active Nevada medical license issued by the Nevada State Board of Medical Examiners.",
+    majorMetros: ["Las Vegas","Henderson","Reno","North Las Vegas","Sparks","Carson City"],
+  },
+  OH: {
+    enabled: true,
+    slug: "ohio",
+    name: "Ohio",
+    effectiveDate: "July 7, 2026",
+    effectiveDateISO: "2026-07-07",
+    credentialingConfirmed: "July 26, 2026",
+    networkAccessNote: "Ohio members are in-network under the national TeleDirectMD agreement with Curative. TeleDirectMD participates through a direct contract with Curative, so a video visit booked from Ohio is processed as in-network care rather than as an out-of-network claim.",
+    licenseNote: "Parth Bhavsar, MD is board-certified in Family Medicine and holds an active Ohio medical license issued by the State Medical Board of Ohio.",
+    majorMetros: ["Columbus","Cleveland","Cincinnati","Toledo","Akron","Dayton"],
+  },
+  OK: {
+    enabled: true,
+    slug: "oklahoma",
+    name: "Oklahoma",
+    effectiveDate: "July 7, 2026",
+    effectiveDateISO: "2026-07-07",
+    credentialingConfirmed: "July 26, 2026",
+    networkAccessNote: "Oklahoma members are in-network under the national TeleDirectMD agreement with Curative. TeleDirectMD participates through a direct contract with Curative, so a video visit booked from Oklahoma is processed as in-network care rather than as an out-of-network claim.",
+    licenseNote: "Parth Bhavsar, MD is board-certified in Family Medicine and holds an active Oklahoma medical license issued by the Oklahoma State Board of Medical Licensure and Supervision.",
+    majorMetros: ["Oklahoma City","Tulsa","Norman","Broken Arrow","Edmond","Lawton"],
+  },
+  PA: {
+    enabled: true,
+    slug: "pennsylvania",
+    name: "Pennsylvania",
+    effectiveDate: "July 7, 2026",
+    effectiveDateISO: "2026-07-07",
+    credentialingConfirmed: "July 26, 2026",
+    networkAccessNote: "Pennsylvania members are in-network under the national TeleDirectMD agreement with Curative. TeleDirectMD participates through a direct contract with Curative, so a video visit booked from Pennsylvania is processed as in-network care rather than as an out-of-network claim.",
+    licenseNote: "Parth Bhavsar, MD is board-certified in Family Medicine and holds an active Pennsylvania medical license issued by the Pennsylvania State Board of Medicine.",
+    majorMetros: ["Philadelphia","Pittsburgh","Allentown","Erie","Reading","Scranton"],
+  },
+  SC: {
+    enabled: true,
+    slug: "south-carolina",
+    name: "South Carolina",
+    effectiveDate: "July 7, 2026",
+    effectiveDateISO: "2026-07-07",
+    credentialingConfirmed: "July 26, 2026",
+    networkAccessNote: "South Carolina members are in-network under the national TeleDirectMD agreement with Curative. TeleDirectMD participates through a direct contract with Curative, so a video visit booked from South Carolina is processed as in-network care rather than as an out-of-network claim.",
+    licenseNote: "Parth Bhavsar, MD is board-certified in Family Medicine and holds an active South Carolina medical license issued by the South Carolina Board of Medical Examiners.",
+    majorMetros: ["Charleston","Columbia","North Charleston","Mount Pleasant","Rock Hill","Greenville"],
+  },
+  SD: {
+    enabled: true,
+    slug: "south-dakota",
+    name: "South Dakota",
+    effectiveDate: "July 7, 2026",
+    effectiveDateISO: "2026-07-07",
+    credentialingConfirmed: "July 26, 2026",
+    networkAccessNote: "South Dakota members are in-network under the national TeleDirectMD agreement with Curative. TeleDirectMD participates through a direct contract with Curative, so a video visit booked from South Dakota is processed as in-network care rather than as an out-of-network claim.",
+    licenseNote: "Parth Bhavsar, MD is board-certified in Family Medicine and holds an active South Dakota medical license issued by the South Dakota Board of Medical and Osteopathic Examiners.",
+    majorMetros: ["Sioux Falls","Rapid City","Aberdeen","Brookings","Watertown","Mitchell"],
+  },
+  TN: {
+    enabled: true,
+    slug: "tennessee",
+    name: "Tennessee",
+    effectiveDate: "July 7, 2026",
+    effectiveDateISO: "2026-07-07",
+    credentialingConfirmed: "July 26, 2026",
+    networkAccessNote: "Tennessee members are in-network under the national TeleDirectMD agreement with Curative. TeleDirectMD participates through a direct contract with Curative, so a video visit booked from Tennessee is processed as in-network care rather than as an out-of-network claim.",
+    licenseNote: "Parth Bhavsar, MD is board-certified in Family Medicine and holds an active Tennessee medical license issued by the Tennessee Board of Medical Examiners.",
+    majorMetros: ["Nashville","Memphis","Knoxville","Chattanooga","Clarksville","Murfreesboro"],
+  },
+  TX: {
+    enabled: true,
+    slug: "texas",
+    name: "Texas",
+    effectiveDate: "July 7, 2026",
+    effectiveDateISO: "2026-07-07",
+    credentialingConfirmed: "July 26, 2026",
+    networkAccessNote: "Texas members are in-network under the national TeleDirectMD agreement with Curative. TeleDirectMD participates through a direct contract with Curative, so a video visit booked from Texas is processed as in-network care rather than as an out-of-network claim.",
+    licenseNote: "Parth Bhavsar, MD is board-certified in Family Medicine and holds an active Texas medical license issued by the Texas Medical Board.",
+    majorMetros: ["Houston","San Antonio","Dallas","Austin","Fort Worth","El Paso"],
+  },
+  UT: {
+    enabled: true,
+    slug: "utah",
+    name: "Utah",
+    effectiveDate: "July 7, 2026",
+    effectiveDateISO: "2026-07-07",
+    credentialingConfirmed: "July 26, 2026",
+    networkAccessNote: "Utah members are in-network under the national TeleDirectMD agreement with Curative. TeleDirectMD participates through a direct contract with Curative, so a video visit booked from Utah is processed as in-network care rather than as an out-of-network claim.",
+    licenseNote: "Parth Bhavsar, MD is board-certified in Family Medicine and holds an active Utah medical license issued by the Utah Division of Occupational and Professional Licensing.",
+    majorMetros: ["Salt Lake City","West Valley City","Provo","West Jordan","Orem","Sandy"],
+  },
+  VA: {
+    enabled: true,
+    slug: "virginia",
+    name: "Virginia",
+    effectiveDate: "July 7, 2026",
+    effectiveDateISO: "2026-07-07",
+    credentialingConfirmed: "July 26, 2026",
+    networkAccessNote: "Virginia members are in-network under the national TeleDirectMD agreement with Curative. TeleDirectMD participates through a direct contract with Curative, so a video visit booked from Virginia is processed as in-network care rather than as an out-of-network claim.",
+    licenseNote: "Parth Bhavsar, MD is board-certified in Family Medicine and holds an active Virginia medical license issued by the Virginia Board of Medicine (Dept. of Health Professions).",
+    majorMetros: ["Virginia Beach","Chesapeake","Norfolk","Arlington","Richmond","Newport News"],
+  },
+  VT: {
+    enabled: true,
+    slug: "vermont",
+    name: "Vermont",
+    effectiveDate: "July 7, 2026",
+    effectiveDateISO: "2026-07-07",
+    credentialingConfirmed: "July 26, 2026",
+    networkAccessNote: "Vermont members are in-network under the national TeleDirectMD agreement with Curative. TeleDirectMD participates through a direct contract with Curative, so a video visit booked from Vermont is processed as in-network care rather than as an out-of-network claim.",
+    licenseNote: "Parth Bhavsar, MD is board-certified in Family Medicine and holds an active Vermont medical license issued by the Vermont Board of Medical Practice.",
+    majorMetros: ["Burlington","South Burlington","Colchester","Rutland","Essex","Williston"],
+  },
+  WA: {
+    enabled: true,
+    slug: "washington",
+    name: "Washington",
+    effectiveDate: "July 7, 2026",
+    effectiveDateISO: "2026-07-07",
+    credentialingConfirmed: "July 26, 2026",
+    networkAccessNote: "Washington members are in-network under the national TeleDirectMD agreement with Curative. TeleDirectMD participates through a direct contract with Curative, so a video visit booked from Washington is processed as in-network care rather than as an out-of-network claim.",
+    licenseNote: "Parth Bhavsar, MD is board-certified in Family Medicine and holds an active Washington medical license issued by the Washington State Department of Health.",
+    majorMetros: ["Seattle","Spokane","Tacoma","Vancouver","Bellevue","Kent"],
+  },
+  WI: {
+    enabled: true,
+    slug: "wisconsin",
+    name: "Wisconsin",
+    effectiveDate: "July 7, 2026",
+    effectiveDateISO: "2026-07-07",
+    credentialingConfirmed: "July 26, 2026",
+    networkAccessNote: "Wisconsin members are in-network under the national TeleDirectMD agreement with Curative. TeleDirectMD participates through a direct contract with Curative, so a video visit booked from Wisconsin is processed as in-network care rather than as an out-of-network claim.",
+    licenseNote: "Parth Bhavsar, MD is board-certified in Family Medicine and holds an active Wisconsin medical license issued by the Wisconsin Medical Examining Board.",
+    majorMetros: ["Milwaukee","Madison","Green Bay","Kenosha","Racine","Appleton"],
+  },
+  WV: {
+    enabled: true,
+    slug: "west-virginia",
+    name: "West Virginia",
+    effectiveDate: "July 7, 2026",
+    effectiveDateISO: "2026-07-07",
+    credentialingConfirmed: "July 26, 2026",
+    networkAccessNote: "West Virginia members are in-network under the national TeleDirectMD agreement with Curative. TeleDirectMD participates through a direct contract with Curative, so a video visit booked from West Virginia is processed as in-network care rather than as an out-of-network claim.",
+    licenseNote: "Parth Bhavsar, MD is board-certified in Family Medicine and holds an active West Virginia medical license issued by the West Virginia Board of Medicine.",
+    majorMetros: ["Charleston","Huntington","Morgantown","Parkersburg","Wheeling","Weirton"],
+  },
+  WY: {
+    enabled: true,
+    slug: "wyoming",
+    name: "Wyoming",
+    effectiveDate: "July 7, 2026",
+    effectiveDateISO: "2026-07-07",
+    credentialingConfirmed: "July 26, 2026",
+    networkAccessNote: "Wyoming members are in-network under the national TeleDirectMD agreement with Curative. TeleDirectMD participates through a direct contract with Curative, so a video visit booked from Wyoming is processed as in-network care rather than as an out-of-network claim.",
+    licenseNote: "Parth Bhavsar, MD is board-certified in Family Medicine and holds an active Wyoming medical license issued by the Wyoming Board of Medicine.",
+    majorMetros: ["Cheyenne","Casper","Laramie","Gillette","Rock Springs","Sheridan"],
+  },
+};
+
+/**
+ * State codes where Curative is live (config-driven, used by routes and sitemap).
+ */
+export function getCurativeStateCodes() {
+  return Object.keys(CURATIVE_STATES).filter((code) => CURATIVE_STATES[code].enabled);
+}
+
 export const INSURERS = {
   aetna: {
     id: "aetna",
@@ -100,9 +614,12 @@ export const INSURERS = {
     logo: "/logos/curative.svg",
     color: "#0B6E99",
     colorLight: "#E7F4FA",
-    tagline: "Curative employer plans accepted in Georgia",
-    description: "Curative is an employer-sponsored health plan built around a no-copay, no-deductible design for members who complete their annual Baseline Visit. TeleDirectMD is in-network with Curative Commercial PPO, EPO, and self-funded plans in Georgia under an agreement effective July 7, 2026.",
-    states: ["GA"],
+    tagline: "Curative employer plans accepted in every licensed state",
+    description: "Curative is an employer-sponsored health plan built around a no-copay, no-deductible design for members who complete their annual Baseline Visit. The TeleDirectMD agreement with Curative is national: TeleDirectMD is in-network for Curative Commercial PPO, EPO, and self-funded plans in every state where Dr. Bhavsar holds an active medical license, effective July 7, 2026.",
+    // National contract. States mirror data/state-licenses.json (43 states + DC),
+    // the single source of truth for active physician licensure. Confirmed in
+    // writing by Curative Network Contracting on 07/26/2026.
+    states: getCurativeStateCodes(),
     // Curative pages are hub + state only. No insurer x condition matrix pages
     // exist for this payer, so the sitemap must skip the condition loops.
     conditionMatrix: false,
@@ -113,9 +630,9 @@ export const INSURERS = {
     billingCodes: ["99213", "99214"],
     claimsPhone: "See member card",
     metaTitle: "Online Doctor That Accepts Curative Insurance | TeleDirectMD",
-    metaDescription: "TeleDirectMD is in-network with Curative Commercial PPO, EPO, and self-funded plans in Georgia. Members who complete their Baseline Visit typically pay $0 for a virtual visit. $79 flat self-pay always available.",
+    metaDescription: "TeleDirectMD is in-network with Curative Commercial PPO, EPO, and self-funded plans in every state where Dr. Bhavsar holds an active license. Members who complete their Baseline Visit typically pay $0 for a virtual visit. $79 flat self-pay always available.",
     h1: "Online Doctor Visits Covered by Curative",
-    heroSubtitle: "TeleDirectMD is in-network with Curative Commercial PPO, EPO, and self-funded plans in Georgia, effective July 7, 2026.",
+    heroSubtitle: "TeleDirectMD is in-network with Curative Commercial PPO, EPO, and self-funded plans in every state where Dr. Bhavsar holds an active medical license, effective July 7, 2026.",
     faqSlug: "curative",
   },
 };
@@ -129,7 +646,7 @@ export const STATE_NAMES = {
   KY:"Kentucky", LA:"Louisiana", ME:"Maine", MD:"Maryland", MS:"Mississippi",
   MO:"Missouri", MT:"Montana", NE:"Nebraska", NV:"Nevada", NH:"New Hampshire",
   ND:"North Dakota", SC:"South Carolina", SD:"South Dakota", UT:"Utah",
-  VA:"Virginia", WV:"West Virginia", WI:"Wisconsin", WY:"Wyoming",
+  VA:"Virginia", VT:"Vermont", WV:"West Virginia", WI:"Wisconsin", WY:"Wyoming",
 };
 
 // All states where TeleDirectMD operates (licensed)
@@ -177,13 +694,15 @@ export const COPAY_DATA = {
     TN: { typical: "$5–$35", employer: "Often $0–$15 for employer plans", note: "UHC Tennessee is strong in the Nashville employer market. Virtual Care benefits frequently $0 for large employer plans." },
     WA: { typical: "$0–$25", employer: "Often $0 for employer plans", note: "UHC Washington has excellent telehealth benefits for tech-sector employer plans in the Seattle–Bellevue corridor." },
   },
-  curative: {
-    GA: {
+  // Curative cost sharing is set by plan design (Baseline Visit completion), not
+  // by state, so every licensed state carries the same verified figures.
+  curative: Object.fromEntries(
+    getCurativeStateCodes().map((code) => [code, {
       typical: "$0 after Baseline Visit",
       employer: "$0 for members who complete the Baseline Visit",
       note: "Curative members who complete their annual Baseline Visit within 120 days of the plan start date have $0 copays, $0 deductible, and 0% coinsurance for in-network care, including virtual visits. Members who have not completed the Baseline Visit are subject to their plan deductible (for example, $5,000 individual and $10,000 family on the EPO product).",
-    },
-  },
+    }])
+  ),
 };
 
 // ─── State-specific contracted plan detail ───────────────────────────────────
@@ -215,50 +734,19 @@ export const STATE_PLAN_DETAILS = {
       note: "Aetna California commercial network — contracted effective April 30, 2026. Plan acceptance is subject to your specific plan benefits and network tier. Self-pay $79 is always available.",
     },
   },
-  curative: {
-    GA: {
-      effectiveDate: "July 7, 2026",
-      effectiveDateISO: "2026-07-07",
+  // Curative contracts the same participating networks (Exhibit C) in every
+  // licensed state under the national agreement, so the plan roster is shared.
+  curative: Object.fromEntries(
+    getCurativeStateCodes().map((code) => [code, {
+      effectiveDate: CURATIVE_STATES[code].effectiveDate,
+      effectiveDateISO: CURATIVE_STATES[code].effectiveDateISO,
       productLines: ["Commercial PPO", "Commercial EPO", "Self-Funded plans"],
       excludedLines: ["Medicaid", "Managed Medicaid", "CHIP", "Medicare-Medicaid (MME)", "Dual Special Needs Plan (D-SNP)", "Medicare Advantage", "HMO"],
-      plans: [
-        { name: "Curative EPO Value", productType: "EPO" },
-        { name: "Curative EPO (PPOx)", productType: "EPO" },
-        { name: "Curative PPO (PPO+)", productType: "PPO" },
-        { name: "Curative PPO Max", productType: "PPO" },
-      ],
-      note: "Curative Georgia participating networks per contract Exhibit C, effective July 7, 2026. Plan acceptance is subject to your specific plan benefits. Self-pay $79 is always available.",
-    },
-  },
+      plans: CURATIVE_PLANS,
+      note: `Curative participating networks per contract Exhibit C, in-network in ${CURATIVE_STATES[code].name} effective ${CURATIVE_STATES[code].effectiveDate}. Plan acceptance is subject to your specific plan benefits. Self-pay $79 is always available.`,
+    }])
+  ),
 };
-
-// ─── Curative state enablement ───────────────────────────────────────────────
-// Adding a state here (with enabled: true) is the only change required to ship
-// a new /insurance/curative/{state}/ page. The route's generateStaticParams and
-// the sitemap both read this map. Georgia is the only enabled state until
-// Curative confirms the Exhibit D state list.
-export const CURATIVE_STATES = {
-  GA: {
-    enabled: true,
-    slug: "georgia",
-    name: "Georgia",
-    effectiveDate: "July 7, 2026",
-    effectiveDateISO: "2026-07-07",
-    credentialingConfirmed: "July 24, 2026",
-    // Georgia members reach the network through Curative's Cigna Healthcare PPO
-    // wrap arrangement. TeleDirectMD participates by direct contract with Curative.
-    networkAccessNote: "Georgia members access the network through Curative's Cigna Healthcare PPO wrap network arrangement. TeleDirectMD participates through a direct contract with Curative.",
-    licenseNote: "Parth Bhavsar, MD is board-certified in Family Medicine and licensed to practice in Georgia. Georgia is TeleDirectMD's home state.",
-    majorMetros: ["Atlanta", "Savannah", "Augusta", "Columbus", "Macon", "Athens"],
-  },
-};
-
-/**
- * State codes where Curative is live (config-driven, used by routes and sitemap).
- */
-export function getCurativeStateCodes() {
-  return Object.keys(CURATIVE_STATES).filter((code) => CURATIVE_STATES[code].enabled);
-}
 
 /**
  * URL slugs for an insurer's live state pages. Curative reads CURATIVE_STATES so

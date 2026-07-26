@@ -10,11 +10,15 @@ import MedicaidExclusion from '../../../components/MedicaidExclusion';
 const curative = INSURERS.curative;
 const cColor = curative.color;
 
-// State-differentiated copy lives here, keyed by state code, so enabling a new
-// Curative state in CURATIVE_STATES only requires adding its narrative block.
+// Georgia keeps its hand-written narrative: it is the home state and the only
+// state that reaches the network through Curative's Cigna PPO wrap. Every other
+// licensed state is composed by buildStateCopy() from that state's own record
+// (licensure, issuing board, metros, telehealth rule) so no two pages share the
+// same licensure statement, local paragraph, or regulatory note.
 const STATE_COPY = {
   GA: {
     conditionPrefix: '/ga/',
+    confirmationLine: 'Credentialing was confirmed active on July 24, 2026.',
     intro:
       'Georgia is TeleDirectMD’s home state and the first state activated under the Curative agreement. Parth Bhavsar, MD is board-certified in Family Medicine, licensed to practice in Georgia, and sees Georgia patients by secure video for the same everyday problems you would take to a primary care or urgent care office.',
     networkPara:
@@ -50,6 +54,57 @@ const STATE_COPY = {
   },
 };
 
+function buildStateCopy(state) {
+  const name = state.name;
+  const metros = state.majorMetros || [];
+  const metroList = metros.length > 1
+    ? `${metros.slice(0, -1).join(', ')}, and ${metros[metros.length - 1]}`
+    : metros[0] || name;
+
+  return {
+    conditionPrefix: `/${state.code.toLowerCase()}/`,
+    confirmationLine: `Curative Network Contracting confirmed the national scope of this agreement in writing on ${state.credentialingConfirmed}.`,
+    intro:
+      `${state.licenseNote} Dr. Bhavsar sees ${name} patients by secure video for the same everyday problems you would ` +
+      `take to a primary care or urgent care office, and ${name} is covered under the national Curative agreement rather than ` +
+      `a state-by-state rollout.`,
+    networkPara:
+      `${state.networkAccessNote} The agreement took effect ${state.effectiveDate}, and Curative Network Contracting confirmed ` +
+      `in writing on ${state.credentialingConfirmed} that TeleDirectMD is in-network for Curative members in every state where ` +
+      `Dr. Bhavsar holds an active license, ${name} included.`,
+    localPara:
+      `Because the visit is virtual, there is no drive across ${name} and no waiting room. Members connect from home or from work ` +
+      `in ${metroList}${state.code === 'DC' ? '' : ', and from rural counties without a nearby urgent care'}. ` +
+      `Prescriptions are routed electronically to your local pharmacy.${state.telehealthNote ? ` ${state.telehealthNote}` : ''}`,
+    faqs: [
+      {
+        q: `Which doctors take Curative insurance in ${name}?`,
+        a: `TeleDirectMD is in-network with Curative in ${name} for Commercial PPO, EPO, and self-funded plans. Visits are with Parth Bhavsar, MD, a board-certified Family Medicine physician licensed in ${name} (NPI 1104323203). Appointments are virtual and usually available the same day.`,
+      },
+      {
+        q: `How do ${name} Curative members access the TeleDirectMD network?`,
+        a: `${state.networkAccessNote} The contract is effective ${state.effectiveDate}, so your virtual visit is billed as in-network care. You do not need a referral.`,
+      },
+      {
+        q: `What will a ${name} Curative member pay for a video visit?`,
+        a: 'Curative members who complete their annual Baseline Visit within 120 days of their plan start date have $0 copays, $0 deductible, and 0% coinsurance for in-network care, including this visit. Members who have not completed the Baseline Visit pay toward their plan deductible, commonly $5,000 individual and $10,000 family on the EPO product. A flat $79 self-pay visit is also available if you prefer not to use insurance.',
+      },
+      {
+        q: `Is Parth Bhavsar, MD licensed in ${name}?`,
+        a: `Yes. ${state.licenseNote} Coverage under the Curative agreement follows that license: TeleDirectMD is in-network for Curative members in every state where Dr. Bhavsar holds an active license.`,
+      },
+      {
+        q: `What can a ${name} Curative member be treated for online?`,
+        a: `Common adult conditions such as urinary tract infections, sinus infections, sore throat, ear pain, pink eye, flu, cold sores, rashes, and seasonal allergies, plus refills for hypertension, hyperlipidemia, and hypothyroidism. If your symptoms need an in-person exam, imaging, or emergency care, we will say so during the visit and point you to the right ${name} facility.`,
+      },
+      {
+        q: `Does TeleDirectMD accept ${name} Medicaid or Medicare plans through Curative?`,
+        a: `No. The Curative agreement covers Commercial PPO, EPO, and self-funded plans only. TeleDirectMD is not in-network with ${name} Medicaid, Managed Medicaid, CHIP, or Medicare-Medicaid plans, and does not bill them in any state. The $79 flat self-pay visit remains available.`,
+      },
+    ],
+  };
+}
+
 const CONDITIONS = [
   { slug: 'uti-treatment-online', label: 'UTI (Urinary Tract Infection)' },
   { slug: 'sinus-infection-treatment-online', label: 'Sinus Infection' },
@@ -66,7 +121,7 @@ const CONDITIONS = [
 ];
 
 export default function CurativeStateClient({ state }) {
-  const copy = STATE_COPY[state.code];
+  const copy = STATE_COPY[state.code] || buildStateCopy(state);
   const planDetail = STATE_PLAN_DETAILS.curative?.[state.code];
   const copay = COPAY_DATA.curative?.[state.code];
   const pageUrl = `https://teledirectmd.com/insurance/curative/${state.slug}/`;
@@ -203,7 +258,7 @@ export default function CurativeStateClient({ state }) {
           <Ico.Shield c={cColor} s={22} />
           <div>
             <div style={{ fontSize: 15, fontWeight: 700, color: B.navy, marginBottom: 6 }}>How {state.name} members reach the network</div>
-            <p style={{ fontSize: 14, color: B.text, margin: 0, lineHeight: 1.65 }}>{state.networkAccessNote} Credentialing was confirmed active on {state.credentialingConfirmed}.</p>
+            <p style={{ fontSize: 14, color: B.text, margin: 0, lineHeight: 1.65 }}>{state.networkAccessNote} {copy.confirmationLine}</p>
           </div>
         </div>
 
@@ -284,7 +339,7 @@ export default function CurativeStateClient({ state }) {
         <CommissionerLink stateCode={state.code} stateName={state.name} />
 
         <div style={{ marginBottom: 48 }}>
-          <InsuranceDisclaimer payerNote={`Curative network status in ${state.name} reflects our Commercial PPO, EPO, and self-funded contract effective ${state.effectiveDate}. Cost sharing depends on your plan and on whether your annual Baseline Visit is complete. Verify benefits with Curative before your visit.`} />
+          <InsuranceDisclaimer payerNote={`Curative network status in ${state.name} reflects our national Commercial PPO, EPO, and self-funded contract effective ${state.effectiveDate}: TeleDirectMD is in-network for Curative members in every state where Dr. Bhavsar holds an active license, per written confirmation from Curative Network Contracting (07/26/2026). Cost sharing depends on your plan and on whether your annual Baseline Visit is complete. Verify benefits with Curative before your visit.`} />
         </div>
       </div>
     </div>

@@ -1,4 +1,5 @@
 import { CURATIVE_STATES, getCurativeStateCodes, INSURERS } from '../../../../data/insurance/insuranceConfig';
+import statesData from '../../../../data/states.json';
 import CurativeStateClient from '../components/CurativeStateClient';
 
 // Enabling a state is a config-only change: add it to CURATIVE_STATES with
@@ -9,7 +10,11 @@ export function generateStaticParams() {
 
 function findStateBySlug(slug) {
   const code = getCurativeStateCodes().find((c) => CURATIVE_STATES[c].slug === slug);
-  return code ? { code, ...CURATIVE_STATES[code] } : null;
+  if (!code) return null;
+  // states.json carries each state's telehealth rule, which keeps the local
+  // paragraph on every Curative state page grounded in that state's own law.
+  const telehealthNote = statesData.find((s) => s.abbr === code)?.telehealthRegulation;
+  return { code, ...CURATIVE_STATES[code], telehealthNote };
 }
 
 export function generateMetadata({ params }) {
