@@ -32,7 +32,8 @@ const c = data.cdc || {};
 const required = ['domesticCases', 'statesReporting', 'hospitalizations', 'deaths', 'asOf'];
 for (const k of required) if (c[k] === undefined || c[k] === null) fail(`cdc.${k} missing`);
 if (typeof c.domesticCases !== 'number' || c.domesticCases < 0) fail('cdc.domesticCases must be a non-negative number');
-if (!/^\d{4}-\d{2}-\d{2}$/.test(c.asOf)) fail('cdc.asOf must be YYYY-MM-DD');
+// asOf may be an ISO date (2026-08-03) or a CDC-style range string ("May 1 - August 3, 2026").
+if (typeof c.asOf !== 'string' || c.asOf.trim().length < 4) fail('cdc.asOf must be a non-empty date or date-range string');
 if (!Array.isArray(data.statesHardestHit)) fail('statesHardestHit must be an array');
 
 if (!fs.existsSync(OUT_DIR)) fs.mkdirSync(OUT_DIR, { recursive: true });

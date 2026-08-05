@@ -3,7 +3,7 @@
   "slug": "cyclosporiasis-outbreak-2026-guide",
   "outbreakActive": true,
   "season": "May 1 – August 31, 2026",
-  "lastVerified": "2026-07-21",
+  "lastVerified": "2026-08-05",
   "sourceIdentified": {
     "product": "Shredded iceberg lettuce from Taylor Farms de Mexico (central Mexico) served at Taco Bell locations in Indiana, Kentucky, Michigan, Ohio, and West Virginia",
     "confirmedBy": "FDA & CDC epidemiologic and traceback data (advisory July 16–17, 2026; still active July 21)",
@@ -18,13 +18,15 @@
     "cdcUrl": "https://www.cdc.gov/cyclosporiasis/outbreaks/07-26/investigation.html"
   },
   "cdc": {
-    "asOf": "2026-07-13",
-    "domesticCases": 1645,
-    "statesReporting": 34,
-    "hospitalizations": 141,
+    "asOf": "May 1 – August 3, 2026",
+    "domesticCases": 10468,
+    "statesReporting": 45,
+    "hospitalizations": 423,
     "deaths": 0,
-    "additionalUnderReview": 5100,
+    "additionalUnderReview": 12255,
     "travelAssociatedCases": 343,
+    "hospitalizationsAsOf": "through July 27 (CDC last published hospitalization/state figures on the July 28 update; the Aug 3 case total is newer)",
+    "statesNote": "CDC shows a case map; ~45 states per USA TODAY (July 29). CDC's page no longer prints a single state count.",
     "medianAge": 44,
     "ageRange": "5–88",
     "percentFemale": 59,
@@ -33,51 +35,60 @@
     "sourceName": "CDC Cyclosporiasis Surveillance"
   },
   "fda": {
-    "asOf": "2026-07-16",
-    "activeInvestigations": 5,
+    "asOf": "2026-08-05",
+    "activeInvestigations": 3,
     "sourceIdentified": true,
     "recallIssued": true,
     "investigations": [
       {
+        "ref": "1398",
+        "datePosted": "2026-07",
+        "product": "Not Yet Identified",
+        "status": "Active — recall initiated"
+      },
+      {
         "ref": "1390",
         "datePosted": "2026-07-15",
-        "product": "Shredded iceberg lettuce (Taco Bell, 5 states)",
-        "cases": 1644,
-        "status": "Active — advisory issued"
+        "product": "Iceberg Lettuce (Taylor Farms de Mexico; Taco Bell cluster)",
+        "status": "Active — see advisory"
       },
       {
         "ref": "1385",
         "datePosted": "2026-07-08",
         "product": "Not Yet Identified",
-        "cases": 8,
-        "status": "Ongoing"
-      },
-      {
-        "ref": "1384",
-        "datePosted": "2026-07-08",
-        "product": "Not Yet Identified",
-        "cases": 18,
-        "status": "Ongoing"
-      },
-      {
-        "ref": "1381",
-        "datePosted": "2026-06-17",
-        "product": "Not Yet Identified",
-        "cases": 2,
-        "status": "Ongoing"
-      },
-      {
-        "ref": "1375",
-        "datePosted": "2026-06-03",
-        "product": "Not Yet Identified",
-        "cases": 8,
-        "status": "Ended"
+        "status": "Active — recall initiated"
       }
     ],
     "sourceUrl": "https://www.fda.gov/food/outbreaks-foodborne-illness/investigations-foodborne-illness-outbreaks",
     "sourceName": "FDA CORE Outbreak Investigation Table"
   },
   "statesHardestHit": [
+    {
+      "state": "Michigan",
+      "cases": 10077,
+      "asOf": "2026-07-29",
+      "note": "Largest state cluster (usual annual total ~50).",
+      "sourceUrl": "https://www.usatoday.com/story/news/health/2026/07/29/cyclosporiasis-diarrhea-cases-45-states-cdc/91096592007/",
+      "sourceName": "USA TODAY"
+    },
+    {
+      "state": "Ohio",
+      "cases": 4013,
+      "asOf": "2026-07-31",
+      "note": "Second-largest state cluster.",
+      "sourceUrl": "https://www.dispatch.com/story/news/2026/07/31/cyclosporiasis-cyclospora-explosive-diarrhea-outbreak-cases-ohio-numbers-update-county-map/91106465007/",
+      "sourceName": "The Columbus Dispatch"
+    },
+    {
+      "state": "New York (NYC)",
+      "cases": 447,
+      "asOf": "2026-07-20",
+      "note": "New York City count.",
+      "sourceUrl": "https://www.usatoday.com/story/news/state/new-york/new-york-city/2026/07/22/latest-cyclosporiasis-cases-in-new-york-city-continue-to-grow/91010537007/",
+      "sourceName": "USA Today"
+    }
+  ],
+  "statesHardestHitOld": [
     {
       "state": "Michigan",
       "cases": 3309,
