@@ -161,6 +161,7 @@
 *,*::before,*::after{box-sizing:border-box}
 body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,sans-serif;color:var(--tdmd-text);background:var(--tdmd-bg);line-height:1.7;font-size:17px}
 .tdmd-container{max-width:1100px;margin:0 auto;padding:0 1.25rem}
+@media (max-width:480px){.tdmd-container{padding:0 .85rem}body{font-size:16px}}
 .tdmd-breadcrumb{font-size:.85rem;color:var(--tdmd-muted);padding:1rem 0}
 .tdmd-breadcrumb a{color:var(--tdmd-teal);text-decoration:none}
 .tdmd-breadcrumb span{margin:0 .4rem;color:#B0BEC5}
@@ -174,9 +175,11 @@ body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxy
 .tdmd-article-meta-item a{color:var(--tdmd-teal);text-decoration:none}
 .tdmd-content-grid{display:grid;grid-template-columns:1fr 300px;gap:2.5rem;padding:1rem 0 2rem}
 @media (max-width:960px){.tdmd-content-grid{grid-template-columns:1fr}.tdmd-article-title{font-size:1.7rem}}
-.tdmd-article-body{max-width:820px}
-.tdmd-article-body h2{font-size:1.5rem;color:var(--tdmd-teal-dark);margin-top:2.2rem;margin-bottom:.7rem;padding-bottom:.4rem;border-bottom:2px solid var(--tdmd-border);scroll-margin-top:1rem}
+@media (max-width:480px){.tdmd-article-title{font-size:1.5rem;line-height:1.25}.tdmd-article-subtitle{font-size:.98rem}.tdmd-article-meta{gap:.9rem;font-size:.85rem}.tdmd-content-grid{gap:1.25rem;padding:.75rem 0 1.5rem}}
+.tdmd-article-body{max-width:820px;min-width:0}
+.tdmd-article-body h2{font-size:1.5rem;color:var(--tdmd-teal-dark);margin-top:2.2rem;margin-bottom:.7rem;padding-bottom:.4rem;border-bottom:2px solid var(--tdmd-border);scroll-margin-top:1rem;word-wrap:break-word;overflow-wrap:break-word}
 .tdmd-article-body h3{font-size:1.15rem;color:var(--tdmd-teal-dark);margin-top:1.5rem;margin-bottom:.4rem}
+@media (max-width:480px){.tdmd-article-body h2{font-size:1.3rem;margin-top:1.8rem}.tdmd-article-body h3{font-size:1.05rem}.tdmd-article-body p{margin:0 0 .85rem}}
 .tdmd-article-body p{margin:0 0 1rem}
 .tdmd-article-body ul,.tdmd-article-body ol{margin:0 0 1rem;padding-left:1.4rem}
 .tdmd-article-body li{margin-bottom:.4rem}
@@ -188,9 +191,18 @@ body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxy
 .tdmd-article-figure{margin:1.5rem 0;text-align:center}
 .tdmd-article-figure img{max-width:100%;height:auto;border-radius:10px;border:1px solid var(--tdmd-border)}
 .tdmd-article-figure figcaption{color:var(--tdmd-muted);font-size:.85rem;margin-top:.5rem;font-style:italic}
-.tdmd-table-wrap{overflow-x:auto;margin:1rem 0}
+.tdmd-table-wrap{overflow-x:auto;margin:1rem 0;-webkit-overflow-scrolling:touch;
+/* Standard shadow trick: two local-attached fade gradients (one at each edge) and two
+   scroll-attached soft shadows. The local gradients hide the shadows at the edges of
+   the scroll area, so a shadow only appears on the side that has more content to reveal. */
+background:linear-gradient(to right,var(--tdmd-bg) 30%,rgba(247,249,250,0)) 0 0/24px 100% no-repeat local,
+ linear-gradient(to right,rgba(247,249,250,0),var(--tdmd-bg) 70%) 100% 0/24px 100% no-repeat local,
+ radial-gradient(farthest-side at 0 50%,rgba(0,62,82,0.28),rgba(0,0,0,0)) 0 0/12px 100% no-repeat scroll,
+ radial-gradient(farthest-side at 100% 50%,rgba(0,62,82,0.28),rgba(0,0,0,0)) 100% 0/12px 100% no-repeat scroll,
+ var(--tdmd-bg)}
 .tdmd-table{width:100%;border-collapse:collapse;background:var(--tdmd-card);border:1px solid var(--tdmd-border);border-radius:8px;overflow:hidden;font-size:.94rem}
 .tdmd-table th,.tdmd-table td{padding:.7rem .85rem;text-align:left;border-bottom:1px solid var(--tdmd-border);vertical-align:top}
+@media (max-width:640px){.tdmd-table{font-size:.86rem}.tdmd-table th,.tdmd-table td{padding:.55rem .65rem;min-width:90px}}
 .tdmd-table th{background:#E6F0F2;color:var(--tdmd-teal-dark);font-weight:700}
 .tdmd-table tr:last-child td{border-bottom:none}
 .tdmd-callout{background:var(--tdmd-card);border-left:4px solid var(--tdmd-teal);border-radius:8px;padding:1rem 1.2rem;margin:1.2rem 0}
@@ -205,21 +217,24 @@ body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxy
 .tdmd-aqi-grid .aqi-unh{background:#FF0000}
 .tdmd-aqi-grid .aqi-vunh{background:#8F3F97}
 .tdmd-aqi-grid .aqi-haz{background:#7E0023}
-@media (max-width:640px){.tdmd-aqi-grid{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:640px){.tdmd-aqi-grid{grid-template-columns:repeat(2,1fr)}.tdmd-aqi-grid div{padding:.5rem .25rem;font-size:.75rem}}
 .tdmd-toc-sidebar{position:sticky;top:1rem;align-self:start;background:var(--tdmd-card);border:1px solid var(--tdmd-border);border-radius:10px;padding:1.2rem 1.3rem;font-size:.9rem}
+@media (max-width:960px){.tdmd-toc-sidebar{margin-bottom:1rem;padding:1rem 1.2rem}}
 .tdmd-toc-sidebar h3{margin:0 0 .7rem;font-size:.95rem;color:var(--tdmd-teal-dark);text-transform:uppercase;letter-spacing:.04em}
 .tdmd-toc{list-style:none;padding:0;margin:0}
 .tdmd-toc li{margin-bottom:.45rem;line-height:1.35}
 .tdmd-toc a{color:var(--tdmd-muted);text-decoration:none;font-size:.88rem}
 .tdmd-toc a:hover{color:var(--tdmd-teal)}
 @media (max-width:960px){.tdmd-toc-sidebar{position:static}}
-.tdmd-references{background:var(--tdmd-card);border:1px solid var(--tdmd-border);border-radius:10px;padding:1.2rem 1.5rem;margin:2rem 0}
+.tdmd-references{background:var(--tdmd-card);border:1px solid var(--tdmd-border);border-radius:10px;padding:1.2rem 1.5rem;margin:2rem 0;word-wrap:break-word;overflow-wrap:break-word}
+@media (max-width:480px){.tdmd-references{padding:1rem 1.1rem}.tdmd-references ol{font-size:.82rem;padding-left:1.1rem}}
 .tdmd-references h2{margin-top:0;color:var(--tdmd-teal-dark);font-size:1.25rem}
 .tdmd-references ol{font-size:.85rem;line-height:1.55;padding-left:1.3rem;margin:0}
 .tdmd-references li{margin-bottom:.55rem;color:var(--tdmd-muted);word-break:break-word}
 .tdmd-references a{color:var(--tdmd-teal);text-decoration:none;word-break:break-all}
 .tdmd-references em{font-style:italic}
 .tdmd-author-bio{background:var(--tdmd-card);border:1px solid var(--tdmd-border);border-radius:10px;padding:1.2rem 1.5rem;margin:2rem 0;display:flex;gap:1.3rem;align-items:flex-start}
+@media (max-width:480px){.tdmd-author-bio{padding:1rem 1.1rem;gap:.9rem}.tdmd-author-avatar{width:48px;height:48px;font-size:1rem}}
 .tdmd-author-avatar{width:60px;height:60px;border-radius:50%;background:var(--tdmd-teal);color:#fff;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:1.2rem;flex-shrink:0}
 .tdmd-author-info h3{margin:0 0 .4rem;color:var(--tdmd-teal-dark);font-size:1.05rem}
 .tdmd-author-info p{margin:.2rem 0;font-size:.9rem}
@@ -492,7 +507,7 @@ body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxy
 <style>
 .tdmd-zoomable-figure { position: relative; }
 .tdmd-zoom-btn {
-  position: absolute; top: 12px; right: 16px; z-index: 2;
+  position: absolute; top: 12px; right: 16px; z-index: 5;
   display: inline-flex; align-items: center; gap: 6px;
   padding: 6px 10px; border-radius: 999px;
   background: rgba(0, 62, 82, 0.85); color: #fff;
@@ -500,40 +515,56 @@ body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxy
   cursor: pointer; box-shadow: 0 1px 3px rgba(0,0,0,0.15);
 }
 .tdmd-zoom-btn:hover, .tdmd-zoom-btn:focus { background: #003E52; outline: none; }
+/* On phones the pill was overlapping the figure subtitle. Shrink to icon-only and reposition. */
+@media (max-width: 640px) {
+  .tdmd-zoom-btn { top: 8px; right: 10px; padding: 8px; gap: 0; }
+  .tdmd-zoom-btn span { display: none; }
+  .tdmd-zoom-btn svg { width: 18px; height: 18px; }
+}
 .tdmd-lightbox {
   position: fixed; inset: 0; z-index: 9999;
-  background: rgba(10, 36, 56, 0.92);
+  background: rgba(10, 36, 56, 0.94);
   display: none; align-items: center; justify-content: center;
   padding: 20px;
+  overscroll-behavior: contain;
 }
 .tdmd-lightbox.open { display: flex; }
+/* Locking body scroll while lightbox is open. JS adds this class on <html>. */
+html.tdmd-lightbox-locked, html.tdmd-lightbox-locked body { overflow: hidden !important; touch-action: none; }
 .tdmd-lightbox-inner {
   position: relative; width: 100%; height: 100%;
   display: flex; align-items: center; justify-content: center;
   overflow: hidden;
 }
 .tdmd-lightbox-svg {
-  max-width: none; max-height: none;
+  max-width: 95vw; max-height: calc(100vh - 120px);
   transform-origin: center center;
   transition: transform 0.15s ease-out;
   cursor: grab; user-select: none;
   background: #F5F9FA; border-radius: 12px;
   box-shadow: 0 20px 60px rgba(0,0,0,0.4);
-  width: 90vw; height: auto;
+  width: 95vw; height: auto;
+  touch-action: none; /* let JS handle pinch/pan */
 }
+@media (max-width: 640px) { .tdmd-lightbox-svg { width: 96vw; max-height: calc(100vh - 100px); } }
 .tdmd-lightbox-svg.grabbing { cursor: grabbing; transition: none; }
 .tdmd-lightbox-controls {
-  position: absolute; top: 20px; right: 20px; z-index: 3;
+  position: absolute; top: 14px; right: 14px; z-index: 3;
   display: flex; gap: 8px;
 }
 .tdmd-lightbox-controls button {
-  width: 40px; height: 40px; border-radius: 50%;
+  width: 44px; height: 44px; border-radius: 50%;
   background: rgba(255,255,255,0.95); border: none;
   color: #003E52; font-size: 20px; font-weight: 700;
   cursor: pointer; box-shadow: 0 2px 6px rgba(0,0,0,0.2);
   display: flex; align-items: center; justify-content: center;
+  -webkit-tap-highlight-color: transparent;
 }
 .tdmd-lightbox-controls button:hover { background: #fff; }
+@media (max-width: 480px) {
+  .tdmd-lightbox-controls { top: 10px; right: 10px; gap: 6px; }
+  .tdmd-lightbox-controls button { width: 38px; height: 38px; font-size: 18px; }
+}
 .tdmd-lightbox-hint {
   position: absolute; bottom: 20px; left: 50%; transform: translateX(-50%);
   color: rgba(255,255,255,0.75); font: 13px system-ui, -apple-system, sans-serif;
@@ -541,8 +572,7 @@ body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxy
   pointer-events: none;
 }
 @media (max-width: 640px) {
-  .tdmd-lightbox-svg { width: 96vw; }
-  .tdmd-lightbox-hint { font-size: 11px; padding: 5px 10px; }
+  .tdmd-lightbox-hint { font-size: 11px; padding: 5px 10px; bottom: 12px; }
 }
 </style>
 <script>
@@ -659,10 +689,12 @@ body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxy
     function esc(e){ if (e.key === 'Escape') close(); }
     function close(){
       lb.classList.remove('open');
+      document.documentElement.classList.remove('tdmd-lightbox-locked');
       document.removeEventListener('keydown', esc);
       inner.innerHTML = '';
     }
     document.addEventListener('keydown', esc);
+    document.documentElement.classList.add('tdmd-lightbox-locked');
     lb.classList.add('open');
   }
 
