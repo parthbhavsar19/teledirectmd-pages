@@ -97,7 +97,10 @@
    "https://www.canada.ca/en/environment-climate-change/services/air-quality-health-index.html",
    "https://www.aap.org/en/patient-care/disasters-and-children/disaster-management-resources-by-topic/wildfires/",
    "https://www.airnow.gov/sites/default/files/2022-01/childrens-health-wildfire-smoke-workshop-recommendations.pdf",
-   "https://jamanetwork.com/journals/jamaneurology/fullarticle/2827124"
+   "https://jamanetwork.com/journals/jamaneurology/fullarticle/2827124",
+   "https://www.epa.gov/pm-pollution/particulate-matter-pm-basics",
+   "https://www.epa.gov/pmcourse/particle-pollution-exposure",
+   "https://pmc.ncbi.nlm.nih.gov/articles/PMC7156741/"
  ]
  },
  {
@@ -111,7 +114,7 @@
  "image": "https://teledirectmd.com/health-guides/wildfire-smoke-health-guide/images/hero-wildfire-smoke-health-guide.png",
  "mainEntityOfPage": { "@id": "https://teledirectmd.com/health-guides/wildfire-smoke-health-guide#webpage" },
  "articleSection": "Health Guides",
- "wordCount": 4200
+ "wordCount": 4400
  },
  {
  "@type": "FAQPage",
@@ -307,6 +310,174 @@ body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxy
  <p>What makes wildfire PM2.5 different from urban PM2.5 is composition, not size. Wildfire particles are up to 50 percent organic carbon by mass and contain a higher share of polar organic compounds, which generate more free radicals and greater oxidative stress in exposed tissue than the metal-and-soot mixture typical of traffic pollution.<sup><a href="#ref-8" id="cite-7">[8]</a></sup> That biological difference matters clinically. In one 749-city global time-series study, each 10 microgram per cubic meter increase in wildfire PM2.5 (3-day moving average) was associated with a 1.9 percent increase in all-cause mortality, a 1.7 percent increase in cardiovascular mortality, and a 1.9 percent increase in respiratory mortality; approximately 33,510 deaths per year globally are attributable to short-term wildfire smoke exposure.<sup><a href="#ref-19" id="cite-8">[19]</a></sup> A separate 2021 <em>Nature Communications</em> analysis found wildfire-specific PM2.5 caused a 1.3 to 10 percent increase in respiratory hospitalizations per 10 microgram per cubic meter increase, versus 0.67 to 1.3 percent for non-wildfire PM2.5, roughly "up to 10 times more harmful" in the direction of effect.<sup><a href="#ref-8" id="cite-8b">[8]</a></sup></p>
 
  <p>The exact multiplier varies by outcome and study, but the direction is well replicated across at least five independent peer-reviewed sources: wildfire PM2.5 is more harmful than an equivalent mass of general PM2.5. You should not assume that a familiar bad-air-day in Los Angeles or Beijing predicts how your body will react to a wildfire-smoke episode of the same AQI reading.</p>
+
+<figure class="tdmd-article-figure" style="margin:1.5rem 0;">
+<svg role="img" aria-labelledby="particle-title particle-desc" viewBox="0 0 900 620" xmlns="http://www.w3.org/2000/svg" style="width:100%;max-width:900px;height:auto;display:block;margin:0 auto;background:#F5F9FA;border-radius:12px;">
+  <title id="particle-title">How different particle sizes penetrate the lungs</title>
+  <desc id="particle-desc">Left panel: a human hair (about 70 micrometers) shown next to PM10, PM2.5, and ultrafine PM0.1 particles at relative scale. Right panel: a stylized cross-section of the airway showing PM10 deposits in the nose and throat, PM2.5 reaches the bronchioles and alveoli, and ultrafine PM0.1 crosses the alveolar wall into the bloodstream.</desc>
+
+  <!-- Header -->
+  <text x="450" y="34" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="22" font-weight="700" fill="#003E52">How Deep Does Each Particle Go?</text>
+  <text x="450" y="58" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#456676">Smaller particles travel further into the lungs and, at the smallest sizes, into the bloodstream</text>
+
+  <!-- ============ LEFT PANEL: Size comparison ============ -->
+  <g transform="translate(40, 100)">
+    <rect x="0" y="0" width="400" height="480" rx="12" fill="#FFFFFF" stroke="#C2E0E5" stroke-width="1.5"/>
+    <text x="200" y="28" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="700" fill="#003E52">Relative size (to scale)</text>
+    <text x="200" y="46" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#456676">Human hair for comparison</text>
+
+    <!-- Hair strand (~70 µm) as a big golden band -->
+    <g transform="translate(30, 90)">
+      <rect x="0" y="0" width="340" height="70" rx="4" fill="#C4A572" opacity="0.55" stroke="#A8894D" stroke-width="1"/>
+      <text x="170" y="42" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700" fill="#5A4820">Human hair</text>
+      <text x="170" y="60" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#5A4820">~70 µm diameter</text>
+    </g>
+
+    <!-- PM10 circle (10 µm) -->
+    <g transform="translate(70, 210)">
+      <circle cx="0" cy="0" r="20" fill="#7A6236" opacity="0.7" stroke="#5A4820" stroke-width="1"/>
+      <text x="55" y="-6" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700" fill="#003E52">PM10 (coarse)</text>
+      <text x="55" y="10" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#456676">≤ 10 µm &middot; ~7x smaller than a hair</text>
+      <text x="55" y="26" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#456676">Dust, pollen, mold spores</text>
+    </g>
+
+    <!-- PM2.5 circle (2.5 µm) -->
+    <g transform="translate(70, 290)">
+      <circle cx="0" cy="0" r="6" fill="#C4551E" opacity="0.85" stroke="#8A3B15" stroke-width="1"/>
+      <text x="55" y="-6" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700" fill="#003E52">PM2.5 (fine)</text>
+      <text x="55" y="10" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#456676">≤ 2.5 µm &middot; ~30x smaller than a hair</text>
+      <text x="55" y="26" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#456676">Wildfire smoke, combustion</text>
+    </g>
+
+    <!-- PM0.1 dot (0.1 µm) -->
+    <g transform="translate(70, 370)">
+      <circle cx="0" cy="0" r="1.5" fill="#B4162A" stroke="#7A0F1D" stroke-width="0.5"/>
+      <text x="55" y="-6" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700" fill="#003E52">PM0.1 (ultrafine)</text>
+      <text x="55" y="10" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#456676">≤ 0.1 µm &middot; ~700x smaller than a hair</text>
+      <text x="55" y="26" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#456676">Fresh smoke, diesel exhaust</text>
+    </g>
+
+    <!-- Footnote inside left panel -->
+    <text x="200" y="450" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="10" fill="#78909C" font-style="italic">Circles drawn to relative scale; hair band compressed</text>
+    <text x="200" y="465" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="10" fill="#78909C" font-style="italic">for layout. µm = micrometer (0.001 mm).</text>
+  </g>
+
+  <!-- ============ RIGHT PANEL: Lung penetration ============ -->
+  <g transform="translate(460, 100)">
+    <rect x="0" y="0" width="400" height="480" rx="12" fill="#FFFFFF" stroke="#C2E0E5" stroke-width="1.5"/>
+    <text x="200" y="28" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="700" fill="#003E52">Where each size lands</text>
+    <text x="200" y="46" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#456676">Airway anatomy and deposition depth</text>
+
+    <!-- Airway diagram (stylized bronchial tree with head at top) -->
+    <g transform="translate(200, 80)">
+      <!-- Head/nose/throat -->
+      <ellipse cx="0" cy="0" rx="52" ry="42" fill="#F5D5C0" stroke="#D4A088" stroke-width="1.5"/>
+      <!-- nose passage hint -->
+      <path d="M -8,-5 Q -14,0 -8,10 L 8,10 Q 14,0 8,-5 Z" fill="#D4A088" opacity="0.5"/>
+      <text x="0" y="0" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="9" fill="#6B4A38" font-weight="600">Nose</text>
+      <text x="0" y="12" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="9" fill="#6B4A38" font-weight="600">Throat</text>
+
+      <!-- Trachea -->
+      <rect x="-14" y="42" width="28" height="60" fill="#F5D5C0" stroke="#D4A088" stroke-width="1.5" rx="4"/>
+      <text x="0" y="80" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="9" fill="#6B4A38" font-weight="600">Trachea</text>
+
+      <!-- Main bronchi (Y-split) -->
+      <path d="M -14,102 L -70,150 L -70,180 L -55,180 L -50,155 L 0,120 L 50,155 L 55,180 L 70,180 L 70,150 L 14,102 Z" fill="#F5D5C0" stroke="#D4A088" stroke-width="1.5"/>
+
+      <!-- Bronchioles (branching) -->
+      <g stroke="#D4A088" stroke-width="4" stroke-linecap="round" fill="none">
+        <path d="M -70,180 L -95,215"/>
+        <path d="M -70,180 L -60,220"/>
+        <path d="M -60,220 L -75,250"/>
+        <path d="M -60,220 L -45,255"/>
+        <path d="M -95,215 L -110,245"/>
+        <path d="M -95,215 L -85,250"/>
+
+        <path d="M 70,180 L 95,215"/>
+        <path d="M 70,180 L 60,220"/>
+        <path d="M 60,220 L 75,250"/>
+        <path d="M 60,220 L 45,255"/>
+        <path d="M 95,215 L 110,245"/>
+        <path d="M 95,215 L 85,250"/>
+      </g>
+
+      <!-- Alveoli cluster (grape-like) -->
+      <g fill="#FBE4D5" stroke="#D4A088" stroke-width="1">
+        <circle cx="-110" cy="265" r="8"/>
+        <circle cx="-95" cy="275" r="7"/>
+        <circle cx="-80" cy="270" r="8"/>
+        <circle cx="-70" cy="285" r="7"/>
+        <circle cx="-55" cy="275" r="8"/>
+        <circle cx="-45" cy="290" r="7"/>
+
+        <circle cx="45" cy="290" r="7"/>
+        <circle cx="55" cy="275" r="8"/>
+        <circle cx="70" cy="285" r="7"/>
+        <circle cx="80" cy="270" r="8"/>
+        <circle cx="95" cy="275" r="7"/>
+        <circle cx="110" cy="265" r="8"/>
+      </g>
+
+      <!-- Blood vessel below alveoli (bloodstream) -->
+      <rect x="-140" y="305" width="280" height="14" fill="#B4162A" opacity="0.55" rx="7"/>
+      <text x="0" y="315" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="9" fill="#FFFFFF" font-weight="700">BLOODSTREAM</text>
+    </g>
+
+    <!-- Deposition markers on the anatomy. Coordinates are relative to the right-panel group (translate 460,100). -->
+    <!-- PM10 marker (points at nose/throat) -->
+    <g transform="translate(65, 80)">
+      <circle cx="0" cy="0" r="12" fill="#7A6236" opacity="0.85" stroke="#5A4820" stroke-width="1"/>
+      <text x="0" y="4" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="10" font-weight="700" fill="#FFFFFF">PM10</text>
+    </g>
+    <path d="M 78,85 L 145,80" stroke="#7A6236" stroke-width="1.5" fill="none" marker-end="url(#arrow-brown)"/>
+
+    <!-- PM2.5 marker (near bronchioles/alveoli) -->
+    <g transform="translate(345, 235)">
+      <circle cx="0" cy="0" r="14" fill="#C4551E" opacity="0.9" stroke="#8A3B15" stroke-width="1"/>
+      <text x="0" y="4" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="9" font-weight="700" fill="#FFFFFF">PM2.5</text>
+    </g>
+    <path d="M 331,240 L 290,275" stroke="#C4551E" stroke-width="1.5" fill="none" marker-end="url(#arrow-orange)"/>
+
+    <!-- PM0.1 marker (crosses into bloodstream) -->
+    <g transform="translate(365, 335)">
+      <circle cx="0" cy="0" r="14" fill="#B4162A" stroke="#7A0F1D" stroke-width="1"/>
+      <text x="0" y="4" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="9" font-weight="700" fill="#FFFFFF">PM0.1</text>
+    </g>
+    <path d="M 352,345 L 315,395" stroke="#B4162A" stroke-width="1.5" fill="none" marker-end="url(#arrow-red)"/>
+
+    <!-- Arrow marker defs -->
+    <defs>
+      <marker id="arrow-brown" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+        <path d="M 0,0 L 10,5 L 0,10 Z" fill="#7A6236"/>
+      </marker>
+      <marker id="arrow-orange" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+        <path d="M 0,0 L 10,5 L 0,10 Z" fill="#C4551E"/>
+      </marker>
+      <marker id="arrow-red" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+        <path d="M 0,0 L 10,5 L 0,10 Z" fill="#B4162A"/>
+      </marker>
+    </defs>
+
+    <!-- Legend / plain-English key at bottom of right panel -->
+    <g transform="translate(20, 425)">
+      <text x="0" y="0" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="700" fill="#003E52">Where each size deposits:</text>
+      <circle cx="8" cy="18" r="5" fill="#7A6236" opacity="0.8"/>
+      <text x="20" y="22" font-family="system-ui, -apple-system, sans-serif" font-size="10" fill="#456676"><tspan font-weight="700">PM10</tspan> stops in the nose, throat, and large airways</text>
+      <circle cx="8" cy="36" r="5" fill="#C4551E" opacity="0.9"/>
+      <text x="20" y="40" font-family="system-ui, -apple-system, sans-serif" font-size="10" fill="#456676"><tspan font-weight="700">PM2.5</tspan> reaches the small bronchioles and alveoli</text>
+      <circle cx="8" cy="54" r="5" fill="#B4162A"/>
+      <text x="20" y="58" font-family="system-ui, -apple-system, sans-serif" font-size="10" fill="#456676"><tspan font-weight="700">PM0.1</tspan> crosses the alveolar wall into the bloodstream</text>
+    </g>
+  </g>
+
+  <!-- Bottom source line -->
+  <text x="450" y="605" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="10" fill="#78909C" font-style="italic">Sources: EPA (Particulate Matter Basics; Particle Pollution Exposure), NIH PMC7156741, ATSDR PM Guidance</text>
+</svg>
+<figcaption>Particle size determines how deep smoke reaches into the lungs. Wildfire smoke is dominated by PM2.5 and PM0.1, which is why it drives more inflammation and cardiovascular effects than coarser dust.<sup><a href="#ref-31" id="cite-particle1">[31]</a></sup><sup><a href="#ref-32" id="cite-particle2">[32]</a></sup><sup><a href="#ref-33" id="cite-particle3">[33]</a></sup></figcaption>
+</figure>
+
+
+ <p>The size differences also explain why wildfire smoke moves through the body so effectively. PM10 particles (like ordinary dust) mostly stop in the nose and throat. PM2.5, the dominant component of wildfire smoke, reaches the small bronchioles and alveoli where gas exchange happens. Ultrafine PM0.1 particles cross the alveolar wall entirely and enter the bloodstream, from which they can reach the heart, brain, and other organs.<sup><a href="#ref-31" id="cite-pfig1">[31]</a></sup><sup><a href="#ref-32" id="cite-pfig2">[32]</a></sup><sup><a href="#ref-33" id="cite-pfig3">[33]</a></sup></p>
 
  <!-- Section 2 -->
  <h2 id="aqi-basics">The AQI Number That Matters (And What Each Threshold Means)</h2>
@@ -653,6 +824,9 @@ body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxy
  <li id="ref-28">Elser H, Frankland TB, Chen C, et al. <em>Wildfire Smoke Exposure and Incident Dementia.</em> JAMA Neurology. 2025;82(1):40-48 (published correction, JAMA Neurol. 2025;82(1):112). <a href="https://jamanetwork.com/journals/jamaneurology/fullarticle/2827124" target="_blank" rel="noopener noreferrer">https://jamanetwork.com/journals/jamaneurology/fullarticle/2827124</a></li>
  <li id="ref-29">Cleland SE, Wyatt LH, Wei L, et al. <em>Short-term exposure to wildfire smoke and cognitive performance.</em> Environ Health Perspect. 2022. <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC9196888/" target="_blank" rel="noopener noreferrer">https://pmc.ncbi.nlm.nih.gov/articles/PMC9196888/</a></li>
  <li id="ref-30">Sheffield PE, Rhoades E, McKay AJ, et al. <em>Delayed pediatric asthma exacerbations following wildfire smoke exposure.</em> CHEST Pulm. 2024. <a href="https://pubmed.ncbi.nlm.nih.gov/38993972/" target="_blank" rel="noopener noreferrer">https://pubmed.ncbi.nlm.nih.gov/38993972/</a></li>
+ <li id="ref-31">U.S. Environmental Protection Agency. <em>Particulate Matter (PM) Basics.</em> <a href="https://www.epa.gov/pm-pollution/particulate-matter-pm-basics" target="_blank" rel="noopener noreferrer">https://www.epa.gov/pm-pollution/particulate-matter-pm-basics</a></li>
+ <li id="ref-32">U.S. Environmental Protection Agency. <em>Particle Pollution Exposure: deposition mechanisms in the airways.</em> <a href="https://www.epa.gov/pmcourse/particle-pollution-exposure" target="_blank" rel="noopener noreferrer">https://www.epa.gov/pmcourse/particle-pollution-exposure</a></li>
+ <li id="ref-33">Schraufnagel DE. <em>The health effects of ultrafine particles.</em> Exp Mol Med. 2020;52(3):311-317. <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7156741/" target="_blank" rel="noopener noreferrer">https://pmc.ncbi.nlm.nih.gov/articles/PMC7156741/</a></li>
  </ol>
  </div>
 
