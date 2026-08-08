@@ -13,8 +13,15 @@ import { summarizeStateLanding, citableSummaryToJsonLd } from '../../lib/citable
 import { loadStateTemplate } from '../../lib/state-template';
 import stateLicensesData from '../../data/state-licenses.json';
 
-// Alaska is a VT/VA-style pilot: expose only the condition URLs that are published.
-const PILOT_COHORT_STATE_SLUGS = new Set(['ak']);
+// Pilot-cohort states publish only a subset of /{state}/{condition} pages, so the
+// hub's condition directory must link only to that subset.
+//
+// VT and VA were gated in app/[slug]/[conditionSlug]/page.js and app/sitemap.js but
+// NOT here, so their hubs have been rendering all 64 condition links since launch
+// while only 20 pages exist — 44 internal links to 404s on each hub, 88 live in
+// production. Verified: /vt/altitude-sickness-treatment-online returns 404 while it
+// is linked from /vt/. Keep this set in sync with the gates in those two files.
+const PILOT_COHORT_STATE_SLUGS = new Set(['ak', 'vt', 'va']);
 const PILOT_COHORT_CONDITIONS = new Set([
   'uti-treatment-online', 'yeast-infection-treatment-online', 'bv-treatment-online',
   'cold-sore-treatment-online', 'seasonal-allergies-treatment-online', 'hypertension-refills-online',
