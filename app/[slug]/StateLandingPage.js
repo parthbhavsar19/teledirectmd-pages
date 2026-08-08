@@ -59,7 +59,14 @@ export default function StateLandingPage({ stateSlug }) {
   const displayedCategories = isPilotCohortState
     ? categories.map((cat) => ({ ...cat, conditions: cat.conditions.filter((condition) => PILOT_COHORT_CONDITIONS.has(condition.slug)) })).filter((cat) => cat.conditions.length)
     : categories;
-  const totalConditions = displayedCategories.reduce((sum, cat) => sum + cat.conditions.length, 0);
+  // How many conditions TeleDirectMD actually treats in this state. This is the
+  // full catalogue and is identical everywhere — a pilot cohort limits which
+  // /{state}/{condition} pages are PUBLISHED, not what the practice treats.
+  // Deriving it from displayedCategories made Alaska advertise 20 conditions
+  // while Vermont, which publishes the same 20 pages, advertised 64.
+  const totalConditions = categories.reduce((sum, cat) => sum + cat.conditions.length, 0);
+  // How many of those have a dedicated in-state page to link to.
+  const linkedConditions = displayedCategories.reduce((sum, cat) => sum + cat.conditions.length, 0);
 
   const allStates = getStates();
   const otherStates = allStates.filter((s) => s.slug !== stateSlug);
@@ -345,7 +352,7 @@ export default function StateLandingPage({ stateSlug }) {
       <section className="tdmd-section" id={`${pid}-conditions`}>
         <div className="tdmd-container">
           <h2>Conditions We Treat in {state.name}</h2>
-          <p>Browse all {totalConditions} conditions by category. Click any condition for detailed information about symptoms, treatment options, and pricing for {state.name} residents.</p>
+          <p>Browse {linkedConditions === totalConditions ? `all ${totalConditions}` : `${linkedConditions} of our ${totalConditions}`} conditions by category. Click any condition for detailed information about symptoms, treatment options, and pricing for {state.name} residents.</p>
 
           <nav className="tdmd-cat-nav" aria-label="Condition categories">
             {displayedCategories.map((cat) => (
