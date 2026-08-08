@@ -127,10 +127,11 @@ export default function sitemap() {
     'malaria-prophylaxis-treatment-online',
     'travelers-diarrhea-treatment-online',
   ]);
-  // VA pilot cohort (2026-07-11): mirror VT's cohort exactly. Virginia is a
-  // demand-gated cash-pay pilot — only the /va/ hub and these condition pages
-  // are emitted; no /va/online-doctor-visits/ and no non-cohort condition URLs.
-  const VA_PILOT_CONDITIONS = new Set(VT_PILOT_CONDITIONS);
+  // Vermont, Virginia, and Alaska share the same demand-gated pilot cohort. Only these
+  // condition slugs generate and enter the sitemap; every other state-condition route stays
+  // unpublished. Alaska is cash-pay only and receives state-specific compliance content from
+  // data/state-templates/ak.json.
+  const PILOT_COHORT_STATE_SLUGS = new Set(['vt', 'va', 'ak']);
   const states = getStates();
   const conditionSlugs = getConditionSlugs();
   for (const state of states) {
@@ -142,10 +143,7 @@ export default function sitemap() {
     for (const cond of conditionSlugs) {
       // National-only conditions: never emit a state-prefixed variant
       if (NATIONAL_ONLY_CONDITIONS.has(cond)) continue;
-      // VT: emit only the pilot cohort condition pages
-      if (state.slug === 'vt' && !VT_PILOT_CONDITIONS.has(cond)) continue;
-      // VA: emit only the pilot cohort condition pages
-      if (state.slug === 'va' && !VA_PILOT_CONDITIONS.has(cond)) continue;
+      if (PILOT_COHORT_STATE_SLUGS.has(state.slug) && !VT_PILOT_CONDITIONS.has(cond)) continue;
       urls.push(url(`/${state.slug}/${cond}/`, 0.8, 'weekly'));
     }
   }

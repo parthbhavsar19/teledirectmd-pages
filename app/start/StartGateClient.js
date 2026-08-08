@@ -293,7 +293,7 @@ export default function StartGateClient() {
 
         <div style={styles.badgeRow}>
           <span style={styles.badge}>Ages 3–17</span>
-          <span style={styles.badge}>43 states + DC</span>
+          <span style={styles.badge}>44 states + DC</span>
           <span style={styles.badgeCoral}>$79 flat visit</span>
         </div>
 

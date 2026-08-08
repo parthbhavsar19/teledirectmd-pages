@@ -1,0 +1,90 @@
+{
+  "stateCode": "AK",
+  "stateName": "Alaska",
+  "schemaVersion": "1.0",
+  "lastReviewed": "2026-08-07",
+  "reviewedBy": "Parth Bhavsar, MD",
+  "writingNotes": {
+    "regulatoryNote": "Alaska launch is cash-pay only. The business Telemedicine Registration is complete. This template uses the verified Alaska State Medical Board license record and does not make payer claims.",
+    "payerNote": "Alaska is intentionally absent from insurance configuration. Do not name an insurer, Medicaid, Medicare, or Curative on Alaska pages."
+  },
+  "voiceProfile": {
+    "tone": "plain, factual, frontier-aware",
+    "avoid": "payer claims, unverified statute citations, controlled-substance promises"
+  },
+  "stateHero": {
+    "openingParagraph": "Alaska adults can book a same-day video visit with Parth Bhavsar, MD, a board-certified Family Medicine physician licensed by the Alaska State Medical Board. TeleDirectMD\u2019s Alaska Telemedicine Business Registration is complete. From Anchorage and the Mat-Su Valley to Fairbanks, Juneau, Sitka, and smaller communities where an in-person visit may require substantial travel, Alaska patients 18 and older can use secure video care for the common, non-emergency conditions TeleDirectMD treats. Alaska visits are $79 flat self-pay; no insurance claim is filed. HSA and FSA cards are accepted, and a prescription is sent electronically to the patient\u2019s chosen Alaska pharmacy when clinically appropriate."
+  },
+  "stateEligibility": {
+    "summary": "Adults 18 and older who are physically located in Alaska at the time of a visit are eligible for a $79 cash-pay TeleDirectMD video visit."
+  },
+  "statePricing": {
+    "amount": 79,
+    "phrase": "$79 flat self-pay",
+    "hsaFsa": "HSA and FSA cards are accepted."
+  },
+  "stateTreatmentContext": {
+    "general": "TeleDirectMD provides MD-only video visits for common adult conditions to patients located in Alaska. When clinically appropriate, an electronic prescription is sent to the patient\u2019s preferred Alaska pharmacy, including Walgreens, Fred Meyer Pharmacy, Safeway Pharmacy, Carrs Pharmacy, or an independent pharmacy. TeleDirectMD does not prescribe controlled substances via telehealth."
+  },
+  "stateEpidemiology": {
+    "general": "Alaska\u2019s communities range from the Anchorage and Fairbanks population centers to Southeast coastal communities and remote areas reached by air or water. Distance, weather, and travel logistics can make timely access to routine care harder. TeleDirectMD\u2019s Alaska service is for appropriate non-emergency adult conditions; severe symptoms, emergency warning signs, or problems needing examination, imaging, or urgent testing require local in-person or emergency care."
+  },
+  "stateCompliance": {
+    "credentialBlock": "Parth Bhavsar, MD \u2014 board-certified in Family Medicine \u2014 holds Alaska medical license number 257965, issued by the Alaska State Medical Board. Alaska patients may independently verify the license through the Alaska Department of Commerce, Community, and Economic Development professional-license search. Alaska permits video-based telehealth without a prior in-person examination and without originating-site restrictions; TeleDirectMD\u2019s separate Alaska Telemedicine Business Registration is complete. NPI: 1104323203.",
+    "verifyUrl": "https://www.commerce.alaska.gov/cbp/main/search/professional",
+    "licenseNumber": "257965",
+    "boardName": "Alaska State Medical Board",
+    "boardUrl": "https://www.commerce.alaska.gov/cbp/main/board/med"
+  },
+  "stateCities": {
+    "metroAndRural": "TeleDirectMD serves eligible adults located throughout Alaska, including Anchorage, Fairbanks, Juneau, Wasilla, and Sitka. A video visit may be especially useful when weather, distance, or transportation makes a routine in-person appointment impractical. Patients should select a local pharmacy that can receive an electronic prescription and seek local emergency care for urgent warning signs."
+  },
+  "stateInsurance": {
+    "mode": "self-pay-only",
+    "selfPayDisclosure": "TeleDirectMD operates self-pay only in Alaska. Each Alaska visit is $79 flat self-pay, paid at booking; TeleDirectMD does not bill commercial insurance, Medicaid, or Medicare and does not file insurance claims for Alaska patients. There are no facility charges or follow-up bills from TeleDirectMD, and HSA and FSA debit cards are accepted.",
+    "payers": []
+  },
+  "stateFaqs": [
+    {
+      "question": "Can adults in Alaska use TeleDirectMD?",
+      "answer": "Yes. Adults 18 and older who are physically located in Alaska during the video visit can request care for an appropriate non-emergency condition."
+    },
+    {
+      "question": "Is TeleDirectMD licensed in Alaska?",
+      "answer": "Yes. Parth Bhavsar, MD holds Alaska medical license 257965, issued by the Alaska State Medical Board. The license can be verified through Alaska\u2019s professional-license search."
+    },
+    {
+      "question": "Do I need an in-person visit first in Alaska?",
+      "answer": "No. Alaska permits video-based telehealth without a prior in-person examination when the standard of care can be met by telehealth."
+    },
+    {
+      "question": "Does TeleDirectMD accept insurance in Alaska?",
+      "answer": "No. Alaska visits are cash-pay only at $79. TeleDirectMD does not bill commercial insurance, Medicaid, or Medicare for Alaska visits."
+    },
+    {
+      "question": "Which Alaska pharmacies can receive an e-prescription?",
+      "answer": "When medication is clinically appropriate, a prescription can be sent electronically to the Alaska pharmacy you choose, including Walgreens, Fred Meyer Pharmacy, Safeway Pharmacy, Carrs Pharmacy, or an independent pharmacy."
+    },
+    {
+      "question": "When should I seek in-person care in Alaska instead?",
+      "answer": "Use local urgent or emergency care for severe symptoms, emergencies, or problems that require an examination, imaging, or immediate testing. TeleDirectMD is not emergency care."
+    }
+  ],
+  "conditionOverrides": {},
+  "stateLegalLayer": {
+    "required": true,
+    "blocks": [
+      {
+        "statute": "Alaska telehealth requirements and Alaska Telemedicine Business Registration",
+        "renderAt": "practicing-in-state",
+        "content": "Alaska-specific license and telemedicine-registration facts appear in the shared practicing-in-Alaska compliance block on every Alaska pilot condition page."
+      }
+    ],
+    "forbiddenPhrases": [
+      "in-network",
+      "insurance accepted",
+      "Medicaid accepted",
+      "Medicare accepted"
+    ]
+  }
+}

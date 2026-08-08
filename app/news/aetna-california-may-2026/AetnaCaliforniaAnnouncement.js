@@ -164,7 +164,7 @@ export default function AetnaCaliforniaAnnouncement() {
           }}
         >
           <p style={{ fontSize: 16, lineHeight: 1.7, color: B.navy, margin: '0 0 14px' }}>
-            <strong>TeleDirectMD</strong>, the physician-led telehealth practice serving adults in 43 U.S. states, has
+            <strong>TeleDirectMD</strong>, the physician-led telehealth practice serving adults in 44 U.S. states, has
             been contracted as an in-network telehealth provider with Aetna commercial plans in California. The
             agreement, effective April 30, 2026, makes same-day video visits with Dr. Parth Bhavsar, MD (NPI 1104323203)
             accessible to millions of California Aetna members at their standard commercial-plan telehealth copay —
@@ -211,7 +211,7 @@ export default function AetnaCaliforniaAnnouncement() {
           About TeleDirectMD
         </h2>
         <p style={{ fontSize: 16, lineHeight: 1.7, color: B.text, margin: '0 0 16px' }}>
-          TeleDirectMD is a physician-led telehealth practice licensed in 43 U.S. states. Board-certified family
+          TeleDirectMD is a physician-led telehealth practice licensed in 44 U.S. states. Board-certified family
           medicine physician Dr. Parth Bhavsar, MD (NPI 1104323203), provides secure video visits for adults with
           non-emergency conditions. Transparent $79 cash-pay pricing. Same-day visits available including evenings and
           weekends. HIPAA-compliant. LegitScript certified. Organization NPI: 1104610450 (Mahavir Health Services, LLC

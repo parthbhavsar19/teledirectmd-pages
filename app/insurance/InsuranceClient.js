@@ -352,7 +352,7 @@ function resolveResult(stateAbbr, payerId, planId) {
       banner: 'State Not Currently Served',
       icon: '✕',
       headline: `We don't currently serve ${STATE_NAMES[stateAbbr] || 'this state'}.`,
-      text: 'TeleDirectMD is licensed in 43 states. Coverage is expanding. If you have a different state to check, use the dropdown above. Otherwise, book a $79 self-pay visit (if licensed in your state) or join the waitlist.',
+      text: 'TeleDirectMD is licensed in 44 states. Coverage is expanding. If you have a different state to check, use the dropdown above. Otherwise, book a $79 self-pay visit (if licensed in your state) or join the waitlist.',
       status: 'Not licensed',
       eff: '—',
       plans: '—',

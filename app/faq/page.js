@@ -6,12 +6,12 @@ import { summarizeFaqLanding, citableSummaryToJsonLd } from '../../lib/citable-s
 export const metadata = {
   title: 'Frequently Asked Questions | TeleDirectMD',
   description:
-    'Find answers about TeleDirectMD\'s telehealth services, insurance acceptance, $79 self-pay pricing, appointments, prescriptions, and virtual urgent care in 43 states + D.C.',
+    'Find answers about TeleDirectMD\'s telehealth services, insurance acceptance, $79 self-pay pricing, appointments, prescriptions, and virtual urgent care in 44 states + D.C.',
   alternates: { canonical: 'https://teledirectmd.com/faq' },
   openGraph: {
     title: 'Frequently Asked Questions | TeleDirectMD',
     description:
-      'Find answers about TeleDirectMD\'s telehealth services, insurance acceptance, pricing, and virtual urgent care in 43 states + D.C.',
+      'Find answers about TeleDirectMD\'s telehealth services, insurance acceptance, pricing, and virtual urgent care in 44 states + D.C.',
     url: 'https://teledirectmd.com/faq',
     siteName: 'TeleDirectMD',
     type: 'website',
@@ -22,7 +22,7 @@ const faqItems = [
   // Section 1: About TeleDirectMD
   {
     q: 'What is TeleDirectMD?',
-    a: 'TeleDirectMD is a physician-led telehealth service that connects you directly with a licensed medical doctor for virtual urgent-care video visits, providing convenient and affordable healthcare from the comfort of your home — available in 43 U.S. states and Washington, D.C.',
+    a: 'TeleDirectMD is a physician-led telehealth service that connects you directly with a licensed medical doctor for virtual urgent-care video visits, providing convenient and affordable healthcare from the comfort of your home — available in 44 U.S. states and Washington, D.C.',
   },
   {
     q: 'Who is the doctor? Will I see the same physician every time?',
@@ -47,7 +47,7 @@ const faqItems = [
   // Section 2: Availability and States We Serve
   {
     q: 'Which states is TeleDirectMD available in?',
-    a: 'TeleDirectMD is licensed and available in 43 U.S. states plus the District of Columbia: Alabama, Arizona, California, Colorado, Connecticut, Delaware, Florida, Georgia, Hawaii, Idaho, Illinois, Indiana, Iowa, Kansas, Kentucky, Louisiana, Maine, Maryland, Michigan, Minnesota, Mississippi, Missouri, Montana, Nebraska, Nevada, New Hampshire, New Jersey, North Carolina, North Dakota, Ohio, Oklahoma, Pennsylvania, South Carolina, South Dakota, Tennessee, Texas, Utah, Vermont, Virginia, Washington, West Virginia, Wisconsin, and Wyoming.',
+    a: 'TeleDirectMD is licensed and available in 44 U.S. states plus the District of Columbia: Alabama, Arizona, California, Colorado, Connecticut, Delaware, Florida, Georgia, Hawaii, Idaho, Illinois, Indiana, Iowa, Kansas, Kentucky, Louisiana, Maine, Maryland, Michigan, Minnesota, Mississippi, Missouri, Montana, Nebraska, Nevada, New Hampshire, New Jersey, North Carolina, North Dakota, Ohio, Oklahoma, Pennsylvania, South Carolina, South Dakota, Tennessee, Texas, Utah, Vermont, Virginia, Washington, West Virginia, Wisconsin, and Wyoming.',
   },
   {
     q: 'Do I need to live in a state to be seen there?',
@@ -168,7 +168,7 @@ function buildJsonLd(items) {
         '@id': 'https://teledirectmd.com/faq#webpage',
         url: 'https://teledirectmd.com/faq/',
         name: 'Frequently Asked Questions | TeleDirectMD',
-        description: "Answers to common questions about TeleDirectMD's telehealth services, insurance acceptance, $79 self-pay pricing, prescriptions, scope of care, and virtual urgent care in 43 states + D.C.",
+        description: "Answers to common questions about TeleDirectMD's telehealth services, insurance acceptance, $79 self-pay pricing, prescriptions, scope of care, and virtual urgent care in 44 states + D.C.",
         inLanguage: 'en-US',
         breadcrumb: { '@id': 'https://teledirectmd.com/faq#breadcrumbs' },
         about: { '@id': 'https://teledirectmd.com/#organization' },
@@ -190,7 +190,7 @@ function buildJsonLd(items) {
         logo: 'https://teledirectmd.com/logo.webp',
         telephone: '+1-678-956-1855',
         email: 'contact@teledirectmd.com',
-        description: 'Physician-led telemedicine practice. $79 flat-fee video visits with a board-certified MD across 43 states + DC. Select Aetna, Blue Cross Blue Shield, and UnitedHealthcare commercial plans accepted.',
+        description: 'Physician-led telemedicine practice. $79 flat-fee video visits with a board-certified MD across 44 states + DC. Select Aetna, Blue Cross Blue Shield, and UnitedHealthcare commercial plans accepted.',
         medicalSpecialty: ['Family Medicine', 'Urgent Care', 'Telemedicine'],
         priceRange: '$79',
         currenciesAccepted: 'USD',

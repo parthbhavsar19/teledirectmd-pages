@@ -44,7 +44,7 @@ export default function SmallBusinessOwnersPage() {
     },
     {
       q: 'Is TeleDirectMD available in my state?',
-      a: 'TeleDirectMD is licensed in 43 states. The states we serve include Texas, California, Florida, Georgia, North Carolina, Ohio, Pennsylvania, and 36 more across the country. The states we do not currently serve are New York, Alaska, Arkansas, Massachusetts, New Mexico, Oregon, and Rhode Island. As long as you are physically located in one of our covered states at the time of your visit, you can be seen — regardless of where your business is registered or where you primarily live. Visit our States We Serve page for the complete list.'
+      a: 'TeleDirectMD is licensed in 44 states. The states we serve include Texas, California, Florida, Georgia, North Carolina, Ohio, Pennsylvania, and 37 more across the country. The states we do not currently serve are Arkansas, Massachusetts, New Mexico, New York, Oregon, and Rhode Island. As long as you are physically located in one of our covered states at the time of your visit, you can be seen — regardless of where your business is registered or where you primarily live. Visit our States We Serve page for the complete list.'
     },
     {
       q: 'Can you prescribe medications during a telehealth visit?',
@@ -56,7 +56,7 @@ export default function SmallBusinessOwnersPage() {
     },
     {
       q: 'Can I see the same doctor every time?',
-      a: 'TeleDirectMD is a solo physician practice. When you visit TeleDirectMD, you are seeing Dr. Parth Bhavsar, MD — a board-certified family medicine physician licensed in 43 states. This means continuity of care is built into the model. Your physician knows your history, your medications, and your ongoing conditions from visit to visit — which is meaningfully different from large telehealth platforms that route you to whoever is available. Consistent care with a physician who knows your history is especially valuable for small business owners managing chronic conditions over time.'
+      a: 'TeleDirectMD is a solo physician practice. When you visit TeleDirectMD, you are seeing Dr. Parth Bhavsar, MD — a board-certified family medicine physician licensed in 44 states. This means continuity of care is built into the model. Your physician knows your history, your medications, and your ongoing conditions from visit to visit — which is meaningfully different from large telehealth platforms that route you to whoever is available. Consistent care with a physician who knows your history is especially valuable for small business owners managing chronic conditions over time.'
     },
     {
       q: 'What forms of payment does TeleDirectMD accept?',
@@ -88,7 +88,7 @@ export default function SmallBusinessOwnersPage() {
           "@type": "MedicalTherapy",
           "name": "Telehealth Consultations"
         },
-        "areaServed": ["AL","AZ","CA","CO","CT","DE","FL","GA","HI","ID","IL","IN","IA","KS","KY","LA","ME","MD","MI","MN","MS","MO","MT","NE","NV","NH","NJ","NC","ND","OH","OK","PA","SC","SD","TN","TX","UT","VA","WA","WV","WI","WY"]
+        "areaServed": ["AL","AK","AZ","CA","CO","CT","DC","DE","FL","GA","HI","ID","IL","IN","IA","KS","KY","LA","ME","MD","MI","MN","MS","MO","MT","NE","NV","NH","NJ","NC","ND","OH","OK","PA","SC","SD","TN","TX","UT","VA","VT","WA","WV","WI","WY"]
       },
       {
         "@type": "Physician",
@@ -99,7 +99,7 @@ export default function SmallBusinessOwnersPage() {
           "@type": "MedicalOrganization",
           "name": "TeleDirectMD"
         },
-        "licensedIn": ["AL","AZ","CA","CO","CT","DE","FL","GA","HI","ID","IL","IN","IA","KS","KY","LA","ME","MD","MI","MN","MS","MO","MT","NE","NV","NH","NJ","NC","ND","OH","OK","PA","SC","SD","TN","TX","UT","VA","WA","WV","WI","WY"]
+        "licensedIn": ["AL","AK","AZ","CA","CO","CT","DC","DE","FL","GA","HI","ID","IL","IN","IA","KS","KY","LA","ME","MD","MI","MN","MS","MO","MT","NE","NV","NH","NJ","NC","ND","OH","OK","PA","SC","SD","TN","TX","UT","VA","VT","WA","WV","WI","WY"]
       },
       {
         "@type": "FAQPage",
@@ -118,7 +118,7 @@ export default function SmallBusinessOwnersPage() {
         "@id": `${pageUrl}#webpage`,
         "url": pageUrl,
         "name": "Telehealth for Small Business Owners and Self-Employed Professionals",
-        "description": "TeleDirectMD offers telehealth for small business owners and self-employed professionals across 43 states. No insurance required. Transparent $79 visits with a board-certified physician. Same-day visits, evenings & weekends.",
+        "description": "TeleDirectMD offers telehealth for small business owners and self-employed professionals across 44 states. No insurance required. Transparent $79 visits with a board-certified physician. Same-day visits, evenings & weekends.",
         "inLanguage": "en-US",
         "breadcrumb": { "@id": `${pageUrl}#breadcrumbs` },
         "author": { "@id": `${baseUrl}/about#physician` },
@@ -165,13 +165,13 @@ export default function SmallBusinessOwnersPage() {
           <div className="tdmd-hero-grid">
             <div className="tdmd-hero-copy">
               <h1>Telehealth for Small Business Owners and Self-Employed Professionals</h1>
-              <p className="tdmd-hero-sub">Licensed physician in 43 states. No insurance required. Same-day visits, evenings &amp; weekends.</p>
+              <p className="tdmd-hero-sub">Licensed physician in 44 states. No insurance required. Same-day visits, evenings &amp; weekends.</p>
               <p>
-                There are more than 34 million small businesses in the United States — nearly 99.9% of all U.S. businesses. But small business owners and self-employed professionals are among the most likely to delay their own healthcare. Without employer benefits, many are navigating expensive individual marketplace plans or going without insurance entirely. With ACA enhanced subsidies expiring at the end of 2025, annual premiums more than doubled for many marketplace enrollees — rising from an average of $888 to $1,904 per year according to Kaiser Family Foundation estimates. TeleDirectMD offers transparent cash-pay visits starting at $79 with a board-certified physician, same-day availability including evenings and weekends, and coverage across 43 states — built for professionals whose time is their most valuable asset.
+                There are more than 34 million small businesses in the United States — nearly 99.9% of all U.S. businesses. But small business owners and self-employed professionals are among the most likely to delay their own healthcare. Without employer benefits, many are navigating expensive individual marketplace plans or going without insurance entirely. With ACA enhanced subsidies expiring at the end of 2025, annual premiums more than doubled for many marketplace enrollees — rising from an average of $888 to $1,904 per year according to Kaiser Family Foundation estimates. TeleDirectMD offers transparent cash-pay visits starting at $79 with a board-certified physician, same-day availability including evenings and weekends, and coverage across 44 states — built for professionals whose time is their most valuable asset.
               </p>
               <ul className="tdmd-hero-benefits">
                 <li>Board-certified physician — not a PA, not an NP, not an algorithm</li>
-                <li>Licensed in 43 states — wherever you run your business</li>
+                <li>Licensed in 44 states — wherever you run your business</li>
                 <li>No waiting rooms — same-day visits, evenings &amp; weekends</li>
                 <li>Prescriptions sent to any pharmacy near you</li>
                 <li>Transparent cash-pay pricing starting at $79 — HSA/FSA accepted</li>
@@ -248,7 +248,7 @@ export default function SmallBusinessOwnersPage() {
             </div>
             <div className="tdmd-card tdmd-card-good">
               <h3>41-State Coverage — Works Where You Work</h3>
-              <p>Whether you run a business from home in Ohio, travel for client work across multiple states, or operate in a state with limited local healthcare options, TeleDirectMD is licensed in 43 states. The same physician sees you wherever you are.</p>
+              <p>Whether you run a business from home in Ohio, travel for client work across multiple states, or operate in a state with limited local healthcare options, TeleDirectMD is licensed in 44 states. The same physician sees you wherever you are.</p>
             </div>
           </div>
         </div>
@@ -362,11 +362,11 @@ export default function SmallBusinessOwnersPage() {
         <div className="tdmd-container">
           <h2>Who You're Seeing — A Real Doctor, Not a Platform</h2>
           <p>
-            When you visit TeleDirectMD, you're seeing a licensed, board-certified physician — not a physician assistant, not a nurse practitioner, not a chatbot routing your case to whoever is available. <a href="/about" style={{ color: 'var(--tdmd-navy)', fontWeight: 700 }}>Dr. Parth Bhavsar, MD</a>, is a board-certified family medicine physician licensed across 43 states. Because TeleDirectMD is a solo physician practice, you're seeing the same doctor every visit — building continuity of care that matters for small business owners managing ongoing conditions over time.
+            When you visit TeleDirectMD, you're seeing a licensed, board-certified physician — not a physician assistant, not a nurse practitioner, not a chatbot routing your case to whoever is available. <a href="/about" style={{ color: 'var(--tdmd-navy)', fontWeight: 700 }}>Dr. Parth Bhavsar, MD</a>, is a board-certified family medicine physician licensed across 44 states. Because TeleDirectMD is a solo physician practice, you're seeing the same doctor every visit — building continuity of care that matters for small business owners managing ongoing conditions over time.
           </p>
           <ul className="tdmd-hero-benefits">
             <li>Board-certified in Family Medicine</li>
-            <li>Licensed in 43 U.S. states</li>
+            <li>Licensed in 44 U.S. states</li>
             <li>LegitScript certified — verified by the gold standard for online healthcare</li>
             <li>HIPAA-compliant platform — your data is encrypted and protected</li>
             <li>TeleDirectMD does not sell or share your health information</li>
@@ -414,7 +414,7 @@ export default function SmallBusinessOwnersPage() {
       <section className="tdmd-section" id="small-business-owners-states">
         <div className="tdmd-container">
           <h2>Telehealth for Small Business Owners — Available in These States</h2>
-          <p>TeleDirectMD is licensed in 43 states. Here are some of the states with the highest concentrations of small businesses and self-employed professionals where we can see you today:</p>
+          <p>TeleDirectMD is licensed in 44 states. Here are some of the states with the highest concentrations of small businesses and self-employed professionals where we can see you today:</p>
           <div className="tdmd-other-states-grid">
             {featuredStates.map((s) => (
               <a key={s.slug} className="tdmd-other-state-link" href={`/${s.slug}`}>
@@ -423,7 +423,7 @@ export default function SmallBusinessOwnersPage() {
             ))}
           </div>
           <p style={{ marginTop: '0.75rem' }}>
-            <a href="/states-we-serve" style={{ color: 'var(--tdmd-navy)', fontWeight: 700, textDecoration: 'underline' }}>View all 43 states we serve →</a>
+            <a href="/states-we-serve" style={{ color: 'var(--tdmd-navy)', fontWeight: 700, textDecoration: 'underline' }}>View all 44 states we serve →</a>
           </p>
         </div>
       </section>

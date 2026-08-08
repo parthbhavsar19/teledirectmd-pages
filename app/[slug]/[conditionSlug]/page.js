@@ -134,13 +134,11 @@ const VT_PILOT_CONDITIONS = new Set([
   'cellulitis-treatment-online',
 ]);
 
-// VA pilot cohort (2026-07-11): Virginia is a demand-gated cash-pay pilot like VT,
-// not a broad rollout. Mirror VT's condition cohort exactly (no VA-specific demand
-// data exists in-repo). Only these slugs generate; all others 404 and stay out of
-// the sitemap. The /va/ hub remains live. State-uniqueness layer is injected from
-// data/state-templates/va.json + data/state-licenses.json (Virginia Board of Medicine,
-// license 0101290265).
-const VA_PILOT_CONDITIONS = new Set(VT_PILOT_CONDITIONS);
+// Vermont, Virginia, and Alaska share the same demand-gated pilot cohort. Only these
+// condition slugs generate and enter the sitemap; every other state-condition route stays
+// unpublished. Alaska is cash-pay only and receives state-specific compliance content from
+// data/state-templates/ak.json.
+const PILOT_COHORT_STATE_SLUGS = new Set(['vt', 'va', 'ak']);
 
 export async function generateStaticParams() {
   const states = getStates();
@@ -148,10 +146,7 @@ export async function generateStaticParams() {
   const params = [];
   for (const state of states) {
     for (const cSlug of conditionSlugs) {
-      // VT: only generate the pilot cohort condition pages
-      if (state.slug === 'vt' && !VT_PILOT_CONDITIONS.has(cSlug)) continue;
-      // VA: only generate the pilot cohort condition pages
-      if (state.slug === 'va' && !VA_PILOT_CONDITIONS.has(cSlug)) continue;
+      if (PILOT_COHORT_STATE_SLUGS.has(state.slug) && !VT_PILOT_CONDITIONS.has(cSlug)) continue;
       params.push({ slug: state.slug, conditionSlug: cSlug });
     }
   }

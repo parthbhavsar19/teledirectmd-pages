@@ -21,7 +21,7 @@ export default function WorldCup2026Page() {
 
   /* ── World Cup host cities mapped to TeleDirectMD licensure ───────── */
   // Source for host cities: FIFA / NBC Sports 2026 schedule. Mapped against
-  // data/state-licenses.json (single source of truth — 43 states + DC).
+  // data/state-licenses.json (single source of truth — 44 states + DC).
   const hostCities = [
     { city: 'Atlanta',            state: 'Georgia',        abbr: 'ga', covered: true,  note: '5 group matches, a Round of 32, a Round of 16, and a Semi-Final (Jul 15).' },
     { city: 'Miami',              state: 'Florida',        abbr: 'fl', covered: true,  note: 'Group matches plus the Third-Place match (Jul 18).' },
@@ -45,7 +45,7 @@ export default function WorldCup2026Page() {
     },
     {
       q: 'Which World Cup host cities can TeleDirectMD see me in?',
-      a: `TeleDirectMD is licensed in 43 US states, which covers ${coveredCount} of the 11 US host cities: Atlanta (Georgia), Miami (Florida), Dallas and Houston (Texas), Philadelphia (Pennsylvania), Seattle (Washington), Kansas City (Missouri), Los Angeles and the San Francisco Bay Area (California), and the New Jersey side of the New York/New Jersey venue. You can be seen as long as you are physically located in one of our 43 covered states at the time of the visit. The one US host city we cannot yet serve is Boston, because Massachusetts is not currently in our licensed footprint.`
+      a: `TeleDirectMD is licensed in 44 US states, which covers ${coveredCount} of the 11 US host cities: Atlanta (Georgia), Miami (Florida), Dallas and Houston (Texas), Philadelphia (Pennsylvania), Seattle (Washington), Kansas City (Missouri), Los Angeles and the San Francisco Bay Area (California), and the New Jersey side of the New York/New Jersey venue. You can be seen as long as you are physically located in one of our 43 covered states at the time of the visit. The one US host city we cannot yet serve is Boston, because Massachusetts is not currently in our licensed footprint.`
     },
     {
       q: 'I have travel insurance from my home country. Can I still use TeleDirectMD?',
@@ -65,7 +65,7 @@ export default function WorldCup2026Page() {
     },
     {
       q: 'Is this real, legitimate medical care?',
-      a: 'Yes. TeleDirectMD is operated by Dr. Parth Bhavsar, MD, a board-certified Family Medicine physician licensed in 43 US states — not a chatbot, a PA, or an NP. Prescriptions issued through TeleDirectMD are valid at any US pharmacy, your visit is documented in a HIPAA-compliant record system, and you can receive a visit summary to share with your home-country physician.'
+      a: 'Yes. TeleDirectMD is operated by Dr. Parth Bhavsar, MD, a board-certified Family Medicine physician licensed in 44 US states — not a chatbot, a PA, or an NP. Prescriptions issued through TeleDirectMD are valid at any US pharmacy, your visit is documented in a HIPAA-compliant record system, and you can receive a visit summary to share with your home-country physician.'
     },
     {
       q: 'I do not speak English well. Can I still have a visit?',
@@ -78,7 +78,7 @@ export default function WorldCup2026Page() {
   ];
 
   /* ── JSON-LD Schema ──────────────────────────────────────────────── */
-  const licensedAbbrs = ["AL","AZ","CA","CO","CT","DE","FL","GA","HI","ID","IL","IN","IA","KS","KY","LA","ME","MD","MI","MN","MS","MO","MT","NE","NV","NH","NJ","NC","ND","OH","OK","PA","SC","SD","TN","TX","UT","VA","WA","WV","WI","WY"];
+  const licensedAbbrs = ["AL","AK","AZ","CA","CO","CT","DC","DE","FL","GA","HI","ID","IL","IN","IA","KS","KY","LA","ME","MD","MI","MN","MS","MO","MT","NE","NV","NH","NJ","NC","ND","OH","OK","PA","SC","SD","TN","TX","UT","VA","VT","WA","WV","WI","WY"];
   const jsonLd = {
     "@context": "https://schema.org",
     "@graph": [
@@ -197,7 +197,7 @@ export default function WorldCup2026Page() {
               <h1>Online Doctor for World Cup 2026 Visitors — No US Insurance Required</h1>
               <p className="tdmd-hero-sub">Visiting the US for the 2026 FIFA World Cup without US insurance? See a board-certified US physician by video for a flat $79 — same day, evenings &amp; weekends.</p>
               <p>
-                Millions of football fans are traveling to the United States for the 2026 World Cup (June 11–July 19). Most international visitors arrive without US health insurance — and US healthcare prices can be a shock. TeleDirectMD lets you see a real US doctor from your hotel room or rental for one transparent fee, with prescriptions sent to a pharmacy near you. We are licensed in 43 states, covering {coveredCount} of the 11 US host cities.
+                Millions of football fans are traveling to the United States for the 2026 World Cup (June 11–July 19). Most international visitors arrive without US health insurance — and US healthcare prices can be a shock. TeleDirectMD lets you see a real US doctor from your hotel room or rental for one transparent fee, with prescriptions sent to a pharmacy near you. We are licensed in 44 states, covering {coveredCount} of the 11 US host cities.
               </p>
               <ul className="tdmd-hero-benefits">
                 <li>Board-certified physician — not a PA, not an NP, not an algorithm</li>
@@ -316,7 +316,7 @@ export default function WorldCup2026Page() {
             </div>
             <div className="tdmd-card tdmd-card-good">
               <h3>Coverage Across Host Cities</h3>
-              <p>Licensed in 43 states — covering {coveredCount} of the 11 US host cities. The same physician can see you whether you are in Atlanta, Miami, Dallas, LA, or another covered host city on your itinerary.</p>
+              <p>Licensed in 44 states — covering {coveredCount} of the 11 US host cities. The same physician can see you whether you are in Atlanta, Miami, Dallas, LA, or another covered host city on your itinerary.</p>
             </div>
             <div className="tdmd-card tdmd-card-good">
               <h3>Same-Day, Around Your Matches</h3>
@@ -335,7 +335,7 @@ export default function WorldCup2026Page() {
         <div className="tdmd-container">
           <h2>World Cup Host Cities We Can See You In</h2>
           <p>
-            The 2026 World Cup is played across 11 US host cities (plus Canada and Mexico). TeleDirectMD is licensed in 43 US states — covering <strong>{coveredCount} of the 11</strong>. You can be seen as long as you are physically in one of our covered states at the time of your visit. Tap a covered city to see local details.
+            The 2026 World Cup is played across 11 US host cities (plus Canada and Mexico). TeleDirectMD is licensed in 44 US states — covering <strong>{coveredCount} of the 11</strong>. You can be seen as long as you are physically in one of our covered states at the time of your visit. Tap a covered city to see local details.
           </p>
           <div style={{ display: 'grid', gap: '0.85rem', marginTop: '1rem' }}>
             {hostCities.map((h) => (
@@ -366,7 +366,7 @@ export default function WorldCup2026Page() {
             ))}
           </div>
           <p style={{ marginTop: '1.25rem' }}>
-            <a href="/states-we-serve" style={{ color: 'var(--tdmd-navy)', fontWeight: 700, textDecoration: 'underline' }}>View all 43 states we serve →</a>
+            <a href="/states-we-serve" style={{ color: 'var(--tdmd-navy)', fontWeight: 700, textDecoration: 'underline' }}>View all 44 states we serve →</a>
           </p>
         </div>
       </section>
@@ -478,11 +478,11 @@ export default function WorldCup2026Page() {
         <div className="tdmd-container">
           <h2>Who You're Seeing — A Real US Doctor, Not an Algorithm</h2>
           <p>
-            When you visit TeleDirectMD, you are seeing a licensed, board-certified US physician — not a physician assistant, not a nurse practitioner, not a chatbot. <a href="/about" style={{ color: 'var(--tdmd-navy)', fontWeight: 700 }}>Dr. Parth Bhavsar, MD</a> is a board-certified Family Medicine physician licensed across 43 states, providing the same standard of care you'd receive in person. Prescriptions are valid at any US pharmacy, and you can receive a visit summary to share with your home-country physician.
+            When you visit TeleDirectMD, you are seeing a licensed, board-certified US physician — not a physician assistant, not a nurse practitioner, not a chatbot. <a href="/about" style={{ color: 'var(--tdmd-navy)', fontWeight: 700 }}>Dr. Parth Bhavsar, MD</a> is a board-certified Family Medicine physician licensed across 44 states, providing the same standard of care you'd receive in person. Prescriptions are valid at any US pharmacy, and you can receive a visit summary to share with your home-country physician.
           </p>
           <ul className="tdmd-hero-benefits">
             <li>Board-certified in Family Medicine</li>
-            <li>Licensed in 43 US states</li>
+            <li>Licensed in 44 US states</li>
             <li>HIPAA-compliant platform — your data is encrypted and protected</li>
             <li>TeleDirectMD does not sell or share your health information</li>
           </ul>

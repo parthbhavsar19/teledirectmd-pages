@@ -13,7 +13,7 @@ import reviewsData from '../../data/reviews.json';
    Coverage and rating totals are derived from the same single sources of
    truth the rest of the site uses, so this page can never re-stale the way
    the old Squarespace page did. */
-const COVERAGE_AREAS = getStates().length; // 44 (43 states + DC)
+const COVERAGE_AREAS = getStates().length; // 45 (44 states + DC)
 const STATE_COUNT = getStates().filter(
   (s) => !/d\.?c\.?|district of columbia/i.test(s.name),
 ).length; // 43

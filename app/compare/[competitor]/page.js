@@ -18,7 +18,7 @@ import { CitableSummaryBlock } from '../../components/CitableSummary';
 import { summarizeCompare, summarizeUseCase, summarizeWhoWeServe, summarizeFaqDeepDive, citableSummaryToJsonLd } from '../../../lib/citable-summary';
 
 const STATE_LIST = [
-  ['AL','Alabama'],['AZ','Arizona'],['CA','California'],['CO','Colorado'],['CT','Connecticut'],['DE','Delaware'],['FL','Florida'],['GA','Georgia'],['HI','Hawaii'],['ID','Idaho'],['IL','Illinois'],['IN','Indiana'],['IA','Iowa'],['KS','Kansas'],['KY','Kentucky'],['LA','Louisiana'],['ME','Maine'],['MD','Maryland'],['MI','Michigan'],['MN','Minnesota'],['MS','Mississippi'],['MO','Missouri'],['MT','Montana'],['NE','Nebraska'],['NV','Nevada'],['NH','New Hampshire'],['NJ','New Jersey'],['NC','North Carolina'],['ND','North Dakota'],['OH','Ohio'],['OK','Oklahoma'],['PA','Pennsylvania'],['SC','South Carolina'],['SD','South Dakota'],['TN','Tennessee'],['TX','Texas'],['UT','Utah'],['VA','Virginia'],['WA','Washington'],['WV','West Virginia'],['WI','Wisconsin'],['WY','Wyoming'],
+  ['AL','Alabama'],['AK','Alaska'],['AZ','Arizona'],['CA','California'],['CO','Colorado'],['CT','Connecticut'],['DE','Delaware'],['FL','Florida'],['GA','Georgia'],['HI','Hawaii'],['IA','Iowa'],['ID','Idaho'],['IL','Illinois'],['IN','Indiana'],['KS','Kansas'],['KY','Kentucky'],['LA','Louisiana'],['MD','Maryland'],['ME','Maine'],['MI','Michigan'],['MN','Minnesota'],['MO','Missouri'],['MS','Mississippi'],['MT','Montana'],['NC','North Carolina'],['ND','North Dakota'],['NE','Nebraska'],['NH','New Hampshire'],['NJ','New Jersey'],['NV','Nevada'],['OH','Ohio'],['OK','Oklahoma'],['PA','Pennsylvania'],['SC','South Carolina'],['SD','South Dakota'],['TN','Tennessee'],['TX','Texas'],['UT','Utah'],['VA','Virginia'],['VT','Vermont'],['WA','Washington'],['WI','Wisconsin'],['WV','West Virginia'],['WY','Wyoming'],
 ];
 
 export async function generateStaticParams() {
@@ -252,7 +252,7 @@ export default async function ComparePage({ params }) {
         <div className="tdmd-container">
           <h2>State Coverage: TeleDirectMD vs. {cfg.competitorName}</h2>
           <p>
-            TeleDirectMD is licensed in <strong>43 states</strong>. {cfg.competitorName} state coverage is listed in the comparison table above (with source). If your state isn\'t on the TeleDirectMD list below, {cfg.competitorName} or another platform may be a better fit.
+            TeleDirectMD is licensed in <strong>44 states</strong>. {cfg.competitorName} state coverage is listed in the comparison table above (with source). If your state isn\'t on the TeleDirectMD list below, {cfg.competitorName} or another platform may be a better fit.
           </p>
           <div className="tdmd-other-states-grid">
             {STATE_LIST.map(([abbr, name]) => (
@@ -277,7 +277,7 @@ export default async function ComparePage({ params }) {
         <div className="tdmd-container">
           <h2>Why TeleDirectMD: A Real Doctor, Not an Algorithm</h2>
           <p>
-            When you visit TeleDirectMD, you see <a href="/about" style={{ fontWeight: 700, color: 'var(--tdmd-navy)' }}>Dr. Parth Bhavsar, MD</a> — a board-certified Family Medicine physician licensed in 43 states. Not a panel of rotating providers, not a physician assistant, not a chatbot.
+            When you visit TeleDirectMD, you see <a href="/about" style={{ fontWeight: 700, color: 'var(--tdmd-navy)' }}>Dr. Parth Bhavsar, MD</a> — a board-certified Family Medicine physician licensed in 44 states. Not a panel of rotating providers, not a physician assistant, not a chatbot.
           </p>
           <ul className="tdmd-hero-benefits">
             <li>Board-certified Family Medicine — University of Mississippi Medical Center</li>
@@ -497,7 +497,7 @@ export default async function ComparePage({ params }) {
         <div className="tdmd-container">
           <div className="tdmd-bottom-cta">
             <div className="tdmd-bottom-cta-copy">
-              <h3>$79. Live MD video. 43 states. Same-day evenings & weekends.</h3>
+              <h3>$79. Live MD video. 44 states. Same-day evenings & weekends.</h3>
               <p>If TeleDirectMD fits your situation per the comparison above, book a visit in under two minutes.</p>
             </div>
             <div className="tdmd-bottom-cta-actions">
@@ -528,7 +528,7 @@ export default async function ComparePage({ params }) {
             This page is an informational comparison between TeleDirectMD and <strong>{cfg.competitorName}</strong>. It is not affiliated with, endorsed by, or sponsored by {cfg.competitorName}. All {cfg.competitorName} pricing, feature, and coverage claims are sourced from {cfg.competitorName}\'s public materials and third-party reviews; see the References section for citations. Pricing and features change — always verify current rates on the {cfg.competitorName} website (<a href={cfg.competitorUrl} target="_blank" rel="nofollow noopener">{cfg.competitorUrl}</a>) before booking.
           </p>
           <p>
-            <strong>Comparison guide last updated {today}. Last verified against {cfg.competitorName} official pricing on {LAST_VERIFIED}.</strong> TeleDirectMD provides telehealth services for non-emergency conditions in adults 18+ physically located in one of our 43 licensed states at the time of the visit. We do not prescribe controlled substances. If you are experiencing a medical emergency, call 911 immediately.
+            <strong>Comparison guide last updated {today}. Last verified against {cfg.competitorName} official pricing on {LAST_VERIFIED}.</strong> TeleDirectMD provides telehealth services for non-emergency conditions in adults 18+ physically located in one of our 44 licensed states at the time of the visit. We do not prescribe controlled substances. If you are experiencing a medical emergency, call 911 immediately.
           </p>
         </div>
       </section>
