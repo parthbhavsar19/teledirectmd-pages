@@ -11,10 +11,47 @@ import { summarizeStateLanding, citableSummaryToJsonLd } from '../../lib/citable
 // causing the stateTpl && (...) guards below to render NOTHING — pages fall
 // back to current generic behavior. See data/state-templates/_schema.md.
 import { loadStateTemplate } from '../../lib/state-template';
+import stateLicensesData from '../../data/state-licenses.json';
+
+// Pilot-cohort states publish only a subset of /{state}/{condition} pages, so the
+// hub's condition directory must link only to that subset.
+//
+// VT and VA were gated in app/[slug]/[conditionSlug]/page.js and app/sitemap.js but
+// NOT here, so their hubs have been rendering all 64 condition links since launch
+// while only 20 pages exist — 44 internal links to 404s on each hub, 88 live in
+// production. Verified: /vt/altitude-sickness-treatment-online returns 404 while it
+// is linked from /vt/. Keep this set in sync with the gates in those two files.
+const PILOT_COHORT_STATE_SLUGS = new Set(['ak', 'vt', 'va']);
+const PILOT_COHORT_CONDITIONS = new Set([
+  'uti-treatment-online', 'yeast-infection-treatment-online', 'bv-treatment-online',
+  'cold-sore-treatment-online', 'seasonal-allergies-treatment-online', 'hypertension-refills-online',
+  'pink-eye-treatment-online', 'shingles-treatment-online', 'sinus-infection-treatment-online',
+  'sore-throat-treatment-online', 'tick-bite-treatment-online', 'influenza-treatment-online',
+  'common-cold-treatment-online', 'ear-pain-treatment-online', 'hyperlipidemia-refills-online',
+  'hypothyroidism-refills-online', 'chlamydia-treatment-online', 'doxypep-sti-prevention-online',
+  'acne-treatment-online', 'cellulitis-treatment-online',
+]);
 
 export default function StateLandingPage({ stateSlug }) {
   const state = getStateBySlug(stateSlug);
   const stateTpl = loadStateTemplate(stateSlug);
+  const isPilotCohortState = PILOT_COHORT_STATE_SLUGS.has(stateSlug);
+  const stateLicense = (stateLicensesData.licenses || {})[stateSlug];
+  const stateCredential = stateLicense?.licenseNumber ? {
+    '@type': 'EducationalOccupationalCredential',
+    credentialCategory: stateLicense.credentialCategory || 'Medical License',
+    name: stateLicense.credentialDisplayLong || `${state.name} Medical License`,
+    identifier: stateLicense.licenseNumber,
+    recognizedBy: {
+      '@type': 'GovernmentOrganization',
+      name: stateLicense.issuingBoard,
+      url: stateLicense.issuingBoardUrl || stateLicense.verificationUrl
+    },
+    validIn: { '@type': 'State', name: state.name },
+    ...(stateLicense.verificationUrl ? { url: stateLicense.verificationUrl } : {}),
+    ...(stateLicense.dateIssued ? { validFrom: stateLicense.dateIssued } : {}),
+    ...(stateLicense.dateExpires ? { validThrough: stateLicense.dateExpires } : {})
+  } : null;
   const categories = getConditionCategories();
   const baseUrl = 'https://teledirectmd.com';
   const pageUrl = `${baseUrl}/${stateSlug}`;
@@ -26,7 +63,17 @@ export default function StateLandingPage({ stateSlug }) {
   const hasInsurance = !!stateInsurers;
   const insurerStateLinks = getInsurersForState(state.abbr);
 
+  const displayedCategories = isPilotCohortState
+    ? categories.map((cat) => ({ ...cat, conditions: cat.conditions.filter((condition) => PILOT_COHORT_CONDITIONS.has(condition.slug)) })).filter((cat) => cat.conditions.length)
+    : categories;
+  // How many conditions TeleDirectMD actually treats in this state. This is the
+  // full catalogue and is identical everywhere — a pilot cohort limits which
+  // /{state}/{condition} pages are PUBLISHED, not what the practice treats.
+  // Deriving it from displayedCategories made Alaska advertise 20 conditions
+  // while Vermont, which publishes the same 20 pages, advertised 64.
   const totalConditions = categories.reduce((sum, cat) => sum + cat.conditions.length, 0);
+  // How many of those have a dedicated in-state page to link to.
+  const linkedConditions = displayedCategories.reduce((sum, cat) => sum + cat.conditions.length, 0);
 
   const allStates = getStates();
   const otherStates = allStates.filter((s) => s.slug !== stateSlug);
@@ -94,6 +141,7 @@ export default function StateLandingPage({ stateSlug }) {
         "medicalSpecialty": "Family Medicine",
         "areaServed": { "@type": "State", "name": state.name },
         "affiliation": { "@id": `${baseUrl}#organization` },
+        ...(stateCredential ? { "hasCredential": stateCredential } : {}),
         ...(hasInsurance ? {
           "acceptsInsurance": stateInsurers.map((ins) => ({
             "@type": "HealthInsurancePlan",
@@ -307,21 +355,21 @@ export default function StateLandingPage({ stateSlug }) {
         </div>
       </section>
 
-      {/* 2) Conditions Directory */}
+      {/* 2) Conditions Directory — pilot states link only to their published cohort. */}
       <section className="tdmd-section" id={`${pid}-conditions`}>
         <div className="tdmd-container">
           <h2>Conditions We Treat in {state.name}</h2>
-          <p>Browse all {totalConditions} conditions by category. Click any condition for detailed information about symptoms, treatment options, and pricing for {state.name} residents.</p>
+          <p>Browse {linkedConditions === totalConditions ? `all ${totalConditions}` : `${linkedConditions} of our ${totalConditions}`} conditions by category. Click any condition for detailed information about symptoms, treatment options, and pricing for {state.name} residents.</p>
 
           <nav className="tdmd-cat-nav" aria-label="Condition categories">
-            {categories.map((cat) => (
+            {displayedCategories.map((cat) => (
               <a key={cat.categorySlug} className="tdmd-cat-chip" href={`#${pid}-cat-${cat.categorySlug}`}>
                 {cat.categoryName} ({cat.conditions.length})
               </a>
             ))}
           </nav>
 
-          {categories.map((cat) => (
+          {displayedCategories.map((cat) => (
             <div key={cat.categorySlug} className="tdmd-cat-section" id={`${pid}-cat-${cat.categorySlug}`}>
               <div className="tdmd-cat-header">
                 <h3>{cat.categoryName}</h3>
@@ -474,7 +522,7 @@ export default function StateLandingPage({ stateSlug }) {
               {
                 question: `What conditions does TeleDirectMD treat in ${state.name}?`,
                 answer: (
-                  <p>TeleDirectMD treats {totalConditions} adult conditions in {state.name}, organized into {categories.length} categories: {categories.map((c) => c.categoryName).join(', ')}. Common conditions include colds, flu, UTIs, sinus infections, acne, eczema, asthma refills, blood pressure refills, and more.</p>
+                  <p>TeleDirectMD treats {totalConditions} adult conditions in {state.name}, organized into {displayedCategories.length} categories: {displayedCategories.map((c) => c.categoryName).join(', ')}. Common conditions include colds, flu, UTIs, sinus infections, acne, eczema, asthma refills, blood pressure refills, and more.</p>
                 ),
               },
               {

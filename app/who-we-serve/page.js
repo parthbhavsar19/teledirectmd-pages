@@ -2,13 +2,13 @@ import audienceSegments from '../../data/audience-segments.json';
 
 export const metadata = {
   title: 'Who We Serve — TeleDirectMD',
-  description: 'TeleDirectMD provides telehealth for truck drivers, gig workers, international visitors, college students, early retirees, military families, remote workers, travel nurses, and the uninsured. Licensed physician in 43 states. Same-day visits, evenings & weekends.',
+  description: 'TeleDirectMD provides telehealth for truck drivers, gig workers, international visitors, college students, early retirees, military families, remote workers, travel nurses, and the uninsured. Licensed physician in 44 states. Same-day visits, evenings & weekends.',
   alternates: {
     canonical: 'https://teledirectmd.com/who-we-serve',
   },
   openGraph: {
     title: 'Who We Serve — TeleDirectMD',
-    description: 'Telehealth built for people who cannot always stop. Licensed in 43 states.',
+    description: 'Telehealth built for people who cannot always stop. Licensed in 44 states.',
     url: 'https://teledirectmd.com/who-we-serve',
     siteName: 'TeleDirectMD',
     type: 'website',
@@ -40,7 +40,7 @@ export default function WhoWeServeHub() {
       "@type": "MedicalTherapy",
       "name": "Telehealth Consultations"
     },
-    "areaServed": ["AL","AZ","CA","CO","CT","DE","FL","GA","HI","ID","IL","IN","IA","KS","KY","LA","ME","MD","MI","MN","MS","MO","MT","NE","NV","NH","NJ","NC","ND","OH","OK","PA","SC","SD","TN","TX","UT","VA","WA","WV","WI","WY"]
+    "areaServed": ["AL","AK","AZ","CA","CO","CT","DC","DE","FL","GA","HI","IA","ID","IL","IN","KS","KY","LA","MD","ME","MI","MN","MO","MS","MT","NC","ND","NE","NH","NJ","NV","OH","OK","PA","SC","SD","TN","TX","UT","VA","VT","WA","WI","WV","WY"]
   };
 
   return (
@@ -68,10 +68,10 @@ export default function WhoWeServeHub() {
         <div className="tdmd-container">
           <h1>Telehealth Built for People Who Can't Always Stop — Healthcare That Travels With You</h1>
           <p className="tdmd-hero-sub" style={{ maxWidth: '72ch' }}>
-            Licensed physician. 43 states. Same-day visits, evenings & weekends. No insurance required.
+            Licensed physician. 44 states. Same-day visits, evenings & weekends. No insurance required.
           </p>
           <p style={{ maxWidth: '72ch', lineHeight: '1.6' }}>
-            TeleDirectMD provides secure video visits with a board-certified physician for adults across 43 states. Everyone deserves access to quality healthcare — but some people face barriers that make it harder. Whether you're driving cross-country, delivering groceries at midnight, freelancing without employer benefits, or recently lost your insurance coverage, TeleDirectMD was built to meet you where you are.
+            TeleDirectMD provides secure video visits with a board-certified physician for adults across 44 states. Everyone deserves access to quality healthcare — but some people face barriers that make it harder. Whether you're driving cross-country, delivering groceries at midnight, freelancing without employer benefits, or recently lost your insurance coverage, TeleDirectMD was built to meet you where you are.
           </p>
           <p style={{ maxWidth: '72ch', lineHeight: '1.6' }}>
             Below, you'll find information tailored to specific communities we serve. Each page addresses the unique health challenges, access barriers, and questions relevant to your situation — along with how TeleDirectMD can help.
@@ -123,7 +123,7 @@ export default function WhoWeServeHub() {
           <div className="tdmd-bottom-cta">
             <div className="tdmd-bottom-cta-copy">
               <h3>Whatever your situation, we can see you today.</h3>
-              <p>Same-day visits, evenings & weekends. No insurance required. Board-certified physician licensed in 43 states, available by secure video visit.</p>
+              <p>Same-day visits, evenings & weekends. No insurance required. Board-certified physician licensed in 44 states, available by secure video visit.</p>
             </div>
             <div className="tdmd-bottom-cta-actions">
               <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>

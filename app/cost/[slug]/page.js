@@ -25,7 +25,7 @@ const COST_PAGE_TO_SYMPTOMS = {
 };
 
 const STATE_LIST = [
-  ['AL','Alabama'],['AZ','Arizona'],['CA','California'],['CO','Colorado'],['CT','Connecticut'],['DE','Delaware'],['FL','Florida'],['GA','Georgia'],['HI','Hawaii'],['ID','Idaho'],['IL','Illinois'],['IN','Indiana'],['IA','Iowa'],['KS','Kansas'],['KY','Kentucky'],['LA','Louisiana'],['ME','Maine'],['MD','Maryland'],['MI','Michigan'],['MN','Minnesota'],['MS','Mississippi'],['MO','Missouri'],['MT','Montana'],['NE','Nebraska'],['NV','Nevada'],['NH','New Hampshire'],['NJ','New Jersey'],['NC','North Carolina'],['ND','North Dakota'],['OH','Ohio'],['OK','Oklahoma'],['PA','Pennsylvania'],['SC','South Carolina'],['SD','South Dakota'],['TN','Tennessee'],['TX','Texas'],['UT','Utah'],['VA','Virginia'],['WA','Washington'],['WV','West Virginia'],['WI','Wisconsin'],['WY','Wyoming'],
+  ['AL','Alabama'],['AK','Alaska'],['AZ','Arizona'],['CA','California'],['CO','Colorado'],['CT','Connecticut'],['DE','Delaware'],['FL','Florida'],['GA','Georgia'],['HI','Hawaii'],['IA','Iowa'],['ID','Idaho'],['IL','Illinois'],['IN','Indiana'],['KS','Kansas'],['KY','Kentucky'],['LA','Louisiana'],['MD','Maryland'],['ME','Maine'],['MI','Michigan'],['MN','Minnesota'],['MO','Missouri'],['MS','Mississippi'],['MT','Montana'],['NC','North Carolina'],['ND','North Dakota'],['NE','Nebraska'],['NH','New Hampshire'],['NJ','New Jersey'],['NV','Nevada'],['OH','Ohio'],['OK','Oklahoma'],['PA','Pennsylvania'],['SC','South Carolina'],['SD','South Dakota'],['TN','Tennessee'],['TX','Texas'],['UT','Utah'],['VA','Virginia'],['VT','Vermont'],['WA','Washington'],['WI','Wisconsin'],['WV','West Virginia'],['WY','Wyoming'],
 ];
 
 export async function generateStaticParams() {
@@ -288,7 +288,7 @@ export default async function CostPage({ params }) {
         <div className="tdmd-container">
           <h2>Why TeleDirectMD: A Real Doctor, Not an Algorithm</h2>
           <p>
-            When you visit TeleDirectMD, you see <a href="/about" style={{ fontWeight: 700, color: 'var(--tdmd-navy)' }}>Dr. Parth Bhavsar, MD</a> — a board-certified Family Medicine physician licensed in 43 states. Not a panel of rotating providers, not a physician assistant, not a chatbot.
+            When you visit TeleDirectMD, you see <a href="/about" style={{ fontWeight: 700, color: 'var(--tdmd-navy)' }}>Dr. Parth Bhavsar, MD</a> — a board-certified Family Medicine physician licensed in 44 states. Not a panel of rotating providers, not a physician assistant, not a chatbot.
           </p>
           <ul className="tdmd-hero-benefits">
             <li>Board-certified Family Medicine — University of Mississippi Medical Center</li>
@@ -315,10 +315,10 @@ export default async function CostPage({ params }) {
         </div>
       </section>
 
-      {/* 8) States grid — 43 states */}
+      {/* 8) States grid — 44 states */}
       <section className="tdmd-section" id={`${pid}-states`}>
         <div className="tdmd-container">
-          <h2>Available in 43 States</h2>
+          <h2>Available in 44 States</h2>
           <p>{cfg.stateDeepLinkConditionSlug
             ? `The flat $79 ${conditionLabel} visit is available in every state where Dr. Bhavsar is licensed. Get state-specific pricing and book directly:`
             : 'The flat $79 rate applies in every state where Dr. Bhavsar is licensed. Select your state:'}</p>
@@ -673,7 +673,7 @@ export default async function CostPage({ params }) {
           <div className="tdmd-bottom-cta" style={{ marginTop: '1.5rem' }}>
             <div className="tdmd-bottom-cta-copy">
               <h3>Stop guessing. Book a $79 visit and know your cost upfront.</h3>
-              <p>Same-day. No insurance required. HSA/FSA accepted. 43 states. Last verified {today}.</p>
+              <p>Same-day. No insurance required. HSA/FSA accepted. 44 states. Last verified {today}.</p>
             </div>
             <div className="tdmd-bottom-cta-actions">
               <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Start a $79 Visit</a>
@@ -700,7 +700,7 @@ export default async function CostPage({ params }) {
         <div className="tdmd-container">
           <h2>Medical Disclaimer & Pricing Caveats</h2>
           <p>
-            Cost figures on this page reflect 2025–2026 cash-pay/uninsured averages or ranges from public sources (KFF, Mira Health, GoodRx, Penn Medicine, CVS MinuteClinic, BetterCare). Actual costs vary by geography, facility, and services rendered. This page is informational only and does not constitute medical advice or a guarantee of pricing. TeleDirectMD provides telehealth services for non-emergency conditions in adults 18+ physically located in one of our 43 licensed states at the time of the visit. We do not prescribe controlled substances. If you are experiencing a medical emergency, call 911 immediately.
+            Cost figures on this page reflect 2025–2026 cash-pay/uninsured averages or ranges from public sources (KFF, Mira Health, GoodRx, Penn Medicine, CVS MinuteClinic, BetterCare). Actual costs vary by geography, facility, and services rendered. This page is informational only and does not constitute medical advice or a guarantee of pricing. TeleDirectMD provides telehealth services for non-emergency conditions in adults 18+ physically located in one of our 44 licensed states at the time of the visit. We do not prescribe controlled substances. If you are experiencing a medical emergency, call 911 immediately.
           </p>
         </div>
       </section>

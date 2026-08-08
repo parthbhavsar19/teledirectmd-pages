@@ -202,7 +202,7 @@ const CONDITION_SLUGS = {
 const WHY_FEATURES = [
   { title: 'Board-Certified MD', desc: 'Every visit is with Dr. Parth Bhavsar, a licensed family medicine physician.', icon: 'doctor', img: '/images/why/why-board-certified.png' },
   { title: '$79 Flat Fee', desc: 'One transparent price. No surprise bills, no co-pays, no hidden charges.', icon: 'dollar', img: '/images/why/why-flat-fee.png' },
-  { title: '40+ States', desc: 'Licensed in 43 states + DC — 44 coverage areas across the U.S.', icon: 'map', img: '/images/why/why-states.png' },
+  { title: '40+ States', desc: 'Licensed in 44 states + DC — 45 coverage areas across the U.S.', icon: 'map', img: '/images/why/why-states.png' },
   { title: 'LegitScript Certified', desc: 'Verified by LegitScript for safe, compliant telehealth prescribing.', icon: 'shield', img: '/images/why/why-legitscript.png' },
   { title: 'Fast Prescriptions', desc: 'Rx sent to your pharmacy — often within an hour of your visit.', icon: 'rx', img: '/images/why/why-fast-rx.png' },
   { title: 'No Waiting Rooms', desc: 'Skip the drive and the wait. See a doctor from your couch.', icon: 'home', img: '/images/why/why-no-waiting.png' },
@@ -215,12 +215,12 @@ const ALL_US_STATES = [
 ];
 
 const LICENSED_STATES = new Set([
-  'AL','AZ','CA','CO','CT','DC','DE','FL','GA','HI','IA','ID','IL','IN','KS','KY','LA','MD','ME','MI',
+  'AL','AK','AZ','CA','CO','CT','DC','DE','FL','GA','HI','IA','ID','IL','IN','KS','KY','LA','MD','ME','MI',
   'MN','MO','MS','MT','NC','ND','NE','NH','NJ','NV','OH','OK','PA','SC','SD','TN','TX','UT','VA','VT','WA','WI','WV','WY',
 ]);
 
 const STATE_SLUGS = {
-  AL:'al',AZ:'az',CA:'ca',CO:'co',CT:'ct',DC:'dc',DE:'de',FL:'fl',GA:'ga',HI:'hi',IA:'ia',ID:'id',
+  AL:'al',AK:'ak',AZ:'az',CA:'ca',CO:'co',CT:'ct',DC:'dc',DE:'de',FL:'fl',GA:'ga',HI:'hi',IA:'ia',ID:'id',
   IL:'il',IN:'in',KS:'ks',KY:'ky',LA:'la',MD:'md',ME:'me',MI:'mi',MN:'mn',MO:'mo',MS:'ms',MT:'mt',
   NC:'nc',ND:'nd',NE:'ne',NH:'nh',NJ:'nj',NV:'nv',OH:'oh',OK:'ok',PA:'pa',SC:'sc',SD:'sd',TN:'tn',
   TX:'tx',UT:'ut',VA:'va',VT:'vt',WA:'wa',WI:'wi',WV:'wv',WY:'wy',
@@ -583,7 +583,7 @@ export default function HomepageClient() {
   const reviewTrackRef = useRef(null);
 
   // Counter hooks for stats
-  const stateCounter = useCountUp(43, 1500);
+  const stateCounter = useCountUp(44, 1500);
   const conditionCounter = useCountUp(60, 1200);
   const ratingCounter = useCountUp(49, 1000); // 4.9 -> we'll display as 4.9
   const priceCountdown = { count: 79, ref: null }; // Static — countdown mid-animation showed wrong values on mobile
@@ -629,7 +629,7 @@ export default function HomepageClient() {
             <rect x="60" y="160" width="3" height="20" rx="1.5" fill="#FF5A36" opacity="0.05" transform="rotate(-20 61.5 170)"/>
           </svg>
         </div>
-        <h1 className="hp-visually-hidden">Board-Certified Online Doctor Visits &mdash; $79 Flat Fee, No Subscription, 43 States</h1>
+        <h1 className="hp-visually-hidden">Board-Certified Online Doctor Visits &mdash; $79 Flat Fee, No Subscription, 44 States</h1>
         <div id="tmd-root">
           <div id="tmd-wrap-d">
             <canvas id="tmd-c"></canvas>

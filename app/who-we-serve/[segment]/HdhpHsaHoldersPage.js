@@ -49,7 +49,7 @@ export default function HdhpHsaHoldersPage() {
     },
     {
       q: 'Is TeleDirectMD available in my state?',
-      a: 'TeleDirectMD is licensed in 43 states: Alabama, Arizona, California, Colorado, Connecticut, Delaware, Florida, Georgia, Hawaii, Idaho, Illinois, Indiana, Iowa, Kansas, Kentucky, Louisiana, Maine, Maryland, Michigan, Minnesota, Mississippi, Missouri, Montana, Nebraska, Nevada, New Hampshire, New Jersey, North Carolina, North Dakota, Ohio, Oklahoma, Pennsylvania, South Carolina, South Dakota, Tennessee, Texas, Utah, Virginia, Washington, West Virginia, Wisconsin, and Wyoming. You must be physically located in one of these states at the time of your visit. See our States We Serve page for the current list.'
+      a: 'TeleDirectMD is licensed in 44 states plus Washington, D.C.: Alabama, Alaska, Arizona, California, Colorado, Connecticut, Delaware, Florida, Georgia, Hawaii, Idaho, Illinois, Indiana, Iowa, Kansas, Kentucky, Louisiana, Maine, Maryland, Michigan, Minnesota, Mississippi, Missouri, Montana, Nebraska, Nevada, New Hampshire, New Jersey, North Carolina, North Dakota, Ohio, Oklahoma, Pennsylvania, South Carolina, South Dakota, Tennessee, Texas, Utah, Virginia, Vermont, Washington, West Virginia, Wisconsin, Wyoming. You must be physically located in a covered jurisdiction at the time of your visit. See our States We Serve page for the full list.'
     },
     {
       q: 'Can I see the same physician for ongoing care?',
@@ -84,7 +84,7 @@ export default function HdhpHsaHoldersPage() {
           "@type": "MedicalTherapy",
           "name": "Telehealth Consultations"
         },
-        "areaServed": ["AL","AZ","CA","CO","CT","DE","FL","GA","HI","ID","IL","IN","IA","KS","KY","LA","ME","MD","MI","MN","MS","MO","MT","NE","NV","NH","NJ","NC","ND","OH","OK","PA","SC","SD","TN","TX","UT","VA","WA","WV","WI","WY"]
+        "areaServed": ["AL","AK","AZ","CA","CO","CT","DC","DE","FL","GA","HI","ID","IL","IN","IA","KS","KY","LA","ME","MD","MI","MN","MS","MO","MT","NE","NV","NH","NJ","NC","ND","OH","OK","PA","SC","SD","TN","TX","UT","VA","VT","WA","WV","WI","WY"]
       },
       {
         "@type": "Physician",
@@ -95,7 +95,7 @@ export default function HdhpHsaHoldersPage() {
           "@type": "MedicalOrganization",
           "name": "TeleDirectMD"
         },
-        "licensedIn": ["AL","AZ","CA","CO","CT","DE","FL","GA","HI","ID","IL","IN","IA","KS","KY","LA","ME","MD","MI","MN","MS","MO","MT","NE","NV","NH","NJ","NC","ND","OH","OK","PA","SC","SD","TN","TX","UT","VA","WA","WV","WI","WY"]
+        "licensedIn": ["AL","AK","AZ","CA","CO","CT","DC","DE","FL","GA","HI","ID","IL","IN","IA","KS","KY","LA","ME","MD","MI","MN","MS","MO","MT","NE","NV","NH","NJ","NC","ND","OH","OK","PA","SC","SD","TN","TX","UT","VA","VT","WA","WV","WI","WY"]
       },
       {
         "@type": "FAQPage",
@@ -114,7 +114,7 @@ export default function HdhpHsaHoldersPage() {
         "@id": `${pageUrl}#webpage`,
         "url": pageUrl,
         "name": "Online Doctor for HDHP & HSA Holders — Flat $79, HSA/FSA Accepted",
-        "description": "Adult telehealth for HDHP and high-deductible plan members. Flat $79 physician visits with HSA/FSA acceptance, board-certified care in 43 states.",
+        "description": "Adult telehealth for HDHP and high-deductible plan members. Flat $79 physician visits with HSA/FSA acceptance, board-certified care in 44 states.",
         "inLanguage": "en-US",
         "breadcrumb": { "@id": `${pageUrl}#breadcrumbs` },
         "author": { "@id": `${baseUrl}/about#physician` },
@@ -170,7 +170,7 @@ export default function HdhpHsaHoldersPage() {
                 <li>Flat $79 cash-pay visit &mdash; no facility, enrollment, or subscription fees</li>
                 <li>HSA and FSA cards accepted at checkout</li>
                 <li>Itemized receipt for deductible accumulation</li>
-                <li>Licensed in 43 states &mdash; same physician across state lines</li>
+                <li>Licensed in 44 states &mdash; same physician across state lines</li>
               </ul>
               <div className="tdmd-hero-ctas">
                 <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a $79 Visit</a>
@@ -277,7 +277,7 @@ export default function HdhpHsaHoldersPage() {
                 <li>Treatment plan + e-prescription when appropriate</li>
                 <li>Itemized receipt for deductible &amp; FSA reimbursement</li>
                 <li>No facility, enrollment, or subscription fees</li>
-                <li>Same physician across all 43 licensed states</li>
+                <li>Same physician across all 44 licensed states</li>
               </ul>
             </div>
             <div className="tdmd-price-chart" role="group" aria-label="Cost comparison">
@@ -354,7 +354,7 @@ export default function HdhpHsaHoldersPage() {
                 <li>You are under 18 &mdash; we are an adult-only service</li>
                 <li>You need emergency care &mdash; call 911 or go to the ER</li>
                 <li>You are seeking controlled substances &mdash; we do not prescribe them</li>
-                <li>You are physically located outside one of our 43 licensed states at the time of the visit</li>
+                <li>You are physically located outside one of our 44 licensed states at the time of the visit</li>
                 <li>Your concern requires hands-on examination or in-person imaging</li>
               </ul>
             </div>
@@ -409,7 +409,7 @@ export default function HdhpHsaHoldersPage() {
             When you&rsquo;re paying out of pocket, you want the visit to count. Many low-cost telehealth platforms route patients to a rotating mix of clinicians or marketplace providers &mdash; sometimes a nurse practitioner, sometimes a physician assistant, sometimes a physician you&rsquo;ve never seen and won&rsquo;t see again. TeleDirectMD is built differently.
           </p>
           <p>
-            Every TeleDirectMD visit is conducted by <a href="/about">Dr. Parth Bhavsar, a board-certified family medicine physician</a> (NPI 1104323203). One physician, across all 43 licensed states, accountable to you across visits. That continuity matters more on an HDHP because each visit is a real out-of-pocket cost &mdash; you don&rsquo;t want to pay $79 to repeat your history to a new clinician every time.
+            Every TeleDirectMD visit is conducted by <a href="/about">Dr. Parth Bhavsar, a board-certified family medicine physician</a> (NPI 1104323203). One physician, across all 44 licensed states, accountable to you across visits. That continuity matters more on an HDHP because each visit is a real out-of-pocket cost &mdash; you don&rsquo;t want to pay $79 to repeat your history to a new clinician every time.
           </p>
         </div>
       </section>
