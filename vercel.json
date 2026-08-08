@@ -4228,6 +4228,41 @@
       "status": 301
     },
     {
+      "src": "/ak/common-cold-treatment-online/?",
+      "headers": {
+        "Location": "/ak/"
+      },
+      "status": 301
+    },
+    {
+      "src": "/ak/seasonal-allergies-treatment-online/?",
+      "headers": {
+        "Location": "/ak/"
+      },
+      "status": 301
+    },
+    {
+      "src": "/ak/doxypep-sti-prevention-online/?",
+      "headers": {
+        "Location": "/ak/"
+      },
+      "status": 301
+    },
+    {
+      "src": "/ak/hyperlipidemia-refills-online/?",
+      "headers": {
+        "Location": "/ak/"
+      },
+      "status": 301
+    },
+    {
+      "src": "/ak/influenza-treatment-online/?",
+      "headers": {
+        "Location": "/ak/"
+      },
+      "status": 301
+    },
+    {
       "src": "/(.*)",
       "dest": "https://pepper-saxophone-p8le.squarespace.com/$1",
       "headers": {

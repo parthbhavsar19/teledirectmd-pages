@@ -13,16 +13,20 @@ import { summarizeStateLanding, citableSummaryToJsonLd } from '../../lib/citable
 import { loadStateTemplate } from '../../lib/state-template';
 import stateLicensesData from '../../data/state-licenses.json';
 
-// Pilot-cohort states publish only a subset of /{state}/{condition} pages, so the
-// hub's condition directory must link only to that subset.
+// Alaska diverges from VT/VA. The AK cohort was originally copied verbatim from
+// Vermont's slug list for consistency, not chosen from Alaska demand. Google Ads
+// volume for Alaska (geo 21132) showed the mismatch: the five conditions removed
+// below draw 10-30 searches/mo in-state, while eczema (390/mo), hair loss
+// (590/mo, $15.64 CPC), psoriasis (260/mo, $21.19 CPC) and gout (170/mo) had no
+// page at all. Uncovered measurable demand (3,070/mo) exceeded covered (1,730/mo).
 //
-// VT and VA were gated in app/[slug]/[conditionSlug]/page.js and app/sitemap.js but
-// NOT here, so their hubs have been rendering all 64 condition links since launch
-// while only 20 pages exist — 44 internal links to 404s on each hub, 88 live in
-// production. Verified: /vt/altitude-sickness-treatment-online returns 404 while it
-// is linked from /vt/. Keep this set in sync with the gates in those two files.
-const PILOT_COHORT_STATE_SLUGS = new Set(['ak', 'vt', 'va']);
-const PILOT_COHORT_CONDITIONS = new Set([
+// VT and VA keep the original set — their pages are indexed and must not change.
+//
+// NOT included: strep throat, which is the largest single term in Alaska at
+// 1,000/mo. There is no strep condition in data/conditions/; it is folded into
+// sore-throat-treatment-online, which itself draws only 30/mo. That naming
+// mismatch is national, not Alaskan, and needs its own decision.
+const VT_VA_PILOT_CONDITIONS = new Set([
   'uti-treatment-online', 'yeast-infection-treatment-online', 'bv-treatment-online',
   'cold-sore-treatment-online', 'seasonal-allergies-treatment-online', 'hypertension-refills-online',
   'pink-eye-treatment-online', 'shingles-treatment-online', 'sinus-infection-treatment-online',
@@ -32,10 +36,35 @@ const PILOT_COHORT_CONDITIONS = new Set([
   'acne-treatment-online', 'cellulitis-treatment-online',
 ]);
 
+// Removed vs VT/VA: common-cold (10/mo), seasonal-allergies (20/mo),
+// doxypep (30/mo), hyperlipidemia (30/mo, and 0 clicks in 90d across all 40
+// states that publish it), influenza (50/mo, 2 clicks nationally).
+// Added: eczema, hair-loss, psoriasis, gout.
+const AK_PILOT_CONDITIONS = new Set([
+  'uti-treatment-online', 'yeast-infection-treatment-online', 'bv-treatment-online',
+  'cold-sore-treatment-online', 'hypertension-refills-online',
+  'pink-eye-treatment-online', 'shingles-treatment-online', 'sinus-infection-treatment-online',
+  'sore-throat-treatment-online', 'tick-bite-treatment-online',
+  'ear-pain-treatment-online',
+  'hypothyroidism-refills-online', 'chlamydia-treatment-online',
+  'acne-treatment-online', 'cellulitis-treatment-online',
+  'eczema-treatment-online', 'hair-loss-treatment-online',
+  'psoriasis-refills-online', 'gout-treatment-online',
+]);
+
+// Keep this map identical across app/[slug]/StateLandingPage.js,
+// app/[slug]/[conditionSlug]/page.js and app/sitemap.js. A mismatch between the
+// route gate and the sitemap gate emits sitemap URLs with no page behind them.
+const PILOT_COHORT_BY_STATE = {
+  vt: VT_VA_PILOT_CONDITIONS,
+  va: VT_VA_PILOT_CONDITIONS,
+  ak: AK_PILOT_CONDITIONS,
+};
 export default function StateLandingPage({ stateSlug }) {
   const state = getStateBySlug(stateSlug);
   const stateTpl = loadStateTemplate(stateSlug);
-  const isPilotCohortState = PILOT_COHORT_STATE_SLUGS.has(stateSlug);
+  const pilotCohort = PILOT_COHORT_BY_STATE[stateSlug];
+  const isPilotCohortState = Boolean(pilotCohort);
   const stateLicense = (stateLicensesData.licenses || {})[stateSlug];
   const stateCredential = stateLicense?.licenseNumber ? {
     '@type': 'EducationalOccupationalCredential',
@@ -69,7 +98,7 @@ export default function StateLandingPage({ stateSlug }) {
   const insurerStateLinks = getInsurersForState(state.abbr);
 
   const displayedCategories = isPilotCohortState
-    ? categories.map((cat) => ({ ...cat, conditions: cat.conditions.filter((condition) => PILOT_COHORT_CONDITIONS.has(condition.slug)) })).filter((cat) => cat.conditions.length)
+    ? categories.map((cat) => ({ ...cat, conditions: cat.conditions.filter((condition) => pilotCohort.has(condition.slug)) })).filter((cat) => cat.conditions.length)
     : categories;
   // How many conditions TeleDirectMD actually treats in this state. This is the
   // full catalogue and is identical everywhere — a pilot cohort limits which
