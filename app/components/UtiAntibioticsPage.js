@@ -239,6 +239,23 @@ export default function UtiAntibioticsPage({ price = '79' }) {
           <p className="uap-kicker">Every option, priced</p>
           <h2>UTI antibiotic cost by medication</h2>
           <p className="uap-lead">Lowest GoodRx cash price for a standard course. All require a prescription; the visit is separate.</p>
+          {/* Reciprocal link back to /cost/uti-treatment-cost/.
+
+             That page linked here twice; nothing linked back. It is the stronger,
+             better-matched page for "uti treatment cost" (1,221 words, two comparison
+             tables, 21 citation links, Offer schema) yet it does not rank at all,
+             while this thinner page surfaces at absolute rank 18 with an H1 that does
+             not answer the query. One-way internal equity is the likeliest mechanical
+             cause; this closes the loop. */}
+          <p className="uap-lead" style={{ marginTop: '-0.35rem' }}>
+            Looking for the total cost of care rather than the drug alone?{' '}
+            <a
+              href="/cost/uti-treatment-cost/"
+              style={{ color: 'var(--navy)', fontWeight: 700, textDecoration: 'underline', textUnderlineOffset: '2px' }}
+            >
+              Compare UTI treatment cost across online doctor, urgent care, and ER
+            </a>.
+          </p>
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill,minmax(320px,1fr))', gap: '0.9rem' }}>
             {DRUGS.map((d) => (
               <div key={d.name} style={{ background: '#fff', border: '1px solid var(--line)', borderRadius: 14, padding: '1.1rem 1.2rem', display: 'flex', justifyContent: 'space-between', alignItems: 'center', gap: '1rem' }}>

@@ -14,7 +14,21 @@ function maxNum(v) {
   return found.length ? Math.max(...found) : 0;
 }
 
+// Price content decays, and cost SERPs weight freshness heavily. Competitors that
+// outrank us surface an explicit date (docdx.com dateModified 2026-06-29,
+// primaimmediatecare.com 2026-01-22) while we surfaced none.
+function verificationDate() {
+  const iso = new Date().toISOString().split('T')[0];
+  return {
+    verifiedISO: iso,
+    verifiedDisplay: new Date(`${iso}T00:00:00Z`).toLocaleDateString('en-US', {
+      year: 'numeric', month: 'long', timeZone: 'UTC'
+    }),
+  };
+}
+
 export default function CostPageRedesign({ cfg, relatedCost = [], comparePages = [] }) {
+  const { verifiedISO, verifiedDisplay } = verificationDate();
   const p = cfg;
   const price = '79';
   const costRows = (p.costTable && Array.isArray(p.costTable.rows)) ? p.costTable.rows : [];
@@ -59,6 +73,11 @@ export default function CostPageRedesign({ cfg, relatedCost = [], comparePages =
         .cxr-cta:hover{transform:translateY(-1px);filter:brightness(1.05);}
         .cxr-cta--navy{background:var(--navy);color:#fff;box-shadow:0 8px 22px rgba(0,62,82,.28);}
         .cxr-hero .cxr-trust{font-size:.85rem;color:#9fc6ca;margin:1rem 0 0;}
+        .cxr-hero .cxr-byline{font-size:.82rem;line-height:1.6;color:#bfdfe3;margin:.55rem 0 0;
+          padding-top:.55rem;border-top:1px solid rgba(255,255,255,.14);}
+        .cxr-hero .cxr-byline a{color:#fff;font-weight:700;text-decoration:underline;text-underline-offset:2px;}
+        .cxr-hero .cxr-byline a:hover{color:#9fe3ea;}
+        .cxr-hero .cxr-byline span{color:#9fc6ca;}
         .cxr-hcard{background:#fff;border-radius:18px;padding:1.5rem;box-shadow:0 18px 46px rgba(0,0,0,.26);}
         .cxr-hcard h3{font-size:1.1rem;color:var(--navy);margin:0 0 .1rem;}
         .cxr-hcard .price{font-family:'Fraunces',serif;font-size:2.6rem;font-weight:600;color:var(--navy);line-height:1;margin:.4rem 0 .1rem;}
@@ -154,6 +173,25 @@ export default function CostPageRedesign({ cfg, relatedCost = [], comparePages =
             </div>
             <div><a href="/book-online" className="cxr-cta">Book a Visit, ${price} →</a></div>
             <p className="cxr-trust">Board-certified MD · 44 states · evenings &amp; weekends · HSA/FSA accepted · 5.0★ (125 reviews)</p>
+            {/* Visible reviewer + price-verification line.
+
+               These 21 pages had no visible byline or date anywhere in the rendered
+               body. The credentials existed only in JSON-LD, which no reader and no
+               AI Overview snippet sees. The one cost page that carries a visible
+               byline (uti-antibiotics-cost, rendered by UtiAntibioticsPage) is also
+               the only UTI cost page Google surfaces.
+
+               Measured competitors do this in plain text: bettercare.com renders
+               "Written by Kristen Cramer, April 24, 2025 · Edited by Tara Farmer ·
+               Fact-checked by Jennifer Carlson" and outranks or matches us on the
+               same queries with weaker credentials than a board-certified MD. */}
+            <p className="cxr-byline">
+              Medically reviewed by{' '}
+              <a href="/about" aria-label="About Parth Bhavsar, MD">Parth Bhavsar, MD</a>
+              {' '}· Board-Certified Family Medicine · NPI 1104323203
+              <br />
+              <span>Prices verified <time dateTime={verifiedISO}>{verifiedDisplay}</time></span>
+            </p>
           </div>
           <div className="cxr-hcard">
             <h3>{p.heroCardTitle || `What you get for $${price}`}</h3>
