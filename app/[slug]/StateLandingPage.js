@@ -56,6 +56,11 @@ export default function StateLandingPage({ stateSlug }) {
   const baseUrl = 'https://teledirectmd.com';
   const pageUrl = `${baseUrl}/${stateSlug}`;
   const today = new Date().toISOString().split('T')[0];
+  // Human-readable form of `today` for on-page display. `today` itself stays ISO
+  // because it feeds datePublished/dateModified in JSON-LD.
+  const todayDisplay = new Date(`${today}T00:00:00Z`).toLocaleDateString('en-US', {
+    year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC'
+  });
   const pid = stateSlug;
   const cities = state.cities || [];
   const pharmacies = state.pharmacies || ['CVS Pharmacy', 'Walgreens', 'Walmart Pharmacy'];
@@ -204,6 +209,28 @@ export default function StateLandingPage({ stateSlug }) {
     .tdmd-state-stat{background:var(--tdmd-card);border-radius:var(--tdmd-radius);padding:1rem 1.25rem;box-shadow:var(--tdmd-shadow);border:1px solid rgba(0,0,0,0.03);text-align:center;min-width:140px;flex:1;}
     .tdmd-state-stat-number{font-size:1.75rem;font-weight:950;color:var(--tdmd-teal);letter-spacing:-0.02em;}
     .tdmd-state-stat-label{font-size:0.88rem;color:var(--tdmd-muted);margin-top:0.15rem;}
+    .tdmd-state-stat-icon{display:block;margin:0 auto 0.4rem;width:22px;height:22px;color:var(--tdmd-teal);opacity:0.85;}
+    /* Word-based stats ("Same-day", "MD-only") overflow the numeric slot at 1.75rem,
+       so they render a step down and are allowed to break. */
+    .tdmd-state-stat-number--text{font-size:1.2rem;line-height:1.25;overflow-wrap:anywhere;}
+    /* Credential verification bar — sits directly under the H1 block so the most
+       checkable fact on the page is above the fold for both patients and crawlers. */
+    .tdmd-verify-bar{display:flex;flex-wrap:wrap;align-items:center;gap:0.5rem 1.1rem;
+      background:#FFFFFF;border:1px solid #CFE3E6;border-left:4px solid var(--tdmd-teal);
+      border-radius:8px;padding:0.7rem 1rem;margin:1.1rem 0 0;}
+    .tdmd-verify-item{display:flex;align-items:center;gap:0.45rem;font-size:0.9rem;color:#0A2438;line-height:1.35;}
+    .tdmd-verify-item svg{flex:0 0 auto;width:17px;height:17px;color:var(--tdmd-teal);}
+    .tdmd-verify-label{color:var(--tdmd-muted);}
+    .tdmd-verify-value{font-weight:750;letter-spacing:-0.01em;}
+    .tdmd-verify-link{margin-left:auto;font-size:0.86rem;font-weight:700;color:var(--tdmd-teal);
+      text-decoration:underline;text-underline-offset:2px;white-space:nowrap;}
+    .tdmd-verify-link:hover{color:var(--tdmd-navy);}
+    @media (max-width:640px){
+      .tdmd-verify-bar{flex-direction:column;align-items:flex-start;gap:0.45rem;}
+      .tdmd-verify-link{margin-left:0;}
+    }
+    .tdmd-hero-ctas-note{margin:0.6rem 0 0;font-size:0.9rem;}
+    .tdmd-hero-ctas-note a{color:var(--tdmd-teal);font-weight:700;text-decoration:underline;text-underline-offset:2px;}
 
     .tdmd-cat-nav{display:flex;flex-wrap:wrap;gap:0.5rem;margin:0 0 1.75rem;}
     .tdmd-cat-chip{display:inline-block;padding:0.45rem 1rem;border-radius:999px;border:1px solid var(--tdmd-border);background:var(--tdmd-card);color:var(--tdmd-navy);font-weight:700;font-size:0.9rem;text-decoration:none;transition:border-color 0.15s,background 0.15s;}
@@ -293,22 +320,13 @@ export default function StateLandingPage({ stateSlug }) {
         </div>
       )}
 
-      {/* 0b) Answer Block — AI snippet target */}
-      <div className="tdmd-answer-block" data-speakable="true" style={{
-        background: '#EAF7F8', borderLeft: '4px solid #006B73',
-        padding: '1rem 1.25rem', margin: '0 0 0', lineHeight: 1.6
-      }}>
-        <div className="tdmd-container">
-          <p style={{ margin: 0, fontWeight: 700, color: '#003E52', fontSize: '1.05rem' }}>
-            Online doctor in {state.name}:
-          </p>
-          <p style={{ margin: '0.35rem 0 0', color: '#003E52', fontSize: '0.97rem' }}>
-            TeleDirectMD provides same-day video visits with a board-certified MD in {state.name} for {totalConditions} adult conditions — starting at $79, no insurance required{hasInsurance ? `, though select plans are accepted in ${state.name}` : ''}. Book online, see a licensed physician via secure video, and get a prescription sent directly to your local {state.name} pharmacy.
-          </p>
-        </div>
-      </div>
-
-      {/* 1) Hero */}
+      {/* 1) Hero
+         2026-08-07: The generic "Answer Block" that used to sit here was moved to
+         directly BELOW this section. It restated the H1, the subhead and the intro
+         paragraph, so the first viewport said the same thing three times — and on
+         states that also have a stateTpl opener it produced two stacked tinted
+         bands with no figure/ground separation. It is still early in the DOM and
+         still data-speakable, so AI snippet extraction is unaffected. */}
       <section className="tdmd-hero" id={`${pid}-hero`}>
         <div className="tdmd-container">
           <h1 data-speakable="true">Online Doctor in {state.name} — TeleDirectMD</h1>
@@ -319,33 +337,90 @@ export default function StateLandingPage({ stateSlug }) {
             TeleDirectMD connects you with a licensed physician in {state.name} through a secure video visit. Whether you need urgent care for a cold or UTI, a chronic medication refill for asthma or blood pressure, or treatment for a skin condition — we are here to help. Prescriptions are sent directly to your local {state.name} pharmacy.
           </p>
 
+          {/* Credential verification bar. Every jurisdiction in
+             data/state-licenses.json carries a licenseNumber, so this renders on all
+             state hubs; the guard keeps it safe if a future state is added without
+             one. Placed above the stats so the most checkable claim on the page is
+             in the first viewport for patients and for AI extraction. Date fields
+             are optional and are omitted when blank rather than rendered empty. */}
+          {stateLicense?.licenseNumber && (
+            <div className="tdmd-verify-bar" data-speakable="true">
+              <span className="tdmd-verify-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                  <path d="M9 12l2 2 4-4" /><path d="M12 3l7 3v6c0 4.4-3 8.3-7 9.5C8 20.3 5 16.4 5 12V6l7-3z" />
+                </svg>
+                <span className="tdmd-verify-label">{state.name} medical license</span>
+                <span className="tdmd-verify-value">{stateLicense.licenseNumber}</span>
+              </span>
+              <span className="tdmd-verify-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                  <path d="M3 21h18" /><path d="M5 21V9l7-5 7 5v12" /><path d="M10 21v-6h4v6" />
+                </svg>
+                <span className="tdmd-verify-value">{stateLicense.issuingBoard}</span>
+              </span>
+              {stateLicense.verificationUrl && (
+                <a
+                  className="tdmd-verify-link"
+                  href={stateLicense.verificationUrl}
+                  target="_blank"
+                  rel="noopener noreferrer nofollow"
+                >
+                  Verify this license ↗
+                </a>
+              )}
+            </div>
+          )}
+
+          {/* Stats. "Cities served" was dropped — city count does not influence a
+             telehealth decision and the "+" read as vague. "MD" was a category
+             label rather than a statistic; both slots now carry differentiators
+             that map to real objections (speed, and MD-vs-midlevel). */}
           <div className="tdmd-state-stats">
             <div className="tdmd-state-stat">
+              <svg className="tdmd-state-stat-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                <path d="M9 11l3 3L22 4" /><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11" />
+              </svg>
               <div className="tdmd-state-stat-number">{totalConditions}</div>
               <div className="tdmd-state-stat-label">Conditions treated</div>
             </div>
             <div className="tdmd-state-stat">
+              <svg className="tdmd-state-stat-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                <line x1="12" y1="1" x2="12" y2="23" /><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6" />
+              </svg>
               <div className="tdmd-state-stat-number">$79</div>
-              <div className="tdmd-state-stat-label">Starting price</div>
+              <div className="tdmd-state-stat-label">Flat fee, no membership</div>
             </div>
             <div className="tdmd-state-stat">
-              <div className="tdmd-state-stat-number">MD</div>
-              <div className="tdmd-state-stat-label">Doctor-only visits</div>
+              <svg className="tdmd-state-stat-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                <circle cx="12" cy="12" r="9" /><polyline points="12 7 12 12 15.5 14" />
+              </svg>
+              <div className="tdmd-state-stat-number tdmd-state-stat-number--text">Same-day</div>
+              <div className="tdmd-state-stat-label">Evenings &amp; weekends</div>
             </div>
             <div className="tdmd-state-stat">
-              <div className="tdmd-state-stat-number">{cities.length}+</div>
-              <div className="tdmd-state-stat-label">Cities served</div>
+              <svg className="tdmd-state-stat-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                <path d="M12 2l7 3v6c0 4.4-3 8.3-7 9.5C8 19.3 5 15.4 5 11V5l7-3z" /><path d="M12 8v6" /><path d="M9 11h6" />
+              </svg>
+              <div className="tdmd-state-stat-number tdmd-state-stat-number--text">MD-only</div>
+              <div className="tdmd-state-stat-label">Never an NP or PA</div>
             </div>
           </div>
 
+          {/* Two competing CTAs only. The third button linked to
+             /{state}/online-doctor-visits, a near-duplicate of this page, and diluted
+             the primary action; it is now a secondary text link. */}
           <div className="tdmd-hero-ctas">
             <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
             <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All Conditions</a>
-            <a href={`/${stateSlug}/online-doctor-visits`} className="tdmd-btn tdmd-btn-outline">Online Doctor Visits in {state.name}</a>
           </div>
+          <p className="tdmd-hero-ctas-note">
+            <a href={`/${stateSlug}/online-doctor-visits`}>
+              More on online doctor visits in {state.name} →
+            </a>
+          </p>
 
           <p className="tdmd-reviewed">
-            Last reviewed on {today} by{' '}
+            Last reviewed on <time dateTime={today}>{todayDisplay}</time> by{' '}
             <a className="tdmd-author-link" href="/about" aria-label="About Parth Bhavsar, MD">
               Parth Bhavsar, MD
             </a>
@@ -354,6 +429,21 @@ export default function StateLandingPage({ stateSlug }) {
           {state.abbr === 'FL' && <FlCredentialBlock />}
         </div>
       </section>
+
+      {/* 1b) Answer Block — AI snippet target. Relocated from above the hero. */}
+      <div className="tdmd-answer-block" data-speakable="true" style={{
+        background: '#EAF7F8', borderLeft: '4px solid #006B73',
+        padding: '1rem 1.25rem', margin: '0', lineHeight: 1.6
+      }}>
+        <div className="tdmd-container">
+          <p style={{ margin: 0, fontWeight: 700, color: '#003E52', fontSize: '1.05rem' }}>
+            Online doctor in {state.name}:
+          </p>
+          <p style={{ margin: '0.35rem 0 0', color: '#003E52', fontSize: '0.97rem' }}>
+            TeleDirectMD provides same-day video visits with a board-certified MD in {state.name} for {totalConditions} adult conditions — starting at $79, no insurance required{hasInsurance ? `, though select plans are accepted in ${state.name}` : ''}. Book online, see a licensed physician via secure video, and get a prescription sent directly to your local {state.name} pharmacy.
+          </p>
+        </div>
+      </div>
 
       {/* 2) Conditions Directory — pilot states link only to their published cohort. */}
       <section className="tdmd-section" id={`${pid}-conditions`}>

@@ -68,8 +68,17 @@ export default function ConditionPageRedesign({
         .cpr-alt{background:#f2f8f9;}
 
         .cpr-hero{background:linear-gradient(160deg,#012f3e 0%,#01465a 60%,#065f6b 100%);color:#fff;padding:3rem 0 3.25rem;}
-        .cpr-hero-grid{display:grid;grid-template-columns:1.08fr .92fr;gap:2.5rem;align-items:center;}
+        /* 2026-08-07: was align-items:center. The copy column runs ~620px tall and
+           the card ~270px, so centring the short column pushed it ~300px down and
+           left a large empty rectangle at the top of the hero. Top-align it and let
+           it follow the reader — these pages carry 17 h2 sections. */
+        .cpr-hero-grid{display:grid;grid-template-columns:1.08fr .92fr;gap:2.5rem;align-items:start;}
         @media(max-width:840px){.cpr-hero-grid{grid-template-columns:1fr;}}
+        /* Desktop only. The existing tdmd-mobile-sticky-bar covers small screens, so
+           this cannot stack two persistent CTAs on top of each other. */
+        @media(min-width:841px){
+          .cpr-hcard{position:sticky;top:1.5rem;}
+        }
         .cpr-hero h1{font-size:clamp(2rem,4.4vw,2.9rem);line-height:1.08;color:#fff;margin:0 0 .9rem;}
         .cpr-hero .sub{font-size:1.05rem;line-height:1.55;color:#d7ebee;margin:0 0 1.5rem;max-width:52ch;}
         .cpr-hero .intro{font-size:.97rem;line-height:1.6;color:#bfdfe3;margin:0 0 1.5rem;max-width:56ch;}
@@ -84,6 +93,14 @@ export default function ConditionPageRedesign({
         .cpr-hcard ul{list-style:none;margin:0;padding:0;}
         .cpr-hcard li{position:relative;padding-left:1.6rem;margin:.5rem 0;font-size:.92rem;line-height:1.4;color:var(--ink);}
         .cpr-hcard li::before{content:'✓';position:absolute;left:0;color:var(--teal);font-weight:800;}
+        /* The card is the highest-intent element in the hero; it previously ended on
+           the feature list with no action, sending the reader back to the copy column. */
+        .cpr-hcard-cta{display:block;width:100%;box-sizing:border-box;margin:1.15rem 0 0;
+          padding:.85rem 1.25rem;border-radius:999px;background:var(--teal);color:#fff;
+          font-weight:800;font-size:1rem;text-align:center;text-decoration:none;
+          box-shadow:0 8px 22px rgba(0,107,115,.30);transition:background .15s,transform .15s;}
+        .cpr-hcard-cta:hover,.cpr-hcard-cta:focus{background:var(--navy);transform:translateY(-1px);color:#fff;}
+        .cpr-hcard-note{margin:.6rem 0 0;font-size:.8rem;color:var(--muted);text-align:center;}
 
         .cpr-two{display:grid;grid-template-columns:1fr 1fr;gap:1.25rem;}
         @media(max-width:760px){.cpr-two{grid-template-columns:1fr;}}
@@ -206,6 +223,8 @@ export default function ConditionPageRedesign({
                 <li key={i}>{clean(typeof f === 'string' ? f : (f.text || f.label || ''), stateName)}</li>
               ))}
             </ul>
+            <a href="/book-online" className="cpr-hcard-cta">Book a Visit &rarr;</a>
+            <p className="cpr-hcard-note">Same-day appointments · HSA/FSA accepted</p>
           </div>
         </div>
       </section>
