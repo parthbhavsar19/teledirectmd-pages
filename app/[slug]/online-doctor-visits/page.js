@@ -1,9 +1,15 @@
 import { getStates, getStateBySlug, getConditionCategories } from '../../../lib/get-data';
 import { getStateInsurance } from '../../../lib/insurance-data';
 import { FlCredentialBlock, FlFooterCompliance } from '../../components/FlCompliance';
+import StateMap from '../../components/StateMap';
+import stateLicensesData from '../../../data/state-licenses.json';
 import { notFound } from 'next/navigation';
 
-const defined_states = ['al', 'ak', 'az', 'ca', 'co', 'ct', 'dc', 'de', 'fl', 'ga', 'hi', 'id', 'il', 'in', 'ia', 'ks', 'ky', 'la', 'me', 'md', 'mi', 'mn', 'ms', 'mo', 'mt', 'ne', 'nv', 'nh', 'nj', 'nc', 'nd', 'oh', 'ok', 'pa', 'sc', 'sd', 'tn', 'tx', 'ut', 'wa', 'wv', 'wi', 'wy'];
+// app/sitemap.js emits /{state}/online-doctor-visits/ for every state in
+// data/states.json, but vt and va were never added here — so
+// /vt/online-doctor-visits/ has been sitemapped and 404ing in production. Any
+// jurisdiction present in states.json must be present here too.
+const defined_states = ['al', 'ak', 'az', 'ca', 'co', 'ct', 'dc', 'de', 'fl', 'ga', 'hi', 'id', 'il', 'in', 'ia', 'ks', 'ky', 'la', 'me', 'md', 'mi', 'mn', 'ms', 'mo', 'mt', 'ne', 'nv', 'nh', 'nj', 'nc', 'nd', 'oh', 'ok', 'pa', 'sc', 'sd', 'tn', 'tx', 'ut', 'va', 'vt', 'wa', 'wv', 'wi', 'wy'];
 
 export async function generateStaticParams() {
   return defined_states.map((slug) => ({ slug }));
@@ -41,6 +47,7 @@ export default async function OnlineDoctorVisitsPage({ params }) {
   const today = new Date().toISOString().split('T')[0];
   const stateInsurers = getStateInsurance(state.abbr);
   const hasInsurance = !!stateInsurers;
+  const stateLicense = (stateLicensesData.licenses || {})[slug];
 
   const jsonLd = {
     '@context': 'https://schema.org',
@@ -136,6 +143,41 @@ export default async function OnlineDoctorVisitsPage({ params }) {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <style dangerouslySetInnerHTML={{ __html: `
+        .odv-hero{background:linear-gradient(180deg,#F2FAFB 0%,#FFFFFF 100%);
+          border:1px solid #DCEDEF;border-radius:14px;padding:32px 28px;margin:28px 0 8px;}
+        .odv-hero-grid{display:grid;grid-template-columns:minmax(0,1.9fr) minmax(0,1fr);
+          gap:2rem;align-items:start;}
+        @media(max-width:820px){
+          .odv-hero-grid{grid-template-columns:minmax(0,1fr);}
+          .odv-hero{padding:24px 18px;}
+          .odv-hero-map{order:-1;max-width:280px;margin:0 auto;}
+        }
+        .odv-hero-map{background:#fff;border:1px solid #DCEDEF;border-radius:12px;
+          padding:18px 18px 14px;box-shadow:0 10px 28px rgba(6,95,107,.08);}
+        .odv-map-cap{margin-top:12px;padding-top:12px;border-top:1px solid #EDF4F5;
+          display:flex;flex-direction:column;gap:3px;text-align:center;}
+        .odv-map-cap strong{font-size:1.02rem;color:#0A2438;letter-spacing:-0.01em;}
+        .odv-map-cap span{font-size:.79rem;color:#6b7280;line-height:1.45;}
+        .odv-verify{display:flex;flex-wrap:wrap;align-items:center;gap:.5rem 1.1rem;
+          background:#fff;border:1px solid #CFE3E6;border-left:4px solid #0d9488;
+          border-radius:8px;padding:.7rem 1rem;margin:1.15rem 0 0;}
+        .odv-verify-item{display:flex;align-items:center;gap:.45rem;font-size:.9rem;
+          color:#0A2438;line-height:1.35;}
+        .odv-verify-item svg{flex:0 0 auto;width:17px;height:17px;color:#0d9488;}
+        /* No margin-left:auto here — this bar sits inside the narrower hero copy
+           column, so pushing the link to the far right stranded it alone on a
+           wrapped second line. Let it flow inline after the board name. */
+        .odv-verify-link{font-size:.86rem;font-weight:700;color:#0d9488;
+          text-decoration:underline;text-underline-offset:2px;white-space:nowrap;}
+        @media(max-width:640px){
+          .odv-verify{flex-direction:column;align-items:flex-start;gap:.45rem;}
+        }
+        /* Step cards were #f9fafb on #fff with a 1px grey border — effectively
+           invisible. Give them a teal spine and real elevation. */
+        .odv-step{background:#fff;border:1px solid #E4EDEE;border-left:3px solid #0d9488;
+          border-radius:10px;padding:20px;box-shadow:0 2px 8px rgba(10,36,56,.05);}
+      ` }} />
       <div style={{ maxWidth: '900px', margin: '0 auto', padding: '0 20px 60px' }}>
 
         {/* Breadcrumbs */}
@@ -149,21 +191,56 @@ export default async function OnlineDoctorVisitsPage({ params }) {
           <span>Online Doctor Visits</span>
         </nav>
 
-        {/* Hero */}
-        <section style={{ padding: '40px 0 32px' }}>
-          <h1 style={{ fontSize: '2.2rem', fontWeight: 700, lineHeight: 1.2, color: '#111827', marginBottom: '12px' }}>
-            Online Doctor Visits in {state.name}
-          </h1>
-          <p style={{ fontSize: '1.15rem', color: '#0d9488', fontWeight: 600, marginBottom: '16px' }}>
-            Physician-led video care for {state.name} adults. Self pay option starting at $79.{hasInsurance ? ' Select insurance plans accepted.' : ' Insurance is not required.'}
-          </p>
-          <p style={{ fontSize: '1rem', color: '#374151', lineHeight: 1.7 }}>
-            TeleDirectMD offers board-certified physician video visits for adults located in {state.name}. Every visit is a live, synchronous encounter with an MD. There are no mid-level providers, no asynchronous questionnaires, and no subscription requirements. We evaluate and treat {totalConditions} conditions across urgent care, chronic medication refills, skin and bite concerns, sexual health, and wellness. If treatment is clinically appropriate, a prescription is sent to your preferred pharmacy. If your condition requires in-person evaluation, we will tell you directly and provide clear guidance on your next step.
-          </p>
-          <div style={{ display: 'flex', gap: '12px', marginTop: '24px', flexWrap: 'wrap' }}>
-            <a href="/book-online" style={{ display: 'inline-block', background: '#0d9488', color: '#fff', padding: '14px 32px', borderRadius: '8px', fontWeight: 600, fontSize: '1rem', textDecoration: 'none' }}>Book a Visit</a>
-            <a href={`/${slug}`} style={{ display: 'inline-block', background: '#fff', color: '#0d9488', border: '2px solid #0d9488', padding: '12px 28px', borderRadius: '8px', fontWeight: 600, fontSize: '1rem', textDecoration: 'none' }}>Explore {state.name} Pages</a>
-            <a href="/what-we-treat" style={{ display: 'inline-block', background: '#fff', color: '#374151', border: '2px solid #d1d5db', padding: '12px 28px', borderRadius: '8px', fontWeight: 600, fontSize: '1rem', textDecoration: 'none' }}>View All Conditions</a>
+        {/* Hero
+           2026-08-07: this template had no hero band, no graphic and no trust signal
+           — white copy on a white page with a 110-character measure. It now gets a
+           tinted band, the state's own outline map, a credential bar, and a capped
+           line length. */}
+        <section className="odv-hero">
+          <div className="odv-hero-grid">
+            <div>
+              <h1 style={{ fontSize: '2.2rem', fontWeight: 700, lineHeight: 1.2, color: '#111827', marginBottom: '12px' }}>
+                Online Doctor Visits in {state.name}
+              </h1>
+              <p style={{ fontSize: '1.15rem', color: '#0d9488', fontWeight: 600, marginBottom: '16px', maxWidth: '58ch' }}>
+                Physician-led video care for {state.name} adults. Self pay option starting at $79.{hasInsurance ? ' Select insurance plans accepted.' : ' Insurance is not required.'}
+              </p>
+              <p style={{ fontSize: '1rem', color: '#374151', lineHeight: 1.7, maxWidth: '64ch' }}>
+                TeleDirectMD offers board-certified physician video visits for adults located in {state.name}. Every visit is a live, synchronous encounter with an MD. There are no mid-level providers, no asynchronous questionnaires, and no subscription requirements. We evaluate and treat {totalConditions} conditions across urgent care, chronic medication refills, skin and bite concerns, sexual health, and wellness. If treatment is clinically appropriate, a prescription is sent to your preferred pharmacy. If your condition requires in-person evaluation, we will tell you directly and provide clear guidance on your next step.
+              </p>
+
+              {stateLicense?.licenseNumber && (
+                <div className="odv-verify">
+                  <span className="odv-verify-item">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                      <path d="M9 12l2 2 4-4" /><path d="M12 3l7 3v6c0 4.4-3 8.3-7 9.5C8 20.3 5 16.4 5 12V6l7-3z" />
+                    </svg>
+                    <span style={{ color: '#6b7280' }}>{state.name} medical license</span>
+                    <strong>{stateLicense.licenseNumber}</strong>
+                  </span>
+                  <span className="odv-verify-item"><strong>{stateLicense.issuingBoard}</strong></span>
+                  {stateLicense.verificationUrl && (
+                    <a className="odv-verify-link" href={stateLicense.verificationUrl} target="_blank" rel="noopener noreferrer nofollow">Verify this license &#8599;</a>
+                  )}
+                </div>
+              )}
+
+              <div style={{ display: 'flex', gap: '12px', marginTop: '22px', flexWrap: 'wrap', alignItems: 'center' }}>
+                <a href="/book-online" style={{ display: 'inline-block', background: '#0d9488', color: '#fff', padding: '14px 32px', borderRadius: '8px', fontWeight: 600, fontSize: '1rem', textDecoration: 'none' }}>Book a Visit</a>
+                <a href={`/${slug}`} style={{ display: 'inline-block', background: '#fff', color: '#0d9488', border: '2px solid #0d9488', padding: '12px 28px', borderRadius: '8px', fontWeight: 600, fontSize: '1rem', textDecoration: 'none' }}>Explore {state.name} Pages</a>
+                {/* Was a third equal-weight button with a grey border that read as
+                    disabled next to two teal ones. Demoted to a text link. */}
+                <a href="/what-we-treat" style={{ color: '#0d9488', fontWeight: 600, fontSize: '0.95rem', textDecoration: 'underline', textUnderlineOffset: '2px' }}>View all conditions</a>
+              </div>
+            </div>
+
+            <aside className="odv-hero-map" aria-label={`${state.name} service area`}>
+              <StateMap abbr={state.abbr} name={state.name} height={200} />
+              <div className="odv-map-cap">
+                <strong>{state.name}</strong>
+                <span>Licensed statewide &middot; you must be in {state.name} during the visit</span>
+              </div>
+            </aside>
           </div>
         </section>
 
@@ -177,7 +254,7 @@ export default async function OnlineDoctorVisitsPage({ params }) {
               { step: '3', title: 'Receive your evaluation and treatment plan', text: 'Your MD evaluates your condition, screens for red flags, and discusses treatment options. If a prescription is clinically appropriate, it is sent to your preferred pharmacy.' },
               { step: '4', title: 'Follow-up guidance and clear next steps', text: 'You receive clear instructions on what to watch for, when to follow up, and when to seek in-person care if needed.' }
             ].map((s) => (
-              <div key={s.step} style={{ background: '#f9fafb', border: '1px solid #e5e7eb', borderRadius: '10px', padding: '20px' }}>
+              <div key={s.step} className="odv-step">
                 <div style={{ display: 'flex', alignItems: 'center', gap: '12px', marginBottom: '8px' }}>
                   <span style={{ background: '#0d9488', color: '#fff', width: '32px', height: '32px', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 700, fontSize: '14px', flexShrink: 0 }}>{s.step}</span>
                   <h3 style={{ fontSize: '1.05rem', fontWeight: 600, color: '#111827', margin: 0 }}>{s.title}</h3>
