@@ -90,32 +90,7 @@ export default function sitemap() {
   // condition pages. Do NOT emit /vt/<every-condition>/ — only the 10 pilot URLs are surgical-
   // routed; the rest would fall through to the generic template and trigger Google's
   // scaled-content classifier (the April 2026 deindex pattern).
-  const VT_PILOT_CONDITIONS = new Set([
-    // ── VT Pilot 1 (2026-06-04) ──
-    'uti-treatment-online',
-    'yeast-infection-treatment-online',
-    'bv-treatment-online',
-    'cold-sore-treatment-online',
-    'seasonal-allergies-treatment-online',
-    'hypertension-refills-online',
-    'pink-eye-treatment-online',
-    'shingles-treatment-online',
-    'sinus-infection-treatment-online',
-    'sore-throat-treatment-online',
-    // ── VT Pilot 2 marquee (2026-06-04) ──
-    'tick-bite-treatment-online',
-    // ── VT Pilot 2 remaining 9 (2026-06-08) ──
-    'influenza-treatment-online',
-    'common-cold-treatment-online',
-    'ear-pain-treatment-online',
-    'hyperlipidemia-refills-online',
-    'hypothyroidism-refills-online',
-    'chlamydia-treatment-online',
-    'doxypep-sti-prevention-online',
-    'acne-treatment-online',
-    'cellulitis-treatment-online',
-  ]);
-  // NATIONAL-ONLY conditions (2026-06-14): travel-medicine and altitude-sickness are
+// NATIONAL-ONLY conditions (2026-06-14): travel-medicine and altitude-sickness are
   // single, unique national pages. Do NOT emit /{state}/<these>/ — they have no per-state
   // clinical differentiation, so 42 templated state variants each would re-create the exact
   // near-duplicate cluster that drove the May 2026 deindex. Only the national /{cond}/ URLs
@@ -131,7 +106,53 @@ export default function sitemap() {
   // condition slugs generate and enter the sitemap; every other state-condition route stays
   // unpublished. Alaska is cash-pay only and receives state-specific compliance content from
   // data/state-templates/ak.json.
-  const PILOT_COHORT_STATE_SLUGS = new Set(['vt', 'va', 'ak']);
+// Alaska diverges from VT/VA. The AK cohort was originally copied verbatim from
+// Vermont's slug list for consistency, not chosen from Alaska demand. Google Ads
+// volume for Alaska (geo 21132) showed the mismatch: the five conditions removed
+// below draw 10-30 searches/mo in-state, while eczema (390/mo), hair loss
+// (590/mo, $15.64 CPC), psoriasis (260/mo, $21.19 CPC) and gout (170/mo) had no
+// page at all. Uncovered measurable demand (3,070/mo) exceeded covered (1,730/mo).
+//
+// VT and VA keep the original set — their pages are indexed and must not change.
+//
+// NOT included: strep throat, which is the largest single term in Alaska at
+// 1,000/mo. There is no strep condition in data/conditions/; it is folded into
+// sore-throat-treatment-online, which itself draws only 30/mo. That naming
+// mismatch is national, not Alaskan, and needs its own decision.
+const VT_VA_PILOT_CONDITIONS = new Set([
+  'uti-treatment-online', 'yeast-infection-treatment-online', 'bv-treatment-online',
+  'cold-sore-treatment-online', 'seasonal-allergies-treatment-online', 'hypertension-refills-online',
+  'pink-eye-treatment-online', 'shingles-treatment-online', 'sinus-infection-treatment-online',
+  'sore-throat-treatment-online', 'tick-bite-treatment-online', 'influenza-treatment-online',
+  'common-cold-treatment-online', 'ear-pain-treatment-online', 'hyperlipidemia-refills-online',
+  'hypothyroidism-refills-online', 'chlamydia-treatment-online', 'doxypep-sti-prevention-online',
+  'acne-treatment-online', 'cellulitis-treatment-online',
+]);
+
+// Removed vs VT/VA: common-cold (10/mo), seasonal-allergies (20/mo),
+// doxypep (30/mo), hyperlipidemia (30/mo, and 0 clicks in 90d across all 40
+// states that publish it), influenza (50/mo, 2 clicks nationally).
+// Added: eczema, hair-loss, psoriasis, gout.
+const AK_PILOT_CONDITIONS = new Set([
+  'uti-treatment-online', 'yeast-infection-treatment-online', 'bv-treatment-online',
+  'cold-sore-treatment-online', 'hypertension-refills-online',
+  'pink-eye-treatment-online', 'shingles-treatment-online', 'sinus-infection-treatment-online',
+  'sore-throat-treatment-online', 'tick-bite-treatment-online',
+  'ear-pain-treatment-online',
+  'hypothyroidism-refills-online', 'chlamydia-treatment-online',
+  'acne-treatment-online', 'cellulitis-treatment-online',
+  'eczema-treatment-online', 'hair-loss-treatment-online',
+  'psoriasis-refills-online', 'gout-treatment-online',
+]);
+
+// Keep this map identical across app/[slug]/StateLandingPage.js,
+// app/[slug]/[conditionSlug]/page.js and app/sitemap.js. A mismatch between the
+// route gate and the sitemap gate emits sitemap URLs with no page behind them.
+const PILOT_COHORT_BY_STATE = {
+  vt: VT_VA_PILOT_CONDITIONS,
+  va: VT_VA_PILOT_CONDITIONS,
+  ak: AK_PILOT_CONDITIONS,
+};
   const states = getStates();
   const conditionSlugs = getConditionSlugs();
   for (const state of states) {
@@ -143,7 +164,8 @@ export default function sitemap() {
     for (const cond of conditionSlugs) {
       // National-only conditions: never emit a state-prefixed variant
       if (NATIONAL_ONLY_CONDITIONS.has(cond)) continue;
-      if (PILOT_COHORT_STATE_SLUGS.has(state.slug) && !VT_PILOT_CONDITIONS.has(cond)) continue;
+      const pilotCohort = PILOT_COHORT_BY_STATE[state.slug];
+      if (pilotCohort && !pilotCohort.has(cond)) continue;
       urls.push(url(`/${state.slug}/${cond}/`, 0.8, 'weekly'));
     }
   }
