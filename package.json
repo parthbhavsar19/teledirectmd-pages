@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "prebuild": "node scripts/update-cyclosporiasis-monitor.js && node scripts/inject-health-guides-citable.js",
+    "prebuild": "node scripts/check-state-coverage.js && node scripts/update-cyclosporiasis-monitor.js && node scripts/inject-health-guides-citable.js",
+    "check:states": "node scripts/check-state-coverage.js",
     "build": "next build",
     "start": "next start",
     "postbuild": "node scripts/indexnow-submit.js --sitemap || true"
