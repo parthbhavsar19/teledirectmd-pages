@@ -316,7 +316,7 @@ const sections = [
               District of Columbia:
             </p>
             <p>
-              Alabama, Arizona, California, Colorado, Connecticut, Delaware, Florida, Georgia,
+              Alabama, Alaska, Arizona, California, Colorado, Connecticut, Delaware, Florida, Georgia,
               Hawaii, Idaho, Illinois, Indiana, Iowa, Kansas, Kentucky, Louisiana, Maine, Maryland,
               Michigan, Minnesota, Mississippi, Missouri, Montana, Nebraska, Nevada, New Hampshire,
               New Jersey, North Carolina, North Dakota, Ohio, Oklahoma, Pennsylvania, South Carolina,
