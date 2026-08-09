@@ -46,7 +46,7 @@ const MEDICATIONS = [
 ];
 
 const STATES = [
-  { abbr: 'al', name: 'Alabama' }, { abbr: 'az', name: 'Arizona' }, { abbr: 'ca', name: 'California' },
+  { abbr: 'al', name: 'Alabama' }, { abbr: 'ak', name: 'Alaska' }, { abbr: 'az', name: 'Arizona' }, { abbr: 'ca', name: 'California' },
   { abbr: 'co', name: 'Colorado' }, { abbr: 'ct', name: 'Connecticut' }, { abbr: 'dc', name: 'Washington DC' },
   { abbr: 'de', name: 'Delaware' }, { abbr: 'fl', name: 'Florida' }, { abbr: 'ga', name: 'Georgia' },
   { abbr: 'hi', name: 'Hawaii' }, { abbr: 'id', name: 'Idaho' }, { abbr: 'il', name: 'Illinois' },
@@ -58,7 +58,7 @@ const STATES = [
   { abbr: 'nj', name: 'New Jersey' }, { abbr: 'nc', name: 'North Carolina' }, { abbr: 'nd', name: 'North Dakota' },
   { abbr: 'oh', name: 'Ohio' }, { abbr: 'ok', name: 'Oklahoma' }, { abbr: 'pa', name: 'Pennsylvania' },
   { abbr: 'sc', name: 'South Carolina' }, { abbr: 'sd', name: 'South Dakota' }, { abbr: 'tn', name: 'Tennessee' },
-  { abbr: 'tx', name: 'Texas' }, { abbr: 'ut', name: 'Utah' }, { abbr: 'va', name: 'Virginia' }, { abbr: 'wa', name: 'Washington' },
+  { abbr: 'tx', name: 'Texas' }, { abbr: 'ut', name: 'Utah' }, { abbr: 'vt', name: 'Vermont' }, { abbr: 'va', name: 'Virginia' }, { abbr: 'wa', name: 'Washington' },
   { abbr: 'wv', name: 'West Virginia' }, { abbr: 'wi', name: 'Wisconsin' }, { abbr: 'wy', name: 'Wyoming' },
 ];
 

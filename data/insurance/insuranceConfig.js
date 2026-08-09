@@ -124,11 +124,11 @@ export const STATE_NAMES = {
   AZ:"Arizona", CO:"Colorado", FL:"Florida", GA:"Georgia", IL:"Illinois",
   MI:"Michigan", MN:"Minnesota", NC:"North Carolina", NJ:"New Jersey",
   OH:"Ohio", OK:"Oklahoma", PA:"Pennsylvania", TN:"Tennessee", TX:"Texas", WA:"Washington",
-  AL:"Alabama", CA:"California", CT:"Connecticut", DC:"District of Columbia",
+  AL:"Alabama", AK:"Alaska", CA:"California", CT:"Connecticut", DC:"District of Columbia",
   DE:"Delaware", HI:"Hawaii", ID:"Idaho", IN:"Indiana", IA:"Iowa", KS:"Kansas",
   KY:"Kentucky", LA:"Louisiana", ME:"Maine", MD:"Maryland", MS:"Mississippi",
   MO:"Missouri", MT:"Montana", NE:"Nebraska", NV:"Nevada", NH:"New Hampshire",
-  ND:"North Dakota", SC:"South Carolina", SD:"South Dakota", UT:"Utah",
+  ND:"North Dakota", SC:"South Carolina", SD:"South Dakota", UT:"Utah", VT:"Vermont",
   VA:"Virginia", WV:"West Virginia", WI:"Wisconsin", WY:"Wyoming",
 };
 
