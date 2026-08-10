@@ -5,6 +5,13 @@
   "trailingSlash": true,
   "routes": [
     {
+      "src": "/health-guides/gout-acute-guide/?",
+      "headers": {
+        "Location": "/health-guides/gout-guide/"
+      },
+      "status": 301
+    },
+    {
       "src": "/health-guides/eyelash-growth-bimatoprost-guide/?",
       "headers": {
         "Location": "/health-guides/latisse-guide/"
@@ -969,7 +976,7 @@
     {
       "src": "/health-guides/gout-flare-treatment-online-mgmr7/?",
       "headers": {
-        "Location": "/health-guides/gout-acute-guide/"
+        "Location": "/health-guides/gout-guide/"
       },
       "status": 301
     },
