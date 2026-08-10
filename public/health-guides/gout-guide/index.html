@@ -348,7 +348,11 @@ sup a:hover { text-decoration: underline; }
  gap: 3rem;
  align-items: start;
  min-width: 0;
-}.tdmd-article-content,.tdmd-article-body,.tdmd-sidebar { min-width: 0; }.tdmd-article-body,.tdmd-article-content { overflow-wrap: break-word; word-wrap: break-word; word-break: break-word; }
+}.tdmd-article-content,.tdmd-article-body,.tdmd-sidebar { min-width: 0; }.tdmd-article-body,.tdmd-article-content { overflow-wrap: break-word; word-wrap: break-word; }
+/* Table cells: allow soft wrapping at word boundaries only, never mid-word.
+ Wrapper handles horizontal scroll when content genuinely doesn't fit. */.tdmd-table th,.tdmd-table td { word-break: normal; overflow-wrap: normal; hyphens: manual; }
+@media (max-width: 768px) {.tdmd-table { min-width: 560px; }
+}
 @media (max-width: 900px) {.tdmd-content-grid { grid-template-columns: minmax(0, 1fr); gap: 1.5rem; }.tdmd-sidebar { order: -1; }.tdmd-sidebar-card { position: static; }
 }
 @media (max-width: 480px) {
