@@ -638,7 +638,12 @@ a:hover { text-decoration: underline; }.tdmd-container {
  display: flex;
  flex-direction: column;
  flex: 1;
-}.guide-card--featured .guide-card-title { font-size: 1.15rem; }.guide-card--featured .guide-card-desc { font-size: 0.92rem; }
+}.guide-card--featured .guide-card-title { font-size: 1.15rem; }.guide-card--featured .guide-card-desc { font-size: 0.92rem; }.guides-featured-grid .guide-card--featured:last-child:nth-child(odd) {
+ grid-column: 1 / -1;
+ max-width: 480px;
+ margin: 0 auto;
+ width: 100%;
+}
 
 @media (max-width: 768px) {.tdmd-hamburger { display: flex; }.tdmd-nav-links {
  display: none;
@@ -748,7 +753,7 @@ a:hover { text-decoration: underline; }.tdmd-container {
  <div class="guides-category-icon">
  <svg viewBox="0 0 24 24"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
  </div>
- <h2>Acute & Urgent Care <span class="guides-category-count">(24 guides)</span></h2>
+ <h2>Acute & Urgent Care <span class="guides-category-count" data-total="24">(24 guides)</span></h2>
  </div>
   <div class="guides-featured-grid">
  <a href="/health-guides/wildfire-smoke-health-guide/" class="guide-card guide-card--featured" style="border-top:4px solid #C4551E;">
@@ -1189,7 +1194,7 @@ a:hover { text-decoration: underline; }.tdmd-container {
  <div class="guides-category-icon">
  <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/></svg>
  </div>
- <h2>Skin Conditions <span class="guides-category-count">(13 guides)</span></h2>
+ <h2>Skin Conditions <span class="guides-category-count" data-total="13">(13 guides)</span></h2>
  </div>
   <div class="guides-featured-grid">
  <a href="/health-guides/poison-ivy-oak-treatment-guide/" class="guide-card guide-card--featured">
@@ -1438,7 +1443,7 @@ a:hover { text-decoration: underline; }.tdmd-container {
  <div class="guides-category-icon">
  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
  </div>
- <h2>Sexual Health & STIs <span class="guides-category-count">(3 guides)</span></h2>
+ <h2>Sexual Health & STIs <span class="guides-category-count" data-total="3">(3 guides)</span></h2>
  </div>
   <div class="guides-grid">
 
@@ -1500,7 +1505,7 @@ a:hover { text-decoration: underline; }.tdmd-container {
  <div class="guides-category-icon">
  <svg viewBox="0 0 24 24"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0016.5 3c-1.76 0-3.5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 002 8.5c0 2.3 1.5 4.05 3 5.5l7 7z"/></svg>
  </div>
- <h2>Chronic Conditions & Medication Management <span class="guides-category-count">(8 guides)</span></h2>
+ <h2>Chronic Conditions & Medication Management <span class="guides-category-count" data-total="8">(8 guides)</span></h2>
  </div>
   <div class="guides-featured-grid">
  <a href="/health-guides/cholesterol-hyperlipidemia-guide/" class="guide-card guide-card--featured">
@@ -1664,7 +1669,7 @@ a:hover { text-decoration: underline; }.tdmd-container {
  <div class="guides-category-icon">
  <svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg>
  </div>
- <h2>Men's & Women's Health <span class="guides-category-count">(8 guides)</span></h2>
+ <h2>Men's & Women's Health <span class="guides-category-count" data-total="8">(8 guides)</span></h2>
  </div>
   <div class="guides-featured-grid">
  <a href="/health-guides/bph-luts-treatment-guide/" class="guide-card guide-card--featured">
@@ -1828,7 +1833,7 @@ a:hover { text-decoration: underline; }.tdmd-container {
  <div class="guides-category-icon">
  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17.8 19.2 16 11l3.5-3.5C21 6 21.5 4 21 3c-1-.5-3 0-4.5 1.5L13 8 4.8 6.2c-.5-.1-.9.1-1.1.5l-.3.5c-.2.5-.1 1 .3 1.3L9 12l-2 3H4l-1 1 3 2 2 3 1-1v-3l3-2 3.5 5.3c.3.4.8.5 1.3.3l.5-.2c.4-.3.6-.7.5-1.2z"/></svg>
  </div>
- <h2>Travel Medicine <span class="guides-category-count">(1 guides)</span></h2>
+ <h2>Travel Medicine <span class="guides-category-count" data-total="1">(1 guides)</span></h2>
  </div>
   <div class="guides-grid">
 
@@ -1860,7 +1865,7 @@ a:hover { text-decoration: underline; }.tdmd-container {
  <div class="guides-category-icon">
  <svg viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
  </div>
- <h2>Lifestyle & Specialty <span class="guides-category-count">(5 guides)</span></h2>
+ <h2>Lifestyle & Specialty <span class="guides-category-count" data-total="5">(5 guides)</span></h2>
  </div>
   <div class="guides-featured-grid">
  <a href="/health-guides/performance-anxiety-treatment-guide/" class="guide-card guide-card--featured">
@@ -1968,7 +1973,7 @@ a:hover { text-decoration: underline; }.tdmd-container {
  <div class="guides-category-icon">
  <svg viewBox="0 0 24 24"><path d="M9 11H1l8 8 8-8h-8z"/><path d="M14.59 8L16 6.59l3 3L21.59 7 23 8.41l-3 3 3 3-1.41 1.41L19 12.41l-3 3L14.59 14l3-3-3-3z"/></svg>
  </div>
- <h2>At-Home Testing <span class="guides-category-count">(3 guides)</span></h2>
+ <h2>At-Home Testing <span class="guides-category-count" data-total="3">(3 guides)</span></h2>
  </div>
   <div class="guides-grid">
 
@@ -2408,6 +2413,16 @@ document.querySelectorAll('a[target="_blank"]').forEach(function(link) {
  var showSection = catMatches && (!query || visibleInSection > 0);
  section.style.display = showSection ? '' : 'none';
  totalVisible += visibleInSection;
+
+ var countEl = section.querySelector('.guides-category-count');
+ if (countEl) {
+ var total = countEl.getAttribute('data-total');
+ if (query) {
+ countEl.textContent = '(' + visibleInSection + ' of ' + total + ' shown)';
+ } else {
+ countEl.textContent = '(' + total + ' guides)';
+ }
+ }
  });
 
  if (noResults) {
