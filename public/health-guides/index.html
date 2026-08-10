@@ -315,27 +315,59 @@ a:hover { text-decoration: underline; }.tdmd-container {
  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
  gap: 1.25rem;
 }.guide-card {
+ position: relative;
  background: var(--tdmd-white);
  border: 1px solid var(--tdmd-border);
  border-radius: var(--tdmd-radius);
- padding: 0;
  overflow: hidden;
  transition: border-color 0.2s, box-shadow 0.2s;
  display: flex;
  flex-direction: column;
- text-decoration: none;
- color: inherit;
 }.guide-card:hover {
  border-color: var(--tdmd-teal);
  box-shadow: 0 4px 16px rgba(0, 62, 82, 0.08);
+}.guide-card-link {
+ display: flex;
+ flex-direction: column;
+ flex: 1;
  text-decoration: none;
+ color: inherit;
+}.guide-card-bookmark {
+ position: absolute;
+ top: 10px;
+ right: 10px;
+ z-index: 3;
+ width: 34px;
+ height: 34px;
+ border-radius: 50%;
+ background: rgba(255, 255, 255, 0.92);
+ border: 1px solid var(--tdmd-border);
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ cursor: pointer;
+ color: var(--tdmd-muted);
+ padding: 0;
+ transition: color 0.15s, border-color 0.15s, background 0.15s;
+}.guide-card-bookmark svg {
+ width: 17px;
+ height: 17px;
+}.guide-card-bookmark:hover {
+ border-color: var(--tdmd-teal);
+ color: var(--tdmd-teal);
+}.guide-card-bookmark[aria-pressed="true"] {
+ background: var(--tdmd-teal);
+ border-color: var(--tdmd-teal);
+ color: var(--tdmd-white);
+}.guide-card-bookmark[aria-pressed="true"] svg {
+ fill: currentColor;
 }.guide-card-title {
  font-size: 1.05rem;
  font-weight: 700;
  color: var(--tdmd-navy);
  margin-bottom: 0.5rem;
  line-height: 1.35;
-}.guide-card:hover.guide-card-title {
+}.guide-card:hover .guide-card-title {
  color: var(--tdmd-teal);
 }.guide-card-desc {
  font-size: 0.88rem;
@@ -659,6 +691,144 @@ a:hover { text-decoration: underline; }.tdmd-container {
  width: 100%;
 }
 
+/* ===== Seasonal banner ===== */.guides-seasonal-banner {
+ display: flex;
+ align-items: center;
+ gap: 0.85rem;
+ background: var(--tdmd-bg-soft);
+ border: 1px solid var(--tdmd-border);
+ border-radius: 14px;
+ padding: 0.85rem 1.1rem;
+ margin-bottom: 1.5rem;
+ text-decoration: none;
+ color: inherit;
+ transition: border-color 0.2s;
+}.guides-seasonal-banner:hover {
+ border-color: var(--tdmd-teal);
+ text-decoration: none;
+}.guides-seasonal-icon {
+ flex-shrink: 0;
+ width: 34px;
+ height: 34px;
+ border-radius: 50%;
+ background: var(--tdmd-white);
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}.guides-seasonal-icon svg {
+ width: 18px;
+ height: 18px;
+ color: var(--tdmd-teal);
+}.guides-seasonal-text {
+ flex: 1;
+ min-width: 0;
+}.guides-seasonal-label {
+ display: block;
+ font-size: 0.72rem;
+ font-weight: 700;
+ text-transform: uppercase;
+ letter-spacing: 0.5px;
+ color: var(--tdmd-teal);
+ margin-bottom: 0.15rem;
+}.guides-seasonal-title {
+ font-weight: 700;
+ color: var(--tdmd-navy);
+ font-size: 0.95rem;
+}.guides-seasonal-arrow {
+ flex-shrink: 0;
+ color: var(--tdmd-teal);
+}.guides-seasonal-arrow svg { width: 18px; height: 18px; }
+
+/* ===== Trending rail ===== */.guides-trending {
+ margin-bottom: 2rem;
+}.guides-trending-title {
+ font-size: 1.05rem;
+ margin-bottom: 0.9rem;
+ display: flex;
+ align-items: center;
+ gap: 0.4rem;
+}.guides-trending-scroll {
+ display: flex;
+ gap: 1rem;
+ overflow-x: auto;
+ padding-bottom: 0.5rem;
+ scroll-snap-type: x proximity;
+ -webkit-overflow-scrolling: touch;
+}.guides-trending-scroll::-webkit-scrollbar { height: 6px; }.guides-trending-scroll::-webkit-scrollbar-thumb { background: var(--tdmd-border); border-radius: 4px; }.guides-trending-card {
+ flex: 0 0 220px;
+ scroll-snap-align: start;
+ text-decoration: none;
+ color: inherit;
+ background: var(--tdmd-white);
+ border: 1px solid var(--tdmd-border);
+ border-radius: 14px;
+ overflow: hidden;
+ transition: border-color 0.2s, box-shadow 0.2s;
+}.guides-trending-card:hover {
+ border-color: var(--tdmd-teal);
+ box-shadow: 0 4px 14px rgba(0, 62, 82, 0.08);
+ text-decoration: none;
+}.guides-trending-thumb {
+ position: relative;
+ width: 100%;
+ height: 110px;
+ background: var(--tdmd-bg-soft);
+}.guides-trending-thumb img {
+ width: 100%;
+ height: 100%;
+ object-fit: cover;
+ display: block;
+}.guides-trending-rank {
+ position: absolute;
+ top: 8px;
+ left: 8px;
+ width: 24px;
+ height: 24px;
+ border-radius: 50%;
+ background: var(--tdmd-navy);
+ color: var(--tdmd-white);
+ font-size: 0.72rem;
+ font-weight: 700;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}.guides-trending-info {
+ padding: 0.7rem 0.85rem 0.85rem;
+}.guides-trending-name {
+ font-size: 0.85rem;
+ font-weight: 700;
+ color: var(--tdmd-navy);
+ line-height: 1.3;
+ margin-bottom: 0.3rem;
+ display: -webkit-box;
+ -webkit-box-orient: vertical;
+ -webkit-line-clamp: 2;
+ overflow: hidden;
+}.guides-trending-meta {
+ font-size: 0.72rem;
+ color: var(--tdmd-muted);
+}
+
+/* ===== Sort control ===== */.guides-sort-row {
+ display: flex;
+ align-items: center;
+ gap: 0.5rem;
+ margin: -0.5rem 0 1.25rem;
+}.guides-sort-row label {
+ font-size: 0.8rem;
+ color: var(--tdmd-muted);
+ font-weight: 600;
+}.guides-sort-select {
+ border: 1px solid var(--tdmd-border);
+ border-radius: 8px;
+ padding: 0.4rem 0.6rem;
+ font-family: var(--tdmd-font);
+ font-size: 0.82rem;
+ color: var(--tdmd-text);
+ background: var(--tdmd-white);
+ cursor: pointer;
+}.guides-sort-select:focus { outline: none; border-color: var(--tdmd-teal); }
+
 @media (max-width: 768px) {.tdmd-hamburger { display: flex; }.tdmd-nav-links {
  display: none;
  position: absolute;
@@ -671,7 +841,7 @@ a:hover { text-decoration: underline; }.tdmd-container {
  border-bottom: 1px solid var(--tdmd-border);
  gap: 0.75rem;
  box-shadow: 0 8px 24px rgba(0,0,0,0.08);
- }.tdmd-nav-links.active { display: flex; }.guides-hero h1 { font-size: 1.75rem; }.guides-hero-subtitle { font-size: 1rem; }.guides-grid { grid-template-columns: 1fr; }.guides-featured-grid { grid-template-columns: 1fr; }.guides-search { max-width: 100%; }.tdmd-footer-grid { grid-template-columns: 1fr; gap: 1.5rem; }.guides-about-principles { grid-template-columns: 1fr; }.guides-hero-meta { flex-direction: column; gap: 0.5rem; }
+ }.tdmd-nav-links.active { display: flex; }.guides-hero h1 { font-size: 1.75rem; }.guides-hero-subtitle { font-size: 1rem; }.guides-grid { grid-template-columns: 1fr; }.guides-featured-grid { grid-template-columns: 1fr; }.guides-search { max-width: 100%; }.tdmd-footer-grid { grid-template-columns: 1fr; gap: 1.5rem; }.guides-about-principles { grid-template-columns: 1fr; }.guides-hero-meta { flex-direction: column; gap: 0.5rem; }.guides-trending-card { flex: 0 0 168px; }.guides-trending-thumb { height: 90px; }.guides-seasonal-banner { flex-wrap: wrap; padding: 0.75rem 0.9rem; }.guides-seasonal-title { font-size: 0.88rem; }.guides-sort-row { flex-wrap: wrap; }.guide-card-bookmark { width: 30px; height: 30px; top: 8px; right: 8px; }.guide-card-bookmark svg { width: 15px; height: 15px; }
 }
 
 @media print {.tdmd-nav,.tdmd-footer { display: none; }
@@ -738,6 +908,93 @@ a:hover { text-decoration: underline; }.tdmd-container {
  </section>
 </div>
 
+<!-- Seasonal / Trending -->
+<div class="tdmd-container">
+ <a href="#" id="guidesSeasonalBanner" class="guides-seasonal-banner" hidden>
+  <span class="guides-seasonal-icon">
+   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+  </span>
+  <span class="guides-seasonal-text">
+   <span class="guides-seasonal-label">Relevant right now</span>
+   <span class="guides-seasonal-title" id="guidesSeasonalTitle"></span>
+  </span>
+  <span class="guides-seasonal-arrow">
+   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+  </span>
+ </a>
+
+ <section class="guides-trending">
+  <h2 class="guides-trending-title">🔥 Trending This Week</h2>
+  <div class="guides-trending-scroll">
+   <a href="/health-guides/cat-bite-treatment-guide/" class="guides-trending-card">
+    <div class="guides-trending-thumb">
+     <span class="guides-trending-rank">1</span>
+     <img src="/health-guides/cat-bite-treatment-guide/images/thumb-cat-bite-treatment-guide.webp" alt="Cat Bite Treatment" loading="lazy">
+    </div>
+    <div class="guides-trending-info">
+     <div class="guides-trending-name">Cat Bite Treatment</div>
+     <div class="guides-trending-meta">14 min read</div>
+    </div>
+   </a>
+
+   <a href="/health-guides/prednisone-dosing-poison-ivy-guide/" class="guides-trending-card">
+    <div class="guides-trending-thumb">
+     <span class="guides-trending-rank">2</span>
+     <img src="/health-guides/prednisone-dosing-poison-ivy-guide/images/thumb-prednisone-dosing-poison-ivy-guide.webp" alt="Prednisone Dosing for Poison Ivy" loading="lazy">
+    </div>
+    <div class="guides-trending-info">
+     <div class="guides-trending-name">Prednisone Dosing for Poison Ivy</div>
+     <div class="guides-trending-meta">10 min read</div>
+    </div>
+   </a>
+
+   <a href="/health-guides/poison-ivy-oak-treatment-guide/" class="guides-trending-card">
+    <div class="guides-trending-thumb">
+     <span class="guides-trending-rank">3</span>
+     <img src="/health-guides/poison-ivy-oak-treatment-guide/images/thumb-poison-ivy-oak-treatment-guide.webp" alt="Poison Ivy, Oak &amp; Sumac" loading="lazy">
+    </div>
+    <div class="guides-trending-info">
+     <div class="guides-trending-name">Poison Ivy, Oak &amp; Sumac</div>
+     <div class="guides-trending-meta">14 min read</div>
+    </div>
+   </a>
+
+   <a href="/health-guides/cyclosporiasis-outbreak-2026-guide/" class="guides-trending-card">
+    <div class="guides-trending-thumb">
+     <span class="guides-trending-rank">4</span>
+     <img src="/health-guides/cyclosporiasis-outbreak-2026-guide/images/thumb-cyclosporiasis-outbreak-2026-guide.webp" alt="Cyclosporiasis Outbreak 2026" loading="lazy">
+    </div>
+    <div class="guides-trending-info">
+     <div class="guides-trending-name">Cyclosporiasis Outbreak 2026</div>
+     <div class="guides-trending-meta">9 min read</div>
+    </div>
+   </a>
+
+   <a href="/health-guides/azo-home-uti-test-strips-review/" class="guides-trending-card">
+    <div class="guides-trending-thumb">
+     <span class="guides-trending-rank">5</span>
+     <img src="/health-guides/azo-home-uti-test-strips-review/images/thumb-azo-home-uti-test-strips-review.webp" alt="AZO Home UTI Test Strips Review" loading="lazy">
+    </div>
+    <div class="guides-trending-info">
+     <div class="guides-trending-name">AZO Home UTI Test Strips Review</div>
+     <div class="guides-trending-meta">10 min read</div>
+    </div>
+   </a>
+
+   <a href="/health-guides/performance-anxiety-treatment-guide/" class="guides-trending-card">
+    <div class="guides-trending-thumb">
+     <span class="guides-trending-rank">6</span>
+     <img src="/health-guides/performance-anxiety-treatment-guide/images/thumb-performance-anxiety-treatment-guide.webp" alt="Performance Anxiety Treatment" loading="lazy">
+    </div>
+    <div class="guides-trending-info">
+     <div class="guides-trending-name">Performance Anxiety Treatment</div>
+     <div class="guides-trending-meta">16 min read</div>
+    </div>
+   </a>
+  </div>
+ </section>
+</div>
+
 <!-- Filter and Search -->
 <div class="tdmd-container">
  <div class="guides-filter-bar">
@@ -747,6 +1004,7 @@ a:hover { text-decoration: underline; }.tdmd-container {
   </div>
   <div class="guides-pills" id="guidesPills" role="group" aria-label="Filter guides by category">
                 <button type="button" class="guides-pill guides-pill-active" data-cat="all" aria-pressed="true">All Guides <span class="guides-pill-count">(65)</span></button>
+                <button type="button" class="guides-pill" data-cat="saved" aria-pressed="false">🔖 Saved <span class="guides-pill-count" id="guidesSavedCount">(0)</span></button>
                 <button type="button" class="guides-pill" data-cat="acute-and-urgent-care" aria-pressed="false">Acute & Urgent Care <span class="guides-pill-count">(24)</span></button>
                 <button type="button" class="guides-pill" data-cat="skin-conditions" aria-pressed="false">Skin Conditions <span class="guides-pill-count">(13)</span></button>
                 <button type="button" class="guides-pill" data-cat="sexual-health-and-stis" aria-pressed="false">Sexual Health & STIs <span class="guides-pill-count">(3)</span></button>
@@ -758,6 +1016,15 @@ a:hover { text-decoration: underline; }.tdmd-container {
   </div>
  </div>
  <p class="guides-no-results" id="guidesNoResults" hidden>No guides match &ldquo;<span id="guidesNoResultsQuery"></span>&rdquo;. Try a different term.</p>
+ <div class="guides-sort-row">
+  <label for="guidesSort">Sort:</label>
+  <select id="guidesSort" class="guides-sort-select">
+   <option value="default">Curated order</option>
+   <option value="popular">Most popular</option>
+   <option value="recent">Recently updated</option>
+   <option value="az">A to Z</option>
+  </select>
+ </div>
 </div>
 
 <!-- Category: Acute & Urgent Care -->
@@ -770,7 +1037,11 @@ a:hover { text-decoration: underline; }.tdmd-container {
  <h2>Acute & Urgent Care <span class="guides-category-count" data-total="24">(24 guides)</span></h2>
  </div>
   <div class="guides-featured-grid">
- <a href="/health-guides/wildfire-smoke-health-guide/" class="guide-card guide-card--featured" style="border-top:4px solid #C4551E;">
+ <div class="guide-card guide-card--featured" style="border-top:4px solid #C4551E;" data-slug="wildfire-smoke-health-guide" data-clicks="0" data-reviewed="2026-08-05">
+ <button type="button" class="guide-card-bookmark" data-slug="wildfire-smoke-health-guide" aria-pressed="false" aria-label="Save Wildfire Smoke and Your Health for later">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 012-2h10a2 2 0 012 2z"/></svg>
+ </button>
+ <a href="/health-guides/wildfire-smoke-health-guide/" class="guide-card-link">
   <div class="guide-card-thumb">
    <img src="/health-guides/wildfire-smoke-health-guide/images/thumb-wildfire-smoke-health-guide.webp" alt="Wildfire Smoke and Your Health" loading="lazy">
   </div>
@@ -784,15 +1055,20 @@ a:hover { text-decoration: underline; }.tdmd-container {
      16 min
     </div>
     <div class="guide-card-meta-item">
-     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
-     Aug 2026
+     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4"/><path d="M21 12c0 4.97-4.03 9-9 9s-9-4.03-9-9 4.03-9 9-9 9 4.03 9 9z"/></svg>
+     Reviewed Aug 2026
     </div>
    </div>
    <div class="guide-card-arrow">Read guide <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></div>
   </div>
  </a>
+</div>
 
- <a href="/health-guides/cyclosporiasis-outbreak-2026-guide/" class="guide-card guide-card--featured" style="border-top:4px solid #ff5a36;">
+ <div class="guide-card guide-card--featured" style="border-top:4px solid #ff5a36;" data-slug="cyclosporiasis-outbreak-2026-guide" data-clicks="530" data-reviewed="2026-08-05">
+ <button type="button" class="guide-card-bookmark" data-slug="cyclosporiasis-outbreak-2026-guide" aria-pressed="false" aria-label="Save Cyclosporiasis Outbreak 2026 for later">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 012-2h10a2 2 0 012 2z"/></svg>
+ </button>
+ <a href="/health-guides/cyclosporiasis-outbreak-2026-guide/" class="guide-card-link">
   <div class="guide-card-thumb">
    <img src="/health-guides/cyclosporiasis-outbreak-2026-guide/images/thumb-cyclosporiasis-outbreak-2026-guide.webp" alt="Cyclosporiasis Outbreak 2026" loading="lazy">
   </div>
@@ -806,15 +1082,20 @@ a:hover { text-decoration: underline; }.tdmd-container {
      9 min
     </div>
     <div class="guide-card-meta-item">
-     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
-     Jul 2026
+     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4"/><path d="M21 12c0 4.97-4.03 9-9 9s-9-4.03-9-9 4.03-9 9-9 9 4.03 9 9z"/></svg>
+     Reviewed Aug 2026
     </div>
    </div>
    <div class="guide-card-arrow">Read guide <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></div>
   </div>
  </a>
+</div>
 
- <a href="/health-guides/cat-bite-treatment-guide/" class="guide-card guide-card--featured">
+ <div class="guide-card guide-card--featured" data-slug="cat-bite-treatment-guide" data-clicks="3521" data-reviewed="2026-07-14">
+ <button type="button" class="guide-card-bookmark" data-slug="cat-bite-treatment-guide" aria-pressed="false" aria-label="Save Cat Bite Treatment for later">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 012-2h10a2 2 0 012 2z"/></svg>
+ </button>
+ <a href="/health-guides/cat-bite-treatment-guide/" class="guide-card-link">
   <div class="guide-card-thumb">
    <img src="/health-guides/cat-bite-treatment-guide/images/thumb-cat-bite-treatment-guide.webp" alt="Cat Bite Treatment" loading="lazy">
   </div>
@@ -828,19 +1109,24 @@ a:hover { text-decoration: underline; }.tdmd-container {
      14 min
     </div>
     <div class="guide-card-meta-item">
-     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
-     Mar 2026
+     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4"/><path d="M21 12c0 4.97-4.03 9-9 9s-9-4.03-9-9 4.03-9 9-9 9 4.03 9 9z"/></svg>
+     Reviewed Jul 2026
     </div>
    </div>
    <div class="guide-card-arrow">Read guide <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></div>
   </div>
  </a>
+</div>
 
   </div>
 
   <div class="guides-grid">
 
- <a href="/health-guides/urinary-tract-infection-uti-guide/" class="guide-card">
+ <div class="guide-card" data-slug="urinary-tract-infection-uti-guide" data-clicks="10" data-reviewed="2026-08-05">
+ <button type="button" class="guide-card-bookmark" data-slug="urinary-tract-infection-uti-guide" aria-pressed="false" aria-label="Save Urinary Tract Infections (UTIs) for later">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 012-2h10a2 2 0 012 2z"/></svg>
+ </button>
+ <a href="/health-guides/urinary-tract-infection-uti-guide/" class="guide-card-link">
   <div class="guide-card-thumb guide-card-thumb--sm">
    <img src="/health-guides/urinary-tract-infection-uti-guide/images/thumb-urinary-tract-infection-uti-guide.webp" alt="Urinary Tract Infections (UTIs)" loading="lazy">
   </div>
@@ -854,15 +1140,20 @@ a:hover { text-decoration: underline; }.tdmd-container {
      14 min
     </div>
     <div class="guide-card-meta-item">
-     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
-     Dec 2025
+     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4"/><path d="M21 12c0 4.97-4.03 9-9 9s-9-4.03-9-9 4.03-9 9-9 9 4.03 9 9z"/></svg>
+     Reviewed Aug 2026
     </div>
    </div>
    <div class="guide-card-arrow">Read guide <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></div>
   </div>
  </a>
+</div>
 
- <a href="/health-guides/at-home-uti-test-guide/" class="guide-card">
+ <div class="guide-card" data-slug="at-home-uti-test-guide" data-clicks="1" data-reviewed="2026-07-24">
+ <button type="button" class="guide-card-bookmark" data-slug="at-home-uti-test-guide" aria-pressed="false" aria-label="Save At-Home UTI Tests: Do They Actually Work? for later">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 012-2h10a2 2 0 012 2z"/></svg>
+ </button>
+ <a href="/health-guides/at-home-uti-test-guide/" class="guide-card-link">
   <div class="guide-card-thumb guide-card-thumb--sm">
    <img src="/health-guides/at-home-uti-test-guide/images/thumb-at-home-uti-test-guide.webp" alt="At-Home UTI Tests: Do They Actually Work?" loading="lazy">
   </div>
@@ -876,15 +1167,20 @@ a:hover { text-decoration: underline; }.tdmd-container {
      15 min
     </div>
     <div class="guide-card-meta-item">
-     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
-     Jul 2026
+     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4"/><path d="M21 12c0 4.97-4.03 9-9 9s-9-4.03-9-9 4.03-9 9-9 9 4.03 9 9z"/></svg>
+     Reviewed Jul 2026
     </div>
    </div>
    <div class="guide-card-arrow">Read guide <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></div>
   </div>
  </a>
+</div>
 
- <a href="/health-guides/d-mannose-uti-guide/" class="guide-card">
+ <div class="guide-card" data-slug="d-mannose-uti-guide" data-clicks="24" data-reviewed="2026-07-23">
+ <button type="button" class="guide-card-bookmark" data-slug="d-mannose-uti-guide" aria-pressed="false" aria-label="Save D-Mannose for UTIs: Does It Work? for later">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 012-2h10a2 2 0 012 2z"/></svg>
+ </button>
+ <a href="/health-guides/d-mannose-uti-guide/" class="guide-card-link">
   <div class="guide-card-thumb guide-card-thumb--sm">
    <img src="/health-guides/d-mannose-uti-guide/images/thumb-d-mannose-uti-guide.webp" alt="D-Mannose for UTIs: Does It Work?" loading="lazy">
   </div>
@@ -898,15 +1194,20 @@ a:hover { text-decoration: underline; }.tdmd-container {
      14 min
     </div>
     <div class="guide-card-meta-item">
-     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
-     Jul 2026
+     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4"/><path d="M21 12c0 4.97-4.03 9-9 9s-9-4.03-9-9 4.03-9 9-9 9 4.03 9 9z"/></svg>
+     Reviewed Jul 2026
     </div>
    </div>
    <div class="guide-card-arrow">Read guide <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></div>
   </div>
  </a>
+</div>
 
- <a href="/health-guides/sinus-infection-guide/" class="guide-card">
+ <div class="guide-card" data-slug="sinus-infection-guide" data-clicks="22" data-reviewed="2026-07-14">
+ <button type="button" class="guide-card-bookmark" data-slug="sinus-infection-guide" aria-pressed="false" aria-label="Save Sinus Infections (Sinusitis) for later">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 012-2h10a2 2 0 012 2z"/></svg>
+ </button>
+ <a href="/health-guides/sinus-infection-guide/" class="guide-card-link">
   <div class="guide-card-thumb guide-card-thumb--sm">
    <img src="/health-guides/sinus-infection-guide/images/thumb-sinus-infection-guide.webp" alt="Sinus Infections (Sinusitis)" loading="lazy">
   </div>
@@ -920,15 +1221,20 @@ a:hover { text-decoration: underline; }.tdmd-container {
      13 min
     </div>
     <div class="guide-card-meta-item">
-     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
-     Dec 2025
+     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4"/><path d="M21 12c0 4.97-4.03 9-9 9s-9-4.03-9-9 4.03-9 9-9 9 4.03 9 9z"/></svg>
+     Reviewed Jul 2026
     </div>
    </div>
    <div class="guide-card-arrow">Read guide <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></div>
   </div>
  </a>
+</div>
 
- <a href="/health-guides/cold-and-flu-guide/" class="guide-card">
+ <div class="guide-card" data-slug="cold-and-flu-guide" data-clicks="9" data-reviewed="2026-07-14">
+ <button type="button" class="guide-card-bookmark" data-slug="cold-and-flu-guide" aria-pressed="false" aria-label="Save Common Cold &amp; Influenza (Flu) for later">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 012-2h10a2 2 0 012 2z"/></svg>
+ </button>
+ <a href="/health-guides/cold-and-flu-guide/" class="guide-card-link">
   <div class="guide-card-thumb guide-card-thumb--sm">
    <img src="/health-guides/cold-and-flu-guide/images/thumb-cold-and-flu-guide.webp" alt="Common Cold &amp; Influenza (Flu)" loading="lazy">
   </div>
@@ -942,15 +1248,20 @@ a:hover { text-decoration: underline; }.tdmd-container {
      15 min
     </div>
     <div class="guide-card-meta-item">
-     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
-     Dec 2025
+     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4"/><path d="M21 12c0 4.97-4.03 9-9 9s-9-4.03-9-9 4.03-9 9-9 9 4.03 9 9z"/></svg>
+     Reviewed Jul 2026
     </div>
    </div>
    <div class="guide-card-arrow">Read guide <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></div>
   </div>
  </a>
+</div>
 
- <a href="/health-guides/covid-19-paxlovid-treatment-guide/" class="guide-card">
+ <div class="guide-card" data-slug="covid-19-paxlovid-treatment-guide" data-clicks="12" data-reviewed="2026-07-14">
+ <button type="button" class="guide-card-bookmark" data-slug="covid-19-paxlovid-treatment-guide" aria-pressed="false" aria-label="Save COVID-19 &amp; Paxlovid Treatment for later">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 012-2h10a2 2 0 012 2z"/></svg>
+ </button>
+ <a href="/health-guides/covid-19-paxlovid-treatment-guide/" class="guide-card-link">
   <div class="guide-card-thumb guide-card-thumb--sm">
    <img src="/health-guides/covid-19-paxlovid-treatment-guide/images/thumb-covid-19-paxlovid-treatment-guide.webp" alt="COVID-19 &amp; Paxlovid Treatment" loading="lazy">
   </div>
@@ -964,15 +1275,20 @@ a:hover { text-decoration: underline; }.tdmd-container {
      12 min
     </div>
     <div class="guide-card-meta-item">
-     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
-     Aug 2026
+     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4"/><path d="M21 12c0 4.97-4.03 9-9 9s-9-4.03-9-9 4.03-9 9-9 9 4.03 9 9z"/></svg>
+     Reviewed Jul 2026
     </div>
    </div>
    <div class="guide-card-arrow">Read guide <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></div>
   </div>
  </a>
+</div>
 
- <a href="/health-guides/ear-infection-guide/" class="guide-card">
+ <div class="guide-card" data-slug="ear-infection-guide" data-clicks="17" data-reviewed="2026-07-14">
+ <button type="button" class="guide-card-bookmark" data-slug="ear-infection-guide" aria-pressed="false" aria-label="Save Ear Infections (Otitis Media &amp; Externa) for later">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 012-2h10a2 2 0 012 2z"/></svg>
+ </button>
+ <a href="/health-guides/ear-infection-guide/" class="guide-card-link">
   <div class="guide-card-thumb guide-card-thumb--sm">
    <img src="/health-guides/ear-infection-guide/images/thumb-ear-infection-guide.webp" alt="Ear Infections (Otitis Media &amp; Externa)" loading="lazy">
   </div>
@@ -986,15 +1302,20 @@ a:hover { text-decoration: underline; }.tdmd-container {
      16 min
     </div>
     <div class="guide-card-meta-item">
-     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
-     Jan 2026
+     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4"/><path d="M21 12c0 4.97-4.03 9-9 9s-9-4.03-9-9 4.03-9 9-9 9 4.03 9 9z"/></svg>
+     Reviewed Jul 2026
     </div>
    </div>
    <div class="guide-card-arrow">Read guide <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></div>
   </div>
  </a>
+</div>
 
- <a href="/health-guides/seasonal-allergies-guide/" class="guide-card">
+ <div class="guide-card" data-slug="seasonal-allergies-guide" data-clicks="25" data-reviewed="2026-07-14">
+ <button type="button" class="guide-card-bookmark" data-slug="seasonal-allergies-guide" aria-pressed="false" aria-label="Save Seasonal Allergies (Allergic Rhinitis) for later">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 012-2h10a2 2 0 012 2z"/></svg>
+ </button>
+ <a href="/health-guides/seasonal-allergies-guide/" class="guide-card-link">
   <div class="guide-card-thumb guide-card-thumb--sm">
    <img src="/health-guides/seasonal-allergies-guide/images/thumb-seasonal-allergies-guide.webp" alt="Seasonal Allergies (Allergic Rhinitis)" loading="lazy">
   </div>
@@ -1008,15 +1329,20 @@ a:hover { text-decoration: underline; }.tdmd-container {
      14 min
     </div>
     <div class="guide-card-meta-item">
-     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
-     Jan 2026
+     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4"/><path d="M21 12c0 4.97-4.03 9-9 9s-9-4.03-9-9 4.03-9 9-9 9 4.03 9 9z"/></svg>
+     Reviewed Jul 2026
     </div>
    </div>
    <div class="guide-card-arrow">Read guide <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></div>
   </div>
  </a>
+</div>
 
- <a href="/health-guides/cold-sores-hsv1-guide/" class="guide-card">
+ <div class="guide-card" data-slug="cold-sores-hsv1-guide" data-clicks="117" data-reviewed="2026-07-14">
+ <button type="button" class="guide-card-bookmark" data-slug="cold-sores-hsv1-guide" aria-pressed="false" aria-label="Save Cold Sores (HSV-1) for later">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 012-2h10a2 2 0 012 2z"/></svg>
+ </button>
+ <a href="/health-guides/cold-sores-hsv1-guide/" class="guide-card-link">
   <div class="guide-card-thumb guide-card-thumb--sm">
    <img src="/health-guides/cold-sores-hsv1-guide/images/thumb-cold-sores-hsv1-guide.webp" alt="Cold Sores (HSV-1)" loading="lazy">
   </div>
@@ -1030,15 +1356,20 @@ a:hover { text-decoration: underline; }.tdmd-container {
      13 min
     </div>
     <div class="guide-card-meta-item">
-     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
-     Jan 2026
+     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4"/><path d="M21 12c0 4.97-4.03 9-9 9s-9-4.03-9-9 4.03-9 9-9 9 4.03 9 9z"/></svg>
+     Reviewed Jul 2026
     </div>
    </div>
    <div class="guide-card-arrow">Read guide <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></div>
   </div>
  </a>
+</div>
 
- <a href="/health-guides/pink-eye-conjunctivitis-guide/" class="guide-card">
+ <div class="guide-card" data-slug="pink-eye-conjunctivitis-guide" data-clicks="2" data-reviewed="2026-07-14">
+ <button type="button" class="guide-card-bookmark" data-slug="pink-eye-conjunctivitis-guide" aria-pressed="false" aria-label="Save Pink Eye (Conjunctivitis) for later">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 012-2h10a2 2 0 012 2z"/></svg>
+ </button>
+ <a href="/health-guides/pink-eye-conjunctivitis-guide/" class="guide-card-link">
   <div class="guide-card-thumb guide-card-thumb--sm">
    <img src="/health-guides/pink-eye-conjunctivitis-guide/images/thumb-pink-eye-conjunctivitis-guide.webp" alt="Pink Eye (Conjunctivitis)" loading="lazy">
   </div>
@@ -1052,15 +1383,20 @@ a:hover { text-decoration: underline; }.tdmd-container {
      13 min
     </div>
     <div class="guide-card-meta-item">
-     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
-     Feb 2026
+     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4"/><path d="M21 12c0 4.97-4.03 9-9 9s-9-4.03-9-9 4.03-9 9-9 9 4.03 9 9z"/></svg>
+     Reviewed Jul 2026
     </div>
    </div>
    <div class="guide-card-arrow">Read guide <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></div>
   </div>
  </a>
+</div>
 
- <a href="/health-guides/sore-throat-guide/" class="guide-card">
+ <div class="guide-card" data-slug="sore-throat-guide" data-clicks="20" data-reviewed="2026-07-14">
+ <button type="button" class="guide-card-bookmark" data-slug="sore-throat-guide" aria-pressed="false" aria-label="Save Sore Throat (Pharyngitis) for later">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 012-2h10a2 2 0 012 2z"/></svg>
+ </button>
+ <a href="/health-guides/sore-throat-guide/" class="guide-card-link">
   <div class="guide-card-thumb guide-card-thumb--sm">
    <img src="/health-guides/sore-throat-guide/images/thumb-sore-throat-guide.webp" alt="Sore Throat (Pharyngitis)" loading="lazy">
   </div>
@@ -1074,15 +1410,20 @@ a:hover { text-decoration: underline; }.tdmd-container {
      14 min
     </div>
     <div class="guide-card-meta-item">
-     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
-     Jan 2026
+     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4"/><path d="M21 12c0 4.97-4.03 9-9 9s-9-4.03-9-9 4.03-9 9-9 9 4.03 9 9z"/></svg>
+     Reviewed Jul 2026
     </div>
    </div>
    <div class="guide-card-arrow">Read guide <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></div>
   </div>
  </a>
+</div>
 
- <a href="/health-guides/cellulitis-guide/" class="guide-card">
+ <div class="guide-card" data-slug="cellulitis-guide" data-clicks="63" data-reviewed="2026-07-14">
+ <button type="button" class="guide-card-bookmark" data-slug="cellulitis-guide" aria-pressed="false" aria-label="Save Cellulitis (Skin Infection) for later">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 012-2h10a2 2 0 012 2z"/></svg>
+ </button>
+ <a href="/health-guides/cellulitis-guide/" class="guide-card-link">
   <div class="guide-card-thumb guide-card-thumb--sm">
    <img src="/health-guides/cellulitis-guide/images/thumb-cellulitis-guide.webp" alt="Cellulitis (Skin Infection)" loading="lazy">
   </div>
@@ -1096,15 +1437,20 @@ a:hover { text-decoration: underline; }.tdmd-container {
      13 min
     </div>
     <div class="guide-card-meta-item">
-     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
-     Mar 2026
+     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4"/><path d="M21 12c0 4.97-4.03 9-9 9s-9-4.03-9-9 4.03-9 9-9 9 4.03 9 9z"/></svg>
+     Reviewed Jul 2026
     </div>
    </div>
    <div class="guide-card-arrow">Read guide <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></div>
   </div>
  </a>
+</div>
 
- <a href="/health-guides/shingles-guide/" class="guide-card">
+ <div class="guide-card" data-slug="shingles-guide" data-clicks="53" data-reviewed="2026-08-10">
+ <button type="button" class="guide-card-bookmark" data-slug="shingles-guide" aria-pressed="false" aria-label="Save Shingles (Herpes Zoster) for later">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 012-2h10a2 2 0 012 2z"/></svg>
+ </button>
+ <a href="/health-guides/shingles-guide/" class="guide-card-link">
   <div class="guide-card-thumb guide-card-thumb--sm">
    <img src="/health-guides/shingles-guide/images/thumb-shingles-guide.webp" alt="Shingles (Herpes Zoster)" loading="lazy">
   </div>
@@ -1118,15 +1464,20 @@ a:hover { text-decoration: underline; }.tdmd-container {
      14 min
     </div>
     <div class="guide-card-meta-item">
-     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
-     Aug 2026
+     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4"/><path d="M21 12c0 4.97-4.03 9-9 9s-9-4.03-9-9 4.03-9 9-9 9 4.03 9 9z"/></svg>
+     Reviewed Aug 2026
     </div>
    </div>
    <div class="guide-card-arrow">Read guide <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></div>
   </div>
  </a>
+</div>
 
- <a href="/health-guides/shingles-vaccine-guide/" class="guide-card">
+ <div class="guide-card" data-slug="shingles-vaccine-guide" data-clicks="0" data-reviewed="2026-08-10">
+ <button type="button" class="guide-card-bookmark" data-slug="shingles-vaccine-guide" aria-pressed="false" aria-label="Save Shingrix Vaccine Guide for later">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 012-2h10a2 2 0 012 2z"/></svg>
+ </button>
+ <a href="/health-guides/shingles-vaccine-guide/" class="guide-card-link">
   <div class="guide-card-thumb guide-card-thumb--sm">
    <img src="/health-guides/shingles-vaccine-guide/images/thumb-shingles-vaccine-guide.webp" alt="Shingrix Vaccine Guide" loading="lazy">
   </div>
@@ -1140,15 +1491,20 @@ a:hover { text-decoration: underline; }.tdmd-container {
      11 min
     </div>
     <div class="guide-card-meta-item">
-     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
-     Aug 2026
+     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4"/><path d="M21 12c0 4.97-4.03 9-9 9s-9-4.03-9-9 4.03-9 9-9 9 4.03 9 9z"/></svg>
+     Reviewed Aug 2026
     </div>
    </div>
    <div class="guide-card-arrow">Read guide <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></div>
   </div>
  </a>
+</div>
 
- <a href="/health-guides/shingles-antiviral-window-guide/" class="guide-card">
+ <div class="guide-card" data-slug="shingles-antiviral-window-guide" data-clicks="0" data-reviewed="2026-08-10">
+ <button type="button" class="guide-card-bookmark" data-slug="shingles-antiviral-window-guide" aria-pressed="false" aria-label="Save Shingles Antiviral Window for later">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 012-2h10a2 2 0 012 2z"/></svg>
+ </button>
+ <a href="/health-guides/shingles-antiviral-window-guide/" class="guide-card-link">
   <div class="guide-card-thumb guide-card-thumb--sm">
    <img src="/health-guides/shingles-antiviral-window-guide/images/thumb-shingles-antiviral-window-guide.webp" alt="Shingles Antiviral Window" loading="lazy">
   </div>
@@ -1162,15 +1518,20 @@ a:hover { text-decoration: underline; }.tdmd-container {
      11 min
     </div>
     <div class="guide-card-meta-item">
-     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
-     Aug 2026
+     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4"/><path d="M21 12c0 4.97-4.03 9-9 9s-9-4.03-9-9 4.03-9 9-9 9 4.03 9 9z"/></svg>
+     Reviewed Aug 2026
     </div>
    </div>
    <div class="guide-card-arrow">Read guide <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></div>
   </div>
  </a>
+</div>
 
- <a href="/health-guides/gout-guide/" class="guide-card">
+ <div class="guide-card" data-slug="gout-guide" data-clicks="0" data-reviewed="2026-08-09">
+ <button type="button" class="guide-card-bookmark" data-slug="gout-guide" aria-pressed="false" aria-label="Save Gout: Complete Guide 2026 for later">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 012-2h10a2 2 0 012 2z"/></svg>
+ </button>
+ <a href="/health-guides/gout-guide/" class="guide-card-link">
   <div class="guide-card-thumb guide-card-thumb--sm">
    <img src="/health-guides/gout-guide/images/thumb-gout-guide.webp" alt="Gout: Complete Guide 2026" loading="lazy">
   </div>
@@ -1184,15 +1545,20 @@ a:hover { text-decoration: underline; }.tdmd-container {
      15 min
     </div>
     <div class="guide-card-meta-item">
-     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
-     Jan 2026
+     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4"/><path d="M21 12c0 4.97-4.03 9-9 9s-9-4.03-9-9 4.03-9 9-9 9 4.03 9 9z"/></svg>
+     Reviewed Aug 2026
     </div>
    </div>
    <div class="guide-card-arrow">Read guide <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></div>
   </div>
  </a>
+</div>
 
- <a href="/health-guides/dental-pain-guide/" class="guide-card">
+ <div class="guide-card" data-slug="dental-pain-guide" data-clicks="15" data-reviewed="2026-07-14">
+ <button type="button" class="guide-card-bookmark" data-slug="dental-pain-guide" aria-pressed="false" aria-label="Save Dental Pain for later">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 012-2h10a2 2 0 012 2z"/></svg>
+ </button>
+ <a href="/health-guides/dental-pain-guide/" class="guide-card-link">
   <div class="guide-card-thumb guide-card-thumb--sm">
    <img src="/health-guides/dental-pain-guide/images/thumb-dental-pain-guide.webp" alt="Dental Pain" loading="lazy">
   </div>
@@ -1206,15 +1572,20 @@ a:hover { text-decoration: underline; }.tdmd-container {
      14 min
     </div>
     <div class="guide-card-meta-item">
-     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
-     Mar 2026
+     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4"/><path d="M21 12c0 4.97-4.03 9-9 9s-9-4.03-9-9 4.03-9 9-9 9 4.03 9 9z"/></svg>
+     Reviewed Jul 2026
     </div>
    </div>
    <div class="guide-card-arrow">Read guide <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></div>
   </div>
  </a>
+</div>
 
- <a href="/health-guides/tick-bite-treatment-guide/" class="guide-card">
+ <div class="guide-card" data-slug="tick-bite-treatment-guide" data-clicks="0" data-reviewed="2026-07-16">
+ <button type="button" class="guide-card-bookmark" data-slug="tick-bite-treatment-guide" aria-pressed="false" aria-label="Save Tick Bite & Lyme Prevention for later">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 012-2h10a2 2 0 012 2z"/></svg>
+ </button>
+ <a href="/health-guides/tick-bite-treatment-guide/" class="guide-card-link">
   <div class="guide-card-thumb guide-card-thumb--sm">
    <img src="/health-guides/tick-bite-treatment-guide/images/thumb-tick-bite-treatment-guide.webp" alt="Tick Bite & Lyme Prevention" loading="lazy">
   </div>
@@ -1228,15 +1599,20 @@ a:hover { text-decoration: underline; }.tdmd-container {
      15 min
     </div>
     <div class="guide-card-meta-item">
-     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
-     Jan 2026
+     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4"/><path d="M21 12c0 4.97-4.03 9-9 9s-9-4.03-9-9 4.03-9 9-9 9 4.03 9 9z"/></svg>
+     Reviewed Jul 2026
     </div>
    </div>
    <div class="guide-card-arrow">Read guide <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></div>
   </div>
  </a>
+</div>
 
- <a href="/health-guides/dog-bite-treatment-guide/" class="guide-card">
+ <div class="guide-card" data-slug="dog-bite-treatment-guide" data-clicks="23" data-reviewed="2026-07-14">
+ <button type="button" class="guide-card-bookmark" data-slug="dog-bite-treatment-guide" aria-pressed="false" aria-label="Save Dog Bite Treatment for later">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 012-2h10a2 2 0 012 2z"/></svg>
+ </button>
+ <a href="/health-guides/dog-bite-treatment-guide/" class="guide-card-link">
   <div class="guide-card-thumb guide-card-thumb--sm">
    <img src="/health-guides/dog-bite-treatment-guide/images/thumb-dog-bite-treatment-guide.webp" alt="Dog Bite Treatment" loading="lazy">
   </div>
@@ -1250,15 +1626,20 @@ a:hover { text-decoration: underline; }.tdmd-container {
      14 min
     </div>
     <div class="guide-card-meta-item">
-     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
-     Mar 2026
+     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4"/><path d="M21 12c0 4.97-4.03 9-9 9s-9-4.03-9-9 4.03-9 9-9 9 4.03 9 9z"/></svg>
+     Reviewed Jul 2026
     </div>
    </div>
    <div class="guide-card-arrow">Read guide <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></div>
   </div>
  </a>
+</div>
 
- <a href="/health-guides/motion-sickness-treatment-guide/" class="guide-card">
+ <div class="guide-card" data-slug="motion-sickness-treatment-guide" data-clicks="6" data-reviewed="2026-07-14">
+ <button type="button" class="guide-card-bookmark" data-slug="motion-sickness-treatment-guide" aria-pressed="false" aria-label="Save Motion Sickness for later">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 012-2h10a2 2 0 012 2z"/></svg>
+ </button>
+ <a href="/health-guides/motion-sickness-treatment-guide/" class="guide-card-link">
   <div class="guide-card-thumb guide-card-thumb--sm">
    <img src="/health-guides/motion-sickness-treatment-guide/images/thumb-motion-sickness-treatment-guide.webp" alt="Motion Sickness" loading="lazy">
   </div>
@@ -1272,15 +1653,20 @@ a:hover { text-decoration: underline; }.tdmd-container {
      15 min
     </div>
     <div class="guide-card-meta-item">
-     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
-     Mar 2026
+     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4"/><path d="M21 12c0 4.97-4.03 9-9 9s-9-4.03-9-9 4.03-9 9-9 9 4.03 9 9z"/></svg>
+     Reviewed Jul 2026
     </div>
    </div>
    <div class="guide-card-arrow">Read guide <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></div>
   </div>
  </a>
+</div>
 
- <a href="/health-guides/epinephrine-auto-injector-guide/" class="guide-card">
+ <div class="guide-card" data-slug="epinephrine-auto-injector-guide" data-clicks="3" data-reviewed="2026-07-14">
+ <button type="button" class="guide-card-bookmark" data-slug="epinephrine-auto-injector-guide" aria-pressed="false" aria-label="Save Epinephrine Auto-Injector (EpiPen) for later">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 012-2h10a2 2 0 012 2z"/></svg>
+ </button>
+ <a href="/health-guides/epinephrine-auto-injector-guide/" class="guide-card-link">
   <div class="guide-card-thumb guide-card-thumb--sm">
    <img src="/health-guides/epinephrine-auto-injector-guide/images/thumb-epinephrine-auto-injector-guide.webp" alt="Epinephrine Auto-Injector (EpiPen)" loading="lazy">
   </div>
@@ -1294,13 +1680,14 @@ a:hover { text-decoration: underline; }.tdmd-container {
      16 min
     </div>
     <div class="guide-card-meta-item">
-     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
-     Mar 2026
+     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4"/><path d="M21 12c0 4.97-4.03 9-9 9s-9-4.03-9-9 4.03-9 9-9 9 4.03 9 9z"/></svg>
+     Reviewed Jul 2026
     </div>
    </div>
    <div class="guide-card-arrow">Read guide <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></div>
   </div>
  </a>
+</div>
 
   </div>
  </section>
@@ -1316,7 +1703,11 @@ a:hover { text-decoration: underline; }.tdmd-container {
  <h2>Skin Conditions <span class="guides-category-count" data-total="13">(13 guides)</span></h2>
  </div>
   <div class="guides-featured-grid">
- <a href="/health-guides/poison-ivy-oak-treatment-guide/" class="guide-card guide-card--featured">
+ <div class="guide-card guide-card--featured" data-slug="poison-ivy-oak-treatment-guide" data-clicks="631" data-reviewed="2026-07-14">
+ <button type="button" class="guide-card-bookmark" data-slug="poison-ivy-oak-treatment-guide" aria-pressed="false" aria-label="Save Poison Ivy, Oak &amp; Sumac for later">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 012-2h10a2 2 0 012 2z"/></svg>
+ </button>
+ <a href="/health-guides/poison-ivy-oak-treatment-guide/" class="guide-card-link">
   <div class="guide-card-thumb">
    <img src="/health-guides/poison-ivy-oak-treatment-guide/images/thumb-poison-ivy-oak-treatment-guide.webp" alt="Poison Ivy, Oak &amp; Sumac" loading="lazy">
   </div>
@@ -1330,15 +1721,20 @@ a:hover { text-decoration: underline; }.tdmd-container {
      14 min
     </div>
     <div class="guide-card-meta-item">
-     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
-     Mar 2026
+     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4"/><path d="M21 12c0 4.97-4.03 9-9 9s-9-4.03-9-9 4.03-9 9-9 9 4.03 9 9z"/></svg>
+     Reviewed Jul 2026
     </div>
    </div>
    <div class="guide-card-arrow">Read guide <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></div>
   </div>
  </a>
+</div>
 
- <a href="/health-guides/prednisone-dosing-poison-ivy-guide/" class="guide-card guide-card--featured">
+ <div class="guide-card guide-card--featured" data-slug="prednisone-dosing-poison-ivy-guide" data-clicks="1454" data-reviewed="2026-07-14">
+ <button type="button" class="guide-card-bookmark" data-slug="prednisone-dosing-poison-ivy-guide" aria-pressed="false" aria-label="Save Prednisone Dosing for Poison Ivy for later">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 012-2h10a2 2 0 012 2z"/></svg>
+ </button>
+ <a href="/health-guides/prednisone-dosing-poison-ivy-guide/" class="guide-card-link">
   <div class="guide-card-thumb">
    <img src="/health-guides/prednisone-dosing-poison-ivy-guide/images/thumb-prednisone-dosing-poison-ivy-guide.webp" alt="Prednisone Dosing for Poison Ivy" loading="lazy">
   </div>
@@ -1352,19 +1748,24 @@ a:hover { text-decoration: underline; }.tdmd-container {
      10 min
     </div>
     <div class="guide-card-meta-item">
-     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
-     Jul 2026
+     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4"/><path d="M21 12c0 4.97-4.03 9-9 9s-9-4.03-9-9 4.03-9 9-9 9 4.03 9 9z"/></svg>
+     Reviewed Jul 2026
     </div>
    </div>
    <div class="guide-card-arrow">Read guide <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></div>
   </div>
  </a>
+</div>
 
   </div>
 
   <div class="guides-grid">
 
- <a href="/health-guides/eczema-atopic-dermatitis-guide/" class="guide-card">
+ <div class="guide-card" data-slug="eczema-atopic-dermatitis-guide" data-clicks="0" data-reviewed="2026-07-14">
+ <button type="button" class="guide-card-bookmark" data-slug="eczema-atopic-dermatitis-guide" aria-pressed="false" aria-label="Save Eczema (Atopic Dermatitis) for later">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 012-2h10a2 2 0 012 2z"/></svg>
+ </button>
+ <a href="/health-guides/eczema-atopic-dermatitis-guide/" class="guide-card-link">
   <div class="guide-card-thumb guide-card-thumb--sm">
    <img src="/health-guides/eczema-atopic-dermatitis-guide/images/thumb-eczema-atopic-dermatitis-guide.webp" alt="Eczema (Atopic Dermatitis)" loading="lazy">
   </div>
@@ -1378,15 +1779,20 @@ a:hover { text-decoration: underline; }.tdmd-container {
      15 min
     </div>
     <div class="guide-card-meta-item">
-     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
-     Feb 2026
+     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4"/><path d="M21 12c0 4.97-4.03 9-9 9s-9-4.03-9-9 4.03-9 9-9 9 4.03 9 9z"/></svg>
+     Reviewed Jul 2026
     </div>
    </div>
    <div class="guide-card-arrow">Read guide <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></div>
   </div>
  </a>
+</div>
 
- <a href="/health-guides/acne-treatment-guide/" class="guide-card">
+ <div class="guide-card" data-slug="acne-treatment-guide" data-clicks="2" data-reviewed="2026-07-14">
+ <button type="button" class="guide-card-bookmark" data-slug="acne-treatment-guide" aria-pressed="false" aria-label="Save Acne Treatment for later">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 012-2h10a2 2 0 012 2z"/></svg>
+ </button>
+ <a href="/health-guides/acne-treatment-guide/" class="guide-card-link">
   <div class="guide-card-thumb guide-card-thumb--sm">
    <img src="/health-guides/acne-treatment-guide/images/thumb-acne-treatment-guide.webp" alt="Acne Treatment" loading="lazy">
   </div>
@@ -1400,15 +1806,20 @@ a:hover { text-decoration: underline; }.tdmd-container {
      15 min
     </div>
     <div class="guide-card-meta-item">
-     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
-     Feb 2026
+     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4"/><path d="M21 12c0 4.97-4.03 9-9 9s-9-4.03-9-9 4.03-9 9-9 9 4.03 9 9z"/></svg>
+     Reviewed Jul 2026
     </div>
    </div>
    <div class="guide-card-arrow">Read guide <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></div>
   </div>
  </a>
+</div>
 
- <a href="/health-guides/contact-dermatitis-treatment-guide/" class="guide-card">
+ <div class="guide-card" data-slug="contact-dermatitis-treatment-guide" data-clicks="0" data-reviewed="2026-07-14">
+ <button type="button" class="guide-card-bookmark" data-slug="contact-dermatitis-treatment-guide" aria-pressed="false" aria-label="Save Contact Dermatitis for later">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 012-2h10a2 2 0 012 2z"/></svg>
+ </button>
+ <a href="/health-guides/contact-dermatitis-treatment-guide/" class="guide-card-link">
   <div class="guide-card-thumb guide-card-thumb--sm">
    <img src="/health-guides/contact-dermatitis-treatment-guide/images/thumb-contact-dermatitis-treatment-guide.webp" alt="Contact Dermatitis" loading="lazy">
   </div>
@@ -1422,15 +1833,20 @@ a:hover { text-decoration: underline; }.tdmd-container {
      14 min
     </div>
     <div class="guide-card-meta-item">
-     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
-     Mar 2026
+     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4"/><path d="M21 12c0 4.97-4.03 9-9 9s-9-4.03-9-9 4.03-9 9-9 9 4.03 9 9z"/></svg>
+     Reviewed Jul 2026
     </div>
    </div>
    <div class="guide-card-arrow">Read guide <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></div>
   </div>
  </a>
+</div>
 
- <a href="/health-guides/dandruff-seborrheic-dermatitis-guide/" class="guide-card">
+ <div class="guide-card" data-slug="dandruff-seborrheic-dermatitis-guide" data-clicks="30" data-reviewed="2026-07-14">
+ <button type="button" class="guide-card-bookmark" data-slug="dandruff-seborrheic-dermatitis-guide" aria-pressed="false" aria-label="Save Dandruff &amp; Seborrheic Dermatitis for later">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 012-2h10a2 2 0 012 2z"/></svg>
+ </button>
+ <a href="/health-guides/dandruff-seborrheic-dermatitis-guide/" class="guide-card-link">
   <div class="guide-card-thumb guide-card-thumb--sm">
    <img src="/health-guides/dandruff-seborrheic-dermatitis-guide/images/thumb-dandruff-seborrheic-dermatitis-guide.webp" alt="Dandruff &amp; Seborrheic Dermatitis" loading="lazy">
   </div>
@@ -1444,15 +1860,20 @@ a:hover { text-decoration: underline; }.tdmd-container {
      13 min
     </div>
     <div class="guide-card-meta-item">
-     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
-     Feb 2026
+     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4"/><path d="M21 12c0 4.97-4.03 9-9 9s-9-4.03-9-9 4.03-9 9-9 9 4.03 9 9z"/></svg>
+     Reviewed Jul 2026
     </div>
    </div>
    <div class="guide-card-arrow">Read guide <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></div>
   </div>
  </a>
+</div>
 
- <a href="/health-guides/rosacea-treatment-guide/" class="guide-card">
+ <div class="guide-card" data-slug="rosacea-treatment-guide" data-clicks="0" data-reviewed="2026-07-14">
+ <button type="button" class="guide-card-bookmark" data-slug="rosacea-treatment-guide" aria-pressed="false" aria-label="Save Rosacea for later">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 012-2h10a2 2 0 012 2z"/></svg>
+ </button>
+ <a href="/health-guides/rosacea-treatment-guide/" class="guide-card-link">
   <div class="guide-card-thumb guide-card-thumb--sm">
    <img src="/health-guides/rosacea-treatment-guide/images/thumb-rosacea-treatment-guide.webp" alt="Rosacea" loading="lazy">
   </div>
@@ -1466,15 +1887,20 @@ a:hover { text-decoration: underline; }.tdmd-container {
      15 min
     </div>
     <div class="guide-card-meta-item">
-     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
-     Mar 2026
+     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4"/><path d="M21 12c0 4.97-4.03 9-9 9s-9-4.03-9-9 4.03-9 9-9 9 4.03 9 9z"/></svg>
+     Reviewed Jul 2026
     </div>
    </div>
    <div class="guide-card-arrow">Read guide <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></div>
   </div>
  </a>
+</div>
 
- <a href="/health-guides/psoriasis-treatment-guide/" class="guide-card">
+ <div class="guide-card" data-slug="psoriasis-treatment-guide" data-clicks="8" data-reviewed="2026-07-14">
+ <button type="button" class="guide-card-bookmark" data-slug="psoriasis-treatment-guide" aria-pressed="false" aria-label="Save Psoriasis for later">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 012-2h10a2 2 0 012 2z"/></svg>
+ </button>
+ <a href="/health-guides/psoriasis-treatment-guide/" class="guide-card-link">
   <div class="guide-card-thumb guide-card-thumb--sm">
    <img src="/health-guides/psoriasis-treatment-guide/images/thumb-psoriasis-treatment-guide.webp" alt="Psoriasis" loading="lazy">
   </div>
@@ -1488,15 +1914,20 @@ a:hover { text-decoration: underline; }.tdmd-container {
      16 min
     </div>
     <div class="guide-card-meta-item">
-     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
-     Jan 2026
+     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4"/><path d="M21 12c0 4.97-4.03 9-9 9s-9-4.03-9-9 4.03-9 9-9 9 4.03 9 9z"/></svg>
+     Reviewed Jul 2026
     </div>
    </div>
    <div class="guide-card-arrow">Read guide <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></div>
   </div>
  </a>
+</div>
 
- <a href="/health-guides/tinea-ringworm-guide/" class="guide-card">
+ <div class="guide-card" data-slug="tinea-ringworm-guide" data-clicks="150" data-reviewed="2026-07-14">
+ <button type="button" class="guide-card-bookmark" data-slug="tinea-ringworm-guide" aria-pressed="false" aria-label="Save Tinea (Ringworm) &amp; Fungal Infections for later">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 012-2h10a2 2 0 012 2z"/></svg>
+ </button>
+ <a href="/health-guides/tinea-ringworm-guide/" class="guide-card-link">
   <div class="guide-card-thumb guide-card-thumb--sm">
    <img src="/health-guides/tinea-ringworm-guide/images/thumb-tinea-ringworm-guide.webp" alt="Tinea (Ringworm) &amp; Fungal Infections" loading="lazy">
   </div>
@@ -1510,15 +1941,20 @@ a:hover { text-decoration: underline; }.tdmd-container {
      14 min
     </div>
     <div class="guide-card-meta-item">
-     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
-     Mar 2026
+     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4"/><path d="M21 12c0 4.97-4.03 9-9 9s-9-4.03-9-9 4.03-9 9-9 9 4.03 9 9z"/></svg>
+     Reviewed Jul 2026
     </div>
    </div>
    <div class="guide-card-arrow">Read guide <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></div>
   </div>
  </a>
+</div>
 
- <a href="/health-guides/tinea-versicolor-guide/" class="guide-card">
+ <div class="guide-card" data-slug="tinea-versicolor-guide" data-clicks="1" data-reviewed="2026-07-14">
+ <button type="button" class="guide-card-bookmark" data-slug="tinea-versicolor-guide" aria-pressed="false" aria-label="Save Tinea Versicolor (Pityriasis Versicolor) for later">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 012-2h10a2 2 0 012 2z"/></svg>
+ </button>
+ <a href="/health-guides/tinea-versicolor-guide/" class="guide-card-link">
   <div class="guide-card-thumb guide-card-thumb--sm">
    <img src="/health-guides/tinea-versicolor-guide/images/thumb-tinea-versicolor-guide.webp" alt="Tinea Versicolor (Pityriasis Versicolor)" loading="lazy">
   </div>
@@ -1532,15 +1968,20 @@ a:hover { text-decoration: underline; }.tdmd-container {
      13 min
     </div>
     <div class="guide-card-meta-item">
-     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
-     Feb 2026
+     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4"/><path d="M21 12c0 4.97-4.03 9-9 9s-9-4.03-9-9 4.03-9 9-9 9 4.03 9 9z"/></svg>
+     Reviewed Jul 2026
     </div>
    </div>
    <div class="guide-card-arrow">Read guide <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></div>
   </div>
  </a>
+</div>
 
- <a href="/health-guides/head-lice-treatment-guide/" class="guide-card">
+ <div class="guide-card" data-slug="head-lice-treatment-guide" data-clicks="28" data-reviewed="2026-07-14">
+ <button type="button" class="guide-card-bookmark" data-slug="head-lice-treatment-guide" aria-pressed="false" aria-label="Save Head Lice Treatment for later">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 012-2h10a2 2 0 012 2z"/></svg>
+ </button>
+ <a href="/health-guides/head-lice-treatment-guide/" class="guide-card-link">
   <div class="guide-card-thumb guide-card-thumb--sm">
    <img src="/health-guides/head-lice-treatment-guide/images/thumb-head-lice-treatment-guide.webp" alt="Head Lice Treatment" loading="lazy">
   </div>
@@ -1554,15 +1995,20 @@ a:hover { text-decoration: underline; }.tdmd-container {
      13 min
     </div>
     <div class="guide-card-meta-item">
-     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
-     Mar 2026
+     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4"/><path d="M21 12c0 4.97-4.03 9-9 9s-9-4.03-9-9 4.03-9 9-9 9 4.03 9 9z"/></svg>
+     Reviewed Jul 2026
     </div>
    </div>
    <div class="guide-card-arrow">Read guide <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></div>
   </div>
  </a>
+</div>
 
- <a href="/health-guides/scabies-treatment-guide/" class="guide-card">
+ <div class="guide-card" data-slug="scabies-treatment-guide" data-clicks="84" data-reviewed="2026-07-14">
+ <button type="button" class="guide-card-bookmark" data-slug="scabies-treatment-guide" aria-pressed="false" aria-label="Save Scabies Treatment for later">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 012-2h10a2 2 0 012 2z"/></svg>
+ </button>
+ <a href="/health-guides/scabies-treatment-guide/" class="guide-card-link">
   <div class="guide-card-thumb guide-card-thumb--sm">
    <img src="/health-guides/scabies-treatment-guide/images/thumb-scabies-treatment-guide.webp" alt="Scabies Treatment" loading="lazy">
   </div>
@@ -1576,15 +2022,20 @@ a:hover { text-decoration: underline; }.tdmd-container {
      15 min
     </div>
     <div class="guide-card-meta-item">
-     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
-     Mar 2026
+     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4"/><path d="M21 12c0 4.97-4.03 9-9 9s-9-4.03-9-9 4.03-9 9-9 9 4.03 9 9z"/></svg>
+     Reviewed Jul 2026
     </div>
    </div>
    <div class="guide-card-arrow">Read guide <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></div>
   </div>
  </a>
+</div>
 
- <a href="/health-guides/tretinoin-guide/" class="guide-card">
+ <div class="guide-card" data-slug="tretinoin-guide" data-clicks="14" data-reviewed="2026-07-18">
+ <button type="button" class="guide-card-bookmark" data-slug="tretinoin-guide" aria-pressed="false" aria-label="Save Tretinoin (Photoaging &amp; Acne) for later">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 012-2h10a2 2 0 012 2z"/></svg>
+ </button>
+ <a href="/health-guides/tretinoin-guide/" class="guide-card-link">
   <div class="guide-card-thumb guide-card-thumb--sm">
    <img src="/health-guides/tretinoin-guide/images/thumb-tretinoin-guide.webp" alt="Tretinoin (Photoaging &amp; Acne)" loading="lazy">
   </div>
@@ -1598,13 +2049,14 @@ a:hover { text-decoration: underline; }.tdmd-container {
      15 min
     </div>
     <div class="guide-card-meta-item">
-     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
-     Mar 2026
+     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4"/><path d="M21 12c0 4.97-4.03 9-9 9s-9-4.03-9-9 4.03-9 9-9 9 4.03 9 9z"/></svg>
+     Reviewed Jul 2026
     </div>
    </div>
    <div class="guide-card-arrow">Read guide <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></div>
   </div>
  </a>
+</div>
 
   </div>
  </section>
@@ -1621,7 +2073,11 @@ a:hover { text-decoration: underline; }.tdmd-container {
  </div>
   <div class="guides-grid">
 
- <a href="/health-guides/chlamydia-treatment-guide/" class="guide-card">
+ <div class="guide-card" data-slug="chlamydia-treatment-guide" data-clicks="79" data-reviewed="2026-07-14">
+ <button type="button" class="guide-card-bookmark" data-slug="chlamydia-treatment-guide" aria-pressed="false" aria-label="Save Chlamydia Treatment for later">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 012-2h10a2 2 0 012 2z"/></svg>
+ </button>
+ <a href="/health-guides/chlamydia-treatment-guide/" class="guide-card-link">
   <div class="guide-card-thumb guide-card-thumb--sm">
    <img src="/health-guides/chlamydia-treatment-guide/images/thumb-chlamydia-treatment-guide.webp" alt="Chlamydia Treatment" loading="lazy">
   </div>
@@ -1635,15 +2091,20 @@ a:hover { text-decoration: underline; }.tdmd-container {
      14 min
     </div>
     <div class="guide-card-meta-item">
-     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
-     Mar 2026
+     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4"/><path d="M21 12c0 4.97-4.03 9-9 9s-9-4.03-9-9 4.03-9 9-9 9 4.03 9 9z"/></svg>
+     Reviewed Jul 2026
     </div>
    </div>
    <div class="guide-card-arrow">Read guide <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></div>
   </div>
  </a>
+</div>
 
- <a href="/health-guides/genital-herpes-treatment-guide/" class="guide-card">
+ <div class="guide-card" data-slug="genital-herpes-treatment-guide" data-clicks="112" data-reviewed="2026-07-14">
+ <button type="button" class="guide-card-bookmark" data-slug="genital-herpes-treatment-guide" aria-pressed="false" aria-label="Save Genital Herpes (HSV-2) for later">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 012-2h10a2 2 0 012 2z"/></svg>
+ </button>
+ <a href="/health-guides/genital-herpes-treatment-guide/" class="guide-card-link">
   <div class="guide-card-thumb guide-card-thumb--sm">
    <img src="/health-guides/genital-herpes-treatment-guide/images/thumb-genital-herpes-treatment-guide.webp" alt="Genital Herpes (HSV-2)" loading="lazy">
   </div>
@@ -1657,15 +2118,20 @@ a:hover { text-decoration: underline; }.tdmd-container {
      15 min
     </div>
     <div class="guide-card-meta-item">
-     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
-     Feb 2026
+     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4"/><path d="M21 12c0 4.97-4.03 9-9 9s-9-4.03-9-9 4.03-9 9-9 9 4.03 9 9z"/></svg>
+     Reviewed Jul 2026
     </div>
    </div>
    <div class="guide-card-arrow">Read guide <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></div>
   </div>
  </a>
+</div>
 
- <a href="/health-guides/genital-warts-guide/" class="guide-card">
+ <div class="guide-card" data-slug="genital-warts-guide" data-clicks="148" data-reviewed="2026-07-18">
+ <button type="button" class="guide-card-bookmark" data-slug="genital-warts-guide" aria-pressed="false" aria-label="Save Genital Warts (HPV) for later">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 012-2h10a2 2 0 012 2z"/></svg>
+ </button>
+ <a href="/health-guides/genital-warts-guide/" class="guide-card-link">
   <div class="guide-card-thumb guide-card-thumb--sm">
    <img src="/health-guides/genital-warts-guide/images/thumb-genital-warts-guide.webp" alt="Genital Warts (HPV)" loading="lazy">
   </div>
@@ -1678,10 +2144,15 @@ a:hover { text-decoration: underline; }.tdmd-container {
      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
      22 min
     </div>
+    <div class="guide-card-meta-item">
+     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4"/><path d="M21 12c0 4.97-4.03 9-9 9s-9-4.03-9-9 4.03-9 9-9 9 4.03 9 9z"/></svg>
+     Reviewed Jul 2026
+    </div>
    </div>
    <div class="guide-card-arrow">Read guide <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></div>
   </div>
  </a>
+</div>
 
   </div>
  </section>
@@ -1697,7 +2168,11 @@ a:hover { text-decoration: underline; }.tdmd-container {
  <h2>Chronic Conditions & Medication Management <span class="guides-category-count" data-total="8">(8 guides)</span></h2>
  </div>
   <div class="guides-featured-grid">
- <a href="/health-guides/cholesterol-hyperlipidemia-guide/" class="guide-card guide-card--featured">
+ <div class="guide-card guide-card--featured" data-slug="cholesterol-hyperlipidemia-guide" data-clicks="8" data-reviewed="2026-07-14">
+ <button type="button" class="guide-card-bookmark" data-slug="cholesterol-hyperlipidemia-guide" aria-pressed="false" aria-label="Save High Cholesterol (Hyperlipidemia) for later">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 012-2h10a2 2 0 012 2z"/></svg>
+ </button>
+ <a href="/health-guides/cholesterol-hyperlipidemia-guide/" class="guide-card-link">
   <div class="guide-card-thumb">
    <img src="/health-guides/cholesterol-hyperlipidemia-guide/images/thumb-cholesterol-hyperlipidemia-guide.webp" alt="High Cholesterol (Hyperlipidemia)" loading="lazy">
   </div>
@@ -1711,15 +2186,20 @@ a:hover { text-decoration: underline; }.tdmd-container {
      16 min
     </div>
     <div class="guide-card-meta-item">
-     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
-     Mar 2026
+     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4"/><path d="M21 12c0 4.97-4.03 9-9 9s-9-4.03-9-9 4.03-9 9-9 9 4.03 9 9z"/></svg>
+     Reviewed Jul 2026
     </div>
    </div>
    <div class="guide-card-arrow">Read guide <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></div>
   </div>
  </a>
+</div>
 
- <a href="/health-guides/acid-reflux-gerd-guide/" class="guide-card guide-card--featured">
+ <div class="guide-card guide-card--featured" data-slug="acid-reflux-gerd-guide" data-clicks="19" data-reviewed="2026-07-14">
+ <button type="button" class="guide-card-bookmark" data-slug="acid-reflux-gerd-guide" aria-pressed="false" aria-label="Save Acid Reflux &amp; GERD for later">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 012-2h10a2 2 0 012 2z"/></svg>
+ </button>
+ <a href="/health-guides/acid-reflux-gerd-guide/" class="guide-card-link">
   <div class="guide-card-thumb">
    <img src="/health-guides/acid-reflux-gerd-guide/images/thumb-acid-reflux-gerd-guide.webp" alt="Acid Reflux &amp; GERD" loading="lazy">
   </div>
@@ -1733,19 +2213,24 @@ a:hover { text-decoration: underline; }.tdmd-container {
      15 min
     </div>
     <div class="guide-card-meta-item">
-     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
-     Mar 2026
+     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4"/><path d="M21 12c0 4.97-4.03 9-9 9s-9-4.03-9-9 4.03-9 9-9 9 4.03 9 9z"/></svg>
+     Reviewed Jul 2026
     </div>
    </div>
    <div class="guide-card-arrow">Read guide <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></div>
   </div>
  </a>
+</div>
 
   </div>
 
   <div class="guides-grid">
 
- <a href="/health-guides/asthma-guide/" class="guide-card">
+ <div class="guide-card" data-slug="asthma-guide" data-clicks="1" data-reviewed="2026-07-14">
+ <button type="button" class="guide-card-bookmark" data-slug="asthma-guide" aria-pressed="false" aria-label="Save Asthma for later">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 012-2h10a2 2 0 012 2z"/></svg>
+ </button>
+ <a href="/health-guides/asthma-guide/" class="guide-card-link">
   <div class="guide-card-thumb guide-card-thumb--sm">
    <img src="/health-guides/asthma-guide/images/thumb-asthma-guide.webp" alt="Asthma" loading="lazy">
   </div>
@@ -1759,15 +2244,20 @@ a:hover { text-decoration: underline; }.tdmd-container {
      15 min
     </div>
     <div class="guide-card-meta-item">
-     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
-     Feb 2026
+     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4"/><path d="M21 12c0 4.97-4.03 9-9 9s-9-4.03-9-9 4.03-9 9-9 9 4.03 9 9z"/></svg>
+     Reviewed Jul 2026
     </div>
    </div>
    <div class="guide-card-arrow">Read guide <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></div>
   </div>
  </a>
+</div>
 
- <a href="/health-guides/hypertension-blood-pressure-guide/" class="guide-card">
+ <div class="guide-card" data-slug="hypertension-blood-pressure-guide" data-clicks="0" data-reviewed="2026-07-14">
+ <button type="button" class="guide-card-bookmark" data-slug="hypertension-blood-pressure-guide" aria-pressed="false" aria-label="Save Hypertension (High Blood Pressure) for later">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 012-2h10a2 2 0 012 2z"/></svg>
+ </button>
+ <a href="/health-guides/hypertension-blood-pressure-guide/" class="guide-card-link">
   <div class="guide-card-thumb guide-card-thumb--sm">
    <img src="/health-guides/hypertension-blood-pressure-guide/images/thumb-hypertension-blood-pressure-guide.webp" alt="Hypertension (High Blood Pressure)" loading="lazy">
   </div>
@@ -1781,15 +2271,20 @@ a:hover { text-decoration: underline; }.tdmd-container {
      14 min
     </div>
     <div class="guide-card-meta-item">
-     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
-     Feb 2026
+     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4"/><path d="M21 12c0 4.97-4.03 9-9 9s-9-4.03-9-9 4.03-9 9-9 9 4.03 9 9z"/></svg>
+     Reviewed Jul 2026
     </div>
    </div>
    <div class="guide-card-arrow">Read guide <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></div>
   </div>
  </a>
+</div>
 
- <a href="/health-guides/type-2-diabetes-medication-guide/" class="guide-card">
+ <div class="guide-card" data-slug="type-2-diabetes-medication-guide" data-clicks="0" data-reviewed="2026-07-14">
+ <button type="button" class="guide-card-bookmark" data-slug="type-2-diabetes-medication-guide" aria-pressed="false" aria-label="Save Type 2 Diabetes Medications for later">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 012-2h10a2 2 0 012 2z"/></svg>
+ </button>
+ <a href="/health-guides/type-2-diabetes-medication-guide/" class="guide-card-link">
   <div class="guide-card-thumb guide-card-thumb--sm">
    <img src="/health-guides/type-2-diabetes-medication-guide/images/thumb-type-2-diabetes-medication-guide.webp" alt="Type 2 Diabetes Medications" loading="lazy">
   </div>
@@ -1803,15 +2298,20 @@ a:hover { text-decoration: underline; }.tdmd-container {
      15 min
     </div>
     <div class="guide-card-meta-item">
-     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
-     Mar 2026
+     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4"/><path d="M21 12c0 4.97-4.03 9-9 9s-9-4.03-9-9 4.03-9 9-9 9 4.03 9 9z"/></svg>
+     Reviewed Jul 2026
     </div>
    </div>
    <div class="guide-card-arrow">Read guide <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></div>
   </div>
  </a>
+</div>
 
- <a href="/health-guides/anxiety-depression-medication-guide/" class="guide-card">
+ <div class="guide-card" data-slug="anxiety-depression-medication-guide" data-clicks="2" data-reviewed="2026-07-14">
+ <button type="button" class="guide-card-bookmark" data-slug="anxiety-depression-medication-guide" aria-pressed="false" aria-label="Save Anxiety &amp; Depression Medications for later">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 012-2h10a2 2 0 012 2z"/></svg>
+ </button>
+ <a href="/health-guides/anxiety-depression-medication-guide/" class="guide-card-link">
   <div class="guide-card-thumb guide-card-thumb--sm">
    <img src="/health-guides/anxiety-depression-medication-guide/images/thumb-anxiety-depression-medication-guide.webp" alt="Anxiety &amp; Depression Medications" loading="lazy">
   </div>
@@ -1825,15 +2325,20 @@ a:hover { text-decoration: underline; }.tdmd-container {
      16 min
     </div>
     <div class="guide-card-meta-item">
-     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
-     Mar 2026
+     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4"/><path d="M21 12c0 4.97-4.03 9-9 9s-9-4.03-9-9 4.03-9 9-9 9 4.03 9 9z"/></svg>
+     Reviewed Jul 2026
     </div>
    </div>
    <div class="guide-card-arrow">Read guide <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></div>
   </div>
  </a>
+</div>
 
- <a href="/health-guides/migraine-treatment-guide/" class="guide-card">
+ <div class="guide-card" data-slug="migraine-treatment-guide" data-clicks="2" data-reviewed="2026-07-14">
+ <button type="button" class="guide-card-bookmark" data-slug="migraine-treatment-guide" aria-pressed="false" aria-label="Save Migraine Treatment for later">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 012-2h10a2 2 0 012 2z"/></svg>
+ </button>
+ <a href="/health-guides/migraine-treatment-guide/" class="guide-card-link">
   <div class="guide-card-thumb guide-card-thumb--sm">
    <img src="/health-guides/migraine-treatment-guide/images/thumb-migraine-treatment-guide.webp" alt="Migraine Treatment" loading="lazy">
   </div>
@@ -1847,15 +2352,20 @@ a:hover { text-decoration: underline; }.tdmd-container {
      15 min
     </div>
     <div class="guide-card-meta-item">
-     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
-     Mar 2026
+     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4"/><path d="M21 12c0 4.97-4.03 9-9 9s-9-4.03-9-9 4.03-9 9-9 9 4.03 9 9z"/></svg>
+     Reviewed Jul 2026
     </div>
    </div>
    <div class="guide-card-arrow">Read guide <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></div>
   </div>
  </a>
+</div>
 
- <a href="/health-guides/hypothyroidism-treatment-guide/" class="guide-card">
+ <div class="guide-card" data-slug="hypothyroidism-treatment-guide" data-clicks="0" data-reviewed="2026-07-14">
+ <button type="button" class="guide-card-bookmark" data-slug="hypothyroidism-treatment-guide" aria-pressed="false" aria-label="Save Hypothyroidism (Underactive Thyroid) for later">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 012-2h10a2 2 0 012 2z"/></svg>
+ </button>
+ <a href="/health-guides/hypothyroidism-treatment-guide/" class="guide-card-link">
   <div class="guide-card-thumb guide-card-thumb--sm">
    <img src="/health-guides/hypothyroidism-treatment-guide/images/thumb-hypothyroidism-treatment-guide.webp" alt="Hypothyroidism (Underactive Thyroid)" loading="lazy">
   </div>
@@ -1869,13 +2379,14 @@ a:hover { text-decoration: underline; }.tdmd-container {
      15 min
     </div>
     <div class="guide-card-meta-item">
-     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
-     Mar 2026
+     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4"/><path d="M21 12c0 4.97-4.03 9-9 9s-9-4.03-9-9 4.03-9 9-9 9 4.03 9 9z"/></svg>
+     Reviewed Jul 2026
     </div>
    </div>
    <div class="guide-card-arrow">Read guide <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></div>
   </div>
  </a>
+</div>
 
   </div>
  </section>
@@ -1891,7 +2402,11 @@ a:hover { text-decoration: underline; }.tdmd-container {
  <h2>Men's & Women's Health <span class="guides-category-count" data-total="8">(8 guides)</span></h2>
  </div>
   <div class="guides-featured-grid">
- <a href="/health-guides/bph-luts-treatment-guide/" class="guide-card guide-card--featured">
+ <div class="guide-card guide-card--featured" data-slug="bph-luts-treatment-guide" data-clicks="59" data-reviewed="2026-07-14">
+ <button type="button" class="guide-card-bookmark" data-slug="bph-luts-treatment-guide" aria-pressed="false" aria-label="Save BPH &amp; Lower Urinary Tract Symptoms for later">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 012-2h10a2 2 0 012 2z"/></svg>
+ </button>
+ <a href="/health-guides/bph-luts-treatment-guide/" class="guide-card-link">
   <div class="guide-card-thumb">
    <img src="/health-guides/bph-luts-treatment-guide/images/thumb-bph-luts-treatment-guide.webp" alt="BPH &amp; Lower Urinary Tract Symptoms" loading="lazy">
   </div>
@@ -1905,15 +2420,20 @@ a:hover { text-decoration: underline; }.tdmd-container {
      18 min
     </div>
     <div class="guide-card-meta-item">
-     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
-     May 2026
+     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4"/><path d="M21 12c0 4.97-4.03 9-9 9s-9-4.03-9-9 4.03-9 9-9 9 4.03 9 9z"/></svg>
+     Reviewed Jul 2026
     </div>
    </div>
    <div class="guide-card-arrow">Read guide <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></div>
   </div>
  </a>
+</div>
 
- <a href="/health-guides/vaginal-dryness-treatment-guide/" class="guide-card guide-card--featured">
+ <div class="guide-card guide-card--featured" data-slug="vaginal-dryness-treatment-guide" data-clicks="15" data-reviewed="2026-07-14">
+ <button type="button" class="guide-card-bookmark" data-slug="vaginal-dryness-treatment-guide" aria-pressed="false" aria-label="Save Vaginal Dryness Treatment for later">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 012-2h10a2 2 0 012 2z"/></svg>
+ </button>
+ <a href="/health-guides/vaginal-dryness-treatment-guide/" class="guide-card-link">
   <div class="guide-card-thumb">
    <img src="/health-guides/vaginal-dryness-treatment-guide/images/thumb-vaginal-dryness-treatment-guide.webp" alt="Vaginal Dryness Treatment" loading="lazy">
   </div>
@@ -1927,19 +2447,24 @@ a:hover { text-decoration: underline; }.tdmd-container {
      15 min
     </div>
     <div class="guide-card-meta-item">
-     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
-     Mar 2026
+     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4"/><path d="M21 12c0 4.97-4.03 9-9 9s-9-4.03-9-9 4.03-9 9-9 9 4.03 9 9z"/></svg>
+     Reviewed Jul 2026
     </div>
    </div>
    <div class="guide-card-arrow">Read guide <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></div>
   </div>
  </a>
+</div>
 
   </div>
 
   <div class="guides-grid">
 
- <a href="/health-guides/birth-control-refills-guide/" class="guide-card">
+ <div class="guide-card" data-slug="birth-control-refills-guide" data-clicks="6" data-reviewed="2026-07-14">
+ <button type="button" class="guide-card-bookmark" data-slug="birth-control-refills-guide" aria-pressed="false" aria-label="Save Birth Control Refills for later">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 012-2h10a2 2 0 012 2z"/></svg>
+ </button>
+ <a href="/health-guides/birth-control-refills-guide/" class="guide-card-link">
   <div class="guide-card-thumb guide-card-thumb--sm">
    <img src="/health-guides/birth-control-refills-guide/images/thumb-birth-control-refills-guide.webp" alt="Birth Control Refills" loading="lazy">
   </div>
@@ -1953,15 +2478,20 @@ a:hover { text-decoration: underline; }.tdmd-container {
      14 min
     </div>
     <div class="guide-card-meta-item">
-     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
-     Mar 2026
+     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4"/><path d="M21 12c0 4.97-4.03 9-9 9s-9-4.03-9-9 4.03-9 9-9 9 4.03 9 9z"/></svg>
+     Reviewed Jul 2026
     </div>
    </div>
    <div class="guide-card-arrow">Read guide <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></div>
   </div>
  </a>
+</div>
 
- <a href="/health-guides/erectile-dysfunction-guide/" class="guide-card">
+ <div class="guide-card" data-slug="erectile-dysfunction-guide" data-clicks="1" data-reviewed="2026-07-17">
+ <button type="button" class="guide-card-bookmark" data-slug="erectile-dysfunction-guide" aria-pressed="false" aria-label="Save Erectile Dysfunction for later">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 012-2h10a2 2 0 012 2z"/></svg>
+ </button>
+ <a href="/health-guides/erectile-dysfunction-guide/" class="guide-card-link">
   <div class="guide-card-thumb guide-card-thumb--sm">
    <img src="/health-guides/erectile-dysfunction-guide/images/thumb-erectile-dysfunction-guide.webp" alt="Erectile Dysfunction" loading="lazy">
   </div>
@@ -1975,15 +2505,20 @@ a:hover { text-decoration: underline; }.tdmd-container {
      14 min
     </div>
     <div class="guide-card-meta-item">
-     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
-     Mar 2026
+     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4"/><path d="M21 12c0 4.97-4.03 9-9 9s-9-4.03-9-9 4.03-9 9-9 9 4.03 9 9z"/></svg>
+     Reviewed Jul 2026
     </div>
    </div>
    <div class="guide-card-arrow">Read guide <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></div>
   </div>
  </a>
+</div>
 
- <a href="/health-guides/hair-loss-male-pattern-guide/" class="guide-card">
+ <div class="guide-card" data-slug="hair-loss-male-pattern-guide" data-clicks="0" data-reviewed="2026-07-18">
+ <button type="button" class="guide-card-bookmark" data-slug="hair-loss-male-pattern-guide" aria-pressed="false" aria-label="Save Male Pattern Hair Loss for later">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 012-2h10a2 2 0 012 2z"/></svg>
+ </button>
+ <a href="/health-guides/hair-loss-male-pattern-guide/" class="guide-card-link">
   <div class="guide-card-thumb guide-card-thumb--sm">
    <img src="/health-guides/hair-loss-male-pattern-guide/images/thumb-hair-loss-male-pattern-guide.webp" alt="Male Pattern Hair Loss" loading="lazy">
   </div>
@@ -1997,15 +2532,20 @@ a:hover { text-decoration: underline; }.tdmd-container {
      14 min
     </div>
     <div class="guide-card-meta-item">
-     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
-     Mar 2026
+     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4"/><path d="M21 12c0 4.97-4.03 9-9 9s-9-4.03-9-9 4.03-9 9-9 9 4.03 9 9z"/></svg>
+     Reviewed Jul 2026
     </div>
    </div>
    <div class="guide-card-arrow">Read guide <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></div>
   </div>
  </a>
+</div>
 
- <a href="/health-guides/bacterial-vaginosis-bv-guide/" class="guide-card">
+ <div class="guide-card" data-slug="bacterial-vaginosis-bv-guide" data-clicks="0" data-reviewed="2026-07-14">
+ <button type="button" class="guide-card-bookmark" data-slug="bacterial-vaginosis-bv-guide" aria-pressed="false" aria-label="Save Bacterial Vaginosis (BV) for later">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 012-2h10a2 2 0 012 2z"/></svg>
+ </button>
+ <a href="/health-guides/bacterial-vaginosis-bv-guide/" class="guide-card-link">
   <div class="guide-card-thumb guide-card-thumb--sm">
    <img src="/health-guides/bacterial-vaginosis-bv-guide/images/thumb-bacterial-vaginosis-bv-guide.webp" alt="Bacterial Vaginosis (BV)" loading="lazy">
   </div>
@@ -2019,15 +2559,20 @@ a:hover { text-decoration: underline; }.tdmd-container {
      13 min
     </div>
     <div class="guide-card-meta-item">
-     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
-     Mar 2026
+     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4"/><path d="M21 12c0 4.97-4.03 9-9 9s-9-4.03-9-9 4.03-9 9-9 9 4.03 9 9z"/></svg>
+     Reviewed Jul 2026
     </div>
    </div>
    <div class="guide-card-arrow">Read guide <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></div>
   </div>
  </a>
+</div>
 
- <a href="/health-guides/yeast-infection-guide/" class="guide-card">
+ <div class="guide-card" data-slug="yeast-infection-guide" data-clicks="0" data-reviewed="2026-07-14">
+ <button type="button" class="guide-card-bookmark" data-slug="yeast-infection-guide" aria-pressed="false" aria-label="Save Yeast Infections (Vulvovaginal Candidiasis) for later">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 012-2h10a2 2 0 012 2z"/></svg>
+ </button>
+ <a href="/health-guides/yeast-infection-guide/" class="guide-card-link">
   <div class="guide-card-thumb guide-card-thumb--sm">
    <img src="/health-guides/yeast-infection-guide/images/thumb-yeast-infection-guide.webp" alt="Yeast Infections (Vulvovaginal Candidiasis)" loading="lazy">
   </div>
@@ -2041,15 +2586,20 @@ a:hover { text-decoration: underline; }.tdmd-container {
      13 min
     </div>
     <div class="guide-card-meta-item">
-     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
-     Feb 2026
+     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4"/><path d="M21 12c0 4.97-4.03 9-9 9s-9-4.03-9-9 4.03-9 9-9 9 4.03 9 9z"/></svg>
+     Reviewed Jul 2026
     </div>
    </div>
    <div class="guide-card-arrow">Read guide <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></div>
   </div>
  </a>
+</div>
 
- <a href="/health-guides/mastitis-treatment-guide/" class="guide-card">
+ <div class="guide-card" data-slug="mastitis-treatment-guide" data-clicks="0" data-reviewed="2026-07-14">
+ <button type="button" class="guide-card-bookmark" data-slug="mastitis-treatment-guide" aria-pressed="false" aria-label="Save Mastitis (Breast Infection) for later">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 012-2h10a2 2 0 012 2z"/></svg>
+ </button>
+ <a href="/health-guides/mastitis-treatment-guide/" class="guide-card-link">
   <div class="guide-card-thumb guide-card-thumb--sm">
    <img src="/health-guides/mastitis-treatment-guide/images/thumb-mastitis-treatment-guide.webp" alt="Mastitis (Breast Infection)" loading="lazy">
   </div>
@@ -2063,13 +2613,14 @@ a:hover { text-decoration: underline; }.tdmd-container {
      14 min
     </div>
     <div class="guide-card-meta-item">
-     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
-     Mar 2026
+     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4"/><path d="M21 12c0 4.97-4.03 9-9 9s-9-4.03-9-9 4.03-9 9-9 9 4.03 9 9z"/></svg>
+     Reviewed Jul 2026
     </div>
    </div>
    <div class="guide-card-arrow">Read guide <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></div>
   </div>
  </a>
+</div>
 
   </div>
  </section>
@@ -2086,7 +2637,11 @@ a:hover { text-decoration: underline; }.tdmd-container {
  </div>
   <div class="guides-grid">
 
- <a href="/health-guides/altitude-sickness-prevention-guide/" class="guide-card">
+ <div class="guide-card" data-slug="altitude-sickness-prevention-guide" data-clicks="38" data-reviewed="2026-07-14">
+ <button type="button" class="guide-card-bookmark" data-slug="altitude-sickness-prevention-guide" aria-pressed="false" aria-label="Save Altitude Sickness Prevention for later">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 012-2h10a2 2 0 012 2z"/></svg>
+ </button>
+ <a href="/health-guides/altitude-sickness-prevention-guide/" class="guide-card-link">
   <div class="guide-card-thumb guide-card-thumb--sm">
    <img src="/health-guides/altitude-sickness-prevention-guide/images/thumb-altitude-sickness-prevention-guide.webp" alt="Altitude Sickness Prevention" loading="lazy">
   </div>
@@ -2100,13 +2655,14 @@ a:hover { text-decoration: underline; }.tdmd-container {
      17 min
     </div>
     <div class="guide-card-meta-item">
-     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
-     Jun 2026
+     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4"/><path d="M21 12c0 4.97-4.03 9-9 9s-9-4.03-9-9 4.03-9 9-9 9 4.03 9 9z"/></svg>
+     Reviewed Jul 2026
     </div>
    </div>
    <div class="guide-card-arrow">Read guide <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></div>
   </div>
  </a>
+</div>
 
   </div>
  </section>
@@ -2122,7 +2678,11 @@ a:hover { text-decoration: underline; }.tdmd-container {
  <h2>Lifestyle & Specialty <span class="guides-category-count" data-total="5">(5 guides)</span></h2>
  </div>
   <div class="guides-featured-grid">
- <a href="/health-guides/performance-anxiety-treatment-guide/" class="guide-card guide-card--featured">
+ <div class="guide-card guide-card--featured" data-slug="performance-anxiety-treatment-guide" data-clicks="338" data-reviewed="2026-07-14">
+ <button type="button" class="guide-card-bookmark" data-slug="performance-anxiety-treatment-guide" aria-pressed="false" aria-label="Save Performance Anxiety Treatment for later">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 012-2h10a2 2 0 012 2z"/></svg>
+ </button>
+ <a href="/health-guides/performance-anxiety-treatment-guide/" class="guide-card-link">
   <div class="guide-card-thumb">
    <img src="/health-guides/performance-anxiety-treatment-guide/images/thumb-performance-anxiety-treatment-guide.webp" alt="Performance Anxiety Treatment" loading="lazy">
   </div>
@@ -2136,19 +2696,24 @@ a:hover { text-decoration: underline; }.tdmd-container {
      16 min
     </div>
     <div class="guide-card-meta-item">
-     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
-     Mar 2026
+     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4"/><path d="M21 12c0 4.97-4.03 9-9 9s-9-4.03-9-9 4.03-9 9-9 9 4.03 9 9z"/></svg>
+     Reviewed Jul 2026
     </div>
    </div>
    <div class="guide-card-arrow">Read guide <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></div>
   </div>
  </a>
+</div>
 
   </div>
 
   <div class="guides-grid">
 
- <a href="/health-guides/glp-1-weight-loss-oral-medication-guide/" class="guide-card">
+ <div class="guide-card" data-slug="glp-1-weight-loss-oral-medication-guide" data-clicks="10" data-reviewed="2026-05-25">
+ <button type="button" class="guide-card-bookmark" data-slug="glp-1-weight-loss-oral-medication-guide" aria-pressed="false" aria-label="Save GLP-1 Weight Loss Medications for later">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 012-2h10a2 2 0 012 2z"/></svg>
+ </button>
+ <a href="/health-guides/glp-1-weight-loss-oral-medication-guide/" class="guide-card-link">
   <div class="guide-card-thumb guide-card-thumb--sm">
    <img src="/health-guides/glp-1-weight-loss-oral-medication-guide/images/thumb-glp-1-weight-loss-oral-medication-guide.webp" alt="GLP-1 Weight Loss Medications" loading="lazy">
   </div>
@@ -2162,15 +2727,20 @@ a:hover { text-decoration: underline; }.tdmd-container {
      18 min
     </div>
     <div class="guide-card-meta-item">
-     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
-     Apr 2026
+     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4"/><path d="M21 12c0 4.97-4.03 9-9 9s-9-4.03-9-9 4.03-9 9-9 9 4.03 9 9z"/></svg>
+     Reviewed May 2026
     </div>
    </div>
    <div class="guide-card-arrow">Read guide <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></div>
   </div>
  </a>
+</div>
 
- <a href="/health-guides/hyperhidrosis-guide/" class="guide-card">
+ <div class="guide-card" data-slug="hyperhidrosis-guide" data-clicks="27" data-reviewed="2026-07-18">
+ <button type="button" class="guide-card-bookmark" data-slug="hyperhidrosis-guide" aria-pressed="false" aria-label="Save Hyperhidrosis (Excessive Sweating) for later">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 012-2h10a2 2 0 012 2z"/></svg>
+ </button>
+ <a href="/health-guides/hyperhidrosis-guide/" class="guide-card-link">
   <div class="guide-card-thumb guide-card-thumb--sm">
    <img src="/health-guides/hyperhidrosis-guide/images/thumb-hyperhidrosis-guide.webp" alt="Hyperhidrosis (Excessive Sweating)" loading="lazy">
   </div>
@@ -2184,15 +2754,20 @@ a:hover { text-decoration: underline; }.tdmd-container {
      15 min
     </div>
     <div class="guide-card-meta-item">
-     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
-     Mar 2026
+     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4"/><path d="M21 12c0 4.97-4.03 9-9 9s-9-4.03-9-9 4.03-9 9-9 9 4.03 9 9z"/></svg>
+     Reviewed Jul 2026
     </div>
    </div>
    <div class="guide-card-arrow">Read guide <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></div>
   </div>
  </a>
+</div>
 
- <a href="/health-guides/latisse-guide/" class="guide-card">
+ <div class="guide-card" data-slug="latisse-guide" data-clicks="31" data-reviewed="2026-07-18">
+ <button type="button" class="guide-card-bookmark" data-slug="latisse-guide" aria-pressed="false" aria-label="Save Latisse (Bimatoprost) for Eyelash Growth for later">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 012-2h10a2 2 0 012 2z"/></svg>
+ </button>
+ <a href="/health-guides/latisse-guide/" class="guide-card-link">
   <div class="guide-card-thumb guide-card-thumb--sm">
    <img src="/health-guides/latisse-guide/images/thumb-latisse-guide.webp" alt="Latisse (Bimatoprost) for Eyelash Growth" loading="lazy">
   </div>
@@ -2206,15 +2781,20 @@ a:hover { text-decoration: underline; }.tdmd-container {
      15 min
     </div>
     <div class="guide-card-meta-item">
-     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
-     Mar 2026
+     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4"/><path d="M21 12c0 4.97-4.03 9-9 9s-9-4.03-9-9 4.03-9 9-9 9 4.03 9 9z"/></svg>
+     Reviewed Jul 2026
     </div>
    </div>
    <div class="guide-card-arrow">Read guide <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></div>
   </div>
  </a>
+</div>
 
- <a href="/health-guides/smoking-cessation-guide/" class="guide-card">
+ <div class="guide-card" data-slug="smoking-cessation-guide" data-clicks="3" data-reviewed="2026-07-18">
+ <button type="button" class="guide-card-bookmark" data-slug="smoking-cessation-guide" aria-pressed="false" aria-label="Save Smoking Cessation for later">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 012-2h10a2 2 0 012 2z"/></svg>
+ </button>
+ <a href="/health-guides/smoking-cessation-guide/" class="guide-card-link">
   <div class="guide-card-thumb guide-card-thumb--sm">
    <img src="/health-guides/smoking-cessation-guide/images/thumb-smoking-cessation-guide.webp" alt="Smoking Cessation" loading="lazy">
   </div>
@@ -2228,13 +2808,14 @@ a:hover { text-decoration: underline; }.tdmd-container {
      15 min
     </div>
     <div class="guide-card-meta-item">
-     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
-     Mar 2026
+     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4"/><path d="M21 12c0 4.97-4.03 9-9 9s-9-4.03-9-9 4.03-9 9-9 9 4.03 9 9z"/></svg>
+     Reviewed Jul 2026
     </div>
    </div>
    <div class="guide-card-arrow">Read guide <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></div>
   </div>
  </a>
+</div>
 
   </div>
  </section>
@@ -2251,7 +2832,11 @@ a:hover { text-decoration: underline; }.tdmd-container {
  </div>
   <div class="guides-grid">
 
- <a href="/health-guides/visby-at-home-sti-pcr-test-review/" class="guide-card">
+ <div class="guide-card" data-slug="visby-at-home-sti-pcr-test-review" data-clicks="25" data-reviewed="2026-07-14">
+ <button type="button" class="guide-card-bookmark" data-slug="visby-at-home-sti-pcr-test-review" aria-pressed="false" aria-label="Save Visby At-Home PCR Test for STIs for later">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 012-2h10a2 2 0 012 2z"/></svg>
+ </button>
+ <a href="/health-guides/visby-at-home-sti-pcr-test-review/" class="guide-card-link">
   <div class="guide-card-thumb guide-card-thumb--sm">
    <img src="/health-guides/visby-at-home-sti-pcr-test-review/images/thumb-visby-at-home-sti-pcr-test-review.webp" alt="Visby At-Home PCR Test for STIs" loading="lazy">
   </div>
@@ -2265,15 +2850,20 @@ a:hover { text-decoration: underline; }.tdmd-container {
      10 min
     </div>
     <div class="guide-card-meta-item">
-     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
-     May 2026
+     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4"/><path d="M21 12c0 4.97-4.03 9-9 9s-9-4.03-9-9 4.03-9 9-9 9 4.03 9 9z"/></svg>
+     Reviewed Jul 2026
     </div>
    </div>
    <div class="guide-card-arrow">Read guide <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></div>
   </div>
  </a>
+</div>
 
- <a href="/health-guides/azo-home-uti-test-strips-review/" class="guide-card">
+ <div class="guide-card" data-slug="azo-home-uti-test-strips-review" data-clicks="478" data-reviewed="2026-08-10">
+ <button type="button" class="guide-card-bookmark" data-slug="azo-home-uti-test-strips-review" aria-pressed="false" aria-label="Save AZO Home UTI Test Strips Review for later">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 012-2h10a2 2 0 012 2z"/></svg>
+ </button>
+ <a href="/health-guides/azo-home-uti-test-strips-review/" class="guide-card-link">
   <div class="guide-card-thumb guide-card-thumb--sm">
    <img src="/health-guides/azo-home-uti-test-strips-review/images/thumb-azo-home-uti-test-strips-review.webp" alt="AZO Home UTI Test Strips Review" loading="lazy">
   </div>
@@ -2287,15 +2877,20 @@ a:hover { text-decoration: underline; }.tdmd-container {
      10 min
     </div>
     <div class="guide-card-meta-item">
-     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
-     August 2026
+     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4"/><path d="M21 12c0 4.97-4.03 9-9 9s-9-4.03-9-9 4.03-9 9-9 9 4.03 9 9z"/></svg>
+     Reviewed Aug 2026
     </div>
    </div>
    <div class="guide-card-arrow">Read guide <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></div>
   </div>
  </a>
+</div>
 
- <a href="/health-guides/everlywell-sti-test-panel-review/" class="guide-card">
+ <div class="guide-card" data-slug="everlywell-sti-test-panel-review" data-clicks="3" data-reviewed="2026-07-14">
+ <button type="button" class="guide-card-bookmark" data-slug="everlywell-sti-test-panel-review" aria-pressed="false" aria-label="Save Everlywell STI Test Panel Review for later">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 012-2h10a2 2 0 012 2z"/></svg>
+ </button>
+ <a href="/health-guides/everlywell-sti-test-panel-review/" class="guide-card-link">
   <div class="guide-card-thumb guide-card-thumb--sm">
    <img src="/health-guides/everlywell-sti-test-panel-review/images/thumb-everlywell-sti-test-panel-review.webp" alt="Everlywell STI Test Panel Review" loading="lazy">
   </div>
@@ -2309,13 +2904,14 @@ a:hover { text-decoration: underline; }.tdmd-container {
      9–11 min
     </div>
     <div class="guide-card-meta-item">
-     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
-     Jun 2026
+     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4"/><path d="M21 12c0 4.97-4.03 9-9 9s-9-4.03-9-9 4.03-9 9-9 9 4.03 9 9z"/></svg>
+     Reviewed Jul 2026
     </div>
    </div>
    <div class="guide-card-arrow">Read guide <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></div>
   </div>
  </a>
+</div>
 
   </div>
  </section>
@@ -2661,7 +3257,57 @@ document.querySelectorAll('a[target="_blank"]').forEach(function(link) {
  });
 });
 
-// Health Guides: category filter + search
+// Health Guides: saved-for-later (bookmarks)
+var TDMDSaved = (function () {
+ var KEY = 'tdmd-saved-guides';
+ function getAll() {
+ try {
+ var raw = window.localStorage.getItem(KEY);
+ return raw ? JSON.parse(raw) : [];
+ } catch (e) { return []; }
+ }
+ function saveAll(list) {
+ try { window.localStorage.setItem(KEY, JSON.stringify(list)); } catch (e) {}
+ }
+ function has(slug) { return getAll().indexOf(slug) !== -1; }
+ function toggle(slug) {
+ var list = getAll();
+ var idx = list.indexOf(slug);
+ if (idx === -1) { list.push(slug); } else { list.splice(idx, 1); }
+ saveAll(list);
+ return list.indexOf(slug) !== -1;
+ }
+ return { has: has, toggle: toggle, getAll: getAll };
+})();
+
+(function () {
+ var buttons = document.querySelectorAll('.guide-card-bookmark');
+ var countEl = document.getElementById('guidesSavedCount');
+
+ function refreshCount() {
+ if (countEl) { countEl.textContent = '(' + TDMDSaved.getAll().length + ')'; }
+ }
+
+ buttons.forEach(function (btn) {
+ var slug = btn.getAttribute('data-slug');
+ if (TDMDSaved.has(slug)) { btn.setAttribute('aria-pressed', 'true'); }
+ btn.addEventListener('click', function (e) {
+ e.preventDefault();
+ e.stopPropagation();
+ var nowSaved = TDMDSaved.toggle(slug);
+ btn.setAttribute('aria-pressed', nowSaved ? 'true' : 'false');
+ refreshCount();
+ var savedPill = document.querySelector('.guides-pill[data-cat="saved"]');
+ if (savedPill && savedPill.classList.contains('guides-pill-active') && window.TDMDApplyFilter) {
+ window.TDMDApplyFilter();
+ }
+ });
+ });
+
+ refreshCount();
+})();
+
+// Health Guides: category filter + search + saved
 (function () {
  var searchInput = document.getElementById('guidesSearch');
  var pills = document.querySelectorAll('.guides-pill');
@@ -2680,15 +3326,20 @@ document.querySelectorAll('a[target="_blank"]').forEach(function(link) {
  function applyFilter() {
  var query = norm(searchInput.value.trim());
  var cat = activeCat();
+ var savedSet = cat === 'saved' ? TDMDSaved.getAll() : null;
  var totalVisible = 0;
 
  categorySections.forEach(function (section) {
  var sectionCat = section.getAttribute('data-cat');
- var catMatches = (cat === 'all' || cat === sectionCat);
  var cards = section.querySelectorAll('.guide-card');
  var visibleInSection = 0;
 
  cards.forEach(function (card) {
+ var catMatches;
+ if (cat === 'all') { catMatches = true; }
+ else if (cat === 'saved') { catMatches = savedSet.indexOf(card.getAttribute('data-slug')) !== -1; }
+ else { catMatches = (cat === sectionCat); }
+
  var titleEl = card.querySelector('.guide-card-title');
  var descEl = card.querySelector('.guide-card-desc');
  var title = norm(titleEl ? titleEl.textContent : '');
@@ -2699,14 +3350,14 @@ document.querySelectorAll('a[target="_blank"]').forEach(function(link) {
  if (show) { visibleInSection++; }
  });
 
- var showSection = catMatches && (!query || visibleInSection > 0);
+ var showSection = visibleInSection > 0;
  section.style.display = showSection ? '' : 'none';
  totalVisible += visibleInSection;
 
  var countEl = section.querySelector('.guides-category-count');
  if (countEl) {
  var total = countEl.getAttribute('data-total');
- if (query) {
+ if (query || cat === 'saved') {
  countEl.textContent = '(' + visibleInSection + ' of ' + total + ' shown)';
  } else {
  countEl.textContent = '(' + total + ' guides)';
@@ -2724,6 +3375,8 @@ document.querySelectorAll('a[target="_blank"]').forEach(function(link) {
  }
  }
 
+ window.TDMDApplyFilter = applyFilter;
+
  pills.forEach(function (pill) {
  pill.addEventListener('click', function () {
  pills.forEach(function (p) {
@@ -2735,7 +3388,7 @@ document.querySelectorAll('a[target="_blank"]').forEach(function(link) {
  searchInput.value = '';
  applyFilter();
  var cat = pill.getAttribute('data-cat');
- if (cat !== 'all') {
+ if (cat !== 'all' && cat !== 'saved') {
  var target = document.getElementById('cat-' + cat);
  if (target) { target.scrollIntoView({ behavior: 'smooth', block: 'start' }); }
  }
@@ -2754,6 +3407,79 @@ document.querySelectorAll('a[target="_blank"]').forEach(function(link) {
  }
  applyFilter();
  });
+})();
+
+// Health Guides: sort control (applies within each category's standard grid only;
+// the curated featured tier at the top of each category keeps its traffic-based order)
+(function () {
+ var select = document.getElementById('guidesSort');
+ if (!select) { return; }
+
+ select.addEventListener('change', function () {
+ var mode = select.value;
+ document.querySelectorAll('.guides-grid').forEach(function (grid) {
+ var cards = Array.prototype.slice.call(grid.querySelectorAll('.guide-card'));
+ if (mode === 'default') {
+ cards.sort(function (a, b) { return (a.__originalIndex || 0) - (b.__originalIndex || 0); });
+ } else if (mode === 'popular') {
+ cards.sort(function (a, b) { return (parseInt(b.getAttribute('data-clicks'), 10) || 0) - (parseInt(a.getAttribute('data-clicks'), 10) || 0); });
+ } else if (mode === 'recent') {
+ cards.sort(function (a, b) {
+ var ad = a.getAttribute('data-reviewed') || '';
+ var bd = b.getAttribute('data-reviewed') || '';
+ return bd.localeCompare(ad);
+ });
+ } else if (mode === 'az') {
+ cards.sort(function (a, b) {
+ var at = (a.querySelector('.guide-card-title') || {}).textContent || '';
+ var bt = (b.querySelector('.guide-card-title') || {}).textContent || '';
+ return at.trim().localeCompare(bt.trim());
+ });
+ }
+ cards.forEach(function (card) { grid.appendChild(card); });
+ });
+ });
+
+ // remember original document order so "Curated order" can restore it
+ document.querySelectorAll('.guides-grid').forEach(function (grid) {
+ Array.prototype.slice.call(grid.querySelectorAll('.guide-card')).forEach(function (card, i) {
+ card.__originalIndex = i;
+ });
+ });
+})();
+
+// Health Guides: seasonal banner (client-side, self-updating by month, no redeploy needed)
+(function () {
+ var banner = document.getElementById('guidesSeasonalBanner');
+ var titleEl = document.getElementById('guidesSeasonalTitle');
+ if (!banner || !titleEl) { return; }
+
+ var seasonal = {
+ 0: { slug: 'cold-and-flu-guide', title: 'Common Cold & Influenza (Flu)' },
+ 1: { slug: 'covid-19-paxlovid-treatment-guide', title: 'COVID-19 & Paxlovid Treatment' },
+ 2: { slug: 'seasonal-allergies-guide', title: 'Seasonal Allergies (Allergic Rhinitis)' },
+ 3: { slug: 'seasonal-allergies-guide', title: 'Seasonal Allergies (Allergic Rhinitis)' },
+ 4: { slug: 'tick-bite-treatment-guide', title: 'Tick Bite & Lyme Prevention' },
+ 5: { slug: 'motion-sickness-treatment-guide', title: 'Motion Sickness' },
+ 6: { slug: 'altitude-sickness-prevention-guide', title: 'Altitude Sickness Prevention' },
+ 7: { slug: 'wildfire-smoke-health-guide', title: 'Wildfire Smoke and Your Health' },
+ 8: { slug: 'head-lice-treatment-guide', title: 'Head Lice Treatment' },
+ 9: { slug: 'cold-and-flu-guide', title: 'Common Cold & Influenza (Flu)' },
+ 10: { slug: 'cold-and-flu-guide', title: 'Common Cold & Influenza (Flu)' },
+ 11: { slug: 'covid-19-paxlovid-treatment-guide', title: 'COVID-19 & Paxlovid Treatment' }
+ };
+
+ var month = new Date().getMonth();
+ var pick = seasonal[month];
+ if (!pick) { return; }
+
+ var card = document.querySelector('.guide-card[data-slug="' + pick.slug + '"] .guide-card-link');
+ var href = card ? card.getAttribute('href') : null;
+ if (!href) { return; }
+
+ banner.setAttribute('href', href);
+ titleEl.textContent = pick.title;
+ banner.hidden = false;
 })();
 </script>
 
