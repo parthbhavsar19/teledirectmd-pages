@@ -3,6 +3,8 @@
 // config object, so it can be rolled out to every cost page. Static-export safe.
 // Schema/JSON-LD stays in the parent page.
 
+import { AGGREGATE_RATING_VALUE, TOTAL_REVIEW_COUNT } from '../../lib/review-schema';
+
 const GOLD = '#E8A33D';
 
 // Render HTML strings that the config uses (answerBody, educationalGap paragraphs).
@@ -172,7 +174,7 @@ export default function CostPageRedesign({ cfg, relatedCost = [], comparePages =
               <span className="big">${price}</span><span className="lab">flat · no insurance required</span>
             </div>
             <div><a href="/book-online" className="cxr-cta">Book a Visit, ${price} →</a></div>
-            <p className="cxr-trust">Board-certified MD · 44 states · evenings &amp; weekends · HSA/FSA accepted · 5.0★ (125 reviews)</p>
+            <p className="cxr-trust">Board-certified MD · 44 states + DC · evenings &amp; weekends · HSA/FSA accepted · {AGGREGATE_RATING_VALUE}★ ({TOTAL_REVIEW_COUNT} reviews)</p>
             {/* Visible reviewer + price-verification line.
 
                These 21 pages had no visible byline or date anywhere in the rendered

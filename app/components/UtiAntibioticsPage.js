@@ -5,6 +5,8 @@
 // Type system: Fraunces (display, warm editorial serif) + DM Sans (body) via CDN.
 // Palette: navy #003E52, teal #0C8F99, gold accent #E8A33D, warm neutrals.
 
+import { AGGREGATE_RATING_VALUE, TOTAL_REVIEW_COUNT } from '../../lib/review-schema';
+
 const NAVY = '#003E52';
 const TEAL = '#0C8F99';
 const GOLD = '#E8A33D';
@@ -167,7 +169,7 @@ export default function UtiAntibioticsPage({ price = '79' }) {
               <span className="med">$5–$25</span><span className="lab">generic antibiotic</span>
             </div>
             <div><a href="/book-online" className="uap-cta">Get a UTI Prescription Today →</a></div>
-            <p className="uap-trust">Board-certified MD · 44 states · evenings &amp; weekends · HSA/FSA accepted · 5.0★ (125 reviews)</p>
+            <p className="uap-trust">Board-certified MD · 44 states + DC · evenings &amp; weekends · HSA/FSA accepted · {AGGREGATE_RATING_VALUE}★ ({TOTAL_REVIEW_COUNT} reviews)</p>
           </div>
           <div className="uap-hcard">
             <h3>What each UTI antibiotic costs</h3>

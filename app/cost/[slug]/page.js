@@ -50,7 +50,13 @@ export async function generateMetadata({ params }) {
       title: cfg.metaTitle,
       description: cfg.metaDescription,
       url: pageUrl,
+      // None of the 22 /cost/* pages set an og:image (verified: no `images` key
+      // anywhere in this file before 2026-08-11). Falls back to the sitewide
+      // editorial default until each page gets its own tdmd-<slug>-og.png
+      // following the convention already used on /[slug]/ and /[slug]/[conditionSlug]/.
+      images: [{ url: `${baseUrl}/og-default-editorial.jpg`, alt: cfg.h1 }],
     },
+    twitter: { card: 'summary_large_image', title: cfg.metaTitle, description: cfg.metaDescription, images: [`${baseUrl}/og-default-editorial.jpg`] },
     alternates: { canonical: pageUrl },
   };
 }
