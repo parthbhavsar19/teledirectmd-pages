@@ -1,0 +1,256 @@
+{
+  "stateCode": "HI",
+  "stateName": "Hawaii",
+  "schemaVersion": "1.0",
+  "lastReviewed": "2026-08-12",
+  "reviewedBy": "Parth Bhavsar, MD",
+  "writingNotes": {
+    "citationCorrectionNote": "The generic template currently live on /hi/ pages cites HRS §453-1.3 as the source of Hawaii's insurer telehealth-parity requirement. That is inaccurate. §453-1.3 (Practice of Telehealth) governs establishing a physician-patient relationship via telehealth and prescribing standards — it does not address payer reimbursement. The actual commercial-payer parity mandate is HRS §431:10A-116.3 (with parallel provisions at §432:1-601.5 and §432D-23.5), enacted as Act 107 and most recently extended by SB1281/HB557 (effective July 1, 2025) through December 31, 2027. Medicaid (Med-QUEST / QUEST Integration) telehealth parity is a separate statutory requirement administered by the Department of Human Services. This template corrects the citation and adds the sunset date. Sources: https://law.justia.com/codes/hawaii/title-25/chapter-453/section-453-1-3/ ; https://www.manatt.com/insights/white-papers/2025/manatt-telehealth-policy-tracker-tracking-ongoing-federal-and-state-telehealth-policy-changes ; https://www.cchpca.org/hawaii/",
+    "medQuestNote": "QUEST Integration (Hawaii Medicaid managed care) is delivered through five MCOs: AlohaCare, Hawaii Medical Service Association (HMSA), Kaiser Foundation Health Plan (O'ahu and Maui only), 'Ohana Health Plan, and UnitedHealthcare Community Plan. Source: https://medquest.hawaii.gov/content/dam/formsanddocuments/resources/reports/Rev_04-02-26_RYamane_Sec%20103F-107%20HRS%20on%20Medicaid%20Contracts_signed.pdf (April 2026, official Med-QUEST report to the Hawaii legislature).",
+    "payerMarketShareNote": "HMSA's reported commercial market share varies by source and measurement year — 51% per HMSA's own 2018 one-pager (hceg.org), 44.26% per a 2026 third-party payer-concentration estimate (openpayer.com), and up to ~70-72% per older advocacy/opinion pieces (Hawaii Free Press, 2025-2026). This template uses the conservative, directionally-safe framing 'the dominant commercial carrier' rather than committing to one specific percentage. Flag for a single authoritative figure (e.g. Hawaii Insurance Division market-share filing) before this becomes a published numeric claim.",
+    "eprescribingNote": "CORRECTED 2026-08-12 after legal review: HRS §329-38.2 (created by Act 153/SB2646, 2018) was the statute that would have required Hawaii prescribers to query HI-PDMP/AWARxE before prescribing Schedule II-IV controlled substances. It was written with a built-in sunset and Hawaii's own official current statute index (capitol.hawaii.gov/hrscurrent, chapter 329 Part III) now lists it as REPEALED effective June 30, 2023, with no extension found (unlike the telehealth parity statutes, which were extended by SB1281 through 2027). A 2024 peer-reviewed Hawaii Journal of Health & Social Welfare article still describes the query as mandatory, which conflicts with the official codification -- flagging this conflict rather than resolving it silently. Since TeleDirectMD does not prescribe controlled substances via telehealth in any state, this has zero operational impact, so the specific repealed-statute citation has been removed from all patient-facing text below. HI-PDMP/AWARxE itself is still real and active, governed by HRS Chapter 329 Part VIII (§329-101 through 329-104, confirmed current), which covers registration and dispenser reporting duties, not a prescriber query mandate.",
+    "ratLungwormNote": "Case counts sourced from Hawaii Department of Health's own October 2025 medical advisory (health.hawaii.gov): 90 lab-confirmed + 12 probable cases statewide from Jan 1 2014 to the advisory date, 76% in Hawaiʻi County (Big Island), 13% Maui County, 7% Honolulu County, 4% Kauaʻi County. This is a low-incidence but genuinely Hawaii-endemic condition (CDC confirms endemic on all islands) — framed here as a telehealth-ineligible red-flag/referral item, not as a condition TeleDirectMD treats.",
+    "vogNote": "Vog (volcanic smog from Kilauea) is an active, ongoing Hawaii Department of Health air-quality concern as of a 2026 governor's office press release (governor.hawaii.gov), most severe on Hawaiʻi Island especially near Kailua-Kona. It is well-documented by HDOH, USGS, and the American Lung Association in Hawaiʻi as an asthma/COPD trigger. This is the strongest genuinely Hawaii-specific clinical hook for the asthma-refills-online page and directly addresses the 'asthma treatment kailua' / 'asthma honolulu' queries currently ranking position 15-24 with zero clicks."
+  },
+  "voiceProfile": {
+    "density": "mid",
+    "regulation": "standard",
+    "payerLandscape": "self-pay-only",
+    "epidemiology": [
+      "rat-lungworm-endemic",
+      "vog-respiratory",
+      "dengue-periodic-historical",
+      "low-pollen-allergy"
+    ],
+    "boardStrictness": "standard",
+    "culturalRegister": "west",
+    "voiceNotes": "Hawaii is bimodal, not uniform: 69% of residents live in urban Honolulu/O'ahu (Honolulu County), while the neighbor islands — Hawaiʻi Island (Big Island), Maui County (Maui, Moloka'i, Lana'i), and Kaua'i — are comparatively rural with meaningfully thinner specialist and urgent-care access. The dominant differentiator for TeleDirectMD in Hawaii is NOT a single city voice, it's the inter-island access gap — neighbor-island patients have historically had to fly to O'ahu for care that a same-day video visit now removes. TeleDirectMD is self-pay only in Hawaii; HMSA (BCBS affiliate) and Kaiser Permanente (O'ahu/Maui only) dominate the insured market, and QUEST Integration (Medicaid) is a five-MCO managed care program. Voice should acknowledge this landscape honestly rather than ignore it. Use 'Oʻahu,' 'Hawaiʻi Island,' 'Maui,' and 'Kauaʻi' as primary geographic anchors — more useful to Hawaii searchers than city names alone."
+  },
+  "stateHero": {
+    "openingParagraph": "Hawaii residents on any island can book a same-day video visit with Parth Bhavsar, MD — board-certified Family Medicine — without a flight to Oʻahu. TeleDirectMD holds an active Hawaii medical license (MD-26646-0) issued by the Hawaii Medical Board, verifiable through the state's MyPVL license search. Hawaii's geography means that for many residents of Hawaiʻi Island, Maui, Molokaʻi, Lanaʻi, and Kauaʻi, seeing a specialist or even reaching urgent care has historically meant an inter-island flight to Oʻahu — a same-day Hawaii telehealth visit removes that trip entirely for conditions appropriate for video evaluation. A visit costs $79 flat self-pay, with no insurance complexity and no surprise billing. HSA and FSA cards are accepted. Adults 18 and older physically located anywhere in the state — Oʻahu, Hawaiʻi Island, Maui County, or Kauaʻi — are eligible, including visitors currently in Hawaii.",
+    "stateContextHint": "Licensed in Hawaii (MD-26646-0) by the Hawaii Medical Board. Same-day video visits for residents of every island. $79 flat self-pay — no insurance, no inter-island flight required.",
+    "saturation": {
+      "stateNameMentions": 8,
+      "stateEntityMentions": 5
+    }
+  },
+  "stateEligibility": {
+    "intro": "TeleDirectMD serves adults age 18 and older who are physically located in Hawaii at the time of the video visit — on Oʻahu, Hawaiʻi Island, Maui, Molokaʻi, Lanaʻi, or Kauaʻi. Hawaii Revised Statutes §453-1.3 authorizes establishing a physician-patient relationship via telehealth without a prior in-person visit, and permits e-prescribing where clinically appropriate, though prescribing opiates or certifying medical cannabis still requires an in-person consultation under the same statute. Visitors currently on any Hawaiian island — including tourists and those here for work — are eligible while physically present in the state. Minors and patients requiring DEA-controlled substances are outside TeleDirectMD's Hawaii telehealth scope.",
+    "localTriggers": [
+      "Hawaii Revised Statutes §453-1.3 requires the patient to be physically located in Hawaii at the time of the telehealth visit — a patient who has left the state, including one returning to the mainland or another country, is not eligible under the Hawaii license during that trip.",
+      "Hawaii does not require an initial in-person visit before a telehealth physician-patient relationship can be established for most conditions, but §453-1.3 carves out an exception: prescribing opiates or certifying medical cannabis use requires a prior in-person consultation, which TeleDirectMD does not provide.",
+      "Patients on Hawaiʻi Island, especially in areas near active volcanic activity, or on Maui, Molokaʻi, Lanaʻi, and Kauaʻi should note that TeleDirectMD's video visits do not replace emergency evacuation or in-person care for volcanic hazard events, natural disasters, or conditions requiring physical examination.",
+      "Visitors to Hawaii from the mainland or internationally are eligible for a Hawaii telehealth visit while physically in the state, but should confirm their travel insurance or trip-cancellation coverage separately — TeleDirectMD's $79 self-pay rate applies regardless of visitor or resident status."
+    ]
+  },
+  "statePricing": {
+    "context": "TeleDirectMD charges $79 flat self-pay for every Hawaii telehealth visit — no insurance required, no copay tiers, no claim denials, and no surprise billing after the visit. HSA and FSA cards are accepted at booking. Hawaii's insured market is led by Hawaii Medical Service Association (HMSA, a Blue Cross Blue Shield affiliate) and Kaiser Permanente — published HMSA market-share figures vary widely by source (roughly 44% to 70%+ depending on year and methodology), so this template avoids citing one specific percentage pending a single authoritative figure. Kaiser Permanente in Hawaii is only available on Oʻahu and Maui, which narrows individual-market options on Hawaiʻi Island and Kauaʻi — flag this framing for Parth to confirm before publishing, since it draws on a comparison-site estimate rather than a state insurance-division filing. TeleDirectMD does not currently hold an in-network agreement with HMSA, Kaiser Permanente, or any Hawaii QUEST Integration Medicaid managed care plan (AlohaCare, HMSA QUEST, Kaiser QUEST, 'Ohana Health Plan, or UnitedHealthcare Community Plan). For neighbor-island residents facing a same-day specialist appointment only available on Oʻahu, the $79 self-pay rate is typically far below the combined cost of an inter-island flight, ground transportation, and lost work time to see a comparable provider in person.",
+    "additionalNotes": [
+      "$79 flat self-pay — no hidden fees, no facility charges, no inter-island travel cost.",
+      "HSA and FSA cards accepted at booking.",
+      "No insurance verification or prior authorization required."
+    ]
+  },
+  "stateTreatmentContext": {
+    "pharmacyAndRx": "Hawaii has no general e-prescribing mandate covering all drug classes, unlike some mainland states. Hawaii does operate the Hawaii Prescription Drug Monitoring Program (HI-PDMP, also called AWARxE), administered by the Department of Law Enforcement's Narcotics Enforcement Division (NED) under HRS Chapter 329, Part VIII, which tracks controlled-substance prescribing and dispensing statewide. TeleDirectMD does not prescribe DEA-controlled substances via telehealth in Hawaii or any state, so PDMP requirements do not affect TeleDirectMD visits; the program is noted here for patient transparency only. E-prescriptions for appropriate medications are routed to the patient's Hawaii pharmacy of choice. Longs Drugs is the pharmacy Hawaii residents most associate with the islands — the chain opened its first Hawaii store in Honolulu in 1954 and built enough local loyalty that when CVS Health acquired it in 2008, CVS kept the Longs name across the islands specifically because of that brand recognition; there are roughly 70 Longs locations across four islands today, all now operating as part of CVS Health. Walgreens and Walmart Pharmacy also operate statewide. Times Pharmacy, part of the family-owned Times Supermarkets chain, is a genuinely local Hawaii pharmacy option with locations concentrated on Oʻahu.",
+    "pharmacyChains": [
+      {
+        "name": "Longs Drugs (CVS Health)",
+        "coverageNote": "Hawaii's most recognized pharmacy brand — first opened in Honolulu in 1954, kept its name after CVS Health's 2008 acquisition due to deep local brand loyalty; roughly 70 locations across Oʻahu, Maui, Hawaiʻi Island, and Kauaʻi",
+        "eRxAccepted": true
+      },
+      {
+        "name": "Walgreens",
+        "coverageNote": "Statewide, concentrated on Oʻahu with locations on neighbor islands",
+        "eRxAccepted": true
+      },
+      {
+        "name": "Walmart Pharmacy",
+        "coverageNote": "Oʻahu and select neighbor-island locations",
+        "eRxAccepted": true
+      },
+      {
+        "name": "Times Pharmacy",
+        "coverageNote": "Family-owned, Hawaii-local chain (part of Times Supermarkets); locations concentrated in Honolulu, Kailua, Kaneohe, and Pearl City on Oʻahu",
+        "eRxAccepted": true
+      },
+      {
+        "name": "CVS Pharmacy",
+        "coverageNote": "Statewide presence in addition to the Longs Drugs-branded stores CVS operates in Hawaii",
+        "eRxAccepted": true
+      }
+    ]
+  },
+  "stateEpidemiology": {
+    "general": "Hawaii's health landscape is shaped by geography as much as climate. Rat lungworm disease (neuroangiostrongyliasis), caused by the parasite Angiostrongylus cantonensis, is endemic on all the main Hawaiian islands and is tracked by the Hawaii Department of Health; from 2014 through late 2025, the state recorded 90 lab-confirmed and 12 probable cases, with about 76% on Hawaiʻi Island, 13% in Maui County, 7% in Honolulu County, and 4% in Kauaʻi County. It typically follows ingestion of raw or undercooked snails, slugs, or contaminated produce, and presents with severe headache and neck stiffness — a red flag that requires in-person evaluation, not telehealth. On Hawaiʻi Island specifically, vog — volcanic smog produced when sulfur dioxide from Kīlauea reacts with the atmosphere — is a well-documented, ongoing respiratory hazard tracked by the Hawaii Department of Health and the American Lung Association in Hawaiʻi; it worsens asthma and COPD symptoms and is most concentrated around Kailua-Kona and the volcano's downwind path. Hawaii's tropical climate keeps pollen-driven seasonal allergies comparatively mild relative to the mainland, but humidity and mold exposure are a more common local trigger for allergic and respiratory symptoms.",
+    "citations": [
+      {
+        "label": "Hawaii Department of Health — Neuroangiostrongyliasis (Rat Lungworm) medical advisory, October 2025, statewide case counts 2014-2025",
+        "url": "https://health.hawaii.gov/docd/files/2025/10/Medical-Advisory-Rat-lung-Worm-Kauai-10.13.25.pdf"
+      },
+      {
+        "label": "CDC — About Rat Lungworm Disease",
+        "url": "https://www.cdc.gov/angiostrongylus/about/index.html"
+      },
+      {
+        "label": "Hawaii Governor's Office — DOH Urges Caution With Elevated Volcanic Gas Emissions (vog advisory)",
+        "url": "https://governor.hawaii.gov/newsroom/news-release-doh-urges-caution-with-elevated-volcanic-gas-emissions/"
+      },
+      {
+        "label": "Hawaii Department of Health — Kilauea Vog FAQ",
+        "url": "https://health.hawaii.gov/cab/files/2015/02/kilauea_vog_faq-january-2015b.pdf"
+      },
+      {
+        "label": "American Lung Association in Hawaiʻi — vog and asthma press release",
+        "url": "https://www.lung.org/media/press-releases/hi-kilauea-mar-11-2026"
+      },
+      {
+        "label": "Hawaii DBEDT — 2024 County Population Estimates (Facts & Figures)",
+        "url": "https://files.hawaii.gov/dbedt/economic/library/facts/Facts_Figures_browsable.pdf"
+      }
+    ]
+  },
+  "stateCompliance": {
+    "credentialBlock": "Parth Bhavsar, MD — board-certified Family Medicine — holds an active Hawaii medical license (MD-26646-0), issued February 11, 2026, by the Hawaii Medical Board, operating under the Hawaii Department of Commerce and Consumer Affairs (DCCA), Professional and Vocational Licensing Division. Telehealth practice in Hawaii is governed by Hawaii Revised Statutes §453-1.3 (Practice of Telehealth), which authorizes establishing a physician-patient relationship via telehealth and sets prescribing standards. Hawaii patients may independently verify Dr. Bhavsar's license through the state's MyPVL public license search. The license expires January 31, 2028. NPI: 1104323203.",
+    "verifyUrl": "https://mypvl.dcca.hawaii.gov/public-license-search/",
+    "statuteCitation": "Hawaii Revised Statutes §453-1.3 (Practice of Telehealth)",
+    "licenseNumber": "MD-26646-0",
+    "boardName": "Hawaii Medical Board",
+    "boardUrl": "https://cca.hawaii.gov/pvl/boards/medical/",
+    "dateIssued": "2026-02-11",
+    "dateExpires": "2028-01-31"
+  },
+  "stateCities": {
+    "metroAndRural": "TeleDirectMD serves adults located anywhere in Hawaii across all four counties. Honolulu County — coextensive with the island of Oʻahu — holds about 69% of the state's population and includes Honolulu, Pearl City, Kailua, Waipahu, Kaneohe, Mililani Town, Ewa Beach, and Kapolei. Hawaiʻi County, coextensive with Hawaiʻi Island (the Big Island), is the state's fastest-growing county and includes Hilo and Kailua-Kona; it is also where the large majority of Hawaii's rat lungworm cases and nearly all vog exposure from Kīlauea are concentrated. Maui County covers Maui (including Kahului), Molokaʻi, and Lānaʻi. Kauaʻi County covers Kauaʻi and Niʻihau. Specialist and urgent-care access is meaningfully thinner on Hawaiʻi Island, Maui County, and Kauaʻi than on Oʻahu, which is the primary reason neighbor-island residents have historically needed to fly to Honolulu for care that a same-day telehealth visit can now handle without leaving the island.",
+    "cityList": [
+      {
+        "city": "Honolulu",
+        "county": "Honolulu County (Oʻahu)",
+        "note": "State capital and largest city"
+      },
+      {
+        "city": "Pearl City",
+        "county": "Honolulu County (Oʻahu)",
+        "note": "Suburban Oʻahu"
+      },
+      {
+        "city": "Kailua",
+        "county": "Honolulu County (Oʻahu)",
+        "note": "Windward Oʻahu"
+      },
+      {
+        "city": "Waipahu",
+        "county": "Honolulu County (Oʻahu)",
+        "note": "Central Oʻahu"
+      },
+      {
+        "city": "Kaneohe",
+        "county": "Honolulu County (Oʻahu)",
+        "note": "Windward Oʻahu"
+      },
+      {
+        "city": "Mililani Town",
+        "county": "Honolulu County (Oʻahu)",
+        "note": "Central Oʻahu"
+      },
+      {
+        "city": "Ewa Beach",
+        "county": "Honolulu County (Oʻahu)",
+        "note": "Leeward Oʻahu"
+      },
+      {
+        "city": "Kapolei",
+        "county": "Honolulu County (Oʻahu)",
+        "note": "Leeward Oʻahu, second urban center"
+      },
+      {
+        "city": "Hilo",
+        "county": "Hawaiʻi County (Big Island)",
+        "note": "Largest city on Hawaiʻi Island"
+      },
+      {
+        "city": "Kahului",
+        "county": "Maui County",
+        "note": "Largest city on Maui"
+      }
+    ],
+    "frontierCounties": []
+  },
+  "stateInsurance": {
+    "mode": "self-pay-only",
+    "selfPayDisclosure": "TeleDirectMD operates self-pay only in Hawaii — no commercial insurance, no QUEST Integration Medicaid plan, no Medicare. Every Hawaii visit is $79 flat self-pay, paid at booking, with no hidden fees or follow-up bills. HSA and FSA debit cards are accepted. Hawaii's commercially insured market is dominated by Hawaii Medical Service Association (HMSA) and Kaiser Permanente (Oʻahu and Maui only); TeleDirectMD is not in-network with either. Hawaii patients with commercial insurance may still book a TeleDirectMD visit at the $79 flat rate and submit the receipt to their plan for possible out-of-network reimbursement, though TeleDirectMD does not guarantee reimbursement and does not file claims on a patient's behalf. QUEST Integration (Hawaii Medicaid) beneficiaries — enrolled with AlohaCare, HMSA QUEST, Kaiser Permanente QUEST, 'Ohana Health Plan, or UnitedHealthcare Community Plan — should contact their plan to find an in-network telehealth provider.",
+    "payers": []
+  },
+  "stateFaqs": [
+    {
+      "question": "I live on Maui, Hawaiʻi Island, or Kauaʻi — do I need to fly to Oʻahu for this?",
+      "answer": "No. TeleDirectMD's video visits are available to adults physically located anywhere in Hawaii — Oʻahu, Hawaiʻi Island, Maui, Molokaʻi, Lānaʻi, or Kauaʻi. The visit happens over secure video from wherever you are; there's no inter-island flight required for conditions appropriate for telehealth evaluation."
+    },
+    {
+      "question": "Does TeleDirectMD accept HMSA or Kaiser Permanente in Hawaii?",
+      "answer": "No. TeleDirectMD is self-pay only in Hawaii and is not currently in-network with Hawaii Medical Service Association (HMSA), Kaiser Permanente, or any QUEST Integration Medicaid managed care plan. Every Hawaii visit is $79 flat, regardless of insurance status. You're welcome to submit the visit receipt to your plan for possible out-of-network reimbursement, though reimbursement isn't guaranteed."
+    },
+    {
+      "question": "I'm visiting Hawaii on vacation — can I still book a visit?",
+      "answer": "Yes. Hawaii Revised Statutes §453-1.3 requires only that you be physically located in Hawaii at the time of the visit, which covers visitors as well as residents. If you're currently on any Hawaiian island, you're eligible for a same-day video visit at the standard $79 self-pay rate."
+    },
+    {
+      "question": "Is telehealth legal for treating conditions like UTIs, sinus infections, or asthma flares in Hawaii?",
+      "answer": "Yes. Hawaii Revised Statutes §453-1.3 authorizes Hawaii-licensed physicians to establish a physician-patient relationship via telehealth and to prescribe electronically where clinically appropriate, without requiring a prior in-person visit for most conditions. Dr. Bhavsar holds an active Hawaii medical license (MD-26646-0) from the Hawaii Medical Board. The exception is prescribing opiates or certifying medical cannabis, which still requires an in-person consultation under the same statute — TeleDirectMD does not provide either."
+    },
+    {
+      "question": "I have a severe headache and neck stiffness after possibly eating unwashed produce — can I get evaluated by video?",
+      "answer": "No — this combination of symptoms should be evaluated in person, not by telehealth. Rat lungworm disease (neuroangiostrongyliasis) is endemic to all the Hawaiian Islands and is concentrated on Hawaiʻi Island, and severe headache with neck stiffness can be an early sign. If you have these symptoms, especially after eating raw produce, homemade juice, or kava that may not have been thoroughly washed, seek in-person medical evaluation right away rather than booking a video visit."
+    },
+    {
+      "question": "Are Hawaii telehealth visits covered at the same rate as in-person care if I do have insurance?",
+      "answer": "Hawaii's telehealth parity law (HRS §431:10A-116.3, extended through December 31, 2027 under Act 107 as amended) requires Hawaii-regulated commercial insurers to reimburse telehealth at parity with in-person care when a covered provider delivers the service. That parity requirement applies to your own insurer's in-network telehealth benefit — it does not apply to TeleDirectMD, since TeleDirectMD is not in-network with any Hawaii commercial payer and charges the same $79 flat rate to every patient regardless of insurance."
+    }
+  ],
+  "conditionOverrides": {
+    "uti-treatment-online": {
+      "stateConditionParagraph": "UTI visits are among the most common reasons Hawaii patients book TeleDirectMD, and the same-day access matters most for neighbor-island residents on Hawaiʻi Island, Maui, or Kauaʻi, where the nearest urgent care or walk-in clinic can be a much longer drive than it would be on Oʻahu. TeleDirectMD's telehealth approach screens for red flags — fever, flank pain, pregnancy, catheter use — before determining whether a video visit is appropriate; uncomplicated cystitis without those red flags is well suited to same-day video evaluation. A Hawaii visit with Dr. Bhavsar costs $79 flat self-pay, with e-prescriptions routed to any Oʻahu, Hawaiʻi Island, Maui, or Kauaʻi pharmacy, including Longs Drugs, Times Pharmacy, Walgreens, or Walmart Pharmacy."
+    },
+    "viral-gastroenteritis-treatment-online": {
+      "stateConditionParagraph": "Most acute vomiting and diarrhea in Hawaii is viral gastroenteritis and resolves with supportive care — hydration, rest, and anti-nausea or anti-diarrheal medication when appropriate — which is exactly what a same-day TeleDirectMD video visit can evaluate and treat. One important Hawaii-specific exception: if severe headache and neck stiffness accompany GI symptoms, especially after eating raw or undercooked snails, slugs, or unwashed produce, that combination can point to rat lungworm disease (neuroangiostrongyliasis), which is endemic on all the Hawaiian Islands and concentrated on Hawaiʻi Island. Rat lungworm disease requires in-person evaluation and is outside the scope of a telehealth visit — TeleDirectMD screens for this red flag before proceeding with standard gastroenteritis care. For uncomplicated viral gastroenteritis without these warning signs, a Hawaii video visit costs $79 flat self-pay."
+    },
+    "dental-pain-treatment-online": {
+      "stateConditionParagraph": "Dental pain is one of the conditions where a same-day TeleDirectMD video visit helps most on Oʻahu and the neighbor islands alike — a physician can evaluate whether the pain reflects a dental abscess needing urgent dental referral, versus pain manageable with an antibiotic bridge and over-the-counter pain control until a dentist appointment is available. This matters in Hawaii because dental specialist wait times can run longer on Hawaiʻi Island, Maui, and Kauaʻi than on Oʻahu. TeleDirectMD does not replace a dentist for the underlying dental problem, but can evaluate for signs of spreading infection, prescribe an antibiotic bridge when clinically appropriate, and help you get through the wait for a dental appointment. A Hawaii visit costs $79 flat self-pay, with prescriptions sent to any Longs Drugs, Times Pharmacy, Walgreens, or Walmart Pharmacy location."
+    },
+    "asthma-refills-online": {
+      "stateConditionParagraph": "Asthma management in Hawaii has a genuinely local trigger that mainland asthma content misses entirely: vog, the volcanic smog produced when sulfur dioxide from Kīlauea reacts with the atmosphere. Vog is a well-documented, ongoing concern tracked by the Hawaii Department of Health and the American Lung Association in Hawaiʻi, and it is most concentrated on Hawaiʻi Island, particularly around Kailua-Kona and areas downwind of the volcano, though it can spread across the state depending on wind conditions. For Hawaii residents with asthma, vog exposure can trigger bronchoconstriction and worsening symptoms even at brief exposure. TeleDirectMD can evaluate asthma symptoms and refill or adjust controller and rescue inhaler prescriptions by same-day video visit — useful when vog conditions spike and a patient needs their inhaler refilled without waiting for an in-person appointment. A Hawaii visit costs $79 flat self-pay, with prescriptions routed to any Hawaii pharmacy of your choice."
+    },
+    "erectile-dysfunction-treatment-online": {
+      "stateConditionParagraph": "Erectile dysfunction is a common and treatable condition that many Hawaii patients — across Oʻahu, Hawaiʻi Island, Maui, and Kauaʻi — prefer to discuss by private video visit rather than an in-person appointment. TeleDirectMD's board-certified physician evaluates history and appropriate red flags, then prescribes standard ED medication when clinically indicated, with e-prescriptions sent to any Hawaii pharmacy including Longs Drugs, Times Pharmacy, Walgreens, or Walmart Pharmacy. A Hawaii video visit costs $79 flat self-pay, with no insurance required and no in-person visit needed under Hawaii Revised Statutes §453-1.3."
+    },
+    "acid-reflux-refills-online": {
+      "stateConditionParagraph": "Acid reflux and GERD refills are a routine, same-day TeleDirectMD visit for Hawaii residents on any island — useful for both new evaluation and ongoing prescription refills for patients already diagnosed. TeleDirectMD screens for red-flag symptoms such as difficulty swallowing, unintended weight loss, or GI bleeding, which require in-person evaluation rather than telehealth, before proceeding with routine reflux management. For uncomplicated reflux symptoms, a Hawaii video visit costs $79 flat self-pay, with prescriptions sent electronically to any Hawaii pharmacy."
+    }
+  },
+  "stateLegalLayer": {
+    "required": true,
+    "blocks": [
+      {
+        "statute": "Hawaii Revised Statutes §453-1.3 (Practice of Telehealth)",
+        "renderAt": "hero-credential",
+        "content": "Telehealth services delivered to Hawaii patients are governed by Hawaii Revised Statutes §453-1.3, which authorizes a physician-patient relationship to be established via telehealth without a prior in-person visit for most conditions, and permits electronic prescribing where clinically appropriate. The statute specifically excludes prescribing opiates or certifying medical cannabis use from this pathway — both require an in-person consultation, which TeleDirectMD does not provide. The patient must be physically located in Hawaii at the time of the visit. TeleDirectMD complies with all requirements of HRS §453-1.3."
+      },
+      {
+        "statute": "Hawaii Revised Statutes §431:10A-116.3, §432:1-601.5, §432D-23.5 (Telehealth Insurance Parity, Act 107 as extended)",
+        "renderAt": "footer",
+        "content": "Hawaii's telehealth parity laws (HRS §431:10A-116.3 for accident and health insurers, with parallel provisions at §432:1-601.5 and §432D-23.5 for HMOs and mutual benefit societies) require Hawaii-regulated insurers to reimburse telehealth services at parity with equivalent in-person care. Act 107, as most recently extended by SB1281/HB557 (effective July 1, 2025), keeps this requirement in place through December 31, 2027. This law governs the relationship between Hawaii patients and their own insurers; TeleDirectMD does not bill Hawaii insurance and charges $79 flat self-pay for every Hawaii telehealth visit. Hawaii patients may submit our visit receipt to their insurer for possible out-of-network reimbursement."
+      },
+      {
+        "statute": "Hawaii Revised Statutes Chapter 329, Part VIII (Electronic Prescription Accountability System / HI-PDMP)",
+        "renderAt": "footer",
+        "content": "The Hawaii Prescription Drug Monitoring Program (HI-PDMP, also known as AWARxE), authorized under HRS Chapter 329, Part VIII (§§329-101 through 329-104) and administered by the Department of Law Enforcement's Narcotics Enforcement Division, tracks the prescribing and dispensing of controlled substances statewide. A separate 2018 statute (HRS §329-38.2, Act 153) once required prescribers to query the system before prescribing Schedule II-IV controlled substances, but that section is listed as repealed in Hawaii's current official statute index effective June 30, 2023, so this template does not cite it as an active mandatory-query requirement. TeleDirectMD does not prescribe controlled substances via Hawaii telehealth in any case. The PDMP is cited here for Hawaii patient transparency regarding how controlled substance prescriptions are tracked statewide."
+      },
+      {
+        "statute": "QUEST Integration — Hawaii Medicaid Managed Care (five MCOs)",
+        "renderAt": "footer",
+        "content": "Hawaii Medicaid is delivered through QUEST Integration, a managed care program with five contracted health plans: AlohaCare, Hawaii Medical Service Association (HMSA), Kaiser Foundation Health Plan (available on Oʻahu and Maui only), 'Ohana Health Plan, and UnitedHealthcare Community Plan. TeleDirectMD does not currently participate in any QUEST Integration plan. QUEST Integration beneficiaries should contact their assigned health plan directly to locate an in-network telehealth provider."
+      }
+    ],
+    "forbiddenPhrases": []
+  }
+}
