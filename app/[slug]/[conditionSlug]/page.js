@@ -609,17 +609,67 @@ export default async function ConditionPage({ params }) {
         </div>
       </div>
 
-      {/* 1) Hero */}
-      <section className="tdmd-hero" id={`${pid}-hero`}>
-        <div className="tdmd-container">
-          <div className="tdmd-hero-grid">
-            <div className="tdmd-hero-copy">
+      {/* 1) Hero — 2026-08-12: rebuilt to match the national ConditionPageRedesign
+          navy "cpr-hero" look (see app/components/ConditionPageRedesign.js). State
+          pages were still on the pre-redesign light .tdmd-hero, which read as thin
+          next to national pages. All original data bindings (toc links, benefits,
+          FL compliance, ICD-10, reviewed-by line) are preserved, just restyled. */}
+      <div className="cpr">
+        <style>{`
+          @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=DM+Sans:wght@400;500;600;700&display=swap');
+          .cpr{--navy:#003E52;--teal:#0C8F99;--gold:#E8A33D;--ink:#12303b;--muted:#5c7078;--line:#e4ecee;}
+          .cpr-hero h1,.cpr-hero h2{font-family:'Fraunces',Georgia,serif;font-weight:600;letter-spacing:-0.01em;}
+          .cpr-hero-wrap{max-width:1100px;margin:0 auto;padding:0 1.5rem;}
+          .cpr-hero{background:linear-gradient(160deg,#012f3e 0%,#01465a 60%,#065f6b 100%);color:#fff;padding:3rem 0 3.25rem;font-family:'DM Sans',system-ui,sans-serif;}
+          .cpr-hero-grid{display:grid;grid-template-columns:1.08fr .92fr;gap:2.5rem;align-items:start;}
+          @media(max-width:840px){.cpr-hero-grid{grid-template-columns:1fr;}}
+          @media(min-width:841px){.cpr-hero-hcard{position:sticky;top:1.5rem;}}
+          .cpr-hero-kicker{text-transform:uppercase;letter-spacing:.14em;font-size:.72rem;font-weight:700;color:#7fd0d8;margin:0 0 .6rem;}
+          .cpr-hero h1{font-size:clamp(2rem,4.4vw,2.9rem);line-height:1.08;color:#fff;margin:0 0 .9rem;}
+          .cpr-hero .sub{font-size:1.05rem;line-height:1.55;color:#d7ebee;margin:0 0 1.5rem;max-width:52ch;font-weight:650;}
+          .cpr-hero .intro{font-size:.97rem;line-height:1.6;color:#bfdfe3;margin:0 0 1.5rem;max-width:56ch;}
+          .cpr-hero-answer{background:rgba(255,255,255,0.08);border-left:4px solid #7fd0d8;border-radius:0 10px 10px 0;padding:.9rem 1.15rem;margin:0 0 1.5rem;}
+          .cpr-hero-answer p{margin:0;color:#eaf6f7;font-size:.98rem;line-height:1.55;}
+          .cpr-hero-toc-intro{color:#bfdfe3;font-size:.9rem;margin:0 0 .4rem;}
+          .cpr-hero-toc{margin:0 0 1.1rem;padding-left:1.2rem;display:grid;gap:.3rem;}
+          .cpr-hero-toc a{color:#9fe0e6;font-weight:700;text-decoration:underline;text-underline-offset:2px;font-size:.92rem;}
+          .cpr-hero-toc a:hover{color:#fff;}
+          .cpr-hero-benefits{list-style:none;padding:0;margin:0 0 1.4rem;display:grid;gap:.4rem;}
+          .cpr-hero-benefits li{font-size:.93rem;color:#d7ebee;line-height:1.4;}
+          .cpr-hero-benefits li::before{content:"\\2713 ";color:#7fd0d8;font-weight:800;}
+          .cpr-hero-ctas{display:flex;flex-wrap:wrap;gap:.75rem;margin-bottom:1.1rem;}
+          .cpr-hero-cta{display:inline-flex;align-items:center;gap:.5rem;background:var(--gold);color:#08313f;font-weight:700;padding:.85rem 1.6rem;border-radius:12px;text-decoration:none;font-size:1rem;box-shadow:0 10px 26px rgba(232,163,61,.3);transition:transform .15s,filter .15s;}
+          .cpr-hero-cta:hover{transform:translateY(-1px);filter:brightness(1.05);}
+          .cpr-hero-cta-outline{display:inline-flex;align-items:center;padding:.8rem 1.4rem;border-radius:12px;border:1px solid rgba(255,255,255,0.35);color:#eaf6f7;font-weight:600;text-decoration:none;font-size:.92rem;}
+          .cpr-hero-cta-outline:hover{border-color:#7fd0d8;color:#7fd0d8;}
+          .cpr-hero-reviewed,.cpr-hero-icd{font-size:.85rem;color:#9fc6ca;margin:.5rem 0 0;}
+          .cpr-hero-author-link{color:#bfdfe3;font-weight:700;}
+          .cpr-hero-hcard{background:#fff;border-radius:18px;padding:1.5rem;box-shadow:0 18px 46px rgba(0,0,0,.26);}
+          .cpr-hero-hcard h2{font-size:1.1rem;color:var(--navy);margin:0 0 .1rem;font-family:'Fraunces',Georgia,serif;font-weight:600;}
+          .cpr-hero-hcard .price{font-family:'Fraunces',serif;font-size:2.6rem;font-weight:600;color:var(--navy);line-height:1;margin:.4rem 0 .1rem;}
+          .cpr-hero-hcard .pl{font-size:.85rem;color:var(--muted);margin:0 0 1rem;}
+          .cpr-hero-hcard ul{list-style:none;margin:0;padding:0;}
+          .cpr-hero-hcard li{position:relative;padding-left:1.6rem;margin:.5rem 0;font-size:.92rem;line-height:1.4;color:var(--ink);}
+          .cpr-hero-hcard li::before{content:'\\2713';position:absolute;left:0;color:var(--teal);font-weight:800;}
+          .cpr-hero-hcard-cta{display:block;width:100%;box-sizing:border-box;margin:1.15rem 0 0;padding:.85rem 1.25rem;border-radius:999px;background:var(--teal);color:#fff;font-weight:800;font-size:1rem;text-align:center;text-decoration:none;box-shadow:0 8px 22px rgba(0,107,115,.30);transition:background .15s,transform .15s;}
+          .cpr-hero-hcard-cta:hover,.cpr-hero-hcard-cta:focus{background:var(--navy);transform:translateY(-1px);color:#fff;}
+          .cpr-hero-hcard-note{margin:.6rem 0 0;font-size:.8rem;color:var(--muted);text-align:center;}
+        `}</style>
+        <section className="cpr-hero" id={`${pid}-hero`}>
+          <div className="cpr-hero-wrap cpr-hero-grid">
+            <div>
+              <p className="cpr-hero-kicker">{condition.conditionName} &middot; Online Treatment in {state.name}</p>
               <h1 data-speakable="true">{condition.hero.h1}</h1>
-              <p className="tdmd-hero-sub" data-speakable="true">{condition.hero.subtitle}</p>
-              <p>{condition.hero.introParagraph}</p>
+              <p className="sub" data-speakable="true">{condition.hero.subtitle}</p>
+              {condition.hero.quickAnswer && (
+                <div className="cpr-hero-answer" data-speakable="true">
+                  <p>{condition.hero.quickAnswer}</p>
+                </div>
+              )}
+              <p className="intro">{condition.hero.introParagraph}</p>
 
-              <p className="tdmd-toc-intro"><strong>Quick navigation:</strong></p>
-              <ul className="tdmd-toc">
+              <p className="cpr-hero-toc-intro"><strong>Quick navigation:</strong></p>
+              <ul className="cpr-hero-toc">
                 {condition.hero.tocLinks.map((link) => (
                   <li key={link.href}>
                     <a href={`#${pid}-${link.href}`}>{link.label}</a>
@@ -627,46 +677,47 @@ export default async function ConditionPage({ params }) {
                 ))}
               </ul>
 
-              <ul className="tdmd-hero-benefits">
+              <ul className="cpr-hero-benefits">
                 {condition.hero.benefits.map((b, i) => (
                   <li key={i}>{b}</li>
                 ))}
               </ul>
 
-              <div className="tdmd-hero-ctas">
-                <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
-                <a href={`/${slug}`} className="tdmd-btn tdmd-btn-outline">Explore {state.name} Pages</a>
-                <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
+              <div className="cpr-hero-ctas">
+                <a href="/book-online" className="cpr-hero-cta">Book a Visit, {condition.pricing && condition.pricing.visitPrice ? condition.pricing.visitPrice : '$79'} &rarr;</a>
+                <a href={`/${slug}`} className="cpr-hero-cta-outline">Explore {state.name} Pages</a>
+                <a href="/what-we-treat" className="cpr-hero-cta-outline">View All Adult Conditions</a>
               </div>
 
-              <p className="tdmd-reviewed">
+              <p className="cpr-hero-reviewed">
                 Last reviewed on {today} by{' '}
-                <a className="tdmd-author-link" href="/about" aria-label="About Parth Bhavsar, MD">
+                <a className="cpr-hero-author-link" href="/about" aria-label="About Parth Bhavsar, MD">
                   Parth Bhavsar, MD
                 </a>
               </p>
               {/* FL: Clause A1 (credential disclosure) + A3 (verify-link — placement 1 of 3).
                   Required by Fla. Stat. § 456.47(4)(c). Approved 2026-06-07. */}
               {state.abbr === 'FL' && <FlCredentialBlock />}
-              <p className="tdmd-icd">
+              <p className="cpr-hero-icd">
                 <strong>ICD-10 commonly used:</strong> {condition.hero.icd10Display}
               </p>
             </div>
 
-            <div className="tdmd-hero-side">
-              <div className="tdmd-hero-card">
-                <h2>{condition.hero.sideCard.h2}</h2>
-                <ul>
-                  {condition.hero.sideCard.features.map((f, i) => (
-                    <li key={i}>{f}</li>
-                  ))}
-                </ul>
-                <p className="tdmd-hero-note">{condition.hero.sideCard.note}</p>
-              </div>
+            <div className="cpr-hero-hcard">
+              <h2>{condition.hero.sideCard.h2}</h2>
+              <div className="price">{condition.pricing && condition.pricing.visitPrice ? condition.pricing.visitPrice : '$79'}</div>
+              <p className="pl">flat self-pay &middot; insurance not required</p>
+              <ul>
+                {condition.hero.sideCard.features.map((f, i) => (
+                  <li key={i}>{f}</li>
+                ))}
+              </ul>
+              <a href="/book-online" className="cpr-hero-hcard-cta">Book a Visit &rarr;</a>
+              <p className="cpr-hero-hcard-note">{condition.hero.sideCard.note}</p>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
+      </div>
 
       {/* 2) Eligibility Checklist */}
       <section className="tdmd-section" id={`${pid}-eligibility-checklist`}>
