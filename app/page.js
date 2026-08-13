@@ -166,7 +166,7 @@ const jsonLd = {
       url: 'https://teledirectmd.com/',
       name: 'TeleDirectMD | $79 Online Doctor Visits — Board-Certified Telehealth',
       description:
-        'See a board-certified family medicine doctor from home for just $79. No insurance needed. Treat 60+ conditions across 40+ states.',
+        'See a board-certified family medicine doctor from home for just $79. No insurance needed. Treat 60+ conditions across 44 states + DC.',
       isPartOf: { '@id': 'https://teledirectmd.com/#website' },
     },
     {

@@ -487,7 +487,7 @@ export default function MilitaryFamiliesPage() {
               </div>
             ))}
           </div>
-          <p><a href="/what-we-treat">View all 60 conditions we treat &#8594;</a></p>
+          <p><a href="/what-we-treat">View all 60+ conditions we treat &#8594;</a></p>
         </div>
       </section>
 
