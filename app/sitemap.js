@@ -48,6 +48,10 @@ const STATIC_ROUTES = [
   { path: '/news/aetna-california-may-2026', priority: 0.7, changefreq: 'monthly' },
   // Florida Blue dedicated hub — June 2026 (single-state BCBS licensee)
   { path: '/insurance/florida-blue', priority: 0.95, changefreq: 'weekly' },
+  // Alaska rural telemedicine package — August 2026
+  // (Alaska wildfire health guide auto-enumerated from public/health-guides/)
+  { path: '/partners/tribal-health-alaska', priority: 0.7, changefreq: 'monthly' },
+  { path: '/clinical-evidence/rural-telemedicine-alaska', priority: 0.8, changefreq: 'monthly' },
 ];
 
 // Who We Serve segments (11 pages)
