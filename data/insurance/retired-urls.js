@@ -253,7 +253,44 @@ export const RETIRED_INSURANCE_URLS = new Set([
   "/insurance/united-healthcare/oklahoma/ear-infection",
   "/insurance/united-healthcare/oklahoma/pink-eye",
   "/insurance/united-healthcare/oklahoma/acid-reflux",
-  "/insurance/united-healthcare/oklahoma"
+  "/insurance/united-healthcare/oklahoma",
+
+  // Batch 2 — zero-click cleanup, 2026-08-12 (34 URLs; excludes /insurance/united-healthcare/illinois
+  // hub, which has clicking child pages and was kept live)
+  "/insurance/aetna/california/asthma-refill",
+  "/insurance/aetna/california/covid-19-treatment",
+  "/insurance/aetna/california/dandruff-treatment",
+  "/insurance/aetna/california/eczema-treatment",
+  "/insurance/aetna/california/eyelash-growth-treatment",
+  "/insurance/aetna/california/hair-loss-treatment",
+  "/insurance/aetna/california/psoriasis-refills",
+  "/insurance/aetna/california/scabies-treatment",
+  "/insurance/aetna/california/seasonal-allergies-treatment",
+  "/insurance/aetna/california/shingles-treatment",
+  "/insurance/aetna/florida/asthma-refill",
+  "/insurance/aetna/florida/pink-eye",
+  "/insurance/aetna/illinois/asthma-refill",
+  "/insurance/aetna/michigan/asthma-refill",
+  "/insurance/aetna/michigan/pink-eye",
+  "/insurance/aetna/tennessee/uti-treatment",
+  "/insurance/blue-cross-blue-shield/florida/flu-treatment",
+  "/insurance/blue-cross-blue-shield/georgia/asthma-refill",
+  "/insurance/blue-cross-blue-shield/illinois/pink-eye",
+  "/insurance/curative/district-of-columbia",
+  "/insurance/curative/indiana",
+  "/insurance/curative/maryland",
+  "/insurance/curative/ohio",
+  "/insurance/united-healthcare/illinois/ear-infection",
+  "/insurance/united-healthcare/illinois/pink-eye",
+  "/insurance/united-healthcare/illinois/strep-throat",
+  "/insurance/united-healthcare/illinois/yeast-infection",
+  "/insurance/united-healthcare/ohio/ear-infection",
+  "/insurance/united-healthcare/ohio/pink-eye",
+  "/insurance/united-healthcare/oklahoma/flu-treatment",
+  "/insurance/united-healthcare/oklahoma/yeast-infection",
+  "/insurance/united-healthcare/tennessee/hypertension-refill",
+  "/insurance/united-healthcare/washington/hypertension-refill",
+  "/insurance/united-healthcare/washington/yeast-infection"
 ]);
 
 export function isRetiredInsuranceUrl(path) {
