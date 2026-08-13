@@ -204,7 +204,6 @@ const CA_SIBLINGS = [
   { slug: 'chlamydia-treatment-online', label: 'Chlamydia Treatment in CA', why: 'STI differential for dysuria, especially in younger adults.' },
   { slug: 'birth-control-refills-online', label: 'Birth Control Refills in CA', why: "Women's health adjacent — often added to the same visit." },
   { slug: 'cellulitis-treatment-online', label: 'Cellulitis Treatment in CA', why: 'Other antibiotic-driven outpatient infection.' },
-  { slug: 'online-doctor-visits', label: 'All Online Doctor Visits in CA', why: 'General CA telehealth hub for any condition we treat.' },
 ];
 
 // ────────────────────────────────────────────────────────────────────────────

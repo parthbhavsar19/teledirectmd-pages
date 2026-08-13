@@ -58,7 +58,6 @@ const VT_SIBLINGS = [
   { slug: "diabetes-refills-online", label: "Diabetes Refills in VT", why: "Common endocrine and metabolic comorbidity." },
   { slug: "acid-reflux-refills-online", label: "Acid Reflux Refills in VT", why: "Another stable chronic refill we manage by telehealth." },
   { slug: "migraine-refills-online", label: "Migraine Refills in VT", why: "Chronic-condition refill in the same population." },
-  { slug: "online-doctor-visits", label: "All Online Doctor Visits in VT", why: "General VT telehealth hub for any condition we treat." }
 ];
 
 const REFERENCES = [

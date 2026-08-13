@@ -59,7 +59,6 @@ const VT_SIBLINGS = [
   { slug: "sore-throat-treatment-online", label: "Sore Throat Treatment in VT", why: "Pharyngitis frequently accompanies influenza." },
   { slug: "ear-pain-treatment-online", label: "Ear Pain Treatment in VT", why: "Adult ear infection often follows a viral respiratory illness." },
   { slug: "cellulitis-treatment-online", label: "Cellulitis Treatment in VT", why: "Another antibiotic-driven outpatient infection we treat." },
-  { slug: "online-doctor-visits", label: "All Online Doctor Visits in VT", why: "General VT telehealth hub for any condition we treat." }
 ];
 
 const REFERENCES = [

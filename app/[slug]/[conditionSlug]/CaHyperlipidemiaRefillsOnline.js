@@ -127,7 +127,6 @@ const CA_SIBLINGS = [
   { slug: 'hypothyroidism-refills-online', label: "Hypothyroidism Refills in CA", why: "Hypothyroidism causes secondary hypercholesterolemia — treat thyroid first." },
   { slug: 'acid-reflux-refills-online', label: "Acid Reflux Refills in CA", why: "PPI-statin drug interaction monitoring." },
   { slug: 'migraine-refills-online', label: "Migraine Refills in CA", why: "Common comorbidity in metabolic syndrome population." },
-  { slug: 'online-doctor-visits', label: "All Online Doctor Visits in CA", why: "General CA telehealth hub." }
 ];
 
 function buildSchemas() {

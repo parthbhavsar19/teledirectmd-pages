@@ -672,10 +672,6 @@ export default function VtShinglesTreatmentOnline() {
                 <span className="tdmd-vt-cond__sibling-label">Sinus Infection Treatment in VT</span>
                 <span className="tdmd-vt-cond__sibling-why">Facial pain has many sources; trigeminal zoster is one to rule in or out.</span>
               </a>
-              <a className="tdmd-vt-cond__sibling" href="/vt/online-doctor-visits/">
-                <span className="tdmd-vt-cond__sibling-label">All Online Doctor Visits in VT</span>
-                <span className="tdmd-vt-cond__sibling-why">The general Vermont telehealth hub for everything we treat.</span>
-              </a>
             </div>
           </div>
         </section>

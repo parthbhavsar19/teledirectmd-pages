@@ -105,7 +105,6 @@ const VT_SIBLINGS = [
   { slug: 'asthma-refills-online', label: "Asthma Refills in VT", why: "Beta-blocker caution in asthma+HTN overlap is clinically relevant." },
   { slug: 'acid-reflux-refills-online', label: "Acid Reflux Refills in VT", why: "Common comorbidity in the chronic disease patient population." },
   { slug: 'migraine-refills-online', label: "Migraine Refills in VT", why: "Beta-blockers used in both HTN and migraine prevention." },
-  { slug: 'online-doctor-visits', label: "All Online Doctor Visits in VT", why: "General VT telehealth hub." }
 ];
 
 function buildSchemas() {

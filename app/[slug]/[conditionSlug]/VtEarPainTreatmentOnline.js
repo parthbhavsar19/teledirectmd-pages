@@ -60,7 +60,6 @@ const VT_SIBLINGS = [
   { slug: "influenza-treatment-online", label: "Influenza Treatment in VT", why: "Flu can precede a secondary ear infection." },
   { slug: "sore-throat-treatment-online", label: "Sore Throat Treatment in VT", why: "Shared upper-respiratory differential with ear pain." },
   { slug: "pink-eye-treatment-online", label: "Pink Eye Treatment in VT", why: "Conjunctivitis can accompany ear infection in some viral illnesses." },
-  { slug: "online-doctor-visits", label: "All Online Doctor Visits in VT", why: "General VT telehealth hub for any condition we treat." }
 ];
 
 const REFERENCES = [

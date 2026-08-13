@@ -115,7 +115,6 @@ const VT_SIBLINGS = [
   { slug: 'anti-aging-treatment-online', label: "Anti-Aging Treatment in VT", why: "Allergic contact dermatitis can mimic anti-aging skin concerns — differential context." },
   { slug: 'smoking-cessation-treatment-online', label: "Smoking Cessation in VT", why: "Smoking worsens allergic rhinitis — cessation reduces nasal inflammation." },
   { slug: 'acid-reflux-refills-online', label: "Acid Reflux Refills in VT", why: "Nasal drip can trigger reflux — postnasal drip and GERD often co-occur." },
-  { slug: 'online-doctor-visits', label: "All Online Doctor Visits in VT", why: "General VT telehealth hub." }
 ];
 
 function buildSchemas() {

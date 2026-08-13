@@ -671,10 +671,6 @@ export default function VtSoreThroatTreatmentOnline() {
                 <span className="tdmd-vt-cond__sibling-label">Oral Thrush Treatment in VT</span>
                 <span className="tdmd-vt-cond__sibling-why">White patches in the mouth can be thrush rather than strep exudate.</span>
               </a>
-              <a className="tdmd-vt-cond__sibling" href="/vt/online-doctor-visits/">
-                <span className="tdmd-vt-cond__sibling-label">All Online Doctor Visits in VT</span>
-                <span className="tdmd-vt-cond__sibling-why">The general Vermont telehealth hub for everything we treat.</span>
-              </a>
             </div>
           </div>
         </section>

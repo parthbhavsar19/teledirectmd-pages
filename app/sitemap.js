@@ -157,10 +157,10 @@ const PILOT_COHORT_BY_STATE = {
   const conditionSlugs = getConditionSlugs();
   for (const state of states) {
     urls.push(url(`/${state.slug}/`, 0.9, 'weekly'));
-    // VA pilot: no state-level online-doctor-visits page is generated.
-    if (state.slug !== 'va') {
-      urls.push(url(`/${state.slug}/online-doctor-visits/`, 0.7, 'monthly'));
-    }
+    // 2026-08-12: online-doctor-visits pages retired site-wide (301 to state hub,
+    // see vercel.json). They were 90-94% Jaccard-similar across states — the same
+    // duplication signature behind the May 2026 deindexing event — and every hub
+    // outperformed its own online-doctor-visits page in Search Console.
     for (const cond of conditionSlugs) {
       // National-only conditions: never emit a state-prefixed variant
       if (NATIONAL_ONLY_CONDITIONS.has(cond)) continue;

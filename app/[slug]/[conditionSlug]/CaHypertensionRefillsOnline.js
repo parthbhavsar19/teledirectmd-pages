@@ -127,7 +127,6 @@ const CA_SIBLINGS = [
   { slug: 'asthma-refills-online', label: "Asthma Refills in CA", why: "Beta-blocker caution in asthma+HTN overlap is clinically relevant." },
   { slug: 'acid-reflux-refills-online', label: "Acid Reflux Refills in CA", why: "Common comorbidity in the chronic disease patient population." },
   { slug: 'migraine-refills-online', label: "Migraine Refills in CA", why: "Beta-blockers used in both HTN and migraine prevention." },
-  { slug: 'online-doctor-visits', label: "All Online Doctor Visits in CA", why: "General CA telehealth hub." }
 ];
 
 function buildSchemas() {

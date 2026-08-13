@@ -663,10 +663,6 @@ export default function CaCommonColdTreatmentOnline() {
                   <span className="tdmd-ca-uti__sibling-label">Viral Gastroenteritis in CA</span>
                   <span className="tdmd-ca-uti__sibling-why">Another viral illness managed supportively; overlapping symptoms in some cases.</span>
                 </a>
-              <a key="online-doctor-visits" className="tdmd-ca-uti__sibling" href="/ca/online-doctor-visits/">
-                  <span className="tdmd-ca-uti__sibling-label">All Online Doctor Visits in CA</span>
-                  <span className="tdmd-ca-uti__sibling-why">General CA telehealth hub for any condition we treat.</span>
-                </a>
             </div>
           </div>
         </section>

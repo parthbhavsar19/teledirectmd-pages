@@ -127,7 +127,6 @@ const CA_SIBLINGS = [
   { slug: 'hypothyroidism-refills-online', label: "Hypothyroidism Refills in CA", why: "Thyroid dysfunction affects glycemic control in T2DM." },
   { slug: 'acid-reflux-refills-online', label: "Acid Reflux Refills in CA", why: "GLP-1 agonists may worsen GERD — relevant drug effect counseling." },
   { slug: 'migraine-refills-online', label: "Migraine Refills in CA", why: "Metabolic syndrome association with migraine." },
-  { slug: 'online-doctor-visits', label: "All Online Doctor Visits in CA", why: "General CA telehealth hub." }
 ];
 
 function buildSchemas() {

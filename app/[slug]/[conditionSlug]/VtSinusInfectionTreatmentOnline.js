@@ -661,10 +661,6 @@ export default function VtSinusInfectionTreatmentOnline() {
                 <span className="tdmd-vt-cond__sibling-label">Seasonal Allergies Treatment in VT</span>
                 <span className="tdmd-vt-cond__sibling-why">Spring pollen can drive sinus pressure that imitates infection.</span>
               </a>
-              <a className="tdmd-vt-cond__sibling" href="/vt/online-doctor-visits/">
-                <span className="tdmd-vt-cond__sibling-label">All Online Doctor Visits in VT</span>
-                <span className="tdmd-vt-cond__sibling-why">The general Vermont telehealth hub for everything we treat.</span>
-              </a>
             </div>
           </div>
         </section>
