@@ -59,7 +59,6 @@ const VT_SIBLINGS = [
   { slug: "cellulitis-treatment-online", label: "Cellulitis Treatment in VT", why: "A skin infection that needs antibiotics — part of our skin cluster." },
   { slug: "tick-bite-treatment-online", label: "Tick Bite & Lyme Prevention in VT", why: "Skin and outdoor-exposure cluster for Vermonters." },
   { slug: "pink-eye-treatment-online", label: "Pink Eye Treatment in VT", why: "Another fast, visible condition managed by video." },
-  { slug: "online-doctor-visits", label: "All Online Doctor Visits in VT", why: "General VT telehealth hub for any condition we treat." }
 ];
 
 const REFERENCES = [

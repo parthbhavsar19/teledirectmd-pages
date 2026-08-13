@@ -435,18 +435,15 @@ export default function StateLandingPage({ stateSlug }) {
             </div>
           </div>
 
-          {/* Two competing CTAs only. The third button linked to
-             /{state}/online-doctor-visits, a near-duplicate of this page, and diluted
-             the primary action; it is now a secondary text link. */}
+          {/* 2026-08-12: the /{state}/online-doctor-visits pages this secondary link
+             pointed to have been retired site-wide (301 to this hub) — they were
+             90-94% Jaccard-similar across states, the same duplication signature
+             behind the May 2026 deindexing event, and every hub outperformed its
+             own online-doctor-visits page in Search Console. Two CTAs only now. */}
           <div className="tdmd-hero-ctas">
             <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
             <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All Conditions</a>
           </div>
-          <p className="tdmd-hero-ctas-note">
-            <a href={`/${stateSlug}/online-doctor-visits`}>
-              More on online doctor visits in {state.name} →
-            </a>
-          </p>
 
           <p className="tdmd-reviewed">
             Last reviewed on <time dateTime={today}>{todayDisplay}</time> by{' '}
@@ -730,9 +727,6 @@ export default function StateLandingPage({ stateSlug }) {
           <p>Explore more about TeleDirectMD services available in {state.name}.</p>
           <div className="tdmd-inline-links">
             <p className="tdmd-link-cloud">
-              {stateSlug !== 'va' && (
-                <a href={`/${stateSlug}/online-doctor-visits`}>Online Doctor Visits in {state.name}</a>
-              )}
               <a href="/insurance">Insurance & Pricing</a>
               <a href="/faq">Frequently Asked Questions</a>
               <a href="/states-we-serve">All States We Serve</a>

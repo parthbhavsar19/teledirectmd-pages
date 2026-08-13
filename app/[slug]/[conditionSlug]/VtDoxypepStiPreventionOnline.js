@@ -55,7 +55,6 @@ const VT_SIBLINGS = [
   { slug: "yeast-infection-treatment-online", label: "Yeast Infection Treatment in VT", why: "Sexual-health adjacent condition we treat by telehealth." },
   { slug: "uti-treatment-online", label: "UTI Treatment in VT", why: "Genitourinary symptom overlap in the same population." },
   { slug: "birth-control-refills-online", label: "Birth Control Refills in VT", why: "Sexual-health adjacent — managed by the same physician." },
-  { slug: "online-doctor-visits", label: "All Online Doctor Visits in VT", why: "General VT telehealth hub for any condition we treat." }
 ];
 
 const REFERENCES = [

@@ -127,7 +127,6 @@ const CA_SIBLINGS = [
   { slug: 'epipen-refills-online', label: "EpiPen Refills in CA", why: "Anaphylaxis risk in allergic asthma — emergency action plan companion." },
   { slug: 'smoking-cessation-treatment-online', label: "Smoking Cessation in CA", why: "Smoking worsens asthma — cessation is core management." },
   { slug: 'acid-reflux-refills-online', label: "Acid Reflux Refills in CA", why: "GERD is a common asthma trigger — often co-managed." },
-  { slug: 'online-doctor-visits', label: "All Online Doctor Visits in CA", why: "General CA telehealth hub." }
 ];
 
 function buildSchemas() {

@@ -190,7 +190,6 @@ export default async function FAQDeepDivePage({ params }) {
           <h2 style={{ fontSize: '1.2rem', fontWeight: 700, color: '#111827', marginBottom: '12px' }}>Related Pages</h2>
           <ul style={{ listStyle: 'none', padding: 0, display: 'grid', gap: '8px' }}>
             <li><a href={`/${page.stateSlug}/${page.conditionSlug}`} style={{ color: '#0d9488', fontWeight: 500 }}>{page.condition} Treatment Online in {state.name}</a></li>
-            <li><a href={`/${page.stateSlug}/online-doctor-visits`} style={{ color: '#0d9488', fontWeight: 500 }}>Online Doctor Visits in {state.name}</a></li>
             <li><a href={`/${page.stateSlug}`} style={{ color: '#0d9488', fontWeight: 500 }}>TeleDirectMD in {state.name}</a></li>
             <li><a href={`/${page.conditionSlug}`} style={{ color: '#0d9488', fontWeight: 500 }}>{page.condition} Treatment Online (National)</a></li>
           </ul>

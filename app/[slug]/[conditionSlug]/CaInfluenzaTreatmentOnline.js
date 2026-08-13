@@ -657,10 +657,6 @@ export default function CaInfluenzaTreatmentOnline() {
                   <span className="tdmd-ca-uti__sibling-label">Cellulitis Treatment in CA</span>
                   <span className="tdmd-ca-uti__sibling-why">Bacterial skin infections can follow flu-related skin breakdown; clinical differentiation needed.</span>
                 </a>
-              <a key="online-doctor-visits" className="tdmd-ca-uti__sibling" href="/ca/online-doctor-visits/">
-                  <span className="tdmd-ca-uti__sibling-label">All Online Doctor Visits in CA</span>
-                  <span className="tdmd-ca-uti__sibling-why">General CA telehealth hub for any condition we treat.</span>
-                </a>
             </div>
           </div>
         </section>

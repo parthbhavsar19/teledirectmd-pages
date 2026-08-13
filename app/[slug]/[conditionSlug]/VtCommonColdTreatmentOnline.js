@@ -60,7 +60,6 @@ const VT_SIBLINGS = [
   { slug: "sore-throat-treatment-online", label: "Sore Throat Treatment in VT", why: "Severe sore throat with fever may be strep, not a cold." },
   { slug: "ear-pain-treatment-online", label: "Ear Pain Treatment in VT", why: "Adult ear infections often follow a cold." },
   { slug: "seasonal-allergies-treatment-online", label: "Seasonal Allergies Treatment in VT", why: "Allergic rhinitis can mimic a lingering cold." },
-  { slug: "online-doctor-visits", label: "All Online Doctor Visits in VT", why: "General VT telehealth hub for any condition we treat." }
 ];
 
 const REFERENCES = [

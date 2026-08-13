@@ -578,10 +578,6 @@ export default function VtTickBiteTreatmentOnline() {
                 <span className="tdmd-vt-cond__sibling-label">Sore Throat Treatment in VT</span>
                 <span className="tdmd-vt-cond__sibling-why">Constitutional symptoms overlap; fatigue and aches can point either way.</span>
               </a>
-              <a className="tdmd-vt-cond__sibling" href="/vt/online-doctor-visits/">
-                <span className="tdmd-vt-cond__sibling-label">All Online Doctor Visits in VT</span>
-                <span className="tdmd-vt-cond__sibling-why">The general Vermont telehealth hub for everything we treat.</span>
-              </a>
             </div>
           </div>
         </section>

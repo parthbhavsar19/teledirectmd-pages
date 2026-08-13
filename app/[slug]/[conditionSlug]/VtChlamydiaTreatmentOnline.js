@@ -58,7 +58,6 @@ const VT_SIBLINGS = [
   { slug: "yeast-infection-treatment-online", label: "Yeast Infection Treatment in VT", why: "Another genital-symptom condition often confused with an STI." },
   { slug: "uti-treatment-online", label: "UTI Treatment in VT", why: "Dysuria overlaps; STI is part of the differential in younger adults." },
   { slug: "birth-control-refills-online", label: "Birth Control Refills in VT", why: "Sexual-health adjacent — often added to the same visit." },
-  { slug: "online-doctor-visits", label: "All Online Doctor Visits in VT", why: "General VT telehealth hub for any condition we treat." }
 ];
 
 const REFERENCES = [

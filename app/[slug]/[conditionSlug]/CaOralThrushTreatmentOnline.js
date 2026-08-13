@@ -655,10 +655,6 @@ export default function CaOralThrushTreatmentOnline() {
                   <span className="tdmd-ca-uti__sibling-label">Cellulitis Treatment in CA</span>
                   <span className="tdmd-ca-uti__sibling-why">Immunocompromised patients who get oral thrush are also at risk for other infections.</span>
                 </a>
-              <a key="online-doctor-visits" className="tdmd-ca-uti__sibling" href="/ca/online-doctor-visits/">
-                  <span className="tdmd-ca-uti__sibling-label">All Online Doctor Visits in CA</span>
-                  <span className="tdmd-ca-uti__sibling-why">General CA telehealth hub for any condition we treat.</span>
-                </a>
             </div>
           </div>
         </section>

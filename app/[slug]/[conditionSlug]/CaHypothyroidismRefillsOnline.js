@@ -127,7 +127,6 @@ const CA_SIBLINGS = [
   { slug: 'hair-loss-treatment-online', label: "Hair Loss Treatment in CA", why: "Hypothyroidism is a common cause of diffuse hair loss — thyroid optimization can improve hair." },
   { slug: 'acid-reflux-refills-online', label: "Acid Reflux Refills in CA", why: "PPIs reduce levothyroxine absorption — drug interaction counseling relevant." },
   { slug: 'seasonal-allergies-treatment-online', label: "Seasonal Allergies in CA", why: "Autoimmune association — Hashimoto's and allergic disease share immune dysregulation." },
-  { slug: 'online-doctor-visits', label: "All Online Doctor Visits in CA", why: "General CA telehealth hub." }
 ];
 
 function buildSchemas() {

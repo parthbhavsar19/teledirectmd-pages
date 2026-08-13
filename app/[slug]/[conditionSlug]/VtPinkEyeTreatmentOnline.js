@@ -715,10 +715,6 @@ export default function VtPinkEyeTreatmentOnline() {
                 <span className="tdmd-vt-cond__sibling-label">Ear Pain Treatment in VT</span>
                 <span className="tdmd-vt-cond__sibling-why">Eye and ear symptoms together often trace back to the same viral cold.</span>
               </a>
-              <a className="tdmd-vt-cond__sibling" href="/vt/online-doctor-visits/">
-                <span className="tdmd-vt-cond__sibling-label">All Online Doctor Visits in VT</span>
-                <span className="tdmd-vt-cond__sibling-why">The general Vermont telehealth hub for everything we treat.</span>
-              </a>
             </div>
           </div>
         </section>

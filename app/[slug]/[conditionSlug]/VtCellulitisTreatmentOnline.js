@@ -59,7 +59,6 @@ const VT_SIBLINGS = [
   { slug: "acne-treatment-online", label: "Acne Treatment in VT", why: "Part of our skin-condition cluster managed by video." },
   { slug: "cold-sore-treatment-online", label: "Cold Sore Treatment in VT", why: "Another skin/facial condition treated by telehealth." },
   { slug: "uti-treatment-online", label: "UTI Treatment in VT", why: "Another common antibiotic-driven outpatient infection." },
-  { slug: "online-doctor-visits", label: "All Online Doctor Visits in VT", why: "General VT telehealth hub for any condition we treat." }
 ];
 
 const REFERENCES = [

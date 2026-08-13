@@ -661,10 +661,6 @@ export default function CaShinglesTreatmentOnline() {
                   <span className="tdmd-ca-uti__sibling-label">Dental Pain Treatment in CA</span>
                   <span className="tdmd-ca-uti__sibling-why">Trigeminal zoster causes facial/oral pain mimicking dental pain before rash appears.</span>
                 </a>
-              <a key="online-doctor-visits" className="tdmd-ca-uti__sibling" href="/ca/online-doctor-visits/">
-                  <span className="tdmd-ca-uti__sibling-label">All Online Doctor Visits in CA</span>
-                  <span className="tdmd-ca-uti__sibling-why">General CA telehealth hub for any condition we treat.</span>
-                </a>
             </div>
           </div>
         </section>

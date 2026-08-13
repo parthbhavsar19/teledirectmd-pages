@@ -1188,7 +1188,6 @@ export default async function ConditionPage({ params }) {
           <div className="tdmd-inline-links" style={{ marginTop: '2rem' }}>
             <h3>More {state.name} Resources</h3>
             <p className="tdmd-link-cloud">
-              <a href={`/${slug}/online-doctor-visits`}>Online Doctor Visits in {state.name}</a>
               <a href={`/${slug}`}>All Conditions in {state.name}</a>
               <a href="/insurance">Insurance & Pricing</a>
               <a href="/faq">FAQs</a>
