@@ -919,7 +919,7 @@ export default function RuralTelemedicineAlaskaEvidence() {
               practice; this review supports its Alaska partnership and clinical protocol work. Every claim in this
               review is linked to a primary source; readers are encouraged to verify the citations directly. Corrections
               or additional citation suggestions may be sent to{' '}
-              <a href="mailto:parth@teledirectmd.com">parth@teledirectmd.com</a>.
+              <a href="mailto:contact@teledirectmd.com">contact@teledirectmd.com</a>.
             </p>
 
             <div className="tdmd-ce-callout">
