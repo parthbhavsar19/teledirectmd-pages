@@ -51,6 +51,7 @@ const STATIC_ROUTES = [
   // Alaska rural telemedicine package — August 2026
   // (Alaska wildfire health guide auto-enumerated from public/health-guides/)
   { path: '/partners/tribal-health-alaska', priority: 0.7, changefreq: 'monthly' },
+  { path: '/clinical-evidence', priority: 0.75, changefreq: 'monthly' },
   { path: '/clinical-evidence/rural-telemedicine-alaska', priority: 0.8, changefreq: 'monthly' },
 ];
 
