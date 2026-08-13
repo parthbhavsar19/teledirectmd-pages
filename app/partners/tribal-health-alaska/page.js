@@ -321,7 +321,7 @@ export default function TribalHealthAlaskaPartnership() {
               <h3>Next Step</h3>
               <p>
                 If a partnership conversation is of interest, please contact Parth Bhavsar, MD directly at{' '}
-                <a href="mailto:parth@teledirectmd.com">parth@teledirectmd.com</a>. We are happy to travel to Anchorage
+                <a href="mailto:contact@teledirectmd.com">contact@teledirectmd.com</a>. We are happy to travel to Anchorage
                 or a regional hub for an initial conversation, or to hold a video meeting at your preference.
               </p>
             </div>
