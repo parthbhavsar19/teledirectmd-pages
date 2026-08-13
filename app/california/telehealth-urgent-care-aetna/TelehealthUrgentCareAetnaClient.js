@@ -446,7 +446,6 @@ export default function TelehealthUrgentCareAetnaClient() {
             { href: '/insurance/aetna/california', t: 'Aetna California — Full Details', d: 'Insurer-first page with state context, parity laws, and the full Aetna plan list.' },
             { href: '/news/aetna-california-may-2026', t: 'Announcement: Aetna CA (May 2026)', d: 'Network expansion announcement with effective date and member benefits.' },
             { href: '/insurance/aetna/california/uti-treatment', t: 'Aetna CA: UTI Treatment', d: 'Same-day antibiotic prescription for UTI — Aetna commercial plans accepted in California.' },
-            { href: '/insurance/aetna/california/asthma-refill', t: 'Aetna CA: Asthma Refills', d: 'Albuterol and controller inhaler refills via Aetna telehealth in California.' },
             { href: '/insurance/aetna/california/hypertension-refill', t: 'Aetna CA: Hypertension Refills', d: 'Blood pressure medication refills via Aetna telehealth in California.' },
           ].map((link) => (
             <a
