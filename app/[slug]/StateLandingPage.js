@@ -233,15 +233,6 @@ export default function StateLandingPage({ stateSlug }) {
   };
 
   const statePageCSS = `
-    .tdmd-state-hero-sub{font-size:1.05rem;font-weight:650;color:var(--tdmd-navy);margin:0 0 1rem;}
-    .tdmd-state-stats{display:flex;flex-wrap:wrap;gap:1.25rem;margin:1.25rem 0;}
-    .tdmd-state-stat{background:var(--tdmd-card);border-radius:var(--tdmd-radius);padding:1rem 1.25rem;box-shadow:var(--tdmd-shadow);border:1px solid rgba(0,0,0,0.03);text-align:center;min-width:140px;flex:1;}
-    .tdmd-state-stat-number{font-size:1.75rem;font-weight:950;color:var(--tdmd-teal);letter-spacing:-0.02em;}
-    .tdmd-state-stat-label{font-size:0.88rem;color:var(--tdmd-muted);margin-top:0.15rem;}
-    .tdmd-state-stat-icon{display:block;margin:0 auto 0.4rem;width:22px;height:22px;color:var(--tdmd-teal);opacity:0.85;}
-    /* Word-based stats ("Same-day", "MD-only") overflow the numeric slot at 1.75rem,
-       so they render a step down and are allowed to break. */
-    .tdmd-state-stat-number--text{font-size:1.2rem;line-height:1.25;overflow-wrap:anywhere;}
     /* Credential verification bar — sits directly under the H1 block so the most
        checkable fact on the page is above the fold for both patients and crawlers. */
     .tdmd-verify-bar{display:flex;flex-wrap:wrap;align-items:center;gap:0.5rem 1.1rem;
@@ -258,9 +249,6 @@ export default function StateLandingPage({ stateSlug }) {
       .tdmd-verify-bar{flex-direction:column;align-items:flex-start;gap:0.45rem;}
       .tdmd-verify-link{margin-left:0;}
     }
-    .tdmd-hero-ctas-note{margin:0.6rem 0 0;font-size:0.9rem;}
-    .tdmd-hero-ctas-note a{color:var(--tdmd-teal);font-weight:700;text-decoration:underline;text-underline-offset:2px;}
-
     .tdmd-cat-nav{display:flex;flex-wrap:wrap;gap:0.5rem;margin:0 0 1.75rem;}
     .tdmd-cat-chip{display:inline-block;padding:0.45rem 1rem;border-radius:999px;border:1px solid var(--tdmd-border);background:var(--tdmd-card);color:var(--tdmd-navy);font-weight:700;font-size:0.9rem;text-decoration:none;transition:border-color 0.15s,background 0.15s;}
     .tdmd-cat-chip:hover,.tdmd-cat-chip:focus{border-color:var(--tdmd-teal);background:var(--tdmd-bg-soft);}
@@ -335,126 +323,147 @@ export default function StateLandingPage({ stateSlug }) {
         </div>
       </nav>
 
-      {/* INJECT 1: State hub uniqueness opener (renders only when stateTpl populated) */}
-      {stateTpl && stateTpl.stateHero && stateTpl.stateHero.openingParagraph && (
-        <div className="tdmd-state-hub-opener" data-speakable="true" style={{
-          background: '#FAFCFD', borderLeft: '4px solid #006B73',
-          padding: '1rem 1.25rem', margin: '1rem 0', lineHeight: 1.65, borderRadius: '6px'
-        }}>
-          <div className="tdmd-container">
-            <p style={{ margin: 0, color: '#0A2438', fontSize: '0.98rem' }}>
-              {stateTpl.stateHero.openingParagraph}
-            </p>
-          </div>
-        </div>
-      )}
+      {/* 1) Hero — 2026-08-12: rebuilt to match the navy "cpr-hero" look used on
+         national condition pages and (since PR #79) the state+condition combo
+         pages. State HUBS were the one template still on the pre-redesign light
+         .tdmd-hero, which read as noticeably thinner than every page it links to
+         and links from. All original data bindings (license verify bar, stats,
+         CTAs, reviewed-by line, FL compliance, stateTpl opener) are preserved,
+         just restyled and, for the stateTpl opener, moved inside the hero as the
+         "quick answer" box — the same slot condition.hero.quickAnswer uses. This
+         also resolves the 2026-08-07 "two stacked tinted bands" issue: there is
+         now exactly one accent box in the hero (only on the 4 states with a
+         stateTpl) instead of a separate light strip stacked above it. The
+         tdmd-answer-block directly below stays put — it's the dedicated,
+         data-speakable AI-snippet target and doesn't duplicate hero copy 1:1. */}
+      <div className="cpr">
+        <style>{`
+          @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=DM+Sans:wght@400;500;600;700&display=swap');
+          .cpr{--navy:#003E52;--teal:#0C8F99;--gold:#E8A33D;--ink:#12303b;--muted:#5c7078;--line:#e4ecee;}
+          .cpr-hero h1,.cpr-hero h2{font-family:'Fraunces',Georgia,serif;font-weight:600;letter-spacing:-0.01em;}
+          .cpr-hero-wrap{max-width:1100px;margin:0 auto;padding:0 1.5rem;}
+          .cpr-hero{background:linear-gradient(160deg,#012f3e 0%,#01465a 60%,#065f6b 100%);color:#fff;padding:3rem 0 3.25rem;font-family:'DM Sans',system-ui,sans-serif;}
+          .cpr-hero-grid{display:grid;grid-template-columns:1.08fr .92fr;gap:2.5rem;align-items:start;}
+          @media(max-width:840px){.cpr-hero-grid{grid-template-columns:1fr;}}
+          @media(min-width:841px){.cpr-hero-hcard{position:sticky;top:1.5rem;}}
+          .cpr-hero-kicker{text-transform:uppercase;letter-spacing:.14em;font-size:.72rem;font-weight:700;color:#7fd0d8;margin:0 0 .6rem;}
+          .cpr-hero h1{font-size:clamp(2rem,4.4vw,2.9rem);line-height:1.08;color:#fff;margin:0 0 .9rem;}
+          .cpr-hero .sub{font-size:1.05rem;line-height:1.55;color:#d7ebee;margin:0 0 1.5rem;max-width:52ch;font-weight:650;}
+          .cpr-hero .intro{font-size:.97rem;line-height:1.6;color:#bfdfe3;margin:0 0 1.5rem;max-width:56ch;}
+          .cpr-hero-answer{background:rgba(255,255,255,0.08);border-left:4px solid #7fd0d8;border-radius:0 10px 10px 0;padding:.9rem 1.15rem;margin:0 0 1.5rem;}
+          .cpr-hero-answer p{margin:0;color:#eaf6f7;font-size:.98rem;line-height:1.55;}
+          .cpr-hero-ctas{display:flex;flex-wrap:wrap;gap:.75rem;margin-bottom:1.1rem;}
+          .cpr-hero-cta{display:inline-flex;align-items:center;gap:.5rem;background:var(--gold);color:#08313f;font-weight:700;padding:.85rem 1.6rem;border-radius:12px;text-decoration:none;font-size:1rem;box-shadow:0 10px 26px rgba(232,163,61,.3);transition:transform .15s,filter .15s;}
+          .cpr-hero-cta:hover{transform:translateY(-1px);filter:brightness(1.05);}
+          .cpr-hero-cta-outline{display:inline-flex;align-items:center;padding:.8rem 1.4rem;border-radius:12px;border:1px solid rgba(255,255,255,0.35);color:#eaf6f7;font-weight:600;text-decoration:none;font-size:.92rem;}
+          .cpr-hero-cta-outline:hover{border-color:#7fd0d8;color:#7fd0d8;}
+          .cpr-hero-reviewed{font-size:.85rem;color:#9fc6ca;margin:.9rem 0 0;}
+          .cpr-hero-author-link{color:#bfdfe3;font-weight:700;}
+          .cpr-hero-hcard{background:#fff;border-radius:18px;padding:1.5rem;box-shadow:0 18px 46px rgba(0,0,0,.26);}
+          .cpr-hero-hcard h2{font-size:1.1rem;color:var(--navy);margin:0 0 .1rem;font-family:'Fraunces',Georgia,serif;font-weight:600;}
+          .cpr-hero-hcard .price{font-family:'Fraunces',serif;font-size:2.6rem;font-weight:600;color:var(--navy);line-height:1;margin:.4rem 0 .1rem;}
+          .cpr-hero-hcard .pl{font-size:.85rem;color:var(--muted);margin:0 0 1rem;}
+          .cpr-hero-hcard ul{list-style:none;margin:0;padding:0;}
+          .cpr-hero-hcard li{position:relative;padding-left:1.6rem;margin:.5rem 0;font-size:.92rem;line-height:1.4;color:var(--ink);}
+          .cpr-hero-hcard li::before{content:'\\2713';position:absolute;left:0;color:var(--teal);font-weight:800;}
+          .cpr-hero-hcard-cta{display:block;width:100%;box-sizing:border-box;margin:1.15rem 0 0;padding:.85rem 1.25rem;border-radius:999px;background:var(--teal);color:#fff;font-weight:800;font-size:1rem;text-align:center;text-decoration:none;box-shadow:0 8px 22px rgba(0,107,115,.30);transition:background .15s,transform .15s;}
+          .cpr-hero-hcard-cta:hover,.cpr-hero-hcard-cta:focus{background:var(--navy);transform:translateY(-1px);color:#fff;}
+          .cpr-hero-hcard-note{margin:.6rem 0 0;font-size:.8rem;color:var(--muted);text-align:center;}
+          /* License verify bar renders fine as-is (white card + teal accent) on the
+             navy background — same visual language as the hcard, no restyle needed. */
+        `}</style>
+        <section className="cpr-hero" id={`${pid}-hero`}>
+          <div className="cpr-hero-wrap cpr-hero-grid">
+            <div>
+              <p className="cpr-hero-kicker">Telehealth &middot; {state.name}</p>
+              <h1 data-speakable="true">Online Doctor in {state.name} — TeleDirectMD</h1>
+              <p className="sub" data-speakable="true">
+                MD-only telehealth visits for {totalConditions} adult conditions. Same-day appointments, starting at $79{hasInsurance ? ' — select insurance plans accepted' : ' — no insurance required'}.
+              </p>
 
-      {/* 1) Hero
-         2026-08-07: The generic "Answer Block" that used to sit here was moved to
-         directly BELOW this section. It restated the H1, the subhead and the intro
-         paragraph, so the first viewport said the same thing three times — and on
-         states that also have a stateTpl opener it produced two stacked tinted
-         bands with no figure/ground separation. It is still early in the DOM and
-         still data-speakable, so AI snippet extraction is unaffected. */}
-      <section className="tdmd-hero" id={`${pid}-hero`}>
-        <div className="tdmd-container">
-          <h1 data-speakable="true">Online Doctor in {state.name} — TeleDirectMD</h1>
-          <p className="tdmd-state-hero-sub">
-            MD-only telehealth visits for {totalConditions} adult conditions. Same-day appointments, starting at $79{hasInsurance ? ' — select insurance plans accepted' : ' — no insurance required'}.
-          </p>
-          <p>
-            TeleDirectMD connects you with a licensed physician in {state.name} through a secure video visit. Whether you need urgent care for a cold or UTI, a chronic medication refill for asthma or blood pressure, or treatment for a skin condition — we are here to help. Prescriptions are sent directly to your local {state.name} pharmacy.
-          </p>
-
-          {/* Credential verification bar. Every jurisdiction in
-             data/state-licenses.json carries a licenseNumber, so this renders on all
-             state hubs; the guard keeps it safe if a future state is added without
-             one. Placed above the stats so the most checkable claim on the page is
-             in the first viewport for patients and for AI extraction. Date fields
-             are optional and are omitted when blank rather than rendered empty. */}
-          {stateLicense?.licenseNumber && (
-            <div className="tdmd-verify-bar" data-speakable="true">
-              <span className="tdmd-verify-item">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-                  <path d="M9 12l2 2 4-4" /><path d="M12 3l7 3v6c0 4.4-3 8.3-7 9.5C8 20.3 5 16.4 5 12V6l7-3z" />
-                </svg>
-                <span className="tdmd-verify-label">{state.name} medical license</span>
-                <span className="tdmd-verify-value">{stateLicense.licenseNumber}</span>
-              </span>
-              <span className="tdmd-verify-item">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-                  <path d="M3 21h18" /><path d="M5 21V9l7-5 7 5v12" /><path d="M10 21v-6h4v6" />
-                </svg>
-                <span className="tdmd-verify-value">{stateLicense.issuingBoard}</span>
-              </span>
-              {stateLicense.verificationUrl && (
-                <a
-                  className="tdmd-verify-link"
-                  href={stateLicense.verificationUrl}
-                  target="_blank"
-                  rel="noopener noreferrer nofollow"
-                >
-                  Verify this license ↗
-                </a>
+              {/* INJECT 1: State hub uniqueness opener — renders only when stateTpl
+                 populated (currently AK, DE, HI, VA). Same slot pattern as
+                 condition.hero.quickAnswer on the state+condition template. */}
+              {stateTpl && stateTpl.stateHero && stateTpl.stateHero.openingParagraph && (
+                <div className="cpr-hero-answer" data-speakable="true">
+                  <p>{stateTpl.stateHero.openingParagraph}</p>
+                </div>
               )}
-            </div>
-          )}
 
-          {/* Stats. "Cities served" was dropped — city count does not influence a
-             telehealth decision and the "+" read as vague. "MD" was a category
-             label rather than a statistic; both slots now carry differentiators
-             that map to real objections (speed, and MD-vs-midlevel). */}
-          <div className="tdmd-state-stats">
-            <div className="tdmd-state-stat">
-              <svg className="tdmd-state-stat-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-                <path d="M9 11l3 3L22 4" /><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11" />
-              </svg>
-              <div className="tdmd-state-stat-number">{totalConditions}</div>
-              <div className="tdmd-state-stat-label">Conditions treated</div>
+              <p className="intro">
+                TeleDirectMD connects you with a licensed physician in {state.name} through a secure video visit. Whether you need urgent care for a cold or UTI, a chronic medication refill for asthma or blood pressure, or treatment for a skin condition — we are here to help. Prescriptions are sent directly to your local {state.name} pharmacy.
+              </p>
+
+              {/* Credential verification bar. Every jurisdiction in
+                 data/state-licenses.json carries a licenseNumber, so this renders on all
+                 state hubs; the guard keeps it safe if a future state is added without
+                 one. Placed above the CTAs so the most checkable claim on the page is
+                 in the first viewport for patients and for AI extraction. Date fields
+                 are optional and are omitted when blank rather than rendered empty. */}
+              {stateLicense?.licenseNumber && (
+                <div className="tdmd-verify-bar" data-speakable="true">
+                  <span className="tdmd-verify-item">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                      <path d="M9 12l2 2 4-4" /><path d="M12 3l7 3v6c0 4.4-3 8.3-7 9.5C8 20.3 5 16.4 5 12V6l7-3z" />
+                    </svg>
+                    <span className="tdmd-verify-label">{state.name} medical license</span>
+                    <span className="tdmd-verify-value">{stateLicense.licenseNumber}</span>
+                  </span>
+                  <span className="tdmd-verify-item">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                      <path d="M3 21h18" /><path d="M5 21V9l7-5 7 5v12" /><path d="M10 21v-6h4v6" />
+                    </svg>
+                    <span className="tdmd-verify-value">{stateLicense.issuingBoard}</span>
+                  </span>
+                  {stateLicense.verificationUrl && (
+                    <a
+                      className="tdmd-verify-link"
+                      href={stateLicense.verificationUrl}
+                      target="_blank"
+                      rel="noopener noreferrer nofollow"
+                    >
+                      Verify this license ↗
+                    </a>
+                  )}
+                </div>
+              )}
+
+              {/* 2026-08-12: the /{state}/online-doctor-visits pages this secondary link
+                 pointed to have been retired site-wide (301 to this hub) — they were
+                 90-94% Jaccard-similar across states, the same duplication signature
+                 behind the May 2026 deindexing event, and every hub outperformed its
+                 own online-doctor-visits page in Search Console. Two CTAs only now. */}
+              <div className="cpr-hero-ctas">
+                <a href="/book-online" className="cpr-hero-cta">Book a Visit, $79 &rarr;</a>
+                <a href="/what-we-treat" className="cpr-hero-cta-outline">View All Conditions</a>
+              </div>
+
+              <p className="cpr-hero-reviewed">
+                Last reviewed on <time dateTime={today}>{todayDisplay}</time> by{' '}
+                <a className="cpr-hero-author-link" href="/about" aria-label="About Parth Bhavsar, MD">
+                  Parth Bhavsar, MD
+                </a>
+              </p>
+              {/* FL: A1 credential disclosure + A3 verify-link placement 1 of 3. */}
+              {state.abbr === 'FL' && <FlCredentialBlock />}
             </div>
-            <div className="tdmd-state-stat">
-              <svg className="tdmd-state-stat-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-                <line x1="12" y1="1" x2="12" y2="23" /><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6" />
-              </svg>
-              <div className="tdmd-state-stat-number">$79</div>
-              <div className="tdmd-state-stat-label">Flat fee, no membership</div>
-            </div>
-            <div className="tdmd-state-stat">
-              <svg className="tdmd-state-stat-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-                <circle cx="12" cy="12" r="9" /><polyline points="12 7 12 12 15.5 14" />
-              </svg>
-              <div className="tdmd-state-stat-number tdmd-state-stat-number--text">Same-day</div>
-              <div className="tdmd-state-stat-label">Evenings &amp; weekends</div>
-            </div>
-            <div className="tdmd-state-stat">
-              <svg className="tdmd-state-stat-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-                <path d="M12 2l7 3v6c0 4.4-3 8.3-7 9.5C8 19.3 5 15.4 5 11V5l7-3z" /><path d="M12 8v6" /><path d="M9 11h6" />
-              </svg>
-              <div className="tdmd-state-stat-number tdmd-state-stat-number--text">MD-only</div>
-              <div className="tdmd-state-stat-label">Never an NP or PA</div>
+
+            <div className="cpr-hero-hcard">
+              <h2>Telehealth in {state.name}</h2>
+              <div className="price">$79</div>
+              <p className="pl">flat self-pay &middot; insurance not required</p>
+              <ul>
+                <li>{totalConditions} conditions treated</li>
+                <li>Same-day appointments, evenings &amp; weekends</li>
+                <li>MD-only — never an NP or PA</li>
+                {hasInsurance && <li>Select insurance plans accepted</li>}
+              </ul>
+              <a href="/book-online" className="cpr-hero-hcard-cta">Book a Visit &rarr;</a>
+              <p className="cpr-hero-hcard-note">No membership required</p>
             </div>
           </div>
-
-          {/* 2026-08-12: the /{state}/online-doctor-visits pages this secondary link
-             pointed to have been retired site-wide (301 to this hub) — they were
-             90-94% Jaccard-similar across states, the same duplication signature
-             behind the May 2026 deindexing event, and every hub outperformed its
-             own online-doctor-visits page in Search Console. Two CTAs only now. */}
-          <div className="tdmd-hero-ctas">
-            <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
-            <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All Conditions</a>
-          </div>
-
-          <p className="tdmd-reviewed">
-            Last reviewed on <time dateTime={today}>{todayDisplay}</time> by{' '}
-            <a className="tdmd-author-link" href="/about" aria-label="About Parth Bhavsar, MD">
-              Parth Bhavsar, MD
-            </a>
-          </p>
-          {/* FL: A1 credential disclosure + A3 verify-link placement 1 of 3. */}
-          {state.abbr === 'FL' && <FlCredentialBlock />}
-        </div>
-      </section>
+        </section>
+      </div>
 
       {/* 1b) Answer Block — AI snippet target. Relocated from above the hero. */}
       <div className="tdmd-answer-block" data-speakable="true" style={{
