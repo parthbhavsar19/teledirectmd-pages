@@ -318,7 +318,7 @@ export default async function ComparePage({ params }) {
             <a href="/asthma-refills-online/"            className="tdmd-related-card"><span className="tdmd-related-title">Asthma Refills</span><span className="tdmd-related-desc">$79 visit + $20–$25 albuterol</span></a>
           </div>
           <div className="tdmd-related-cta" style={{ marginTop: '1rem' }}>
-            <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">View all 60 conditions we treat</a>
+            <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">View all 60+ conditions we treat</a>
           </div>
         </div>
       </section>

@@ -193,7 +193,7 @@ export default function WhatWeTreatClient({ categories, conditionDescriptions })
             </div>
             <div className="tdm-banner-item">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
-              Available in 40+ states
+              Available in 44 states + DC
             </div>
           </div>
         </div>
@@ -335,7 +335,7 @@ export default function WhatWeTreatClient({ categories, conditionDescriptions })
       <section className="tdm-bottom">
         <div className="tdm-container">
           <h2>Ready to see a doctor today?</h2>
-          <p>$79 flat fee. Select insurances also accepted. Available in 40+ states.</p>
+          <p>$79 flat fee. Select insurances also accepted. Available in 44 states + DC.</p>
           <a href="/book-online" className="tdm-cta">
             Book Your Visit
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>

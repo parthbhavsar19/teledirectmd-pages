@@ -359,7 +359,7 @@ export default async function CostPage({ params }) {
             <a href="/influenza-treatment-online/" className="tdmd-related-card"><span className="tdmd-related-title">Flu / Influenza</span><span className="tdmd-related-desc">$79 visit + Tamiflu when indicated</span></a>
           </div>
           <div className="tdmd-related-cta" style={{ marginTop: '1rem' }}>
-            <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">View all 60 conditions we treat</a>
+            <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">View all 60+ conditions we treat</a>
           </div>
         </div>
       </section>

@@ -103,6 +103,81 @@ function main() {
   }
 
   console.log(`\u2713 State lists: ${served.length} served states present in all ${LISTS.length} enumerated lists`);
+
+  // ── Inline-count drift check ──
+  // Catches stale TeleDirectMD-attributed counts like "40+ states", "41-state
+  // network", "licensed in 43 states" that the enumerated-list check cannot see
+  // because there is no name list to compare against. Competitor counts and
+  // outside clinical/policy facts ("50 states", Medicaid "41 states + DC") are
+  // allowlisted.
+  const countProblems = [];
+
+  // Files that legitimately mention non-44 state counts (competitor coverage,
+  // clinical scope, CDC/policy stats). Skipped by the inline check.
+  const COUNT_ALLOWLIST_PATHS = [
+    'lib/compare-pages-config.js',        // competitor coverage claims
+    'app/compare/',                       // competitor comparison prose
+    'public/health-guides/',              // clinical facts, policy stats
+    'data/outbreaks/',                    // CDC outbreak reports
+    'scripts/check-state-coverage.js',    // this file (self-reference)
+    'SETUP.md',                           // docs
+  ];
+
+  // File extensions to scan.
+  const COUNT_EXTS = new Set(['.js', '.jsx', '.ts', '.tsx', '.mdx', '.md', '.json']);
+
+  // The forbidden patterns. Each entry: label, regex, and reason.
+  // The regex must be TeleDirectMD-attributable — i.e. either not qualified,
+  // or explicitly TeleDirectMD-attributed. We keep it conservative on purpose:
+  // false negatives are OK, false positives break the build.
+  const FORBIDDEN = [
+    { label: '40+ states', re: /\b40\+\s*states?\b/i },
+    { label: 'TeleDirectMD 41-state / 41 states', re: /\b41[- ]?states?\b|TeleDirectMD['\u2019]?s?\s+4[0-3]\b/i },
+    { label: 'Licensed in 4[0-3] states (stale count)', re: /\bLicensed in 4[0-3]\s+states?\b/i },
+    { label: 'TeleDirectMD.{0,60}\\b4[0-3]\\s+states', re: /TeleDirectMD[\s\S]{0,80}\b4[0-3]\s+states?\b/i },
+  ];
+
+  function walk(dir, out) {
+    for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+      if (entry.name === 'node_modules' || entry.name === '.git' || entry.name === '.next') continue;
+      const full = path.join(dir, entry.name);
+      const rel = path.relative(ROOT, full);
+      if (COUNT_ALLOWLIST_PATHS.some((p) => rel.startsWith(p))) continue;
+      if (entry.isDirectory()) walk(full, out);
+      else if (COUNT_EXTS.has(path.extname(entry.name))) out.push(full);
+    }
+  }
+
+  const files = [];
+  walk(ROOT, files);
+
+  for (const abs of files) {
+    const rel = path.relative(ROOT, abs);
+    let txt;
+    try { txt = fs.readFileSync(abs, 'utf8'); } catch { continue; }
+    for (const { label, re } of FORBIDDEN) {
+      if (re.test(txt)) {
+        // Report every matching line for actionability.
+        const lines = txt.split('\n');
+        lines.forEach((line, i) => {
+          if (re.test(line)) {
+            countProblems.push(`${rel}:${i + 1}  [${label}]  ${line.trim().slice(0, 200)}`);
+          }
+        });
+      }
+    }
+  }
+
+  if (countProblems.length) {
+    console.error('\n\u2717 Inline state-count check failed\n');
+    countProblems.forEach((p) => console.error(`  ${p}`));
+    console.error(`\n  Canonical count is 44 states + DC. Update the phrases above.`);
+    console.error('  If a phrase legitimately refers to a competitor or outside stat,');
+    console.error('  move it under an allowlisted path or reword.\n');
+    process.exit(1);
+  }
+
+  console.log(`\u2713 Inline state counts: no stale 40+/41/42/43 phrases in ${files.length} scanned files`);
 }
 
 main();

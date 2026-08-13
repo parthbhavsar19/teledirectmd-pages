@@ -49,7 +49,7 @@ export default function TruckDriversPage() {
     },
     {
       q: 'What conditions can you treat for truck drivers via telehealth?',
-      a: 'We treat a wide range of conditions relevant to truckers, including hypertension, type 2 diabetes, high cholesterol, UTIs, sinus infections, respiratory infections, acid reflux, migraines, gout, skin conditions, anxiety, and more. We also provide smoking cessation support and medication refills for chronic conditions. See our full list of 60 conditions on our What We Treat page.'
+      a: 'We treat a wide range of conditions relevant to truckers, including hypertension, type 2 diabetes, high cholesterol, UTIs, sinus infections, respiratory infections, acid reflux, migraines, gout, skin conditions, anxiety, and more. We also provide smoking cessation support and medication refills for chronic conditions. See our full list of 60+ conditions on our What We Treat page.'
     },
     {
       q: 'How long does a telehealth visit take?',
@@ -232,7 +232,7 @@ export default function TruckDriversPage() {
           </p>
           <div className="tdmd-grid tdmd-grid-2">
             <div className="tdmd-card tdmd-card-good">
-              <h3>41-State Coverage</h3>
+              <h3>44-State Coverage</h3>
               <p>You cross state lines constantly. TeleDirectMD is licensed in 44 states, meaning the same physician can treat you whether you're in Texas, Tennessee, Ohio, or anywhere on your route. No need to find a new provider at every stop.</p>
             </div>
             <div className="tdmd-card tdmd-card-good">
@@ -287,7 +287,7 @@ export default function TruckDriversPage() {
             ))}
           </div>
           <div style={{ marginTop: '1.25rem' }}>
-            <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All 60 Conditions We Treat</a>
+            <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All 60+ Conditions We Treat</a>
           </div>
         </div>
       </section>

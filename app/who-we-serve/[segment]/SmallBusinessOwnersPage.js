@@ -247,7 +247,7 @@ export default function SmallBusinessOwnersPage() {
               <p>High blood pressure, diabetes, high cholesterol, hypothyroidism — managing chronic conditions is one of the most common uses of TeleDirectMD for small business owners. Get medication refills and routine management without scheduling a dedicated in-person visit every time.</p>
             </div>
             <div className="tdmd-card tdmd-card-good">
-              <h3>41-State Coverage — Works Where You Work</h3>
+              <h3>44-State Coverage — Works Where You Work</h3>
               <p>Whether you run a business from home in Ohio, travel for client work across multiple states, or operate in a state with limited local healthcare options, TeleDirectMD is licensed in 44 states. The same physician sees you wherever you are.</p>
             </div>
           </div>
@@ -275,7 +275,7 @@ export default function SmallBusinessOwnersPage() {
             ))}
           </div>
           <div style={{ marginTop: '1.25rem' }}>
-            <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All 60 Conditions We Treat</a>
+            <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All 60+ Conditions We Treat</a>
           </div>
         </div>
       </section>

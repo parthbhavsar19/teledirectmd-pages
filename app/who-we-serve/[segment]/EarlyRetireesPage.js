@@ -525,7 +525,7 @@ export default function EarlyRetireesPage() {
               </div>
             ))}
           </div>
-          <p><a href="/what-we-treat">View all 60 conditions we treat →</a></p>
+          <p><a href="/what-we-treat">View all 60+ conditions we treat →</a></p>
         </div>
       </section>
 

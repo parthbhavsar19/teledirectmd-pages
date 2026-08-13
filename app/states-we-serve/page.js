@@ -11,8 +11,8 @@ const FEATURED_SLUGS = ['ga', 'fl', 'tx', 'ca', 'tn', 'pa', 'oh', 'nc'];
 export async function generateMetadata() {
   const allStates = getStates();
   const stateCount = allStates.length;
-  const title = `States We Serve — Licensed Telemedicine in 40+ States | TeleDirectMD`;
-  const description = `Board-certified physicians delivering $79 video consultations to adults 18+ across 40+ U.S. states and territories. Same-day availability, no insurance required. See our full coverage map and book online.`;
+  const title = `States We Serve — Licensed Telemedicine in 44 States + DC | TeleDirectMD`;
+  const description = `Board-certified physicians delivering $79 video consultations to adults 18+ across 44 states plus DC. Same-day availability, no insurance required. See our full coverage map and book online.`;
   const pageUrl = 'https://teledirectmd.com/states-we-serve';
 
   return {
@@ -58,8 +58,8 @@ function buildJsonLd(allStates, categories) {
         '@type': 'MedicalWebPage',
         '@id': `${baseUrl}/states-we-serve#webpage`,
         url: `${baseUrl}/states-we-serve`,
-        name: `States We Serve — Licensed Telemedicine in 40+ States | TeleDirectMD`,
-        description: `Licensed states directory for TeleDirectMD adult-only physician-led telemedicine video visits across 40+ U.S. states and territories.`,
+        name: `States We Serve — Licensed Telemedicine in 44 States + DC | TeleDirectMD`,
+        description: `Licensed states directory for TeleDirectMD adult-only physician-led telemedicine video visits across 44 states plus DC.`,
         inLanguage: 'en-US',
         dateModified: new Date().toISOString().split('T')[0],
         lastReviewed: new Date().toISOString().split('T')[0],

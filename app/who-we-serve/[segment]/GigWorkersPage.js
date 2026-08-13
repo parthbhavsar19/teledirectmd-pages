@@ -234,7 +234,7 @@ export default function GigWorkersPage() {
           </p>
           <div className="tdmd-grid tdmd-grid-2">
             <div className="tdmd-card tdmd-card-good">
-              <h3>41-State Coverage</h3>
+              <h3>44-State Coverage</h3>
               <p>Work in multiple cities or states? TeleDirectMD is licensed in 44 states, meaning the same board-certified physician can see you wherever you are working — no need to find a new provider every time you cross a state line or pick up work in a new market.</p>
             </div>
             <div className="tdmd-card tdmd-card-good">
@@ -274,7 +274,7 @@ export default function GigWorkersPage() {
             ))}
           </div>
           <div style={{ marginTop: '1.25rem' }}>
-            <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All 60 Conditions We Treat</a>
+            <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All 60+ Conditions We Treat</a>
           </div>
         </div>
       </section>

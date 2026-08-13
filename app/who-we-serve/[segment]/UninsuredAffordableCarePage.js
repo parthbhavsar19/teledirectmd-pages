@@ -228,7 +228,7 @@ export default function UninsuredAffordableCarePage() {
               <p>$79 flat fee per visit. You see the cost before you book. No facility fees, no surprise billing, no insurance paperwork. If you need a prescription, we'll discuss cost-effective generic options at the time of your visit.</p>
             </div>
             <div className="tdmd-card tdmd-card-good">
-              <h3>41-State Coverage</h3>
+              <h3>44-State Coverage</h3>
               <p>TeleDirectMD is licensed in 44 states, so whether you're in Florida, Texas, California, or any of our covered states, you can see the same board-certified physician — without finding a new provider or paying to establish care.</p>
             </div>
             <div className="tdmd-card tdmd-card-good">
@@ -316,7 +316,7 @@ export default function UninsuredAffordableCarePage() {
             ))}
           </div>
           <div style={{ marginTop: '1.25rem' }}>
-            <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All 60 Conditions We Treat</a>
+            <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All 60+ Conditions We Treat</a>
           </div>
         </div>
       </section>
