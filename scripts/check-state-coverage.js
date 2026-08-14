@@ -238,6 +238,61 @@ function main() {
   }
 
   console.log(`\u2713 Pricing: no stale $49 phrases in ${priceFiles.length} scanned files`);
+
+  // ── Controlled-substance schedule check ──
+  // Canonical TeleDirectMD policy: does not prescribe controlled substances
+  // Schedule II–V via telehealth. "Schedule II–IV" is stale copy that implies
+  // Schedule V is prescribable, which contradicts the actual policy. Fail the
+  // build if any TDMD-scope claim regresses to II–IV. Hawaii state-template
+  // historical statute discussion (about the repealed HRS §329-38.2 II–IV query
+  // mandate) is legitimate and allowlisted.
+  const scheduleProblems = [];
+  const SCHEDULE_ALLOWLIST_PATHS = [
+    'data/state-templates/hi.json',       // repealed HRS §329-38.2 (Hawaii II–IV history)
+    'scripts/check-state-coverage.js',    // this file (self-reference)
+    'memory/',
+  ];
+  const SCHEDULE_II_IV = /Schedule\s+II[\u2013\-\s]+IV\b/i;
+
+  const scheduleFiles = [];
+  function walkSchedule(dir, out) {
+    for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+      if (entry.name === 'node_modules' || entry.name === '.git' || entry.name === '.next') continue;
+      const full = path.join(dir, entry.name);
+      const rel = path.relative(ROOT, full);
+      if (SCHEDULE_ALLOWLIST_PATHS.some((p) => rel.startsWith(p))) continue;
+      if (entry.isDirectory()) walkSchedule(full, out);
+      else if (COUNT_EXTS.has(path.extname(entry.name))) out.push(full);
+    }
+  }
+  walkSchedule(ROOT, scheduleFiles);
+
+  for (const abs of scheduleFiles) {
+    const rel = path.relative(ROOT, abs);
+    let txt;
+    try { txt = fs.readFileSync(abs, 'utf8'); } catch { continue; }
+    if (!SCHEDULE_II_IV.test(txt)) continue;
+    const lines = txt.split('\n');
+    lines.forEach((line, i) => {
+      if (SCHEDULE_II_IV.test(line)) {
+        scheduleProblems.push(`${rel}:${i + 1}  ${line.trim().slice(0, 200)}`);
+      }
+    });
+  }
+
+  if (scheduleProblems.length) {
+    console.error('\n\u2717 Controlled-substance schedule check failed\n');
+    scheduleProblems.forEach((p) => console.error(`  ${p}`));
+    console.error('\n  Canonical policy: TeleDirectMD does not prescribe');
+    console.error('  controlled substances Schedule II–V (all schedules that');
+    console.error('  the DEA regulates for prescribing, not just II–IV).');
+    console.error('  Update the phrases above from "Schedule II–IV" to');
+    console.error('  "Schedule II–V". Historical statute references belong');
+    console.error('  under data/state-templates/ (allowlisted).\n');
+    process.exit(1);
+  }
+
+  console.log(`\u2713 Controlled substances: no stale Schedule II–IV phrases in ${scheduleFiles.length} scanned files`);
 }
 
 main();

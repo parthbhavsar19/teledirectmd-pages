@@ -657,7 +657,7 @@ export default function EarlyRetireesPage() {
           <div className="tdmd-card tdmd-card-alert">
             <h3>Does Not Manage</h3>
             <ul className="tdmd-checklist tdmd-checklist--alert">
-              <li>Controlled substances (Schedule II–IV)</li>
+              <li>Controlled substances (Schedule II–V)</li>
               <li>Conditions requiring urgent in-person labs or imaging</li>
               <li>New specialist diagnoses requiring hands-on physical examination</li>
               <li>Medical emergencies of any kind</li>
@@ -719,7 +719,7 @@ export default function EarlyRetireesPage() {
             </table>
           </div>
           <p className="tdmd-cost-note">
-            Controlled substances (Schedule II–IV) are not prescribed. Insulin initiation requires in-person evaluation. TeleDirectMD does not replace your specialist or annual in-person physical.
+            Controlled substances (Schedule II–V) are not prescribed. Insulin initiation requires in-person evaluation. TeleDirectMD does not replace your specialist or annual in-person physical.
           </p>
         </div>
       </section>

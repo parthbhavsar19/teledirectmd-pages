@@ -295,7 +295,7 @@ export default function InternationalVisitorsPage() {
     },
     {
       question: 'Can I get a prescription refill while traveling in the US?',
-      answer: "Yes — if you've run out of a regular non-controlled medication while traveling in the US, TeleDirectMD can evaluate you by video and send a refill to any US pharmacy the same day. This works even if your original prescription was written in another country or another US state, because Dr. Bhavsar issues a new US prescription based on your video evaluation. Controlled substances (DEA Schedule II–IV) are excluded."
+      answer: "Yes — if you've run out of a regular non-controlled medication while traveling in the US, TeleDirectMD can evaluate you by video and send a refill to any US pharmacy the same day. This works even if your original prescription was written in another country or another US state, because Dr. Bhavsar issues a new US prescription based on your video evaluation. Controlled substances (DEA Schedule II–V) are excluded."
     },
     {
       question: 'How does a visit work? Is it hard to set up?',
@@ -580,7 +580,7 @@ export default function InternationalVisitorsPage() {
                 <li>You are experiencing a medical emergency (chest pain, difficulty breathing, stroke symptoms, severe bleeding) — call 911</li>
                 <li>You are physically located outside the US or in an unlicensed state</li>
                 <li>You are under 18 years of age</li>
-                <li>You need a controlled substance (DEA Schedule II–IV medications are outside our scope)</li>
+                <li>You need a controlled substance (DEA Schedule II–V medications are outside our scope)</li>
                 <li>Your condition requires an in-person physical examination, lab work, or imaging</li>
               </ul>
             </div>
@@ -981,7 +981,7 @@ export default function InternationalVisitorsPage() {
 
           <h3>Medication Refills</h3>
           <p>
-            If you've run short of an ongoing medication while traveling, TeleDirectMD can evaluate and prescribe refills for most medications. Excluding controlled substances (DEA Schedule II–IV).
+            If you've run short of an ongoing medication while traveling, TeleDirectMD can evaluate and prescribe refills for most medications. Excluding controlled substances (DEA Schedule II–V).
           </p>
           <p>
             A prescription refill while traveling works even if your original prescription was written in another country or out of state — Dr. Bhavsar issues a new US prescription based on your video evaluation.
@@ -994,7 +994,7 @@ export default function InternationalVisitorsPage() {
 
           <h3>What TeleDirectMD Does Not Manage</h3>
           <ul className="tdmd-checklist tdmd-checklist--alert">
-            <li>Controlled substances (DEA Schedule II–IV medications)</li>
+            <li>Controlled substances (DEA Schedule II–V medications)</li>
             <li>Conditions requiring physical examination, imaging, or urgent lab work</li>
             <li>Medical emergencies — call 911</li>
             <li>Patients under 18 years of age</li>
