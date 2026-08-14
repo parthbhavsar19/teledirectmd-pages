@@ -144,7 +144,8 @@ function main() {
   // or explicitly TeleDirectMD-attributed. We keep it conservative on purpose:
   // false negatives are OK, false positives break the build.
   const FORBIDDEN = [
-    { label: '40+ states', re: /\b40\+\s*states?\b/i },
+    // '40+ states' or '40+ licensed states' or '40+ U.S. states', etc.
+    { label: '40+ (adj) states', re: /\b40\+\s+(?:\w+\s+){0,3}states?\b/i },
     { label: 'TeleDirectMD 41-state / 41 states', re: /\b41[- ]?states?\b|TeleDirectMD['\u2019]?s?\s+4[0-3]\b/i },
     { label: 'Licensed in 4[0-3] states (stale count)', re: /\bLicensed in 4[0-3]\s+states?\b/i },
     { label: 'TeleDirectMD.{0,60}\\b4[0-3]\\s+states', re: /TeleDirectMD[\s\S]{0,80}\b4[0-3]\s+states?\b/i },
@@ -293,6 +294,87 @@ function main() {
   }
 
   console.log(`\u2713 Controlled substances: no stale Schedule II–IV phrases in ${scheduleFiles.length} scanned files`);
+
+  // ── Insurer state-list sync check ──
+  // The canonical Aetna in-network list lives in
+  // data/insurance/insuranceConfig.js under INSURERS.aetna.states. Three
+  // other files must stay in sync or Aetna state routes 404:
+  //   * app/insurance/aetna/AetnaHubClient.js       AETNA_STATES array
+  //   * app/insurance/aetna/[segment]/page.js       STATE_SLUGS dict
+  //   * app/insurance/aetna/[segment]/[subsegment]/page.js  STATE_SLUGS dict
+  const insurerConfigTxt = fs.readFileSync(path.join(ROOT, 'data/insurance/insuranceConfig.js'), 'utf8');
+  const aetnaCanonMatch = insurerConfigTxt.match(/aetna:\s*\{[^}]*states:\s*\[([^\]]+)\]/s);
+  const aetnaCanonList = aetnaCanonMatch
+    ? aetnaCanonMatch[1].match(/[A-Z]{2}/g).sort()
+    : null;
+
+  function extractCodesFromStateSlugs(txt) {
+    // Match STATE_SLUGS = { ... } and pull the two-letter code values.
+    const m = txt.match(/STATE_SLUGS\s*=\s*\{([^}]+)\}/s);
+    if (!m) return null;
+    return (m[1].match(/'([A-Z]{2})'|"([A-Z]{2})"/g) || [])
+      .map((s) => s.replace(/['"]/g, ''))
+      .sort();
+  }
+
+  function extractCodesFromAetnaStates(txt) {
+    // Match `code:"XX"` inside the AETNA_STATES array.
+    const m = txt.match(/AETNA_STATES\s*=\s*\[([\s\S]*?)\];/);
+    if (!m) return null;
+    return (m[1].match(/code:\s*['"]([A-Z]{2})['"]/g) || [])
+      .map((s) => s.match(/[A-Z]{2}/)[0])
+      .sort();
+  }
+
+  const insurerSyncTargets = [
+    {
+      path: 'app/insurance/aetna/AetnaHubClient.js',
+      extractor: extractCodesFromAetnaStates,
+      label: 'AETNA_STATES array',
+    },
+    {
+      path: 'app/insurance/aetna/[segment]/page.js',
+      extractor: extractCodesFromStateSlugs,
+      label: 'STATE_SLUGS dict',
+    },
+    {
+      path: 'app/insurance/aetna/[segment]/[subsegment]/page.js',
+      extractor: extractCodesFromStateSlugs,
+      label: 'STATE_SLUGS dict',
+    },
+  ];
+
+  const syncProblems = [];
+  if (!aetnaCanonList) {
+    syncProblems.push('  Could not parse canonical INSURERS.aetna.states from data/insurance/insuranceConfig.js');
+  } else {
+    for (const t of insurerSyncTargets) {
+      const txt = fs.readFileSync(path.join(ROOT, t.path), 'utf8');
+      const codes = t.extractor(txt);
+      if (!codes) {
+        syncProblems.push(`  ${t.path}  — could not parse ${t.label}`);
+        continue;
+      }
+      const missing = aetnaCanonList.filter((c) => !codes.includes(c));
+      const extra = codes.filter((c) => !aetnaCanonList.includes(c));
+      if (missing.length || extra.length) {
+        syncProblems.push(
+          `  ${t.path}  — ${t.label} out of sync with INSURERS.aetna.states.\n` +
+          `    missing: [${missing.join(', ')}]  extra: [${extra.join(', ')}]`
+        );
+      }
+    }
+  }
+
+  if (syncProblems.length) {
+    console.error('\n\u2717 Insurer state-list sync check failed\n');
+    syncProblems.forEach((p) => console.error(p));
+    console.error('\n  Update each out-of-sync file to match the canonical');
+    console.error('  INSURERS.aetna.states list in data/insurance/insuranceConfig.js.\n');
+    process.exit(1);
+  }
+
+  console.log(`\u2713 Insurer state-list sync: Aetna list [${aetnaCanonList.join(', ')}] matches in all ${insurerSyncTargets.length} downstream files`);
 }
 
 main();

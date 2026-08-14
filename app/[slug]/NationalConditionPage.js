@@ -214,7 +214,7 @@ export default function NationalConditionPage({ conditionSlug }) {
               <h3>✓ You Are Eligible If</h3>
               <ul className="tdmd-checklist tdmd-checklist--good">
                 {condition.eligibility.eligible.map((item, i) => (
-                  <li key={i}>{item.replace(/You are physically located in one of our covered states at the time of the visit/g, `You are physically located in one of our 40+ licensed states at the time of the visit`)}</li>
+                  <li key={i}>{item.replace(/You are physically located in one of our covered states at the time of the visit/g, `You are physically located in one of our 44 licensed states + DC at the time of the visit`)}</li>
                 ))}
               </ul>
             </div>
