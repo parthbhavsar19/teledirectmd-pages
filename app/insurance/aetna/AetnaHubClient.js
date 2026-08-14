@@ -46,9 +46,12 @@ const AETNA_STATES = [
   { code:"FL", name:"Florida", url:"/insurance/aetna/florida" },
   { code:"GA", name:"Georgia", url:"/ga/" },
   { code:"IL", name:"Illinois", url:"/il/" },
+  { code:"LA", name:"Louisiana", url:"/insurance/aetna/louisiana" },
   { code:"MI", name:"Michigan", url:"/mi/" },
   { code:"MN", name:"Minnesota", url:"/mn/" },
+  { code:"NC", name:"North Carolina", url:"/insurance/aetna/north-carolina" },
   { code:"OH", name:"Ohio", url:"/oh/" },
+  { code:"PA", name:"Pennsylvania", url:"/pa/" },
   { code:"TN", name:"Tennessee", url:"/tn/" },
 ];
 
@@ -291,7 +294,7 @@ export default function AetnaHubClient() {
           <div style={{ display:"grid", gridTemplateColumns:"repeat(auto-fit, minmax(240px, 1fr))", gap:16 }}>
             {[
               { title:"With Aetna Insurance", color:insurer.color, colorLight:insurer.colorLight, items:["Standard Aetna telehealth copay ($0–$40 for most plans)","Deductible applies if not yet met","Coinsurance may apply after deductible","Contact Aetna to verify your exact cost"] },
-              { title:"Without Insurance (Self-Pay)", color:B.accent, colorLight:"#FFF0EC", items:["Flat $79 per visit — always","No copay, no deductible, no surprise bills","No insurance needed","Available in all 40+ licensed states"] },
+              { title:"Without Insurance (Self-Pay)", color:B.accent, colorLight:"#FFF0EC", items:["Flat $79 per visit — always","No copay, no deductible, no surprise bills","No insurance needed","Available in all 44 licensed states + DC"] },
             ].map((card, i) => (
               <div key={i} style={{ background:B.white, border:`2px solid ${card.color}22`, borderRadius:B.r, padding:"24px 20px", borderTop:`3px solid ${card.color}`, boxShadow:B.shadow }}>
                 <h3 style={{ fontFamily:B.fd, fontSize:18, fontWeight:700, color:B.navy, margin:"0 0 16px" }}>{card.title}</h3>

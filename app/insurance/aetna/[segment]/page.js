@@ -4,10 +4,11 @@ import InsuranceConditionClient from '../../components/InsuranceConditionClient'
 
 const insurer = INSURERS.aetna;
 
-// All valid aetna state slugs
+// All valid aetna state slugs — keep in sync with INSURERS.aetna.states in data/insurance/insuranceConfig.js
 const STATE_SLUGS = {
   arizona:"AZ", california:"CA", colorado:"CO", florida:"FL", georgia:"GA", illinois:"IL",
-  michigan:"MI", minnesota:"MN", ohio:"OH", pennsylvania:"PA", tennessee:"TN"
+  louisiana:"LA", michigan:"MI", minnesota:"MN", "north-carolina":"NC",
+  ohio:"OH", pennsylvania:"PA", tennessee:"TN"
 };
 const CONDITION_SLUGS = Object.keys(INSURANCE_CONDITIONS);
 

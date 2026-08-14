@@ -6,7 +6,7 @@ export const metadata = {
   alternates: { canonical: 'https://teledirectmd.com/insurance/aetna' },
   openGraph: {
     title: 'Online Doctor That Accepts Aetna Insurance | TeleDirectMD',
-    description: 'In-network with Aetna in AZ, CA, CO, FL, GA, IL, MI, MN, OH, and TN. Board-certified physician. Same-day video visits.',
+    description: 'In-network with Aetna in AZ, CA, CO, FL, GA, IL, LA, MI, MN, NC, OH, PA, and TN. Board-certified physician. Same-day video visits.',
     url: 'https://teledirectmd.com/insurance/aetna',
     siteName: 'TeleDirectMD',
     type: 'website',
