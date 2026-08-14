@@ -108,7 +108,7 @@ const SCHEMA = {
       "description": "Three steps to see Dr. Parth Bhavsar, MD by video using your Aetna commercial plan.",
       "totalTime": "PT5M",
       "step": [
-        { "@type": "HowToStep", "position": 1, "name": "Verify Aetna coverage", "text": "Confirm your Aetna commercial plan is active in Arizona, California, Colorado, Florida, Georgia, Illinois, Michigan, Minnesota, Ohio, or Tennessee by checking your member ID card." },
+        { "@type": "HowToStep", "position": 1, "name": "Verify Aetna coverage", "text": "Confirm your Aetna commercial plan is active in Arizona, California, Colorado, Florida, Georgia, Illinois, Louisiana, Michigan, Minnesota, North Carolina, Ohio, Pennsylvania, or Tennessee by checking your member ID card." },
         { "@type": "HowToStep", "position": 2, "name": "Book online", "text": "Go to teledirectmd.com/book-online and choose 'Insurance' as your payment method. Enter your Aetna member ID." },
         { "@type": "HowToStep", "position": 3, "name": "See the physician by video", "text": "Join your video visit with Dr. Parth Bhavsar, MD. Pay only your Aetna copay. Prescriptions are sent to your pharmacy immediately after the visit." }
       ]

@@ -5,6 +5,13 @@
   "trailingSlash": true,
   "routes": [
     {
+      "src": "/virtual-urgent-care/?",
+      "headers": {
+        "Location": "/what-we-treat/"
+      },
+      "status": 301
+    },
+    {
       "src": "/health-guides/gout-acute-guide/?",
       "headers": {
         "Location": "/health-guides/gout-guide/"
