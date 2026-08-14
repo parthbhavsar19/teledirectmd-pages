@@ -94,7 +94,7 @@ export default async function ComparePage({ params }) {
     procedure: cfg.procedure,
   });
 
-  const citableSummary_AI = summarizeCompare({ competitorName: cfg.competitor?.name || competitor, competitorPriceRange: cfg.competitor?.priceRange, competitorCoverageStates: cfg.competitor?.coverageStates });
+  const citableSummary_AI = summarizeCompare({ competitorName: cfg.competitorName || cfg.competitor?.name || competitor, competitorPriceRange: cfg.competitor?.priceRange, competitorCoverageStates: cfg.competitor?.coverageStates });
   const pageUrl_AI = `https://teledirectmd.com/compare/${competitor}/`;
   const citableJsonLd_AI = citableSummaryToJsonLd(citableSummary_AI, { pageUrl: pageUrl_AI });
 

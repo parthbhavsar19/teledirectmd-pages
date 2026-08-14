@@ -123,6 +123,19 @@ function main() {
     'SETUP.md',                           // docs
   ];
 
+  // Files that legitimately reference the historical $49 price point
+  // (verbatim patient testimonials, the good-faith-estimate price-change note).
+  // Everything else that mentions $49 is stale copy and must be fixed.
+  const PRICE_ALLOWLIST_PATHS = [
+    'data/reviews.json',                  // verbatim patient testimonials from 2025-2026
+    'app/HomepageClient.js',              // renders reviews.json verbatim
+    'app/good-faith-estimate/',           // historical price-change note
+    'lib/cost-pages-config.js',           // unrelated competitor pricing ($49/mo subscription)
+    'public/health-guides/',              // any legitimate $49 clinical reference
+    'scripts/check-state-coverage.js',    // this file (self-reference)
+    'memory/',                            // agent memory dumps if committed
+  ];
+
   // File extensions to scan.
   const COUNT_EXTS = new Set(['.js', '.jsx', '.ts', '.tsx', '.mdx', '.md', '.json']);
 
@@ -178,6 +191,53 @@ function main() {
   }
 
   console.log(`\u2713 Inline state counts: no stale 40+/41/42/43 phrases in ${files.length} scanned files`);
+
+  // ── Stale $49 pricing check ──
+  // The self-pay fee moved from $49 to $79 on 2026-05-23. Any $49 phrase in
+  // code that renders on marketing pages is either stale or wrong. Verbatim
+  // patient testimonials (with the pre-May-2026 price they actually paid) live
+  // in data/reviews.json and are allowlisted.
+  const priceProblems = [];
+  const priceFiles = [];
+  function walkPrice(dir, out) {
+    for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+      if (entry.name === 'node_modules' || entry.name === '.git' || entry.name === '.next') continue;
+      const full = path.join(dir, entry.name);
+      const rel = path.relative(ROOT, full);
+      if (PRICE_ALLOWLIST_PATHS.some((p) => rel.startsWith(p))) continue;
+      if (entry.isDirectory()) walkPrice(full, out);
+      else if (COUNT_EXTS.has(path.extname(entry.name))) out.push(full);
+    }
+  }
+  walkPrice(ROOT, priceFiles);
+
+  // Match literal '$49' as a price token — not part of $499, $4900, etc.
+  const DOLLAR_49 = /\$49(?!\d)/;
+
+  for (const abs of priceFiles) {
+    const rel = path.relative(ROOT, abs);
+    let txt;
+    try { txt = fs.readFileSync(abs, 'utf8'); } catch { continue; }
+    if (!DOLLAR_49.test(txt)) continue;
+    const lines = txt.split('\n');
+    lines.forEach((line, i) => {
+      if (DOLLAR_49.test(line)) {
+        priceProblems.push(`${rel}:${i + 1}  ${line.trim().slice(0, 200)}`);
+      }
+    });
+  }
+
+  if (priceProblems.length) {
+    console.error('\n\u2717 Stale $49 pricing check failed\n');
+    priceProblems.forEach((p) => console.error(`  ${p}`));
+    console.error(`\n  Canonical self-pay price is $79 (effective 2026-05-23).`);
+    console.error('  Update the phrases above. If the $49 is a verbatim');
+    console.error('  patient testimonial or historical note, move it under an');
+    console.error('  allowlisted path.\n');
+    process.exit(1);
+  }
+
+  console.log(`\u2713 Pricing: no stale $49 phrases in ${priceFiles.length} scanned files`);
 }
 
 main();
