@@ -296,20 +296,32 @@ function main() {
   console.log(`\u2713 Controlled substances: no stale Schedule II–IV phrases in ${scheduleFiles.length} scanned files`);
 
   // ── Insurer state-list sync check ──
-  // The canonical Aetna in-network list lives in
-  // data/insurance/insuranceConfig.js under INSURERS.aetna.states. Three
-  // other files must stay in sync or Aetna state routes 404:
-  //   * app/insurance/aetna/AetnaHubClient.js       AETNA_STATES array
-  //   * app/insurance/aetna/[segment]/page.js       STATE_SLUGS dict
-  //   * app/insurance/aetna/[segment]/[subsegment]/page.js  STATE_SLUGS dict
+  // Canonical in-network list for each insurer lives in
+  // data/insurance/insuranceConfig.js under INSURERS.<insurer>.states.
+  // Downstream files must stay in sync or state routes 404:
+  //   * <hub>Client.js           <INSURER>_STATES / AETNA_STATES array
+  //   * [segment]/page.js        STATE_SLUGS dict (generateStaticParams)
+  //   * [segment]/[subsegment]/page.js  STATE_SLUGS dict
+  //
+  // Each insurer runs in one of two modes:
+  //   strict  — mismatch fails the build (Aetna, BCBS)
+  //   warn    — mismatch logs a warning but does not fail. Used when the
+  //             config is aspirational (some states intentionally 410 in
+  //             vercel.json) or the reconciliation direction is not yet
+  //             decided. Flip to 'strict' once drift resolves.
   const insurerConfigTxt = fs.readFileSync(path.join(ROOT, 'data/insurance/insuranceConfig.js'), 'utf8');
-  const aetnaCanonMatch = insurerConfigTxt.match(/aetna:\s*\{[^}]*states:\s*\[([^\]]+)\]/s);
-  const aetnaCanonList = aetnaCanonMatch
-    ? aetnaCanonMatch[1].match(/[A-Z]{2}/g).sort()
-    : null;
+
+  function extractCanonList(insurerKey) {
+    // Match `"key": {...states: [...]` or `key: {...states: [...]`.
+    const pat = new RegExp(
+      `(?:^|,|\\{)\\s*(?:"${insurerKey}"|${insurerKey}):\\s*\\{[^}]*states:\\s*\\[([^\\]]+)\\]`,
+      's'
+    );
+    const m = insurerConfigTxt.match(pat);
+    return m ? m[1].match(/[A-Z]{2}/g).sort() : null;
+  }
 
   function extractCodesFromStateSlugs(txt) {
-    // Match STATE_SLUGS = { ... } and pull the two-letter code values.
     const m = txt.match(/STATE_SLUGS\s*=\s*\{([^}]+)\}/s);
     if (!m) return null;
     return (m[1].match(/'([A-Z]{2})'|"([A-Z]{2})"/g) || [])
@@ -317,64 +329,119 @@ function main() {
       .sort();
   }
 
-  function extractCodesFromAetnaStates(txt) {
-    // Match `code:"XX"` inside the AETNA_STATES array.
-    const m = txt.match(/AETNA_STATES\s*=\s*\[([\s\S]*?)\];/);
-    if (!m) return null;
-    return (m[1].match(/code:\s*['"]([A-Z]{2})['"]/g) || [])
-      .map((s) => s.match(/[A-Z]{2}/)[0])
-      .sort();
+  function makeHubExtractor(constName) {
+    return function (txt) {
+      const re = new RegExp(`${constName}\\s*=\\s*\\[([\\s\\S]*?)\\];`);
+      const m = txt.match(re);
+      if (!m) return null;
+      return (m[1].match(/code:\s*['"]([A-Z]{2})['"]/g) || [])
+        .map((s) => s.match(/[A-Z]{2}/)[0])
+        .sort();
+    };
   }
 
-  const insurerSyncTargets = [
+  const INSURER_SYNC_PLAN = [
     {
-      path: 'app/insurance/aetna/AetnaHubClient.js',
-      extractor: extractCodesFromAetnaStates,
-      label: 'AETNA_STATES array',
+      key: 'aetna',
+      label: 'Aetna',
+      mode: 'strict',
+      targets: [
+        { path: 'app/insurance/aetna/AetnaHubClient.js',
+          extractor: makeHubExtractor('AETNA_STATES'), label: 'AETNA_STATES array' },
+        { path: 'app/insurance/aetna/[segment]/page.js',
+          extractor: extractCodesFromStateSlugs, label: 'STATE_SLUGS dict' },
+        { path: 'app/insurance/aetna/[segment]/[subsegment]/page.js',
+          extractor: extractCodesFromStateSlugs, label: 'STATE_SLUGS dict' },
+      ],
     },
     {
-      path: 'app/insurance/aetna/[segment]/page.js',
-      extractor: extractCodesFromStateSlugs,
-      label: 'STATE_SLUGS dict',
+      key: 'blue-cross-blue-shield',
+      label: 'BCBS',
+      mode: 'strict',
+      targets: [
+        // BCBSHubClient renders its state grid inline (no BCBS_STATES const).
+        { path: 'app/insurance/blue-cross-blue-shield/[segment]/page.js',
+          extractor: extractCodesFromStateSlugs, label: 'STATE_SLUGS dict' },
+        { path: 'app/insurance/blue-cross-blue-shield/[segment]/[subsegment]/page.js',
+          extractor: extractCodesFromStateSlugs, label: 'STATE_SLUGS dict' },
+      ],
     },
     {
-      path: 'app/insurance/aetna/[segment]/[subsegment]/page.js',
-      extractor: extractCodesFromStateSlugs,
-      label: 'STATE_SLUGS dict',
+      key: 'united-healthcare',
+      label: 'UHC',
+      // NOTE: warn-mode. Config lists 17 states but production intentionally
+      // 410s some UHC routes per the insurance-consolidation-2026-06-09
+      // retirement (see vercel.json). Reconciliation is a decision, not a
+      // mechanical fix: either shrink the config to what routing serves, or
+      // build out missing routes end-to-end (STATE_SLUGS, UHC_STATES, and
+      // UHCStateClient STATE_CODE_MAP + copay data). Flip to 'strict' once
+      // that decision lands.
+      mode: 'warn',
+      targets: [
+        { path: 'app/insurance/united-healthcare/UHCHubClient.js',
+          extractor: makeHubExtractor('UHC_STATES'), label: 'UHC_STATES array' },
+        { path: 'app/insurance/united-healthcare/[segment]/page.js',
+          extractor: extractCodesFromStateSlugs, label: 'STATE_SLUGS dict' },
+        { path: 'app/insurance/united-healthcare/[segment]/[subsegment]/page.js',
+          extractor: extractCodesFromStateSlugs, label: 'STATE_SLUGS dict' },
+      ],
     },
   ];
 
-  const syncProblems = [];
-  if (!aetnaCanonList) {
-    syncProblems.push('  Could not parse canonical INSURERS.aetna.states from data/insurance/insuranceConfig.js');
-  } else {
-    for (const t of insurerSyncTargets) {
+  const strictProblems = [];
+  const warnProblems = [];
+
+  for (const plan of INSURER_SYNC_PLAN) {
+    const canon = extractCanonList(plan.key);
+    if (!canon) {
+      strictProblems.push(`  Could not parse canonical INSURERS[${plan.key}].states from data/insurance/insuranceConfig.js`);
+      continue;
+    }
+    let planClean = true;
+    for (const t of plan.targets) {
       const txt = fs.readFileSync(path.join(ROOT, t.path), 'utf8');
       const codes = t.extractor(txt);
       if (!codes) {
-        syncProblems.push(`  ${t.path}  — could not parse ${t.label}`);
+        (plan.mode === 'strict' ? strictProblems : warnProblems).push(
+          `  ${t.path}  — could not parse ${t.label}`
+        );
+        planClean = false;
         continue;
       }
-      const missing = aetnaCanonList.filter((c) => !codes.includes(c));
-      const extra = codes.filter((c) => !aetnaCanonList.includes(c));
+      const missing = canon.filter((c) => !codes.includes(c));
+      const extra = codes.filter((c) => !canon.includes(c));
       if (missing.length || extra.length) {
-        syncProblems.push(
-          `  ${t.path}  — ${t.label} out of sync with INSURERS.aetna.states.\n` +
-          `    missing: [${missing.join(', ')}]  extra: [${extra.join(', ')}]`
-        );
+        const line =
+          `  ${t.path}  — ${t.label} out of sync with INSURERS[${plan.key}].states.\n` +
+          `    missing: [${missing.join(', ')}]  extra: [${extra.join(', ')}]`;
+        (plan.mode === 'strict' ? strictProblems : warnProblems).push(line);
+        planClean = false;
       }
+    }
+    if (planClean) {
+      console.log(
+        `\u2713 Insurer state-list sync (${plan.label}): [${canon.join(', ')}] matches in all ${plan.targets.length} downstream files`
+      );
     }
   }
 
-  if (syncProblems.length) {
-    console.error('\n\u2717 Insurer state-list sync check failed\n');
-    syncProblems.forEach((p) => console.error(p));
-    console.error('\n  Update each out-of-sync file to match the canonical');
-    console.error('  INSURERS.aetna.states list in data/insurance/insuranceConfig.js.\n');
-    process.exit(1);
+  if (warnProblems.length) {
+    console.warn('\n\u26a0 Insurer state-list sync warnings (non-fatal)\n');
+    warnProblems.forEach((p) => console.warn(p));
+    console.warn(
+      '\n  These insurers are in warn-mode. Either shrink the config to match\n' +
+      '  what routing actually serves, or build out the missing routes end-to-end.\n' +
+      "  Then flip the plan entry to mode: 'strict' in scripts/check-state-coverage.js.\n"
+    );
   }
 
-  console.log(`\u2713 Insurer state-list sync: Aetna list [${aetnaCanonList.join(', ')}] matches in all ${insurerSyncTargets.length} downstream files`);
+  if (strictProblems.length) {
+    console.error('\n\u2717 Insurer state-list sync check failed\n');
+    strictProblems.forEach((p) => console.error(p));
+    console.error('\n  Update each out-of-sync file to match the canonical');
+    console.error('  INSURERS[<insurer>].states list in data/insurance/insuranceConfig.js.\n');
+    process.exit(1);
+  }
 }
 
 main();
