@@ -786,13 +786,21 @@ html.tdmd-dark .tdmd-caption a { color: #5bbfc9; }
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.03);
   color: var(--tdmd-text);
 }
-html.tdmd-dark .tdmd-citable-summary {
+html.tdmd-dark .tdmd-citable-summary,
+html.tdmd-dark .tdmd-citable-summary p,
+html.tdmd-dark .tdmd-citable-summary strong {
   background: #16232d;
-  border-color: #2b3a44;
-  color: var(--tdmd-text);
+  color: #f0f4f6 !important;
+}
+html.tdmd-dark .tdmd-citable-summary {
+  border-color: #3a4d5a;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.35);
 }
-html.tdmd-dark .tdmd-citable-summary a { color: #5bbfc9; }
+html.tdmd-dark .tdmd-citable-summary p,
+html.tdmd-dark .tdmd-citable-summary strong {
+  background: transparent;
+}
+html.tdmd-dark .tdmd-citable-summary a { color: #7ecde0 !important; }
 </style>
 <link rel="stylesheet" href="../dark-mode.css">
 </head>
