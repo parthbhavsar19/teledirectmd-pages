@@ -759,6 +759,20 @@ sup a:hover { text-decoration: underline; }
   line-height: 1.55;
 }
 .tdmd-caption a { color: var(--tdmd-teal); }
+
+/* Dark-mode adaptation for inline SVG figures.
+   The SVGs use dark text on light fills; in dark mode we invert the
+   figure surface and invert the SVG hues so the internal chart colors
+   remain legible against the new dark card background. */
+html.tdmd-dark .tdmd-figure {
+  background: #16232d;
+  border-color: #2b3a44;
+}
+html.tdmd-dark .tdmd-figure svg {
+  filter: invert(0.92) hue-rotate(180deg);
+}
+html.tdmd-dark .tdmd-caption { color: #a8b6bc; }
+html.tdmd-dark .tdmd-caption a { color: #5bbfc9; }
 </style>
 <link rel="stylesheet" href="../dark-mode.css">
 </head>
@@ -1134,57 +1148,124 @@ sup a:hover { text-decoration: underline; }
 </section>
 <section id="faq">
 <h2>Frequently asked questions</h2>
-<div class="tdmd-faq-item">
-  <h3 class="tdmd-faq-question">Do all hospitals offer charity care?</h3>
-  <p>No. Tax-exempt 501(c)(3) hospitals are federally required to maintain a written FAP. For-profit hospitals are not subject to that federal requirement, although they may offer voluntary financial assistance and some state laws may add requirements. (<a href="https://www.irs.gov/charities-non-profits/financial-assistance-policies-faps">IRS Financial Assistance Policies</a>)</p>
-</div>
-<div class="tdmd-faq-item">
-  <h3 class="tdmd-faq-question">What income qualifies for charity care?</h3>
-  <p>There is no single federal income cutoff. A covered nonprofit hospital must publish its eligibility criteria, and state rules can add protections. California, Illinois, and Georgia have state-specific rules, but the applicable threshold depends on the hospital and state program. (<a href="https://www.law.cornell.edu/cfr/text/26/1.501(r)-4">26 CFR § 1.501(r)-4</a>) (<a href="https://hcai.ca.gov/affordability/hospital-fair-billing-program/laws-and-regulations/">California HCAI Laws & Regulations</a>)</p>
-</div>
-<div class="tdmd-faq-item">
-  <h3 class="tdmd-faq-question">How long do I have to apply?</h3>
-  <p>For a nonprofit hospital, the federal minimum application period is <strong>240 days</strong> from the first post-discharge billing statement. Apply sooner if possible and keep proof of submission. (<a href="https://www.law.cornell.edu/cfr/text/26/1.501(r)-6">26 CFR § 1.501(r)-6</a>)</p>
-</div>
-<div class="tdmd-faq-item">
-  <h3 class="tdmd-faq-question">Will asking for charity care hurt my credit?</h3>
-  <p>Asking for charity care does not itself hurt your credit. A covered nonprofit hospital must make reasonable efforts to determine FAP eligibility before extraordinary collection actions, including adverse credit reporting. (<a href="https://www.law.cornell.edu/cfr/text/26/1.501(r)-6">26 CFR § 1.501(r)-6</a>)</p>
-</div>
-<div class="tdmd-faq-item">
-  <h3 class="tdmd-faq-question">Can I get charity care after the bill is already in collections?</h3>
-  <p>You may still be able to apply, particularly within the federal <strong>240-day</strong> application period for nonprofit hospitals. Contact the hospital's financial-assistance office as well as the collector and keep your request in writing. (<a href="https://www.law.cornell.edu/cfr/text/26/1.501(r)-6">26 CFR § 1.501(r)-6</a>)</p>
-</div>
-<div class="tdmd-faq-item">
-  <h3 class="tdmd-faq-question">What if the hospital says no?</h3>
-  <p>Ask for the denial in writing, the policy section used for the decision, and whether the hospital offers reconsideration or another discount. You can also ask about Medicaid screening, self-pay pricing, and a payment arrangement. The FAP must explain the hospital's eligibility criteria and application method. (<a href="https://www.law.cornell.edu/cfr/text/26/1.501(r)-4">26 CFR § 1.501(r)-4</a>)</p>
-</div>
-<div class="tdmd-faq-item">
-  <h3 class="tdmd-faq-question">Can I negotiate a bill even if I have insurance?</h3>
-  <p>Yes. You can ask the provider to review a balance after insurance, explain charges, and tell you what financial-assistance or payment options apply. If the bill involves a protected out-of-network service, ask your insurer whether the No Surprises Act applies. (<a href="https://www.cms.gov/newsroom/fact-sheets/no-surprises-understand-your-rights-against-surprise-medical-bills">CMS No Surprises Act fact sheet</a>)</p>
-</div>
-<div class="tdmd-faq-item">
-  <h3 class="tdmd-faq-question">What's the difference between charity care and a payment plan?</h3>
-  <p>Charity care reduces or removes a qualifying balance under a financial-assistance policy. A payment plan spreads an amount you still owe over time. For nonprofit hospitals, the written FAP must state whether assistance includes free or discounted care. (<a href="https://www.law.cornell.edu/cfr/text/26/1.501(r)-4">26 CFR § 1.501(r)-4</a>)</p>
-</div>
-<div class="tdmd-faq-item">
-  <h3 class="tdmd-faq-question">Does the No Surprises Act apply to my bill?</h3>
-  <p>It may apply if you have group or individual health coverage and received emergency services, certain out-of-network care at an in-network facility, or out-of-network air ambulance services. Uninsured or self-pay patients may have a different dispute route when a bill is far above a good faith estimate. (<a href="https://www.cms.gov/newsroom/fact-sheets/no-surprises-understand-your-rights-against-surprise-medical-bills">CMS No Surprises Act fact sheet</a>)</p>
-</div>
-<div class="tdmd-faq-item">
-  <h3 class="tdmd-faq-question">Can Medicaid pay a bill from before I enrolled?</h3>
-  <p>Possibly. States generally provide <strong>three months</strong> of retroactive eligibility for covered services if the person would have qualified at the time, but some states have shortened that window. Ask your state Medicaid agency about your date of service. (<a href="https://www.macpac.gov/publication/medicaid-retroactive-eligibility-changes-under-section-1115-waivers/">MACPAC retroactive-eligibility brief</a>)</p>
-</div>
-<div class="tdmd-faq-item">
-  <h3 class="tdmd-faq-question">Do for-profit hospitals have to offer financial assistance?</h3>
-  <p>Not under the federal 501(r) rules, which apply to tax-exempt 501(c)(3) hospital organizations. Ask a for-profit hospital for its own policy anyway because some systems offer voluntary assistance. (<a href="https://www.irs.gov/charities-non-profits/financial-assistance-policies-faps">IRS Financial Assistance Policies</a>)</p>
-</div>
-<div class="tdmd-faq-item">
-  <h3 class="tdmd-faq-question">What if my bill is from a doctor, not the hospital?</h3>
-  <p>Ask both the hospital and the physician group about assistance. A nonprofit hospital's FAP must identify which providers are covered and which are not, so a hospital policy may not resolve a separate clinician-group bill. (<a href="https://www.irs.gov/charities-non-profits/financial-assistance-policies-faps">IRS Financial Assistance Policies</a>)</p>
-</div>
-<div class="tdmd-faq-item">
-  <h3 class="tdmd-faq-question">Where do I find my hospital's Financial Assistance Policy?</h3>
-  <p>Search the hospital website for “financial assistance” or “FAP,” call the number on the bill, or ask patient financial services for the policy and plain-language summary. Covered nonprofit hospitals must widely publicize their FAPs. (<a href="https://www.law.cornell.edu/cfr/text/26/1.501(r)-4">26 CFR § 1.501(r)-4</a>)</p>
+<div class="tdmd-faq-list">
+  <div class="tdmd-faq-item">
+    <button class="tdmd-faq-question" aria-expanded="false">
+      Do all hospitals offer charity care?
+      <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+    </button>
+    <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner">
+      <p>No. Tax-exempt 501(c)(3) hospitals are federally required to maintain a written FAP. For-profit hospitals are not subject to that federal requirement, although they may offer voluntary financial assistance and some state laws may add requirements. (<a href="https://www.irs.gov/charities-non-profits/financial-assistance-policies-faps">IRS Financial Assistance Policies</a>)</p>
+    </div></div>
+  </div>
+  <div class="tdmd-faq-item">
+    <button class="tdmd-faq-question" aria-expanded="false">
+      What income qualifies for charity care?
+      <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+    </button>
+    <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner">
+      <p>There is no single federal income cutoff. A covered nonprofit hospital must publish its eligibility criteria, and state rules can add protections. California, Illinois, and Georgia have state-specific rules, but the applicable threshold depends on the hospital and state program. (<a href="https://www.law.cornell.edu/cfr/text/26/1.501(r)-4">26 CFR § 1.501(r)-4</a>) (<a href="https://hcai.ca.gov/affordability/hospital-fair-billing-program/laws-and-regulations/">California HCAI Laws & Regulations</a>)</p>
+    </div></div>
+  </div>
+  <div class="tdmd-faq-item">
+    <button class="tdmd-faq-question" aria-expanded="false">
+      How long do I have to apply?
+      <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+    </button>
+    <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner">
+      <p>For a nonprofit hospital, the federal minimum application period is <strong>240 days</strong> from the first post-discharge billing statement. Apply sooner if possible and keep proof of submission. (<a href="https://www.law.cornell.edu/cfr/text/26/1.501(r)-6">26 CFR § 1.501(r)-6</a>)</p>
+    </div></div>
+  </div>
+  <div class="tdmd-faq-item">
+    <button class="tdmd-faq-question" aria-expanded="false">
+      Will asking for charity care hurt my credit?
+      <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+    </button>
+    <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner">
+      <p>Asking for charity care does not itself hurt your credit. A covered nonprofit hospital must make reasonable efforts to determine FAP eligibility before extraordinary collection actions, including adverse credit reporting. (<a href="https://www.law.cornell.edu/cfr/text/26/1.501(r)-6">26 CFR § 1.501(r)-6</a>)</p>
+    </div></div>
+  </div>
+  <div class="tdmd-faq-item">
+    <button class="tdmd-faq-question" aria-expanded="false">
+      Can I get charity care after the bill is already in collections?
+      <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+    </button>
+    <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner">
+      <p>You may still be able to apply, particularly within the federal <strong>240-day</strong> application period for nonprofit hospitals. Contact the hospital's financial-assistance office as well as the collector and keep your request in writing. (<a href="https://www.law.cornell.edu/cfr/text/26/1.501(r)-6">26 CFR § 1.501(r)-6</a>)</p>
+    </div></div>
+  </div>
+  <div class="tdmd-faq-item">
+    <button class="tdmd-faq-question" aria-expanded="false">
+      What if the hospital says no?
+      <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+    </button>
+    <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner">
+      <p>Ask for the denial in writing, the policy section used for the decision, and whether the hospital offers reconsideration or another discount. You can also ask about Medicaid screening, self-pay pricing, and a payment arrangement. The FAP must explain the hospital's eligibility criteria and application method. (<a href="https://www.law.cornell.edu/cfr/text/26/1.501(r)-4">26 CFR § 1.501(r)-4</a>)</p>
+    </div></div>
+  </div>
+  <div class="tdmd-faq-item">
+    <button class="tdmd-faq-question" aria-expanded="false">
+      Can I negotiate a bill even if I have insurance?
+      <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+    </button>
+    <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner">
+      <p>Yes. You can ask the provider to review a balance after insurance, explain charges, and tell you what financial-assistance or payment options apply. If the bill involves a protected out-of-network service, ask your insurer whether the No Surprises Act applies. (<a href="https://www.cms.gov/newsroom/fact-sheets/no-surprises-understand-your-rights-against-surprise-medical-bills">CMS No Surprises Act fact sheet</a>)</p>
+    </div></div>
+  </div>
+  <div class="tdmd-faq-item">
+    <button class="tdmd-faq-question" aria-expanded="false">
+      What's the difference between charity care and a payment plan?
+      <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+    </button>
+    <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner">
+      <p>Charity care reduces or removes a qualifying balance under a financial-assistance policy. A payment plan spreads an amount you still owe over time. For nonprofit hospitals, the written FAP must state whether assistance includes free or discounted care. (<a href="https://www.law.cornell.edu/cfr/text/26/1.501(r)-4">26 CFR § 1.501(r)-4</a>)</p>
+    </div></div>
+  </div>
+  <div class="tdmd-faq-item">
+    <button class="tdmd-faq-question" aria-expanded="false">
+      Does the No Surprises Act apply to my bill?
+      <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+    </button>
+    <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner">
+      <p>It may apply if you have group or individual health coverage and received emergency services, certain out-of-network care at an in-network facility, or out-of-network air ambulance services. Uninsured or self-pay patients may have a different dispute route when a bill is far above a good faith estimate. (<a href="https://www.cms.gov/newsroom/fact-sheets/no-surprises-understand-your-rights-against-surprise-medical-bills">CMS No Surprises Act fact sheet</a>)</p>
+    </div></div>
+  </div>
+  <div class="tdmd-faq-item">
+    <button class="tdmd-faq-question" aria-expanded="false">
+      Can Medicaid pay a bill from before I enrolled?
+      <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+    </button>
+    <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner">
+      <p>Possibly. States generally provide <strong>three months</strong> of retroactive eligibility for covered services if the person would have qualified at the time, but some states have shortened that window. Ask your state Medicaid agency about your date of service. (<a href="https://www.macpac.gov/publication/medicaid-retroactive-eligibility-changes-under-section-1115-waivers/">MACPAC retroactive-eligibility brief</a>)</p>
+    </div></div>
+  </div>
+  <div class="tdmd-faq-item">
+    <button class="tdmd-faq-question" aria-expanded="false">
+      Do for-profit hospitals have to offer financial assistance?
+      <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+    </button>
+    <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner">
+      <p>Not under the federal 501(r) rules, which apply to tax-exempt 501(c)(3) hospital organizations. Ask a for-profit hospital for its own policy anyway because some systems offer voluntary assistance. (<a href="https://www.irs.gov/charities-non-profits/financial-assistance-policies-faps">IRS Financial Assistance Policies</a>)</p>
+    </div></div>
+  </div>
+  <div class="tdmd-faq-item">
+    <button class="tdmd-faq-question" aria-expanded="false">
+      What if my bill is from a doctor, not the hospital?
+      <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+    </button>
+    <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner">
+      <p>Ask both the hospital and the physician group about assistance. A nonprofit hospital's FAP must identify which providers are covered and which are not, so a hospital policy may not resolve a separate clinician-group bill. (<a href="https://www.irs.gov/charities-non-profits/financial-assistance-policies-faps">IRS Financial Assistance Policies</a>)</p>
+    </div></div>
+  </div>
+  <div class="tdmd-faq-item">
+    <button class="tdmd-faq-question" aria-expanded="false">
+      Where do I find my hospital's Financial Assistance Policy?
+      <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+    </button>
+    <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner">
+      <p>Search the hospital website for “financial assistance” or “FAP,” call the number on the bill, or ask patient financial services for the policy and plain-language summary. Covered nonprofit hospitals must widely publicize their FAPs. (<a href="https://www.law.cornell.edu/cfr/text/26/1.501(r)-4">26 CFR § 1.501(r)-4</a>)</p>
+    </div></div>
+  </div>
 </div>
 </section>
 
