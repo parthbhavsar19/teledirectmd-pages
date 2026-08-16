@@ -589,7 +589,13 @@ sup a:hover { text-decoration: underline; }
  padding: 0.75rem 1rem;
  border-bottom: 1px solid var(--tdmd-border);
  vertical-align: top;
-}.tdmd-table tr:last-child td { border-bottom: none; }.tdmd-table tr:nth-child(even) { background: var(--tdmd-bg-soft); }
+}
+.tdmd-table--compact th, .tdmd-table--compact td {
+ padding: 0.55rem 0.65rem;
+ font-size: 0.85rem;
+ line-height: 1.45;
+}
+.tdmd-table--compact { font-size: 0.85rem; }.tdmd-table tr:last-child td { border-bottom: none; }.tdmd-table tr:nth-child(even) { background: var(--tdmd-bg-soft); }
 
 /* ===== Sidebar ===== */.tdmd-sidebar-card {
  background: var(--tdmd-white);
@@ -675,7 +681,7 @@ sup a:hover { text-decoration: underline; }
  margin-bottom: 0;
  font-size: 0.9rem;
  color: var(--tdmd-muted);
-}.tdmd-references li { margin-bottom: 0.5rem; }.tdmd-references a { word-break: break-all; }
+}.tdmd-references li { margin-bottom: 0.5rem; }.tdmd-references a { overflow-wrap: anywhere; word-break: break-word; }
 
 /* ===== Author Bio ===== */.tdmd-author-bio {
  display: flex;
@@ -848,7 +854,12 @@ sup a:hover { text-decoration: underline; }
  </div>
  </div>
  </header>
-<!-- tdmd:citable-summary-start -->
+<figure class="tdmd-article-figure">
+ <img src="images/hero-us-pharmacy-guide-for-international-visitors.png" alt="Editorial still life on a US pharmacy counter: a passport, a smartphone displaying a pharmacy discount coupon barcode, an amber prescription pill bottle, a white paper pharmacy bag with a green Rx cross, and a folded medication information sheet" width="1200" height="800" loading="lazy">
+ <figcaption>Everything an international visitor needs to know to use a US pharmacy: ID, discount cards, and pickup steps.</figcaption>
+ </figure>
+
+     <!-- tdmd:citable-summary-start -->
 <section class="tdmd-citable-summary" id="citable-summary-us-pharmacy-guide-for-international-visitors" data-speakable="true" style="background:#FFFFFF;border:1px solid #C2E0E5;border-radius:8px;padding:1.1rem 1.4rem;margin:1.25rem auto;max-width:980px;line-height:1.65;box-shadow:0 1px 2px rgba(0,0,0,0.03)">
   <h2 style="margin:0 0 0.5rem;font-size:1.05rem;font-weight:700;color:#003E52;">How does an international visitor pick up a prescription at a US pharmacy?</h2>
   <div style="margin:0;color:#0A2438;font-size:0.97rem;">US pharmacies fill prescriptions written by a US-licensed clinician; a prescription from a doctor in the visitor's home country cannot be filled at a US pharmacy. For pickup, US pharmacies require a photo ID, and any <strong>government-issued photo ID</strong> counts, including a passport, a foreign national ID such as India's Aadhaar or Mexico's INE, or a foreign driver's license. Employee badges and student IDs do not count. Once a US clinician sends the prescription electronically to the pharmacy, the visitor waits typically 15 to 45 minutes for a new prescription, shows the government ID at pickup, and pays. No <a href="https://www.ssa.gov/ssnumber/">Social Security number</a> is needed to fill a prescription or to use free discount cards like <a href="https://www.goodrx.com/">GoodRx</a> or <a href="https://www.singlecare.com/">SingleCare</a>. Under the <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11798562/">Omnibus Budget Reconciliation Act of 1990</a>, US pharmacists must offer counseling on every new prescription, so ask the pharmacist to explain the medicine before leaving the counter. For visitors booking through <a href="/">TeleDirectMD</a>, the platform accepts a passport or any government-issued photo ID; workplace and student IDs are excluded.</div>
@@ -883,10 +894,6 @@ sup a:hover { text-decoration: underline; }
  </div>
 
  <!-- Hero Image -->
- <figure class="tdmd-article-figure">
- <img src="images/hero-us-pharmacy-guide-for-international-visitors.png" alt="Editorial still life on a US pharmacy counter: a passport, a smartphone displaying a pharmacy discount coupon barcode, an amber prescription pill bottle, a white paper pharmacy bag with a green Rx cross, and a folded medication information sheet" width="1200" height="800" loading="lazy">
- <figcaption>Everything an international visitor needs to know to use a US pharmacy: ID, discount cards, and pickup steps.</figcaption>
- </figure>
 
  <!-- Section 1: ID Accepted at US Pharmacies -->
      <h2 id="id-accepted">1. ID Accepted at US Pharmacies</h2>
@@ -1169,7 +1176,7 @@ sup a:hover { text-decoration: underline; }
      <p>US retail prescription prices are unusually high compared to almost every other country. But the retail price is not what most patients actually pay. Discount cards, all free, cut cash-pay prices by <strong>50% to 80%</strong> on generic medications and by <strong>10% to 40%</strong> on many brand drugs.<sup><a href="#ref-4" id="cite-4c">[4]</a></sup></p>
      <p>None of these require US residency, insurance, or a Social Security number:</p>
      <div class="tdmd-table-wrap">
-      <table class="tdmd-table">
+      <table class="tdmd-table tdmd-table--compact">
        <caption>Major US prescription discount card comparison</caption>
        <thead>
         <tr>
@@ -1310,7 +1317,7 @@ sup a:hover { text-decoration: underline; }
      <h2 id="manufacturer-programs">7. Manufacturer Patient Assistance for Expensive Prescriptions</h2>
      <p>For expensive brand medications (insulin, GLP-1 agonists, biologics, some inhalers, specialty drugs), manufacturer patient assistance programs (PAPs) can provide the medication free or heavily discounted. The catch: <strong>most PAPs are restricted to qualifying US patients</strong>. A visitor on a 3-week trip is generally not eligible.<sup><a href="#ref-5" id="cite-5b">[5]</a></sup></p>
      <div class="tdmd-table-wrap">
-      <table class="tdmd-table">
+      <table class="tdmd-table tdmd-table--compact">
        <caption>Major manufacturer patient assistance programs and visitor accessibility</caption>
        <thead>
         <tr>

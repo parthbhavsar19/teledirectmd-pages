@@ -351,6 +351,12 @@ sup a:hover { text-decoration: underline; }
 }.tdmd-article-content,.tdmd-article-body,.tdmd-sidebar { min-width: 0; }.tdmd-article-body,.tdmd-article-content { overflow-wrap: break-word; word-wrap: break-word; }
 /* Table cells: allow soft wrapping at word boundaries only, never mid-word.
  Wrapper handles horizontal scroll when content genuinely doesn't fit. */.tdmd-table th,.tdmd-table td { word-break: normal; overflow-wrap: normal; hyphens: manual; }
+.tdmd-table--compact th, .tdmd-table--compact td {
+ padding: 0.55rem 0.65rem;
+ font-size: 0.85rem;
+ line-height: 1.45;
+}
+.tdmd-table--compact { font-size: 0.85rem; }
 @media (max-width: 768px) {.tdmd-table { min-width: 560px; }
 }
 @media (max-width: 900px) {.tdmd-content-grid { grid-template-columns: minmax(0, 1fr); gap: 1.5rem; }.tdmd-sidebar { order: -1; }.tdmd-sidebar-card { position: static; }
@@ -506,7 +512,7 @@ sup a:hover { text-decoration: underline; }
  margin-bottom: 0;
  font-size: 0.9rem;
  color: var(--tdmd-muted);
-}.tdmd-references li { margin-bottom: 0.5rem; }.tdmd-references a { word-break: break-all; }
+}.tdmd-references li { margin-bottom: 0.5rem; }.tdmd-references a { overflow-wrap: anywhere; word-break: break-word; }
 
 /* ===== Author Bio ===== */.tdmd-author-bio {
  display: flex;

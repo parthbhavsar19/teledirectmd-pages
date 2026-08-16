@@ -278,6 +278,12 @@ sup a:hover { text-decoration: underline; }
 .tdmd-table { width: 100%; border-collapse: collapse; font-size: 0.92rem; }
 .tdmd-table th { background: var(--tdmd-navy); color: var(--tdmd-white); padding: 0.75rem 1rem; text-align: left; font-weight: 600; font-size: 0.88rem; }
 .tdmd-table td { padding: 0.75rem 1rem; border-bottom: 1px solid var(--tdmd-border); vertical-align: top; }
+.tdmd-table--compact th, .tdmd-table--compact td {
+ padding: 0.55rem 0.65rem;
+ font-size: 0.85rem;
+ line-height: 1.45;
+}
+.tdmd-table--compact { font-size: 0.85rem; }
 .tdmd-table tr:last-child td { border-bottom: none; }
 .tdmd-table tr:nth-child(even) { background: var(--tdmd-bg-soft); }
 .rate-high { color: #c44520; font-weight: 700; }
@@ -297,7 +303,7 @@ sup a:hover { text-decoration: underline; }
 .tdmd-references h2 { margin-top: 0; font-size: 1.15rem; border-top: none; padding-top: 0; }
 .tdmd-references ol { padding-left: 1.25rem; margin-bottom: 0; font-size: 0.9rem; color: var(--tdmd-muted); }
 .tdmd-references li { margin-bottom: 0.5rem; }
-.tdmd-references a { word-break: break-all; }
+.tdmd-references a { overflow-wrap: anywhere; word-break: break-word; }
 
 /* ===== Author Bio ===== */
 .tdmd-author-bio { display: flex; gap: 1.5rem; align-items: flex-start; background: var(--tdmd-white); border: 1px solid var(--tdmd-border); border-radius: var(--tdmd-radius); padding: 1.5rem; margin-top: 2.5rem; box-shadow: 0 8px 20px rgba(0,0,0,0.06); }
