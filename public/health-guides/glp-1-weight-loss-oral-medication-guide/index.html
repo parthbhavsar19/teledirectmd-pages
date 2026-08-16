@@ -516,9 +516,15 @@ sup a:hover { text-decoration: underline; }
  width: 20px;
  height: 20px;
  flex-shrink: 0;
- transition: transform 0.3s;
+ transition: transform 0.3s ease;
  color: var(--tdmd-teal);
-}.tdmd-faq-item.tdmd-faq-open.tdmd-faq-icon { transform: rotate(45deg); }.tdmd-faq-answer {
+}
+.tdmd-faq-icon line {
+ transition: opacity 0.3s ease;
+}
+.tdmd-faq-item.tdmd-faq-open .tdmd-faq-icon line:first-child {
+ opacity: 0;
+}.tdmd-faq-answer {
  max-height: 0;
  overflow: hidden;
  transition: max-height 0.3s ease;
@@ -1065,60 +1071,45 @@ sup a:hover { text-decoration: underline; }
  How long will I need to take a GLP-1 medication?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Most patients need long-term or lifelong therapy. Trial data show that stopping a GLP-1 leads to regain of roughly two-thirds of lost weight within a year.<sup><a href="#ref-5">[5]</a></sup> Obesity is a chronic disease, and GLP-1s treat it the way blood pressure medications treat hypertension — the benefit lasts only as long as the treatment. Some patients taper to a lower maintenance dose with their physician's guidance.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  Can I take Foundayo with my other medications?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Foundayo can be taken at any time of day with or without food, which simplifies drug interactions. However, because GLP-1s slow gastric emptying, they can affect absorption of some oral medications. If you take medications with a narrow therapeutic window — such as levothyroxine, warfarin, or some seizure medications — your physician may monitor levels more closely. Tell your prescriber about every medication you take, including over-the-counter products and supplements.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  What if I miss a dose?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>For a daily oral GLP-1 like Foundayo, take the missed dose as soon as you remember — unless it is close to your next scheduled dose. Do not double up. For weekly injectables like Wegovy or Zepbound, you can take the dose within 5 days of your normal schedule; if more than 5 days have passed, skip that dose and resume your weekly schedule. Missing several doses in a row may require restarting at a lower dose to avoid reintroducing GI side effects.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  Is compounded semaglutide safe?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>No. The FDA does not approve compounded versions of semaglutide or tirzepatide and has issued warnings about them in 2026. Compounded formulations are not evaluated for safety, purity, or potency, and dosing errors have caused serious adverse events. With the 2026 expansion of Foundayo and Wegovy production, the prior shortages that drove compounded use are largely resolved. Current clinical guidance strongly discourages compounded GLP-1 use.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  Will my insurance cover it?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Coverage varies widely. Many commercial plans now cover GLP-1s for weight loss with a prior authorization that requires documented BMI criteria and evidence of a prior weight loss attempt. Medicare historically did not cover weight-loss-only indications, but the 2026 GLP-1 Bridge program allows Medicare patients $50/month access to Foundayo through December 2026.<sup><a href="#ref-6">[6]</a></sup> If you have diabetes, injectable semaglutide or tirzepatide for that indication is usually covered. Call your insurer before you start to confirm specifics.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">

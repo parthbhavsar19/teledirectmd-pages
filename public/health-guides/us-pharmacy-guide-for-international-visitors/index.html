@@ -647,9 +647,15 @@ sup a:hover { text-decoration: underline; }
  width: 20px;
  height: 20px;
  flex-shrink: 0;
- transition: transform 0.3s;
+ transition: transform 0.3s ease;
  color: var(--tdmd-teal);
-}.tdmd-faq-item.tdmd-faq-open.tdmd-faq-icon { transform: rotate(45deg); }.tdmd-faq-answer {
+}
+.tdmd-faq-icon line {
+ transition: opacity 0.3s ease;
+}
+.tdmd-faq-item.tdmd-faq-open .tdmd-faq-icon line:first-child {
+ opacity: 0;
+}.tdmd-faq-answer {
  max-height: 0;
  overflow: hidden;
  transition: max-height 0.3s ease;
@@ -1458,10 +1464,7 @@ sup a:hover { text-decoration: underline; }
     <line x1="5" y1="12" x2="19" y2="12"/>
    </svg>
   </button>
-  <div class="tdmd-faq-answer">
-   <p>Yes. US pharmacies accept any government-issued photo ID at pickup. That includes India's Aadhaar Card, Mexico's INE Credencial para Votar, and any other foreign national photo ID. A passport works as a backup. Workplace and student IDs are not accepted.<sup><a href="#ref-1" id="cite-1c">[1]</a></sup></p>
-  </div>
- </div>
+  <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"><p>Yes. US pharmacies accept any government-issued photo ID at pickup. That includes India's Aadhaar Card, Mexico's INE Credencial para Votar, and any other foreign national photo ID. A passport works as a backup. Workplace and student IDs are not accepted.<sup><a href="#ref-1" id="cite-1c">[1]</a></sup></p></div></div></div>
 
  <div class="tdmd-faq-item">
   <button class="tdmd-faq-question" aria-expanded="false">
@@ -1471,10 +1474,7 @@ sup a:hover { text-decoration: underline; }
     <line x1="5" y1="12" x2="19" y2="12"/>
    </svg>
   </button>
-  <div class="tdmd-faq-answer">
-   <p>No. No SSN is required to pick up a prescription at a US pharmacy, and no SSN is required to enroll in free discount cards (<a href="https://www.goodrx.com/">GoodRx</a>, <a href="https://www.singlecare.com/">SingleCare</a>, <a href="https://www.wellrx.com/">ScriptSave WellRx</a>). If a card demands an SSN, it is likely a scam.</p>
-  </div>
- </div>
+  <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"><p>No. No SSN is required to pick up a prescription at a US pharmacy, and no SSN is required to enroll in free discount cards (<a href="https://www.goodrx.com/">GoodRx</a>, <a href="https://www.singlecare.com/">SingleCare</a>, <a href="https://www.wellrx.com/">ScriptSave WellRx</a>). If a card demands an SSN, it is likely a scam.</p></div></div></div>
 
  <div class="tdmd-faq-item">
   <button class="tdmd-faq-question" aria-expanded="false">
@@ -1484,10 +1484,7 @@ sup a:hover { text-decoration: underline; }
     <line x1="5" y1="12" x2="19" y2="12"/>
    </svg>
   </button>
-  <div class="tdmd-faq-answer">
-   <p>Yes, at most US pharmacies for non-controlled medications, if the parent has authorized the child on the pharmacy's pickup form or the pharmacy staff is satisfied by the family relationship. For controlled substances (Schedule II like ADHD medications, Schedule III to V like most anxiety medications), some chains require the patient in person or a written agent authorization. Call ahead if the parent has mobility issues.</p>
-  </div>
- </div>
+  <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"><p>Yes, at most US pharmacies for non-controlled medications, if the parent has authorized the child on the pharmacy's pickup form or the pharmacy staff is satisfied by the family relationship. For controlled substances (Schedule II like ADHD medications, Schedule III to V like most anxiety medications), some chains require the patient in person or a written agent authorization. Call ahead if the parent has mobility issues.</p></div></div></div>
 
  <div class="tdmd-faq-item">
   <button class="tdmd-faq-question" aria-expanded="false">
@@ -1497,10 +1494,7 @@ sup a:hover { text-decoration: underline; }
     <line x1="5" y1="12" x2="19" y2="12"/>
    </svg>
   </button>
-  <div class="tdmd-faq-answer">
-   <p>Yes, when the parent has consented. Under HIPAA (45 CFR 164.502(g) and 164.510(b)), an adult child can either be a formal personal representative with legal authority under state law, or a family member "involved in the individual's health care" with the patient's agreement. For visiting adult parents who are competent, sign the proxy consent form and have the parent join the first telehealth call.</p>
-  </div>
- </div>
+  <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"><p>Yes, when the parent has consented. Under HIPAA (45 CFR 164.502(g) and 164.510(b)), an adult child can either be a formal personal representative with legal authority under state law, or a family member "involved in the individual's health care" with the patient's agreement. For visiting adult parents who are competent, sign the proxy consent form and have the parent join the first telehealth call.</p></div></div></div>
 
  <div class="tdmd-faq-item">
   <button class="tdmd-faq-question" aria-expanded="false">
@@ -1510,10 +1504,7 @@ sup a:hover { text-decoration: underline; }
     <line x1="5" y1="12" x2="19" y2="12"/>
    </svg>
   </button>
-  <div class="tdmd-faq-answer">
-   <p>It depends on the drug. <a href="https://www.goodrx.com/">GoodRx</a> has the widest coverage and is the safest first check. <a href="https://www.singlecare.com/">SingleCare</a> often beats GoodRx on generic diabetes and antidepressant medications. <a href="https://www.wellrx.com/">ScriptSave WellRx</a> is competitive at independent pharmacies. <a href="https://costplusdrugs.com/">Mark Cuban Cost Plus Drugs</a> is often the cheapest on chronic-condition generics but is mail-order only. Compare all three coupon services for the specific drug and dose.</p>
-  </div>
- </div>
+  <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"><p>It depends on the drug. <a href="https://www.goodrx.com/">GoodRx</a> has the widest coverage and is the safest first check. <a href="https://www.singlecare.com/">SingleCare</a> often beats GoodRx on generic diabetes and antidepressant medications. <a href="https://www.wellrx.com/">ScriptSave WellRx</a> is competitive at independent pharmacies. <a href="https://costplusdrugs.com/">Mark Cuban Cost Plus Drugs</a> is often the cheapest on chronic-condition generics but is mail-order only. Compare all three coupon services for the specific drug and dose.</p></div></div></div>
 
  <div class="tdmd-faq-item">
   <button class="tdmd-faq-question" aria-expanded="false">
@@ -1523,10 +1514,7 @@ sup a:hover { text-decoration: underline; }
     <line x1="5" y1="12" x2="19" y2="12"/>
    </svg>
   </button>
-  <div class="tdmd-faq-answer">
-   <p>No. Federal and state pharmacy laws prohibit membership requirements for prescription services. Enter the warehouse, tell the greeter you are going to the pharmacy, and go straight to the pharmacy counter. Costco Pharmacy is frequently the cheapest cash-pay option for many drugs.</p>
-  </div>
- </div>
+  <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"><p>No. Federal and state pharmacy laws prohibit membership requirements for prescription services. Enter the warehouse, tell the greeter you are going to the pharmacy, and go straight to the pharmacy counter. Costco Pharmacy is frequently the cheapest cash-pay option for many drugs.</p></div></div></div>
 
  <div class="tdmd-faq-item">
   <button class="tdmd-faq-question" aria-expanded="false">
@@ -1536,10 +1524,7 @@ sup a:hover { text-decoration: underline; }
     <line x1="5" y1="12" x2="19" y2="12"/>
    </svg>
   </button>
-  <div class="tdmd-faq-answer">
-   <p>Yes, if the visitor will be at a US address (hotel, family member's home, short-term rental) for at least a week. Amazon Pharmacy delivers by mail in 2 to 5 business days. Not useful for same-day pickup.</p>
-  </div>
- </div>
+  <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"><p>Yes, if the visitor will be at a US address (hotel, family member's home, short-term rental) for at least a week. Amazon Pharmacy delivers by mail in 2 to 5 business days. Not useful for same-day pickup.</p></div></div></div>
 
  <div class="tdmd-faq-item">
   <button class="tdmd-faq-question" aria-expanded="false">
@@ -1549,10 +1534,7 @@ sup a:hover { text-decoration: underline; }
     <line x1="5" y1="12" x2="19" y2="12"/>
    </svg>
   </button>
-  <div class="tdmd-faq-answer">
-   <p>Mostly no. Programs like <a href="https://www.lillycares.com/">Lilly Cares</a>, <a href="https://www.pfizerrxpathways.com/">Pfizer RxPathways</a>, and <a href="https://www.sanofipatientconnection.com/">Sanofi Patient Connection</a> require qualifying US patient status. However, insulin savings programs (Lilly Insulin Value Program, Sanofi Valyou) that cap monthly cost at $35 are open to any patient with a US prescription and are visitor-accessible.</p>
-  </div>
- </div>
+  <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"><p>Mostly no. Programs like <a href="https://www.lillycares.com/">Lilly Cares</a>, <a href="https://www.pfizerrxpathways.com/">Pfizer RxPathways</a>, and <a href="https://www.sanofipatientconnection.com/">Sanofi Patient Connection</a> require qualifying US patient status. However, insulin savings programs (Lilly Insulin Value Program, Sanofi Valyou) that cap monthly cost at $35 are open to any patient with a US prescription and are visitor-accessible.</p></div></div></div>
 
  <div class="tdmd-faq-item">
   <button class="tdmd-faq-question" aria-expanded="false">
@@ -1562,10 +1544,7 @@ sup a:hover { text-decoration: underline; }
     <line x1="5" y1="12" x2="19" y2="12"/>
    </svg>
   </button>
-  <div class="tdmd-faq-answer">
-   <p>Yes. Under the Omnibus Budget Reconciliation Act of 1990 (OBRA '90) and 46 state pharmacy board regulations, US pharmacists are required to offer counseling on every new prescription. This is free and included in the visit. Take five minutes and ask about the drug's use, dosing, side effects, and interactions.<sup><a href="#ref-7" id="cite-7d">[7]</a></sup></p>
-  </div>
- </div>
+  <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"><p>Yes. Under the Omnibus Budget Reconciliation Act of 1990 (OBRA '90) and 46 state pharmacy board regulations, US pharmacists are required to offer counseling on every new prescription. This is free and included in the visit. Take five minutes and ask about the drug's use, dosing, side effects, and interactions.<sup><a href="#ref-7" id="cite-7d">[7]</a></sup></p></div></div></div>
 
  <div class="tdmd-faq-item">
   <button class="tdmd-faq-question" aria-expanded="false">
@@ -1575,10 +1554,7 @@ sup a:hover { text-decoration: underline; }
     <line x1="5" y1="12" x2="19" y2="12"/>
    </svg>
   </button>
-  <div class="tdmd-faq-answer">
-   <p>This should not happen and is not consistent with standard pharmacy practice. Ask for the pharmacy manager. If they still refuse, contact another pharmacy or use a chain known to be more used to international visitors (CVS and Walgreens in tourist areas, urban Costco pharmacies, or a pharmacy near a large hospital). Any government-issued photo ID, including a foreign passport, satisfies the identity verification requirement.</p>
-  </div>
- </div>
+  <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"><p>This should not happen and is not consistent with standard pharmacy practice. Ask for the pharmacy manager. If they still refuse, contact another pharmacy or use a chain known to be more used to international visitors (CVS and Walgreens in tourist areas, urban Costco pharmacies, or a pharmacy near a large hospital). Any government-issued photo ID, including a foreign passport, satisfies the identity verification requirement.</p></div></div></div>
 
      <div class="tdmd-references" id="references">
      <h2>References</h2>

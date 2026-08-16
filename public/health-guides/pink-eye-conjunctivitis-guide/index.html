@@ -541,9 +541,15 @@ sup a:hover { text-decoration: underline; }
  width: 20px;
  height: 20px;
  flex-shrink: 0;
- transition: transform 0.3s;
+ transition: transform 0.3s ease;
  color: var(--tdmd-teal);
-}.tdmd-faq-item.tdmd-faq-open.tdmd-faq-icon { transform: rotate(45deg); }.tdmd-faq-answer {
+}
+.tdmd-faq-icon line {
+ transition: opacity 0.3s ease;
+}
+.tdmd-faq-item.tdmd-faq-open .tdmd-faq-icon line:first-child {
+ opacity: 0;
+}.tdmd-faq-answer {
  max-height: 0;
  overflow: hidden;
  transition: max-height 0.3s ease;
@@ -1094,60 +1100,45 @@ sup a:hover { text-decoration: underline; }
  Is pink eye contagious?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>It depends on the type. Viral and bacterial conjunctivitis are highly contagious and spread through direct contact with infected eye secretions, contaminated hands, or shared personal items like towels and pillowcases. Viral pink eye can remain contagious for up to two weeks. Allergic conjunctivitis and irritant-caused pink eye are not contagious at all — they result from an immune reaction or chemical exposure, not an infectious agent. The key to preventing spread is rigorous hand hygiene and avoiding touching your eyes.<sup><a href="#ref-2">[2]</a></sup></p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  How long does pink eye last?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Viral conjunctivitis typically resolves in 7 to 14 days without treatment, though severe cases (epidemic keratoconjunctivitis) can take 2 to 3 weeks.<sup><a href="#ref-5">[5]</a></sup> Mild bacterial conjunctivitis often clears in 2 to 5 days without antibiotics, though it can take up to 2 weeks for complete resolution. With antibiotic drops, bacterial pink eye usually improves within 1 to 2 days. Allergic conjunctivitis persists as long as allergen exposure continues but responds quickly to antihistamine drops and allergen avoidance.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  Do I need antibiotics for pink eye?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Most cases of pink eye do not require antibiotics. Approximately 80% of acute conjunctivitis cases are viral, and antibiotics have no effect on viruses.<sup><a href="#ref-4">[4]</a></sup> Even mild bacterial conjunctivitis is typically self-limiting. The 2024 AAO guidelines emphasize that indiscriminate antibiotic prescribing should be avoided.<sup><a href="#ref-1">[1]</a></sup> Your doctor may prescribe antibiotics for moderate-to-severe bacterial conjunctivitis with significant purulent discharge, for contact lens wearers (due to higher keratitis risk), for immunocompromised patients, or when symptoms are not improving after several days of observation.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  Can my child go to school with pink eye?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>The CDC advises that children with viral or bacterial conjunctivitis should stay home if they have systemic signs of illness or cannot avoid close contact with others.<sup><a href="#ref-2">[2]</a></sup> For bacterial pink eye, children can typically return 24 hours after starting antibiotic treatment, once discharge has significantly decreased. For viral pink eye, children should stay home while symptoms are active — usually 3 to 5 days — or as directed by their healthcare provider. Allergic conjunctivitis is not contagious and does not require staying home. Many schools have their own policies, so check with your child's school for specific requirements.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  What is the difference between pink eye and allergies?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>The hallmark of allergic conjunctivitis is intense itching — usually more prominent than in viral or bacterial forms. Allergic pink eye almost always affects both eyes simultaneously, produces clear and watery (not colored) discharge, and is often accompanied by nasal congestion, sneezing, or a history of seasonal allergies. Infectious pink eye more commonly starts in one eye and may produce colored discharge. A key distinguishing factor: allergic conjunctivitis is not contagious and responds to antihistamine drops, while infectious forms are contagious and may require different treatment. If you experience seasonal episodes of bilateral eye itching with clear discharge, allergic conjunctivitis is the most likely diagnosis.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">

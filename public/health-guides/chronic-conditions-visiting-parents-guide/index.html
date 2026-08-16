@@ -551,9 +551,15 @@ sup a:hover { text-decoration: underline; }
  width: 20px;
  height: 20px;
  flex-shrink: 0;
- transition: transform 0.3s;
+ transition: transform 0.3s ease;
  color: var(--tdmd-teal);
-}.tdmd-faq-item.tdmd-faq-open.tdmd-faq-icon { transform: rotate(45deg); }.tdmd-faq-answer {
+}
+.tdmd-faq-icon line {
+ transition: opacity 0.3s ease;
+}
+.tdmd-faq-item.tdmd-faq-open .tdmd-faq-icon line:first-child {
+ opacity: 0;
+}.tdmd-faq-answer {
  max-height: 0;
  overflow: hidden;
  transition: max-height 0.3s ease;
@@ -1107,10 +1113,7 @@ sup a:hover { text-decoration: underline; }
     <line x1="5" y1="12" x2="19" y2="12"/>
    </svg>
   </button>
-  <div class="tdmd-faq-answer">
-   <p>The CDC Yellow Book and the CATMAT older-traveler statement both recommend 4 to 6 weeks before departure. This is enough time to fine-tune any medications, order any needed refills, get a fitness-to-travel letter, and address vaccinations if relevant.</p>
-  </div>
- </div>
+  <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"><p>The CDC Yellow Book and the CATMAT older-traveler statement both recommend 4 to 6 weeks before departure. This is enough time to fine-tune any medications, order any needed refills, get a fitness-to-travel letter, and address vaccinations if relevant.</p></div></div></div>
 
  <div class="tdmd-faq-item">
   <button class="tdmd-faq-question" aria-expanded="false">
@@ -1120,10 +1123,7 @@ sup a:hover { text-decoration: underline; }
     <line x1="5" y1="12" x2="19" y2="12"/>
    </svg>
   </button>
-  <div class="tdmd-faq-answer">
-   <p>For most once-daily oral medications, no. Shift to destination time within 1 to 2 days of arrival and continue the normal schedule. Levothyroxine specifically can be shifted to bedtime dosing at destination, which is supported by randomized trial evidence and simplifies travel.</p>
-  </div>
- </div>
+  <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"><p>For most once-daily oral medications, no. Shift to destination time within 1 to 2 days of arrival and continue the normal schedule. Levothyroxine specifically can be shifted to bedtime dosing at destination, which is supported by randomized trial evidence and simplifies travel.</p></div></div></div>
 
  <div class="tdmd-faq-item">
   <button class="tdmd-faq-question" aria-expanded="false">
@@ -1133,10 +1133,7 @@ sup a:hover { text-decoration: underline; }
     <line x1="5" y1="12" x2="19" y2="12"/>
    </svg>
   </button>
-  <div class="tdmd-faq-answer">
-   <p>For trips crossing fewer than 5 wall-clock hours or lasting fewer than 3 days at destination, no adjustment is needed. For trips of 5 or more time zones and 3 or more days at destination, basal insulin is adjusted by roughly 4 percent per hour of time zone shift: increase going west (longer day), decrease going east (shorter day). Trips that cross the international date line lose or gain a calendar day, but the sun-time shift is what matters. Any patient on complex insulin regimens or an insulin pump should get a personalized plan from their endocrinologist before travel.</p>
-  </div>
- </div>
+  <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"><p>For trips crossing fewer than 5 wall-clock hours or lasting fewer than 3 days at destination, no adjustment is needed. For trips of 5 or more time zones and 3 or more days at destination, basal insulin is adjusted by roughly 4 percent per hour of time zone shift: increase going west (longer day), decrease going east (shorter day). Trips that cross the international date line lose or gain a calendar day, but the sun-time shift is what matters. Any patient on complex insulin regimens or an insulin pump should get a personalized plan from their endocrinologist before travel.</p></div></div></div>
 
  <div class="tdmd-faq-item">
   <button class="tdmd-faq-question" aria-expanded="false">
@@ -1146,10 +1143,7 @@ sup a:hover { text-decoration: underline; }
     <line x1="5" y1="12" x2="19" y2="12"/>
    </svg>
   </button>
-  <div class="tdmd-faq-answer">
-   <p>For healthy older adults without contraindications, melatonin 3 to 5 mg at destination bedtime for the first 3 to 5 nights has moderate evidence for eastward travel across 5 or more time zones. It should be used with caution in epilepsy, autoimmune disease, and poorly controlled diabetes, and it can cause drowsiness so it should not be combined with other sedatives. A US telehealth clinician can confirm suitability.</p>
-  </div>
- </div>
+  <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"><p>For healthy older adults without contraindications, melatonin 3 to 5 mg at destination bedtime for the first 3 to 5 nights has moderate evidence for eastward travel across 5 or more time zones. It should be used with caution in epilepsy, autoimmune disease, and poorly controlled diabetes, and it can cause drowsiness so it should not be combined with other sedatives. A US telehealth clinician can confirm suitability.</p></div></div></div>
 
  <div class="tdmd-faq-item">
   <button class="tdmd-faq-question" aria-expanded="false">
@@ -1159,10 +1153,7 @@ sup a:hover { text-decoration: underline; }
     <line x1="5" y1="12" x2="19" y2="12"/>
    </svg>
   </button>
-  <div class="tdmd-faq-answer">
-   <p>Jet lag typically resolves within 1 day per time zone crossed, is mostly sleep and energy related, and improves each day. Warning signs that are not jet lag include new chest pain, new one-sided weakness or slurred speech, worsening shortness of breath, new leg swelling or calf pain after the flight, severe headache, persistent vomiting, or blood pressure and blood glucose readings well outside the usual range. See Table 2 in this guide for a symptom-by-symptom breakdown.</p>
-  </div>
- </div>
+  <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"><p>Jet lag typically resolves within 1 day per time zone crossed, is mostly sleep and energy related, and improves each day. Warning signs that are not jet lag include new chest pain, new one-sided weakness or slurred speech, worsening shortness of breath, new leg swelling or calf pain after the flight, severe headache, persistent vomiting, or blood pressure and blood glucose readings well outside the usual range. See Table 2 in this guide for a symptom-by-symptom breakdown.</p></div></div></div>
 
  <div class="tdmd-faq-item">
   <button class="tdmd-faq-question" aria-expanded="false">
@@ -1172,10 +1163,7 @@ sup a:hover { text-decoration: underline; }
     <line x1="5" y1="12" x2="19" y2="12"/>
    </svg>
   </button>
-  <div class="tdmd-faq-answer">
-   <p>For older adults on flights of 3 hours or more, yes. Well-fitted below-the-knee graduated compression stockings, regular ambulation, and adequate hydration are the standard prevention. Prescription chemoprophylaxis (subcutaneous enoxaparin) is reserved for higher-risk patients like those with prior venous thromboembolism, and should be prescribed by the home clinician in advance.</p>
-  </div>
- </div>
+  <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"><p>For older adults on flights of 3 hours or more, yes. Well-fitted below-the-knee graduated compression stockings, regular ambulation, and adequate hydration are the standard prevention. Prescription chemoprophylaxis (subcutaneous enoxaparin) is reserved for higher-risk patients like those with prior venous thromboembolism, and should be prescribed by the home clinician in advance.</p></div></div></div>
 
  <div class="tdmd-faq-item">
   <button class="tdmd-faq-question" aria-expanded="false">
@@ -1185,10 +1173,7 @@ sup a:hover { text-decoration: underline; }
     <line x1="5" y1="12" x2="19" y2="12"/>
    </svg>
   </button>
-  <div class="tdmd-faq-answer">
-   <p>For non-controlled chronic medications, a same-day physician-led US telehealth visit can typically produce a US bridge prescription that can be filled at any US pharmacy. Cash-pay pricing for common generics is often $4 to $30 for a 30-day supply. For controlled substances, the picture is more complicated and often requires in-person urgent care. See our satellite guide, Running Out of Medication in the US, for the full workflow.</p>
-  </div>
- </div>
+  <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"><p>For non-controlled chronic medications, a same-day physician-led US telehealth visit can typically produce a US bridge prescription that can be filled at any US pharmacy. Cash-pay pricing for common generics is often $4 to $30 for a 30-day supply. For controlled substances, the picture is more complicated and often requires in-person urgent care. See our satellite guide, Running Out of Medication in the US, for the full workflow.</p></div></div></div>
 
  <div class="tdmd-faq-item">
   <button class="tdmd-faq-question" aria-expanded="false">
@@ -1198,10 +1183,7 @@ sup a:hover { text-decoration: underline; }
     <line x1="5" y1="12" x2="19" y2="12"/>
    </svg>
   </button>
-  <div class="tdmd-faq-answer">
-   <p>No. US Medicare covers US citizens and lawful permanent residents; foreign visitors are not eligible. Visitors pay cash or use travel insurance. Reasonable options include short-term visitor insurance from providers like Trawick, IMG, or Seven Corners, which usually covers acute illness at typical urgent care and hospital rates. Most physician-led telehealth for a routine bridge prescription is inexpensive enough that cash pay is straightforward.</p>
-  </div>
- </div>
+  <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"><p>No. US Medicare covers US citizens and lawful permanent residents; foreign visitors are not eligible. Visitors pay cash or use travel insurance. Reasonable options include short-term visitor insurance from providers like Trawick, IMG, or Seven Corners, which usually covers acute illness at typical urgent care and hospital rates. Most physician-led telehealth for a routine bridge prescription is inexpensive enough that cash pay is straightforward.</p></div></div></div>
 
  <div class="tdmd-faq-item">
   <button class="tdmd-faq-question" aria-expanded="false">
@@ -1211,10 +1193,7 @@ sup a:hover { text-decoration: underline; }
     <line x1="5" y1="12" x2="19" y2="12"/>
    </svg>
   </button>
-  <div class="tdmd-faq-answer">
-   <p>A written summary of the visit, the assessment, and the prescription is standard and can be emailed or handed to the visitor to share with the home clinician. For continuity of care, it is helpful to include the home doctor's email or fax in the visit note so the US clinician can send it directly. This is not a substitute for the home clinician's ongoing management; it is a bridge for the trip window.</p>
-  </div>
- </div>
+  <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"><p>A written summary of the visit, the assessment, and the prescription is standard and can be emailed or handed to the visitor to share with the home clinician. For continuity of care, it is helpful to include the home doctor's email or fax in the visit note so the US clinician can send it directly. This is not a substitute for the home clinician's ongoing management; it is a bridge for the trip window.</p></div></div></div>
 
      <div class="tdmd-callout" style="margin:1.25rem 0;padding:1rem 1.25rem;background:#F0F7F8;border-left:4px solid #003E52;border-radius:6px;">
       <strong>Related practical guide:</strong> Once the visit is done, use our <a href="/health-guides/us-pharmacy-guide-for-international-visitors/" style="color:#003E52;text-decoration:underline;font-weight:600;">US pharmacy guide for international visitors</a> to understand which ID US pharmacies accept, how discount cards like GoodRx and SingleCare work, and the pharmacy pickup workflow step by step.

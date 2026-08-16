@@ -575,9 +575,15 @@ sup a:hover { text-decoration: underline; }
  width: 20px;
  height: 20px;
  flex-shrink: 0;
- transition: transform 0.3s;
+ transition: transform 0.3s ease;
  color: var(--tdmd-teal);
-}.tdmd-faq-item.tdmd-faq-open.tdmd-faq-icon { transform: rotate(45deg); }.tdmd-faq-answer {
+}
+.tdmd-faq-icon line {
+ transition: opacity 0.3s ease;
+}
+.tdmd-faq-item.tdmd-faq-open .tdmd-faq-icon line:first-child {
+ opacity: 0;
+}.tdmd-faq-answer {
  max-height: 0;
  overflow: hidden;
  transition: max-height 0.3s ease;
@@ -1367,10 +1373,7 @@ sup a:hover { text-decoration: underline; }
     <line x1="5" y1="12" x2="19" y2="12"/>
    </svg>
   </button>
-  <div class="tdmd-faq-answer">
-   <p>Rarely. Most national health systems, whether the UK's NHS, Canada's provincial plans, or most European systems, do not pay for care outside their country. Travel insurance and dedicated visitor-insurance policies are separate products designed for this. Check your policy documents before you leave home and confirm whether the policy pays providers directly or reimburses you after you pay.</p>
-  </div>
- </div>
+  <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"><p>Rarely. Most national health systems, whether the UK's NHS, Canada's provincial plans, or most European systems, do not pay for care outside their country. Travel insurance and dedicated visitor-insurance policies are separate products designed for this. Check your policy documents before you leave home and confirm whether the policy pays providers directly or reimburses you after you pay.</p></div></div></div>
 
  <div class="tdmd-faq-item">
   <button class="tdmd-faq-question" aria-expanded="false">
@@ -1380,10 +1383,7 @@ sup a:hover { text-decoration: underline; }
     <line x1="5" y1="12" x2="19" y2="12"/>
    </svg>
   </button>
-  <div class="tdmd-faq-answer">
-   <p>Under EMTALA (the Emergency Medical Treatment and Labor Act), any hospital with an emergency department that participates in Medicare must medically screen every patient who arrives with an emergency and stabilize any emergency condition regardless of ability to pay. You will still receive a bill afterward, and it can be substantial. EMTALA does not apply to urgent care clinics or telehealth.</p>
-  </div>
- </div>
+  <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"><p>Under EMTALA (the Emergency Medical Treatment and Labor Act), any hospital with an emergency department that participates in Medicare must medically screen every patient who arrives with an emergency and stabilize any emergency condition regardless of ability to pay. You will still receive a bill afterward, and it can be substantial. EMTALA does not apply to urgent care clinics or telehealth.</p></div></div></div>
 
  <div class="tdmd-faq-item">
   <button class="tdmd-faq-question" aria-expanded="false">
@@ -1393,10 +1393,7 @@ sup a:hover { text-decoration: underline; }
     <line x1="5" y1="12" x2="19" y2="12"/>
    </svg>
   </button>
-  <div class="tdmd-faq-answer">
-   <p>Generally no. A US pharmacy requires a prescription from a US-licensed clinician. A telehealth visit is usually the fastest way to obtain a new US prescription for a non-controlled medication you already take at home.</p>
-  </div>
- </div>
+  <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"><p>Generally no. A US pharmacy requires a prescription from a US-licensed clinician. A telehealth visit is usually the fastest way to obtain a new US prescription for a non-controlled medication you already take at home.</p></div></div></div>
 
  <div class="tdmd-faq-item">
   <button class="tdmd-faq-question" aria-expanded="false">
@@ -1406,10 +1403,7 @@ sup a:hover { text-decoration: underline; }
     <line x1="5" y1="12" x2="19" y2="12"/>
    </svg>
   </button>
-  <div class="tdmd-faq-answer">
-   <p>Telehealth typically runs $50 to $150 cash-pay. Urgent care runs $150 to $280 before add-ons such as X-ray or labs. A retail clinic runs $100 to $200. An ER visit runs roughly $1,200 to $3,000 for uninsured patients without hospital admission, based on 2024 to 2026 US market data.</p>
-  </div>
- </div>
+  <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"><p>Telehealth typically runs $50 to $150 cash-pay. Urgent care runs $150 to $280 before add-ons such as X-ray or labs. A retail clinic runs $100 to $200. An ER visit runs roughly $1,200 to $3,000 for uninsured patients without hospital admission, based on 2024 to 2026 US market data.</p></div></div></div>
 
  <div class="tdmd-faq-item">
   <button class="tdmd-faq-question" aria-expanded="false">
@@ -1419,10 +1413,7 @@ sup a:hover { text-decoration: underline; }
     <line x1="5" y1="12" x2="19" y2="12"/>
    </svg>
   </button>
-  <div class="tdmd-faq-answer">
-   <p>No. Under federal Section 1557 of the Affordable Care Act, US hospitals and most healthcare programs that receive federal funding must provide qualified interpreters at no cost to patients with limited English proficiency. Approximately 68 million US residents speak a language other than English at home. You have a right to ask for a qualified interpreter in person, by phone, or by video.</p>
-  </div>
- </div>
+  <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"><p>No. Under federal Section 1557 of the Affordable Care Act, US hospitals and most healthcare programs that receive federal funding must provide qualified interpreters at no cost to patients with limited English proficiency. Approximately 68 million US residents speak a language other than English at home. You have a right to ask for a qualified interpreter in person, by phone, or by video.</p></div></div></div>
 
  <div class="tdmd-faq-item">
   <button class="tdmd-faq-question" aria-expanded="false">
@@ -1432,10 +1423,7 @@ sup a:hover { text-decoration: underline; }
     <line x1="5" y1="12" x2="19" y2="12"/>
    </svg>
   </button>
-  <div class="tdmd-faq-answer">
-   <p>Usually not. Controlled substances such as stimulants (Adderall, Ritalin), opioids, benzodiazepines, sleep aids like zolpidem, and testosterone are subject to DEA rules that generally require an in-person evaluation or an established treatment relationship. Rules vary by state. For a short trip, plan to bring your existing supply, up to 50 dosage units per controlled substance per DEA rules for foreign visitors.</p>
-  </div>
- </div>
+  <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"><p>Usually not. Controlled substances such as stimulants (Adderall, Ritalin), opioids, benzodiazepines, sleep aids like zolpidem, and testosterone are subject to DEA rules that generally require an in-person evaluation or an established treatment relationship. Rules vary by state. For a short trip, plan to bring your existing supply, up to 50 dosage units per controlled substance per DEA rules for foreign visitors.</p></div></div></div>
 
  <div class="tdmd-faq-item">
   <button class="tdmd-faq-question" aria-expanded="false">
@@ -1445,10 +1433,7 @@ sup a:hover { text-decoration: underline; }
     <line x1="5" y1="12" x2="19" y2="12"/>
    </svg>
   </button>
-  <div class="tdmd-faq-answer">
-   <p>A written medication list with generic names, doses, and frequency. Original medication bottles or blister packs. A doctor's letter listing your conditions, allergies, and blood type is helpful but not required. If you have a chronic condition needing ongoing care such as dialysis, complex biologics, pregnancy, or cancer treatment, arrange local care contacts before your trip.</p>
-  </div>
- </div>
+  <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"><p>A written medication list with generic names, doses, and frequency. Original medication bottles or blister packs. A doctor's letter listing your conditions, allergies, and blood type is helpful but not required. If you have a chronic condition needing ongoing care such as dialysis, complex biologics, pregnancy, or cancer treatment, arrange local care contacts before your trip.</p></div></div></div>
 
  <div class="tdmd-faq-item">
   <button class="tdmd-faq-question" aria-expanded="false">
@@ -1458,10 +1443,7 @@ sup a:hover { text-decoration: underline; }
     <line x1="5" y1="12" x2="19" y2="12"/>
    </svg>
   </button>
-  <div class="tdmd-faq-answer">
-   <p>In most cases yes. Physician-led telehealth is available across most US states. The visit typically requires a US phone number for verification, a working smartphone or laptop with camera, and a credit card. Some telehealth services will decline to prescribe when the patient is a temporary visitor with no US address; others will not. Ask the platform before you pay.</p>
-  </div>
- </div>
+  <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"><p>In most cases yes. Physician-led telehealth is available across most US states. The visit typically requires a US phone number for verification, a working smartphone or laptop with camera, and a credit card. Some telehealth services will decline to prescribe when the patient is a temporary visitor with no US address; others will not. Ask the platform before you pay.</p></div></div></div>
 
  <div class="tdmd-faq-item">
   <button class="tdmd-faq-question" aria-expanded="false">
@@ -1471,10 +1453,7 @@ sup a:hover { text-decoration: underline; }
     <line x1="5" y1="12" x2="19" y2="12"/>
    </svg>
   </button>
-  <div class="tdmd-faq-answer">
-   <p>Use the red flags in this guide. Chest pain, severe breathing difficulty, stroke signs, severe abdominal pain, loss of consciousness, severe allergic reactions, and any pediatric fever under 3 months of age are ER situations. When in doubt, calling 911 is the safest option; the dispatcher can help triage.</p>
-  </div>
- </div>
+  <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"><p>Use the red flags in this guide. Chest pain, severe breathing difficulty, stroke signs, severe abdominal pain, loss of consciousness, severe allergic reactions, and any pediatric fever under 3 months of age are ER situations. When in doubt, calling 911 is the safest option; the dispatcher can help triage.</p></div></div></div>
 
  <div class="tdmd-faq-item">
   <button class="tdmd-faq-question" aria-expanded="false">
@@ -1484,10 +1463,7 @@ sup a:hover { text-decoration: underline; }
     <line x1="5" y1="12" x2="19" y2="12"/>
    </svg>
   </button>
-  <div class="tdmd-faq-answer">
-   <p>US hospitals and providers routinely offer financial assistance, discounts for cash payment, and payment plans. Nonprofit hospitals are legally required to have financial-assistance policies. If you have travel or visitor insurance, request an itemized bill and submit it to your insurer per the policy instructions. The No Surprises Act allows insured US patients to dispute unexpected out-of-network charges through a federal independent dispute resolution process.</p>
-  </div>
- </div>
+  <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"><p>US hospitals and providers routinely offer financial assistance, discounts for cash payment, and payment plans. Nonprofit hospitals are legally required to have financial-assistance policies. If you have travel or visitor insurance, request an itemized bill and submit it to your insurer per the policy instructions. The No Surprises Act allows insured US patients to dispute unexpected out-of-network charges through a federal independent dispute resolution process.</p></div></div></div>
 
  <div class="tdmd-faq-item">
   <button class="tdmd-faq-question" aria-expanded="false">
@@ -1497,10 +1473,7 @@ sup a:hover { text-decoration: underline; }
     <line x1="5" y1="12" x2="19" y2="12"/>
    </svg>
   </button>
-  <div class="tdmd-faq-answer">
-   <p>The US pharmaceutical supply chain is one of the most tightly regulated in the world. Licensed brick-and-mortar pharmacies (CVS, Walgreens, Rite Aid, independent pharmacies) dispense FDA-approved medications. Avoid buying prescription medications from unregulated online sellers; the FDA has documented serious counterfeit and contamination issues from unlicensed sources.</p>
-  </div>
- </div>
+  <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"><p>The US pharmaceutical supply chain is one of the most tightly regulated in the world. Licensed brick-and-mortar pharmacies (CVS, Walgreens, Rite Aid, independent pharmacies) dispense FDA-approved medications. Avoid buying prescription medications from unregulated online sellers; the FDA has documented serious counterfeit and contamination issues from unlicensed sources.</p></div></div></div>
 
  <div class="tdmd-faq-item">
   <button class="tdmd-faq-question" aria-expanded="false">
@@ -1510,10 +1483,7 @@ sup a:hover { text-decoration: underline; }
     <line x1="5" y1="12" x2="19" y2="12"/>
    </svg>
   </button>
-  <div class="tdmd-faq-answer">
-   <p>A basic travel health kit is reasonable: acetaminophen or ibuprofen, loperamide, oral rehydration salts, an antihistamine, hydrocortisone cream, adhesive bandages, and any chronic-condition medications with a buffer of extra days. The CDC Yellow Book maintains a detailed travel health kit checklist.</p>
-  </div>
- </div>
+  <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"><p>A basic travel health kit is reasonable: acetaminophen or ibuprofen, loperamide, oral rehydration salts, an antihistamine, hydrocortisone cream, adhesive bandages, and any chronic-condition medications with a buffer of extra days. The CDC Yellow Book maintains a detailed travel health kit checklist.</p></div></div></div>
 
      <div class="tdmd-callout" style="margin:1.25rem 0;padding:1rem 1.25rem;background:#F0F7F8;border-left:4px solid #003E52;border-radius:6px;">
       <strong>Related practical guide:</strong> Once the visit is done, use our <a href="/health-guides/us-pharmacy-guide-for-international-visitors/" style="color:#003E52;text-decoration:underline;font-weight:600;">US pharmacy guide for international visitors</a> to understand which ID US pharmacies accept, how discount cards like GoodRx and SingleCare work, and the pharmacy pickup workflow step by step.

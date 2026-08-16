@@ -534,9 +534,15 @@ sup a:hover { text-decoration: underline; }
  width: 20px;
  height: 20px;
  flex-shrink: 0;
- transition: transform 0.3s;
+ transition: transform 0.3s ease;
  color: var(--tdmd-teal);
-}.tdmd-faq-item.tdmd-faq-open.tdmd-faq-icon { transform: rotate(45deg); }.tdmd-faq-answer {
+}
+.tdmd-faq-icon line {
+ transition: opacity 0.3s ease;
+}
+.tdmd-faq-item.tdmd-faq-open .tdmd-faq-icon line:first-child {
+ opacity: 0;
+}.tdmd-faq-answer {
  max-height: 0;
  overflow: hidden;
  transition: max-height 0.3s ease;
@@ -1084,60 +1090,45 @@ sup a:hover { text-decoration: underline; }
  Can I stop my diabetes medication if my A1C is normal?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>An A1C that has returned to the normal range is often a sign that your medication is working — not that you no longer need it. Stopping diabetes medications without physician guidance frequently leads to A1C rebound within weeks to months. Some patients on metformin alone with significant lifestyle changes and sustained weight loss may be candidates for a supervised medication reduction. However, medications like GLP-1 RAs and SGLT2 inhibitors are often continued for their cardiovascular and kidney-protective benefits independent of blood sugar.<sup><a href="#ref-2">[2]</a></sup> Never stop or adjust your medications without consulting your prescribing physician.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  What is the difference between a GLP-1 RA and an SGLT2 inhibitor?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>These are two different classes of diabetes medications that work through completely different mechanisms. GLP-1 receptor agonists (such as semaglutide and tirzepatide) mimic a gut hormone that stimulates insulin release, suppresses glucagon, slows stomach emptying, and reduces appetite — leading to significant weight loss and A1C reduction. SGLT2 inhibitors (such as empagliflozin and dapagliflozin) work in the kidneys by blocking glucose reabsorption, so excess sugar is excreted in the urine. Both classes have proven cardiovascular and kidney benefits beyond glucose lowering.<sup><a href="#ref-5">[5]</a></sup> Your physician may prescribe one or both depending on your specific health profile.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  Why does my doctor want me on a GLP-1 RA even though my blood sugar is controlled?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>The 2025 ADA Standards of Care recommend GLP-1 RAs and SGLT2 inhibitors for patients with Type 2 Diabetes who have established cardiovascular disease, heart failure, or chronic kidney disease — regardless of A1C level.<sup><a href="#ref-2">[2]</a></sup> This is because these medications have proven benefits for reducing heart attacks, strokes, heart failure hospitalizations, and kidney disease progression that are independent of their glucose-lowering effects. In other words, these drugs protect your heart and kidneys even if your blood sugar is already at goal.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  How do I know if I am experiencing hypoglycemia?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Hypoglycemia (low blood sugar, below 70 mg/dL) can cause shakiness, sweating, rapid heartbeat, dizziness, hunger, irritability, confusion, and blurred vision. Some patients develop "hypoglycemia unawareness" over time, where they no longer feel early warning symptoms — this is particularly dangerous and should be discussed with your physician. If you take sulfonylureas or insulin, you are at higher risk. The Rule of 15 is the standard treatment: consume 15 grams of fast-acting carbohydrate, wait 15 minutes, and recheck your blood sugar. Repeat until above 70 mg/dL.<sup><a href="#ref-7">[7]</a></sup></p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  Is metformin still the best first-line medication for Type 2 Diabetes?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Metformin remains a commonly used first-line medication for Type 2 Diabetes, particularly for patients without cardiovascular disease, heart failure, or chronic kidney disease. It is effective, inexpensive, well-studied, weight-neutral, and does not cause hypoglycemia.<sup><a href="#ref-2">[2]</a></sup> However, the 2025 ADA guidelines have shifted the concept: for patients with established cardiovascular disease, heart failure, or CKD, GLP-1 RAs and SGLT2 inhibitors are now recommended as foundational therapy regardless of whether the patient is already on metformin or what their A1C is. The choice of first-line therapy is increasingly individualized based on your complete health profile.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">

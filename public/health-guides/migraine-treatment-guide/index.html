@@ -564,9 +564,15 @@ sup a:hover { text-decoration: underline; }
  width: 20px;
  height: 20px;
  flex-shrink: 0;
- transition: transform 0.3s;
+ transition: transform 0.3s ease;
  color: var(--tdmd-teal);
-}.tdmd-faq-item.tdmd-faq-open.tdmd-faq-icon { transform: rotate(45deg); }.tdmd-faq-answer {
+}
+.tdmd-faq-icon line {
+ transition: opacity 0.3s ease;
+}
+.tdmd-faq-item.tdmd-faq-open .tdmd-faq-icon line:first-child {
+ opacity: 0;
+}.tdmd-faq-answer {
  max-height: 0;
  overflow: hidden;
  transition: max-height 0.3s ease;
@@ -1190,108 +1196,81 @@ sup a:hover { text-decoration: underline; }
  What is the first-line treatment for a migraine attack?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>For moderate to severe migraine attacks, triptans — especially sumatriptan — are the established first-line treatment. For milder attacks or when triptans are contraindicated, NSAIDs such as naproxen or ibuprofen, or acetaminophen, are reasonable options. The key principle is to treat early, at the first sign of pain, before it becomes severe. Newer gepants (ubrogepant, rimegepant) are effective alternatives for patients who cannot tolerate or do not respond to triptans.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  When should I start preventive migraine therapy?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Preventive therapy is recommended when you have four or more headache days per month, when attacks are significantly disabling despite good acute treatment, or when you are using acute medications so frequently that medication overuse headache becomes a concern. The 2024 AHS consensus statement now supports CGRP monoclonal antibodies as first-line preventive options for eligible patients, alongside traditional agents like propranolol and topiramate.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  What is medication overuse headache?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Medication overuse headache (MOH) develops when acute headache medications are used too frequently. The threshold depends on the drug: triptans, ergotamines, opioids, and combination analgesics on 10 or more days per month for over three months; simple analgesics like acetaminophen or NSAIDs on 15 or more days per month. The result is a paradoxical worsening — the medication meant to relieve headache starts causing more of them. The primary treatment is supervised withdrawal of the overused medication.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  What is migraine with aura?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Migraine with aura involves neurological symptoms — most commonly visual disturbances like zigzag lines, blind spots, or flashing lights — that precede or accompany the headache phase. Aura symptoms typically build over 5–20 minutes and last less than 60 minutes. About 25–30% of people with migraine have aura. Combined estrogen-progestin oral contraceptives are relatively contraindicated due to increased stroke risk, and some specific aura types (hemiplegic, brainstem aura) warrant additional evaluation.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  What are CGRP monoclonal antibodies and who are they for?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>CGRP monoclonal antibodies — erenumab (Aimovig), fremanezumab (Ajovy), and galcanezumab (Emgality) — are monthly or quarterly self-injections specifically designed to prevent migraine by blocking calcitonin gene-related peptide (CGRP), a protein central to migraine pain signaling. The 2024 AHS consensus statement recommends these as first-line preventive options for episodic migraine with moderate-to-severe disability. Clinical trials show they reduce monthly migraine days by an average of 3–4 days and are generally well tolerated.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  What triggers migraine attacks?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Common migraine triggers include disrupted sleep (both too little and too much), psychological stress, hormonal changes (particularly the drop in estrogen before menstruation), bright or flickering lights, strong odors, skipping meals, dehydration, alcohol (especially red wine), and changes in caffeine intake. Triggers vary significantly between individuals. A headache diary helps identify your personal pattern rather than relying on generic trigger lists.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  What is menstrual migraine?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Menstrual migraine refers to attacks that occur predictably around the menstrual cycle, typically in the two days before to three days after menstruation begins. The trigger is the natural drop in estrogen. These attacks are often longer, more severe, and less responsive to acute treatments than non-menstrual attacks. Management includes standard acute therapy and, when attacks are predictable, short-term prevention with frovatriptan — the only triptan with Level A evidence for this specific indication.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  What are the red flags that mean a headache is not a typical migraine?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>The SNOOP criteria flag warning signs: Systemic symptoms like fever or weight loss; Neurologic deficit (weakness, numbness, speech changes); Onset that is sudden (thunderclap — maximum intensity in seconds); age Over 50 at new headache onset; and Pattern change from your usual headache. A headache that feels like "the worst of my life" requires emergency evaluation to rule out subarachnoid hemorrhage. Any new or meaningfully changing headache pattern warrants prompt medical assessment.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  What is status migrainosus?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Status migrainosus is a migraine attack lasting longer than 72 hours, either continuously or with very brief pain-free intervals. It is debilitating and typically requires escalated treatment beyond standard outpatient options — including IV fluids, IV anti-nausea medications, and IV analgesics. Patients in status migrainosus should seek urgent evaluation, not try to manage at home.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">

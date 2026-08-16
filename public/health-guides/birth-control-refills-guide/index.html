@@ -525,9 +525,15 @@ sup a:hover { text-decoration: underline; }
  width: 20px;
  height: 20px;
  flex-shrink: 0;
- transition: transform 0.3s;
+ transition: transform 0.3s ease;
  color: var(--tdmd-teal);
-}.tdmd-faq-item.tdmd-faq-open.tdmd-faq-icon { transform: rotate(45deg); }.tdmd-faq-answer {
+}
+.tdmd-faq-icon line {
+ transition: opacity 0.3s ease;
+}
+.tdmd-faq-item.tdmd-faq-open .tdmd-faq-icon line:first-child {
+ opacity: 0;
+}.tdmd-faq-answer {
  max-height: 0;
  overflow: hidden;
  transition: max-height 0.3s ease;
@@ -1044,60 +1050,45 @@ sup a:hover { text-decoration: underline; }
  Can I get my birth control refilled without an in-person exam?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Yes. Current ACOG and CDC guidelines confirm that a pelvic exam, breast exam, and cervical cancer screening are not required before initiating or continuing hormonal contraception. For combined hormonal methods, a blood pressure reading is the only clinical measurement recommended before refill. Progestin-only methods require no exam or testing at all. A telemedicine visit or even pharmacist screening can be sufficient for many patients.<sup><a href="#ref-3">[3]</a></sup></p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  Will antibiotics make my birth control less effective?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>With one exception, no. This is one of the most persistent myths in reproductive health. Common antibiotics — including amoxicillin, azithromycin, doxycycline, and ciprofloxacin — do not reduce the effectiveness of hormonal contraception. The only antibiotic class proven to interact is rifamycins (rifampin, rifabutin), used primarily for tuberculosis. The CDC, ACOG, and WHO all confirm this.<sup><a href="#ref-7">[7]</a></sup> Non-antibiotic medications that do interact include certain anticonvulsants (phenytoin, carbamazepine, phenobarbital), some HIV antiretrovirals, and the herbal supplement St. John's wort.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  Is it safe to skip the placebo week and take active pills continuously?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Yes. Extended and continuous cycling — skipping the placebo pills and taking active pills back-to-back — is medically safe and endorsed by both ACOG and the 2024 CDC guidelines as a standard option.<sup><a href="#ref-6">[6]</a></sup> The withdrawal bleed during the placebo week is not a true menstrual period and serves no medical purpose. Many patients prefer continuous cycling to reduce or eliminate monthly bleeding, menstrual cramps, and hormonal fluctuations. If breakthrough bleeding occurs, a 3–4 day hormone-free interval can help, but this should not be done during the first 21 days of a new pack and no more than once per month.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  I missed one pill — am I at risk for pregnancy?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Missing a single combined hormonal pill (less than 48 hours late) carries minimal risk. Take the missed pill as soon as you remember, then continue taking the rest on schedule — even if it means taking two pills in one day. No backup method is needed.<sup><a href="#ref-6">[6]</a></sup> The risk increases significantly when two or more consecutive pills are missed, especially in the first week of a pack or the last week before the placebo interval, as this effectively extends the hormone-free period and may allow ovulation to occur. Progestin-only pills (traditional formulations) have a much narrower window — just 3 hours — before backup is needed.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  How long do side effects last when starting a new birth control?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Most common side effects — including nausea, breast tenderness, breakthrough bleeding, and mood changes — typically improve within 2 to 3 months as your body adjusts to the hormonal changes. I generally counsel patients to give a new method at least 3 full cycles before deciding it's not working for them, provided there are no warning signs (see the ACHES mnemonic above). If side effects persist beyond 3 months or are significantly impacting quality of life, a dose adjustment or switch to a different formulation is reasonable and worth discussing with your prescriber.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">

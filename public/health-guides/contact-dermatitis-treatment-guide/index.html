@@ -547,9 +547,15 @@ sup a:hover { text-decoration: underline; }
  width: 20px;
  height: 20px;
  flex-shrink: 0;
- transition: transform 0.3s;
+ transition: transform 0.3s ease;
  color: var(--tdmd-teal);
-}.tdmd-faq-item.tdmd-faq-open.tdmd-faq-icon { transform: rotate(45deg); }.tdmd-faq-answer {
+}
+.tdmd-faq-icon line {
+ transition: opacity 0.3s ease;
+}
+.tdmd-faq-item.tdmd-faq-open .tdmd-faq-icon line:first-child {
+ opacity: 0;
+}.tdmd-faq-answer {
  max-height: 0;
  overflow: hidden;
  transition: max-height 0.3s ease;
@@ -1086,84 +1092,63 @@ sup a:hover { text-decoration: underline; }
  What is the difference between irritant and allergic contact dermatitis?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Irritant contact dermatitis is a direct toxic reaction — no immune sensitization is required, and nearly anyone exposed to a strong enough irritant will react. Allergic contact dermatitis is a delayed type IV hypersensitivity reaction that only occurs in individuals who have previously been sensitized to a specific allergen. ICD tends to cause burning and stinging, peaks quickly, and resolves faster. ACD causes intense itching, appears 24–72 hours after re-exposure, and spreads beyond the contact area.<sup><a href="#ref-1">[1]</a></sup></p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  What are the most common contact allergens?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Nickel is the most common contact allergen worldwide, frequently found in jewelry, belt buckles, and metal fasteners. Fragrance mixes and preservatives such as formaldehyde releasers are the second most common category. Rubber accelerators (thiurams, carbamates) cause reactions to latex and synthetic gloves. Neomycin and bacitracin in topical antibiotics are frequent sensitizers. In outdoor settings, urushiol from poison ivy, poison oak, and poison sumac sensitizes an estimated 50–70% of the adult population.<sup><a href="#ref-4">[4]</a></sup></p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  When do I need patch testing?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Patch testing is indicated when allergic contact dermatitis is suspected and the allergen cannot be identified by history alone — particularly for persistent, recurrent, or work-related dermatitis. It is also warranted for hand dermatitis that does not respond to standard treatment, facial dermatitis excluding seborrheic, and any chronic eczema with an unclear trigger. The test requires three clinical visits over approximately one week and must be interpreted by a trained physician to determine clinical relevance.<sup><a href="#ref-2">[2]</a></sup></p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  How are topical corticosteroids chosen for contact dermatitis?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Potency selection depends on body location and severity. High-potency agents such as clobetasol propionate 0.05% are appropriate for the palms and soles during acute flares. Mid-potency agents such as triamcinolone acetonide 0.1% are used for the trunk and extremities. Low-potency agents such as hydrocortisone 1–2.5% are reserved for the face, eyelids, and intertriginous areas. Prolonged high-potency use on thin skin causes atrophy, striae, and systemic absorption over time.<sup><a href="#ref-7">[7]</a></sup></p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  Can contact dermatitis be treated without steroids?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Yes. Topical calcineurin inhibitors — tacrolimus 0.1% ointment and pimecrolimus 1% cream — are steroid-free options that work by blocking T-cell activation. They are well-suited for facial, eyelid, and intertriginous dermatitis where prolonged steroid use is not appropriate. For mild cases, allergen or irritant avoidance combined with a consistent emollient regimen can resolve the dermatitis entirely without medication.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  What should I do immediately after poison ivy exposure?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Wash the exposed area with soap and cool water using friction within 10 minutes. Urushiol is an oily resin that binds tightly to skin, so mechanical removal matters as much as the soap. After roughly 30 minutes, the window for removing the allergen before sensitization begins narrows significantly. Wash all clothing and gear that may have contacted the plant; urushiol remains active on surfaces for months. The fluid inside blisters does not spread the reaction — new lesions appearing over several days reflect differences in urushiol concentration and skin thickness across contact sites.<sup><a href="#ref-6">[6]</a></sup></p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  How does occupational contact dermatitis affect healthcare workers?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Healthcare workers develop occupational hand dermatitis primarily from frequent handwashing, alcohol-based hand rubs, and prolonged glove use — the irritant type accounts for the majority of cases. Switching from latex to nitrile gloves, using gentler hand hygiene products, applying emollients consistently, and temporarily reducing hand hygiene duties can significantly improve recovery. Workers with suspected allergic dermatitis — particularly to rubber accelerators or preservatives — need patch testing and possibly permanent allergen avoidance or a change in duties.<sup><a href="#ref-5">[5]</a></sup></p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">

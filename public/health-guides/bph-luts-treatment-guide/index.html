@@ -605,9 +605,15 @@ sup a:hover { text-decoration: underline; }
  width: 20px;
  height: 20px;
  flex-shrink: 0;
- transition: transform 0.3s;
+ transition: transform 0.3s ease;
  color: var(--tdmd-teal);
-}.tdmd-faq-item.tdmd-faq-open.tdmd-faq-icon { transform: rotate(45deg); }.tdmd-faq-answer {
+}
+.tdmd-faq-icon line {
+ transition: opacity 0.3s ease;
+}
+.tdmd-faq-item.tdmd-faq-open .tdmd-faq-icon line:first-child {
+ opacity: 0;
+}.tdmd-faq-answer {
  max-height: 0;
  overflow: hidden;
  transition: max-height 0.3s ease;
@@ -1146,84 +1152,63 @@ sup a:hover { text-decoration: underline; }
  Will BPH turn into prostate cancer?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>No. BPH and prostate cancer are separate conditions. Having an enlarged prostate does not increase your risk of developing prostate cancer, and BPH does not transform into cancer.<sup><a href="#ref-6">[6]</a></sup> They do share the same organ, so both conditions can coexist, and certain symptoms — particularly a rapidly rising PSA — warrant investigation. Your physician may recommend PSA testing based on a shared decision-making conversation, but a BPH diagnosis alone is not a cancer warning sign.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  How long until alpha blockers start working?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Alpha blockers work quickly. Most men notice improved urine flow and reduced urgency within 24–48 hours of the first dose, with continued improvement over the first one to two weeks. They work by relaxing smooth muscle in the prostate and bladder neck — a mechanical effect that does not require weeks of tissue change. If you notice no benefit after two to four weeks, a follow-up evaluation is appropriate to assess dosing, prostate size, and whether additional therapy is warranted.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  Are tamsulosin's sexual side effects reversible?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Ejaculatory dysfunction — reduced or absent ejaculation — is the most common sexual side effect of tamsulosin and other uroselective alpha blockers. For most men, this effect resolves after stopping the medication. Silodosin has the highest rate of ejaculatory dysfunction in the class; alfuzosin has a notably lower rate.<sup><a href="#ref-7">[7]</a></sup> If sexual side effects are a concern, switching to alfuzosin or transitioning to tadalafil 5 mg daily — which preserves sexual function and addresses LUTS comparably — is a reasonable discussion to have with your physician.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  Should I get my PSA tested if I have BPH symptoms?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>The 2026 AUA guideline recommends PSA testing as a shared decision-making process, not a default routine step in BPH evaluation.<sup><a href="#ref-1">[1]</a></sup> A BPH diagnosis alone does not mandate PSA screening. Your physician may recommend it based on your age, family history, symptoms, and physical exam findings. One important note: men taking 5-ARI medications (finasteride or dutasteride) have PSA values suppressed by approximately 50% — so a reported value must be doubled for cancer screening interpretation purposes.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  When does BPH require surgery?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Only about 1% of men with BPH-related LUTS ultimately require a surgical procedure.<sup><a href="#ref-7">[7]</a></sup> Procedural intervention is typically considered when: lifestyle changes and medications have not provided adequate relief; symptoms are severe enough to significantly affect quality of life; complications develop such as acute urinary retention, recurrent UTIs, bladder stones, or kidney damage; or the patient prefers to avoid long-term daily medication. Options range from minimally invasive office procedures (UroLift, Rezum) to endoscopic procedures (TURP, HoLEP) to newer approaches like Aquablation and PAE. Prostate size, anatomy, and personal priorities all guide the decision.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  Can BPH be prevented?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>No definitive prevention strategy exists. Researchers have not identified a way to stop the age-related prostate growth that underlies BPH.<sup><a href="#ref-5">[5]</a></sup> That said, modifiable risk factors can reduce symptom severity and slow progression. Regular physical activity, maintaining a healthy weight, controlling blood sugar and blood pressure, and limiting alcohol and caffeine all appear to lower the risk of moderate-to-severe LUTS. These same steps form the foundation of first-line management once symptoms begin — starting them before symptoms worsen is sensible preventive health maintenance.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  Can I manage BPH through telehealth?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Telehealth is well-suited to several aspects of BPH care: initial symptom assessment with IPSS scoring, prescribing and monitoring alpha blockers, lifestyle counseling, managing the LUTS and ED overlap with tadalafil, and conducting the 6-month follow-up visit recommended by the 2026 AUA guideline. What telehealth cannot replace: digital rectal exam, PSA blood draws, uroflowmetry, post-void residual measurement, urodynamic studies, cystoscopy, and any procedural intervention. A well-structured care plan often uses both — telehealth for initiation and monitoring, in-person for diagnostic procedures and physical exams.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">

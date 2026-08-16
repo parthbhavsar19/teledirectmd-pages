@@ -557,9 +557,15 @@ sup a:hover { text-decoration: underline; }
  width: 20px;
  height: 20px;
  flex-shrink: 0;
- transition: transform 0.3s;
+ transition: transform 0.3s ease;
  color: var(--tdmd-teal);
-}.tdmd-faq-item.tdmd-faq-open.tdmd-faq-icon { transform: rotate(45deg); }.tdmd-faq-answer {
+}
+.tdmd-faq-icon line {
+ transition: opacity 0.3s ease;
+}
+.tdmd-faq-item.tdmd-faq-open .tdmd-faq-icon line:first-child {
+ opacity: 0;
+}.tdmd-faq-answer {
  max-height: 0;
  overflow: hidden;
  transition: max-height 0.3s ease;
@@ -1123,60 +1129,45 @@ sup a:hover { text-decoration: underline; }
  Is it a cold or the flu — how can I tell?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>The most reliable differentiator is symptom onset and intensity. Flu typically hits suddenly with high fever (often 101–104°F), severe body aches, chills, and profound fatigue. A cold develops gradually over 1–3 days, with symptoms dominated by nasal congestion, sneezing, and a sore throat, usually without significant fever. If your symptoms came on like a light switch — especially with a high fever and muscle aches — it's more likely to be the flu. The only definitive way to know is a rapid influenza test, which takes about 15 minutes.<sup><a href="#ref-2">[2]</a></sup></p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  Does Tamiflu (oseltamivir) actually work if started after 48 hours?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>For otherwise healthy outpatients, oseltamivir works best within 48 hours — ideally within the first 6–12 hours — shortening illness by 1–2 days. After 48 hours, the benefit in healthy outpatients is minimal. However, for hospitalized patients, those with progressive or severe illness, and high-risk individuals, oseltamivir is recommended regardless of time since symptom onset, as evidence shows benefit even when started 4–5 days after symptoms begin.<sup><a href="#ref-4">[4]</a></sup> The short answer: do not let the 48-hour mark stop you from seeking care if you're in a high-risk group or getting sicker.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  Should I take antibiotics for a cold or the flu?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>No. Both the common cold and influenza are caused by viruses, and antibiotics only work against bacteria. Taking antibiotics for a viral infection will not make you better, but it will expose you to potential side effects (diarrhea, allergic reactions, yeast infections) and contributes to antibiotic resistance — a serious and growing public health threat. The only scenario where antibiotics may be appropriate is if you develop a secondary bacterial complication such as bacterial sinusitis, strep throat, an ear infection, or bacterial pneumonia.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  Does zinc actually shorten a cold?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>The evidence is stronger than many people think, though the 2024 Cochrane review gave a cautious conclusion. Independent meta-analyses of properly formulated zinc lozenges (zinc acetate or zinc gluconate providing &gt;75 mg/day of elemental zinc) have found they shorten cold duration by about 33–37%.<sup><a href="#ref-6">[6]</a></sup> The key is formulation: zinc lozenges must slowly dissolve in the mouth to work, and they should be started within 24 hours of symptom onset. Zinc nasal sprays should be avoided, as they have been linked to permanent loss of smell. Common side effects of lozenges include bad taste and nausea.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  Can I get the flu even though I was vaccinated?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Yes. No vaccine is 100% effective. Flu vaccine effectiveness typically ranges from 40–60% in seasons when the vaccine is well-matched to circulating strains. However, even when vaccinated people do get the flu, they tend to have milder illness, fewer complications, and a lower risk of hospitalization and death. During the 2024–2025 season, vaccination prevented an estimated 11 million illnesses, 180,000 hospitalizations, and 12,000 deaths in the United States.<sup><a href="#ref-3">[3]</a></sup> Getting vaccinated is still the single most effective prevention strategy available.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">

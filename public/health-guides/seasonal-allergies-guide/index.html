@@ -540,9 +540,15 @@ sup a:hover { text-decoration: underline; }
  width: 20px;
  height: 20px;
  flex-shrink: 0;
- transition: transform 0.3s;
+ transition: transform 0.3s ease;
  color: var(--tdmd-teal);
-}.tdmd-faq-item.tdmd-faq-open.tdmd-faq-icon { transform: rotate(45deg); }.tdmd-faq-answer {
+}
+.tdmd-faq-icon line {
+ transition: opacity 0.3s ease;
+}
+.tdmd-faq-item.tdmd-faq-open .tdmd-faq-icon line:first-child {
+ opacity: 0;
+}.tdmd-faq-answer {
  max-height: 0;
  overflow: hidden;
  transition: max-height 0.3s ease;
@@ -1080,60 +1086,45 @@ sup a:hover { text-decoration: underline; }
  What is the difference between seasonal allergies and year-round allergies?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Seasonal allergies are triggered by outdoor allergens that appear at specific times of year — tree pollen in spring, grass pollen in early summer, and ragweed pollen in late summer through fall. Year-round (perennial) allergies are caused by indoor allergens present throughout the year, such as dust mites, pet dander, cockroach droppings, and indoor mold. Many patients have both. The ARIA guidelines classify rhinitis by symptom duration (intermittent vs. persistent) and severity rather than strictly by allergen type, because many patients with "seasonal" triggers actually have persistent symptoms across multiple pollen seasons.<sup><a href="#ref-1">[1]</a></sup></p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  Are over-the-counter allergy medications safe to take every day during allergy season?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Second-generation oral antihistamines like cetirizine (Zyrtec), loratadine (Claritin), and fexofenadine (Allegra) are generally safe for daily use throughout allergy season. Intranasal corticosteroid sprays such as fluticasone (Flonase) and triamcinolone (Nasacort) are also safe for daily use — in fact, they work best when used consistently. However, avoid daily use of oral decongestants like pseudoephedrine for more than a few days due to cardiovascular effects, and nasal decongestant sprays (Afrin/oxymetazoline) should never be used for more than 3 consecutive days to avoid rebound congestion (rhinitis medicamentosa). First-generation antihistamines like diphenhydramine (Benadryl) cause sedation and cognitive impairment and are not recommended for routine daily use.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  Can seasonal allergies develop for the first time in adulthood?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Yes. While seasonal allergies often begin in childhood or adolescence, adult-onset allergic rhinitis is well-documented and increasingly common. Moving to a new geographic area with different pollen exposures, changes in the immune system, and longer pollen seasons due to climate change can all contribute to developing allergies later in life. I see this regularly in patients who have relocated — they may go 2–3 years without symptoms before sensitization occurs. If you develop new nasal symptoms as an adult, it's worth seeing a physician to confirm the diagnosis since other conditions can mimic allergic rhinitis.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  Is immunotherapy (allergy shots or tablets) worth it?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Immunotherapy is the only treatment that modifies the underlying immune response rather than just controlling symptoms. It is well worth considering if you have moderate-to-severe symptoms not adequately controlled with medications, if you experience significant medication side effects, or if you want long-term disease modification. Subcutaneous immunotherapy (allergy shots) and sublingual immunotherapy (SLIT tablets) have near-equivalent efficacy. SLIT tablets have a superior safety profile and can be self-administered at home after the first dose.<sup><a href="#ref-6">[6]</a></sup> Benefits typically persist for years after completing a 3–5 year course. The decision depends on your symptom severity, allergen profile, and personal preferences — discuss it with an allergist.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  Can seasonal allergies cause asthma symptoms?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Absolutely. Allergic rhinitis and asthma are closely connected — the ARIA guidelines describe them as "one airway, one disease." Up to 40% of patients with allergic rhinitis also have asthma, and 80% of asthma patients have co-existing allergic rhinitis.<sup><a href="#ref-1">[1]</a></sup> Pollen exposure can trigger or worsen asthma symptoms including wheezing, chest tightness, coughing, and shortness of breath. During thunderstorms, pollen grains can rupture into tiny fragments that penetrate deep into the lungs, causing sudden severe asthma attacks ("thunderstorm asthma"). If you notice chest symptoms during allergy season, the recommendation is you be evaluated — poorly controlled allergic rhinitis is a risk factor for asthma exacerbations.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">

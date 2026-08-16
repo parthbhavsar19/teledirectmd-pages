@@ -542,9 +542,15 @@ sup a:hover { text-decoration: underline; }
  width: 20px;
  height: 20px;
  flex-shrink: 0;
- transition: transform 0.3s;
+ transition: transform 0.3s ease;
  color: var(--tdmd-teal);
-}.tdmd-faq-item.tdmd-faq-open.tdmd-faq-icon { transform: rotate(45deg); }.tdmd-faq-answer {
+}
+.tdmd-faq-icon line {
+ transition: opacity 0.3s ease;
+}
+.tdmd-faq-item.tdmd-faq-open .tdmd-faq-icon line:first-child {
+ opacity: 0;
+}.tdmd-faq-answer {
  max-height: 0;
  overflow: hidden;
  transition: max-height 0.3s ease;
@@ -1005,60 +1011,45 @@ sup a:hover { text-decoration: underline; }
  How quickly do I need to start Paxlovid after testing positive?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Paxlovid must be started within 5 days of symptom onset — not 5 days from your positive test. Earlier is better: clinical trial data showed the greatest benefit when treatment began within 3 days of symptoms. If you test positive on day 4 of symptoms, you should start that same day. By day 6, the treatment window has closed. This is why I encourage patients to test early and contact their physician immediately if positive.<sup><a href="#ref-3">[3]</a></sup></p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  Can I take Paxlovid if I'm on a statin for cholesterol?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Yes, but not simultaneously. If you take lovastatin or simvastatin, you must stop them 12 hours before starting Paxlovid and not restart until 5 days after your last Paxlovid dose. If you take atorvastatin or rosuvastatin, you should hold them during the 5-day Paxlovid course and restart the day after completing treatment. A brief pause in statin therapy is safe — statins work over the long term, so a 10-day interruption will not meaningfully affect your cholesterol management.<sup><a href="#ref-2">[2]</a></sup></p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  What is Paxlovid rebound and should I be worried?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Paxlovid rebound refers to a return of COVID-19 symptoms or a positive test 2 to 8 days after completing the 5-day course. Studies estimate it occurs in roughly 5–15% of treated patients, but rebound also occurs at similar rates in untreated individuals. The critical piece: rebound episodes are typically mild and self-limiting. A 2025 clinical trial found no benefit to retreating rebound with a second course of Paxlovid, as the rebound resolved on its own without progression to severe disease.<sup><a href="#ref-4">[4]</a></sup></p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  I'm young and healthy — do I still need Paxlovid?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Paxlovid is FDA-approved specifically for adults at high risk for progression to severe COVID-19. If you are under 50 with no underlying conditions, you are generally not a candidate. However, "high risk" includes a wider range of conditions than many people realize — overweight/obesity, asthma, diabetes, mental health conditions on certain medications, and smoking all qualify. Discuss your specific situation with your physician.<sup><a href="#ref-1">[1]</a></sup></p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  Does Paxlovid prevent long COVID?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>The evidence is mixed but trending toward a modest benefit in high-risk groups. A large 2025 CDC study found Paxlovid was associated with a 12% reduced risk of long COVID symptoms in adults 65 and older, and a smaller 7% reduction in younger adults. However, another large study found the overall effect was negligible — an absolute risk reduction of 0.43% in patients 65+, meaning 233 people would need treatment to prevent one case. Paxlovid's primary value remains preventing severe acute illness, hospitalization, and death.<sup><a href="#ref-6">[6]</a></sup></p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">

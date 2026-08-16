@@ -565,9 +565,15 @@ sup a:hover { text-decoration: underline; }
  width: 20px;
  height: 20px;
  flex-shrink: 0;
- transition: transform 0.3s;
+ transition: transform 0.3s ease;
  color: var(--tdmd-teal);
-}.tdmd-faq-item.tdmd-faq-open.tdmd-faq-icon { transform: rotate(45deg); }.tdmd-faq-answer {
+}
+.tdmd-faq-icon line {
+ transition: opacity 0.3s ease;
+}
+.tdmd-faq-item.tdmd-faq-open .tdmd-faq-icon line:first-child {
+ opacity: 0;
+}.tdmd-faq-answer {
  max-height: 0;
  overflow: hidden;
  transition: max-height 0.3s ease;
@@ -1149,60 +1155,45 @@ sup a:hover { text-decoration: underline; }
  How can I tell if my ear infection is in the middle ear or the outer ear?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>The location and type of pain are the biggest clues. A middle ear infection (otitis media) produces deep, throbbing pain behind the eardrum, often following a cold, with possible fever and muffled hearing. An outer ear infection (otitis externa or swimmer's ear) causes pain when you pull on the earlobe or press on the tragus — the small flap in front of the ear canal — and the ear canal itself may feel swollen, itchy, or produce discharge. If pulling the ear hurts, think outer ear. If it doesn't change the pain but you have cold symptoms and a "full" feeling, think middle ear.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  Do ear infections always need antibiotics?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>No. Many mild middle ear infections resolve on their own, especially in children over age 2 with unilateral, nonsevere symptoms. The AAP guidelines support watchful waiting for 48–72 hours in appropriate candidates. About two-thirds of children with mild ear infections improve without antibiotics.<sup><a href="#ref-1">[1]</a></sup> However, severe infections, infections in children under 6 months, bilateral infections in children 6–23 months, and immunocompromised patients should receive antibiotics promptly. For otitis externa, topical antibiotic ear drops are the standard treatment — but oral antibiotics are rarely needed.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  Can adults get ear infections?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Absolutely. While ear infections are far more common in children — about 80% of children will have at least one episode of otitis media by age 3 — adults are not immune. Adult middle ear infections often occur after upper respiratory infections and may indicate an underlying issue such as eustachian tube dysfunction, allergies, or rarely, a nasopharyngeal mass. Adults are also susceptible to swimmer's ear, particularly those who swim frequently, use hearing aids, or have narrow ear canals. Adult ear infections warrant prompt evaluation because they can sometimes signal other conditions.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  Is swimmer's ear the same as a regular ear infection?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>No, they are different conditions. Swimmer's ear (otitis externa) is an infection of the ear canal — the tube leading from the outside to the eardrum. A "regular" ear infection (otitis media) occurs behind the eardrum in the middle ear space. They have different causes, different organisms, different treatments, and different risk factors. Swimmer's ear is typically caused by <em>Pseudomonas</em> or <em>Staphylococcus</em> bacteria and treated with topical ear drops.<sup><a href="#ref-2">[2]</a></sup> Middle ear infections are usually caused by <em>Streptococcus pneumoniae</em> or <em>Haemophilus influenzae</em> and treated with oral antibiotics when necessary.<sup><a href="#ref-4">[4]</a></sup></p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  How long does an ear infection last?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>With appropriate treatment, most middle ear infections improve significantly within 48–72 hours, with full resolution in 7–10 days. Without treatment, mild cases may resolve in 7–14 days, though there is risk of complications. Outer ear infections treated with topical drops typically improve within 3–5 days and resolve fully within 7–10 days. If symptoms are not improving within 48–72 hours of starting treatment, follow up with your physician — this may indicate a resistant organism, an incorrect diagnosis, or complications that need reassessment.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">

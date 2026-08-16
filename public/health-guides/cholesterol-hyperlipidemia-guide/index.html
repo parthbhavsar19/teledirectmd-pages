@@ -552,9 +552,15 @@ sup a:hover { text-decoration: underline; }
  width: 20px;
  height: 20px;
  flex-shrink: 0;
- transition: transform 0.3s;
+ transition: transform 0.3s ease;
  color: var(--tdmd-teal);
-}.tdmd-faq-item.tdmd-faq-open.tdmd-faq-icon { transform: rotate(45deg); }.tdmd-faq-answer {
+}
+.tdmd-faq-icon line {
+ transition: opacity 0.3s ease;
+}
+.tdmd-faq-item.tdmd-faq-open .tdmd-faq-icon line:first-child {
+ opacity: 0;
+}.tdmd-faq-answer {
  max-height: 0;
  overflow: hidden;
  transition: max-height 0.3s ease;
@@ -1101,60 +1107,45 @@ sup a:hover { text-decoration: underline; }
  Do statins really cause muscle pain, or is it the nocebo effect?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>This is one of the most important questions in cardiovascular medicine. Large placebo-controlled trials — including the SAMSON and StatinWISE studies — showed that patients report nearly identical rates of muscle symptoms on statin and placebo. A 2026 meta-analysis of 19 trials with over 120,000 participants found only 4 of 66 commonly listed statin side effects are actually caused by the drug, at very low rates.<sup><a href="#ref-5">[5]</a></sup> The nocebo effect — where the expectation of side effects causes real symptoms — accounts for the majority of reported muscle complaints. Remarkably, up to 50% of patients who believed they were statin-intolerant successfully restarted statins after participating in blinded trials. If you've stopped a statin due to muscle symptoms, consider discussing a rechallenge with your physician.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  Can I stop taking my statin if my cholesterol numbers are normal?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>No — this is a common and potentially dangerous misconception. Your cholesterol is at goal <em>because</em> the statin is working. Statins do not cure the underlying tendency toward high cholesterol; they manage it continuously. If you stop, your LDL will return to its pre-treatment level within weeks, and your cardiovascular risk will increase accordingly. The benefit of statin therapy is cumulative — the longer you maintain low LDL levels, the greater the protection against heart attack and stroke. Never discontinue a statin without discussing it with your physician first.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  What are PCSK9 inhibitors, and who needs them?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>PCSK9 inhibitors are a class of medications that lower LDL by up to 60% when added to statin therapy. Currently available agents include evolocumab (Repatha), alirocumab (Praluent), and inclisiran (Leqvio). They are typically recommended for patients with established cardiovascular disease or familial hypercholesterolemia who cannot reach their LDL goal despite maximally tolerated statin therapy plus ezetimibe. In 2025, the FDA broadened the indication for evolocumab to include adults at increased cardiovascular risk from uncontrolled LDL-C — even without prior heart attack or stroke — and approved inclisiran for first-line monotherapy use.<sup><a href="#ref-6">[6]</a></sup> If your LDL remains above target after optimizing statin and ezetimibe, ask your physician about these options.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  How much can diet and exercise lower my cholesterol?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Lifestyle modifications can meaningfully reduce LDL: cutting saturated fat lowers LDL by 8–10%, adding 10 g of soluble fiber daily reduces it by another 3–5%, plant stanols/sterols lower it by 6–15%, and an aggressive dietary approach like the Portfolio or Mediterranean diet can reduce LDL by 20–30% combined. Regular exercise (150 minutes/week) primarily raises HDL by 5–10% and improves triglycerides. Losing 10% of body weight reduces LDL by 5–8%.<sup><a href="#ref-7">[7]</a></sup> However, for patients at high cardiovascular risk or with very elevated LDL, lifestyle changes alone are typically insufficient and should be combined with medication.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  What is inclisiran, and how is it different from other cholesterol drugs?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Inclisiran (Leqvio) is a small interfering RNA (siRNA) therapy — a fundamentally different approach. Instead of blocking the PCSK9 protein after it's produced (like Repatha and Praluent), inclisiran silences the gene that makes PCSK9 in the first place. The major advantage is the dosing schedule: just one healthcare-provider injection at Day 1, Day 90, then every 6 months — compared to biweekly or monthly self-injections for traditional PCSK9 inhibitors. It reduces LDL by about 50%. In July 2025, the FDA approved inclisiran as first-line monotherapy alongside diet and exercise, removing the requirement for concurrent statin use.<sup><a href="#ref-6">[6]</a></sup></p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">

@@ -605,9 +605,15 @@ sup a:hover { text-decoration: underline; }
  width: 20px;
  height: 20px;
  flex-shrink: 0;
- transition: transform 0.3s;
+ transition: transform 0.3s ease;
  color: var(--tdmd-teal);
-}.tdmd-faq-item.tdmd-faq-open.tdmd-faq-icon { transform: rotate(45deg); }.tdmd-faq-answer {
+}
+.tdmd-faq-icon line {
+ transition: opacity 0.3s ease;
+}
+.tdmd-faq-item.tdmd-faq-open .tdmd-faq-icon line:first-child {
+ opacity: 0;
+}.tdmd-faq-answer {
  max-height: 0;
  overflow: hidden;
  transition: max-height 0.3s ease;
@@ -1196,84 +1202,63 @@ sup a:hover { text-decoration: underline; }
  Should I go to the ER for a cat bite?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Not every cat bite requires an ER visit, but all cat bites should be evaluated by a physician. Go to the ER immediately if the bite is on your hand, wrist, or over a joint; if you see rapidly spreading redness or red streaks; if you have a fever; if you are immunocompromised, diabetic, or asplenic; or if the wound is deep and may have penetrated a tendon or joint. A telehealth evaluation is appropriate for mild bites on low-risk body areas in otherwise healthy patients with no active signs of infection.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  What antibiotic is used for cat bites?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Amoxicillin-clavulanate (Augmentin) is the standard first-line antibiotic for cat bites. It covers <em>Pasteurella multocida</em>, staphylococci, and the anaerobes present in polymicrobial cat bite infections. The typical prophylactic course is 3–5 days. For penicillin-allergic patients, doxycycline or a fluoroquinolone combined with metronidazole are commonly used alternatives.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  How quickly does a cat bite become infected?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p><em>Pasteurella multocida</em> infections can produce visible redness and swelling within 3–6 hours of a cat bite — and are typically evident within 12–24 hours. If the bite site is already inflamed before you even finish washing your hands, that rapid onset is characteristic of <em>Pasteurella</em> and warrants same-day antibiotic treatment, not a wait-and-see approach.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  Why are cat bites more dangerous than dog bites?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Cat bites carry a 30–50% infection rate compared to 5–25% for dog bites. Cat teeth are thin and needle-sharp, creating deep puncture wounds that seal over quickly and trap bacteria in a low-oxygen environment. Dog teeth are broader and produce lacerations that bleed, drain, and can be irrigated effectively. Cat bites — especially to the hand — can reach tendon sheaths and joint spaces that are extremely difficult to treat once infected.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  Do I need a rabies shot after a cat bite?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Rabies risk depends on the cat's vaccination status and circumstances. A vaccinated indoor-only cat carries very low risk and can be observed for 10 days — if the animal remains healthy, no post-exposure prophylaxis is needed. An outdoor cat, stray, or feral cat carries meaningfully higher risk. If the cat is unavailable, feral, or behaving abnormally, consult your local health department — post-exposure prophylaxis is highly effective when started promptly and should not be delayed out of caution.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  What is cat scratch disease, and is it different from a cat bite infection?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Yes, they are distinct conditions. A cat bite infection is caused primarily by <em>Pasteurella multocida</em> and produces rapid local wound inflammation within hours. Cat scratch disease is caused by <em>Bartonella henselae</em>, typically follows scratches rather than bites, and presents as swollen, tender lymph nodes appearing 1–3 weeks after exposure. Cat scratch disease usually resolves on its own in immunocompetent patients, while cat bite infections require prompt antibiotic treatment.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  What are the Kanavel signs, and why do they matter for cat bites?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>The Kanavel signs are four clinical findings that indicate pyogenic flexor tenosynovitis — an infection of the tendon sheath in the finger that is a surgical emergency: (1) finger held in slight flexion, (2) fusiform (uniform sausage-like) swelling of the entire digit, (3) tenderness along the flexor tendon sheath, and (4) intense pain with passive extension of the finger. Cat bites to the hand are a leading cause of this condition because a cat tooth easily reaches the tendon sheath. Any cat bite to the hand with these findings requires immediate ER evaluation — fever is often absent, so a normal temperature does not rule out this diagnosis.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">

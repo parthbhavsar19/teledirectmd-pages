@@ -571,9 +571,15 @@ sup a:hover { text-decoration: underline; }
  width: 20px;
  height: 20px;
  flex-shrink: 0;
- transition: transform 0.3s;
+ transition: transform 0.3s ease;
  color: var(--tdmd-teal);
-}.tdmd-faq-item.tdmd-faq-open.tdmd-faq-icon { transform: rotate(45deg); }.tdmd-faq-answer {
+}
+.tdmd-faq-icon line {
+ transition: opacity 0.3s ease;
+}
+.tdmd-faq-item.tdmd-faq-open .tdmd-faq-icon line:first-child {
+ opacity: 0;
+}.tdmd-faq-answer {
  max-height: 0;
  overflow: hidden;
  transition: max-height 0.3s ease;
@@ -1167,108 +1173,81 @@ sup a:hover { text-decoration: underline; }
  Is genital herpes curable?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>No. HSV-2 establishes lifelong latency in sacral nerve ganglia and cannot be eradicated with current antivirals. However, suppressive therapy with valacyclovir significantly reduces outbreak frequency, shortens episode duration, and lowers the risk of transmission to partners. Most people with HSV-2 on daily suppressive therapy experience few or no symptomatic outbreaks. Recurrence frequency also naturally decreases over years regardless of treatment.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  How often will I have outbreaks if I have HSV-2?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>The average person with genital HSV-2 has 4–5 outbreaks in the first year. About 38% of patients have six or more recurrences in year one, and roughly 20% have more than ten. Men tend to have slightly more recurrences than women. Frequency typically decreases over time — many people find year two significantly better than year one, and the trend continues. Daily suppressive therapy with valacyclovir reduces recurrence by 70–80% regardless of baseline frequency.<sup><a href="#ref-1">[1]</a></sup></p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  Can I spread herpes when I have no symptoms?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Yes — and this is one of the most clinically important facts about HSV-2. Asymptomatic viral shedding is the primary driver of transmission. During the first year of infection, shedding occurs on approximately 34% of days even without visible lesions or symptoms. This is why avoiding sex only during outbreaks is not an adequate prevention strategy on its own. Daily suppressive therapy and consistent condom use are both important regardless of symptom status.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  What's the difference between genital HSV-1 and genital HSV-2?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Both viruses can cause genital ulcers, but they follow very different patterns after the primary episode. HSV-2 causes an average of 4–5 recurrences per year and sustains high shedding rates long-term. Genital HSV-1, most often acquired through oral sex, causes far fewer recurrences — typically fewer than one per year — and shedding declines rapidly in the first 12 months.<sup><a href="#ref-6">[6]</a></sup> Suppressive therapy for transmission prevention applies specifically to HSV-2 discordant couples; the evidence does not extend to genital HSV-1.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  Should I take suppressive therapy or episodic therapy?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>It depends on your outbreak frequency, your relationship situation, and your goals. Six or more outbreaks per year is the threshold at which suppressive therapy becomes the clinical standard. If you're in a relationship with an HSV-2 seronegative partner and transmission prevention is a priority, suppressive therapy makes sense regardless of outbreak frequency. For people with infrequent outbreaks and no current discordant partner, episodic therapy is a reasonable option — provided you keep a prescription on hand to start immediately at symptom onset.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  How much does valacyclovir reduce the risk of giving herpes to my partner?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Daily valacyclovir 500 mg reduces HSV-2 transmission by approximately 48% in discordant heterosexual couples — meaning it nearly cuts the risk in half.<sup><a href="#ref-4">[4]</a></sup> Consistent condom use adds approximately 30% reduction on top of that.<sup><a href="#ref-3">[3]</a></sup> In the key valacyclovir trial, none of the 141 couples who combined valacyclovir with consistent condom use had documented HSV-2 transmission during the study period. These strategies together are powerful, though neither guarantees zero risk.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  Is it safe to take valacyclovir during pregnancy?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Yes. Both valacyclovir and acyclovir are used in pregnancy and have established safety profiles. The CDC recommends starting suppressive therapy at 36 weeks' gestation for women with a history of genital herpes.<sup><a href="#ref-1">[1]</a></sup> This significantly reduces recurrence at delivery, lowers the rate of cesarean sections performed for active lesions, and decreases asymptomatic shedding at labor. Cesarean delivery is still recommended when active genital lesions or prodromal symptoms are present at the onset of labor.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  Should I get tested for HSV-2 if I have no symptoms?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>The CDC does not recommend routine HSV-2 serology screening of asymptomatic adults without a specific clinical indication.<sup><a href="#ref-2">[2]</a></sup> The main reason: a positive result in someone with no symptoms often causes significant psychological distress without a clear management benefit. Testing makes sense when your partner has confirmed HSV-2, when you have unexplained genital symptoms, or in specific pregnancy contexts. If you do test and get a weakly positive result, confirm it with a second assay before acting on it.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  Do I need to tell my partners I have herpes?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Yes. The CDC recommends informing current partners about a diagnosis and disclosing to future partners before beginning a sexual relationship.<sup><a href="#ref-2">[2]</a></sup> This is the ethical standard and, in most states, a legal requirement when a known risk of transmission exists. Disclosure conversations are easier than they feel before you have them. Bringing accurate information about risk and prevention strategies — including suppressive therapy and condoms — to the conversation helps partners make informed decisions rather than fear the worst.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">

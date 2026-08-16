@@ -563,9 +563,15 @@ sup a:hover { text-decoration: underline; }
  width: 20px;
  height: 20px;
  flex-shrink: 0;
- transition: transform 0.3s;
+ transition: transform 0.3s ease;
  color: var(--tdmd-teal);
-}.tdmd-faq-item.tdmd-faq-open.tdmd-faq-icon { transform: rotate(45deg); }.tdmd-faq-answer {
+}
+.tdmd-faq-icon line {
+ transition: opacity 0.3s ease;
+}
+.tdmd-faq-item.tdmd-faq-open .tdmd-faq-icon line:first-child {
+ opacity: 0;
+}.tdmd-faq-answer {
  max-height: 0;
  overflow: hidden;
  transition: max-height 0.35s ease;
@@ -1189,108 +1195,81 @@ sup a:hover { text-decoration: underline; }
  Is rosacea the same as acne?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>No. Rosacea and acne are separate conditions that can look similar. Rosacea causes persistent facial redness, flushing, and small pus-filled bumps — but it never produces blackheads (comedones), which are a hallmark of acne. Rosacea also tends to burn or sting rather than itch, and it is triggered by external factors like sun exposure, heat, and alcohol rather than hormones and clogged oil glands. Many standard acne treatments (high-concentration benzoyl peroxide, strong retinoids, alcohol-based toners) will worsen rosacea.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  What are the four types of rosacea?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>The four classic subtypes are: erythematotelangiectatic (flushing and persistent redness with visible blood vessels), papulopustular (redness with acne-like bumps and pustules — no blackheads), phymatous (skin thickening and enlargement, most commonly the nose, called rhinophyma), and ocular (eye and eyelid involvement including blepharitis and dry eye). Current AAD and NRS guidelines now favor a phenotype-based approach that targets each presenting feature individually, since many patients have overlapping characteristics from more than one subtype.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  What is the best topical treatment for rosacea?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>The three topical medications with the strongest evidence are ivermectin 1% cream (Soolantra), metronidazole 0.75–1%, and azelaic acid 15% gel or foam. Ivermectin has shown superior lesion reduction compared to metronidazole in multiple head-to-head trials.<sup><a href="#ref-6">[6]</a></sup> For persistent redness specifically, brimonidine gel (Mirvaso) provides rapid but temporary relief. The right choice depends on which rosacea features are most prominent in your case — your physician should tailor the selection based on your phenotype.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  Does rosacea go away on its own?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Rosacea is a chronic condition that does not resolve on its own without management. Flares may calm down temporarily with trigger avoidance, but the underlying tendency for redness and inflammation persists — and tends to worsen over years if untreated. Most patients require ongoing maintenance treatment, usually a topical medication combined with daily mineral sunscreen and trigger awareness. The goal is long-term control. Starting early gives you the best chance of preventing progression to more difficult-to-treat phymatous or severe papulopustular disease.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  Can rosacea be confused with lupus?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Yes, and this is a clinically important distinction. Both conditions cause facial redness, but lupus produces a butterfly-shaped malar rash that characteristically spares the nasolabial folds, while rosacea typically involves those folds and presents with visible blood vessels and often papules. Lupus is also associated with systemic symptoms — joint pain, fatigue, fever, and photosensitivity — and requires blood tests (ANA panel) to confirm. If your facial redness comes with joint pain, fatigue, or other unexplained systemic symptoms, see a physician promptly rather than self-treating for rosacea.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  What oral medication is used for rosacea?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>The most widely used oral treatment is low-dose doxycycline 40 mg modified-release (brand name Oracea). At this dose, doxycycline works as an anti-inflammatory — serum levels stay below the threshold required for antimicrobial activity, limiting the risk of promoting antibiotic resistance. It is the only FDA-approved oral treatment for the inflammatory lesions of rosacea and works well in combination with a topical agent.<sup><a href="#ref-4">[4]</a></sup> For severe or refractory cases — particularly those with phymatous changes — oral isotretinoin is sometimes used under close physician supervision with required monitoring.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  What is ocular rosacea?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Ocular rosacea is the eye manifestation of rosacea, affecting the eyelids, conjunctiva, and in severe cases the cornea. Symptoms include dry, irritated, or gritty eyes, eyelid redness, crusting along the lash line, recurring styes or chalazia, and light sensitivity. Meibomian gland dysfunction — disruption of the oil-secreting glands along the eyelid margin — is the central mechanism. It is frequently underdiagnosed because eye symptoms can appear before any skin changes in 15–20% of patients.<sup><a href="#ref-8">[8]</a></sup> Mild cases respond to warm compresses and eyelid hygiene; moderate-to-severe cases may need topical cyclosporine drops or oral doxycycline.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  Does Demodex cause rosacea?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Demodex folliculorum mites are found at 15–18 times greater density on rosacea-affected skin compared to unaffected controls, and they appear to amplify the inflammatory response through several mechanisms — physically blocking follicles, releasing bacterial antigens, and activating TLR-2 immune pathways.<sup><a href="#ref-6">[6]</a></sup> Topical ivermectin 1% cream reduces Demodex density while also suppressing downstream inflammation directly. That said, Demodex is one aggravating factor in a more complex picture — rosacea also involves vascular dysregulation and innate immune dysfunction that exist independently of mite burden.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  What triggers rosacea flares?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>The most commonly reported triggers documented by the National Rosacea Society are sun exposure, alcohol (especially red wine), spicy foods, hot beverages, temperature extremes (both heat and cold), exercise, and emotional stress.<sup><a href="#ref-2">[2]</a></sup> Skincare products containing alcohol, witch hazel, or fragrance are also frequent offenders. Each patient's trigger profile is different — keeping a 2–4 week flare journal is the most reliable way to identify your personal patterns. Avoiding your top two or three triggers can meaningfully reduce how often you flare, even before starting any medication.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">

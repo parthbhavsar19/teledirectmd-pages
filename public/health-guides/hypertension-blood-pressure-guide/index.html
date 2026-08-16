@@ -551,9 +551,15 @@ sup a:hover { text-decoration: underline; }
  width: 20px;
  height: 20px;
  flex-shrink: 0;
- transition: transform 0.3s;
+ transition: transform 0.3s ease;
  color: var(--tdmd-teal);
-}.tdmd-faq-item.tdmd-faq-open.tdmd-faq-icon { transform: rotate(45deg); }.tdmd-faq-answer {
+}
+.tdmd-faq-icon line {
+ transition: opacity 0.3s ease;
+}
+.tdmd-faq-item.tdmd-faq-open .tdmd-faq-icon line:first-child {
+ opacity: 0;
+}.tdmd-faq-answer {
  max-height: 0;
  overflow: hidden;
  transition: max-height 0.3s ease;
@@ -1061,60 +1067,45 @@ sup a:hover { text-decoration: underline; }
  Can I stop taking my blood pressure medication if my numbers are normal?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>No. Normal readings usually mean your medication is working, not that your hypertension has resolved. Stopping medication without physician guidance almost always leads to blood pressure climbing back to pre-treatment levels — sometimes within days. If you feel your medication may no longer be necessary, discuss a supervised, gradual tapering plan with your doctor while monitoring your blood pressure closely at home. In rare cases, patients who have made significant lifestyle changes (substantial weight loss, dramatic dietary improvement) may be able to reduce their medication under careful supervision.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  What should I do if I miss a dose of my blood pressure medication?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Take it as soon as you remember, unless it's close to the time for your next dose. In that case, skip the missed dose and resume your regular schedule. Never double up to make up for a missed dose. If you frequently forget doses, consider setting a daily phone alarm, using a pill organizer, or asking your doctor about longer-acting once-daily medications that are easier to remember.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  Why does my blood pressure reading vary so much from visit to visit?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Blood pressure is inherently dynamic — it fluctuates throughout the day based on activity, stress, caffeine intake, hydration, sleep quality, and even the time of day. And "white coat hypertension" (elevated readings in a clinical setting due to anxiety) affects approximately 15–30% of patients with elevated office readings.<sup><a href="#ref-6">[6]</a></sup> This is why home monitoring and trends over time are more informative than any single reading. When you check at home, sit quietly for 5 minutes, use a validated upper-arm cuff, and measure at the same time each day.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  Is it safe to exercise with high blood pressure?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Yes — in fact, regular exercise is one of the most effective non-drug strategies for lowering blood pressure. Aerobic exercise (brisk walking, cycling, swimming) for 150 minutes per week can lower systolic blood pressure by 5–8 mmHg. However, if your blood pressure is severely uncontrolled (above 180/110 mmHg), consult your physician before starting a new exercise program. Avoid heavy isometric exercises (like maximal-effort weightlifting) until your blood pressure is better controlled. The WHO recommends 150–300 minutes per week of moderate-intensity exercise for optimal cardiovascular benefit.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  Do blood pressure medications cause weight gain or fatigue?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Some can. Beta-blockers are most commonly associated with fatigue and modest weight gain. Older-generation beta-blockers (like atenolol and metoprolol) tend to cause these side effects more than newer agents (like carvedilol and nebivolol). ACE inhibitors, ARBs, and calcium channel blockers generally do not cause weight gain. Thiazide diuretics may cause fatigue initially but this typically resolves within a few weeks. If side effects are affecting your quality of life, talk to your doctor — there are many medication options available, and switching classes often resolves the issue entirely.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">

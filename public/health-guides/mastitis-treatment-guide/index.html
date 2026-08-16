@@ -562,9 +562,15 @@ sup a:hover { text-decoration: underline; }
  width: 20px;
  height: 20px;
  flex-shrink: 0;
- transition: transform 0.3s;
+ transition: transform 0.3s ease;
  color: var(--tdmd-teal);
-}.tdmd-faq-item.tdmd-faq-open.tdmd-faq-icon { transform: rotate(45deg); }.tdmd-faq-answer {
+}
+.tdmd-faq-icon line {
+ transition: opacity 0.3s ease;
+}
+.tdmd-faq-item.tdmd-faq-open .tdmd-faq-icon line:first-child {
+ opacity: 0;
+}.tdmd-faq-answer {
  max-height: 0;
  overflow: hidden;
  transition: max-height 0.3s ease;
@@ -1134,108 +1140,81 @@ sup a:hover { text-decoration: underline; }
  Should I stop breastfeeding if I have mastitis?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>No — and this is one of the most important things to understand about mastitis. Continuing to breastfeed is central to recovery for both inflammatory and bacterial mastitis. Effective milk removal prevents further ductal congestion and inflammation. Stopping breastfeeding suddenly can worsen milk stasis and accelerate abscess formation. All first-line antibiotics for mastitis are compatible with breastfeeding. The ABM 2022 protocol states explicitly that bacterial mastitis is not a contraindication to nursing, and that infants can safely feed from the affected breast even during active infection.<sup><a href="#ref-1">[1]</a></sup></p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  Does every mastitis case need antibiotics?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>No. Most early mastitis is inflammatory, not bacterial, and responds to conservative management without antibiotics. The ABM 2022 protocol notes that a Swedish study found most inflammatory mastitis cases resolved completely with conservative care — no antibiotics required. Using antibiotics for inflammatory mastitis disrupts the breast microbiome and can increase the risk of bacterial infection. Antibiotics are appropriate when there are persistent systemic symptoms (fever, rigors) beyond 24 hours, cellulitis pattern, or no improvement with conservative care after 24 to 48 hours.<sup><a href="#ref-1">[1]</a></sup></p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  What are the first-line antibiotics for mastitis?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>First-line treatment is dicloxacillin 500 mg four times daily or cephalexin 500 mg four times daily, for 10 to 14 days. Both are safe during breastfeeding. Second-line options are clindamycin 300 mg four times daily or trimethoprim-sulfamethoxazole DS twice daily (avoid TMP-SMX in mothers of premature infants, infants with hyperbilirubinemia, or G6PD deficiency). If there is no improvement within 48 hours, a breast milk culture should be obtained to screen for MRSA or resistant organisms that will not respond to standard first-line drugs.<sup><a href="#ref-2">[2]</a></sup></p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  How do I know if mastitis has turned into a breast abscess?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>An abscess typically presents as a palpable fluctuant mass — a soft area that feels like there is fluid under pressure beneath the skin. Other signs include progressive induration that is not responding to antibiotics, worsening pain localized to one spot, and persistent fever beyond 48 to 72 hours of appropriate treatment. Breast ultrasound is the standard test to confirm an abscess and distinguish it from phlegmon. Abscesses require drainage in addition to antibiotics — oral antibiotics alone will not resolve a formed fluid collection.<sup><a href="#ref-4">[4]</a></sup></p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  Why do I keep getting mastitis?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Recurrent mastitis usually points to an underlying, treatable cause — not just bad luck. The most common drivers are hyperlactation and oversupply, excessive or improper pumping, mammary dysbiosis, and inadequate prior treatment. A sterile breast milk culture is the first step to check for MRSA or resistant organisms. A lactation consultant evaluation can identify feeding pattern issues. After three or more episodes, imaging to rule out a structural mass, granulomatous mastitis, or inflammatory breast cancer is appropriate. Probiotics containing <em>L. salivarius</em> or <em>L. fermentum</em> strains may help restore breast microbiome balance and reduce recurrence.<sup><a href="#ref-1">[1]</a></sup></p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  Can probiotics help with mastitis?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Specific strains show genuine promise. <em>Ligilactobacillus salivarius</em> (PS2, CECT5713) and <em>Limosilactobacillus fermentum</em> (CECT5716) are the strains most supported by clinical evidence. A 2022 meta-analysis found they significantly reduced bacterial load in breast milk and decreased mastitis incidence among lactating patients.<sup><a href="#ref-5">[5]</a></sup> The ABM 2022 protocol recommends considering these strains for recurrent and subacute mastitis, with <em>L. salivarius</em> preferred. Generic probiotic products are not equivalent — the specific strain and dose matter. Probiotics are an adjunct to treatment, not a replacement for antibiotics when bacterial infection is present.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  Is it safe to breastfeed during a breast abscess?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>In most cases, yes. The ABM 2022 protocol confirms that breastfeeding can continue from both breasts even when an abscess is present and being treated. Milk fistula — where milk leaks through the drainage site — occurs in fewer than 2% of drainage procedures. If the drainage site directly interferes with nursing from the affected breast, milk can be removed by gentle expression while nursing continues from the other side. Stopping breastfeeding during an abscess increases milk stasis and can prolong recovery.<sup><a href="#ref-1">[1]</a></sup></p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  What is the difference between inflammatory mastitis and bacterial mastitis?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Inflammatory mastitis is caused by ductal narrowing and alveolar congestion — the breast becomes edematous and inflamed without a bacterial infection. It can produce redness, swelling, and even fever and chills through the inflammatory response alone. Bacterial mastitis occurs when bacteria colonize the inflamed tissue, turning a physiologic process into a true infection. The clinical distinction matters because antibiotics should be reserved for bacterial mastitis. Giving antibiotics for inflammatory mastitis disrupts the breast microbiome and can paradoxically promote the bacterial overgrowth you are trying to prevent. When systemic symptoms persist beyond 24 hours or there is no conservative response, bacterial mastitis is more likely.<sup><a href="#ref-1">[1]</a></sup></p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  When should I go to the ER for mastitis?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Go to the emergency department if you have signs of sepsis — fever above 102°F combined with rapid heart rate, confusion, low blood pressure, or inability to keep fluids down. Also seek emergency care for a suspected breast abscess with a fluctuant mass that has not improved with oral antibiotics, rapidly spreading redness, or if you are immunocompromised or diabetic with rapidly worsening symptoms. Most uncomplicated mastitis — inflammatory or early bacterial — can be evaluated and treated through primary care, urgent care, or a telehealth visit.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">

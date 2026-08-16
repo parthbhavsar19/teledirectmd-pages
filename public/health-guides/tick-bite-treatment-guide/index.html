@@ -567,9 +567,15 @@ sup a:hover { text-decoration: underline; }
  width: 20px;
  height: 20px;
  flex-shrink: 0;
- transition: transform 0.3s;
+ transition: transform 0.3s ease;
  color: var(--tdmd-teal);
-}.tdmd-faq-item.tdmd-faq-open.tdmd-faq-icon { transform: rotate(45deg); }.tdmd-faq-answer {
+}
+.tdmd-faq-icon line {
+ transition: opacity 0.3s ease;
+}
+.tdmd-faq-item.tdmd-faq-open .tdmd-faq-icon line:first-child {
+ opacity: 0;
+}.tdmd-faq-answer {
  max-height: 0;
  overflow: hidden;
  transition: max-height 0.3s ease;
@@ -1120,108 +1126,81 @@ sup a:hover { text-decoration: underline; }
  Should I go to the ER after a tick bite?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Most tick bites do not require emergency care. Remove the tick promptly with fine-tipped tweezers, clean the bite site, and monitor for symptoms over the next 30 days. Go to the ER immediately if you develop a high fever (above 103°F), a petechial rash (small red or purple dots under the skin), severe headache with neck stiffness, difficulty breathing, confusion, or rapid deterioration. These may indicate Rocky Mountain spotted fever or another serious tick-borne illness requiring urgent treatment.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  Does every tick bite cause Lyme disease?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>No. Only <em>Ixodes</em> (deer/blacklegged) ticks transmit Lyme disease, and not all of them carry <em>Borrelia burgdorferi</em>. Even in highly endemic areas, roughly 1–3% of deer tick bites result in Lyme disease. Transmission also requires the tick to be attached for at least 36 hours. Dog ticks and lone star ticks do not transmit Lyme disease, though they carry other pathogens.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  How do I know if a tick has been attached long enough to transmit Lyme?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Transmission risk correlates with how engorged the tick is. An engorged tick — swollen with blood, several times its unfed size — has likely been attached for 36–72 hours or more. A flat, unengorged tick has usually been attached for less than 36 hours, significantly reducing Lyme transmission risk. The degree of engorgement is the most practical field assessment available. If you cannot evaluate the tick, save or photograph it before disposal.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  Who qualifies for single-dose doxycycline prophylaxis?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Single-dose doxycycline 200 mg is recommended when all four IDSA criteria are met: the tick is an <em>Ixodes</em> species, the bite occurred in a Lyme-endemic area, the tick was attached for 36 hours or longer, and prophylaxis can be administered within 72 hours of removal. When criteria are not fully met, watchful monitoring rather than antibiotics is appropriate. Antibiotic prophylaxis for every tick bite is not supported by evidence and promotes antibiotic resistance.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  What does the erythema migrans rash look like?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Erythema migrans begins as a small red spot at the bite site and expands over days to weeks, typically reaching 5 cm (2 inches) or more — often much larger. The classic presentation is a target or bull's-eye with a central clearing surrounded by an outer red ring. Many EM rashes are a solid, uniformly expanding oval or circle without central clearing — both presentations are diagnostic. The rash appears 3–30 days after the bite, is warm to touch, and is usually not itchy or painful. It occurs in roughly 70–80% of Lyme disease cases.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  What is alpha-gal syndrome?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Alpha-gal syndrome (AGS) is a delayed allergic reaction to red meat and other mammalian products, triggered by a lone star tick bite. The tick introduces a sugar molecule called alpha-gal, which sensitizes the immune system. After sensitization, eating beef, pork, lamb, or mammalian-derived products like dairy or gelatin can cause reactions 2–6 hours later — ranging from hives and abdominal pain to anaphylaxis. The delayed timing makes the connection to food difficult to recognize without specialist evaluation. A blood test for IgE antibodies to alpha-gal confirms the diagnosis.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  How is Rocky Mountain spotted fever different from Lyme disease?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Rocky Mountain spotted fever is transmitted by dog ticks, not deer ticks, and is the more immediately dangerous disease. Without treatment it can be fatal within days. The characteristic petechial rash — small red or purple dots that do not blanch when pressed — typically starts on the wrists and ankles and spreads toward the trunk. Lyme disease develops more slowly and rarely causes rapid deterioration in the early stages. When RMSF is suspected based on symptoms and tick exposure, doxycycline should be started immediately without waiting for laboratory confirmation.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  Can you get Lyme disease more than once?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Yes. Lyme disease does not confer lasting immunity, and reinfection after another qualifying tick bite is possible. This is distinct from post-treatment Lyme disease syndrome, where symptoms persist after treatment, or from incomplete treatment of the original infection. If you have had Lyme disease before, full prevention practices — tick checks, repellents, protective clothing, and prompt removal — remain just as important every tick season.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  Is doxycycline safe for children for Lyme prophylaxis?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Current evidence supports a single dose of doxycycline for children of any age when Lyme prophylaxis criteria are met. Earlier restrictions were based on the risk of dental staining from prolonged doxycycline courses — not a single dose. Children under 45 kg receive 4.4 mg/kg up to a maximum of 200 mg. For pregnant women, the 2020 IDSA guidelines recommend against routine prophylaxis with doxycycline; individual risk assessment with a physician is the appropriate approach.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">

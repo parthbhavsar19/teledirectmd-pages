@@ -531,9 +531,15 @@ sup a:hover { text-decoration: underline; }
  width: 20px;
  height: 20px;
  flex-shrink: 0;
- transition: transform 0.3s;
+ transition: transform 0.3s ease;
  color: var(--tdmd-teal);
-}.tdmd-faq-item.tdmd-faq-open.tdmd-faq-icon { transform: rotate(45deg); }.tdmd-faq-answer {
+}
+.tdmd-faq-icon line {
+ transition: opacity 0.3s ease;
+}
+.tdmd-faq-item.tdmd-faq-open .tdmd-faq-icon line:first-child {
+ opacity: 0;
+}.tdmd-faq-answer {
  max-height: 0;
  overflow: hidden;
  transition: max-height 0.3s ease;
@@ -1132,60 +1138,45 @@ sup a:hover { text-decoration: underline; }
  Can cellulitis go away on its own without antibiotics?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Cellulitis does not reliably clear on its own. Unlike some superficial skin irritations, cellulitis is a bacterial infection of the deeper skin layers that requires antibiotic treatment. Without antibiotics, the infection is likely to spread and may progress to bacteremia or sepsis. Early treatment with the right antibiotic typically produces clear improvement within 24–48 hours. Do not wait more than 1–2 days if you suspect cellulitis.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  How do I know if my cellulitis is getting worse?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>The clearest sign of worsening cellulitis is redness that spreads beyond the border you marked at the start of treatment. Also watch for increasing pain or swelling, development of fever or chills, skin that begins to blister or change color (darker, purple, or mottled), or red streaking extending from the affected area. If any of these occur after starting antibiotics, contact your physician the same day. Fever above 101°F (38.3°C) or rapid spread of redness are reasons to go to the emergency department without waiting.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  Is cellulitis contagious?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Cellulitis itself is not contagious from person to person. It develops when bacteria enter your own skin through a break or compromised barrier — not through casual contact with another person who has cellulitis. That said, MRSA bacteria can colonize skin surfaces and spread between people through direct contact, so good hand hygiene around open wounds and avoiding sharing towels or personal items with someone who has an active MRSA infection is sensible practice.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  What is the difference between cellulitis and a skin abscess?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>An abscess is a localized collection of pus under the skin — you feel it as a tender, soft, fluctuant lump that may have a visible white or yellow center. Cellulitis is a diffuse infection of the tissue itself, without a walled-off pus pocket. The distinction matters for treatment: abscesses primarily need drainage (incision and drainage), while cellulitis is treated with antibiotics. Both can coexist — an abscess surrounded by spreading redness gets both drainage and antibiotics. If you feel a soft, movable center in the middle of the red area, tell your physician; that changes the plan.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  Do I need to go to the ER for cellulitis?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Most cellulitis cases do not require an ER visit. A small, early-stage infection without fever in an otherwise healthy person can be evaluated and treated through a telehealth visit or urgent care appointment. Go to the emergency department if you have a fever above 101°F (38.3°C), rapidly expanding redness that is visibly growing over hours, pain out of proportion to the skin changes, skin blistering or darkening, or any cellulitis involving the eye area. Immunocompromised patients and those with poorly controlled diabetes should have a lower threshold for emergency evaluation.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">

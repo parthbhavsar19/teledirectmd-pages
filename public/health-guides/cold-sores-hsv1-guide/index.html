@@ -545,9 +545,15 @@ sup a:hover { text-decoration: underline; }
  width: 20px;
  height: 20px;
  flex-shrink: 0;
- transition: transform 0.3s;
+ transition: transform 0.3s ease;
  color: var(--tdmd-teal);
-}.tdmd-faq-item.tdmd-faq-open.tdmd-faq-icon { transform: rotate(45deg); }.tdmd-faq-answer {
+}
+.tdmd-faq-icon line {
+ transition: opacity 0.3s ease;
+}
+.tdmd-faq-item.tdmd-faq-open .tdmd-faq-icon line:first-child {
+ opacity: 0;
+}.tdmd-faq-answer {
  max-height: 0;
  overflow: hidden;
  transition: max-height 0.3s ease;
@@ -1093,60 +1099,45 @@ sup a:hover { text-decoration: underline; }
  Can I spread cold sores when I don't have a visible sore?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Yes. HSV-1 can be shed from the oral mucosa even when no visible sore is present — this is called asymptomatic viral shedding. Studies show that oral HSV-1 shedding occurs on roughly 6–33% of days in seropositive individuals. The risk of transmission is highest when active sores are present, but it is not zero between outbreaks. Practical precautions include avoiding kissing and sharing utensils or lip products during outbreaks, and being aware that some risk exists at all times.<sup><a href="#ref-1">[1]</a></sup></p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  Are cold sores the same as canker sores?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>No, they are completely different conditions. Cold sores (herpes labialis) are caused by the herpes simplex virus and typically appear <em>on or around</em> the lips as fluid-filled blisters that crust over. They are contagious. Canker sores (aphthous ulcers) are shallow, painful ulcers <em>inside</em> the mouth on the soft tissue — the inner cheeks, tongue, or soft palate. They are not caused by a virus and are not contagious. If your sore is inside the mouth on soft tissue and is a single shallow ulcer without fluid-filled blisters, it is most likely a canker sore, not a cold sore.<sup><a href="#ref-4">[4]</a></sup></p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  Can HSV-1 cause genital herpes?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Yes. HSV-1 can be transmitted to the genital area through oral-genital contact (oral sex), causing genital herpes. In fact, HSV-1 is now the leading cause of new genital herpes infections in young adults in many developed countries.<sup><a href="#ref-1">[1]</a></sup> However, genital HSV-1 tends to recur much less frequently than genital HSV-2.<sup><a href="#ref-2">[2]</a></sup> If you have oral HSV-1 (cold sores), you should avoid oral sex during active outbreaks and the prodromal tingling phase to reduce the risk of transmitting the virus to a partner's genital area.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  Should I take antiviral medication every day to prevent cold sores?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Daily suppressive therapy is generally reserved for people who experience frequent outbreaks — typically 6 or more per year — or for those whose outbreaks are particularly severe, prolonged, or cause significant distress. The most common suppressive regimen is valacyclovir 500 mg to 1 g once daily or acyclovir 400 mg twice daily. These medications have an excellent long-term safety profile and can reduce outbreak frequency by 70–80%.<sup><a href="#ref-2">[2]</a></sup> Discuss with your physician whether suppressive therapy makes sense for your specific situation.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  Is it safe to kiss my baby if I have a cold sore?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>No — you should not kiss a baby or young infant when you have an active cold sore. Neonatal herpes is a rare but potentially devastating infection. Newborns and infants under 3 months are particularly vulnerable because their immune systems are immature. HSV infection in a newborn can cause encephalitis, organ damage, and can be fatal.<sup><a href="#ref-1">[1]</a></sup> If you have an active cold sore, wash your hands frequently, avoid kissing the baby (especially on the face and hands), and do not share utensils. If a newborn develops fever, poor feeding, irritability, or skin vesicles, seek immediate medical attention.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">

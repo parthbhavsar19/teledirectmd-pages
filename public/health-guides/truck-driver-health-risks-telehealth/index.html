@@ -513,9 +513,15 @@ sup a:hover { text-decoration: underline; }
  width: 20px;
  height: 20px;
  flex-shrink: 0;
- transition: transform 0.3s;
+ transition: transform 0.3s ease;
  color: var(--tdmd-teal);
-}.tdmd-faq-item.tdmd-faq-open.tdmd-faq-icon { transform: rotate(45deg); }.tdmd-faq-answer {
+}
+.tdmd-faq-icon line {
+ transition: opacity 0.3s ease;
+}
+.tdmd-faq-item.tdmd-faq-open .tdmd-faq-icon line:first-child {
+ opacity: 0;
+}.tdmd-faq-answer {
  max-height: 0;
  overflow: hidden;
  transition: max-height 0.3s ease;
@@ -1070,60 +1076,45 @@ sup a:hover { text-decoration: underline; }
  Can telehealth manage blood pressure medications for CDL drivers?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Yes. Telehealth is well-suited for blood pressure evaluation, medication management, and refills. A board-certified physician can review your readings, adjust your regimen, and send prescriptions to a pharmacy near your route — all without leaving your cab. Keeping blood pressure controlled also protects your DOT medical certification, which requires readings below 140/90 for a standard two-year card.<sup><a href="#ref-6">[6]</a></sup> Visit our <a href="https://teledirectmd.com/hypertension-refills-online/">hypertension refills page</a> for more information.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  Can TeleDirectMD perform my DOT physical?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>No. DOT physicals require an in-person examination by an FMCSA-certified Medical Examiner and cannot be performed via telehealth. TeleDirectMD can help you manage the underlying conditions — hypertension, diabetes, anxiety — that directly affect your DOT certification eligibility, but the physical exam itself must be completed in person by a certified examiner.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  Can TeleDirectMD diagnose or treat sleep apnea?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Diagnosing obstructive sleep apnea requires a sleep study — either an in-lab polysomnogram or a home sleep apnea test — which cannot be done via telehealth. If you are experiencing symptoms such as loud snoring, gasping during sleep, or excessive daytime sleepiness, a telehealth visit can help you discuss those symptoms, understand what steps to take, and address related conditions like hypertension or fatigue. We cannot initiate CPAP therapy without a formal diagnosis from a sleep study result.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  What is the cost of a telehealth visit with TeleDirectMD?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Self-pay visits start at $79. Insurance is accepted in select states. Accepted payment methods include credit cards, debit cards, HSA cards, and FSA cards. Pricing is transparent — there are no surprise fees from out-of-network providers or unfamiliar billing systems. Book at <a href="https://teledirectmd.com/book-online">teledirectmd.com/book-online</a>.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  What states does TeleDirectMD serve?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>TeleDirectMD is licensed in 44 U.S. states. Whether you are home-based in Texas, passing through Georgia, or parked in Ohio, you can book a same-day visit — evenings or weekends — from wherever you are. Visits are conducted via secure video with no app download required. For the full list of covered states, visit <a href="https://teledirectmd.com/states-we-serve">states we serve</a>.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">

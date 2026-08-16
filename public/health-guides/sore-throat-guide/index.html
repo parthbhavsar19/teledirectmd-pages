@@ -532,9 +532,15 @@ sup a:hover { text-decoration: underline; }
  width: 20px;
  height: 20px;
  flex-shrink: 0;
- transition: transform 0.3s;
+ transition: transform 0.3s ease;
  color: var(--tdmd-teal);
-}.tdmd-faq-item.tdmd-faq-open.tdmd-faq-icon { transform: rotate(45deg); }.tdmd-faq-answer {
+}
+.tdmd-faq-icon line {
+ transition: opacity 0.3s ease;
+}
+.tdmd-faq-item.tdmd-faq-open .tdmd-faq-icon line:first-child {
+ opacity: 0;
+}.tdmd-faq-answer {
  max-height: 0;
  overflow: hidden;
  transition: max-height 0.3s ease;
@@ -1182,60 +1188,45 @@ sup a:hover { text-decoration: underline; }
  How do I know if my sore throat is strep or just viral?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>No single symptom reliably separates strep from viral pharyngitis, but certain patterns raise or lower suspicion. Fever, swollen tender lymph nodes at the front of the neck, tonsillar swelling or white patches, and the <em>absence</em> of cough and runny nose all point toward strep. The presence of runny nose, hoarseness, conjunctivitis, or mouth sores strongly suggests a virus. Clinicians use the Centor or McIsaac scoring system to estimate the probability of strep and decide whether to test. A positive rapid strep test or throat culture is the only way to confirm the diagnosis.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  Does strep throat always need antibiotics?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Yes — confirmed strep throat should be treated with antibiotics. Left untreated, strep can cause serious complications including rheumatic fever, which can permanently damage heart valves, and post-streptococcal glomerulonephritis, which affects kidney function. Antibiotics also shorten the duration of illness, reduce the risk of spreading the infection to others, and lower the chance of local complications like peritonsillar abscess. Viral sore throats, by contrast, do not benefit from antibiotics.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  How long is strep throat contagious?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Without treatment, strep throat remains contagious for 2 to 3 weeks, even after symptoms improve. With antibiotic treatment, the contagious period drops dramatically — most patients are no longer contagious after 24 hours on appropriate antibiotics. This is one of the practical reasons to test and treat promptly, especially for school-age children and anyone who lives with high-risk individuals.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  Can I get strep throat without tonsils?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Yes. Tonsillectomy significantly reduces the frequency of recurrent strep throat, but it does not eliminate the possibility entirely. The pharynx still carries surface tissue that group A Streptococcus can infect, even after the tonsils are removed. The illness tends to be milder and less frequent after tonsillectomy, but strep pharyngitis can still occur.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  What is a peritonsillar abscess and how do I know if I have one?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>A peritonsillar abscess is a collection of pus that forms behind the tonsil — the most common serious complication of strep throat. It typically causes severe one-sided throat pain, a muffled "hot potato" voice, difficulty opening the mouth wide (trismus), drooling, and deviation of the uvula toward the opposite side. This requires drainage and intravenous antibiotics — it's a medical emergency. If your sore throat is predominantly one-sided and severe, you have trouble swallowing your own saliva, or your voice sounds unusually muffled, go to an emergency department immediately.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">

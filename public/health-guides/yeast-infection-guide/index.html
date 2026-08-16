@@ -529,9 +529,15 @@ sup a:hover { text-decoration: underline; }
  width: 20px;
  height: 20px;
  flex-shrink: 0;
- transition: transform 0.3s;
+ transition: transform 0.3s ease;
  color: var(--tdmd-teal);
-}.tdmd-faq-item.tdmd-faq-open.tdmd-faq-icon { transform: rotate(45deg); }.tdmd-faq-answer {
+}
+.tdmd-faq-icon line {
+ transition: opacity 0.3s ease;
+}
+.tdmd-faq-item.tdmd-faq-open .tdmd-faq-icon line:first-child {
+ opacity: 0;
+}.tdmd-faq-answer {
  max-height: 0;
  overflow: hidden;
  transition: max-height 0.3s ease;
@@ -1088,60 +1094,45 @@ sup a:hover { text-decoration: underline; }
  Can a yeast infection go away on its own without treatment?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Mild yeast infections may resolve on their own in a small number of cases, but most do not. <em>Candida albicans</em> is an opportunistic organism — without treatment, the overgrowth that caused your symptoms is unlikely to correct itself spontaneously, especially if the underlying trigger (antibiotic use, elevated blood sugar) is still present. I generally advise against waiting it out. OTC antifungal creams are readily available and effective, and treating sooner means fewer days of discomfort.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  How do I know if I have a yeast infection or bacterial vaginosis?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>This is one of the most common questions I get, and the distinction matters because the treatments are completely different. Yeast infections typically cause thick, white, odorless discharge with intense itching and vulvar redness. BV usually produces thin, gray or white discharge with a noticeable fishy odor and less prominent itching. That said, many women cannot reliably distinguish the two based on symptoms alone — studies show self-diagnosis is wrong nearly half the time. A pelvic exam, vaginal pH test, and wet mount microscopy can confirm the diagnosis quickly.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  Is it safe to use OTC yeast infection treatments?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Yes — for women who have previously been diagnosed with a yeast infection by a physician and are experiencing the same recognizable symptoms, OTC miconazole or clotrimazole creams and suppositories are safe and effective. The CDC 2021 guidelines list these agents as first-line options with 80–90% cure rates.<sup><a href="#ref-1">[1]</a></sup> However, if this is your first suspected yeast infection, if symptoms are severe, if OTC treatment didn't work before, or if you're pregnant, see a clinician first.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  Can I use fluconazole (Diflucan) if I'm pregnant?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>No. Oral fluconazole is not recommended during pregnancy. Studies have linked single-dose fluconazole in early pregnancy to an increased risk of miscarriage, and high-dose fluconazole (400–800 mg/day) used long-term has been associated with fetal cardiac defects.<sup><a href="#ref-5">[5]</a></sup> The FDA advises against oral fluconazole during pregnancy. Topical antifungal creams — clotrimazole or miconazole applied vaginally for 7 days — are the recommended treatment. If you're pregnant and think you have a yeast infection, contact your OB or family physician.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  What counts as a recurrent yeast infection, and what should I do?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Recurrent VVC is defined as three or more symptomatic episodes within 12 months. It affects fewer than 5% of women but significantly impacts quality of life.<sup><a href="#ref-1">[1]</a></sup> Management starts with confirming the diagnosis by vaginal culture — because recurrent infections that don't respond to standard treatment are often a different organism (<em>C. glabrata</em>, for example) or a different condition entirely. If cultures confirm recurrent <em>C. albicans</em>, the CDC recommends a structured 6-month weekly fluconazole suppressive regimen. Identifying underlying risk factors — diabetes, immunosuppression, frequent antibiotic use — is essential alongside medication.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">

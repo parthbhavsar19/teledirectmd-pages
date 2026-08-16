@@ -552,9 +552,15 @@ sup a:hover { text-decoration: underline; }
  width: 20px;
  height: 20px;
  flex-shrink: 0;
- transition: transform 0.3s;
+ transition: transform 0.3s ease;
  color: var(--tdmd-teal);
-}.tdmd-faq-item.tdmd-faq-open.tdmd-faq-icon { transform: rotate(45deg); }.tdmd-faq-answer {
+}
+.tdmd-faq-icon line {
+ transition: opacity 0.3s ease;
+}
+.tdmd-faq-item.tdmd-faq-open .tdmd-faq-icon line:first-child {
+ opacity: 0;
+}.tdmd-faq-answer {
  max-height: 0;
  overflow: hidden;
  transition: max-height 0.3s ease;
@@ -1139,10 +1145,7 @@ sup a:hover { text-decoration: underline; }
     <line x1="5" y1="12" x2="19" y2="12"/>
    </svg>
   </button>
-  <div class="tdmd-faq-answer">
-   <p>No. US pharmacies require a prescription from a US-licensed clinician. A same-day physician-led telehealth visit is usually the fastest way to obtain a new US prescription for a chronic non-controlled Mexican medication you already take. Bring a written list of your medications using generic (INN) names.</p>
-  </div>
- </div>
+  <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"><p>No. US pharmacies require a prescription from a US-licensed clinician. A same-day physician-led telehealth visit is usually the fastest way to obtain a new US prescription for a chronic non-controlled Mexican medication you already take. Bring a written list of your medications using generic (INN) names.</p></div></div></div>
 
  <div class="tdmd-faq-item">
   <button class="tdmd-faq-question" aria-expanded="false">
@@ -1152,10 +1155,7 @@ sup a:hover { text-decoration: underline; }
     <line x1="5" y1="12" x2="19" y2="12"/>
    </svg>
   </button>
-  <div class="tdmd-faq-answer">
-   <p>Under the FDA Personal Importation Policy, foreign nationals may bring or ship a 90-day supply of drug products for personal use. Visitors staying longer may have additional medication sent to them. Suggested documentation: a copy of the visa, passport, or Border Crossing Card, a doctor's letter from your Mexican clinician, and a copy of the prescription in English if possible.</p>
-  </div>
- </div>
+  <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"><p>Under the FDA Personal Importation Policy, foreign nationals may bring or ship a 90-day supply of drug products for personal use. Visitors staying longer may have additional medication sent to them. Suggested documentation: a copy of the visa, passport, or Border Crossing Card, a doctor's letter from your Mexican clinician, and a copy of the prescription in English if possible.</p></div></div></div>
 
  <div class="tdmd-faq-item">
   <button class="tdmd-faq-question" aria-expanded="false">
@@ -1165,10 +1165,7 @@ sup a:hover { text-decoration: underline; }
     <line x1="5" y1="12" x2="19" y2="12"/>
    </svg>
   </button>
-  <div class="tdmd-faq-answer">
-   <p>Yes, but under DEA rules. Foreign visitors may bring up to 50 dosage units per controlled substance for personal use, in the original labeled container that includes the drug name and schedule symbol (or pharmacy and prescription number). Declare all medications to Customs and Border Protection at entry. Clonazepam (Rivotril), alprazolam (Tafil), diazepam, zolpidem (Ambien), tramadol, and modafinil are all DEA Schedule IV controlled substances in the US.</p>
-  </div>
- </div>
+  <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"><p>Yes, but under DEA rules. Foreign visitors may bring up to 50 dosage units per controlled substance for personal use, in the original labeled container that includes the drug name and schedule symbol (or pharmacy and prescription number). Declare all medications to Customs and Border Protection at entry. Clonazepam (Rivotril), alprazolam (Tafil), diazepam, zolpidem (Ambien), tramadol, and modafinil are all DEA Schedule IV controlled substances in the US.</p></div></div></div>
 
  <div class="tdmd-faq-item">
   <button class="tdmd-faq-question" aria-expanded="false">
@@ -1178,10 +1175,7 @@ sup a:hover { text-decoration: underline; }
     <line x1="5" y1="12" x2="19" y2="12"/>
    </svg>
   </button>
-  <div class="tdmd-faq-answer">
-   <p>Lercanidipine (Lercadip, Zanidip), a calcium channel blocker sold in Mexico and Europe, is not FDA-approved in the US. A US clinician will typically substitute amlodipine or nifedipine. Some traditional or herbal preparations sold through Mexican pharmacies are also not FDA-approved. Cannabis and CBD products manufactured outside FDA-approved US channels remain federally illegal regardless of home-country legal status.</p>
-  </div>
- </div>
+  <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"><p>Lercanidipine (Lercadip, Zanidip), a calcium channel blocker sold in Mexico and Europe, is not FDA-approved in the US. A US clinician will typically substitute amlodipine or nifedipine. Some traditional or herbal preparations sold through Mexican pharmacies are also not FDA-approved. Cannabis and CBD products manufactured outside FDA-approved US channels remain federally illegal regardless of home-country legal status.</p></div></div></div>
 
  <div class="tdmd-faq-item">
   <button class="tdmd-faq-question" aria-expanded="false">
@@ -1191,10 +1185,7 @@ sup a:hover { text-decoration: underline; }
     <line x1="5" y1="12" x2="19" y2="12"/>
    </svg>
   </button>
-  <div class="tdmd-faq-answer">
-   <p>Usually not. Mexico City to Los Angeles is 2 hours westbound, Mexico City to Chicago is 1 hour eastbound, and Mexico City to New York or Miami is 1 hour eastbound. Time-zone shifts under 5 hours generally do not require adjustments to oral daily medications or basal insulin. For a broader time-zone dosing framework, see the Chronic Conditions While Your Parents Visit the US satellite.</p>
-  </div>
- </div>
+  <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"><p>Usually not. Mexico City to Los Angeles is 2 hours westbound, Mexico City to Chicago is 1 hour eastbound, and Mexico City to New York or Miami is 1 hour eastbound. Time-zone shifts under 5 hours generally do not require adjustments to oral daily medications or basal insulin. For a broader time-zone dosing framework, see the Chronic Conditions While Your Parents Visit the US satellite.</p></div></div></div>
 
  <div class="tdmd-faq-item">
   <button class="tdmd-faq-question" aria-expanded="false">
@@ -1204,10 +1195,7 @@ sup a:hover { text-decoration: underline; }
     <line x1="5" y1="12" x2="19" y2="12"/>
    </svg>
   </button>
-  <div class="tdmd-faq-answer">
-   <p>For many common generics, yes. With a GoodRx or similar US discount card, common generics like metformin, amlodipine, losartan, atorvastatin, and levothyroxine typically run $4 to $20 for a 30-day supply at Costco, Walmart, CVS, Walgreens, or Rite Aid. This is often comparable to or cheaper than the retail cash price for the same generic at a Mexican pharmacy. Brand-name inhalers, injectable diabetes medications like Ozempic, and specialty drugs are substantially more expensive at US retail cash pricing.</p>
-  </div>
- </div>
+  <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"><p>For many common generics, yes. With a GoodRx or similar US discount card, common generics like metformin, amlodipine, losartan, atorvastatin, and levothyroxine typically run $4 to $20 for a 30-day supply at Costco, Walmart, CVS, Walgreens, or Rite Aid. This is often comparable to or cheaper than the retail cash price for the same generic at a Mexican pharmacy. Brand-name inhalers, injectable diabetes medications like Ozempic, and specialty drugs are substantially more expensive at US retail cash pricing.</p></div></div></div>
 
  <div class="tdmd-faq-item">
   <button class="tdmd-faq-question" aria-expanded="false">
@@ -1217,10 +1205,7 @@ sup a:hover { text-decoration: underline; }
     <line x1="5" y1="12" x2="19" y2="12"/>
    </svg>
   </button>
-  <div class="tdmd-faq-answer">
-   <p>Yes. Under Section 1557 of the Affordable Care Act, every hospital or clinic that receives federal financial assistance must provide qualified interpreter services free of charge. The final rule was published May 6, 2024 and the language-access provisions became fully effective July 5, 2025. Ask for a qualified interpreter at intake; the facility cannot require you to bring a family member or pay for the service.</p>
-  </div>
- </div>
+  <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"><p>Yes. Under Section 1557 of the Affordable Care Act, every hospital or clinic that receives federal financial assistance must provide qualified interpreter services free of charge. The final rule was published May 6, 2024 and the language-access provisions became fully effective July 5, 2025. Ask for a qualified interpreter at intake; the facility cannot require you to bring a family member or pay for the service.</p></div></div></div>
 
  <div class="tdmd-faq-item">
   <button class="tdmd-faq-question" aria-expanded="false">
@@ -1230,10 +1215,7 @@ sup a:hover { text-decoration: underline; }
     <line x1="5" y1="12" x2="19" y2="12"/>
    </svg>
   </button>
-  <div class="tdmd-faq-answer">
-   <p>No. US Medicare covers US citizens and lawful permanent residents; foreign visitors including those with a BCC (Border Crossing Card), B1/B2 visitor visa, or ESTA are not eligible. Options are cash pay or short-term visitor insurance. Cash-pay telehealth for a routine bridge prescription is typically $50 to $150 and often the most practical option regardless of insurance status.</p>
-  </div>
- </div>
+  <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"><p>No. US Medicare covers US citizens and lawful permanent residents; foreign visitors including those with a BCC (Border Crossing Card), B1/B2 visitor visa, or ESTA are not eligible. Options are cash pay or short-term visitor insurance. Cash-pay telehealth for a routine bridge prescription is typically $50 to $150 and often the most practical option regardless of insurance status.</p></div></div></div>
 
  <div class="tdmd-faq-item">
   <button class="tdmd-faq-question" aria-expanded="false">
@@ -1243,10 +1225,7 @@ sup a:hover { text-decoration: underline; }
     <line x1="5" y1="12" x2="19" y2="12"/>
    </svg>
   </button>
-  <div class="tdmd-faq-answer">
-   <p>Not typically. If she is stable on her current regimen, a pre-travel visit with her Mexican clinician (4 to 6 weeks before departure per CDC Yellow Book) to confirm her medication list, get a written letter documenting her diagnoses and current medications, and refill her prescriptions with a full 90-day supply is usually enough. A US visit is needed if she runs out unexpectedly, develops new symptoms, or is on a controlled substance she cannot bring the full trip supply of. For a full pre-travel checklist, see the Chronic Conditions While Your Parents Visit the US satellite.</p>
-  </div>
- </div>
+  <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"><p>Not typically. If she is stable on her current regimen, a pre-travel visit with her Mexican clinician (4 to 6 weeks before departure per CDC Yellow Book) to confirm her medication list, get a written letter documenting her diagnoses and current medications, and refill her prescriptions with a full 90-day supply is usually enough. A US visit is needed if she runs out unexpectedly, develops new symptoms, or is on a controlled substance she cannot bring the full trip supply of. For a full pre-travel checklist, see the Chronic Conditions While Your Parents Visit the US satellite.</p></div></div></div>
 
      <div class="tdmd-callout" style="margin:1.25rem 0;padding:1rem 1.25rem;background:#F0F7F8;border-left:4px solid #003E52;border-radius:6px;">
       <strong>Related practical guide:</strong> Once the visit is done, use our <a href="/health-guides/us-pharmacy-guide-for-international-visitors/" style="color:#003E52;text-decoration:underline;font-weight:600;">US pharmacy guide for international visitors</a> to understand which ID US pharmacies accept, how discount cards like GoodRx and SingleCare work, and the pharmacy pickup workflow step by step.

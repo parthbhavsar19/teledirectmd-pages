@@ -548,9 +548,15 @@ sup a:hover { text-decoration: underline; }
  width: 20px;
  height: 20px;
  flex-shrink: 0;
- transition: transform 0.3s;
+ transition: transform 0.3s ease;
  color: var(--tdmd-teal);
-}.tdmd-faq-item.tdmd-faq-open.tdmd-faq-icon { transform: rotate(45deg); }.tdmd-faq-answer {
+}
+.tdmd-faq-icon line {
+ transition: opacity 0.3s ease;
+}
+.tdmd-faq-item.tdmd-faq-open .tdmd-faq-icon line:first-child {
+ opacity: 0;
+}.tdmd-faq-answer {
  max-height: 0;
  overflow: hidden;
  transition: max-height 0.3s ease;
@@ -1086,10 +1092,7 @@ sup a:hover { text-decoration: underline; }
     <line x1="5" y1="12" x2="19" y2="12"/>
    </svg>
   </button>
-  <div class="tdmd-faq-answer">
-   <p>No. US pharmacies require a prescription from a US-licensed clinician. A same-day physician-led telehealth visit is usually the fastest way to obtain a new US prescription for a chronic non-controlled medication you already take.</p>
-  </div>
- </div>
+  <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"><p>No. US pharmacies require a prescription from a US-licensed clinician. A same-day physician-led telehealth visit is usually the fastest way to obtain a new US prescription for a chronic non-controlled medication you already take.</p></div></div></div>
 
  <div class="tdmd-faq-item">
   <button class="tdmd-faq-question" aria-expanded="false">
@@ -1099,10 +1102,7 @@ sup a:hover { text-decoration: underline; }
     <line x1="5" y1="12" x2="19" y2="12"/>
    </svg>
   </button>
-  <div class="tdmd-faq-answer">
-   <p>Under the FDA Personal Importation Policy, foreign nationals may bring or ship a 90-day supply of their personal medication into the US. Visitors staying longer than 90 days may have additional medication sent to them. Suggested documentation includes a copy of your visa or passport, a doctor's letter, and a copy of the prescription in English.</p>
-  </div>
- </div>
+  <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"><p>Under the FDA Personal Importation Policy, foreign nationals may bring or ship a 90-day supply of their personal medication into the US. Visitors staying longer than 90 days may have additional medication sent to them. Suggested documentation includes a copy of your visa or passport, a doctor's letter, and a copy of the prescription in English.</p></div></div></div>
 
  <div class="tdmd-faq-item">
   <button class="tdmd-faq-question" aria-expanded="false">
@@ -1112,10 +1112,7 @@ sup a:hover { text-decoration: underline; }
     <line x1="5" y1="12" x2="19" y2="12"/>
    </svg>
   </button>
-  <div class="tdmd-faq-answer">
-   <p>Under DEA rules, foreign visitors may bring up to 50 dosage units per controlled substance for personal use, in the original labeled container that includes the drug name and schedule symbol (or pharmacy and prescription number). Declare all medications to Customs and Border Protection at entry. Cannabis products remain federally illegal in the US regardless of home-country legal status.</p>
-  </div>
- </div>
+  <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"><p>Under DEA rules, foreign visitors may bring up to 50 dosage units per controlled substance for personal use, in the original labeled container that includes the drug name and schedule symbol (or pharmacy and prescription number). Declare all medications to Customs and Border Protection at entry. Cannabis products remain federally illegal in the US regardless of home-country legal status.</p></div></div></div>
 
  <div class="tdmd-faq-item">
   <button class="tdmd-faq-question" aria-expanded="false">
@@ -1125,10 +1122,7 @@ sup a:hover { text-decoration: underline; }
     <line x1="5" y1="12" x2="19" y2="12"/>
    </svg>
   </button>
-  <div class="tdmd-faq-answer">
-   <p>In principle yes: DEA telemedicine flexibilities extended through December 31, 2026 allow DEA-registered US clinicians to prescribe Schedule II-V controlled medications via audio-video telemedicine without a prior in-person visit. In practice, individual telehealth companies and state medical boards often impose stricter rules, and many will decline to prescribe controlled substances for a new-patient visitor. Plan on bringing your supply and using the DEA 50-dosage-unit personal-import rule.</p>
-  </div>
- </div>
+  <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"><p>In principle yes: DEA telemedicine flexibilities extended through December 31, 2026 allow DEA-registered US clinicians to prescribe Schedule II-V controlled medications via audio-video telemedicine without a prior in-person visit. In practice, individual telehealth companies and state medical boards often impose stricter rules, and many will decline to prescribe controlled substances for a new-patient visitor. Plan on bringing your supply and using the DEA 50-dosage-unit personal-import rule.</p></div></div></div>
 
  <div class="tdmd-faq-item">
   <button class="tdmd-faq-question" aria-expanded="false">
@@ -1138,10 +1132,7 @@ sup a:hover { text-decoration: underline; }
     <line x1="5" y1="12" x2="19" y2="12"/>
    </svg>
   </button>
-  <div class="tdmd-faq-answer">
-   <p>The active ingredient (the generic or International Nonproprietary Name) is the same, but the brand name and the appearance of the pill may differ. This is because each country has its own brands. For example, levothyroxine sold as Eltroxin in the UK or India is dispensed as Synthroid, Levoxyl, Unithroid, or generic levothyroxine in the US. Ask your US clinician to write the prescription using the generic name.</p>
-  </div>
- </div>
+  <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"><p>The active ingredient (the generic or International Nonproprietary Name) is the same, but the brand name and the appearance of the pill may differ. This is because each country has its own brands. For example, levothyroxine sold as Eltroxin in the UK or India is dispensed as Synthroid, Levoxyl, Unithroid, or generic levothyroxine in the US. Ask your US clinician to write the prescription using the generic name.</p></div></div></div>
 
  <div class="tdmd-faq-item">
   <button class="tdmd-faq-question" aria-expanded="false">
@@ -1151,10 +1142,7 @@ sup a:hover { text-decoration: underline; }
     <line x1="5" y1="12" x2="19" y2="12"/>
    </svg>
   </button>
-  <div class="tdmd-faq-answer">
-   <p>For common generic prescriptions with a GoodRx or similar discount, cash-pay prices are typically $4 to $30 for a 30-day supply. Brand-name inhalers, biologics, and specialty drugs are substantially more expensive, so if you take one of these, plan the FDA 90-day supply strategy in advance.</p>
-  </div>
- </div>
+  <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"><p>For common generic prescriptions with a GoodRx or similar discount, cash-pay prices are typically $4 to $30 for a 30-day supply. Brand-name inhalers, biologics, and specialty drugs are substantially more expensive, so if you take one of these, plan the FDA 90-day supply strategy in advance.</p></div></div></div>
 
  <div class="tdmd-faq-item">
   <button class="tdmd-faq-question" aria-expanded="false">
@@ -1164,10 +1152,7 @@ sup a:hover { text-decoration: underline; }
     <line x1="5" y1="12" x2="19" y2="12"/>
    </svg>
   </button>
-  <div class="tdmd-faq-answer">
-   <p>A written medication list using generic (INN) names with doses and frequency, your original medication bottles or blister packs, and if possible a doctor's letter listing your diagnoses, allergies, and current regimen. Recent labs (TSH, A1c, INR, etc.) are helpful when relevant.</p>
-  </div>
- </div>
+  <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"><p>A written medication list using generic (INN) names with doses and frequency, your original medication bottles or blister packs, and if possible a doctor's letter listing your diagnoses, allergies, and current regimen. Recent labs (TSH, A1c, INR, etc.) are helpful when relevant.</p></div></div></div>
 
  <div class="tdmd-faq-item">
   <button class="tdmd-faq-question" aria-expanded="false">
@@ -1177,10 +1162,7 @@ sup a:hover { text-decoration: underline; }
     <line x1="5" y1="12" x2="19" y2="12"/>
    </svg>
   </button>
-  <div class="tdmd-faq-answer">
-   <p>Yes, for personal-use quantities. The FDA Personal Importation Policy explicitly permits foreign nationals to have additional medication sent to them when staying longer than 90 days. Include a copy of your prescription in English, a doctor's letter, and evidence that the medication is for your personal use.</p>
-  </div>
- </div>
+  <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"><p>Yes, for personal-use quantities. The FDA Personal Importation Policy explicitly permits foreign nationals to have additional medication sent to them when staying longer than 90 days. Include a copy of your prescription in English, a doctor's letter, and evidence that the medication is for your personal use.</p></div></div></div>
 
  <div class="tdmd-faq-item">
   <button class="tdmd-faq-question" aria-expanded="false">
@@ -1190,10 +1172,7 @@ sup a:hover { text-decoration: underline; }
     <line x1="5" y1="12" x2="19" y2="12"/>
    </svg>
   </button>
-  <div class="tdmd-faq-answer">
-   <p>US urgent care clinics are open evenings and weekends and can typically write a bridge prescription for a stable visitor after a brief in-person evaluation. Retail clinics inside pharmacies (CVS MinuteClinic, Walgreens Health Clinic) can also refill some non-controlled prescriptions. Cash pricing at urgent care runs about 150 to 280 dollars in 2026.</p>
-  </div>
- </div>
+  <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"><p>US urgent care clinics are open evenings and weekends and can typically write a bridge prescription for a stable visitor after a brief in-person evaluation. Retail clinics inside pharmacies (CVS MinuteClinic, Walgreens Health Clinic) can also refill some non-controlled prescriptions. Cash pricing at urgent care runs about 150 to 280 dollars in 2026.</p></div></div></div>
 
      <div class="tdmd-callout" style="margin:1.25rem 0;padding:1rem 1.25rem;background:#F0F7F8;border-left:4px solid #003E52;border-radius:6px;">
       <strong>Related practical guide:</strong> Once the visit is done, use our <a href="/health-guides/us-pharmacy-guide-for-international-visitors/" style="color:#003E52;text-decoration:underline;font-weight:600;">US pharmacy guide for international visitors</a> to understand which ID US pharmacies accept, how discount cards like GoodRx and SingleCare work, and the pharmacy pickup workflow step by step.

@@ -556,9 +556,15 @@ sup a:hover { text-decoration: underline; }
  width: 20px;
  height: 20px;
  flex-shrink: 0;
- transition: transform 0.3s;
+ transition: transform 0.3s ease;
  color: var(--tdmd-teal);
-}.tdmd-faq-item.tdmd-faq-open.tdmd-faq-icon { transform: rotate(45deg); }.tdmd-faq-answer {
+}
+.tdmd-faq-icon line {
+ transition: opacity 0.3s ease;
+}
+.tdmd-faq-item.tdmd-faq-open .tdmd-faq-icon line:first-child {
+ opacity: 0;
+}.tdmd-faq-answer {
  max-height: 0;
  overflow: hidden;
  transition: max-height 0.3s ease;
@@ -1126,10 +1132,7 @@ sup a:hover { text-decoration: underline; }
     <line x1="5" y1="12" x2="19" y2="12"/>
    </svg>
   </button>
-  <div class="tdmd-faq-answer">
-   <p>No. US pharmacies require a prescription from a US-licensed clinician. A same-day physician-led telehealth visit is usually the fastest way to obtain a new US prescription for a chronic non-controlled Indian medication you already take. Bring a written list of your medications using generic (WHO INN) names.</p>
-  </div>
- </div>
+  <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"><p>No. US pharmacies require a prescription from a US-licensed clinician. A same-day physician-led telehealth visit is usually the fastest way to obtain a new US prescription for a chronic non-controlled Indian medication you already take. Bring a written list of your medications using generic (WHO INN) names.</p></div></div></div>
 
  <div class="tdmd-faq-item">
   <button class="tdmd-faq-question" aria-expanded="false">
@@ -1139,10 +1142,7 @@ sup a:hover { text-decoration: underline; }
     <line x1="5" y1="12" x2="19" y2="12"/>
    </svg>
   </button>
-  <div class="tdmd-faq-answer">
-   <p>Under the FDA Personal Importation Policy, foreign nationals may bring or ship a 90-day supply of their personal medication into the US. Visitors staying longer than 90 days may have additional medication sent to them. Suggested documentation includes a copy of your visa or passport, a doctor's letter from your Indian clinician, and a copy of the prescription in English.</p>
-  </div>
- </div>
+  <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"><p>Under the FDA Personal Importation Policy, foreign nationals may bring or ship a 90-day supply of their personal medication into the US. Visitors staying longer than 90 days may have additional medication sent to them. Suggested documentation includes a copy of your visa or passport, a doctor's letter from your Indian clinician, and a copy of the prescription in English.</p></div></div></div>
 
  <div class="tdmd-faq-item">
   <button class="tdmd-faq-question" aria-expanded="false">
@@ -1152,10 +1152,7 @@ sup a:hover { text-decoration: underline; }
     <line x1="5" y1="12" x2="19" y2="12"/>
    </svg>
   </button>
-  <div class="tdmd-faq-answer">
-   <p>Yes, but under DEA rules, not the FDA rule. Foreign visitors may bring up to 50 dosage units per controlled substance for personal use, in the original labeled container that includes the drug name and schedule symbol (or pharmacy and prescription number). Declare all medications to Customs and Border Protection at entry. Alprazolam (Restyl), modafinil (Modalert), clonazepam, diazepam, zolpidem, and tramadol are all DEA Schedule IV controlled substances in the US.</p>
-  </div>
- </div>
+  <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"><p>Yes, but under DEA rules, not the FDA rule. Foreign visitors may bring up to 50 dosage units per controlled substance for personal use, in the original labeled container that includes the drug name and schedule symbol (or pharmacy and prescription number). Declare all medications to Customs and Border Protection at entry. Alprazolam (Restyl), modafinil (Modalert), clonazepam, diazepam, zolpidem, and tramadol are all DEA Schedule IV controlled substances in the US.</p></div></div></div>
 
  <div class="tdmd-faq-item">
   <button class="tdmd-faq-question" aria-expanded="false">
@@ -1165,10 +1162,7 @@ sup a:hover { text-decoration: underline; }
     <line x1="5" y1="12" x2="19" y2="12"/>
    </svg>
   </button>
-  <div class="tdmd-faq-answer">
-   <p>Nitrazepam (sold as Nitrosun, Nitrazep, or Sedamon) is not FDA-approved and cannot be prescribed in the US. Rohypnol (flunitrazepam) has never had FDA approval. Cannabis products remain federally illegal in the US regardless of home-country legal status. Certain Ayurvedic preparations containing heavy metals or non-FDA-approved active ingredients may be seized at entry.</p>
-  </div>
- </div>
+  <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"><p>Nitrazepam (sold as Nitrosun, Nitrazep, or Sedamon) is not FDA-approved and cannot be prescribed in the US. Rohypnol (flunitrazepam) has never had FDA approval. Cannabis products remain federally illegal in the US regardless of home-country legal status. Certain Ayurvedic preparations containing heavy metals or non-FDA-approved active ingredients may be seized at entry.</p></div></div></div>
 
  <div class="tdmd-faq-item">
   <button class="tdmd-faq-question" aria-expanded="false">
@@ -1178,10 +1172,7 @@ sup a:hover { text-decoration: underline; }
     <line x1="5" y1="12" x2="19" y2="12"/>
    </svg>
   </button>
-  <div class="tdmd-faq-answer">
-   <p>For a Delhi/Mumbai/Bangalore to US East Coast flight (9.5 to 10.5 hours westbound), basal insulin is adjusted by approximately 4 percent per time zone crossed, or about plus 38 to 42 percent on the day of arrival. Resume your normal home dose the following day. Any patient on complex insulin regimens or an insulin pump should get a personalized plan from their endocrinologist in India before travel.</p>
-  </div>
- </div>
+  <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"><p>For a Delhi/Mumbai/Bangalore to US East Coast flight (9.5 to 10.5 hours westbound), basal insulin is adjusted by approximately 4 percent per time zone crossed, or about plus 38 to 42 percent on the day of arrival. Resume your normal home dose the following day. Any patient on complex insulin regimens or an insulin pump should get a personalized plan from their endocrinologist in India before travel.</p></div></div></div>
 
  <div class="tdmd-faq-item">
   <button class="tdmd-faq-question" aria-expanded="false">
@@ -1191,10 +1182,7 @@ sup a:hover { text-decoration: underline; }
     <line x1="5" y1="12" x2="19" y2="12"/>
    </svg>
   </button>
-  <div class="tdmd-faq-answer">
-   <p>There is no direct US equivalent because Combiflam is a fixed-dose combination of ibuprofen 400 mg and paracetamol (acetaminophen) 325 mg, and this combination is not sold as a single product in the US. The US substitute is ibuprofen and acetaminophen taken separately at appropriate doses; both are available OTC. Ask your US clinician if you want a prescription-strength version.</p>
-  </div>
- </div>
+  <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"><p>There is no direct US equivalent because Combiflam is a fixed-dose combination of ibuprofen 400 mg and paracetamol (acetaminophen) 325 mg, and this combination is not sold as a single product in the US. The US substitute is ibuprofen and acetaminophen taken separately at appropriate doses; both are available OTC. Ask your US clinician if you want a prescription-strength version.</p></div></div></div>
 
  <div class="tdmd-faq-item">
   <button class="tdmd-faq-question" aria-expanded="false">
@@ -1204,10 +1192,7 @@ sup a:hover { text-decoration: underline; }
     <line x1="5" y1="12" x2="19" y2="12"/>
    </svg>
   </button>
-  <div class="tdmd-faq-answer">
-   <p>No. US Medicare covers US citizens and lawful permanent residents (Green Card holders with 40 quarters of qualifying work history in most cases); it does not cover foreign visitors regardless of age. B1/B2, F2, H4, and J2 visitors are not eligible. Options are cash pay or visitor insurance from Indian providers (ICICI Lombard, HDFC ERGO, Bajaj Allianz, TATA AIG) or US-based short-term travel policies (Trawick, IMG, Seven Corners, Atlas America), typically $2 to $8 per day for a healthy visitor.</p>
-  </div>
- </div>
+  <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"><p>No. US Medicare covers US citizens and lawful permanent residents (Green Card holders with 40 quarters of qualifying work history in most cases); it does not cover foreign visitors regardless of age. B1/B2, F2, H4, and J2 visitors are not eligible. Options are cash pay or visitor insurance from Indian providers (ICICI Lombard, HDFC ERGO, Bajaj Allianz, TATA AIG) or US-based short-term travel policies (Trawick, IMG, Seven Corners, Atlas America), typically $2 to $8 per day for a healthy visitor.</p></div></div></div>
 
  <div class="tdmd-faq-item">
   <button class="tdmd-faq-question" aria-expanded="false">
@@ -1217,10 +1202,7 @@ sup a:hover { text-decoration: underline; }
     <line x1="5" y1="12" x2="19" y2="12"/>
    </svg>
   </button>
-  <div class="tdmd-faq-answer">
-   <p>In a South Asian visitor over 40, new chest pain, pressure, or exertional shortness of breath should not be assumed to be jet lag. The mean age of first myocardial infarction in South Asians is 53, compared with 62 to 63 in Europeans and Chinese, and Asian Indians in the US have the highest age-standardized ischemic heart disease mortality rate among US races and ethnicities. Call 911 or go to the nearest ER. Do not wait to see if it improves.</p>
-  </div>
- </div>
+  <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"><p>In a South Asian visitor over 40, new chest pain, pressure, or exertional shortness of breath should not be assumed to be jet lag. The mean age of first myocardial infarction in South Asians is 53, compared with 62 to 63 in Europeans and Chinese, and Asian Indians in the US have the highest age-standardized ischemic heart disease mortality rate among US races and ethnicities. Call 911 or go to the nearest ER. Do not wait to see if it improves.</p></div></div></div>
 
  <div class="tdmd-faq-item">
   <button class="tdmd-faq-question" aria-expanded="false">
@@ -1230,10 +1212,7 @@ sup a:hover { text-decoration: underline; }
     <line x1="5" y1="12" x2="19" y2="12"/>
    </svg>
   </button>
-  <div class="tdmd-faq-answer">
-   <p>Possibly, if the H1B worker's US employer offers dependent coverage and the H4 spouse is enrolled. This is not automatic; verify with the H1B worker's HR before your visit or expect to be uninsured. Cash-pay telehealth for a routine bridge prescription is typically $50 to $150 and often the most practical option regardless.</p>
-  </div>
- </div>
+  <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"><p>Possibly, if the H1B worker's US employer offers dependent coverage and the H4 spouse is enrolled. This is not automatic; verify with the H1B worker's HR before your visit or expect to be uninsured. Cash-pay telehealth for a routine bridge prescription is typically $50 to $150 and often the most practical option regardless.</p></div></div></div>
 
      <div class="tdmd-callout" style="margin:1.25rem 0;padding:1rem 1.25rem;background:#F0F7F8;border-left:4px solid #003E52;border-radius:6px;">
       <strong>Related practical guide:</strong> Once the visit is done, use our <a href="/health-guides/us-pharmacy-guide-for-international-visitors/" style="color:#003E52;text-decoration:underline;font-weight:600;">US pharmacy guide for international visitors</a> to understand which ID US pharmacies accept, how discount cards like GoodRx and SingleCare work, and the pharmacy pickup workflow step by step.

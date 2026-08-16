@@ -560,9 +560,15 @@ sup a:hover { text-decoration: underline; }
  width: 20px;
  height: 20px;
  flex-shrink: 0;
- transition: transform 0.3s;
+ transition: transform 0.3s ease;
  color: var(--tdmd-teal);
-}.tdmd-faq-item.tdmd-faq-open.tdmd-faq-icon { transform: rotate(45deg); }.tdmd-faq-answer {
+}
+.tdmd-faq-icon line {
+ transition: opacity 0.3s ease;
+}
+.tdmd-faq-item.tdmd-faq-open .tdmd-faq-icon line:first-child {
+ opacity: 0;
+}.tdmd-faq-answer {
  max-height: 0;
  overflow: hidden;
  transition: max-height 0.3s ease;
@@ -1131,108 +1137,81 @@ sup a:hover { text-decoration: underline; }
  How much propranolol should I take for performance anxiety?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>The standard dose range is 10–40 mg taken 30–60 minutes before the event. Most patients start at 10–20 mg. A physician should determine your starting dose based on your baseline heart rate, blood pressure, and medical history. Always trial the dose in a low-stakes setting before the actual performance.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  Does propranolol affect mental sharpness or focus?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>No. At the low doses used for performance anxiety, propranolol works primarily at the body's periphery — it quiets physical symptoms without sedating the brain. Multiple controlled studies in musicians, students, and surgeons found no impairment of cognitive function, verbal reasoning, or mental arithmetic. You stay sharp; the shaking and racing heart simply stop.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  What is the difference between performance anxiety and social anxiety disorder?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Situational performance anxiety is triggered by specific events — a speech, audition, or exam — with minimal anxiety outside those contexts. Social anxiety disorder is a chronic condition involving persistent, pervasive fear of being judged across many social situations, causing significant daily impairment. The DSM-5 includes a "performance only" specifier for SAD, but true SAD requires different treatment: CBT and/or SSRIs as first-line, not propranolol PRN alone.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  Who should not take propranolol?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Propranolol is contraindicated in patients with asthma or bronchospasm, significant bradycardia (resting heart rate below 60 bpm), decompensated heart failure, cardiogenic shock, and greater than first-degree heart block. It requires caution in patients with diabetes, COPD, low blood pressure, or Raynaud's phenomenon. Always disclose your full medical history before starting propranolol.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  Can I get propranolol for performance anxiety online?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Yes. Propranolol for situational performance anxiety can be prescribed through legitimate telehealth platforms by licensed physicians following a full clinical evaluation. This is an established, appropriate use of telemedicine. Avoid any platform that dispenses medications without a physician assessment — the contraindication screen is clinically necessary, not a formality.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  Does propranolol work for all types of performance anxiety?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Propranolol works best for the physical dimension — tremor, racing heart, sweating, voice shakiness. It does not address negative self-talk, catastrophizing, or fear of failure. For performers whose anxiety is primarily physical, propranolol alone is often sufficient. For those with significant cognitive anxiety, combining propranolol with CBT or exposure therapy produces better outcomes.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  Do I need to take propranolol every day?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>No. For situational performance anxiety, propranolol is taken on an as-needed basis — only before specific events that trigger symptoms. PRN use does not lead to dependence. Daily dosing is a separate clinical scenario used for cardiovascular conditions, not for situational anxiety management.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  What if propranolol is not enough?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>If physical symptoms are controlled but anxiety remains significantly limiting, adding CBT or exposure therapy targets the cognitive and behavioral dimensions beta-blockers don't address. If the clinical picture actually suggests social anxiety disorder rather than situational anxiety, SSRIs or SNRIs are more appropriate as the foundation of treatment. A physician or mental health professional can help determine the right combination based on your symptom profile.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  Can athletes use propranolol for competition anxiety?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Propranolol is banned by the World Anti-Doping Agency (WADA) in archery and shooting during competition, where heart rate control provides a direct performance advantage in precision sports. For most other athletic disciplines, it is not on the prohibited list. That said, beta-blockers reduce peak heart rate and exercise capacity, making them impractical for high-intensity sports. Always check current WADA and governing body rules for your sport before use.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">

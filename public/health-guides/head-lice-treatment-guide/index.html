@@ -557,9 +557,15 @@ sup a:hover { text-decoration: underline; }
  width: 20px;
  height: 20px;
  flex-shrink: 0;
- transition: transform 0.3s;
+ transition: transform 0.3s ease;
  color: var(--tdmd-teal);
-}.tdmd-faq-item.tdmd-faq-open.tdmd-faq-icon { transform: rotate(45deg); }.tdmd-faq-answer {
+}
+.tdmd-faq-icon line {
+ transition: opacity 0.3s ease;
+}
+.tdmd-faq-item.tdmd-faq-open .tdmd-faq-icon line:first-child {
+ opacity: 0;
+}.tdmd-faq-answer {
  max-height: 0;
  overflow: hidden;
  transition: max-height 0.3s ease;
@@ -1056,108 +1062,81 @@ sup a:hover { text-decoration: underline; }
  What is the best OTC treatment for head lice in 2026?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Permethrin 1% lotion (Nix) remains the recommended first-line OTC treatment when lice in your community are still susceptible to pyrethroids. Apply to shampooed, towel-dried hair, leave on for 10 minutes, then rinse. A second application on day 9 is standard. If live lice are still present 24 hours after treatment — and the product was applied correctly — contact a physician for a prescription option such as spinosad, benzyl alcohol, or ivermectin lotion.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  Are super lice real, and how do I know if my child has them?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Yes. "Super lice" is the informal name for head lice carrying knockdown resistance (kdr) gene mutations that block the mechanism pyrethroids rely on. A 2021 meta-analysis estimated that roughly 77% of head lice worldwide carry kdr mutations.<sup><a href="#ref-4">[4]</a></sup> You should suspect resistance if live lice are still moving on the scalp 24 hours after completing a full, correctly applied OTC pyrethroid treatment. Switching to a product with a different mechanism — rather than applying more of the same one — is the appropriate response.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  How do I do nit combing correctly?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Wet the hair thoroughly, apply conditioner, and detangle with a wide-tooth comb. Switch to a fine-tooth metal nit comb and work section by section from the scalp outward, keeping the comb teeth touching the scalp. Wipe the comb on a white paper towel after each stroke to inspect for lice and nits. Repeat the full combing in rinsed, wet hair. Do this every 2–3 days for at least two weeks after treatment. Metal combs catch more nits than plastic ones and are worth the investment.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  Should my child stay home from school if they have lice?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>No. The American Academy of Pediatrics and the National Association of School Nurses both oppose school exclusion for head lice.<sup><a href="#ref-1">[1]</a></sup> Treat that evening and send your child to school the next day. By the time lice are discovered, the infestation has typically been present for weeks — meaning the child has already been in school with lice for an extended period. Exclusion after discovery does not meaningfully protect classmates and causes unnecessary educational disruption.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  Do I need to bag all my furniture and spray my house?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>No. Head lice cannot survive more than 24–48 hours off a scalp, and louse eggs will not hatch away from body heat. Focus on washing clothing, hats, bed linens, and towels from the past 24–48 hours in hot water and high-heat drying. Soak combs and brushes in hot water. That covers the meaningful risk. Home pesticide sprays are unnecessary and add chemical exposure to your environment; the AAP explicitly advises against them.<sup><a href="#ref-1">[1]</a></sup></p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  What is the difference between permethrin 1% and permethrin 5%?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Permethrin 1% (Nix) is the FDA-approved OTC concentration for head lice. Permethrin 5% is a prescription-strength cream approved for scabies and is used off-label for lice that have not responded to the 1% formulation. However, because most OTC treatment failures involve pyrethroid resistance — a genetic mechanism that affects the entire pyrethroid class regardless of concentration — switching to a higher-concentration permethrin product typically does not resolve the problem. Prescription alternatives like spinosad or ivermectin lotion are generally more effective in resistance cases.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  Can a telehealth visit get me a prescription for head lice treatment?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Yes. A telehealth physician can review your treatment history, assess whether resistance is the likely cause of failure, and prescribe second-line medications including malathion lotion, benzyl alcohol lotion, spinosad suspension, or topical ivermectin lotion. Head lice management is well-suited to a video visit because treatment decisions are driven primarily by clinical history — which products were used, how they were applied, and how the patient responded — rather than physical examination. To reach TeleDirectMD, call 678-956-1855 or email contact@teledirectmd.com.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  Is ivermectin safe for children with head lice?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Ivermectin 0.5% topical lotion (Sklice) is FDA-approved for head lice in patients 6 months and older and does not carry significant systemic absorption concerns. Oral ivermectin tablets are used off-label for head lice in children weighing at least 33 pounds (15 kg), typically at 200–400 mcg/kg, and are generally reserved for cases where topical treatments have failed. Neither formulation should use veterinary preparations — these are formulated at different concentrations and with inactive ingredients not intended for human use.<sup><a href="#ref-1">[1]</a></sup></p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  Does the wet combing method work without any medicine?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Wet combing can clear lice when done consistently and correctly — particularly in communities where resistance to insecticides is high. Clinical trials report cure rates from 38% to 75% with wet combing alone, with higher rates in studies using well-designed combs and strict technique.<sup><a href="#ref-8">[8]</a></sup> The method requires four sessions over about two weeks to interrupt the louse life cycle. It is more time-intensive than medication but has no chemical side effects and is a sound choice for families who prefer to avoid pediculicides.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">

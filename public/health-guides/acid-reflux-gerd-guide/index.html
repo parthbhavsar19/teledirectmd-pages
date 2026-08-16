@@ -561,9 +561,15 @@ sup a:hover { text-decoration: underline; }
  width: 20px;
  height: 20px;
  flex-shrink: 0;
- transition: transform 0.3s;
+ transition: transform 0.3s ease;
  color: var(--tdmd-teal);
-}.tdmd-faq-item.tdmd-faq-open.tdmd-faq-icon { transform: rotate(45deg); }.tdmd-faq-answer {
+}
+.tdmd-faq-icon line {
+ transition: opacity 0.3s ease;
+}
+.tdmd-faq-item.tdmd-faq-open .tdmd-faq-icon line:first-child {
+ opacity: 0;
+}.tdmd-faq-answer {
  max-height: 0;
  overflow: hidden;
  transition: max-height 0.3s ease;
@@ -1134,108 +1140,81 @@ sup a:hover { text-decoration: underline; }
  How long should I take a PPI for acid reflux?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>The 2022 ACG guideline recommends an 8-week once-daily PPI trial for classic GERD symptoms.<sup><a href="#ref-1">[1]</a></sup> If symptoms resolve, you should attempt to taper or discontinue. Patients with erosive esophagitis (LA grade C or D) or Barrett's esophagus typically require indefinite maintenance therapy at the lowest effective dose. If you've been on a PPI for more than 6 months without an endoscopy or reassessment, that conversation is overdue.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  Is it safe to take a PPI every day long term?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>For patients with a clear indication — erosive esophagitis, Barrett's, or severe symptomatic GERD — the benefits of long-term PPI use outweigh the risks. Observational studies have raised concerns about bone density, kidney function, low magnesium, and C. difficile infection, but high-quality randomized trials have not confirmed causation for most outcomes.<sup><a href="#ref-2">[2]</a></sup> The ACG recommends the lowest effective dose, periodic reassessment, and monitoring magnesium in patients on long-term therapy. Annual creatinine is a reasonable addition.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  What is the difference between GERD and functional heartburn?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>GERD involves objectively abnormal acid exposure — confirmed by endoscopy or pH monitoring. Functional heartburn produces identical symptoms but without abnormal acid exposure or reflux-symptom correlation on testing. This distinction matters because functional heartburn does not respond reliably to PPIs. Treatment in that case targets visceral hypersensitivity, often with low-dose tricyclic antidepressants or neuromodulators rather than acid suppression. A normal endoscopy plus negative pH-impedance monitoring off PPIs points toward functional heartburn.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  What alarm symptoms need urgent endoscopy?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>The 2022 ACG guideline recommends endoscopy — not a PPI trial — as the first step when any of these are present: dysphagia, painful swallowing, unexplained weight loss, GI bleeding (vomiting blood, black or tarry stools, iron-deficiency anemia), persistent vomiting, or new-onset symptoms in a patient over 60.<sup><a href="#ref-1">[1]</a></sup> These are not diagnostic ambiguities to manage with medication — they require direct visualization of the esophagus and stomach.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  Who should be screened for Barrett's esophagus?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Screening endoscopy for Barrett's esophagus is recommended for patients with chronic GERD (5+ years) who have multiple risk factors: age over 50, male sex, White race, obesity, smoking history, and/or a first-degree relative with Barrett's or esophageal adenocarcinoma.<sup><a href="#ref-1">[1]</a></sup> Not every heartburn patient needs screening — the goal is to identify those with genuinely elevated esophageal cancer risk. A patient with one of these risk factors and occasional mild reflux is a very different clinical picture from a 60-year-old male smoker with weekly reflux and central obesity.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  Can I manage GERD without medication?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Yes, for mild symptoms. Head-of-bed elevation, weight loss, avoiding late meals, and identifying your specific dietary triggers can meaningfully reduce reflux burden. Patients with non-erosive reflux disease (NERD) and mild symptoms are reasonable candidates for lifestyle-first management with on-demand antacid or H2 blocker use before initiating daily PPIs. The key caveat: if you have alarm symptoms, erosive disease, or Barrett's esophagus, lifestyle changes alone are not sufficient — you need medications and monitoring.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  Is acid reflux safe to manage via telemedicine?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>For typical GERD symptoms without alarm features, telehealth is an efficient and appropriate setting for evaluation and management. A physician can review your symptom history, screen for red flags, initiate a PPI trial, counsel on lifestyle changes, and adjust medications — all without an in-person visit. Endoscopy and pH testing require gastroenterology referral, but initial management and ongoing medication adjustment are well-suited to telemedicine. Most patients with classic GERD can be evaluated and prescribed a treatment plan in a single video visit.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  What is laryngopharyngeal reflux (LPR)?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>LPR occurs when stomach contents reflux all the way up to the throat and larynx, causing chronic throat clearing, hoarseness, a globus sensation, or a cough that won't go away. Unlike GERD, heartburn is often absent — making LPR easy to miss. It requires longer treatment trials than standard GERD: twice-daily PPI therapy for 2 to 3 months is the standard empiric approach.<sup><a href="#ref-6">[6]</a></sup> Response rates are lower than in typical GERD, and a non-response should prompt reconsideration of the diagnosis.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  Is it safe to take antacids or PPIs during pregnancy?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>GERD is very common in pregnancy, affecting up to 80% of women. Lifestyle modifications come first. Calcium carbonate antacids (TUMS) are safe and preferred, with the added benefit of calcium supplementation. H2 blockers like famotidine and PPIs have been used in pregnancy without evidence of fetal harm in large studies — they're reserved for cases where lifestyle and antacids are insufficient.<sup><a href="#ref-7">[7]</a></sup> Avoid magnesium trisilicate-containing antacids and sodium bicarbonate products during pregnancy. Always discuss any new medication with your OB provider.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">

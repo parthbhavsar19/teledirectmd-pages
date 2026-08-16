@@ -551,9 +551,15 @@ sup a:hover { text-decoration: underline; }
  width: 20px;
  height: 20px;
  flex-shrink: 0;
- transition: transform 0.3s;
+ transition: transform 0.3s ease;
  color: var(--tdmd-teal);
-}.tdmd-faq-item.tdmd-faq-open.tdmd-faq-icon { transform: rotate(45deg); }.tdmd-faq-answer {
+}
+.tdmd-faq-icon line {
+ transition: opacity 0.3s ease;
+}
+.tdmd-faq-item.tdmd-faq-open .tdmd-faq-icon line:first-child {
+ opacity: 0;
+}.tdmd-faq-answer {
  max-height: 0;
  overflow: hidden;
  transition: max-height 0.3s ease;
@@ -1143,60 +1149,45 @@ sup a:hover { text-decoration: underline; }
  What blood pressure reading will disqualify me from a DOT physical?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Under FMCSA guidelines, a reading at or above 180/110 mmHg at the time of the physical will result in disqualification from driving.<sup><a href="#ref-2">[2]</a></sup> Readings between 160/100 and 179/109 qualify you for a one-year certificate only, with a requirement to treat and demonstrate control at renewal. A reading below 140/90 earns the full two-year certification. Borderline readings on the day of your exam can sometimes reflect white-coat hypertension — which is why having an established treatment record and home blood pressure log works in your favor when speaking with your medical examiner.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  Can TeleDirectMD refill my blood pressure medication if I'm in a different state than my usual pharmacy?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Yes. TeleDirectMD is licensed in 44 states and can send electronic prescriptions to any pharmacy in those states. If you've run out of a medication mid-route, a telehealth visit allows a physician to review your history, confirm your current regimen, and send a refill to a pharmacy near your current location — without requiring you to return to your home state. Visits start at $79 and are available same-day, including evenings and weekends.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  What is a hypertensive emergency and when should I go to the ER?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>A hypertensive emergency is a blood pressure reading above 180/120 mmHg <em>accompanied by signs of organ damage</em> — severe headache unlike any you've had before, vision changes, chest pain, shortness of breath, confusion, or neurological symptoms. This requires immediate emergency care. Do not take extra doses of your medication or attempt to manage this with a telehealth visit. Call 911 or have someone drive you to the nearest emergency room immediately. TeleDirectMD is not equipped to manage hypertensive emergencies and will always direct you to in-person emergency care in this situation.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  What blood pressure medications are most practical for life on the road?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Once-daily medications are strongly preferred because they fit a variable schedule better than twice-daily regimens. Common once-daily options include amlodipine (a calcium channel blocker), long-acting ACE inhibitors like lisinopril or ramipril, and ARBs like losartan or olmesartan. Thiazide diuretics like chlorthalidone are also once-daily but may require planning around bathroom access on long hauls. A physician can review your specific situation and prioritize medications that are effective, well-tolerated, and affordable — generic versions of most first-line drugs are available for under $10/month.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  How do I monitor my blood pressure accurately when I'm on the road?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>An upper-arm automatic blood pressure cuff is the most accurate home-monitoring option — avoid wrist cuffs, which are less reliable. Take readings at roughly the same time each day (ideally morning, before medications and coffee). Sit quietly for five minutes before measuring, back supported, feet flat on the floor. Take two readings two minutes apart and record the average. Logging results in a notes app over 7–14 days gives a much more meaningful picture than any single reading — and gives your physician the data needed to make smart medication decisions remotely.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">

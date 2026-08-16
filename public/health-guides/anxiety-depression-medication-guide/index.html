@@ -533,9 +533,15 @@ sup a:hover { text-decoration: underline; }
  width: 20px;
  height: 20px;
  flex-shrink: 0;
- transition: transform 0.3s;
+ transition: transform 0.3s ease;
  color: var(--tdmd-teal);
-}.tdmd-faq-item.tdmd-faq-open.tdmd-faq-icon { transform: rotate(45deg); }.tdmd-faq-answer {
+}
+.tdmd-faq-icon line {
+ transition: opacity 0.3s ease;
+}
+.tdmd-faq-item.tdmd-faq-open .tdmd-faq-icon line:first-child {
+ opacity: 0;
+}.tdmd-faq-answer {
  max-height: 0;
  overflow: hidden;
  transition: max-height 0.3s ease;
@@ -1049,60 +1055,45 @@ sup a:hover { text-decoration: underline; }
  How long do I need to stay on antidepressant medication?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Most guidelines recommend continuing antidepressant medication for at least 6 to 12 months after you feel well — not after you start taking the medication, but after you achieve remission of symptoms. This maintenance period significantly reduces the risk of relapse. For patients with recurrent depression (two or more episodes), longer-term or even indefinite maintenance therapy may be appropriate. The decision to continue or taper should always be made collaboratively with your prescriber based on your individual history, episode severity, and risk factors.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  Will anxiety or depression medication change my personality?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Properly prescribed medication should not change who you are. What patients typically describe is that medication helps lift the weight of depression or quiet the constant noise of anxiety, allowing their actual personality to come through more fully. If you feel emotionally flat, numb, or "not like yourself" on a medication, that is a side effect worth discussing with your doctor — not an expected outcome. Emotional blunting is a recognized side effect of some SSRIs and can often be addressed by adjusting the dose or switching medications.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  Can I drink alcohol while taking an SSRI or SNRI?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Alcohol is a central nervous system depressant that can worsen depression and anxiety symptoms and may interact with your medication. While occasional moderate alcohol use may not cause a dangerous interaction with most SSRIs, it can increase drowsiness, impair judgment, and counteract the benefits of treatment. I generally counsel patients to minimize or avoid alcohol during active treatment — and to never combine alcohol with benzodiazepines, which can cause dangerous respiratory depression.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  What if I miss a dose of my antidepressant?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>If you miss a dose, take it as soon as you remember — unless it is close to the time of your next scheduled dose, in which case skip the missed dose and resume your normal schedule. Do not double up. Missing a single dose of most SSRIs and SNRIs will not cause serious problems, but medications with shorter half-lives (like venlafaxine and paroxetine) can produce withdrawal-like symptoms — dizziness, nausea, "brain zaps" — even after missing one dose. Setting a daily alarm or using a pill organizer can help maintain consistency.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  Are natural supplements like St. John's Wort safe alternatives to prescription antidepressants?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>St. John's Wort has some evidence for mild depression, but it carries significant risks. It interacts with many medications — including SSRIs, birth control pills, blood thinners, and immunosuppressants — and combining it with serotonergic medications can cause serotonin syndrome, a potentially life-threatening condition.<sup><a href="#ref-5">[5]</a></sup> It is not regulated by the FDA, so potency varies between products. I strongly advise against using St. John's Wort without discussing it with your physician first, especially if you take other medications.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">

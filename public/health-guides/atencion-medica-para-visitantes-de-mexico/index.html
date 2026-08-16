@@ -554,9 +554,15 @@ sup a:hover { text-decoration: underline; }
  width: 20px;
  height: 20px;
  flex-shrink: 0;
- transition: transform 0.3s;
+ transition: transform 0.3s ease;
  color: var(--tdmd-teal);
-}.tdmd-faq-item.tdmd-faq-open.tdmd-faq-icon { transform: rotate(45deg); }.tdmd-faq-answer {
+}
+.tdmd-faq-icon line {
+ transition: opacity 0.3s ease;
+}
+.tdmd-faq-item.tdmd-faq-open .tdmd-faq-icon line:first-child {
+ opacity: 0;
+}.tdmd-faq-answer {
  max-height: 0;
  overflow: hidden;
  transition: max-height 0.3s ease;
@@ -1137,10 +1143,7 @@ sup a:hover { text-decoration: underline; }
     <line x1="5" y1="12" x2="19" y2="12"/>
    </svg>
   </button>
-  <div class="tdmd-faq-answer">
-   <p>No. Las farmacias estadounidenses requieren una receta de un médico con licencia estadounidense. Una consulta de telesalud dirigida por un médico el mismo día es usualmente la manera más rápida de obtener una nueva receta estadounidense para un medicamento crónico no controlado mexicano que ya toma. Traiga una lista escrita de sus medicamentos usando nombres genéricos (DCI).</p>
-  </div>
- </div>
+  <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"><p>No. Las farmacias estadounidenses requieren una receta de un médico con licencia estadounidense. Una consulta de telesalud dirigida por un médico el mismo día es usualmente la manera más rápida de obtener una nueva receta estadounidense para un medicamento crónico no controlado mexicano que ya toma. Traiga una lista escrita de sus medicamentos usando nombres genéricos (DCI).</p></div></div></div>
 
  <div class="tdmd-faq-item">
   <button class="tdmd-faq-question" aria-expanded="false">
@@ -1150,10 +1153,7 @@ sup a:hover { text-decoration: underline; }
     <line x1="5" y1="12" x2="19" y2="12"/>
    </svg>
   </button>
-  <div class="tdmd-faq-answer">
-   <p>Bajo la Política de Importación Personal de la FDA, los extranjeros pueden traer o enviar un suministro de 90 días de productos farmacéuticos para uso personal. Los visitantes que se quedan más tiempo pueden recibir medicamentos adicionales por correo. Documentación sugerida: una copia de la visa, pasaporte o Border Crossing Card, una carta del médico mexicano y una copia de la receta en inglés si es posible.</p>
-  </div>
- </div>
+  <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"><p>Bajo la Política de Importación Personal de la FDA, los extranjeros pueden traer o enviar un suministro de 90 días de productos farmacéuticos para uso personal. Los visitantes que se quedan más tiempo pueden recibir medicamentos adicionales por correo. Documentación sugerida: una copia de la visa, pasaporte o Border Crossing Card, una carta del médico mexicano y una copia de la receta en inglés si es posible.</p></div></div></div>
 
  <div class="tdmd-faq-item">
   <button class="tdmd-faq-question" aria-expanded="false">
@@ -1163,10 +1163,7 @@ sup a:hover { text-decoration: underline; }
     <line x1="5" y1="12" x2="19" y2="12"/>
    </svg>
   </button>
-  <div class="tdmd-faq-answer">
-   <p>Sí, pero bajo reglas de la DEA. Los visitantes extranjeros pueden traer hasta 50 unidades de dosis por sustancia controlada para uso personal, en el envase original etiquetado que incluye el nombre del medicamento y el símbolo de la lista (o el número de la farmacia o receta). Declare todos los medicamentos a Customs and Border Protection al entrar. Clonazepam (Rivotril), alprazolam (Tafil), diazepam, zolpidem (Ambien), tramadol y modafinilo son todos sustancias controladas de la Lista IV de la DEA en EE.UU.</p>
-  </div>
- </div>
+  <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"><p>Sí, pero bajo reglas de la DEA. Los visitantes extranjeros pueden traer hasta 50 unidades de dosis por sustancia controlada para uso personal, en el envase original etiquetado que incluye el nombre del medicamento y el símbolo de la lista (o el número de la farmacia o receta). Declare todos los medicamentos a Customs and Border Protection al entrar. Clonazepam (Rivotril), alprazolam (Tafil), diazepam, zolpidem (Ambien), tramadol y modafinilo son todos sustancias controladas de la Lista IV de la DEA en EE.UU.</p></div></div></div>
 
  <div class="tdmd-faq-item">
   <button class="tdmd-faq-question" aria-expanded="false">
@@ -1176,10 +1173,7 @@ sup a:hover { text-decoration: underline; }
     <line x1="5" y1="12" x2="19" y2="12"/>
    </svg>
   </button>
-  <div class="tdmd-faq-answer">
-   <p>El lercanidipino (Lercadip, Zanidip), un bloqueador de canales de calcio vendido en México y Europa, no está aprobado por la FDA en EE.UU. Un médico estadounidense típicamente sustituirá con amlodipino o nifedipino. Algunas preparaciones tradicionales o herbales vendidas en farmacias mexicanas tampoco están aprobadas por la FDA. Los productos de cannabis y CBD fabricados fuera de canales aprobados por la FDA permanecen ilegales a nivel federal independientemente del estatus legal en el país de origen.</p>
-  </div>
- </div>
+  <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"><p>El lercanidipino (Lercadip, Zanidip), un bloqueador de canales de calcio vendido en México y Europa, no está aprobado por la FDA en EE.UU. Un médico estadounidense típicamente sustituirá con amlodipino o nifedipino. Algunas preparaciones tradicionales o herbales vendidas en farmacias mexicanas tampoco están aprobadas por la FDA. Los productos de cannabis y CBD fabricados fuera de canales aprobados por la FDA permanecen ilegales a nivel federal independientemente del estatus legal en el país de origen.</p></div></div></div>
 
  <div class="tdmd-faq-item">
   <button class="tdmd-faq-question" aria-expanded="false">
@@ -1189,10 +1183,7 @@ sup a:hover { text-decoration: underline; }
     <line x1="5" y1="12" x2="19" y2="12"/>
    </svg>
   </button>
-  <div class="tdmd-faq-answer">
-   <p>Usualmente no. Ciudad de México a Los Ángeles es 2 horas hacia el oeste, Ciudad de México a Chicago es 1 hora hacia el este, y Ciudad de México a Nueva York o Miami es 1 hora hacia el este. Los cambios de zona horaria menores a 5 horas generalmente no requieren ajustes en medicamentos orales diarios o insulina basal. Para un marco más amplio de ajuste por zona horaria, vea el satélite Chronic Conditions While Your Parents Visit the US.</p>
-  </div>
- </div>
+  <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"><p>Usualmente no. Ciudad de México a Los Ángeles es 2 horas hacia el oeste, Ciudad de México a Chicago es 1 hora hacia el este, y Ciudad de México a Nueva York o Miami es 1 hora hacia el este. Los cambios de zona horaria menores a 5 horas generalmente no requieren ajustes en medicamentos orales diarios o insulina basal. Para un marco más amplio de ajuste por zona horaria, vea el satélite Chronic Conditions While Your Parents Visit the US.</p></div></div></div>
 
  <div class="tdmd-faq-item">
   <button class="tdmd-faq-question" aria-expanded="false">
@@ -1202,10 +1193,7 @@ sup a:hover { text-decoration: underline; }
     <line x1="5" y1="12" x2="19" y2="12"/>
    </svg>
   </button>
-  <div class="tdmd-faq-answer">
-   <p>Para muchos genéricos comunes, sí. Con una tarjeta de descuento de GoodRx o similar de EE.UU., genéricos comunes como metformina, amlodipino, losartán, atorvastatina y levotiroxina típicamente cuestan $4 a $20 por 30 días en Costco, Walmart, CVS, Walgreens o Rite Aid. Esto es a menudo comparable o más barato que el precio de venta en efectivo por el mismo genérico en una farmacia mexicana. Los inhaladores de marca, medicamentos inyectables para diabetes como Ozempic y medicamentos especializados son sustancialmente más caros al precio de venta en efectivo en EE.UU.</p>
-  </div>
- </div>
+  <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"><p>Para muchos genéricos comunes, sí. Con una tarjeta de descuento de GoodRx o similar de EE.UU., genéricos comunes como metformina, amlodipino, losartán, atorvastatina y levotiroxina típicamente cuestan $4 a $20 por 30 días en Costco, Walmart, CVS, Walgreens o Rite Aid. Esto es a menudo comparable o más barato que el precio de venta en efectivo por el mismo genérico en una farmacia mexicana. Los inhaladores de marca, medicamentos inyectables para diabetes como Ozempic y medicamentos especializados son sustancialmente más caros al precio de venta en efectivo en EE.UU.</p></div></div></div>
 
  <div class="tdmd-faq-item">
   <button class="tdmd-faq-question" aria-expanded="false">
@@ -1215,10 +1203,7 @@ sup a:hover { text-decoration: underline; }
     <line x1="5" y1="12" x2="19" y2="12"/>
    </svg>
   </button>
-  <div class="tdmd-faq-answer">
-   <p>Sí. Bajo la Sección 1557 de la Ley del Cuidado de Salud Asequible, cada hospital o clínica que recibe asistencia financiera federal debe proporcionar servicios de intérprete calificado sin costo. La regla final se publicó el 6 de mayo de 2024 y las disposiciones de acceso lingüístico entraron plenamente en vigor el 5 de julio de 2025. Pida un intérprete calificado en la admisión; la instalación no puede requerirle que traiga un familiar ni cobrarle por el servicio.</p>
-  </div>
- </div>
+  <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"><p>Sí. Bajo la Sección 1557 de la Ley del Cuidado de Salud Asequible, cada hospital o clínica que recibe asistencia financiera federal debe proporcionar servicios de intérprete calificado sin costo. La regla final se publicó el 6 de mayo de 2024 y las disposiciones de acceso lingüístico entraron plenamente en vigor el 5 de julio de 2025. Pida un intérprete calificado en la admisión; la instalación no puede requerirle que traiga un familiar ni cobrarle por el servicio.</p></div></div></div>
 
  <div class="tdmd-faq-item">
   <button class="tdmd-faq-question" aria-expanded="false">
@@ -1228,10 +1213,7 @@ sup a:hover { text-decoration: underline; }
     <line x1="5" y1="12" x2="19" y2="12"/>
    </svg>
   </button>
-  <div class="tdmd-faq-answer">
-   <p>No. Medicare estadounidense cubre a ciudadanos estadounidenses y residentes permanentes legales; los visitantes extranjeros incluyendo aquellos con BCC (Border Crossing Card), visa B1/B2 o ESTA no son elegibles. Las opciones son pago en efectivo o seguro de visitante a corto plazo. La telesalud de pago en efectivo para una receta puente rutinaria es típicamente $50 a $150 y a menudo la opción más práctica independientemente del estatus del seguro.</p>
-  </div>
- </div>
+  <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"><p>No. Medicare estadounidense cubre a ciudadanos estadounidenses y residentes permanentes legales; los visitantes extranjeros incluyendo aquellos con BCC (Border Crossing Card), visa B1/B2 o ESTA no son elegibles. Las opciones son pago en efectivo o seguro de visitante a corto plazo. La telesalud de pago en efectivo para una receta puente rutinaria es típicamente $50 a $150 y a menudo la opción más práctica independientemente del estatus del seguro.</p></div></div></div>
 
  <div class="tdmd-faq-item">
   <button class="tdmd-faq-question" aria-expanded="false">
@@ -1241,10 +1223,7 @@ sup a:hover { text-decoration: underline; }
     <line x1="5" y1="12" x2="19" y2="12"/>
    </svg>
   </button>
-  <div class="tdmd-faq-answer">
-   <p>Típicamente no. Si está estable con su régimen actual, una visita pretravel con su médico mexicano (4 a 6 semanas antes de la partida según el CDC Yellow Book) para confirmar su lista de medicamentos, obtener una carta escrita documentando sus diagnósticos y medicamentos actuales, y resurtir sus recetas con un suministro completo de 90 días usualmente es suficiente. Una visita estadounidense es necesaria si se le acaba inesperadamente, desarrolla síntomas nuevos o está tomando una sustancia controlada de la que no puede traer el suministro completo del viaje. Para una lista de verificación pretravel completa, vea el satélite Chronic Conditions While Your Parents Visit the US.</p>
-  </div>
- </div>
+  <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"><p>Típicamente no. Si está estable con su régimen actual, una visita pretravel con su médico mexicano (4 a 6 semanas antes de la partida según el CDC Yellow Book) para confirmar su lista de medicamentos, obtener una carta escrita documentando sus diagnósticos y medicamentos actuales, y resurtir sus recetas con un suministro completo de 90 días usualmente es suficiente. Una visita estadounidense es necesaria si se le acaba inesperadamente, desarrolla síntomas nuevos o está tomando una sustancia controlada de la que no puede traer el suministro completo del viaje. Para una lista de verificación pretravel completa, vea el satélite Chronic Conditions While Your Parents Visit the US.</p></div></div></div>
 
      <div class="tdmd-callout" style="margin:1.25rem 0;padding:1rem 1.25rem;background:#F0F7F8;border-left:4px solid #003E52;border-radius:6px;">
       <strong>Guía práctica relacionada:</strong> Una vez terminada la consulta, use nuestra <a href="/health-guides/us-pharmacy-guide-for-international-visitors/" style="color:#003E52;text-decoration:underline;font-weight:600;">guía de farmacias estadounidenses para visitantes internacionales</a> para entender qué identificación aceptan las farmacias en EE.UU., cómo funcionan las tarjetas de descuento como GoodRx y SingleCare, y el proceso paso a paso para recoger su medicamento.

@@ -567,9 +567,15 @@ sup a:hover { text-decoration: underline; }
  width: 20px;
  height: 20px;
  flex-shrink: 0;
- transition: transform 0.3s;
+ transition: transform 0.3s ease;
  color: var(--tdmd-teal);
-}.tdmd-faq-item.tdmd-faq-open.tdmd-faq-icon { transform: rotate(45deg); }.tdmd-faq-answer {
+}
+.tdmd-faq-icon line {
+ transition: opacity 0.3s ease;
+}
+.tdmd-faq-item.tdmd-faq-open .tdmd-faq-icon line:first-child {
+ opacity: 0;
+}.tdmd-faq-answer {
  max-height: 0;
  overflow: hidden;
  transition: max-height 0.3s ease;
@@ -1083,108 +1089,81 @@ sup a:hover { text-decoration: underline; }
  Do I need a prescription for an epinephrine auto-injector?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Yes. In the United States, epinephrine auto-injectors — including EpiPen, Auvi-Q, and generic versions — require a prescription. A physician must evaluate your history of allergic reactions and determine that you meet criteria for carrying one. Telehealth visits are a convenient way to obtain or renew this prescription without visiting an in-person clinic.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  What is the difference between EpiPen and Auvi-Q?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Both deliver intramuscular epinephrine and are FDA-approved for anaphylaxis. EpiPen is the traditional pen-shaped device available in 0.15 mg (Jr) and 0.3 mg doses. Auvi-Q is a smaller, rectangular device that provides audio and visual instructions step-by-step, which can be helpful in a high-stress emergency. Both come in packs of two devices. The choice comes down to personal preference, insurance coverage, and which device you can use most reliably under pressure.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  When should the approach uses a second epinephrine dose?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Use a second auto-injector 5 to 15 minutes after the first if your symptoms are not improving or are worsening. Both EpiPen and Auvi-Q are dispensed in packs of two for this reason. If you have used two doses and symptoms persist, call 911 — you need IV epinephrine from emergency medical services. Do not delay calling 911 while waiting to see if the second dose works.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  Why do I need to go to the ER after using my EpiPen even if I feel better?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Biphasic anaphylaxis is a real risk. This is when symptoms resolve after epinephrine but then return hours later — sometimes up to 72 hours — without any additional allergen exposure. The rate of biphasic reactions is approximately 4.7% of all anaphylaxis cases, and it can occur even after a reaction that seemed mild initially. Emergency observation allows medical staff to monitor you and administer additional treatment if needed.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  Can antihistamines like Benadryl replace epinephrine for anaphylaxis?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>No. Antihistamines are not a treatment for anaphylaxis. They address itching and hives — surface-level symptoms — but do not stop the systemic reaction affecting your airway, blood pressure, and cardiovascular system. Reaching for Benadryl during anaphylaxis delays epinephrine and increases the risk of a fatal outcome. Epinephrine is the only first-line treatment. Antihistamines may be given after epinephrine as a secondary measure for symptom comfort, but they do not replace it.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  How do I know if my epinephrine auto-injector is expired?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Check the expiration date printed on the device label and outer packaging. Also inspect the viewing window — the solution should be clear and colorless. If it appears discolored, cloudy, or has visible particles, do not use it even if not yet expired. Set a calendar reminder 30 days before expiration so you have time to request a refill. An expired auto-injector may still deliver some epinephrine in a true emergency — use it if it is all you have and call 911 immediately — but do not routinely carry expired devices.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  What dose does my child need?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Dosing is weight-based. Children weighing 15 to 30 kg (approximately 33 to 66 lbs) typically receive the 0.15 mg auto-injector (EpiPen Jr or Auvi-Q 0.15 mg). Children weighing 30 kg or more receive the standard 0.3 mg adult dose. For very young children between 7.5 and 15 kg, Auvi-Q offers a 0.1 mg device. Your child's physician should reassess the prescribed dose at every annual visit — children grow, and the appropriate dose changes with weight.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  Can a telehealth physician prescribe an epinephrine auto-injector?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Yes. In most U.S. states, a telehealth physician can evaluate your allergy history and prescribe or renew an epinephrine auto-injector prescription during a secure video visit. This is especially valuable for patients managing known food allergies, insect sting allergy, or idiopathic anaphylaxis who need prescription refills between in-person allergist appointments. TeleDirectMD is available for these visits across 35+ licensed U.S. states.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  What are the most common triggers for anaphylaxis?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>The most common triggers are foods (32–37% of cases), medications (21–59%), and insect stings (15–25%). The leading food triggers are peanuts, tree nuts, shellfish, milk, and eggs. Among medications, NSAIDs and antibiotics (particularly penicillins) are the most frequent culprits. In adults, medications and insect stings are the top causes; in children, food allergy dominates. About 11–19% of cases are idiopathic, meaning no trigger is identified despite thorough evaluation.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">

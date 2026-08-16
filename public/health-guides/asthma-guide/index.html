@@ -599,9 +599,15 @@ sup a:hover { text-decoration: underline; }
  width: 20px;
  height: 20px;
  flex-shrink: 0;
- transition: transform 0.3s;
+ transition: transform 0.3s ease;
  color: var(--tdmd-teal);
-}.tdmd-faq-item.tdmd-faq-open.tdmd-faq-icon { transform: rotate(45deg); }.tdmd-faq-answer {
+}
+.tdmd-faq-icon line {
+ transition: opacity 0.3s ease;
+}
+.tdmd-faq-item.tdmd-faq-open .tdmd-faq-icon line:first-child {
+ opacity: 0;
+}.tdmd-faq-answer {
  max-height: 0;
  overflow: hidden;
  transition: max-height 0.3s ease;
@@ -1171,132 +1177,99 @@ sup a:hover { text-decoration: underline; }
  Can asthma be cured?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Asthma cannot be cured, but it can be effectively controlled. With proper treatment &mdash; particularly inhaled corticosteroids &mdash; most patients achieve good symptom control and live without significant limitations. Some children with mild asthma may appear to "outgrow" their symptoms, but the underlying airway hyperresponsiveness often persists into adulthood and symptoms can return. The goal of asthma management is sustained control: minimal symptoms, no limitations on activity, normal lung function, and zero exacerbations.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  What is the difference between a rescue inhaler and a controller inhaler?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>A rescue inhaler (typically albuterol, a short-acting beta-agonist) provides quick relief by relaxing airway muscles within minutes, but does nothing to treat the underlying inflammation. A controller inhaler (typically an inhaled corticosteroid or ICS-formoterol combination) reduces chronic airway inflammation and prevents symptoms over time. Under the current GINA 2025 guidelines, the preferred approach uses ICS-formoterol as both controller and reliever in a single inhaler (SMART therapy), eliminating the need for a separate rescue inhaler for most patients.<sup><a href="#ref-1">[1]</a></sup></p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  Is it safe to exercise with asthma?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Yes &mdash; exercise is not only safe but recommended for people with asthma. Regular physical activity improves cardiovascular fitness, lung capacity, and overall asthma control. Exercise-induced bronchoconstriction (EIB) affects up to 90% of people with poorly controlled asthma, but it is highly manageable. A 10&ndash;15 minute warm-up period, pre-treatment with an inhaler if prescribed, and choosing activities in warm, humid environments can all help. If exercise consistently triggers symptoms, it usually indicates that your baseline asthma is not well controlled and your daily treatment needs adjustment.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  Why does my asthma get worse at night?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Nocturnal asthma worsening is common and has several contributing factors. Circadian variations in cortisol and airway tone cause natural narrowing of the airways at night. Lying down increases exposure to allergens in bedding (dust mites) and allows postnasal drip to irritate the airways. Gastroesophageal reflux (GERD) is also worse at night and can trigger bronchospasm. If you wake at night more than twice a month with asthma symptoms, your asthma is not well controlled, and your treatment plan likely needs to be stepped up.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  What are biologics for asthma, and who qualifies?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Biologics are injectable medications that target specific molecules in the inflammatory pathways driving severe asthma. They are reserved for patients whose asthma remains uncontrolled despite high-dose inhaled corticosteroids and long-acting bronchodilators. Current biologics include omalizumab (anti-IgE), mepolizumab, benralizumab, and reslizumab (anti-IL-5 pathway), dupilumab (anti-IL-4/IL-13), and tezepelumab (anti-TSLP). Eligibility depends on your specific asthma phenotype, blood eosinophil levels, IgE levels, and allergy status. These medications can dramatically reduce exacerbations by 50% or more and allow tapering of oral steroids in many patients.<sup><a href="#ref-4">[4]</a></sup></p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  Should I go to the ER for an asthma attack?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Go to the emergency department if: your rescue inhaler provides no relief or relief lasts less than 4 hours; you cannot speak in full sentences due to breathlessness; your lips or fingernails turn blue or gray; your peak flow reading falls below 50% of your personal best (red zone); or you feel the attack is severe and you are frightened. While mild flare-ups can often be managed at home following your asthma action plan, a severe attack that does not respond to rescue medication is a medical emergency. Asthma deaths are largely preventable, but delayed treatment of severe attacks is a leading contributing factor.<sup><a href="#ref-3">[3]</a></sup></p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  What triggers an asthma attack, and how is that different from what causes asthma?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Triggers and causes are different things, and mixing them up leads to the wrong strategy. <strong>Triggers</strong> are what sets off symptoms in the moment: allergens like dust mites, pollen, mold, and pet dander, plus cold air, exercise, respiratory infections, tobacco smoke, air pollution, strong odors, and stress. <strong>Causes</strong> are why someone develops asthma in the first place: genetic predisposition, a personal history of atopy such as eczema or allergic rhinitis, early childhood respiratory infections, maternal smoking during pregnancy, and obesity.<sup><a href="#ref-1">[1]</a></sup> Avoiding triggers helps day to day, but it does not treat the underlying airway inflammation, which requires anti-inflammatory controller therapy such as inhaled corticosteroids.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  Is asthma hereditary?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Genetics play a real role. Asthma runs strongly in families, and having a parent or sibling with asthma, eczema, or allergic rhinitis (a personal or family history of atopy) meaningfully raises the risk of developing it.<sup><a href="#ref-1">[1]</a></sup> Genetics alone do not guarantee asthma, though; environmental factors like early childhood respiratory infections, maternal smoking during pregnancy, and obesity also contribute, and many people with a family history never develop symptoms at all.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  How is asthma diagnosed?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>The primary objective test is spirometry, which measures how much air you can forcefully exhale (FVC) and how quickly (FEV<sub>1</sub>). The key diagnostic finding is variable airflow limitation: an FEV<sub>1</sub>/FVC ratio that improves by at least 12% and 200 mL after a bronchodilator, which distinguishes asthma from other causes of airflow obstruction like COPD.<sup><a href="#ref-2">[2]</a></sup> Many patients also use at-home peak flow monitoring to track daily airway function against their personal best. Diagnosis also weighs symptom pattern, including daytime symptoms, nighttime awakenings, rescue inhaler use, and activity limitation, alongside exacerbation history.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  Why does inhaler technique matter, and how do I use mine correctly?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Technique matters because a medication that never reaches the airways cannot treat them. Studies show up to 90% of patients use their inhalers incorrectly and about 94% make at least one error.<sup><a href="#ref-6">[6]</a></sup> For a metered-dose inhaler, shake it, exhale fully, then coordinate a slow, deep inhalation with pressing the canister, and hold your breath for about 10 seconds; poor coordination and skipping the breath-hold are the most common mistakes. Dry powder inhalers work the opposite way: they need a strong, fast inhalation and should never be exhaled into. A spacer removes the coordination problem entirely for MDI users, and is worth asking about, especially for children or older adults. Ask your physician or pharmacist to check your technique at every visit, since it tends to degrade over time.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  What should I do if I'm having an asthma attack and don't have my inhaler?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>There is no proven home substitute for a rescue inhaler; breathing exercises, steam, or caffeine have not been shown to reliably stop an attack. Sit upright, try to stay calm and breathe slowly, and remove yourself from whatever triggered the episode if possible. If symptoms are mild and improving, monitor closely. But if you are having severe breathlessness, can't speak in full sentences, notice blue or gray lips or fingernails, or symptoms aren't improving within a few minutes, call 911 or get to an emergency department immediately &mdash; this is not a situation to wait out without your medication.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">

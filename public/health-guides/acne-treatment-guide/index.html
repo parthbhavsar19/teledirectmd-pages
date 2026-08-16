@@ -534,9 +534,15 @@ sup a:hover { text-decoration: underline; }
  width: 20px;
  height: 20px;
  flex-shrink: 0;
- transition: transform 0.3s;
+ transition: transform 0.3s ease;
  color: var(--tdmd-teal);
-}.tdmd-faq-item.tdmd-faq-open.tdmd-faq-icon { transform: rotate(45deg); }.tdmd-faq-answer {
+}
+.tdmd-faq-icon line {
+ transition: opacity 0.3s ease;
+}
+.tdmd-faq-item.tdmd-faq-open .tdmd-faq-icon line:first-child {
+ opacity: 0;
+}.tdmd-faq-answer {
  max-height: 0;
  overflow: hidden;
  transition: max-height 0.3s ease;
@@ -1100,60 +1106,45 @@ sup a:hover { text-decoration: underline; }
  Does diet actually cause acne?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Diet alone does not cause acne, but emerging evidence suggests it can worsen acne in people who are already prone to breakouts. High-glycemic-index foods and dairy products have the strongest associations. A 2024 review in <em>Nutrients</em> found that Western diets rich in refined carbohydrates, dairy, and saturated fats can exacerbate acne through insulin-mediated pathways that increase sebum production and inflammation.<sup><a href="#ref-4">[4]</a></sup> However, the 2024 AAD guidelines found insufficient evidence to make formal dietary recommendations.<sup><a href="#ref-6">[6]</a></sup> My advice: if you notice a pattern between certain foods and flare-ups, it's reasonable to reduce those foods, but dietary changes alone are unlikely to replace medical treatment for moderate-to-severe acne.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  Is isotretinoin (Accutane) safe?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Isotretinoin is one of the most effective acne treatments available and has been used safely for over 40 years. It is the only medication that addresses all four pathogenic factors of acne. Common side effects include dry skin and lips, dry eyes, and temporary elevation of cholesterol and liver enzymes — all of which are dose-dependent and reversible. The most serious risk is teratogenicity (severe birth defects), which is why the iPLEDGE program requires pregnancy prevention measures for patients of childbearing potential. The 2024 AAD guidelines strongly recommend isotretinoin for severe acne, acne causing psychosocial burden or scarring, or acne that has failed standard oral and topical therapy.<sup><a href="#ref-2">[2]</a></sup> When monitored appropriately, isotretinoin is both safe and highly effective.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  How long does acne treatment take to work?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Most acne treatments require 6 to 12 weeks of consistent use before meaningful improvement is visible. Topical retinoids often cause an initial "purging" phase during the first 2 to 4 weeks where acne temporarily worsens before improving. Oral antibiotics may show improvement in 4 to 6 weeks. Spironolactone typically takes 2 to 3 months for noticeable results. Isotretinoin usually shows dramatic improvement within 3 to 4 months, with a full course lasting 5 to 7 months. One of the most common reasons treatment fails is that patients stop too early, often during the initial worsening phase. Patience and consistency are essential.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  Can adults get acne? I thought it was just a teenage problem.
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Adult acne is extremely common and increasingly recognized as a distinct clinical entity. Up to 50% of women and 25% of men experience some degree of acne in their 20s and 30s, and it can persist into the 40s and beyond. Adult female acne often presents differently from adolescent acne, with deeper, tender nodules along the jawline and chin that flare with the menstrual cycle. This hormonal pattern is one reason why spironolactone — an androgen receptor blocker — is particularly effective in adult women.<sup><a href="#ref-5">[5]</a></sup> Adult acne deserves the same thoughtful, evidence-based treatment approach as adolescent acne.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  Should I pop my pimples?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>No. I know that's not the answer anyone wants to hear, but manipulating acne lesions — especially inflamed papules, pustules, and nodules — pushes bacteria and inflammatory debris deeper into the skin, increasing the risk of prolonged inflammation and permanent scarring. If you have a large, painful cystic lesion, a physician can perform an intralesional corticosteroid injection that will reduce inflammation within 24 to 48 hours, which is far safer and more effective than attempting extraction at home. For comedones (blackheads and whiteheads), professional extraction by a trained aesthetician or dermatologist is the appropriate approach.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">

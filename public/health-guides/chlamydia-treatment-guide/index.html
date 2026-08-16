@@ -575,9 +575,15 @@ sup a:hover { text-decoration: underline; }
  width: 20px;
  height: 20px;
  flex-shrink: 0;
- transition: transform 0.3s;
+ transition: transform 0.3s ease;
  color: var(--tdmd-teal);
-}.tdmd-faq-item.tdmd-faq-open.tdmd-faq-icon { transform: rotate(45deg); }.tdmd-faq-answer {
+}
+.tdmd-faq-icon line {
+ transition: opacity 0.3s ease;
+}
+.tdmd-faq-item.tdmd-faq-open .tdmd-faq-icon line:first-child {
+ opacity: 0;
+}.tdmd-faq-answer {
  max-height: 0;
  overflow: hidden;
  transition: max-height 0.3s ease;
@@ -1060,108 +1066,81 @@ sup a:hover { text-decoration: underline; }
  What is the current first-line treatment for chlamydia?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>The CDC 2021 STI Treatment Guidelines designate doxycycline 100 mg orally twice daily for 7 days as the preferred first-line treatment for chlamydia in non-pregnant adolescents and adults.<sup><a href="#ref-1">[1]</a></sup> Azithromycin 1 g as a single oral dose is now listed as an alternative, not the primary recommendation. The switch was driven by clinical evidence showing doxycycline is significantly more effective for rectal chlamydial infections, which can occur concurrently in up to 33–83% of women with urogenital infection regardless of reported sexual behavior.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  Can chlamydia be treated through telehealth?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Yes. Chlamydia is one of the STIs most amenable to telehealth management. A clinician can review your sexual history, order NAAT testing at a local lab or via a home collection kit, and prescribe doxycycline or azithromycin electronically. Unlike gonorrhea, which requires an injectable antibiotic, chlamydia treatment is oral and can be dispensed at any pharmacy. Telehealth visits also allow clinicians to issue expedited partner therapy prescriptions in states where it is legally permitted.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  Do I need a test of cure after chlamydia treatment?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>For non-pregnant adults treated with doxycycline or azithromycin, routine test of cure is not recommended unless symptoms persist, adherence was questionable, or reinfection is suspected.<sup><a href="#ref-1">[1]</a></sup> The CDC specifically advises against NAAT testing within 4 weeks of completing treatment because residual non-viable organisms can produce false-positive results. For pregnant patients, test of cure by NAAT at approximately 4 weeks post-treatment is required, along with retesting at 3 months and in the third trimester if ongoing risk exists.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  What is expedited partner therapy for chlamydia?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Expedited partner therapy (EPT) is the practice of providing a prescription or medication directly to a patient to take to their sexual partners, without those partners being examined by a clinician first.<sup><a href="#ref-4">[4]</a></sup> The CDC recommends EPT for all patients diagnosed with chlamydia as a way to reduce reinfection and interrupt transmission chains. As of 2024, EPT is permissible in 48 states and the District of Columbia. Kansas and South Dakota currently do not allow the practice under existing state law.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  How common is chlamydia reinfection after treatment?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Reinfection rates are clinically significant. Studies report that 10–20% of patients are reinfected within 3 months of treatment, most commonly because partners were not treated concurrently.<sup><a href="#ref-9">[9]</a></sup> The CDC recommends retesting approximately 3 months after treatment for all patients — not because treatment failed, but because new exposure is common. Among adolescent women, reinfection rates within one year can reach 11–17%. Repeat infections increase the risk of pelvic inflammatory disease substantially.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  Can chlamydia cause long-term damage if untreated?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Yes. Untreated chlamydia in women can ascend to the upper reproductive tract and cause pelvic inflammatory disease (PID). Women with a confirmed chlamydia diagnosis have approximately 2.4 times the risk of PID, 1.9 times the risk of ectopic pregnancy, and 1.9 times the risk of infertility compared to women who test negative.<sup><a href="#ref-8">[8]</a></sup> In men, untreated chlamydia can cause epididymitis, which presents as scrotal pain and swelling and can affect fertility if untreated. Prompt treatment and partner notification are the most effective tools for preventing these outcomes.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  Who should be screened for chlamydia?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>The USPSTF and CDC recommend annual chlamydia screening for all sexually active women 24 years and younger, and for women 25 and older who have elevated risk factors (new or multiple partners, inconsistent condom use, or prior STI).<sup><a href="#ref-6">[6]</a></sup> All pregnant women under 25 should be screened at their first prenatal visit. Men who have sex with men should be screened at sites of contact — urethral and rectal — at least annually, and every 3 to 6 months if at elevated risk. Evidence is insufficient to recommend routine screening of heterosexual men at low risk, though screening is reasonable in high-prevalence settings.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  Why is azithromycin no longer the first choice for chlamydia?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Azithromycin remains effective for urogenital chlamydia in women. It lost its preferred status because of substantially lower efficacy for rectal chlamydial infection. A randomized controlled trial published in <em>Clinical Infectious Diseases</em> (2021) found microbiologic cure rates of 100% with doxycycline versus 74% with azithromycin for rectal chlamydia.<sup><a href="#ref-3">[3]</a></sup> Because rectal chlamydia co-occurs with urogenital infection in a large proportion of women — even without reported anal sex — the CDC concluded that doxycycline should be standard for all adults. It is not a resistance issue; it is about tissue penetration at the rectal mucosa.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  What is NAAT testing and why is it the standard for chlamydia?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Nucleic acid amplification testing (NAAT) detects <em>C. trachomatis</em> DNA or RNA with sensitivity typically above 90% and specificity above 99%.<sup><a href="#ref-7">[7]</a></sup> It outperforms older diagnostic methods — antigen detection tests, cell culture, and non-amplified probes — across all specimen types. NAAT can be run on vaginal swabs (preferred for women), first-catch urine (preferred for men), rectal swabs, and pharyngeal swabs using a single platform. A positive NAAT result is sufficient to treat — culture confirmation is not required in clinical practice.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">

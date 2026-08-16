@@ -544,9 +544,15 @@ sup a:hover { text-decoration: underline; }
  width: 20px;
  height: 20px;
  flex-shrink: 0;
- transition: transform 0.3s;
+ transition: transform 0.3s ease;
  color: var(--tdmd-teal);
-}.tdmd-faq-item.tdmd-faq-open.tdmd-faq-icon { transform: rotate(45deg); }.tdmd-faq-answer {
+}
+.tdmd-faq-icon line {
+ transition: opacity 0.3s ease;
+}
+.tdmd-faq-item.tdmd-faq-open .tdmd-faq-icon line:first-child {
+ opacity: 0;
+}.tdmd-faq-answer {
  max-height: 0;
  overflow: hidden;
  transition: max-height 0.3s ease;
@@ -1095,60 +1101,45 @@ sup a:hover { text-decoration: underline; }
  Can BV go away on its own without antibiotics?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>BV can occasionally resolve on its own, but this is not predictable or reliable enough to count on. Without antibiotics, symptoms often persist or worsen, and untreated BV increases your risk of STI acquisition, pelvic inflammatory disease, and — in pregnancy — preterm birth. The CDC recommends antibiotic treatment for all women with symptoms.<sup><a href="#ref-1">[1]</a></sup> Don't try to wait it out beyond a day or two, and never wait if you are pregnant.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  Is bacterial vaginosis an STI?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>BV is not classified as a sexually transmitted infection. It develops from a disruption in the vaginal bacterial ecosystem, not transmission of a single pathogen from a partner. That said, it is rare in women who have never been sexually active, and having new or multiple partners is the strongest known risk factor.<sup><a href="#ref-1">[1]</a></sup> Male partners are not treated routinely (though 2025 trial data may change this for recurrent cases). BV can be passed between female sexual partners and should prompt both partners to be evaluated.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  How do I know if I have BV or a yeast infection?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>The key symptom differences: BV causes thin, gray or white discharge with a strong fishy odor, especially noticeable after sex. Yeast infections cause thick, white, cottage cheese-like discharge with intense itching but little to no odor. BV rarely causes significant itching. Vaginal pH is elevated in BV (above 4.5) but normal in a yeast infection. The only reliable way to know is a clinical exam — many women who self-diagnose a yeast infection actually have BV, which explains why OTC antifungal treatment doesn't help.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  Why does BV keep coming back?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Recurrent BV is common — up to 50–66% of women experience a recurrence within 12 months of treatment.<sup><a href="#ref-3">[3]</a></sup> Two main reasons: antibiotics treat symptoms but don't restore protective <em>Lactobacillus</em> bacteria, and <em>Gardnerella vaginalis</em> forms biofilms on the vaginal walls that resist antibiotic penetration and allow bacteria to repopulate after treatment ends. Sexual activity with the same partner can also reintroduce the bacterial imbalance. Management for recurrent BV should include extended suppressive metronidazole therapy, intravaginal boric acid, and a conversation about partner treatment based on recent trial data.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  Is BV dangerous in pregnancy?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Yes — BV during pregnancy requires prompt treatment. BV is associated with roughly a two-fold increased risk of preterm birth, premature rupture of membranes, intra-amniotic infection, and postpartum endometritis.<sup><a href="#ref-5">[5]</a></sup> Persistent BV (requiring three or more treatment courses) is associated with an even higher preterm birth risk.<sup><a href="#ref-6">[6]</a></sup> The CDC recommends treating all symptomatic pregnant women with oral metronidazole 500 mg twice daily for 7 days, or oral clindamycin 300 mg twice daily for 7 days — both are considered safe during pregnancy.<sup><a href="#ref-1">[1]</a></sup> Routine screening of asymptomatic pregnant women for BV is not currently recommended, as treatment has not been shown to prevent preterm birth in low-risk pregnancies.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">

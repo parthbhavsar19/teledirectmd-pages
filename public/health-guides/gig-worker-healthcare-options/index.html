@@ -580,9 +580,15 @@ sup a:hover { text-decoration: underline; }
  width: 20px;
  height: 20px;
  flex-shrink: 0;
- transition: transform 0.3s;
+ transition: transform 0.3s ease;
  color: var(--tdmd-teal);
-}.tdmd-faq-item.tdmd-faq-open.tdmd-faq-icon { transform: rotate(45deg); }.tdmd-faq-answer {
+}
+.tdmd-faq-icon line {
+ transition: opacity 0.3s ease;
+}
+.tdmd-faq-item.tdmd-faq-open .tdmd-faq-icon line:first-child {
+ opacity: 0;
+}.tdmd-faq-answer {
  max-height: 0;
  overflow: hidden;
  transition: max-height 0.3s ease;
@@ -1020,60 +1026,45 @@ sup a:hover { text-decoration: underline; }
  What is the best health insurance option for gig workers?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>There is no single best option — it depends on your income, health needs, and state of residence. If your income is below 400% of the federal poverty level, ACA Marketplace plans with premium tax credits are often the most comprehensive choice. If your income is under 138% FPL in an expansion state, Medicaid is free or near-free. For lower-acuity, everyday health needs, a combination of direct primary care membership and a high-deductible catastrophic plan is a practical and cost-effective model used by many self-employed workers. Telehealth like TeleDirectMD can be layered into any of these strategies for convenient, affordable access to routine care.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  Can gig workers qualify for Medicaid?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Yes, in the 41 states (plus D.C.) that have expanded Medicaid under the ACA, adults with household income at or below 138% of the federal poverty level qualify regardless of employment type. Because gig income fluctuates, some workers qualify during lower-income months or seasons. Medicaid has no open enrollment window and can be applied for year-round through your state Medicaid office or HealthCare.gov. In non-expansion states, eligibility thresholds are significantly more restrictive — check your state's specific rules.<sup><a href="#ref-6">[6]</a></sup></p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  Is a health sharing ministry a legitimate alternative to insurance?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Health sharing ministries are not insurance and are not regulated by state insurance departments. Members voluntarily share each other's medical costs, but the organization has no legal obligation to pay your bills. They typically exclude pre-existing conditions, mental health, and substance use treatment, and may deny claims based on lifestyle conduct guidelines. For healthy individuals with predictable, low health needs, HSMs can be cost-effective as a backstop for unexpected large expenses. However, they carry real financial risk for anything serious or ongoing. Read the actual member guidelines — not just the marketing — before enrolling.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  What can telehealth treat for gig workers without insurance?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Telehealth is appropriate for a wide range of common conditions: sinus infections, UTIs, skin rashes, sore throat, cold and flu, pink eye, seasonal allergies, blood pressure management, prescription refills for stable chronic conditions such as hypertension, hypothyroidism, or hyperlipidemia, and more. TeleDirectMD treats over 60 conditions. Telehealth cannot replace in-person care when a physical exam, imaging, or lab work is essential to the diagnosis — and TeleDirectMD will tell you directly when your concern requires in-person evaluation rather than guessing.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  How much does a telehealth visit cost without insurance?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>TeleDirectMD visits start at $79 for self-pay patients — known upfront, with no facility fees or surprise billing. Payment is accepted via credit card, debit card, HSA, or FSA. By comparison, urgent care visits typically cost $100–$200 without insurance, and an emergency room visit averages over $1,000 before treatment. Insurance is accepted in select states for patients who have coverage.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">

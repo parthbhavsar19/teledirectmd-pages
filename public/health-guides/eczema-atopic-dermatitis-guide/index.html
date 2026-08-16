@@ -545,9 +545,15 @@ sup a:hover { text-decoration: underline; }
  width: 20px;
  height: 20px;
  flex-shrink: 0;
- transition: transform 0.3s;
+ transition: transform 0.3s ease;
  color: var(--tdmd-teal);
-}.tdmd-faq-item.tdmd-faq-open.tdmd-faq-icon { transform: rotate(45deg); }.tdmd-faq-answer {
+}
+.tdmd-faq-icon line {
+ transition: opacity 0.3s ease;
+}
+.tdmd-faq-item.tdmd-faq-open .tdmd-faq-icon line:first-child {
+ opacity: 0;
+}.tdmd-faq-answer {
  max-height: 0;
  overflow: hidden;
  transition: max-height 0.3s ease;
@@ -1174,60 +1180,45 @@ sup a:hover { text-decoration: underline; }
  Is eczema contagious?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>No, eczema is not contagious. You cannot catch atopic dermatitis from another person through physical contact, sharing towels, or any other means. Eczema is driven by a combination of genetic predisposition (including skin barrier gene mutations like filaggrin), immune system dysregulation, and environmental triggers. While the rashes can look alarming, they are an inflammatory response from your own immune system — not an infection that can spread to others.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  Can adults develop eczema for the first time?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Yes. While eczema most commonly begins in childhood — about 60% of cases appear within the first year of life — adult-onset atopic dermatitis is well recognized and may account for up to 25% of all adult AD cases. Adults who develop eczema for the first time should be evaluated to rule out other conditions that can mimic eczema, including contact dermatitis, psoriasis, cutaneous T-cell lymphoma, and drug reactions. A thorough history and sometimes a skin biopsy help distinguish true atopic dermatitis from its mimics.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  Are biologics and JAK inhibitors safe for long-term use?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Dupilumab has the longest safety track record among eczema biologics, with over 8 years of clinical trial and real-world data showing a favorable safety profile. Common side effects include conjunctivitis and injection site reactions, but serious adverse events are rare. Tralokinumab has demonstrated safety through 6 years of follow-up in the ECZTEND trial with no new safety signals. JAK inhibitors (upadacitinib, abrocitinib, baricitinib) are highly effective but carry specific monitoring requirements, including blood counts, lipid panels, and screening for infections. The topical JAK inhibitor ruxolitinib (Opzelura) has a better safety profile than oral versions due to limited systemic absorption. Your dermatologist will discuss the risk–benefit profile based on your individual health history.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  What is the best moisturizer for eczema?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>The best moisturizer is one you will use consistently, applied liberally and frequently. In general, ointments (like petroleum jelly) provide the strongest barrier protection, followed by creams, then lotions. Look for fragrance-free, dye-free products. Ceramide-containing moisturizers are particularly well-studied for eczema because they help restore the deficient lipid barrier. Apply moisturizer within 3 minutes of bathing to lock in hydration. the advice is patients to avoid products with common sensitizers like lanolin, parabens, and fragrances — the National Eczema Association maintains a "Seal of Acceptance" list that can help guide selection.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  How do I know if my child will outgrow eczema?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Many children do improve significantly — approximately 60–70% of children with eczema will see substantial improvement or clearance by adolescence. However, this varies widely. Children with mild disease, no filaggrin gene mutations, and no concurrent allergic conditions (asthma, food allergies) are more likely to outgrow it. Those with severe early-onset disease, a strong family history of atopy, and filaggrin mutations may have more persistent disease. Even when eczema resolves, many individuals retain a tendency toward dry, sensitive skin. Regardless of prognosis, effective treatment during childhood is important — controlling the disease reduces suffering and may help prevent the development of associated allergic conditions.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">

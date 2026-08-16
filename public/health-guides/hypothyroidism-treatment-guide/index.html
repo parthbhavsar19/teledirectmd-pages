@@ -562,9 +562,15 @@ sup a:hover { text-decoration: underline; }
  width: 20px;
  height: 20px;
  flex-shrink: 0;
- transition: transform 0.3s;
+ transition: transform 0.3s ease;
  color: var(--tdmd-teal);
-}.tdmd-faq-item.tdmd-faq-open.tdmd-faq-icon { transform: rotate(45deg); }.tdmd-faq-answer {
+}
+.tdmd-faq-icon line {
+ transition: opacity 0.3s ease;
+}
+.tdmd-faq-item.tdmd-faq-open .tdmd-faq-icon line:first-child {
+ opacity: 0;
+}.tdmd-faq-answer {
  max-height: 0;
  overflow: hidden;
  transition: max-height 0.3s ease;
@@ -1105,108 +1111,81 @@ sup a:hover { text-decoration: underline; }
  What is the standard starting dose of levothyroxine?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>For most adults with primary hypothyroidism and no cardiac disease, the full replacement dose is 1.6 mcg/kg/day.<sup><a href="#ref-2">[2]</a></sup> In older patients or those with heart disease, physicians typically start low — 25 to 50 mcg per day — and titrate slowly. TSH should be rechecked 6 to 8 weeks after any dose change. A dose that is correct on day one is uncommon; expect one or two adjustments before finding your optimal level.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  Should I take brand-name Synthroid or generic levothyroxine?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Both are FDA-approved and considered bioequivalent. Most patients do well on either. The key is consistency — switching between brand and generic, or between different generic manufacturers, can cause small TSH fluctuations. If your pharmacy changes your formulation, ask them to keep you on the same product. If a switch does occur, recheck your TSH in 6 to 8 weeks.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  When should subclinical hypothyroidism be treated?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>The ATA recommends treatment when TSH exceeds 10 mIU/L.<sup><a href="#ref-5">[5]</a></sup> For TSH between 4.5 and 10, treatment is considered on a case-by-case basis, weighing symptoms, TPO antibody status, age, and cardiovascular risk. In older adults (over 70) with mildly elevated TSH and no symptoms, watchful monitoring is typically preferred over treatment — the evidence for benefit in that group is limited, and the risks of overtreatment (bone loss, atrial fibrillation) are real.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  Why does levothyroxine need to be taken on an empty stomach?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Levothyroxine absorption peaks at approximately 75% of the dose when taken on an empty stomach.<sup><a href="#ref-4">[4]</a></sup> Food — especially coffee, dairy, and high-fiber items — physically binds to the medication or alters the gut environment in ways that reduce how much gets into your bloodstream. Calcium, iron, and proton pump inhibitors are the most clinically significant interactions and require at least 4 hours of separation. Taking levothyroxine with even a single cup of coffee in the morning has been shown to noticeably reduce absorption in some patients.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  Does hypothyroidism get worse during pregnancy?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Yes. Most women with hypothyroidism need 25 to 30% more levothyroxine once pregnant, often requiring an immediate increase from 7 to 9 doses per week when pregnancy is confirmed.<sup><a href="#ref-3">[3]</a></sup> TSH targets tighten during pregnancy — below 2.5 mIU/L in the first trimester is the general goal. TSH should be checked every 4 weeks during the first half of pregnancy. Do not wait for your first prenatal visit at 10 to 12 weeks to address this — the first trimester is when fetal brain development is most dependent on adequate maternal thyroid hormone.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  What is Hashimoto's thyroiditis and how does it relate to hypothyroidism?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Hashimoto's thyroiditis is an autoimmune condition in which the immune system attacks the thyroid gland and is the most common cause of hypothyroidism in the United States.<sup><a href="#ref-6">[6]</a></sup> The immune system produces antibodies (mainly TPO antibodies) that gradually damage hormone-producing cells. Over years, this damage reduces thyroid output enough to cause overt hypothyroidism. Being diagnosed with Hashimoto's does not automatically mean you need medication — it depends on your TSH and symptoms — but it does mean regular monitoring is warranted.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  Is Armour Thyroid or combination T4/T3 therapy better than levothyroxine alone?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Current ATA guidelines conclude that levothyroxine monotherapy should remain the standard treatment, and multiple randomized trials have not consistently shown benefit of T4/T3 combination therapy or desiccated thyroid (Armour Thyroid) over levothyroxine alone at the population level.<sup><a href="#ref-1">[1]</a></sup> That said, a real subset of patients do report feeling better on desiccated thyroid or combination therapy. For patients who remain symptomatic with a confirmed normal TSH on optimized levothyroxine — after ruling out other explanations — a supervised trial of an alternative formulation is a reasonable clinical conversation to have with your physician.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  What is myxedema coma and how serious is it?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Myxedema coma is a rare but life-threatening complication of severe, untreated hypothyroidism. It is characterized by altered mental status, hypothermia, bradycardia, and low blood pressure — essentially a systemic shutdown from complete thyroid hormone depletion.<sup><a href="#ref-12">[12]</a></sup> It requires immediate ICU care with IV thyroid hormone replacement. Mortality remains significant even with treatment. The good news is that consistent thyroid medication management makes it virtually preventable. It primarily affects patients with long-standing undiagnosed or neglected hypothyroidism.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  Can hypothyroidism symptoms overlap with depression?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Yes, and this overlap causes a meaningful number of missed diagnoses. Fatigue, cognitive slowing, low mood, weight gain, and sleep disturbance are common to both conditions. A TSH blood test can distinguish between them — it is one of the first things a physician should order when evaluating depressive symptoms, particularly in women and older adults. Treating depression without checking thyroid function misses a potentially straightforward and correctable diagnosis.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">

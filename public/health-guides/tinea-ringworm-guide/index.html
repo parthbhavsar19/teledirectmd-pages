@@ -547,9 +547,15 @@ sup a:hover { text-decoration: underline; }
  width: 20px;
  height: 20px;
  flex-shrink: 0;
- transition: transform 0.3s;
+ transition: transform 0.3s ease;
  color: var(--tdmd-teal);
-}.tdmd-faq-item.tdmd-faq-open.tdmd-faq-icon { transform: rotate(45deg); }.tdmd-faq-answer {
+}
+.tdmd-faq-icon line {
+ transition: opacity 0.3s ease;
+}
+.tdmd-faq-item.tdmd-faq-open .tdmd-faq-icon line:first-child {
+ opacity: 0;
+}.tdmd-faq-answer {
  max-height: 0;
  overflow: hidden;
  transition: max-height 0.3s ease;
@@ -1139,84 +1145,63 @@ sup a:hover { text-decoration: underline; }
  Is ringworm actually caused by a worm?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>No — the name is misleading. Ringworm is a fungal infection caused by dermatophytes, not worms of any kind. The name comes from the characteristic ring-shaped rash that tinea corporis can produce on smooth skin. The fungi responsible — <em>Trichophyton</em>, <em>Microsporum</em>, and <em>Epidermophyton</em> — feed on keratin, the protein in your skin, hair, and nails. No parasitic worms are involved.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  Can ringworm is treated with over-the-counter creams?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>For tinea on the body, groin, or feet, yes — OTC antifungal creams containing terbinafine 1%, clotrimazole 1%, or miconazole 2% are effective for most cases. Apply for the full recommended duration (1–4 weeks depending on the product and location). Stopping early because the rash looks better is the most common reason for recurrence. Tinea on the scalp and nail infections cannot be cleared with topical creams and require prescription oral antifungals.<sup><a href="#ref-1">[1]</a></sup></p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  How long does it take for antifungal treatment to work?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>For skin infections treated topically, meaningful improvement typically appears within 1–2 weeks, but the full course must be completed. Tinea capitis with oral terbinafine usually clears in 4–6 weeks. Nail fungus is the slowest — 12 weeks of oral terbinafine for toenails clears the infection, but visual nail improvement requires months of nail regrowth. The nail itself can take 6–12 months to look normal even after the fungus is gone. This does not mean treatment failed; it means nails grow slowly.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  Is ringworm contagious?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Yes. Dermatophyte infections spread through direct skin-to-skin contact, contact with contaminated items (towels, combs, locker room floors), and from infected animals. Tinea capitis spreads easily among children sharing hats or combs. Cats and dogs with patchy hair loss or scaly skin can transmit <em>Microsporum canis</em> to family members. Avoid sharing personal items, wear footwear in shared wet areas, and have any household pet with suspicious skin changes evaluated by a veterinarian.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  Why does my ringworm keep spreading even though I'm treating it?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Several possibilities: a steroid cream may have been applied (which worsens tinea by suppressing the immune response while the fungus continues to spread — this is tinea incognito), treatment may have been stopped too early, or reinfection is occurring from contaminated clothing, bedding, or a household contact. Toenail fungus can continuously re-seed a treated skin infection if it isn't addressed simultaneously. A KOH preparation confirms whether you're still dealing with a fungal infection or whether the diagnosis needs to be reconsidered.<sup><a href="#ref-5">[5]</a></sup></p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  When does nail fungus require oral treatment?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Almost always. Topical nail lacquers (ciclopirox, efinaconazole, tavaborole) are an option for very mild cases — specifically, infections limited to the distal nail tip without matrix involvement. Most onychomycosis, especially cases where the nail root or more than a third of the nail is involved, requires oral terbinafine or itraconazole. Oral terbinafine 250 mg daily for 6 weeks (fingernails) or 12 weeks (toenails) is first-line. Confirm the diagnosis with KOH and culture before committing to oral therapy.<sup><a href="#ref-1">[1]</a></sup></p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  Why can't my child's scalp ringworm be treated with a cream?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Tinea capitis infects the hair shaft inside the follicle. Topical creams — even prescription-strength — cannot penetrate deeply enough to reach the fungus at that level. Oral antifungal therapy is the only effective approach. Antifungal shampoos reduce surface spore counts and lower transmission risk, and are used alongside oral therapy for the first 2 weeks — but as an adjunct, not a replacement. Oral terbinafine dosed by weight is standard first-line for the <em>Trichophyton</em> species that dominate in the U.S.<sup><a href="#ref-4">[4]</a></sup></p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">

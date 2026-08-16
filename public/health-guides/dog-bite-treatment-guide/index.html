@@ -549,9 +549,15 @@ sup a:hover { text-decoration: underline; }
  width: 20px;
  height: 20px;
  flex-shrink: 0;
- transition: transform 0.3s;
+ transition: transform 0.3s ease;
  color: var(--tdmd-teal);
-}.tdmd-faq-item.tdmd-faq-open.tdmd-faq-icon { transform: rotate(45deg); }.tdmd-faq-answer {
+}
+.tdmd-faq-icon line {
+ transition: opacity 0.3s ease;
+}
+.tdmd-faq-item.tdmd-faq-open .tdmd-faq-icon line:first-child {
+ opacity: 0;
+}.tdmd-faq-answer {
  max-height: 0;
  overflow: hidden;
  transition: max-height 0.3s ease;
@@ -1153,84 +1159,63 @@ sup a:hover { text-decoration: underline; }
  Do all dog bites need antibiotics?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>No. Low-risk dog bites — shallow lacerations on the trunk or limbs in healthy adults, treated promptly with irrigation — generally do not require prophylactic antibiotics. Antibiotic prophylaxis is reserved for high-risk wounds: hand bites, deep punctures, crush injuries, face bites that are sutured, and bites in immunocompromised or asplenic patients. The standard choice is amoxicillin-clavulanate 875/125 mg twice daily for 3 to 5 days.<sup><a href="#ref-2">[2]</a></sup></p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  Do I need a rabies shot after a dog bite?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>It depends on the dog. A domestic dog with a current rabies vaccination and a known owner can be observed for 10 days. If the dog remains healthy, no rabies post-exposure prophylaxis (PEP) is needed.<sup><a href="#ref-4">[4]</a></sup> PEP — human rabies immune globulin plus a 4-dose vaccine series — is indicated for stray dogs with unknown vaccination status, wild animals, or any dog that cannot be observed. Your local health department guides final decisions based on local epidemiology.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  Should I wash a dog bite immediately?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Yes — immediately and thoroughly. Running the wound under clean water with soap for 5 minutes is the single most important first step. In animal studies, wound washing alone has been shown to significantly reduce rabies transmission risk.<sup><a href="#ref-4">[4]</a></sup> At a medical setting, formal wound irrigation uses at least 250 mL of saline or sterile water under moderate pressure. Do not scrub the wound with a brush — that can drive bacteria deeper into tissue.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  What bacteria are in a dog's mouth?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Dog bites are polymicrobial. The most common pathogen is <em>Pasteurella canis</em>, which can cause rapidly progressive cellulitis within 24 hours. Other organisms include <em>Streptococcus</em>, <em>Staphylococcus</em>, <em>Capnocytophaga canimorsus</em>, and various anaerobes.<sup><a href="#ref-2">[2]</a></sup> <em>Capnocytophaga</em> is harmless in healthy people but can cause life-threatening sepsis in asplenic or severely immunocompromised individuals. This polymicrobial nature is why broad-spectrum coverage with amoxicillin-clavulanate is the right choice — not a narrow-spectrum agent — when antibiotics are warranted.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  When should a dog bite wound be stitched closed?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Closure decisions depend on location. Facial wounds are generally closed immediately because excellent blood supply limits infection risk and cosmetic outcome matters — a 2025 study found no significant difference in infection rates between immediate and delayed facial closure when irrigation was thorough.<sup><a href="#ref-3">[3]</a></sup> Hand wounds are typically left open or loosely approximated due to high infection risk. Deep puncture wounds on any body part should remain open. Your physician will weigh location, time since injury, contamination, and your immune status together.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  When do I need a tetanus shot after a dog bite?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Dog bites are classified as dirty wounds. Per CDC guidance, a Tdap or Td booster is recommended if your last dose was more than 5 years ago.<sup><a href="#ref-3b">[3]</a></sup> If you have never completed a primary tetanus series (3 doses), you should receive both the vaccine and tetanus immune globulin (TIG). Tdap is preferred over plain Td if you have not received a Tdap dose as an adult, since it also protects against pertussis. Antibiotics do not prevent tetanus and cannot substitute for vaccination.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
  What are signs a dog bite is getting infected?
  <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
  </button>
- <div class="tdmd-faq-answer">
- <div class="tdmd-faq-answer-inner">
+ <div class="tdmd-faq-answer"><div class="tdmd-faq-answer-inner"> <div class="tdmd-faq-answer-inner">
  <p>Infection signs typically develop 24 to 72 hours after the bite. Watch for increasing redness spreading beyond the wound edge, warmth, swelling, pus or cloudy discharge, red streaking extending from the wound (lymphangitis), fever, or worsening pain. <em>Pasteurella</em> infections, in particular, can progress rapidly — significant cellulitis within a single day is possible. Seek care promptly if any of these signs appear, even if the wound initially looked minor. For asplenic patients, any systemic symptoms after a dog bite warrant urgent evaluation.</p>
- </div>
- </div>
- </div>
+ </div></div></div></div>
 
  <div class="tdmd-faq-item">
  <button class="tdmd-faq-question" aria-expanded="false">
