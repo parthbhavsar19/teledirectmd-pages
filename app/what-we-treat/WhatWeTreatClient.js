@@ -187,7 +187,7 @@ function ByTheNumbers({ totalConditions, stateCount }) {
       <div className="wwt-container">
         <div className="wwt-head">
           <span className="wwt-eyebrow">By the numbers</span>
-          <h2>Broad care. One price. Nearly every state.</h2>
+          <h2>Real doctor care. Real prices. Real reach.</h2>
         </div>
         <div className="wwt-numbers-grid">
           <div className="wwt-stat">

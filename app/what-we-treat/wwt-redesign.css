@@ -43,13 +43,13 @@
   padding:12px 20px; border-radius:999px; border:1px solid transparent; cursor:pointer;
   transition:background .18s ease, color .18s ease, border-color .18s ease, transform .18s ease;
 }
-.wwt-btn-primary { background:var(--wwt-teal); color:#fff; }
+.wwt-btn-primary { background:var(--wwt-teal); color:#fff; -webkit-text-fill-color:#fff; }
 .wwt-btn-primary:hover { background:var(--wwt-teal-dark); }
 .wwt-btn-lg { padding:15px 26px; font-size:16px; }
-.wwt-btn-on-dark { background:#fff; color:var(--wwt-ink); }
-.wwt-btn-on-dark:hover { background:#EEF3F3; }
-.wwt-btn-outline-light { background:transparent; border-color:rgba(255,255,255,.35); color:#fff; }
-.wwt-btn-outline-light:hover { border-color:#fff; background:rgba(255,255,255,.08); }
+.wwt-btn-on-dark { background:#fff; color:#0B1F24; -webkit-text-fill-color:#0B1F24; }
+.wwt-btn-on-dark:hover { background:#EEF3F3; color:#0B1F24; -webkit-text-fill-color:#0B1F24; }
+.wwt-btn-outline-light { background:transparent; border-color:rgba(255,255,255,.35); color:#fff; -webkit-text-fill-color:#fff; }
+.wwt-btn-outline-light:hover { border-color:#fff; background:rgba(255,255,255,.08); color:#fff; -webkit-text-fill-color:#fff; }
 
 /* ---------- Hero ---------- */
 .wwt-hero {
@@ -219,11 +219,11 @@
 .wwt-link:hover { color:var(--wwt-teal); text-decoration:underline; text-underline-offset:3px; }
 .wwt-book-now {
   display:inline-flex; align-items:center; gap:6px;
-  font-size:13.5px; font-weight:600; color:#fff; background:var(--wwt-teal);
-  padding:8px 14px; border-radius:999px; letter-spacing:.01em;
+  font-size:13.5px; font-weight:600; color:#fff; -webkit-text-fill-color:#fff;
+  background:var(--wwt-teal); padding:8px 14px; border-radius:999px; letter-spacing:.01em;
   transition:background .18s ease, transform .18s ease;
 }
-.wwt-book-now:hover { background:var(--wwt-teal-dark); transform:translateY(-1px); }
+.wwt-book-now:hover { background:var(--wwt-teal-dark); color:#fff; -webkit-text-fill-color:#fff; transform:translateY(-1px); }
 .wwt-empty { padding:60px 0; text-align:center; color:var(--wwt-muted); }
 .wwt-linky { background:none; border:0; padding:0; font:inherit; color:var(--wwt-teal); cursor:pointer; text-decoration:underline; text-underline-offset:3px; }
 
