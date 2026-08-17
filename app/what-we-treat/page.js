@@ -4,6 +4,12 @@ import WhatWeTreatClient from './WhatWeTreatClient';
 import { CitableSummaryBlock } from '../components/CitableSummary';
 import { summarizeWhatWeTreat, citableSummaryToJsonLd } from '../../lib/citable-summary';
 
+/* ── Medical content review date ──────────────────────────────────────────
+   Single source of truth for the date shown in the byline and stamped into
+   JSON-LD as both dateModified and lastReviewed. Bump this when you
+   substantively update the page's medical content or scope.               */
+const MEDICAL_REVIEW_DATE = '2026-08-17';
+
 /* ── Metadata ── */
 export async function generateMetadata() {
   const categories = getConditionCategories();
@@ -71,7 +77,8 @@ function buildJsonLd(categories, allStates) {
         about: { '@id': `${baseUrl}#organization` },
         mainEntity: { '@id': `${baseUrl}/what-we-treat#servicecatalog` },
         publisher: { '@id': `${baseUrl}#organization` },
-        lastReviewed: new Date().toISOString().split('T')[0],
+        dateModified: MEDICAL_REVIEW_DATE,
+        lastReviewed: MEDICAL_REVIEW_DATE,
         reviewedBy: { '@id': `${baseUrl}#physician` },
         specialty: ['Family Medicine', 'Urgent Care', 'Telemedicine', 'Dermatology'],
         audience: { '@type': 'MedicalAudience', audienceType: 'Patient', suggestedMinAge: 18 },
@@ -201,6 +208,7 @@ export default function WhatWeTreatPage() {
         categories={categories}
         conditionDescriptions={conditionDescriptions}
         stateCount={allStates.length}
+        reviewDate={MEDICAL_REVIEW_DATE}
       />
     </>
   );

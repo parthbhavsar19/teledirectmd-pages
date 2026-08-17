@@ -255,6 +255,7 @@
 
 /* ---------- Final CTA ---------- */
 .wwt-final { padding:96px 0; text-align:center; background:var(--wwt-bg); border-top:1px solid var(--wwt-line); }
+.wwt-byline + .wwt-final { border-top:0; }
 .wwt-final h2 { font-family:var(--wwt-serif); font-weight:400; font-size:clamp(32px,4.2vw,52px); letter-spacing:-.02em; margin:0 0 14px; }
 .wwt-final p { color:var(--wwt-ink-2); max-width:54ch; margin:0 auto 30px; }
 .wwt-badges { display:flex; gap:10px; flex-wrap:wrap; justify-content:center; margin-top:26px; }

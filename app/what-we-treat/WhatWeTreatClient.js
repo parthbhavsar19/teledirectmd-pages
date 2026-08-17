@@ -246,7 +246,14 @@ function ByTheNumbers({ totalConditions, stateCount }) {
 }
 
 /* ── Main client component ───────────────────────────────────────────────── */
-export default function WhatWeTreatClient({ categories, conditionDescriptions, stateCount }) {
+function formatReviewDate(iso) {
+  if (!iso) return '';
+  const [y, m, d] = iso.split('-').map(Number);
+  const dt = new Date(Date.UTC(y, m - 1, d));
+  return dt.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' });
+}
+
+export default function WhatWeTreatClient({ categories, conditionDescriptions, stateCount, reviewDate }) {
   const [query, setQuery] = useState('');
   const [activeCat, setActiveCat] = useState('all');
 
@@ -478,6 +485,21 @@ export default function WhatWeTreatClient({ categories, conditionDescriptions, s
           <p className="wwt-ins-all"><a href="/insurance">Check all coverage by state →</a></p>
         </div>
       </section>
+
+      {/* Byline */}
+      {reviewDate && (
+        <aside className="wwt-byline" aria-label="Medical review">
+          <div className="wwt-container">
+            <p>
+              Last updated by{' '}
+              <a href="/about" rel="author">Parth Bhavsar, MD</a>
+              {' '}on{' '}
+              <time dateTime={reviewDate}>{formatReviewDate(reviewDate)}</time>.
+              {' '}Physician-written and reviewed for clinical accuracy.
+            </p>
+          </div>
+        </aside>
+      )}
 
       {/* Bottom CTA */}
       <section className="wwt-final">
