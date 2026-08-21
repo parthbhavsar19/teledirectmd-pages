@@ -102,6 +102,22 @@ export default async function ComparePage({ params }) {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <style>{`
+        @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&display=swap');
+        .tdmd-hero{background:linear-gradient(160deg,#012f3e 0%,#01465a 60%,#065f6b 100%) !important;color:#fff;}
+        .tdmd-hero h1{font-family:'Fraunces',Georgia,serif !important;font-weight:600;letter-spacing:-0.01em;color:#fff !important;}
+        .tdmd-hero .tdmd-hero-sub{color:#d7ebee;}
+        .tdmd-hero .tdmd-hero-copy > p{color:#cfe6e9;}
+        .tdmd-hero .tdmd-hero-benefits li{color:#e2f0f2;}
+        .tdmd-hero .tdmd-hero-benefits li::before{color:#E8A33D;}
+        .tdmd-hero .tdmd-btn-primary{background:#E8A33D !important;color:#08313f !important;font-weight:700;border:none;box-shadow:0 10px 26px rgba(232,163,61,.3);}
+        .tdmd-hero .tdmd-btn-outline{border:1px solid rgba(255,255,255,.45) !important;color:#fff !important;background:transparent !important;}
+        .tdmd-hero .tdmd-hero-card{background:#fff !important;color:#12303b;border-radius:18px;box-shadow:0 18px 46px rgba(0,0,0,.26);}
+        .tdmd-hero .tdmd-hero-card h2{color:#003E52;}
+        .tdmd-hero .tdmd-hero-note{color:#5c7078;}
+        .tdmd-hero .tdmd-reviewed{color:#9fc6ca;}
+        .tdmd-hero .tdmd-reviewed a{color:#fff;text-decoration:underline;}
+      `}</style>
       <CitableSummaryBlock summary={citableSummary_AI} jsonLd={citableJsonLd_AI} idSuffix={`compare-${competitor}`} />
 
       {/* 1) Breadcrumb */}
