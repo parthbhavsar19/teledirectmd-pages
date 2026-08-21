@@ -109,7 +109,7 @@ export default async function CostPage({ params }) {
       'name': `How much does ${conditionLabel} cost in 2026?`,
       'acceptedAnswer': {
         '@type': 'Answer',
-        'text': cfg.citableSummary.replace(/<[^>]+>/g, ''), // strip inline HTML for the plain-text schema field
+        'text': cfg.citableSummary.replace(/<[^>]+>/g, '') + (cfg.costPlus ? ` Cost Plus Drugs: ${cfg.costPlus.drug}${cfg.costPlus.price ? ` — ${cfg.costPlus.price}` : ''}. ${cfg.costPlus.note}.` : ''), // strip inline HTML for the plain-text schema field
       },
     }],
   } : null;
