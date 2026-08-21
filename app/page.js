@@ -15,10 +15,10 @@ export const metadata = {
     type: 'website',
     images: [
       {
-        url: 'https://teledirectmd.com/images/dr-parth-bhavsar.jpg',
-        width: 500,
-        height: 600,
-        alt: 'Dr. Parth Bhavsar, MD — TeleDirectMD Founder',
+        url: 'https://teledirectmd.com/images/tdmd-og-navy.png',
+        width: 1200,
+        height: 630,
+        alt: 'TeleDirectMD — Physician-Only Telemedicine, $79 Video Visit, 44 States + DC',
       },
     ],
   },
@@ -27,7 +27,7 @@ export const metadata = {
     title: 'TeleDirectMD | $79 Online Doctor Visits',
     description:
       'Board-certified telehealth for $79. No insurance needed. 60+ conditions treated across 44 states + DC.',
-    images: ['https://teledirectmd.com/images/dr-parth-bhavsar.jpg'],
+    images: ['https://teledirectmd.com/images/tdmd-og-navy.png'],
   },
 };
 

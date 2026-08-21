@@ -5,6 +5,20 @@ import Analytics from './components/Analytics';
 
 export const metadata = {
   metadataBase: new URL('https://teledirectmd.com'),
+  openGraph: {
+    images: [
+      {
+        url: 'https://teledirectmd.com/images/tdmd-og-navy.png',
+        width: 1200,
+        height: 630,
+        alt: 'TeleDirectMD — Physician-Only Telemedicine',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    images: ['https://teledirectmd.com/images/tdmd-og-navy.png'],
+  },
 };
 
 export default function RootLayout({ children }) {
