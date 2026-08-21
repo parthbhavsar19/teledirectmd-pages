@@ -241,6 +241,9 @@ export default function UtiAntibioticsPage({ price = '79' }) {
           <p className="uap-kicker">Every option, priced</p>
           <h2>UTI antibiotic cost by medication</h2>
           <p className="uap-lead">Lowest GoodRx cash price for a standard course. All require a prescription; the visit is separate.</p>
+          <p className="uap-lead" style={{ marginTop: '0.5rem' }}>
+            <strong>Cost Plus Drugs:</strong> nitrofurantoin — $5–$8 (cost + 15% + $5 fee, no insurance required).
+          </p>
           {/* Reciprocal link back to /cost/uti-treatment-cost/.
 
              That page linked here twice; nothing linked back. It is the stronger,

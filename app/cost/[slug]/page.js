@@ -89,6 +89,7 @@ export default async function CostPage({ params }) {
     medicalCondition: cfg.medicalCondition,
     service: cfg.service,
     procedure: cfg.procedure,
+    costPlus: cfg.costPlus,
   });
 
   // ── AI-visibility FAQPage schema. Emits a standalone Question/Answer pair

@@ -210,6 +210,11 @@ export default function CostPageRedesign({ cfg, relatedCost = [], comparePages =
           <div className="cxr-wrap cxr-prose" data-speakable="true">
             {p.answerLead && <p className="cxr-kicker">{p.answerLead}</p>}
             <p dangerouslySetInnerHTML={html(p.answerBody)} />
+            {p.costPlus && (
+              <p className="cxr-costplus" style={{ margin: '0 0 1rem' }}>
+                <strong>Cost Plus Drugs:</strong> {p.costPlus.drug}{p.costPlus.price ? ` — ${p.costPlus.price}` : ''}. {p.costPlus.note}.
+              </p>
+            )}
             {p.heroIntro && <p dangerouslySetInnerHTML={html(p.heroIntro)} />}
           </div>
         </section>
