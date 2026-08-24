@@ -5,6 +5,13 @@
   "trailingSlash": true,
   "routes": [
     {
+      "src": "/who-we-serve/world-cup-2026/?",
+      "headers": {
+        "Location": "/who-we-serve/international-visitors/"
+      },
+      "status": 301
+    },
+    {
       "src": "/virtual-urgent-care/?",
       "headers": {
         "Location": "/what-we-treat/"

@@ -55,11 +55,11 @@ const STATIC_ROUTES = [
   { path: '/clinical-evidence/rural-telemedicine-alaska', priority: 0.8, changefreq: 'monthly' },
 ];
 
-// Who We Serve segments (11 pages)
+// Who We Serve segments (10 pages)
 const WWS_SEGMENTS = [
   'uninsured-affordable-care', 'truck-drivers', 'travel-nurses', 'small-business-owners',
   'remote-workers', 'military-families', 'international-visitors', 'early-retirees',
-  'college-students', 'hdhp-hsa-holders', 'world-cup-2026',
+  'college-students', 'hdhp-hsa-holders',
 ];
 
 // Insurer state slugs (full state names used by hub routes)

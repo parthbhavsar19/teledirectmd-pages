@@ -1232,10 +1232,6 @@ export default function InternationalVisitorsPage() {
         <div className="tdmd-container">
           <h2>Who Else We Serve</h2>
           <div className="tdmd-related-grid">
-            <a href="/who-we-serve/world-cup-2026" className="tdmd-related-card">
-              <div className="tdmd-related-title">World Cup 2026 Visitors</div>
-              <div className="tdmd-related-desc">In the US for the tournament without US insurance? Care in 10 of 11 host cities.</div>
-            </a>
             <a href="/who-we-serve/college-students" className="tdmd-related-card">
               <div className="tdmd-related-title">College Students</div>
               <div className="tdmd-related-desc">Away at school and need a doctor? Same-day visits, 44 states + D.C.</div>

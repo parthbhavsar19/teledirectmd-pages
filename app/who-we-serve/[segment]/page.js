@@ -11,7 +11,6 @@ import EarlyRetireesPage from './EarlyRetireesPage';
 import CollegeStudentsPage from './CollegeStudentsPage';
 import MilitaryFamiliesPage from './MilitaryFamiliesPage';
 import HdhpHsaHoldersPage from './HdhpHsaHoldersPage';
-import WorldCup2026Page from './WorldCup2026Page';
 import FlightAttendantsPage from './FlightAttendantsPage';
 import { WhoWeServePricingCTA } from '../../components/CostCompareModules';
 import { CitableSummaryBlock } from '../../components/CitableSummary';
@@ -31,7 +30,6 @@ const SEGMENT_PRICING_CONFIG = {
   'international-visitors':     { hook: '$79 flat (≈ £59 / €69 / CAD 112 as of July 2026) versus $250–$350 for a US in-person cash-pay visit. Receipt suitable for travel-insurance reimbursement.', related: null },
   'military-families':          { hook: 'PCS to a new state? Same physician at $79 flat. HSA/FSA accepted; visit summary to share with your home-station provider.', related: null },
   'hdhp-hsa-holders':           { hook: 'High-deductible plan? $79 flat, HSA/FSA card accepted at checkout. Itemized receipt counts toward your deductible.', related: { slug: 'online-prescription-cost', title: 'Online Prescription Cost', tagline: '$79 visit + $4–$30 generic via GoodRx for stable refills.' } },
-  'world-cup-2026':             { hook: 'In the US for the 2026 World Cup without US insurance? $79 flat — versus $150–$350 cash-pay urgent care or a $500–$3,000+ ER bill. Receipt suitable for travel-insurance reimbursement.', related: null },
   'flight-attendants':          { hook: 'On a layover with a UTI or sinus infection? $79 flat — reachable from your hotel, versus $150–$350 for an unfamiliar urgent care in a city you leave tomorrow.', related: { slug: 'uti-treatment-cost', title: 'UTI Treatment Cost', tagline: 'Telehealth UTI total $80–$145 vs. urgent care $160–$320.' } },
 };
 
@@ -76,7 +74,6 @@ function renderSegment(slug) {
     case 'college-students':           return <CollegeStudentsPage />;
     case 'military-families':          return <MilitaryFamiliesPage />;
     case 'hdhp-hsa-holders':           return <HdhpHsaHoldersPage />;
-    case 'world-cup-2026':             return <WorldCup2026Page />;
     case 'flight-attendants':          return <FlightAttendantsPage />;
     default:                           return null;
   }
