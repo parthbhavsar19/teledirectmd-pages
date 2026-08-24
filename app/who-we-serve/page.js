@@ -12,12 +12,22 @@ export const metadata = {
     url: 'https://teledirectmd.com/who-we-serve',
     siteName: 'TeleDirectMD',
     type: 'website',
+    images: [
+      {
+        url: 'https://teledirectmd.com/assets/who-we-serve/hero.webp',
+        width: 1600,
+        height: 900,
+        alt: 'TeleDirectMD — telehealth for the communities we serve',
+      },
+    ],
   },
 };
 
 export default function WhoWeServeHub() {
   const baseUrl = 'https://teledirectmd.com';
-  const segments = Object.values(audienceSegments);
+  const segments = Object.values(audienceSegments).sort(
+    (a, b) => (a.sortOrder ?? 99) - (b.sortOrder ?? 99)
+  );
 
   const breadcrumbJsonLd = {
     "@context": "https://schema.org",
@@ -66,16 +76,30 @@ export default function WhoWeServeHub() {
       {/* Hero */}
       <section className="tdmd-hero">
         <div className="tdmd-container">
-          <h1>Telehealth Built for People Who Can't Always Stop — Healthcare That Travels With You</h1>
-          <p className="tdmd-hero-sub" style={{ maxWidth: '72ch' }}>
-            Licensed physician. 44 states. Same-day visits, evenings & weekends. No insurance required.
-          </p>
-          <p style={{ maxWidth: '72ch', lineHeight: '1.6' }}>
-            TeleDirectMD provides secure video visits with a board-certified physician for adults across 44 states. Everyone deserves access to quality healthcare — but some people face barriers that make it harder. Whether you're driving cross-country, delivering groceries at midnight, freelancing without employer benefits, or recently lost your insurance coverage, TeleDirectMD was built to meet you where you are.
-          </p>
-          <p style={{ maxWidth: '72ch', lineHeight: '1.6' }}>
-            Below, you'll find information tailored to specific communities we serve. Each page addresses the unique health challenges, access barriers, and questions relevant to your situation — along with how TeleDirectMD can help.
-          </p>
+          <div className="tdmd-hero-grid">
+            <div className="tdmd-hero-copy">
+              <h1>Telehealth Built for People Who Can't Always Stop — Healthcare That Travels With You</h1>
+              <p className="tdmd-hero-sub" style={{ maxWidth: '72ch' }}>
+                Licensed physician. 44 states. Same-day visits, evenings & weekends. No insurance required.
+              </p>
+              <p style={{ maxWidth: '72ch', lineHeight: '1.6' }}>
+                TeleDirectMD provides secure video visits with a board-certified physician for adults across 44 states. Everyone deserves access to quality healthcare — but some people face barriers that make it harder. Whether you're driving cross-country, delivering groceries at midnight, freelancing without employer benefits, or recently lost your insurance coverage, TeleDirectMD was built to meet you where you are.
+              </p>
+              <p style={{ maxWidth: '72ch', lineHeight: '1.6' }}>
+                Below, you'll find information tailored to specific communities we serve. Each page addresses the unique health challenges, access barriers, and questions relevant to your situation — along with how TeleDirectMD can help.
+              </p>
+            </div>
+            <div className="tdmd-hero-side">
+              <img
+                src="/assets/who-we-serve/hero.webp"
+                alt="Illustration of the communities TeleDirectMD serves — truck drivers, gig workers, travel nurses, travelers, and students connecting with a doctor by video"
+                width={640}
+                height={360}
+                loading="eager"
+                style={{ width: '100%', height: 'auto', borderRadius: 'var(--tdmd-radius)', display: 'block' }}
+              />
+            </div>
+          </div>
         </div>
       </section>
 
@@ -104,6 +128,14 @@ export default function WhoWeServeHub() {
                   gap: '0.5rem'
                 }}
               >
+                <img
+                  src={seg.icon}
+                  alt=""
+                  width={48}
+                  height={48}
+                  loading="lazy"
+                  style={{ width: '48px', height: '48px', objectFit: 'contain' }}
+                />
                 <h3 style={{ margin: 0, color: 'var(--tdmd-navy)' }}>{seg.name}</h3>
                 <p style={{ margin: 0, color: 'var(--tdmd-muted)', fontSize: '0.95rem', lineHeight: '1.5' }}>
                   {seg.shortDescription}
