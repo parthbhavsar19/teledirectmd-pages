@@ -358,5 +358,9 @@
   "flu-test-guide": {
     "question": "What is a flu test and how is flu diagnosed?",
     "answerHtml": "A flu test detects influenza virus in a nasal or throat swab. The two main types are rapid antigen tests and molecular tests. Rapid antigen tests give results in about 10 to 15 minutes but have only moderate sensitivity, roughly <a href=\"https://www.cdc.gov/flu/hcp/testing-methods/rapidclin.html\">50% to 70%</a>, so a negative result does not rule out flu. Molecular tests, including RT-PCR and rapid molecular assays, are the gold standard with <a href=\"https://www.cdc.gov/flu/hcp/testing-methods/index.html\">90% to 100%</a> sensitivity. The <a href=\"https://pubmed.ncbi.nlm.nih.gov/30566567/\">IDSA</a> recommends molecular testing over antigen testing when the result will change care. At-home combined flu and COVID-19 tests are available over the counter but use antigen technology, so they carry the same risk of false negatives."
+  },
+  "flu-treatment-guide": {
+    "question": "How do you treat the flu?",
+    "answerHtml": "Most flu is treated at home with rest, fluids, and over-the-counter medicine such as acetaminophen or ibuprofen for fever and body aches. Antiviral medication can shorten the illness when started within 48 hours: <a href=\"https://pubmed.ncbi.nlm.nih.gov/24811411/\">oseltamivir (Tamiflu)</a> shortens symptoms by about 16.8 hours on average, and <a href=\"https://pubmed.ncbi.nlm.nih.gov/30184455/\">baloxavir (Xofluza)</a> by about 26.5 hours. Per the <a href=\"https://pubmed.ncbi.nlm.nih.gov/30566567/\">IDSA</a>, antivirals are especially important for high-risk and hospitalized patients. Most people recover in <a href=\"https://www.cdc.gov/flu/signs-symptoms/index.html\">3 to 7 days</a>, though cough and fatigue can linger for two weeks or more. Antibiotics do not treat the flu, which is caused by a virus."
   }
 }
