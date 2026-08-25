@@ -354,5 +354,9 @@
   "flu-shot-side-effects-guide": {
     "question": "What are the most common flu shot side effects?",
     "answerHtml": "The most common flu shot side effects are soreness, redness, or swelling at the injection site, along with headache, low-grade fever, muscle aches, and fatigue, according to the <a href=\"https://www.cdc.gov/flu/vaccine-safety/index.html\">CDC</a>. These are generally mild and resolve on their own within a few days, and many people report no side effects at all. The flu shot cannot cause the flu, because it is made with inactivated (killed) virus or a single viral protein. Serious side effects such as severe allergic reactions and Guillain-Barré syndrome are very rare, estimated at fewer than 1 to 2 cases of GBS per million people vaccinated."
+  },
+  "flu-test-guide": {
+    "question": "What is a flu test and how is flu diagnosed?",
+    "answerHtml": "A flu test detects influenza virus in a nasal or throat swab. The two main types are rapid antigen tests and molecular tests. Rapid antigen tests give results in about 10 to 15 minutes but have only moderate sensitivity, roughly <a href=\"https://www.cdc.gov/flu/hcp/testing-methods/rapidclin.html\">50% to 70%</a>, so a negative result does not rule out flu. Molecular tests, including RT-PCR and rapid molecular assays, are the gold standard with <a href=\"https://www.cdc.gov/flu/hcp/testing-methods/index.html\">90% to 100%</a> sensitivity. The <a href=\"https://pubmed.ncbi.nlm.nih.gov/30566567/\">IDSA</a> recommends molecular testing over antigen testing when the result will change care. At-home combined flu and COVID-19 tests are available over the counter but use antigen technology, so they carry the same risk of false negatives."
   }
 }
