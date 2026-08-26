@@ -6,9 +6,11 @@ const insurer = INSURERS['blue-cross-blue-shield'];
 
 // All valid BCBS state slugs → state code
 const STATE_SLUGS = {
+  arizona: 'AZ',
   florida: 'FL',
   georgia: 'GA',
   illinois: 'IL',
+  michigan: 'MI',
   pennsylvania: 'PA',
   texas: 'TX',
 };
@@ -41,7 +43,7 @@ export async function generateMetadata({ params }) {
   if (cond) {
     return {
       title: `Does Blue Cross Blue Shield Cover ${cond.displayName} Telemedicine? | TeleDirectMD`,
-      description: `Yes — BCBS commercial plans cover ${cond.name} telehealth visits. TeleDirectMD is in-network with Blue Cross Blue Shield in 5 states. Board-certified physician. Same-day video visits.`,
+      description: `Yes — BCBS commercial plans cover ${cond.name} telehealth visits. TeleDirectMD is in-network with Blue Cross Blue Shield in 7 states. Board-certified physician. Same-day video visits.`,
       alternates: { canonical: `https://teledirectmd.com/insurance/blue-cross-blue-shield/${segment}` },
       openGraph: {
         title: `Does Blue Cross Blue Shield Cover ${cond.displayName} Telemedicine? | TeleDirectMD`,

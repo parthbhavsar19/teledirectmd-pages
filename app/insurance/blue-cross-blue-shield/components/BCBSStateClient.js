@@ -11,20 +11,24 @@ import { summarizeInsuranceStateLanding, citableSummaryToJsonLd } from '../../..
 const insurer = INSURERS['blue-cross-blue-shield'];
 const shortName = 'BCBS';
 
-const STATE_CODE_MAP = { florida:'FL', georgia:'GA', illinois:'IL', pennsylvania:'PA', texas:'TX' };
+const STATE_CODE_MAP = { arizona:'AZ', florida:'FL', georgia:'GA', illinois:'IL', michigan:'MI', pennsylvania:'PA', texas:'TX' };
 
 const AFFILIATE_MAP = {
+  AZ: 'Blue Cross Blue Shield of Arizona',
   FL: 'Florida Blue',
   GA: 'Anthem Blue Cross Blue Shield',
   IL: 'Blue Cross Blue Shield of Illinois',
+  MI: 'Blue Cross Blue Shield of Michigan',
   PA: 'Highmark Blue Cross Blue Shield',
   TX: 'Blue Cross Blue Shield of Texas',
 };
 
 const STATE_CONTEXT = {
+  AZ: { cities:['Phoenix','Tucson','Scottsdale','Mesa','Chandler'], note:"Blue Cross Blue Shield of Arizona is a major commercial insurer in the Phoenix metro. TeleDirectMD is in-network with BCBS of Arizona alongside Aetna and UHC, covering most Arizona commercial members." },
   FL: { cities:['Miami','Orlando','Tampa','Jacksonville','Fort Lauderdale'], note:"Florida Blue is one of Florida's largest insurers, covering millions of Floridians. TeleDirectMD is in-network with Florida Blue — the BCBS affiliate in Florida — giving most Florida residents access to same-day telehealth visits. Aetna is also in-network in Florida, giving two major insurer options." },
   GA: { cities:['Atlanta','Savannah','Augusta','Columbus','Macon'], note:"Georgia is TeleDirectMD's home state. Anthem Blue Cross Blue Shield is a major insurer for Georgia employer plans in the Atlanta metro. All three major insurers — Aetna, Anthem BCBS, and UHC — are in-network in Georgia." },
   IL: { cities:['Chicago','Aurora','Naperville','Joliet','Rockford'], note:"Blue Cross Blue Shield of Illinois is the dominant commercial insurer for large employer plans in the Chicago metro. TeleDirectMD is in-network with BCBS IL alongside Aetna and UHC, covering the majority of Illinois commercial members." },
+  MI: { cities:['Detroit','Grand Rapids','Ann Arbor','Lansing','Flint'], note:"Blue Cross Blue Shield of Michigan is the state's dominant commercial insurer, with strong presence in the Detroit metro. TeleDirectMD is in-network with BCBS of Michigan alongside Aetna and UHC. BCBS Complete (Medicaid) is not accepted." },
   PA: { cities:['Philadelphia','Pittsburgh','Allentown','Erie','Reading'], note:"Highmark Blue Cross Blue Shield is western Pennsylvania's largest commercial insurer, with dominant presence in the Pittsburgh market. Pennsylvania is TeleDirectMD's broadest multi-insurer state — Aetna, Highmark BCBS, and UHC all in-network." },
   TX: { cities:['Houston','Dallas','San Antonio','Austin','Fort Worth'], note:"Texas Insurance Code Chapter 1455 requires telehealth coverage (since 2005) and payment parity (since 2019), last amended September 1, 2025. Importantly, Chapter 1455 applies only to fully insured state-regulated commercial plans — approximately 15% of the Texas commercial market; the remaining ~85% are ERISA self-funded plans where coverage is governed by employer plan design rather than state statute. Audio-only telephone visits are explicitly excluded from Chapter 1455 parity under § 1455.004(c), so video must be functional for any insurance claim. BCBS Texas commercial plan names include Blue Choice PPO, Blue Advantage HMO, Blue Essentials, Blue Premier Access, Blue Choice PPO HSA, and Blue Choice PPO Basic (BCBS TX 2024 Mid-Market Producer Portfolio). BCBS of Texas is the state's largest commercial insurer, operated by Health Care Service Corporation (HCSC). Texas's distinctive clinical telehealth drivers are heat-related illness (HHS Region 6 had the highest national HRI rate at 483 per 100,000 in 2023 per CDC MMWR) and respiratory illness exacerbated by wildfire smoke and Gulf-coast humidity. Houston (Harris County), Dallas–Fort Worth, San Antonio (Bexar), and Austin (Travis) together hold the majority of BCBS TX commercial enrollment." },
 };

@@ -2,23 +2,24 @@
 
 import { useState, useMemo, useEffect } from 'react';
 import {
-  insuranceByState,
   getActiveInsurers,
   getPendingInsurers,
   getInsuranceStateCount,
   getUniquePayerFamilyCount,
 } from '../../lib/insurance-data';
 
-// ─── Coverage checker — production version (Option B: Bold & Decisive) ─────────
-// Shipped 2026-06-18 to un-retire /insurance/ as the canonical "Am I in your
-// network?" surface. Reads from lib/insurance-data.js (source of truth synced
-// to the Payor Enrollment Tracking Sheet + Notion).
+// ─── Network checker — production version ────────────────────────────────────
+// Reads from lib/insurance-data.js (source of truth synced to the Payor
+// Enrollment Tracking Sheet + Notion).
 //
-// 3-step dropdown: State -> Payer -> Plan Type -> Result card
+// 2-step mad-libs: "I am in [state] and I have [insurance]" → in-network or not.
+//
+// Framing: we say "in-network", never "covered" — in-network means we can bill
+// the plan directly, not that the visit is free. Plan-type caveats (e.g. UHC
+// commercial-only in TX) surface as a "Plan note" in the result.
 //
 // Sitewide policy: Medicaid, Managed Medicaid, CHIP, MME, D-SNP are NEVER
-// surfaced as in-network in any state. Selecting Medicaid as the plan type
-// always returns the Medicaid exclusion result.
+// surfaced as in-network in any state.
 
 const STATE_NAMES = {
   AZ:'Arizona', CA:'California', CO:'Colorado', FL:'Florida', GA:'Georgia',
@@ -55,35 +56,25 @@ const PAYER_FAMILIES = [
   { id:'other', label:'Other / not listed', match:() => false },
 ];
 
-const PLAN_TYPES = [
-  { id:'ppo', label:'PPO' },
-  { id:'hmo', label:'HMO' },
-  { id:'epo', label:'EPO' },
-  { id:'pos', label:'POS' },
-  { id:'ma',  label:'Medicare Advantage' },
-  { id:'medicaid', label:'Medicaid / Managed Medicaid' },
-  { id:'unsure', label:"I'm not sure" },
-];
-
 // ── Brand styles inlined for /insurance/ — matches lib/tdmd-styles.js tokens ──
 const STYLES = `
   .ins-page{
-    --tdmd-teal:#006b73;
-    --tdmd-teal-hover:#005059;
-    --tdmd-navy:#003e52;
-    --tdmd-navy-deep:#002a3a;
+    --tdmd-slate:#536c7c;
+    --tdmd-slate-hover:#425768;
+    --tdmd-navy:#172140;
+    --tdmd-navy-deep:#10182e;
     --tdmd-accent:#ff5a36;
     --tdmd-accent-hover:#e84a28;
     --tdmd-cream:#fff8f5;
-    --tdmd-bg:#f6fafb;
-    --tdmd-border:#cad7da;
-    --tdmd-text:#0d2730;
-    --tdmd-muted:#54707a;
+    --tdmd-bg:#f7f6f2;
+    --tdmd-border:#e4e2dc;
+    --tdmd-text:#1a1f36;
+    --tdmd-muted:#536c7c;
     --tdmd-card:#ffffff;
     --tdmd-success-bg:#1b6e3e;
     --tdmd-warning-bg:#cf7a18;
     --tdmd-error-bg:#a02822;
-    font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text","Segoe UI",system-ui,sans-serif;
+    font-family:'DM Sans',-apple-system,BlinkMacSystemFont,"SF Pro Text","Segoe UI",system-ui,sans-serif;
     color:var(--tdmd-text);
     background:var(--tdmd-bg);
     -webkit-font-smoothing:antialiased;
@@ -118,17 +109,18 @@ const STYLES = `
   }
   @media(max-width:860px){.ins-hero-inner{grid-template-columns:1fr;gap:32px;}}
   .ins-hero-left h1{
-    font-size:44px;font-weight:800;letter-spacing:-0.02em;line-height:1.08;
+    font-family:'Fraunces',Georgia,serif;
+    font-size:44px;font-weight:600;letter-spacing:-0.01em;line-height:1.08;
     margin:0 0 16px;
   }
   @media(min-width:861px){.ins-hero-left h1{font-size:52px;}}
   .ins-hero-left h1 .accent{color:var(--tdmd-accent);}
-  .ins-hero-left p{font-size:18px;color:#bfd7dc;margin:0 0 24px;max-width:480px;line-height:1.5;}
+  .ins-hero-left p{font-size:18px;color:#c9ccd6;margin:0 0 24px;max-width:480px;line-height:1.5;}
   .ins-hero-stats{
     display:flex;gap:32px;margin-top:32px;padding-top:24px;border-top:1px solid rgba(255,255,255,0.15);
   }
   .ins-stat .n{font-size:30px;font-weight:800;color:#fff;font-variant-numeric:tabular-nums;letter-spacing:-0.02em;}
-  .ins-stat .l{font-size:12px;color:#9ec0c7;text-transform:uppercase;letter-spacing:0.08em;font-weight:700;margin-top:2px;}
+  .ins-stat .l{font-size:12px;color:#a6abb8;text-transform:uppercase;letter-spacing:0.08em;font-weight:700;margin-top:2px;}
   .ins-checker{
     background:var(--tdmd-card);
     border-radius:20px;
@@ -138,30 +130,20 @@ const STYLES = `
   }
   .ins-checker-title{
     font-size:12px;font-weight:800;letter-spacing:0.12em;text-transform:uppercase;
-    color:var(--tdmd-teal);margin:0 0 4px;
+    color:var(--tdmd-slate);margin:0 0 4px;
   }
   .ins-checker-sub{font-size:18px;font-weight:700;margin:0 0 24px;color:var(--tdmd-navy);}
-  .ins-field{margin-bottom:16px;}
-  .ins-field-label{
-    display:flex;justify-content:space-between;align-items:baseline;
-    font-size:13px;font-weight:700;color:var(--tdmd-navy);margin-bottom:8px;
+  .ins-madlibs{font-family:'Fraunces',Georgia,serif;font-size:22px;font-weight:600;color:var(--tdmd-navy);line-height:1.7;margin:0 0 20px;}
+  .ins-madlibs .ins-sel{
+    font-family:'DM Sans',sans-serif;font-size:17px;font-weight:600;
+    border:none;border-bottom:2px solid var(--tdmd-accent);
+    background:transparent;color:var(--tdmd-navy);
+    padding:2px 30px 2px 4px;appearance:none;cursor:pointer;max-width:100%;
+    background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'><path d='M1 1l5 5 5-5' stroke='%23ff5a36' stroke-width='2' fill='none' stroke-linecap='round'/></svg>");
+    background-repeat:no-repeat;background-position:right 4px center;
   }
-  .ins-field-num{font-size:11px;font-weight:800;color:var(--tdmd-accent);letter-spacing:0.05em;}
-  .ins-select{
-    width:100%;
-    padding:14px 16px;
-    border:2px solid var(--tdmd-border);
-    border-radius:10px;
-    background:var(--tdmd-card);
-    font-size:15px;font-weight:600;font-family:inherit;color:var(--tdmd-text);
-    appearance:none;
-    background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'><path d='M1 1l5 5 5-5' stroke='%23003e52' stroke-width='2.5' fill='none' stroke-linecap='round'/></svg>");
-    background-repeat:no-repeat;background-position:right 16px center;
-    cursor:pointer;
-    transition:border 0.15s;
-  }
-  .ins-select:focus{outline:none;border-color:var(--tdmd-accent);}
-  .ins-select:disabled{opacity:0.5;cursor:not-allowed;}
+  .ins-madlibs .ins-sel:focus{outline:none;border-bottom-color:var(--tdmd-accent-hover);}
+  .ins-madlibs .ins-sel:disabled{opacity:0.5;cursor:not-allowed;}
   .ins-check-btn{
     width:100%;
     padding:16px;
@@ -178,6 +160,8 @@ const STYLES = `
   .ins-check-btn:hover{background:var(--tdmd-accent-hover);}
   .ins-check-btn:active{transform:scale(0.99);}
   .ins-check-btn:disabled{background:var(--tdmd-muted);cursor:not-allowed;opacity:0.5;}
+  .ins-check-note{font-size:12.5px;color:var(--tdmd-muted);text-align:center;margin:14px 0 0;line-height:1.5;}
+  .ins-check-note strong{color:var(--tdmd-navy);}
   .ins-result-section{
     max-width:1100px;
     margin:-60px auto 48px;
@@ -213,11 +197,16 @@ const STYLES = `
   }
   .ins-result-body{padding:28px 32px;}
   .ins-result-headline{
-    font-size:26px;font-weight:800;letter-spacing:-0.015em;
+    font-family:'Fraunces',Georgia,serif;
+    font-size:26px;font-weight:600;letter-spacing:-0.015em;
     color:var(--tdmd-navy);margin:0 0 12px;line-height:1.25;
   }
   @media(min-width:861px){.ins-result-headline{font-size:30px;}}
-  .ins-result-text{font-size:16px;color:var(--tdmd-muted);margin:0 0 24px;line-height:1.55;}
+  .ins-result-text{font-size:16px;color:var(--tdmd-muted);margin:0 0 16px;line-height:1.55;}
+  .ins-plan-note{background:#fdf6ec;border:1px solid #f0d9b0;border-radius:12px;padding:14px 18px;font-size:14.5px;color:var(--tdmd-text);line-height:1.55;margin:0 0 12px;}
+  .ins-plan-note strong{color:#8a5a00;}
+  .ins-copay-callout{background:var(--tdmd-cream);border:1px solid #ffd9cb;border-radius:12px;padding:14px 18px;font-size:14.5px;color:var(--tdmd-text);line-height:1.55;margin:0 0 12px;}
+  .ins-copay-callout strong{color:var(--tdmd-navy);}
   .ins-result-grid{
     display:grid;grid-template-columns:repeat(3,1fr);gap:16px;
     background:var(--tdmd-cream);
@@ -261,14 +250,14 @@ const STYLES = `
     display:flex;align-items:center;justify-content:center;
     font-size:28px;font-weight:800;color:#fff;
   }
-  .ins-medicaid-card h2{font-size:22px;font-weight:800;margin:0 0 8px;letter-spacing:-0.01em;}
-  .ins-medicaid-card p{font-size:15.5px;color:#bfd7dc;margin:0 0 8px;line-height:1.55;}
+  .ins-medicaid-card h2{font-family:'Fraunces',Georgia,serif;font-size:22px;font-weight:600;margin:0 0 8px;letter-spacing:-0.01em;}
+  .ins-medicaid-card p{font-size:15.5px;color:#c9ccd6;margin:0 0 8px;line-height:1.55;}
   .ins-medicaid-card strong{color:#fff;}
-  .ins-medicaid-card .sub{font-size:13px;color:#9ec0c7;margin-top:8px;font-weight:600;}
+  .ins-medicaid-card .sub{font-size:13px;color:#a6abb8;margin-top:8px;font-weight:600;}
   .ins-faq{
     max-width:780px;margin:0 auto 80px;padding:0 24px;
   }
-  .ins-faq h2{font-size:24px;font-weight:800;color:var(--tdmd-navy);letter-spacing:-0.01em;margin:0 0 8px;}
+  .ins-faq h2{font-family:'Fraunces',Georgia,serif;font-size:24px;font-weight:600;color:var(--tdmd-navy);letter-spacing:-0.01em;margin:0 0 8px;}
   .ins-faq-intro{font-size:15px;color:var(--tdmd-muted);margin:0 0 24px;}
   .ins-faq-item{
     border:1px solid var(--tdmd-border);
@@ -291,9 +280,28 @@ const STYLES = `
   }
 `;
 
-function resolveResult(stateAbbr, payerId, planId) {
+const PAYER_DIRECTORIES = {
+  aetna: 'https://www.aetna.com/dsepublic/#/contentPage?page=providerSearchLanding',
+  bcbs: 'https://www.bcbs.com/find-a-doctor',
+  uhc: 'https://www.uhcprovider.com/en/provider-data/admin-guides/physician-directory.html',
+  curative: 'https://curative.com',
+};
+
+function splitPlans(plans) {
+  if (!plans) return { list: '', caveat: null };
+  const idx = plans.indexOf('(');
+  if (idx === -1) return { list: plans, caveat: null };
+  const list = plans.slice(0, idx).trim();
+  const inner = plans.slice(idx + 1, plans.lastIndexOf(')')).trim();
+  if (/not in-network|excludes|Commercial only|not accepted/i.test(inner)) {
+    return { list, caveat: inner };
+  }
+  return { list: plans, caveat: null };
+}
+
+function resolveResult(stateAbbr, payerId) {
   // Universal Medicaid rejection
-  if (payerId === 'medicaid' || planId === 'medicaid') {
+  if (payerId === 'medicaid') {
     return {
       kind: 'error',
       banner: 'Medicaid Not Accepted',
@@ -343,7 +351,7 @@ function resolveResult(stateAbbr, payerId, planId) {
     };
   }
 
-  // Outside the 17 covered states
+  // Outside the served states
   const stateActive = getActiveInsurers(stateAbbr) || [];
   const statePending = getPendingInsurers(stateAbbr) || [];
   if (stateActive.length === 0 && statePending.length === 0) {
@@ -352,7 +360,7 @@ function resolveResult(stateAbbr, payerId, planId) {
       banner: 'State Not Currently Served',
       icon: '✕',
       headline: `We don't currently serve ${STATE_NAMES[stateAbbr] || 'this state'}.`,
-      text: 'TeleDirectMD is licensed in 44 states. Coverage is expanding. If you have a different state to check, use the dropdown above. Otherwise, book a $79 self-pay visit (if licensed in your state) or join the waitlist.',
+      text: 'TeleDirectMD is licensed in 44 states. Our network is expanding. If you have a different state to check, use the dropdown above. Otherwise, book a $79 self-pay visit (if licensed in your state) or join the waitlist.',
       status: 'Not licensed',
       eff: '—',
       plans: '—',
@@ -399,67 +407,31 @@ function resolveResult(stateAbbr, payerId, planId) {
     };
   }
 
-  // Active — check if the chosen plan type is excluded by the contract
-  const planString = (matchedActive.plans || '').toLowerCase();
-  const planLabel = PLAN_TYPES.find(p => p.id === planId)?.label || 'Plan';
-  let planExcluded = false;
-  let excludeReason = '';
-
-  // CA Aetna excludes HMO/QPOS
-  if (stateAbbr === 'CA' && family?.id === 'aetna' && planId === 'hmo') {
-    planExcluded = true;
-    excludeReason = 'Our Aetna California contract excludes HMO and QPOS plans.';
-  }
-  // IL / MN / TX UHC are Commercial-only (MA excluded)
-  if (['IL','MN','TX'].includes(stateAbbr) && family?.id === 'uhc' && planId === 'ma') {
-    planExcluded = true;
-    excludeReason = `Our UnitedHealthcare contract in ${STATE_NAMES[stateAbbr]} is Commercial-only — Medicare Advantage is not in-network in this state.`;
-  }
-  // FL Florida Blue is Commercial-only — Florida Blue Medicare Advantage,
-  // Florida Blue Medicaid, and FEP are not in-network.
-  if (stateAbbr === 'FL' && family?.id === 'bcbs' && planId === 'ma') {
-    planExcluded = true;
-    excludeReason = 'Our Florida Blue contract is Commercial-only — Florida Blue Medicare Advantage, Florida Blue Medicaid, and Federal Employee Program (FEP) plans are not in-network.';
-  }
-  // Curative is contracted for Commercial PPO, EPO, and self-funded plans only.
-  if (family?.id === 'curative' && (planId === 'hmo' || planId === 'ma')) {
-    planExcluded = true;
-    excludeReason = 'Our Curative contract covers Commercial PPO, EPO, and self-funded plans only. HMO and Medicare Advantage products are not in-network.';
-  }
-
-  if (planExcluded) {
-    return {
-      kind: 'error',
-      banner: 'Plan Type Not Covered',
-      icon: '✕',
-      headline: `${family.label} ${planLabel} in ${STATE_NAMES[stateAbbr]} — not in-network.`,
-      text: `${excludeReason} We are in-network with this payer's other plan types in this state — try changing the plan type above. Or book a $79 self-pay visit.`,
-      status: 'Plan excluded',
-      eff: formatDate(matchedActive.effectiveDate),
-      plans: matchedActive.planSummary || 'See contract details',
-      ctaText: 'Book $79 self-pay visit →',
-      ctaHref: `/book-online?state=${stateAbbr}`,
-      showSecondary: false,
-    };
-  }
-
-  // Success!
+  // In-network — surface any plan-type caveat from the source-of-truth plans string
   const displayName = matchedActive.displayName || matchedActive.name;
-  const planTypeText = planId === 'unsure'
-    ? 'your plan type'
-    : `your ${planLabel} plan`;
+  const { list: planList, caveat } = splitPlans(matchedActive.plans);
+
+  // Curative has a uniform plan-type caveat (not encoded in its plans string)
+  const effectiveCaveat = family.id === 'curative'
+    ? 'Commercial PPO, EPO, and self-funded plans only — HMO and Medicare Advantage are not in-network.'
+    : caveat;
 
   return {
     kind: 'success',
-    banner: 'In-Network — You\'re Covered',
+    banner: 'In-Network',
     icon: '✓',
-    headline: `${displayName} in ${STATE_NAMES[stateAbbr]} — you're in our network.`,
-    text: `Dr. Parth Bhavsar is in-network with ${displayName} in ${STATE_NAMES[stateAbbr]}. ${planId === 'unsure' ? '' : `We accept ${planLabel} plans with this payer. `}${family.id === 'curative' ? 'Curative members who have completed their annual Baseline Visit typically have $0 cost sharing for in-network care; members who have not completed it are subject to their plan deductible.' : 'Your standard copay applies.'} We verify your benefits before your visit.`,
-    status: 'Active',
+    headline: `We're in-network with ${displayName} in ${STATE_NAMES[stateAbbr]}.`,
+    text: `You can book a visit and we'll bill ${displayName} directly. Dr. Parth Bhavsar, MD is the treating physician.`,
+    caveat: effectiveCaveat,
+    copay: family.id === 'curative'
+      ? 'Curative members who complete their annual Baseline Visit typically pay $0 for in-network care. Members who haven\'t completed it are subject to their plan deductible.'
+      : 'Your plan\'s normal copay or deductible. Being in-network doesn\'t mean the visit is free — it means we can bill your insurance.',
+    status: effectiveCaveat ? 'In-network (see note)' : 'In-network',
     eff: formatDate(matchedActive.effectiveDate),
-    plans: matchedActive.plans || 'PPO, HMO, EPO, POS, Medicare Advantage',
-    ctaText: `Book with ${displayName} in ${STATE_NAMES[stateAbbr]} →`,
-    ctaHref: `/book-online?payer=${family.id}&state=${stateAbbr}&planType=${planId}`,
+    plans: planList || 'PPO, HMO, EPO, POS, Medicare Advantage',
+    ctaText: 'Book a visit →',
+    ctaHref: `/book-online?payer=${family.id}&state=${stateAbbr}`,
+    directoryUrl: PAYER_DIRECTORIES[family.id] || null,
     showSecondary: true,
   };
 }
@@ -473,7 +445,8 @@ function formatDate(iso) {
 }
 
 const FAQ_ITEMS = [
-  { q:'Does TeleDirectMD accept insurance?', a:'Yes. We are in-network with Aetna, Blue Cross Blue Shield affiliates (Florida Blue, Anthem, Highmark, BCBS-IL, BCBS-TX), UnitedHealthcare, and Curative (9 states including Texas, California, and Florida). Use the coverage checker above to confirm your specific plan.' },
+  { q:'What does "in-network" mean?', a:'In-network means we have a contract with your insurance company, so we can bill them directly for your visit. You\'ll still pay your plan\'s copay, coinsurance, or deductible — it doesn\'t mean the visit is free.' },
+  { q:'Does TeleDirectMD accept insurance?', a:'Yes. We are in-network with Aetna, Blue Cross Blue Shield affiliates (BCBS-AZ, Florida Blue, Anthem, BCBS-IL, BCBS-MI, Highmark, BCBS-TX), UnitedHealthcare, and Curative (9 states including Texas, California, and Florida). Use the checker above to confirm your specific plan.' },
   { q:'Which plan types do you accept?', a:'PPO, HMO, EPO, POS, and Medicare Advantage. State-specific exclusions apply (for example, Aetna California excludes HMO and QPOS; UnitedHealthcare in Illinois, Minnesota, and Texas is commercial-only; Curative is Commercial PPO, EPO, and self-funded only). The checker above shows your exact result.' },
   { q:'Does TeleDirectMD accept Medicaid?', a:'No. We are not in-network with any Medicaid program, Managed Medicaid plan, CHIP, Medicare-Medicaid (MME), or Dual Special Needs Plan (D-SNP) in any state we serve. Patients with Medicaid-only coverage can still book a $79 self-pay visit (HSA/FSA eligible).' },
   { q:'How much is a self-pay visit?', a:'$79 flat fee. Includes the physician consultation, any clinically appropriate prescriptions, and a work or school excuse note when medically appropriate. HSA and FSA cards accepted.' },
@@ -483,7 +456,6 @@ const FAQ_ITEMS = [
 export default function InsuranceClient() {
   const [stateAbbr, setStateAbbr] = useState('');
   const [payer, setPayer] = useState('');
-  const [plan, setPlan] = useState('');
   const [result, setResult] = useState(null);
   const [touched, setTouched] = useState(false);
 
@@ -501,13 +473,13 @@ export default function InsuranceClient() {
     if (p && PAYER_FAMILIES.find(f => f.id === p)) setPayer(p);
   }, []);
 
-  const canCheck = stateAbbr && payer && plan;
+  const canCheck = stateAbbr && payer;
 
   function handleCheck(e) {
     e?.preventDefault?.();
     if (!canCheck) return;
     setTouched(true);
-    const r = resolveResult(stateAbbr, payer, plan);
+    const r = resolveResult(stateAbbr, payer);
     setResult(r);
     // Scroll to result
     setTimeout(() => {
@@ -518,57 +490,47 @@ export default function InsuranceClient() {
 
   return (
     <div className="ins-page">
+      <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400&family=DM+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet" />
       <style dangerouslySetInnerHTML={{ __html: STYLES }} />
 
       <section className="ins-hero">
         <div className="ins-hero-inner">
           <div className="ins-hero-left">
-            <h1>See if you're <span className="accent">covered</span> in 10 seconds.</h1>
-            <p>Pick your state, payer, and plan type. Get an instant answer — and if you're in-network, book a same-day video visit with your standard copay applied.</p>
+            <h1>Are we <span className="accent">in-network</span> with your plan?</h1>
+            <p>Tell us your state and insurance, and we'll tell you if we're in-network. In-network means we accept your plan and bill it directly — you'll still pay your normal copay or deductible.</p>
             <div className="ins-hero-stats">
-              <div className="ins-stat"><div className="n">{stateCount}</div><div className="l">States</div></div>
+              <div className="ins-stat"><div className="n">{stateCount}</div><div className="l">States in-network</div></div>
               <div className="ins-stat"><div className="n">{payerFamilyCount}</div><div className="l">Major Payers</div></div>
               <div className="ins-stat"><div className="n">$79</div><div className="l">If self-pay</div></div>
             </div>
           </div>
 
-          <form className="ins-checker" onSubmit={handleCheck} aria-label="Coverage checker">
-            <p className="ins-checker-title">Coverage Checker</p>
-            <p className="ins-checker-sub">Three questions, one answer.</p>
+          <form className="ins-checker" onSubmit={handleCheck} aria-label="Network checker">
+            <p className="ins-checker-title">Check your network</p>
+            <p className="ins-checker-sub">Two questions, one answer.</p>
 
-            <div className="ins-field">
-              <div className="ins-field-label"><span>State</span><span className="ins-field-num">01</span></div>
-              <select className="ins-select" value={stateAbbr} onChange={e => setStateAbbr(e.target.value)} aria-label="Select your state">
-                <option value="">Select your state</option>
-                {ALL_US_STATES.map(([abbr,name]) => (
-                  <option key={abbr} value={abbr}>{name}{insuranceByState[abbr] ? '' : ''}</option>
+            <p className="ins-madlibs">
+              I am in{' '}
+              <select className="ins-sel" value={stateAbbr} onChange={e => setStateAbbr(e.target.value)} aria-label="Select your state">
+                <option value="">your state</option>
+                {ALL_US_STATES.map(([abbr, name]) => (
+                  <option key={abbr} value={abbr}>{name}</option>
                 ))}
               </select>
-            </div>
-
-            <div className="ins-field">
-              <div className="ins-field-label"><span>Insurance company</span><span className="ins-field-num">02</span></div>
-              <select className="ins-select" value={payer} onChange={e => setPayer(e.target.value)} disabled={!stateAbbr} aria-label="Select your insurer">
-                <option value="">Select payer</option>
+              {' '}and I have{' '}
+              <select className="ins-sel" value={payer} onChange={e => setPayer(e.target.value)} disabled={!stateAbbr} aria-label="Select your insurer">
+                <option value="">your insurance</option>
                 {PAYER_FAMILIES.map(f => (
                   <option key={f.id} value={f.id}>{f.label}</option>
                 ))}
               </select>
-            </div>
-
-            <div className="ins-field">
-              <div className="ins-field-label"><span>Plan type</span><span className="ins-field-num">03</span></div>
-              <select className="ins-select" value={plan} onChange={e => setPlan(e.target.value)} disabled={!payer} aria-label="Select your plan type">
-                <option value="">Select plan type</option>
-                {PLAN_TYPES.map(p => (
-                  <option key={p.id} value={p.id}>{p.label}</option>
-                ))}
-              </select>
-            </div>
+              {'.'}
+            </p>
 
             <button type="submit" className="ins-check-btn" disabled={!canCheck}>
-              Check My Coverage →
+              Check if I'm in-network →
             </button>
+            <p className="ins-check-note"><strong>In-network ≠ free.</strong> We accept your plan and bill it directly — you still pay your copay or deductible.</p>
           </form>
         </div>
       </section>
@@ -584,6 +546,13 @@ export default function InsuranceClient() {
               <h2 className="ins-result-headline">{result.headline}</h2>
               <p className="ins-result-text tdmd-insurance-summary">{result.text}</p>
 
+              {result.caveat && (
+                <div className="ins-plan-note"><strong>Plan note:</strong> {result.caveat}</div>
+              )}
+              {result.copay && (
+                <div className="ins-copay-callout"><strong>What you'll pay:</strong> {result.copay}</div>
+              )}
+
               <div className="ins-result-grid">
                 <div><div className="ins-grid-k">Status</div><div className="ins-grid-v">{result.status}</div></div>
                 <div><div className="ins-grid-k">Effective</div><div className="ins-grid-v">{result.eff}</div></div>
@@ -592,8 +561,8 @@ export default function InsuranceClient() {
 
               <div className="ins-actions">
                 <a href={result.ctaHref} className="ins-btn ins-btn-primary">{result.ctaText}</a>
-                {result.showSecondary && (
-                  <a href="/about" className="ins-btn ins-btn-ghost">Verify in payer's directory</a>
+                {result.showSecondary && result.directoryUrl && (
+                  <a href={result.directoryUrl} target="_blank" rel="noopener" className="ins-btn ins-btn-ghost">Verify in payer's directory</a>
                 )}
               </div>
             </div>
@@ -624,7 +593,7 @@ export default function InsuranceClient() {
       </section>
 
       <p className="ins-fineprint">
-        Coverage information is updated weekly from our payer contracts and credentialing system. We verify your specific benefits before each visit. If a payer-specific question isn't answered above, call us at <a href="tel:+16789561855" style={{color:'inherit',textDecoration:'underline'}}>(678) 956-1855</a> or email <a href="mailto:contact@teledirectmd.com" style={{color:'inherit',textDecoration:'underline'}}>contact@teledirectmd.com</a>.
+        In-network information is updated weekly from our payer contracts and credentialing system. We verify your specific benefits before each visit. If a payer-specific question isn't answered above, call us at <a href="tel:+16789561855" style={{color:'inherit',textDecoration:'underline'}}>(678) 956-1855</a> or email <a href="mailto:contact@teledirectmd.com" style={{color:'inherit',textDecoration:'underline'}}>contact@teledirectmd.com</a>.
       </p>
     </div>
   );

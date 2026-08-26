@@ -10,7 +10,7 @@ import MedicaidExclusion from '../../components/MedicaidExclusion';
 const insurer = INSURERS.aetna;
 
 const AETNA_FAQS = [
-  { q: "Which Aetna plans are in-network with TeleDirectMD?", a: "TeleDirectMD is in-network with Aetna PPO, HMO, EPO, POS, and Medicare Advantage plans in 13 states: Arizona, California, Colorado, Florida, Georgia, Illinois, Louisiana, Michigan, Minnesota, North Carolina, Ohio, Pennsylvania, and Tennessee. California excludes Aetna HMO and QPOS. Minnesota patients are billed under the Allina | Aetna joint venture network. Aetna Better Health (Medicaid), Aetna D-SNP, and CHIP plans are not in-network in any state." },
+  { q: "Which Aetna plans are in-network with TeleDirectMD?", a: "TeleDirectMD is in-network with Aetna PPO, HMO, EPO, POS, and Medicare Advantage plans in 14 states: Arizona, California, Colorado, Florida, Georgia, Illinois, Louisiana, Michigan, Minnesota, North Carolina, Ohio, Pennsylvania, Tennessee, and Washington. California excludes Aetna HMO and QPOS. Minnesota patients are billed under the Allina | Aetna joint venture network. Aetna Better Health (Medicaid), Aetna D-SNP, and CHIP plans are not in-network in any state." },
   { q: "What is the Aetna provider PIN for Dr. Parth Bhavsar?", a: "Dr. Parth Bhavsar, MD (NPI 1104323203) is credentialed with Aetna in each contracted state. The contract is held under TeleDirectMD's group TIN and routes through Aetna's electronic claims clearinghouse (payer ID 60054). We will not ask you for a PIN — we submit the claim on our end after the visit." },
   { q: "California Aetna members: am I covered?", a: "If you have an Aetna PPO, EPO, POS, or Medicare Advantage plan in California, yes. Aetna HMO and Aetna QPOS plans in California are not in-network — Aetna restricts those to in-state physical-clinic networks. If you have one of those plans, use the $79 self-pay option." },
   { q: "What does an Aetna telehealth visit cost at TeleDirectMD?", a: "Most Aetna commercial plans apply a $0–$40 telehealth copay; Aetna Medicare Advantage typically applies a $0–$25 copay; high-deductible plans may apply full visit cost (~$130 contracted rate) toward deductible until met. Verify by logging into your member account at aetna.com or calling the number on your Aetna card." },
@@ -53,6 +53,7 @@ const AETNA_STATES = [
   { code:"OH", name:"Ohio", url:"/oh/" },
   { code:"PA", name:"Pennsylvania", url:"/pa/" },
   { code:"TN", name:"Tennessee", url:"/tn/" },
+  { code:"WA", name:"Washington", url:"/wa/" },
 ];
 
 const SCHEMA = {
@@ -64,7 +65,7 @@ const SCHEMA = {
       "name": "TeleDirectMD",
       "url": "https://teledirectmd.com",
       "logo": "https://teledirectmd.com/logo.png",
-      "description": "Physician-led telemedicine practice accepting Aetna PPO, HMO, EPO, POS, and Medicare Advantage plans in 13 states.",
+      "description": "Physician-led telemedicine practice accepting Aetna PPO, HMO, EPO, POS, and Medicare Advantage plans in 14 states.",
       "medicalSpecialty": "General Practice",
       "availableService": { "@type": "MedicalTherapy", "name": "Telehealth Video Visit" },
       "aggregateRating": getAggregateRating(),
@@ -111,7 +112,7 @@ const SCHEMA = {
       "description": "Three steps to see Dr. Parth Bhavsar, MD by video using your Aetna commercial plan.",
       "totalTime": "PT5M",
       "step": [
-        { "@type": "HowToStep", "position": 1, "name": "Verify Aetna coverage", "text": "Confirm your Aetna commercial plan is active in Arizona, California, Colorado, Florida, Georgia, Illinois, Louisiana, Michigan, Minnesota, North Carolina, Ohio, Pennsylvania, or Tennessee by checking your member ID card." },
+        { "@type": "HowToStep", "position": 1, "name": "Verify Aetna coverage", "text": "Confirm your Aetna commercial plan is active in Arizona, California, Colorado, Florida, Georgia, Illinois, Louisiana, Michigan, Minnesota, North Carolina, Ohio, Pennsylvania, Tennessee, or Washington by checking your member ID card." },
         { "@type": "HowToStep", "position": 2, "name": "Book online", "text": "Go to teledirectmd.com/book-online and choose 'Insurance' as your payment method. Enter your Aetna member ID." },
         { "@type": "HowToStep", "position": 3, "name": "See the physician by video", "text": "Join your video visit with Dr. Parth Bhavsar, MD. Pay only your Aetna copay. Prescriptions are sent to your pharmacy immediately after the visit." }
       ]
@@ -120,7 +121,7 @@ const SCHEMA = {
           "@type": "ItemList",
           "@id": "https://teledirectmd.com/insurance/aetna#statelist",
           "name": "States where TeleDirectMD is in-network with Aetna",
-          "numberOfItems": 10,
+          "numberOfItems": 14,
           "itemListOrder": "https://schema.org/ItemListOrderAscending",
           "itemListElement": [
                 {
@@ -182,6 +183,30 @@ const SCHEMA = {
                       "position": 10,
                       "name": "TeleDirectMD x Aetna - Tennessee",
                       "url": "https://teledirectmd.com/tn/"
+                },
+                {
+                      "@type": "ListItem",
+                      "position": 11,
+                      "name": "TeleDirectMD x Aetna - Louisiana",
+                      "url": "https://teledirectmd.com/la/"
+                },
+                {
+                      "@type": "ListItem",
+                      "position": 12,
+                      "name": "TeleDirectMD x Aetna - North Carolina",
+                      "url": "https://teledirectmd.com/nc/"
+                },
+                {
+                      "@type": "ListItem",
+                      "position": 13,
+                      "name": "TeleDirectMD x Aetna - Pennsylvania",
+                      "url": "https://teledirectmd.com/pa/"
+                },
+                {
+                      "@type": "ListItem",
+                      "position": 14,
+                      "name": "TeleDirectMD x Aetna - Washington",
+                      "url": "https://teledirectmd.com/wa/"
                 }
           ]
     },
@@ -232,7 +257,7 @@ export default function AetnaHubClient() {
             Online Doctor Visits<br />Covered by Aetna
           </h1>
           <p data-speakable="true" style={{ fontFamily:B.fb, fontSize:"clamp(16px, 2.5vw, 19px)", color:"rgba(255,255,255,0.75)", lineHeight:1.6, margin:"0 0 28px", maxWidth:580 }}>
-            TeleDirectMD is in-network with Aetna PPO, HMO, EPO, POS, and Medicare Advantage plans in 13 states. See a board-certified physician by video today — your standard Aetna copay applies.
+            TeleDirectMD is in-network with Aetna PPO, HMO, EPO, POS, and Medicare Advantage plans in 14 states. See a board-certified physician by video today — your standard Aetna copay applies.
           </p>
           <div style={{ display:"flex", flexWrap:"wrap", gap:12 }}>
             <a href="https://www.teledirectmd.com/book-online" target="_blank" rel="noopener"
@@ -257,7 +282,7 @@ export default function AetnaHubClient() {
         {/* QUICK ANSWER — AI visibility */}
         <AnswerBlock
           question="Is TeleDirectMD in-network with Aetna?"
-          answer="Yes. TeleDirectMD accepts Aetna PPO, HMO, EPO, POS, and Medicare Advantage plans in 13 states: Arizona, California, Colorado, Florida, Georgia, Illinois, Louisiana, Michigan, Minnesota, North Carolina, Ohio, Pennsylvania, and Tennessee. California excludes HMO and QPOS plans. Book a same-day video visit with Dr. Parth Bhavsar, MD — your standard Aetna copay applies."
+          answer="Yes. TeleDirectMD accepts Aetna PPO, HMO, EPO, POS, and Medicare Advantage plans in 14 states: Arizona, California, Colorado, Florida, Georgia, Illinois, Louisiana, Michigan, Minnesota, North Carolina, Ohio, Pennsylvania, Tennessee, and Washington. California excludes HMO and QPOS plans. Book a same-day video visit with Dr. Parth Bhavsar, MD — your standard Aetna copay applies."
           color={B.teal}
         />
 

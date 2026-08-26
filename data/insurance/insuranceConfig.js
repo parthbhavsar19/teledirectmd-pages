@@ -13,11 +13,11 @@ export const INSURERS = {
     logo: "/logos/aetna.svg",
     color: "#7B2CBF",
     colorLight: "#F3EAFF",
-    tagline: "Commercial & Medicare Advantage plans accepted in 13 states",
-    description: "Aetna is one of the nation's largest health insurers, offering commercial, Medicare Advantage, and marketplace plans. TeleDirectMD is in-network with Aetna commercial PPO, HMO, EPO, POS, and Medicare Advantage plans in 13 states. California excludes HMO and QPOS plans.",
+    tagline: "Commercial & Medicare Advantage plans accepted in 14 states",
+    description: "Aetna is one of the nation's largest health insurers, offering commercial, Medicare Advantage, and marketplace plans. TeleDirectMD is in-network with Aetna commercial PPO, HMO, EPO, POS, and Medicare Advantage plans in 14 states. California excludes HMO and QPOS plans.",
     // States synced 2026-06-18 from lib/insurance-data.js insuranceByState (Aetna family).
     // Source of truth: Payor Enrollment Tracking Sheet + Notion DB.
-    states: ["AZ", "CA", "CO", "FL", "GA", "IL", "LA", "MI", "MN", "NC", "OH", "PA", "TN"],
+    states: ["AZ", "CA", "CO", "FL", "GA", "IL", "LA", "MI", "MN", "NC", "OH", "PA", "TN", "WA"],
     planTypes: ["PPO", "HMO", "EPO", "POS", "Medicare Advantage", "Employer-sponsored plans", "Individual & Family Plans"],
     notAccepted: ["Medicaid","Managed Medicaid","CHIP","Medicare-Medicaid (MME)","Dual Special Needs Plan (D-SNP)","Aetna Better Health (Medicaid)","HMO and QPOS in California"],
     memberPortal: "https://www.aetna.com/individuals-families/member-rights-resources/find-a-form.html",
@@ -25,9 +25,9 @@ export const INSURERS = {
     billingCodes: ["99213","99214"],
     claimsPhone: "1-888-632-3862",
     metaTitle: "Online Doctor That Accepts Aetna Insurance | TeleDirectMD",
-    metaDescription: "TeleDirectMD accepts Aetna PPO, HMO, EPO, POS, and Medicare Advantage plans in 13 states. Board-certified physician. Video visits for UTI, sinus, asthma, hypertension & more. Check your state coverage.",
+    metaDescription: "TeleDirectMD accepts Aetna PPO, HMO, EPO, POS, and Medicare Advantage plans in 14 states. Board-certified physician. Video visits for UTI, sinus, asthma, hypertension & more. Check your state coverage.",
     h1: "Online Doctor Visits Covered by Aetna",
-    heroSubtitle: "TeleDirectMD is in-network with Aetna PPO, HMO, EPO, POS, and Medicare Advantage plans in Arizona, California, Colorado, Florida, Georgia, Illinois, Louisiana, Michigan, Minnesota, North Carolina, Ohio, Pennsylvania, and Tennessee.",
+    heroSubtitle: "TeleDirectMD is in-network with Aetna PPO, HMO, EPO, POS, and Medicare Advantage plans in Arizona, California, Colorado, Florida, Georgia, Illinois, Louisiana, Michigan, Minnesota, North Carolina, Ohio, Pennsylvania, Tennessee, and Washington.",
     faqSlug: "aetna",
   },
   "blue-cross-blue-shield": {
@@ -38,20 +38,24 @@ export const INSURERS = {
     logo: "/logos/anthem-bcbs.svg",
     color: "#1A5FB4",
     colorLight: "#EAF2FF",
-    tagline: "Select BCBS-family plans accepted in 5 states",
-    description: "Blue Cross Blue Shield plans vary by state affiliate. TeleDirectMD is in-network with Florida Blue, Anthem BCBS (Georgia), BCBS of Illinois, Highmark BCBS (Pennsylvania), and BCBS of Texas.",
-    states: ["FL","GA","IL","PA","TX"],
+    tagline: "Select BCBS-family plans accepted in 7 states",
+    description: "Blue Cross Blue Shield plans vary by state affiliate. TeleDirectMD is in-network with BCBS of Arizona, Florida Blue, Anthem BCBS (Georgia), BCBS of Illinois, BCBS of Michigan, Highmark BCBS (Pennsylvania), and BCBS of Texas.",
+    states: ["AZ","FL","GA","IL","MI","PA","TX"],
     affiliates: {
+      AZ: "Blue Cross Blue Shield of Arizona",
       FL: "Florida Blue",
       GA: "Anthem Blue Cross Blue Shield",
       IL: "Blue Cross Blue Shield of Illinois",
+      MI: "Blue Cross Blue Shield of Michigan",
       PA: "Highmark Blue Cross Blue Shield",
       TX: "Blue Cross Blue Shield of Texas",
     },
     memberPortals: {
+      AZ: "https://www.azblue.com/member",
       FL: "https://member.floridablue.com",
       GA: "https://www.anthem.com/find-care/",
       IL: "https://www.bcbsil.com/member",
+      MI: "https://www.bcbsm.com/member",
       PA: "https://www.highmarkbcbs.com/member-center/",
       TX: "https://www.bcbstx.com/member",
     },
@@ -61,9 +65,9 @@ export const INSURERS = {
     planTypes: ["PPO","HMO","EPO","POS","Medicare Advantage","Group plans","Individual & Family Plans","Blue Advantage HMO","Blue Choice PPO"],
     notAccepted: ["Medicaid","Managed Medicaid","CHIP","Medicare-Medicaid (MME)","Dual Special Needs Plan (D-SNP)","Federal Employee Program (FEP)","BlueCard out-of-network"],
     metaTitle: "Online Doctor That Accepts Blue Cross Blue Shield | TeleDirectMD",
-    metaDescription: "TeleDirectMD accepts Blue Cross Blue Shield-family plans (Florida Blue, Anthem GA, BCBS-IL, Highmark PA, BCBS-TX) in 5 states. PPO, HMO, EPO, POS, and Medicare Advantage. Board-certified physician.",
+    metaDescription: "TeleDirectMD accepts Blue Cross Blue Shield-family plans (BCBS-AZ, Florida Blue, Anthem GA, BCBS-IL, BCBS-MI, Highmark PA, BCBS-TX) in 7 states. PPO, HMO, EPO, POS, and Medicare Advantage. Board-certified physician.",
     h1: "Online Doctor Visits Covered by Blue Cross Blue Shield",
-    heroSubtitle: "TeleDirectMD is in-network with select Blue Cross Blue Shield affiliates in Florida, Georgia, Illinois, Pennsylvania, and Texas.",
+    heroSubtitle: "TeleDirectMD is in-network with select Blue Cross Blue Shield affiliates in Arizona, Florida, Georgia, Illinois, Michigan, Pennsylvania, and Texas.",
     faqSlug: "bcbs",
   },
   "united-healthcare": {
@@ -159,11 +163,14 @@ export const COPAY_DATA = {
     OH: { typical: "$10–$40", employer: "Often $0–$20 for employer plans", note: "Ohio Aetna commercial plans often feature reduced telehealth copays vs. in-person visits." },
     PA: { typical: "$5–$35", employer: "Often $0–$15 for employer plans", note: "Pennsylvania telehealth parity applies. Aetna PA commercial plans mirror your office copay for telehealth." },
     TN: { typical: "$10–$40", employer: "Often $0–$20 for employer plans", note: "Tennessee Aetna commercial telehealth copays vary widely by employer plan. Verify at aetna.com." },
+    WA: { typical: "$10–$40", employer: "Often $0–$20 for employer plans", note: "Washington Aetna commercial telehealth copays vary by employer plan. Verify at aetna.com." },
   },
   "blue-cross-blue-shield": {
+    AZ: { typical: "$10–$40", employer: "Often $0–$20 for employer plans", note: "BCBS of Arizona commercial telehealth copays vary by plan. Verify at azblue.com." },
     FL: { typical: "$0–$30", employer: "Often $0 for employer plans", note: "Florida Blue offers strong telehealth benefits. Many Florida Blue employer plans carry $0 telehealth copays." },
     GA: { typical: "$5–$35", employer: "Often $0–$15 for employer plans", note: "Anthem BCBS Georgia commercial plans typically include competitive telehealth copays through Blue Distinction." },
     IL: { typical: "$10–$35", employer: "Often $0–$15 for employer plans", note: "BCBS of Illinois is the dominant employer plan insurer in the Chicago market. Telehealth copays often match or beat office visit rates." },
+    MI: { typical: "$10–$40", employer: "Often $0–$20 for employer plans", note: "BCBS of Michigan commercial telehealth copays vary by plan. BCBS Complete (Medicaid) is not accepted. Verify at bcbsm.com." },
     PA: { typical: "$0–$30", employer: "Often $0 for employer plans", note: "Highmark BCBS Pennsylvania frequently offers $0 telehealth copays for commercial employer plans in the Pittsburgh and Philadelphia markets." },
     TX: { typical: "$10–$40", employer: "Often $0–$20 for employer plans", note: "BCBS of Texas is the state's largest insurer. Telehealth copays vary by employer plan tier. Verify at bcbstx.com." },
   },
@@ -577,7 +584,7 @@ export const INSURANCE_CONDITIONS = {
 // ─── State-level data: insurers, population, commissioner, context ────────────
 export const STATE_INSURANCE_MAP = {
   AZ: {
-    insurers: ["aetna"],
+    insurers: ["aetna","blue-cross-blue-shield","united-healthcare"],
     population: 7431000,
     priority: "medium",
     commissioner: { name: "Arizona Department of Insurance and Financial Institutions", url: "https://difi.az.gov/" },
@@ -619,7 +626,7 @@ export const STATE_INSURANCE_MAP = {
     majorEmployers: ["Boeing", "United Airlines", "Abbott Laboratories", "Walgreens", "Caterpillar"],
   },
   MI: {
-    insurers: ["aetna"],
+    insurers: ["aetna","blue-cross-blue-shield","united-healthcare"],
     population: 10034000,
     priority: "medium",
     commissioner: { name: "Michigan Department of Insurance and Financial Services", url: "https://www.michigan.gov/difs" },
@@ -675,7 +682,7 @@ export const STATE_INSURANCE_MAP = {
     majorEmployers: ["Dell", "AT&T", "Exxon Mobil", "Texas Health Resources", "HCA Healthcare"],
   },
   WA: {
-    insurers: ["united-healthcare"],
+    insurers: ["aetna","united-healthcare"],
     population: 7886000,
     priority: "medium",
     commissioner: { name: "Washington State Office of the Insurance Commissioner", url: "https://www.insurance.wa.gov/" },
@@ -694,4 +701,4 @@ export const B = {
 };
 
 // Last reviewed date — updated monthly by cron
-export const LAST_REVIEWED = "2026-07-01";
+export const LAST_REVIEWED = "2026-08-26";

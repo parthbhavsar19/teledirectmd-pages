@@ -10,7 +10,7 @@ import { summarizeInsuranceStateLanding, citableSummaryToJsonLd } from '../../..
 
 const insurer = INSURERS.aetna;
 
-const STATE_CODE_MAP = { arizona:"AZ", california:"CA", colorado:"CO", florida:"FL", georgia:"GA", illinois:"IL", louisiana:"LA", michigan:"MI", minnesota:"MN", "north-carolina":"NC", ohio:"OH", pennsylvania:"PA", tennessee:"TN" };
+const STATE_CODE_MAP = { arizona:"AZ", california:"CA", colorado:"CO", florida:"FL", georgia:"GA", illinois:"IL", louisiana:"LA", michigan:"MI", minnesota:"MN", "north-carolina":"NC", ohio:"OH", pennsylvania:"PA", tennessee:"TN", washington:"WA" };
 
 const STATE_CONTEXT = {
   AZ:{cities:["Phoenix","Tucson","Scottsdale","Mesa","Chandler"],note:"Arizona requires telehealth payment parity under ARS § 20-1376.05 (effective September 29, 2021, via HB 2454), enforced by the Arizona Department of Insurance and Financial Institutions (DIFI). Aetna commercial plans in Arizona — including PPO, HMO, and HSA-eligible products — must reimburse synchronous video visits at the same rate as equivalent in-person services. Arizona's dominant clinical telehealth drivers are valley fever (coccidioidomycosis), with 14,763 reported cases in 2024 (Arizona Department of Health Services), and heat-related illness, which generates roughly 4,298 ER visits per year statewide — both conditions well-suited to telehealth triage and follow-up. Maricopa County (Phoenix metro, ~4.5M residents) and Pima County (Tucson, ~1.1M) together represent approximately 85% of Arizona's commercially insured population. Aetna's Arizona employer-market penetration is strongest in the Phoenix metro, where the state's largest employers concentrate Aetna PPO and Open Access plan enrollment."},
@@ -26,6 +26,7 @@ const STATE_CONTEXT = {
   OH:{cities:["Columbus","Cleveland","Cincinnati","Toledo","Akron"],note:"Ohio is a strong two-insurer market with both Aetna and UHC in-network at TeleDirectMD. Ohio employer plans frequently carry $0 telehealth copays — especially for large employers in Columbus and Cleveland."},
   PA:{cities:["Philadelphia","Pittsburgh","Allentown","Erie","Reading"],note:"Pennsylvania has the broadest insurance coverage at TeleDirectMD: Aetna, Highmark BCBS, and UHC are all in-network, covering most Pennsylvania employer plan members across both the Philadelphia and Pittsburgh markets."},
   TN:{cities:["Nashville","Memphis","Knoxville","Chattanooga","Clarksville"],note:"Tennessee residents with Aetna or UHC commercial plans can access TeleDirectMD. Nashville's major employer base — including HCA Healthcare, Vanderbilt, and large tech companies — makes commercial insurance especially prevalent."},
+  WA:{cities:["Seattle","Spokane","Tacoma","Bellevue","Vancouver"],note:"Washington residents with Aetna or UHC commercial plans can access TeleDirectMD. Washington requires commercial insurers to reimburse telehealth at parity with in-person care, and the Seattle–Bellevue tech corridor concentrates the state's commercially insured population."},
 };
 
 export default function AetnaStateClient({ stateSlug }) {

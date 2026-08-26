@@ -93,7 +93,7 @@ const faqItems = [
   // Section 4: Pricing, Insurance, and Payment
   {
     q: 'Do you accept insurance?',
-    a: 'Yes! TeleDirectMD now accepts select commercial insurance plans in addition to our self-pay option. Currently accepted insurers include Aetna (AZ, CO, FL, GA, IL, MI, MN, OH, TN), Blue Cross Blue Shield (select plans in FL, GA, IL, PA, TX), and UnitedHealthcare (CO, GA, IL, MN, NC, NJ, OH, PA, TN, WA). Coverage is expanding to additional states and plans. Visit our Insurance page to check if your plan is covered. Standard copays and cost-sharing apply for insurance visits.',
+    a: 'Yes! TeleDirectMD now accepts select commercial insurance plans in addition to our self-pay option. Currently accepted insurers include Aetna (AZ, CA, CO, FL, GA, IL, LA, MI, MN, NC, OH, PA, TN, WA), Blue Cross Blue Shield (select plans in AZ, FL, GA, IL, MI, PA, TX), and UnitedHealthcare (AZ, CA, CO, FL, GA, IL, LA, MI, MN, NC, NJ, OH, OK, PA, TN, TX, WA). Coverage is expanding to additional states and plans. Visit our Insurance page to check if your plan is covered. Standard copays and cost-sharing apply for insurance visits.',
   },
   {
     q: 'How much does a visit cost?',
