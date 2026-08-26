@@ -3,7 +3,7 @@ import MediaMentionsClient from './MediaMentionsClient';
 export const metadata = {
   title: 'Media Mentions | TeleDirectMD Expert Coverage & Press',
   description:
-    'TeleDirectMD physicians are quoted and featured in TIME, Newsweek, British GQ, HuffPost, FOX News Digital, Healthline, and 10+ other major outlets. Browse 27 expert media appearances across nutrition, wellness, infectious disease, and safety.',
+    'TeleDirectMD physicians are quoted and featured in TIME, Newsweek, British GQ, HuffPost, FOX News Digital, Healthline, and 10+ other major outlets. Browse 30 expert media appearances across nutrition, wellness, infectious disease, and safety.',
   alternates: { canonical: 'https://teledirectmd.com/media-mentions' },
   openGraph: {
     title: 'Media Mentions | TeleDirectMD Expert Coverage & Press',
@@ -25,7 +25,7 @@ const jsonLd = {
       url: 'https://teledirectmd.com/media-mentions',
       name: 'TeleDirectMD in the Media | Press & Editorial Coverage',
       description:
-        'TeleDirectMD physicians are trusted expert sources in national health journalism, featured in 27 articles across TIME, Newsweek, British GQ, and 16 other major outlets.',
+        'TeleDirectMD physicians are trusted expert sources in national health journalism, featured in 30 articles across TIME, Newsweek, British GQ, and 16 other major outlets.',
       inLanguage: 'en-US',
       isPartOf: {
         '@type': 'WebSite',
@@ -41,6 +41,27 @@ const jsonLd = {
           'TeleDirectMD is a physician-led telehealth service providing direct access to board-certified doctors via video visit.',
       },
       hasPart: [
+        {
+          '@type': 'NewsArticle',
+          headline: 'The Best Drink To Lower Blood Pressure Works in Three Hours',
+          datePublished: '2026-08-19',
+          publisher: { '@type': 'Organization', name: "Woman's World" },
+          url: 'https://www.womansworld.com/wellness/heart-health/best-drink-to-lower-blood-pressure-works-in-three-hours',
+        },
+        {
+          '@type': 'NewsArticle',
+          headline: 'Best Probiotic-Rich Foods for Vaginal Health After 50',
+          datePublished: '2026-08-19',
+          publisher: { '@type': 'Organization', name: "Woman's World" },
+          url: 'https://www.womansworld.com/wellness/best-probiotic-rich-foods-for-vaginal-health-after-50',
+        },
+        {
+          '@type': 'NewsArticle',
+          headline: "Neurophysiologist reveals the 1 exercise they'd never skip for brain health",
+          datePublished: '2026-08-18',
+          publisher: { '@type': 'Organization', name: 'Newsweek' },
+          url: 'https://www.newsweek.com/neurophysiologist-reveals-key-exercise-brain-health-12338070',
+        },
         {
           '@type': 'NewsArticle',
           headline: 'Rising Healthcare Costs Don\u2019t Have to Derail Your Budget After 50',
