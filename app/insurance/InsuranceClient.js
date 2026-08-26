@@ -6,6 +6,7 @@ import {
   getPendingInsurers,
   getInsuranceStateCount,
   getUniquePayerFamilyCount,
+  isLicensedState,
 } from '../../lib/insurance-data';
 
 // ─── Network checker — production version ────────────────────────────────────
@@ -351,16 +352,31 @@ function resolveResult(stateAbbr, payerId) {
     };
   }
 
-  // Outside the served states
+  // No insurance in this state — distinguish licensed (self-pay available) from unlicensed
   const stateActive = getActiveInsurers(stateAbbr) || [];
   const statePending = getPendingInsurers(stateAbbr) || [];
   if (stateActive.length === 0 && statePending.length === 0) {
+    if (isLicensedState(stateAbbr)) {
+      return {
+        kind: 'warning',
+        banner: 'Self-Pay Available',
+        icon: '$',
+        headline: `Self-pay is available in ${STATE_NAMES[stateAbbr] || 'this state'}.`,
+        text: `We don't have in-network insurance in ${STATE_NAMES[stateAbbr] || 'this state'} yet, but you can still see Dr. Parth Bhavsar, MD for a flat $79 self-pay visit.`,
+        status: 'Self-pay only',
+        eff: '—',
+        plans: '—',
+        ctaText: 'Book $79 self-pay visit →',
+        ctaHref: `/book-online?state=${stateAbbr}`,
+        showSecondary: false,
+      };
+    }
     return {
       kind: 'error',
       banner: 'State Not Currently Served',
       icon: '✕',
       headline: `We don't currently serve ${STATE_NAMES[stateAbbr] || 'this state'}.`,
-      text: 'TeleDirectMD is licensed in 44 states. Our network is expanding. If you have a different state to check, use the dropdown above. Otherwise, book a $79 self-pay visit (if licensed in your state) or join the waitlist.',
+      text: 'TeleDirectMD is licensed in 44 states. If you have a different state to check, use the dropdown above. Otherwise, join the waitlist.',
       status: 'Not licensed',
       eff: '—',
       plans: '—',
