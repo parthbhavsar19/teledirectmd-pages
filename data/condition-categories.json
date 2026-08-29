@@ -23,6 +23,21 @@
     ]
   },
   {
+    "categoryName": "Pediatrics",
+    "categorySlug": "pediatrics",
+    "categoryDescription": "MD-only telehealth for children ages 5 to 17 (acne from age 12). Parent or legal guardian present and consenting; $79 self-pay; no controlled substances.",
+    "conditions": [
+      { "slug": "teen-acne-treatment-online", "name": "Teen Acne (12-17)" },
+      { "slug": "pediatric-pink-eye-treatment-online", "name": "Pediatric Pink Eye" },
+      { "slug": "pediatric-head-lice-treatment-online", "name": "Pediatric Head Lice" },
+      { "slug": "pediatric-asthma-allergy-refills-online", "name": "Pediatric Asthma and Allergy Refills" },
+      { "slug": "pediatric-impetigo-treatment-online", "name": "Pediatric Impetigo" },
+      { "slug": "pediatric-eczema-treatment-online", "name": "Pediatric Eczema" },
+      { "slug": "pediatric-ringworm-treatment-online", "name": "Pediatric Ringworm" },
+      { "slug": "pediatric-contact-dermatitis-treatment-online", "name": "Pediatric Contact Dermatitis" }
+    ]
+  },
+  {
     "categoryName": "Women's Health",
     "categorySlug": "womens-health",
     "categoryDescription": "Confidential online care for yeast infections, BV, vaginal dryness, and more.",
