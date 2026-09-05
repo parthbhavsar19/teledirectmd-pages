@@ -1,0 +1,114 @@
+name: IndexNow submit
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'public/**'
+      - 'data/**'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  indexnow:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Submit changed URLs to IndexNow
+        env:
+          # IndexNow keys are public by design (published in a .txt file at the site root).
+          INDEXNOW_KEY: d76375fb5cb6c507ff64bf4a98239d44
+          INDEXNOW_KEY_LOCATION: https://teledirectmd.com/d76375fb5cb6c507ff64bf4a98239d44.txt
+          SITE: https://teledirectmd.com
+          SITE_HOST: teledirectmd.com
+        run: |
+          python3 - <<'PY'
+          import json, os, subprocess, sys, time, urllib.request
+
+          site = os.environ["SITE"].rstrip("/")
+          host = os.environ["SITE_HOST"]
+
+          # 1. Changed HTML files between the previous commit and HEAD.
+          changed = subprocess.run(
+              ["git", "diff", "--name-only", "--diff-filter=AM", "HEAD~1", "HEAD",
+               "--", "public/**/index.html", "public/index.html"],
+              capture_output=True, text=True,
+          ).stdout.strip().splitlines()
+
+          def to_url(path: str) -> str:
+              # public/index.html      -> /
+              # public/<dir>/index.html -> /<dir>/
+              slug = path[len("public/"):] if path != "public/index.html" else ""
+              if slug == "index.html":
+                  slug = ""
+              slug = slug[: -len("index.html")] if slug.endswith("index.html") else slug
+              suffix = "/" + slug if slug else ""
+              return site + suffix
+
+          urls = [to_url(p) for p in changed if p]
+
+          # 2. Fall back to the sitemap when no HTML changed but data/ did (regenerated-on-build case).
+          fallback_sitemap = False
+          if not urls:
+              data_changed = any(
+                  d.startswith("data/")
+                  for d in subprocess.run(
+                      ["git", "diff", "--name-only", "HEAD~1", "HEAD"],
+                      capture_output=True, text=True,
+                  ).stdout.splitlines()
+              )
+              if data_changed:
+                  urls = [site + "/sitemap.xml"]
+                  fallback_sitemap = True
+
+          if not urls:
+              print("No new/modified pages to submit; skipping.")
+              sys.exit(0)
+
+          print(f"Submitting {len(urls)} URL(s)" +
+                (" (sitemap fallback)" if fallback_sitemap else "") + ":")
+
+          # 3. Wait briefly for the Vercel deploy to serve the first changed URL,
+          #    so IndexNow sees a live page instead of a transient 404.
+          probe = urls[0]
+          deadline = time.time() + 180
+          status = 0
+          while time.time() < deadline:
+              try:
+                  req = urllib.request.Request(probe, method="HEAD")
+                  status = urllib.request.urlopen(req, timeout=10).getcode()
+              except urllib.error.HTTPError as e:
+                  status = e.code
+              except Exception:
+                  status = 0
+              if status == 200:
+                  break
+              time.sleep(10)
+          print(f"  probe {probe} -> {status}")
+
+          payload = {
+              "host": host,
+              "key": os.environ["INDEXNOW_KEY"],
+              "keyLocation": os.environ["INDEXNOW_KEY_LOCATION"],
+              "urlList": urls,
+          }
+
+          req = urllib.request.Request(
+              "https://api.indexnow.org/indexnow",
+              data=json.dumps(payload).encode("utf-8"),
+              headers={"Content-Type": "application/json; charset=utf-8"},
+              method="POST",
+          )
+          try:
+              resp = urllib.request.urlopen(req, timeout=30)
+              print(f"IndexNow HTTP {resp.getcode()}: {resp.read().decode()}")
+          except urllib.error.HTTPError as e:
+              print(f"IndexNow HTTP {e.code}: {e.read().decode()}")
+              sys.exit(1)
+          PY
