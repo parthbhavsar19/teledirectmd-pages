@@ -278,3 +278,41 @@ body, .tdmd-nav, .guide-card, .article-card, .guides-category,
 .tdmd-table th, .tdmd-table td, .tdmd-footer {
   transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
 }
+
+/* ── Dark-mode fixes ─────────────────────────────────────────────
+   The base guide CSS uses var(--tdmd-white) as a TEXT/fill color in
+   the footer (column headings, CTA, social icons). In dark mode that
+   token resolves to the dark surface (#1a1a2e), which made these
+   elements dark-on-dark. Pin them to a true light color here. */
+
+html.tdmd-dark .tdmd-footer-col h5 {
+  color: #e8f1f4;
+}
+
+html.tdmd-dark .tdmd-footer-cta {
+  color: #ffffff !important;
+}
+
+html.tdmd-dark .tdmd-footer a:hover {
+  color: #ffffff;
+}
+
+html.tdmd-dark .tdmd-footer-social svg {
+  fill: #e8f1f4;
+}
+
+/* Citable summary box is injected with inline hex styles, so these
+   overrides need !important to take effect in dark mode. */
+html.tdmd-dark .tdmd-citable-summary {
+  background: #1a2733 !important;
+  border-color: var(--tdmd-border) !important;
+}
+
+html.tdmd-dark .tdmd-citable-summary h2 {
+  color: var(--tdmd-navy) !important;
+}
+
+html.tdmd-dark .tdmd-citable-summary div {
+  color: var(--tdmd-text) !important;
+  border-top-color: var(--tdmd-border) !important;
+}
