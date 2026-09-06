@@ -2,6 +2,7 @@ import { getStates, getStateBySlug, getConditionCategories, getConditionSlugs, g
 import { generateNationalJsonLd } from '../../lib/json-ld-national';
 import StateLandingPage from './StateLandingPage';
 import NationalConditionPage from './NationalConditionPage';
+import PrescribingPolicyScope from '../components/PrescribingPolicy';
 
 export async function generateStaticParams() {
   const states = getStates();
@@ -56,9 +57,9 @@ export default async function UnifiedSlugPage({ params }) {
   /* If it's a state slug, render the state landing page */
   const state = getStateBySlug(slug);
   if (state) {
-    return <StateLandingPage stateSlug={slug} />;
+    return <PrescribingPolicyScope><StateLandingPage stateSlug={slug} /></PrescribingPolicyScope>;
   }
 
   /* Otherwise, render the national condition page */
-  return <NationalConditionPage conditionSlug={slug} />;
+  return <PrescribingPolicyScope conditionSlug={slug}><NationalConditionPage conditionSlug={slug} /></PrescribingPolicyScope>;
 }

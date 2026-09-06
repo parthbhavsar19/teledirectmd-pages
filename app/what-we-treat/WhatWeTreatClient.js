@@ -3,6 +3,7 @@
 import { useState, useEffect, useMemo, useRef } from 'react';
 import Image from 'next/image';
 import './wwt-redesign.css';
+import { PRESCRIBING_POLICY } from '../../lib/prescribing-policy';
 
 /* ── Config ──────────────────────────────────────────────────────────────── */
 /* Six states not yet available. Lowercase to match the SVG's <path class="XX"> */
@@ -436,6 +437,10 @@ export default function WhatWeTreatClient({ categories, conditionDescriptions, s
             Scope discipline is the product. These limits are written into every visit, not buried in a policy page.
           </p>
           <div className="wwt-scope-grid">
+            <div className="wwt-scope-item" data-prescribing-policy="scope">
+              <h3>IV/IM prescribing limits — EpiPen refill exception</h3>
+              <p>{PRESCRIBING_POLICY}</p>
+            </div>
             <div className="wwt-scope-item">
               <h3>Red-flag screening every visit</h3>
               <p>If your symptoms point to something that needs hands-on care, we say so and direct you to an ER or in-person clinic. No upsell.</p>

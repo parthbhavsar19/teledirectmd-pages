@@ -3,6 +3,7 @@ import { useState, useEffect, useRef, useCallback } from 'react';
 import { homepageCSS } from '../lib/homepage-styles';
 import CONDITION_ICONS from '../lib/condition-icons';
 import US_STATE_PATHS from '../lib/us-map-paths';
+import { PrescribingPolicyNotice, PrescribingPolicyFaq } from './components/PrescribingPolicy';
 
 /* ============================
    DATA
@@ -648,6 +649,7 @@ export default function HomepageClient() {
       </section>
 
       {/* ===== SECTION 2: SERVICE CATEGORIES ===== */}
+      <PrescribingPolicyNotice />
       <section className="hp-services hp-section">
         <div className="hp-container">
           <div style={{ textAlign: 'center' }}>
@@ -807,6 +809,7 @@ export default function HomepageClient() {
       </section>
 
       {/* ===== SECTION 7: REVIEWS ===== */}
+      <PrescribingPolicyFaq />
       <section className="hp-reviews hp-section">
         <div className="hp-container">
           <div className="hp-reviews-header">

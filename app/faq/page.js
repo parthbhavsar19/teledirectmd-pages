@@ -1,4 +1,5 @@
 import FAQClient from './FAQClient';
+import { PRESCRIBING_POLICY, PRESCRIBING_POLICY_QUESTION } from '../../lib/prescribing-policy';
 import { getAggregateRating, getReviewBlock } from '../../lib/review-schema';
 import { CitableSummaryBlock } from '../components/CitableSummary';
 import { summarizeFaqLanding, citableSummaryToJsonLd } from '../../lib/citable-summary';
@@ -58,13 +59,14 @@ const faqItems = [
     a: 'Absolutely. As long as you are physically located in one of our covered states or D.C. at the time of your appointment, we can see you. TeleDirectMD is a great option for travelers who need quick access to a doctor on the road.',
   },
   // Section 3: Conditions, Prescriptions, and Scope of Care
+  { q: PRESCRIBING_POLICY_QUESTION, a: PRESCRIBING_POLICY },
   {
     q: 'What conditions do you treat?',
     a: 'We treat a wide range of common urgent-care conditions including sinus infections, UTIs, upper respiratory infections, allergies, skin rashes, pink eye, cold and flu, ear infections, bronchitis, and more. Visit our What We Treat page for a full list of conditions.',
   },
   {
     q: 'Can you prescribe medication?',
-    a: 'Yes. Our providers can prescribe most non-controlled medications and send prescriptions directly to your preferred pharmacy electronically. This includes antibiotics, antivirals, anti-inflammatories, allergy medications, and many others.',
+    a: 'Yes. When clinically appropriate and within our prescribing limits, our providers can prescribe non-controlled medications and send prescriptions directly to your preferred pharmacy electronically. See our IV/IM prescribing policy, including the EpiPen refill exception.',
   },
   {
     q: 'Do you prescribe controlled substances?',

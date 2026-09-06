@@ -1,4 +1,5 @@
 import VisitVideo from '../../components/VisitVideo';
+import { PrescribingPolicyNotice } from '../components/PrescribingPolicy';
 
 export const metadata = {
   title: "You're All Set — TeleDirectMD",
@@ -369,6 +370,7 @@ export default function VisitReady() {
 
   return (
     <div style={styles.wrap}>
+      <PrescribingPolicyNotice />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}

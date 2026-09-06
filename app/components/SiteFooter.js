@@ -1,3 +1,5 @@
+import { PRESCRIBING_POLICY } from '../../lib/prescribing-policy';
+
 export default function SiteFooter() {
 
   return (
@@ -107,6 +109,11 @@ export default function SiteFooter() {
         </div>
 
         {/* Copyright strip */}
+        <div className="tdmd-footer-copyright" data-prescribing-policy="footer">
+          <p style={{ maxWidth: 1080, lineHeight: 1.6, margin: 0 }}>
+            <strong>Prescribing limits. </strong>{PRESCRIBING_POLICY}
+          </p>
+        </div>
         <div className="tdmd-footer-copyright">
           <span>© 2026 TeleDirectMD. All rights reserved.</span>
           <div className="tdmd-footer-legal-links">

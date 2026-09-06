@@ -29,7 +29,7 @@ const MEDICATIONS = [
 
 const CA_SIBLINGS = [
   { slug: 'bv-treatment-online', label: 'BV Treatment in CA', why: 'BV frequently co-occurs with chlamydia — same sexual health visit.' },
-  { slug: 'gonorrhea-treatment-online', label: 'Gonorrhea Treatment in CA', why: 'Co-infection with gonorrhea is common — dual coverage often recommended.' },
+  { slug: 'gonorrhea-treatment-online', label: 'Gonorrhea Treatment in CA', why: 'Co-infection with gonorrhea requires separate in-person care when an antibiotic injection is needed; TeleDirectMD cannot prescribe that injection.' },
   { slug: 'trichomoniasis-treatment-online', label: 'Trichomoniasis Treatment in CA', why: 'STI differential when discharge is present.' },
   { slug: 'mycoplasma-genitalium-treatment-online', label: 'Mycoplasma Genitalium Treatment in CA', why: 'Shares symptoms with chlamydia — consider testing for M. genitalium in persistent NGU.' },
   { slug: 'doxypep-sti-prevention-online', label: 'DoxyPEP STI Prevention in CA', why: 'Doxycycline post-exposure prophylaxis to prevent chlamydia recurrence.' },

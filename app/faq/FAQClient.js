@@ -3,6 +3,7 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import FaqAccordion from '../components/FaqAccordion';
+import { PRESCRIBING_POLICY, PRESCRIBING_POLICY_QUESTION } from '../../lib/prescribing-policy';
 
 /* ─── FAQ-specific CSS using the What We Treat design system ─── */
 const faqCSS = `
@@ -379,12 +380,14 @@ const sections = [
         ),
       },
       {
+        q: PRESCRIBING_POLICY_QUESTION,
+        a: <p>{PRESCRIBING_POLICY}</p>,
+      },
+      {
         q: 'Can you prescribe medication?',
         a: (
           <p>
-            Yes. Our providers can prescribe most non-controlled medications and send prescriptions
-            directly to your preferred pharmacy electronically. This includes antibiotics,
-            antivirals, anti-inflammatories, allergy medications, and many others.
+            Yes. When clinically appropriate and within our prescribing limits, our providers can prescribe non-controlled medications and send prescriptions directly to your preferred pharmacy electronically. See our IV/IM prescribing policy, including the EpiPen refill exception.
           </p>
         ),
       },
