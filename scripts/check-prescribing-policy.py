@@ -189,7 +189,7 @@ import('data:text/javascript;base64,' + Buffer.from(src).toString('base64')).the
             specific = module["specific"][slug][1]
             faq_alignment(root, route, specific["question"], specific["answer"])
             if slug == "epipen-refills-online":
-                assert specific["answer"] in normalize(notices[0].text()), f"{route}: affirmative EpiPen exception absent from notice"
+                assert "EpiPen auto-injector refills are the only IM exception, when clinically appropriate." in normalize(notices[0].text()), f"{route}: affirmative EpiPen exception absent from notice"
     scope = load("/what-we-treat/")
     assert any(el.attrs.get("data-prescribing-policy") == "scope" and POLICY in normalize(el.text())
                for el in scope.all()), "What We Treat scope section missing policy"

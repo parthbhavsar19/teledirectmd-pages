@@ -437,8 +437,8 @@ export default function WhatWeTreatClient({ categories, conditionDescriptions, s
             Scope discipline is the product. These limits are written into every visit, not buried in a policy page.
           </p>
           <div className="wwt-scope-grid">
-            <div className="wwt-scope-item" data-prescribing-policy="scope">
-              <h3>IV/IM prescribing limits — EpiPen refill exception</h3>
+            <div className="wwt-scope-item" data-prescribing-policy="scope" style={{ gridColumn: '1 / -1' }}>
+              <h3>IV/IM prescribing limits: EpiPen refill exception</h3>
               <p>{PRESCRIBING_POLICY}</p>
             </div>
             <div className="wwt-scope-item">
