@@ -398,6 +398,15 @@ export default function NationalConditionPage({ conditionSlug }) {
         </div>
       </section>
 
+      {condition.guideLink && (
+        <section className="tdmd-section tdmd-section-highlight" id={`${pid}-health-guide`}>
+          <div className="tdmd-container">
+            <h2>Related Health Guide</h2>
+            <p>For a deeper clinical guide to symptoms, prevention, and treatment, read our <a href={condition.guideLink.url}>{condition.guideLink.label}</a>, written and reviewed by our physicians to current clinical guidelines.</p>
+          </div>
+        </section>
+      )}
+
       {/* 9) Causes and Risk Factors */}
       <section className="tdmd-section" id={`${pid}-causes-risk-factors`}>
         <div className="tdmd-container">
