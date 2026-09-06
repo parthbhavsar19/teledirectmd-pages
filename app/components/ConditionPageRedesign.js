@@ -530,6 +530,17 @@ export default function ConditionPageRedesign({
         </section>
       )}
 
+      {/* HEALTH GUIDE LINK */}
+      {c.guideLink && (
+        <section className="cpr-sec cpr-alt">
+          <div className="cpr-wrap">
+            <p className="cpr-kicker">Learn more</p>
+            <h2>Related health guide</h2>
+            <p style={{ margin: 0, lineHeight: 1.7 }}>For a deeper clinical guide to symptoms, prevention, and treatment, read our <a href={c.guideLink.url}>{c.guideLink.label}</a>, written and reviewed by our physicians to current clinical guidelines.</p>
+          </div>
+        </section>
+      )}
+
       {/* RELATED CONDITIONS (styled) */}
       {relatedConds.length > 0 && (
         <section className="cpr-sec cpr-alt">
