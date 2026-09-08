@@ -45,8 +45,10 @@ def norm(s):
     return re.sub(r"[^a-z0-9]+", " ", (s or "").lower()).strip()
 
 def norm_pages(p):
-    # normalize elided ranges: "147-59" -> "147-159"; "380-90" -> "380-390"
+    # normalize elided ranges: "147-59" -> "147-159"; "380-90" -> "380-390";
+    # strip online-supplement markers: "541-549.e2" -> "541-549"
     p = (p or "").strip().lower().replace(" ", "")
+    p = re.sub(r'\.e\d+$', '', p)
     m = re.match(r'^(\d+)-(\d+)$', p)
     if m:
         a, b = m.group(1), m.group(2)
