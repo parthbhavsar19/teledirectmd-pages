@@ -1,0 +1,33 @@
+{
+  "asOfDate": "2026-09-08",
+  "sources": [
+    { "label": "Doctor On Demand cost page", "url": "https://doctorondemand.com/about-us/cost-insurance/" },
+    { "label": "The Penny Hoarder 2024 telehealth comparison", "url": "https://www.thepennyhoarder.com/save-money/telemedicine-without-insurance/" },
+    { "label": "GoodRx Care pricing", "url": "https://www.goodrx.com/telehealth-care" },
+    { "label": "CoveredUSA 2026 urgent-care survey", "url": "https://coveredusa.org/urgent-care-cost-without-insurance/" }
+  ],
+  "rows": [
+    {
+      "service": "TeleDirectMD",
+      "isSelf": true,
+      "price": "$79 flat, first & follow-up",
+      "provider": "Board-certified MD",
+      "sameDoctor": "Yes, same MD across all 44 states",
+      "membership": "No",
+      "drugSubscription": "No"
+    },
+    { "service": "GoodRx Care", "price": "$19 with Gold / $39–$70 without", "provider": "MD or NP", "sameDoctor": "No, rotating", "membership": "Yes ($10/mo Gold for lowest price)", "drugSubscription": "No" },
+    { "service": "Sesame", "price": "$37+", "provider": "Varies by clinician", "sameDoctor": "No, marketplace", "membership": "Sesame Plus pushed", "drugSubscription": "No" },
+    { "service": "ChatWithDr", "price": "$39.99", "provider": "Not specified", "sameDoctor": "No", "membership": "No", "drugSubscription": "No" },
+    { "service": "Amwell", "price": "$79", "provider": "Varies", "sameDoctor": "No, rotating", "membership": "No", "drugSubscription": "No" },
+    { "service": "Teladoc", "price": "$89", "provider": "MD or NP", "sameDoctor": "No, rotating", "membership": "No", "drugSubscription": "No" },
+    { "service": "MDLive", "price": "$89", "provider": "MD or NP", "sameDoctor": "No, rotating", "membership": "No", "drugSubscription": "No" },
+    { "service": "Doctor On Demand", "price": "$99 for 15 min", "provider": "MD, NP, or psychologist", "sameDoctor": "No, rotating", "membership": "No", "drugSubscription": "No" },
+    { "service": "PlushCare", "price": "$129 first / $99 follow-up", "provider": "MD", "sameDoctor": "Attempts continuity", "membership": "Yes ($19.99/mo or $99/yr)", "drugSubscription": "No" },
+    { "service": "HealthTap", "price": "$44 members / $129 non", "provider": "Rotating pool of ~90,000", "sameDoctor": "No", "membership": "Yes ($55/3mo or $180/yr)", "drugSubscription": "No" },
+    { "service": "Hims / Hers", "price": "$0 visit, $30+/mo Rx", "provider": "Mostly NP", "sameDoctor": "No", "membership": "Effectively yes", "drugSubscription": "Yes, the entire model" },
+    { "service": "Ro", "price": "$0–$99 visit", "provider": "Mostly NP", "sameDoctor": "No", "membership": "Effectively yes", "drugSubscription": "Yes, GLP-1, ED, hair-loss subscriptions" },
+    { "service": "Urgent care (in person, avg.)", "price": "$180", "provider": "MD, PA, or NP", "sameDoctor": "No", "membership": "No", "drugSubscription": "No" },
+    { "service": "Emergency room (avg. uninsured)", "price": "$2,400+", "provider": "MD", "sameDoctor": "No", "membership": "No", "drugSubscription": "No" }
+  ]
+}
