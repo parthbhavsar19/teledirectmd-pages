@@ -1,224 +1,77 @@
 import comparison from '../../../data/competitor-comparison.json';
 
-/* ── Page-scoped design system ────────────────────────────────────
-   Applied only under `.uninsured-page-2026`. Does not affect the
-   rest of the site. Cream sections, huge type, rounded cards, icons
-   in the comparison table. Reference: generalmedicine.co spirit,
-   TDMD brand kept.
-*/
+/* Local refinements only — everything else reuses the site's native
+   .tdmd-* classes so this page matches the condition pages. The hero
+   uses the site's dark teal-navy #003E52 (same as the urgency strip). */
 const pageCSS = `
-.uninsured-page-2026{--u-cream:#F6F1E8;--u-cream-2:#FBF7EF;--u-ink:#0F1420;--u-navy:#172140;--u-navy-2:#1E2A55;--u-coral:#FF5A36;--u-mist:#EEF0F5;--u-line:#E4DCC8;--u-line-2:#E7EAF1;--u-muted:#5B6478;--u-ok:#0E7B4A;--u-ok-bg:#E6F4EC;--u-no:#B12A2A;--u-no-bg:#FBEBEB;--u-warn:#8A5A00;--u-warn-bg:#FFF5DA;}
-.uninsured-page-2026 section.u-sec{padding:clamp(3rem,7vw,6rem) 0;}
-.uninsured-page-2026 .u-container{max-width:1140px;margin:0 auto;padding:0 clamp(1rem,3vw,2rem);}
-.uninsured-page-2026 .u-eyebrow{display:inline-flex;align-items:center;gap:.5rem;background:#fff;border:1px solid var(--u-line);border-radius:999px;padding:.4rem .9rem;font-size:.83rem;font-weight:600;color:var(--u-navy);letter-spacing:.01em;}
-.uninsured-page-2026 .u-eyebrow .u-dot{width:6px;height:6px;border-radius:50%;background:var(--u-ok);}
-.uninsured-page-2026 h2.u-h2{font-family:'Fraunces',Georgia,serif;font-weight:500;font-size:clamp(1.8rem,3.4vw,2.6rem);line-height:1.1;letter-spacing:-.015em;color:var(--u-ink);margin:0 0 .75rem;}
-.uninsured-page-2026 .u-lede{font-size:clamp(1.02rem,1.4vw,1.2rem);line-height:1.55;color:var(--u-muted);max-width:62ch;margin:0 0 1.5rem;}
+  /* Dark navy hero, matches the condition-page urgency strip */
+  .tdmd-hero-uninsured{background:#003E52;color:#ffffff;padding:3rem 0 2.75rem;}
+  .tdmd-hero-uninsured .tdmd-container{color:#ffffff;}
+  .tdmd-hero-uninsured h1{color:#ffffff;}
+  .tdmd-hero-uninsured .tdmd-hero-sub{color:#B9D3DB;font-weight:700;}
+  .tdmd-hero-uninsured p{color:#D7E4E8;}
+  .tdmd-hero-uninsured .tdmd-reviewnote{color:#9FBCC5;}
+  .tdmd-hero-uninsured .tdmd-author-link, .tdmd-hero-uninsured .tdmd-author-link:hover{color:#9DE2EB;}
 
-/* ─ Section rhythm ─ */
-.uninsured-page-2026 .u-bg-cream{background:var(--u-cream);}
-.uninsured-page-2026 .u-bg-cream-2{background:var(--u-cream-2);}
-.uninsured-page-2026 .u-bg-mist{background:var(--u-mist);}
-.uninsured-page-2026 .u-bg-white{background:#fff;}
-.uninsured-page-2026 .u-bg-ink{background:var(--u-ink);color:#F0EEE8;}
-.uninsured-page-2026 .u-bg-ink h2, .uninsured-page-2026 .u-bg-ink h3{color:#fff;}
-.uninsured-page-2026 .u-bg-ink .u-lede, .uninsured-page-2026 .u-bg-ink p{color:#B9C0CD;}
+  /* Urgency strip mirrors the condition page */
+  .tdmd-urgency-strip-uninsured{background:#003E52;color:#fff;padding:0.7rem 1rem;border-bottom:1px solid rgba(255,255,255,0.12);}
+  .tdmd-urgency-strip-uninsured .tdmd-container{display:flex;align-items:center;justify-content:center;gap:1.4rem;flex-wrap:wrap;text-align:center;}
+  .tdmd-urgency-strip-uninsured span{font-size:0.92rem;color:#ffffff;}
+  .tdmd-urgency-strip-uninsured strong{color:#ffffff;}
 
-/* ─ HERO ─ */
-.uninsured-page-2026 .u-hero{padding:clamp(3.5rem,7vw,6rem) 0 clamp(2rem,5vw,4rem);background:radial-gradient(1200px 500px at 85% -10%, #FBEDDD 0%, transparent 55%), var(--u-cream);}
-.uninsured-page-2026 .u-hero-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:clamp(1.5rem,4vw,3.5rem);align-items:start;}
-@media (max-width:820px){.uninsured-page-2026 .u-hero-grid{grid-template-columns:1fr;}}
-.uninsured-page-2026 .u-hero h1{font-family:'Fraunces',Georgia,serif;font-weight:400;font-size:clamp(2rem,4.6vw,3.6rem);line-height:1.04;letter-spacing:-.02em;color:var(--u-ink);margin:1rem 0 1rem;}
-.uninsured-page-2026 .u-hero h1 em{font-style:italic;color:var(--u-navy);}
-.uninsured-page-2026 .u-hero-sub{font-size:clamp(1.05rem,1.5vw,1.22rem);line-height:1.5;color:#3A4152;max-width:56ch;margin:0 0 1.75rem;}
-.uninsured-page-2026 .u-cta-row{display:flex;flex-wrap:wrap;gap:.75rem;margin:0 0 1.25rem;}
-.uninsured-page-2026 .u-btn{display:inline-flex;align-items:center;gap:.55rem;padding:.9rem 1.5rem;border-radius:999px;font-weight:600;font-size:1rem;text-decoration:none;border:2px solid transparent;transition:transform .12s ease, box-shadow .12s ease;}
-.uninsured-page-2026 .u-btn-primary{background:var(--u-coral);color:#fff;border-color:var(--u-coral);box-shadow:0 6px 20px -6px rgba(255,90,54,.55);}
-.uninsured-page-2026 .u-btn-primary:hover{transform:translateY(-1px);box-shadow:0 10px 26px -8px rgba(255,90,54,.6);}
-.uninsured-page-2026 .u-btn-outline{background:transparent;color:var(--u-ink);border-color:var(--u-ink);}
-.uninsured-page-2026 .u-btn-outline:hover{background:var(--u-ink);color:#fff;}
-.uninsured-page-2026 .u-btn-ghost{background:#fff;color:var(--u-ink);border-color:var(--u-line);}
-.uninsured-page-2026 .u-btn-ghost:hover{border-color:var(--u-ink);}
-.uninsured-page-2026 .u-reviewed{font-size:.85rem;color:var(--u-muted);margin:0;}
-.uninsured-page-2026 .u-reviewed a{color:var(--u-navy);font-weight:600;text-decoration:none;border-bottom:1px solid var(--u-line);}
+  /* Comparison badges — teal/navy/coral, matches brand (not my old colors) */
+  .u-badge{display:inline-flex;align-items:center;gap:0.4rem;padding:0.28rem 0.6rem;border-radius:999px;font-size:0.78rem;font-weight:700;line-height:1;white-space:nowrap;background:#EAF3F5;color:#003E52;}
+  .u-badge-yes{background:#E1F3EC;color:#0b6e4f;}
+  .u-badge-no{background:#FBEDED;color:#b0383a;}
+  .u-badge-warn{background:#FBF3DC;color:#8a6614;}
+  .u-badge-neutral{background:#EAF3F5;color:#33555F;}
+  .u-badge svg{width:12px;height:12px;flex-shrink:0;}
+  .u-cell-note{display:block;font-size:0.78rem;color:var(--tdmd-muted);margin-top:0.35rem;line-height:1.35;}
 
-/* Price anchor card */
-.uninsured-page-2026 .u-price-card{background:#fff;border-radius:24px;padding:1.75rem;box-shadow:0 30px 60px -35px rgba(15,20,32,.35), 0 6px 16px -8px rgba(15,20,32,.1);border:1px solid var(--u-line);position:relative;overflow:hidden;}
-.uninsured-page-2026 .u-price-card::before{content:"";position:absolute;top:-40px;right:-40px;width:180px;height:180px;background:radial-gradient(circle, rgba(255,90,54,.16), transparent 65%);pointer-events:none;}
-.uninsured-page-2026 .u-price-eyebrow{font-size:.8rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--u-muted);margin:0 0 .5rem;}
-.uninsured-page-2026 .u-price-num{font-family:'Fraunces',Georgia,serif;font-size:clamp(4.5rem,8vw,6.5rem);line-height:1;font-weight:400;color:var(--u-ink);letter-spacing:-.03em;margin:0;}
-.uninsured-page-2026 .u-price-num sup{font-size:.35em;vertical-align:top;font-weight:500;top:.55em;position:relative;left:-.15em;color:var(--u-muted);}
-.uninsured-page-2026 .u-price-flat{font-size:.95rem;color:var(--u-muted);margin:.25rem 0 1.25rem;}
-.uninsured-page-2026 .u-price-list{list-style:none;padding:0;margin:0;display:grid;gap:.5rem;}
-.uninsured-page-2026 .u-price-list li{display:flex;gap:.55rem;align-items:flex-start;font-size:.92rem;color:var(--u-ink);line-height:1.4;}
-.uninsured-page-2026 .u-price-list li svg{flex-shrink:0;margin-top:.15rem;}
+  /* Highlight TeleDirectMD's own row */
+  .u-row-self td, .u-row-self th[scope=row]{background:#F0F7F8 !important;font-weight:700;}
+  .u-row-self th[scope=row]{border-left:4px solid var(--tdmd-accent);}
+  .u-row-self .u-price-cell{color:var(--tdmd-teal);font-weight:800;}
 
-/* Differentiator chip grid — 6 icon cards */
-.uninsured-page-2026 .u-chips{display:grid;grid-template-columns:repeat(6, minmax(0,1fr));gap:.65rem;margin:2.25rem 0 0;}
-@media (max-width:1000px){.uninsured-page-2026 .u-chips{grid-template-columns:repeat(3, minmax(0,1fr));}}
-@media (max-width:560px){.uninsured-page-2026 .u-chips{grid-template-columns:repeat(2, minmax(0,1fr));}}
-.uninsured-page-2026 .u-chip{background:#fff;border:1px solid var(--u-line);border-radius:14px;padding:.85rem .8rem;display:flex;flex-direction:column;gap:.4rem;align-items:flex-start;transition:transform .1s ease, border-color .1s ease;}
-.uninsured-page-2026 .u-chip:hover{transform:translateY(-2px);border-color:var(--u-ink);}
-.uninsured-page-2026 .u-chip-icon{width:32px;height:32px;border-radius:8px;background:var(--u-cream);display:flex;align-items:center;justify-content:center;color:var(--u-navy);}
-.uninsured-page-2026 .u-chip-text{font-size:.83rem;font-weight:600;color:var(--u-ink);line-height:1.25;}
+  .u-price-cell{font-weight:600;color:var(--tdmd-text);white-space:nowrap;}
 
-/* ─ COMPARISON TABLE ─ */
-.uninsured-page-2026 .u-compare-wrap{background:#fff;border-radius:24px;overflow:hidden;box-shadow:0 40px 80px -50px rgba(15,20,32,.4);border:1px solid var(--u-line-2);margin:2rem 0 1.5rem;}
-.uninsured-page-2026 .u-compare-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch;}
-.uninsured-page-2026 .u-compare{width:100%;border-collapse:collapse;font-size:.93rem;min-width:800px;}
-.uninsured-page-2026 .u-compare thead th{background:var(--u-cream-2);color:var(--u-ink);text-align:left;font-weight:700;font-size:.78rem;text-transform:uppercase;letter-spacing:.06em;padding:1rem .95rem;border-bottom:1px solid var(--u-line);white-space:nowrap;}
-.uninsured-page-2026 .u-compare th[scope="row"]{text-align:left;padding:1rem .95rem;font-weight:600;color:var(--u-ink);background:#fff;position:sticky;left:0;z-index:2;border-right:1px solid var(--u-line-2);}
-.uninsured-page-2026 .u-compare td{padding:1rem .95rem;color:#2A3040;border-bottom:1px solid var(--u-line-2);vertical-align:middle;}
-.uninsured-page-2026 .u-compare tbody tr:hover td, .uninsured-page-2026 .u-compare tbody tr:hover th[scope="row"]{background:#FDFBF6;}
-.uninsured-page-2026 .u-compare .u-price-cell{font-weight:600;color:var(--u-ink);white-space:nowrap;}
-.uninsured-page-2026 .u-compare .u-row-self th[scope="row"], .uninsured-page-2026 .u-compare .u-row-self td{background:linear-gradient(90deg, rgba(255,90,54,.06), rgba(255,90,54,0) 60%) !important;}
-.uninsured-page-2026 .u-compare .u-row-self th[scope="row"]{border-left:4px solid var(--u-coral);padding-left:calc(.95rem - 4px);}
-.uninsured-page-2026 .u-compare .u-row-self .u-price-cell{color:var(--u-coral);font-weight:800;font-size:1rem;}
+  /* Comparison table container */
+  .u-compare-wrap{background:var(--tdmd-card);border-radius:var(--tdmd-radius);box-shadow:var(--tdmd-shadow);border:1px solid rgba(0,0,0,0.03);overflow:hidden;margin:1.5rem 0 1.25rem;}
+  .u-compare-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch;}
+  .u-compare{width:100%;border-collapse:collapse;font-size:0.93rem;min-width:820px;}
+  .u-compare thead th{background:var(--tdmd-bg-soft);color:var(--tdmd-navy);text-align:left;font-weight:800;font-size:0.78rem;text-transform:uppercase;letter-spacing:0.05em;padding:1rem 0.95rem;border-bottom:1px solid var(--tdmd-border);white-space:nowrap;}
+  .u-compare th[scope=row]{text-align:left;padding:1rem 0.95rem;font-weight:700;color:var(--tdmd-text);background:var(--tdmd-card);position:sticky;left:0;z-index:2;border-right:1px solid var(--tdmd-border);}
+  .u-compare td{padding:1rem 0.95rem;color:#12323A;border-bottom:1px solid var(--tdmd-border);vertical-align:middle;}
+  .u-compare tbody tr:hover td, .u-compare tbody tr:hover th[scope=row]{background:var(--tdmd-bg-soft);}
 
-/* Icon cells */
-.uninsured-page-2026 .u-badge{display:inline-flex;align-items:center;gap:.4rem;padding:.28rem .55rem;border-radius:999px;font-size:.78rem;font-weight:600;line-height:1;white-space:nowrap;}
-.uninsured-page-2026 .u-badge-yes{background:var(--u-ok-bg);color:var(--u-ok);}
-.uninsured-page-2026 .u-badge-no{background:var(--u-no-bg);color:var(--u-no);}
-.uninsured-page-2026 .u-badge-warn{background:var(--u-warn-bg);color:var(--u-warn);}
-.uninsured-page-2026 .u-badge-neutral{background:var(--u-mist);color:#3A4152;}
-.uninsured-page-2026 .u-badge svg{width:12px;height:12px;flex-shrink:0;}
-.uninsured-page-2026 .u-cell-note{display:block;font-size:.78rem;color:var(--u-muted);margin-top:.35rem;line-height:1.35;}
+  .u-src-line{font-size:0.82rem;color:var(--tdmd-muted);}
+  .u-src-line a{color:var(--tdmd-navy);font-weight:600;}
 
-.uninsured-page-2026 .u-src-line{font-size:.8rem;color:var(--u-muted);}
-.uninsured-page-2026 .u-src-line a{color:var(--u-navy);}
-
-/* ─ Answer cards under the table ─ */
-.uninsured-page-2026 .u-answer-grid{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin-top:1.5rem;}
-@media (max-width:820px){.uninsured-page-2026 .u-answer-grid{grid-template-columns:1fr;}}
-.uninsured-page-2026 .u-answer-card{background:#fff;border:1px solid var(--u-line-2);border-radius:20px;padding:1.5rem;position:relative;overflow:hidden;}
-.uninsured-page-2026 .u-answer-card::before{content:"";position:absolute;left:0;top:0;bottom:0;width:4px;background:var(--u-navy);}
-.uninsured-page-2026 .u-answer-card h3{font-family:'Fraunces',Georgia,serif;font-size:1.2rem;font-weight:500;color:var(--u-ink);margin:0 0 .6rem;line-height:1.25;letter-spacing:-.01em;}
-.uninsured-page-2026 .u-answer-card p{margin:0;font-size:.94rem;line-height:1.55;color:#3A4152;}
-
-/* ─ Included list ─ */
-.uninsured-page-2026 .u-included{display:grid;grid-template-columns:repeat(2,1fr);gap:.85rem 1.5rem;margin:1rem 0 0;padding:0;list-style:none;}
-@media (max-width:700px){.uninsured-page-2026 .u-included{grid-template-columns:1fr;}}
-.uninsured-page-2026 .u-included li{display:flex;gap:.7rem;align-items:flex-start;font-size:1rem;color:var(--u-ink);line-height:1.45;}
-.uninsured-page-2026 .u-included li svg{flex-shrink:0;margin-top:.2rem;color:var(--u-ok);}
-
-/* ─ Triage two-column ─ */
-.uninsured-page-2026 .u-triage{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin-top:1.25rem;}
-@media (max-width:700px){.uninsured-page-2026 .u-triage{grid-template-columns:1fr;}}
-.uninsured-page-2026 .u-triage-col{background:#fff;border-radius:20px;padding:1.5rem;border:1px solid var(--u-line-2);}
-.uninsured-page-2026 .u-triage-col.u-good{border-top:4px solid var(--u-ok);}
-.uninsured-page-2026 .u-triage-col.u-bad{border-top:4px solid var(--u-no);}
-.uninsured-page-2026 .u-triage-col h3{margin:0 0 .85rem;font-size:1.05rem;font-weight:700;color:var(--u-ink);display:flex;align-items:center;gap:.5rem;}
-.uninsured-page-2026 .u-triage-col ul{margin:0;padding:0;list-style:none;display:grid;gap:.6rem;}
-.uninsured-page-2026 .u-triage-col ul li{font-size:.94rem;color:#2A3040;line-height:1.45;padding-left:1.2rem;position:relative;}
-.uninsured-page-2026 .u-triage-col.u-good ul li::before{content:"✓";color:var(--u-ok);position:absolute;left:0;font-weight:700;}
-.uninsured-page-2026 .u-triage-col.u-bad ul li::before{content:"✕";color:var(--u-no);position:absolute;left:0;font-weight:700;}
-
-/* ─ Physician dark section ─ */
-.uninsured-page-2026 .u-physician{background:var(--u-ink);color:#F0EEE8;padding:clamp(3rem,6vw,5rem) 0;position:relative;overflow:hidden;}
-.uninsured-page-2026 .u-physician::before{content:"";position:absolute;top:-100px;left:-100px;width:400px;height:400px;background:radial-gradient(circle, rgba(255,90,54,.14), transparent 70%);pointer-events:none;}
-.uninsured-page-2026 .u-physician h2{color:#fff;font-family:'Fraunces',Georgia,serif;font-weight:400;font-size:clamp(1.8rem,3.4vw,2.6rem);letter-spacing:-.015em;margin:0 0 2rem;line-height:1.1;}
-.uninsured-page-2026 .u-physician h2 em{font-style:italic;color:#F6C6B4;}
-.uninsured-page-2026 .u-physician-grid{display:grid;grid-template-columns:1fr 1.4fr;gap:2.5rem;align-items:start;}
-@media (max-width:820px){.uninsured-page-2026 .u-physician-grid{grid-template-columns:1fr;}}
-.uninsured-page-2026 .u-md-card{background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.1);border-radius:20px;padding:1.75rem;}
-.uninsured-page-2026 .u-md-card h3{color:#fff;font-family:'Fraunces',Georgia,serif;font-weight:500;font-size:1.4rem;margin:0 0 1rem;}
-.uninsured-page-2026 .u-md-list{list-style:none;padding:0;margin:0 0 1.25rem;display:grid;gap:.65rem;}
-.uninsured-page-2026 .u-md-list li{font-size:.92rem;color:#D6DAE3;line-height:1.4;padding-left:1.1rem;position:relative;}
-.uninsured-page-2026 .u-md-list li::before{content:"◆";color:#F6C6B4;position:absolute;left:0;font-size:.65em;top:.4em;}
-.uninsured-page-2026 .u-physician p{color:#D6DAE3;font-size:1.02rem;line-height:1.6;margin:0 0 1.1rem;}
-.uninsured-page-2026 .u-physician .u-hipaa{font-size:.85rem;color:#8A93A6;margin-top:1.5rem;padding-top:1.25rem;border-top:1px solid rgba(255,255,255,.1);}
-
-/* ─ States grid ─ */
-.uninsured-page-2026 .u-states{columns:4 180px;column-gap:1.5rem;font-size:.94rem;margin:1.25rem 0 1rem;background:#fff;border:1px solid var(--u-line-2);border-radius:20px;padding:1.5rem;}
-.uninsured-page-2026 .u-states div{break-inside:avoid;padding:.2rem 0;color:var(--u-ink);}
-
-/* ─ Condition cards ─ */
-.uninsured-page-2026 .u-conditions{display:grid;grid-template-columns:repeat(2,1fr);gap:1rem;margin-top:1.25rem;}
-@media (max-width:820px){.uninsured-page-2026 .u-conditions{grid-template-columns:1fr;}}
-.uninsured-page-2026 .u-cond-card{background:#fff;border:1px solid var(--u-line-2);border-radius:18px;padding:1.4rem;text-decoration:none;color:var(--u-ink);transition:transform .12s ease, border-color .12s ease, box-shadow .12s ease;display:flex;flex-direction:column;gap:.5rem;}
-.uninsured-page-2026 .u-cond-card:hover{transform:translateY(-2px);border-color:var(--u-navy);box-shadow:0 20px 40px -30px rgba(15,20,32,.4);}
-.uninsured-page-2026 .u-cond-tag{align-self:flex-start;background:var(--u-cream);color:var(--u-navy);font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;padding:.25rem .55rem;border-radius:6px;}
-.uninsured-page-2026 .u-cond-card h3{margin:0;font-family:'Fraunces',Georgia,serif;font-weight:500;font-size:1.15rem;color:var(--u-ink);letter-spacing:-.005em;}
-.uninsured-page-2026 .u-cond-card p{margin:.15rem 0 0;font-size:.92rem;color:var(--u-muted);line-height:1.5;}
-.uninsured-page-2026 .u-cond-more{margin-top:.5rem;font-size:.85rem;color:var(--u-navy);font-weight:600;}
-
-/* ─ How it works ─ */
-.uninsured-page-2026 .u-steps{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;margin-top:1.5rem;}
-@media (max-width:820px){.uninsured-page-2026 .u-steps{grid-template-columns:1fr;}}
-.uninsured-page-2026 .u-step{background:#fff;border:1px solid var(--u-line-2);border-radius:20px;padding:1.75rem 1.5rem;position:relative;}
-.uninsured-page-2026 .u-step-num{font-family:'Fraunces',Georgia,serif;font-size:3rem;line-height:1;color:var(--u-cream);font-weight:400;margin:0 0 .5rem;position:absolute;top:1.25rem;right:1.5rem;}
-.uninsured-page-2026 .u-step h3{margin:0 0 .5rem;font-family:'Fraunces',Georgia,serif;font-weight:500;font-size:1.2rem;color:var(--u-ink);padding-right:3rem;}
-.uninsured-page-2026 .u-step p{margin:0;font-size:.93rem;color:var(--u-muted);line-height:1.5;}
-
-/* ─ FAQ ─ */
-.uninsured-page-2026 .u-faq{display:grid;gap:.6rem;margin-top:1.25rem;}
-.uninsured-page-2026 details.u-faq-item{background:#fff;border:1px solid var(--u-line-2);border-radius:14px;padding:0;overflow:hidden;transition:border-color .12s ease;}
-.uninsured-page-2026 details.u-faq-item[open]{border-color:var(--u-navy);}
-.uninsured-page-2026 details.u-faq-item summary{cursor:pointer;list-style:none;padding:1.1rem 1.4rem;display:flex;justify-content:space-between;align-items:center;gap:1rem;font-weight:600;color:var(--u-ink);font-size:1.02rem;line-height:1.35;}
-.uninsured-page-2026 details.u-faq-item summary::-webkit-details-marker{display:none;}
-.uninsured-page-2026 details.u-faq-item summary::after{content:"+";font-family:'Fraunces',Georgia,serif;font-size:1.6rem;color:var(--u-navy);flex-shrink:0;line-height:1;transition:transform .18s ease;}
-.uninsured-page-2026 details.u-faq-item[open] summary::after{content:"−";}
-.uninsured-page-2026 details.u-faq-item .u-faq-a{padding:0 1.4rem 1.2rem;color:#2A3040;font-size:.95rem;line-height:1.6;}
-
-/* ─ CTA banner ─ */
-.uninsured-page-2026 .u-cta-banner{background:var(--u-ink);color:#fff;border-radius:24px;padding:clamp(1.75rem,4vw,2.5rem);display:grid;grid-template-columns:1.4fr auto;gap:1.5rem;align-items:center;position:relative;overflow:hidden;}
-@media (max-width:760px){.uninsured-page-2026 .u-cta-banner{grid-template-columns:1fr;}}
-.uninsured-page-2026 .u-cta-banner::before{content:"";position:absolute;right:-40px;top:-40px;width:280px;height:280px;background:radial-gradient(circle, rgba(255,90,54,.2), transparent 60%);pointer-events:none;}
-.uninsured-page-2026 .u-cta-banner h3{font-family:'Fraunces',Georgia,serif;font-weight:500;font-size:clamp(1.4rem,2.4vw,1.9rem);color:#fff;margin:0 0 .5rem;line-height:1.2;letter-spacing:-.01em;}
-.uninsured-page-2026 .u-cta-banner p{color:#B9C0CD;font-size:1rem;margin:0;}
-.uninsured-page-2026 .u-cta-banner .u-btn-outline{border-color:#fff;color:#fff;}
-.uninsured-page-2026 .u-cta-banner .u-btn-outline:hover{background:#fff;color:var(--u-ink);}
-.uninsured-page-2026 .u-cta-actions{display:flex;flex-direction:column;gap:.5rem;position:relative;z-index:1;}
-
-/* ─ Footer strip: cross-links & references ─ */
-.uninsured-page-2026 .u-link-cloud{display:flex;flex-wrap:wrap;gap:.6rem;margin:.75rem 0 0;}
-.uninsured-page-2026 .u-link-cloud a{background:#fff;border:1px solid var(--u-line-2);border-radius:999px;padding:.5rem 1rem;font-size:.9rem;color:var(--u-ink);text-decoration:none;transition:border-color .12s ease;}
-.uninsured-page-2026 .u-link-cloud a:hover{border-color:var(--u-ink);}
-.uninsured-page-2026 .u-ref-list{margin:.75rem 0 0;padding:0;list-style:none;display:grid;gap:.5rem;}
-.uninsured-page-2026 .u-ref-list li{font-size:.9rem;color:var(--u-muted);}
-.uninsured-page-2026 .u-ref-list a{color:var(--u-navy);}
-.uninsured-page-2026 .u-disclaimer{font-size:.85rem;color:var(--u-muted);line-height:1.55;}
-.uninsured-page-2026 .u-disclaimer h2{font-size:1rem;font-weight:700;color:var(--u-ink);margin:0 0 .5rem;font-family:inherit;letter-spacing:0;}
-
-/* ─ Section H2 group helper ─ */
-.uninsured-page-2026 .u-sec-head{margin:0 0 1.5rem;max-width:65ch;}
+  .u-answer-grid{display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;margin-top:1.5rem;}
+  @media (max-width:820px){.u-answer-grid{grid-template-columns:1fr;}}
+  .u-answer-card{background:var(--tdmd-card);border:1px solid rgba(0,0,0,0.04);border-radius:var(--tdmd-radius);padding:1.5rem;box-shadow:var(--tdmd-shadow);border-left:4px solid var(--tdmd-navy);}
+  .u-answer-card h3{font-size:1.1rem;margin:0 0 0.6rem;color:var(--tdmd-navy);}
+  .u-answer-card p{margin:0;font-size:0.95rem;line-height:1.55;color:var(--tdmd-text);}
 `;
 
-/* Inline icon components — no dep on any icon library */
 const IconCheck = (p) => <svg viewBox="0 0 20 20" width="18" height="18" fill="currentColor" {...p}><path d="M8.1 13.6L4.5 10l-1.4 1.4 5 5 10-10-1.4-1.4z"/></svg>;
 const IconX = (p) => <svg viewBox="0 0 20 20" width="18" height="18" fill="currentColor" {...p}><path d="M15.5 5.9L14.1 4.5 10 8.6 5.9 4.5 4.5 5.9 8.6 10l-4.1 4.1 1.4 1.4 4.1-4.1 4.1 4.1 1.4-1.4L11.4 10z"/></svg>;
-const IconWarn = (p) => <svg viewBox="0 0 20 20" width="18" height="18" fill="currentColor" {...p}><path d="M10 1L1 18h18L10 1zm0 6l6 10H4l6-10zm-1 3v4h2v-4H9zm0 5v2h2v-2H9z"/></svg>;
-const IconDollar = (p) => <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" {...p}><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"/></svg>;
-const IconUser = (p) => <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" {...p}><path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>;
-const IconMap = (p) => <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" {...p}><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>;
-const IconNoMember = (p) => <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" {...p}><rect x="2" y="6" width="20" height="12" rx="2"/><line x1="4" y1="20" x2="20" y2="4"/></svg>;
-const IconPill = (p) => <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" {...p}><path d="M10.5 20.5a5 5 0 01-7-7L13.5 3.5a5 5 0 017 7L10.5 20.5z"/><line x1="8.5" y1="8.5" x2="15.5" y2="15.5"/></svg>;
-const IconClock = (p) => <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" {...p}><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>;
+const IconWarn = (p) => <svg viewBox="0 0 20 20" width="18" height="18" fill="currentColor" {...p}><path d="M10 2l8 16H2L10 2zm0 5L5 18h10L10 7zm-1 3v4h2v-4H9zm0 5v2h2v-2H9z"/></svg>;
 
-/* Cell renderer: turn plain text like "No, rotating" into a colored badge with icon */
 function renderCell(text) {
   if (text == null) return null;
   const t = String(text);
-  const lower = t.toLowerCase();
-  // Split "Yes/No, rest" into badge + note
   const [head, ...tail] = t.split(',');
   const note = tail.join(',').trim();
-
   let variant = 'neutral';
   let Icon = null;
-
   if (/^yes\b/i.test(head)) { variant = 'yes'; Icon = IconCheck; }
   else if (/^no\b/i.test(head)) { variant = 'no'; Icon = IconX; }
   else if (/attempts continuity|effectively yes/i.test(head)) { variant = 'warn'; Icon = IconWarn; }
   else if (/varies|not specified/i.test(head)) { variant = 'neutral'; Icon = IconWarn; }
-  else { variant = 'neutral'; }
-
   return (
     <>
-      <span className={`u-badge u-badge-${variant}`}>
-        {Icon && <Icon />}
-        {head}
-      </span>
+      <span className={`u-badge u-badge-${variant}`}>{Icon && <Icon />}{head}</span>
       {note && <span className="u-cell-note">{note}</span>}
     </>
   );
@@ -229,7 +82,6 @@ export default function UninsuredAffordableCarePage() {
   const pageUrl = `${baseUrl}/who-we-serve/uninsured-affordable-care`;
   const today = new Date().toISOString().split('T')[0];
 
-  /* ── State coverage ─────────────────────────────────────────────── */
   // Served states, 44 plus DC (checked by scripts/check-state-coverage.js):
   // Alabama, Alaska, Arizona, California, Colorado, Connecticut, Delaware,
   // Florida, Georgia, Hawaii, Idaho, Illinois, Indiana, Iowa, Kansas, Kentucky,
@@ -241,31 +93,28 @@ export default function UninsuredAffordableCarePage() {
   const stateAbbrs = ['AL','AK','AZ','CA','CO','CT','DC','DE','FL','GA','HI','ID','IL','IN','IA','KS','KY','LA','ME','MD','MI','MN','MS','MO','MT','NE','NV','NH','NJ','NC','ND','OH','OK','PA','SC','SD','TN','TX','UT','VA','VT','WA','WV','WI','WY'];
   const stateNames = ['Alabama','Alaska','Arizona','California','Colorado','Connecticut','Delaware','Florida','Georgia','Hawaii','Idaho','Illinois','Indiana','Iowa','Kansas','Kentucky','Louisiana','Maine','Maryland','Michigan','Minnesota','Mississippi','Missouri','Montana','Nebraska','Nevada','New Hampshire','New Jersey','North Carolina','North Dakota','Ohio','Oklahoma','Pennsylvania','South Carolina','South Dakota','Tennessee','Texas','Utah','Vermont','Virginia','Washington','West Virginia','Wisconsin','Wyoming','Washington, DC'];
 
-  /* ── Chips ───────────────────────────────────────────────────────── */
   const chips = [
-    { icon: IconDollar,  text: '$79 flat, always' },
-    { icon: IconUser,    text: 'Same MD every visit' },
-    { icon: IconMap,     text: '44 states, one doctor' },
-    { icon: IconNoMember,text: 'No membership' },
-    { icon: IconPill,    text: 'No drug subscriptions' },
-    { icon: IconClock,   text: 'Same-day, evenings, weekends' },
+    { text: '$79 flat, always' },
+    { text: 'Same MD every visit' },
+    { text: '44 states, one doctor' },
+    { text: 'No membership' },
+    { text: 'No drug subscriptions' },
+    { text: 'Same-day, evenings, weekends' },
   ];
 
-  /* ── Conditions ──────────────────────────────────────────────────── */
   const conditions = [
-    { tag: 'Infection',    name: 'UTI / Urinary tract infection', slug: 'uti-treatment-online', desc: 'Uncomplicated UTI evaluation and antibiotic e-prescribed to your pharmacy for $79. Complicated or recurrent cases may need in-person labs.' },
-    { tag: 'Infection',    name: 'Sinus infection', slug: 'sinus-infection-treatment-online', desc: 'Evaluation for bacterial vs viral sinusitis, symptom management, and antibiotics when clinically indicated.' },
-    { tag: 'Respiratory',  name: 'Cold, flu, respiratory infections', slug: 'common-cold-treatment-online', desc: 'Same-day evaluation, antivirals for eligible flu patients, and clear guidance on when in-person care is warranted.' },
-    { tag: 'Chronic',      name: 'Hypertension', slug: 'hypertension-refills-online', desc: 'Ongoing BP management and refills, cheaper than an in-person office visit and with the same physician over time.' },
-    { tag: 'Chronic',      name: 'Type 2 diabetes', slug: 'diabetes-refills-online', desc: 'Refills, dose adjustments, and A1c-based follow-up. Local lab cash-pay orders when needed.' },
-    { tag: 'Chronic',      name: 'Acid reflux / GERD', slug: 'acid-reflux-refills-online', desc: 'PPI and H2 blocker management without a specialist copay. Continuity matters for step-down strategies.' },
-    { tag: 'Skin',         name: 'Eczema and skin conditions', slug: 'eczema-treatment-online', desc: 'Topical steroid and non-steroidal prescriptions evaluated by video.' },
-    { tag: 'Infection',    name: 'Influenza', slug: 'influenza-treatment-online', desc: 'Same-day evaluation and antivirals when eligible.' },
-    { tag: 'Chronic',      name: 'Migraine', slug: 'migraine-refills-online', desc: 'Abortive and preventive prescription management.' },
-    { tag: 'Infection',    name: 'Pink eye / conjunctivitis', slug: 'pink-eye-treatment-online', desc: 'Prescription drops when bacterial, guidance when viral.' },
+    { name: 'UTI / Urinary tract infection', slug: 'uti-treatment-online', desc: 'Uncomplicated UTI evaluation and antibiotic e-prescribed to your pharmacy for $79. Complicated or recurrent cases may need in-person labs.' },
+    { name: 'Sinus infection', slug: 'sinus-infection-treatment-online', desc: 'Evaluation for bacterial vs viral sinusitis, symptom management, and antibiotics when clinically indicated.' },
+    { name: 'Cold, flu, respiratory infections', slug: 'common-cold-treatment-online', desc: 'Same-day evaluation, antivirals for eligible flu patients, and guidance on when in-person care is warranted.' },
+    { name: 'Hypertension', slug: 'hypertension-refills-online', desc: 'Ongoing BP management and refills, cheaper than an in-person office visit and with the same physician over time.' },
+    { name: 'Type 2 diabetes', slug: 'diabetes-refills-online', desc: 'Refills, dose adjustments, and A1c-based follow-up. Local lab cash-pay orders when needed.' },
+    { name: 'Acid reflux / GERD', slug: 'acid-reflux-refills-online', desc: 'PPI and H2 blocker management without a specialist copay. Continuity matters for step-down strategies.' },
+    { name: 'Eczema and skin conditions', slug: 'eczema-treatment-online', desc: 'Topical steroid and non-steroidal prescriptions evaluated by video.' },
+    { name: 'Influenza', slug: 'influenza-treatment-online', desc: 'Same-day evaluation and antivirals when eligible.' },
+    { name: 'Migraine', slug: 'migraine-refills-online', desc: 'Abortive and preventive prescription management.' },
+    { name: 'Pink eye / conjunctivitis', slug: 'pink-eye-treatment-online', desc: 'Prescription drops when bacterial, guidance when viral.' },
   ];
 
-  /* ── FAQ ─────────────────────────────────────────────────────────── */
   const faqItems = [
     { q: 'How much does an online doctor visit cost without insurance in 2026?', a: "A TeleDirectMD visit is $79 flat, cash pay, no insurance required. GoodRx reports typical no-insurance telehealth prices of $40 to $90 per visit, though the lowest advertised prices often require a monthly membership. Named-brand telehealth without insurance runs $89 to $129 per visit (Teladoc, MDLive, Doctor On Demand, PlushCare). An in-person urgent care averages $180, and an uninsured ER visit averages $2,400 or more." },
     { q: 'Is $79 the cheapest online doctor without insurance?', a: 'No, and we do not claim to be. Services like ChatWithDr ($39.99) and Prana Health ($39) charge less. What TeleDirectMD offers at $79 is the cheapest visit with a board-certified MD (not a nurse practitioner), where you see the same physician every time, with no membership fee or drug subscription attached.' },
@@ -285,7 +134,6 @@ export default function UninsuredAffordableCarePage() {
     { q: 'Is TeleDirectMD available in my state?', a: `TeleDirectMD is licensed in 44 states plus Washington, DC: ${stateNames.join(', ')}. You must be physically located in one of these jurisdictions at the time of your visit.` },
   ];
 
-  /* ── JSON-LD ─────────────────────────────────────────────────────── */
   const jsonLd = {
     '@context': 'https://schema.org',
     '@graph': [
@@ -339,16 +187,16 @@ export default function UninsuredAffordableCarePage() {
           { '@type': 'MedicalCondition', name: 'Migraine' },
           { '@type': 'MedicalCondition', name: 'Conjunctivitis' } ],
         mainEntity: { '@id': `${pageUrl}#faq` },
-        speakable: { '@type': 'SpeakableSpecification', cssSelector: ['h1', '.u-hero-sub', '#uninsured-faq summary'] } }
+        speakable: { '@type': 'SpeakableSpecification', cssSelector: ['h1', '.tdmd-hero-sub', '#uninsured-faq summary'] } }
     ]
   };
 
   return (
-    <div className="uninsured-page-2026">
+    <>
       <style dangerouslySetInnerHTML={{ __html: pageCSS }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
 
-      {/* Breadcrumb (reuses global bc styles) */}
+      {/* Breadcrumb */}
       <nav className="tdmd-breadcrumbs" aria-label="Breadcrumb">
         <div className="tdmd-container" style={{ paddingTop: '0.5rem', paddingBottom: '0' }}>
           <a href="/">Home</a>
@@ -359,54 +207,65 @@ export default function UninsuredAffordableCarePage() {
         </div>
       </nav>
 
-      {/* ─── HERO ─── */}
-      <section className="u-hero" id="uninsured-hero">
-        <div className="u-container">
-          <div className="u-hero-grid">
-            <div>
-              <span className="u-eyebrow"><span className="u-dot" />Uninsured & affordable care</span>
-              <h1>$79 online doctor without insurance. <em>Same MD, every visit,</em> 44 states.</h1>
-              <p className="u-hero-sub">A TeleDirectMD video visit costs $79 flat. No insurance required. No monthly membership. No drug subscription upsells. You see the same board-certified physician every visit, whether you are home in Georgia or on a trip in Denver.</p>
-              <div className="u-cta-row">
-                <a href="/book-online" className="u-btn u-btn-primary">Book a $79 visit</a>
-                <a href="#uninsured-compare" className="u-btn u-btn-ghost">See how we compare</a>
-              </div>
-              <p className="u-reviewed">Last reviewed on {today} by <a href="/about">Parth Bhavsar, MD</a></p>
-            </div>
+      {/* Urgency strip — matches condition page */}
+      <div className="tdmd-urgency-strip-uninsured">
+        <div className="tdmd-container">
+          <span><strong>$79 flat</strong> &middot; no insurance needed</span>
+          <span><strong>Same-day</strong> evenings &amp; weekends</span>
+          <span>Prescription to <strong>your pharmacy</strong> within the hour</span>
+          <span><strong>Same MD</strong> every visit, 44 states</span>
+          <a href="/book-online" className="tdmd-btn tdmd-btn-primary" style={{ whiteSpace: 'nowrap' }}>Book Now &rarr;</a>
+        </div>
+      </div>
 
-            <div className="u-price-card">
-              <p className="u-price-eyebrow">Cash-pay, all visits</p>
-              <p className="u-price-num"><sup>$</sup>79</p>
-              <p className="u-price-flat">Flat rate. First visit and every follow-up.</p>
-              <ul className="u-price-list">
-                <li><IconCheck style={{ color: 'var(--u-ok)' }} /> Board-certified family medicine MD</li>
-                <li><IconCheck style={{ color: 'var(--u-ok)' }} /> Prescription to any US pharmacy you choose</li>
-                <li><IconCheck style={{ color: 'var(--u-ok)' }} /> No membership, no subscription, no add-on fees</li>
-                <li><IconCheck style={{ color: 'var(--u-ok)' }} /> HSA and FSA cards accepted</li>
+      {/* Hero — dark navy, same as condition page urgency strip */}
+      <section className="tdmd-hero tdmd-hero-uninsured" id="uninsured-hero">
+        <div className="tdmd-container">
+          <div className="tdmd-hero-grid">
+            <div className="tdmd-hero-copy">
+              <h1>$79 Online Doctor Without Insurance - Same Board-Certified MD, Every Visit, 44 States</h1>
+              <p className="tdmd-hero-sub">A TeleDirectMD video visit costs $79 flat. No insurance required. No monthly membership. No drug subscription upsells. You see the same board-certified physician every visit, whether you are home in Georgia or on a trip in Denver.</p>
+              <ul className="tdmd-hero-benefits">
+                <li><strong>$79 flat</strong>, first visit and follow-ups, no surprise billing</li>
+                <li><strong>Same MD every visit</strong>, not a rotating pool</li>
+                <li><strong>44 states</strong>, one doctor, no re-establishing care when you travel</li>
+                <li><strong>No membership</strong>, no subscription, no enrollment fee</li>
+                <li><strong>No drug subscriptions</strong>, prescriptions go to any pharmacy you choose</li>
               </ul>
-            </div>
-          </div>
-
-          {/* Differentiator chip row */}
-          <div className="u-chips" aria-label="What makes TeleDirectMD different">
-            {chips.map((c, i) => (
-              <div key={i} className="u-chip">
-                <span className="u-chip-icon"><c.icon /></span>
-                <span className="u-chip-text">{c.text}</span>
+              <div className="tdmd-hero-ctas">
+                <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a $79 Visit</a>
+                <a href="#uninsured-compare" className="tdmd-btn tdmd-btn-outline" style={{ background: 'transparent', color: '#ffffff', borderColor: '#ffffff' }}>See How We Compare</a>
               </div>
-            ))}
+              <p className="tdmd-reviewed tdmd-reviewnote" style={{ marginTop: '1rem' }}>
+                Last reviewed on {today} by{' '}
+                <a className="tdmd-author-link" href="/about">Parth Bhavsar, MD</a>
+              </p>
+            </div>
+
+            <div className="tdmd-hero-side">
+              <div className="tdmd-hero-card">
+                <h2>Online MD-only care, $79 flat</h2>
+                <p className="tdmd-price-big" style={{ fontSize: '3.25rem', lineHeight: 1, margin: '0 0 0.25rem', fontWeight: 800, color: 'var(--tdmd-text)' }}>$79</p>
+                <p className="tdmd-hero-note" style={{ margin: '0 0 0.75rem' }}>flat self-pay &middot; first visit and every follow-up</p>
+                <ul>
+                  <li>Board-certified family medicine MD, no NP or PA</li>
+                  <li>Prescription to any US pharmacy you choose</li>
+                  <li>No membership, no subscription, no add-on fees</li>
+                  <li>HSA and FSA cards accepted</li>
+                </ul>
+                <a href="/book-online" className="tdmd-btn tdmd-btn-primary" style={{ width: '100%', textAlign: 'center' }}>Book a Visit &rarr;</a>
+                <p className="tdmd-hero-note" style={{ marginTop: '0.75rem', textAlign: 'center' }}>Same-day &middot; HSA/FSA accepted</p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
 
-      {/* ─── COMPARISON ─── */}
-      <section className="u-sec u-bg-mist" id="uninsured-compare">
-        <div className="u-container">
-          <div className="u-sec-head">
-            <span className="u-eyebrow"><span className="u-dot" />Honest comparison</span>
-            <h2 className="u-h2">How TeleDirectMD compares</h2>
-            <p className="u-lede">Most "cheap online doctor" services either charge you a monthly membership to unlock the low price, rotate you through whichever provider is available, or make their real money selling you a monthly drug subscription. Here is the honest comparison. Cost per visit and what is actually included, as of {comparison.asOfDate}.</p>
-          </div>
+      {/* Comparison */}
+      <section className="tdmd-section" id="uninsured-compare">
+        <div className="tdmd-container">
+          <h2>How TeleDirectMD Compares</h2>
+          <p>Most "cheap online doctor" services either charge you a monthly membership to unlock the low price, rotate you through whichever provider is available, or make their real money selling you a monthly drug subscription. Here is the honest comparison. Cost per visit and what is actually included, as of {comparison.asOfDate}.</p>
 
           <div className="u-compare-wrap">
             <div className="u-compare-scroll">
@@ -456,37 +315,40 @@ export default function UninsuredAffordableCarePage() {
         </div>
       </section>
 
-      {/* ─── WHAT $79 GETS YOU ─── */}
-      <section className="u-sec u-bg-cream" id="uninsured-included">
-        <div className="u-container">
-          <div className="u-sec-head">
-            <span className="u-eyebrow"><span className="u-dot" />What's included</span>
-            <h2 className="u-h2">What $79 actually gets you</h2>
+      {/* What $79 gets you */}
+      <section className="tdmd-section tdmd-section-highlight" id="uninsured-included">
+        <div className="tdmd-container">
+          <h2>What $79 Actually Gets You</h2>
+          <div className="tdmd-grid tdmd-grid-2" style={{ marginTop: '1rem' }}>
+            <div className="tdmd-card" style={{ padding: '1.5rem' }}>
+              <ul className="tdmd-hero-benefits" style={{ margin: 0 }}>
+                <li>A 10 to 15 minute video visit with the same board-certified family medicine physician every time</li>
+                <li>E-prescription sent to any US pharmacy you choose, including Cost Plus Drugs and Costco</li>
+                <li>No enrollment fee, no membership, no subscription, no facility fee</li>
+                <li>Follow-up visits are the same $79 flat, no first-visit surcharge</li>
+              </ul>
+            </div>
+            <div className="tdmd-card" style={{ padding: '1.5rem' }}>
+              <ul className="tdmd-hero-benefits" style={{ margin: 0 }}>
+                <li>No pressure to sign up for a monthly medication delivery</li>
+                <li>HSA and FSA cards accepted at checkout</li>
+                <li>Prescription to any pharmacy you choose, not a mail-order lock-in</li>
+              </ul>
+              <p className="tdmd-hero-note" style={{ marginTop: '1rem' }}>Insurance is accepted in select states. Contact us to confirm your plan.</p>
+            </div>
           </div>
-          <ul className="u-included">
-            <li><IconCheck /> A 10 to 15 minute video visit with the same board-certified family medicine physician every time</li>
-            <li><IconCheck /> E-prescription sent to any US pharmacy you choose, including Cost Plus Drugs and Costco</li>
-            <li><IconCheck /> No enrollment fee, no membership, no subscription, no facility fee</li>
-            <li><IconCheck /> No pressure to sign up for a monthly medication delivery</li>
-            <li><IconCheck /> HSA and FSA cards accepted at checkout</li>
-            <li><IconCheck /> Follow-up visits are the same $79 flat, no first-visit surcharge</li>
-          </ul>
-          <p style={{ fontSize: '.9rem', color: 'var(--u-muted)', marginTop: '1rem' }}>Insurance is accepted in select states. Contact us to confirm your plan.</p>
         </div>
       </section>
 
-      {/* ─── TRIAGE MATRIX ─── */}
-      <section className="u-sec u-bg-white" id="uninsured-triage">
-        <div className="u-container">
-          <div className="u-sec-head">
-            <span className="u-eyebrow"><span className="u-dot" />Right level of care</span>
-            <h2 className="u-h2">When telehealth is right, and when it isn't</h2>
-            <p className="u-lede">Not every symptom belongs on a video visit. Here is a straight answer.</p>
-          </div>
-          <div className="u-triage">
-            <div className="u-triage-col u-good">
-              <h3><IconCheck style={{ color: 'var(--u-ok)' }} /> Telehealth is appropriate</h3>
-              <ul>
+      {/* Triage */}
+      <section className="tdmd-section" id="uninsured-triage">
+        <div className="tdmd-container">
+          <h2>When Telehealth Is Right, and When It Isn't</h2>
+          <p>Not every symptom belongs on a video visit. Here is a straight answer.</p>
+          <div className="tdmd-grid tdmd-grid-2" style={{ marginTop: '1rem' }}>
+            <div className="tdmd-card" style={{ padding: '1.5rem', borderTop: '4px solid var(--tdmd-teal)' }}>
+              <h3 style={{ marginTop: 0 }}>Telehealth is appropriate for</h3>
+              <ul style={{ margin: 0, paddingLeft: '1.2rem' }}>
                 <li>UTI, sinus infection, bronchitis, strep-like symptoms</li>
                 <li>Cold, flu, cough, low-grade fever</li>
                 <li>Skin rash, eczema, cold sore, mild acne</li>
@@ -496,9 +358,9 @@ export default function UninsuredAffordableCarePage() {
                 <li>Travel medicine, work notes, medication reviews</li>
               </ul>
             </div>
-            <div className="u-triage-col u-bad">
-              <h3><IconX style={{ color: 'var(--u-no)' }} /> Go to urgent care or the ER</h3>
-              <ul>
+            <div className="tdmd-card" style={{ padding: '1.5rem', borderTop: '4px solid var(--tdmd-accent)' }}>
+              <h3 style={{ marginTop: 0 }}>Go to urgent care or the ER</h3>
+              <ul style={{ margin: 0, paddingLeft: '1.2rem' }}>
                 <li>Chest pain, shortness of breath, symptoms of a heart attack</li>
                 <li>Signs of stroke (face droop, arm weakness, speech difficulty)</li>
                 <li>Uncontrolled bleeding or a suspected fracture</li>
@@ -509,168 +371,177 @@ export default function UninsuredAffordableCarePage() {
               </ul>
             </div>
           </div>
-          <p style={{ fontSize: '.9rem', color: 'var(--u-muted)', marginTop: '1rem' }}>If you are unsure, request a visit. If your case is not appropriate for telehealth, we will tell you before charging you and refer you to the right level of care.</p>
+          <p style={{ fontSize: '0.93rem', color: 'var(--tdmd-muted)', marginTop: '1rem' }}>If you are unsure, request a visit. If your case is not appropriate for telehealth, we will tell you before charging you and refer you to the right level of care.</p>
         </div>
       </section>
 
-      {/* ─── PHYSICIAN (dark) ─── */}
-      <section className="u-physician" id="uninsured-physician">
-        <div className="u-container">
-          <span className="u-eyebrow" style={{ background: 'rgba(255,255,255,.08)', borderColor: 'rgba(255,255,255,.15)', color: '#fff' }}><span className="u-dot" style={{ background: '#F6C6B4' }} />Meet your doctor</span>
-          <h2>The whole practice is <em>one doctor.</em> That's the point.</h2>
-          <div className="u-physician-grid">
-            <div className="u-md-card">
-              <h3>Dr. Parth Bhavsar, MD</h3>
-              <ul className="u-md-list">
+      {/* Physician */}
+      <section className="tdmd-section tdmd-section-highlight" id="uninsured-physician">
+        <div className="tdmd-container">
+          <h2>The Physician - Why "Same Doctor Every Visit" Matters</h2>
+          <div className="tdmd-grid tdmd-grid-2" style={{ marginTop: '1rem' }}>
+            <div className="tdmd-card" style={{ padding: '1.5rem' }}>
+              <h3 style={{ marginTop: 0 }}>Dr. Parth Bhavsar, MD</h3>
+              <ul className="tdmd-hero-benefits">
                 <li>Board-certified in Family Medicine, American Board of Family Medicine</li>
                 <li>Family Medicine residency, University of Mississippi Medical Center, 2021</li>
                 <li>Medical degree, Smt NHL Municipal Medical College, Ahmedabad, India</li>
                 <li>Licensed in 44 states and Washington, DC</li>
               </ul>
-              <a href="/about" className="u-btn u-btn-outline" style={{ borderColor: '#fff', color: '#fff' }}>More about Dr. Bhavsar</a>
+              <a href="/about" className="tdmd-btn tdmd-btn-outline">More About Dr. Bhavsar</a>
             </div>
-            <div>
+            <div className="tdmd-card" style={{ padding: '1.5rem' }}>
               <p>You will see me on your first visit and every visit after. Whether you are home in Atlanta, on a work trip in Denver, or visiting family in Miami, you get the same physician, the same chart, and no re-intake. That continuity is genuinely rare in cash-pay telehealth, and it is the entire design of this practice.</p>
-              <p>Continuity of care is one of the most consistent predictors of better outcomes and lower total cost, particularly for chronic conditions like hypertension, diabetes, and GERD. It is easier to notice a subtle change in your blood pressure, your reflux pattern, or your medication response when the same physician has seen you before. A rotating pool of providers cannot do that, no matter how good each individual clinician is.</p>
-              <p className="u-hipaa">TeleDirectMD is HIPAA-compliant. Your health information is encrypted, is not sold, and is not shared for advertising.</p>
+              <p>Continuity of care is one of the most consistent predictors of better outcomes and lower total cost, particularly for chronic conditions like hypertension, diabetes, and GERD. A rotating pool of providers cannot match that, no matter how good each individual clinician is.</p>
+              <p style={{ fontSize: '0.9rem', color: 'var(--tdmd-muted)' }}>TeleDirectMD is HIPAA-compliant. Your health information is encrypted, is not sold, and is not shared for advertising.</p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* ─── 44 STATES ─── */}
-      <section className="u-sec u-bg-cream" id="uninsured-states">
-        <div className="u-container">
-          <div className="u-sec-head">
-            <span className="u-eyebrow"><span className="u-dot" />Coverage</span>
-            <h2 className="u-h2">44 states, one doctor, no re-establishing care</h2>
-            <p className="u-lede">Uninsured patients often move for work or travel between states, and every switch to a new provider means a new intake, a new deductible-style intake fee, and a new physician who does not know your history. With TeleDirectMD, you keep the same doctor as long as you are physically located in one of these 44 states plus DC at the time of your visit:</p>
+      {/* States */}
+      <section className="tdmd-section" id="uninsured-states">
+        <div className="tdmd-container">
+          <h2>44 States, One Doctor, No Re-Establishing Care</h2>
+          <p>Uninsured patients often move for work or travel between states, and every switch to a new provider means a new intake, a new intake fee, and a new physician who does not know your history. With TeleDirectMD, you keep the same doctor as long as you are physically located in one of these 44 states plus DC at the time of your visit:</p>
+          <div style={{ columns: '4 180px', columnGap: '1.5rem', fontSize: '0.95rem', marginTop: '1rem' }}>
+            {stateNames.map((s) => <div key={s} style={{ breakInside: 'avoid', padding: '0.2rem 0' }}>{s}</div>)}
           </div>
-          <div className="u-states">
-            {stateNames.map((s) => <div key={s}>{s}</div>)}
-          </div>
-          <p style={{ fontSize: '.9rem', color: 'var(--u-muted)' }}>Not currently available in Arkansas, Massachusetts, New Mexico, New York, Oregon, or Rhode Island. See <a href="/states-we-serve" style={{ color: 'var(--u-navy)' }}>States We Serve</a> for state-specific condition pages.</p>
+          <p style={{ fontSize: '0.9rem', color: 'var(--tdmd-muted)', marginTop: '1rem' }}>Not currently available in Arkansas, Massachusetts, New Mexico, New York, Oregon, or Rhode Island. See <a href="/states-we-serve" style={{ color: 'var(--tdmd-navy)', fontWeight: 700 }}>States We Serve</a> for state-specific condition pages.</p>
         </div>
       </section>
 
-      {/* ─── CONDITIONS ─── */}
-      <section className="u-sec u-bg-white" id="uninsured-conditions">
-        <div className="u-container">
-          <div className="u-sec-head">
-            <span className="u-eyebrow"><span className="u-dot" />Common conditions</span>
-            <h2 className="u-h2">What we treat for $79</h2>
-            <p className="u-lede">Every visit is $79 flat, no insurance required. Each condition below links to a page that explains what to expect, what medications are typically appropriate, and when telehealth is not the right call.</p>
-          </div>
-          <div className="u-conditions">
+      {/* Conditions */}
+      <section className="tdmd-section tdmd-section-highlight" id="uninsured-conditions">
+        <div className="tdmd-container">
+          <h2>Common Conditions We Treat for $79</h2>
+          <p>Every visit is $79 flat, no insurance required. Each condition below links to a page that explains what to expect, what medications are typically appropriate, and when telehealth is not the right call.</p>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '0.85rem', marginTop: '1rem' }}>
             {conditions.map((c) => (
-              <a key={c.slug} href={`/${c.slug}`} className="u-cond-card">
-                <span className="u-cond-tag">{c.tag}</span>
-                <h3>{c.name}</h3>
-                <p>{c.desc}</p>
-                <span className="u-cond-more">Read more →</span>
+              <a key={c.slug} href={`/${c.slug}`} className="tdmd-card" style={{ textDecoration: 'none', color: 'var(--tdmd-text)', borderLeft: '4px solid var(--tdmd-teal)', padding: '1rem 1.25rem' }}>
+                <h3 style={{ margin: '0 0 0.3rem', color: 'var(--tdmd-navy)', fontSize: '1.05rem' }}>{c.name}</h3>
+                <p style={{ margin: 0, fontSize: '0.9rem', color: 'var(--tdmd-muted)', lineHeight: '1.45' }}>{c.desc}</p>
               </a>
             ))}
           </div>
-          <div style={{ marginTop: '1.5rem' }}>
-            <a href="/what-we-treat" className="u-btn u-btn-ghost">View all 60+ conditions we treat</a>
+          <div style={{ marginTop: '1.25rem' }}>
+            <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All 60+ Conditions We Treat</a>
           </div>
         </div>
       </section>
 
-      {/* ─── HOW IT WORKS ─── */}
-      <section className="u-sec u-bg-cream-2" id="uninsured-how-it-works">
-        <div className="u-container">
-          <div className="u-sec-head">
-            <span className="u-eyebrow"><span className="u-dot" />How it works</span>
-            <h2 className="u-h2">Three steps, about 15 minutes total</h2>
-          </div>
-          <div className="u-steps">
-            <div className="u-step"><div className="u-step-num">01</div><h3>Request a visit</h3><p>Open TeleDirectMD.com on your phone. See the $79 price before you confirm. Tell us your state and symptoms. About 2 minutes.</p></div>
-            <div className="u-step"><div className="u-step-num">02</div><h3>Connect by video</h3><p>You meet Dr. Bhavsar by secure video. Most visits take 10 to 15 minutes.</p></div>
-            <div className="u-step"><div className="u-step-num">03</div><h3>Get treated</h3><p>Prescription e-sent to the pharmacy of your choice. If your case is not appropriate for telehealth, you will hear that directly and get pointed to the right level of care.</p></div>
+      {/* How it works */}
+      <section className="tdmd-section" id="uninsured-how-it-works">
+        <div className="tdmd-container">
+          <h2>How It Works - 3 Simple Steps</h2>
+          <div className="tdmd-decision-flow" style={{ marginTop: '1rem' }}>
+            <div className="tdmd-decision-step tdmd-decision-step-good">
+              <div className="tdmd-decision-number">1</div>
+              <div className="tdmd-decision-content">
+                <h3>Request a Visit</h3>
+                <p>Open TeleDirectMD.com on your phone. See the $79 price before you confirm. Tell us your state and symptoms. About 2 minutes.</p>
+              </div>
+            </div>
+            <div className="tdmd-decision-step tdmd-decision-step-good">
+              <div className="tdmd-decision-number">2</div>
+              <div className="tdmd-decision-content">
+                <h3>Connect by Video</h3>
+                <p>You meet Dr. Bhavsar by secure video. Most visits take 10 to 15 minutes.</p>
+              </div>
+            </div>
+            <div className="tdmd-decision-step tdmd-decision-step-good">
+              <div className="tdmd-decision-number">3</div>
+              <div className="tdmd-decision-content">
+                <h3>Get Treated</h3>
+                <p>Prescription e-sent to the pharmacy of your choice. If your case is not appropriate for telehealth, you will hear that directly and get pointed to the right level of care.</p>
+                <div className="tdmd-decision-cta">
+                  <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit Now</a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
 
-      {/* ─── PRESCRIPTIONS ─── */}
-      <section className="u-sec u-bg-white" id="uninsured-prescriptions">
-        <div className="u-container">
-          <div className="u-sec-head">
-            <span className="u-eyebrow"><span className="u-dot" />Prescriptions</span>
-            <h2 className="u-h2">Prescriptions without insurance</h2>
-            <p className="u-lede">Medication cost is separate from the $79 visit, and it depends on the drug and your pharmacy, not on us. During your visit we will discuss the least-expensive option that works clinically. Common savings tools:</p>
-          </div>
-          <ul className="u-included">
-            <li><IconCheck /> <span><a href="https://costplusdrugs.com" rel="nofollow noopener" target="_blank" style={{ color: 'var(--u-navy)', fontWeight: 600 }}>Cost Plus Drugs</a>: Mark Cuban's pharmacy. Often the cheapest source for common generics.</span></li>
-            <li><IconCheck /> <span><a href="https://goodrx.com" rel="nofollow noopener" target="_blank" style={{ color: 'var(--u-navy)', fontWeight: 600 }}>GoodRx</a> coupons: present at pickup, no membership needed to use a coupon.</span></li>
-            <li><IconCheck /> <span><a href="https://www.walmart.com/cp/4-prescriptions/1078664" rel="nofollow noopener" target="_blank" style={{ color: 'var(--u-navy)', fontWeight: 600 }}>Walmart $4 / $10 generic list</a>: applies to many common medications.</span></li>
-            <li><IconCheck /> <span><a href="https://www.costco.com/pharmacy.html" rel="nofollow noopener" target="_blank" style={{ color: 'var(--u-navy)', fontWeight: 600 }}>Costco pharmacy</a>: cash prices are often lower than membership-required competitors. No Costco membership needed to fill a prescription.</span></li>
+      {/* Prescriptions */}
+      <section className="tdmd-section tdmd-section-highlight" id="uninsured-prescriptions">
+        <div className="tdmd-container">
+          <h2>Prescriptions Without Insurance</h2>
+          <p>Medication cost is separate from the $79 visit, and it depends on the drug and your pharmacy, not on us. During your visit we will discuss the least-expensive option that works clinically. Common savings tools:</p>
+          <ul className="tdmd-hero-benefits">
+            <li><a href="https://costplusdrugs.com" rel="nofollow noopener" target="_blank" style={{ color: 'var(--tdmd-navy)', fontWeight: 700 }}>Cost Plus Drugs</a>: Mark Cuban's pharmacy. Often the cheapest source for common generics.</li>
+            <li><a href="https://goodrx.com" rel="nofollow noopener" target="_blank" style={{ color: 'var(--tdmd-navy)', fontWeight: 700 }}>GoodRx</a> coupons: present at pickup, no membership needed to use a coupon.</li>
+            <li><a href="https://www.walmart.com/cp/4-prescriptions/1078664" rel="nofollow noopener" target="_blank" style={{ color: 'var(--tdmd-navy)', fontWeight: 700 }}>Walmart $4 / $10 generic list</a>: applies to many common medications.</li>
+            <li><a href="https://www.costco.com/pharmacy.html" rel="nofollow noopener" target="_blank" style={{ color: 'var(--tdmd-navy)', fontWeight: 700 }}>Costco pharmacy</a>: cash prices are often lower than membership-required competitors. No Costco membership needed to fill a prescription.</li>
           </ul>
-          <p style={{ fontSize: '.9rem', color: 'var(--u-muted)', marginTop: '1rem' }}>We do not sell you a monthly medication subscription, so we have no incentive to steer you toward a more expensive pharmacy.</p>
+          <p style={{ fontSize: '0.9rem', color: 'var(--tdmd-muted)' }}>We do not sell you a monthly medication subscription, so we have no incentive to steer you toward a more expensive pharmacy.</p>
         </div>
       </section>
 
-      {/* ─── FAQ ─── */}
-      <section className="u-sec u-bg-cream" id="uninsured-faq">
-        <div className="u-container">
-          <div className="u-sec-head">
-            <span className="u-eyebrow"><span className="u-dot" />Questions & answers</span>
-            <h2 className="u-h2">Frequently asked questions</h2>
-          </div>
-          <div className="u-faq">
+      {/* FAQ */}
+      <section className="tdmd-section tdmd-faq" id="uninsured-faq">
+        <div className="tdmd-container">
+          <h2>Frequently Asked Questions - Affordable Telehealth Without Insurance</h2>
+          <div className="tdmd-faq-list" role="list" style={{ marginTop: '1rem' }}>
             {faqItems.map((item, i) => (
-              <details key={i} className="u-faq-item">
-                <summary>{item.q}</summary>
-                <div className="u-faq-a"><p>{item.a}</p></div>
+              <details key={i} className="tdmd-faq-item" role="listitem">
+                <summary className="tdmd-faq-question">{item.q}</summary>
+                <div className="tdmd-faq-answer">
+                  <p>{item.a}</p>
+                </div>
               </details>
             ))}
           </div>
         </div>
       </section>
 
-      {/* ─── FINAL CTA ─── */}
-      <section className="u-sec u-bg-white">
-        <div className="u-container">
-          <div className="u-cta-banner">
-            <div>
-              <h3>See a board-certified MD today. $79 flat.</h3>
+      {/* Final CTA */}
+      <section className="tdmd-section">
+        <div className="tdmd-container">
+          <div className="tdmd-bottom-cta">
+            <div className="tdmd-bottom-cta-copy">
+              <h3>See a board-certified MD today, $79 flat.</h3>
               <p>No insurance, no membership, no drug subscription. Same doctor every visit across 44 states.</p>
             </div>
-            <div className="u-cta-actions">
-              <a href="/book-online" className="u-btn u-btn-primary">Book a $79 visit</a>
-              <a href="/insurance" className="u-btn u-btn-outline">Pricing &amp; insurance</a>
+            <div className="tdmd-bottom-cta-actions">
+              <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a $79 Visit</a>
+              <a href="/insurance" className="tdmd-btn tdmd-btn-outline">Pricing &amp; Insurance</a>
             </div>
           </div>
         </div>
       </section>
 
-      {/* ─── CROSS-LINKS ─── */}
-      <section className="u-sec u-bg-cream-2">
-        <div className="u-container">
-          <h3 style={{ margin: '0 0 .5rem', fontFamily: "'Fraunces',Georgia,serif", fontWeight: 500, fontSize: '1.2rem', color: 'var(--u-ink)' }}>Other communities we serve</h3>
-          <div className="u-link-cloud">
-            <a href="/who-we-serve/truck-drivers">Truck drivers</a>
-            <a href="/who-we-serve/gig-workers">Gig workers &amp; freelancers</a>
-            <a href="/who-we-serve/hdhp-hsa-holders">HDHP &amp; HSA holders</a>
-            <a href="/who-we-serve/early-retirees">Early retirees</a>
-            <a href="/who-we-serve">Who we serve hub</a>
+      {/* Cross-links */}
+      <section className="tdmd-section tdmd-section-highlight">
+        <div className="tdmd-container">
+          <div className="tdmd-inline-links">
+            <h3>Other Communities We Serve</h3>
+            <p className="tdmd-link-cloud">
+              <a href="/who-we-serve/truck-drivers">Truck Drivers</a>
+              <a href="/who-we-serve/gig-workers">Gig Workers &amp; Freelancers</a>
+              <a href="/who-we-serve/hdhp-hsa-holders">HDHP &amp; HSA Holders</a>
+              <a href="/who-we-serve/early-retirees">Early Retirees</a>
+              <a href="/who-we-serve">Who We Serve Hub</a>
+            </p>
           </div>
-          <h3 style={{ margin: '1.5rem 0 .5rem', fontFamily: "'Fraunces',Georgia,serif", fontWeight: 500, fontSize: '1.2rem', color: 'var(--u-ink)' }}>More from TeleDirectMD</h3>
-          <div className="u-link-cloud">
-            <a href="/what-we-treat">What we treat</a>
-            <a href="/states-we-serve">States we serve</a>
-            <a href="/insurance">Insurance &amp; pricing</a>
-            <a href="/faq">FAQs</a>
-            <a href="/book-online">Book a visit</a>
+          <div className="tdmd-inline-links" style={{ marginTop: '1rem' }}>
+            <h3>More from TeleDirectMD</h3>
+            <p className="tdmd-link-cloud">
+              <a href="/what-we-treat">What We Treat</a>
+              <a href="/states-we-serve">States We Serve</a>
+              <a href="/insurance">Insurance &amp; Pricing</a>
+              <a href="/faq">FAQs</a>
+              <a href="/book-online">Book a Visit</a>
+            </p>
           </div>
         </div>
       </section>
 
-      {/* ─── REFERENCES ─── */}
-      <section className="u-sec u-bg-white" id="uninsured-references">
-        <div className="u-container">
-          <h3 style={{ margin: '0 0 .5rem', fontFamily: "'Fraunces',Georgia,serif", fontWeight: 500, fontSize: '1.2rem', color: 'var(--u-ink)' }}>References</h3>
-          <ul className="u-ref-list">
+      {/* References */}
+      <section className="tdmd-section" id="uninsured-references">
+        <div className="tdmd-container">
+          <h2>References</h2>
+          <ul className="tdmd-ref-list">
             <li><a href="https://www.kff.org/uninsured/issue-brief/key-facts-about-the-uninsured-population/" rel="nofollow noopener" target="_blank">Key facts about the uninsured population, KFF, 2025 update</a></li>
             <li><a href="https://www.cbo.gov/publication/60702" rel="nofollow noopener" target="_blank">Effects of expiring ACA premium tax credits, Congressional Budget Office</a></li>
             <li><a href="https://www.pennmedicine.org/news/news-releases/2019/december/study-finds-telemedicine-visits-cost-far-less-than-office-visits" rel="nofollow noopener" target="_blank">Study finds telemedicine visits cost far less than office visits, Penn Medicine</a></li>
@@ -682,14 +553,14 @@ export default function UninsuredAffordableCarePage() {
         </div>
       </section>
 
-      {/* ─── DISCLAIMER ─── */}
-      <section className="u-sec u-bg-cream-2" id="uninsured-disclaimer">
-        <div className="u-container u-disclaimer">
-          <h2>Medical disclaimer</h2>
+      {/* Disclaimer */}
+      <section className="tdmd-section tdmd-footnote" id="uninsured-disclaimer">
+        <div className="tdmd-container">
+          <h2>Medical Disclaimer</h2>
           <p>This page is for informational purposes only and does not constitute medical advice. TeleDirectMD provides telehealth services for non-emergency conditions in adults 18 and older who are physically located in one of the 44 states plus DC listed above at the time of the visit. TeleDirectMD does not prescribe controlled substances. If you are experiencing a medical emergency, call 911. If you are experiencing a mental health emergency, call or text 988.</p>
           <p>Pricing listed is the flat self-pay rate for a video visit and applies to both first visits and follow-ups. Medication costs are separate from the visit fee and vary by pharmacy and drug. Insurance is accepted in select states; contact TeleDirectMD to confirm coverage in your state.</p>
         </div>
       </section>
-    </div>
+    </>
   );
 }
