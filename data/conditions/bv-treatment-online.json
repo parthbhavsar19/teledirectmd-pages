@@ -47,7 +47,7 @@
       ],
       "note": "Adults 18+ only. TeleDirectMD is not an emergency service. Go to the ER now for severe pelvic pain with high fever, signs of sepsis, or any symptoms suggesting pelvic inflammatory disease with systemic illness. TeleDirectMD does not prescribe controlled substances."
     },
-    "icd10Display": "N77.1, N76.0, or B96.89 (final coding depends on clinical details)",
+    "icd10Display": "N76.0 (acute vaginitis); B96.89 may be added when Gardnerella is identified",
     "quickAnswer": "Yes — bacterial vaginosis can be treated online in {state}. A board-certified MD reviews your symptoms by secure video and, per 2021 CDC guidelines, prescribes a first-line option — oral or intravaginal metronidazole, or intravaginal clindamycin cream — sent to your pharmacy same day. Visit price: $79 flat, no insurance required. Partner treatment may be discussed per 2025 ACOG guidance on recurrent BV. Not for pelvic pain with fever/chills or suspected pregnancy, which need in-person evaluation."
   },
   "eligibility": {
@@ -686,10 +686,6 @@
   },
   "icd10Codes": [
     {
-      "code": "N77.1",
-      "description": "Vaginitis in diseases classified elsewhere"
-    },
-    {
       "code": "N76.0",
       "description": "Acute vaginitis"
     },
@@ -707,7 +703,7 @@
       "Vaginal bacteriosis"
     ],
     "conditionDescription": "Bacterial vaginosis is the most common cause of vaginal discharge in reproductive-age women, resulting from a disruption of the normal vaginal microbiome with overgrowth of anaerobic bacteria. TeleDirectMD evaluates adult BV symptoms by video visit with safety-first red-flag screening, CDC guideline-based treatment with metronidazole or clindamycin, recurrence management planning, and clear rules for when in-person care is needed.",
-    "primaryIcd10": "N77.1",
+    "primaryIcd10": "N76.0",
     "anatomy": "Vagina and vaginal microbiome",
     "symptoms": [
       "Thin gray or white vaginal discharge",
