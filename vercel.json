@@ -5,6 +5,13 @@
   "trailingSlash": true,
   "routes": [
     {
+      "src": "/health-guides/telehealth-cold-sores-antiviral-timing/?",
+      "headers": {
+        "Location": "/health-guides/valacyclovir-for-cold-sores-guide/"
+      },
+      "status": 301
+    },
+    {
       "src": "/who-we-serve/world-cup-2026/?",
       "headers": {
         "Location": "/who-we-serve/international-visitors/"
@@ -21,7 +28,7 @@
     {
       "src": "/health-guides/gout-acute-guide/?",
       "headers": {
-        "Location": "/health-guides/gout-guide/"
+        "Location": "/health-guides/gout-attack-treatment-guide/"
       },
       "status": 301
     },
