@@ -6,6 +6,14 @@ export default function UninsuredAffordableCarePage() {
   const today = new Date().toISOString().split('T')[0];
 
   /* ── State coverage ─────────────────────────────────────────────── */
+  // Served states, 44 plus DC (checked by scripts/check-state-coverage.js):
+  // Alabama, Alaska, Arizona, California, Colorado, Connecticut, Delaware,
+  // Florida, Georgia, Hawaii, Idaho, Illinois, Indiana, Iowa, Kansas, Kentucky,
+  // Louisiana, Maine, Maryland, Michigan, Minnesota, Mississippi, Missouri,
+  // Montana, Nebraska, Nevada, New Hampshire, New Jersey, North Carolina,
+  // North Dakota, Ohio, Oklahoma, Pennsylvania, South Carolina, South Dakota,
+  // Tennessee, Texas, Utah, Vermont, Virginia, Washington, West Virginia,
+  // Wisconsin, Wyoming, plus Washington, DC.
   const stateAbbrs = ['AL','AK','AZ','CA','CO','CT','DC','DE','FL','GA','HI','ID','IL','IN','IA','KS','KY','LA','ME','MD','MI','MN','MS','MO','MT','NE','NV','NH','NJ','NC','ND','OH','OK','PA','SC','SD','TN','TX','UT','VA','VT','WA','WV','WI','WY'];
   const stateNames = ['Alabama','Alaska','Arizona','California','Colorado','Connecticut','Delaware','Florida','Georgia','Hawaii','Idaho','Illinois','Indiana','Iowa','Kansas','Kentucky','Louisiana','Maine','Maryland','Michigan','Minnesota','Mississippi','Missouri','Montana','Nebraska','Nevada','New Hampshire','New Jersey','North Carolina','North Dakota','Ohio','Oklahoma','Pennsylvania','South Carolina','South Dakota','Tennessee','Texas','Utah','Vermont','Virginia','Washington','West Virginia','Wisconsin','Wyoming','Washington, DC'];
 
