@@ -75,13 +75,18 @@ export default function SiteFooter() {
               href="https://www.legitscript.com/websites/?checker_keywords=teledirectmd.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="tdmd-trust-badge"
+              className="tdmd-footer-seal"
+              aria-label="LegitScript Certified, verify approval for teledirectmd.com"
+              title="Verify LegitScript Approval for www.teledirectmd.com"
             >
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
-                <path d="M12 2L3 7v5c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V7l-9-5z" fill="#4a7c59"/>
-                <path d="M10 15.5l-3.5-3.5 1.41-1.41L10 12.67l5.59-5.59L17 8.5l-7 7z" fill="#fff"/>
-              </svg>
-              LegitScript Certified
+              <img
+                src="https://static.legitscript.com/seals/44406824.png"
+                alt="LegitScript Certified"
+                width="73"
+                height="79"
+                style={{ objectFit: 'contain', display: 'block' }}
+                loading="lazy"
+              />
             </a>
             <span className="tdmd-trust-badge">
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
