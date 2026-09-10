@@ -31,119 +31,261 @@
 <!-- JSON-LD Structured Data -->
 <script type="application/ld+json">
 {
- "@context": "https://schema.org",
- "@graph": [
- {
- "@type": "WebSite",
- "@id": "https://teledirectmd.com/#website",
- "url": "https://teledirectmd.com",
- "name": "TeleDirectMD",
- "publisher": { "@id": "https://teledirectmd.com/#organization" }
- },
- {
- "@type": "BreadcrumbList",
- "@id": "https://teledirectmd.com/health-guides/std-sti-testing-guide#breadcrumb",
- "itemListElement": [
- { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://teledirectmd.com" },
- { "@type": "ListItem", "position": 2, "name": "Health Guides", "item": "https://teledirectmd.com/health-guides" },
- { "@type": "ListItem", "position": 3, "name": "STD and STI Testing", "item": "https://teledirectmd.com/health-guides/std-sti-testing-guide" }
- ]
- },
- {
- "@type": "Organization","editorialPolicy":"https://teledirectmd.com/health-guides/editorial-standards/#editorial-standards","correctionsPolicy":"https://teledirectmd.com/health-guides/editorial-standards/#corrections","verificationFactCheckingPolicy":"https://teledirectmd.com/health-guides/editorial-standards/#methodology","ownershipFundingInfo":"https://teledirectmd.com/health-guides/editorial-standards/#funding-conflicts","publishingPrinciples":"https://teledirectmd.com/health-guides/editorial-standards/",
- "@id": "https://teledirectmd.com/#organization",
- "name": "TeleDirectMD",
- "url": "https://teledirectmd.com",
- "logo": { "@type": "ImageObject", "url": "https://teledirectmd.com/logo.webp" },
- "contactPoint": { "@type": "ContactPoint", "telephone": "+1-678-956-1855", "contactType": "customer service", "email": "contact@teledirectmd.com" }
- },
- {
- "@type": "Person",
- "@id": "https://teledirectmd.com/about#physician",
- "name": "Parth Bhavsar, MD",
- "jobTitle": "Board-Certified Family Medicine Physician",
- "url": "https://teledirectmd.com/health-guides/about-the-editor/",
- "affiliation": { "@id": "https://teledirectmd.com/#organization" },
- "sameAs": [
- "https://www.doximity.com/pub/parth-bhavsar-md",
- "https://teledirectmd.com/about",
- "https://www.linkedin.com/in/parthbhavsar"
- ]
- },
- {
- "@type": "MedicalWebPage",
- "@id": "https://teledirectmd.com/health-guides/std-sti-testing-guide#webpage",
- "url": "https://teledirectmd.com/health-guides/std-sti-testing-guide",
- "name": "Doxy PEP",
- "lastReviewed": "2026-08-20",
- "reviewedBy": { "@id": "https://teledirectmd.com/about#physician" },
- "medicalAudience": { "@type": "MedicalAudience", "audienceType": "Patient" },
- "datePublished": "2026-09-10",
- "dateModified": "2026-09-10",
- "isPartOf": { "@id": "https://teledirectmd.com/#website" },
- "breadcrumb": { "@id": "https://teledirectmd.com/health-guides/std-sti-testing-guide#breadcrumb" },
- "speakable": { "@type": "SpeakableSpecification", "cssSelector": [".tdmd-article-title", ".tdmd-faq-question"] },
- "citation": ["https://pubmed.ncbi.nlm.nih.gov/38833414/", "https://pubmed.ncbi.nlm.nih.gov/37018493/", "https://pubmed.ncbi.nlm.nih.gov/29229440/", "https://pubmed.ncbi.nlm.nih.gov/38797183/", "https://pubmed.ncbi.nlm.nih.gov/38118022/", "https://www.cdc.gov/sti/hcp/doxy-pep/index.html", "https://pubmed.ncbi.nlm.nih.gov/34292926/"]
- },
- {
- "@type": "Article",
- "@id": "https://teledirectmd.com/health-guides/std-sti-testing-guide#article",
- "headline": "STD and STI Testing: Which Test, When, and Where (2026 Guide)",
- "datePublished": "2026-09-10",
- "dateModified": "2026-09-10",
- "author": { "@id": "https://teledirectmd.com/about#physician" },
- "publisher": { "@id": "https://teledirectmd.com/#organization" },
- "image": "https://teledirectmd.com/health-guides/std-sti-testing-guide/images/hero-std-sti-testing-guide.png",
- "mainEntityOfPage": { "@type": "WebPage", "@id": "https://teledirectmd.com/health-guides/std-sti-testing-guide/" },
- "articleSection": "Health Guides",
- "wordCount": 2900
- },
- {
- "@type": "Drug",
- "@id": "https://teledirectmd.com/health-guides/std-sti-testing-guide#drug",
- "name": "Doxycycline",
- "drugClass": "Tetracycline antibiotic",
- "isAvailableGenerically": true,
- "activeIngredient": "Doxycycline",
- "doseSchedule": "200 mg once within 72 hours after sex, not to exceed 200 mg per 24 hours"
- },
- {
- "@type": "MedicalCondition",
- "@id": "https://teledirectmd.com/health-guides/std-sti-testing-guide#condition-syphilis",
- "name": "Syphilis",
- "code": { "@type": "MedicalCode", "code": "A51", "codingSystem": "ICD-10" }
- },
- {
- "@type": "MedicalCondition",
- "@id": "https://teledirectmd.com/health-guides/std-sti-testing-guide#condition-chlamydia",
- "name": "Chlamydia",
- "code": { "@type": "MedicalCode", "code": "A56", "codingSystem": "ICD-10" }
- },
- {
- "@type": "MedicalCondition",
- "@id": "https://teledirectmd.com/health-guides/std-sti-testing-guide#condition-gonorrhea",
- "name": "Gonorrhea",
- "code": { "@type": "MedicalCode", "code": "A54", "codingSystem": "ICD-10" }
- },
- {
- "@type": "FAQPage",
- "@id": "https://teledirectmd.com/health-guides/std-sti-testing-guide#faq",
- "mainEntity": [
-  { "@type": "Question", "name": "What is doxy PEP?", "acceptedAnswer": { "@type": "Answer", "text": "Doxy PEP (doxycycline post-exposure prophylaxis) is taking a single 200 mg dose of the antibiotic doxycycline within 72 hours after condomless sex to lower the chance of getting syphilis, chlamydia, and gonorrhea. It is an as-needed strategy, not a daily pill, and it does not prevent HIV." } },
-  { "@type": "Question", "name": "How well does doxy PEP work?", "acceptedAnswer": { "@type": "Answer", "text": "Across three large randomized trials, 200 mg of doxycycline taken within 72 hours after sex reduced syphilis and chlamydia by more than 70 percent and gonorrhea by about 50 percent. In the DoxyPEP trial it cut chlamydia by 88 percent and syphilis by 87 percent in people taking HIV PrEP." } },
-  { "@type": "Question", "name": "Who is doxy PEP recommended for?", "acceptedAnswer": { "@type": "Answer", "text": "The CDC recommends providers discuss doxy PEP with gay, bisexual, and other men who have sex with men and transgender women who have had at least one bacterial STI (syphilis, chlamydia, or gonorrhea) in the past 12 months." } },
-  { "@type": "Question", "name": "Is doxy PEP recommended for women?", "acceptedAnswer": { "@type": "Answer", "text": "No. The CDC gives no recommendation for cisgender women because the one large trial in cisgender women found no significant reduction in STIs. Doxy PEP has only been proven effective in men who have sex with men and transgender women." } },
-  { "@type": "Question", "name": "Does doxy PEP prevent HIV?", "acceptedAnswer": { "@type": "Answer", "text": "No. Doxy PEP only targets bacterial STIs (syphilis, chlamydia, and gonorrhea). It does not prevent HIV or other viral infections. People using doxy PEP should also be offered HIV PrEP if they are at risk for HIV." } },
-  { "@type": "Question", "name": "How soon after sex do I need to take it?", "acceptedAnswer": { "@type": "Answer", "text": "Take 200 mg of doxycycline as soon as possible after sex, ideally within 24 hours and no later than 72 hours. Do not take more than 200 mg in any 24-hour period." } },
-  { "@type": "Question", "name": "What are the side effects of doxy PEP?", "acceptedAnswer": { "@type": "Answer", "text": "The most common side effects are nausea, upset stomach, esophageal irritation, and increased sensitivity to the sun. Taking the dose with food and a full glass of water, staying upright for an hour, and using sunscreen reduce these. Most side effects are mild and resolve after stopping." } },
-  { "@type": "Question", "name": "Does doxy PEP cause antibiotic resistance?", "acceptedAnswer": { "@type": "Answer", "text": "It is a real concern. In the DoxyPEP trial, tetracycline-resistant Staphylococcus aureus in the nose rose from 5 percent to 13 percent in the doxy PEP group, and some gonorrhea isolates showed increased tetracycline resistance. This is why doxy PEP is targeted to a specific high-risk population rather than offered broadly." } },
-  { "@type": "Question", "name": "Can I take doxy PEP every day?", "acceptedAnswer": { "@type": "Answer", "text": "No. Doxy PEP is event-driven, taken only after sex that carries risk, and no more than 200 mg per 24 hours. It is not a daily preventive medication." } },
-  { "@type": "Question", "name": "Do I still need condoms and HIV PrEP?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Doxy PEP does not replace condoms, which also prevent HIV and other STIs, and it does not replace HIV PrEP for people at risk of HIV. It is one added layer of protection, used alongside regular STI and HIV testing every 3 to 6 months." } },
-  { "@type": "Question", "name": "How do I get doxy PEP?", "acceptedAnswer": { "@type": "Answer", "text": "Doxy PEP is a prescription medication. A licensed clinician can evaluate whether it is appropriate for you, prescribe doxycycline, and set up the recommended STI and HIV testing every 3 to 6 months." } },
-  { "@type": "Question", "name": "What if I already have symptoms of an STI?", "acceptedAnswer": { "@type": "Answer", "text": "Doxy PEP is prevention, not treatment. If you have discharge, sores, burning with urination, or a rash, you may already have an infection and need testing and treatment, not just a preventive dose. See a clinician." } }
- ]
- }
- ]
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://teledirectmd.com/#website",
+      "url": "https://teledirectmd.com",
+      "name": "TeleDirectMD",
+      "publisher": {
+        "@id": "https://teledirectmd.com/#organization"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://teledirectmd.com/health-guides/std-sti-testing-guide#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://teledirectmd.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Health Guides",
+          "item": "https://teledirectmd.com/health-guides"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "STD and STI Testing",
+          "item": "https://teledirectmd.com/health-guides/std-sti-testing-guide"
+        }
+      ]
+    },
+    {
+      "@type": "Organization",
+      "editorialPolicy": "https://teledirectmd.com/health-guides/editorial-standards/#editorial-standards",
+      "correctionsPolicy": "https://teledirectmd.com/health-guides/editorial-standards/#corrections",
+      "verificationFactCheckingPolicy": "https://teledirectmd.com/health-guides/editorial-standards/#methodology",
+      "ownershipFundingInfo": "https://teledirectmd.com/health-guides/editorial-standards/#funding-conflicts",
+      "publishingPrinciples": "https://teledirectmd.com/health-guides/editorial-standards/",
+      "@id": "https://teledirectmd.com/#organization",
+      "name": "TeleDirectMD",
+      "url": "https://teledirectmd.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://teledirectmd.com/logo.webp"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+1-678-956-1855",
+        "contactType": "customer service",
+        "email": "contact@teledirectmd.com"
+      }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://teledirectmd.com/about#physician",
+      "name": "Parth Bhavsar, MD",
+      "jobTitle": "Board-Certified Family Medicine Physician",
+      "url": "https://teledirectmd.com/health-guides/about-the-editor/",
+      "affiliation": {
+        "@id": "https://teledirectmd.com/#organization"
+      },
+      "sameAs": [
+        "https://www.doximity.com/pub/parth-bhavsar-md",
+        "https://teledirectmd.com/about",
+        "https://www.linkedin.com/in/parthbhavsar"
+      ]
+    },
+    {
+      "@type": "MedicalWebPage",
+      "@id": "https://teledirectmd.com/health-guides/std-sti-testing-guide#webpage",
+      "url": "https://teledirectmd.com/health-guides/std-sti-testing-guide",
+      "name": "STD and STI Testing: Which Test, When, and Where (2026 Guide)",
+      "lastReviewed": "2026-08-20",
+      "reviewedBy": {
+        "@id": "https://teledirectmd.com/about#physician"
+      },
+      "medicalAudience": {
+        "@type": "MedicalAudience",
+        "audienceType": "Patient"
+      },
+      "datePublished": "2026-09-10",
+      "dateModified": "2026-09-10",
+      "isPartOf": {
+        "@id": "https://teledirectmd.com/#website"
+      },
+      "breadcrumb": {
+        "@id": "https://teledirectmd.com/health-guides/std-sti-testing-guide#breadcrumb"
+      },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".tdmd-article-title",
+          ".tdmd-faq-question"
+        ]
+      },
+      "citation": [
+        "https://pubmed.ncbi.nlm.nih.gov/38833414/",
+        "https://pubmed.ncbi.nlm.nih.gov/37018493/",
+        "https://pubmed.ncbi.nlm.nih.gov/29229440/",
+        "https://pubmed.ncbi.nlm.nih.gov/38797183/",
+        "https://pubmed.ncbi.nlm.nih.gov/38118022/",
+        "https://www.cdc.gov/sti/hcp/doxy-pep/index.html",
+        "https://pubmed.ncbi.nlm.nih.gov/34292926/"
+      ]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://teledirectmd.com/health-guides/std-sti-testing-guide#article",
+      "headline": "STD and STI Testing: Which Test, When, and Where (2026 Guide)",
+      "datePublished": "2026-09-10",
+      "dateModified": "2026-09-10",
+      "author": {
+        "@id": "https://teledirectmd.com/about#physician"
+      },
+      "publisher": {
+        "@id": "https://teledirectmd.com/#organization"
+      },
+      "image": "https://teledirectmd.com/health-guides/std-sti-testing-guide/images/hero-std-sti-testing-guide.png",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://teledirectmd.com/health-guides/std-sti-testing-guide/"
+      },
+      "articleSection": "Health Guides",
+      "wordCount": 2900
+    },
+    {
+      "@type": "Drug",
+      "@id": "https://teledirectmd.com/health-guides/std-sti-testing-guide#drug",
+      "name": "Doxycycline",
+      "drugClass": "Tetracycline antibiotic",
+      "isAvailableGenerically": true,
+      "activeIngredient": "Doxycycline",
+      "doseSchedule": "200 mg once within 72 hours after sex, not to exceed 200 mg per 24 hours"
+    },
+    {
+      "@type": "MedicalCondition",
+      "@id": "https://teledirectmd.com/health-guides/std-sti-testing-guide#condition-syphilis",
+      "name": "Syphilis",
+      "code": {
+        "@type": "MedicalCode",
+        "code": "A51",
+        "codingSystem": "ICD-10"
+      }
+    },
+    {
+      "@type": "MedicalCondition",
+      "@id": "https://teledirectmd.com/health-guides/std-sti-testing-guide#condition-chlamydia",
+      "name": "Chlamydia",
+      "code": {
+        "@type": "MedicalCode",
+        "code": "A56",
+        "codingSystem": "ICD-10"
+      }
+    },
+    {
+      "@type": "MedicalCondition",
+      "@id": "https://teledirectmd.com/health-guides/std-sti-testing-guide#condition-gonorrhea",
+      "name": "Gonorrhea",
+      "code": {
+        "@type": "MedicalCode",
+        "code": "A54",
+        "codingSystem": "ICD-10"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://teledirectmd.com/health-guides/std-sti-testing-guide#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How often should I get tested for STIs?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "USPSTF recommends HIV screening at least once for every adult aged 15 to 65, chlamydia and gonorrhea annually for sexually active women under 25 (and older women at increased risk), and syphilis for anyone at increased risk. CDC recommends men who have sex with men and transgender women screen every 3 to 6 months, and anyone with new or multiple partners screen at least annually. See a clinician sooner if you develop symptoms.[3][4][1]"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is included in a standard STI panel?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The core panel is HIV, syphilis, chlamydia, and gonorrhea. Trichomoniasis, hepatitis B, and hepatitis C are added based on exposure history and USPSTF risk categories. HPV testing is done via cervical cancer screening (Pap co-test), not routine STI screening. Herpes serology is not recommended for asymptomatic adults.[1]"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long after exposure should I wait to test?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Window periods vary by pathogen. Chlamydia and gonorrhea NAAT is reliable at 2 weeks. Fourth-generation HIV Ag/Ab combo tests are reliable at 2 to 6 weeks (older antibody-only tests can miss infection for up to 90 days). Syphilis serology is reliable at 3 to 6 weeks. Hepatitis C RNA is reliable at 2 to 6 weeks; the antibody screen may take 8 to 12 weeks. If you have an acute exposure within the past 72 hours, do not wait, call a clinician about HIV PEP immediately.[1]"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are at-home STI tests as accurate as a clinic?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For asymptomatic screening, home mail-in NAAT and the Visby home PCR device use lab-comparable technology and give reliable results. The limitations are practical: home kits cannot always obtain rectal or pharyngeal swabs, cannot include a physical exam, cannot initiate same-day treatment for gonorrhea or syphilis (which need IM injections), and cannot substitute for in-person care in pregnancy, symptomatic infection, or after sexual assault. See the Everlywell review and Visby review for details.[8]"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a Pap smear if I already had an HPV test?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cervical cancer screening for women aged 21 to 65 uses Pap testing alone every 3 years, or HPV testing alone every 5 years starting at age 30 (grade A). Co-testing (Pap plus HPV) every 5 years is also acceptable in women 30 to 65. This is separate from the STI screening panel discussed here, and it is not routinely part of an STI-only visit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Should I ask for a herpes blood test?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Routine herpes serology in asymptomatic adults is not recommended by CDC. In low-prevalence populations, false-positive results outnumber true positives and can cause more anxiety and stigma than clinical benefit. Testing is appropriate when there is an active lesion (using NAAT or culture of the lesion, not blood), when a partner has genital herpes, or in certain HIV or pregnancy scenarios where the result would change management.[1]"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is HPV testing part of an STI panel?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Not routinely. HPV testing is a cervical cancer screening tool for women aged 30 to 65 (via Pap co-test or primary HPV test). There is no routine HPV screen for men. The HPV vaccine is recommended for all adolescents at age 11 to 12 and available through age 45. If your last exposure was to a partner with a new HPV diagnosis, no immediate test changes management for either of you."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I get treated through telehealth if my home test is positive?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Chlamydia usually can. First-line treatment is oral doxycycline 100 mg twice daily for 7 days, which fits a telehealth visit without an exam. Gonorrhea requires an intramuscular ceftriaxone injection and syphilis requires benzathine penicillin G, so both need an in-person visit. Trichomoniasis (oral metronidazole) is typically handled at a health department or primary care visit alongside an exam and partner treatment rather than through general telehealth. Herpes, HIV, and HPV each need specialty or in-person follow-up. TeleDirectMD provides testing workup and treats chlamydia; the other pathogens are outside our scope and require in-person care or a specialty referral.[1]"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does STI testing cost without insurance?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Free or low-cost options include your state or local health department STI clinic, Planned Parenthood, and federally qualified health centers. Home mail-in kits run $150 to $250 for a 4-panel or 5-panel. Retail lab self-order for the standard 4-panel is roughly $75 to $200. A cash-pay telehealth visit with a lab requisition typically runs $35 to $75 on top of lab fees. Most USPSTF-recommended screenings are covered without cost-sharing under private insurance and Medicaid expansion plans.[2]"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Should I take doxy-PEP after every exposure?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "CDC recommends doxy-PEP (200 mg doxycycline within 72 hours of condomless sex) for men who have sex with men and transgender women who have had a bacterial STI in the past 12 months. It is not currently recommended for cisgender women (the one trial in that population did not show benefit) or for people not in the CDC-defined risk categories. The doxy-PEP guide covers eligibility, dosing, and resistance concerns.[9]"
+          }
+        }
+      ]
+    }
+  ]
 }
 </script>
 
@@ -840,11 +982,19 @@ sup a:hover { text-decoration: underline; }
   <h3 id="confirm">Confirmation</h3>
   <p>Home NAAT results for chlamydia and gonorrhea are generally reliable and do not require repeat testing before treatment in a symptomatic patient. Syphilis testing uses a two-step algorithm (reverse-sequence or traditional) and requires confirmation before diagnosis. HIV screening positives require confirmatory testing per the CDC HIV testing algorithm. Home HIV rapid tests should be confirmed with a lab-based fourth-generation test before diagnosis.<sup><a href="#ref-1">[1]</a></sup></p>
 
-  <h3 id="treatment-links">Treatment</h3>
-  <p>Treatment is pathogen-specific. Chlamydia is doxycycline 100 mg twice daily for 7 days (or single-dose azithromycin 1 g in pregnancy and where adherence is a concern); see the <a href="/health-guides/chlamydia-treatment-guide/">chlamydia treatment guide</a>. Gonorrhea is a single 500 mg intramuscular ceftriaxone injection (1 g for people weighing 150 kg or more), with a partner treatment lane. Trichomoniasis is metronidazole; see the <a href="/health-guides/trichomoniasis-guide/">trichomoniasis guide</a>. Syphilis staging drives treatment: benzathine penicillin G 2.4 million units IM once for primary, secondary, or early latent, longer courses for late latent or unknown-duration disease. Genital herpes is oral acyclovir, valacyclovir, or famciclovir; see the <a href="/health-guides/genital-herpes-treatment-guide/">genital herpes guide</a>. HIV is antiretroviral therapy, started as soon as possible after confirmation.<sup><a href="#ref-1">[1]</a></sup></p>
+  <h3 id="treatment-links">Treatment (what CDC recommends, and where to get it)</h3>
+  <p>Treatment is pathogen-specific and only chlamydia fits cleanly into an oral-only, no-exam telehealth workflow. The other pathogens require an intramuscular injection, an exam, or specialty follow-up that a general telehealth visit cannot substitute for. What CDC recommends, per pathogen:</p>
+  <ul>
+   <li><strong>Chlamydia:</strong> doxycycline 100 mg twice daily for 7 days (or single-dose azithromycin 1 g in pregnancy and where adherence is a concern). Oral, no exam required, telehealth-appropriate. See the <a href="/health-guides/chlamydia-treatment-guide/">chlamydia treatment guide</a>.<sup><a href="#ref-1">[1]</a></sup></li>
+   <li><strong>Gonorrhea:</strong> a single 500 mg intramuscular ceftriaxone injection (1 g for people weighing 150 kg or more). IM injection required, so an in-person visit at a health department STI clinic, primary care office, or urgent care is needed.<sup><a href="#ref-1">[1]</a></sup></li>
+   <li><strong>Trichomoniasis:</strong> metronidazole. Best paired with a clinical exam to rule out concurrent BV or PID and confirm cure of a partner, so handled at a health department or primary care visit rather than general telehealth. See the <a href="/health-guides/trichomoniasis-guide/">trichomoniasis guide</a>.<sup><a href="#ref-1">[1]</a></sup></li>
+   <li><strong>Syphilis:</strong> staging drives treatment. Benzathine penicillin G 2.4 million units IM once for primary, secondary, or early latent; longer courses for late latent or unknown duration. IM injection required, and staging usually requires clinical evaluation.<sup><a href="#ref-1">[1]</a></sup></li>
+   <li><strong>Genital herpes:</strong> oral acyclovir, valacyclovir, or famciclovir. Initial episodes typically warrant an exam; suppressive therapy is usually managed by primary care. See the <a href="/health-guides/genital-herpes-treatment-guide/">genital herpes guide</a>.<sup><a href="#ref-1">[1]</a></sup></li>
+   <li><strong>HIV:</strong> antiretroviral therapy, started as soon as possible after confirmation, and typically coordinated with a Ryan White clinic, ID specialist, or PrEP/PEP clinic.<sup><a href="#ref-1">[1]</a></sup></li>
+  </ul>
 
   <h3 id="partners">Partner notification and expedited partner therapy</h3>
-  <p>All partners in the 60 days before diagnosis should be notified and tested. For chlamydia and gonorrhea, expedited partner therapy (EPT) is legal or permissible in most US states and allows the treating clinician to prescribe treatment for a patient's partner without a separate clinical evaluation. Many state health departments also offer anonymous partner notification services.<sup><a href="#ref-1">[1]</a></sup></p>
+  <p>All partners in the 60 days before diagnosis should be notified and tested. For chlamydia and gonorrhea, expedited partner therapy (EPT) is legal or permissible in most US states and allows the treating clinician to prescribe treatment for a patient's partner without a separate clinical evaluation. Because gonorrhea EPT is typically an oral cefixime prescription that carries its own drug-interaction and allergy considerations, and because state EPT laws vary, EPT is usually coordinated through the treating clinic or the state health department rather than a general telehealth visit. Many state health departments also offer anonymous partner notification services.<sup><a href="#ref-1">[1]</a></sup></p>
 
   <h3 id="retest">Retest</h3>
   <p>Rescreen at 3 months after treatment for chlamydia, gonorrhea, and trichomoniasis. High reinfection rates make this one of the most important steps for reducing repeat infection and downstream complications like pelvic inflammatory disease. HIV and syphilis follow-up follow the CDC HIV testing algorithm and syphilis staging respectively.<sup><a href="#ref-1">[1]</a></sup></p>
@@ -915,9 +1065,11 @@ sup a:hover { text-decoration: underline; }
   </ul>
 
   <h2 id="online">Getting STI Testing Through Telehealth</h2>
-  <p>Telehealth fits STI testing at three points in the workflow. First, a virtual visit can order a lab requisition for asymptomatic routine screening at a nearby Quest or LabCorp draw site, which is often cheaper than a home kit and uses the same NAAT platform. Second, telehealth can review a positive home test, initiate treatment where appropriate (chlamydia, trichomoniasis, and expedited partner therapy for chlamydia and gonorrhea can often be handled virtually), and set up a 3-month retest. Third, telehealth can screen and prescribe for symptomatic patients when the presentation is clear-cut and no exam or IM injection is required.</p>
+  <p>Telehealth fits STI testing at two points in the workflow. First, a virtual visit can order a lab requisition for asymptomatic routine screening at a nearby Quest or LabCorp draw site, which is often cheaper than a home kit and uses the same NAAT platform. Second, for a confirmed chlamydia positive, telehealth can review the result, prescribe first-line doxycycline (or azithromycin where indicated), and set up a 3-month retest.</p>
 
-  <p>Telehealth cannot substitute for in-person care when an IM injection is needed (gonorrhea ceftriaxone, benzathine penicillin for syphilis), when a pelvic or scrotal exam is essential, when the presentation could plausibly be non-STI (endometritis, ovarian pathology, prostatitis), or when acute complications like PID or epididymitis are on the differential. Cash-pay economics are similar to other conditions: $35 to $75 for the visit, plus the lab or pharmacy costs.</p>
+  <p>Scope note: TeleDirectMD offers testing workup and chlamydia treatment via telehealth. Gonorrhea (requires intramuscular ceftriaxone), syphilis (requires intramuscular benzathine penicillin), trichomoniasis, genital herpes, HIV, and HPV are outside the scope of what we treat and require in-person care or a specialty referral. Positive results for any of those are best handled by a local health department STI clinic, a primary care office that can administer IM injections, an infectious disease clinic, or (for HIV) a ryan-white or PrEP clinic.</p>
+
+  <p>Telehealth of any kind, ours included, cannot substitute for in-person care when an IM injection is needed (gonorrhea ceftriaxone, benzathine penicillin for syphilis), when a pelvic or scrotal exam is essential, when the presentation could plausibly be non-STI (endometritis, ovarian pathology, prostatitis), or when acute complications like PID or epididymitis are on the differential.</p>
 
   <h2 id="faq">Frequently Asked Questions</h2>
 
@@ -998,7 +1150,7 @@ sup a:hover { text-decoration: underline; }
      <svg class="tdmd-faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
     </button>
     <div class="tdmd-faq-answer">
-     <p>Often yes, for oral-medication STIs. Chlamydia (doxycycline 100 mg BID for 7 days) and trichomoniasis (metronidazole) can typically be treated after a telehealth visit. Gonorrhea usually requires an intramuscular ceftriaxone injection and syphilis requires benzathine penicillin G, both of which need an in-person visit. Expedited partner therapy is also available in most US states for chlamydia and gonorrhea.<sup><a href="#ref-1">[1]</a></sup></p>
+     <p>Chlamydia usually can. First-line treatment is oral doxycycline 100 mg twice daily for 7 days, which fits a telehealth visit without an exam. Gonorrhea requires an intramuscular ceftriaxone injection and syphilis requires benzathine penicillin G, so both need an in-person visit. Trichomoniasis (oral metronidazole) is typically handled at a health department or primary care visit alongside an exam and partner treatment rather than through general telehealth. Herpes, HIV, and HPV each need specialty or in-person follow-up. TeleDirectMD provides testing workup and treats chlamydia; the other pathogens are outside our scope and require in-person care or a specialty referral.<sup><a href="#ref-1">[1]</a></sup></p>
     </div>
    </div>
 
