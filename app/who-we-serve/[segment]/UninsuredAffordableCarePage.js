@@ -5,6 +5,7 @@ import { PHYSICIAN_NAME, PHYSICIAN_NPI, CREDENTIAL_BOARD } from '../../../lib/gl
 import UninsuredCompareCards from './UninsuredCompareCards';
 import UninsuredCoverageMap from './UninsuredCoverageMap';
 import UninsuredStickyCta from './UninsuredStickyCta';
+import UninsuredVideoHero from './UninsuredVideoHero';
 
 /* Coverage comes from data/states.json, the same source the state pages and the
    sitemap build from, so a state launch updates the map, the list and the
@@ -202,15 +203,17 @@ export default function UninsuredAffordableCarePage() {
       <style dangerouslySetInnerHTML={{ __html: uninsuredCSS }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, '\\u003c') }} />
 
-      {/* ── Hero ────────────────────────────────────────────────────────── */}
+      {/* ── Hero (video) ─────────────────────────────────────────────────── */}
       <section className="uac-hero">
-        <nav className="uac-crumbs" aria-label="Breadcrumb">
-          <a href="/">Home</a><span aria-hidden="true">/</span>
-          <a href="/who-we-serve">Who We Serve</a><span aria-hidden="true">/</span>
-          <span aria-current="page">Uninsured &amp; Affordable Care</span>
-        </nav>
+        <UninsuredVideoHero />
+        <div className="uac-hero-overlay" aria-hidden="true" />
+        <div className="uac-hero-container">
+          <nav className="uac-crumbs" aria-label="Breadcrumb">
+            <a href="/">Home</a><span aria-hidden="true">/</span>
+            <a href="/who-we-serve">Who We Serve</a><span aria-hidden="true">/</span>
+            <span aria-current="page">Uninsured &amp; Affordable Care</span>
+          </nav>
 
-        <div className="uac-hero-grid">
           <div className="uac-hero-copy">
             <span className="uac-eyebrow uac-eyebrow--orange">Uninsured &amp; affordable care</span>
             <h1>$79. One doctor. No insurance needed.</h1>
@@ -218,7 +221,7 @@ export default function UninsuredAffordableCarePage() {
 
             <div className="uac-hero-ctas">
               <a className="uac-btn uac-btn--primary" href="/book-online" data-analytics="book_hero">Book a $79 Visit</a>
-              <a className="uac-btn uac-btn--ghost" href="#uninsured-compare">See How We Compare</a>
+              <a className="uac-btn uac-btn--glass" href="#uninsured-compare">See How We Compare</a>
             </div>
 
             <div className="uac-chiprow">
@@ -230,9 +233,14 @@ export default function UninsuredAffordableCarePage() {
 
             <p className="uac-byline">Medically reviewed by <a href="/about">{PHYSICIAN_NAME}</a> · Updated {longDate(today)}</p>
           </div>
+        </div>
+      </section>
 
+      {/* ── Price + doctor (overlap the hero) ─────────────────────────────── */}
+      <section className="uac-overlap" aria-label="Pricing and physician">
+        <div className="uac-overlap-grid">
           <div className="uac-pricecard">
-            <span className="uac-eyebrow uac-eyebrow--dark">Cash-pay, all visits</span>
+            <span className="uac-eyebrow">Cash-pay, all visits</span>
             <div className="uac-pricecard-row">
               <span className="uac-price-big">$79</span>
               <span className="uac-price-note">flat rate<br />first visit &amp; every follow-up</span>
@@ -246,15 +254,21 @@ export default function UninsuredAffordableCarePage() {
             <a className="uac-btn uac-btn--primary" href="/book-online" data-analytics="book_price_card" style={{ width: '100%' }}>Book Now</a>
             <p className="uac-pricecard-foot">Same-day, evenings, and weekends. Insurance optional in select states.</p>
           </div>
+
+          <div className="uac-doctorcard">
+            <img className="uac-doctorcard-img" src="/images/dr-parth-bhavsar.jpg" alt={`${PHYSICIAN_NAME}, board-certified family medicine physician`} width="96" height="96" />
+            <div className="uac-doctorcard-body">
+              <span className="uac-doctorcard-name">{PHYSICIAN_NAME} <span>· Board-certified, {CREDENTIAL_BOARD}</span></span>
+              <span className="uac-doctorcard-quote">&ldquo;You&rsquo;ll see me on your first visit and every visit after. Same physician, same chart, no re-intake.&rdquo;</span>
+            </div>
+            <a className="uac-doctorcard-link" href="#uninsured-physician">Meet your doctor</a>
+          </div>
         </div>
 
-        <div className="uac-doctorstrip">
-          <img src="/images/dr-parth-bhavsar.jpg" alt={`${PHYSICIAN_NAME}, board-certified family medicine physician`} width="64" height="64" />
-          <div className="uac-doctorstrip-body">
-            <span className="uac-doctorstrip-name">{PHYSICIAN_NAME} <span>· Board-certified, {CREDENTIAL_BOARD}</span></span>
-            <span className="uac-doctorstrip-quote">&ldquo;You&rsquo;ll see me on your first visit and every visit after. Same physician, same chart, no re-intake.&rdquo;</span>
-          </div>
-          <a className="uac-doctorstrip-link" href="#uninsured-physician">Meet your doctor</a>
+        <div className="uac-examplevisit">
+          <span className="uac-examplevisit-label">Example visit · UTI</span>
+          <span>Antibiotics e-sent to your pharmacy when clinically appropriate. Often ready in about an hour, depending on your pharmacy.</span>
+          <span className="uac-examplevisit-note">Dramatization</span>
         </div>
       </section>
 
