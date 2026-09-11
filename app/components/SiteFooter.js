@@ -12,7 +12,7 @@ export default function SiteFooter() {
               <img src="/logo-white.webp" alt="TeleDirectMD" width="140" height="140" />
             </a>
             <p className="tdmd-footer-desc">
-              Board-certified family medicine physician. $79 flat-fee virtual visits across 44 states + D.C. Insurance accepted in select states. Employer plans available.
+              Board-certified family medicine physician. $79 flat-fee virtual visits across 40+ states + D.C. Insurance accepted in select states. Employer plans available.
             </p>
             <a href="/book-online" className="tdmd-footer-cta">Book a Visit →</a>
           </div>
@@ -71,17 +71,22 @@ export default function SiteFooter() {
         {/* Trust badges + Social */}
         <div className="tdmd-footer-bottom-bar">
           <div className="tdmd-footer-badges">
+            {/* Official LegitScript seal. Served from LegitScript at its native
+                73x79; per their guidance it must not be scaled in CSS. */}
             <a
               href="https://www.legitscript.com/websites/?checker_keywords=teledirectmd.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="tdmd-trust-badge"
+              title="Verify LegitScript Approval for www.teledirectmd.com"
+              style={{ display: 'inline-flex', alignItems: 'center' }}
             >
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
-                <path d="M12 2L3 7v5c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V7l-9-5z" fill="#4a7c59"/>
-                <path d="M10 15.5l-3.5-3.5 1.41-1.41L10 12.67l5.59-5.59L17 8.5l-7 7z" fill="#fff"/>
-              </svg>
-              LegitScript Certified
+              <img
+                src="https://static.legitscript.com/seals/44406824.png"
+                alt="Verify Approval for www.teledirectmd.com"
+                width="73"
+                height="79"
+                style={{ display: 'block' }}
+              />
             </a>
             <span className="tdmd-trust-badge">
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none">

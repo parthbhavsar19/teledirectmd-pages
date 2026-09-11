@@ -121,6 +121,9 @@ export default function Analytics() {
                       tdmd_source: utm_source || '(direct)',
                       tdmd_campaign: utm_campaign || '(none)',
                       tdmd_condition: currentSlug,
+                      // Which Book button was clicked (hero, price card,
+                      // sticky bar, footer...). Set via data-analytics.
+                      tdmd_placement: a.dataset.analytics || '(unset)',
                     });
                   }
                 } catch (e) { /* never block navigation */ }

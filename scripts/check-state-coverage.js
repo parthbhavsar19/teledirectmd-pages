@@ -47,8 +47,9 @@ const LISTS = [
     section: /abbr: 'al'[\s\S]{0,4000}/ },
   { file: 'app/components/UtiAntibioticsPage.js',
     section: /\['Alabama'[\s\S]{0,1600}/ },
-  { file: 'app/who-we-serve/[segment]/UninsuredAffordableCarePage.js',
-    section: /Alabama,[\s\S]{0,1600}/ },
+  // app/who-we-serve/[segment]/UninsuredAffordableCarePage.js was removed from
+  // this list on 2026-09-10: it now renders its state list straight from
+  // data/states.json, so there is no hand-typed enumeration left to drift.
   { file: 'data/insurance/insuranceConfig.js',
     section: /export const STATE_NAMES = \{[\s\S]*?\};/ },
 ];
@@ -143,9 +144,12 @@ function main() {
   // The regex must be TeleDirectMD-attributable — i.e. either not qualified,
   // or explicitly TeleDirectMD-attributed. We keep it conservative on purpose:
   // false negatives are OK, false positives break the build.
+  //
+  // 2026-09-10: the '40+ (adj) states' rule was removed. "40+ states" is now
+  // the approved brand phrasing for coverage in patient-facing copy — it does
+  // not go stale on a launch, which is the whole point — so it is no longer a
+  // drift signal. Stale EXACT counts (41/42/43) are still caught below.
   const FORBIDDEN = [
-    // '40+ states' or '40+ licensed states' or '40+ U.S. states', etc.
-    { label: '40+ (adj) states', re: /\b40\+\s+(?:\w+\s+){0,3}states?\b/i },
     { label: 'TeleDirectMD 41-state / 41 states', re: /\b41[- ]?states?\b|TeleDirectMD['\u2019]?s?\s+4[0-3]\b/i },
     { label: 'Licensed in 4[0-3] states (stale count)', re: /\bLicensed in 4[0-3]\s+states?\b/i },
     { label: 'TeleDirectMD.{0,60}\\b4[0-3]\\s+states', re: /TeleDirectMD[\s\S]{0,80}\b4[0-3]\s+states?\b/i },
@@ -153,7 +157,7 @@ function main() {
 
   function walk(dir, out) {
     for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
-      if (entry.name === 'node_modules' || entry.name === '.git' || entry.name === '.next') continue;
+      if (entry.name === 'node_modules' || entry.name === '.git' || entry.name === '.next' || entry.name === 'out') continue;
       const full = path.join(dir, entry.name);
       const rel = path.relative(ROOT, full);
       if (COUNT_ALLOWLIST_PATHS.some((p) => rel.startsWith(p))) continue;
@@ -191,7 +195,7 @@ function main() {
     process.exit(1);
   }
 
-  console.log(`\u2713 Inline state counts: no stale 40+/41/42/43 phrases in ${files.length} scanned files`);
+  console.log(`\u2713 Inline state counts: no stale 41/42/43 phrases in ${files.length} scanned files`);
 
   // ── Stale $49 pricing check ──
   // The self-pay fee moved from $49 to $79 on 2026-05-23. Any $49 phrase in
@@ -202,7 +206,7 @@ function main() {
   const priceFiles = [];
   function walkPrice(dir, out) {
     for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
-      if (entry.name === 'node_modules' || entry.name === '.git' || entry.name === '.next') continue;
+      if (entry.name === 'node_modules' || entry.name === '.git' || entry.name === '.next' || entry.name === 'out') continue;
       const full = path.join(dir, entry.name);
       const rel = path.relative(ROOT, full);
       if (PRICE_ALLOWLIST_PATHS.some((p) => rel.startsWith(p))) continue;
@@ -258,7 +262,7 @@ function main() {
   const scheduleFiles = [];
   function walkSchedule(dir, out) {
     for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
-      if (entry.name === 'node_modules' || entry.name === '.git' || entry.name === '.next') continue;
+      if (entry.name === 'node_modules' || entry.name === '.git' || entry.name === '.next' || entry.name === 'out') continue;
       const full = path.join(dir, entry.name);
       const rel = path.relative(ROOT, full);
       if (SCHEDULE_ALLOWLIST_PATHS.some((p) => rel.startsWith(p))) continue;
