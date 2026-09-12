@@ -1199,50 +1199,6 @@ export const AETNA_CA_CONDITION_DETAILS = {
     ]
   },
 
-  "mycoplasma-genitalium-treatment": {
-    "slug": "mycoplasma-genitalium-treatment",
-    "conditionPageSlug": "mycoplasma-genitalium-treatment-online",
-    "name": "Mycoplasma Genitalium Treatment",
-    "displayName": "Mycoplasma genitalium (M. gen)",
-    "shortDesc": "Treatment for Mycoplasma genitalium urethritis or cervicitis per 2024 CDC resistance-guided guidelines.",
-    "icd10": "A49.3",
-    "aetnaCACovered": true,
-    "aetnaCAPolicy": "Aetna California commercial plans cover all medications used in the CDC-recommended two-step Mycoplasma genitalium treatment regimen. Doxycycline hyclate/monohydrate 100mg is Tier 1 generic (no PA, no QL for standard treatment courses). Azithromycin (used in macrolide-sensitive resistance-guided regimen) is Tier 1 generic. Moxifloxacin 400mg tablets (used for macrolide-resistant infection) are Tier 1 generic on Aetna CA — no prior authorization required for the 7-day treatment course. Lab testing for M. genitalium via NAAT may require a specific lab order and is covered under the diagnostic benefit on most Aetna CA commercial plans; patients should verify their plan's lab benefit for M. genitalium NAAT specifically, as it is less routinely covered than chlamydia/gonorrhea NAAT.",
-    "rxInfo": {
-      "typical": "WHEN RESISTANCE TESTING NOT AVAILABLE: Doxycycline 100mg orally twice daily × 7 days (Step 1 — organism load reduction), FOLLOWED BY moxifloxacin 400mg orally once daily × 7 days (Step 2) — per CDC STI Treatment Guidelines (current standard through 2024). This is the preferred regimen when M. genitalium macrolide resistance testing is unavailable or the test shows macrolide resistance. WHEN MACROLIDE-SENSITIVE (resistance testing available): Doxycycline 100mg twice daily × 7 days, FOLLOWED BY azithromycin 1g orally on Day 1, THEN azithromycin 500mg daily × 3 additional days (2.5g total azithromycin over 4 days)",
-      "alternatives": "In settings where moxifloxacin cannot be used (fluoroquinolone allergy, concern for cardiac QTc prolongation) AND resistance testing unavailable: doxycycline 100mg BID × 7 days FOLLOWED BY azithromycin 1g on Day 1 then 500mg × 3 days, WITH test of cure at 21 days post-completion. Pristinamycin (not FDA-approved in US) used in Europe for refractory cases. Sitafloxacin (available in Asia) shows activity but not available in US.",
-      "coveredByInsurance": "Yes — doxycycline 100mg Tier 1 generic ($4–$10 per 14 capsules); azithromycin Tier 1 generic ($5–$10 for a 1g dose or full 2.5g course); moxifloxacin 400mg Tier 1 generic (~$20–$40 for 7 tablets). All covered without prior authorization on Aetna CA commercial plans. Total medication cost for full two-step regimen: typically $25–$55 with Tier 1 copays.",
-      "notes": "Per CDC STI Treatment Guidelines, a test of cure (TOC) using M. genitalium NAAT performed no earlier than 21 days after completing therapy is recommended when: (1) the doxycycline + azithromycin regimen (not moxifloxacin) was used without resistance testing, or (2) the patient remains symptomatic. Routine TOC is not needed after doxycycline + moxifloxacin in asymptomatic patients. High rates of macrolide resistance — approaching 50% in some US MSM populations — are the main driver of the shift away from empiric azithromycin monotherapy. Moxifloxacin achieves >90% cure rates in macrolide-resistant M. genitalium. QTc prolongation risk with moxifloxacin is clinically relevant — Dr. Bhavsar reviews baseline cardiac history and concurrent QT-prolonging medications."
-    },
-    "clinicalDepth": "Mycoplasma genitalium has emerged as a clinically significant STI pathogen causing urethritis in men (urethral discharge, dysuria) and cervicitis, endometritis, and PID in women — and is disproportionately underdiagnosed because most clinical labs did not offer M. genitalium NAAT testing until recently. Macrolide (azithromycin) resistance in M. genitalium has reached alarming levels — 40–50% in some US populations — driven by years of empiric single-dose azithromycin prescribing for non-gonococcal urethritis and chlamydia. The CDC's two-stage treatment paradigm (doxycycline to reduce organism load followed by definitive macrolide or moxifloxacin therapy) was specifically designed to address this resistance landscape. Telehealth management is appropriate when an M. genitalium NAAT result is available — TDMD can evaluate, counsel, and prescribe the complete two-stage regimen with appropriate follow-up planning. Patients with PID, epididymo-orchitis, or systemic symptoms are referred in-person. Dr. Bhavsar reviews resistance testing results if available and tailors regimen accordingly.",
-    "diagnosisMethod": "Review of M. genitalium NAAT result (urine, urethral swab, or cervical swab); patient-collected vaginal swab NAAT results are also acceptable. Symptom evaluation: urethral discharge, dysuria (men); abnormal discharge, intermenstrual bleeding, pelvic pain (women). Assessment for PID symptoms (fever, abdominal tenderness) — mandates in-person referral. Macrolide resistance test result reviewed if available. Current medications review for QTc-prolonging drug interactions with moxifloxacin (fluoroquinolones, antiarrhythmics, antipsychotics).",
-    "caContext": "M. genitalium is currently NOT a mandatory reportable STI in California under Title 17 CCR §2500 — unlike chlamydia, gonorrhea, and syphilis. However, California's CDPH has increased surveillance interest in M. genitalium due to its growing antimicrobial resistance profile and association with PID sequelae. California's major academic medical centers (UCSF, UCLA, Cedars-Sinai) have implemented M. genitalium NAAT testing in their STI clinics. TDMD patients can order M. genitalium NAAT via Quest or LabCorp at California locations; some at-home STI panel kits now include M. genitalium testing. California's sexually active population in urban centers shows the same high macrolide resistance rates seen nationally, reinforcing the importance of the resistance-guided treatment approach prescribed by Dr. Bhavsar.",
-    "uniqueFAQs": [
-      {
-        "q": "Why does Mycoplasma genitalium treatment require two separate antibiotic courses in a row?",
-        "a": "The two-step regimen (doxycycline first, then azithromycin or moxifloxacin) is designed to address the M. genitalium resistance problem. Taking azithromycin alone or as a single dose selects for mutants with macrolide resistance, producing treatment failure and further resistance spread — a major driver of the current 40–50% macrolide resistance rate in many US populations. Starting with 7 days of doxycycline first reduces the total organism burden and partially clears susceptible organisms, then the second-step macrolide or moxifloxacin targets the remaining organisms. This two-step strategy achieves cure rates above 90% compared to 60–70% with single-agent azithromycin in macrolide-resistant infections."
-      },
-      {
-        "q": "Does Aetna California cover moxifloxacin for M. genitalium, or does it require prior authorization?",
-        "a": "Generic moxifloxacin 400mg tablets are Tier 1 on the Aetna CA formulary with no prior authorization required for a standard 7-day course. The typical cost is $20–$40 at major California pharmacies on a Tier 1 copay. There is no step therapy requirement to try another antibiotic before moxifloxacin for M. genitalium — the CDC explicitly recommends moxifloxacin as definitive therapy for macrolide-resistant infection. If your specific plan's formulary differs, Dr. Bhavsar documents the medical necessity based on CDC guidelines."
-      },
-      {
-        "q": "Can I get M. genitalium tested at a regular lab in California, or is it hard to find?",
-        "a": "M. genitalium NAAT testing is increasingly available at major reference labs including Quest Diagnostics and LabCorp, both of which have numerous patient service centers throughout California. At-home STI panels from some telehealth services now include M. genitalium. TDMD can send a lab order to your nearest California Quest or LabCorp location. Not all urgent care or in-office STI panels include M. genitalium — it is often left off routine panels because it is tested separately from chlamydia/gonorrhea. If you have persistent urethritis or cervicitis after standard chlamydia treatment, requesting an M. genitalium NAAT is appropriate."
-      },
-      {
-        "q": "My partner also has symptoms — should they get treated at the same time?",
-        "a": "Yes, simultaneous partner treatment is strongly recommended to prevent re-infection. Under California's EPT law, Dr. Bhavsar can write a prescription for your partner(s) for the M. genitalium treatment regimen without the partner appearing for an examination — EPT in California covers all bacterial STIs including M. genitalium (the EPT statute covers 'sexually transmitted infections' broadly). Simultaneous treatment of both partners is especially important for M. genitalium because treatment failure from reinfection is a major cause of persistent positive results. Partners should also abstain from sex until both have completed their full treatment course."
-      }
-    ],
-    "keywords": [
-      "Mycoplasma genitalium treatment online California",
-      "M. gen moxifloxacin prescription telehealth",
-      "persistent urethritis online doctor Aetna",
-      "mycoplasma genitalium doxycycline California"
-    ]
-  },
-
   "trichomoniasis-treatment": {
     "slug": "trichomoniasis-treatment",
     "conditionPageSlug": "trichomoniasis-treatment-online",
@@ -2208,7 +2164,6 @@ export const AETNA_CA_CONDITION_SLUGS = [
   "melasma-treatment",
   "migraine-refills",
   "motion-sickness-treatment",
-  "mycoplasma-genitalium-treatment",
   "oral-thrush-treatment",
   "performance-anxiety-treatment",
   "perioral-dermatitis-treatment",
