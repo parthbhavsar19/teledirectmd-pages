@@ -63,7 +63,6 @@ import CaGenitalWartsTreatmentOnline from './CaGenitalWartsTreatmentOnline';
 import CaGoutTreatmentOnline from './CaGoutTreatmentOnline';
 import CaImpetigoTreatmentOnline from './CaImpetigoTreatmentOnline';
 import CaMastitisTreatmentOnline from './CaMastitisTreatmentOnline';
-import CaMycoplasmaGenitaliumTreatmentOnline from './CaMycoplasmaGenitaliumTreatmentOnline';
 import CaOralThrushTreatmentOnline from './CaOralThrushTreatmentOnline';
 import CaPerformanceAnxietyTreatmentOnline from './CaPerformanceAnxietyTreatmentOnline';
 import CaPsoriasisRefillsOnline from './CaPsoriasisRefillsOnline';
@@ -361,9 +360,6 @@ export default async function ConditionPage({ params }) {
   }
   if (slug === 'ca' && conditionSlug === 'mastitis-treatment-online') {
     return <CaMastitisTreatmentOnline />;
-  }
-  if (slug === 'ca' && conditionSlug === 'mycoplasma-genitalium-treatment-online') {
-    return <CaMycoplasmaGenitaliumTreatmentOnline />;
   }
   if (slug === 'ca' && conditionSlug === 'oral-thrush-treatment-online') {
     return <CaOralThrushTreatmentOnline />;

@@ -24,7 +24,6 @@ const OVERRIDES = {
   'doxypep-sti-prevention-online':       'DoxyPEP for STI Prevention Online in {state} | TeleDirectMD',
   'poison-ivy-oak-treatment-online':     'Poison Ivy & Oak Online Treatment in {state} | TeleDirectMD',
   'viral-gastroenteritis-treatment-online': 'Stomach Flu Online Treatment in {state} | TeleDirectMD',
-  'mycoplasma-genitalium-treatment-online': 'M. Genitalium Online Treatment in {state} | TeleDirectMD',
   'smoking-cessation-treatment-online':  'Smoking Cessation Online in {state} | TeleDirectMD',
 };
 

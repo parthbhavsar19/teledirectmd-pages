@@ -47,7 +47,6 @@ const MAPPING = {
   'melasma-treatment-online':           { guidelineSource: 'aad',          conditionType: 'treatment' },
   'migraine-refills-online':            { guidelineSource: 'ahs',          conditionType: 'refill' },
   'motion-sickness-treatment-online':   { guidelineSource: 'aafp',         conditionType: 'treatment' },
-  'mycoplasma-genitalium-treatment-online': { guidelineSource: 'cdcSti',  conditionType: 'treatment' },
   'oral-thrush-treatment-online':       { guidelineSource: 'cdcThrush',    conditionType: 'treatment' },
   'performance-anxiety-treatment-online': { guidelineSource: 'apa',        conditionType: 'treatment' },
   'perioral-dermatitis-treatment-online':{ guidelineSource: 'aad',         conditionType: 'treatment' },

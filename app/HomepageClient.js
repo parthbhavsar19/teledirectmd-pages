@@ -64,7 +64,7 @@ const CONDITION_CATEGORIES = [
   },
   {
     name: 'Sexual Health',
-    conditions: ['Chlamydia', 'Genital Herpes', 'Cold Sore', 'Genital Warts', 'Trichomoniasis', 'Mycoplasma Genitalium', 'DoxyPEP STI Prevention', 'Erectile Dysfunction', 'Performance Anxiety'],
+    conditions: ['Chlamydia', 'Genital Herpes', 'Cold Sore', 'Genital Warts', 'Trichomoniasis', 'DoxyPEP STI Prevention', 'Erectile Dysfunction', 'Performance Anxiety'],
   },
   {
     name: 'Skin Conditions',
@@ -159,7 +159,6 @@ const CONDITION_SLUGS = {
   'Cold Sore': '/cold-sore-treatment-online',
   'Genital Warts': '/genital-warts-treatment-online',
   'Trichomoniasis': '/trichomoniasis-treatment-online',
-  'Mycoplasma Genitalium': '/mycoplasma-genitalium-treatment-online',
   'DoxyPEP STI Prevention': '/doxypep-sti-prevention-online',
   'Erectile Dysfunction': '/erectile-dysfunction-treatment-online',
   'Performance Anxiety': '/performance-anxiety-treatment-online',

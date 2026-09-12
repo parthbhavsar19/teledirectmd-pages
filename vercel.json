@@ -4912,6 +4912,20 @@
       "status": 301
     },
     {
+      "src": "/mycoplasma-genitalium-treatment-online/?",
+      "headers": {
+        "Location": "/chlamydia-treatment-online/"
+      },
+      "status": 301
+    },
+    {
+      "src": "/(ak|al|az|ca|co|ct|dc|de|fl|ga|hi|ia|id|il|in|ks|ky|la|md|me|mi|mn|mo|ms|mt|nc|nd|ne|nh|nj|nv|oh|ok|pa|sc|sd|tn|tx|ut|va|vt|wa|wi|wv|wy)/mycoplasma-genitalium-treatment-online/?",
+      "headers": {
+        "Location": "/$1/chlamydia-treatment-online/"
+      },
+      "status": 301
+    },
+    {
       "src": "/(.*)",
       "dest": "https://pepper-saxophone-p8le.squarespace.com/$1",
       "headers": {

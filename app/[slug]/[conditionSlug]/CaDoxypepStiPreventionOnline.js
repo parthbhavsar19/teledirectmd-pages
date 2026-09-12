@@ -641,10 +641,6 @@ export default function CaDoxypepStiPreventionOnline() {
                   <span className="tdmd-ca-uti__sibling-label">Genital Herpes Treatment in CA</span>
                   <span className="tdmd-ca-uti__sibling-why">Common STI in adults using DoxyPEP; HSV cannot be prevented by DoxyPEP but is frequently co-managed.</span>
                 </a>
-              <a key="mycoplasma-genitalium-treatment-online" className="tdmd-ca-uti__sibling" href="/ca/mycoplasma-genitalium-treatment-online/">
-                  <span className="tdmd-ca-uti__sibling-label">Mycoplasma Genitalium Treatment in CA</span>
-                  <span className="tdmd-ca-uti__sibling-why">M. genitalium may be reduced by doxycycline exposure — clinical evidence reviewed during DoxyPEP counseling.</span>
-                </a>
               <a key="trichomoniasis-treatment-online" className="tdmd-ca-uti__sibling" href="/ca/trichomoniasis-treatment-online/">
                   <span className="tdmd-ca-uti__sibling-label">Trichomoniasis Treatment in CA</span>
                   <span className="tdmd-ca-uti__sibling-why">STI that can co-occur in high-risk adults also using DoxyPEP; doxycycline does not prevent trichomoniasis.</span>
