@@ -1,57 +1,65 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 470" role="img" aria-labelledby="pe-title pe-desc" font-family="-apple-system, 'Segoe UI', Arial, sans-serif">
-  <title id="pe-title">Viral, bacterial, and allergic pink eye compared</title>
-  <desc id="pe-desc">Three panels comparing discharge, itching, eye involvement, associated symptoms, and duration across the three common types of childhood pink eye.</desc>
-  <rect width="900" height="470" fill="#ffffff"/>
-  <text x="450" y="34" text-anchor="middle" font-size="22" font-weight="700" fill="#16213e">Which type of pink eye is it?</text>
-  <text x="450" y="56" text-anchor="middle" font-size="13" fill="#5a6270">Discharge and itching are the two most useful clues.</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 530" role="img" aria-labelledby="pe-t pe-d" font-family="-apple-system, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
+  <title id="pe-t">Which type of pink eye is it?</title>
+  <desc id="pe-d">Three panels comparing viral, bacterial, and allergic pink eye.</desc>
+  <rect width="920" height="530" fill="#ffffff"/>
 
-  <!-- Viral -->
-  <g>
-    <rect x="20" y="76" width="276" height="46" rx="6" fill="#2563eb"/>
-    <text x="158" y="105" text-anchor="middle" font-size="16" font-weight="700" fill="#ffffff">Viral</text>
-    <text x="32" y="146" font-size="13" font-weight="700" fill="#16213e">Discharge</text>
-    <text x="32" y="164" font-size="13" fill="#3a4356">Watery</text>
-    <text x="32" y="202" font-size="13" font-weight="700" fill="#16213e">Itching</text>
-    <text x="32" y="220" font-size="13" fill="#3a4356">Burning, gritty</text>
-    <text x="32" y="258" font-size="13" font-weight="700" fill="#16213e">Which eye</text>
-    <text x="32" y="276" font-size="13" fill="#3a4356">One, then both</text>
-    <text x="32" y="314" font-size="13" font-weight="700" fill="#16213e">Other signs</text>
-    <text x="32" y="332" font-size="13" fill="#3a4356">Cold symptoms</text>
-    <text x="32" y="370" font-size="13" font-weight="700" fill="#16213e">Lasts</text>
-    <text x="32" y="388" font-size="13" fill="#3a4356">2–3 weeks</text>
-  </g>
-
-  <!-- Bacterial -->
-  <g>
-    <rect x="312" y="76" width="276" height="46" rx="6" fill="#d97706"/>
-    <text x="450" y="105" text-anchor="middle" font-size="16" font-weight="700" fill="#ffffff">Bacterial</text>
-    <text x="324" y="146" font-size="13" font-weight="700" fill="#16213e">Discharge</text>
-    <text x="324" y="164" font-size="13" fill="#3a4356">Thick, crusts lashes</text>
-    <text x="324" y="202" font-size="13" font-weight="700" fill="#16213e">Itching</text>
-    <text x="324" y="220" font-size="13" fill="#3a4356">Mild</text>
-    <text x="324" y="258" font-size="13" font-weight="700" fill="#16213e">Which eye</text>
-    <text x="324" y="276" font-size="13" fill="#3a4356">One, then both</text>
-    <text x="324" y="314" font-size="13" font-weight="700" fill="#16213e">Other signs</text>
-    <text x="324" y="332" font-size="13" fill="#3a4356">Ear infection</text>
-    <text x="324" y="370" font-size="13" font-weight="700" fill="#16213e">Lasts</text>
-    <text x="324" y="388" font-size="13" fill="#3a4356">7–10 days</text>
-  </g>
-
-  <!-- Allergic -->
-  <g>
-    <rect x="604" y="76" width="276" height="46" rx="6" fill="#059669"/>
-    <text x="742" y="105" text-anchor="middle" font-size="16" font-weight="700" fill="#ffffff">Allergic</text>
-    <text x="616" y="146" font-size="13" font-weight="700" fill="#16213e">Discharge</text>
-    <text x="616" y="164" font-size="13" fill="#3a4356">Watery, stringy</text>
-    <text x="616" y="202" font-size="13" font-weight="700" fill="#16213e">Itching</text>
-    <text x="616" y="220" font-size="13" fill="#3a4356">Severe, both eyes</text>
-    <text x="616" y="258" font-size="13" font-weight="700" fill="#16213e">Which eye</text>
-    <text x="616" y="276" font-size="13" fill="#3a4356">Both at once</text>
-    <text x="616" y="314" font-size="13" font-weight="700" fill="#16213e">Other signs</text>
-    <text x="616" y="332" font-size="13" fill="#3a4356">Hay fever, sneezing</text>
-    <text x="616" y="370" font-size="13" font-weight="700" fill="#16213e">Lasts</text>
-    <text x="616" y="388" font-size="13" fill="#3a4356">While exposed</text>
-  </g>
-
-  <text x="450" y="452" text-anchor="middle" font-size="12" fill="#5a6270">Antibiotics help only the bacterial type. Most viral and allergic pink eye clears without them.</text>
+<text x="460.0" y="34" text-anchor="middle" font-size="11" font-weight="700" letter-spacing="2.5" fill="#0e7d86">AT A GLANCE</text>
+  <text x="460.0" y="62" text-anchor="middle" font-size="24" font-weight="700" fill="#0f3d4e">Which type of pink eye is it?</text>
+  <rect x="434.0" y="76" width="52" height="3" rx="1.5" fill="#0e7d86"/>
+  <text x="460.0" y="101" text-anchor="middle" font-size="13" fill="#5f707a">Discharge and itching are the two most useful clues.</text>
+<rect x="28" y="136.5" width="276" height="366" rx="14" fill="#e8f0f2"/>
+  <rect x="26" y="133" width="276" height="366" rx="14" fill="#ffffff" stroke="#dfe6ea" stroke-width="1.5"/>
+  <path d="M 26,147 A 14,14 0 0 1 40,133 L 288,133 A 14,14 0 0 1 302,147 L 302,185 L 26,185 Z" fill="#2f6dbf"/>
+  <text x="164.0" y="164.5" text-anchor="middle" font-size="16" font-weight="700" fill="#ffffff">Viral</text>
+  <text x="44" y="207" font-size="10.5" font-weight="700" letter-spacing="1" fill="#2f6dbf">DISCHARGE</text>
+  <text x="44" y="227" font-size="14" font-weight="500" fill="#24353e">Watery</text>
+  <line x1="42" y1="238" x2="286" y2="238" stroke="#edf2f5" stroke-width="1"/>
+  <text x="44" y="265" font-size="10.5" font-weight="700" letter-spacing="1" fill="#2f6dbf">ITCHING</text>
+  <text x="44" y="285" font-size="14" font-weight="500" fill="#24353e">Burning, gritty</text>
+  <line x1="42" y1="296" x2="286" y2="296" stroke="#edf2f5" stroke-width="1"/>
+  <text x="44" y="323" font-size="10.5" font-weight="700" letter-spacing="1" fill="#2f6dbf">WHICH EYE</text>
+  <text x="44" y="343" font-size="14" font-weight="500" fill="#24353e">One, then both</text>
+  <line x1="42" y1="354" x2="286" y2="354" stroke="#edf2f5" stroke-width="1"/>
+  <text x="44" y="381" font-size="10.5" font-weight="700" letter-spacing="1" fill="#2f6dbf">OTHER SIGNS</text>
+  <text x="44" y="401" font-size="14" font-weight="500" fill="#24353e">Cold symptoms</text>
+  <line x1="42" y1="412" x2="286" y2="412" stroke="#edf2f5" stroke-width="1"/>
+  <text x="44" y="439" font-size="10.5" font-weight="700" letter-spacing="1" fill="#2f6dbf">LASTS</text>
+  <text x="44" y="459" font-size="14" font-weight="500" fill="#24353e">2–3 weeks</text>
+<rect x="324" y="136.5" width="276" height="366" rx="14" fill="#e8f0f2"/>
+  <rect x="322" y="133" width="276" height="366" rx="14" fill="#ffffff" stroke="#dfe6ea" stroke-width="1.5"/>
+  <path d="M 322,147 A 14,14 0 0 1 336,133 L 584,133 A 14,14 0 0 1 598,147 L 598,185 L 322,185 Z" fill="#c07a2a"/>
+  <text x="460.0" y="164.5" text-anchor="middle" font-size="16" font-weight="700" fill="#ffffff">Bacterial</text>
+  <text x="340" y="207" font-size="10.5" font-weight="700" letter-spacing="1" fill="#c07a2a">DISCHARGE</text>
+  <text x="340" y="227" font-size="14" font-weight="500" fill="#24353e">Thick, crusts lashes</text>
+  <line x1="338" y1="238" x2="582" y2="238" stroke="#edf2f5" stroke-width="1"/>
+  <text x="340" y="265" font-size="10.5" font-weight="700" letter-spacing="1" fill="#c07a2a">ITCHING</text>
+  <text x="340" y="285" font-size="14" font-weight="500" fill="#24353e">Mild</text>
+  <line x1="338" y1="296" x2="582" y2="296" stroke="#edf2f5" stroke-width="1"/>
+  <text x="340" y="323" font-size="10.5" font-weight="700" letter-spacing="1" fill="#c07a2a">WHICH EYE</text>
+  <text x="340" y="343" font-size="14" font-weight="500" fill="#24353e">One, then both</text>
+  <line x1="338" y1="354" x2="582" y2="354" stroke="#edf2f5" stroke-width="1"/>
+  <text x="340" y="381" font-size="10.5" font-weight="700" letter-spacing="1" fill="#c07a2a">OTHER SIGNS</text>
+  <text x="340" y="401" font-size="14" font-weight="500" fill="#24353e">Ear infection</text>
+  <line x1="338" y1="412" x2="582" y2="412" stroke="#edf2f5" stroke-width="1"/>
+  <text x="340" y="439" font-size="10.5" font-weight="700" letter-spacing="1" fill="#c07a2a">LASTS</text>
+  <text x="340" y="459" font-size="14" font-weight="500" fill="#24353e">7–10 days</text>
+<rect x="620" y="136.5" width="276" height="366" rx="14" fill="#e8f0f2"/>
+  <rect x="618" y="133" width="276" height="366" rx="14" fill="#ffffff" stroke="#dfe6ea" stroke-width="1.5"/>
+  <path d="M 618,147 A 14,14 0 0 1 632,133 L 880,133 A 14,14 0 0 1 894,147 L 894,185 L 618,185 Z" fill="#3a8f68"/>
+  <text x="756.0" y="164.5" text-anchor="middle" font-size="16" font-weight="700" fill="#ffffff">Allergic</text>
+  <text x="636" y="207" font-size="10.5" font-weight="700" letter-spacing="1" fill="#3a8f68">DISCHARGE</text>
+  <text x="636" y="227" font-size="14" font-weight="500" fill="#24353e">Watery, stringy</text>
+  <line x1="634" y1="238" x2="878" y2="238" stroke="#edf2f5" stroke-width="1"/>
+  <text x="636" y="265" font-size="10.5" font-weight="700" letter-spacing="1" fill="#3a8f68">ITCHING</text>
+  <text x="636" y="285" font-size="14" font-weight="500" fill="#24353e">Severe, both eyes</text>
+  <line x1="634" y1="296" x2="878" y2="296" stroke="#edf2f5" stroke-width="1"/>
+  <text x="636" y="323" font-size="10.5" font-weight="700" letter-spacing="1" fill="#3a8f68">WHICH EYE</text>
+  <text x="636" y="343" font-size="14" font-weight="500" fill="#24353e">Both at once</text>
+  <line x1="634" y1="354" x2="878" y2="354" stroke="#edf2f5" stroke-width="1"/>
+  <text x="636" y="381" font-size="10.5" font-weight="700" letter-spacing="1" fill="#3a8f68">OTHER SIGNS</text>
+  <text x="636" y="401" font-size="14" font-weight="500" fill="#24353e">Hay fever, sneezing</text>
+  <line x1="634" y1="412" x2="878" y2="412" stroke="#edf2f5" stroke-width="1"/>
+  <text x="636" y="439" font-size="10.5" font-weight="700" letter-spacing="1" fill="#3a8f68">LASTS</text>
+  <text x="636" y="459" font-size="14" font-weight="500" fill="#24353e">While exposed</text>
+<text x="460.0" y="510" text-anchor="middle" font-size="12" fill="#8fa0aa">Antibiotics help only the bacterial type. Most viral and allergic pink eye clears without them.</text>
 </svg>

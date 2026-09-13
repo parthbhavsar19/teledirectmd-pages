@@ -1,35 +1,27 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 360" role="img" aria-labelledby="sr-title sr-desc" font-family="-apple-system, 'Segoe UI', Arial, sans-serif">
-  <title id="sr-title">How long until my child can go back to school or daycare</title>
-  <desc id="sr-desc">A horizontal bar chart showing the approximate exclusion window for bacterial, viral, and allergic pink eye.</desc>
-  <rect width="900" height="360" fill="#ffffff"/>
-  <text x="450" y="36" text-anchor="middle" font-size="20" font-weight="700" fill="#16213e">How long until my child can go back?</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 470" role="img" aria-labelledby="sr-t sr-d" font-family="-apple-system, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
+  <title id="sr-t">How long until my child can go back?</title>
+  <desc id="sr-d">A horizontal bar chart showing exclusion windows for allergic, bacterial, and viral pink eye.</desc>
+  <rect width="920" height="470" fill="#ffffff"/>
 
-  <!-- axis / y labels -->
-  <text x="180" y="100" font-size="14" font-weight="600" fill="#16213e" text-anchor="end">Allergic</text>
-  <text x="180" y="170" font-size="14" font-weight="600" fill="#16213e" text-anchor="end">Bacterial</text>
-  <text x="180" y="240" font-size="14" font-weight="600" fill="#16213e" text-anchor="end">Viral</text>
-
-  <!-- axis line -->
-  <line x1="200" y1="60" x2="200" y2="270" stroke="#c8cdd5" stroke-width="2"/>
-
-  <!-- Allergic: no bar, just text -->
-  <text x="212" y="104" font-size="13.5" fill="#3a4356">No exclusion, never contagious</text>
-
-  <!-- Bacterial: ~1 day -->
-  <rect x="200" y="158" width="44" height="24" rx="5" fill="#d97706"/>
-  <text x="258" y="176" font-size="13.5" fill="#3a4356">About 1 day after starting drops</text>
-
-  <!-- Viral: ~10 days -->
-  <rect x="200" y="228" width="440" height="24" rx="5" fill="#2563eb"/>
-  <text x="652" y="246" font-size="13.5" fill="#3a4356">7 to 10 days</text>
-
-  <!-- scale ticks -->
-  <text x="200" y="300" font-size="11" fill="#9aa1ad" text-anchor="middle">0</text>
-  <text x="420" y="300" font-size="11" fill="#9aa1ad" text-anchor="middle">5 days</text>
-  <text x="640" y="300" font-size="11" fill="#9aa1ad" text-anchor="middle">10 days</text>
-  <line x1="200" y1="276" x2="200" y2="284" stroke="#c8cdd5"/>
-  <line x1="420" y1="276" x2="420" y2="284" stroke="#c8cdd5"/>
-  <line x1="640" y1="276" x2="640" y2="284" stroke="#c8cdd5"/>
-
-  <text x="450" y="340" text-anchor="middle" font-size="12" fill="#5a6270">Many facilities use their own rules. Check with your child's school or daycare.</text>
+<text x="460.0" y="34" text-anchor="middle" font-size="11" font-weight="700" letter-spacing="2.5" fill="#0e7d86">RETURN TIMELINE</text>
+  <text x="460.0" y="62" text-anchor="middle" font-size="24" font-weight="700" fill="#0f3d4e">How long until my child can go back?</text>
+  <rect x="434.0" y="76" width="52" height="3" rx="1.5" fill="#0e7d86"/>
+  <text x="460.0" y="101" text-anchor="middle" font-size="13" fill="#5f707a">School and daycare exclusion by the type of pink eye</text>
+<rect x="40" y="129" width="840" height="210" rx="16" fill="#f6fafb" stroke="#dfe6ea" stroke-width="1.5"/>
+<line x1="200" y1="147" x2="200" y2="321" stroke="#dfe6ea" stroke-width="2"/>
+<line x1="200" y1="147" x2="200" y2="321" stroke="#e5edf0" stroke-width="1"/>
+<text x="200" y="355" text-anchor="middle" font-size="11" fill="#8fa0aa">0</text>
+<line x1="430" y1="147" x2="430" y2="321" stroke="#e5edf0" stroke-width="1"/>
+<text x="430" y="355" text-anchor="middle" font-size="11" fill="#8fa0aa">5 days</text>
+<line x1="640" y1="147" x2="640" y2="321" stroke="#e5edf0" stroke-width="1"/>
+<text x="640" y="355" text-anchor="middle" font-size="11" fill="#8fa0aa">10 days</text>
+<text x="186" y="186" text-anchor="end" font-size="14" font-weight="700" fill="#0f3d4e">Allergic</text>
+<text x="186" y="236" text-anchor="end" font-size="14" font-weight="700" fill="#0f3d4e">Bacterial</text>
+<text x="186" y="286" text-anchor="end" font-size="14" font-weight="700" fill="#0f3d4e">Viral</text>
+<text x="216" y="186" font-size="13.5" fill="#3a8f68">No exclusion, never contagious</text>
+<rect x="200" y="219" width="46" height="24" rx="7" fill="#c07a2a"/>
+<text x="258" y="236" font-size="13.5" fill="#24353e">About 1 day after starting drops</text>
+<rect x="200" y="269" width="440" height="24" rx="7" fill="#2f6dbf"/>
+<text x="652" y="286" font-size="13.5" fill="#24353e">7 to 10 days</text>
+<text x="460.0" y="450" text-anchor="middle" font-size="12" fill="#8fa0aa">Many facilities use their own rules. Check with your child's school or daycare.</text>
 </svg>
