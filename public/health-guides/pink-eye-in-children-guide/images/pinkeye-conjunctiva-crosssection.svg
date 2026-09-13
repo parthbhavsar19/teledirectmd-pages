@@ -4,21 +4,21 @@
   <rect width="680" height="470" fill="#fff"/>
 
   <!-- eyeball -->
-  <circle cx="390" cy="235" r="108" fill="#ffffff" stroke="#38424f" stroke-width="3"/>
+  <circle cx="390" cy="235" r="108" fill="#ffffff" stroke="#24353e" stroke-width="3"/>
 
   <!-- cornea (clear front, left) -->
-  <path d="M 295 138 C 250 150, 232 190, 234 235 C 232 280, 250 320, 295 332 C 285 300, 280 265, 282 235 C 280 205, 285 170, 295 138 Z" fill="#eaf6f9" stroke="#b8d2dc" stroke-width="1.5"/>
-  <text x="266" y="240" text-anchor="middle" font-size="12" fill="#5a7a86">Cornea</text>
+  <path d="M 295 138 C 250 150, 232 190, 234 235 C 232 280, 250 320, 295 332 C 285 300, 280 265, 282 235 C 280 205, 285 170, 295 138 Z" fill="#eaf6f9" stroke="#dfe6ea" stroke-width="1.5"/>
+  <text x="252" y="240" text-anchor="middle" font-size="12" fill="#5f707a">Cornea</text>
 
   <!-- iris + lens -->
   <ellipse cx="316" cy="235" rx="7" ry="24" fill="#4a6fa5"/>
-  <ellipse cx="346" cy="235" rx="12" ry="28" fill="#dfe9ee" opacity="0.9" stroke="#b6c6d0" stroke-width="1"/>
+  <ellipse cx="346" cy="235" rx="12" ry="28" fill="#dfe9ee" opacity="0.9" stroke="#dfe6ea" stroke-width="1"/>
 
   <!-- conjunctiva: continuous red membrane over front of eye, reflected onto eyelid -->
-  <path d="M 318 138 C 300 150, 292 165, 290 235 C 292 305, 300 320, 318 332" stroke="#e0403a" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <path d="M 318 138 C 300 150, 292 165, 290 235 C 292 305, 300 320, 318 332" stroke="#c2433c" stroke-width="8" fill="none" stroke-linecap="round"/>
 
   <!-- dilated blood vessels in the conjunctiva -->
-  <g stroke="#c9352a" stroke-width="2.2" fill="none" stroke-linecap="round">
+  <g stroke="#c2433c" stroke-width="2.2" fill="none" stroke-linecap="round">
     <path d="M 296 170 q -8 -6 -14 -4"/>
     <path d="M 295 200 q -9 1 -15 0"/>
     <path d="M 297 250 q -9 3 -15 2"/>
@@ -27,22 +27,22 @@
 
   <!-- eyelid (skin) with palpebral conjunctiva on its inner surface -->
   <path d="M 520 90 C 460 74, 360 74, 300 96 L 306 122 C 364 100, 458 100, 518 116 Z" fill="#f0c89a" stroke="#d9a56b" stroke-width="1.5"/>
-  <path d="M 440 88 C 400 82, 360 82, 330 88" stroke="#e0403a" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <path d="M 440 88 C 400 82, 360 82, 330 88" stroke="#c2433c" stroke-width="6" fill="none" stroke-linecap="round"/>
 
   <!-- labels -->
-  <line x1="320" y1="150" x2="470" y2="40" stroke="#9aa1ad" stroke-width="1.5"/>
-  <circle cx="320" cy="150" r="3.5" fill="#9aa1ad"/>
-  <text x="476" y="34" font-size="13" font-weight="700" fill="#16213e">Conjunctiva</text>
-  <text x="476" y="51" font-size="11.5" fill="#5a6270">a thin membrane that lines</text>
-  <text x="476" y="66" font-size="11.5" fill="#5a6270">the eyelid and the eye</text>
+  <line x1="320" y1="150" x2="470" y2="40" stroke="#8fa0aa" stroke-width="1.5"/>
+  <circle cx="320" cy="150" r="3.5" fill="#8fa0aa"/>
+  <text x="476" y="34" font-size="13" font-weight="700" fill="#0f3d4e">Conjunctiva</text>
+  <text x="476" y="51" font-size="11.5" fill="#5f707a">a thin membrane that lines</text>
+  <text x="476" y="66" font-size="11.5" fill="#5f707a">the eyelid and the eye</text>
 
-  <line x1="410" y1="78" x2="410" y2="48" stroke="#9aa1ad" stroke-width="1.5"/>
-  <circle cx="410" cy="78" r="3.5" fill="#9aa1ad"/>
-  <text x="410" y="38" text-anchor="middle" font-size="13" font-weight="700" fill="#16213e">Eyelid</text>
+  <line x1="410" y1="78" x2="410" y2="48" stroke="#8fa0aa" stroke-width="1.5"/>
+  <circle cx="410" cy="78" r="3.5" fill="#8fa0aa"/>
+  <text x="410" y="38" text-anchor="middle" font-size="13" font-weight="700" fill="#0f3d4e">Eyelid</text>
 
-  <line x1="390" y1="343" x2="390" y2="400" stroke="#9aa1ad" stroke-width="1.5"/>
-  <circle cx="390" cy="343" r="3.5" fill="#9aa1ad"/>
-  <text x="318" y="420" font-size="13" font-weight="700" fill="#16213e">Sclera (the white of the eye)</text>
+  <line x1="390" y1="343" x2="390" y2="400" stroke="#8fa0aa" stroke-width="1.5"/>
+  <circle cx="390" cy="343" r="3.5" fill="#8fa0aa"/>
+  <text x="318" y="420" font-size="13" font-weight="700" fill="#0f3d4e">Sclera (the white of the eye)</text>
 
-  <text x="130" y="60" font-size="11.5" fill="#9aa1ad" text-anchor="middle">Side view, not to scale</text>
+  <text x="130" y="60" font-size="11.5" fill="#8fa0aa" text-anchor="middle">Side view, not to scale</text>
 </svg>
