@@ -5,3 +5,6 @@ out/
 .vercel
 build_drafts/
 .indexnow-key
+
+# Citation audit outputs (baselines are committed, reports are not)
+scripts/audit/reports/

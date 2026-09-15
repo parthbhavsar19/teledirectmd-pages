@@ -1,0 +1,162 @@
+name: Citation audit
+
+on:
+  pull_request:
+    paths:
+      - "public/health-guides/**/*.html"
+      - "scripts/audit/**"
+      - ".github/workflows/citation-audit.yml"
+  workflow_dispatch:
+    inputs:
+      run_full_repo:
+        description: "Audit all guides (not just changed ones)"
+        type: boolean
+        default: false
+      update_baseline:
+        description: "Update baselines to current state and commit"
+        type: boolean
+        default: false
+
+# Only one run at a time per branch; supersede in-flight runs on new pushes.
+concurrency:
+  group: citation-audit-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # need history for git diff base
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Determine changed guide HTML files
+        id: changes
+        run: |
+          set -euo pipefail
+          if [ "${{ github.event_name }}" = "pull_request" ]; then
+            BASE_SHA="${{ github.event.pull_request.base.sha }}"
+            git diff --name-only "$BASE_SHA" "${{ github.sha }}" > /tmp/changed_all.txt || true
+          elif [ "${{ github.event.inputs.run_full_repo }}" = "true" ]; then
+            # empty = audit everything
+            : > /tmp/changed_all.txt
+          else
+            git diff --name-only HEAD~1 HEAD > /tmp/changed_all.txt || true
+          fi
+          grep -E '^public/health-guides/[^/]+/index\.html$' /tmp/changed_all.txt > /tmp/changed_guides.txt || true
+          echo "Changed guides:"
+          cat /tmp/changed_guides.txt || echo "(none)"
+          echo "changed_count=$(wc -l < /tmp/changed_guides.txt | tr -d ' ')" >> "$GITHUB_OUTPUT"
+
+      - name: Prepare reports dir
+        run: mkdir -p scripts/audit/reports
+
+      # --- HARD GATE 1: link audit (deterministic, no key needed) ---
+      - name: Link audit
+        id: linkaudit
+        run: |
+          if [ "${{ github.event.inputs.run_full_repo }}" = "true" ] || [ "${{ github.event_name }}" != "pull_request" ]; then
+            python3 scripts/audit/audit_links.py
+          elif [ -s /tmp/changed_guides.txt ]; then
+            # audit_links.py doesn't accept file list; run full but that's fine (fast, no LLM cost)
+            python3 scripts/audit/audit_links.py
+          else
+            echo "No guide files changed; skipping link audit."
+          fi
+
+      # --- HARD GATE 2: number attribution (deterministic, baselined) ---
+      - name: Number attribution audit
+        id: numaudit
+        if: always()
+        run: |
+          if [ "${{ github.event_name }}" = "pull_request" ] && [ -s /tmp/changed_guides.txt ]; then
+            python3 scripts/audit/check_number_attribution.py --no-network --changed-files /tmp/changed_guides.txt
+          elif [ "${{ github.event.inputs.run_full_repo }}" = "true" ]; then
+            python3 scripts/audit/check_number_attribution.py --no-network
+          else
+            echo "No guide files changed; skipping number-attribution audit."
+          fi
+
+      # --- ADVISORY: plausibility check (LLM, skips if key missing) ---
+      - name: Citation plausibility audit
+        id: plausibility
+        if: always()
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: |
+          if [ -z "${OPENAI_API_KEY:-}" ]; then
+            echo "OPENAI_API_KEY secret not configured; skipping plausibility audit (advisory only)."
+            exit 0
+          fi
+          if [ "${{ github.event_name }}" = "pull_request" ] && [ -s /tmp/changed_guides.txt ]; then
+            python3 scripts/audit/check_citation_plausibility.py --changed-files /tmp/changed_guides.txt
+          elif [ "${{ github.event.inputs.run_full_repo }}" = "true" ]; then
+            python3 scripts/audit/check_citation_plausibility.py
+          else
+            echo "No guide files changed; skipping plausibility audit."
+          fi
+
+      - name: Upload audit reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: citation-audit-reports
+          path: scripts/audit/reports/
+          retention-days: 30
+
+      - name: Comment on PR
+        if: github.event_name == 'pull_request' && always()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const changedGuides = fs.existsSync('/tmp/changed_guides.txt')
+              ? fs.readFileSync('/tmp/changed_guides.txt', 'utf8').trim()
+              : '';
+            if (!changedGuides) return;
+
+            const readReport = (p) => {
+              try { return JSON.parse(fs.readFileSync(p, 'utf8')); }
+              catch { return null; }
+            };
+            const link = readReport('scripts/audit/reports/link_audit.json');
+            const nums = readReport('scripts/audit/reports/number_attribution.json');
+            const plaus = readReport('scripts/audit/reports/citation_plausibility.json');
+
+            const rows = [];
+            if (link) rows.push(`| Link audit | ${link.broken_count ?? '?'} broken · ${link.warn_bot_blocked_count ?? 0} bot-blocked · ${link.redirected_count ?? 0} redirected |`);
+            if (nums) rows.push(`| Number attribution | ${nums.summary.total_unattributed} unattributed (baseline gate) |`);
+            if (plaus) rows.push(`| Plausibility (advisory) | ${plaus.summary.total_warnings} warnings (contradicts/off-topic) |`);
+
+            const body = [
+              `### 📚 Citation audit`,
+              ``,
+              `Guides changed: \`${changedGuides.split('\n').filter(Boolean).length}\``,
+              ``,
+              `| Check | Result |`,
+              `| --- | --- |`,
+              ...rows,
+              ``,
+              `Full JSON reports available in the workflow artifacts.`,
+            ].join('\n');
+
+            const { owner, repo } = context.repo;
+            const issue_number = context.issue.number;
+            // Look for existing comment to update
+            const comments = await github.rest.issues.listComments({ owner, repo, issue_number });
+            const existing = comments.data.find(c => c.body?.startsWith('### 📚 Citation audit'));
+            if (existing) {
+              await github.rest.issues.updateComment({ owner, repo, comment_id: existing.id, body });
+            } else {
+              await github.rest.issues.createComment({ owner, repo, issue_number, body });
+            }
