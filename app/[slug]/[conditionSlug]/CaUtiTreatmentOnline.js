@@ -17,7 +17,7 @@
  *   • Physician schema includes NPI 1104323203.
  *   • No first-person prescribing language.
  *   • Only Notion-verified CA payors (Aetna Active, UHC Commercial Approved,
- *     Anthem Blue Cross Pending, Cigna Pending) plus regulatory-only
+ *     Anthem Blue Cross Active 2026-09-23, Cigna Pending) plus regulatory-only
  *     references for Medi-Cal and Kaiser (explicitly NOT in-network).
  *
  * Author / E-E-A-T: visible byline + headshot + last reviewed date.
@@ -51,15 +51,15 @@ const PHYSICIAN = {
 
 // California payors — sourced from Notion payor enrollment (refreshed 2026-05-19)
 // Aetna: Active 2026-04-30 · UHC Commercial: Approved 2026-05-29
-// Anthem Blue Cross: Pending · Cigna: Pending
+// Anthem Blue Cross: Active 2026-09-23 (PPO/Indemnity/Medicare PPO) · Cigna: Pending
 // Medi-Cal / Kaiser shown for regulatory clarity only (NOT in-network).
 const CA_PAYORS = [
   { name: 'Aetna', status: 'Active', effective: 'April 30, 2026', inNetwork: true,
     notes: 'Commercial plans. In-network as of April 30, 2026. Verify plan eligibility with Aetna before booking.' },
   { name: 'UnitedHealthcare Commercial', status: 'Approved', effective: 'May 29, 2026', inNetwork: true,
     notes: 'Covers UHC Commercial and Medicare Advantage. Excludes Medi-Cal, Individual Exchange, and Navigate/Charter/Core plan types.' },
-  { name: 'Anthem Blue Cross', status: 'Pending', effective: 'Pending determination', inNetwork: false,
-    notes: 'Enrollment pending — waiting for Anthem to confirm individual-provider enrollment for telehealth. Self pay ($79) available.' },
+  { name: 'Anthem Blue Cross', status: 'Active', effective: 'September 23, 2026', inNetwork: true,
+    notes: 'PPO, Indemnity, and Medicare PPO plans. In-network as of September 23, 2026. HMO and Medi-Cal plans are not included.' },
   { name: 'Cigna', status: 'Pending', effective: 'Pending determination', inNetwork: false,
     notes: 'Pending — Telehealth Only review in progress. Self pay ($79) available.' },
   { name: 'Kaiser Permanente', status: 'Closed system', effective: '—', inNetwork: false,
@@ -128,7 +128,7 @@ const FAQ_ITEMS = [
   { question: 'Is UnitedHealthcare in-network with TeleDirectMD in California?',
     answer: (
       <p>
-        UnitedHealthcare Commercial was approved for California effective May 29, 2026, covering commercial plans and Medicare Advantage. This excludes Medi-Cal, Individual Exchange plans, and Navigate/Charter/Core plan types. Anthem Blue Cross and Cigna enrollments are currently pending. Verify your specific UHC plan eligibility before booking, or view all <a href="/insurance">insurance options</a>.
+        UnitedHealthcare Commercial was approved for California effective May 29, 2026, covering commercial plans and Medicare Advantage. This excludes Medi-Cal, Individual Exchange plans, and Navigate/Charter/Core plan types. Anthem Blue Cross PPO, Indemnity, and Medicare PPO plans are in-network as of September 23, 2026 (HMO and Medi-Cal plans are not included). Cigna is pending. Verify your specific UHC plan eligibility before booking, or view all <a href="/insurance">insurance options</a>.
       </p>
     ),
   },

@@ -21,8 +21,17 @@ export const metadata = {
 
 const BASE_URL = 'https://teledirectmd.com';
 
-// Published news articles — the only confirmed child is the Aetna California announcement
+// Published news articles, newest first
 const NEWS_ARTICLES = [
+  {
+    slug: 'anthem-blue-cross-california-september-2026',
+    title: 'TeleDirectMD Now In-Network with Anthem Blue Cross in California',
+    date: '2026-09-26',
+    dateDisplay: 'September 26, 2026',
+    category: 'Announcement',
+    summary:
+      'TeleDirectMD is now in-network with Anthem Blue Cross Commercial PPO, Commercial Indemnity, and Medicare PPO plans in California, effective September 23, 2026. HMO, Medicare Advantage HMO, and Medi-Cal plans are not included.',
+  },
   {
     slug: 'aetna-california-may-2026',
     title: 'TeleDirectMD Now In-Network with Aetna in California',
@@ -51,7 +60,7 @@ const FAQS = [
   {
     question: 'Does TeleDirectMD publish news about its services?',
     answer:
-      'Yes. TeleDirectMD publishes service announcements, coverage expansions, and insurance partnership news at teledirectmd.com/news. The most recent announcement covers the Aetna California in-network addition (May 2026). Additional announcements will be published as new insurance contracts and state licenses are added.',
+      'Yes. TeleDirectMD publishes service announcements, coverage expansions, and insurance partnership news at teledirectmd.com/news. The most recent announcement covers the Anthem Blue Cross California in-network addition (September 2026). Additional announcements will be published as new insurance contracts and state licenses are added.',
   },
   {
     question: 'Where has Dr. Parth Bhavsar, MD been quoted as a medical expert?',

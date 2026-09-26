@@ -48,8 +48,8 @@ const CA_PAYORS = [
     notes: 'Commercial plans. In-network as of April 30, 2026. Verify plan eligibility with Aetna before booking.' },
   { name: 'UnitedHealthcare Commercial', status: 'Approved', effective: 'May 29, 2026', inNetwork: true,
     notes: 'Covers UHC Commercial and Medicare Advantage. Excludes Medi-Cal, Individual Exchange, and Navigate/Charter/Core plan types.' },
-  { name: 'Anthem Blue Cross', status: 'Pending', effective: 'Pending determination', inNetwork: false,
-    notes: 'Enrollment pending — self pay ($79) available.' },
+  { name: 'Anthem Blue Cross', status: 'Active', effective: 'September 23, 2026', inNetwork: true,
+    notes: 'PPO, Indemnity, and Medicare PPO plans. In-network as of September 23, 2026. HMO and Medi-Cal plans are not included.' },
   { name: 'Cigna', status: 'Pending', effective: 'Pending determination', inNetwork: false,
     notes: 'Pending — self pay ($79) available.' },
   { name: 'Kaiser Permanente', status: 'Closed system', effective: '—', inNetwork: false,
@@ -107,7 +107,7 @@ const FAQ_ITEMS = [
   {
     id: 'hyperlipidemia-refills-online-faq-9',
     question: "Does California telehealth parity law cover my cholesterol management visit?",
-    answer: <p>California Assembly Bill 744 (2019), codified in Insurance Code §10123.85, requires commercial health plans to reimburse telehealth services on the same basis as in-person care. Parity applies when TeleDirectMD is in-network with your plan. Aetna commercial (active April 30, 2026) and UnitedHealthcare Commercial (active May 29, 2026) are in-network in California. Anthem Blue Cross and Cigna are pending enrollment.</p>,
+    answer: <p>California Assembly Bill 744 (2019), codified in Insurance Code §10123.85, requires commercial health plans to reimburse telehealth services on the same basis as in-person care. Parity applies when TeleDirectMD is in-network with your plan. Aetna commercial (active April 30, 2026) and UnitedHealthcare Commercial (active May 29, 2026) are in-network in California. Anthem Blue Cross PPO, Indemnity, and Medicare PPO plans are in-network as of September 23, 2026 (HMO and Medi-Cal plans are not included). Cigna is pending.</p>,
   },
   {
     id: 'hyperlipidemia-refills-online-faq-10',

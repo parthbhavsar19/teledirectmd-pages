@@ -46,6 +46,10 @@ const STATIC_ROUTES = [
   { path: '/california-aetna', priority: 0.9, changefreq: 'weekly' },
   { path: '/california/telehealth-urgent-care-aetna', priority: 0.85, changefreq: 'weekly' },
   { path: '/news/aetna-california-may-2026', priority: 0.7, changefreq: 'monthly' },
+  { path: '/news/anthem-blue-cross-california-september-2026', priority: 0.7, changefreq: 'monthly' },
+  // Anthem Blue Cross CA: single state page, no condition fan-out, so it is
+  // listed here instead of INSURER_STATES (which would emit fan-out URLs).
+  { path: '/insurance/blue-cross-blue-shield/california/', priority: 0.9, changefreq: 'weekly' },
   // Florida Blue dedicated hub — June 2026 (single-state BCBS licensee)
   { path: '/insurance/florida-blue', priority: 0.95, changefreq: 'weekly' },
   // Alaska rural telemedicine package — August 2026

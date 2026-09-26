@@ -35,10 +35,10 @@ const CA_PAYORS = [
   },
   {
     "name": "Anthem Blue Cross",
-    "status": "Pending",
-    "effective": "Pending determination",
-    "inNetwork": false,
-    "notes": "Enrollment pending \u2014 waiting for Anthem to confirm individual-provider enrollment for telehealth. Self pay ($79) available."
+    "status": "Active",
+    "effective": "September 23, 2026",
+    "inNetwork": true,
+    "notes": "PPO, Indemnity, and Medicare PPO plans. In-network as of September 23, 2026. HMO and Medi-Cal plans are not included."
   },
   {
     "name": "Cigna",
@@ -69,7 +69,7 @@ const FAQ_ITEMS = [
   { id: 'ca-eczema-treatment-online-faq-2', question: "What eczema medications can a California telehealth doctor prescribe?", answer: (<p>A California-licensed telehealth physician can prescribe: mid-potency topical corticosteroids (triamcinolone 0.1%) for acute flares, low-potency TCS (hydrocortisone 2.5%) for face or sensitive areas, tacrolimus 0.03%–0.1% ointment or pimecrolimus 1% cream for steroid-sparing therapy, and crisaborole 2% ointment for mild-moderate disease. Dupilumab (Dupixent) requires in-person specialty evaluation.</p>) },
   { id: 'ca-eczema-treatment-online-faq-3', question: "Does California require an in-person visit before eczema telehealth?", answer: (<p>No. California B&P Code §2290.5 does not require a prior in-person visit. A California-licensed physician can establish a new patient relationship and prescribe appropriate eczema medications through a synchronous video visit when the clinical presentation supports video-based management.</p>) },
   { id: 'ca-eczema-treatment-online-faq-4', question: "When does eczema require emergency or in-person care?", answer: (<p>Go to the ER immediately for eczema herpeticum — rapidly spreading punched-out vesicles with systemic symptoms, which can be life-threatening. Seek urgent in-person care for secondary bacterial infection (crusting, weeping, expanding warmth/redness, fever). Seek in-person dermatology for severe or refractory eczema, or when dupilumab (Dupixent) biologic therapy evaluation is needed.</p>) },
-  { id: 'ca-eczema-treatment-online-faq-5', question: "Is Aetna in-network for eczema treatment at TeleDirectMD in California?", answer: (<p>Yes. Aetna became an active in-network payor effective April 30, 2026. UnitedHealthcare Commercial is approved effective May 29, 2026. Anthem Blue Cross and Cigna enrollments are pending. Self pay is $79.</p>) },
+  { id: 'ca-eczema-treatment-online-faq-5', question: "Is Aetna in-network for eczema treatment at TeleDirectMD in California?", answer: (<p>Yes. Aetna became an active in-network payor effective April 30, 2026. UnitedHealthcare Commercial is approved effective May 29, 2026. Anthem Blue Cross PPO, Indemnity, and Medicare PPO plans are in-network as of September 23, 2026 (HMO and Medi-Cal plans are not included). Cigna is pending. Self pay is $79.</p>) },
   { id: 'ca-eczema-treatment-online-faq-6', question: "What is the cost of eczema treatment in California?", answer: (<p>TeleDirectMD charges $79 self-pay for a complete MD video visit. Generic triamcinolone costs ~$5–$15, generic tacrolimus ~$30–$60, pimecrolimus ~$40–$80. In-person dermatology visits in California typically cost $150–$350 with significant wait times.</p>) },
   { id: 'ca-eczema-treatment-online-faq-7', question: "Does California AB 744 parity law cover eczema telehealth?", answer: (<p>Yes, for in-network commercial plans. California AB 744 (2019) requires commercial health plans to reimburse telehealth on the same basis as in-person services. Aetna and UHC Commercial are in-network for TeleDirectMD in California.</p>) },
   { id: 'ca-eczema-treatment-online-faq-8', question: "Can wildfire smoke trigger eczema flares in California?", answer: (<p>Yes. California wildfire season produces fine particulate matter (PM2.5) that penetrates skin and triggers inflammatory responses in atopic individuals. CDPH Office of Health Hazard Assessment documents the relationship between wildfire smoke and skin condition exacerbations. During wildfire alerts, eczema patients should apply barrier moisturizers frequently and use HEPA air filtration indoors.</p>) },
@@ -113,7 +113,7 @@ function buildSchemas() {
     { '@type': 'Question', name: "What eczema medications can a California telehealth doctor prescribe?", acceptedAnswer: { '@type': 'Answer', text: "A California-licensed telehealth physician can prescribe: mid-potency topical corticosteroids (triamcinolone 0.1%) for acute flares, low-potency TCS (hydrocortisone 2.5%) for face or sensitive areas, tacrolimus 0.03%\u20130.1% ointment or pimecrolimus 1% cream for steroid-sparing therapy, and crisaborole 2% ointment for mild-moderate disease. Dupilumab (Dupixent) requires in-person specialty evaluation." } },
     { '@type': 'Question', name: "Does California require an in-person visit before eczema telehealth?", acceptedAnswer: { '@type': 'Answer', text: "No. California B&P Code \u00a72290.5 does not require a prior in-person visit. A California-licensed physician can establish a new patient relationship and prescribe appropriate eczema medications through a synchronous video visit when the clinical presentation supports video-based management." } },
     { '@type': 'Question', name: "When does eczema require emergency or in-person care?", acceptedAnswer: { '@type': 'Answer', text: "Go to the ER immediately for eczema herpeticum \u2014 rapidly spreading punched-out vesicles with systemic symptoms, which can be life-threatening. Seek urgent in-person care for secondary bacterial infection (crusting, weeping, expanding warmth/redness, fever). Seek in-person dermatology for severe or refractory eczema, or when dupilumab (Dupixent) biologic therapy evaluation is needed." } },
-    { '@type': 'Question', name: "Is Aetna in-network for eczema treatment at TeleDirectMD in California?", acceptedAnswer: { '@type': 'Answer', text: "Yes. Aetna became an active in-network payor effective April 30, 2026. UnitedHealthcare Commercial is approved effective May 29, 2026. Anthem Blue Cross and Cigna enrollments are pending. Self pay is $79." } },
+    { '@type': 'Question', name: "Is Aetna in-network for eczema treatment at TeleDirectMD in California?", acceptedAnswer: { '@type': 'Answer', text: "Yes. Aetna became an active in-network payor effective April 30, 2026. UnitedHealthcare Commercial is approved effective May 29, 2026. Anthem Blue Cross PPO, Indemnity, and Medicare PPO plans are in-network as of September 23, 2026 (HMO and Medi-Cal plans are not included). Cigna is pending. Self pay is $79." } },
     { '@type': 'Question', name: "What is the cost of eczema treatment in California?", acceptedAnswer: { '@type': 'Answer', text: "TeleDirectMD charges $79 self-pay for a complete MD video visit. Generic triamcinolone costs ~$5\u2013$15, generic tacrolimus ~$30\u2013$60, pimecrolimus ~$40\u2013$80. In-person dermatology visits in California typically cost $150\u2013$350 with significant wait times." } },
     { '@type': 'Question', name: "Does California AB 744 parity law cover eczema telehealth?", acceptedAnswer: { '@type': 'Answer', text: "Yes, for in-network commercial plans. California AB 744 (2019) requires commercial health plans to reimburse telehealth on the same basis as in-person services. Aetna and UHC Commercial are in-network for TeleDirectMD in California." } },
     { '@type': 'Question', name: "Can wildfire smoke trigger eczema flares in California?", acceptedAnswer: { '@type': 'Answer', text: "Yes. California wildfire season produces fine particulate matter (PM2.5) that penetrates skin and triggers inflammatory responses in atopic individuals. CDPH Office of Health Hazard Assessment documents the relationship between wildfire smoke and skin condition exacerbations. During wildfire alerts, eczema patients should apply barrier moisturizers frequently and use HEPA air filtration indoors." } },
@@ -369,9 +369,9 @@ export default function CaEczemaTreatmentOnline() {
                   </tr>
                   <tr>
                     <td><strong>Anthem Blue Cross</strong></td>
-                    <td><span className="tdmd-ca-uti__payor-pill tdmd-ca-uti__payor-pill--pending">Pending</span></td>
-                    <td>Pending determination</td>
-                    <td>Enrollment pending — waiting for Anthem to confirm individual-provider enrollment for telehealth. Self pay ($79) available.</td>
+                    <td><span className="tdmd-ca-uti__payor-pill tdmd-ca-uti__payor-pill--good">✓ In-Network</span></td>
+                    <td>September 23, 2026</td>
+                    <td>PPO, Indemnity, and Medicare PPO plans. In-network as of September 23, 2026. HMO and Medi-Cal plans are not included.</td>
                   </tr>
                   <tr>
                     <td><strong>Cigna</strong></td>

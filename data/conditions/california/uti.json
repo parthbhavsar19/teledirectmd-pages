@@ -15,7 +15,6 @@
     "condition": "UTI Treatment",
     "condition_slug": "uti-treatment-online"
   },
-
   "california_regulatory": {
     "primary_statute": {
       "name": "California Business and Professions Code Section 2290.5",
@@ -77,7 +76,6 @@
       "value": "Medi-Cal covers synchronous video telehealth and audio-only telehealth for physical health services. Providers billing Medi-Cal for telehealth services must be enrolled as Medi-Cal rendering providers. TeleDirectMD is not currently enrolled as a Medi-Cal provider; Medi-Cal beneficiaries should use the $79 self-pay option or seek an enrolled Medi-Cal telehealth provider."
     }
   },
-
   "california_insurance": {
     "source": "notion_payor_enrollment.csv",
     "retrieved_date": "2026-05-19",
@@ -92,10 +90,10 @@
       },
       {
         "name": "Anthem Blue Cross",
-        "status": "Pending",
-        "effective_date": null,
-        "in_network": false,
-        "notes": "Enrollment pending — waiting for determination on whether Anthem Blue Cross will enroll individual providers. Not currently in-network. Self-pay ($79) is available.",
+        "status": "Active",
+        "effective_date": "2026-09-23",
+        "in_network": true,
+        "notes": "PPO, Indemnity, and Medicare PPO plans. In-network as of September 23, 2026. HMO and Medi-Cal plans are not included.",
         "notion_id": "3415b828-3028-810c-98a7-ca4769073fbe"
       },
       {
@@ -123,7 +121,6 @@
     "kaiser_note": "Kaiser Permanente operates as a closed health system in California. TeleDirectMD is not part of the Kaiser network. Kaiser members should use Kaiser's telehealth services (kp.org) for UTI care.",
     "cash_price": 49
   },
-
   "california_epidemiology": {
     "uti_national_burden": {
       "value": "UTI accounts for more than 8 million healthcare visits annually in the United States, making it one of the most common bacterial infections treated in outpatient and emergency settings.",
@@ -163,7 +160,6 @@
       "note": "Derived estimate — California population applied to national UTI rate. Not a direct CDPH statistic."
     }
   },
-
   "drug_pricing": {
     "retrieved_date": "2026-05-19",
     "source_note": "GoodRx prices are national averages; California-specific pricing not separately published by GoodRx. Prices represent the lowest GoodRx coupon price as of May 18, 2026.",
@@ -179,7 +175,15 @@
         "retrieved_date": "2026-05-19",
         "first_line": true,
         "idsa_recommendation": "Nitrofurantoin macrocrystals/monohydrate 100 mg BID × 5 days — first-line for uncomplicated cystitis (IDSA/AUA)",
-        "ca_pharmacy_chains": ["CVS Pharmacy", "Walgreens", "Rite Aid", "Walmart Pharmacy", "Safeway Pharmacy", "Target Pharmacy", "Costco Pharmacy"]
+        "ca_pharmacy_chains": [
+          "CVS Pharmacy",
+          "Walgreens",
+          "Rite Aid",
+          "Walmart Pharmacy",
+          "Safeway Pharmacy",
+          "Target Pharmacy",
+          "Costco Pharmacy"
+        ]
       },
       {
         "name": "Trimethoprim-sulfamethoxazole DS (TMP-SMX, Bactrim DS) 800/160mg",
@@ -224,7 +228,6 @@
       "note": "Prescription costs at pharmacy are separate and not included in the visit fee."
     }
   },
-
   "clinical_content": {
     "guidelines": [
       {
@@ -306,7 +309,6 @@
       }
     ]
   },
-
   "faqs": [
     {
       "id": "faq-ca-1",
