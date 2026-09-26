@@ -11,6 +11,7 @@ const insurer = INSURERS["blue-cross-blue-shield"];
 
 const BCBS_STATE_AFFILIATES = [
   { code:"AZ", name:"Arizona", affiliate:"Blue Cross Blue Shield of Arizona", url:"/az/" },
+  { code:"CA", name:"California", affiliate:"Anthem Blue Cross (PPO)", url:"/insurance/blue-cross-blue-shield/california/" },
   { code:"FL", name:"Florida", affiliate:"Florida Blue", url:"/fl/" },
   { code:"GA", name:"Georgia", affiliate:"Anthem Blue Cross Blue Shield", url:"/ga/" },
   { code:"IL", name:"Illinois", affiliate:"Blue Cross Blue Shield of Illinois", url:"/il/" },
@@ -20,10 +21,11 @@ const BCBS_STATE_AFFILIATES = [
 ];
 
 const BCBS_FAQS = [
-  { q: "Which Blue Cross Blue Shield affiliates are in-network with TeleDirectMD?", a: "TeleDirectMD contracts with seven BCBS affiliates: Blue Cross Blue Shield of Arizona (BCBS-AZ), Florida Blue (Florida — commercial only), Anthem Blue Cross Blue Shield (Georgia), Blue Cross Blue Shield of Illinois (BCBS-IL), Blue Cross Blue Shield of Michigan (BCBS-MI), Highmark Blue Cross Blue Shield (Pennsylvania), and Blue Cross Blue Shield of Texas (BCBS-TX). Each affiliate operates an independent network — your card's three-letter prefix determines which affiliate holds your contract." },
+  { q: "Which Blue Cross Blue Shield affiliates are in-network with TeleDirectMD?", a: "TeleDirectMD contracts with eight BCBS affiliates: Blue Cross Blue Shield of Arizona (BCBS-AZ), Anthem Blue Cross (California — PPO, Indemnity, and Medicare PPO only), Florida Blue (Florida — commercial only), Anthem Blue Cross Blue Shield (Georgia), Blue Cross Blue Shield of Illinois (BCBS-IL), Blue Cross Blue Shield of Michigan (BCBS-MI), Highmark Blue Cross Blue Shield (Pennsylvania), and Blue Cross Blue Shield of Texas (BCBS-TX). Each affiliate operates an independent network — your card's three-letter prefix determines which affiliate holds your contract." },
   { q: "I have BCBS but I'm visiting from another state — am I covered (BlueCard)?", a: "BlueCard host-state processing applies. If you have a BCBS plan from a state where TeleDirectMD is not directly contracted (for example, BCBS Massachusetts) and you're a resident in one of our contracted states, the host BCBS affiliate processes the claim under BlueCard PPO. Call your home plan's member services before booking to confirm BlueCard PPO is active on your plan." },
   { q: "Florida Blue: which plan types are excluded?", a: "Florida Blue is commercial-only at TeleDirectMD. Florida Blue Medicare Advantage (BlueMedicare), Florida Blue Medicaid, Florida Blue State Group, and the Federal Employee Program (FEP / BCBS Federal) are not in-network. Florida Blue HMO BlueOptions, BlueSelect, BlueChoice, and BlueCare PPO commercial plans are in-network." },
   { q: "Anthem in Georgia: which products are accepted?", a: "Anthem BCBS Georgia HMO, PPO, EPO, POS, and Medicare Advantage are in-network. Amerigroup Georgia (Anthem's Medicaid product line) is not in-network. Anthem Pathway HMO products on the Georgia individual marketplace are in-network." },
+  { q: "Anthem Blue Cross in California: which plans are accepted?", a: "Anthem Blue Cross Commercial PPO, Commercial Indemnity, and Medicare PPO plans are in-network effective September 23, 2026. Anthem Blue Cross HMO plans, Medi-Cal (Anthem Blue Cross Partnership Plan), and Medicare Advantage HMO are not. Blue Shield of California is a separate company and is not contracted with TeleDirectMD." },
   { q: "Highmark Pennsylvania: which network areas are covered?", a: "Highmark BCBS Pennsylvania (Western PA, Central PA, and Northeast PA service areas) is in-network. Independence Blue Cross (Southeast PA, Philadelphia metro) is a separate BCBS affiliate and is not currently contracted with TeleDirectMD. Check the back of your card for 'Highmark' branding to confirm." },
   { q: "BCBS-Texas: any commercial-only restrictions?", a: "BCBS-TX is currently commercial-only at TeleDirectMD. BCBS-TX Medicare Advantage is not in-network in Texas. BCBS-TX HMO Blue, PPO Blue Choice, and Blue Advantage HMO commercial plans are in-network. WellMed (a BCBS-TX Medicare Advantage delegate) and BCBS-TX Medicaid (STAR / STAR+PLUS) are not in-network." },
   { q: "BCBS-Illinois: is BlueCare Direct or Blue Precision HMO in-network?", a: "BCBS-IL PPO, HMO Illinois, Blue Advantage HMO, and Blue Choice Preferred PPO commercial plans are in-network. BCBS-IL Medicare Advantage is not in-network (commercial-only contract in IL). BCBS-IL Community plans (Medicaid managed care) are not in-network." },
@@ -52,12 +54,12 @@ const CONDITIONS_COVERED = [
 const SCHEMA = {
   "@context":"https://schema.org",
   "@graph":[
-    { "@type":"MedicalOrganization","@id":"https://teledirectmd.com/#organization","name":"TeleDirectMD","url":"https://teledirectmd.com","description":"Physician-led telemedicine practice accepting Blue Cross Blue Shield plans in AZ, FL, GA, IL, MI, PA, TX.","aggregateRating": getAggregateRating() },
+    { "@type":"MedicalOrganization","@id":"https://teledirectmd.com/#organization","name":"TeleDirectMD","url":"https://teledirectmd.com","description":"Physician-led telemedicine practice accepting Blue Cross Blue Shield plans in AZ, CA, FL, GA, IL, MI, PA, TX.","aggregateRating": getAggregateRating() },
     { "@type":"Physician","@id":"https://teledirectmd.com/#physician","name":"Parth Bhavsar, MD","identifier":{"@type":"PropertyValue","name":"NPI","value":"1104323203"},"medicalSpecialty":"Family Medicine","acceptsInsurance":[{"@type":"HealthInsurancePlan","name":"Blue Cross Blue Shield Commercial Plans"}], ...getReviewBlock() },
     { "@type":"FAQPage","mainEntity":BCBS_FAQS.map(f=>({ "@type":"Question","name":f.q,"acceptedAnswer":{"@type":"Answer","text":f.a.replace(/<[^>]+>/g,'')} })) },
     { "@type":"WebPage","@id":"https://teledirectmd.com/insurance/blue-cross-blue-shield#webpage","url":"https://teledirectmd.com/insurance/blue-cross-blue-shield","name":"Online Doctor That Accepts Blue Cross Blue Shield | TeleDirectMD","speakable":{"@type":"SpeakableSpecification","cssSelector":["[data-speakable]"]} },
     { "@type":"HowTo","name":"How to book a BCBS-covered telemedicine visit with TeleDirectMD","description":"Three steps to see Dr. Parth Bhavsar, MD by video using your Blue Cross Blue Shield plan.","totalTime":"PT5M","step":[
-      {"@type":"HowToStep","position":1,"name":"Identify your BCBS affiliate","text":"Check your member ID card for the affiliate name. TeleDirectMD is in-network with BCBS Arizona, Florida Blue, Anthem BCBS Georgia, BCBS Illinois, BCBS Michigan, Highmark Pennsylvania, and BCBS Texas."},
+      {"@type":"HowToStep","position":1,"name":"Identify your BCBS affiliate","text":"Check your member ID card for the affiliate name. TeleDirectMD is in-network with BCBS Arizona, Anthem Blue Cross California, Florida Blue, Anthem BCBS Georgia, BCBS Illinois, BCBS Michigan, Highmark Pennsylvania, and BCBS Texas."},
       {"@type":"HowToStep","position":2,"name":"Book online","text":"Go to teledirectmd.com/book-online and choose 'Insurance' as your payment method. Enter your BCBS member ID."},
       {"@type":"HowToStep","position":3,"name":"See the physician by video","text":"Join your video visit with Dr. Parth Bhavsar, MD. Pay only your BCBS copay. Prescriptions are sent to your pharmacy immediately after the visit."}
     ]},
@@ -124,7 +126,7 @@ const SCHEMA = {
 export default function BCBSHubClient() {
   const customSteps = [
     { icon: <Ico.Cal c={B.teal} s={24} />, title: "Book with BCBS ID", desc: "Enter your BCBS member ID (three-letter prefix included) at teledirectmd.com/book-online." },
-    { icon: <Ico.Check c={B.teal} s={24} />, title: "Affiliate routing", desc: "We route the claim to your specific BCBS affiliate — BCBS-AZ, Florida Blue, Anthem, BCBS-IL, BCBS-MI, Highmark, or BCBS-TX." },
+    { icon: <Ico.Check c={B.teal} s={24} />, title: "Affiliate routing", desc: "We route the claim to your specific BCBS affiliate — BCBS-AZ, Anthem Blue Cross (CA), Florida Blue, Anthem, BCBS-IL, BCBS-MI, Highmark, or BCBS-TX." },
     { icon: <Ico.Video c={B.teal} s={24} />, title: "Video visit + e-Rx", desc: "Same-day visit with Dr. Bhavsar, MD. Prescription routed via your BCBS pharmacy benefit." },
   ];
 
@@ -134,7 +136,7 @@ export default function BCBSHubClient() {
     stateCount: insurer?.states?.length || null,
     stateList: insurer?.states ? insurer.states.map(s => STATE_NAMES[s] || s) : null,
     planTypes: "PPO, HMO, EPO, POS, and (state-permitting) Medicare Advantage",
-    payerSpecificCopy: "Blue Cross Blue Shield coverage at TeleDirectMD is held through seven affiliate contracts: BCBS Arizona, Florida Blue (commercial-only), Anthem BCBS Georgia, BCBS Illinois (HCSC), BCBS Michigan, Highmark BCBS Pennsylvania (Western/Central/Northeast PA only \u2014 not Independence Blue Cross), and BCBS Texas (HCSC). Each affiliate uses its own payer ID and claims clearinghouse. BlueCard PPO host-state processing applies if you carry a BCBS plan from a non-contracted state and visit one of ours. Amerigroup Georgia, BCBS-IL Community, BCBS-TX Medicaid (STAR / STAR+PLUS), and Florida Blue Medicaid are excluded in every state. BCBS-TX, BCBS-IL, and Florida Blue exclude Medicare Advantage.",
+    payerSpecificCopy: "Blue Cross Blue Shield coverage at TeleDirectMD is held through eight affiliate contracts: BCBS Arizona, Anthem Blue Cross California (PPO, Indemnity, and Medicare PPO only), Florida Blue (commercial-only), Anthem BCBS Georgia, BCBS Illinois (HCSC), BCBS Michigan, Highmark BCBS Pennsylvania (Western/Central/Northeast PA only \u2014 not Independence Blue Cross), and BCBS Texas (HCSC). Each affiliate uses its own payer ID and claims clearinghouse. BlueCard PPO host-state processing applies if you carry a BCBS plan from a non-contracted state and visit one of ours. Amerigroup Georgia, BCBS-IL Community, BCBS-TX Medicaid (STAR / STAR+PLUS), and Florida Blue Medicaid are excluded in every state. BCBS-TX, BCBS-IL, and Florida Blue exclude Medicare Advantage.",
   });
   const pageUrl_AI = 'https://teledirectmd.com/insurance/blue-cross-blue-shield/';
   const citableJsonLd_AI = citableSummaryToJsonLd(citableSummary_AI, { pageUrl: pageUrl_AI });
@@ -179,7 +181,7 @@ export default function BCBSHubClient() {
         {/* QUICK ANSWER — AI visibility */}
         <AnswerBlock
           question="Is TeleDirectMD in-network with Blue Cross Blue Shield?"
-          answer="Yes, for specific BCBS state affiliates. TeleDirectMD is in-network with BCBS commercial plans in 7 states: Arizona (BCBS of Arizona), Florida (Florida Blue), Georgia (Anthem BCBS GA), Illinois (BCBS IL), Michigan (BCBS of Michigan), Pennsylvania (Highmark), and Texas (BCBS TX). Check your member ID card for the affiliate name, then book a same-day video visit with Dr. Parth Bhavsar, MD."
+          answer="Yes, for specific BCBS state affiliates. TeleDirectMD is in-network with BCBS commercial plans in 8 states: Arizona (BCBS of Arizona), California (Anthem Blue Cross PPO), Florida (Florida Blue), Georgia (Anthem BCBS GA), Illinois (BCBS IL), Michigan (BCBS of Michigan), Pennsylvania (Highmark), and Texas (BCBS TX). Check your member ID card for the affiliate name, then book a same-day video visit with Dr. Parth Bhavsar, MD."
           color={B.teal}
         />
 
@@ -230,7 +232,7 @@ export default function BCBSHubClient() {
           <HowItWorksSteps insurerName="Blue Cross Blue Shield" customSteps={customSteps} />
         </section>
 
-        <section style={{ marginBottom:48 }}><BookCTA insurerName="Blue Cross Blue Shield" tagline="BCBS-AZ, Florida Blue, Anthem GA, BCBS-IL, BCBS-MI, Highmark PA, and BCBS-TX — each affiliate routed to the right payer ID before your visit." subtagline="Out-of-state BCBS members visiting our states are processed via BlueCard PPO; or pay $79 self-pay." /></section>
+        <section style={{ marginBottom:48 }}><BookCTA insurerName="Blue Cross Blue Shield" tagline="BCBS-AZ, Anthem Blue Cross CA, Florida Blue, Anthem GA, BCBS-IL, BCBS-MI, Highmark PA, and BCBS-TX — each affiliate routed to the right payer ID before your visit." subtagline="Out-of-state BCBS members visiting our states are processed via BlueCard PPO; or pay $79 self-pay." /></section>
 
         {/* Sitewide Medicaid + D-SNP exclusion */}
         <MedicaidExclusion headingLevel="h2" idSuffix="bcbs-hub" />
@@ -269,7 +271,7 @@ export default function BCBSHubClient() {
           <p style={{ margin:0, fontSize:14, color:"#12323A" }}>Not in-network on your plan? Self-pay is a flat <strong>$79</strong> in all our licensed states (HSA/FSA eligible).</p>
           <a href="/insurance/" style={{ display:"inline-flex", alignItems:"center", gap:6, padding:"10px 18px", background:"#006B73", color:"#fff", borderRadius:10, fontWeight:700, fontSize:14, textDecoration:"none", whiteSpace:"nowrap" }}>Compare options →</a>
         </div>
-<div style={{ marginBottom:48 }}><InsuranceDisclaimer payerNote="BCBS network status reflects seven affiliate contracts (BCBS-AZ, Florida Blue, Anthem GA, BCBS-IL, BCBS-MI, Highmark PA, BCBS-TX). Amerigroup GA, BCBS-IL Community, BCBS-TX Medicaid, and Florida Blue Medicaid are excluded." /></div>
+<div style={{ marginBottom:48 }}><InsuranceDisclaimer payerNote="BCBS network status reflects eight affiliate contracts (BCBS-AZ, Anthem Blue Cross CA, Florida Blue, Anthem GA, BCBS-IL, BCBS-MI, Highmark PA, BCBS-TX). Amerigroup GA, Anthem Blue Cross Medi-Cal, BCBS-IL Community, BCBS-TX Medicaid, and Florida Blue Medicaid are excluded." /></div>
       </div>
     </div>
   );

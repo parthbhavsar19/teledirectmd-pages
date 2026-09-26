@@ -366,8 +366,11 @@ function main() {
         // BCBSHubClient renders its state grid inline (no BCBS_STATES const).
         { path: 'app/insurance/blue-cross-blue-shield/[segment]/page.js',
           extractor: extractCodesFromStateSlugs, label: 'STATE_SLUGS dict' },
+        // CA (Anthem Blue Cross) intentionally has no state x condition
+        // fan-out: it ships as one state-specific page, per the insurance
+        // consolidation rule against thin fan-out URLs.
         { path: 'app/insurance/blue-cross-blue-shield/[segment]/[subsegment]/page.js',
-          extractor: extractCodesFromStateSlugs, label: 'STATE_SLUGS dict' },
+          extractor: extractCodesFromStateSlugs, label: 'STATE_SLUGS dict', excludeStates: ['CA'] },
       ],
     },
     {
@@ -412,7 +415,8 @@ function main() {
         planClean = false;
         continue;
       }
-      const missing = canon.filter((c) => !codes.includes(c));
+      const excluded = t.excludeStates || [];
+      const missing = canon.filter((c) => !codes.includes(c) && !excluded.includes(c));
       const extra = codes.filter((c) => !canon.includes(c));
       if (missing.length || extra.length) {
         const line =

@@ -35,10 +35,10 @@ const CA_PAYORS = [
   },
   {
     "name": "Anthem Blue Cross",
-    "status": "Pending",
-    "effective": "Pending determination",
-    "inNetwork": false,
-    "notes": "Enrollment pending \u2014 waiting for Anthem to confirm individual-provider enrollment for telehealth. Self pay ($79) available."
+    "status": "Active",
+    "effective": "September 23, 2026",
+    "inNetwork": true,
+    "notes": "PPO, Indemnity, and Medicare PPO plans. In-network as of September 23, 2026. HMO and Medi-Cal plans are not included."
   },
   {
     "name": "Cigna",
@@ -369,9 +369,9 @@ export default function CaAcneTreatmentOnline() {
                   </tr>
                   <tr>
                     <td><strong>Anthem Blue Cross</strong></td>
-                    <td><span className="tdmd-ca-uti__payor-pill tdmd-ca-uti__payor-pill--pending">Pending</span></td>
-                    <td>Pending determination</td>
-                    <td>Enrollment pending — waiting for Anthem to confirm individual-provider enrollment for telehealth. Self pay ($79) available.</td>
+                    <td><span className="tdmd-ca-uti__payor-pill tdmd-ca-uti__payor-pill--good">✓ In-Network</span></td>
+                    <td>September 23, 2026</td>
+                    <td>PPO, Indemnity, and Medicare PPO plans. In-network as of September 23, 2026. HMO and Medi-Cal plans are not included.</td>
                   </tr>
                   <tr>
                     <td><strong>Cigna</strong></td>

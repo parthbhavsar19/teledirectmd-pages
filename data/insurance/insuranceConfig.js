@@ -38,11 +38,12 @@ export const INSURERS = {
     logo: "/logos/anthem-bcbs.svg",
     color: "#1A5FB4",
     colorLight: "#EAF2FF",
-    tagline: "Select BCBS-family plans accepted in 7 states",
-    description: "Blue Cross Blue Shield plans vary by state affiliate. TeleDirectMD is in-network with BCBS of Arizona, Florida Blue, Anthem BCBS (Georgia), BCBS of Illinois, BCBS of Michigan, Highmark BCBS (Pennsylvania), and BCBS of Texas.",
-    states: ["AZ","FL","GA","IL","MI","PA","TX"],
+    tagline: "Select BCBS-family plans accepted in 8 states",
+    description: "Blue Cross Blue Shield plans vary by state affiliate. TeleDirectMD is in-network with BCBS of Arizona, Anthem Blue Cross (California PPO), Florida Blue, Anthem BCBS (Georgia), BCBS of Illinois, BCBS of Michigan, Highmark BCBS (Pennsylvania), and BCBS of Texas.",
+    states: ["AZ","CA","FL","GA","IL","MI","PA","TX"],
     affiliates: {
       AZ: "Blue Cross Blue Shield of Arizona",
+      CA: "Anthem Blue Cross",
       FL: "Florida Blue",
       GA: "Anthem Blue Cross Blue Shield",
       IL: "Blue Cross Blue Shield of Illinois",
@@ -52,6 +53,7 @@ export const INSURERS = {
     },
     memberPortals: {
       AZ: "https://www.azblue.com/member",
+      CA: "https://www.anthem.com/ca/",
       FL: "https://member.floridablue.com",
       GA: "https://www.anthem.com/find-care/",
       IL: "https://www.bcbsil.com/member",
@@ -65,9 +67,9 @@ export const INSURERS = {
     planTypes: ["PPO","HMO","EPO","POS","Medicare Advantage","Group plans","Individual & Family Plans","Blue Advantage HMO","Blue Choice PPO"],
     notAccepted: ["Medicaid","Managed Medicaid","CHIP","Medicare-Medicaid (MME)","Dual Special Needs Plan (D-SNP)","Federal Employee Program (FEP)","BlueCard out-of-network"],
     metaTitle: "Online Doctor That Accepts Blue Cross Blue Shield | TeleDirectMD",
-    metaDescription: "TeleDirectMD accepts Blue Cross Blue Shield-family plans (BCBS-AZ, Florida Blue, Anthem GA, BCBS-IL, BCBS-MI, Highmark PA, BCBS-TX) in 7 states. PPO, HMO, EPO, POS, and Medicare Advantage. Board-certified physician.",
+    metaDescription: "TeleDirectMD accepts Blue Cross Blue Shield-family plans (BCBS-AZ, Anthem Blue Cross CA, Florida Blue, Anthem GA, BCBS-IL, BCBS-MI, Highmark PA, BCBS-TX) in 8 states. PPO, HMO, EPO, POS, and Medicare Advantage. Board-certified physician.",
     h1: "Online Doctor Visits Covered by Blue Cross Blue Shield",
-    heroSubtitle: "TeleDirectMD is in-network with select Blue Cross Blue Shield affiliates in Arizona, Florida, Georgia, Illinois, Michigan, Pennsylvania, and Texas.",
+    heroSubtitle: "TeleDirectMD is in-network with select Blue Cross Blue Shield affiliates in Arizona, California, Florida, Georgia, Illinois, Michigan, Pennsylvania, and Texas.",
     faqSlug: "bcbs",
   },
   "united-healthcare": {
@@ -167,6 +169,7 @@ export const COPAY_DATA = {
   },
   "blue-cross-blue-shield": {
     AZ: { typical: "$10–$40", employer: "Often $0–$20 for employer plans", note: "BCBS of Arizona commercial telehealth copays vary by plan. Verify at azblue.com." },
+    CA: { typical: "$0–$40", employer: "Many employer PPO plans have low or $0 telehealth copays", note: "Anthem Blue Cross PPO cost-sharing varies by plan and deductible status. Check your Anthem Sydney Health app or anthem.com before booking." },
     FL: { typical: "$0–$30", employer: "Often $0 for employer plans", note: "Florida Blue offers strong telehealth benefits. Many Florida Blue employer plans carry $0 telehealth copays." },
     GA: { typical: "$5–$35", employer: "Often $0–$15 for employer plans", note: "Anthem BCBS Georgia commercial plans typically include competitive telehealth copays through Blue Distinction." },
     IL: { typical: "$10–$35", employer: "Often $0–$15 for employer plans", note: "BCBS of Illinois is the dominant employer plan insurer in the Chicago market. Telehealth copays often match or beat office visit rates." },
@@ -591,7 +594,7 @@ export const STATE_INSURANCE_MAP = {
     majorEmployers: ["Banner Health", "Intel", "American Express", "Honeywell"],
   },
   CA: {
-    insurers: ["aetna"],
+    insurers: ["aetna", "blue-cross-blue-shield"],
     population: 39030000,
     priority: "high",
     commissioner: { name: "California Department of Insurance", url: "https://www.insurance.ca.gov/" },

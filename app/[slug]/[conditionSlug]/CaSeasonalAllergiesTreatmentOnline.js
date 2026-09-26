@@ -48,8 +48,8 @@ const CA_PAYORS = [
     notes: 'Commercial plans. In-network as of April 30, 2026. Verify plan eligibility with Aetna before booking.' },
   { name: 'UnitedHealthcare Commercial', status: 'Approved', effective: 'May 29, 2026', inNetwork: true,
     notes: 'Covers UHC Commercial and Medicare Advantage. Excludes Medi-Cal, Individual Exchange, and Navigate/Charter/Core plan types.' },
-  { name: 'Anthem Blue Cross', status: 'Pending', effective: 'Pending determination', inNetwork: false,
-    notes: 'Enrollment pending — self pay ($79) available.' },
+  { name: 'Anthem Blue Cross', status: 'Active', effective: 'September 23, 2026', inNetwork: true,
+    notes: 'PPO, Indemnity, and Medicare PPO plans. In-network as of September 23, 2026. HMO and Medi-Cal plans are not included.' },
   { name: 'Cigna', status: 'Pending', effective: 'Pending determination', inNetwork: false,
     notes: 'Pending — self pay ($79) available.' },
   { name: 'Kaiser Permanente', status: 'Closed system', effective: '—', inNetwork: false,
@@ -102,7 +102,7 @@ const FAQ_ITEMS = [
   {
     id: 'seasonal-allergies-treatment-online-faq-8',
     question: "Does California insurance cover allergy treatment visits?",
-    answer: <p>California Assembly Bill 744 (2019) requires commercial health plans to reimburse telehealth allergy management visits on the same basis as in-person care. Aetna commercial is in-network with TeleDirectMD in California effective April 30, 2026; UnitedHealthcare Commercial is approved effective May 29, 2026. Anthem Blue Cross and Cigna are pending enrollment. Many allergy medications (fluticasone, cetirizine, loratadine, fexofenadine) are also available over the counter without a prescription in California pharmacies.</p>,
+    answer: <p>California Assembly Bill 744 (2019) requires commercial health plans to reimburse telehealth allergy management visits on the same basis as in-person care. Aetna commercial is in-network with TeleDirectMD in California effective April 30, 2026; UnitedHealthcare Commercial is approved effective May 29, 2026. Anthem Blue Cross PPO, Indemnity, and Medicare PPO plans are in-network as of September 23, 2026 (HMO and Medi-Cal plans are not included). Cigna is pending. Many allergy medications (fluticasone, cetirizine, loratadine, fexofenadine) are also available over the counter without a prescription in California pharmacies.</p>,
   },
   {
     id: 'seasonal-allergies-treatment-online-faq-9',
