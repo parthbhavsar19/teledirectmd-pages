@@ -34,7 +34,7 @@ export const ANTHEM_CA_META = {
 const ACCEPTED = [
   { t: 'Commercial PPO', d: 'Employer-sponsored Anthem Blue Cross PPO plans. Your card will usually say PPO near the plan name.' },
   { t: 'Commercial Indemnity', d: 'Traditional indemnity (fee-for-service) Anthem Blue Cross plans.' },
-  { t: 'Medicare PPO', d: 'Anthem Blue Cross Medicare Advantage PPO plans. Original Medicare is billed separately and is not part of this agreement.' },
+  { t: 'Medicare PPO', d: 'Anthem Blue Cross Medicare Advantage PPO plans. Original Medicare is not part of this agreement.' },
 ];
 
 const NOT_ACCEPTED = [
