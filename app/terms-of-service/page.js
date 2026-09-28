@@ -191,7 +191,7 @@ export default function TermsOfService() {
 
         <h1>Terms of Service</h1>
         <p className="tos-meta">
-          Effective Date: April 16, 2026 &nbsp;|&nbsp; TeleDirectMD, operated by Dr. Parth Bhavsar, M.D.
+          Effective Date: September 28, 2026 &nbsp;|&nbsp; TeleDirectMD, operated by Dr. Parth Bhavsar, M.D.
         </p>
 
         <div className="tos-notice tos-notice--warning">
@@ -656,10 +656,18 @@ export default function TermsOfService() {
           </p>
           <h3>11.4 Supply Durations</h3>
           <p>
-            Supply quantities are determined by clinical need. As a general guideline: acute
-            conditions typically receive a 5–14 day supply; stable chronic medication refills
-            typically receive a 30–90 day supply; lifestyle medicine prescriptions (such as those
-            for erectile dysfunction or hair loss) typically receive a 90-day supply.
+            Supply quantities are determined by clinical need, within a firm 90-day maximum. Acute
+            conditions typically receive a 5–14 day supply. No prescription, including all of its
+            refills, will cover more than 90 days. Continuing any medication beyond 90 days requires
+            a new visit. There are no exceptions.
+          </p>
+          <h3>11.4.1 Erectile Dysfunction Medications</h3>
+          <p>
+            For as-needed sildenafil or tadalafil for erectile dysfunction, each fill is limited to
+            no more than 15 tablets, with a maximum of two refills, for a total of no more than 90
+            days. The prescribing clinician decides whether a prescription is appropriate and at
+            what dose. A video visit is required every 90 days to continue the prescription. There
+            are no exceptions to this policy.
           </p>
           <h3>11.5 No Guarantee of Prescription</h3>
           <p>

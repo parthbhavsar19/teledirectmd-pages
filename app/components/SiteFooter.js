@@ -1,4 +1,4 @@
-import { PRESCRIBING_POLICY } from '../../lib/prescribing-policy';
+import { PRESCRIBING_POLICY, REFILL_POLICY } from '../../lib/prescribing-policy';
 
 export default function SiteFooter() {
 
@@ -117,6 +117,9 @@ export default function SiteFooter() {
         <div className="tdmd-footer-copyright" data-prescribing-policy="footer">
           <p style={{ maxWidth: 1080, lineHeight: 1.6, margin: 0 }}>
             <strong>Prescribing limits. </strong>{PRESCRIBING_POLICY}
+          </p>
+          <p style={{ maxWidth: 1080, lineHeight: 1.6, margin: '0.5rem 0 0' }} data-refill-policy="footer">
+            <strong>Refill policy. </strong>{REFILL_POLICY}
           </p>
         </div>
         <div className="tdmd-footer-copyright">

@@ -20,6 +20,18 @@ POLICY = (
     "We cannot issue these prescriptions for administration at another clinic or by another provider."
 )
 QUESTION = "Can TeleDirectMD prescribe IV medications or IM shots?"
+REFILL = (
+    "Every TeleDirectMD prescription, including all refills, covers no more than a 90-day supply. "
+    "To continue a medication beyond 90 days, you need a new visit. There are no exceptions."
+)
+REFILL_Q = "How long can a TeleDirectMD prescription last, including refills?"
+ED_REFILL = (
+    "For as-needed sildenafil or tadalafil for erectile dysfunction, each fill is limited to no more than 15 tablets, "
+    "with a maximum of two refills, for a total of no more than 90 days. The prescribing clinician decides whether a "
+    "prescription is appropriate and at what dose. A video visit is required every 90 days to continue the prescription. "
+    "There are no exceptions to this policy."
+)
+ED_REFILL_Q = "How many ED tablets and refills can I get?"
 SHORT = "We do not prescribe IV medications or IM injections. EpiPen auto-injector refills are the only IM exception, when clinically appropriate."
 
 
@@ -127,6 +139,7 @@ import('data:text/javascript;base64,' + Buffer.from(src).toString('base64')).the
     short: m.PRESCRIBING_POLICY_SHORT,
     question: m.PRESCRIBING_POLICY_QUESTION,
     generic: m.prescribingPolicyFaqs('diabetes-refills-online'),
+    ed: m.prescribingPolicyFaqs('erectile-dysfunction-treatment-online'),
     specific: Object.fromEntries(['epipen-refills-online','chlamydia-treatment-online',
       'viral-gastroenteritis-treatment-online','poison-ivy-oak-treatment-online',
       'migraine-refills-online'].map(slug => [slug, m.prescribingPolicyFaqs(slug)]))
@@ -137,7 +150,10 @@ import('data:text/javascript;base64,' + Buffer.from(src).toString('base64')).the
     assert module["policy"] == POLICY
     assert module["short"] == SHORT
     assert module["question"] == QUESTION
-    assert module["generic"] == [{"question": QUESTION, "answer": POLICY}], "Do not add a diabetes/subcutaneous route exclusion"
+    assert module["generic"] == [{"question": QUESTION, "answer": POLICY},
+                                 {"question": REFILL_Q, "answer": REFILL}], "Do not add a diabetes/subcutaneous route exclusion"
+    assert module["ed"][-1] == {"question": ED_REFILL_Q, "answer": ED_REFILL}
+    assert REFILL in (ROOT / "public/llms.txt").read_text() and ED_REFILL in (ROOT / "public/llms.txt").read_text()
     assert POLICY in (ROOT / "public/llms.txt").read_text()
     archived_faqs = json.loads((ROOT / "data/faq.json").read_text())
     assert any(item["question"] == QUESTION and item["answer"] == POLICY
@@ -155,6 +171,7 @@ import('data:text/javascript;base64,' + Buffer.from(src).toString('base64')).the
             continue  # Independent static editorial content is intentionally untouched.
         html = path.read_text()
         assert 'data-prescribing-policy="footer"' in html and POLICY in html, f"{parts}: shared footer policy missing"
+        assert 'data-refill-policy="footer"' in html and REFILL in html, f"{parts}: footer refill policy missing"
         footer_count += 1
         scoped = (parts[0] in states or parts[0] in conditions or parts[0] in scoped_families
                   or parts[:2] == ("faq", "deep-dive"))
@@ -177,6 +194,14 @@ import('data:text/javascript;base64,' + Buffer.from(src).toString('base64')).the
     for slug in module["specific"]:
         routes.extend([f"/{slug}/", f"/ca/{slug}/", f"/tx/{slug}/"])
     routes.append("/vt/chlamydia-treatment-online/")
+    for route in ["/erectile-dysfunction-treatment-online/", "/ca/erectile-dysfunction-treatment-online/",
+                  "/tx/erectile-dysfunction-treatment-online/", "/ga/erectile-dysfunction-treatment-online/"]:
+        root = load(route)
+        faq_alignment(root, route, REFILL_Q, REFILL)
+        faq_alignment(root, route, ED_REFILL_Q, ED_REFILL)
+        assert any(el.attrs.get("data-refill-policy") == "ed-notice" for el in root.all("span")), f"{route}: ED refill notice missing"
+    faq_alignment(load("/uti-treatment-online/"), "/uti-treatment-online/", REFILL_Q, REFILL)
+    assert not any(el.attrs.get("data-refill-policy") == "ed-notice" for el in load("/uti-treatment-online/").all("span"))
     for route in routes:
         root = load(route)
         faq_alignment(root, route)
@@ -193,6 +218,10 @@ import('data:text/javascript;base64,' + Buffer.from(src).toString('base64')).the
     scope = load("/what-we-treat/")
     assert any(el.attrs.get("data-prescribing-policy") == "scope" and POLICY in normalize(el.text())
                for el in scope.all()), "What We Treat scope section missing policy"
+    assert any(el.attrs.get("data-refill-policy") == "scope" and REFILL in normalize(el.text()) and ED_REFILL in normalize(el.text())
+               for el in scope.all()), "What We Treat scope section missing refill policy"
+    faq_alignment(load("/faq/"), "/faq/", REFILL_Q, REFILL)
+    assert ED_REFILL in normalize(load("/terms-of-service/").text()), "Terms missing ED refill policy"
     for route in ["/visit-ready/"]:
         assert any(el.attrs.get("data-prescribing-policy") == "notice" for el in load(route).all("aside"))
     # Existing service-specific GLP-1 criteria must not be changed by this route policy.

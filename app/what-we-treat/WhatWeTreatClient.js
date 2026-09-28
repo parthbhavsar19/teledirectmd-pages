@@ -3,7 +3,7 @@
 import { useState, useEffect, useMemo, useRef } from 'react';
 import Image from 'next/image';
 import './wwt-redesign.css';
-import { PRESCRIBING_POLICY } from '../../lib/prescribing-policy';
+import { PRESCRIBING_POLICY, REFILL_POLICY, ED_REFILL_POLICY } from '../../lib/prescribing-policy';
 
 /* ── Config ──────────────────────────────────────────────────────────────── */
 /* Six states not yet available. Lowercase to match the SVG's <path class="XX"> */
@@ -440,6 +440,11 @@ export default function WhatWeTreatClient({ categories, conditionDescriptions, s
             <div className="wwt-scope-item" data-prescribing-policy="scope" style={{ gridColumn: '1 / -1' }}>
               <h3>IV/IM prescribing limits: EpiPen refill exception</h3>
               <p>{PRESCRIBING_POLICY}</p>
+            </div>
+            <div className="wwt-scope-item" data-refill-policy="scope" style={{ gridColumn: '1 / -1' }}>
+              <h3>90-day refill limit, no exceptions</h3>
+              <p>{REFILL_POLICY}</p>
+              <p>{ED_REFILL_POLICY}</p>
             </div>
             <div className="wwt-scope-item">
               <h3>Red-flag screening every visit</h3>

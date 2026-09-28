@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import FaqAccordion from '../components/FaqAccordion';
-import { PRESCRIBING_POLICY, PRESCRIBING_POLICY_QUESTION } from '../../lib/prescribing-policy';
+import { PRESCRIBING_POLICY, PRESCRIBING_POLICY_QUESTION, REFILL_POLICY, REFILL_POLICY_QUESTION, ED_REFILL_POLICY } from '../../lib/prescribing-policy';
 
 /* ─── FAQ-specific CSS using the What We Treat design system ─── */
 const faqCSS = `
@@ -384,6 +384,10 @@ const sections = [
         a: <p>{PRESCRIBING_POLICY}</p>,
       },
       {
+        q: REFILL_POLICY_QUESTION,
+        a: <p>{REFILL_POLICY}</p>,
+      },
+      {
         q: 'Can you prescribe medication?',
         a: (
           <p>
@@ -434,6 +438,7 @@ const sections = [
               reviewed. If there are red flags, you may be referred for in-person evaluation with
               primary care or cardiology.
             </p>
+            <p>{ED_REFILL_POLICY}</p>
           </>
         ),
       },

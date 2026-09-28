@@ -1,5 +1,5 @@
 import FAQClient from './FAQClient';
-import { PRESCRIBING_POLICY, PRESCRIBING_POLICY_QUESTION } from '../../lib/prescribing-policy';
+import { PRESCRIBING_POLICY, PRESCRIBING_POLICY_QUESTION, REFILL_POLICY, REFILL_POLICY_QUESTION, ED_REFILL_POLICY } from '../../lib/prescribing-policy';
 import { getAggregateRating, getReviewBlock } from '../../lib/review-schema';
 import { CitableSummaryBlock } from '../components/CitableSummary';
 import { summarizeFaqLanding, citableSummaryToJsonLd } from '../../lib/citable-summary';
@@ -60,6 +60,7 @@ const faqItems = [
   },
   // Section 3: Conditions, Prescriptions, and Scope of Care
   { q: PRESCRIBING_POLICY_QUESTION, a: PRESCRIBING_POLICY },
+  { q: REFILL_POLICY_QUESTION, a: REFILL_POLICY },
   {
     q: 'What conditions do you treat?',
     a: 'We treat a wide range of common urgent-care conditions including sinus infections, UTIs, upper respiratory infections, allergies, skin rashes, pink eye, cold and flu, ear infections, bronchitis, and more. Visit our What We Treat page for a full list of conditions.',
@@ -82,7 +83,7 @@ const faqItems = [
   },
   {
     q: 'How do you handle erectile dysfunction prescriptions?',
-    a: 'TeleDirectMD offers ED evaluation and treatment within a clearly defined safety framework. Under age 40: we typically require proof of a current ED prescription or prior evaluation before refilling. Age 40 and above: we may initiate treatment after a careful history and risk review, if it is safe and appropriate. Cardiovascular risk factors, medication interactions, and warning symptoms are reviewed. If there are red flags, you may be referred for in-person evaluation with primary care or cardiology.',
+    a: 'TeleDirectMD offers ED evaluation and treatment within a clearly defined safety framework. Under age 40: we typically require proof of a current ED prescription or prior evaluation before refilling. Age 40 and above: we may initiate treatment after a careful history and risk review, if it is safe and appropriate. Cardiovascular risk factors, medication interactions, and warning symptoms are reviewed. If there are red flags, you may be referred for in-person evaluation with primary care or cardiology. ' + ED_REFILL_POLICY,
   },
   {
     q: 'What if my condition cannot be treated by telemedicine?',

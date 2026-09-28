@@ -1136,7 +1136,7 @@ export const AETNA_CA_CONDITION_DETAILS = {
       },
       {
         "q": "Does Aetna California cover daily suppressive herpes medication long-term?",
-        "a": "Yes. Generic valacyclovir 500mg or 1g tablets and generic acyclovir 400mg tablets are Tier 1 on Aetna CA with no prior authorization and no time limit on the prescription. Suppressive therapy can be prescribed as a 90-day maintenance supply and refilled indefinitely. The annual cost for daily valacyclovir 500mg is typically $60–$120 with Aetna CA Tier 1 copays — often comparable to a one-month supply of branded Valtrex without insurance. GoodRx often brings generic valacyclovir below $15/month at California pharmacies."
+        "a": "Yes. Generic valacyclovir 500mg or 1g tablets and generic acyclovir 400mg tablets are Tier 1 on Aetna CA with no prior authorization and no time limit on the prescription. Suppressive therapy can be prescribed as a 90-day maintenance supply; continuing past 90 days requires a new TeleDirectMD visit. The annual cost for daily valacyclovir 500mg is typically $60–$120 with Aetna CA Tier 1 copays — often comparable to a one-month supply of branded Valtrex without insurance. GoodRx often brings generic valacyclovir below $15/month at California pharmacies."
       },
       {
         "q": "Can I get a TDMD prescription to share with my partner after a herpes exposure?",
