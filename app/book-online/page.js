@@ -37,6 +37,15 @@ export const metadata = {
 export default function BookOnlinePage() {
   return (
     <div style={{ background: '#EEF4F5', padding: 'clamp(16px, 4vw, 48px) clamp(10px, 2vw, 16px)' }}>
+      <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
+      />
+      {/* The site-wide mobile "Book Now" bar points to this page; hide it here.
+          Keep the long insurance CTA on one line on small phones. */}
+      <style>{`.tdmd-mobile-sticky-bar{display:none !important}
+@media (max-width:900px){#tdmdStateGate .sg-grid{grid-template-columns:minmax(0,1fr)}}
+@media (max-width:480px){#tdmdStateGate .sg-cta{font-size:15px}}`}</style>
       <div dangerouslySetInnerHTML={{ __html: MARKUP }} />
       <BookingGateClient script={SCRIPT} />
     </div>
