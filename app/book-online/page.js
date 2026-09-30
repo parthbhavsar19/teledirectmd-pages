@@ -44,6 +44,8 @@ const DARK_RULES = [
   ['#tdmdStateGate .sg-payer input', 'background:#0f1f24;border-color:rgba(255,255,255,.40)'],
   ['#tdmdStateGate .sg-payer input:checked', 'border-color:var(--sg-teal)'],
   ['#tdmdStateGate .sg-payer:has(input:checked)', 'background:rgba(43,196,207,.08)'],
+  ['#tdmdStateGate .sg-segopt', 'background:#0f1f24;color:var(--sg-ink)'],
+  ['#tdmdStateGate .sg-segopt:has(input:checked)', 'background:rgba(43,196,207,.08);color:var(--sg-teal);box-shadow:0 0 0 3px rgba(43,196,207,.18)'],
   ['#tdmdStateGate .sg-state', 'stroke:#122028'],
   ['#tdmdStateGate #tdmdHatch rect', 'fill:#1a2c33'],
   ['#tdmdStateGate #tdmdHatch line', 'stroke:#2f444c'],
