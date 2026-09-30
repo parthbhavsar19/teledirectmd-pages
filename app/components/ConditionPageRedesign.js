@@ -198,6 +198,15 @@ export default function ConditionPageRedesign({
         .cpr-close p{color:#d7ebee;font-size:1.03rem;margin:0 0 1.5rem;}
         .cpr-answer{background:#EAF7F8;border-left:4px solid #006B73;border-radius:0 10px 10px 0;padding:.9rem 1.15rem;margin:1rem 0 1.1rem;}
         .cpr-answer p{margin:0;color:#003E52;font-size:1.02rem;line-height:1.55;font-weight:500;}
+
+        /* Condition video reel (vertical 9:16). Mobile-first: the frame fills the
+           viewport width up to a cap so the reel reads full-screen on a phone.
+           Desktop constrains it to a phone-like column on the right. */
+        .cpr-video-grid{display:grid;grid-template-columns:1fr;gap:1.5rem;align-items:center;}
+        .cpr-video-frame{position:relative;width:100%;max-width:430px;margin:0 auto;border-radius:18px;overflow:hidden;box-shadow:0 18px 44px rgba(0,30,46,.22);background:#012f3e;}
+        .cpr-video-frame video{display:block;width:100%;aspect-ratio:9/16;object-fit:cover;background:#012f3e;}
+        .cpr-video-copy h2{margin:0 0 .5rem;}
+        @media(min-width:761px){.cpr-video-grid{grid-template-columns:1fr 360px;}.cpr-video-frame{max-width:360px;margin:0 0 0 auto;}}
       `}</style>
 
       {/* HERO */}
@@ -230,6 +239,29 @@ export default function ConditionPageRedesign({
           </div>
         </div>
       </section>
+
+      {/* CONDITION VIDEO REEL (vertical 9:16) — one per condition, pairs the same
+          clip that publishes to Reels/TikTok/Shorts with the national page. */}
+      {c.conditionSlug && (
+        <section className="cpr-sec">
+          <div className="cpr-wrap cpr-video-grid">
+            <div className="cpr-video-copy">
+              <p className="cpr-kicker">Watch</p>
+              <h2>{clean(c.conditionName, stateName)} care in 30 seconds</h2>
+              <p className="cpr-lead">A quick rundown of who the visit is for, what the flat-fee visit includes, and when symptoms mean going in person instead. An MD reviews your case by secure video.</p>
+            </div>
+            <div className="cpr-video-frame">
+              <video
+                src={`/videos/conditions/${c.conditionSlug}.mp4`}
+                poster={`/videos/conditions-posters/${c.conditionSlug}.jpg`}
+                controls
+                playsInline
+                preload="metadata"
+              />
+            </div>
+          </div>
+        </section>
+      )}
 
       {/* PRICE + COMPARISON */}
       {bars.length > 0 && (
