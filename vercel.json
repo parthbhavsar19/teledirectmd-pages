@@ -5,6 +5,15 @@
   "trailingSlash": true,
   "routes": [
     {
+      "src": "/next-steps/?",
+      "dest": "/next-steps/page.html",
+      "headers": {
+        "X-Robots-Tag": "noindex, nofollow",
+        "X-Content-Type-Options": "nosniff",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      }
+    },
+    {
       "src": "/health-guides/telehealth-cold-sores-antiviral-timing/?",
       "headers": {
         "Location": "/health-guides/valacyclovir-for-cold-sores-guide/"

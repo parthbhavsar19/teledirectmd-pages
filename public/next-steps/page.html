@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <base href="/next-steps/">
+  <title>Before Your Visit | TeleDirectMD</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./base.css">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="header">
+    <button id="theme" type="button" aria-label="Switch color theme">Light / dark</button>
+    <a class="brand" href="https://teledirectmd.com" target="_blank" rel="noopener noreferrer" aria-label="TeleDirectMD home">
+      <img class="logo-light" src="./assets/logo.webp" width="500" height="211" alt="TeleDirectMD">
+      <img class="logo-dark" src="./assets/logo-dark.webp" width="500" height="200" alt="TeleDirectMD">
+    </a>
+  </header>
+  <main id="main">
+    <section class="intro" aria-labelledby="title">
+      <p class="eyebrow">BEFORE YOUR APPOINTMENT</p>
+      <h1 id="title">Your next step:<br>complete your intake form.</h1>
+      <p>A quick message from Dr. Bhavsar. Watch the 38-second video, then open your confirmation email to fill out your form.</p>
+    </section>
+    <section class="layout" aria-label="Video and visit instructions">
+      <figure class="video">
+        <video controls playsinline preload="none" poster="./assets/poster.jpg" aria-label="Dr. Bhavsar explains what to do before your appointment">
+          <source src="./assets/next-steps.mp4" type="video/mp4">
+          <track kind="captions" src="./assets/captions.vtt" srclang="en" label="English" default>
+          Your browser cannot play this video. Read the instructions beside it instead.
+        </video>
+        <figcaption>Dr. Bhavsar · 38 seconds · Sound on</figcaption>
+      </figure>
+      <section class="instructions" aria-labelledby="steps">
+        <h2 id="steps">Two steps. In this order.</h2>
+        <article class="step first">
+          <span class="number" aria-hidden="true">01</span>
+          <div><p class="eyebrow">DO THIS NOW</p><h3>Fill out your form</h3>
+          <p>Open your appointment confirmation email and tap <strong>“Fill Out My Form.”</strong> It takes about 3–5 minutes.</p>
+          <p class="requirement">Your intake form needs to be completed before your visit can begin.</p></div>
+        </article>
+        <article class="step">
+          <span class="number" aria-hidden="true">02</span>
+          <div><p class="eyebrow">AT YOUR APPOINTMENT TIME</p><h3>Join your video visit</h3>
+          <p>Return to your confirmation email and tap <strong>“Join My Video Visit.”</strong></p></div>
+        </article>
+        <p class="tip">Can’t find the email? Check your spam or junk folder. If it’s still missing, <a href="mailto:contact@teledirectmd.com" target="_blank" rel="noopener noreferrer">contact us</a>.</p>
+      </section>
+    </section>
+  </main>
+  <footer>TeleDirectMD · Before your visit</footer>
+  <script>
+    const root = document.documentElement;
+    root.dataset.theme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+    document.getElementById('theme').addEventListener('click', () => {
+      root.dataset.theme = root.dataset.theme === 'dark' ? 'light' : 'dark';
+    });
+  </script>
+</body>
+</html>
