@@ -437,15 +437,6 @@ export default function WhatWeTreatClient({ categories, conditionDescriptions, s
             Scope discipline is the product. These limits are written into every visit, not buried in a policy page.
           </p>
           <div className="wwt-scope-grid">
-            <div className="wwt-scope-item" data-prescribing-policy="scope" style={{ gridColumn: '1 / -1' }}>
-              <h3>IV/IM prescribing limits: EpiPen refill exception</h3>
-              <p>{PRESCRIBING_POLICY}</p>
-            </div>
-            <div className="wwt-scope-item" data-refill-policy="scope" style={{ gridColumn: '1 / -1' }}>
-              <h3>90-day refill limit, no exceptions</h3>
-              <p>{REFILL_POLICY}</p>
-              <p>{ED_REFILL_POLICY}</p>
-            </div>
             <div className="wwt-scope-item">
               <h3>Red-flag screening every visit</h3>
               <p>If your symptoms point to something that needs hands-on care, we say so and direct you to an ER or in-person clinic. No upsell.</p>
@@ -493,6 +484,28 @@ export default function WhatWeTreatClient({ categories, conditionDescriptions, s
             </a>
           </div>
           <p className="wwt-ins-all"><a href="/insurance">Check all coverage by state →</a></p>
+        </div>
+      </section>
+
+      {/* Prescribing limits */}
+      <section className="wwt-scope wwt-limits" id="wwt-limits">
+        <div className="wwt-container">
+          <span className="wwt-eyebrow">Prescribing limits</span>
+          <h2>Our prescribing limits, in one place.</h2>
+          <p className="wwt-scope-sub">
+            Two hard rules: no IV/IM medications except EpiPen refills, and a 90-day cap on every prescription, refills included.
+          </p>
+          <div className="wwt-scope-grid">
+            <div className="wwt-scope-item" data-prescribing-policy="scope" style={{ gridColumn: '1 / -1' }}>
+              <h3>IV/IM prescribing limits: EpiPen refill exception</h3>
+              <p>{PRESCRIBING_POLICY}</p>
+            </div>
+            <div className="wwt-scope-item" data-refill-policy="scope" style={{ gridColumn: '1 / -1' }}>
+              <h3>90-day refill limit, no exceptions</h3>
+              <p>{REFILL_POLICY}</p>
+              <p>{ED_REFILL_POLICY}</p>
+            </div>
+          </div>
         </div>
       </section>
 
