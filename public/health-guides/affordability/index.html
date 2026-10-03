@@ -7,6 +7,13 @@
 <meta name="description" content="Evidence-based guides to deductibles, coinsurance, out-of-pocket costs, medical bills, and medical debt. Written for patients and reviewed by a physician.">
 <link rel="canonical" href="https://teledirectmd.com/health-guides/affordability/">
 <meta name="robots" content="index, follow">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Paying for Care in America | TeleDirectMD Health Guides">
+<meta property="og:description" content="Evidence-based guides to health insurance, out-of-pocket costs, and medical debt.">
+<meta property="og:url" content="https://teledirectmd.com/health-guides/affordability/">
+<meta property="og:image" content="https://teledirectmd.com/health-guides/affordability/why-insured-cannot-afford-care/images/hero-why-insured-cannot-afford-care.png">
+<meta property="og:site_name" content="TeleDirectMD Health Guides">
+<meta name="twitter:card" content="summary_large_image">
 <style>
 /* ===== CSS Reset & Variables ===== */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -449,10 +456,41 @@ sup a:hover { text-decoration: underline; }
 .tdmd-article-figure { margin: 1.5rem 0; }
 .tdmd-article-figure img { width: 100%; height: auto; border-radius: var(--tdmd-radius); display: block; }
 .tdmd-article-figure figcaption { font-size: 0.85rem; color: var(--tdmd-muted); text-align: center; margin-top: 0.5rem; line-height: 1.5; }
+
+/* ===== Affordability section ===== */
+.aff-wrap { background: linear-gradient(180deg, #f3fafb 0%, #ffffff 18%); }
+.aff-hero { position: relative; padding: 3.5rem 0 3rem; text-align: center; overflow: hidden; background: linear-gradient(135deg, #0e3d4d 0%, #003e52 55%, #006b73 100%); color: #fff; border-radius: 0 0 28px 28px; }
+.aff-hero::before { content:""; position:absolute; width:560px; height:560px; right:-160px; top:-220px; border-radius:50%; background: radial-gradient(circle, rgba(240,100,73,0.35) 0%, transparent 70%); }
+.aff-hero::after { content:""; position:absolute; width:420px; height:420px; left:-140px; bottom:-220px; border-radius:50%; background: radial-gradient(circle, rgba(255,255,255,0.10) 0%, transparent 70%); }
+.aff-hero-inner { position: relative; z-index:1; max-width:760px; margin:0 auto; }
+.aff-eyebrow { display:inline-block; font-size:0.72rem; font-weight:700; letter-spacing:0.14em; text-transform:uppercase; color:#7fd8d0; margin-bottom:0.9rem; }
+.aff-hero h1 { color:#fff; font-size:clamp(2rem, 4vw, 2.9rem); letter-spacing:-0.02em; margin:0 0 1rem; }
+.aff-hero-sub { color:#d6e8ea; font-size:1.12rem; line-height:1.65; max-width:600px; margin:0 auto 1.6rem; }
+.aff-hero-meta { display:flex; gap:1.25rem; justify-content:center; flex-wrap:wrap; }
+.aff-hero-meta .aff-chip { background:rgba(255,255,255,0.10); border:1px solid rgba(255,255,255,0.18); border-radius:999px; padding:0.45rem 0.95rem; font-size:0.82rem; color:#eaf4f5; }
+.aff-hero-meta .aff-chip strong { color:#fff; font-weight:700; }
+.aff-intro { max-width:760px; margin:0 auto; text-align:center; padding:2.5rem 1rem 0.5rem; }
+.aff-intro h2 { font-size:1.4rem; margin-bottom:0.6rem; }
+.aff-intro p { color:var(--tdmd-muted); line-height:1.7; font-size:0.98rem; }
+.aff-grid { display:grid; grid-template-columns:repeat(auto-fill, minmax(300px,1fr)); gap:1.4rem; padding:2rem 0 3.5rem; }
+.aff-card { display:flex; flex-direction:column; background:var(--tdmd-white); border:1px solid var(--tdmd-border); border-radius:var(--tdmd-radius); overflow:hidden; color:inherit; transition:border-color .2s, box-shadow .2s, transform .2s; }
+.aff-card:hover { border-color:var(--tdmd-teal); box-shadow:0 10px 28px rgba(0,62,82,0.12); transform:translateY(-3px); }
+.aff-thumb { aspect-ratio:3/2; overflow:hidden; background:#0e3d4d; }
+.aff-thumb img { width:100%; height:100%; object-fit:cover; display:block; transition:transform .4s ease; }
+.aff-card:hover .aff-thumb img { transform:scale(1.05); }
+.aff-body { padding:1.1rem 1.2rem 1.2rem; display:flex; flex-direction:column; flex:1; }
+.aff-badge { align-self:flex-start; font-size:0.66rem; font-weight:700; text-transform:uppercase; letter-spacing:0.07em; color:var(--tdmd-teal); background:var(--tdmd-bg-soft); padding:0.24rem 0.55rem; border-radius:5px; margin-bottom:0.6rem; }
+.aff-title { font-size:1.06rem; font-weight:700; color:var(--tdmd-navy); line-height:1.32; margin:0 0 0.5rem; }
+.aff-card:hover .aff-title { color:var(--tdmd-teal); }
+.aff-desc { font-size:0.88rem; color:var(--tdmd-muted); line-height:1.55; margin:0 0 0.85rem; flex:1; }
+.aff-meta { font-size:0.78rem; color:var(--tdmd-muted); display:flex; align-items:center; justify-content:space-between; border-top:1px solid var(--tdmd-bg-soft); padding-top:0.7rem; }
+.aff-arrow { color:var(--tdmd-accent); font-weight:700; font-size:1rem; transition:transform .2s; }
+.aff-card:hover .aff-arrow { transform:translateX(3px); }
+@media (max-width:640px) { .aff-hero { padding:2.5rem 0 2.2rem; border-radius:0 0 20px 20px; } .aff-hero-meta { gap:0.6rem; } .aff-grid { grid-template-columns:1fr; } }
 </style>
 </head>
 <body>
-<script src="../dark-mode.js"></script>
+<script src="/health-guides/dark-mode.js"></script>
 <nav class="tdmd-nav" role="navigation" aria-label="Main navigation">
  <div class="tdmd-nav-inner">
  <a href="/health-guides/" class="tdmd-nav-logo" aria-label="TeleDirectMD Health Guides">
@@ -474,29 +512,121 @@ sup a:hover { text-decoration: underline; }
  </div>
 </nav>
 <main>
+<div class="aff-wrap">
+<div class="aff-hero">
+  <div class="aff-hero-inner">
+    <span class="aff-eyebrow">TeleDirectMD Health Guides</span>
+    <h1>Paying for Care in America</h1>
+    <p class="aff-hero-sub">Plain, evidence-based guides to health insurance, out-of-pocket costs, medical bills, and medical debt. Written for patients, reviewed by a physician, and free of any pitch.</p>
+    <div class="aff-hero-meta">
+      <span class="aff-chip"><strong>10</strong>&nbsp;guides</span>
+      <span class="aff-chip">Reviewed by <strong>Parth Bhavsar, MD</strong></span>
+      <span class="aff-chip">Sourced from <strong>CMS, KFF, IRS</strong></span>
+    </div>
+  </div>
+</div>
 <div class="tdmd-container">
-<nav class="tdmd-breadcrumb" aria-label="Breadcrumb">
-<a href="https://teledirectmd.com">Home</a><span>&rsaquo;</span>
-<a href="https://teledirectmd.com/health-guides/">Health Guides</a><span>&rsaquo;</span>
-<span aria-current="page">Paying for Care</span>
-</nav>
-<header class="tdmd-article-header">
-<span class="tdmd-badge">Evidence-Based Library</span>
-<h1 class="tdmd-article-title">Paying for Care in America</h1>
-<p class="tdmd-article-subtitle">Plain, evidence-based guides to health insurance, out-of-pocket costs, medical bills, and medical debt. Written for patients, sourced from federal agencies and health-policy research, and free of any pitch.</p>
-</header>
-<div class="tdmd-afford-grid" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:18px;padding:1rem 0 3rem;">
-<style>.tdmd-card{display:block;background:var(--tdmd-white,#fff);border:1px solid #e3e8ec;border-radius:12px;padding:1.1rem 1.2rem;color:inherit;}.tdmd-card h3{margin:0 0 .4rem;font-size:1.15rem;color:#0A2438;font-weight:700;}.tdmd-card p{margin:0 0 .6rem;color:#456676;font-size:.92rem;}.tdmd-card span{font-size:.72rem;text-transform:uppercase;letter-spacing:.06em;color:#006B73;font-weight:700;}.tdmd-card:hover{border-color:#0f7f78;text-decoration:none;}</style>
-<a class="tdmd-card" href="/health-guides/affordability/what-is-coinsurance/"><h3>What Is Coinsurance?</h3><p>The percentage you pay after your deductible, with real examples and 2026 Medicare numbers.</p><span>Insurance basics</span></a>
-<a class="tdmd-card" href="/health-guides/affordability/copay-vs-coinsurance-vs-deductible/"><h3>Copay vs Coinsurance vs Deductible</h3><p>The difference between these three cost-sharing terms and how they stack.</p><span>Insurance basics</span></a>
-<a class="tdmd-card" href="/health-guides/affordability/out-of-pocket-maximum/"><h3>What Is an Out-of-Pocket Maximum?</h3><p>The yearly cap on covered care, the 2026 limits, and family embedded limits.</p><span>Insurance basics</span></a>
-<a class="tdmd-card" href="/health-guides/affordability/what-is-an-eob/"><h3>What Is an EOB?</h3><p>How to read an explanation of benefits field by field.</p><span>Insurance basics</span></a>
-<a class="tdmd-card" href="/health-guides/affordability/what-care-costs-without-insurance/"><h3>What Care Costs Without Insurance</h3><p>Doctor and urgent care costs without insurance, and when cash beats your plan.</p><span>Costs and prices</span></a>
-<a class="tdmd-card" href="/health-guides/affordability/does-medical-debt-affect-credit/"><h3>Does Medical Debt Affect Your Credit?</h3><p>What medical debt does to your credit after the federal rule was vacated.</p><span>Debt and billing</span></a>
-<a class="tdmd-card" href="/health-guides/affordability/hospital-financial-assistance/"><h3>Hospital Financial Assistance</h3><p>Charity care: who qualifies, what hospitals must offer, and how to apply.</p><span>Debt and billing</span></a>
-<a class="tdmd-card" href="/health-guides/affordability/what-to-do-when-you-cannot-pay/"><h3>What to Do When You Cannot Pay</h3><p>The step-by-step order for a bill you cannot afford.</p><span>Debt and billing</span></a>
-<a class="tdmd-card" href="/health-guides/affordability/surprise-medical-bills/"><h3>Surprise Medical Bills</h3><p>Your rights under the No Surprises Act, and the ground-ambulance gap.</p><span>Debt and billing</span></a>
-<a class="tdmd-card" href="/health-guides/affordability/why-insured-cannot-afford-care/"><h3>Why You Cannot Afford Care With Insurance</h3><p>The numbers behind why insured people still skip care and carry debt.</p><span>Why it matters</span></a>
+  <nav class="tdmd-breadcrumb" aria-label="Breadcrumb" style="margin-top:1.2rem;">
+    <a href="https://teledirectmd.com">Home</a><span>&rsaquo;</span>
+    <a href="https://teledirectmd.com/health-guides/">Health Guides</a><span>&rsaquo;</span>
+    <span aria-current="page">Paying for Care</span>
+  </nav>
+  <div class="aff-intro">
+    <h2>The cost side of staying well</h2>
+    <p>Most health guides explain symptoms and treatments. These explain how to pay for care without being blindsided by it. Each guide stands alone, so start with the question you are facing right now.</p>
+  </div>
+  <div class="aff-grid">
+<a class="aff-card" href="/health-guides/affordability/why-insured-cannot-afford-care/">
+  <div class="aff-thumb"><img src="/health-guides/affordability/why-insured-cannot-afford-care/images/hero-why-insured-cannot-afford-care.png" alt="Why Insured Patients Still Cannot Afford Care" loading="lazy" width="600" height="400"></div>
+  <div class="aff-body">
+    <span class="aff-badge">Why it matters</span>
+    <h3 class="aff-title">Why Insured Patients Still Cannot Afford Care</h3>
+    <p class="aff-desc">The numbers behind why coverage is not the same as affordability.</p>
+    <span class="aff-meta">8 min read<span class="aff-arrow">&rarr;</span></span>
+  </div>
+</a>
+<a class="aff-card" href="/health-guides/affordability/what-is-coinsurance/">
+  <div class="aff-thumb"><img src="/health-guides/affordability/what-is-coinsurance/images/hero-what-is-coinsurance.png" alt="What Is Coinsurance?" loading="lazy" width="600" height="400"></div>
+  <div class="aff-body">
+    <span class="aff-badge">Insurance basics</span>
+    <h3 class="aff-title">What Is Coinsurance?</h3>
+    <p class="aff-desc">The percentage you pay after your deductible, with real examples and 2026 Medicare figures.</p>
+    <span class="aff-meta">6 min read<span class="aff-arrow">&rarr;</span></span>
+  </div>
+</a>
+<a class="aff-card" href="/health-guides/affordability/copay-vs-coinsurance-vs-deductible/">
+  <div class="aff-thumb"><img src="/health-guides/affordability/copay-vs-coinsurance-vs-deductible/images/hero-copay-vs-coinsurance-vs-deductible.png" alt="Copay vs Coinsurance vs Deductible" loading="lazy" width="600" height="400"></div>
+  <div class="aff-body">
+    <span class="aff-badge">Insurance basics</span>
+    <h3 class="aff-title">Copay vs Coinsurance vs Deductible</h3>
+    <p class="aff-desc">How the three cost-sharing terms differ and stack together.</p>
+    <span class="aff-meta">7 min read<span class="aff-arrow">&rarr;</span></span>
+  </div>
+</a>
+<a class="aff-card" href="/health-guides/affordability/out-of-pocket-maximum/">
+  <div class="aff-thumb"><img src="/health-guides/affordability/out-of-pocket-maximum/images/hero-out-of-pocket-maximum.png" alt="What Is an Out-of-Pocket Maximum?" loading="lazy" width="600" height="400"></div>
+  <div class="aff-body">
+    <span class="aff-badge">Insurance basics</span>
+    <h3 class="aff-title">What Is an Out-of-Pocket Maximum?</h3>
+    <p class="aff-desc">The yearly cap on covered care, the 2026 limits, and how it works.</p>
+    <span class="aff-meta">6 min read<span class="aff-arrow">&rarr;</span></span>
+  </div>
+</a>
+<a class="aff-card" href="/health-guides/affordability/what-is-an-eob/">
+  <div class="aff-thumb"><img src="/health-guides/affordability/what-is-an-eob/images/hero-what-is-an-eob.png" alt="What Is an EOB?" loading="lazy" width="600" height="400"></div>
+  <div class="aff-body">
+    <span class="aff-badge">Insurance basics</span>
+    <h3 class="aff-title">What Is an EOB?</h3>
+    <p class="aff-desc">How to read an explanation of benefits, field by field.</p>
+    <span class="aff-meta">6 min read<span class="aff-arrow">&rarr;</span></span>
+  </div>
+</a>
+<a class="aff-card" href="/health-guides/affordability/what-care-costs-without-insurance/">
+  <div class="aff-thumb"><img src="/health-guides/affordability/what-care-costs-without-insurance/images/hero-what-care-costs-without-insurance.png" alt="What Care Costs Without Insurance" loading="lazy" width="600" height="400"></div>
+  <div class="aff-body">
+    <span class="aff-badge">Costs and prices</span>
+    <h3 class="aff-title">What Care Costs Without Insurance</h3>
+    <p class="aff-desc">Doctor and urgent care prices when you pay yourself.</p>
+    <span class="aff-meta">7 min read<span class="aff-arrow">&rarr;</span></span>
+  </div>
+</a>
+<a class="aff-card" href="/health-guides/affordability/does-medical-debt-affect-credit/">
+  <div class="aff-thumb"><img src="/health-guides/affordability/does-medical-debt-affect-credit/images/hero-does-medical-debt-affect-credit.png" alt="Does Medical Debt Affect Your Credit?" loading="lazy" width="600" height="400"></div>
+  <div class="aff-body">
+    <span class="aff-badge">Debt and billing</span>
+    <h3 class="aff-title">Does Medical Debt Affect Your Credit?</h3>
+    <p class="aff-desc">What medical debt does to your credit after the federal rule was vacated.</p>
+    <span class="aff-meta">6 min read<span class="aff-arrow">&rarr;</span></span>
+  </div>
+</a>
+<a class="aff-card" href="/health-guides/affordability/hospital-financial-assistance/">
+  <div class="aff-thumb"><img src="/health-guides/affordability/hospital-financial-assistance/images/hero-hospital-financial-assistance.png" alt="Hospital Financial Assistance" loading="lazy" width="600" height="400"></div>
+  <div class="aff-body">
+    <span class="aff-badge">Debt and billing</span>
+    <h3 class="aff-title">Hospital Financial Assistance</h3>
+    <p class="aff-desc">Charity care: who qualifies, what hospitals must offer, and how to apply.</p>
+    <span class="aff-meta">7 min read<span class="aff-arrow">&rarr;</span></span>
+  </div>
+</a>
+<a class="aff-card" href="/health-guides/affordability/what-to-do-when-you-cannot-pay/">
+  <div class="aff-thumb"><img src="/health-guides/affordability/what-to-do-when-you-cannot-pay/images/hero-what-to-do-when-you-cannot-pay.png" alt="What to Do When You Cannot Pay" loading="lazy" width="600" height="400"></div>
+  <div class="aff-body">
+    <span class="aff-badge">Debt and billing</span>
+    <h3 class="aff-title">What to Do When You Cannot Pay</h3>
+    <p class="aff-desc">The step-by-step order for handling a bill you cannot afford.</p>
+    <span class="aff-meta">8 min read<span class="aff-arrow">&rarr;</span></span>
+  </div>
+</a>
+<a class="aff-card" href="/health-guides/affordability/surprise-medical-bills/">
+  <div class="aff-thumb"><img src="/health-guides/affordability/surprise-medical-bills/images/hero-surprise-medical-bills.png" alt="Surprise Medical Bills" loading="lazy" width="600" height="400"></div>
+  <div class="aff-body">
+    <span class="aff-badge">Debt and billing</span>
+    <h3 class="aff-title">Surprise Medical Bills</h3>
+    <p class="aff-desc">Your rights under the No Surprises Act, and the ground-ambulance gap.</p>
+    <span class="aff-meta">7 min read<span class="aff-arrow">&rarr;</span></span>
+  </div>
+</a>
+  </div>
 </div>
 </div>
 </main>
