@@ -108,6 +108,7 @@ const STYLES = `
     display:grid;grid-template-columns:1.1fr 1fr;gap:48px;align-items:center;
     position:relative;z-index:1;
   }
+  .ins-hero-inner > *{min-width:0;}
   @media(max-width:860px){.ins-hero-inner{grid-template-columns:1fr;gap:32px;}}
   .ins-hero-left h1{
     font-family:'Fraunces',Georgia,serif;
@@ -118,7 +119,7 @@ const STYLES = `
   .ins-hero-left h1 .accent{color:var(--tdmd-accent);}
   .ins-hero-left p{font-size:18px;color:#c9ccd6;margin:0 0 24px;max-width:480px;line-height:1.5;}
   .ins-hero-stats{
-    display:flex;gap:32px;margin-top:32px;padding-top:24px;border-top:1px solid rgba(255,255,255,0.15);
+    display:flex;flex-wrap:wrap;gap:32px;row-gap:16px;margin-top:32px;padding-top:24px;border-top:1px solid rgba(255,255,255,0.15);
   }
   .ins-stat .n{font-size:30px;font-weight:800;color:#fff;font-variant-numeric:tabular-nums;letter-spacing:-0.02em;}
   .ins-stat .l{font-size:12px;color:#a6abb8;text-transform:uppercase;letter-spacing:0.08em;font-weight:700;margin-top:2px;}
@@ -145,6 +146,10 @@ const STYLES = `
   }
   .ins-madlibs .ins-sel:focus{outline:none;border-bottom-color:var(--tdmd-accent-hover);}
   .ins-madlibs .ins-sel:disabled{opacity:0.5;cursor:not-allowed;}
+  @media(max-width:860px){
+    .ins-madlib-line{display:block;}
+    .ins-madlibs .ins-sel{display:block;width:100%;max-width:100%;box-sizing:border-box;margin:6px 0 2px;}
+  }
   .ins-check-btn{
     width:100%;
     padding:16px;
@@ -526,21 +531,23 @@ export default function InsuranceClient() {
             <p className="ins-checker-sub">Two questions, one answer.</p>
 
             <p className="ins-madlibs">
-              I am in{' '}
-              <select className="ins-sel" value={stateAbbr} onChange={e => setStateAbbr(e.target.value)} aria-label="Select your state">
-                <option value="">your state</option>
-                {ALL_US_STATES.map(([abbr, name]) => (
-                  <option key={abbr} value={abbr}>{name}</option>
-                ))}
-              </select>
-              {' '}and I have{' '}
-              <select className="ins-sel" value={payer} onChange={e => setPayer(e.target.value)} disabled={!stateAbbr} aria-label="Select your insurer">
-                <option value="">your insurance</option>
-                {PAYER_FAMILIES.map(f => (
-                  <option key={f.id} value={f.id}>{f.label}</option>
-                ))}
-              </select>
-              {'.'}
+              <span className="ins-madlib-line">I am in{' '}
+                <select className="ins-sel" value={stateAbbr} onChange={e => setStateAbbr(e.target.value)} aria-label="Select your state">
+                  <option value="">your state</option>
+                  {ALL_US_STATES.map(([abbr, name]) => (
+                    <option key={abbr} value={abbr}>{name}</option>
+                  ))}
+                </select>
+              </span>{' '}
+              <span className="ins-madlib-line">and I have{' '}
+                <select className="ins-sel" value={payer} onChange={e => setPayer(e.target.value)} disabled={!stateAbbr} aria-label="Select your insurer">
+                  <option value="">your insurance</option>
+                  {PAYER_FAMILIES.map(f => (
+                    <option key={f.id} value={f.id}>{f.label}</option>
+                  ))}
+                </select>
+                {'.'}
+              </span>
             </p>
 
             <button type="submit" className="ins-check-btn" disabled={!canCheck}>
