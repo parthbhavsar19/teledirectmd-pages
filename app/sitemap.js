@@ -269,5 +269,22 @@ const PILOT_COHORT_BY_STATE = {
     console.warn('[sitemap] could not enumerate /public/health-guides:', err.message);
   }
 
+  // 13b) Affordability guides (/health-guides/affordability/{slug}/)
+  //     Nested one level below the main library; enumerated separately so the
+  //     'Paying for Care in America' section is discoverable.
+  try {
+    const affRoot = path.join(process.cwd(), 'public', 'health-guides', 'affordability');
+    const affEntries = fs.readdirSync(affRoot, { withFileTypes: true });
+    for (const e of affEntries) {
+      if (!e.isDirectory()) continue;
+      const indexPath = path.join(affRoot, e.name, 'index.html');
+      if (fs.existsSync(indexPath)) {
+        urls.push(url(`/health-guides/affordability/${e.name}/`, 0.8, 'monthly'));
+      }
+    }
+  } catch (err) {
+    console.warn('[sitemap] could not enumerate /health-guides/affordability:', err.message);
+  }
+
   return urls;
 }
