@@ -61,5 +61,5 @@ export default async function UnifiedSlugPage({ params }) {
   }
 
   /* Otherwise, render the national condition page */
-  return <PrescribingPolicyScope conditionSlug={slug} showNotice={false}><NationalConditionPage conditionSlug={slug} /></PrescribingPolicyScope>;
+  return <PrescribingPolicyScope conditionSlug={slug}><NationalConditionPage conditionSlug={slug} /></PrescribingPolicyScope>;
 }
