@@ -175,17 +175,9 @@ import('data:text/javascript;base64,' + Buffer.from(src).toString('base64')).the
         footer_count += 1
         scoped = (parts[0] in states or parts[0] in conditions or parts[0] in scoped_families
                   or parts[:2] == ("faq", "deep-dive"))
-        is_condition_page = (
-            (parts[0] in conditions and len(parts) == 2)
-            or (parts[0] in states and len(parts) == 3 and parts[1] in conditions)
-        )
         if scoped:
             assert 'data-prescribing-policy="faq"' in html, f"{parts}: prescribing FAQ missing"
-            has_notice = 'data-prescribing-policy="notice"' in html
-            if is_condition_page:
-                assert not has_notice, f"{parts}: booking notice should be removed from condition pages"
-            else:
-                assert has_notice, f"{parts}: booking notice missing"
+            assert 'data-prescribing-policy="notice"' not in html, f"{parts}: booking notice should be removed"
             scoped_count += 1
     assert scoped_count > 1000, "Static route generation unexpectedly shrank"
 
@@ -212,17 +204,9 @@ import('data:text/javascript;base64,' + Buffer.from(src).toString('base64')).the
         root = load(route)
         faq_alignment(root, route)
         if route != "/faq/":
-            segs = [s for s in route.strip("/").split("/") if s]
-            is_condition_route = (
-                (len(segs) == 1 and segs[0] in conditions)
-                or (len(segs) == 2 and segs[0] in states and segs[1] in conditions)
-            )
             main_content = next(el for el in root.all("main") if el.attrs.get("id") == "main-content")
             notices = [el for el in main_content.all("aside") if el.attrs.get("data-prescribing-policy") == "notice"]
-            if is_condition_route:
-                assert not notices, f"{route}: booking notice should be removed from condition pages"
-            else:
-                assert len(notices) == 1 and SHORT in normalize(notices[0].text()), f"{route}: policy absent from main booking content"
+            assert not notices, f"{route}: booking notice should be removed"
         slug = route.strip("/").split("/")[-1]
         if slug in module["specific"]:
             specific = module["specific"][slug][1]
@@ -235,7 +219,7 @@ import('data:text/javascript;base64,' + Buffer.from(src).toString('base64')).the
     faq_alignment(load("/faq/"), "/faq/", REFILL_Q, REFILL)
     assert ED_REFILL in normalize(load("/terms-of-service/").text()), "Terms missing ED refill policy"
     for route in ["/visit-ready/"]:
-        assert any(el.attrs.get("data-prescribing-policy") == "notice" for el in load(route).all("aside"))
+        assert not any(el.attrs.get("data-prescribing-policy") == "notice" for el in load(route).all("aside")), f"{route}: booking notice should be removed"
     # Existing service-specific GLP-1 criteria must not be changed by this route policy.
     faq_alignment(load("/faq/"), "/faq/", "What about GLP-1 or weight-loss medications?",
                   "TeleDirectMD does not prescribe GLP-1 agonists (such as semaglutide or tirzepatide) or other weight-loss medications. These require ongoing monitoring and management that falls outside the scope of episodic urgent-care telemedicine.")
