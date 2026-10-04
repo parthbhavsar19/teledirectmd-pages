@@ -33,10 +33,10 @@ export function PrescribingPolicyFaq({ conditionSlug }) {
 
 // Wrapping route families covers custom CA/VT components and future template
 // changes without copying the policy into dozens of independent components.
-export default function PrescribingPolicyScope({ children, conditionSlug }) {
+export default function PrescribingPolicyScope({ children, conditionSlug, showNotice = true }) {
   return (
     <>
-      <PrescribingPolicyNotice conditionSlug={conditionSlug} />
+      {showNotice && <PrescribingPolicyNotice conditionSlug={conditionSlug} />}
       {children}
       <PrescribingPolicyFaq conditionSlug={conditionSlug} />
     </>
