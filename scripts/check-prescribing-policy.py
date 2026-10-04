@@ -167,17 +167,25 @@ import('data:text/javascript;base64,' + Buffer.from(src).toString('base64')).the
     footer_count = 0
     for path in OUT.rglob("*.html"):
         parts = path.relative_to(OUT).parts
-        if parts[0] == "health-guides":
-            continue  # Independent static editorial content is intentionally untouched.
+        if parts[0] in ("health-guides", "next-steps"):
+            continue  # Independent static pages without the shared footer are intentionally untouched.
         html = path.read_text()
         assert 'data-prescribing-policy="footer"' in html and POLICY in html, f"{parts}: shared footer policy missing"
         assert 'data-refill-policy="footer"' in html and REFILL in html, f"{parts}: footer refill policy missing"
         footer_count += 1
         scoped = (parts[0] in states or parts[0] in conditions or parts[0] in scoped_families
                   or parts[:2] == ("faq", "deep-dive"))
+        is_condition_page = (
+            (parts[0] in conditions and len(parts) == 2)
+            or (parts[0] in states and len(parts) == 3 and parts[1] in conditions)
+        )
         if scoped:
-            assert 'data-prescribing-policy="notice"' in html, f"{parts}: booking notice missing"
             assert 'data-prescribing-policy="faq"' in html, f"{parts}: prescribing FAQ missing"
+            has_notice = 'data-prescribing-policy="notice"' in html
+            if is_condition_page:
+                assert not has_notice, f"{parts}: booking notice should be removed from condition pages"
+            else:
+                assert has_notice, f"{parts}: booking notice missing"
             scoped_count += 1
     assert scoped_count > 1000, "Static route generation unexpectedly shrank"
 
@@ -199,22 +207,26 @@ import('data:text/javascript;base64,' + Buffer.from(src).toString('base64')).the
         root = load(route)
         faq_alignment(root, route, REFILL_Q, REFILL)
         faq_alignment(root, route, ED_REFILL_Q, ED_REFILL)
-        assert any(el.attrs.get("data-refill-policy") == "ed-notice" for el in root.all("span")), f"{route}: ED refill notice missing"
     faq_alignment(load("/uti-treatment-online/"), "/uti-treatment-online/", REFILL_Q, REFILL)
-    assert not any(el.attrs.get("data-refill-policy") == "ed-notice" for el in load("/uti-treatment-online/").all("span"))
     for route in routes:
         root = load(route)
         faq_alignment(root, route)
         if route != "/faq/":
+            segs = [s for s in route.strip("/").split("/") if s]
+            is_condition_route = (
+                (len(segs) == 1 and segs[0] in conditions)
+                or (len(segs) == 2 and segs[0] in states and segs[1] in conditions)
+            )
             main_content = next(el for el in root.all("main") if el.attrs.get("id") == "main-content")
             notices = [el for el in main_content.all("aside") if el.attrs.get("data-prescribing-policy") == "notice"]
-            assert len(notices) == 1 and SHORT in normalize(notices[0].text()), f"{route}: policy absent from main booking content"
+            if is_condition_route:
+                assert not notices, f"{route}: booking notice should be removed from condition pages"
+            else:
+                assert len(notices) == 1 and SHORT in normalize(notices[0].text()), f"{route}: policy absent from main booking content"
         slug = route.strip("/").split("/")[-1]
         if slug in module["specific"]:
             specific = module["specific"][slug][1]
             faq_alignment(root, route, specific["question"], specific["answer"])
-            if slug == "epipen-refills-online":
-                assert "EpiPen auto-injector refills are the only IM exception, when clinically appropriate." in normalize(notices[0].text()), f"{route}: affirmative EpiPen exception absent from notice"
     scope = load("/what-we-treat/")
     assert any(el.attrs.get("data-prescribing-policy") == "scope" and POLICY in normalize(el.text())
                for el in scope.all()), "What We Treat scope section missing policy"
