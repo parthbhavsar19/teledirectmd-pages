@@ -89,20 +89,20 @@ const STYLES = `
       --tdmd-muted:#8fa8b2;
       --tdmd-cream:#1a201d;
     }
-    .ins-checker-title{color:#9fc1cf;}
-    .ins-checker-sub,
-    .ins-madlibs,
-    .ins-madlibs .ins-sel,
-    .ins-check-note strong,
-    .ins-result-headline,
-    .ins-grid-v,
-    .ins-copay-callout strong,
-    .ins-faq h2,
-    .ins-faq-item summary{color:#e2edf0;}
-    .ins-btn-ghost{color:#e2edf0;border-color:#3f5a6b;}
-    .ins-plan-note{background:#221b12;border-color:#5a4318;color:#efe5d2;}
-    .ins-plan-note strong{color:#e6b45a;}
-    .ins-copay-callout,.ins-result-grid{border-color:#4a3028;}
+    .ins-page .ins-checker-title{color:#9fc1cf;}
+    .ins-page .ins-checker-sub,
+    .ins-page .ins-madlibs,
+    .ins-page .ins-madlibs .ins-sel,
+    .ins-page .ins-check-note strong,
+    .ins-page .ins-result-headline,
+    .ins-page .ins-grid-v,
+    .ins-page .ins-copay-callout strong,
+    .ins-page .ins-faq h2,
+    .ins-page .ins-faq-item summary{color:#e2edf0;}
+    .ins-page .ins-btn-ghost{color:#e2edf0;border-color:#3f5a6b;}
+    .ins-page .ins-plan-note{background:#221b12;border-color:#5a4318;color:#efe5d2;}
+    .ins-page .ins-plan-note strong{color:#e6b45a;}
+    .ins-page .ins-copay-callout,.ins-page .ins-result-grid{border-color:#4a3028;}
   }
   .ins-hero{
     background:var(--tdmd-navy);
