@@ -3,6 +3,7 @@ import { page, pageHead, clinicalByline, sourceList, icon, esc } from "../lib/la
 import { refSet } from "../../content/refs.mjs";
 import { SITE } from "../../content/site.mjs";
 import { fmtDate } from "../lib/derive.mjs";
+import { birdFluWatchBox } from "../lib/local.mjs";
 
 export const CHECKED = "October 5, 2026";
 
@@ -81,6 +82,7 @@ export default async function ({ data, emit }) {
   <p>The two-day window applies to people who are otherwise healthy and have an ordinary course of flu. For people who are hospitalized, or whose illness is severe or getting worse, observational studies show benefit even when treatment starts after 48 hours, and CDC recommends treating them regardless of when symptoms began.${c("cdcAntiviralClin", "cdcCoca2025")}</p>
 
   <h2 id="medicines">The four FDA-approved flu antivirals</h2>
+  <div id="shortage-badge"></div>
 </article>
 <aside style="display:grid;gap:16px;align-content:start;position:sticky;top:80px">${ctaBox()}
 <div class="callout crit"><p class="callout-title">${icon.alert}Go to an emergency department for</p><p>trouble breathing, chest pain or pressure, confusion, a seizure, or not urinating. <a href="warning-signs.html">All warning signs</a></p></div></aside>
@@ -89,7 +91,7 @@ export default async function ({ data, emit }) {
 <thead><tr><th>Medicine</th><th>How it's taken</th><th>Course</th><th>Approved ages for treatment</th><th>Good to know</th></tr></thead>
 <tbody>
 <tr><td><b>Oseltamivir</b><br><span class="muted small">Tamiflu, generic</span></td><td>Capsule or liquid by mouth</td><td>Twice a day for 5 days</td><td>2 weeks and older (CDC also supports use in younger infants)${c("tamifluLabel", "cdcAntiviralClin")}</td><td>The preferred choice in pregnancy, for hospitalized patients, and for severe or worsening illness.${c("cdcAntiviralClin")} Taking it with food reduces nausea.</td></tr>
-<tr><td><b>Baloxavir marboxil</b><br><span class="muted small">Xofluza, generic since June 2026</span></td><td>Tablets by mouth</td><td>One dose</td><td>5 years and older, healthy or higher-risk${c("xofluzaLabel", "fdaGenericBaloxavir")}</td><td>CDC lists it alongside oseltamivir for higher-risk outpatients seen within 48 hours.${c("cdcCoca2025")} Not recommended in pregnancy, while breastfeeding, or alone for severely immunocompromised patients.${c("cdcAntiviralClin")} Do not take with dairy, calcium-fortified drinks, antacids, or supplements containing calcium, iron, magnesium, or zinc.${c("xofluzaLabel")}</td></tr>
+<tr><td><b>Baloxavir marboxil</b><br><span class="muted small">Xofluza; a generic was FDA-approved June 2026, launch date not announced</span></td><td>Tablets by mouth</td><td>One dose</td><td>5 years and older, healthy or higher-risk${c("xofluzaLabel", "fdaGenericBaloxavir")}</td><td>CDC lists it alongside oseltamivir for higher-risk outpatients seen within 48 hours.${c("cdcCoca2025")} Not recommended in pregnancy, while breastfeeding, or alone for severely immunocompromised patients.${c("cdcAntiviralClin")} Do not take with dairy, calcium-fortified drinks, antacids, or supplements containing calcium, iron, magnesium, or zinc.${c("xofluzaLabel")}</td></tr>
 <tr><td><b>Zanamivir</b><br><span class="muted small">Relenza</span></td><td>Inhaled powder</td><td>Twice a day for 5 days</td><td>7 years and older${c("relenzaLabel")}</td><td>Not for people with asthma, COPD, or other airway disease, because it can trigger bronchospasm.${c("relenzaLabel", "cdcAntiviralClin")} Contains milk proteins.</td></tr>
 <tr><td><b>Peramivir</b><br><span class="muted small">Rapivab</span></td><td>IV infusion</td><td>One dose</td><td>6 months and older${c("rapivabLabel")}</td><td>Given in a clinic, urgent care, or emergency department for people who cannot take medicine by mouth.</td></tr>
 </tbody></table></div>
@@ -155,6 +157,15 @@ export default async function ({ data, emit }) {
     <h4>Guideline status</h4>
     <p>The IDSA treatment guideline is the 2018 update (published 2019). It predates baloxavir's high-risk and pediatric indications, so CDC's March 2026 summary and December 2025 COCA guidance are the more current reference.${c("idsa2018", "cdcCoca2025")}</p>
   </div></details>
+  <h2>More on treatment</h2>
+  <ul>
+    <li><a href="too-late-for-tamiflu.html">Is it too late for Tamiflu?</a> A short check for day 3, 4, or 5.</li>
+    <li><a href="antiviral-cost.html">What antivirals cost, and what to do if the pharmacy is out</a></li>
+    <li><a href="household.html">Someone in my house has flu: preventing it in everyone else</a></li>
+    <li><a href="tamiflu-side-effects.html">Tamiflu side effects, including the question about nightmares and behavior changes</a></li>
+    <li><a href="contagious.html">How long you are contagious, and when to go back to work</a></li>
+    <li><a href="getting-worse.html">Getting worse, or a fever that came back</a></li>
+  </ul>
 </article><div></div></div>
 ${sourceList(list)}`;
     await emit("treatment.html", page({
@@ -163,6 +174,7 @@ ${sourceList(list)}`;
       description: "Who should get flu antivirals, how soon to start, and how oseltamivir (Tamiflu), baloxavir (Xofluza), zanamivir, and peramivir compare, written to CDC's March 2026 guidance.",
       body,
       jsonld: [medPageLD("Antiviral treatment for influenza", "treatment.html")],
+      scripts: ["shortage.js"],
     }));
   }
 
@@ -287,6 +299,7 @@ ${sourceList(list)}`;
   <p>Of the 71 U.S. cases, 64 were found by monitoring people exposed to infected animals and 7 through routine flu surveillance.${c("cdcH5Situation")} In July 2025 CDC folded its bird flu updates into its routine weekly flu reporting and stopped posting animal detection counts, which are now reported by USDA.${c("cdcH5Situation")}</p>
   <h2>The H5N5 case</h2>
   <p>In November 2025 an older Washington resident with lymphoma who kept a backyard flock died after infection with H5N5, the first human H5N5 infection reported anywhere in the world. Public health workers monitored about 135 contacts and found no further cases.${c("mmwrH5N5")}</p>
+  ${birdFluWatchBox()}
   <h2>Who should take precautions</h2>
   <ul>
     <li>People who work with dairy cattle, poultry, or wild birds, or who keep backyard flocks: use protective equipment, and report eye redness or flu symptoms within 10 days of exposure to your health department.</li>

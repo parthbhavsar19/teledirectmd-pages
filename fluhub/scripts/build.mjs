@@ -40,7 +40,7 @@ const pages = [];
 const noindex = new Set();
 const emit = async (path, html) => { await writeFile(DIST + path, html); pages.push(path); if (/name="robots" content="noindex/.test(html)) noindex.add(path); };
 
-const modules = ["data-pages", "clinical-pages", "symptoms", "vaccine-pages", "home", "locator", "faq"];
+const modules = ["data-pages", "clinical-pages", "care-pages", "symptoms", "vaccine-pages", "vaccine-extra", "local-data", "home", "locator", "faq"];
 for (const m of modules) {
   if (!existsSync(ROOT + `scripts/pages/${m}.mjs`)) { console.warn("skip", m); continue; }
   const mod = await import(`./pages/${m}.mjs`);

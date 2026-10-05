@@ -1,3 +1,6 @@
+import { REFS_CARE } from "./refs-care.mjs";
+import { REFS_VAX } from "./refs-vax.mjs";
+
 // Every clinical source FluHub cites, with the version/date that was checked.
 // Add new sources here; pages cite them by key.
 export const REFS = {
@@ -5,7 +8,7 @@ export const REFS = {
   cdcCoca2025: { label: "CDC COCA Call. 2025–2026 Clinical Recommendations for Seasonal Influenza Prevention and Control (transcript)", url: "https://www.cdc.gov/coca/media/pdfs/2025/COCA-Call-Transcript_12.11.2025.pdf", date: "December 11, 2025" },
   cdcTreatPatient: { label: "CDC. Treatment of Flu", url: "https://www.cdc.gov/flu/treatment/index.html", date: "updated September 2, 2025" },
   idsa2018: { label: "Uyeki TM, et al. Clinical Practice Guidelines by the Infectious Diseases Society of America: 2018 Update on Diagnosis, Treatment, Chemoprophylaxis, and Institutional Outbreak Management of Seasonal Influenza. Clin Infect Dis 2019;68(6):e1–e47", url: "https://doi.org/10.1093/cid/ciy866", date: "current IDSA guideline" },
-  tamifluLabel: { label: "Tamiflu (oseltamivir) prescribing information, DailyMed", url: "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ee3c9555-60f2-4f82-a760-11983c86e97b", date: "December 2025" },
+  tamifluLabel: { label: "Tamiflu (oseltamivir) prescribing information, DailyMed", url: "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ee3c9555-60f2-4f82-a760-11983c86e97b", date: "DailyMed version published December 19, 2025" },
   xofluzaLabel: { label: "Xofluza (baloxavir marboxil) prescribing information", url: "https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/210854s023,214410s008lbl.pdf", date: "revised May 2025" },
   rapivabLabel: { label: "Rapivab (peramivir) prescribing information", url: "https://www.accessdata.fda.gov/drugsatfda_docs/label/2024/206426s009lbl.pdf", date: "revised June 2024" },
   relenzaLabel: { label: "Relenza (zanamivir) prescribing information", url: "https://www.accessdata.fda.gov/drugsatfda_docs/label/2023/021036s034lbl.pdf", date: "revised October 2023" },
@@ -61,6 +64,8 @@ export const REFS = {
   cdcAriLevels: { label: "CDC. Respiratory Illnesses Data Channel: Illness Levels Over Time", url: "https://www.cdc.gov/respiratory-viruses/data/activity-levels.html", date: "updated October 2, 2026" },
   cdcSeason2526: { label: "CDC. 2025–2026 Flu Season", url: "https://www.cdc.gov/flu/season/2025-2026.html", date: "updated September 1, 2026" },
 };
+
+Object.assign(REFS, REFS_CARE, REFS_VAX);
 
 /** Build a numbered reference list for a page and a cite() bound to it. */
 export function refSet(keys) {

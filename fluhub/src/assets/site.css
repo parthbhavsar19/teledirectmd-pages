@@ -347,3 +347,44 @@ footer.site { border-top: 1px solid var(--rule); background: var(--surface); pad
   .tilemap { min-width: 340px; }
   .tile { font-size: 0.68rem; }
 }
+
+/* vaccine extra */
+.prose .vx-timeline, .vx-timeline { list-style: none; padding-left: 0; border-left: 2px solid var(--rule-strong); margin-left: 4px; }
+.vx-timeline li { position: relative; padding-left: 18px; }
+.vx-timeline li::before { content: ""; position: absolute; left: -7px; top: 0.45em; width: 12px; height: 12px; border-radius: 50%; background: var(--surface); border: 2px solid var(--accent); }
+.vx-toc { margin-top: 24px; max-width: var(--measure); }
+.vx-toc ul { list-style: none; padding: 0; margin: 0; display: grid; gap: 6px; font-size: 0.93rem; }
+.vx-fact { margin-top: 44px; padding-top: 28px; border-top: 1px solid var(--rule); display: grid; gap: 10px; scroll-margin-top: 72px; }
+.vx-fact h2 { font-size: 1.45rem; line-height: 1.25; }
+.vx-action { border-left: 3px solid var(--good); background: var(--surface); padding: 10px 14px; border-radius: 0 var(--r) var(--r) 0; }
+.vx-links { columns: 2; column-gap: 24px; }
+.vx-links li { break-inside: avoid; }
+.loc-empty { display: block; }
+
+/* Flu near you (county card, state box), shortage badge, H5 watch */
+.near-result:empty { display: none; }
+.near-result { margin-top: 22px; }
+.near-card { background: var(--surface); border: 1px solid var(--rule); border-radius: var(--r); padding: 20px; display: grid; gap: 12px; min-width: 0; }
+.near-card h2 { font-size: clamp(1.4rem, 1.1rem + 1vw, 1.8rem); }
+.near-tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 210px), 1fr)); gap: 1px; background: var(--rule); border: 1px solid var(--rule); border-radius: var(--r); overflow: hidden; }
+.near-tile { background: var(--surface); padding: 14px; display: grid; gap: 4px; align-content: start; min-width: 0; }
+.near-v { font: 500 1.7rem/1.1 var(--f-display); font-variant-numeric: tabular-nums lining-nums; }
+.near-v .level { font: 600 0.95rem var(--f-body); }
+.near-tile .stat-ctx { overflow-wrap: anywhere; }
+.near-means { border-left: 3px solid var(--accent); background: var(--accent-soft); padding: 12px 14px; border-radius: 0 var(--r) var(--r) 0; max-width: var(--measure); }
+.near-means[data-tone="rising"], .near-means[data-tone="high"] { border-color: var(--warn); background: var(--warn-soft); }
+.near-means[data-tone="none"] { border-color: var(--rule-strong); background: var(--paper); }
+.near-notes { margin: 0; padding-left: 1.2em; color: var(--ink-2); }
+.near .near-means { margin-top: 16px; }
+.near-form { margin-top: 16px; }
+.near .forecast { margin-top: 24px; }
+.forecast { display: grid; gap: 8px; min-width: 0; }
+.near-table td { white-space: nowrap; }
+.near-table td:first-child { white-space: normal; }
+.us-row td { background: var(--paper); }
+.shortage-badge { border-left: 3px solid var(--good); background: var(--good-soft); padding: 12px 14px; border-radius: 0 var(--r) var(--r) 0; display: grid; gap: 6px; max-width: var(--measure); }
+.shortage-badge[data-state="listed"] { border-color: var(--warn); background: var(--warn-soft); }
+.shortage-badge ul { margin: 0; padding-left: 1.2em; }
+.h5-watch { display: grid; gap: 10px; }
+.h5-watch h3 { font-size: 1.1rem; }
+.paused { margin-top: 16px; }
