@@ -45,6 +45,7 @@
 
   function show(hits, msg) {
     status.textContent = msg;
+    if (!hits.length) { list.innerHTML = '<li class="loc loc-empty"><p>No listed locations matched. Try a wider distance, or use the <a href="#other-ways">pharmacy schedulers and other options below</a>.</p></li>'; return; }
     list.innerHTML = hits.map(({ p, d }) => `<li class="loc">
       <h4>${esc(p.n)}</h4>${d != null ? `<span class="dist">${d < 10 ? d.toFixed(1) : Math.round(d)} mi</span>` : "<span></span>"}
       <p class="addr">${esc(p.a)}, ${esc(p.c)}, ${esc(p.s)} ${esc(p.z)}</p>

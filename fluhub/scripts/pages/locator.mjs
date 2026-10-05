@@ -22,7 +22,16 @@ export default async function ({ data, emit, DIST, ROOT }) {
   await cp(ROOT + "data/cache/zip", DIST + "data/zip", { recursive: true });
 
   const meta = data.meta.sources.providers;
-  const { list, c } = refSet(["vaccinesGovDataset", "cdcKeyFacts", "hrsa", "fdaFluMistHome", "cdcIccs", "healthcareGov", "medicareFlu"]);
+  const { list, c } = refSet(["vaccinesGovDataset", "cdcKeyFacts", "hrsa", "fdaFluMistHome", "cdcIccs", "healthcareGov", "medicareFlu", "todayVaxGov", "azFluMist2627", "flumistFaq", "drugTopicsPharmImm"]);
+  // Neutral, alphabetical links to retail pharmacy flu shot schedulers. FluHub has no relationship with these companies.
+  const PHARMACIES = [
+    ["CVS", "https://www.cvs.com/immunizations/flu"],
+    ["H-E-B", "https://www.heb.com/pharmacy/vaccines"],
+    ["Kroger family of pharmacies", "https://www.kroger.com/stores/flu-shot"],
+    ["Publix", "https://www.publix.com/flushot"],
+    ["Walgreens", "https://www.walgreens.com/topic/promotion/flu-shot.jsp"],
+    ["Walmart", "https://www.walmart.com/flu"],
+  ];
   const opts = data.jur.filter((j) => index[j.abbr]).map((j) => `<option value="${j.abbr}">${esc(j.name)}</option>`).join("");
 
   const body = `${pageHead({
@@ -30,11 +39,12 @@ export default async function ({ data, emit, DIST, ROOT }) {
     title: "Find a flu shot",
     lede: "Flu shots are available at pharmacies, doctors' offices, clinics, health departments, and community health centers. Most insurance covers them with no copay.",
   })}
+<div class="callout warn" id="vaccines-gov-notice" style="margin-top:24px"><p class="callout-title">${icon.alert}Notice, updated October 5, 2026: the federal vaccines.gov ZIP search is not working</p><p>The search tool on vaccines.gov has returned an error for ZIP code searches since at least December 2025, and HHS has not said when it will be fixed (reported October 1, 2026).${c("todayVaxGov")} FluHub's directory below does not use that live tool; it is built from an archived copy of the same provider list. For current hours and stock, use the <a href="#other-ways">other ways to find a shot</a> below.</p></div>
 <section class="section">
   <div class="section-head"><h2>Book this week</h2><p class="muted">These places publish live appointment availability.</p></div>
   <div class="task-list">
     <div class="task"><h3>Your doctor or clinic</h3><p>The best option if you also want other vaccines or have health conditions to discuss. Call or use their patient portal.</p></div>
-    <div class="task"><h3>Pharmacies</h3><p>Most chain and independent pharmacies take walk-ins or same-day online bookings through their own websites and apps, age limits for children vary by state.</p></div>
+    <a class="task" href="#other-ways"><h3>Pharmacies</h3><p>Most chain and independent pharmacies take walk-ins or same-day online bookings through their own websites and apps. The youngest age a pharmacist can vaccinate varies by state.${c("drugTopicsPharmImm")}</p><span class="go">Pharmacy schedulers</span></a>
     <a class="task" href="https://findahealthcenter.hrsa.gov/" target="_blank" rel="noopener"><h3>Community health centers</h3><p>Low or no cost, whether or not you have insurance. Search HRSA's directory by address.${c("hrsa")}</p><span class="go">findahealthcenter.hrsa.gov</span></a>
     <div class="task"><h3>Local health department</h3><p>Many run free or low-cost flu clinics in the fall, and they administer the Vaccines for Children program for eligible kids.${c("cdcIccs")}</p></div>
     <a class="task" href="vaccines.html#flumist-home"><h3>FluMist at home</h3><p>The nasal spray vaccine can be ordered online and given at home for ages 2 to 49 who are eligible for a live vaccine.${c("fdaFluMistHome")}</p><span class="go">How it works</span></a>
@@ -57,6 +67,28 @@ export default async function ({ data, emit, DIST, ROOT }) {
   <noscript><p class="muted">The location search needs JavaScript. Use the options above, or call your pharmacy.</p></noscript>
 </section>
 
+<section class="section" id="other-ways">
+  <div class="section-head"><h2>Other ways to find a shot</h2><p class="muted">Use these while the federal search is down. Each one shows its own current appointments.</p></div>
+  <div class="grid-2">
+    <div class="prose col">
+      <h3 style="margin-top:0">Pharmacy schedulers</h3>
+      <p>Retail pharmacies book flu shots through their own sites and apps. Listed alphabetically; FluHub has no relationship with these companies, and independent pharmacies are just as good an option.</p>
+      <ul class="vx-links">${PHARMACIES.map(([n, u]) => `<li><a href="${u}" target="_blank" rel="noopener">${esc(n)}</a></li>`).join("")}</ul>
+      <p class="small muted">Bringing a child? Call first: state law sets the youngest age a pharmacist can vaccinate. As of January 2025, only 19 states plus Washington, DC allowed pharmacists to give all recommended vaccines to children 3 and older.${c("drugTopicsPharmImm")}</p>
+    </div>
+    <div class="prose col">
+      <h3 style="margin-top:0">Your own clinician</h3>
+      <p>Your doctor's office or patient portal can often book a shot with your next visit, and it is the best place to ask which vaccine fits you.</p>
+      <h3>Local health department</h3>
+      <p>Many run free or low-cost fall clinics, and they give Vaccines for Children vaccine to eligible kids.${c("cdcIccs")} Search the name of your county or city with "health department flu clinic."</p>
+      <h3>Community health centers</h3>
+      <p>Low or no cost, with or without insurance. <a href="https://findahealthcenter.hrsa.gov/" target="_blank" rel="noopener">Search HRSA's directory</a>.${c("hrsa")}</p>
+      <h3>FluMist Home</h3>
+      <p>For 2026-27 the nasal spray ships to the 48 contiguous states for eligible people ages 2 to 49: adults 18 to 49 can give it to themselves, and a parent or caregiver gives it to children 2 to 17.${c("azFluMist2627")} In some states your own doctor must approve the order first, and there is a shipping fee.${c("flumistFaq")} <a href="https://www.flumist.com/" target="_blank" rel="noopener">flumist.com</a>, or <a href="vaccines.html#flumist-home">who should not use it</a>.</p>
+    </div>
+  </div>
+</section>
+
 <section class="section prose col">
   <h2>Before you go</h2>
   <ul>
@@ -64,6 +96,7 @@ export default async function ({ data, emit, DIST, ROOT }) {
     <li>If you are 65 or older, ask for a high-dose, adjuvanted, or recombinant vaccine, but take whatever is available rather than leave without one.${c("cdcIccs")}</li>
     <li>Ideally get vaccinated by the end of October. Later in the season is still worthwhile.${c("cdcKeyFacts")}</li>
   </ul>
+  <p>Questions about safety, side effects, or egg allergy: <a href="flu-shot-myths.html">flu shot facts</a>. For children: <a href="child-flu-shot.html">is my child's flu shot still recommended and free?</a></p>
 </section>
 ${sourceList(list)}`;
   await emit("find-a-flu-shot.html", page({

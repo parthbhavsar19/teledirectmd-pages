@@ -4,6 +4,7 @@ export const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&am
 
 export const NAV = [
   ["activity.html", "This week"],
+  ["flu-near-you.html", "Near you"],
   ["seasons.html", "Seasons compared"],
   ["states.html", "States"],
   ["symptoms.html", "Symptom check"],
@@ -15,9 +16,10 @@ export const NAV = [
 ];
 
 const FOOT = [
-  ["Track flu", [["activity.html", "This week's activity"], ["seasons.html", "Seasons compared"], ["states.html", "State-by-state"], ["bird-flu.html", "Bird flu (H5N1)"]]],
-  ["If you're sick", [["symptoms.html", "Symptom check"], ["warning-signs.html", "Emergency warning signs"], ["treatment.html", "Antiviral treatment"], ["high-risk.html", "Who is at higher risk"], ["testing.html", "Testing, and flu vs. COVID vs. RSV"]]],
-  ["Prevention", [["vaccines.html", "2026–27 flu vaccines"], ["find-a-flu-shot.html", "Find a flu shot"], ["faq.html", "Common questions"]]],
+  ["Track flu", [["activity.html", "This week's activity"], ["flu-near-you.html", "Flu in your county"], ["seasons.html", "Seasons compared"], ["states.html", "State-by-state"], ["bird-flu.html", "Bird flu (H5N1)"]]],
+  ["If you're sick", [["symptoms.html", "Symptom check"], ["warning-signs.html", "Emergency warning signs"], ["too-late-for-tamiflu.html", "Is it too late for Tamiflu?"], ["contagious.html", "Contagious period and returning to work"], ["getting-worse.html", "Getting worse or fever came back"], ["home-test.html", "Home test results: what now"], ["symptom-relief.html", "Symptom relief at home"], ["lingering-cough.html", "Lingering cough and fatigue"]]],
+  ["Treatment", [["treatment.html", "Antiviral treatment"], ["antiviral-cost.html", "Antiviral cost and access"], ["tamiflu-side-effects.html", "Tamiflu side effects"], ["household.html", "Protecting your household"], ["high-risk.html", "Who is at higher risk"], ["pregnancy.html", "Flu in pregnancy"], ["kids-tamiflu.html", "Tamiflu for children"], ["testing.html", "Testing, and flu vs. COVID vs. RSV"], ["flu-a-vs-b.html", "Flu A vs. flu B"]]],
+  ["Prevention", [["vaccines.html", "2026–27 flu vaccines"], ["find-a-flu-shot.html", "Find a flu shot"], ["child-flu-shot.html", "Children's flu shots in 2026"], ["flu-shot-myths.html", "Flu shot myths and facts"], ["faq.html", "Common questions"]]],
   ["About", [["media.html", "Press and data desk"], ["methods.html", "Sources, methods, and review"]]],
   ["TeleDirectMD guides", [
     ["https://teledirectmd.com/health-guides/flu-treatment-guide/", "Flu treatment guide"],

@@ -5,6 +5,7 @@ import { tileMap, ladder, levelChip, levelIndex, LEVELS } from "../lib/tilemap.m
 import { iliSummary, bySeason, typicalBand, seasonTicks, weekIndexLabel, nhsnSeasons, cumulative, fmtDate, seasonLabel, pctChange, ATYPICAL, atIndex } from "../lib/derive.mjs";
 import { epiweekEndISO, seasonOf, seasonWeekIndex, dateToEpiweek } from "../lib/mmwr.mjs";
 import { SITE } from "../../content/site.mjs";
+import { fluNearYouBox, SHUTDOWN_NOTE } from "../lib/local.mjs";
 
 const pct = (v, d = 1) => (v == null ? "–" : `${Number(v).toFixed(d)}%`);
 const num = (v, d = 0) => (v == null ? "–" : Number(v).toLocaleString("en-US", { maximumFractionDigits: d, minimumFractionDigits: d }));
@@ -252,6 +253,7 @@ ${seasonNote ? `<div class="section" style="margin-top:28px">${seasonNote}</div>
       description: `${j.name} flu activity for the week ending ${fmtDate(weekEnd)}${lv ? ` (${lv})` : ""}, with the state's flu curve compared to past seasons, hospital admissions since 2020, and vaccination rates.`,
       body: `${pageHead({ R: R1, crumbs: [["states.html", "States"], [null, j.name]], eyebrow: esc(SITE.weekLabel), title: `Flu in ${esc(j.name)}`, lede: x.ili ? `Outpatient flu-like illness in ${esc(j.name)} was ${pct(x.ili.latest.v)} of visits in the week ending ${fmtDate(x.ili.latest.date)}, compared with ${pct(x.ili.lastYearSameWeek)} at the same point last season.` : `Here is what CDC publishes for ${esc(j.name)}. Some national surveillance systems do not report separately for every territory.` })}
 <section class="section">${strip}</section>
+<section class="section">${fluNearYouBox(j.abbr, { R: R1 })}</section>
 ${seasonNote ? `<div class="section" style="margin-top:28px">${seasonNote}</div>` : ""}
 <section class="section" style="display:grid;gap:44px">${charts || '<p class="muted">CDC does not publish weekly flu surveillance series for this jurisdiction.</p>'}</section>
 <section class="section grid-2">
@@ -359,6 +361,7 @@ ${seasonNote ? `<div class="section" style="margin-top:28px">${seasonNote}</div>
     title: "Flu seasons compared",
     lede: "How this season measures up against every season since 2010: outpatient illness, hospitalizations, deaths, vaccine effectiveness, and vaccination rates. Every number links to its CDC source.",
   })}
+<p class="small muted section">${esc(SHUTDOWN_NOTE)}</p>
 <section class="section">
   <div class="section-head"><h2>Season scorecard</h2><p class="muted">One row per season. Select a heading to sort; for example, sort by hospitalization rate to rank severity.</p></div>
   <div class="table-wrap"><table class="sortable"><thead><tr><th>Season</th><th class="n">Peak %ILI</th><th>Peak week ending</th><th class="n">Hosp. rate per 100k</th><th class="n">Est. illnesses</th><th class="n">Est. hospitalizations</th><th class="n">Est. deaths</th><th class="n">Child deaths</th><th class="n">Vaccine effectiveness</th><th class="n">Adults vaccinated</th><th class="n">Children vaccinated</th></tr></thead><tbody>${scoreRows}</tbody>

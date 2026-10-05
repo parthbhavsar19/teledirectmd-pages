@@ -5,7 +5,7 @@ import { CHECKED } from "./clinical-pages.mjs";
 import { seasonLabel } from "../lib/derive.mjs";
 
 export default async function ({ data, emit }) {
-  const { list, c } = refSet(["cdcIccs", "mmwrAcip2025", "fdaComposition", "cdcSeason2627", "cdcKeyFacts", "aapFlu2627", "aafp2026", "acog2026", "mflusiva", "nycLetter", "fdaFluMistHome", "mmwrVe2026", "cdcPastVe", "cdcPrevented2425", "cdcCoverage2425", "cdcVaxSafety", "cdcCoadmin", "healthcareGov", "medicareFlu", "ahcjInjunction", "aphaInjunction", "statThimerosal", "statAppeal", "wcha"]);
+  const { list, c } = refSet(["cdcIccs", "mmwrAcip2025", "fdaComposition", "cdcSeason2627", "cdcKeyFacts", "aapFlu2627", "aafp2026", "acog2026", "mflusiva", "nycLetter", "fdaFluMistHome", "mmwrVe2026", "cdcPastVe", "cdcPrevented2425", "cdcCoverage2425", "cdcVaxSafety", "cdcCoadmin", "healthcareGov", "medicareFlu", "ahcjInjunction", "aphaInjunction", "statThimerosal", "statAppeal", "wcha", "crsR48982", "eo14420", "ca1Calendar", "mdPause", "cidrapQuorum", "azFluMist2627", "flumistFaq"]);
   const ve = data.epi.ve.filter((v) => v.season >= "2010-11");
   const veChart = barChart({
     id: "ve-bars", title: "Vaccine effectiveness by season", sub: "Percent reduction in the risk of a doctor's visit for flu among vaccinated people, all ages, U.S. Flu VE Network.",
@@ -50,7 +50,7 @@ export default async function ({ data, emit }) {
   </ul>
   <p>Manufacturers project up to 135 million U.S. doses; 99% contain no thimerosal preservative and 27% are made without eggs.${c("cdcSeason2627")}</p>
   <h3 id="flumist-home">FluMist at home</h3>
-  <p>FluMist, the nasal spray vaccine, can be given by yourself (ages 18 to 49) or by a parent or caregiver (ages 2 to 17). You order it online, complete a screening, and it ships to you.${c("fdaFluMistHome")} For 2026–27 the manufacturer reports home delivery in all 48 contiguous states. It is a live, weakened virus and is not for pregnant people, people with weakened immune systems or their close contacts, or children 2 to 4 with recent wheezing.${c("cdcIccs")}</p>
+  <p>FluMist, the nasal spray vaccine, can be given by yourself (ages 18 to 49) or by a parent or caregiver (ages 2 to 17). You order it online, complete a screening, and it ships to you.${c("fdaFluMistHome")} For 2026–27 the manufacturer reports home delivery in the 48 contiguous states.${c("azFluMist2627")} In some states (AR, DE, IN, KS, LA, MN, MO, MS, RI, WV, and DC), your own doctor must approve the order first, and there is a shipping fee.${c("flumistFaq")} It is a live, weakened virus and is not for pregnant people, people with weakened immune systems or their close contacts, or children 2 to 4 with recent wheezing.${c("cdcIccs")}</p>
 </div>
 <div>
   <h3 style="margin-bottom:10px">Vaccines available for 2026–27</h3>
@@ -90,7 +90,7 @@ export default async function ({ data, emit }) {
   <p><b>A flu shot cannot give you flu.</b> Shots contain killed virus or a single virus protein; the nasal spray uses a weakened virus that cannot cause flu.${c("cdcKeyFacts", "cdcVaxSafety")}</p>
   <p>Common reactions are soreness, redness, or swelling where the shot was given, and sometimes low fever, aches, headache, or tiredness for a day or two. The nasal spray can cause a runny nose or sore throat.${c("cdcVaxSafety")}</p>
   <p>Guillain-Barré syndrome is rare. In seasons when any increased risk was found, it was about 1 to 2 extra cases per million doses.${c("cdcVaxSafety")}</p>
-  <p class="small">Full rundown of reactions and when to call a doctor: <a href="https://teledirectmd.com/health-guides/flu-shot-side-effects-guide/">flu shot side effects guide</a>.</p>
+  <p class="small">Common worries answered, including mRNA, thimerosal, and egg allergy: <a href="flu-shot-myths.html">flu shot facts</a>. Full rundown of reactions and when to call a doctor: <a href="https://teledirectmd.com/health-guides/flu-shot-side-effects-guide/">flu shot side effects guide</a>.</p>
   <h3>With COVID-19 and RSV vaccines</h3>
   <p>Flu, COVID-19, and RSV vaccines may be given at the same visit, in different arms or at least an inch apart. Getting RSV and flu vaccines together may cause slightly more arm soreness and short-lived side effects.${c("cdcCoadmin")}</p>
 </div>
@@ -101,23 +101,28 @@ export default async function ({ data, emit }) {
     <li><b>Medicare Part B</b> covers it with nothing to pay when the provider accepts assignment.${c("medicareFlu")}</li>
     <li><b>Children</b> on Medicaid or uninsured can get free vaccine through the Vaccines for Children program.${c("cdcIccs")}</li>
     <li>A March 2026 court order requires insurers to keep covering the vaccines they covered in January 2025.${c("ahcjInjunction")} Coverage of the new mRNA vaccine had not been confirmed when this page was checked.</li>
+    <li>The insurer group AHIP says its member plans will cover ACIP-recommended vaccines with no cost-sharing through the end of 2027.${c("crsR48982")} <a href="child-flu-shot.html">Children's coverage, explained</a>.</li>
   </ul>
 </div>
 </section>
 
 <section class="section prose col" id="policy">
   <h2>Who makes the recommendations right now</h2>
-  <p>Federal vaccine policy changed several times in 2025 and 2026. The basic flu recommendation, a yearly vaccine for everyone 6 months and older, is the same across federal and professional sources. These are the dated facts:</p>
+  <p>Federal vaccine policy changed several times in 2025 and 2026. As of October 5, 2026, CDC's flu guidance and the major professional societies agree on the basic recommendation: a yearly vaccine for everyone 6 months and older. A pending appeal and an August 2026 executive order could still change the federal recommendation for children. These are the dated facts:</p>
   <ul>
     <li><b>June 2025:</b> HHS replaced the members of CDC's vaccine advisory committee (ACIP). The new committee reaffirmed universal flu vaccination and voted to recommend only thimerosal-free single-dose flu vaccines; the HHS secretary adopted the thimerosal vote on July 23, 2025.${c("mmwrAcip2025", "statThimerosal")}</li>
-    <li><b>March 16, 2026:</b> a federal court stayed the new ACIP appointments and all of that committee's votes, along with a January 2026 change to the childhood schedule.${c("aphaInjunction")} HHS appealed on April 29, 2026.${c("statAppeal")}</li>
+    <li><b>January 5, 2026:</b> CDC's revised childhood schedule moved flu vaccination for children from a routine recommendation to shared clinical decision-making.${c("crsR48982")}</li>
+    <li><b>March 16, 2026:</b> a federal court stayed the new ACIP appointments and all of that committee's votes, along with a January 2026 change to the childhood schedule.${c("aphaInjunction")} HHS appealed on April 29, 2026.${c("statAppeal")} The district court paused its proceedings on September 11, and the First Circuit scheduled argument for October 6, 2026; there was no appeals ruling as of October 5.${c("mdPause", "ca1Calendar")} ACIP had no quorum in July and had not met since the March ruling as of mid-September.${c("cidrapQuorum", "mdPause")}</li>
+    <li><b>August 10, 2026:</b> Executive Order 14420 listed influenza among childhood vaccines based on shared clinical decision-making. It does not mention insurance coverage or the Vaccines for Children program.${c("eo14420")}</li>
     <li><b>September 1, 2026:</b> citing "legal uncertainties," CDC said the July 2025 flu recommendations remain in effect for 2026–27.${c("cdcIccs")}</li>
     <li><b>August and September 2026:</b> AAP, AAFP, and ACOG issued their own 2026–27 recommendations, all supporting yearly vaccination from 6 months.${c("aapFlu2627", "aafp2026", "acog2026")} Several states, including the West Coast Health Alliance of California, Oregon, Washington, and Hawaii, now base their guidance on these societies.${c("wcha")}</li>
   </ul>
-  <p>FluHub follows CDC's 2026–27 clinical considerations and notes where professional societies add to them.</p>
+  <p>FluHub follows CDC's 2026–27 clinical considerations and notes where professional societies add to them. FluHub does not describe any 2026-27 recommendation as an ACIP vote, because the committee has not had a quorum. For parents: <a href="child-flu-shot.html">is my child's flu shot still recommended, and is it still free?</a></p>
 </section>
 <section class="section"><div class="task-list">
   <a class="task" href="find-a-flu-shot.html"><h3>Find a flu shot</h3><p>Pharmacies, clinics, and health centers near you.</p><span class="go">Search by ZIP</span></a>
+  <a class="task" href="flu-shot-myths.html"><h3>Flu shot facts</h3><p>Cannot give you flu, mRNA, thimerosal, egg allergy, and timing.</p><span class="go">Read the facts</span></a>
+  <a class="task" href="child-flu-shot.html"><h3>Children's flu shots</h3><p>Still recommended and free? The 2026 policy changes, dated.</p><span class="go">For parents</span></a>
   <a class="task" href="faq.html"><h3>Common questions</h3><p>Timing, side effects, kids, pregnancy, and more.</p><span class="go">Read the FAQ</span></a>
 </div></section>
 ${sourceList(list)}`;

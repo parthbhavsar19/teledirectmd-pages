@@ -80,7 +80,7 @@
     if (hr) {
       return { tier: "today", label: "Contact a clinician today", title: adult ? "Get evaluated for antiviral treatment today" : "Call your child's clinician today",
         body: "CDC recommends antiviral treatment as soon as possible for people in higher-risk groups who may have flu, without waiting for a test. It works best within 48 hours. After that a clinician may still treat, and CDC recommends treatment at any point if illness is severe or getting worse.",
-        list: [early ? "You are inside the window where antivirals help most. Don't wait to see if it passes." : "Even past 2 days, a clinician may still treat, especially if symptoms are not improving.", "Oseltamivir (Tamiflu) is preferred in pregnancy and for young children.", ...smell, 'Watch for <a href="warning-signs.html">warning signs</a> while you wait.'],
+        list: [early ? "You are inside the window where antivirals help most. Don't wait to see if it passes." : "Even past 2 days, a clinician may still treat, especially if symptoms are not improving.", "Oseltamivir (Tamiflu) is preferred in pregnancy and for young children.", ...smell, 'Watch for <a href="warning-signs.html">warning signs</a> while you wait.', 'Past day 2? Read <a href="too-late-for-tamiflu.html">Is it too late for Tamiflu?</a>'],
         why, cta: adult };
     }
     if (course === "worse") {
@@ -98,7 +98,7 @@
     if (!early) why.push("Symptoms began more than 2 days ago, so an antiviral's benefit for a healthy person is small.");
     return { tier: "home", label: "Home care", title: "Rest at home and watch for changes",
       body: "Most otherwise healthy people recover from flu-like illness at home. An antiviral is unlikely to add much at this point unless symptoms get worse.",
-      list: ["Rest, fluids, and acetaminophen or ibuprofen if they are safe for you. No aspirin for anyone under 19.", "Stay home until you have gone 24 hours with symptoms improving and no fever without medicine, then take extra precautions for 5 days.", ...smell, "Contact a clinician if symptoms get worse, last more than 10 days, or a fever or cough improves and then returns.", 'Know the <a href="warning-signs.html">emergency warning signs</a>.'], why };
+      list: ["Rest, fluids, and acetaminophen or ibuprofen if they are safe for you. No aspirin for anyone under 19.", "Stay home until you have gone 24 hours with symptoms improving and no fever without medicine, then take extra precautions for 5 days. See <a href=\"contagious.html\">when you can go back to work or school</a>.", 'Others at home at higher risk? Read <a href="household.html">protecting your household</a>.', ...smell, "Contact a clinician if symptoms get worse, last more than 10 days, or a fever or cough improves and then returns.", 'Know the <a href="warning-signs.html">emergency warning signs</a>.'], why };
   }
 
   function render() {
