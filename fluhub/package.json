@@ -1,0 +1,10 @@
+{
+  "name": "fluhub",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "fetch": "node scripts/fetch-data.mjs",
+    "build": "node scripts/build.mjs"
+  }
+}
