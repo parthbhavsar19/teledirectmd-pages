@@ -59,7 +59,7 @@ export default async function ({ emit }) {
      1. Is it too late for Tamiflu? (decision page + triage)
      ===================================================================== */
   {
-    const { list, c } = refSet(["cdcAntiviralClin", "cdcAntiviralPatient", "cdcTreatPatient", "cdcHighRisk", "cdcSigns", "fdaGenericBaloxavir", "tamifluLabel"]);
+    const { list, c } = refSet(["cdcAntiviralClin", "cdcAntiviralPatient", "cdcTreatPatient", "cdcHighRisk", "cdcSigns", "fdaGenericBaloxavir", "tamifluLabel", "pott2025", "rytlewski2026", "hanula2024"]);
     const radio = (name, opts) => `<div class="opts" role="radiogroup">${opts.map(([v, l]) => `<label class="opt${v === "emergency" ? " red" : ""}"><input type="radio" name="${name}" id="${name}-${v}" value="${v}"><span>${l}</span></label>`).join("")}</div>`;
     const qa = [
       ["Can I still take Tamiflu after 5 days of flu?", `If you are in a <a href="high-risk.html">higher-risk group</a>, pregnant, in the hospital, or getting worse, yes: CDC recommends antiviral treatment as early as possible for these groups, with no cutoff day.${c("cdcAntiviralClin")} For an otherwise healthy adult who is improving, CDC's guidance covers treatment started within two days, so a clinician is unlikely to recommend it on day 5.${c("cdcAntiviralClin")}`],
@@ -135,6 +135,13 @@ export default async function ({ emit }) {
   <p>For healthy people with an ordinary course of flu, CDC's guidance is that treatment can be considered if it can start within two days of the first symptom.${c("cdcAntiviralClin")} That is where the "48-hour rule" comes from.</p>
   <p>The rule does not apply to everyone. CDC recommends antiviral treatment as early as possible, with no time limit, for anyone who is in the hospital, whose illness is severe, complicated, or progressive, or who is at higher risk of complications.${c("cdcAntiviralClin")} CDC's patient page puts it simply: starting later "can still be beneficial," especially for people at higher risk or in the hospital.${c("cdcAntiviralPatient")}</p>
   <p>The most costly mistake is a higher-risk person on day 3 or 4 deciding it is too late to call. It usually is not.</p>
+  <h2>What the research shows</h2>
+  <ul>
+    <li><b>Older adults in the hospital.</b> In a Canadian study of 8,135 people 65 and older hospitalized with flu, those given oseltamivir had an 18% lower risk of dying within 30 days, and the benefit held when treatment started after 48 hours.${c("pott2025")}</li>
+    <li><b>Children in the hospital.</b> In CDC's FluSurv-NET data on more than 6,000 hospitalized children from 2014 to 2023, oseltamivir was linked to a 31% lower risk of needing intensive care and shorter hospital stays.${c("rytlewski2026")}</li>
+    <li><b>Outpatients.</b> A 2024 review of 15 randomized trials in people treated at home did not find that oseltamivir lowered the chance of being hospitalized, and it raised the chance of nausea and vomiting.${c("hanula2024")} For healthy people, the proven benefit is feeling better sooner.${c("cdcTreatPatient")}</li>
+  </ul>
+  <p class="small muted">These studies are observational (the first two) or limited by how few outpatients end up in the hospital (the third). They are why CDC's advice differs by group: treat higher-risk and hospitalized people without a time limit, and treat healthy people early if they choose to.${c("cdcAntiviralClin")}</p>
   <h2>Which medicine</h2>
   <p>Oseltamivir (Tamiflu or generic) is taken twice a day for 5 days.${c("tamifluLabel")} It is the preferred choice in pregnancy and for severe or worsening illness.${c("cdcAntiviralClin")} Baloxavir (Xofluza or generic) is a single dose for people 5 and older, approved for those who have had symptoms for no more than 48 hours.${c("fdaGenericBaloxavir")} <a href="treatment.html">Compare all four antivirals</a>.</p>
   <h2>No test needed</h2>
