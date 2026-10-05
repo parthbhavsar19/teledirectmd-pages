@@ -1,0 +1,499 @@
+{
+ "baseline": {
+  "2025-26": 3.1
+ },
+ "burden": [
+  {
+   "season": "2010-11",
+   "status": "final",
+   "source_url": "https://www.cdc.gov/flu-burden/media/files/flu-disease-burden-past-season-rounded-estimates-all-ages.csv",
+   "illnesses": 23000000,
+   "illnesses_ui": "17M\u201355M",
+   "medical_visits": 11000000,
+   "medical_visits_ui": "8.2M\u201325M",
+   "hospitalizations": 310000,
+   "hospitalizations_ui": "200K\u20131.1M",
+   "deaths": 38000,
+   "deaths_ui": "22K\u2013150K"
+  },
+  {
+   "season": "2011-12",
+   "status": "final",
+   "source_url": "https://www.cdc.gov/flu-burden/media/files/flu-disease-burden-past-season-rounded-estimates-all-ages.csv",
+   "illnesses": 9400000,
+   "illnesses_ui": "6.8M\u201354M",
+   "medical_visits": 4400000,
+   "medical_visits_ui": "3.2M\u201323M",
+   "hospitalizations": 140000,
+   "hospitalizations_ui": "87K\u2013980K",
+   "deaths": 13000,
+   "deaths_ui": "7.2K\u201336K"
+  },
+  {
+   "season": "2012-13",
+   "status": "final",
+   "source_url": "https://www.cdc.gov/flu-burden/media/files/flu-disease-burden-past-season-rounded-estimates-all-ages.csv",
+   "illnesses": 34000000,
+   "illnesses_ui": "27M\u201366M",
+   "medical_visits": 16000000,
+   "medical_visits_ui": "13M\u201331M",
+   "hospitalizations": 580000,
+   "hospitalizations_ui": "370K\u20132.1M",
+   "deaths": 43000,
+   "deaths_ui": "25K\u2013120K"
+  },
+  {
+   "season": "2013-14",
+   "status": "final",
+   "source_url": "https://www.cdc.gov/flu-burden/media/files/flu-disease-burden-past-season-rounded-estimates-all-ages.csv",
+   "illnesses": 30000000,
+   "illnesses_ui": "25M\u201343M",
+   "medical_visits": 13000000,
+   "medical_visits_ui": "11M\u201319M",
+   "hospitalizations": 350000,
+   "hospitalizations_ui": "270K\u2013670K",
+   "deaths": 38000,
+   "deaths_ui": "23K\u2013100K"
+  },
+  {
+   "season": "2014-15",
+   "status": "final",
+   "source_url": "https://www.cdc.gov/flu-burden/media/files/flu-disease-burden-past-season-rounded-estimates-all-ages.csv",
+   "illnesses": 30000000,
+   "illnesses_ui": "26M\u201340M",
+   "medical_visits": 14000000,
+   "medical_visits_ui": "12M\u201320M",
+   "hospitalizations": 590000,
+   "hospitalizations_ui": "420K\u20131.2M",
+   "deaths": 51000,
+   "deaths_ui": "34K\u2013100K"
+  },
+  {
+   "season": "2015-16",
+   "status": "final",
+   "source_url": "https://www.cdc.gov/flu-burden/media/files/flu-disease-burden-past-season-rounded-estimates-all-ages.csv",
+   "illnesses": 24000000,
+   "illnesses_ui": "20M\u201333M",
+   "medical_visits": 11000000,
+   "medical_visits_ui": "8.7M\u201315M",
+   "hospitalizations": 280000,
+   "hospitalizations_ui": "210K\u2013510K",
+   "deaths": 22000,
+   "deaths_ui": "17K\u201338K"
+  },
+  {
+   "season": "2016-17",
+   "status": "final",
+   "source_url": "https://www.cdc.gov/flu-burden/media/files/flu-disease-burden-past-season-rounded-estimates-all-ages.csv",
+   "illnesses": 29000000,
+   "illnesses_ui": "24M\u201343M",
+   "medical_visits": 14000000,
+   "medical_visits_ui": "11M\u201320M",
+   "hospitalizations": 500000,
+   "hospitalizations_ui": "380K\u2013890K",
+   "deaths": 38000,
+   "deaths_ui": "27K\u201361K"
+  },
+  {
+   "season": "2017-18",
+   "status": "final",
+   "source_url": "https://www.cdc.gov/flu-burden/media/files/flu-disease-burden-past-season-rounded-estimates-all-ages.csv",
+   "illnesses": 41000000,
+   "illnesses_ui": "35M\u201353M",
+   "medical_visits": 19000000,
+   "medical_visits_ui": "16M\u201325M",
+   "hospitalizations": 710000,
+   "hospitalizations_ui": "560K\u20131.1M",
+   "deaths": 52000,
+   "deaths_ui": "36K\u201399K"
+  },
+  {
+   "season": "2018-19",
+   "status": "final",
+   "source_url": "https://www.cdc.gov/flu-burden/media/files/flu-disease-burden-past-season-rounded-estimates-all-ages.csv",
+   "illnesses": 29000000,
+   "illnesses_ui": "25M\u201339M",
+   "medical_visits": 14000000,
+   "medical_visits_ui": "11M\u201318M",
+   "hospitalizations": 400000,
+   "hospitalizations_ui": "320K\u2013650K",
+   "deaths": 32000,
+   "deaths_ui": "21K\u201379K"
+  },
+  {
+   "season": "2019-20",
+   "status": "final",
+   "source_url": "https://www.cdc.gov/flu-burden/media/files/flu-disease-burden-past-season-rounded-estimates-all-ages.csv",
+   "illnesses": 34000000,
+   "illnesses_ui": "28M\u201358M",
+   "medical_visits": 15000000,
+   "medical_visits_ui": "12M\u201326M",
+   "hospitalizations": 380000,
+   "hospitalizations_ui": "310K\u2013650K",
+   "deaths": 26000,
+   "deaths_ui": "18K\u201388K"
+  },
+  {
+   "season": "2020-21",
+   "status": "preliminary",
+   "source_url": "https://www.cdc.gov/flu-burden/media/files/flu-disease-burden-past-season-rounded-estimates-all-ages.csv"
+  },
+  {
+   "season": "2021-22",
+   "status": "final",
+   "source_url": "https://www.cdc.gov/flu-burden/media/files/flu-disease-burden-past-season-rounded-estimates-all-ages.csv",
+   "illnesses": 11000000,
+   "illnesses_ui": "9M\u201320M",
+   "medical_visits": 5100000,
+   "medical_visits_ui": "4M\u20138.6M",
+   "hospitalizations": 120000,
+   "hospitalizations_ui": "97K\u2013230K",
+   "deaths": 6300,
+   "deaths_ui": "4K\u201316K"
+  },
+  {
+   "season": "2022-23",
+   "status": "final",
+   "source_url": "https://www.cdc.gov/flu-burden/media/files/flu-disease-burden-past-season-rounded-estimates-all-ages.csv",
+   "illnesses": 29000000,
+   "illnesses_ui": "25M\u201343M",
+   "medical_visits": 13000000,
+   "medical_visits_ui": "11M\u201319M",
+   "hospitalizations": 340000,
+   "hospitalizations_ui": "270K\u2013540K",
+   "deaths": 25000,
+   "deaths_ui": "18K\u201348K"
+  },
+  {
+   "season": "2023-24",
+   "status": "preliminary",
+   "source_url": "https://www.cdc.gov/flu-burden/media/files/flu-disease-burden-past-season-rounded-estimates-all-ages.csv",
+   "illnesses": 37000000,
+   "illnesses_ui": "32M\u201357M",
+   "medical_visits": 17000000,
+   "medical_visits_ui": "14M\u201325M",
+   "hospitalizations": 430000,
+   "hospitalizations_ui": "350K\u2013680K",
+   "deaths": 26000,
+   "deaths_ui": "22K\u201361K"
+  },
+  {
+   "season": "2024-25",
+   "status": "preliminary",
+   "source_url": "https://www.cdc.gov/flu-burden/media/files/flu-disease-burden-past-season-rounded-estimates-all-ages.csv",
+   "illnesses": 51000000,
+   "illnesses_ui": "43M\u201376M",
+   "medical_visits": 23000000,
+   "medical_visits_ui": "19M\u201334M",
+   "hospitalizations": 710000,
+   "hospitalizations_ui": "560K\u20131.2M",
+   "deaths": 45000,
+   "deaths_ui": "38K\u2013110K"
+  },
+  {
+   "season": "2025-26",
+   "status": "preliminary",
+   "source_url": "https://www.cdc.gov/fluview/surveillance/2026-week-20.html",
+   "illnesses": 32000000,
+   "illnesses_ui": "at least; in-season minimum estimate",
+   "hospitalizations": 390000,
+   "hospitalizations_ui": "at least; in-season minimum estimate",
+   "deaths": 24000,
+   "deaths_ui": "at least; in-season minimum estimate",
+   "asof": "May 23, 2026",
+   "in_season_minimum": true
+  }
+ ],
+ "pediatric_deaths": [
+  {
+   "season": "2010-11",
+   "deaths": 124,
+   "status": "reported",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11867584/"
+  },
+  {
+   "season": "2011-12",
+   "deaths": 37,
+   "status": "reported",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11867584/"
+  },
+  {
+   "season": "2012-13",
+   "deaths": 171,
+   "status": "reported",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11867584/"
+  },
+  {
+   "season": "2013-14",
+   "deaths": 111,
+   "status": "reported",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11867584/"
+  },
+  {
+   "season": "2014-15",
+   "deaths": 148,
+   "status": "reported",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11867584/"
+  },
+  {
+   "season": "2015-16",
+   "deaths": 95,
+   "status": "reported",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11867584/"
+  },
+  {
+   "season": "2016-17",
+   "deaths": 110,
+   "status": "reported",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11867584/"
+  },
+  {
+   "season": "2017-18",
+   "deaths": 188,
+   "status": "reported",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11867584/"
+  },
+  {
+   "season": "2018-19",
+   "deaths": 145,
+   "status": "reported",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11867584/"
+  },
+  {
+   "season": "2019-20",
+   "deaths": 199,
+   "status": "reported",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11867584/"
+  },
+  {
+   "season": "2020-21",
+   "deaths": 1,
+   "status": "reported",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11867584/"
+  },
+  {
+   "season": "2021-22",
+   "deaths": 49,
+   "status": "reported",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11867584/"
+  },
+  {
+   "season": "2022-23",
+   "deaths": 187,
+   "status": "reported",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11867584/"
+  },
+  {
+   "season": "2023-24",
+   "deaths": 210,
+   "status": "reported",
+   "source_url": "https://www.cdc.gov/mmwr/volumes/74/wr/mm7436a2.htm"
+  },
+  {
+   "season": "2024-25",
+   "deaths": 297,
+   "status": "reported",
+   "source_url": "https://www.cdc.gov/flu/highrisk/children.html"
+  },
+  {
+   "season": "2025-26",
+   "deaths": 195,
+   "status": "preliminary",
+   "source_url": "https://www.cdc.gov/fluview/surveillance/2026-week-38.html"
+  }
+ ],
+ "ve": [
+  {
+   "season": "2004-05",
+   "ve": 10,
+   "ci": "-36\u201340%",
+   "status": "final"
+  },
+  {
+   "season": "2005-06",
+   "ve": 21,
+   "ci": "-52\u201359%",
+   "status": "final"
+  },
+  {
+   "season": "2006-07",
+   "ve": 52,
+   "ci": "22\u201370%",
+   "status": "final"
+  },
+  {
+   "season": "2007-08",
+   "ve": 37,
+   "ci": "22\u201349%",
+   "status": "final"
+  },
+  {
+   "season": "2008-09",
+   "ve": 41,
+   "ci": "30\u201350%",
+   "status": "final"
+  },
+  {
+   "season": "2009-10",
+   "ve": 56,
+   "ci": "23\u201375%",
+   "status": "final"
+  },
+  {
+   "season": "2010-11",
+   "ve": 60,
+   "ci": "53\u201366%",
+   "status": "final"
+  },
+  {
+   "season": "2011-12",
+   "ve": 47,
+   "ci": "36\u201356%",
+   "status": "final"
+  },
+  {
+   "season": "2012-13",
+   "ve": 49,
+   "ci": "43\u201355%",
+   "status": "final"
+  },
+  {
+   "season": "2013-14",
+   "ve": 52,
+   "ci": "44\u201359%",
+   "status": "final"
+  },
+  {
+   "season": "2014-15",
+   "ve": 19,
+   "ci": "10\u201327%",
+   "status": "final"
+  },
+  {
+   "season": "2015-16",
+   "ve": 48,
+   "ci": "41\u201355%",
+   "status": "final"
+  },
+  {
+   "season": "2016-17",
+   "ve": 40,
+   "ci": "32\u201346%",
+   "status": "final"
+  },
+  {
+   "season": "2017-18",
+   "ve": 38,
+   "ci": "31\u201343%",
+   "status": "final"
+  },
+  {
+   "season": "2018-19",
+   "ve": 29,
+   "ci": "21\u201335%",
+   "status": "final"
+  },
+  {
+   "season": "2019-20",
+   "ve": 39,
+   "ci": "32\u201344%",
+   "status": "final"
+  },
+  {
+   "season": "2020-21",
+   "ve": null,
+   "ci": null,
+   "status": "final"
+  },
+  {
+   "season": "2021-22",
+   "ve": 36,
+   "ci": "21\u201348%",
+   "status": "final"
+  },
+  {
+   "season": "2022-23",
+   "ve": 30,
+   "ci": "-9\u201354%",
+   "status": "final"
+  },
+  {
+   "season": "2023-24",
+   "ve": 44,
+   "ci": "36\u201351%",
+   "status": "final"
+  },
+  {
+   "season": "2024-25",
+   "ve": 56,
+   "ci": "54\u201358%",
+   "status": "preliminary"
+  },
+  {
+   "season": "2025-26",
+   "ve": 36,
+   "ci": "33\u201339%",
+   "status": "preliminary"
+  }
+ ],
+ "averted": [
+  {
+   "season": "2022-23",
+   "illnesses": 5474903,
+   "medical_visits": 2701412,
+   "hospitalizations": 70753,
+   "deaths": 4322,
+   "source_url": "https://archive.cdc.gov/www_cdc_gov/flu-burden/php/data-vis-vac/2022-2023-prevented.html"
+  },
+  {
+   "season": "2023-24",
+   "illnesses": 9800000,
+   "medical_visits": 4800000,
+   "hospitalizations": 120000,
+   "deaths": 7900,
+   "source_url": "https://www.cdc.gov/flu/whats-new/flu-summary-addendum-2023-2024.html"
+  },
+  {
+   "season": "2024-25",
+   "illnesses": 10000000,
+   "medical_visits": 5000000,
+   "hospitalizations": 180000,
+   "deaths": 12000,
+   "source_url": "https://www.cdc.gov/flu-burden/php/data-vis-vac/2024-2025-prevented.html"
+  },
+  {
+   "season": "2025-26",
+   "illnesses": null,
+   "medical_visits": null,
+   "hospitalizations": null,
+   "deaths": null,
+   "source_url": "https://www.cdc.gov/flu-burden/php/data-vis-vac/index.html"
+  }
+ ],
+ "sources": [
+  {
+   "name": "CDC Disease Burden of Flu, past seasons",
+   "url": "https://www.cdc.gov/flu-burden/php/data-vis/past-seasons.html"
+  },
+  {
+   "name": "CDC FluView Week 20, 2026 (2025\u201326 in-season burden)",
+   "url": "https://www.cdc.gov/fluview/surveillance/2026-week-20.html"
+  },
+  {
+   "name": "CDC Past Seasons Vaccine Effectiveness Estimates",
+   "url": "https://www.cdc.gov/flu-vaccines-work/php/effectiveness-studies/past-seasons-estimates.html"
+  },
+  {
+   "name": "MMWR 2025;74(6) pediatric deaths 2010\u201311 to 2024\u201325",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11867584/"
+  },
+  {
+   "name": "CDC Flu and Children (2024\u201325 pediatric deaths)",
+   "url": "https://www.cdc.gov/flu/highrisk/children.html"
+  },
+  {
+   "name": "CDC FluView Week 38, 2026",
+   "url": "https://www.cdc.gov/fluview/surveillance/2026-week-38.html"
+  }
+ ]
+}
