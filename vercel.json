@@ -14,6 +14,27 @@
       }
     },
     {
+      "src": "/employers/brief/thank-you/?",
+      "headers": {
+        "Location": "/employers/"
+      },
+      "status": 301
+    },
+    {
+      "src": "/employers/brief/?",
+      "headers": {
+        "Location": "/employers/"
+      },
+      "status": 301
+    },
+    {
+      "src": "/downloads/teledirectmd-employer-brief\\.pdf",
+      "headers": {
+        "Location": "/employers/"
+      },
+      "status": 301
+    },
+    {
       "src": "/health-guides/telehealth-cold-sores-antiviral-timing/?",
       "headers": {
         "Location": "/health-guides/valacyclovir-for-cold-sores-guide/"
