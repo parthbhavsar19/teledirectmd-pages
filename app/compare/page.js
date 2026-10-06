@@ -111,7 +111,7 @@ const FAQS = [
   {
     question: 'Which telehealth service is best for urgent care without insurance?',
     answer:
-      'For self-pay urgent care — UTI, sinus infection, strep throat, pink eye — TeleDirectMD at $79 is the lowest flat-rate physician-staffed option among the major platforms. Teladoc is $89, Amwell is $85+, and Doctor on Demand is comparable or higher. K Health has a $29 monthly membership that includes unlimited visits, which is cheaper per-visit for frequent users but requires ongoing commitment. For a single visit with no subscription, TeleDirectMD wins on price.',
+      'For self-pay urgent care — UTI (women only), sinus infection, strep throat, pink eye — TeleDirectMD at $79 is the lowest flat-rate physician-staffed option among the major platforms. Teladoc is $89, Amwell is $85+, and Doctor on Demand is comparable or higher. K Health has a $29 monthly membership that includes unlimited visits, which is cheaper per-visit for frequent users but requires ongoing commitment. For a single visit with no subscription, TeleDirectMD wins on price.',
   },
   {
     question: 'How do I switch from another telehealth service to TeleDirectMD?',
@@ -446,7 +446,7 @@ export default function CompareHubPage() {
         <section className="cmp-section" aria-labelledby="price-heading">
           <h2 id="price-heading" className="cmp-h2">Cash-Pay Urgent Care Price Comparison</h2>
           <p className="cmp-p">
-            For a self-pay, single urgent care visit (UTI, sinus infection, strep throat, pink eye), TeleDirectMD offers the lowest
+            For a self-pay, single urgent care visit (UTI (women only), sinus infection, strep throat, pink eye), TeleDirectMD offers the lowest
             flat rate among major physician-staffed telehealth platforms. The chart below compares published cash-pay prices.
             Note that K Health&apos;s low cost requires a monthly subscription; the per-visit equivalent is higher for infrequent users.
           </p>

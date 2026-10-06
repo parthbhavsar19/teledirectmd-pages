@@ -137,7 +137,7 @@ function buildJsonLd(allStates, categories) {
           {
             '@type': 'Question',
             name: 'What conditions does TeleDirectMD treat?',
-            acceptedAnswer: { '@type': 'Answer', text: `TeleDirectMD treats ${totalConditions}+ conditions via video visits, including virtual urgent care (UTIs, sinus infections, influenza, COVID-19, sore throat, pink eye, ear pain), women's health (bacterial vaginosis, yeast infections), men's health, skin conditions (acne, eczema, cellulitis, shingles, cold sores), and medication refills (migraine, asthma, GERD).` },
+            acceptedAnswer: { '@type': 'Answer', text: `TeleDirectMD treats ${totalConditions}+ conditions via video visits, including virtual urgent care (UTIs (women only), sinus infections, influenza, COVID-19, sore throat, pink eye, ear pain), women's health (bacterial vaginosis, yeast infections), men's health, skin conditions (acne, eczema, cellulitis, shingles, cold sores), and medication refills (migraine, asthma, GERD).` },
           },
           {
             '@type': 'Question',

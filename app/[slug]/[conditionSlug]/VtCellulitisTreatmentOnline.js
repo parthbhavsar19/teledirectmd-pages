@@ -58,7 +58,7 @@ const VT_SIBLINGS = [
   { slug: "shingles-treatment-online", label: "Shingles Treatment in VT", why: "A painful dermatomal rash to distinguish from a spreading skin infection." },
   { slug: "acne-treatment-online", label: "Acne Treatment in VT", why: "Part of our skin-condition cluster managed by video." },
   { slug: "cold-sore-treatment-online", label: "Cold Sore Treatment in VT", why: "Another skin/facial condition treated by telehealth." },
-  { slug: "uti-treatment-online", label: "UTI Treatment in VT", why: "Another common antibiotic-driven outpatient infection." },
+  { slug: "uti-treatment-online", label: "UTI Treatment for Women in VT", why: "Another common antibiotic-driven outpatient infection." },
 ];
 
 const REFERENCES = [

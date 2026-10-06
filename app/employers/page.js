@@ -343,7 +343,7 @@ export default function EmployersPage() {
               <div className="tdmd-emp-scope-col tdmd-emp-scope-col--do">
                 <h3>What we treat</h3>
                 <ul className="tdmd-emp-scope-list">
-                  <li>Urgent care: UTI, sinus, cough, cold, allergies, strep, flu</li>
+                  <li>Urgent care: UTI (women only), sinus, cough, cold, allergies, strep, flu</li>
                   <li>Chronic refills: hypertension, asthma, hypothyroid, GERD, hyperlipidemia, non-insulin diabetes</li>
                   <li>Skin and dermatology, women's health</li>
                   <li>Smoking cessation, weight management</li>

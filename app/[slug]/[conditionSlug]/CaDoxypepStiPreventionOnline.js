@@ -646,7 +646,7 @@ export default function CaDoxypepStiPreventionOnline() {
                   <span className="tdmd-ca-uti__sibling-why">STI that can co-occur in high-risk adults also using DoxyPEP; doxycycline does not prevent trichomoniasis.</span>
                 </a>
               <a key="uti-treatment-online" className="tdmd-ca-uti__sibling" href="/ca/uti-treatment-online/">
-                  <span className="tdmd-ca-uti__sibling-label">UTI Treatment in CA</span>
+                  <span className="tdmd-ca-uti__sibling-label">UTI Treatment for Women in CA</span>
                   <span className="tdmd-ca-uti__sibling-why">Another common condition evaluated in adults managing active sexual health concerns.</span>
                 </a>
             </div>

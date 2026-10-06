@@ -55,7 +55,7 @@ const FAQS = [
   },
   {
     q: 'What conditions can I see a TeleDirectMD physician for?',
-    a: 'Common urgent-care conditions including UTI, sinus infection, strep throat, pink eye, flu, COVID-19, asthma inhaler refills, hypertension medication refills, acid reflux, yeast infections, and many more. Aetna commercial plans cover these visits when medically necessary. We do not prescribe controlled substances.',
+    a: 'Common urgent-care conditions including UTI in women only, sinus infection, strep throat, pink eye, flu, COVID-19, asthma inhaler refills, hypertension medication refills, acid reflux, yeast infections, and many more. Aetna commercial plans cover these visits when medically necessary. We do not prescribe controlled substances.',
   },
   {
     q: 'How does billing work?',
@@ -216,7 +216,7 @@ export default function CaliforniaAetnaClient() {
           style={{ fontSize: 19, lineHeight: 1.6, color: B.text, maxWidth: 760, margin: '0 0 24px' }}
         >
           TeleDirectMD is in-network with Aetna commercial plans in California (effective April 30, 2026).
-          Board-certified physician Dr. Parth Bhavsar, MD, treats UTI, sinus infection, asthma refills,
+          Board-certified physician Dr. Parth Bhavsar, MD, treats UTI (women only), sinus infection, asthma refills,
           hypertension refills, and many other adult conditions via secure same-day video visits. Most Aetna
           California members pay $10–$40 — or choose flat $79 self-pay.
         </p>
@@ -357,7 +357,7 @@ export default function CaliforniaAetnaClient() {
           }}
         >
           {[
-            { name: 'UTI Treatment', href: '/ca/uti-treatment-online' },
+            { name: 'UTI Treatment for Women', href: '/ca/uti-treatment-online' },
             { name: 'Sinus Infection', href: '/ca/sinus-infection-treatment-online' },
             { name: 'Pink Eye', href: '/ca/pink-eye-treatment-online' },
             { name: 'Asthma Refills', href: '/ca/asthma-refills-online' },

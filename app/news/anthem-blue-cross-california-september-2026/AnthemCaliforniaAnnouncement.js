@@ -129,7 +129,7 @@ export default function AnthemCaliforniaAnnouncement() {
         <h2 style={h2}>What this means for patients</h2>
         <p style={p}>
           The visit is the same: a live video appointment with the same physician, usually the same day, for common
-          problems like UTIs, sinus infections, sore throat, pink eye, flu, rashes, and routine refills. What changes is
+          problems like UTIs (women only), sinus infections, sore throat, pink eye, flu, rashes, and routine refills. What changes is
           the bill. You pay your plan's telehealth copay or coinsurance instead of $79, depending on your deductible.
         </p>
         <p style={p}>

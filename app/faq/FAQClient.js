@@ -360,7 +360,7 @@ const sections = [
           <>
             <p>
               We treat a wide range of common urgent-care conditions including sinus infections,
-              UTIs, upper respiratory infections, allergies, skin rashes, pink eye, cold and flu, ear
+              UTIs in women only, upper respiratory infections, allergies, skin rashes, pink eye, cold and flu, ear
               infections, bronchitis, and more.
             </p>
             <p>

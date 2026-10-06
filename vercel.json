@@ -5,6 +5,24 @@
   "trailingSlash": true,
   "routes": [
     {
+      "src": "/symptom-checker/?",
+      "dest": "/symptom-checker/index.html"
+    },
+    {
+      "src": "/llms-txt/?",
+      "headers": {
+        "Location": "/llms.txt"
+      },
+      "status": 301
+    },
+    {
+      "src": "/health-guides/uti-symptoms-in-men-guide(?:/index\\.html)?/?",
+      "headers": {
+        "Location": "/uti-treatment-online/"
+      },
+      "status": 301
+    },
+    {
       "src": "/next-steps/?",
       "dest": "/next-steps/page.html",
       "headers": {

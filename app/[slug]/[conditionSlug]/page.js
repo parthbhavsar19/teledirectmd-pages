@@ -182,7 +182,7 @@ export async function generateMetadata({ params }) {
   //    California-specific regulatory + payor signals (Aetna, UHC).
   if (slug === 'ca' && conditionSlug === 'uti-treatment-online') {
     const caTitle = 'UTI Treatment Online in California | TeleDirectMD';
-    const caDescription = 'California adults: get UTI treatment by secure video visit. Board-certified Family Medicine MD, Aetna in-network (effective 2026-04-30), UHC Commercial approved (effective 2026-05-29). CA telehealth law compliant. Self pay $79. Antibiotic stewardship, e-prescriptions to CA pharmacies.';
+    const caDescription = 'California women: get UTI treatment. We do not treat male UTIs. Eligible patients receive care by secure video visit. Board-certified Family Medicine MD, Aetna in-network (effective 2026-04-30), UHC Commercial approved (effective 2026-05-29). CA telehealth law compliant. Self pay $79. Antibiotic stewardship, e-prescriptions to CA pharmacies.';
     return {
       title: caTitle,
       description: caDescription,

@@ -5,7 +5,7 @@ export default function GigWorkersPage() {
 
   /* ── Conditions to link ─────────────────────────────────────────── */
   const conditions = [
-    { name: 'UTI / Urinary Tract Infection', slug: 'uti-treatment-online', desc: 'Fast antibiotic prescriptions sent to the nearest pharmacy — including 24-hour locations near you.' },
+    { name: 'UTI (women only)', slug: 'uti-treatment-online', desc: 'Fast antibiotic prescriptions sent to the nearest pharmacy — including 24-hour locations near you.' },
     { name: 'Sinus Infection', slug: 'sinus-infection-treatment-online', desc: 'Evaluation and treatment for sinus pressure, congestion, and post-nasal drip without leaving your car or home office.' },
     { name: 'Respiratory Infections / Common Cold', slug: 'common-cold-treatment-online', desc: 'Cold, flu, and upper respiratory infection treatment to get you back to work faster.' },
     { name: 'Anxiety / Stress Management', slug: 'performance-anxiety-treatment-online', desc: 'Support for anxiety, work-related stress, and the psychological pressures of gig-economy work — algorithmic uncertainty, rating anxiety, and income instability.' },
@@ -219,7 +219,7 @@ export default function GigWorkersPage() {
           </p>
           <div className="tdmd-comparison-note">
             <p style={{ margin: 0 }}>
-              <strong>The scenario:</strong> You're finishing your last DoorDash delivery and you've had a UTI for two days. Urgent care doesn't open until morning, and you can't afford the $250 visit without insurance. With TeleDirectMD, you request a same-day visit from your car and connect with a board-certified physician. Prescription goes to the 24-hour pharmacy two miles away.
+              <strong>The scenario:</strong> A non-pregnant adult woman finishing her last DoorDash delivery has uncomplicated UTI symptoms. TeleDirectMD does not treat male UTIs. Urgent care doesn't open until morning, and you can't afford the $250 visit without insurance. With TeleDirectMD, you request a same-day visit from your car and connect with a board-certified physician. Prescription goes to the 24-hour pharmacy two miles away.
             </p>
           </div>
         </div>

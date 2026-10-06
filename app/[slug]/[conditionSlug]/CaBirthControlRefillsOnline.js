@@ -34,7 +34,7 @@ const CA_SIBLINGS = [
   { slug: 'vaginal-dryness-treatment-online', label: 'Vaginal Dryness Treatment in CA', why: 'Some progestin-only methods reduce vaginal lubrication.' },
   { slug: 'chlamydia-treatment-online', label: 'Chlamydia Treatment in CA', why: 'STI screening recommended with contraceptive visits per CDC.' },
   { slug: 'genital-herpes-treatment-online', label: 'Genital Herpes Treatment in CA', why: 'Sexual health care commonly discussed at contraceptive visits.' },
-  { slug: 'uti-treatment-online', label: 'UTI Treatment in CA', why: 'UTI is frequently discussed alongside reproductive health care.' }
+  { slug: 'uti-treatment-online', label: 'UTI Treatment for Women in CA', why: 'UTI is frequently discussed alongside reproductive health care.' }
 ];
 
 const FAQ_ITEMS = [

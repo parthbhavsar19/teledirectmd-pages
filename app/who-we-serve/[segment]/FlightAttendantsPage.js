@@ -8,7 +8,7 @@ export default function FlightAttendantsPage() {
 
   /* ── Conditions to link — reframed for the cabin-crew reality ─────── */
   const conditions = [
-    { name: 'UTI / Urinary Tract Infection', slug: 'uti-treatment-online', desc: 'Long duty days and limited lavatory breaks make it easy to hold off on fluids and bathroom trips — behaviors associated with UTIs, a common complaint among cabin crew. We can send an antibiotic to a pharmacy near your layover hotel when appropriate — no hunting for an urgent care in a city you land in tonight and leave tomorrow.' },
+    { name: 'UTI (women only)', slug: 'uti-treatment-online', desc: 'Long duty days and limited lavatory breaks make it easy to hold off on fluids and bathroom trips — behaviors associated with UTIs, a common complaint among cabin crew. We can send an antibiotic to a pharmacy near your layover hotel when appropriate — no hunting for an urgent care in a city you land in tonight and leave tomorrow.' },
     { name: 'Sinus & Ear Congestion', slug: 'sinus-infection-treatment-online', desc: 'Repeated cabin pressurization cycles aggravate sinus pressure, ear blockage, and facial pain. We evaluate and treat sinus infections so you are not flying multiple pressure changes a day with an untreated blockage.' },
     { name: 'Prescription Refills', slug: 'hypertension-refills-online', desc: 'When you are almost never in your home city during pharmacy or clinic hours, refills lapse. We review your history and route blood-pressure, thyroid, asthma, reflux, and allergy refills to any U.S. pharmacy near your current position. No controlled substances.' },
     { name: 'Motion Sickness & Nausea', slug: 'travel-medicine-treatment-online', desc: 'Turbulence-heavy rotations, back-of-the-clock flying, and rough approaches trigger nausea. We counsel on and prescribe non-controlled motion-sickness options where appropriate as part of our travel-medicine service.' },
@@ -61,7 +61,7 @@ export default function FlightAttendantsPage() {
     },
     {
       q: 'What conditions can you treat, and what falls outside telehealth?',
-      a: 'We treat more than 60 non-emergency adult conditions by video \u2014 acute infections such as UTIs, sinus infections, and pink eye; women\u2019s health concerns; skin issues; travel-medicine needs such as motion sickness and standby therapy for traveler\u2019s diarrhea; and refills of non-controlled maintenance medications. We do not treat emergencies, do not prescribe controlled substances, and do not issue FAA medical certificates. Conditions that require an in-person exam, imaging, or lab testing \u2014 or any red-flag symptom \u2014 will be triaged and referred to appropriate local care rather than forced into a video visit.'
+      a: 'We treat more than 60 non-emergency adult conditions by video \u2014 acute infections such as UTIs (women only), sinus infections, and pink eye; women\u2019s health concerns; skin issues; travel-medicine needs such as motion sickness and standby therapy for traveler\u2019s diarrhea; and refills of non-controlled maintenance medications. We do not treat emergencies, do not prescribe controlled substances, and do not issue FAA medical certificates. Conditions that require an in-person exam, imaging, or lab testing \u2014 or any red-flag symptom \u2014 will be triaged and referred to appropriate local care rather than forced into a video visit.'
     },
   ];
 
@@ -119,7 +119,7 @@ export default function FlightAttendantsPage() {
         "@id": `${pageUrl}#webpage`,
         "url": pageUrl,
         "name": "Telehealth for Flight Attendants: See a Doctor on Your Layover",
-        "description": "TeleDirectMD provides telehealth for flight attendants and cabin crew across 44 states plus D.C. \u2014 UTIs, sinus and ear issues, prescription refills, women's health, and travel medicine, treated by a board-certified physician from your layover hotel. Not for FAA certificates or in-flight emergencies. Same-day visits, evenings & weekends. Starting at $79.",
+        "description": "TeleDirectMD provides telehealth for flight attendants and cabin crew across 44 states plus D.C. \u2014 UTIs (women only), sinus and ear issues, prescription refills, women's health, and travel medicine, treated by a board-certified physician from your layover hotel. Not for FAA certificates or in-flight emergencies. Same-day visits, evenings & weekends. Starting at $79.",
         "inLanguage": "en-US",
         "breadcrumb": { "@id": `${pageUrl}#breadcrumbs` },
         "author": { "@id": `${baseUrl}/about#physician` },
@@ -167,7 +167,7 @@ export default function FlightAttendantsPage() {
           <div className="tdmd-hero-grid">
             <div className="tdmd-hero-copy">
               <h1>Telehealth for Flight Attendants: See a Doctor on Your Layover</h1>
-              <p className="tdmd-hero-sub">A board-certified physician you can reach from your hotel room, in 44 states plus D.C. UTIs, sinus infections, refills, and travel medicine &mdash; same-day, evenings &amp; weekends. Not for FAA certificates or in-flight emergencies.</p>
+              <p className="tdmd-hero-sub">A board-certified physician you can reach from your hotel room, in 44 states plus D.C. UTIs (women only), sinus infections, refills, and travel medicine &mdash; same-day, evenings &amp; weekends. Not for FAA certificates or in-flight emergencies.</p>
               <p>
                 Cabin crew are among the hardest-working people in the country to keep healthy &mdash; not because they neglect it, but because the job makes ordinary care nearly impossible to reach. You are rarely in your home city when a clinic or pharmacy is open. Reserve and on-call assignments make it impossible to plan an appointment. Long duty days, restricted lavatory breaks, and dry cabin air drive recurrent UTIs. Repeated pressurization aggravates sinuses and ears. And when something comes up on a layover, the alternative is finding an unfamiliar urgent care in a city you land in tonight and leave tomorrow. TeleDirectMD was built for exactly this: a real physician you can reach by secure video from your hotel, wherever this rotation has taken you.
               </p>
@@ -239,7 +239,7 @@ export default function FlightAttendantsPage() {
             <div className="tdmd-card tdmd-card-good">
               <h3>What we do</h3>
               <ul style={{ margin: 0, paddingLeft: '1.1rem' }}>
-                <li>Treat non-emergency conditions by secure video &mdash; UTIs, sinus and ear issues, women&rsquo;s health, skin problems, allergies</li>
+                <li>Treat non-emergency conditions by secure video &mdash; UTIs (women only), sinus and ear issues, women&rsquo;s health, skin problems, allergies</li>
                 <li>Refill non-controlled maintenance medications to any U.S. pharmacy near you</li>
                 <li>Provide travel-medicine care such as motion sickness and standby therapy for traveler&rsquo;s diarrhea</li>
                 <li>See you from any of 44 states plus D.C., same-day, evenings and weekends</li>

@@ -53,7 +53,7 @@ const VT_SIBLINGS = [
   { slug: "chlamydia-treatment-online", label: "Chlamydia Treatment in VT", why: "If you have an active infection, treat it first — DoxyPEP prevents future ones." },
   { slug: "bv-treatment-online", label: "BV (Bacterial Vaginosis) Treatment in VT", why: "Part of the same sexual-health cluster." },
   { slug: "yeast-infection-treatment-online", label: "Yeast Infection Treatment in VT", why: "Sexual-health adjacent condition we treat by telehealth." },
-  { slug: "uti-treatment-online", label: "UTI Treatment in VT", why: "Genitourinary symptom overlap in the same population." },
+  { slug: "uti-treatment-online", label: "UTI Treatment for Women in VT", why: "Genitourinary symptom overlap in the same population." },
   { slug: "birth-control-refills-online", label: "Birth Control Refills in VT", why: "Sexual-health adjacent — managed by the same physician." },
 ];
 

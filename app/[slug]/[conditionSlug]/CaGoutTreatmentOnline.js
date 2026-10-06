@@ -652,7 +652,7 @@ export default function CaGoutTreatmentOnline() {
                   <span className="tdmd-ca-uti__sibling-why">Both are acute inflammatory conditions requiring anti-inflammatory management.</span>
                 </a>
               <a key="uti-treatment-online" className="tdmd-ca-uti__sibling" href="/ca/uti-treatment-online/">
-                  <span className="tdmd-ca-uti__sibling-label">UTI Treatment in CA</span>
+                  <span className="tdmd-ca-uti__sibling-label">UTI Treatment for Women in CA</span>
                   <span className="tdmd-ca-uti__sibling-why">Both are common acute conditions managed in outpatient telehealth settings.</span>
                 </a>
             </div>

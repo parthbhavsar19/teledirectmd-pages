@@ -36,10 +36,10 @@ const STEPS = [
 const FAQS = [
   { q: 'Are there any over-the-counter antibiotics for a UTI?', a: 'No. In the U.S., all oral antibiotics that cure a UTI (nitrofurantoin, Bactrim, cephalexin, fosfomycin) require a prescription. OTC products like AZO only relieve symptoms; they do not cure the infection.' },
   { q: 'How much do UTI antibiotics cost without insurance?', a: 'Generics are cheap with GoodRx: nitrofurantoin $7–$22, Bactrim $5–$20, cephalexin $11–$18, fosfomycin $20–$52. The newest brand-only option, Blujepa, runs $400–$600 and is rarely needed.' },
-  { q: 'How do I get UTI antibiotics without seeing a doctor in person?', a: 'Book a telehealth visit. A licensed MD can assess your symptoms by video and send an e-prescription to your pharmacy same-day, with no in-person appointment or urinalysis required for an uncomplicated UTI.' },
+  { q: 'How do I get UTI antibiotics without seeing a doctor in person?', a: 'Eligible non-pregnant adult women can book a telehealth visit. TeleDirectMD does not treat male UTIs. A licensed MD can assess your symptoms by video and send an e-prescription to your pharmacy same-day, with no in-person appointment or urinalysis required for an uncomplicated UTI.' },
   { q: 'Is AZO an antibiotic?', a: 'No. AZO (phenazopyridine) is a urinary analgesic that numbs burning within about 20 minutes. It has no antibacterial activity and will not cure your UTI.' },
   { q: 'What is the cheapest UTI antibiotic?', a: 'Trimethoprim-sulfamethoxazole (generic Bactrim) is often the cheapest at $5–$20, followed closely by nitrofurantoin. Your prescriber picks based on local resistance and your history.' },
-  { q: 'Can I get UTI antibiotics online same-day?', a: 'Yes. A $79 TeleDirectMD video visit typically results in an antibiotic at your pharmacy within an hour, with same-day visits available evenings and weekends in 44 states.' },
+  { q: 'Can I get UTI antibiotics online same-day?', a: 'For eligible non-pregnant adult women, a $79 TeleDirectMD video visit may result in an antibiotic prescription when clinically appropriate. TeleDirectMD does not treat male UTIs.' },
 ];
 
 export default function UtiAntibioticsPage({ price = '79' }) {
@@ -163,7 +163,7 @@ export default function UtiAntibioticsPage({ price = '79' }) {
           <div>
             <p className="uap-kicker k">UTI Antibiotics · 2026 Cash-Pay Pricing</p>
             <h1>There are no over-the-counter UTI antibiotics. Here is the fast, legal way to get one.</h1>
-            <p className="sub">Every antibiotic that cures a UTI needs a prescription. The good news: the medication is cheap, and a same-day video visit gets you one without an in-person appointment.</p>
+            <p className="sub">Every antibiotic that cures a UTI needs a prescription. TeleDirectMD offers UTI video visits for non-pregnant adult women only; a prescription is provided when clinically appropriate. We do not treat male UTIs.</p>
             <div className="uap-pricebox">
               <span className="big">${price}</span><span className="lab">visit +</span>
               <span className="med">$5–$25</span><span className="lab">generic antibiotic</span>
@@ -317,7 +317,7 @@ export default function UtiAntibioticsPage({ price = '79' }) {
               <ul>
                 <li>Fever, chills, or back/flank pain (possible kidney infection)</li>
                 <li>Pregnancy</li>
-                <li>Recurrent UTI within 4 weeks</li>
+                <li>Male patients: we do not treat male UTIs</li><li>Recurrent UTI within 4 weeks</li>
                 <li>Visible blood in urine</li>
                 <li>Male patients (warrants in-person workup)</li>
               </ul>

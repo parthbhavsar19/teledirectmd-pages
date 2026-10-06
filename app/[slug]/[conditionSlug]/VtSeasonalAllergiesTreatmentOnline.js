@@ -597,7 +597,7 @@ export default function VtSeasonalAllergiesTreatmentOnline() {
               <a href="/vt/eyelash-growth-treatment-online/">Eyelash Growth in VT</a>
               <a href="/vt/smoking-cessation-treatment-online/">Smoking Cessation in VT</a>
               <a href="/vt/motion-sickness-treatment-online/">Motion Sickness in VT</a>
-              <a href="/vt/uti-treatment-online/">UTI Treatment in VT</a>
+              <a href="/vt/uti-treatment-online/">UTI Treatment for Women in VT</a>
               <a href="/about/">About Dr. Bhavsar</a>
               <a href="/book-online">Book Online</a>
               <a href="/what-we-treat">What We Treat</a>

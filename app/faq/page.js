@@ -63,7 +63,7 @@ const faqItems = [
   { q: REFILL_POLICY_QUESTION, a: REFILL_POLICY },
   {
     q: 'What conditions do you treat?',
-    a: 'We treat a wide range of common urgent-care conditions including sinus infections, UTIs, upper respiratory infections, allergies, skin rashes, pink eye, cold and flu, ear infections, bronchitis, and more. Visit our What We Treat page for a full list of conditions.',
+    a: 'We treat a wide range of common urgent-care conditions including sinus infections, UTIs in women only, upper respiratory infections, allergies, skin rashes, pink eye, cold and flu, ear infections, bronchitis, and more. Visit our What We Treat page for a full list of conditions.',
   },
   {
     q: 'Can you prescribe medication?',

@@ -8,7 +8,7 @@ export default function MilitaryFamiliesPage() {
     { name: 'Hypertension / High Blood Pressure', slug: 'hypertension-refills-online', desc: 'Blood pressure medication refills when your TRICARE-network PCP isn\'t available at your new base.' },
     { name: 'Thyroid Management', slug: 'thyroid-management-online', desc: 'Medication continuity between PCS moves — keep your thyroid levels stable while establishing with a new provider.' },
     { name: 'Anxiety', slug: 'anxiety-treatment-online', desc: 'Prescription management for anxiety during high-stress relocation and separation periods.' },
-    { name: 'UTI / Urinary Tract Infection', slug: 'uti-treatment-online', desc: 'Fast antibiotic prescription — no need to find a new in-network provider for urgent needs.' },
+    { name: 'UTI (women only)', slug: 'uti-treatment-online', desc: 'Fast antibiotic prescription — no need to find a new in-network provider for urgent needs.' },
     { name: 'Sinus Infection', slug: 'sinus-infection-treatment-online', desc: 'Evaluation and treatment for acute sinusitis.' },
     { name: 'Skin Infections / Rashes', slug: 'skin-infection-treatment-online', desc: 'Cellulitis, rashes, and minor skin infections evaluated via video.' },
     { name: 'Prescription Refills', slug: 'prescription-refills-online', desc: 'Bridge prescriptions during the gap between providers after a PCS move or separation.' },
@@ -24,7 +24,7 @@ export default function MilitaryFamiliesPage() {
     },
     {
       q: 'We just PCS\'d and I can\'t get a primary care appointment for 8 weeks. Can you help?',
-      a: 'Yes. This is one of the most common situations we help military families with. TeleDirectMD can provide prescription bridge refills for most ongoing medications (blood pressure, thyroid, cholesterol, anxiety, etc.) while you get established with a new TRICARE provider. We can also treat acute conditions — UTIs, sinus infections, skin problems — that can\'t wait for an 8-week appointment.'
+      a: 'Yes. This is one of the most common situations we help military families with. TeleDirectMD can provide prescription bridge refills for most ongoing medications (blood pressure, thyroid, cholesterol, anxiety, etc.) while you get established with a new TRICARE provider. We can also treat acute conditions — UTIs (women only), sinus infections, skin problems — that can\'t wait for an 8-week appointment.'
     },
     {
       q: 'Does TeleDirectMD accept TRICARE?',
@@ -176,7 +176,7 @@ export default function MilitaryFamiliesPage() {
             Telehealth for military families when TRICARE has gaps:
           </p>
           <p style={{ margin: '0.35rem 0 0', color: '#003E52', fontSize: '0.97rem' }}>
-            TeleDirectMD provides $79 flat-fee video visits for military families during separation, PCS moves, and Reserve/Guard activation gaps — prescription bridge refills for blood pressure, thyroid, cholesterol, and anxiety, plus acute care for UTIs, sinus infections, and respiratory illness, in 44 states with no insurance required.
+            TeleDirectMD provides $79 flat-fee video visits for military families during separation, PCS moves, and Reserve/Guard activation gaps — prescription bridge refills for blood pressure, thyroid, cholesterol, and anxiety, plus acute care for UTIs (women only), sinus infections, and respiratory illness, in 44 states with no insurance required.
           </p>
         </div>
       </div>
@@ -228,7 +228,7 @@ export default function MilitaryFamiliesPage() {
                 <ul>
                   <li>Video visit with board-certified Family Medicine MD</li>
                   <li>Prescription bridge refills (BP, thyroid, cholesterol, anxiety)</li>
-                  <li>Acute condition treatment (UTI, sinus, respiratory, skin)</li>
+                  <li>Acute condition treatment (UTI (women only), sinus, respiratory, skin)</li>
                   <li>No TRICARE required — direct-pay</li>
                   <li>Available in 44 states near all major installations</li>
                   <li>Visit summary for your new provider's onboarding</li>
@@ -253,7 +253,7 @@ export default function MilitaryFamiliesPage() {
                 <li>Your TRICARE coverage has ended, lapsed, or is between activation periods</li>
                 <li>You are mid-PCS and your new TRICARE provider isn't accepting new patients yet</li>
                 <li>You need bridge prescriptions for ongoing medications (blood pressure, thyroid, cholesterol, anxiety, GERD)</li>
-                <li>You have an acute condition (UTI, sinus, strep, skin) that can't wait for a new PCP appointment</li>
+                <li>You have an acute condition (UTI (women only), sinus, strep, skin) that can't wait for a new PCP appointment</li>
               </ul>
             </div>
             <div className="tdmd-card tdmd-card-alert">
@@ -394,7 +394,7 @@ export default function MilitaryFamiliesPage() {
               <div className="tdmd-decision-number">4</div>
               <div className="tdmd-decision-content">
                 <h3>Is this an acute condition?</h3>
-                <p>UTI, sinus infection, strep, skin infection, respiratory illness?</p>
+                <p>UTI (women only), sinus infection, strep, skin infection, respiratory illness?</p>
                 <p><strong>YES:</strong> Book TeleDirectMD — same-day evaluation and treatment.</p>
                 <p><strong>Needs in-person exam/imaging:</strong> Urgent Care or ER.</p>
                 <div className="tdmd-decision-cta">
@@ -525,7 +525,7 @@ export default function MilitaryFamiliesPage() {
                   <td>Suicidal ideation or crisis &#8594; Veterans Crisis Line 988 press 1</td>
                 </tr>
                 <tr>
-                  <td><strong>UTI</strong></td>
+                  <td><strong>UTI (women only)</strong></td>
                   <td>Burning urination, frequency, pelvic pressure</td>
                   <td>Yes</td>
                   <td>Fever &gt;101°F, back pain, vomiting &#8594; in-person</td>
@@ -563,7 +563,7 @@ export default function MilitaryFamiliesPage() {
               <h3>&#10003; Telehealth Appropriate</h3>
               <ul className="tdmd-checklist tdmd-checklist--good">
                 <li>Bridge prescriptions (BP, thyroid, cholesterol, anxiety, GERD)</li>
-                <li>UTI, sinus infection, strep throat</li>
+                <li>UTI (women only), sinus infection, strep throat</li>
                 <li>Respiratory infection</li>
                 <li>Skin rash and minor infections</li>
                 <li>Pink eye</li>
@@ -598,7 +598,7 @@ export default function MilitaryFamiliesPage() {
             </div>
             <div className="tdmd-card">
               <h3>Acute Care</h3>
-              <p>UTIs, sinus infections, respiratory illness, skin infections — conditions that arise during transitions and can't wait 6–10 weeks for a new PCP slot. Evaluation and treatment same-day.</p>
+              <p>UTIs (women only), sinus infections, respiratory illness, skin infections — conditions that arise during transitions and can't wait 6–10 weeks for a new PCP slot. Evaluation and treatment same-day.</p>
             </div>
             <div className="tdmd-card">
               <h3>Prescriptions to Any US Pharmacy</h3>
@@ -663,7 +663,7 @@ export default function MilitaryFamiliesPage() {
                 </tr>
                 <tr>
                   <td>Antibiotics</td>
-                  <td>UTI, sinus, skin infections</td>
+                  <td>UTI (women only), sinus, skin infections</td>
                   <td>Appropriate selection after evaluation</td>
                 </tr>
                 <tr>
