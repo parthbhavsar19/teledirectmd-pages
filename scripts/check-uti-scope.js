@@ -13,6 +13,7 @@ assert.match(c.faq.items.find(f => /male UTIs/.test(f.question)).answer, /^No\./
 assert.doesNotMatch(JSON.stringify(c), /evaluates adult men and women|women or men|Yes\. Unlike many online UTI/);
 assert.match(read('app/layout.js'), /<UtiScopeNotice \/>/);
 assert.match(read('app/components/UtiScopeNotice.js'), /what-we-treat\|book-online/);
+assert.doesNotMatch(read('app/components/UtiScopeNotice.js'), /pathname === '\/'/);
 assert.match(read('app/components/SiteFooter.js'), /We do not treat male UTIs/);
 assert.match(read('public/symptom-checker/index.html'), /TeleDirectMD does not treat male UTIs/);
 assert.match(read('public/symptom-checker/index.html'), /id: "male_uti".*level: "GO_TO_ER"/);
@@ -27,6 +28,8 @@ for (const state of ['Ca', 'Vt']) {
   assert.doesNotMatch(s, /Adults 18\+ located|for California adults|for Vermont adults/);
 }
 if (process.argv.includes('--built')) {
+  assert.doesNotMatch(read('out/index.html'), /<aside[^>]*data-uti-scope="women-only"/);
+  assert.match(read('out/index.html'), /We do not treat male UTIs/); // Footer stays.
   let count = 0;
   function scan(dir) {
     for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
