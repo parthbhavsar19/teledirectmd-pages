@@ -30,7 +30,7 @@ const SCRIPT = GATE_SCRIPT.replace('__STATE_INSURANCE__', JSON.stringify(buildSt
 // OS setting when no choice is stored. Mirror both, like the other pages.
 const DARK_RULES = [
   ['.tdmd-book-wrap', 'background:#0b171b'],
-  ['#tdmdStateGate', '--sg-teal:#2bc4cf;--sg-navy:#a0d8e8;--sg-ink:#e2edf0;--sg-ink2:rgba(226,237,240,.80);--sg-ink3:#8fa8b2;--sg-line:rgba(255,255,255,.09);--sg-line-strong:rgba(255,255,255,.20);--sg-tint:#172a33;--sg-map-ins:#2a9aa2;--sg-map-ins-hover:#35b3bb;--sg-map-self:#2b4952;--sg-map-self-hover:#385d67;background:#122028;box-shadow:0 1px 2px rgba(0,0,0,.4),0 24px 56px -20px rgba(0,0,0,.6);color-scheme:dark'],
+  ['#tdmdStateGate', '--sg-teal:#2bc4cf;--sg-navy:#a0d8e8;--sg-ink:#e2edf0;--sg-ink2:rgba(226,237,240,.80);--sg-ink3:#8fa8b2;--sg-line:rgba(255,255,255,.09);--sg-line-strong:rgba(255,255,255,.20);--sg-tint:#172a33;--sg-map-ins:#2a9aa2;--sg-map-ins-hover:#35b3bb;--sg-map-self:#2a9aa2;--sg-map-self-hover:#35b3bb;background:#122028;box-shadow:0 1px 2px rgba(0,0,0,.4),0 24px 56px -20px rgba(0,0,0,.6);color-scheme:dark'],
   ['#tdmdStateGate .sg-num', 'background:#122028'],
   ['#tdmdStateGate .sg-select', 'background:#0f1f24;color:var(--sg-ink)'],
   ['#tdmdStateGate .sg-select option', 'background:#0f1f24;color:#e2edf0'],
