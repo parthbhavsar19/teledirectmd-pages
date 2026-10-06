@@ -6,8 +6,7 @@ import { usePathname } from 'next/navigation';
 // This is a service-scope rule, not a statement about what other providers treat.
 export default function UtiScopeNotice() {
   const pathname = usePathname() || '/';
-  const show = pathname === '/' ||
-    /(?:uti|burning-urination|what-we-treat|book-online)/.test(pathname);
+  const show = /(?:uti|burning-urination|what-we-treat|book-online)/.test(pathname);
   if (!show) return null;
   return (
     <aside className="tdmd-uti-scope" aria-label="UTI treatment eligibility" data-uti-scope="women-only">
