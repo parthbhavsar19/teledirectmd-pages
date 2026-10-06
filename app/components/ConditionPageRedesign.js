@@ -242,7 +242,8 @@ export default function ConditionPageRedesign({
 
       {/* CONDITION VIDEO REEL (vertical 9:16) — one per condition, pairs the same
           clip that publishes to Reels/TikTok/Shorts with the national page. */}
-      {c.conditionSlug && (
+      {/* UTI clip withheld until its narration is reviewed for the women-only scope. */}
+      {c.conditionSlug && c.conditionSlug !== 'uti-treatment-online' && (
         <section className="cpr-sec">
           <div className="cpr-wrap cpr-video-grid">
             <div className="cpr-video-copy">

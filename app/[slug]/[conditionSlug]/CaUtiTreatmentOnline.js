@@ -35,7 +35,7 @@ import { WhatDoesThisCostBlock, CompareTeleDirectMDLinkRow, CommonSymptomsBlock 
 // Page meta / constants
 // ────────────────────────────────────────────────────────────────────────────
 const PAGE_URL = 'https://teledirectmd.com/ca/uti-treatment-online/';
-const PAGE_TITLE = 'UTI Treatment Online in California | TeleDirectMD';
+const PAGE_TITLE = 'UTI Treatment for Women in California | TeleDirectMD';
 const DATE_PUBLISHED = '2026-05-19';
 const DATE_MODIFIED = '2026-05-19';
 const LAST_REVIEWED = '2026-05-19';
@@ -104,10 +104,11 @@ const MEDICATIONS = [
 ];
 
 const FAQ_ITEMS = [
+  { question: 'Does TeleDirectMD treat male UTIs?', answer: <p>No. We do not treat male UTIs, even when symptoms seem mild or uncomplicated. UTI care is for non-pregnant adult women (18+) only. Men with UTI symptoms should seek in-person care and should not book a TeleDirectMD UTI visit.</p> },
   { question: 'Can I get UTI treatment online in California?',
     answer: (
       <p>
-        Yes. <a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=2290.5.&lawCode=BPC" rel="noopener" target="_blank">California Business and Professions Code Section 2290.5</a> — the Telehealth Advancement Act — permits licensed physicians to deliver care via synchronous video telehealth without a prior in-person visit. TeleDirectMD physicians are licensed in California and held to the same standard of care as in-person physicians by the <a href="https://www.mbc.ca.gov/Resources/Medical-Resources/telehealth.aspx" rel="noopener" target="_blank">Medical Board of California</a>. Adults 18+ located in California can book a same-day video visit. If your symptoms are consistent with uncomplicated cystitis and you pass a red-flag screening, a prescription can be sent electronically to your California pharmacy. Self pay is $79. <a href="/insurance/aetna/california/uti-treatment/">Aetna is in-network</a> as of April 30, 2026.
+        Yes. <a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=2290.5.&lawCode=BPC" rel="noopener" target="_blank">California Business and Professions Code Section 2290.5</a> — the Telehealth Advancement Act — permits licensed physicians to deliver care via synchronous video telehealth without a prior in-person visit. TeleDirectMD physicians are licensed in California and held to the same standard of care as in-person physicians by the <a href="https://www.mbc.ca.gov/Resources/Medical-Resources/telehealth.aspx" rel="noopener" target="_blank">Medical Board of California</a>. Non-pregnant women 18+ located in California can book a same-day video visit. If your symptoms are consistent with uncomplicated cystitis and you pass a red-flag screening, a prescription can be sent electronically to your California pharmacy. Self pay is $79. <a href="/insurance/aetna/california/uti-treatment/">Aetna is in-network</a> as of April 30, 2026.
       </p>
     ),
   },
@@ -216,14 +217,14 @@ function buildSchemas() {
     '@type': 'MedicalWebPage',
     name: PAGE_TITLE,
     url: PAGE_URL,
-    description: 'UTI treatment by secure video visit for California adults. Board-certified Family Medicine physician. California telehealth law compliant. Aetna in-network. UHC Commercial approved. Self pay $79. Evidence-based antibiotic stewardship.',
+    description: 'UTI treatment by secure video visit for California women. Board-certified Family Medicine physician. California telehealth law compliant. Aetna in-network. UHC Commercial approved. Self pay $79. Evidence-based antibiotic stewardship.',
     datePublished: DATE_PUBLISHED,
     dateModified: DATE_MODIFIED,
     inLanguage: 'en-US',
     about: {
       '@type': 'MedicalCondition',
       name: 'Urinary Tract Infection',
-      alternateName: ['UTI', 'Bladder Infection', 'Cystitis', 'Acute Uncomplicated Cystitis'],
+      alternateName: ['UTI (women only)', 'Bladder Infection', 'Cystitis', 'Acute Uncomplicated Cystitis'],
       code: { '@type': 'MedicalCode', code: 'N39.0', codingSystem: 'ICD-10-CM' },
     },
     medicalAudience: {
@@ -434,12 +435,12 @@ export default function CaUtiTreatmentOnline() {
           <div className="tdmd-container">
             <div className="tdmd-hero-grid">
               <div className="tdmd-hero-copy">
-                <h1 data-speakable="true">UTI Treatment Online in California (Acute Uncomplicated Cystitis)</h1>
+                <h1 data-speakable="true">UTI Treatment for Women in California</h1>
                 <p className="tdmd-hero-sub" data-speakable="true">
                   California adult care by secure video visit. Self pay $79 · Aetna in-network · UHC Commercial approved · MD-only · CA B&amp;P §2290.5 compliant.
                 </p>
                 <p>
-                  A urinary tract infection (UTI), often called a bladder infection, commonly causes burning with urination, urinary frequency, and urgency. Not every patient with these symptoms needs antibiotics, and not every urinary complaint is a simple bladder infection. TeleDirectMD uses a safety-first telehealth approach that screens for red flags — fever, flank pain, pregnancy, catheter use, immunosuppression, recent urologic procedures — before determining whether treatment by video visit is appropriate. If the history supports uncomplicated cystitis without red flags, guideline-based antibiotic treatment may be reasonable by video; adults with pyelonephritis concern, complicated UTI, or severe illness are directed to urgent in-person care. This page is for adults located in California, including {caCities.join(', ')}, and surrounding areas.
+                  A urinary tract infection (UTI), often called a bladder infection, commonly causes burning with urination, urinary frequency, and urgency. Not every patient with these symptoms needs antibiotics, and not every urinary complaint is a simple bladder infection. TeleDirectMD uses a safety-first telehealth approach that screens for red flags — fever, flank pain, pregnancy, catheter use, immunosuppression, recent urologic procedures — before determining whether treatment by video visit is appropriate. If the history supports uncomplicated cystitis without red flags, guideline-based antibiotic treatment may be reasonable by video; adults with pyelonephritis concern, complicated UTI, or severe illness are directed to urgent in-person care. This page is for non-pregnant adult women located in California, including {caCities.join(', ')}, and surrounding areas.
                 </p>
 
                 {/* Visible byline (E-E-A-T) */}
@@ -472,7 +473,7 @@ export default function CaUtiTreatmentOnline() {
                   <li>MD-only care (no mid-levels)</li>
                   <li>Aetna in-network (effective April 30, 2026)</li>
                   <li>UnitedHealthcare Commercial approved (effective May 29, 2026)</li>
-                  <li>Licensed telehealth care for adults located in California at the time of the visit</li>
+                  <li>UTI care for non-pregnant adult women located in California at the time of the visit</li>
                 </ul>
 
                 <div className="tdmd-hero-ctas">
@@ -495,7 +496,7 @@ export default function CaUtiTreatmentOnline() {
                     <li>Clear follow-up steps and prevention guidance</li>
                   </ul>
                   <p className="tdmd-hero-note">
-                    Adults 18+ only. TeleDirectMD is not an emergency service. Go to urgent care or the ER now for fever, flank pain, persistent vomiting, severe illness, confusion, pregnancy with concerning urinary symptoms, or worsening symptoms with back pain. TeleDirectMD does not prescribe controlled substances.
+                    Non-pregnant adult women (18+) only. We do not treat male UTIs. TeleDirectMD is not an emergency service. Go to urgent care or the ER now for fever, flank pain, persistent vomiting, severe illness, confusion, pregnancy with concerning urinary symptoms, or worsening symptoms with back pain. TeleDirectMD does not prescribe controlled substances.
                   </p>
                 </div>
               </div>
@@ -512,7 +513,7 @@ export default function CaUtiTreatmentOnline() {
               <div className="tdmd-ca-uti__dual-card tdmd-ca-uti__dual-card--good">
                 <h3>✓ You Are Eligible If</h3>
                 <ul>
-                  <li>You are 18 years old or older</li>
+                  <li>You are a non-pregnant adult woman, 18 years old or older. We do not treat male UTIs.</li>
                   <li>You are physically located in California at the time of the visit</li>
                   <li>You have typical lower UTI symptoms (burning with urination, frequency, urgency, or suprapubic discomfort)</li>
                   <li>You do not have fever, chills, flank pain, or repeated vomiting</li>
@@ -525,7 +526,7 @@ export default function CaUtiTreatmentOnline() {
               <div className="tdmd-ca-uti__dual-card tdmd-ca-uti__dual-card--alert">
                 <h3>✗ You Are Not Eligible If</h3>
                 <ul>
-                  <li>You are under 18 years old</li>
+                  <li>You are male: TeleDirectMD does not treat male UTIs</li><li>You are under 18 years old</li>
                   <li>You are pregnant or could be pregnant with concerning symptoms</li>
                   <li>You have fever, flank pain, rigors, or repeated vomiting</li>
                   <li>You feel severely ill, confused, faint, or short of breath</li>
@@ -754,7 +755,7 @@ export default function CaUtiTreatmentOnline() {
                   <li>No fever, flank pain, chills, or vomiting</li>
                   <li>Not pregnant</li>
                   <li>No catheter or recent urologic procedure</li>
-                  <li>Adult 18+, located in California</li>
+                  <li>Non-pregnant adult woman, 18+, located in California</li>
                   <li>Aetna or UHC Commercial plan (in-network), or self pay $79</li>
                 </ul>
               </div>
@@ -778,7 +779,7 @@ export default function CaUtiTreatmentOnline() {
           <div className="tdmd-container">
             <div className="tdmd-ca-uti__cta-strip" role="complementary">
               <div>
-                <p>Book a same-day video visit — California adults, 18+</p>
+                <p>Book a same-day video visit — California women, 18+</p>
                 <small>Self pay $79 · Aetna in-network · UHC Commercial approved May 2026 · No ER wait</small>
               </div>
               <a className="tdmd-ca-uti__cta-btn" href="/book-online" rel="noopener">Book Now →</a>

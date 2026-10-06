@@ -388,12 +388,12 @@ export default function NewsHubPage() {
             <div className="nws-info-box nws-info-box--teal">
               <h3 className="nws-h3">Health Guides &amp; Clinical Content</h3>
               <ul className="nws-list">
-                <li>Condition-specific treatment guides (UTI, sinus, strep, etc.)</li>
+                <li>Condition-specific treatment guides (UTI (women only), sinus, strep, etc.)</li>
                 <li>Medication explainers (finasteride, sildenafil, valacyclovir)</li>
                 <li>Cost comparison analyses with sources</li>
                 <li>When to go to urgent care vs. telehealth vs. ER</li>
                 <li>Men&apos;s health: ED, hair loss, performance anxiety</li>
-                <li>Women&apos;s health: UTI, yeast infection, birth control</li>
+                <li>Women&apos;s health: UTI (women only), yeast infection, birth control</li>
               </ul>
             </div>
           </div>

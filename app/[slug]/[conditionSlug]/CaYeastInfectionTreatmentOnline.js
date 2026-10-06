@@ -67,7 +67,7 @@ const MEDICATIONS = [
 
 const CA_SIBLINGS = [
   { slug: 'bv-treatment-online', label: 'BV Treatment in CA', why: 'Common differential — discharge symptoms overlap significantly with yeast infection.' },
-  { slug: 'uti-treatment-online', label: 'UTI Treatment in CA', why: 'Dysuria and pelvic discomfort can occur in both conditions.' },
+  { slug: 'uti-treatment-online', label: 'UTI Treatment for Women in CA', why: 'Dysuria and pelvic discomfort can occur in both conditions.' },
   { slug: 'chlamydia-treatment-online', label: 'Chlamydia Treatment in CA', why: 'STI differential when vaginal discharge is present.' },
   { slug: 'trichomoniasis-treatment-online', label: 'Trichomoniasis Treatment in CA', why: 'Trich can cause discharge and vulvar irritation similar to VVC.' },
   { slug: 'vaginal-dryness-treatment-online', label: 'Vaginal Dryness Treatment in CA', why: 'GSM/menopause-related symptoms sometimes confused with recurrent VVC.' },
@@ -483,7 +483,7 @@ export default function CaYeastInfectionTreatmentOnline() {
 
             <h3>What is the relationship between antibiotics and yeast infections?</h3>
             <p>
-              Antibiotic use is one of the strongest risk factors for VVC because broad-spectrum antibiotics suppress the normal bacterial flora of the vagina, allowing <em>Candida</em> to overgrow. This is a common pattern in California patients who have recently been treated for a UTI, skin infection, dental infection, or respiratory infection with antibiotics. If you develop yeast infection symptoms within 1–2 weeks of completing an antibiotic course, this is a clinically recognizable scenario that TeleDirectMD can evaluate by telehealth.
+              Antibiotic use is one of the strongest risk factors for VVC because broad-spectrum antibiotics suppress the normal bacterial flora of the vagina, allowing <em>Candida</em> to overgrow. This is a common pattern in California patients who have recently been treated for a UTI (women only), skin infection, dental infection, or respiratory infection with antibiotics. If you develop yeast infection symptoms within 1–2 weeks of completing an antibiotic course, this is a clinically recognizable scenario that TeleDirectMD can evaluate by telehealth.
             </p>
           </div>
         </section>
@@ -745,7 +745,7 @@ export default function CaYeastInfectionTreatmentOnline() {
               <a href="/insurance">Insurance</a>
               <a href="/faq">FAQ</a>
               <a href="/ca/bv-treatment-online/">BV Treatment in CA</a>
-              <a href="/ca/uti-treatment-online/">UTI Treatment in CA</a>
+              <a href="/ca/uti-treatment-online/">UTI Treatment for Women in CA</a>
               <a href="/ca/chlamydia-treatment-online/">Chlamydia Treatment in CA</a>
               <a href="/ca/trichomoniasis-treatment-online/">Trichomoniasis Treatment in CA</a>
               <a href="/ca/vaginal-dryness-treatment-online/">Vaginal Dryness Treatment in CA</a>

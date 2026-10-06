@@ -11,7 +11,7 @@ import { PrescribingPolicyFaq } from './components/PrescribingPolicy';
 const SERVICE_CATEGORIES = [
   {
     title: 'Virtual Urgent Care',
-    desc: 'Cold, flu, COVID, UTI, ear pain, pink eye, and more — treated same-day.',
+    desc: 'Cold, flu, COVID, UTI (women only), ear pain, pink eye, and more — treated same-day.',
     icon: 'urgent',
     img: '/images/services/svc-urgent-care.png',
     href: '/what-we-treat',
@@ -56,7 +56,7 @@ const SERVICE_CATEGORIES = [
 const CONDITION_CATEGORIES = [
   {
     name: 'Urgent Care',
-    conditions: ['Common Cold', 'COVID-19', 'Influenza', 'Sinus Infection', 'Sore Throat', 'Ear Pain', 'Pink Eye', 'Dental Pain', 'UTI', 'Cellulitis', 'Shingles', 'Gout', 'Mastitis', 'Viral Gastroenteritis', 'Impetigo', 'Oral Thrush'],
+    conditions: ['Common Cold', 'COVID-19', 'Influenza', 'Sinus Infection', 'Sore Throat', 'Ear Pain', 'Pink Eye', 'Dental Pain', 'UTI (women only)', 'Cellulitis', 'Shingles', 'Gout', 'Mastitis', 'Viral Gastroenteritis', 'Impetigo', 'Oral Thrush'],
   },
   {
     name: "Women's Health",
@@ -142,7 +142,7 @@ const CONDITION_SLUGS = {
   'Ear Pain': '/ear-pain-treatment-online',
   'Pink Eye': '/pink-eye-treatment-online',
   'Dental Pain': '/dental-pain-treatment-online',
-  'UTI': '/uti-treatment-online',
+  'UTI (women only)': '/uti-treatment-online',
   'Cellulitis': '/cellulitis-treatment-online',
   'Shingles': '/shingles-treatment-online',
   'Gout': '/gout-treatment-online',

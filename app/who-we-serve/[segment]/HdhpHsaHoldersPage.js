@@ -6,7 +6,7 @@ export default function HdhpHsaHoldersPage() {
   /* ── Conditions to link ─────────────────────────────────────────── */
   const conditions = [
     { name: 'Sinus Infection', slug: 'sinus-infection-treatment-online', desc: 'Evaluation and antibiotics when appropriate for sinus pressure and post-nasal drip — flat $79, HSA card accepted at checkout.' },
-    { name: 'UTI / Urinary Tract Infection', slug: 'uti-treatment-online', desc: 'Fast antibiotic prescriptions sent to your local pharmacy — predictable $79 visit cost regardless of where you sit on your deductible.' },
+    { name: 'UTI (women only)', slug: 'uti-treatment-online', desc: 'Fast antibiotic prescriptions sent to your local pharmacy — predictable $79 visit cost regardless of where you sit on your deductible.' },
     { name: 'Cough, Cold &amp; Respiratory Infections', slug: 'common-cold-treatment-online', desc: 'Cold, flu, and respiratory infection treatment with transparent cash-pay pricing — no deductible math.' },
     { name: 'Allergies', slug: 'seasonal-allergies-treatment-online', desc: 'Seasonal allergy evaluation and prescription antihistamines — flat $79, no insurance paperwork.' },
     { name: 'Skin Conditions / Rashes', slug: 'eczema-treatment-online', desc: 'Prescription treatment for eczema, contact dermatitis, and common skin issues — board-certified physician evaluation.' },

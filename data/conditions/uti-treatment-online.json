@@ -1,14 +1,14 @@
 {
-  "conditionName": "UTI Treatment",
-  "conditionShort": "UTI",
+  "conditionName": "UTI Treatment for Women",
+  "conditionShort": "UTI (women only)",
   "conditionSlug": "uti-treatment-online",
-  "pageTitle": "UTI Online Treatment in {state} | TeleDirectMD",
-  "metaDescription": "Fast, evidence-based UTI treatment for {state} adults by secure video visit. Red-flag screening, antibiotic stewardship, and prescriptions when clinically appropriate. Self pay option starting at $79. Insurance is not required.",
+  "pageTitle": "UTI Treatment for Women in {state} | TeleDirectMD",
+  "metaDescription": "Online UTI care for non-pregnant adult women in {state}. TeleDirectMD does not treat male UTIs. MD video visits, $79 self pay; prescriptions when appropriate.",
   "ogImageAlt": "UTI treatment in {state} by TeleDirectMD",
   "hero": {
-    "h1": "UTI Treatment in {state} (Acute Uncomplicated Cystitis)",
-    "subtitle": "{state} adult care by secure video visit, self pay option starting at $79, MD-only, insurance is not required.",
-    "introParagraph": "A UTI, often called a bladder infection, commonly causes burning with urination, urinary frequency, and urgency. Not every patient with these symptoms needs antibiotics, and not every urinary complaint is a simple bladder infection. The Ann Arbor Guide to Triaging Adults With Suspected UTI emphasizes that empiric antibiotic use should follow structured triage, with careful separation of uncomplicated cystitis from kidney infection, urinary obstruction, and non-UTI causes of dysuria. TeleDirectMD uses a safety-first telehealth approach that screens for red flags including fever, flank pain, pregnancy, catheter use, immunosuppression, and recent urologic procedures before determining whether treatment by video visit is appropriate. If the history supports uncomplicated cystitis without red flags, guideline-based antibiotic treatment may be reasonable by video, while adults with pyelonephritis concern, complicated UTI, or severe illness are directed to urgent in-person care. This page is for adults located in {state}, including {cities}.",
+    "h1": "UTI Treatment for Women in {state}",
+    "subtitle": "For non-pregnant adult women (18+) with uncomplicated symptoms only. We do not treat male UTIs.",
+    "introParagraph": "TeleDirectMD does not treat male UTIs. UTI care is limited to non-pregnant adult women (18+) with uncomplicated symptoms. Men with UTI symptoms should seek in-person care and should not book a TeleDirectMD UTI visit. A UTI, often called a bladder infection, commonly causes burning with urination, urinary frequency, and urgency. Not every patient with these symptoms needs antibiotics, and not every urinary complaint is a simple bladder infection. The Ann Arbor Guide to Triaging Adults With Suspected UTI emphasizes that empiric antibiotic use should follow structured triage, with careful separation of uncomplicated cystitis from kidney infection, urinary obstruction, and non-UTI causes of dysuria. TeleDirectMD uses a safety-first telehealth approach that screens for red flags including fever, flank pain, pregnancy, catheter use, immunosuppression, and recent urologic procedures before determining whether treatment by video visit is appropriate. If the history supports uncomplicated cystitis without red flags, guideline-based antibiotic treatment may be reasonable by video, while adults with pyelonephritis concern, complicated UTI, or severe illness are directed to urgent in-person care. This page is for non-pregnant adult women located in {state}, including {cities}.",
     "tocLinks": [
       {
         "href": "eligibility-checklist",
@@ -40,21 +40,21 @@
     "sideCard": {
       "h2": "Online MD-Only UTI Care in {state}",
       "features": [
-        "Fast evaluation for uncomplicated bladder infection symptoms",
+        "Evaluation for uncomplicated bladder infection symptoms in non-pregnant adult women only",
         "Red-flag screening for kidney infection and serious causes",
         "Guideline-based antibiotic choices when appropriate",
         "Clear follow-up steps and prevention guidance"
       ],
-      "note": "Adults 18+ only. TeleDirectMD is not an emergency service. Go to urgent care or the ER now for fever, flank pain, persistent vomiting, severe illness, confusion, pregnancy with concerning urinary symptoms, or worsening symptoms with back pain. TeleDirectMD does not prescribe controlled substances."
+      "note": "TeleDirectMD does not treat male UTIs. UTI care is limited to non-pregnant adult women (18+) with uncomplicated symptoms. Men with UTI symptoms should seek in-person care and should not book a TeleDirectMD UTI visit. TeleDirectMD is not an emergency service. Go to urgent care or the ER now for fever, flank pain, persistent vomiting, severe illness, confusion, pregnancy with concerning urinary symptoms, or worsening symptoms with back pain. TeleDirectMD does not prescribe controlled substances."
     },
     "icd10Display": "N39.0 (final coding depends on clinical details)",
-    "quickAnswer": "Yes \u2014 adults (18+) in {state} with typical UTI symptoms (burning, urgency, frequency) can be treated online without an in-person exam. A board-certified MD reviews your symptoms by secure video and, if appropriate, prescribes a guideline-first antibiotic \u2014 nitrofurantoin, trimethoprim-sulfamethoxazole, or fosfomycin \u2014 sent to your pharmacy the same day. Visit price: $79 flat, no insurance required. Not for pregnancy, fever with flank pain, or complicated cases, which need in-person care."
+    "quickAnswer": "TeleDirectMD treats uncomplicated UTIs in non-pregnant adult women (18+) in {state} by secure video visit. We do not treat male UTIs. A board-certified MD reviews your symptoms and may prescribe an antibiotic when clinically appropriate. The visit is $79 self pay. Pregnancy, fever with flank pain, and complicated symptoms require in-person care."
   },
   "eligibility": {
     "sectionTitle": "UTI Telehealth Eligibility Checklist for {state}",
     "introText": "You are likely eligible for a TeleDirectMD video visit if ALL of these are true:",
     "eligible": [
-      "You are 18 years old or older",
+      "You are a non-pregnant adult woman, 18 years old or older",
       "You are physically located in {state} at the time of the visit",
       "You have typical lower UTI symptoms such as burning with urination, frequency, urgency, or suprapubic discomfort",
       "You do not have fever, chills, flank pain, or repeated vomiting",
@@ -64,6 +64,7 @@
       "Insurance is not required. A self pay option is available."
     ],
     "notEligible": [
+      "You are male. TeleDirectMD does not treat male UTIs, even when symptoms seem mild or uncomplicated",
       "You are under 18 years old",
       "You are pregnant or could be pregnant with concerning symptoms",
       "You have fever, flank pain, rigors, or repeated vomiting",
@@ -167,10 +168,10 @@
       },
       {
         "type": "check",
-        "title": "Are you 18+ and currently in {state}?",
+        "title": "Are you a non-pregnant woman, age 18+, currently in {state}?",
         "items": [],
         "yesAction": "If yes, continue to Step 3",
-        "noAction": "If no, use in-person care as appropriate"
+        "noAction": "If no, do not book a TeleDirectMD UTI visit. Seek in-person care."
       },
       {
         "type": "check",
@@ -187,7 +188,7 @@
       {
         "type": "good",
         "title": "You are likely appropriate for a TeleDirectMD video visit",
-        "description": "TeleDirectMD can evaluate uncomplicated UTI symptoms, confirm safety for telehealth, discuss likely diagnosis, and prescribe antibiotics when clinically appropriate. If your symptoms suggest a more complicated infection or an alternative diagnosis, we will direct you to the right level of in-person care.",
+        "description": "TeleDirectMD does not treat male UTIs. UTI care is limited to non-pregnant adult women (18+) with uncomplicated symptoms. Men with UTI symptoms should seek in-person care and should not book a TeleDirectMD UTI visit. TeleDirectMD can evaluate uncomplicated UTI symptoms, confirm safety for telehealth, discuss likely diagnosis, and prescribe antibiotics when clinically appropriate. If your symptoms suggest a more complicated infection or an alternative diagnosis, we will direct you to the right level of in-person care.",
         "items": [],
         "showCta": true
       }
@@ -197,7 +198,7 @@
     "sectionTitle": "What Does UTI Treatment Cost in {state}?",
     "subtitle": "Transparent options. Insurance is not required.",
     "visitPrice": "$79",
-    "priceSubtext": "$79 flat visit \u00b7 no insurance required \u00b7 most generic antibiotics add only $1\u2013$15",
+    "priceSubtext": "$79 flat visit · no insurance required · most generic antibiotics add only $1–$15",
     "includes": [
       "MD evaluation and red-flag screening",
       "Assessment for uncomplicated bladder infection vs common alternatives",
@@ -231,14 +232,14 @@
         "isTdmd": false
       }
     ],
-    "footnote": "Total cost is transparent: the $79 visit plus a generic antibiotic (nitrofurantoin, TMP-SMX, or fosfomycin) via a GoodRx coupon means most patients pay about $80\u2013$95 all-in \u2014 no membership, no coupon math, no surprise facility fees.",
+    "footnote": "Total cost is transparent: the $79 visit plus a generic antibiotic (nitrofurantoin, TMP-SMX, or fosfomycin) via a GoodRx coupon means most patients pay about $80–$95 all-in — no membership, no coupon math, no surprise facility fees.",
     "noHiddenFees": "No hidden fees. If medication is not clinically appropriate, you still receive a complete evaluation, guidance, and clear instructions on what level of care you need next."
   },
   "whatIsCondition": {
     "sectionTitle": "What Is a UTI?",
     "paragraphs": [
       "A urinary tract infection (UTI) is usually a bacterial infection of the urinary system. When the infection affects the bladder, it is called cystitis. When it affects the kidneys, it is called pyelonephritis.",
-      "UTIs are very common. Over half of women experience at least one UTI during their lifetime, and recurrence is common in some patients. The IDSA 2025 guideline update defines uncomplicated UTI as infection confined to the bladder in women or men, while complicated UTI refers to infection that has progressed beyond the bladder.",
+      "UTIs are very common. Over half of women experience at least one UTI during their lifetime, and recurrence is common in some patients. TeleDirectMD treats uncomplicated bladder infections in non-pregnant adult women only. We do not treat male UTIs.",
       "TeleDirectMD focuses on uncomplicated adult UTI symptoms appropriate for telehealth, with careful screening to direct complicated or high-risk cases to in-person care."
     ]
   },
@@ -363,6 +364,7 @@
     "appropriate": {
       "title": "When a Video Visit Is Appropriate",
       "items": [
+        "Non-pregnant adult woman, age 18 or older",
         "Typical uncomplicated cystitis symptoms (burning, frequency, urgency)",
         "No fever, flank pain, chills, or repeated vomiting",
         "No pregnancy",
@@ -374,6 +376,7 @@
     "redFlags": {
       "title": "Red Flags Requiring In-Person or ER Care",
       "items": [
+        "Male patient with suspected UTI: not treated by TeleDirectMD; seek in-person care",
         "Fever or chills",
         "Flank or back pain",
         "Repeated vomiting or dehydration",
@@ -485,10 +488,11 @@
   },
   "whenNotToUse": {
     "sectionTitle": "When Not to Use TeleDirectMD for UTI in {state}",
-    "intro": "TeleDirectMD is designed for uncomplicated adult UTI symptoms. We are direct about when telehealth is not appropriate.",
+    "intro": "TeleDirectMD does not treat male UTIs. UTI care is limited to non-pregnant adult women (18+) with uncomplicated symptoms. Men with UTI symptoms should seek in-person care and should not book a TeleDirectMD UTI visit.",
     "shouldNotUse": {
       "title": "You Should Not Use TeleDirectMD If",
       "items": [
+        "You are male and seeking UTI treatment",
         "You are under 18 years old",
         "You are pregnant or could be pregnant with concerning symptoms",
         "You have fever, flank pain, chills, or repeated vomiting",
@@ -526,11 +530,11 @@
     "items": [
       {
         "question": "Can I get a prescription for UTI online in {state}?",
-        "answer": "Yes, if you are an adult 18+ located in {state} and your symptoms are appropriate for telehealth after red-flag screening. TeleDirectMD can prescribe medication when clinically appropriate, and some cases are managed with supportive care depending on the likely cause and safety factors."
+        "answer": "Yes, if you are a non-pregnant adult woman (18+) located in {state} with uncomplicated symptoms appropriate for telehealth after screening. TeleDirectMD does not treat male UTIs. Antibiotics are prescribed only when clinically appropriate."
       },
       {
         "question": "How can I get UTI treatment online without insurance?",
-        "answer": "Insurance is not required. TeleDirectMD is a flat $79 self-pay video visit \u2014 no membership and no coupon math. If an antibiotic is appropriate, the generic (nitrofurantoin, TMP-SMX, or fosfomycin) typically adds only $1\u2013$15 with a GoodRx coupon, so most patients pay about $80\u2013$95 total, versus $150\u2013$450 at urgent care without insurance."
+        "answer": "Insurance is not required. TeleDirectMD is a flat $79 self-pay video visit — no membership and no coupon math. If an antibiotic is appropriate, the generic (nitrofurantoin, TMP-SMX, or fosfomycin) typically adds only $1–$15 with a GoodRx coupon, so most patients pay about $80–$95 total, versus $150–$450 at urgent care without insurance."
       },
       {
         "question": "How much does online UTI treatment cost in {state}?",
@@ -545,8 +549,8 @@
         "answer": "If medication is clinically appropriate, prescriptions are typically sent electronically to common {state} pharmacies during or shortly after your video visit. Most pharmacies can fill the prescription within hours."
       },
       {
-        "question": "Can men get UTI treatment online?",
-        "answer": "Yes. Unlike many online UTI services that treat women only, TeleDirectMD evaluates adult men and women by video. Because UTIs in men are considered complicated more often, the MD screens carefully for red flags (fever, flank or prostate pain, retention) and directs anyone needing hands-on evaluation to in-person care. When symptoms are uncomplicated, a guideline-based antibiotic can be prescribed the same day."
+        "question": "Does TeleDirectMD treat male UTIs?",
+        "answer": "No. TeleDirectMD does not treat male UTIs. UTI care is limited to non-pregnant adult women (18+) with uncomplicated symptoms. Men with UTI symptoms should seek in-person care and should not book a TeleDirectMD UTI visit."
       },
       {
         "question": "Can a doctor diagnose UTI without an in-person exam?",
@@ -631,7 +635,7 @@
   "disclaimer": {
     "sectionTitle": "TeleDirectMD Telehealth Disclaimer",
     "paragraphs": [
-      "TeleDirectMD provides MD-only virtual urgent care for adults (18+) in {state} using secure video visits to evaluate UTI symptoms, provide evidence-based guidance, and prescribe antibiotic treatment when clinically appropriate. Insurance is not required. You must be physically located in {state} at the time of your video visit. TeleDirectMD does not prescribe controlled substances.",
+      "TeleDirectMD provides MD-only virtual urgent care for non-pregnant adult women (18+) in {state} using secure video visits to evaluate UTI symptoms, provide evidence-based guidance, and prescribe antibiotic treatment when clinically appropriate. Insurance is not required. You must be physically located in {state} at the time of your video visit. TeleDirectMD does not prescribe controlled substances.",
       "TeleDirectMD is not an emergency service and is not a replacement for urgent in-person care during suspected kidney infection, sepsis, or severe illness. This service is intended for uncomplicated cystitis symptoms and is not a substitute for comprehensive in-person evaluation when red flags are present.",
       "Online UTI treatment in {state}. UTI antibiotics online. Bladder infection treatment by video visit."
     ]
@@ -701,8 +705,8 @@
     }
   ],
   "cityBlock": {
-    "title": "Adults We Serve Across {state}",
-    "text": "TeleDirectMD evaluates adults located throughout {state}, including {citiesExtended}. Whether you are searching for online UTI treatment in {city1}, bladder infection care in {city2}, UTI antibiotics online in {city3}, or telehealth UTI evaluation anywhere else in {state}, the same telehealth eligibility and safety rules apply."
+    "title": "Women We Serve Across {state}",
+    "text": "TeleDirectMD evaluates non-pregnant adult women located throughout {state}, including {citiesExtended}. Whether you are searching for online UTI treatment in {city1}, bladder infection care in {city2}, UTI antibiotics online in {city3}, or telehealth UTI evaluation anywhere else in {state}, the same telehealth eligibility and safety rules apply."
   },
   "icd10Codes": [
     {
@@ -795,8 +799,8 @@
       "Safety-first red-flag screening",
       "Family Medicine"
     ],
-    "serviceDescription": "Secure video visit for {state} adults with uncomplicated UTI symptoms, including red-flag screening, antibiotic stewardship, and prescriptions when clinically appropriate.",
-    "webpageDescription": "{state} UTI treatment by secure MD video visit for adults. Evidence-based evaluation of bladder infection symptoms, red-flag screening, guideline-based antibiotic treatment when appropriate, and clear rules for when urgent in-person care is needed."
+    "serviceDescription": "TeleDirectMD does not treat male UTIs. UTI care is limited to non-pregnant adult women (18+) with uncomplicated symptoms. Men with UTI symptoms should seek in-person care and should not book a TeleDirectMD UTI visit. Secure video visits for eligible women in {state}.",
+    "webpageDescription": "Online UTI care for non-pregnant adult women in {state}. TeleDirectMD does not treat male UTIs. MD video visits, $79 self pay; prescriptions when appropriate."
   },
   "guidelineSource": "idsaUti",
   "conditionType": "treatment",

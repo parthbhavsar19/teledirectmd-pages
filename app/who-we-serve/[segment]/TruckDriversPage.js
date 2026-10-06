@@ -8,7 +8,7 @@ export default function TruckDriversPage() {
     { name: 'Hypertension / High Blood Pressure', slug: 'hypertension-refills-online', desc: 'Ongoing blood pressure monitoring and medication refills — critical for maintaining your CDL medical card.' },
     { name: 'Type 2 Diabetes / Blood Sugar Management', slug: 'diabetes-refills-online', desc: 'A1C follow-up, medication adjustments, and lifestyle guidance to keep glucose levels within DOT thresholds.' },
     { name: 'Cholesterol Management', slug: 'hyperlipidemia-refills-online', desc: 'Statin refills and lipid panel review to reduce long-term cardiovascular risk on the road.' },
-    { name: 'UTI / Urinary Tract Infection', slug: 'uti-treatment-online', desc: 'Fast antibiotic prescriptions sent to the nearest pharmacy along your route.' },
+    { name: 'UTI (women only)', slug: 'uti-treatment-online', desc: 'Fast antibiotic prescriptions sent to the nearest pharmacy along your route.' },
     { name: 'Sinus Infection', slug: 'sinus-infection-treatment-online', desc: 'Evaluation and treatment for sinus pressure, congestion, and post-nasal drip without leaving your cab.' },
     { name: 'Respiratory Infections / Bronchitis', slug: 'common-cold-treatment-online', desc: 'Cold, flu, and bronchitis treatment to get you back on the road faster.' },
     { name: 'Acid Reflux / GERD', slug: 'acid-reflux-refills-online', desc: 'Medication management for heartburn and reflux — common complaints among long-haul drivers.' },
@@ -49,7 +49,7 @@ export default function TruckDriversPage() {
     },
     {
       q: 'What conditions can you treat for truck drivers via telehealth?',
-      a: 'We treat a wide range of conditions relevant to truckers, including hypertension, type 2 diabetes, high cholesterol, UTIs, sinus infections, respiratory infections, acid reflux, migraines, gout, skin conditions, anxiety, and more. We also provide smoking cessation support and medication refills for chronic conditions. See our full list of 60+ conditions on our What We Treat page.'
+      a: 'We treat a wide range of conditions relevant to truckers, including hypertension, type 2 diabetes, high cholesterol, UTIs (women only), sinus infections, respiratory infections, acid reflux, migraines, gout, skin conditions, anxiety, and more. We also provide smoking cessation support and medication refills for chronic conditions. See our full list of 60+ conditions on our What We Treat page.'
     },
     {
       q: 'How long does a telehealth visit take?',

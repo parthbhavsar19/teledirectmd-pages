@@ -2,7 +2,7 @@ import FloridaBlueHubClient from './FloridaBlueHubClient';
 
 export const metadata = {
   title: 'Online Doctor That Accepts Florida Blue | TeleDirectMD',
-  description: 'TeleDirectMD is in-network with Florida Blue (BCBS of Florida) for commercial plans. Board-certified, Florida-registered telehealth physician. Same-day video visits for UTI, sinus infection, hypertension, hyperlipidemia & more. $79 self-pay also available.',
+  description: 'TeleDirectMD is in-network with Florida Blue (BCBS of Florida) for commercial plans. Board-certified, Florida-registered telehealth physician. Same-day video visits for UTI (women only), sinus infection, hypertension, hyperlipidemia & more. $79 self-pay also available.',
   alternates: { canonical: 'https://teledirectmd.com/insurance/florida-blue' },
   openGraph: {
     title: 'Online Doctor That Accepts Florida Blue | TeleDirectMD',

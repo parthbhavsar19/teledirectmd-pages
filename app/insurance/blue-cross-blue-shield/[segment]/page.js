@@ -34,7 +34,7 @@ export async function generateMetadata({ params }) {
     const affiliateName = insurer.affiliates?.[STATE_SLUGS[segment]] || 'Blue Cross Blue Shield';
     return {
       title: `Online Doctor That Accepts ${affiliateName} in ${stateName} | TeleDirectMD`,
-      description: `TeleDirectMD is in-network with ${affiliateName} in ${stateName}. Board-certified physician. Same-day video visits for UTI, sinus infection, asthma refills & more. Your BCBS copay applies.`,
+      description: `TeleDirectMD is in-network with ${affiliateName} in ${stateName}. Board-certified physician. Same-day video visits for UTI (women only), sinus infection, asthma refills & more. Your BCBS copay applies.`,
       alternates: { canonical: `https://teledirectmd.com/insurance/blue-cross-blue-shield/${segment}` },
       openGraph: {
         title: `Online Doctor That Accepts ${affiliateName} in ${stateName} | TeleDirectMD`,

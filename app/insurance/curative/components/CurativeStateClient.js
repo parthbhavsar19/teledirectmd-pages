@@ -40,7 +40,7 @@ const STATE_COPY = {
       },
       {
         q: 'What can a Georgia Curative member be treated for online?',
-        a: 'Common adult conditions such as urinary tract infections, sinus infections, sore throat, ear pain, pink eye, flu, cold sores, rashes, and seasonal allergies, plus refills for hypertension, hyperlipidemia, and hypothyroidism. If your symptoms need an in-person exam, imaging, or emergency care, we will say so during the visit and point you to the right Georgia facility.',
+        a: 'Common adult conditions such as urinary tract infections in women only, sinus infections, sore throat, ear pain, pink eye, flu, cold sores, rashes, and seasonal allergies, plus refills for hypertension, hyperlipidemia, and hypothyroidism. If your symptoms need an in-person exam, imaging, or emergency care, we will say so during the visit and point you to the right Georgia facility.',
       },
       {
         q: 'Does TeleDirectMD accept Georgia Medicaid or Medicare plans through Curative?',

@@ -662,7 +662,7 @@ export default function CaCellulitisTreatmentOnline() {
                   <span className="tdmd-ca-uti__sibling-why">Mastitis is a specialized form of breast skin/soft tissue infection.</span>
                 </a>
               <a key="uti-treatment-online" className="tdmd-ca-uti__sibling" href="/ca/uti-treatment-online/">
-                  <span className="tdmd-ca-uti__sibling-label">UTI Treatment in CA</span>
+                  <span className="tdmd-ca-uti__sibling-label">UTI Treatment for Women in CA</span>
                   <span className="tdmd-ca-uti__sibling-why">Both are antibiotic-treated bacterial infections — common concurrent conditions.</span>
                 </a>
             </div>

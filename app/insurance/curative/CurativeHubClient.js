@@ -43,7 +43,7 @@ const CURATIVE_FAQS = [
   },
   {
     q: 'Can I use my Curative plan for virtual urgent care?',
-    a: 'Yes, for the adult conditions we treat by video, such as urinary tract infections, sinus infections, sore throat, pink eye, flu, rashes, and chronic medication refills. Visits are same day in most cases and prescriptions are sent electronically to your local pharmacy. If your symptoms need hands-on evaluation or emergency care, we will tell you and direct you to the right in-person setting.',
+    a: 'Yes, for the adult conditions we treat by video, such as urinary tract infections in women only, sinus infections, sore throat, pink eye, flu, rashes, and chronic medication refills. Visits are same day in most cases and prescriptions are sent electronically to your local pharmacy. If your symptoms need hands-on evaluation or emergency care, we will tell you and direct you to the right in-person setting.',
   },
   {
     q: 'Does TeleDirectMD accept Curative Medicaid, Medicare Advantage, or HMO plans?',

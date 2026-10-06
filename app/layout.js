@@ -2,6 +2,7 @@ import SiteHeader from './components/SiteHeader';
 import SiteFooter from './components/SiteFooter';
 import GlobalStyles from './components/GlobalStyles';
 import Analytics from './components/Analytics';
+import UtiScopeNotice from './components/UtiScopeNotice';
 
 export const metadata = {
   metadataBase: new URL('https://teledirectmd.com'),
@@ -34,6 +35,7 @@ export default function RootLayout({ children }) {
         <style>{`.tdmd-skip-link{position:absolute;left:-9999px;top:auto;width:1px;height:1px;overflow:hidden;}.tdmd-skip-link:focus{position:fixed;top:0;left:0;width:auto;height:auto;padding:.75rem 1.5rem;background:#003E52;color:#fff;font-size:1rem;font-family:sans-serif;z-index:99999;text-decoration:none;border-radius:0 0 8px 0;overflow:visible;}`}</style>
         <a href="#main-content" className="tdmd-skip-link">Skip to main content</a>
         <SiteHeader />
+        <UtiScopeNotice />
         <main id="main-content">{children}</main>
         <SiteFooter />
         <Analytics />

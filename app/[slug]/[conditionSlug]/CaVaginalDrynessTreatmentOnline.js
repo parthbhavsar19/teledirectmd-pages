@@ -654,7 +654,7 @@ export default function CaVaginalDrynessTreatmentOnline() {
                   <span className="tdmd-ca-uti__sibling-why">Menopausal pH changes increase susceptibility to bacterial vaginosis; co-evaluation is common.</span>
                 </a>
               <a key="uti-treatment-online" className="tdmd-ca-uti__sibling" href="/ca/uti-treatment-online/">
-                  <span className="tdmd-ca-uti__sibling-label">UTI Treatment in CA</span>
+                  <span className="tdmd-ca-uti__sibling-label">UTI Treatment for Women in CA</span>
                   <span className="tdmd-ca-uti__sibling-why">GSM increases recurrent UTI risk in postmenopausal women through thinning urethral epithelium.</span>
                 </a>
               <a key="performance-anxiety-treatment-online" className="tdmd-ca-uti__sibling" href="/ca/performance-anxiety-treatment-online/">

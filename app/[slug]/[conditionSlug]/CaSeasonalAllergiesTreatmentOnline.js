@@ -630,7 +630,7 @@ export default function CaSeasonalAllergiesTreatmentOnline() {
               <a href="/ca/eyelash-growth-treatment-online/">Eyelash Growth in CA</a>
               <a href="/ca/smoking-cessation-treatment-online/">Smoking Cessation in CA</a>
               <a href="/ca/motion-sickness-treatment-online/">Motion Sickness in CA</a>
-              <a href="/ca/uti-treatment-online/">UTI Treatment in CA</a>
+              <a href="/ca/uti-treatment-online/">UTI Treatment for Women in CA</a>
               <a href="/about/">About Dr. Bhavsar</a>
               <a href="/book-online">Book Online</a>
               <a href="/what-we-treat">What We Treat</a>

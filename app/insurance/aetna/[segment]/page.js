@@ -24,7 +24,7 @@ export async function generateMetadata({ params }) {
     const stateName = STATE_NAMES[STATE_SLUGS[segment]];
     return {
       title: `Online Doctor That Accepts Aetna in ${stateName} | TeleDirectMD`,
-      description: `TeleDirectMD is in-network with Aetna in ${stateName}. Board-certified physician. Same-day video visits for UTI, sinus infection, asthma refills & more. Your Aetna copay applies.`,
+      description: `TeleDirectMD is in-network with Aetna in ${stateName}. Board-certified physician. Same-day video visits for UTI (women only), sinus infection, asthma refills & more. Your Aetna copay applies.`,
       alternates: { canonical: `https://teledirectmd.com/insurance/aetna/${segment}` },
       openGraph: { title: `Online Doctor That Accepts Aetna in ${stateName} | TeleDirectMD`, url: `https://teledirectmd.com/insurance/aetna/${segment}`, siteName:'TeleDirectMD', type:'website' },
     };

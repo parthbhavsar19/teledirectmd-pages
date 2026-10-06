@@ -19,7 +19,7 @@ const B = {
 };
 
 const CONDITIONS = [
-  { name: 'Urinary Tract Infection (UTI)', summary: 'Burning, frequency, urgency. Treated with a 5-day generic antibiotic.', href: '/ca/uti-treatment-online' },
+  { name: 'UTI (women only)', summary: 'Burning, frequency, urgency. Treated with a 5-day generic antibiotic.', href: '/ca/uti-treatment-online' },
   { name: 'Sinus Infection', summary: 'Facial pressure, congestion, post-nasal drip. Antibiotics only when bacterial pattern (10+ days).', href: '/ca/sinus-infection-treatment-online' },
   { name: 'Strep Throat', summary: 'Sore throat with fever, swollen tonsils. First-line: amoxicillin or penicillin VK.', href: '/ca/strep-throat-treatment-online' },
   { name: 'Pink Eye (Conjunctivitis)', summary: 'Red, watery, gritty eyes. Antibiotic drops if bacterial; supportive care if viral.', href: '/ca/pink-eye-treatment-online' },
@@ -92,7 +92,7 @@ const SCHEMA = {
       '@id': 'https://teledirectmd.com/california/telehealth-urgent-care-aetna#webpage',
       name: 'California Telehealth Urgent Care That Accepts Aetna',
       description:
-        "Same-day virtual urgent care for California Aetna commercial-plan members. UTI, sinus infection, asthma refills, hypertension refills, and more. Board-certified physician Dr. Parth Bhavsar, MD (NPI 1104323203).",
+        "Same-day virtual urgent care for California Aetna commercial-plan members. UTI (women only), sinus infection, asthma refills, hypertension refills, and more. Board-certified physician Dr. Parth Bhavsar, MD (NPI 1104323203).",
       url: 'https://teledirectmd.com/california/telehealth-urgent-care-aetna',
       lastReviewed: '2026-05-11',
       reviewedBy: {
@@ -202,7 +202,7 @@ export default function TelehealthUrgentCareAetnaClient() {
           style={{ fontSize: 19, lineHeight: 1.6, color: B.text, maxWidth: 760, margin: '0 0 24px' }}
         >
           Same-day virtual urgent care for adults in California — covered by your Aetna commercial plan. Board-certified
-          physician Dr. Parth Bhavsar, MD, treats UTI, sinus infection, asthma refills, hypertension refills, pink eye,
+          physician Dr. Parth Bhavsar, MD, treats UTI (women only), sinus infection, asthma refills, hypertension refills, pink eye,
           strep throat, and other non-emergency adult conditions. Most California Aetna members pay $10–$40, or choose
           flat $79 self-pay.
         </p>
@@ -445,7 +445,7 @@ export default function TelehealthUrgentCareAetnaClient() {
             { href: '/california-aetna', t: 'Aetna Telehealth in California (Hub)', d: 'Patient-friendly hub covering Aetna coverage, copays, plans, and city availability.' },
             { href: '/insurance/aetna/california', t: 'Aetna California — Full Details', d: 'Insurer-first page with state context, parity laws, and the full Aetna plan list.' },
             { href: '/news/aetna-california-may-2026', t: 'Announcement: Aetna CA (May 2026)', d: 'Network expansion announcement with effective date and member benefits.' },
-            { href: '/insurance/aetna/california/uti-treatment', t: 'Aetna CA: UTI Treatment', d: 'Same-day antibiotic prescription for UTI — Aetna commercial plans accepted in California.' },
+            { href: '/insurance/aetna/california/uti-treatment', t: 'Aetna CA: UTI Treatment for Women', d: 'Same-day antibiotic prescription for UTI — Aetna commercial plans accepted in California.' },
             { href: '/insurance/aetna/california/hypertension-refill', t: 'Aetna CA: Hypertension Refills', d: 'Blood pressure medication refills via Aetna telehealth in California.' },
           ].map((link) => (
             <a

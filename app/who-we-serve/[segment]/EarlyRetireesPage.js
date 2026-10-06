@@ -12,7 +12,7 @@ export default function EarlyRetireesPage() {
     { name: 'Thyroid Management', slug: 'thyroid-management-online', desc: 'Medication refills and dosing adjustments while you establish with a new endocrinologist.' },
     { name: 'Anxiety', slug: 'anxiety-treatment-online', desc: 'Evaluation and prescription management for generalized anxiety.' },
     { name: 'Insomnia', slug: 'insomnia-treatment-online', desc: 'Sleep evaluation and medication options for chronic insomnia.' },
-    { name: 'UTI / Urinary Tract Infection', slug: 'uti-treatment-online', desc: 'Fast antibiotic prescription — common in this age group, no need for an in-person visit.' },
+    { name: 'UTI (women only)', slug: 'uti-treatment-online', desc: 'Fast antibiotic prescription — common in this age group, no need for an in-person visit.' },
     { name: 'Sinus Infection', slug: 'sinus-infection-treatment-online', desc: 'Evaluation and treatment for acute sinusitis.' },
     { name: 'Skin Conditions / Rashes', slug: 'skin-infection-treatment-online', desc: 'Evaluation of skin infections, rashes, and minor dermatologic concerns via video.' },
   ];
@@ -24,7 +24,7 @@ export default function EarlyRetireesPage() {
     },
     {
       q: 'My ACA plan has a $5,000 deductible. Is it cheaper to pay TeleDirectMD directly?',
-      a: 'For routine and non-emergency visits, often yes. If you haven\'t met your deductible, you\'re effectively paying cash for every in-network visit — often $150–$350 for a primary care appointment. TeleDirectMD\'s $79 flat fee is frequently cheaper for common conditions like blood pressure checks, medication refills, UTIs, sinus infections, and skin concerns.'
+      a: 'For routine and non-emergency visits, often yes. If you haven\'t met your deductible, you\'re effectively paying cash for every in-network visit — often $150–$350 for a primary care appointment. TeleDirectMD\'s $79 flat fee is frequently cheaper for common conditions like blood pressure checks, medication refills, UTIs (women only), sinus infections, and skin concerns.'
     },
     {
       q: 'Can you manage my chronic conditions — blood pressure, diabetes, cholesterol?',
@@ -267,7 +267,7 @@ export default function EarlyRetireesPage() {
                 <li>You are physically located in one of our 44 licensed states at the time of the visit</li>
                 <li>You have a chronic condition (hypertension, diabetes, cholesterol, thyroid, GERD, anxiety) needing management</li>
                 <li>You need prescription refills after a PCP transition, relocation, or coverage change</li>
-                <li>You have an acute condition (UTI, sinus infection, respiratory illness) that can be evaluated via video</li>
+                <li>You have an acute condition (UTI (women only), sinus infection, respiratory illness) that can be evaluated via video</li>
                 <li>You have a high-deductible plan and direct-pay is more economical for this visit</li>
               </ul>
             </div>
@@ -413,7 +413,7 @@ export default function EarlyRetireesPage() {
               <div className="tdmd-decision-number">3</div>
               <div className="tdmd-decision-content">
                 <h3>Is it an acute condition?</h3>
-                <p>UTI, sinus infection, strep throat, skin rash, skin infection, respiratory illness, ear infection.</p>
+                <p>UTI (women only), sinus infection, strep throat, skin rash, skin infection, respiratory illness, ear infection.</p>
                 <p><strong>YES →</strong> Book TeleDirectMD. Most acute infections can be evaluated and treated via video.</p>
                 <p><strong>NO →</strong> Continue to Step 4.</p>
               </div>
@@ -575,7 +575,7 @@ export default function EarlyRetireesPage() {
                   <td>Severe panic with cardiac symptoms (rule out cardiac → ER)</td>
                 </tr>
                 <tr>
-                  <td>UTI</td>
+                  <td>UTI (women only)</td>
                   <td>Burning urination, frequency, urgency</td>
                   <td>Yes — antibiotic prescription</td>
                   <td>Fever &gt;101°F, back or flank pain (kidney involvement → in-person)</td>
@@ -606,7 +606,7 @@ export default function EarlyRetireesPage() {
                 <li>Thyroid medication continuity</li>
                 <li>Acid reflux / GERD management</li>
                 <li>Anxiety medication management (non-controlled)</li>
-                <li>UTI, sinus infection, strep, skin infections</li>
+                <li>UTI (women only), sinus infection, strep, skin infections</li>
                 <li>Prescription refills during PCP transitions</li>
               </ul>
             </div>
@@ -646,7 +646,7 @@ export default function EarlyRetireesPage() {
             </div>
             <div className="tdmd-card">
               <h3>Acute Care</h3>
-              <p>UTIs, sinus infections, respiratory infections, skin conditions — the acute visits that cannot wait weeks for a new PCP appointment. Most acute infections are evaluable and treatable via video visit.</p>
+              <p>UTIs (women only), sinus infections, respiratory infections, skin conditions — the acute visits that cannot wait weeks for a new PCP appointment. Most acute infections are evaluable and treatable via video visit.</p>
             </div>
             <div className="tdmd-card">
               <h3>Visit Documentation</h3>
@@ -712,7 +712,7 @@ export default function EarlyRetireesPage() {
                 </tr>
                 <tr>
                   <td>Antibiotics (multiple)</td>
-                  <td>UTI, sinus, skin infections</td>
+                  <td>UTI (women only), sinus, skin infections</td>
                   <td>Appropriate antibiotic selection by clinical presentation</td>
                 </tr>
               </tbody>

@@ -5,7 +5,7 @@ export default function CollegeStudentsPage() {
   const pid = 'college-students';
 
   const conditions = [
-    { name: 'UTI / Urinary Tract Infection', slug: 'uti-treatment-online', desc: 'The most common reason college students visit student health. Antibiotic prescription sent to campus pharmacy or CVS.' },
+    { name: 'UTI (women only)', slug: 'uti-treatment-online', desc: 'The most common reason college students visit student health. Antibiotic prescription sent to campus pharmacy or CVS.' },
     { name: 'Strep Throat', slug: 'strep-throat-treatment-online', desc: 'Antibiotic treatment for strep — quick evaluation and prescription without waiting at student health.' },
     { name: 'Sinus Infection', slug: 'sinus-infection-treatment-online', desc: 'Evaluate and treat sinus pressure, congestion, and post-nasal drip from your dorm room.' },
     { name: 'Pink Eye (Conjunctivitis)', slug: 'pink-eye-treatment-online', desc: 'Antibiotic eye drops sent to the nearest pharmacy — diagnosed in minutes via video.' },
@@ -154,7 +154,7 @@ export default function CollegeStudentsPage() {
         "@id": `${pageUrl}#webpage`,
         "url": pageUrl,
         "name": "Online Doctor for College Students — Same-Day Care from Your Dorm or Apartment",
-        "description": "TeleDirectMD provides same-day telehealth for college students across 44 states. UTI, strep, sinus, pink eye — $79 flat fee, no insurance required. Prescriptions sent to campus or nearby pharmacy.",
+        "description": "TeleDirectMD provides same-day telehealth for college students across 44 states. UTI (women only), strep, sinus, pink eye — $79 flat fee, no insurance required. Prescriptions sent to campus or nearby pharmacy.",
         "datePublished": "2026-04-20",
         "dateModified": today,
         "author": { "@type": "Physician", "name": "Parth Bhavsar, MD" },
@@ -189,7 +189,7 @@ export default function CollegeStudentsPage() {
             Online doctor for college students:
           </p>
           <p style={{ margin: '0.35rem 0 0', color: '#003E52', fontSize: '0.97rem' }}>
-            TeleDirectMD provides same-day video visits with a board-certified physician for college students in 44 states — UTI, strep, sinus infections, pink eye, skin concerns, and prescription refills for $79 flat fee. Available evenings and weekends when student health is closed. No insurance required. Prescriptions sent to campus or any nearby pharmacy.
+            TeleDirectMD provides same-day video visits with a board-certified physician for college students in 44 states — UTI (women only), strep, sinus infections, pink eye, skin concerns, and prescription refills for $79 flat fee. Available evenings and weekends when student health is closed. No insurance required. Prescriptions sent to campus or any nearby pharmacy.
           </p>
         </div>
       </div>
@@ -227,7 +227,7 @@ export default function CollegeStudentsPage() {
                 <li>Available evenings &amp; weekends — when student health is closed</li>
                 <li>Licensed in 44 states — wherever your school is, we're there</li>
                 <li>$79 flat fee — no surprise bills</li>
-                <li>UTI, strep, sinus, pink eye — diagnosed and treated in one visit</li>
+                <li>UTI (women only), strep, sinus, pink eye — diagnosed and treated in one visit</li>
                 <li>Prescriptions sent to campus pharmacy, CVS, Walgreens, or any US pharmacy</li>
                 <li>No insurance required — ever</li>
               </ul>
@@ -267,7 +267,7 @@ export default function CollegeStudentsPage() {
               <h3>&#10003; You Are Eligible If</h3>
               <ul className="tdmd-checklist tdmd-checklist--good">
                 <li>You are 18 years of age or older and physically located in one of our 44 states</li>
-                <li>Your condition is non-emergency: UTI, sinus, strep, pink eye, skin rash, respiratory infection, allergies</li>
+                <li>Your condition is non-emergency: UTI (women only), sinus, strep, pink eye, skin rash, respiratory infection, allergies</li>
                 <li>Your home doctor won't prescribe remotely across state lines</li>
                 <li>You need a prescription refill while away from your home-state provider</li>
                 <li>Your student health center is closed or has a long wait time</li>
@@ -363,7 +363,7 @@ export default function CollegeStudentsPage() {
                   <td>$79 flat</td>
                   <td>Usually same-day</td>
                   <td>Evenings &amp; weekends</td>
-                  <td>UTI, strep, sinus, skin, refills</td>
+                  <td>UTI (women only), strep, sinus, skin, refills</td>
                 </tr>
                 <tr>
                   <td>Student Health Center</td>
@@ -397,7 +397,7 @@ export default function CollegeStudentsPage() {
             </table>
           </div>
           <p className="tdmd-comparison-note">
-            For the UTIs, sinus infections, and strep throats that hit on a Sunday night, TeleDirectMD is the fastest, most affordable path to a diagnosis and prescription.
+            For the UTIs (women only), sinus infections, and strep throats that hit on a Sunday night, TeleDirectMD is the fastest, most affordable path to a diagnosis and prescription.
           </p>
         </div>
       </section>
@@ -427,7 +427,7 @@ export default function CollegeStudentsPage() {
               <div className="tdmd-decision-number">3</div>
               <div className="tdmd-decision-content">
                 <h3>Is this a common condition treatable via video?</h3>
-                <p>UTI, strep, sinus, pink eye, skin rash, respiratory infection, allergy, prescription refill?</p>
+                <p>UTI (women only), strep, sinus, pink eye, skin rash, respiratory infection, allergy, prescription refill?</p>
                 <p><strong>YES:</strong> Book TeleDirectMD — same-day, $79.</p>
               </div>
             </div>
@@ -509,7 +509,7 @@ export default function CollegeStudentsPage() {
             Approximately 19 million students are enrolled in US colleges and universities. The vast majority rely on student health centers that operate on limited business-hours schedules, leaving a large window of unmet need — evenings, weekends, and holidays. When a UTI hits at 9 PM on a Sunday before a Monday exam, there is no campus option.
           </p>
           <p>
-            71% of college students have used telehealth — a higher rate than the general population (54%). But the dominant telehealth platforms in the college market (TimelyCare, Uwill, Hims/Hers) focus almost exclusively on behavioral health: therapy, counseling, and mental wellness. For urgent medical conditions — UTI, strep throat, sinus infections, pink eye, skin infections — there is no dominant telehealth platform dedicated to college students.
+            71% of college students have used telehealth — a higher rate than the general population (54%). But the dominant telehealth platforms in the college market (TimelyCare, Uwill, Hims/Hers) focus almost exclusively on behavioral health: therapy, counseling, and mental wellness. For urgent medical conditions — UTI (women only), strep throat, sinus infections, pink eye, skin infections — there is no dominant telehealth platform dedicated to college students.
           </p>
           <p>
             TeleDirectMD fills that gap: urgent medical care, not behavioral health. Board-certified MD, not a chatbot or wellness app. $79 flat fee, same-day availability, 44 states covered. Prescriptions sent to any campus pharmacy or nearby Walgreens or CVS.
@@ -548,7 +548,7 @@ export default function CollegeStudentsPage() {
               </thead>
               <tbody>
                 <tr>
-                  <td>UTI</td>
+                  <td>UTI (women only)</td>
                   <td>Burning, frequency, urgency, pelvic pain</td>
                   <td>Yes</td>
                   <td>Fever &gt;101°F, back pain, vomiting (kidney involvement)</td>
@@ -609,7 +609,7 @@ export default function CollegeStudentsPage() {
             <div className="tdmd-card tdmd-card-good">
               <h3>Telehealth Appropriate</h3>
               <ul className="tdmd-checklist tdmd-checklist--good">
-                <li>UTI</li>
+                <li>UTI (women only)</li>
                 <li>Strep throat</li>
                 <li>Sinus infection</li>
                 <li>Pink eye</li>
@@ -690,12 +690,12 @@ export default function CollegeStudentsPage() {
               <tbody>
                 <tr>
                   <td>Antibiotics (amoxicillin, azithromycin, cephalexin)</td>
-                  <td>Strep, sinus, UTI, skin</td>
+                  <td>Strep, sinus, UTI (women only), skin</td>
                   <td>Sent to campus or nearby pharmacy</td>
                 </tr>
                 <tr>
                   <td>Nitrofurantoin, Trimethoprim-Sulfamethoxazole</td>
-                  <td>UTI</td>
+                  <td>UTI (women only)</td>
                   <td>Standard first-line antibiotics</td>
                 </tr>
                 <tr>

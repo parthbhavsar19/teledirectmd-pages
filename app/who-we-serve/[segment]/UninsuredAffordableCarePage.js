@@ -31,7 +31,7 @@ const Tick = () => (
 );
 
 const HERO_CHIPS = [
-  { label: 'UTI', slug: 'uti-treatment-online' },
+  { label: 'UTI (women only)', slug: 'uti-treatment-online' },
   { label: 'Sinus infection', slug: 'sinus-infection-treatment-online' },
   { label: 'Blood pressure refill', slug: 'hypertension-refills-online' },
   { label: 'GERD', slug: 'acid-reflux-refills-online' },
@@ -48,12 +48,12 @@ const INCLUDED = [
 ];
 
 const TELEHEALTH_OK = [
-  'UTI, sinus infection, bronchitis, strep-like symptoms',
+  'UTI (women only), sinus infection, bronchitis, strep-like symptoms',
   'Cold, flu, cough, low-grade fever',
   'Rash, eczema, cold sore, mild acne',
   'Refills: hypertension, diabetes, GERD, statins (non-controlled)',
   'Migraine, reflux, mild allergic reaction',
-  'Pink eye, adult ear pain, recurrent UTI',
+  'Pink eye, adult ear pain, uncomplicated UTI (women only)',
   'Travel medicine, work notes, med reviews',
 ];
 
@@ -70,7 +70,7 @@ const GO_IN_PERSON = [
 const TAG_COLORS = { Infection: '#14706B', Chronic: '#E85D3C', Skin: '#C75B4A', Respiratory: '#2E7D6E' };
 
 const CONDITIONS = [
-  { tag: 'Infection', name: 'UTI', blurb: 'Uncomplicated UTI evaluation; antibiotics if appropriate.', slug: 'uti-treatment-online' },
+  { tag: 'Infection', name: 'UTI (women only)', blurb: 'Uncomplicated UTI evaluation; antibiotics if appropriate.', slug: 'uti-treatment-online' },
   { tag: 'Infection', name: 'Sinus infection', blurb: 'Bacterial vs viral; antibiotics only when indicated.', slug: 'sinus-infection-treatment-online' },
   { tag: 'Respiratory', name: 'Cold, flu, respiratory', blurb: 'Same-day evaluation, antivirals for eligible flu.', slug: 'common-cold-treatment-online' },
   { tag: 'Chronic', name: 'Hypertension', blurb: 'Ongoing BP management and refills, same physician.', slug: 'hypertension-refills-online' },
@@ -136,7 +136,7 @@ export default function UninsuredAffordableCarePage() {
     },
     {
       q: 'Can I get antibiotics or refills prescribed online?',
-      a: 'Prescriptions are issued only when the physician determines they are medically appropriate after evaluating you. Common examples include uncomplicated UTIs, bacterial sinus infections, and refills for blood pressure, diabetes, or GERD. Antibiotics are not prescribed for conditions that are usually viral, and no controlled substances are prescribed.',
+      a: 'Prescriptions are issued only when the physician determines they are medically appropriate after evaluating you. Common examples include uncomplicated UTIs in women only, bacterial sinus infections, and refills for blood pressure, diabetes, or GERD. Antibiotics are not prescribed for conditions that are usually viral, and no controlled substances are prescribed.',
     },
     {
       q: 'Does an uninsured visit affect future insurance?',

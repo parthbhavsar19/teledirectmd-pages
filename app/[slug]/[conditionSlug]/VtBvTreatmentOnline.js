@@ -28,7 +28,7 @@ const MEDICATIONS = [
 
 const VT_SIBLINGS = [
   { slug: 'yeast-infection-treatment-online', label: 'Yeast Infection Treatment in VT', why: 'Most common differential — similar discharge symptoms but different treatment.' },
-  { slug: 'uti-treatment-online', label: 'UTI Treatment in VT', why: 'Dysuria and pelvic discomfort can occur alongside BV.' },
+  { slug: 'uti-treatment-online', label: 'UTI Treatment for Women in VT', why: 'Dysuria and pelvic discomfort can occur alongside BV.' },
   { slug: 'chlamydia-treatment-online', label: 'Chlamydia Treatment in VT', why: 'STI that can co-exist with BV and cause discharge.' },
   { slug: 'trichomoniasis-treatment-online', label: 'Trichomoniasis Treatment in VT', why: 'STI differential when odorous discharge is present.' },
   { slug: 'vaginal-dryness-treatment-online', label: 'Vaginal Dryness Treatment in VT', why: 'Vaginal pH changes in menopause may predispose to recurrent BV.' },

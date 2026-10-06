@@ -44,7 +44,7 @@ export async function generateMetadata({ params }) {
   const pricingNote = stateIns
     ? `$79 flat fee or insurance — we accept ${stateIns.map(p => p.name).join(', ')} in ${state.name}.`
     : `Self pay option starting at $79. No insurance required.`;
-  const description = `Yes, adults in ${state.name} may be eligible for a ${medLower} evaluation by video visit with a board-certified MD at TeleDirectMD. ${pricingNote}`;
+  const description = `Yes, non-pregnant adult women in ${state.name} may be eligible for a ${medLower} evaluation by video visit with a board-certified MD at TeleDirectMD. ${pricingNote}`;
   return {
     title,
     description,
@@ -78,7 +78,8 @@ export default async function FAQDeepDivePage({ params }) {
     : `The visit is a self pay option starting at $79. Insurance is not required.`;
 
   const faqItems = [
-    { q: `Can I get ${medDisplay} online in ${state.name}?`, a: `Yes. Adults physically located in ${state.name} may be eligible for a ${page.concern} evaluation through a TeleDirectMD video visit with a board-certified MD. If ${medDisplay} is clinically appropriate based on your history and evaluation, a prescription can be sent to your preferred pharmacy. ${pricingBlurb}` },
+    { q: 'Does TeleDirectMD treat male UTIs?', a: 'No. We do not treat male UTIs, even if symptoms are mild or apparently uncomplicated. UTI care is limited to non-pregnant adult women (18+). Men with UTI symptoms should seek in-person care and should not book a TeleDirectMD UTI visit.' },
+    { q: `Can I get ${medDisplay} online in ${state.name}?`, a: `Yes. Non-pregnant adult women physically located in ${state.name} may be eligible for a ${page.concern} evaluation through a TeleDirectMD video visit with a board-certified MD. If ${medDisplay} is clinically appropriate based on your history and evaluation, a prescription can be sent to your preferred pharmacy. ${pricingBlurb}` },
     { q: `Do I need a video visit for ${medDisplay} in ${state.name}?`, a: `TeleDirectMD requires a live, synchronous video visit with a board-certified MD for all evaluations. This ensures a proper clinical assessment, red-flag screening, and individualized treatment decisions. Some states require a real-time clinical encounter for certain prescriptions, and TeleDirectMD meets or exceeds these standards.` },
     { q: `How much does a ${page.concern} evaluation cost?`, a: stateInsR
       ? `The TeleDirectMD visit is $79 flat fee, or you can use insurance. We accept ${stateInsR.map(p => p.name).join(', ')} in ${state.name}. Prescription costs are separate and vary by pharmacy. There are no hidden fees and no subscription is required.`
@@ -133,10 +134,10 @@ export default async function FAQDeepDivePage({ params }) {
             Can You Get {page.medication} Online in {state.name}?
           </h1>
           <p style={{ fontSize: '1.1rem', color: '#0d9488', fontWeight: 600, marginBottom: '16px' }}>
-            Yes. Adults in {state.name} may be eligible for a {medDisplay} evaluation by video visit with a board-certified MD.
+            Yes. Non-pregnant adult women in {state.name} may be eligible for a {medDisplay} evaluation by video visit with a board-certified MD.
           </p>
           <p style={{ fontSize: '1rem', color: '#374151', lineHeight: 1.7 }}>
-            TeleDirectMD offers live, physician-led video visits for adults located in {state.name} who are {page.evalContext} {medDisplay}. Every visit is a synchronous encounter with a board-certified MD who evaluates your condition, screens for contraindications, and discusses whether {medDisplay} or other treatments may be appropriate for you. {pricingBlurb}
+            TeleDirectMD offers live, physician-led video visits for non-pregnant adult women located in {state.name} who are {page.evalContext} {medDisplay}. Every visit is a synchronous encounter with a board-certified MD who evaluates your condition, screens for contraindications, and discusses whether {medDisplay} or other treatments may be appropriate for you. {pricingBlurb}
           </p>
           <div style={{ display: 'flex', gap: '12px', marginTop: '20px', flexWrap: 'wrap' }}>
             <a href="/book-online" style={{ display: 'inline-block', background: '#0d9488', color: '#fff', padding: '12px 28px', borderRadius: '8px', fontWeight: 600, fontSize: '0.95rem', textDecoration: 'none' }}>Book a Visit</a>
@@ -149,7 +150,7 @@ export default async function FAQDeepDivePage({ params }) {
           <div style={{ background: '#f0fdfa', border: '1px solid #99f6e4', borderRadius: '10px', padding: '20px' }}>
             <h2 style={{ fontSize: '1.1rem', fontWeight: 700, color: '#0f766e', marginBottom: '10px' }}>Quick Answer</h2>
             <p style={{ fontSize: '0.95rem', color: '#374151', lineHeight: 1.6, margin: 0 }}>
-              Yes, adults in {state.name} can get a {medDisplay} evaluation online through TeleDirectMD. You will see a board-certified MD by live video visit. If {medDisplay} is clinically appropriate, a prescription is sent to your preferred pharmacy. {pricingShort} No subscription is needed.
+              Yes, non-pregnant adult women in {state.name} can get a {medDisplay} evaluation online through TeleDirectMD. You will see a board-certified MD by live video visit. If {medDisplay} is clinically appropriate, a prescription is sent to your preferred pharmacy. {pricingShort} No subscription is needed.
             </p>
           </div>
         </section>

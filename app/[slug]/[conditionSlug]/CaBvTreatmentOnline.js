@@ -36,7 +36,7 @@ const MEDICATIONS = [
 
 const CA_SIBLINGS = [
   { slug: 'yeast-infection-treatment-online', label: 'Yeast Infection Treatment in CA', why: 'Most common differential — similar discharge symptoms but different treatment.' },
-  { slug: 'uti-treatment-online', label: 'UTI Treatment in CA', why: 'Dysuria and pelvic discomfort can occur alongside BV.' },
+  { slug: 'uti-treatment-online', label: 'UTI Treatment for Women in CA', why: 'Dysuria and pelvic discomfort can occur alongside BV.' },
   { slug: 'chlamydia-treatment-online', label: 'Chlamydia Treatment in CA', why: 'STI that can co-exist with BV and cause discharge.' },
   { slug: 'trichomoniasis-treatment-online', label: 'Trichomoniasis Treatment in CA', why: 'STI differential when odorous discharge is present.' },
   { slug: 'vaginal-dryness-treatment-online', label: 'Vaginal Dryness Treatment in CA', why: 'Vaginal pH changes in menopause may predispose to recurrent BV.' },

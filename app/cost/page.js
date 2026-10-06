@@ -5,7 +5,7 @@ import { COST_PAGE_SLUGS } from '../../lib/cost-pages-config';
 export const metadata = {
   title: 'Telehealth Cost Guides by Condition | TeleDirectMD',
   description:
-    'How much does an online doctor visit cost? TeleDirectMD charges $79 flat for self-pay video visits. See condition-by-condition cost guides for UTI, sinus infection, strep, acne, ED, birth control, and 15+ more conditions — with sourced comparisons to urgent care and retail clinics.',
+    'How much does an online doctor visit cost? TeleDirectMD charges $79 flat for self-pay video visits. See condition-by-condition cost guides for UTI (women only), sinus infection, strep, acne, ED, birth control, and 15+ more conditions — with sourced comparisons to urgent care and retail clinics.',
   alternates: { canonical: 'https://teledirectmd.com/cost' },
   robots: { index: true, follow: true, 'max-image-preview': 'large', 'max-snippet': -1, 'max-video-preview': -1 },
   authors: [{ name: 'Parth Bhavsar, MD' }],
@@ -130,7 +130,7 @@ const FAQS = [
   {
     question: 'How does TeleDirectMD compare in cost to urgent care?',
     answer:
-      'A cash-pay urgent care visit averages approximately $200 (Mira Health, 2025). TeleDirectMD costs $79 flat — a saving of roughly $120 per visit for self-pay patients. CVS MinuteClinic costs $99\u2013$139 for a visit. An emergency room visit averages $2,715 (Mira Health, Feb 2025) for uninsured patients. For common acute conditions that are appropriate for telehealth — UTI, sinus infection, strep, pink eye, acne — TeleDirectMD is consistently the lowest-cost option.',
+      'A cash-pay urgent care visit averages approximately $200 (Mira Health, 2025). TeleDirectMD costs $79 flat — a saving of roughly $120 per visit for self-pay patients. CVS MinuteClinic costs $99\u2013$139 for a visit. An emergency room visit averages $2,715 (Mira Health, Feb 2025) for uninsured patients. For common acute conditions that are appropriate for telehealth — UTI (women only), sinus infection, strep, pink eye, acne — TeleDirectMD is consistently the lowest-cost option.',
   },
   {
     question: 'Does TeleDirectMD charge extra for a prescription?',
@@ -385,7 +385,7 @@ export default function CostHubPage() {
           <h2 id="chart-heading" className="cst-h2">The Cost of Care by Setting</h2>
           <p className="cst-p">
             The chart below shows average out-of-pocket costs for a self-pay adult seeking care for a common acute condition —
-            UTI, sinus infection, strep throat, pink eye, or similar. These figures are sourced from Mira Health (2025) and
+            UTI (women only), sinus infection, strep throat, pink eye, or similar. These figures are sourced from Mira Health (2025) and
             CVS MinuteClinic published pricing (2024). Individual condition cost guides contain full source citations.
           </p>
           <div className="cst-vbars" aria-label="Cost comparison by care setting">
@@ -445,7 +445,7 @@ export default function CostHubPage() {
               </thead>
               <tbody>
                 <tr>
-                  <td>UTI</td>
+                  <td>UTI (women only)</td>
                   <td>$79</td>
                   <td>$4&ndash;$20 (nitrofurantoin)</td>
                   <td>~$83&ndash;$99</td>
@@ -561,7 +561,7 @@ export default function CostHubPage() {
           <h2 id="why-heading" className="cst-h2">Why Telehealth Cost Transparency Matters</h2>
           <p className="cst-p">
             A 2023 analysis by the Kaiser Family Foundation found that cost was the primary reason adults delayed or skipped
-            necessary medical care. For common acute conditions — UTIs, respiratory infections, skin conditions, and medication refills
+            necessary medical care. For common acute conditions — UTIs in women only, respiratory infections, skin conditions, and medication refills
             — the barrier is not access to a physician but the cost and inconvenience of getting to one. Telehealth at a predictable,
             transparent price point removes both barriers simultaneously.
           </p>

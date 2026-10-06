@@ -56,7 +56,7 @@ const VT_SIBLINGS = [
   { slug: "doxypep-sti-prevention-online", label: "DoxyPEP STI Prevention in VT", why: "Prevents future bacterial STIs in eligible high-risk individuals." },
   { slug: "bv-treatment-online", label: "BV (Bacterial Vaginosis) Treatment in VT", why: "Common vaginal-symptom differential to distinguish from an STI." },
   { slug: "yeast-infection-treatment-online", label: "Yeast Infection Treatment in VT", why: "Another genital-symptom condition often confused with an STI." },
-  { slug: "uti-treatment-online", label: "UTI Treatment in VT", why: "Dysuria overlaps; STI is part of the differential in younger adults." },
+  { slug: "uti-treatment-online", label: "UTI Treatment for Women in VT", why: "Dysuria overlaps; STI is part of the differential in younger adults." },
   { slug: "birth-control-refills-online", label: "Birth Control Refills in VT", why: "Sexual-health adjacent — often added to the same visit." },
 ];
 

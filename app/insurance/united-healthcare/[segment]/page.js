@@ -31,7 +31,7 @@ export async function generateMetadata({ params }) {
     const stateName = STATE_NAMES[STATE_SLUGS[segment]];
     return {
       title: `Online Doctor That Accepts UnitedHealthcare in ${stateName} | TeleDirectMD`,
-      description: `TeleDirectMD is in-network with UnitedHealthcare in ${stateName}. Board-certified physician. Same-day video visits for UTI, sinus infection, asthma refills & more. Your UHC copay applies.`,
+      description: `TeleDirectMD is in-network with UnitedHealthcare in ${stateName}. Board-certified physician. Same-day video visits for UTI (women only), sinus infection, asthma refills & more. Your UHC copay applies.`,
       alternates: { canonical: `https://teledirectmd.com/insurance/united-healthcare/${segment}` },
       openGraph: {
         title: `Online Doctor That Accepts UnitedHealthcare in ${stateName} | TeleDirectMD`,

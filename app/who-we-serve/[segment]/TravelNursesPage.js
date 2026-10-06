@@ -6,7 +6,7 @@ export default function TravelNursesPage() {
   /* ── Conditions to link ─────────────────────────────────────────── */
   const conditions = [
     { name: 'Sinus Infection', slug: 'sinus-infection-treatment-online', desc: 'Evaluation and treatment for sinus pressure, congestion, and facial pain — with a prescription sent to whichever pharmacy is nearest to your current assignment.' },
-    { name: 'UTI / Urinary Tract Infection', slug: 'uti-treatment-online', desc: 'Antibiotic prescriptions for UTIs sent directly to any local pharmacy — so you can get treated without hunting for an urgent care clinic in an unfamiliar city.' },
+    { name: 'UTI (women only)', slug: 'uti-treatment-online', desc: 'Antibiotic prescriptions for UTIs sent directly to any local pharmacy — so you can get treated without hunting for an urgent care clinic in an unfamiliar city.' },
     { name: 'Respiratory Infections / Common Cold', slug: 'common-cold-treatment-online', desc: 'Upper respiratory infection and common cold treatment — because healthcare workers are exposed to more pathogens than almost anyone, and you still need to show up tomorrow.' },
     { name: 'Anxiety / Stress Management', slug: 'performance-anxiety-treatment-online', desc: 'Support for anxiety and stress related to the unique pressures of travel nursing — constant relocation, isolation from support networks, and assignment transitions.' },
     { name: 'Migraines', slug: 'migraine-refills-online', desc: 'Prescription migraine refills and treatment — no need to find a new neurologist every quarter. Your physician knows your history and can continue your regimen.' },
@@ -51,7 +51,7 @@ export default function TravelNursesPage() {
     },
     {
       q: 'What conditions can TeleDirectMD treat via telehealth?',
-      a: 'TeleDirectMD treats more than 60 conditions across a wide range of categories, including acute infections (sinus infections, UTIs, respiratory infections, pink eye, strep throat), chronic condition management (hypertension, hypothyroidism, migraines, acid reflux, seasonal allergies), and mental health support (anxiety and stress management). We do not treat emergency conditions or prescribe controlled substances. Conditions requiring in-person evaluation, imaging, or laboratory testing will be triaged and referred appropriately.'
+      a: 'TeleDirectMD treats more than 60 conditions across a wide range of categories, including acute infections (sinus infections, UTIs in women only, respiratory infections, pink eye, strep throat), chronic condition management (hypertension, hypothyroidism, migraines, acid reflux, seasonal allergies), and mental health support (anxiety and stress management). We do not treat emergency conditions or prescribe controlled substances. Conditions requiring in-person evaluation, imaging, or laboratory testing will be triaged and referred appropriately.'
     },
     {
       q: 'How quickly can I get a prescription sent to a local pharmacy?',

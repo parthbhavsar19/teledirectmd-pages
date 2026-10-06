@@ -76,7 +76,7 @@ const FAQS = [
   },
   {
     q: 'What can I be seen for?',
-    a: 'Common non-emergency adult conditions such as UTIs, sinus infections, sore throat, pink eye, flu, skin rashes, and medication refills for blood pressure, cholesterol, and asthma. Emergencies need 911 or an emergency department.',
+    a: 'Common non-emergency adult conditions such as UTIs (women only), sinus infections, sore throat, pink eye, flu, skin rashes, and medication refills for blood pressure, cholesterol, and asthma. Emergencies need 911 or an emergency department.',
   },
 ];
 

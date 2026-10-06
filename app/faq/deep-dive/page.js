@@ -39,7 +39,7 @@ const MEDICATIONS = [
     howItWorks:
       'The physician collects a focused clinical history: symptom onset, character, duration, associated symptoms (fever, flank pain, nausea, discharge), prior UTIs, prior antibiotic allergies, and current medications. Classical uncomplicated UTI presentation in a non-pregnant adult woman with no complicating factors can be treated empirically with antibiotics per IDSA guidelines. Urine culture may be recommended if symptoms persist after treatment.',
     contraindications:
-      'Telemedicine is not appropriate for complicated UTIs: pregnant patients, men (UTI in men suggests possible prostatitis and often requires further workup), patients with fever and flank pain (possible pyelonephritis requiring in-person evaluation), and patients who have had 3+ UTIs in the past 12 months. The physician will identify these during evaluation and refer appropriately.',
+      'TeleDirectMD does not treat male UTIs, including mild or apparently uncomplicated symptoms. Our UTI service is limited to non-pregnant adult women (18+) with uncomplicated symptoms. Men with suspected UTIs should seek in-person care and should not book a TeleDirectMD UTI visit. Pregnant patients, patients with fever and flank pain, and patients who have had 3+ UTIs in the past 12 months also need in-person evaluation.',
     costNote: '$79 visit + $4\u2013$20 generic antibiotic (GoodRx, 2025)',
     stateGuideIntro: 'State guides answer: Can UTI antibiotics be prescribed online in your state without an in-person visit? What symptoms qualify? What is the cost?',
   },

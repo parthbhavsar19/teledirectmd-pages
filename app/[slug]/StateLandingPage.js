@@ -210,7 +210,7 @@ export default function StateLandingPage({ stateSlug }) {
           {
             "@type": "Question",
             "name": `What conditions does TeleDirectMD treat in ${state.name}?`,
-            "acceptedAnswer": { "@type": "Answer", "text": `TeleDirectMD treats ${totalConditions} adult conditions in ${state.name}, including urgent care (cold, flu, UTI, sinus infection), chronic medication refills (asthma, hypertension, thyroid), skin conditions (acne, eczema, rosacea), sexual health, women's health, and more. All visits are conducted by licensed MDs via secure video.` }
+            "acceptedAnswer": { "@type": "Answer", "text": `TeleDirectMD treats ${totalConditions} adult conditions in ${state.name}, including urgent care (cold, flu, UTI (women only), sinus infection), chronic medication refills (asthma, hypertension, thyroid), skin conditions (acne, eczema, rosacea), sexual health, women's health, and more. All visits are conducted by licensed MDs via secure video.` }
           },
           {
             "@type": "Question",
@@ -391,7 +391,7 @@ export default function StateLandingPage({ stateSlug }) {
               )}
 
               <p className="intro">
-                TeleDirectMD connects you with a licensed physician in {state.name} through a secure video visit. Whether you need urgent care for a cold or UTI, a chronic medication refill for asthma or blood pressure, or treatment for a skin condition — we are here to help. Prescriptions are sent directly to your local {state.name} pharmacy.
+                TeleDirectMD connects you with a licensed physician in {state.name} through a secure video visit. Whether you need urgent care for a cold or UTI in women, a chronic medication refill for asthma or blood pressure, or treatment for a skin condition — we are here to help. Prescriptions are sent directly to your local {state.name} pharmacy.
               </p>
 
               {/* Credential verification bar. Every jurisdiction in
@@ -647,7 +647,7 @@ export default function StateLandingPage({ stateSlug }) {
               {
                 question: `What conditions does TeleDirectMD treat in ${state.name}?`,
                 answer: (
-                  <p>TeleDirectMD treats {totalConditions} adult conditions in {state.name}, organized into {displayedCategories.length} categories: {displayedCategories.map((c) => c.categoryName).join(', ')}. Common conditions include colds, flu, UTIs, sinus infections, acne, eczema, asthma refills, blood pressure refills, and more.</p>
+                  <p>TeleDirectMD treats {totalConditions} adult conditions in {state.name}, organized into {displayedCategories.length} categories: {displayedCategories.map((c) => c.categoryName).join(', ')}. Common conditions include colds, flu, UTIs (women only), sinus infections, acne, eczema, asthma refills, blood pressure refills, and more.</p>
                 ),
               },
               {

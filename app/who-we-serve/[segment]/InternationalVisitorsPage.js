@@ -249,7 +249,7 @@ export default function InternationalVisitorsPage() {
   const pid = 'intl-visitors';
 
   const conditions = [
-    { name: 'UTI / Urinary Tract Infection', slug: 'uti-treatment-online', desc: 'Antibiotic prescription sent to any US pharmacy — no urgent care visit needed.' },
+    { name: 'UTI (women only)', slug: 'uti-treatment-online', desc: 'Antibiotic prescription sent to any US pharmacy — no urgent care visit needed.' },
     { name: 'Sinus Infection', slug: 'sinus-infection-treatment-online', desc: 'Evaluation and treatment for sinus pressure, congestion, and facial pain.' },
     { name: 'Strep Throat', slug: 'strep-throat-treatment-online', desc: 'Antibiotic treatment for strep throat without waiting for an in-person appointment.' },
     { name: 'Respiratory Infections / Bronchitis', slug: 'common-cold-treatment-online', desc: 'Cold, flu, and bronchitis evaluation and treatment.' },
@@ -291,7 +291,7 @@ export default function InternationalVisitorsPage() {
     },
     {
       question: 'What conditions can you treat during my visit to the US?',
-      answer: "We treat most common, non-emergency conditions that travelers experience: UTIs, sinus infections, strep throat, respiratory infections, pink eye, skin rashes, traveler's diarrhea, allergies, and more. We also provide prescription refills if you've run short of an ongoing medication. If your condition requires in-person evaluation or emergency care, we'll tell you clearly and help you find the right resource."
+      answer: "We treat most common, non-emergency conditions that travelers experience: UTIs (women only), sinus infections, strep throat, respiratory infections, pink eye, skin rashes, traveler's diarrhea, allergies, and more. We also provide prescription refills if you've run short of an ongoing medication. If your condition requires in-person evaluation or emergency care, we'll tell you clearly and help you find the right resource."
     },
     {
       question: 'Can I get a prescription refill while traveling in the US?',
@@ -569,7 +569,7 @@ export default function InternationalVisitorsPage() {
               <ul className="tdmd-checklist tdmd-checklist--good">
                 <li>You are physically located in one of our 44 licensed states or Washington, D.C. at the time of the visit</li>
                 <li>You are 18 years of age or older</li>
-                <li>You have a non-emergency condition (UTI, sinus infection, strep, rash, traveler's diarrhea, allergies, refills, etc.)</li>
+                <li>You have a non-emergency condition (UTI (women only), sinus infection, strep, rash, traveler's diarrhea, allergies, refills, etc.)</li>
                 <li>You have a smartphone or computer with camera and internet access</li>
                 <li>You do not have US health insurance — or prefer direct-pay over using your plan</li>
               </ul>
@@ -706,7 +706,7 @@ export default function InternationalVisitorsPage() {
             </table>
           </div>
           <p className="tdmd-comparison-note">
-            For the UTIs, sinus infections, strep throats, and prescription needs that define the vast majority of travel illness, TeleDirectMD delivers board-certified care at a fraction of the cost — without leaving your hotel or Airbnb.
+            For the UTIs (women only), sinus infections, strep throats, and prescription needs that define the vast majority of travel illness, TeleDirectMD delivers board-certified care at a fraction of the cost — without leaving your hotel or Airbnb.
           </p>
           <p className="iv-cost-cite">
             Cost context: the average US emergency-department visit runs roughly $2,453 (<a href="https://www.healthsystemtracker.org/brief/emergency-department-visits-exceed-affordability-thresholds-for-many-consumers-with-private-insurance/" target="_blank" rel="noopener noreferrer">Peterson-KFF Health System Tracker</a>), and urgent-care visits without insurance typically range from about $100 to $300 (<a href="https://www.solvhealth.com/health/how-much-does-urgent-care-cost-without-insurance" target="_blank" rel="noopener noreferrer">Solv Health</a>).
@@ -735,7 +735,7 @@ export default function InternationalVisitorsPage() {
               <div className="tdmd-decision-number">2</div>
               <div className="tdmd-decision-content">
                 <h3>Can symptoms be described via video?</h3>
-                <p><strong>YES</strong> — for these conditions: UTI, sinus infection, strep throat, eye infection, skin rash, traveler's diarrhea, allergies, prescription refill.</p>
+                <p><strong>YES</strong> — for these conditions: UTI (women only), sinus infection, strep throat, eye infection, skin rash, traveler's diarrhea, allergies, prescription refill.</p>
                 <p><strong>YES →</strong> Book TeleDirectMD. Proceed to step 3 to confirm.</p>
               </div>
             </div>
@@ -871,7 +871,7 @@ export default function InternationalVisitorsPage() {
               </thead>
               <tbody>
                 <tr>
-                  <td>UTI</td>
+                  <td>UTI (women only)</td>
                   <td>Burning urination, frequency, pelvic pain</td>
                   <td>Yes — antibiotic Rx</td>
                   <td>Fever &gt;101°F, back pain, vomiting</td>
@@ -932,7 +932,7 @@ export default function InternationalVisitorsPage() {
             <div className="tdmd-card tdmd-card-good">
               <h3>Telehealth-Appropriate for Visitors</h3>
               <ul className="tdmd-checklist tdmd-checklist--good">
-                <li>UTI</li>
+                <li>UTI (women only)</li>
                 <li>Strep throat</li>
                 <li>Sinus infection</li>
                 <li>Pink eye (conjunctivitis)</li>
@@ -1018,7 +1018,7 @@ export default function InternationalVisitorsPage() {
               <tbody>
                 <tr>
                   <td>Antibiotics (amoxicillin, azithromycin, etc.)</td>
-                  <td>Strep, sinus infection, UTI, skin infections</td>
+                  <td>Strep, sinus infection, UTI (women only), skin infections</td>
                   <td>Sent to any US pharmacy</td>
                 </tr>
                 <tr>

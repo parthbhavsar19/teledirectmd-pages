@@ -660,7 +660,7 @@ export default function CaMastitisTreatmentOnline() {
                   <span className="tdmd-ca-uti__sibling-why">Mastitis causes systemic flu-like symptoms — concurrent infections can occur.</span>
                 </a>
               <a key="uti-treatment-online" className="tdmd-ca-uti__sibling" href="/ca/uti-treatment-online/">
-                  <span className="tdmd-ca-uti__sibling-label">UTI Treatment in CA</span>
+                  <span className="tdmd-ca-uti__sibling-label">UTI Treatment for Women in CA</span>
                   <span className="tdmd-ca-uti__sibling-why">Both are common postpartum bacterial infections managed in outpatient settings.</span>
                 </a>
             </div>

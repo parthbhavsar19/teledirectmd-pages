@@ -6,7 +6,7 @@ export default function RemoteWorkersPage() {
   /* ── Conditions to link ─────────────────────────────────────────── */
   const conditions = [
     { name: 'Sinus Infection', slug: 'sinus-infection-treatment-online', desc: 'Evaluation and treatment for sinus pressure, congestion, and facial pain — prescription sent to the nearest pharmacy wherever you\'re working this week.' },
-    { name: 'UTI / Urinary Tract Infection', slug: 'uti-treatment-online', desc: 'Fast antibiotic prescriptions for uncomplicated UTIs, sent electronically to any pharmacy in the U.S. — no need to find a local urgent care in an unfamiliar city.' },
+    { name: 'UTI (women only)', slug: 'uti-treatment-online', desc: 'Fast antibiotic prescriptions for uncomplicated UTIs in non-pregnant adult women, sent electronically to any pharmacy in the U.S. — no need to find a local urgent care in an unfamiliar city.' },
     { name: 'Anxiety / Stress Management', slug: 'performance-anxiety-treatment-online', desc: 'Support for anxiety and work-related stress — common among remote workers dealing with isolation, blurred work-life boundaries, and the pressure of always-on availability.' },
     { name: 'Migraines', slug: 'migraine-refills-online', desc: 'Prescription migraine treatment and refills so a debilitating headache doesn\'t cost you a full day of remote work — regardless of which state you\'re in.' },
     { name: 'Hypertension / High Blood Pressure', slug: 'hypertension-refills-online', desc: 'Blood pressure medication refills with continuity of care across state lines — especially valuable for remote workers who relocate or travel frequently.' },
@@ -51,7 +51,7 @@ export default function RemoteWorkersPage() {
     },
     {
       q: 'What conditions can TeleDirectMD treat for remote workers?',
-      a: 'TeleDirectMD treats more than 60 conditions that are commonly needed by remote workers: sinus infections, UTIs, seasonal allergies, anxiety, migraines, hypertension, acid reflux, hypothyroidism, acne, and many more. We are particularly well-suited for ongoing prescription refills — managing chronic conditions across state lines without requiring patients to re-establish care with a new local doctor. Conditions requiring in-person examination, imaging, or laboratory testing that cannot be completed via video will be identified during your visit, and we can provide referral guidance.'
+      a: 'TeleDirectMD treats more than 60 conditions that are commonly needed by remote workers: sinus infections, UTIs in women only, seasonal allergies, anxiety, migraines, hypertension, acid reflux, hypothyroidism, acne, and many more. We are particularly well-suited for ongoing prescription refills — managing chronic conditions across state lines without requiring patients to re-establish care with a new local doctor. Conditions requiring in-person examination, imaging, or laboratory testing that cannot be completed via video will be identified during your visit, and we can provide referral guidance.'
     },
     {
       q: 'Is TeleDirectMD HIPAA compliant? Is my health data secure?',

@@ -33,7 +33,7 @@ import { WhatDoesThisCostBlock, CompareTeleDirectMDLinkRow, CommonSymptomsBlock 
 // Page meta / constants
 // ────────────────────────────────────────────────────────────────────────────
 const PAGE_URL = 'https://teledirectmd.com/vt/uti-treatment-online/';
-const PAGE_TITLE = 'UTI Treatment Online in Vermont | TeleDirectMD';
+const PAGE_TITLE = 'UTI Treatment for Women in Vermont | TeleDirectMD';
 const DATE_PUBLISHED = '2026-06-04';
 const DATE_MODIFIED = '2026-06-04';
 const LAST_REVIEWED = '2026-06-04';
@@ -84,6 +84,7 @@ const MEDICATIONS = [
 ];
 
 const FAQ_ITEMS = [
+  { question: 'Does TeleDirectMD treat male UTIs?', answer: <p>No. We do not treat male UTIs, even when symptoms seem mild or uncomplicated. UTI care is for non-pregnant adult women (18+) only. Men with UTI symptoms should seek in-person care and should not book a TeleDirectMD UTI visit.</p> },
   { question: 'Do you accept insurance in Vermont?',
     answer: (
       <p>
@@ -94,7 +95,7 @@ const FAQ_ITEMS = [
   { question: 'Can I get UTI treatment online in Vermont?',
     answer: (
       <p>
-        Yes. <a href="https://legislature.vermont.gov/statutes/fullchapter/18/219" rel="noopener" target="_blank">18 V.S.A. Chapter 219 (Vermont&apos;s telemedicine statute)</a> — permits licensed physicians to deliver care via synchronous video telehealth without a prior in-person visit. TeleDirectMD physicians are licensed in Vermont and held to the same standard of care as in-person physicians by the <a href="https://www.healthvermont.gov/systems/board-medical-practice" rel="noopener" target="_blank">Vermont Board of Medical Practice</a>. Adults 18+ located in Vermont can book a same-day video visit. If your symptoms are consistent with uncomplicated cystitis and you pass a red-flag screening, a prescription can be sent electronically to your Vermont pharmacy. Self pay is $79.
+        Yes. <a href="https://legislature.vermont.gov/statutes/fullchapter/18/219" rel="noopener" target="_blank">18 V.S.A. Chapter 219 (Vermont&apos;s telemedicine statute)</a> — permits licensed physicians to deliver care via synchronous video telehealth without a prior in-person visit. TeleDirectMD physicians are licensed in Vermont and held to the same standard of care as in-person physicians by the <a href="https://www.healthvermont.gov/systems/board-medical-practice" rel="noopener" target="_blank">Vermont Board of Medical Practice</a>. Non-pregnant women 18+ located in Vermont can book a same-day video visit. If your symptoms are consistent with uncomplicated cystitis and you pass a red-flag screening, a prescription can be sent electronically to your Vermont pharmacy. Self pay is $79.
       </p>
     ),
   },
@@ -168,14 +169,14 @@ function buildSchemas() {
     '@type': 'MedicalWebPage',
     name: PAGE_TITLE,
     url: PAGE_URL,
-    description: 'UTI treatment by secure video visit for Vermont adults. Board-certified Family Medicine physician. Vermont telehealth law compliant. Cash-pay only at $79 flat. Self pay $79. Evidence-based antibiotic stewardship.',
+    description: 'UTI treatment by secure video visit for Vermont women. Board-certified Family Medicine physician. Vermont telehealth law compliant. Cash-pay only at $79 flat. Self pay $79. Evidence-based antibiotic stewardship.',
     datePublished: DATE_PUBLISHED,
     dateModified: DATE_MODIFIED,
     inLanguage: 'en-US',
     about: {
       '@type': 'MedicalCondition',
       name: 'Urinary Tract Infection',
-      alternateName: ['UTI', 'Bladder Infection', 'Cystitis', 'Acute Uncomplicated Cystitis'],
+      alternateName: ['UTI (women only)', 'Bladder Infection', 'Cystitis', 'Acute Uncomplicated Cystitis'],
       code: { '@type': 'MedicalCode', code: 'N39.0', codingSystem: 'ICD-10-CM' },
     },
     medicalAudience: {
@@ -397,12 +398,12 @@ export default function VtUtiTreatmentOnline() {
           <div className="tdmd-container">
             <div className="tdmd-hero-grid">
               <div className="tdmd-hero-copy">
-                <h1 data-speakable="true">UTI Treatment Online in Vermont (Acute Uncomplicated Cystitis)</h1>
+                <h1 data-speakable="true">UTI Treatment for Women in Vermont</h1>
                 <p className="tdmd-hero-sub" data-speakable="true">
                   Vermont adult care by secure video visit. Cash-pay $79 flat · MD-only · 18 V.S.A. Chapter 219 compliant.
                 </p>
                 <p>
-                  A urinary tract infection (UTI), often called a bladder infection, commonly causes burning with urination, urinary frequency, and urgency. Not every patient with these symptoms needs antibiotics, and not every urinary complaint is a simple bladder infection. TeleDirectMD uses a safety-first telehealth approach that screens for red flags — fever, flank pain, pregnancy, catheter use, immunosuppression, recent urologic procedures — before determining whether treatment by video visit is appropriate. If the history supports uncomplicated cystitis without red flags, guideline-based antibiotic treatment may be reasonable by video; adults with pyelonephritis concern, complicated UTI, or severe illness are directed to urgent in-person care. This page is for adults located in Vermont, including {vtCities.join(', ')}, and surrounding areas. With most Vermonters living in rural towns, a same-day video visit can spare a long drive to an in-person clinic for an uncomplicated bladder infection.
+                  A urinary tract infection (UTI), often called a bladder infection, commonly causes burning with urination, urinary frequency, and urgency. Not every patient with these symptoms needs antibiotics, and not every urinary complaint is a simple bladder infection. TeleDirectMD uses a safety-first telehealth approach that screens for red flags — fever, flank pain, pregnancy, catheter use, immunosuppression, recent urologic procedures — before determining whether treatment by video visit is appropriate. If the history supports uncomplicated cystitis without red flags, guideline-based antibiotic treatment may be reasonable by video; adults with pyelonephritis concern, complicated UTI, or severe illness are directed to urgent in-person care. This page is for non-pregnant adult women located in Vermont, including {vtCities.join(', ')}, and surrounding areas. With most Vermonters living in rural towns, a same-day video visit can spare a long drive to an in-person clinic for an uncomplicated bladder infection.
                 </p>
 
                 {/* Visible byline (E-E-A-T) */}
@@ -433,7 +434,7 @@ export default function VtUtiTreatmentOnline() {
                 <ul className="tdmd-hero-benefits">
                   <li>$79 flat cash-pay — no insurance billing in Vermont</li>
                   <li>MD-only care (no mid-levels)</li>
-                  <li>Licensed telehealth care for adults located in Vermont at the time of the visit</li>
+                  <li>UTI care for non-pregnant adult women located in Vermont at the time of the visit</li>
                 </ul>
 
                 <div className="tdmd-hero-ctas">
@@ -456,7 +457,7 @@ export default function VtUtiTreatmentOnline() {
                     <li>Clear follow-up steps and prevention guidance</li>
                   </ul>
                   <p className="tdmd-hero-note">
-                    Adults 18+ only. TeleDirectMD is not an emergency service. Go to urgent care or the ER now for fever, flank pain, persistent vomiting, severe illness, confusion, pregnancy with concerning urinary symptoms, or worsening symptoms with back pain. TeleDirectMD does not prescribe controlled substances.
+                    Non-pregnant adult women (18+) only. We do not treat male UTIs. TeleDirectMD is not an emergency service. Go to urgent care or the ER now for fever, flank pain, persistent vomiting, severe illness, confusion, pregnancy with concerning urinary symptoms, or worsening symptoms with back pain. TeleDirectMD does not prescribe controlled substances.
                   </p>
                 </div>
               </div>
@@ -473,7 +474,7 @@ export default function VtUtiTreatmentOnline() {
               <div className="tdmd-vt-uti__dual-card tdmd-vt-uti__dual-card--good">
                 <h3>✓ You Are Eligible If</h3>
                 <ul>
-                  <li>You are 18 years old or older</li>
+                  <li>You are a non-pregnant adult woman, 18 years old or older. We do not treat male UTIs.</li>
                   <li>You are physically located in Vermont at the time of the visit</li>
                   <li>You have typical lower UTI symptoms (burning with urination, frequency, urgency, or suprapubic discomfort)</li>
                   <li>You do not have fever, chills, flank pain, or repeated vomiting</li>
@@ -486,7 +487,7 @@ export default function VtUtiTreatmentOnline() {
               <div className="tdmd-vt-uti__dual-card tdmd-vt-uti__dual-card--alert">
                 <h3>✗ You Are Not Eligible If</h3>
                 <ul>
-                  <li>You are under 18 years old</li>
+                  <li>You are male: TeleDirectMD does not treat male UTIs</li><li>You are under 18 years old</li>
                   <li>You are pregnant or could be pregnant with concerning symptoms</li>
                   <li>You have fever, flank pain, rigors, or repeated vomiting</li>
                   <li>You feel severely ill, confused, faint, or short of breath</li>
@@ -680,7 +681,7 @@ export default function VtUtiTreatmentOnline() {
                   <li>No fever, flank pain, chills, or vomiting</li>
                   <li>Not pregnant</li>
                   <li>No catheter or recent urologic procedure</li>
-                  <li>Adult 18+, located in Vermont</li>
+                  <li>Non-pregnant adult woman, 18+, located in Vermont</li>
                   <li>$79 flat cash-pay — no insurance billing in Vermont</li>
                 </ul>
               </div>
@@ -704,7 +705,7 @@ export default function VtUtiTreatmentOnline() {
           <div className="tdmd-container">
             <div className="tdmd-vt-uti__cta-strip" role="complementary">
               <div>
-                <p>Book a same-day video visit — Vermont adults, 18+</p>
+                <p>Book a same-day video visit — Vermont women, 18+</p>
                 <small>Cash-pay $79 flat · No insurance billing in Vermont · No ER wait</small>
               </div>
               <a className="tdmd-vt-uti__cta-btn" href="/book-online" rel="noopener">Book Now →</a>
