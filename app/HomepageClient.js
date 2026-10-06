@@ -1,9 +1,9 @@
 'use client';
 import { useState, useEffect, useRef, useCallback } from 'react';
 import { homepageCSS } from '../lib/homepage-styles';
-import CONDITION_ICONS from '../lib/condition-icons';
 import US_STATE_PATHS from '../lib/us-map-paths';
 import { PrescribingPolicyFaq } from './components/PrescribingPolicy';
+import ConditionDriftRows from './components/ConditionDriftRows';
 
 /* ============================
    DATA
@@ -50,41 +50,6 @@ const SERVICE_CATEGORIES = [
     icon: 'travel',
     img: '/images/services/svc-travel.png',
     href: '/travel-medicine-treatment-online',
-  },
-];
-
-const CONDITION_CATEGORIES = [
-  {
-    name: 'Urgent Care',
-    conditions: ['Common Cold', 'COVID-19', 'Influenza', 'Sinus Infection', 'Sore Throat', 'Ear Pain', 'Pink Eye', 'Dental Pain', 'UTI (women only)', 'Cellulitis', 'Shingles', 'Gout', 'Mastitis', 'Viral Gastroenteritis', 'Impetigo', 'Oral Thrush'],
-  },
-  {
-    name: "Women's Health",
-    conditions: ['Yeast Infection', 'Bacterial Vaginosis', 'Vaginal Dryness', 'Birth Control Refills'],
-  },
-  {
-    name: 'Sexual Health',
-    conditions: ['Chlamydia', 'Genital Herpes', 'Cold Sore', 'Genital Warts', 'Trichomoniasis', 'DoxyPEP STI Prevention', 'Erectile Dysfunction', 'Performance Anxiety'],
-  },
-  {
-    name: 'Skin Conditions',
-    conditions: ['Acne', 'Eczema', 'Rosacea', 'Contact Dermatitis', 'Dandruff', 'Psoriasis Refills', 'Skin Fungus', 'Tinea Versicolor', 'Excessive Sweating', 'Poison Ivy & Oak', 'Perioral Dermatitis', 'Melasma'],
-  },
-  {
-    name: 'Bites & Infestations',
-    conditions: ['Dog Bite', 'Cat Bite', 'Tick Bite', 'Head Lice', 'Scabies'],
-  },
-  {
-    name: 'Chronic Refills',
-    conditions: ['Asthma Refills', 'Hypertension Refills', 'Hypothyroidism Refills', 'Hyperlipidemia Refills', 'Diabetes Refills', 'Migraine Refills', 'Acid Reflux Refills', 'EpiPen Refills', 'Seasonal Allergies'],
-  },
-  {
-    name: 'Wellness & Lifestyle',
-    conditions: ['Hair Loss', 'Anti-Aging', 'Eyelash Growth', 'Smoking Cessation'],
-  },
-  {
-    name: 'Travel Medicine',
-    conditions: ['Travel Medicine', 'Altitude Sickness', 'Malaria Prophylaxis', "Traveler's Diarrhea", 'Motion Sickness'],
   },
 ];
 
@@ -198,6 +163,27 @@ const CONDITION_SLUGS = {
   'Malaria Prophylaxis': '/malaria-prophylaxis-treatment-online',
   "Traveler's Diarrhea": '/travelers-diarrhea-treatment-online',
 };
+
+// Homepage moving rows. Names are CONDITION_SLUGS keys; img is the
+// /images/wwt/<img>.webp illustration from the What We Treat page.
+const HOMEPAGE_CONDITION_TILES = [
+  ['UTI (women only)', 'uti-treatment-online'],
+  ['Sinus Infection', 'sinus-infection-treatment-online'],
+  ['Sore Throat', 'sore-throat-treatment-online'],
+  ['Pink Eye', 'pink-eye-treatment-online'],
+  ['Influenza', 'influenza-treatment-online'],
+  ['COVID-19', 'covid-19-treatment-online'],
+  ['Yeast Infection', 'yeast-infection-treatment-online'],
+  ['Bacterial Vaginosis', 'bv-treatment-online'],
+  ['Birth Control Refills', 'birth-control-refills-online'],
+  ['Erectile Dysfunction', 'erectile-dysfunction-treatment-online'],
+  ['Genital Herpes', 'genital-herpes-treatment-online'],
+  ['Cold Sore', 'cold-sore-treatment-online'],
+  ['Acne', 'acne-treatment-online'],
+  ['Hair Loss', 'hair-loss-treatment-online'],
+  ['Seasonal Allergies', 'seasonal-allergies-treatment-online'],
+  ['Hypertension Refills', 'hypertension-refills-online'],
+].map(([name, img]) => ({ name, img, href: CONDITION_SLUGS[name] || '/what-we-treat' }));
 
 const WHY_FEATURES = [
   { title: 'Board-Certified MD', desc: 'Every visit is with Dr. Parth Bhavsar, a licensed family medicine physician.', icon: 'doctor', img: '/images/why/why-board-certified.png' },
@@ -579,7 +565,6 @@ function StickyWhySection() {
    ============================ */
 export default function HomepageClient() {
   const wrapRef = useScrollAnimation();
-  const [activeCategory, setActiveCategory] = useState(0);
   const reviewTrackRef = useRef(null);
 
   // Counter hooks for stats
@@ -695,38 +680,9 @@ export default function HomepageClient() {
         <div className="hp-container">
           <span className="hp-section-label hp-animate hp-fade-up">CONDITIONS WE TREAT</span>
           <h2 className="hp-section-title hp-animate hp-fade-up">Find care for what you need</h2>
-          <div className="hp-conditions-tabs hp-animate hp-fade-up" role="tablist" aria-label="Condition categories">
-            {CONDITION_CATEGORIES.map((cat, i) => (
-              <button
-                key={i}
-                role="tab"
-                aria-selected={activeCategory === i}
-                aria-controls={`hp-tab-panel-${i}`}
-                id={`hp-tab-${i}`}
-                className={`hp-tab${activeCategory === i ? ' hp-tab-active' : ''}`}
-                onClick={() => setActiveCategory(i)}
-              >
-                {cat.name}
-              </button>
-            ))}
-          </div>
-          <div
-            className="hp-conditions-grid hp-animate hp-fade-up"
-            role="tabpanel"
-            id={`hp-tab-panel-${activeCategory}`}
-            aria-labelledby={`hp-tab-${activeCategory}`}
-          >
-            {CONDITION_CATEGORIES[activeCategory].conditions.map((c, i) => (
-              <a key={i} href={CONDITION_SLUGS[c] || '/what-we-treat'} className="hp-condition-pill">
-                {CONDITION_ICONS[c] ? (
-                  <span className="hp-condition-icon" dangerouslySetInnerHTML={{ __html: CONDITION_ICONS[c] }} />
-                ) : (
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
-                )}
-                {c}
-              </a>
-            ))}
-          </div>
+        </div>
+        <ConditionDriftRows items={HOMEPAGE_CONDITION_TILES} />
+        <div className="hp-container">
           <div className="hp-conditions-actions hp-animate hp-fade-up">
             <a href="/what-we-treat" className="hp-btn hp-btn-secondary hp-btn-sm">View All Conditions</a>
             <a href="/book-online" className="hp-btn hp-btn-primary hp-btn-sm">Book Now</a>
