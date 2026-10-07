@@ -3,6 +3,7 @@
 // 23-section gold standard in app/who-we-serve/[segment]/InternationalVisitorsPage.js
 // (and the cost + compare dynamic routes added in prior PRs).
 
+import { contentDate } from '../../../lib/content-dates';
 import { getPayerFamilyStateCount } from '../../../lib/insurance-data';
 import {
   USE_CASE_PAGES,
@@ -55,7 +56,7 @@ export default async function UseCasePage({ params }) {
 
   const baseUrl = 'https://teledirectmd.com';
   const pageUrl = `${baseUrl}/use-case/${slug}/`;
-  const today = new Date().toISOString().split('T')[0];
+  const today = contentDate('useCasePages');
   const pid = cfg.pid;
   const related = USE_CASE_RELATED[slug] || { useCases: [], cost: [], compare: [] };
 
@@ -242,7 +243,7 @@ export default async function UseCasePage({ params }) {
         <div className="tdmd-container">
           <h2>States Where TeleDirectMD Can Help</h2>
           <p>
-            TeleDirectMD is licensed in <strong>44 states</strong>. You must be physically located in a covered state at the time of the visit. If your state isn\u2019t below, see <a href="/states-we-serve/">all states we serve</a>.
+            TeleDirectMD is licensed in <strong>40+ states</strong>. You must be physically located in a covered state at the time of the visit. If your state isn\u2019t below, see <a href="/states-we-serve/">all states we serve</a>.
           </p>
           <div className="tdmd-other-states-grid">
             {STATE_LIST.map(([abbr, name]) => (
@@ -269,7 +270,7 @@ export default async function UseCasePage({ params }) {
         <div className="tdmd-container">
           <h2>Why TeleDirectMD: A Real Doctor, Not an Algorithm</h2>
           <p>
-            Every visit is with <a href="/about" style={{ fontWeight: 700, color: 'var(--tdmd-navy)' }}>Dr. Parth Bhavsar, MD</a> — a board-certified Family Medicine physician licensed in 44 states. Not a panel of rotating providers, not a physician assistant, not a chatbot.
+            Every visit is with <a href="/about" style={{ fontWeight: 700, color: 'var(--tdmd-navy)' }}>Dr. Parth Bhavsar, MD</a> — a board-certified Family Medicine physician licensed in 40+ states. Not a panel of rotating providers, not a physician assistant, not a chatbot.
           </p>
           <ul className="tdmd-hero-benefits">
             <li>Board-certified Family Medicine — University of Mississippi Medical Center</li>
@@ -424,7 +425,7 @@ export default async function UseCasePage({ params }) {
         <div className="tdmd-container">
           <div className="tdmd-bottom-cta">
             <div className="tdmd-bottom-cta-copy">
-              <h3>$79. Live MD video. 44 states. Same-day evenings & weekends.</h3>
+              <h3>$79. Live MD video. 40+ states. Same-day evenings & weekends.</h3>
               <p>{cfg.finalCtaSub || 'Book a visit in under two minutes.'}</p>
             </div>
             <div className="tdmd-bottom-cta-actions">
@@ -451,7 +452,7 @@ export default async function UseCasePage({ params }) {
       <section className="tdmd-section tdmd-footnote" id={`${pid}-disclaimer`}>
         <div className="tdmd-container">
           <h2>Disclaimer & Verification</h2>
-          <p dangerouslySetInnerHTML={{ __html: cfg.disclaimer || 'This page is for informational purposes only and is not medical advice. TeleDirectMD provides telehealth services for non-emergency conditions in adults 18+ physically located in one of our 44 licensed states at the time of the visit. We do not prescribe controlled substances. If you are experiencing a medical emergency, call 911 immediately.' }} />
+          <p dangerouslySetInnerHTML={{ __html: cfg.disclaimer || 'This page is for informational purposes only and is not medical advice. TeleDirectMD provides telehealth services for non-emergency conditions in adults 18+ physically located in one of our 40+ licensed states at the time of the visit. We do not prescribe controlled substances. If you are experiencing a medical emergency, call 911 immediately.' }} />
           <p>
             <strong>Page last updated {today}. Sources verified on {USE_CASE_LAST_VERIFIED}.</strong> Pricing and policies cited from third parties change frequently — confirm with the source directly before relying on it.
           </p>

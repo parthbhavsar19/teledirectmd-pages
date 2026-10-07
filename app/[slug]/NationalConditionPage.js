@@ -1,3 +1,4 @@
+import { contentDate } from '../../lib/content-dates';
 import { getStates, getConditionSlugs, getCondition, getConditionCategories, resolveConditionNational } from '../../lib/get-data';
 import { generateNationalJsonLd } from '../../lib/json-ld-national';
 import { INSURERS, INSURANCE_CONDITIONS } from '../../data/insurance/insuranceConfig';
@@ -16,7 +17,7 @@ export default function NationalConditionPage({ conditionSlug }) {
   const condition = resolveConditionNational(rawCondition);
   const baseUrl = 'https://teledirectmd.com';
   const jsonLd = generateNationalJsonLd(condition);
-  const today = new Date().toISOString().split('T')[0];
+  const today = contentDate('nationalConditionPages');
   const pid = conditionSlug;
   const allStates = getStates();
   const categories = getConditionCategories();
@@ -28,14 +29,14 @@ export default function NationalConditionPage({ conditionSlug }) {
   /* National intro — replace residual state-specific text with national copy */
   const nationalIntro = condition.hero.introParagraph
     .replace(/This page is for adults located in one of our covered states, including communities nationwide\./g,
-      `TeleDirectMD is currently licensed in 44 states + DC. Select your state below to find your state-specific treatment page.`);
+      `TeleDirectMD is currently licensed in 40+ states + DC. Select your state below to find your state-specific treatment page.`);
 
   const nationalSideH2 = condition.hero.sideCard.h2;
 
   /* National benefits — swap location line for state count */
   const nationalBenefits = condition.hero.benefits.map((b) =>
     b.replace(/Licensed telehealth care for patients located in one of our covered states at the time of the visit/g,
-      `Licensed in 44 states + DC — select yours below`)
+      `Licensed in 40+ states + DC — select yours below`)
   );
 
   /* Find related conditions from same category */
@@ -118,7 +119,7 @@ export default function NationalConditionPage({ conditionSlug }) {
             {condition.conditionName} online telemedicine:
           </p>
           <p style={{ margin: '0.35rem 0 0', color: '#003E52', fontSize: '0.97rem' }}>
-            TeleDirectMD offers same-day video visits with a board-certified MD for {condition.conditionName.toLowerCase()} in 44 states + DC, starting at $79. A physician evaluates your symptoms, confirms the diagnosis, and sends a prescription to your preferred pharmacy — no waiting room, no referral required. Select your state below to see your state-specific page.
+            TeleDirectMD offers same-day video visits with a board-certified MD for {condition.conditionName.toLowerCase()} in 40+ states + DC, starting at $79. A physician evaluates your symptoms, confirms the diagnosis, and sends a prescription to your preferred pharmacy — no waiting room, no referral required. Select your state below to see your state-specific page.
           </p>
         </div>
       </div>
@@ -214,7 +215,7 @@ export default function NationalConditionPage({ conditionSlug }) {
               <h3>✓ You Are Eligible If</h3>
               <ul className="tdmd-checklist tdmd-checklist--good">
                 {condition.eligibility.eligible.map((item, i) => (
-                  <li key={i}>{item.replace(/You are physically located in one of our covered states at the time of the visit/g, `You are physically located in one of our 44 licensed states + DC at the time of the visit`)}</li>
+                  <li key={i}>{item.replace(/You are physically located in one of our covered states at the time of the visit/g, `You are physically located in one of our 40+ licensed states + DC at the time of the visit`)}</li>
                 ))}
               </ul>
             </div>
@@ -262,7 +263,7 @@ export default function NationalConditionPage({ conditionSlug }) {
       <section className="tdmd-section" id={`${pid}-telehealth-regulations`}>
         <div className="tdmd-container">
           <h2>Telehealth Regulations Across Our Licensed States</h2>
-          <p>TeleDirectMD is currently licensed to provide telehealth services in 44 states + DC. Each state has its own telehealth regulations, prescribing guidelines, and scope-of-practice rules. Our physicians follow all applicable state and federal regulations for every patient encounter.</p>
+          <p>TeleDirectMD is currently licensed to provide telehealth services in 40+ states + DC. Each state has its own telehealth regulations, prescribing guidelines, and scope-of-practice rules. Our physicians follow all applicable state and federal regulations for every patient encounter.</p>
           <p>When you book a visit, you will be matched with a physician licensed in the state where you are physically located. This ensures your care meets all regulatory requirements for that jurisdiction. Select your state below to see specific telehealth regulations for your location.</p>
         </div>
       </section>
@@ -730,7 +731,7 @@ export default function NationalConditionPage({ conditionSlug }) {
       <section className="tdmd-section" id={`${pid}-states`}>
         <div className="tdmd-container">
           <h2>Get {condition.conditionName} in Your State</h2>
-          <p>TeleDirectMD treats {condition.conditionName.toLowerCase()} via telehealth in 44 states + DC. Select your state for a page tailored to your location, including local telehealth regulations and pharmacy options.</p>
+          <p>TeleDirectMD treats {condition.conditionName.toLowerCase()} via telehealth in 40+ states + DC. Select your state for a page tailored to your location, including local telehealth regulations and pharmacy options.</p>
 
           <div className="tdmd-other-states-grid">
             {allStates.map((s) => (
@@ -788,7 +789,7 @@ export default function NationalConditionPage({ conditionSlug }) {
           <div className="tdmd-related-grid" role="list">
             <a className="tdmd-related-card" role="listitem" href="/who-we-serve/truck-drivers/">
               <span className="tdmd-related-title">Truck Drivers</span>
-              <span className="tdmd-related-desc">Healthcare from any truck stop in 44 states</span>
+              <span className="tdmd-related-desc">Healthcare from any truck stop in 40+ states</span>
             </a>
             <a className="tdmd-related-card" role="listitem" href="/who-we-serve/gig-workers/">
               <span className="tdmd-related-title">Gig Workers & Freelancers</span>

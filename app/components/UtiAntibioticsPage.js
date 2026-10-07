@@ -168,8 +168,8 @@ export default function UtiAntibioticsPage({ price = '79' }) {
               <span className="big">${price}</span><span className="lab">visit +</span>
               <span className="med">$5–$25</span><span className="lab">generic antibiotic</span>
             </div>
-            <div><a href="/book-online" className="uap-cta">Get a UTI Prescription Today →</a></div>
-            <p className="uap-trust">Board-certified MD · 44 states + DC · evenings &amp; weekends · HSA/FSA accepted · {AGGREGATE_RATING_VALUE}★ ({TOTAL_REVIEW_COUNT} reviews)</p>
+            <div><a href="/book-online" className="uap-cta">Book a $79 UTI Visit Today →</a></div>
+            <p className="uap-trust">Board-certified MD · 40+ states + DC · evenings &amp; weekends · HSA/FSA accepted · {AGGREGATE_RATING_VALUE}★ ({TOTAL_REVIEW_COUNT} reviews)</p>
           </div>
           <div className="uap-hcard">
             <h3>What each UTI antibiotic costs</h3>
@@ -347,12 +347,12 @@ export default function UtiAntibioticsPage({ price = '79' }) {
         <div className="uap-wrap">
           <div className="uap-close">
             <h2>Get your UTI treated today</h2>
-            <p>A board-certified MD, a same-day prescription, and a flat $79. No waiting room, no insurance required.</p>
-            <a href="/book-online" className="uap-cta">Get a UTI Prescription Today →</a>
+            <p>A board-certified MD, a same-day prescription when clinically appropriate, and a flat $79. No waiting room, no insurance required.</p>
+            <a href="/book-online" className="uap-cta">Book a $79 UTI Visit Today →</a>
           </div>
 
           <div style={{ marginTop: '2.5rem' }}>
-            <p className="uap-kicker">Licensed in 44 states</p>
+            <p className="uap-kicker">Licensed in 40+ states</p>
             <div className="uap-chips">
               {['Alabama','Alaska','Arizona','California','Colorado','Connecticut','Delaware','Florida','Georgia','Hawaii','Idaho','Illinois','Indiana','Iowa','Kansas','Kentucky','Louisiana','Maine','Maryland','Michigan','Minnesota','Mississippi','Missouri','Montana','Nebraska','Nevada','New Hampshire','New Jersey','North Carolina','North Dakota','Ohio','Oklahoma','Pennsylvania','South Carolina','South Dakota','Tennessee','Texas','Utah','Vermont','Virginia','Washington','West Virginia','Wisconsin','Wyoming'].map((s) => (
                 <span className="uap-chip" key={s}>{s}</span>

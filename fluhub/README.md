@@ -58,5 +58,5 @@ Every page carries `MedicalWebPage`, `Dataset` or `FAQPage` JSON-LD, a canonical
 - Physician review of every clinical page; the byline currently names the clinical editor and the date sources were checked (October 5, 2026).
 - Re-verify against the live CDC pages three items that came through a summarizing fetch: the LAIV contraindication wording, the 65+ interim VE range (not shown on the site for that reason), and the H5 exposure breakdown (not shown).
 - Pick the domain and set `SITE.baseUrl`.
-- TeleDirectMD CTA: `SITE.cta.enabled` in `content/site.mjs`. It appears only on adult results that suit a same-day video visit, the treatment and high-risk pages, and the home page; never on emergency results, children, or worsening illness. It uses "40+ states". `social/content-rules.md` approves "44 states plus Washington D.C."; pick one.
+- TeleDirectMD CTA: `SITE.cta.enabled` in `content/site.mjs`. It appears only on adult results that suit a same-day video visit, the treatment and high-risk pages, and the home page; never on emergency results, children, or worsening illness. It uses "40+ states". `social/content-rules.md` approves "40+ states plus Washington D.C."; pick one.
 - `.github/workflows/fluhub-refresh.yml` runs every Friday and commits `fluhub/data/*.json`. Add a deploy step for the chosen host.

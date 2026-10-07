@@ -1,7 +1,8 @@
+import { contentDate } from '../../../lib/content-dates';
 export default function EarlyRetireesPage() {
   const baseUrl = 'https://teledirectmd.com';
   const pageUrl = `${baseUrl}/who-we-serve/early-retirees`;
-  const today = new Date().toISOString().split('T')[0];
+  const today = contentDate('whoWeServe');
   const pid = 'early-retirees';
 
   const conditions = [
@@ -36,7 +37,7 @@ export default function EarlyRetireesPage() {
     },
     {
       q: 'What if I move to a different state in retirement?',
-      a: 'No problem. TeleDirectMD is licensed in 44 states, so whether you retire in Florida, Arizona, the Carolinas, or anywhere else in our coverage area, you can continue seeing Dr. Bhavsar as long as you\'re physically in a covered state at the time of the visit. This makes us especially useful for early retirees who split time between states.'
+      a: 'No problem. TeleDirectMD is licensed in 40+ states, so whether you retire in Florida, Arizona, the Carolinas, or anywhere else in our coverage area, you can continue seeing Dr. Bhavsar as long as you\'re physically in a covered state at the time of the visit. This makes us especially useful for early retirees who split time between states.'
     },
     {
       q: 'Can you provide prescription refills if my previous doctor retired or I moved away?',
@@ -147,7 +148,7 @@ export default function EarlyRetireesPage() {
         "@id": `${pageUrl}#webpage`,
         "url": pageUrl,
         "name": "Telehealth for Early Retirees — Affordable Care Before Medicare at 65",
-        "description": "TeleDirectMD offers $79 flat-fee telehealth for early retirees in the pre-Medicare gap (ages 55–64). Chronic condition management, prescription refills, and same-day visits in 44 states. No insurance required.",
+        "description": "TeleDirectMD offers $79 flat-fee telehealth for early retirees in the pre-Medicare gap (ages 55–64). Chronic condition management, prescription refills, and same-day visits in 40+ states. No insurance required.",
         "datePublished": "2026-04-20",
         "dateModified": today,
         "author": { "@type": "Physician", "name": "Parth Bhavsar, MD" },
@@ -182,7 +183,7 @@ export default function EarlyRetireesPage() {
             Telehealth for early retirees in the pre-Medicare gap:
           </p>
           <p style={{ margin: '0.35rem 0 0', color: '#003E52', fontSize: '0.97rem' }}>
-            TeleDirectMD offers $79 flat-fee video visits with a board-certified Family Medicine physician for early retirees navigating the 55–64 coverage gap — managing chronic conditions like hypertension, diabetes, and high cholesterol, with prescription refills sent to any pharmacy in 44 states. No insurance required.
+            TeleDirectMD offers $79 flat-fee video visits with a board-certified Family Medicine physician for early retirees navigating the 55–64 coverage gap — managing chronic conditions like hypertension, diabetes, and high cholesterol, with prescription refills sent to any pharmacy in 40+ states. No insurance required.
           </p>
         </div>
       </div>
@@ -194,7 +195,7 @@ export default function EarlyRetireesPage() {
             <div className="tdmd-hero-copy">
               <h1>Telehealth for Early Retirees — Affordable Care in the Pre-Medicare Gap</h1>
               <p className="tdmd-hero-sub">
-                Retired before 65 and facing the coverage gap? TeleDirectMD provides $79 flat-fee video visits with a board-certified Family Medicine physician — chronic condition management, prescription refills, and acute care in 44 states. No referrals. No prior authorization. No surprise bills.
+                Retired before 65 and facing the coverage gap? TeleDirectMD provides $79 flat-fee video visits with a board-certified Family Medicine physician — chronic condition management, prescription refills, and acute care in 40+ states. No referrals. No prior authorization. No surprise bills.
               </p>
               <p>
                 The average American retires at <strong>62</strong>. Medicare begins at <strong>65</strong>. That three-year structural gap — often filled with expensive COBRA, high-deductible ACA plans, or no coverage at all — is exactly where TeleDirectMD fits. For the routine visits that make up the vast majority of healthcare needs, a $79 flat-fee telehealth visit is frequently the most economical and fastest option available.
@@ -224,7 +225,7 @@ export default function EarlyRetireesPage() {
                 <li>$79 flat fee — often less than your ACA or COBRA visit cost before deductible</li>
                 <li>Chronic condition management: hypertension, diabetes, cholesterol, thyroid, GERD, anxiety</li>
                 <li>Prescription refills when your old PCP retired, moved, or is unavailable</li>
-                <li>Licensed in 44 states — follows you wherever you retire or split time</li>
+                <li>Licensed in 40+ states — follows you wherever you retire or split time</li>
                 <li>Same-day availability, evenings and weekends</li>
                 <li>No insurance required — direct-pay, transparent flat fee</li>
               </ul>
@@ -264,7 +265,7 @@ export default function EarlyRetireesPage() {
               <h3>✓ You Are Eligible If</h3>
               <ul className="tdmd-checklist tdmd-checklist--good">
                 <li>You are between ages 55–64 and not yet on Medicare</li>
-                <li>You are physically located in one of our 44 licensed states at the time of the visit</li>
+                <li>You are physically located in one of our 40+ licensed states at the time of the visit</li>
                 <li>You have a chronic condition (hypertension, diabetes, cholesterol, thyroid, GERD, anxiety) needing management</li>
                 <li>You need prescription refills after a PCP transition, relocation, or coverage change</li>
                 <li>You have an acute condition (UTI (women only), sinus infection, respiratory illness) that can be evaluated via video</li>
@@ -819,7 +820,7 @@ export default function EarlyRetireesPage() {
           <div className="tdmd-container">
             <div className="tdmd-bottom-cta-copy">
               <h2>Ready to Bridge the Gap?</h2>
-              <p>$79 flat fee. Same-day availability. 44 states. No insurance required.</p>
+              <p>$79 flat fee. Same-day availability. 40+ states. No insurance required.</p>
             </div>
             <div className="tdmd-bottom-cta-actions">
               <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
@@ -858,7 +859,7 @@ export default function EarlyRetireesPage() {
         <div className="tdmd-container">
           <h2>Licensed Across Top Retirement Destinations</h2>
           <p>
-            TeleDirectMD is licensed in 44 states — including every major Sun Belt and retirement destination. Whether you retire to Florida, Arizona, the Carolinas, or split time between states, we follow you.
+            TeleDirectMD is licensed in 40+ states — including every major Sun Belt and retirement destination. Whether you retire to Florida, Arizona, the Carolinas, or split time between states, we follow you.
           </p>
           <div className="tdmd-other-states-grid">
             {allStates.map(s => (
@@ -875,7 +876,7 @@ export default function EarlyRetireesPage() {
           <div className="tdmd-related-grid">
             <a href="/who-we-serve/international-visitors" className="tdmd-related-card">
               <div className="tdmd-related-title">International Visitors</div>
-              <div className="tdmd-related-desc">No US insurance? $79 flat-fee care in 44 states.</div>
+              <div className="tdmd-related-desc">No US insurance? $79 flat-fee care in 40+ states.</div>
             </a>
             <a href="/who-we-serve/military-families" className="tdmd-related-card">
               <div className="tdmd-related-title">Military Families</div>

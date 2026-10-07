@@ -1,3 +1,4 @@
+import { contentDate } from '../../lib/content-dates';
 import InsuranceClient from './InsuranceClient';
 import { getAggregateRating, getReviewBlock } from '../../lib/review-schema';
 import { CitableSummaryBlock } from '../components/CitableSummary';
@@ -46,7 +47,7 @@ const jsonLd = {
       breadcrumb: { '@id': 'https://teledirectmd.com/insurance#breadcrumbs' },
       about: { '@id': 'https://teledirectmd.com/#organization' },
       publisher: { '@id': 'https://teledirectmd.com/#organization' },
-      lastReviewed: new Date().toISOString().split('T')[0],
+      lastReviewed: contentDate('insurance'),
       reviewedBy: { '@id': 'https://teledirectmd.com/#physician' },
       specialty: ['Family Medicine', 'Urgent Care', 'Telemedicine'],
       audience: { '@type': 'MedicalAudience', audienceType: 'Patient', suggestedMinAge: 18 },

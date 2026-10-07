@@ -1,3 +1,4 @@
+import { contentDate } from '../../lib/content-dates';
 import { getStates, getStateBySlug, getConditionCategories } from '../../lib/get-data';
 import { getStateInsurance } from '../../lib/insurance-data';
 import { getInsurersForState } from '../../lib/internal-links';
@@ -84,7 +85,7 @@ export default function StateLandingPage({ stateSlug }) {
   const categories = getConditionCategories();
   const baseUrl = 'https://teledirectmd.com';
   const pageUrl = `${baseUrl}/${stateSlug}`;
-  const today = new Date().toISOString().split('T')[0];
+  const today = contentDate('stateLandingPages');
   // Human-readable form of `today` for on-page display. `today` itself stays ISO
   // because it feeds datePublished/dateModified in JSON-LD.
   const todayDisplay = new Date(`${today}T00:00:00Z`).toLocaleDateString('en-US', {
@@ -749,7 +750,7 @@ export default function StateLandingPage({ stateSlug }) {
       <section className="tdmd-section" id={`${pid}-other-states`}>
         <div className="tdmd-container">
           <h2>TeleDirectMD Is Also Available in {otherStates.length} Other States</h2>
-          <p>TeleDirectMD provides MD-only telehealth visits across 44 states + DC. Whether you are traveling, relocating, or have family in another state — we can help. Select a state below to explore available conditions and book a visit.</p>
+          <p>TeleDirectMD provides MD-only telehealth visits across 40+ states + DC. Whether you are traveling, relocating, or have family in another state — we can help. Select a state below to explore available conditions and book a visit.</p>
           <div className="tdmd-other-states-grid">
             {otherStates.map((s) => (
               <a key={s.slug} className="tdmd-other-state-link" href={`/${s.slug}/`}>{s.name}</a>

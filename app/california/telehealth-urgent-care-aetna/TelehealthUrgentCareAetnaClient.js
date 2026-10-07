@@ -305,7 +305,7 @@ export default function TelehealthUrgentCareAetnaClient() {
             {
               n: 3,
               title: 'Get Your Rx',
-              body: 'Prescription sent electronically to your preferred California pharmacy.',
+              body: 'If clinically appropriate, your prescription is sent electronically to your preferred California pharmacy.',
             },
             {
               n: 4,
