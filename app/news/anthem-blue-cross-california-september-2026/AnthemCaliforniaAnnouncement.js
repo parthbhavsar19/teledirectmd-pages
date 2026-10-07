@@ -55,7 +55,7 @@ const SCHEMA = {
       publisher: {
         '@type': 'Organization',
         name: 'TeleDirectMD',
-        logo: { '@type': 'ImageObject', url: 'https://teledirectmd.com/logos/teledirectmd.png' },
+        logo: { '@type': 'ImageObject', url: 'https://teledirectmd.com/logo.png' },
       },
       mainEntityOfPage: URL,
     },

@@ -22,7 +22,7 @@ export const metadata = {
     description:
       'Physician-authored evidence review of peer-reviewed rural telemedicine RCTs and systematic reviews. NEJM, Lancet, BMJ, EClinicalMedicine coverage with Alaska adoption analysis.',
     url: 'https://teledirectmd.com/clinical-evidence/rural-telemedicine-alaska',
-    images: ['https://teledirectmd.com/og-clinical-evidence-alaska.jpg'],
+    images: ['https://teledirectmd.com/images/tdmd-og-navy.png'],
   },
   twitter: {
     card: 'summary_large_image',

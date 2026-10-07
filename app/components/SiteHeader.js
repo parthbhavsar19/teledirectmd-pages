@@ -1,5 +1,5 @@
 'use client';
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 
 const NAV_LINKS = [
   { label: 'Home', href: '/' },
@@ -39,6 +39,9 @@ export default function SiteHeader() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [theme, setTheme] = useState('system');
   const [isDark, setIsDark] = useState(false);
+  const burgerRef = useRef(null);
+  const menuRef = useRef(null);
+  const wasOpen = useRef(false);
 
   // Prevent body scroll when menu is open
   useEffect(() => {
@@ -48,6 +51,33 @@ export default function SiteHeader() {
       document.body.style.overflow = '';
     }
     return () => { document.body.style.overflow = ''; };
+  }, [menuOpen]);
+
+  // Keyboard support for the mobile menu: focus moves into it on open, Tab
+  // stays inside it, Escape closes it, and focus returns to the menu button.
+  useEffect(() => {
+    if (!menuOpen) {
+      if (wasOpen.current && burgerRef.current) burgerRef.current.focus();
+      wasOpen.current = false;
+      return undefined;
+    }
+    wasOpen.current = true;
+    const menu = menuRef.current;
+    const focusables = () => Array.from(menu ? menu.querySelectorAll('a[href], button:not([disabled])') : []);
+    const first = focusables()[0];
+    if (first) first.focus();
+    const onKey = (e) => {
+      if (e.key === 'Escape') { setMenuOpen(false); return; }
+      if (e.key !== 'Tab') return;
+      const items = focusables();
+      if (!items.length) return;
+      const firstEl = items[0];
+      const lastEl = items[items.length - 1];
+      if (e.shiftKey && document.activeElement === firstEl) { e.preventDefault(); lastEl.focus(); }
+      else if (!e.shiftKey && document.activeElement === lastEl) { e.preventDefault(); firstEl.focus(); }
+    };
+    document.addEventListener('keydown', onKey);
+    return () => document.removeEventListener('keydown', onKey);
   }, [menuOpen]);
 
   // Initialize theme from localStorage
@@ -102,10 +132,12 @@ export default function SiteHeader() {
         <a href="/book-online/" className="tdmd-header-cta-desktop">Book Now</a>
 
         <button
+          ref={burgerRef}
           className="tdmd-hamburger"
           onClick={() => setMenuOpen(!menuOpen)}
           aria-label={menuOpen ? 'Close menu' : 'Open menu'}
           aria-expanded={menuOpen}
+          aria-controls="tdmd-mobile-menu"
         >
           {menuOpen ? (
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round">
@@ -125,7 +157,7 @@ export default function SiteHeader() {
       {/* Mobile overlay menu */}
       {menuOpen && (
         <div className="tdmd-mobile-overlay" onClick={() => setMenuOpen(false)}>
-          <div className="tdmd-mobile-menu" onClick={e => e.stopPropagation()}>
+          <div id="tdmd-mobile-menu" ref={menuRef} className="tdmd-mobile-menu" role="dialog" aria-modal="true" aria-label="Menu" onClick={e => e.stopPropagation()}>
             <div className="tdmd-mobile-menu-top">
               <a href="/" className="tdmd-header-logo">
                 <img src="/logo.webp" alt="TeleDirectMD" width="160" height="67" />

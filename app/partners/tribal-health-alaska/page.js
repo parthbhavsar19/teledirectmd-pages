@@ -19,7 +19,7 @@ export const metadata = {
     description:
       'A physician-founded telemedicine practice offering an adult primary and urgent-care layer for Alaska Native Tribal Health partners. Alaska-licensed, evidence-grounded, complementary to CHA/P and specialty pathways.',
     url: 'https://teledirectmd.com/partners/tribal-health-alaska',
-    images: ['https://teledirectmd.com/og-alaska-partnership.jpg'],
+    images: ['https://teledirectmd.com/images/tdmd-og-navy.png'],
   },
   twitter: {
     card: 'summary_large_image',

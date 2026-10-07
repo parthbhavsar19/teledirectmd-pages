@@ -1229,6 +1229,13 @@ li { margin-bottom: 0.35rem; }
         hamburger.setAttribute('aria-expanded', 'false');
       });
     });
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape' && menu.classList.contains('tdmd-nav-open')) {
+        menu.classList.remove('tdmd-nav-open');
+        hamburger.setAttribute('aria-expanded', 'false');
+        hamburger.focus();
+      }
+    });
   }
 })();
 
