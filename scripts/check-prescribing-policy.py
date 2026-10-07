@@ -167,7 +167,7 @@ import('data:text/javascript;base64,' + Buffer.from(src).toString('base64')).the
     footer_count = 0
     for path in OUT.rglob("*.html"):
         parts = path.relative_to(OUT).parts
-        if parts[0] in ("health-guides", "next-steps"):
+        if parts[0] in ("health-guides", "next-steps", "flu-hub"):
             continue  # Independent static pages without the shared footer are intentionally untouched.
         html = path.read_text()
         assert 'data-prescribing-policy="footer"' in html and POLICY in html, f"{parts}: shared footer policy missing"
