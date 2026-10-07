@@ -202,7 +202,7 @@ const jsonLd = {
       inLanguage: 'en-US',
       breadcrumb: { '@id': `${BASE_URL}/cost#breadcrumbs` },
       publisher: { '@id': `${BASE_URL}/#organization` },
-      reviewedBy: { '@id': `${BASE_URL}/#physician` },
+      reviewedBy: { '@id': `${BASE_URL}/about/#physician` },
       lastReviewed: '2026-05-23',
       hasPart: COST_CATALOG.map((c) => ({
         '@type': 'WebPage',
@@ -228,7 +228,7 @@ const jsonLd = {
     },
     {
       '@type': 'Physician',
-      '@id': `${BASE_URL}/#physician`,
+      '@id': `${BASE_URL}/about/#physician`,
       name: 'Parth Bhavsar, MD',
       url: `${BASE_URL}/about`,
       identifier: { '@type': 'PropertyValue', name: 'NPI', value: '1104323203' },
@@ -347,12 +347,12 @@ export default function CostHubPage() {
             <span className="cst-badge">Insurance Accepted (Select Plans)</span>
           </div>
           <div className="cst-ctas">
-            <a href="/book-online" className="cst-btn cst-btn-primary">Book a $79 Visit</a>
-            <a href="/insurance" className="cst-btn cst-btn-outline">Check Insurance Coverage</a>
+            <a href="/book-online/" className="cst-btn cst-btn-primary">Book a $79 Visit</a>
+            <a href="/insurance/" className="cst-btn cst-btn-outline">Check Insurance Coverage</a>
           </div>
           <p className="cst-reviewed">
             Medically reviewed by{' '}
-            <a href="/about">Parth Bhavsar, MD</a>
+            <a href="/about/">Parth Bhavsar, MD</a>
             {' '}(NPI&nbsp;1104323203) &mdash; Last reviewed: May 23, 2026
           </p>
         </div>
@@ -369,7 +369,7 @@ export default function CostHubPage() {
           </p>
           <div className="cst-grid">
             {COST_CATALOG.map((c) => (
-              <a key={c.slug} href={`/cost/${c.slug}`} className="cst-card">
+              <a key={c.slug} href={`/cost/${c.slug}/`} className="cst-card">
                 <p className="cst-card-title">{c.name}</p>
                 <p className="cst-card-desc">{c.desc}</p>
                 <span className="cst-card-arrow">Read cost guide &rarr;</span>
@@ -591,7 +591,7 @@ export default function CostHubPage() {
             reduced to your standard telehealth copay — which may be $0, $10, $20, or $40 depending on your benefit tier.
           </p>
           <p className="cst-p">
-            The <a href="/insurance">insurance page</a> lists current accepted plans and states. If your plan is listed as
+            The <a href="/insurance/">insurance page</a> lists current accepted plans and states. If your plan is listed as
             accepted but your state is not, you can still book self-pay at $79. TeleDirectMD does not bill insurance in states
             where it is not in-network.
           </p>
@@ -617,12 +617,12 @@ export default function CostHubPage() {
         <section className="cst-section" aria-labelledby="related-heading">
           <h2 id="related-heading" className="cst-h2">Related Resources</h2>
           <div className="cst-link-cloud">
-            <a href="/compare">Compare TeleDirectMD vs. Competitors</a>
-            <a href="/insurance">Insurance &amp; Pricing</a>
-            <a href="/symptoms">Symptoms Directory</a>
-            <a href="/faq">FAQ</a>
-            <a href="/about">About Dr. Bhavsar, MD</a>
-            <a href="/states-we-serve">States We Serve</a>
+            <a href="/compare/">Compare TeleDirectMD vs. Competitors</a>
+            <a href="/insurance/">Insurance &amp; Pricing</a>
+            <a href="/symptoms/">Symptoms Directory</a>
+            <a href="/faq/">FAQ</a>
+            <a href="/about/">About Dr. Bhavsar, MD</a>
+            <a href="/states-we-serve/">States We Serve</a>
           </div>
         </section>
 
@@ -633,8 +633,8 @@ export default function CostHubPage() {
             <p>Same-day video visit with a board-certified MD. Prescriptions to your pharmacy. HSA/FSA accepted.</p>
           </div>
           <div className="cst-cta-bar-actions">
-            <a href="/book-online" className="cst-btn cst-btn-primary">Book Now</a>
-            <a href="/insurance" className="cst-btn cst-btn-outline">Check Insurance</a>
+            <a href="/book-online/" className="cst-btn cst-btn-primary">Book Now</a>
+            <a href="/insurance/" className="cst-btn cst-btn-outline">Check Insurance</a>
           </div>
         </div>
 

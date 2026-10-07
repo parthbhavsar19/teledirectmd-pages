@@ -226,13 +226,13 @@ export default async function CostPage({ params }) {
               </ul>
 
               <div className="tdmd-hero-ctas">
-                <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
-                <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">See What We Treat</a>
+                <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
+                <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">See What We Treat</a>
               </div>
 
               <p className="tdmd-reviewed">
                 Cost comparison last updated {today}. Reviewed by{' '}
-                <a className="tdmd-author-link" href="/about" aria-label="About Parth Bhavsar, MD">Parth Bhavsar, MD</a>{' '}— Board-Certified Family Medicine · NPI 1104323203 · LegitScript Certified · HIPAA-Compliant.
+                <a className="tdmd-author-link" href="/about/" aria-label="About Parth Bhavsar, MD">Parth Bhavsar, MD</a>{' '}— Board-Certified Family Medicine · NPI 1104323203 · LegitScript Certified · HIPAA-Compliant.
               </p>
             </div>
 
@@ -296,7 +296,7 @@ export default async function CostPage({ params }) {
         <div className="tdmd-container">
           <h2>Why TeleDirectMD: A Real Doctor, Not an Algorithm</h2>
           <p>
-            When you visit TeleDirectMD, you see <a href="/about" style={{ fontWeight: 700, color: 'var(--tdmd-navy)' }}>Dr. Parth Bhavsar, MD</a> — a board-certified Family Medicine physician licensed in 40+ states. Not a panel of rotating providers, not a physician assistant, not a chatbot.
+            When you visit TeleDirectMD, you see <a href="/about/" style={{ fontWeight: 700, color: 'var(--tdmd-navy)' }}>Dr. Parth Bhavsar, MD</a> — a board-certified Family Medicine physician licensed in 40+ states. Not a panel of rotating providers, not a physician assistant, not a chatbot.
           </p>
           <ul className="tdmd-hero-benefits">
             <li>Board-certified Family Medicine — University of Mississippi Medical Center</li>
@@ -435,7 +435,7 @@ export default async function CostPage({ params }) {
               <div className="tdmd-decision-number">1</div>
               <div className="tdmd-decision-content">
                 <h3>Book online</h3>
-                <p>Pick a same-day or next-available appointment at <a href="/book-online">teledirectmd.com/book-online</a>. Pay $79 at checkout (or use HSA/FSA, or apply your in-network insurance).</p>
+                <p>Pick a same-day or next-available appointment at <a href="/book-online/">teledirectmd.com/book-online</a>. Pay $79 at checkout (or use HSA/FSA, or apply your in-network insurance).</p>
               </div>
             </div>
             <div className="tdmd-decision-step tdmd-decision-step-good">
@@ -451,7 +451,7 @@ export default async function CostPage({ params }) {
                 <h3>Get treated, fill the script</h3>
                 <p>Receive a diagnosis, a written visit summary, and an e-prescription routed to your pharmacy of choice — usually within 30 minutes of the visit.</p>
                 <div className="tdmd-decision-cta">
-                  <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a $79 Visit Now</a>
+                  <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a $79 Visit Now</a>
                 </div>
               </div>
             </div>
@@ -684,7 +684,7 @@ export default async function CostPage({ params }) {
               <p>Same-day. No insurance required. HSA/FSA accepted. 40+ states. Last verified {today}.</p>
             </div>
             <div className="tdmd-bottom-cta-actions">
-              <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Start a $79 Visit</a>
+              <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Start a $79 Visit</a>
               <a href="/insurance/" className="tdmd-btn tdmd-btn-outline">Use Insurance</a>
             </div>
           </div>

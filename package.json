@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "prebuild": "node scripts/check-uti-scope.js && node scripts/check-state-coverage.js && node scripts/update-cyclosporiasis-monitor.js && node scripts/inject-health-guides-citable.js",
+    "prebuild": "node scripts/gen-insurance-dead-paths.js && node scripts/check-uti-scope.js && node scripts/check-state-coverage.js && node scripts/update-cyclosporiasis-monitor.js && node scripts/inject-health-guides-citable.js",
     "check:states": "node scripts/check-state-coverage.js",
     "test:prescribing-policy": "python3 scripts/check-prescribing-policy.py",
     "test:uti-scope": "node scripts/check-uti-scope.js",

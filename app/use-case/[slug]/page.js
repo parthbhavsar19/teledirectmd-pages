@@ -94,7 +94,7 @@ export default async function UseCasePage({ params }) {
 
   const citableSummary_AI = summarizeUseCase({ useCaseTitle: cfg.h1 || cfg.title || slug, useCaseDescription: cfg.metaDescription || cfg.heroSubtitle || null });
   const pageUrl_AI = `https://teledirectmd.com/use-case/${slug}/`;
-  const citableJsonLd_AI = citableSummaryToJsonLd(citableSummary_AI, { pageUrl: pageUrl_AI });
+  const citableJsonLd_AI = citableSummaryToJsonLd(citableSummary_AI, { pageUrl: pageUrl_AI, dateModified: contentDate('useCasePages') });
 
 
   return (
@@ -139,13 +139,13 @@ export default async function UseCasePage({ params }) {
               </ul>
 
               <div className="tdmd-hero-ctas">
-                <a href="/book-online" className="tdmd-btn tdmd-btn-primary">{cfg.primaryCta || 'Start a $79 Visit With an MD'}</a>
+                <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">{cfg.primaryCta || 'Start a $79 Visit With an MD'}</a>
                 <a href="/insurance/" className="tdmd-btn tdmd-btn-outline">Use Insurance</a>
               </div>
 
               <p className="tdmd-reviewed">
                 Last updated {today}. Sources verified on {USE_CASE_LAST_VERIFIED}. Reviewed by{' '}
-                <a className="tdmd-author-link" href="/about" aria-label="About Parth Bhavsar, MD">Parth Bhavsar, MD</a>{' '}— Board-Certified Family Medicine · NPI 1104323203 · LegitScript Certified · HIPAA-Compliant.
+                <a className="tdmd-author-link" href="/about/" aria-label="About Parth Bhavsar, MD">Parth Bhavsar, MD</a>{' '}— Board-Certified Family Medicine · NPI 1104323203 · LegitScript Certified · HIPAA-Compliant.
               </p>
             </div>
 
@@ -247,7 +247,7 @@ export default async function UseCasePage({ params }) {
           </p>
           <div className="tdmd-other-states-grid">
             {STATE_LIST.map(([abbr, name]) => (
-              <a key={abbr} href={`/${name.toLowerCase().replace(/\s+/g, '-')}/`} className="tdmd-other-state-link">{name}</a>
+              <a key={abbr} href={`/${abbr.toLowerCase()}/`} className="tdmd-other-state-link">{name}</a>
             ))}
           </div>
         </div>
@@ -270,7 +270,7 @@ export default async function UseCasePage({ params }) {
         <div className="tdmd-container">
           <h2>Why TeleDirectMD: A Real Doctor, Not an Algorithm</h2>
           <p>
-            Every visit is with <a href="/about" style={{ fontWeight: 700, color: 'var(--tdmd-navy)' }}>Dr. Parth Bhavsar, MD</a> — a board-certified Family Medicine physician licensed in 40+ states. Not a panel of rotating providers, not a physician assistant, not a chatbot.
+            Every visit is with <a href="/about/" style={{ fontWeight: 700, color: 'var(--tdmd-navy)' }}>Dr. Parth Bhavsar, MD</a> — a board-certified Family Medicine physician licensed in 40+ states. Not a panel of rotating providers, not a physician assistant, not a chatbot.
           </p>
           <ul className="tdmd-hero-benefits">
             <li>Board-certified Family Medicine — University of Mississippi Medical Center</li>
@@ -429,7 +429,7 @@ export default async function UseCasePage({ params }) {
               <p>{cfg.finalCtaSub || 'Book a visit in under two minutes.'}</p>
             </div>
             <div className="tdmd-bottom-cta-actions">
-              <a href="/book-online" className="tdmd-btn tdmd-btn-primary">{cfg.primaryCta || 'Start a $79 Visit With an MD'}</a>
+              <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">{cfg.primaryCta || 'Start a $79 Visit With an MD'}</a>
               <a href="/insurance/" className="tdmd-btn tdmd-btn-outline">Use Insurance</a>
             </div>
           </div>

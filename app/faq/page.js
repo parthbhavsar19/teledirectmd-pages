@@ -178,7 +178,7 @@ function buildJsonLd(items) {
         about: { '@id': 'https://teledirectmd.com/#organization' },
         publisher: { '@id': 'https://teledirectmd.com/#organization' },
         lastReviewed: contentDate('faq'),
-        reviewedBy: { '@id': 'https://teledirectmd.com/#physician' },
+        reviewedBy: { '@id': 'https://teledirectmd.com/about/#physician' },
         specialty: ['Family Medicine', 'Urgent Care', 'Telemedicine'],
         audience: { '@type': 'MedicalAudience', audienceType: 'Patient', suggestedMinAge: 18 },
         speakable: {
@@ -202,7 +202,7 @@ function buildJsonLd(items) {
       },
       {
         '@type': 'Physician',
-        '@id': 'https://teledirectmd.com/#physician',
+        '@id': 'https://teledirectmd.com/about/#physician',
         name: 'Parth Bhavsar, MD',
         url: 'https://teledirectmd.com/about',
         identifier: { '@type': 'PropertyValue', name: 'NPI', value: '1104323203' },

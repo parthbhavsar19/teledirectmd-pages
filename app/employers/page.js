@@ -60,7 +60,7 @@ const jsonLd = {
       // Founder/physician entity — high-authority signal for AI engines.
       // sameAs links connect this entity to its press, review, and licensure profiles.
       '@type': 'Physician',
-      '@id': 'https://teledirectmd.com/#physician',
+      '@id': 'https://teledirectmd.com/about/#physician',
       name: 'Parth Bhavsar, MD',
       honorificSuffix: 'MD',
       jobTitle: 'Board-Certified Family Medicine Physician, Founder',
@@ -94,7 +94,7 @@ const jsonLd = {
       url: 'https://teledirectmd.com',
       logo: 'https://teledirectmd.com/logo.webp',
       description: 'Physician-led virtual care platform offering same-day video visits with a board-certified family medicine MD across 40+ states plus DC. Physician roster currently expanding.',
-      founder: { '@id': 'https://teledirectmd.com/#physician' },
+      founder: { '@id': 'https://teledirectmd.com/about/#physician' },
       foundingDate: '2024',
       areaServed: 'United States',
       contactPoint: {
@@ -122,13 +122,6 @@ const jsonLd = {
         'https://www.webmd.com/doctors/parth-bhavsar',
         'https://www.google.com/maps/place/TeleDirectMD',
       ],
-      aggregateRating: {
-        '@type': 'AggregateRating',
-        ratingValue: '5.0',
-        bestRating: '5',
-        reviewCount: '125',
-        itemReviewed: 'TeleDirectMD virtual care visits',
-      },
       hasCredential: [
         { '@type': 'EducationalOccupationalCredential', credentialCategory: 'LegitScript Certified Telehealth Provider' },
         { '@type': 'EducationalOccupationalCredential', credentialCategory: 'HIPAA-Compliant Platform' },

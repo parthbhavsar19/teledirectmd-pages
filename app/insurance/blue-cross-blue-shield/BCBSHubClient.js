@@ -1,4 +1,5 @@
 'use client';
+import { insuranceHref, insuranceHrefOrParent } from '../../../lib/insurance-links';
 import { B, INSURERS, STATE_NAMES, INSURANCE_CONDITIONS } from '../../../data/insurance/insuranceConfig';
 import { FAQ, BookCTA, HowItWorksSteps, TrustBar, Breadcrumb, InsuranceDisclaimer, AnswerBlock } from '../components/InsuranceShared';
 import { Ico } from '../components/InsuranceIcons';
@@ -55,7 +56,7 @@ const SCHEMA = {
   "@context":"https://schema.org",
   "@graph":[
     { "@type":"MedicalOrganization","@id":"https://teledirectmd.com/#organization","name":"TeleDirectMD","url":"https://teledirectmd.com","description":"Physician-led telemedicine practice accepting Blue Cross Blue Shield plans in AZ, CA, FL, GA, IL, MI, PA, TX.","aggregateRating": getAggregateRating() },
-    { "@type":"Physician","@id":"https://teledirectmd.com/#physician","name":"Parth Bhavsar, MD","identifier":{"@type":"PropertyValue","name":"NPI","value":"1104323203"},"medicalSpecialty":"Family Medicine","acceptsInsurance":[{"@type":"HealthInsurancePlan","name":"Blue Cross Blue Shield Commercial Plans"}], ...getReviewBlock() },
+    { "@type":"Physician","@id":"https://teledirectmd.com/about/#physician","name":"Parth Bhavsar, MD","identifier":{"@type":"PropertyValue","name":"NPI","value":"1104323203"},"medicalSpecialty":"Family Medicine","acceptsInsurance":[{"@type":"HealthInsurancePlan","name":"Blue Cross Blue Shield Commercial Plans"}], ...getReviewBlock() },
     { "@type":"FAQPage","mainEntity":BCBS_FAQS.map(f=>({ "@type":"Question","name":f.q,"acceptedAnswer":{"@type":"Answer","text":f.a.replace(/<[^>]+>/g,'')} })) },
     { "@type":"WebPage","@id":"https://teledirectmd.com/insurance/blue-cross-blue-shield#webpage","url":"https://teledirectmd.com/insurance/blue-cross-blue-shield","name":"Online Doctor That Accepts Blue Cross Blue Shield | TeleDirectMD","speakable":{"@type":"SpeakableSpecification","cssSelector":["[data-speakable]"]} },
     { "@type":"HowTo","name":"How to book a BCBS-covered telemedicine visit with TeleDirectMD","description":"Three steps to see Dr. Parth Bhavsar, MD by video using your Blue Cross Blue Shield plan.","totalTime":"PT5M","step":[
@@ -147,7 +148,7 @@ export default function BCBSHubClient() {
       <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400&family=DM+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(SCHEMA) }} />
       <CitableSummaryBlock summary={citableSummary_AI} jsonLd={citableJsonLd_AI} idSuffix="blue-cross-blue-shield-hub" />
-      <Breadcrumb items={[{label:"Home",href:"/"},{label:"Insurance",href:"/insurance"},{label:"Blue Cross Blue Shield"}]} />
+      <Breadcrumb items={[{label:"Home",href:"/"},{label:"Insurance",href:"/insurance/"},{label:"Blue Cross Blue Shield"}]} />
 
       {/* HERO */}
       <div style={{ background:`linear-gradient(165deg, ${B.navyDarker} 0%, ${B.navy} 40%, ${B.navyDeep} 100%)`, padding:"56px 24px 64px", position:"relative", overflow:"hidden", marginTop:16 }}>
@@ -164,11 +165,11 @@ export default function BCBSHubClient() {
             TeleDirectMD is in-network with select BCBS affiliate plans in Arizona, Florida, Georgia, Illinois, Michigan, Pennsylvania, and Texas. Board-certified physician. Same-day video visits.
           </p>
           <div style={{ display:"flex", flexWrap:"wrap", gap:12 }}>
-            <a href="https://www.teledirectmd.com/book-online" target="_blank" rel="noopener"
+            <a href="https://www.teledirectmd.com/book-online/" target="_blank" rel="noopener"
               style={{ display:"inline-flex", alignItems:"center", gap:8, padding:"14px 28px", background:B.accent, color:B.white, borderRadius:B.rs, fontWeight:700, fontSize:15, textDecoration:"none" }}>
               <Ico.Cal c={B.white} s={18} /> Book with BCBS
             </a>
-            <a href="/insurance" style={{ display:"inline-flex", alignItems:"center", gap:8, padding:"14px 24px", background:"rgba(255,255,255,0.1)", color:B.white, borderRadius:B.rs, fontWeight:600, fontSize:15, textDecoration:"none", border:"1px solid rgba(255,255,255,0.2)" }}>
+            <a href="/insurance/" style={{ display:"inline-flex", alignItems:"center", gap:8, padding:"14px 24px", background:"rgba(255,255,255,0.1)", color:B.white, borderRadius:B.rs, fontWeight:600, fontSize:15, textDecoration:"none", border:"1px solid rgba(255,255,255,0.2)" }}>
               Check Other Insurance
             </a>
           </div>
@@ -257,8 +258,8 @@ export default function BCBSHubClient() {
               { slug: 'sore-throat-treatment-online', label: 'Strep throat (Anthem GA)' },
               { slug: 'yeast-infection-treatment-online', label: 'Yeast infection (Highmark PA)' },
               { slug: 'ear-pain-treatment-online', label: 'Ear infection (BlueCard PPO)' },
-            ].map((c, i) => (
-              <a key={i} href={`/insurance/blue-cross-blue-shield/${c.slug}`}
+            ].filter((c) => insuranceHref(`/insurance/blue-cross-blue-shield/${c.slug}`)).map((c, i) => (
+              <a key={i} href={insuranceHref(`/insurance/blue-cross-blue-shield/${c.slug}`)}
                 style={{ display:"block", background:B.white, border:`1px solid ${B.border}`, borderRadius:B.rs, padding:"14px 16px", textDecoration:"none", boxShadow:B.shadow }}>
                 <div style={{ fontSize:14, fontWeight:600, color:B.navy }}>{c.label}</div>
                 <div style={{ fontSize:12, color:B.text, marginTop:2 }}>Affiliate-specific copay · check Blue Card prefix</div>

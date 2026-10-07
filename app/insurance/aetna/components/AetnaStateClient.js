@@ -1,4 +1,5 @@
 'use client';
+import { insuranceHref, insuranceHrefOrParent } from '../../../../lib/insurance-links';
 import { B, STATE_NAMES, INSURANCE_CONDITIONS, INSURERS, COPAY_DATA, STATE_INSURANCE_MAP, STATE_PLAN_DETAILS, LAST_REVIEWED } from '../../../../data/insurance/insuranceConfig';
 import { FAQ, BookCTA, HowItWorksSteps, TrustBar, Breadcrumb, InsuranceDisclaimer, AnswerBlock, CopayCard, PatientJourney, CrossInsurerTable, CommissionerLink, InsurerTrustDetails } from '../../components/InsuranceShared';
 import { CompareToOtherTelehealthGrid, Or49CashLink } from '../../../components/CostCompareModules';
@@ -123,7 +124,7 @@ export default function AetnaStateClient({ stateSlug }) {
       <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400&family=DM+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(SCHEMA) }} />
       <CitableSummaryBlock summary={citableSummary_AI} jsonLd={citableJsonLd_AI} idSuffix={`aetna-${stateSlug}`} />
-      <Breadcrumb items={[{label:"Home",href:"/"},{label:"Insurance",href:"/insurance"},{label:"Aetna",href:"/insurance/aetna"},{label:stateName}]} />
+      <Breadcrumb items={[{label:"Home",href:"/"},{label:"Insurance",href:"/insurance/"},{label:"Aetna",href:"/insurance/aetna/"},{label:stateName}]} />
       {/* FL: A1 credential disclosure + A3 verify-link placement 1 of 3. */}
       {stateCode === 'FL' && <FlCredentialBlock />}
 
@@ -145,7 +146,7 @@ export default function AetnaStateClient({ stateSlug }) {
             TeleDirectMD is in-network with Aetna commercial plans in {stateName}. See a board-certified physician by video — your standard Aetna copay applies{copayData ? ` (typically ${copayData.typical})` : ""}.
           </p>
           {ctx.note && <p style={{ fontFamily:B.fb, fontSize:14, color:"rgba(255,255,255,0.55)", lineHeight:1.6, margin:"0 0 24px", maxWidth:580 }}>{ctx.note}</p>}
-          <a href="https://www.teledirectmd.com/book-online" target="_blank" rel="noopener" style={{ display:"inline-flex", alignItems:"center", gap:8, padding:"14px 28px", background:B.accent, color:B.white, borderRadius:B.rs, fontWeight:700, fontSize:15, textDecoration:"none" }}>
+          <a href="https://www.teledirectmd.com/book-online/" target="_blank" rel="noopener" style={{ display:"inline-flex", alignItems:"center", gap:8, padding:"14px 28px", background:B.accent, color:B.white, borderRadius:B.rs, fontWeight:700, fontSize:15, textDecoration:"none" }}>
             <Ico.Cal c={B.white} s={18} /> Book with Aetna in {stateName}
           </a>
         </div>
@@ -195,8 +196,8 @@ export default function AetnaStateClient({ stateSlug }) {
           <h2 style={{ fontFamily:B.fd, fontSize:24, fontWeight:700, color:B.navy, margin:"0 0 8px" }}>Conditions Aetna Covers via Telehealth in {stateName}</h2>
           <p style={{ fontSize:14, color:B.text, margin:"0 0 16px", lineHeight:1.6 }}>Select a condition to see Aetna + {stateName} specific coverage details, copay estimates, and prescription information.</p>
           <div style={{ display:"grid", gridTemplateColumns:"repeat(auto-fill, minmax(220px, 1fr))", gap:10 }}>
-            {Object.values(INSURANCE_CONDITIONS).map((cond,i) => (
-              <a key={i} href={`/insurance/aetna/${stateSlug}/${cond.slug}`} style={{ display:"flex", alignItems:"center", gap:10, background:B.white, border:`1px solid ${B.border}`, borderRadius:B.rs, padding:"12px 14px", textDecoration:"none", boxShadow:B.shadow }}>
+            {Object.values(INSURANCE_CONDITIONS).filter((cond) => insuranceHref(`/insurance/aetna/${stateSlug}/${cond.slug}`)).map((cond,i) => (
+              <a key={i} href={insuranceHref(`/insurance/aetna/${stateSlug}/${cond.slug}`)} style={{ display:"flex", alignItems:"center", gap:10, background:B.white, border:`1px solid ${B.border}`, borderRadius:B.rs, padding:"12px 14px", textDecoration:"none", boxShadow:B.shadow }}>
                 <Ico.Check c="#7B2CBF" s={15} />
                 <div>
                   <div style={{ fontSize:13, fontWeight:600, color:B.navy }}>{cond.displayName}</div>
@@ -261,9 +262,9 @@ export default function AetnaStateClient({ stateSlug }) {
         </section>
 
         <div style={{ marginBottom:24, display:"flex", flexWrap:"wrap", gap:10 }}>
-          <a href="/insurance/aetna" style={{ fontSize:14, color:B.teal, textDecoration:"none" }}>← All Aetna States</a>
+          <a href="/insurance/aetna/" style={{ fontSize:14, color:B.teal, textDecoration:"none" }}>← All Aetna States</a>
           <span style={{ color:B.border }}>|</span>
-          <a href="/insurance" style={{ fontSize:14, color:B.teal, textDecoration:"none" }}>All Insurance Options</a>
+          <a href="/insurance/" style={{ fontSize:14, color:B.teal, textDecoration:"none" }}>All Insurance Options</a>
         </div>
 
         <CommissionerLink stateCode={stateCode} stateName={stateName} />

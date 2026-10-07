@@ -3,14 +3,14 @@ import { useState, useEffect } from 'react';
 
 const NAV_LINKS = [
   { label: 'Home', href: '/' },
-  { label: 'About', href: '/about' },
-  { label: 'What We Treat', href: '/what-we-treat' },
-  { label: 'Insurance', href: '/insurance' },
-  { label: 'Health Guides', href: '/health-guides' },
-  { label: 'Who We Serve', href: '/who-we-serve' },
-  { label: 'FAQ', href: '/faq' },
-  { label: 'In the Media', href: '/media-mentions' },
-  { label: 'Reviews', href: '/reviews' },
+  { label: 'About', href: '/about/' },
+  { label: 'What We Treat', href: '/what-we-treat/' },
+  { label: 'Insurance', href: '/insurance/' },
+  { label: 'Health Guides', href: '/health-guides/' },
+  { label: 'Who We Serve', href: '/who-we-serve/' },
+  { label: 'FAQ', href: '/faq/' },
+  { label: 'In the Media', href: '/media-mentions/' },
+  { label: 'Reviews', href: '/reviews/' },
 ];
 
 /* Sun icon for dark mode (click to switch to light) */
@@ -99,7 +99,7 @@ export default function SiteHeader() {
           {isDark ? <SunIcon /> : <MoonIcon />}
         </button>
 
-        <a href="/book-online" className="tdmd-header-cta-desktop">Book Now</a>
+        <a href="/book-online/" className="tdmd-header-cta-desktop">Book Now</a>
 
         <button
           className="tdmd-hamburger"
@@ -161,7 +161,7 @@ export default function SiteHeader() {
                 {isDark ? 'Light mode' : 'Dark mode'}
               </span>
             </div>
-            <a href="/book-online" className="tdmd-mobile-cta" onClick={() => setMenuOpen(false)}>Book Now</a>
+            <a href="/book-online/" className="tdmd-mobile-cta" onClick={() => setMenuOpen(false)}>Book Now</a>
           </div>
         </div>
       )}

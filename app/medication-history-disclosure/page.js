@@ -34,7 +34,7 @@ export default function MedicationHistoryDisclosure() {
         </ul>
 
         <h2 style={{ fontSize: '1.35rem', fontWeight: 600, marginTop: 32, marginBottom: 12 }}>How This Information Is Protected</h2>
-        <p>All medication history data retrieved is treated as protected health information (PHI) under HIPAA. It is stored in your electronic health record within our HIPAA-compliant systems, subject to the same privacy and security protections described in our <a href="/notice-of-privacy-practices" style={{ color: '#1a7f7f' }}>Notice of Privacy Practices</a>. Access is limited to authorized clinical personnel involved in your care.</p>
+        <p>All medication history data retrieved is treated as protected health information (PHI) under HIPAA. It is stored in your electronic health record within our HIPAA-compliant systems, subject to the same privacy and security protections described in our <a href="/notice-of-privacy-practices/" style={{ color: '#1a7f7f' }}>Notice of Privacy Practices</a>. Access is limited to authorized clinical personnel involved in your care.</p>
 
         <h2 style={{ fontSize: '1.35rem', fontWeight: 600, marginTop: 32, marginBottom: 12 }}>Your Rights</h2>
         <p>You have the right to:</p>

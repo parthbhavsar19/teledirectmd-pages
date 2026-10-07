@@ -1,3 +1,4 @@
+import { PILOT_COHORT_BY_STATE, stateConditionHref } from '../../lib/live-routes';
 import { contentDate } from '../../lib/content-dates';
 import { getStates, getStateBySlug, getConditionCategories } from '../../lib/get-data';
 import { getStateInsurance } from '../../lib/insurance-data';
@@ -14,53 +15,6 @@ import { summarizeStateLanding, citableSummaryToJsonLd } from '../../lib/citable
 import { loadStateTemplate } from '../../lib/state-template';
 import stateLicensesData from '../../data/state-licenses.json';
 
-// Alaska diverges from VT/VA. The AK cohort was originally copied verbatim from
-// Vermont's slug list for consistency, not chosen from Alaska demand. Google Ads
-// volume for Alaska (geo 21132) showed the mismatch: the five conditions removed
-// below draw 10-30 searches/mo in-state, while eczema (390/mo), hair loss
-// (590/mo, $15.64 CPC), psoriasis (260/mo, $21.19 CPC) and gout (170/mo) had no
-// page at all. Uncovered measurable demand (3,070/mo) exceeded covered (1,730/mo).
-//
-// VT and VA keep the original set — their pages are indexed and must not change.
-//
-// NOT included: strep throat, which is the largest single term in Alaska at
-// 1,000/mo. There is no strep condition in data/conditions/; it is folded into
-// sore-throat-treatment-online, which itself draws only 30/mo. That naming
-// mismatch is national, not Alaskan, and needs its own decision.
-const VT_VA_PILOT_CONDITIONS = new Set([
-  'uti-treatment-online', 'yeast-infection-treatment-online', 'bv-treatment-online',
-  'cold-sore-treatment-online', 'seasonal-allergies-treatment-online', 'hypertension-refills-online',
-  'pink-eye-treatment-online', 'shingles-treatment-online', 'sinus-infection-treatment-online',
-  'sore-throat-treatment-online', 'tick-bite-treatment-online', 'influenza-treatment-online',
-  'common-cold-treatment-online', 'ear-pain-treatment-online', 'hyperlipidemia-refills-online',
-  'hypothyroidism-refills-online', 'chlamydia-treatment-online', 'doxypep-sti-prevention-online',
-  'acne-treatment-online', 'cellulitis-treatment-online',
-]);
-
-// Removed vs VT/VA: common-cold (10/mo), seasonal-allergies (20/mo),
-// doxypep (30/mo), hyperlipidemia (30/mo, and 0 clicks in 90d across all 40
-// states that publish it), influenza (50/mo, 2 clicks nationally).
-// Added: eczema, hair-loss, psoriasis, gout.
-const AK_PILOT_CONDITIONS = new Set([
-  'uti-treatment-online', 'yeast-infection-treatment-online', 'bv-treatment-online',
-  'cold-sore-treatment-online', 'hypertension-refills-online',
-  'pink-eye-treatment-online', 'shingles-treatment-online', 'sinus-infection-treatment-online',
-  'sore-throat-treatment-online', 'tick-bite-treatment-online',
-  'ear-pain-treatment-online',
-  'hypothyroidism-refills-online', 'chlamydia-treatment-online',
-  'acne-treatment-online', 'cellulitis-treatment-online',
-  'eczema-treatment-online', 'hair-loss-treatment-online',
-  'psoriasis-refills-online', 'gout-treatment-online',
-]);
-
-// Keep this map identical across app/[slug]/StateLandingPage.js,
-// app/[slug]/[conditionSlug]/page.js and app/sitemap.js. A mismatch between the
-// route gate and the sitemap gate emits sitemap URLs with no page behind them.
-const PILOT_COHORT_BY_STATE = {
-  vt: VT_VA_PILOT_CONDITIONS,
-  va: VT_VA_PILOT_CONDITIONS,
-  ak: AK_PILOT_CONDITIONS,
-};
 export default function StateLandingPage({ stateSlug }) {
   const state = getStateBySlug(stateSlug);
   const stateTpl = loadStateTemplate(stateSlug);
@@ -118,10 +72,10 @@ export default function StateLandingPage({ stateSlug }) {
     "@graph": [
       {
         "@type": "WebSite",
-        "@id": `${baseUrl}#website`,
+        "@id": `${baseUrl}/#website`,
         "url": baseUrl,
         "name": "TeleDirectMD",
-        "publisher": { "@id": `${baseUrl}#organization` },
+        "publisher": { "@id": `${baseUrl}/#organization` },
         "inLanguage": "en-US"
       },
       {
@@ -135,7 +89,7 @@ export default function StateLandingPage({ stateSlug }) {
       },
       {
         "@type": "Organization",
-        "@id": `${baseUrl}#organization`,
+        "@id": `${baseUrl}/#organization`,
         "name": "TeleDirectMD",
         "url": baseUrl,
         "telephone": "+1-678-956-1855",
@@ -158,7 +112,7 @@ export default function StateLandingPage({ stateSlug }) {
           "sameAs": `https://en.wikipedia.org/wiki/${encodeURIComponent(state.name)}`
         },
         "medicalSpecialty": ["Primary Care", "Family Medicine", "Telemedicine"],
-        "parentOrganization": { "@id": `${baseUrl}#organization` },
+        "parentOrganization": { "@id": `${baseUrl}/#organization` },
         "priceRange": "$79",
         "isAcceptingNewPatients": true,
         "availableService": categories.map((cat) => ({
@@ -169,13 +123,13 @@ export default function StateLandingPage({ stateSlug }) {
       },
       {
         "@type": "Physician",
-        "@id": `${baseUrl}/about#physician`,
+        "@id": `${baseUrl}/about/#physician`,
         "name": "Parth Bhavsar, MD",
         "url": `${baseUrl}/about`,
         "identifier": { "@type": "PropertyValue", "name": "NPI", "value": "1104323203" },
         "medicalSpecialty": "Family Medicine",
         "areaServed": { "@type": "State", "name": state.name },
-        "affiliation": { "@id": `${baseUrl}#organization` },
+        "affiliation": { "@id": `${baseUrl}/#organization` },
         ...(stateCredential ? { "hasCredential": stateCredential } : {}),
         ...(hasInsurance ? {
           "acceptsInsurance": stateInsurers.map((ins) => ({
@@ -196,9 +150,9 @@ export default function StateLandingPage({ stateSlug }) {
         "description": `See an MD-only doctor online in ${state.name}. TeleDirectMD offers same-day video visits for ${totalConditions} adult conditions, starting at $79.`,
         "inLanguage": "en-US",
         "breadcrumb": { "@id": `${pageUrl}#breadcrumbs` },
-        "isPartOf": { "@id": `${baseUrl}#website` },
-        "publisher": { "@id": `${baseUrl}#organization` },
-        "author": { "@id": `${baseUrl}/about#physician` },
+        "isPartOf": { "@id": `${baseUrl}/#website` },
+        "publisher": { "@id": `${baseUrl}/#organization` },
+        "author": { "@id": `${baseUrl}/about/#physician` },
         "datePublished": today,
         "dateModified": today,
         "about": { "@id": `${pageUrl}#medical-business` }
@@ -301,7 +255,7 @@ export default function StateLandingPage({ stateSlug }) {
   // ── Citable summary for AI extractors (State landing)
   const citableSummary_AI = summarizeStateLanding({ state });
   const pageUrl_AI = `https://teledirectmd.com/${stateSlug}/`;
-  const citableJsonLd_AI = citableSummaryToJsonLd(citableSummary_AI, { pageUrl: pageUrl_AI });
+  const citableJsonLd_AI = citableSummaryToJsonLd(citableSummary_AI, { pageUrl: pageUrl_AI, dateModified: contentDate('stateLandingPages') });
 
 
   return (
@@ -318,7 +272,7 @@ export default function StateLandingPage({ stateSlug }) {
         <div className="tdmd-container" style={{ paddingTop: '0.5rem', paddingBottom: '0' }}>
           <a href="/">Home</a>
           <span className="tdmd-bc-sep" aria-hidden="true">/</span>
-          <a href="/what-we-treat">What We Treat</a>
+          <a href="/what-we-treat/">What We Treat</a>
           <span className="tdmd-bc-sep" aria-hidden="true">/</span>
           <span aria-current="page">{state.name}</span>
         </div>
@@ -435,13 +389,13 @@ export default function StateLandingPage({ stateSlug }) {
                  behind the May 2026 deindexing event, and every hub outperformed its
                  own online-doctor-visits page in Search Console. Two CTAs only now. */}
               <div className="cpr-hero-ctas">
-                <a href="/book-online" className="cpr-hero-cta">Book a Visit, $79 &rarr;</a>
-                <a href="/what-we-treat" className="cpr-hero-cta-outline">View All Conditions</a>
+                <a href="/book-online/" className="cpr-hero-cta">Book a Visit, $79 &rarr;</a>
+                <a href="/what-we-treat/" className="cpr-hero-cta-outline">View All Conditions</a>
               </div>
 
               <p className="cpr-hero-reviewed">
                 Last reviewed on <time dateTime={today}>{todayDisplay}</time> by{' '}
-                <a className="cpr-hero-author-link" href="/about" aria-label="About Parth Bhavsar, MD">
+                <a className="cpr-hero-author-link" href="/about/" aria-label="About Parth Bhavsar, MD">
                   Parth Bhavsar, MD
                 </a>
               </p>
@@ -459,7 +413,7 @@ export default function StateLandingPage({ stateSlug }) {
                 <li>MD-only — never an NP or PA</li>
                 {hasInsurance && <li>Select insurance plans accepted</li>}
               </ul>
-              <a href="/book-online" className="cpr-hero-hcard-cta">Book a Visit &rarr;</a>
+              <a href="/book-online/" className="cpr-hero-hcard-cta">Book a Visit &rarr;</a>
               <p className="cpr-hero-hcard-note">No membership required</p>
             </div>
           </div>
@@ -503,8 +457,8 @@ export default function StateLandingPage({ stateSlug }) {
               </div>
               <p className="tdmd-cat-desc">{cat.categoryDescription}</p>
               <div className="tdmd-cat-grid">
-                {cat.conditions.map((c) => (
-                  <a key={c.slug} className="tdmd-cat-link" href={`/${stateSlug}/${c.slug}`}>
+                {cat.conditions.filter((c) => stateConditionHref(stateSlug, c.slug)).map((c) => (
+                  <a key={c.slug} className="tdmd-cat-link" href={stateConditionHref(stateSlug, c.slug)}>
                     {c.name}
                   </a>
                 ))}
@@ -539,7 +493,7 @@ export default function StateLandingPage({ stateSlug }) {
           </div>
 
           <div style={{ textAlign: 'center', marginTop: '1.25rem' }}>
-            <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit Now</a>
+            <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit Now</a>
           </div>
         </div>
       </section>
@@ -578,7 +532,7 @@ export default function StateLandingPage({ stateSlug }) {
           </div>
 
           <p className="tdmd-cost-note">
-            <strong>No hidden fees.</strong> Your $79 visit fee is the complete cost for your TeleDirectMD consultation.{hasInsurance ? <> Select insurance plans are also accepted in {state.name} — <a href="/insurance" style={{ color: 'var(--tdmd-teal)', fontWeight: 700 }}>check your coverage</a>.</> : ' Insurance is not required.'}
+            <strong>No hidden fees.</strong> Your $79 visit fee is the complete cost for your TeleDirectMD consultation.{hasInsurance ? <> Select insurance plans are also accepted in {state.name} — <a href="/insurance/" style={{ color: 'var(--tdmd-teal)', fontWeight: 700 }}>check your coverage</a>.</> : ' Insurance is not required.'}
           </p>
         </div>
       </section>
@@ -660,9 +614,9 @@ export default function StateLandingPage({ stateSlug }) {
               {
                 question: 'Do I need insurance to use TeleDirectMD?',
                 answer: hasInsurance ? (
-                  <p>No, insurance is not required. You can always book a $79 self-pay visit. However, TeleDirectMD also accepts select insurance plans in {state.name}, including {stateInsurers.map(i => i.name).join(', ')}. Visit our <a href="/insurance">Insurance page</a> to check your coverage.</p>
+                  <p>No, insurance is not required. You can always book a $79 self-pay visit. However, TeleDirectMD also accepts select insurance plans in {state.name}, including {stateInsurers.map(i => i.name).join(', ')}. Visit our <a href="/insurance/">Insurance page</a> to check your coverage.</p>
                 ) : (
-                  <p>No. Insurance is not required for a TeleDirectMD visit. The $79 visit fee is the complete cost for your consultation. We are actively expanding insurance coverage to more states — visit our <a href="/insurance">Insurance page</a> for the latest information.</p>
+                  <p>No. Insurance is not required for a TeleDirectMD visit. The $79 visit fee is the complete cost for your consultation. We are actively expanding insurance coverage to more states — visit our <a href="/insurance/">Insurance page</a> for the latest information.</p>
                 ),
               },
               {
@@ -723,8 +677,8 @@ export default function StateLandingPage({ stateSlug }) {
               <p>Book a same-day video visit with a licensed MD. Starting at $79{hasInsurance ? ', select insurance accepted' : ', no insurance required'}.</p>
             </div>
             <div className="tdmd-bottom-cta-actions">
-              <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
-              <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All Conditions</a>
+              <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
+              <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">View All Conditions</a>
             </div>
           </div>
         </div>
@@ -737,10 +691,10 @@ export default function StateLandingPage({ stateSlug }) {
           <p>Explore more about TeleDirectMD services available in {state.name}.</p>
           <div className="tdmd-inline-links">
             <p className="tdmd-link-cloud">
-              <a href="/insurance">Insurance & Pricing</a>
-              <a href="/faq">Frequently Asked Questions</a>
-              <a href="/states-we-serve">All States We Serve</a>
-              <a href="/what-we-treat">What We Treat</a>
+              <a href="/insurance/">Insurance & Pricing</a>
+              <a href="/faq/">Frequently Asked Questions</a>
+              <a href="/states-we-serve/">All States We Serve</a>
+              <a href="/what-we-treat/">What We Treat</a>
             </p>
           </div>
         </div>

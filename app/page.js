@@ -85,7 +85,7 @@ const jsonLd = {
     },
     {
       '@type': 'Physician',
-      '@id': 'https://teledirectmd.com/#physician',
+      '@id': 'https://teledirectmd.com/about/#physician',
       name: 'Dr. Parth Bhavsar',
       givenName: 'Parth',
       familyName: 'Bhavsar',
@@ -177,14 +177,6 @@ const jsonLd = {
       description: 'Physician-led telehealth platform offering $79 board-certified online doctor visits in 40+ US states + DC.',
       publisher: { '@id': 'https://teledirectmd.com/#organization' },
       inLanguage: 'en-US',
-      potentialAction: {
-        '@type': 'SearchAction',
-        target: {
-          '@type': 'EntryPoint',
-          urlTemplate: 'https://teledirectmd.com/search?q={search_term_string}',
-        },
-        'query-input': 'required name=search_term_string',
-      },
     },
     {
       '@type': 'HowTo',

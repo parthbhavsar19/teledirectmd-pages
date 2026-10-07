@@ -1,4 +1,6 @@
 'use client';
+import { contentDate } from '../../../lib/content-dates';
+import { insuranceHref, insuranceHrefOrParent } from '../../../lib/insurance-links';
 import { B, INSURANCE_CONDITIONS, INSURERS, STATE_NAMES, COPAY_DATA, STATE_INSURANCE_MAP, STATE_PLAN_DETAILS, LAST_REVIEWED } from '../../../data/insurance/insuranceConfig';
 import { AETNA_CA_CONDITION_DETAILS } from '../../../data/insurance/aetna-ca-conditions';
 import { FAQ, BookCTA, HowItWorksSteps, TrustBar, Breadcrumb, InsuranceDisclaimer, AnswerBlock, CopayCard, PatientJourney, CommissionerLink, CrossInsurerTable } from './InsuranceShared';
@@ -189,7 +191,7 @@ export default function InsuranceStateConditionClient({ insurerSlug, stateSlug, 
     guidelineKey: cond.guidelineSource || null,
   });
   const pageUrl = `https://teledirectmd.com/insurance/${insurerSlug}/${stateSlug}/${conditionSlug}/`;
-  const citableJsonLd = citableSummaryToJsonLd(citableSummary, { pageUrl });
+  const citableJsonLd = citableSummaryToJsonLd(citableSummary, { pageUrl, dateModified: contentDate('insurance') });
 
   return (
     <div style={{ fontFamily: B.fb, background: B.bg, color: B.navy }}>
@@ -199,9 +201,9 @@ export default function InsuranceStateConditionClient({ insurerSlug, stateSlug, 
 
       <Breadcrumb items={[
         { label: "Home", href: "/" },
-        { label: "Insurance", href: "/insurance" },
-        { label: insurer.name, href: `/insurance/${insurerSlug}` },
-        { label: stateName, href: `/insurance/${insurerSlug}/${stateSlug}` },
+        { label: "Insurance", href: "/insurance/" },
+        { label: insurer.name, href: insuranceHrefOrParent(`/insurance/${insurerSlug}`) },
+        { label: stateName, href: insuranceHrefOrParent(`/insurance/${insurerSlug}/${stateSlug}`) },
         { label: cond.name },
       ]} />
 
@@ -225,11 +227,11 @@ export default function InsuranceStateConditionClient({ insurerSlug, stateSlug, 
             Evaluated by Dr. Parth Bhavsar, MD (NPI: 1104323203) — board-certified Family Medicine physician, not a nurse practitioner or PA.
           </p>
           <div style={{ display: "flex", flexWrap: "wrap", gap: 12 }}>
-            <a href="https://www.teledirectmd.com/book-online" target="_blank" rel="noopener"
+            <a href="https://www.teledirectmd.com/book-online/" target="_blank" rel="noopener"
               style={{ display: "inline-flex", alignItems: "center", gap: 8, padding: "14px 28px", background: B.accent, color: B.white, borderRadius: B.rs, fontWeight: 700, fontSize: 15, textDecoration: "none" }}>
               <Ico.Cal c={B.white} s={18} /> Book {cond.name} Visit with {shortName}
             </a>
-            <a href="https://www.teledirectmd.com/book-online" target="_blank" rel="noopener"
+            <a href="https://www.teledirectmd.com/book-online/" target="_blank" rel="noopener"
               style={{ display: "inline-flex", alignItems: "center", gap: 8, padding: "14px 20px", background: "rgba(255,255,255,0.1)", color: B.white, borderRadius: B.rs, fontWeight: 600, fontSize: 14, textDecoration: "none", border: "1px solid rgba(255,255,255,0.2)" }}>
               <Ico.Dollar c={B.white} s={16} /> Self-Pay $79 (No Insurance Needed)
             </a>
@@ -373,8 +375,8 @@ export default function InsuranceStateConditionClient({ insurerSlug, stateSlug, 
             Other {shortName} Conditions Covered in {stateName}
           </h2>
           <div style={{ display: "flex", flexWrap: "wrap", gap: 8 }}>
-            {Object.values(INSURANCE_CONDITIONS).filter(c => c.slug !== conditionSlug).map((c, i) => (
-              <a key={i} href={`/insurance/${insurerSlug}/${stateSlug}/${c.slug}`}
+            {Object.values(INSURANCE_CONDITIONS).filter(c => c.slug !== conditionSlug && insuranceHref(`/insurance/${insurerSlug}/${stateSlug}/${c.slug}`)).map((c, i) => (
+              <a key={i} href={insuranceHref(`/insurance/${insurerSlug}/${stateSlug}/${c.slug}`)}
                 style={{ fontSize: 13, fontWeight: 500, color: insurer.color, background: insurer.colorLight, padding: "5px 12px", borderRadius: 100, textDecoration: "none", border: `1px solid ${insurer.color}22` }}>
                 {c.name}
               </a>
@@ -400,11 +402,11 @@ export default function InsuranceStateConditionClient({ insurerSlug, stateSlug, 
 
         {/* NAV LINKS */}
         <div style={{ marginBottom: 24, display: "flex", flexWrap: "wrap", gap: 10 }}>
-          <a href={`/insurance/${insurerSlug}/${stateSlug}`} style={{ fontSize: 14, color: B.teal, textDecoration: "none" }}>← {shortName} in {stateName}</a>
+          <a href={insuranceHrefOrParent(`/insurance/${insurerSlug}/${stateSlug}`)} style={{ fontSize: 14, color: B.teal, textDecoration: "none" }}>← {shortName} in {stateName}</a>
           <span style={{ color: B.border }}>|</span>
-          <a href={`/insurance/${insurerSlug}/${conditionSlug}`} style={{ fontSize: 14, color: B.teal, textDecoration: "none" }}>{shortName} + {cond.name} (All States)</a>
+          <a href={insuranceHrefOrParent(`/insurance/${insurerSlug}/${conditionSlug}`)} style={{ fontSize: 14, color: B.teal, textDecoration: "none" }}>{shortName} + {cond.name} (All States)</a>
           <span style={{ color: B.border }}>|</span>
-          <a href={`/${cond.conditionPageSlug}`} style={{ fontSize: 14, color: B.teal, textDecoration: "none" }}>{cond.displayName} Treatment →</a>
+          <a href={`/${cond.conditionPageSlug}/`} style={{ fontSize: 14, color: B.teal, textDecoration: "none" }}>{cond.displayName} Treatment →</a>
         </div>
 
         {/* COMMISSIONER LINK */}

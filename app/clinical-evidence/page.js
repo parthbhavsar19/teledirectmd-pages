@@ -67,13 +67,13 @@ const jsonLd = {
       inLanguage: 'en-US',
       isPartOf: { '@id': 'https://teledirectmd.com/#website' },
       breadcrumb: { '@id': 'https://teledirectmd.com/clinical-evidence#breadcrumbs' },
-      author: { '@id': 'https://teledirectmd.com/about#physician' },
+      author: { '@id': 'https://teledirectmd.com/about/#physician' },
       about: { '@id': 'https://teledirectmd.com/#organization' },
       hasPart: REVIEWS.map((r) => ({
         '@type': 'ScholarlyArticle',
         headline: r.title,
         url: `https://teledirectmd.com/clinical-evidence/${r.slug}/`,
-        author: { '@id': 'https://teledirectmd.com/about#physician' },
+        author: { '@id': 'https://teledirectmd.com/about/#physician' },
         datePublished: r.published,
         dateModified: r.reviewed,
       })),
@@ -215,7 +215,7 @@ export default function ClinicalEvidenceHub() {
               trial data behind clinical recommendations.
             </p>
             <ul>
-              <li>Editor and author: <a href="/about">Parth Bhavsar, MD</a> (board-certified family medicine, NPI 1104323203)</li>
+              <li>Editor and author: <a href="/about/">Parth Bhavsar, MD</a> (board-certified family medicine, NPI 1104323203)</li>
               <li>Publisher: TeleDirectMD, a physician-led telemedicine practice licensed in Alaska and 40 additional states plus D.C.</li>
               <li>Related work: <a href="/partners/tribal-health-alaska/">Alaska Tribal Health Partnership Brief</a></li>
             </ul>

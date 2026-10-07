@@ -3,8 +3,6 @@ import {
   REVIEW_PLATFORMS,
   TOTAL_REVIEW_COUNT,
   AGGREGATE_RATING_VALUE,
-  getAggregateRating,
-  getPlatformReviews,
 } from '../../lib/review-schema';
 import { PRICE_SHORT, PHYSICIAN_NAME } from '../../lib/global-invariants';
 import reviewsData from '../../data/reviews.json';
@@ -102,19 +100,17 @@ const jsonLd = {
         `${PRICE_SHORT} flat-fee video visits across ${COVERAGE_PHRASE}`,
       inLanguage: 'en-US',
       breadcrumb: { '@id': `${SITE}/reviews#breadcrumbs` },
-      about: { '@id': `${SITE}/#physician` },
-      mainEntity: { '@id': `${SITE}/#physician` },
+      about: { '@id': `${SITE}/about/#physician` },
+      mainEntity: { '@id': `${SITE}/about/#physician` },
       isPartOf: { '@id': `${SITE}/#website` },
       lastReviewed: contentDate('reviews'),
     },
     {
       '@type': 'Physician',
-      '@id': `${SITE}/#physician`,
+      '@id': `${SITE}/about/#physician`,
       name: PHYSICIAN_NAME,
       medicalSpecialty: 'https://schema.org/FamilyPractice',
       url: `${SITE}/about/`,
-      aggregateRating: getAggregateRating(),
-      review: getPlatformReviews(),
     },
   ],
 };

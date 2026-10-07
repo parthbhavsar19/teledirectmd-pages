@@ -40,7 +40,7 @@ export default function TelehealthConsent() {
         <p>Based on the clinical evaluation during your telehealth visit, your physician may prescribe medications if medically appropriate. TeleDirectMD does not guarantee that any prescription will be issued. Controlled substances are prescribed only when clinically indicated and in compliance with federal DEA regulations and applicable state laws, including PDMP requirements.</p>
 
         <h2 style={s.h2}>Privacy and Confidentiality</h2>
-        <p>Your telehealth visit is subject to the same privacy protections as an in-person visit under HIPAA and applicable state laws. Your medical information will be documented in your electronic health record and protected in accordance with our <a href="/notice-of-privacy-practices" style={{ color: '#1a7f7f' }}>Notice of Privacy Practices</a>. We recommend you participate in your visit from a private location where others cannot overhear your conversation.</p>
+        <p>Your telehealth visit is subject to the same privacy protections as an in-person visit under HIPAA and applicable state laws. Your medical information will be documented in your electronic health record and protected in accordance with our <a href="/notice-of-privacy-practices/" style={{ color: '#1a7f7f' }}>Notice of Privacy Practices</a>. We recommend you participate in your visit from a private location where others cannot overhear your conversation.</p>
 
         <h2 style={s.h2}>Your Rights</h2>
         <ul style={{ paddingLeft: 24, marginTop: 8 }}>

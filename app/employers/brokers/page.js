@@ -79,7 +79,7 @@ const jsonLd = {
       name: 'TeleDirectMD',
       url: 'https://teledirectmd.com',
       logo: 'https://teledirectmd.com/logo.webp',
-      founder: { '@id': 'https://teledirectmd.com/#physician' },
+      founder: { '@id': 'https://teledirectmd.com/about/#physician' },
       contactPoint: {
         '@type': 'ContactPoint',
         telephone: '+1-678-956-1855',

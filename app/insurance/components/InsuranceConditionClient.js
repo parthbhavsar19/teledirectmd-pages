@@ -1,4 +1,5 @@
 'use client';
+import { insuranceHref, insuranceHrefOrParent } from '../../../lib/insurance-links';
 import { B, INSURANCE_CONDITIONS, INSURERS, STATE_NAMES, COPAY_DATA, LAST_REVIEWED } from '../../../data/insurance/insuranceConfig';
 import { FAQ, BookCTA, HowItWorksSteps, TrustBar, Breadcrumb, InsuranceDisclaimer, AnswerBlock, PatientJourney, InsurerTrustDetails } from './InsuranceShared';
 import { CompareToOtherTelehealthGrid, Or49CashLink } from '../../components/CostCompareModules';
@@ -129,8 +130,8 @@ export default function InsuranceConditionClient({ insurerSlug, conditionSlug })
 
       <Breadcrumb items={[
         { label: "Home", href: "/" },
-        { label: "Insurance", href: "/insurance" },
-        { label: insurer.name, href: `/insurance/${insurerSlug}` },
+        { label: "Insurance", href: "/insurance/" },
+        { label: insurer.name, href: insuranceHrefOrParent(`/insurance/${insurerSlug}`) },
         { label: cond.name },
       ]} />
 
@@ -154,11 +155,11 @@ export default function InsuranceConditionClient({ insurerSlug, conditionSlug })
             Dr. Parth Bhavsar, MD (NPI: 1104323203) — board-certified Family Medicine. Not a nurse practitioner or PA.
           </p>
           <div style={{ display: "flex", flexWrap: "wrap", gap: 12 }}>
-            <a href="https://www.teledirectmd.com/book-online" target="_blank" rel="noopener"
+            <a href="https://www.teledirectmd.com/book-online/" target="_blank" rel="noopener"
               style={{ display: "inline-flex", alignItems: "center", gap: 8, padding: "14px 28px", background: B.accent, color: B.white, borderRadius: B.rs, fontWeight: 700, fontSize: 15, textDecoration: "none" }}>
               <Ico.Cal c={B.white} s={18} /> Book {cond.name} Visit with {shortName}
             </a>
-            <a href="https://www.teledirectmd.com/book-online" target="_blank" rel="noopener"
+            <a href="https://www.teledirectmd.com/book-online/" target="_blank" rel="noopener"
               style={{ display: "inline-flex", alignItems: "center", gap: 8, padding: "14px 20px", background: "rgba(255,255,255,0.1)", color: B.white, borderRadius: B.rs, fontWeight: 600, fontSize: 14, textDecoration: "none", border: "1px solid rgba(255,255,255,0.2)" }}>
               <Ico.Dollar c={B.white} s={16} /> Self-Pay $79 — No Insurance Needed
             </a>
@@ -232,8 +233,8 @@ export default function InsuranceConditionClient({ insurerSlug, conditionSlug })
             Select your state to see state-specific copay estimates, the exact {shortName} affiliate in your state, and book your visit.
           </p>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(220px, 1fr))", gap: 10 }}>
-            {insurerStates.map((state, i) => (
-              <a key={i} href={`/insurance/${insurerSlug}/${state.slug}/${conditionSlug}`}
+            {insurerStates.filter((state) => insuranceHref(`/insurance/${insurerSlug}/${state.slug}/${conditionSlug}`)).map((state, i) => (
+              <a key={i} href={insuranceHref(`/insurance/${insurerSlug}/${state.slug}/${conditionSlug}`)}
                 style={{ display: "flex", flexDirection: "column", gap: 4, background: B.white, border: `1px solid ${B.border}`, borderRadius: B.rs, padding: "14px 16px", textDecoration: "none", boxShadow: B.shadow }}>
                 <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
                   <Ico.Check c={insurer.color} s={14} />
@@ -274,9 +275,9 @@ export default function InsuranceConditionClient({ insurerSlug, conditionSlug })
         </section>
 
         <div style={{ marginBottom: 24, display: "flex", flexWrap: "wrap", gap: 10 }}>
-          <a href={`/insurance/${insurerSlug}`} style={{ fontSize: 14, color: B.teal, textDecoration: "none" }}>← All {shortName} Coverage</a>
+          <a href={insuranceHrefOrParent(`/insurance/${insurerSlug}`)} style={{ fontSize: 14, color: B.teal, textDecoration: "none" }}>← All {shortName} Coverage</a>
           <span style={{ color: B.border }}>|</span>
-          <a href={`/${cond.conditionPageSlug}`} style={{ fontSize: 14, color: B.teal, textDecoration: "none" }}>{cond.displayName} Treatment →</a>
+          <a href={`/${cond.conditionPageSlug}/`} style={{ fontSize: 14, color: B.teal, textDecoration: "none" }}>{cond.displayName} Treatment →</a>
         </div>
 
         {/* Cost-page link + compare-grid (PR 3 of cost-and-compare sprint) */}

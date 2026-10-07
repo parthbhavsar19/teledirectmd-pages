@@ -25,6 +25,7 @@
  *   • NPI 1104323203 visible
  *   • All .gov and clinical society citations are live <a href> tags
  */
+import { stateConditionHref } from '../../../lib/live-routes';
 import FaqAccordion from '../../components/FaqAccordion';
 
 const PAGE_URL = 'https://teledirectmd.com/vt/seasonal-allergies-treatment-online/';
@@ -138,7 +139,7 @@ function buildSchemas() {
     },
     reviewedBy: {
       '@type': 'Physician',
-      '@id': 'https://teledirectmd.com/about/#physician-parth-bhavsar',
+      '@id': 'https://teledirectmd.com/about/#physician',
       name: PHYSICIAN.name,
       identifier: { '@type': 'PropertyValue', propertyID: 'NPI', value: PHYSICIAN.npi },
       medicalSpecialty: PHYSICIAN.specialty,
@@ -288,9 +289,9 @@ export default function VtSeasonalAllergiesTreatmentOnline() {
                 </ul>
 
                 <div className="tdmd-hero-ctas">
-                  <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
+                  <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
                   <a href="/vt/" className="tdmd-btn tdmd-btn-outline">Explore Vermont Pages</a>
-                  <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
+                  <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
                 </div>
 
                 <p className="tdmd-icd"><strong>ICD-10 commonly used:</strong> J30.1 (Allergic rhinitis due to pollen), J30.9 (Allergic rhinitis, unspecified) — final coding per clinical details</p>
@@ -532,7 +533,7 @@ export default function VtSeasonalAllergiesTreatmentOnline() {
                 <p>Book a same-day video visit — Vermont adults, 18+</p>
                 <small>Cash-pay $79 flat · No insurance billing in Vermont · Seasonal Allergies Treatment</small>
               </div>
-              <a className="tdmd-vt-uti__cta-btn" href="/book-online" rel="noopener">Book Now →</a>
+              <a className="tdmd-vt-uti__cta-btn" href="/book-online/" rel="noopener">Book Now →</a>
             </div>
           </div>
         </section>
@@ -551,8 +552,8 @@ export default function VtSeasonalAllergiesTreatmentOnline() {
                 <p>Book a same-day video visit. Cash-pay $79 flat. No insurance billing in Vermont.</p>
               </div>
               <div className="tdmd-bottom-cta-actions">
-                <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
-                <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
+                <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
+                <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
               </div>
             </div>
           </div>
@@ -565,7 +566,7 @@ export default function VtSeasonalAllergiesTreatmentOnline() {
             <p>These Vermont condition pages address related or frequently co-occurring conditions treated by TeleDirectMD in Vermont.</p>
             <div className="tdmd-vt-uti__sibling-grid">
               {VT_SIBLINGS.map((s) => (
-                <a key={s.slug} className="tdmd-vt-uti__sibling" href={`/vt/${s.slug}/`}>
+                <a key={s.slug} className="tdmd-vt-uti__sibling" href={stateConditionHref('vt', s.slug) || `/${s.slug}/`}>
                   <span className="tdmd-vt-uti__sibling-label">{s.label}</span>
                   <span className="tdmd-vt-uti__sibling-why">{s.why}</span>
                 </a>
@@ -583,25 +584,25 @@ export default function VtSeasonalAllergiesTreatmentOnline() {
               <a href="/">Home</a>
               <a href="/vt/">Vermont (state pillar)</a>
               <a href="/seasonal-allergies-treatment-online/">Seasonal Allergies Treatment (national)</a>
-              <a href="/vt/asthma-refills-online/">Asthma Refills in VT</a>
+              <a href="/asthma-refills-online/">Asthma Refills in VT</a>
               <a href="/vt/hypertension-refills-online/">Hypertension Refills in VT</a>
               <a href="/vt/hypothyroidism-refills-online/">Hypothyroidism Refills in VT</a>
               <a href="/vt/hyperlipidemia-refills-online/">Hyperlipidemia Refills in VT</a>
-              <a href="/vt/diabetes-refills-online/">Diabetes Refills in VT</a>
-              <a href="/vt/migraine-refills-online/">Migraine Refills in VT</a>
-              <a href="/vt/acid-reflux-refills-online/">Acid Reflux Refills in VT</a>
-              <a href="/vt/epipen-refills-online/">EpiPen Refills in VT</a>
-              <a href="/vt/hair-loss-treatment-online/">Hair Loss in VT</a>
+              <a href="/diabetes-refills-online/">Diabetes Refills in VT</a>
+              <a href="/migraine-refills-online/">Migraine Refills in VT</a>
+              <a href="/acid-reflux-refills-online/">Acid Reflux Refills in VT</a>
+              <a href="/epipen-refills-online/">EpiPen Refills in VT</a>
+              <a href="/hair-loss-treatment-online/">Hair Loss in VT</a>
               <a href="/vt/seasonal-allergies-treatment-online/">Seasonal Allergies in VT</a>
-              <a href="/vt/anti-aging-treatment-online/">Anti-Aging in VT</a>
-              <a href="/vt/eyelash-growth-treatment-online/">Eyelash Growth in VT</a>
-              <a href="/vt/smoking-cessation-treatment-online/">Smoking Cessation in VT</a>
-              <a href="/vt/motion-sickness-treatment-online/">Motion Sickness in VT</a>
+              <a href="/anti-aging-treatment-online/">Anti-Aging in VT</a>
+              <a href="/eyelash-growth-treatment-online/">Eyelash Growth in VT</a>
+              <a href="/smoking-cessation-treatment-online/">Smoking Cessation in VT</a>
+              <a href="/motion-sickness-treatment-online/">Motion Sickness in VT</a>
               <a href="/vt/uti-treatment-online/">UTI Treatment for Women in VT</a>
               <a href="/about/">About Dr. Bhavsar</a>
-              <a href="/book-online">Book Online</a>
-              <a href="/what-we-treat">What We Treat</a>
-              <a href="/faq">FAQ</a>
+              <a href="/book-online/">Book Online</a>
+              <a href="/what-we-treat/">What We Treat</a>
+              <a href="/faq/">FAQ</a>
             </div>
           </div>
         </section>

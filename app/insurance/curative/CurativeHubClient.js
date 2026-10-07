@@ -1,4 +1,6 @@
 'use client';
+import { contentDate } from '../../../lib/content-dates';
+import { insuranceHref } from '../../../lib/insurance-links';
 import { B, INSURERS, CURATIVE_STATES, getCurativeStateCodes, CURATIVE_PLANS } from '../../../data/insurance/insuranceConfig';
 import { FAQ, BookCTA, HowItWorksSteps, Breadcrumb, InsuranceDisclaimer, AnswerBlock } from '../components/InsuranceShared';
 import { Ico } from '../components/InsuranceIcons';
@@ -39,7 +41,7 @@ const CURATIVE_FAQS = [
   },
   {
     q: 'Which states have live Curative coverage with TeleDirectMD?',
-    a: 'Nine states have live pages today: California, the District of Columbia, Florida, Georgia, Indiana, Louisiana, Maryland, Ohio, and Texas. Those are the jurisdictions with a state regulatory addendum attached to the Curative provider agreement. Georgia was the first state activated, where members reach the network through Curative’s Cigna Healthcare PPO wrap arrangement and credentialing was confirmed active on July 24, 2026.',
+    a: 'Curative coverage is live today in nine states: California, the District of Columbia, Florida, Georgia, Indiana, Louisiana, Maryland, Ohio, and Texas. Those are the jurisdictions with a state regulatory addendum attached to the Curative provider agreement. Georgia was the first state activated, where members reach the network through Curative’s Cigna Healthcare PPO wrap arrangement and credentialing was confirmed active on July 24, 2026.',
   },
   {
     q: 'Can I use my Curative plan for virtual urgent care?',
@@ -51,7 +53,7 @@ const CURATIVE_FAQS = [
   },
   {
     q: 'What if I have Curative but live outside the nine live states?',
-    a: 'The Curative agreement is national, but live state pages exist today for California, the District of Columbia, Florida, Georgia, Indiana, Louisiana, Maryland, Ohio, and Texas. More states are activated as coverage is confirmed, and this page is updated when that happens. In the meantime, the $79 flat self-pay visit is available in every state where TeleDirectMD is licensed.',
+    a: 'The Curative agreement is national, but coverage is live today in California, the District of Columbia, Florida, Georgia, Indiana, Louisiana, Maryland, Ohio, and Texas. More states are activated as coverage is confirmed, and this page is updated when that happens. In the meantime, the $79 flat self-pay visit is available in every state where TeleDirectMD is licensed.',
   },
 ];
 
@@ -86,7 +88,7 @@ const SCHEMA = {
     },
     {
       '@type': 'Physician',
-      '@id': 'https://teledirectmd.com/#physician',
+      '@id': 'https://teledirectmd.com/about/#physician',
       'name': 'Parth Bhavsar, MD',
       'identifier': [{ '@type': 'PropertyValue', 'name': 'NPI', 'value': '1104323203' }],
       'medicalSpecialty': 'Family Medicine',
@@ -146,14 +148,14 @@ export default function CurativeHubClient() {
   });
   // emitAs QAPage so this page carries exactly one FAQPage node (the main graph above).
   citableSummary.emitAs = 'QAPage';
-  const citableJsonLd = citableSummaryToJsonLd(citableSummary, { pageUrl: PAGE_URL });
+  const citableJsonLd = citableSummaryToJsonLd(citableSummary, { pageUrl: PAGE_URL, dateModified: contentDate('insurance') });
 
   return (
     <div style={{ fontFamily: B.fb, background: B.bg, color: B.navy }}>
       <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400&family=DM+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(SCHEMA) }} />
       <CitableSummaryBlock summary={citableSummary} jsonLd={citableJsonLd} idSuffix="curative-hub" />
-      <Breadcrumb items={[{ label: 'Home', href: '/' }, { label: 'Insurance', href: '/insurance' }, { label: 'Curative' }]} />
+      <Breadcrumb items={[{ label: 'Home', href: '/' }, { label: 'Insurance', href: '/insurance/' }, { label: 'Curative' }]} />
 
       {/* HERO */}
       <div style={{ background: `linear-gradient(165deg, ${B.navyDarker} 0%, ${B.navy} 40%, ${B.navyDeep} 100%)`, padding: '56px 24px 64px', position: 'relative', overflow: 'hidden', marginTop: 16 }}>
@@ -170,7 +172,7 @@ export default function CurativeHubClient() {
             TeleDirectMD is in-network with Curative Commercial PPO, EPO, and self-funded plans, effective July 7, 2026, for members in 9 states including Texas, California, and Florida. See Parth Bhavsar, MD by secure video, usually the same day.
           </p>
           <div style={{ display: 'flex', flexWrap: 'wrap', gap: 12 }}>
-            <a href="https://www.teledirectmd.com/book-online" target="_blank" rel="noopener"
+            <a href="https://www.teledirectmd.com/book-online/" target="_blank" rel="noopener"
               style={{ display: 'inline-flex', alignItems: 'center', gap: 8, padding: '14px 28px', background: B.accent, color: B.white, borderRadius: B.rs, fontWeight: 700, fontSize: 15, textDecoration: 'none' }}>
               <Ico.Cal c={B.white} s={18} /> Book with Curative
             </a>
@@ -241,16 +243,22 @@ export default function CurativeHubClient() {
         <section style={{ marginBottom: 48 }}>
           <h2 style={{ fontFamily: B.fd, fontSize: 26, fontWeight: 700, color: B.navy, margin: '0 0 8px' }}>Where Curative coverage is live</h2>
           <p style={{ fontSize: 15, color: B.text, margin: '0 0 20px', lineHeight: 1.6 }}>
-            The Curative contract is national. Live pages cover the nine jurisdictions with a state regulatory addendum to the agreement, and more states are activated as coverage is confirmed.
+            The Curative contract is national. Coverage is live in the nine jurisdictions with a state regulatory addendum to the agreement, and more states are activated as coverage is confirmed.
           </p>
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(240px, 1fr))', gap: 12 }}>
-            {LIVE_STATES.map((s) => (
-              <a key={s.slug} href={`/insurance/curative/${s.slug}/`}
+            {LIVE_STATES.map((s) => {
+              // Coverage is live in every listed state; some state pages were
+              // retired (410) as zero-traffic, so link only where a page exists.
+              const href = insuranceHref(`/insurance/curative/${s.slug}/`);
+              const Tag = href ? 'a' : 'div';
+              return (
+              <Tag key={s.slug} href={href || undefined}
                 style={{ display: 'block', background: B.white, border: `1px solid ${cColor}22`, borderLeft: `3px solid ${cColor}`, borderRadius: B.r, padding: '16px 18px', textDecoration: 'none' }}>
                 <div style={{ fontFamily: B.fd, fontSize: 17, fontWeight: 700, color: B.navy, marginBottom: 4 }}>{s.name}</div>
                 <div style={{ fontSize: 13, color: B.text }}>In-network since {s.effectiveDate}</div>
-              </a>
-            ))}
+              </Tag>
+              );
+            })}
           </div>
         </section>
 

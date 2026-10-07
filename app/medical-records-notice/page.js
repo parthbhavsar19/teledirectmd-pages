@@ -30,7 +30,7 @@ export default function MedicalRecordsNotice() {
         <p>We may charge a reasonable, cost-based fee for providing copies of your medical records, as permitted by applicable state and federal law. Electronic copies transmitted via secure means may be provided at reduced cost or no charge.</p>
 
         <h2 style={s.h2}>Transferring Your Records</h2>
-        <p>You may authorize us to send your medical records to another health care provider, insurance company, or other third party. We require a signed authorization form before releasing your records to any third party, except where disclosure is required or permitted by law (see our <a href="/notice-of-privacy-practices" style={{ color: '#1a7f7f' }}>Notice of Privacy Practices</a> for details).</p>
+        <p>You may authorize us to send your medical records to another health care provider, insurance company, or other third party. We require a signed authorization form before releasing your records to any third party, except where disclosure is required or permitted by law (see our <a href="/notice-of-privacy-practices/" style={{ color: '#1a7f7f' }}>Notice of Privacy Practices</a> for details).</p>
 
         <h2 style={s.h2}>Record Retention</h2>
         <p>TeleDirectMD retains medical records in accordance with applicable state and federal retention requirements. In general, adult medical records are retained for a minimum of seven (7) years from the date of the last visit, or longer if required by the laws of your state.</p>

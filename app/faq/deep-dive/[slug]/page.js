@@ -125,7 +125,7 @@ export default async function FAQDeepDivePage({ params }) {
         <nav aria-label="Breadcrumb" style={{ fontSize: '14px', color: '#6b7280', padding: '16px 0', borderBottom: '1px solid #e5e7eb' }}>
           <a href="/" style={{ color: '#0d9488' }}>Home</a>
           <span style={{ margin: '0 8px' }}>/</span>
-          <a href="/faq" style={{ color: '#0d9488' }}>FAQ</a>
+          <a href="/faq/" style={{ color: '#0d9488' }}>FAQ</a>
           <span style={{ margin: '0 8px' }}>/</span>
           <span>{page.medication} Online in {state.name}</span>
         </nav>
@@ -141,8 +141,8 @@ export default async function FAQDeepDivePage({ params }) {
             TeleDirectMD offers live, physician-led video visits for non-pregnant adult women located in {state.name} who are {page.evalContext} {medDisplay}. Every visit is a synchronous encounter with a board-certified MD who evaluates your condition, screens for contraindications, and discusses whether {medDisplay} or other treatments may be appropriate for you. {pricingBlurb}
           </p>
           <div style={{ display: 'flex', gap: '12px', marginTop: '20px', flexWrap: 'wrap' }}>
-            <a href="/book-online" style={{ display: 'inline-block', background: '#0d9488', color: '#fff', padding: '12px 28px', borderRadius: '8px', fontWeight: 600, fontSize: '0.95rem', textDecoration: 'none' }}>Book a Visit</a>
-            <a href={`/${page.stateSlug}/${page.conditionSlug}`} style={{ display: 'inline-block', background: '#fff', color: '#0d9488', border: '2px solid #0d9488', padding: '10px 24px', borderRadius: '8px', fontWeight: 600, fontSize: '0.95rem', textDecoration: 'none' }}>{page.condition} in {state.name}</a>
+            <a href="/book-online/" style={{ display: 'inline-block', background: '#0d9488', color: '#fff', padding: '12px 28px', borderRadius: '8px', fontWeight: 600, fontSize: '0.95rem', textDecoration: 'none' }}>Book a Visit</a>
+            <a href={`/${page.stateSlug}/${page.conditionSlug}/`} style={{ display: 'inline-block', background: '#fff', color: '#0d9488', border: '2px solid #0d9488', padding: '10px 24px', borderRadius: '8px', fontWeight: 600, fontSize: '0.95rem', textDecoration: 'none' }}>{page.condition} in {state.name}</a>
           </div>
         </section>
 
@@ -191,9 +191,9 @@ export default async function FAQDeepDivePage({ params }) {
         <section style={{ padding: '24px 0', borderTop: '1px solid #e5e7eb' }}>
           <h2 style={{ fontSize: '1.2rem', fontWeight: 700, color: '#111827', marginBottom: '12px' }}>Related Pages</h2>
           <ul style={{ listStyle: 'none', padding: 0, display: 'grid', gap: '8px' }}>
-            <li><a href={`/${page.stateSlug}/${page.conditionSlug}`} style={{ color: '#0d9488', fontWeight: 500 }}>{page.condition} Treatment Online in {state.name}</a></li>
-            <li><a href={`/${page.stateSlug}`} style={{ color: '#0d9488', fontWeight: 500 }}>TeleDirectMD in {state.name}</a></li>
-            <li><a href={`/${page.conditionSlug}`} style={{ color: '#0d9488', fontWeight: 500 }}>{page.condition} Treatment Online (National)</a></li>
+            <li><a href={`/${page.stateSlug}/${page.conditionSlug}/`} style={{ color: '#0d9488', fontWeight: 500 }}>{page.condition} Treatment Online in {state.name}</a></li>
+            <li><a href={`/${page.stateSlug}/`} style={{ color: '#0d9488', fontWeight: 500 }}>TeleDirectMD in {state.name}</a></li>
+            <li><a href={`/${page.conditionSlug}/`} style={{ color: '#0d9488', fontWeight: 500 }}>{page.condition} Treatment Online (National)</a></li>
           </ul>
         </section>
 

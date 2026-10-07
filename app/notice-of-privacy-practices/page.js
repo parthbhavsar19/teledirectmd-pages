@@ -71,7 +71,7 @@ export default function NoticeOfPrivacyPractices() {
         <p><strong>Your responsibility.</strong> When participating in a telehealth visit, we recommend you join from a private location where others cannot overhear your conversation, and connect over a secure internet connection. We cannot guarantee the security of information on your end of the communication.</p>
 
         <h2 style={s.h2}>Changes to This Notice</h2>
-        <p>We reserve the right to change the terms of this Notice at any time. Any revised Notice will apply to PHI we already have about you as well as any PHI we receive in the future. The revised Notice will be posted on our website at <a href="/notice-of-privacy-practices" style={{ color: '#1a7f7f' }}>teledirectmd.com/notice-of-privacy-practices</a> with a new effective date. We will make the revised Notice available to you upon request.</p>
+        <p>We reserve the right to change the terms of this Notice at any time. Any revised Notice will apply to PHI we already have about you as well as any PHI we receive in the future. The revised Notice will be posted on our website at <a href="/notice-of-privacy-practices/" style={{ color: '#1a7f7f' }}>teledirectmd.com/notice-of-privacy-practices</a> with a new effective date. We will make the revised Notice available to you upon request.</p>
 
         <h2 style={s.h2}>Complaints</h2>
         <p>If you believe your privacy rights have been violated, you may file a complaint with TeleDirectMD or with the U.S. Department of Health and Human Services, Office for Civil Rights. You will not be retaliated against for filing a complaint.</p>

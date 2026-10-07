@@ -153,7 +153,7 @@ const jsonLd = {
       inLanguage: 'en-US',
       breadcrumb: { '@id': `${BASE_URL}/compare#breadcrumbs` },
       publisher: { '@id': `${BASE_URL}/#organization` },
-      reviewedBy: { '@id': `${BASE_URL}/#physician` },
+      reviewedBy: { '@id': `${BASE_URL}/about/#physician` },
       lastReviewed: '2026-05-23',
       hasPart: COMPETITOR_CATALOG.map((c) => ({
         '@type': 'WebPage',
@@ -179,7 +179,7 @@ const jsonLd = {
     },
     {
       '@type': 'Physician',
-      '@id': `${BASE_URL}/#physician`,
+      '@id': `${BASE_URL}/about/#physician`,
       name: 'Parth Bhavsar, MD',
       url: `${BASE_URL}/about`,
       identifier: { '@type': 'PropertyValue', name: 'NPI', value: '1104323203' },
@@ -300,12 +300,12 @@ export default function CompareHubPage() {
             <span className="cmp-badge">Verified Pricing</span>
           </div>
           <div className="cmp-ctas">
-            <a href="/book-online" className="cmp-btn cmp-btn-primary">Book a $79 Visit</a>
-            <a href="/cost" className="cmp-btn cmp-btn-outline">Cost Guides</a>
+            <a href="/book-online/" className="cmp-btn cmp-btn-primary">Book a $79 Visit</a>
+            <a href="/cost/" className="cmp-btn cmp-btn-outline">Cost Guides</a>
           </div>
           <p className="cmp-reviewed">
             Medically reviewed by{' '}
-            <a href="/about">Parth Bhavsar, MD</a>
+            <a href="/about/">Parth Bhavsar, MD</a>
             {' '}(NPI&nbsp;1104323203) &mdash; Last reviewed: May 23, 2026
           </p>
         </div>
@@ -323,7 +323,7 @@ export default function CompareHubPage() {
           </p>
           <div className="cmp-grid">
             {COMPETITOR_CATALOG.map((c) => (
-              <a key={c.slug} href={`/compare/${c.slug}`} className="cmp-card">
+              <a key={c.slug} href={`/compare/${c.slug}/`} className="cmp-card">
                 <p className="cmp-card-title">{c.name}</p>
                 <p className="cmp-card-desc">{c.desc}</p>
                 <div className="cmp-card-wins">
@@ -536,7 +536,7 @@ export default function CompareHubPage() {
             The key question is not which platform accepts more insurers, but which produces the lower copay for <em>your specific plan</em>.
             A TeleDirectMD in-network visit under your Aetna PPO may have a $20 copay; the same visit at Teladoc might have a $40 copay
             depending on your specific benefit tier. Check your plan&apos;s Explanation of Benefits (EOB) or call the member services number
-            on your card before booking. TeleDirectMD&apos;s <a href="/insurance">insurance page</a> lists current accepted plans by state.
+            on your card before booking. TeleDirectMD&apos;s <a href="/insurance/">insurance page</a> lists current accepted plans by state.
           </p>
           <p className="cmp-p">
             Patients without in-network coverage can always book self-pay at TeleDirectMD for $79 and submit an out-of-network
@@ -581,13 +581,13 @@ export default function CompareHubPage() {
         <section className="cmp-section" aria-labelledby="related-heading">
           <h2 id="related-heading" className="cmp-h2">Related Resources</h2>
           <div className="cmp-link-cloud">
-            <a href="/cost">Cost Guides by Condition</a>
-            <a href="/insurance">Insurance &amp; Pricing</a>
-            <a href="/symptoms">Symptoms Directory</a>
-            <a href="/faq">FAQ</a>
-            <a href="/about">About Dr. Bhavsar, MD</a>
-            <a href="/states-we-serve">States We Serve</a>
-            <a href="/what-we-treat">All Conditions</a>
+            <a href="/cost/">Cost Guides by Condition</a>
+            <a href="/insurance/">Insurance &amp; Pricing</a>
+            <a href="/symptoms/">Symptoms Directory</a>
+            <a href="/faq/">FAQ</a>
+            <a href="/about/">About Dr. Bhavsar, MD</a>
+            <a href="/states-we-serve/">States We Serve</a>
+            <a href="/what-we-treat/">All Conditions</a>
           </div>
         </section>
 
@@ -598,8 +598,8 @@ export default function CompareHubPage() {
             <p>No membership, no hidden fees. Aetna, BCBS, and UHC also accepted in select states. HSA/FSA welcome.</p>
           </div>
           <div className="cmp-cta-bar-actions">
-            <a href="/book-online" className="cmp-btn cmp-btn-primary">Book Online Now</a>
-            <a href="/faq" className="cmp-btn cmp-btn-outline">FAQs</a>
+            <a href="/book-online/" className="cmp-btn cmp-btn-primary">Book Online Now</a>
+            <a href="/faq/" className="cmp-btn cmp-btn-outline">FAQs</a>
           </div>
         </div>
 

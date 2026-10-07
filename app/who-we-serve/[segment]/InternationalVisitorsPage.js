@@ -252,7 +252,7 @@ export default function InternationalVisitorsPage() {
   const conditions = [
     { name: 'UTI (women only)', slug: 'uti-treatment-online', desc: 'Antibiotic prescription sent to any US pharmacy — no urgent care visit needed.' },
     { name: 'Sinus Infection', slug: 'sinus-infection-treatment-online', desc: 'Evaluation and treatment for sinus pressure, congestion, and facial pain.' },
-    { name: 'Strep Throat', slug: 'strep-throat-treatment-online', desc: 'Antibiotic treatment for strep throat without waiting for an in-person appointment.' },
+    { name: 'Strep Throat', slug: 'sore-throat-treatment-online', desc: 'Antibiotic treatment for strep throat without waiting for an in-person appointment.' },
     { name: 'Respiratory Infections / Bronchitis', slug: 'common-cold-treatment-online', desc: 'Cold, flu, and bronchitis evaluation and treatment.' },
     { name: 'Pink Eye (Conjunctivitis)', slug: 'pink-eye-treatment-online', desc: 'Eye drop prescriptions sent to the nearest pharmacy.' },
     { name: 'Skin Infections / Rashes', slug: 'skin-infection-treatment-online', desc: 'Evaluation of rashes, cellulitis, and minor skin infections via video.' },
@@ -390,7 +390,7 @@ export default function InternationalVisitorsPage() {
       },
       {
         "@type": "Physician",
-        "@id": `${baseUrl}/about#physician`,
+        "@id": `${baseUrl}/about/#physician`,
         "name": "Parth Bhavsar, MD",
         "medicalSpecialty": "FamilyMedicine",
         "alumniOf": { "@type": "EducationalOrganization", "name": "University of Mississippi Medical Center" },
@@ -437,7 +437,7 @@ export default function InternationalVisitorsPage() {
         <div className="tdmd-container">
           <a href="/">Home</a>
           <span className="tdmd-bc-sep" aria-hidden="true">/</span>
-          <a href="/who-we-serve">Who We Serve</a>
+          <a href="/who-we-serve/">Who We Serve</a>
           <span className="tdmd-bc-sep" aria-hidden="true">/</span>
           <span aria-current="page">International Visitors &amp; Tourists</span>
         </div>
@@ -517,8 +517,8 @@ export default function InternationalVisitorsPage() {
               </ul>
 
               <div className="tdmd-hero-ctas">
-                <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
-                <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">See What We Treat</a>
+                <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
+                <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">See What We Treat</a>
               </div>
 
               <p className="tdmd-reviewed">Last reviewed on {reviewedDate} by Parth Bhavsar, MD — Board-Certified Family Medicine</p>
@@ -618,7 +618,7 @@ export default function InternationalVisitorsPage() {
                 <h3>Receive Your Prescription</h3>
                 <p>If medication is needed, Dr. Bhavsar sends it electronically to your preferred US pharmacy before the visit ends. Most visits take 10–15 minutes.</p>
                 <div className="tdmd-decision-cta">
-                  <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book Your Visit Now</a>
+                  <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book Your Visit Now</a>
                 </div>
               </div>
             </div>
@@ -756,7 +756,7 @@ export default function InternationalVisitorsPage() {
                 <h3>Ready to book?</h3>
                 <p>Same-day appointments available. $79 flat fee. Board-certified MD. Prescriptions sent to any US pharmacy.</p>
                 <div className="tdmd-decision-cta">
-                  <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
+                  <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
                 </div>
               </div>
             </div>
@@ -1156,8 +1156,8 @@ export default function InternationalVisitorsPage() {
               <p>Same-day appointments. $79 flat fee. Board-certified MD. No US insurance required.</p>
             </div>
             <div className="tdmd-bottom-cta-actions">
-              <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
-              <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">See What We Treat</a>
+              <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
+              <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">See What We Treat</a>
             </div>
           </div>
         </div>
@@ -1220,7 +1220,7 @@ export default function InternationalVisitorsPage() {
           </p>
           <div className="tdmd-other-states-grid">
             {allStates.map(s => (
-              <a key={s.abbr} href={`/${s.abbr.toLowerCase()}`} className="tdmd-other-state-link">
+              <a key={s.abbr} href={`/${s.abbr.toLowerCase()}/`} className="tdmd-other-state-link">
                 {s.name}
               </a>
             ))}
@@ -1233,27 +1233,27 @@ export default function InternationalVisitorsPage() {
         <div className="tdmd-container">
           <h2>Who Else We Serve</h2>
           <div className="tdmd-related-grid">
-            <a href="/who-we-serve/college-students" className="tdmd-related-card">
+            <a href="/who-we-serve/college-students/" className="tdmd-related-card">
               <div className="tdmd-related-title">College Students</div>
               <div className="tdmd-related-desc">Away at school and need a doctor? Same-day visits, 40+ states + D.C.</div>
             </a>
-            <a href="/who-we-serve/early-retirees" className="tdmd-related-card">
+            <a href="/who-we-serve/early-retirees/" className="tdmd-related-card">
               <div className="tdmd-related-title">Early Retirees</div>
               <div className="tdmd-related-desc">Retired before 65? Bridge the gap with $79 visits.</div>
             </a>
-            <a href="/who-we-serve/uninsured-affordable-care" className="tdmd-related-card">
+            <a href="/who-we-serve/uninsured-affordable-care/" className="tdmd-related-card">
               <div className="tdmd-related-title">Uninsured Adults</div>
               <div className="tdmd-related-desc">No insurance? Transparent cash-pay care.</div>
             </a>
-            <a href="/who-we-serve/gig-workers" className="tdmd-related-card">
+            <a href="/who-we-serve/gig-workers/" className="tdmd-related-card">
               <div className="tdmd-related-title">Gig Workers</div>
               <div className="tdmd-related-desc">Flexible care for independent workers.</div>
             </a>
-            <a href="/who-we-serve/remote-workers" className="tdmd-related-card">
+            <a href="/who-we-serve/remote-workers/" className="tdmd-related-card">
               <div className="tdmd-related-title">Remote Workers</div>
               <div className="tdmd-related-desc">Healthcare that follows you anywhere.</div>
             </a>
-            <a href="/who-we-serve/truck-drivers" className="tdmd-related-card">
+            <a href="/who-we-serve/truck-drivers/" className="tdmd-related-card">
               <div className="tdmd-related-title">Truck Drivers</div>
               <div className="tdmd-related-desc">Care from any truck stop in 40+ states + D.C.</div>
             </a>
@@ -1262,15 +1262,15 @@ export default function InternationalVisitorsPage() {
           <div className="tdmd-inline-links">
             <h3>More from TeleDirectMD</h3>
             <p className="tdmd-link-cloud">
-              <a href="/insurance">Insurance &amp; Pricing</a>
+              <a href="/insurance/">Insurance &amp; Pricing</a>
               {' · '}
-              <a href="/states-we-serve">States We Serve</a>
+              <a href="/states-we-serve/">States We Serve</a>
               {' · '}
-              <a href="/what-we-treat">What We Treat</a>
+              <a href="/what-we-treat/">What We Treat</a>
               {' · '}
-              <a href="/faq">FAQ</a>
+              <a href="/faq/">FAQ</a>
               {' · '}
-              <a href="/book-online">Book a Visit</a>
+              <a href="/book-online/">Book a Visit</a>
             </p>
           </div>
         </div>

@@ -1,4 +1,5 @@
 'use client';
+import { contentDate } from '../../../../lib/content-dates';
 import { B, INSURERS, COPAY_DATA, STATE_PLAN_DETAILS } from '../../../../data/insurance/insuranceConfig';
 import { FAQ, BookCTA, HowItWorksSteps, Breadcrumb, InsuranceDisclaimer, AnswerBlock, CopayCard, CommissionerLink } from '../../components/InsuranceShared';
 import { Ico } from '../../components/InsuranceIcons';
@@ -333,7 +334,7 @@ export default function CurativeStateClient({ state }) {
     emitAs: 'QAPage',
   };
   citableSummary.answerText = citableSummary.answerHtml.replace(/<[^>]+>/g, '');
-  const citableJsonLd = citableSummaryToJsonLd(citableSummary, { pageUrl });
+  const citableJsonLd = citableSummaryToJsonLd(citableSummary, { pageUrl, dateModified: contentDate('insurance') });
 
   const faqs = copy?.faqs || [];
 
@@ -403,7 +404,7 @@ export default function CurativeStateClient({ state }) {
       <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400&family=DM+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
       <CitableSummaryBlock summary={citableSummary} jsonLd={citableJsonLd} idSuffix={`curative-${state.slug}`} />
-      <Breadcrumb items={[{ label: 'Home', href: '/' }, { label: 'Insurance', href: '/insurance' }, { label: 'Curative', href: '/insurance/curative/' }, { label: state.name }]} />
+      <Breadcrumb items={[{ label: 'Home', href: '/' }, { label: 'Insurance', href: '/insurance/' }, { label: 'Curative', href: '/insurance/curative/' }, { label: state.name }]} />
 
       {/* HERO */}
       <div style={{ background: `linear-gradient(165deg, ${B.navyDarker} 0%, ${B.navy} 40%, ${B.navyDeep} 100%)`, padding: '56px 24px 64px', position: 'relative', overflow: 'hidden', marginTop: 16 }}>
@@ -419,7 +420,7 @@ export default function CurativeStateClient({ state }) {
             Same-day video visits with Parth Bhavsar, MD, licensed in {state.name}, in-network with Curative Commercial PPO, EPO, and self-funded plans since {state.effectiveDate}.
           </p>
           <div style={{ display: 'flex', flexWrap: 'wrap', gap: 12 }}>
-            <a href="https://www.teledirectmd.com/book-online" target="_blank" rel="noopener"
+            <a href="https://www.teledirectmd.com/book-online/" target="_blank" rel="noopener"
               style={{ display: 'inline-flex', alignItems: 'center', gap: 8, padding: '14px 28px', background: B.accent, color: B.white, borderRadius: B.rs, fontWeight: 700, fontSize: 15, textDecoration: 'none' }}>
               <Ico.Cal c={B.white} s={18} /> Book a {state.name} visit
             </a>

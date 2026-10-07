@@ -241,9 +241,9 @@ export default function TermsOfService() {
             Georgia. By accessing teledirectmd.com (the "Site") or using any services made available
             through the Site (collectively, the "Services"), you agree to be bound by these Terms and
             all documents incorporated herein by reference, including our{' '}
-            <a href="/privacy-policy">Privacy Policy</a>,{' '}
-            <a href="/notice-of-privacy-practices">Notice of Privacy Practices</a>, and{' '}
-            <a href="/telehealth-consent">Telehealth Informed Consent</a>.
+            <a href="/privacy-policy/">Privacy Policy</a>,{' '}
+            <a href="/notice-of-privacy-practices/">Notice of Privacy Practices</a>, and{' '}
+            <a href="/telehealth-consent/">Telehealth Informed Consent</a>.
           </p>
           <h3>1.2 Electronic Agreement</h3>
           <p>
@@ -277,7 +277,7 @@ export default function TermsOfService() {
             —not merely at the time of booking. TeleDirectMD currently serves patients in 40+ states
             plus the District of Columbia (44 jurisdictions total). Geographic coverage may change;
             please verify current coverage at{' '}
-            <a href="/states-we-serve">teledirectmd.com/states-we-serve</a> before scheduling.
+            <a href="/states-we-serve/">teledirectmd.com/states-we-serve</a> before scheduling.
           </p>
           <h3>2.3 Identification</h3>
           <p>
@@ -317,7 +317,7 @@ export default function TermsOfService() {
             consultations. Clinical categories include, but are not limited to: urgent care conditions,
             women's health, sexual health, skin conditions, bites and infestations, chronic medication
             refills, and wellness and lifestyle medicine. We evaluate and treat more than 60 conditions;
-            see <a href="/what-we-treat">teledirectmd.com/what-we-treat</a> for a current list.
+            see <a href="/what-we-treat/">teledirectmd.com/what-we-treat</a> for a current list.
           </p>
           <h3>3.3 Services Not Provided</h3>
           <p>TeleDirectMD does not provide:</p>
@@ -572,7 +572,7 @@ export default function TermsOfService() {
             TeleDirectMD is a HIPAA-covered entity. Your protected health information ("PHI") is
             handled in accordance with the Health Insurance Portability and Accountability Act of 1996
             ("HIPAA") and its implementing regulations, as well as applicable state privacy laws. Our
-            full <a href="/notice-of-privacy-practices">Notice of Privacy Practices</a> describes
+            full <a href="/notice-of-privacy-practices/">Notice of Privacy Practices</a> describes
             how we use and disclose your PHI and your rights regarding your medical information.
           </p>
           <h3>9.2 Technology and Business Associates</h3>
@@ -938,7 +938,7 @@ export default function TermsOfService() {
           <p>
             For privacy-related requests (access, amendment, or restriction of your health
             information), please refer to our{' '}
-            <a href="/notice-of-privacy-practices">Notice of Privacy Practices</a>.
+            <a href="/notice-of-privacy-practices/">Notice of Privacy Practices</a>.
           </p>
         </section>
 

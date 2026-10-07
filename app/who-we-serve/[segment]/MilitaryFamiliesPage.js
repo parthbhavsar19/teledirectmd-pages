@@ -121,7 +121,7 @@ export default function MilitaryFamiliesPage() {
       },
       {
         "@type": "Physician",
-        "@id": `${baseUrl}/about#physician`,
+        "@id": `${baseUrl}/about/#physician`,
         "name": "Parth Bhavsar, MD",
         "medicalSpecialty": "FamilyMedicine",
         "worksFor": { "@type": "MedicalOrganization", "name": "TeleDirectMD" },
@@ -161,7 +161,7 @@ export default function MilitaryFamiliesPage() {
         <div className="tdmd-container">
           <a href="/">Home</a>
           <span className="tdmd-bc-sep" aria-hidden="true">/</span>
-          <a href="/who-we-serve">Who We Serve</a>
+          <a href="/who-we-serve/">Who We Serve</a>
           <span className="tdmd-bc-sep" aria-hidden="true">/</span>
           <span aria-current="page">Military Families &amp; Veterans</span>
         </div>
@@ -218,8 +218,8 @@ export default function MilitaryFamiliesPage() {
                 <li>HIPAA-compliant visit records you can share with your new provider</li>
               </ul>
               <div className="tdmd-hero-ctas">
-                <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
-                <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">See What We Treat</a>
+                <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
+                <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">See What We Treat</a>
               </div>
               <p className="tdmd-reviewed">Medically reviewed by Parth Bhavsar, MD, board-certified Family Medicine · Updated {today}</p>
             </div>
@@ -296,7 +296,7 @@ export default function MilitaryFamiliesPage() {
                 <h3>Prescriptions &amp; Documentation</h3>
                 <p>Dr. Bhavsar prescribes bridge medications, treats acute conditions, and provides a visit summary for your new provider. Prescriptions sent to any US pharmacy — including TRICARE Express Scripts.</p>
                 <div className="tdmd-decision-cta">
-                  <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
+                  <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
                 </div>
               </div>
             </div>
@@ -399,7 +399,7 @@ export default function MilitaryFamiliesPage() {
                 <p><strong>YES:</strong> Book TeleDirectMD — same-day evaluation and treatment.</p>
                 <p><strong>Needs in-person exam/imaging:</strong> Urgent Care or ER.</p>
                 <div className="tdmd-decision-cta">
-                  <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
+                  <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
                 </div>
               </div>
             </div>
@@ -422,7 +422,7 @@ export default function MilitaryFamiliesPage() {
                 <li>Visit summary for new provider</li>
                 <li>HIPAA-compliant records</li>
               </ul>
-              <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book Now — $79</a>
+              <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book Now — $79</a>
             </div>
           </div>
           <div className="tdmd-price-chart">
@@ -483,12 +483,12 @@ export default function MilitaryFamiliesPage() {
           <div className="tdmd-grid tdmd-grid-2">
             {conditions.map(c => (
               <div key={c.slug} className="tdmd-card">
-                <h3><a href={`/what-we-treat/${c.slug}`}>{c.name}</a></h3>
+                <h3><a href={`/what-we-treat/${c.slug}/`}>{c.name}</a></h3>
                 <p>{c.desc}</p>
               </div>
             ))}
           </div>
-          <p><a href="/what-we-treat">View all 60+ conditions we treat &#8594;</a></p>
+          <p><a href="/what-we-treat/">View all 60+ conditions we treat &#8594;</a></p>
         </div>
       </section>
 
@@ -765,8 +765,8 @@ export default function MilitaryFamiliesPage() {
               <p>$79 flat-fee visits. Same-day availability. 40+ states. No insurance required.</p>
             </div>
             <div className="tdmd-bottom-cta-actions">
-              <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
-              <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">See What We Treat</a>
+              <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
+              <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">See What We Treat</a>
             </div>
           </div>
         </div>
@@ -801,7 +801,7 @@ export default function MilitaryFamiliesPage() {
           <p>TeleDirectMD is licensed in 40+ states — covering every major installation and the surrounding communities where military families live. Whether you're at Fort Moore in Georgia, Fort Bragg in North Carolina, Fort Hood in Texas, or JBLM in Washington, we're licensed where you are.</p>
           <div className="tdmd-other-states-grid">
             {allStates.map(s => (
-              <a key={s.abbr} href={`/${s.abbr.toLowerCase()}`} className="tdmd-other-state-link">
+              <a key={s.abbr} href={`/${s.abbr.toLowerCase()}/`} className="tdmd-other-state-link">
                 {s.name}
               </a>
             ))}
@@ -817,41 +817,41 @@ export default function MilitaryFamiliesPage() {
             <div className="tdmd-related-card">
               <p className="tdmd-related-title">Early Retirees</p>
               <p className="tdmd-related-desc">Bridge the pre-Medicare gap with $79 visits.</p>
-              <a href="/who-we-serve/early-retirees" className="tdmd-btn tdmd-btn-outline">Learn More</a>
+              <a href="/who-we-serve/early-retirees/" className="tdmd-btn tdmd-btn-outline">Learn More</a>
             </div>
             <div className="tdmd-related-card">
               <p className="tdmd-related-title">Remote Workers</p>
               <p className="tdmd-related-desc">Healthcare that follows you anywhere, any state.</p>
-              <a href="/who-we-serve/remote-workers" className="tdmd-btn tdmd-btn-outline">Learn More</a>
+              <a href="/who-we-serve/remote-workers/" className="tdmd-btn tdmd-btn-outline">Learn More</a>
             </div>
             <div className="tdmd-related-card">
               <p className="tdmd-related-title">Uninsured Adults</p>
               <p className="tdmd-related-desc">No insurance? Transparent pricing, no surprise bills.</p>
-              <a href="/who-we-serve/uninsured-affordable-care" className="tdmd-btn tdmd-btn-outline">Learn More</a>
+              <a href="/who-we-serve/uninsured-affordable-care/" className="tdmd-btn tdmd-btn-outline">Learn More</a>
             </div>
             <div className="tdmd-related-card">
               <p className="tdmd-related-title">Gig Workers</p>
               <p className="tdmd-related-desc">Flexible care without employer coverage.</p>
-              <a href="/who-we-serve/gig-workers" className="tdmd-btn tdmd-btn-outline">Learn More</a>
+              <a href="/who-we-serve/gig-workers/" className="tdmd-btn tdmd-btn-outline">Learn More</a>
             </div>
             <div className="tdmd-related-card">
               <p className="tdmd-related-title">Travel Nurses</p>
               <p className="tdmd-related-desc">Same doctor across every assignment, 40+ states.</p>
-              <a href="/who-we-serve/travel-nurses" className="tdmd-btn tdmd-btn-outline">Learn More</a>
+              <a href="/who-we-serve/travel-nurses/" className="tdmd-btn tdmd-btn-outline">Learn More</a>
             </div>
             <div className="tdmd-related-card">
               <p className="tdmd-related-title">Small Business Owners</p>
               <p className="tdmd-related-desc">Self-employed care on your schedule.</p>
-              <a href="/who-we-serve/small-business-owners" className="tdmd-btn tdmd-btn-outline">Learn More</a>
+              <a href="/who-we-serve/small-business-owners/" className="tdmd-btn tdmd-btn-outline">Learn More</a>
             </div>
           </div>
           <div className="tdmd-inline-links">
             <div className="tdmd-link-cloud">
-              <a href="/insurance-pricing">Insurance &amp; Pricing</a>
-              <a href="/states-we-serve">States We Serve</a>
-              <a href="/what-we-treat">What We Treat</a>
+              <a href="/insurance-pricing/">Insurance &amp; Pricing</a>
+              <a href="/states-we-serve/">States We Serve</a>
+              <a href="/what-we-treat/">What We Treat</a>
               <a href="#military-families-faq">FAQ</a>
-              <a href="/book-online">Book a Visit</a>
+              <a href="/book-online/">Book a Visit</a>
             </div>
           </div>
         </div>

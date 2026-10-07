@@ -69,7 +69,7 @@ export default function PrivacyPolicy() {
         <p>We retain information for as long as necessary to provide services, maintain medical records, comply with legal obligations, and resolve disputes.</p>
 
         <h2 style={s.h2}>10. Changes to This Notice</h2>
-        <p>TeleDirectMD reserves the right to change this Privacy Policy and Notice of Privacy Practices at any time. Changes apply to all information we maintain and will be effective upon posting with an updated effective date. For the full HIPAA notice, see our <a href="/notice-of-privacy-practices" style={{ color: '#1a7f7f' }}>Notice of Privacy Practices</a>.</p>
+        <p>TeleDirectMD reserves the right to change this Privacy Policy and Notice of Privacy Practices at any time. Changes apply to all information we maintain and will be effective upon posting with an updated effective date. For the full HIPAA notice, see our <a href="/notice-of-privacy-practices/" style={{ color: '#1a7f7f' }}>Notice of Privacy Practices</a>.</p>
 
         <h2 style={s.h2}>11. Contact Information</h2>
         <p>If you have questions about this notice, your privacy rights, or wish to exercise your rights, contact:</p>

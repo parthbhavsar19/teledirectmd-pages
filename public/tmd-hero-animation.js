@@ -559,7 +559,7 @@ function restart(){
   rafId=requestAnimationFrame(frame);
 }
 document.getElementById("tmd-replay-d").addEventListener("click",restart);
-ctaBtn.addEventListener("click",function(){ window.location.href="/book-online"; });
+ctaBtn.addEventListener("click",function(){ window.location.href="/book-online/"; });
 rafId=requestAnimationFrame(frame);
   } /* end startDesktop */
 })();
@@ -893,7 +893,7 @@ function restart(){
   ctaBtn.style.transform="translateX(-50%) scale(0.85)";document.getElementById("tmd-replay-m").style.display="none";rafId=requestAnimationFrame(frame);
 }
 document.getElementById("tmd-replay-m").addEventListener("click",restart);
-ctaBtn.addEventListener("click",function(){window.location.href="/book-online";});
+ctaBtn.addEventListener("click",function(){window.location.href="/book-online/";});
 rafId=requestAnimationFrame(frame);
   } /* end startMobile */
 })();
