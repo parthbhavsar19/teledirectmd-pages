@@ -1,3 +1,4 @@
+import { contentDate } from '../../../lib/content-dates';
 import comparison from '../../../data/competitor-comparison.json';
 import states from '../../../data/states.json';
 import { uninsuredCSS } from '../../../lib/uninsured-styles';
@@ -98,7 +99,7 @@ const PHARMACIES = [
 const REFERENCES = [
   { href: 'https://www.kff.org/uninsured/issue-brief/key-facts-about-the-uninsured-population/', label: 'Key facts about the uninsured population, KFF, 2025' },
   { href: 'https://doi.org/10.1136/bmjopen-2017-021161', label: 'Continuity of care with doctors and mortality: a systematic review, Pereira Gray et al., BMJ Open 2018' },
-  { href: 'https://www.pennmedicine.org/news/news-releases/2024/march/telemedicine-visits-cost-far-less-than-office-visits', label: 'Telemedicine visits cost far less than office visits, Penn Medicine / JAMA Network Open' },
+  { href: 'https://www.pennmedicine.org/news/study-finds-telemedicine-visits-cost-far-less-than-office-visits', label: 'Telemedicine visits cost far less than office visits, Penn Medicine / JAMA Network Open' },
   { href: 'https://www.goodrx.com/healthcare-access/telehealth/how-much-does-a-telehealth-visit-cost', label: 'How much does a telehealth visit cost? GoodRx' },
   { href: 'https://coveredusa.org/urgent-care-cost-without-insurance/', label: 'Urgent care visit cost without insurance, CoveredUSA 2026' },
 ];
@@ -118,7 +119,7 @@ const OTHER_SEGMENTS = [
 export default function UninsuredAffordableCarePage() {
   const baseUrl = 'https://teledirectmd.com';
   const pageUrl = `${baseUrl}/who-we-serve/uninsured-affordable-care`;
-  const today = new Date().toISOString().split('T')[0];
+  const today = contentDate('whoWeServe');
   const checkedOn = longDate(comparison.asOfDate);
 
   const faqItems = [

@@ -10,7 +10,7 @@ export const CHECKED = "October 5, 2026";
 export function ctaBox(context = "") {
   if (!SITE.cta.enabled) return "";
   return `<aside class="panel" style="display:grid;gap:10px;border-color:var(--accent)">
-<p class="eyebrow">Adults 18+ who need a prescription today</p>
+<p class="eyebrow">Adults 18+ who want a same-day flu evaluation</p>
 <p>${context || "If you are an adult within the first two days of flu symptoms, or at higher risk, a clinician can decide on antiviral treatment by video without a test."}</p>
 <p class="small muted">${esc(SITE.cta.org)}: ${esc(SITE.cta.line)}</p>
 <div class="btn-row"><a class="btn btn-primary" href="${SITE.cta.url}" target="_blank" rel="noopener">Book a ${esc(SITE.cta.org)} visit</a><a class="btn btn-ghost" href="symptoms.html">Check symptoms first</a></div>

@@ -64,8 +64,6 @@ const REVIEWS = [
   { text: "He listened to my symptoms and immediately knew what I needed. After my visit I got my prescription very fast and started to feel better within a few hours. 10/10.", author: 'Verified Patient', source: 'Healthgrades' },
   { text: "I had a wonderful experience during my TeleMed visit. Dr. Bhavsar was very personable and took the time to listen to my concerns. Highly highly recommended.", author: 'Verified Patient', source: 'WebMD' },
   { text: "Dr. Bhavsar was so knowledgeable and friendly. He really takes the time to listen and explain everything clearly. Highly recommend!", author: 'G.B.', source: 'Zocdoc' },
-  { text: "Great experience. Got an appointment right away for only $49 with no insurance. Doctor was cool. Gave me my meds with refills.", author: 'A.M.', source: 'Google' },
-  { text: "Fast personalized service. I had a simple bladder infection and for $49 and quick turnaround — only waited 1 hour for the virtual appointment — I was able to get the prescription I needed quickly.", author: 'E.', source: 'Google' },
   { text: "Glad I found this Dr and service. Booked and had a virtual appointment the same day. Pricing was very fair. Dr. P was kind and helpful, so I would definitely use this service again if needed.", author: 'Verified Patient', source: 'WebMD' },
   { text: "Dr. Parth was professional, attentive, and made the visit feel easy and comfortable. He listened carefully, explained everything clearly, and prescribed medication that worked quickly. I really appreciated how efficient and effective his care was.", author: 'Verified Patient', source: 'Healthgrades' },
   { text: "I really appreciated Dr. Bhavsar's assistance. He was very kind and knowledgeable, and it was probably one of the most pleasant Telehealth experiences I've ever had!", author: 'C.C.', source: 'Healthgrades' },
@@ -189,7 +187,7 @@ const HOMEPAGE_CONDITION_TILES = [
 const WHY_FEATURES = [
   { title: 'Board-Certified MD', desc: 'Every visit is with Dr. Parth Bhavsar, a licensed family medicine physician.', icon: 'doctor', img: '/images/why/why-board-certified.png' },
   { title: '$79 Flat Fee', desc: 'One transparent price. No surprise bills, no co-pays, no hidden charges.', icon: 'dollar', img: '/images/why/why-flat-fee.png' },
-  { title: '44 States + DC', desc: 'Licensed in 44 states + DC — 45 coverage areas across the U.S.', icon: 'map', img: '/images/why/why-states.png' },
+  { title: '40+ States + DC', desc: 'Licensed in 40+ states plus DC', icon: 'map', img: '/images/why/why-states.png' },
   { title: 'LegitScript Certified', desc: 'Verified by LegitScript for safe, compliant telehealth prescribing.', icon: 'shield', img: '/images/why/why-legitscript.png' },
   { title: 'Fast Prescriptions', desc: 'Rx sent to your pharmacy — often within an hour of your visit.', icon: 'rx', img: '/images/why/why-fast-rx.png' },
   { title: 'No Waiting Rooms', desc: 'Skip the drive and the wait. See a doctor from your couch.', icon: 'home', img: '/images/why/why-no-waiting.png' },
@@ -458,7 +456,7 @@ const HOW_STEPS = [
   { num: 1, title: 'Book Online', desc: 'Choose a visit time that works for you. Available 7 days a week.', img: '/images/steps/step-book.png' },
   { num: 2, title: 'Quick Intake', desc: 'Fill out a brief health questionnaire so your doctor is prepared.', img: '/images/steps/step-intake.png' },
   { num: 3, title: 'Video Visit', desc: 'Meet with Dr. Bhavsar via secure video. Discuss symptoms, get a diagnosis.', img: '/images/steps/step-video.png' },
-  { num: 4, title: 'Get Your Rx', desc: 'Prescription sent to your pharmacy — often within the hour.', img: '/images/steps/step-rx.png' },
+  { num: 4, title: 'Get Your Rx', desc: 'If clinically appropriate, your prescription goes to your pharmacy, often within the hour.', img: '/images/steps/step-rx.png' },
 ];
 
 function StickyHowItWorks() {
@@ -615,7 +613,7 @@ export default function HomepageClient() {
             <rect x="60" y="160" width="3" height="20" rx="1.5" fill="#FF5A36" opacity="0.05" transform="rotate(-20 61.5 170)"/>
           </svg>
         </div>
-        <h1 className="hp-visually-hidden">Board-Certified Online Doctor Visits &mdash; $79 Flat Fee, No Subscription, 44 States</h1>
+        <h1 className="hp-visually-hidden">Board-Certified Online Doctor Visits &mdash; $79 Flat Fee, No Subscription, 40+ States</h1>
         <div id="tmd-root">
           <div id="tmd-wrap-d">
             <canvas id="tmd-c"></canvas>

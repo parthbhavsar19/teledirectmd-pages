@@ -1,3 +1,4 @@
+import { contentDate } from '../../../../lib/content-dates';
 import { getStateBySlug } from '../../../../lib/get-data';
 import { getStateInsurance } from '../../../../lib/insurance-data';
 import { notFound } from 'next/navigation';
@@ -64,7 +65,7 @@ export default async function FAQDeepDivePage({ params }) {
   if (!state) notFound();
   const baseUrl = 'https://teledirectmd.com';
   const pageUrl = `${baseUrl}/faq/deep-dive/${slug}`;
-  const today = new Date().toISOString().split('T')[0];
+  const today = contentDate('faqDeepDive');
   const medLower = page.medication.toLowerCase();
   const isUTI = page.condition === 'UTI Treatment';
   const medDisplay = isUTI ? 'antibiotics for a UTI' : medLower;

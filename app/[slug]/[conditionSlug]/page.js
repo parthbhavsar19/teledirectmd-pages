@@ -1,3 +1,4 @@
+import { contentDate } from '../../../lib/content-dates';
 import { getStates, getConditionSlugs, getCondition, getStateBySlug, resolveConditionForState, resolveConditionNational } from '../../../lib/get-data';
 import { generateJsonLd } from '../../../lib/json-ld';
 import { getStateInsurance, getActiveInsurers, getPendingInsurers, hasInlineInsuranceSection } from '../../../lib/insurance-data';
@@ -519,7 +520,7 @@ export default async function ConditionPage({ params }) {
   // and Physician credential. When stateTpl is null, JSON-LD output is unchanged.
   const _earlyStateTpl = loadStateTemplate(slug);
   const jsonLd = generateJsonLd(condition, state, _earlyStateTpl);
-  const today = new Date().toISOString().split('T')[0];
+  const today = contentDate('conditionPages');
   const pid = `${slug}-${conditionSlug}`;
   const allStates = getStates();
   const otherStates = allStates.filter((s) => s.slug !== slug);
@@ -1340,7 +1341,7 @@ export default async function ConditionPage({ params }) {
       <section className="tdmd-section tdmd-section-highlight" id={`${pid}-other-states`}>
         <div className="tdmd-container">
           <h2>Get {condition.conditionName} Treatment in Other States</h2>
-          <p>TeleDirectMD treats {condition.conditionName.toLowerCase()} via telehealth in 44 states + DC. If you are traveling, relocating, or helping a family member in another state, select below to find this treatment near them.</p>
+          <p>TeleDirectMD treats {condition.conditionName.toLowerCase()} via telehealth in 40+ states + DC. If you are traveling, relocating, or helping a family member in another state, select below to find this treatment near them.</p>
           <div className="tdmd-other-states-grid">
             {otherStates.map((s) => (
               <a key={s.slug} className="tdmd-other-state-link" href={`/${s.slug}/${conditionSlug}`}>

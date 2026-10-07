@@ -1,4 +1,4 @@
-import { getStates } from '../../lib/get-data';
+import { contentDate } from '../../lib/content-dates';
 import {
   REVIEW_PLATFORMS,
   TOTAL_REVIEW_COUNT,
@@ -13,11 +13,8 @@ import reviewsData from '../../data/reviews.json';
    Coverage and rating totals are derived from the same single sources of
    truth the rest of the site uses, so this page can never re-stale the way
    the old Squarespace page did. */
-const COVERAGE_AREAS = getStates().length; // 45 (44 states + DC)
-const STATE_COUNT = getStates().filter(
-  (s) => !/d\.?c\.?|district of columbia/i.test(s.name),
-).length; // 43
-const COVERAGE_PHRASE = `${STATE_COUNT} states + Washington, D.C.`;
+// Coverage copy is "40+ states" so it does not go stale on a launch.
+const COVERAGE_PHRASE = `40+ states + Washington, D.C.`;
 const SITE = 'https://teledirectmd.com';
 const PAGE_URL = `${SITE}/reviews/`;
 const BOOK_URL = '/book-online';
@@ -108,7 +105,7 @@ const jsonLd = {
       about: { '@id': `${SITE}/#physician` },
       mainEntity: { '@id': `${SITE}/#physician` },
       isPartOf: { '@id': `${SITE}/#website` },
-      lastReviewed: new Date().toISOString().split('T')[0],
+      lastReviewed: contentDate('reviews'),
     },
     {
       '@type': 'Physician',
@@ -245,7 +242,7 @@ export default function ReviewsPage() {
             <p>
               Dr. Parth Bhavsar, a board-certified family medicine physician, personally
               conducts every visit. Here is what patients say about {PRICE_SHORT} flat-fee
-              video care across {COVERAGE_PHRASE} ({COVERAGE_AREAS} coverage areas).
+              video care across {COVERAGE_PHRASE}.
             </p>
 
             <div className="rv-trust">
@@ -265,6 +262,10 @@ export default function ReviewsPage() {
             </div>
           </div>
         </header>
+
+        <p className="rv-disclaimer" style={{ maxWidth: 760, margin: '0 auto 1.5rem', padding: '0 1rem', fontSize: 14, lineHeight: 1.6, color: '#4a5d66' }}>
+          Reviews are reproduced verbatim from Google, Zocdoc, WebMD and Healthgrades. Individual experiences vary. Prices mentioned in older reviews reflect the fee at the time; the current self-pay fee is {PRICE_SHORT}.
+        </p>
 
         {/* ── FEATURED REVIEWS ── */}
         {featured.length > 0 && (

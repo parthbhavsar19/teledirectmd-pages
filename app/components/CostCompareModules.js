@@ -28,7 +28,7 @@ export function WhatDoesThisCostBlock({ conditionSlug, conditionName, stateName 
     : `What does an online doctor visit${where} cost?`;
   const body = link.isCondition
     ? `A telehealth visit at TeleDirectMD is $79 flat. With a generic prescription via GoodRx, most patients pay $80–$145 total — a fraction of in-person urgent care. See the full breakdown by care setting on our cost guide.`
-    : `TeleDirectMD\'s $79 flat rate is up to 3× cheaper than an in-person urgent care visit and ~11× cheaper than an uninsured ER visit. See verified 2026 cash-pay prices across every care setting.`;
+    : `TeleDirectMD\'s $79 flat rate is about one-quarter to one-half the cost of a cash-pay urgent care visit and a small fraction of an uninsured ER visit. See verified 2026 cash-pay prices across every care setting.`;
 
   return (
     <section className="tdmd-section" id={`cost-cta-${conditionSlug || 'default'}`}>
@@ -118,7 +118,7 @@ export function WhoWeServePricingCTA({ pricingHook, relatedCostPage }) {
     <section className="tdmd-section" id="cost-breakdown-cta">
       <div className="tdmd-container" data-speakable="true">
         <h2>What you&apos;ll actually pay</h2>
-        <p>{pricingHook || 'A flat $79 visit is up to 3× cheaper than urgent care and ~11× cheaper than an uninsured ER visit. We\'ve published the full price breakdown so you know your total cost upfront.'}</p>
+        <p>{pricingHook || 'A flat $79 visit is about one-quarter to one-half the cost of cash-pay urgent care and a small fraction of an uninsured ER visit. We\'ve published the full price breakdown so you know your total cost upfront.'}</p>
         <div className="tdmd-related-grid" style={{ marginTop: '0.75rem' }}>
           <a href={MASTER_COST_PAGE} className="tdmd-related-card">
             <span className="tdmd-related-title">Online Doctor Visit Cost in 2026</span>

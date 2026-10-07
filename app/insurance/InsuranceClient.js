@@ -395,7 +395,7 @@ function resolveResult(stateAbbr, payerId) {
       banner: 'State Not Currently Served',
       icon: '✕',
       headline: `We don't currently serve ${STATE_NAMES[stateAbbr] || 'this state'}.`,
-      text: 'TeleDirectMD is licensed in 44 states. If you have a different state to check, use the dropdown above. Otherwise, join the waitlist.',
+      text: 'TeleDirectMD is licensed in 40+ states. If you have a different state to check, use the dropdown above. Otherwise, join the waitlist.',
       status: 'Not licensed',
       eff: '—',
       plans: '—',

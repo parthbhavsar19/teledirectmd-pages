@@ -120,6 +120,7 @@ function main() {
     'app/compare/',                       // competitor comparison prose
     'public/health-guides/',              // clinical facts, policy stats
     'data/outbreaks/',                    // CDC outbreak reports
+    'public/flu-hub/data/',               // pharmacy addresses ("48 State Rt 23")
     'scripts/check-state-coverage.js',    // this file (self-reference)
     'SETUP.md',                           // docs
   ];
@@ -150,9 +151,12 @@ function main() {
   // not go stale on a launch, which is the whole point — so it is no longer a
   // drift signal. Stale EXACT counts (41/42/43) are still caught below.
   const FORBIDDEN = [
-    { label: 'TeleDirectMD 41-state / 41 states', re: /\b41[- ]?states?\b|TeleDirectMD['\u2019]?s?\s+4[0-3]\b/i },
+    { label: 'TeleDirectMD 41-state / 41 states', re: /\b41[- ]?states?\b|TeleDirectMD['\u2019]?s?\s+4[0-3]\b(?!\+)/i },
     { label: 'Licensed in 4[0-3] states (stale count)', re: /\bLicensed in 4[0-3]\s+states?\b/i },
     { label: 'TeleDirectMD.{0,60}\\b4[0-3]\\s+states', re: /TeleDirectMD[\s\S]{0,80}\b4[0-3]\s+states?\b/i },
+    // 2026-10-07: exact current counts are also drift. Coverage copy says
+    // "40+ states" so it survives the next launch without a sweep.
+    { label: 'Exact state count (use "40+ states")', re: /\b4[4-9]\+?\s+(?:U\.S\.\s+|US\s+|licensed\s+)?states?\b|\b4[4-9]-state\b/i },
   ];
 
   function walk(dir, out) {
@@ -189,7 +193,7 @@ function main() {
   if (countProblems.length) {
     console.error('\n\u2717 Inline state-count check failed\n');
     countProblems.forEach((p) => console.error(`  ${p}`));
-    console.error(`\n  Canonical count is 44 states + DC. Update the phrases above.`);
+    console.error(`\n  Coverage copy uses "40+ states" (plus DC where relevant). Update the phrases above.`);
     console.error('  If a phrase legitimately refers to a competitor or outside stat,');
     console.error('  move it under an allowlisted path or reword.\n');
     process.exit(1);

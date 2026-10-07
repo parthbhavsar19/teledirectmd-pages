@@ -8,7 +8,9 @@ import { PRESCRIBING_POLICY, REFILL_POLICY, ED_REFILL_POLICY } from '../../lib/p
 /* ── Config ──────────────────────────────────────────────────────────────── */
 /* Six states not yet available. Lowercase to match the SVG's <path class="XX"> */
 const NOT_COVERED = ['or', 'nm', 'ar', 'ny', 'ri', 'ma'];
-const COVERED_STATE_COUNT = 44;
+// The counter animates up to 40 and then reads "40+": coverage copy is never
+// an exact count, so it stays true through each new state launch.
+const COVERED_STATE_COUNT = 40;
 
 const CATEGORY_LABELS = {
   'urgent-care': 'Urgent care',
@@ -105,7 +107,7 @@ function UsMap({ animate }) {
       <div className="wwt-map-legend">
         <span className="wwt-key"><span className="wwt-sw on" /> Covered</span>
         <span className="wwt-key"><span className="wwt-sw off" /> Not yet</span>
-        <span className="wwt-map-count">{count} states + D.C.</span>
+        <span className="wwt-map-count">{count}{count >= COVERED_STATE_COUNT ? '+' : ''} states + D.C.</span>
       </div>
     </div>
   );
@@ -528,7 +530,7 @@ export default function WhatWeTreatClient({ categories, conditionDescriptions, s
       <section className="wwt-final">
         <div className="wwt-container">
           <h2>Ready to see a doctor today?</h2>
-          <p>$79 flat, same day, with a board-certified MD. Available in 44 states and Washington, D.C. Select insurance also accepted.</p>
+          <p>$79 flat, same day, with a board-certified MD. Available in 40+ states and Washington, D.C. Select insurance also accepted.</p>
           <a className="wwt-btn wwt-btn-primary wwt-btn-lg" href="/book-online">Book your visit</a>
           <div className="wwt-badges">
             <span>Adults 18+</span>
