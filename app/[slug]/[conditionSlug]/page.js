@@ -139,9 +139,9 @@ export async function generateMetadata({ params }) {
       openGraph: {
         type: 'website', siteName: 'TeleDirectMD', locale: 'en_US',
         title: caTitle, description: caDescription, url: pageUrl,
-        images: [{ url: `${baseUrl}/assets/social/tdmd-ca-uti-treatment-online-og.png`, alt: 'UTI treatment in California by TeleDirectMD' }],
+        images: [{ url: `${baseUrl}/images/tdmd-og-navy.png`, alt: 'UTI treatment in California by TeleDirectMD' }],
       },
-      twitter: { card: 'summary_large_image', title: caTitle, description: caDescription, images: [`${baseUrl}/assets/social/tdmd-ca-uti-treatment-online-og.png`] },
+      twitter: { card: 'summary_large_image', title: caTitle, description: caDescription, images: [`${baseUrl}/images/tdmd-og-navy.png`] },
       alternates: { canonical: pageUrl },
     };
   }
@@ -191,13 +191,13 @@ export async function generateMetadata({ params }) {
       title: condition.pageTitle,
       description: condition.metaDescription,
       url: pageUrl,
-      images: [{ url: `${baseUrl}/assets/social/tdmd-${slug}-${conditionSlug}-og.png`, alt: condition.ogImageAlt }],
+      images: [{ url: `${baseUrl}/images/tdmd-og-navy.png`, alt: condition.ogImageAlt }],
     },
     twitter: {
       card: 'summary_large_image',
       title: condition.pageTitle,
       description: condition.metaDescription,
-      images: [`${baseUrl}/assets/social/tdmd-${slug}-${conditionSlug}-og.png`],
+      images: [`${baseUrl}/images/tdmd-og-navy.png`],
     },
     alternates: {
       canonical: pageUrl,

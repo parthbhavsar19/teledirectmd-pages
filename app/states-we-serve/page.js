@@ -28,9 +28,9 @@ export async function generateMetadata() {
       title,
       description,
       url: pageUrl,
-      images: [{ url: 'https://teledirectmd.com/assets/og-states-we-serve.jpg', width: 1200, height: 630, alt: 'TeleDirectMD coverage map showing licensed telemedicine states' }],
+      images: [{ url: 'https://teledirectmd.com/images/tdmd-og-navy.png', width: 1200, height: 630, alt: 'TeleDirectMD coverage map showing licensed telemedicine states' }],
     },
-    twitter: { card: 'summary_large_image', title, description, images: ['https://teledirectmd.com/assets/og-states-we-serve.jpg'] },
+    twitter: { card: 'summary_large_image', title, description, images: ['https://teledirectmd.com/images/tdmd-og-navy.png'] },
     alternates: { canonical: pageUrl },
   };
 }
@@ -87,7 +87,7 @@ function buildJsonLd(allStates, categories) {
         telephone: '+1-678-956-1855',
         email: 'contact@teledirectmd.com',
         logo: `${baseUrl}/assets/teledirectmd-logo.png`,
-        image: `${baseUrl}/assets/og-states-we-serve.jpg`,
+        image: `https://teledirectmd.com/images/tdmd-og-navy.png`,
         description: `TeleDirectMD is a direct-pay telemedicine practice offering $79 flat-fee video consultations with a board-certified physician across 40+ U.S. states and territories. Insurance is not required but select plans are accepted in some states.`,
         medicalSpecialty: ['Family Medicine', 'Urgent Care', 'Dermatology', "Women's Health"],
         address: {

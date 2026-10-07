@@ -53,7 +53,7 @@ const SCHEMA = {
       publisher: {
         '@type': 'Organization',
         name: 'TeleDirectMD',
-        logo: { '@type': 'ImageObject', url: 'https://teledirectmd.com/logos/teledirectmd.png' },
+        logo: { '@type': 'ImageObject', url: 'https://teledirectmd.com/logo.png' },
       },
       image: 'https://teledirectmd.com/assets/social/tdmd-aetna-california-og.png',
       mainEntityOfPage: 'https://teledirectmd.com/news/aetna-california-may-2026',

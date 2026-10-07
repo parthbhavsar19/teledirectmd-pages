@@ -4571,6 +4571,13 @@
       "handle": "filesystem"
     },
     {
+      "src": "/((?:health-guides|images)/.+)\\.png",
+      "headers": {
+        "Location": "/$1.jpg"
+      },
+      "status": 301
+    },
+    {
       "src": "/symptoms/?",
       "headers": {
         "Location": "/what-we-treat/"

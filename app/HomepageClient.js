@@ -185,12 +185,12 @@ const HOMEPAGE_CONDITION_TILES = [
 ].map(([name, img]) => ({ name, img, href: CONDITION_SLUGS[name] || '/what-we-treat' }));
 
 const WHY_FEATURES = [
-  { title: 'Board-Certified MD', desc: 'Every visit is with Dr. Parth Bhavsar, a licensed family medicine physician.', icon: 'doctor', img: '/images/why/why-board-certified.png' },
-  { title: '$79 Flat Fee', desc: 'One transparent price. No co-pays, no hidden fees.', icon: 'dollar', img: '/images/why/why-flat-fee.png' },
-  { title: '40+ States + DC', desc: 'Licensed in 40+ states plus DC', icon: 'map', img: '/images/why/why-states.png' },
+  { title: 'Board-Certified MD', desc: 'Every visit is with Dr. Parth Bhavsar, a licensed family medicine physician.', icon: 'doctor', img: '/images/why/why-board-certified.jpg' },
+  { title: '$79 Flat Fee', desc: 'One transparent price. No co-pays, no hidden fees.', icon: 'dollar', img: '/images/why/why-flat-fee.jpg' },
+  { title: '40+ States + DC', desc: 'Licensed in 40+ states plus DC', icon: 'map', img: '/images/why/why-states.jpg' },
   { title: 'LegitScript Certified', desc: 'Verified by LegitScript for safe, compliant telehealth prescribing.', icon: 'shield', img: '/images/why/why-legitscript.png' },
-  { title: 'Fast Prescriptions', desc: 'Rx sent to your pharmacy — often within an hour of your visit.', icon: 'rx', img: '/images/why/why-fast-rx.png' },
-  { title: 'No Waiting Rooms', desc: 'Skip the drive and the wait. See a doctor from your couch.', icon: 'home', img: '/images/why/why-no-waiting.png' },
+  { title: 'Fast Prescriptions', desc: 'Rx sent to your pharmacy — often within an hour of your visit.', icon: 'rx', img: '/images/why/why-fast-rx.jpg' },
+  { title: 'No Waiting Rooms', desc: 'Skip the drive and the wait. See a doctor from your couch.', icon: 'home', img: '/images/why/why-no-waiting.jpg' },
 ];
 
 const ALL_US_STATES = [
