@@ -4,6 +4,17 @@
 /* Preload fonts used by canvas before any drawing */
 var __fontsReady = (function(){
   var families=['Patrick Hand','Space Mono','Karla'];
+  /* The Google Fonts stylesheet loads without blocking render (app/layout.js);
+     wait for it so the canvas text uses the real fonts. */
+  var link=document.getElementById('tdmd-fonts');
+  if(link && link.media!=='all'){
+    return new Promise(function(res){
+      var done=false; function go(){ if(done) return; done=true; res(); }
+      link.addEventListener('load', go); setTimeout(go, 3000);
+    }).then(function(){
+      return Promise.all(families.map(function(f){ return document.fonts.load('700 48px "'+f+'"').catch(function(){}); }));
+    });
+  }
   var loads=families.map(function(f){
     return document.fonts.load('700 48px "'+f+'"').catch(function(){});
   });
@@ -497,18 +508,9 @@ function drawBrand(elapsed){
     ctx.restore();
   }
 }
-function animateCTA(elapsed){
-  if(elapsed<T_CTA) return;
-  if(!ctaShown){
-    ctaShown=true;
-    ctaBtn.style.display="block";
-    ctaBtn.style.transition="opacity 0.7s ease, transform 0.7s cubic-bezier(0.34,1.56,0.64,1)";
-    requestAnimationFrame(function(){requestAnimationFrame(function(){
-      ctaBtn.style.opacity="1";
-      ctaBtn.style.transform="translateX(-50%) scale(1)";
-    });});
-  }
-}
+/* The Book button is a real link shown from the first paint (see
+   HomepageClient), so the animation no longer reveals it at the end. */
+function animateCTA(elapsed){}
 
 var popFired=new Array(ITEMS.length).fill(false);
 
@@ -553,13 +555,10 @@ function restart(){
   t0=null; lastTs=null; figSmoothY=null; tws=null; scratchPaths=[]; logoForm.reset();
   pops=[]; popFired=new Array(ITEMS.length).fill(false);
   ctaShown=false;
-  ctaBtn.style.display="none"; ctaBtn.style.opacity="0";
-  ctaBtn.style.transform="translateX(-50%) scale(0.85)";
   document.getElementById("tmd-replay-d").style.display="none";
   rafId=requestAnimationFrame(frame);
 }
 document.getElementById("tmd-replay-d").addEventListener("click",restart);
-ctaBtn.addEventListener("click",function(){ window.location.href="/book-online/"; });
 rafId=requestAnimationFrame(frame);
   } /* end startDesktop */
 })();
@@ -869,11 +868,7 @@ function drawBrand(elapsed){
     ctx.restore();}
 }
 
-function animateCTA(elapsed){
-  if(elapsed<T_CTA||ctaShown)return;ctaShown=true;
-  ctaBtn.style.display="block";ctaBtn.style.transition="opacity 0.7s ease, transform 0.7s cubic-bezier(0.34,1.56,0.64,1)";
-  requestAnimationFrame(function(){requestAnimationFrame(function(){ctaBtn.style.opacity="1";ctaBtn.style.transform="translateX(-50%) scale(1)";});});
-}
+function animateCTA(elapsed){} /* Book button is shown from the first paint */
 
 var t0=null,rafId=null,lastTs=null;
 function frame(ts){
@@ -889,11 +884,10 @@ function frame(ts){
 
 function restart(){
   cancelAnimationFrame(rafId);t0=null;lastTs=null;figSmoothY=null;tws=null;scratchPaths=[];logoForm.reset();
-  pops=[];popFired=new Array(ITEMS.length).fill(false);ctaShown=false;ctaBtn.style.display="none";ctaBtn.style.opacity="0";
-  ctaBtn.style.transform="translateX(-50%) scale(0.85)";document.getElementById("tmd-replay-m").style.display="none";rafId=requestAnimationFrame(frame);
+  pops=[];popFired=new Array(ITEMS.length).fill(false);ctaShown=false;
+  document.getElementById("tmd-replay-m").style.display="none";rafId=requestAnimationFrame(frame);
 }
 document.getElementById("tmd-replay-m").addEventListener("click",restart);
-ctaBtn.addEventListener("click",function(){window.location.href="/book-online/";});
 rafId=requestAnimationFrame(frame);
   } /* end startMobile */
 })();
