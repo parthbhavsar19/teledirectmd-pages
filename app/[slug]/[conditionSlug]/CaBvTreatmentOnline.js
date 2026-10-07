@@ -14,7 +14,7 @@ const LAST_REVIEWED = '2026-05-20';
 
 const PHYSICIAN = {
   name: 'Parth Bhavsar, MD', npi: '1104323203', specialty: 'Family Medicine',
-  licenseState: 'California', headshot: '/images/dr-parth-bhavsar.jpg', bioUrl: '/about',
+  licenseState: 'California', headshot: '/images/dr-parth-bhavsar.jpg', bioUrl: '/about/',
 };
 
 const CA_PAYORS = [

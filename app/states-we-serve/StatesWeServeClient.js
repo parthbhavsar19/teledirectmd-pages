@@ -43,11 +43,11 @@ export default function StatesWeServeClient({
       name: s.name,
       slug: s.slug,
       conditions: [
-        ['UTI (women only)', `/${s.slug}/uti-treatment-online`],
-        ['Sinus Infection', `/${s.slug}/sinus-infection-treatment-online`],
-        ['Influenza', `/${s.slug}/influenza-treatment-online`],
-        ['Pink Eye', `/${s.slug}/pink-eye-treatment-online`],
-        ['BV', `/${s.slug}/bv-treatment-online`],
+        ['UTI (women only)', `/${s.slug}/uti-treatment-online/`],
+        ['Sinus Infection', `/${s.slug}/sinus-infection-treatment-online/`],
+        ['Influenza', `/${s.slug}/influenza-treatment-online/`],
+        ['Pink Eye', `/${s.slug}/pink-eye-treatment-online/`],
+        ['BV', `/${s.slug}/bv-treatment-online/`],
       ],
     };
   });
@@ -192,7 +192,7 @@ export default function StatesWeServeClient({
   /* ── FAQ items (dynamic state names) ── */
   const faqItems = [
     { q: 'What states does TeleDirectMD serve?', a: `Dr. Bhavsar is licensed and available in 40+ U.S. states and territories, including ${stateNamesList}. We are actively expanding to additional states.` },
-    { q: 'How much does a TeleDirectMD visit cost?', a: 'TeleDirectMD self-pay visits are a flat $79 — no hidden fees and no surprise charges. This includes your full video consultation with a board-certified physician and any prescriptions sent to your pharmacy if clinically appropriate. We also accept select insurance plans (Aetna, Blue Cross Blue Shield, and UnitedHealthcare) in a growing number of states — standard copays apply.' },
+    { q: 'How much does a TeleDirectMD visit cost?', a: 'TeleDirectMD self-pay visits are a flat $79 — no hidden fees and no hidden fees. This includes your full video consultation with a board-certified physician and any prescriptions sent to your pharmacy if clinically appropriate. We also accept select insurance plans (Aetna, Blue Cross Blue Shield, and UnitedHealthcare) in a growing number of states — standard copays apply.' },
     { q: 'Do I need insurance to use TeleDirectMD?', a: 'No. Insurance is never required. You can always book a $79 self-pay visit with no insurance filing and no prior authorization. However, we now accept select commercial insurance plans in 17 states. Visit our Insurance page to check if your plan is covered.' },
     { q: 'What conditions does TeleDirectMD treat?', a: `TeleDirectMD treats a wide range of conditions via video visits, including virtual urgent care (UTIs (women only), sinus infections, influenza, COVID-19, sore throat, pink eye, ear pain), women\u2019s health (bacterial vaginosis, yeast infections), men\u2019s health, skin conditions (acne, eczema, cellulitis, shingles, cold sores), and medication refills (migraine, asthma, GERD). Visit our <a href="/what-we-treat/">What We Treat</a> page for the complete list.` },
     { q: 'How do I book a TeleDirectMD appointment?', a: 'Booking takes about 2 minutes. Visit <a href="/book-online/">teledirectmd.com/book-online</a>, select your condition and preferred time, confirm your state of residence, and complete the $79 payment. Same-day appointments are available 7 days a week. No app download required.' },

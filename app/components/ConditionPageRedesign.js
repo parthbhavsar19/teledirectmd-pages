@@ -270,7 +270,7 @@ export default function ConditionPageRedesign({
           <div className="cpr-wrap">
             <p className="cpr-kicker">What it costs</p>
             <h2>{price} flat. HSA/FSA accepted.</h2>
-            <p className="cpr-lead">One fee covers the visit — no facility fees, no surprise billing. Here is how it compares to other care settings.</p>
+            <p className="cpr-lead">One fee covers the visit — no facility fees, no hidden fees. Here is how it compares to other care settings.</p>
             <div className="cpr-pcgrid">
               <div className="cpr-pcard">
                 <div className="big">{price}</div>
@@ -585,7 +585,7 @@ export default function ConditionPageRedesign({
                 const slug = rc.slug || rc.href || '';
                 const name = rc.name || rc.title || rc.label || '';
                 return (
-                  <a className="cpr-linkcard" key={i} href={slug.startsWith('/') ? slug : `/${slug}`}>
+                  <a className="cpr-linkcard" key={i} href={slug.startsWith("/") ? slug : `/${slug}/`}>
                     <span className="t">{clean(name, stateName)}</span>
                     <span className="d">Online MD video visit</span>
                   </a>
@@ -597,7 +597,7 @@ export default function ConditionPageRedesign({
       )}
 
       {/* QUICK LINKS: cost, compare, symptoms (styled cards) */}
-      {(costLink || comparePage || (symptomLinks && symptomLinks.length > 0) || (secondaryCostPages && secondaryCostPages.length > 0)) && (
+      {(costLink || comparePage || (secondaryCostPages && secondaryCostPages.length > 0)) && (
         <section className="cpr-sec">
           <div className="cpr-wrap">
             <p className="cpr-kicker">Helpful links</p>
@@ -621,12 +621,6 @@ export default function ConditionPageRedesign({
                   <span className="d">Side-by-side comparison</span>
                 </a>
               )}
-              {(symptomLinks || []).filter(Boolean).map((s, i) => (
-                <a className="cpr-linkcard" href={`/symptoms/${s.slug}/`} key={`sy${i}`}>
-                  <span className="t">{s.title || s.name || s.slug}</span>
-                  <span className="d">Symptom guide</span>
-                </a>
-              ))}
             </div>
           </div>
         </section>

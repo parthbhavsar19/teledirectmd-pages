@@ -123,7 +123,7 @@ export default function TribalHealthAlaskaPartnership() {
           <nav className="tdmd-partner-breadcrumb" aria-label="Breadcrumb">
             <a href="/">Home</a>
             <span>›</span>
-            <a href="/partners/">Partners</a>
+            <span>Partners</span>
             <span>›</span>
             <span aria-current="page">Alaska Tribal Health</span>
           </nav>

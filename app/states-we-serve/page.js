@@ -128,7 +128,7 @@ function buildJsonLd(allStates, categories) {
           {
             '@type': 'Question',
             name: 'How much does a TeleDirectMD visit cost?',
-            acceptedAnswer: { '@type': 'Answer', text: 'Every TeleDirectMD visit is a flat $79 — no hidden fees, no copays, no surprise charges. This includes your full video consultation with a board-certified physician and any prescriptions sent to your pharmacy if clinically appropriate. No insurance is required.' },
+            acceptedAnswer: { '@type': 'Answer', text: 'Every TeleDirectMD visit is a flat $79 — no hidden fees, no copays, no hidden fees. This includes your full video consultation with a board-certified physician and any prescriptions sent to your pharmacy if clinically appropriate. No insurance is required.' },
           },
           {
             '@type': 'Question',
@@ -206,7 +206,7 @@ function buildFeaturedStates(allStates, categories) {
       categoryName: cat.categoryName,
       conditions: cat.conditions.map(c => ({
         name: c.name,
-        href: `/${slug}/${c.slug}`,
+        href: `/${slug}/${c.slug}/`,
       })),
     })).filter(cat => cat.conditions.length > 0);
 
@@ -220,26 +220,26 @@ function buildFeaturedStates(allStates, categories) {
     if (urgentCare) {
       previewCategories.push({
         label: 'Urgent Care',
-        conditions: urgentCare.conditions.slice(0, 4).map(c => ({ name: c.name, href: `/${slug}/${c.slug}` })),
+        conditions: urgentCare.conditions.slice(0, 4).map(c => ({ name: c.name, href: `/${slug}/${c.slug}/` })),
       });
     }
     if (womensHealth) {
       previewCategories.push({
         label: "Women's Health",
-        conditions: womensHealth.conditions.slice(0, 2).map(c => ({ name: c.name, href: `/${slug}/${c.slug}` })),
+        conditions: womensHealth.conditions.slice(0, 2).map(c => ({ name: c.name, href: `/${slug}/${c.slug}/` })),
       });
     }
     if (skinConditions || refills) {
       const src = skinConditions || refills;
       previewCategories.push({
         label: skinConditions ? 'Skin & Other' : 'Refills',
-        conditions: (src).conditions.slice(0, 2).map(c => ({ name: c.name, href: `/${slug}/${c.slug}` })),
+        conditions: (src).conditions.slice(0, 2).map(c => ({ name: c.name, href: `/${slug}/${c.slug}/` })),
       });
     }
 
     /* All conditions flat list for the expandable section */
     const allConditions = categories.flatMap(cat =>
-      cat.conditions.map(c => ({ name: c.name, href: `/${slug}/${c.slug}` }))
+      cat.conditions.map(c => ({ name: c.name, href: `/${slug}/${c.slug}/` }))
     );
 
     featured.push({

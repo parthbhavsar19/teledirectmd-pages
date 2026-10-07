@@ -32,7 +32,7 @@ export default function GigWorkersPage() {
   const faqItems = [
     {
       q: 'Do I need health insurance to use TeleDirectMD?',
-      a: 'No. TeleDirectMD offers transparent cash-pay pricing starting at $79 per visit — no insurance required. Gig workers are uninsured at roughly three times the rate of traditionally employed Americans, and TeleDirectMD was built to serve patients exactly like you. We also accept select insurance plans in some states. You will know your cost upfront before booking — no surprise bills.'
+      a: 'No. TeleDirectMD offers transparent cash-pay pricing starting at $79 per visit — no insurance required. Gig workers are uninsured at roughly three times the rate of traditionally employed Americans, and TeleDirectMD was built to serve patients exactly like you. We also accept select insurance plans in some states. You will know your cost upfront before booking — no hidden fees.'
     },
     {
       q: 'How much does a telehealth visit cost without insurance?',
@@ -317,7 +317,7 @@ export default function GigWorkersPage() {
       {/* ── 6. Transparent Pricing ──────────────────────────────── */}
       <section className="tdmd-section" id="gig-workers-pricing">
         <div className="tdmd-container">
-          <h2>Transparent Pricing — No Surprise Bills</h2>
+          <h2>Transparent Pricing — No Hidden Fees</h2>
           <p>Telehealth visits are significantly cheaper than in-person alternatives. A Penn Medicine study found telehealth visits average $96 compared to $509 for in-person episodes — five times less expensive. For gig workers without insurance, the difference between a $79 telehealth visit and a $250+ urgent care visit can represent an entire day's earnings.</p>
           <div className="tdmd-price-grid">
             <div className="tdmd-price-card" aria-label="TeleDirectMD pricing">
@@ -327,7 +327,7 @@ export default function GigWorkersPage() {
               <ul className="tdmd-price-includes">
                 <li>Board-certified physician consultation</li>
                 <li>Prescriptions sent to any U.S. pharmacy</li>
-                <li>No hidden fees or surprise billing</li>
+                <li>No hidden fees</li>
                 <li>Insurance accepted in select states</li>
               </ul>
             </div>

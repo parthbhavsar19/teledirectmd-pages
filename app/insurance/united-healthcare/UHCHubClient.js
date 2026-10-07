@@ -11,17 +11,23 @@ import MedicaidExclusion from '../../components/MedicaidExclusion';
 const insurer = INSURERS["united-healthcare"];
 
 const UHC_STATES = [
+  { code:"AZ", name:"Arizona", url:"/az/" },
+  { code:"CA", name:"California", url:"/ca/" },
   { code:"CO", name:"Colorado", url:"/co/" },
+  { code:"FL", name:"Florida", url:"/fl/" },
   { code:"GA", name:"Georgia", url:"/ga/" },
   { code:"IL", name:"Illinois", url:"/il/" },
+  { code:"LA", name:"Louisiana", url:"/la/" },
+  { code:"MI", name:"Michigan", url:"/mi/" },
   { code:"MN", name:"Minnesota", url:"/mn/" },
   { code:"NC", name:"North Carolina", url:"/nc/" },
   { code:"NJ", name:"New Jersey", url:"/nj/" },
   { code:"OH", name:"Ohio", url:"/oh/" },
+  { code:"OK", name:"Oklahoma", url:"/ok/" },
   { code:"PA", name:"Pennsylvania", url:"/pa/" },
   { code:"TN", name:"Tennessee", url:"/tn/" },
   { code:"TX", name:"Texas", url:"/tx/", newBadge:"New · June 2026" },
-      { code:"WA", name:"Washington", url:"/wa/" },
+  { code:"WA", name:"Washington", url:"/wa/" },
 ];
 
 const UHC_FAQS = [
@@ -260,12 +266,12 @@ export default function UHCHubClient() {
           <h2 style={{ fontFamily:B.fd, fontSize:22, fontWeight:700, color:B.navy, margin:"0 0 16px" }}>Most-requested UHC telehealth conditions</h2>
           <div style={{ display:"grid", gridTemplateColumns:"repeat(auto-fill, minmax(220px, 1fr))", gap:10 }}>
             {[
-              { slug: 'uti-treatment-online', label: 'UTI under UHC Choice Plus' },
-              { slug: 'sinus-infection-treatment-online', label: 'Sinus infection under UHC' },
+              { slug: 'uti-treatment', label: 'UTI under UHC Choice Plus' },
+              { slug: 'sinus-infection', label: 'Sinus infection under UHC' },
               { slug: 'covid-treatment-online', label: 'COVID-19 evaluation (UHC)' },
-              { slug: 'sore-throat-treatment-online', label: 'Strep throat (UHC commercial)' },
-              { slug: 'pink-eye-treatment-online', label: 'Pink eye (UHC PPO)' },
-              { slug: 'yeast-infection-treatment-online', label: 'Yeast infection (UHC)' },
+              { slug: 'strep-throat', label: 'Strep throat (UHC commercial)' },
+              { slug: 'pink-eye', label: 'Pink eye (UHC PPO)' },
+              { slug: 'yeast-infection', label: 'Yeast infection (UHC)' },
             ].filter((c) => insuranceHref(`/insurance/united-healthcare/${c.slug}`)).map((c, i) => (
               <a key={i} href={insuranceHref(`/insurance/united-healthcare/${c.slug}`)}
                 style={{ display:"block", background:B.white, border:`1px solid ${B.border}`, borderRadius:B.rs, padding:"14px 16px", textDecoration:"none", boxShadow:B.shadow }}>

@@ -91,7 +91,7 @@ const FAQS = [
   {
     question: 'Is TeleDirectMD an MD-only practice?',
     answer:
-      'Yes. Every visit at TeleDirectMD is conducted by Dr. Parth Bhavsar, a board-certified Family Medicine physician (NPI 1104323203). No nurse practitioners, no physician assistants, no AI triage that replaces the physician. Many competing platforms — including Teladoc, MDLIVE, and Amwell — actively hire NPs and PAs for urgent care visits and do not allow patients to select their provider type. If seeing an actual MD matters to you, TeleDirectMD is the only major telehealth platform that guarantees it.',
+      'Yes. Every visit at TeleDirectMD is conducted by Dr. Parth Bhavsar, a board-certified Family Medicine physician (NPI 1104323203). No nurse practitioners, no physician assistants, no AI triage that replaces the physician. Many competing platforms — including Teladoc, MDLIVE, and Amwell — actively hire NPs and PAs for urgent care visits and do not allow patients to select their provider type. If seeing an actual MD matters to you, TeleDirectMD guarantees it: every visit is with Parth Bhavsar, MD.',
   },
   {
     question: 'Which telehealth service covers the most states?',
@@ -583,7 +583,7 @@ export default function CompareHubPage() {
           <div className="cmp-link-cloud">
             <a href="/cost/">Cost Guides by Condition</a>
             <a href="/insurance/">Insurance &amp; Pricing</a>
-            <a href="/symptoms/">Symptoms Directory</a>
+            <a href="/what-we-treat/">What We Treat</a>
             <a href="/faq/">FAQ</a>
             <a href="/about/">About Dr. Bhavsar, MD</a>
             <a href="/states-we-serve/">States We Serve</a>

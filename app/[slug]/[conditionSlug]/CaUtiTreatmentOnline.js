@@ -46,7 +46,7 @@ const PHYSICIAN = {
   specialty: 'Family Medicine',
   licenseState: 'California',
   headshot: '/images/dr-parth-bhavsar.jpg',
-  bioUrl: '/about',
+  bioUrl: '/about/',
 };
 
 // California payors — sourced from Notion payor enrollment (refreshed 2026-05-19)
@@ -108,7 +108,7 @@ const FAQ_ITEMS = [
   { question: 'Can I get UTI treatment online in California?',
     answer: (
       <p>
-        Yes. <a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=2290.5.&lawCode=BPC" rel="noopener" target="_blank">California Business and Professions Code Section 2290.5</a> — the Telehealth Advancement Act — permits licensed physicians to deliver care via synchronous video telehealth without a prior in-person visit. Dr. Bhavsar is licensed in California and held to the same standard of care as in-person physicians by the <a href="https://www.mbc.ca.gov/Resources/Medical-Resources/telehealth.aspx" rel="noopener" target="_blank">Medical Board of California</a>. Non-pregnant women 18+ located in California can book a same-day video visit. If your symptoms are consistent with uncomplicated cystitis and you pass a red-flag screening, a prescription can be sent electronically to your California pharmacy. Self pay is $79. <a href="/insurance/aetna/california/uti-treatment/">Aetna is in-network</a> as of April 30, 2026.
+        Yes. <a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=2290.5.&lawCode=BPC" rel="noopener" target="_blank">California Business and Professions Code Section 2290.5</a> — the Telehealth Advancement Act — permits licensed physicians to deliver care via synchronous video telehealth without a prior in-person visit. Dr. Bhavsar is licensed in California and held to the same standard of care as in-person physicians by the <a href="https://www.mbc.ca.gov/Resources/Medical-Resources/telehealth.aspx" rel="noopener" target="_blank">Medical Board of California</a>. Non-pregnant women 18+ located in California can book a same-day video visit. If your symptoms are consistent with uncomplicated cystitis and you pass a red-flag screening, a prescription can be sent electronically to your California pharmacy. Self pay is $79. <a href="/insurance/aetna/california/">Aetna is in-network</a> as of April 30, 2026.
       </p>
     ),
   },
@@ -122,7 +122,7 @@ const FAQ_ITEMS = [
   { question: 'Is my Aetna plan in California in-network with TeleDirectMD?',
     answer: (
       <p>
-        Aetna became an active in-network payor for TeleDirectMD in California effective April 30, 2026. If you hold an Aetna commercial plan in California, you may be able to use your in-network benefits. Always verify current in-network status directly with Aetna before your visit, as plan eligibility varies by specific plan type. See <a href="/insurance/aetna/california/uti-treatment/">Aetna × California × UTI coverage details</a>. Self pay ($79) is available regardless of insurance status.
+        Aetna became an active in-network payor for TeleDirectMD in California effective April 30, 2026. If you hold an Aetna commercial plan in California, you may be able to use your in-network benefits. Always verify current in-network status directly with Aetna before your visit, as plan eligibility varies by specific plan type. See <a href="/insurance/aetna/california/">Aetna × California × UTI coverage details</a>. Self pay ($79) is available regardless of insurance status.
       </p>
     ),
   },
@@ -679,7 +679,7 @@ export default function CaUtiTreatmentOnline() {
             </div>
 
             <p style={{ marginTop: '1rem' }}>
-              For deeper detail, see <a href="/insurance/aetna/california/uti-treatment/">Aetna × California × UTI coverage</a> or view all <a href="/insurance/">insurance options</a>. The full <a href="/health-guides/telehealth-uti-clinical-evidence/">telehealth UTI clinical evidence guide</a> walks through the rationale behind our stewardship approach.
+              For deeper detail, see <a href="/insurance/aetna/california/">Aetna in California coverage</a> or view all <a href="/insurance/">insurance options</a>. The full <a href="/health-guides/telehealth-uti-clinical-evidence/">telehealth UTI clinical evidence guide</a> walks through the rationale behind our stewardship approach.
             </p>
           </div>
         </section>
@@ -835,7 +835,7 @@ export default function CaUtiTreatmentOnline() {
               <a href="/uti-treatment-online/">National UTI page (condition pillar)</a>
               <a href="/health-guides/telehealth-uti-clinical-evidence/">Telehealth UTI clinical evidence guide</a>
               <a href="/health-guides/urinary-tract-infection-uti-guide/">Urinary tract infection (UTI) patient guide</a>
-              <a href="/insurance/aetna/california/uti-treatment/">Aetna × California × UTI coverage</a>
+              <a href="/insurance/aetna/california/">Aetna in California coverage</a>
               <a href="/about/">About Dr. Bhavsar</a>
               <a href="/book-online/">Book Online</a>
               <a href="/what-we-treat/">What We Treat</a>

@@ -20,7 +20,7 @@ export default function GoodFaithEstimate() {
 
         <h2 style={s.h2}>How This Works at TeleDirectMD</h2>
         <p>TeleDirectMD offers virtual visits at a flat fee of <strong>$79 per consultation</strong>. Whether you are uninsured, self-pay, or choosing not to use your insurance for a particular visit, you are entitled to a Good Faith Estimate before services are provided.</p>
-        <p>For patients paying out of pocket, our <strong>$79 flat fee</strong> covers your complete video consultation with a board-certified physician, including any prescriptions sent to your pharmacy during the visit. There are no hidden fees, no copays, and no surprise charges for the visit itself.</p>
+        <p>For patients paying out of pocket, our <strong>$79 flat fee</strong> covers your complete video consultation with a board-certified physician, including any prescriptions sent to your pharmacy during the visit. There are no hidden fees, no copays, and no hidden fees for the visit itself.</p>
         <p style={{ fontSize: '0.92rem', color: '#666', fontStyle: 'italic' }}>Note: Effective May 23, 2026, our self-pay consultation fee was updated from $49 to $79. Visits scheduled for May 23, 2026 onward are billed at the $79 rate.</p>
 
         <h2 style={s.h2}>Your Rights Under the No Surprises Act</h2>

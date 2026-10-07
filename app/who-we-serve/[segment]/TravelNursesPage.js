@@ -36,7 +36,7 @@ export default function TravelNursesPage() {
     },
     {
       q: 'Do I need insurance to use TeleDirectMD as a travel nurse?',
-      a: 'No. TeleDirectMD offers transparent cash-pay pricing starting at $79 per visit — no insurance required. Many travel nurses have insurance through their staffing agency, but it can come with high deductibles, confusing networks that vary by state, or mid-assignment coverage gaps. We also accept insurance in select states. Either way, you\'ll know your cost before you book — no surprise bills. A Penn Medicine study found telehealth visits average $96 compared to $509 for in-person care episodes, making it significantly more cost-effective even when you do have coverage.'
+      a: 'No. TeleDirectMD offers transparent cash-pay pricing starting at $79 per visit — no insurance required. Many travel nurses have insurance through their staffing agency, but it can come with high deductibles, confusing networks that vary by state, or mid-assignment coverage gaps. We also accept insurance in select states. Either way, you\'ll know your cost before you book — no hidden fees. A Penn Medicine study found telehealth visits average $96 compared to $509 for in-person care episodes, making it significantly more cost-effective even when you do have coverage.'
     },
     {
       q: 'Can you refill my prescriptions when I\'m in a new state?',
@@ -317,7 +317,7 @@ export default function TravelNursesPage() {
       {/* ── 6. Transparent Pricing ──────────────────────────────── */}
       <section className="tdmd-section" id="travel-nurses-pricing">
         <div className="tdmd-container">
-          <h2>Transparent Pricing — No Surprise Bills</h2>
+          <h2>Transparent Pricing — No Hidden Fees</h2>
           <p>Even with staffing agency insurance, travel nurses often face high deductibles, out-of-network charges in unfamiliar states, or coverage gaps between assignments. TeleDirectMD's cash-pay option at $79 per visit is frequently the most practical choice. A Penn Medicine study found telehealth visits average $96 compared to $509 for in-person care episodes — and that's before accounting for the time cost of finding a new provider in an unfamiliar city.</p>
           <div className="tdmd-price-grid">
             <div className="tdmd-price-card" aria-label="TeleDirectMD pricing">
@@ -327,7 +327,7 @@ export default function TravelNursesPage() {
               <ul className="tdmd-price-includes">
                 <li>Board-certified Family Medicine physician consultation</li>
                 <li>Prescriptions sent to any U.S. pharmacy</li>
-                <li>No hidden fees or surprise billing</li>
+                <li>No hidden fees</li>
                 <li>Insurance accepted in select states</li>
                 <li>HSA and FSA accepted</li>
               </ul>

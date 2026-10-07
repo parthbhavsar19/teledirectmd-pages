@@ -47,7 +47,7 @@ const COST_CATALOG = [
   {
     slug: 'diabetes-refills-cost',
     name: 'Diabetes Medication Refill Cost',
-    desc: 'Stable type 2 diabetes patients can refill metformin and other non-insulin oral medications online for $79.',
+    desc: 'Stable type 2 diabetes patients can refill metformin and other oral medications, or a current insulin dose as a bridge, online for $79.',
   },
   {
     slug: 'ear-infection-cost',
@@ -415,7 +415,7 @@ export default function CostHubPage() {
             <div className="cst-price-big">$79</div>
             <p className="cst-price-sub">Flat self-pay fee &mdash; every visit, every condition</p>
             <p style={{ margin: 0, fontSize: '0.95rem', color: 'var(--tdmd-text)', lineHeight: 1.6 }}>
-              No per-visit premium for complex conditions. No facility fee. No surprise billing. The $79 covers your
+              No per-visit premium for complex conditions. No facility fee. No hidden fees. The $79 covers your
               physician evaluation and any prescriptions written. You pay the pharmacy separately for your medication.
               HSA and FSA cards accepted. Insurance copay applies when TeleDirectMD is in-network with your plan.
             </p>
@@ -619,7 +619,7 @@ export default function CostHubPage() {
           <div className="cst-link-cloud">
             <a href="/compare/">Compare TeleDirectMD vs. Competitors</a>
             <a href="/insurance/">Insurance &amp; Pricing</a>
-            <a href="/symptoms/">Symptoms Directory</a>
+            <a href="/what-we-treat/">What We Treat</a>
             <a href="/faq/">FAQ</a>
             <a href="/about/">About Dr. Bhavsar, MD</a>
             <a href="/states-we-serve/">States We Serve</a>
@@ -629,7 +629,7 @@ export default function CostHubPage() {
         {/* Bottom CTA */}
         <div className="cst-cta-bar">
           <div>
-            <h3>See a doctor online for $79 — flat, no surprises</h3>
+            <h3>See a doctor online for $79 — flat, no hidden fees</h3>
             <p>Same-day video visit with a board-certified MD. Prescriptions to your pharmacy. HSA/FSA accepted.</p>
           </div>
           <div className="cst-cta-bar-actions">

@@ -538,7 +538,7 @@ export default function CurativeStateClient({ state }) {
         <BookCTA
           insurerName="Curative"
           tagline={`Curative Commercial PPO, EPO, and self-funded plans in ${state.name}, verified before your video visit.`}
-          subtagline="Or pay $79 flat self-pay (HSA and FSA eligible), with no claim and no copay surprises."
+          subtagline="Or pay $79 flat self-pay (HSA and FSA eligible), with no claim and no copay."
         />
 
         <CommissionerLink stateCode={state.code} stateName={state.name} />

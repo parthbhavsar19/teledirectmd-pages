@@ -14,7 +14,7 @@ export default function FlightAttendantsPage() {
     { name: 'Prescription Refills', slug: 'hypertension-refills-online', desc: 'When you are almost never in your home city during pharmacy or clinic hours, refills lapse. We review your history and route blood-pressure, thyroid, asthma, reflux, and allergy refills to any U.S. pharmacy near your current position. No controlled substances.' },
     { name: 'Motion Sickness & Nausea', slug: 'travel-medicine-treatment-online', desc: 'Turbulence-heavy rotations, back-of-the-clock flying, and rough approaches trigger nausea. We counsel on and prescribe non-controlled motion-sickness options where appropriate as part of our travel-medicine service.' },
     { name: "Traveler's Diarrhea (standby)", slug: 'travel-medicine-treatment-online', desc: 'International layovers and unfamiliar food and water are a recurring problem. We can provide standby antibiotic therapy guidance for traveler\u2019s diarrhea before a trip so you are not sick and stranded on a turn.' },
-    { name: "Women's Health", slug: 'bacterial-vaginosis-treatment-online', desc: 'BV, yeast infections, and birth-control refills are difficult to manage on a schedule that keeps you out of your home city for days at a time. We handle these by secure video without an in-person visit where clinically appropriate.' },
+    { name: "Women's Health", slug: 'bv-treatment-online', desc: 'BV, yeast infections, and birth-control refills are difficult to manage on a schedule that keeps you out of your home city for days at a time. We handle these by secure video without an in-person visit where clinically appropriate.' },
     { name: 'Seasonal Allergies', slug: 'seasonal-allergies-treatment-online', desc: 'A different base, a different city, and a different pollen season every few days. We evaluate and prescribe allergy treatment that works regardless of where this week\u2019s rotation takes you.' },
     { name: 'Skin, Bites & Rashes', slug: 'contact-dermatitis-treatment-online', desc: 'Hotel-room bites, contact rashes, and sun exposure from high-altitude UV are common. Send a photo, get evaluated, and get a prescription to a pharmacy near your hotel.' },
   ];
@@ -54,7 +54,7 @@ export default function FlightAttendantsPage() {
     },
     {
       q: 'Do I need insurance, and what does it cost?',
-      a: 'No insurance is required. TeleDirectMD uses transparent cash-pay pricing at $79 per visit, and you know the price before you book \u2014 no surprise bills. Many crew members have employer coverage, but it is often impractical on the road: a network that varies by state, a high deductible, or the simple fact that you cannot get to an in-network clinic while you are on a three-day trip. We accept credit and debit cards, HSA, and FSA. For the off-hours, layover, reserve, and part-time gaps this service is built for, a flat $79 is usually the fastest and most predictable option.'
+      a: 'No insurance is required. TeleDirectMD uses transparent cash-pay pricing at $79 per visit, and you know the price before you book \u2014 no hidden fees. Many crew members have employer coverage, but it is often impractical on the road: a network that varies by state, a high deductible, or the simple fact that you cannot get to an in-network clinic while you are on a three-day trip. We accept credit and debit cards, HSA, and FSA. For the off-hours, layover, reserve, and part-time gaps this service is built for, a flat $79 is usually the fastest and most predictable option.'
     },
     {
       q: 'Will this compete with the free clinic or virtual care my airline already gives me?',
@@ -177,7 +177,7 @@ export default function FlightAttendantsPage() {
                 <li>Licensed in 40+ states plus D.C. &mdash; care from nearly any layover or base</li>
                 <li>Prescriptions to any pharmacy near your hotel &mdash; no controlled substances</li>
                 <li>Same-day visits, evenings &amp; weekends &mdash; built around back-of-the-clock schedules</li>
-                <li>Transparent $79 cash-pay &mdash; no insurance required, no surprise bills</li>
+                <li>Transparent $79 cash-pay &mdash; no insurance required, no hidden fees</li>
               </ul>
               <div className="tdmd-hero-ctas">
                 <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
@@ -325,7 +325,7 @@ export default function FlightAttendantsPage() {
       {/* ── 6. Pricing ──────────────────────────────────────────── */}
       <section className="tdmd-section" id="flight-attendants-pricing">
         <div className="tdmd-container">
-          <h2>Transparent Pricing &mdash; No Surprise Bills</h2>
+          <h2>Transparent Pricing &mdash; No Hidden Fees</h2>
           <p>For the layover, reserve, and off-hours gaps this service fills, a flat cash-pay visit is usually the fastest and most predictable option &mdash; no navigating an out-of-state network from a hotel. You know the price before you book.</p>
           <div className="tdmd-price-grid">
             <div className="tdmd-price-card" aria-label="TeleDirectMD pricing">
@@ -335,7 +335,7 @@ export default function FlightAttendantsPage() {
               <ul className="tdmd-price-includes">
                 <li>Board-certified Family Medicine physician consultation</li>
                 <li>Prescriptions sent to any U.S. pharmacy</li>
-                <li>No hidden fees or surprise billing</li>
+                <li>No hidden fees</li>
                 <li>HSA and FSA accepted</li>
                 <li>Itemized receipt for reimbursement</li>
               </ul>

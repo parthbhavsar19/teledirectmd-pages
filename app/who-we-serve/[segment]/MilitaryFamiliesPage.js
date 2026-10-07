@@ -7,13 +7,11 @@ export default function MilitaryFamiliesPage() {
 
   const conditions = [
     { name: 'Hypertension / High Blood Pressure', slug: 'hypertension-refills-online', desc: 'Blood pressure medication refills when your TRICARE-network PCP isn\'t available at your new base.' },
-    { name: 'Thyroid Management', slug: 'thyroid-management-online', desc: 'Medication continuity between PCS moves — keep your thyroid levels stable while establishing with a new provider.' },
-    { name: 'Anxiety', slug: 'anxiety-treatment-online', desc: 'Prescription management for anxiety during high-stress relocation and separation periods.' },
+    { name: 'Thyroid Management', slug: 'hypothyroidism-refills-online', desc: 'Medication continuity between PCS moves — keep your thyroid levels stable while establishing with a new provider.' },
     { name: 'UTI (women only)', slug: 'uti-treatment-online', desc: 'Fast antibiotic prescription — no need to find a new in-network provider for urgent needs.' },
     { name: 'Sinus Infection', slug: 'sinus-infection-treatment-online', desc: 'Evaluation and treatment for acute sinusitis.' },
-    { name: 'Skin Infections / Rashes', slug: 'skin-infection-treatment-online', desc: 'Cellulitis, rashes, and minor skin infections evaluated via video.' },
-    { name: 'Prescription Refills', slug: 'prescription-refills-online', desc: 'Bridge prescriptions during the gap between providers after a PCS move or separation.' },
-    { name: 'Insomnia', slug: 'insomnia-treatment-online', desc: 'Sleep evaluation during high-stress transition periods.' },
+    { name: 'Skin Infections / Rashes', slug: 'cellulitis-treatment-online', desc: 'Cellulitis, rashes, and minor skin infections evaluated via video.' },
+    { name: 'Prescription Refills', slug: '', desc: 'Bridge prescriptions during the gap between providers after a PCS move or separation.' },
     { name: 'Respiratory Infections', slug: 'common-cold-treatment-online', desc: 'Flu, bronchitis, and respiratory infection treatment without waiting for a new PCP appointment.' },
     { name: 'High Cholesterol', slug: 'hyperlipidemia-refills-online', desc: 'Statin refills and cholesterol management between providers.' },
   ];
@@ -483,7 +481,7 @@ export default function MilitaryFamiliesPage() {
           <div className="tdmd-grid tdmd-grid-2">
             {conditions.map(c => (
               <div key={c.slug} className="tdmd-card">
-                <h3><a href={`/what-we-treat/${c.slug}/`}>{c.name}</a></h3>
+                <h3><a href={c.slug ? `/${c.slug}/` : '/what-we-treat/'}>{c.name}</a></h3>
                 <p>{c.desc}</p>
               </div>
             ))}
@@ -826,7 +824,7 @@ export default function MilitaryFamiliesPage() {
             </div>
             <div className="tdmd-related-card">
               <p className="tdmd-related-title">Uninsured Adults</p>
-              <p className="tdmd-related-desc">No insurance? Transparent pricing, no surprise bills.</p>
+              <p className="tdmd-related-desc">No insurance? Transparent pricing, no hidden fees.</p>
               <a href="/who-we-serve/uninsured-affordable-care/" className="tdmd-btn tdmd-btn-outline">Learn More</a>
             </div>
             <div className="tdmd-related-card">
@@ -847,7 +845,7 @@ export default function MilitaryFamiliesPage() {
           </div>
           <div className="tdmd-inline-links">
             <div className="tdmd-link-cloud">
-              <a href="/insurance-pricing/">Insurance &amp; Pricing</a>
+              <a href="/insurance/">Insurance &amp; Pricing</a>
               <a href="/states-we-serve/">States We Serve</a>
               <a href="/what-we-treat/">What We Treat</a>
               <a href="#military-families-faq">FAQ</a>

@@ -278,7 +278,7 @@ const sections = [
             <ul>
               <li><Link href="/who-we-serve/truck-drivers/"><strong>Truck drivers</strong></Link> and mobile workers</li>
               <li><Link href="/who-we-serve/gig-workers/"><strong>Gig workers</strong></Link> without employer-sponsored coverage</li>
-              <li><Link href="/who-we-serve/uninsured/"><strong>Uninsured individuals</strong></Link> seeking affordable care</li>
+              <li><Link href="/who-we-serve/uninsured-affordable-care/"><strong>Uninsured individuals</strong></Link> seeking affordable care</li>
               <li><Link href="/who-we-serve/remote-workers/"><strong>Remote workers</strong></Link> who prefer virtual-first healthcare</li>
               <li><Link href="/who-we-serve/travel-nurses/"><strong>Travel nurses</strong></Link> moving between states</li>
               <li><Link href="/who-we-serve/small-business-owners/"><strong>Small business owners</strong></Link> who need a flexible provider</li>

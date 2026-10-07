@@ -676,7 +676,7 @@ export const AETNA_CA_CONDITION_DETAILS = {
 
   "poison-ivy-oak-treatment": {
     "slug": "poison-ivy-oak-treatment",
-    "conditionPageSlug": "poison-oak-treatment-online",
+    "conditionPageSlug": "poison-ivy-oak-treatment-online",
     "name": "Poison Oak / Ivy Treatment",
     "displayName": "Poison Oak Contact Dermatitis",
     "shortDesc": "Prescription-strength prednisone taper and itch relief for moderate-to-severe poison oak or poison ivy rash.",
@@ -1289,7 +1289,7 @@ export const AETNA_CA_CONDITION_DETAILS = {
 
   "diabetes-refills": {
     "slug": "diabetes-refills",
-    "conditionPageSlug": "diabetes-medication-refills-online",
+    "conditionPageSlug": "diabetes-refills-online",
     "name": "Diabetes Medication Refills",
     "displayName": "Type 2 Diabetes Medication Refills",
     "shortDesc": "Refill metformin, SGLT-2 inhibitors, and other oral agents for stable type 2 diabetes via video visit.",
@@ -1300,7 +1300,7 @@ export const AETNA_CA_CONDITION_DETAILS = {
       "typical": "Metformin 500–2000mg daily in divided doses (Tier 1, first-line per ADA 2026 Standards of Care); empagliflozin 10–25mg daily or dapagliflozin 10mg daily (SGLT-2 inhibitors — preferred in patients with established ASCVD, heart failure, or CKD per ADA 2026 comorbidity-driven algorithm); dulaglutide 0.75–1.5mg weekly SQ or semaglutide 0.5–2mg weekly SQ (GLP-1 RA — preferred with ASCVD, obesity, or need for weight loss)",
       "alternatives": "Glipizide 5–20mg daily or glimepiride 1–4mg daily (sulfonylureas — Tier 1 generics, de-emphasized in ADA 2026 but appropriate when cost limits preferred agents); sitagliptin 100mg daily (DPP-4 — low hypoglycemia risk, renal dose-adjust); tirzepatide 5–15mg weekly (dual GIP/GLP-1, most potent A1c and weight reduction per ADA 2026 Rec 8.20 — requires PA + step therapy); basal insulin glargine 10–40 units at bedtime for patients with A1c >10% or symptomatic hyperglycemia",
       "coveredByInsurance": "Yes — metformin is Tier 1 covered on all Aetna CA commercial plans (~$4–$10/month). SGLT-2 inhibitors are Tier 2–3 and typically covered with formulary copay ($40–$80/month on most plans) after PA on some plans. GLP-1 agonists require PA and documented step therapy through metformin; if approved, typically Tier 3 specialty copay ($60–$120/month on most commercial plans). TeleDirectMD does not prescribe GLP-1 medications.",
-      "notes": "ADA Standards of Care 2026 shifts to a comorbidity-driven model: drug selection is guided by ASCVD, heart failure, CKD, and obesity — not glycemic targets alone. SGLT-2 inhibitors are organ-protection drugs (reduce HF hospitalization, CKD progression) and may be initiated independent of metformin. GLP-1 RAs provide CV risk reduction (MACE benefit) and clinically significant weight loss. Continuous glucose monitoring (CGM) is now standard of care per ADA 2026. Insulin refills require stable established dosing; new insulin starts or dose titration in poorly controlled diabetes may need in-person endocrinology referral. Telehealth refills are appropriate for type 2 diabetes only; type 1 diabetes management is outside TDMD scope."
+      "notes": "ADA Standards of Care 2026 shifts to a comorbidity-driven model: drug selection is guided by ASCVD, heart failure, CKD, and obesity — not glycemic targets alone. SGLT-2 inhibitors are organ-protection drugs (reduce HF hospitalization, CKD progression) and may be initiated independent of metformin. GLP-1 RAs provide CV risk reduction (MACE benefit) and clinically significant weight loss. Continuous glucose monitoring (CGM) is now standard of care per ADA 2026. TeleDirectMD refills current, stable insulin doses only, as a bridge until the patient sees their primary care physician, and requires the most recent HbA1c; new insulin starts and dose changes go to primary care or endocrinology. Telehealth refills are appropriate for type 2 diabetes only; type 1 diabetes management is outside TDMD scope."
     },
     "clinicalDepth": "Type 2 diabetes affects approximately 38 million Americans (11.6% of the population), with disproportionately high prevalence in California's Central Valley agricultural communities and among Hispanic/Latino populations. The ADA 2026 Standards of Care (Recommendation 9.9a and related) represent a paradigm shift: diabetes is now classified as a cardio-renal-metabolic disease, and drug selection is comorbidity-driven rather than glucose-centric. Telehealth refill visits are well-validated for stable type 2 diabetes — Dr. Bhavsar reviews home glucose logs or CGM data, current A1c trend, medication adherence, hypoglycemia episodes, and screens for complications. Red flags requiring in-person endocrinology referral include: suspected type 1 or LADA, diabetic ketoacidosis (DKA), recurrent severe hypoglycemia, significant renal or hepatic dysfunction, or pregnancy with preexisting diabetes.",
     "diagnosisMethod": "Review of existing diabetes diagnosis documentation, current medications, and adherence. Assessment of home glucose log or CGM time-in-range data, most recent A1c (patient-reported or accessible through records), hypoglycemia frequency, symptoms of poor control. Comorbidity screening per ADA 2026: ASCVD history, CHF symptoms, estimated renal function trend, and weight trajectory.",
@@ -1312,7 +1312,7 @@ export const AETNA_CA_CONDITION_DETAILS = {
       },
       {
         "q": "Can TDMD refill insulin for my type 2 diabetes via telehealth?",
-        "a": "Yes, with appropriate clinical context. Insulin refills are appropriate for patients on stable, established dosing regimens — for example, basal insulin glargine at a fixed nightly dose that has been working well. Dr. Bhavsar will review your glucose log or CGM data and confirm the current dose is appropriate. New insulin starts, significant dose titration, or management of recurrent hypoglycemia are more complex and may require in-person endocrinology evaluation. All basal insulin formulations (glargine biosimilars, detemir) are covered on Aetna CA pharmacy benefit, typically at Tier 2."
+        "a": "Yes, with appropriate clinical context. Insulin refills are appropriate for patients on stable, established dosing regimens — for example, basal insulin glargine at a fixed nightly dose that has been working well. Dr. Bhavsar can refill your current dose as a bridge until you see your primary care physician, and you must provide your most recent HbA1c result. Dr. Bhavsar does not start insulin or change insulin doses; those decisions, and recurrent hypoglycemia, go to your primary care physician or endocrinologist. All basal insulin formulations (glargine biosimilars, detemir) are covered on Aetna CA pharmacy benefit, typically at Tier 2."
       },
       {
         "q": "My Aetna California plan denied my SGLT-2 inhibitor (Jardiance). What can TDMD do?",
@@ -1333,7 +1333,7 @@ export const AETNA_CA_CONDITION_DETAILS = {
 
   "epipen-refills": {
     "slug": "epipen-refills",
-    "conditionPageSlug": "epinephrine-auto-injector-refills-online",
+    "conditionPageSlug": "epipen-refills-online",
     "name": "EpiPen / Epinephrine Auto-Injector Refills",
     "displayName": "Epinephrine Auto-Injector (EpiPen) Refills",
     "shortDesc": "Refill your epinephrine auto-injector prescription for anaphylaxis preparedness without an in-person visit.",
@@ -1377,7 +1377,7 @@ export const AETNA_CA_CONDITION_DETAILS = {
 
   "excessive-sweating-treatment": {
     "slug": "excessive-sweating-treatment",
-    "conditionPageSlug": "hyperhidrosis-treatment-online",
+    "conditionPageSlug": "excessive-sweating-treatment-online",
     "name": "Excessive Sweating (Hyperhidrosis) Treatment",
     "displayName": "Primary Hyperhidrosis (Excessive Sweating)",
     "shortDesc": "Prescription topical and oral treatment for excessive sweating evaluated via video visit.",
@@ -1498,7 +1498,7 @@ export const AETNA_CA_CONDITION_DETAILS = {
 
   "hyperlipidemia-refills": {
     "slug": "hyperlipidemia-refills",
-    "conditionPageSlug": "cholesterol-medication-refills-online",
+    "conditionPageSlug": "hyperlipidemia-refills-online",
     "name": "High Cholesterol (Hyperlipidemia) Refills",
     "displayName": "Hyperlipidemia / High Cholesterol Medication Refills",
     "shortDesc": "Statin and cholesterol medication refills for stable hyperlipidemia with lab review via video visit.",
@@ -1539,7 +1539,7 @@ export const AETNA_CA_CONDITION_DETAILS = {
 
   "hypothyroidism-refills": {
     "slug": "hypothyroidism-refills",
-    "conditionPageSlug": "hypothyroidism-medication-refills-online",
+    "conditionPageSlug": "hypothyroidism-refills-online",
     "name": "Hypothyroidism Medication Refills",
     "displayName": "Hypothyroidism (Low Thyroid) Levothyroxine Refills",
     "shortDesc": "Levothyroxine refills for stable hypothyroidism with TSH review — no in-person visit required.",
@@ -1580,7 +1580,7 @@ export const AETNA_CA_CONDITION_DETAILS = {
 
   "migraine-refills": {
     "slug": "migraine-refills",
-    "conditionPageSlug": "migraine-medication-refills-online",
+    "conditionPageSlug": "migraine-refills-online",
     "name": "Migraine Medication Refills",
     "displayName": "Migraine — Acute and Preventive Medication Refills",
     "shortDesc": "Triptan refills and preventive migraine medication management, including CGRP agents, via telehealth.",
@@ -1625,7 +1625,7 @@ export const AETNA_CA_CONDITION_DETAILS = {
 
   "psoriasis-refills": {
     "slug": "psoriasis-refills",
-    "conditionPageSlug": "psoriasis-treatment-online",
+    "conditionPageSlug": "psoriasis-refills-online",
     "name": "Psoriasis Treatment Refills",
     "displayName": "Psoriasis — Topical and Systemic Treatment Refills",
     "shortDesc": "Topical psoriasis medications and biologic prior authorization support via telehealth.",

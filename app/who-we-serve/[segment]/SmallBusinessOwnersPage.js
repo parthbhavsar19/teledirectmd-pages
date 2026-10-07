@@ -33,7 +33,7 @@ export default function SmallBusinessOwnersPage() {
   const faqItems = [
     {
       q: 'How much does TeleDirectMD cost for small business owners without insurance?',
-      a: 'TeleDirectMD visits start at $79 self-pay — no insurance required. You know the cost before you book, with no surprise bills afterward. For comparison, a Penn Medicine study published in JAMA Network Open found that telehealth visits average $96 compared to $509 for equivalent in-person episodes. Urgent care without insurance typically runs $150–$350, and an ER visit can reach $500–$3,000 or more. For a self-employed professional without employer benefits, a $79 telehealth visit is often the most cost-effective option for the vast majority of non-emergency conditions. We also accept HSA and FSA funds, which many small business owners use to manage out-of-pocket healthcare costs.'
+      a: 'TeleDirectMD visits start at $79 self-pay — no insurance required. You know the cost before you book, with no hidden fees afterward. For comparison, a Penn Medicine study published in JAMA Network Open found that telehealth visits average $96 compared to $509 for equivalent in-person episodes. Urgent care without insurance typically runs $150–$350, and an ER visit can reach $500–$3,000 or more. For a self-employed professional without employer benefits, a $79 telehealth visit is often the most cost-effective option for the vast majority of non-emergency conditions. We also accept HSA and FSA funds, which many small business owners use to manage out-of-pocket healthcare costs.'
     },
     {
       q: 'Can TeleDirectMD manage ongoing conditions like high blood pressure or diabetes?',
@@ -318,7 +318,7 @@ export default function SmallBusinessOwnersPage() {
       {/* ── 6. Transparent Pricing ──────────────────────────────── */}
       <section className="tdmd-section" id="small-business-owners-pricing">
         <div className="tdmd-container">
-          <h2>Transparent Pricing — No Surprise Bills</h2>
+          <h2>Transparent Pricing — No Hidden Fees</h2>
           <p>For small business owners without employer-sponsored coverage, the cost difference between telehealth and traditional care is significant. A Penn Medicine study published in <em>JAMA Network Open</em> found that telehealth visits average $96 compared to $509 for in-person episodes — five times less expensive. For a self-employed professional paying full freight on healthcare, the math matters.</p>
           <div className="tdmd-price-grid">
             <div className="tdmd-price-card" aria-label="TeleDirectMD pricing">
@@ -328,7 +328,7 @@ export default function SmallBusinessOwnersPage() {
               <ul className="tdmd-price-includes">
                 <li>Board-certified physician consultation</li>
                 <li>Prescriptions sent to any U.S. pharmacy</li>
-                <li>No hidden fees or surprise billing</li>
+                <li>No hidden fees</li>
                 <li>HSA and FSA funds accepted</li>
                 <li>Insurance accepted in select states</li>
               </ul>
