@@ -15,7 +15,7 @@ export default function HdhpHsaHoldersPage() {
     { name: 'Acid Reflux / GERD Refills', slug: 'acid-reflux-refills-online', desc: 'PPI and H2 blocker refills for stable reflux — transparent flat fee, HSA/FSA card accepted.' },
     { name: 'Pink Eye / Conjunctivitis', slug: 'pink-eye-treatment-online', desc: 'Fast evaluation and prescription drops for pink eye — know your cost before you book.' },
     { name: 'Influenza', slug: 'influenza-treatment-online', desc: 'Same-day evaluation and antiviral prescriptions when clinically appropriate.' },
-    { name: 'Migraine Refills', slug: 'migraine-refills-online', desc: 'Prescription migraine medication refills at a predictable $79 — no surprise urgent-care bill.' },
+    { name: 'Migraine Refills', slug: 'migraine-refills-online', desc: 'Prescription migraine medication refills at a predictable $79 — no urgent-care bill.' },
   ];
 
   /* ── FAQ data ────────────────────────────────────────────────────── */
@@ -189,7 +189,7 @@ export default function HdhpHsaHoldersPage() {
               <div className="tdmd-hero-card">
                 <h2>Why HDHP Members Choose TeleDirectMD</h2>
                 <ul>
-                  <li>Predictable $79 flat fee &mdash; no deductible-math surprises</li>
+                  <li>Predictable $79 flat fee &mdash; no deductible math</li>
                   <li>HSA &amp; FSA cards accepted at checkout</li>
                   <li>Itemized receipt for deductible &amp; FSA reimbursement</li>
                   <li>Physician-led care, not an NP or marketplace provider</li>
@@ -265,7 +265,7 @@ export default function HdhpHsaHoldersPage() {
           </p>
           <div className="tdmd-cost-note" style={{ marginBottom: '1.5rem' }}>
             <p style={{ margin: 0 }}>
-              <strong>$79 flat. HSA/FSA accepted. No subscription. No surprise billing.</strong>
+              <strong>$79 flat. HSA/FSA accepted. No subscription. No hidden fees.</strong>
             </p>
           </div>
           <div className="tdmd-price-grid">
@@ -373,7 +373,7 @@ export default function HdhpHsaHoldersPage() {
               <div className="tdmd-decision-number">1</div>
               <div className="tdmd-decision-content">
                 <h3>Book Online &mdash; Pay With Your HSA Card</h3>
-                <p>Pick a time that works for you, enter your HSA, FSA, or any major credit/debit card, and confirm the $79 flat fee before booking. No surprise charges &mdash; you see the exact cost upfront.</p>
+                <p>Pick a time that works for you, enter your HSA, FSA, or any major credit/debit card, and confirm the $79 flat fee before booking. No hidden fees &mdash; you see the exact cost upfront.</p>
               </div>
             </div>
             <div className="tdmd-decision-step tdmd-decision-step-good">
@@ -437,7 +437,7 @@ export default function HdhpHsaHoldersPage() {
         <div className="tdmd-container">
           <h2>Ready for a Predictable $79 Physician Visit?</h2>
           <p>
-            Book a same-day visit with a board-certified physician. Use your HSA, FSA, or any major card. No insurance required. No surprise bills.
+            Book a same-day visit with a board-certified physician. Use your HSA, FSA, or any major card. No insurance required. No hidden fees.
           </p>
           <div className="tdmd-hero-ctas">
             <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a $79 Visit</a>

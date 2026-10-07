@@ -116,10 +116,10 @@ const FAQ_ITEMS = [
   {
     question: 'Does cash-pay sinus care cost less than insured options in Vermont?',
     answerPlain:
-      'Often, yes, especially for the uninsured or anyone on a high-deductible plan. The TeleDirectMD visit is a flat $79 with no insurance billing in Vermont. There is no claim, no copay surprise, and no facility fee. You pay the fee at booking; any antibiotic is filled separately at your pharmacy and may be covered by a pharmacy benefit.',
+      'Often, yes, especially for the uninsured or anyone on a high-deductible plan. The TeleDirectMD visit is a flat $79 with no insurance billing in Vermont. There is no claim, no copay, and no facility fee. You pay the fee at booking; any antibiotic is filled separately at your pharmacy and may be covered by a pharmacy benefit.',
     answer: (
       <p>
-        Often, yes, especially for the uninsured or anyone on a high-deductible plan. The TeleDirectMD visit is a flat $79 with no insurance billing in Vermont. There is no claim, no copay surprise, and no facility fee. You pay the fee at booking; any antibiotic is filled separately at your pharmacy and may be covered by a pharmacy benefit.
+        Often, yes, especially for the uninsured or anyone on a high-deductible plan. The TeleDirectMD visit is a flat $79 with no insurance billing in Vermont. There is no claim, no copay, and no facility fee. You pay the fee at booking; any antibiotic is filled separately at your pharmacy and may be covered by a pharmacy benefit.
       </p>
     ),
   },

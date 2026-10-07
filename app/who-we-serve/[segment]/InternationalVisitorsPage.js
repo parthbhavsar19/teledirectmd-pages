@@ -272,7 +272,7 @@ export default function InternationalVisitorsPage() {
   const faqItems = [
     {
       question: 'Can I use TeleDirectMD without US health insurance?',
-      answer: 'Absolutely. TeleDirectMD is a direct-pay platform — no US health insurance is required at any point. You pay a flat $79 fee at the time of booking. That covers the full visit, including the physician consultation and any prescriptions sent to a US pharmacy. There are no surprise bills or insurance claims to file.'
+      answer: 'Absolutely. TeleDirectMD is a direct-pay platform — no US health insurance is required at any point. You pay a flat $79 fee at the time of booking. That covers the full visit, including the physician consultation and any prescriptions sent to a US pharmacy. There are no hidden fees or insurance claims to file.'
     },
     {
       question: 'How much does an online doctor cost without insurance?',
@@ -482,7 +482,7 @@ export default function InternationalVisitorsPage() {
                 <li>300+ languages</li>
               </ul>
               <p>
-                Whether you're here on vacation, a business trip, visiting family, or studying on an F-1 visa, getting sick in the US without domestic insurance can be stressful and expensive. TeleDirectMD was built for exactly this situation: fast, legitimate medical care at a flat $79 fee — with no billing surprises.
+                Whether you're here on vacation, a business trip, visiting family, or studying on an F-1 visa, getting sick in the US without domestic insurance can be stressful and expensive. TeleDirectMD was built for exactly this situation: fast, legitimate medical care at a flat $79 fee — with no hidden fees.
               </p>
 
               <nav className="tdmd-toc" aria-label="Page contents">
@@ -535,7 +535,7 @@ export default function InternationalVisitorsPage() {
                   <li>Same-day appointments, evenings &amp; weekends</li>
                   <li>HIPAA-compliant visit records</li>
                 </ul>
-                <p>No hidden fees. No billing. No surprise charges.</p>
+                <p>No hidden fees. No billing. No hidden fees.</p>
               </div>
             </div>
           </div>
@@ -817,7 +817,7 @@ export default function InternationalVisitorsPage() {
             </div>
           </div>
 
-          <p className="tdmd-cost-note">No hidden fees, co-pays, or billing surprises. You know the cost before you book.</p>
+          <p className="tdmd-cost-note">No hidden fees or co-pays. You know the cost before you book.</p>
         </div>
       </section>
 

@@ -36,7 +36,7 @@ export default function RemoteWorkersPage() {
     },
     {
       q: 'Do I need insurance to use TeleDirectMD?',
-      a: 'No. TeleDirectMD offers transparent cash-pay pricing starting at $79 per visit — no insurance required. You will know your cost before booking, with no surprise bills. We also accept insurance in select states. HSA and FSA cards are accepted. For remote workers without a local primary care physician — or those between insurance plans during a move — the flat-rate, self-pay model makes getting care straightforward regardless of your coverage situation.'
+      a: 'No. TeleDirectMD offers transparent cash-pay pricing starting at $79 per visit — no insurance required. You will know your cost before booking, with no hidden fees. We also accept insurance in select states. HSA and FSA cards are accepted. For remote workers without a local primary care physician — or those between insurance plans during a move — the flat-rate, self-pay model makes getting care straightforward regardless of your coverage situation.'
     },
     {
       q: 'Can TeleDirectMD be my primary care doctor if I move frequently?',
@@ -170,7 +170,7 @@ export default function RemoteWorkersPage() {
                 <li>Licensed in 40+ states — the same doctor follows you wherever you work</li>
                 <li>Same-day visits, evenings &amp; weekends — schedule around your remote work hours</li>
                 <li>Prescriptions sent to any pharmacy, anywhere in the U.S.</li>
-                <li>Transparent cash-pay pricing starting at $79 — no surprise bills</li>
+                <li>Transparent cash-pay pricing starting at $79 — no hidden fees</li>
               </ul>
               <div className="tdmd-hero-ctas">
                 <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
@@ -313,7 +313,7 @@ export default function RemoteWorkersPage() {
       {/* ── 6. Transparent Pricing ──────────────────────────────── */}
       <section className="tdmd-section" id="remote-workers-pricing">
         <div className="tdmd-container">
-          <h2>Transparent Pricing — No Surprise Bills</h2>
+          <h2>Transparent Pricing — No Hidden Fees</h2>
           <p>Telehealth is significantly more cost-effective than in-person alternatives for the non-emergency conditions remote workers most commonly need care for. A Penn Medicine study found telehealth visits average $96 compared to $509 for comparable in-person episodes. For remote workers paying out-of-pocket — or those between insurance plans during a move — the difference between a $79 telehealth visit and a $150–$350 urgent care visit is substantial. GoodRx data consistently shows telehealth as the most affordable option for straightforward non-emergency conditions.</p>
           <div className="tdmd-price-grid">
             <div className="tdmd-price-card" aria-label="TeleDirectMD pricing">
@@ -323,7 +323,7 @@ export default function RemoteWorkersPage() {
               <ul className="tdmd-price-includes">
                 <li>Board-certified family medicine physician consultation</li>
                 <li>Prescriptions sent to any U.S. pharmacy</li>
-                <li>No hidden fees or surprise billing</li>
+                <li>No hidden fees</li>
                 <li>HSA &amp; FSA cards accepted</li>
                 <li>Insurance accepted in select states</li>
               </ul>

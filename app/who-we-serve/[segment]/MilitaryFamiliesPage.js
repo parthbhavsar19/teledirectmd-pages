@@ -824,7 +824,7 @@ export default function MilitaryFamiliesPage() {
             </div>
             <div className="tdmd-related-card">
               <p className="tdmd-related-title">Uninsured Adults</p>
-              <p className="tdmd-related-desc">No insurance? Transparent pricing, no surprise bills.</p>
+              <p className="tdmd-related-desc">No insurance? Transparent pricing, no hidden fees.</p>
               <a href="/who-we-serve/uninsured-affordable-care/" className="tdmd-btn tdmd-btn-outline">Learn More</a>
             </div>
             <div className="tdmd-related-card">

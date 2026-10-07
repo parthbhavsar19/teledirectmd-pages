@@ -54,7 +54,7 @@ export default function FlightAttendantsPage() {
     },
     {
       q: 'Do I need insurance, and what does it cost?',
-      a: 'No insurance is required. TeleDirectMD uses transparent cash-pay pricing at $79 per visit, and you know the price before you book \u2014 no surprise bills. Many crew members have employer coverage, but it is often impractical on the road: a network that varies by state, a high deductible, or the simple fact that you cannot get to an in-network clinic while you are on a three-day trip. We accept credit and debit cards, HSA, and FSA. For the off-hours, layover, reserve, and part-time gaps this service is built for, a flat $79 is usually the fastest and most predictable option.'
+      a: 'No insurance is required. TeleDirectMD uses transparent cash-pay pricing at $79 per visit, and you know the price before you book \u2014 no hidden fees. Many crew members have employer coverage, but it is often impractical on the road: a network that varies by state, a high deductible, or the simple fact that you cannot get to an in-network clinic while you are on a three-day trip. We accept credit and debit cards, HSA, and FSA. For the off-hours, layover, reserve, and part-time gaps this service is built for, a flat $79 is usually the fastest and most predictable option.'
     },
     {
       q: 'Will this compete with the free clinic or virtual care my airline already gives me?',
@@ -177,7 +177,7 @@ export default function FlightAttendantsPage() {
                 <li>Licensed in 40+ states plus D.C. &mdash; care from nearly any layover or base</li>
                 <li>Prescriptions to any pharmacy near your hotel &mdash; no controlled substances</li>
                 <li>Same-day visits, evenings &amp; weekends &mdash; built around back-of-the-clock schedules</li>
-                <li>Transparent $79 cash-pay &mdash; no insurance required, no surprise bills</li>
+                <li>Transparent $79 cash-pay &mdash; no insurance required, no hidden fees</li>
               </ul>
               <div className="tdmd-hero-ctas">
                 <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
@@ -325,7 +325,7 @@ export default function FlightAttendantsPage() {
       {/* ── 6. Pricing ──────────────────────────────────────────── */}
       <section className="tdmd-section" id="flight-attendants-pricing">
         <div className="tdmd-container">
-          <h2>Transparent Pricing &mdash; No Surprise Bills</h2>
+          <h2>Transparent Pricing &mdash; No Hidden Fees</h2>
           <p>For the layover, reserve, and off-hours gaps this service fills, a flat cash-pay visit is usually the fastest and most predictable option &mdash; no navigating an out-of-state network from a hotel. You know the price before you book.</p>
           <div className="tdmd-price-grid">
             <div className="tdmd-price-card" aria-label="TeleDirectMD pricing">
@@ -335,7 +335,7 @@ export default function FlightAttendantsPage() {
               <ul className="tdmd-price-includes">
                 <li>Board-certified Family Medicine physician consultation</li>
                 <li>Prescriptions sent to any U.S. pharmacy</li>
-                <li>No hidden fees or surprise billing</li>
+                <li>No hidden fees</li>
                 <li>HSA and FSA accepted</li>
                 <li>Itemized receipt for reimbursement</li>
               </ul>

@@ -33,7 +33,7 @@ export default function EarlyRetireesPage() {
     },
     {
       q: 'Do I need insurance to use TeleDirectMD?',
-      a: 'No. TeleDirectMD is a direct-pay platform. You pay $79 at the time of booking — that\'s the complete cost of the visit. No insurance card, no co-pay surprises, no EOB to interpret. We also accept select insurance plans in some states if you prefer to use coverage.'
+      a: 'No. TeleDirectMD is a direct-pay platform. You pay $79 at the time of booking — that\'s the complete cost of the visit. No insurance card, no co-pay, no EOB to interpret. We also accept select insurance plans in some states if you prefer to use coverage.'
     },
     {
       q: 'What if I move to a different state in retirement?',
@@ -195,10 +195,10 @@ export default function EarlyRetireesPage() {
             <div className="tdmd-hero-copy">
               <h1>Telehealth for Early Retirees — Affordable Care in the Pre-Medicare Gap</h1>
               <p className="tdmd-hero-sub">
-                Retired before 65 and facing the coverage gap? TeleDirectMD provides $79 flat-fee video visits with a board-certified Family Medicine physician — chronic condition management, prescription refills, and acute care in 40+ states. No referrals. No prior authorization. No surprise bills.
+                Retired before 65 and facing the coverage gap? TeleDirectMD provides $79 flat-fee video visits with a board-certified Family Medicine physician — chronic condition management, prescription refills, and acute care in 40+ states. No referrals. No prior authorization. No hidden fees.
               </p>
               <p>
-                The average American retires at <strong>62</strong>. Medicare begins at <strong>65</strong>. That three-year structural gap — often filled with expensive COBRA, high-deductible ACA plans, or no coverage at all — is exactly where TeleDirectMD fits. For the routine visits that make up the vast majority of healthcare needs, a $79 flat-fee telehealth visit is frequently the most economical and fastest option available.
+                The average American retires at <strong>62</strong>. Medicare begins at <strong>65</strong>. That three-year structural gap — often filled with expensive COBRA, high-deductible ACA plans, or no coverage at all — is exactly where TeleDirectMD fits. For the routine visits that make up the vast majority of healthcare needs, a $79 flat-fee telehealth visit is often a quick, economical option.
               </p>
 
               <nav className="tdmd-toc" aria-label="Page contents">
@@ -884,7 +884,7 @@ export default function EarlyRetireesPage() {
             </a>
             <a href="/who-we-serve/uninsured-affordable-care/" className="tdmd-related-card">
               <div className="tdmd-related-title">Uninsured Adults</div>
-              <div className="tdmd-related-desc">No insurance? Transparent pricing, no surprise bills.</div>
+              <div className="tdmd-related-desc">No insurance? Transparent pricing, no hidden fees.</div>
             </a>
             <a href="/who-we-serve/small-business-owners/" className="tdmd-related-card">
               <div className="tdmd-related-title">Small Business Owners</div>

@@ -42,7 +42,7 @@ export default function TruckDriversPage() {
     },
     {
       q: 'Do I need insurance to use TeleDirectMD?',
-      a: 'No. TeleDirectMD offers transparent cash-pay pricing starting at $79 per visit. Insurance is not required. We also accept select insurance plans in some states. You will know your cost upfront before booking — no surprise bills.'
+      a: 'No. TeleDirectMD offers transparent cash-pay pricing starting at $79 per visit. Insurance is not required. We also accept select insurance plans in some states. You will know your cost upfront before booking — no hidden fees.'
     },
     {
       q: 'Can you send prescriptions to a pharmacy along my route?',
@@ -330,7 +330,7 @@ export default function TruckDriversPage() {
       {/* ── 7. Transparent Pricing ──────────────────────────────── */}
       <section className="tdmd-section tdmd-section-highlight" id="truck-drivers-pricing">
         <div className="tdmd-container">
-          <h2>Transparent Pricing — No Surprise Bills</h2>
+          <h2>Transparent Pricing — No Hidden Fees</h2>
           <p>Telehealth visits are significantly cheaper than in-person alternatives. A Penn Medicine study found telehealth visits average $96 compared to $509 for in-person episodes — five times less expensive.</p>
           <div className="tdmd-price-grid">
             <div className="tdmd-price-card" aria-label="TeleDirectMD pricing">
@@ -340,7 +340,7 @@ export default function TruckDriversPage() {
               <ul className="tdmd-price-includes">
                 <li>Board-certified physician consultation</li>
                 <li>Prescriptions sent to any U.S. pharmacy</li>
-                <li>No hidden fees or surprise billing</li>
+                <li>No hidden fees</li>
                 <li>Insurance accepted in select states</li>
               </ul>
             </div>

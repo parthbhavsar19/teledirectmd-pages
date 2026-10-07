@@ -394,7 +394,7 @@ export default async function CostPage({ params }) {
                 <li>Board-certified MD video consultation</li>
                 <li>E-prescription to any US pharmacy</li>
                 <li>HSA / FSA-eligible</li>
-                <li>No facility fees, no surprise billing</li>
+                <li>No facility fees, no hidden fees</li>
                 <li>Receipt suitable for travel-insurance reimbursement</li>
               </ul>
             </div>

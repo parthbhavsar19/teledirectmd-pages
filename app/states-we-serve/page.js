@@ -128,7 +128,7 @@ function buildJsonLd(allStates, categories) {
           {
             '@type': 'Question',
             name: 'How much does a TeleDirectMD visit cost?',
-            acceptedAnswer: { '@type': 'Answer', text: 'Every TeleDirectMD visit is a flat $79 — no hidden fees, no copays, no surprise charges. This includes your full video consultation with a board-certified physician and any prescriptions sent to your pharmacy if clinically appropriate. No insurance is required.' },
+            acceptedAnswer: { '@type': 'Answer', text: 'Every TeleDirectMD visit is a flat $79 — no hidden fees, no copays, no hidden fees. This includes your full video consultation with a board-certified physician and any prescriptions sent to your pharmacy if clinically appropriate. No insurance is required.' },
           },
           {
             '@type': 'Question',

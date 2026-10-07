@@ -290,7 +290,7 @@ export default function CurativeHubClient() {
         <BookCTA
           insurerName="Curative"
           tagline="Curative Commercial PPO, EPO, and self-funded plans, verified before your video visit. Medicaid, Medicare Advantage, and HMO products are not in-network."
-          subtagline="Or pay $79 flat self-pay (HSA and FSA eligible), with no claim and no copay surprises."
+          subtagline="Or pay $79 flat self-pay (HSA and FSA eligible), with no claim and no copay."
         />
 
         <div style={{ marginBottom: 48 }}>

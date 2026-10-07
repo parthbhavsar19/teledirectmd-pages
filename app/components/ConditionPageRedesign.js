@@ -270,7 +270,7 @@ export default function ConditionPageRedesign({
           <div className="cpr-wrap">
             <p className="cpr-kicker">What it costs</p>
             <h2>{price} flat. HSA/FSA accepted.</h2>
-            <p className="cpr-lead">One fee covers the visit — no facility fees, no surprise billing. Here is how it compares to other care settings.</p>
+            <p className="cpr-lead">One fee covers the visit — no facility fees, no hidden fees. Here is how it compares to other care settings.</p>
             <div className="cpr-pcgrid">
               <div className="cpr-pcard">
                 <div className="big">{price}</div>

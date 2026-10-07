@@ -40,7 +40,7 @@ export default function CollegeStudentsPage() {
     },
     {
       q: 'I don\'t have insurance right now. Is that okay?',
-      a: 'Absolutely. TeleDirectMD requires no insurance whatsoever. You pay a flat $79 at the time of booking — that\'s the full cost of the visit including the physician consultation and any prescription. No forms, no billing, no surprise charges.'
+      a: 'Absolutely. TeleDirectMD requires no insurance whatsoever. You pay a flat $79 at the time of booking — that\'s the full cost of the visit including the physician consultation and any prescription. No forms, no billing, no hidden fees.'
     },
     {
       q: 'Can you treat anxiety or mental health concerns?',
@@ -227,7 +227,7 @@ export default function CollegeStudentsPage() {
               <ul className="tdmd-hero-benefits">
                 <li>Available evenings &amp; weekends — when student health is closed</li>
                 <li>Licensed in 40+ states — wherever your school is, we're there</li>
-                <li>$79 flat fee — no surprise bills</li>
+                <li>$79 flat fee — no hidden fees</li>
                 <li>UTI (women only), strep, sinus, pink eye — diagnosed and treated in one visit</li>
                 <li>Prescriptions sent to campus pharmacy, CVS, Walgreens, or any US pharmacy</li>
                 <li>No insurance required — ever</li>
@@ -398,7 +398,7 @@ export default function CollegeStudentsPage() {
             </table>
           </div>
           <p className="tdmd-comparison-note">
-            For the UTIs (women only), sinus infections, and strep throats that hit on a Sunday night, TeleDirectMD is the fastest, most affordable path to a diagnosis and prescription.
+            For the UTIs (women only), sinus infections, and strep throats that hit on a Sunday night, TeleDirectMD is a fast, affordable way to get a diagnosis and, when clinically appropriate, a prescription.
           </p>
         </div>
       </section>
@@ -454,7 +454,7 @@ export default function CollegeStudentsPage() {
           <div className="tdmd-price-grid">
             <div className="tdmd-price-card">
               <div className="tdmd-price-big">$79</div>
-              <div className="tdmd-price-sub">One flat fee, no surprise bills</div>
+              <div className="tdmd-price-sub">One flat fee, no hidden fees</div>
               <ul className="tdmd-price-includes">
                 <li>Video visit with board-certified MD</li>
                 <li>Diagnosis and treatment plan</li>
@@ -891,7 +891,7 @@ export default function CollegeStudentsPage() {
             </a>
             <a href="/who-we-serve/uninsured-affordable-care/" className="tdmd-related-card">
               <div className="tdmd-related-title">Uninsured Adults</div>
-              <div className="tdmd-related-desc">No insurance? Transparent pricing, no surprise bills.</div>
+              <div className="tdmd-related-desc">No insurance? Transparent pricing, no hidden fees.</div>
             </a>
             <a href="/who-we-serve/early-retirees/" className="tdmd-related-card">
               <div className="tdmd-related-title">Early Retirees</div>
