@@ -58,6 +58,13 @@
       "status": 301
     },
     {
+      "src": "/cost/weight-loss-glp1-cost/?",
+      "headers": {
+        "Location": "/cost/"
+      },
+      "status": 301
+    },
+    {
       "src": "/symptom-checker/?",
       "dest": "/symptom-checker/index.html"
     },
