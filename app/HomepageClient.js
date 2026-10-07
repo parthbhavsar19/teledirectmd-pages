@@ -76,25 +76,26 @@ const REVIEWS = [
   { text: "I had a great experience with Dr. Parth Bhavsar. He was really helpful, understanding, and made the whole process super easy. I got my prescription quickly and felt well taken care of.", author: 'Verified Patient', source: 'Google' },
 ];
 
-/* 17 logos — all outlets with self-hosted logos, links to /media-mentions for full coverage */
+/* Press logos: transparent white marks in public/logos/media/ (cut from the old white-on-grey
+   screenshots). h is each logo's height in px, set for equal visual weight. SHEfinds is left out
+   until there is a real logo file (the old shefinds.png was a copy of the Woman's World logo). */
 const MEDIA_OUTLETS = [
-  { name: 'TIME', logo: '/logos/time.png', href: '/media-mentions' },
-  { name: 'Newsweek', logo: '/logos/newsweek.png', href: '/media-mentions' },
-  { name: 'HuffPost', logo: '/logos/huffpost.jpg', href: '/media-mentions' },
-  { name: 'U.S. News', logo: '/logos/usnews.png', href: '/media-mentions' },
-  { name: 'British GQ', logo: '/logos/gq.jpg', href: '/media-mentions' },
-  { name: 'Atlanta Journal-Constitution', logo: '/logos/ajc.svg', href: '/media-mentions' },
-  { name: 'New York Post', logo: '/logos/nypost.png', href: '/media-mentions' },
-  { name: 'Fox News', logo: '/logos/fox.png', href: '/media-mentions' },
-  { name: 'Daily Mail', logo: '/logos/dailymail.png', href: '/media-mentions' },
-  { name: 'Healthline', logo: '/logos/healthline.png', href: '/media-mentions' },
-  { name: 'Yahoo Health', logo: '/logos/yahoo.png', href: '/media-mentions' },
-  { name: "Woman's World", logo: '/logos/womansworld.png', href: '/media-mentions' },
-  { name: 'EatingWell', logo: '/logos/eatingwell.jpg', href: '/media-mentions' },
-  { name: 'Everyday Health', logo: '/logos/everydayhealth.png', href: '/media-mentions' },
-  { name: 'Parade', logo: '/logos/parade.png', href: '/media-mentions' },
-  { name: "Men's Journal", logo: '/logos/mensjournal.png', href: '/media-mentions' },
-  { name: 'SHEfinds', logo: '/logos/shefinds.png', href: '/media-mentions' },
+  { name: 'TIME', logo: '/logos/media/time.png', h: 34.4, href: '/media-mentions' },
+  { name: 'Newsweek', logo: '/logos/media/newsweek.png', h: 24.8, href: '/media-mentions' },
+  { name: 'HuffPost', logo: '/logos/media/huffpost.png', h: 23.6, href: '/media-mentions' },
+  { name: 'U.S. News', logo: '/logos/media/usnews.png', h: 29.2, href: '/media-mentions' },
+  { name: 'British GQ', logo: '/logos/media/gq.png', h: 43.9, href: '/media-mentions' },
+  { name: 'Atlanta Journal-Constitution', logo: '/logos/media/ajc.svg', h: 28.0, mono: true, href: '/media-mentions' },
+  { name: 'New York Post', logo: '/logos/media/nypost.png', h: 46.0, href: '/media-mentions' },
+  { name: 'Fox News', logo: '/logos/media/fox.png', h: 46.0, href: '/media-mentions' },
+  { name: 'Daily Mail', logo: '/logos/media/dailymail.png', h: 28.8, href: '/media-mentions' },
+  { name: 'Healthline', logo: '/logos/media/healthline.png', h: 25.1, href: '/media-mentions' },
+  { name: 'Yahoo Health', logo: '/logos/media/yahoo.png', h: 40.3, href: '/media-mentions' },
+  { name: "Woman's World", logo: '/logos/media/womansworld.png', h: 23.6, href: '/media-mentions' },
+  { name: 'EatingWell', logo: '/logos/media/eatingwell.png', h: 34.4, href: '/media-mentions' },
+  { name: 'Everyday Health', logo: '/logos/media/everydayhealth.png', h: 37.1, href: '/media-mentions' },
+  { name: 'Parade', logo: '/logos/media/parade.png', h: 29.6, href: '/media-mentions' },
+  { name: "Men's Journal", logo: '/logos/media/mensjournal.png', h: 28.5, href: '/media-mentions' },
 ];
 
 /* Condition name → URL slug mapping (from live site) */
@@ -628,13 +629,31 @@ export default function HomepageClient() {
           </div>
         </div>
         <div className="hp-hero-insurance-cta hp-animate hp-fade-up">
-          <a href="/insurance" className="hp-hero-insurance-link">Aetna, Anthem BCBS &amp; UnitedHealthcare accepted &rarr;</a>
+          <a href="/insurance" className="hp-hero-insurance-link">Aetna, Anthem BCBS &amp; UnitedHealthcare <span style={{ whiteSpace: 'nowrap' }}>accepted &rarr;</span></a>
         </div>
       </section>
 
       {/* ===== SECTION 2: SERVICE CATEGORIES ===== */}
       <section className="hp-services hp-section">
         <div className="hp-container">
+          {/* Press strip: first thing in the navy band, right under the hero */}
+          <div className="hp-featured-strip hp-animate hp-fade-up">
+            <span>As featured in</span>
+            <div className="hp-marquee-wrap">
+              <div className="hp-marquee-track">
+                {/* Doubled for a seamless loop; the second copy is hidden from screen readers */}
+                {[...MEDIA_OUTLETS, ...MEDIA_OUTLETS].map((item, i) => {
+                  const dup = i >= MEDIA_OUTLETS.length;
+                  return (
+                    <a key={`${item.name}-${i}`} href={item.href} aria-label={dup ? undefined : item.name} aria-hidden={dup || undefined} tabIndex={dup ? -1 : undefined}>
+                      <img src={item.logo} alt={dup ? '' : item.name} className={item.mono ? 'hp-logo-mono' : undefined} style={{ '--h': `${item.h}px` }} loading="lazy" />
+                    </a>
+                  );
+                })}
+              </div>
+            </div>
+            <a className="hp-featured-more" href="/media-mentions">Read the coverage &rarr;</a>
+          </div>
           <div style={{ textAlign: 'center' }}>
             <span className="hp-section-label hp-animate hp-fade-up">WHAT WE TREAT</span>
             <h2 className="hp-section-title hp-animate hp-fade-up">
@@ -655,19 +674,6 @@ export default function HomepageClient() {
                 <p>{svc.desc}</p>
               </a>
             ))}
-          </div>
-          <div className="hp-featured-strip hp-animate hp-fade-up">
-            <span>AS FEATURED IN</span>
-            <div className="hp-marquee-wrap">
-              <div className="hp-marquee-track">
-                {/* Double the logos for seamless loop */}
-                {[...MEDIA_OUTLETS, ...MEDIA_OUTLETS].map((item, i) => (
-                  <a key={`${item.name}-${i}`} href={item.href} target="_blank" rel="noopener noreferrer" style={{ display: 'inline-block', lineHeight: 0 }}>
-                    <img src={item.logo} alt={item.name} loading="lazy" />
-                  </a>
-                ))}
-              </div>
-            </div>
           </div>
         </div>
       </section>
