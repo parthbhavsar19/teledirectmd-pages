@@ -39,7 +39,7 @@ const PHYSICIAN = {
   specialty: 'Family Medicine',
   licenseState: 'California',
   headshot: '/images/dr-parth-bhavsar.jpg',
-  bioUrl: '/about',
+  bioUrl: '/about/',
 };
 
 // California payors — sourced from Notion payor enrollment (refreshed 2026-05-19)
@@ -338,7 +338,7 @@ export default function CaDiabetesRefillsOnline() {
           <div className="tdmd-container">
             <div style={{ background: '#FFF3CD', border: '2px solid #FFC107', borderRadius: 'var(--tdmd-radius,18px)', padding: '1.1rem 1.5rem', marginTop: '1.5rem' }}>
               <h3 style={{ color: '#856404', marginTop: 0 }}>⚠ Type 2 Diabetes Only — Scope of Service</h3>
-              <p style={{ color: '#533f03', margin: 0 }}>TeleDirectMD manages Type 2 diabetes mellitus (T2DM) only. Type 1 diabetes mellitus (T1DM) insulin titration is outside the scope of this service — T1DM patients require endocrinology management. TeleDirectMD does NOT prescribe GLP-1 receptor agonists (semaglutide, tirzepatide, liraglutide), for weight loss or for diabetes. Insulin titration for T2DM: simple regimens (basal insulin initiation and conservative adjustment) are in scope; complex insulin titration requiring endocrinology expertise is referred.</p>
+              <p style={{ color: '#533f03', margin: 0 }}>TeleDirectMD manages Type 2 diabetes mellitus (T2DM) only. Type 1 diabetes mellitus (T1DM) insulin titration is outside the scope of this service — T1DM patients require endocrinology management. TeleDirectMD does NOT prescribe GLP-1 receptor agonists (semaglutide, tirzepatide, liraglutide), for weight loss or for diabetes. Insulin for T2DM: Dr. Bhavsar can refill a current, stable insulin dose as a bridge until you see your primary care physician. Insulin is not started or adjusted, and your most recent HbA1c is required.</p>
             </div>
           </div>
         </section>
@@ -456,7 +456,7 @@ export default function CaDiabetesRefillsOnline() {
             </div>
 
             <p style={{ marginTop: '1rem' }}>
-              For deeper detail, see <a href="/insurance/aetna/california/diabetes-refills-online/">Aetna × California × Diabetes Refills</a> or view all <a href="/insurance/">insurance options</a>.
+              For deeper detail, see <a href="/insurance/aetna/california/diabetes-refills/">Aetna × California × Diabetes Refills</a> or view all <a href="/insurance/">insurance options</a>.
             </p>
           </div>
         </section>
@@ -512,7 +512,7 @@ export default function CaDiabetesRefillsOnline() {
                     <td><strong>Insulin glargine (Basaglar, Lantus, Toujeo) 100 U/mL</strong></td>
                     <td>10 units at bedtime initial; titrate 2 units every 3 days if fasting glucose &gt;130</td>
                     <td><a href="https://www.goodrx.com/insulin-glargine" target="_blank" rel="noopener">~$100–$200/pen GoodRx; Lilly insulin program available for affordability</a></td>
-                    <td>Basal insulin initiation for T2DM in scope. Complex titration/multiple daily injections: endocrinology referral. Walmart ReliOn insulin available OTC at lower cost.</td>
+                    <td>Bridge refill of your current dose only, with your most recent HbA1c. No insulin starts or dose changes. Walmart ReliOn insulin available OTC at lower cost.</td>
                   </tr>
                 </tbody>
               </table>

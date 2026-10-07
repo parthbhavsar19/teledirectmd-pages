@@ -47,7 +47,7 @@ const COST_CATALOG = [
   {
     slug: 'diabetes-refills-cost',
     name: 'Diabetes Medication Refill Cost',
-    desc: 'Stable type 2 diabetes patients can refill metformin and other non-insulin oral medications online for $79.',
+    desc: 'Stable type 2 diabetes patients can refill metformin and other oral medications, or a current insulin dose as a bridge, online for $79.',
   },
   {
     slug: 'ear-infection-cost',
@@ -619,7 +619,7 @@ export default function CostHubPage() {
           <div className="cst-link-cloud">
             <a href="/compare/">Compare TeleDirectMD vs. Competitors</a>
             <a href="/insurance/">Insurance &amp; Pricing</a>
-            <a href="/symptoms/">Symptoms Directory</a>
+            <a href="/what-we-treat/">What We Treat</a>
             <a href="/faq/">FAQ</a>
             <a href="/about/">About Dr. Bhavsar, MD</a>
             <a href="/states-we-serve/">States We Serve</a>

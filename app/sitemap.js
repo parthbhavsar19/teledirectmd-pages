@@ -22,17 +22,17 @@ const STATIC_ROUTES = [
   { path: '/insurance', priority: 0.95, changefreq: 'weekly' },
   { path: '/faq', priority: 0.7, changefreq: 'monthly' },
   { path: '/media-mentions', priority: 0.6, changefreq: 'monthly' },
-  { path: '/about', priority: 0.6, changefreq: 'monthly' },
+  { path: '/about/', priority: 0.6, changefreq: 'monthly' },
   { path: '/reviews', priority: 0.7, changefreq: 'weekly' },
   // 2026-05-23: Employer + Broker pages
   { path: '/employers', priority: 0.9, changefreq: 'weekly' },
   { path: '/employers/brokers', priority: 0.8, changefreq: 'weekly' },
   // 2026-05-23: Industry-specific employer pages
-  { path: '/employers/trucking', priority: 0.85, changefreq: 'monthly' },
-  { path: '/employers/restaurants', priority: 0.85, changefreq: 'monthly' },
-  { path: '/employers/home-care', priority: 0.85, changefreq: 'monthly' },
-  { path: '/employers/construction', priority: 0.85, changefreq: 'monthly' },
-  { path: '/employers/cleaning', priority: 0.85, changefreq: 'monthly' },
+  { path: '/employers/trucking/', priority: 0.85, changefreq: 'monthly' },
+  { path: '/employers/restaurants/', priority: 0.85, changefreq: 'monthly' },
+  { path: '/employers/home-care/', priority: 0.85, changefreq: 'monthly' },
+  { path: '/employers/construction/', priority: 0.85, changefreq: 'monthly' },
+  { path: '/employers/cleaning/', priority: 0.85, changefreq: 'monthly' },
   // 2026-05-23: 5 hub pages added to repair orphan-parent breadcrumb violations
   // (each was previously HTTP 404 while child pages declared them as parents
   // in BreadcrumbList JSON-LD). See /home/user/workspace/insurance_cleanup for
@@ -76,7 +76,7 @@ const LASTMOD_BY_PREFIX = [
   ['/cost', 'costPages'],
   ['/faq/deep-dive', 'faqDeepDive'],
   ['/faq', 'faq'],
-  ['/about', 'about'],
+  ['/about/', 'about'],
   ['/states-we-serve', 'statesWeServe'],
   ['/insurance', 'insurance'],
   ['/reviews', 'reviews'],

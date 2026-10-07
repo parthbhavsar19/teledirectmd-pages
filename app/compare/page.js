@@ -583,7 +583,7 @@ export default function CompareHubPage() {
           <div className="cmp-link-cloud">
             <a href="/cost/">Cost Guides by Condition</a>
             <a href="/insurance/">Insurance &amp; Pricing</a>
-            <a href="/symptoms/">Symptoms Directory</a>
+            <a href="/what-we-treat/">What We Treat</a>
             <a href="/faq/">FAQ</a>
             <a href="/about/">About Dr. Bhavsar, MD</a>
             <a href="/states-we-serve/">States We Serve</a>

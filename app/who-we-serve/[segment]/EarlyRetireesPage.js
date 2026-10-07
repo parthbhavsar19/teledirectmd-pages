@@ -902,7 +902,7 @@ export default function EarlyRetireesPage() {
 
           <div className="tdmd-inline-links">
             <div className="tdmd-link-cloud">
-              <a href="/insurance-and-pricing/">Insurance &amp; Pricing</a>
+              <a href="/insurance/">Insurance &amp; Pricing</a>
               <a href="/states-we-serve/">States We Serve</a>
               <a href="/what-we-treat/">What We Treat</a>
               <a href="/faq/">FAQ</a>

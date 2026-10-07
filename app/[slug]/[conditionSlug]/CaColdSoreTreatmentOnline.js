@@ -11,7 +11,7 @@ const PAGE_URL = 'https://teledirectmd.com/ca/cold-sore-treatment-online/';
 const PAGE_TITLE = 'Cold Sore Treatment Online in California | TeleDirectMD';
 const DATE_PUBLISHED = '2026-05-20';
 const DATE_MODIFIED = '2026-05-20';
-const PHYSICIAN = { name: 'Parth Bhavsar, MD', npi: '1104323203', specialty: 'Family Medicine', licenseState: 'California', headshot: '/images/dr-parth-bhavsar.jpg', bioUrl: '/about' };
+const PHYSICIAN = { name: 'Parth Bhavsar, MD', npi: '1104323203', specialty: 'Family Medicine', licenseState: 'California', headshot: '/images/dr-parth-bhavsar.jpg', bioUrl: '/about/' };
 
 const CA_PAYORS = [
   { name: 'Aetna', status: 'Active', effective: 'April 30, 2026', inNetwork: true, notes: 'Commercial plans. In-network as of April 30, 2026.' },

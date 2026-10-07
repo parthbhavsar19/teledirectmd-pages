@@ -43,11 +43,11 @@ export default function StatesWeServeClient({
       name: s.name,
       slug: s.slug,
       conditions: [
-        ['UTI (women only)', `/${s.slug}/uti-treatment-online`],
-        ['Sinus Infection', `/${s.slug}/sinus-infection-treatment-online`],
-        ['Influenza', `/${s.slug}/influenza-treatment-online`],
-        ['Pink Eye', `/${s.slug}/pink-eye-treatment-online`],
-        ['BV', `/${s.slug}/bv-treatment-online`],
+        ['UTI (women only)', `/${s.slug}/uti-treatment-online/`],
+        ['Sinus Infection', `/${s.slug}/sinus-infection-treatment-online/`],
+        ['Influenza', `/${s.slug}/influenza-treatment-online/`],
+        ['Pink Eye', `/${s.slug}/pink-eye-treatment-online/`],
+        ['BV', `/${s.slug}/bv-treatment-online/`],
       ],
     };
   });

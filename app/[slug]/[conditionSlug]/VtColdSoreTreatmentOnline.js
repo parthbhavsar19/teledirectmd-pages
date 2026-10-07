@@ -12,7 +12,7 @@ const PAGE_URL = 'https://teledirectmd.com/vt/cold-sore-treatment-online/';
 const PAGE_TITLE = 'Cold Sore Treatment Online in Vermont | TeleDirectMD';
 const DATE_PUBLISHED = '2026-06-04';
 const DATE_MODIFIED = '2026-06-04';
-const PHYSICIAN = { name: 'Parth Bhavsar, MD', npi: '1104323203', specialty: 'Family Medicine', licenseState: 'Vermont', headshot: '/images/dr-parth-bhavsar.jpg', bioUrl: '/about' };
+const PHYSICIAN = { name: 'Parth Bhavsar, MD', npi: '1104323203', specialty: 'Family Medicine', licenseState: 'Vermont', headshot: '/images/dr-parth-bhavsar.jpg', bioUrl: '/about/' };
 
 
 const MEDICATIONS = [

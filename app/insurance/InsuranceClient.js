@@ -332,7 +332,7 @@ function resolveResult(stateAbbr, payerId) {
       eff: '—',
       plans: '—',
       ctaText: 'Book $79 self-pay visit →',
-      ctaHref: '/book-online',
+      ctaHref: '/book-online/',
       showSecondary: false,
     };
   }

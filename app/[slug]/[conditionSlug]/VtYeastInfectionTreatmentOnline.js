@@ -21,7 +21,7 @@ const PHYSICIAN = {
   specialty: 'Family Medicine',
   licenseState: 'Vermont',
   headshot: '/images/dr-parth-bhavsar.jpg',
-  bioUrl: '/about',
+  bioUrl: '/about/',
 };
 
 

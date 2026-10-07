@@ -39,7 +39,7 @@ const PHYSICIAN = {
   specialty: 'Family Medicine',
   licenseState: 'California',
   headshot: '/images/dr-parth-bhavsar.jpg',
-  bioUrl: '/about',
+  bioUrl: '/about/',
 };
 
 // California payors — sourced from Notion payor enrollment (refreshed 2026-05-19)
@@ -446,7 +446,7 @@ export default function CaSeasonalAllergiesTreatmentOnline() {
             </div>
 
             <p style={{ marginTop: '1rem' }}>
-              For deeper detail, see <a href="/insurance/aetna/california/seasonal-allergies-treatment-online/">Aetna × California × Seasonal Allergies Treatment</a> or view all <a href="/insurance/">insurance options</a>.
+              For deeper detail, see <a href="/insurance/aetna/california/">Aetna × California × Seasonal Allergies Treatment</a> or view all <a href="/insurance/">insurance options</a>.
             </p>
           </div>
         </section>

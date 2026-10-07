@@ -337,7 +337,7 @@ export default function EmployersPage() {
                 <h3>What we treat</h3>
                 <ul className="tdmd-emp-scope-list">
                   <li>Urgent care: UTI (women only), sinus, cough, cold, allergies, strep, flu</li>
-                  <li>Chronic refills: hypertension, asthma, hypothyroid, GERD, hyperlipidemia, non-insulin diabetes</li>
+                  <li>Chronic refills: hypertension, asthma, hypothyroid, GERD, hyperlipidemia, type 2 diabetes (oral agents, current-dose insulin bridge refills)</li>
                   <li>Skin and dermatology, women's health</li>
                   <li>Smoking cessation, weight management</li>
                   <li>Work excuse and return-to-work notes</li>

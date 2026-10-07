@@ -403,8 +403,10 @@ export default function InsuranceStateConditionClient({ insurerSlug, stateSlug, 
         {/* NAV LINKS */}
         <div style={{ marginBottom: 24, display: "flex", flexWrap: "wrap", gap: 10 }}>
           <a href={insuranceHrefOrParent(`/insurance/${insurerSlug}/${stateSlug}`)} style={{ fontSize: 14, color: B.teal, textDecoration: "none" }}>← {shortName} in {stateName}</a>
+          {insuranceHref(`/insurance/${insurerSlug}/${conditionSlug}`) && (<>
           <span style={{ color: B.border }}>|</span>
-          <a href={insuranceHrefOrParent(`/insurance/${insurerSlug}/${conditionSlug}`)} style={{ fontSize: 14, color: B.teal, textDecoration: "none" }}>{shortName} + {cond.name} (All States)</a>
+          <a href={insuranceHref(`/insurance/${insurerSlug}/${conditionSlug}`)} style={{ fontSize: 14, color: B.teal, textDecoration: "none" }}>{shortName} + {cond.name} (All States)</a>
+          </>)}
           <span style={{ color: B.border }}>|</span>
           <a href={`/${cond.conditionPageSlug}/`} style={{ fontSize: 14, color: B.teal, textDecoration: "none" }}>{cond.displayName} Treatment →</a>
         </div>

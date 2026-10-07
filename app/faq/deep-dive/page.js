@@ -62,6 +62,9 @@ const STATES = [
   { abbr: 'wv', name: 'West Virginia' }, { abbr: 'wi', name: 'Wisconsin' }, { abbr: 'wy', name: 'Wyoming' },
 ];
 
+// Pilot states (AK, VT) have no deep-dive page; see app/faq/deep-dive/[slug]/page.js STATES.
+const NO_DEEP_DIVE = new Set(['ak', 'vt']);
+
 function stateSlugName(abbr) {
   const map = {
     al:'alabama',az:'arizona',ca:'california',co:'colorado',ct:'connecticut',dc:'washington-dc',
@@ -317,7 +320,7 @@ export default function FaqDeepDiveHubPage() {
                   State guides:
                 </p>
                 <div className="fdd-state-cloud">
-                  {STATES.map((st) => (
+                  {STATES.filter((st) => !NO_DEEP_DIVE.has(st.abbr)).map((st) => (
                     <a
                       key={st.abbr}
                       href={`/faq/deep-dive/${med.slugPrefix}-${stateSlugName(st.abbr)}/`}
@@ -397,7 +400,7 @@ export default function FaqDeepDiveHubPage() {
           </p>
           <div className="fdd-link-cloud">
             {STATES.map((st) => (
-              <a key={st.abbr} href={`/${stateSlugName(st.abbr)}/`}>{st.name}</a>
+              <a key={st.abbr} href={`/${st.abbr}/`}>{st.name}</a>
             ))}
           </div>
           <p className="fdd-p" style={{ marginTop: '1rem' }}>
@@ -477,7 +480,7 @@ export default function FaqDeepDiveHubPage() {
           <div className="fdd-link-cloud">
             <a href="/faq/">Main FAQ Page</a>
             <a href="/cost/">Cost Guides</a>
-            <a href="/symptoms/">Symptoms Directory</a>
+            <a href="/what-we-treat/">What We Treat</a>
             <a href="/compare/">Compare Telehealth Services</a>
             <a href="/insurance/">Insurance &amp; Pricing</a>
             <a href="/about/">About Dr. Bhavsar, MD</a>

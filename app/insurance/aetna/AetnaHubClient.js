@@ -42,15 +42,15 @@ const CONDITIONS_COVERED = [
 
 const AETNA_STATES = [
   { code:"AZ", name:"Arizona", url:"/az/" },
-  { code:"CA", name:"California", url:"/insurance/aetna/california", newBadge:"New · May 2026" },
+  { code:"CA", name:"California", url:"/insurance/aetna/california/", newBadge:"New · May 2026" },
   { code:"CO", name:"Colorado", url:"/co/" },
-  { code:"FL", name:"Florida", url:"/insurance/aetna/florida" },
+  { code:"FL", name:"Florida", url:"/insurance/aetna/florida/" },
   { code:"GA", name:"Georgia", url:"/ga/" },
   { code:"IL", name:"Illinois", url:"/il/" },
-  { code:"LA", name:"Louisiana", url:"/insurance/aetna/louisiana" },
+  { code:"LA", name:"Louisiana", url:"/insurance/aetna/louisiana/" },
   { code:"MI", name:"Michigan", url:"/mi/" },
   { code:"MN", name:"Minnesota", url:"/mn/" },
-  { code:"NC", name:"North Carolina", url:"/insurance/aetna/north-carolina" },
+  { code:"NC", name:"North Carolina", url:"/insurance/aetna/north-carolina/" },
   { code:"OH", name:"Ohio", url:"/oh/" },
   { code:"PA", name:"Pennsylvania", url:"/pa/" },
   { code:"TN", name:"Tennessee", url:"/tn/" },
@@ -388,12 +388,12 @@ export default function AetnaHubClient() {
           <h2 style={{ fontFamily:B.fd, fontSize:22, fontWeight:700, color:B.navy, margin:"0 0 16px" }}>Most-searched Aetna telehealth combinations</h2>
           <div style={{ display:"grid", gridTemplateColumns:"repeat(auto-fill, minmax(220px, 1fr))", gap:10 }}>
             {[
-              { slug: 'uti-treatment-online', label: 'UTI billed to Aetna' },
-              { slug: 'sinus-infection-treatment-online', label: 'Sinus infection billed to Aetna' },
-              { slug: 'pink-eye-treatment-online', label: 'Pink eye billed to Aetna' },
-              { slug: 'sore-throat-treatment-online', label: 'Strep / sore throat billed to Aetna' },
-              { slug: 'ear-pain-treatment-online', label: 'Ear infection billed to Aetna' },
-              { slug: 'yeast-infection-treatment-online', label: 'Yeast infection billed to Aetna' },
+              { slug: 'uti-treatment', label: 'UTI billed to Aetna' },
+              { slug: 'sinus-infection', label: 'Sinus infection billed to Aetna' },
+              { slug: 'pink-eye', label: 'Pink eye billed to Aetna' },
+              { slug: 'strep-throat', label: 'Strep / sore throat billed to Aetna' },
+              { slug: 'ear-infection', label: 'Ear infection billed to Aetna' },
+              { slug: 'yeast-infection', label: 'Yeast infection billed to Aetna' },
             ].filter((c) => insuranceHref(`/insurance/aetna/${c.slug}`)).map((c, i) => (
               <a key={i} href={insuranceHref(`/insurance/aetna/${c.slug}`)}
                 style={{ display:"block", background:B.white, border:`1px solid ${B.border}`, borderRadius:B.rs, padding:"14px 16px", textDecoration:"none", boxShadow:B.shadow }}>

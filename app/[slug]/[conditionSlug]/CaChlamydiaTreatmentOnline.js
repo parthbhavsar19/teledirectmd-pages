@@ -10,7 +10,7 @@ const PAGE_URL = 'https://teledirectmd.com/ca/chlamydia-treatment-online/';
 const PAGE_TITLE = 'Chlamydia Treatment Online in California | TeleDirectMD';
 const DATE_PUBLISHED = '2026-05-20';
 const DATE_MODIFIED = '2026-05-20';
-const PHYSICIAN = { name: 'Parth Bhavsar, MD', npi: '1104323203', specialty: 'Family Medicine', licenseState: 'California', headshot: '/images/dr-parth-bhavsar.jpg', bioUrl: '/about' };
+const PHYSICIAN = { name: 'Parth Bhavsar, MD', npi: '1104323203', specialty: 'Family Medicine', licenseState: 'California', headshot: '/images/dr-parth-bhavsar.jpg', bioUrl: '/about/' };
 
 const CA_PAYORS = [
   { name: 'Aetna', status: 'Active', effective: 'April 30, 2026', inNetwork: true, notes: 'Commercial plans. In-network as of April 30, 2026.' },
@@ -29,7 +29,6 @@ const MEDICATIONS = [
 
 const CA_SIBLINGS = [
   { slug: 'bv-treatment-online', label: 'BV Treatment in CA', why: 'BV frequently co-occurs with chlamydia — same sexual health visit.' },
-  { slug: 'gonorrhea-treatment-online', label: 'Gonorrhea Treatment in CA', why: 'Co-infection with gonorrhea requires separate in-person care when an antibiotic injection is needed; TeleDirectMD cannot prescribe that injection.' },
   { slug: 'trichomoniasis-treatment-online', label: 'Trichomoniasis Treatment in CA', why: 'STI differential when discharge is present.' },
   { slug: 'doxypep-sti-prevention-online', label: 'DoxyPEP STI Prevention in CA', why: 'Doxycycline post-exposure prophylaxis to prevent chlamydia recurrence.' },
   { slug: 'birth-control-refills-online', label: 'Birth Control Refills in CA', why: 'STI screening recommended with contraceptive visits per CDC.' }

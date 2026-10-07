@@ -206,7 +206,7 @@ function buildFeaturedStates(allStates, categories) {
       categoryName: cat.categoryName,
       conditions: cat.conditions.map(c => ({
         name: c.name,
-        href: `/${slug}/${c.slug}`,
+        href: `/${slug}/${c.slug}/`,
       })),
     })).filter(cat => cat.conditions.length > 0);
 
@@ -220,26 +220,26 @@ function buildFeaturedStates(allStates, categories) {
     if (urgentCare) {
       previewCategories.push({
         label: 'Urgent Care',
-        conditions: urgentCare.conditions.slice(0, 4).map(c => ({ name: c.name, href: `/${slug}/${c.slug}` })),
+        conditions: urgentCare.conditions.slice(0, 4).map(c => ({ name: c.name, href: `/${slug}/${c.slug}/` })),
       });
     }
     if (womensHealth) {
       previewCategories.push({
         label: "Women's Health",
-        conditions: womensHealth.conditions.slice(0, 2).map(c => ({ name: c.name, href: `/${slug}/${c.slug}` })),
+        conditions: womensHealth.conditions.slice(0, 2).map(c => ({ name: c.name, href: `/${slug}/${c.slug}/` })),
       });
     }
     if (skinConditions || refills) {
       const src = skinConditions || refills;
       previewCategories.push({
         label: skinConditions ? 'Skin & Other' : 'Refills',
-        conditions: (src).conditions.slice(0, 2).map(c => ({ name: c.name, href: `/${slug}/${c.slug}` })),
+        conditions: (src).conditions.slice(0, 2).map(c => ({ name: c.name, href: `/${slug}/${c.slug}/` })),
       });
     }
 
     /* All conditions flat list for the expandable section */
     const allConditions = categories.flatMap(cat =>
-      cat.conditions.map(c => ({ name: c.name, href: `/${slug}/${c.slug}` }))
+      cat.conditions.map(c => ({ name: c.name, href: `/${slug}/${c.slug}/` }))
     );
 
     featured.push({

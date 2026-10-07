@@ -15,7 +15,7 @@ const LAST_REVIEWED = '2026-05-22';
 
 const PHYSICIAN = {
   name: 'Parth Bhavsar, MD', npi: '1104323203', specialty: 'Family Medicine',
-  licenseState: 'California', headshot: '/images/dr-parth-bhavsar.jpg', bioUrl: '/about',
+  licenseState: 'California', headshot: '/images/dr-parth-bhavsar.jpg', bioUrl: '/about/',
 };
 
 const CA_PAYORS = [
@@ -523,7 +523,7 @@ export default function CaEczemaTreatmentOnline() {
               <a href="/">Home</a>
               <a href="/ca/">California (state pillar)</a>
               <a href="/ca/uti-treatment-online/">California UTI Treatment Online</a>
-              <a href="/insurance/aetna/california/eczema-treatment-online/">Aetna × California × Eczema Treatment</a>
+              <a href="/insurance/aetna/california/">Aetna × California × Eczema Treatment</a>
               <a href="/about/">About Dr. Bhavsar</a>
               <a href="/book-online/">Book Online</a>
               <a href="/what-we-treat/">What We Treat</a>

@@ -252,12 +252,12 @@ export default function BCBSHubClient() {
           <h2 style={{ fontFamily:B.fd, fontSize:22, fontWeight:700, color:B.navy, margin:"0 0 16px" }}>Top BCBS telehealth combinations by affiliate</h2>
           <div style={{ display:"grid", gridTemplateColumns:"repeat(auto-fill, minmax(220px, 1fr))", gap:10 }}>
             {[
-              { slug: 'uti-treatment-online', label: 'UTI (Anthem GA / Highmark PA)' },
-              { slug: 'sinus-infection-treatment-online', label: 'Sinus infection (BCBS-IL / BCBS-TX)' },
-              { slug: 'pink-eye-treatment-online', label: 'Pink eye (Florida Blue)' },
-              { slug: 'sore-throat-treatment-online', label: 'Strep throat (Anthem GA)' },
-              { slug: 'yeast-infection-treatment-online', label: 'Yeast infection (Highmark PA)' },
-              { slug: 'ear-pain-treatment-online', label: 'Ear infection (BlueCard PPO)' },
+              { slug: 'uti-treatment', label: 'UTI (Anthem GA / Highmark PA)' },
+              { slug: 'sinus-infection', label: 'Sinus infection (BCBS-IL / BCBS-TX)' },
+              { slug: 'pink-eye', label: 'Pink eye (Florida Blue)' },
+              { slug: 'strep-throat', label: 'Strep throat (Anthem GA)' },
+              { slug: 'yeast-infection', label: 'Yeast infection (Highmark PA)' },
+              { slug: 'ear-infection', label: 'Ear infection (BlueCard PPO)' },
             ].filter((c) => insuranceHref(`/insurance/blue-cross-blue-shield/${c.slug}`)).map((c, i) => (
               <a key={i} href={insuranceHref(`/insurance/blue-cross-blue-shield/${c.slug}`)}
                 style={{ display:"block", background:B.white, border:`1px solid ${B.border}`, borderRadius:B.rs, padding:"14px 16px", textDecoration:"none", boxShadow:B.shadow }}>

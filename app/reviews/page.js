@@ -15,7 +15,7 @@ import reviewsData from '../../data/reviews.json';
 const COVERAGE_PHRASE = `40+ states + Washington, D.C.`;
 const SITE = 'https://teledirectmd.com';
 const PAGE_URL = `${SITE}/reviews/`;
-const BOOK_URL = '/book-online';
+const BOOK_URL = '/book-online/';
 
 /* ── Theme grouping for the review grid ───────────────────────────────────
    Each verbatim review from data/reviews.json is assigned to exactly one
