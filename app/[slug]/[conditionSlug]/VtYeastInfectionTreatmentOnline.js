@@ -5,6 +5,7 @@
  * Authority: ACOG + IDSA (vaginal candidiasis is within IDSA scope)
  * Author: Parth Bhavsar, MD · NPI 1104323203 · ABFM · Licensed in VT
  */
+import { stateConditionHref } from '../../../lib/live-routes';
 import FaqAccordion from '../../components/FaqAccordion';
 import { WhatDoesThisCostBlock, CompareTeleDirectMDLinkRow, CommonSymptomsBlock } from '../../components/CostCompareModules';
 
@@ -163,7 +164,7 @@ function buildSchemas() {
     },
     reviewedBy: {
       '@type': 'Physician',
-      '@id': 'https://teledirectmd.com/about/#physician-parth-bhavsar',
+      '@id': 'https://teledirectmd.com/about/#physician',
       name: PHYSICIAN.name,
       identifier: { '@type': 'PropertyValue', propertyID: 'NPI', value: PHYSICIAN.npi },
       medicalSpecialty: PHYSICIAN.specialty,
@@ -343,9 +344,9 @@ export default function VtYeastInfectionTreatmentOnline() {
                 </ul>
 
                 <div className="tdmd-hero-ctas">
-                  <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
+                  <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
                   <a href="/vt/" className="tdmd-btn tdmd-btn-outline">Explore Vermont Pages</a>
-                  <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
+                  <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
                 </div>
 
                 <p className="tdmd-icd"><strong>ICD-10 commonly used:</strong> B37.3 (Candidiasis of vulva and vagina — final coding depends on clinical details)</p>
@@ -512,7 +513,7 @@ export default function VtYeastInfectionTreatmentOnline() {
                   <h3>Get a treatment plan and, if appropriate, a prescription</h3>
                   <p>If antifungal therapy is clinically appropriate, a Vermont-compliant e-prescription is sent to your chosen Vermont pharmacy. OTC antifungal guidance is also provided. You receive follow-up instructions regardless of treatment choice.</p>
                   <div className="tdmd-decision-cta">
-                    <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
+                    <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
                   </div>
                 </div>
               </div>
@@ -640,7 +641,7 @@ export default function VtYeastInfectionTreatmentOnline() {
                 <p>Book a same-day video visit — Vermont adults, 18+</p>
                 <small>Cash-pay $79 flat · No insurance billing in Vermont · No ER wait</small>
               </div>
-              <a className="tdmd-vt-yeast__cta-btn" href="/book-online" rel="noopener">Book Now →</a>
+              <a className="tdmd-vt-yeast__cta-btn" href="/book-online/" rel="noopener">Book Now →</a>
             </div>
           </div>
         </section>
@@ -659,8 +660,8 @@ export default function VtYeastInfectionTreatmentOnline() {
                 <p>Book a same-day video visit. Cash-pay $79 flat. No insurance billing in Vermont.</p>
               </div>
               <div className="tdmd-bottom-cta-actions">
-                <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
-                <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
+                <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
+                <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
               </div>
             </div>
           </div>
@@ -672,7 +673,7 @@ export default function VtYeastInfectionTreatmentOnline() {
             <h2>Other Vermont Conditions We Treat</h2>
             <div className="tdmd-vt-yeast__sibling-grid">
               {VT_SIBLINGS.map((s) => (
-                <a key={s.slug} className="tdmd-vt-yeast__sibling" href={`/vt/${s.slug}/`}>
+                <a key={s.slug} className="tdmd-vt-yeast__sibling" href={stateConditionHref('vt', s.slug) || `/${s.slug}/`}>
                   <span className="tdmd-vt-yeast__sibling-label">{s.label}</span>
                   <span className="tdmd-vt-yeast__sibling-why">{s.why}</span>
                 </a>
@@ -691,15 +692,15 @@ export default function VtYeastInfectionTreatmentOnline() {
               <a href="/yeast-infection-treatment-online/">National Yeast Infection page</a>
               <a href="/health-guides/">Health Guides</a>
               <a href="/about/">About Dr. Bhavsar</a>
-              <a href="/book-online">Book Online</a>
-              <a href="/what-we-treat">What We Treat</a>
-              <a href="/faq">FAQ</a>
+              <a href="/book-online/">Book Online</a>
+              <a href="/what-we-treat/">What We Treat</a>
+              <a href="/faq/">FAQ</a>
               <a href="/vt/bv-treatment-online/">BV Treatment in VT</a>
               <a href="/vt/uti-treatment-online/">UTI Treatment for Women in VT</a>
               <a href="/vt/chlamydia-treatment-online/">Chlamydia Treatment in VT</a>
-              <a href="/vt/trichomoniasis-treatment-online/">Trichomoniasis Treatment in VT</a>
-              <a href="/vt/vaginal-dryness-treatment-online/">Vaginal Dryness Treatment in VT</a>
-              <a href="/vt/birth-control-refills-online/">Birth Control Refills in VT</a>
+              <a href="/trichomoniasis-treatment-online/">Trichomoniasis Treatment in VT</a>
+              <a href="/vaginal-dryness-treatment-online/">Vaginal Dryness Treatment in VT</a>
+              <a href="/birth-control-refills-online/">Birth Control Refills in VT</a>
             </div>
           </div>
         </section>

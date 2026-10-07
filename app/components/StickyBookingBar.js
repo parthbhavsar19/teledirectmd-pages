@@ -42,7 +42,7 @@ export default function StickyBookingBar({ price = '79' }) {
           </div>
           <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
             <a
-              href="/book-online"
+              href="/book-online/"
               className="tdmd-btn tdmd-btn-primary"
               style={{ whiteSpace: 'nowrap' }}
             >

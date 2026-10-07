@@ -64,11 +64,11 @@ function buildJsonLd(allStates, categories) {
         inLanguage: 'en-US',
         dateModified: contentDate('statesWeServe'),
         lastReviewed: contentDate('statesWeServe'),
-        reviewedBy: { '@id': `${baseUrl}#physician` },
+        reviewedBy: { '@id': `${baseUrl}/about/#physician` },
         breadcrumb: { '@id': `${baseUrl}/states-we-serve#breadcrumbs` },
         isPartOf: { '@type': 'WebSite', name: 'TeleDirectMD', url: baseUrl },
-        about: { '@id': `${baseUrl}#organization` },
-        publisher: { '@id': `${baseUrl}#organization` },
+        about: { '@id': `${baseUrl}/#organization` },
+        publisher: { '@id': `${baseUrl}/#organization` },
         specialty: ['Family Medicine', 'Urgent Care', 'Telemedicine', 'Dermatology', "Women's Health"],
         audience: { '@type': 'MedicalAudience', audienceType: 'Patient', requiredMinAge: 18 },
         significantLink: [`${baseUrl}/book-online`, `${baseUrl}/what-we-treat`, `${baseUrl}/faq`],
@@ -80,7 +80,7 @@ function buildJsonLd(allStates, categories) {
       /* MedicalOrganization / Physician */
       {
         '@type': 'MedicalOrganization',
-        '@id': `${baseUrl}#organization`,
+        '@id': `${baseUrl}/#organization`,
         name: 'TeleDirectMD',
         legalName: 'TeleDirectMD',
         url: baseUrl,
@@ -104,15 +104,15 @@ function buildJsonLd(allStates, categories) {
           name: 'Telemedicine Video Consultation',
           procedureType: 'Virtual healthcare consultation',
         },
-        founder: { '@id': `${baseUrl}#physician` },
+        founder: { '@id': `${baseUrl}/about/#physician` },
         aggregateRating: getAggregateRating(),
       },
       {
         '@type': 'Physician',
-        '@id': `${baseUrl}#physician`,
+        '@id': `${baseUrl}/about/#physician`,
         name: 'Parth Bhavsar, MD',
         medicalSpecialty: 'Family Medicine',
-        memberOf: { '@id': `${baseUrl}#organization` },
+        memberOf: { '@id': `${baseUrl}/#organization` },
         ...getReviewBlock(),
       },
       /* FAQPage */
@@ -265,7 +265,7 @@ export default function StatesWeServePage() {
   const stateNamesList = allStates.map(s => s.name).join(', ');
 
   const citableSummary_AI = summarizeStatesWeServe();
-  const citableJsonLd_AI = citableSummaryToJsonLd(citableSummary_AI, { pageUrl: 'https://teledirectmd.com/states-we-serve/' });
+  const citableJsonLd_AI = citableSummaryToJsonLd(citableSummary_AI, { pageUrl: 'https://teledirectmd.com/states-we-serve/', dateModified: contentDate('statesWeServe') });
 
   return (
     <>

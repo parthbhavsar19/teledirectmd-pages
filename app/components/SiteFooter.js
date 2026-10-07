@@ -15,56 +15,56 @@ export default function SiteFooter() {
               Board-certified family medicine physician. $79 flat-fee virtual visits across 40+ states + D.C. Insurance accepted in select states. Employer plans available.
             </p>
             <p className="tdmd-footer-desc"><strong>We do not treat male UTIs.</strong> UTI care is limited to non-pregnant adult women (18+) with uncomplicated symptoms.</p>
-            <a href="/book-online" className="tdmd-footer-cta">Book a Visit →</a>
+            <a href="/book-online/" className="tdmd-footer-cta">Book a Visit →</a>
           </div>
 
           {/* Column 2: Patients */}
           <div className="tdmd-footer-col">
             <h4 className="tdmd-footer-heading">PATIENTS</h4>
-            <a href="/book-online">Book Now</a>
-            <a href="/what-we-treat">What We Treat</a>
-            <a href="/insurance">Insurance & Pricing</a>
-            <a href="/states-we-serve">States We Serve</a>
-            <a href="/who-we-serve">Who We Serve</a>
+            <a href="/book-online/">Book Now</a>
+            <a href="/what-we-treat/">What We Treat</a>
+            <a href="/insurance/">Insurance & Pricing</a>
+            <a href="/states-we-serve/">States We Serve</a>
+            <a href="/who-we-serve/">Who We Serve</a>
             <a href="https://app.elationpassport.com/passport/login/" target="_blank" rel="noopener noreferrer">Patient Portal</a>
-            <a href="/faq">FAQs</a>
+            <a href="/faq/">FAQs</a>
           </div>
 
           {/* Column 3: Resources */}
           <div className="tdmd-footer-col">
             <h4 className="tdmd-footer-heading">RESOURCES</h4>
-            <a href="/health-guides">Health Guides</a>
-            <a href="/reviews">Reviews</a>
-            <a href="/media-mentions">Media Mentions</a>
+            <a href="/health-guides/">Health Guides</a>
+            <a href="/reviews/">Reviews</a>
+            <a href="/media-mentions/">Media Mentions</a>
           </div>
 
           {/* Column 4: For Business (Employers + Brokers) */}
           <div className="tdmd-footer-col">
             <h4 className="tdmd-footer-heading">FOR BUSINESS</h4>
-            <a href="/employers">For Employers</a>
-            <a href="/employers/brokers">For Brokers</a>
-            <a href="/employers/trucking">Trucking &amp; Logistics</a>
-            <a href="/employers/restaurants">Restaurants &amp; Hospitality</a>
-            <a href="/employers/home-care">Home Care</a>
-            <a href="/employers/construction">Construction &amp; Trades</a>
-            <a href="/employers/cleaning">Cleaning &amp; Janitorial</a>
+            <a href="/employers/">For Employers</a>
+            <a href="/employers/brokers/">For Brokers</a>
+            <a href="/employers/trucking/">Trucking &amp; Logistics</a>
+            <a href="/employers/restaurants/">Restaurants &amp; Hospitality</a>
+            <a href="/employers/home-care/">Home Care</a>
+            <a href="/employers/construction/">Construction &amp; Trades</a>
+            <a href="/employers/cleaning/">Cleaning &amp; Janitorial</a>
           </div>
 
           {/* Column 5: Legal & Policies */}
           <div className="tdmd-footer-col">
             <h4 className="tdmd-footer-heading">LEGAL & POLICIES</h4>
-            <a href="/terms-of-service">Terms of Service</a>
-            <a href="/privacy-policy">Privacy Policy</a>
-            <a href="/notice-of-privacy-practices">HIPAA Notice</a>
+            <a href="/terms-of-service/">Terms of Service</a>
+            <a href="/privacy-policy/">Privacy Policy</a>
+            <a href="/notice-of-privacy-practices/">HIPAA Notice</a>
             <div className="tdmd-footer-divider" />
             <a href="/telehealth-informed-consent.pdf">Telehealth Consent</a>
             <a href="/state-consent-disclosures.pdf">State Disclosures</a>
             <a href="/financial-responsibility.pdf">Financial Responsibility</a>
             <a href="/controlled-substance-policy.pdf">Controlled Substance Policy</a>
             <div className="tdmd-footer-divider" />
-            <a href="/good-faith-estimate">Good Faith Estimate</a>
-            <a href="/nondiscrimination-notice">Nondiscrimination Notice</a>
-            <a href="/accessibility">Accessibility</a>
+            <a href="/good-faith-estimate/">Good Faith Estimate</a>
+            <a href="/nondiscrimination-notice/">Nondiscrimination Notice</a>
+            <a href="/accessibility/">Accessibility</a>
           </div>
         </div>
 
@@ -125,15 +125,15 @@ export default function SiteFooter() {
         <div className="tdmd-footer-copyright">
           <span>© 2026 TeleDirectMD. All rights reserved.</span>
           <div className="tdmd-footer-legal-links">
-            <a href="/terms-of-service">Terms</a>
+            <a href="/terms-of-service/">Terms</a>
             <span className="tdmd-footer-dot">·</span>
-            <a href="/privacy-policy">Privacy</a>
+            <a href="/privacy-policy/">Privacy</a>
             <span className="tdmd-footer-dot">·</span>
-            <a href="/notice-of-privacy-practices">HIPAA</a>
+            <a href="/notice-of-privacy-practices/">HIPAA</a>
             <span className="tdmd-footer-dot">·</span>
             <a href="/telehealth-informed-consent.pdf">Consent</a>
             <span className="tdmd-footer-dot">·</span>
-            <a href="/accessibility">Accessibility</a>
+            <a href="/accessibility/">Accessibility</a>
           </div>
         </div>
       </footer>
@@ -144,7 +144,7 @@ export default function SiteFooter() {
           <strong>$79 Flat Fee</strong>
           <span>Insurance accepted in select states</span>
         </div>
-        <a href="/book-online" className="tdmd-sticky-bar-cta">Book Now</a>
+        <a href="/book-online/" className="tdmd-sticky-bar-cta">Book Now</a>
       </div>
     </>
   );

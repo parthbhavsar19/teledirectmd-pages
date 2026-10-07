@@ -48,7 +48,7 @@ export default function PressStrip({ variant = 'full' }) {
             {[...PRESS_OUTLETS, ...PRESS_OUTLETS].map((item, i) => (
               <a
                 key={`${item.name}-${i}`}
-                href="/media-mentions"
+                href="/media-mentions/"
                 aria-label={`Read TeleDirectMD coverage in ${item.name}`}
                 className="tdmd-press-strip__link"
               >
@@ -59,7 +59,7 @@ export default function PressStrip({ variant = 'full' }) {
         </div>
         {!isFooter && (
           <div className="tdmd-press-strip__cta">
-            <a href="/media-mentions">See all 27 media mentions →</a>
+            <a href="/media-mentions/">See all 27 media mentions →</a>
           </div>
         )}
       </div>

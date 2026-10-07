@@ -43,7 +43,7 @@ export default function OperationalCommunications() {
         <p>You may opt out of non-essential operational communications (such as appointment reminders) at any time by contacting us. However, certain communications required for the safe delivery of your care (such as critical prescription alerts or follow-up instructions) cannot be opted out of while you are an active patient.</p>
 
         <h2 style={s.h2}>Privacy</h2>
-        <p>All communications are handled in accordance with our <a href="/notice-of-privacy-practices" style={{ color: '#1a7f7f' }}>Notice of Privacy Practices</a> and applicable HIPAA regulations. We will not include detailed medical information in text messages or voicemails unless you have specifically authorized us to do so.</p>
+        <p>All communications are handled in accordance with our <a href="/notice-of-privacy-practices/" style={{ color: '#1a7f7f' }}>Notice of Privacy Practices</a> and applicable HIPAA regulations. We will not include detailed medical information in text messages or voicemails unless you have specifically authorized us to do so.</p>
 
         <h2 style={s.h2}>Contact</h2>
         <p>If you have questions or wish to update your communication preferences, contact us at:</p>

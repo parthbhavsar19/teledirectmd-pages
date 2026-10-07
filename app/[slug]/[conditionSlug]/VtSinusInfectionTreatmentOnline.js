@@ -150,7 +150,7 @@ function buildSchemas() {
     },
     reviewedBy: {
       '@type': 'Physician',
-      '@id': 'https://teledirectmd.com/about/#physician-parth-bhavsar',
+      '@id': 'https://teledirectmd.com/about/#physician',
       name: PHYSICIAN.name,
       identifier: { '@type': 'PropertyValue', propertyID: 'NPI', value: PHYSICIAN.npi },
       medicalSpecialty: PHYSICIAN.specialty,
@@ -340,9 +340,9 @@ export default function VtSinusInfectionTreatmentOnline() {
                 </ul>
 
                 <div className="tdmd-hero-ctas">
-                  <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
+                  <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
                   <a href="/vt/" className="tdmd-btn tdmd-btn-outline">Explore Vermont Pages</a>
-                  <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
+                  <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
                 </div>
 
                 <p className="tdmd-icd"><strong>ICD-10 commonly used:</strong> J01.90 (acute sinusitis, unspecified); final coding depends on the exam</p>
@@ -474,7 +474,7 @@ export default function VtSinusInfectionTreatmentOnline() {
                   <h3>Get the right plan</h3>
                   <p>Most patients leave with a symptom-relief plan and a clear return marker. When the course is bacterial, an antibiotic is e-prescribed to your Vermont pharmacy with dosing and escalation guidance.</p>
                   <div className="tdmd-decision-cta">
-                    <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
+                    <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
                   </div>
                 </div>
               </div>
@@ -614,7 +614,7 @@ export default function VtSinusInfectionTreatmentOnline() {
                 <p>Winter cold turned into sinus pressure? See a Vermont MD today</p>
                 <small>Cash-pay $79 flat · No insurance billing in Vermont · Antibiotics only when needed</small>
               </div>
-              <a className="tdmd-vt-cond__cta-btn" href="/book-online" rel="noopener">Book Now &rarr;</a>
+              <a className="tdmd-vt-cond__cta-btn" href="/book-online/" rel="noopener">Book Now &rarr;</a>
             </div>
           </div>
         </section>
@@ -632,8 +632,8 @@ export default function VtSinusInfectionTreatmentOnline() {
                 <p>Book a same-day video visit. Cash-pay $79 flat. No insurance billing in Vermont.</p>
               </div>
               <div className="tdmd-bottom-cta-actions">
-                <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
-                <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
+                <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
+                <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
               </div>
             </div>
           </div>
@@ -649,8 +649,8 @@ export default function VtSinusInfectionTreatmentOnline() {
                 <span className="tdmd-vt-cond__sibling-label">Sore Throat Treatment in VT</span>
                 <span className="tdmd-vt-cond__sibling-why">Postnasal drip and sinus infection often arrive with a sore throat.</span>
               </a>
-              <a className="tdmd-vt-cond__sibling" href="/vt/cough-treatment-online/">
-                <span className="tdmd-vt-cond__sibling-label">Cough Treatment in VT</span>
+              <a className="tdmd-vt-cond__sibling" href="/vt/common-cold-treatment-online/">
+                <span className="tdmd-vt-cond__sibling-label">Cold and Cough Treatment in VT</span>
                 <span className="tdmd-vt-cond__sibling-why">A lingering post-viral cough commonly tags along after a sinus course.</span>
               </a>
               <a className="tdmd-vt-cond__sibling" href="/vt/ear-pain-treatment-online/">
@@ -676,9 +676,9 @@ export default function VtSinusInfectionTreatmentOnline() {
               <a href="/sinus-infection-treatment-online/">National sinus infection page</a>
               <a href="/health-guides/">Health guides</a>
               <a href="/about/">About Dr. Bhavsar</a>
-              <a href="/book-online">Book Online</a>
-              <a href="/what-we-treat">What We Treat</a>
-              <a href="/faq">FAQ</a>
+              <a href="/book-online/">Book Online</a>
+              <a href="/what-we-treat/">What We Treat</a>
+              <a href="/faq/">FAQ</a>
             </div>
           </div>
         </section>

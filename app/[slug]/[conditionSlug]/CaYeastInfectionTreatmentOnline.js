@@ -127,7 +127,7 @@ const FAQ_ITEMS = [
   { question: 'Is my Aetna plan in California in-network with TeleDirectMD?',
     answer: (
       <p>
-        Aetna became an active in-network payor for TeleDirectMD in California effective April 30, 2026. Aetna commercial plan members in California may be able to use in-network benefits. Always verify current in-network status directly with Aetna before your visit. See <a href="/insurance">all insurance options</a>. Self pay ($79) is available regardless of insurance status.
+        Aetna became an active in-network payor for TeleDirectMD in California effective April 30, 2026. Aetna commercial plan members in California may be able to use in-network benefits. Always verify current in-network status directly with Aetna before your visit. See <a href="/insurance/">all insurance options</a>. Self pay ($79) is available regardless of insurance status.
       </p>
     ),
   },
@@ -191,7 +191,7 @@ function buildSchemas() {
     },
     reviewedBy: {
       '@type': 'Physician',
-      '@id': 'https://teledirectmd.com/about/#physician-parth-bhavsar',
+      '@id': 'https://teledirectmd.com/about/#physician',
       name: PHYSICIAN.name,
       identifier: { '@type': 'PropertyValue', propertyID: 'NPI', value: PHYSICIAN.npi },
       medicalSpecialty: PHYSICIAN.specialty,
@@ -361,9 +361,9 @@ export default function CaYeastInfectionTreatmentOnline() {
                 </ul>
 
                 <div className="tdmd-hero-ctas">
-                  <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
+                  <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
                   <a href="/ca/" className="tdmd-btn tdmd-btn-outline">Explore California Pages</a>
-                  <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
+                  <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
                 </div>
 
                 <p className="tdmd-icd"><strong>ICD-10 commonly used:</strong> B37.3 (Candidiasis of vulva and vagina — final coding depends on clinical details)</p>
@@ -535,7 +535,7 @@ export default function CaYeastInfectionTreatmentOnline() {
                   <h3>Get a treatment plan and, if appropriate, a prescription</h3>
                   <p>If antifungal therapy is clinically appropriate, a California-compliant e-prescription is sent to your chosen California pharmacy. OTC antifungal guidance is also provided. You receive follow-up instructions regardless of treatment choice.</p>
                   <div className="tdmd-decision-cta">
-                    <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
+                    <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
                   </div>
                 </div>
               </div>
@@ -689,7 +689,7 @@ export default function CaYeastInfectionTreatmentOnline() {
                 <p>Book a same-day video visit — California adults, 18+</p>
                 <small>Self pay $79 · Aetna in-network · UHC Commercial approved May 2026 · No ER wait</small>
               </div>
-              <a className="tdmd-ca-yeast__cta-btn" href="/book-online" rel="noopener">Book Now →</a>
+              <a className="tdmd-ca-yeast__cta-btn" href="/book-online/" rel="noopener">Book Now →</a>
             </div>
           </div>
         </section>
@@ -708,8 +708,8 @@ export default function CaYeastInfectionTreatmentOnline() {
                 <p>Book a same-day video visit. Self pay $79 · Aetna in-network · UHC Commercial approved.</p>
               </div>
               <div className="tdmd-bottom-cta-actions">
-                <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
-                <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
+                <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
+                <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
               </div>
             </div>
           </div>
@@ -740,10 +740,10 @@ export default function CaYeastInfectionTreatmentOnline() {
               <a href="/yeast-infection-treatment-online/">National Yeast Infection page</a>
               <a href="/health-guides/">Health Guides</a>
               <a href="/about/">About Dr. Bhavsar</a>
-              <a href="/book-online">Book Online</a>
-              <a href="/what-we-treat">What We Treat</a>
-              <a href="/insurance">Insurance</a>
-              <a href="/faq">FAQ</a>
+              <a href="/book-online/">Book Online</a>
+              <a href="/what-we-treat/">What We Treat</a>
+              <a href="/insurance/">Insurance</a>
+              <a href="/faq/">FAQ</a>
               <a href="/ca/bv-treatment-online/">BV Treatment in CA</a>
               <a href="/ca/uti-treatment-online/">UTI Treatment for Women in CA</a>
               <a href="/ca/chlamydia-treatment-online/">Chlamydia Treatment in CA</a>

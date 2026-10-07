@@ -129,7 +129,7 @@ const FAQ_ITEMS = [
   { question: 'Is UnitedHealthcare in-network with TeleDirectMD in California?',
     answer: (
       <p>
-        UnitedHealthcare Commercial was approved for California effective May 29, 2026, covering commercial plans and Medicare Advantage. This excludes Medi-Cal, Individual Exchange plans, and Navigate/Charter/Core plan types. Anthem Blue Cross PPO, Indemnity, and Medicare PPO plans are in-network as of September 23, 2026 (HMO and Medi-Cal plans are not included). Cigna is pending. Verify your specific UHC plan eligibility before booking, or view all <a href="/insurance">insurance options</a>.
+        UnitedHealthcare Commercial was approved for California effective May 29, 2026, covering commercial plans and Medicare Advantage. This excludes Medi-Cal, Individual Exchange plans, and Navigate/Charter/Core plan types. Anthem Blue Cross PPO, Indemnity, and Medicare PPO plans are in-network as of September 23, 2026 (HMO and Medi-Cal plans are not included). Cigna is pending. Verify your specific UHC plan eligibility before booking, or view all <a href="/insurance/">insurance options</a>.
       </p>
     ),
   },
@@ -234,7 +234,7 @@ function buildSchemas() {
     },
     reviewedBy: {
       '@type': 'Physician',
-      '@id': 'https://teledirectmd.com/about/#physician-parth-bhavsar',
+      '@id': 'https://teledirectmd.com/about/#physician',
       name: PHYSICIAN.name,
       identifier: { '@type': 'PropertyValue', propertyID: 'NPI', value: PHYSICIAN.npi },
       medicalSpecialty: PHYSICIAN.specialty,
@@ -477,9 +477,9 @@ export default function CaUtiTreatmentOnline() {
                 </ul>
 
                 <div className="tdmd-hero-ctas">
-                  <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
+                  <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
                   <a href="/ca/" className="tdmd-btn tdmd-btn-outline">Explore California Pages</a>
-                  <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
+                  <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
                 </div>
 
                 <p className="tdmd-icd"><strong>ICD-10 commonly used:</strong> N39.0 (final coding depends on clinical details)</p>
@@ -594,7 +594,7 @@ export default function CaUtiTreatmentOnline() {
                   <h3>Get a treatment plan and, if appropriate, a prescription</h3>
                   <p>If medication is clinically appropriate, a California-compliant e-prescription is sent to your chosen California pharmacy — CVS, Walgreens, Rite Aid, Walmart, Safeway, or another pharmacy — during or after the visit. You receive clear follow-up steps regardless of treatment choice, including when to seek in-person care if symptoms do not improve.</p>
                   <div className="tdmd-decision-cta">
-                    <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
+                    <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
                   </div>
                 </div>
               </div>
@@ -679,7 +679,7 @@ export default function CaUtiTreatmentOnline() {
             </div>
 
             <p style={{ marginTop: '1rem' }}>
-              For deeper detail, see <a href="/insurance/aetna/california/uti-treatment/">Aetna × California × UTI coverage</a> or view all <a href="/insurance">insurance options</a>. The full <a href="/health-guides/telehealth-uti-clinical-evidence/">telehealth UTI clinical evidence guide</a> walks through the rationale behind our stewardship approach.
+              For deeper detail, see <a href="/insurance/aetna/california/uti-treatment/">Aetna × California × UTI coverage</a> or view all <a href="/insurance/">insurance options</a>. The full <a href="/health-guides/telehealth-uti-clinical-evidence/">telehealth UTI clinical evidence guide</a> walks through the rationale behind our stewardship approach.
             </p>
           </div>
         </section>
@@ -782,7 +782,7 @@ export default function CaUtiTreatmentOnline() {
                 <p>Book a same-day video visit — California women, 18+</p>
                 <small>Self pay $79 · Aetna in-network · UHC Commercial approved May 2026 · No ER wait</small>
               </div>
-              <a className="tdmd-ca-uti__cta-btn" href="/book-online" rel="noopener">Book Now →</a>
+              <a className="tdmd-ca-uti__cta-btn" href="/book-online/" rel="noopener">Book Now →</a>
             </div>
           </div>
         </section>
@@ -801,8 +801,8 @@ export default function CaUtiTreatmentOnline() {
                 <p>Book a same-day video visit. Self pay $79 · Aetna in-network · UHC Commercial approved.</p>
               </div>
               <div className="tdmd-bottom-cta-actions">
-                <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
-                <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
+                <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
+                <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
               </div>
             </div>
           </div>
@@ -837,10 +837,10 @@ export default function CaUtiTreatmentOnline() {
               <a href="/health-guides/urinary-tract-infection-uti-guide/">Urinary tract infection (UTI) patient guide</a>
               <a href="/insurance/aetna/california/uti-treatment/">Aetna × California × UTI coverage</a>
               <a href="/about/">About Dr. Bhavsar</a>
-              <a href="/book-online">Book Online</a>
-              <a href="/what-we-treat">What We Treat</a>
-              <a href="/insurance">Insurance</a>
-              <a href="/faq">FAQ</a>
+              <a href="/book-online/">Book Online</a>
+              <a href="/what-we-treat/">What We Treat</a>
+              <a href="/insurance/">Insurance</a>
+              <a href="/faq/">FAQ</a>
             </div>
           </div>
         </section>

@@ -112,7 +112,7 @@ const SCHEMA = {
     },
     {
       '@type': 'Physician',
-      '@id': 'https://teledirectmd.com/#physician-parth-bhavsar',
+      '@id': 'https://teledirectmd.com/about/#physician',
       name: 'Parth Bhavsar, MD',
       identifier: { '@type': 'PropertyValue', name: 'NPI', value: '1104323203' },
       medicalSpecialty: 'Family Medicine',
@@ -136,13 +136,6 @@ const SCHEMA = {
       medicalSpecialty: 'General Practice',
       areaServed: { '@type': 'State', name: 'California' },
       identifier: { '@type': 'PropertyValue', name: 'Organization NPI', value: '1104610450' },
-      aggregateRating: {
-        '@type': 'AggregateRating',
-        ratingValue: '5.0',
-        reviewCount: '125',
-        bestRating: '5',
-        worstRating: '1',
-      },
     },
     {
       '@type': 'FAQPage',
@@ -176,7 +169,7 @@ export default function CaliforniaAetnaClient() {
       <nav aria-label="Breadcrumb" style={{ padding: '12px 24px', maxWidth: 1100, margin: '0 auto', fontSize: 14, color: B.text }}>
         <a href="/" style={{ color: B.teal, textDecoration: 'none' }}>Home</a>
         <span style={{ margin: '0 8px' }}>/</span>
-        <a href="/ca" style={{ color: B.teal, textDecoration: 'none' }}>California</a>
+        <a href="/ca/" style={{ color: B.teal, textDecoration: 'none' }}>California</a>
         <span style={{ margin: '0 8px' }}>/</span>
         <span>Aetna</span>
       </nav>
@@ -222,7 +215,7 @@ export default function CaliforniaAetnaClient() {
         </p>
         <div style={{ display: 'flex', gap: 12, flexWrap: 'wrap' }}>
           <a
-            href="/book-online"
+            href="/book-online/"
             style={{
               padding: '14px 28px',
               background: B.accent,
@@ -237,7 +230,7 @@ export default function CaliforniaAetnaClient() {
             Book with Aetna — Same Day
           </a>
           <a
-            href="/insurance/aetna/california"
+            href="/insurance/aetna/california/"
             style={{
               padding: '14px 28px',
               background: B.white,
@@ -357,15 +350,15 @@ export default function CaliforniaAetnaClient() {
           }}
         >
           {[
-            { name: 'UTI Treatment for Women', href: '/ca/uti-treatment-online' },
-            { name: 'Sinus Infection', href: '/ca/sinus-infection-treatment-online' },
-            { name: 'Pink Eye', href: '/ca/pink-eye-treatment-online' },
-            { name: 'Asthma Refills', href: '/ca/asthma-refills-online' },
-            { name: 'Hypertension Refills', href: '/ca/hypertension-refills-online' },
-            { name: 'Acid Reflux / GERD', href: '/ca/acid-reflux-refills-online' },
-            { name: 'Strep Throat', href: '/ca/strep-throat-treatment-online' },
-            { name: 'Flu Treatment', href: '/ca/influenza-treatment-online' },
-            { name: 'Yeast Infection', href: '/ca/yeast-infection-treatment-online' },
+            { name: 'UTI Treatment for Women', href: '/ca/uti-treatment-online/' },
+            { name: 'Sinus Infection', href: '/ca/sinus-infection-treatment-online/' },
+            { name: 'Pink Eye', href: '/ca/pink-eye-treatment-online/' },
+            { name: 'Asthma Refills', href: '/ca/asthma-refills-online/' },
+            { name: 'Hypertension Refills', href: '/ca/hypertension-refills-online/' },
+            { name: 'Acid Reflux / GERD', href: '/ca/acid-reflux-refills-online/' },
+            { name: 'Strep Throat', href: '/ca/sore-throat-treatment-online/' },
+            { name: 'Flu Treatment', href: '/ca/influenza-treatment-online/' },
+            { name: 'Yeast Infection', href: '/ca/yeast-infection-treatment-online/' },
           ].map((cond) => (
             <a
               key={cond.name}
@@ -433,12 +426,12 @@ export default function CaliforniaAetnaClient() {
           }}
         >
           {[
-            { href: '/insurance/aetna/california', t: 'Aetna California — Full Details', d: 'Insurer-first page with state-specific copay info, parity laws, and the full plan list.' },
-            { href: '/california/telehealth-urgent-care-aetna', t: 'CA Telehealth Urgent Care + Aetna', d: 'Long-tail page for same-day urgent-care conditions covered by Aetna in California.' },
-            { href: '/news/aetna-california-may-2026', t: 'Announcement: Aetna CA (May 2026)', d: 'Network expansion announcement with effective date, plan scope, and member benefits.' },
-            { href: '/insurance/aetna', t: 'Aetna Hub (All States)', d: 'See every state where TeleDirectMD is in-network with Aetna commercial plans.' },
-            { href: '/ca', t: 'California State Hub', d: 'California-specific telehealth regulations, parity laws, and accepted insurers.' },
-            { href: '/insurance', t: 'All Accepted Insurance', d: 'Complete list of all in-network payers across all TeleDirectMD service states.' },
+            { href: '/insurance/aetna/california/', t: 'Aetna California — Full Details', d: 'Insurer-first page with state-specific copay info, parity laws, and the full plan list.' },
+            { href: '/california/telehealth-urgent-care-aetna/', t: 'CA Telehealth Urgent Care + Aetna', d: 'Long-tail page for same-day urgent-care conditions covered by Aetna in California.' },
+            { href: '/news/aetna-california-may-2026/', t: 'Announcement: Aetna CA (May 2026)', d: 'Network expansion announcement with effective date, plan scope, and member benefits.' },
+            { href: '/insurance/aetna/', t: 'Aetna Hub (All States)', d: 'See every state where TeleDirectMD is in-network with Aetna commercial plans.' },
+            { href: '/ca/', t: 'California State Hub', d: 'California-specific telehealth regulations, parity laws, and accepted insurers.' },
+            { href: '/insurance/', t: 'All Accepted Insurance', d: 'Complete list of all in-network payers across all TeleDirectMD service states.' },
           ].map((link) => (
             <a
               key={link.href}
@@ -480,7 +473,7 @@ export default function CaliforniaAetnaClient() {
             Same-day video visit. Board-certified MD. Your Aetna copay or $79 self-pay.
           </p>
           <a
-            href="/book-online"
+            href="/book-online/"
             style={{
               display: 'inline-block',
               padding: '16px 36px',

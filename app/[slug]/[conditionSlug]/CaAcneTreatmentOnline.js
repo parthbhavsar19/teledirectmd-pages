@@ -93,7 +93,7 @@ function buildSchemas() {
       geographicArea: { '@type': 'AdministrativeArea', name: 'California' },
     },
     reviewedBy: {
-      '@type': 'Physician', '@id': 'https://teledirectmd.com/about/#physician-parth-bhavsar',
+      '@type': 'Physician', '@id': 'https://teledirectmd.com/about/#physician',
       name: PHYSICIAN.name,
       identifier: { '@type': 'PropertyValue', propertyID: 'NPI', value: PHYSICIAN.npi },
       medicalSpecialty: PHYSICIAN.specialty, licensedIn: PHYSICIAN.licenseState,
@@ -192,7 +192,7 @@ export default function CaAcneTreatmentOnline() {
                   <li>Licensed telehealth care for adults located in California at the time of the visit</li>
                 </ul>
                 <div className="tdmd-hero-ctas">
-                  <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
+                  <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
                   <a href="/ca/" className="tdmd-btn tdmd-btn-outline">Explore California Pages</a>
                 </div>
                 <p className="tdmd-icd"><strong>ICD-10 commonly used:</strong> L70.0 — Acne vulgaris (final coding depends on clinical details)</p>
@@ -300,7 +300,7 @@ export default function CaAcneTreatmentOnline() {
                 <div className="tdmd-decision-content">
                   <h3>Receive your treatment plan and e-prescription</h3>
                   <p>If medication is clinically appropriate, a California-compliant e-prescription is sent to your chosen pharmacy under AB 2789. You receive clear follow-up steps and in-person referral guidance when needed.</p>
-                  <div className="tdmd-decision-cta"><a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a></div>
+                  <div className="tdmd-decision-cta"><a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit</a></div>
                 </div>
               </div>
             </div>
@@ -456,7 +456,7 @@ export default function CaAcneTreatmentOnline() {
                 <p>Book a same-day video visit — California adults, 18+</p>
                 <small>Self pay $79 · Aetna in-network · UHC Commercial approved May 2026 · No ER wait</small>
               </div>
-              <a className="tdmd-ca-uti__cta-btn" href="/book-online" rel="noopener">Book Now →</a>
+              <a className="tdmd-ca-uti__cta-btn" href="/book-online/" rel="noopener">Book Now →</a>
             </div>
           </div>
         </section>
@@ -474,8 +474,8 @@ export default function CaAcneTreatmentOnline() {
                 <p>Book a same-day video visit. Self pay $79 · Aetna in-network · UHC Commercial approved.</p>
               </div>
               <div className="tdmd-bottom-cta-actions">
-                <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
-                <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All Conditions</a>
+                <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
+                <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">View All Conditions</a>
               </div>
             </div>
           </div>
@@ -525,10 +525,10 @@ export default function CaAcneTreatmentOnline() {
               <a href="/ca/uti-treatment-online/">California UTI Treatment Online</a>
               <a href="/insurance/aetna/california/acne-treatment-online/">Aetna × California × Acne Treatment</a>
               <a href="/about/">About Dr. Bhavsar</a>
-              <a href="/book-online">Book Online</a>
-              <a href="/what-we-treat">What We Treat</a>
-              <a href="/insurance">Insurance</a>
-              <a href="/faq">FAQ</a>
+              <a href="/book-online/">Book Online</a>
+              <a href="/what-we-treat/">What We Treat</a>
+              <a href="/insurance/">Insurance</a>
+              <a href="/faq/">FAQ</a>
               <a href="/ca/acne-treatment-online/">Acne Treatment in CA</a>
               <a href="/ca/eczema-treatment-online/">Eczema Treatment in CA</a>
               <a href="/ca/rosacea-treatment-online/">Rosacea Treatment in CA</a>

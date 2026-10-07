@@ -1,4 +1,5 @@
 'use client';
+import { contentDate } from '../../../lib/content-dates';
 import { B, INSURERS } from '../../../data/insurance/insuranceConfig';
 import { FAQ, BookCTA, HowItWorksSteps, TrustBar, Breadcrumb, InsuranceDisclaimer, AnswerBlock } from '../components/InsuranceShared';
 import { Ico } from '../components/InsuranceIcons';
@@ -59,7 +60,7 @@ const SCHEMA = {
   "@context": "https://schema.org",
   "@graph": [
     { "@type": "MedicalOrganization", "@id": "https://teledirectmd.com/#organization", "name": "TeleDirectMD", "url": "https://teledirectmd.com", "description": "Physician-led telemedicine practice accepting Florida Blue (BCBS of Florida) commercial plans.", "aggregateRating": getAggregateRating() },
-    { "@type": "Physician", "@id": "https://teledirectmd.com/#physician", "name": "Parth Bhavsar, MD",
+    { "@type": "Physician", "@id": "https://teledirectmd.com/about/#physician", "name": "Parth Bhavsar, MD",
       "identifier": [
         { "@type": "PropertyValue", "name": "NPI", "value": "1104323203" },
         { "@type": "PropertyValue", "propertyID": "FL Telehealth Provider Registration", "value": "TPME5921" },
@@ -112,14 +113,14 @@ export default function FloridaBlueHubClient() {
     payerSpecificCopy: "Florida Blue is the BCBS affiliate covering Florida residents. TeleDirectMD's Florida Blue contract is commercial-only: BlueOptions PPO, BlueSelect PPO, BlueChoice PPO, BlueCare HMO, and the small-group/individual marketplace plans are in-network. Florida Blue Medicare Advantage (BlueMedicare HMO/PPO), Florida Blue Medicaid, Florida Blue State Group, and the Federal Employee Program (FEP / BCBS Federal, member ID prefix 'R') are not in-network. Pharmacy benefits run through Prime Therapeutics for most commercial plans. BlueCard PPO host-state processing applies for visiting out-of-state BCBS members physically located in Florida at the time of the visit. Typical telehealth copay: $0\u2013$30.",
   });
   const pageUrl_AI = 'https://teledirectmd.com/insurance/florida-blue/';
-  const citableJsonLd_AI = citableSummaryToJsonLd(citableSummary_AI, { pageUrl: pageUrl_AI });
+  const citableJsonLd_AI = citableSummaryToJsonLd(citableSummary_AI, { pageUrl: pageUrl_AI, dateModified: contentDate('insurance') });
 
   return (
     <div style={{ fontFamily: B.fb, background: B.bg, color: B.navy }}>
       <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400&family=DM+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(SCHEMA) }} />
       <CitableSummaryBlock summary={citableSummary_AI} jsonLd={citableJsonLd_AI} idSuffix="florida-blue-hub" />
-      <Breadcrumb items={[{ label: "Home", href: "/" }, { label: "Insurance", href: "/insurance" }, { label: "Florida Blue" }]} />
+      <Breadcrumb items={[{ label: "Home", href: "/" }, { label: "Insurance", href: "/insurance/" }, { label: "Florida Blue" }]} />
 
       {/* FL: A1 credential disclosure + A3 verify-link placement 1 of 3. */}
       <FlCredentialBlock />
@@ -139,11 +140,11 @@ export default function FloridaBlueHubClient() {
             TeleDirectMD is in-network with Florida Blue (the BCBS licensee for Florida) commercial plans. See Dr. Parth Bhavsar, MD by video for the same telehealth visits you&rsquo;d schedule with a primary care office &mdash; usually same day.
           </p>
           <div style={{ display: "flex", flexWrap: "wrap", gap: 12 }}>
-            <a href="https://www.teledirectmd.com/book-online" target="_blank" rel="noopener"
+            <a href="https://www.teledirectmd.com/book-online/" target="_blank" rel="noopener"
               style={{ display: "inline-flex", alignItems: "center", gap: 8, padding: "14px 28px", background: B.accent, color: B.white, borderRadius: B.rs, fontWeight: 700, fontSize: 15, textDecoration: "none" }}>
               <Ico.Cal c={B.white} s={18} /> Book with Florida Blue
             </a>
-            <a href="/insurance/blue-cross-blue-shield/florida" style={{ display: "inline-flex", alignItems: "center", gap: 8, padding: "14px 24px", background: "rgba(255,255,255,0.1)", color: B.white, borderRadius: B.rs, fontWeight: 600, fontSize: 15, textDecoration: "none", border: "1px solid rgba(255,255,255,0.2)" }}>
+            <a href="/insurance/blue-cross-blue-shield/florida/" style={{ display: "inline-flex", alignItems: "center", gap: 8, padding: "14px 24px", background: "rgba(255,255,255,0.1)", color: B.white, borderRadius: B.rs, fontWeight: 600, fontSize: 15, textDecoration: "none", border: "1px solid rgba(255,255,255,0.2)" }}>
               Plan-level coverage details
             </a>
           </div>

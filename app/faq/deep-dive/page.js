@@ -148,7 +148,7 @@ const jsonLd = {
       inLanguage: 'en-US',
       breadcrumb: { '@id': `${BASE_URL}/faq/deep-dive#breadcrumbs` },
       publisher: { '@id': `${BASE_URL}/#organization` },
-      reviewedBy: { '@id': `${BASE_URL}/#physician` },
+      reviewedBy: { '@id': `${BASE_URL}/about/#physician` },
       lastReviewed: '2026-05-23',
       hasPart: collectionPageChildren,
     },
@@ -168,7 +168,7 @@ const jsonLd = {
     },
     {
       '@type': 'Physician',
-      '@id': `${BASE_URL}/#physician`,
+      '@id': `${BASE_URL}/about/#physician`,
       name: 'Parth Bhavsar, MD',
       url: `${BASE_URL}/about`,
       identifier: { '@type': 'PropertyValue', name: 'NPI', value: '1104323203' },
@@ -263,7 +263,7 @@ export default function FaqDeepDiveHubPage() {
           <nav className="fdd-bc" aria-label="Breadcrumb">
             <a href="/">Home</a>
             <span aria-hidden="true">/</span>
-            <a href="/faq">FAQ</a>
+            <a href="/faq/">FAQ</a>
             <span aria-hidden="true">/</span>
             <span aria-current="page">Deep-Dive FAQ</span>
           </nav>
@@ -285,12 +285,12 @@ export default function FaqDeepDiveHubPage() {
             <span className="fdd-badge">Non-Controlled Meds Only</span>
           </div>
           <div className="fdd-ctas">
-            <a href="/book-online" className="fdd-btn fdd-btn-primary">Book a Visit — $79</a>
-            <a href="/faq" className="fdd-btn fdd-btn-outline">Main FAQ</a>
+            <a href="/book-online/" className="fdd-btn fdd-btn-primary">Book a Visit — $79</a>
+            <a href="/faq/" className="fdd-btn fdd-btn-outline">Main FAQ</a>
           </div>
           <p className="fdd-reviewed">
             Medically reviewed by{' '}
-            <a href="/about">Parth Bhavsar, MD</a>
+            <a href="/about/">Parth Bhavsar, MD</a>
             {' '}(NPI&nbsp;1104323203) &mdash; Last reviewed: May 23, 2026
           </p>
         </div>
@@ -320,7 +320,7 @@ export default function FaqDeepDiveHubPage() {
                   {STATES.map((st) => (
                     <a
                       key={st.abbr}
-                      href={`/faq/deep-dive/${med.slugPrefix}-${stateSlugName(st.abbr)}`}
+                      href={`/faq/deep-dive/${med.slugPrefix}-${stateSlugName(st.abbr)}/`}
                       className="fdd-state-link"
                     >
                       {st.name}
@@ -397,7 +397,7 @@ export default function FaqDeepDiveHubPage() {
           </p>
           <div className="fdd-link-cloud">
             {STATES.map((st) => (
-              <a key={st.abbr} href={`/${stateSlugName(st.abbr)}`}>{st.name}</a>
+              <a key={st.abbr} href={`/${stateSlugName(st.abbr)}/`}>{st.name}</a>
             ))}
           </div>
           <p className="fdd-p" style={{ marginTop: '1rem' }}>
@@ -475,13 +475,13 @@ export default function FaqDeepDiveHubPage() {
         <section className="fdd-section" aria-labelledby="related-heading">
           <h2 id="related-heading" className="fdd-h2">Related Resources</h2>
           <div className="fdd-link-cloud">
-            <a href="/faq">Main FAQ Page</a>
-            <a href="/cost">Cost Guides</a>
-            <a href="/symptoms">Symptoms Directory</a>
-            <a href="/compare">Compare Telehealth Services</a>
-            <a href="/insurance">Insurance &amp; Pricing</a>
-            <a href="/about">About Dr. Bhavsar, MD</a>
-            <a href="/states-we-serve">States We Serve</a>
+            <a href="/faq/">Main FAQ Page</a>
+            <a href="/cost/">Cost Guides</a>
+            <a href="/symptoms/">Symptoms Directory</a>
+            <a href="/compare/">Compare Telehealth Services</a>
+            <a href="/insurance/">Insurance &amp; Pricing</a>
+            <a href="/about/">About Dr. Bhavsar, MD</a>
+            <a href="/states-we-serve/">States We Serve</a>
           </div>
         </section>
 
@@ -492,8 +492,8 @@ export default function FaqDeepDiveHubPage() {
             <p>Board-certified MD, same-day video visit, non-controlled prescriptions, 40+ states + DC. No membership required.</p>
           </div>
           <div className="fdd-cta-bar-actions">
-            <a href="/book-online" className="fdd-btn fdd-btn-primary">Book a Visit</a>
-            <a href="/faq" className="fdd-btn fdd-btn-outline">Main FAQ</a>
+            <a href="/book-online/" className="fdd-btn fdd-btn-primary">Book a Visit</a>
+            <a href="/faq/" className="fdd-btn fdd-btn-outline">Main FAQ</a>
           </div>
         </div>
 

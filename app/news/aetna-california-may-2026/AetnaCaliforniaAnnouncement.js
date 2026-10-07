@@ -65,13 +65,6 @@ const SCHEMA = {
       url: 'https://teledirectmd.com',
       identifier: { '@type': 'PropertyValue', name: 'Organization NPI', value: '1104610450' },
       areaServed: { '@type': 'State', name: 'California' },
-      aggregateRating: {
-        '@type': 'AggregateRating',
-        ratingValue: '5.0',
-        reviewCount: '125',
-        bestRating: '5',
-        worstRating: '1',
-      },
     },
     {
       '@type': 'FAQPage',
@@ -223,27 +216,27 @@ export default function AetnaCaliforniaAnnouncement() {
         </h2>
         <ul style={{ fontSize: 16, lineHeight: 1.8, paddingLeft: 22, margin: '0 0 32px' }}>
           <li>
-            <a href="/insurance/aetna/california" style={{ color: B.teal }}>
+            <a href="/insurance/aetna/california/" style={{ color: B.teal }}>
               Aetna Online Doctor in California — full coverage details
             </a>
           </li>
           <li>
-            <a href="/california-aetna" style={{ color: B.teal }}>
+            <a href="/california-aetna/" style={{ color: B.teal }}>
               Aetna Telehealth in California — patient-facing reverse hub
             </a>
           </li>
           <li>
-            <a href="/california/telehealth-urgent-care-aetna" style={{ color: B.teal }}>
+            <a href="/california/telehealth-urgent-care-aetna/" style={{ color: B.teal }}>
               California Telehealth Urgent Care That Accepts Aetna
             </a>
           </li>
           <li>
-            <a href="/insurance/aetna" style={{ color: B.teal }}>
+            <a href="/insurance/aetna/" style={{ color: B.teal }}>
               All Aetna In-Network States
             </a>
           </li>
           <li>
-            <a href="/ca" style={{ color: B.teal }}>
+            <a href="/ca/" style={{ color: B.teal }}>
               California Telehealth Home
             </a>
           </li>
@@ -291,7 +284,7 @@ export default function AetnaCaliforniaAnnouncement() {
             Same-day video visit. Aetna copay or $79 self-pay.
           </p>
           <a
-            href="/book-online"
+            href="/book-online/"
             style={{
               display: 'inline-block',
               padding: '12px 28px',

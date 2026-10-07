@@ -93,7 +93,7 @@ function buildSchemas() {
       geographicArea: { '@type': 'AdministrativeArea', name: 'California' },
     },
     reviewedBy: {
-      '@type': 'Physician', '@id': 'https://teledirectmd.com/about/#physician-parth-bhavsar',
+      '@type': 'Physician', '@id': 'https://teledirectmd.com/about/#physician',
       name: PHYSICIAN.name,
       identifier: { '@type': 'PropertyValue', propertyID: 'NPI', value: PHYSICIAN.npi },
       medicalSpecialty: PHYSICIAN.specialty, licensedIn: PHYSICIAN.licenseState,
@@ -192,7 +192,7 @@ export default function CaEczemaTreatmentOnline() {
                   <li>Licensed telehealth care for adults located in California at the time of the visit</li>
                 </ul>
                 <div className="tdmd-hero-ctas">
-                  <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
+                  <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
                   <a href="/ca/" className="tdmd-btn tdmd-btn-outline">Explore California Pages</a>
                 </div>
                 <p className="tdmd-icd"><strong>ICD-10 commonly used:</strong> L20.9 — Atopic dermatitis, unspecified (final coding depends on clinical details)</p>
@@ -218,7 +218,7 @@ export default function CaEczemaTreatmentOnline() {
         <section className="tdmd-section" id={`${pid}-opening`}>
           <div className="tdmd-container">
             <div className="tdmd-condition-opener">
-              <p><strong>Can I get eczema (atopic dermatitis) treatment online in California?</strong> Yes. <a href='https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=2290.5.&lawCode=BPC' rel='noopener' target='_blank'>California Business and Professions Code Section 2290.5</a> permits California-licensed physicians to evaluate and manage eczema (atopic dermatitis) by secure video visit. TeleDirectMD physicians follow <a href='https://www.aad.org/member/clinical-quality/guidelines/atopic-dermatitis' rel='noopener' target='_blank'>AAD 2023 atopic dermatitis guidelines</a>, prescribing topical corticosteroids, topical calcineurin inhibitors (tacrolimus, pimecrolimus), and crisaborole for mild-moderate disease. Adults 18+ in California can book same-day. The <a href='https://www.mbc.ca.gov/Resources/Medical-Resources/telehealth.aspx' rel='noopener' target='_blank'>Medical Board of California</a> holds telehealth physicians to the same standard as in-person care. Self pay is $79. <a href='/insurance'>Aetna is in-network</a> as of April 30, 2026.</p>
+              <p><strong>Can I get eczema (atopic dermatitis) treatment online in California?</strong> Yes. <a href='https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=2290.5.&lawCode=BPC' rel='noopener' target='_blank'>California Business and Professions Code Section 2290.5</a> permits California-licensed physicians to evaluate and manage eczema (atopic dermatitis) by secure video visit. TeleDirectMD physicians follow <a href='https://www.aad.org/member/clinical-quality/guidelines/atopic-dermatitis' rel='noopener' target='_blank'>AAD 2023 atopic dermatitis guidelines</a>, prescribing topical corticosteroids, topical calcineurin inhibitors (tacrolimus, pimecrolimus), and crisaborole for mild-moderate disease. Adults 18+ in California can book same-day. The <a href='https://www.mbc.ca.gov/Resources/Medical-Resources/telehealth.aspx' rel='noopener' target='_blank'>Medical Board of California</a> holds telehealth physicians to the same standard as in-person care. Self pay is $79. <a href='/insurance/'>Aetna is in-network</a> as of April 30, 2026.</p>
             </div>
           </div>
         </section>
@@ -300,7 +300,7 @@ export default function CaEczemaTreatmentOnline() {
                 <div className="tdmd-decision-content">
                   <h3>Receive your treatment plan and e-prescription</h3>
                   <p>If medication is clinically appropriate, a California-compliant e-prescription is sent to your chosen pharmacy under AB 2789. You receive clear follow-up steps and in-person referral guidance when needed.</p>
-                  <div className="tdmd-decision-cta"><a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a></div>
+                  <div className="tdmd-decision-cta"><a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit</a></div>
                 </div>
               </div>
             </div>
@@ -456,7 +456,7 @@ export default function CaEczemaTreatmentOnline() {
                 <p>Book a same-day video visit — California adults, 18+</p>
                 <small>Self pay $79 · Aetna in-network · UHC Commercial approved May 2026 · No ER wait</small>
               </div>
-              <a className="tdmd-ca-uti__cta-btn" href="/book-online" rel="noopener">Book Now →</a>
+              <a className="tdmd-ca-uti__cta-btn" href="/book-online/" rel="noopener">Book Now →</a>
             </div>
           </div>
         </section>
@@ -474,8 +474,8 @@ export default function CaEczemaTreatmentOnline() {
                 <p>Book a same-day video visit. Self pay $79 · Aetna in-network · UHC Commercial approved.</p>
               </div>
               <div className="tdmd-bottom-cta-actions">
-                <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
-                <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All Conditions</a>
+                <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
+                <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">View All Conditions</a>
               </div>
             </div>
           </div>
@@ -525,10 +525,10 @@ export default function CaEczemaTreatmentOnline() {
               <a href="/ca/uti-treatment-online/">California UTI Treatment Online</a>
               <a href="/insurance/aetna/california/eczema-treatment-online/">Aetna × California × Eczema Treatment</a>
               <a href="/about/">About Dr. Bhavsar</a>
-              <a href="/book-online">Book Online</a>
-              <a href="/what-we-treat">What We Treat</a>
-              <a href="/insurance">Insurance</a>
-              <a href="/faq">FAQ</a>
+              <a href="/book-online/">Book Online</a>
+              <a href="/what-we-treat/">What We Treat</a>
+              <a href="/insurance/">Insurance</a>
+              <a href="/faq/">FAQ</a>
               <a href="/ca/acne-treatment-online/">Acne Treatment in CA</a>
               <a href="/ca/eczema-treatment-online/">Eczema Treatment in CA</a>
               <a href="/ca/rosacea-treatment-online/">Rosacea Treatment in CA</a>

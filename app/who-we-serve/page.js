@@ -116,7 +116,7 @@ export default function WhoWeServeHub() {
             {segments.map((seg) => (
               <a
                 key={seg.slug}
-                href={`/who-we-serve/${seg.slug}`}
+                href={`/who-we-serve/${seg.slug}/`}
                 className="tdmd-card"
                 style={{
                   textDecoration: 'none',
@@ -158,8 +158,8 @@ export default function WhoWeServeHub() {
               <p>Same-day visits, evenings & weekends. No insurance required. Board-certified physician licensed in 40+ states, available by secure video visit.</p>
             </div>
             <div className="tdmd-bottom-cta-actions">
-              <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
-              <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">What We Treat</a>
+              <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
+              <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">What We Treat</a>
             </div>
           </div>
         </div>
@@ -171,11 +171,11 @@ export default function WhoWeServeHub() {
           <div className="tdmd-inline-links">
             <h3>More from TeleDirectMD</h3>
             <p className="tdmd-link-cloud">
-              <a href="/what-we-treat">What We Treat</a>
-              <a href="/states-we-serve">States We Serve</a>
-              <a href="/insurance">Insurance & Pricing</a>
-              <a href="/faq">Frequently Asked Questions</a>
-              <a href="/book-online">Book a Visit</a>
+              <a href="/what-we-treat/">What We Treat</a>
+              <a href="/states-we-serve/">States We Serve</a>
+              <a href="/insurance/">Insurance & Pricing</a>
+              <a href="/faq/">Frequently Asked Questions</a>
+              <a href="/book-online/">Book a Visit</a>
             </p>
           </div>
         </div>

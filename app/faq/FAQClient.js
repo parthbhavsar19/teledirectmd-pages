@@ -276,16 +276,16 @@ const sections = [
               service is especially well-suited for:
             </p>
             <ul>
-              <li><Link href="/who-we-serve/truck-drivers"><strong>Truck drivers</strong></Link> and mobile workers</li>
-              <li><Link href="/who-we-serve/gig-workers"><strong>Gig workers</strong></Link> without employer-sponsored coverage</li>
-              <li><Link href="/who-we-serve/uninsured"><strong>Uninsured individuals</strong></Link> seeking affordable care</li>
-              <li><Link href="/who-we-serve/remote-workers"><strong>Remote workers</strong></Link> who prefer virtual-first healthcare</li>
-              <li><Link href="/who-we-serve/travel-nurses"><strong>Travel nurses</strong></Link> moving between states</li>
-              <li><Link href="/who-we-serve/small-business-owners"><strong>Small business owners</strong></Link> who need a flexible provider</li>
+              <li><Link href="/who-we-serve/truck-drivers/"><strong>Truck drivers</strong></Link> and mobile workers</li>
+              <li><Link href="/who-we-serve/gig-workers/"><strong>Gig workers</strong></Link> without employer-sponsored coverage</li>
+              <li><Link href="/who-we-serve/uninsured/"><strong>Uninsured individuals</strong></Link> seeking affordable care</li>
+              <li><Link href="/who-we-serve/remote-workers/"><strong>Remote workers</strong></Link> who prefer virtual-first healthcare</li>
+              <li><Link href="/who-we-serve/travel-nurses/"><strong>Travel nurses</strong></Link> moving between states</li>
+              <li><Link href="/who-we-serve/small-business-owners/"><strong>Small business owners</strong></Link> who need a flexible provider</li>
             </ul>
             <p>
               Visit our{' '}
-              <Link href="/who-we-serve"><strong>Who We Serve</strong></Link>{' '}
+              <Link href="/who-we-serve/"><strong>Who We Serve</strong></Link>{' '}
               page to learn more about how TeleDirectMD supports each group.
             </p>
           </>
@@ -364,14 +364,14 @@ const sections = [
               infections, bronchitis, and more.
             </p>
             <p>
-              We also offer <Link href="/travel-medicine-treatment-online"><strong>travel medicine</strong></Link>{' '}
+              We also offer <Link href="/travel-medicine-treatment-online/"><strong>travel medicine</strong></Link>{' '}
               by video visit before you fly — including{' '}
-              <Link href="/altitude-sickness-treatment-online"><strong>altitude sickness prevention</strong></Link>{' '}
+              <Link href="/altitude-sickness-treatment-online/"><strong>altitude sickness prevention</strong></Link>{' '}
               (acetazolamide/Diamox), malaria prophylaxis, a traveler’s diarrhea standby antibiotic, and motion sickness medication. These are non-controlled medications only; we do not administer travel vaccines.
             </p>
             <p>
               Visit our{' '}
-              <Link href="/what-we-treat">
+              <Link href="/what-we-treat/">
                 <strong>What We Treat</strong>
               </Link>{' '}
               page for a full list of conditions.
@@ -495,7 +495,7 @@ const sections = [
             </ul>
             <p>
               Coverage is expanding to additional states and plans. Visit our{' '}
-              <Link href="/insurance">
+              <Link href="/insurance/">
                 <strong>Insurance page</strong>
               </Link>{' '}
               to check if your plan is covered. Standard copays and cost-sharing apply for insurance
@@ -566,7 +566,7 @@ const sections = [
         a: (
           <p>
             You can book a visit directly on our website at{' '}
-            <Link href="/book-online">
+            <Link href="/book-online/">
               <strong>teledirectmd.com/book-online</strong>
             </Link>
             . Simply choose your visit type, select an available time slot, enter your information,
@@ -741,11 +741,11 @@ export default function FAQClient() {
           </p>
 
           <div className="faq-hero-ctas">
-            <Link href="/book-online" className="faq-btn faq-btn-primary">
+            <Link href="/book-online/" className="faq-btn faq-btn-primary">
               Book a Visit — $79
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" width="18" height="18"><line x1="5" y1="12" x2="19" y2="12" /><polyline points="12 5 19 12 12 19" /></svg>
             </Link>
-            <Link href="/insurance" className="faq-btn faq-btn-secondary">
+            <Link href="/insurance/" className="faq-btn faq-btn-secondary">
               Check Insurance Coverage
             </Link>
           </div>
@@ -839,7 +839,7 @@ export default function FAQClient() {
           <p>
             Book a visit with a licensed physician today, or reach out — we&apos;re happy to help.
           </p>
-          <Link href="/book-online" className="faq-bottom-cta">
+          <Link href="/book-online/" className="faq-bottom-cta">
             Book a Visit — $79
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" width="20" height="20"><line x1="5" y1="12" x2="19" y2="12" /><polyline points="12 5 19 12 12 19" /></svg>
           </Link>
@@ -866,7 +866,7 @@ export default function FAQClient() {
 
       {/* ── Mobile fixed CTA ── */}
       <div className="faq-mobile-cta">
-        <Link href="/book-online">
+        <Link href="/book-online/">
           Book a Visit — $79
         </Link>
       </div>

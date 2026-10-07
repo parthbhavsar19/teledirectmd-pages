@@ -222,7 +222,7 @@ export default function ConditionPageRedesign({
               </div>
             )}
             {hero.introParagraph && <p className="intro">{clean(hero.introParagraph, stateName)}</p>}
-            <div><a href="/book-online" className="cpr-cta">Book a Visit, {price} →</a></div>
+            <div><a href="/book-online/" className="cpr-cta">Book a Visit, {price} →</a></div>
             <p className="cpr-trust">Board-certified MD · 40+ states + DC · evenings &amp; weekends · HSA/FSA accepted · {AGGREGATE_RATING_VALUE}★ ({TOTAL_REVIEW_COUNT} reviews)</p>
           </div>
           <div className="cpr-hcard">
@@ -234,7 +234,7 @@ export default function ConditionPageRedesign({
                 <li key={i}>{clean(typeof f === 'string' ? f : (f.text || f.label || ''), stateName)}</li>
               ))}
             </ul>
-            <a href="/book-online" className="cpr-hcard-cta">Book a Visit &rarr;</a>
+            <a href="/book-online/" className="cpr-hcard-cta">Book a Visit &rarr;</a>
             <p className="cpr-hcard-note">Same-day appointments · HSA/FSA accepted</p>
           </div>
         </div>
@@ -312,7 +312,7 @@ export default function ConditionPageRedesign({
               ))}
             </div>
             <div style={{ marginTop: '1.75rem' }}>
-              <a href="/book-online" className="cpr-cta cpr-cta--navy">Book a {price} Visit Now →</a>
+              <a href="/book-online/" className="cpr-cta cpr-cta--navy">Book a {price} Visit Now →</a>
             </div>
           </div>
         </section>
@@ -640,11 +640,11 @@ export default function ConditionPageRedesign({
             <h2>All conditions we treat online</h2>
             <div className="cpr-chips">
               {otherConditions.map((cc, i) => (
-                <a className="cpr-chip" key={i} href={`/${cc.slug}`}>{clean(cc.name, stateName)}</a>
+                <a className="cpr-chip" key={i} href={`/${cc.slug}/`}>{clean(cc.name, stateName)}</a>
               ))}
             </div>
             <div style={{ marginTop: '1.5rem' }}>
-              <a href="/what-we-treat" className="cpr-cta cpr-cta--navy">Explore All Adult Conditions →</a>
+              <a href="/what-we-treat/" className="cpr-cta cpr-cta--navy">Explore All Adult Conditions →</a>
             </div>
           </div>
         </section>
@@ -656,7 +656,7 @@ export default function ConditionPageRedesign({
           <div className="cpr-close">
             <h2>Get treated today</h2>
             <p>A board-certified MD, a same-day visit, and a flat {price}. No waiting room, no insurance required.</p>
-            <a href="/book-online" className="cpr-cta">Book a Visit, {price} →</a>
+            <a href="/book-online/" className="cpr-cta">Book a Visit, {price} →</a>
           </div>
         </div>
       </section>

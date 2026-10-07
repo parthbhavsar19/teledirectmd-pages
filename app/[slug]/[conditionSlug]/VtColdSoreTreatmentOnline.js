@@ -4,6 +4,7 @@
  * Authority: CDC + IDSA (HSV-1)
  * ICD-10: B00.1
  */
+import { stateConditionHref } from '../../../lib/live-routes';
 import FaqAccordion from '../../components/FaqAccordion';
 import { WhatDoesThisCostBlock, CompareTeleDirectMDLinkRow, CommonSymptomsBlock } from '../../components/CostCompareModules';
 
@@ -44,7 +45,7 @@ const FAQ_ITEMS = [
 ];
 
 function buildSchemas() {
-  const medicalWebPage = { '@context': 'https://schema.org', '@type': 'MedicalWebPage', name: PAGE_TITLE, url: PAGE_URL, description: 'Cold Sore Treatment Online in Vermont | TeleDirectMD by secure video visit for Vermont adults. Board-certified Family Medicine physician. Vermont telehealth law compliant. Cash-pay only at $79 flat.', datePublished: DATE_PUBLISHED, dateModified: DATE_MODIFIED, inLanguage: 'en-US', about: { '@type': 'MedicalCondition', name: 'Cold Sores', code: { '@type': 'MedicalCode', code: 'B00.1', codingSystem: 'ICD-10-CM' } }, medicalAudience: { '@type': 'MedicalAudience', audienceType: 'Patient', geographicArea: { '@type': 'AdministrativeArea', name: 'Vermont' } }, reviewedBy: { '@type': 'Physician', '@id': 'https://teledirectmd.com/about/#physician-parth-bhavsar', name: PHYSICIAN.name, identifier: { '@type': 'PropertyValue', propertyID: 'NPI', value: PHYSICIAN.npi }, medicalSpecialty: PHYSICIAN.specialty, hasCredential: [{ '@type': 'EducationalOccupationalCredential', credentialCategory: 'certification', name: 'Board Certification — American Board of Family Medicine' }, { '@type': 'EducationalOccupationalCredential', credentialCategory: 'Medical License', name: 'Vermont Medical License', identifier: '042.0040345-COMP', recognizedBy: { '@type': 'GovernmentOrganization', name: 'Vermont Board of Medical Practice', url: 'https://www.healthvermont.gov/systems/board-medical-practice' } }], areaServed: { '@type': 'State', name: 'Vermont' }, licensedIn: PHYSICIAN.licenseState, worksFor: { '@type': 'MedicalOrganization', name: 'TeleDirectMD', url: 'https://teledirectmd.com' }, sameAs: ['https://npiregistry.cms.hhs.gov/provider-view/1104323203', 'https://teledirectmd.com/about/'] }, speakable: { '@type': 'SpeakableSpecification', cssSelector: ['#vt-cold-sore-opening', '#vt-cold-sore-opening p', '.tdmd-vt-cold-sore__byline', '#vt-cold-sore-treatment-online-faq'] } };
+  const medicalWebPage = { '@context': 'https://schema.org', '@type': 'MedicalWebPage', name: PAGE_TITLE, url: PAGE_URL, description: 'Cold Sore Treatment Online in Vermont | TeleDirectMD by secure video visit for Vermont adults. Board-certified Family Medicine physician. Vermont telehealth law compliant. Cash-pay only at $79 flat.', datePublished: DATE_PUBLISHED, dateModified: DATE_MODIFIED, inLanguage: 'en-US', about: { '@type': 'MedicalCondition', name: 'Cold Sores', code: { '@type': 'MedicalCode', code: 'B00.1', codingSystem: 'ICD-10-CM' } }, medicalAudience: { '@type': 'MedicalAudience', audienceType: 'Patient', geographicArea: { '@type': 'AdministrativeArea', name: 'Vermont' } }, reviewedBy: { '@type': 'Physician', '@id': 'https://teledirectmd.com/about/#physician', name: PHYSICIAN.name, identifier: { '@type': 'PropertyValue', propertyID: 'NPI', value: PHYSICIAN.npi }, medicalSpecialty: PHYSICIAN.specialty, hasCredential: [{ '@type': 'EducationalOccupationalCredential', credentialCategory: 'certification', name: 'Board Certification — American Board of Family Medicine' }, { '@type': 'EducationalOccupationalCredential', credentialCategory: 'Medical License', name: 'Vermont Medical License', identifier: '042.0040345-COMP', recognizedBy: { '@type': 'GovernmentOrganization', name: 'Vermont Board of Medical Practice', url: 'https://www.healthvermont.gov/systems/board-medical-practice' } }], areaServed: { '@type': 'State', name: 'Vermont' }, licensedIn: PHYSICIAN.licenseState, worksFor: { '@type': 'MedicalOrganization', name: 'TeleDirectMD', url: 'https://teledirectmd.com' }, sameAs: ['https://npiregistry.cms.hhs.gov/provider-view/1104323203', 'https://teledirectmd.com/about/'] }, speakable: { '@type': 'SpeakableSpecification', cssSelector: ['#vt-cold-sore-opening', '#vt-cold-sore-opening p', '.tdmd-vt-cold-sore__byline', '#vt-cold-sore-treatment-online-faq'] } };
   const faqPage = { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: FAQ_ITEMS.map((faq) => ({ '@type': 'Question', name: faq.question, acceptedAnswer: { '@type': 'Answer', text: extractPlain(faq.answer) } })) };
   const howTo = { '@context': 'https://schema.org', '@type': 'HowTo', name: 'How to Get Cold Sores Treatment Online in Vermont', totalTime: 'PT30M', estimatedCost: { '@type': 'MonetaryAmount', currency: 'USD', value: '79' }, step: [{ '@type': 'HowToStep', position: 1, name: 'Book your video visit', text: 'Visit teledirectmd.com. Self pay $79. No referral needed.', url: 'https://teledirectmd.com/book-online' }, { '@type': 'HowToStep', position: 2, name: 'See a Vermont-licensed MD', text: 'Physician reviews symptoms and completes red-flag screening per clinical guidelines.', url: PAGE_URL }, { '@type': 'HowToStep', position: 3, name: 'Receive e-prescription', text: 'If appropriate, e-prescription sent to your Vermont pharmacy electronically.', url: PAGE_URL }] };
   const breadcrumb = { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [{ '@type': 'ListItem', position: 1, name: 'TeleDirectMD', item: 'https://teledirectmd.com' }, { '@type': 'ListItem', position: 2, name: 'Vermont', item: 'https://teledirectmd.com/vt/' }, { '@type': 'ListItem', position: 3, name: 'Cold Sore Treatment Online', item: PAGE_URL }] };
@@ -109,9 +110,9 @@ export default function VtColdSoreTreatmentOnline() {
                   <li>Licensed telehealth for Vermont adults at time of visit</li>
                 </ul>
                 <div className="tdmd-hero-ctas">
-                  <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
+                  <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
                   <a href="/vt/" className="tdmd-btn tdmd-btn-outline">Explore Vermont Pages</a>
-                  <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All Conditions</a>
+                  <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">View All Conditions</a>
                 </div>
                 <p className="tdmd-icd"><strong>ICD-10 commonly used:</strong> B00.1</p>
               </div>
@@ -175,7 +176,7 @@ export default function VtColdSoreTreatmentOnline() {
               </div>
               <div className="tdmd-decision-step tdmd-decision-step-good">
                 <div className="tdmd-decision-number">3</div>
-                <div className="tdmd-decision-content"><h3>Receive treatment plan and, if appropriate, a prescription</h3><p>If treatment is clinically appropriate, a Vermont-compliant e-prescription is sent to your chosen Vermont pharmacy during or after your visit. Follow-up instructions are provided.</p><div className="tdmd-decision-cta"><a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a></div></div>
+                <div className="tdmd-decision-content"><h3>Receive treatment plan and, if appropriate, a prescription</h3><p>If treatment is clinically appropriate, a Vermont-compliant e-prescription is sent to your chosen Vermont pharmacy during or after your visit. Follow-up instructions are provided.</p><div className="tdmd-decision-cta"><a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit</a></div></div>
               </div>
             </div>
           </div>
@@ -246,7 +247,7 @@ export default function VtColdSoreTreatmentOnline() {
           <div className="tdmd-container">
             <div className='tdmd-vt-cold-sore__cta-strip' role="complementary">
               <div><p>Book a same-day video visit — Vermont adults, 18+</p><small>Cash-pay $79 flat · No insurance billing in Vermont May 2026</small></div>
-              <a className='ca-cold-sore__cta-btn' href="/book-online" rel="noopener">Book Now →</a>
+              <a className='ca-cold-sore__cta-btn' href="/book-online/" rel="noopener">Book Now →</a>
             </div>
           </div>
         </section>
@@ -254,7 +255,7 @@ export default function VtColdSoreTreatmentOnline() {
         <section className="tdmd-section tdmd-faq" id={`${pid}-faq`}>
           <div className="tdmd-container">
             <FaqAccordion sectionTitle={`Frequently Asked Questions — Cold Sores Treatment in Vermont`} items={FAQ_ITEMS.map((f, i) => ({ ...f, id: `${pid}-faq-${i}` }))} />
-            <div className="tdmd-bottom-cta"><div className="tdmd-bottom-cta-copy"><h3>Ready to see a Vermont-licensed MD?</h3><p>Book a same-day video visit. Cash-pay $79 flat. No insurance billing in Vermont.</p></div><div className="tdmd-bottom-cta-actions"><a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a><a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All Conditions</a></div></div>
+            <div className="tdmd-bottom-cta"><div className="tdmd-bottom-cta-copy"><h3>Ready to see a Vermont-licensed MD?</h3><p>Book a same-day video visit. Cash-pay $79 flat. No insurance billing in Vermont.</p></div><div className="tdmd-bottom-cta-actions"><a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit</a><a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">View All Conditions</a></div></div>
           </div>
         </section>
 
@@ -262,7 +263,7 @@ export default function VtColdSoreTreatmentOnline() {
           <div className="tdmd-container">
             <h2>Other Vermont Conditions We Treat</h2>
             <div className='tdmd-vt-cold-sore__sibling-grid'>
-              {VT_SIBLINGS.map((s) => (<a key={s.slug} className='tdmd-vt-cold-sore__sibling' href={`/vt/${s.slug}/`}><span className='tdmd-vt-cold-sore__sibling-label'>{s.label}</span><span className='tdmd-vt-cold-sore__sibling-why'>{s.why}</span></a>))}
+              {VT_SIBLINGS.map((s) => (<a key={s.slug} className='tdmd-vt-cold-sore__sibling' href={stateConditionHref('vt', s.slug) || `/${s.slug}/`}><span className='tdmd-vt-cold-sore__sibling-label'>{s.label}</span><span className='tdmd-vt-cold-sore__sibling-why'>{s.why}</span></a>))}
             </div>
           </div>
         </section>

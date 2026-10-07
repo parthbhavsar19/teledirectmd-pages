@@ -109,11 +109,11 @@ const LONG_DATE = new Intl.DateTimeFormat('en-US', { month: 'long', day: 'numeri
 const longDate = (iso) => LONG_DATE.format(new Date(`${iso}T00:00:00Z`));
 
 const OTHER_SEGMENTS = [
-  { href: '/who-we-serve/truck-drivers', label: 'Truck drivers' },
-  { href: '/who-we-serve/gig-workers', label: 'Gig workers & freelancers' },
-  { href: '/who-we-serve/hdhp-hsa-holders', label: 'HDHP & HSA holders' },
-  { href: '/who-we-serve/early-retirees', label: 'Early retirees' },
-  { href: '/who-we-serve', label: 'All communities' },
+  { href: '/who-we-serve/truck-drivers/', label: 'Truck drivers' },
+  { href: '/who-we-serve/gig-workers/', label: 'Gig workers & freelancers' },
+  { href: '/who-we-serve/hdhp-hsa-holders/', label: 'HDHP & HSA holders' },
+  { href: '/who-we-serve/early-retirees/', label: 'Early retirees' },
+  { href: '/who-we-serve/', label: 'All communities' },
 ];
 
 export default function UninsuredAffordableCarePage() {
@@ -156,13 +156,13 @@ export default function UninsuredAffordableCarePage() {
       { '@type': ['MedicalBusiness','MedicalOrganization','Organization'], '@id': `${baseUrl}/#organization`,
         name: 'TeleDirectMD', url: baseUrl, logo: `${baseUrl}/assets/brand/teledirectmd-logo.png`,
         telephone: '+1-678-956-1855', medicalSpecialty: 'FamilyMedicine', priceRange: '$79',
-        areaServed: STATE_ABBRS, employee: { '@id': `${baseUrl}/about#physician` },
+        areaServed: STATE_ABBRS, employee: { '@id': `${baseUrl}/about/#physician` },
         makesOffer: { '@type': 'Offer', name: 'Online doctor video visit, cash pay',
           price: '79.00', priceCurrency: 'USD', category: 'Telehealth video visit',
           description: 'Flat $79 per visit with a board-certified family medicine physician. No insurance, no membership, no drug subscription required. Follow-up visits are the same $79.',
           eligibleRegion: STATE_ABBRS, availableAtOrFrom: { '@type': 'VirtualLocation', url: 'https://teledirectmd.as.me' } },
         availableService: { '@type': 'MedicalTherapy', name: 'Telehealth video visit for non-emergency adult conditions', howPerformed: 'Secure HIPAA-compliant video visit' } },
-      { '@type': 'Physician', '@id': `${baseUrl}/about#physician`, name: PHYSICIAN_NAME,
+      { '@type': 'Physician', '@id': `${baseUrl}/about/#physician`, name: PHYSICIAN_NAME,
         givenName: 'Parth', familyName: 'Bhavsar', honorificSuffix: 'MD', jobTitle: 'Founder and Physician',
         medicalSpecialty: 'FamilyMedicine', worksFor: { '@id': `${baseUrl}/#organization` },
         alumniOf: [
@@ -180,7 +180,7 @@ export default function UninsuredAffordableCarePage() {
         name: '$79 Online Doctor Without Insurance - Same MD, 40+ States',
         description: 'See the same board-certified physician every visit for $79 flat. No insurance, no membership, no drug subscriptions. 40+ states, same-day, evenings and weekends.',
         inLanguage: 'en-US', breadcrumb: { '@id': `${pageUrl}#breadcrumbs` },
-        author: { '@id': `${baseUrl}/about#physician` }, reviewedBy: { '@id': `${baseUrl}/about#physician` },
+        author: { '@id': `${baseUrl}/about/#physician` }, reviewedBy: { '@id': `${baseUrl}/about/#physician` },
         lastReviewed: today, datePublished: today, dateModified: today,
         publisher: { '@type': 'Organization', name: 'TeleDirectMD', url: baseUrl },
         audience: { '@type': 'MedicalAudience', audienceType: 'Patient' },
@@ -211,7 +211,7 @@ export default function UninsuredAffordableCarePage() {
         <div className="uac-hero-container">
           <nav className="uac-crumbs" aria-label="Breadcrumb">
             <a href="/">Home</a><span aria-hidden="true">/</span>
-            <a href="/who-we-serve">Who We Serve</a><span aria-hidden="true">/</span>
+            <a href="/who-we-serve/">Who We Serve</a><span aria-hidden="true">/</span>
             <span aria-current="page">Uninsured &amp; Affordable Care</span>
           </nav>
 
@@ -221,18 +221,18 @@ export default function UninsuredAffordableCarePage() {
             <p className="uac-hero-sub">A board-certified MD by video, same-day, in 40+ states. No membership, no drug subscription.</p>
 
             <div className="uac-hero-ctas">
-              <a className="uac-btn uac-btn--primary" href="/book-online" data-analytics="book_hero">Book a $79 Visit</a>
+              <a className="uac-btn uac-btn--primary" href="/book-online/" data-analytics="book_hero">Book a $79 Visit</a>
               <a className="uac-btn uac-btn--glass" href="#uninsured-compare">See How We Compare</a>
             </div>
 
             <div className="uac-chiprow">
               <span className="uac-chiprow-label">Common visits:</span>
               {HERO_CHIPS.map((c) => (
-                <a key={c.slug} className="uac-chip" href={`/${c.slug}`}>{c.label}</a>
+                <a key={c.slug} className="uac-chip" href={`/${c.slug}/`}>{c.label}</a>
               ))}
             </div>
 
-            <p className="uac-byline">Medically reviewed by <a href="/about">{PHYSICIAN_NAME}</a> · Updated {longDate(today)}</p>
+            <p className="uac-byline">Medically reviewed by <a href="/about/">{PHYSICIAN_NAME}</a> · Updated {longDate(today)}</p>
           </div>
         </div>
       </section>
@@ -252,7 +252,7 @@ export default function UninsuredAffordableCarePage() {
               <li><Tick />No membership, no subscription, no add-on fees</li>
               <li><Tick />HSA and FSA cards accepted</li>
             </ul>
-            <a className="uac-btn uac-btn--primary" href="/book-online" data-analytics="book_price_card" style={{ width: '100%' }}>Book Now</a>
+            <a className="uac-btn uac-btn--primary" href="/book-online/" data-analytics="book_price_card" style={{ width: '100%' }}>Book Now</a>
             <p className="uac-pricecard-foot">Same-day, evenings, and weekends. Insurance optional in select states.</p>
           </div>
 
@@ -317,7 +317,7 @@ export default function UninsuredAffordableCarePage() {
               <li key={line}><span className="uac-num">{String(i + 1).padStart(2, '0')}</span>{line}</li>
             ))}
           </ul>
-          <p className="uac-footnote">Insurance accepted in select states. <a href="/insurance">Confirm your plan.</a></p>
+          <p className="uac-footnote">Insurance accepted in select states. <a href="/insurance/">Confirm your plan.</a></p>
         </div>
 
         <div className="uac-col" id="uninsured-triage">
@@ -363,8 +363,8 @@ export default function UninsuredAffordableCarePage() {
               <dt>NPI</dt><dd>{PHYSICIAN_NPI}</dd>
             </dl>
             <div className="uac-doctor-actions">
-              <a className="uac-btn uac-btn--primary" href="/book-online" data-analytics="book_doctor">Book With Dr. Bhavsar</a>
-              <a href="/about">More about Dr. Bhavsar</a>
+              <a className="uac-btn uac-btn--primary" href="/book-online/" data-analytics="book_doctor">Book With Dr. Bhavsar</a>
+              <a href="/about/">More about Dr. Bhavsar</a>
             </div>
             <p className="uac-fineprint">HIPAA-compliant. Your health information is encrypted, never sold, never shared for advertising.</p>
             <p className="uac-fineprint uac-fineprint--quiet">If we expand in the future, we&rsquo;ll make every effort to keep you with your one doctor, wherever and whenever you need to see us.</p>
@@ -391,7 +391,7 @@ export default function UninsuredAffordableCarePage() {
             </div>
           </details>
 
-          <a className="uac-coverage-link" href="/states-we-serve">State-specific condition pages</a>
+          <a className="uac-coverage-link" href="/states-we-serve/">State-specific condition pages</a>
         </div>
 
         <div className="uac-map">
@@ -408,12 +408,12 @@ export default function UninsuredAffordableCarePage() {
               <h2>What we treat for $79</h2>
               <p>Every condition page explains what to expect, which medications are typically appropriate, and when telehealth isn&rsquo;t the right call.</p>
             </div>
-            <a className="uac-btn uac-btn--dark" href="/what-we-treat">View All 60+ Conditions</a>
+            <a className="uac-btn uac-btn--dark" href="/what-we-treat/">View All 60+ Conditions</a>
           </div>
 
           <div className="uac-conditions-grid">
             {CONDITIONS.map((c) => (
-              <a key={c.slug} className="uac-condition" href={`/${c.slug}`}>
+              <a key={c.slug} className="uac-condition" href={`/${c.slug}/`}>
                 <span className="uac-condition-tag" style={{ color: TAG_COLORS[c.tag] }}>{c.tag}</span>
                 <h3>{c.name}</h3>
                 <p>{c.blurb}</p>
@@ -465,7 +465,7 @@ export default function UninsuredAffordableCarePage() {
         <div className="uac-faq-head">
           <span className="uac-eyebrow">Questions &amp; answers</span>
           <h2>Straight answers about paying cash</h2>
-          <p>Still unsure? <a href="/faq">See the full FAQ.</a></p>
+          <p>Still unsure? <a href="/faq/">See the full FAQ.</a></p>
         </div>
         <div className="uac-faq-list">
           {faqItems.map((item) => (
@@ -490,8 +490,8 @@ export default function UninsuredAffordableCarePage() {
             <p>No insurance, no membership, no drug subscription. Same doctor every visit across 40+ states.</p>
           </div>
           <div className="uac-cta-actions">
-            <a className="uac-btn uac-btn--dark" href="/book-online" data-analytics="book_final_cta">Book a $79 Visit</a>
-            <a className="uac-btn uac-btn--light" href="/insurance">Pricing &amp; Insurance</a>
+            <a className="uac-btn uac-btn--dark" href="/book-online/" data-analytics="book_final_cta">Book a $79 Visit</a>
+            <a className="uac-btn uac-btn--light" href="/insurance/">Pricing &amp; Insurance</a>
           </div>
         </div>
       </section>

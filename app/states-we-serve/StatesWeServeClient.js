@@ -194,8 +194,8 @@ export default function StatesWeServeClient({
     { q: 'What states does TeleDirectMD serve?', a: `TeleDirectMD physicians are licensed and available in 40+ U.S. states and territories, including ${stateNamesList}. We are actively expanding to additional states.` },
     { q: 'How much does a TeleDirectMD visit cost?', a: 'TeleDirectMD self-pay visits are a flat $79 — no hidden fees and no surprise charges. This includes your full video consultation with a board-certified physician and any prescriptions sent to your pharmacy if clinically appropriate. We also accept select insurance plans (Aetna, Blue Cross Blue Shield, and UnitedHealthcare) in a growing number of states — standard copays apply.' },
     { q: 'Do I need insurance to use TeleDirectMD?', a: 'No. Insurance is never required. You can always book a $79 self-pay visit with no insurance filing and no prior authorization. However, we now accept select commercial insurance plans in 17 states. Visit our Insurance page to check if your plan is covered.' },
-    { q: 'What conditions does TeleDirectMD treat?', a: `TeleDirectMD treats a wide range of conditions via video visits, including virtual urgent care (UTIs (women only), sinus infections, influenza, COVID-19, sore throat, pink eye, ear pain), women\u2019s health (bacterial vaginosis, yeast infections), men\u2019s health, skin conditions (acne, eczema, cellulitis, shingles, cold sores), and medication refills (migraine, asthma, GERD). Visit our <a href="/what-we-treat">What We Treat</a> page for the complete list.` },
-    { q: 'How do I book a TeleDirectMD appointment?', a: 'Booking takes about 2 minutes. Visit <a href="/book-online">teledirectmd.com/book-online</a>, select your condition and preferred time, confirm your state of residence, and complete the $79 payment. Same-day appointments are available 7 days a week. No app download required.' },
+    { q: 'What conditions does TeleDirectMD treat?', a: `TeleDirectMD treats a wide range of conditions via video visits, including virtual urgent care (UTIs (women only), sinus infections, influenza, COVID-19, sore throat, pink eye, ear pain), women\u2019s health (bacterial vaginosis, yeast infections), men\u2019s health, skin conditions (acne, eczema, cellulitis, shingles, cold sores), and medication refills (migraine, asthma, GERD). Visit our <a href="/what-we-treat/">What We Treat</a> page for the complete list.` },
+    { q: 'How do I book a TeleDirectMD appointment?', a: 'Booking takes about 2 minutes. Visit <a href="/book-online/">teledirectmd.com/book-online</a>, select your condition and preferred time, confirm your state of residence, and complete the $79 payment. Same-day appointments are available 7 days a week. No app download required.' },
     { q: 'Do I have to be physically located in a licensed state during my visit?', a: "Yes. Per state medical licensing regulations, you must be physically present in one of TeleDirectMD\u2019s licensed states at the time of your video visit. You will be asked to confirm your current physical location during booking and again at the start of your consultation." },
     { q: 'Are TeleDirectMD doctors board-certified?', a: 'Yes. TeleDirectMD is an MD-only practice. Every consultation is conducted by a board-certified physician — not a nurse practitioner or physician assistant. Our physicians hold active medical licenses in every state where we operate.' },
     { q: 'Can TeleDirectMD prescribe medication?', a: 'Yes. When clinically appropriate, your physician can prescribe medications and send them electronically to the pharmacy of your choice. Prescription costs are separate from the $79 visit fee and depend on your pharmacy and medication. TeleDirectMD does not prescribe controlled substances.' },
@@ -244,9 +244,9 @@ export default function StatesWeServeClient({
           </div>
         </div>
         <div className="sws-hero-ctas">
-          <a href="/book-online" className="sws-btn sws-btn-primary">Book Your $79 Visit <ArrowIcon /></a>
-          <a href="/what-we-treat" className="sws-btn sws-btn-ghost">View All Conditions</a>
-          <a href="/insurance" className="sws-btn sws-btn-ghost">Insurance & Pricing</a>
+          <a href="/book-online/" className="sws-btn sws-btn-primary">Book Your $79 Visit <ArrowIcon /></a>
+          <a href="/what-we-treat/" className="sws-btn sws-btn-ghost">View All Conditions</a>
+          <a href="/insurance/" className="sws-btn sws-btn-ghost">Insurance & Pricing</a>
         </div>
         <div className="sws-emergency">
           <WarningIcon />
@@ -296,7 +296,7 @@ export default function StatesWeServeClient({
                       <a key={name} href={href} className="sws-popup-tag">{name}</a>
                     ))}
                   </div>
-                  <a href="/book-online" className="sws-popup-cta">Book a Visit <SmallArrowIcon /></a>
+                  <a href="/book-online/" className="sws-popup-cta">Book a Visit <SmallArrowIcon /></a>
                 </div>
               )}
               {/* Noscript fallback */}
@@ -306,7 +306,7 @@ export default function StatesWeServeClient({
                   <ul style={{ columns: 3, columnGap: 24, listStyle: 'none', padding: 0, margin: 0 }}>
                     {allStates.map(s => (
                       <li key={s.abbr} style={{ breakInside: 'avoid', padding: '6px 0', fontSize: 14 }}>
-                        <strong>{s.name}</strong> — <a href={`/${s.slug}`} style={{ color: '#006B73' }}>View conditions</a>
+                        <strong>{s.name}</strong> — <a href={`/${s.slug}/`} style={{ color: '#006B73' }}>View conditions</a>
                       </li>
                     ))}
                   </ul>
@@ -403,7 +403,7 @@ export default function StatesWeServeClient({
                 </div>
               </div>
               <div className="sws-card-footer">
-                <a href="/what-we-treat" className="sws-card-link">View all treatments <SmallArrowIcon /></a>
+                <a href="/what-we-treat/" className="sws-card-link">View all treatments <SmallArrowIcon /></a>
               </div>
             </article>
           ))}
@@ -417,7 +417,7 @@ export default function StatesWeServeClient({
               Complete Directory
             </div>
             <h2>All Licensed States</h2>
-            <p className="sws-section-desc">TeleDirectMD physicians are licensed and available for $79 video consultations in every state listed below. Conditions shown are representative — <a href="/what-we-treat" style={{ color: 'var(--sws-teal)', fontWeight: 600, textDecoration: 'none', borderBottom: '1px solid rgba(0,107,115,0.25)' }}>view our full conditions list</a>.</p>
+            <p className="sws-section-desc">TeleDirectMD physicians are licensed and available for $79 video consultations in every state listed below. Conditions shown are representative — <a href="/what-we-treat/" style={{ color: 'var(--sws-teal)', fontWeight: 600, textDecoration: 'none', borderBottom: '1px solid rgba(0,107,115,0.25)' }}>view our full conditions list</a>.</p>
           </div>
           <div className="sws-directory-grid">
             {directoryStates.map(s => (
@@ -426,7 +426,7 @@ export default function StatesWeServeClient({
                 <div className="sws-dir-card-conditions">
                   {['UTI (women only)', 'Sinus Infection', 'Influenza', 'Pink Eye', 'BV'].map(c => <span key={c} className="sws-dir-tag">{c}</span>)}
                 </div>
-                <a href="/book-online" className="sws-dir-cta">Book a visit <SmallArrow14 /></a>
+                <a href="/book-online/" className="sws-dir-cta">Book a visit <SmallArrow14 /></a>
               </div>
             ))}
           </div>
@@ -462,7 +462,7 @@ export default function StatesWeServeClient({
         {/* ═══ FOOTER NOTE ═══ */}
         <div className="sws-footer-note">
           <p><strong>Important:</strong> You must be physically located in a licensed state at the time of your visit. You will be asked to confirm your location during booking and again at the start of your video visit.</p>
-          <p><a href="/book-online">Book your $79 visit now</a> · <a href="/insurance">Check insurance coverage</a> · <a href="/faq">Learn more about our services</a> · Questions? Email <a href="mailto:contact@teledirectmd.com">contact@teledirectmd.com</a>.</p>
+          <p><a href="/book-online/">Book your $79 visit now</a> · <a href="/insurance/">Check insurance coverage</a> · <a href="/faq/">Learn more about our services</a> · Questions? Email <a href="mailto:contact@teledirectmd.com">contact@teledirectmd.com</a>.</p>
         </div>
       </div>
     </section>

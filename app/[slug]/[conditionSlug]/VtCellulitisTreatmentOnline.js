@@ -12,6 +12,7 @@
  *   • Parth Bhavsar, MD · Family Medicine · Vermont-licensed.
  */
 
+import { stateConditionHref } from '../../../lib/live-routes';
 import FaqAccordion from '../../components/FaqAccordion';
 import { WhatDoesThisCostBlock, CompareTeleDirectMDLinkRow, CommonSymptomsBlock } from '../../components/CostCompareModules';
 
@@ -96,7 +97,7 @@ function buildSchemas() {
     },
     reviewedBy: {
       '@type': 'Physician',
-      '@id': 'https://teledirectmd.com/about/#physician-parth-bhavsar',
+      '@id': 'https://teledirectmd.com/about/#physician',
       name: PHYSICIAN.name,
       identifier: { '@type': 'PropertyValue', propertyID: 'NPI', value: PHYSICIAN.npi },
       medicalSpecialty: PHYSICIAN.specialty,
@@ -274,9 +275,9 @@ export default function VtCellulitisTreatmentOnline() {
                 </ul>
 
                 <div className="tdmd-hero-ctas">
-                  <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
+                  <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
                   <a href="/vt/" className="tdmd-btn tdmd-btn-outline">Explore Vermont Pages</a>
-                  <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
+                  <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
                 </div>
 
                 <p className="tdmd-icd"><strong>ICD-10 commonly used:</strong> L03.90 (Cellulitis, unspecified) — final coding depends on clinical details</p>
@@ -390,7 +391,7 @@ export default function VtCellulitisTreatmentOnline() {
                   <h3>Get a plan and, if appropriate, an e-prescription</h3>
                   <p>If medication is clinically appropriate, a Vermont-compliant e-prescription is sent to your chosen Vermont pharmacy — CVS, Walgreens, Rite Aid, Walmart, or another pharmacy — during or after the visit. You receive clear follow-up steps, including when to seek in-person care.</p>
                   <div className="tdmd-decision-cta">
-                    <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
+                    <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
                   </div>
                 </div>
               </div>
@@ -529,7 +530,7 @@ export default function VtCellulitisTreatmentOnline() {
                 <p>Book a same-day video visit — Vermont adults, 18+</p>
                 <small>Cash-pay $79 flat · No insurance billing in Vermont · No ER wait</small>
               </div>
-              <a className="vt-cellulitis-treatment-online__cta-btn" href="/book-online" rel="noopener">Book Now →</a>
+              <a className="vt-cellulitis-treatment-online__cta-btn" href="/book-online/" rel="noopener">Book Now →</a>
             </div>
           </div>
         </section>
@@ -552,8 +553,8 @@ export default function VtCellulitisTreatmentOnline() {
                 <p>Book a same-day video visit. Cash-pay $79 flat. No insurance billing in Vermont.</p>
               </div>
               <div className="tdmd-bottom-cta-actions">
-                <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
-                <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
+                <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
+                <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
               </div>
             </div>
           </div>
@@ -566,7 +567,7 @@ export default function VtCellulitisTreatmentOnline() {
             <p>These Vermont condition pages may help when symptoms overlap, or when you want to explore another Vermont telehealth visit from TeleDirectMD.</p>
             <div className="vt-cellulitis-treatment-online__sibling-grid">
               {VT_SIBLINGS.map((s) => (
-                <a key={s.slug} className="vt-cellulitis-treatment-online__sibling" href={`/vt/${s.slug}/`}>
+                <a key={s.slug} className="vt-cellulitis-treatment-online__sibling" href={stateConditionHref('vt', s.slug) || `/${s.slug}/`}>
                   <span className="vt-cellulitis-treatment-online__sibling-label">{s.label}</span>
                   <span className="vt-cellulitis-treatment-online__sibling-why">{s.why}</span>
                 </a>
@@ -585,9 +586,9 @@ export default function VtCellulitisTreatmentOnline() {
               <a href="/vt/">Vermont (state pillar)</a>
               <a href="/cellulitis-treatment-online/">National Cellulitis Treatment page</a>
               <a href="/about/">About Dr. Bhavsar</a>
-              <a href="/book-online">Book Online</a>
-              <a href="/what-we-treat">What We Treat</a>
-              <a href="/faq">FAQ</a>
+              <a href="/book-online/">Book Online</a>
+              <a href="/what-we-treat/">What We Treat</a>
+              <a href="/faq/">FAQ</a>
             </div>
           </div>
         </section>

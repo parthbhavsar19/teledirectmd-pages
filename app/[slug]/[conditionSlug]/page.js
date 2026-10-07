@@ -1,3 +1,4 @@
+import { stateConditionHref } from '../../../lib/live-routes';
 import { contentDate } from '../../../lib/content-dates';
 import { getStates, getConditionSlugs, getCondition, getStateBySlug, resolveConditionForState, resolveConditionNational } from '../../../lib/get-data';
 import { generateJsonLd } from '../../../lib/json-ld';
@@ -105,69 +106,15 @@ import { summarizeConditionState, citableSummaryToJsonLd } from '../../../lib/ci
 // back to current generic behavior. See data/state-templates/_schema.md.
 import { loadStateTemplate, getConditionOverride, mergeFaqs } from '../../../lib/state-template';
 
-// VT pilot cohort (2026-06-04): restrict /vt/ static generation to the 10 hand-crafted
-// condition pages — the other ~50 slugs are not staged and must NOT fall through to the
-// generic template (would emit scaled templated content, the April 2026 deindex trap).
-// Vermont, Virginia, and Alaska share the same demand-gated pilot cohort. Only these
-// condition slugs generate and enter the sitemap; every other state-condition route stays
-// unpublished. Alaska is cash-pay only and receives state-specific compliance content from
-// data/state-templates/ak.json.
-// Alaska diverges from VT/VA. The AK cohort was originally copied verbatim from
-// Vermont's slug list for consistency, not chosen from Alaska demand. Google Ads
-// volume for Alaska (geo 21132) showed the mismatch: the five conditions removed
-// below draw 10-30 searches/mo in-state, while eczema (390/mo), hair loss
-// (590/mo, $15.64 CPC), psoriasis (260/mo, $21.19 CPC) and gout (170/mo) had no
-// page at all. Uncovered measurable demand (3,070/mo) exceeded covered (1,730/mo).
-//
-// VT and VA keep the original set — their pages are indexed and must not change.
-//
-// NOT included: strep throat, which is the largest single term in Alaska at
-// 1,000/mo. There is no strep condition in data/conditions/; it is folded into
-// sore-throat-treatment-online, which itself draws only 30/mo. That naming
-// mismatch is national, not Alaskan, and needs its own decision.
-const VT_VA_PILOT_CONDITIONS = new Set([
-  'uti-treatment-online', 'yeast-infection-treatment-online', 'bv-treatment-online',
-  'cold-sore-treatment-online', 'seasonal-allergies-treatment-online', 'hypertension-refills-online',
-  'pink-eye-treatment-online', 'shingles-treatment-online', 'sinus-infection-treatment-online',
-  'sore-throat-treatment-online', 'tick-bite-treatment-online', 'influenza-treatment-online',
-  'common-cold-treatment-online', 'ear-pain-treatment-online', 'hyperlipidemia-refills-online',
-  'hypothyroidism-refills-online', 'chlamydia-treatment-online', 'doxypep-sti-prevention-online',
-  'acne-treatment-online', 'cellulitis-treatment-online',
-]);
-
-// Removed vs VT/VA: common-cold (10/mo), seasonal-allergies (20/mo),
-// doxypep (30/mo), hyperlipidemia (30/mo, and 0 clicks in 90d across all 40
-// states that publish it), influenza (50/mo, 2 clicks nationally).
-// Added: eczema, hair-loss, psoriasis, gout.
-const AK_PILOT_CONDITIONS = new Set([
-  'uti-treatment-online', 'yeast-infection-treatment-online', 'bv-treatment-online',
-  'cold-sore-treatment-online', 'hypertension-refills-online',
-  'pink-eye-treatment-online', 'shingles-treatment-online', 'sinus-infection-treatment-online',
-  'sore-throat-treatment-online', 'tick-bite-treatment-online',
-  'ear-pain-treatment-online',
-  'hypothyroidism-refills-online', 'chlamydia-treatment-online',
-  'acne-treatment-online', 'cellulitis-treatment-online',
-  'eczema-treatment-online', 'hair-loss-treatment-online',
-  'psoriasis-refills-online', 'gout-treatment-online',
-]);
-
-// Keep this map identical across app/[slug]/StateLandingPage.js,
-// app/[slug]/[conditionSlug]/page.js and app/sitemap.js. A mismatch between the
-// route gate and the sitemap gate emits sitemap URLs with no page behind them.
-const PILOT_COHORT_BY_STATE = {
-  vt: VT_VA_PILOT_CONDITIONS,
-  va: VT_VA_PILOT_CONDITIONS,
-  ak: AK_PILOT_CONDITIONS,
-};
-
 export async function generateStaticParams() {
   const states = getStates();
   const conditionSlugs = getConditionSlugs();
   const params = [];
   for (const state of states) {
     for (const cSlug of conditionSlugs) {
-      const pilotCohort = PILOT_COHORT_BY_STATE[state.slug];
-      if (pilotCohort && !pilotCohort.has(cSlug)) continue;
+      // Same gate as the sitemap and the "other states" links: pilot cohorts,
+      // and paths vercel.json retires before the filesystem (never served).
+      if (!stateConditionHref(state.slug, cSlug)) continue;
       params.push({ slug: state.slug, conditionSlug: cSlug });
     }
   }
@@ -523,7 +470,11 @@ export default async function ConditionPage({ params }) {
   const today = contentDate('conditionPages');
   const pid = `${slug}-${conditionSlug}`;
   const allStates = getStates();
-  const otherStates = allStates.filter((s) => s.slug !== slug);
+  // Only states where this condition page is actually served.
+  const otherStates = allStates
+    .filter((s) => s.slug !== slug)
+    .map((s) => ({ ...s, href: stateConditionHref(s.slug, conditionSlug) }))
+    .filter((s) => s.href);
   // Build insurance cross-links for this condition × state combo
   const insuranceLinks = state && state.abbr ? getInsuranceLinksForConditionState(conditionSlug, state.abbr) : [];
   // ── Inline insurance sections (hybrid consolidation pattern, approved 2026-05-28) ──
@@ -545,7 +496,7 @@ export default async function ConditionPage({ params }) {
   // ── Citable summary for AI extractors (Condition × State)
   const citableSummary_AI = summarizeConditionState({ state, condition });
   const pageUrl_AI = `https://teledirectmd.com/${slug}/${conditionSlug}`;
-  const citableJsonLd_AI = citableSummaryToJsonLd(citableSummary_AI, { pageUrl: pageUrl_AI });
+  const citableJsonLd_AI = citableSummaryToJsonLd(citableSummary_AI, { pageUrl: pageUrl_AI, dateModified: contentDate('conditionPages') });
 
   // ── 2026-06-10 Phase 2: state-template (null when no template exists yet) ──
   // (reuses _earlyStateTpl loaded above via cache; safe to call twice)
@@ -583,7 +534,7 @@ export default async function ConditionPage({ params }) {
         <div className="tdmd-container" style={{ paddingTop: '0.5rem', paddingBottom: '0' }}>
           <a href="/">Home</a>
           <span className="tdmd-bc-sep" aria-hidden="true">/</span>
-          <a href="/what-we-treat">What We Treat</a>
+          <a href="/what-we-treat/">What We Treat</a>
           <span className="tdmd-bc-sep" aria-hidden="true">/</span>
           <a href={`/${slug}/`}>{state.name}</a>
           <span className="tdmd-bc-sep" aria-hidden="true">/</span>
@@ -681,14 +632,14 @@ export default async function ConditionPage({ params }) {
               </ul>
 
               <div className="cpr-hero-ctas">
-                <a href="/book-online" className="cpr-hero-cta">Book a Visit, {condition.pricing && condition.pricing.visitPrice ? condition.pricing.visitPrice : '$79'} &rarr;</a>
-                <a href={`/${slug}`} className="cpr-hero-cta-outline">Explore {state.name} Pages</a>
-                <a href="/what-we-treat" className="cpr-hero-cta-outline">View All Adult Conditions</a>
+                <a href="/book-online/" className="cpr-hero-cta">Book a Visit, {condition.pricing && condition.pricing.visitPrice ? condition.pricing.visitPrice : '$79'} &rarr;</a>
+                <a href={`/${slug}/`} className="cpr-hero-cta-outline">Explore {state.name} Pages</a>
+                <a href="/what-we-treat/" className="cpr-hero-cta-outline">View All Adult Conditions</a>
               </div>
 
               <p className="cpr-hero-reviewed">
                 Last reviewed on {today} by{' '}
-                <a className="cpr-hero-author-link" href="/about" aria-label="About Parth Bhavsar, MD">
+                <a className="cpr-hero-author-link" href="/about/" aria-label="About Parth Bhavsar, MD">
                   Parth Bhavsar, MD
                 </a>
               </p>
@@ -709,7 +660,7 @@ export default async function ConditionPage({ params }) {
                   <li key={i}>{f}</li>
                 ))}
               </ul>
-              <a href="/book-online" className="cpr-hero-hcard-cta">Book a Visit &rarr;</a>
+              <a href="/book-online/" className="cpr-hero-hcard-cta">Book a Visit &rarr;</a>
               <p className="cpr-hero-hcard-note">{condition.hero.sideCard.note}</p>
             </div>
           </div>
@@ -761,7 +712,7 @@ export default async function ConditionPage({ params }) {
                   <p>{step.description}</p>
                   {step.showCta && (
                     <div className="tdmd-decision-cta">
-                      <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
+                      <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
                     </div>
                   )}
                 </div>
@@ -845,7 +796,7 @@ export default async function ConditionPage({ params }) {
                   )}
                   {step.showCta && (
                     <div className="tdmd-decision-cta">
-                      <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
+                      <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
                     </div>
                   )}
                 </div>
@@ -1176,8 +1127,8 @@ export default async function ConditionPage({ params }) {
               <p>{condition.faq.bottomCta.text}</p>
             </div>
             <div className="tdmd-bottom-cta-actions">
-              <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
-              <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
+              <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
+              <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
             </div>
           </div>
 
@@ -1185,10 +1136,10 @@ export default async function ConditionPage({ params }) {
           <div className="tdmd-inline-links" style={{ marginTop: '2rem' }}>
             <h3>More {state.name} Resources</h3>
             <p className="tdmd-link-cloud">
-              <a href={`/${slug}`}>All Conditions in {state.name}</a>
-              <a href="/insurance">Insurance & Pricing</a>
-              <a href="/faq">FAQs</a>
-              <a href="/states-we-serve">All States We Serve</a>
+              <a href={`/${slug}/`}>All Conditions in {state.name}</a>
+              <a href="/insurance/">Insurance & Pricing</a>
+              <a href="/faq/">FAQs</a>
+              <a href="/states-we-serve/">All States We Serve</a>
             </p>
           </div>
         </div>
@@ -1225,12 +1176,15 @@ export default async function ConditionPage({ params }) {
           <p>These pages can help when symptoms overlap or when you want to explore other {state.name} telehealth care options from TeleDirectMD.</p>
 
           <div className="tdmd-related-grid" role="list">
-            {condition.relatedConditions.map((rc, i) => (
+            {condition.relatedConditions
+              .map((rc) => ({ ...rc, href: stateConditionHref(slug, rc.slug) }))
+              .filter((rc) => rc.href)
+              .map((rc, i) => (
               <a
                 key={i}
                 className="tdmd-related-card"
                 role="listitem"
-                href={`/${slug}/${rc.slug}`}
+                href={rc.href}
                 aria-label={`${rc.title} treatment in ${state.name}`}
               >
                 <span className="tdmd-related-title">{rc.title}</span>
@@ -1242,8 +1196,11 @@ export default async function ConditionPage({ params }) {
           <div className="tdmd-inline-links">
             <h3>More {state.name} TeleDirectMD Pages</h3>
             <p className="tdmd-link-cloud">
-              {condition.inlineLinks.map((link, i) => (
-                <a key={i} href={`/${slug}/${link.slug}`}>{link.label}</a>
+              {condition.inlineLinks
+                .map((link) => ({ ...link, href: stateConditionHref(slug, link.slug) }))
+                .filter((link) => link.href)
+                .map((link, i) => (
+                <a key={i} href={link.href}>{link.label}</a>
               ))}
             </p>
           </div>
@@ -1254,7 +1211,7 @@ export default async function ConditionPage({ params }) {
           </div>
 
           <div className="tdmd-related-cta">
-            <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">Explore All Adult Conditions</a>
+            <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">Explore All Adult Conditions</a>
           </div>
         </div>
       </section>
@@ -1331,7 +1288,7 @@ export default async function ConditionPage({ params }) {
               ))}
             </ul>
             <p style={{ marginTop: '1rem', fontSize: '0.9rem' }}>
-              Don't see your plan? <a href="/insurance" style={{ color: 'var(--tdmd-teal, #14B8A6)', fontWeight: 600 }}>View all insurance options</a> or book a $79 self-pay visit.
+              Don't see your plan? <a href="/insurance/" style={{ color: 'var(--tdmd-teal, #14B8A6)', fontWeight: 600 }}>View all insurance options</a> or book a $79 self-pay visit.
             </p>
           </div>
         </section>
@@ -1344,7 +1301,7 @@ export default async function ConditionPage({ params }) {
           <p>TeleDirectMD treats {condition.conditionName.toLowerCase()} via telehealth in 40+ states + DC. If you are traveling, relocating, or helping a family member in another state, select below to find this treatment near them.</p>
           <div className="tdmd-other-states-grid">
             {otherStates.map((s) => (
-              <a key={s.slug} className="tdmd-other-state-link" href={`/${s.slug}/${conditionSlug}`}>
+              <a key={s.slug} className="tdmd-other-state-link" href={s.href}>
                 {s.name}
               </a>
             ))}

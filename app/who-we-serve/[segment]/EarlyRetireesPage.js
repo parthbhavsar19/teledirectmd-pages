@@ -127,7 +127,7 @@ export default function EarlyRetireesPage() {
       },
       {
         "@type": "Physician",
-        "@id": `${baseUrl}/about#physician`,
+        "@id": `${baseUrl}/about/#physician`,
         "name": "Parth Bhavsar, MD",
         "medicalSpecialty": "FamilyMedicine",
         "alumniOf": { "@type": "EducationalOrganization", "name": "University of Mississippi Medical Center" },
@@ -167,7 +167,7 @@ export default function EarlyRetireesPage() {
         <div className="tdmd-container">
           <a href="/">Home</a>
           <span className="tdmd-bc-sep" aria-hidden="true">/</span>
-          <a href="/who-we-serve">Who We Serve</a>
+          <a href="/who-we-serve/">Who We Serve</a>
           <span className="tdmd-bc-sep" aria-hidden="true">/</span>
           <span aria-current="page">Early Retirees (Pre-Medicare)</span>
         </div>
@@ -231,8 +231,8 @@ export default function EarlyRetireesPage() {
               </ul>
 
               <div className="tdmd-hero-ctas">
-                <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
-                <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">See What We Treat</a>
+                <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
+                <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">See What We Treat</a>
               </div>
 
               <p className="tdmd-reviewed">Last reviewed by Parth Bhavsar, MD · Updated {today}</p>
@@ -314,7 +314,7 @@ export default function EarlyRetireesPage() {
             </div>
           </div>
           <div className="tdmd-decision-cta">
-            <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
+            <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
           </div>
         </div>
       </section>
@@ -430,7 +430,7 @@ export default function EarlyRetireesPage() {
             </div>
           </div>
           <div className="tdmd-decision-cta">
-            <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
+            <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
           </div>
         </div>
       </section>
@@ -526,7 +526,7 @@ export default function EarlyRetireesPage() {
               </div>
             ))}
           </div>
-          <p><a href="/what-we-treat">View all 60+ conditions we treat →</a></p>
+          <p><a href="/what-we-treat/">View all 60+ conditions we treat →</a></p>
         </div>
       </section>
 
@@ -823,8 +823,8 @@ export default function EarlyRetireesPage() {
               <p>$79 flat fee. Same-day availability. 40+ states. No insurance required.</p>
             </div>
             <div className="tdmd-bottom-cta-actions">
-              <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
-              <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">See What We Treat</a>
+              <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
+              <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">See What We Treat</a>
             </div>
           </div>
         </div>
@@ -863,7 +863,7 @@ export default function EarlyRetireesPage() {
           </p>
           <div className="tdmd-other-states-grid">
             {allStates.map(s => (
-              <a key={s.abbr} href={`/${s.abbr.toLowerCase()}`} className="tdmd-other-state-link">{s.name}</a>
+              <a key={s.abbr} href={`/${s.abbr.toLowerCase()}/`} className="tdmd-other-state-link">{s.name}</a>
             ))}
           </div>
         </div>
@@ -874,27 +874,27 @@ export default function EarlyRetireesPage() {
         <div className="tdmd-container">
           <h2>Who Else We Serve</h2>
           <div className="tdmd-related-grid">
-            <a href="/who-we-serve/international-visitors" className="tdmd-related-card">
+            <a href="/who-we-serve/international-visitors/" className="tdmd-related-card">
               <div className="tdmd-related-title">International Visitors</div>
               <div className="tdmd-related-desc">No US insurance? $79 flat-fee care in 40+ states.</div>
             </a>
-            <a href="/who-we-serve/military-families" className="tdmd-related-card">
+            <a href="/who-we-serve/military-families/" className="tdmd-related-card">
               <div className="tdmd-related-title">Military Families</div>
               <div className="tdmd-related-desc">TRICARE gaps? Bridge coverage with $79 visits.</div>
             </a>
-            <a href="/who-we-serve/uninsured-affordable-care" className="tdmd-related-card">
+            <a href="/who-we-serve/uninsured-affordable-care/" className="tdmd-related-card">
               <div className="tdmd-related-title">Uninsured Adults</div>
               <div className="tdmd-related-desc">No insurance? Transparent pricing, no surprise bills.</div>
             </a>
-            <a href="/who-we-serve/small-business-owners" className="tdmd-related-card">
+            <a href="/who-we-serve/small-business-owners/" className="tdmd-related-card">
               <div className="tdmd-related-title">Small Business Owners</div>
               <div className="tdmd-related-desc">Self-employed? Care on your schedule without waiting rooms.</div>
             </a>
-            <a href="/who-we-serve/gig-workers" className="tdmd-related-card">
+            <a href="/who-we-serve/gig-workers/" className="tdmd-related-card">
               <div className="tdmd-related-title">Gig Workers</div>
               <div className="tdmd-related-desc">Flexible care for independent contractors.</div>
             </a>
-            <a href="/who-we-serve/remote-workers" className="tdmd-related-card">
+            <a href="/who-we-serve/remote-workers/" className="tdmd-related-card">
               <div className="tdmd-related-title">Remote Workers</div>
               <div className="tdmd-related-desc">Healthcare that follows you anywhere.</div>
             </a>
@@ -902,11 +902,11 @@ export default function EarlyRetireesPage() {
 
           <div className="tdmd-inline-links">
             <div className="tdmd-link-cloud">
-              <a href="/insurance-and-pricing">Insurance &amp; Pricing</a>
-              <a href="/states-we-serve">States We Serve</a>
-              <a href="/what-we-treat">What We Treat</a>
-              <a href="/faq">FAQ</a>
-              <a href="/book-online">Book a Visit</a>
+              <a href="/insurance-and-pricing/">Insurance &amp; Pricing</a>
+              <a href="/states-we-serve/">States We Serve</a>
+              <a href="/what-we-treat/">What We Treat</a>
+              <a href="/faq/">FAQ</a>
+              <a href="/book-online/">Book a Visit</a>
             </div>
           </div>
         </div>

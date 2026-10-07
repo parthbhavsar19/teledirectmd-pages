@@ -56,7 +56,7 @@ const jsonLd = {
       inLanguage: 'en-US',
       breadcrumb: { '@id': 'https://teledirectmd.com/partners/tribal-health-alaska#breadcrumbs' },
       isPartOf: { '@id': 'https://teledirectmd.com/#website' },
-      author: { '@id': 'https://teledirectmd.com/about#physician' },
+      author: { '@id': 'https://teledirectmd.com/about/#physician' },
       about: { '@id': 'https://teledirectmd.com/#organization' },
       datePublished: '2026-08-13',
       dateModified: '2026-08-13',

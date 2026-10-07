@@ -19,18 +19,18 @@ const B = {
 };
 
 const CONDITIONS = [
-  { name: 'UTI (women only)', summary: 'Burning, frequency, urgency. Treated with a 5-day generic antibiotic.', href: '/ca/uti-treatment-online' },
-  { name: 'Sinus Infection', summary: 'Facial pressure, congestion, post-nasal drip. Antibiotics only when bacterial pattern (10+ days).', href: '/ca/sinus-infection-treatment-online' },
-  { name: 'Strep Throat', summary: 'Sore throat with fever, swollen tonsils. First-line: amoxicillin or penicillin VK.', href: '/ca/strep-throat-treatment-online' },
-  { name: 'Pink Eye (Conjunctivitis)', summary: 'Red, watery, gritty eyes. Antibiotic drops if bacterial; supportive care if viral.', href: '/ca/pink-eye-treatment-online' },
-  { name: 'Influenza (Flu)', summary: 'Fever, body aches, cough. Tamiflu within 48 hours of symptom onset.', href: '/ca/influenza-treatment-online' },
-  { name: 'Asthma Inhaler Refills', summary: 'Stable asthma on controller + rescue inhaler. Yearly action plan review.', href: '/ca/asthma-refills-online' },
-  { name: 'Hypertension Refills', summary: 'Stable BP on lisinopril, amlodipine, losartan, etc. Recent BP log required.', href: '/ca/hypertension-refills-online' },
-  { name: 'Acid Reflux / GERD', summary: 'Heartburn ≥2x/week. PPI (omeprazole) first-line for 8 weeks.', href: '/ca/acid-reflux-refills-online' },
-  { name: 'Yeast Infection', summary: 'Itching, white discharge. Single-dose oral fluconazole.', href: '/ca/yeast-infection-treatment-online' },
-  { name: 'Cold Sore', summary: 'HSV-1 outbreak. Oral acyclovir or valacyclovir within 48h shortens episode.', href: '/ca/cold-sore-treatment-online' },
-  { name: 'Seasonal Allergies', summary: 'Sneezing, congestion, itchy eyes. Intranasal steroids + antihistamines.', href: '/ca/seasonal-allergies-treatment-online' },
-  { name: 'Skin Rash / Eczema', summary: 'Itchy, dry, inflamed skin. Topical corticosteroid first-line.', href: '/ca/eczema-treatment-online' },
+  { name: 'UTI (women only)', summary: 'Burning, frequency, urgency. Treated with a 5-day generic antibiotic.', href: '/ca/uti-treatment-online/' },
+  { name: 'Sinus Infection', summary: 'Facial pressure, congestion, post-nasal drip. Antibiotics only when bacterial pattern (10+ days).', href: '/ca/sinus-infection-treatment-online/' },
+  { name: 'Strep Throat', summary: 'Sore throat with fever, swollen tonsils. First-line: amoxicillin or penicillin VK.', href: '/ca/sore-throat-treatment-online/' },
+  { name: 'Pink Eye (Conjunctivitis)', summary: 'Red, watery, gritty eyes. Antibiotic drops if bacterial; supportive care if viral.', href: '/ca/pink-eye-treatment-online/' },
+  { name: 'Influenza (Flu)', summary: 'Fever, body aches, cough. Tamiflu within 48 hours of symptom onset.', href: '/ca/influenza-treatment-online/' },
+  { name: 'Asthma Inhaler Refills', summary: 'Stable asthma on controller + rescue inhaler. Yearly action plan review.', href: '/ca/asthma-refills-online/' },
+  { name: 'Hypertension Refills', summary: 'Stable BP on lisinopril, amlodipine, losartan, etc. Recent BP log required.', href: '/ca/hypertension-refills-online/' },
+  { name: 'Acid Reflux / GERD', summary: 'Heartburn ≥2x/week. PPI (omeprazole) first-line for 8 weeks.', href: '/ca/acid-reflux-refills-online/' },
+  { name: 'Yeast Infection', summary: 'Itching, white discharge. Single-dose oral fluconazole.', href: '/ca/yeast-infection-treatment-online/' },
+  { name: 'Cold Sore', summary: 'HSV-1 outbreak. Oral acyclovir or valacyclovir within 48h shortens episode.', href: '/ca/cold-sore-treatment-online/' },
+  { name: 'Seasonal Allergies', summary: 'Sneezing, congestion, itchy eyes. Intranasal steroids + antihistamines.', href: '/ca/seasonal-allergies-treatment-online/' },
+  { name: 'Skin Rash / Eczema', summary: 'Itchy, dry, inflamed skin. Topical corticosteroid first-line.', href: '/ca/eczema-treatment-online/' },
 ];
 
 const FAQS = [
@@ -111,13 +111,6 @@ const SCHEMA = {
       medicalSpecialty: 'Family Medicine',
       areaServed: { '@type': 'State', name: 'California' },
       priceRange: '$79 self-pay / $10–$40 with Aetna copay',
-      aggregateRating: {
-        '@type': 'AggregateRating',
-        ratingValue: '5.0',
-        reviewCount: '125',
-        bestRating: '5',
-        worstRating: '1',
-      },
       acceptsInsurance: [
         {
           '@type': 'HealthInsurancePlan',
@@ -162,7 +155,7 @@ export default function TelehealthUrgentCareAetnaClient() {
       <nav aria-label="Breadcrumb" style={{ padding: '12px 24px', maxWidth: 1100, margin: '0 auto', fontSize: 14, color: B.text }}>
         <a href="/" style={{ color: B.teal, textDecoration: 'none' }}>Home</a>
         <span style={{ margin: '0 8px' }}>/</span>
-        <a href="/ca" style={{ color: B.teal, textDecoration: 'none' }}>California</a>
+        <a href="/ca/" style={{ color: B.teal, textDecoration: 'none' }}>California</a>
         <span style={{ margin: '0 8px' }}>/</span>
         <span>Telehealth Urgent Care (Aetna)</span>
       </nav>
@@ -208,7 +201,7 @@ export default function TelehealthUrgentCareAetnaClient() {
         </p>
         <div style={{ display: 'flex', gap: 12, flexWrap: 'wrap' }}>
           <a
-            href="/book-online"
+            href="/book-online/"
             style={{
               padding: '14px 28px',
               background: B.accent,
@@ -222,7 +215,7 @@ export default function TelehealthUrgentCareAetnaClient() {
             Book Same-Day Visit
           </a>
           <a
-            href="/california-aetna"
+            href="/california-aetna/"
             style={{
               padding: '14px 28px',
               background: B.white,
@@ -442,11 +435,11 @@ export default function TelehealthUrgentCareAetnaClient() {
           }}
         >
           {[
-            { href: '/california-aetna', t: 'Aetna Telehealth in California (Hub)', d: 'Patient-friendly hub covering Aetna coverage, copays, plans, and city availability.' },
-            { href: '/insurance/aetna/california', t: 'Aetna California — Full Details', d: 'Insurer-first page with state context, parity laws, and the full Aetna plan list.' },
-            { href: '/news/aetna-california-may-2026', t: 'Announcement: Aetna CA (May 2026)', d: 'Network expansion announcement with effective date and member benefits.' },
-            { href: '/insurance/aetna/california/uti-treatment', t: 'Aetna CA: UTI Treatment for Women', d: 'Same-day antibiotic prescription for UTI — Aetna commercial plans accepted in California.' },
-            { href: '/insurance/aetna/california/hypertension-refill', t: 'Aetna CA: Hypertension Refills', d: 'Blood pressure medication refills via Aetna telehealth in California.' },
+            { href: '/california-aetna/', t: 'Aetna Telehealth in California (Hub)', d: 'Patient-friendly hub covering Aetna coverage, copays, plans, and city availability.' },
+            { href: '/insurance/aetna/california/', t: 'Aetna California — Full Details', d: 'Insurer-first page with state context, parity laws, and the full Aetna plan list.' },
+            { href: '/news/aetna-california-may-2026/', t: 'Announcement: Aetna CA (May 2026)', d: 'Network expansion announcement with effective date and member benefits.' },
+            { href: '/insurance/aetna/california/uti-treatment/', t: 'Aetna CA: UTI Treatment for Women', d: 'Same-day antibiotic prescription for UTI — Aetna commercial plans accepted in California.' },
+            { href: '/insurance/aetna/california/hypertension-refill/', t: 'Aetna CA: Hypertension Refills', d: 'Blood pressure medication refills via Aetna telehealth in California.' },
           ].map((link) => (
             <a
               key={link.href}
@@ -487,7 +480,7 @@ export default function TelehealthUrgentCareAetnaClient() {
             Same-day video visit with Dr. Parth Bhavsar, MD. Most California Aetna members pay $10–$40 — or flat $79 self-pay.
           </p>
           <a
-            href="/book-online"
+            href="/book-online/"
             style={{
               display: 'inline-block',
               padding: '14px 32px',

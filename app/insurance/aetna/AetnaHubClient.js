@@ -1,4 +1,5 @@
 'use client';
+import { insuranceHref, insuranceHrefOrParent } from '../../../lib/insurance-links';
 import { B, INSURERS, STATE_NAMES, INSURANCE_CONDITIONS } from '../../../data/insurance/insuranceConfig';
 import { FAQ, BookCTA, HowItWorksSteps, TrustBar, Breadcrumb, InsuranceDisclaimer, AnswerBlock } from '../components/InsuranceShared';
 import { Ico } from '../components/InsuranceIcons';
@@ -72,7 +73,7 @@ const SCHEMA = {
     },
     {
       "@type": "Physician",
-      "@id": "https://teledirectmd.com/#physician",
+      "@id": "https://teledirectmd.com/about/#physician",
       "name": "Parth Bhavsar, MD",
       "url": "https://teledirectmd.com/about",
       "identifier": { "@type": "PropertyValue", "name": "NPI", "value": "1104323203" },
@@ -241,7 +242,7 @@ export default function AetnaHubClient() {
 
       <Breadcrumb items={[
         { label:"Home", href:"/" },
-        { label:"Insurance", href:"/insurance" },
+        { label:"Insurance", href:"/insurance/" },
         { label:"Aetna" },
       ]} />
 
@@ -260,11 +261,11 @@ export default function AetnaHubClient() {
             TeleDirectMD is in-network with Aetna PPO, HMO, EPO, POS, and Medicare Advantage plans in 14 states. See a board-certified physician by video today — your standard Aetna copay applies.
           </p>
           <div style={{ display:"flex", flexWrap:"wrap", gap:12 }}>
-            <a href="https://www.teledirectmd.com/book-online" target="_blank" rel="noopener"
+            <a href="https://www.teledirectmd.com/book-online/" target="_blank" rel="noopener"
               style={{ display:"inline-flex", alignItems:"center", gap:8, padding:"14px 28px", background:B.accent, color:B.white, borderRadius:B.rs, fontWeight:700, fontSize:15, textDecoration:"none" }}>
               <Ico.Cal c={B.white} s={18} /> Book with Aetna
             </a>
-            <a href="/insurance"
+            <a href="/insurance/"
               style={{ display:"inline-flex", alignItems:"center", gap:8, padding:"14px 24px", background:"rgba(255,255,255,0.1)", color:B.white, borderRadius:B.rs, fontWeight:600, fontSize:15, textDecoration:"none", border:"1px solid rgba(255,255,255,0.2)" }}>
               Check Other Insurance
             </a>
@@ -301,7 +302,7 @@ export default function AetnaHubClient() {
             ))}
           </div>
           <p style={{ fontSize:13, color:B.text, margin:"16px 0 0", lineHeight:1.6 }}>
-            See the full list on our <a href="/what-we-treat" style={{ color:B.teal }}>What We Treat</a> page. Conditions requiring DEA-scheduled controlled substances are not treated via telehealth.
+            See the full list on our <a href="/what-we-treat/" style={{ color:B.teal }}>What We Treat</a> page. Conditions requiring DEA-scheduled controlled substances are not treated via telehealth.
           </p>
         </section>
 
@@ -362,7 +363,7 @@ export default function AetnaHubClient() {
             ))}
           </div>
           <p style={{ fontSize:13, color:B.text, margin:"16px 0 0" }}>
-            Not seeing your state? <a href="/insurance" style={{ color:B.teal }}>Check all insurance options</a> or book a self-pay visit for $79.
+            Not seeing your state? <a href="/insurance/" style={{ color:B.teal }}>Check all insurance options</a> or book a self-pay visit for $79.
           </p>
         </section>
 
@@ -393,8 +394,8 @@ export default function AetnaHubClient() {
               { slug: 'sore-throat-treatment-online', label: 'Strep / sore throat billed to Aetna' },
               { slug: 'ear-pain-treatment-online', label: 'Ear infection billed to Aetna' },
               { slug: 'yeast-infection-treatment-online', label: 'Yeast infection billed to Aetna' },
-            ].map((c, i) => (
-              <a key={i} href={`/insurance/aetna/${c.slug}`}
+            ].filter((c) => insuranceHref(`/insurance/aetna/${c.slug}`)).map((c, i) => (
+              <a key={i} href={insuranceHref(`/insurance/aetna/${c.slug}`)}
                 style={{ display:"block", background:B.white, border:`1px solid ${B.border}`, borderRadius:B.rs, padding:"14px 16px", textDecoration:"none", boxShadow:B.shadow }}>
                 <div style={{ fontSize:14, fontWeight:600, color:B.navy }}>{c.label}</div>
                 <div style={{ fontSize:12, color:B.text, marginTop:2 }}>$0–$40 copay typical · CVS Caremark Rx</div>

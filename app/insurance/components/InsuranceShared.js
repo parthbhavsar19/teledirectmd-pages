@@ -1,4 +1,5 @@
 'use client';
+import { insuranceHref, insuranceHrefOrParent } from '../../../lib/insurance-links';
 import { useState } from "react";
 import { Ico } from "./InsuranceIcons";
 import { B, INSURERS, STATE_NAMES, INSURANCE_STATES, STATE_INSURANCE_MAP } from "../../../data/insurance/insuranceConfig";
@@ -85,7 +86,7 @@ export function BookCTA({ insurerName, tagline, subtagline }) {
         <p style={{ fontSize:14, color:"rgba(255,255,255,0.5)", margin:"0 0 24px" }}>
           {subtagline || defaultSub}
         </p>
-        <a href="https://www.teledirectmd.com/book-online" target="_blank" rel="noopener"
+        <a href="https://www.teledirectmd.com/book-online/" target="_blank" rel="noopener"
           style={{ display:"inline-flex", alignItems:"center", gap:8, padding:"14px 32px", background:B.accent, color:B.white, borderRadius:B.rs, fontWeight:700, fontSize:16, textDecoration:"none" }}>
           <Ico.Cal c={B.white} s={18} /> Book a Visit Now
         </a>
@@ -228,11 +229,11 @@ export function CrossInsurerTable({ stateCode, stateName, currentInsurer }) {
         {stateName} is one of TeleDirectMD's strongest markets — {allInsurers.length} major insurers accepted here, covering the majority of {stateName} employer plan members.
       </p>
       <div style={{ display: "grid", gridTemplateColumns: `repeat(${allInsurers.length}, 1fr)`, gap: 12 }}>
-        {allInsurers.map((insurerId, i) => {
+        {allInsurers.filter((insurerId) => insuranceHref(`/insurance/${insurerId}/${stateName.toLowerCase().replace(/\s+/g,'-')}`)).map((insurerId, i) => {
           const ins = INSURERS[insurerId];
           const isCurrent = insurerId === currentInsurer;
           return (
-            <a key={i} href={`/insurance/${insurerId}/${stateName.toLowerCase().replace(/\s+/g,'-')}`}
+            <a key={i} href={insuranceHref(`/insurance/${insurerId}/${stateName.toLowerCase().replace(/\s+/g,'-')}`)}
               style={{ display: "block", background: isCurrent ? ins.colorLight : B.white, border: `2px solid ${isCurrent ? ins.color : B.border}`, borderRadius: B.rs, padding: "16px 18px", textDecoration: "none", boxShadow: isCurrent ? B.shadowLg : B.shadow }}>
               <div style={{ fontSize: 11, fontWeight: 700, color: ins.color, textTransform: "uppercase", letterSpacing: "0.05em", marginBottom: 4 }}>
                 {isCurrent ? "Currently viewing" : "Also in-network"}
@@ -318,11 +319,11 @@ export function CoverageChecker() {
                 TeleDirectMD accepts {result.insurerName} commercial plans in {result.stateName}. Your standard telehealth copay applies — typically $0–$40 for most commercial plans. Verify your specific plan benefits at your {result.insurerName} member portal.
               </p>
               <div style={{ display: "flex", flexWrap: "wrap", gap: 10 }}>
-                <a href="https://www.teledirectmd.com/book-online" target="_blank" rel="noopener"
+                <a href="https://www.teledirectmd.com/book-online/" target="_blank" rel="noopener"
                   style={{ display: "inline-flex", alignItems: "center", gap: 6, padding: "10px 20px", background: B.accent, color: B.white, borderRadius: B.rs, fontWeight: 700, fontSize: 14, textDecoration: "none" }}>
                   <Ico.Cal c={B.white} s={16} /> Book with {result.insurerName}
                 </a>
-                <a href={`/insurance/${result.insurerSlug}/${result.stateSlug}`}
+                <a href={insuranceHrefOrParent(`/insurance/${result.insurerSlug}/${result.stateSlug}`)}
                   style={{ display: "inline-flex", alignItems: "center", gap: 6, padding: "10px 20px", background: "transparent", color: result.color, border: `1px solid ${result.color}44`, borderRadius: B.rs, fontWeight: 600, fontSize: 14, textDecoration: "none" }}>
                   View {result.stateName} details →
                 </a>
@@ -339,7 +340,7 @@ export function CoverageChecker() {
               <p style={{ fontSize: 14, color: B.text, margin: "0 0 14px", lineHeight: 1.65 }}>
                 TeleDirectMD is not currently in-network with {result.insurerName} in {result.stateName}. You can still see Dr. Bhavsar, MD as a self-pay patient for a flat $79 fee — same physician, same quality, no insurance needed.
               </p>
-              <a href="https://www.teledirectmd.com/book-online" target="_blank" rel="noopener"
+              <a href="https://www.teledirectmd.com/book-online/" target="_blank" rel="noopener"
                 style={{ display: "inline-flex", alignItems: "center", gap: 6, padding: "10px 20px", background: B.accent, color: B.white, borderRadius: B.rs, fontWeight: 700, fontSize: 14, textDecoration: "none" }}>
                 Book Self-Pay — $79 Flat Fee
               </a>

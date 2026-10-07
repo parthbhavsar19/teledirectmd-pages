@@ -12,7 +12,7 @@ export default function StateSpecificNotices() {
       <p style={{ color: '#666', fontSize: '0.95rem', marginBottom: 32 }}>Effective date: March 25, 2026</p>
 
       <section style={{ lineHeight: 1.8, color: '#333', fontSize: '1rem' }}>
-        <p>TeleDirectMD is licensed to provide telehealth services in over 40 U.S. states. Certain states require additional disclosures or notices beyond the general Telehealth Informed Consent. This page provides those state-specific notices. If your state is not listed below, the general <a href="/telehealth-consent" style={{ color: '#1a7f7f' }}>Telehealth Informed Consent</a> applies to your visit.</p>
+        <p>TeleDirectMD is licensed to provide telehealth services in over 40 U.S. states. Certain states require additional disclosures or notices beyond the general Telehealth Informed Consent. This page provides those state-specific notices. If your state is not listed below, the general <a href="/telehealth-consent/" style={{ color: '#1a7f7f' }}>Telehealth Informed Consent</a> applies to your visit.</p>
 
         <h2 style={s.h2}>General Notice (All States)</h2>
         <p>In all states where TeleDirectMD operates, the following apply:</p>

@@ -94,7 +94,7 @@ export default function FlightAttendantsPage() {
       },
       {
         "@type": "Physician",
-        "@id": `${baseUrl}/about#physician`,
+        "@id": `${baseUrl}/about/#physician`,
         "name": "Parth Bhavsar, MD",
         "medicalSpecialty": "FamilyMedicine",
         "worksFor": {
@@ -123,7 +123,7 @@ export default function FlightAttendantsPage() {
         "description": "TeleDirectMD provides telehealth for flight attendants and cabin crew across 40+ states plus D.C. \u2014 UTIs (women only), sinus and ear issues, prescription refills, women's health, and travel medicine, treated by a board-certified physician from your layover hotel. Not for FAA certificates or in-flight emergencies. Same-day visits, evenings & weekends. Starting at $79.",
         "inLanguage": "en-US",
         "breadcrumb": { "@id": `${pageUrl}#breadcrumbs` },
-        "author": { "@id": `${baseUrl}/about#physician` },
+        "author": { "@id": `${baseUrl}/about/#physician` },
         "datePublished": today,
         "dateModified": today,
         "publisher": {
@@ -156,7 +156,7 @@ export default function FlightAttendantsPage() {
         <div className="tdmd-container" style={{ paddingTop: '0.5rem', paddingBottom: '0' }}>
           <a href="/">Home</a>
           <span className="tdmd-bc-sep" aria-hidden="true">/</span>
-          <a href="/who-we-serve">Who We Serve</a>
+          <a href="/who-we-serve/">Who We Serve</a>
           <span className="tdmd-bc-sep" aria-hidden="true">/</span>
           <span aria-current="page">Flight Attendants</span>
         </div>
@@ -180,12 +180,12 @@ export default function FlightAttendantsPage() {
                 <li>Transparent $79 cash-pay &mdash; no insurance required, no surprise bills</li>
               </ul>
               <div className="tdmd-hero-ctas">
-                <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
-                <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All Conditions</a>
+                <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
+                <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">View All Conditions</a>
               </div>
               <p className="tdmd-reviewed">
                 Last reviewed on {today} by{' '}
-                <a className="tdmd-author-link" href="/about" aria-label="About Parth Bhavsar, MD">
+                <a className="tdmd-author-link" href="/about/" aria-label="About Parth Bhavsar, MD">
                   Parth Bhavsar, MD
                 </a>
               </p>
@@ -273,7 +273,7 @@ export default function FlightAttendantsPage() {
             {conditions.map((c) => (
               <a
                 key={c.name}
-                href={`/${c.slug}`}
+                href={`/${c.slug}/`}
                 className="tdmd-card"
                 style={{ textDecoration: 'none', color: 'var(--tdmd-text)', borderLeft: '4px solid var(--tdmd-teal)' }}
               >
@@ -283,7 +283,7 @@ export default function FlightAttendantsPage() {
             ))}
           </div>
           <div style={{ marginTop: '1.25rem' }}>
-            <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All 60+ Conditions We Treat</a>
+            <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">View All 60+ Conditions We Treat</a>
           </div>
         </div>
       </section>
@@ -314,7 +314,7 @@ export default function FlightAttendantsPage() {
                 <h3>Get Treated &mdash; Rx to Any Pharmacy</h3>
                 <p>If medication is appropriate, we send it electronically to any U.S. pharmacy &mdash; including the one nearest your hotel. Pick it up and get your rest before the next duty day.</p>
                 <div className="tdmd-decision-cta">
-                  <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit Now</a>
+                  <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit Now</a>
                 </div>
               </div>
             </div>
@@ -370,7 +370,7 @@ export default function FlightAttendantsPage() {
         <div className="tdmd-container">
           <h2>Who You&rsquo;re Seeing &mdash; A Real Physician</h2>
           <p>
-            When you visit TeleDirectMD you are seeing a licensed, board-certified physician &mdash; not a physician assistant, not a nurse practitioner, not a chatbot. <a href="/about" style={{ color: 'var(--tdmd-navy)', fontWeight: 700 }}>Dr. Parth Bhavsar, MD</a>, is board-certified in Family Medicine and licensed across 40+ states plus Washington, D.C. You get the same standard of care you would expect from an established primary-care physician &mdash; reachable from wherever your schedule has put you tonight.
+            When you visit TeleDirectMD you are seeing a licensed, board-certified physician &mdash; not a physician assistant, not a nurse practitioner, not a chatbot. <a href="/about/" style={{ color: 'var(--tdmd-navy)', fontWeight: 700 }}>Dr. Parth Bhavsar, MD</a>, is board-certified in Family Medicine and licensed across 40+ states plus Washington, D.C. You get the same standard of care you would expect from an established primary-care physician &mdash; reachable from wherever your schedule has put you tonight.
           </p>
           <ul className="tdmd-hero-benefits">
             <li>Board-certified in Family Medicine &mdash; a real physician, not a PA or NP</li>
@@ -411,8 +411,8 @@ export default function FlightAttendantsPage() {
               <p>Request a same-day visit, connect with a board-certified physician by secure video, and get a prescription sent to the pharmacy nearest your layover &mdash; before the next duty day.</p>
             </div>
             <div className="tdmd-bottom-cta-actions">
-              <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
-              <a href="/who-we-serve" className="tdmd-btn tdmd-btn-outline">Who We Serve</a>
+              <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
+              <a href="/who-we-serve/" className="tdmd-btn tdmd-btn-outline">Who We Serve</a>
             </div>
           </div>
         </div>
@@ -425,13 +425,13 @@ export default function FlightAttendantsPage() {
           <p>TeleDirectMD is licensed in 40+ states plus D.C., including the states behind the busiest crew bases and layover cities. As long as you are physically present in a covered state during your visit, we can see you:</p>
           <div className="tdmd-other-states-grid">
             {featuredBases.map((s) => (
-              <a key={s.slug} className="tdmd-other-state-link" href={`/${s.slug}`}>
+              <a key={s.slug} className="tdmd-other-state-link" href={`/${s.slug}/`}>
                 {s.name}
               </a>
             ))}
           </div>
           <p style={{ marginTop: '0.75rem' }}>
-            <a href="/states-we-serve" style={{ color: 'var(--tdmd-navy)', fontWeight: 700, textDecoration: 'underline' }}>View all states we serve &rarr;</a>
+            <a href="/states-we-serve/" style={{ color: 'var(--tdmd-navy)', fontWeight: 700, textDecoration: 'underline' }}>View all states we serve &rarr;</a>
           </p>
         </div>
       </section>
@@ -450,11 +450,11 @@ export default function FlightAttendantsPage() {
           <div className="tdmd-inline-links" style={{ marginTop: '1rem' }}>
             <h3>Other Communities We Serve</h3>
             <p className="tdmd-link-cloud">
-              <a href="/who-we-serve/travel-nurses">Travel Nurses</a>
-              <a href="/who-we-serve/truck-drivers">Truck Drivers</a>
-              <a href="/who-we-serve/remote-workers">Remote Workers</a>
-              <a href="/who-we-serve/international-visitors">International Visitors</a>
-              <a href="/who-we-serve">Who We Serve Hub</a>
+              <a href="/who-we-serve/travel-nurses/">Travel Nurses</a>
+              <a href="/who-we-serve/truck-drivers/">Truck Drivers</a>
+              <a href="/who-we-serve/remote-workers/">Remote Workers</a>
+              <a href="/who-we-serve/international-visitors/">International Visitors</a>
+              <a href="/who-we-serve/">Who We Serve Hub</a>
             </p>
           </div>
         </div>

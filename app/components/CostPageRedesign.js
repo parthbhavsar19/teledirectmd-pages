@@ -174,7 +174,7 @@ export default function CostPageRedesign({ cfg, relatedCost = [], comparePages =
             <div className="cxr-pricebox">
               <span className="big">${price}</span><span className="lab">flat · no insurance required</span>
             </div>
-            <div><a href="/book-online" className="cxr-cta">Book a Visit, ${price} →</a></div>
+            <div><a href="/book-online/" className="cxr-cta">Book a Visit, ${price} →</a></div>
             <p className="cxr-trust">Board-certified MD · 40+ states + DC · evenings &amp; weekends · HSA/FSA accepted · {AGGREGATE_RATING_VALUE}★ ({TOTAL_REVIEW_COUNT} reviews)</p>
             {/* Visible reviewer + price-verification line.
 
@@ -190,7 +190,7 @@ export default function CostPageRedesign({ cfg, relatedCost = [], comparePages =
                same queries with weaker credentials than a board-certified MD. */}
             <p className="cxr-byline">
               Medically reviewed by{' '}
-              <a href="/about" aria-label="About Parth Bhavsar, MD">Parth Bhavsar, MD</a>
+              <a href="/about/" aria-label="About Parth Bhavsar, MD">Parth Bhavsar, MD</a>
               {' '}· Board-Certified Family Medicine · NPI 1104323203
               <br />
               <span>Prices verified <time dateTime={verifiedISO}>{verifiedDisplay}</time></span>
@@ -457,7 +457,7 @@ export default function CostPageRedesign({ cfg, relatedCost = [], comparePages =
           <div className="cxr-close">
             <h2>See a board-certified MD today</h2>
             <p>A flat ${price} video visit. No insurance required, prescription sent to your pharmacy same-day.</p>
-            <a href="/book-online" className="cxr-cta">Book a Visit, ${price} →</a>
+            <a href="/book-online/" className="cxr-cta">Book a Visit, ${price} →</a>
           </div>
         </div>
       </section>

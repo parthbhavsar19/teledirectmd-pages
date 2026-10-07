@@ -1,4 +1,5 @@
 'use client';
+import { insuranceHref, insuranceHrefOrParent } from '../../../lib/insurance-links';
 import { B, INSURERS, STATE_NAMES, INSURANCE_CONDITIONS } from '../../../data/insurance/insuranceConfig';
 import { FAQ, BookCTA, HowItWorksSteps, TrustBar, Breadcrumb, InsuranceDisclaimer, AnswerBlock } from '../components/InsuranceShared';
 import { Ico } from '../components/InsuranceIcons';
@@ -57,7 +58,7 @@ const SCHEMA = {
   "@context":"https://schema.org",
   "@graph":[
     { "@type":"MedicalOrganization","@id":"https://teledirectmd.com/#organization","name":"TeleDirectMD","url":"https://teledirectmd.com","description":"Physician-led telemedicine practice accepting UnitedHealthcare PPO, HMO, EPO, POS, and Medicare Advantage plans in 17 states.","aggregateRating": getAggregateRating() },
-    { "@type":"Physician","@id":"https://teledirectmd.com/#physician","name":"Parth Bhavsar, MD","identifier":{"@type":"PropertyValue","name":"NPI","value":"1104323203"},"medicalSpecialty":"Family Medicine","acceptsInsurance":[{"@type":"HealthInsurancePlan","name":"UnitedHealthcare Commercial Plans"}], ...getReviewBlock() },
+    { "@type":"Physician","@id":"https://teledirectmd.com/about/#physician","name":"Parth Bhavsar, MD","identifier":{"@type":"PropertyValue","name":"NPI","value":"1104323203"},"medicalSpecialty":"Family Medicine","acceptsInsurance":[{"@type":"HealthInsurancePlan","name":"UnitedHealthcare Commercial Plans"}], ...getReviewBlock() },
     { "@type":"FAQPage","mainEntity":UHC_FAQS.map(f=>({ "@type":"Question","name":f.q,"acceptedAnswer":{"@type":"Answer","text":f.a.replace(/<[^>]+>/g,'')} })) },
     { "@type":"WebPage","@id":"https://teledirectmd.com/insurance/united-healthcare#webpage","url":"https://teledirectmd.com/insurance/united-healthcare","name":"Online Doctor That Accepts UnitedHealthcare | TeleDirectMD","speakable":{"@type":"SpeakableSpecification","cssSelector":["[data-speakable]"]} },
     { "@type":"HowTo","name":"How to book a UnitedHealthcare-covered telemedicine visit with TeleDirectMD","description":"Three steps to see Dr. Parth Bhavsar, MD by video using your UnitedHealthcare commercial plan.","totalTime":"PT5M","step":[
@@ -167,7 +168,7 @@ export default function UHCHubClient() {
       <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400&family=DM+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(SCHEMA) }} />
       <CitableSummaryBlock summary={citableSummary_AI} jsonLd={citableJsonLd_AI} idSuffix="united-healthcare-hub" />
-      <Breadcrumb items={[{label:"Home",href:"/"},{label:"Insurance",href:"/insurance"},{label:"UnitedHealthcare"}]} />
+      <Breadcrumb items={[{label:"Home",href:"/"},{label:"Insurance",href:"/insurance/"},{label:"UnitedHealthcare"}]} />
 
       <div style={{ background:`linear-gradient(165deg, ${B.navyDarker} 0%, ${B.navy} 40%, ${B.navyDeep} 100%)`, padding:"56px 24px 64px", position:"relative", overflow:"hidden", marginTop:16 }}>
         <div style={{ position:"absolute", inset:0, opacity:0.04, backgroundImage:"radial-gradient(circle at 20% 50%, white 1px, transparent 1px)", backgroundSize:"32px 32px" }} />
@@ -183,11 +184,11 @@ export default function UHCHubClient() {
             TeleDirectMD is in-network with UnitedHealthcare PPO, HMO, EPO, POS, and Medicare Advantage plans in 17 states. Same-day video visits with a board-certified physician. Standard UHC copay applies.
           </p>
           <div style={{ display:"flex", flexWrap:"wrap", gap:12 }}>
-            <a href="https://www.teledirectmd.com/book-online" target="_blank" rel="noopener"
+            <a href="https://www.teledirectmd.com/book-online/" target="_blank" rel="noopener"
               style={{ display:"inline-flex", alignItems:"center", gap:8, padding:"14px 28px", background:B.accent, color:B.white, borderRadius:B.rs, fontWeight:700, fontSize:15, textDecoration:"none" }}>
               <Ico.Cal c={B.white} s={18} /> Book with UHC
             </a>
-            <a href="/insurance" style={{ display:"inline-flex", alignItems:"center", gap:8, padding:"14px 24px", background:"rgba(255,255,255,0.1)", color:B.white, borderRadius:B.rs, fontWeight:600, fontSize:15, textDecoration:"none", border:"1px solid rgba(255,255,255,0.2)" }}>
+            <a href="/insurance/" style={{ display:"inline-flex", alignItems:"center", gap:8, padding:"14px 24px", background:"rgba(255,255,255,0.1)", color:B.white, borderRadius:B.rs, fontWeight:600, fontSize:15, textDecoration:"none", border:"1px solid rgba(255,255,255,0.2)" }}>
               Check Other Insurance
             </a>
           </div>
@@ -265,8 +266,8 @@ export default function UHCHubClient() {
               { slug: 'sore-throat-treatment-online', label: 'Strep throat (UHC commercial)' },
               { slug: 'pink-eye-treatment-online', label: 'Pink eye (UHC PPO)' },
               { slug: 'yeast-infection-treatment-online', label: 'Yeast infection (UHC)' },
-            ].map((c, i) => (
-              <a key={i} href={`/insurance/united-healthcare/${c.slug}`}
+            ].filter((c) => insuranceHref(`/insurance/united-healthcare/${c.slug}`)).map((c, i) => (
+              <a key={i} href={insuranceHref(`/insurance/united-healthcare/${c.slug}`)}
                 style={{ display:"block", background:B.white, border:`1px solid ${B.border}`, borderRadius:B.rs, padding:"14px 16px", textDecoration:"none", boxShadow:B.shadow }}>
                 <div style={{ fontSize:14, fontWeight:600, color:B.navy }}>{c.label}</div>
                 <div style={{ fontSize:12, color:B.text, marginTop:2 }}>$0–$40 copay typical · OptumRx pharmacy</div>

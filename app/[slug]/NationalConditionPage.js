@@ -1,3 +1,4 @@
+import { stateConditionHref } from '../../lib/live-routes';
 import { contentDate } from '../../lib/content-dates';
 import { getStates, getConditionSlugs, getCondition, getConditionCategories, resolveConditionNational } from '../../lib/get-data';
 import { generateNationalJsonLd } from '../../lib/json-ld-national';
@@ -59,7 +60,7 @@ export default function NationalConditionPage({ conditionSlug }) {
   // ── Citable summary for AI extractors (National condition)
   const citableSummary_AI = summarizeNationalCondition({ condition });
   const pageUrl_AI = `https://teledirectmd.com/${conditionSlug}/`;
-  const citableJsonLd_AI = citableSummaryToJsonLd(citableSummary_AI, { pageUrl: pageUrl_AI });
+  const citableJsonLd_AI = citableSummaryToJsonLd(citableSummary_AI, { pageUrl: pageUrl_AI, dateModified: contentDate('nationalConditionPages') });
 
   // Conversion architecture (per-condition opt-in; UTI canary first)
   const conversion = condition.conversion || {};
@@ -83,7 +84,7 @@ export default function NationalConditionPage({ conditionSlug }) {
         <div className="tdmd-container" style={{ paddingTop: '0.5rem', paddingBottom: '0' }}>
           <a href="/">Home</a>
           <span className="tdmd-bc-sep" aria-hidden="true">/</span>
-          <a href="/what-we-treat">What We Treat</a>
+          <a href="/what-we-treat/">What We Treat</a>
           <span className="tdmd-bc-sep" aria-hidden="true">/</span>
           <span aria-current="page">{condition.conditionName}</span>
         </div>
@@ -142,7 +143,7 @@ export default function NationalConditionPage({ conditionSlug }) {
             <span style={{ fontSize: '0.95rem', color: '#ffffff' }}>
               Prescription to <strong style={{ color: '#ffffff' }}>your pharmacy</strong> within the hour
             </span>
-            <a href="/book-online" className="tdmd-btn tdmd-btn-primary" style={{ whiteSpace: 'nowrap' }}>
+            <a href="/book-online/" className="tdmd-btn tdmd-btn-primary" style={{ whiteSpace: 'nowrap' }}>
               Book Now &rarr;
             </a>
           </div>
@@ -174,13 +175,13 @@ export default function NationalConditionPage({ conditionSlug }) {
               </ul>
 
               <div className="tdmd-hero-ctas">
-                <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
-                <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
+                <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
+                <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
               </div>
 
               <p className="tdmd-reviewed">
                 Last reviewed on {today} by{' '}
-                <a className="tdmd-author-link" href="/about" aria-label="About Parth Bhavsar, MD">
+                <a className="tdmd-author-link" href="/about/" aria-label="About Parth Bhavsar, MD">
                   Parth Bhavsar, MD
                 </a>
               </p>
@@ -249,7 +250,7 @@ export default function NationalConditionPage({ conditionSlug }) {
                   <p>{step.description}</p>
                   {step.showCta && (
                     <div className="tdmd-decision-cta">
-                      <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
+                      <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
                     </div>
                   )}
                 </div>
@@ -332,7 +333,7 @@ export default function NationalConditionPage({ conditionSlug }) {
                   )}
                   {step.showCta && (
                     <div className="tdmd-decision-cta">
-                      <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
+                      <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
                     </div>
                   )}
                 </div>
@@ -643,8 +644,8 @@ export default function NationalConditionPage({ conditionSlug }) {
               <p>{condition.faq.bottomCta.text}</p>
             </div>
             <div className="tdmd-bottom-cta-actions">
-              <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
-              <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
+              <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
+              <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
             </div>
           </div>
         </div>
@@ -734,8 +735,11 @@ export default function NationalConditionPage({ conditionSlug }) {
           <p>TeleDirectMD treats {condition.conditionName.toLowerCase()} via telehealth in 40+ states + DC. Select your state for a page tailored to your location, including local telehealth regulations and pharmacy options.</p>
 
           <div className="tdmd-other-states-grid">
-            {allStates.map((s) => (
-              <a key={s.slug} className="tdmd-other-state-link" href={`/${s.slug}/${conditionSlug}`}>
+            {allStates
+              .map((s) => ({ ...s, href: stateConditionHref(s.slug, conditionSlug) }))
+              .filter((s) => s.href)
+              .map((s) => (
+              <a key={s.slug} className="tdmd-other-state-link" href={s.href}>
                 {s.name}
               </a>
             ))}
@@ -756,7 +760,7 @@ export default function NationalConditionPage({ conditionSlug }) {
                   key={i}
                   className="tdmd-related-card"
                   role="listitem"
-                  href={`/${rc.slug}`}
+                  href={`/${rc.slug}/`}
                   aria-label={`${rc.name} treatment online`}
                 >
                   <span className="tdmd-related-title">{rc.name}</span>
@@ -770,13 +774,13 @@ export default function NationalConditionPage({ conditionSlug }) {
             <h3>All Conditions We Treat</h3>
             <p className="tdmd-link-cloud">
               {otherConditions.map((c, i) => (
-                <a key={i} href={`/${c.slug}`}>{c.name}</a>
+                <a key={i} href={`/${c.slug}/`}>{c.name}</a>
               ))}
             </p>
           </div>
 
           <div className="tdmd-related-cta">
-            <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">Explore All Adult Conditions</a>
+            <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">Explore All Adult Conditions</a>
           </div>
         </div>
       </section>
@@ -821,11 +825,11 @@ export default function NationalConditionPage({ conditionSlug }) {
           <h2>More from TeleDirectMD</h2>
           <div className="tdmd-inline-links">
             <p className="tdmd-link-cloud">
-              <a href="/insurance">Insurance & Pricing</a>
-              <a href="/states-we-serve">States We Serve</a>
-              <a href="/who-we-serve">Who We Serve</a>
-              <a href="/faq">Frequently Asked Questions</a>
-              <a href="/book-online">Book a Visit</a>
+              <a href="/insurance/">Insurance & Pricing</a>
+              <a href="/states-we-serve/">States We Serve</a>
+              <a href="/who-we-serve/">Who We Serve</a>
+              <a href="/faq/">Frequently Asked Questions</a>
+              <a href="/book-online/">Book a Visit</a>
             </p>
           </div>
         </div>

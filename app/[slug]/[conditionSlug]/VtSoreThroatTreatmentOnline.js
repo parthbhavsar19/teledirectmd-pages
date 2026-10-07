@@ -150,7 +150,7 @@ function buildSchemas() {
     },
     reviewedBy: {
       '@type': 'Physician',
-      '@id': 'https://teledirectmd.com/about/#physician-parth-bhavsar',
+      '@id': 'https://teledirectmd.com/about/#physician',
       name: PHYSICIAN.name,
       identifier: { '@type': 'PropertyValue', propertyID: 'NPI', value: PHYSICIAN.npi },
       medicalSpecialty: PHYSICIAN.specialty,
@@ -340,9 +340,9 @@ export default function VtSoreThroatTreatmentOnline() {
                 </ul>
 
                 <div className="tdmd-hero-ctas">
-                  <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
+                  <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit — $79</a>
                   <a href="/vt/" className="tdmd-btn tdmd-btn-outline">Explore Vermont Pages</a>
-                  <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
+                  <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
                 </div>
 
                 <p className="tdmd-icd"><strong>ICD-10 commonly used:</strong> J02.9 (acute pharyngitis, unspecified); final coding depends on the exam</p>
@@ -478,7 +478,7 @@ export default function VtSoreThroatTreatmentOnline() {
                   <h3>Treat, swab, or soothe</h3>
                   <p>A low score means comfort care; a high score means an empiric antibiotic when the history fits, or a referral for an in-person rapid strep test. Any prescription is e-sent to your Vermont pharmacy with clear instructions.</p>
                   <div className="tdmd-decision-cta">
-                    <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
+                    <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
                   </div>
                 </div>
               </div>
@@ -624,7 +624,7 @@ export default function VtSoreThroatTreatmentOnline() {
                 <p>Sore throat going around your school or workplace? See a Vermont MD today</p>
                 <small>Cash-pay $79 flat · No insurance billing in Vermont · Centor-scored decisions</small>
               </div>
-              <a className="tdmd-vt-cond__cta-btn" href="/book-online" rel="noopener">Book Now &rarr;</a>
+              <a className="tdmd-vt-cond__cta-btn" href="/book-online/" rel="noopener">Book Now &rarr;</a>
             </div>
           </div>
         </section>
@@ -642,8 +642,8 @@ export default function VtSoreThroatTreatmentOnline() {
                 <p>Book a same-day video visit. Cash-pay $79 flat. No insurance billing in Vermont.</p>
               </div>
               <div className="tdmd-bottom-cta-actions">
-                <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
-                <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
+                <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
+                <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">View All Adult Conditions</a>
               </div>
             </div>
           </div>
@@ -667,7 +667,7 @@ export default function VtSoreThroatTreatmentOnline() {
                 <span className="tdmd-vt-cond__sibling-label">Influenza Treatment in VT</span>
                 <span className="tdmd-vt-cond__sibling-why">Flu can bring a sore throat with fever and body aches during the winter season.</span>
               </a>
-              <a className="tdmd-vt-cond__sibling" href="/vt/oral-thrush-treatment-online/">
+              <a className="tdmd-vt-cond__sibling" href="/oral-thrush-treatment-online/">
                 <span className="tdmd-vt-cond__sibling-label">Oral Thrush Treatment in VT</span>
                 <span className="tdmd-vt-cond__sibling-why">White patches in the mouth can be thrush rather than strep exudate.</span>
               </a>
@@ -686,9 +686,9 @@ export default function VtSoreThroatTreatmentOnline() {
               <a href="/sore-throat-treatment-online/">National sore throat page</a>
               <a href="/health-guides/">Health guides</a>
               <a href="/about/">About Dr. Bhavsar</a>
-              <a href="/book-online">Book Online</a>
-              <a href="/what-we-treat">What We Treat</a>
-              <a href="/faq">FAQ</a>
+              <a href="/book-online/">Book Online</a>
+              <a href="/what-we-treat/">What We Treat</a>
+              <a href="/faq/">FAQ</a>
             </div>
           </div>
         </section>

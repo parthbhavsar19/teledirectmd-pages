@@ -88,7 +88,7 @@ export default function RemoteWorkersPage() {
       },
       {
         "@type": "Physician",
-        "@id": `${baseUrl}/about#physician`,
+        "@id": `${baseUrl}/about/#physician`,
         "name": "Parth Bhavsar, MD",
         "medicalSpecialty": "FamilyMedicine",
         "worksFor": {
@@ -117,7 +117,7 @@ export default function RemoteWorkersPage() {
         "description": "TeleDirectMD provides telehealth for remote workers and digital nomads across 40+ states. See the same board-certified physician wherever you work. No local PCP required. Same-day visits, evenings & weekends. Starting at $79.",
         "inLanguage": "en-US",
         "breadcrumb": { "@id": `${pageUrl}#breadcrumbs` },
-        "author": { "@id": `${baseUrl}/about#physician` },
+        "author": { "@id": `${baseUrl}/about/#physician` },
         "datePublished": today,
         "dateModified": today,
         "publisher": {
@@ -149,7 +149,7 @@ export default function RemoteWorkersPage() {
         <div className="tdmd-container" style={{ paddingTop: '0.5rem', paddingBottom: '0' }}>
           <a href="/">Home</a>
           <span className="tdmd-bc-sep" aria-hidden="true">/</span>
-          <a href="/who-we-serve">Who We Serve</a>
+          <a href="/who-we-serve/">Who We Serve</a>
           <span className="tdmd-bc-sep" aria-hidden="true">/</span>
           <span aria-current="page">Remote Workers</span>
         </div>
@@ -173,12 +173,12 @@ export default function RemoteWorkersPage() {
                 <li>Transparent cash-pay pricing starting at $79 — no surprise bills</li>
               </ul>
               <div className="tdmd-hero-ctas">
-                <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
-                <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All Conditions</a>
+                <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
+                <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">View All Conditions</a>
               </div>
               <p className="tdmd-reviewed">
                 Last reviewed on {today} by{' '}
-                <a className="tdmd-author-link" href="/about" aria-label="About Parth Bhavsar, MD">
+                <a className="tdmd-author-link" href="/about/" aria-label="About Parth Bhavsar, MD">
                   Parth Bhavsar, MD
                 </a>
               </p>
@@ -261,7 +261,7 @@ export default function RemoteWorkersPage() {
             {conditions.map((c) => (
               <a
                 key={c.slug}
-                href={`/${c.slug}`}
+                href={`/${c.slug}/`}
                 className="tdmd-card"
                 style={{ textDecoration: 'none', color: 'var(--tdmd-text)', borderLeft: '4px solid var(--tdmd-teal)' }}
               >
@@ -271,7 +271,7 @@ export default function RemoteWorkersPage() {
             ))}
           </div>
           <div style={{ marginTop: '1.25rem' }}>
-            <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">View All 60+ Conditions We Treat</a>
+            <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">View All 60+ Conditions We Treat</a>
           </div>
         </div>
       </section>
@@ -302,7 +302,7 @@ export default function RemoteWorkersPage() {
                 <h3>Get Treated — Prescription Sent to Your Pharmacy</h3>
                 <p>If medication is appropriate, we send the prescription electronically to any pharmacy you choose — wherever you happen to be working today. Pick it up locally, or route to a mail-order pharmacy for delivery.</p>
                 <div className="tdmd-decision-cta">
-                  <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit Now</a>
+                  <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit Now</a>
                 </div>
               </div>
             </div>
@@ -358,7 +358,7 @@ export default function RemoteWorkersPage() {
         <div className="tdmd-container">
           <h2>Who You're Seeing — A Real Doctor, Not an Algorithm</h2>
           <p>
-            When you visit TeleDirectMD, you are seeing a licensed, board-certified physician — not a physician assistant, not a nurse practitioner, not a chatbot. <a href="/about" style={{ color: 'var(--tdmd-navy)', fontWeight: 700 }}>Dr. Parth Bhavsar, MD</a>, is a board-certified family medicine physician licensed in 40+ states. Remote workers who use TeleDirectMD see the same physician across visits — building a genuine longitudinal care relationship that doesn't dissolve when you change your home base.
+            When you visit TeleDirectMD, you are seeing a licensed, board-certified physician — not a physician assistant, not a nurse practitioner, not a chatbot. <a href="/about/" style={{ color: 'var(--tdmd-navy)', fontWeight: 700 }}>Dr. Parth Bhavsar, MD</a>, is a board-certified family medicine physician licensed in 40+ states. Remote workers who use TeleDirectMD see the same physician across visits — building a genuine longitudinal care relationship that doesn't dissolve when you change your home base.
           </p>
           <ul className="tdmd-hero-benefits">
             <li>Board-certified in Family Medicine</li>
@@ -399,8 +399,8 @@ export default function RemoteWorkersPage() {
               <p>Request a same-day visit, connect with a board-certified family medicine physician by secure video, and get a prescription sent to the pharmacy nearest to wherever you're working today — no local PCP required.</p>
             </div>
             <div className="tdmd-bottom-cta-actions">
-              <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
-              <a href="/who-we-serve" className="tdmd-btn tdmd-btn-outline">Who We Serve</a>
+              <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
+              <a href="/who-we-serve/" className="tdmd-btn tdmd-btn-outline">Who We Serve</a>
             </div>
           </div>
         </div>
@@ -413,13 +413,13 @@ export default function RemoteWorkersPage() {
           <p>TeleDirectMD is licensed in 40+ states. Here are states with some of the highest concentrations of remote workers where we can see you today:</p>
           <div className="tdmd-other-states-grid">
             {featuredStates.map((s) => (
-              <a key={s.slug} className="tdmd-other-state-link" href={`/${s.slug}`}>
+              <a key={s.slug} className="tdmd-other-state-link" href={`/${s.slug}/`}>
                 {s.name}
               </a>
             ))}
           </div>
           <p style={{ marginTop: '0.75rem' }}>
-            <a href="/states-we-serve" style={{ color: 'var(--tdmd-navy)', fontWeight: 700, textDecoration: 'underline' }}>View all states we serve →</a>
+            <a href="/states-we-serve/" style={{ color: 'var(--tdmd-navy)', fontWeight: 700, textDecoration: 'underline' }}>View all states we serve →</a>
           </p>
         </div>
       </section>
@@ -430,22 +430,22 @@ export default function RemoteWorkersPage() {
           <div className="tdmd-inline-links">
             <h3>Other Communities We Serve</h3>
             <p className="tdmd-link-cloud">
-              <a href="/who-we-serve/gig-workers">Gig Workers</a>
-              <a href="/who-we-serve/uninsured-affordable-care">Uninsured &amp; Affordable Care</a>
-              <a href="/who-we-serve/truck-drivers">Truck Drivers</a>
-              <a href="/who-we-serve/travel-nurses">Travel Nurses</a>
-              <a href="/who-we-serve/small-business-owners">Small Business Owners</a>
-              <a href="/who-we-serve">Who We Serve Hub</a>
+              <a href="/who-we-serve/gig-workers/">Gig Workers</a>
+              <a href="/who-we-serve/uninsured-affordable-care/">Uninsured &amp; Affordable Care</a>
+              <a href="/who-we-serve/truck-drivers/">Truck Drivers</a>
+              <a href="/who-we-serve/travel-nurses/">Travel Nurses</a>
+              <a href="/who-we-serve/small-business-owners/">Small Business Owners</a>
+              <a href="/who-we-serve/">Who We Serve Hub</a>
             </p>
           </div>
           <div className="tdmd-inline-links" style={{ marginTop: '1rem' }}>
             <h3>More from TeleDirectMD</h3>
             <p className="tdmd-link-cloud">
-              <a href="/what-we-treat">What We Treat</a>
-              <a href="/states-we-serve">States We Serve</a>
-              <a href="/insurance">Insurance &amp; Pricing</a>
-              <a href="/faq">FAQs</a>
-              <a href="/book-online">Book a Visit</a>
+              <a href="/what-we-treat/">What We Treat</a>
+              <a href="/states-we-serve/">States We Serve</a>
+              <a href="/insurance/">Insurance &amp; Pricing</a>
+              <a href="/faq/">FAQs</a>
+              <a href="/book-online/">Book a Visit</a>
             </p>
           </div>
         </div>

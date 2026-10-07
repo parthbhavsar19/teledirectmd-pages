@@ -15,8 +15,8 @@ export const SITE = {
   cta: {
     enabled: true,
     org: "TeleDirectMD",
-    url: "https://teledirectmd.com/book-online",
-    conditionUrl: "https://teledirectmd.com/what-we-treat",
+    url: "https://teledirectmd.com/book-online/",
+    conditionUrl: "https://teledirectmd.com/what-we-treat/",
     // Approved public phrasing (social/content-rules.md and the live site). Keep "40+ states" per Dr. Bhavsar.
     line: "Same-day video visits, and every visit is with a board-certified physician. Flat $79, no insurance needed. Adults 18+ in 40+ states.",
   },

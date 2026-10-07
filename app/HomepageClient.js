@@ -14,42 +14,42 @@ const SERVICE_CATEGORIES = [
     desc: 'Cold, flu, COVID, UTI (women only), ear pain, pink eye, and more — treated same-day.',
     icon: 'urgent',
     img: '/images/services/svc-urgent-care.png',
-    href: '/what-we-treat',
+    href: '/what-we-treat/',
   },
   {
     title: "Women's Health",
     desc: 'Yeast infections, BV, birth control refills, vaginal dryness care.',
     icon: 'womens',
     img: '/images/services/svc-womens-health.png',
-    href: '/what-we-treat',
+    href: '/what-we-treat/',
   },
   {
     title: "Men's & Sexual Health",
     desc: 'ED, STI treatment, DoxyPEP, genital herpes — discreet and fast.',
     icon: 'mens',
     img: '/images/services/svc-mens-health.png',
-    href: '/what-we-treat',
+    href: '/what-we-treat/',
   },
   {
     title: 'Skin Conditions',
     desc: 'Acne, eczema, rosacea, psoriasis, fungal infections, and more.',
     icon: 'skin',
     img: '/images/services/svc-skin.png',
-    href: '/what-we-treat',
+    href: '/what-we-treat/',
   },
   {
     title: 'Lifestyle & Refills',
     desc: 'Hair loss, anti-aging, asthma, BP, thyroid, migraine refills.',
     icon: 'refills',
     img: '/images/services/svc-lifestyle.png',
-    href: '/what-we-treat',
+    href: '/what-we-treat/',
   },
   {
     title: 'Travel Medicine',
     desc: 'Altitude sickness prevention, malaria prophylaxis, traveler’s diarrhea standby, and motion sickness — before you fly.',
     icon: 'travel',
     img: '/images/services/svc-travel.png',
-    href: '/travel-medicine-treatment-online',
+    href: '/travel-medicine-treatment-online/',
   },
 ];
 
@@ -78,22 +78,22 @@ const REVIEWS = [
    screenshots). h is each logo's height in px, set for equal visual weight. SHEfinds is left out
    until there is a real logo file (the old shefinds.png was a copy of the Woman's World logo). */
 const MEDIA_OUTLETS = [
-  { name: 'TIME', logo: '/logos/media/time.png', h: 34.4, href: '/media-mentions' },
-  { name: 'Newsweek', logo: '/logos/media/newsweek.png', h: 24.8, href: '/media-mentions' },
-  { name: 'HuffPost', logo: '/logos/media/huffpost.png', h: 23.6, href: '/media-mentions' },
-  { name: 'U.S. News', logo: '/logos/media/usnews.png', h: 29.2, href: '/media-mentions' },
-  { name: 'British GQ', logo: '/logos/media/gq.png', h: 43.9, href: '/media-mentions' },
-  { name: 'Atlanta Journal-Constitution', logo: '/logos/media/ajc.svg', h: 28.0, mono: true, href: '/media-mentions' },
-  { name: 'New York Post', logo: '/logos/media/nypost.png', h: 46.0, href: '/media-mentions' },
-  { name: 'Fox News', logo: '/logos/media/fox.png', h: 46.0, href: '/media-mentions' },
-  { name: 'Daily Mail', logo: '/logos/media/dailymail.png', h: 28.8, href: '/media-mentions' },
-  { name: 'Healthline', logo: '/logos/media/healthline.png', h: 25.1, href: '/media-mentions' },
-  { name: 'Yahoo Health', logo: '/logos/media/yahoo.png', h: 40.3, href: '/media-mentions' },
-  { name: "Woman's World", logo: '/logos/media/womansworld.png', h: 23.6, href: '/media-mentions' },
-  { name: 'EatingWell', logo: '/logos/media/eatingwell.png', h: 34.4, href: '/media-mentions' },
-  { name: 'Everyday Health', logo: '/logos/media/everydayhealth.png', h: 37.1, href: '/media-mentions' },
-  { name: 'Parade', logo: '/logos/media/parade.png', h: 29.6, href: '/media-mentions' },
-  { name: "Men's Journal", logo: '/logos/media/mensjournal.png', h: 28.5, href: '/media-mentions' },
+  { name: 'TIME', logo: '/logos/media/time.png', h: 34.4, href: '/media-mentions/' },
+  { name: 'Newsweek', logo: '/logos/media/newsweek.png', h: 24.8, href: '/media-mentions/' },
+  { name: 'HuffPost', logo: '/logos/media/huffpost.png', h: 23.6, href: '/media-mentions/' },
+  { name: 'U.S. News', logo: '/logos/media/usnews.png', h: 29.2, href: '/media-mentions/' },
+  { name: 'British GQ', logo: '/logos/media/gq.png', h: 43.9, href: '/media-mentions/' },
+  { name: 'Atlanta Journal-Constitution', logo: '/logos/media/ajc.svg', h: 28.0, mono: true, href: '/media-mentions/' },
+  { name: 'New York Post', logo: '/logos/media/nypost.png', h: 46.0, href: '/media-mentions/' },
+  { name: 'Fox News', logo: '/logos/media/fox.png', h: 46.0, href: '/media-mentions/' },
+  { name: 'Daily Mail', logo: '/logos/media/dailymail.png', h: 28.8, href: '/media-mentions/' },
+  { name: 'Healthline', logo: '/logos/media/healthline.png', h: 25.1, href: '/media-mentions/' },
+  { name: 'Yahoo Health', logo: '/logos/media/yahoo.png', h: 40.3, href: '/media-mentions/' },
+  { name: "Woman's World", logo: '/logos/media/womansworld.png', h: 23.6, href: '/media-mentions/' },
+  { name: 'EatingWell', logo: '/logos/media/eatingwell.png', h: 34.4, href: '/media-mentions/' },
+  { name: 'Everyday Health', logo: '/logos/media/everydayhealth.png', h: 37.1, href: '/media-mentions/' },
+  { name: 'Parade', logo: '/logos/media/parade.png', h: 29.6, href: '/media-mentions/' },
+  { name: "Men's Journal", logo: '/logos/media/mensjournal.png', h: 28.5, href: '/media-mentions/' },
 ];
 
 /* Condition name → URL slug mapping (from live site) */
@@ -378,7 +378,9 @@ function useStickyScroll(itemCount, { scrollPerItem = 200 } = {}) {
    NUMBER COUNTER HOOKS
    ============================ */
 function useCountUp(end, duration = 1200) {
-  const [count, setCount] = useState(0);
+  // Start at the final value so the server HTML (what crawlers and no-JS
+  // readers see) says "40+", not "0+". The count-up still plays on scroll.
+  const [count, setCount] = useState(end);
   const ref = useRef(null);
   const triggered = useRef(false);
 
@@ -504,7 +506,7 @@ function StickyHowItWorks() {
               </div>
             </div>
             <div style={{ textAlign: 'center', marginTop: 40 }}>
-              <a href="/book-online" className="hp-btn hp-btn-primary">Book Your $79 Visit</a>
+              <a href="/book-online/" className="hp-btn hp-btn-primary">Book Your $79 Visit</a>
             </div>
           </div>
         </div>
@@ -550,7 +552,7 @@ function StickyWhySection() {
               ))}
             </div>
             <div style={{ textAlign: 'center' }}>
-              <a href="/book-online" className="hp-btn hp-btn-primary">Book a $79 MD Visit</a>
+              <a href="/book-online/" className="hp-btn hp-btn-primary">Book a $79 MD Visit</a>
             </div>
           </div>
         </div>
@@ -567,7 +569,7 @@ export default function HomepageClient() {
   const reviewTrackRef = useRef(null);
 
   // Counter hooks for stats
-  const stateCounter = useCountUp(44, 1500);
+  const stateCounter = useCountUp(40, 1500); // renders "40+": coverage copy is never an exact count
   const conditionCounter = useCountUp(60, 1200);
   const ratingCounter = useCountUp(49, 1000); // 4.9 -> we'll display as 4.9
   const priceCountdown = { count: 79, ref: null }; // Static — countdown mid-animation showed wrong values on mobile
@@ -627,7 +629,7 @@ export default function HomepageClient() {
           </div>
         </div>
         <div className="hp-hero-insurance-cta hp-animate hp-fade-up">
-          <a href="/insurance" className="hp-hero-insurance-link">Aetna, Anthem BCBS &amp; UnitedHealthcare <span style={{ whiteSpace: 'nowrap' }}>accepted &rarr;</span></a>
+          <a href="/insurance/" className="hp-hero-insurance-link">Aetna, Anthem BCBS &amp; UnitedHealthcare <span style={{ whiteSpace: 'nowrap' }}>accepted &rarr;</span></a>
         </div>
       </section>
 
@@ -650,7 +652,7 @@ export default function HomepageClient() {
                 })}
               </div>
             </div>
-            <a className="hp-featured-more" href="/media-mentions">Read the coverage &rarr;</a>
+            <a className="hp-featured-more" href="/media-mentions/">Read the coverage &rarr;</a>
           </div>
           <div style={{ textAlign: 'center' }}>
             <span className="hp-section-label hp-animate hp-fade-up">WHAT WE TREAT</span>
@@ -688,8 +690,8 @@ export default function HomepageClient() {
         <ConditionDriftRows items={HOMEPAGE_CONDITION_TILES} />
         <div className="hp-container">
           <div className="hp-conditions-actions hp-animate hp-fade-up">
-            <a href="/what-we-treat" className="hp-btn hp-btn-secondary hp-btn-sm">View All Conditions</a>
-            <a href="/book-online" className="hp-btn hp-btn-primary hp-btn-sm">Book Now</a>
+            <a href="/what-we-treat/" className="hp-btn hp-btn-secondary hp-btn-sm">View All Conditions</a>
+            <a href="/book-online/" className="hp-btn hp-btn-primary hp-btn-sm">Book Now</a>
           </div>
         </div>
       </section>
@@ -717,7 +719,7 @@ export default function HomepageClient() {
             </a>
           </div>
           <div style={{ textAlign: 'center', marginTop: '1.5rem' }} className="hp-animate hp-fade-up">
-            <a href="/insurance" className="hp-btn hp-btn-secondary hp-btn-sm">Check Your Coverage &rarr;</a>
+            <a href="/insurance/" className="hp-btn hp-btn-secondary hp-btn-sm">Check Your Coverage &rarr;</a>
           </div>
         </div>
       </section>
@@ -738,8 +740,8 @@ export default function HomepageClient() {
               </p>
               <p className="hp-doctor-npi hp-animate hp-fade-up">NPI: 1104323203</p>
               <div className="hp-doctor-actions hp-animate hp-fade-up">
-                <a href="/about" className="hp-btn hp-btn-secondary hp-btn-sm">Read Full Bio</a>
-                <a href="/book-online" className="hp-btn hp-btn-primary hp-btn-sm">Book a Visit</a>
+                <a href="/about/" className="hp-btn hp-btn-secondary hp-btn-sm">Read Full Bio</a>
+                <a href="/book-online/" className="hp-btn hp-btn-primary hp-btn-sm">Book a Visit</a>
               </div>
             </div>
             <div className="hp-doctor-photo-wrap hp-animate hp-slide-left">

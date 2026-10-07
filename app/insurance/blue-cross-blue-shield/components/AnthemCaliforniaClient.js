@@ -144,7 +144,7 @@ export default function AnthemCaliforniaClient() {
     <div style={{ fontFamily: B.fb, background: B.bg, color: B.navy }}>
       <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400&family=DM+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(SCHEMA) }} />
-      <Breadcrumb items={[{ label: 'Home', href: '/' }, { label: 'Insurance', href: '/insurance' }, { label: 'Blue Cross Blue Shield', href: '/insurance/blue-cross-blue-shield' }, { label: 'California' }]} />
+      <Breadcrumb items={[{ label: 'Home', href: '/' }, { label: 'Insurance', href: '/insurance/' }, { label: 'Blue Cross Blue Shield', href: '/insurance/blue-cross-blue-shield/' }, { label: 'California' }]} />
 
       {/* HERO */}
       <div style={{ background: `linear-gradient(165deg, ${B.navyDarker} 0%, ${B.navy} 40%, ${B.navyDeep} 100%)`, padding: '56px 24px 64px', position: 'relative', overflow: 'hidden', marginTop: 16 }}>
@@ -163,7 +163,7 @@ export default function AnthemCaliforniaClient() {
           <p style={{ fontSize: 14, color: 'rgba(255,255,255,0.65)', lineHeight: 1.6, margin: '0 0 24px', maxWidth: 600 }}>
             HMO and Medi-Cal plans are not included. Not sure which you have? Look for "PPO" or "HMO" on the front of your member ID card.
           </p>
-          <a href="https://www.teledirectmd.com/book-online" target="_blank" rel="noopener" style={{ display: 'inline-flex', alignItems: 'center', gap: 8, padding: '14px 28px', background: B.accent, color: B.white, borderRadius: B.rs, fontWeight: 700, fontSize: 15, textDecoration: 'none' }}>
+          <a href="https://www.teledirectmd.com/book-online/" target="_blank" rel="noopener" style={{ display: 'inline-flex', alignItems: 'center', gap: 8, padding: '14px 28px', background: B.accent, color: B.white, borderRadius: B.rs, fontWeight: 700, fontSize: 15, textDecoration: 'none' }}>
             <Ico.Cal c={B.white} s={18} /> Book with Anthem Blue Cross
           </a>
         </div>
@@ -241,11 +241,11 @@ export default function AnthemCaliforniaClient() {
         </section>
 
         <div style={{ marginBottom: 24, display: 'flex', flexWrap: 'wrap', gap: 10 }}>
-          <a href="/news/anthem-blue-cross-california-september-2026" style={{ fontSize: 14, color: B.teal, textDecoration: 'none' }}>Announcement</a>
+          <a href="/news/anthem-blue-cross-california-september-2026/" style={{ fontSize: 14, color: B.teal, textDecoration: 'none' }}>Announcement</a>
           <span style={{ color: B.border }}>|</span>
-          <a href="/insurance/blue-cross-blue-shield" style={{ fontSize: 14, color: B.teal, textDecoration: 'none' }}>All BCBS states</a>
+          <a href="/insurance/blue-cross-blue-shield/" style={{ fontSize: 14, color: B.teal, textDecoration: 'none' }}>All BCBS states</a>
           <span style={{ color: B.border }}>|</span>
-          <a href="/insurance?state=CA" style={{ fontSize: 14, color: B.teal, textDecoration: 'none' }}>Check other California plans</a>
+          <a href="/insurance/?state=CA" style={{ fontSize: 14, color: B.teal, textDecoration: 'none' }}>Check other California plans</a>
           <span style={{ color: B.border }}>|</span>
           <a href="/ca/" style={{ fontSize: 14, color: B.teal, textDecoration: 'none' }}>California telehealth home</a>
         </div>

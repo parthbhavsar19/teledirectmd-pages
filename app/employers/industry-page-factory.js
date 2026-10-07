@@ -73,7 +73,7 @@ export function buildIndustryJsonLd(industry) {
         name: 'TeleDirectMD',
         url: SITE,
         logo: `${SITE}/logo.webp`,
-        founder: { '@id': `${SITE}/#physician` },
+        founder: { '@id': `${SITE}/about/#physician` },
       },
       {
         '@type': 'Service',

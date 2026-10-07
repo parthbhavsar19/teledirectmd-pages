@@ -35,7 +35,7 @@ const FAQS = [
   },
   {
     q: 'How do I book?',
-    a: "Go to <a href='/book-online'>teledirectmd.com/book-online</a>, choose insurance, and enter your Anthem Blue Cross member ID. You need to be physically in California during the visit.",
+    a: "Go to <a href='/book-online/'>teledirectmd.com/book-online</a>, choose insurance, and enter your Anthem Blue Cross member ID. You need to be physically in California during the visit.",
   },
 ];
 
@@ -93,7 +93,7 @@ export default function AnthemCaliforniaAnnouncement() {
       <nav aria-label="Breadcrumb" style={{ padding: '12px 24px', maxWidth: 900, margin: '0 auto', fontSize: 14, color: B.text }}>
         <a href="/" style={{ color: B.teal, textDecoration: 'none' }}>Home</a>
         <span style={{ margin: '0 8px' }}>/</span>
-        <a href="/news" style={{ color: B.teal, textDecoration: 'none' }}>News</a>
+        <a href="/news/" style={{ color: B.teal, textDecoration: 'none' }}>News</a>
         <span style={{ margin: '0 8px' }}>/</span>
         <span>Anthem Blue Cross California</span>
       </nav>
@@ -145,8 +145,8 @@ export default function AnthemCaliforniaAnnouncement() {
 
         <h2 style={h2}>More details</h2>
         <ul style={{ fontSize: 16, lineHeight: 1.8, paddingLeft: 22, margin: '0 0 24px' }}>
-          <li><a href="/insurance/blue-cross-blue-shield/california" style={{ color: B.teal }}>Anthem Blue Cross in California: plans, costs, and FAQ</a></li>
-          <li><a href="/insurance?state=CA" style={{ color: B.teal }}>Check whether your California plan is in-network</a></li>
+          <li><a href="/insurance/blue-cross-blue-shield/california/" style={{ color: B.teal }}>Anthem Blue Cross in California: plans, costs, and FAQ</a></li>
+          <li><a href="/insurance/?state=CA" style={{ color: B.teal }}>Check whether your California plan is in-network</a></li>
           <li><a href="/ca/" style={{ color: B.teal }}>California telehealth home</a></li>
         </ul>
 
@@ -163,7 +163,7 @@ export default function AnthemCaliforniaAnnouncement() {
         <div style={{ padding: 24, background: `linear-gradient(135deg, ${B.teal}, ${B.navyDeep})`, color: B.white, borderRadius: 20, textAlign: 'center' }}>
           <h2 style={{ fontFamily: B.fd, fontSize: 22, color: B.white, margin: '0 0 10px', fontWeight: 600 }}>Book with Anthem Blue Cross</h2>
           <p style={{ color: 'rgba(255,255,255,0.92)', margin: '0 0 18px', fontSize: 15 }}>Same-day video visit. Your Anthem PPO cost-sharing or $79 self-pay.</p>
-          <a href="/book-online" style={{ display: 'inline-block', padding: '12px 28px', background: B.accent, color: B.white, textDecoration: 'none', borderRadius: 12, fontWeight: 700, fontSize: 15 }}>
+          <a href="/book-online/" style={{ display: 'inline-block', padding: '12px 28px', background: B.accent, color: B.white, textDecoration: 'none', borderRadius: 12, fontWeight: 700, fontSize: 15 }}>
             Start Your Visit
           </a>
         </div>

@@ -322,7 +322,7 @@ export default function WhatWeTreatClient({ categories, conditionDescriptions, s
               Not a questionnaire, not a nurse queue — and a straight answer when telehealth isn’t the right tool for what you have.
             </p>
             <div className="wwt-cta-row">
-              <a className="wwt-btn wwt-btn-on-dark" href="/book-online">Book a visit · $79</a>
+              <a className="wwt-btn wwt-btn-on-dark" href="/book-online/">Book a visit · $79</a>
               <a className="wwt-btn wwt-btn-outline-light" href="#wwt-results">Browse conditions</a>
             </div>
             <p className="wwt-hero-note">Adults 18+ · No controlled substances · Red-flag screening on every visit</p>
@@ -413,10 +413,10 @@ export default function WhatWeTreatClient({ categories, conditionDescriptions, s
                         <h3>{c.name}</h3>
                         <p>{desc.description || ''}</p>
                         <div className="wwt-card-foot">
-                          <a className="wwt-link" href={`/${c.slug}`}>Learn more →</a>
+                          <a className="wwt-link" href={`/${c.slug}/`}>Learn more →</a>
                           <a
                             className="wwt-book-now"
-                            href="/book-online"
+                            href="/book-online/"
                             aria-label={`Book a visit for ${c.name}`}
                           >Book now →</a>
                         </div>
@@ -485,7 +485,7 @@ export default function WhatWeTreatClient({ categories, conditionDescriptions, s
               <p>CA · DC · FL · GA · IN · LA · MD · OH · TX</p>
             </a>
           </div>
-          <p className="wwt-ins-all"><a href="/insurance">Check all coverage by state →</a></p>
+          <p className="wwt-ins-all"><a href="/insurance/">Check all coverage by state →</a></p>
         </div>
       </section>
 
@@ -517,7 +517,7 @@ export default function WhatWeTreatClient({ categories, conditionDescriptions, s
           <div className="wwt-container">
             <p>
               Last updated by{' '}
-              <a href="/about" rel="author">Parth Bhavsar, MD</a>
+              <a href="/about/" rel="author">Parth Bhavsar, MD</a>
               {' '}on{' '}
               <time dateTime={reviewDate}>{formatReviewDate(reviewDate)}</time>.
               {' '}Physician-written and reviewed for clinical accuracy.
@@ -531,7 +531,7 @@ export default function WhatWeTreatClient({ categories, conditionDescriptions, s
         <div className="wwt-container">
           <h2>Ready to see a doctor today?</h2>
           <p>$79 flat, same day, with a board-certified MD. Available in 40+ states and Washington, D.C. Select insurance also accepted.</p>
-          <a className="wwt-btn wwt-btn-primary wwt-btn-lg" href="/book-online">Book your visit</a>
+          <a className="wwt-btn wwt-btn-primary wwt-btn-lg" href="/book-online/">Book your visit</a>
           <div className="wwt-badges">
             <span>Adults 18+</span>
             <span>Board-certified MD</span>

@@ -110,7 +110,7 @@ const jsonLd = {
       inLanguage: 'en-US',
       breadcrumb: { '@id': `${BASE_URL}/news#breadcrumbs` },
       publisher: { '@id': `${BASE_URL}/#organization` },
-      reviewedBy: { '@id': `${BASE_URL}/#physician` },
+      reviewedBy: { '@id': `${BASE_URL}/about/#physician` },
       lastReviewed: '2026-05-23',
       hasPart: NEWS_ARTICLES.map((a) => ({
         '@type': 'NewsArticle',
@@ -119,7 +119,7 @@ const jsonLd = {
         headline: a.title,
         datePublished: a.date,
         description: a.summary,
-        author: { '@id': `${BASE_URL}/#physician` },
+        author: { '@id': `${BASE_URL}/about/#physician` },
         publisher: { '@id': `${BASE_URL}/#organization` },
       })),
     },
@@ -145,7 +145,7 @@ const jsonLd = {
     },
     {
       '@type': 'Physician',
-      '@id': `${BASE_URL}/#physician`,
+      '@id': `${BASE_URL}/about/#physician`,
       name: 'Parth Bhavsar, MD',
       url: `${BASE_URL}/about`,
       identifier: { '@type': 'PropertyValue', name: 'NPI', value: '1104323203' },
@@ -254,9 +254,9 @@ export default function NewsHubPage() {
           </p>
           <p className="nws-lead">
             For in-depth health guides written by Dr. Bhavsar, visit the{' '}
-            <a href="/health-guides" style={{ color: 'var(--tdmd-navy)', fontWeight: 700, textDecoration: 'underline' }}>Health Guides</a> section.
+            <a href="/health-guides/" style={{ color: 'var(--tdmd-navy)', fontWeight: 700, textDecoration: 'underline' }}>Health Guides</a> section.
             For a curated list of media appearances with direct source links, see the{' '}
-            <a href="/media-mentions" style={{ color: 'var(--tdmd-navy)', fontWeight: 700, textDecoration: 'underline' }}>Media Mentions</a> page.
+            <a href="/media-mentions/" style={{ color: 'var(--tdmd-navy)', fontWeight: 700, textDecoration: 'underline' }}>Media Mentions</a> page.
           </p>
           <div className="nws-badge-row">
             <span className="nws-badge nws-badge--accent">Latest: Aetna California — May 2026</span>
@@ -265,12 +265,12 @@ export default function NewsHubPage() {
             <span className="nws-badge">Insurance Updates</span>
           </div>
           <div className="nws-ctas">
-            <a href="/media-mentions" className="nws-btn nws-btn-primary">Media Mentions</a>
-            <a href="/health-guides" className="nws-btn nws-btn-outline">Health Guides</a>
+            <a href="/media-mentions/" className="nws-btn nws-btn-primary">Media Mentions</a>
+            <a href="/health-guides/" className="nws-btn nws-btn-outline">Health Guides</a>
           </div>
           <p className="nws-reviewed">
             Content reviewed by{' '}
-            <a href="/about">Parth Bhavsar, MD</a>
+            <a href="/about/">Parth Bhavsar, MD</a>
             {' '}(NPI&nbsp;1104323203) &mdash; Last updated: May 23, 2026
           </p>
         </div>
@@ -288,7 +288,7 @@ export default function NewsHubPage() {
           </p>
           <div className="nws-article-grid">
             {NEWS_ARTICLES.map((article) => (
-              <a key={article.slug} href={`/news/${article.slug}`} className="nws-article-card">
+              <a key={article.slug} href={`/news/${article.slug}/`} className="nws-article-card">
                 <div className="nws-article-meta">
                   <span className="nws-article-cat">{article.category}</span>
                   <time className="nws-article-date" dateTime={article.date}>{article.dateDisplay}</time>
@@ -345,7 +345,7 @@ export default function NewsHubPage() {
           </p>
           <p className="nws-p">
             The outlets below represent a selection of publications that have quoted Dr. Bhavsar. For direct links to each
-            article, visit the <a href="/media-mentions">Media Mentions</a> page, which maintains a curated list with URLs.
+            article, visit the <a href="/media-mentions/">Media Mentions</a> page, which maintains a curated list with URLs.
           </p>
           <div className="nws-media-grid">
             {MEDIA_MENTIONS.map((m) => (
@@ -370,7 +370,7 @@ export default function NewsHubPage() {
           <p className="nws-p">
             The news and health guides sections together address a wide range of telehealth topics. The division is intentional:
             this news page covers service announcements, industry context, and media coverage. The{' '}
-            <a href="/health-guides">health guides</a> section contains longer, clinically sourced articles written by or under
+            <a href="/health-guides/">health guides</a> section contains longer, clinically sourced articles written by or under
             the supervision of Dr. Bhavsar. Both sections are updated on an ongoing basis as new information becomes available.
           </p>
           <div className="nws-two-col">
@@ -446,13 +446,13 @@ export default function NewsHubPage() {
         <section className="nws-section" aria-labelledby="related-heading">
           <h2 id="related-heading" className="nws-h2">Related Resources</h2>
           <div className="nws-link-cloud">
-            <a href="/media-mentions">Media Mentions</a>
-            <a href="/health-guides">Health Guides</a>
-            <a href="/about">About Dr. Bhavsar, MD</a>
-            <a href="/insurance">Insurance &amp; Pricing</a>
-            <a href="/faq">FAQ</a>
-            <a href="/compare">Compare Telehealth Services</a>
-            <a href="/states-we-serve">States We Serve</a>
+            <a href="/media-mentions/">Media Mentions</a>
+            <a href="/health-guides/">Health Guides</a>
+            <a href="/about/">About Dr. Bhavsar, MD</a>
+            <a href="/insurance/">Insurance &amp; Pricing</a>
+            <a href="/faq/">FAQ</a>
+            <a href="/compare/">Compare Telehealth Services</a>
+            <a href="/states-we-serve/">States We Serve</a>
           </div>
         </section>
 
@@ -466,8 +466,8 @@ export default function NewsHubPage() {
             </p>
           </div>
           <div className="nws-cta-bar-actions">
-            <a href="/book-online" className="nws-btn nws-btn-primary">Book a Visit</a>
-            <a href="/about" className="nws-btn nws-btn-outline">About Dr. Bhavsar</a>
+            <a href="/book-online/" className="nws-btn nws-btn-primary">Book a Visit</a>
+            <a href="/about/" className="nws-btn nws-btn-outline">About Dr. Bhavsar</a>
           </div>
         </div>
 

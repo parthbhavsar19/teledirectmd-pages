@@ -89,7 +89,7 @@ export default function HdhpHsaHoldersPage() {
       },
       {
         "@type": "Physician",
-        "@id": `${baseUrl}/about#physician`,
+        "@id": `${baseUrl}/about/#physician`,
         "name": "Parth Bhavsar, MD",
         "medicalSpecialty": "FamilyMedicine",
         "worksFor": {
@@ -118,7 +118,7 @@ export default function HdhpHsaHoldersPage() {
         "description": "Adult telehealth for HDHP and high-deductible plan members. Flat $79 physician visits with HSA/FSA acceptance, board-certified care in 40+ states.",
         "inLanguage": "en-US",
         "breadcrumb": { "@id": `${pageUrl}#breadcrumbs` },
-        "author": { "@id": `${baseUrl}/about#physician` },
+        "author": { "@id": `${baseUrl}/about/#physician` },
         "datePublished": today,
         "dateModified": today,
         "publisher": {
@@ -150,7 +150,7 @@ export default function HdhpHsaHoldersPage() {
         <div className="tdmd-container" style={{ paddingTop: '0.5rem', paddingBottom: '0' }}>
           <a href="/">Home</a>
           <span className="tdmd-bc-sep" aria-hidden="true">/</span>
-          <a href="/who-we-serve">Who We Serve</a>
+          <a href="/who-we-serve/">Who We Serve</a>
           <span className="tdmd-bc-sep" aria-hidden="true">/</span>
           <span aria-current="page">HDHP &amp; HSA Holders</span>
         </div>
@@ -174,12 +174,12 @@ export default function HdhpHsaHoldersPage() {
                 <li>Licensed in 40+ states &mdash; same physician across state lines</li>
               </ul>
               <div className="tdmd-hero-ctas">
-                <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a $79 Visit</a>
-                <a href="/what-we-treat" className="tdmd-btn tdmd-btn-outline">See What We Treat</a>
+                <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a $79 Visit</a>
+                <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">See What We Treat</a>
               </div>
               <p className="tdmd-reviewed">
                 Last reviewed on {today} by{' '}
-                <a className="tdmd-author-link" href="/about" aria-label="About Parth Bhavsar, MD">
+                <a className="tdmd-author-link" href="/about/" aria-label="About Parth Bhavsar, MD">
                   Parth Bhavsar, MD
                 </a>
               </p>
@@ -395,7 +395,7 @@ export default function HdhpHsaHoldersPage() {
               <div className="tdmd-decision-content">
                 <h3>Get Your Prescription + Itemized Receipt</h3>
                 <p>If a prescription is appropriate, it&rsquo;s sent electronically to the pharmacy of your choice anywhere in the U.S. You receive an itemized receipt by email &mdash; suitable for HSA reimbursement, FSA submission, and deductible accumulation.</p>
-                <a href="/book-online" className="tdmd-btn tdmd-btn-primary" style={{ marginTop: '0.75rem', display: 'inline-block' }}>Book a $79 Visit</a>
+                <a href="/book-online/" className="tdmd-btn tdmd-btn-primary" style={{ marginTop: '0.75rem', display: 'inline-block' }}>Book a $79 Visit</a>
               </div>
             </div>
           </div>
@@ -410,7 +410,7 @@ export default function HdhpHsaHoldersPage() {
             When you&rsquo;re paying out of pocket, you want the visit to count. Many low-cost telehealth platforms route patients to a rotating mix of clinicians or marketplace providers &mdash; sometimes a nurse practitioner, sometimes a physician assistant, sometimes a physician you&rsquo;ve never seen and won&rsquo;t see again. TeleDirectMD is built differently.
           </p>
           <p>
-            Every TeleDirectMD visit is conducted by <a href="/about">Dr. Parth Bhavsar, a board-certified family medicine physician</a> (NPI 1104323203). One physician, across 40+ licensed states, accountable to you across visits. That continuity matters more on an HDHP because each visit is a real out-of-pocket cost &mdash; you don&rsquo;t want to pay $79 to repeat your history to a new clinician every time.
+            Every TeleDirectMD visit is conducted by <a href="/about/">Dr. Parth Bhavsar, a board-certified family medicine physician</a> (NPI 1104323203). One physician, across 40+ licensed states, accountable to you across visits. That continuity matters more on an HDHP because each visit is a real out-of-pocket cost &mdash; you don&rsquo;t want to pay $79 to repeat your history to a new clinician every time.
           </p>
         </div>
       </section>
@@ -440,7 +440,7 @@ export default function HdhpHsaHoldersPage() {
             Book a same-day visit with a board-certified physician. Use your HSA, FSA, or any major card. No insurance required. No surprise bills.
           </p>
           <div className="tdmd-hero-ctas">
-            <a href="/book-online" className="tdmd-btn tdmd-btn-primary">Book a $79 Visit</a>
+            <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a $79 Visit</a>
             <a href="/cost/online-doctor-visit-cost/" className="tdmd-btn tdmd-btn-outline">See Pricing Details</a>
           </div>
           <p style={{ marginTop: '1rem', fontSize: '0.9rem' }}>
