@@ -13,42 +13,42 @@ const SERVICE_CATEGORIES = [
     title: 'Virtual Urgent Care',
     desc: 'Cold, flu, COVID, UTI (women only), ear pain, pink eye, and more — treated same-day.',
     icon: 'urgent',
-    img: '/images/services/svc-urgent-care.png',
+    img: '/images/services/svc-urgent-care.webp',
     href: '/what-we-treat/',
   },
   {
     title: "Women's Health",
     desc: 'Yeast infections, BV, birth control refills, vaginal dryness care.',
     icon: 'womens',
-    img: '/images/services/svc-womens-health.png',
+    img: '/images/services/svc-womens-health.webp',
     href: '/what-we-treat/',
   },
   {
     title: "Men's & Sexual Health",
     desc: 'ED, STI treatment, DoxyPEP, genital herpes — discreet and fast.',
     icon: 'mens',
-    img: '/images/services/svc-mens-health.png',
+    img: '/images/services/svc-mens-health.webp',
     href: '/what-we-treat/',
   },
   {
     title: 'Skin Conditions',
     desc: 'Acne, eczema, rosacea, psoriasis, fungal infections, and more.',
     icon: 'skin',
-    img: '/images/services/svc-skin.png',
+    img: '/images/services/svc-skin.webp',
     href: '/what-we-treat/',
   },
   {
     title: 'Lifestyle & Refills',
     desc: 'Hair loss, anti-aging, asthma, BP, thyroid, migraine refills.',
     icon: 'refills',
-    img: '/images/services/svc-lifestyle.png',
+    img: '/images/services/svc-lifestyle.webp',
     href: '/what-we-treat/',
   },
   {
     title: 'Travel Medicine',
     desc: 'Altitude sickness prevention, malaria prophylaxis, traveler’s diarrhea standby, and motion sickness — before you fly.',
     icon: 'travel',
-    img: '/images/services/svc-travel.png',
+    img: '/images/services/svc-travel.webp',
     href: '/travel-medicine-treatment-online/',
   },
 ];
@@ -312,14 +312,19 @@ function useScrollAnimation() {
   useEffect(() => {
     const root = ref.current;
     if (!root) return;
-    const els = root.querySelectorAll('.hp-animate');
+    // Only elements that start below the fold are hidden and revealed on
+    // scroll. Anything on the first screen stays visible from the first paint.
+    const viewH = window.innerHeight || document.documentElement.clientHeight;
+    const els = Array.from(root.querySelectorAll('.hp-animate'))
+      .filter((el) => el.getBoundingClientRect().top > viewH);
     if (!els.length) return;
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
 
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
-            entry.target.classList.add('hp-visible');
+            entry.target.classList.remove('hp-pending');
             observer.unobserve(entry.target);
           }
         });
@@ -327,8 +332,11 @@ function useScrollAnimation() {
       { threshold: 0.12, rootMargin: '0px 0px -40px 0px' }
     );
 
-    els.forEach((el) => observer.observe(el));
-    return () => observer.disconnect();
+    els.forEach((el) => { el.classList.add('hp-pending'); observer.observe(el); });
+    return () => {
+      observer.disconnect();
+      els.forEach((el) => el.classList.remove('hp-pending'));
+    };
   }, []);
 
   return ref;
@@ -574,15 +582,27 @@ export default function HomepageClient() {
   const ratingCounter = useCountUp(49, 1000); // 4.9 -> we'll display as 4.9
   const priceCountdown = { count: 79, ref: null }; // Static — countdown mid-animation showed wrong values on mobile
 
-  // Load the canvas hero animation script after mount
+  // Load the canvas hero animation once the page is idle, so it does not
+  // compete with the first paint. The Book button is real HTML and works
+  // before (and without) the animation.
   useEffect(() => {
     const el = document.getElementById('tmd-root');
     if (!el) return;
-    const script = document.createElement('script');
-    script.src = '/tmd-hero-animation.js';
-    script.async = true;
-    document.body.appendChild(script);
-    return () => { script.remove(); };
+    let script = null;
+    const load = () => {
+      script = document.createElement('script');
+      script.src = '/tmd-hero-animation.js';
+      script.async = true;
+      document.body.appendChild(script);
+    };
+    const idle = window.requestIdleCallback
+      ? window.requestIdleCallback(load, { timeout: 2500 })
+      : window.setTimeout(load, 1200);
+    return () => {
+      if (window.cancelIdleCallback && window.requestIdleCallback) window.cancelIdleCallback(idle);
+      else window.clearTimeout(idle);
+      if (script) script.remove();
+    };
   }, []);
 
   const scrollReviews = useCallback((dir) => {
@@ -618,13 +638,13 @@ export default function HomepageClient() {
         <h1 className="hp-visually-hidden">Board-Certified Online Doctor Visits &mdash; $79 Flat Fee, No Subscription, 40+ States</h1>
         <div id="tmd-root">
           <div id="tmd-wrap-d">
-            <canvas id="tmd-c"></canvas>
-            <button className="tmd-cta" id="tmd-cta-d">Book Your $79 Visit →</button>
+            <canvas id="tmd-c" aria-hidden="true"></canvas>
+            <a href="/book-online/" className="tmd-cta" id="tmd-cta-d">Book Your $79 Visit →</a>
             <button className="tmd-replay" id="tmd-replay-d">↺ replay</button>
           </div>
           <div id="tmd-wrap-m">
-            <canvas id="tmd-cm"></canvas>
-            <button className="tmd-cta" id="tmd-cta-m">Book Your $79 Visit →</button>
+            <canvas id="tmd-cm" aria-hidden="true"></canvas>
+            <a href="/book-online/" className="tmd-cta" id="tmd-cta-m">Book Your $79 Visit →</a>
             <button className="tmd-replay" id="tmd-replay-m">↺ replay</button>
           </div>
         </div>
@@ -668,7 +688,7 @@ export default function HomepageClient() {
             {SERVICE_CATEGORIES.map((svc, i) => (
               <a key={i} href={svc.href} className="hp-service-card hp-animate hp-fade-up">
                 <div className="hp-service-img">
-                  <img src={svc.img} alt={svc.title} loading="lazy" />
+                  <img src={svc.img} alt={svc.title} loading="lazy" decoding="async" width={600} height={448} />
                 </div>
                 <h3>{svc.title}</h3>
                 <p>{svc.desc}</p>

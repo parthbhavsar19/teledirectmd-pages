@@ -109,7 +109,7 @@ export default function SiteHeader() {
     <header className="tdmd-site-header">
       <div className="tdmd-header-inner">
         <a href="/" className="tdmd-header-logo">
-          <img src="/logo.webp" alt="TeleDirectMD" width="180" height="76" />
+          <img src="/logo.webp" alt="TeleDirectMD" width="180" height="76" fetchPriority="high" />
         </a>
 
         <nav className="tdmd-header-nav-desktop" aria-label="Main navigation">
