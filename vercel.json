@@ -1,9 +1,62 @@
 {
   "framework": null,
-  "buildCommand": "npm run build && rm -f out/404.html out/404/index.html out/routes-manifest.json out/_not-found/index.html out/_not-found.html",
+  "buildCommand": "npm run build && rm -f out/routes-manifest.json out/_not-found/index.html out/_not-found.html",
   "outputDirectory": "out",
   "trailingSlash": true,
   "routes": [
+    {
+      "src": "/(.*)",
+      "continue": true,
+      "headers": {
+        "X-Content-Type-Options": "nosniff",
+        "X-Frame-Options": "SAMEORIGIN",
+        "Referrer-Policy": "strict-origin-when-cross-origin",
+        "Permissions-Policy": "camera=(), microphone=(), geolocation=(self), payment=(), usb=(), interest-cohort=()",
+        "Cross-Origin-Opener-Policy": "same-origin-allow-popups"
+      }
+    },
+    {
+      "src": "/_next/static/(.*)",
+      "continue": true,
+      "headers": {
+        "Cache-Control": "public, max-age=31536000, immutable"
+      }
+    },
+    {
+      "src": "/(videos|images|logos|icons|brand|assets)/(.*)",
+      "continue": true,
+      "headers": {
+        "Cache-Control": "public, max-age=86400, stale-while-revalidate=604800"
+      }
+    },
+    {
+      "src": "/health-guides/(.*)\\.(png|jpe?g|webp|avif|svg)",
+      "continue": true,
+      "headers": {
+        "Cache-Control": "public, max-age=86400, stale-while-revalidate=604800"
+      }
+    },
+    {
+      "src": "/terms-of-use/?",
+      "headers": {
+        "Location": "/terms-of-service/"
+      },
+      "status": 301
+    },
+    {
+      "src": "/pediatrics/what-we-treat/?",
+      "headers": {
+        "Location": "/what-we-treat/"
+      },
+      "status": 301
+    },
+    {
+      "src": "/store/?",
+      "headers": {
+        "Location": "/"
+      },
+      "status": 301
+    },
     {
       "src": "/symptom-checker/?",
       "dest": "/symptom-checker/index.html"
@@ -108,14 +161,6 @@
     {
       "src": "/api/verify(.*)",
       "dest": "https://teledirectmd-verify.vercel.app/api/verify$1"
-    },
-    {
-      "src": "/api/approve(.*)",
-      "dest": "https://teledirectmd-verify.vercel.app/api/approve$1"
-    },
-    {
-      "src": "/api/submission(.*)",
-      "dest": "https://teledirectmd-verify.vercel.app/api/submission$1"
     },
     {
       "src": "/api/download(.*)",
@@ -4975,12 +5020,8 @@
     },
     {
       "src": "/(.*)",
-      "dest": "https://pepper-saxophone-p8le.squarespace.com/$1",
-      "headers": {
-        "X-Content-Type-Options": "nosniff",
-        "X-Frame-Options": "SAMEORIGIN",
-        "Referrer-Policy": "strict-origin-when-cross-origin"
-      }
+      "status": 404,
+      "dest": "/404.html"
     }
   ]
 }

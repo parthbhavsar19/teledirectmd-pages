@@ -15,7 +15,7 @@ Usage: python3 verify_citations.py <guide-index.html>   (exit 0 = PASS, 1 = FAIL
 """
 import re, sys, json, time, urllib.request, urllib.parse
 
-TOOL = "TeleDirectMD citation gate (bhavsar.parth25@gmail.com)"
+TOOL = "TeleDirectMD citation gate (contact@teledirectmd.com)"
 
 def request(url):
     req = urllib.request.Request(url, headers={"User-Agent": TOOL})
