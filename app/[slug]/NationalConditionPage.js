@@ -264,7 +264,7 @@ export default function NationalConditionPage({ conditionSlug }) {
       <section className="tdmd-section" id={`${pid}-telehealth-regulations`}>
         <div className="tdmd-container">
           <h2>Telehealth Regulations Across Our Licensed States</h2>
-          <p>TeleDirectMD is currently licensed to provide telehealth services in 40+ states + DC. Each state has its own telehealth regulations, prescribing guidelines, and scope-of-practice rules. Our physicians follow all applicable state and federal regulations for every patient encounter.</p>
+          <p>TeleDirectMD is currently licensed to provide telehealth services in 40+ states + DC. Each state has its own telehealth regulations, prescribing guidelines, and scope-of-practice rules. Dr. Bhavsar follows all applicable state and federal regulations for every patient encounter.</p>
           <p>When you book a visit, you will be matched with a physician licensed in the state where you are physically located. This ensures your care meets all regulatory requirements for that jurisdiction. Select your state below to see specific telehealth regulations for your location.</p>
         </div>
       </section>
@@ -404,7 +404,7 @@ export default function NationalConditionPage({ conditionSlug }) {
         <section className="tdmd-section tdmd-section-highlight" id={`${pid}-health-guide`}>
           <div className="tdmd-container">
             <h2>Related Health Guide</h2>
-            <p>For a deeper clinical guide to symptoms, prevention, and treatment, read our <a href={condition.guideLink.url}>{condition.guideLink.label}</a>, written and reviewed by our physicians to current clinical guidelines.</p>
+            <p>For a deeper clinical guide to symptoms, prevention, and treatment, read our <a href={condition.guideLink.url}>{condition.guideLink.label}</a>, written and reviewed by Dr. Bhavsar to current clinical guidelines.</p>
           </div>
         </section>
       )}

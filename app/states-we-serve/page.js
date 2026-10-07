@@ -13,7 +13,7 @@ export async function generateMetadata() {
   const allStates = getStates();
   const stateCount = allStates.length;
   const title = `States We Serve — Licensed Telemedicine in 40+ States + DC | TeleDirectMD`;
-  const description = `Board-certified physicians delivering $79 video consultations to adults 18+ across 40+ states plus DC. Same-day availability, no insurance required. See our full coverage map and book online.`;
+  const description = `A board-certified physician delivering $79 video consultations to adults 18+ across 40+ states plus DC. Same-day availability, no insurance required. See our full coverage map and book online.`;
   const pageUrl = 'https://teledirectmd.com/states-we-serve';
 
   return {
@@ -88,7 +88,7 @@ function buildJsonLd(allStates, categories) {
         email: 'contact@teledirectmd.com',
         logo: `${baseUrl}/assets/teledirectmd-logo.png`,
         image: `${baseUrl}/assets/og-states-we-serve.jpg`,
-        description: `TeleDirectMD is a direct-pay telemedicine practice offering $79 flat-fee video consultations with board-certified physicians across 40+ U.S. states and territories. Insurance is not required but select plans are accepted in some states.`,
+        description: `TeleDirectMD is a direct-pay telemedicine practice offering $79 flat-fee video consultations with a board-certified physician across 40+ U.S. states and territories. Insurance is not required but select plans are accepted in some states.`,
         medicalSpecialty: ['Family Medicine', 'Urgent Care', 'Dermatology', "Women's Health"],
         address: {
           '@type': 'PostalAddress',
@@ -123,7 +123,7 @@ function buildJsonLd(allStates, categories) {
           {
             '@type': 'Question',
             name: 'What states does TeleDirectMD serve?',
-            acceptedAnswer: { '@type': 'Answer', text: `TeleDirectMD physicians are licensed and available in 40+ U.S. states and territories, including ${stateNamesList}. We are actively expanding to additional states.` },
+            acceptedAnswer: { '@type': 'Answer', text: `Dr. Bhavsar is licensed and available in 40+ U.S. states and territories, including ${stateNamesList}. We are actively expanding to additional states.` },
           },
           {
             '@type': 'Question',
@@ -138,7 +138,7 @@ function buildJsonLd(allStates, categories) {
           {
             '@type': 'Question',
             name: 'What conditions does TeleDirectMD treat?',
-            acceptedAnswer: { '@type': 'Answer', text: `TeleDirectMD treats ${totalConditions}+ conditions via video visits, including virtual urgent care (UTIs (women only), sinus infections, influenza, COVID-19, sore throat, pink eye, ear pain), women's health (bacterial vaginosis, yeast infections), men's health, skin conditions (acne, eczema, cellulitis, shingles, cold sores), and medication refills (migraine, asthma, GERD).` },
+            acceptedAnswer: { '@type': 'Answer', text: `TeleDirectMD treats 60+ conditions via video visits, including virtual urgent care (UTIs (women only), sinus infections, influenza, COVID-19, sore throat, pink eye, ear pain), women's health (bacterial vaginosis, yeast infections), men's health, skin conditions (acne, eczema, cellulitis, shingles, cold sores), and medication refills (migraine, asthma, GERD).` },
           },
           {
             '@type': 'Question',
@@ -153,7 +153,7 @@ function buildJsonLd(allStates, categories) {
           {
             '@type': 'Question',
             name: 'Are TeleDirectMD doctors board-certified?',
-            acceptedAnswer: { '@type': 'Answer', text: 'Yes. TeleDirectMD is an MD-only practice. Every consultation is conducted by a board-certified physician — not a nurse practitioner or physician assistant. Our physicians hold active medical licenses in every state where we operate.' },
+            acceptedAnswer: { '@type': 'Answer', text: 'Yes. TeleDirectMD is an MD-only practice. Every consultation is conducted by a board-certified physician — not a nurse practitioner or physician assistant. Dr. Bhavsar holds an active medical license in every state where we operate.' },
           },
           {
             '@type': 'Question',
@@ -167,7 +167,7 @@ function buildJsonLd(allStates, categories) {
         '@type': 'ItemList',
         '@id': `${baseUrl}/states-we-serve#statelist`,
         name: 'TeleDirectMD Licensed States',
-        description: `All U.S. states where TeleDirectMD physicians are licensed to provide telemedicine video consultations.`,
+        description: `All U.S. states where Dr. Bhavsar is licensed to provide telemedicine video consultations.`,
         numberOfItems: stateCount,
         itemListElement: allStates.map((s, i) => ({
           '@type': 'ListItem',

@@ -68,7 +68,7 @@ const faqItems = [
   },
   {
     q: 'Can you prescribe medication?',
-    a: 'Yes. When clinically appropriate and within our prescribing limits, our providers can prescribe non-controlled medications and send prescriptions directly to your preferred pharmacy electronically. See our IV/IM prescribing policy, including the EpiPen refill exception.',
+    a: 'Yes. When clinically appropriate and within our prescribing limits, Dr. Bhavsar can prescribe non-controlled medications and send prescriptions directly to your preferred pharmacy electronically. See our IV/IM prescribing policy, including the EpiPen refill exception.',
   },
   {
     q: 'Do you prescribe controlled substances?',

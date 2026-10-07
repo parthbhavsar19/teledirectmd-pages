@@ -87,7 +87,7 @@ export default async function FAQDeepDivePage({ params }) {
       : `The TeleDirectMD visit is a self pay option starting at $79. Insurance is not required. Prescription costs are separate and vary by pharmacy. There are no hidden fees and no subscription is required.` },
     { q: `What happens during the visit?`, a: `You connect by secure video with a board-certified MD licensed in ${state.name}. The physician takes your medical history, evaluates your condition, screens for red flags or contraindications, and discusses treatment options including ${medDisplay} if appropriate. If a prescription is clinically appropriate, it is sent to your preferred pharmacy.` },
     { q: `What if ${medDisplay} is not appropriate for me?`, a: `If ${medDisplay} is not clinically appropriate based on your evaluation, your MD will explain why and discuss alternative options or recommend in-person follow-up. You still receive a complete evaluation and clear guidance on next steps.` },
-    { q: `Is TeleDirectMD licensed in ${state.name}?`, a: `Yes. TeleDirectMD is licensed to provide telehealth services in ${state.name}. All visits are conducted by board-certified MDs who hold active medical licenses in ${state.name}.` }
+    { q: `Is TeleDirectMD licensed in ${state.name}?`, a: `Yes. TeleDirectMD is licensed to provide telehealth services in ${state.name}. All visits are conducted by Parth Bhavsar, MD, a board-certified physician who holds an active medical license in ${state.name}.` }
   ];
 
   const jsonLd = {

@@ -687,7 +687,7 @@ export default function EarlyRetireesPage() {
                   <td>Refill or adjustment after evaluation</td>
                 </tr>
                 <tr>
-                  <td>Metformin, SGLT-2 inhibitors, GLP-1 agonists</td>
+                  <td>Metformin, SGLT-2 inhibitors</td>
                   <td>Type 2 Diabetes</td>
                   <td>Oral medications; some injectables</td>
                 </tr>

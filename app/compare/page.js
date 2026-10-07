@@ -106,7 +106,7 @@ const FAQS = [
   {
     question: 'Does TeleDirectMD offer mental health services like its competitors?',
     answer:
-      'No. TeleDirectMD focuses exclusively on acute urgent care and chronic medication refills for physical health conditions. The practice does not offer therapy, psychiatry, or psychology services. If you need mental health support, Teladoc (therapy from $119/visit), Doctor on Demand, or a dedicated behavioral telehealth platform is the appropriate choice. TeleDirectMD physicians will always refer patients to appropriate mental health resources if it comes up during a visit.',
+      'No. TeleDirectMD focuses exclusively on acute urgent care and chronic medication refills for physical health conditions. The practice does not offer therapy, psychiatry, or psychology services. If you need mental health support, Teladoc (therapy from $119/visit), Doctor on Demand, or a dedicated behavioral telehealth platform is the appropriate choice. Dr. Bhavsar will always refer patients to appropriate mental health resources if it comes up during a visit.',
   },
   {
     question: 'Which telehealth service is best for urgent care without insurance?',

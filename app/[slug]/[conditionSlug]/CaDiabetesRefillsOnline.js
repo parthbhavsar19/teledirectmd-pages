@@ -62,12 +62,12 @@ const FAQ_ITEMS = [
   {
     id: 'diabetes-refills-online-faq-0',
     question: "Can I refill my Type 2 diabetes medications online in California?",
-    answer: <p>Yes. California Business and Professions Code Section 2290.5 permits licensed physicians to prescribe medications via synchronous video telehealth without a prior in-person visit. TeleDirectMD\'s California-licensed board-certified Family Medicine physician reviews your most recent HbA1c, kidney function (eGFR), blood glucose logs, and medication adherence before authorizing refills for stable established Type 2 diabetes. Metformin, GLP-1 agonists (for T2DM), SGLT2 inhibitors, and sulfonylureas are in scope. Self pay is $79; Aetna is in-network effective April 30, 2026.</p>,
+    answer: <p>Yes. California Business and Professions Code Section 2290.5 permits licensed physicians to prescribe medications via synchronous video telehealth without a prior in-person visit. TeleDirectMD\'s California-licensed board-certified Family Medicine physician reviews your most recent HbA1c, kidney function (eGFR), blood glucose logs, and medication adherence before authorizing refills for stable established Type 2 diabetes. Metformin, SGLT2 inhibitors, and sulfonylureas are in scope. TeleDirectMD does not prescribe GLP-1 agonists. Self pay is $79; Aetna is in-network effective April 30, 2026.</p>,
   },
   {
     id: 'diabetes-refills-online-faq-1',
-    question: "Does TeleDirectMD prescribe GLP-1 agonists (semaglutide, tirzepatide) for weight loss?",
-    answer: <p>No. TeleDirectMD prescribes GLP-1 receptor agonists including semaglutide (Ozempic) and tirzepatide (Mounjaro) for Type 2 diabetes glycemic control only. The physician does not prescribe semaglutide (Wegovy) or tirzepatide (Zepbound) for weight loss in the absence of a Type 2 diabetes diagnosis. Patients seeking weight-loss GLP-1 therapy without Type 2 diabetes should consult a physician with obesity medicine expertise.</p>,
+    question: "Does TeleDirectMD prescribe GLP-1 agonists (semaglutide, tirzepatide)?",
+    answer: <p>No. TeleDirectMD does not prescribe GLP-1 receptor agonists such as semaglutide (Ozempic, Wegovy) or tirzepatide (Mounjaro, Zepbound), for weight loss or for Type 2 diabetes. Patients who need a GLP-1 should see their primary care physician, an endocrinologist, or a physician with obesity medicine expertise.</p>,
   },
   {
     id: 'diabetes-refills-online-faq-2',
@@ -135,7 +135,7 @@ function buildSchemas() {
     '@type': 'MedicalWebPage',
     name: PAGE_TITLE,
     url: PAGE_URL,
-    description: 'Refill Type 2 diabetes medications online in California. Board-certified Family Medicine MD. CA telehealth compliant. Aetna in-network. Self pay $79. ADA Standards of Care 2024–2025. Metformin, GLP-1 agonists, SGLT2 inhibitors. T2DM only.',
+    description: 'Refill Type 2 diabetes medications online in California. Board-certified Family Medicine MD. CA telehealth compliant. Aetna in-network. Self pay $79. ADA Standards of Care 2024–2025. Metformin, SGLT2 inhibitors. T2DM only.',
     datePublished: DATE_PUBLISHED,
     dateModified: DATE_MODIFIED,
     inLanguage: 'en-US',
@@ -323,7 +323,7 @@ export default function CaDiabetesRefillsOnline() {
           <div className="tdmd-container">
             <div className="tdmd-condition-opener" id="diabetes-refills-online-opening">
               <p>
-                California adults with established Type 2 diabetes (T2DM) can refill medications — including metformin, GLP-1 receptor agonists (for T2DM glycemic control), SGLT2 inhibitors, sulfonylureas, and DPP-4 inhibitors — by secure video visit through TeleDirectMD, consistent with California Business and Professions Code Section 2290.5. A California-licensed board-certified Family Medicine physician reviews your most recent HbA1c, blood glucose logs, kidney function (eGFR), and medication adherence before authorizing refills. ADA Standards of Care 2024–2025 guide therapeutic decisions. GLP-1 agonists are prescribed for T2DM glycemic control only — not for weight loss in the absence of diabetes. Self pay is $79. Aetna is in-network effective April 30, 2026.
+                California adults with established Type 2 diabetes (T2DM) can refill medications — including metformin, SGLT2 inhibitors, sulfonylureas, and DPP-4 inhibitors — by secure video visit through TeleDirectMD, consistent with California Business and Professions Code Section 2290.5. A California-licensed board-certified Family Medicine physician reviews your most recent HbA1c, blood glucose logs, kidney function (eGFR), and medication adherence before authorizing refills. ADA Standards of Care 2024–2025 guide therapeutic decisions. TeleDirectMD does not prescribe GLP-1 agonists. Self pay is $79. Aetna is in-network effective April 30, 2026.
               </p>
               <span className="tdmd-condition-opener__meta">
                 Reviewed by <a href="/about/">{PHYSICIAN.name}</a>, Board-Certified {PHYSICIAN.specialty} · NPI {PHYSICIAN.npi} · Licensed in {PHYSICIAN.licenseState} ·
@@ -338,7 +338,7 @@ export default function CaDiabetesRefillsOnline() {
           <div className="tdmd-container">
             <div style={{ background: '#FFF3CD', border: '2px solid #FFC107', borderRadius: 'var(--tdmd-radius,18px)', padding: '1.1rem 1.5rem', marginTop: '1.5rem' }}>
               <h3 style={{ color: '#856404', marginTop: 0 }}>⚠ Type 2 Diabetes Only — Scope of Service</h3>
-              <p style={{ color: '#533f03', margin: 0 }}>TeleDirectMD manages Type 2 diabetes mellitus (T2DM) only. Type 1 diabetes mellitus (T1DM) insulin titration is outside the scope of this service — T1DM patients require endocrinology management. GLP-1 receptor agonists (semaglutide, tirzepatide, liraglutide) are prescribed for T2DM glycemic control only — TeleDirectMD does NOT prescribe GLP-1 agonists for weight loss in patients without Type 2 diabetes. Insulin titration for T2DM: simple regimens (basal insulin initiation and conservative adjustment) are in scope; complex insulin titration requiring endocrinology expertise is referred.</p>
+              <p style={{ color: '#533f03', margin: 0 }}>TeleDirectMD manages Type 2 diabetes mellitus (T2DM) only. Type 1 diabetes mellitus (T1DM) insulin titration is outside the scope of this service — T1DM patients require endocrinology management. TeleDirectMD does NOT prescribe GLP-1 receptor agonists (semaglutide, tirzepatide, liraglutide), for weight loss or for diabetes. Insulin titration for T2DM: simple regimens (basal insulin initiation and conservative adjustment) are in scope; complex insulin titration requiring endocrinology expertise is referred.</p>
             </div>
           </div>
         </section>
@@ -355,7 +355,7 @@ export default function CaDiabetesRefillsOnline() {
 
             <h3>What standard of care applies to California telehealth physicians?</h3>
             <p>
-              The <a href="https://www.mbc.ca.gov/Resources/Medical-Resources/telehealth.aspx" rel="noopener" target="_blank">Medical Board of California</a> is explicit: &ldquo;The standard of care is the same whether the patient is seen in-person, through telehealth or other methods of electronically enabled health care.&rdquo; TeleDirectMD physicians are licensed in California. See <a href="/about/">Dr. Bhavsar&apos;s bio</a> for credential details.
+              The <a href="https://www.mbc.ca.gov/Resources/Medical-Resources/telehealth.aspx" rel="noopener" target="_blank">Medical Board of California</a> is explicit: &ldquo;The standard of care is the same whether the patient is seen in-person, through telehealth or other methods of electronically enabled health care.&rdquo; Dr. Bhavsar is licensed in California. See <a href="/about/">Dr. Bhavsar&apos;s bio</a> for credential details.
             </p>
 
             <h3>Does California insurance parity law cover telehealth visits?</h3>
@@ -489,12 +489,6 @@ export default function CaDiabetesRefillsOnline() {
                     <td>500–1000 mg once or twice daily with meals; max 2000–2550 mg/day</td>
                     <td><a href="https://www.goodrx.com/metformin" target="_blank" rel="noopener">~$4–$15/month GoodRx (generic)</a></td>
                     <td>First-line. Hold if eGFR &lt;30. ER formulation reduces GI side effects. Monitor B12 annually.</td>
-                  </tr>
-                  <tr>
-                    <td><strong>Semaglutide (Ozempic) 0.5/1/2 mg weekly injection</strong></td>
-                    <td>0.25 mg weekly × 4 weeks, then 0.5 mg weekly (titrate to 1–2 mg)</td>
-                    <td><a href="https://www.goodrx.com/ozempic" target="_blank" rel="noopener">~$800–$950/month list; GoodRx may not reduce significantly; Novo Nordisk patient assistance programs available</a></td>
-                    <td>T2DM ONLY — not for weight loss without diabetes. Significant CV benefit in SUSTAIN-6. GI side effects common. Requires prior auth for many plans.</td>
                   </tr>
                   <tr>
                     <td><strong>Empagliflozin (Jardiance) 10/25 mg</strong></td>
