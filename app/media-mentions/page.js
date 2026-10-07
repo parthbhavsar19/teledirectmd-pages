@@ -3,7 +3,7 @@ import MediaMentionsClient from './MediaMentionsClient';
 export const metadata = {
   title: 'Media Mentions | TeleDirectMD Expert Coverage & Press',
   description:
-    'TeleDirectMD physicians are quoted and featured in TIME, Newsweek, British GQ, HuffPost, FOX News Digital, Healthline, and 10+ other major outlets. Browse 30 expert media appearances across nutrition, wellness, infectious disease, and safety.',
+    'Dr. Bhavsar is quoted and featured in TIME, Newsweek, British GQ, HuffPost, FOX News Digital, Healthline, and 10+ other major outlets. Browse 30 expert media appearances across nutrition, wellness, infectious disease, and safety.',
   alternates: { canonical: 'https://teledirectmd.com/media-mentions' },
   openGraph: {
     title: 'Media Mentions | TeleDirectMD Expert Coverage & Press',
@@ -25,7 +25,7 @@ const jsonLd = {
       url: 'https://teledirectmd.com/media-mentions',
       name: 'TeleDirectMD in the Media | Press & Editorial Coverage',
       description:
-        'TeleDirectMD physicians are trusted expert sources in national health journalism, featured in 30 articles across TIME, Newsweek, British GQ, and 16 other major outlets.',
+        'Dr. Bhavsar is a trusted expert source in national health journalism, featured in 30 articles across TIME, Newsweek, British GQ, and 16 other major outlets.',
       inLanguage: 'en-US',
       isPartOf: {
         '@type': 'WebSite',
@@ -38,7 +38,7 @@ const jsonLd = {
         name: 'TeleDirectMD',
         url: 'https://teledirectmd.com',
         description:
-          'TeleDirectMD is a physician-led telehealth service providing direct access to board-certified doctors via video visit.',
+          'TeleDirectMD is a physician-led telehealth service providing direct access to a board-certified doctor via video visit.',
       },
       hasPart: [
         {

@@ -117,7 +117,8 @@ function UsMap({ animate }) {
 function ByTheNumbers({ totalConditions, stateCount }) {
   const reduced = useReducedMotion();
   const bandRef = useRef(null);
-  const [n, setN] = useState(reduced ? totalConditions : 0);
+  // Start at the final value so the server HTML reads "60+", not "0+".
+  const [n, setN] = useState(totalConditions);
   const [chip, setChip] = useState('Urgent care');
   const [ladderStates, setLadderStates] = useState(() =>
     reduced
@@ -331,7 +332,8 @@ export default function WhatWeTreatClient({ categories, conditionDescriptions, s
       </section>
 
       {/* By the numbers */}
-      <ByTheNumbers totalConditions={totalConditions} stateCount={stateCount} />
+      {/* Counter reads "60+": condition copy is never an exact count. */}
+      <ByTheNumbers totalConditions={60} stateCount={stateCount} />
 
       {/* Browse + toolbar */}
       <div className="wwt-browse">
@@ -352,7 +354,7 @@ export default function WhatWeTreatClient({ categories, conditionDescriptions, s
             <span className="wwt-count">
               {filtered
                 ? `${totalShown} condition${totalShown === 1 ? '' : 's'} shown`
-                : `${totalConditions}+ conditions`}
+                : `60+ conditions`}
             </span>
           </div>
           <div className="wwt-container wwt-toolbar-row2">

@@ -569,7 +569,7 @@ export default function ConditionPageRedesign({
           <div className="cpr-wrap">
             <p className="cpr-kicker">Learn more</p>
             <h2>Related health guide</h2>
-            <p style={{ margin: 0, lineHeight: 1.7 }}>For a deeper clinical guide to symptoms, prevention, and treatment, read our <a href={c.guideLink.url}>{c.guideLink.label}</a>, written and reviewed by our physicians to current clinical guidelines.</p>
+            <p style={{ margin: 0, lineHeight: 1.7 }}>For a deeper clinical guide to symptoms, prevention, and treatment, read our <a href={c.guideLink.url}>{c.guideLink.label}</a>, written and reviewed by Dr. Bhavsar to current clinical guidelines.</p>
           </div>
         </section>
       )}

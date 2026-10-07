@@ -61,6 +61,8 @@ export default function StateLandingPage({ stateSlug }) {
   // Deriving it from displayedCategories made Alaska advertise 20 conditions
   // while Vermont, which publishes the same 20 pages, advertised 64.
   const totalConditions = categories.reduce((sum, cat) => sum + cat.conditions.length, 0);
+  // Copy says "60+" for full-coverage states; pilot states keep their exact count.
+  const conditionsLabel = totalConditions >= 60 ? '60+' : String(totalConditions);
   // How many of those have a dedicated in-state page to link to.
   const linkedConditions = displayedCategories.reduce((sum, cat) => sum + cat.conditions.length, 0);
 
@@ -105,7 +107,7 @@ export default function StateLandingPage({ stateSlug }) {
         "url": pageUrl,
         "telephone": "+1-678-956-1855",
         "email": "contact@teledirectmd.com",
-        "description": `TeleDirectMD provides MD-only telehealth video visits in ${state.name} for ${totalConditions} adult conditions, starting at $79.${hasInsurance ? ' Select insurance plans accepted.' : ' No insurance required.'}`,
+        "description": `TeleDirectMD provides MD-only telehealth video visits in ${state.name} for ${conditionsLabel} adult conditions, starting at $79.${hasInsurance ? ' Select insurance plans accepted.' : ' No insurance required.'}`,
         "areaServed": {
           "@type": "AdministrativeArea",
           "name": state.name,
@@ -147,7 +149,7 @@ export default function StateLandingPage({ stateSlug }) {
         "@id": `${pageUrl}#webpage`,
         "url": pageUrl,
         "name": `Online Doctor in ${state.name} — TeleDirectMD`,
-        "description": `See an MD-only doctor online in ${state.name}. TeleDirectMD offers same-day video visits for ${totalConditions} adult conditions, starting at $79.`,
+        "description": `See an MD-only doctor online in ${state.name}. TeleDirectMD offers same-day video visits for ${conditionsLabel} adult conditions, starting at $79.`,
         "inLanguage": "en-US",
         "breadcrumb": { "@id": `${pageUrl}#breadcrumbs` },
         "isPartOf": { "@id": `${baseUrl}/#website` },
@@ -165,7 +167,7 @@ export default function StateLandingPage({ stateSlug }) {
           {
             "@type": "Question",
             "name": `What conditions does TeleDirectMD treat in ${state.name}?`,
-            "acceptedAnswer": { "@type": "Answer", "text": `TeleDirectMD treats ${totalConditions} adult conditions in ${state.name}, including urgent care (cold, flu, UTI (women only), sinus infection), chronic medication refills (asthma, hypertension, thyroid), skin conditions (acne, eczema, rosacea), sexual health, women's health, and more. All visits are conducted by licensed MDs via secure video.` }
+            "acceptedAnswer": { "@type": "Answer", "text": `TeleDirectMD treats ${conditionsLabel} adult conditions in ${state.name}, including urgent care (cold, flu, UTI (women only), sinus infection), chronic medication refills (asthma, hypertension, thyroid), skin conditions (acne, eczema, rosacea), sexual health, women's health, and more. All visits are conducted by licensed MDs via secure video.` }
           },
           {
             "@type": "Question",
@@ -333,7 +335,7 @@ export default function StateLandingPage({ stateSlug }) {
               <p className="cpr-hero-kicker">Telehealth &middot; {state.name}</p>
               <h1 data-speakable="true">Online Doctor in {state.name} — TeleDirectMD</h1>
               <p className="sub" data-speakable="true">
-                MD-only telehealth visits for {totalConditions} adult conditions. Same-day appointments, starting at $79{hasInsurance ? ' — select insurance plans accepted' : ' — no insurance required'}.
+                MD-only telehealth visits for {conditionsLabel} adult conditions. Same-day appointments, starting at $79{hasInsurance ? ' — select insurance plans accepted' : ' — no insurance required'}.
               </p>
 
               {/* INJECT 1: State hub uniqueness opener — renders only when stateTpl
@@ -408,7 +410,7 @@ export default function StateLandingPage({ stateSlug }) {
               <div className="price">$79</div>
               <p className="pl">flat self-pay &middot; insurance not required</p>
               <ul>
-                <li>{totalConditions} conditions treated</li>
+                <li>{conditionsLabel} conditions treated</li>
                 <li>Same-day appointments, evenings &amp; weekends</li>
                 <li>MD-only — never an NP or PA</li>
                 {hasInsurance && <li>Select insurance plans accepted</li>}
@@ -430,7 +432,7 @@ export default function StateLandingPage({ stateSlug }) {
             Online doctor in {state.name}:
           </p>
           <p style={{ margin: '0.35rem 0 0', color: '#003E52', fontSize: '0.97rem' }}>
-            TeleDirectMD provides same-day video visits with a board-certified MD in {state.name} for {totalConditions} adult conditions — starting at $79, no insurance required{hasInsurance ? `, though select plans are accepted in ${state.name}` : ''}. Book online, see a licensed physician via secure video, and get a prescription sent directly to your local {state.name} pharmacy.
+            TeleDirectMD provides same-day video visits with a board-certified MD in {state.name} for {conditionsLabel} adult conditions — starting at $79, no insurance required{hasInsurance ? `, though select plans are accepted in ${state.name}` : ''}. Book online, see a licensed physician via secure video, and get a prescription sent directly to your local {state.name} pharmacy.
           </p>
         </div>
       </div>
@@ -567,7 +569,7 @@ export default function StateLandingPage({ stateSlug }) {
           </div>
 
           <p>
-            All TeleDirectMD physicians are licensed to practice medicine in {state.name} and follow state-specific prescribing guidelines. A valid physician-patient relationship is established during each video visit. TeleDirectMD does not prescribe controlled substances.
+            All Dr. Bhavsar is licensed to practice medicine in {state.name} and follow state-specific prescribing guidelines. A valid physician-patient relationship is established during each video visit. TeleDirectMD does not prescribe controlled substances.
           </p>
         </div>
       </section>
@@ -602,7 +604,7 @@ export default function StateLandingPage({ stateSlug }) {
               {
                 question: `What conditions does TeleDirectMD treat in ${state.name}?`,
                 answer: (
-                  <p>TeleDirectMD treats {totalConditions} adult conditions in {state.name}, organized into {displayedCategories.length} categories: {displayedCategories.map((c) => c.categoryName).join(', ')}. Common conditions include colds, flu, UTIs (women only), sinus infections, acne, eczema, asthma refills, blood pressure refills, and more.</p>
+                  <p>TeleDirectMD treats {conditionsLabel} adult conditions in {state.name}, organized into {displayedCategories.length} categories: {displayedCategories.map((c) => c.categoryName).join(', ')}. Common conditions include colds, flu, UTIs (women only), sinus infections, acne, eczema, asthma refills, blood pressure refills, and more.</p>
                 ),
               },
               {
@@ -628,7 +630,7 @@ export default function StateLandingPage({ stateSlug }) {
               {
                 question: 'Who will I see during my visit?',
                 answer: (
-                  <p>Every TeleDirectMD visit is conducted by a licensed MD — not a nurse practitioner or physician assistant. Our physicians are licensed to practice medicine in {state.name} and are board-certified.</p>
+                  <p>Every TeleDirectMD visit is conducted by a licensed MD — not a nurse practitioner or physician assistant. Dr. Bhavsar is licensed to practice medicine in {state.name} and are board-certified.</p>
                 ),
               },
               {
@@ -726,7 +728,7 @@ export default function StateLandingPage({ stateSlug }) {
           <p>
             {state.abbr === 'FL'
               ? <>TeleDirectMD&rsquo;s telehealth physician is registered to provide telehealth services in {state.name} under Fla. Stat. § 456.47(4) and operates in compliance with state telehealth regulations. All visits are subject to clinical appropriateness as determined by your treating physician.</>
-              : <>TeleDirectMD physicians are licensed in {state.name} and operate in compliance with state telehealth regulations. All visits are subject to clinical appropriateness as determined by your treating physician.</>
+              : <>Dr. Bhavsar is licensed in {state.name} and operate in compliance with state telehealth regulations. All visits are subject to clinical appropriateness as determined by your treating physician.</>
             }
           </p>
         </div>

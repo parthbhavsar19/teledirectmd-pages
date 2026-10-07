@@ -150,7 +150,7 @@ const FAQS = [
   {
     question: 'Are there conditions where paying for urgent care in person is worth it?',
     answer:
-      'Yes. Any condition that requires a physical examination, imaging, laboratory testing, or procedures should be seen in person. A suspected fracture needs X-ray. Abdominal pain that could indicate appendicitis needs an in-person exam and possibly CT imaging. A rash that requires biopsy cannot be fully evaluated by video. TeleDirectMD physicians will always refer patients to in-person or emergency care when it is the clinically appropriate standard.',
+      'Yes. Any condition that requires a physical examination, imaging, laboratory testing, or procedures should be seen in person. A suspected fracture needs X-ray. Abdominal pain that could indicate appendicitis needs an in-person exam and possibly CT imaging. A rash that requires biopsy cannot be fully evaluated by video. Dr. Bhavsar will always refer patients to in-person or emergency care when it is the clinically appropriate standard.',
   },
   {
     question: 'What is the cheapest way to get a prescription online?',

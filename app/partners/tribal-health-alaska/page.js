@@ -294,7 +294,7 @@ export default function TribalHealthAlaskaPartnership() {
                 sharing, and clear documentation lineage.
               </li>
               <li>
-                <strong>Cultural safety.</strong> Our clinicians work with the region's cultural context, not around it.
+                <strong>Cultural safety.</strong> Dr. Bhavsar works with the region's cultural context, not around it.
                 We are open to protocols, guidance, or training that the corporation determines necessary for its
                 communities.
               </li>
