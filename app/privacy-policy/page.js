@@ -12,10 +12,10 @@ export default function PrivacyPolicy() {
   return (
     <div style={{ maxWidth: 800, margin: '0 auto', padding: '40px 24px 80px' }}>
       <h1 style={{ fontSize: '2rem', fontWeight: 700, color: '#1a1a1a', marginBottom: 8 }}>Privacy Policy and Notice of Privacy Practices</h1>
-      <p style={{ color: '#666', fontSize: '0.95rem', marginBottom: 32 }}>Effective date: January 4, 2026 &middot; Last reviewed: May 23, 2026</p>
+      <p style={{ color: '#666', fontSize: '0.95rem', marginBottom: 32 }}>Effective date: October 7, 2026 &middot; Last reviewed: October 7, 2026</p>
 
       <section style={{ lineHeight: 1.8, color: '#333', fontSize: '1rem' }}>
-        <p>TeleDirectMD is committed to protecting your privacy and safeguarding your personal and health information. This document serves as both TeleDirectMD&apos;s Privacy Policy and its Notice of Privacy Practices as required by the Health Insurance Portability and Accountability Act (HIPAA).</p>
+        <p>TeleDirectMD, a trade name of Mahavir Health Services LLC (&ldquo;TeleDirectMD,&rdquo; &ldquo;we,&rdquo; or &ldquo;us&rdquo;), is committed to protecting your privacy and safeguarding your personal and health information. This document serves as both TeleDirectMD&apos;s Privacy Policy and its Notice of Privacy Practices as required by the Health Insurance Portability and Accountability Act (HIPAA).</p>
 
         <p style={{ background: '#F0F6F7', borderLeft: '4px solid #1a7f7f', padding: '14px 18px', margin: '20px 0', fontSize: '0.98rem' }}>
           <strong>Summary:</strong> This notice explains how medical and personal information about you may be used and disclosed, how you can access this information, and your rights regarding your health information.
@@ -63,7 +63,7 @@ export default function PrivacyPolicy() {
         <p>TeleDirectMD will notify you as required by law if a breach occurs that may have compromised the privacy or security of your protected health information.</p>
 
         <h2 style={s.h2}>8. Website Cookies and Analytics</h2>
-        <p>Our website may use cookies or analytics tools to improve functionality and performance. These tools do not access or store medical records.</p>
+        <p>Our website uses cookies and analytics tools, including Google Analytics and Google Ads conversion measurement, to improve functionality, understand how visitors use the site and measure advertising. These tools do not access or store medical records. They may record which pages you view and whether you click a booking button. Some state laws treat that kind of information as consumer health data; see our <a href="/consumer-health-data-privacy/" style={{ color: '#1a7f7f' }}>Consumer Health Data Privacy Policy</a>.</p>
 
         <h2 style={s.h2}>9. Data Retention</h2>
         <p>We retain information for as long as necessary to provide services, maintain medical records, comply with legal obligations, and resolve disputes.</p>
@@ -74,12 +74,15 @@ export default function PrivacyPolicy() {
         <h2 style={s.h2}>11. Contact Information</h2>
         <p>If you have questions about this notice, your privacy rights, or wish to exercise your rights, contact:</p>
         <p style={{ marginTop: 8 }}>
-          <strong>TeleDirectMD</strong><br />
+          <strong>TeleDirectMD (Mahavir Health Services LLC)</strong><br />
           Phone: <a href="tel:+16789561855" style={{ color: '#1a7f7f' }}>(678) 956-1855</a><br />
           Email: <a href="mailto:contact@teledirectmd.com" style={{ color: '#1a7f7f' }}>contact@teledirectmd.com</a>
         </p>
 
-        <h2 style={s.h2}>12. Complaints</h2>
+        <h2 style={s.h2}>12. State Privacy Rights</h2>
+        <p>Residents of some states have additional rights over health-related information that HIPAA does not cover, such as website browsing data. If you live in Washington, Nevada, Connecticut or California, see our <a href="/consumer-health-data-privacy/" style={{ color: '#1a7f7f' }}>Consumer Health Data Privacy Policy</a> for those rights and how to use them.</p>
+
+        <h2 style={s.h2}>13. Complaints</h2>
         <p>You may file a complaint if you believe your privacy rights have been violated. You will not be retaliated against for filing a complaint. Complaints may be submitted to TeleDirectMD using the contact information above or to the U.S. Department of Health and Human Services.</p>
       </section>
     </div>
