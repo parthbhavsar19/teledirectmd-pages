@@ -59,7 +59,7 @@
       "You are physically located in {state} at the time of the visit",
       "You are planning travel to a malaria-endemic region (sub-Saharan Africa, South or Southeast Asia, Central or South America, the Caribbean, Oceania) and have not yet departed or are in the pre-travel planning phase",
       "You do not have a history of severe psychiatric illness, seizure disorder, or cardiac conduction abnormalities that would preclude mefloquine (relevant if mefloquine is under consideration)",
-      "You are not pregnant and are not breastfeeding a child under 5 kg (doxycycline is contraindicated all trimesters; Malarone is also contraindicated in pregnancy and breastfeeding under 5 kg)",
+      "You are not pregnant and are not breastfeeding a child under 5 kg (doxycycline is contraindicated all trimesters; Malarone is not recommended in pregnancy or when breastfeeding an infant under 5 kg)",
       "You do not have severe renal impairment (atovaquone-proguanil is contraindicated with creatinine clearance below 30 mL/min)",
       "You are not currently experiencing fever, chills, rigors, or sweating consistent with active malaria infection after returning from an endemic region",
       "Insurance is not required. A self pay option is available."
@@ -67,7 +67,7 @@
     "notEligible": [
       "You are under 18 years old",
       "You are currently experiencing fever, chills, sweating, or severe headache after returning from a malaria-endemic region (active malaria — go to an emergency room immediately)",
-      "You are pregnant or may be pregnant (doxycycline is absolutely contraindicated in all trimesters; atovaquone-proguanil is contraindicated in pregnancy; malaria in pregnancy requires in-person travel medicine evaluation)",
+      "You are pregnant or may be pregnant (doxycycline is absolutely contraindicated in all trimesters; atovaquone-proguanil is not recommended in pregnancy (insufficient safety data); malaria in pregnancy requires in-person travel medicine evaluation)",
       "You have severe renal impairment (CrCl < 30 mL/min) — atovaquone-proguanil is contraindicated",
       "You need primaquine or tafenoquine — both require quantitative G6PD enzyme testing before prescribing, which must be performed in person",
       "You have a history of psychosis, bipolar disorder, seizure disorder, or cardiac conduction abnormalities relevant to mefloquine consideration",
@@ -192,7 +192,7 @@
         "type": "check",
         "title": "Are you pregnant, or do you have key contraindications?",
         "items": [
-          "Currently pregnant or may be pregnant (any trimester) — doxycycline is absolutely contraindicated; Malarone is contraindicated in pregnancy; malaria in pregnancy is a serious obstetric complication requiring in-person travel medicine",
+          "Currently pregnant or may be pregnant (any trimester) — doxycycline is absolutely contraindicated; Malarone is not recommended in pregnancy (insufficient safety data); malaria in pregnancy is a serious obstetric complication requiring in-person travel medicine",
           "Severe renal impairment (creatinine clearance below 30 mL/min) — atovaquone-proguanil contraindicated",
           "History of psychosis, schizophrenia, major depression, bipolar disorder, or seizure disorder (relevant to mefloquine; Malarone and doxycycline may still be options)",
           "Need for G6PD-dependent agents (primaquine, tafenoquine) — require in-person G6PD testing"
@@ -457,7 +457,7 @@
         "Atovaquone-Proguanil (Malarone — generic available)",
         "1 adult tablet (250/100 mg) once daily with food or milk",
         "Start 1–2 days before; daily during travel; 7 days after leaving endemic area",
-        "Front-line for most chloroquine-resistant regions including sub-Saharan Africa and SE Asia. Shorter post-travel tail (7 days vs 4 weeks). Contraindicated in pregnancy and CrCl <30 mL/min. Take with food for absorption. Not a controlled substance. Generic is less expensive than brand Malarone."
+        "Front-line for most chloroquine-resistant regions including sub-Saharan Africa and SE Asia. Shorter post-travel tail (7 days vs 4 weeks). Not recommended in pregnancy; contraindicated with CrCl <30 mL/min. Take with food for absorption. Not a controlled substance. Generic is less expensive than brand Malarone."
       ],
       [
         "Doxycycline 100 mg",
@@ -529,7 +529,7 @@
       "items": [
         "You are under 18 years old",
         "You currently have fever, chills, sweats, or rigors after returning from a malaria-endemic region — go to an ER immediately",
-        "You are pregnant or may be pregnant — doxycycline is absolutely contraindicated all trimesters; Malarone is contraindicated in pregnancy; malaria-in-pregnancy requires in-person travel medicine evaluation",
+        "You are pregnant or may be pregnant — doxycycline is absolutely contraindicated all trimesters; Malarone is not recommended in pregnancy (insufficient safety data); malaria-in-pregnancy requires in-person travel medicine evaluation",
         "You need primaquine or tafenoquine — these require in-person quantitative G6PD enzyme testing before prescribing",
         "You require travel vaccines as part of your pre-travel workup — vaccines require in-person administration",
         "You are immunocompromised (HIV, transplant, immunosuppressive therapy) — complex malaria prophylaxis in immunocompromised patients warrants in-person travel medicine",
@@ -568,7 +568,7 @@
       },
       {
         "question": "Doxycycline vs Malarone for malaria — which is better?",
-        "answer": "Neither is universally better — the choice depends on your trip profile and individual factors. Malarone (atovaquone-proguanil) has a shorter post-travel tail (7 days vs 4 weeks for doxycycline), fewer drug interactions, and is preferred for travelers who want less post-travel commitment. It also has causal prophylaxis activity targeting the liver stage. Doxycycline is significantly more cost-effective for longer trips (3+ months), is taken once daily, and provides coverage for additional travel infections like rickettsial diseases and leptospirosis. Doxycycline is absolutely contraindicated in pregnancy (all trimesters) and children under 8. Malarone is contraindicated in pregnancy and severe renal impairment. Photosensitivity is a meaningful doxycycline side effect for beach or safari destinations with high sun exposure. Malarone must be taken with food for optimal absorption. Your TeleDirectMD physician will review your destination, trip duration, budget, and medical history to recommend the most appropriate option for you."
+        "answer": "Neither is universally better — the choice depends on your trip profile and individual factors. Malarone (atovaquone-proguanil) has a shorter post-travel tail (7 days vs 4 weeks for doxycycline), fewer drug interactions, and is preferred for travelers who want less post-travel commitment. It also has causal prophylaxis activity targeting the liver stage. Doxycycline is significantly more cost-effective for longer trips (3+ months), is taken once daily, and provides coverage for additional travel infections like rickettsial diseases and leptospirosis. Doxycycline is absolutely contraindicated in pregnancy (all trimesters) and children under 8. Malarone is not recommended in pregnancy (insufficient safety data) and is contraindicated in severe renal impairment. Photosensitivity is a meaningful doxycycline side effect for beach or safari destinations with high sun exposure. Malarone must be taken with food for optimal absorption. Your TeleDirectMD physician will review your destination, trip duration, budget, and medical history to recommend the most appropriate option for you."
       },
       {
         "question": "Which malaria pill should I take for Africa?",
