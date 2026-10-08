@@ -548,7 +548,7 @@ export default function CaSinusInfectionTreatmentOnline() {
                     <td><strong>Doxycycline 100 mg</strong></td>
                     <td>100 mg twice daily × 5–7 days</td>
                     <td><a href="https://www.goodrx.com/doxycycline-hyclate" target="_blank" rel="noopener">~$12–$18 with GoodRx</a></td>
-                    <td>Alternative when penicillin allergy present. Good gram-positive and atypical coverage. Take with food; avoid in pregnancy and children &lt;8.</td>
+                    <td>Alternative when penicillin allergy present. Good gram-positive coverage. Take with food; avoid in pregnancy and children &lt;8.</td>
                   </tr>
                   <tr>
                     <td><strong>Fluticasone nasal spray (Rx/OTC)</strong></td>
