@@ -82,7 +82,7 @@ const FAQ_ITEMS = [
   {
     id: 'hyperlipidemia-refills-online-faq-4',
     question: "What does my 10-year ASCVD risk score mean for statin therapy?",
-    answer: <p>The 10-year atherosclerotic cardiovascular disease (ASCVD) risk score estimates your probability of a heart attack or stroke in the next decade, calculated using age, sex, race/ethnicity, total cholesterol, HDL, systolic blood pressure, BP treatment status, diabetes, and smoking history. Per ACC/AHA 2018 guidelines: ≥20% risk = very high-risk (high-intensity statin strongly recommended); 7.5–19.9% = intermediate-risk (statin benefit discussion recommended); 5–7.4% = borderline (risk-enhancing factors may justify statin); &lt;5% = low-risk (focus on lifestyle). The physician calculates your ASCVD risk score at each visit.</p>,
+    answer: <p>The 10-year atherosclerotic cardiovascular disease (ASCVD) risk score estimates your probability of a heart attack or stroke in the next decade, calculated using age, sex, race/ethnicity, total cholesterol, HDL, systolic blood pressure, BP treatment status, diabetes, and smoking history. Per ACC/AHA 2018 guidelines: ≥20% risk = high-risk (high-intensity statin strongly recommended); 7.5–19.9% = intermediate-risk (statin benefit discussion recommended); 5–7.4% = borderline (risk-enhancing factors may justify statin); &lt;5% = low-risk (focus on lifestyle). The physician calculates your ASCVD risk score at each visit.</p>,
   },
   {
     id: 'hyperlipidemia-refills-online-faq-5',
@@ -366,7 +366,7 @@ export default function CaHyperlipidemiaRefillsOnline() {
             <h2>California Epidemiology: Hyperlipidemia Refills</h2>
             <p>High cholesterol (LDL-C ≥130 mg/dL or total cholesterol ≥240 mg/dL) affects approximately 29% of California adults — about 9 million people — per CHIS 2022 data and CDPH chronic disease surveillance. Statin use in California is approximately 23% of adults over 45, reflecting both high disease burden and treatment gaps.</p>
             
-            <p>South Asian Californians have elevated ASCVD risk at lower BMI thresholds; Filipino Californians have higher rates of metabolic syndrome contributing to dyslipidemia. The ACC/AHA 2018 guideline identifies these populations as risk-enhancing factors warranting earlier statin initiation.</p>
+            <p>South Asian Californians have elevated ASCVD risk at lower BMI thresholds; Filipino Californians have higher rates of metabolic syndrome contributing to dyslipidemia. The ACC/AHA 2018 guideline lists South Asian ancestry and metabolic syndrome as risk-enhancing factors that favor statin initiation.</p>
             
             
             
@@ -639,9 +639,9 @@ export default function CaHyperlipidemiaRefillsOnline() {
               <li><a href="https://www.dhcs.ca.gov/provgovpart/Pages/TelehealthFAQ.aspx" rel="noopener" target="_blank">California DHCS — Telehealth FAQ</a>. Retrieved May 2026.</li>
               <li><a href="https://www.mbc.ca.gov/News/" rel="noopener" target="_blank">Medical Board of California — AB 2789 Electronic Prescribing</a>. Retrieved May 2026.</li>
               <li><a href="https://www.jacc.org/doi/10.1016/j.jacc.2018.11.003" rel="noopener" target="_blank">ACC/AHA 2018 Guideline on the Management of Blood Cholesterol — JACC</a>. Retrieved May 2026.</li>
-              <li><a href="https://www.acc.org/latest-in-cardiology/articles/2022/11/17/13/47/2022-acc-expert-consensus-decision-pathway-on-nonstatin-therapies-for-ldl-c-lowering" rel="noopener" target="_blank">2022 ACC Expert Consensus Decision Pathway on Non-Statin Therapies for LDL-C Lowering</a>. Retrieved May 2026.</li>
-              <li><a href="https://www.cdph.ca.gov/Programs/CCDPHP/DCDIC/CVEHB/Pages/HeartDiseaseandStrokePrevention.aspx" rel="noopener" target="_blank">CDPH Heart Disease and Stroke Prevention Program</a>. Retrieved May 2026.</li>
-              <li><a href="https://healthpolicy.ucla.edu/our-work/california-health-interview-survey-chis/chis-data" rel="noopener" target="_blank">California Health Interview Survey (CHIS) 2022 — Cardiovascular Risk Factors</a>. Retrieved May 2026.</li>
+              <li><a href="https://www.acc.org/Latest-in-Cardiology/ten-points-to-remember/2022/08/25/13/13/2022-ACC-ECDP-on-Nonstatin" rel="noopener" target="_blank">2022 ACC Expert Consensus Decision Pathway on Non-Statin Therapies for LDL-C Lowering</a>. Retrieved May 2026.</li>
+              <li><a href="https://www.cdph.ca.gov/Programs/CCDPHP/DCDIC/CDCB/Pages/CDPP.aspx" rel="noopener" target="_blank">CDPH Cardiovascular Disease Prevention Program</a>. Retrieved May 2026.</li>
+              <li><a href="https://healthpolicy.ucla.edu/our-work/california-health-interview-survey-chis" rel="noopener" target="_blank">California Health Interview Survey (CHIS) 2022 — Cardiovascular Risk Factors</a>. Retrieved May 2026.</li>
               <li><a href="https://www.jacc.org/doi/10.1016/j.jacc.2018.11.003" rel="noopener" target="_blank">ACC/AHA 2018 Cholesterol Guideline</a>. Retrieved May 2026.</li>
             </ol>
           </div>

@@ -85,7 +85,7 @@
     "cash_price": 79
   },
   "california_epidemiology": {
-    "narrative": "Atopic dermatitis affects approximately 16.5 million adults in the United States, according to the <a href='https://www.aad.org/public/diseases/eczema/types/atopic-dermatitis' rel='noopener' target='_blank'>American Academy of Dermatology</a>. <a href='https://places.cdc.gov/profiles/county' rel='noopener' target='_blank'>CDC PLACES county-level data</a> for California counties shows atopic dermatitis prevalence ranging from 7–12% in adults. California wildfire smoke events and urban particulate matter are documented eczema triggers — the <a href='https://www.cdph.ca.gov/Programs/CCDPHP/DEODC/OHB/Pages/OHWMHome.aspx' rel='noopener' target='_blank'>CDPH Office of Health Hazard Assessment</a> links environmental exposures to increased skin condition flares. AAAAI data confirms atopic comorbidities (asthma, allergic rhinitis) are common in California's atopic population, with the Central Valley's high pollen counts and dust mite sensitization rates further burdening atopic patients."
+    "narrative": "Atopic dermatitis affects approximately 16.5 million adults in the United States, according to the <a href='https://www.aad.org/public/diseases/eczema/types/atopic-dermatitis' rel='noopener' target='_blank'>American Academy of Dermatology</a>. California wildfire smoke events and urban particulate matter are documented eczema triggers. AAAAI data confirms atopic comorbidities (asthma, allergic rhinitis) are common in California's atopic population, with the Central Valley's high pollen counts and dust mite sensitization rates further burdening atopic patients."
   },
   "medications": [
     {
@@ -180,7 +180,7 @@
     },
     {
       "q": "How common is eczema in California?",
-      "a": "Atopic dermatitis affects approximately 16.5 million adults in the United States per AAD data. CDC PLACES county-level data shows California county prevalence of 7–12% in adults. California wildfire smoke events and urban air pollution are documented eczema triggers. Atopic dermatitis is often comorbid with asthma and allergic rhinitis, both prevalent in California's Central Valley and coastal areas."
+      "a": "Atopic dermatitis affects approximately 16.5 million adults in the United States per AAD data. California wildfire smoke events and urban air pollution are documented eczema triggers. Atopic dermatitis is often comorbid with asthma and allergic rhinitis, both prevalent in California's Central Valley and coastal areas."
     },
     {
       "q": "What eczema medications can a California telehealth doctor prescribe?",
@@ -208,7 +208,7 @@
     },
     {
       "q": "Can wildfire smoke trigger eczema flares in California?",
-      "a": "Yes. California wildfire season produces fine particulate matter (PM2.5) that penetrates skin and triggers inflammatory responses in atopic individuals. CDPH Office of Health Hazard Assessment documents the relationship between wildfire smoke and skin condition exacerbations. During wildfire alerts, eczema patients should apply barrier moisturizers frequently and use HEPA air filtration indoors."
+      "a": "Yes. California wildfire season produces fine particulate matter (PM2.5) that penetrates skin and triggers inflammatory responses in atopic individuals. During wildfire alerts, eczema patients should apply barrier moisturizers frequently and use HEPA air filtration indoors."
     },
     {
       "q": "Are tacrolimus and pimecrolimus safe for eczema?",
@@ -229,12 +229,8 @@
       "url": "https://www.aad.org/member/clinical-quality/guidelines/atopic-dermatitis"
     },
     {
-      "name": "AAAAI — Atopic Dermatitis",
-      "url": "https://www.aaaai.org/Conditions-Treatments/Conditions-Dictionary/Atopic-Dermatitis"
-    },
-    {
-      "name": "CDC PLACES — County Health Data",
-      "url": "https://places.cdc.gov/profiles/county"
+      "name": "AAAAI: Eczema (Atopic Dermatitis) Overview",
+      "url": "https://www.aaaai.org/Tools-for-the-Public/Conditions-Library/Allergies/Eczema-(Atopic-Dermatitis)-Overview"
     },
     {
       "name": "California B&P Code §2290.5",
@@ -247,10 +243,6 @@
     {
       "name": "California Insurance Code §10123.85 (AB 744)",
       "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=10123.85.&lawCode=INS"
-    },
-    {
-      "name": "CDPH — Office of Health Hazard Assessment",
-      "url": "https://www.cdph.ca.gov/Programs/CCDPHP/DEODC/OHB/Pages/OHWMHome.aspx"
     },
     {
       "name": "GoodRx — Triamcinolone Topical",

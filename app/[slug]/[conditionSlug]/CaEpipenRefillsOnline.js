@@ -417,7 +417,7 @@ export default function CaEpipenRefillsOnline() {
           <div className="tdmd-container">
             <h2>How Common Is EpiPen Refills in California?</h2>
             <p>
-              Anaphylaxis accounts for approximately 30,000 emergency department visits and 1,500 deaths annually in the United States per CDC and AAAAI data. California's diverse food culture — including heavy use of shellfish, peanuts, tree nuts, and sesame in Asian, Mexican, and Middle Eastern cuisines — creates significant food anaphylaxis exposure. The California Department of Public Health (CDPH) tracks anaphylaxis-related ER visits, which have increased approximately 3% annually over the past decade. California AB 1780 (2021) requires commercial health plans to cover prescribed epinephrine auto-injectors without step therapy requirements for documented anaphylaxis. — <a href="https://www.cdc.gov/niosh/topics/animalsafetyandhealth/anaphylaxis.html" rel="noopener" target="_blank">CDC — Anaphylaxis and Severe Allergic Reactions</a>.
+              Anaphylaxis accounts for approximately 30,000 emergency department visits and 1,500 deaths annually in the United States per CDC and AAAAI data. California's diverse food culture — including heavy use of shellfish, peanuts, tree nuts, and sesame in Asian, Mexican, and Middle Eastern cuisines — creates significant food anaphylaxis exposure. The California Department of Public Health (CDPH) tracks anaphylaxis-related ER visits, which have increased approximately 3% annually over the past decade. California AB 1780 (2021) requires commercial health plans to cover prescribed epinephrine auto-injectors without step therapy requirements for documented anaphylaxis.
             </p>
             <p>
               Clinical guidance for anaphylaxis — epinephrine auto-injector (epipen) refills is provided by <a href="https://www.aaaai.org/tools-for-the-public/conditions-library/allergies/anaphylaxis" rel="noopener" target="_blank">AAAAI</a> through the AAAAI/ACAAI Joint Task Force Anaphylaxis Practice Parameters 2023 Update. TeleDirectMD follows these guidelines on every patient visit.
@@ -688,7 +688,6 @@ export default function CaEpipenRefillsOnline() {
               <li><a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=10123.85.&lawCode=INS" rel="noopener" target="_blank">California Insurance Code §10123.85 — Telehealth Parity (AB 744)</a></li>
               <li><a href="https://www.aaaai.org/tools-for-the-public/conditions-library/allergies/anaphylaxis" rel="noopener" target="_blank">AAAAI — Anaphylaxis Practice Parameters 2023</a></li>
               <li><a href="https://acaai.org/allergies/anaphylaxis/" rel="noopener" target="_blank">ACAAI — Anaphylaxis Overview</a></li>
-              <li><a href="https://www.cdc.gov/niosh/topics/animalsafetyandhealth/anaphylaxis.html" rel="noopener" target="_blank">CDC — Anaphylaxis and Severe Allergic Reactions</a></li>
               <li><a href="https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202120220AB1780" rel="noopener" target="_blank">California AB 1780 (2021) — Epinephrine Auto-Injector Coverage</a></li>
               <li><a href="https://www.dhcs.ca.gov/provgovpart/Pages/Telehealth.aspx" rel="noopener" target="_blank">California DHCS — Telehealth FAQ</a></li>
             </ol>

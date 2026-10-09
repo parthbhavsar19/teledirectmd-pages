@@ -366,7 +366,7 @@ export default function UtiAntibioticsPage({ price = '79' }) {
               <a href="https://www.webmd.com/a-to-z-guides/what-are-antibiotics-for-uti" rel="nofollow noopener">WebMD — Antibiotics for UTI</a>;{' '}
               <a href="https://www.goodrx.com/conditions/urinary-tract-infection/drugs" rel="nofollow noopener">GoodRx — UTI antibiotic prices (2026)</a>;{' '}
               <a href="https://blog.walgreens.com/health/general-health/how-do-you-get-rid-of-a-uti.html" rel="nofollow noopener">Walgreens</a>;{' '}
-              <a href="https://www.idsociety.org/practice-guideline/urinary-tract-infection-uti/" rel="nofollow noopener">IDSA — Uncomplicated UTI guideline</a>;{' '}
+              <a href="https://www.idsociety.org/practice-guideline/uncomplicated-cystitis-and-pyelonephritis-uti/" rel="nofollow noopener">IDSA — Uncomplicated UTI guideline</a>;{' '}
               <a href="https://www.talktomira.com/post/how-much-does-urgent-care-cost-without-insurance" rel="nofollow noopener">Mira Health (2025)</a>.<br />
               Medically reviewed by <a href="/about/">Parth Bhavsar, MD</a> — Board-Certified Family Medicine · NPI 1104323203 · LegitScript Certified · HIPAA-Compliant. Updated July 2026. AZO and other OTC products only relieve symptoms; they do not cure the infection.
             </p>

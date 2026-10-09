@@ -11,7 +11,7 @@
  * + HowTo + BreadcrumbList + SpeakableSpecification — NEVER QAPage).
  *
  * Authority: AAD
- * Guideline: FDA-Approved Prescribing Information for Bimatoprost 0.03% (Latisse) + AAD Eyelash Alopecia Guidelines
+ * Guideline: FDA-Approved Prescribing Information for Bimatoprost 0.03% (Latisse) + AAD hair loss patient resources (AAD has no eyelash alopecia guideline)
  *
  * Hard rules respected:
  *   • No QAPage schema — FAQPage only.
@@ -242,7 +242,7 @@ export default function CaEyelashGrowthTreatmentOnline() {
               <div className="tdmd-hero-copy">
                 <h1 data-speakable="true">Eyelash Growth Treatment Online in California</h1>
                 <p className="tdmd-hero-sub" data-speakable="true">
-                  California adult care by secure video visit. Self pay $79 · Aetna in-network · UHC Commercial approved · FDA-approved bimatoprost (Latisse) + AAD eyelash alopecia guidelines · CA B&P §2290.5 compliant.
+                  California adult care by secure video visit. Self pay $79 · Aetna in-network · UHC Commercial approved · FDA-approved bimatoprost (Latisse) labeling · CA B&P §2290.5 compliant.
                 </p>
                 <p>
                   Eyelash Growth Treatment is a condition commonly evaluated and, when appropriate, treated via telehealth. TeleDirectMD uses a safety-first approach, screening for red-flag symptoms that require in-person or emergency care before determining whether treatment by video visit is appropriate. This page is for adults located in California, including Los Angeles, San Diego, San Jose, San Francisco, Fresno, Sacramento, Long Beach, Oakland, Bakersfield, Anaheim, and surrounding areas.
@@ -304,7 +304,7 @@ export default function CaEyelashGrowthTreatmentOnline() {
                   <ul>
                     <li>Fast evaluation for eyelash hypotrichosis — bimatoprost (latisse) treatment symptoms</li>
                     <li>Red-flag screening for serious complications requiring in-person care</li>
-                    <li>Guideline-based treatment per AAD</li>
+                    <li>Treatment per FDA-approved Latisse labeling</li>
                     <li>e-Prescriptions to your CA pharmacy under AB 2789</li>
                     <li>Clear follow-up steps and prevention guidance</li>
                   </ul>
@@ -420,7 +420,7 @@ export default function CaEyelashGrowthTreatmentOnline() {
               Bimatoprost 0.03% (Latisse) received FDA approval in 2008 for hypotrichosis of the eyelashes — the only FDA-approved prescription eyelash growth product — based on the HAIR study demonstrating statistically significant increases in eyelash length, thickness, and darkness versus vehicle at 16 weeks. California's cosmetically focused market (Los Angeles, San Francisco, San Diego) drives demand for physician-prescribed cosmetic treatments. Secondary eyelash loss from hypothyroidism, alopecia areata, and chemotherapy is clinically significant and requires evaluation before cosmetic prescribing. — <a href="https://www.accessdata.fda.gov/drugsatfda_docs/label/2008/022369lbl.pdf" rel="noopener" target="_blank">FDA — Latisse (Bimatoprost 0.03%) Approval and Drug Label</a>.
             </p>
             <p>
-              Clinical guidance for eyelash hypotrichosis — bimatoprost (latisse) treatment is provided by <a href="https://www.aad.org/public/diseases/hair-loss/types/alopecia" rel="noopener" target="_blank">AAD</a> through the FDA-Approved Prescribing Information for Bimatoprost 0.03% (Latisse) + AAD Eyelash Alopecia Guidelines. TeleDirectMD follows these guidelines on every patient visit.
+              Clinical guidance for eyelash hypotrichosis — bimatoprost (latisse) treatment is provided by <a href="https://www.aad.org/public/diseases/hair-loss/types/alopecia" rel="noopener" target="_blank">AAD</a> through the FDA-Approved Prescribing Information for Bimatoprost 0.03% (Latisse) and AAD hair loss resources. TeleDirectMD follows this guidance on every patient visit.
             </p>
             <h3>What causes eyelash growth treatment and who is most at risk in California?</h3>
             <p>

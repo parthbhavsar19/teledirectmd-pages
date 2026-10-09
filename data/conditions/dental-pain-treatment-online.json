@@ -422,7 +422,7 @@
   },
   "medications": {
     "sectionTitle": "Common Medication Options",
-    "intro": "These are common examples for interim dental pain management. The actual medication, dose, and duration are determined by the MD after reviewing your symptoms, allergies, medical history, and red flags. Per ADA 2019 guidelines, the ibuprofen plus acetaminophen combination is first-line for dental pain, and antibiotics are prescribed only when systemic signs of infection are present.",
+    "intro": "These are common examples for interim dental pain management. The actual medication, dose, and duration are determined by the MD after reviewing your symptoms, allergies, medical history, and red flags. Per ADA guidelines (2024 acute dental pain; 2019 antibiotic use), the ibuprofen plus acetaminophen combination is first-line for dental pain, and antibiotics are prescribed only when systemic signs of infection are present.",
     "headers": [
       "Medication",
       "Typical dose",
@@ -618,20 +618,12 @@
       "url": "https://jada.ada.org/article/S0002-8177(19)30467-X/fulltext"
     },
     {
-      "text": "ADA Guideline on Dental Pain Management: NSAIDs and Non-Opioid Analgesics (JADA, 2020)",
-      "url": "https://jada.ada.org/article/S0002-8177(20)30189-4/fulltext"
+      "text": "ADA Clinical Practice Guideline for the Pharmacologic Management of Acute Dental Pain in Adolescents, Adults, and Older Adults (Carrasco-Labra et al., JADA, 2024)",
+      "url": "https://doi.org/10.1016/j.adaj.2023.10.009"
     },
     {
-      "text": "Management of Acute Dental Pain, StatPearls (2025)",
-      "url": "https://www.ncbi.nlm.nih.gov/books/NBK551531/"
-    },
-    {
-      "text": "Dental Abscess, StatPearls (2025)",
-      "url": "https://www.ncbi.nlm.nih.gov/books/NBK493149/"
-    },
-    {
-      "text": "CDC Antibiotic Prescribing in Dentistry — Outpatient Stewardship",
-      "url": "https://www.cdc.gov/antibiotic-use/dentistry.html"
+      "text": "CDC Antibiotic Stewardship Strategies: Outpatient Dental Settings",
+      "url": "https://www.cdc.gov/antibiotic-use/media/pdfs/Core-Elements-Outpatient-Dental-508.pdf"
     }
   ],
   "disclaimer": {
@@ -806,14 +798,14 @@
         "id": "ada-antibiotics"
       },
       {
-        "name": "ADA Guideline on Dental Pain Management with NSAIDs and Non-Opioid Analgesics",
-        "url": "https://jada.ada.org/article/S0002-8177(20)30189-4/fulltext",
+        "name": "ADA Clinical Practice Guideline for the Pharmacologic Management of Acute Dental Pain (2024)",
+        "url": "https://doi.org/10.1016/j.adaj.2023.10.009",
         "publisher": "American Dental Association",
         "id": "ada-pain"
       },
       {
-        "name": "CDC Antibiotic Prescribing in Dentistry",
-        "url": "https://www.cdc.gov/antibiotic-use/dentistry.html",
+        "name": "CDC Antibiotic Stewardship Strategies: Outpatient Dental Settings",
+        "url": "https://www.cdc.gov/antibiotic-use/media/pdfs/Core-Elements-Outpatient-Dental-508.pdf",
         "publisher": "Centers for Disease Control and Prevention",
         "id": "cdc-dental"
       }

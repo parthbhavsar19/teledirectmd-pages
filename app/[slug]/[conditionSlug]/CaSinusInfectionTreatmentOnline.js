@@ -11,7 +11,7 @@
  * + HowTo + BreadcrumbList + SpeakableSpecification — NEVER QAPage).
  *
  * Authority: American Academy of Otolaryngology – Head and Neck Surgery (AAO-HNS) and IDSA
- * Guideline: AAO-HNS Adult Sinusitis Clinical Practice Guideline (2023 Update) and IDSA Bacterial Rhinosinusitis Guideline
+ * Guideline: AAO-HNS Adult Sinusitis Clinical Practice Guideline (2025 Update) and IDSA Bacterial Rhinosinusitis Guideline
  *
  * Hard rules respected:
  *   • No QAPage schema — FAQPage only.
@@ -418,10 +418,10 @@ export default function CaSinusInfectionTreatmentOnline() {
           <div className="tdmd-container">
             <h2>How Common Is Sinus Infection (Sinusitis) in California?</h2>
             <p>
-              Sinusitis (rhinosinusitis) is one of the most common reasons adults seek medical care in the United States, with approximately 29 million adults diagnosed annually per CDC NHIS data. Applying national rates to California's population of approximately 39 million, an estimated 3–4 million Californians experience acute sinusitis each year. The California Department of Public Health notes that sinusitis is among the top 5 diagnoses leading to antibiotic prescriptions in California outpatient settings. — <a href="https://www.cdc.gov/nchs/fastats/sinusitis.htm" rel="noopener" target="_blank">CDC — Sinusitis (NCHS FastStats)</a>.
+              Sinusitis (rhinosinusitis) is one of the most common reasons adults seek medical care in the United States, and in CDC National Health Interview Survey data, 15.0% of women and 8.8% of men reported being told they had sinusitis in the past 12 months. Applying national rates to California's population of approximately 39 million, an estimated 3–4 million Californians experience acute sinusitis each year. — <a href="https://www.cdc.gov/mmwr/volumes/68/wr/mm6815a7.htm" rel="noopener" target="_blank">CDC MMWR QuickStats: Adults Told They Had Sinusitis in the Past 12 Months (NHIS 2017)</a>.
             </p>
             <p>
-              Clinical guidance for sinus infection treatment is provided by <a href="https://www.entnet.org/quality-practice/quality-and-performance/clinical-practice-guidelines/sinusitis/" rel="noopener" target="_blank">American Academy of Otolaryngology – Head and Neck Surgery (AAO-HNS) and IDSA</a> through the AAO-HNS Adult Sinusitis Clinical Practice Guideline (2023 Update) and IDSA Bacterial Rhinosinusitis Guideline. TeleDirectMD follows these guidelines on every patient visit.
+              Clinical guidance for sinus infection treatment is provided by <a href="https://pubmed.ncbi.nlm.nih.gov/25832968/" rel="noopener" target="_blank">American Academy of Otolaryngology – Head and Neck Surgery (AAO-HNS) and IDSA</a> through the AAO-HNS Adult Sinusitis Clinical Practice Guideline (2025 Update) and IDSA Bacterial Rhinosinusitis Guideline. TeleDirectMD follows these guidelines on every patient visit.
             </p>
             <h3>What causes sinus infection (sinusitis) and who is most at risk in California?</h3>
             <p>
@@ -516,7 +516,7 @@ export default function CaSinusInfectionTreatmentOnline() {
           <div className="tdmd-container">
             <h2>Sinus Infection Treatment Medication Options and Costs in California</h2>
             <p>
-              Medications for sinus infection treatment are selected based on current guidelines from <a href="https://www.entnet.org/quality-practice/quality-and-performance/clinical-practice-guidelines/sinusitis/" rel="noopener" target="_blank">American Academy of Otolaryngology – Head and Neck Surgery (AAO-HNS) and IDSA</a>, patient history, allergies, and relevant contraindications assessed at the visit. GoodRx-verified pricing is shown below.
+              Medications for sinus infection treatment are selected based on current guidelines from <a href="https://pubmed.ncbi.nlm.nih.gov/25832968/" rel="noopener" target="_blank">American Academy of Otolaryngology – Head and Neck Surgery (AAO-HNS) and IDSA</a>, patient history, allergies, and relevant contraindications assessed at the visit. GoodRx-verified pricing is shown below.
             </p>
             <div className="tdmd-table-wrap">
               <table className="tdmd-table" aria-label="Sinus Infection Treatment medication options and GoodRx prices">
@@ -695,8 +695,8 @@ export default function CaSinusInfectionTreatmentOnline() {
               <li><a href="https://www.mbc.ca.gov/Resources/Medical-Resources/telehealth.aspx" rel="noopener" target="_blank">Medical Board of California — Telehealth Resources. Retrieved May 2026.</a></li>
               <li><a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=10123.85.&lawCode=INS" rel="noopener" target="_blank">California Insurance Code §10123.85 — Telehealth Parity (AB 744). Retrieved May 2026.</a></li>
               <li><a href="https://www.dhcs.ca.gov/provgovpart/Pages/TelehealthFAQ.aspx" rel="noopener" target="_blank">California DHCS — Telehealth FAQ. Retrieved May 2026.</a></li>
-              <li><a href="https://www.cdc.gov/nchs/fastats/sinusitis.htm" rel="noopener" target="_blank">CDC — Sinusitis (NCHS FastStats). Retrieved May 2026.</a></li>
-              <li><a href="https://www.entnet.org/quality-practice/quality-and-performance/clinical-practice-guidelines/sinusitis/" rel="noopener" target="_blank">AAO-HNS — Adult Sinusitis Clinical Practice Guideline. Retrieved May 2026.</a></li>
+              <li><a href="https://www.cdc.gov/mmwr/volumes/68/wr/mm6815a7.htm" rel="noopener" target="_blank">CDC MMWR QuickStats: Adults Told They Had Sinusitis in the Past 12 Months, NHIS 2017. MMWR 2019;68(15). Retrieved October 2026.</a></li>
+              <li><a href="https://pubmed.ncbi.nlm.nih.gov/25832968/" rel="noopener" target="_blank">Rosenfeld RM, Piccirillo JF, Chandrasekhar SS, et al. Clinical practice guideline (update): adult sinusitis. Otolaryngol Head Neck Surg. 2015;152(2 Suppl):S1-S39.</a></li>
               <li><a href="https://www.idsociety.org/practice-guideline/rhinosinusitis/" rel="noopener" target="_blank">IDSA — Bacterial Rhinosinusitis Clinical Practice Guideline. Retrieved May 2026.</a></li>
               <li><a href="https://www.cdph.ca.gov/Programs/CHCQ/HAI/Pages/AntimicrobialStewardshipLandingPage.aspx" rel="noopener" target="_blank">CDPH — Antimicrobial Stewardship Program. Retrieved May 2026.</a></li>
               <li><a href="https://www.mbc.ca.gov/News/" rel="noopener" target="_blank">Medical Board of California — Electronic Prescribing (AB 2789). Retrieved May 2026.</a></li>

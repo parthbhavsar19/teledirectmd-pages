@@ -140,7 +140,6 @@ const jsonLd = {
         'https://www.zocdoc.com/practice/teledirectmd-98837',
         'https://www.healthgrades.com/group-directory/ga-georgia/lawrenceville/teledirectmd-ooop5jn',
         'https://www.instagram.com/teledirectmd/',
-        'https://www.webmd.com/provider/parth-bhavsar/overview',
       ],
     },
     {

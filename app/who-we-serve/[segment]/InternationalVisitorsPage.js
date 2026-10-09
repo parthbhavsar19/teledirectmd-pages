@@ -1184,12 +1184,12 @@ export default function InternationalVisitorsPage() {
               </a>
             </li>
             <li>
-              <a href="https://www.cms.gov/medicare/telehealth" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.cms.gov/medicare/coverage/telehealth" target="_blank" rel="noopener noreferrer">
                 Centers for Medicare &amp; Medicaid Services — Telehealth Policy
               </a>
             </li>
             <li>
-              <a href="https://www.cdc.gov/ncezid/dfwed/edlb/travelers-diarrhea.html" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.cdc.gov/yellow-book/hcp/preparing-international-travelers/travelers-diarrhea.html" target="_blank" rel="noopener noreferrer">
                 CDC — Traveler's Diarrhea
               </a>
             </li>

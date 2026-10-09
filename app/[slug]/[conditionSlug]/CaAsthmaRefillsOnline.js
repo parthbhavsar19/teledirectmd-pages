@@ -638,11 +638,11 @@ export default function CaAsthmaRefillsOnline() {
               <li><a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=10123.85.&lawCode=INS" rel="noopener" target="_blank">California Insurance Code §10123.85 — Telehealth Parity (AB 744)</a>. Retrieved May 2026.</li>
               <li><a href="https://www.dhcs.ca.gov/provgovpart/Pages/TelehealthFAQ.aspx" rel="noopener" target="_blank">California DHCS — Telehealth FAQ</a>. Retrieved May 2026.</li>
               <li><a href="https://www.mbc.ca.gov/News/" rel="noopener" target="_blank">Medical Board of California — AB 2789 Electronic Prescribing</a>. Retrieved May 2026.</li>
-              <li><a href="https://ginasthma.org/2024-gina-main-report/" rel="noopener" target="_blank">GINA 2024 Main Report — Global Strategy for Asthma Management and Prevention</a>. Retrieved May 2026.</li>
+              <li><a href="https://ginasthma.org/archived-reports/" rel="noopener" target="_blank">GINA 2024 Main Report — Global Strategy for Asthma Management and Prevention</a>. Retrieved May 2026.</li>
               <li><a href="https://www.nhlbi.nih.gov/health-topics/guidelines-for-diagnosis-management-of-asthma" rel="noopener" target="_blank">NAEPP Expert Panel Report 3 (EPR-3) — Guidelines for the Diagnosis and Management of Asthma</a>. Retrieved May 2026.</li>
-              <li><a href="https://healthpolicy.ucla.edu/our-work/california-health-interview-survey-chis/chis-data" rel="noopener" target="_blank">California Health Interview Survey (CHIS) 2023 — Asthma</a>. Retrieved May 2026.</li>
-              <li><a href="https://www.arb.ca.gov/research/resnotes/notes/2021-01.htm" rel="noopener" target="_blank">California Air Resources Board (CARB) — Wildfire Smoke and Air Quality</a>. Retrieved May 2026.</li>
-              <li><a href="https://www.cdph.ca.gov/Programs/OHE/Pages/NR23-005.aspx" rel="noopener" target="_blank">CDPH — Air Quality and Health</a>. Retrieved May 2026.</li>
+              <li><a href="https://healthpolicy.ucla.edu/our-work/california-health-interview-survey-chis" rel="noopener" target="_blank">California Health Interview Survey (CHIS) 2023 — Asthma</a>. Retrieved May 2026.</li>
+              <li><a href="https://ww2.arb.ca.gov/news/california-battles-wildfires-officials-outline-how-protect-yourself-and-your-family-damaging" rel="noopener" target="_blank">California Air Resources Board (CARB) — Wildfire Smoke and Air Quality</a>. Retrieved May 2026.</li>
+              <li><a href="https://www.cdph.ca.gov/Programs/CCDPHP/DEODC/EHIB/Pages/ClimateChangeSmoke.aspx" rel="noopener" target="_blank">CDPH: Climate Change, Fires and Smoke</a>. Retrieved May 2026.</li>
             </ol>
           </div>
         </section>

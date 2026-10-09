@@ -2,7 +2,7 @@
  * CaSeasonalAllergiesTreatmentOnline.js — California × Seasonal Allergies Treatment condition page (v3)
  *
  * URL: /ca/seasonal-allergies-treatment-online/
- * Authority: AAAAI/ACAAI + ARIA-EAACI 2026
+ * Authority: AAAAI/ACAAI + ARIA-EAACI 2024-2025
  * Rendered by app/[slug]/[conditionSlug]/page.js when slug === 'ca'
  * and conditionSlug === 'seasonal-allergies-treatment-online'.
  *
@@ -71,8 +71,8 @@ const FAQ_ITEMS = [
   },
   {
     id: 'seasonal-allergies-treatment-online-faq-2',
-    question: "What is the first-line treatment for seasonal allergies per ARIA 2026?",
-    answer: <p>The ARIA 2026 (Allergic Rhinitis and Its Impact on Asthma) updated guideline and AAAAI/ACAAI practice parameters establish intranasal corticosteroids (INCS) as the most effective first-line treatment for persistent or moderate-severe allergic rhinitis. INCS — including fluticasone propionate (Flonase), mometasone (Nasonex), and budesonide (Rhinocort) — reduce nasal congestion, rhinorrhea, sneezing, and nasal pruritus more effectively than oral antihistamines alone. For mild intermittent symptoms, second-generation antihistamines (cetirizine, fexofenadine, loratadine) are appropriate as monotherapy.</p>,
+    question: "What is the first-line treatment for seasonal allergies per ARIA-EAACI 2024-2025?",
+    answer: <p>The ARIA-EAACI 2024-2025 (Allergic Rhinitis and Its Impact on Asthma) updated guideline and AAAAI/ACAAI practice parameters establish intranasal corticosteroids (INCS) as the most effective first-line treatment for persistent or moderate-severe allergic rhinitis. INCS — including fluticasone propionate (Flonase), mometasone (Nasonex), and budesonide (Rhinocort) — reduce nasal congestion, rhinorrhea, sneezing, and nasal pruritus more effectively than oral antihistamines alone. For mild intermittent symptoms, second-generation antihistamines (cetirizine, fexofenadine, loratadine) are appropriate as monotherapy.</p>,
   },
   {
     id: 'seasonal-allergies-treatment-online-faq-3',
@@ -135,7 +135,7 @@ function buildSchemas() {
     '@type': 'MedicalWebPage',
     name: PAGE_TITLE,
     url: PAGE_URL,
-    description: 'Get seasonal allergy treatment online in California. Board-certified Family Medicine MD. CA telehealth law compliant. Aetna in-network. Self pay $79. AAAAI/ACAAI + ARIA-EAACI 2026 guidelines. Antihistamines, nasal steroids, immunotherapy referral.',
+    description: 'Get seasonal allergy treatment online in California. Board-certified Family Medicine MD. CA telehealth law compliant. Aetna in-network. Self pay $79. AAAAI/ACAAI + ARIA-EAACI 2024-2025 guidelines. Antihistamines, nasal steroids, immunotherapy referral.',
     datePublished: DATE_PUBLISHED,
     dateModified: DATE_MODIFIED,
     inLanguage: 'en-US',
@@ -249,7 +249,7 @@ export default function CaSeasonalAllergiesTreatmentOnline() {
               <div className="tdmd-hero-copy">
                 <h1 data-speakable="true">Seasonal Allergies Treatment</h1>
                 <p className="tdmd-hero-sub" data-speakable="true">
-                  California adults 18+ · Secure video visit · Self pay $79 · Aetna in-network · UHC Commercial approved · MD-only · CA B&amp;P §2290.5 compliant · AAAAI/ACAAI + ARIA-EAACI 2026
+                  California adults 18+ · Secure video visit · Self pay $79 · Aetna in-network · UHC Commercial approved · MD-only · CA B&amp;P §2290.5 compliant · AAAAI/ACAAI + ARIA-EAACI 2024-2025
                 </p>
                 <p>
                   TeleDirectMD provides evidence-based seasonal allergies treatment by secure video visit for California adults. A California-licensed board-certified Family Medicine physician evaluates your history, reviews relevant lab values and prior treatments, and prescribes appropriate medication when clinically indicated. This page is for adults located in California, including {caCities.join(', ')}, and surrounding areas.
@@ -287,7 +287,7 @@ export default function CaSeasonalAllergiesTreatmentOnline() {
                   <li>Aetna in-network (effective April 30, 2026)</li>
                   <li>UnitedHealthcare Commercial approved (effective May 29, 2026)</li>
                   <li>California-licensed telehealth for adults located in California at time of visit</li>
-                  <li>Evidence-based treatment per AAAAI/ACAAI + ARIA-EAACI 2026</li>
+                  <li>Evidence-based treatment per AAAAI/ACAAI + ARIA-EAACI 2024-2025</li>
                 </ul>
 
                 <div className="tdmd-hero-ctas">
@@ -304,7 +304,7 @@ export default function CaSeasonalAllergiesTreatmentOnline() {
                   <h2>Online Seasonal Allergies Treatment in California</h2>
                   <ul>
                     <li>Board-certified Family Medicine MD — California-licensed</li>
-                    <li>Evidence-based regimen per AAAAI/ACAAI + ARIA-EAACI 2026</li>
+                    <li>Evidence-based regimen per AAAAI/ACAAI + ARIA-EAACI 2024-2025</li>
                     <li>Lab value review before prescribing</li>
                     <li>e-Prescriptions to your CA pharmacy under AB 2789</li>
                     <li>Clear follow-up steps and monitoring guidance</li>
@@ -323,7 +323,7 @@ export default function CaSeasonalAllergiesTreatmentOnline() {
           <div className="tdmd-container">
             <div className="tdmd-condition-opener" id="seasonal-allergies-treatment-online-opening">
               <p>
-                California adults with seasonal allergic rhinitis can receive evaluation and prescription allergy treatment — including intranasal corticosteroids, antihistamines, leukotriene receptor antagonists, and nasal antihistamine/steroid combinations — by secure video visit through TeleDirectMD, consistent with California Business and Professions Code Section 2290.5. A California-licensed board-certified Family Medicine physician reviews your allergen trigger history, symptom pattern, prior treatment response, and comorbid conditions (asthma, allergic conjunctivitis). AAAAI, ACAAI, and the updated ARIA-EAACI 2026 guidelines inform treatment selection. California's year-round pollen seasons — driven by dry chaparral, oak, and grass pollen in the Central Valley and Bay Area — create one of the highest seasonal allergy burdens in the U.S. Self pay is $79. Aetna is in-network effective April 30, 2026.
+                California adults with seasonal allergic rhinitis can receive evaluation and prescription allergy treatment — including intranasal corticosteroids, antihistamines, leukotriene receptor antagonists, and nasal antihistamine/steroid combinations — by secure video visit through TeleDirectMD, consistent with California Business and Professions Code Section 2290.5. A California-licensed board-certified Family Medicine physician reviews your allergen trigger history, symptom pattern, prior treatment response, and comorbid conditions (asthma, allergic conjunctivitis). AAAAI, ACAAI, and the updated ARIA-EAACI 2024-2025 guidelines inform treatment selection. California's year-round pollen seasons — driven by dry chaparral, oak, and grass pollen in the Central Valley and Bay Area — create one of the highest seasonal allergy burdens in the U.S. Self pay is $79. Aetna is in-network effective April 30, 2026.
               </p>
               <span className="tdmd-condition-opener__meta">
                 Reviewed by <a href="/about/">{PHYSICIAN.name}</a>, Board-Certified {PHYSICIAN.specialty} · NPI {PHYSICIAN.npi} · Licensed in {PHYSICIAN.licenseState} ·
@@ -456,7 +456,7 @@ export default function CaSeasonalAllergiesTreatmentOnline() {
           <div className="tdmd-container">
             <h2>Seasonal Allergies Treatment: Medication Options and CA Pricing</h2>
             <p>
-              The table below reflects evidence-based medication options per AAAAI/ACAAI + ARIA-EAACI 2026 guidelines.
+              The table below reflects evidence-based medication options per AAAAI/ACAAI + ARIA-EAACI 2024-2025 guidelines.
               GoodRx prices retrieved May 2026 from goodrx.com — national coupon prices; actual cost varies by California pharmacy location.
               Prescription costs are separate from the $79 TeleDirectMD visit fee.
             </p>
@@ -478,7 +478,7 @@ export default function CaSeasonalAllergiesTreatmentOnline() {
                     <td><strong>Fluticasone propionate nasal spray 50 mcg (Flonase, generic)</strong></td>
                     <td>2 sprays each nostril once daily; 1 spray maintenance</td>
                     <td><a href="https://www.goodrx.com/fluticasone-nasal" target="_blank" rel="noopener">Available OTC (~$15–$25/month); Rx strength same</a></td>
-                    <td>First-line for moderate-persistent allergic rhinitis per ARIA 2026. Minimal systemic absorption. Also available as Flonase Sensimist (aqueous mist, less drip).</td>
+                    <td>First-line for moderate-persistent allergic rhinitis per ARIA-EAACI 2024-2025. Minimal systemic absorption. Also available as Flonase Sensimist (aqueous mist, less drip).</td>
                   </tr>
                   <tr>
                     <td><strong>Mometasone nasal spray 50 mcg (Nasonex, generic)</strong></td>
@@ -651,10 +651,9 @@ export default function CaSeasonalAllergiesTreatmentOnline() {
               <li><a href="https://www.dhcs.ca.gov/provgovpart/Pages/TelehealthFAQ.aspx" rel="noopener" target="_blank">California DHCS — Telehealth FAQ</a>. Retrieved May 2026.</li>
               <li><a href="https://www.mbc.ca.gov/News/" rel="noopener" target="_blank">Medical Board of California — AB 2789 Electronic Prescribing</a>. Retrieved May 2026.</li>
               <li><a href="https://www.ariaguidelines.com/" rel="noopener" target="_blank">ARIA 2022 GRADE Guideline — Allergic Rhinitis</a>. Retrieved May 2026.</li>
-              <li><a href="https://www.aaaai.org/conditions-and-treatments/allergies/rhinitis" rel="noopener" target="_blank">AAAAI — Practice Parameters for the Diagnosis and Management of Rhinitis</a>. Retrieved May 2026.</li>
-              <li><a href="https://www.acaai.org/allergies/types/hay-fever/" rel="noopener" target="_blank">ACAAI — Allergic Rhinitis Treatment Guidelines</a>. Retrieved May 2026.</li>
-              <li><a href="https://www.aaaai.org/conditions-and-treatments/allergies/rhinitis" rel="noopener" target="_blank">AAAAI — Allergic Rhinitis (Hay Fever) Overview</a>. Retrieved May 2026.</li>
-              <li><a href="https://www.acaai.org/allergies/types/hay-fever/" rel="noopener" target="_blank">ACAAI — Hay Fever (Allergic Rhinitis)</a>. Retrieved May 2026.</li>
+              <li><a href="https://pubmed.ncbi.nlm.nih.gov/32707227/" rel="noopener" target="_blank">Dykewicz MS, Wallace DV, Amrol DJ, et al. Rhinitis 2020: A practice parameter update. J Allergy Clin Immunol. 2020;146(4):721-767.</a></li>
+              <li><a href="https://www.aaaai.org/Tools-for-the-Public/Conditions-Library/Allergies/Rhinitis-(Hay-Fever)" rel="noopener" target="_blank">AAAAI — Allergic Rhinitis (Hay Fever) Overview</a>. Retrieved May 2026.</li>
+              <li><a href="https://acaai.org/allergies/allergic-conditions/hay-fever/" rel="noopener" target="_blank">ACAAI — Hay Fever (Allergic Rhinitis)</a>. Retrieved May 2026.</li>
               <li><a href="https://www.baaqmd.gov/" rel="noopener" target="_blank">Bay Area Air Quality Management District — Pollen Count</a>. Retrieved May 2026.</li>
               <li><a href="https://www.ariaguidelines.com/" rel="noopener" target="_blank">ARIA-EAACI Guidelines — Allergic Rhinitis and Its Impact on Asthma</a>. Retrieved May 2026.</li>
             </ol>

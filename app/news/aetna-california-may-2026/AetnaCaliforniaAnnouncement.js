@@ -20,7 +20,7 @@ const B = {
 const FAQS = [
   {
     q: 'Who is affected by the Aetna California in-network launch?',
-    a: "California-based adults 18+ enrolled in Aetna commercial plans (employer-sponsored and individual market plans purchased on or off <a href='https://www.coveredca.com/learning-center/information-for-existing-members/health-plans/' target='_blank' rel='noopener'>Covered California</a>). Aetna Medicaid (Medi-Cal managed care via <a href='https://www.dhcs.ca.gov/services/medi-cal/Pages/MedicalProviders.aspx' target='_blank' rel='noopener'>DHCS</a>), Medicare fee-for-service, and Aetna Medicare Advantage are NOT included in this contract.",
+    a: "California-based adults 18+ enrolled in Aetna commercial plans (employer-sponsored and individual market plans purchased on or off <a href='https://www.coveredca.com/' target='_blank' rel='noopener'>Covered California</a>). Aetna Medicaid (Medi-Cal managed care via <a href='https://www.dhcs.ca.gov/services/medi-cal/Pages/MedicalProviders.aspx' target='_blank' rel='noopener'>DHCS</a>), Medicare fee-for-service, and Aetna Medicare Advantage are NOT included in this contract.",
   },
   {
     q: 'When does in-network coverage start?',

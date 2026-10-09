@@ -8,7 +8,7 @@
   "hero": {
     "h1": "Poison Ivy and Poison Oak Treatment in {state} (Urushiol Contact Dermatitis)",
     "subtitle": "{state} adult care by secure video visit, self pay option starting at $79, MD-only, insurance is not required.",
-    "introParagraph": "Poison ivy, poison oak, and poison sumac cause allergic contact dermatitis from urushiol oil, an oily resin found on the leaves, stems, and roots of these plants. The classic presentation is an intensely itchy, linear or streaky vesicular rash appearing 1 to 3 days after skin contact with the plant. Approximately 50 to 70 percent of the US population is sensitized to urushiol and will develop a rash after exposure. A critical point often misunderstood is that the rash does not spread from person to person, and the fluid inside blisters is not contagious. The rash may appear to spread over several days because different skin areas had different levels of urushiol exposure. AAD guidelines emphasize that washing the skin with lukewarm soapy water within 30 minutes of exposure can reduce severity by approximately 50 percent. TeleDirectMD uses a safety-first telehealth approach that screens for red flags including facial or genital involvement, difficulty breathing or swallowing, signs of secondary infection, widespread rash covering most of the body, and urushiol smoke inhalation before determining whether treatment by video visit is appropriate. If the history and photo assessment support mild to moderate urushiol dermatitis without red flags, guideline-based treatment with topical or oral corticosteroids may be prescribed by video, while adults with severe, widespread, or complicated presentations are directed to urgent in-person or emergency care. This page is for adults located in {state}, including {cities}.",
+    "introParagraph": "Poison ivy, poison oak, and poison sumac cause allergic contact dermatitis from urushiol oil, an oily resin found on the leaves, stems, and roots of these plants. The classic presentation is an intensely itchy, linear or streaky vesicular rash appearing 1 to 3 days after skin contact with the plant. Approximately 50 to 70 percent of the US population is sensitized to urushiol and will develop a rash after exposure. A critical point often misunderstood is that the rash does not spread from person to person, and the fluid inside blisters is not contagious. The rash may appear to spread over several days because different skin areas had different levels of urushiol exposure. AAD guidance emphasizes rinsing the skin with lukewarm soapy water right after exposure, which can wash off some of the urushiol and lessen the rash. TeleDirectMD uses a safety-first telehealth approach that screens for red flags including facial or genital involvement, difficulty breathing or swallowing, signs of secondary infection, widespread rash covering most of the body, and urushiol smoke inhalation before determining whether treatment by video visit is appropriate. If the history and photo assessment support mild to moderate urushiol dermatitis without red flags, guideline-based treatment with topical or oral corticosteroids may be prescribed by video, while adults with severe, widespread, or complicated presentations are directed to urgent in-person or emergency care. This page is for adults located in {state}, including {cities}.",
     "tocLinks": [
       {
         "href": "eligibility-checklist",
@@ -391,7 +391,7 @@
   },
   "treatmentOptions": {
     "sectionTitle": "Treatment Options",
-    "intro": "Poison ivy and poison oak treatment focuses on reducing the allergic inflammatory response, managing itching, preventing secondary infection, and decontaminating all surfaces that may carry residual urushiol oil. The AAD emphasizes that washing the skin with lukewarm soapy water within 30 minutes of exposure can reduce severity by approximately 50 percent. Treatment intensity is guided by the percentage of body surface area involved and the severity of symptoms.",
+    "intro": "Poison ivy and poison oak treatment focuses on reducing the allergic inflammatory response, managing itching, preventing secondary infection, and decontaminating all surfaces that may carry residual urushiol oil. The AAD emphasizes rinsing the skin with lukewarm soapy water right after exposure, which can wash off some of the urushiol and lessen the rash. Treatment intensity is guided by the percentage of body surface area involved and the severity of symptoms.",
     "sections": [
       {
         "title": "Immediate decontamination",
@@ -621,8 +621,8 @@
       "url": "https://www.aad.org/public/everyday-care/itchy-skin/poison-ivy/treat-rash"
     },
     {
-      "text": "CDC/NIOSH — Poisonous Plants: Prevention and Treatment",
-      "url": "https://www.cdc.gov/niosh/topics/plants/default.html"
+      "text": "CDC/NIOSH — Poisonous Plants and Work",
+      "url": "https://www.cdc.gov/niosh/outdoor-workers/about/poisonous-plants.html"
     },
     {
       "text": "Gladman AC. Toxicodendron Dermatitis: Poison Ivy, Oak, and Sumac. Wilderness Environ Med. 2006;17(2):120-128.",
@@ -633,8 +633,8 @@
       "url": "https://www.ncbi.nlm.nih.gov/books/NBK459230/"
     },
     {
-      "text": "Kim Y, et al. Allergic Contact Dermatitis to Plants. Dermatitis. 2022;33(1):13-22.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/34366398/"
+      "text": "Kim Y, Flamm A, ElSohly MA, et al. Poison Ivy, Oak, and Sumac Dermatitis: What Is Known and What Is New? Dermatitis. 2019;30(3):183-190.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31045932/"
     }
   ],
   "disclaimer": {
@@ -790,14 +790,14 @@
     ],
     "guidelines": [
       {
-        "name": "AAD Poison Ivy Treatment Guidelines",
+        "name": "AAD Poison Ivy Treatment Resources",
         "url": "https://www.aad.org/public/everyday-care/itchy-skin/poison-ivy/treat-rash",
         "publisher": "American Academy of Dermatology",
         "id": "aad"
       },
       {
         "name": "CDC/NIOSH Poisonous Plants",
-        "url": "https://www.cdc.gov/niosh/topics/plants/default.html",
+        "url": "https://www.cdc.gov/niosh/outdoor-workers/about/poisonous-plants.html",
         "publisher": "Centers for Disease Control and Prevention",
         "id": "cdc"
       },

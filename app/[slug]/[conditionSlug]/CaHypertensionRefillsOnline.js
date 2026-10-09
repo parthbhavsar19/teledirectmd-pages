@@ -2,7 +2,7 @@
  * CaHypertensionRefillsOnline.js — California × Hypertension Refills condition page (v3)
  *
  * URL: /ca/hypertension-refills-online/
- * Authority: ACC/AHA 2017 + 2024 Update
+ * Authority: ACC/AHA 2017 + 2025 Update
  * Rendered by app/[slug]/[conditionSlug]/page.js when slug === 'ca'
  * and conditionSlug === 'hypertension-refills-online'.
  *
@@ -67,7 +67,7 @@ const FAQ_ITEMS = [
   {
     id: 'hypertension-refills-online-faq-1',
     question: "What blood pressure medications can TeleDirectMD refill in California?",
-    answer: <p>TeleDirectMD can refill established antihypertensive medications including ACE inhibitors (lisinopril, ramipril), ARBs (losartan, valsartan, olmesartan), dihydropyridine calcium channel blockers (amlodipine), thiazide-type diuretics (chlorthalidone, HCTZ), and cardioselective beta-blockers (metoprolol succinate) for appropriate indications. Medication selection follows ACC/AHA 2017 and 2024 update guidelines.</p>,
+    answer: <p>TeleDirectMD can refill established antihypertensive medications including ACE inhibitors (lisinopril, ramipril), ARBs (losartan, valsartan, olmesartan), dihydropyridine calcium channel blockers (amlodipine), thiazide-type diuretics (chlorthalidone, HCTZ), and cardioselective beta-blockers (metoprolol succinate) for appropriate indications. Medication selection follows ACC/AHA 2017 and 2025 guidelines.</p>,
   },
   {
     id: 'hypertension-refills-online-faq-2',
@@ -77,12 +77,12 @@ const FAQ_ITEMS = [
   {
     id: 'hypertension-refills-online-faq-3',
     question: "What blood pressure target does TeleDirectMD use for California hypertension patients?",
-    answer: <p>The ACC/AHA 2017 guideline recommends a blood pressure target of less than 130/80 mmHg for most adults with confirmed hypertension, particularly those with established cardiovascular disease or a 10-year ASCVD risk of ≥10%. The 2024 ACC hypertension update reinforces this target and identifies chlorthalidone as the preferred thiazide diuretic over hydrochlorothiazide due to superior 24-hour coverage. The physician individualizes targets for frail elderly patients or those with significant comorbidities.</p>,
+    answer: <p>The ACC/AHA 2017 guideline recommends a blood pressure target of less than 130/80 mmHg for most adults with confirmed hypertension, particularly those with established cardiovascular disease or a 10-year ASCVD risk of ≥10%. The 2025 AHA/ACC high blood pressure guideline reaffirms this target, and the 2017 guideline identifies chlorthalidone as the preferred thiazide diuretic based on its long half-life and proven reduction in cardiovascular events. The physician individualizes targets for frail elderly patients or those with significant comorbidities.</p>,
   },
   {
     id: 'hypertension-refills-online-faq-4',
     question: "Why is chlorthalidone preferred over HCTZ for hypertension in California?",
-    answer: <p>The 2024 ACC hypertension guideline update reinforces chlorthalidone as the preferred thiazide-type diuretic over hydrochlorothiazide (HCTZ). Chlorthalidone has a longer half-life (50–60 hours vs. 8–15 hours for HCTZ), providing better 24-hour blood pressure control and superior outcomes in the ALLHAT trial. Chlorthalidone is available as generic at approximately $10–$25 per month with a GoodRx coupon at California pharmacies.</p>,
+    answer: <p>The ACC/AHA 2017 hypertension guideline identifies chlorthalidone as the preferred thiazide-type diuretic over hydrochlorothiazide (HCTZ). Chlorthalidone has a longer half-life (50–60 hours vs. 8–15 hours for HCTZ), providing better 24-hour blood pressure control and superior outcomes in the ALLHAT trial. Chlorthalidone is available as generic at approximately $10–$25 per month with a GoodRx coupon at California pharmacies.</p>,
   },
   {
     id: 'hypertension-refills-online-faq-5',
@@ -135,7 +135,7 @@ function buildSchemas() {
     '@type': 'MedicalWebPage',
     name: PAGE_TITLE,
     url: PAGE_URL,
-    description: 'Refill blood pressure medications online in California. Board-certified Family Medicine MD. CA telehealth law compliant. Aetna in-network. Self pay $79. ACC/AHA 2017 + 2024 guideline-based care. CDPH data: ~30% CA adults have hypertension.',
+    description: 'Refill blood pressure medications online in California. Board-certified Family Medicine MD. CA telehealth law compliant. Aetna in-network. Self pay $79. ACC/AHA 2017 + 2025 guideline-based care. CDPH data: ~30% CA adults have hypertension.',
     datePublished: DATE_PUBLISHED,
     dateModified: DATE_MODIFIED,
     inLanguage: 'en-US',
@@ -249,7 +249,7 @@ export default function CaHypertensionRefillsOnline() {
               <div className="tdmd-hero-copy">
                 <h1 data-speakable="true">Hypertension Refills</h1>
                 <p className="tdmd-hero-sub" data-speakable="true">
-                  California adults 18+ · Secure video visit · Self pay $79 · Aetna in-network · UHC Commercial approved · MD-only · CA B&amp;P §2290.5 compliant · ACC/AHA 2017 + 2024 Update
+                  California adults 18+ · Secure video visit · Self pay $79 · Aetna in-network · UHC Commercial approved · MD-only · CA B&amp;P §2290.5 compliant · ACC/AHA 2017 + 2025 Update
                 </p>
                 <p>
                   TeleDirectMD provides evidence-based hypertension refills by secure video visit for California adults. A California-licensed board-certified Family Medicine physician evaluates your history, reviews relevant lab values and prior treatments, and prescribes appropriate medication when clinically indicated. This page is for adults located in California, including {caCities.join(', ')}, and surrounding areas.
@@ -287,7 +287,7 @@ export default function CaHypertensionRefillsOnline() {
                   <li>Aetna in-network (effective April 30, 2026)</li>
                   <li>UnitedHealthcare Commercial approved (effective May 29, 2026)</li>
                   <li>California-licensed telehealth for adults located in California at time of visit</li>
-                  <li>Evidence-based treatment per ACC/AHA 2017 + 2024 Update</li>
+                  <li>Evidence-based treatment per ACC/AHA 2017 + 2025 Update</li>
                 </ul>
 
                 <div className="tdmd-hero-ctas">
@@ -304,7 +304,7 @@ export default function CaHypertensionRefillsOnline() {
                   <h2>Online Hypertension Refills in California</h2>
                   <ul>
                     <li>Board-certified Family Medicine MD — California-licensed</li>
-                    <li>Evidence-based regimen per ACC/AHA 2017 + 2024 Update</li>
+                    <li>Evidence-based regimen per ACC/AHA 2017 + 2025 Update</li>
                     <li>Lab value review before prescribing</li>
                     <li>e-Prescriptions to your CA pharmacy under AB 2789</li>
                     <li>Clear follow-up steps and monitoring guidance</li>
@@ -323,7 +323,7 @@ export default function CaHypertensionRefillsOnline() {
           <div className="tdmd-container">
             <div className="tdmd-condition-opener" id="hypertension-refills-online-opening">
               <p>
-                California adults with established hypertension can refill blood pressure medications — including ACE inhibitors, ARBs, calcium channel blockers, and thiazide diuretics — by secure video visit through TeleDirectMD, consistent with California Business and Professions Code Section 2290.5. Approximately 30% of California adults have hypertension, per the California Department of Public Health. The ACC/AHA 2017 hypertension guideline, supplemented by the 2024 ACC hypertension update, guides medication selection and blood pressure targets. A California-licensed board-certified Family Medicine physician reviews your home blood pressure log, current medications, lab values, and adherence before authorizing refills. Self pay is $79. Aetna is in-network effective April 30, 2026.
+                California adults with established hypertension can refill blood pressure medications — including ACE inhibitors, ARBs, calcium channel blockers, and thiazide diuretics — by secure video visit through TeleDirectMD, consistent with California Business and Professions Code Section 2290.5. Approximately 30% of California adults have hypertension, per the California Department of Public Health. The ACC/AHA 2017 hypertension guideline, supplemented by the 2025 AHA/ACC high blood pressure guideline, guides medication selection and blood pressure targets. A California-licensed board-certified Family Medicine physician reviews your home blood pressure log, current medications, lab values, and adherence before authorizing refills. Self pay is $79. Aetna is in-network effective April 30, 2026.
               </p>
               <span className="tdmd-condition-opener__meta">
                 Reviewed by <a href="/about/">{PHYSICIAN.name}</a>, Board-Certified {PHYSICIAN.specialty} · NPI {PHYSICIAN.npi} · Licensed in {PHYSICIAN.licenseState} ·
@@ -456,7 +456,7 @@ export default function CaHypertensionRefillsOnline() {
           <div className="tdmd-container">
             <h2>Hypertension Refills: Medication Options and CA Pricing</h2>
             <p>
-              The table below reflects evidence-based medication options per ACC/AHA 2017 + 2024 Update guidelines.
+              The table below reflects evidence-based medication options per ACC/AHA 2017 + 2025 Update guidelines.
               GoodRx prices retrieved May 2026 from goodrx.com — national coupon prices; actual cost varies by California pharmacy location.
               Prescription costs are separate from the $79 TeleDirectMD visit fee.
             </p>
@@ -496,7 +496,7 @@ export default function CaHypertensionRefillsOnline() {
                     <td><strong>Chlorthalidone 12.5/25 mg</strong></td>
                     <td>12.5–25 mg once daily in AM</td>
                     <td><a href="https://www.goodrx.com/chlorthalidone" target="_blank" rel="noopener">~$10–$25/month GoodRx (generic)</a></td>
-                    <td>Preferred over HCTZ per 2024 ACC update — longer half-life, superior 24-hour coverage.</td>
+                    <td>Preferred over HCTZ per ACC/AHA 2017 guideline; longer half-life, superior 24-hour coverage.</td>
                   </tr>
                   <tr>
                     <td><strong>Metoprolol succinate (Toprol XL) 25/50/100/200 mg</strong></td>
@@ -639,11 +639,11 @@ export default function CaHypertensionRefillsOnline() {
               <li><a href="https://www.dhcs.ca.gov/provgovpart/Pages/TelehealthFAQ.aspx" rel="noopener" target="_blank">California DHCS — Telehealth FAQ</a>. Retrieved May 2026.</li>
               <li><a href="https://www.mbc.ca.gov/News/" rel="noopener" target="_blank">Medical Board of California — AB 2789 Electronic Prescribing</a>. Retrieved May 2026.</li>
               <li><a href="https://www.acc.org/Latest-in-Cardiology/ten-points-to-remember/2017/11/09/11/41/2017-guideline-for-high-blood-pressure-in-adults" rel="noopener" target="_blank">ACC/AHA 2017 Guideline for High Blood Pressure in Adults</a>. Retrieved May 2026.</li>
-              <li><a href="https://www.acc.org/guidelines" rel="noopener" target="_blank">ACC 2024 Hypertension Guideline Update</a>. Retrieved May 2026.</li>
+              <li><a href="https://professional.heart.org/en/science-news/2025-high-blood-pressure-guideline" rel="noopener" target="_blank">2025 AHA/ACC High Blood Pressure Guideline</a>. Retrieved May 2026.</li>
               <li><a href="https://www.jacc.org/doi/10.1016/j.jacc.2017.11.006" rel="noopener" target="_blank">Whelton PK et al. 2017 ACC/AHA Hypertension Guidelines — JACC</a>. Retrieved May 2026.</li>
-              <li><a href="https://www.cdph.ca.gov/Programs/CCDPHP/DCDIC/CVEHB/Pages/HypertensionPrevention.aspx" rel="noopener" target="_blank">CDPH — Hypertension Prevention and Control</a>. Retrieved May 2026.</li>
-              <li><a href="https://www.cdph.ca.gov/Programs/CCDPHP/DCDIC/CVEHB/Pages/HeartDiseaseandStrokePrevention.aspx" rel="noopener" target="_blank">CDPH Heart Disease and Stroke Prevention Program</a>. Retrieved May 2026.</li>
-              <li><a href="https://healthpolicy.ucla.edu/our-work/california-health-interview-survey-chis/chis-data" rel="noopener" target="_blank">California Health Interview Survey (CHIS) 2023</a>. Retrieved May 2026.</li>
+              <li><a href="https://www.cdph.ca.gov/Programs/CCDPHP/DCDIC/CDCB/Pages/CardiovascularHealthInnovationProgram.aspx" rel="noopener" target="_blank">CDPH Cardiovascular Health Innovation Program</a>. Retrieved May 2026.</li>
+              <li><a href="https://www.cdph.ca.gov/Programs/CCDPHP/DCDIC/CDCB/Pages/CDPP.aspx" rel="noopener" target="_blank">CDPH Cardiovascular Disease Prevention Program</a>. Retrieved May 2026.</li>
+              <li><a href="https://healthpolicy.ucla.edu/our-work/california-health-interview-survey-chis" rel="noopener" target="_blank">California Health Interview Survey (CHIS) 2023</a>. Retrieved May 2026.</li>
             </ol>
           </div>
         </section>

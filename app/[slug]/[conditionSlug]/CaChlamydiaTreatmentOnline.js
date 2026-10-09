@@ -268,7 +268,7 @@ export default function CaChlamydiaTreatmentOnline() {
                   <li><strong><a href="https://www.plannedparenthood.org/get-care" rel="noopener" target="_blank">Planned Parenthood California</a>:</strong> Free/low-cost sexual health care</li>
                   <li><strong><a href="https://www.familypact.org" rel="noopener" target="_blank">California Family PACT</a>:</strong> Free reproductive health for eligible Californians</li>
                   <li><strong><a href="https://www.211ca.org" rel="noopener" target="_blank">California 211</a>:</strong> Find local sexual health clinics</li>
-                  <li><strong><a href="https://www.hhs.gov/opa/title-x-family-planning/index.html" rel="noopener" target="_blank">CA Title X Clinics</a>:</strong> Free or low-cost reproductive health care</li>
+                  <li><strong><a href="https://opa-fpclinicdb.hhs.gov/" rel="noopener" target="_blank">CA Title X Clinics</a>:</strong> Free or low-cost reproductive health care</li>
                 </ul>
               </div>
             </div>
@@ -313,7 +313,7 @@ export default function CaChlamydiaTreatmentOnline() {
               <li><a href='https://www.plannedparenthood.org/get-care' rel="noopener" target="_blank">Planned Parenthood — Get Care</a>. Retrieved May 2026.</li>
               <li><a href='https://www.familypact.org' rel="noopener" target="_blank">California Family PACT</a>. Retrieved May 2026.</li>
               <li><a href='https://www.211ca.org' rel="noopener" target="_blank">California 211</a>. Retrieved May 2026.</li>
-              <li><a href='https://www.hhs.gov/opa/title-x-family-planning/index.html' rel="noopener" target="_blank">HHS Title X Family Planning</a>. Retrieved May 2026.</li>
+              <li><a href='https://opa.hhs.gov/grant-programs/title-x-service-grants' rel="noopener" target="_blank">HHS Title X Service Grants</a>. Retrieved May 2026.</li>
               <li><a href='https://www.mbc.ca.gov/News/' rel="noopener" target="_blank">Medical Board of California — AB 2789 E-Prescribing</a>. Retrieved May 2026.</li>
               <li><a href='https://www.cdc.gov/std/treatment-guidelines/chlamydia.htm' rel="noopener" target="_blank">CDC STI Treatment Guidelines 2021 — Chlamydial Infections</a>. Retrieved May 2026.</li>
               <li><a href='https://www.goodrx.com/doxycycline-hyclate' rel="noopener" target="_blank">GoodRx — Doxycycline Hyclate Prices</a>. Retrieved May 2026.</li>

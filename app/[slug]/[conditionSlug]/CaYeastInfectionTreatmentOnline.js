@@ -120,7 +120,7 @@ const FAQ_ITEMS = [
   { question: 'When does a yeast infection require in-person care in California?',
     answer: (
       <p>
-        Seek in-person evaluation if: symptoms don&apos;t improve within 72 hours of OTC treatment; this is your first episode or you are not certain of the diagnosis; you are pregnant; you have recurrent VVC (≥4 episodes per year); you have fever, abdominal pain, or pelvic pain (possible PID); or you may have been exposed to a sexually transmitted infection. Planned Parenthood California provides in-person evaluation with sliding-scale fees at <a href="https://www.plannedparenthood.org/get-care" rel="noopener" target="_blank">plannedparenthood.org/get-care</a>. California Title X clinics offer free or low-cost care through <a href="https://www.hhs.gov/opa/title-x-family-planning/index.html" rel="noopener" target="_blank">HHS Title X program</a>.
+        Seek in-person evaluation if: symptoms don&apos;t improve within 72 hours of OTC treatment; this is your first episode or you are not certain of the diagnosis; you are pregnant; you have recurrent VVC (≥4 episodes per year); you have fever, abdominal pain, or pelvic pain (possible PID); or you may have been exposed to a sexually transmitted infection. Planned Parenthood California provides in-person evaluation with sliding-scale fees at <a href="https://www.plannedparenthood.org/get-care" rel="noopener" target="_blank">plannedparenthood.org/get-care</a>. California Title X clinics offer free or low-cost care through <a href="https://opa.hhs.gov/grant-programs/title-x-service-grants" rel="noopener" target="_blank">HHS Title X program</a>.
       </p>
     ),
   },
@@ -495,7 +495,7 @@ export default function CaYeastInfectionTreatmentOnline() {
 
             <h3>What are the symptoms of a yeast infection?</h3>
             <p>
-              Classic VVC symptoms include: thick, white, cottage cheese-like vaginal discharge (without odor); intense vulvar itching or burning; vulvar or vaginal redness and swelling; dyspareunia (pain with sex); and external dysuria (burning when urine contacts irritated vulvar skin). VVC is typically NOT associated with strong vaginal odor — odor is more characteristic of bacterial vaginosis (BV). The <a href="https://www.cdc.gov/std/treatment-guidelines/vaginitis-overview.htm" rel="noopener" target="_blank">CDC STI Treatment Guidelines</a> note that symptoms alone cannot reliably distinguish VVC from other vaginitis causes in the absence of prior confirmed diagnosis.
+              Classic VVC symptoms include: thick, white, cottage cheese-like vaginal discharge (without odor); intense vulvar itching or burning; vulvar or vaginal redness and swelling; dyspareunia (pain with sex); and external dysuria (burning when urine contacts irritated vulvar skin). VVC is typically NOT associated with strong vaginal odor — odor is more characteristic of bacterial vaginosis (BV). The <a href="https://www.cdc.gov/std/treatment-guidelines/vaginal-discharge.htm" rel="noopener" target="_blank">CDC STI Treatment Guidelines</a> note that symptoms alone cannot reliably distinguish VVC from other vaginitis causes in the absence of prior confirmed diagnosis.
             </p>
 
             <h3>How does the physician distinguish VVC from other causes of vaginitis?</h3>
@@ -764,7 +764,7 @@ export default function CaYeastInfectionTreatmentOnline() {
               <li><a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=10123.85.&lawCode=INS" rel="noopener" target="_blank">California Insurance Code §10123.85 — Telehealth Parity (AB 744)</a>. Retrieved May 2026.</li>
               <li><a href="https://www.dhcs.ca.gov/provgovpart/Pages/TelehealthFAQ.aspx" rel="noopener" target="_blank">California DHCS — Telehealth FAQ</a>. Retrieved May 2026.</li>
               <li><a href="https://www.acog.org/clinical/clinical-guidance/practice-bulletin/articles/2020/06/vaginitis-in-nonpregnant-patients" rel="noopener" target="_blank">ACOG Practice Bulletin 215 — Vaginitis in Nonpregnant Patients (2020)</a>. Retrieved May 2026.</li>
-              <li><a href="https://www.cdc.gov/std/treatment-guidelines/vaginitis-overview.htm" rel="noopener" target="_blank">CDC STI Treatment Guidelines — Vaginitis (2021)</a>. Retrieved May 2026.</li>
+              <li><a href="https://www.cdc.gov/std/treatment-guidelines/vaginal-discharge.htm" rel="noopener" target="_blank">CDC STI Treatment Guidelines — Vaginitis (2021)</a>. Retrieved May 2026.</li>
               <li><a href="https://www.idsociety.org/practice-guideline/candidiasis/" rel="noopener" target="_blank">IDSA Clinical Practice Guideline for the Management of Candidiasis (2016)</a>. Retrieved May 2026.</li>
               <li><a href="https://www.goodrx.com/fluconazole" rel="noopener" target="_blank">GoodRx — Fluconazole Prices (May 2026)</a>. Retrieved May 2026.</li>
               <li><a href="https://www.plannedparenthood.org/get-care" rel="noopener" target="_blank">Planned Parenthood — Get Care</a>. Retrieved May 2026.</li>

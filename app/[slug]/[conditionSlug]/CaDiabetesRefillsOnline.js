@@ -87,7 +87,7 @@ const FAQ_ITEMS = [
   {
     id: 'diabetes-refills-online-faq-5',
     question: "What is the benefit of SGLT2 inhibitors for Type 2 diabetes in California?",
-    answer: <p>SGLT2 inhibitors — empagliflozin (Jardiance) and dapagliflozin (Farxiga) — provide proven cardiovascular and kidney benefits beyond glycemic control. The EMPA-REG OUTCOME trial showed empagliflozin reduced cardiovascular death by 38% in T2DM patients with established ASCVD. The DAPA-CKD trial demonstrated dapagliflozin slowed progression of CKD regardless of T2DM status. ADA 2024 guidelines recommend an SGLT2 inhibitor with proven CV/kidney benefit for T2DM patients with established ASCVD, heart failure, or CKD (eGFR ≥25).</p>,
+    answer: <p>SGLT2 inhibitors — empagliflozin (Jardiance) and dapagliflozin (Farxiga) — provide proven cardiovascular and kidney benefits beyond glycemic control. The EMPA-REG OUTCOME trial showed empagliflozin reduced cardiovascular death by 38% in T2DM patients with established ASCVD. The DAPA-CKD trial demonstrated dapagliflozin slowed progression of CKD regardless of T2DM status. ADA 2024 guidelines recommend an SGLT2 inhibitor with proven CV/kidney benefit for T2DM patients with established ASCVD, heart failure, or CKD (eGFR ≥20).</p>,
   },
   {
     id: 'diabetes-refills-online-faq-6',
@@ -650,10 +650,10 @@ export default function CaDiabetesRefillsOnline() {
               <li><a href="https://www.mbc.ca.gov/News/" rel="noopener" target="_blank">Medical Board of California — AB 2789 Electronic Prescribing</a>. Retrieved May 2026.</li>
               <li><a href="https://diabetesjournals.org/care/issue/47/Supplement_1" rel="noopener" target="_blank">ADA Standards of Medical Care in Diabetes 2024 — Diabetes Care Supplement 1</a>. Retrieved May 2026.</li>
               <li><a href="https://diabetesjournals.org/care/article/48/Supplement_1/S27/157554" rel="noopener" target="_blank">ADA — Classification and Diagnosis of Diabetes: Standards of Care 2025</a>. Retrieved May 2026.</li>
-              <li><a href="https://www.cdph.ca.gov/Programs/CCDPHP/DCDIC/CVEHB/Pages/DiabetesPrevention.aspx" rel="noopener" target="_blank">CDPH — Diabetes Data and Statistics</a>. Retrieved May 2026.</li>
-              <li><a href="https://www.cdph.ca.gov/Programs/CCDPHP/DCDIC/CVEHB/Pages/DiabetesPrevention.aspx" rel="noopener" target="_blank">CDPH — Diabetes Prevention Program</a>. Retrieved May 2026.</li>
+              <li><a href="https://www.cdph.ca.gov/Programs/CCDPHP/DCDIC/CDCB/Pages/DiabetesPrevention.aspx" rel="noopener" target="_blank">CDPH — Diabetes Data and Statistics</a>. Retrieved May 2026.</li>
+              <li><a href="https://www.cdph.ca.gov/Programs/CCDPHP/DCDIC/CDCB/Pages/DiabetesPrevention.aspx" rel="noopener" target="_blank">CDPH — Diabetes Prevention Program</a>. Retrieved May 2026.</li>
               <li><a href="https://diabetesjournals.org/care/issue/47/Supplement_1" rel="noopener" target="_blank">ADA Standards of Medical Care in Diabetes 2024–2025 — Diabetes Care</a>. Retrieved May 2026.</li>
-              <li><a href="https://healthpolicy.ucla.edu/our-work/california-health-interview-survey-chis/chis-data" rel="noopener" target="_blank">California Health Interview Survey (CHIS) 2023</a>. Retrieved May 2026.</li>
+              <li><a href="https://healthpolicy.ucla.edu/our-work/california-health-interview-survey-chis/access-chis-data" rel="noopener" target="_blank">California Health Interview Survey (CHIS) 2023</a>. Retrieved May 2026.</li>
             </ol>
           </div>
         </section>

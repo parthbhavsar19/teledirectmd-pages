@@ -242,7 +242,7 @@ export default function CaAcneTreatmentOnline() {
         <section className="tdmd-section" id={`${pid}-ca-epi`}>
           <div className="tdmd-container">
             <h2>Acne in California — Prevalence and Context</h2>
-            <p dangerouslySetInnerHTML={{ __html: "Acne is the most common skin condition in the United States, affecting up to 50 million Americans annually, according to the <a href='https://www.aad.org/public/diseases/acne/really-is-acne' rel='noopener' target='_blank'>American Academy of Dermatology</a>. In California, <a href='https://places.cdc.gov/profiles/county' rel='noopener' target='_blank'>CDC PLACES county-level data</a> documents that skin conditions represent a major share of outpatient visits statewide. With California's population of approximately 39 million residents, an estimated 5\u20137 million Californians experience acne at any given time. Adult-onset acne is increasing \u2014 particularly among women ages 25\u201340. The <a href='https://www.cdph.ca.gov' rel='noopener' target='_blank'>California Department of Public Health (CDPH)</a> notes dermatologic conditions account for over 1.3 million outpatient visits in California annually, with acne comprising the largest single-condition share." }} />
+            <p dangerouslySetInnerHTML={{ __html: "Acne is the most common skin condition in the United States, affecting up to 50 million Americans annually, according to the <a href='https://www.aad.org/media/stats-numbers' rel='noopener' target='_blank'>American Academy of Dermatology</a>. With California's population of approximately 39 million residents, an estimated 5\u20137 million Californians experience acne at any given time. Adult-onset acne is increasing \u2014 particularly among women ages 25\u201340. The <a href='https://www.cdph.ca.gov' rel='noopener' target='_blank'>California Department of Public Health (CDPH)</a> notes dermatologic conditions account for over 1.3 million outpatient visits in California annually, with acne comprising the largest single-condition share." }} />
           </div>
         </section>
 
@@ -548,7 +548,7 @@ export default function CaAcneTreatmentOnline() {
             <h2>References and Primary Sources</h2>
             <ol className="tdmd-ref-list">
               <li><a href="https://www.aad.org/member/clinical-quality/guidelines/acne" rel="noopener" target="_blank">AAD Acne Guidelines 2024</a>. Retrieved 2026-05-22.</li>
-              <li><a href="https://www.aad.org/public/diseases/acne/really-is-acne" rel="noopener" target="_blank">AAD — Acne Overview</a>. Retrieved 2026-05-22.</li>
+              <li><a href="https://www.aad.org/media/stats-numbers" rel="noopener" target="_blank">AAD: Skin conditions by the numbers</a>. Retrieved 2026-05-22.</li>
               <li><a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=2290.5.&lawCode=BPC" rel="noopener" target="_blank">California B&P Code §2290.5</a>. Retrieved 2026-05-22.</li>
               <li><a href="https://www.mbc.ca.gov/Resources/Medical-Resources/telehealth.aspx" rel="noopener" target="_blank">Medical Board of California — Telehealth</a>. Retrieved 2026-05-22.</li>
               <li><a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=10123.85.&lawCode=INS" rel="noopener" target="_blank">California Insurance Code §10123.85 (AB 744)</a>. Retrieved 2026-05-22.</li>
@@ -556,7 +556,6 @@ export default function CaAcneTreatmentOnline() {
               <li><a href="https://www.goodrx.com/tretinoin" rel="noopener" target="_blank">GoodRx — Tretinoin</a>. Retrieved 2026-05-22.</li>
               <li><a href="https://www.goodrx.com/doxycycline" rel="noopener" target="_blank">GoodRx — Doxycycline</a>. Retrieved 2026-05-22.</li>
               <li><a href="https://www.goodrx.com/clindamycin-topical" rel="noopener" target="_blank">GoodRx — Clindamycin Topical</a>. Retrieved 2026-05-22.</li>
-              <li><a href="https://places.cdc.gov/profiles/county" rel="noopener" target="_blank">CDC PLACES</a>. Retrieved 2026-05-22.</li>
               <li><a href="https://www.cdph.ca.gov" rel="noopener" target="_blank">CDPH — Skin Health</a>. Retrieved 2026-05-22.</li>
               <li><a href="https://www.mbc.ca.gov/News/" rel="noopener" target="_blank">Medical Board of California — AB 2789</a>. Retrieved 2026-05-22.</li>
             </ol>
