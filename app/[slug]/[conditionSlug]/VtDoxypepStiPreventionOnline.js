@@ -36,7 +36,7 @@ const PHYSICIAN = {
 };
 
 const MEDICATIONS = [
-  { name: "Doxycycline 100 mg (taken as 200 mg per dose)", regimen: "200 mg by mouth, once, within 72 hours of sex (max 200 mg/24h)", price: "~$10–$25 / supply GoodRx (generic)", priceHref: "https://www.goodrx.com/doxycycline", firstLine: true, notes: "CDC DoxyPEP regimen. Take as soon as possible after sex — ideally within 24 hours, no later than 72. Separate from antacids, calcium, and dairy by ~2 hours." }
+  { name: "Doxycycline 100 mg (taken as 200 mg per dose)", regimen: "200 mg by mouth, once, within 72 hours of sex (max 200 mg/24h)", price: "~$10–$25 / supply GoodRx (generic)", priceHref: "https://www.goodrx.com/doxycycline-hyclate", firstLine: true, notes: "CDC DoxyPEP regimen. Take as soon as possible after sex — ideally within 24 hours, no later than 72. Separate from antacids, calcium, and dairy by ~2 hours." }
 ];
 
 const FAQ_ITEMS = [
@@ -247,7 +247,7 @@ export default function VtDoxypepStiPreventionOnline() {
                       Reviewed by <a href={PHYSICIAN.bioUrl}>{PHYSICIAN.name}</a> — Board-Certified {PHYSICIAN.specialty}
                     </span>
                     <span className="vt-doxypep-sti-prevention-online__byline-meta">
-                      NPI {PHYSICIAN.npi} · Vermont Medical License #042.0040345-COMP (<a href="https://secure.professionals.healthvermont.gov/PROD/PORTAL/PRLicenseSearch/SearchPage" rel="noopener" target="_blank">verify</a>) · Last reviewed{' '}
+                      NPI {PHYSICIAN.npi} · Vermont Medical License #042.0040345-COMP (<a href="https://www.healthvermont.gov/systems/board-medical-practice/look-health-professional" rel="noopener" target="_blank">verify</a>) · Last reviewed{' '}
                       <time dateTime={DATE_MODIFIED}>{new Date(DATE_MODIFIED).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</time>
                     </span>
                   </div>
@@ -352,7 +352,7 @@ export default function VtDoxypepStiPreventionOnline() {
 
             <h3>What standard of care applies to Vermont telehealth physicians?</h3>
             <p>
-              The <a href="https://www.healthvermont.gov/systems/board-medical-practice" rel="noopener" target="_blank">Vermont Board of Medical Practice</a> is explicit: the standard of care is the same whether a patient is seen in person or by telehealth. Physicians must be licensed in Vermont to treat Vermont patients — a requirement TeleDirectMD satisfies. Dr. Bhavsar is a Vermont-licensed, board-certified physician of the American Board of Family Medicine and holds Vermont Medical License #042.0040345-COMP issued by the Vermont Board of Medical Practice. <a href="https://secure.professionals.healthvermont.gov/PROD/PORTAL/PRLicenseSearch/SearchPage" rel="noopener" target="_blank">Verify license</a> · <a href="/about/">Dr. Bhavsar bio</a>.
+              The <a href="https://www.healthvermont.gov/systems/board-medical-practice" rel="noopener" target="_blank">Vermont Board of Medical Practice</a> is explicit: the standard of care is the same whether a patient is seen in person or by telehealth. Physicians must be licensed in Vermont to treat Vermont patients — a requirement TeleDirectMD satisfies. Dr. Bhavsar is a Vermont-licensed, board-certified physician of the American Board of Family Medicine and holds Vermont Medical License #042.0040345-COMP issued by the Vermont Board of Medical Practice. <a href="https://www.healthvermont.gov/systems/board-medical-practice/look-health-professional" rel="noopener" target="_blank">Verify license</a> · <a href="/about/">Dr. Bhavsar bio</a>.
             </p>
 
             <h3>Are these medications controlled substances under Vermont law?</h3>

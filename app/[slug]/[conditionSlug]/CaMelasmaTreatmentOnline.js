@@ -539,7 +539,7 @@ export default function CaMelasmaTreatmentOnline() {
                   <tr className="tdmd-ca-uti__med-firstline">
                     <td><strong>Tretinoin 0.025%–0.05% cream</strong> · First-line</td>
                     <td>Apply at night, after hydroquinone, pea-sized amount</td>
-                    <td><a href="https://www.goodrx.com/tretinoin-topical" target="_blank" rel="noopener">~$18–$40 / 20g</a></td>
+                    <td><a href="https://www.goodrx.com/tretinoin" target="_blank" rel="noopener">~$18–$40 / 20g</a></td>
                     <td>Retinoid enhances hydroquinone efficacy and independently lightens hyperpigmentation per AAD. Not for use in pregnancy.</td>
                   </tr>
                   <tr className="tdmd-ca-uti__med-firstline">
@@ -704,7 +704,7 @@ export default function CaMelasmaTreatmentOnline() {
               <li><a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=10123.85.&lawCode=INS" rel="noopener" target="_blank">California Insurance Code §10123.85 (AB 744). Retrieved 2026-05-22.</a></li>
               <li><a href="https://oehha.ca.gov/" rel="noopener" target="_blank">CDPH — Office of Health Hazard Assessment. Retrieved 2026-05-22.</a></li>
               <li><a href="https://www.goodrx.com/hydroquinone" rel="noopener" target="_blank">GoodRx — Hydroquinone. Retrieved 2026-05-22.</a></li>
-              <li><a href="https://www.goodrx.com/tretinoin-topical" rel="noopener" target="_blank">GoodRx — Tretinoin. Retrieved 2026-05-22.</a></li>
+              <li><a href="https://www.goodrx.com/tretinoin" rel="noopener" target="_blank">GoodRx — Tretinoin. Retrieved 2026-05-22.</a></li>
               <li><a href="https://www.goodrx.com/azelaic-acid" rel="noopener" target="_blank">GoodRx — Azelaic Acid. Retrieved 2026-05-22.</a></li>
               <li><a href="https://www.goodrx.com/tri-luma" rel="noopener" target="_blank">GoodRx — Tri-Luma. Retrieved 2026-05-22.</a></li>
             </ol>

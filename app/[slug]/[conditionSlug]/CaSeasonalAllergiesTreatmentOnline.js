@@ -477,19 +477,19 @@ export default function CaSeasonalAllergiesTreatmentOnline() {
                   <tr>
                     <td><strong>Fluticasone propionate nasal spray 50 mcg (Flonase, generic)</strong></td>
                     <td>2 sprays each nostril once daily; 1 spray maintenance</td>
-                    <td><a href="https://www.goodrx.com/fluticasone-nasal" target="_blank" rel="noopener">Available OTC (~$15–$25/month); Rx strength same</a></td>
+                    <td><a href="https://www.goodrx.com/fluticasone-propionate" target="_blank" rel="noopener">Available OTC (~$15–$25/month); Rx strength same</a></td>
                     <td>First-line for moderate-persistent allergic rhinitis per ARIA-EAACI 2024-2025. Minimal systemic absorption. Also available as Flonase Sensimist (aqueous mist, less drip).</td>
                   </tr>
                   <tr>
                     <td><strong>Mometasone nasal spray 50 mcg (Nasonex, generic)</strong></td>
                     <td>2 sprays each nostril once daily</td>
-                    <td><a href="https://www.goodrx.com/mometasone-nasal" target="_blank" rel="noopener">~$15–$30/month GoodRx (generic)</a></td>
+                    <td><a href="https://www.goodrx.com/mometasone" target="_blank" rel="noopener">~$15–$30/month GoodRx (generic)</a></td>
                     <td>Similar efficacy to fluticasone. Generic available.</td>
                   </tr>
                   <tr>
                     <td><strong>Budesonide nasal spray 32 mcg (Rhinocort, generic)</strong></td>
                     <td>1–4 sprays per nostril once daily</td>
-                    <td><a href="https://www.goodrx.com/budesonide-nasal" target="_blank" rel="noopener">Available OTC and Rx (~$15–$25/month)</a></td>
+                    <td><a href="https://www.goodrx.com/budesonide" target="_blank" rel="noopener">Available OTC and Rx (~$15–$25/month)</a></td>
                     <td>Gentle aqueous formulation, well-tolerated. Good choice for patients prone to nasal dryness.</td>
                   </tr>
                   <tr>
@@ -650,12 +650,12 @@ export default function CaSeasonalAllergiesTreatmentOnline() {
               <li><a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=10123.85.&lawCode=INS" rel="noopener" target="_blank">California Insurance Code §10123.85 — Telehealth Parity (AB 744)</a>. Retrieved May 2026.</li>
               <li><a href="https://www.dhcs.ca.gov/provgovpart/Pages/TelehealthFAQ.aspx" rel="noopener" target="_blank">California DHCS — Telehealth FAQ</a>. Retrieved May 2026.</li>
               <li><a href="https://www.mbc.ca.gov/News/" rel="noopener" target="_blank">Medical Board of California — AB 2789 Electronic Prescribing</a>. Retrieved May 2026.</li>
-              <li><a href="https://www.ariaguidelines.com/" rel="noopener" target="_blank">ARIA 2022 GRADE Guideline — Allergic Rhinitis</a>. Retrieved May 2026.</li>
+              <li><a href="https://pubmed.ncbi.nlm.nih.gov/31627910/" rel="noopener" target="_blank">Bousquet J, et al. Next-generation ARIA guidelines for allergic rhinitis based on GRADE and real-world evidence. J Allergy Clin Immunol. 2020</a>. Retrieved May 2026.</li>
               <li><a href="https://pubmed.ncbi.nlm.nih.gov/32707227/" rel="noopener" target="_blank">Dykewicz MS, Wallace DV, Amrol DJ, et al. Rhinitis 2020: A practice parameter update. J Allergy Clin Immunol. 2020;146(4):721-767.</a></li>
               <li><a href="https://www.aaaai.org/Tools-for-the-Public/Conditions-Library/Allergies/Rhinitis-(Hay-Fever)" rel="noopener" target="_blank">AAAAI — Allergic Rhinitis (Hay Fever) Overview</a>. Retrieved May 2026.</li>
               <li><a href="https://acaai.org/allergies/allergic-conditions/hay-fever/" rel="noopener" target="_blank">ACAAI — Hay Fever (Allergic Rhinitis)</a>. Retrieved May 2026.</li>
               <li><a href="https://www.baaqmd.gov/" rel="noopener" target="_blank">Bay Area Air Quality Management District — Pollen Count</a>. Retrieved May 2026.</li>
-              <li><a href="https://www.ariaguidelines.com/" rel="noopener" target="_blank">ARIA-EAACI Guidelines — Allergic Rhinitis and Its Impact on Asthma</a>. Retrieved May 2026.</li>
+              <li><a href="https://pubmed.ncbi.nlm.nih.gov/41324154/" rel="noopener" target="_blank">Sousa-Pinto B, et al. ARIA-EAACI Guidelines 2024-2025 Revision: Part I, Guidelines on Intranasal Treatments. Allergy. 2026</a>. Retrieved May 2026.</li>
             </ol>
           </div>
         </section>

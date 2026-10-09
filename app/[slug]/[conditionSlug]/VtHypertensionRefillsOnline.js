@@ -253,7 +253,7 @@ export default function VtHypertensionRefillsOnline() {
                       Reviewed by <a href={PHYSICIAN.bioUrl}>{PHYSICIAN.name}</a> — Board-Certified {PHYSICIAN.specialty}
                     </span>
                     <span className="tdmd-vt-uti__byline-meta">
-                      NPI {PHYSICIAN.npi} · Vermont Medical License #042.0040345-COMP (<a href="https://secure.professionals.healthvermont.gov/PROD/PORTAL/PRLicenseSearch/SearchPage" rel="noopener" target="_blank">verify</a>) · Last reviewed{' '}
+                      NPI {PHYSICIAN.npi} · Vermont Medical License #042.0040345-COMP (<a href="https://www.healthvermont.gov/systems/board-medical-practice/look-health-professional" rel="noopener" target="_blank">verify</a>) · Last reviewed{' '}
                       <time dateTime={DATE_MODIFIED}>{new Date(DATE_MODIFIED).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</time>
                     </span>
                   </div>
@@ -459,7 +459,7 @@ export default function VtHypertensionRefillsOnline() {
                   <tr>
                     <td><strong>Metoprolol succinate (Toprol XL) 25/50/100/200 mg</strong></td>
                     <td>25–200 mg once daily</td>
-                    <td><a href="https://www.goodrx.com/metoprolol-succinate" target="_blank" rel="noopener">~$10–$30/month GoodRx (generic)</a></td>
+                    <td><a href="https://www.goodrx.com/metoprolol-er" target="_blank" rel="noopener">~$10–$30/month GoodRx (generic)</a></td>
                     <td>Not first-line unless comorbid CAD, HFrEF, or rate control. Use cautiously in asthma.</td>
                   </tr>
                 </tbody>

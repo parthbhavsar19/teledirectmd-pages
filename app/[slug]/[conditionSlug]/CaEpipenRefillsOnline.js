@@ -540,7 +540,7 @@ export default function CaEpipenRefillsOnline() {
                   <tr className="tdmd-ca-uti__med-firstline">
                     <td><strong>Generic epinephrine auto-injector 0.3 mg (Adrenaclick, Symjepi) — 2-pack</strong> · First-line</td>
                     <td>0.3 mg IM into outer mid-thigh; same dosing as EpiPen</td>
-                    <td><a href="https://www.goodrx.com/epinephrine-auto-injector" target="_blank" rel="noopener">~$120–$200 per 2-pack GoodRx</a></td>
+                    <td><a href="https://www.goodrx.com/epinephrine-epipen" target="_blank" rel="noopener">~$120–$200 per 2-pack GoodRx</a></td>
                     <td>FDA-approved generic; same 0.3 mg epinephrine dose. Injection mechanism differs from EpiPen — physician recommends practicing with trainer device before travel.</td>
                   </tr>
                   <tr className="tdmd-ca-uti__med-firstline">

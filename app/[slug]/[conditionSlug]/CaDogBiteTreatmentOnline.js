@@ -534,19 +534,19 @@ export default function CaDogBiteTreatmentOnline() {
                   <tr className="tdmd-ca-uti__med-firstline">
                     <td><strong>Amoxicillin-clavulanate (Augmentin) 875/125 mg</strong> · First-line</td>
                     <td>875 mg twice daily × 5 days (prophylaxis) or 5–7 days (early infection)</td>
-                    <td><a href="https://www.goodrx.com/amoxicillin-clavulanate" target="_blank" rel="noopener">~$15–$35 / 20 tablets</a></td>
+                    <td><a href="https://www.goodrx.com/amoxicillin-potassium-clavulanate" target="_blank" rel="noopener">~$15–$35 / 20 tablets</a></td>
                     <td>First-line prophylaxis for dog bite per IDSA. Covers Pasteurella multocida, Capnocytophaga, anaerobes, streptococci, staphylococci. Begin within 8–12 hours of bite for prophylaxis to be effective.</td>
                   </tr>
                   <tr>
                     <td><strong>Doxycycline 100 mg oral (penicillin-allergic alternative)</strong></td>
                     <td>100 mg twice daily × 5–7 days — combine with metronidazole for anaerobic coverage</td>
-                    <td><a href="https://www.goodrx.com/doxycycline" target="_blank" rel="noopener">~$12–$25 / 30 tabs</a></td>
+                    <td><a href="https://www.goodrx.com/doxycycline-hyclate" target="_blank" rel="noopener">~$12–$25 / 30 tabs</a></td>
                     <td>Second-line for penicillin-allergic patients per IDSA. Add metronidazole 500 mg three times daily for anaerobic coverage. Not for use in pregnancy.</td>
                   </tr>
                   <tr>
                     <td><strong>TMP-SMX DS + metronidazole (penicillin-allergic alternative)</strong></td>
                     <td>TMP-SMX DS twice daily + metronidazole 500 mg three times daily × 5 days</td>
-                    <td><a href="https://www.goodrx.com/trimethoprim-sulfamethoxazole" target="_blank" rel="noopener">~$10–$20 combined</a></td>
+                    <td><a href="https://www.goodrx.com/sulfamethoxazole-trimethoprim" target="_blank" rel="noopener">~$10–$20 combined</a></td>
                     <td>Alternative for penicillin-allergic patients per IDSA. TMP-SMX covers gram-negative aerobes; metronidazole covers anaerobes. Less data than amoxicillin-clavulanate.</td>
                   </tr>
                 </tbody>
@@ -693,8 +693,8 @@ export default function CaDogBiteTreatmentOnline() {
               <li><a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=2290.5.&lawCode=BPC" rel="noopener" target="_blank">California B&P Code §2290.5. Retrieved 2026-05-22.</a></li>
               <li><a href="https://www.mbc.ca.gov/Licensees/Telehealth.aspx" rel="noopener" target="_blank">Medical Board of California — Telehealth. Retrieved 2026-05-22.</a></li>
               <li><a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=10123.85.&lawCode=INS" rel="noopener" target="_blank">California Insurance Code §10123.85 (AB 744). Retrieved 2026-05-22.</a></li>
-              <li><a href="https://www.goodrx.com/amoxicillin-clavulanate" rel="noopener" target="_blank">GoodRx — Amoxicillin-Clavulanate. Retrieved 2026-05-22.</a></li>
-              <li><a href="https://www.goodrx.com/doxycycline" rel="noopener" target="_blank">GoodRx — Doxycycline. Retrieved 2026-05-22.</a></li>
+              <li><a href="https://www.goodrx.com/amoxicillin-potassium-clavulanate" rel="noopener" target="_blank">GoodRx — Amoxicillin-Clavulanate. Retrieved 2026-05-22.</a></li>
+              <li><a href="https://www.goodrx.com/doxycycline-hyclate" rel="noopener" target="_blank">GoodRx — Doxycycline. Retrieved 2026-05-22.</a></li>
               <li><a href="https://www.mbc.ca.gov/Licensees/Prescriptions/Electronic_Prescribing.aspx" rel="noopener" target="_blank">Medical Board of California — AB 2789. Retrieved 2026-05-22.</a></li>
               <li><a href="https://www.cdc.gov/healthy-pets/about/dogs.html" rel="noopener" target="_blank">CDC — Dogs: Preventing Dog Bites and Scratches. Retrieved 2026-05-22.</a></li>
             </ol>

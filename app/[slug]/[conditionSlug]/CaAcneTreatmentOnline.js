@@ -426,13 +426,13 @@ export default function CaAcneTreatmentOnline() {
                     <tr className="tdmd-med-firstline">
                       <td><strong>Clindamycin 1% topical gel + benzoyl peroxide</strong> · First-line</td>
                       <td>Apply to affected areas twice daily — combination product preferred</td>
-                      <td><a href="https://www.goodrx.com/clindamycin-topical" target="_blank" rel="noopener">~$25–$60 / 60g</a></td>
+                      <td><a href="https://www.goodrx.com/clindamycin" target="_blank" rel="noopener">~$25–$60 / 60g</a></td>
                       <td>First-line topical antibiotic per AAD. Always combine with benzoyl peroxide to reduce C. acnes resistance. Combination products (BenzaClin) preferred.</td>
                     </tr>
                     <tr className="tdmd-med-firstline">
                       <td><strong>Doxycycline 50–100 mg oral</strong> · First-line</td>
                       <td>50–100 mg once or twice daily with food</td>
-                      <td><a href="https://www.goodrx.com/doxycycline" target="_blank" rel="noopener">~$12–$25 / 30 tabs</a></td>
+                      <td><a href="https://www.goodrx.com/doxycycline-hyclate" target="_blank" rel="noopener">~$12–$25 / 30 tabs</a></td>
                       <td>First-line oral antibiotic per AAD 2024 for moderate-severe acne. Limit to 3–6 months; combine with topical retinoid and BP. Not for use in pregnancy.</td>
                     </tr>
                     <tr>
@@ -554,8 +554,8 @@ export default function CaAcneTreatmentOnline() {
               <li><a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=10123.85.&lawCode=INS" rel="noopener" target="_blank">California Insurance Code §10123.85 (AB 744)</a>. Retrieved 2026-05-22.</li>
               <li><a href="https://www.dhcs.ca.gov/provgovpart/Pages/TelehealthFAQ.aspx" rel="noopener" target="_blank">California DHCS Telehealth FAQ</a>. Retrieved 2026-05-22.</li>
               <li><a href="https://www.goodrx.com/tretinoin" rel="noopener" target="_blank">GoodRx — Tretinoin</a>. Retrieved 2026-05-22.</li>
-              <li><a href="https://www.goodrx.com/doxycycline" rel="noopener" target="_blank">GoodRx — Doxycycline</a>. Retrieved 2026-05-22.</li>
-              <li><a href="https://www.goodrx.com/clindamycin-topical" rel="noopener" target="_blank">GoodRx — Clindamycin Topical</a>. Retrieved 2026-05-22.</li>
+              <li><a href="https://www.goodrx.com/doxycycline-hyclate" rel="noopener" target="_blank">GoodRx — Doxycycline</a>. Retrieved 2026-05-22.</li>
+              <li><a href="https://www.goodrx.com/clindamycin" rel="noopener" target="_blank">GoodRx — Clindamycin Topical</a>. Retrieved 2026-05-22.</li>
               <li><a href="https://www.cdph.ca.gov" rel="noopener" target="_blank">CDPH — Skin Health</a>. Retrieved 2026-05-22.</li>
               <li><a href="https://www.mbc.ca.gov/News/" rel="noopener" target="_blank">Medical Board of California — AB 2789</a>. Retrieved 2026-05-22.</li>
             </ol>

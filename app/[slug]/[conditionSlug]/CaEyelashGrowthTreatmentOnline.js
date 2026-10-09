@@ -540,13 +540,13 @@ export default function CaEyelashGrowthTreatmentOnline() {
                   <tr>
                     <td><strong>Compounded bimatoprost 0.03% — California compounding pharmacy option</strong></td>
                     <td>Same application technique as Latisse brand — nightly to upper eyelid margin</td>
-                    <td><a href="https://www.goodrx.com/bimatoprost-ophthalmic" target="_blank" rel="noopener">~$40–$80 per bottle at California compounding pharmacies</a></td>
+                    <td><a href="https://www.goodrx.com/bimatoprost" target="_blank" rel="noopener">~$40–$80 per bottle at California compounding pharmacies</a></td>
                     <td>Compounded bimatoprost may reduce cost compared to brand Latisse. Not FDA-approved as a finished product — physician discusses compounded vs. brand at visit. California compounding pharmacies must comply with CA Board of Pharmacy 503A compounding standards.</td>
                   </tr>
                   <tr>
                     <td><strong>Minoxidil topical 5% — off-label eyebrow/lash adjunct (patient-initiated OTC)</strong></td>
                     <td>Not routinely prescribed; OTC minoxidil is sometimes used off-label for eyebrow hypotrichosis by patients</td>
-                    <td><a href="https://www.goodrx.com/minoxidil-topical" target="_blank" rel="noopener">~$25–$40/month OTC</a></td>
+                    <td><a href="https://www.goodrx.com/minoxidil" target="_blank" rel="noopener">~$25–$40/month OTC</a></td>
                     <td>Not FDA-approved for eyelash or eyebrow use. Physician discusses off-label application only at patient request. Proximity to eyes creates safety concern — not typically prescribed by TeleDirectMD for periocular use. Bimatoprost (Latisse) is the preferred physician-prescribed option.</td>
                   </tr>
                 </tbody>

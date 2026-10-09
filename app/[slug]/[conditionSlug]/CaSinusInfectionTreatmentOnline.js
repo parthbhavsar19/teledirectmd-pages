@@ -535,7 +535,7 @@ export default function CaSinusInfectionTreatmentOnline() {
                   <tr className="tdmd-ca-uti__med-firstline">
                     <td><strong>Amoxicillin-clavulanate (Augmentin) 875/125 mg</strong> · First-line</td>
                     <td>1 tablet twice daily × 5–7 days</td>
-                    <td><a href="https://www.goodrx.com/amoxicillin-clavulanate" target="_blank" rel="noopener">~$16–$25 generic with GoodRx</a></td>
+                    <td><a href="https://www.goodrx.com/amoxicillin-potassium-clavulanate" target="_blank" rel="noopener">~$16–$25 generic with GoodRx</a></td>
                     <td>First-line per IDSA bacterial rhinosinusitis guideline. Covers S. pneumoniae, H. influenzae, M. catarrhalis. Avoid if penicillin allergy.</td>
                   </tr>
                   <tr className="tdmd-ca-uti__med-firstline">

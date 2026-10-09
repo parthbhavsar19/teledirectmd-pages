@@ -536,19 +536,19 @@ export default function CaPinkEyeTreatmentOnline() {
                   <tr className="tdmd-ca-uti__med-firstline">
                     <td><strong>Ofloxacin ophthalmic solution 0.3%</strong> · First-line</td>
                     <td>1–2 drops in affected eye(s) every 2–4 hours × 2 days, then QID × 5 days</td>
-                    <td><a href="https://www.goodrx.com/ofloxacin-ophthalmic" target="_blank" rel="noopener">~$12–$20 generic with GoodRx</a></td>
+                    <td><a href="https://www.goodrx.com/ofloxacin" target="_blank" rel="noopener">~$12–$20 generic with GoodRx</a></td>
                     <td>First-line fluoroquinolone eye drop for suspected bacterial conjunctivitis. Broad-spectrum coverage.</td>
                   </tr>
                   <tr className="tdmd-ca-uti__med-firstline">
                     <td><strong>Polymyxin B / trimethoprim ophthalmic (Polytrim)</strong> · First-line</td>
                     <td>1 drop in affected eye(s) every 3 hours up to 6 times/day × 7–10 days</td>
-                    <td><a href="https://www.goodrx.com/polymyxin-b-trimethoprim-ophthalmic" target="_blank" rel="noopener">~$10–$18 generic with GoodRx</a></td>
+                    <td><a href="https://www.goodrx.com/polymyxin-b-trimethoprim" target="_blank" rel="noopener">~$10–$18 generic with GoodRx</a></td>
                     <td>Alternative first-line for bacterial conjunctivitis. Lower cost option. Good gram-positive and gram-negative coverage.</td>
                   </tr>
                   <tr>
                     <td><strong>Erythromycin ophthalmic ointment 0.5%</strong></td>
                     <td>Apply small amount to affected eye(s) up to 6 times/day × 5–7 days</td>
-                    <td><a href="https://www.goodrx.com/erythromycin-ophthalmic" target="_blank" rel="noopener">~$15–$25 generic with GoodRx</a></td>
+                    <td><a href="https://www.goodrx.com/erythromycin" target="_blank" rel="noopener">~$15–$25 generic with GoodRx</a></td>
                     <td>Alternative for mild bacterial conjunctivitis. Ointment formulation — may blur vision temporarily.</td>
                   </tr>
                   <tr>

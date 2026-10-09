@@ -40,7 +40,7 @@ const MEDICATIONS = [
   { name: "Dicloxacillin 500 mg", regimen: "500 mg four times daily × 5–7 days", price: "~$15–$35 / course GoodRx (generic)", priceHref: "https://www.goodrx.com/dicloxacillin", firstLine: true, notes: "Alternative beta-lactam for non-purulent cellulitis. Take on an empty stomach." },
   { name: "Clindamycin 300–450 mg", regimen: "300–450 mg three times daily × 5–7 days", price: "~$15–$40 / course GoodRx (generic)", priceHref: "https://www.goodrx.com/clindamycin", firstLine: false, notes: "Option for penicillin allergy; also covers some MRSA. Watch for diarrhea (C. difficile risk)." },
   { name: "Trimethoprim-sulfamethoxazole or doxycycline (if MRSA suspected)", regimen: "TMP-SMX DS twice daily, or doxycycline 100 mg twice daily × 5–7 days", price: "~$8–$25 / course GoodRx (generic)", priceHref: "https://www.goodrx.com/sulfamethoxazole-trimethoprim", firstLine: false, notes: "Used when MRSA is a concern (e.g., purulence, prior MRSA). Doxycycline avoided in pregnancy." },
-  { name: "Amoxicillin-clavulanate 875/125 mg (animal/cat bite)", regimen: "875/125 mg twice daily × 5–7 days", price: "~$15–$40 / course GoodRx (generic)", priceHref: "https://www.goodrx.com/amoxicillin-clavulanate", firstLine: false, notes: "Covers Pasteurella from animal and cat bites. Bite wounds may need in-person wound care." }
+  { name: "Amoxicillin-clavulanate 875/125 mg (animal/cat bite)", regimen: "875/125 mg twice daily × 5–7 days", price: "~$15–$40 / course GoodRx (generic)", priceHref: "https://www.goodrx.com/amoxicillin-potassium-clavulanate", firstLine: false, notes: "Covers Pasteurella from animal and cat bites. Bite wounds may need in-person wound care." }
 ];
 
 const FAQ_ITEMS = [
@@ -251,7 +251,7 @@ export default function VtCellulitisTreatmentOnline() {
                       Reviewed by <a href={PHYSICIAN.bioUrl}>{PHYSICIAN.name}</a> — Board-Certified {PHYSICIAN.specialty}
                     </span>
                     <span className="vt-cellulitis-treatment-online__byline-meta">
-                      NPI {PHYSICIAN.npi} · Vermont Medical License #042.0040345-COMP (<a href="https://secure.professionals.healthvermont.gov/PROD/PORTAL/PRLicenseSearch/SearchPage" rel="noopener" target="_blank">verify</a>) · Last reviewed{' '}
+                      NPI {PHYSICIAN.npi} · Vermont Medical License #042.0040345-COMP (<a href="https://www.healthvermont.gov/systems/board-medical-practice/look-health-professional" rel="noopener" target="_blank">verify</a>) · Last reviewed{' '}
                       <time dateTime={DATE_MODIFIED}>{new Date(DATE_MODIFIED).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</time>
                     </span>
                   </div>
@@ -356,7 +356,7 @@ export default function VtCellulitisTreatmentOnline() {
 
             <h3>What standard of care applies to Vermont telehealth physicians?</h3>
             <p>
-              The <a href="https://www.healthvermont.gov/systems/board-medical-practice" rel="noopener" target="_blank">Vermont Board of Medical Practice</a> is explicit: the standard of care is the same whether a patient is seen in person or by telehealth. Physicians must be licensed in Vermont to treat Vermont patients — a requirement TeleDirectMD satisfies. Dr. Bhavsar is a Vermont-licensed, board-certified physician of the American Board of Family Medicine and holds Vermont Medical License #042.0040345-COMP issued by the Vermont Board of Medical Practice. <a href="https://secure.professionals.healthvermont.gov/PROD/PORTAL/PRLicenseSearch/SearchPage" rel="noopener" target="_blank">Verify license</a> · <a href="/about/">Dr. Bhavsar bio</a>.
+              The <a href="https://www.healthvermont.gov/systems/board-medical-practice" rel="noopener" target="_blank">Vermont Board of Medical Practice</a> is explicit: the standard of care is the same whether a patient is seen in person or by telehealth. Physicians must be licensed in Vermont to treat Vermont patients — a requirement TeleDirectMD satisfies. Dr. Bhavsar is a Vermont-licensed, board-certified physician of the American Board of Family Medicine and holds Vermont Medical License #042.0040345-COMP issued by the Vermont Board of Medical Practice. <a href="https://www.healthvermont.gov/systems/board-medical-practice/look-health-professional" rel="noopener" target="_blank">Verify license</a> · <a href="/about/">Dr. Bhavsar bio</a>.
             </p>
 
             <h3>Are these medications controlled substances under Vermont law?</h3>

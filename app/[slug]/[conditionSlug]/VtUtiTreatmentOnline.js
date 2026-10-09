@@ -516,7 +516,7 @@ export default function VtUtiTreatmentOnline() {
 
             <h3>What standard of care applies to Vermont telehealth physicians?</h3>
             <p>
-              The <a href="https://www.healthvermont.gov/systems/board-medical-practice" rel="noopener" target="_blank">Vermont Board of Medical Practice</a> is explicit: &ldquo;The standard of care is the same whether the patient is seen in-person, through telehealth or other methods of electronically enabled health care.&rdquo; Physicians must be licensed in Vermont to provide telehealth to Vermont patients — a requirement TeleDirectMD satisfies. Dr. Bhavsar holds Vermont Medical License #042.0040345-COMP issued by the Vermont Board of Medical Practice. <a href="https://secure.professionals.healthvermont.gov/PROD/PORTAL/PRLicenseSearch/SearchPage" rel="noopener" target="_blank">Verify license</a> · <a href="/about/">Dr. Bhavsar bio</a>.
+              The <a href="https://www.healthvermont.gov/systems/board-medical-practice" rel="noopener" target="_blank">Vermont Board of Medical Practice</a> is explicit: &ldquo;The standard of care is the same whether the patient is seen in-person, through telehealth or other methods of electronically enabled health care.&rdquo; Physicians must be licensed in Vermont to provide telehealth to Vermont patients — a requirement TeleDirectMD satisfies. Dr. Bhavsar holds Vermont Medical License #042.0040345-COMP issued by the Vermont Board of Medical Practice. <a href="https://www.healthvermont.gov/systems/board-medical-practice/look-health-professional" rel="noopener" target="_blank">Verify license</a> · <a href="/about/">Dr. Bhavsar bio</a>.
             </p>
 
             

@@ -34,7 +34,7 @@
       {"name": "AAAAI — Allergic Rhinitis (Hay Fever) Overview", "url": "https://www.aaaai.org/conditions-treatments/allergies/hay-fever-rhinitis"},
       {"name": "ACAAI — Hay Fever (Allergic Rhinitis)", "url": "https://acaai.org/allergies/allergic-conditions/hay-fever/"},
       {"name": "Bay Area Air Quality Management District — Pollen Count", "url": "https://www.baaqmd.gov/"},
-      {"name": "ARIA-EAACI Guidelines — Allergic Rhinitis and Its Impact on Asthma", "url": "https://www.ariaguidelines.com/"}
+      {"name": "Sousa-Pinto B, et al. Allergic Rhinitis and Its Impact on Asthma (ARIA)-EAACI Guidelines-2024-2025 Revision: Part I-Guidelines on Intranasal Treatments. Allergy. 2026", "url": "https://pubmed.ncbi.nlm.nih.gov/41324154/"}
     ]
   },
   "clinical_guidelines": {
@@ -51,15 +51,15 @@
     "immunotherapy_referral": "Allergen immunotherapy (SCIT or SLIT) is the only disease-modifying treatment and is indicated for: moderate-severe allergic rhinitis not adequately controlled by pharmacotherapy, patient preference for reduced medication dependence, comorbid allergic asthma, and when desensitization to specific allergens is feasible. TeleDirectMD facilitates referral to allergist for immunotherapy evaluation.",
     "monitoring": "Annual review of allergen trigger list, symptom control, medication tolerance, and immunotherapy progress. Pollen count awareness counseling (BAAQMD, California DPR pollen data resources).",
     "sources": [
-      {"name": "ARIA 2022 GRADE Guideline — Allergic Rhinitis", "url": "https://www.ariaguidelines.com/"},
+      {"name": "Sousa-Pinto B, et al. Allergic Rhinitis and Its Impact on Asthma (ARIA)-EAACI Guidelines-2024-2025 Revision: Part I-Guidelines on Intranasal Treatments. Allergy. 2026", "url": "https://pubmed.ncbi.nlm.nih.gov/41324154/"},
       {"name": "AAAAI — Hay Fever / Rhinitis", "url": "https://www.aaaai.org/conditions-treatments/allergies/hay-fever-rhinitis"},
       {"name": "ACAAI — Hay Fever (Rhinitis)", "url": "https://acaai.org/allergies/allergic-conditions/hay-fever/"}
     ]
   },
   "medications": [
-    {"name": "Fluticasone propionate nasal spray 50 mcg (Flonase, generic)", "class": "Intranasal corticosteroid (INCS) — first-line", "regimen": "2 sprays each nostril once daily; 1 spray maintenance", "goodrx_price": "Available OTC (~$15–$25/month); Rx strength same", "goodrx_url": "https://www.goodrx.com/fluticasone-nasal", "notes": "First-line for moderate-persistent allergic rhinitis per ARIA 2024-2025. Minimal systemic absorption. Also available as Flonase Sensimist (aqueous mist, less drip)."},
-    {"name": "Mometasone nasal spray 50 mcg (Nasonex, generic)", "class": "INCS — first-line", "regimen": "2 sprays each nostril once daily", "goodrx_price": "~$15–$30/month GoodRx (generic)", "goodrx_url": "https://www.goodrx.com/mometasone-nasal", "notes": "Similar efficacy to fluticasone. Generic available."},
-    {"name": "Budesonide nasal spray 32 mcg (Rhinocort, generic)", "class": "INCS — first-line", "regimen": "1–4 sprays per nostril once daily", "goodrx_price": "Available OTC and Rx (~$15–$25/month)", "goodrx_url": "https://www.goodrx.com/budesonide-nasal", "notes": "Gentle aqueous formulation, well-tolerated. Good choice for patients prone to nasal dryness."},
+    {"name": "Fluticasone propionate nasal spray 50 mcg (Flonase, generic)", "class": "Intranasal corticosteroid (INCS) — first-line", "regimen": "2 sprays each nostril once daily; 1 spray maintenance", "goodrx_price": "Available OTC (~$15–$25/month); Rx strength same", "goodrx_url": "https://www.goodrx.com/fluticasone-propionate", "notes": "First-line for moderate-persistent allergic rhinitis per ARIA 2024-2025. Minimal systemic absorption. Also available as Flonase Sensimist (aqueous mist, less drip)."},
+    {"name": "Mometasone nasal spray 50 mcg (Nasonex, generic)", "class": "INCS — first-line", "regimen": "2 sprays each nostril once daily", "goodrx_price": "~$15–$30/month GoodRx (generic)", "goodrx_url": "https://www.goodrx.com/mometasone", "notes": "Similar efficacy to fluticasone. Generic available."},
+    {"name": "Budesonide nasal spray 32 mcg (Rhinocort, generic)", "class": "INCS — first-line", "regimen": "1–4 sprays per nostril once daily", "goodrx_price": "Available OTC and Rx (~$15–$25/month)", "goodrx_url": "https://www.goodrx.com/budesonide", "notes": "Gentle aqueous formulation, well-tolerated. Good choice for patients prone to nasal dryness."},
     {"name": "Cetirizine (Zyrtec) 10 mg", "class": "2nd-generation antihistamine", "regimen": "10 mg once daily", "goodrx_price": "Available OTC (~$10–$20/month generic)", "goodrx_url": "https://www.goodrx.com/cetirizine", "notes": "Low sedation, rapid onset. May cause mild drowsiness in some patients."},
     {"name": "Fexofenadine (Allegra) 180 mg", "class": "2nd-generation antihistamine — least sedating", "regimen": "180 mg once daily or 60 mg BID", "goodrx_price": "Available OTC (~$10–$20/month generic)", "goodrx_url": "https://www.goodrx.com/fexofenadine", "notes": "Least sedating antihistamine. Best choice for daytime use when driving or operating machinery."},
     {"name": "Loratadine (Claritin) 10 mg", "class": "2nd-generation antihistamine", "regimen": "10 mg once daily", "goodrx_price": "Available OTC (~$8–$18/month generic)", "goodrx_url": "https://www.goodrx.com/loratadine", "notes": "Non-sedating. Generic widely available in California pharmacies."},

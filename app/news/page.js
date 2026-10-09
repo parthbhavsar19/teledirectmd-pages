@@ -420,7 +420,7 @@ export default function NewsHubPage() {
             TeleDirectMD operates in the &ldquo;acute care and medication refill&rdquo; segment of telehealth — the largest
             by volume and most directly competitive with urgent care centers and retail health clinics. The practice&apos;s
             $79 price point, MD-only model, and growing insurance network position it in a distinct niche from both the
-            large employer-benefit platforms (Teladoc, MDLIVE) and the subscription-model startups (K Health, Ro, Hims).
+            large employer-benefit platforms (Teladoc, MDLIVE) and the subscription-model startups (Ro, Hims).
           </p>
           <p className="nws-p">
             Dr. Bhavsar has commented publicly on the importance of physician-led telehealth, the risks of AI-only diagnostic

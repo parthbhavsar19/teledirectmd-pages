@@ -466,7 +466,7 @@ export default function TravelNursesPage() {
             <li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11060056/" rel="nofollow noopener" target="_blank">Travel nurse work experiences: Burnout, job satisfaction, and work environment — Nursing Management / PMC (2024)</a></li>
             <li><a href="https://www.hosthealthcare.com/blog/the-mental-health-handbook-for-travel-nurses/" rel="nofollow noopener" target="_blank">The Mental Health Handbook for Travel Nurses — Host Healthcare</a></li>
             <li><a href="https://www.pennmedicine.org/news/study-finds-telemedicine-visits-cost-far-less-than-office-visits" rel="nofollow noopener" target="_blank">Study finds telemedicine visits cost far less than office visits — Penn Medicine</a></li>
-            <li><a href="https://www.goodrx.com/healthcare-access/telehealth/how-much-does-a-telehealth-visit-cost" rel="nofollow noopener" target="_blank">How Much Does a Telehealth Visit Cost? — GoodRx</a></li>
+            <li><a href="https://www.goodrx.com/healthcare-access/telehealth/how-much-does-telehealth-cost" rel="nofollow noopener" target="_blank">How Much Does a Telehealth Visit Cost? — GoodRx</a></li>
             <li><a href="https://betternurse.org/travel-nursing-statistics/" rel="nofollow noopener" target="_blank">Travel Nursing Statistics &amp; Trends for 2025 — BetterNurse.org</a></li>
           </ul>
         </div>

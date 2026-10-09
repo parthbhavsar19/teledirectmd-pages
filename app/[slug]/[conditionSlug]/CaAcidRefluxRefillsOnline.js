@@ -420,7 +420,7 @@ export default function CaAcidRefluxRefillsOnline() {
               GERD affects approximately 20% of U.S. adults — an estimated 7.8 million California adults — with weekly symptoms in approximately 10% and daily symptoms in 4–5%. California's high obesity prevalence (27% per CDPH 2023) is the strongest modifiable risk factor for GERD, as excess body weight increases intra-abdominal pressure and reduces lower esophageal sphincter tone. The ACG 2022 guideline recommends weight loss for patients with GERD who are overweight or obese.
             </p>
             <p>
-              Clinical guidance for acid reflux / gerd (refills for established patients) is provided by <a href="https://gi.org/guidelines/diagnosis-and-management-of-gastroesophageal-reflux-disease/" rel="noopener" target="_blank">ACG</a> through the ACG 2022 Clinical Practice Guideline: Diagnosis and Management of Gastroesophageal Reflux Disease. TeleDirectMD follows these guidelines on every patient visit.
+              Clinical guidance for acid reflux / gerd (refills for established patients) is provided by <a href="https://pubmed.ncbi.nlm.nih.gov/34807007/" rel="noopener" target="_blank">ACG</a> through the ACG 2022 Clinical Practice Guideline: Diagnosis and Management of Gastroesophageal Reflux Disease. TeleDirectMD follows these guidelines on every patient visit.
             </p>
             <h3>What causes acid reflux refills and who is most at risk in California?</h3>
             <p>
@@ -515,7 +515,7 @@ export default function CaAcidRefluxRefillsOnline() {
           <div className="tdmd-container">
             <h2>Acid Reflux / GERD (Refills for Established Patients) Medication Options and Costs in California</h2>
             <p>
-              Medications for acid reflux / gerd (refills for established patients) are selected based on current guidelines from <a href="https://gi.org/guidelines/diagnosis-and-management-of-gastroesophageal-reflux-disease/" rel="noopener" target="_blank">ACG</a>, patient history, allergies, and relevant contraindications assessed at the visit. GoodRx-verified pricing is shown below.
+              Medications for acid reflux / gerd (refills for established patients) are selected based on current guidelines from <a href="https://pubmed.ncbi.nlm.nih.gov/34807007/" rel="noopener" target="_blank">ACG</a>, patient history, allergies, and relevant contraindications assessed at the visit. GoodRx-verified pricing is shown below.
             </p>
             <div className="tdmd-table-wrap">
               <table className="tdmd-table" aria-label="Acid Reflux / GERD (Refills for Established Patients) medication options and GoodRx prices">
@@ -698,7 +698,7 @@ export default function CaAcidRefluxRefillsOnline() {
               <li><a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=2290.5.&lawCode=BPC" rel="noopener" target="_blank">California Business and Professions Code Section 2290.5 — Telehealth Advancement Act</a></li>
               <li><a href="https://www.mbc.ca.gov/Licensees/Telehealth/" rel="noopener" target="_blank">Medical Board of California — Telehealth Resources</a></li>
               <li><a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=10123.85.&lawCode=INS" rel="noopener" target="_blank">California Insurance Code §10123.85 — Telehealth Parity (AB 744)</a></li>
-              <li><a href="https://gi.org/guidelines/diagnosis-and-management-of-gastroesophageal-reflux-disease/" rel="noopener" target="_blank">ACG 2022 GERD Clinical Practice Guidelines</a></li>
+              <li><a href="https://pubmed.ncbi.nlm.nih.gov/34807007/" rel="noopener" target="_blank">Katz PO, Dunbar KB, Schnoll-Sussman FH, et al. ACG Clinical Guideline for the Diagnosis and Management of Gastroesophageal Reflux Disease. Am J Gastroenterol. 2022</a></li>
               
               <li><a href="https://www.dhcs.ca.gov/provgovpart/Pages/Telehealth.aspx" rel="noopener" target="_blank">California DHCS — Telehealth FAQ</a></li>
               <li><a href="https://www.mbc.ca.gov/Licensees/ePrescribing.aspx" rel="noopener" target="_blank">Medical Board of California — AB 2789 Electronic Prescribing</a></li>

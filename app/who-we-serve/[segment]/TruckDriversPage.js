@@ -473,7 +473,7 @@ export default function TruckDriversPage() {
             <li><a href="https://pubmed.ncbi.nlm.nih.gov/33099498/" rel="nofollow noopener" target="_blank">Cardiometabolic risk factors and mental health status among truck drivers: a systematic review — PubMed</a></li>
             <li><a href="https://www.lytx.com/newsletter/driving-healthy-how-driver-health-wellness-affects-everyone" rel="nofollow noopener" target="_blank">Driving Healthy: How Driver Health & Wellness Affects Everyone — Lytx</a></li>
             <li><a href="https://www.pennmedicine.org/news/study-finds-telemedicine-visits-cost-far-less-than-office-visits" rel="nofollow noopener" target="_blank">Study finds telemedicine visits cost far less than office visits — Penn Medicine</a></li>
-            <li><a href="https://www.goodrx.com/healthcare-access/telehealth/how-much-does-a-telehealth-visit-cost" rel="nofollow noopener" target="_blank">How Much Does a Telehealth Visit Cost? — GoodRx</a></li>
+            <li><a href="https://www.goodrx.com/healthcare-access/telehealth/how-much-does-telehealth-cost" rel="nofollow noopener" target="_blank">How Much Does a Telehealth Visit Cost? — GoodRx</a></li>
             <li><a href="https://www.naohp.com/telehealth-exams-and-dot-drivers/" rel="nofollow noopener" target="_blank">Telehealth Exams and DOT Drivers — NAOHP</a></li>
           </ul>
         </div>

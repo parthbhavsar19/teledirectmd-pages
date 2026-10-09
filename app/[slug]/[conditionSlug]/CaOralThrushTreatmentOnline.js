@@ -534,7 +534,7 @@ export default function CaOralThrushTreatmentOnline() {
                   <tr className="tdmd-ca-uti__med-firstline">
                     <td><strong>Nystatin oral suspension 100,000 units/mL</strong> · First-line</td>
                     <td>4–6 mL (400,000–600,000 units) swish and swallow four times daily × 7–14 days</td>
-                    <td><a href="https://www.goodrx.com/nystatin-oral" target="_blank" rel="noopener">~$15–$30 generic with GoodRx</a></td>
+                    <td><a href="https://www.goodrx.com/nystatin" target="_blank" rel="noopener">~$15–$30 generic with GoodRx</a></td>
                     <td>Recommended alternative for mild oral candidiasis per IDSA candidiasis guideline. Swish around mouth for at least 1 minute before swallowing. Minimal systemic absorption.</td>
                   </tr>
                   <tr className="tdmd-ca-uti__med-firstline">
@@ -546,7 +546,7 @@ export default function CaOralThrushTreatmentOnline() {
                   <tr>
                     <td><strong>Clotrimazole troches 10 mg</strong></td>
                     <td>Dissolve slowly in mouth five times daily × 7–14 days</td>
-                    <td><a href="https://www.goodrx.com/clotrimazole-lozenge" target="_blank" rel="noopener">~$20–$40 generic with GoodRx</a></td>
+                    <td><a href="https://www.goodrx.com/clotrimazole" target="_blank" rel="noopener">~$20–$40 generic with GoodRx</a></td>
                     <td>First-line topical antifungal for mild disease per IDSA guideline. Requires frequent dosing. Good option when systemic absorption of fluconazole is undesirable.</td>
                   </tr>
                 </tbody>

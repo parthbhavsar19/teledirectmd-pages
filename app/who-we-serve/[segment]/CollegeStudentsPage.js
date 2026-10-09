@@ -843,7 +843,7 @@ export default function CollegeStudentsPage() {
           <h2>References</h2>
           <ul className="tdmd-ref-list">
             <li><a href="https://nces.ed.gov/fastfacts/display.asp?id=372" target="_blank" rel="noopener noreferrer">National Center for Education Statistics — College Enrollment Data</a></li>
-            <li><a href="https://www.hers.com/telehealth-survey" target="_blank" rel="noopener noreferrer">Hers — College Student Telehealth Usage Survey (2024)</a></li>
+            <li><a href="https://kvia.com/news/business-technology/stacker-science/2024/08/31/trust-in-telehealth-is-on-the-rise-nearly-3-4-of-gen-z-report-using-a-telehealth-service/" target="_blank" rel="noopener noreferrer">Hers 2024 Telehealth Survey, as reported by Stacker (KVIA): Nearly 3/4 of Gen Z Report Using a Telehealth Service</a></li>
             <li><a href="https://hope4college.com/" target="_blank" rel="noopener noreferrer">Temple University Hope Center — #RealCollege Survey</a></li>
             <li><a href="https://www.cdc.gov/uti/about/index.html" target="_blank" rel="noopener noreferrer">CDC — Urinary Tract Infection Basics</a></li>
             <li><a href="https://pubmed.ncbi.nlm.nih.gov/27386721/" target="_blank" rel="noopener noreferrer">AAFP — Common Questions About Streptococcal Pharyngitis (Am Fam Physician 2016)</a></li>

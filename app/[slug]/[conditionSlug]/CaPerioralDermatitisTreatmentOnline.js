@@ -533,19 +533,19 @@ export default function CaPerioralDermatitisTreatmentOnline() {
                   <tr className="tdmd-ca-uti__med-firstline">
                     <td><strong>Metronidazole 0.75%–1% topical cream/gel</strong> · First-line</td>
                     <td>Apply to perioral area twice daily for 8–12 weeks</td>
-                    <td><a href="https://www.goodrx.com/metronidazole-topical" target="_blank" rel="noopener">~$15–$40 / 45g</a></td>
+                    <td><a href="https://www.goodrx.com/metronidazole" target="_blank" rel="noopener">~$15–$40 / 45g</a></td>
                     <td>First-line topical for perioral dermatitis per AAD. Anti-inflammatory and antimicrobial. Well-tolerated on facial skin. Often combined with doxycycline for moderate-severe cases.</td>
                   </tr>
                   <tr className="tdmd-ca-uti__med-firstline">
                     <td><strong>Erythromycin 2% topical solution/gel</strong> · First-line</td>
                     <td>Apply to perioral area twice daily for 8–12 weeks</td>
-                    <td><a href="https://www.goodrx.com/erythromycin-topical" target="_blank" rel="noopener">~$20–$40 / 60 mL</a></td>
+                    <td><a href="https://www.goodrx.com/erythromycin" target="_blank" rel="noopener">~$20–$40 / 60 mL</a></td>
                     <td>First-line topical alternative per AAD when metronidazole not tolerated. Antibiotic + anti-inflammatory. Combine with benzoyl peroxide to reduce resistance.</td>
                   </tr>
                   <tr className="tdmd-ca-uti__med-firstline">
                     <td><strong>Doxycycline 50–100 mg oral</strong> · First-line</td>
                     <td>50–100 mg once or twice daily for 6–12 weeks</td>
-                    <td><a href="https://www.goodrx.com/doxycycline" target="_blank" rel="noopener">~$12–$25 / 30 tabs</a></td>
+                    <td><a href="https://www.goodrx.com/doxycycline-hyclate" target="_blank" rel="noopener">~$12–$25 / 30 tabs</a></td>
                     <td>First-line oral for moderate-severe perioral dermatitis per AAD. Anti-inflammatory mechanism. Avoid in pregnancy. Combine with topical therapy.</td>
                   </tr>
                   <tr>
@@ -697,8 +697,8 @@ export default function CaPerioralDermatitisTreatmentOnline() {
               <li><a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=10123.85.&lawCode=INS" rel="noopener" target="_blank">California Insurance Code §10123.85 (AB 744). Retrieved 2026-05-22.</a></li>
               <li><a href="https://www.dhcs.ca.gov/provgovpart/Pages/Telehealth.aspx" rel="noopener" target="_blank">California DHCS Telehealth FAQ. Retrieved 2026-05-22.</a></li>
               <li><a href="https://www.cdph.ca.gov/" rel="noopener" target="_blank">CDPH. Retrieved 2026-05-22.</a></li>
-              <li><a href="https://www.goodrx.com/metronidazole-topical" rel="noopener" target="_blank">GoodRx — Metronidazole Topical. Retrieved 2026-05-22.</a></li>
-              <li><a href="https://www.goodrx.com/doxycycline" rel="noopener" target="_blank">GoodRx — Doxycycline. Retrieved 2026-05-22.</a></li>
+              <li><a href="https://www.goodrx.com/metronidazole" rel="noopener" target="_blank">GoodRx — Metronidazole Topical. Retrieved 2026-05-22.</a></li>
+              <li><a href="https://www.goodrx.com/doxycycline-hyclate" rel="noopener" target="_blank">GoodRx — Doxycycline. Retrieved 2026-05-22.</a></li>
               <li><a href="https://www.goodrx.com/azelaic-acid" rel="noopener" target="_blank">GoodRx — Azelaic Acid. Retrieved 2026-05-22.</a></li>
             </ol>
           </div>

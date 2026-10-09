@@ -546,13 +546,13 @@ export default function CaSmokingCessationTreatmentOnline() {
                   <tr className="tdmd-ca-uti__med-firstline">
                     <td><strong>Nicotine patch 21/14/7 mg (generic, Nicoderm CQ)</strong> · First-line</td>
                     <td>21 mg/day × 6 weeks → 14 mg/day × 2 weeks → 7 mg/day × 2 weeks (for smokers of ≥10 cigarettes/day)</td>
-                    <td><a href="https://www.goodrx.com/nicotine-patch" target="_blank" rel="noopener">~$30–$50 / 14-patch supply OTC</a></td>
+                    <td><a href="https://www.goodrx.com/nicotine" target="_blank" rel="noopener">~$30–$50 / 14-patch supply OTC</a></td>
                     <td>Long-acting NRT. Available OTC. Physician can prescribe for insurance coverage. Pair with short-acting NRT (gum or lozenge) for breakthrough cravings — combination NRT is more effective than single NRT per Cochrane 2022.</td>
                   </tr>
                   <tr className="tdmd-ca-uti__med-firstline">
                     <td><strong>Nicotine gum 2/4 mg (generic, Nicorette)</strong> · First-line</td>
                     <td>1 piece q1–2h initially; 4 mg for heavier smokers (&gt;25 cigarettes/day); chew-and-park technique</td>
-                    <td><a href="https://www.goodrx.com/nicotine-gum" target="_blank" rel="noopener">~$40–$70 / 170 pieces OTC</a></td>
+                    <td><a href="https://www.goodrx.com/nicotine" target="_blank" rel="noopener">~$40–$70 / 170 pieces OTC</a></td>
                     <td>Available OTC. Short-acting NRT for breakthrough cravings. Pair with nicotine patch for combination NRT. Chew slowly until 'peppery' taste, then park between cheek and gum.</td>
                   </tr>
                 </tbody>

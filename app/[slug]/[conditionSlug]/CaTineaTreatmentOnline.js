@@ -534,13 +534,13 @@ export default function CaTineaTreatmentOnline() {
                   <tr className="tdmd-ca-uti__med-firstline">
                     <td><strong>Terbinafine 1% cream (Lamisil)</strong> · First-line</td>
                     <td>Apply to affected area once or twice daily for 1–4 weeks depending on location</td>
-                    <td><a href="https://www.goodrx.com/terbinafine-topical" target="_blank" rel="noopener">~$8–$15 OTC / Rx</a></td>
+                    <td><a href="https://www.goodrx.com/terbinafine" target="_blank" rel="noopener">~$8–$15 OTC / Rx</a></td>
                     <td>First-line topical antifungal per AAD. Fungicidal against dermatophytes. OTC (1% cream) available for tinea pedis and tinea corporis. Most effective topical agent.</td>
                   </tr>
                   <tr className="tdmd-ca-uti__med-firstline">
                     <td><strong>Clotrimazole 1% cream (Lotrimin)</strong> · First-line</td>
                     <td>Apply twice daily for 2–4 weeks</td>
-                    <td><a href="https://www.goodrx.com/clotrimazole-topical" target="_blank" rel="noopener">~$8–$15 OTC</a></td>
+                    <td><a href="https://www.goodrx.com/clotrimazole" target="_blank" rel="noopener">~$8–$15 OTC</a></td>
                     <td>First-line topical antifungal per AAD. Broad-spectrum azole — effective for all tinea subtypes. OTC available. Longer course than terbinafine for tinea pedis.</td>
                   </tr>
                   <tr className="tdmd-ca-uti__med-firstline">
@@ -558,7 +558,7 @@ export default function CaTineaTreatmentOnline() {
                   <tr>
                     <td><strong>Ketoconazole 2% cream</strong></td>
                     <td>Apply to affected area once or twice daily for 2–4 weeks</td>
-                    <td><a href="https://www.goodrx.com/ketoconazole-topical" target="_blank" rel="noopener">~$15–$35 / 30g</a></td>
+                    <td><a href="https://www.goodrx.com/ketoconazole" target="_blank" rel="noopener">~$15–$35 / 30g</a></td>
                     <td>Topical azole antifungal — effective but broad-spectrum (targets both dermatophytes and Malassezia). Prescription 2%. Alternative when terbinafine or clotrimazole not preferred.</td>
                   </tr>
                 </tbody>
@@ -706,7 +706,7 @@ export default function CaTineaTreatmentOnline() {
               <li><a href="https://www.mbc.ca.gov/Licensees/Telehealth.aspx" rel="noopener" target="_blank">Medical Board of California — Telehealth. Retrieved 2026-05-22.</a></li>
               <li><a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=10123.85.&lawCode=INS" rel="noopener" target="_blank">California Insurance Code §10123.85 (AB 744). Retrieved 2026-05-22.</a></li>
               <li><a href="https://www.goodrx.com/terbinafine" rel="noopener" target="_blank">GoodRx — Terbinafine Oral. Retrieved 2026-05-22.</a></li>
-              <li><a href="https://www.goodrx.com/ketoconazole-topical" rel="noopener" target="_blank">GoodRx — Ketoconazole Topical. Retrieved 2026-05-22.</a></li>
+              <li><a href="https://www.goodrx.com/ketoconazole" rel="noopener" target="_blank">GoodRx — Ketoconazole Topical. Retrieved 2026-05-22.</a></li>
               <li><a href="https://www.goodrx.com/fluconazole" rel="noopener" target="_blank">GoodRx — Fluconazole. Retrieved 2026-05-22.</a></li>
               <li><a href="https://www.mbc.ca.gov/Licensees/Prescriptions/Electronic_Prescribing.aspx" rel="noopener" target="_blank">Medical Board of California — AB 2789 Electronic Prescribing. Retrieved 2026-05-22.</a></li>
             </ol>

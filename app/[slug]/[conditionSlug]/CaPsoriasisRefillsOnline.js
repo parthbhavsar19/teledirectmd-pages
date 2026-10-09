@@ -533,19 +533,19 @@ export default function CaPsoriasisRefillsOnline() {
                   <tr className="tdmd-ca-uti__med-firstline">
                     <td><strong>Clobetasol propionate 0.05% cream/ointment (super-high potency TCS)</strong> · First-line</td>
                     <td>Apply to plaques twice daily for up to 2 weeks per site — then taper or use intermittently</td>
-                    <td><a href="https://www.goodrx.com/clobetasol-topical" target="_blank" rel="noopener">~$15–$35 / 60 g with GoodRx</a></td>
+                    <td><a href="https://www.goodrx.com/clobetasol" target="_blank" rel="noopener">~$15–$35 / 60 g with GoodRx</a></td>
                     <td>Super-high potency TCS — first-line for thick plaque psoriasis per AAD. Limit to 2 weeks continuous use per site. Avoid face, groin, skin folds. Weekend-only maintenance use reduces atrophy risk.</td>
                   </tr>
                   <tr className="tdmd-ca-uti__med-firstline">
                     <td><strong>Triamcinolone 0.1% cream (mid-potency TCS)</strong> · First-line</td>
                     <td>Apply to less thick plaques or sensitive areas twice daily</td>
-                    <td><a href="https://www.goodrx.com/triamcinolone-topical" target="_blank" rel="noopener">~$5–$15 / 454 g with GoodRx</a></td>
+                    <td><a href="https://www.goodrx.com/triamcinolone" target="_blank" rel="noopener">~$5–$15 / 454 g with GoodRx</a></td>
                     <td>Mid-potency TCS for psoriasis plaques on less thick skin or more sensitive areas per AAD. Lower risk of atrophy with intermittent long-term use.</td>
                   </tr>
                   <tr className="tdmd-ca-uti__med-firstline">
                     <td><strong>Calcipotriene 0.005% cream/ointment (vitamin D analogue)</strong> · First-line</td>
                     <td>Apply twice daily to plaques — combine with TCS for synergistic effect</td>
-                    <td><a href="https://www.goodrx.com/calcipotriene-topical" target="_blank" rel="noopener">~$30–$60 / 60 g with GoodRx</a></td>
+                    <td><a href="https://www.goodrx.com/calcipotriene" target="_blank" rel="noopener">~$30–$60 / 60 g with GoodRx</a></td>
                     <td>Vitamin D analogue — first-line for plaque psoriasis per AAD. Synergistic with topical corticosteroids. Avoid on face and skin folds. Limit to 100 g/week to avoid hypercalcemia.</td>
                   </tr>
                   <tr>
@@ -557,7 +557,7 @@ export default function CaPsoriasisRefillsOnline() {
                   <tr>
                     <td><strong>Calcipotriene + betamethasone dipropionate foam (Enstilar/Taclonex)</strong></td>
                     <td>Apply to affected area once daily for up to 4 weeks</td>
-                    <td><a href="https://www.goodrx.com/calcipotriene-betamethasone-topical" target="_blank" rel="noopener">~$250–$400 / 60 g; check manufacturer copay assistance</a></td>
+                    <td><a href="https://www.goodrx.com/betamethasone-calcipotriene" target="_blank" rel="noopener">~$250–$400 / 60 g; check manufacturer copay assistance</a></td>
                     <td>FDA-approved combination vitamin D + steroid foam for plaque psoriasis. Convenient once-daily dosing. GoodRx may not significantly reduce brand price — check manufacturer patient assistance programs.</td>
                   </tr>
                 </tbody>
@@ -699,9 +699,9 @@ export default function CaPsoriasisRefillsOnline() {
               <li><a href="https://www.dhcs.ca.gov/provgovpart/Pages/TelehealthFAQ.aspx" rel="noopener" target="_blank">California DHCS — Telehealth FAQ. Retrieved May 2026.</a></li>
               <li><a href="https://www.aad.org/member/clinical-quality/guidelines/psoriasis" rel="noopener" target="_blank">AAD/NPF Psoriasis Guidelines. Retrieved May 2026.</a></li>
               <li><a href="https://www.psoriasis.org/about-psoriasis/" rel="noopener" target="_blank">National Psoriasis Foundation — About Psoriasis. Retrieved May 2026.</a></li>
-              <li><a href="https://www.goodrx.com/clobetasol-topical" rel="noopener" target="_blank">GoodRx — Clobetasol Topical Prices. Retrieved May 2026.</a></li>
-              <li><a href="https://www.goodrx.com/calcipotriene-topical" rel="noopener" target="_blank">GoodRx — Calcipotriene Topical Prices. Retrieved May 2026.</a></li>
-              <li><a href="https://www.goodrx.com/triamcinolone-topical" rel="noopener" target="_blank">GoodRx — Triamcinolone Topical Prices. Retrieved May 2026.</a></li>
+              <li><a href="https://www.goodrx.com/clobetasol" rel="noopener" target="_blank">GoodRx — Clobetasol Topical Prices. Retrieved May 2026.</a></li>
+              <li><a href="https://www.goodrx.com/calcipotriene" rel="noopener" target="_blank">GoodRx — Calcipotriene Topical Prices. Retrieved May 2026.</a></li>
+              <li><a href="https://www.goodrx.com/triamcinolone" rel="noopener" target="_blank">GoodRx — Triamcinolone Topical Prices. Retrieved May 2026.</a></li>
               <li><a href="https://www.mbc.ca.gov/News/" rel="noopener" target="_blank">Medical Board of California — Electronic Prescribing (AB 2789). Retrieved May 2026.</a></li>
             </ol>
           </div>

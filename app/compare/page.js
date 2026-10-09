@@ -5,7 +5,7 @@ import { COMPARE_PAGE_SLUGS } from '../../lib/compare-pages-config';
 export const metadata = {
   title: 'TeleDirectMD vs. Other Telehealth Services — 2026 Comparisons',
   description:
-    'Side-by-side comparisons of TeleDirectMD ($79 flat, MD-only, 40+ states) vs. Teladoc, MDLIVE, Amwell, Doctor on Demand, Sesame, K Health, HealthTap, and Walgreens Virtual. Sourced, honest, updated May 2026.',
+    'Side-by-side comparisons of TeleDirectMD ($79 flat, MD-only, 40+ states) vs. Teladoc, MDLIVE, Amwell, Doctor on Demand, Sesame, HealthTap, and Walgreens Virtual. Sourced, honest, updated May 2026.',
   alternates: { canonical: 'https://teledirectmd.com/compare' },
   robots: { index: true, follow: true, 'max-image-preview': 'large', 'max-snippet': -1, 'max-video-preview': -1 },
   authors: [{ name: 'Parth Bhavsar, MD' }],
@@ -15,7 +15,7 @@ export const metadata = {
     locale: 'en_US',
     title: 'TeleDirectMD vs. Other Telehealth Services — 2026 Comparisons',
     description:
-      'Sourced 2026 comparisons: TeleDirectMD vs. Teladoc, MDLIVE, Amwell, Doctor on Demand, Sesame, K Health, HealthTap, Walgreens Virtual.',
+      'Sourced 2026 comparisons: TeleDirectMD vs. Teladoc, MDLIVE, Amwell, Doctor on Demand, Sesame, HealthTap, Walgreens Virtual.',
     url: 'https://teledirectmd.com/compare',
   },
 };
@@ -60,13 +60,6 @@ const COMPETITOR_CATALOG = [
     desc: 'Sesame is a marketplace where patients browse and book individual providers. TeleDirectMD is a direct-to-patient practice with one named physician.',
   },
   {
-    slug: 'teledirectmd-vs-k-health',
-    name: 'TeleDirectMD vs. K Health',
-    tdmdWin: 'No AI triage; physician-led from the start',
-    compWin: 'K Health has $29 membership plan',
-    desc: 'K Health uses AI symptom assessment before connecting you with a clinician. TeleDirectMD starts with a live physician evaluation — no algorithm between you and the doctor.',
-  },
-  {
     slug: 'teledirectmd-vs-healthtap',
     name: 'TeleDirectMD vs. HealthTap',
     tdmdWin: '$79 flat vs. HealthTap membership tiers',
@@ -86,7 +79,7 @@ const FAQS = [
   {
     question: 'How does TeleDirectMD compare on price to other telehealth services?',
     answer:
-      'TeleDirectMD charges a flat $79 per self-pay visit — no membership, no per-feature charges, no subscription. Teladoc charges $89 per visit (no-insurance pricing, Teladoc.com), Amwell charges $85+, and some platforms like K Health offer membership tiers that can be cheaper for very frequent users. For a single urgent care visit without insurance, TeleDirectMD is generally the lowest or tied-lowest price among physician-staffed platforms. Sesame and similar marketplaces sometimes list individual providers at lower prices but those are often NPs or PAs, not MDs.',
+      'TeleDirectMD charges a flat $79 per self-pay visit — no membership, no per-feature charges, no subscription. Teladoc charges $89 per visit (no-insurance pricing, Teladoc.com), Amwell charges $85+, and some platforms offer membership tiers that can be cheaper for very frequent users. For a single urgent care visit without insurance, TeleDirectMD is generally the lowest or tied-lowest price among physician-staffed platforms. Sesame and similar marketplaces sometimes list individual providers at lower prices but those are often NPs or PAs, not MDs.',
   },
   {
     question: 'Is TeleDirectMD an MD-only practice?',
@@ -111,7 +104,7 @@ const FAQS = [
   {
     question: 'Which telehealth service is best for urgent care without insurance?',
     answer:
-      'For self-pay urgent care — UTI (women only), sinus infection, strep throat, pink eye — TeleDirectMD at $79 is the lowest flat-rate physician-staffed option among the major platforms. Teladoc is $89, Amwell is $85+, and Doctor on Demand is comparable or higher. K Health has a $29 monthly membership that includes unlimited visits, which is cheaper per-visit for frequent users but requires ongoing commitment. For a single visit with no subscription, TeleDirectMD wins on price.',
+      'For self-pay urgent care — UTI (women only), sinus infection, strep throat, pink eye — TeleDirectMD at $79 is the lowest flat-rate physician-staffed option among the major platforms. Teladoc is $89, Amwell is $85+, and Doctor on Demand is comparable or higher. Some platforms sell monthly memberships that can be cheaper per visit for frequent users but require an ongoing commitment. For a single visit with no subscription, TeleDirectMD wins on price.',
   },
   {
     question: 'How do I switch from another telehealth service to TeleDirectMD?',
@@ -121,7 +114,7 @@ const FAQS = [
   {
     question: 'Does TeleDirectMD use AI to diagnose?',
     answer:
-      'No. TeleDirectMD does not use AI symptom checkers or chatbots as a first step in evaluation. Every visit begins with a live video connection to Dr. Bhavsar. Some platforms like K Health lead patients through an AI-driven symptom assessment before connecting to a clinician; others use asynchronous chat. TeleDirectMD\u2019s model is a real-time, synchronous physician evaluation — the same standard used in a traditional urgent care clinic.',
+      'No. TeleDirectMD does not use AI symptom checkers or chatbots as a first step in evaluation. Every visit begins with a live video connection to Dr. Bhavsar. Some platforms lead patients through an AI-driven symptom assessment before connecting to a clinician; others use asynchronous chat. TeleDirectMD\u2019s model is a real-time, synchronous physician evaluation — the same standard used in a traditional urgent care clinic.',
   },
 ];
 
@@ -355,7 +348,6 @@ export default function CompareHubPage() {
                   <th>Teladoc</th>
                   <th>MDLIVE</th>
                   <th>Amwell</th>
-                  <th>K Health</th>
                 </tr>
               </thead>
               <tbody>
@@ -365,7 +357,6 @@ export default function CompareHubPage() {
                   <td>$89/visit</td>
                   <td>$82+/visit</td>
                   <td>$85+/visit</td>
-                  <td>$29/mo membership</td>
                 </tr>
                 <tr>
                   <td>Provider type</td>
@@ -373,13 +364,11 @@ export default function CompareHubPage() {
                   <td>MD + NP/PA mix</td>
                   <td>MD + NP/PA mix</td>
                   <td>MD + NP/PA mix</td>
-                  <td>MD + NP/PA mix</td>
                 </tr>
                 <tr>
                   <td>States covered</td>
-                  <td>44 + DC</td>
+                  <td>40+ states</td>
                   <td>All 50</td>
-                  <td>Most states</td>
                   <td>Most states</td>
                   <td>Most states</td>
                 </tr>
@@ -389,7 +378,6 @@ export default function CompareHubPage() {
                   <td>Yes ($119+)</td>
                   <td>Yes</td>
                   <td>Yes</td>
-                  <td>Limited</td>
                 </tr>
                 <tr>
                   <td>Membership required</td>
@@ -397,7 +385,6 @@ export default function CompareHubPage() {
                   <td>No</td>
                   <td>No</td>
                   <td>No</td>
-                  <td>For best price</td>
                 </tr>
                 <tr>
                   <td>Insurance accepted</td>
@@ -405,11 +392,9 @@ export default function CompareHubPage() {
                   <td>Many major plans</td>
                   <td>Cigna + others</td>
                   <td>Many major plans</td>
-                  <td>Select plans</td>
                 </tr>
                 <tr>
                   <td>HSA / FSA accepted</td>
-                  <td>Yes</td>
                   <td>Yes</td>
                   <td>Yes</td>
                   <td>Yes</td>
@@ -421,11 +406,9 @@ export default function CompareHubPage() {
                   <td>24/7</td>
                   <td>24/7</td>
                   <td>24/7</td>
-                  <td>24/7</td>
                 </tr>
                 <tr>
                   <td>Controlled substances</td>
-                  <td>Not prescribed</td>
                   <td>Not prescribed</td>
                   <td>Not prescribed</td>
                   <td>Not prescribed</td>
@@ -448,7 +431,6 @@ export default function CompareHubPage() {
           <p className="cmp-p">
             For a self-pay, single urgent care visit (UTI (women only), sinus infection, strep throat, pink eye), TeleDirectMD offers the lowest
             flat rate among major physician-staffed telehealth platforms. The chart below compares published cash-pay prices.
-            Note that K Health&apos;s low cost requires a monthly subscription; the per-visit equivalent is higher for infrequent users.
           </p>
           <div className="cmp-vbars" aria-label="Cash-pay urgent care price comparison">
             {COST_BARS.map((bar) => {
