@@ -533,7 +533,7 @@ export default function CaRosaceaTreatmentOnline() {
                   <tr className="tdmd-ca-uti__med-firstline">
                     <td><strong>Metronidazole 0.75%–1% gel/cream (topical)</strong> · First-line</td>
                     <td>Apply to affected facial areas once or twice daily</td>
-                    <td><a href="https://www.goodrx.com/metronidazole-topical" target="_blank" rel="noopener">~$15–$40 / 45 g with GoodRx</a></td>
+                    <td><a href="https://www.goodrx.com/metronidazole" target="_blank" rel="noopener">~$15–$40 / 45 g with GoodRx</a></td>
                     <td>First-line topical for papulopustular rosacea per NRS/AAD. Anti-inflammatory mechanism. Well-tolerated with minimal side effects. Also reduces background erythema over time.</td>
                   </tr>
                   <tr className="tdmd-ca-uti__med-firstline">
@@ -545,19 +545,19 @@ export default function CaRosaceaTreatmentOnline() {
                   <tr className="tdmd-ca-uti__med-firstline">
                     <td><strong>Ivermectin 1% cream (Soolantra)</strong> · First-line</td>
                     <td>Apply to face once daily</td>
-                    <td><a href="https://www.goodrx.com/ivermectin-topical" target="_blank" rel="noopener">~$250 brand; check GoodRx and manufacturer coupons</a></td>
+                    <td><a href="https://www.goodrx.com/ivermectin" target="_blank" rel="noopener">~$250 brand; check GoodRx and manufacturer coupons</a></td>
                     <td>NRS-listed first-line topical for inflammatory rosacea. Targets Demodex mites implicated in rosacea pathophysiology. Comparable efficacy to metronidazole in clinical trials.</td>
                   </tr>
                   <tr className="tdmd-ca-uti__med-firstline">
                     <td><strong>Doxycycline 40 mg modified-release (Oracea) or 50–100 mg</strong> · First-line</td>
                     <td>40 mg once daily (sub-antimicrobial Oracea) or 50–100 mg daily for papulopustular disease</td>
-                    <td><a href="https://www.goodrx.com/doxycycline" target="_blank" rel="noopener">~$15–$30 / 30 capsules generic doxycycline with GoodRx</a></td>
+                    <td><a href="https://www.goodrx.com/doxycycline-hyclate" target="_blank" rel="noopener">~$15–$30 / 30 capsules generic doxycycline with GoodRx</a></td>
                     <td>First-line oral for moderate-severe papulopustular rosacea per NRS/AAD. Sub-antimicrobial doxycycline 40 mg (Oracea) is FDA-approved for rosacea with anti-inflammatory effect. Not for use in pregnancy.</td>
                   </tr>
                   <tr>
                     <td><strong>Brimonidine 0.33% gel (Mirvaso)</strong></td>
                     <td>Apply thin layer to face once daily — avoid eyes</td>
-                    <td><a href="https://www.goodrx.com/brimonidine-topical" target="_blank" rel="noopener">~$200 brand; GoodRx varies</a></td>
+                    <td><a href="https://www.goodrx.com/brimonidine" target="_blank" rel="noopener">~$200 brand; GoodRx varies</a></td>
                     <td>Alpha-2 agonist for erythematotelangiectatic rosacea (facial redness). Reduces facial redness for up to 12 hours. Does not treat papules or pustules. Risk of rebound flushing with discontinuation.</td>
                   </tr>
                 </tbody>
@@ -699,8 +699,8 @@ export default function CaRosaceaTreatmentOnline() {
               <li><a href="https://www.dhcs.ca.gov/provgovpart/Pages/TelehealthFAQ.aspx" rel="noopener" target="_blank">California DHCS — Telehealth FAQ. Retrieved May 2026.</a></li>
               <li><a href="https://www.rosacea.org/press/2024/april/rosacea-awareness-month-highlights-skin-care-as-new-frontier-against-life-disruptive-disorder-affecting-16-million-americans" rel="noopener" target="_blank">National Rosacea Society — Rosacea Prevalence Data. Retrieved May 2026.</a></li>
               <li><a href="https://www.aad.org/public/diseases/rosacea/treatment" rel="noopener" target="_blank">AAD — Rosacea Treatment. Retrieved May 2026.</a></li>
-              <li><a href="https://www.goodrx.com/metronidazole-topical" rel="noopener" target="_blank">GoodRx — Metronidazole Topical Prices. Retrieved May 2026.</a></li>
-              <li><a href="https://www.goodrx.com/doxycycline" rel="noopener" target="_blank">GoodRx — Doxycycline Prices. Retrieved May 2026.</a></li>
+              <li><a href="https://www.goodrx.com/metronidazole" rel="noopener" target="_blank">GoodRx — Metronidazole Topical Prices. Retrieved May 2026.</a></li>
+              <li><a href="https://www.goodrx.com/doxycycline-hyclate" rel="noopener" target="_blank">GoodRx — Doxycycline Prices. Retrieved May 2026.</a></li>
               <li><a href="https://www.mbc.ca.gov/News/" rel="noopener" target="_blank">Medical Board of California — Electronic Prescribing (AB 2789). Retrieved May 2026.</a></li>
             </ol>
           </div>

@@ -534,13 +534,13 @@ export default function CaContactDermatitisTreatmentOnline() {
                   <tr className="tdmd-ca-uti__med-firstline">
                     <td><strong>Triamcinolone 0.1% cream (mid-potency TCS)</strong> · First-line</td>
                     <td>Apply to affected areas twice daily for 7–14 days</td>
-                    <td><a href="https://www.goodrx.com/triamcinolone-topical" target="_blank" rel="noopener">~$5–$15 / 454 g with GoodRx</a></td>
+                    <td><a href="https://www.goodrx.com/triamcinolone" target="_blank" rel="noopener">~$5–$15 / 454 g with GoodRx</a></td>
                     <td>Mid-potency topical corticosteroid — first-line for contact dermatitis per AAD. Avoid face, groin, and axillae. Short course to prevent skin atrophy.</td>
                   </tr>
                   <tr className="tdmd-ca-uti__med-firstline">
                     <td><strong>Betamethasone 0.05%–0.1% cream (high-potency TCS)</strong> · First-line</td>
                     <td>Apply to thick-skin areas (palms, soles) twice daily for 7–14 days</td>
-                    <td><a href="https://www.goodrx.com/betamethasone-topical" target="_blank" rel="noopener">~$10–$25 / 45 g with GoodRx</a></td>
+                    <td><a href="https://www.goodrx.com/betamethasone-dipropionate" target="_blank" rel="noopener">~$10–$25 / 45 g with GoodRx</a></td>
                     <td>High-potency TCS for palms, soles, or severe contact dermatitis on thick skin per AAD. Avoid face, groin, or use under occlusion for extended periods.</td>
                   </tr>
                   <tr className="tdmd-ca-uti__med-firstline">
@@ -552,7 +552,7 @@ export default function CaContactDermatitisTreatmentOnline() {
                   <tr>
                     <td><strong>Hydroxyzine 25–50 mg oral (antihistamine)</strong></td>
                     <td>25–50 mg at bedtime for itch relief; sedating</td>
-                    <td><a href="https://www.goodrx.com/hydroxyzine" target="_blank" rel="noopener">~$10–$20 / 30 tablets with GoodRx</a></td>
+                    <td><a href="https://www.goodrx.com/hydroxyzine-hydrochloride" target="_blank" rel="noopener">~$10–$20 / 30 tablets with GoodRx</a></td>
                     <td>For itch relief — does not treat the rash itself. Sedating antihistamine. Non-sedating alternatives (cetirizine, loratadine) are available OTC without prescription.</td>
                   </tr>
                 </tbody>
@@ -696,7 +696,7 @@ export default function CaContactDermatitisTreatmentOnline() {
               <li><a href="https://www.aad.org/public/diseases/eczema/types/contact-dermatitis" rel="noopener" target="_blank">AAD: Contact Dermatitis Overview. Retrieved May 2026.</a></li>
               <li><a href="https://acaai.org/allergies/allergic-conditions/skin-allergy/contact-dermatitis/" rel="noopener" target="_blank">ACAAI — Allergic Contact Dermatitis Guidance. Retrieved May 2026.</a></li>
               <li><a href="https://www.cdph.ca.gov/Programs/CCDPHP/DEODC/OHB/Pages/OHB.aspx" rel="noopener" target="_blank">CDPH Occupational Health Branch. Retrieved May 2026.</a></li>
-              <li><a href="https://www.goodrx.com/triamcinolone-topical" rel="noopener" target="_blank">GoodRx — Triamcinolone Topical Prices. Retrieved May 2026.</a></li>
+              <li><a href="https://www.goodrx.com/triamcinolone" rel="noopener" target="_blank">GoodRx — Triamcinolone Topical Prices. Retrieved May 2026.</a></li>
               <li><a href="https://www.goodrx.com/prednisone" rel="noopener" target="_blank">GoodRx — Prednisone Prices. Retrieved May 2026.</a></li>
               <li><a href="https://www.mbc.ca.gov/News/" rel="noopener" target="_blank">Medical Board of California — Electronic Prescribing (AB 2789). Retrieved May 2026.</a></li>
             </ol>

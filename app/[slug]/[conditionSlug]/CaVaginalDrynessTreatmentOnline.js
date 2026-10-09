@@ -534,7 +534,7 @@ export default function CaVaginalDrynessTreatmentOnline() {
                   <tr className="tdmd-ca-uti__med-firstline">
                     <td><strong>Estradiol vaginal cream 0.01% (Estrace)</strong> · First-line</td>
                     <td>2–4 g intravaginally daily × 2 weeks, then 1 g 1–3× weekly maintenance</td>
-                    <td><a href="https://www.goodrx.com/estradiol-vaginal" target="_blank" rel="noopener">~$34 / 42.5 g tube with GoodRx</a></td>
+                    <td><a href="https://www.goodrx.com/estradiol" target="_blank" rel="noopener">~$34 / 42.5 g tube with GoodRx</a></td>
                     <td>First-line per ACOG/NAMS. Low systemic absorption. Contraindicated with undiagnosed uterine bleeding or hormone-sensitive breast cancer (discuss with oncologist).</td>
                   </tr>
                   <tr className="tdmd-ca-uti__med-firstline">
@@ -546,7 +546,7 @@ export default function CaVaginalDrynessTreatmentOnline() {
                   <tr className="tdmd-ca-uti__med-firstline">
                     <td><strong>Vaginal DHEA / prasterone (Intrarosa) 6.5 mg</strong> · First-line</td>
                     <td>1 suppository intravaginally each night</td>
-                    <td><a href="https://www.goodrx.com/prasterone-vaginal" target="_blank" rel="noopener">~$250–$400/month</a></td>
+                    <td><a href="https://www.goodrx.com/intrarosa" target="_blank" rel="noopener">~$250–$400/month</a></td>
                     <td>Non-estrogen option; FDA-approved for GSM-related dyspareunia. Option for women with breast cancer history — discuss with oncologist before use.</td>
                   </tr>
                   <tr>
@@ -699,7 +699,7 @@ export default function CaVaginalDrynessTreatmentOnline() {
               <li><a href="https://www.dhcs.ca.gov/provgovpart/Pages/TelehealthFAQ.aspx" rel="noopener" target="_blank">California DHCS — Telehealth FAQ. Retrieved May 2026.</a></li>
               <li><a href="https://www.acog.org/clinical/clinical-guidance/practice-bulletin/articles/2014/01/management-of-menopausal-symptoms" rel="noopener" target="_blank">ACOG Practice Bulletin 141 — Management of Menopausal Symptoms (reaffirmed 2024). Retrieved May 2026.</a></li>
               <li><a href="https://menopause.org/patient-education/menopause-topics/sexual-health" rel="noopener" target="_blank">The Menopause Society (formerly NAMS): Sexual Health. Retrieved May 2026.</a></li>
-              <li><a href="https://www.goodrx.com/estradiol-vaginal" rel="noopener" target="_blank">GoodRx — Estrace (Estradiol Vaginal Cream) Prices. Retrieved May 2026.</a></li>
+              <li><a href="https://www.goodrx.com/estradiol" rel="noopener" target="_blank">GoodRx — Estrace (Estradiol Vaginal Cream) Prices. Retrieved May 2026.</a></li>
               <li><a href="https://www.mbc.ca.gov/News/" rel="noopener" target="_blank">Medical Board of California — Electronic Prescribing (AB 2789). Retrieved May 2026.</a></li>
             </ol>
           </div>

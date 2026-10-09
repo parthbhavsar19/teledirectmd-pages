@@ -37,6 +37,13 @@
       }
     },
     {
+      "src": "/compare/teledirectmd-vs-k-health/?",
+      "headers": {
+        "Location": "/compare/"
+      },
+      "status": 301
+    },
+    {
       "src": "/terms-of-use/?",
       "headers": {
         "Location": "/terms-of-service/"

@@ -551,7 +551,7 @@ export default function CaExcessiveSweatingTreatmentOnline() {
                   <tr>
                     <td><strong>Aluminum chloride 20% solution (Drysol) — topical</strong></td>
                     <td>Apply to dry skin at night, wash off in AM — 2–3× weekly</td>
-                    <td><a href="https://www.goodrx.com/aluminum-chloride" target="_blank" rel="noopener">~$15–$30 / 35 mL</a></td>
+                    <td><a href="https://www.goodrx.com/drysol" target="_blank" rel="noopener">~$15–$30 / 35 mL</a></td>
                     <td>First-line mechanical antiperspirant for mild-moderate hyperhidrosis per IHhS. Lower efficacy than anticholinergics for moderate-severe disease. OTC 12% (Certain Dri) available first before prescription 20%.</td>
                   </tr>
                 </tbody>

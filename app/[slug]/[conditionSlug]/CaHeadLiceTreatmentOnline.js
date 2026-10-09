@@ -533,25 +533,25 @@ export default function CaHeadLiceTreatmentOnline() {
                   <tr className="tdmd-ca-uti__med-firstline">
                     <td><strong>Permethrin 1% lotion/cream rinse (Nix)</strong> · First-line</td>
                     <td>Apply to hair and scalp, leave 10 minutes, rinse — repeat in 7–10 days if live lice still present</td>
-                    <td><a href="https://www.goodrx.com/permethrin-topical" target="_blank" rel="noopener">~$10–$20 OTC or Rx</a></td>
+                    <td><a href="https://www.goodrx.com/permethrin" target="_blank" rel="noopener">~$10–$20 OTC or Rx</a></td>
                     <td>First-line per CDC/AAP for head lice. OTC available. Kills lice but not all eggs — repeat treatment in 7–10 days is essential. Resistance is increasing in California — if no improvement after 2 treatments, use malathion or benzyl alcohol.</td>
                   </tr>
                   <tr>
                     <td><strong>Malathion 0.5% lotion (Ovide)</strong></td>
                     <td>Apply to dry hair and scalp, leave 8–12 hours (overnight), rinse — repeat in 7–9 days if live lice present</td>
-                    <td><a href="https://www.goodrx.com/malathion-topical" target="_blank" rel="noopener">~$60–$120 / 59 mL</a></td>
+                    <td><a href="https://www.goodrx.com/malathion" target="_blank" rel="noopener">~$60–$120 / 59 mL</a></td>
                     <td>Second-line for permethrin-resistant head lice per CDC/AAP. Prescription only. Highly effective against both lice and eggs. Flammable — keep away from heat/flames during application. Not for children under 6.</td>
                   </tr>
                   <tr>
                     <td><strong>Benzyl alcohol 5% lotion (Ulesfia)</strong></td>
                     <td>Apply to dry hair and scalp, leave 10 minutes, rinse — repeat in 7 days</td>
-                    <td><a href="https://www.goodrx.com/benzyl-alcohol-topical" target="_blank" rel="noopener">~$150–$200 / 227 mL</a></td>
+                    <td><a href="https://www.goodrx.com/ulesfia" target="_blank" rel="noopener">~$150–$200 / 227 mL</a></td>
                     <td>Non-neurotoxic second-line for permethrin-resistant lice per CDC/AAP. Prescription only. Kills lice by suffocation — does not kill eggs, so repeat treatment is essential. Safe for children 6 months+ per AAP.</td>
                   </tr>
                   <tr>
                     <td><strong>Spinosad 0.9% suspension (Natroba)</strong></td>
                     <td>Apply to dry hair and scalp for 10 minutes, rinse — repeat in 7 days if live lice present</td>
-                    <td><a href="https://www.goodrx.com/spinosad-topical" target="_blank" rel="noopener">~$200–$400 / 120 mL</a></td>
+                    <td><a href="https://www.goodrx.com/spinosad" target="_blank" rel="noopener">~$200–$400 / 120 mL</a></td>
                     <td>FDA-approved for lice in adults and children ≥4 years per CDC. Prescription. High cure rate — often effective with single treatment. Expensive.</td>
                   </tr>
                 </tbody>
@@ -697,9 +697,9 @@ export default function CaHeadLiceTreatmentOnline() {
               <li><a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=2290.5.&lawCode=BPC" rel="noopener" target="_blank">California B&P Code §2290.5. Retrieved 2026-05-22.</a></li>
               <li><a href="https://www.mbc.ca.gov/Licensees/Telehealth.aspx" rel="noopener" target="_blank">Medical Board of California — Telehealth. Retrieved 2026-05-22.</a></li>
               <li><a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=10123.85.&lawCode=INS" rel="noopener" target="_blank">California Insurance Code §10123.85 (AB 744). Retrieved 2026-05-22.</a></li>
-              <li><a href="https://www.goodrx.com/permethrin-topical" rel="noopener" target="_blank">GoodRx — Permethrin. Retrieved 2026-05-22.</a></li>
-              <li><a href="https://www.goodrx.com/malathion-topical" rel="noopener" target="_blank">GoodRx — Malathion Topical. Retrieved 2026-05-22.</a></li>
-              <li><a href="https://www.goodrx.com/benzyl-alcohol-topical" rel="noopener" target="_blank">GoodRx — Benzyl Alcohol Topical. Retrieved 2026-05-22.</a></li>
+              <li><a href="https://www.goodrx.com/permethrin" rel="noopener" target="_blank">GoodRx — Permethrin. Retrieved 2026-05-22.</a></li>
+              <li><a href="https://www.goodrx.com/malathion" rel="noopener" target="_blank">GoodRx — Malathion Topical. Retrieved 2026-05-22.</a></li>
+              <li><a href="https://www.goodrx.com/ulesfia" rel="noopener" target="_blank">GoodRx — Benzyl Alcohol Topical. Retrieved 2026-05-22.</a></li>
               <li><a href="https://www.mbc.ca.gov/Licensees/Prescriptions/Electronic_Prescribing.aspx" rel="noopener" target="_blank">Medical Board of California — AB 2789. Retrieved 2026-05-22.</a></li>
             </ol>
           </div>

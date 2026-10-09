@@ -552,7 +552,7 @@ export default function CaHairLossTreatmentOnline() {
                   <tr className="tdmd-ca-uti__med-firstline">
                     <td><strong>Minoxidil topical 5% foam/solution (generic Rogaine)</strong> · First-line</td>
                     <td>5% — 1 mL or half-capful to dry scalp twice daily</td>
-                    <td><a href="https://www.goodrx.com/minoxidil-topical" target="_blank" rel="noopener">~$25–$40/month OTC (generic)</a></td>
+                    <td><a href="https://www.goodrx.com/minoxidil" target="_blank" rel="noopener">~$25–$40/month OTC (generic)</a></td>
                     <td>FDA-approved for male (5%) and female (2%; 5% off-label, physician-confirmed) AGA. Available OTC. Allow to dry before sleeping. Physician prescribes for insurance coverage if needed.</td>
                   </tr>
                 </tbody>

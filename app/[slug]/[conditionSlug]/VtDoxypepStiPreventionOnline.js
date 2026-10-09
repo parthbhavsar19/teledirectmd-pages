@@ -36,7 +36,7 @@ const PHYSICIAN = {
 };
 
 const MEDICATIONS = [
-  { name: "Doxycycline 100 mg (taken as 200 mg per dose)", regimen: "200 mg by mouth, once, within 72 hours of sex (max 200 mg/24h)", price: "~$10–$25 / supply GoodRx (generic)", priceHref: "https://www.goodrx.com/doxycycline", firstLine: true, notes: "CDC DoxyPEP regimen. Take as soon as possible after sex — ideally within 24 hours, no later than 72. Separate from antacids, calcium, and dairy by ~2 hours." }
+  { name: "Doxycycline 100 mg (taken as 200 mg per dose)", regimen: "200 mg by mouth, once, within 72 hours of sex (max 200 mg/24h)", price: "~$10–$25 / supply GoodRx (generic)", priceHref: "https://www.goodrx.com/doxycycline-hyclate", firstLine: true, notes: "CDC DoxyPEP regimen. Take as soon as possible after sex — ideally within 24 hours, no later than 72. Separate from antacids, calcium, and dairy by ~2 hours." }
 ];
 
 const FAQ_ITEMS = [

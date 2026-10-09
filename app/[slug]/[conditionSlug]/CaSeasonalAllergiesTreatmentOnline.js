@@ -477,19 +477,19 @@ export default function CaSeasonalAllergiesTreatmentOnline() {
                   <tr>
                     <td><strong>Fluticasone propionate nasal spray 50 mcg (Flonase, generic)</strong></td>
                     <td>2 sprays each nostril once daily; 1 spray maintenance</td>
-                    <td><a href="https://www.goodrx.com/fluticasone-nasal" target="_blank" rel="noopener">Available OTC (~$15–$25/month); Rx strength same</a></td>
+                    <td><a href="https://www.goodrx.com/fluticasone-propionate" target="_blank" rel="noopener">Available OTC (~$15–$25/month); Rx strength same</a></td>
                     <td>First-line for moderate-persistent allergic rhinitis per ARIA-EAACI 2024-2025. Minimal systemic absorption. Also available as Flonase Sensimist (aqueous mist, less drip).</td>
                   </tr>
                   <tr>
                     <td><strong>Mometasone nasal spray 50 mcg (Nasonex, generic)</strong></td>
                     <td>2 sprays each nostril once daily</td>
-                    <td><a href="https://www.goodrx.com/mometasone-nasal" target="_blank" rel="noopener">~$15–$30/month GoodRx (generic)</a></td>
+                    <td><a href="https://www.goodrx.com/mometasone" target="_blank" rel="noopener">~$15–$30/month GoodRx (generic)</a></td>
                     <td>Similar efficacy to fluticasone. Generic available.</td>
                   </tr>
                   <tr>
                     <td><strong>Budesonide nasal spray 32 mcg (Rhinocort, generic)</strong></td>
                     <td>1–4 sprays per nostril once daily</td>
-                    <td><a href="https://www.goodrx.com/budesonide-nasal" target="_blank" rel="noopener">Available OTC and Rx (~$15–$25/month)</a></td>
+                    <td><a href="https://www.goodrx.com/budesonide" target="_blank" rel="noopener">Available OTC and Rx (~$15–$25/month)</a></td>
                     <td>Gentle aqueous formulation, well-tolerated. Good choice for patients prone to nasal dryness.</td>
                   </tr>
                   <tr>

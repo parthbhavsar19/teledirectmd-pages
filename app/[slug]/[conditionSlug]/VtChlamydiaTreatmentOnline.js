@@ -36,7 +36,7 @@ const PHYSICIAN = {
 };
 
 const MEDICATIONS = [
-  { name: "Doxycycline 100 mg", regimen: "100 mg twice daily × 7 days", price: "~$10–$25 / course GoodRx (generic)", priceHref: "https://www.goodrx.com/doxycycline", firstLine: true, notes: "CDC 2021 preferred first-line. Superior cure for rectal infection. Avoid in pregnancy; take with water, avoid sun exposure and dairy/antacids near dosing." },
+  { name: "Doxycycline 100 mg", regimen: "100 mg twice daily × 7 days", price: "~$10–$25 / course GoodRx (generic)", priceHref: "https://www.goodrx.com/doxycycline-hyclate", firstLine: true, notes: "CDC 2021 preferred first-line. Superior cure for rectal infection. Avoid in pregnancy; take with water, avoid sun exposure and dairy/antacids near dosing." },
   { name: "Azithromycin 1 g", regimen: "Single 1 g oral dose", price: "~$15–$30 / dose GoodRx (generic)", priceHref: "https://www.goodrx.com/azithromycin", firstLine: false, notes: "Recommended alternative and preferred regimen in pregnancy. Convenient single dose; abstain from sex for 7 days afterward." },
   { name: "Azithromycin 1 g (for partner — EPT)", regimen: "Single 1 g oral dose for partner", price: "~$15–$30 / dose GoodRx (generic)", priceHref: "https://www.goodrx.com/azithromycin", firstLine: false, notes: "Expedited partner therapy is permitted in Vermont to treat partners and reduce reinfection where appropriate." }
 ];

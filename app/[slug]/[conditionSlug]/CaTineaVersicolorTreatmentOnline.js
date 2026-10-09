@@ -533,7 +533,7 @@ export default function CaTineaVersicolorTreatmentOnline() {
                   <tr className="tdmd-ca-uti__med-firstline">
                     <td><strong>Ketoconazole 2% shampoo (Rx) / body wash application</strong> · First-line</td>
                     <td>Apply to affected areas (trunk, shoulders, upper arms), leave on 5–10 min, rinse — daily for 1 week, then monthly for prevention</td>
-                    <td><a href="https://www.goodrx.com/ketoconazole-topical" target="_blank" rel="noopener">~$15–$35 / 120 mL</a></td>
+                    <td><a href="https://www.goodrx.com/ketoconazole" target="_blank" rel="noopener">~$15–$35 / 120 mL</a></td>
                     <td>First-line topical for tinea versicolor per AAD. Ketoconazole 1% available OTC (Nizoral). Prescription 2% more effective. Monthly maintenance reduces recurrence.</td>
                   </tr>
                   <tr className="tdmd-ca-uti__med-firstline">
@@ -551,7 +551,7 @@ export default function CaTineaVersicolorTreatmentOnline() {
                   <tr>
                     <td><strong>Zinc pyrithione soap / shampoo (OTC)</strong></td>
                     <td>Daily use as maintenance wash</td>
-                    <td><a href="https://www.goodrx.com/zinc-pyrithione" target="_blank" rel="noopener">~$8–$15 OTC</a></td>
+                    <td>~$8–$15 OTC</td>
                     <td>OTC maintenance option — reduces Malassezia burden. Not a treatment for active disease but useful for prevention alongside prescription therapy.</td>
                   </tr>
                 </tbody>
@@ -698,7 +698,7 @@ export default function CaTineaVersicolorTreatmentOnline() {
               <li><a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=10123.85.&lawCode=INS" rel="noopener" target="_blank">California Insurance Code §10123.85 (AB 744). Retrieved 2026-05-22.</a></li>
               <li><a href="https://www.dhcs.ca.gov/provgovpart/Pages/Telehealth.aspx" rel="noopener" target="_blank">California DHCS Telehealth FAQ. Retrieved 2026-05-22.</a></li>
               <li><a href="https://www.cdph.ca.gov/" rel="noopener" target="_blank">CDPH. Retrieved 2026-05-22.</a></li>
-              <li><a href="https://www.goodrx.com/ketoconazole-topical" rel="noopener" target="_blank">GoodRx — Ketoconazole Topical. Retrieved 2026-05-22.</a></li>
+              <li><a href="https://www.goodrx.com/ketoconazole" rel="noopener" target="_blank">GoodRx — Ketoconazole Topical. Retrieved 2026-05-22.</a></li>
               <li><a href="https://www.goodrx.com/selenium-sulfide" rel="noopener" target="_blank">GoodRx — Selenium Sulfide. Retrieved 2026-05-22.</a></li>
               <li><a href="https://www.goodrx.com/fluconazole" rel="noopener" target="_blank">GoodRx — Fluconazole. Retrieved 2026-05-22.</a></li>
             </ol>

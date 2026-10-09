@@ -100,7 +100,7 @@ const REFERENCES = [
   { href: 'https://www.kff.org/uninsured/issue-brief/key-facts-about-the-uninsured-population/', label: 'Key facts about the uninsured population, KFF, 2025' },
   { href: 'https://doi.org/10.1136/bmjopen-2017-021161', label: 'Continuity of care with doctors and mortality: a systematic review, Pereira Gray et al., BMJ Open 2018' },
   { href: 'https://www.pennmedicine.org/news/study-finds-telemedicine-visits-cost-far-less-than-office-visits', label: 'Telemedicine visits cost far less than office visits, Penn Medicine / JAMA Network Open' },
-  { href: 'https://www.goodrx.com/healthcare-access/telehealth/how-much-does-a-telehealth-visit-cost', label: 'How much does a telehealth visit cost? GoodRx' },
+  { href: 'https://www.goodrx.com/healthcare-access/telehealth/how-much-does-telehealth-cost', label: 'How much does a telehealth visit cost? GoodRx' },
   { href: 'https://coveredusa.org/en/cost/urgent-care', label: 'Urgent care visit cost without insurance, CoveredUSA 2026' },
 ];
 

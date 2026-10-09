@@ -535,13 +535,13 @@ export default function CaEarPainTreatmentOnline() {
                   <tr className="tdmd-ca-uti__med-firstline">
                     <td><strong>Ofloxacin otic solution (Floxin Otic) 0.3%</strong> · First-line</td>
                     <td>5 drops in affected ear twice daily × 7 days (otitis externa)</td>
-                    <td><a href="https://www.goodrx.com/ofloxacin-otic" target="_blank" rel="noopener">~$25–$45 generic with GoodRx</a></td>
+                    <td><a href="https://www.goodrx.com/ofloxacin" target="_blank" rel="noopener">~$25–$45 generic with GoodRx</a></td>
                     <td>First-line for uncomplicated otitis externa per AAO-HNS guideline. Fluoroquinolone otic — excellent coverage. Not systemically absorbed significantly.</td>
                   </tr>
                   <tr className="tdmd-ca-uti__med-firstline">
                     <td><strong>Ciprofloxacin-dexamethasone otic (Ciprodex)</strong> · First-line</td>
                     <td>4 drops in affected ear twice daily × 7 days</td>
-                    <td><a href="https://www.goodrx.com/ciprofloxacin-dexamethasone-otic" target="_blank" rel="noopener">~$30–$60 with GoodRx</a></td>
+                    <td><a href="https://www.goodrx.com/ciprofloxacin-dexamethasone" target="_blank" rel="noopener">~$30–$60 with GoodRx</a></td>
                     <td>First-line for otitis externa — antibiotic plus corticosteroid to reduce inflammation and pain. Brand name Ciprodex; generic available.</td>
                   </tr>
                   <tr className="tdmd-ca-uti__med-firstline">
@@ -553,7 +553,7 @@ export default function CaEarPainTreatmentOnline() {
                   <tr>
                     <td><strong>Amoxicillin-clavulanate 875/125 mg (for AOM)</strong></td>
                     <td>1 tablet twice daily × 5–7 days</td>
-                    <td><a href="https://www.goodrx.com/amoxicillin-clavulanate" target="_blank" rel="noopener">~$16–$25 generic with GoodRx</a></td>
+                    <td><a href="https://www.goodrx.com/amoxicillin-potassium-clavulanate" target="_blank" rel="noopener">~$16–$25 generic with GoodRx</a></td>
                     <td>Second-line for AOM when first-line amoxicillin fails or if recent antibiotic use or beta-lactamase-producing organisms suspected.</td>
                   </tr>
                 </tbody>

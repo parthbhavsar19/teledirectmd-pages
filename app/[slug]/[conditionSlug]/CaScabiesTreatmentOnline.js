@@ -533,7 +533,7 @@ export default function CaScabiesTreatmentOnline() {
                   <tr className="tdmd-ca-uti__med-firstline">
                     <td><strong>Permethrin 5% cream (Elimite, Acticin)</strong> · First-line</td>
                     <td>Apply from neck to soles of feet (including under nails, genital area) — leave on 8–14 hours (overnight), rinse; repeat in 7 days</td>
-                    <td><a href="https://www.goodrx.com/permethrin-topical" target="_blank" rel="noopener">~$20–$50 / 60g</a></td>
+                    <td><a href="https://www.goodrx.com/permethrin" target="_blank" rel="noopener">~$20–$50 / 60g</a></td>
                     <td>First-line scabies treatment per CDC. Prescription 5% (not OTC 1% used for lice). Must be applied to entire body below neck. Simultaneous treatment of all household members recommended regardless of symptoms. Repeat in 7 days.</td>
                   </tr>
                   <tr className="tdmd-ca-uti__med-firstline">
@@ -691,7 +691,7 @@ export default function CaScabiesTreatmentOnline() {
               <li><a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=2290.5.&lawCode=BPC" rel="noopener" target="_blank">California B&P Code §2290.5. Retrieved 2026-05-22.</a></li>
               <li><a href="https://www.mbc.ca.gov/Licensees/Telehealth.aspx" rel="noopener" target="_blank">Medical Board of California — Telehealth. Retrieved 2026-05-22.</a></li>
               <li><a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=10123.85.&lawCode=INS" rel="noopener" target="_blank">California Insurance Code §10123.85 (AB 744). Retrieved 2026-05-22.</a></li>
-              <li><a href="https://www.goodrx.com/permethrin-topical" rel="noopener" target="_blank">GoodRx — Permethrin. Retrieved 2026-05-22.</a></li>
+              <li><a href="https://www.goodrx.com/permethrin" rel="noopener" target="_blank">GoodRx — Permethrin. Retrieved 2026-05-22.</a></li>
               <li><a href="https://www.goodrx.com/ivermectin" rel="noopener" target="_blank">GoodRx — Ivermectin. Retrieved 2026-05-22.</a></li>
               <li><a href="https://www.mbc.ca.gov/Licensees/Prescriptions/Electronic_Prescribing.aspx" rel="noopener" target="_blank">Medical Board of California — AB 2789. Retrieved 2026-05-22.</a></li>
             </ol>

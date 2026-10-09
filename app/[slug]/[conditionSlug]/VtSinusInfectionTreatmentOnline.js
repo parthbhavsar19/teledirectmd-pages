@@ -559,7 +559,7 @@ export default function VtSinusInfectionTreatmentOnline() {
                   <tr className="tdmd-vt-cond__med-firstline">
                     <td><strong>Amoxicillin-clavulanate 875/125 mg</strong> · First-line</td>
                     <td>875/125 mg PO twice daily &times; 5–7 days</td>
-                    <td><a href="https://www.goodrx.com/amoxicillin-clavulanate" target="_blank" rel="noopener">~$15–$30 generic</a></td>
+                    <td><a href="https://www.goodrx.com/amoxicillin-potassium-clavulanate" target="_blank" rel="noopener">~$15–$30 generic</a></td>
                     <td>Preferred when broader coverage is warranted (e.g., recent antibiotics, higher-risk features).</td>
                   </tr>
                   <tr>

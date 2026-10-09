@@ -460,7 +460,7 @@ export default function GigWorkersPage() {
             <li><a href="https://pubmed.ncbi.nlm.nih.gov/32149940/" rel="nofollow noopener" target="_blank">Acute Musculoskeletal Pain Reported Among Rideshare Drivers in the H.I.N.G.E. Pilot Study, J Occup Environ Med 2020 (PubMed)</a></li>
             <li><a href="https://pubmed.ncbi.nlm.nih.gov/40662947/" rel="nofollow noopener" target="_blank">Platform-Mediated Gig Work and Health: A Scoping Review, Am J Ind Med 2025 (PubMed)</a></li>
             <li><a href="https://www.pennmedicine.org/news/study-finds-telemedicine-visits-cost-far-less-than-office-visits" rel="nofollow noopener" target="_blank">Study finds telemedicine visits cost far less than office visits — Penn Medicine</a></li>
-            <li><a href="https://www.goodrx.com/healthcare-access/telehealth/how-much-does-a-telehealth-visit-cost" rel="nofollow noopener" target="_blank">How Much Does a Telehealth Visit Cost? — GoodRx</a></li>
+            <li><a href="https://www.goodrx.com/healthcare-access/telehealth/how-much-does-telehealth-cost" rel="nofollow noopener" target="_blank">How Much Does a Telehealth Visit Cost? — GoodRx</a></li>
             <li><a href="https://www.kff.org/uninsured/issue-brief/key-facts-about-the-uninsured-population/" rel="nofollow noopener" target="_blank">Key Facts About the Uninsured Population — KFF</a></li>
             <li><a href="https://www.healthaffairs.org/doi/10.1377/hlthaff.2021.01408" rel="nofollow noopener" target="_blank">Gig Workers and Health Insurance Coverage — Health Affairs</a></li>
           </ul>

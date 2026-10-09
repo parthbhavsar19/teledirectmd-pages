@@ -533,7 +533,7 @@ export default function CaDandruffTreatmentOnline() {
                   <tr className="tdmd-ca-uti__med-firstline">
                     <td><strong>Ketoconazole 2% shampoo (prescription-strength)</strong> · First-line</td>
                     <td>Shampoo: apply 2–3× weekly leaving on 5 minutes; cream: apply to facial lesions twice daily</td>
-                    <td><a href="https://www.goodrx.com/ketoconazole-topical" target="_blank" rel="noopener">~$15–$35 / 120 mL with GoodRx</a></td>
+                    <td><a href="https://www.goodrx.com/ketoconazole" target="_blank" rel="noopener">~$15–$35 / 120 mL with GoodRx</a></td>
                     <td>First-line antifungal per AAD for seborrheic dermatitis. Targets Malassezia yeast. Ketoconazole 1% available OTC (Nizoral A-D); prescription 2% is more potent.</td>
                   </tr>
                   <tr className="tdmd-ca-uti__med-firstline">
@@ -545,19 +545,19 @@ export default function CaDandruffTreatmentOnline() {
                   <tr className="tdmd-ca-uti__med-firstline">
                     <td><strong>Fluocinolone 0.01% shampoo or Betamethasone valerate 0.05% lotion (scalp TCS)</strong> · First-line</td>
                     <td>Apply to scalp 2–3× weekly (fluocinolone shampoo) or daily for active flares</td>
-                    <td><a href="https://www.goodrx.com/fluocinolone-scalp" target="_blank" rel="noopener">~$15–$40 with GoodRx</a></td>
+                    <td><a href="https://www.goodrx.com/fluocinolone" target="_blank" rel="noopener">~$15–$40 with GoodRx</a></td>
                     <td>Topical corticosteroid for scalp — reduces inflammation and itch per AAD. Use in cycles (2–4 weeks on, then break) to prevent scalp atrophy.</td>
                   </tr>
                   <tr className="tdmd-ca-uti__med-firstline">
                     <td><strong>Ketoconazole 2% cream (for facial seborrhea)</strong> · First-line</td>
                     <td>Apply to nasolabial folds, eyebrows, and ear canals twice daily for 4 weeks</td>
-                    <td><a href="https://www.goodrx.com/ketoconazole-topical" target="_blank" rel="noopener">~$20–$40 / 30 g with GoodRx</a></td>
+                    <td><a href="https://www.goodrx.com/ketoconazole" target="_blank" rel="noopener">~$20–$40 / 30 g with GoodRx</a></td>
                     <td>For facial seborrheic dermatitis — nasolabial folds, eyebrows, post-auricular areas. Antifungal and anti-inflammatory effect. Can combine with low-potency hydrocortisone 1% for faster initial response.</td>
                   </tr>
                   <tr>
                     <td><strong>Ciclopirox 1% shampoo</strong></td>
                     <td>Apply twice weekly, leave on 3 minutes</td>
-                    <td><a href="https://www.goodrx.com/ciclopirox-topical" target="_blank" rel="noopener">~$25–$50 / 120 mL with GoodRx</a></td>
+                    <td><a href="https://www.goodrx.com/ciclopirox" target="_blank" rel="noopener">~$25–$50 / 120 mL with GoodRx</a></td>
                     <td>Alternative antifungal shampoo per AAD when ketoconazole or selenium sulfide are insufficient or not tolerated. Broad-spectrum antifungal activity.</td>
                   </tr>
                 </tbody>
@@ -699,7 +699,7 @@ export default function CaDandruffTreatmentOnline() {
               <li><a href="https://www.dhcs.ca.gov/provgovpart/Pages/TelehealthFAQ.aspx" rel="noopener" target="_blank">California DHCS — Telehealth FAQ. Retrieved May 2026.</a></li>
               <li><a href="https://www.aad.org/public/diseases/a-z/seborrheic-dermatitis-treatment" rel="noopener" target="_blank">AAD — Seborrheic Dermatitis: Diagnosis and Treatment. Retrieved May 2026.</a></li>
               <li><a href="https://www.aad.org/public/diseases/a-z/seborrheic-dermatitis-symptoms" rel="noopener" target="_blank">AAD — Seborrheic Dermatitis Overview. Retrieved May 2026.</a></li>
-              <li><a href="https://www.goodrx.com/ketoconazole-topical" rel="noopener" target="_blank">GoodRx — Ketoconazole Topical Prices. Retrieved May 2026.</a></li>
+              <li><a href="https://www.goodrx.com/ketoconazole" rel="noopener" target="_blank">GoodRx — Ketoconazole Topical Prices. Retrieved May 2026.</a></li>
               <li><a href="https://www.goodrx.com/selenium-sulfide" rel="noopener" target="_blank">GoodRx — Selenium Sulfide Prices. Retrieved May 2026.</a></li>
               <li><a href="https://www.mbc.ca.gov/News/" rel="noopener" target="_blank">Medical Board of California — Electronic Prescribing (AB 2789). Retrieved May 2026.</a></li>
             </ol>

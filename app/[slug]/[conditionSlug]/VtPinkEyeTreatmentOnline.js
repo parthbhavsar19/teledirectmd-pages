@@ -595,7 +595,7 @@ export default function VtPinkEyeTreatmentOnline() {
                   <tr className="tdmd-vt-cond__med-firstline">
                     <td><strong>Erythromycin ophthalmic ointment</strong> · Bacterial</td>
                     <td>Apply to the eye about four times daily</td>
-                    <td><a href="https://www.goodrx.com/erythromycin-ophthalmic" target="_blank" rel="noopener">~$15–$30 generic</a></td>
+                    <td><a href="https://www.goodrx.com/erythromycin" target="_blank" rel="noopener">~$15–$30 generic</a></td>
                     <td>Gentle first-line ointment for bacterial conjunctivitis; can briefly blur vision after applying.</td>
                   </tr>
                   <tr className="tdmd-vt-cond__med-firstline">
@@ -607,7 +607,7 @@ export default function VtPinkEyeTreatmentOnline() {
                   <tr>
                     <td><strong>Azithromycin ophthalmic drops</strong> · Bacterial</td>
                     <td>One drop twice daily &times; 2 days, then once daily</td>
-                    <td><a href="https://www.goodrx.com/azithromycin-ophthalmic" target="_blank" rel="noopener">~$25–$60 generic</a></td>
+                    <td><a href="https://www.goodrx.com/azithromycin" target="_blank" rel="noopener">~$25–$60 generic</a></td>
                     <td>Shorter, simpler schedule that helps adherence; cost runs higher than the others.</td>
                   </tr>
                   <tr>

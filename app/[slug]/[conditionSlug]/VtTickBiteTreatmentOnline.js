@@ -87,7 +87,7 @@ const FAQ_ITEMS = [
       'No. TeleDirectMD runs as a cash-pay practice in Vermont. The visit is a flat $79 paid at booking, with no insurance billing of any kind in Vermont. HSA and FSA cards are accepted. Any doxycycline you are prescribed is filled and paid for separately at your pharmacy, where a single PEP dose typically runs about $5 to $15 with a GoodRx coupon.',
     answer: (
       <p>
-        No. TeleDirectMD runs as a cash-pay practice in Vermont. The visit is a flat $79 paid at booking, with no insurance billing of any kind in Vermont. HSA and FSA cards are accepted. Any doxycycline you are prescribed is filled and paid for separately at your pharmacy, where a single PEP dose typically runs about $5 to $15 with a <a href="https://www.goodrx.com/doxycycline" rel="noopener" target="_blank">GoodRx coupon</a>.
+        No. TeleDirectMD runs as a cash-pay practice in Vermont. The visit is a flat $79 paid at booking, with no insurance billing of any kind in Vermont. HSA and FSA cards are accepted. Any doxycycline you are prescribed is filled and paid for separately at your pharmacy, where a single PEP dose typically runs about $5 to $15 with a <a href="https://www.goodrx.com/doxycycline-hyclate" rel="noopener" target="_blank">GoodRx coupon</a>.
       </p>
     ),
   },
@@ -418,7 +418,7 @@ export default function VtTickBiteTreatmentOnline() {
               </ol>
             </div>
             <p style={{ marginTop: '1rem' }}>
-              When those line up, the regimen is <strong>doxycycline 200 mg by mouth as a single dose</strong> for non-pregnant adults 18 and older. That is the whole course &mdash; one dose, not a daily run. Doxycycline is avoided in pregnancy, so pregnant patients need a different plan made in person. At most Vermont pharmacies the single PEP dose costs roughly <a href="https://www.goodrx.com/doxycycline" rel="noopener" target="_blank">$5 to $15 with a GoodRx coupon</a>, paid separately from the $79 visit fee. If even one criterion is missing &mdash; the tick was not <em>Ixodes</em>, it was barely attached, or more than 72 hours have passed &mdash; the guideline favors watchful waiting rather than a dose that would not help, with a 30-day watch for any rash or symptoms.
+              When those line up, the regimen is <strong>doxycycline 200 mg by mouth as a single dose</strong> for non-pregnant adults 18 and older. That is the whole course &mdash; one dose, not a daily run. Doxycycline is avoided in pregnancy, so pregnant patients need a different plan made in person. At most Vermont pharmacies the single PEP dose costs roughly <a href="https://www.goodrx.com/doxycycline-hyclate" rel="noopener" target="_blank">$5 to $15 with a GoodRx coupon</a>, paid separately from the $79 visit fee. If even one criterion is missing &mdash; the tick was not <em>Ixodes</em>, it was barely attached, or more than 72 hours have passed &mdash; the guideline favors watchful waiting rather than a dose that would not help, with a 30-day watch for any rash or symptoms.
             </p>
           </div>
         </section>

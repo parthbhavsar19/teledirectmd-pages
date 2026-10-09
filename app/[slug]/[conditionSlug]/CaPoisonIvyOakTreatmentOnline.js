@@ -540,13 +540,13 @@ export default function CaPoisonIvyOakTreatmentOnline() {
                   <tr className="tdmd-ca-uti__med-firstline">
                     <td><strong>Triamcinolone 0.1% cream (mid-potency TCS)</strong> · First-line</td>
                     <td>Apply to localized affected areas twice daily for 7–14 days</td>
-                    <td><a href="https://www.goodrx.com/triamcinolone-topical" target="_blank" rel="noopener">~$5–$15 / 454g</a></td>
+                    <td><a href="https://www.goodrx.com/triamcinolone" target="_blank" rel="noopener">~$5–$15 / 454g</a></td>
                     <td>First-line for localized mild-moderate poison oak/ivy per AAD. Not adequate for widespread reactions — use oral prednisone for &gt;30% body surface involvement.</td>
                   </tr>
                   <tr>
                     <td><strong>Hydroxyzine 25–50 mg oral (antihistamine for itch)</strong></td>
                     <td>25–50 mg at bedtime — sedating, helps sleep disrupted by itch</td>
-                    <td><a href="https://www.goodrx.com/hydroxyzine" target="_blank" rel="noopener">~$10–$20 / 30 tabs</a></td>
+                    <td><a href="https://www.goodrx.com/hydroxyzine-hydrochloride" target="_blank" rel="noopener">~$10–$20 / 30 tabs</a></td>
                     <td>For symptomatic itch relief — antihistamines do not treat the rash itself. Sedating antihistamine preferred at bedtime. Non-sedating (cetirizine, loratadine) available OTC.</td>
                   </tr>
                 </tbody>
@@ -694,8 +694,8 @@ export default function CaPoisonIvyOakTreatmentOnline() {
               <li><a href="https://www.mbc.ca.gov/Licensees/Telehealth.aspx" rel="noopener" target="_blank">Medical Board of California — Telehealth. Retrieved 2026-05-22.</a></li>
               <li><a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=10123.85.&lawCode=INS" rel="noopener" target="_blank">California Insurance Code §10123.85 (AB 744). Retrieved 2026-05-22.</a></li>
               <li><a href="https://www.goodrx.com/prednisone" rel="noopener" target="_blank">GoodRx — Prednisone. Retrieved 2026-05-22.</a></li>
-              <li><a href="https://www.goodrx.com/triamcinolone-topical" rel="noopener" target="_blank">GoodRx — Triamcinolone Topical. Retrieved 2026-05-22.</a></li>
-              <li><a href="https://www.goodrx.com/hydroxyzine" rel="noopener" target="_blank">GoodRx — Hydroxyzine. Retrieved 2026-05-22.</a></li>
+              <li><a href="https://www.goodrx.com/triamcinolone" rel="noopener" target="_blank">GoodRx — Triamcinolone Topical. Retrieved 2026-05-22.</a></li>
+              <li><a href="https://www.goodrx.com/hydroxyzine-hydrochloride" rel="noopener" target="_blank">GoodRx — Hydroxyzine. Retrieved 2026-05-22.</a></li>
               <li><a href="https://www.mbc.ca.gov/Licensees/Prescriptions/Electronic_Prescribing.aspx" rel="noopener" target="_blank">Medical Board of California — AB 2789. Retrieved 2026-05-22.</a></li>
             </ol>
           </div>

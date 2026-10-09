@@ -414,19 +414,19 @@ export default function CaEczemaTreatmentOnline() {
                     <tr className="tdmd-med-firstline">
                       <td><strong>Triamcinolone 0.1% cream (mid-potency TCS)</strong> · First-line</td>
                       <td>Apply thin layer to affected areas twice daily for acute flares (max 2 weeks per site)</td>
-                      <td><a href="https://www.goodrx.com/triamcinolone-topical" target="_blank" rel="noopener">~$5–$15 / 454g</a></td>
+                      <td><a href="https://www.goodrx.com/triamcinolone" target="_blank" rel="noopener">~$5–$15 / 454g</a></td>
                       <td>Mid-potency topical corticosteroid — first-line for acute eczema flares per AAD. Avoid face, groin, axillae. Short-course to prevent skin atrophy.</td>
                     </tr>
                     <tr className="tdmd-med-firstline">
                       <td><strong>Hydrocortisone 2.5% cream (low-potency TCS)</strong> · First-line</td>
                       <td>Apply to face and flexural areas twice daily during flares</td>
-                      <td><a href="https://www.goodrx.com/hydrocortisone-topical" target="_blank" rel="noopener">~$5–$10 Rx</a></td>
+                      <td><a href="https://www.goodrx.com/hydrocortisone" target="_blank" rel="noopener">~$5–$10 Rx</a></td>
                       <td>Low-potency TCS for sensitive areas (face, skin folds). Rx 2.5% preferred for moderate facial involvement per AAD.</td>
                     </tr>
                     <tr className="tdmd-med-firstline">
                       <td><strong>Tacrolimus 0.03%–0.1% ointment (Protopic)</strong> · First-line</td>
                       <td>Apply twice daily to affected areas — avoid occlusion</td>
-                      <td><a href="https://www.goodrx.com/tacrolimus-topical" target="_blank" rel="noopener">Generic ~$30–$60 / 60g</a></td>
+                      <td><a href="https://www.goodrx.com/tacrolimus" target="_blank" rel="noopener">Generic ~$30–$60 / 60g</a></td>
                       <td>Calcineurin inhibitor — steroid-sparing option for face, skin folds per AAD. FDA black box warning — counsel patient on theoretical long-term risk.</td>
                     </tr>
                     <tr>
@@ -553,10 +553,10 @@ export default function CaEczemaTreatmentOnline() {
               <li><a href="https://www.mbc.ca.gov/Resources/Medical-Resources/telehealth.aspx" rel="noopener" target="_blank">Medical Board of California — Telehealth</a>. Retrieved 2026-05-22.</li>
               <li><a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=10123.85.&lawCode=INS" rel="noopener" target="_blank">California Insurance Code §10123.85 (AB 744)</a>. Retrieved 2026-05-22.</li>
               <li><a href="https://pubmed.ncbi.nlm.nih.gov/33881450/" rel="noopener" target="_blank">Fadadu RP, Grimes B, Jewell NP, et al. Association of Wildfire Air Pollution and Health Care Use for Atopic Dermatitis and Itch. JAMA Dermatol. 2021;157(6):658-666</a>.</li>
-              <li><a href="https://www.goodrx.com/triamcinolone-topical" rel="noopener" target="_blank">GoodRx — Triamcinolone Topical</a>. Retrieved 2026-05-22.</li>
-              <li><a href="https://www.goodrx.com/tacrolimus-topical" rel="noopener" target="_blank">GoodRx — Tacrolimus Topical</a>. Retrieved 2026-05-22.</li>
+              <li><a href="https://www.goodrx.com/triamcinolone" rel="noopener" target="_blank">GoodRx — Triamcinolone Topical</a>. Retrieved 2026-05-22.</li>
+              <li><a href="https://www.goodrx.com/tacrolimus" rel="noopener" target="_blank">GoodRx — Tacrolimus Topical</a>. Retrieved 2026-05-22.</li>
               <li><a href="https://www.dhcs.ca.gov/provgovpart/Pages/TelehealthFAQ.aspx" rel="noopener" target="_blank">California DHCS Telehealth FAQ</a>. Retrieved 2026-05-22.</li>
-              <li><a href="https://www.goodrx.com/hydrocortisone-topical" rel="noopener" target="_blank">GoodRx — Hydrocortisone Topical</a>. Retrieved 2026-05-22.</li>
+              <li><a href="https://www.goodrx.com/hydrocortisone" rel="noopener" target="_blank">GoodRx — Hydrocortisone Topical</a>. Retrieved 2026-05-22.</li>
               <li><a href="https://www.mbc.ca.gov/News/" rel="noopener" target="_blank">Medical Board of California — AB 2789</a>. Retrieved 2026-05-22.</li>
             </ol>
           </div>

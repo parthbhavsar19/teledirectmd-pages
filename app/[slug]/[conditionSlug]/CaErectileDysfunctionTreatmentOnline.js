@@ -540,7 +540,7 @@ export default function CaErectileDysfunctionTreatmentOnline() {
                   <tr className="tdmd-ca-uti__med-firstline">
                     <td><strong>Tadalafil (generic Cialis) 5–20 mg</strong> · First-line</td>
                     <td>2.5–5 mg once daily OR 5–20 mg as needed 30 minutes before sexual activity</td>
-                    <td><a href="https://www.goodrx.com/tadalafil" target="_blank" rel="noopener">~$11 / 10 tablets with GoodRx</a></td>
+                    <td><a href="https://www.goodrx.com/tadalafil-cialis" target="_blank" rel="noopener">~$11 / 10 tablets with GoodRx</a></td>
                     <td>First-line PDE5 inhibitor per AUA — longer duration (up to 36 hours) vs. sildenafil. Daily 2.5–5 mg dosing offers spontaneity. ABSOLUTE CONTRAINDICATION with nitrates. Food does not significantly affect absorption.</td>
                   </tr>
                   <tr>
@@ -689,7 +689,7 @@ export default function CaErectileDysfunctionTreatmentOnline() {
               <li><a href="https://www.dhcs.ca.gov/provgovpart/Pages/TelehealthFAQ.aspx" rel="noopener" target="_blank">California DHCS — Telehealth FAQ. Retrieved May 2026.</a></li>
               <li><a href="https://www.auanet.org/guidelines-and-quality/guidelines/erectile-dysfunction-guideline" rel="noopener" target="_blank">AUA Erectile Dysfunction Guideline (2018). Retrieved May 2026.</a></li>
               <li><a href="https://www.goodrx.com/sildenafil" rel="noopener" target="_blank">GoodRx — Sildenafil Prices. Retrieved May 2026.</a></li>
-              <li><a href="https://www.goodrx.com/tadalafil" rel="noopener" target="_blank">GoodRx — Tadalafil Prices. Retrieved May 2026.</a></li>
+              <li><a href="https://www.goodrx.com/tadalafil-cialis" rel="noopener" target="_blank">GoodRx — Tadalafil Prices. Retrieved May 2026.</a></li>
               <li><a href="https://www.mbc.ca.gov/News/" rel="noopener" target="_blank">Medical Board of California — Electronic Prescribing (AB 2789). Retrieved May 2026.</a></li>
             </ol>
           </div>

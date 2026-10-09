@@ -459,7 +459,7 @@ export default function RemoteWorkersPage() {
             <li><a href="https://nbloom.people.stanford.edu/research" rel="nofollow noopener" target="_blank">Nick Bloom — Work From Home Research, Stanford University</a></li>
             <li><a href="https://www.pewresearch.org/social-trends/2022/02/16/covid-19-pandemic-continues-to-reshape-work-in-america/" rel="nofollow noopener" target="_blank">COVID-19 Pandemic Continues to Reshape Work in America — Pew Research Center</a></li>
             <li><a href="https://www.pennmedicine.org/news/study-finds-telemedicine-visits-cost-far-less-than-office-visits" rel="nofollow noopener" target="_blank">Study finds telemedicine visits cost far less than office visits — Penn Medicine</a></li>
-            <li><a href="https://www.goodrx.com/healthcare-access/telehealth/how-much-does-a-telehealth-visit-cost" rel="nofollow noopener" target="_blank">How Much Does a Telehealth Visit Cost? — GoodRx</a></li>
+            <li><a href="https://www.goodrx.com/healthcare-access/telehealth/how-much-does-telehealth-cost" rel="nofollow noopener" target="_blank">How Much Does a Telehealth Visit Cost? — GoodRx</a></li>
             <li><a href="https://www.kff.org/uninsured/issue-brief/key-facts-about-the-uninsured-population/" rel="nofollow noopener" target="_blank">Key Facts About the Uninsured Population — KFF</a></li>
             <li><a href="https://www.bls.gov/news.release/atus.nr0.htm" rel="nofollow noopener" target="_blank">American Time Use Survey — U.S. Bureau of Labor Statistics</a></li>
             <li><a href="https://www.upwork.com/press/releases/upwork-study-finds-36-of-the-us-workforce-freelance-amid-digital-revolution" rel="nofollow noopener" target="_blank">Future Workforce Report — Upwork</a></li>
