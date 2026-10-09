@@ -8,7 +8,7 @@
   "hero": {
     "h1": "Smoking Cessation Treatment in {state} (Tobacco Dependence)",
     "subtitle": "{state} adult care by secure video visit, self pay option starting at $79, MD-only, insurance is not required.",
-    "introParagraph": "Tobacco use is the leading preventable cause of death in the United States, responsible for approximately 480,000 deaths per year. Quitting smoking is the single most important thing a smoker can do to improve health, but nicotine dependence is a chronic relapsing condition that most people cannot overcome with willpower alone. The ATS 2020 Clinical Practice Guideline confirms that pharmacotherapy doubles quit rates compared to placebo, and that combining behavioral counseling with medication is more effective than either approach alone. Varenicline is the most effective single agent for smoking cessation based on current evidence, and the FDA removed the black box warning for neuropsychiatric events after the EAGLES trial confirmed its safety even in patients with psychiatric conditions. Most people require multiple quit attempts before achieving long-term abstinence, and this is a normal part of the quitting process, not a failure. TeleDirectMD uses a safety-first telehealth approach that screens for contraindications including seizure disorders, active eating disorders, recent cardiovascular events, pregnancy, and severe active psychiatric illness before determining whether prescribing cessation medication by video visit is appropriate. If the history supports tobacco dependence without contraindications, guideline-based treatment with varenicline, bupropion, nicotine replacement therapy, or combination approaches may be prescribed by video, while adults with complex medical situations are directed to in-person care. This page is for adults located in {state}, including {cities}.",
+    "introParagraph": "Tobacco use is the leading preventable cause of death in the United States, responsible for approximately 480,000 deaths per year. Quitting smoking is the single most important thing a smoker can do to improve health, but nicotine dependence is a chronic relapsing condition that most people cannot overcome with willpower alone. USPSTF evidence shows that pharmacotherapy roughly doubles quit rates compared to placebo and that combining behavioral counseling with medication is more effective than either approach alone, and the ATS 2020 Clinical Practice Guideline recommends varenicline as the preferred first-line medication. Varenicline is the most effective single agent for smoking cessation based on current evidence, and the FDA removed the black box warning for neuropsychiatric events after the EAGLES trial confirmed its safety even in patients with psychiatric conditions. Most people require multiple quit attempts before achieving long-term abstinence, and this is a normal part of the quitting process, not a failure. TeleDirectMD uses a safety-first telehealth approach that screens for contraindications including seizure disorders, active eating disorders, recent cardiovascular events, pregnancy, and severe active psychiatric illness before determining whether prescribing cessation medication by video visit is appropriate. If the history supports tobacco dependence without contraindications, guideline-based treatment with varenicline, bupropion, nicotine replacement therapy, or combination approaches may be prescribed by video, while adults with complex medical situations are directed to in-person care. This page is for adults located in {state}, including {cities}.",
     "tocLinks": [
       {
         "href": "eligibility-checklist",
@@ -85,7 +85,7 @@
       {
         "type": "check",
         "title": "See a {state} licensed MD by video",
-        "description": "We review your smoking history, nicotine dependence severity, previous quit attempts, medical history, psychiatric history, contraindications to specific medications, and readiness to quit. ATS guidelines emphasize that combining behavioral counseling with pharmacotherapy produces the best quit rates, and we tailor the approach to your specific situation."
+        "description": "We review your smoking history, nicotine dependence severity, previous quit attempts, medical history, psychiatric history, contraindications to specific medications, and readiness to quit. USPSTF guidance emphasizes that combining behavioral counseling with pharmacotherapy produces the best quit rates, and we tailor the approach to your specific situation."
       },
       {
         "type": "good",
@@ -616,7 +616,7 @@
   },
   "references": [
     {
-      "text": "ATS Clinical Practice Guideline: Pharmacotherapy for Tobacco Dependence (2020)",
+      "text": "ATS Clinical Practice Guideline: Initiating Pharmacologic Treatment in Tobacco-Dependent Adults (2020)",
       "url": "https://www.thoracic.org"
     },
     {
@@ -792,7 +792,7 @@
     ],
     "guidelines": [
       {
-        "name": "ATS Clinical Practice Guideline: Pharmacotherapy for Tobacco Dependence",
+        "name": "ATS Clinical Practice Guideline: Initiating Pharmacologic Treatment in Tobacco-Dependent Adults",
         "url": "https://www.thoracic.org",
         "publisher": "American Thoracic Society",
         "id": "ats-2020"

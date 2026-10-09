@@ -82,7 +82,7 @@ const FAQ_ITEMS = [
   {
     id: 'hyperlipidemia-refills-online-faq-4',
     question: "What does my 10-year ASCVD risk score mean for statin therapy?",
-    answer: <p>The 10-year atherosclerotic cardiovascular disease (ASCVD) risk score estimates your probability of a heart attack or stroke in the next decade, calculated using age, sex, race/ethnicity, total cholesterol, HDL, systolic blood pressure, BP treatment status, diabetes, and smoking history. Per ACC/AHA 2018 guidelines: ≥20% risk = very high-risk (high-intensity statin strongly recommended); 7.5–19.9% = intermediate-risk (statin benefit discussion recommended); 5–7.4% = borderline (risk-enhancing factors may justify statin); &lt;5% = low-risk (focus on lifestyle). The physician calculates your ASCVD risk score at each visit.</p>,
+    answer: <p>The 10-year atherosclerotic cardiovascular disease (ASCVD) risk score estimates your probability of a heart attack or stroke in the next decade, calculated using age, sex, race/ethnicity, total cholesterol, HDL, systolic blood pressure, BP treatment status, diabetes, and smoking history. Per ACC/AHA 2018 guidelines: ≥20% risk = high-risk (high-intensity statin strongly recommended); 7.5–19.9% = intermediate-risk (statin benefit discussion recommended); 5–7.4% = borderline (risk-enhancing factors may justify statin); &lt;5% = low-risk (focus on lifestyle). The physician calculates your ASCVD risk score at each visit.</p>,
   },
   {
     id: 'hyperlipidemia-refills-online-faq-5',
@@ -366,7 +366,7 @@ export default function CaHyperlipidemiaRefillsOnline() {
             <h2>California Epidemiology: Hyperlipidemia Refills</h2>
             <p>High cholesterol (LDL-C ≥130 mg/dL or total cholesterol ≥240 mg/dL) affects approximately 29% of California adults — about 9 million people — per CHIS 2022 data and CDPH chronic disease surveillance. Statin use in California is approximately 23% of adults over 45, reflecting both high disease burden and treatment gaps.</p>
             
-            <p>South Asian Californians have elevated ASCVD risk at lower BMI thresholds; Filipino Californians have higher rates of metabolic syndrome contributing to dyslipidemia. The ACC/AHA 2018 guideline identifies these populations as risk-enhancing factors warranting earlier statin initiation.</p>
+            <p>South Asian Californians have elevated ASCVD risk at lower BMI thresholds; Filipino Californians have higher rates of metabolic syndrome contributing to dyslipidemia. The ACC/AHA 2018 guideline lists South Asian ancestry and metabolic syndrome as risk-enhancing factors that favor statin initiation.</p>
             
             
             

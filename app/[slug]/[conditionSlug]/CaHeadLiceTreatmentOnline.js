@@ -10,7 +10,7 @@
  * FAQ accordion (12 Q/A), JSON-LD schemas (MedicalWebPage + FAQPage + Physician
  * + HowTo + BreadcrumbList + SpeakableSpecification — NEVER QAPage).
  *
- * Authority: AAD
+ * Authority: CDC, AAP
  * Guideline: CDC Head Lice Guidelines + AAP 2022 Head Lice Clinical Report
  *
  * Hard rules respected:
@@ -304,7 +304,7 @@ export default function CaHeadLiceTreatmentOnline() {
                   <ul>
                     <li>Fast evaluation for head lice (pediculosis capitis) symptoms</li>
                     <li>Red-flag screening for serious complications requiring in-person care</li>
-                    <li>Guideline-based treatment per AAD</li>
+                    <li>Guideline-based treatment per CDC and AAP</li>
                     <li>e-Prescriptions to your CA pharmacy under AB 2789</li>
                     <li>Clear follow-up steps and prevention guidance</li>
                   </ul>

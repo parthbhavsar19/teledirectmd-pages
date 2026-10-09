@@ -2,7 +2,7 @@
  * VtHypertensionRefillsOnline.js — Vermont × Hypertension Refills condition page (v3)
  *
  * URL: /ca/hypertension-refills-online/
- * Authority: ACC/AHA 2017 + 2024 Update
+ * Authority: ACC/AHA 2017 + 2025 Update
  * Rendered by app/[slug]/[conditionSlug]/page.js when slug === 'ca'
  * and conditionSlug === 'hypertension-refills-online'.
  *
@@ -61,7 +61,7 @@ const FAQ_ITEMS = [
   {
     id: 'hypertension-refills-online-faq-1',
     question: "What blood pressure medications can TeleDirectMD refill in Vermont?",
-    answer: <p>TeleDirectMD can refill established antihypertensive medications including ACE inhibitors (lisinopril, ramipril), ARBs (losartan, valsartan, olmesartan), dihydropyridine calcium channel blockers (amlodipine), thiazide-type diuretics (chlorthalidone, HCTZ), and cardioselective beta-blockers (metoprolol succinate) for appropriate indications. Medication selection follows ACC/AHA 2017 and 2024 update guidelines.</p>,
+    answer: <p>TeleDirectMD can refill established antihypertensive medications including ACE inhibitors (lisinopril, ramipril), ARBs (losartan, valsartan, olmesartan), dihydropyridine calcium channel blockers (amlodipine), thiazide-type diuretics (chlorthalidone, HCTZ), and cardioselective beta-blockers (metoprolol succinate) for appropriate indications. Medication selection follows ACC/AHA 2017 and 2025 update guidelines.</p>,
   },
   {
     id: 'hypertension-refills-online-faq-2',
@@ -71,12 +71,12 @@ const FAQ_ITEMS = [
   {
     id: 'hypertension-refills-online-faq-3',
     question: "What blood pressure target does TeleDirectMD use for Vermont hypertension patients?",
-    answer: <p>The ACC/AHA 2017 guideline recommends a blood pressure target of less than 130/80 mmHg for most adults with confirmed hypertension, particularly those with established cardiovascular disease or a 10-year ASCVD risk of ≥10%. The 2024 ACC hypertension update reinforces this target and identifies chlorthalidone as the preferred thiazide diuretic over hydrochlorothiazide due to superior 24-hour coverage. The physician individualizes targets for frail elderly patients or those with significant comorbidities.</p>,
+    answer: <p>The ACC/AHA 2017 guideline recommends a blood pressure target of less than 130/80 mmHg for most adults with confirmed hypertension, particularly those with established cardiovascular disease or a 10-year ASCVD risk of ≥10%. The 2025 AHA/ACC hypertension guideline update keeps this target, and the 2017 guideline identifies chlorthalidone as the preferred thiazide diuretic over hydrochlorothiazide due to its longer half-life and proven outcome benefit. The physician individualizes targets for frail elderly patients or those with significant comorbidities.</p>,
   },
   {
     id: 'hypertension-refills-online-faq-4',
     question: "Why is chlorthalidone preferred over HCTZ for hypertension in Vermont?",
-    answer: <p>The 2024 ACC hypertension guideline update reinforces chlorthalidone as the preferred thiazide-type diuretic over hydrochlorothiazide (HCTZ). Chlorthalidone has a longer half-life (50–60 hours vs. 8–15 hours for HCTZ), providing better 24-hour blood pressure control and superior outcomes in the ALLHAT trial. Chlorthalidone is available as generic at approximately $10–$25 per month with a GoodRx coupon at Vermont pharmacies.</p>,
+    answer: <p>The ACC/AHA 2017 hypertension guideline names chlorthalidone as the preferred thiazide-type diuretic over hydrochlorothiazide (HCTZ). Chlorthalidone has a longer half-life (50–60 hours vs. 8–15 hours for HCTZ), providing better 24-hour blood pressure control and proven cardiovascular outcome benefit in the ALLHAT trial. Chlorthalidone is available as generic at approximately $10–$25 per month with a GoodRx coupon at Vermont pharmacies.</p>,
   },
   {
     id: 'hypertension-refills-online-faq-6',
@@ -114,7 +114,7 @@ function buildSchemas() {
     '@type': 'MedicalWebPage',
     name: PAGE_TITLE,
     url: PAGE_URL,
-    description: 'Refill blood pressure medications online in Vermont. Board-certified Family Medicine MD. Vermont telehealth law compliant. Cash-pay only at $79 flat. ACC/AHA 2017 + 2024 guideline-based care. Roughly 1 in 3 Vermont adults have hypertension (CDC).',
+    description: 'Refill blood pressure medications online in Vermont. Board-certified Family Medicine MD. Vermont telehealth law compliant. Cash-pay only at $79 flat. ACC/AHA 2017 + 2025 guideline-based care. Roughly 1 in 3 Vermont adults have hypertension (CDC).',
     datePublished: DATE_PUBLISHED,
     dateModified: DATE_MODIFIED,
     inLanguage: 'en-US',
@@ -239,7 +239,7 @@ export default function VtHypertensionRefillsOnline() {
               <div className="tdmd-hero-copy">
                 <h1 data-speakable="true">Hypertension Refills</h1>
                 <p className="tdmd-hero-sub" data-speakable="true">
-                  Vermont adults 18+ · Secure video visit · Cash-pay $79 flat · MD-only · 18 V.S.A. Chapter 219 compliant · ACC/AHA 2017 + 2024 Update
+                  Vermont adults 18+ · Secure video visit · Cash-pay $79 flat · MD-only · 18 V.S.A. Chapter 219 compliant · ACC/AHA 2017 + 2025 Update
                 </p>
                 <p>
                   TeleDirectMD provides evidence-based hypertension refills by secure video visit for Vermont adults. A Vermont-licensed board-certified Family Medicine physician evaluates your history, reviews relevant lab values and prior treatments, and prescribes appropriate medication when clinically indicated. This page is for adults located in Vermont, including {vtCities.join(', ')}, and surrounding areas.
@@ -275,7 +275,7 @@ export default function VtHypertensionRefillsOnline() {
                   <li>$79 flat cash-pay — no insurance billing in Vermont</li>
                   <li>MD-only care (no mid-levels)</li>
                   <li>Vermont-licensed telehealth for adults located in Vermont at time of visit</li>
-                  <li>Evidence-based treatment per ACC/AHA 2017 + 2024 Update</li>
+                  <li>Evidence-based treatment per ACC/AHA 2017 + 2025 Update</li>
                 </ul>
 
                 <div className="tdmd-hero-ctas">
@@ -292,7 +292,7 @@ export default function VtHypertensionRefillsOnline() {
                   <h2>Online Hypertension Refills in Vermont</h2>
                   <ul>
                     <li>Board-certified Family Medicine MD — Vermont-licensed</li>
-                    <li>Evidence-based regimen per ACC/AHA 2017 + 2024 Update</li>
+                    <li>Evidence-based regimen per ACC/AHA 2017 + 2025 Update</li>
                     <li>Lab value review before prescribing</li>
                     <li>e-Prescriptions to your VT pharmacy electronically</li>
                     <li>Clear follow-up steps and monitoring guidance</li>
@@ -311,7 +311,7 @@ export default function VtHypertensionRefillsOnline() {
           <div className="tdmd-container">
             <div className="tdmd-condition-opener" id="hypertension-refills-online-opening">
               <p>
-                In Vermont, where 64.8% of residents live in rural areas — the second-highest rural share in the U.S. — managing blood pressure shouldn’t require a 60-mile round trip. Vermont adults with established hypertension can refill blood pressure medications — including lisinopril, amlodipine, losartan, hydrochlorothiazide, and metoprolol succinate — by secure video visit through TeleDirectMD, consistent with 18 V.S.A. Chapter 219. Vermont is also the second-oldest state by median age, and roughly 1 in 3 Vermont adults have hypertension (CDC). The ACC/AHA 2017 hypertension guideline, supplemented by the 2024 ACC hypertension update, guides medication selection and blood pressure targets. A Vermont-licensed board-certified Family Medicine physician reviews your home blood pressure log, current medications, lab values, and adherence before authorizing refills. Self pay is $79.
+                In Vermont, where 64.8% of residents live in rural areas — the second-highest rural share in the U.S. — managing blood pressure shouldn’t require a 60-mile round trip. Vermont adults with established hypertension can refill blood pressure medications — including lisinopril, amlodipine, losartan, hydrochlorothiazide, and metoprolol succinate — by secure video visit through TeleDirectMD, consistent with 18 V.S.A. Chapter 219. Vermont is also the second-oldest state by median age, and roughly 1 in 3 Vermont adults have hypertension (CDC). The ACC/AHA 2017 hypertension guideline, supplemented by the 2025 AHA/ACC hypertension update, guides medication selection and blood pressure targets. A Vermont-licensed board-certified Family Medicine physician reviews your home blood pressure log, current medications, lab values, and adherence before authorizing refills. Self pay is $79.
               </p>
               <span className="tdmd-condition-opener__meta">
                 Reviewed by <a href="/about/">{PHYSICIAN.name}</a>, Board-Certified {PHYSICIAN.specialty} · NPI {PHYSICIAN.npi} · Licensed in {PHYSICIAN.licenseState} ·
@@ -414,7 +414,7 @@ export default function VtHypertensionRefillsOnline() {
           <div className="tdmd-container">
             <h2>Hypertension Refills: Medication Options and Pricing</h2>
             <p>
-              The table below reflects evidence-based medication options per ACC/AHA 2017 + 2024 Update guidelines.
+              The table below reflects evidence-based medication options per ACC/AHA 2017 + 2025 Update guidelines.
               GoodRx prices retrieved May 2026 from goodrx.com — national coupon prices; actual cost varies by Vermont pharmacy location.
               Prescription costs are separate from the $79 TeleDirectMD visit fee.
             </p>
@@ -454,7 +454,7 @@ export default function VtHypertensionRefillsOnline() {
                     <td><strong>Chlorthalidone 12.5/25 mg</strong></td>
                     <td>12.5–25 mg once daily in AM</td>
                     <td><a href="https://www.goodrx.com/chlorthalidone" target="_blank" rel="noopener">~$10–$25/month GoodRx (generic)</a></td>
-                    <td>Preferred over HCTZ per 2024 ACC update — longer half-life, superior 24-hour coverage.</td>
+                    <td>Preferred over HCTZ per ACC/AHA 2017 guideline — longer half-life, superior 24-hour coverage.</td>
                   </tr>
                   <tr>
                     <td><strong>Metoprolol succinate (Toprol XL) 25/50/100/200 mg</strong></td>
@@ -596,7 +596,7 @@ export default function VtHypertensionRefillsOnline() {
               <li><a href="https://legislature.vermont.gov/statutes/section/18/219/09361" rel="noopener" target="_blank">18 V.S.A. § 9361 (Vermont telemedicine prescribing)</a>. Retrieved May 2026.</li>
               <li><a href="https://www.healthvermont.gov/systems/board-medical-practice" rel="noopener" target="_blank">Vermont Board of Medical Practice</a>. Retrieved May 2026.</li>
               <li><a href="https://www.acc.org/Latest-in-Cardiology/ten-points-to-remember/2017/11/09/11/41/2017-guideline-for-high-blood-pressure-in-adults" rel="noopener" target="_blank">ACC/AHA 2017 Guideline for High Blood Pressure in Adults</a>. Retrieved May 2026.</li>
-              <li><a href="https://www.acc.org/guidelines" rel="noopener" target="_blank">ACC 2024 Hypertension Guideline Update</a>. Retrieved May 2026.</li>
+              <li><a href="https://www.acc.org/guidelines" rel="noopener" target="_blank">2025 AHA/ACC Hypertension Guideline Update</a>. Retrieved May 2026.</li>
               <li><a href="https://www.jacc.org/doi/10.1016/j.jacc.2017.11.006" rel="noopener" target="_blank">Whelton PK et al. 2017 ACC/AHA Hypertension Guidelines — JACC</a>. Retrieved May 2026.</li>
               <li><a href="https://www.cdc.gov/antimicrobial-resistance/" rel="noopener" target="_blank">U.S. Centers for Disease Control and Prevention</a>. Retrieved May 2026.</li>
               <li><a href="https://www.cdc.gov/antimicrobial-resistance/" rel="noopener" target="_blank">U.S. Centers for Disease Control and Prevention</a>. Retrieved May 2026.</li>

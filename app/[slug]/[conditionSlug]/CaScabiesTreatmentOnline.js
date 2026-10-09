@@ -10,7 +10,7 @@
  * FAQ accordion (12 Q/A), JSON-LD schemas (MedicalWebPage + FAQPage + Physician
  * + HowTo + BreadcrumbList + SpeakableSpecification — NEVER QAPage).
  *
- * Authority: AAD
+ * Authority: CDC
  * Guideline: CDC Scabies Treatment Guidelines
  *
  * Hard rules respected:
@@ -304,7 +304,7 @@ export default function CaScabiesTreatmentOnline() {
                   <ul>
                     <li>Fast evaluation for scabies (sarcoptes scabiei) symptoms</li>
                     <li>Red-flag screening for serious complications requiring in-person care</li>
-                    <li>Guideline-based treatment per AAD</li>
+                    <li>Guideline-based treatment per CDC</li>
                     <li>e-Prescriptions to your CA pharmacy under AB 2789</li>
                     <li>Clear follow-up steps and prevention guidance</li>
                   </ul>

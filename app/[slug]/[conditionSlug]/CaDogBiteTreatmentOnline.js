@@ -10,7 +10,7 @@
  * FAQ accordion (12 Q/A), JSON-LD schemas (MedicalWebPage + FAQPage + Physician
  * + HowTo + BreadcrumbList + SpeakableSpecification — NEVER QAPage).
  *
- * Authority: AAFP
+ * Authority: IDSA
  * Guideline: CDC Animal Bite Guidelines + IDSA Skin and Soft Tissue Infection Guidelines
  *
  * Hard rules respected:
@@ -304,7 +304,7 @@ export default function CaDogBiteTreatmentOnline() {
                   <ul>
                     <li>Fast evaluation for dog bite (infection prevention and wound care) symptoms</li>
                     <li>Red-flag screening for serious complications requiring in-person care</li>
-                    <li>Guideline-based treatment per AAFP</li>
+                    <li>Guideline-based treatment per IDSA</li>
                     <li>e-Prescriptions to your CA pharmacy under AB 2789</li>
                     <li>Clear follow-up steps and prevention guidance</li>
                   </ul>

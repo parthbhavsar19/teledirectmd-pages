@@ -87,7 +87,7 @@ const FAQ_ITEMS = [
   {
     id: 'diabetes-refills-online-faq-5',
     question: "What is the benefit of SGLT2 inhibitors for Type 2 diabetes in California?",
-    answer: <p>SGLT2 inhibitors — empagliflozin (Jardiance) and dapagliflozin (Farxiga) — provide proven cardiovascular and kidney benefits beyond glycemic control. The EMPA-REG OUTCOME trial showed empagliflozin reduced cardiovascular death by 38% in T2DM patients with established ASCVD. The DAPA-CKD trial demonstrated dapagliflozin slowed progression of CKD regardless of T2DM status. ADA 2024 guidelines recommend an SGLT2 inhibitor with proven CV/kidney benefit for T2DM patients with established ASCVD, heart failure, or CKD (eGFR ≥25).</p>,
+    answer: <p>SGLT2 inhibitors — empagliflozin (Jardiance) and dapagliflozin (Farxiga) — provide proven cardiovascular and kidney benefits beyond glycemic control. The EMPA-REG OUTCOME trial showed empagliflozin reduced cardiovascular death by 38% in T2DM patients with established ASCVD. The DAPA-CKD trial demonstrated dapagliflozin slowed progression of CKD regardless of T2DM status. ADA 2024 guidelines recommend an SGLT2 inhibitor with proven CV/kidney benefit for T2DM patients with established ASCVD, heart failure, or CKD (eGFR ≥20).</p>,
   },
   {
     id: 'diabetes-refills-online-faq-6',

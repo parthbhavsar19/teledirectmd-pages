@@ -110,7 +110,7 @@ const FAQ_ITEMS = [
   { question: 'Why is antibiotic selection important in Vermont specifically?',
     answer: (
       <p>
-        National surveillance data show that <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8664433/" rel="noopener" target="_blank">25.4% of E. coli isolates from community-acquired UTIs are nonsusceptible to trimethoprim-sulfamethoxazole (TMP-SMX), and 21.1% are nonsusceptible to fluoroquinolones</a> — both above the 20% IDSA threshold. The <a href="https://www.cdc.gov/antimicrobial-resistance/" rel="noopener" target="_blank">U.S. Centers for Disease Control and Prevention</a> reports that antimicrobial-resistant infections cause roughly 360,000 illnesses and nearly 4,500 deaths among Vermonters each year. TeleDirectMD applies evidence-based antibiotic stewardship, favoring nitrofurantoin and fosfomycin as first-line agents when clinically appropriate. See our <a href="/health-guides/urinary-tract-infection-uti-guide/">UTI guide</a> for more detail.
+        National surveillance data show that <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8664433/" rel="noopener" target="_blank">25.4% of E. coli isolates from community-acquired UTIs are nonsusceptible to trimethoprim-sulfamethoxazole (TMP-SMX), and 21.1% are nonsusceptible to fluoroquinolones</a>. The TMP-SMX rate exceeds the 20% resistance threshold above which IDSA advises against empirical TMP-SMX, and IDSA reserves fluoroquinolones for uses other than uncomplicated cystitis. The <a href="https://www.cdc.gov/antimicrobial-resistance/" rel="noopener" target="_blank">U.S. Centers for Disease Control and Prevention</a> reports that antimicrobial-resistant infections cause roughly 360,000 illnesses and nearly 4,500 deaths among Vermonters each year. TeleDirectMD applies evidence-based antibiotic stewardship, favoring nitrofurantoin and fosfomycin as first-line agents when clinically appropriate. See our <a href="/health-guides/urinary-tract-infection-uti-guide/">UTI guide</a> for more detail.
       </p>
     ),
   },
@@ -145,7 +145,7 @@ const FAQ_ITEMS = [
   { question: 'Is TeleDirectMD appropriate for recurrent UTIs in Vermont?',
     answer: (
       <p>
-        Recurrent UTIs — 2 or more in 6 months or 3 or more in 12 months per <a href="https://www.auanet.org/guidelines-and-quality/guidelines/recurrent-uti" rel="noopener" target="_blank">AUA 2024 guidelines</a> — benefit from in-person urine culture testing and evaluation for contributing factors. TeleDirectMD can discuss prevention strategies and direct you to a Vermont primary care physician or urologist. In-person resources include Planned Parenthood Vermont (plannedparenthood.org/get-care).
+        Recurrent UTIs — 2 or more in 6 months or 3 or more in 12 months per <a href="https://www.auanet.org/guidelines-and-quality/guidelines/recurrent-uti" rel="noopener" target="_blank">AUA/CUA/SUFU guideline (2019, amended 2025)</a> — benefit from in-person urine culture testing and evaluation for contributing factors. TeleDirectMD can discuss prevention strategies and direct you to a Vermont primary care physician or urologist. In-person resources include Planned Parenthood Vermont (plannedparenthood.org/get-care).
       </p>
     ),
   },
@@ -618,10 +618,10 @@ export default function VtUtiTreatmentOnline() {
 
             <h3>How common are UTIs, and why does antibiotic resistance matter specifically in Vermont?</h3>
             <p>
-              UTI is among the most common bacterial infections in adult women, accounting for more than 8 million healthcare visits annually in the United States. Women have a lifetime UTI risk of approximately 53%, per <a href="https://www.idsociety.org/practice-guideline/complicated-urinary-tract-infections/" rel="noopener" target="_blank">IDSA 2025 guideline data</a>. The <a href="/health-guides/urinary-tract-infection-uti-guide/">TeleDirectMD UTI guide</a> covers symptoms, causes, and prevention in detail.
+              UTI is among the most common bacterial infections in adult women, accounting for more than 8 million healthcare visits annually in the United States. Roughly half of women will have at least one UTI in their lifetime. The <a href="/health-guides/urinary-tract-infection-uti-guide/">TeleDirectMD UTI guide</a> covers symptoms, causes, and prevention in detail.
             </p>
             <p>
-              National surveillance data published in <em>Clinical Infectious Diseases</em> show that <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8664433/" rel="noopener" target="_blank">25.4% of E. coli isolates from community-acquired UTIs are nonsusceptible to TMP-SMX, and 21.1% are nonsusceptible to fluoroquinolones</a> — both above the 20% threshold at which <a href="https://pubmed.ncbi.nlm.nih.gov/21292654/" rel="noopener" target="_blank">IDSA guidelines</a> recommend against empirical use. The <a href="https://www.cdc.gov/antimicrobial-resistance/" rel="noopener" target="_blank">U.S. Centers for Disease Control and Prevention</a> reports that antimicrobial-resistant infections cause roughly 360,000 illnesses and nearly 4,500 deaths among Vermonters each year across all pathogens.
+              National surveillance data published in <em>Clinical Infectious Diseases</em> show that <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8664433/" rel="noopener" target="_blank">25.4% of E. coli isolates from community-acquired UTIs are nonsusceptible to TMP-SMX, and 21.1% are nonsusceptible to fluoroquinolones</a>. The TMP-SMX rate exceeds the 20% resistance threshold above which <a href="https://pubmed.ncbi.nlm.nih.gov/21292654/" rel="noopener" target="_blank">IDSA guidelines</a> advise against empirical TMP-SMX, and IDSA reserves fluoroquinolones for uses other than uncomplicated cystitis. The <a href="https://www.cdc.gov/antimicrobial-resistance/" rel="noopener" target="_blank">U.S. Centers for Disease Control and Prevention</a> reports that antimicrobial-resistant infections cause roughly 360,000 illnesses and nearly 4,500 deaths among Vermonters each year across all pathogens.
             </p>
 
             <h3>How does TeleDirectMD apply antibiotic stewardship in Vermont?</h3>
@@ -636,7 +636,7 @@ export default function VtUtiTreatmentOnline() {
           <div className="tdmd-container">
             <h2>UTI Treatment Options and Medication Costs in Vermont</h2>
             <p>
-              The <a href="https://pubmed.ncbi.nlm.nih.gov/21292654/" rel="noopener" target="_blank">IDSA guideline for acute uncomplicated cystitis</a> and the <a href="https://www.auanet.org/guidelines-and-quality/guidelines/recurrent-uti" rel="noopener" target="_blank">AUA/CUA/SUFU 2024 guideline on recurrent UTIs</a> identify nitrofurantoin, trimethoprim-sulfamethoxazole (when local resistance &lt; 20%), and fosfomycin as first-line agents for uncomplicated cystitis.
+              The <a href="https://pubmed.ncbi.nlm.nih.gov/21292654/" rel="noopener" target="_blank">IDSA guideline for acute uncomplicated cystitis</a> and the <a href="https://www.auanet.org/guidelines-and-quality/guidelines/recurrent-uti" rel="noopener" target="_blank">AUA/CUA/SUFU guideline on recurrent UTIs (2019, amended 2025)</a> identify nitrofurantoin, trimethoprim-sulfamethoxazole (when local resistance &lt; 20%), and fosfomycin as first-line agents for uncomplicated cystitis.
             </p>
             <div className="tdmd-table-wrap">
               <table className="tdmd-table" aria-label="UTI antibiotic options and GoodRx prices">
@@ -784,7 +784,7 @@ export default function VtUtiTreatmentOnline() {
               <li><a href="https://www.cdc.gov/uti/about/index.html" rel="noopener" target="_blank">CDC — Urinary Tract Infection Basics</a>. Retrieved May 19, 2026.</li>
               <li><a href="https://pubmed.ncbi.nlm.nih.gov/21292654/" rel="noopener" target="_blank">Gupta K, Hooton TM, Naber KG, et al. International clinical practice guidelines for the treatment of acute uncomplicated cystitis and pyelonephritis in women: A 2010 update by the Infectious Diseases Society of America and the European Society for Microbiology and Infectious Diseases. Clin Infect Dis. 2011;52(5):e103-e120</a>.</li>
               <li><a href="https://www.idsociety.org/practice-guideline/complicated-urinary-tract-infections/" rel="noopener" target="_blank">IDSA 2025 Guideline Update — Complicated UTI</a>. Retrieved May 19, 2026.</li>
-              <li><a href="https://www.auanet.org/guidelines-and-quality/guidelines/recurrent-uti" rel="noopener" target="_blank">AUA/CUA/SUFU Guideline — Recurrent UTIs in Women (2024)</a>. Retrieved May 19, 2026.</li>
+              <li><a href="https://www.auanet.org/guidelines-and-quality/guidelines/recurrent-uti" rel="noopener" target="_blank">AUA/CUA/SUFU Guideline: Recurrent UTIs in Women (2019, amended 2025)</a>. Retrieved May 19, 2026.</li>
               <li><a href="https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2020/01/treatment-of-urinary-tract-infections-in-nonpregnant-women" rel="noopener" target="_blank">ACOG — Treatment of UTIs in Nonpregnant Women</a>. Retrieved May 19, 2026.</li>
               <li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8664433/" rel="noopener" target="_blank">Antimicrobial Resistance Trends in Urine E. coli Isolates, US Outpatients 2011–2019 (Clinical Infectious Diseases)</a>. Retrieved May 19, 2026.</li>
               <li><a href="https://telehealth.hhs.gov/providers/telehealth-policy/prescribing-controlled-substances-via-telehealth" rel="noopener" target="_blank">HHS Telehealth.HHS.gov — Prescribing Controlled Substances via Telehealth</a>. Retrieved May 19, 2026.</li>

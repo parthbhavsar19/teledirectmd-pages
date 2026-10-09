@@ -11,7 +11,7 @@
  * + HowTo + BreadcrumbList + SpeakableSpecification — NEVER QAPage).
  *
  * Authority: American Academy of Otolaryngology – Head and Neck Surgery (AAO-HNS) and IDSA
- * Guideline: AAO-HNS Adult Sinusitis Clinical Practice Guideline (2015 Update) and IDSA Bacterial Rhinosinusitis Guideline
+ * Guideline: AAO-HNS Adult Sinusitis Clinical Practice Guideline (2025 Update) and IDSA Bacterial Rhinosinusitis Guideline
  *
  * Hard rules respected:
  *   • No QAPage schema — FAQPage only.
@@ -421,7 +421,7 @@ export default function CaSinusInfectionTreatmentOnline() {
               Sinusitis (rhinosinusitis) is one of the most common reasons adults seek medical care in the United States, and in CDC National Health Interview Survey data, 15.0% of women and 8.8% of men reported being told they had sinusitis in the past 12 months. Applying national rates to California's population of approximately 39 million, an estimated 3–4 million Californians experience acute sinusitis each year. — <a href="https://www.cdc.gov/mmwr/volumes/68/wr/mm6815a7.htm" rel="noopener" target="_blank">CDC MMWR QuickStats: Adults Told They Had Sinusitis in the Past 12 Months (NHIS 2017)</a>.
             </p>
             <p>
-              Clinical guidance for sinus infection treatment is provided by <a href="https://pubmed.ncbi.nlm.nih.gov/25832968/" rel="noopener" target="_blank">American Academy of Otolaryngology – Head and Neck Surgery (AAO-HNS) and IDSA</a> through the AAO-HNS Adult Sinusitis Clinical Practice Guideline (2015 Update) and IDSA Bacterial Rhinosinusitis Guideline. TeleDirectMD follows these guidelines on every patient visit.
+              Clinical guidance for sinus infection treatment is provided by <a href="https://pubmed.ncbi.nlm.nih.gov/25832968/" rel="noopener" target="_blank">American Academy of Otolaryngology – Head and Neck Surgery (AAO-HNS) and IDSA</a> through the AAO-HNS Adult Sinusitis Clinical Practice Guideline (2025 Update) and IDSA Bacterial Rhinosinusitis Guideline. TeleDirectMD follows these guidelines on every patient visit.
             </p>
             <h3>What causes sinus infection (sinusitis) and who is most at risk in California?</h3>
             <p>

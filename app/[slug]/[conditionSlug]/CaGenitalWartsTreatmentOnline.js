@@ -688,7 +688,7 @@ export default function CaGenitalWartsTreatmentOnline() {
               <li><a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=10123.85.&lawCode=INS" rel="noopener" target="_blank">California Insurance Code §10123.85 — Telehealth Parity (AB 744). Retrieved May 2026.</a></li>
               <li><a href="https://www.dhcs.ca.gov/provgovpart/Pages/TelehealthFAQ.aspx" rel="noopener" target="_blank">California DHCS — Telehealth FAQ. Retrieved May 2026.</a></li>
               <li><a href="https://www.cdc.gov/std/treatment-guidelines/anogenital-warts.htm" rel="noopener" target="_blank">CDC STI Treatment Guidelines 2021 — Anogenital Warts. Retrieved May 2026.</a></li>
-              <li><a href="https://www.acog.org/clinical/clinical-guidance/practice-bulletin/articles/2020/07/human-papillomavirus-vaccination" rel="noopener" target="_blank">ACOG — HPV Vaccination Practice Bulletin. Retrieved May 2026.</a></li>
+              <li><a href="https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2020/08/human-papillomavirus-vaccination" rel="noopener" target="_blank">ACOG — HPV Vaccination Committee Opinion 809. Retrieved May 2026.</a></li>
               <li><a href="https://www.cdc.gov/hpv/hcp/vaccination-considerations/index.html" rel="noopener" target="_blank">CDC: HPV Vaccine Recommendations. Retrieved October 2026.</a></li>
               <li><a href="https://www.goodrx.com/imiquimod" rel="noopener" target="_blank">GoodRx — Imiquimod Prices. Retrieved May 2026.</a></li>
               <li><a href="https://www.mbc.ca.gov/News/" rel="noopener" target="_blank">Medical Board of California — Electronic Prescribing (AB 2789). Retrieved May 2026.</a></li>

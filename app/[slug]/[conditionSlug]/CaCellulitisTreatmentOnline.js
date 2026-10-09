@@ -11,7 +11,7 @@
  * + HowTo + BreadcrumbList + SpeakableSpecification — NEVER QAPage).
  *
  * Authority: Infectious Diseases Society of America (IDSA) — SSTI Guideline
- * Guideline: IDSA Practice Guidelines for the Diagnosis and Management of Skin and Soft Tissue Infections (SSTIs) — 2014 with 2022 updates
+ * Guideline: IDSA Practice Guidelines for the Diagnosis and Management of Skin and Soft Tissue Infections (SSTIs) (2014)
  *
  * Hard rules respected:
  *   • No QAPage schema — FAQPage only.
@@ -422,7 +422,7 @@ export default function CaCellulitisTreatmentOnline() {
               Skin and soft tissue infections (SSTIs) including cellulitis account for approximately 14.2 million outpatient and emergency department visits annually in the United States. California's warm coastal and inland environments, high outdoor recreation participation, and large unhoused population contribute to higher-than-average SSTI rates. The California Department of Public Health monitors community-acquired MRSA (CA-MRSA), noting that California has historically been an epicenter of CA-MRSA emergence since the late 1990s. — <a href="https://www.cdph.ca.gov/Programs/CHCQ/HAI/Pages/MRSAMethicillin-ResistantStaphylococcusaureus.aspx" rel="noopener" target="_blank">CDPH — MRSA Information</a>.
             </p>
             <p>
-              Clinical guidance for cellulitis treatment is provided by <a href="https://www.idsociety.org/practice-guideline/skin-and-soft-tissue-infections/" rel="noopener" target="_blank">Infectious Diseases Society of America (IDSA) — SSTI Guideline</a> through the IDSA Practice Guidelines for the Diagnosis and Management of Skin and Soft Tissue Infections (SSTIs) — 2014 with 2022 updates. TeleDirectMD follows these guidelines on every patient visit.
+              Clinical guidance for cellulitis treatment is provided by <a href="https://www.idsociety.org/practice-guideline/skin-and-soft-tissue-infections/" rel="noopener" target="_blank">Infectious Diseases Society of America (IDSA) — SSTI Guideline</a> through the IDSA Practice Guidelines for the Diagnosis and Management of Skin and Soft Tissue Infections (SSTIs) (2014). TeleDirectMD follows these guidelines on every patient visit.
             </p>
             <h3>What causes cellulitis and who is most at risk in California?</h3>
             <p>
