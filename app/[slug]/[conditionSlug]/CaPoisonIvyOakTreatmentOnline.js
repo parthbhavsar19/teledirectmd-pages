@@ -420,7 +420,7 @@ export default function CaPoisonIvyOakTreatmentOnline() {
               Poison oak (Toxicodendron diversilobum) is California's most prevalent plant allergen and the leading cause of allergic contact dermatitis in the western United States, according to the California Department of Public Health (CDPH). An estimated 85% of the U.S. population will develop an allergic reaction to urushiol if exposed to sufficient amounts per AAAAI data. California's chaparral, oak woodland, and coastal scrub make poison oak exposure common for hikers, outdoor workers, firefighters, and wildland recreationists. — <a href="https://www.cdph.ca.gov/" rel="noopener" target="_blank">CDPH — California Department of Public Health</a>.
             </p>
             <p>
-              Clinical guidance for poison ivy/oak (allergic contact dermatitis from toxicodendron) is provided by <a href="https://www.aad.org/public/diseases/a-z/poison-ivy-treatment" rel="noopener" target="_blank">AAD</a> through the AAD Contact Dermatitis Guidelines + AAAAI Allergic Contact Dermatitis Guidance. TeleDirectMD follows these guidelines on every patient visit.
+              Clinical guidance for poison ivy/oak (allergic contact dermatitis from toxicodendron) is provided by <a href="https://www.aad.org/public/everyday-care/itchy-skin/poison-ivy/treat-rash" rel="noopener" target="_blank">AAD</a> through the AAD Contact Dermatitis Guidelines + AAAAI Allergic Contact Dermatitis Guidance. TeleDirectMD follows these guidelines on every patient visit.
             </p>
             <h3>What causes poison oak / ivy and who is most at risk in California?</h3>
             <p>
@@ -515,7 +515,7 @@ export default function CaPoisonIvyOakTreatmentOnline() {
           <div className="tdmd-container">
             <h2>Poison Ivy/Oak (Allergic Contact Dermatitis from Toxicodendron) Medication Options and Costs in California</h2>
             <p>
-              Medications for poison ivy/oak (allergic contact dermatitis from toxicodendron) are selected based on current guidelines from <a href="https://www.aad.org/public/diseases/a-z/poison-ivy-treatment" rel="noopener" target="_blank">AAD</a>, patient history, allergies, and relevant contraindications assessed at the visit. GoodRx-verified pricing is shown below.
+              Medications for poison ivy/oak (allergic contact dermatitis from toxicodendron) are selected based on current guidelines from <a href="https://www.aad.org/public/everyday-care/itchy-skin/poison-ivy/treat-rash" rel="noopener" target="_blank">AAD</a>, patient history, allergies, and relevant contraindications assessed at the visit. GoodRx-verified pricing is shown below.
             </p>
             <div className="tdmd-table-wrap">
               <table className="tdmd-table" aria-label="Poison Ivy/Oak (Allergic Contact Dermatitis from Toxicodendron) medication options and GoodRx prices">
@@ -687,8 +687,8 @@ export default function CaPoisonIvyOakTreatmentOnline() {
           <div className="tdmd-container">
             <h2>References and Primary Sources</h2>
             <ol className="tdmd-ref-list">
-              <li><a href="https://www.aad.org/public/diseases/a-z/poison-ivy-treatment" rel="noopener" target="_blank">AAD — Contact Dermatitis (Poison Ivy/Oak). Retrieved 2026-05-22.</a></li>
-              <li><a href="https://www.aaaai.org/conditions-treatments/related-conditions/contact-dermatitis" rel="noopener" target="_blank">AAAAI — Poison Ivy, Oak, and Sumac. Retrieved 2026-05-22.</a></li>
+              <li><a href="https://www.aad.org/public/everyday-care/itchy-skin/poison-ivy/treat-rash" rel="noopener" target="_blank">AAD — Contact Dermatitis (Poison Ivy/Oak). Retrieved 2026-05-22.</a></li>
+              <li><a href="https://www.aaaai.org/Tools-for-the-Public/Conditions-Library/Allergies/Contact-Dermatitis-Overview" rel="noopener" target="_blank">AAAAI: Contact Dermatitis Overview. Retrieved 2026-05-22.</a></li>
               <li><a href="https://www.cdph.ca.gov/" rel="noopener" target="_blank">CDPH. Retrieved 2026-05-22.</a></li>
               <li><a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=2290.5.&lawCode=BPC" rel="noopener" target="_blank">California B&P Code §2290.5. Retrieved 2026-05-22.</a></li>
               <li><a href="https://www.mbc.ca.gov/Licensees/Telehealth.aspx" rel="noopener" target="_blank">Medical Board of California — Telehealth. Retrieved 2026-05-22.</a></li>

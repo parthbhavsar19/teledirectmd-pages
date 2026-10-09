@@ -294,7 +294,7 @@ export const INDUSTRY_DATA = {
       },
       {
         name: 'Late-shift anxiety and depression',
-        why: 'Shift work increases depression and anxiety risk dose-dependently with shift frequency. SSRIs/SNRIs and behavioral counseling referral are core scope.',
+        why: 'Shift work is linked to physical and mental fatigue that affects worker health. For anxiety and depression, SSRIs/SNRIs and behavioral counseling referral are core scope.',
         citations: [
           { label: 'Brazilian J Occup Med 2025', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC11822966/' },
         ],
@@ -675,9 +675,6 @@ export const INDUSTRY_DATA = {
       {
         name: 'Allergic contact dermatitis (sensitization)',
         why: 'Quaternary ammonium compounds (QACs) in disinfectants are documented contact allergens. Once sensitized, trace exposure triggers reactions. Topical management, allergen avoidance counseling, patch test referral.',
-        citations: [
-          { label: 'Curr Opin Allergy Clin Immunol', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC3125175/' },
-        ],
       },
       {
         name: 'Asthma management',

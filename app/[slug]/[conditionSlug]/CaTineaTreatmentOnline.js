@@ -417,7 +417,7 @@ export default function CaTineaTreatmentOnline() {
           <div className="tdmd-container">
             <h2>How Common Is Tinea / Ringworm in California?</h2>
             <p>
-              Dermatophyte infections (tinea corporis, tinea pedis, tinea cruris) affect an estimated 10–20% of the U.S. population at some point according to the CDC Fungal Diseases program. California's warm, humid coastal areas and high-traffic public facilities — gyms, locker rooms, public pools — create environments favorable for dermatophyte spread. The California Department of Public Health (CDPH) tracks fungal skin infections as a reportable condition in outbreak settings including California schools and sports teams. — <a href="https://www.cdc.gov/fungal/diseases/ringworm/index.html" rel="noopener" target="_blank">CDC — Ringworm (Dermatophytosis)</a>.
+              Dermatophyte infections (tinea corporis, tinea pedis, tinea cruris) affect an estimated 10–20% of the U.S. population at some point according to the CDC Fungal Diseases program. California's warm, humid coastal areas and high-traffic public facilities — gyms, locker rooms, public pools — create environments favorable for dermatophyte spread. The California Department of Public Health (CDPH) tracks fungal skin infections as a reportable condition in outbreak settings including California schools and sports teams. — <a href="https://www.cdc.gov/ringworm/about/index.html" rel="noopener" target="_blank">CDC — Ringworm (Dermatophytosis)</a>.
             </p>
             <p>
               Clinical guidance for tinea (ringworm / dermatophyte infection) is provided by <a href="https://www.aad.org/public/diseases/a-z/ringworm-treatment" rel="noopener" target="_blank">AAD</a> through the CDC Ringworm (Dermatophytosis) Guidance + AAD Tinea Clinical Guidelines. TeleDirectMD follows these guidelines on every patient visit.
@@ -699,7 +699,7 @@ export default function CaTineaTreatmentOnline() {
           <div className="tdmd-container">
             <h2>References and Primary Sources</h2>
             <ol className="tdmd-ref-list">
-              <li><a href="https://www.cdc.gov/fungal/diseases/ringworm/index.html" rel="noopener" target="_blank">CDC — Ringworm (Dermatophytosis). Retrieved 2026-05-22.</a></li>
+              <li><a href="https://www.cdc.gov/ringworm/about/index.html" rel="noopener" target="_blank">CDC — Ringworm (Dermatophytosis). Retrieved 2026-05-22.</a></li>
               <li><a href="https://www.aad.org/public/diseases/a-z/ringworm-treatment" rel="noopener" target="_blank">AAD — Ringworm Diagnosis and Treatment. Retrieved 2026-05-22.</a></li>
               <li><a href="https://www.cdph.ca.gov/Programs/CID/DCDC/Pages/Ringworm.aspx" rel="noopener" target="_blank">CDPH — Ringworm. Retrieved 2026-05-22.</a></li>
               <li><a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=2290.5.&lawCode=BPC" rel="noopener" target="_blank">California B&P Code §2290.5. Retrieved 2026-05-22.</a></li>

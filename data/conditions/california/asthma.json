@@ -19,16 +19,16 @@
   },
   "opener": {
     "text": "California adults managing stable asthma can refill controller medications — including inhaled corticosteroids (ICS) and ICS+LABA combination inhalers — by secure video visit through TeleDirectMD, consistent with California Business and Professions Code Section 2290.5. A California-licensed board-certified Family Medicine physician reviews your current regimen, most recent spirometry or peak-flow history, symptom control, and adherence before authorizing refills. The GINA 2024 stepwise framework guides inhaler selection and step-up or step-down decisions. California's CDPH ambient air quality data — including wildfire smoke advisories — are clinically relevant and addressed during the visit. Self pay is $79. Aetna is in-network effective April 30, 2026.",
-    "citations": ["https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=2290.5.&lawCode=BPC", "https://ginasthma.org/2024-gina-main-report/", "https://www.cdph.ca.gov/Programs/OHE/Pages/NR23-005.aspx"]
+    "citations": ["https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=2290.5.&lawCode=BPC", "https://ginasthma.org/reports/", "https://www.cdph.ca.gov/Programs/CCDPHP/DEODC/EHIB/CPE/Pages/CaliforniaBreathing.aspx"]
   },
   "epidemiology": {
     "ca_prevalence": "Approximately 8.5% of California adults — roughly 2.7 million people — have current asthma, per the 2023 California Health Interview Survey (CHIS). California's prevalence exceeds the national average of 7.8%, partly driven by environmental triggers including wildfire smoke, vehicle exhaust in the Central Valley, and coastal marine layer ozone.",
     "wildfire_context": "California's wildfire seasons now run year-round. The California Air Resources Board (CARB) documents that wildfire smoke events increased fine particulate matter (PM2.5) exposure statewide, driving asthma exacerbation emergency visits by 12–15% during peak smoke events in 2020–2023. The CDPH tracks air quality via the Air Quality Index (AQI) and issues public health advisories for sensitive groups including people with asthma.",
     "disparities": "Black Californians have asthma prevalence nearly twice that of white Californians (12.2% vs. 7.4%) per CHIS 2023. Pediatric asthma in low-income zip codes correlates with diesel truck traffic from agricultural supply chains. TeleDirectMD treats adults 18+ only.",
     "sources": [
-      {"name": "California Health Interview Survey (CHIS) 2023 — Asthma", "url": "https://healthpolicy.ucla.edu/our-work/california-health-interview-survey-chis/chis-data"},
-      {"name": "California Air Resources Board (CARB) — Wildfire Smoke and Air Quality", "url": "https://www.arb.ca.gov/research/resnotes/notes/2021-01.htm"},
-      {"name": "CDPH — Air Quality and Health", "url": "https://www.cdph.ca.gov/Programs/OHE/Pages/NR23-005.aspx"}
+      {"name": "California Health Interview Survey (CHIS) 2023 — Asthma", "url": "https://healthpolicy.ucla.edu/our-work/california-health-interview-survey-chis"},
+      {"name": "California Air Resources Board (CARB): Smoke Ready California", "url": "https://ww2.arb.ca.gov/protecting-yourself-wildfire-smoke"},
+      {"name": "CDPH California Breathing (Asthma Program)", "url": "https://www.cdph.ca.gov/Programs/CCDPHP/DEODC/EHIB/CPE/Pages/CaliforniaBreathing.aspx"}
     ]
   },
   "clinical_guidelines": {
@@ -44,7 +44,7 @@
     "biologics_referral": "Referral criteria for biologic therapy: uncontrolled symptoms despite medium-high dose ICS+LABA, blood eosinophils ≥300 cells/µL, FeNO >25 ppb, history of ≥2 exacerbations requiring oral steroids in the prior year, or dupilumab/benralizumab/mepolizumab candidacy. Physician facilitates referral to allergist or pulmonologist.",
     "monitoring": "Annual spirometry or PEG-Flow review, Asthma Control Test (ACT) score at each visit, rescue inhaler use frequency, ER/urgent care visits, oral steroid courses — all reviewed before authorizing refills.",
     "sources": [
-      {"name": "GINA 2024 Main Report — Global Strategy for Asthma Management and Prevention", "url": "https://ginasthma.org/2024-gina-main-report/"},
+      {"name": "GINA Reports: Global Strategy for Asthma Management and Prevention", "url": "https://ginasthma.org/reports/"},
       {"name": "NAEPP Expert Panel Report 3 (EPR-3) — Guidelines for the Diagnosis and Management of Asthma", "url": "https://www.nhlbi.nih.gov/health-topics/guidelines-for-diagnosis-management-of-asthma"}
     ]
   },
@@ -58,7 +58,7 @@
   "ca_medi_cal_coverage": {
     "ics_coverage": "Medi-Cal covers ICS inhalers including budesonide (Pulmicort) on the formulary. Prior authorization required for brand-name combination inhalers above the preferred tier.",
     "biologics": "Medi-Cal covers FDA-approved asthma biologics (dupilumab, benralizumab, mepolizumab) with prior authorization and specialist attestation. TeleDirectMD facilitates referral; biologic prescribing requires specialist.",
-    "source_url": "https://medi-cal.ca.gov/provider/formulary"
+    "source_url": "https://medi-calrx.dhcs.ca.gov/home/cdl/"
   },
   "siblings": [
     {"slug": "hypertension-refills-online", "label": "Hypertension Refills in CA", "why": "Common comorbidity — beta-blockers used cautiously in asthma."},

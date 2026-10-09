@@ -418,7 +418,7 @@ export default function CaCommonColdTreatmentOnline() {
           <div className="tdmd-container">
             <h2>How Common Is Common Cold in California?</h2>
             <p>
-              California sees approximately 1 billion common colds annually in the United States; applying standard epidemiologic rates, California's 39 million residents experience an estimated 150–180 million cold episodes per year, primarily in fall and winter months. — <a href="https://www.cdc.gov/nchs/fastats/common-cold.htm" rel="noopener" target="_blank">CDC — Common Cold Data</a>.
+              California sees approximately 1 billion common colds annually in the United States; applying standard epidemiologic rates, California's 39 million residents experience an estimated 150–180 million cold episodes per year, primarily in fall and winter months. — <a href="https://www.cdc.gov/common-cold/about/index.html" rel="noopener" target="_blank">CDC — About Common Cold</a>.
             </p>
             <p>
               Clinical guidance for common cold treatment is provided by <a href="https://www.aafp.org/pubs/afp/issues/2012/0715/p153.html" rel="noopener" target="_blank">American Academy of Family Physicians (AAFP)</a> through the AAFP Common Cold Management Guidelines. TeleDirectMD follows these guidelines on every patient visit.
@@ -695,7 +695,7 @@ export default function CaCommonColdTreatmentOnline() {
               <li><a href="https://www.mbc.ca.gov/Resources/Medical-Resources/telehealth.aspx" rel="noopener" target="_blank">Medical Board of California — Telehealth Resources. Retrieved May 2026.</a></li>
               <li><a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=10123.85.&lawCode=INS" rel="noopener" target="_blank">California Insurance Code §10123.85 — Telehealth Parity (AB 744). Retrieved May 2026.</a></li>
               <li><a href="https://www.dhcs.ca.gov/provgovpart/Pages/TelehealthFAQ.aspx" rel="noopener" target="_blank">California DHCS — Telehealth FAQ. Retrieved May 2026.</a></li>
-              <li><a href="https://www.cdc.gov/nchs/fastats/common-cold.htm" rel="noopener" target="_blank">CDC — Common Cold (NCHS FastStats). Retrieved May 2026.</a></li>
+              <li><a href="https://www.cdc.gov/common-cold/about/index.html" rel="noopener" target="_blank">CDC — About Common Cold. Retrieved May 2026.</a></li>
               <li><a href="https://www.aafp.org/pubs/afp/issues/2012/0715/p153.html" rel="noopener" target="_blank">AAFP — Nonpharmacologic Management of Upper Respiratory Tract Infections. Retrieved May 2026.</a></li>
               <li><a href="https://www.cdc.gov/antibiotic-use/sinus-infection.html" rel="noopener" target="_blank">CDC — Antibiotic Use for Common Cold and Sinus Infections. Retrieved May 2026.</a></li>
               <li><a href="https://www.mbc.ca.gov/News/" rel="noopener" target="_blank">Medical Board of California — Electronic Prescribing (AB 2789). Retrieved May 2026.</a></li>

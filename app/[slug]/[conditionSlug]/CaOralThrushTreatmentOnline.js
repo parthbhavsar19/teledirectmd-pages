@@ -417,7 +417,7 @@ export default function CaOralThrushTreatmentOnline() {
           <div className="tdmd-container">
             <h2>How Common Is Oral Thrush (Oral Candidiasis) in California?</h2>
             <p>
-              Oral candidiasis (thrush) is most common in immunocompromised individuals, denture wearers, patients on inhaled corticosteroids, and those who have recently completed antibiotic therapy. California has a large immunocompromised population including approximately 100,000 Californians living with HIV, per CDPH HIV/AIDS statistics — HIV-associated oral candidiasis remains a significant clinical concern statewide. Oral thrush is also common in California breast-cancer patients undergoing chemotherapy and in older adults in long-term care settings. — <a href="https://www.cdph.ca.gov/Programs/CID/DOA/Pages/OA_HIVandAIDS_Information.aspx" rel="noopener" target="_blank">CDPH — HIV/AIDS in California</a>.
+              Oral candidiasis (thrush) is most common in immunocompromised individuals, denture wearers, patients on inhaled corticosteroids, and those who have recently completed antibiotic therapy. California has a large immunocompromised population including approximately 100,000 Californians living with HIV, per CDPH HIV/AIDS statistics — HIV-associated oral candidiasis remains a significant clinical concern statewide. Oral thrush is also common in California breast-cancer patients undergoing chemotherapy and in older adults in long-term care settings. — <a href="https://www.cdph.ca.gov/Programs/CID/DOA/Pages/OAmain.aspx" rel="noopener" target="_blank">CDPH — HIV/AIDS in California</a>.
             </p>
             <p>
               Clinical guidance for oral thrush treatment is provided by <a href="https://www.idsociety.org/practice-guideline/candidiasis/" rel="noopener" target="_blank">Infectious Diseases Society of America (IDSA) — Candidiasis Guideline</a> through the IDSA Clinical Practice Guideline for the Management of Candidiasis (2016; referenced in 2024 updates). TeleDirectMD follows these guidelines on every patient visit.
@@ -687,10 +687,10 @@ export default function CaOralThrushTreatmentOnline() {
               <li><a href="https://www.mbc.ca.gov/Resources/Medical-Resources/telehealth.aspx" rel="noopener" target="_blank">Medical Board of California — Telehealth Resources. Retrieved May 2026.</a></li>
               <li><a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=10123.85.&lawCode=INS" rel="noopener" target="_blank">California Insurance Code §10123.85 — Telehealth Parity (AB 744). Retrieved May 2026.</a></li>
               <li><a href="https://www.dhcs.ca.gov/provgovpart/Pages/TelehealthFAQ.aspx" rel="noopener" target="_blank">California DHCS — Telehealth FAQ. Retrieved May 2026.</a></li>
-              <li><a href="https://www.cdph.ca.gov/Programs/CID/DOA/Pages/OA_HIVandAIDS_Information.aspx" rel="noopener" target="_blank">CDPH — HIV/AIDS in California. Retrieved May 2026.</a></li>
+              <li><a href="https://www.cdph.ca.gov/Programs/CID/DOA/Pages/OAmain.aspx" rel="noopener" target="_blank">CDPH — HIV/AIDS in California. Retrieved May 2026.</a></li>
               <li><a href="https://www.idsociety.org/practice-guideline/candidiasis/" rel="noopener" target="_blank">IDSA — Clinical Practice Guideline for Candidiasis (2016). Retrieved May 2026.</a></li>
-              <li><a href="https://www.cdc.gov/fungal/diseases/candidiasis/thrush.html" rel="noopener" target="_blank">CDC — Oral Candidiasis (Thrush). Retrieved May 2026.</a></li>
-              <li><a href="https://www.aafp.org/pubs/afp/issues/2014/0801/p188.html" rel="noopener" target="_blank">AAFP — Oral Candidiasis: An Overview. Retrieved May 2026.</a></li>
+              <li><a href="https://www.cdc.gov/candidiasis/about/index.html" rel="noopener" target="_blank">CDC — Candidiasis Basics. Retrieved May 2026.</a></li>
+              <li><a href="https://pubmed.ncbi.nlm.nih.gov/35426641/" rel="noopener" target="_blank">AAFP — Common Oral Lesions (2022). Retrieved May 2026.</a></li>
               <li><a href="https://www.mbc.ca.gov/News/" rel="noopener" target="_blank">Medical Board of California — Electronic Prescribing (AB 2789). Retrieved May 2026.</a></li>
             </ol>
           </div>

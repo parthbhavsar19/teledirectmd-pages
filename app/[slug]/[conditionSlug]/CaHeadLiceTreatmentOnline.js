@@ -416,10 +416,10 @@ export default function CaHeadLiceTreatmentOnline() {
           <div className="tdmd-container">
             <h2>How Common Is Head Lice in California?</h2>
             <p>
-              Head lice affect an estimated 6–12 million children and adults annually in the United States, according to the CDC Parasites — Head Lice program. In California, the California Department of Public Health (CDPH) acknowledges head lice as a common school health issue, with California school districts reporting persistent outbreaks due to permethrin-resistant lice — a growing problem. Los Angeles and San Francisco counties, with high-density multi-generational households, have elevated rates of head lice transmission. — <a href="https://www.cdc.gov/parasites/lice/head/index.html" rel="noopener" target="_blank">CDC Parasites — Head Lice</a>.
+              Head lice affect an estimated 6–12 million children and adults annually in the United States, according to the CDC Parasites — Head Lice program. In California, the California Department of Public Health (CDPH) acknowledges head lice as a common school health issue, with California school districts reporting persistent outbreaks due to permethrin-resistant lice — a growing problem. Los Angeles and San Francisco counties, with high-density multi-generational households, have elevated rates of head lice transmission. — <a href="https://www.cdc.gov/lice/about/head-lice.html" rel="noopener" target="_blank">CDC — About Head Lice</a>.
             </p>
             <p>
-              Clinical guidance for head lice (pediculosis capitis) is provided by <a href="https://www.cdc.gov/parasites/lice/head/treatment.html" rel="noopener" target="_blank">AAD</a> through the CDC Head Lice Guidelines + AAP 2022 Head Lice Clinical Report. TeleDirectMD follows these guidelines on every patient visit.
+              Clinical guidance for head lice (pediculosis capitis) comes from the <a href="https://www.cdc.gov/lice/hcp/clinical-care/index.html" rel="noopener" target="_blank">CDC</a> and the AAP 2022 Head Lice Clinical Report. TeleDirectMD follows these guidelines on every patient visit.
             </p>
             <h3>What causes head lice and who is most at risk in California?</h3>
             <p>
@@ -514,7 +514,7 @@ export default function CaHeadLiceTreatmentOnline() {
           <div className="tdmd-container">
             <h2>Head Lice (Pediculosis Capitis) Medication Options and Costs in California</h2>
             <p>
-              Medications for head lice (pediculosis capitis) are selected based on current guidelines from <a href="https://www.cdc.gov/parasites/lice/head/treatment.html" rel="noopener" target="_blank">AAD</a>, patient history, allergies, and relevant contraindications assessed at the visit. GoodRx-verified pricing is shown below.
+              Medications for head lice (pediculosis capitis) are selected based on current guidelines from the <a href="https://www.cdc.gov/lice/hcp/clinical-care/index.html" rel="noopener" target="_blank">CDC</a>, patient history, allergies, and relevant contraindications assessed at the visit. GoodRx-verified pricing is shown below.
             </p>
             <div className="tdmd-table-wrap">
               <table className="tdmd-table" aria-label="Head Lice (Pediculosis Capitis) medication options and GoodRx prices">
@@ -692,7 +692,7 @@ export default function CaHeadLiceTreatmentOnline() {
             <h2>References and Primary Sources</h2>
             <ol className="tdmd-ref-list">
               <li><a href="https://www.cdc.gov/parasites/lice/head/treatment.html" rel="noopener" target="_blank">CDC — Head Lice Treatment. Retrieved 2026-05-22.</a></li>
-              <li><a href="https://www.cdc.gov/parasites/lice/head/index.html" rel="noopener" target="_blank">CDC — Head Lice Overview. Retrieved 2026-05-22.</a></li>
+              <li><a href="https://www.cdc.gov/lice/about/head-lice.html" rel="noopener" target="_blank">CDC — About Head Lice. Retrieved 2026-05-22.</a></li>
               <li><a href="https://www.cdph.ca.gov/Programs/CID/DCDC/Pages/HeadLice.aspx" rel="noopener" target="_blank">CDPH — Head Lice. Retrieved 2026-05-22.</a></li>
               <li><a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=2290.5.&lawCode=BPC" rel="noopener" target="_blank">California B&P Code §2290.5. Retrieved 2026-05-22.</a></li>
               <li><a href="https://www.mbc.ca.gov/Licensees/Telehealth.aspx" rel="noopener" target="_blank">Medical Board of California — Telehealth. Retrieved 2026-05-22.</a></li>

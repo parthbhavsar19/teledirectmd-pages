@@ -698,7 +698,7 @@ export default function CaVaginalDrynessTreatmentOnline() {
               <li><a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=10123.85.&lawCode=INS" rel="noopener" target="_blank">California Insurance Code §10123.85 — Telehealth Parity (AB 744). Retrieved May 2026.</a></li>
               <li><a href="https://www.dhcs.ca.gov/provgovpart/Pages/TelehealthFAQ.aspx" rel="noopener" target="_blank">California DHCS — Telehealth FAQ. Retrieved May 2026.</a></li>
               <li><a href="https://www.acog.org/clinical/clinical-guidance/practice-bulletin/articles/2014/05/genitourinary-syndrome-of-menopause" rel="noopener" target="_blank">ACOG Practice Bulletin 141 — Genitourinary Syndrome of Menopause (reaffirmed). Retrieved May 2026.</a></li>
-              <li><a href="https://www.menopause.org/for-women/menopauseflashes/menopause-symptoms-and-treatments/genitourinary-syndrome-of-menopause-(gsm)" rel="noopener" target="_blank">North American Menopause Society (NAMS) — GSM Overview. Retrieved May 2026.</a></li>
+              <li><a href="https://menopause.org/patient-education/menopause-topics/sexual-health" rel="noopener" target="_blank">The Menopause Society (formerly NAMS): Sexual Health. Retrieved May 2026.</a></li>
               <li><a href="https://www.goodrx.com/estradiol-vaginal" rel="noopener" target="_blank">GoodRx — Estrace (Estradiol Vaginal Cream) Prices. Retrieved May 2026.</a></li>
               <li><a href="https://www.mbc.ca.gov/News/" rel="noopener" target="_blank">Medical Board of California — Electronic Prescribing (AB 2789). Retrieved May 2026.</a></li>
             </ol>

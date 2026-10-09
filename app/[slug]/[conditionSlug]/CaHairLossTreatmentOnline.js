@@ -694,7 +694,7 @@ export default function CaHairLossTreatmentOnline() {
               <li><a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=10123.85.&lawCode=INS" rel="noopener" target="_blank">California Insurance Code §10123.85 — Telehealth Parity (AB 744)</a></li>
               <li><a href="https://www.aad.org/public/diseases/hair-loss/types/alopecia" rel="noopener" target="_blank">AAD — Hair Loss: Types, Causes, and Treatment Overview</a></li>
               <li><a href="https://www.jaad.org/article/S0190-9622(21)00561-3/fulltext" rel="noopener" target="_blank">JAAD — Low-Dose Oral Minoxidil as Treatment for Androgenetic Alopecia</a></li>
-              <li><a href="https://www.aad.org/public/diseases/hair-loss/treatment/finasteride" rel="noopener" target="_blank">AAD — Finasteride for Hair Loss</a></li>
+              <li><a href="https://www.aad.org/public/diseases/hair-loss/treatment/male-pattern-hair-loss-treatment" rel="noopener" target="_blank">AAD — Male Pattern Hair Loss Treatment</a></li>
               <li><a href="https://www.dhcs.ca.gov/provgovpart/Pages/Telehealth.aspx" rel="noopener" target="_blank">California DHCS — Telehealth FAQ</a></li>
               <li><a href="https://www.mbc.ca.gov/Licensees/ePrescribing.aspx" rel="noopener" target="_blank">Medical Board of California — AB 2789 Electronic Prescribing</a></li>
             </ol>

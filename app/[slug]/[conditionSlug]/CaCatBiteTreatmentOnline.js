@@ -420,7 +420,7 @@ export default function CaCatBiteTreatmentOnline() {
               Cat bites account for approximately 10–15% of all animal bite injuries in the United States, with higher infection rates than dog bites — approximately 30–80% of cat bites become infected compared to 5–20% of dog bites, according to IDSA guidelines. The California Department of Public Health (CDPH) Rabies Surveillance Program tracks cat bites alongside dog bites as potential rabies exposures. California is home to approximately 7 million pet cats. — <a href="https://www.cdph.ca.gov/Programs/CID/DCDC/Pages/Rabies.aspx" rel="noopener" target="_blank">CDPH — Rabies Surveillance Program</a>.
             </p>
             <p>
-              Clinical guidance for cat bite (infection prevention and wound care) is provided by <a href="https://www.cdc.gov/healthypets/pets/cats.html" rel="noopener" target="_blank">AAFP</a> through the CDC Animal Bite Guidelines + IDSA Skin and Soft Tissue Infection Guidelines. TeleDirectMD follows these guidelines on every patient visit.
+              Clinical guidance for cat bite (infection prevention and wound care) is provided by <a href="https://www.cdc.gov/healthypets/pets/cats.html" rel="noopener" target="_blank">CDC</a> through the CDC Animal Bite Guidelines + IDSA Skin and Soft Tissue Infection Guidelines. TeleDirectMD follows these guidelines on every patient visit.
             </p>
             <h3>What causes cat bite and who is most at risk in California?</h3>
             <p>
@@ -515,7 +515,7 @@ export default function CaCatBiteTreatmentOnline() {
           <div className="tdmd-container">
             <h2>Cat Bite (Infection Prevention and Wound Care) Medication Options and Costs in California</h2>
             <p>
-              Medications for cat bite (infection prevention and wound care) are selected based on current guidelines from <a href="https://www.cdc.gov/healthypets/pets/cats.html" rel="noopener" target="_blank">AAFP</a>, patient history, allergies, and relevant contraindications assessed at the visit. GoodRx-verified pricing is shown below.
+              Medications for cat bite (infection prevention and wound care) are selected based on current guidelines from <a href="https://www.cdc.gov/healthypets/pets/cats.html" rel="noopener" target="_blank">CDC</a>, patient history, allergies, and relevant contraindications assessed at the visit. GoodRx-verified pricing is shown below.
             </p>
             <div className="tdmd-table-wrap">
               <table className="tdmd-table" aria-label="Cat Bite (Infection Prevention and Wound Care) medication options and GoodRx prices">

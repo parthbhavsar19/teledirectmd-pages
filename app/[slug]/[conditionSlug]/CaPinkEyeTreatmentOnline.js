@@ -699,7 +699,7 @@ export default function CaPinkEyeTreatmentOnline() {
               <li><a href="https://www.dhcs.ca.gov/provgovpart/Pages/TelehealthFAQ.aspx" rel="noopener" target="_blank">California DHCS — Telehealth FAQ. Retrieved May 2026.</a></li>
               <li><a href="https://www.cdc.gov/conjunctivitis/about/index.html" rel="noopener" target="_blank">CDC — About Conjunctivitis (Pink Eye). Retrieved May 2026.</a></li>
               <li><a href="https://www.aao.org/eyenet/article/managing-conjunctivitis" rel="noopener" target="_blank">American Academy of Ophthalmology — Managing Conjunctivitis. Retrieved May 2026.</a></li>
-              <li><a href="https://www.cdc.gov/conjunctivitis/clinicians/index.html" rel="noopener" target="_blank">CDC — Conjunctivitis for Clinicians. Retrieved May 2026.</a></li>
+              <li><a href="https://www.cdc.gov/conjunctivitis/hcp/clinical-overview/index.html" rel="noopener" target="_blank">CDC: Clinical Overview of Pink Eye (Conjunctivitis). Retrieved May 2026.</a></li>
               <li><a href="https://www.mbc.ca.gov/News/" rel="noopener" target="_blank">Medical Board of California — Electronic Prescribing (AB 2789). Retrieved May 2026.</a></li>
             </ol>
           </div>

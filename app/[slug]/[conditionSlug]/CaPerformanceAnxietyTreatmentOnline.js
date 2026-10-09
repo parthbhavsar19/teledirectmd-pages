@@ -417,10 +417,10 @@ export default function CaPerformanceAnxietyTreatmentOnline() {
           <div className="tdmd-container">
             <h2>How Common Is Performance Anxiety in California?</h2>
             <p>
-              Performance anxiety affects a significant proportion of California adults across professional contexts. Public speaking anxiety (glossophobia) affects an estimated 73% of Americans at some point per American Psychological Association data. California's diverse workforce — performing artists, healthcare providers, academics, executives, students facing board exams — represents a broad population seeking situational anxiety management. Sexual performance anxiety is a common psychological contributor to erectile dysfunction in younger men, per the AUA ED guideline. — <a href="https://www.aafp.org/pubs/afp/issues/2015/0801/p180.html" rel="noopener" target="_blank">AAFP — Propranolol for Performance Anxiety (American Family Physician)</a>.
+              Performance anxiety affects a significant proportion of California adults across professional contexts. Public speaking anxiety (glossophobia) affects an estimated 73% of Americans at some point per American Psychological Association data. California's diverse workforce — performing artists, healthcare providers, academics, executives, students facing board exams — represents a broad population seeking situational anxiety management. Sexual performance anxiety is a common psychological contributor to erectile dysfunction in younger men, per the AUA ED guideline.
             </p>
             <p>
-              Clinical guidance for performance anxiety treatment is provided by <a href="https://www.aafp.org/pubs/afp/issues/2015/0801/p180.html" rel="noopener" target="_blank">American Academy of Family Physicians (AAFP)</a> through the AAFP — Propranolol for Performance Anxiety (American Family Physician). TeleDirectMD follows these guidelines on every patient visit.
+              Clinical guidance for performance anxiety treatment follows current evidence-based primary care practice. TeleDirectMD applies this guidance on every patient visit.
             </p>
             <h3>What causes performance anxiety and who is most at risk in California?</h3>
             <p>
@@ -515,7 +515,7 @@ export default function CaPerformanceAnxietyTreatmentOnline() {
           <div className="tdmd-container">
             <h2>Performance Anxiety Treatment Medication Options and Costs in California</h2>
             <p>
-              Medications for performance anxiety treatment are selected based on current guidelines from <a href="https://www.aafp.org/pubs/afp/issues/2015/0801/p180.html" rel="noopener" target="_blank">American Academy of Family Physicians (AAFP)</a>, patient history, allergies, and relevant contraindications assessed at the visit. GoodRx-verified pricing is shown below.
+              Medications for performance anxiety treatment are selected based on current clinical evidence, patient history, allergies, and relevant contraindications assessed at the visit. GoodRx-verified pricing is shown below.
             </p>
             <div className="tdmd-table-wrap">
               <table className="tdmd-table" aria-label="Performance Anxiety Treatment medication options and GoodRx prices">
@@ -687,7 +687,6 @@ export default function CaPerformanceAnxietyTreatmentOnline() {
               <li><a href="https://www.mbc.ca.gov/Resources/Medical-Resources/telehealth.aspx" rel="noopener" target="_blank">Medical Board of California — Telehealth Resources. Retrieved May 2026.</a></li>
               <li><a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=10123.85.&lawCode=INS" rel="noopener" target="_blank">California Insurance Code §10123.85 — Telehealth Parity (AB 744). Retrieved May 2026.</a></li>
               <li><a href="https://www.dhcs.ca.gov/provgovpart/Pages/TelehealthFAQ.aspx" rel="noopener" target="_blank">California DHCS — Telehealth FAQ. Retrieved May 2026.</a></li>
-              <li><a href="https://www.aafp.org/pubs/afp/issues/2015/0801/p180.html" rel="noopener" target="_blank">AAFP — Propranolol for Performance Anxiety (American Family Physician). Retrieved May 2026.</a></li>
               <li><a href="https://www.auanet.org/guidelines-and-quality/guidelines/erectile-dysfunction-guideline" rel="noopener" target="_blank">AUA Erectile Dysfunction Guideline — Psychological ED (2018). Retrieved May 2026.</a></li>
               <li><a href="https://www.goodrx.com/propranolol" rel="noopener" target="_blank">GoodRx — Propranolol Prices. Retrieved May 2026.</a></li>
               <li><a href="https://www.dhcs.ca.gov/individuals/Pages/MentalHealthServices.aspx" rel="noopener" target="_blank">California DHCS Mental Health Services. Retrieved May 2026.</a></li>

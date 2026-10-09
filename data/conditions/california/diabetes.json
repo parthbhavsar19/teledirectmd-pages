@@ -23,16 +23,16 @@
   },
   "opener": {
     "text": "California adults with established Type 2 diabetes (T2DM) can refill medications — including metformin, GLP-1 receptor agonists (for T2DM glycemic control), SGLT2 inhibitors, sulfonylureas, and DPP-4 inhibitors — by secure video visit through TeleDirectMD, consistent with California Business and Professions Code Section 2290.5. A California-licensed board-certified Family Medicine physician reviews your most recent HbA1c, blood glucose logs, kidney function (eGFR), and medication adherence before authorizing refills. ADA Standards of Care 2024–2025 guide therapeutic decisions. GLP-1 agonists are prescribed for T2DM glycemic control only — not for weight loss in the absence of diabetes. Self pay is $79. Aetna is in-network effective April 30, 2026.",
-    "citations": ["https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=2290.5.&lawCode=BPC", "https://diabetesjournals.org/care/issue/47/Supplement_1", "https://www.cdph.ca.gov/Programs/CCDPHP/DCDIC/CVEHB/Pages/DiabetesPrevention.aspx"]
+    "citations": ["https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=2290.5.&lawCode=BPC", "https://diabetesjournals.org/care/issue/47/Supplement_1", "https://www.cdph.ca.gov/Programs/CCDPHP/DCDIC/CDCB/pages/diabetesprevention.aspx"]
   },
   "epidemiology": {
     "ca_prevalence": "Type 2 diabetes affects approximately 9.2% of California adults — about 2.9 million people — with an additional 35% of California adults having prediabetes, per the California Department of Public Health (CDPH) Chronic Disease Surveillance program and 2023 CHIS data. California's Latino population has the highest T2DM prevalence at approximately 13.5%, reflecting disparities in access to preventive care and dietary risk factors.",
     "cdph_data": "The CDPH Diabetes Prevention Program (DPP) reports that T2DM-related hospitalizations cost California's healthcare system over $3.2 billion annually. The CDPH also identifies that only 52% of California adults with T2DM have their HbA1c controlled to less than 7%, highlighting treatment gaps that telehealth access can help close.",
     "disparities": "South Asian Californians develop T2DM at lower BMI thresholds (ADA 2024 recommends screening at BMI ≥23 kg/m² for Asian Americans vs. ≥25 kg/m² for other adults). The ADA Standards of Care 2024–2025 incorporate ethnicity-specific risk screening.",
     "sources": [
-      {"name": "CDPH — Diabetes Prevention Program", "url": "https://www.cdph.ca.gov/Programs/CCDPHP/DCDIC/CVEHB/Pages/DiabetesPrevention.aspx"},
+      {"name": "CDPH — Diabetes Prevention", "url": "https://www.cdph.ca.gov/Programs/CCDPHP/DCDIC/CDCB/pages/diabetesprevention.aspx"},
       {"name": "ADA Standards of Medical Care in Diabetes 2024–2025 — Diabetes Care", "url": "https://diabetesjournals.org/care/issue/47/Supplement_1"},
-      {"name": "California Health Interview Survey (CHIS) 2023", "url": "https://healthpolicy.ucla.edu/our-work/california-health-interview-survey-chis/chis-data"}
+      {"name": "California Health Interview Survey (CHIS) 2023", "url": "https://healthpolicy.ucla.edu/our-work/california-health-interview-survey-chis/access-chis-data"}
     ]
   },
   "clinical_guidelines": {
@@ -56,7 +56,7 @@
     "sources": [
       {"name": "ADA Standards of Medical Care in Diabetes 2024 — Diabetes Care Supplement 1", "url": "https://diabetesjournals.org/care/issue/47/Supplement_1"},
       {"name": "ADA — Classification and Diagnosis of Diabetes: Standards of Care 2025", "url": "https://diabetesjournals.org/care/article/48/Supplement_1/S27/157554"},
-      {"name": "CDPH — Diabetes Data and Statistics", "url": "https://www.cdph.ca.gov/Programs/CCDPHP/DCDIC/CVEHB/Pages/DiabetesPrevention.aspx"}
+      {"name": "CDPH — Diabetes Data and Statistics", "url": "https://www.cdph.ca.gov/Programs/CCDPHP/DCDIC/CDCB/pages/diabetesprevention.aspx"}
     ]
   },
   "medications": [

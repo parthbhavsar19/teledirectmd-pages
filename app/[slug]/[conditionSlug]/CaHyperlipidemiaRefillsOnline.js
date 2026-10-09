@@ -639,9 +639,9 @@ export default function CaHyperlipidemiaRefillsOnline() {
               <li><a href="https://www.dhcs.ca.gov/provgovpart/Pages/TelehealthFAQ.aspx" rel="noopener" target="_blank">California DHCS — Telehealth FAQ</a>. Retrieved May 2026.</li>
               <li><a href="https://www.mbc.ca.gov/News/" rel="noopener" target="_blank">Medical Board of California — AB 2789 Electronic Prescribing</a>. Retrieved May 2026.</li>
               <li><a href="https://www.jacc.org/doi/10.1016/j.jacc.2018.11.003" rel="noopener" target="_blank">ACC/AHA 2018 Guideline on the Management of Blood Cholesterol — JACC</a>. Retrieved May 2026.</li>
-              <li><a href="https://www.acc.org/latest-in-cardiology/articles/2022/11/17/13/47/2022-acc-expert-consensus-decision-pathway-on-nonstatin-therapies-for-ldl-c-lowering" rel="noopener" target="_blank">2022 ACC Expert Consensus Decision Pathway on Non-Statin Therapies for LDL-C Lowering</a>. Retrieved May 2026.</li>
-              <li><a href="https://www.cdph.ca.gov/Programs/CCDPHP/DCDIC/CVEHB/Pages/HeartDiseaseandStrokePrevention.aspx" rel="noopener" target="_blank">CDPH Heart Disease and Stroke Prevention Program</a>. Retrieved May 2026.</li>
-              <li><a href="https://healthpolicy.ucla.edu/our-work/california-health-interview-survey-chis/chis-data" rel="noopener" target="_blank">California Health Interview Survey (CHIS) 2022 — Cardiovascular Risk Factors</a>. Retrieved May 2026.</li>
+              <li><a href="https://www.acc.org/Latest-in-Cardiology/ten-points-to-remember/2022/08/25/13/13/2022-ACC-ECDP-on-Nonstatin" rel="noopener" target="_blank">2022 ACC Expert Consensus Decision Pathway on Non-Statin Therapies for LDL-C Lowering</a>. Retrieved May 2026.</li>
+              <li><a href="https://www.cdph.ca.gov/Programs/CCDPHP/DCDIC/CDCB/Pages/CDPP.aspx" rel="noopener" target="_blank">CDPH Cardiovascular Disease Prevention Program</a>. Retrieved May 2026.</li>
+              <li><a href="https://healthpolicy.ucla.edu/our-work/california-health-interview-survey-chis" rel="noopener" target="_blank">California Health Interview Survey (CHIS) 2022 — Cardiovascular Risk Factors</a>. Retrieved May 2026.</li>
               <li><a href="https://www.jacc.org/doi/10.1016/j.jacc.2018.11.003" rel="noopener" target="_blank">ACC/AHA 2018 Cholesterol Guideline</a>. Retrieved May 2026.</li>
             </ol>
           </div>

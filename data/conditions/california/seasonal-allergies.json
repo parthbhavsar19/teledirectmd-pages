@@ -19,7 +19,7 @@
   },
   "opener": {
     "text": "California adults with seasonal allergic rhinitis can receive evaluation and prescription allergy treatment — including intranasal corticosteroids, antihistamines, leukotriene receptor antagonists, and nasal antihistamine/steroid combinations — by secure video visit through TeleDirectMD, consistent with California Business and Professions Code Section 2290.5. A California-licensed board-certified Family Medicine physician reviews your allergen trigger history, symptom pattern, prior treatment response, and comorbid conditions (asthma, allergic conjunctivitis). AAAAI, ACAAI, and the updated ARIA-EAACI 2026 guidelines inform treatment selection. California's year-round pollen seasons — driven by dry chaparral, oak, and grass pollen in the Central Valley and Bay Area — create one of the highest seasonal allergy burdens in the U.S. Self pay is $79. Aetna is in-network effective April 30, 2026.",
-    "citations": ["https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=2290.5.&lawCode=BPC", "https://www.aaaai.org/conditions-and-treatments/allergies/rhinitis", "https://www.acaai.org/allergies/types/hay-fever/"]
+    "citations": ["https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=2290.5.&lawCode=BPC", "https://www.aaaai.org/conditions-treatments/allergies/hay-fever-rhinitis", "https://acaai.org/allergies/allergic-conditions/hay-fever/"]
   },
   "epidemiology": {
     "ca_prevalence": "Allergic rhinitis affects approximately 19% of U.S. adults — an estimated 7.4 million California adults. California's Mediterranean climate with distinct wet and dry seasons, combined with its chaparral scrubland, grass plains in the Central Valley, and extensive urban tree plantings, creates pollen seasons that overlap year-round. Unlike much of the U.S., California does not have a defined allergy-free winter for most residents.",
@@ -31,8 +31,8 @@
     },
     "ca_specific": "The California Department of Public Health (CDPH) tracks seasonal allergy-related primary care visits. The Central Valley Bioaerosol Network and Bay Area Air Quality Management District (BAAQMD) publish real-time pollen count data. California's agricultural activity (almond, pistachio, citrus orchards) contributes to occupational pollen exposure for farmworkers.",
     "sources": [
-      {"name": "AAAAI — Allergic Rhinitis (Hay Fever) Overview", "url": "https://www.aaaai.org/conditions-and-treatments/allergies/rhinitis"},
-      {"name": "ACAAI — Hay Fever (Allergic Rhinitis)", "url": "https://www.acaai.org/allergies/types/hay-fever/"},
+      {"name": "AAAAI — Allergic Rhinitis (Hay Fever) Overview", "url": "https://www.aaaai.org/conditions-treatments/allergies/hay-fever-rhinitis"},
+      {"name": "ACAAI — Hay Fever (Allergic Rhinitis)", "url": "https://acaai.org/allergies/allergic-conditions/hay-fever/"},
       {"name": "Bay Area Air Quality Management District — Pollen Count", "url": "https://www.baaqmd.gov/"},
       {"name": "ARIA-EAACI Guidelines — Allergic Rhinitis and Its Impact on Asthma", "url": "https://www.ariaguidelines.com/"}
     ]
@@ -52,8 +52,8 @@
     "monitoring": "Annual review of allergen trigger list, symptom control, medication tolerance, and immunotherapy progress. Pollen count awareness counseling (BAAQMD, California DPR pollen data resources).",
     "sources": [
       {"name": "ARIA 2022 GRADE Guideline — Allergic Rhinitis", "url": "https://www.ariaguidelines.com/"},
-      {"name": "AAAAI — Practice Parameters for the Diagnosis and Management of Rhinitis", "url": "https://www.aaaai.org/conditions-and-treatments/allergies/rhinitis"},
-      {"name": "ACAAI — Allergic Rhinitis Treatment Guidelines", "url": "https://www.acaai.org/allergies/types/hay-fever/"}
+      {"name": "AAAAI — Hay Fever / Rhinitis", "url": "https://www.aaaai.org/conditions-treatments/allergies/hay-fever-rhinitis"},
+      {"name": "ACAAI — Hay Fever (Rhinitis)", "url": "https://acaai.org/allergies/allergic-conditions/hay-fever/"}
     ]
   },
   "medications": [

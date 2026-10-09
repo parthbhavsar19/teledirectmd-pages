@@ -650,10 +650,10 @@ export default function CaDiabetesRefillsOnline() {
               <li><a href="https://www.mbc.ca.gov/News/" rel="noopener" target="_blank">Medical Board of California — AB 2789 Electronic Prescribing</a>. Retrieved May 2026.</li>
               <li><a href="https://diabetesjournals.org/care/issue/47/Supplement_1" rel="noopener" target="_blank">ADA Standards of Medical Care in Diabetes 2024 — Diabetes Care Supplement 1</a>. Retrieved May 2026.</li>
               <li><a href="https://diabetesjournals.org/care/article/48/Supplement_1/S27/157554" rel="noopener" target="_blank">ADA — Classification and Diagnosis of Diabetes: Standards of Care 2025</a>. Retrieved May 2026.</li>
-              <li><a href="https://www.cdph.ca.gov/Programs/CCDPHP/DCDIC/CVEHB/Pages/DiabetesPrevention.aspx" rel="noopener" target="_blank">CDPH — Diabetes Data and Statistics</a>. Retrieved May 2026.</li>
-              <li><a href="https://www.cdph.ca.gov/Programs/CCDPHP/DCDIC/CVEHB/Pages/DiabetesPrevention.aspx" rel="noopener" target="_blank">CDPH — Diabetes Prevention Program</a>. Retrieved May 2026.</li>
+              <li><a href="https://www.cdph.ca.gov/Programs/CCDPHP/DCDIC/CDCB/Pages/DiabetesPrevention.aspx" rel="noopener" target="_blank">CDPH — Diabetes Data and Statistics</a>. Retrieved May 2026.</li>
+              <li><a href="https://www.cdph.ca.gov/Programs/CCDPHP/DCDIC/CDCB/Pages/DiabetesPrevention.aspx" rel="noopener" target="_blank">CDPH — Diabetes Prevention Program</a>. Retrieved May 2026.</li>
               <li><a href="https://diabetesjournals.org/care/issue/47/Supplement_1" rel="noopener" target="_blank">ADA Standards of Medical Care in Diabetes 2024–2025 — Diabetes Care</a>. Retrieved May 2026.</li>
-              <li><a href="https://healthpolicy.ucla.edu/our-work/california-health-interview-survey-chis/chis-data" rel="noopener" target="_blank">California Health Interview Survey (CHIS) 2023</a>. Retrieved May 2026.</li>
+              <li><a href="https://healthpolicy.ucla.edu/our-work/california-health-interview-survey-chis/access-chis-data" rel="noopener" target="_blank">California Health Interview Survey (CHIS) 2023</a>. Retrieved May 2026.</li>
             </ol>
           </div>
         </section>

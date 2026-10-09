@@ -417,10 +417,10 @@ export default function CaContactDermatitisTreatmentOnline() {
           <div className="tdmd-container">
             <h2>How Common Is Contact Dermatitis in California?</h2>
             <p>
-              Contact dermatitis — including allergic and irritant forms — is one of the most common occupational and environmental skin conditions in California. CDPH Occupational Health documents contact dermatitis as a leading occupational illness in California agriculture, healthcare, and manufacturing. California's abundant poison oak (Toxicodendron diversilobum) — the most common allergic contact dermatitis trigger in the western US — and widespread use of latex gloves, hair dyes, and cosmetics contribute to high prevalence. ACAAI estimates contact dermatitis affects approximately 15–20% of the general population. — <a href="https://www.cdph.ca.gov/Programs/CCDPHP/DEODC/OHB/Pages/OccupationalDiseases.aspx" rel="noopener" target="_blank">CDPH — Occupational Health Hazard Assessment (Contact Dermatitis)</a>.
+              Contact dermatitis — including allergic and irritant forms — is one of the most common occupational and environmental skin conditions in California. CDPH Occupational Health documents contact dermatitis as a leading occupational illness in California agriculture, healthcare, and manufacturing. California's abundant poison oak (Toxicodendron diversilobum) — the most common allergic contact dermatitis trigger in the western US — and widespread use of latex gloves, hair dyes, and cosmetics contribute to high prevalence. ACAAI estimates contact dermatitis affects approximately 15–20% of the general population. — <a href="https://www.cdph.ca.gov/Programs/CCDPHP/DEODC/OHB/Pages/OHB.aspx" rel="noopener" target="_blank">CDPH Occupational Health Branch</a>.
             </p>
             <p>
-              Clinical guidance for contact dermatitis treatment is provided by <a href="https://www.aad.org/member/clinical-quality/guidelines/contact-dermatitis" rel="noopener" target="_blank">American Academy of Dermatology (AAD)</a> through the AAD Contact Dermatitis Guidelines and ACAAI Allergic Contact Dermatitis Guidance. TeleDirectMD follows these guidelines on every patient visit.
+              Clinical guidance for contact dermatitis treatment is provided by <a href="https://www.aad.org/public/diseases/eczema/types/contact-dermatitis" rel="noopener" target="_blank">American Academy of Dermatology (AAD)</a> through the AAD Contact Dermatitis Guidelines and ACAAI Allergic Contact Dermatitis Guidance. TeleDirectMD follows these guidelines on every patient visit.
             </p>
             <h3>What causes contact dermatitis and who is most at risk in California?</h3>
             <p>
@@ -515,7 +515,7 @@ export default function CaContactDermatitisTreatmentOnline() {
           <div className="tdmd-container">
             <h2>Contact Dermatitis Treatment Medication Options and Costs in California</h2>
             <p>
-              Medications for contact dermatitis treatment are selected based on current guidelines from <a href="https://www.aad.org/member/clinical-quality/guidelines/contact-dermatitis" rel="noopener" target="_blank">American Academy of Dermatology (AAD)</a>, patient history, allergies, and relevant contraindications assessed at the visit. GoodRx-verified pricing is shown below.
+              Medications for contact dermatitis treatment are selected based on current guidelines from <a href="https://www.aad.org/public/diseases/eczema/types/contact-dermatitis" rel="noopener" target="_blank">American Academy of Dermatology (AAD)</a>, patient history, allergies, and relevant contraindications assessed at the visit. GoodRx-verified pricing is shown below.
             </p>
             <div className="tdmd-table-wrap">
               <table className="tdmd-table" aria-label="Contact Dermatitis Treatment medication options and GoodRx prices">
@@ -693,9 +693,9 @@ export default function CaContactDermatitisTreatmentOnline() {
               <li><a href="https://www.mbc.ca.gov/Resources/Medical-Resources/telehealth.aspx" rel="noopener" target="_blank">Medical Board of California — Telehealth Resources. Retrieved May 2026.</a></li>
               <li><a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=10123.85.&lawCode=INS" rel="noopener" target="_blank">California Insurance Code §10123.85 — Telehealth Parity (AB 744). Retrieved May 2026.</a></li>
               <li><a href="https://www.dhcs.ca.gov/provgovpart/Pages/TelehealthFAQ.aspx" rel="noopener" target="_blank">California DHCS — Telehealth FAQ. Retrieved May 2026.</a></li>
-              <li><a href="https://www.aad.org/member/clinical-quality/guidelines/contact-dermatitis" rel="noopener" target="_blank">AAD — Contact Dermatitis Guidelines. Retrieved May 2026.</a></li>
+              <li><a href="https://www.aad.org/public/diseases/eczema/types/contact-dermatitis" rel="noopener" target="_blank">AAD: Contact Dermatitis Overview. Retrieved May 2026.</a></li>
               <li><a href="https://acaai.org/allergies/allergic-conditions/skin-allergy/contact-dermatitis/" rel="noopener" target="_blank">ACAAI — Allergic Contact Dermatitis Guidance. Retrieved May 2026.</a></li>
-              <li><a href="https://www.cdph.ca.gov/Programs/CCDPHP/DEODC/OHB/Pages/OccupationalDiseases.aspx" rel="noopener" target="_blank">CDPH — Occupational Health Hazard Assessment. Retrieved May 2026.</a></li>
+              <li><a href="https://www.cdph.ca.gov/Programs/CCDPHP/DEODC/OHB/Pages/OHB.aspx" rel="noopener" target="_blank">CDPH Occupational Health Branch. Retrieved May 2026.</a></li>
               <li><a href="https://www.goodrx.com/triamcinolone-topical" rel="noopener" target="_blank">GoodRx — Triamcinolone Topical Prices. Retrieved May 2026.</a></li>
               <li><a href="https://www.goodrx.com/prednisone" rel="noopener" target="_blank">GoodRx — Prednisone Prices. Retrieved May 2026.</a></li>
               <li><a href="https://www.mbc.ca.gov/News/" rel="noopener" target="_blank">Medical Board of California — Electronic Prescribing (AB 2789). Retrieved May 2026.</a></li>

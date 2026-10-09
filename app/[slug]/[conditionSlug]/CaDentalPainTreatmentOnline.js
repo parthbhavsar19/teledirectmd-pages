@@ -695,7 +695,7 @@ export default function CaDentalPainTreatmentOnline() {
               <li><a href="https://www.dhcs.ca.gov/provgovpart/Pages/TelehealthFAQ.aspx" rel="noopener" target="_blank">California DHCS — Telehealth FAQ. Retrieved May 2026.</a></li>
               <li><a href="https://www.dhcs.ca.gov/dataandstats/Pages/dental.aspx" rel="noopener" target="_blank">DHCS — Dental Programs in California (Denti-Cal). Retrieved May 2026.</a></li>
               <li><a href="https://www.ada.org/resources/research/science-and-research-institute/oral-health-topics/antibiotic-stewardship" rel="noopener" target="_blank">ADA — Antibiotic Stewardship for Odontogenic Infections. Retrieved May 2026.</a></li>
-              <li><a href="https://www.cdc.gov/antibiotic-use/dental-prescribing.html" rel="noopener" target="_blank">CDC — Antibiotic Prescribing in Dentistry. Retrieved May 2026.</a></li>
+              <li><a href="https://www.cdc.gov/antibiotic-use/media/pdfs/Core-Elements-Outpatient-Dental-508.pdf" rel="noopener" target="_blank">CDC — Antibiotic Stewardship Strategies: Outpatient Dental Settings. Retrieved May 2026.</a></li>
               <li><a href="https://www.mbc.ca.gov/News/" rel="noopener" target="_blank">Medical Board of California — Electronic Prescribing (AB 2789). Retrieved May 2026.</a></li>
             </ol>
           </div>

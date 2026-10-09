@@ -416,10 +416,10 @@ export default function CaPerioralDermatitisTreatmentOnline() {
           <div className="tdmd-container">
             <h2>How Common Is Perioral Dermatitis in California?</h2>
             <p>
-              Perioral dermatitis predominantly affects women aged 15–45, with estimated prevalence of 0.5–1% of the population, according to the American Academy of Dermatology. California's widespread use of high-potency facial topical corticosteroids — sometimes applied without physician guidance — is a documented driver of perioral dermatitis. Inhaled corticosteroids used for asthma, which is prevalent in California's urban areas, can also cause perioral dermatitis through spillage around the mouth. — <a href="https://www.aad.org/public/diseases/a-z/perioral-dermatitis-overview" rel="noopener" target="_blank">AAD — Perioral Dermatitis Overview</a>.
+              Perioral dermatitis predominantly affects women aged 15–45, with estimated prevalence of 0.5–1% of the population, according to the American Academy of Dermatology. California's widespread use of high-potency facial topical corticosteroids — sometimes applied without physician guidance — is a documented driver of perioral dermatitis. Inhaled corticosteroids used for asthma, which is prevalent in California's urban areas, can also cause perioral dermatitis through spillage around the mouth. — <a href="https://www.aad.org/public/diseases/a-z/perioral-dermatitis" rel="noopener" target="_blank">AAD: Perioral dermatitis</a>.
             </p>
             <p>
-              Clinical guidance for perioral dermatitis is provided by <a href="https://www.aad.org/public/diseases/a-z/perioral-dermatitis-treatment" rel="noopener" target="_blank">AAD</a> through the AAD Perioral Dermatitis Treatment Guidelines. TeleDirectMD follows these guidelines on every patient visit.
+              Clinical guidance for perioral dermatitis follows <a href="https://www.aad.org/public/diseases/a-z/perioral-dermatitis" rel="noopener" target="_blank">AAD</a> guidance on diagnosis and treatment. TeleDirectMD follows this guidance on every patient visit.
             </p>
             <h3>What causes perioral dermatitis and who is most at risk in California?</h3>
             <p>
@@ -514,7 +514,7 @@ export default function CaPerioralDermatitisTreatmentOnline() {
           <div className="tdmd-container">
             <h2>Perioral Dermatitis Medication Options and Costs in California</h2>
             <p>
-              Medications for perioral dermatitis are selected based on current guidelines from <a href="https://www.aad.org/public/diseases/a-z/perioral-dermatitis-treatment" rel="noopener" target="_blank">AAD</a>, patient history, allergies, and relevant contraindications assessed at the visit. GoodRx-verified pricing is shown below.
+              Medications for perioral dermatitis are selected based on current guidance from <a href="https://www.aad.org/public/diseases/a-z/perioral-dermatitis" rel="noopener" target="_blank">AAD</a>, patient history, allergies, and relevant contraindications assessed at the visit. GoodRx-verified pricing is shown below.
             </p>
             <div className="tdmd-table-wrap">
               <table className="tdmd-table" aria-label="Perioral Dermatitis medication options and GoodRx prices">
@@ -691,8 +691,7 @@ export default function CaPerioralDermatitisTreatmentOnline() {
           <div className="tdmd-container">
             <h2>References and Primary Sources</h2>
             <ol className="tdmd-ref-list">
-              <li><a href="https://www.aad.org/public/diseases/a-z/perioral-dermatitis-treatment" rel="noopener" target="_blank">AAD — Perioral Dermatitis Treatment. Retrieved 2026-05-22.</a></li>
-              <li><a href="https://www.aad.org/public/diseases/a-z/perioral-dermatitis-overview" rel="noopener" target="_blank">AAD — Perioral Dermatitis Overview. Retrieved 2026-05-22.</a></li>
+              <li><a href="https://www.aad.org/public/diseases/a-z/perioral-dermatitis" rel="noopener" target="_blank">AAD: Perioral dermatitis. Retrieved 2026-10-09.</a></li>
               <li><a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=2290.5.&lawCode=BPC" rel="noopener" target="_blank">California B&P Code §2290.5. Retrieved 2026-05-22.</a></li>
               <li><a href="https://www.mbc.ca.gov/Licensees/Telehealth.aspx" rel="noopener" target="_blank">Medical Board of California — Telehealth. Retrieved 2026-05-22.</a></li>
               <li><a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=10123.85.&lawCode=INS" rel="noopener" target="_blank">California Insurance Code §10123.85 (AB 744). Retrieved 2026-05-22.</a></li>

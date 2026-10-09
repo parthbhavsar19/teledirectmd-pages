@@ -60,7 +60,7 @@ const VT_SIBLINGS = [
 
 const REFERENCES = [
   { t: "CDC — Clinical Guidelines on Doxycycline Postexposure Prophylaxis (MMWR, June 6, 2024)", u: "https://www.cdc.gov/mmwr/volumes/73/rr/rr7302a1.htm" },
-  { t: "Luetkemeyer AF et al. — Doxycycline PEP for STI Prevention (DoxyPEP trial, Ann Intern Med 2023)", u: "https://pubmed.ncbi.nlm.nih.gov/37018288/" },
+  { t: "Luetkemeyer AF et al. — Postexposure Doxycycline to Prevent Bacterial Sexually Transmitted Infections (DoxyPEP trial, N Engl J Med 2023)", u: "https://pubmed.ncbi.nlm.nih.gov/37018493/" },
   { t: "ASHA — New CDC Guidelines for Doxy PEP", u: "https://www.ashasexualhealth.org/new-cdc-guidelines-offer-recommendations-on-doxy-pep/" },
   { t: "Vermont Department of Health — Sexually Transmitted Infections", u: "https://www.healthvermont.gov/disease-control/sexually-transmitted-infections" }
 ];

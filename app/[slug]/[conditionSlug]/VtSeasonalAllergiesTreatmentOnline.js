@@ -101,7 +101,7 @@ const FAQ_ITEMS = [
   {
     id: 'seasonal-allergies-treatment-online-faq-10',
     question: "Can TeleDirectMD treat children\'s seasonal allergies in Vermont?",
-    answer: <p>TeleDirectMD treats adults 18 years of age and older only. Children with seasonal allergies should be seen by their pediatrician, a board-certified allergist, or a pediatric primary care provider. Pediatric allergy resources in Vermont include the AAAAI Find an Allergist tool at aaaai.org and Medi-Cal managed care pediatric providers for insured children.</p>,
+    answer: <p>TeleDirectMD treats adults 18 years of age and older only. Children with seasonal allergies should be seen by their pediatrician, a board-certified allergist, or a pediatric primary care provider. Pediatric allergy resources in Vermont include the AAAAI Find an Allergist tool at aaaai.org and pediatric providers that accept Dr. Dynasaur, Vermont's Medicaid coverage for children.</p>,
   },
   {
     id: 'seasonal-allergies-treatment-online-faq-11',
@@ -618,10 +618,8 @@ export default function VtSeasonalAllergiesTreatmentOnline() {
               <li><a href="https://legislature.vermont.gov/statutes/section/18/219/09361" rel="noopener" target="_blank">18 V.S.A. § 9361 (Vermont telemedicine prescribing)</a>. Retrieved May 2026.</li>
               <li><a href="https://www.healthvermont.gov/systems/board-medical-practice" rel="noopener" target="_blank">Vermont Board of Medical Practice</a>. Retrieved May 2026.</li>
               <li><a href="https://www.ariaguidelines.com/" rel="noopener" target="_blank">ARIA 2022 GRADE Guideline — Allergic Rhinitis</a>. Retrieved May 2026.</li>
-              <li><a href="https://www.aaaai.org/conditions-and-treatments/allergies/rhinitis" rel="noopener" target="_blank">AAAAI — Practice Parameters for the Diagnosis and Management of Rhinitis</a>. Retrieved May 2026.</li>
-              <li><a href="https://www.acaai.org/allergies/types/hay-fever/" rel="noopener" target="_blank">ACAAI — Allergic Rhinitis Treatment Guidelines</a>. Retrieved May 2026.</li>
-              <li><a href="https://www.aaaai.org/conditions-and-treatments/allergies/rhinitis" rel="noopener" target="_blank">AAAAI — Allergic Rhinitis (Hay Fever) Overview</a>. Retrieved May 2026.</li>
-              <li><a href="https://www.acaai.org/allergies/types/hay-fever/" rel="noopener" target="_blank">ACAAI — Hay Fever (Allergic Rhinitis)</a>. Retrieved May 2026.</li>
+              <li><a href="https://www.aaaai.org/conditions-treatments/allergies/hay-fever-rhinitis" rel="noopener" target="_blank">AAAAI — Allergic Rhinitis (Hay Fever) Overview</a>. Retrieved May 2026.</li>
+              <li><a href="https://acaai.org/allergies/allergic-conditions/hay-fever/" rel="noopener" target="_blank">ACAAI — Hay Fever (Allergic Rhinitis)</a>. Retrieved May 2026.</li>
               <li><a href="https://www.wyndly.com/blogs/allergy-season/vermont" rel="noopener" target="_blank">Wyndly — Vermont Allergy Season Guide and Pollen Calendar</a>. Retrieved May 2026.</li>
               <li><a href="https://www.ariaguidelines.com/" rel="noopener" target="_blank">ARIA-EAACI Guidelines — Allergic Rhinitis and Its Impact on Asthma</a>. Retrieved May 2026.</li>
             </ol>

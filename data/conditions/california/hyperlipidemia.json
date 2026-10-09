@@ -19,15 +19,15 @@
   },
   "opener": {
     "text": "California adults with established hyperlipidemia can refill cholesterol-lowering medications — including statins, ezetimibe, and fibrates — by secure video visit through TeleDirectMD, consistent with California Business and Professions Code Section 2290.5. A California-licensed board-certified Family Medicine physician reviews your most recent fasting lipid panel, LDL-C level, 10-year ASCVD risk score, and statin tolerance before authorizing refills. The ACC/AHA 2018 Cholesterol Guideline, supplemented by the 2022 ACC Expert Consensus on Non-Statin Therapies, guides therapeutic decisions. Self pay is $79. Aetna is in-network effective April 30, 2026.",
-    "citations": ["https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=2290.5.&lawCode=BPC", "https://www.jacc.org/doi/10.1016/j.jacc.2018.11.003", "https://www.acc.org/latest-in-cardiology/articles/2022/11/17/13/47/2022-acc-expert-consensus-decision-pathway-on-nonstatin-therapies-for-ldl-c-lowering"]
+    "citations": ["https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=2290.5.&lawCode=BPC", "https://www.jacc.org/doi/10.1016/j.jacc.2018.11.003", "https://www.acc.org/latest-in-cardiology/ten-points-to-remember/2022/08/25/13/13/2022-acc-ecdp-on-nonstatin"]
   },
   "epidemiology": {
     "ca_prevalence": "High cholesterol (LDL-C ≥130 mg/dL or total cholesterol ≥240 mg/dL) affects approximately 29% of California adults — about 9 million people — per CHIS 2022 data and CDPH chronic disease surveillance. Statin use in California is approximately 23% of adults over 45, reflecting both high disease burden and treatment gaps.",
     "ascvd_burden": "Cardiovascular disease is the leading cause of death in California, accounting for approximately 60,000 deaths annually per the CDPH Heart Disease and Stroke Prevention Program. Optimal LDL-C management remains a high-priority preventive intervention for California's population.",
     "disparities": "South Asian Californians have elevated ASCVD risk at lower BMI thresholds; Filipino Californians have higher rates of metabolic syndrome contributing to dyslipidemia. The ACC/AHA 2018 guideline identifies these populations as risk-enhancing factors warranting earlier statin initiation.",
     "sources": [
-      {"name": "CDPH Heart Disease and Stroke Prevention Program", "url": "https://www.cdph.ca.gov/Programs/CCDPHP/DCDIC/CVEHB/Pages/HeartDiseaseandStrokePrevention.aspx"},
-      {"name": "California Health Interview Survey (CHIS) 2022 — Cardiovascular Risk Factors", "url": "https://healthpolicy.ucla.edu/our-work/california-health-interview-survey-chis/chis-data"},
+      {"name": "CDPH Cardiovascular Disease Prevention Program", "url": "https://www.cdph.ca.gov/Programs/CCDPHP/DCDIC/CDCB/Pages/CDPP.aspx"},
+      {"name": "California Health Interview Survey (CHIS) 2022 — Cardiovascular Risk Factors", "url": "https://healthpolicy.ucla.edu/our-work/california-health-interview-survey-chis/access-chis-data"},
       {"name": "ACC/AHA 2018 Cholesterol Guideline", "url": "https://www.jacc.org/doi/10.1016/j.jacc.2018.11.003"}
     ]
   },
@@ -60,7 +60,7 @@
     "telehealth_scope": "TeleDirectMD refills established statin and ezetimibe regimens for stable patients with recent lipid panel. Newly diagnosed severe hypercholesterolemia (LDL-C ≥190 mg/dL) may require in-person workup for familial hypercholesterolemia.",
     "sources": [
       {"name": "ACC/AHA 2018 Guideline on the Management of Blood Cholesterol — JACC", "url": "https://www.jacc.org/doi/10.1016/j.jacc.2018.11.003"},
-      {"name": "2022 ACC Expert Consensus Decision Pathway on Non-Statin Therapies for LDL-C Lowering", "url": "https://www.acc.org/latest-in-cardiology/articles/2022/11/17/13/47/2022-acc-expert-consensus-decision-pathway-on-nonstatin-therapies-for-ldl-c-lowering"}
+      {"name": "2022 ACC Expert Consensus Decision Pathway on Non-Statin Therapies for LDL-C Lowering", "url": "https://www.acc.org/latest-in-cardiology/ten-points-to-remember/2022/08/25/13/13/2022-acc-ecdp-on-nonstatin"}
     ]
   },
   "medications": [

@@ -417,10 +417,10 @@ export default function CaMotionSicknessTreatmentOnline() {
           <div className="tdmd-container">
             <h2>How Common Is Motion Sickness Treatment in California?</h2>
             <p>
-              Motion sickness affects approximately 33% of adults in mildly provocative conditions and nearly 100% in extreme conditions per AAFP. California's geography generates diverse motion sickness scenarios: Pacific Ocean boating and whale-watching tours departing from Santa Barbara, Monterey, San Francisco, and Los Angeles; Channel Islands National Park ferry crossings; cruise ship departures from Port of Los Angeles and San Francisco; winding Highway 1 along Big Sur; Sierra Nevada mountain roads; and virtual reality environments in Silicon Valley tech hubs. Scopolamine prescriptions peak in California in summer and holiday travel seasons. — <a href="https://www.aafp.org/pubs/afp/issues/2014/0501/p648.html" rel="noopener" target="_blank">AAFP — Motion Sickness: A Review of Pathogenesis, Prevention, and Treatment</a>.
+              Motion sickness affects approximately 33% of adults in mildly provocative conditions and nearly 100% in extreme conditions per AAFP. California's geography generates diverse motion sickness scenarios: Pacific Ocean boating and whale-watching tours departing from Santa Barbara, Monterey, San Francisco, and Los Angeles; Channel Islands National Park ferry crossings; cruise ship departures from Port of Los Angeles and San Francisco; winding Highway 1 along Big Sur; Sierra Nevada mountain roads; and virtual reality environments in Silicon Valley tech hubs. Scopolamine prescriptions peak in California in summer and holiday travel seasons. — <a href="https://pubmed.ncbi.nlm.nih.gov/25077501/" rel="noopener" target="_blank">Brainard A, Gresham C. Prevention and Treatment of Motion Sickness (Am Fam Physician, 2014)</a>.
             </p>
             <p>
-              Clinical guidance for motion sickness — scopolamine and antiemetic treatment is provided by <a href="https://www.aafp.org/pubs/afp/issues/2014/0501/p648.html" rel="noopener" target="_blank">AAFP</a> through the AAFP Review on Motion Sickness Management + CDC Yellow Book 2024 — Motion Sickness. TeleDirectMD follows these guidelines on every patient visit.
+              Clinical guidance for motion sickness — scopolamine and antiemetic treatment is provided by <a href="https://pubmed.ncbi.nlm.nih.gov/25077501/" rel="noopener" target="_blank">AAFP</a> through the AAFP Review on Motion Sickness Management + CDC Yellow Book 2024 — Motion Sickness. TeleDirectMD follows these guidelines on every patient visit.
             </p>
             <h3>What causes motion sickness treatment and who is most at risk in California?</h3>
             <p>
@@ -515,7 +515,7 @@ export default function CaMotionSicknessTreatmentOnline() {
           <div className="tdmd-container">
             <h2>Motion Sickness — Scopolamine and Antiemetic Treatment Medication Options and Costs in California</h2>
             <p>
-              Medications for motion sickness — scopolamine and antiemetic treatment are selected based on current guidelines from <a href="https://www.aafp.org/pubs/afp/issues/2014/0501/p648.html" rel="noopener" target="_blank">AAFP</a>, patient history, allergies, and relevant contraindications assessed at the visit. GoodRx-verified pricing is shown below.
+              Medications for motion sickness — scopolamine and antiemetic treatment are selected based on current guidelines from <a href="https://pubmed.ncbi.nlm.nih.gov/25077501/" rel="noopener" target="_blank">AAFP</a>, patient history, allergies, and relevant contraindications assessed at the visit. GoodRx-verified pricing is shown below.
             </p>
             <div className="tdmd-table-wrap">
               <table className="tdmd-table" aria-label="Motion Sickness — Scopolamine and Antiemetic Treatment medication options and GoodRx prices">
@@ -692,9 +692,9 @@ export default function CaMotionSicknessTreatmentOnline() {
               <li><a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=2290.5.&lawCode=BPC" rel="noopener" target="_blank">California Business and Professions Code Section 2290.5 — Telehealth Advancement Act</a></li>
               <li><a href="https://www.mbc.ca.gov/Licensees/Telehealth/" rel="noopener" target="_blank">Medical Board of California — Telehealth Resources</a></li>
               <li><a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=10123.85.&lawCode=INS" rel="noopener" target="_blank">California Insurance Code §10123.85 — Telehealth Parity (AB 744)</a></li>
-              <li><a href="https://www.aafp.org/pubs/afp/issues/2014/0501/p648.html" rel="noopener" target="_blank">AAFP — Motion Sickness: A Review of Pathogenesis, Prevention, and Treatment (AFP 2022)</a></li>
+              <li><a href="https://pubmed.ncbi.nlm.nih.gov/25077501/" rel="noopener" target="_blank">Brainard A, Gresham C. Prevention and Treatment of Motion Sickness. Am Fam Physician. 2014;90(1):41-46</a></li>
               <li><a href="https://wwwnc.cdc.gov/travel/yellowbook/2024/preparing/motion-sickness" rel="noopener" target="_blank">CDC Yellow Book 2024 — Motion Sickness</a></li>
-              <li><a href="https://www.accessdata.fda.gov/drugsatfda_docs/label/2019/017874s048lbl.pdf" rel="noopener" target="_blank">FDA — Transderm Scōp (Scopolamine Transdermal) Prescribing Information</a></li>
+              <li><a href="https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/017874s053lbl.pdf" rel="noopener" target="_blank">FDA — Transderm Scōp (Scopolamine Transdermal) Prescribing Information</a></li>
               <li><a href="https://www.dhcs.ca.gov/provgovpart/Pages/Telehealth.aspx" rel="noopener" target="_blank">California DHCS — Telehealth FAQ</a></li>
               <li><a href="https://www.mbc.ca.gov/Licensees/ePrescribing.aspx" rel="noopener" target="_blank">Medical Board of California — AB 2789 Electronic Prescribing</a></li>
             </ol>

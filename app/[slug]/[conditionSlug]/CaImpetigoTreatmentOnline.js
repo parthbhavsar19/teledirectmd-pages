@@ -11,7 +11,7 @@
  * + HowTo + BreadcrumbList + SpeakableSpecification — NEVER QAPage).
  *
  * Authority: American Academy of Dermatology (AAD)
- * Guideline: AAD Clinical Guidelines: Impetigo — 2023 Update and IDSA SSTI Guideline
+ * Guideline: AAD impetigo guidance and IDSA SSTI Guideline
  *
  * Hard rules respected:
  *   • No QAPage schema — FAQPage only.
@@ -417,10 +417,10 @@ export default function CaImpetigoTreatmentOnline() {
           <div className="tdmd-container">
             <h2>How Common Is Impetigo in California?</h2>
             <p>
-              Impetigo is the most common bacterial skin infection in the United States. While it peaks in children, it occurs in adults — particularly in warm, humid climates, contact sports participants, and those with pre-existing skin conditions. California's warm climate and active outdoor sports culture contribute to impetigo transmission. The California Department of Public Health notes that CA-MRSA strains (including USA300) commonly cause bullous impetigo; topical mupirocin resistance is increasingly recognized in California community settings. — <a href="https://www.cdph.ca.gov/Programs/CID/DCDC/Pages/InfectiousDiseases/MRSA.aspx" rel="noopener" target="_blank">CDPH — MRSA and Skin Infections in California</a>.
+              Impetigo is the most common bacterial skin infection in the United States. While it peaks in children, it occurs in adults — particularly in warm, humid climates, contact sports participants, and those with pre-existing skin conditions. California's warm climate and active outdoor sports culture contribute to impetigo transmission. MRSA spreads in the community through skin-to-skin contact, including in contact sports, and broken skin is often the site of infection. — <a href="https://www.cdc.gov/mrsa/about/index.html" rel="noopener" target="_blank">CDC — MRSA Basics</a>.
             </p>
             <p>
-              Clinical guidance for impetigo treatment is provided by <a href="https://www.aad.org/member/practice/clinical-care/guidelines/impetigo" rel="noopener" target="_blank">American Academy of Dermatology (AAD)</a> through the AAD Clinical Guidelines: Impetigo — 2023 Update and IDSA SSTI Guideline. TeleDirectMD follows these guidelines on every patient visit.
+              Clinical guidance for impetigo treatment is provided by <a href="https://www.aad.org/public/diseases/a-z/impetigo-overview" rel="noopener" target="_blank">American Academy of Dermatology (AAD)</a> through AAD impetigo guidance and the IDSA SSTI Guideline. TeleDirectMD follows these guidelines on every patient visit.
             </p>
             <h3>What causes impetigo and who is most at risk in California?</h3>
             <p>
@@ -515,7 +515,7 @@ export default function CaImpetigoTreatmentOnline() {
           <div className="tdmd-container">
             <h2>Impetigo Treatment Medication Options and Costs in California</h2>
             <p>
-              Medications for impetigo treatment are selected based on current guidelines from <a href="https://www.aad.org/member/practice/clinical-care/guidelines/impetigo" rel="noopener" target="_blank">American Academy of Dermatology (AAD)</a>, patient history, allergies, and relevant contraindications assessed at the visit. GoodRx-verified pricing is shown below.
+              Medications for impetigo treatment are selected based on current guidelines from <a href="https://www.aad.org/public/diseases/a-z/impetigo-overview" rel="noopener" target="_blank">American Academy of Dermatology (AAD)</a>, patient history, allergies, and relevant contraindications assessed at the visit. GoodRx-verified pricing is shown below.
             </p>
             <div className="tdmd-table-wrap">
               <table className="tdmd-table" aria-label="Impetigo Treatment medication options and GoodRx prices">
@@ -693,8 +693,8 @@ export default function CaImpetigoTreatmentOnline() {
               <li><a href="https://www.mbc.ca.gov/Resources/Medical-Resources/telehealth.aspx" rel="noopener" target="_blank">Medical Board of California — Telehealth Resources. Retrieved May 2026.</a></li>
               <li><a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=10123.85.&lawCode=INS" rel="noopener" target="_blank">California Insurance Code §10123.85 — Telehealth Parity (AB 744). Retrieved May 2026.</a></li>
               <li><a href="https://www.dhcs.ca.gov/provgovpart/Pages/TelehealthFAQ.aspx" rel="noopener" target="_blank">California DHCS — Telehealth FAQ. Retrieved May 2026.</a></li>
-              <li><a href="https://www.cdph.ca.gov/Programs/CID/DCDC/Pages/InfectiousDiseases/MRSA.aspx" rel="noopener" target="_blank">CDPH — MRSA Information. Retrieved May 2026.</a></li>
-              <li><a href="https://www.aad.org/member/practice/clinical-care/guidelines/impetigo" rel="noopener" target="_blank">AAD — Impetigo Clinical Practice Guidelines. Retrieved May 2026.</a></li>
+              <li><a href="https://www.cdc.gov/mrsa/about/index.html" rel="noopener" target="_blank">CDC — MRSA Basics. Retrieved October 2026.</a></li>
+              <li><a href="https://www.aad.org/public/diseases/a-z/impetigo-overview" rel="noopener" target="_blank">AAD — Impetigo: Overview. Retrieved October 2026.</a></li>
               <li><a href="https://www.idsociety.org/practice-guideline/skin-and-soft-tissue-infections/" rel="noopener" target="_blank">IDSA — Skin and Soft Tissue Infection Guidelines. Retrieved May 2026.</a></li>
               <li><a href="https://www.cdc.gov/groupastrep/diseases-public/impetigo.html" rel="noopener" target="_blank">CDC — Impetigo Information. Retrieved May 2026.</a></li>
               <li><a href="https://www.mbc.ca.gov/News/" rel="noopener" target="_blank">Medical Board of California — Electronic Prescribing (AB 2789). Retrieved May 2026.</a></li>

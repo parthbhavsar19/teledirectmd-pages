@@ -416,7 +416,7 @@ export default function CaTineaVersicolorTreatmentOnline() {
           <div className="tdmd-container">
             <h2>How Common Is Tinea Versicolor in California?</h2>
             <p>
-              Tinea versicolor (pityriasis versicolor) caused by Malassezia yeast affects an estimated 1–4% of the general population but up to 40% in hot, humid climates, according to CDC Fungal Diseases data. California's warm climate — particularly in Southern California, the Sacramento Valley, and the Inland Empire — creates favorable conditions for Malassezia overgrowth. CDPH notes that skin fungal infections are more prevalent in California's outdoor-active, athletic population. — <a href="https://www.cdc.gov/fungal/diseases/tinea-versicolor/index.html" rel="noopener" target="_blank">CDC — Tinea Versicolor (Pityriasis Versicolor)</a>.
+              Tinea versicolor (pityriasis versicolor) caused by Malassezia yeast affects an estimated 1–4% of the general population but up to 40% in hot, humid climates, according to CDC Fungal Diseases data. California's warm climate — particularly in Southern California, the Sacramento Valley, and the Inland Empire — creates favorable conditions for Malassezia overgrowth. CDPH notes that skin fungal infections are more prevalent in California's outdoor-active, athletic population. — <a href="https://www.aad.org/public/diseases/a-z/tinea-versicolor-overview" rel="noopener" target="_blank">AAD — Tinea Versicolor: Overview</a>.
             </p>
             <p>
               Clinical guidance for tinea versicolor (pityriasis versicolor) is provided by <a href="https://www.aad.org/public/diseases/a-z/tinea-versicolor-overview" rel="noopener" target="_blank">AAD</a> through the CDC Tinea Versicolor Guidance + AAD Skin Infection Guidelines. TeleDirectMD follows these guidelines on every patient visit.
@@ -691,7 +691,7 @@ export default function CaTineaVersicolorTreatmentOnline() {
           <div className="tdmd-container">
             <h2>References and Primary Sources</h2>
             <ol className="tdmd-ref-list">
-              <li><a href="https://www.cdc.gov/fungal/diseases/tinea-versicolor/index.html" rel="noopener" target="_blank">CDC — Tinea Versicolor. Retrieved 2026-05-22.</a></li>
+              <li><a href="https://www.aad.org/public/diseases/a-z/tinea-versicolor-overview" rel="noopener" target="_blank">AAD — Tinea Versicolor: Overview. Retrieved 2026-05-22.</a></li>
               <li><a href="https://www.aad.org/public/diseases/a-z/tinea-versicolor-overview" rel="noopener" target="_blank">AAD — Pityriasis Versicolor. Retrieved 2026-05-22.</a></li>
               <li><a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=2290.5.&lawCode=BPC" rel="noopener" target="_blank">California B&P Code §2290.5. Retrieved 2026-05-22.</a></li>
               <li><a href="https://www.mbc.ca.gov/Licensees/Telehealth.aspx" rel="noopener" target="_blank">Medical Board of California — Telehealth. Retrieved 2026-05-22.</a></li>

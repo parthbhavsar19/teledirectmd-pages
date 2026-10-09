@@ -417,7 +417,7 @@ export default function CaAcidRefluxRefillsOnline() {
           <div className="tdmd-container">
             <h2>How Common Is Acid Reflux Refills in California?</h2>
             <p>
-              GERD affects approximately 20% of U.S. adults — an estimated 7.8 million California adults — with weekly symptoms in approximately 10% and daily symptoms in 4–5%. California's high obesity prevalence (27% per CDPH 2023) is the strongest modifiable risk factor for GERD, as excess body weight increases intra-abdominal pressure and reduces lower esophageal sphincter tone. Weight loss of 5–10% of body weight reduces GERD symptom frequency by approximately 40% per ACG 2022 data. — <a href="https://www.cdph.ca.gov/Programs/CCDPHP/DCDIC/NEOPB/Pages/ObesityandHealthyEatingData.aspx" rel="noopener" target="_blank">CDPH — Obesity and Chronic Disease Data</a>.
+              GERD affects approximately 20% of U.S. adults — an estimated 7.8 million California adults — with weekly symptoms in approximately 10% and daily symptoms in 4–5%. California's high obesity prevalence (27% per CDPH 2023) is the strongest modifiable risk factor for GERD, as excess body weight increases intra-abdominal pressure and reduces lower esophageal sphincter tone. Weight loss of 5–10% of body weight reduces GERD symptom frequency by approximately 40% per ACG 2022 data.
             </p>
             <p>
               Clinical guidance for acid reflux / gerd (refills for established patients) is provided by <a href="https://gi.org/guidelines/diagnosis-and-management-of-gastroesophageal-reflux-disease/" rel="noopener" target="_blank">ACG</a> through the ACG 2022 Clinical Practice Guideline: Diagnosis and Management of Gastroesophageal Reflux Disease. TeleDirectMD follows these guidelines on every patient visit.
@@ -699,7 +699,7 @@ export default function CaAcidRefluxRefillsOnline() {
               <li><a href="https://www.mbc.ca.gov/Licensees/Telehealth/" rel="noopener" target="_blank">Medical Board of California — Telehealth Resources</a></li>
               <li><a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=10123.85.&lawCode=INS" rel="noopener" target="_blank">California Insurance Code §10123.85 — Telehealth Parity (AB 744)</a></li>
               <li><a href="https://gi.org/guidelines/diagnosis-and-management-of-gastroesophageal-reflux-disease/" rel="noopener" target="_blank">ACG 2022 GERD Clinical Practice Guidelines</a></li>
-              <li><a href="https://www.cdph.ca.gov/Programs/CCDPHP/DCDIC/NEOPB/Pages/ObesityandHealthyEatingData.aspx" rel="noopener" target="_blank">CDPH — Obesity and Chronic Disease Data</a></li>
+              
               <li><a href="https://www.dhcs.ca.gov/provgovpart/Pages/Telehealth.aspx" rel="noopener" target="_blank">California DHCS — Telehealth FAQ</a></li>
               <li><a href="https://www.mbc.ca.gov/Licensees/ePrescribing.aspx" rel="noopener" target="_blank">Medical Board of California — AB 2789 Electronic Prescribing</a></li>
               <li><a href="https://journals.lww.com/ajg/Fulltext/2022/01000/ACG_Clinical_Guideline_for_the_Diagnosis_and.9.aspx" rel="noopener" target="_blank">ACG Clinical Practice Guideline: Diagnosis and Management of GERD 2022</a></li>

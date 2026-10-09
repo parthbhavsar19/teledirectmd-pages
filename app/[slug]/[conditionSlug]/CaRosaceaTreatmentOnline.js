@@ -416,10 +416,10 @@ export default function CaRosaceaTreatmentOnline() {
           <div className="tdmd-container">
             <h2>How Common Is Rosacea in California?</h2>
             <p>
-              Rosacea affects approximately 16 million Americans, predominantly adults with fair skin ages 30–60, per the National Rosacea Society. California's high UV index — particularly in Southern California and the Central Valley — is a major rosacea trigger. Sun exposure, heat, and outdoor activities common among California adults worsen rosacea flushing and erythema. CDC PLACES data documents elevated rates of dermatologic conditions requiring management across California counties. — <a href="https://www.rosacea.org/rosacea-review/2023/summer/how-many-people-have-rosacea" rel="noopener" target="_blank">National Rosacea Society — Rosacea Prevalence Data</a>.
+              Rosacea affects approximately 16 million Americans, predominantly adults with fair skin ages 30–60, per the National Rosacea Society. California's high UV index — particularly in Southern California and the Central Valley — is a major rosacea trigger. Sun exposure, heat, and outdoor activities common among California adults worsen rosacea flushing and erythema. CDC PLACES data documents elevated rates of dermatologic conditions requiring management across California counties. — <a href="https://www.rosacea.org/press/2024/april/rosacea-awareness-month-highlights-skin-care-as-new-frontier-against-life-disruptive-disorder-affecting-16-million-americans" rel="noopener" target="_blank">National Rosacea Society — Rosacea Prevalence Data</a>.
             </p>
             <p>
-              Clinical guidance for rosacea treatment is provided by <a href="https://www.aad.org/member/clinical-quality/guidelines/rosacea" rel="noopener" target="_blank">American Academy of Dermatology (AAD)</a> through the AAD and National Rosacea Society (NRS) Rosacea Guidelines. TeleDirectMD follows these guidelines on every patient visit.
+              Clinical guidance for rosacea treatment is provided by <a href="https://www.aad.org/public/diseases/rosacea/treatment" rel="noopener" target="_blank">American Academy of Dermatology (AAD)</a> through the AAD and National Rosacea Society (NRS) Rosacea Guidelines. TeleDirectMD follows these guidelines on every patient visit.
             </p>
             <h3>What causes rosacea and who is most at risk in California?</h3>
             <p>
@@ -514,7 +514,7 @@ export default function CaRosaceaTreatmentOnline() {
           <div className="tdmd-container">
             <h2>Rosacea Treatment Medication Options and Costs in California</h2>
             <p>
-              Medications for rosacea treatment are selected based on current guidelines from <a href="https://www.aad.org/member/clinical-quality/guidelines/rosacea" rel="noopener" target="_blank">American Academy of Dermatology (AAD)</a>, patient history, allergies, and relevant contraindications assessed at the visit. GoodRx-verified pricing is shown below.
+              Medications for rosacea treatment are selected based on current guidelines from <a href="https://www.aad.org/public/diseases/rosacea/treatment" rel="noopener" target="_blank">American Academy of Dermatology (AAD)</a>, patient history, allergies, and relevant contraindications assessed at the visit. GoodRx-verified pricing is shown below.
             </p>
             <div className="tdmd-table-wrap">
               <table className="tdmd-table" aria-label="Rosacea Treatment medication options and GoodRx prices">
@@ -697,8 +697,8 @@ export default function CaRosaceaTreatmentOnline() {
               <li><a href="https://www.mbc.ca.gov/Resources/Medical-Resources/telehealth.aspx" rel="noopener" target="_blank">Medical Board of California — Telehealth Resources. Retrieved May 2026.</a></li>
               <li><a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=10123.85.&lawCode=INS" rel="noopener" target="_blank">California Insurance Code §10123.85 — Telehealth Parity (AB 744). Retrieved May 2026.</a></li>
               <li><a href="https://www.dhcs.ca.gov/provgovpart/Pages/TelehealthFAQ.aspx" rel="noopener" target="_blank">California DHCS — Telehealth FAQ. Retrieved May 2026.</a></li>
-              <li><a href="https://www.rosacea.org/rosacea-review/2023/summer/how-many-people-have-rosacea" rel="noopener" target="_blank">National Rosacea Society — Rosacea Prevalence Data. Retrieved May 2026.</a></li>
-              <li><a href="https://www.aad.org/member/clinical-quality/guidelines/rosacea" rel="noopener" target="_blank">AAD — Rosacea Guidelines. Retrieved May 2026.</a></li>
+              <li><a href="https://www.rosacea.org/press/2024/april/rosacea-awareness-month-highlights-skin-care-as-new-frontier-against-life-disruptive-disorder-affecting-16-million-americans" rel="noopener" target="_blank">National Rosacea Society — Rosacea Prevalence Data. Retrieved May 2026.</a></li>
+              <li><a href="https://www.aad.org/public/diseases/rosacea/treatment" rel="noopener" target="_blank">AAD — Rosacea Treatment. Retrieved May 2026.</a></li>
               <li><a href="https://www.goodrx.com/metronidazole-topical" rel="noopener" target="_blank">GoodRx — Metronidazole Topical Prices. Retrieved May 2026.</a></li>
               <li><a href="https://www.goodrx.com/doxycycline" rel="noopener" target="_blank">GoodRx — Doxycycline Prices. Retrieved May 2026.</a></li>
               <li><a href="https://www.mbc.ca.gov/News/" rel="noopener" target="_blank">Medical Board of California — Electronic Prescribing (AB 2789). Retrieved May 2026.</a></li>

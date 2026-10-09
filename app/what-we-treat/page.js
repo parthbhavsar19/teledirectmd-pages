@@ -103,7 +103,6 @@ function buildJsonLd(categories, allStates) {
           'https://www.zocdoc.com/practice/teledirectmd-98837',
           'https://www.healthgrades.com/group-directory/ga-georgia/lawrenceville/teledirectmd-ooop5jn',
           'https://www.instagram.com/teledirectmd/',
-          'https://www.webmd.com/provider/parth-bhavsar/overview',
         ],
         founder: { '@id': `${baseUrl}/about/#physician` },
         member: { '@id': `${baseUrl}/about/#physician` },
@@ -125,7 +124,6 @@ function buildJsonLd(categories, allStates) {
         medicalSpecialty: ['Family Medicine', 'Telemedicine'],
         worksFor: { '@id': `${baseUrl}/#organization` },
         sameAs: [
-          'https://www.webmd.com/provider/parth-bhavsar/overview',
           'https://www.healthgrades.com/group-directory/ga-georgia/lawrenceville/teledirectmd-ooop5jn',
         ],
         ...getReviewBlock(),

@@ -417,10 +417,10 @@ export default function CaAntiAgingTreatmentOnline() {
           <div className="tdmd-container">
             <h2>How Common Is Anti-Aging Treatment in California?</h2>
             <p>
-              California's year-round outdoor culture — surfing, hiking, outdoor dining, agricultural work — combined with its geographic position at 32–42 degrees latitude and high UV index (UV index regularly 8–11+ in summer in Los Angeles, San Diego, and Central Valley) drives photoaging, actinic keratoses, and cosmetic skin aging concerns at rates above national averages. The American Cancer Society estimates California leads the nation in melanoma diagnoses, reflecting both its sun exposure profile and its large population. The AAD identifies UV radiation as causing approximately 90% of visible skin aging changes. — <a href="https://www.aad.org/public/everyday-care/skin-care-basics/anti-aging/retinoids" rel="noopener" target="_blank">AAD — Retinoids: The Gold Standard Anti-Aging Treatment</a>.
+              California's year-round outdoor culture — surfing, hiking, outdoor dining, agricultural work — combined with its geographic position at 32–42 degrees latitude and high UV index (UV index regularly 8–11+ in summer in Los Angeles, San Diego, and Central Valley) drives photoaging, actinic keratoses, and cosmetic skin aging concerns at rates above national averages. The American Cancer Society estimates California leads the nation in melanoma diagnoses, reflecting both its sun exposure profile and its large population. The AAD identifies UV radiation as causing approximately 90% of visible skin aging changes. — <a href="https://www.aad.org/public/everyday-care/skin-care-secrets/anti-aging/retinoid-retinol" rel="noopener" target="_blank">AAD: Retinoid or retinol?</a>.
             </p>
             <p>
-              Clinical guidance for photoaging / anti-aging skin treatment is provided by <a href="https://www.aad.org/public/everyday-care/skin-care-basics/anti-aging/retinoids" rel="noopener" target="_blank">AAD</a> through the AAD Evidence-Based Anti-Aging Skin Care Guidelines + FDA-Approved Tretinoin Prescribing Information. TeleDirectMD follows these guidelines on every patient visit.
+              Clinical guidance for photoaging / anti-aging skin treatment is provided by <a href="https://www.aad.org/public/everyday-care/skin-care-secrets/anti-aging/retinoid-retinol" rel="noopener" target="_blank">AAD</a> through the AAD Evidence-Based Anti-Aging Skin Care Guidelines + FDA-Approved Tretinoin Prescribing Information. TeleDirectMD follows these guidelines on every patient visit.
             </p>
             <h3>What causes anti-aging treatment and who is most at risk in California?</h3>
             <p>
@@ -515,7 +515,7 @@ export default function CaAntiAgingTreatmentOnline() {
           <div className="tdmd-container">
             <h2>Photoaging / Anti-Aging Skin Treatment Medication Options and Costs in California</h2>
             <p>
-              Medications for photoaging / anti-aging skin treatment are selected based on current guidelines from <a href="https://www.aad.org/public/everyday-care/skin-care-basics/anti-aging/retinoids" rel="noopener" target="_blank">AAD</a>, patient history, allergies, and relevant contraindications assessed at the visit. GoodRx-verified pricing is shown below.
+              Medications for photoaging / anti-aging skin treatment are selected based on current guidelines from <a href="https://www.aad.org/public/everyday-care/skin-care-secrets/anti-aging/retinoid-retinol" rel="noopener" target="_blank">AAD</a>, patient history, allergies, and relevant contraindications assessed at the visit. GoodRx-verified pricing is shown below.
             </p>
             <div className="tdmd-table-wrap">
               <table className="tdmd-table" aria-label="Photoaging / Anti-Aging Skin Treatment medication options and GoodRx prices">
@@ -698,8 +698,7 @@ export default function CaAntiAgingTreatmentOnline() {
               <li><a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=2290.5.&lawCode=BPC" rel="noopener" target="_blank">California Business and Professions Code Section 2290.5 — Telehealth Advancement Act</a></li>
               <li><a href="https://www.mbc.ca.gov/Licensees/Telehealth/" rel="noopener" target="_blank">Medical Board of California — Telehealth Resources</a></li>
               <li><a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=10123.85.&lawCode=INS" rel="noopener" target="_blank">California Insurance Code §10123.85 — Telehealth Parity (AB 744)</a></li>
-              <li><a href="https://www.aad.org/public/everyday-care/skin-care-basics/anti-aging/retinoids" rel="noopener" target="_blank">AAD — Retinoids: The Gold Standard Anti-Aging Treatment</a></li>
-              <li><a href="https://www.cdph.ca.gov/Programs/CCDPHP/DCDIC/CDCB/Pages/CancerPreventionPrograms.aspx" rel="noopener" target="_blank">CDPH — Skin Cancer Prevention</a></li>
+              <li><a href="https://www.aad.org/public/everyday-care/skin-care-secrets/anti-aging/retinoid-retinol" rel="noopener" target="_blank">AAD: Retinoid or retinol?</a></li>
               <li><a href="https://www.aad.org/public/everyday-care/sun-protection/sunscreen-patients/sunscreen-faqs" rel="noopener" target="_blank">AAD — Sunscreen FAQ</a></li>
               <li><a href="https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=018662" rel="noopener" target="_blank">FDA — Tretinoin (Retin-A) Drug Information</a></li>
               <li><a href="https://www.dhcs.ca.gov/provgovpart/Pages/Telehealth.aspx" rel="noopener" target="_blank">California DHCS — Telehealth FAQ</a></li>

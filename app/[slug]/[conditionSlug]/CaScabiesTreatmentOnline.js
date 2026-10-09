@@ -416,10 +416,10 @@ export default function CaScabiesTreatmentOnline() {
           <div className="tdmd-container">
             <h2>How Common Is Scabies in California?</h2>
             <p>
-              Scabies (caused by the mite Sarcoptes scabiei) affects an estimated 300 million people worldwide annually, according to the CDC Scabies Program. In California, scabies outbreaks occur in nursing homes, shelters, correctional facilities, and multi-family housing — settings with higher density in California's urban counties. The California Department of Public Health (CDPH) tracks scabies outbreaks and requires reporting from facilities with ≥3 cases. CDC PLACES data documents elevated parasitic skin condition rates in California's high-density counties including Los Angeles and San Francisco. — <a href="https://www.cdc.gov/parasites/scabies/index.html" rel="noopener" target="_blank">CDC — Scabies Program</a>.
+              Scabies (caused by the mite Sarcoptes scabiei) affects an estimated 300 million people worldwide annually, according to the CDC Scabies Program. In California, scabies outbreaks occur in nursing homes, shelters, correctional facilities, and multi-family housing — settings with higher density in California's urban counties. The California Department of Public Health (CDPH) tracks scabies outbreaks and requires reporting from facilities with ≥3 cases. CDC PLACES data documents elevated parasitic skin condition rates in California's high-density counties including Los Angeles and San Francisco. — <a href="https://www.cdc.gov/scabies/about/index.html" rel="noopener" target="_blank">CDC — About Scabies</a>.
             </p>
             <p>
-              Clinical guidance for scabies (sarcoptes scabiei) is provided by <a href="https://www.cdc.gov/parasites/scabies/treatment.html" rel="noopener" target="_blank">AAD</a> through the CDC Scabies Treatment Guidelines. TeleDirectMD follows these guidelines on every patient visit.
+              Clinical guidance for scabies (sarcoptes scabiei) is provided by <a href="https://www.cdc.gov/parasites/scabies/treatment.html" rel="noopener" target="_blank">CDC</a> through the CDC Scabies Treatment Guidelines. TeleDirectMD follows these guidelines on every patient visit.
             </p>
             <h3>What causes scabies and who is most at risk in California?</h3>
             <p>
@@ -514,7 +514,7 @@ export default function CaScabiesTreatmentOnline() {
           <div className="tdmd-container">
             <h2>Scabies (Sarcoptes scabiei) Medication Options and Costs in California</h2>
             <p>
-              Medications for scabies (sarcoptes scabiei) are selected based on current guidelines from <a href="https://www.cdc.gov/parasites/scabies/treatment.html" rel="noopener" target="_blank">AAD</a>, patient history, allergies, and relevant contraindications assessed at the visit. GoodRx-verified pricing is shown below.
+              Medications for scabies (sarcoptes scabiei) are selected based on current guidelines from <a href="https://www.cdc.gov/parasites/scabies/treatment.html" rel="noopener" target="_blank">CDC</a>, patient history, allergies, and relevant contraindications assessed at the visit. GoodRx-verified pricing is shown below.
             </p>
             <div className="tdmd-table-wrap">
               <table className="tdmd-table" aria-label="Scabies (Sarcoptes scabiei) medication options and GoodRx prices">
@@ -686,7 +686,7 @@ export default function CaScabiesTreatmentOnline() {
             <h2>References and Primary Sources</h2>
             <ol className="tdmd-ref-list">
               <li><a href="https://www.cdc.gov/parasites/scabies/treatment.html" rel="noopener" target="_blank">CDC — Scabies Treatment. Retrieved 2026-05-22.</a></li>
-              <li><a href="https://www.cdc.gov/parasites/scabies/index.html" rel="noopener" target="_blank">CDC — Scabies Overview. Retrieved 2026-05-22.</a></li>
+              <li><a href="https://www.cdc.gov/scabies/about/index.html" rel="noopener" target="_blank">CDC — Scabies Overview. Retrieved 2026-05-22.</a></li>
               <li><a href="https://www.cdph.ca.gov/Programs/CID/DCDC/Pages/Scabies.aspx" rel="noopener" target="_blank">CDPH — Scabies. Retrieved 2026-05-22.</a></li>
               <li><a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=2290.5.&lawCode=BPC" rel="noopener" target="_blank">California B&P Code §2290.5. Retrieved 2026-05-22.</a></li>
               <li><a href="https://www.mbc.ca.gov/Licensees/Telehealth.aspx" rel="noopener" target="_blank">Medical Board of California — Telehealth. Retrieved 2026-05-22.</a></li>

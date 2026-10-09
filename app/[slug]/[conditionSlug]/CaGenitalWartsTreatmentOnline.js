@@ -417,7 +417,7 @@ export default function CaGenitalWartsTreatmentOnline() {
           <div className="tdmd-container">
             <h2>How Common Is Genital Warts (HPV) in California?</h2>
             <p>
-              Genital warts account for an estimated 340,000–360,000 new cases annually in the US per the CDC STI Treatment Guidelines 2021. HPV types 6 and 11 cause approximately 90% of genital warts. California, as the most populous state with approximately 39 million residents, accounts for a substantial proportion of these cases. The California Department of Public Health recommends Gardasil 9 HPV vaccination for all adolescents and adults through age 26 to prevent HPV types 6, 11, 16, and 18. — <a href="https://www.cdph.ca.gov/Programs/CID/DCDC/Pages/Immunization/HPV.aspx" rel="noopener" target="_blank">CDPH — HPV Vaccination Recommendations</a>.
+              Genital warts account for an estimated 340,000–360,000 new cases annually in the US per the CDC STI Treatment Guidelines 2021. HPV types 6 and 11 cause approximately 90% of genital warts. California, as the most populous state with approximately 39 million residents, accounts for a substantial proportion of these cases. HPV vaccination (Gardasil 9) is recommended for all adolescents and for adults through age 26 and protects against HPV types 6, 11, 16, and 18. — <a href="https://www.cdc.gov/hpv/hcp/vaccination-considerations/index.html" rel="noopener" target="_blank">CDC: HPV Vaccine Recommendations</a>.
             </p>
             <p>
               Clinical guidance for genital warts treatment (hpv) is provided by <a href="https://www.cdc.gov/std/treatment-guidelines/anogenital-warts.htm" rel="noopener" target="_blank">Centers for Disease Control and Prevention (CDC)</a> through the CDC STI Treatment Guidelines 2021 — Anogenital Warts. TeleDirectMD follows these guidelines on every patient visit.
@@ -689,7 +689,7 @@ export default function CaGenitalWartsTreatmentOnline() {
               <li><a href="https://www.dhcs.ca.gov/provgovpart/Pages/TelehealthFAQ.aspx" rel="noopener" target="_blank">California DHCS — Telehealth FAQ. Retrieved May 2026.</a></li>
               <li><a href="https://www.cdc.gov/std/treatment-guidelines/anogenital-warts.htm" rel="noopener" target="_blank">CDC STI Treatment Guidelines 2021 — Anogenital Warts. Retrieved May 2026.</a></li>
               <li><a href="https://www.acog.org/clinical/clinical-guidance/practice-bulletin/articles/2020/07/human-papillomavirus-vaccination" rel="noopener" target="_blank">ACOG — HPV Vaccination Practice Bulletin. Retrieved May 2026.</a></li>
-              <li><a href="https://www.cdph.ca.gov/Programs/CID/DCDC/Pages/Immunization/HPV.aspx" rel="noopener" target="_blank">CDPH — HPV Vaccination Recommendations. Retrieved May 2026.</a></li>
+              <li><a href="https://www.cdc.gov/hpv/hcp/vaccination-considerations/index.html" rel="noopener" target="_blank">CDC: HPV Vaccine Recommendations. Retrieved October 2026.</a></li>
               <li><a href="https://www.goodrx.com/imiquimod" rel="noopener" target="_blank">GoodRx — Imiquimod Prices. Retrieved May 2026.</a></li>
               <li><a href="https://www.mbc.ca.gov/News/" rel="noopener" target="_blank">Medical Board of California — Electronic Prescribing (AB 2789). Retrieved May 2026.</a></li>
             </ol>

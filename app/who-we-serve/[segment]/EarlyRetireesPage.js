@@ -836,11 +836,11 @@ export default function EarlyRetireesPage() {
           <h2>References</h2>
           <ul className="tdmd-ref-list">
             <li><a href="https://www.ssa.gov/policy/docs/chartbooks/fast_facts/2022/fast_facts22.html" target="_blank" rel="noopener noreferrer">Social Security Administration — Fast Facts &amp; Figures 2022 (Retirement Age Data)</a></li>
-            <li><a href="https://www.kff.org/medicare/issue-brief/medicare-and-the-pre-medicare-population/" target="_blank" rel="noopener noreferrer">Kaiser Family Foundation — Medicare and the Pre-Medicare Population</a></li>
-            <li><a href="https://www.cdc.gov/chronicdisease/resources/publications/factsheets/hypertension.htm" target="_blank" rel="noopener noreferrer">CDC — Hypertension Facts</a></li>
+            <li><a href="https://www.kff.org/affordable-care-act/how-will-the-loss-of-enhanced-premium-tax-credits-affect-older-adults/" target="_blank" rel="noopener noreferrer">KFF — How Will the Loss of Enhanced Premium Tax Credits Affect Older Adults?</a></li>
+            <li><a href="https://www.cdc.gov/high-blood-pressure/data-research/facts-stats/index.html" target="_blank" rel="noopener noreferrer">CDC — High Blood Pressure Facts</a></li>
             <li><a href="https://www.cdc.gov/diabetes/data/statistics-report/index.html" target="_blank" rel="noopener noreferrer">CDC — National Diabetes Statistics Report</a></li>
-            <li><a href="https://www.cms.gov/marketplace/resources/data/marketplace-enrollment" target="_blank" rel="noopener noreferrer">Centers for Medicare &amp; Medicaid Services — ACA Marketplace Enrollment Data</a></li>
-            <li><a href="https://www.healthcare.gov/glossary/cobra-coverage" target="_blank" rel="noopener noreferrer">HealthCare.gov — COBRA Coverage</a></li>
+            <li><a href="https://www.cms.gov/data-research/statistics-trends-and-reports/marketplace-products" target="_blank" rel="noopener noreferrer">Centers for Medicare &amp; Medicaid Services — ACA Marketplace Enrollment Data</a></li>
+            <li><a href="https://www.healthcare.gov/glossary/cobra/" target="_blank" rel="noopener noreferrer">HealthCare.gov — COBRA Coverage</a></li>
           </ul>
         </div>
       </section>

@@ -689,7 +689,7 @@ export default function CaGoutTreatmentOnline() {
               <li><a href="https://www.dhcs.ca.gov/provgovpart/Pages/TelehealthFAQ.aspx" rel="noopener" target="_blank">California DHCS — Telehealth FAQ. Retrieved May 2026.</a></li>
               <li><a href="https://www.cdc.gov/arthritis/types/gout.html" rel="noopener" target="_blank">CDC — Gout and Arthritis. Retrieved May 2026.</a></li>
               <li><a href="https://www.rheumatology.org/Practice-Quality/Clinical-Support/Clinical-Practice-Guidelines/Gout" rel="noopener" target="_blank">ACR — Guideline for the Management of Gout (2020). Retrieved May 2026.</a></li>
-              <li><a href="https://www.cdc.gov/arthritis/data_statistics/index.html" rel="noopener" target="_blank">CDC — Arthritis Data and Statistics. Retrieved May 2026.</a></li>
+              <li><a href="https://www.cdc.gov/arthritis/index.html" rel="noopener" target="_blank">CDC — Arthritis. Retrieved May 2026.</a></li>
               <li><a href="https://www.niams.nih.gov/health-topics/gout" rel="noopener" target="_blank">NIH NIAMS — Gout. Retrieved May 2026.</a></li>
               <li><a href="https://www.mbc.ca.gov/News/" rel="noopener" target="_blank">Medical Board of California — Electronic Prescribing (AB 2789). Retrieved May 2026.</a></li>
             </ol>

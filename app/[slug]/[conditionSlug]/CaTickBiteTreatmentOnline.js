@@ -417,10 +417,10 @@ export default function CaTickBiteTreatmentOnline() {
           <div className="tdmd-container">
             <h2>How Common Is Tick Bite in California?</h2>
             <p>
-              California is an endemic state for tick-borne diseases. The California Department of Public Health (CDPH) Tick-Borne Disease Section reports approximately 100–300 confirmed Lyme disease cases annually in California, with Ixodes pacificus (western black-legged tick) as the primary Lyme vector. The highest-risk California counties are in the North Coast (Humboldt, Mendocino, Trinity) and Bay Area foothills (Marin, Santa Cruz, San Mateo). CDPH also tracks Rocky Mountain spotted fever, ehrlichiosis, and anaplasmosis in California. — <a href="https://www.cdph.ca.gov/Programs/CID/DCDC/Pages/TickBorneDiseases.aspx" rel="noopener" target="_blank">CDPH — Tick-Borne Disease Section</a>.
+              California is an endemic state for tick-borne diseases. The California Department of Public Health (CDPH) Tick-Borne Disease Section reports approximately 100–300 confirmed Lyme disease cases annually in California, with Ixodes pacificus (western black-legged tick) as the primary Lyme vector. The highest-risk California counties are in the North Coast (Humboldt, Mendocino, Trinity) and Bay Area foothills (Marin, Santa Cruz, San Mateo). CDPH also tracks Rocky Mountain spotted fever, ehrlichiosis, and anaplasmosis in California. — <a href="https://www.cdph.ca.gov/Programs/CID/DCDC/Pages/Tick-Borne-Diseases.aspx" rel="noopener" target="_blank">CDPH — Tick-Borne Disease Section</a>.
             </p>
             <p>
-              Clinical guidance for tick bite (lyme prophylaxis and evaluation) is provided by <a href="https://www.idsociety.org/practice-guideline/lyme-disease/" rel="noopener" target="_blank">AAFP</a> through the IDSA/AAN/ACR Lyme Disease Guidelines 2020 + CDC Tick Bite Guidance. TeleDirectMD follows these guidelines on every patient visit.
+              Clinical guidance for tick bite (lyme prophylaxis and evaluation) is provided by <a href="https://www.idsociety.org/practice-guideline/lyme-disease/" rel="noopener" target="_blank">IDSA</a> through the IDSA/AAN/ACR Lyme Disease Guidelines 2020 + CDC Tick Bite Guidance. TeleDirectMD follows these guidelines on every patient visit.
             </p>
             <h3>What causes tick bite and who is most at risk in California?</h3>
             <p>
@@ -515,7 +515,7 @@ export default function CaTickBiteTreatmentOnline() {
           <div className="tdmd-container">
             <h2>Tick Bite (Lyme Prophylaxis and Evaluation) Medication Options and Costs in California</h2>
             <p>
-              Medications for tick bite (lyme prophylaxis and evaluation) are selected based on current guidelines from <a href="https://www.idsociety.org/practice-guideline/lyme-disease/" rel="noopener" target="_blank">AAFP</a>, patient history, allergies, and relevant contraindications assessed at the visit. GoodRx-verified pricing is shown below.
+              Medications for tick bite (lyme prophylaxis and evaluation) are selected based on current guidelines from <a href="https://www.idsociety.org/practice-guideline/lyme-disease/" rel="noopener" target="_blank">IDSA</a>, patient history, allergies, and relevant contraindications assessed at the visit. GoodRx-verified pricing is shown below.
             </p>
             <div className="tdmd-table-wrap">
               <table className="tdmd-table" aria-label="Tick Bite (Lyme Prophylaxis and Evaluation) medication options and GoodRx prices">
@@ -689,13 +689,13 @@ export default function CaTickBiteTreatmentOnline() {
             <ol className="tdmd-ref-list">
               <li><a href="https://www.idsociety.org/practice-guideline/lyme-disease/" rel="noopener" target="_blank">IDSA/AAN/ACR Lyme Disease Guidelines 2020. Retrieved 2026-05-22.</a></li>
               <li><a href="https://www.cdc.gov/lyme/index.html" rel="noopener" target="_blank">CDC — Lyme Disease. Retrieved 2026-05-22.</a></li>
-              <li><a href="https://www.cdph.ca.gov/Programs/CID/DCDC/Pages/InfectiousDiseases/LymeDisease.aspx" rel="noopener" target="_blank">CDPH — Lyme Disease Data. Retrieved 2026-05-22.</a></li>
-              <li><a href="https://www.cdph.ca.gov/Programs/CID/DCDC/Pages/TickBorneDiseases.aspx" rel="noopener" target="_blank">CDPH — Tick-Borne Diseases. Retrieved 2026-05-22.</a></li>
+              <li><a href="https://www.cdph.ca.gov/Programs/CID/DCDC/Pages/LymeDisease.aspx" rel="noopener" target="_blank">CDPH — Lyme Disease Data. Retrieved 2026-05-22.</a></li>
+              <li><a href="https://www.cdph.ca.gov/Programs/CID/DCDC/Pages/Tick-Borne-Diseases.aspx" rel="noopener" target="_blank">CDPH — Tick-Borne Diseases. Retrieved 2026-05-22.</a></li>
               <li><a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=2290.5.&lawCode=BPC" rel="noopener" target="_blank">California B&P Code §2290.5. Retrieved 2026-05-22.</a></li>
               <li><a href="https://www.mbc.ca.gov/Licensees/Telehealth.aspx" rel="noopener" target="_blank">Medical Board of California — Telehealth. Retrieved 2026-05-22.</a></li>
               <li><a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=10123.85.&lawCode=INS" rel="noopener" target="_blank">California Insurance Code §10123.85 (AB 744). Retrieved 2026-05-22.</a></li>
               <li><a href="https://www.goodrx.com/doxycycline" rel="noopener" target="_blank">GoodRx — Doxycycline. Retrieved 2026-05-22.</a></li>
-              <li><a href="https://www.cdc.gov/lyme/stats/surveillance.html" rel="noopener" target="_blank">CDC — Lyme Disease Surveillance. Retrieved 2026-05-22.</a></li>
+              <li><a href="https://www.cdc.gov/lyme/data-research/facts-stats/index.html" rel="noopener" target="_blank">CDC — Lyme Disease Surveillance. Retrieved 2026-05-22.</a></li>
               <li><a href="https://www.mbc.ca.gov/Licensees/Prescriptions/Electronic_Prescribing.aspx" rel="noopener" target="_blank">Medical Board of California — AB 2789. Retrieved 2026-05-22.</a></li>
             </ol>
           </div>

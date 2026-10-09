@@ -11,7 +11,7 @@
  * + HowTo + BreadcrumbList + SpeakableSpecification — NEVER QAPage).
  *
  * Authority: American Academy of Otolaryngology – Head and Neck Surgery (AAO-HNS)
- * Guideline: AAO-HNS Clinical Practice Guideline: Otitis Media with Effusion and Acute Otitis Media (Adult)
+ * Guideline: AAO-HNS Clinical Practice Guideline: Acute Otitis Externa (2014)
  *
  * Hard rules respected:
  *   • No QAPage schema — FAQPage only.
@@ -421,7 +421,7 @@ export default function CaEarPainTreatmentOnline() {
               Acute otitis externa (swimmer's ear) and otitis media together account for millions of physician visits annually in the United States. Adult acute otitis media (AOM) affects approximately 1 in 100 adults per year, while otitis externa is more common, particularly among California coastal communities with high water-activity participation. The CDC reports that ear infections are one of the top reasons for antibiotic prescriptions in outpatient settings nationwide. — <a href="https://www.cdc.gov/antibiotic-use/ear-infection.html" rel="noopener" target="_blank">CDC — Ear Infections and Antibiotic Use</a>.
             </p>
             <p>
-              Clinical guidance for ear pain treatment is provided by <a href="https://www.entnet.org/quality-practice/quality-and-performance/clinical-practice-guidelines/otitis-media-acute/" rel="noopener" target="_blank">American Academy of Otolaryngology – Head and Neck Surgery (AAO-HNS)</a> through the AAO-HNS Clinical Practice Guideline: Otitis Media with Effusion and Acute Otitis Media (Adult). TeleDirectMD follows these guidelines on every patient visit.
+              Clinical guidance for ear pain treatment is provided by <a href="https://pubmed.ncbi.nlm.nih.gov/24491310/" rel="noopener" target="_blank">American Academy of Otolaryngology – Head and Neck Surgery (AAO-HNS)</a> through the AAO-HNS Clinical Practice Guideline: Acute Otitis Externa (2014). TeleDirectMD follows these guidelines on every patient visit.
             </p>
             <h3>What causes ear pain (otitis) and who is most at risk in California?</h3>
             <p>
@@ -516,7 +516,7 @@ export default function CaEarPainTreatmentOnline() {
           <div className="tdmd-container">
             <h2>Ear Pain Treatment Medication Options and Costs in California</h2>
             <p>
-              Medications for ear pain treatment are selected based on current guidelines from <a href="https://www.entnet.org/quality-practice/quality-and-performance/clinical-practice-guidelines/otitis-media-acute/" rel="noopener" target="_blank">American Academy of Otolaryngology – Head and Neck Surgery (AAO-HNS)</a>, patient history, allergies, and relevant contraindications assessed at the visit. GoodRx-verified pricing is shown below.
+              Medications for ear pain treatment are selected based on current guidelines from <a href="https://pubmed.ncbi.nlm.nih.gov/24491310/" rel="noopener" target="_blank">American Academy of Otolaryngology – Head and Neck Surgery (AAO-HNS)</a>, patient history, allergies, and relevant contraindications assessed at the visit. GoodRx-verified pricing is shown below.
             </p>
             <div className="tdmd-table-wrap">
               <table className="tdmd-table" aria-label="Ear Pain Treatment medication options and GoodRx prices">
@@ -696,7 +696,7 @@ export default function CaEarPainTreatmentOnline() {
               <li><a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=10123.85.&lawCode=INS" rel="noopener" target="_blank">California Insurance Code §10123.85 — Telehealth Parity (AB 744). Retrieved May 2026.</a></li>
               <li><a href="https://www.dhcs.ca.gov/provgovpart/Pages/TelehealthFAQ.aspx" rel="noopener" target="_blank">California DHCS — Telehealth FAQ. Retrieved May 2026.</a></li>
               <li><a href="https://www.cdc.gov/antibiotic-use/ear-infection.html" rel="noopener" target="_blank">CDC — Ear Infections and Antibiotic Use. Retrieved May 2026.</a></li>
-              <li><a href="https://www.entnet.org/quality-practice/quality-and-performance/clinical-practice-guidelines/otitis-media-acute/" rel="noopener" target="_blank">AAO-HNS — Acute Otitis Media Clinical Practice Guideline. Retrieved May 2026.</a></li>
+              <li><a href="https://pubmed.ncbi.nlm.nih.gov/24491310/" rel="noopener" target="_blank">Rosenfeld RM, Schwartz SR, Cannon CR, et al. Clinical practice guideline: acute otitis externa. Otolaryngol Head Neck Surg. 2014;150(1 Suppl):S1-S24.</a></li>
               <li><a href="https://www.aafp.org/pubs/afp/issues/2019/0401/p445.html" rel="noopener" target="_blank">AAFP — Otitis Externa: An Update. Retrieved May 2026.</a></li>
               <li><a href="https://www.mbc.ca.gov/News/" rel="noopener" target="_blank">Medical Board of California — Electronic Prescribing (AB 2789). Retrieved May 2026.</a></li>
             </ol>

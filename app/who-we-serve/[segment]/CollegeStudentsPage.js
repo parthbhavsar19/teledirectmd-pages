@@ -845,8 +845,8 @@ export default function CollegeStudentsPage() {
             <li><a href="https://nces.ed.gov/fastfacts/display.asp?id=372" target="_blank" rel="noopener noreferrer">National Center for Education Statistics — College Enrollment Data</a></li>
             <li><a href="https://www.hers.com/telehealth-survey" target="_blank" rel="noopener noreferrer">Hers — College Student Telehealth Usage Survey (2024)</a></li>
             <li><a href="https://hope4college.com/" target="_blank" rel="noopener noreferrer">Temple University Hope Center — #RealCollege Survey</a></li>
-            <li><a href="https://www.cdc.gov/std/treatment-guidelines/urogenital.htm" target="_blank" rel="noopener noreferrer">CDC — STI Treatment Guidelines: UTI Management</a></li>
-            <li><a href="https://www.aafp.org/pubs/afp/issues/2016/0101/p24.html" target="_blank" rel="noopener noreferrer">AAFP — Strep Throat: Diagnosis and Treatment</a></li>
+            <li><a href="https://www.cdc.gov/uti/about/index.html" target="_blank" rel="noopener noreferrer">CDC — Urinary Tract Infection Basics</a></li>
+            <li><a href="https://pubmed.ncbi.nlm.nih.gov/27386721/" target="_blank" rel="noopener noreferrer">AAFP — Common Questions About Streptococcal Pharyngitis (Am Fam Physician 2016)</a></li>
             <li><a href="https://www.cms.gov/marketplace/resources/data" target="_blank" rel="noopener noreferrer">CMS — ACA Marketplace Data for Young Adults</a></li>
           </ul>
         </div>
