@@ -80,6 +80,7 @@ const jsonLd = {
       sameAs: [
         'https://npiregistry.cms.hhs.gov/provider-view/1104323203',
         'https://www.healthgrades.com/physician/dr-parth-bhavsar',
+        'https://www.zocdoc.com/doctor/parth-bhavsar-md-652258',
       ],
     },
     {
@@ -115,6 +116,7 @@ const jsonLd = {
         'https://nypost.com/2025/11/01/lifestyle/bananas-may-be-making-your-smoothies-less-effective-scientists-say/',
         'https://www.healthline.com/health-news/amy-sedaris-talks-brain-health',
         'https://www.healthgrades.com/physician/dr-parth-bhavsar',
+        'https://www.zocdoc.com/doctor/parth-bhavsar-md-652258',
         'https://www.google.com/maps/place/TeleDirectMD',
       ],
       hasCredential: [
