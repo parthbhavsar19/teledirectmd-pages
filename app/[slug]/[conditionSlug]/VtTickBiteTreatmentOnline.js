@@ -313,7 +313,7 @@ export default function VtTickBiteTreatmentOnline() {
                       Reviewed by <a href={PHYSICIAN.bioUrl}>{PHYSICIAN.name}</a> — Board-Certified {PHYSICIAN.specialty} (American Board of Family Medicine)
                     </span>
                     <span className="tdmd-vt-cond__byline-meta">
-                      NPI {PHYSICIAN.npi} · Vermont Medical License #{PHYSICIAN.licenseNumber} (<a href="https://secure.professionals.healthvermont.gov/PROD/PORTAL/PRLicenseSearch/SearchPage" rel="noopener" target="_blank">verify</a>) · Last reviewed June 4, 2026
+                      NPI {PHYSICIAN.npi} · Vermont Medical License #{PHYSICIAN.licenseNumber} (<a href="https://www.healthvermont.gov/systems/board-medical-practice/look-health-professional" rel="noopener" target="_blank">verify</a>) · Last reviewed June 4, 2026
                     </span>
                   </div>
                 </div>
@@ -479,7 +479,7 @@ export default function VtTickBiteTreatmentOnline() {
             <h2>What TeleDirectMD Provides — and What It Costs</h2>
             <p>A single $79 video visit with a Vermont-licensed family medicine physician covers the full tick-bite workflow:</p>
             <ul>
-              <li>Same-day video visit with a Vermont-licensed physician (Vermont Medical License #042.0040345-COMP &mdash; <a href="https://secure.professionals.healthvermont.gov/PROD/PORTAL/PRLicenseSearch/SearchPage" rel="noopener" target="_blank">verify via the VT Board</a>)</li>
+              <li>Same-day video visit with a Vermont-licensed physician (Vermont Medical License #042.0040345-COMP &mdash; <a href="https://www.healthvermont.gov/systems/board-medical-practice/look-health-professional" rel="noopener" target="_blank">verify via the VT Board</a>)</li>
               <li>Tick photo review and a clear post-exposure prophylaxis eligibility decision</li>
               <li>Single-dose doxycycline e-prescription to your Vermont pharmacy when the four IDSA criteria are met</li>
               <li>Empirical early-Lyme treatment when a bull&apos;s-eye rash or constitutional symptoms are present</li>

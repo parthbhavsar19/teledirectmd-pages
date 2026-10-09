@@ -462,7 +462,6 @@ export default function RemoteWorkersPage() {
             <li><a href="https://www.goodrx.com/healthcare-access/telehealth/how-much-does-telehealth-cost" rel="nofollow noopener" target="_blank">How Much Does a Telehealth Visit Cost? — GoodRx</a></li>
             <li><a href="https://www.kff.org/uninsured/issue-brief/key-facts-about-the-uninsured-population/" rel="nofollow noopener" target="_blank">Key Facts About the Uninsured Population — KFF</a></li>
             <li><a href="https://www.bls.gov/news.release/atus.nr0.htm" rel="nofollow noopener" target="_blank">American Time Use Survey — U.S. Bureau of Labor Statistics</a></li>
-            <li><a href="https://www.upwork.com/press/releases/upwork-study-finds-36-of-the-us-workforce-freelance-amid-digital-revolution" rel="nofollow noopener" target="_blank">Future Workforce Report — Upwork</a></li>
           </ul>
         </div>
       </section>

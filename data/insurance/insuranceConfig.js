@@ -54,7 +54,7 @@ export const INSURERS = {
     memberPortals: {
       AZ: "https://www.azblue.com/member",
       CA: "https://www.anthem.com/ca/",
-      FL: "https://member.floridablue.com",
+      FL: "https://www.floridablue.com/",
       GA: "https://www.anthem.com/find-care/",
       IL: "https://www.bcbsil.com/member",
       MI: "https://www.bcbsm.com/member",

@@ -456,7 +456,7 @@ export default function GigWorkersPage() {
           <h2>References</h2>
           <ul className="tdmd-ref-list">
             <li><a href="https://www.stridehealth.com/blog/gig-economy-health-insurance-statistics" rel="nofollow noopener" target="_blank">Gig Economy Health Insurance Statistics — Stride Health</a></li>
-            <li><a href="https://www.upwork.com/press/releases/upwork-study-finds-36-of-the-us-workforce-freelance-amid-digital-revolution" rel="nofollow noopener" target="_blank">Freelancing in America: 36% of U.S. Workforce Freelances — Upwork / Freelancers Union</a></li>
+            <li><a href="https://www.upwork.com/press/releases/new-upwork-study-finds-36-of-the-us-workforce-freelance-amid-the-covid-19-pandemic" rel="nofollow noopener" target="_blank">Upwork Freelance Forward 2020: 36% of the U.S. Workforce Freelance</a></li>
             <li><a href="https://pubmed.ncbi.nlm.nih.gov/32149940/" rel="nofollow noopener" target="_blank">Acute Musculoskeletal Pain Reported Among Rideshare Drivers in the H.I.N.G.E. Pilot Study, J Occup Environ Med 2020 (PubMed)</a></li>
             <li><a href="https://pubmed.ncbi.nlm.nih.gov/40662947/" rel="nofollow noopener" target="_blank">Platform-Mediated Gig Work and Health: A Scoping Review, Am J Ind Med 2025 (PubMed)</a></li>
             <li><a href="https://www.pennmedicine.org/news/study-finds-telemedicine-visits-cost-far-less-than-office-visits" rel="nofollow noopener" target="_blank">Study finds telemedicine visits cost far less than office visits — Penn Medicine</a></li>

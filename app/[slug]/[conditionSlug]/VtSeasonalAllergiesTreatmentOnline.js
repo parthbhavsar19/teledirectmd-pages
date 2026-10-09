@@ -263,7 +263,7 @@ export default function VtSeasonalAllergiesTreatmentOnline() {
                       Reviewed by <a href={PHYSICIAN.bioUrl}>{PHYSICIAN.name}</a> — Board-Certified {PHYSICIAN.specialty}
                     </span>
                     <span className="tdmd-vt-uti__byline-meta">
-                      NPI {PHYSICIAN.npi} · Vermont Medical License #042.0040345-COMP (<a href="https://secure.professionals.healthvermont.gov/PROD/PORTAL/PRLicenseSearch/SearchPage" rel="noopener" target="_blank">verify</a>) · Last reviewed{' '}
+                      NPI {PHYSICIAN.npi} · Vermont Medical License #042.0040345-COMP (<a href="https://www.healthvermont.gov/systems/board-medical-practice/look-health-professional" rel="noopener" target="_blank">verify</a>) · Last reviewed{' '}
                       <time dateTime={DATE_MODIFIED}>{new Date(DATE_MODIFIED).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</time>
                     </span>
                   </div>
@@ -617,11 +617,11 @@ export default function VtSeasonalAllergiesTreatmentOnline() {
               <li><a href="https://legislature.vermont.gov/statutes/fullchapter/26/023" rel="noopener" target="_blank">26 V.S.A. Chapter 23 (Vermont Medical Practice Act)</a>. Retrieved May 2026.</li>
               <li><a href="https://legislature.vermont.gov/statutes/section/18/219/09361" rel="noopener" target="_blank">18 V.S.A. § 9361 (Vermont telemedicine prescribing)</a>. Retrieved May 2026.</li>
               <li><a href="https://www.healthvermont.gov/systems/board-medical-practice" rel="noopener" target="_blank">Vermont Board of Medical Practice</a>. Retrieved May 2026.</li>
-              <li><a href="https://www.ariaguidelines.com/" rel="noopener" target="_blank">ARIA 2016 Revision GRADE Guideline — Allergic Rhinitis</a>. Retrieved May 2026.</li>
+              <li>Brożek JL, Bousquet J, Agache I, et al. <a href="https://pubmed.ncbi.nlm.nih.gov/28602936/" rel="noopener" target="_blank">Allergic Rhinitis and its Impact on Asthma (ARIA) guidelines-2016 revision</a>. J Allergy Clin Immunol. 2017.</li>
               <li><a href="https://www.aaaai.org/conditions-treatments/allergies/hay-fever-rhinitis" rel="noopener" target="_blank">AAAAI — Allergic Rhinitis (Hay Fever) Overview</a>. Retrieved May 2026.</li>
               <li><a href="https://acaai.org/allergies/allergic-conditions/hay-fever/" rel="noopener" target="_blank">ACAAI — Hay Fever (Allergic Rhinitis)</a>. Retrieved May 2026.</li>
               <li><a href="https://www.wyndly.com/blogs/allergy-season/vermont" rel="noopener" target="_blank">Wyndly — Vermont Allergy Season Guide and Pollen Calendar</a>. Retrieved May 2026.</li>
-              <li><a href="https://www.ariaguidelines.com/" rel="noopener" target="_blank">ARIA-EAACI Guidelines — Allergic Rhinitis and Its Impact on Asthma</a>. Retrieved May 2026.</li>
+              <li>Sousa-Pinto B, Bousquet J, Vieira RJ, et al. <a href="https://pubmed.ncbi.nlm.nih.gov/41324154/" rel="noopener" target="_blank">Allergic Rhinitis and Its Impact on Asthma (ARIA)-EAACI Guidelines-2024-2025 Revision: Part I-Guidelines on Intranasal Treatments</a>. Allergy. 2026.</li>
             </ol>
           </div>
         </section>
