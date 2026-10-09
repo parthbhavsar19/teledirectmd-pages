@@ -191,7 +191,7 @@ export default function TermsOfService() {
 
         <h1>Terms of Service</h1>
         <p className="tos-meta">
-          Effective Date: September 28, 2026 &nbsp;|&nbsp; TeleDirectMD, operated by Dr. Parth Bhavsar, M.D.
+          Effective Date: October 8, 2026 &nbsp;|&nbsp; TeleDirectMD (Mahavir Health Services LLC)
         </p>
 
         <div className="tos-notice tos-notice--warning">
@@ -236,9 +236,10 @@ export default function TermsOfService() {
           <h3>1.1 Agreement</h3>
           <p>
             These Terms of Service ("Terms") constitute a legally binding agreement between you and
-            TeleDirectMD ("TeleDirectMD," "we," "us," or "our"), a telehealth practice operated by
-            Dr. Parth Bhavsar, M.D., Board-Certified in Family Medicine, located in Alpharetta,
-            Georgia. By accessing teledirectmd.com (the "Site") or using any services made available
+            Mahavir Health Services LLC ("TeleDirectMD," "we," "us," or "our"), which operates the
+            TeleDirectMD telehealth practice located in Alpharetta, Georgia, whose medical services
+            are provided by Dr. Parth Bhavsar, M.D., Board-Certified in Family Medicine. By
+            accessing teledirectmd.com (the "Site") or using any services made available
             through the Site (collectively, the "Services"), you agree to be bound by these Terms and
             all documents incorporated herein by reference, including our{' '}
             <a href="/privacy-policy/">Privacy Policy</a>,{' '}
@@ -275,7 +276,7 @@ export default function TermsOfService() {
             You must be physically located within a state or jurisdiction where TeleDirectMD is
             authorized to provide telehealth services at the <strong>time of your visit</strong>
             —not merely at the time of booking. TeleDirectMD currently serves patients in 40+ states
-            plus the District of Columbia (44 jurisdictions total). Geographic coverage may change;
+            plus the District of Columbia. Geographic coverage may change;
             please verify current coverage at{' '}
             <a href="/states-we-serve/">teledirectmd.com/states-we-serve</a> before scheduling.
           </p>
@@ -514,13 +515,22 @@ export default function TermsOfService() {
             scheduled visit time without penalty. To cancel or reschedule, contact us at{' '}
             <a href="mailto:contact@teledirectmd.com">contact@teledirectmd.com</a> or{' '}
             <a href="tel:+16789561855">(678) 956-1855</a> before the applicable deadline.
-            Cancellations made within 2 hours of the visit may result in forfeiture of the visit fee
-            at TeleDirectMD&apos;s discretion.
+            For self-pay visits, cancellations made within 2 hours of the visit may result in
+            forfeiture of the visit fee at TeleDirectMD&apos;s discretion. For visits billed to
+            insurance, see Section 8.2.
           </p>
           <h3>8.2 No-Shows</h3>
           <p>
-            If you fail to appear for a scheduled visit without prior cancellation, the full visit
-            fee is forfeited. No refund will be issued for no-shows.
+            <strong>Self-pay visits:</strong> if you fail to appear for a scheduled visit without
+            prior cancellation, the full visit fee is forfeited. No refund will be issued for
+            no-shows.
+          </p>
+          <p>
+            <strong>Visits billed to insurance:</strong> the card you provide at booking is held to
+            reserve the visit and is not charged for the visit itself. A $25 fee is charged only if
+            you do not appear for the visit or cancel within 1 hour of the scheduled time. Amounts
+            owed under your plan, such as copays, coinsurance or deductibles, are billed separately
+            as described in Section 7.3.
           </p>
           <h3>8.3 General Refund Policy</h3>
           <p>
@@ -919,7 +929,8 @@ export default function TermsOfService() {
           <div className="tos-contact-block">
             <p><strong>TeleDirectMD</strong></p>
             <p>
-              Operated by Dr. Parth Bhavsar, M.D., Board-Certified Family Medicine<br />
+              Mahavir Health Services LLC<br />
+              Medical services provided by Dr. Parth Bhavsar, M.D., Board-Certified Family Medicine<br />
               Alpharetta, Georgia
             </p>
             <p>
@@ -946,7 +957,7 @@ export default function TermsOfService() {
 
         <p className="tos-meta" style={{ marginTop: '1.5rem' }}>
           &copy; {new Date().getFullYear()} TeleDirectMD. All rights reserved.
-          These Terms of Service were last updated April 16, 2026.
+          These Terms of Service were last updated October 8, 2026.
         </p>
 
       </div>
