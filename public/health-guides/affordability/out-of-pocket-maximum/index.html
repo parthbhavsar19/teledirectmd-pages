@@ -474,6 +474,7 @@ sup a:hover { text-decoration: underline; }
 .tdmd-article-figure img { width: 100%; height: auto; border-radius: var(--tdmd-radius); display: block; }
 .tdmd-article-figure figcaption { font-size: 0.85rem; color: var(--tdmd-muted); text-align: center; margin-top: 0.5rem; line-height: 1.5; }
 </style>
+<link rel="stylesheet" href="/health-guides/affordability/affordability.css">
 </head>
 <body>
 <script src="/health-guides/dark-mode.js"></script>
@@ -498,7 +499,7 @@ sup a:hover { text-decoration: underline; }
  </div>
 </nav>
 
-<main>
+<main class="aff-guide">
 <div class="tdmd-container">
 <nav class="tdmd-breadcrumb" aria-label="Breadcrumb">
 <a href="https://teledirectmd.com">Home</a><span>&rsaquo;</span>
@@ -529,13 +530,11 @@ sup a:hover { text-decoration: underline; }
 </div>
 
 <div class="tdmd-container">
-<div class="tdmd-content-grid">
+<div class="tdmd-content-grid aff-layout">
 <article class="tdmd-article-body">
 <figure class="tdmd-article-figure">
-<img src="images/hero-out-of-pocket-maximum.jpg" alt="Editorial illustration for What Is an Out-of-Pocket Maximum?" width="1200" height="800" loading="lazy">
-<figcaption>What Is an Out-of-Pocket Maximum?: an evidence-based overview from the TeleDirectMD medical team.</figcaption>
+<img src="images/hero-out-of-pocket-maximum.jpg" alt="" width="1200" height="800" loading="lazy">
 </figure>
-<p>An out-of-pocket maximum is the most you have to pay out of your own money for covered, in-network care in a plan year. Once your deductibles, copays, and coinsurance add up to that number, your health plan pays 100% of your covered benefits for the rest of the year. It is the financial safety net built into every Affordable Care Act-compliant plan.</p>
 <div class="tdmd-key-points"><h3>Key Takeaways</h3><ul>
 <li>The out-of-pocket maximum is the yearly ceiling on what you pay for covered in-network care (HealthCare.gov<sup><a href="#ref-1" id="cite-1">[1]</a></sup>).</li>
 <li>The 2026 limit is no more than $10,600 for an individual and $21,200 for a family, rising to $12,000 and $24,000 in 2027.</li>
@@ -561,6 +560,7 @@ sup a:hover { text-decoration: underline; }
 <p>The deductible is the amount you pay before your plan starts paying for most services. The out-of-pocket maximum is the total ceiling on everything you pay all year. The deductible is a mile marker along the way; the out-of-pocket maximum is the finish line.</p>
 <p>In practice, the deductible is almost always smaller than the out-of-pocket maximum. You pay your deductible first, then keep paying copays and coinsurance, and only when the sum reaches the out-of-pocket maximum does the plan take over at 100%.</p>
 <p>A concrete example: a plan with a $3,000 deductible and 20% coinsurance. On a year with $12,000 of allowed costs, you pay the $3,000 deductible plus 20% of the remaining $9,000, or $1,800, for $4,800, which is still below that example plan's $6,850 out-of-pocket maximum (HealthCare.gov<sup><a href="#ref-3" id="cite-3">[3]</a></sup>). The maximum only becomes relevant in an expensive year.</p>
+<figure class="aff-figure"><figcaption id="oop-fig-title" style="margin:0 0 0.75rem;font-weight:600;color:#003e52;font-size:0.95rem">Same plan, two very different years</figcaption><svg viewBox="0 0 720 200" role="img" aria-labelledby="oop-fig-title"><line x1="300.7" y1="12" x2="300.7" y2="192" stroke="#ff5a36" stroke-width="2" stroke-dasharray="5 4"/><text x="300.7" y="16" font-size="13" fill="#ff5a36" text-anchor="middle" font-weight="600">Your cap: $6,850</text><text x="0" y="52" font-size="14" fill="#003e52" font-weight="600">$12,000 year</text><rect x="150.0" y="30" width="66.0" height="34" rx="4" fill="#003e52"/><rect x="216.0" y="30" width="39.6" height="34" rx="4" fill="#006b73"/><rect x="255.6" y="30" width="158.4" height="34" rx="4" fill="#9fc9cc"/><text x="334.8" y="52" font-size="13" fill="#fff" text-anchor="middle" font-weight="600">Plan pays $7,200</text><text x="150" y="82" font-size="13" fill="#4b5f66">You pay $4,800. The cap is never reached.</text><text x="0" y="132" font-size="14" fill="#003e52" font-weight="600">$25,000 year</text><rect x="150.0" y="110" width="66.0" height="34" rx="4" fill="#003e52"/><rect x="216.0" y="110" width="84.7" height="34" rx="4" fill="#006b73"/><text x="258.4" y="132" font-size="13" fill="#fff" text-anchor="middle" font-weight="600">$3,850</text><rect x="300.7" y="110" width="399.3" height="34" rx="4" fill="#9fc9cc"/><text x="500.4" y="132" font-size="13" fill="#fff" text-anchor="middle" font-weight="600">Plan pays $18,150</text><text x="150" y="162" font-size="13" fill="#4b5f66">You pay $6,850, the cap. Without it, you would have paid $7,400.</text></svg><p style="display:flex;flex-wrap:wrap;gap:1rem;margin:0.5rem 0 0;font-size:0.85rem"><span><span aria-hidden="true" style="display:inline-block;width:0.8rem;height:0.8rem;border-radius:3px;background:#003e52;margin-right:0.35rem;vertical-align:-1px"></span>Your deductible</span><span><span aria-hidden="true" style="display:inline-block;width:0.8rem;height:0.8rem;border-radius:3px;background:#006b73;margin-right:0.35rem;vertical-align:-1px"></span>Your coinsurance</span><span><span aria-hidden="true" style="display:inline-block;width:0.8rem;height:0.8rem;border-radius:3px;background:#9fc9cc;margin-right:0.35rem;vertical-align:-1px"></span>Plan pays</span></p><figcaption>Illustration using the example plan above: $3,000 deductible, 20% coinsurance, $6,850 out-of-pocket maximum, covered in-network care only. Premiums are not included.</figcaption></figure>
 <h2 id="how-family-plans-work">How family plans work</h2>
 <p>On a family plan, there are two limits: a per-person individual limit and a family limit. Since 2016, federal rules require family plans to embed an individual out-of-pocket maximum so that no single family member can be charged more than the individual limit, even if the family as a whole has not reached the family amount (U.S. Departments of Labor, HHS, and the Treasury<sup><a href="#ref-5" id="cite-5">[5]</a></sup>). In 2026 that federal individual limit is $10,600 (HealthCare.gov<sup><a href="#ref-1" id="cite-1">[1]</a></sup>).</p>
 <p>A plan can be structured two ways, and the distinction matters if more than one family member needs care:</p>
@@ -574,40 +574,23 @@ sup a:hover { text-decoration: underline; }
 <h2 id="why-it-matters-for-planning">Why it matters for planning</h2>
 <p>The out-of-pocket maximum is the number to use when you are weighing a plan or bracing for an expensive year. It tells you the worst-case cost for covered care, which makes it useful for comparing a high-premium, low-limit plan against a low-premium, high-limit plan. It also resets every plan year, so a plan that fits you now may not fit after the limits reset in January.</p>
 <h2 id="frequently-asked-questions">Frequently asked questions</h2>
-<p><strong>What is the difference between a deductible and an out-of-pocket maximum?</strong>
-The deductible is what you pay before insurance starts paying. The out-of-pocket maximum is the most you pay all year before insurance covers 100% (HealthCare.gov<sup><a href="#ref-1" id="cite-1">[1]</a></sup>).</p>
-<p><strong>What is the out-of-pocket maximum for 2026?</strong>
-No more than $10,600 for an individual and $21,200 for a family, per HealthCare.gov<sup><a href="#ref-1" id="cite-1">[1]</a></sup>. It rises to $12,000 and $24,000 in 2027.</p>
-<p><strong>Do copays and coinsurance count toward the out-of-pocket maximum?</strong>
-Yes. Deductibles, copays, and coinsurance for covered in-network care all count. Premiums, out-of-network care, and uncovered services do not (HealthCare.gov<sup><a href="#ref-2" id="cite-2">[2]</a></sup>).</p>
-<p><strong>What happens when I reach my out-of-pocket maximum?</strong>
-Your plan pays 100% of covered in-network services for the rest of the plan year.</p>
-<p><strong>Does the out-of-pocket maximum reset?</strong>
-Yes, it resets each plan year, usually on January 1.</p>
-<p><strong>Does my premium count toward the out-of-pocket maximum?</strong>
-No. The premium is separate, and you pay it whether or not you use care (HealthCare.gov<sup><a href="#ref-2" id="cite-2">[2]</a></sup>).</p>
-<p><strong>What is an embedded out-of-pocket maximum?</strong>
-A per-person limit inside a family plan, so that no single family member pays more than the individual limit even before the family total is reached (U.S. Departments of Labor, HHS, and the Treasury<sup><a href="#ref-5" id="cite-5">[5]</a></sup>).</p>
-<p><strong>Does Medicare have an out-of-pocket maximum?</strong>
-Original Medicare does not, which is why many people buy a Medigap policy to cover open-ended coinsurance (Urban Institute<sup><a href="#ref-4" id="cite-4">[4]</a></sup>).</p>
-<p><strong>Does out-of-network care count toward my out-of-pocket maximum?</strong>
-Generally no. Only covered in-network care counts, so out-of-network care can cost far more than the maximum (HealthCare.gov<sup><a href="#ref-2" id="cite-2">[2]</a></sup>).</p>
-<hr />
-<p>This is patient education, not financial or legal advice. Figures are tied to their primary sources and year, and change every plan year. Reviewed October 11, 2026.</p>
-<h2 id="sources">Sources</h2>
-<ul>
-<li>HealthCare.gov, Out-of-pocket maximum/limit<sup><a href="#ref-1" id="cite-1">[1]</a></sup></li>
-<li>HealthCare.gov, Out-of-pocket costs<sup><a href="#ref-2" id="cite-2">[2]</a></sup></li>
-<li>HealthCare.gov, Coinsurance<sup><a href="#ref-3" id="cite-3">[3]</a></sup></li>
-<li>Urban Institute, Adding a Maximum Out-of-Pocket Cap to Medicare Part A and Part B<sup><a href="#ref-4" id="cite-4">[4]</a></sup></li>
-<li>U.S. Departments of Labor, HHS, and the Treasury, FAQs About Affordable Care Act Implementation (Part XXVII), May 26, 2015<sup><a href="#ref-5" id="cite-5">[5]</a></sup></li>
-</ul>
+<details class="aff-faq"><summary>What is the difference between a deductible and an out-of-pocket maximum?</summary><div><p>The deductible is what you pay before insurance starts paying. The out-of-pocket maximum is the most you pay all year before insurance covers 100% (HealthCare.gov<sup><a href="#ref-1" id="cite-1">[1]</a></sup>).</p></div></details>
+<details class="aff-faq"><summary>What is the out-of-pocket maximum for 2026?</summary><div><p>No more than $10,600 for an individual and $21,200 for a family, per HealthCare.gov<sup><a href="#ref-1" id="cite-1">[1]</a></sup>. It rises to $12,000 and $24,000 in 2027.</p></div></details>
+<details class="aff-faq"><summary>Do copays and coinsurance count toward the out-of-pocket maximum?</summary><div><p>Yes. Deductibles, copays, and coinsurance for covered in-network care all count. Premiums, out-of-network care, and uncovered services do not (HealthCare.gov<sup><a href="#ref-2" id="cite-2">[2]</a></sup>).</p></div></details>
+<details class="aff-faq"><summary>What happens when I reach my out-of-pocket maximum?</summary><div><p>Your plan pays 100% of covered in-network services for the rest of the plan year.</p></div></details>
+<details class="aff-faq"><summary>Does the out-of-pocket maximum reset?</summary><div><p>Yes, it resets each plan year, usually on January 1.</p></div></details>
+<details class="aff-faq"><summary>Does my premium count toward the out-of-pocket maximum?</summary><div><p>No. The premium is separate, and you pay it whether or not you use care (HealthCare.gov<sup><a href="#ref-2" id="cite-2">[2]</a></sup>).</p></div></details>
+<details class="aff-faq"><summary>What is an embedded out-of-pocket maximum?</summary><div><p>A per-person limit inside a family plan, so that no single family member pays more than the individual limit even before the family total is reached (U.S. Departments of Labor, HHS, and the Treasury<sup><a href="#ref-5" id="cite-5">[5]</a></sup>).</p></div></details>
+<details class="aff-faq"><summary>Does Medicare have an out-of-pocket maximum?</summary><div><p>Original Medicare does not, which is why many people buy a Medigap policy to cover open-ended coinsurance (Urban Institute<sup><a href="#ref-4" id="cite-4">[4]</a></sup>).</p></div></details>
+<details class="aff-faq"><summary>Does out-of-network care count toward my out-of-pocket maximum?</summary><div><p>Generally no. Only covered in-network care counts, so out-of-network care can cost far more than the maximum (HealthCare.gov<sup><a href="#ref-2" id="cite-2">[2]</a></sup>).</p></div></details>
+<p class="aff-note">This is patient education, not financial or legal advice. Figures are tied to their primary sources and year, and change every plan year. Reviewed October 11, 2026.</p>
+<section class="aff-next" aria-labelledby="keep-reading"><h2 id="keep-reading">Keep reading</h2><div class="aff-next-grid"><a href="/health-guides/affordability/copay-vs-coinsurance-vs-deductible/"><img src="/health-guides/affordability/copay-vs-coinsurance-vs-deductible/images/thumb-copay-vs-coinsurance-vs-deductible.webp" alt="" loading="lazy" width="640" height="427"><span>Copay vs Coinsurance vs Deductible<small>How the three terms stack together</small></span></a><a href="/health-guides/affordability/what-is-coinsurance/"><img src="/health-guides/affordability/what-is-coinsurance/images/thumb-what-is-coinsurance.webp" alt="" loading="lazy" width="640" height="427"><span>What Is Coinsurance?<small>The percentage you pay after your deductible</small></span></a><a href="/health-guides/affordability/why-insured-cannot-afford-care/"><img src="/health-guides/affordability/why-insured-cannot-afford-care/images/thumb-why-insured-cannot-afford-care.webp" alt="" loading="lazy" width="640" height="427"><span>Why Insured Patients Still Cannot Afford Care<small>Why coverage is not the same as affordability</small></span></a></div></section>
 
-<div class="tdmd-references" id="references"><h2>References</h2><ol><li id="ref-1"><a href="https://www.healthcare.gov/glossary/out-of-pocket-maximum-limit/" target="_blank" rel="noopener noreferrer">https://www.healthcare.gov/glossary/out-of-pocket-maximum-limit/</a></li>
-<li id="ref-2"><a href="https://www.healthcare.gov/glossary/out-of-pocket-costs/" target="_blank" rel="noopener noreferrer">https://www.healthcare.gov/glossary/out-of-pocket-costs/</a></li>
-<li id="ref-3"><a href="https://www.healthcare.gov/glossary/co-insurance/" target="_blank" rel="noopener noreferrer">https://www.healthcare.gov/glossary/co-insurance/</a></li>
-<li id="ref-4"><a href="https://www.urban.org/sites/default/files/2026-06/Adding_a_Maximum_Out-of-Pocke_Cap_to_Medicare_Part_A_and_Part_B.pdf" target="_blank" rel="noopener noreferrer">https://www.urban.org/sites/default/files/2026-06/Adding_a_Maximum_Out-of-Pocke_Cap_to_Medicare_Part_A_and_Part_B.pdf</a></li>
-<li id="ref-5"><a href="https://www.cms.gov/cciio/resources/fact-sheets-and-faqs/downloads/aca-faqs-part-xxvii-moop-2706-final.pdf" target="_blank" rel="noopener noreferrer">https://www.cms.gov/cciio/resources/fact-sheets-and-faqs/downloads/aca-faqs-part-xxvii-moop-2706-final.pdf</a></li></ol></div>
+<div class="tdmd-references" id="references"><h2>Sources</h2><ol><li id="ref-1"><a href="https://www.healthcare.gov/glossary/out-of-pocket-maximum-limit/" target="_blank" rel="noopener noreferrer">HealthCare.gov, Out-of-pocket maximum/limit</a> <span class="aff-ref-host">healthcare.gov</span></li>
+<li id="ref-2"><a href="https://www.healthcare.gov/glossary/out-of-pocket-costs/" target="_blank" rel="noopener noreferrer">HealthCare.gov, Out-of-pocket costs</a> <span class="aff-ref-host">healthcare.gov</span></li>
+<li id="ref-3"><a href="https://www.healthcare.gov/glossary/co-insurance/" target="_blank" rel="noopener noreferrer">HealthCare.gov, Coinsurance</a> <span class="aff-ref-host">healthcare.gov</span></li>
+<li id="ref-4"><a href="https://www.urban.org/sites/default/files/2026-06/Adding_a_Maximum_Out-of-Pocke_Cap_to_Medicare_Part_A_and_Part_B.pdf" target="_blank" rel="noopener noreferrer">Urban Institute, Adding a Maximum Out-of-Pocket Cap to Medicare Part A and Part B</a> <span class="aff-ref-host">urban.org</span></li>
+<li id="ref-5"><a href="https://www.cms.gov/cciio/resources/fact-sheets-and-faqs/downloads/aca-faqs-part-xxvii-moop-2706-final.pdf" target="_blank" rel="noopener noreferrer">U.S. Departments of Labor, HHS, and the Treasury, FAQs About Affordable Care Act Implementation (Part XXVII), May 26, 2015</a> <span class="aff-ref-host">cms.gov</span></li></ol></div>
 
 <!-- Author Bio -->
 <div class="tdmd-author-bio">
@@ -621,6 +604,7 @@ Generally no. Only covered in-network care counts, so out-of-network care can co
 </div>
 
 </article>
+<aside class="aff-rail" aria-labelledby="aff-rail-title"><h2 id="aff-rail-title">On this page</h2><ol><li><a href="#what-counts-toward-it-and-what-does-not">What counts toward it, and what does not</a></li><li><a href="#the-2026-and-2027-limits">The 2026 and 2027 limits</a></li><li><a href="#out-of-pocket-maximum-versus-deductible">Out-of-pocket maximum versus deductible</a></li><li><a href="#how-family-plans-work">How family plans work</a></li><li><a href="#the-medicare-exception">The Medicare exception</a></li><li><a href="#why-it-matters-for-planning">Why it matters for planning</a></li><li><a href="#frequently-asked-questions">Common questions</a></li><li><a href="#references">Sources</a></li></ol><a class="aff-rail-back" href="/health-guides/affordability/">All Paying for Care guides</a></aside>
 </div>
 </div>
 
