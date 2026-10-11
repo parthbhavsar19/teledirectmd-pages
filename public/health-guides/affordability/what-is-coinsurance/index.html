@@ -474,6 +474,7 @@ sup a:hover { text-decoration: underline; }
 .tdmd-article-figure img { width: 100%; height: auto; border-radius: var(--tdmd-radius); display: block; }
 .tdmd-article-figure figcaption { font-size: 0.85rem; color: var(--tdmd-muted); text-align: center; margin-top: 0.5rem; line-height: 1.5; }
 </style>
+<link rel="stylesheet" href="/health-guides/affordability/affordability.css">
 </head>
 <body>
 <script src="/health-guides/dark-mode.js"></script>
@@ -498,7 +499,7 @@ sup a:hover { text-decoration: underline; }
  </div>
 </nav>
 
-<main>
+<main class="aff-guide">
 <div class="tdmd-container">
 <nav class="tdmd-breadcrumb" aria-label="Breadcrumb">
 <a href="https://teledirectmd.com">Home</a><span>&rsaquo;</span>
@@ -529,13 +530,11 @@ sup a:hover { text-decoration: underline; }
 </div>
 
 <div class="tdmd-container">
-<div class="tdmd-content-grid">
+<div class="tdmd-content-grid aff-layout">
 <article class="tdmd-article-body">
 <figure class="tdmd-article-figure">
-<img src="images/hero-what-is-coinsurance.jpg" alt="Editorial illustration for What Is Coinsurance?" width="1200" height="800" loading="lazy">
-<figcaption>What Is Coinsurance?: an evidence-based overview from the TeleDirectMD medical team.</figcaption>
+<img src="images/hero-what-is-coinsurance.jpg" alt="" width="1200" height="800" loading="lazy">
 </figure>
-<p>Coinsurance is the percentage you pay for a covered health care service after you have met your deductible. If your plan says "20% coinsurance," you pay 20% of the allowed amount and your plan pays 80%, but only after you have satisfied your deductible. Before that, you pay the full allowed amount yourself.</p>
 <div class="tdmd-key-points"><h3>Key Takeaways</h3><ul>
 <li>Coinsurance is a percentage share of a covered service's allowed amount, defined by HealthCare.gov<sup><a href="#ref-1" id="cite-1">[1]</a></sup>.</li>
 <li>It starts only after you meet your deductible. Before that, you pay the full allowed amount.</li>
@@ -635,6 +634,7 @@ sup a:hover { text-decoration: underline; }
 <p>Here is a complete year, using the example figures HealthCare.gov<sup><a href="#ref-1" id="cite-1">[1]</a></sup> provides. Suppose your covered costs for the year total $12,000, your deductible is $3,000, and your coinsurance is 20%.</p>
 <p>First you pay the $3,000 deductible. That leaves $9,000. You pay 20% of that remaining $9,000, which is $1,800, and the plan pays the other $7,200. Your total for the year is $4,800, the deductible plus your coinsurance share.</p>
 <p>If your plan's out-of-pocket maximum is reached along the way, the plan takes over at 100% and your spending stops there.</p>
+<figure class="aff-figure"><figcaption id="coin-fig-title" style="margin:0 0 0.75rem;font-weight:600;color:#003e52;font-size:0.95rem">Where $12,000 of covered costs goes</figcaption><svg viewBox="0 0 720 120" role="img" aria-labelledby="coin-fig-title"><text x="0" y="52" font-size="14" fill="#003e52" font-weight="600">Who pays</text><rect x="150.0" y="30" width="137.5" height="34" rx="4" fill="#003e52"/><text x="218.8" y="52" font-size="13" fill="#fff" text-anchor="middle" font-weight="600">$3,000</text><rect x="287.5" y="30" width="82.5" height="34" rx="4" fill="#006b73"/><text x="328.8" y="52" font-size="13" fill="#fff" text-anchor="middle" font-weight="600">$1,800</text><rect x="370.0" y="30" width="330.0" height="34" rx="4" fill="#9fc9cc"/><text x="535.0" y="52" font-size="13" fill="#fff" text-anchor="middle" font-weight="600">Plan pays $7,200</text><text x="150" y="82" font-size="13" fill="#4b5f66">Your total: $4,800 of $12,000 (deductible plus 20% of the remaining $9,000).</text></svg><p style="display:flex;flex-wrap:wrap;gap:1rem;margin:0.5rem 0 0;font-size:0.85rem"><span><span aria-hidden="true" style="display:inline-block;width:0.8rem;height:0.8rem;border-radius:3px;background:#003e52;margin-right:0.35rem;vertical-align:-1px"></span>Your deductible</span><span><span aria-hidden="true" style="display:inline-block;width:0.8rem;height:0.8rem;border-radius:3px;background:#006b73;margin-right:0.35rem;vertical-align:-1px"></span>Your 20% coinsurance</span><span><span aria-hidden="true" style="display:inline-block;width:0.8rem;height:0.8rem;border-radius:3px;background:#9fc9cc;margin-right:0.35rem;vertical-align:-1px"></span>Plan pays 80%</span></p><figcaption>Illustration of the HealthCare.gov example: $3,000 deductible, then 20% coinsurance. Premiums are not included.</figcaption></figure>
 <h2 id="coinsurance-and-your-out-of-pocket-maximum">Coinsurance and your out-of-pocket maximum</h2>
 <p>Your coinsurance payments count toward your out-of-pocket maximum, alongside your deductible and copays. The 2026 limit for a Marketplace plan is no more than $10,600 for an individual and $21,200 for a family, rising to $12,000 and $24,000 in 2027<sup><a href="#ref-3" id="cite-3">[3]</a></sup>. Once your deductible, copays, and coinsurance for in-network covered care add up to that number, your plan pays 100% of covered services for the rest of the year.</p>
 <p>The out-of-pocket maximum is the safety net that makes coinsurance manageable on a bad year. A 20% share of a $200,000 hospital admission would be $40,000 on its own, but the out-of-pocket maximum caps it well below that.</p>
@@ -661,44 +661,25 @@ sup a:hover { text-decoration: underline; }
 <li>Not checking whether the coinsurance applies in or out of network. Out-of-network care usually costs much more and may not count toward the out-of-pocket maximum.</li>
 </ul>
 <h2 id="frequently-asked-questions">Frequently asked questions</h2>
-<p><strong>What does coinsurance mean on my health insurance?</strong>
-Coinsurance is the percentage of a covered service you pay after meeting your deductible, defined by HealthCare.gov<sup><a href="#ref-1" id="cite-1">[1]</a></sup>. A 20% coinsurance means you pay 20% and the plan pays 80%.</p>
-<p><strong>What does 20% coinsurance mean?</strong>
-You pay 20% of the allowed amount for a covered service, and the plan pays 80%. On a $100 visit you pay $20. The 20% starts only after you meet your deductible.</p>
-<p><strong>Do I pay coinsurance before or after my deductible?</strong>
-After. Until you meet your deductible you generally pay the full allowed amount. Coinsurance begins once the deductible is met (HealthCare.gov<sup><a href="#ref-1" id="cite-1">[1]</a></sup>).</p>
-<p><strong>What is coinsurance after deductible?</strong>
-It is your percentage share of each covered service once the deductible is satisfied. If your coinsurance is 20%, you pay 20% of each service's allowed amount and the plan pays 80% (HealthCare.gov<sup><a href="#ref-1" id="cite-1">[1]</a></sup>).</p>
-<p><strong>Is coinsurance better than a copay?</strong>
-Neither is universally better. A copay is predictable, which is safer on expensive care. Coinsurance scales with cost, so it is cheaper on cheap care and heavier on expensive care.</p>
-<p><strong>What is the difference between a deductible and coinsurance?</strong>
-The deductible is the upfront amount you pay before the plan pays anything. Coinsurance is the percentage you pay after meeting the deductible (HealthCare.gov<sup><a href="#ref-2" id="cite-2">[2]</a></sup>).</p>
-<p><strong>What is the difference between a deductible and an out-of-pocket maximum?</strong>
-The deductible is what you pay before the plan starts paying. The out-of-pocket maximum is the most you pay all year for covered in-network care, after which the plan pays 100% (HealthCare.gov<sup><a href="#ref-3" id="cite-3">[3]</a></sup>).</p>
-<p><strong>What is Medicare Part B coinsurance?</strong>
-For most Part B services, you pay 20% of the Medicare-approved amount after meeting the $283 annual deductible in 2026<sup><a href="#ref-4" id="cite-4">[4]</a></sup>. Original Medicare has no out-of-pocket maximum.</p>
-<p><strong>Does coinsurance count toward my out-of-pocket maximum?</strong>
-Yes. Deductibles, copays, and coinsurance for covered in-network care all count. Premiums, out-of-network care, and uncovered services do not (HealthCare.gov<sup><a href="#ref-6" id="cite-6">[6]</a></sup>).</p>
-<p><strong>Why did my bill show I owe the full amount instead of 20%?</strong>
-Because you likely had not yet met your deductible. Before the deductible is met, you pay the full allowed amount rather than just your coinsurance share (HealthCare.gov<sup><a href="#ref-1" id="cite-1">[1]</a></sup>).</p>
-<hr />
-<p>This is patient education, not financial or legal advice. Figures are tied to their primary sources and year, because deductibles, coinsurance, and out-of-pocket limits change every plan year. Reviewed October 11, 2026.</p>
-<h2 id="sources">Sources</h2>
-<ul>
-<li>HealthCare.gov, Coinsurance<sup><a href="#ref-1" id="cite-1">[1]</a></sup></li>
-<li>HealthCare.gov, Deductible<sup><a href="#ref-2" id="cite-2">[2]</a></sup></li>
-<li>HealthCare.gov, Out-of-pocket maximum/limit<sup><a href="#ref-3" id="cite-3">[3]</a></sup></li>
-<li>HealthCare.gov, Out-of-pocket costs<sup><a href="#ref-6" id="cite-6">[6]</a></sup></li>
-<li>Medicare.gov, Medicare costs<sup><a href="#ref-4" id="cite-4">[4]</a></sup></li>
-<li>Medicare.gov, What does Medicare cost<sup><a href="#ref-5" id="cite-5">[5]</a></sup></li>
-</ul>
+<details class="aff-faq"><summary>What does coinsurance mean on my health insurance?</summary><div><p>Coinsurance is the percentage of a covered service you pay after meeting your deductible, defined by HealthCare.gov<sup><a href="#ref-1" id="cite-1">[1]</a></sup>. A 20% coinsurance means you pay 20% and the plan pays 80%.</p></div></details>
+<details class="aff-faq"><summary>What does 20% coinsurance mean?</summary><div><p>You pay 20% of the allowed amount for a covered service, and the plan pays 80%. On a $100 visit you pay $20. The 20% starts only after you meet your deductible.</p></div></details>
+<details class="aff-faq"><summary>Do I pay coinsurance before or after my deductible?</summary><div><p>After. Until you meet your deductible you generally pay the full allowed amount. Coinsurance begins once the deductible is met (HealthCare.gov<sup><a href="#ref-1" id="cite-1">[1]</a></sup>).</p></div></details>
+<details class="aff-faq"><summary>What is coinsurance after deductible?</summary><div><p>It is your percentage share of each covered service once the deductible is satisfied. If your coinsurance is 20%, you pay 20% of each service's allowed amount and the plan pays 80% (HealthCare.gov<sup><a href="#ref-1" id="cite-1">[1]</a></sup>).</p></div></details>
+<details class="aff-faq"><summary>Is coinsurance better than a copay?</summary><div><p>Neither is universally better. A copay is predictable, which is safer on expensive care. Coinsurance scales with cost, so it is cheaper on cheap care and heavier on expensive care.</p></div></details>
+<details class="aff-faq"><summary>What is the difference between a deductible and coinsurance?</summary><div><p>The deductible is the upfront amount you pay before the plan pays anything. Coinsurance is the percentage you pay after meeting the deductible (HealthCare.gov<sup><a href="#ref-2" id="cite-2">[2]</a></sup>).</p></div></details>
+<details class="aff-faq"><summary>What is the difference between a deductible and an out-of-pocket maximum?</summary><div><p>The deductible is what you pay before the plan starts paying. The out-of-pocket maximum is the most you pay all year for covered in-network care, after which the plan pays 100% (HealthCare.gov<sup><a href="#ref-3" id="cite-3">[3]</a></sup>).</p></div></details>
+<details class="aff-faq"><summary>What is Medicare Part B coinsurance?</summary><div><p>For most Part B services, you pay 20% of the Medicare-approved amount after meeting the $283 annual deductible in 2026<sup><a href="#ref-4" id="cite-4">[4]</a></sup>. Original Medicare has no out-of-pocket maximum.</p></div></details>
+<details class="aff-faq"><summary>Does coinsurance count toward my out-of-pocket maximum?</summary><div><p>Yes. Deductibles, copays, and coinsurance for covered in-network care all count. Premiums, out-of-network care, and uncovered services do not (HealthCare.gov<sup><a href="#ref-6" id="cite-6">[6]</a></sup>).</p></div></details>
+<details class="aff-faq"><summary>Why did my bill show I owe the full amount instead of 20%?</summary><div><p>Because you likely had not yet met your deductible. Before the deductible is met, you pay the full allowed amount rather than just your coinsurance share (HealthCare.gov<sup><a href="#ref-1" id="cite-1">[1]</a></sup>).</p></div></details>
+<p class="aff-note">This is patient education, not financial or legal advice. Figures are tied to their primary sources and year, because deductibles, coinsurance, and out-of-pocket limits change every plan year. Reviewed October 11, 2026.</p>
+<section class="aff-next" aria-labelledby="keep-reading"><h2 id="keep-reading">Keep reading</h2><div class="aff-next-grid"><a href="/health-guides/affordability/copay-vs-coinsurance-vs-deductible/"><img src="/health-guides/affordability/copay-vs-coinsurance-vs-deductible/images/thumb-copay-vs-coinsurance-vs-deductible.webp" alt="" loading="lazy" width="640" height="427"><span>Copay vs Coinsurance vs Deductible<small>How the three terms stack together</small></span></a><a href="/health-guides/affordability/out-of-pocket-maximum/"><img src="/health-guides/affordability/out-of-pocket-maximum/images/thumb-out-of-pocket-maximum.webp" alt="" loading="lazy" width="640" height="427"><span>What Is an Out-of-Pocket Maximum?<small>The yearly cap on covered care</small></span></a><a href="/health-guides/affordability/what-is-an-eob/"><img src="/health-guides/affordability/what-is-an-eob/images/thumb-what-is-an-eob.webp" alt="" loading="lazy" width="640" height="427"><span>What Is an EOB?<small>Reading an explanation of benefits</small></span></a></div></section>
 
-<div class="tdmd-references" id="references"><h2>References</h2><ol><li id="ref-1"><a href="https://www.healthcare.gov/glossary/co-insurance/" target="_blank" rel="noopener noreferrer">https://www.healthcare.gov/glossary/co-insurance/</a></li>
-<li id="ref-2"><a href="https://www.healthcare.gov/glossary/deductible/" target="_blank" rel="noopener noreferrer">https://www.healthcare.gov/glossary/deductible/</a></li>
-<li id="ref-3"><a href="https://www.healthcare.gov/glossary/out-of-pocket-maximum-limit/" target="_blank" rel="noopener noreferrer">https://www.healthcare.gov/glossary/out-of-pocket-maximum-limit/</a></li>
-<li id="ref-4"><a href="https://www.medicare.gov/basics/costs/medicare-costs" target="_blank" rel="noopener noreferrer">https://www.medicare.gov/basics/costs/medicare-costs</a></li>
-<li id="ref-5"><a href="https://www.medicare.gov/basics/get-started-with-medicare/medicare-basics/what-does-medicare-cost" target="_blank" rel="noopener noreferrer">https://www.medicare.gov/basics/get-started-with-medicare/medicare-basics/what-does-medicare-cost</a></li>
-<li id="ref-6"><a href="https://www.healthcare.gov/glossary/out-of-pocket-costs/" target="_blank" rel="noopener noreferrer">https://www.healthcare.gov/glossary/out-of-pocket-costs/</a></li></ol></div>
+<div class="tdmd-references" id="references"><h2>Sources</h2><ol><li id="ref-1"><a href="https://www.healthcare.gov/glossary/co-insurance/" target="_blank" rel="noopener noreferrer">HealthCare.gov, Coinsurance</a> <span class="aff-ref-host">healthcare.gov</span></li>
+<li id="ref-2"><a href="https://www.healthcare.gov/glossary/deductible/" target="_blank" rel="noopener noreferrer">HealthCare.gov, Deductible</a> <span class="aff-ref-host">healthcare.gov</span></li>
+<li id="ref-3"><a href="https://www.healthcare.gov/glossary/out-of-pocket-maximum-limit/" target="_blank" rel="noopener noreferrer">HealthCare.gov, Out-of-pocket maximum/limit</a> <span class="aff-ref-host">healthcare.gov</span></li>
+<li id="ref-4"><a href="https://www.medicare.gov/basics/costs/medicare-costs" target="_blank" rel="noopener noreferrer">Medicare.gov, Medicare costs</a> <span class="aff-ref-host">medicare.gov</span></li>
+<li id="ref-5"><a href="https://www.medicare.gov/basics/get-started-with-medicare/medicare-basics/what-does-medicare-cost" target="_blank" rel="noopener noreferrer">Medicare.gov, What does Medicare cost</a> <span class="aff-ref-host">medicare.gov</span></li>
+<li id="ref-6"><a href="https://www.healthcare.gov/glossary/out-of-pocket-costs/" target="_blank" rel="noopener noreferrer">HealthCare.gov, Out-of-pocket costs</a> <span class="aff-ref-host">healthcare.gov</span></li></ol></div>
 
 <!-- Author Bio -->
 <div class="tdmd-author-bio">
@@ -712,6 +693,7 @@ Because you likely had not yet met your deductible. Before the deductible is met
 </div>
 
 </article>
+<aside class="aff-rail" aria-labelledby="aff-rail-title"><h2 id="aff-rail-title">On this page</h2><ol><li><a href="#what-coinsurance-means">What coinsurance means</a></li><li><a href="#coinsurance-deductible-copay-and-premium-the-four-pieces">Coinsurance, deductible, copay, and premium: the four pieces</a></li><li><a href="#how-coinsurance-works-after-your-deductible">How coinsurance works after your deductible</a></li><li><a href="#common-coinsurance-splits-worked-out">Common coinsurance splits, worked out</a></li><li><a href="#a-full-year-worked-through">A full year, worked through</a></li><li><a href="#coinsurance-and-your-out-of-pocket-maximum">Coinsurance and your out-of-pocket maximum</a></li><li><a href="#coinsurance-in-real-situations">Coinsurance in real situations</a></li><li><a href="#medicare-coinsurance">Medicare coinsurance</a></li><li><a href="#common-mistakes-people-make">Common mistakes people make</a></li><li><a href="#frequently-asked-questions">Common questions</a></li><li><a href="#references">Sources</a></li></ol><a class="aff-rail-back" href="/health-guides/affordability/">All Paying for Care guides</a></aside>
 </div>
 </div>
 
