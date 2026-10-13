@@ -160,7 +160,7 @@ const REVIEWS_CSS = `
   .rv-filter{display:flex;flex-wrap:wrap;justify-content:center;gap:10px;margin-bottom:30px;}
   .rv-pill{border:1px solid var(--tdmd-border);background:var(--tdmd-card);color:var(--tdmd-text);border-radius:999px;padding:8px 18px;font-size:0.9rem;font-weight:600;cursor:pointer;transition:all 0.15s;font-family:inherit;}
   .rv-pill:hover{border-color:var(--tdmd-teal);color:var(--tdmd-teal);}
-  .rv-pill.is-active{background:var(--tdmd-teal);border-color:var(--tdmd-teal);color:#fff;}
+  .rv-pill.is-active{background:var(--tdmd-teal);border-color:var(--tdmd-teal);color:var(--tdmd-on-teal);}
   .rv-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:18px;}
   .rv-card{background:var(--tdmd-card);border:1px solid var(--tdmd-border);border-radius:14px;padding:22px 20px;display:flex;flex-direction:column;gap:10px;}
   .rv-card[hidden]{display:none;}

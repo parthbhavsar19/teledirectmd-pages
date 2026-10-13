@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useRef } from 'react';
 import mediaMentionsData from '../../data/media-mentions.json';
+import { darkCSS } from '../../lib/dark-css';
 
 // Logo class mapping
 const LOGO_CLASS_MAP = {
@@ -531,7 +532,23 @@ const CSS = `
   .tdmd-media__controls { flex-direction: column; align-items: stretch; }
   .tdmd-media__search { max-width: 100%; }
 }
-`;
+` + darkCSS(`
+/* Dark theme: swap the page palette; publication logos (dark ink on
+   transparent) sit on light tiles so they stay legible. */
+DARK .tdmd-media{
+  --teal:#2bc4cf;--teal-dark:#5fd6de;--teal-light:#173a40;--teal-mist:#0f1f24;
+  --navy:#e2edf0;--navy-deep:#a0d8e8;--orange-soft:#2c1a14;
+  --slate:#b4c6cd;--slate-light:#9fb6bf;--warm-white:#0a171c;--bone:#0f1f24;
+  --card-bg:#122028;--text-primary:#e2edf0;--text-secondary:#b4c6cd;--border:#2b4652;
+  --shadow-sm:0 1px 3px rgba(0,0,0,0.4);--shadow-md:0 4px 16px rgba(0,0,0,0.45);
+  --shadow-lg:0 8px 32px rgba(0,0,0,0.5);--shadow-hover:0 12px 40px rgba(0,0,0,0.55);
+}
+DARK .tdmd-media__logobar::before{background:linear-gradient(90deg,#0a171c 0%,transparent 100%);}
+DARK .tdmd-media__logobar::after{background:linear-gradient(270deg,#0a171c 0%,transparent 100%);}
+DARK .tdmd-media__logobar-item{background:#f4f6f7;padding:8px 16px;border-radius:10px;}
+DARK .tdmd-media__logobar-item img{opacity:0.85;}
+DARK .tdmd-media__filter-btn:hover,DARK .tdmd-media__filter-btn.active,DARK .tdmd-media__cta{color:#04252b;}
+`);
 
 // Count-up animation hook
 function useCountUp(target, isNumeric, triggered) {

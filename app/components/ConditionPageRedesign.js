@@ -5,6 +5,7 @@
 // Static-export safe. Schema/JSON-LD stays in the parent page.
 
 import { AGGREGATE_RATING_VALUE, TOTAL_REVIEW_COUNT } from '../../lib/review-schema';
+import { cprDarkCSS } from '../../lib/redesign-dark-styles';
 
 const GOLD = '#E8A33D';
 
@@ -207,6 +208,7 @@ export default function ConditionPageRedesign({
         .cpr-video-frame video{display:block;width:100%;aspect-ratio:9/16;object-fit:cover;background:#012f3e;}
         .cpr-video-copy h2{margin:0 0 .5rem;}
         @media(min-width:761px){.cpr-video-grid{grid-template-columns:1fr 360px;}.cpr-video-frame{max-width:360px;margin:0 0 0 auto;}}
+        ${cprDarkCSS}
       `}</style>
 
       {/* HERO */}

@@ -5,6 +5,7 @@
 
 import { contentDate } from '../../lib/content-dates';
 import { AGGREGATE_RATING_VALUE, TOTAL_REVIEW_COUNT } from '../../lib/review-schema';
+import { cxrDarkCSS } from '../../lib/redesign-dark-styles';
 
 const GOLD = '#E8A33D';
 
@@ -168,6 +169,7 @@ export default function CostPageRedesign({ cfg, relatedCost = [], comparePages =
         .cxr-close{background:linear-gradient(160deg,#01465a,#065f6b);color:#fff;border-radius:22px;padding:2.5rem;text-align:center;}
         .cxr-close h2{color:#fff;font-size:clamp(1.6rem,3.3vw,2.2rem);margin:0 0 .5rem;}
         .cxr-close p{color:#d7ebee;font-size:1.03rem;margin:0 0 1.5rem;}
+        ${cxrDarkCSS}
       `}</style>
 
       {/* HERO */}

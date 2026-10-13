@@ -13,9 +13,11 @@ const NAV_LINKS = [
   { label: 'Reviews', href: '/reviews/' },
 ];
 
-/* Sun icon for dark mode (click to switch to light) */
+/* Both icons are rendered; CSS shows the moon in light mode and the sun in
+   dark mode based on <html data-theme>, so the right icon shows on first
+   paint, before React hydrates. */
 const SunIcon = () => (
-  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+  <svg className="tdmd-icon-sun" aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
     <circle cx="12" cy="12" r="5" />
     <line x1="12" y1="1" x2="12" y2="3" />
     <line x1="12" y1="21" x2="12" y2="23" />
@@ -28,16 +30,26 @@ const SunIcon = () => (
   </svg>
 );
 
-/* Moon icon for light mode (click to switch to dark) */
 const MoonIcon = () => (
-  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+  <svg className="tdmd-icon-moon" aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
     <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
   </svg>
 );
 
+// The visitor's saved choice ('dark' | 'light'), or null to follow the system.
+function readStoredTheme() {
+  try {
+    const t = localStorage.getItem('tdmd-theme');
+    if (t === 'dark' || t === 'light') return t;
+    const legacy = localStorage.getItem('tdmd-dark-mode');
+    if (legacy === 'true') return 'dark';
+    if (legacy === 'false') return 'light';
+  } catch (e) { /* storage blocked */ }
+  return null;
+}
+
 export default function SiteHeader() {
   const [menuOpen, setMenuOpen] = useState(false);
-  const [theme, setTheme] = useState('system');
   const [isDark, setIsDark] = useState(false);
   const burgerRef = useRef(null);
   const menuRef = useRef(null);
@@ -80,36 +92,59 @@ export default function SiteHeader() {
     return () => document.removeEventListener('keydown', onKey);
   }, [menuOpen]);
 
-  // Initialize theme from localStorage
+  // The inline script in app/layout.js has already set <html data-theme>
+  // (saved choice, else system preference). Read it back here, follow system
+  // changes while the visitor has not chosen, and follow other open tabs.
   useEffect(() => {
-    const stored = localStorage.getItem('tdmd-theme');
-    if (stored === 'dark' || stored === 'light') {
-      setTheme(stored);
-      document.documentElement.setAttribute('data-theme', stored);
-      setIsDark(stored === 'dark');
-    } else {
-      // system default
-      const mq = window.matchMedia('(prefers-color-scheme: dark)');
-      setIsDark(mq.matches);
-      const handler = (e) => setIsDark(e.matches);
-      mq.addEventListener('change', handler);
-      return () => mq.removeEventListener('change', handler);
+    const root = document.documentElement;
+    const mq = window.matchMedia ? window.matchMedia('(prefers-color-scheme: dark)') : null;
+    const stored = () => readStoredTheme();
+    const apply = (t) => { root.setAttribute('data-theme', t); setIsDark(t === 'dark'); };
+    apply(stored() || root.getAttribute('data-theme') || (mq && mq.matches ? 'dark' : 'light'));
+    const onSystem = (e) => { if (!stored()) apply(e.matches ? 'dark' : 'light'); };
+    const onStorage = (e) => {
+      if (e.key !== 'tdmd-theme') return;
+      apply(stored() || (mq && mq.matches ? 'dark' : 'light'));
+    };
+    if (mq) {
+      if (mq.addEventListener) mq.addEventListener('change', onSystem);
+      else if (mq.addListener) mq.addListener(onSystem);
     }
+    window.addEventListener('storage', onStorage);
+    return () => {
+      if (mq) {
+        if (mq.removeEventListener) mq.removeEventListener('change', onSystem);
+        else if (mq.removeListener) mq.removeListener(onSystem);
+      }
+      window.removeEventListener('storage', onStorage);
+    };
   }, []);
 
   const toggleTheme = () => {
-    const next = isDark ? 'light' : 'dark';
-    setTheme(next);
+    const next = document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
     setIsDark(next === 'dark');
     document.documentElement.setAttribute('data-theme', next);
-    localStorage.setItem('tdmd-theme', next);
+    try {
+      localStorage.setItem('tdmd-theme', next);
+      localStorage.setItem('tdmd-dark-mode', String(next === 'dark'));
+    } catch (e) { /* storage blocked: the choice lasts for this page only */ }
+  };
+
+  const toggleProps = {
+    type: 'button',
+    className: 'tdmd-theme-toggle',
+    onClick: toggleTheme,
+    'aria-label': 'Dark mode',
+    'aria-pressed': isDark,
+    title: isDark ? 'Switch to light mode' : 'Switch to dark mode',
   };
 
   return (
     <header className="tdmd-site-header">
       <div className="tdmd-header-inner">
         <a href="/" className="tdmd-header-logo">
-          <img src="/logo.webp" alt="TeleDirectMD" width="180" height="76" fetchPriority="high" />
+          <img className="tdmd-logo-light" src="/logo.webp" alt="TeleDirectMD" width="180" height="76" fetchPriority="high" />
+          <img className="tdmd-logo-dark" src="/brand/tdmd-logo-white-400.png" alt="TeleDirectMD" width="180" height="76" loading="lazy" />
         </a>
 
         <nav className="tdmd-header-nav-desktop" aria-label="Main navigation">
@@ -120,13 +155,9 @@ export default function SiteHeader() {
           ))}
         </nav>
 
-        <button
-          className="tdmd-theme-toggle"
-          onClick={toggleTheme}
-          aria-label={isDark ? 'Switch to light mode' : 'Switch to dark mode'}
-          title={isDark ? 'Switch to light mode' : 'Switch to dark mode'}
-        >
-          {isDark ? <SunIcon /> : <MoonIcon />}
+        <button {...toggleProps}>
+          <MoonIcon />
+          <SunIcon />
         </button>
 
         <a href="/book-online/" className="tdmd-header-cta-desktop">Book Now</a>
@@ -160,7 +191,8 @@ export default function SiteHeader() {
           <div id="tdmd-mobile-menu" ref={menuRef} className="tdmd-mobile-menu" role="dialog" aria-modal="true" aria-label="Menu" onClick={e => e.stopPropagation()}>
             <div className="tdmd-mobile-menu-top">
               <a href="/" className="tdmd-header-logo">
-                <img src="/logo.webp" alt="TeleDirectMD" width="160" height="67" />
+                <img className="tdmd-logo-light" src="/logo.webp" alt="TeleDirectMD" width="160" height="67" />
+                <img className="tdmd-logo-dark" src="/brand/tdmd-logo-white-400.png" alt="TeleDirectMD" width="160" height="67" loading="lazy" />
               </a>
               <button
                 className="tdmd-hamburger"
@@ -181,16 +213,12 @@ export default function SiteHeader() {
               ))}
             </nav>
             <div style={{ display: 'flex', alignItems: 'center', gap: '1rem', marginTop: '1.5rem' }}>
-              <button
-                className="tdmd-theme-toggle"
-                onClick={toggleTheme}
-                aria-label={isDark ? 'Switch to light mode' : 'Switch to dark mode'}
-                style={{ width: '2.75rem', height: '2.75rem' }}
-              >
-                {isDark ? <SunIcon /> : <MoonIcon />}
+              <button {...toggleProps} aria-label={undefined} aria-labelledby="tdmd-theme-toggle-label" style={{ width: '2.75rem', height: '2.75rem' }}>
+                <MoonIcon />
+                <SunIcon />
               </button>
-              <span style={{ color: 'var(--tdmd-muted)', fontSize: '0.95rem' }}>
-                {isDark ? 'Light mode' : 'Dark mode'}
+              <span id="tdmd-theme-toggle-label" style={{ color: 'var(--tdmd-muted)', fontSize: '0.95rem' }}>
+                Dark mode
               </span>
             </div>
             <a href="/book-online/" className="tdmd-mobile-cta" onClick={() => setMenuOpen(false)}>Book Now</a>

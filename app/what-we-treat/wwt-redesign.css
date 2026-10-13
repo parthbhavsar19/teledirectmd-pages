@@ -284,3 +284,40 @@
   .wwt-group-head { flex-wrap:wrap; }
   .wwt-group-head .wwt-n { margin-left:0; width:100%; }
 }
+
+/* Dark theme (site toggle, or the system setting when no choice is saved).
+   The hero and stat bands are already dark; the light browse, insurance and
+   closing sections move to the site's dark surfaces. Teal stays deep so white
+   button labels keep 5.4:1; teal links go light. */
+:root[data-theme="dark"] .wwt-root {
+  --wwt-ink:#e2edf0; --wwt-ink-2:#c5d5db; --wwt-muted:#a3b9c1; --wwt-line:#2b4652; --wwt-line-soft:#223a44;
+  --wwt-teal:#0b7680; --wwt-teal-dark:#0e8f99; --wwt-paper:#122028; --wwt-bg:#0a171c; --wwt-sand:#16262e;
+}
+:root[data-theme="dark"] .wwt-root .wwt-toolbar { background:rgba(10,23,28,.94); }
+:root[data-theme="dark"] .wwt-root .wwt-search input,
+:root[data-theme="dark"] .wwt-root .wwt-chip,
+:root[data-theme="dark"] .wwt-root .wwt-ins,
+:root[data-theme="dark"] .wwt-root .wwt-badges span { background:#122028; }
+:root[data-theme="dark"] .wwt-root .wwt-chip[aria-pressed="true"] { background:#e2edf0; border-color:#e2edf0; color:#0a171c; }
+:root[data-theme="dark"] .wwt-root .wwt-link:hover,
+:root[data-theme="dark"] .wwt-root .wwt-linky,
+:root[data-theme="dark"] .wwt-root .wwt-ins-all a { color:#2bc4cf; }
+:root[data-theme="dark"] .wwt-root .wwt-card:hover { box-shadow:0 16px 34px -22px rgba(0,0,0,.7); }
+:root[data-theme="dark"] .wwt-root .wwt-payer:hover { box-shadow:0 12px 28px -18px rgba(0,0,0,.7); }
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .wwt-root {
+    --wwt-ink:#e2edf0; --wwt-ink-2:#c5d5db; --wwt-muted:#a3b9c1; --wwt-line:#2b4652; --wwt-line-soft:#223a44;
+    --wwt-teal:#0b7680; --wwt-teal-dark:#0e8f99; --wwt-paper:#122028; --wwt-bg:#0a171c; --wwt-sand:#16262e;
+  }
+  :root:not([data-theme="light"]) .wwt-root .wwt-toolbar { background:rgba(10,23,28,.94); }
+  :root:not([data-theme="light"]) .wwt-root .wwt-search input,
+  :root:not([data-theme="light"]) .wwt-root .wwt-chip,
+  :root:not([data-theme="light"]) .wwt-root .wwt-ins,
+  :root:not([data-theme="light"]) .wwt-root .wwt-badges span { background:#122028; }
+  :root:not([data-theme="light"]) .wwt-root .wwt-chip[aria-pressed="true"] { background:#e2edf0; border-color:#e2edf0; color:#0a171c; }
+  :root:not([data-theme="light"]) .wwt-root .wwt-link:hover,
+  :root:not([data-theme="light"]) .wwt-root .wwt-linky,
+  :root:not([data-theme="light"]) .wwt-root .wwt-ins-all a { color:#2bc4cf; }
+  :root:not([data-theme="light"]) .wwt-root .wwt-card:hover { box-shadow:0 16px 34px -22px rgba(0,0,0,.7); }
+  :root:not([data-theme="light"]) .wwt-root .wwt-payer:hover { box-shadow:0 12px 28px -18px rgba(0,0,0,.7); }
+}

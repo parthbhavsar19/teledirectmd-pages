@@ -109,7 +109,7 @@ const IV_STYLES = `
   /* Buttons — coral primary CTA, slate/white outline */
   .tdmd-intl-redesign .tdmd-btn{font-family:var(--iv-body);padding:0.75rem 1.6rem;}
   .tdmd-intl-redesign .tdmd-btn-primary{
-    background:var(--tdmd-accent);color:#ffffff;
+    background:var(--tdmd-accent);color:var(--tdmd-on-accent);
     box-shadow:0 8px 20px rgba(255,90,54,0.32);
   }
   .tdmd-intl-redesign .tdmd-btn-primary:hover{background:#e8492a;}

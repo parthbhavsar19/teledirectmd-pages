@@ -1,6 +1,8 @@
 // Employer pages — scoped CSS that extends the existing tdmd-* design system
 // Typography mirrors /what-we-treat: Fraunces (display) + DM Sans (body)
 // loaded from Google Fonts inline so we don't depend on layout.js changes.
+import { darkCSS } from '../../lib/dark-css';
+
 export const employersCSS = `
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:wght@500;600;700&display=swap');
 
@@ -831,4 +833,18 @@ export const employersCSS = `
     color: var(--tdmd-text);
   }
 }
-`;
+` + darkCSS(`
+/* Dark theme additions: the navy token turns light in dark mode, so boxes
+   that are filled with it get a fixed deep color; filled buttons get dark
+   labels. */
+DARK .tdmd-emp-section--teal{background:#0f3a4a;}
+DARK .tdmd-emp-hero{background:linear-gradient(180deg,#0f1f24 0%,#0a171c 100%);}
+DARK .tdmd-emp-tab:not([aria-selected="true"]){background:#122028;}
+DARK .tdmd-emp-btn--primary,DARK .tdmd-emp-step::before,DARK .tdmd-emp-feecard{color:#1a0b06;}
+DARK .tdmd-emp-btn--outline:hover,DARK .tdmd-emp-tab[aria-selected="true"],DARK .tdmd-emp-pathbtn[aria-selected="true"],DARK .tdmd-emp-resource-icon{color:#04252b;}
+DARK .tdmd-emp-compare th{background:#0f3a4a;color:#ffffff;}
+DARK .tdmd-emp-compare th:first-child{background:#0a2a36;}
+DARK .tdmd-emp-compare th.tdmd-emp-us{background:#ff5a36;color:#1a0b06;}
+DARK .tdmd-emp-pricecard,DARK .tdmd-emp-form-wrap{border-color:#2b4652;box-shadow:0 16px 40px rgba(0,0,0,0.45);}
+DARK .tdmd-emp-compliance{border-top-color:#2b5866;}
+`);

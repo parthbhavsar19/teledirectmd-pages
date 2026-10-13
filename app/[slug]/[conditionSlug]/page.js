@@ -105,6 +105,7 @@ import { summarizeConditionState, citableSummaryToJsonLd } from '../../../lib/ci
 // causing all `stateTpl && (...)` guards below to render NOTHING — pages fall
 // back to current generic behavior. See data/state-templates/_schema.md.
 import { loadStateTemplate, getConditionOverride, mergeFaqs } from '../../../lib/state-template';
+import { cprDarkCSS } from '../../../lib/redesign-dark-styles';
 
 export async function generateStaticParams() {
   const states = getStates();
@@ -602,6 +603,7 @@ export default async function ConditionPage({ params }) {
           .cpr-hero-hcard-cta{display:block;width:100%;box-sizing:border-box;margin:1.15rem 0 0;padding:.85rem 1.25rem;border-radius:999px;background:var(--teal);color:#fff;font-weight:800;font-size:1rem;text-align:center;text-decoration:none;box-shadow:0 8px 22px rgba(0,107,115,.30);transition:background .15s,transform .15s;}
           .cpr-hero-hcard-cta:hover,.cpr-hero-hcard-cta:focus{background:var(--navy);transform:translateY(-1px);color:#fff;}
           .cpr-hero-hcard-note{margin:.6rem 0 0;font-size:.8rem;color:var(--muted);text-align:center;}
+        ${cprDarkCSS}
         `}</style>
         <section className="cpr-hero" id={`${pid}-hero`}>
           <div className="cpr-hero-wrap cpr-hero-grid">

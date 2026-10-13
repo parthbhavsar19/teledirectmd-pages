@@ -3,6 +3,21 @@ import Script from 'next/script';
 import { getAggregateRating, getReviewBlock } from '../../lib/review-schema';
 import { CitableSummaryBlock } from '../components/CitableSummary';
 import { summarizeAbout, citableSummaryToJsonLd } from '../../lib/citable-summary';
+import { darkCSS } from '../../lib/dark-css';
+
+// Dark theme for the about page. The navy hero, name section and CTA keep
+// their color; light sections and cards move to the site's dark surfaces.
+const ABOUT_DARK_CSS = darkCSS(`
+  DARK{--text-primary:#e2edf0;--text-secondary:#c5d5db;--gray-600:#a9bec6;--gray-400:#9fb6bf;--gray-200:#2b4652;
+    --teal:#3fcfbf;--teal-light:#7fe3d6;--teal-glow:rgba(63,207,191,.14);}
+  DARK .tdm-bio,DARK .tdm-credentials,DARK .tdm-reviews{background:#0a171c;}
+  DARK .tdm-origin,DARK .tdm-trust,DARK .tdm-media{background:#0f1f24;}
+  DARK .tdm-faq,DARK .tdm-video{background:#0d1c22;}
+  DARK .tdm-callout,DARK .tdm-trust-card,DARK .tdm-faq-item,DARK .tdm-cred-item,DARK .tdm-review-card{background:#122028;border-color:#2b4652;}
+  DARK .tdm-callout,DARK .tdm-trust-card{box-shadow:0 2px 12px rgba(0,0,0,.35);}
+  DARK .tdm-media-marquee a{background:#f4f6f7;box-shadow:none;}
+  DARK .tdm-name-section,DARK .tdm-hero,DARK .tdm-cta{color:#fff;}
+`);
 
 const jsonLd = {
   '@context': 'https://schema.org',
@@ -112,7 +127,7 @@ export default function AboutPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <style dangerouslySetInnerHTML={{ __html: ABOUT_CSS }} />
+      <style dangerouslySetInnerHTML={{ __html: ABOUT_CSS + ABOUT_DARK_CSS }} />
       <div dangerouslySetInnerHTML={{ __html: BODY_HTML }} />
     </>
   );
