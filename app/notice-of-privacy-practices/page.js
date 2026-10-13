@@ -12,13 +12,13 @@ export default function NoticeOfPrivacyPractices() {
   return (
     <div style={{ maxWidth: 800, margin: '0 auto', padding: '40px 24px 80px' }}>
       <h1 style={{ fontSize: '2rem', fontWeight: 700, color: '#1a1a1a', marginBottom: 8 }}>Notice of Privacy Practices</h1>
-      <p style={{ color: '#666', fontSize: '0.95rem', marginBottom: 8 }}>Effective date: July 18, 2026</p>
+      <p style={{ color: '#666', fontSize: '0.95rem', marginBottom: 8 }}>Effective date: October 13, 2026</p>
       <p style={{ fontWeight: 700, fontSize: '0.92rem', textTransform: 'uppercase', letterSpacing: '0.04em', color: '#1a1a1a', margin: '16px 0 24px' }}>
         This notice describes how medical information about you may be used and disclosed and how you can get access to this information. Please review it carefully.
       </p>
 
       <section style={{ lineHeight: 1.8, color: '#333', fontSize: '1rem' }}>
-        <p>TeleDirectMD (&ldquo;we,&rdquo; &ldquo;our,&rdquo; or &ldquo;the Practice&rdquo;) is committed to protecting the privacy of your health information. This Notice of Privacy Practices describes how we may use and disclose your protected health information (PHI) and your rights regarding that information. We are required by law to maintain the privacy of your PHI, provide you with this Notice, notify you following a breach of unsecured PHI, and abide by the terms of this Notice currently in effect.</p>
+        <p>TeleDirectMD, a trade name of Mahavir Health Services LLC (&ldquo;we,&rdquo; &ldquo;our,&rdquo; or &ldquo;the Practice&rdquo;), is committed to protecting the privacy of your health information. This Notice of Privacy Practices describes how we may use and disclose your protected health information (PHI) and your rights regarding that information. We are required by law to maintain the privacy of your PHI, provide you with this Notice, notify you following a breach of unsecured PHI, and abide by the terms of this Notice currently in effect.</p>
         <p>TeleDirectMD provides telehealth services across multiple U.S. states. This Notice applies to all PHI created or received by TeleDirectMD regardless of the state in which you are located at the time of your visit. Where state law provides greater privacy protections than federal HIPAA requirements, we follow the more protective standard.</p>
 
         <h2 style={s.h2}>How We May Use and Disclose Your Health Information</h2>
@@ -77,6 +77,7 @@ export default function NoticeOfPrivacyPractices() {
         <p>If you believe your privacy rights have been violated, you may file a complaint with TeleDirectMD or with the U.S. Department of Health and Human Services, Office for Civil Rights. You will not be retaliated against for filing a complaint.</p>
         <p style={{ marginTop: 8 }}>
           <strong>TeleDirectMD Privacy Officer</strong><br />
+          Mahavir Health Services LLC<br />
           Phone: <a href="tel:+16789561855" style={{ color: '#1a7f7f' }}>(678) 956-1855</a><br />
           Email: <a href="mailto:contact@teledirectmd.com" style={{ color: '#1a7f7f' }}>contact@teledirectmd.com</a>
         </p>

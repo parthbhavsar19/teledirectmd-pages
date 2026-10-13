@@ -191,7 +191,7 @@ export default function TermsOfService() {
 
         <h1>Terms of Service</h1>
         <p className="tos-meta">
-          Effective Date: October 8, 2026 &nbsp;|&nbsp; TeleDirectMD (Mahavir Health Services LLC)
+          Effective Date: October 13, 2026 &nbsp;|&nbsp; TeleDirectMD is a trade name of Mahavir Health Services LLC
         </p>
 
         <div className="tos-notice tos-notice--warning">
@@ -236,10 +236,9 @@ export default function TermsOfService() {
           <h3>1.1 Agreement</h3>
           <p>
             These Terms of Service ("Terms") constitute a legally binding agreement between you and
-            Mahavir Health Services LLC ("TeleDirectMD," "we," "us," or "our"), which operates the
-            TeleDirectMD telehealth practice located in Alpharetta, Georgia, whose medical services
-            are provided by Dr. Parth Bhavsar, M.D., Board-Certified in Family Medicine. By
-            accessing teledirectmd.com (the "Site") or using any services made available
+            Mahavir Health Services LLC, doing business as TeleDirectMD ("TeleDirectMD," "we," "us,"
+            or "our"), a telehealth practice whose medical director is Parth Bhavsar, MD,
+            Board-Certified in Family Medicine, located in Alpharetta, Georgia. By accessing teledirectmd.com (the "Site") or using any services made available
             through the Site (collectively, the "Services"), you agree to be bound by these Terms and
             all documents incorporated herein by reference, including our{' '}
             <a href="/privacy-policy/">Privacy Policy</a>,{' '}
@@ -929,8 +928,8 @@ export default function TermsOfService() {
           <div className="tos-contact-block">
             <p><strong>TeleDirectMD</strong></p>
             <p>
-              Mahavir Health Services LLC<br />
-              Medical services provided by Dr. Parth Bhavsar, M.D., Board-Certified Family Medicine<br />
+              Mahavir Health Services LLC, doing business as TeleDirectMD<br />
+              Medical Director: Parth Bhavsar, MD, Board-Certified Family Medicine<br />
               Alpharetta, Georgia
             </p>
             <p>

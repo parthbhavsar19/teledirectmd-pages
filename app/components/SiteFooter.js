@@ -129,6 +129,8 @@ export default function SiteFooter() {
             <span className="tdmd-footer-dot">·</span>
             <a href="/privacy-policy/">Privacy</a>
             <span className="tdmd-footer-dot">·</span>
+            <a href="/consumer-health-data-privacy/">Consumer Health Data</a>
+            <span className="tdmd-footer-dot">·</span>
             <a href="/notice-of-privacy-practices/">HIPAA</a>
             <span className="tdmd-footer-dot">·</span>
             <a href="/telehealth-informed-consent.pdf">Consent</a>
