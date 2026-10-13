@@ -105,7 +105,7 @@ export function Or49CashLink() {
     <p style={{ margin: '1.25rem 0 0', fontSize: '0.95rem', color: 'var(--tdmd-muted)' }}>
       Or pay $79 cash —{' '}
       <a href={MASTER_COST_PAGE} style={{ color: 'var(--tdmd-teal)', fontWeight: 600 }}>see the full pricing breakdown</a>
-      {' '}across every care setting (TeleDirectMD vs. ER, urgent care, retail clinic, and other telehealth platforms).
+      {' '}across every care setting (TeleDirectMD vs. ER, urgent care, and other telehealth platforms).
     </p>
   );
 }
