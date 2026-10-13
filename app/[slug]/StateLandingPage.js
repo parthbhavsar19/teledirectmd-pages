@@ -13,6 +13,7 @@ import { summarizeStateLanding, citableSummaryToJsonLd } from '../../lib/citable
 // causing the stateTpl && (...) guards below to render NOTHING — pages fall
 // back to current generic behavior. See data/state-templates/_schema.md.
 import { loadStateTemplate } from '../../lib/state-template';
+import { cprDarkCSS } from '../../lib/redesign-dark-styles';
 import stateLicensesData from '../../data/state-licenses.json';
 
 export default function StateLandingPage({ stateSlug }) {
@@ -221,7 +222,7 @@ export default function StateLandingPage({ stateSlug }) {
 
     .tdmd-how-steps{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1.25rem;margin:1.25rem 0;}
     .tdmd-how-step{background:var(--tdmd-card);border-radius:var(--tdmd-radius);padding:1.25rem;box-shadow:var(--tdmd-shadow);border:1px solid rgba(0,0,0,0.03);text-align:center;}
-    .tdmd-how-number{width:2.5rem;height:2.5rem;border-radius:50%;background:var(--tdmd-navy);color:#fff;display:inline-grid;place-items:center;font-weight:900;font-size:1.25rem;margin-bottom:0.75rem;}
+    .tdmd-how-number{width:2.5rem;height:2.5rem;border-radius:50%;background:var(--tdmd-navy);color:var(--tdmd-on-navy);display:inline-grid;place-items:center;font-weight:900;font-size:1.25rem;margin-bottom:0.75rem;}
     .tdmd-how-step h3{font-size:1.05rem;margin:0 0 0.5rem;}
     .tdmd-how-step p{font-size:0.93rem;color:var(--tdmd-muted);margin:0;}
 
@@ -328,6 +329,7 @@ export default function StateLandingPage({ stateSlug }) {
           .cpr-hero-hcard-note{margin:.6rem 0 0;font-size:.8rem;color:var(--muted);text-align:center;}
           /* License verify bar renders fine as-is (white card + teal accent) on the
              navy background — same visual language as the hcard, no restyle needed. */
+          ${cprDarkCSS}
         `}</style>
         <section className="cpr-hero" id={`${pid}-hero`}>
           <div className="cpr-hero-wrap cpr-hero-grid">

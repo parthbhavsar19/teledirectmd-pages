@@ -63,10 +63,6 @@ const FAQ_ACCORDION_CSS = `
 }
 
 /* ── Dark-mode parity using the global tdmd-* theme variables ── */
-:root[data-theme="dark"] .tdmd-faq-accordion .tdmd-faq-accordion__item,
-@media (prefers-color-scheme: dark){
-  :root:not([data-theme="light"]) .tdmd-faq-accordion .tdmd-faq-accordion__item{background:#122028;border-color:#1e3340}
-}
 :root[data-theme="dark"] .tdmd-faq-accordion .tdmd-faq-accordion__item{background:#122028;border-color:#1e3340}
 :root[data-theme="dark"] .tdmd-faq-accordion .tdmd-faq-accordion__item:hover{border-color:#2bc4cf}
 :root[data-theme="dark"] .tdmd-faq-accordion .tdmd-faq-accordion__title{color:#e2edf0}

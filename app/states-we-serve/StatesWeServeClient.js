@@ -1,5 +1,24 @@
 'use client';
 import { useState, useEffect, useRef, useCallback } from 'react';
+import { darkCSS } from '../../lib/dark-css';
+
+// Dark theme: swap the page palette and turn the white cards dark. The navy
+// hero keeps its color.
+const SWS_DARK = darkCSS(`
+DARK .sws-root{
+  --sws-teal:#2bc4cf;--sws-teal-deep:#1a9aa4;--sws-navy:#a0d8e8;
+  --sws-cream:#0f1f24;--sws-warm-white:#0d1c22;--sws-sand:#1f3540;
+  --sws-text:#e2edf0;--sws-text-secondary:#b4c6cd;--sws-text-tertiary:#9fb6bf;
+  --sws-border:rgba(160,216,232,0.16);--sws-border-strong:rgba(160,216,232,0.28);
+  --sws-shadow-xs:0 1px 3px rgba(0,0,0,0.4);--sws-shadow-sm:0 2px 8px rgba(0,0,0,0.45);
+  --sws-shadow-md:0 8px 24px rgba(0,0,0,0.5);
+}
+DARK .sws-card,DARK .sws-dir-card,DARK .sws-faq-item,DARK .sws-map-popup{background:#122028;}
+DARK .sws-section-header h2,DARK .sws-popup-header h3,DARK .sws-card-header h3,DARK .sws-dir-card h4{color:#e2edf0;}
+DARK .sws-popup-close:hover,DARK .sws-popup-tag:hover,DARK .sws-tag:hover{color:#04252b;}
+DARK .sws-popup-cta,DARK .sws-btn-primary{color:#1a0b06;}
+DARK .sws-filter-select{background-image:url("data:image/svg+xml,%3Csvg width='12' height='8' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 1.5L6 6.5l5-5' stroke='%23a0d8e8' stroke-width='2' stroke-linecap='round'/%3E%3C/svg%3E");}
+`);
 
 /* ── FIPS-to-abbr map for the D3 map ── */
 const FIPS_TO_ABBR = {'01':'AL','02':'AK','04':'AZ','05':'AR','06':'CA','08':'CO','09':'CT','10':'DE','11':'DC','12':'FL','13':'GA','15':'HI','16':'ID','17':'IL','18':'IN','19':'IA','20':'KS','21':'KY','22':'LA','23':'ME','24':'MD','25':'MA','26':'MI','27':'MN','28':'MS','29':'MO','30':'MT','31':'NE','32':'NV','33':'NH','34':'NJ','35':'NM','36':'NY','37':'NC','38':'ND','39':'OH','40':'OK','41':'OR','42':'PA','44':'RI','45':'SC','46':'SD','47':'TN','48':'TX','49':'UT','50':'VT','51':'VA','53':'WA','54':'WV','55':'WI','56':'WY'};
@@ -693,6 +712,7 @@ function Styles() {
 @media(prefers-reduced-motion:reduce) {
   .sws-root *, .sws-root *::before, .sws-root *::after { animation-duration:0.01ms !important; transition-duration:0.01ms !important; }
 }
+${SWS_DARK}
 `}</style>
   );
 }

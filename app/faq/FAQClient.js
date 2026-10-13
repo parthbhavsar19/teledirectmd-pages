@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
+import { darkCSS } from '../../lib/dark-css';
 import FaqAccordion from '../components/FaqAccordion';
 import { PRESCRIBING_POLICY, PRESCRIBING_POLICY_QUESTION, REFILL_POLICY, REFILL_POLICY_QUESTION, ED_REFILL_POLICY } from '../../lib/prescribing-policy';
 
@@ -161,7 +162,30 @@ details[open] .faq-toggle-icon .faq-icon-minus{display:inline}
 .faq-section:nth-child(5){animation-delay:.3s}
 .faq-section:nth-child(6){animation-delay:.35s}
 @media(prefers-reduced-motion:reduce){.faq-hero,.faq-section{animation:none}}
-`;
+` + darkCSS(`
+/* Dark theme: the cream page and white cards turn into the site's dark
+   surfaces; the deep green banner and bottom CTA keep their color. */
+DARK .faq-page{background:#0a171c;color:#e2edf0;}
+DARK .faq-hero{background:linear-gradient(180deg,#0d1d23 0%,#0a171c 100%);border-bottom-color:#24404b;}
+DARK .faq-badge{background:#2a6b6a;}
+DARK .faq-hero h1,DARK .faq-section-text h2,DARK .faq-question,DARK .faq-answer strong{color:#e2edf0;}
+DARK .faq-hero-sub,DARK .faq-trust,DARK .faq-section-text p{color:#a9bec6;}
+DARK .faq-trust-item svg{color:#6fd39b;}
+DARK .faq-pill{background:#122028;border-color:#33505d;color:#e2edf0;}
+DARK .faq-pill:hover{background:#2a6b6a;border-color:#2a6b6a;color:#fff;}
+DARK .faq-section-icon{background:#2a6b6a;}
+DARK .faq-item{background:#122028;border-color:#2b4652;}
+DARK .faq-item:hover{border-color:#5fb3b1;box-shadow:0 2px 8px rgba(0,0,0,.35);}
+DARK .faq-toggle-icon{background:#0f1f24;border-color:#33505d;color:#7fd3d1;}
+DARK details[open] .faq-toggle-icon{background:#5fb3b1;border-color:#5fb3b1;color:#062221;}
+DARK .faq-answer{color:#cfdde2;}
+DARK .faq-answer a{color:#7fd3d1;}
+DARK .faq-answer a:hover{color:#a6e6e4;}
+DARK .faq-btn-primary,DARK .faq-bottom-cta,DARK .faq-mobile-cta a{color:#1f0d07;}
+DARK .faq-btn-secondary{color:#7fd3d1;border-color:#33505d;}
+DARK .faq-btn-secondary:hover{background:#5fb3b1;color:#062221;border-color:#5fb3b1;}
+DARK .faq-mobile-cta{background:#122028;border-top-color:#24404b;box-shadow:0 -4px 20px rgba(0,0,0,.5);}
+`);
 
 /* ─── Section icons (matching What We Treat style) ─── */
 const sectionIcons = {

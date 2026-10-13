@@ -15,8 +15,18 @@ import {
 import { COST_PAGES } from '../../../lib/cost-pages-config';
 import { AGGREGATE_RATING_VALUE, TOTAL_REVIEW_COUNT } from '../../../lib/review-schema';
 import { buildCostCompareJsonLd } from '../../../lib/cost-compare-schema';
+import { darkCSS } from '../../../lib/dark-css';
 import { CitableSummaryBlock } from '../../components/CitableSummary';
 import { summarizeCompare, summarizeUseCase, summarizeWhoWeServe, summarizeFaqDeepDive, citableSummaryToJsonLd } from '../../../lib/citable-summary';
+
+// Dark theme: the hero keeps its deep teal gradient; the quick-answer card
+// turns into a dark card instead of a white box.
+const COMPARE_HERO_DARK = darkCSS(`
+  DARK .tdmd-hero{background:linear-gradient(160deg,#04212b 0%,#063341 60%,#0a4a54 100%) !important;}
+  DARK .tdmd-hero .tdmd-hero-card{background:#122028 !important;color:var(--tdmd-text);border:1px solid #2b4652;box-shadow:0 18px 46px rgba(0,0,0,.5);}
+  DARK .tdmd-hero .tdmd-hero-card h2{color:var(--tdmd-navy);}
+  DARK .tdmd-hero .tdmd-hero-note{color:var(--tdmd-muted);}
+`);
 
 export async function generateStaticParams() {
   return COMPARE_PAGE_SLUGS.map((slug) => ({ competitor: slug }));
@@ -120,6 +130,7 @@ export default async function ComparePage({ params }) {
         .tdmd-hero .tdmd-reviewed{color:#9fc6ca;}
         .tdmd-hero .tdmd-reviewed a{color:#fff;text-decoration:underline;}
         .tdmd-section h2,.tdmd-hero-card h2{font-family:'Fraunces',Georgia,serif;font-weight:600;letter-spacing:-0.01em;}
+        ${COMPARE_HERO_DARK}
       `}</style>
       <CitableSummaryBlock summary={citableSummary_AI} jsonLd={citableJsonLd_AI} idSuffix={`compare-${competitor}`} />
 

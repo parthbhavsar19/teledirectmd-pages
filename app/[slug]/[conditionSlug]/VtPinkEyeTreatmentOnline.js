@@ -254,7 +254,7 @@ const PAGE_CSS = `
 .tdmd-vt-cond .tdmd-vt-cond__differ{margin-top:1rem;overflow-x:auto;}
 .tdmd-vt-cond .tdmd-vt-cond__differ table{width:100%;border-collapse:collapse;font-size:0.92rem;}
 .tdmd-vt-cond .tdmd-vt-cond__differ th,.tdmd-vt-cond .tdmd-vt-cond__differ td{border:1px solid var(--tdmd-border);padding:0.6rem 0.75rem;text-align:left;vertical-align:top;}
-.tdmd-vt-cond .tdmd-vt-cond__differ thead th{background:var(--tdmd-navy);color:#fff;}
+.tdmd-vt-cond .tdmd-vt-cond__differ thead th{background:var(--tdmd-navy);color:var(--tdmd-on-navy);}
 .tdmd-vt-cond .tdmd-vt-cond__differ tbody th{background:var(--tdmd-bg-soft,#f6f8fa);color:var(--tdmd-navy);}
 .tdmd-vt-cond .tdmd-vt-cond__outdoor{background:var(--tdmd-bg-soft,#f4f8f4);border:1px solid var(--tdmd-border);border-left:5px solid #2E7D52;border-radius:var(--tdmd-radius,18px);padding:1.1rem 1.3rem;margin-top:1rem;}
 .tdmd-vt-cond .tdmd-vt-cond__outdoor h3{color:#1f5135;margin-top:0.6rem;}

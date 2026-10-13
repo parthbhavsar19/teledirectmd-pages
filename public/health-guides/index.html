@@ -342,9 +342,29 @@ mark{background:color-mix(in srgb,var(--tdmd-accent) 22%,transparent);color:inhe
 .lib-more[hidden],#hgMoreUpdates[hidden]{display:none;}
 
 /* Copied from the teledirectmd.com main site stylesheet so the header, footer and mobile bar match exactly. */
-.tdmd-theme-toggle{background:none;border:1px solid var(--tdmd-border);border-radius:999px; width:2.25rem;height:2.25rem;display:grid;place-items:center; cursor:pointer;color:var(--tdmd-text);transition:border-color 0.15s,color 0.15s; flex-shrink:0;}
+.tdmd-theme-toggle{background:transparent;border:1px solid #8a9ca3;border-radius:999px; width:2.5rem;height:2.5rem;padding:0;display:grid;place-items:center; cursor:pointer;color:var(--tdmd-text);transition:border-color 0.15s,color 0.15s,background-color 0.15s; flex-shrink:0;}
 .tdmd-theme-toggle:hover{border-color:var(--tdmd-teal);color:var(--tdmd-teal);}
-.tdmd-theme-toggle svg{width:1.1rem;height:1.1rem;}
+.tdmd-theme-toggle:focus{outline:none;}
+.tdmd-theme-toggle:focus-visible{outline:3px solid #ff5a36;outline-offset:2px;}
+.tdmd-theme-toggle svg{width:1.15rem;height:1.15rem;}
+.tdmd-theme-toggle .tdmd-icon-sun{display:none;}
+.tdmd-header-logo img.tdmd-logo-dark{display:none;}
+:root[data-theme="dark"] .tdmd-theme-toggle{border-color:#5d7984;color:#ffd27a;}
+:root[data-theme="dark"] .tdmd-theme-toggle:focus-visible{outline-color:#ffb199;}
+:root[data-theme="dark"] .tdmd-theme-toggle .tdmd-icon-moon,:root[data-theme="dark"] .tdmd-header-logo img.tdmd-logo-light{display:none;}
+:root[data-theme="dark"] .tdmd-theme-toggle .tdmd-icon-sun,:root[data-theme="dark"] .tdmd-header-logo img.tdmd-logo-dark{display:block;}
+:root[data-theme="dark"] :is(.btn-accent,.tdmd-footer-cta){color:#1a0b06;}
+:root[data-theme="dark"] .skip-link{background:#003e52;}
+:root[data-theme="dark"] .tdmd-footer-dot{color:rgba(255,255,255,0.5);}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]) .tdmd-theme-toggle{border-color:#5d7984;color:#ffd27a;}
+  :root:not([data-theme="light"]) .tdmd-theme-toggle:focus-visible{outline-color:#ffb199;}
+  :root:not([data-theme="light"]) .tdmd-theme-toggle .tdmd-icon-moon,:root:not([data-theme="light"]) .tdmd-header-logo img.tdmd-logo-light{display:none;}
+  :root:not([data-theme="light"]) .tdmd-theme-toggle .tdmd-icon-sun,:root:not([data-theme="light"]) .tdmd-header-logo img.tdmd-logo-dark{display:block;}
+  :root:not([data-theme="light"]) :is(.btn-accent,.tdmd-footer-cta){color:#1a0b06;}
+  :root:not([data-theme="light"]) .skip-link{background:#003e52;}
+  :root:not([data-theme="light"]) .tdmd-footer-dot{color:rgba(255,255,255,0.5);}
+}
 .tdmd-site-header{background:var(--tdmd-card);border-bottom:1px solid var(--tdmd-border);position:relative;z-index:1000;font-family:'Almarai',sans-serif;}
 .tdmd-header-inner{max-width:1280px;margin:0 auto;padding:0.6rem 1.5rem;display:flex;align-items:center;justify-content:space-between;gap:1.25rem;min-height:100px;}
 .tdmd-header-logo{display:flex;align-items:center;flex-shrink:0;}
@@ -403,7 +423,7 @@ body:has(.hp-wrap) .tdmd-mobile-sticky-bar{display: none !important;}
 </head>
 <body>
 <a class="skip-link" href="#library">Skip to the guide library</a>
-<header class="tdmd-site-header"><div class="tdmd-header-inner"><a href="/" class="tdmd-header-logo"><img src="/logo.webp" alt="TeleDirectMD" width="180" height="76"/></a><nav class="tdmd-header-nav-desktop" aria-label="Main navigation"><a href="/" class="tdmd-header-nav-link">Home</a><a href="/about/" class="tdmd-header-nav-link">About</a><a href="/what-we-treat/" class="tdmd-header-nav-link">What We Treat</a><a href="/insurance/" class="tdmd-header-nav-link">Insurance</a><a href="/health-guides/" class="tdmd-header-nav-link">Health Guides</a><a href="/who-we-serve/" class="tdmd-header-nav-link">Who We Serve</a><a href="/faq/" class="tdmd-header-nav-link">FAQ</a><a href="/media-mentions/" class="tdmd-header-nav-link">In the Media</a><a href="/reviews/" class="tdmd-header-nav-link">Reviews</a></nav><button class="tdmd-theme-toggle" aria-label="Switch to dark mode" title="Switch to dark mode"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg></button><a href="/book-online/" class="tdmd-header-cta-desktop">Book Now</a><button class="tdmd-hamburger" aria-label="Open menu" aria-expanded="false"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg></button></div></header>
+<header class="tdmd-site-header"><div class="tdmd-header-inner"><a href="/" class="tdmd-header-logo"><img class="tdmd-logo-light" src="/logo.webp" alt="TeleDirectMD" width="180" height="76"/><img class="tdmd-logo-dark" src="/brand/tdmd-logo-white-400.png" alt="TeleDirectMD" width="180" height="76" loading="lazy"/></a><nav class="tdmd-header-nav-desktop" aria-label="Main navigation"><a href="/" class="tdmd-header-nav-link">Home</a><a href="/about/" class="tdmd-header-nav-link">About</a><a href="/what-we-treat/" class="tdmd-header-nav-link">What We Treat</a><a href="/insurance/" class="tdmd-header-nav-link">Insurance</a><a href="/health-guides/" class="tdmd-header-nav-link">Health Guides</a><a href="/who-we-serve/" class="tdmd-header-nav-link">Who We Serve</a><a href="/faq/" class="tdmd-header-nav-link">FAQ</a><a href="/media-mentions/" class="tdmd-header-nav-link">In the Media</a><a href="/reviews/" class="tdmd-header-nav-link">Reviews</a></nav><button type="button" class="tdmd-theme-toggle" aria-label="Dark mode" aria-pressed="false" title="Switch to dark mode"><svg class="tdmd-icon-moon" aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg><svg class="tdmd-icon-sun" aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg></button><a href="/book-online/" class="tdmd-header-cta-desktop">Book Now</a><button class="tdmd-hamburger" aria-label="Open menu" aria-expanded="false"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg></button></div></header>
 
 <div class="tdmd-mobile-overlay" id="hgMobileMenu" hidden>
 <div class="tdmd-mobile-menu" role="dialog" aria-modal="true" aria-label="Menu">
@@ -2425,14 +2445,20 @@ body:has(.hp-wrap) .tdmd-mobile-sticky-bar{display: none !important;}
     if (t) return t === 'dark';
     return window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
   }
+  function syncToggle(btn) {
+    var dark = isDark();
+    btn.setAttribute('aria-pressed', dark ? 'true' : 'false');
+    btn.setAttribute('title', dark ? 'Switch to light mode' : 'Switch to dark mode');
+  }
   $$('.tdmd-theme-toggle').forEach(function (btn) {
+    syncToggle(btn);
     btn.addEventListener('click', function () {
       var next = isDark() ? 'light' : 'dark';
       root.setAttribute('data-theme', next);
       root.classList.toggle('tdmd-dark', next === 'dark');
       store.set('tdmd-theme', next);
       store.set('tdmd-dark-mode', String(next === 'dark'));
-      btn.setAttribute('aria-label', next === 'dark' ? 'Switch to light mode' : 'Switch to dark mode');
+      syncToggle(btn);
     });
   });
 

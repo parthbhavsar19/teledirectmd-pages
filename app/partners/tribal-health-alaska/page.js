@@ -85,7 +85,7 @@ const styles = `
 .tdmd-partner-breadcrumb a{color:var(--tdmd-teal);text-decoration:none}
 .tdmd-partner-breadcrumb span{margin:0 .4rem;color:#B0BEC5}
 .tdmd-partner-header{padding:1rem 0 1.5rem;border-bottom:1px solid var(--tdmd-border)}
-.tdmd-partner-badge{display:inline-block;background:var(--tdmd-teal);color:#fff;padding:.3rem .7rem;border-radius:999px;font-size:.75rem;font-weight:600;letter-spacing:.03em;text-transform:uppercase;margin-bottom:1rem}
+.tdmd-partner-badge{display:inline-block;background:var(--tdmd-teal);color:var(--tdmd-on-teal);padding:.3rem .7rem;border-radius:999px;font-size:.75rem;font-weight:600;letter-spacing:.03em;text-transform:uppercase;margin-bottom:1rem}
 .tdmd-partner-title{font-size:2.1rem;font-weight:700;color:var(--tdmd-teal-dark);margin:.4rem 0;line-height:1.2}
 @media (max-width:480px){.tdmd-partner-title{font-size:1.55rem;line-height:1.25}}
 .tdmd-partner-sub{color:var(--tdmd-muted);font-size:1.05rem;margin:.5rem 0 1rem;max-width:820px}

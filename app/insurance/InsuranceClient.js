@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useMemo, useEffect } from 'react';
+import { darkCSS } from '../../lib/dark-css';
 import {
   getActiveInsurers,
   getPendingInsurers,
@@ -80,30 +81,31 @@ const STYLES = `
     background:var(--tdmd-bg);
     -webkit-font-smoothing:antialiased;
   }
-  @media (prefers-color-scheme: dark){
-    .ins-page{
+` + darkCSS(`
+    DARK .ins-page{
       --tdmd-bg:#0a171c;
       --tdmd-card:#122028;
-      --tdmd-border:#1e3340;
+      --tdmd-border:#33505d;
       --tdmd-text:#e2edf0;
-      --tdmd-muted:#8fa8b2;
+      --tdmd-muted:#9fb6bf;
       --tdmd-cream:#1a201d;
     }
-    .ins-page .ins-checker-title{color:#9fc1cf;}
-    .ins-page .ins-checker-sub,
-    .ins-page .ins-madlibs,
-    .ins-page .ins-madlibs .ins-sel,
-    .ins-page .ins-check-note strong,
-    .ins-page .ins-result-headline,
-    .ins-page .ins-grid-v,
-    .ins-page .ins-copay-callout strong,
-    .ins-page .ins-faq h2,
-    .ins-page .ins-faq-item summary{color:#e2edf0;}
-    .ins-page .ins-btn-ghost{color:#e2edf0;border-color:#3f5a6b;}
-    .ins-page .ins-plan-note{background:#221b12;border-color:#5a4318;color:#efe5d2;}
-    .ins-page .ins-plan-note strong{color:#e6b45a;}
-    .ins-page .ins-copay-callout,.ins-page .ins-result-grid{border-color:#4a3028;}
-  }
+    DARK .ins-page .ins-checker-title{color:#9fc1cf;}
+    DARK .ins-page .ins-checker-sub,
+    DARK .ins-page .ins-madlibs,
+    DARK .ins-page .ins-madlibs .ins-sel,
+    DARK .ins-page .ins-check-note strong,
+    DARK .ins-page .ins-result-headline,
+    DARK .ins-page .ins-grid-v,
+    DARK .ins-page .ins-copay-callout strong,
+    DARK .ins-page .ins-faq h2,
+    DARK .ins-page .ins-faq-item summary{color:#e2edf0;}
+    DARK .ins-page .ins-btn-ghost{color:#e2edf0;border-color:#3f5a6b;}
+    DARK .ins-page .ins-plan-note{background:#221b12;border-color:#5a4318;color:#efe5d2;}
+    DARK .ins-page .ins-plan-note strong{color:#e6b45a;}
+    DARK .ins-page .ins-copay-callout,DARK .ins-page .ins-result-grid{border-color:#4a3028;}
+    DARK .ins-page .ins-btn-primary,DARK .ins-page .ins-check-btn{color:#1a0b06;}
+`) + `
   .ins-hero{
     background:var(--tdmd-navy);
     color:#fff;

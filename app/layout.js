@@ -4,6 +4,12 @@ import GlobalStyles from './components/GlobalStyles';
 import Analytics from './components/Analytics';
 import UtiScopeNotice from './components/UtiScopeNotice';
 
+// Applies the saved theme (or the system preference) to <html data-theme>
+// before the first paint, so a dark-mode visitor never sees a light flash.
+// The static health guides (public/health-guides/dark-mode.js) use the same
+// key ('tdmd-theme'); 'tdmd-dark-mode' is the guides' older key.
+const THEME_INIT = "(function(){var d=document.documentElement,t=null;try{t=localStorage.getItem('tdmd-theme');if(t!=='dark'&&t!=='light'){var o=localStorage.getItem('tdmd-dark-mode');t=o==='true'?'dark':o==='false'?'light':null}}catch(e){}if(!t)t=window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';d.setAttribute('data-theme',t)})()";
+
 const FONTS_URL = 'https://fonts.googleapis.com/css2?family=Almarai:wght@400;700&family=Fraunces:opsz,wght,SOFT,WONK@9..144,300..700,0..100,0..1&family=JetBrains+Mono:wght@400;500&family=Merriweather:wght@400;700&family=Inter:wght@400;500;600;700&family=Patrick+Hand&family=Space+Mono:wght@400;700&family=Karla:wght@400;700&display=swap';
 
 export const metadata = {
@@ -30,8 +36,10 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <head>
+        <script dangerouslySetInnerHTML={{ __html: THEME_INIT }} />
+        <meta name="color-scheme" content="light dark" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         {/* Fonts load without blocking the first paint (display=swap shows

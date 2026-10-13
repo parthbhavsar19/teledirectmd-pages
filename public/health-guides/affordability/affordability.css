@@ -1,8 +1,5 @@
 /* Shared components for the Paying for Care guides (loaded after each page's inline styles). */
 
-/* The dark-mode toggle has no styles or dark theme on these pages; hide it. */
-.tdmd-dark-toggle { display: none !important; }
-
 /* Two-column layout: article plus a sticky "On this page" rail. */
 .tdmd-content-grid.aff-layout { display: grid; grid-template-columns: minmax(0, 1fr) 250px; gap: 3rem; align-items: start; }
 .aff-rail { position: sticky; top: 1.5rem; font-size: 0.9rem; }

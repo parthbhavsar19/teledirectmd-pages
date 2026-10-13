@@ -431,6 +431,12 @@ export default function VisitReady() {
         .vr-join-btn:hover { background: ${CORAL} !important; }
         .vr-gcal-btn:hover { border-color: ${TEAL} !important; color: ${TEAL} !important; }
         .vr-support a:hover { color: ${CORAL} !important; text-decoration: underline; }
+        :root[data-theme="dark"] .vr-device { border-bottom-color: var(--tdmd-border); }
+        :root[data-theme="dark"] .vr-device-icon,
+        :root[data-theme="dark"] .vr-check-item::before { background-color: #10242b; color: #2bc4cf; }
+        :root[data-theme="dark"] .vr-device strong,
+        :root[data-theme="dark"] .vr-check-item { color: var(--tdmd-text); }
+        :root[data-theme="dark"] .vr-device span { color: var(--tdmd-muted); }
       `}</style>
 
       <section style={styles.hero} aria-labelledby="vr-hero-title">
