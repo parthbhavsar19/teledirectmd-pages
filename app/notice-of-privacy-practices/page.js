@@ -12,7 +12,7 @@ export default function NoticeOfPrivacyPractices() {
   return (
     <div style={{ maxWidth: 800, margin: '0 auto', padding: '40px 24px 80px' }}>
       <h1 style={{ fontSize: '2rem', fontWeight: 700, color: '#1a1a1a', marginBottom: 8 }}>Notice of Privacy Practices</h1>
-      <p style={{ color: '#666', fontSize: '0.95rem', marginBottom: 8 }}>Effective date: July 18, 2026</p>
+      <p style={{ color: '#666', fontSize: '0.95rem', marginBottom: 8 }}>Effective date: October 13, 2026</p>
       <p style={{ fontWeight: 700, fontSize: '0.92rem', textTransform: 'uppercase', letterSpacing: '0.04em', color: '#1a1a1a', margin: '16px 0 24px' }}>
         This notice describes how medical information about you may be used and disclosed and how you can get access to this information. Please review it carefully.
       </p>

@@ -87,7 +87,7 @@ const FAQ_ITEMS = [
       'No. TeleDirectMD runs as a cash-pay practice in Vermont. The visit is a flat $79 paid at booking, with no insurance billing of any kind in Vermont. HSA and FSA cards are accepted. Any doxycycline you are prescribed is filled and paid for separately at your pharmacy, where a single PEP dose typically runs about $5 to $15 with a GoodRx coupon.',
     answer: (
       <p>
-        No. TeleDirectMD runs as a cash-pay practice in Vermont. The visit is a flat $79 paid at booking, with no insurance billing of any kind in Vermont. HSA and FSA cards are accepted. Any doxycycline you are prescribed is filled and paid for separately at your pharmacy, where a single PEP dose typically runs about $5 to $15 with a <a href="https://www.goodrx.com/doxycycline" rel="noopener" target="_blank">GoodRx coupon</a>.
+        No. TeleDirectMD runs as a cash-pay practice in Vermont. The visit is a flat $79 paid at booking, with no insurance billing of any kind in Vermont. HSA and FSA cards are accepted. Any doxycycline you are prescribed is filled and paid for separately at your pharmacy, where a single PEP dose typically runs about $5 to $15 with a <a href="https://www.goodrx.com/doxycycline-hyclate" rel="noopener" target="_blank">GoodRx coupon</a>.
       </p>
     ),
   },
@@ -313,7 +313,7 @@ export default function VtTickBiteTreatmentOnline() {
                       Reviewed by <a href={PHYSICIAN.bioUrl}>{PHYSICIAN.name}</a> — Board-Certified {PHYSICIAN.specialty} (American Board of Family Medicine)
                     </span>
                     <span className="tdmd-vt-cond__byline-meta">
-                      NPI {PHYSICIAN.npi} · Vermont Medical License #{PHYSICIAN.licenseNumber} (<a href="https://secure.professionals.healthvermont.gov/PROD/PORTAL/PRLicenseSearch/SearchPage" rel="noopener" target="_blank">verify</a>) · Last reviewed June 4, 2026
+                      NPI {PHYSICIAN.npi} · Vermont Medical License #{PHYSICIAN.licenseNumber} (<a href="https://www.healthvermont.gov/systems/board-medical-practice/look-health-professional" rel="noopener" target="_blank">verify</a>) · Last reviewed June 4, 2026
                     </span>
                   </div>
                 </div>
@@ -418,7 +418,7 @@ export default function VtTickBiteTreatmentOnline() {
               </ol>
             </div>
             <p style={{ marginTop: '1rem' }}>
-              When those line up, the regimen is <strong>doxycycline 200 mg by mouth as a single dose</strong> for non-pregnant adults 18 and older. That is the whole course &mdash; one dose, not a daily run. Doxycycline is avoided in pregnancy, so pregnant patients need a different plan made in person. At most Vermont pharmacies the single PEP dose costs roughly <a href="https://www.goodrx.com/doxycycline" rel="noopener" target="_blank">$5 to $15 with a GoodRx coupon</a>, paid separately from the $79 visit fee. If even one criterion is missing &mdash; the tick was not <em>Ixodes</em>, it was barely attached, or more than 72 hours have passed &mdash; the guideline favors watchful waiting rather than a dose that would not help, with a 30-day watch for any rash or symptoms.
+              When those line up, the regimen is <strong>doxycycline 200 mg by mouth as a single dose</strong> for non-pregnant adults 18 and older. That is the whole course &mdash; one dose, not a daily run. Doxycycline is avoided in pregnancy, so pregnant patients need a different plan made in person. At most Vermont pharmacies the single PEP dose costs roughly <a href="https://www.goodrx.com/doxycycline-hyclate" rel="noopener" target="_blank">$5 to $15 with a GoodRx coupon</a>, paid separately from the $79 visit fee. If even one criterion is missing &mdash; the tick was not <em>Ixodes</em>, it was barely attached, or more than 72 hours have passed &mdash; the guideline favors watchful waiting rather than a dose that would not help, with a 30-day watch for any rash or symptoms.
             </p>
           </div>
         </section>
@@ -479,7 +479,7 @@ export default function VtTickBiteTreatmentOnline() {
             <h2>What TeleDirectMD Provides — and What It Costs</h2>
             <p>A single $79 video visit with a Vermont-licensed family medicine physician covers the full tick-bite workflow:</p>
             <ul>
-              <li>Same-day video visit with a Vermont-licensed physician (Vermont Medical License #042.0040345-COMP &mdash; <a href="https://secure.professionals.healthvermont.gov/PROD/PORTAL/PRLicenseSearch/SearchPage" rel="noopener" target="_blank">verify via the VT Board</a>)</li>
+              <li>Same-day video visit with a Vermont-licensed physician (Vermont Medical License #042.0040345-COMP &mdash; <a href="https://www.healthvermont.gov/systems/board-medical-practice/look-health-professional" rel="noopener" target="_blank">verify via the VT Board</a>)</li>
               <li>Tick photo review and a clear post-exposure prophylaxis eligibility decision</li>
               <li>Single-dose doxycycline e-prescription to your Vermont pharmacy when the four IDSA criteria are met</li>
               <li>Empirical early-Lyme treatment when a bull&apos;s-eye rash or constitutional symptoms are present</li>

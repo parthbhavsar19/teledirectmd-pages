@@ -1,0 +1,99 @@
+/* Shared components for the Paying for Care guides (loaded after each page's inline styles). */
+
+/* The dark-mode toggle has no styles or dark theme on these pages; hide it. */
+.tdmd-dark-toggle { display: none !important; }
+
+/* Two-column layout: article plus a sticky "On this page" rail. */
+.tdmd-content-grid.aff-layout { display: grid; grid-template-columns: minmax(0, 1fr) 250px; gap: 3rem; align-items: start; }
+.aff-rail { position: sticky; top: 1.5rem; font-size: 0.9rem; }
+.aff-rail h2 { font-size: 0.75rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--tdmd-muted); margin: 0 0 0.75rem; border: 0; padding: 0; }
+.aff-rail ol { list-style: none; margin: 0; padding: 0; border-left: 2px solid var(--tdmd-border); }
+.aff-rail li { margin: 0; }
+.aff-rail a { display: block; padding: 0.35rem 0 0.35rem 0.9rem; margin-left: -2px; border-left: 2px solid transparent; color: var(--tdmd-text); text-decoration: none; line-height: 1.35; }
+.aff-rail a:hover, .aff-rail a:focus-visible { color: var(--tdmd-teal); border-left-color: var(--tdmd-teal); }
+.aff-rail .aff-rail-back { display: inline-block; margin-top: 1.25rem; color: var(--tdmd-teal); font-weight: 600; text-decoration: none; }
+@media (max-width: 900px) {
+  .tdmd-content-grid.aff-layout { display: block; }
+  .aff-rail { display: none; }
+}
+
+/* Hero image as a short banner instead of a full-height picture. */
+.aff-guide .tdmd-article-figure img { aspect-ratio: 2 / 1; object-fit: cover; }
+.aff-guide .tdmd-article-figure { margin-top: 0; }
+
+/* FAQ accordions, collapsed by default. */
+.aff-faq { border: 1px solid var(--tdmd-border); border-radius: 12px; margin: 0 0 0.6rem; background: var(--tdmd-white); }
+.aff-faq summary { cursor: pointer; list-style: none; padding: 0.9rem 2.6rem 0.9rem 1.1rem; font-weight: 600; color: var(--tdmd-navy); position: relative; line-height: 1.4; }
+.aff-faq summary::-webkit-details-marker { display: none; }
+.aff-faq summary::after { content: "+"; position: absolute; right: 1.1rem; top: 50%; transform: translateY(-50%); font-size: 1.3rem; font-weight: 400; color: var(--tdmd-teal); }
+.aff-faq[open] summary::after { content: "\2212"; }
+.aff-faq summary:focus-visible { outline: 2px solid var(--tdmd-teal); outline-offset: 2px; border-radius: 12px; }
+.aff-faq > div { padding: 0 1.1rem 1rem; color: var(--tdmd-text); }
+.aff-faq > div p { margin: 0; }
+
+/* Plain-language disclaimer note. */
+.aff-note { font-size: 0.88rem; color: var(--tdmd-muted); background: var(--tdmd-bg-soft); border-radius: 12px; padding: 0.85rem 1.1rem; margin: 2rem 0 1rem; }
+
+/* Diagrams. */
+.aff-figure { margin: 1.75rem 0; padding: 1.25rem 1.25rem 1rem; border: 1px solid var(--tdmd-border); border-radius: var(--tdmd-radius); background: var(--tdmd-white); }
+.aff-figure svg { width: 100%; height: auto; display: block; }
+.aff-figure figcaption { font-size: 0.85rem; color: var(--tdmd-muted); margin-top: 0.75rem; line-height: 1.5; }
+.aff-figure svg text { font-family: var(--tdmd-font); }
+
+/* Tools: checklists, scripts, letters. */
+.aff-tool { margin: 1.75rem 0; border: 1px solid var(--tdmd-border); border-left: 4px solid var(--tdmd-teal); border-radius: 12px; background: var(--tdmd-bg-soft); padding: 1.1rem 1.25rem; }
+.aff-tool-label { display: inline-block; font-size: 0.72rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--tdmd-teal); margin-bottom: 0.35rem; }
+.aff-tool h3 { margin: 0 0 0.6rem; font-size: 1.1rem; color: var(--tdmd-navy); }
+.aff-tool p:last-child { margin-bottom: 0; }
+.aff-check { list-style: none; padding: 0; margin: 0.5rem 0 0; }
+.aff-check li { position: relative; padding-left: 1.9rem; margin-bottom: 0.6rem; }
+.aff-check li::before { content: ""; position: absolute; left: 0; top: 0.2rem; width: 1.05rem; height: 1.05rem; border: 2px solid var(--tdmd-teal); border-radius: 4px; background: var(--tdmd-white); }
+.aff-script { background: var(--tdmd-white); border: 1px dashed var(--tdmd-border); border-radius: 10px; padding: 0.9rem 1.1rem; margin: 0.6rem 0; font-size: 0.95rem; }
+.aff-script p { margin: 0 0 0.6rem; }
+.aff-script p:last-child { margin-bottom: 0; }
+.aff-blank { background: #fff3cf; border-radius: 3px; padding: 0 0.25rem; font-style: normal; }
+.aff-tool-foot { font-size: 0.82rem; color: var(--tdmd-muted); margin-top: 0.75rem; }
+
+/* Annotated EOB sample. */
+.aff-eob { width: 100%; border-collapse: collapse; font-size: 0.88rem; background: var(--tdmd-white); }
+.aff-eob caption { text-align: left; font-weight: 700; color: var(--tdmd-navy); padding-bottom: 0.5rem; }
+.aff-eob th, .aff-eob td { border: 1px solid var(--tdmd-border); padding: 0.5rem 0.6rem; text-align: right; vertical-align: top; }
+.aff-eob th:first-child, .aff-eob td:first-child { text-align: left; }
+.aff-eob thead th { background: var(--tdmd-bg-soft); color: var(--tdmd-navy); font-weight: 600; }
+.aff-eob .aff-key { display: inline-flex; align-items: center; justify-content: center; width: 1.3rem; height: 1.3rem; border-radius: 50%; background: var(--tdmd-accent); color: #fff; font-size: 0.72rem; font-weight: 700; margin-left: 0.3rem; vertical-align: 1px; }
+.aff-eob-wrap { overflow-x: auto; }
+.aff-keys { counter-reset: k; list-style: none; padding: 0; margin: 1rem 0 0; }
+.aff-keys li { counter-increment: k; position: relative; padding-left: 2rem; margin-bottom: 0.55rem; }
+.aff-keys li::before { content: counter(k); position: absolute; left: 0; top: 0.1rem; width: 1.3rem; height: 1.3rem; border-radius: 50%; background: var(--tdmd-accent); color: #fff; font-size: 0.72rem; font-weight: 700; display: flex; align-items: center; justify-content: center; }
+
+/* Keep reading. */
+.aff-next { margin: 2.5rem 0 1.5rem; }
+.aff-next h2 { margin-bottom: 1rem; }
+.aff-next-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; }
+.aff-next a { display: flex; flex-direction: column; border: 1px solid var(--tdmd-border); border-radius: 14px; overflow: hidden; text-decoration: none; color: inherit; background: var(--tdmd-white); transition: border-color .2s, transform .2s; }
+.aff-next a:hover, .aff-next a:focus-visible { border-color: var(--tdmd-teal); transform: translateY(-2px); }
+.aff-next img { width: 100%; height: auto; aspect-ratio: 16 / 9; object-fit: cover; display: block; }
+.aff-next span { display: block; padding: 0.7rem 0.85rem 0.85rem; font-weight: 600; color: var(--tdmd-navy); line-height: 1.35; font-size: 0.95rem; }
+.aff-next small { display: block; font-weight: 400; color: var(--tdmd-muted); margin-top: 0.25rem; font-size: 0.82rem; }
+@media (max-width: 640px) { .aff-next-grid { grid-template-columns: 1fr; } .aff-next a { flex-direction: row; } .aff-next img { width: 110px; height: auto; aspect-ratio: 1; } }
+
+/* References with titles. */
+.aff-guide .tdmd-references li { margin-bottom: 0.55rem; line-height: 1.45; }
+.aff-guide .tdmd-references li a { word-break: break-word; }
+.aff-ref-host { color: var(--tdmd-muted); font-size: 0.85em; }
+
+/* Hub: category sections. */
+.aff-section { padding-top: 2.25rem; }
+.aff-section-head { display: flex; align-items: baseline; gap: 0.75rem; flex-wrap: wrap; border-bottom: 1px solid var(--tdmd-border); padding-bottom: 0.6rem; }
+.aff-section-head h2 { margin: 0; font-size: 1.35rem; color: var(--tdmd-navy); }
+.aff-section-head p { margin: 0; color: var(--tdmd-muted); font-size: 0.95rem; }
+.aff-section .aff-grid { padding: 1.25rem 0 0.5rem; }
+
+@media print {
+  .aff-rail, .aff-next, .tdmd-nav, .tdmd-footer, .tdmd-article-figure { display: none !important; }
+  .tdmd-content-grid.aff-layout { display: block; }
+  .aff-faq { border: 0; }
+  .aff-faq > div { display: block; }
+  .aff-tool { break-inside: avoid; background: none; }
+}
+.aff-section .aff-grid { grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); }

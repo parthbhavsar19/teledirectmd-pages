@@ -12,7 +12,7 @@ export default function PrivacyPolicy() {
   return (
     <div style={{ maxWidth: 800, margin: '0 auto', padding: '40px 24px 80px' }}>
       <h1 style={{ fontSize: '2rem', fontWeight: 700, color: '#1a1a1a', marginBottom: 8 }}>Privacy Policy and Notice of Privacy Practices</h1>
-      <p style={{ color: '#666', fontSize: '0.95rem', marginBottom: 32 }}>Effective date: October 7, 2026 &middot; Last reviewed: October 7, 2026</p>
+      <p style={{ color: '#666', fontSize: '0.95rem', marginBottom: 32 }}>Effective date: October 13, 2026 &middot; Last reviewed: October 7, 2026</p>
 
       <section style={{ lineHeight: 1.8, color: '#333', fontSize: '1rem' }}>
         <p>TeleDirectMD, a trade name of Mahavir Health Services LLC (&ldquo;TeleDirectMD,&rdquo; &ldquo;we,&rdquo; or &ldquo;us&rdquo;), is committed to protecting your privacy and safeguarding your personal and health information. This document serves as both TeleDirectMD&apos;s Privacy Policy and its Notice of Privacy Practices as required by the Health Insurance Portability and Accountability Act (HIPAA).</p>

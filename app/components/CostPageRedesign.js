@@ -21,7 +21,7 @@ function maxNum(v) {
 // outrank us surface an explicit date (docdx.com dateModified 2026-06-29,
 // primaimmediatecare.com 2026-01-22) while we surfaced none.
 function verificationDate() {
-  const iso = contentDate('costPages');
+  const iso = contentDate('costPrices');
   return {
     verifiedISO: iso,
     verifiedDisplay: new Date(`${iso}T00:00:00Z`).toLocaleDateString('en-US', {
@@ -45,7 +45,11 @@ export default function CostPageRedesign({ cfg, relatedCost = [], comparePages =
 
   // Build the comparison bar chart from the cost table (setting -> cost).
   const barSource = costRows.length ? costRows.map((r) => ({ label: r.setting, value: r.cost })) : [];
-  const bmax = Math.max(1, ...barSource.map((b) => maxNum(b.value)));
+  // Scale bars to the second-highest value when the top one (usually the ER) is
+  // more than twice it; otherwise every other setting collapses to a sliver.
+  // The outlier is drawn full width with a break marker and labelled off scale.
+  const sortedMax = barSource.map((b) => maxNum(b.value)).sort((a, b) => b - a);
+  const bmax = Math.max(1, sortedMax.length > 2 && sortedMax[0] > 2 * sortedMax[1] ? sortedMax[1] * 1.15 : sortedMax[0] || 1);
 
   return (
     <div className="cxr">
@@ -105,6 +109,8 @@ export default function CostPageRedesign({ cfg, relatedCost = [], comparePages =
         .cxr-btrack{height:15px;background:rgba(255,255,255,.13);border-radius:999px;overflow:hidden;}
         .cxr-bfill{height:100%;border-radius:999px;background:linear-gradient(90deg,#2aa9b3,#0c8f99);}
         .cxr-bfill.hero{background:linear-gradient(90deg,var(--gold),#f2b65a);}
+        .cxr-bfill.over{background:repeating-linear-gradient(90deg,#0c8f99 0 88%,transparent 88% 90%,#0c8f99 90% 92%,transparent 92% 94%,#0c8f99 94%);}
+        .cxr-bnote{font-size:.78rem;color:#9fc6ca;margin:1rem 0 0;}
 
         .cxr-table-wrap{overflow-x:auto;}
         .cxr-table{width:100%;border-collapse:collapse;background:#fff;border-radius:14px;overflow:hidden;border:1px solid var(--line);}
@@ -175,7 +181,7 @@ export default function CostPageRedesign({ cfg, relatedCost = [], comparePages =
               <span className="big">${price}</span><span className="lab">flat · no insurance required</span>
             </div>
             <div><a href="/book-online/" className="cxr-cta">Book a Visit, ${price} →</a></div>
-            <p className="cxr-trust">Board-certified MD · 40+ states + DC · evenings &amp; weekends · HSA/FSA accepted · {AGGREGATE_RATING_VALUE}★ ({TOTAL_REVIEW_COUNT} reviews)</p>
+            <p className="cxr-trust">Board-certified MD · 40+ states · evenings &amp; weekends · HSA/FSA accepted · {AGGREGATE_RATING_VALUE}★ ({TOTAL_REVIEW_COUNT} reviews)</p>
             {/* Visible reviewer + price-verification line.
 
                These 21 pages had no visible byline or date anywhere in the rendered
@@ -193,7 +199,7 @@ export default function CostPageRedesign({ cfg, relatedCost = [], comparePages =
               <a href="/about/" aria-label="About Parth Bhavsar, MD">Parth Bhavsar, MD</a>
               {' '}· Board-Certified Family Medicine · NPI 1104323203
               <br />
-              <span>Prices verified <time dateTime={verifiedISO}>{verifiedDisplay}</time></span>
+              <span>Prices checked <time dateTime={verifiedISO}>{verifiedDisplay}</time></span>
             </p>
           </div>
           <div className="cxr-hcard">
@@ -233,14 +239,18 @@ export default function CostPageRedesign({ cfg, relatedCost = [], comparePages =
                 <h3>Visual comparison</h3>
                 {barSource.map((b, i) => {
                   const isHero = /teledirect/i.test(b.label);
-                  const w = Math.max(6, Math.round((maxNum(b.value) / bmax) * 100));
+                  const over = maxNum(b.value) > bmax;
+                  const w = over ? 100 : Math.max(6, Math.round((maxNum(b.value) / bmax) * 100));
                   return (
                     <div className="cxr-brow" key={i}>
                       <div className="cxr-btop"><span>{b.label}</span><span className="v">{b.value}</span></div>
-                      <div className="cxr-btrack"><div className={`cxr-bfill${isHero ? ' hero' : ''}`} style={{ width: `${w}%` }} /></div>
+                      <div className="cxr-btrack"><div className={`cxr-bfill${isHero ? ' hero' : ''}${over ? ' over' : ''}`} style={{ width: `${w}%` }} /></div>
                     </div>
                   );
                 })}
+                {barSource.some((b) => maxNum(b.value) > bmax) && (
+                  <p className="cxr-bnote">Bars with a break run off the scale; they are drawn shortened so the other settings stay readable.</p>
+                )}
               </div>
               <div className="cxr-table-wrap">
                 <table className="cxr-table">

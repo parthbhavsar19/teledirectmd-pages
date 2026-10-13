@@ -16,7 +16,7 @@
     "condition_slug": "sore-throat-treatment-online",
     "icd10": "J02.9",
     "specialty_authority": "Infectious Diseases Society of America (IDSA) and American Academy of Pediatrics (AAP)",
-    "guideline": "IDSA Clinical Practice Guideline for Diagnosis and Management of Group A Streptococcal Pharyngitis (2023 Update)"
+    "guideline": "IDSA Clinical Practice Guideline for Diagnosis and Management of Group A Streptococcal Pharyngitis (2012 Update)"
   },
   "california_regulatory": {
     "primary_statute": {
@@ -70,14 +70,14 @@
     "cash_price": 79
   },
   "california_epidemiology": {
-    "summary": "Group A Streptococcus (GAS) is the most important bacterial cause of pharyngitis, accounting for 5\u201315% of adult sore throat cases and 20\u201330% of pediatric cases, per IDSA 2023 guideline data. The California Department of Public Health monitors Group A strep activity and reports periodic increases in invasive GAS infections; community pharyngitis rates follow seasonal patterns with peaks in late winter and spring across California's 58 counties.",
-    "source_url": "https://www.cdph.ca.gov/Programs/CID/DCDC/Pages/InfectiousDiseases/GroupAStreptococcalInfection.aspx",
-    "source_name": "CDPH \u2014 Group A Streptococcal Infection"
+    "summary": "Group A Streptococcus (GAS) is the most important bacterial cause of pharyngitis, accounting for 5\u201315% of adult sore throat cases and 20\u201330% of pediatric cases, per IDSA 2012 guideline data. The California Department of Public Health monitors Group A strep activity and reports periodic increases in invasive GAS infections; community pharyngitis rates follow seasonal patterns with peaks in late winter and spring across California's 58 counties.",
+    "source_url": "https://www.cdph.ca.gov/Programs/CID/DCDC/CDPH%20Document%20Library/IDBGuidanceforCALHJs-iGAS.pdf",
+    "source_name": "CDPH: Invasive Group A Streptococcal (iGAS) Guidance for Local Health Jurisdictions"
   },
   "clinical_content": {
     "specialty_authority": "Infectious Diseases Society of America (IDSA) and American Academy of Pediatrics (AAP)",
-    "specialty_authority_url": "https://www.idsociety.org/practice-guideline/pharyngitis-strep/",
-    "guideline": "IDSA Clinical Practice Guideline for Diagnosis and Management of Group A Streptococcal Pharyngitis (2023 Update)",
+    "specialty_authority_url": "https://www.idsociety.org/practice-guideline/streptococcal-pharyngitis/",
+    "guideline": "IDSA Clinical Practice Guideline for Diagnosis and Management of Group A Streptococcal Pharyngitis (2012 Update)",
     "telehealth_appropriate_criteria": [
       "Adult 18+ located in California at time of visit",
       "Sore throat with or without fever, with or without tonsillar exudate",
@@ -106,7 +106,7 @@
         "goodrx_price": "~$8\u2013$15 generic with GoodRx",
         "source_url": "https://www.goodrx.com/penicillin-v-potassium",
         "first_line": true,
-        "notes": "First-line per IDSA 2023 guideline for Group A strep. Narrow-spectrum; preferred for antibiotic stewardship. Avoid if penicillin allergy."
+        "notes": "First-line per IDSA 2012 guideline for Group A strep. Narrow-spectrum; preferred for antibiotic stewardship. Avoid if penicillin allergy."
       },
       {
         "name": "Amoxicillin 500 mg",
@@ -114,7 +114,7 @@
         "goodrx_price": "~$6\u2013$12 generic with GoodRx",
         "source_url": "https://www.goodrx.com/amoxicillin",
         "first_line": true,
-        "notes": "Equivalent first-line per IDSA 2023. Better palatability than penicillin V for some patients."
+        "notes": "Equivalent first-line per IDSA 2012. Better palatability than penicillin V for some patients."
       },
       {
         "name": "Azithromycin (Z-Pack) 250 mg",
@@ -143,12 +143,12 @@
     {
       "id": "faq-2",
       "question": "How can a doctor tell if I have strep throat without a rapid strep test?",
-      "answer": "Physicians use validated clinical scoring tools \u2014 most commonly the modified Centor/McIsaac criteria \u2014 to estimate the probability of Group A strep pharyngitis. Criteria include: fever (1 point), tonsillar exudate (1 point), tender anterior cervical lymphadenopathy (1 point), absence of cough (1 point), and age 15\u201344 (0 points) or 45+ (-1 point). A score of 3\u20134 suggests sufficient probability to treat empirically without testing in adults, per IDSA 2023 guidelines. A physician applies these criteria based on your video visit history."
+      "answer": "Physicians use validated clinical scoring tools \u2014 most commonly the modified Centor/McIsaac criteria \u2014 to estimate the probability of Group A strep pharyngitis. Criteria include: fever (1 point), tonsillar exudate (1 point), tender anterior cervical lymphadenopathy (1 point), absence of cough (1 point), and age 15\u201344 (0 points) or 45+ (-1 point). Per IDSA 2012 guidelines, these features alone cannot confirm strep, so a rapid strep test or throat culture is recommended before antibiotics when strep is suspected; patients with clear viral features usually do not need testing. A physician applies these criteria based on your video visit history."
     },
     {
       "id": "faq-3",
       "question": "What antibiotics are used for strep throat, and what do they cost in California?",
-      "answer": "First-line antibiotics per IDSA 2023 guideline are penicillin V 500 mg twice daily for 10 days (generic ~$8\u2013$15 with GoodRx) or amoxicillin 500 mg twice daily for 10 days (~$6\u2013$12). For penicillin-allergic patients, azithromycin or cephalexin are alternatives. A 10-day course is important to prevent complications like rheumatic fever. Prescription costs at pharmacy are separate from the TeleDirectMD visit fee ($79)."
+      "answer": "First-line antibiotics per IDSA 2012 guideline are penicillin V 500 mg twice daily for 10 days (generic ~$8\u2013$15 with GoodRx) or amoxicillin 500 mg twice daily for 10 days (~$6\u2013$12). For penicillin-allergic patients, azithromycin or cephalexin are alternatives. A 10-day course is important to prevent complications like rheumatic fever. Prescription costs at pharmacy are separate from the TeleDirectMD visit fee ($79)."
     },
     {
       "id": "faq-4",
@@ -178,7 +178,7 @@
     {
       "id": "faq-9",
       "question": "What are the complications of untreated strep throat?",
-      "answer": "Untreated or inadequately treated Group A strep pharyngitis can lead to acute rheumatic fever \u2014 a potentially serious complication causing heart valve damage \u2014 as well as post-streptococcal glomerulonephritis. These complications are the primary reason a full 10-day antibiotic course is recommended even when symptoms improve early, per IDSA 2023 guidelines. Peritonsillar abscess is a more immediate local complication that requires urgent in-person drainage."
+      "answer": "Untreated or inadequately treated Group A strep pharyngitis can lead to acute rheumatic fever \u2014 a potentially serious complication causing heart valve damage \u2014 as well as post-streptococcal glomerulonephritis. These complications are the primary reason a full 10-day antibiotic course is recommended even when symptoms improve early, per IDSA 2012 guidelines. Peritonsillar abscess is a more immediate local complication that requires urgent in-person drainage."
     },
     {
       "id": "faq-10",
@@ -193,7 +193,7 @@
     {
       "id": "faq-12",
       "question": "Is most pharyngitis viral or bacterial in California adults?",
-      "answer": "The majority of acute pharyngitis in adults \u2014 approximately 85\u201395% of cases \u2014 is caused by viruses (rhinovirus, adenovirus, EBV) and does not require or benefit from antibiotics, per IDSA 2023 guideline data. Group A Streptococcus accounts for 5\u201315% of adult sore throats. Distinguishing viral from bacterial pharyngitis is a key clinical skill that avoids unnecessary antibiotic prescribing while ensuring appropriate treatment for true strep infections."
+      "answer": "The majority of acute pharyngitis in adults \u2014 approximately 85\u201395% of cases \u2014 is caused by viruses (rhinovirus, adenovirus, EBV) and does not require or benefit from antibiotics, per IDSA 2012 guideline data. Group A Streptococcus accounts for 5\u201315% of adult sore throats. Distinguishing viral from bacterial pharyngitis is a key clinical skill that avoids unnecessary antibiotic prescribing while ensuring appropriate treatment for true strep infections."
     }
   ],
   "references": [
@@ -214,20 +214,16 @@
       "text": "California DHCS \u2014 Telehealth FAQ. Retrieved May 2026."
     },
     {
-      "url": "https://www.cdph.ca.gov/Programs/CID/DCDC/Pages/InfectiousDiseases/GroupAStreptococcalInfection.aspx",
-      "text": "CDPH \u2014 Group A Streptococcal Infection. Retrieved May 2026."
+      "url": "https://www.cdph.ca.gov/Programs/CID/DCDC/CDPH%20Document%20Library/IDBGuidanceforCALHJs-iGAS.pdf",
+      "text": "CDPH: Invasive Group A Streptococcal (iGAS) Guidance for Local Health Jurisdictions. Retrieved October 2026."
     },
     {
-      "url": "https://www.idsociety.org/practice-guideline/pharyngitis-strep/",
-      "text": "IDSA \u2014 Clinical Practice Guideline for Group A Streptococcal Pharyngitis (2023). Retrieved May 2026."
+      "url": "https://www.idsociety.org/practice-guideline/streptococcal-pharyngitis/",
+      "text": "IDSA \u2014 Clinical Practice Guideline for Group A Streptococcal Pharyngitis (2012 Update). Retrieved May 2026."
     },
     {
-      "url": "https://www.cdc.gov/groupastrep/pharyngitis-clinicians.html",
-      "text": "CDC \u2014 Strep Throat: Information for Clinicians. Retrieved May 2026."
-    },
-    {
-      "url": "https://www.aafp.org/pubs/afp/issues/2021/0901/p329.html",
-      "text": "AAFP \u2014 Pharyngitis: Rapid Antigen Detection Testing and Management. Retrieved May 2026."
+      "url": "https://www.cdc.gov/group-a-strep/hcp/clinical-guidance/strep-throat.html",
+      "text": "CDC: Clinical Guidance for Group A Streptococcal Pharyngitis. Retrieved October 2026."
     },
     {
       "url": "https://www.mbc.ca.gov/News/",

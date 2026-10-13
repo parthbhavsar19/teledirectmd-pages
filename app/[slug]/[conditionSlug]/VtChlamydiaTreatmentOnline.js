@@ -36,7 +36,7 @@ const PHYSICIAN = {
 };
 
 const MEDICATIONS = [
-  { name: "Doxycycline 100 mg", regimen: "100 mg twice daily × 7 days", price: "~$10–$25 / course GoodRx (generic)", priceHref: "https://www.goodrx.com/doxycycline", firstLine: true, notes: "CDC 2021 preferred first-line. Superior cure for rectal infection. Avoid in pregnancy; take with water, avoid sun exposure and dairy/antacids near dosing." },
+  { name: "Doxycycline 100 mg", regimen: "100 mg twice daily × 7 days", price: "~$10–$25 / course GoodRx (generic)", priceHref: "https://www.goodrx.com/doxycycline-hyclate", firstLine: true, notes: "CDC 2021 preferred first-line. Superior cure for rectal infection. Avoid in pregnancy; take with water, avoid sun exposure and dairy/antacids near dosing." },
   { name: "Azithromycin 1 g", regimen: "Single 1 g oral dose", price: "~$15–$30 / dose GoodRx (generic)", priceHref: "https://www.goodrx.com/azithromycin", firstLine: false, notes: "Recommended alternative and preferred regimen in pregnancy. Convenient single dose; abstain from sex for 7 days afterward." },
   { name: "Azithromycin 1 g (for partner — EPT)", regimen: "Single 1 g oral dose for partner", price: "~$15–$30 / dose GoodRx (generic)", priceHref: "https://www.goodrx.com/azithromycin", firstLine: false, notes: "Expedited partner therapy is permitted in Vermont to treat partners and reduce reinfection where appropriate." }
 ];
@@ -250,7 +250,7 @@ export default function VtChlamydiaTreatmentOnline() {
                       Reviewed by <a href={PHYSICIAN.bioUrl}>{PHYSICIAN.name}</a> — Board-Certified {PHYSICIAN.specialty}
                     </span>
                     <span className="vt-chlamydia-treatment-online__byline-meta">
-                      NPI {PHYSICIAN.npi} · Vermont Medical License #042.0040345-COMP (<a href="https://secure.professionals.healthvermont.gov/PROD/PORTAL/PRLicenseSearch/SearchPage" rel="noopener" target="_blank">verify</a>) · Last reviewed{' '}
+                      NPI {PHYSICIAN.npi} · Vermont Medical License #042.0040345-COMP (<a href="https://www.healthvermont.gov/systems/board-medical-practice/look-health-professional" rel="noopener" target="_blank">verify</a>) · Last reviewed{' '}
                       <time dateTime={DATE_MODIFIED}>{new Date(DATE_MODIFIED).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</time>
                     </span>
                   </div>
@@ -355,7 +355,7 @@ export default function VtChlamydiaTreatmentOnline() {
 
             <h3>What standard of care applies to Vermont telehealth physicians?</h3>
             <p>
-              The <a href="https://www.healthvermont.gov/systems/board-medical-practice" rel="noopener" target="_blank">Vermont Board of Medical Practice</a> is explicit: the standard of care is the same whether a patient is seen in person or by telehealth. Physicians must be licensed in Vermont to treat Vermont patients — a requirement TeleDirectMD satisfies. Dr. Bhavsar is a Vermont-licensed, board-certified physician of the American Board of Family Medicine and holds Vermont Medical License #042.0040345-COMP issued by the Vermont Board of Medical Practice. <a href="https://secure.professionals.healthvermont.gov/PROD/PORTAL/PRLicenseSearch/SearchPage" rel="noopener" target="_blank">Verify license</a> · <a href="/about/">Dr. Bhavsar bio</a>.
+              The <a href="https://www.healthvermont.gov/systems/board-medical-practice" rel="noopener" target="_blank">Vermont Board of Medical Practice</a> is explicit: the standard of care is the same whether a patient is seen in person or by telehealth. Physicians must be licensed in Vermont to treat Vermont patients — a requirement TeleDirectMD satisfies. Dr. Bhavsar is a Vermont-licensed, board-certified physician of the American Board of Family Medicine and holds Vermont Medical License #042.0040345-COMP issued by the Vermont Board of Medical Practice. <a href="https://www.healthvermont.gov/systems/board-medical-practice/look-health-professional" rel="noopener" target="_blank">Verify license</a> · <a href="/about/">Dr. Bhavsar bio</a>.
             </p>
 
             <h3>Are these medications controlled substances under Vermont law?</h3>

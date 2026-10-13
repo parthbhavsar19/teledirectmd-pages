@@ -421,7 +421,7 @@ export default function CaMastitisTreatmentOnline() {
               Mastitis affects an estimated 10–33% of breastfeeding women, with the highest incidence in the first 6 weeks postpartum, per ABM protocol data. California has one of the highest breastfeeding initiation rates in the nation — approximately 91% per CDC Breastfeeding Report Card data for California. With approximately 400,000 California births annually (California Department of Public Health vital statistics), an estimated 40,000–130,000 California breastfeeding mothers experience mastitis each year. — <a href="https://www.cdph.ca.gov/Programs/CFH/DMCAH/Breastfeeding/Pages/default.aspx" rel="noopener" target="_blank">CDPH — Breastfeeding in California</a>.
             </p>
             <p>
-              Clinical guidance for mastitis treatment is provided by <a href="https://www.bfmed.org/mastitis" rel="noopener" target="_blank">Academy of Breastfeeding Medicine (ABM)</a> through the ABM Clinical Protocol #36: The Mastitis Spectrum (2022) — Academy of Breastfeeding Medicine. TeleDirectMD follows these guidelines on every patient visit.
+              Clinical guidance for mastitis treatment is provided by <a href="https://pubmed.ncbi.nlm.nih.gov/35576513/" rel="noopener" target="_blank">Academy of Breastfeeding Medicine (ABM)</a> through the ABM Clinical Protocol #36: The Mastitis Spectrum (2022) — Academy of Breastfeeding Medicine. TeleDirectMD follows these guidelines on every patient visit.
             </p>
             <h3>What causes mastitis and who is most at risk in California?</h3>
             <p>
@@ -516,7 +516,7 @@ export default function CaMastitisTreatmentOnline() {
           <div className="tdmd-container">
             <h2>Mastitis Treatment Medication Options and Costs in California</h2>
             <p>
-              Medications for mastitis treatment are selected based on current guidelines from <a href="https://www.bfmed.org/mastitis" rel="noopener" target="_blank">Academy of Breastfeeding Medicine (ABM)</a>, patient history, allergies, and relevant contraindications assessed at the visit. GoodRx-verified pricing is shown below.
+              Medications for mastitis treatment are selected based on current guidelines from <a href="https://pubmed.ncbi.nlm.nih.gov/35576513/" rel="noopener" target="_blank">Academy of Breastfeeding Medicine (ABM)</a>, patient history, allergies, and relevant contraindications assessed at the visit. GoodRx-verified pricing is shown below.
             </p>
             <div className="tdmd-table-wrap">
               <table className="tdmd-table" aria-label="Mastitis Treatment medication options and GoodRx prices">
@@ -696,9 +696,9 @@ export default function CaMastitisTreatmentOnline() {
               <li><a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=10123.85.&lawCode=INS" rel="noopener" target="_blank">California Insurance Code §10123.85 — Telehealth Parity (AB 744). Retrieved May 2026.</a></li>
               <li><a href="https://www.dhcs.ca.gov/provgovpart/Pages/TelehealthFAQ.aspx" rel="noopener" target="_blank">California DHCS — Telehealth FAQ. Retrieved May 2026.</a></li>
               <li><a href="https://www.cdph.ca.gov/Programs/CFH/DMCAH/Breastfeeding/Pages/default.aspx" rel="noopener" target="_blank">CDPH — Breastfeeding in California. Retrieved May 2026.</a></li>
-              <li><a href="https://www.bfmed.org/mastitis" rel="noopener" target="_blank">Academy of Breastfeeding Medicine — Clinical Protocol #36: The Mastitis Spectrum (2022). Retrieved May 2026.</a></li>
-              <li><a href="https://www.cdc.gov/breastfeeding/data/reportcard/index.html" rel="noopener" target="_blank">CDC — Breastfeeding Report Card: California Data. Retrieved May 2026.</a></li>
-              <li><a href="https://www.aafp.org/pubs/afp/issues/2008/0115/p212.html" rel="noopener" target="_blank">AAFP — Mastitis: An Overview. Retrieved May 2026.</a></li>
+              <li><a href="https://pubmed.ncbi.nlm.nih.gov/35576513/" rel="noopener" target="_blank">Mitchell KB, Johnson HM, Rodríguez JM, Eglash A. Academy of Breastfeeding Medicine Clinical Protocol #36: The Mastitis Spectrum, Revised 2022. Breastfeed Med. 2022;17(5):360-376.</a></li>
+              <li><a href="https://www.cdc.gov/breastfeeding-data/breastfeeding-report-card/index.html" rel="noopener" target="_blank">CDC: Early Childhood Nutrition and Breastfeeding Reports (Breastfeeding Report Card). Retrieved October 2026.</a></li>
+              <li><a href="https://pubmed.ncbi.nlm.nih.gov/18819238/" rel="noopener" target="_blank">Spencer JP. Management of mastitis in breastfeeding women. Am Fam Physician. 2008;78(6):727-731.</a></li>
               <li><a href="https://www.mbc.ca.gov/News/" rel="noopener" target="_blank">Medical Board of California — Electronic Prescribing (AB 2789). Retrieved May 2026.</a></li>
             </ol>
           </div>

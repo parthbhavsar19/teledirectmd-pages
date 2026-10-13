@@ -632,8 +632,8 @@ export default function CaHypothyroidismRefillsOnline() {
               <li><a href="https://www.mbc.ca.gov/News/" rel="noopener" target="_blank">Medical Board of California — AB 2789 Electronic Prescribing</a>. Retrieved May 2026.</li>
               <li><a href="https://www.liebertpub.com/doi/10.1089/thy.2014.0028" rel="noopener" target="_blank">ATA 2014 Guidelines for the Treatment of Hypothyroidism — Thyroid journal</a>. Retrieved May 2026.</li>
               <li><a href="https://www.thyroid.org/hypothyroidism/" rel="noopener" target="_blank">American Thyroid Association — Patient Resources on Hypothyroidism</a>. Retrieved May 2026.</li>
-              <li><a href="https://www.thyroid.org/ata-clinical-practice-guidelines/" rel="noopener" target="_blank">ATA — American Thyroid Association — Hypothyroidism Clinical Guidelines</a>. Retrieved May 2026.</li>
-              <li><a href="https://www.cdc.gov/nchs/nhanes/index.htm" rel="noopener" target="_blank">NHANES Thyroid Data — National Center for Health Statistics</a>. Retrieved May 2026.</li>
+              <li><a href="https://www.thyroid.org/professionals/ata-professional-guidelines/" rel="noopener" target="_blank">ATA — American Thyroid Association — Hypothyroidism Clinical Guidelines</a>. Retrieved May 2026.</li>
+              <li><a href="https://www.cdc.gov/nchs/nhanes/" rel="noopener" target="_blank">NHANES Thyroid Data — National Center for Health Statistics</a>. Retrieved May 2026.</li>
               <li><a href="https://www.cdph.ca.gov" rel="noopener" target="_blank">California Department of Public Health — Thyroid Disease Surveillance</a>. Retrieved May 2026.</li>
             </ol>
           </div>

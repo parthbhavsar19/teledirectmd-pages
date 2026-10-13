@@ -14,7 +14,7 @@ export default function ConsumerHealthDataPrivacy() {
   return (
     <div style={{ maxWidth: 800, margin: '0 auto', padding: '40px 24px 80px' }}>
       <h1 style={{ fontSize: '2rem', fontWeight: 700, color: '#1a1a1a', marginBottom: 8 }}>Consumer Health Data Privacy Policy</h1>
-      <p style={{ color: '#666', fontSize: '0.95rem', marginBottom: 32 }}>Effective date: October 7, 2026</p>
+      <p style={{ color: '#666', fontSize: '0.95rem', marginBottom: 32 }}>Effective date: October 13, 2026</p>
 
       <section style={{ lineHeight: 1.8, color: '#333', fontSize: '1rem' }}>
         <p>This policy is published by Mahavir Health Services LLC, doing business as TeleDirectMD (&ldquo;TeleDirectMD,&rdquo; &ldquo;we,&rdquo; or &ldquo;us&rdquo;). It explains how we handle consumer health data and the rights that residents of Washington, Nevada, Connecticut and California have under their state laws. It is separate from our <a href="/privacy-policy/" style={s.link}>Privacy Policy</a> and our <a href="/notice-of-privacy-practices/" style={s.link}>Notice of Privacy Practices</a>.</p>

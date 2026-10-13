@@ -39,7 +39,7 @@ const MEDICATIONS = [
   { name: "Adapalene 0.1% / 0.3% (topical retinoid)", regimen: "Thin layer to affected skin once daily at night", price: "~$10–$30 / tube GoodRx (generic); 0.1% also OTC", priceHref: "https://www.goodrx.com/adapalene", firstLine: true, notes: "Foundational topical retinoid. Start every other night to limit irritation; use sunscreen. Pairs well with benzoyl peroxide." },
   { name: "Tretinoin 0.025% / 0.05% (topical retinoid)", regimen: "Pea-sized amount at night to dry skin", price: "~$20–$45 / tube GoodRx (generic)", priceHref: "https://www.goodrx.com/tretinoin", firstLine: true, notes: "Effective topical retinoid; avoid in pregnancy. Expect a few weeks before improvement." },
   { name: "Clindamycin 1% + benzoyl peroxide (topical)", regimen: "Apply to affected areas once or twice daily", price: "~$20–$60 / tube GoodRx (generic)", priceHref: "https://www.goodrx.com/clindamycin-benzoyl-peroxide", firstLine: true, notes: "Topical antibiotic always combined with benzoyl peroxide to limit resistance, per the AAD 2024 guideline." },
-  { name: "Doxycycline 50 / 100 mg (oral antibiotic)", regimen: "50–100 mg once or twice daily, typically 3–6 months", price: "~$10–$25 / month GoodRx (generic)", priceHref: "https://www.goodrx.com/doxycycline", firstLine: false, notes: "For moderate inflammatory acne, short-term and combined with a topical retinoid or benzoyl peroxide. Avoid in pregnancy; photosensitivity." },
+  { name: "Doxycycline 50 / 100 mg (oral antibiotic)", regimen: "50–100 mg once or twice daily, typically 3–6 months", price: "~$10–$25 / month GoodRx (generic)", priceHref: "https://www.goodrx.com/doxycycline-hyclate", firstLine: false, notes: "For moderate inflammatory acne, short-term and combined with a topical retinoid or benzoyl peroxide. Avoid in pregnancy; photosensitivity." },
   { name: "Spironolactone 50–200 mg (hormonal, adult women)", regimen: "50–200 mg daily", price: "~$10–$30 / month GoodRx (generic)", priceHref: "https://www.goodrx.com/spironolactone", firstLine: false, notes: "Oral hormonal option for adult-female jawline/chin acne. Not for use in pregnancy; the physician reviews suitability." }
 ];
 
@@ -250,7 +250,7 @@ export default function VtAcneTreatmentOnline() {
                       Reviewed by <a href={PHYSICIAN.bioUrl}>{PHYSICIAN.name}</a> — Board-Certified {PHYSICIAN.specialty}
                     </span>
                     <span className="vt-acne-treatment-online__byline-meta">
-                      NPI {PHYSICIAN.npi} · Vermont Medical License #042.0040345-COMP (<a href="https://secure.professionals.healthvermont.gov/PROD/PORTAL/PRLicenseSearch/SearchPage" rel="noopener" target="_blank">verify</a>) · Last reviewed{' '}
+                      NPI {PHYSICIAN.npi} · Vermont Medical License #042.0040345-COMP (<a href="https://www.healthvermont.gov/systems/board-medical-practice/look-health-professional" rel="noopener" target="_blank">verify</a>) · Last reviewed{' '}
                       <time dateTime={DATE_MODIFIED}>{new Date(DATE_MODIFIED).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</time>
                     </span>
                   </div>
@@ -355,7 +355,7 @@ export default function VtAcneTreatmentOnline() {
 
             <h3>What standard of care applies to Vermont telehealth physicians?</h3>
             <p>
-              The <a href="https://www.healthvermont.gov/systems/board-medical-practice" rel="noopener" target="_blank">Vermont Board of Medical Practice</a> is explicit: the standard of care is the same whether a patient is seen in person or by telehealth. Physicians must be licensed in Vermont to treat Vermont patients — a requirement TeleDirectMD satisfies. Dr. Bhavsar is a Vermont-licensed, board-certified physician of the American Board of Family Medicine and holds Vermont Medical License #042.0040345-COMP issued by the Vermont Board of Medical Practice. <a href="https://secure.professionals.healthvermont.gov/PROD/PORTAL/PRLicenseSearch/SearchPage" rel="noopener" target="_blank">Verify license</a> · <a href="/about/">Dr. Bhavsar bio</a>.
+              The <a href="https://www.healthvermont.gov/systems/board-medical-practice" rel="noopener" target="_blank">Vermont Board of Medical Practice</a> is explicit: the standard of care is the same whether a patient is seen in person or by telehealth. Physicians must be licensed in Vermont to treat Vermont patients — a requirement TeleDirectMD satisfies. Dr. Bhavsar is a Vermont-licensed, board-certified physician of the American Board of Family Medicine and holds Vermont Medical License #042.0040345-COMP issued by the Vermont Board of Medical Practice. <a href="https://www.healthvermont.gov/systems/board-medical-practice/look-health-professional" rel="noopener" target="_blank">Verify license</a> · <a href="/about/">Dr. Bhavsar bio</a>.
             </p>
 
             <h3>Are these medications controlled substances under Vermont law?</h3>

@@ -59,7 +59,7 @@ const FAQ_ITEMS = [
       'Longer than in most of the country. The northern New England respiratory-virus season runs roughly October through April, stretching at both ends compared with southern states. Bacterial sinusitis, when it occurs, tends to follow a viral upper-respiratory infection and clusters from December through March. Knowing the calendar helps the physician weigh whether your timeline fits a lingering viral course or has crossed into bacterial territory.',
     answer: (
       <p>
-        Longer than in most of the country. The northern New England respiratory-virus season runs roughly October through April, stretching at both ends compared with southern states, consistent with <a href="https://www.healthvermont.gov/disease-control/respiratory-illness" rel="noopener" target="_blank">Vermont Department of Health respiratory-illness surveillance</a>. Bacterial sinusitis, when it occurs, tends to follow a viral upper-respiratory infection and clusters from December through March. Knowing the calendar helps the physician weigh whether your timeline fits a lingering viral course or has crossed into bacterial territory.
+        Longer than in most of the country. The northern New England respiratory-virus season runs roughly October through April, stretching at both ends compared with southern states, consistent with <a href="https://www.healthvermont.gov/disease-control/respiratory-illnesses" rel="noopener" target="_blank">Vermont Department of Health respiratory-illness surveillance</a>. Bacterial sinusitis, when it occurs, tends to follow a viral upper-respiratory infection and clusters from December through March. Knowing the calendar helps the physician weigh whether your timeline fits a lingering viral course or has crossed into bacterial territory.
       </p>
     ),
   },
@@ -315,7 +315,7 @@ export default function VtSinusInfectionTreatmentOnline() {
                       Reviewed by <a href={PHYSICIAN.bioUrl}>{PHYSICIAN.name}</a> — Board-Certified {PHYSICIAN.specialty} (American Board of Family Medicine)
                     </span>
                     <span className="tdmd-vt-cond__byline-meta">
-                      NPI {PHYSICIAN.npi} · Vermont Medical License #{PHYSICIAN.licenseNumber} (<a href="https://secure.professionals.healthvermont.gov/PROD/PORTAL/PRLicenseSearch/SearchPage" rel="noopener" target="_blank">verify</a>) · Last reviewed{' '}
+                      NPI {PHYSICIAN.npi} · Vermont Medical License #{PHYSICIAN.licenseNumber} (<a href="https://www.healthvermont.gov/systems/board-medical-practice/look-health-professional" rel="noopener" target="_blank">verify</a>) · Last reviewed{' '}
                       <time dateTime={DATE_MODIFIED}>{new Date(DATE_MODIFIED).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</time>
                     </span>
                   </div>
@@ -407,7 +407,7 @@ export default function VtSinusInfectionTreatmentOnline() {
           <div className="tdmd-container">
             <h2>Vermont&apos;s Sinus Calendar: A Longer Season With a Sugaring Twist</h2>
             <p>
-              Sinus infections are not evenly spread across the year, and in Vermont the curve has its own shape. The respiratory-virus season here runs roughly October through April &mdash; longer at both ends than in much of the country &mdash; which is the backdrop for most of the sinus complaints the practice sees. Bacterial sinusitis, when it does occur, almost always rides in on the back of a viral upper-respiratory infection and clusters from December through March, in line with <a href="https://www.healthvermont.gov/disease-control/respiratory-illness" rel="noopener" target="_blank">Vermont Department of Health respiratory-illness surveillance</a>.
+              Sinus infections are not evenly spread across the year, and in Vermont the curve has its own shape. The respiratory-virus season here runs roughly October through April &mdash; longer at both ends than in much of the country &mdash; which is the backdrop for most of the sinus complaints the practice sees. Bacterial sinusitis, when it does occur, almost always rides in on the back of a viral upper-respiratory infection and clusters from December through March, in line with <a href="https://www.healthvermont.gov/disease-control/respiratory-illnesses" rel="noopener" target="_blank">Vermont Department of Health respiratory-illness surveillance</a>.
             </p>
             <p>
               Then comes the part of the calendar unique to this state. Maple sugaring season opens in late February and runs into April, and through those weeks patients describe a reliable uptick in sinus pressure and congestion. The cause is rarely a fresh infection. Sap shacks and evaporators put woodsmoke and steam into the air around anyone tending a boil, and smoke is a well-recognized irritant to nasal and sinus tissue that is already inflamed from a winter cold. Layer on the dramatic day-to-night temperature swings of a Vermont mud-season afternoon &mdash; warm enough to run the sap, freezing again by dark &mdash; and mucus thickens while drainage stalls. The net effect feels like an infection but is frequently irritant inflammation tacked onto the tail of the virus season.
@@ -439,7 +439,7 @@ export default function VtSinusInfectionTreatmentOnline() {
 
             <h3>What standard does the treating physician owe you?</h3>
             <p>
-              The <a href="https://www.healthvermont.gov/systems/board-medical-practice" rel="noopener" target="_blank">Vermont Board of Medical Practice</a> sets a single standard of care across in-person and telehealth visits alike. A Vermont license is required to treat patients located in Vermont. Dr. Bhavsar holds Vermont Medical License #042.0040345-COMP from the Board. <a href="https://secure.professionals.healthvermont.gov/PROD/PORTAL/PRLicenseSearch/SearchPage" rel="noopener" target="_blank">Verify the license</a> · <a href="/about/">Dr. Bhavsar&apos;s bio</a>.
+              The <a href="https://www.healthvermont.gov/systems/board-medical-practice" rel="noopener" target="_blank">Vermont Board of Medical Practice</a> sets a single standard of care across in-person and telehealth visits alike. A Vermont license is required to treat patients located in Vermont. Dr. Bhavsar holds Vermont Medical License #042.0040345-COMP from the Board. <a href="https://www.healthvermont.gov/systems/board-medical-practice/look-health-professional" rel="noopener" target="_blank">Verify the license</a> · <a href="/about/">Dr. Bhavsar&apos;s bio</a>.
             </p>
 
             <h3>Are sinusitis antibiotics controlled in Vermont?</h3>
@@ -559,7 +559,7 @@ export default function VtSinusInfectionTreatmentOnline() {
                   <tr className="tdmd-vt-cond__med-firstline">
                     <td><strong>Amoxicillin-clavulanate 875/125 mg</strong> · First-line</td>
                     <td>875/125 mg PO twice daily &times; 5–7 days</td>
-                    <td><a href="https://www.goodrx.com/amoxicillin-clavulanate" target="_blank" rel="noopener">~$15–$30 generic</a></td>
+                    <td><a href="https://www.goodrx.com/amoxicillin-potassium-clavulanate" target="_blank" rel="noopener">~$15–$30 generic</a></td>
                     <td>Preferred when broader coverage is warranted (e.g., recent antibiotics, higher-risk features).</td>
                   </tr>
                   <tr>
@@ -691,7 +691,7 @@ export default function VtSinusInfectionTreatmentOnline() {
               <li><a href="https://legislature.vermont.gov/statutes/fullchapter/18/219" rel="noopener" target="_blank">18 V.S.A. Chapter 219 (Vermont telemedicine statute)</a>. Retrieved June 2026.</li>
               <li><a href="https://legislature.vermont.gov/statutes/fullchapter/26/023" rel="noopener" target="_blank">26 V.S.A. Chapter 23 (Vermont Medical Practice Act)</a>. Retrieved June 2026.</li>
               <li><a href="https://www.healthvermont.gov/systems/board-medical-practice" rel="noopener" target="_blank">Vermont Board of Medical Practice</a>. Retrieved June 2026.</li>
-              <li><a href="https://www.healthvermont.gov/disease-control/respiratory-illness" rel="noopener" target="_blank">Vermont Department of Health — Respiratory Illness Surveillance</a>. Retrieved June 2026.</li>
+              <li><a href="https://www.healthvermont.gov/disease-control/respiratory-illnesses" rel="noopener" target="_blank">Vermont Department of Health — Respiratory Illnesses</a>. Retrieved June 2026.</li>
               <li><a href="https://www.cdc.gov/sinus-infection/about/index.html" rel="noopener" target="_blank">CDC — Sinus Infection (Sinusitis) Basics</a>. Retrieved June 2026.</li>
               <li><a href="https://www.cdc.gov/antibiotic-use/sinus-infection.html" rel="noopener" target="_blank">CDC — Antibiotic Use and Sinus Infections</a>. Retrieved June 2026.</li>
             </ol>

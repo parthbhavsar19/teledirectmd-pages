@@ -14,28 +14,27 @@ const GOLD = '#E8A33D';
 const DRUGS = [
   { name: 'Nitrofurantoin', brand: 'Macrobid', price: '$7–$22', tag: 'First-line', tagColor: TEAL, note: '5-day course · minimal resistance · preferred per IDSA' },
   { name: 'Trimethoprim-sulfa', brand: 'Bactrim', price: '$5–$20', tag: 'Cheapest', tagColor: '#437A22', note: '3-day course · where local resistance is under 20%' },
-  { name: 'Cephalexin', brand: 'Keflex', price: '$11–$18', tag: 'Alternative', tagColor: '#6E7A80', note: 'Beta-lactam alternative · safe in pregnancy' },
+  { name: 'Cephalexin', brand: 'Keflex', price: '$11–$18', tag: 'Alternative', tagColor: '#6E7A80', note: 'Beta-lactam alternative · generally less effective than first-line options' },
   { name: 'Fosfomycin', brand: 'Monurol', price: '$20–$52', tag: 'Single dose', tagColor: '#006494', note: 'One-time 3g sachet · convenient but pricier' },
   { name: 'Ciprofloxacin', brand: 'Cipro', price: '$25', tag: 'Reserved', tagColor: '#8a6d3b', note: 'No longer first-line for uncomplicated cystitis' },
-  { name: 'Blujepa', brand: 'gepotidacin', price: '$400–$600', tag: 'Brand only', tagColor: '#B4573A', note: 'Newest FDA-approved oral · no generic · rarely needed' },
+  { name: 'Blujepa', brand: 'gepotidacin', price: 'about $1,800+', tag: 'Brand only', tagColor: '#B4573A', note: 'Newest FDA-approved oral · no generic · rarely needed' },
 ];
 
 const BARS = [
-  { label: 'TeleDirectMD visit + generic', value: '$85–$93', w: 12, hero: true },
-  { label: 'Retail clinic (CVS MinuteClinic)', value: '$105–$153', w: 20 },
-  { label: 'Urgent care (uninsured)', value: '$150–$450', w: 52 },
-  { label: 'ER for a UTI', value: '$1,200–$3,000+', w: 100, warn: true },
+  { label: 'TeleDirectMD visit + generic', value: '$84–$104', w: 12, hero: true },
+  { label: 'Urgent care (uninsured)', value: '$150–$275', w: 30 },
+  { label: 'ER (uninsured)', value: '$1,500–$3,000+', w: 100, warn: true },
 ];
 
 const STEPS = [
-  { n: '1', h: 'Book in 2 minutes', p: 'Pick a same-day or next-available slot. Pay $79, or use HSA/FSA, or apply in-network insurance.' },
+  { n: '1', h: 'Book in 2 minutes', p: 'Pick a same-day or next-available slot. Pay $79, use HSA/FSA, or use in-network insurance where available.' },
   { n: '2', h: 'Video visit with an MD', p: 'Connect by secure video with Dr. Bhavsar. No app download. Most visits take 10–15 minutes.' },
-  { n: '3', h: 'Prescription to your pharmacy', p: 'Get a diagnosis, a written summary, and an e-prescription routed to your pharmacy, usually within the hour.' },
+  { n: '3', h: 'Prescription to your pharmacy', p: 'Get a diagnosis, a written summary, and, when clinically appropriate, an e-prescription routed to your pharmacy the same day.' },
 ];
 
 const FAQS = [
   { q: 'Are there any over-the-counter antibiotics for a UTI?', a: 'No. In the U.S., all oral antibiotics that cure a UTI (nitrofurantoin, Bactrim, cephalexin, fosfomycin) require a prescription. OTC products like AZO only relieve symptoms; they do not cure the infection.' },
-  { q: 'How much do UTI antibiotics cost without insurance?', a: 'Generics are cheap with GoodRx: nitrofurantoin $7–$22, Bactrim $5–$20, cephalexin $11–$18, fosfomycin $20–$52. The newest brand-only option, Blujepa, runs $400–$600 and is rarely needed.' },
+  { q: 'How much do UTI antibiotics cost without insurance?', a: 'Generics are cheap with GoodRx: nitrofurantoin $7–$22, Bactrim $5–$20, cephalexin $11–$18, fosfomycin $20–$52. The newest brand-only option, Blujepa, runs about $1,800 or more for a course and is rarely needed.' },
   { q: 'How do I get UTI antibiotics without seeing a doctor in person?', a: 'Eligible non-pregnant adult women can book a telehealth visit. TeleDirectMD does not treat male UTIs. A licensed MD can assess your symptoms by video and send an e-prescription to your pharmacy same-day, with no in-person appointment or urinalysis required for an uncomplicated UTI.' },
   { q: 'Is AZO an antibiotic?', a: 'No. AZO (phenazopyridine) is a urinary analgesic that numbs burning within about 20 minutes. It has no antibacterial activity and will not cure your UTI.' },
   { q: 'What is the cheapest UTI antibiotic?', a: 'Trimethoprim-sulfamethoxazole (generic Bactrim) is often the cheapest at $5–$20, followed closely by nitrofurantoin. Your prescriber picks based on local resistance and your history.' },
@@ -169,7 +168,7 @@ export default function UtiAntibioticsPage({ price = '79' }) {
               <span className="med">$5–$25</span><span className="lab">generic antibiotic</span>
             </div>
             <div><a href="/book-online/" className="uap-cta">Book a $79 UTI Visit Today →</a></div>
-            <p className="uap-trust">Board-certified MD · 40+ states + DC · evenings &amp; weekends · HSA/FSA accepted · {AGGREGATE_RATING_VALUE}★ ({TOTAL_REVIEW_COUNT} reviews)</p>
+            <p className="uap-trust">Board-certified MD · 40+ states · evenings &amp; weekends · HSA/FSA accepted · {AGGREGATE_RATING_VALUE}★ ({TOTAL_REVIEW_COUNT} reviews)</p>
           </div>
           <div className="uap-hcard">
             <h3>What each UTI antibiotic costs</h3>
@@ -280,7 +279,7 @@ export default function UtiAntibioticsPage({ price = '79' }) {
       <section className="uap-sec uap-alt">
         <div className="uap-wrap">
           <p className="uap-kicker">How it works</p>
-          <h2>From symptoms to prescription in under an hour</h2>
+          <h2>From symptoms to prescription, often the same day</h2>
           <div className="uap-steps" style={{ marginTop: '1.5rem' }}>
             {STEPS.map((s) => (
               <div className="uap-step" key={s.n}>
@@ -319,7 +318,6 @@ export default function UtiAntibioticsPage({ price = '79' }) {
                 <li>Pregnancy</li>
                 <li>Male patients: we do not treat male UTIs</li><li>Recurrent UTI within 4 weeks</li>
                 <li>Visible blood in urine</li>
-                <li>Male patients (warrants in-person workup)</li>
               </ul>
             </div>
           </div>
@@ -354,9 +352,7 @@ export default function UtiAntibioticsPage({ price = '79' }) {
           <div style={{ marginTop: '2.5rem' }}>
             <p className="uap-kicker">Licensed in 40+ states</p>
             <div className="uap-chips">
-              {['Alabama','Alaska','Arizona','California','Colorado','Connecticut','Delaware','Florida','Georgia','Hawaii','Idaho','Illinois','Indiana','Iowa','Kansas','Kentucky','Louisiana','Maine','Maryland','Michigan','Minnesota','Mississippi','Missouri','Montana','Nebraska','Nevada','New Hampshire','New Jersey','North Carolina','North Dakota','Ohio','Oklahoma','Pennsylvania','South Carolina','South Dakota','Tennessee','Texas','Utah','Vermont','Virginia','Washington','West Virginia','Wisconsin','Wyoming'].map((s) => (
-                <span className="uap-chip" key={s}>{s}</span>
-              ))}
+              <a href="/states-we-serve/" className="uap-chip">See the states we serve</a>
             </div>
           </div>
 
@@ -366,8 +362,10 @@ export default function UtiAntibioticsPage({ price = '79' }) {
               <a href="https://www.webmd.com/a-to-z-guides/what-are-antibiotics-for-uti" rel="nofollow noopener">WebMD — Antibiotics for UTI</a>;{' '}
               <a href="https://www.goodrx.com/conditions/urinary-tract-infection/drugs" rel="nofollow noopener">GoodRx — UTI antibiotic prices (2026)</a>;{' '}
               <a href="https://blog.walgreens.com/health/general-health/how-do-you-get-rid-of-a-uti.html" rel="nofollow noopener">Walgreens</a>;{' '}
-              <a href="https://www.idsociety.org/practice-guideline/urinary-tract-infection-uti/" rel="nofollow noopener">IDSA — Uncomplicated UTI guideline</a>;{' '}
-              <a href="https://www.talktomira.com/post/how-much-does-urgent-care-cost-without-insurance" rel="nofollow noopener">Mira Health (2025)</a>.<br />
+              <a href="https://www.idsociety.org/practice-guideline/uncomplicated-cystitis-and-pyelonephritis-uti/" rel="nofollow noopener">IDSA — Uncomplicated UTI guideline</a>;{' '}
+              <a href="https://www.talktomira.com/post/how-much-does-urgent-care-cost-without-insurance" rel="nofollow noopener">Mira Health (2026)</a>;{' '}
+              <a href="https://bettercare.com/costs/er-visit-cost" rel="nofollow noopener">BetterCare (ER cost)</a>;{' '}
+              <a href="https://www.drugs.com/price-guide/blujepa" rel="nofollow noopener">Drugs.com (Blujepa)</a>.<br />
               Medically reviewed by <a href="/about/">Parth Bhavsar, MD</a> — Board-Certified Family Medicine · NPI 1104323203 · LegitScript Certified · HIPAA-Compliant. Updated July 2026. AZO and other OTC products only relieve symptoms; they do not cure the infection.
             </p>
           </div>

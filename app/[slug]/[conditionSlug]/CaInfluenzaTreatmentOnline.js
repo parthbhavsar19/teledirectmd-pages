@@ -692,7 +692,7 @@ export default function CaInfluenzaTreatmentOnline() {
               <li><a href="https://www.cdph.ca.gov/Programs/CID/DCDC/Pages/Immunization/Influenza.aspx" rel="noopener" target="_blank">CDPH — Influenza Information. Retrieved May 2026.</a></li>
               <li><a href="https://www.cdc.gov/flu/professionals/antivirals/summary-clinicians.htm" rel="noopener" target="_blank">CDC — Influenza Antiviral Medications: Summary for Clinicians 2025–2026. Retrieved May 2026.</a></li>
               <li><a href="https://www.idsociety.org/practice-guideline/influenza/" rel="noopener" target="_blank">IDSA — Influenza Clinical Practice Guideline. Retrieved May 2026.</a></li>
-              <li><a href="https://www.cdc.gov/flu/about/burden/index.html" rel="noopener" target="_blank">CDC — Influenza Disease Burden. Retrieved May 2026.</a></li>
+              <li><a href="https://www.cdc.gov/flu-burden/php/about/index.html" rel="noopener" target="_blank">CDC: About Estimated Flu Burden. Retrieved May 2026.</a></li>
               <li><a href="https://www.mbc.ca.gov/News/" rel="noopener" target="_blank">Medical Board of California — Electronic Prescribing (AB 2789). Retrieved May 2026.</a></li>
             </ol>
           </div>

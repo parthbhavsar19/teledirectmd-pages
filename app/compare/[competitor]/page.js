@@ -18,10 +18,6 @@ import { buildCostCompareJsonLd } from '../../../lib/cost-compare-schema';
 import { CitableSummaryBlock } from '../../components/CitableSummary';
 import { summarizeCompare, summarizeUseCase, summarizeWhoWeServe, summarizeFaqDeepDive, citableSummaryToJsonLd } from '../../../lib/citable-summary';
 
-const STATE_LIST = [
-  ['AL','Alabama'],['AK','Alaska'],['AZ','Arizona'],['CA','California'],['CO','Colorado'],['CT','Connecticut'],['DE','Delaware'],['FL','Florida'],['GA','Georgia'],['HI','Hawaii'],['IA','Iowa'],['ID','Idaho'],['IL','Illinois'],['IN','Indiana'],['KS','Kansas'],['KY','Kentucky'],['LA','Louisiana'],['MD','Maryland'],['ME','Maine'],['MI','Michigan'],['MN','Minnesota'],['MO','Missouri'],['MS','Mississippi'],['MT','Montana'],['NC','North Carolina'],['ND','North Dakota'],['NE','Nebraska'],['NH','New Hampshire'],['NJ','New Jersey'],['NV','Nevada'],['OH','Ohio'],['OK','Oklahoma'],['PA','Pennsylvania'],['SC','South Carolina'],['SD','South Dakota'],['TN','Tennessee'],['TX','Texas'],['UT','Utah'],['VA','Virginia'],['VT','Vermont'],['WA','Washington'],['WI','Wisconsin'],['WV','West Virginia'],['WY','Wyoming'],
-];
-
 export async function generateStaticParams() {
   return COMPARE_PAGE_SLUGS.map((slug) => ({ competitor: slug }));
 }
@@ -60,6 +56,11 @@ export default async function ComparePage({ params }) {
   const pid = cfg.pid;
   const related = COMPARE_RELATED[competitor] || { compare: [], cost: [] };
   const tableRows = getCompareTableRows(competitor);
+  // Bar widths scale to the higher of $79 and the competitor's first listed cash price.
+  const compPriceNum = Number((String(cfg.competitor?.urgentCare || '').match(/\$(\d+(?:\.\d+)?)/) || [])[1]) || null;
+  const barMax = compPriceNum ? Math.max(79, compPriceNum) : null;
+  const barTdmd = barMax ? Math.round((79 / barMax) * 100) : 49;
+  const barComp = barMax ? Math.round((compPriceNum / barMax) * 100) : 100;
 
   // ── JSON-LD: built via shared helper to keep E-E-A-T fields consistent
   // across cost + compare pages (author, publisher, address, lastReviewed,
@@ -118,6 +119,7 @@ export default async function ComparePage({ params }) {
         .tdmd-hero .tdmd-hero-note{color:#5c7078;}
         .tdmd-hero .tdmd-reviewed{color:#9fc6ca;}
         .tdmd-hero .tdmd-reviewed a{color:#fff;text-decoration:underline;}
+        .tdmd-section h2,.tdmd-hero-card h2{font-family:'Fraunces',Georgia,serif;font-weight:600;letter-spacing:-0.01em;}
       `}</style>
       <CitableSummaryBlock summary={citableSummary_AI} jsonLd={citableJsonLd_AI} idSuffix={`compare-${competitor}`} />
 
@@ -153,17 +155,13 @@ export default async function ComparePage({ params }) {
               <p className="tdmd-hero-sub" data-speakable="true">{cfg.heroSub}</p>
               <p dangerouslySetInnerHTML={{ __html: cfg.heroIntro }} />
 
-              <ul className="tdmd-hero-benefits">
-                {cfg.heroBenefits.map((b, i) => <li key={i}>{b}</li>)}
-              </ul>
-
               <div className="tdmd-hero-ctas">
                 <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Start a $79 Visit With an MD</a>
                 <a href="/insurance/" className="tdmd-btn tdmd-btn-outline">Use Insurance</a>
               </div>
 
               <p className="tdmd-reviewed">
-                Comparison guide last updated {today}. Last verified against {cfg.competitorName} official pricing on {LAST_VERIFIED}. Reviewed by{' '}
+                Comparison guide last updated {today}. Last verified against {cfg.competitorName} official materials and cited sources on {LAST_VERIFIED}. Reviewed by{' '}
                 <a className="tdmd-author-link" href="/about/" aria-label="About Parth Bhavsar, MD">Parth Bhavsar, MD</a>{' '}— Board-Certified Family Medicine · NPI 1104323203 · LegitScript Certified · HIPAA-Compliant.
               </p>
             </div>
@@ -251,6 +249,9 @@ export default async function ComparePage({ params }) {
           {cfg.pricingDive.paragraphs.map((p, i) => (
             <p key={i} dangerouslySetInnerHTML={{ __html: p }} />
           ))}
+          <p style={{ color: 'var(--tdmd-muted)', fontSize: '0.95rem' }}>
+            Visit fees don&apos;t include medication at either service. Any prescription is filled and paid for at your pharmacy. See <a href="/cost/online-prescription-cost/">what a visit plus a generic prescription costs</a>.
+          </p>
         </div>
       </section>
 
@@ -269,13 +270,8 @@ export default async function ComparePage({ params }) {
         <div className="tdmd-container">
           <h2>State Coverage: TeleDirectMD vs. {cfg.competitorName}</h2>
           <p>
-            TeleDirectMD is licensed in <strong>40+ states</strong>. {cfg.competitorName} state coverage is listed in the comparison table above (with source). If your state isn\'t on the TeleDirectMD list below, {cfg.competitorName} or another platform may be a better fit.
+            TeleDirectMD is licensed in <strong>40+ states</strong>. {cfg.competitorName} state coverage is listed in the comparison table above (with source). <a href="/states-we-serve/">Check whether TeleDirectMD serves your state</a>. If it doesn&apos;t, {cfg.competitorName} or another platform may be a better fit.
           </p>
-          <div className="tdmd-other-states-grid">
-            {STATE_LIST.map(([abbr, name]) => (
-              <a key={abbr} href={`/${abbr.toLowerCase()}/`} className="tdmd-other-state-link">{name}</a>
-            ))}
-          </div>
         </div>
       </section>
 
@@ -351,7 +347,7 @@ export default async function ComparePage({ params }) {
             <a href="/insurance/united-healthcare/"        className="tdmd-related-card"><span className="tdmd-related-title">UnitedHealthcare</span><span className="tdmd-related-desc">{`In-network in ${getPayerFamilyStateCount('uhc')} states`}</span></a>
           </div>
           <p style={{ marginTop: '1rem', fontSize: '0.92rem', color: 'var(--tdmd-muted)' }}>
-            Don\'t see your plan? <a href="/insurance/" style={{ color: 'var(--tdmd-teal)', fontWeight: 600 }}>View all insurance options</a> or book the flat $79 self-pay visit.
+            Don&apos;t see your plan? <a href="/insurance/" style={{ color: 'var(--tdmd-teal)', fontWeight: 600 }}>View all insurance options</a> or book the flat $79 self-pay visit.
           </p>
         </div>
       </section>
@@ -480,11 +476,11 @@ export default async function ComparePage({ params }) {
               <h3>Cash-Pay Cost vs. {cfg.competitorName}</h3>
               <div className="tdmd-bar-row">
                 <div className="tdmd-bar-label"><span>TeleDirectMD</span><span>$79</span></div>
-                <div className="tdmd-bar-track"><div className="tdmd-bar-fill tdmd-bar-fill-tdmd" style={{ '--w': 49 }} /></div>
+                <div className="tdmd-bar-track"><div className="tdmd-bar-fill tdmd-bar-fill-tdmd" style={{ '--w': barTdmd }} /></div>
               </div>
               <div className="tdmd-bar-row">
                 <div className="tdmd-bar-label"><span>{cfg.competitorName}</span><span>{cfg.competitor.urgentCare}</span></div>
-                <div className="tdmd-bar-track"><div className="tdmd-bar-fill" style={{ '--w': 100 }} /></div>
+                <div className="tdmd-bar-track"><div className="tdmd-bar-fill" style={{ '--w': barComp }} /></div>
               </div>
               <p className="tdmd-price-footnote">
                 {cfg.competitorName} pricing per <a href={cfg.competitor.urgentCareSrc} target="_blank" rel="nofollow noopener">source</a>. TeleDirectMD published flat rate.
@@ -542,10 +538,10 @@ export default async function ComparePage({ params }) {
         <div className="tdmd-container">
           <h2>Disclaimer & Verification</h2>
           <p>
-            This page is an informational comparison between TeleDirectMD and <strong>{cfg.competitorName}</strong>. It is not affiliated with, endorsed by, or sponsored by {cfg.competitorName}. All {cfg.competitorName} pricing, feature, and coverage claims are sourced from {cfg.competitorName}\'s public materials and third-party reviews; see the References section for citations. Pricing and features change — always verify current rates on the {cfg.competitorName} website (<a href={cfg.competitorUrl} target="_blank" rel="nofollow noopener">{cfg.competitorUrl}</a>) before booking.
+            This page is an informational comparison between TeleDirectMD and <strong>{cfg.competitorName}</strong>. It is not affiliated with, endorsed by, or sponsored by {cfg.competitorName}. All {cfg.competitorName} pricing, feature, and coverage claims are sourced from {cfg.competitorName}&apos;s public materials and third-party reviews; see the References section for citations. Pricing and features change — always verify current rates on the {cfg.competitorName} website (<a href={cfg.competitorUrl} target="_blank" rel="nofollow noopener">{cfg.competitorUrl}</a>) before booking.
           </p>
           <p>
-            <strong>Comparison guide last updated {today}. Last verified against {cfg.competitorName} official pricing on {LAST_VERIFIED}.</strong> TeleDirectMD provides telehealth services for non-emergency conditions in adults 18+ physically located in one of our 40+ licensed states at the time of the visit. We do not prescribe controlled substances. If you are experiencing a medical emergency, call 911 immediately.
+            <strong>Comparison guide last updated {today}. Last verified against {cfg.competitorName} official materials and cited sources on {LAST_VERIFIED}.</strong> TeleDirectMD provides telehealth services for non-emergency conditions in adults 18+ physically located in one of our 40+ licensed states at the time of the visit. We do not prescribe controlled substances. If you are experiencing a medical emergency, call 911 immediately.
           </p>
         </div>
       </section>

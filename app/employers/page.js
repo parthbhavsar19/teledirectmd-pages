@@ -80,8 +80,7 @@ const jsonLd = {
       sameAs: [
         'https://npiregistry.cms.hhs.gov/provider-view/1104323203',
         'https://www.healthgrades.com/physician/dr-parth-bhavsar',
-        'https://www.webmd.com/doctors/parth-bhavsar',
-        'https://www.zocdoc.com/doctor/parth-bhavsar',
+        'https://www.zocdoc.com/doctor/parth-bhavsar-md-652258',
       ],
     },
     {
@@ -110,16 +109,14 @@ const jsonLd = {
       sameAs: [
         'https://time.com/7331761/cold-shower-benefits-health/',
         'https://www.newsweek.com/woman-drinks-matcha-every-week-shock-ends-hospital-2127630',
-        'https://www.huffpost.com/entry/things-you-should-never-do-with-protein-powder_l_67e3d27ee4b0c1de2e0d8c91',
         'https://www.foxnews.com/food-drink/bananas-may-sabotaging-your-smoothies-superpowers-scientists-warn',
-        'https://www.britishgq.com/article/sleep-tips-good-night',
+        'https://www.gq-magazine.co.uk/article/9-best-watches-for-monitoring-your-health-according-to-experts',
         'https://parade.com/health/health-benefits-of-walnuts',
         'https://health.usnews.com/wellness/articles/should-i-use-collagen-supplements',
         'https://nypost.com/2025/11/01/lifestyle/bananas-may-be-making-your-smoothies-less-effective-scientists-say/',
         'https://www.healthline.com/health-news/amy-sedaris-talks-brain-health',
         'https://www.healthgrades.com/physician/dr-parth-bhavsar',
-        'https://www.zocdoc.com/doctor/parth-bhavsar',
-        'https://www.webmd.com/doctors/parth-bhavsar',
+        'https://www.zocdoc.com/doctor/parth-bhavsar-md-652258',
         'https://www.google.com/maps/place/TeleDirectMD',
       ],
       hasCredential: [

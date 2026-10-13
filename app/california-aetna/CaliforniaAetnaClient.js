@@ -75,7 +75,7 @@ const FAQS = [
   },
   {
     q: 'Can I use my Covered California plan?',
-    a: 'It depends on the specific carrier on your Covered California plan. <a href="https://www.coveredca.com/learning-center/information-for-existing-members/health-plans/" target="_blank" rel="noopener">Covered California</a> contracts with multiple carriers including Aetna CVS Health, Anthem Blue Cross, Blue Shield of California, Kaiser Permanente, and others. If your Covered California plan is administered by Aetna CVS Health (commercial network), TeleDirectMD is in-network. Other carriers may require self-pay at $79.',
+    a: 'It depends on the specific carrier on your Covered California plan. <a href="https://www.coveredca.com/" target="_blank" rel="noopener">Covered California</a> contracts with multiple carriers including Aetna CVS Health, Anthem Blue Cross, Blue Shield of California, Kaiser Permanente, and others. If your Covered California plan is administered by Aetna CVS Health (commercial network), TeleDirectMD is in-network. Other carriers may require self-pay at $79.',
   },
   {
     q: 'What if I have an Aetna Medicare Advantage or Medi-Cal plan?',

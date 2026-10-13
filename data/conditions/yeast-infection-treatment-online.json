@@ -433,7 +433,7 @@
         "Fluconazole (Rx)",
         "150 mg by mouth as a single dose",
         "One dose",
-        "First-line oral option per CDC guidelines. Convenient single-dose treatment. Contraindicated in pregnancy. Drug interactions with some medications."
+        "First-line oral option per CDC guidelines. Convenient single-dose treatment. Avoid in pregnancy (FDA warning; topical azoles preferred). Drug interactions with some medications."
       ],
       [
         "Clotrimazole cream (OTC)",
@@ -574,7 +574,7 @@
       },
       {
         "question": "Can I be treated during pregnancy?",
-        "answer": "TeleDirectMD does not treat yeast infections during pregnancy by telehealth. Oral fluconazole is contraindicated in pregnancy per CDC guidelines, and pregnant women should use topical azole therapy (intravaginal) for 7 days under in-person medical supervision. If you are pregnant with yeast infection symptoms, contact your OB/GYN or prenatal care provider."
+        "answer": "TeleDirectMD does not treat yeast infections during pregnancy by telehealth. Oral fluconazole should be avoided in pregnancy (FDA label warning), and per CDC guidelines pregnant women should use topical azole therapy (intravaginal) for 7 days under in-person medical supervision. If you are pregnant with yeast infection symptoms, contact your OB/GYN or prenatal care provider."
       },
       {
         "question": "Is a yeast infection an STI?",
@@ -608,16 +608,16 @@
       "url": "https://www.cdc.gov/std/treatment-guidelines/candidiasis.htm"
     },
     {
-      "text": "AAFP: Vaginal Candidiasis — Diagnosis and Treatment",
-      "url": "https://www.aafp.org/pubs/afp/issues/2024/0100/vaginal-candidiasis.html"
+      "text": "Geer K, Klega A. Vaginitis: Diagnosis and Treatment. Am Fam Physician. 2025;112(5):504-512",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41252833/"
     },
     {
       "text": "ACOG Practice Bulletin: Vaginitis in Nonpregnant Patients (2020)",
       "url": "https://www.acog.org/clinical/clinical-guidance/practice-bulletin/articles/2020/01/vaginitis-in-nonpregnant-patients"
     },
     {
-      "text": "Fluconazole for Vulvovaginal Candidiasis: Systematic Review and Meta-Analysis (PMC)",
-      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10294387/"
+      "text": "Rosa MI, Silva BR, Pires PS, et al. Weekly fluconazole therapy for recurrent vulvovaginal candidiasis: a systematic review and meta-analysis. Eur J Obstet Gynecol Reprod Biol. 2013;167(2):132-136",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23280281/"
     }
   ],
   "disclaimer": {
@@ -781,8 +781,8 @@
         "id": "cdc-sti"
       },
       {
-        "name": "AAFP: Vaginal Candidiasis — Diagnosis and Treatment",
-        "url": "https://www.aafp.org/pubs/afp/issues/2024/0100/vaginal-candidiasis.html",
+        "name": "AAFP (Am Fam Physician): Vaginitis: Diagnosis and Treatment (2025)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41252833/",
         "publisher": "American Academy of Family Physicians",
         "id": "aafp"
       },

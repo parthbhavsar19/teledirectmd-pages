@@ -10,7 +10,7 @@
  * FAQ accordion (12 Q/A), JSON-LD schemas (MedicalWebPage + FAQPage + Physician
  * + HowTo + BreadcrumbList + SpeakableSpecification — NEVER QAPage).
  *
- * Authority: AAFP
+ * Authority: IDSA
  * Guideline: CDC Animal Bite Guidelines + IDSA Skin and Soft Tissue Infection Guidelines
  *
  * Hard rules respected:
@@ -304,7 +304,7 @@ export default function CaDogBiteTreatmentOnline() {
                   <ul>
                     <li>Fast evaluation for dog bite (infection prevention and wound care) symptoms</li>
                     <li>Red-flag screening for serious complications requiring in-person care</li>
-                    <li>Guideline-based treatment per AAFP</li>
+                    <li>Guideline-based treatment per IDSA</li>
                     <li>e-Prescriptions to your CA pharmacy under AB 2789</li>
                     <li>Clear follow-up steps and prevention guidance</li>
                   </ul>
@@ -420,7 +420,7 @@ export default function CaDogBiteTreatmentOnline() {
               California ranks among the top states for dog bite incidents. The California Department of Public Health (CDPH) Rabies Surveillance Program tracks animal bites statewide — California averages approximately 14,000–16,000 dog bites reported annually, with actual incidence estimated significantly higher given underreporting. The CDC reports approximately 4.5 million dog bites occur in the United States each year, with an estimated 800,000 requiring medical attention. — <a href="https://www.cdph.ca.gov/Programs/CID/DCDC/Pages/Rabies.aspx" rel="noopener" target="_blank">CDPH — Rabies Surveillance Program</a>.
             </p>
             <p>
-              Clinical guidance for dog bite (infection prevention and wound care) is provided by <a href="https://www.cdc.gov/niosh/topics/animals/dog.html" rel="noopener" target="_blank">AAFP</a> through the CDC Animal Bite Guidelines + IDSA Skin and Soft Tissue Infection Guidelines. TeleDirectMD follows these guidelines on every patient visit.
+              Clinical guidance for dog bite (infection prevention and wound care) is provided by <a href="https://www.cdc.gov/rabies/hcp/clinical-care/post-exposure-prophylaxis.html" rel="noopener" target="_blank">CDC</a> through the CDC Animal Bite Guidelines + IDSA Skin and Soft Tissue Infection Guidelines. TeleDirectMD follows these guidelines on every patient visit.
             </p>
             <h3>What causes dog bite and who is most at risk in California?</h3>
             <p>
@@ -515,7 +515,7 @@ export default function CaDogBiteTreatmentOnline() {
           <div className="tdmd-container">
             <h2>Dog Bite (Infection Prevention and Wound Care) Medication Options and Costs in California</h2>
             <p>
-              Medications for dog bite (infection prevention and wound care) are selected based on current guidelines from <a href="https://www.cdc.gov/niosh/topics/animals/dog.html" rel="noopener" target="_blank">AAFP</a>, patient history, allergies, and relevant contraindications assessed at the visit. GoodRx-verified pricing is shown below.
+              Medications for dog bite (infection prevention and wound care) are selected based on current guidelines from <a href="https://www.cdc.gov/rabies/hcp/clinical-care/post-exposure-prophylaxis.html" rel="noopener" target="_blank">CDC</a>, patient history, allergies, and relevant contraindications assessed at the visit. GoodRx-verified pricing is shown below.
             </p>
             <div className="tdmd-table-wrap">
               <table className="tdmd-table" aria-label="Dog Bite (Infection Prevention and Wound Care) medication options and GoodRx prices">
@@ -534,19 +534,19 @@ export default function CaDogBiteTreatmentOnline() {
                   <tr className="tdmd-ca-uti__med-firstline">
                     <td><strong>Amoxicillin-clavulanate (Augmentin) 875/125 mg</strong> · First-line</td>
                     <td>875 mg twice daily × 5 days (prophylaxis) or 5–7 days (early infection)</td>
-                    <td><a href="https://www.goodrx.com/amoxicillin-clavulanate" target="_blank" rel="noopener">~$15–$35 / 20 tablets</a></td>
+                    <td><a href="https://www.goodrx.com/amoxicillin-potassium-clavulanate" target="_blank" rel="noopener">~$15–$35 / 20 tablets</a></td>
                     <td>First-line prophylaxis for dog bite per IDSA. Covers Pasteurella multocida, Capnocytophaga, anaerobes, streptococci, staphylococci. Begin within 8–12 hours of bite for prophylaxis to be effective.</td>
                   </tr>
                   <tr>
                     <td><strong>Doxycycline 100 mg oral (penicillin-allergic alternative)</strong></td>
                     <td>100 mg twice daily × 5–7 days — combine with metronidazole for anaerobic coverage</td>
-                    <td><a href="https://www.goodrx.com/doxycycline" target="_blank" rel="noopener">~$12–$25 / 30 tabs</a></td>
+                    <td><a href="https://www.goodrx.com/doxycycline-hyclate" target="_blank" rel="noopener">~$12–$25 / 30 tabs</a></td>
                     <td>Second-line for penicillin-allergic patients per IDSA. Add metronidazole 500 mg three times daily for anaerobic coverage. Not for use in pregnancy.</td>
                   </tr>
                   <tr>
                     <td><strong>TMP-SMX DS + metronidazole (penicillin-allergic alternative)</strong></td>
                     <td>TMP-SMX DS twice daily + metronidazole 500 mg three times daily × 5 days</td>
-                    <td><a href="https://www.goodrx.com/trimethoprim-sulfamethoxazole" target="_blank" rel="noopener">~$10–$20 combined</a></td>
+                    <td><a href="https://www.goodrx.com/sulfamethoxazole-trimethoprim" target="_blank" rel="noopener">~$10–$20 combined</a></td>
                     <td>Alternative for penicillin-allergic patients per IDSA. TMP-SMX covers gram-negative aerobes; metronidazole covers anaerobes. Less data than amoxicillin-clavulanate.</td>
                   </tr>
                 </tbody>
@@ -687,16 +687,16 @@ export default function CaDogBiteTreatmentOnline() {
           <div className="tdmd-container">
             <h2>References and Primary Sources</h2>
             <ol className="tdmd-ref-list">
-              <li><a href="https://www.cdc.gov/niosh/topics/animals/dog.html" rel="noopener" target="_blank">CDC — Rabies: Dog Bites. Retrieved 2026-05-22.</a></li>
+              <li><a href="https://www.cdc.gov/rabies/hcp/clinical-care/post-exposure-prophylaxis.html" rel="noopener" target="_blank">CDC — Rabies Post-exposure Prophylaxis Guidance. Retrieved 2026-05-22.</a></li>
               <li><a href="https://www.idsociety.org/practice-guideline/skin-and-soft-tissue-infections/" rel="noopener" target="_blank">IDSA — Skin and Soft Tissue Infection Guidelines. Retrieved 2026-05-22.</a></li>
               <li><a href="https://www.cdph.ca.gov/Programs/CID/DCDC/Pages/Rabies.aspx" rel="noopener" target="_blank">CDPH — Rabies Surveillance. Retrieved 2026-05-22.</a></li>
               <li><a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=2290.5.&lawCode=BPC" rel="noopener" target="_blank">California B&P Code §2290.5. Retrieved 2026-05-22.</a></li>
               <li><a href="https://www.mbc.ca.gov/Licensees/Telehealth.aspx" rel="noopener" target="_blank">Medical Board of California — Telehealth. Retrieved 2026-05-22.</a></li>
               <li><a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=10123.85.&lawCode=INS" rel="noopener" target="_blank">California Insurance Code §10123.85 (AB 744). Retrieved 2026-05-22.</a></li>
-              <li><a href="https://www.goodrx.com/amoxicillin-clavulanate" rel="noopener" target="_blank">GoodRx — Amoxicillin-Clavulanate. Retrieved 2026-05-22.</a></li>
-              <li><a href="https://www.goodrx.com/doxycycline" rel="noopener" target="_blank">GoodRx — Doxycycline. Retrieved 2026-05-22.</a></li>
+              <li><a href="https://www.goodrx.com/amoxicillin-potassium-clavulanate" rel="noopener" target="_blank">GoodRx — Amoxicillin-Clavulanate. Retrieved 2026-05-22.</a></li>
+              <li><a href="https://www.goodrx.com/doxycycline-hyclate" rel="noopener" target="_blank">GoodRx — Doxycycline. Retrieved 2026-05-22.</a></li>
               <li><a href="https://www.mbc.ca.gov/Licensees/Prescriptions/Electronic_Prescribing.aspx" rel="noopener" target="_blank">Medical Board of California — AB 2789. Retrieved 2026-05-22.</a></li>
-              <li><a href="https://www.cdc.gov/features/dog-bite-prevention/index.html" rel="noopener" target="_blank">CDC — Dog Bite Prevention. Retrieved 2026-05-22.</a></li>
+              <li><a href="https://www.cdc.gov/healthy-pets/about/dogs.html" rel="noopener" target="_blank">CDC — Dogs: Preventing Dog Bites and Scratches. Retrieved 2026-05-22.</a></li>
             </ol>
           </div>
         </section>

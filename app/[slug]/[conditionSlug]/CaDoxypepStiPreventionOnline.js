@@ -416,10 +416,10 @@ export default function CaDoxypepStiPreventionOnline() {
           <div className="tdmd-container">
             <h2>How Common Is DoxyPEP in California?</h2>
             <p>
-              California reported 193,907 chlamydia cases (rate: 496.8/100,000), 80,317 gonorrhea cases (rate: 205.8/100,000), and 32,794 total syphilis cases (rate: 84.0/100,000) in 2022 per the CDPH 2022 STI Surveillance Executive Summary. MSM accounted for 65.4% of male gonorrhea cases and 52% of early syphilis cases. CDPH explicitly identifies DoxyPEP access expansion as a 2022 programmatic priority across all three major bacterial STIs. — <a href="https://www.cdph.ca.gov/Programs/CID/DCDC/CDPH%20Document%20Library/STD%20Control%20Branch/Annual-Reports/2022-Executive-Summary.pdf" rel="noopener" target="_blank">CDPH 2022 STI Surveillance Executive Summary</a>.
+              California reported 193,907 chlamydia cases (rate: 496.8/100,000), 80,317 gonorrhea cases (rate: 205.8/100,000), and 32,794 total syphilis cases (rate: 84.0/100,000) in 2022 per the CDPH 2022 STI Surveillance Executive Summary. MSM accounted for 65.4% of male gonorrhea cases and 52% of early syphilis cases. CDPH explicitly identifies DoxyPEP access expansion as a 2022 programmatic priority across all three major bacterial STIs. — <a href="https://www.cdph.ca.gov/Programs/CID/DCDC/CDPH%20Document%20Library/2022-STD-Surveillance-Executive-Summary.pdf" rel="noopener" target="_blank">CDPH 2022 STI Surveillance Executive Summary</a>.
             </p>
             <p>
-              Clinical guidance for doxypep sti prevention is provided by <a href="https://www.cdc.gov/std/treatment-guidelines/doxypep.htm" rel="noopener" target="_blank">Centers for Disease Control and Prevention (CDC)</a> through the CDC 2024 DoxyPEP Guidance — Doxycycline Post-Exposure Prophylaxis for STI Prevention. TeleDirectMD follows these guidelines on every patient visit.
+              Clinical guidance for doxypep sti prevention is provided by <a href="https://www.cdc.gov/mmwr/volumes/73/rr/rr7302a1.htm" rel="noopener" target="_blank">Centers for Disease Control and Prevention (CDC)</a> through the CDC 2024 DoxyPEP Guidance — Doxycycline Post-Exposure Prophylaxis for STI Prevention. TeleDirectMD follows these guidelines on every patient visit.
             </p>
             <h3>What causes doxypep and who is most at risk in California?</h3>
             <p>
@@ -514,7 +514,7 @@ export default function CaDoxypepStiPreventionOnline() {
           <div className="tdmd-container">
             <h2>DoxyPEP STI Prevention Medication Options and Costs in California</h2>
             <p>
-              Medications for doxypep sti prevention are selected based on current guidelines from <a href="https://www.cdc.gov/std/treatment-guidelines/doxypep.htm" rel="noopener" target="_blank">Centers for Disease Control and Prevention (CDC)</a>, patient history, allergies, and relevant contraindications assessed at the visit. GoodRx-verified pricing is shown below.
+              Medications for doxypep sti prevention are selected based on current guidelines from <a href="https://www.cdc.gov/mmwr/volumes/73/rr/rr7302a1.htm" rel="noopener" target="_blank">Centers for Disease Control and Prevention (CDC)</a>, patient history, allergies, and relevant contraindications assessed at the visit. GoodRx-verified pricing is shown below.
             </p>
             <div className="tdmd-table-wrap">
               <table className="tdmd-table" aria-label="DoxyPEP STI Prevention medication options and GoodRx prices">
@@ -681,9 +681,9 @@ export default function CaDoxypepStiPreventionOnline() {
               <li><a href="https://www.mbc.ca.gov/Resources/Medical-Resources/telehealth.aspx" rel="noopener" target="_blank">Medical Board of California — Telehealth Resources. Retrieved May 2026.</a></li>
               <li><a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=10123.85.&lawCode=INS" rel="noopener" target="_blank">California Insurance Code §10123.85 — Telehealth Parity (AB 744). Retrieved May 2026.</a></li>
               <li><a href="https://www.dhcs.ca.gov/provgovpart/Pages/TelehealthFAQ.aspx" rel="noopener" target="_blank">California DHCS — Telehealth FAQ. Retrieved May 2026.</a></li>
-              <li><a href="https://www.cdc.gov/std/treatment-guidelines/doxypep.htm" rel="noopener" target="_blank">CDC 2024 DoxyPEP Guidance — Doxycycline Post-Exposure Prophylaxis for STI Prevention. Retrieved May 2026.</a></li>
-              <li><a href="https://www.cdph.ca.gov/Programs/CID/DCDC/CDPH%20Document%20Library/STD%20Control%20Branch/Annual-Reports/2022-Executive-Summary.pdf" rel="noopener" target="_blank">CDPH 2022 STI Surveillance Executive Summary. Retrieved May 2026.</a></li>
-              <li><a href="https://www.cdph.ca.gov/Programs/CID/DCDC/Pages/InfectiousDiseases/SexuallyTransmittedDiseases.aspx" rel="noopener" target="_blank">CDPH — STI Surveillance Program. Retrieved May 2026.</a></li>
+              <li><a href="https://www.cdc.gov/mmwr/volumes/73/rr/rr7302a1.htm" rel="noopener" target="_blank">CDC 2024 DoxyPEP Guidance — Doxycycline Post-Exposure Prophylaxis for STI Prevention. Retrieved May 2026.</a></li>
+              <li><a href="https://www.cdph.ca.gov/Programs/CID/DCDC/CDPH%20Document%20Library/2022-STD-Surveillance-Executive-Summary.pdf" rel="noopener" target="_blank">CDPH 2022 STI Surveillance Executive Summary. Retrieved May 2026.</a></li>
+              <li><a href="https://www.cdph.ca.gov/Programs/CID/DCDC/Pages/STD.aspx" rel="noopener" target="_blank">CDPH — Office of STIs and HCV. Retrieved May 2026.</a></li>
               <li><a href="https://www.goodrx.com/doxycycline-hyclate" rel="noopener" target="_blank">GoodRx — Doxycycline Hyclate Prices. Retrieved May 2026.</a></li>
               <li><a href="https://www.mbc.ca.gov/News/" rel="noopener" target="_blank">Medical Board of California — Electronic Prescribing (AB 2789). Retrieved May 2026.</a></li>
             </ol>

@@ -322,7 +322,7 @@ export default function VtPinkEyeTreatmentOnline() {
                       Reviewed by <a href={PHYSICIAN.bioUrl}>{PHYSICIAN.name}</a> — Board-Certified {PHYSICIAN.specialty} (American Board of Family Medicine)
                     </span>
                     <span className="tdmd-vt-cond__byline-meta">
-                      NPI {PHYSICIAN.npi} · Vermont Medical License #{PHYSICIAN.licenseNumber} (<a href="https://secure.professionals.healthvermont.gov/PROD/PORTAL/PRLicenseSearch/SearchPage" rel="noopener" target="_blank">verify</a>) · Last reviewed{' '}
+                      NPI {PHYSICIAN.npi} · Vermont Medical License #{PHYSICIAN.licenseNumber} (<a href="https://www.healthvermont.gov/systems/board-medical-practice/look-health-professional" rel="noopener" target="_blank">verify</a>) · Last reviewed{' '}
                       <time dateTime={DATE_MODIFIED}>{new Date(DATE_MODIFIED).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</time>
                     </span>
                   </div>
@@ -481,7 +481,7 @@ export default function VtPinkEyeTreatmentOnline() {
 
             <h3>What standard does the treating physician owe you?</h3>
             <p>
-              Under the <a href="https://www.healthvermont.gov/systems/board-medical-practice" rel="noopener" target="_blank">Vermont Board of Medical Practice</a>, the standard of care is identical across in-person and telehealth encounters, and a Vermont license is required to treat patients in the state. Dr. Bhavsar holds Vermont Medical License #042.0040345-COMP from the Board. <a href="https://secure.professionals.healthvermont.gov/PROD/PORTAL/PRLicenseSearch/SearchPage" rel="noopener" target="_blank">Verify the license</a> · <a href="/about/">Dr. Bhavsar&apos;s bio</a>.
+              Under the <a href="https://www.healthvermont.gov/systems/board-medical-practice" rel="noopener" target="_blank">Vermont Board of Medical Practice</a>, the standard of care is identical across in-person and telehealth encounters, and a Vermont license is required to treat patients in the state. Dr. Bhavsar holds Vermont Medical License #042.0040345-COMP from the Board. <a href="https://www.healthvermont.gov/systems/board-medical-practice/look-health-professional" rel="noopener" target="_blank">Verify the license</a> · <a href="/about/">Dr. Bhavsar&apos;s bio</a>.
             </p>
 
             <h3>Are pink eye medications controlled in Vermont?</h3>
@@ -595,7 +595,7 @@ export default function VtPinkEyeTreatmentOnline() {
                   <tr className="tdmd-vt-cond__med-firstline">
                     <td><strong>Erythromycin ophthalmic ointment</strong> · Bacterial</td>
                     <td>Apply to the eye about four times daily</td>
-                    <td><a href="https://www.goodrx.com/erythromycin-ophthalmic" target="_blank" rel="noopener">~$15–$30 generic</a></td>
+                    <td><a href="https://www.goodrx.com/erythromycin" target="_blank" rel="noopener">~$15–$30 generic</a></td>
                     <td>Gentle first-line ointment for bacterial conjunctivitis; can briefly blur vision after applying.</td>
                   </tr>
                   <tr className="tdmd-vt-cond__med-firstline">
@@ -607,7 +607,7 @@ export default function VtPinkEyeTreatmentOnline() {
                   <tr>
                     <td><strong>Azithromycin ophthalmic drops</strong> · Bacterial</td>
                     <td>One drop twice daily &times; 2 days, then once daily</td>
-                    <td><a href="https://www.goodrx.com/azithromycin-ophthalmic" target="_blank" rel="noopener">~$25–$60 generic</a></td>
+                    <td><a href="https://www.goodrx.com/azithromycin" target="_blank" rel="noopener">~$25–$60 generic</a></td>
                     <td>Shorter, simpler schedule that helps adherence; cost runs higher than the others.</td>
                   </tr>
                   <tr>

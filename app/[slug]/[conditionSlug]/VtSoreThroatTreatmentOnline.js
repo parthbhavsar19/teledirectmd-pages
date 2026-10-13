@@ -59,7 +59,7 @@ const FAQ_ITEMS = [
       'The Centor criteria award one point each for fever, tonsillar exudate (pus on the tonsils), tender swollen lymph nodes at the front of the neck, and absence of cough. The McIsaac modification adds an age adjustment; for adults 18 and older there is no added point, and for ages 45 and up one point is subtracted. A low total (0 to 1) makes strep unlikely and favors supportive care without testing. A middle score may warrant an in-person swab. A high total (3 or more) raises the probability enough that the physician either treats empirically when the history fits or sends you for an in-person test. The tool is built for adults paying out of pocket because it tells you when a test or an antibiotic is actually worth it.',
     answer: (
       <p>
-        The Centor criteria award one point each for fever, tonsillar exudate (pus on the tonsils), tender swollen lymph nodes at the front of the neck, and absence of cough. The McIsaac modification adds an age adjustment; for adults 18 and older there is no added point, and for ages 45 and up one point is subtracted. A low total (0 to 1) makes strep unlikely and favors supportive care without testing. A middle score may warrant an in-person swab. A high total (3 or more) raises the probability enough that the physician either treats empirically when the history fits or sends you for an in-person test, consistent with <a href="https://www.idsociety.org/practice-guideline/strep-throat/" rel="noopener" target="_blank">IDSA guidance</a>. The tool is built for adults paying out of pocket because it tells you when a test or an antibiotic is actually worth it.
+        The Centor criteria award one point each for fever, tonsillar exudate (pus on the tonsils), tender swollen lymph nodes at the front of the neck, and absence of cough. The McIsaac modification adds an age adjustment; for adults 18 and older there is no added point, and for ages 45 and up one point is subtracted. A low total (0 to 1) makes strep unlikely and favors supportive care without testing. A middle score may warrant an in-person swab. A high total (3 or more) raises the probability enough that the physician either treats empirically when the history fits or sends you for an in-person test, consistent with <a href="https://www.idsociety.org/practice-guideline/streptococcal-pharyngitis/" rel="noopener" target="_blank">IDSA guidance</a>. The tool is built for adults paying out of pocket because it tells you when a test or an antibiotic is actually worth it.
       </p>
     ),
   },
@@ -315,7 +315,7 @@ export default function VtSoreThroatTreatmentOnline() {
                       Reviewed by <a href={PHYSICIAN.bioUrl}>{PHYSICIAN.name}</a> — Board-Certified {PHYSICIAN.specialty} (American Board of Family Medicine)
                     </span>
                     <span className="tdmd-vt-cond__byline-meta">
-                      NPI {PHYSICIAN.npi} · Vermont Medical License #{PHYSICIAN.licenseNumber} (<a href="https://secure.professionals.healthvermont.gov/PROD/PORTAL/PRLicenseSearch/SearchPage" rel="noopener" target="_blank">verify</a>) · Last reviewed{' '}
+                      NPI {PHYSICIAN.npi} · Vermont Medical License #{PHYSICIAN.licenseNumber} (<a href="https://www.healthvermont.gov/systems/board-medical-practice/look-health-professional" rel="noopener" target="_blank">verify</a>) · Last reviewed{' '}
                       <time dateTime={DATE_MODIFIED}>{new Date(DATE_MODIFIED).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</time>
                     </span>
                   </div>
@@ -443,7 +443,7 @@ export default function VtSoreThroatTreatmentOnline() {
 
             <h3>What standard does the treating physician owe you?</h3>
             <p>
-              Under the <a href="https://www.healthvermont.gov/systems/board-medical-practice" rel="noopener" target="_blank">Vermont Board of Medical Practice</a>, the standard of care is identical across in-person and telehealth encounters, and a Vermont license is required to treat patients in the state. Dr. Bhavsar holds Vermont Medical License #042.0040345-COMP from the Board. <a href="https://secure.professionals.healthvermont.gov/PROD/PORTAL/PRLicenseSearch/SearchPage" rel="noopener" target="_blank">Verify the license</a> · <a href="/about/">Dr. Bhavsar&apos;s bio</a>.
+              Under the <a href="https://www.healthvermont.gov/systems/board-medical-practice" rel="noopener" target="_blank">Vermont Board of Medical Practice</a>, the standard of care is identical across in-person and telehealth encounters, and a Vermont license is required to treat patients in the state. Dr. Bhavsar holds Vermont Medical License #042.0040345-COMP from the Board. <a href="https://www.healthvermont.gov/systems/board-medical-practice/look-health-professional" rel="noopener" target="_blank">Verify the license</a> · <a href="/about/">Dr. Bhavsar&apos;s bio</a>.
             </p>
 
             <h3>Are strep antibiotics controlled in Vermont?</h3>
@@ -538,7 +538,7 @@ export default function VtSoreThroatTreatmentOnline() {
           <div className="tdmd-container">
             <h2>Strep Antibiotic Options and Dosing</h2>
             <p>
-              Antibiotics are reserved for confirmed or strongly suspected group A strep, never for a viral sore throat. Each option below is non-controlled and prescribable through Vermont telehealth; the physician sets the final agent by your allergies and history, guided by <a href="https://www.idsociety.org/practice-guideline/strep-throat/" rel="noopener" target="_blank">IDSA strep-throat guidelines</a> and <a href="https://www.cdc.gov/group-a-strep/about/strep-throat.html" rel="noopener" target="_blank">CDC group A strep information</a>.
+              Antibiotics are reserved for confirmed or strongly suspected group A strep, never for a viral sore throat. Each option below is non-controlled and prescribable through Vermont telehealth; the physician sets the final agent by your allergies and history, guided by <a href="https://www.idsociety.org/practice-guideline/streptococcal-pharyngitis/" rel="noopener" target="_blank">IDSA strep-throat guidelines</a> and <a href="https://www.cdc.gov/group-a-strep/about/strep-throat.html" rel="noopener" target="_blank">CDC group A strep information</a>.
             </p>
             <div className="tdmd-table-wrap">
               <table className="tdmd-table" aria-label="Strep antibiotic options and GoodRx prices">
@@ -701,7 +701,7 @@ export default function VtSoreThroatTreatmentOnline() {
               <li><a href="https://legislature.vermont.gov/statutes/fullchapter/18/219" rel="noopener" target="_blank">18 V.S.A. Chapter 219 (Vermont telemedicine statute)</a>. Retrieved June 2026.</li>
               <li><a href="https://legislature.vermont.gov/statutes/fullchapter/26/023" rel="noopener" target="_blank">26 V.S.A. Chapter 23 (Vermont Medical Practice Act)</a>. Retrieved June 2026.</li>
               <li><a href="https://www.healthvermont.gov/systems/board-medical-practice" rel="noopener" target="_blank">Vermont Board of Medical Practice</a>. Retrieved June 2026.</li>
-              <li><a href="https://www.idsociety.org/practice-guideline/strep-throat/" rel="noopener" target="_blank">IDSA — Clinical Practice Guideline for Group A Streptococcal Pharyngitis (2012, current)</a>. Retrieved June 2026.</li>
+              <li><a href="https://www.idsociety.org/practice-guideline/streptococcal-pharyngitis/" rel="noopener" target="_blank">IDSA — Clinical Practice Guideline for Group A Streptococcal Pharyngitis (2012, current)</a>. Retrieved June 2026.</li>
               <li><a href="https://www.cdc.gov/group-a-strep/about/strep-throat.html" rel="noopener" target="_blank">CDC — Strep Throat (Group A Strep) Information</a>. Retrieved June 2026.</li>
             </ol>
           </div>

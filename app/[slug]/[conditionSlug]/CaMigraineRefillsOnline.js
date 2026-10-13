@@ -417,10 +417,10 @@ export default function CaMigraineRefillsOnline() {
           <div className="tdmd-container">
             <h2>How Common Is Migraine Refills in California?</h2>
             <p>
-              Migraine affects approximately 12% of the U.S. population — approximately 39 million Americans — with California estimated at approximately 3.3 million migraine sufferers. Women experience migraine at nearly 3× the rate of men (18% vs. 6%), per American Migraine Foundation and AAN data. Migraine is the second leading cause of disability globally per the Global Burden of Disease study 2019. The American Migraine Foundation estimates that migraine costs more than $36 billion annually in the U.S. through healthcare costs and lost productivity. — <a href="https://americanmigrainefoundation.org/resource-library/understanding-migraine/migraine-statistics/" rel="noopener" target="_blank">American Migraine Foundation — Migraine Statistics</a>.
+              Migraine affects approximately 12% of the U.S. population — approximately 39 million Americans — with California estimated at approximately 3.3 million migraine sufferers. Women experience migraine at nearly 3× the rate of men (18% vs. 6%), per American Migraine Foundation and AAN data. Migraine is the second leading cause of disability globally per the Global Burden of Disease study 2019. The American Migraine Foundation estimates that migraine costs more than $36 billion annually in the U.S. through healthcare costs and lost productivity. — <a href="https://americanmigrainefoundation.org/resource-library/migraine-facts/" rel="noopener" target="_blank">American Migraine Foundation — Migraine Statistics</a>.
             </p>
             <p>
-              Clinical guidance for migraine (refills for established patients) is provided by <a href="https://americanheadachesociety.org/resources/clinical-resources/" rel="noopener" target="_blank">AHS</a> through the AAN Guideline for the Prevention of Episodic Migraine + American Headache Society Evidence-Based Guidelines. TeleDirectMD follows these guidelines on every patient visit.
+              Clinical guidance for migraine (refills for established patients) is provided by <a href="https://americanheadachesociety.org/resources/guidelines/" rel="noopener" target="_blank">AHS</a> through the AAN Guideline for the Prevention of Episodic Migraine + American Headache Society Evidence-Based Guidelines. TeleDirectMD follows these guidelines on every patient visit.
             </p>
             <h3>What causes migraine refills and who is most at risk in California?</h3>
             <p>
@@ -515,7 +515,7 @@ export default function CaMigraineRefillsOnline() {
           <div className="tdmd-container">
             <h2>Migraine (Refills for Established Patients) Medication Options and Costs in California</h2>
             <p>
-              Medications for migraine (refills for established patients) are selected based on current guidelines from <a href="https://americanheadachesociety.org/resources/clinical-resources/" rel="noopener" target="_blank">AHS</a>, patient history, allergies, and relevant contraindications assessed at the visit. GoodRx-verified pricing is shown below.
+              Medications for migraine (refills for established patients) are selected based on current guidelines from <a href="https://americanheadachesociety.org/resources/guidelines/" rel="noopener" target="_blank">AHS</a>, patient history, allergies, and relevant contraindications assessed at the visit. GoodRx-verified pricing is shown below.
             </p>
             <div className="tdmd-table-wrap">
               <table className="tdmd-table" aria-label="Migraine (Refills for Established Patients) medication options and GoodRx prices">
@@ -698,8 +698,8 @@ export default function CaMigraineRefillsOnline() {
               <li><a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=2290.5.&lawCode=BPC" rel="noopener" target="_blank">California Business and Professions Code Section 2290.5 — Telehealth Advancement Act</a></li>
               <li><a href="https://www.mbc.ca.gov/Licensees/Telehealth/" rel="noopener" target="_blank">Medical Board of California — Telehealth Resources</a></li>
               <li><a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=10123.85.&lawCode=INS" rel="noopener" target="_blank">California Insurance Code §10123.85 — Telehealth Parity (AB 744)</a></li>
-              <li><a href="https://americanmigrainefoundation.org/resource-library/understanding-migraine/migraine-statistics/" rel="noopener" target="_blank">American Migraine Foundation — Prevalence and Burden of Migraine</a></li>
-              <li><a href="https://americanheadachesociety.org/resources/clinical-resources/" rel="noopener" target="_blank">American Headache Society — Evidence-Based Guidelines</a></li>
+              <li><a href="https://americanmigrainefoundation.org/resource-library/migraine-facts/" rel="noopener" target="_blank">American Migraine Foundation — Prevalence and Burden of Migraine</a></li>
+              <li><a href="https://americanheadachesociety.org/resources/guidelines/" rel="noopener" target="_blank">American Headache Society — Evidence-Based Guidelines</a></li>
               <li><a href="https://n.neurology.org/content/78/17/1337" rel="noopener" target="_blank">AAN Guideline for the Prevention of Episodic Migraine</a></li>
               <li><a href="https://headachejournal.onlinelibrary.wiley.com/doi/10.1111/head.14366" rel="noopener" target="_blank">AHS Position Statement on Integrating CGRP Mechanisms into Migraine Treatment</a></li>
               <li><a href="https://www.dhcs.ca.gov/provgovpart/Pages/Telehealth.aspx" rel="noopener" target="_blank">California DHCS — Telehealth FAQ</a></li>

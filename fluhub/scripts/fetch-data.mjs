@@ -196,6 +196,8 @@ async function providers() {
     rows.push(...page);
     if (page.length < 50000) break;
   }
+  // Provider websites confirmed dead (404/410/no DNS) in the Oct 2026 link audit; the snapshot is frozen, so drop them.
+  const deadUrls = new Set(existsSync(DATA + "dead-provider-urls.json") ? JSON.parse(await readFile(DATA + "dead-provider-urls.json", "utf8")) : []);
   const byId = new Map();
   let lastUpdated = "";
   for (const r of rows) {
@@ -207,7 +209,7 @@ async function providers() {
       const zip = (r.loc_admin_zip || "").replace(/\D/g, "").padStart(5, "0").slice(0, 5);
       p = {
         n: titleCase(r.loc_name || ""), a: titleCase(r.loc_admin_street1 || ""), c: titleCase(r.loc_admin_city || ""),
-        s: r.loc_admin_state, z: zip, p: r.loc_phone || "", u: r.web_address?.url || "",
+        s: r.loc_admin_state, z: zip, p: r.loc_phone || "", u: deadUrls.has(r.web_address?.url) ? "" : r.web_address?.url || "",
         y: round(lat, 4), x: round(lon, 4), f: 0,
       };
       byId.set(r.provider_location_guid, p);

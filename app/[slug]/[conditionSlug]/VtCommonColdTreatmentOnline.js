@@ -66,7 +66,7 @@ const VT_SIBLINGS = [
 const REFERENCES = [
   { t: "NIAID — Common Cold", u: "https://www.niaid.nih.gov/diseases-conditions/common-cold" },
   { t: "CDC — Common Colds: Protect Yourself and Others", u: "https://www.cdc.gov/antibiotic-use/colds.html" },
-  { t: "AAFP — Treatment of the Common Cold", u: "https://www.aafp.org/afp/2012/1015/p724.html" },
+  { t: "AAFP — Treatment of the Common Cold", u: "https://pubmed.ncbi.nlm.nih.gov/22962927/" },
   { t: "VT DOH — Respiratory Illness Activity in Vermont", u: "https://www.healthvermont.gov/disease-control/respiratory-illnesses/respiratory-illness-activity-vermont" }
 ];
 
@@ -252,7 +252,7 @@ export default function VtCommonColdTreatmentOnline() {
                       Reviewed by <a href={PHYSICIAN.bioUrl}>{PHYSICIAN.name}</a> — Board-Certified {PHYSICIAN.specialty}
                     </span>
                     <span className="vt-common-cold-treatment-online__byline-meta">
-                      NPI {PHYSICIAN.npi} · Vermont Medical License #042.0040345-COMP (<a href="https://secure.professionals.healthvermont.gov/PROD/PORTAL/PRLicenseSearch/SearchPage" rel="noopener" target="_blank">verify</a>) · Last reviewed{' '}
+                      NPI {PHYSICIAN.npi} · Vermont Medical License #042.0040345-COMP (<a href="https://www.healthvermont.gov/systems/board-medical-practice/look-health-professional" rel="noopener" target="_blank">verify</a>) · Last reviewed{' '}
                       <time dateTime={DATE_MODIFIED}>{new Date(DATE_MODIFIED).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</time>
                     </span>
                   </div>
@@ -357,7 +357,7 @@ export default function VtCommonColdTreatmentOnline() {
 
             <h3>What standard of care applies to Vermont telehealth physicians?</h3>
             <p>
-              The <a href="https://www.healthvermont.gov/systems/board-medical-practice" rel="noopener" target="_blank">Vermont Board of Medical Practice</a> is explicit: the standard of care is the same whether a patient is seen in person or by telehealth. Physicians must be licensed in Vermont to treat Vermont patients — a requirement TeleDirectMD satisfies. Dr. Bhavsar is a Vermont-licensed, board-certified physician of the American Board of Family Medicine and holds Vermont Medical License #042.0040345-COMP issued by the Vermont Board of Medical Practice. <a href="https://secure.professionals.healthvermont.gov/PROD/PORTAL/PRLicenseSearch/SearchPage" rel="noopener" target="_blank">Verify license</a> · <a href="/about/">Dr. Bhavsar bio</a>.
+              The <a href="https://www.healthvermont.gov/systems/board-medical-practice" rel="noopener" target="_blank">Vermont Board of Medical Practice</a> is explicit: the standard of care is the same whether a patient is seen in person or by telehealth. Physicians must be licensed in Vermont to treat Vermont patients — a requirement TeleDirectMD satisfies. Dr. Bhavsar is a Vermont-licensed, board-certified physician of the American Board of Family Medicine and holds Vermont Medical License #042.0040345-COMP issued by the Vermont Board of Medical Practice. <a href="https://www.healthvermont.gov/systems/board-medical-practice/look-health-professional" rel="noopener" target="_blank">Verify license</a> · <a href="/about/">Dr. Bhavsar bio</a>.
             </p>
 
             <h3>Are these medications controlled substances under Vermont law?</h3>
@@ -452,7 +452,7 @@ export default function VtCommonColdTreatmentOnline() {
           <div className="tdmd-container">
             <h2>Why Vermont Colds Rarely Need Antibiotics — and When They Do</h2>
             <p dangerouslySetInnerHTML={{ __html: `More than 200 rhinovirus types, plus seasonal coronaviruses, RSV, parainfluenza, and metapneumovirus, cause the common cold, according to the <a href="https://www.niaid.nih.gov/diseases-conditions/common-cold" rel="noopener" target="_blank">National Institute of Allergy and Infectious Diseases (NIAID)</a>. Because these are viruses, antibiotics provide no benefit and carry real downsides — side effects and antibiotic resistance. The <a href="https://www.cdc.gov/antibiotic-use/colds.html" rel="noopener" target="_blank">CDC</a> is explicit that colds should be managed with supportive care, not antibiotics.` }} />
-            <p dangerouslySetInnerHTML={{ __html: `Evidence-based supportive care, summarized in <a href="https://www.aafp.org/afp/2012/1015/p724.html" rel="noopener" target="_blank">AAFP guidance on the common cold</a>, includes saline nasal irrigation, short-term decongestants such as pseudoephedrine, and guaifenesin to loosen mucus; oxymetazoline nasal spray should be limited to three days to avoid rebound congestion. Zinc lozenges started within 24 hours and honey for cough soothing are reasonable comfort measures. The physician tailors recommendations to your symptoms and other medications.` }} />
+            <p dangerouslySetInnerHTML={{ __html: `Evidence-based supportive care, summarized in <a href="https://pubmed.ncbi.nlm.nih.gov/22962927/" rel="noopener" target="_blank">AAFP guidance on the common cold</a>, includes saline nasal irrigation, short-term decongestants such as pseudoephedrine, and guaifenesin to loosen mucus; oxymetazoline nasal spray should be limited to three days to avoid rebound congestion. Zinc lozenges started within 24 hours and honey for cough soothing are reasonable comfort measures. The physician tailors recommendations to your symptoms and other medications.` }} />
             <p dangerouslySetInnerHTML={{ __html: `A cold occasionally crosses into bacterial territory, and that is what the visit screens for. Suspect a bacterial sinus infection if symptoms last beyond 10 days without improvement, or if you improve and then a "second wave" of fever and facial pressure returns; review our <a href="/vt/sinus-infection-treatment-online/">Vermont sinus infection page</a>. A predominant sore throat with fever, tonsillar exudate, and tender neck nodes may be strep — see our <a href="/vt/sore-throat-treatment-online/">Vermont sore throat page</a>. Productive cough with chest pain or wheezing and shortness of breath needs in-person evaluation. A sudden, severe, feverish onset points to influenza instead — see our <a href="/vt/influenza-treatment-online/">Vermont influenza page</a>.` }} />
           </div>
         </section>

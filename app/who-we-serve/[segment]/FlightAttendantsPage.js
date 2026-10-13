@@ -471,7 +471,7 @@ export default function FlightAttendantsPage() {
             <li><a href="https://www.idsociety.org/practice-guideline/uncomplicated-cystitis-and-pyelonephritis-uti/" rel="nofollow noopener" target="_blank">Uncomplicated UTI Treatment Guideline &mdash; Infectious Diseases Society of America (IDSA)</a></li>
             <li><a href="https://www.cdc.gov/niosh/topics/aircrew/" rel="nofollow noopener" target="_blank">Aircrew Safety &amp; Health &mdash; NIOSH / CDC</a></li>
             <li><a href="https://www.pennmedicine.org/news/study-finds-telemedicine-visits-cost-far-less-than-office-visits" rel="nofollow noopener" target="_blank">Study finds telemedicine visits cost far less than office visits &mdash; Penn Medicine</a></li>
-            <li><a href="https://www.goodrx.com/healthcare-access/telehealth/how-much-does-a-telehealth-visit-cost" rel="nofollow noopener" target="_blank">How Much Does a Telehealth Visit Cost? &mdash; GoodRx</a></li>
+            <li><a href="https://www.goodrx.com/healthcare-access/telehealth/how-much-does-telehealth-cost" rel="nofollow noopener" target="_blank">How Much Does a Telehealth Visit Cost? &mdash; GoodRx</a></li>
           </ul>
         </div>
       </section>

@@ -1034,7 +1034,7 @@ export default function RuralTelemedicineAlaskaEvidence() {
                   </a>
                 </li>
                 <li id="ce-13">
-                  Reid CE, et al. Wildfire and asthma: prospective interventions. 2025.{' '}
+                  Yuan X, et al. Wildfire and asthma: the prospective interventions. World Allergy Organ J. 2025.{' '}
                   <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12441628/" target="_blank" rel="noopener">
                     PMC12441628
                   </a>

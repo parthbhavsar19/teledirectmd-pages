@@ -1,5 +1,6 @@
 import { getAggregateRating, getReviewBlock } from '../../lib/review-schema';
 import FaqAccordion from '../components/FaqAccordion';
+import { contentDate } from '../../lib/content-dates';
 import { COST_PAGE_SLUGS } from '../../lib/cost-pages-config';
 
 export const metadata = {
@@ -15,24 +16,24 @@ export const metadata = {
     locale: 'en_US',
     title: 'Telehealth Cost Guides by Condition | TeleDirectMD',
     description:
-      '$79 flat self-pay telehealth. Cost guides for 20 conditions — sourced comparisons vs. urgent care, retail clinic, and ER.',
+      '$79 flat self-pay telehealth. Cost guides for 21 topics — sourced comparisons vs. urgent care, retail clinic, and ER.',
     url: 'https://teledirectmd.com/cost',
   },
 };
 
 const BASE_URL = 'https://teledirectmd.com';
 
-// Cost page catalog — 20 children
+// Cost page catalog — 21 children
 const COST_CATALOG = [
   {
     slug: 'acne-treatment-cost',
     name: 'Acne Treatment Cost',
-    desc: 'Prescription acne treatment at TeleDirectMD — $79 for the visit vs. $140+ at a retail clinic or $300+ at dermatology.',
+    desc: 'Prescription acne treatment at TeleDirectMD: $79 for the visit vs. $150 to $300 for a first cash-pay dermatology visit.',
   },
   {
     slug: 'birth-control-refills-cost',
     name: 'Birth Control Refill Cost',
-    desc: 'Oral contraceptive refill visits from $79. No annual exam required for established patients with no complications.',
+    desc: 'Oral contraceptive refill visits for a flat $79. A pelvic exam is not required to refill the pill for most patients.',
   },
   {
     slug: 'bv-treatment-cost',
@@ -47,7 +48,7 @@ const COST_CATALOG = [
   {
     slug: 'diabetes-refills-cost',
     name: 'Diabetes Medication Refill Cost',
-    desc: 'Stable type 2 diabetes patients can refill metformin and other oral medications, or a current insulin dose as a bridge, online for $79.',
+    desc: 'Stable type 2 diabetes patients can refill metformin and other oral medications, or a current insulin dose as a bridge, online for $79. No GLP-1 prescribing.',
   },
   {
     slug: 'ear-infection-cost',
@@ -57,12 +58,12 @@ const COST_CATALOG = [
   {
     slug: 'eczema-treatment-cost',
     name: 'Eczema Treatment Cost',
-    desc: 'Eczema flare-ups and contact dermatitis treated with prescription topical steroids — $79 online vs. $200+ dermatology.',
+    desc: 'Eczema flares treated with prescription topical steroids or tacrolimus: $79 online vs. $150 to $300 for a first cash-pay dermatology visit.',
   },
   {
     slug: 'erectile-dysfunction-cost',
     name: 'Erectile Dysfunction Cost',
-    desc: 'ED evaluation and prescription for sildenafil or tadalafil — $79 vs. $200+ at a primary care or urology office.',
+    desc: 'ED evaluation and prescription for sildenafil or tadalafil: $79 vs. $100 to $300 for a cash-pay primary care visit.',
   },
   {
     slug: 'hair-loss-treatment-cost',
@@ -72,12 +73,12 @@ const COST_CATALOG = [
   {
     slug: 'migraine-treatment-cost',
     name: 'Migraine Treatment Cost',
-    desc: 'Triptan refills and preventive migraine medication renewed online. $79 vs. $250+ at a neurology office.',
+    desc: 'Triptan refills and preventive migraine medication renewed online for $79.',
   },
   {
     slug: 'online-doctor-visit-cost',
     name: 'Online Doctor Visit Cost',
-    desc: 'How much does a telehealth visit cost? TeleDirectMD: $79 flat. Compare to urgent care ($200), retail clinic ($139), and ER ($2,715).',
+    desc: 'How much does a telehealth visit cost? TeleDirectMD: $79 flat. Compare to in-person urgent care ($150–$280) and the ER (about $2,863).',
   },
   {
     slug: 'online-prescription-cost',
@@ -87,7 +88,7 @@ const COST_CATALOG = [
   {
     slug: 'pink-eye-cost',
     name: 'Pink Eye Treatment Cost',
-    desc: 'Bacterial conjunctivitis antibiotic eye drops — $79 online vs. $150+ at urgent care or $200+ at an ophthalmologist.',
+    desc: 'Bacterial conjunctivitis antibiotic eye drops: $79 online vs. $150+ for cash-pay urgent care.',
   },
   {
     slug: 'seasonal-allergies-cost',
@@ -97,7 +98,7 @@ const COST_CATALOG = [
   {
     slug: 'shingles-cost',
     name: 'Shingles Treatment Cost',
-    desc: 'Early shingles (herpes zoster) antiviral treatment — time-sensitive. TeleDirectMD: $79 vs. $200+ at urgent care.',
+    desc: 'Early shingles (herpes zoster) antiviral treatment, time-sensitive. TeleDirectMD: $79 vs. $150+ for cash-pay urgent care.',
   },
   {
     slug: 'sinus-infection-treatment-cost',
@@ -107,17 +108,27 @@ const COST_CATALOG = [
   {
     slug: 'sore-throat-treatment-cost',
     name: 'Sore Throat Treatment Cost',
-    desc: 'Viral vs. strep evaluation and treatment — $79 at TeleDirectMD vs. $150\u2013$200 at urgent care.',
+    desc: 'Viral vs. strep evaluation and treatment: $79 at TeleDirectMD vs. $150+ for cash-pay urgent care.',
   },
   {
     slug: 'uti-treatment-cost',
     name: 'UTI Treatment Cost',
-    desc: 'Uncomplicated UTI antibiotics online — $79 for the visit. Full sourced comparison to urgent care, retail clinic, and ER.',
+    desc: 'Uncomplicated UTI antibiotics online for non-pregnant adult women: $79 for the visit. Full sourced comparison to urgent care, retail clinic, and ER.',
+  },
+  {
+    slug: 'uti-antibiotics-cost',
+    name: 'UTI Antibiotics Cost',
+    desc: 'What generic UTI antibiotics cost with GoodRx, and why every UTI antibiotic in the US requires a prescription. Visit: $79 (adult women only).',
   },
   {
     slug: 'yeast-infection-cost',
     name: 'Yeast Infection Cost',
-    desc: 'Fluconazole or topical antifungals prescribed online for vaginal yeast infections — $79 flat vs. $130+ at a GYN office.',
+    desc: 'Fluconazole or topical antifungals prescribed online for vaginal yeast infections: $79 flat vs. $150+ for cash-pay urgent care.',
+  },
+  {
+    slug: 'covid-19-treatment-cost',
+    name: 'COVID-19 Treatment Cost',
+    desc: 'Paxlovid eligibility visit for $79. Paxlovid lists near $1,390 but is free for eligible uninsured and Medicare patients through PAXCESS through December 31, 2026.',
   },
 ];
 
@@ -130,7 +141,7 @@ const FAQS = [
   {
     question: 'How does TeleDirectMD compare in cost to urgent care?',
     answer:
-      'A cash-pay urgent care visit averages approximately $200 (Mira Health, 2025). TeleDirectMD costs $79 flat — a saving of roughly $120 per visit for self-pay patients. CVS MinuteClinic costs $99\u2013$139 for a visit. An emergency room visit averages $2,715 (Mira Health, Feb 2025) for uninsured patients. For common acute conditions that are appropriate for telehealth — UTI (women only), sinus infection, strep, pink eye, acne — TeleDirectMD is consistently the lowest-cost option.',
+      'A self-pay urgent care visit costs $150\u2013$280 before tests (Solv Health, June 2026). TeleDirectMD costs $79 flat. An emergency room visit averages about $2,863 (Mira Health, September 2026). For common acute conditions that are appropriate for telehealth, such as UTI (women only), sinus infection, strep, pink eye, and acne, the $79 self-pay fee is below these cash-pay averages. Insured patients may pay a lower copay through their plan.',
   },
   {
     question: 'Does TeleDirectMD charge extra for a prescription?',
@@ -145,7 +156,7 @@ const FAQS = [
   {
     question: 'Why is telehealth cheaper than urgent care for the same condition?',
     answer:
-      'Telehealth eliminates the overhead costs of a brick-and-mortar clinic — rent, facility fees, front-desk staff, and medical equipment. Physician-led video platforms can pass those savings to patients. A $79 telehealth visit for a UTI provides the same physician evaluation and prescription as a $200 urgent care visit, without the commute, waiting room time, or facility fee. For straightforward acute conditions, the clinical outcome is equivalent.',
+      'Telehealth eliminates the overhead costs of a brick-and-mortar clinic — rent, facility fees, front-desk staff, and medical equipment. Physician-led video platforms can pass those savings to patients. A $79 telehealth visit for a UTI provides the same physician evaluation and prescription as a $200 urgent care visit, without the commute, waiting room time, or facility fee. For straightforward acute conditions, the evaluation and treatment options are often the same.',
   },
   {
     question: 'Are there conditions where paying for urgent care in person is worth it?',
@@ -155,7 +166,7 @@ const FAQS = [
   {
     question: 'What is the cheapest way to get a prescription online?',
     answer:
-      'The total cost of an online prescription has two components: the visit fee and the medication cost. TeleDirectMD\'s visit fee is $79 — among the lowest for physician-staffed platforms. For the medication, generic drugs are often $4\u2013$15 at major pharmacies with GoodRx discounts, or through Mark Cuban\'s Cost Plus Drugs (costplusdrugs.com). For example, a generic nitrofurantoin (UTI antibiotic) course is often under $15 with a GoodRx coupon at Walmart or Costco.',
+      'The total cost of an online prescription has two components: the visit fee and the medication cost. TeleDirectMD\'s visit fee is a flat $79 for a physician visit. For the medication, generic drugs are often $4\u2013$15 at major pharmacies with GoodRx discounts, or through Mark Cuban\'s Cost Plus Drugs (costplusdrugs.com). For example, a generic nitrofurantoin (UTI antibiotic) course is often under $15 with a GoodRx coupon at Walmart or Costco.',
   },
   {
     question: 'Does TeleDirectMD cost the same for every condition?',
@@ -174,11 +185,17 @@ const FAQS = [
   },
 ];
 
+// Display grouping for the hub. Every COST_CATALOG slug must appear exactly once.
+const COST_GROUPS = [
+  { title: 'Visits and prescriptions', slugs: ['online-doctor-visit-cost', 'online-prescription-cost'] },
+  { title: 'Infections', slugs: ['uti-treatment-cost', 'uti-antibiotics-cost', 'sinus-infection-treatment-cost', 'sore-throat-treatment-cost', 'pink-eye-cost', 'ear-infection-cost', 'yeast-infection-cost', 'bv-treatment-cost', 'covid-19-treatment-cost'] },
+  { title: 'Skin and hair', slugs: ['acne-treatment-cost', 'eczema-treatment-cost', 'cold-sore-cost', 'shingles-cost', 'hair-loss-treatment-cost'] },
+  { title: 'Refills and ongoing care', slugs: ['birth-control-refills-cost', 'diabetes-refills-cost', 'migraine-treatment-cost', 'erectile-dysfunction-cost', 'seasonal-allergies-cost'] },
+];
+
 const COST_BARS = [
-  { label: 'TeleDirectMD', value: '$79', pct: 3, tdmd: true },
-  { label: 'Retail Clinic', value: '$139', pct: 5, tdmd: false },
-  { label: 'Urgent Care', value: '$200', pct: 7.5, tdmd: false },
-  { label: 'ER Visit', value: '$2,715', pct: 100, tdmd: false },
+  { label: 'TeleDirectMD', value: '$79', pct: 28, tdmd: true },
+  { label: 'Urgent care', value: '$150–$280', pct: 100, tdmd: false },
 ];
 
 const jsonLd = {
@@ -198,12 +215,12 @@ const jsonLd = {
       url: `${BASE_URL}/cost/`,
       name: 'Telehealth Cost Guides by Condition | TeleDirectMD',
       description:
-        'Hub page for 20 condition-by-condition telehealth cost guides. TeleDirectMD charges $79 flat; each guide provides sourced cost comparisons vs. urgent care, retail clinic, and ER.',
+        'Hub page for 21 condition-by-condition telehealth cost guides. TeleDirectMD charges $79 flat; each guide provides sourced cost comparisons vs. urgent care, retail clinic, and ER.',
       inLanguage: 'en-US',
       breadcrumb: { '@id': `${BASE_URL}/cost#breadcrumbs` },
       publisher: { '@id': `${BASE_URL}/#organization` },
       reviewedBy: { '@id': `${BASE_URL}/about/#physician` },
-      lastReviewed: '2026-05-23',
+      dateModified: contentDate('costPages'),
       hasPart: COST_CATALOG.map((c) => ({
         '@type': 'WebPage',
         '@id': `${BASE_URL}/cost/${c.slug}/`,
@@ -249,6 +266,10 @@ const jsonLd = {
 };
 
 const PAGE_CSS = `
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=DM+Sans:wght@400;500;600;700&display=swap');
+  .cst-hero,.cst-wrap{font-family:'DM Sans',system-ui,-apple-system,'Segoe UI',sans-serif;}
+  .cst-hero h1,.cst-wrap h2,.cst-h1,.cst-h2{font-family:'Fraunces',Georgia,serif;font-weight:600;letter-spacing:-0.01em;}
+  .cst-hero button,.cst-hero a,.cst-wrap button{font-family:inherit;}
   :root{--tdmd-teal:#006b73;--tdmd-navy:#003e52;--tdmd-accent:#ff5a36;--tdmd-bg-soft:#f3fafb;--tdmd-border:#dde3e6;--tdmd-text:#12323a;--tdmd-muted:#4b5f66;--tdmd-card:#ffffff;--tdmd-shadow:0 8px 20px rgba(0,0,0,0.06);--tdmd-radius:18px;}
   @media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--tdmd-teal:#2bc4cf;--tdmd-navy:#a0d8e8;--tdmd-accent:#ff7a5c;--tdmd-bg-soft:#0f1f24;--tdmd-border:#1e3340;--tdmd-text:#e2edf0;--tdmd-muted:#8fa8b2;--tdmd-card:#122028;--tdmd-shadow:0 8px 20px rgba(0,0,0,0.3);color-scheme:dark;}}
   :root[data-theme="dark"]{--tdmd-teal:#2bc4cf;--tdmd-navy:#a0d8e8;--tdmd-accent:#ff7a5c;--tdmd-bg-soft:#0f1f24;--tdmd-border:#1e3340;--tdmd-text:#e2edf0;--tdmd-muted:#8fa8b2;--tdmd-card:#122028;--tdmd-shadow:0 8px 20px rgba(0,0,0,0.3);color-scheme:dark;}
@@ -273,7 +294,7 @@ const PAGE_CSS = `
   .cst-h2{font-size:clamp(1.3rem,3vw,1.75rem);font-weight:800;margin:0 0 0.75rem;letter-spacing:-0.01em;color:var(--tdmd-text);}
   .cst-h3{font-size:1.15rem;font-weight:700;margin:0 0 0.5rem;color:var(--tdmd-navy);}
   .cst-p{font-size:1rem;line-height:1.7;margin:0 0 1rem;color:var(--tdmd-text);}
-  .cst-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:1rem;margin-top:1rem;}
+  .cst-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1rem;margin-top:1rem;}
   .cst-card{background:var(--tdmd-card);border:1px solid var(--tdmd-border);border-radius:14px;padding:1.1rem 1.2rem;box-shadow:var(--tdmd-shadow);text-decoration:none;color:var(--tdmd-text);display:block;transition:border-color .2s;}
   .cst-card:hover{border-color:var(--tdmd-teal);}
   .cst-card-title{font-weight:800;font-size:1rem;color:var(--tdmd-navy);margin:0 0 0.35rem;letter-spacing:-0.01em;}
@@ -286,6 +307,8 @@ const PAGE_CSS = `
   .tdmd-vbar__fill--tdmd{background:linear-gradient(180deg,var(--tdmd-accent) 0%,#ff8a6e 100%);box-shadow:0 0 0 3px rgba(255,90,54,.15);}
   .tdmd-vbar__label{margin-top:0.6rem;padding-top:0.5rem;border-top:1px solid var(--tdmd-border);font-weight:700;color:var(--tdmd-text);font-size:0.82rem;text-align:center;line-height:1.3;width:100%;}
   .tdmd-vbar__label--tdmd{color:var(--tdmd-accent);}
+  .cst-group{margin-top:1.5rem;}
+  .cst-group-title{font-size:0.8rem;letter-spacing:0.08em;text-transform:uppercase;color:var(--tdmd-muted);font-weight:700;margin:0 0 0.75rem;}
   .cst-cost-note{margin-top:0.75rem;font-size:0.88rem;color:var(--tdmd-muted);}
   .cst-highlight-box{background:var(--tdmd-card);border:1px solid var(--tdmd-border);border-radius:14px;padding:1.25rem 1.5rem;box-shadow:var(--tdmd-shadow);border-top:4px solid var(--tdmd-teal);margin-top:1rem;}
   .cst-price-big{font-size:3rem;font-weight:900;color:var(--tdmd-teal);letter-spacing:-0.03em;margin:0.25rem 0;}
@@ -309,7 +332,9 @@ const PAGE_CSS = `
   .cst-table th{background:var(--tdmd-bg-soft);font-weight:800;color:var(--tdmd-navy);}
   .cst-table td:nth-child(2){font-weight:700;color:var(--tdmd-teal);}
   @media(max-width:768px){.cst-two-col{grid-template-columns:1fr;}.cst-vbars{gap:0.4rem;min-height:240px;padding:1rem 0.2rem 0.5rem;}.tdmd-vbar{height:200px;}.tdmd-vbar__value{font-size:0.72rem;}.tdmd-vbar__label{font-size:0.68rem;}}
+  @media(max-width:900px){.cst-grid{grid-template-columns:repeat(2,minmax(0,1fr));}}
   @media(max-width:520px){.cst-grid{grid-template-columns:1fr;}}
+  .cst-h1,.cst-h2,.cst-hero h1,.cst-wrap h2{font-weight:600;}
 `;
 
 export default function CostHubPage() {
@@ -331,8 +356,8 @@ export default function CostHubPage() {
           </nav>
           <h1 className="cst-h1">Telehealth Cost Guides by Condition</h1>
           <p className="cst-lead">
-            How much does it actually cost to get a condition treated online? This hub collects 20 condition-by-condition
-            cost guides that break down what you pay at TeleDirectMD versus urgent care, retail clinics, and the ER —
+            How much does it actually cost to get a condition treated online? This hub collects 21 condition-by-condition
+            cost guides that break down what you pay at TeleDirectMD versus urgent care and the ER,
             with cited sources for every number. All guides reflect TeleDirectMD&apos;s current flat <strong>$79</strong> self-pay fee.
           </p>
           <p className="cst-lead">
@@ -353,7 +378,7 @@ export default function CostHubPage() {
           <p className="cst-reviewed">
             Medically reviewed by{' '}
             <a href="/about/">Parth Bhavsar, MD</a>
-            {' '}(NPI&nbsp;1104323203) &mdash; Last reviewed: May 23, 2026
+            {' '}(NPI&nbsp;1104323203) &middot; Last updated {new Date(`${contentDate('costPages')}T12:00:00Z`).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' })}
           </p>
         </div>
       </div>
@@ -362,20 +387,25 @@ export default function CostHubPage() {
 
         {/* Cost Card Grid */}
         <section className="cst-section" aria-labelledby="catalog-heading">
-          <h2 id="catalog-heading" className="cst-h2">Cost Guides — 20 Conditions</h2>
+          <h2 id="catalog-heading" className="cst-h2">Cost Guides: {COST_CATALOG.length} Topics</h2>
           <p className="cst-p">
             Each guide below covers the total cost of treating that condition at TeleDirectMD vs. alternatives,
             along with typical prescription costs and how to reduce them. Click a condition to read the full guide.
           </p>
-          <div className="cst-grid">
-            {COST_CATALOG.map((c) => (
-              <a key={c.slug} href={`/cost/${c.slug}/`} className="cst-card">
-                <p className="cst-card-title">{c.name}</p>
-                <p className="cst-card-desc">{c.desc}</p>
-                <span className="cst-card-arrow">Read cost guide &rarr;</span>
-              </a>
-            ))}
-          </div>
+          {COST_GROUPS.map((g) => (
+            <div key={g.title} className="cst-group">
+              <h3 className="cst-group-title">{g.title}</h3>
+              <div className="cst-grid">
+                {g.slugs.map((slug) => COST_CATALOG.find((c) => c.slug === slug)).filter(Boolean).map((c) => (
+                  <a key={c.slug} href={`/cost/${c.slug}/`} className="cst-card">
+                    <p className="cst-card-title">{c.name}</p>
+                    <p className="cst-card-desc">{c.desc}</p>
+                    <span className="cst-card-arrow">Read cost guide &rarr;</span>
+                  </a>
+                ))}
+              </div>
+            </div>
+          ))}
         </section>
 
         <hr className="cst-divider" />
@@ -385,8 +415,8 @@ export default function CostHubPage() {
           <h2 id="chart-heading" className="cst-h2">The Cost of Care by Setting</h2>
           <p className="cst-p">
             The chart below shows average out-of-pocket costs for a self-pay adult seeking care for a common acute condition —
-            UTI (women only), sinus infection, strep throat, pink eye, or similar. These figures are sourced from Mira Health (2025) and
-            CVS MinuteClinic published pricing (2024). Individual condition cost guides contain full source citations.
+            UTI (women only), sinus infection, strep throat, pink eye, or similar. These figures are sourced from Solv Health (June 2026) and
+            Mira Health (September 2026). Individual condition cost guides contain full source citations.
           </p>
           <div className="cst-vbars" aria-label="Cost comparison by care setting">
             {COST_BARS.map((bar) => {
@@ -408,8 +438,8 @@ export default function CostHubPage() {
             })}
           </div>
           <p className="cst-cost-note">
-            ER average: $2,715 uninsured (Mira Health, Feb 2025). Urgent care: ~$200 cash-pay average (Mira Health, 2025).
-            Retail clinic (CVS MinuteClinic): $99&ndash;$139 (CVS, 2024). TeleDirectMD: $79 flat. Pharmacy costs are separate.
+            ER: about $2,863 average (<a href="https://www.talktomira.com/post/how-much-does-an-er-visit-cost">Mira Health, Sept 2026</a>). Urgent care: $150&ndash;$280 self-pay before tests (<a href="https://www.solvhealth.com/health/how-much-does-urgent-care-cost-without-insurance">Solv Health, June 2026</a>).
+            TeleDirectMD: $79 flat. Pharmacy costs are separate at every setting. Insured patients may pay a lower copay through their plan.
           </p>
           <div className="cst-highlight-box">
             <div className="cst-price-big">$79</div>
@@ -437,88 +467,88 @@ export default function CostHubPage() {
               <thead>
                 <tr>
                   <th>Condition</th>
-                  <th>Visit Fee</th>
-                  <th>Typical Generic Rx Cost</th>
-                  <th>Estimated Total</th>
-                  <th>Urgent Care Equivalent</th>
+                  <th>Visit fee</th>
+                  <th>Typical generic Rx</th>
+                  <th>Estimated total</th>
+                  <th>In-person visit, cash, before tests</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
-                  <td>UTI (women only)</td>
+                  <td><a href="/cost/uti-treatment-cost/">UTI (non-pregnant adult women)</a></td>
                   <td>$79</td>
-                  <td>$4&ndash;$20 (nitrofurantoin)</td>
-                  <td>~$83&ndash;$99</td>
-                  <td>$150&ndash;$250</td>
+                  <td>$10&ndash;$14 (nitrofurantoin)</td>
+                  <td>$89&ndash;$93</td>
+                  <td>$150&ndash;$280 (urgent care)</td>
                 </tr>
                 <tr>
-                  <td>Sinus Infection</td>
+                  <td><a href="/cost/sinus-infection-treatment-cost/">Sinus infection</a></td>
                   <td>$79</td>
-                  <td>$10&ndash;$25 (amoxicillin)</td>
-                  <td>~$89&ndash;$104</td>
-                  <td>$150&ndash;$250</td>
+                  <td>$9&ndash;$20 (amoxicillin)</td>
+                  <td>$88&ndash;$99</td>
+                  <td>$150&ndash;$280 (urgent care)</td>
                 </tr>
                 <tr>
-                  <td>Strep Throat</td>
+                  <td><a href="/cost/sore-throat-treatment-cost/">Sore throat</a></td>
                   <td>$79</td>
-                  <td>$4&ndash;$15 (amoxicillin)</td>
-                  <td>~$83&ndash;$94</td>
-                  <td>$150&ndash;$250</td>
+                  <td>$9&ndash;$15 (antibiotic, if strep)</td>
+                  <td>$88&ndash;$94 + strep test if needed</td>
+                  <td>$150&ndash;$280 (urgent care)</td>
                 </tr>
                 <tr>
-                  <td>Pink Eye</td>
+                  <td><a href="/cost/pink-eye-cost/">Pink eye</a></td>
                   <td>$79</td>
-                  <td>$12&ndash;$35 (tobramycin drops)</td>
-                  <td>~$91&ndash;$114</td>
-                  <td>$150&ndash;$250</td>
+                  <td>$11&ndash;$12 (erythromycin ointment)</td>
+                  <td>$90&ndash;$91</td>
+                  <td>$150&ndash;$280 (urgent care)</td>
                 </tr>
                 <tr>
-                  <td>Yeast Infection</td>
+                  <td><a href="/cost/yeast-infection-cost/">Yeast infection</a></td>
                   <td>$79</td>
-                  <td>$10&ndash;$20 (fluconazole)</td>
-                  <td>~$89&ndash;$99</td>
-                  <td>$130&ndash;$200</td>
+                  <td>$12 (fluconazole)</td>
+                  <td>$91</td>
+                  <td>$150&ndash;$280 (urgent care)</td>
                 </tr>
                 <tr>
-                  <td>Cold Sore</td>
+                  <td><a href="/cost/cold-sore-cost/">Cold sore</a></td>
                   <td>$79</td>
-                  <td>$15&ndash;$40 (valacyclovir)</td>
-                  <td>~$94&ndash;$119</td>
-                  <td>$150&ndash;$250</td>
+                  <td>$14&ndash;$26 (valacyclovir)</td>
+                  <td>$93&ndash;$105</td>
+                  <td>$150&ndash;$280 (urgent care)</td>
                 </tr>
                 <tr>
-                  <td>Acne (prescription)</td>
+                  <td><a href="/cost/shingles-cost/">Shingles</a></td>
                   <td>$79</td>
-                  <td>$20&ndash;$60 (topical/oral antibiotic)</td>
-                  <td>~$99&ndash;$139</td>
-                  <td>$250&ndash;$400 (dermatology)</td>
+                  <td>$21&ndash;$30 (valacyclovir)</td>
+                  <td>$100&ndash;$109</td>
+                  <td>$150&ndash;$280 (urgent care)</td>
                 </tr>
                 <tr>
-                  <td>Erectile Dysfunction</td>
+                  <td><a href="/cost/migraine-treatment-cost/">Migraine</a></td>
                   <td>$79</td>
-                  <td>$10&ndash;$50 (generic sildenafil)</td>
-                  <td>~$89&ndash;$129</td>
-                  <td>$200&ndash;$400 (primary care/urology)</td>
+                  <td>$15&ndash;$17 (sumatriptan)</td>
+                  <td>$94&ndash;$96</td>
+                  <td>$150&ndash;$280 (urgent care)</td>
                 </tr>
                 <tr>
-                  <td>Shingles</td>
+                  <td><a href="/cost/acne-treatment-cost/">Acne</a></td>
                   <td>$79</td>
-                  <td>$30&ndash;$80 (valacyclovir 7-day)</td>
-                  <td>~$109&ndash;$159</td>
-                  <td>$200&ndash;$400</td>
+                  <td>from $11 (adapalene) or $29 (tretinoin)</td>
+                  <td>$90&ndash;$108</td>
+                  <td>$150&ndash;$300 (dermatology)</td>
                 </tr>
                 <tr>
-                  <td>Migraine refill</td>
+                  <td><a href="/cost/erectile-dysfunction-cost/">Erectile dysfunction</a></td>
                   <td>$79</td>
-                  <td>$15&ndash;$60 (sumatriptan generic)</td>
-                  <td>~$94&ndash;$139</td>
-                  <td>$250&ndash;$500 (neurology)</td>
+                  <td>$10&ndash;$14 (sildenafil, 10 tablets)</td>
+                  <td>$89&ndash;$93</td>
+                  <td>$170&ndash;$400 (urology)</td>
                 </tr>
               </tbody>
             </table>
           </div>
           <p className="cst-cost-note">
-            Medication prices are GoodRx estimates for generic equivalents at major retail pharmacies (2025). Branded versions cost significantly more.
+            Totals and medication prices come from each condition guide, which cites its sources (GoodRx and Cost Plus Drugs, 2026). In-person figures: Solv Health (urgent care), BetterCare (dermatology), MDsave (urology). Branded versions cost more.
             Use costplusdrugs.com or goodrx.com to compare current pricing at pharmacies near you before picking up your prescription.
           </p>
         </section>
@@ -574,9 +604,9 @@ export default function CostHubPage() {
           </p>
           <p className="cst-p">
             For patients managing chronic conditions — asthma, diabetes, hypertension, hypothyroidism, migraines — the cumulative
-            savings from telehealth refill visits over a year are substantial. A patient who refills three prescriptions per year
-            through TeleDirectMD instead of scheduling quarterly primary care visits spends $237 on visit fees versus $600&ndash;$900
-            for in-person visits with a self-pay primary care physician.
+            savings from telehealth refill visits over a year are substantial. A patient who has three refill visits per year
+            through TeleDirectMD spends $237 on visit fees, versus $300&ndash;$900 for three self-pay primary care visits
+            at $100&ndash;$300 each.
           </p>
         </section>
 

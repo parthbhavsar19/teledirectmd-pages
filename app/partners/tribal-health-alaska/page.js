@@ -352,7 +352,7 @@ export default function TribalHealthAlaskaPartnership() {
                 <li id="pref-3">
                   Alaska Native Tribal Health Consortium. Community Health Aide Program.{' '}
                   <a
-                    href="https://anthc.org/what-we-do/community-health-services/community-health-aide-program/"
+                    href="https://www.anthc.org/community-health-aide/"
                     target="_blank"
                     rel="noopener"
                   >

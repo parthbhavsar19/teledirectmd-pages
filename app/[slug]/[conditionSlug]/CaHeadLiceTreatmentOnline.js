@@ -10,7 +10,7 @@
  * FAQ accordion (12 Q/A), JSON-LD schemas (MedicalWebPage + FAQPage + Physician
  * + HowTo + BreadcrumbList + SpeakableSpecification — NEVER QAPage).
  *
- * Authority: AAD
+ * Authority: CDC, AAP
  * Guideline: CDC Head Lice Guidelines + AAP 2022 Head Lice Clinical Report
  *
  * Hard rules respected:
@@ -304,7 +304,7 @@ export default function CaHeadLiceTreatmentOnline() {
                   <ul>
                     <li>Fast evaluation for head lice (pediculosis capitis) symptoms</li>
                     <li>Red-flag screening for serious complications requiring in-person care</li>
-                    <li>Guideline-based treatment per AAD</li>
+                    <li>Guideline-based treatment per CDC and AAP</li>
                     <li>e-Prescriptions to your CA pharmacy under AB 2789</li>
                     <li>Clear follow-up steps and prevention guidance</li>
                   </ul>
@@ -416,10 +416,10 @@ export default function CaHeadLiceTreatmentOnline() {
           <div className="tdmd-container">
             <h2>How Common Is Head Lice in California?</h2>
             <p>
-              Head lice affect an estimated 6–12 million children and adults annually in the United States, according to the CDC Parasites — Head Lice program. In California, the California Department of Public Health (CDPH) acknowledges head lice as a common school health issue, with California school districts reporting persistent outbreaks due to permethrin-resistant lice — a growing problem. Los Angeles and San Francisco counties, with high-density multi-generational households, have elevated rates of head lice transmission. — <a href="https://www.cdc.gov/parasites/lice/head/index.html" rel="noopener" target="_blank">CDC Parasites — Head Lice</a>.
+              Head lice affect an estimated 6–12 million children and adults annually in the United States, according to the CDC Parasites — Head Lice program. In California, the California Department of Public Health (CDPH) acknowledges head lice as a common school health issue, with California school districts reporting persistent outbreaks due to permethrin-resistant lice — a growing problem. Los Angeles and San Francisco counties, with high-density multi-generational households, have elevated rates of head lice transmission. — <a href="https://www.cdc.gov/lice/about/head-lice.html" rel="noopener" target="_blank">CDC — About Head Lice</a>.
             </p>
             <p>
-              Clinical guidance for head lice (pediculosis capitis) is provided by <a href="https://www.cdc.gov/parasites/lice/head/treatment.html" rel="noopener" target="_blank">AAD</a> through the CDC Head Lice Guidelines + AAP 2022 Head Lice Clinical Report. TeleDirectMD follows these guidelines on every patient visit.
+              Clinical guidance for head lice (pediculosis capitis) comes from the <a href="https://www.cdc.gov/lice/hcp/clinical-care/index.html" rel="noopener" target="_blank">CDC</a> and the AAP 2022 Head Lice Clinical Report. TeleDirectMD follows these guidelines on every patient visit.
             </p>
             <h3>What causes head lice and who is most at risk in California?</h3>
             <p>
@@ -514,7 +514,7 @@ export default function CaHeadLiceTreatmentOnline() {
           <div className="tdmd-container">
             <h2>Head Lice (Pediculosis Capitis) Medication Options and Costs in California</h2>
             <p>
-              Medications for head lice (pediculosis capitis) are selected based on current guidelines from <a href="https://www.cdc.gov/parasites/lice/head/treatment.html" rel="noopener" target="_blank">AAD</a>, patient history, allergies, and relevant contraindications assessed at the visit. GoodRx-verified pricing is shown below.
+              Medications for head lice (pediculosis capitis) are selected based on current guidelines from the <a href="https://www.cdc.gov/lice/hcp/clinical-care/index.html" rel="noopener" target="_blank">CDC</a>, patient history, allergies, and relevant contraindications assessed at the visit. GoodRx-verified pricing is shown below.
             </p>
             <div className="tdmd-table-wrap">
               <table className="tdmd-table" aria-label="Head Lice (Pediculosis Capitis) medication options and GoodRx prices">
@@ -533,25 +533,25 @@ export default function CaHeadLiceTreatmentOnline() {
                   <tr className="tdmd-ca-uti__med-firstline">
                     <td><strong>Permethrin 1% lotion/cream rinse (Nix)</strong> · First-line</td>
                     <td>Apply to hair and scalp, leave 10 minutes, rinse — repeat in 7–10 days if live lice still present</td>
-                    <td><a href="https://www.goodrx.com/permethrin-topical" target="_blank" rel="noopener">~$10–$20 OTC or Rx</a></td>
+                    <td><a href="https://www.goodrx.com/permethrin" target="_blank" rel="noopener">~$10–$20 OTC or Rx</a></td>
                     <td>First-line per CDC/AAP for head lice. OTC available. Kills lice but not all eggs — repeat treatment in 7–10 days is essential. Resistance is increasing in California — if no improvement after 2 treatments, use malathion or benzyl alcohol.</td>
                   </tr>
                   <tr>
                     <td><strong>Malathion 0.5% lotion (Ovide)</strong></td>
                     <td>Apply to dry hair and scalp, leave 8–12 hours (overnight), rinse — repeat in 7–9 days if live lice present</td>
-                    <td><a href="https://www.goodrx.com/malathion-topical" target="_blank" rel="noopener">~$60–$120 / 59 mL</a></td>
+                    <td><a href="https://www.goodrx.com/malathion" target="_blank" rel="noopener">~$60–$120 / 59 mL</a></td>
                     <td>Second-line for permethrin-resistant head lice per CDC/AAP. Prescription only. Highly effective against both lice and eggs. Flammable — keep away from heat/flames during application. Not for children under 6.</td>
                   </tr>
                   <tr>
                     <td><strong>Benzyl alcohol 5% lotion (Ulesfia)</strong></td>
                     <td>Apply to dry hair and scalp, leave 10 minutes, rinse — repeat in 7 days</td>
-                    <td><a href="https://www.goodrx.com/benzyl-alcohol-topical" target="_blank" rel="noopener">~$150–$200 / 227 mL</a></td>
+                    <td><a href="https://www.goodrx.com/ulesfia" target="_blank" rel="noopener">~$150–$200 / 227 mL</a></td>
                     <td>Non-neurotoxic second-line for permethrin-resistant lice per CDC/AAP. Prescription only. Kills lice by suffocation — does not kill eggs, so repeat treatment is essential. Safe for children 6 months+ per AAP.</td>
                   </tr>
                   <tr>
                     <td><strong>Spinosad 0.9% suspension (Natroba)</strong></td>
                     <td>Apply to dry hair and scalp for 10 minutes, rinse — repeat in 7 days if live lice present</td>
-                    <td><a href="https://www.goodrx.com/spinosad-topical" target="_blank" rel="noopener">~$200–$400 / 120 mL</a></td>
+                    <td><a href="https://www.goodrx.com/spinosad" target="_blank" rel="noopener">~$200–$400 / 120 mL</a></td>
                     <td>FDA-approved for lice in adults and children ≥4 years per CDC. Prescription. High cure rate — often effective with single treatment. Expensive.</td>
                   </tr>
                 </tbody>
@@ -692,14 +692,14 @@ export default function CaHeadLiceTreatmentOnline() {
             <h2>References and Primary Sources</h2>
             <ol className="tdmd-ref-list">
               <li><a href="https://www.cdc.gov/parasites/lice/head/treatment.html" rel="noopener" target="_blank">CDC — Head Lice Treatment. Retrieved 2026-05-22.</a></li>
-              <li><a href="https://www.cdc.gov/parasites/lice/head/index.html" rel="noopener" target="_blank">CDC — Head Lice Overview. Retrieved 2026-05-22.</a></li>
+              <li><a href="https://www.cdc.gov/lice/about/head-lice.html" rel="noopener" target="_blank">CDC — About Head Lice. Retrieved 2026-05-22.</a></li>
               <li><a href="https://www.cdph.ca.gov/Programs/CID/DCDC/Pages/HeadLice.aspx" rel="noopener" target="_blank">CDPH — Head Lice. Retrieved 2026-05-22.</a></li>
               <li><a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=2290.5.&lawCode=BPC" rel="noopener" target="_blank">California B&P Code §2290.5. Retrieved 2026-05-22.</a></li>
               <li><a href="https://www.mbc.ca.gov/Licensees/Telehealth.aspx" rel="noopener" target="_blank">Medical Board of California — Telehealth. Retrieved 2026-05-22.</a></li>
               <li><a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=10123.85.&lawCode=INS" rel="noopener" target="_blank">California Insurance Code §10123.85 (AB 744). Retrieved 2026-05-22.</a></li>
-              <li><a href="https://www.goodrx.com/permethrin-topical" rel="noopener" target="_blank">GoodRx — Permethrin. Retrieved 2026-05-22.</a></li>
-              <li><a href="https://www.goodrx.com/malathion-topical" rel="noopener" target="_blank">GoodRx — Malathion Topical. Retrieved 2026-05-22.</a></li>
-              <li><a href="https://www.goodrx.com/benzyl-alcohol-topical" rel="noopener" target="_blank">GoodRx — Benzyl Alcohol Topical. Retrieved 2026-05-22.</a></li>
+              <li><a href="https://www.goodrx.com/permethrin" rel="noopener" target="_blank">GoodRx — Permethrin. Retrieved 2026-05-22.</a></li>
+              <li><a href="https://www.goodrx.com/malathion" rel="noopener" target="_blank">GoodRx — Malathion Topical. Retrieved 2026-05-22.</a></li>
+              <li><a href="https://www.goodrx.com/ulesfia" rel="noopener" target="_blank">GoodRx — Benzyl Alcohol Topical. Retrieved 2026-05-22.</a></li>
               <li><a href="https://www.mbc.ca.gov/Licensees/Prescriptions/Electronic_Prescribing.aspx" rel="noopener" target="_blank">Medical Board of California — AB 2789. Retrieved 2026-05-22.</a></li>
             </ol>
           </div>

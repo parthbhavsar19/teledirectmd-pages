@@ -125,12 +125,12 @@ function injectIntoFile(slug, entry) {
   // Idempotent: if a block exists, replace it. Otherwise insert after </header>.
   if (html.includes(MARKER_START)) {
     const re = new RegExp(MARKER_START + '[\\s\\S]*?' + MARKER_END, 'g');
-    html = html.replace(re, block);
+    html = html.replace(re, () => block);
   } else {
     // Insert after the first </header> closing tag of the article-header
     const headerCloseRegex = /(<\/header>)/;
     if (!headerCloseRegex.test(html)) return { slug, status: 'no-header' };
-    html = html.replace(headerCloseRegex, `$1\n${block}`);
+    html = html.replace(headerCloseRegex, (m) => `${m}\n${block}`);
   }
 
   fs.writeFileSync(filePath, html);
