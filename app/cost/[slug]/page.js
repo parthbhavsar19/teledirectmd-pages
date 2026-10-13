@@ -409,18 +409,14 @@ export default async function CostPage({ params }) {
                 <div className="tdmd-bar-track"><div className="tdmd-bar-fill" style={{ '--w': 9 }} /></div>
               </div>
               <div className="tdmd-bar-row">
-                <div className="tdmd-bar-label"><span>Retail clinic</span><span>$99–$139</span></div>
-                <div className="tdmd-bar-track"><div className="tdmd-bar-fill" style={{ '--w': 13 }} /></div>
-              </div>
-              <div className="tdmd-bar-row">
                 <div className="tdmd-bar-label"><span>Urgent care</span><span>$150–$280</span></div>
                 <div className="tdmd-bar-track"><div className="tdmd-bar-fill" style={{ '--w': 28 }} /></div>
               </div>
               <div className="tdmd-bar-row">
-                <div className="tdmd-bar-label"><span>Emergency room</span><span>~$2,715</span></div>
+                <div className="tdmd-bar-label"><span>Emergency room</span><span>~$2,863</span></div>
                 <div className="tdmd-bar-track"><div className="tdmd-bar-fill" style={{ '--w': 100 }} /></div>
               </div>
-              <p className="tdmd-price-footnote">Sources: <a href="https://www.talktomira.com/post/how-much-does-an-er-visit-cost" rel="nofollow noopener">Mira Health 2025</a>; <a href="https://www.goodrx.com/health-topic/emergency-care/how-much-is-urgent-care-without-insurance" rel="nofollow noopener">GoodRx 2024</a>; <a href="https://www.cvs.com/minuteclinic/services/price-lists" rel="nofollow noopener">CVS MinuteClinic 2024</a>.</p>
+              <p className="tdmd-price-footnote">Sources: <a href="https://www.talktomira.com/post/how-much-does-an-er-visit-cost" rel="nofollow noopener">Mira Health, Sept 2026</a> (ER); <a href="https://www.solvhealth.com/health/how-much-does-urgent-care-cost-without-insurance" rel="nofollow noopener">Solv Health, June 2026</a> (urgent care).</p>
             </div>
           </div>
         </div>
@@ -708,7 +704,7 @@ export default async function CostPage({ params }) {
         <div className="tdmd-container">
           <h2>Medical Disclaimer & Pricing Caveats</h2>
           <p>
-            Cost figures on this page reflect 2025–2026 cash-pay/uninsured averages or ranges from public sources (KFF, Mira Health, GoodRx, Penn Medicine, CVS MinuteClinic, BetterCare). Actual costs vary by geography, facility, and services rendered. This page is informational only and does not constitute medical advice or a guarantee of pricing. TeleDirectMD provides telehealth services for non-emergency conditions in adults 18+ physically located in one of our 40+ licensed states at the time of the visit. We do not prescribe controlled substances. If you are experiencing a medical emergency, call 911 immediately.
+            Cost figures on this page reflect 2025–2026 cash-pay/uninsured averages or ranges from public sources (KFF, Mira Health, GoodRx, Penn Medicine, Solv Health, BetterCare). Actual costs vary by geography, facility, and services rendered. This page is informational only and does not constitute medical advice or a guarantee of pricing. TeleDirectMD provides telehealth services for non-emergency conditions in adults 18+ physically located in one of our 40+ licensed states at the time of the visit. We do not prescribe controlled substances. If you are experiencing a medical emergency, call 911 immediately.
           </p>
         </div>
       </section>

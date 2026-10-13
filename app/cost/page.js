@@ -16,7 +16,7 @@ export const metadata = {
     locale: 'en_US',
     title: 'Telehealth Cost Guides by Condition | TeleDirectMD',
     description:
-      '$79 flat self-pay telehealth. Cost guides for 21 topics — sourced comparisons vs. urgent care, retail clinic, and ER.',
+      '$79 flat self-pay telehealth. Cost guides for 21 topics — sourced comparisons vs. urgent care and the ER.',
     url: 'https://teledirectmd.com/cost',
   },
 };
@@ -113,7 +113,7 @@ const COST_CATALOG = [
   {
     slug: 'uti-treatment-cost',
     name: 'UTI Treatment Cost',
-    desc: 'Uncomplicated UTI antibiotics online for non-pregnant adult women: $79 for the visit. Full sourced comparison to urgent care, retail clinic, and ER.',
+    desc: 'Uncomplicated UTI antibiotics online for non-pregnant adult women: $79 for the visit. Full sourced comparison to urgent care and the ER.',
   },
   {
     slug: 'uti-antibiotics-cost',
@@ -215,7 +215,7 @@ const jsonLd = {
       url: `${BASE_URL}/cost/`,
       name: 'Telehealth Cost Guides by Condition | TeleDirectMD',
       description:
-        'Hub page for 21 condition-by-condition telehealth cost guides. TeleDirectMD charges $79 flat; each guide provides sourced cost comparisons vs. urgent care, retail clinic, and ER.',
+        'Hub page for 21 condition-by-condition telehealth cost guides. TeleDirectMD charges $79 flat; each guide provides sourced cost comparisons vs. urgent care and ER.',
       inLanguage: 'en-US',
       breadcrumb: { '@id': `${BASE_URL}/cost#breadcrumbs` },
       publisher: { '@id': `${BASE_URL}/#organization` },
