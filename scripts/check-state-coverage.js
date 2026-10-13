@@ -45,8 +45,9 @@ const LISTS = [
     section: /Alabama,[\s\S]{0,1600}/ },
   { file: 'app/faq/deep-dive/page.js',
     section: /abbr: 'al'[\s\S]{0,4000}/ },
-  { file: 'app/components/UtiAntibioticsPage.js',
-    section: /\['Alabama'[\s\S]{0,1600}/ },
+  // app/components/UtiAntibioticsPage.js was removed from this list on
+  // 2026-10-13: its state chips were replaced by a link to /states-we-serve/,
+  // so there is no hand-typed enumeration left to drift.
   // app/who-we-serve/[segment]/UninsuredAffordableCarePage.js was removed from
   // this list on 2026-09-10: it now renders its state list straight from
   // data/states.json, so there is no hand-typed enumeration left to drift.
@@ -230,6 +231,9 @@ function main() {
     if (!DOLLAR_49.test(txt)) continue;
     const lines = txt.split('\n');
     lines.forEach((line, i) => {
+      // Walgreens Virtual Healthcare's own $49 visit prices are sourced competitor
+      // pricing on the comparison pages, not stale TeleDirectMD copy.
+      if (rel === 'lib/compare-pages-config.js' && /Walgreens/.test(line)) return;
       if (DOLLAR_49.test(line)) {
         priceProblems.push(`${rel}:${i + 1}  ${line.trim().slice(0, 200)}`);
       }
