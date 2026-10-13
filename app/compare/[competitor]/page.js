@@ -171,7 +171,7 @@ const CMP_CSS = `
   .cmpv-vs{justify-self:center;margin:-8px 0;}
   .cmpv-wins,.cmpv-quick,.cmpv-grid4,.cmpv-steps,.cmpv-quotes{grid-template-columns:1fr;}
   .cmpv-doc{grid-template-columns:1fr;gap:24px;}
-  .cmpv-doc-photo{width:160px;height:200px;}
+  .cmpv-doc-photo{width:240px;height:300px;justify-self:center;}
   .cmpv-sec{padding:44px 0;}
 }
 @media (max-width:680px){
