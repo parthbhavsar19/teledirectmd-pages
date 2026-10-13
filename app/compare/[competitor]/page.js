@@ -1,4 +1,4 @@
-// /compare/[competitor]/ — dynamic route for the 6 head-to-head pages.
+// /compare/[competitor]/ — dynamic route for the head-to-head pages.
 // Content lives in lib/compare-pages-config.js. Structure mirrors the
 // 23-section gold standard in app/who-we-serve/[segment]/InternationalVisitorsPage.js
 // (and the cost-pages dynamic route added in the prior PR).
@@ -17,16 +17,186 @@ import { AGGREGATE_RATING_VALUE, TOTAL_REVIEW_COUNT } from '../../../lib/review-
 import { buildCostCompareJsonLd } from '../../../lib/cost-compare-schema';
 import { darkCSS } from '../../../lib/dark-css';
 import { CitableSummaryBlock } from '../../components/CitableSummary';
+import reviewsData from '../../../data/reviews.json';
 import { summarizeCompare, summarizeUseCase, summarizeWhoWeServe, summarizeFaqDeepDive, citableSummaryToJsonLd } from '../../../lib/citable-summary';
 
-// Dark theme: the hero keeps its deep teal gradient; the quick-answer card
-// turns into a dark card instead of a white box.
-const COMPARE_HERO_DARK = darkCSS(`
-  DARK .tdmd-hero{background:linear-gradient(160deg,#04212b 0%,#063341 60%,#0a4a54 100%) !important;}
-  DARK .tdmd-hero .tdmd-hero-card{background:#122028 !important;color:var(--tdmd-text);border:1px solid #2b4652;box-shadow:0 18px 46px rgba(0,0,0,.5);}
-  DARK .tdmd-hero .tdmd-hero-card h2{color:var(--tdmd-navy);}
-  DARK .tdmd-hero .tdmd-hero-note{color:var(--tdmd-muted);}
-`);
+// Visual system for the comparison pages: Fraunces headings, DM Sans body,
+// navy/teal with brand orange for the primary action. Colors run through the
+// --cv-* variables so the dark theme only has to redefine them.
+const CMP_CSS = `
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=DM+Sans:wght@400;500;600;700&display=swap');
+.cmpv{--cv-ink:#0f2a33;--cv-muted:#4f6670;--cv-navy:#063a4a;--cv-teal:#00707a;--cv-teal-soft:#e3f3f4;--cv-line:#dde7ea;--cv-card:#fff;--cv-page:#fff;--cv-tint:#f4f8f8;--cv-us:#f0fafa;--cv-orange:#ff5a36;--cv-on-orange:#1a0b06;--cv-gold:#e8a33d;
+  font-family:'DM Sans',system-ui,sans-serif;color:var(--cv-ink);background:var(--cv-page);}
+.cmpv h1,.cmpv h2,.cmpv h3{font-family:'Fraunces',Georgia,serif;color:var(--cv-navy);letter-spacing:-0.01em;}
+.cmpv a{color:var(--cv-teal);}
+.cmpv-wrap{max-width:1120px;margin:0 auto;padding:0 20px;}
+.cmpv-narrow{max-width:820px;}
+.cmpv-crumbs{font-size:.85rem;padding:14px 0 0;color:var(--cv-muted);}
+.cmpv-crumbs .cmpv-wrap{display:flex;gap:8px;flex-wrap:wrap;}
+.cmpv-crumbs a{color:var(--cv-muted);}
+
+.cmpv-hero{padding:28px 0 44px;background:radial-gradient(1200px 400px at 85% -10%,rgba(0,112,122,.10),transparent 60%),var(--cv-page);}
+.cmpv-eyebrow{display:inline-block;font-size:.78rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--cv-teal);background:var(--cv-teal-soft);padding:6px 12px;border-radius:999px;margin:0 0 16px;}
+.cmpv-hero h1{font-size:clamp(2rem,4.4vw,3.1rem);line-height:1.08;font-weight:600;margin:0 0 14px;max-width:18ch;}
+.cmpv-lede{font-size:1.15rem;line-height:1.55;color:var(--cv-muted);max-width:62ch;margin:0 0 28px;}
+
+.cmpv-match{display:grid;grid-template-columns:1fr auto 1fr;gap:18px;align-items:stretch;margin:0 0 22px;}
+.cmpv-side{background:var(--cv-card);border:1px solid var(--cv-line);border-radius:20px;padding:22px 22px 16px;box-shadow:0 1px 2px rgba(6,58,74,.04),0 12px 32px rgba(6,58,74,.06);}
+.cmpv-side--us{border:2px solid var(--cv-teal);background:linear-gradient(180deg,var(--cv-us),var(--cv-card) 55%);position:relative;}
+.cmpv-side-head{display:flex;align-items:center;gap:12px;margin-bottom:14px;}
+.cmpv-side-head h2{font-size:1.35rem;margin:0;}
+.cmpv-side-head p{margin:2px 0 0;font-size:.9rem;color:var(--cv-muted);}
+.cmpv-avatar{width:56px;height:56px;border-radius:50%;object-fit:cover;border:2px solid #fff;box-shadow:0 0 0 2px var(--cv-teal);}
+.cmpv-mono{width:56px;height:56px;border-radius:50%;display:grid;place-items:center;font-family:'Fraunces',Georgia,serif;font-size:1.5rem;font-weight:600;color:var(--cv-muted);background:var(--cv-tint);border:1px solid var(--cv-line);}
+.cmpv-price{font-family:'Fraunces',Georgia,serif;font-size:2.6rem;font-weight:600;color:var(--cv-navy);margin:0 0 12px;line-height:1;}
+.cmpv-price span{font-family:'DM Sans',sans-serif;font-size:.95rem;font-weight:500;color:var(--cv-muted);}
+.cmpv-price-detail{margin:-6px 0 12px;font-size:.88rem;color:var(--cv-muted);line-height:1.45;}
+.cmpv-side dl{margin:0;}
+.cmpv-side dl div{display:grid;grid-template-columns:108px 1fr;gap:10px;padding:9px 0;border-top:1px solid var(--cv-line);font-size:.93rem;}
+.cmpv-side dt{color:var(--cv-muted);font-weight:500;}
+.cmpv-side dd{margin:0;font-weight:600;}
+.cmpv-vs{align-self:center;width:48px;height:48px;border-radius:50%;display:grid;place-items:center;background:var(--cv-navy);color:#fff;font-family:'Fraunces',Georgia,serif;font-style:italic;font-weight:600;}
+
+.cmpv-answer{background:var(--cv-tint);border-left:4px solid var(--cv-teal);border-radius:0 14px 14px 0;padding:16px 20px;margin:0 0 22px;line-height:1.6;}
+.cmpv-answer-lead{margin:0 0 4px;font-weight:700;font-size:.8rem;letter-spacing:.08em;text-transform:uppercase;color:var(--cv-teal);}
+.cmpv-answer p:last-child{margin:0;}
+.cmpv-ctas{display:flex;flex-wrap:wrap;gap:12px;margin:0 0 18px;}
+.cmpv-btn{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:0 22px;border-radius:999px;font-weight:700;text-decoration:none;font-size:1rem;transition:transform .15s,box-shadow .15s;}
+.cmpv-btn--primary{background:var(--cv-orange);color:var(--cv-on-orange) !important;box-shadow:0 10px 24px rgba(255,90,54,.28);}
+.cmpv-btn--primary:hover{transform:translateY(-1px);box-shadow:0 14px 30px rgba(255,90,54,.34);}
+.cmpv-btn--ghost{border:1.5px solid var(--cv-navy);color:var(--cv-navy) !important;background:transparent;}
+.cmpv-btn:focus-visible,.cmpv a:focus-visible,.cmpv summary:focus-visible{outline:3px solid var(--cv-teal);outline-offset:3px;}
+.cmpv-byline{display:flex;align-items:center;gap:10px;font-size:.86rem;color:var(--cv-muted);margin:0;}
+.cmpv-byline img{width:28px;height:28px;border-radius:50%;flex:none;object-fit:cover;}
+
+.cmpv-jump{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--cv-page) 92%,transparent);backdrop-filter:blur(8px);border-top:1px solid var(--cv-line);border-bottom:1px solid var(--cv-line);}
+.cmpv-jump .cmpv-wrap{display:flex;gap:6px;overflow-x:auto;padding-top:8px;padding-bottom:8px;scrollbar-width:none;}
+.cmpv-jump a{white-space:nowrap;font-size:.9rem;font-weight:600;color:var(--cv-muted);text-decoration:none;padding:7px 14px;border-radius:999px;}
+.cmpv-jump a:hover{background:var(--cv-tint);color:var(--cv-navy);}
+
+.cmpv-sec{padding:64px 0;scroll-margin-top:56px;}
+.cmpv-sec--tint{background:var(--cv-tint);}
+.cmpv-kicker{margin:0 0 8px;font-size:.78rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--cv-teal);}
+.cmpv-sec h2{font-size:clamp(1.6rem,3vw,2.2rem);line-height:1.15;font-weight:600;margin:0 0 10px;}
+.cmpv-sub{color:var(--cv-muted);margin:0 0 26px;max-width:66ch;line-height:1.6;}
+.cmpv-h-sm{font-size:1.15rem !important;margin:0 0 12px !important;}
+
+.cmpv-table{border:1px solid var(--cv-line);border-radius:18px;overflow:hidden;background:var(--cv-card);}
+.cmpv-row{display:grid;grid-template-columns:1.1fr 1.3fr 1.6fr;}
+.cmpv-row > span{padding:14px 18px;border-top:1px solid var(--cv-line);font-size:.95rem;line-height:1.5;}
+.cmpv-row--head > span{border-top:0;font-size:.78rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--cv-muted);background:var(--cv-tint);}
+.cmpv-row--head .cmpv-col-us{color:var(--cv-teal);}
+.cmpv-dim{font-weight:600;color:var(--cv-navy);}
+.cmpv-col-us{background:var(--cv-us);font-weight:600;}
+.cmpv-src{display:inline-block;margin-left:8px;font-size:.78rem;font-weight:600;padding:1px 8px;border:1px solid var(--cv-line);border-radius:999px;text-decoration:none;}
+
+.cmpv-wins{display:grid;grid-template-columns:1fr 1fr;gap:20px;}
+.cmpv-win{background:var(--cv-card);border:1px solid var(--cv-line);border-radius:18px;padding:24px;}
+.cmpv-win--us{border-color:var(--cv-teal);box-shadow:0 12px 30px rgba(0,112,122,.08);}
+.cmpv-win h3{font-size:1.25rem;margin:0 0 14px;}
+.cmpv-win ul{list-style:none;margin:0;padding:0;display:grid;gap:12px;}
+.cmpv-win li{position:relative;padding-left:30px;line-height:1.55;}
+.cmpv-win li::before{content:"";position:absolute;left:0;top:3px;width:20px;height:20px;border-radius:50%;background:var(--cv-tint) center/12px no-repeat;border:1px solid var(--cv-line);}
+.cmpv-win--us li::before{background-color:var(--cv-teal);border-color:var(--cv-teal);background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12'%3E%3Cpath d='M2.5 6.2l2.2 2.2 4.8-4.8' fill='none' stroke='white' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");}
+.cmpv-quick-h{font-size:1.15rem;margin:34px 0 12px;}
+.cmpv-quick{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:12px;}
+.cmpv-quick li{background:var(--cv-card);border:1px solid var(--cv-line);border-radius:14px;padding:14px 16px;display:grid;gap:4px;}
+.cmpv-quick-q{font-weight:700;color:var(--cv-navy);}
+.cmpv-quick-a{color:var(--cv-muted);font-size:.93rem;}
+.cmpv-quick li.is-us{border-left:4px solid var(--cv-teal);}
+
+.cmpv-grid4{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;}
+.cmpv-card{background:var(--cv-card);border:1px solid var(--cv-line);border-radius:18px;padding:22px;}
+.cmpv-card h3{font-size:1.2rem;margin:10px 0 8px;}
+.cmpv-card p{margin:0 0 10px;line-height:1.6;font-size:.96rem;}
+.cmpv-badge{display:inline-grid;place-items:center;min-width:40px;height:40px;padding:0 8px;border-radius:12px;background:var(--cv-teal-soft);color:var(--cv-teal);font-weight:700;font-size:.9rem;}
+.cmpv-note{font-size:.86rem !important;color:var(--cv-muted);}
+.cmpv-pricebar{margin-top:22px;background:var(--cv-card);border:1px solid var(--cv-line);border-radius:18px;padding:20px 22px;}
+.cmpv-pricebar-row{display:grid;grid-template-columns:130px 1fr 90px;gap:14px;align-items:center;margin-bottom:12px;font-weight:600;}
+.cmpv-pricebar-row strong{text-align:right;color:var(--cv-navy);}
+.cmpv-track{height:12px;border-radius:999px;background:var(--cv-tint);overflow:hidden;}
+.cmpv-fill{height:100%;border-radius:999px;background:#9db3ba;}
+.cmpv-fill--us{background:var(--cv-teal);}
+
+.cmpv-sec--dark{background:linear-gradient(160deg,#032733,#063a4a 60%,#0b5059);color:#e6f2f4;}
+.cmpv-sec--dark h2,.cmpv-sec--dark h3{color:#fff;}
+.cmpv-sec--dark a{color:#ffd28a;}
+.cmpv-sec--dark .cmpv-kicker{color:#7fd6dc;}
+.cmpv-doc{display:grid;grid-template-columns:240px 1fr;gap:40px;align-items:center;}
+.cmpv-doc-photo{width:240px;height:300px;object-fit:cover;border-radius:22px;box-shadow:0 22px 50px rgba(0,0,0,.35);}
+.cmpv-doc-copy p{line-height:1.65;color:#cfe3e7;}
+.cmpv-creds{list-style:none;padding:0;margin:16px 0;display:grid;grid-template-columns:1fr 1fr;gap:8px 20px;}
+.cmpv-creds li{padding-left:22px;position:relative;color:#e6f2f4;font-weight:500;}
+.cmpv-creds li::before{content:"";position:absolute;left:0;top:7px;width:10px;height:10px;border-radius:50%;background:var(--cv-gold);}
+.cmpv-rating{font-size:.95rem;}
+.cmpv-rating span{color:var(--cv-gold);letter-spacing:2px;margin-right:6px;}
+.cmpv-quotes{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;margin-top:40px;}
+.cmpv-quote{margin:0;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.12);border-radius:18px;padding:20px;}
+.cmpv-stars{color:var(--cv-gold);letter-spacing:2px;}
+.cmpv-quote blockquote{margin:10px 0 12px;line-height:1.6;color:#eef6f7;font-size:.97rem;}
+.cmpv-quote figcaption{font-size:.84rem;color:#9cc3c9;}
+
+.cmpv-steps{list-style:none;margin:0 0 36px;padding:0;display:grid;grid-template-columns:repeat(3,1fr);gap:18px;counter-reset:s;}
+.cmpv-steps li{background:var(--cv-card);border:1px solid var(--cv-line);border-radius:18px;padding:22px;}
+.cmpv-steps li > span{display:inline-grid;place-items:center;width:36px;height:36px;border-radius:50%;background:var(--cv-navy);color:#fff;font-weight:700;}
+.cmpv-steps h3{font-size:1.15rem;margin:12px 0 6px;}
+.cmpv-steps p{margin:0;color:var(--cv-muted);line-height:1.55;font-size:.95rem;}
+.cmpv-chips-block h3{font-size:1.05rem;margin:22px 0 10px;}
+.cmpv-chips{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:8px;}
+.cmpv-chips a{display:inline-flex;align-items:center;min-height:38px;padding:0 14px;border:1px solid var(--cv-line);border-radius:999px;background:var(--cv-card);color:var(--cv-navy);font-weight:600;font-size:.92rem;text-decoration:none;}
+.cmpv-chips a:hover{border-color:var(--cv-teal);color:var(--cv-teal);}
+.cmpv-chips a.is-more{background:var(--cv-teal-soft);border-color:transparent;color:var(--cv-teal);}
+
+.cmpv-faq details{background:var(--cv-card);border:1px solid var(--cv-line);border-radius:14px;margin-bottom:10px;}
+.cmpv-faq summary{cursor:pointer;list-style:none;padding:16px 48px 16px 18px;font-weight:600;color:var(--cv-navy);position:relative;}
+.cmpv-faq summary::-webkit-details-marker{display:none;}
+.cmpv-faq summary::after{content:"+";position:absolute;right:18px;top:50%;transform:translateY(-50%);font-size:1.3rem;color:var(--cv-teal);}
+.cmpv-faq details[open] summary::after{content:"\\2212";}
+.cmpv-faq details > div{padding:0 18px 16px;line-height:1.6;color:var(--cv-ink);}
+.cmpv-faq details > div p{margin:0;}
+
+.cmpv-cta{padding:56px 0;background:var(--cv-navy);color:#fff;text-align:center;}
+.cmpv-cta h2{color:#fff;font-size:clamp(1.7rem,3vw,2.3rem);margin:0 0 8px;}
+.cmpv-cta p{color:#cfe3e7;margin:0 0 22px;}
+.cmpv-cta .cmpv-ctas{justify-content:center;margin:0;}
+.cmpv-cta .cmpv-btn--ghost{border-color:rgba(255,255,255,.6);color:#fff !important;}
+.cmpv-sec + .cmpv-sec:not(.cmpv-sec--tint):not(.cmpv-sec--dark){padding-top:24px;}
+.cmpv-fine{font-size:.9rem;color:var(--cv-muted);}
+.cmpv-fine p{line-height:1.6;}
+.cmpv-refs{padding-left:20px;margin:0 0 24px;}
+.cmpv-refs li{margin-bottom:6px;}
+
+@media (max-width:860px){
+  .cmpv-match{grid-template-columns:1fr;}
+  .cmpv-vs{justify-self:center;margin:-8px 0;}
+  .cmpv-wins,.cmpv-quick,.cmpv-grid4,.cmpv-steps,.cmpv-quotes{grid-template-columns:1fr;}
+  .cmpv-doc{grid-template-columns:1fr;gap:24px;}
+  .cmpv-doc-photo{width:240px;height:300px;justify-self:center;}
+  .cmpv-sec{padding:44px 0;}
+}
+@media (max-width:680px){
+  .cmpv-row--head{display:none;}
+  .cmpv-row{grid-template-columns:1fr 1fr;border-top:1px solid var(--cv-line);}
+  .cmpv-row:first-of-type{border-top:0;}
+  .cmpv-row > span{border-top:0;padding:10px 14px;}
+  .cmpv-dim{grid-column:1 / -1;padding-bottom:2px !important;background:var(--cv-tint);}
+  .cmpv-row > span[data-label]::before{content:attr(data-label);display:block;font-size:.72rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--cv-muted);margin-bottom:2px;}
+  .cmpv-pricebar-row{grid-template-columns:96px 1fr 72px;gap:10px;font-size:.92rem;}
+  .cmpv-side dl div{grid-template-columns:96px 1fr;}
+  .cmpv-creds{grid-template-columns:1fr;}
+}
+${darkCSS(`
+  DARK .cmpv{--cv-ink:#e2edf0;--cv-muted:#9fb6bf;--cv-navy:#cfe9f0;--cv-teal:#2bc4cf;--cv-teal-soft:#0f2f35;--cv-line:#2b4652;--cv-card:#122028;--cv-page:#0a171c;--cv-tint:#0f1f24;--cv-us:#0f2a30;}
+  DARK .cmpv-vs{background:#2bc4cf;color:#04252b;}
+  DARK .cmpv-steps li > span{background:#2bc4cf;color:#04252b;}
+  DARK .cmpv-avatar{border-color:#122028;}
+  DARK .cmpv-fill{background:#4d6670;}
+  DARK .cmpv-cta{background:#06222b;}
+  DARK .cmpv-btn--ghost{border-color:#9fb6bf;}
+`)}
+`;
+
+const LAST_VERIFIED_LABEL = new Date(`${LAST_VERIFIED}T12:00:00Z`).toLocaleDateString('en-US', { month: 'long', year: 'numeric', timeZone: 'UTC' });
 
 export async function generateStaticParams() {
   return COMPARE_PAGE_SLUGS.map((slug) => ({ competitor: slug }));
@@ -111,451 +281,336 @@ export default async function ComparePage({ params }) {
   const citableJsonLd_AI = citableSummaryToJsonLd(citableSummary_AI, { pageUrl: pageUrl_AI });
 
 
+  const featuredReviews = (reviewsData.featured || []).slice(0, 3);
+  const compPriceRange = (String(cfg.competitor?.urgentCare || '').match(/\$\d+(?:\.\d+)?(?:\s*[–-]\s*\$\d+(?:\.\d+)?)?/) || [])[0] || null;
+  const fmtDate = (iso) => new Date(`${iso}T12:00:00Z`).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' });
+  const otherCompares = COMPARE_PAGE_SLUGS.filter((s) => s !== competitor);
+  const details = [
+    { key: 'pricing', icon: '$', title: cfg.pricingDive.title, paras: cfg.pricingDive.paragraphs,
+      foot: 'Visit fees don&apos;t include medication at either service. Any prescription is filled and paid for at your pharmacy. See <a href="/cost/online-prescription-cost/">what a visit plus a generic prescription costs</a>.' },
+    { key: 'providers', icon: 'MD', title: cfg.providerDive.title, paras: cfg.providerDive.paragraphs },
+    { key: 'rx', icon: 'Rx', title: cfg.rxDive.title, paras: cfg.rxDive.paragraphs },
+    { key: 'states', icon: '40+', title: `State coverage`, paras: [
+      `TeleDirectMD is licensed in <strong>40+ states</strong>. ${cfg.competitorName}: ${cfg.competitor.states}.`,
+      `<a href="/states-we-serve/">Check whether TeleDirectMD serves your state</a>. If it doesn&apos;t, ${cfg.competitorName} or another platform may be a better fit.`,
+    ] },
+  ];
+
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
-      <style>{`
-        @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&display=swap');
-        .tdmd-hero{background:linear-gradient(160deg,#012f3e 0%,#01465a 60%,#065f6b 100%) !important;color:#fff;}
-        .tdmd-hero h1{font-family:'Fraunces',Georgia,serif !important;font-weight:600;letter-spacing:-0.01em;color:#fff !important;}
-        .tdmd-hero .tdmd-hero-sub{color:#d7ebee;}
-        .tdmd-hero .tdmd-hero-copy > p{color:#cfe6e9;}
-        .tdmd-hero .tdmd-hero-benefits li{color:#e2f0f2;}
-        .tdmd-hero .tdmd-hero-benefits li::before{color:#E8A33D;}
-        .tdmd-hero .tdmd-btn-primary{background:#E8A33D !important;color:#08313f !important;font-weight:700;border:none;box-shadow:0 10px 26px rgba(232,163,61,.3);}
-        .tdmd-hero .tdmd-btn-outline{border:1px solid rgba(255,255,255,.45) !important;color:#fff !important;background:transparent !important;}
-        .tdmd-hero .tdmd-hero-card{background:#fff !important;color:#12303b;border-radius:18px;box-shadow:0 18px 46px rgba(0,0,0,.26);}
-        .tdmd-hero .tdmd-hero-card h2{color:#003E52;}
-        .tdmd-hero .tdmd-hero-note{color:#5c7078;}
-        .tdmd-hero .tdmd-reviewed{color:#9fc6ca;}
-        .tdmd-hero .tdmd-reviewed a{color:#fff;text-decoration:underline;}
-        .tdmd-section h2,.tdmd-hero-card h2{font-family:'Fraunces',Georgia,serif;font-weight:600;letter-spacing:-0.01em;}
-        ${COMPARE_HERO_DARK}
-      `}</style>
+      <style>{CMP_CSS}</style>
       <CitableSummaryBlock summary={citableSummary_AI} jsonLd={citableJsonLd_AI} idSuffix={`compare-${competitor}`} />
 
-      {/* 1) Breadcrumb */}
-      <nav className="tdmd-breadcrumbs" aria-label="Breadcrumb">
-        <div className="tdmd-container" style={{ paddingTop: '0.5rem', paddingBottom: '0' }}>
-          <a href="/">Home</a>
-          <span className="tdmd-bc-sep" aria-hidden="true">/</span>
-          <a href="/compare/teledirectmd-vs-teladoc/">Compare</a>
-          <span className="tdmd-bc-sep" aria-hidden="true">/</span>
-          <span aria-current="page">{cfg.breadcrumb}</span>
-        </div>
-      </nav>
+      <div className="cmpv">
+        <nav className="cmpv-crumbs" aria-label="Breadcrumb">
+          <div className="cmpv-wrap">
+            <a href="/">Home</a><span aria-hidden="true">/</span>
+            <a href="/compare/">Compare</a><span aria-hidden="true">/</span>
+            <span aria-current="page">{cfg.breadcrumb}</span>
+          </div>
+        </nav>
 
-      {/* 2) Answer Block */}
-      <div
-        className="tdmd-answer-block"
-        data-speakable="true"
-        style={{ background: '#EAF7F8', borderLeft: '4px solid #006B73', padding: '1rem 1.25rem', margin: '0', lineHeight: 1.6 }}
-      >
-        <div className="tdmd-container">
-          <p style={{ margin: 0, fontWeight: 700, color: '#003E52', fontSize: '1.05rem' }}>{cfg.answerLead}</p>
-          <p style={{ margin: '0.35rem 0 0', color: '#003E52', fontSize: '0.97rem' }} dangerouslySetInnerHTML={{ __html: cfg.answerBody }} />
-        </div>
-      </div>
+        {/* Hero: head-to-head matchup */}
+        <header className="cmpv-hero" id={`${pid}-hero`}>
+          <div className="cmpv-wrap">
+            <p className="cmpv-eyebrow">Head-to-head · Prices checked {LAST_VERIFIED_LABEL}</p>
+            <h1 data-speakable="true">{cfg.h1}</h1>
+            <p className="cmpv-lede" data-speakable="true">{cfg.heroSub}</p>
 
-      {/* 3) Hero */}
-      <section className="tdmd-hero" id={`${pid}-hero`}>
-        <div className="tdmd-container">
-          <div className="tdmd-hero-grid">
-            <div className="tdmd-hero-copy">
-              <h1 data-speakable="true">{cfg.h1}</h1>
-              <p className="tdmd-hero-sub" data-speakable="true">{cfg.heroSub}</p>
-              <p dangerouslySetInnerHTML={{ __html: cfg.heroIntro }} />
+            <div className="cmpv-match" role="group" aria-label={`TeleDirectMD versus ${cfg.competitorName} at a glance`}>
+              <article className="cmpv-side cmpv-side--us">
+                <div className="cmpv-side-head">
+                  <img src="/images/bhavsar-avatar.webp" alt="" width="56" height="56" className="cmpv-avatar" />
+                  <div>
+                    <h2>TeleDirectMD</h2>
+                    <p>Dr. Parth Bhavsar, MD</p>
+                  </div>
+                </div>
+                <p className="cmpv-price">$79<span> flat per visit</span></p>
+                <dl>
+                  <div><dt>Who you see</dt><dd>The same board-certified MD, every visit</dd></div>
+                  <div><dt>Insurance</dt><dd>Aetna, BCBS, UnitedHealthcare in select states</dd></div>
+                  <div><dt>Coverage</dt><dd>40+ states</dd></div>
+                  <div><dt>Membership</dt><dd>None</dd></div>
+                </dl>
+              </article>
+              <div className="cmpv-vs" aria-hidden="true">vs</div>
+              <article className="cmpv-side">
+                <div className="cmpv-side-head">
+                  <span className="cmpv-mono" aria-hidden="true">{cfg.competitorName.slice(0, 1)}</span>
+                  <div>
+                    <h2>{cfg.competitorName}</h2>
+                    <p><a href={cfg.competitorUrl} target="_blank" rel="nofollow noopener">{cfg.competitorUrl.replace(/^https?:\/\/(www\.)?/, '').split('/')[0]}</a></p>
+                  </div>
+                </div>
+                {compPriceRange ? (
+                  <p className="cmpv-price">{compPriceRange}<span> per visit</span></p>
+                ) : null}
+                {String(cfg.competitor.urgentCare).length > (compPriceRange || '').length + 8 ? (
+                  <p className="cmpv-price-detail">{cfg.competitor.urgentCare}</p>
+                ) : null}
+                <dl>
+                  <div><dt>Who you see</dt><dd>{cfg.competitor.provider}</dd></div>
+                  <div><dt>Insurance</dt><dd>{cfg.competitor.insurance}</dd></div>
+                  <div><dt>Coverage</dt><dd>{cfg.competitor.states}</dd></div>
+                  <div><dt>Membership</dt><dd>{cfg.competitor.membership}</dd></div>
+                </dl>
+              </article>
+            </div>
 
-              <div className="tdmd-hero-ctas">
-                <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Start a $79 Visit With an MD</a>
-                <a href="/insurance/" className="tdmd-btn tdmd-btn-outline">Use Insurance</a>
+            <div className="cmpv-answer tdmd-answer-block" data-speakable="true">
+              <p className="cmpv-answer-lead">The short answer</p>
+              <p dangerouslySetInnerHTML={{ __html: cfg.answerBody }} />
+            </div>
+
+            <div className="cmpv-ctas">
+              <a href="/book-online/" className="cmpv-btn cmpv-btn--primary">Start a $79 visit with an MD</a>
+              <a href="/insurance/" className="cmpv-btn cmpv-btn--ghost">Use insurance</a>
+            </div>
+            <p className="cmpv-byline">
+              <img src="/images/bhavsar-avatar.webp" alt="" width="28" height="28" />
+              <span>Reviewed by <a href="/about/">Parth Bhavsar, MD</a>, Board-Certified Family Medicine. Updated {fmtDate(today)}; {cfg.competitorName} facts verified against official materials and cited sources on {fmtDate(LAST_VERIFIED)}.</span>
+            </p>
+          </div>
+        </header>
+
+        <nav className="cmpv-jump" aria-label="On this page">
+          <div className="cmpv-wrap">
+            <a href={`#${pid}-table`}>Side by side</a>
+            <a href={`#${pid}-choose`}>Which to choose</a>
+            <a href={`#${pid}-details`}>Details</a>
+            <a href={`#${pid}-doctor`}>The doctor</a>
+            <a href={`#${pid}-faq`}>FAQ</a>
+          </div>
+        </nav>
+
+        {/* Side-by-side table */}
+        <section className="cmpv-sec" id={`${pid}-table`}>
+          <div className="cmpv-wrap" data-speakable="true">
+            <p className="cmpv-kicker">Side by side</p>
+            <h2>TeleDirectMD vs. {cfg.competitorName}, point by point</h2>
+            <p className="cmpv-sub">Ten things that matter when you pick a telehealth service. Every {cfg.competitorName} claim links to its source.</p>
+            <div className="cmpv-table" role="table" aria-label={`TeleDirectMD vs. ${cfg.competitorName} comparison`}>
+              <div className="cmpv-row cmpv-row--head" role="row">
+                <span role="columnheader">What you&apos;re comparing</span>
+                <span role="columnheader" className="cmpv-col-us">TeleDirectMD</span>
+                <span role="columnheader">{cfg.competitorName}</span>
               </div>
+              {tableRows.map((r, i) => (
+                <div className="cmpv-row" role="row" key={i}>
+                  <span role="rowheader" className="cmpv-dim">{r.dim}</span>
+                  <span role="cell" className="cmpv-col-us" data-label="TeleDirectMD">{r.tdmd}</span>
+                  <span role="cell" data-label={cfg.competitorName}>
+                    {r.comp}
+                    {r.compSrc ? <a className="cmpv-src" href={r.compSrc} target="_blank" rel="nofollow noopener">source</a> : null}
+                  </span>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
 
-              <p className="tdmd-reviewed">
-                Comparison guide last updated {today}. Last verified against {cfg.competitorName} official materials and cited sources on {LAST_VERIFIED}. Reviewed by{' '}
-                <a className="tdmd-author-link" href="/about/" aria-label="About Parth Bhavsar, MD">Parth Bhavsar, MD</a>{' '}— Board-Certified Family Medicine · NPI 1104323203 · LegitScript Certified · HIPAA-Compliant.
+        {/* Which to choose: merges the wins, who-for and decision guide */}
+        <section className="cmpv-sec cmpv-sec--tint" id={`${pid}-choose`}>
+          <div className="cmpv-wrap">
+            <p className="cmpv-kicker">Which to choose</p>
+            <h2>An honest call: each one wins somewhere</h2>
+            <div className="cmpv-wins">
+              <div className="cmpv-win cmpv-win--us">
+                <h3>Choose TeleDirectMD if</h3>
+                <ul>
+                  {cfg.tdmdWins.map((w, i) => (
+                    <li key={i}><strong>{w.headline}.</strong> <span dangerouslySetInnerHTML={{ __html: w.detail }} /></li>
+                  ))}
+                </ul>
+              </div>
+              <div className="cmpv-win">
+                <h3>Choose {cfg.competitorName} if</h3>
+                <ul>
+                  {cfg.competitorWins.map((w, i) => (
+                    <li key={i}><strong>{w.headline}.</strong> <span dangerouslySetInnerHTML={{ __html: w.detail }} /></li>
+                  ))}
+                </ul>
+              </div>
+            </div>
+            <h3 className="cmpv-quick-h">Quick picks</h3>
+            <ol className="cmpv-quick">
+              {cfg.decisionGuide.steps.map((st, i) => (
+                <li key={i} className={st.good ? 'is-us' : ''}>
+                  <span className="cmpv-quick-q">{st.head}</span>
+                  <span className="cmpv-quick-a">{st.body}</span>
+                </li>
+              ))}
+            </ol>
+          </div>
+        </section>
+
+        {/* Details grid */}
+        <section className="cmpv-sec" id={`${pid}-details`}>
+          <div className="cmpv-wrap">
+            <p className="cmpv-kicker">The details</p>
+            <h2>Price, providers, prescriptions and coverage</h2>
+            <div className="cmpv-grid4">
+              {details.map((d) => (
+                <article className="cmpv-card" key={d.key} id={`${pid}-${d.key}`}>
+                  <span className="cmpv-badge" aria-hidden="true">{d.icon}</span>
+                  <h3>{d.title}</h3>
+                  {d.paras.map((p, i) => <p key={i} dangerouslySetInnerHTML={{ __html: p }} />)}
+                  {d.foot ? <p className="cmpv-note" dangerouslySetInnerHTML={{ __html: d.foot }} /> : null}
+                </article>
+              ))}
+            </div>
+            <div className="cmpv-pricebar" role="group" aria-label="Cash-pay visit price">
+              <div className="cmpv-pricebar-row">
+                <span>TeleDirectMD</span>
+                <div className="cmpv-track"><div className="cmpv-fill cmpv-fill--us" style={{ width: `${barTdmd}%` }} /></div>
+                <strong>$79</strong>
+              </div>
+              <div className="cmpv-pricebar-row">
+                <span>{cfg.competitorName}</span>
+                <div className="cmpv-track"><div className="cmpv-fill" style={{ width: `${barComp}%` }} /></div>
+                <strong>{compPriceNum ? `from $${compPriceNum}` : 'varies'}</strong>
+              </div>
+              <p className="cmpv-note">Published cash-pay visit price. {cfg.competitorName} per <a href={cfg.competitor.urgentCareSrc} target="_blank" rel="nofollow noopener">source</a>; insured patients may pay a lower copay at either service.</p>
+            </div>
+          </div>
+        </section>
+
+        {/* The doctor + reviews */}
+        <section className="cmpv-sec cmpv-sec--dark" id={`${pid}-doctor`}>
+          <div className="cmpv-wrap cmpv-doc">
+            <img src="/images/bhavsar-portrait.webp" alt="Parth Bhavsar, MD, board-certified family medicine physician" width="240" height="300" className="cmpv-doc-photo" loading="lazy" />
+            <div className="cmpv-doc-copy">
+              <p className="cmpv-kicker">The doctor you see</p>
+              <h2>One physician, not a rotating panel</h2>
+              <p>Every TeleDirectMD visit is with <a href="/about/">Dr. Parth Bhavsar, MD</a>, a board-certified family medicine physician licensed in 40+ states. Not a physician assistant, not a chatbot.</p>
+              <ul className="cmpv-creds">
+                <li>Board-certified, Family Medicine</li>
+                <li>NPI 1104323203, verifiable in NPPES</li>
+                <li>LegitScript-certified practice</li>
+                <li>HIPAA-compliant video and records</li>
+              </ul>
+              <p className="cmpv-rating"><span aria-hidden="true">★★★★★</span> {AGGREGATE_RATING_VALUE} from {TOTAL_REVIEW_COUNT} verified reviews on{' '}
+                <a href="https://share.google/I01V6IEqvDtZb9CM2" rel="nofollow noopener" target="_blank">Google</a>,{' '}
+                <a href="https://www.zocdoc.com/doctor/parth-bhavsar-md-652258" rel="nofollow noopener" target="_blank">Zocdoc</a>,{' '}
+                <a href="https://doctor.webmd.com/doctor/parth-bhavsar-e293ceba-555d-466e-ab94-d82e02d268db-overview" rel="nofollow noopener" target="_blank">WebMD</a> and{' '}
+                <a href="https://www.healthgrades.com/physician/dr-parth-bhavsar-xynq9m7" rel="nofollow noopener" target="_blank">Healthgrades</a>
               </p>
             </div>
+          </div>
+          <div className="cmpv-wrap cmpv-quotes">
+            {featuredReviews.map((r, i) => (
+              <figure key={i} className="cmpv-quote">
+                <span className="cmpv-stars" aria-label={`${r.rating} out of 5 stars`}>{'★'.repeat(r.rating || 5)}</span>
+                <blockquote>{r.text}</blockquote>
+                <figcaption>{r.name} · {r.source}{r.date ? ` · ${r.date}` : ''}</figcaption>
+              </figure>
+            ))}
+          </div>
+        </section>
 
-            <div className="tdmd-hero-side">
-              <div className="tdmd-hero-card">
-                <h2>{cfg.heroCardTitle}</h2>
-                <ul>{cfg.heroCardItems.map((it, i) => <li key={i}>{it}</li>)}</ul>
-                <p className="tdmd-hero-note">
-                  {AGGREGATE_RATING_VALUE} ★ from {TOTAL_REVIEW_COUNT} verified patient reviews across Google, Zocdoc, WebMD, and Healthgrades.
-                </p>
+        {/* How it works */}
+        <section className="cmpv-sec" id={`${pid}-how`}>
+          <div className="cmpv-wrap">
+            <p className="cmpv-kicker">How it works</p>
+            <h2>A $79 visit in three steps</h2>
+            <ol className="cmpv-steps">
+              <li><span>1</span><h3>Book online</h3><p>Pick a same-day or next-available time. Pay $79, use HSA/FSA, or apply in-network insurance where accepted.</p></li>
+              <li><span>2</span><h3>Video visit</h3><p>Join a secure video visit with Dr. Bhavsar from your phone or computer. No app download.</p></li>
+              <li><span>3</span><h3>Treatment plan</h3><p>Get a written summary and, when clinically appropriate, an e-prescription sent to your pharmacy.</p></li>
+            </ol>
+            <div className="cmpv-chips-block">
+              <h3>Commonly treated at the $79 visit</h3>
+              <div className="cmpv-chips">
+                <a href="/uti-treatment-online/">UTI (adult women)</a>
+                <a href="/sinus-infection-treatment-online/">Sinus infection</a>
+                <a href="/sore-throat-treatment-online/">Sore throat</a>
+                <a href="/pink-eye-treatment-online/">Pink eye</a>
+                <a href="/hypertension-refills-online/">Blood pressure refills</a>
+                <a href="/asthma-refills-online/">Asthma refills</a>
+                <a href="/what-we-treat/" className="is-more">All 60+ conditions</a>
+              </div>
+              <h3>Insurance accepted in select states</h3>
+              <div className="cmpv-chips">
+                <a href="/insurance/aetna/">Aetna · {getPayerFamilyStateCount('aetna')} states</a>
+                <a href="/insurance/blue-cross-blue-shield/">Blue Cross Blue Shield · {getPayerFamilyStateCount('bcbs')} states</a>
+                <a href="/insurance/united-healthcare/">UnitedHealthcare · {getPayerFamilyStateCount('uhc')} states</a>
+                <a href="/insurance/" className="is-more">All insurance options</a>
               </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
 
-      {/* 4) The 10-row head-to-head comparison table — money block */}
-      <section className="tdmd-section tdmd-section-highlight" id={`${pid}-table`}>
-        <div className="tdmd-container" data-speakable="true">
-          <h2>TeleDirectMD vs. {cfg.competitorName} — Side-by-Side</h2>
-          <p style={{ margin: '0.25rem 0 1rem', color: 'var(--tdmd-muted)' }}>
-            10 dimensions, head-to-head. Every {cfg.competitorName} claim links to its source. Verified against {cfg.competitorName} official materials on {LAST_VERIFIED}.
-          </p>
-          <div className="tdmd-table-wrap">
-            <table className="tdmd-table">
-              <thead>
-                <tr><th>Feature</th><th>TeleDirectMD</th><th>{cfg.competitorName}</th></tr>
-              </thead>
-              <tbody>
-                {tableRows.map((r, i) => (
-                  <tr key={i}>
-                    <td><strong>{r.dim}</strong></td>
-                    <td>{r.tdmd}</td>
-                    <td>
-                      {r.comp}
-                      {r.compSrc ? (
-                        <> · <a href={r.compSrc} target="_blank" rel="nofollow noopener">source</a></>
-                      ) : null}
-                    </td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
-          <p className="tdmd-comparison-note" style={{ marginTop: '1rem' }}>
-            All {cfg.competitorName} pricing and feature claims sourced from {cfg.competitorName} public materials and third-party reviews; see the References section for full citations.
-          </p>
-        </div>
-      </section>
-
-      {/* 5) Where TeleDirectMD wins / Where competitor wins — honesty block */}
-      <section className="tdmd-section" id={`${pid}-honesty`}>
-        <div className="tdmd-container" data-speakable="true">
-          <h2>Where Each Platform Wins</h2>
-          <div className="tdmd-grid tdmd-grid-2">
-            <div className="tdmd-card tdmd-card-good">
-              <h3>Where TeleDirectMD wins</h3>
-              <ul className="tdmd-checklist tdmd-checklist--good">
-                {cfg.tdmdWins.map((w, i) => (
-                  <li key={i}>
-                    <strong>{w.headline}.</strong> <span dangerouslySetInnerHTML={{ __html: w.detail }} />
-                  </li>
-                ))}
-              </ul>
-            </div>
-            <div className="tdmd-card tdmd-card-alert">
-              <h3>Where {cfg.competitorName} wins</h3>
-              <ul className="tdmd-checklist tdmd-checklist--alert">
-                {cfg.competitorWins.map((w, i) => (
-                  <li key={i}>
-                    <strong>{w.headline}.</strong> <span dangerouslySetInnerHTML={{ __html: w.detail }} />
-                  </li>
-                ))}
-              </ul>
+        {/* FAQ */}
+        <section className="cmpv-sec cmpv-sec--tint tdmd-faq" id={`${pid}-faq`}>
+          <div className="cmpv-wrap cmpv-narrow">
+            <p className="cmpv-kicker">FAQ</p>
+            <h2>TeleDirectMD vs. {cfg.competitorName}: common questions</h2>
+            <div className="cmpv-faq" role="list">
+              {cfg.faqs.map((f, i) => (
+                <details key={i} role="listitem">
+                  <summary data-speakable="true">{f.question}</summary>
+                  <div><p>{f.answer}</p></div>
+                </details>
+              ))}
             </div>
           </div>
-        </div>
-      </section>
+        </section>
 
-      {/* 6) Pricing deep-dive */}
-      <section className="tdmd-section tdmd-section-highlight" id={`${pid}-pricing`}>
-        <div className="tdmd-container">
-          <h2>{cfg.pricingDive.title}</h2>
-          {cfg.pricingDive.paragraphs.map((p, i) => (
-            <p key={i} dangerouslySetInnerHTML={{ __html: p }} />
-          ))}
-          <p style={{ color: 'var(--tdmd-muted)', fontSize: '0.95rem' }}>
-            Visit fees don&apos;t include medication at either service. Any prescription is filled and paid for at your pharmacy. See <a href="/cost/online-prescription-cost/">what a visit plus a generic prescription costs</a>.
-          </p>
-        </div>
-      </section>
-
-      {/* 7) Provider quality deep-dive */}
-      <section className="tdmd-section" id={`${pid}-providers`}>
-        <div className="tdmd-container">
-          <h2>{cfg.providerDive.title}</h2>
-          {cfg.providerDive.paragraphs.map((p, i) => (
-            <p key={i} dangerouslySetInnerHTML={{ __html: p }} />
-          ))}
-        </div>
-      </section>
-
-      {/* 8) State coverage */}
-      <section className="tdmd-section tdmd-section-highlight" id={`${pid}-states`}>
-        <div className="tdmd-container">
-          <h2>State Coverage: TeleDirectMD vs. {cfg.competitorName}</h2>
-          <p>
-            TeleDirectMD is licensed in <strong>40+ states</strong>. {cfg.competitorName} state coverage is listed in the comparison table above (with source). <a href="/states-we-serve/">Check whether TeleDirectMD serves your state</a>. If it doesn&apos;t, {cfg.competitorName} or another platform may be a better fit.
-          </p>
-        </div>
-      </section>
-
-      {/* 9) Prescription handling deep-dive */}
-      <section className="tdmd-section" id={`${pid}-rx`}>
-        <div className="tdmd-container">
-          <h2>{cfg.rxDive.title}</h2>
-          {cfg.rxDive.paragraphs.map((p, i) => (
-            <p key={i} dangerouslySetInnerHTML={{ __html: p }} />
-          ))}
-        </div>
-      </section>
-
-      {/* 10) Trust block */}
-      <section className="tdmd-section tdmd-section-highlight" id={`${pid}-trust`}>
-        <div className="tdmd-container">
-          <h2>Why TeleDirectMD: A Real Doctor, Not an Algorithm</h2>
-          <p>
-            When you visit TeleDirectMD, you see <a href="/about/" style={{ fontWeight: 700, color: 'var(--tdmd-navy)' }}>Dr. Parth Bhavsar, MD</a> — a board-certified Family Medicine physician licensed in 40+ states. Not a panel of rotating providers, not a physician assistant, not a chatbot.
-          </p>
-          <ul className="tdmd-hero-benefits">
-            <li>Board-certified Family Medicine — University of Mississippi Medical Center</li>
-            <li>NPI <strong>1104323203</strong> — verifiable in the NPPES NPI Registry</li>
-            <li>{AGGREGATE_RATING_VALUE} ★ across {TOTAL_REVIEW_COUNT} verified reviews (Google, Zocdoc, WebMD, Healthgrades)</li>
-            <li>LegitScript-certified telehealth practice</li>
-            <li>HIPAA-compliant platform — encrypted video, secure records, no data resale</li>
-            <li>In-network with Aetna, BCBS, and UnitedHealthcare in select states</li>
-          </ul>
-        </div>
-      </section>
-
-      {/* 11) AggregateRating callout */}
-      <section className="tdmd-section" id={`${pid}-rating`}>
-        <div className="tdmd-container">
-          <h2>Patient Reviews — {AGGREGATE_RATING_VALUE} / 5 Across {TOTAL_REVIEW_COUNT} Verified Reviews</h2>
-          <p>Verified patient ratings of Dr. Parth Bhavsar, MD aggregated from independent third-party review platforms:</p>
-          <ul>
-            <li><a href="https://share.google/I01V6IEqvDtZb9CM2" rel="nofollow noopener" target="_blank">Google — 5.0</a></li>
-            <li><a href="https://www.zocdoc.com/doctor/parth-bhavsar-md-652258" rel="nofollow noopener" target="_blank">Zocdoc — 5.0</a></li>
-            <li><a href="https://doctor.webmd.com/doctor/parth-bhavsar-e293ceba-555d-466e-ab94-d82e02d268db-overview" rel="nofollow noopener" target="_blank">WebMD — 5.0</a></li>
-            <li><a href="https://www.healthgrades.com/physician/dr-parth-bhavsar-xynq9m7" rel="nofollow noopener" target="_blank">Healthgrades — 5.0</a></li>
-          </ul>
-        </div>
-      </section>
-
-      {/* 12) Conditions we treat related-links */}
-      <section className="tdmd-section tdmd-section-highlight" id={`${pid}-conditions`}>
-        <div className="tdmd-container">
-          <h2>Conditions Commonly Treated at the $79 Visit</h2>
-          <p>The same flat $79 visit covers any of these adult conditions:</p>
-          <div className="tdmd-related-grid">
-            <a href="/uti-treatment-online/"             className="tdmd-related-card"><span className="tdmd-related-title">UTI Treatment</span><span className="tdmd-related-desc">$79 visit + $6–$14 antibiotic</span></a>
-            <a href="/sinus-infection-treatment-online/" className="tdmd-related-card"><span className="tdmd-related-title">Sinus Infection</span><span className="tdmd-related-desc">$79 visit + $9–$20 antibiotic if indicated</span></a>
-            <a href="/sore-throat-treatment-online/"     className="tdmd-related-card"><span className="tdmd-related-title">Sore Throat / Strep</span><span className="tdmd-related-desc">$79 visit + $9 amoxicillin if positive</span></a>
-            <a href="/pink-eye-treatment-online/"        className="tdmd-related-card"><span className="tdmd-related-title">Pink Eye</span><span className="tdmd-related-desc">$79 visit + eye-drop prescription</span></a>
-            <a href="/hypertension-refills-online/"      className="tdmd-related-card"><span className="tdmd-related-title">Blood Pressure Refills</span><span className="tdmd-related-desc">$79 visit + $4–$12 lisinopril/metoprolol</span></a>
-            <a href="/asthma-refills-online/"            className="tdmd-related-card"><span className="tdmd-related-title">Asthma Refills</span><span className="tdmd-related-desc">$79 visit + $20–$25 albuterol</span></a>
+        {/* Final CTA */}
+        <section className="cmpv-cta" id={`${pid}-final-cta`}>
+          <div className="cmpv-wrap">
+            <h2>$79, a real MD, same-day.</h2>
+            <p>Evenings and weekends in 40+ states. Book in about two minutes.</p>
+            <div className="cmpv-ctas">
+              <a href="/book-online/" className="cmpv-btn cmpv-btn--primary">Start a $79 visit with an MD</a>
+              <a href="/insurance/" className="cmpv-btn cmpv-btn--ghost">Use insurance</a>
+            </div>
           </div>
-          <div className="tdmd-related-cta" style={{ marginTop: '1rem' }}>
-            <a href="/what-we-treat/" className="tdmd-btn tdmd-btn-outline">View all 60+ conditions we treat</a>
-          </div>
-        </div>
-      </section>
+        </section>
 
-      {/* 13) Insurance accepted module */}
-      <section className="tdmd-section" id={`${pid}-insurance`}>
-        <div className="tdmd-container" data-speakable="true">
-          <h2>Insurance Accepted (Select States)</h2>
-          <p>TeleDirectMD is in-network with three major insurers. Your standard telehealth copay applies in place of the $79 self-pay fee.</p>
-          <div className="tdmd-related-grid">
-            <a href="/insurance/aetna/"                   className="tdmd-related-card"><span className="tdmd-related-title">Aetna</span><span className="tdmd-related-desc">{`In-network in ${getPayerFamilyStateCount('aetna')} states`}</span></a>
-            <a href="/insurance/blue-cross-blue-shield/"  className="tdmd-related-card"><span className="tdmd-related-title">Blue Cross Blue Shield</span><span className="tdmd-related-desc">{`In-network in ${getPayerFamilyStateCount('bcbs')} states`}</span></a>
-            <a href="/insurance/united-healthcare/"        className="tdmd-related-card"><span className="tdmd-related-title">UnitedHealthcare</span><span className="tdmd-related-desc">{`In-network in ${getPayerFamilyStateCount('uhc')} states`}</span></a>
-          </div>
-          <p style={{ marginTop: '1rem', fontSize: '0.92rem', color: 'var(--tdmd-muted)' }}>
-            Don&apos;t see your plan? <a href="/insurance/" style={{ color: 'var(--tdmd-teal)', fontWeight: 600 }}>View all insurance options</a> or book the flat $79 self-pay visit.
-          </p>
-        </div>
-      </section>
-
-      {/* Cross-links to other compare pages + master cost page */}
-      <section className="tdmd-section" id={`${pid}-cross-links`}>
-        <div className="tdmd-container">
-          <h2>Compare TeleDirectMD to Other Telehealth Platforms</h2>
-          <div className="tdmd-related-grid">
-            {COMPARE_PAGE_SLUGS.filter((s) => s !== competitor).map((s) => {
-              const c = COMPARE_PAGES[s];
-              return (
-                <a key={s} href={`/compare/${s}/`} className="tdmd-related-card">
-                  <span className="tdmd-related-title">TeleDirectMD vs. {c.competitorName}</span>
-                  <span className="tdmd-related-desc">{c.metaDescription.slice(0, 110)}…</span>
-                </a>
-              );
-            })}
-          </div>
-
-          <div className="tdmd-inline-links" style={{ marginTop: '1.5rem' }}>
-            <h3>Related Cost Guides</h3>
-            <p className="tdmd-link-cloud">
-              <a href="/cost/online-doctor-visit-cost/">How Much Does an Online Doctor Visit Cost in 2026?</a>
+        {/* More comparisons */}
+        <section className="cmpv-sec" id={`${pid}-cross-links`}>
+          <div className="cmpv-wrap">
+            <h2 className="cmpv-h-sm">More comparisons</h2>
+            <div className="cmpv-chips">
+              {otherCompares.map((s) => (
+                <a key={s} href={`/compare/${s}/`}>vs. {COMPARE_PAGES[s].competitorName}</a>
+              ))}
+              <a href="/compare/" className="is-more">All comparisons</a>
+            </div>
+            <h2 className="cmpv-h-sm">Related cost guides</h2>
+            <div className="cmpv-chips">
+              <a href="/cost/online-doctor-visit-cost/">Online doctor visit cost</a>
               {related.cost.filter((s) => s !== 'online-doctor-visit-cost').map((s) => {
                 const c = COST_PAGES[s];
                 if (!c) return null;
-                return (
-                  <span key={s}>{' · '}<a href={`/cost/${s}/`}>{c.breadcrumb}</a></span>
-                );
+                return <a key={s} href={`/cost/${s}/`}>{c.breadcrumb}</a>;
               })}
+            </div>
+          </div>
+        </section>
+
+        {/* References + disclaimer */}
+        <section className="cmpv-sec cmpv-fine" id={`${pid}-references`}>
+          <div className="cmpv-wrap cmpv-narrow">
+            <h2 className="cmpv-h-sm">References</h2>
+            <ol className="cmpv-refs">
+              {cfg.references.map((r, i) => (
+                <li key={i}><a href={r.url} target="_blank" rel="nofollow noopener">{r.label}</a></li>
+              ))}
+            </ol>
+            <h2 className="cmpv-h-sm" id={`${pid}-disclaimer`}>Disclaimer and verification</h2>
+            <p>
+              This page is an informational comparison between TeleDirectMD and {cfg.competitorName}. It is not affiliated with, endorsed by, or sponsored by {cfg.competitorName}. {cfg.competitorName} pricing, feature, and coverage claims come from {cfg.competitorName}&apos;s public materials and third-party reviews listed above. Prices and features change; check current rates on the {cfg.competitorName} website (<a href={cfg.competitorUrl} target="_blank" rel="nofollow noopener">{cfg.competitorUrl}</a>) before booking.
+            </p>
+            <p>
+              Updated {fmtDate(today)}. {cfg.competitorName} facts verified against official materials and cited sources on {fmtDate(LAST_VERIFIED)}. TeleDirectMD provides telehealth for non-emergency conditions in adults 18+ physically located in one of our 40+ licensed states at the time of the visit. We do not prescribe controlled substances. In an emergency, call 911.
             </p>
           </div>
-        </div>
-      </section>
-
-      {/* 16) How It Works */}
-      <section className="tdmd-section tdmd-section-highlight" id={`${pid}-how`}>
-        <div className="tdmd-container">
-          <h2>How a $79 TeleDirectMD Visit Works</h2>
-          <div className="tdmd-decision-flow">
-            <div className="tdmd-decision-step tdmd-decision-step-good">
-              <div className="tdmd-decision-number">1</div>
-              <div className="tdmd-decision-content">
-                <h3>Book online</h3>
-                <p>Pick a same-day or next-available appointment at <a href="/book-online/">teledirectmd.com/book-online</a>. Pay $79 at checkout (or use HSA/FSA, or apply your in-network insurance).</p>
-              </div>
-            </div>
-            <div className="tdmd-decision-step tdmd-decision-step-good">
-              <div className="tdmd-decision-number">2</div>
-              <div className="tdmd-decision-content">
-                <h3>Connect by video</h3>
-                <p>At your appointment time, click the link to start a secure video visit with Dr. Bhavsar. No app download. Most visits take 10–15 minutes.</p>
-              </div>
-            </div>
-            <div className="tdmd-decision-step tdmd-decision-step-good">
-              <div className="tdmd-decision-number">3</div>
-              <div className="tdmd-decision-content">
-                <h3>Get treated, fill the script</h3>
-                <p>Receive a diagnosis, a written visit summary, and an e-prescription routed to your pharmacy of choice — usually within 30 minutes of the visit.</p>
-                <div className="tdmd-decision-cta">
-                  <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Start a $79 Visit</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* 17) Decision guide */}
-      <section className="tdmd-section" id={`${pid}-decision`}>
-        <div className="tdmd-container">
-          <h2>{cfg.decisionGuide.title}</h2>
-          <div className="tdmd-decision-flow">
-            {cfg.decisionGuide.steps.map((step, i) => (
-              <div key={i} className={`tdmd-decision-step${step.good ? ' tdmd-decision-step-good' : ''}`}>
-                <div className="tdmd-decision-number">{step.num}</div>
-                <div className="tdmd-decision-content">
-                  <h3>{step.head}</h3>
-                  <p>{step.body}</p>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* 18) Who fits which platform */}
-      <section className="tdmd-section tdmd-section-highlight" id={`${pid}-who-for`}>
-        <div className="tdmd-container">
-          <h2>Who Fits Which Platform</h2>
-          <div className="tdmd-grid tdmd-grid-2">
-            <div className="tdmd-card tdmd-card-good">
-              <h3>Choose TeleDirectMD if…</h3>
-              <ul className="tdmd-checklist tdmd-checklist--good">
-                {cfg.whoFor.tdmd.map((b, i) => <li key={i}>{b}</li>)}
-              </ul>
-            </div>
-            <div className="tdmd-card tdmd-card-alert">
-              <h3>Choose {cfg.competitorName} if…</h3>
-              <ul className="tdmd-checklist tdmd-checklist--alert">
-                {cfg.whoFor.competitor.map((b, i) => <li key={i}>{b}</li>)}
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* 19) Pricing reinforcement */}
-      <section className="tdmd-section" id={`${pid}-price-card`}>
-        <div className="tdmd-container">
-          <h2>$79 Flat. HSA / FSA Accepted.</h2>
-          <div className="tdmd-price-grid">
-            <div className="tdmd-price-card">
-              <div className="tdmd-price-big">$79</div>
-              <div className="tdmd-price-sub">One flat fee covers your entire visit</div>
-              <ul className="tdmd-price-includes">
-                <li>Board-certified MD video consultation</li>
-                <li>E-prescription to any US pharmacy</li>
-                <li>HSA / FSA-eligible</li>
-                <li>No facility fees, no hidden fees</li>
-                <li>Receipt suitable for travel-insurance reimbursement</li>
-              </ul>
-            </div>
-            <div className="tdmd-price-chart" role="group" aria-label="Cost comparison">
-              <h3>Cash-Pay Cost vs. {cfg.competitorName}</h3>
-              <div className="tdmd-bar-row">
-                <div className="tdmd-bar-label"><span>TeleDirectMD</span><span>$79</span></div>
-                <div className="tdmd-bar-track"><div className="tdmd-bar-fill tdmd-bar-fill-tdmd" style={{ '--w': barTdmd }} /></div>
-              </div>
-              <div className="tdmd-bar-row">
-                <div className="tdmd-bar-label"><span>{cfg.competitorName}</span><span>{cfg.competitor.urgentCare}</span></div>
-                <div className="tdmd-bar-track"><div className="tdmd-bar-fill" style={{ '--w': barComp }} /></div>
-              </div>
-              <p className="tdmd-price-footnote">
-                {cfg.competitorName} pricing per <a href={cfg.competitor.urgentCareSrc} target="_blank" rel="nofollow noopener">source</a>. TeleDirectMD published flat rate.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* 20) FAQ */}
-      <section className="tdmd-section tdmd-faq" id={`${pid}-faq`}>
-        <div className="tdmd-container">
-          <h2>Frequently Asked Questions — TeleDirectMD vs. {cfg.competitorName}</h2>
-          <div className="tdmd-faq-list" role="list">
-            {cfg.faqs.map((f, i) => (
-              <details key={i} className="tdmd-faq-item" role="listitem">
-                <summary className="tdmd-faq-question" data-speakable="true">{f.question}</summary>
-                <div className="tdmd-faq-answer"><p>{f.answer}</p></div>
-              </details>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* 21) Final CTA */}
-      <section className="tdmd-section" id={`${pid}-final-cta`}>
-        <div className="tdmd-container">
-          <div className="tdmd-bottom-cta">
-            <div className="tdmd-bottom-cta-copy">
-              <h3>$79. Live MD video. 40+ states. Same-day evenings & weekends.</h3>
-              <p>If TeleDirectMD fits your situation per the comparison above, book a visit in under two minutes.</p>
-            </div>
-            <div className="tdmd-bottom-cta-actions">
-              <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Start a $79 Visit With an MD</a>
-              <a href="/insurance/" className="tdmd-btn tdmd-btn-outline">Use Insurance</a>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* 22) References */}
-      <section className="tdmd-section tdmd-section-highlight" id={`${pid}-references`}>
-        <div className="tdmd-container">
-          <h2>References</h2>
-          <ul className="tdmd-ref-list">
-            {cfg.references.map((r, i) => (
-              <li key={i}><a href={r.url} target="_blank" rel="nofollow noopener">{r.label}</a></li>
-            ))}
-          </ul>
-        </div>
-      </section>
-
-      {/* 23) Disclaimer + last-verified stamp */}
-      <section className="tdmd-section tdmd-footnote" id={`${pid}-disclaimer`}>
-        <div className="tdmd-container">
-          <h2>Disclaimer & Verification</h2>
-          <p>
-            This page is an informational comparison between TeleDirectMD and <strong>{cfg.competitorName}</strong>. It is not affiliated with, endorsed by, or sponsored by {cfg.competitorName}. All {cfg.competitorName} pricing, feature, and coverage claims are sourced from {cfg.competitorName}&apos;s public materials and third-party reviews; see the References section for citations. Pricing and features change — always verify current rates on the {cfg.competitorName} website (<a href={cfg.competitorUrl} target="_blank" rel="nofollow noopener">{cfg.competitorUrl}</a>) before booking.
-          </p>
-          <p>
-            <strong>Comparison guide last updated {today}. Last verified against {cfg.competitorName} official materials and cited sources on {LAST_VERIFIED}.</strong> TeleDirectMD provides telehealth services for non-emergency conditions in adults 18+ physically located in one of our 40+ licensed states at the time of the visit. We do not prescribe controlled substances. If you are experiencing a medical emergency, call 911 immediately.
-          </p>
-        </div>
-      </section>
+        </section>
+      </div>
     </>
   );
 }
