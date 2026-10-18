@@ -537,12 +537,6 @@ export default function CaImpetigoTreatmentOnline() {
                     <td><a href="https://www.goodrx.com/mupirocin" target="_blank" rel="noopener">~$15–$25 generic with GoodRx</a></td>
                     <td>First-line for localized non-bullous impetigo per AAD and IDSA SSTI guideline. Apply thin layer to affected area after cleaning. Covers S. aureus and S. pyogenes.</td>
                   </tr>
-                  <tr>
-                    <td><strong>Retapamulin ointment (Altabax) 1% — topical Rx</strong></td>
-                    <td>Apply twice daily × 5 days</td>
-                    <td><a href="https://www.goodrx.com/retapamulin" target="_blank" rel="noopener">~$80–$120 brand; check GoodRx</a></td>
-                    <td>Alternative topical for non-bullous impetigo. More expensive than mupirocin. Listed with mupirocin as a topical option in the IDSA SSTI guideline.</td>
-                  </tr>
                   <tr className="tdmd-ca-uti__med-firstline">
                     <td><strong>Cephalexin 500 mg — oral</strong> · First-line</td>
                     <td>500 mg four times daily × 7 days</td>

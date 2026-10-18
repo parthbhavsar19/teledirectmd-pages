@@ -48,7 +48,7 @@
       "note": "Adults 18+ only. TeleDirectMD is not an emergency service. Go to urgent care or the ER now for rapidly spreading skin infection with fever, signs of cellulitis or abscess, severe allergic reaction, or worsening rash with systemic symptoms. TeleDirectMD does not prescribe controlled substances."
     },
     "icd10Display": "B35.4, B35.6, B35.3 (final coding depends on clinical details)",
-    "quickAnswer": "Yes — adults (18+) in {state} with a suspected fungal skin infection (ringworm, jock itch, athlete's foot) can be treated online. A board-certified MD reviews your rash photos by secure video and, per AAFP/CDC guidance, prescribes a topical antifungal like terbinafine or clotrimazole for a 2-week trial, or oral terbinafine for extensive/refractory cases, sent to your pharmacy same day. Visit price: $79 flat, no insurance required. Combination antifungal-steroid products are avoided. Scalp scaling with hair loss, or thickened nails, needs in-person evaluation."
+    "quickAnswer": "Yes — adults (18+) in {state} with a suspected fungal skin infection (ringworm, jock itch, athlete's foot) can be treated online. A board-certified MD reviews your rash photos by secure video and, per AAFP/CDC guidance, prescribes a topical antifungal like terbinafine or clotrimazole for a 2-week trial, sent to your pharmacy same day. Visit price: $79 flat, no insurance required. Combination antifungal-steroid products are avoided. Scalp scaling with hair loss, or thickened nails, needs in-person evaluation."
   },
   "eligibility": {
     "sectionTitle": "Skin Fungus Telehealth Eligibility Checklist for {state}",
@@ -408,7 +408,7 @@
       },
       {
         "title": "Oral antifungal therapy for extensive or refractory cases",
-        "text": "Oral antifungals are reserved for widespread infection, failed topical therapy, follicular involvement, or deep infection. Terbinafine 250 mg daily for 2 to 4 weeks is the most commonly prescribed oral agent for tinea corporis, cruris, and pedis. Itraconazole and fluconazole are alternatives. Oral therapy may require baseline liver function monitoring depending on duration and patient risk factors."
+        "text": "Oral antifungals are reserved for widespread infection, failed topical therapy, follicular involvement, or deep infection. TeleDirectMD does not prescribe oral terbinafine or itraconazole. When oral therapy may be needed, the MD will discuss whether another option is appropriate or refer you for in-person evaluation."
       },
       {
         "title": "Antifungal stewardship: avoiding combination products",
@@ -454,18 +454,6 @@
         "Apply once daily to affected area",
         "2 to 4 weeks",
         "Effective broad-spectrum topical antifungal. Prescription formulation. Also available as shampoo for seborrheic dermatitis."
-      ],
-      [
-        "Terbinafine 250 mg (oral)",
-        "250 mg by mouth once daily",
-        "2 to 4 weeks",
-        "For extensive, refractory, or follicular involvement. Most commonly prescribed oral antifungal for tinea. May require liver function monitoring with prolonged use. Drug interactions with CYP2D6 substrates."
-      ],
-      [
-        "Itraconazole 200 mg (oral)",
-        "200 mg by mouth once daily",
-        "1 to 2 weeks",
-        "Alternative oral antifungal when terbinafine is contraindicated or not tolerated. Take with food for better absorption. Check for drug interactions including statins and calcium channel blockers."
       ],
       [
         "Butenafine 1% cream (topical)",
@@ -785,14 +773,6 @@
       {
         "name": "Ketoconazole 2% cream",
         "id": "ketoconazole-topical"
-      },
-      {
-        "name": "Terbinafine 250 mg oral",
-        "id": "terbinafine-oral"
-      },
-      {
-        "name": "Itraconazole 200 mg oral",
-        "id": "itraconazole"
       }
     ],
     "treatments": [
