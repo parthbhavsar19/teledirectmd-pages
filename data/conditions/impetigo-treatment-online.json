@@ -8,7 +8,7 @@
   "hero": {
     "h1": "Impetigo Treatment in {state} (Superficial Skin Infection)",
     "subtitle": "{state} adult care by secure video visit, self pay option starting at $79, MD-only, insurance is not required.",
-    "introParagraph": "Impetigo is a highly contagious superficial bacterial skin infection caused by Staphylococcus aureus, Streptococcus pyogenes, or both. It typically presents as red sores or honey-colored crusted lesions on the face, extremities, or areas of broken skin, and can spread rapidly through direct contact. IDSA practice guidelines recommend topical antibiotics such as mupirocin or retapamulin for limited disease, while oral antibiotics are indicated for more extensive infection (numerous lesions or outbreaks) or when MRSA is a concern. TeleDirectMD uses a safety-first telehealth approach that visually assesses lesion characteristics via video, screens for red flags including rapidly spreading redness, fever, deeper ulceration (ecthyma), or signs of cellulitis, and determines whether topical versus oral antibiotic therapy is appropriate. Adults with spreading infection, systemic illness, or signs requiring wound care or culture are directed to urgent in-person evaluation. This page is for adults located in {state}, including {cities}.",
+    "introParagraph": "Impetigo is a highly contagious superficial bacterial skin infection caused by Staphylococcus aureus, Streptococcus pyogenes, or both. It typically presents as red sores or honey-colored crusted lesions on the face, extremities, or areas of broken skin, and can spread rapidly through direct contact. IDSA practice guidelines recommend topical antibiotics such as mupirocin for limited disease, while oral antibiotics are indicated for more extensive infection (numerous lesions or outbreaks) or when MRSA is a concern. TeleDirectMD uses a safety-first telehealth approach that visually assesses lesion characteristics via video, screens for red flags including rapidly spreading redness, fever, deeper ulceration (ecthyma), or signs of cellulitis, and determines whether topical versus oral antibiotic therapy is appropriate. Adults with spreading infection, systemic illness, or signs requiring wound care or culture are directed to urgent in-person evaluation. This page is for adults located in {state}, including {cities}.",
     "tocLinks": [
       {
         "href": "eligibility-checklist",
@@ -406,7 +406,7 @@
     "sections": [
       {
         "title": "Topical antibiotic therapy (preferred for limited disease)",
-        "text": "For localized impetigo with a small number of lesions, topical mupirocin 2% ointment or retapamulin 1% ointment applied twice daily for 5 days is the first-line IDSA-recommended approach. Topical therapy has the advantage of direct application to lesions, fewer systemic side effects, and evidence showing efficacy at least equal to oral antibiotics for limited disease. Crusts should be gently removed with soap and water before applying topical medication."
+        "text": "For localized impetigo with a small number of lesions, topical mupirocin 2% ointment applied for 5 days is the first-line IDSA-recommended approach. Topical therapy has the advantage of direct application to lesions, fewer systemic side effects, and evidence showing efficacy at least equal to oral antibiotics for limited disease. Crusts should be gently removed with soap and water before applying topical medication."
       },
       {
         "title": "Oral antibiotic therapy (for extensive disease or multiple lesions)",
@@ -444,12 +444,6 @@
         "Apply to affected area three times daily",
         "7 to 10 days (or 5 days per IDSA guidance)",
         "First-line IDSA-recommended topical agent for limited impetigo. Remove crusts with soap and water before applying. Not effective against MRSA at high resistance rates. Available as generic."
-      ],
-      [
-        "Retapamulin 1% ointment (topical)",
-        "Apply to affected area twice daily",
-        "5 days",
-        "IDSA first-line topical option. Approved for S. aureus (methicillin-susceptible) and S. pyogenes. Novel pleuromutilin class with low resistance risk. Not approved for MRSA. Treatment area should not exceed 100 cm² in adults."
       ],
       [
         "Cephalexin (oral)",
@@ -576,7 +570,7 @@
       },
       {
         "question": "What antibiotics are used for impetigo?",
-        "answer": "For limited disease, topical mupirocin 2% ointment or retapamulin 1% ointment are IDSA first-line options. For more extensive impetigo or bullous forms, oral cephalexin or dicloxacillin for 7 days are standard. When MRSA is suspected, trimethoprim-sulfamethoxazole (TMP-SMX DS), doxycycline, or clindamycin are used. The choice depends on lesion extent, MRSA risk, allergies, and clinical presentation."
+        "answer": "For limited disease, topical mupirocin 2% ointment is the IDSA first-line option TeleDirectMD uses. For more extensive impetigo or bullous forms, oral cephalexin or dicloxacillin for 7 days are standard. When MRSA is suspected, trimethoprim-sulfamethoxazole (TMP-SMX DS), doxycycline, or clindamycin are used. The choice depends on lesion extent, MRSA risk, allergies, and clinical presentation."
       },
       {
         "question": "Is impetigo contagious? How do I keep from spreading it?",
@@ -788,10 +782,6 @@
       {
         "name": "Mupirocin 2% ointment",
         "id": "mupirocin-topical"
-      },
-      {
-        "name": "Retapamulin 1% ointment",
-        "id": "retapamulin-topical"
       },
       {
         "name": "Cephalexin",

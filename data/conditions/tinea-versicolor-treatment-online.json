@@ -48,7 +48,7 @@
       "note": "Adults 18+ only. TeleDirectMD is not an emergency service. Go to urgent care or a dermatologist for rapidly spreading rash with systemic symptoms, diagnostic uncertainty requiring biopsy or KOH scraping, patches unresponsive to multiple treatment courses, or immunocompromised patients with widespread skin involvement. TeleDirectMD does not prescribe controlled substances."
     },
     "icd10Display": "B36.0 (final coding depends on clinical details)",
-    "quickAnswer": "Yes — adults (18+) in {state} with tinea versicolor can be treated online. A board-certified MD reviews your skin discoloration pattern by secure video and prescribes an antifungal — ketoconazole or selenium sulfide shampoo for topical use, or oral itraconazole/fluconazole for extensive or recurrent cases — sent to your pharmacy same day. Visit price: $79 flat, no insurance required. Pigment changes can persist 2–4 months after successful treatment — this doesn't mean it failed. Raised, scaling-bordered patches need in-person evaluation for ringworm instead."
+    "quickAnswer": "Yes — adults (18+) in {state} with tinea versicolor can be treated online. A board-certified MD reviews your skin discoloration pattern by secure video and prescribes an antifungal — ketoconazole or selenium sulfide shampoo for topical use, or oral fluconazole for extensive or recurrent cases — sent to your pharmacy same day. Visit price: $79 flat, no insurance required. Pigment changes can persist 2–4 months after successful treatment — this doesn't mean it failed. Raised, scaling-bordered patches need in-person evaluation for ringworm instead."
   },
   "eligibility": {
     "sectionTitle": "Tinea Versicolor Telehealth Eligibility Checklist for {state}",
@@ -405,11 +405,11 @@
       },
       {
         "title": "Oral antifungals (for extensive, refractory, or recurrent disease)",
-        "text": "When tinea versicolor is widespread, does not respond to topical therapy, or recurs frequently, oral antifungal agents may be appropriate. Itraconazole 200 mg daily for 5 to 7 days and fluconazole 300 mg weekly for 2 weeks are effective oral options. Importantly, oral terbinafine is ineffective for tinea versicolor because Malassezia is a yeast organism, not a dermatophyte, and terbinafine does not achieve adequate concentrations in the stratum corneum against yeast species. Oral ketoconazole is not recommended due to hepatotoxicity risk."
+        "text": "When tinea versicolor is widespread, does not respond to topical therapy, or recurs frequently, oral antifungal agents may be appropriate. Fluconazole 300 mg weekly for 2 weeks is an effective oral option. Importantly, oral terbinafine is ineffective for tinea versicolor because Malassezia is a yeast organism, not a dermatophyte, and terbinafine does not achieve adequate concentrations in the stratum corneum against yeast species. Oral ketoconazole is not recommended due to hepatotoxicity risk."
       },
       {
         "title": "Recurrence prevention (prophylaxis)",
-        "text": "Tinea versicolor has a high recurrence rate, especially during warm weather months. Prophylactic strategies include applying selenium sulfide 2.5% or ketoconazole 2% shampoo to the entire trunk for 10 minutes once monthly during warm months. For patients with frequent recurrences, itraconazole 200 mg twice daily for one day per month can reduce recurrence. Keeping skin dry, wearing loose-fitting breathable clothing, and avoiding heavy oils or occlusive products on the trunk may also help."
+        "text": "Tinea versicolor has a high recurrence rate, especially during warm weather months. Prophylactic strategies include applying selenium sulfide 2.5% or ketoconazole 2% shampoo to the entire trunk for 10 minutes once monthly during warm months. Keeping skin dry, wearing loose-fitting breathable clothing, and avoiding heavy oils or occlusive products on the trunk may also help."
       },
       {
         "title": "Managing expectations for pigment recovery",
@@ -450,12 +450,6 @@
         "Apply once to twice daily to affected areas",
         "1 to 4 weeks",
         "Effective topical option against Malassezia. Important: oral terbinafine is ineffective for tinea versicolor. Only the topical formulation works for this condition."
-      ],
-      [
-        "Itraconazole 200 mg (oral)",
-        "200 mg by mouth daily",
-        "5 to 7 days for treatment; 200 mg twice daily for 1 day monthly for prophylaxis",
-        "For extensive or recurrent disease not responsive to topical therapy. Take with food for better absorption. Check for drug interactions (CYP3A4 inhibitor)."
       ],
       [
         "Fluconazole 300 mg (oral)",
@@ -500,7 +494,7 @@
         "Use selenium sulfide 2.5% or ketoconazole 2% shampoo as a monthly body wash on the trunk during warm months to prevent recurrence",
         "Avoid prolonged wearing of tight, non-breathable clothing in hot weather",
         "Minimize use of heavy oils, thick lotions, and occlusive products on the trunk",
-        "If tinea versicolor recurs seasonally despite topical prophylaxis, discuss monthly oral itraconazole prophylaxis with your physician",
+        "If tinea versicolor recurs seasonally despite topical prophylaxis, discuss other prevention options with your physician",
         "If patches recur frequently or expand despite treatment, seek in-person evaluation for KOH scraping and possible alternative diagnosis"
       ]
     }
@@ -548,7 +542,7 @@
     "items": [
       {
         "question": "Can I get a prescription for tinea versicolor treatment online in {state}?",
-        "answer": "Yes, if you are an adult 18+ located in {state} and your symptoms are appropriate for telehealth after red-flag screening. TeleDirectMD can prescribe topical antifungal agents or oral antifungals such as itraconazole or fluconazole when clinically appropriate based on your symptoms, disease extent, and photo assessment."
+        "answer": "Yes, if you are an adult 18+ located in {state} and your symptoms are appropriate for telehealth after red-flag screening. TeleDirectMD can prescribe topical antifungal agents or oral fluconazole when clinically appropriate based on your symptoms, disease extent, and photo assessment."
       },
       {
         "question": "How much does online tinea versicolor treatment cost in {state}?",
@@ -568,7 +562,7 @@
       },
       {
         "question": "Can I use oral terbinafine for tinea versicolor?",
-        "answer": "No. Oral terbinafine is ineffective for tinea versicolor. This is a critical distinction from other fungal skin infections: tinea versicolor is caused by Malassezia yeast, not by dermatophyte fungi. Oral terbinafine does not achieve adequate concentrations against Malassezia in the stratum corneum. Topical terbinafine cream, however, is effective when applied directly to the skin. For oral treatment of tinea versicolor, itraconazole or fluconazole are the appropriate options."
+        "answer": "No. Oral terbinafine is ineffective for tinea versicolor. This is a critical distinction from other fungal skin infections: tinea versicolor is caused by Malassezia yeast, not by dermatophyte fungi. Oral terbinafine does not achieve adequate concentrations against Malassezia in the stratum corneum. Topical terbinafine cream, however, is effective when applied directly to the skin. For oral treatment of tinea versicolor, fluconazole is the appropriate option."
       },
       {
         "question": "What is the difference between tinea versicolor and ringworm?",
@@ -759,10 +753,6 @@
         "id": "selenium-sulfide"
       },
       {
-        "name": "Itraconazole (oral)",
-        "id": "itraconazole"
-      },
-      {
         "name": "Fluconazole (oral)",
         "id": "fluconazole"
       },
@@ -773,7 +763,7 @@
     ],
     "treatments": [
       "Topical antifungal agents (ketoconazole, selenium sulfide, terbinafine cream, ciclopirox)",
-      "Oral antifungal therapy (itraconazole, fluconazole) for extensive or recurrent disease",
+      "Oral antifungal therapy (fluconazole) for extensive or recurrent disease",
       "Monthly prophylactic antifungal body wash for recurrence prevention",
       "Patient education on pigment recovery timeline"
     ],
