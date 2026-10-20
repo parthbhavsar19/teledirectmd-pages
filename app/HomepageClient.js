@@ -200,15 +200,15 @@ const ALL_US_STATES = [
 ];
 
 const LICENSED_STATES = new Set([
-  'AL','AK','AZ','CA','CO','CT','DC','DE','FL','GA','HI','IA','ID','IL','IN','KS','KY','LA','MD','ME','MI',
-  'MN','MO','MS','MT','NC','ND','NE','NH','NJ','NV','OH','OK','PA','SC','SD','TN','TX','UT','VA','VT','WA','WI','WV','WY',
+  'AL','AK','AZ','CA','CO','CT','DC','DE','FL','GA','HI','IA','ID','IL','IN','KY','LA','MD','ME','MI',
+  'MN','MO','MS','MT','NC','ND','NE','NH','NJ','NV','OH','OK','PA','SC','SD','TN','TX','UT','VA','VT','WA','WV','WY',
 ]);
 
 const STATE_SLUGS = {
   AL:'al',AK:'ak',AZ:'az',CA:'ca',CO:'co',CT:'ct',DC:'dc',DE:'de',FL:'fl',GA:'ga',HI:'hi',IA:'ia',ID:'id',
-  IL:'il',IN:'in',KS:'ks',KY:'ky',LA:'la',MD:'md',ME:'me',MI:'mi',MN:'mn',MO:'mo',MS:'ms',MT:'mt',
+  IL:'il',IN:'in',KY:'ky',LA:'la',MD:'md',ME:'me',MI:'mi',MN:'mn',MO:'mo',MS:'ms',MT:'mt',
   NC:'nc',ND:'nd',NE:'ne',NH:'nh',NJ:'nj',NV:'nv',OH:'oh',OK:'ok',PA:'pa',SC:'sc',SD:'sd',TN:'tn',
-  TX:'tx',UT:'ut',VA:'va',VT:'vt',WA:'wa',WI:'wi',WV:'wv',WY:'wy',
+  TX:'tx',UT:'ut',VA:'va',VT:'vt',WA:'wa',WV:'wv',WY:'wy',
 };
 
 /* ============================

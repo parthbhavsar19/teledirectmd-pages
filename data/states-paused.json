@@ -1,0 +1,59 @@
+{
+  "_comment": "Wisconsin and Kansas, paused 2026-10-20 pending malpractice carrier coverage. Removed from data/states.json so no WI/KS page, booking option or served-state list is built; vercel.json 301s /wi/* and /ks/* to /states-we-serve/. To relaunch: move these entries back into data/states.json in alphabetical order, delete the WI/KS redirect in vercel.json, take Wisconsin and Kansas off the 'not currently served' lists, and run npm run check:states.",
+  "states": [
+    {
+      "name": "Kansas",
+      "abbr": "KS",
+      "slug": "ks",
+      "cities": [
+        "Wichita",
+        "Overland Park",
+        "Kansas City",
+        "Olathe",
+        "Topeka",
+        "Lawrence",
+        "Shawnee",
+        "Manhattan",
+        "Lenexa",
+        "Salina",
+        "Hutchinson",
+        "Leavenworth"
+      ],
+      "pharmacies": [
+        "CVS Pharmacy",
+        "Walgreens",
+        "Walmart Pharmacy",
+        "Dillons Pharmacy",
+        "Hy-Vee Pharmacy"
+      ],
+      "telehealthRegulation": "The Kansas Telemedicine Act (K.S.A. 40-2,211 et seq.), enacted via Senate Sub. for HB 2028 effective January 1, 2019, authorizes telemedicine to establish a valid provider-patient relationship. The same standards of practice and conduct that apply to in-person healthcare services apply to services delivered through telemedicine. The Kansas Board of Healing Arts oversees physician telemedicine practice and has adopted rules regarding prescribing, including controlled substances, via telemedicine. Providers must give patients guidance on appropriate follow-up care and, with patient consent, send a treatment report to the patient's primary care physician within three business days."
+    },
+    {
+      "name": "Wisconsin",
+      "abbr": "WI",
+      "slug": "wi",
+      "cities": [
+        "Milwaukee",
+        "Madison",
+        "Green Bay",
+        "Kenosha",
+        "Racine",
+        "Appleton",
+        "Waukesha",
+        "Eau Claire",
+        "Oshkosh",
+        "Janesville",
+        "La Crosse",
+        "Sheboygan"
+      ],
+      "pharmacies": [
+        "CVS Pharmacy",
+        "Walgreens",
+        "Walmart Pharmacy",
+        "Pick 'n Save Pharmacy",
+        "Festival Foods Pharmacy"
+      ],
+      "telehealthRegulation": "Wisconsin Statutes Section 448.015 and associated telehealth regulations authorize licensed providers to deliver healthcare services through telehealth technologies. The Wisconsin Medical Examining Board permits providers to establish a patient-provider relationship via telehealth and requires compliance with the same standard of care and prescribing requirements as in-person practice."
+    }
+  ]
+}

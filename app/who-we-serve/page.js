@@ -50,7 +50,7 @@ export default function WhoWeServeHub() {
       "@type": "MedicalTherapy",
       "name": "Telehealth Consultations"
     },
-    "areaServed": ["AL","AK","AZ","CA","CO","CT","DC","DE","FL","GA","HI","IA","ID","IL","IN","KS","KY","LA","MD","ME","MI","MN","MO","MS","MT","NC","ND","NE","NH","NJ","NV","OH","OK","PA","SC","SD","TN","TX","UT","VA","VT","WA","WI","WV","WY"]
+    "areaServed": ["AL","AK","AZ","CA","CO","CT","DC","DE","FL","GA","HI","IA","ID","IL","IN","KY","LA","MD","ME","MI","MN","MO","MS","MT","NC","ND","NE","NH","NJ","NV","OH","OK","PA","SC","SD","TN","TX","UT","VA","VT","WA","WV","WY"]
   };
 
   return (

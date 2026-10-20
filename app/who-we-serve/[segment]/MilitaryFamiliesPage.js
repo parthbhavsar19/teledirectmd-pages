@@ -63,7 +63,6 @@ export default function MilitaryFamiliesPage() {
     { abbr: 'IL', name: 'Illinois' },
     { abbr: 'IN', name: 'Indiana' },
     { abbr: 'IA', name: 'Iowa' },
-    { abbr: 'KS', name: 'Kansas' },
     { abbr: 'KY', name: 'Kentucky' },
     { abbr: 'LA', name: 'Louisiana' },
     { abbr: 'ME', name: 'Maine' },
@@ -91,7 +90,6 @@ export default function MilitaryFamiliesPage() {
     { abbr: 'VT', name: 'Vermont' },
     { abbr: 'WA', name: 'Washington' },
     { abbr: 'WV', name: 'West Virginia' },
-    { abbr: 'WI', name: 'Wisconsin' },
     { abbr: 'WY', name: 'Wyoming' },
   ];
 
@@ -115,7 +113,7 @@ export default function MilitaryFamiliesPage() {
         "telephone": "+1-678-956-1855",
         "medicalSpecialty": "GeneralPractice",
         "availableService": { "@type": "MedicalTherapy", "name": "Telehealth Consultations" },
-        "areaServed": ["AL","AK","AZ","CA","CO","CT","DC","DE","FL","GA","HI","ID","IL","IN","IA","KS","KY","LA","ME","MD","MI","MN","MS","MO","MT","NE","NV","NH","NJ","NC","ND","OH","OK","PA","SC","SD","TN","TX","UT","VA","VT","WA","WV","WI","WY"]
+        "areaServed": ["AL","AK","AZ","CA","CO","CT","DC","DE","FL","GA","HI","ID","IL","IN","IA","KY","LA","ME","MD","MI","MN","MS","MO","MT","NE","NV","NH","NJ","NC","ND","OH","OK","PA","SC","SD","TN","TX","UT","VA","VT","WA","WV","WY"]
       },
       {
         "@type": "Physician",

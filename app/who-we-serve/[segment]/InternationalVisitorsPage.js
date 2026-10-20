@@ -332,7 +332,6 @@ export default function InternationalVisitorsPage() {
     { abbr: 'IL', name: 'Illinois' },
     { abbr: 'IN', name: 'Indiana' },
     { abbr: 'IA', name: 'Iowa' },
-    { abbr: 'KS', name: 'Kansas' },
     { abbr: 'KY', name: 'Kentucky' },
     { abbr: 'LA', name: 'Louisiana' },
     { abbr: 'ME', name: 'Maine' },
@@ -360,7 +359,6 @@ export default function InternationalVisitorsPage() {
     { abbr: 'VT', name: 'Vermont' },
     { abbr: 'WA', name: 'Washington' },
     { abbr: 'WV', name: 'West Virginia' },
-    { abbr: 'WI', name: 'Wisconsin' },
     { abbr: 'WY', name: 'Wyoming' },
   ];
 

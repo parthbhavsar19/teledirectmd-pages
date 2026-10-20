@@ -5,7 +5,7 @@ import { notFound } from 'next/navigation';
 import { CitableSummaryBlock } from '../../../components/CitableSummary';
 import { summarizeCompare, summarizeUseCase, summarizeWhoWeServe, summarizeFaqDeepDive, citableSummaryToJsonLd } from '../../../../lib/citable-summary';
 
-const STATES = ['al','az','ca','co','ct','dc','de','fl','ga','hi','id','il','in','ia','ks','ky','la','me','md','mi','mn','ms','mo','mt','ne','nv','nh','nj','nc','nd','oh','ok','pa','sc','sd','tn','tx','ut','va','wa','wv','wi','wy'];
+const STATES = ['al','az','ca','co','ct','dc','de','fl','ga','hi','id','il','in','ia','ky','la','me','md','mi','mn','ms','mo','mt','ne','nv','nh','nj','nc','nd','oh','ok','pa','sc','sd','tn','tx','ut','va','wa','wv','wy'];
 
 // 2026-06-10: Retired finasteride/sildenafil/tadalafil/propranolol deep-dive
 // families (168 thin templated pages, 65-72% Jaccard within/across medications).

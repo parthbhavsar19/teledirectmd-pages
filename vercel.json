@@ -4575,6 +4575,14 @@
       "dest": "/410-faq-deepdive.txt"
     },
     {
+      "src": "/(wi|ks)(/.*)?",
+      "headers": {
+        "Location": "/states-we-serve/",
+        "X-State-Paused": "2026-10-20"
+      },
+      "status": 301
+    },
+    {
       "handle": "filesystem"
     },
     {
@@ -4818,7 +4826,7 @@
     {
       "src": "/ks/online-doctor-visits/?",
       "headers": {
-        "Location": "/ks/"
+        "Location": "/states-we-serve/"
       },
       "status": 301
     },
@@ -5014,7 +5022,7 @@
     {
       "src": "/wi/online-doctor-visits/?",
       "headers": {
-        "Location": "/wi/"
+        "Location": "/states-we-serve/"
       },
       "status": 301
     },
