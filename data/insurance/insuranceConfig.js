@@ -131,18 +131,18 @@ export const STATE_NAMES = {
   MI:"Michigan", MN:"Minnesota", NC:"North Carolina", NJ:"New Jersey",
   OH:"Ohio", OK:"Oklahoma", PA:"Pennsylvania", TN:"Tennessee", TX:"Texas", WA:"Washington",
   AL:"Alabama", AK:"Alaska", CA:"California", CT:"Connecticut", DC:"District of Columbia",
-  DE:"Delaware", HI:"Hawaii", ID:"Idaho", IN:"Indiana", IA:"Iowa", KS:"Kansas",
+  DE:"Delaware", HI:"Hawaii", ID:"Idaho", IN:"Indiana", IA:"Iowa",
   KY:"Kentucky", LA:"Louisiana", ME:"Maine", MD:"Maryland", MS:"Mississippi",
   MO:"Missouri", MT:"Montana", NE:"Nebraska", NV:"Nevada", NH:"New Hampshire",
   ND:"North Dakota", SC:"South Carolina", SD:"South Dakota", UT:"Utah", VT:"Vermont",
-  VA:"Virginia", WV:"West Virginia", WI:"Wisconsin", WY:"Wyoming",
+  VA:"Virginia", WV:"West Virginia", WY:"Wyoming",
 };
 
 // All states where TeleDirectMD operates (licensed)
 export const TDMD_STATES = [
-  "AL","AZ","CO","CT","DC","DE","FL","GA","HI","ID","IL","IN","IA","KS","KY",
+  "AL","AZ","CO","CT","DC","DE","FL","GA","HI","ID","IL","IN","IA","KY",
   "LA","ME","MD","MI","MN","MS","MO","MT","NC","NE","NV","NH","NJ","ND","OH",
-  "OK","PA","SC","SD","TN","TX","UT","VA","WA","WV","WI","WY"
+  "OK","PA","SC","SD","TN","TX","UT","VA","WA","WV","WY"
 ];
 
 // Insurance-active states (any insurer)

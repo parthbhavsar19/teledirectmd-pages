@@ -342,11 +342,11 @@ const sections = [
             </p>
             <p>
               Alabama, Alaska, Arizona, California, Colorado, Connecticut, Delaware, Florida, Georgia,
-              Hawaii, Idaho, Illinois, Indiana, Iowa, Kansas, Kentucky, Louisiana, Maine, Maryland,
+              Hawaii, Idaho, Illinois, Indiana, Iowa, Kentucky, Louisiana, Maine, Maryland,
               Michigan, Minnesota, Mississippi, Missouri, Montana, Nebraska, Nevada, New Hampshire,
               New Jersey, North Carolina, North Dakota, Ohio, Oklahoma, Pennsylvania, South Carolina,
               South Dakota, Tennessee, Texas, Utah, Vermont, Virginia, Washington, West Virginia,
-              Wisconsin, and Wyoming.
+              and Wyoming.
             </p>
             <p>D.C. was added as our 42nd coverage area in March 2026.</p>
           </>

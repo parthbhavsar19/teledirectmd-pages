@@ -7,7 +7,7 @@ import { PRESCRIBING_POLICY, REFILL_POLICY, ED_REFILL_POLICY } from '../../lib/p
 
 /* ── Config ──────────────────────────────────────────────────────────────── */
 /* Six states not yet available. Lowercase to match the SVG's <path class="XX"> */
-const NOT_COVERED = ['or', 'nm', 'ar', 'ny', 'ri', 'ma'];
+const NOT_COVERED = ['or', 'nm', 'ar', 'ny', 'ri', 'ma', 'wi', 'ks'];
 // The counter animates up to 40 and then reads "40+": coverage copy is never
 // an exact count, so it stays true through each new state launch.
 const COVERED_STATE_COUNT = 40;
@@ -85,7 +85,7 @@ function UsMap({ animate }) {
     });
   });
 
-  const isOn = (code) => covered.has('*') || covered.has(code);
+  const isOn = (code) => (covered.has('*') && !NOT_COVERED.includes(code)) || covered.has(code);
 
   return (
     <div className="wwt-map-wrap" ref={wrapRef}>

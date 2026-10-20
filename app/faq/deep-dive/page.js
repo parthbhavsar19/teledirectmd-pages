@@ -50,7 +50,7 @@ const STATES = [
   { abbr: 'co', name: 'Colorado' }, { abbr: 'ct', name: 'Connecticut' }, { abbr: 'dc', name: 'Washington DC' },
   { abbr: 'de', name: 'Delaware' }, { abbr: 'fl', name: 'Florida' }, { abbr: 'ga', name: 'Georgia' },
   { abbr: 'hi', name: 'Hawaii' }, { abbr: 'id', name: 'Idaho' }, { abbr: 'il', name: 'Illinois' },
-  { abbr: 'in', name: 'Indiana' }, { abbr: 'ia', name: 'Iowa' }, { abbr: 'ks', name: 'Kansas' },
+  { abbr: 'in', name: 'Indiana' }, { abbr: 'ia', name: 'Iowa' },
   { abbr: 'ky', name: 'Kentucky' }, { abbr: 'la', name: 'Louisiana' }, { abbr: 'me', name: 'Maine' },
   { abbr: 'md', name: 'Maryland' }, { abbr: 'mi', name: 'Michigan' }, { abbr: 'mn', name: 'Minnesota' },
   { abbr: 'ms', name: 'Mississippi' }, { abbr: 'mo', name: 'Missouri' }, { abbr: 'mt', name: 'Montana' },
@@ -59,7 +59,7 @@ const STATES = [
   { abbr: 'oh', name: 'Ohio' }, { abbr: 'ok', name: 'Oklahoma' }, { abbr: 'pa', name: 'Pennsylvania' },
   { abbr: 'sc', name: 'South Carolina' }, { abbr: 'sd', name: 'South Dakota' }, { abbr: 'tn', name: 'Tennessee' },
   { abbr: 'tx', name: 'Texas' }, { abbr: 'ut', name: 'Utah' }, { abbr: 'vt', name: 'Vermont' }, { abbr: 'va', name: 'Virginia' }, { abbr: 'wa', name: 'Washington' },
-  { abbr: 'wv', name: 'West Virginia' }, { abbr: 'wi', name: 'Wisconsin' }, { abbr: 'wy', name: 'Wyoming' },
+  { abbr: 'wv', name: 'West Virginia' }, { abbr: 'wy', name: 'Wyoming' },
 ];
 
 // Pilot states (AK, VT) have no deep-dive page; see app/faq/deep-dive/[slug]/page.js STATES.
@@ -112,7 +112,7 @@ const FAQS = [
   {
     question: 'What states does TeleDirectMD serve for these prescriptions?',
     answer:
-      'TeleDirectMD is currently licensed in 40+ states + Washington DC. Each medication guide is available for 40+ states + DC. You must be physically located in a covered state at the time of your visit. The full list is available on the States We Serve page. States not currently covered include Arkansas, Massachusetts, New Mexico, New York, Oregon, and Rhode Island.',
+      'TeleDirectMD is currently licensed in 40+ states + Washington DC. Each medication guide is available for 40+ states + DC. You must be physically located in a covered state at the time of your visit. The full list is available on the States We Serve page. States not currently covered include Arkansas, Kansas, Massachusetts, New Mexico, New York, Oregon, Rhode Island, and Wisconsin.',
   },
   {
     question: 'Is a prescription guaranteed from a TeleDirectMD visit?',
@@ -401,7 +401,7 @@ export default function FaqDeepDiveHubPage() {
             ))}
           </div>
           <p className="fdd-p" style={{ marginTop: '1rem' }}>
-            States not currently served: Arkansas, Massachusetts, New Mexico, New York, Oregon, and Rhode Island. Patients in those states should seek care from a locally licensed telehealth service.
+            States not currently served: Arkansas, Kansas, Massachusetts, New Mexico, New York, Oregon, Rhode Island, and Wisconsin. Patients in those states should seek care from a locally licensed telehealth service.
           </p>
         </section>
 
