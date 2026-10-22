@@ -2,6 +2,7 @@ import { stateConditionHref, INSURER_STATES } from '../lib/live-routes';
 import { contentDate } from '../lib/content-dates';
 import fs from 'fs';
 import path from 'path';
+import { getFluHubSitemapEntries } from '../lib/flu-hub-sitemap.mjs';
 import { getStates, getConditionSlugs } from '../lib/get-data';
 import { INSURERS, INSURANCE_CONDITIONS, getInsurerStateSlugs } from '../data/insurance/insuranceConfig';
 import { AETNA_CA_CONDITION_DETAILS } from '../data/insurance/aetna-ca-conditions';
@@ -272,6 +273,17 @@ export default function sitemap() {
     }
   } catch (err) {
     console.warn('[sitemap] could not enumerate /health-guides/affordability:', err.message);
+  }
+
+  // Existing FluHub pages live under /public, not app routes. Include only
+  // real, indexable, same-origin canonicals; reuse source dates, never build time.
+  const listed = new Set(urls.map(entry => entry.url));
+  for (const entry of getFluHubSitemapEntries(path.join(process.cwd(), 'public'), SITE)) {
+    const record = url(entry.path, 0.85, 'weekly', guideLastmod(entry.file));
+    if (!listed.has(record.url)) {
+      urls.push(record);
+      listed.add(record.url);
+    }
   }
 
   return urls;
