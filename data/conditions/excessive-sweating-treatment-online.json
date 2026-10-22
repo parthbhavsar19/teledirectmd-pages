@@ -234,7 +234,7 @@
         "isTdmd": false
       }
     ],
-    "footnote": "Total cost is transparent: the $79 visit plus generic oral or topical glycopyrrolate (roughly $10–$30 with a pharmacy coupon) means most patients pay about $89–$109 all-in — no membership, with Botox or iontophoresis reserved for cases not controlled by medication.",
+    "footnote": "Total cost is transparent: the $79 visit plus generic oral glycopyrrolate (roughly $10–$30 with a pharmacy coupon) means most patients pay about $89–$109 all-in — no membership, with Botox or iontophoresis reserved for cases not controlled by medication.",
     "noHiddenFees": "No hidden fees. If medication is not clinically appropriate, you still receive a complete evaluation, guidance, and clear instructions on what level of care you need next."
   },
   "whatIsCondition": {
@@ -395,11 +395,11 @@
     "sections": [
       {
         "title": "Topical agents (first-line)",
-        "text": "Topical aluminum chloride 20 percent (Drysol) is the standard first-line topical treatment. It is applied to dry skin at bedtime for 6 to 8 hours, typically nightly until improvement, then reduced to once or twice weekly for maintenance. Clinical-strength OTC antiperspirants may also help for mild cases. Topical glycopyrrolate is a first-line option specifically for craniofacial sweating."
+        "text": "Topical aluminum chloride 20 percent (Drysol) is the standard first-line topical treatment. It is applied to dry skin at bedtime for 6 to 8 hours, typically nightly until improvement, then reduced to once or twice weekly for maintenance. Clinical-strength OTC antiperspirants may also help for mild cases. Glycopyrronium cloths (Qbrexza) are an FDA-approved topical option for underarm sweating."
       },
       {
         "title": "Oral medications (prescribable via telehealth)",
-        "text": "Oral glycopyrrolate (Robinul) is the most commonly prescribed oral agent for hyperhidrosis. It works by blocking acetylcholine at sweat glands through anticholinergic action. Glycopyrrolate is not a controlled substance and can be prescribed via telehealth. It is typically started at 1 mg twice daily and titrated up based on response and tolerability. Oxybutynin is an alternative oral anticholinergic option. Both medications can cause dry mouth, blurred vision, constipation, and urinary retention as side effects."
+        "text": "Oral glycopyrrolate (Robinul) is the most commonly prescribed oral agent for hyperhidrosis. It works by blocking acetylcholine at sweat glands through anticholinergic action. Glycopyrrolate is not a controlled substance and can be prescribed via telehealth. It is typically started at 1 mg twice daily and titrated based on response and tolerability, usually to 1 to 2 mg two to three times daily, up to a maximum of 8 mg per day. Oxybutynin is an alternative oral anticholinergic option. Both medications can cause dry mouth, blurred vision, constipation, and urinary retention as side effects."
       },
       {
         "title": "Procedural treatments (require in-person referral)",
@@ -429,7 +429,7 @@
     "rows": [
       [
         "Glycopyrrolate (Robinul)",
-        "1-2 mg by mouth 2-3 times daily",
+        "Start 1 mg twice daily; usual range 1-2 mg 2-3 times daily",
         "Ongoing with periodic reassessment",
         "Most commonly prescribed oral agent for hyperhidrosis. Not a controlled substance. Take on empty stomach for best absorption. Anticholinergic side effects include dry mouth, blurred vision, constipation, and urinary retention. Maximum 8 mg per day. Avoid in glaucoma, GI obstruction, myasthenia gravis, or urinary retention."
       ],
@@ -444,12 +444,6 @@
         "Apply to dry skin at bedtime for 6-8 hours",
         "Nightly until improvement, then 1-2 times weekly",
         "First-line topical treatment. Apply to completely dry skin. Wash off in the morning. May cause skin irritation. Use low-potency hydrocortisone cream if irritation develops."
-      ],
-      [
-        "Topical glycopyrrolate",
-        "Apply to affected areas once daily",
-        "Ongoing with periodic reassessment",
-        "First-line topical option for craniofacial sweating. Less systemic absorption than oral form. May cause local skin irritation."
       ],
       [
         "Glycopyrronium cloth (Qbrexza)",
@@ -768,7 +762,6 @@
     "treatments": [
       "Topical aluminum chloride application",
       "Oral glycopyrrolate or oxybutynin",
-      "Topical glycopyrrolate for craniofacial sweating",
       "Botox injections (in-person referral)",
       "Iontophoresis (in-person referral)",
       "MiraDry (in-person referral)"
