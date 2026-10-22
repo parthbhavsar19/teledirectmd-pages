@@ -76,12 +76,6 @@ const MEDICATIONS = [
     priceHref: 'https://www.goodrx.com/cephalexin',
     firstLine: false,
     notes: 'Second-line when first-line agents are contraindicated.' },
-  { name: 'Phenazopyridine (AZO) — OTC analgesic',
-    regimen: '200 mg three times daily × up to 2 days',
-    price: 'Available OTC',
-    priceHref: null,
-    firstLine: false,
-    notes: 'Not an antibiotic — for symptom relief only. May turn urine orange.' },
 ];
 
 const FAQ_ITEMS = [
