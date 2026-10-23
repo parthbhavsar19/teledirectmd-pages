@@ -43,6 +43,7 @@ export default function SiteFooter() {
             <h4 className="tdmd-footer-heading">FOR BUSINESS</h4>
             <a href="/employers/">For Employers</a>
             <a href="/employers/brokers/">For Brokers</a>
+            <a href="/partners/">For Partners</a>
             <a href="/employers/trucking/">Trucking &amp; Logistics</a>
             <a href="/employers/restaurants/">Restaurants &amp; Hospitality</a>
             <a href="/employers/home-care/">Home Care</a>
