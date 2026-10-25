@@ -635,7 +635,10 @@ export default function HomepageClient() {
             <rect x="60" y="160" width="3" height="20" rx="1.5" fill="#FF5A36" opacity="0.05" transform="rotate(-20 61.5 170)"/>
           </svg>
         </div>
-        <h1 className="hp-visually-hidden">Board-Certified Online Doctor Visits &mdash; $79 Flat Fee, No Subscription, 40+ States</h1>
+        <header className="hp-hero-intro">
+          <h1 className="hp-hero-title">Board-Certified Online Doctor Visits</h1>
+          <p className="hp-hero-sub">$79 flat fee. No subscription. 40+ states.</p>
+        </header>
         <div id="tmd-root">
           <div id="tmd-wrap-d">
             <canvas id="tmd-c" aria-hidden="true"></canvas>
