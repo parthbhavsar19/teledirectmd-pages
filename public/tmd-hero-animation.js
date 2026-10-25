@@ -3,7 +3,7 @@
 'use strict';
 /* Preload fonts used by canvas before any drawing */
 var __fontsReady = (function(){
-  var families=['Patrick Hand','Space Mono','Karla'];
+  var families=['Patrick Hand','Inter'];
   /* The Google Fonts stylesheet loads without blocking render (app/layout.js);
      wait for it so the canvas text uses the real fonts. */
   var link=document.getElementById('tdmd-fonts');
@@ -251,7 +251,7 @@ function drawPaper(lo){
 function drawHeaders(elapsed,lo){
   const a=clamp((elapsed-500)/600,0,1); if(a<=0) return;
   ctx.save(); ctx.globalAlpha=a;
-  ctx.font="700 "+lo.hFsize+"px \"Space Mono\",monospace";
+  ctx.font="700 "+lo.hFsize+"px \"Inter\",sans-serif";
   ctx.textBaseline="middle";
   ctx.fillStyle="rgba(175,50,42,0.65)"; ctx.textAlign="left";
   ctx.fillText("WHAT'S BROKEN",lo.probX,lo.rowYs[0]-H*0.090);
@@ -280,7 +280,7 @@ function drawRow(i,elapsed,lo){
   const y=lo.rowYs[i]+dropY;
 
   ctx.save(); ctx.globalAlpha=dropA*0.35;
-  ctx.font="700 "+Math.max(9,Math.round(W*0.010))+"px \"Space Mono\",monospace";
+  ctx.font="700 "+Math.max(9,Math.round(W*0.010))+"px \"Inter\",sans-serif";
   ctx.fillStyle=RED; ctx.textAlign="center"; ctx.textBaseline="middle";
   ctx.fillText(i+1,lo.probX-W*0.022,y); ctx.restore();
 
@@ -334,14 +334,14 @@ function drawRow(i,elapsed,lo){
     }
     ctx.restore();
     var glowF=clamp(1-solP*0.7,0,1);
-    ctx.font="700 "+lo.solFsize+"px \"Karla\",sans-serif";
+    ctx.font="700 "+lo.solFsize+"px \"Inter\",sans-serif";
     ctx.shadowColor="rgba(0,130,135,"+(glowF*0.6)+")"; ctx.shadowBlur=glowF*14;
     ctx.fillStyle=NAVY; ctx.textAlign="left"; ctx.textBaseline="middle";
     ctx.fillText(item.sol,lo.solX+cR*2.1+sl,y); ctx.shadowBlur=0;
     if(solP>0.50){
       var subA=clamp((solP-0.50)/0.38,0,1);
       ctx.globalAlpha=sa*dropA*subA*0.62;
-      ctx.font="400 "+lo.subFsize+"px \"Karla\",sans-serif";
+      ctx.font="400 "+lo.subFsize+"px \"Inter\",sans-serif";
       ctx.fillStyle=TEAL; ctx.textAlign="left"; ctx.textBaseline="middle";
       ctx.fillText(item.sub,lo.solX+cR*2.1+sl,y+lo.solFsize*1.18);
     }
@@ -478,7 +478,7 @@ function drawBrand(elapsed){
   if(age>1600){
     var ta=clamp((age-1600)/500,0,1),tr=(1-easeOut(clamp((age-1600)/420,0,1)))*H*0.025;
     ctx.save(); ctx.globalAlpha=ta;
-    ctx.font="700 "+Math.max(30,Math.round(W*0.038))+"px \"Karla\",sans-serif";
+    ctx.font="700 "+Math.max(30,Math.round(W*0.038))+"px \"Inter\",sans-serif";
     ctx.fillStyle="rgba(0,62,82,0.96)";
     ctx.textAlign="center"; ctx.textBaseline="middle";
     ctx.fillText("A doctor you can reach,",W/2,LINE1_Y+tr);
@@ -489,7 +489,7 @@ function drawBrand(elapsed){
     var ba=clamp((age-2400)/550,0,1),br=(1-easeOut(clamp((age-2400)/460,0,1)))*H*0.015;
     var bf=Math.max(12,Math.round(W*0.014));
     var by=BADGE_Y+br;
-    ctx.save(); ctx.globalAlpha=ba; ctx.font="600 "+bf+"px \"Karla\",sans-serif";
+    ctx.save(); ctx.globalAlpha=ba; ctx.font="600 "+bf+"px \"Inter\",sans-serif";
     var labels=["$79 Flat Fee","No Insurance","Board-Certified MD","40+ States + DC"];
     var colors=[ORANGE,TEAL,TEAL,NAVY];
     var pad=W*0.022; var total=0;
@@ -762,8 +762,8 @@ function drawRow(i,elapsed,lo){
   var approach=localT>0&&localT<PH.walkEnd?clamp(localT/T_WALK,0,1)*0.38:0;
 
   var numA=clamp(localT/T_PROB_IN,0,1);
-  ctx.save();ctx.globalAlpha=numA*(1-dimA)*0.38;
-  ctx.font="700 "+lo.numFsize+"px \"Space Mono\",monospace";
+  ctx.save();ctx.globalAlpha=numA*(1-dimA)*0.85;
+  ctx.font="700 "+lo.numFsize+"px \"Inter\",sans-serif";
   ctx.fillStyle=RED;ctx.textAlign="center";ctx.textBaseline="middle";
   ctx.fillText(i+1,lo.textX-W*0.038,y);ctx.restore();
 
@@ -808,12 +808,12 @@ function drawRow(i,elapsed,lo){
       ctx.stroke();}
     ctx.restore();
     var glowF=clamp(1-solP*0.65,0,1);
-    ctx.font="700 "+lo.solFsize+"px \"Karla\",sans-serif";
+    ctx.font="700 "+lo.solFsize+"px \"Inter\",sans-serif";
     ctx.shadowColor="rgba(0,130,135,"+(glowF*0.65)+")";ctx.shadowBlur=glowF*14;
     ctx.fillStyle=NAVY;ctx.textAlign="left";ctx.textBaseline="middle";
     ctx.fillText(item.sol,lo.textX+cR*2.0+sl,y);ctx.shadowBlur=0;
     if(solP>0.50){var subA=clamp((solP-0.50)/0.38,0,1);ctx.globalAlpha=sa*subA*0.60;
-      ctx.font="400 "+lo.subFsize+"px \"Karla\",sans-serif";ctx.fillStyle=TEAL;ctx.textAlign="left";ctx.textBaseline="middle";
+      ctx.font="400 "+lo.subFsize+"px \"Inter\",sans-serif";ctx.fillStyle=TEAL;ctx.textAlign="left";ctx.textBaseline="middle";
       ctx.fillText(item.sub,lo.textX+cR*2.0+sl,y+lo.solFsize*1.20);}
     ctx.restore();
   }
@@ -852,12 +852,12 @@ function drawBrand(elapsed){
     ctx.save();ctx.globalAlpha=ua;ctx.strokeStyle=ORANGE;ctx.lineWidth=2;
     ctx.beginPath();ctx.moveTo(W/2-uw/2,ly+LH+H*0.018);ctx.lineTo(W/2+uw/2,ly+LH+H*0.018);ctx.stroke();ctx.restore();}
   if(age>1500){var ta=clamp((age-1500)/500,0,1),tr2=(1-easeOut(clamp((age-1500)/420,0,1)))*H*0.02;
-    ctx.save();ctx.globalAlpha=ta;ctx.font="700 "+Math.max(20,Math.round(W*0.060))+"px \"Karla\",sans-serif";
+    ctx.save();ctx.globalAlpha=ta;ctx.font="700 "+Math.max(20,Math.round(W*0.060))+"px \"Inter\",sans-serif";
     ctx.fillStyle="rgba(0,62,82,0.95)";ctx.textAlign="center";ctx.textBaseline="middle";
     ctx.fillText("A doctor you can reach,",W/2,ly+LH+H*0.062+tr2);ctx.fillText("without leaving home.",W/2,ly+LH+H*0.112+tr2);ctx.restore();}
   if(age>2200){var ba=clamp((age-2200)/550,0,1),br=(1-easeOut(clamp((age-2200)/460,0,1)))*H*0.016;
     var bf=Math.max(12,Math.round(W*0.034));var by=ly+LH+H*0.175+br;
-    ctx.save();ctx.globalAlpha=ba;ctx.font="600 "+bf+"px \"Karla\",sans-serif";
+    ctx.save();ctx.globalAlpha=ba;ctx.font="600 "+bf+"px \"Inter\",sans-serif";
     var labels=["$79 Flat Fee","No Insurance","40+ States + DC"];var colors=[ORANGE,TEAL,NAVY];
     var pad=W*0.030;var total=0;
     var ws=labels.map(function(l){var w=ctx.measureText(l).width+pad;total+=w+W*0.016;return w;});total-=W*0.016;

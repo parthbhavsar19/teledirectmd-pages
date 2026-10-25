@@ -185,9 +185,9 @@ const HOMEPAGE_CONDITION_TILES = [
 ].map(([name, img]) => ({ name, img, href: CONDITION_SLUGS[name] || '/what-we-treat' }));
 
 const WHY_FEATURES = [
-  { title: 'Board-Certified MD', desc: 'Every visit is with Dr. Parth Bhavsar, a licensed family medicine physician.', icon: 'doctor', img: '/images/why/why-board-certified.jpg' },
-  { title: '$79 Flat Fee', desc: 'One transparent price. No co-pays, no hidden fees.', icon: 'dollar', img: '/images/why/why-flat-fee.jpg' },
-  { title: '40+ States + DC', desc: 'Licensed in 40+ states plus DC', icon: 'map', img: '/images/why/why-states.jpg' },
+  // Board-certified MD, $79 flat fee, and 40+ states are said in the hero,
+  // the physician section, and the coverage map; this grid keeps only what
+  // the rest of the page does not already say.
   { title: 'LegitScript Certified', desc: 'Verified by LegitScript for safe, compliant telehealth prescribing.', icon: 'shield', img: '/images/why/why-legitscript.png' },
   { title: 'Fast Prescriptions', desc: 'Rx sent to your pharmacy — often within an hour of your visit.', icon: 'rx', img: '/images/why/why-fast-rx.jpg' },
   { title: 'No Waiting Rooms', desc: 'Skip the drive and the wait. See a doctor from your couch.', icon: 'home', img: '/images/why/why-no-waiting.jpg' },
@@ -477,7 +477,6 @@ function StickyHowItWorks() {
       <div className="hp-sticky-scroll-outer" ref={containerRef}>
         <div className="hp-sticky-viewport">
           <div className="hp-container">
-            <span className="hp-section-label" style={{ color: '#006B73' }}>HOW IT WORKS</span>
             <h2 className="hp-section-title" style={{ color: '#003E52' }}>See a doctor in 4 simple steps</h2>
             <p className="hp-section-subtitle" style={{ marginLeft: 'auto', marginRight: 'auto' }}>
               No insurance paperwork. No long wait times. Just quality healthcare, from wherever you are.
@@ -528,9 +527,8 @@ function StickyHowItWorks() {
    (Why TeleDirectMD — Apple-style)
    ============================ */
 function StickyWhySection() {
-  const { containerRef, activeIndex } = useStickyScroll(6, { scrollPerItem: 115 });
+  const { containerRef, activeIndex } = useStickyScroll(WHY_FEATURES.length, { scrollPerItem: 115 });
   // Static $79 — countdown caused confusion on mobile (showed mid-animation values like $932)
-  const whyPriceCountdown = { count: 79, ref: null };
 
   return (
     <section className="hp-why hp-section">
@@ -538,7 +536,6 @@ function StickyWhySection() {
         <div className="hp-sticky-viewport">
           <div className="hp-container">
             <div style={{ textAlign: 'center' }}>
-              <span className="hp-section-label" style={{ color: '#006B73' }}>WHY TELEDIRECTMD</span>
               <h2 className="hp-section-title">Healthcare that actually works for you</h2>
             </div>
             <div className="hp-why-grid">
@@ -550,17 +547,13 @@ function StickyWhySection() {
                   <div className="hp-why-img">
                     <img src={feat.img} alt={feat.title} loading="lazy" />
                   </div>
-                  {i === 1 ? (
-                    <h3><span ref={whyPriceCountdown.ref} className="hp-counter-price">${whyPriceCountdown.count.toLocaleString()}</span> Flat Fee</h3>
-                  ) : (
-                    <h3>{feat.title}</h3>
-                  )}
+                  <h3>{feat.title}</h3>
                   <p>{feat.desc}</p>
                 </div>
               ))}
             </div>
             <div style={{ textAlign: 'center' }}>
-              <a href="/book-online/" className="hp-btn hp-btn-primary">Book a $79 MD Visit</a>
+              <a href="/book-online/" className="hp-btn hp-btn-primary">Book Your $79 Visit</a>
             </div>
           </div>
         </div>
@@ -575,6 +568,7 @@ function StickyWhySection() {
 export default function HomepageClient() {
   const wrapRef = useScrollAnimation();
   const reviewTrackRef = useRef(null);
+  const [pressPaused, setPressPaused] = useState(false);
 
   // Counter hooks for stats
   const stateCounter = useCountUp(40, 1500); // renders "40+": coverage copy is never an exact count
@@ -642,12 +636,12 @@ export default function HomepageClient() {
         <div id="tmd-root">
           <div id="tmd-wrap-d">
             <canvas id="tmd-c" aria-hidden="true"></canvas>
-            <a href="/book-online/" className="tmd-cta" id="tmd-cta-d">Book Your $79 Visit →</a>
+            <a href="/book-online/" className="tmd-cta" id="tmd-cta-d">Book Your $79 Visit</a>
             <button className="tmd-replay" id="tmd-replay-d">↺ replay</button>
           </div>
           <div id="tmd-wrap-m">
             <canvas id="tmd-cm" aria-hidden="true"></canvas>
-            <a href="/book-online/" className="tmd-cta" id="tmd-cta-m">Book Your $79 Visit →</a>
+            <a href="/book-online/" className="tmd-cta" id="tmd-cta-m">Book Your $79 Visit</a>
             <button className="tmd-replay" id="tmd-replay-m">↺ replay</button>
           </div>
         </div>
@@ -662,7 +656,7 @@ export default function HomepageClient() {
           {/* Press strip: first thing in the navy band, right under the hero */}
           <div className="hp-featured-strip hp-animate hp-fade-up">
             <span>As featured in</span>
-            <div className="hp-marquee-wrap">
+            <div className={`hp-marquee-wrap${pressPaused ? ' hp-marquee-paused' : ''}`}>
               <div className="hp-marquee-track">
                 {/* Doubled for a seamless loop; the second copy is hidden from screen readers */}
                 {[...MEDIA_OUTLETS, ...MEDIA_OUTLETS].map((item, i) => {
@@ -675,10 +669,23 @@ export default function HomepageClient() {
                 })}
               </div>
             </div>
-            <a className="hp-featured-more" href="/media-mentions/">Read the coverage &rarr;</a>
+            <div className="hp-featured-actions">
+              <button
+                type="button"
+                className="hp-drift-pause hp-marquee-toggle"
+                onClick={() => setPressPaused(v => !v)}
+                aria-label={pressPaused ? 'Play moving press logos' : 'Pause moving press logos'}
+              >
+                {pressPaused ? (
+                  <svg viewBox="0 0 14 14" aria-hidden="true"><path d="M3 1.5v11l9.5-5.5z" /></svg>
+                ) : (
+                  <svg viewBox="0 0 14 14" aria-hidden="true"><rect x="2" y="1" width="3.5" height="12" rx="1" /><rect x="8.5" y="1" width="3.5" height="12" rx="1" /></svg>
+                )}
+              </button>
+              <a className="hp-featured-more" href="/media-mentions/">Read the coverage &rarr;</a>
+            </div>
           </div>
           <div style={{ textAlign: 'center' }}>
-            <span className="hp-section-label hp-animate hp-fade-up">WHAT WE TREAT</span>
             <h2 className="hp-section-title hp-animate hp-fade-up">
               <span ref={conditionCounter.ref} className="hp-counter-num">{conditionCounter.count}</span>+ conditions,{' '}
               <span style={{ whiteSpace: 'nowrap' }}>just <span ref={priceCountdown.ref} className="hp-counter-price">${priceCountdown.count.toLocaleString()}</span></span>
@@ -707,14 +714,13 @@ export default function HomepageClient() {
       {/* ===== SECTION 4: CONDITIONS ===== */}
       <section className="hp-conditions hp-section">
         <div className="hp-container">
-          <span className="hp-section-label hp-animate hp-fade-up">CONDITIONS WE TREAT</span>
           <h2 className="hp-section-title hp-animate hp-fade-up">Find care for what you need</h2>
         </div>
         <ConditionDriftRows items={HOMEPAGE_CONDITION_TILES} />
         <div className="hp-container">
           <div className="hp-conditions-actions hp-animate hp-fade-up">
             <a href="/what-we-treat/" className="hp-btn hp-btn-secondary hp-btn-sm">View All Conditions</a>
-            <a href="/book-online/" className="hp-btn hp-btn-primary hp-btn-sm">Book Now</a>
+            <a href="/book-online/" className="hp-btn hp-btn-primary hp-btn-sm">Book Your $79 Visit</a>
           </div>
         </div>
       </section>
@@ -723,7 +729,6 @@ export default function HomepageClient() {
       <section className="hp-insurance-logos hp-section-sm">
         <div className="hp-container">
           <div style={{ textAlign: 'center', marginBottom: '2rem' }}>
-            <span className="hp-section-label hp-animate hp-fade-up">INSURANCE ACCEPTED</span>
             <h2 className="hp-section-title hp-animate hp-fade-up">Now accepting major insurance</h2>
             <p className="hp-section-sub hp-animate hp-fade-up" style={{ maxWidth: '480px', margin: '0.75rem auto 0' }}>
               Aetna, Anthem Blue Cross Blue Shield, and UnitedHealthcare accepted in select states.
@@ -752,7 +757,6 @@ export default function HomepageClient() {
         <div className="hp-container">
           <div className="hp-doctor-inner">
             <div>
-              <span className="hp-section-label hp-doctor-label hp-animate hp-fade-up">YOUR PHYSICIAN</span>
               <h2 className="hp-doctor-name hp-animate hp-fade-up">Parth Bhavsar, MD</h2>
               <p className="hp-doctor-creds hp-animate hp-fade-up">Board-Certified Family Medicine &middot; Founder, TeleDirectMD</p>
               <p className="hp-doctor-bio hp-animate hp-fade-up">
@@ -764,7 +768,7 @@ export default function HomepageClient() {
               <p className="hp-doctor-npi hp-animate hp-fade-up">NPI: 1104323203</p>
               <div className="hp-doctor-actions hp-animate hp-fade-up">
                 <a href="/about/" className="hp-btn hp-btn-secondary hp-btn-sm">Read Full Bio</a>
-                <a href="/book-online/" className="hp-btn hp-btn-primary hp-btn-sm">Book a Visit</a>
+                <a href="/book-online/" className="hp-btn hp-btn-primary hp-btn-sm">Book Your $79 Visit</a>
               </div>
             </div>
             <div className="hp-doctor-photo-wrap hp-animate hp-slide-left">
@@ -797,7 +801,6 @@ export default function HomepageClient() {
         <div className="hp-container">
           <div className="hp-reviews-header">
             <div className="hp-reviews-header-left">
-              <span className="hp-section-label hp-animate hp-fade-up">PATIENT REVIEWS</span>
               <h2 className="hp-section-title hp-animate hp-fade-up">What our patients say</h2>
             </div>
             <div className="hp-reviews-nav hp-animate hp-fade-up">
@@ -847,7 +850,6 @@ export default function HomepageClient() {
       {/* ===== SECTION 9: STATE COVERAGE ===== */}
       <section className="hp-states hp-section">
         <div className="hp-container">
-          <span className="hp-section-label hp-animate hp-fade-up">COVERAGE</span>
           <h2 className="hp-section-title hp-animate hp-fade-up"><span ref={stateCounter.ref}>{stateCounter.count}</span>+ states licensed</h2>
           <p className="hp-section-subtitle hp-animate hp-fade-up">
             See a board-certified doctor from almost anywhere in the United States. Click a state to learn more.
@@ -902,7 +904,6 @@ export default function HomepageClient() {
       <section className="hp-contact hp-section-sm">
         <div className="hp-container">
           <div style={{ textAlign: 'center' }}>
-            <span className="hp-section-label hp-animate hp-fade-up">CONTACT US</span>
             <h2 className="hp-section-title hp-animate hp-fade-up">We&rsquo;re here to help</h2>
           </div>
           <div className="hp-contact-layout hp-animate hp-scale-in">
@@ -952,7 +953,7 @@ export default function HomepageClient() {
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
               </div>
               <div className="hp-contact-info">
-                <h4>Phone</h4>
+                <h3>Phone</h3>
                 <a href="tel:6789561855">678-956-1855</a>
               </div>
             </div>
@@ -961,7 +962,7 @@ export default function HomepageClient() {
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
               </div>
               <div className="hp-contact-info">
-                <h4>Email</h4>
+                <h3>Email</h3>
                 <a href="mailto:contact@teledirectmd.com">contact@teledirectmd.com</a>
               </div>
             </div>
@@ -970,7 +971,7 @@ export default function HomepageClient() {
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
               </div>
               <div className="hp-contact-info">
-                <h4>Response Time</h4>
+                <h3>Response Time</h3>
                 <p>24–48 business hours</p>
               </div>
             </div>

@@ -15,7 +15,7 @@ export default function SiteFooter() {
               Board-certified family medicine physician. $79 flat-fee virtual visits across 40+ states + D.C. Insurance accepted in select states. Employer plans available.
             </p>
             <p className="tdmd-footer-desc"><strong>We do not treat male UTIs.</strong> UTI care is limited to non-pregnant adult women (18+) with uncomplicated symptoms.</p>
-            <a href="/book-online/" className="tdmd-footer-cta">Book a Visit →</a>
+            <a href="/book-online/" className="tdmd-footer-cta">Book Your $79 Visit</a>
           </div>
 
           {/* Column 2: Patients */}
