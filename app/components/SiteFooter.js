@@ -21,7 +21,6 @@ export default function SiteFooter() {
           {/* Column 2: Patients */}
           <div className="tdmd-footer-col">
             <h4 className="tdmd-footer-heading">PATIENTS</h4>
-            <a href="/book-online/">Book Now</a>
             <a href="/what-we-treat/">What We Treat</a>
             <a href="/insurance/">Insurance & Pricing</a>
             <a href="/states-we-serve/">States We Serve</a>
@@ -126,17 +125,8 @@ export default function SiteFooter() {
         <div className="tdmd-footer-copyright">
           <span>© 2026 TeleDirectMD. All rights reserved.</span>
           <div className="tdmd-footer-legal-links">
-            <a href="/terms-of-service/">Terms</a>
-            <span className="tdmd-footer-dot">·</span>
-            <a href="/privacy-policy/">Privacy</a>
-            <span className="tdmd-footer-dot">·</span>
+            {/* Other legal links live in the Legal & Policies column; this one appears only here. */}
             <a href="/consumer-health-data-privacy/">Consumer Health Data</a>
-            <span className="tdmd-footer-dot">·</span>
-            <a href="/notice-of-privacy-practices/">HIPAA</a>
-            <span className="tdmd-footer-dot">·</span>
-            <a href="/telehealth-informed-consent.pdf">Consent</a>
-            <span className="tdmd-footer-dot">·</span>
-            <a href="/accessibility/">Accessibility</a>
           </div>
         </div>
       </footer>
