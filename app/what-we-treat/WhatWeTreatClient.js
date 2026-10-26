@@ -6,8 +6,8 @@ import './wwt-redesign.css';
 import { PRESCRIBING_POLICY, REFILL_POLICY, ED_REFILL_POLICY } from '../../lib/prescribing-policy';
 
 /* ── Config ──────────────────────────────────────────────────────────────── */
-/* Six states not yet available. Lowercase to match the SVG's <path class="XX"> */
-const NOT_COVERED = ['or', 'nm', 'ar', 'ny', 'ri', 'ma', 'wi', 'ks'];
+/* Seven states not yet available. Lowercase to match the SVG's <path class="XX"> */
+const NOT_COVERED = ['or', 'nm', 'ar', 'ri', 'ma', 'wi', 'ks'];
 // The counter animates up to 40 and then reads "40+": coverage copy is never
 // an exact count, so it stays true through each new state launch.
 const COVERED_STATE_COUNT = 40;
@@ -240,7 +240,7 @@ function ByTheNumbers({ totalConditions, stateCount }) {
             <h3>Coast to coast, corner to corner.</h3>
             <UsMap animate={!reduced} />
             <p className="wwt-foot">
-              Key West to Anchorage to Honolulu. Six states not yet available: OR, NM, AR, NY, RI, MA.
+              Key West to Anchorage to Honolulu. Seven states not yet available: AR, KS, MA, NM, OR, RI, WI.
             </p>
           </div>
         </div>

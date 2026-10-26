@@ -5,7 +5,7 @@ export default function FlightAttendantsPage() {
   const today = contentDate('whoWeServe');
 
   /* Accurate current footprint: 40+ states + DC (includes VA, VT, and DC per current licensing). */
-  const areaServed = ["AL","AK","AZ","CA","CO","CT","DC","DE","FL","GA","HI","ID","IL","IN","IA","KY","LA","ME","MD","MI","MN","MS","MO","MT","NE","NV","NH","NJ","NC","ND","OH","OK","PA","SC","SD","TN","TX","UT","VA","VT","WA","WV","WY"];
+  const areaServed = ["AL","AK","AZ","CA","CO","CT","DC","DE","FL","GA","HI","ID","IL","IN","IA","KY","LA","ME","MD","MI","MN","MS","MO","MT","NE","NV","NH","NJ","NY","NC","ND","OH","OK","PA","SC","SD","TN","TX","UT","VA","VT","WA","WV","WY"];
 
   /* ── Conditions to link — reframed for the cabin-crew reality ─────── */
   const conditions = [
