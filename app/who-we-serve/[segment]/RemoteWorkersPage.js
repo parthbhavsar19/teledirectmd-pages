@@ -36,7 +36,7 @@ export default function RemoteWorkersPage() {
     },
     {
       q: 'Do I need insurance to use TeleDirectMD?',
-      a: 'No. TeleDirectMD offers transparent cash-pay pricing starting at $79 per visit — no insurance required. You will know your cost before booking, with no hidden fees. We also accept insurance in select states. HSA and FSA cards are accepted. For remote workers without a local primary care physician — or those between insurance plans during a move — the flat-rate, self-pay model makes getting care straightforward regardless of your coverage situation.'
+      a: 'No. TeleDirectMD offers transparent cash-pay pricing: a flat $79 per visit — no insurance required. You will know your cost before booking, with no hidden fees. We also accept insurance in select states. HSA and FSA cards are accepted. For remote workers without a local primary care physician — or those between insurance plans during a move — the flat-rate, self-pay model makes getting care straightforward regardless of your coverage situation.'
     },
     {
       q: 'Can TeleDirectMD be my primary care doctor if I move frequently?',
@@ -114,7 +114,7 @@ export default function RemoteWorkersPage() {
         "@id": `${pageUrl}#webpage`,
         "url": pageUrl,
         "name": "Virtual Doctor for Remote Workers and Digital Nomads — TeleDirectMD",
-        "description": "TeleDirectMD provides telehealth for remote workers and digital nomads across 40+ states. See the same board-certified physician wherever you work. No local PCP required. Same-day visits, evenings & weekends. Starting at $79.",
+        "description": "TeleDirectMD provides telehealth for remote workers and digital nomads across 40+ states. See the same board-certified physician wherever you work. No local PCP required. Same-day visits, evenings & weekends. Flat $79.",
         "inLanguage": "en-US",
         "breadcrumb": { "@id": `${pageUrl}#breadcrumbs` },
         "author": { "@id": `${baseUrl}/about/#physician` },
@@ -163,14 +163,14 @@ export default function RemoteWorkersPage() {
               <h1>Virtual Doctor for Remote Workers and Digital Nomads</h1>
               <p className="tdmd-hero-sub">Board-certified physician in 40+ states. Same doctor, wherever you work. Same-day visits, evenings &amp; weekends.</p>
               <p>
-                More than 35 million Americans now work remotely full-time or the majority of their working hours — a share that has grown dramatically since 2020 and shows no sign of reversing. Remote workers and digital nomads face a structural problem that traditional healthcare never anticipated: their work takes them across cities, states, and sometimes countries, making a stable relationship with a local primary care physician nearly impossible to maintain. TeleDirectMD provides continuity of care across 40+ states with the same board-certified family medicine physician, starting at $79 per visit — no matter where your laptop is set up this week.
+                More than 35 million Americans now work remotely full-time or the majority of their working hours — a share that has grown dramatically since 2020 and shows no sign of reversing. Remote workers and digital nomads face a structural problem that traditional healthcare never anticipated: their work takes them across cities, states, and sometimes countries, making a stable relationship with a local primary care physician nearly impossible to maintain. TeleDirectMD provides continuity of care across 40+ states with the same board-certified family medicine physician, a flat $79, per visit — no matter where your laptop is set up this week.
               </p>
               <ul className="tdmd-hero-benefits">
                 <li>Board-certified family medicine physician — not a PA, not an NP, not an algorithm</li>
                 <li>Licensed in 40+ states — the same doctor follows you wherever you work</li>
                 <li>Same-day visits, evenings &amp; weekends — schedule around your remote work hours</li>
                 <li>Prescriptions sent to any pharmacy, anywhere in the U.S.</li>
-                <li>Transparent cash-pay pricing starting at $79 — no hidden fees</li>
+                <li>Transparent cash-pay pricing: a flat $79 — no hidden fees</li>
               </ul>
               <div className="tdmd-hero-ctas">
                 <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
@@ -191,7 +191,7 @@ export default function RemoteWorkersPage() {
                   <li>See a doctor from your home office, co-working space, or Airbnb — in 40+ states</li>
                   <li>No need to find a new local PCP every time you relocate or travel for work</li>
                   <li>Prescriptions sent to any pharmacy near your current location</li>
-                  <li>No insurance required — transparent cash-pay pricing starting at $79</li>
+                  <li>No insurance required — transparent cash-pay pricing: a flat $79</li>
                   <li>HIPAA-compliant, secure video visits from any device — no app download required</li>
                 </ul>
                 <p className="tdmd-hero-note">Works on any smartphone, tablet, or computer. No app required.</p>
@@ -395,7 +395,7 @@ export default function RemoteWorkersPage() {
         <div className="tdmd-container">
           <div className="tdmd-bottom-cta">
             <div className="tdmd-bottom-cta-copy">
-              <h3>Your doctor, wherever you work — same physician, 40+ states, starting at $79.</h3>
+              <h3>Your doctor, wherever you work — same physician, 40+ states, for a flat $79.</h3>
               <p>Request a same-day visit, connect with a board-certified family medicine physician by secure video, and get a prescription sent to the pharmacy nearest to wherever you're working today — no local PCP required.</p>
             </div>
             <div className="tdmd-bottom-cta-actions">

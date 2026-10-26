@@ -108,7 +108,7 @@ export default function StateLandingPage({ stateSlug }) {
         "url": pageUrl,
         "telephone": "+1-678-956-1855",
         "email": "contact@teledirectmd.com",
-        "description": `TeleDirectMD provides MD-only telehealth video visits in ${state.name} for ${conditionsLabel} adult conditions, starting at $79.${hasInsurance ? ' Select insurance plans accepted.' : ' No insurance required.'}`,
+        "description": `TeleDirectMD provides MD-only telehealth video visits in ${state.name} for ${conditionsLabel} adult conditions, for a flat $79 self-pay fee.${hasInsurance ? ' Select insurance plans accepted.' : ' No insurance required.'}`,
         "areaServed": {
           "@type": "AdministrativeArea",
           "name": state.name,
@@ -150,7 +150,7 @@ export default function StateLandingPage({ stateSlug }) {
         "@id": `${pageUrl}#webpage`,
         "url": pageUrl,
         "name": `Online Doctor in ${state.name} — TeleDirectMD`,
-        "description": `See an MD-only doctor online in ${state.name}. TeleDirectMD offers same-day video visits for ${conditionsLabel} adult conditions, starting at $79.`,
+        "description": `See an MD-only doctor online in ${state.name}. TeleDirectMD offers same-day video visits for ${conditionsLabel} adult conditions, for a flat $79.`,
         "inLanguage": "en-US",
         "breadcrumb": { "@id": `${pageUrl}#breadcrumbs` },
         "isPartOf": { "@id": `${baseUrl}/#website` },
@@ -337,7 +337,7 @@ export default function StateLandingPage({ stateSlug }) {
               <p className="cpr-hero-kicker">Telehealth &middot; {state.name}</p>
               <h1 data-speakable="true">Online Doctor in {state.name} — TeleDirectMD</h1>
               <p className="sub" data-speakable="true">
-                MD-only telehealth visits for {conditionsLabel} adult conditions. Same-day appointments, starting at $79{hasInsurance ? ' — select insurance plans accepted' : ' — no insurance required'}.
+                MD-only telehealth visits for {conditionsLabel} adult conditions. Same-day appointments, flat $79 self-pay{hasInsurance ? ' — select insurance plans accepted' : ' — no insurance required'}.
               </p>
 
               {/* INJECT 1: State hub uniqueness opener — renders only when stateTpl
@@ -434,7 +434,7 @@ export default function StateLandingPage({ stateSlug }) {
             Online doctor in {state.name}:
           </p>
           <p style={{ margin: '0.35rem 0 0', color: '#003E52', fontSize: '0.97rem' }}>
-            TeleDirectMD provides same-day video visits with a board-certified MD in {state.name} for {conditionsLabel} adult conditions — starting at $79, no insurance required{hasInsurance ? `, though select plans are accepted in ${state.name}` : ''}. Book online, see a licensed physician via secure video, and get a prescription sent directly to your local {state.name} pharmacy.
+            TeleDirectMD provides same-day video visits with a board-certified MD in {state.name} for {conditionsLabel} adult conditions for a flat $79 self-pay fee, no insurance required{hasInsurance ? `, though select plans are accepted in ${state.name}` : ''}. Book online, see a licensed physician via secure video, and get a prescription sent directly to your local {state.name} pharmacy.
           </p>
         </div>
       </div>
@@ -678,7 +678,7 @@ export default function StateLandingPage({ stateSlug }) {
           <div className="tdmd-bottom-cta" role="region" aria-label="Book a visit call to action">
             <div className="tdmd-bottom-cta-copy">
               <h3>Ready to see a doctor in {state.name}?</h3>
-              <p>Book a same-day video visit with a licensed MD. Starting at $79{hasInsurance ? ', select insurance accepted' : ', no insurance required'}.</p>
+              <p>Book a same-day video visit with a licensed MD. Flat $79 self-pay{hasInsurance ? ', select insurance accepted' : ', no insurance required'}.</p>
             </div>
             <div className="tdmd-bottom-cta-actions">
               <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>

@@ -42,7 +42,7 @@ export default function TruckDriversPage() {
     },
     {
       q: 'Do I need insurance to use TeleDirectMD?',
-      a: 'No. TeleDirectMD offers transparent cash-pay pricing starting at $79 per visit. Insurance is not required. We also accept select insurance plans in some states. You will know your cost upfront before booking — no hidden fees.'
+      a: 'No. TeleDirectMD offers transparent cash-pay pricing: a flat $79 per visit. Insurance is not required. We also accept select insurance plans in some states. You will know your cost upfront before booking — no hidden fees.'
     },
     {
       q: 'Can you send prescriptions to a pharmacy along my route?',
@@ -175,7 +175,7 @@ export default function TruckDriversPage() {
                 <li>Board-certified physician — not a PA, not an NP, not an algorithm</li>
                 <li>Licensed in 40+ states — covers interstate routes coast to coast</li>
                 <li>Prescriptions sent to any pharmacy on your route</li>
-                <li>Transparent cash-pay pricing starting at $79</li>
+                <li>Transparent cash-pay pricing: a flat $79</li>
               </ul>
               <div className="tdmd-hero-ctas">
                 <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>

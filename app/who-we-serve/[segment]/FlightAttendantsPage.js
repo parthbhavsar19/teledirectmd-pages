@@ -120,7 +120,7 @@ export default function FlightAttendantsPage() {
         "@id": `${pageUrl}#webpage`,
         "url": pageUrl,
         "name": "Telehealth for Flight Attendants: See a Doctor on Your Layover",
-        "description": "TeleDirectMD provides telehealth for flight attendants and cabin crew across 40+ states plus D.C. \u2014 UTIs (women only), sinus and ear issues, prescription refills, women's health, and travel medicine, treated by a board-certified physician from your layover hotel. Not for FAA certificates or in-flight emergencies. Same-day visits, evenings & weekends. Starting at $79.",
+        "description": "TeleDirectMD provides telehealth for flight attendants and cabin crew across 40+ states plus D.C. \u2014 UTIs (women only), sinus and ear issues, prescription refills, women's health, and travel medicine, treated by a board-certified physician from your layover hotel. Not for FAA certificates or in-flight emergencies. Same-day visits, evenings & weekends. Flat $79.",
         "inLanguage": "en-US",
         "breadcrumb": { "@id": `${pageUrl}#breadcrumbs` },
         "author": { "@id": `${baseUrl}/about/#physician` },

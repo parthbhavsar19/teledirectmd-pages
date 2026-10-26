@@ -32,7 +32,7 @@ export default function GigWorkersPage() {
   const faqItems = [
     {
       q: 'Do I need health insurance to use TeleDirectMD?',
-      a: 'No. TeleDirectMD offers transparent cash-pay pricing starting at $79 per visit — no insurance required. Gig workers are uninsured at roughly three times the rate of traditionally employed Americans, and TeleDirectMD was built to serve patients exactly like you. We also accept select insurance plans in some states. You will know your cost upfront before booking — no hidden fees.'
+      a: 'No. TeleDirectMD offers transparent cash-pay pricing: a flat $79 per visit — no insurance required. Gig workers are uninsured at roughly three times the rate of traditionally employed Americans, and TeleDirectMD was built to serve patients exactly like you. We also accept select insurance plans in some states. You will know your cost upfront before booking — no hidden fees.'
     },
     {
       q: 'How much does a telehealth visit cost without insurance?',
@@ -118,7 +118,7 @@ export default function GigWorkersPage() {
         "@id": `${pageUrl}#webpage`,
         "url": pageUrl,
         "name": "Telehealth for Gig Workers, Delivery Drivers & Freelancers — Healthcare Without a 9-to-5",
-        "description": "TeleDirectMD offers telehealth for gig workers, Uber/Lyft drivers, DoorDash couriers, and freelancers across 40+ states. No insurance required. Same-day visits, evenings & weekends. Starting at $79.",
+        "description": "TeleDirectMD offers telehealth for gig workers, Uber/Lyft drivers, DoorDash couriers, and freelancers across 40+ states. No insurance required. Same-day visits, evenings & weekends. Flat $79.",
         "inLanguage": "en-US",
         "breadcrumb": { "@id": `${pageUrl}#breadcrumbs` },
         "author": { "@id": `${baseUrl}/about/#physician` },
@@ -167,14 +167,14 @@ export default function GigWorkersPage() {
               <h1>Telehealth for Gig Workers, Delivery Drivers &amp; Freelancers — Healthcare Without a 9-to-5</h1>
               <p className="tdmd-hero-sub">Licensed physician in 40+ states. No insurance required. Same-day visits, evenings &amp; weekends.</p>
               <p>
-                76 million Americans now work as freelancers — 36% of the U.S. workforce. Gig workers are uninsured at three times the rate of average Americans (35% vs. 10.5%). With ACA enhanced subsidies expiring in 2026, premiums more than doubled for many marketplace enrollees. TeleDirectMD offers transparent cash-pay pricing starting at $79, same-day availability including evenings and weekends, and coverage across 40+ states — built for workers whose schedules and income don't fit the traditional healthcare model.
+                76 million Americans now work as freelancers — 36% of the U.S. workforce. Gig workers are uninsured at three times the rate of average Americans (35% vs. 10.5%). With ACA enhanced subsidies expiring in 2026, premiums more than doubled for many marketplace enrollees. TeleDirectMD offers transparent cash-pay pricing (a flat $79), same-day availability including evenings and weekends, and coverage across 40+ states — built for workers whose schedules and income don't fit the traditional healthcare model.
               </p>
               <ul className="tdmd-hero-benefits">
                 <li>Board-certified physician — not a PA, not an NP, not an algorithm</li>
                 <li>Licensed in 40+ states — follows you wherever your work takes you</li>
                 <li>No scheduling conflicts — same-day visits, evenings &amp; weekends</li>
                 <li>Prescriptions sent to any pharmacy near you</li>
-                <li>Transparent cash-pay pricing starting at $79</li>
+                <li>Transparent cash-pay pricing: a flat $79</li>
               </ul>
               <div className="tdmd-hero-ctas">
                 <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
@@ -194,7 +194,7 @@ export default function GigWorkersPage() {
                 <ul>
                   <li>See a doctor from your car, home, or wherever you work in 40+ states</li>
                   <li>Get prescriptions sent to any pharmacy near you — including 24-hour locations</li>
-                  <li>No insurance required — transparent cash-pay pricing starting at $79</li>
+                  <li>No insurance required — transparent cash-pay pricing: a flat $79</li>
                   <li>No scheduling conflicts — same-day visits, evenings &amp; weekends</li>
                   <li>HIPAA-compliant, secure video visits from your phone</li>
                 </ul>
