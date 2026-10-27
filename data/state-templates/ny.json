@@ -129,7 +129,43 @@
       {
         "label": "U.S. Census Bureau QuickFacts, New York (Vintage 2025 estimate)",
         "url": "https://www.census.gov/quickfacts/fact/table/NY/PST045225"
-      }
+      },
+        {
+          "label": "CDC MMWR, Trichophyton indotineae in New York City, May 12, 2023",
+          "url": "https://www.cdc.gov/mmwr/volumes/72/wr/mm7219a4.htm"
+        },
+        {
+          "label": "CDC MMWR, Trichophyton mentagrophytes genotype VII in New York City, October 31, 2024",
+          "url": "https://www.cdc.gov/mmwr/volumes/73/wr/mm7343a5.htm"
+        },
+        {
+          "label": "NYS Department of Health, BRFSS Brief 2025-01, High Blood Pressure",
+          "url": "https://www.health.ny.gov/statistics/brfss/reports/docs/2025-01_brfss_high_blood_pressure.pdf"
+        },
+        {
+          "label": "NYC Health Department, Choose less sodium (chain restaurant sodium warning)",
+          "url": "https://www.nyc.gov/site/doh/health/health-topics/heart-disease-choose-less-sodium.page"
+        },
+        {
+          "label": "NYS Department of Health, Rabies fact sheet",
+          "url": "https://www.health.ny.gov/diseases/communicable/rabies/fact_sheet"
+        },
+        {
+          "label": "NYS Department of Health, Preventing exposure to rabies, June 17, 2026",
+          "url": "https://www.health.ny.gov/press/releases/2026/2026-06-17_preventing_exposure_to_rabies.htm"
+        },
+        {
+          "label": "NYS Department of Health, Expedited Partner Therapy",
+          "url": "https://www.health.ny.gov/diseases/communicable/std/ept/general_info.htm"
+        },
+        {
+          "label": "NYC Health Department, Sexual Health Clinics",
+          "url": "https://www.nyc.gov/site/doh/services/sexual-health-clinics.page"
+        },
+        {
+          "label": "Schillinger JA et al., HSV-2 in New York City adults, Sex Transm Dis 2008;35(6):599-606",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/18418295/"
+        }
     ]
   },
   "stateCompliance": {
@@ -267,6 +303,24 @@
     },
     "yeast-infection-treatment-online": {
       "stateConditionParagraph": "Yeast infection is the most-searched condition in TeleDirectMD's catalog in New York, about 44,000 searches a month across related terms. For adult women in New York with typical symptoms and no red flags, a video visit can confirm whether the picture fits a yeast infection or something that looks similar, such as bacterial vaginosis or trichomoniasis, and send treatment to a New York pharmacy when appropriate. Recurrent infections or pregnancy change the plan and are discussed during the visit. Flat $79."
+    },
+    "tinea-treatment-online": {
+      "stateConditionParagraph": "Most ringworm, athlete's foot and jock itch still clears with standard antifungal treatment, but New York City is where the first U.S. cases of Trichophyton indotineae were found, including a patient with no recent travel, which points to local spread (CDC MMWR, May 2023). That strain is frequently resistant to terbinafine. In 2024 the CDC also reported a sexually transmitted ringworm strain, T. mentagrophytes genotype VII, in four New York City men. If a rash keeps spreading or comes back after a full course of treatment, it needs a fungal culture rather than another round of the same cream. Flat $79 for adults physically in New York."
+    },
+    "hypertension-refills-online": {
+      "stateConditionParagraph": "About 5 million adults in New York State, 32.1 percent, have been told they have high blood pressure, and 77 percent of them take medicine for it. Among adults without health coverage, only 40.7 percent do (NYS Department of Health, BRFSS Brief 2025-01, 2023 data). A gap in refills is one of the ways blood pressure control slips. A video visit for adults physically in New York can review your home readings, renew a stable regimen and send it electronically to the pharmacy you choose, at a flat $79 with no insurance needed. New York City also requires chain restaurants to flag menu items with 2,300 mg of sodium or more, the first U.S. city to do so."
+    },
+    "cat-bite-treatment-online": {
+      "stateConditionParagraph": "Cat bites carry a higher infection risk than most people expect, and in New York they also raise a rabies question. The state Department of Health reports that among domestic animals, cats are the ones most often diagnosed with rabies in New York, rabid animals have been found in every county, and the Wadsworth Center confirmed rabies in 313 animals in 2025. The Department advises reporting every animal bite to your county health department, which arranges a 10-day observation of a healthy cat and helps decide whether rabies treatment is needed; in New York City, report through 311. A video visit for adults physically in New York covers wound care, antibiotics when appropriate and that rabies decision. Flat $79."
+    },
+    "trichomoniasis-treatment-online": {
+      "stateConditionParagraph": "Since January 1, 2020, New York's expedited partner therapy law, Public Health Law Section 2312, has covered sexually transmitted infections for which the CDC recommends expedited treatment, and the state Department of Health lists trichomoniasis alongside chlamydia and gonorrhea. Before that change, New York allowed it for chlamydia only. It lets a clinician provide treatment for a patient's sex partner without a separate exam; whether it fits your situation is decided during the visit. A video visit for adults physically in New York can prescribe treatment when appropriate, send it electronically to the pharmacy you choose and plan retesting. Flat $79, discreet."
+    },
+    "bv-treatment-online": {
+      "stateConditionParagraph": "Bacterial vaginosis is the most common cause of vaginal discharge in women of reproductive age, and it often comes back. In New York City, the Health Department's Sexual Health Clinics now offer partner treatment for BV: a male partner of someone diagnosed with BV can walk into any of the clinics for care, at low or no cost, regardless of immigration status. A video visit for adult women physically in New York can evaluate symptoms, prescribe treatment when appropriate and send it electronically to the pharmacy you choose, with a plan for recurrence. Flat $79, discreet."
+    },
+    "genital-herpes-treatment-online": {
+      "stateConditionParagraph": "Genital herpes is far more common than most people realize. In a New York City blood-test survey, nearly 28 percent of adults had HSV-2, and 88.4 percent of them did not know it (NYC Health and Nutrition Examination Survey, 2004 data, published in Sexually Transmitted Diseases, 2008). That is why a first outbreak often comes as a surprise. A video visit for adults physically in New York can assess a first or recurrent outbreak, prescribe antiviral treatment or suppressive therapy when appropriate and send it electronically to the pharmacy you choose. Flat $79, discreet."
     }
   },
   "stateLegalLayer": {
