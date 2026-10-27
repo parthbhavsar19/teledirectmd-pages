@@ -331,6 +331,9 @@ export default function StateLandingPage({ stateSlug }) {
              navy background — same visual language as the hcard, no restyle needed. */
           ${cprDarkCSS}
         `}</style>
+        {stateTpl && stateTpl.stateInsurance && stateTpl.stateInsurance.mode === 'self-pay-only' && (
+          <style>{`.tdmd-mobile-sticky-bar .tdmd-sticky-bar-text span{font-size:0;}.tdmd-mobile-sticky-bar .tdmd-sticky-bar-text span::after{content:"Self-pay only in ${state.name}";font-size:0.82rem;}`}</style>
+        )}
         <section className="cpr-hero" id={`${pid}-hero`}>
           <div className="cpr-hero-wrap cpr-hero-grid">
             <div>
