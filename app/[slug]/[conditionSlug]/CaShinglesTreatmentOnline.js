@@ -549,12 +549,6 @@ export default function CaShinglesTreatmentOnline() {
                     <td><a href="https://www.goodrx.com/famciclovir" target="_blank" rel="noopener">~$30–$50 generic with GoodRx</a></td>
                     <td>Third first-line antiviral per CDC/AAD. Equivalent clinical efficacy to valacyclovir. Three-times daily dosing.</td>
                   </tr>
-                  <tr>
-                    <td><strong>Gabapentin 300 mg (for postherpetic neuralgia prevention)</strong></td>
-                    <td>300 mg three times daily — dose titrated by physician</td>
-                    <td><a href="https://www.goodrx.com/gabapentin" target="_blank" rel="noopener">~$15–$25 generic with GoodRx</a></td>
-                    <td>May be prescribed for pain management and postherpetic neuralgia risk reduction — discussion at visit. Gabapentin is not a controlled substance in California (unlike some other states).</td>
-                  </tr>
                 </tbody>
               </table>
             </div>

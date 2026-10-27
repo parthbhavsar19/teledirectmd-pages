@@ -410,7 +410,7 @@
       },
       {
         "title": "Urate-lowering therapy discussion",
-        "text": "For patients with recurrent flares (2 or more per year), tophaceous gout, or chronic kidney disease with hyperuricemia, the ACR 2020 guidelines strongly recommend urate-lowering therapy (ULT) to reduce serum urate below 6 mg/dL. Allopurinol is the preferred first-line agent, started at 100 mg daily and titrated gradually. TeleDirectMD can discuss whether ULT may be appropriate and recommend follow-up with primary care or rheumatology for initiation and monitoring."
+        "text": "For patients with recurrent flares (2 or more per year), tophaceous gout, or chronic kidney disease with hyperuricemia, the ACR 2020 guidelines strongly recommend urate-lowering therapy (ULT) to reduce serum urate below 6 mg/dL. TeleDirectMD treats the acute flare and does not start or refill urate-lowering therapy (allopurinol or febuxostat), because starting and titrating it requires serum urate and kidney function monitoring that belongs with primary care or rheumatology. The physician will tell you whether ULT should be discussed with your regular clinician."
       },
       {
         "title": "Lifestyle modifications",
@@ -458,21 +458,12 @@
         "30 to 40 mg by mouth daily",
         "5 days (taper optional per ACR guidelines)",
         "Preferred when NSAIDs and colchicine are contraindicated. Useful in patients with chronic kidney disease or GI intolerance. Monitor blood glucose in diabetic patients."
-      ],
-      [
-        "Allopurinol (urate-lowering therapy)",
-        "Starting dose 100 mg daily, titrated to target serum urate below 6 mg/dL",
-        "Long-term (indefinite)",
-        "First-line urate-lowering agent per ACR 2020. HLA-B*5801 testing recommended before starting in Southeast Asian and African American patients. Requires lab monitoring. Can be started during an acute flare per ACR 2020 update. TeleDirectMD may discuss but typically refers for initiation and titration."
-      ],
-      [
-        "Febuxostat (urate-lowering therapy)",
-        "40 mg daily",
-        "Long-term (indefinite)",
-        "Alternative when allopurinol is contraindicated or not tolerated. FDA boxed warning regarding cardiovascular risk. Requires lab monitoring. TeleDirectMD may discuss but typically refers for initiation."
       ]
     ],
-    "note": "Example regimens only. The actual medication, dosing, and duration are determined by the MD after reviewing your symptoms, kidney function, medication interactions, allergies, and red flags. TeleDirectMD does not prescribe controlled substances."
+    "note": "Example regimens only. The actual medication, dosing, and duration are determined by the MD after reviewing your symptoms, kidney function, medication interactions, allergies, and red flags. TeleDirectMD does not prescribe controlled substances.",
+    "notPrescribed": [
+      "Allopurinol and febuxostat (urate-lowering therapy): not started or refilled by TeleDirectMD; referred to primary care or rheumatology."
+    ]
   },
   "homeCare": {
     "sectionTitle": "Home Care, Recovery Timeline, Prevention, and Follow-up",
@@ -570,7 +561,7 @@
       },
       {
         "question": "Should I start allopurinol during a gout flare?",
-        "answer": "The ACR 2020 guidelines state that urate-lowering therapy such as allopurinol can be started during an acute flare. Previously, guidelines recommended waiting until the flare resolved. Starting during a flare is acceptable as long as appropriate anti-inflammatory treatment is also provided. However, initiation and dose titration typically require lab monitoring and are best managed by your primary care provider or rheumatologist."
+        "answer": "The ACR 2020 guidelines state that urate-lowering therapy such as allopurinol can be started during an acute flare as long as anti-inflammatory treatment is also given. TeleDirectMD does not start or refill allopurinol or febuxostat; initiation, dose titration, and the lab monitoring they need are managed by your primary care provider or rheumatologist. The video visit treats the flare itself."
       },
       {
         "question": "What foods should I avoid to prevent gout flares?",
@@ -594,7 +585,7 @@
       },
       {
         "question": "Can TeleDirectMD start me on allopurinol during a gout flare in {state}?",
-        "answer": "Starting urate-lowering therapy like allopurinol during an active flare isn't the typical first step — it's usually started after the flare resolves, since starting it acutely can sometimes prolong the attack. The MD can discuss long-term prevention once your current flare is under control."
+        "answer": "No. TeleDirectMD treats the acute flare (colchicine, an NSAID, or a short prednisone course when appropriate) and does not start or refill urate-lowering therapy such as allopurinol or febuxostat. If you have 2 or more flares a year, tophi, or kidney disease, the physician will recommend that your primary care provider or a rheumatologist start and monitor preventive treatment."
       }
     ],
     "bottomCta": {
@@ -775,15 +766,11 @@
       {
         "name": "Prednisone",
         "id": "prednisone"
-      },
-      {
-        "name": "Allopurinol",
-        "id": "allopurinol"
       }
     ],
     "treatments": [
       "Anti-inflammatory therapy for acute flares (colchicine, NSAIDs, corticosteroids)",
-      "Urate-lowering therapy for recurrent disease (allopurinol, febuxostat)",
+      "Referral to primary care or rheumatology for urate-lowering therapy",
       "Lifestyle modification and dietary changes",
       "Urgent in-person evaluation for first episode or suspected septic arthritis"
     ],

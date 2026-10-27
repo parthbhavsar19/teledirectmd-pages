@@ -491,9 +491,21 @@
         "Ibuprofen 400 to 600 mg every 6 to 8 hours or acetaminophen 500 to 1000 mg every 6 hours",
         "As needed during acute infection",
         "Over-the-counter pain and inflammation relief. Not antibiotics. Follow package directions and avoid exceeding maximum daily dose."
+      ],
+      [
+        "Dicloxacillin",
+        "500 mg by mouth four times daily",
+        "5 to 7 days",
+        "FDA-approved for staphylococcal skin infections; IDSA 2014 option for non-purulent cellulitis in patients without penicillin allergy. Take on an empty stomach."
       ]
     ],
-    "note": "Example regimens only. The actual medication, dosing, and duration are determined by the MD after reviewing your photos, symptoms, risk factors, allergies, medical history, and red flags. A minimum 5-day course is typical, with extension if not improving. TeleDirectMD does not prescribe controlled substances."
+    "note": "Example regimens only. The actual medication, dosing, and duration are determined by the MD after reviewing your photos, symptoms, risk factors, allergies, medical history, and red flags. A minimum 5-day course is typical, with extension if not improving. TeleDirectMD does not prescribe controlled substances.",
+    "fdaNotes": [
+      "Trimethoprim-sulfamethoxazole (TMP-SMX DS, Bactrim DS), Rx only, has not been approved by the FDA as safe and effective to treat cellulitis and skin abscess; the Infectious Diseases Society of America 2014 guideline recommends it when community-acquired MRSA is suspected. Only a licensed physician may prescribe this medication for this condition if, in his clinical judgment, use is medically appropriate. You are encouraged to report negative side effects of prescription drugs to the FDA at www.fda.gov/medwatch or 1-800-FDA-1088."
+    ],
+    "notPrescribed": [
+      "IV or IM antibiotics, and surgical drainage of abscesses, which need in-person care."
+    ]
   },
   "homeCare": {
     "sectionTitle": "Home Care, Recovery Timeline, Prevention, and Follow-up",

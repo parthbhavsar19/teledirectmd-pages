@@ -400,7 +400,7 @@
       },
       {
         "title": "Steroid-sparing options",
-        "text": "Topical calcineurin inhibitors (TCIs) such as tacrolimus ointment and pimecrolimus cream are steroid-sparing alternatives particularly useful for the face, eyelids, and skin folds where long-term TCS use is less ideal. Crisaborole, a topical PDE4 inhibitor, is another non-steroidal option for mild to moderate eczema. These agents can also be used for proactive maintenance therapy."
+        "text": "Topical calcineurin inhibitors (TCIs) such as tacrolimus ointment and pimecrolimus cream are steroid-sparing alternatives particularly useful for the face, eyelids, and skin folds where long-term TCS use is less ideal. These agents can also be used for proactive maintenance therapy."
       },
       {
         "title": "Trigger avoidance and adjunctive care",
@@ -450,19 +450,16 @@
         "Prescription. Steroid-sparing alternative. May cause mild burning initially. Good option when steroid use is a concern."
       ],
       [
-        "Crisaborole 2% ointment (PDE4 inhibitor)",
-        "Mild to moderate eczema in adults",
-        "Apply thin layer to affected area twice daily",
-        "Prescription. Non-steroidal topical anti-inflammatory. May cause application site burning or stinging."
-      ],
-      [
         "Hydroxyzine 25 mg (antihistamine)",
         "Nighttime itch and sleep disruption from eczema",
         "Take by mouth at bedtime as directed",
         "Prescription. Sedating antihistamine that may help with itch-related sleep disruption. Not for daytime use due to drowsiness."
       ]
     ],
-    "note": "Example regimens only. The actual medication, potency, and treatment plan are determined by the MD after reviewing your rash, flare history, affected areas, prior treatments, and red flags. TeleDirectMD does not prescribe controlled substances."
+    "note": "Example regimens only. The actual medication, potency, and treatment plan are determined by the MD after reviewing your rash, flare history, affected areas, prior treatments, and red flags. TeleDirectMD does not prescribe controlled substances.",
+    "notPrescribed": [
+      "Crisaborole (Eucrisa) and dupilumab (Dupixent): not prescribed by TeleDirectMD; biologic therapy needs in-person specialty evaluation."
+    ]
   },
   "homeCare": {
     "sectionTitle": "Home Care, Flare Prevention, and Follow-up",
@@ -755,10 +752,6 @@
       {
         "name": "Pimecrolimus",
         "id": "pimecrolimus"
-      },
-      {
-        "name": "Crisaborole",
-        "id": "crisaborole"
       }
     ],
     "treatments": [

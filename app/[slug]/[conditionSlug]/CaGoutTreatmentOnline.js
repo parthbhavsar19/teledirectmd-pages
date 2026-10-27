@@ -143,7 +143,7 @@ const FAQ_ITEMS = [
     question: 'Should I take urate-lowering therapy (allopurinol) for gout prevention?',
     answer: (
       <p>
-        For patients with recurrent gout flares (2 or more per year), tophi, chronic kidney disease, or kidney stones, the ACR 2020 guideline recommends urate-lowering therapy (ULT) — typically allopurinol — as prophylaxis to prevent flares and joint damage. Allopurinol should not be started during an acute flare. TeleDirectMD can discuss ULT initiation as part of ongoing gout management; referral to a rheumatologist or primary care physician for long-term management is recommended for patients on ULT.
+        For patients with recurrent gout flares (2 or more per year), tophi, chronic kidney disease, or kidney stones, the ACR 2020 guideline recommends urate-lowering therapy (ULT), typically allopurinol, to prevent flares and joint damage. TeleDirectMD treats the acute flare and does not start or refill allopurinol or febuxostat, because initiation and dose titration require serum urate and kidney function monitoring that belongs with your primary care physician or a rheumatologist. The physician will tell you whether to pursue ULT with your regular clinician.
       </p>
     ),
   },

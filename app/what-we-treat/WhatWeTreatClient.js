@@ -450,6 +450,10 @@ export default function WhatWeTreatClient({ categories, conditionDescriptions, s
               <p>We do not prescribe Schedule II–V medications by telehealth. That line does not move.</p>
             </div>
             <div className="wwt-scope-item">
+              <h3>A published do-not-prescribe list</h3>
+              <p>Every condition page names the medications we do not prescribe for it, and FDA labeling notes mark any off-label use. Asking for a medication on that list ends the booking before a visit is scheduled, with no charge. <a href="/faq/#conditions">See the full list</a>.</p>
+            </div>
+            <div className="wwt-scope-item">
               <h3>Adults 18 and older</h3>
               <p>TeleDirectMD treats adults. Anything outside our scope gets referred out rather than stretched to fit.</p>
             </div>

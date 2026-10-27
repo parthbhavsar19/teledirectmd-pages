@@ -544,12 +544,6 @@ export default function CaViralGastroenteritisTreatmentOnline() {
                     <td>Available OTC ~$5–$10</td>
                     <td>For symptomatic diarrhea relief only. Avoid if blood in stool, fever &gt;38.5°C, or suspected invasive bacterial diarrhea — can worsen those conditions.</td>
                   </tr>
-                  <tr>
-                    <td><strong>Promethazine 12.5 mg</strong></td>
-                    <td>12.5–25 mg every 4–6 hours as needed for nausea</td>
-                    <td><a href="https://www.goodrx.com/promethazine" target="_blank" rel="noopener">~$10–$18 generic with GoodRx</a></td>
-                    <td>Alternative antiemetic. May cause sedation. Do not use in patients with respiratory conditions. Second-line to ondansetron.</td>
-                  </tr>
                 </tbody>
               </table>
             </div>

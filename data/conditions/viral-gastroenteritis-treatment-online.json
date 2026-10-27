@@ -462,15 +462,12 @@
         "As tolerated — sip frequently in small amounts if vomiting, 200 to 400 mL after each loose stool if tolerated",
         "Fluid and electrolyte replacement to prevent or treat mild dehydration",
         "Commercial ORS products containing glucose and electrolytes are superior to sports drinks for replacing GI losses. Recommended by the NIDDK for older adults and adults with severe diarrhea or dehydration symptoms."
-      ],
-      [
-        "Promethazine (Phenergan) — prescription, not routinely preferred",
-        "12.5 to 25 mg every 4 to 6 hours as needed",
-        "Nausea and vomiting in adults when ondansetron is not suitable",
-        "Less preferred than ondansetron due to sedation and anticholinergic side effects. TeleDirectMD does not prescribe controlled substances; promethazine is not a controlled substance but is used selectively."
       ]
     ],
-    "note": "Example regimens only. The actual medication, dosing, and appropriateness are determined by the MD after reviewing your symptoms, stool character, fever, fluid status, drug interactions, and medical history. Antibiotics are not appropriate for viral gastroenteritis and are not prescribed. TeleDirectMD does not prescribe controlled substances."
+    "note": "Example regimens only. The actual medication, dosing, and appropriateness are determined by the MD after reviewing your symptoms, stool character, fever, fluid status, drug interactions, and medical history. Antibiotics are not appropriate for viral gastroenteritis and are not prescribed. TeleDirectMD does not prescribe controlled substances.",
+    "notPrescribed": [
+      "Promethazine: not prescribed by TeleDirectMD (ondansetron is the antiemetic offered)."
+    ]
   },
   "homeCare": {
     "sectionTitle": "Home Care, Recovery Timeline, and Follow-up",

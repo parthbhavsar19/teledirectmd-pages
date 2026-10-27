@@ -406,7 +406,7 @@
       },
       {
         "title": "Combination therapy and severe cases",
-        "text": "For patients with severe motion sickness not controlled by a single agent, combination therapy may be considered. A scopolamine patch plus an oral antihistamine can provide additional benefit for highly susceptible individuals on extended voyages. Promethazine is a prescription alternative for severe cases but causes significant sedation. Ondansetron may help with acute nausea but is less effective for prevention than anticholinergic and antihistamine options."
+        "text": "For patients with severe motion sickness not controlled by a single agent, combination therapy may be considered. A scopolamine patch plus an oral antihistamine can provide additional benefit for highly susceptible individuals on extended voyages. Ondansetron may help with acute nausea but is less effective for prevention than anticholinergic and antihistamine options."
       }
     ],
     "doesNotManage": [
@@ -445,19 +445,16 @@
         "Available over the counter. More sedating than meclizine. Original formula is effective; non-drowsy Dramamine (meclizine) is a different medication."
       ],
       [
-        "Promethazine",
-        "25 mg by mouth 30 to 60 minutes before travel, then every 12 hours",
-        "Duration of travel exposure",
-        "Prescription option for severe motion sickness. Most sedating option. Not a controlled substance. Black box warning for respiratory depression in children under 2. Not recommended for elderly."
-      ],
-      [
         "Ondansetron (Zofran)",
         "4 to 8 mg by mouth or sublingual as needed",
         "Every 8 hours as needed for acute nausea",
         "Prescription anti-nausea medication. Better for treating acute nausea than preventing motion sickness. Does not cause sedation. Can be useful as add-on therapy for breakthrough nausea."
       ]
     ],
-    "note": "Example regimens only. The actual medication, dosing, and duration are determined by the MD after reviewing your travel plans, medical history, and risk factors. Prevention started before travel is significantly more effective than treatment after symptoms begin. Non-sedating antihistamines (loratadine, cetirizine) are NOT effective for motion sickness. TeleDirectMD does not prescribe controlled substances."
+    "note": "Example regimens only. The actual medication, dosing, and duration are determined by the MD after reviewing your travel plans, medical history, and risk factors. Prevention started before travel is significantly more effective than treatment after symptoms begin. Non-sedating antihistamines (loratadine, cetirizine) are NOT effective for motion sickness. TeleDirectMD does not prescribe controlled substances.",
+    "notPrescribed": [
+      "Promethazine: not prescribed by TeleDirectMD."
+    ]
   },
   "homeCare": {
     "sectionTitle": "Home Care, Travel Preparation, Prevention, and Follow-up",
@@ -583,7 +580,7 @@
       },
       {
         "question": "What if I already feel motion sick — can medication still help?",
-        "answer": "Prevention started before travel is significantly more effective than treating symptoms after they begin. Once motion sickness symptoms have started, oral medications may be difficult to keep down due to nausea and vomiting. Ondansetron (sublingual formulation) or rectal promethazine can help with acute symptoms when oral intake is not possible. For your next trip, starting prevention medication before departure will provide much better results."
+        "answer": "Prevention started before travel is significantly more effective than treating symptoms after they begin. Once motion sickness symptoms have started, oral medications may be difficult to keep down due to nausea and vomiting. Ondansetron (dissolving tablet) can help with acute symptoms when oral intake is not possible. For your next trip, starting prevention medication before departure will provide much better results."
       },
       {
         "question": "Is my dizziness motion sickness or something else?",

@@ -454,21 +454,13 @@
         "Ezetimibe 10 mg",
         "Add-on to statin therapy for additional LDL lowering, or monotherapy for statin-intolerant patients",
         "Reduces LDL by an additional 15 to 20 percent. Generally well tolerated. Can be combined with any statin. Not a controlled substance."
-      ],
-      [
-        "Bempedoic acid",
-        "Bempedoic acid 180 mg (Nexletol), bempedoic acid/ezetimibe (Nexlizet)",
-        "Alternative for statin-intolerant patients or add-on when statin plus ezetimibe is insufficient",
-        "ACL inhibitor that works in the liver, not muscle, so less myalgia risk. Can increase uric acid. Usually managed by primary care or cardiology. Not a controlled substance."
-      ],
-      [
-        "Omega-3 fatty acid (prescription)",
-        "Icosapent ethyl 2 g twice daily (Vascepa)",
-        "Elevated triglycerides in patients already on statin therapy with ASCVD or high triglycerides",
-        "REDUCE-IT trial showed cardiovascular benefit. Different from OTC fish oil supplements. Usually initiated by primary care or cardiology. Not a controlled substance."
       ]
     ],
-    "note": "Medication selection and dosing are individualized by the MD after reviewing your lipid levels, cardiovascular risk, current regimen, side effect history, and overall health. All cholesterol medications listed are not controlled substances. TeleDirectMD does not prescribe controlled substances, and refill treatment online is intended as bridge care when clinically appropriate."
+    "note": "Medication selection and dosing are individualized by the MD after reviewing your lipid levels, cardiovascular risk, current regimen, side effect history, and overall health. All cholesterol medications listed are not controlled substances. TeleDirectMD does not prescribe controlled substances, and refill treatment online is intended as bridge care when clinically appropriate. Refill lab rule: a lipid panel (and ALT if there is a liver history) from the last 12 months is required, either uploaded before the visit or ordered through Quest at the visit; without one, the physician may provide no more than a 30-day bridge supply while the lab is obtained.",
+    "notPrescribed": [
+      "Bempedoic acid (Nexletol, Nexlizet) and icosapent ethyl (Vascepa): not prescribed by TeleDirectMD.",
+      "PCSK9 inhibitors and other injectables."
+    ]
   },
   "homeCare": {
     "sectionTitle": "Home Care, Prevention, and Follow-up",
@@ -768,10 +760,6 @@
       {
         "name": "Ezetimibe",
         "id": "ezetimibe"
-      },
-      {
-        "name": "Bempedoic acid",
-        "id": "bempedoic-acid"
       }
     ],
     "treatments": [

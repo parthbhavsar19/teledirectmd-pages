@@ -572,12 +572,6 @@ export default function VtShinglesTreatmentOnline() {
                     <td><a href="https://www.goodrx.com/famciclovir" target="_blank" rel="noopener">~$30–$50 generic</a></td>
                     <td>Clinically equivalent to valacyclovir with the same convenient dosing.</td>
                   </tr>
-                  <tr>
-                    <td><strong>Gabapentin 300 mg</strong> (nerve-pain adjunct)</td>
-                    <td>300 mg PO three times daily, titrated by the physician</td>
-                    <td><a href="https://www.goodrx.com/gabapentin" target="_blank" rel="noopener">~$15–$25 generic</a></td>
-                    <td>Considered for acute pain and postherpetic-neuralgia risk; not a controlled substance in Vermont.</td>
-                  </tr>
                 </tbody>
               </table>
             </div>

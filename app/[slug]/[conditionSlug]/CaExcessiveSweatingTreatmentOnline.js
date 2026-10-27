@@ -560,6 +560,7 @@ export default function CaExcessiveSweatingTreatmentOnline() {
             <p className="tdmd-med-note">
               <strong>Important:</strong> The choice of medication depends on your medical history, allergies, drug interactions, and clinical factors assessed by the physician at the visit. Do not start any prescription medication without a clinical evaluation.
             </p>
+            <p className="tdmd-med-note" data-fda-notes="true"><strong>FDA labeling note:</strong> Oral glycopyrrolate and oxybutynin, Rx only, have not been approved by the FDA as safe and effective to treat hyperhidrosis; both are widely used by dermatologists when topical treatment is insufficient. Aluminum chloride 20% solution (Drysol) is a prescription product that has not been approved by the FDA and is marketed as an unapproved drug; it is the International Hyperhidrosis Society first-line prescription antiperspirant. Only a licensed physician may prescribe this medication for this condition if, in his clinical judgment, use is medically appropriate. Report side effects to the FDA at www.fda.gov/medwatch or 1-800-FDA-1088.</p>
           </div>
         </section>
 

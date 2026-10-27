@@ -488,6 +488,7 @@ export default function VtAcneTreatmentOnline() {
             <p className="tdmd-med-note">
               <strong>Important:</strong> The choice of medication depends on your history, allergies, kidney and liver function, drug interactions, and pregnancy status, assessed by the physician at the visit. Do not start a prescription medication without a clinical evaluation. No treatment is guaranteed to work for every patient.
             </p>
+            <p className="tdmd-med-note" data-fda-notes="true"><strong>FDA labeling note:</strong> Spironolactone, Rx only, has not been approved by the FDA as safe and effective to treat acne; the American Academy of Dermatology 2024 acne guideline recommends it for adult women with hormonal acne. A potassium result from the last 90 days is required before it is prescribed. Only a licensed physician may prescribe this medication for this condition if, in his clinical judgment, use is medically appropriate. Report side effects to the FDA at www.fda.gov/medwatch or 1-800-FDA-1088.</p>
           </div>
         </section>
 

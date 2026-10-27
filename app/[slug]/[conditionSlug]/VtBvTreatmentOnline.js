@@ -303,6 +303,7 @@ export default function VtBvTreatmentOnline() {
               </table>
             </div>
             <p className="tdmd-med-note"><strong>Important:</strong> Medication selection depends on allergies, pregnancy status, prior treatments, and tolerance. Do not start treatment without clinical evaluation.</p>
+            <p className="tdmd-med-note" data-fda-notes="true"><strong>FDA labeling note:</strong> Oral metronidazole, Rx only, has not been approved by the FDA as safe and effective to treat bacterial vaginosis; it is the CDC 2021 recommended first-line regimen. Only a licensed physician may prescribe this medication for this condition if, in his clinical judgment, use is medically appropriate. Report side effects to the FDA at www.fda.gov/medwatch or 1-800-FDA-1088.</p>
           </div>
         </section>
 
