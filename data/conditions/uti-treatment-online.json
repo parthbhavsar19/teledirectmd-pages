@@ -444,9 +444,21 @@
         "500 mg by mouth twice daily",
         "5 to 7 days",
         "Alternative option when first-line agents cannot be used due to allergy, intolerance, or resistance."
+      ],
+      [
+        "Ciprofloxacin (second-line only)",
+        "250 mg by mouth twice daily",
+        "3 days",
+        "Reserved for women who cannot take nitrofurantoin, TMP-SMX, fosfomycin, or cephalexin because of allergy, intolerance, or prior failure. FDA boxed warning; see note below."
       ]
     ],
-    "note": "Example regimens only. The actual medication, dosing, and duration are determined by the MD after reviewing your symptoms, risk factors, allergies, kidney history, and red flags. TeleDirectMD does not prescribe controlled substances."
+    "note": "Example regimens only. The actual medication, dosing, and duration are determined by the MD after reviewing your symptoms, risk factors, allergies, kidney history, and red flags. TeleDirectMD does not prescribe controlled substances.",
+    "fdaNotes": [
+      "Ciprofloxacin carries an FDA boxed warning for disabling and potentially irreversible reactions including tendinitis and tendon rupture, peripheral neuropathy, central nervous system effects, and worsening of myasthenia gravis. TeleDirectMD prescribes it only when first-line options cannot be used, shows the full warning before the visit is booked, and records the patient's acknowledgment at the visit."
+    ],
+    "notPrescribed": [
+      "Fluoroquinolones as first-line treatment for uncomplicated UTI (FDA 2016 safety communication)."
+    ]
   },
   "homeCare": {
     "sectionTitle": "Home Care, Recovery Timeline, Prevention, and Follow-up",

@@ -445,6 +445,7 @@ export default function CaAcneTreatmentOnline() {
               </table>
             </div>
             <p className="tdmd-med-note"><strong>Important:</strong> Medication choice depends on allergies, medical history, and clinical evaluation at the visit. Do not start any medication without physician evaluation.</p>
+            <p className="tdmd-med-note" data-fda-notes="true"><strong>FDA labeling note:</strong> Spironolactone, Rx only, has not been approved by the FDA as safe and effective to treat acne; the American Academy of Dermatology 2024 acne guideline recommends it for adult women with hormonal acne. A potassium result from the last 90 days is required before it is prescribed. Only a licensed physician may prescribe this medication for this condition if, in his clinical judgment, use is medically appropriate. Report side effects to the FDA at www.fda.gov/medwatch or 1-800-FDA-1088.</p>
           </div>
         </section>
 
@@ -490,10 +491,6 @@ export default function CaAcneTreatmentOnline() {
                 <a key="rosacea-treatment-online" className="tdmd-ca-uti__sibling" href="/ca/rosacea-treatment-online/">
                   <span className="tdmd-ca-uti__sibling-label">Rosacea Treatment in CA</span>
                   <span className="tdmd-ca-uti__sibling-why">Facial redness and papules — often confused with acne.</span>
-                </a>
-                <a key="perioral-dermatitis-treatment-online" className="tdmd-ca-uti__sibling" href="/ca/perioral-dermatitis-treatment-online/">
-                  <span className="tdmd-ca-uti__sibling-label">Perioral Dermatitis Treatment in CA</span>
-                  <span className="tdmd-ca-uti__sibling-why">Perioral papulopustular rash mimics acne.</span>
                 </a>
                 <a key="eczema-treatment-online" className="tdmd-ca-uti__sibling" href="/ca/eczema-treatment-online/">
                   <span className="tdmd-ca-uti__sibling-label">Eczema Treatment in CA</span>

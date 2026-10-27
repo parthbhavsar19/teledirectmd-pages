@@ -48,7 +48,7 @@
       "note": "Adults 18+ only. TeleDirectMD is not an emergency service. Seek in-person care now for heavy vaginal bleeding, severe pelvic pain, vaginal or vulvar masses, or any signs of serious illness. TeleDirectMD does not prescribe controlled substances."
     },
     "icd10Display": "N95.2 (final coding depends on clinical details)",
-    "quickAnswer": "Yes — adults (18+) in {state} with genitourinary syndrome of menopause (vaginal dryness) can be treated online. A board-certified MD reviews your symptoms and history by secure video and, per NAMS 2020/AUA 2025 guidance, prescribes low-dose vaginal estrogen — cream, insert, or ring — as the gold standard for moderate to severe symptoms with minimal systemic absorption, or a non-hormonal option like ospemifene, sent to your pharmacy same day. Visit price: $79 flat, no insurance required. Treatment is ongoing. Unexplained vaginal bleeding, especially after menopause, needs in-person evaluation first."
+    "quickAnswer": "Yes — adults (18+) in {state} with genitourinary syndrome of menopause (vaginal dryness) can be treated online. A board-certified MD reviews your symptoms and history by secure video and, per NAMS 2020/AUA 2025 guidance, prescribes low-dose vaginal estrogen — cream, insert, or ring — as the gold standard for moderate to severe symptoms with minimal systemic absorption, sent to your pharmacy same day. Visit price: $79 flat, no insurance required. Treatment is ongoing. Unexplained vaginal bleeding, especially after menopause, needs in-person evaluation first."
   },
   "eligibility": {
     "sectionTitle": "Vaginal Dryness Telehealth Eligibility Checklist for {state}",
@@ -400,8 +400,8 @@
         "text": "Low-dose vaginal estrogen is the most effective treatment for localized GSM symptoms. It restores vaginal tissue thickness, elasticity, lubrication, and healthy pH. Options include vaginal estrogen cream, vaginal inserts (tablets), and vaginal rings. A key point is that vaginal estrogen at low doses has minimal systemic absorption, meaning it acts primarily on local tissues rather than throughout the body, making it preferred over systemic hormone therapy for vaginal-only symptoms."
       },
       {
-        "title": "Non-estrogen prescription options",
-        "text": "For patients who cannot or prefer not to use estrogen, alternatives include prasterone (DHEA vaginal inserts), which is converted locally to estrogen and testosterone, and ospemifene (Osphena), an oral selective estrogen receptor modulator (SERM) that acts on vaginal tissue. These options are appropriate for patients with certain cancer histories or estrogen concerns when discussed with their oncologist."
+        "title": "Non-hormonal options",
+        "text": "For patients who cannot or prefer not to use estrogen, regular use of a vaginal moisturizer (hyaluronic acid or polycarbophil based) and a lubricant during sexual activity relieves symptoms for many women. Prescription non-estrogen agents (prasterone vaginal inserts and oral ospemifene) are not prescribed by TeleDirectMD; patients with a hormone-sensitive cancer history who need them are referred to their gynecologist or oncologist."
       },
       {
         "title": "Lifestyle and ongoing management",
@@ -448,21 +448,12 @@
         "0.5 g intravaginally daily for 2 weeks, then 2 to 3 times per week",
         "Ongoing (chronic condition)",
         "Alternative vaginal estrogen cream. Same low systemic absorption profile. Some patients prefer this formulation. Use measured applicator."
-      ],
-      [
-        "Prasterone vaginal insert (Intrarosa)",
-        "6.5 mg intravaginally once nightly",
-        "Ongoing (chronic condition)",
-        "DHEA insert converted locally to estrogen and testosterone. Non-estrogen option for patients with estrogen concerns. May be appropriate for some breast cancer survivors after oncology discussion."
-      ],
-      [
-        "Ospemifene (Osphena)",
-        "60 mg by mouth once daily with food",
-        "Ongoing (chronic condition)",
-        "Oral SERM for moderate to severe dyspareunia. Non-estrogen systemic option. Contraindicated in patients with undiagnosed vaginal bleeding, breast cancer, or active DVT/PE. May cause hot flashes."
       ]
     ],
-    "note": "Example regimens only. The actual medication, dosing, and duration are determined by the MD after reviewing your symptoms, menopausal status, cancer history, and risk factors. GSM is a chronic condition requiring ongoing treatment. TeleDirectMD does not prescribe controlled substances."
+    "note": "Example regimens only. The actual medication, dosing, and duration are determined by the MD after reviewing your symptoms, menopausal status, cancer history, and risk factors. GSM is a chronic condition requiring ongoing treatment. TeleDirectMD does not prescribe controlled substances.",
+    "notPrescribed": [
+      "Ospemifene (Osphena) and prasterone (Intrarosa): not prescribed by TeleDirectMD; patients who need a non-estrogen prescription are referred to gynecology or oncology."
+    ]
   },
   "homeCare": {
     "sectionTitle": "Home Care, Recovery Timeline, Prevention, and Follow-up",
@@ -540,7 +531,7 @@
     "items": [
       {
         "question": "Can I get a prescription for vaginal dryness online in {state}?",
-        "answer": "Yes, if you are an adult 18+ located in {state} and your symptoms are appropriate for telehealth after red-flag screening. TeleDirectMD can prescribe low-dose vaginal estrogen cream, vaginal estrogen inserts, vaginal DHEA inserts, and other GSM treatments when clinically appropriate."
+        "answer": "Yes, if you are an adult 18+ located in {state} and your symptoms are appropriate for telehealth after red-flag screening. TeleDirectMD can prescribe low-dose vaginal estrogen cream, vaginal estrogen inserts, and non-hormonal moisturizer guidance when clinically appropriate."
       },
       {
         "question": "How much does online vaginal dryness treatment cost in {state}?",
@@ -564,7 +555,7 @@
       },
       {
         "question": "What are non-hormonal options for vaginal dryness?",
-        "answer": "Non-hormonal options include over-the-counter vaginal lubricants for use during sexual activity, vaginal moisturizers containing hyaluronic acid for regular use, and prescription options including prasterone (DHEA vaginal inserts) and ospemifene (an oral SERM). These may be appropriate for patients who cannot or prefer not to use estrogen."
+        "answer": "Non-hormonal options include over-the-counter vaginal lubricants for use during sexual activity and vaginal moisturizers containing hyaluronic acid for regular use. Prescription non-estrogen agents such as prasterone (DHEA vaginal inserts) and ospemifene (an oral SERM) are not prescribed by TeleDirectMD; if you cannot use estrogen and over-the-counter products are not enough, your gynecologist or oncologist can evaluate those options."
       },
       {
         "question": "Can I use vaginal estrogen if I have had breast cancer?",
@@ -756,20 +747,12 @@
       {
         "name": "Estradiol vaginal ring",
         "id": "estradiol-ring"
-      },
-      {
-        "name": "Prasterone vaginal insert",
-        "id": "prasterone"
-      },
-      {
-        "name": "Ospemifene",
-        "id": "ospemifene"
       }
     ],
     "treatments": [
       "Low-dose vaginal estrogen (gold standard)",
       "Vaginal lubricants and moisturizers",
-      "Non-estrogen prescription alternatives (DHEA, SERM)",
+      "Non-hormonal vaginal moisturizers and lubricants",
       "Lifestyle modifications",
       "Referral for systemic HRT evaluation when appropriate"
     ],

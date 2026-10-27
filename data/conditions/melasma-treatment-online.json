@@ -3,7 +3,7 @@
   "conditionShort": "Melasma",
   "conditionSlug": "melasma-treatment-online",
   "pageTitle": "Melasma Online Treatment in {state} | TeleDirectMD",
-  "metaDescription": "Evidence-based melasma treatment for {state} adults by secure video visit. Visual assessment of hyperpigmentation pattern, guideline-based prescriptions including hydroquinone and tretinoin, and sun protection counseling. Flat $79 self-pay option. Insurance is not required.",
+  "metaDescription": "Evidence-based melasma treatment for {state} adults by secure video visit. Visual assessment of hyperpigmentation pattern, guideline-based prescriptions including tretinoin and triple combination cream, and sun protection counseling. Flat $79 self-pay option. Insurance is not required.",
   "ogImageAlt": "Melasma treatment in {state} by TeleDirectMD",
   "hero": {
     "h1": "Melasma Treatment in {state} (Facial Hyperpigmentation)",
@@ -42,13 +42,13 @@
       "features": [
         "Visual assessment of hyperpigmentation pattern and distribution via video",
         "Guideline-based treatment plans including topical lightening agents and sun protection counseling",
-        "Prescriptions for hydroquinone, tretinoin, azelaic acid, or triple combination cream when appropriate",
+        "Prescriptions for tretinoin, azelaic acid, or triple combination cream (Tri-Luma) when appropriate",
         "Hormonal factor discussion and referral guidance when needed"
       ],
       "note": "Adults 18+ only. TeleDirectMD is not an emergency service. Seek urgent in-person evaluation immediately for any pigmented lesion that is rapidly changing, has irregular borders, is raised or nodular, bleeds spontaneously, or has features that may suggest melanoma. TeleDirectMD does not prescribe controlled substances."
     },
     "icd10Display": "L81.1 (final coding depends on clinical details)",
-    "quickAnswer": "Yes — adults (18+) in {state} with melasma can be treated online. A board-certified MD reviews your pigmentation pattern by secure video and prescribes a combination approach — hydroquinone, tretinoin, azelaic acid, or triple combination cream — alongside mandatory broad-spectrum SPF 50+ sunscreen with iron oxide, sent to your pharmacy same day. Visit price: $79 flat, no insurance required. Improvement takes 8–24 weeks and recurrence is common without ongoing sun protection. A raised or nodular pigmented lesion needs in-person evaluation, since melasma is always flat."
+    "quickAnswer": "Yes — adults (18+) in {state} with melasma can be treated online. A board-certified MD reviews your pigmentation pattern by secure video and prescribes a combination approach — tretinoin, azelaic acid, or triple combination cream (Tri-Luma) — alongside mandatory broad-spectrum SPF 50+ sunscreen with iron oxide, sent to your pharmacy same day. Visit price: $79 flat, no insurance required. Improvement takes 8–24 weeks and recurrence is common without ongoing sun protection. A raised or nodular pigmented lesion needs in-person evaluation, since melasma is always flat."
   },
   "eligibility": {
     "sectionTitle": "Melasma Telehealth Eligibility Checklist for {state}",
@@ -222,7 +222,7 @@
         "isTdmd": false
       }
     ],
-    "footnote": "Total cost is transparent: the $79 visit covers evaluation and a tailored topical combination; pharmacy cost varies by whether hydroquinone, tretinoin, or triple combination cream (Tri-Luma) is prescribed, so ask your pharmacist about generic pricing.",
+    "footnote": "Total cost is transparent: the $79 visit covers evaluation and a tailored topical combination; pharmacy cost varies by whether tretinoin, azelaic acid, or triple combination cream (Tri-Luma) is prescribed, so ask your pharmacist about generic pricing.",
     "noHiddenFees": "No hidden fees. If medication is not clinically appropriate, you still receive a complete evaluation, guidance, and clear instructions on what level of care you need next."
   },
   "whatIsCondition": {
@@ -394,7 +394,7 @@
   },
   "treatmentOptions": {
     "sectionTitle": "Treatment Options",
-    "intro": "Melasma treatment requires a combination approach that includes strict photoprotection as the foundation and topical lightening agents targeting melanin production. Current evidence supports the use of hydroquinone, tretinoin, azelaic acid, and triple combination cream as first-line topical options. Treatment typically requires 8 to 24 weeks to show meaningful improvement, and recurrence is common without ongoing sun protection and maintenance therapy.",
+    "intro": "Melasma treatment requires a combination approach that includes strict photoprotection as the foundation and topical lightening agents targeting melanin production. Current evidence supports the use of tretinoin, azelaic acid, and triple combination cream (Tri-Luma) as first-line topical options. Treatment typically requires 8 to 24 weeks to show meaningful improvement, and recurrence is common without ongoing sun protection and maintenance therapy.",
     "sections": [
       {
         "title": "Photoprotection — the essential foundation",
@@ -402,7 +402,7 @@
       },
       {
         "title": "Topical lightening agents",
-        "text": "Hydroquinone 4% cream is the most widely used and evidence-supported topical agent for melasma. It works by inhibiting tyrosinase, the key enzyme in melanin production. Hydroquinone is typically used for 8 to 12 weeks at a time (cyclical use) with breaks to reduce the risk of ochronosis with prolonged use. Tretinoin 0.025 to 0.05% cream enhances the penetration and efficacy of hydroquinone, accelerates keratinocyte turnover, and inhibits melanin transfer — making it an important partner in melasma therapy. Azelaic acid 15 to 20% is an effective alternative or adjunct that inhibits tyrosinase, reduces abnormal melanocyte activity, and has anti-inflammatory properties — making it particularly useful in patients with sensitive skin or who cannot tolerate hydroquinone. Triple combination cream (hydroquinone 4%, tretinoin 0.05%, fluocinolone acetonide 0.01%, marketed as Tri-Luma) is FDA-approved for melasma and is among the most effective topical options, with studies showing 77% of patients achieving near-complete clearing."
+        "text": "Triple combination cream (hydroquinone 4%, tretinoin 0.05%, fluocinolone acetonide 0.01%, marketed as Tri-Luma) is FDA-approved for moderate to severe melasma and is among the most effective topical options, with studies showing 77% of patients achieving near-complete clearing. It is used in 8-week courses with breaks, because prolonged uninterrupted hydroquinone exposure risks ochronosis. TeleDirectMD does not prescribe hydroquinone 4% as a single agent; the hydroquinone you may receive is the FDA-approved triple combination. Tretinoin 0.025 to 0.05% cream accelerates keratinocyte turnover and inhibits melanin transfer. Azelaic acid 15 to 20% inhibits tyrosinase, reduces abnormal melanocyte activity, and has anti-inflammatory properties, which makes it useful for sensitive skin, for pregnancy, and for maintenance between Tri-Luma courses."
       },
       {
         "title": "Hormonal trigger management",
@@ -428,16 +428,10 @@
     ],
     "rows": [
       [
-        "Hydroquinone 4% cream",
-        "Apply a thin layer to affected patches nightly; use cyclically (8 to 12 weeks on, then a break)",
-        "Topical depigmenting agent (tyrosinase inhibitor)",
-        "Gold standard first-line topical for melasma. Requires prescription (no longer available OTC). Use cyclically to reduce the small risk of ochronosis with prolonged continuous use. Always combine with sunscreen. Mild irritation is common initially. Avoid during pregnancy."
-      ],
-      [
         "Tretinoin 0.025 to 0.05% cream",
         "Apply a small amount to affected areas nightly, starting 2 to 3 times per week and increasing as tolerated",
         "Topical retinoid",
-        "Enhances hydroquinone penetration and efficacy, accelerates keratinocyte turnover, and inhibits melanin transfer. Commonly used in combination with hydroquinone. Expect skin irritation, dryness, and sun sensitivity — always use sunscreen. Minimum 24 weeks for full effect. Not for use in pregnancy."
+        "Enhances the penetration and efficacy of the hydroquinone in triple combination cream, accelerates keratinocyte turnover, and inhibits melanin transfer. Commonly used in combination with hydroquinone. Expect skin irritation, dryness, and sun sensitivity — always use sunscreen. Minimum 24 weeks for full effect. Not for use in pregnancy."
       ],
       [
         "Triple combination cream (Tri-Luma: hydroquinone 4% / tretinoin 0.05% / fluocinolone acetonide 0.01%)",
@@ -458,7 +452,10 @@
         "The essential foundation of all melasma treatment. Iron oxide in tinted sunscreens blocks both UV and visible light (HEV), which is important for patients with skin types III through V. Without strict sun protection, topical lightening agents are significantly less effective and recurrence is rapid. Use year-round, even on cloudy days."
       ]
     ],
-    "note": "Example regimens only. The actual medication, dosing, combination, and duration are individualized by the MD based on your melasma type, skin tone, Fitzpatrick type, prior treatment history, hormonal history, allergies, and relevant medical history. TeleDirectMD does not prescribe controlled substances."
+    "note": "Example regimens only. The actual medication, dosing, combination, and duration are individualized by the MD based on your melasma type, skin tone, Fitzpatrick type, prior treatment history, hormonal history, allergies, and relevant medical history. TeleDirectMD does not prescribe controlled substances.",
+    "notPrescribed": [
+      "Hydroquinone 4% as a single agent: not prescribed by TeleDirectMD. The FDA-approved triple combination cream (Tri-Luma) remains available in 8-week courses."
+    ]
   },
   "homeCare": {
     "sectionTitle": "Home Care, Sun Protection, and Follow-up",
@@ -536,7 +533,7 @@
     "items": [
       {
         "question": "Can I get melasma treatment online in {state}?",
-        "answer": "Yes, if you are an adult 18+ located in {state} and your melasma is appropriate for telehealth after visual assessment. Melasma is a highly visual condition — its diagnosis is based on the appearance and distribution of flat pigmented patches, making telehealth an effective platform for evaluation and prescription management. TeleDirectMD can prescribe hydroquinone, tretinoin, azelaic acid, and triple combination cream when clinically appropriate. Presentations that are raised, rapidly changing, or otherwise concerning are directed to in-person evaluation."
+        "answer": "Yes, if you are an adult 18+ located in {state} and your melasma is appropriate for telehealth after visual assessment. Melasma is a highly visual condition — its diagnosis is based on the appearance and distribution of flat pigmented patches, making telehealth an effective platform for evaluation and prescription management. TeleDirectMD can prescribe tretinoin, azelaic acid, and triple combination cream (Tri-Luma) when clinically appropriate. Presentations that are raised, rapidly changing, or otherwise concerning are directed to in-person evaluation."
       },
       {
         "question": "How much does online melasma treatment cost in {state}?",
@@ -552,7 +549,7 @@
       },
       {
         "question": "What is the best treatment for melasma?",
-        "answer": "Current evidence supports a combination approach as most effective: strict broad-spectrum photoprotection (the essential foundation), topical hydroquinone 4%, and topical retinoids such as tretinoin. Triple combination cream (hydroquinone/tretinoin/fluocinolone — Tri-Luma) is the most effective single topical option in clinical trials. Without consistent sun protection — including an SPF 50+ tinted sunscreen with iron oxide — any topical treatment will have significantly limited efficacy and recurrence will be rapid."
+        "answer": "Current evidence supports a combination approach as most effective: strict broad-spectrum photoprotection (the essential foundation), a topical retinoid such as tretinoin, and, for moderate to severe melasma, triple combination cream (hydroquinone/tretinoin/fluocinolone, Tri-Luma), the FDA-approved product that performs best in clinical trials, used in 8-week courses. TeleDirectMD does not prescribe hydroquinone 4% on its own. Without consistent sun protection, including an SPF 50+ tinted sunscreen with iron oxide, any topical treatment will have significantly limited efficacy and recurrence will be rapid."
       },
       {
         "question": "How long does melasma treatment take to work?",
@@ -584,7 +581,7 @@
       },
       {
         "question": "How much does online melasma treatment cost without insurance in {state}?",
-        "answer": "The visit is $79 flat with no insurance required. Topical medication cost varies depending on whether a single agent like hydroquinone or a triple combination cream is prescribed, so ask your pharmacist about generic options."
+        "answer": "The visit is $79 flat with no insurance required. Topical medication cost varies depending on whether tretinoin, azelaic acid, or triple combination cream is prescribed, so ask your pharmacist about generic options."
       },
       {
         "question": "Does birth control make melasma worse, and can telehealth help with that in {state}?",
@@ -675,7 +672,7 @@
   ],
   "cityBlock": {
     "title": "Adults We Serve Across {state}",
-    "text": "TeleDirectMD evaluates adults located throughout {state}, including {citiesExtended}. Whether you are searching for online melasma treatment in {city1}, hydroquinone prescription online in {city2}, melasma care by video visit in {city3}, or melasma treatment anywhere else in {state}, the same telehealth eligibility and safety rules apply."
+    "text": "TeleDirectMD evaluates adults located throughout {state}, including {citiesExtended}. Whether you are searching for online melasma treatment in {city1}, melasma prescription online in {city2}, melasma care by video visit in {city3}, or melasma treatment anywhere else in {state}, the same telehealth eligibility and safety rules apply."
   },
   "icd10Codes": [
     {
@@ -691,7 +688,7 @@
       "Facial Hyperpigmentation",
       "Melasma Faciei"
     ],
-    "conditionDescription": "Melasma is a common chronic acquired disorder of hyperpigmentation characterized by symmetric, flat brown to gray-brown macules and patches predominantly on sun-exposed facial skin. TeleDirectMD evaluates adult melasma by video visit with visual assessment of pigmentation pattern, trigger history review, guideline-based treatment plans including hydroquinone, tretinoin, azelaic acid, and triple combination cream when appropriate and comprehensive sun protection counseling with clear referral criteria for atypical presentations and procedural management.",
+    "conditionDescription": "Melasma is a common chronic acquired disorder of hyperpigmentation characterized by symmetric, flat brown to gray-brown macules and patches predominantly on sun-exposed facial skin. TeleDirectMD evaluates adult melasma by video visit with visual assessment of pigmentation pattern, trigger history review, guideline-based treatment plans including tretinoin, azelaic acid, and triple combination cream (Tri-Luma) when appropriate and comprehensive sun protection counseling with clear referral criteria for atypical presentations and procedural management.",
     "primaryIcd10": "L81.1",
     "anatomy": "Skin (melanocytes of facial epidermis and dermis)",
     "symptoms": [
@@ -716,10 +713,6 @@
     "epidemiology": "Melasma affects up to 5 million Americans and is significantly more prevalent in women and in individuals with Fitzpatrick skin types III through V. It occurs worldwide with higher prevalence in populations from regions with high UV radiation exposure.",
     "drugs": [
       {
-        "name": "Hydroquinone 4%",
-        "id": "hydroquinone"
-      },
-      {
         "name": "Tretinoin",
         "id": "tretinoin"
       },
@@ -734,7 +727,7 @@
     ],
     "treatments": [
       "Strict broad-spectrum photoprotection with SPF 50+ tinted sunscreen containing iron oxide",
-      "Topical hydroquinone 4% — cyclical use",
+      "Triple combination cream (Tri-Luma) in 8-week courses",
       "Topical tretinoin 0.025 to 0.05%",
       "Azelaic acid 15 to 20% gel or cream",
       "Triple combination cream (Tri-Luma) — FDA-approved",
@@ -773,7 +766,7 @@
     ],
     "knowsAbout": [
       "Melasma treatment",
-      "Topical hydroquinone therapy",
+      "Triple combination (fluocinolone/hydroquinone/tretinoin) therapy",
       "Triple combination cream for melasma",
       "Photoprotection in melasma management",
       "Hormonal triggers for melasma",
@@ -782,7 +775,7 @@
       "Telemedicine dermatology"
     ],
     "serviceDescription": "Secure video visit for {state} adults with melasma, including visual assessment of hyperpigmentation pattern, trigger history review, guideline-based topical prescriptions when appropriate, sun protection counseling, and clear referral criteria for atypical presentations and procedural management.",
-    "webpageDescription": "{state} melasma treatment by secure MD video visit for adults. Evidence-based evaluation with visual assessment, severity-based treatment including hydroquinone, tretinoin, azelaic acid, triple combination cream and clear guidance for when in-person dermatology is needed."
+    "webpageDescription": "{state} melasma treatment by secure MD video visit for adults. Evidence-based evaluation with visual assessment, severity-based treatment including tretinoin, azelaic acid, triple combination cream (Tri-Luma) and clear guidance for when in-person dermatology is needed."
   },
   "guidelineSource": "aad",
   "conditionType": "treatment",

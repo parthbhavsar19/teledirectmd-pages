@@ -71,7 +71,7 @@ const FAQ_ITEMS = [
     question: 'What melasma medications can a California telehealth doctor prescribe?',
     answer: (
       <p>
-        A California-licensed telehealth physician can prescribe: hydroquinone 4% cream (3-month cycles), tretinoin 0.025%–0.05% cream, azelaic acid 15%–20% gel, Tri-Luma triple combination cream (8-week course only), and tranexamic acid oral 250 mg twice daily (off-label — physician-confirmed scope). Photoprotection with broad-spectrum SPF 50+ is a required component of all melasma regimens.
+        A California-licensed telehealth physician can prescribe: tretinoin 0.025%–0.05% cream, azelaic acid 15%–20% gel, Tri-Luma triple combination cream (the FDA-approved hydroquinone/tretinoin/fluocinolone product, 8-week course only; hydroquinone 4% is not prescribed on its own), and tranexamic acid oral 250 mg twice daily (off-label — physician-confirmed scope). Photoprotection with broad-spectrum SPF 50+ is a required component of all melasma regimens.
       </p>
     ),
   },
@@ -116,7 +116,7 @@ const FAQ_ITEMS = [
     question: 'What is the cost of melasma treatment in California?',
     answer: (
       <p>
-        TeleDirectMD charges $79 self-pay. Generic tretinoin ~$18–$40, azelaic acid ~$30–$60, hydroquinone 4% ~$20–$50. Tri-Luma ~$60–$120 with GoodRx. Tranexamic acid oral ~$20–$50. In-person dermatology visits in California typically cost $150–$350+.
+        TeleDirectMD charges $79 self-pay. Generic tretinoin ~$18–$40, azelaic acid ~$30–$60. Tri-Luma ~$60–$120 with GoodRx. Tranexamic acid oral ~$20–$50. In-person dermatology visits in California typically cost $150–$350+.
       </p>
     ),
   },
@@ -373,7 +373,7 @@ export default function CaMelasmaTreatmentOnline() {
 
             <h3>Are melasma (facial hyperpigmentation / chloasma) medications controlled substances under California law?</h3>
             <p>
-              Hydroquinone 4% cream, tretinoin cream, azelaic acid gel, Tri-Luma, and tranexamic acid are not controlled substances. They can be prescribed via California telehealth and transmitted electronically to any California pharmacy under Assembly Bill 2789. California requires all prescriptions to be issued electronically under Assembly Bill 2789 (effective January 1, 2022), per the <a href="https://www.mbc.ca.gov/News/" rel="noopener" target="_blank">Medical Board of California</a>. TeleDirectMD does not prescribe controlled substances in any state.
+              Tretinoin cream, azelaic acid gel, Tri-Luma, and tranexamic acid are not controlled substances. They can be prescribed via California telehealth and transmitted electronically to any California pharmacy under Assembly Bill 2789. California requires all prescriptions to be issued electronically under Assembly Bill 2789 (effective January 1, 2022), per the <a href="https://www.mbc.ca.gov/News/" rel="noopener" target="_blank">Medical Board of California</a>. TeleDirectMD does not prescribe controlled substances in any state.
             </p>
           </div>
         </section>
@@ -531,12 +531,6 @@ export default function CaMelasmaTreatmentOnline() {
                 </thead>
                 <tbody>
                   <tr className="tdmd-ca-uti__med-firstline">
-                    <td><strong>Hydroquinone 4% cream</strong> · First-line</td>
-                    <td>Apply to hyperpigmented areas at night — always use broad-spectrum SPF 50+ in AM. Use in 3-month cycles per AAD</td>
-                    <td><a href="https://www.goodrx.com/hydroquinone" target="_blank" rel="noopener">~$20–$50 / 45g</a></td>
-                    <td>Gold standard topical depigmenting agent per AAD. Use in 3-month cycles (on/off) to prevent ochronosis. Must combine with daily broad-spectrum sunscreen. Not for use in pregnancy.</td>
-                  </tr>
-                  <tr className="tdmd-ca-uti__med-firstline">
                     <td><strong>Tretinoin 0.025%–0.05% cream</strong> · First-line</td>
                     <td>Apply at night, after hydroquinone, pea-sized amount</td>
                     <td><a href="https://www.goodrx.com/tretinoin" target="_blank" rel="noopener">~$18–$40 / 20g</a></td>
@@ -653,10 +647,6 @@ export default function CaMelasmaTreatmentOnline() {
                   <span className="tdmd-ca-uti__sibling-label">Rosacea Treatment in CA</span>
                   <span className="tdmd-ca-uti__sibling-why">Facial skin condition — photosensitive comorbidity.</span>
                 </a>
-              <a key="perioral-dermatitis-treatment-online" className="tdmd-ca-uti__sibling" href="/ca/perioral-dermatitis-treatment-online/">
-                  <span className="tdmd-ca-uti__sibling-label">Perioral Dermatitis Treatment in CA</span>
-                  <span className="tdmd-ca-uti__sibling-why">Perioral pigmentation changes.</span>
-                </a>
               <a key="tinea-versicolor-treatment-online" className="tdmd-ca-uti__sibling" href="/ca/tinea-versicolor-treatment-online/">
                   <span className="tdmd-ca-uti__sibling-label">Tinea Versicolor Treatment in CA</span>
                   <span className="tdmd-ca-uti__sibling-why">Hypopigmentation/hyperpigmentation disorder — differential.</span>
@@ -703,7 +693,6 @@ export default function CaMelasmaTreatmentOnline() {
               <li><a href="https://www.mbc.ca.gov/Licensees/Telehealth.aspx" rel="noopener" target="_blank">Medical Board of California — Telehealth. Retrieved 2026-05-22.</a></li>
               <li><a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=10123.85.&lawCode=INS" rel="noopener" target="_blank">California Insurance Code §10123.85 (AB 744). Retrieved 2026-05-22.</a></li>
               <li><a href="https://oehha.ca.gov/" rel="noopener" target="_blank">CDPH — Office of Health Hazard Assessment. Retrieved 2026-05-22.</a></li>
-              <li><a href="https://www.goodrx.com/hydroquinone" rel="noopener" target="_blank">GoodRx — Hydroquinone. Retrieved 2026-05-22.</a></li>
               <li><a href="https://www.goodrx.com/tretinoin" rel="noopener" target="_blank">GoodRx — Tretinoin. Retrieved 2026-05-22.</a></li>
               <li><a href="https://www.goodrx.com/azelaic-acid" rel="noopener" target="_blank">GoodRx — Azelaic Acid. Retrieved 2026-05-22.</a></li>
               <li><a href="https://www.goodrx.com/tri-luma" rel="noopener" target="_blank">GoodRx — Tri-Luma. Retrieved 2026-05-22.</a></li>

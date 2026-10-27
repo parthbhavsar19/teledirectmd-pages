@@ -374,7 +374,7 @@ export default function CaMigraineRefillsOnline() {
 
             <h3>Are migraine (refills for established patients) medications controlled substances under California law?</h3>
             <p>
-              Triptans, gepants, antiemetics, and migraine preventives (propranolol, topiramate, amitriptyline, venlafaxine, CGRP monoclonal antibodies) are not controlled substances. They can be prescribed via California telehealth and transmitted electronically to any California pharmacy under Assembly Bill 2789. California requires all prescriptions to be issued electronically under Assembly Bill 2789 (effective January 1, 2022), per the <a href="https://www.mbc.ca.gov/News/" rel="noopener" target="_blank">Medical Board of California</a>. TeleDirectMD does not prescribe controlled substances in any state.
+              Triptans, gepants, antiemetics, and migraine preventives (propranolol, metoprolol, topiramate, CGRP monoclonal antibodies) are not controlled substances. They can be prescribed via California telehealth and transmitted electronically to any California pharmacy under Assembly Bill 2789. California requires all prescriptions to be issued electronically under Assembly Bill 2789 (effective January 1, 2022), per the <a href="https://www.mbc.ca.gov/News/" rel="noopener" target="_blank">Medical Board of California</a>. TeleDirectMD does not prescribe controlled substances in any state.
             </p>
           </div>
         </section>
@@ -567,6 +567,7 @@ export default function CaMigraineRefillsOnline() {
             <p className="tdmd-med-note">
               <strong>Important:</strong> The choice of medication depends on your medical history, allergies, drug interactions, and clinical factors assessed by the physician at the visit. Do not start any prescription medication without a clinical evaluation.
             </p>
+            <p className="tdmd-med-note" data-fda-notes="true"><strong>FDA labeling note:</strong> Metoprolol, Rx only, has not been approved by the FDA as safe and effective to prevent migraine; the American Academy of Neurology rates it Level A evidence, while propranolol and timolol carry the approved indication. Preventives are refilled here only for patients already taking them. Only a licensed physician may prescribe this medication for this condition if, in his clinical judgment, use is medically appropriate. Report side effects to the FDA at www.fda.gov/medwatch or 1-800-FDA-1088.</p>
           </div>
         </section>
 

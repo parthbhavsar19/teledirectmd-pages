@@ -136,7 +136,6 @@ const CONDITION_SLUGS = {
   'Tinea Versicolor': '/tinea-versicolor-treatment-online',
   'Excessive Sweating': '/excessive-sweating-treatment-online/',
   'Poison Ivy & Oak': '/poison-ivy-oak-treatment-online',
-  'Perioral Dermatitis': '/perioral-dermatitis-treatment-online',
   'Melasma': '/melasma-treatment-online',
   'Dog Bite': '/dog-bite-treatment-online',
   'Cat Bite': '/cat-bite-treatment-online',

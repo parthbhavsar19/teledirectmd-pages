@@ -450,16 +450,28 @@
         "Spironolactone 50 to 100 mg by mouth daily",
         "Take once or twice daily",
         "Hormonal therapy (females only)",
-        "Used for hormonal acne in adult women. Reduces androgen-driven sebum production. Not for use in males or during pregnancy. Potassium monitoring may be needed."
+        "Used for hormonal acne in adult women. Reduces androgen-driven sebum production. Not for use in males or during pregnancy. Potassium monitoring may be needed. A potassium blood test from the last 90 days is required before spironolactone can be prescribed; upload it with your intake, or the drug will not be offered at this visit."
       ],
       [
         "Azelaic acid 15% gel",
         "Apply twice daily to affected areas",
         "Topical anti-inflammatory",
         "Alternative for patients who cannot tolerate retinoids or benzoyl peroxide. Also helps with post-inflammatory hyperpigmentation. Safe in pregnancy (category B). Mild burning or stinging is common."
+      ],
+      [
+        "Minocycline 50 to 100 mg by mouth daily",
+        "Take daily; limit course to 3 to 6 months with a topical retinoid and benzoyl peroxide",
+        "Oral antibiotic",
+        "FDA-approved alternative to doxycycline for moderate inflammatory acne when doxycycline is not tolerated. Dizziness and rare pigment deposition; not used in pregnancy."
       ]
     ],
-    "note": "Example regimens only. The actual medication, dosing, and combination are determined by the MD after reviewing your photos, prior treatments, skin type, allergies, and medical history. TeleDirectMD does not prescribe isotretinoin or controlled substances."
+    "note": "Example regimens only. The actual medication, dosing, and combination are determined by the MD after reviewing your photos, prior treatments, skin type, allergies, and medical history. TeleDirectMD does not prescribe isotretinoin or controlled substances.",
+    "fdaNotes": [
+      "Spironolactone tablets (25 mg, 50 mg, and 100 mg), Rx only, has not been approved by the FDA as safe and effective to treat acne; the American Academy of Dermatology 2024 acne guideline recommends it for adult women with hormonal acne. Only a licensed physician may prescribe this medication for this condition if, in his clinical judgment, use is medically appropriate. You are encouraged to report negative side effects of prescription drugs to the FDA at www.fda.gov/medwatch or 1-800-FDA-1088."
+    ],
+    "notPrescribed": [
+      "Isotretinoin: requires iPLEDGE enrollment and in-person dermatology management."
+    ]
   },
   "homeCare": {
     "sectionTitle": "Home Care, Timeline, Skin Care, and Follow-up",

@@ -45,7 +45,6 @@ import CaHeadLiceTreatmentOnline from './CaHeadLiceTreatmentOnline';
 import CaMelasmaTreatmentOnline from './CaMelasmaTreatmentOnline';
 import CaMigraineRefillsOnline from './CaMigraineRefillsOnline';
 import CaMotionSicknessTreatmentOnline from './CaMotionSicknessTreatmentOnline';
-import CaPerioralDermatitisTreatmentOnline from './CaPerioralDermatitisTreatmentOnline';
 import CaPoisonIvyOakTreatmentOnline from './CaPoisonIvyOakTreatmentOnline';
 import CaScabiesTreatmentOnline from './CaScabiesTreatmentOnline';
 import CaSmokingCessationTreatmentOnline from './CaSmokingCessationTreatmentOnline';
@@ -371,9 +370,6 @@ export default async function ConditionPage({ params }) {
   }
   if (slug === 'ca' && conditionSlug === 'motion-sickness-treatment-online') {
     return <CaMotionSicknessTreatmentOnline />;
-  }
-  if (slug === 'ca' && conditionSlug === 'perioral-dermatitis-treatment-online') {
-    return <CaPerioralDermatitisTreatmentOnline />;
   }
   if (slug === 'ca' && conditionSlug === 'poison-ivy-oak-treatment-online') {
     return <CaPoisonIvyOakTreatmentOnline />;
@@ -1036,6 +1032,26 @@ export default async function ConditionPage({ params }) {
           <p className="tdmd-med-note">
             <strong>Important:</strong> {condition.medications.note}
           </p>
+          {condition.medications.fdaNotes && condition.medications.fdaNotes.length > 0 && (
+            <div className="tdmd-med-footnotes" data-fda-notes="true">
+              <p className="tdmd-med-footnotes-lead"><strong>FDA labeling notes.</strong> It is legal and common for physicians to prescribe an FDA-approved medication for a use that is not in its approved labeling (off-label) when the evidence and the physician's judgment support it. The notes below say where that applies on this page.</p>
+              <ol>
+                {condition.medications.fdaNotes.map((note, i) => (
+                  <li key={i}>{note}</li>
+                ))}
+              </ol>
+            </div>
+          )}
+          {condition.medications.notPrescribed && condition.medications.notPrescribed.length > 0 && (
+            <div className="tdmd-med-not-prescribed" data-not-prescribed="true">
+              <p><strong>Not prescribed by TeleDirectMD for this condition:</strong></p>
+              <ul>
+                {condition.medications.notPrescribed.map((item, i) => (
+                  <li key={i}>{item}</li>
+                ))}
+              </ul>
+            </div>
+          )}
         </div>
       </section>
 

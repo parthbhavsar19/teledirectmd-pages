@@ -555,6 +555,7 @@ export default function CaDogBiteTreatmentOnline() {
             <p className="tdmd-med-note">
               <strong>Important:</strong> The choice of medication depends on your medical history, allergies, drug interactions, and clinical factors assessed by the physician at the visit. Do not start any prescription medication without a clinical evaluation.
             </p>
+            <p className="tdmd-med-note" data-fda-notes="true"><strong>FDA labeling note:</strong> Trimethoprim-sulfamethoxazole (TMP-SMX), Rx only, has not been approved by the FDA as safe and effective to treat skin and soft tissue infections; the Infectious Diseases Society of America 2014 guideline recommends it where MRSA is a concern and as the penicillin-allergy alternative for bite wounds. Only a licensed physician may prescribe this medication for this condition if, in his clinical judgment, use is medically appropriate. Report side effects to the FDA at www.fda.gov/medwatch or 1-800-FDA-1088.</p>
           </div>
         </section>
 

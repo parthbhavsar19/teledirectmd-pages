@@ -460,7 +460,7 @@
         "Bridge refill of existing combinations; dose adjustments and new combinations should be managed by primary care or endocrinology"
       ]
     ],
-    "note": "Medication selection and dosing are individualized based on A1C target, renal function, comorbidities, and side effect profile. TeleDirectMD does not prescribe controlled substances, and refill treatment online is intended as bridge care when clinically appropriate, not as a substitute for comprehensive diabetes management or emergency care."
+    "note": "Medication selection and dosing are individualized based on A1C target, renal function, comorbidities, and side effect profile. TeleDirectMD does not prescribe controlled substances, and refill treatment online is intended as bridge care when clinically appropriate, not as a substitute for comprehensive diabetes management or emergency care. Refill lab rule: a creatinine or eGFR (and A1C where available) from the last 12 months is required, either uploaded before the visit or ordered through Quest at the visit; without one, the physician may provide no more than a 30-day bridge supply while the lab is obtained."
   },
   "homeCare": {
     "sectionTitle": "Home Care, Prevention, and Follow-up",

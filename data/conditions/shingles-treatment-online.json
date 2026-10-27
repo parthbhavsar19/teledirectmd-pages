@@ -48,7 +48,7 @@
       "note": "Adults 18+ only. TeleDirectMD is not an emergency service. Go to urgent care or the ER now for rash involving the eye or forehead, widespread blistering beyond one dermatome, facial weakness or hearing changes, severe headache with stiff neck, signs of bacterial skin infection with fever, or rapidly worsening symptoms. TeleDirectMD does not prescribe controlled substances."
     },
     "icd10Display": "B02.9, B02.29, B02.22 (final coding depends on clinical details)",
-    "quickAnswer": "Yes — adults (18+) in {state} with shingles can be treated online, and speed matters. A board-certified MD reviews your rash timing and location by secure video and prescribes an antiviral — valacyclovir, famciclovir, or acyclovir — ideally within 72 hours of rash onset, plus pain management like gabapentin, sent to your pharmacy same day. Visit price: $79 flat, no insurance required. A rash involving your eye, forehead, or nose tip, or facial weakness/hearing changes, needs urgent in-person evaluation."
+    "quickAnswer": "Yes — adults (18+) in {state} with shingles can be treated online, and speed matters. A board-certified MD reviews your rash timing and location by secure video and prescribes an antiviral — valacyclovir, famciclovir, or acyclovir — ideally within 72 hours of rash onset, plus non-opioid pain management, sent to your pharmacy same day. Visit price: $79 flat, no insurance required. A rash involving your eye, forehead, or nose tip, or facial weakness/hearing changes, needs urgent in-person evaluation."
   },
   "eligibility": {
     "sectionTitle": "Shingles Telehealth Eligibility Checklist for {state}",
@@ -396,7 +396,7 @@
       },
       {
         "title": "Pain management",
-        "text": "Shingles pain ranges from mild discomfort to severe burning, stabbing, or shooting pain. Over-the-counter options include ibuprofen, naproxen, and acetaminophen. For neuropathic pain that is not adequately controlled, gabapentin or lidocaine patches may be considered. Cool compresses and calamine lotion can provide additional comfort. TeleDirectMD does not prescribe controlled substances."
+        "text": "Shingles pain ranges from mild discomfort to severe burning, stabbing, or shooting pain. Over-the-counter options include ibuprofen, naproxen, and acetaminophen. For neuropathic pain that is not adequately controlled, topical lidocaine may be considered; TeleDirectMD does not prescribe gabapentin or pregabalin, so persistent nerve pain is referred for in-person management. Cool compresses and calamine lotion can provide additional comfort. TeleDirectMD does not prescribe controlled substances."
       },
       {
         "title": "Postherpetic neuralgia prevention",
@@ -450,15 +450,12 @@
         "500 to 1000 mg by mouth every 6 hours as needed",
         "As needed",
         "Over-the-counter pain reliever. Can be combined with NSAIDs for additive pain relief. Avoid exceeding 3000 mg per day."
-      ],
-      [
-        "Gabapentin",
-        "300 mg by mouth at bedtime, titrate as directed",
-        "Varies",
-        "Used for neuropathic pain from shingles or postherpetic neuralgia. Dose is gradually increased based on response and tolerability. Dose adjustment needed for reduced kidney function."
       ]
     ],
-    "note": "Example regimens only. The actual medication, dosing, and duration are determined by the MD after reviewing your rash presentation, onset timing, pain level, kidney function, immune status, and red flags. TeleDirectMD does not prescribe controlled substances."
+    "note": "Example regimens only. The actual medication, dosing, and duration are determined by the MD after reviewing your rash presentation, onset timing, pain level, kidney function, immune status, and red flags. TeleDirectMD does not prescribe controlled substances.",
+    "notPrescribed": [
+      "Gabapentin and pregabalin: not prescribed by TeleDirectMD (controlled substances in several states; postherpetic neuralgia needing them is referred to in-person care)."
+    ]
   },
   "homeCare": {
     "sectionTitle": "Home Care, Recovery Timeline, Prevention, and Follow-up",
@@ -752,10 +749,6 @@
       {
         "name": "Acyclovir",
         "id": "acyclovir"
-      },
-      {
-        "name": "Gabapentin",
-        "id": "gabapentin"
       }
     ],
     "treatments": [

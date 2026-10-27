@@ -10,11 +10,26 @@
     "subtitle": "{state} adult care by secure video visit, flat $79 self-pay option, MD-only, insurance is not required.",
     "introParagraph": "Hemorrhoids are swollen veins around the anus that cause itching, discomfort, a lump near the anus, and sometimes a small amount of bright red blood on toilet paper. Most external hemorrhoids are uncomplicated and respond to conservative care: warm sitz baths, 25 to 30 grams of fiber daily, plenty of fluids, and avoiding straining on the toilet. When over-the-counter creams are not enough, prescription-strength hydrocortisone 2.5% and lidocaine 5% can reduce inflammation and pain. TeleDirectMD provides a safety-first telehealth evaluation for adults with external uncomplicated hemorrhoids: we screen for red flags including a firm, extremely painful bluish lump (thrombosed hemorrhoid), significant rectal bleeding, fever, and bleeding in someone 45 or older without a recent colonoscopy, then prescribe topical treatment and conservative-care guidance when appropriate. Internal or thrombosed hemorrhoids, heavy bleeding, and symptoms lasting more than 4 weeks require in-person evaluation. This page is for adults located in {state}, including {cities}.",
     "tocLinks": [
-      { "href": "eligibility-checklist", "label": "Eligibility checklist" },
-      { "href": "decision-guide", "label": "Decision guide" },
-      { "href": "treatment-options", "label": "Treatment options" },
-      { "href": "faq", "label": "FAQs" },
-      { "href": "references", "label": "References" }
+      {
+        "href": "eligibility-checklist",
+        "label": "Eligibility checklist"
+      },
+      {
+        "href": "decision-guide",
+        "label": "Decision guide"
+      },
+      {
+        "href": "treatment-options",
+        "label": "Treatment options"
+      },
+      {
+        "href": "faq",
+        "label": "FAQs"
+      },
+      {
+        "href": "references",
+        "label": "References"
+      }
     ],
     "benefits": [
       "Flat $79 self-pay option",
@@ -190,10 +205,30 @@
       "Clear follow-up and referral instructions"
     ],
     "comparisonBars": [
-      { "name": "TeleDirectMD", "value": "$79", "width": 20, "isTdmd": true },
-      { "name": "Primary Care", "value": "$100 to $350+", "width": 52, "isTdmd": false },
-      { "name": "Urgent Care", "value": "$150 to $300+", "width": 60, "isTdmd": false },
-      { "name": "Emergency Room", "value": "$500 to $3,000+", "width": 100, "isTdmd": false }
+      {
+        "name": "TeleDirectMD",
+        "value": "$79",
+        "width": 20,
+        "isTdmd": true
+      },
+      {
+        "name": "Primary Care",
+        "value": "$100 to $350+",
+        "width": 52,
+        "isTdmd": false
+      },
+      {
+        "name": "Urgent Care",
+        "value": "$150 to $300+",
+        "width": 60,
+        "isTdmd": false
+      },
+      {
+        "name": "Emergency Room",
+        "value": "$500 to $3,000+",
+        "width": 100,
+        "isTdmd": false
+      }
     ],
     "footnote": "The $79 visit covers the evaluation. Prescription cream costs are separate and vary by pharmacy; many over-the-counter options are also appropriate as first-line conservative care, and your MD will help you choose.",
     "noHiddenFees": "No hidden fees. If topical prescription medication is not clinically appropriate, you still receive a complete evaluation, conservative-care guidance, and clear instructions on what level of care you need next."
@@ -210,29 +245,95 @@
     "sectionTitle": "Causes and Risk Factors",
     "intro": "Hemorrhoids result from increased pressure on the veins around the anus. Understanding the likely trigger helps guide prevention and tells us how urgently care is needed.",
     "items": [
-      { "label": "Straining and constipation:", "text": "hard stools and straining during bowel movements are the most common triggers, which is why fiber and fluids are first-line prevention" },
-      { "label": "Prolonged sitting:", "text": "sitting on the toilet for long periods, especially while reading or using a phone, increases pressure on the anal veins" },
-      { "label": "Low-fiber diet:", "text": "a diet low in fiber leads to hard stools and straining" },
-      { "label": "Pregnancy and childbirth:", "text": "increased abdominal pressure and hormonal changes make hemorrhoids common during and after pregnancy" },
-      { "label": "Obesity and heavy lifting:", "text": "excess weight and repeated heavy lifting raise intra-abdominal pressure" },
-      { "label": "Aging:", "text": "supporting tissue in the anal canal weakens with age, making hemorrhoids more common in middle and older adults" },
-      { "label": "Chronic diarrhea:", "text": "frequent bowel movements can also irritate and worsen hemorrhoids" }
+      {
+        "label": "Straining and constipation:",
+        "text": "hard stools and straining during bowel movements are the most common triggers, which is why fiber and fluids are first-line prevention"
+      },
+      {
+        "label": "Prolonged sitting:",
+        "text": "sitting on the toilet for long periods, especially while reading or using a phone, increases pressure on the anal veins"
+      },
+      {
+        "label": "Low-fiber diet:",
+        "text": "a diet low in fiber leads to hard stools and straining"
+      },
+      {
+        "label": "Pregnancy and childbirth:",
+        "text": "increased abdominal pressure and hormonal changes make hemorrhoids common during and after pregnancy"
+      },
+      {
+        "label": "Obesity and heavy lifting:",
+        "text": "excess weight and repeated heavy lifting raise intra-abdominal pressure"
+      },
+      {
+        "label": "Aging:",
+        "text": "supporting tissue in the anal canal weakens with age, making hemorrhoids more common in middle and older adults"
+      },
+      {
+        "label": "Chronic diarrhea:",
+        "text": "frequent bowel movements can also irritate and worsen hemorrhoids"
+      }
     ],
     "closing": "Not every case of itching or bleeding is hemorrhoids. Anal fissures, perianal abscess, fistulas, and, less commonly, colorectal conditions can cause similar symptoms. That is why significant bleeding, bleeding mixed with stool, or bleeding in someone 45 or older without a recent colonoscopy warrants in-person evaluation rather than telehealth alone."
   },
   "symptomsAndRedFlags": {
     "sectionTitle": "Symptoms and Red Flags for Hemorrhoids in {state}",
     "intro": "Use this table to understand which hemorrhoid symptoms are appropriate for telehealth and which require urgent in-person evaluation.",
-    "headers": ["Symptom or situation", "What it suggests", "Telehealth appropriate?", "Red flag requiring urgent in-person care"],
+    "headers": [
+      "Symptom or situation",
+      "What it suggests",
+      "Telehealth appropriate?",
+      "Red flag requiring urgent in-person care"
+    ],
     "rows": [
-      ["Perianal itching, mild discomfort, or a soft lump", "External uncomplicated hemorrhoid", "Yes", "No"],
-      ["Small amount of bright red blood on toilet paper", "External hemorrhoid or fissure", "Often yes", "If bleeding is heavy or recurrent"],
-      ["Pain with a firm, bluish lump near the anus", "Thrombosed external hemorrhoid", "No", "Urgent in-person evaluation; may need drainage within 72 hours"],
-      ["Blood mixed with stool, clots, or soaking a pad", "Possible source higher in the colon", "No", "Urgent in-person or ER evaluation"],
-      ["Bleeding with dizziness, lightheadedness, or fainting", "Significant blood loss", "No", "Go to the ER immediately"],
-      ["Fever with perianal pain, swelling, or redness", "Possible perianal abscess", "No", "Urgent in-person or ER evaluation"],
-      ["New rectal bleeding in an adult 45 or older", "Needs colorectal cancer screening", "No", "In-person evaluation and colonoscopy discussion"],
-      ["Symptoms lasting more than 4 weeks", "May need specialist evaluation", "No", "Refer to colorectal surgery or gastroenterology"]
+      [
+        "Perianal itching, mild discomfort, or a soft lump",
+        "External uncomplicated hemorrhoid",
+        "Yes",
+        "No"
+      ],
+      [
+        "Small amount of bright red blood on toilet paper",
+        "External hemorrhoid or fissure",
+        "Often yes",
+        "If bleeding is heavy or recurrent"
+      ],
+      [
+        "Pain with a firm, bluish lump near the anus",
+        "Thrombosed external hemorrhoid",
+        "No",
+        "Urgent in-person evaluation; may need drainage within 72 hours"
+      ],
+      [
+        "Blood mixed with stool, clots, or soaking a pad",
+        "Possible source higher in the colon",
+        "No",
+        "Urgent in-person or ER evaluation"
+      ],
+      [
+        "Bleeding with dizziness, lightheadedness, or fainting",
+        "Significant blood loss",
+        "No",
+        "Go to the ER immediately"
+      ],
+      [
+        "Fever with perianal pain, swelling, or redness",
+        "Possible perianal abscess",
+        "No",
+        "Urgent in-person or ER evaluation"
+      ],
+      [
+        "New rectal bleeding in an adult 45 or older",
+        "Needs colorectal cancer screening",
+        "No",
+        "In-person evaluation and colonoscopy discussion"
+      ],
+      [
+        "Symptoms lasting more than 4 weeks",
+        "May need specialist evaluation",
+        "No",
+        "Refer to colorectal surgery or gastroenterology"
+      ]
     ]
   },
   "differentialDiagnosis": {
@@ -331,16 +432,58 @@
   "medications": {
     "sectionTitle": "Common Medication Options",
     "intro": "These are common options for external uncomplicated hemorrhoid symptoms. The actual medication is determined by the MD after reviewing your symptoms, bleeding pattern, allergies, and medical history. Per ASCRS guidelines, conservative care is first-line, with topical prescription medication added for symptom relief.",
-    "headers": ["Option", "Examples", "Used for", "Key considerations"],
-    "rows": [
-      ["Hydrocortisone 2.5% cream/ointment (Rx)", "Anusol-HC, Proctocort", "Itching, inflammation, irritation", "Apply twice daily for up to 7 days only; longer use thins skin"],
-      ["Lidocaine 5% ointment (Rx)", "Generic lidocaine", "Pain relief", "Apply as needed to the affected area"],
-      ["Witch hazel pads (OTC)", "Tucks", "Itching, discomfort", "Apply after bowel movements as needed"],
-      ["Pramoxine / phenylephrine (OTC)", "Preparation H", "Itching, discomfort, minor swelling", "Use as directed; phenylephrine briefly narrows blood vessels"],
-      ["Docusate sodium (OTC)", "Colace", "Stool softening to prevent straining", "100 mg twice daily; not a stimulant laxative"],
-      ["Psyllium fiber (OTC)", "Metamucil", "Fiber supplementation", "25 to 30 g fiber daily with adequate fluids"]
+    "headers": [
+      "Option",
+      "Examples",
+      "Used for",
+      "Key considerations"
     ],
-    "note": "Example options only. The actual medication, dosing, and duration are determined by the MD after reviewing your symptoms, risk factors, allergies, and medical history. TeleDirectMD does not prescribe controlled substances, opioid pain medications, or specialist-only ointments such as nitroglycerin or nifedipine."
+    "rows": [
+      [
+        "Hydrocortisone 2.5% cream/ointment (Rx)",
+        "Anusol-HC, Proctocort",
+        "Itching, inflammation, irritation",
+        "Apply twice daily for up to 7 days only; longer use thins skin"
+      ],
+      [
+        "Lidocaine 5% ointment (Rx)",
+        "Generic lidocaine",
+        "Pain relief",
+        "Apply as needed to the affected area"
+      ],
+      [
+        "Witch hazel pads (OTC)",
+        "Tucks",
+        "Itching, discomfort",
+        "Apply after bowel movements as needed"
+      ],
+      [
+        "Pramoxine / phenylephrine (OTC)",
+        "Preparation H",
+        "Itching, discomfort, minor swelling",
+        "Use as directed; phenylephrine briefly narrows blood vessels"
+      ],
+      [
+        "Docusate sodium (OTC)",
+        "Colace",
+        "Stool softening to prevent straining",
+        "100 mg twice daily; not a stimulant laxative"
+      ],
+      [
+        "Psyllium fiber (OTC)",
+        "Metamucil",
+        "Fiber supplementation",
+        "25 to 30 g fiber daily with adequate fluids"
+      ]
+    ],
+    "note": "Example options only. The actual medication, dosing, and duration are determined by the MD after reviewing your symptoms, risk factors, allergies, and medical history. TeleDirectMD does not prescribe controlled substances, opioid pain medications, or specialist-only ointments such as nitroglycerin or nifedipine.",
+    "fdaNotes": [
+      "Hydrocortisone 2.5% cream or ointment, Rx only, has not been approved by the FDA as safe and effective to treat hemorrhoids; it is labeled for inflammatory and pruritic dermatoses, and the American Society of Colon and Rectal Surgeons 2024 guideline supports short courses of topical corticosteroid for symptomatic relief. Only a licensed physician may prescribe this medication for this condition if, in his clinical judgment, use is medically appropriate. You are encouraged to report negative side effects of prescription drugs to the FDA at www.fda.gov/medwatch or 1-800-FDA-1088.",
+      "Lidocaine 5% ointment, Rx only, has not been approved by the FDA as safe and effective to treat hemorrhoid pain; it is labeled for topical anesthesia of accessible mucous membranes, and short courses are standard supportive care for anal pain. Only a licensed physician may prescribe this medication for this condition if, in his clinical judgment, use is medically appropriate. You are encouraged to report negative side effects of prescription drugs to the FDA at www.fda.gov/medwatch or 1-800-FDA-1088."
+    ],
+    "notPrescribed": [
+      "Rubber band ligation, excision of a thrombosed hemorrhoid, and other procedures, which need in-person care."
+    ]
   },
   "homeCare": {
     "sectionTitle": "Home Care, Prevention, and Follow-up",
@@ -393,9 +536,18 @@
     "alternatives": {
       "title": "Alternative Care Options",
       "items": [
-        { "label": "Emergency room:", "text": "heavy rectal bleeding, bleeding with dizziness or fainting, or severe perianal pain with fever" },
-        { "label": "Urgent care:", "text": "a firm painful bluish lump (thrombosed hemorrhoid) or symptoms needing a same-day exam" },
-        { "label": "Primary care or colorectal specialist:", "text": "recurrent symptoms, new bleeding needing workup, or symptoms lasting more than 4 weeks" }
+        {
+          "label": "Emergency room:",
+          "text": "heavy rectal bleeding, bleeding with dizziness or fainting, or severe perianal pain with fever"
+        },
+        {
+          "label": "Urgent care:",
+          "text": "a firm painful bluish lump (thrombosed hemorrhoid) or symptoms needing a same-day exam"
+        },
+        {
+          "label": "Primary care or colorectal specialist:",
+          "text": "recurrent symptoms, new bleeding needing workup, or symptoms lasting more than 4 weeks"
+        }
       ]
     }
   },
@@ -505,41 +657,115 @@
     }
   ],
   "inlineLinks": [
-    { "slug": "sore-throat-treatment-online", "label": "Sore Throat" },
-    { "slug": "viral-gastroenteritis-treatment-online", "label": "Viral Gastroenteritis" },
-    { "slug": "uti-treatment-online", "label": "UTI Treatment" },
-    { "slug": "impetigo-treatment-online", "label": "Impetigo" },
-    { "slug": "cellulitis-treatment-online", "label": "Cellulitis" },
-    { "slug": "common-cold-treatment-online", "label": "Common Cold" }
+    {
+      "slug": "sore-throat-treatment-online",
+      "label": "Sore Throat"
+    },
+    {
+      "slug": "viral-gastroenteritis-treatment-online",
+      "label": "Viral Gastroenteritis"
+    },
+    {
+      "slug": "uti-treatment-online",
+      "label": "UTI Treatment"
+    },
+    {
+      "slug": "impetigo-treatment-online",
+      "label": "Impetigo"
+    },
+    {
+      "slug": "cellulitis-treatment-online",
+      "label": "Cellulitis"
+    },
+    {
+      "slug": "common-cold-treatment-online",
+      "label": "Common Cold"
+    }
   ],
   "cityBlock": {
     "title": "Adults We Serve Across {state}",
     "text": "TeleDirectMD evaluates adults located throughout {state}, including {citiesExtended}. Whether you are searching for hemorrhoid treatment online in {city1}, prescription hemorrhoid cream in {city2}, external hemorrhoid medicine in {city3}, or hemorrhoid care anywhere else in {state}, the same telehealth eligibility and safety rules apply."
   },
   "icd10Codes": [
-    { "code": "K64.4", "description": "External hemorrhoids" },
-    { "code": "K64.5", "description": "Perianal venous thrombosis (thrombosed external hemorrhoids)" },
-    { "code": "K64.9", "description": "Unspecified hemorrhoids" }
+    {
+      "code": "K64.4",
+      "description": "External hemorrhoids"
+    },
+    {
+      "code": "K64.5",
+      "description": "Perianal venous thrombosis (thrombosed external hemorrhoids)"
+    },
+    {
+      "code": "K64.9",
+      "description": "Unspecified hemorrhoids"
+    }
   ],
   "jsonLd": {
     "conditionName": "Hemorrhoids",
-    "conditionAlternateNames": ["External hemorrhoids", "Piles", "Hemorrhoid disease"],
+    "conditionAlternateNames": [
+      "External hemorrhoids",
+      "Piles",
+      "Hemorrhoid disease"
+    ],
     "conditionDescription": "Hemorrhoids are swollen veins around the anus and lower rectum causing itching, discomfort, a lump, and sometimes mild bleeding. TeleDirectMD evaluates external uncomplicated hemorrhoids by video visit, prescribing prescription-strength hydrocortisone 2.5% and lidocaine 5% with conservative-care guidance per ASCRS guidelines, and referring anything requiring exam, procedure, or bleeding workup.",
     "primaryIcd10": "K64.4",
     "anatomy": "Anal canal and lower rectum",
-    "symptoms": ["Perianal itching", "Anal discomfort", "Lump near the anus", "Mild rectal bleeding", "Anal pain"],
-    "riskFactors": ["Straining during bowel movements", "Constipation", "Low-fiber diet", "Prolonged sitting", "Pregnancy", "Obesity"],
-    "complications": ["Thrombosed hemorrhoid", "Significant bleeding", "Anemia from chronic blood loss", "Perianal abscess (mimic)"],
+    "symptoms": [
+      "Perianal itching",
+      "Anal discomfort",
+      "Lump near the anus",
+      "Mild rectal bleeding",
+      "Anal pain"
+    ],
+    "riskFactors": [
+      "Straining during bowel movements",
+      "Constipation",
+      "Low-fiber diet",
+      "Prolonged sitting",
+      "Pregnancy",
+      "Obesity"
+    ],
+    "complications": [
+      "Thrombosed hemorrhoid",
+      "Significant bleeding",
+      "Anemia from chronic blood loss",
+      "Perianal abscess (mimic)"
+    ],
     "epidemiology": "Hemorrhoids are among the most common anorectal conditions in adults, with prevalence rising with age and during pregnancy. Most are uncomplicated and respond to conservative management.",
     "drugs": [
-      { "name": "Hydrocortisone 2.5%", "id": "hydrocortisone" },
-      { "name": "Lidocaine 5%", "id": "lidocaine" },
-      { "name": "Docusate sodium", "id": "docusate" },
-      { "name": "Psyllium", "id": "psyllium" }
+      {
+        "name": "Hydrocortisone 2.5%",
+        "id": "hydrocortisone"
+      },
+      {
+        "name": "Lidocaine 5%",
+        "id": "lidocaine"
+      },
+      {
+        "name": "Docusate sodium",
+        "id": "docusate"
+      },
+      {
+        "name": "Psyllium",
+        "id": "psyllium"
+      }
     ],
-    "treatments": ["Fiber and fluid supplementation", "Warm sitz baths", "Prescription-strength hydrocortisone 2.5%", "Lidocaine 5% ointment", "Straining avoidance"],
-    "tests": ["Symptom review and red-flag screening", "In-person anoscopy or colonoscopy when indicated for bleeding workup"],
-    "specialties": ["Family Medicine", "Telemedicine", "Colorectal Surgery"],
+    "treatments": [
+      "Fiber and fluid supplementation",
+      "Warm sitz baths",
+      "Prescription-strength hydrocortisone 2.5%",
+      "Lidocaine 5% ointment",
+      "Straining avoidance"
+    ],
+    "tests": [
+      "Symptom review and red-flag screening",
+      "In-person anoscopy or colonoscopy when indicated for bleeding workup"
+    ],
+    "specialties": [
+      "Family Medicine",
+      "Telemedicine",
+      "Colorectal Surgery"
+    ],
     "guidelines": [
       {
         "name": "ASCRS Clinical Practice Guidelines for the Management of Hemorrhoids",
@@ -548,7 +774,14 @@
         "id": "ascrs-hemorrhoids"
       }
     ],
-    "knowsAbout": ["Hemorrhoid treatment", "Prescription hemorrhoid cream", "External hemorrhoid care", "Thrombosed hemorrhoid triage", "Rectal bleeding red flags", "Family Medicine"],
+    "knowsAbout": [
+      "Hemorrhoid treatment",
+      "Prescription hemorrhoid cream",
+      "External hemorrhoid care",
+      "Thrombosed hemorrhoid triage",
+      "Rectal bleeding red flags",
+      "Family Medicine"
+    ],
     "serviceDescription": "Secure video visit for {state} adults with external uncomplicated hemorrhoid symptoms, including red-flag screening, prescription-strength topical treatment, and conservative-care guidance per ASCRS guidelines.",
     "webpageDescription": "{state} hemorrhoid treatment by secure MD video visit for adults. Prescription-strength hemorrhoid cream (hydrocortisone 2.5% and lidocaine), conservative-care guidance, and red-flag screening for thrombosed hemorrhoids, bleeding, and other causes."
   },

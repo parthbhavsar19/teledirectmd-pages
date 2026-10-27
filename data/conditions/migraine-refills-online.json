@@ -48,7 +48,7 @@
       "note": "Adults 18+ only. TeleDirectMD is not an emergency service. Seek emergency care now for the worst headache of your life, sudden thunderclap headache, headache with fever and stiff neck, new weakness or numbness, vision loss, speech difficulty, or confusion. TeleDirectMD does not prescribe controlled substances. Triptans are not controlled substances."
     },
     "icd10Display": "G43.909 (final coding depends on clinical details)",
-    "quickAnswer": "Yes — adults (18+) in {state} with an established migraine diagnosis can refill medication online. A board-certified MD reviews your attack frequency and pattern by secure video and continues your current acute therapy (a triptan or NSAID) or preventive medication (beta-blocker, topiramate, amitriptyline), sent to your pharmacy same day. Visit price: $79 flat, no insurance required. This is stable refill care, not new diagnosis. The worst headache of your life, or headache with fever and stiff neck, needs emergency evaluation, not telehealth."
+    "quickAnswer": "Yes — adults (18+) in {state} with an established migraine diagnosis can refill medication online. A board-certified MD reviews your attack frequency and pattern by secure video and continues your current acute therapy (a triptan or NSAID) or preventive medication (beta-blocker or topiramate), sent to your pharmacy same day. Visit price: $79 flat, no insurance required. This is stable refill care, not new diagnosis. The worst headache of your life, or headache with fever and stiff neck, needs emergency evaluation, not telehealth."
   },
   "eligibility": {
     "sectionTitle": "Migraine Refill Telehealth Eligibility Checklist for {state}",
@@ -231,7 +231,7 @@
   "whatIsCondition": {
     "sectionTitle": "What Is Migraine Medication Refill Care?",
     "paragraphs": [
-      "Migraine medication refill care means reviewing whether it is safe and appropriate to continue a patient's current migraine medicines, including acute treatments such as triptans and preventive medications such as topiramate, propranolol, or amitriptyline, when they are running low or out of medication.",
+      "Migraine medication refill care means reviewing whether it is safe and appropriate to continue a patient's current migraine medicines, including acute treatments such as triptans and preventive medications such as topiramate or propranolol, when they are running low or out of medication.",
       "Migraine affects approximately 12 percent of US adults, or roughly 39 million people. Treatment is divided into two categories: acute or abortive therapy to stop individual attacks, and preventive therapy to reduce attack frequency and severity over time. The AHS consensus statement supports triptans as first-line acute treatment for moderate-to-severe migraine, and AAN/AHS guidelines recommend preventive therapy when migraine occurs frequently enough to cause significant disability.",
       "A safe telehealth refill plan depends on whether the patient's headache pattern is stable. Refill care is not the same thing as managing a new headache diagnosis, evaluating red-flag neurological symptoms, or withdrawing from medication overuse headache. TeleDirectMD screens for these distinctions and directs complex cases to in-person neurology evaluation."
     ]
@@ -404,7 +404,7 @@
       },
       {
         "title": "Bridge preventive medication refills",
-        "text": "For adults already using preventive therapy, refill continuity is important because stopping preventive medication can lead to rebound increase in migraine frequency within weeks. Common preventive medications include propranolol, topiramate, and amitriptyline. Dose changes to preventive medications are generally best managed by the prescribing clinician with regular follow-up."
+        "text": "For adults already using preventive therapy, refill continuity is important because stopping preventive medication can lead to rebound increase in migraine frequency within weeks. Preventive medications refilled here are propranolol, metoprolol, and topiramate. Dose changes to preventive medications are generally best managed by the prescribing clinician with regular follow-up."
       },
       {
         "title": "Acute adjunctive medications",
@@ -464,19 +464,27 @@
         "Cognitive side effects are common (word-finding difficulty, concentration problems). Weight loss, kidney stone risk, and paresthesias. Teratogenic — contraindicated in pregnancy."
       ],
       [
-        "Amitriptyline (preventive)",
-        "Amitriptyline 10-75 mg at bedtime",
-        "Migraine prevention, especially with comorbid insomnia or tension-type headache",
-        "Sedating — take at bedtime. Anticholinergic side effects include dry mouth, constipation, and urinary retention. Start low and titrate slowly."
-      ],
-      [
         "Combination acute",
         "Sumatriptan plus naproxen (Treximet equivalent)",
         "Moderate-to-severe migraine when single-agent therapy is insufficient",
         "Combines triptan mechanism with anti-inflammatory effect. Same triptan contraindications and NSAID use limits apply."
+      ],
+      [
+        "CGRP monoclonal antibody (refill only)",
+        "Erenumab, fremanezumab, galcanezumab (monthly self-injection)",
+        "Continuation of a preventive already started and monitored by a neurologist",
+        "Refill only, never started here. Requires the prescribing neurologist's plan; a visit every 90 days continues it."
       ]
     ],
-    "note": "Medication selection and dosing are individualized. TeleDirectMD does not prescribe controlled substances. Triptans are not controlled substances, and refill treatment online is intended as bridge care when clinically appropriate, not as a substitute for formal headache management when the pattern is unstable."
+    "note": "Medication selection and dosing are individualized. TeleDirectMD does not prescribe controlled substances. Triptans are not controlled substances, and refill treatment online is intended as bridge care when clinically appropriate, not as a substitute for formal headache management when the pattern is unstable. Refill lab rule: for topiramate, a basic metabolic panel (bicarbonate and kidney function) from the last 12 months is required, either uploaded before the visit or ordered through Quest at the visit; without one, the physician may provide no more than a 30-day bridge supply while the lab is obtained.",
+    "fdaNotes": [
+      "Metoprolol (25 to 200 mg daily), Rx only, has not been approved by the FDA as safe and effective to treat migraine prevention; the American Academy of Neurology and American Headache Society rate it Level A evidence for prevention, while propranolol and timolol carry the FDA-approved indication. Only a licensed physician may prescribe this medication for this condition if, in his clinical judgment, use is medically appropriate. You are encouraged to report negative side effects of prescription drugs to the FDA at www.fda.gov/medwatch or 1-800-FDA-1088."
+    ],
+    "notPrescribed": [
+      "Amitriptyline: not prescribed by TeleDirectMD.",
+      "New starts of preventive medication (propranolol, metoprolol, topiramate, CGRP antibodies): refills only for patients already taking them.",
+      "Butalbital products, opioids, and other controlled substances."
+    ]
   },
   "homeCare": {
     "sectionTitle": "Home Care, Prevention, and Follow-up",
@@ -565,7 +573,7 @@
       },
       {
         "question": "Can I refill my preventive migraine medication online?",
-        "answer": "Often yes, if your migraines are well controlled on your current preventive medication and no dose changes are needed. Preventive medications such as propranolol, topiramate, and amitriptyline are not controlled substances. If your migraines are worsening despite preventive therapy, formal headache management with neurology is usually more appropriate."
+        "answer": "Often yes, if your migraines are well controlled on your current preventive medication and no dose changes are needed. Preventive medications such as propranolol, metoprolol, and topiramate are not controlled substances. If your migraines are worsening despite preventive therapy, formal headache management with neurology is usually more appropriate."
       },
       {
         "question": "What is medication overuse headache?",
@@ -716,7 +724,7 @@
       "Migraine headache",
       "Migraine preventive medication refill"
     ],
-    "conditionDescription": "Migraine medication refill care involves reviewing whether it is safe and appropriate to continue a patient's established migraine medicines, including triptans for acute treatment and preventive medications such as propranolol, topiramate, and amitriptyline. TeleDirectMD evaluates adult migraine refill requests by video visit with safety-first red-flag screening and provides short bridge refill guidance when appropriate, with clear rules for when in-person neurology evaluation is needed.",
+    "conditionDescription": "Migraine medication refill care involves reviewing whether it is safe and appropriate to continue a patient's established migraine medicines, including triptans for acute treatment and preventive medications such as propranolol, metoprolol, and topiramate. TeleDirectMD evaluates adult migraine refill requests by video visit with safety-first red-flag screening and provides short bridge refill guidance when appropriate, with clear rules for when in-person neurology evaluation is needed.",
     "primaryIcd10": "G43.909",
     "anatomy": "Brain",
     "symptoms": [
@@ -764,10 +772,6 @@
       {
         "name": "Topiramate",
         "id": "topiramate"
-      },
-      {
-        "name": "Amitriptyline",
-        "id": "amitriptyline"
       },
       {
         "name": "Naproxen",

@@ -404,7 +404,7 @@
       },
       {
         "title": "Alternative and recurrent BV treatment",
-        "text": "Alternative regimens include clindamycin 300mg orally twice daily for 7 days, secnidazole 2g oral granules as a single dose, or tinidazole. For recurrent BV, which occurs in up to 66% of women within one year, the CDC recommends a stepwise approach: oral nitroimidazole for 7 days, followed by intravaginal boric acid 600mg daily for 21 days, followed by suppressive metronidazole gel twice weekly for 4 to 6 months. TeleDirectMD does not prescribe or recommend boric acid. If you have recurrent BV that may need it, we will refer you to a gynecologist. ACOG 2025 now recommends concurrent sexual partner therapy for recurrent BV."
+        "text": "Alternative regimens include clindamycin 300mg orally twice daily for 7 days or tinidazole. For recurrent BV, which occurs in up to 66% of women within one year, the CDC recommends a stepwise approach: oral nitroimidazole for 7 days, followed by intravaginal boric acid 600mg daily for 21 days, followed by suppressive metronidazole gel twice weekly for 4 to 6 months. TeleDirectMD does not prescribe or recommend boric acid. If you have recurrent BV that may need it, we will refer you to a gynecologist. ACOG 2025 now recommends concurrent sexual partner therapy for recurrent BV."
       },
       {
         "title": "When telehealth care is not enough",
@@ -454,13 +454,20 @@
         "CDC alternative regimen. May be preferred when intravaginal therapy is not desired. Risk of Clostridioides difficile colitis, though uncommon at this dose."
       ],
       [
-        "Secnidazole",
-        "2 g oral granules as a single dose",
-        "Single dose",
-        "CDC alternative. Convenient one-dose option. Sprinkle granules on applesauce, yogurt, or pudding. Same alcohol avoidance as metronidazole."
+        "Tinidazole",
+        "2 g by mouth once daily for 2 days, or 1 g once daily for 5 days",
+        "2 to 5 days",
+        "FDA-approved for BV; CDC alternative regimen. No alcohol during treatment and for 72 hours after. Not used in the first trimester of pregnancy."
       ]
     ],
-    "note": "Example regimens only. The actual medication, dosing, and duration are determined by the MD after reviewing your symptoms, risk factors, recurrence history, and any red flags. TeleDirectMD does not prescribe controlled substances."
+    "note": "Example regimens only. The actual medication, dosing, and duration are determined by the MD after reviewing your symptoms, risk factors, recurrence history, and any red flags. TeleDirectMD does not prescribe controlled substances.",
+    "fdaNotes": [
+      "Oral metronidazole (500 mg twice daily for 7 days), Rx only, has not been approved by the FDA as safe and effective to treat bacterial vaginosis; it is the CDC 2021 STI Treatment Guidelines recommended first-line regimen, while the FDA-approved labeling of the oral tablet does not list bacterial vaginosis. Only a licensed physician may prescribe this medication for this condition if, in his clinical judgment, use is medically appropriate. You are encouraged to report negative side effects of prescription drugs to the FDA at www.fda.gov/medwatch or 1-800-FDA-1088."
+    ],
+    "notPrescribed": [
+      "Secnidazole (Solosec): not prescribed by TeleDirectMD.",
+      "Boric acid: not prescribed or recommended by TeleDirectMD."
+    ]
   },
   "homeCare": {
     "sectionTitle": "Home Care, Recovery Timeline, Prevention, and Follow-up",
@@ -729,10 +736,6 @@
       {
         "name": "Clindamycin",
         "id": "clindamycin"
-      },
-      {
-        "name": "Secnidazole",
-        "id": "secnidazole"
       },
       {
         "name": "Tinidazole",

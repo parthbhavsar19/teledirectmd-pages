@@ -98,7 +98,7 @@ const FAQ_ITEMS = [
     question: 'What medications treat vaginal dryness and how much do they cost in California?',
     answer: (
       <p>
-        Per ACOG and NAMS, first-line treatments include: low-dose vaginal estradiol cream 0.01% (GoodRx approximately $34/tube at goodrx.com); ospemifene 60 mg oral (Osphena, approximately $200–$350/month); vaginal DHEA/prasterone (Intrarosa, approximately $250–$400/month); and OTC vaginal moisturizers such as Replens (approximately $15–$30 OTC). Prescription costs at the pharmacy are separate from the TeleDirectMD visit fee of $79 self-pay.
+        Per ACOG and NAMS, first-line treatments include: low-dose vaginal estradiol cream 0.01% (GoodRx approximately $34/tube at goodrx.com); and OTC vaginal moisturizers such as Replens (approximately $15–$30 OTC). Prescription costs at the pharmacy are separate from the TeleDirectMD visit fee of $79 self-pay.
       </p>
     ),
   },
@@ -152,7 +152,7 @@ const FAQ_ITEMS = [
     question: 'Are non-hormonal options available for vaginal dryness treatment?',
     answer: (
       <p>
-        Yes. For women who cannot or prefer not to use estrogen, non-hormonal options endorsed by NAMS include: OTC vaginal moisturizers (Replens, HydroGel) applied regularly; vaginal lubricants used during intercourse; ospemifene (Osphena) — an oral SERM that is estrogen-free and FDA-approved for GSM-related dyspareunia; and vaginal DHEA (prasterone/Intrarosa), which works locally without raising systemic estrogen levels. These options can be discussed and prescribed at a TeleDirectMD video visit.
+        Yes. For women who cannot or prefer not to use estrogen, non-hormonal options endorsed by NAMS include OTC vaginal moisturizers (Replens, HydroGel) applied regularly and vaginal lubricants used during intercourse. TeleDirectMD does not prescribe ospemifene (Osphena) or vaginal DHEA (Intrarosa); if over-the-counter options are not enough and estrogen is not an option for you, your gynecologist or oncologist can evaluate those prescriptions.
       </p>
     ),
   },
@@ -331,7 +331,7 @@ export default function CaVaginalDrynessTreatmentOnline() {
                   <li>No current abnormal uterine bleeding</li>
                   <li>No active or recent hormone-sensitive breast cancer (for estrogen preparations)</li>
                   <li>Willing to disclose full medical history and contraindications honestly</li>
-                  <li>Seeking low-dose vaginal estrogen, ospemifene, vaginal DHEA, or OTC moisturizer guidance</li>
+                  <li>Seeking low-dose vaginal estrogen or OTC moisturizer guidance</li>
                 </ul>
               </div>
               <div className="tdmd-ca-cond__dual-card tdmd-ca-cond__dual-card--alert">
@@ -374,7 +374,7 @@ export default function CaVaginalDrynessTreatmentOnline() {
 
             <h3>Are vaginal dryness treatment (gsm) medications controlled substances under California law?</h3>
             <p>
-              Vaginal estradiol cream, ospemifene, and vaginal DHEA (prasterone) are not controlled substances. They can be prescribed via California telehealth and transmitted electronically to any California pharmacy under Assembly Bill 2789. California requires all prescriptions to be issued electronically under Assembly Bill 2789 (effective January 1, 2022), per the <a href="https://www.mbc.ca.gov/News/" rel="noopener" target="_blank">Medical Board of California</a>. TeleDirectMD does not prescribe controlled substances in any state.
+              Vaginal estradiol cream and inserts are not controlled substances. They can be prescribed via California telehealth and transmitted electronically to any California pharmacy under Assembly Bill 2789. California requires all prescriptions to be issued electronically under Assembly Bill 2789 (effective January 1, 2022), per the <a href="https://www.mbc.ca.gov/News/" rel="noopener" target="_blank">Medical Board of California</a>. TeleDirectMD does not prescribe controlled substances in any state.
             </p>
           </div>
         </section>
@@ -537,18 +537,6 @@ export default function CaVaginalDrynessTreatmentOnline() {
                     <td><a href="https://www.goodrx.com/estradiol" target="_blank" rel="noopener">~$34 / 42.5 g tube with GoodRx</a></td>
                     <td>First-line per ACOG/NAMS. Low systemic absorption. Contraindicated with undiagnosed uterine bleeding or hormone-sensitive breast cancer (discuss with oncologist).</td>
                   </tr>
-                  <tr className="tdmd-ca-uti__med-firstline">
-                    <td><strong>Ospemifene (Osphena) 60 mg oral</strong> · First-line</td>
-                    <td>60 mg orally once daily with food</td>
-                    <td><a href="https://www.goodrx.com/ospemifene" target="_blank" rel="noopener">~$200–$350/month with coupon</a></td>
-                    <td>Oral SERM; FDA-approved for dyspareunia from GSM. Non-vaginal route — alternative for women preferring oral therapy. Avoid with estrogen-sensitive cancer history.</td>
-                  </tr>
-                  <tr className="tdmd-ca-uti__med-firstline">
-                    <td><strong>Vaginal DHEA / prasterone (Intrarosa) 6.5 mg</strong> · First-line</td>
-                    <td>1 suppository intravaginally each night</td>
-                    <td><a href="https://www.goodrx.com/intrarosa" target="_blank" rel="noopener">~$250–$400/month</a></td>
-                    <td>Non-estrogen option; FDA-approved for GSM-related dyspareunia. Option for women with breast cancer history — discuss with oncologist before use.</td>
-                  </tr>
                   <tr>
                     <td><strong>OTC vaginal moisturizers (Replens, HydroGel)</strong></td>
                     <td>Apply 3× weekly as directed</td>
@@ -578,7 +566,7 @@ export default function CaVaginalDrynessTreatmentOnline() {
                   <li>No current abnormal uterine bleeding</li>
                   <li>No active or recent hormone-sensitive breast cancer (for estrogen preparations)</li>
                   <li>Willing to disclose full medical history and contraindications honestly</li>
-                  <li>Seeking low-dose vaginal estrogen, ospemifene, vaginal DHEA, or OTC moisturizer guidance</li>
+                  <li>Seeking low-dose vaginal estrogen or OTC moisturizer guidance</li>
                 </ul>
               </div>
               <div className="tdmd-ca-cond__dual-card tdmd-ca-cond__dual-card--alert">

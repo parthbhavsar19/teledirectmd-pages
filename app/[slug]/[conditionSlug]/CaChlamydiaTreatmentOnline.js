@@ -24,7 +24,6 @@ const CA_PAYORS = [
 const MEDICATIONS = [
   { name: 'Doxycycline hyclate 100 mg', regimen: '100 mg orally twice daily × 7 days', price: '~$13.86 / 14 tablets', priceHref: 'https://www.goodrx.com/doxycycline-hyclate', firstLine: true, notes: 'Preferred first-line per CDC STI Treatment Guidelines 2021 — superior efficacy over azithromycin for urogenital and rectal chlamydia. Avoid during pregnancy.' },
   { name: 'Azithromycin 1 g (Zithromax) — single dose', regimen: '1 g orally as a single dose (4 × 250 mg)', price: '~$15.92 / 1g packet', priceHref: 'https://www.goodrx.com/azithromycin', firstLine: false, notes: 'Alternative regimen; less preferred than doxycycline for non-pregnant adults due to lower efficacy for rectal chlamydia. First-line for pregnant patients.' },
-  { name: 'Levofloxacin 500 mg', regimen: '500 mg orally once daily × 7 days', price: '~$15–$25 / 7 tablets', priceHref: 'https://www.goodrx.com/levofloxacin', firstLine: false, notes: 'Alternative for adults when doxycycline is contraindicated. Avoid in pregnancy.' }
 ];
 
 const CA_SIBLINGS = [
