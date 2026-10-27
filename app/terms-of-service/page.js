@@ -245,6 +245,12 @@ export default function TermsOfService() {
             <a href="/notice-of-privacy-practices/">Notice of Privacy Practices</a>, and{' '}
             <a href="/telehealth-consent/">Telehealth Informed Consent</a>.
           </p>
+          <p>
+            For patients physically located in New York at the time of their visit, medical services
+            are provided by Parth Bhavsar Medicine PLLC, doing business as TeleDirectMD, and references
+            in these Terms to "TeleDirectMD," "we," "us," or "our" include Parth Bhavsar Medicine PLLC
+            for those services.
+          </p>
           <h3>1.2 Electronic Agreement</h3>
           <p>
             Your use of the Services and your electronic completion of the intake form and consent

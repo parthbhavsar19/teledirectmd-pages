@@ -89,6 +89,7 @@ export default function CollegeStudentsPage() {
     { abbr: 'NV', name: 'Nevada' },
     { abbr: 'NH', name: 'New Hampshire' },
     { abbr: 'NJ', name: 'New Jersey' },
+    { abbr: 'NY', name: 'New York' },
     { abbr: 'NC', name: 'North Carolina' },
     { abbr: 'ND', name: 'North Dakota' },
     { abbr: 'OH', name: 'Ohio' },

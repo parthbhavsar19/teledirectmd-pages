@@ -44,7 +44,7 @@ export async function generateMetadata({ params }) {
   const stateIns = getStateInsurance(stateAbbr);
   const pricingNote = stateIns
     ? `$79 flat fee or insurance — we accept ${stateIns.map(p => p.name).join(', ')} in ${state.name}.`
-    : `Self pay option starting at $79. No insurance required.`;
+    : `Self-pay is a flat $79. No insurance required.`;
   const description = `Yes, non-pregnant adult women in ${state.name} may be eligible for a ${medLower} evaluation by video visit with a board-certified MD at TeleDirectMD. ${pricingNote}`;
   return {
     title,
@@ -73,10 +73,10 @@ export default async function FAQDeepDivePage({ params }) {
   const stateInsR = getStateInsurance(stateAbbrR);
   const pricingBlurb = stateInsR
     ? `$79 flat fee or insurance — we accept ${stateInsR.map(p => p.name).join(', ')} in ${state.name}.`
-    : `Self pay option starting at $79. No insurance required.`;
+    : `Self-pay is a flat $79. No insurance required.`;
   const pricingShort = stateInsR
     ? `The visit is $79 flat fee, or you can use insurance if you have ${stateInsR.map(p => p.name).join(', ')}.`
-    : `The visit is a self pay option starting at $79. Insurance is not required.`;
+    : `The visit is a flat $79 self-pay option. Insurance is not required.`;
 
   const faqItems = [
     { q: 'Does TeleDirectMD treat male UTIs?', a: 'No. We do not treat male UTIs, even if symptoms are mild or apparently uncomplicated. UTI care is limited to non-pregnant adult women (18+). Men with UTI symptoms should seek in-person care and should not book a TeleDirectMD UTI visit.' },
@@ -84,7 +84,7 @@ export default async function FAQDeepDivePage({ params }) {
     { q: `Do I need a video visit for ${medDisplay} in ${state.name}?`, a: `TeleDirectMD requires a live, synchronous video visit with a board-certified MD for all evaluations. This ensures a proper clinical assessment, red-flag screening, and individualized treatment decisions. Some states require a real-time clinical encounter for certain prescriptions, and TeleDirectMD meets or exceeds these standards.` },
     { q: `How much does a ${page.concern} evaluation cost?`, a: stateInsR
       ? `The TeleDirectMD visit is $79 flat fee, or you can use insurance. We accept ${stateInsR.map(p => p.name).join(', ')} in ${state.name}. Prescription costs are separate and vary by pharmacy. There are no hidden fees and no subscription is required.`
-      : `The TeleDirectMD visit is a self pay option starting at $79. Insurance is not required. Prescription costs are separate and vary by pharmacy. There are no hidden fees and no subscription is required.` },
+      : `The TeleDirectMD visit is a flat $79 self-pay option. Insurance is not required. Prescription costs are separate and vary by pharmacy. There are no hidden fees and no subscription is required.` },
     { q: `What happens during the visit?`, a: `You connect by secure video with a board-certified MD licensed in ${state.name}. The physician takes your medical history, evaluates your condition, screens for red flags or contraindications, and discusses treatment options including ${medDisplay} if appropriate. If a prescription is clinically appropriate, it is sent to your preferred pharmacy.` },
     { q: `What if ${medDisplay} is not appropriate for me?`, a: `If ${medDisplay} is not clinically appropriate based on your evaluation, your MD will explain why and discuss alternative options or recommend in-person follow-up. You still receive a complete evaluation and clear guidance on next steps.` },
     { q: `Is TeleDirectMD licensed in ${state.name}?`, a: `Yes. TeleDirectMD is licensed to provide telehealth services in ${state.name}. All visits are conducted by Parth Bhavsar, MD, a board-certified physician who holds an active medical license in ${state.name}.` }
@@ -200,7 +200,7 @@ export default async function FAQDeepDivePage({ params }) {
         {/* Disclaimer */}
         <section style={{ padding: '20px 0', borderTop: '1px solid #e5e7eb' }}>
           <p style={{ fontSize: '0.78rem', color: '#9ca3af', lineHeight: 1.5 }}>
-            TeleDirectMD provides MD-only virtual care for adults (18+) in {state.name}. {stateInsR ? `We accept ${stateInsR.map(p => p.name).join(', ')} in ${state.name}. Self-pay is also available starting at $79.` : 'Insurance is not required. Self pay option starting at $79.'} A prescription for {medDisplay} is not guaranteed and depends on the clinical evaluation. You must be physically located in {state.name} at the time of your visit. TeleDirectMD does not prescribe controlled substances. TeleDirectMD is not an emergency service.
+            TeleDirectMD provides MD-only virtual care for adults (18+) in {state.name}. {stateInsR ? `We accept ${stateInsR.map(p => p.name).join(', ')} in ${state.name}. Self-pay is also available for a flat $79.` : 'Insurance is not required. Self-pay is a flat $79.'} A prescription for {medDisplay} is not guaranteed and depends on the clinical evaluation. You must be physically located in {state.name} at the time of your visit. TeleDirectMD does not prescribe controlled substances. TeleDirectMD is not an emergency service.
           </p>
           <p style={{ fontSize: '0.75rem', color: '#d1d5db', marginTop: '8px' }}>Medically reviewed by Parth Bhavsar, MD. Last updated {today}.</p>
         </section>

@@ -45,7 +45,7 @@ export default function SmallBusinessOwnersPage() {
     },
     {
       q: 'Is TeleDirectMD available in my state?',
-      a: 'TeleDirectMD is licensed in 40+ states. The states we serve include Texas, California, Florida, Georgia, North Carolina, Ohio, Pennsylvania, and dozens more across the country. The states we do not currently serve are Arkansas, Kansas, Massachusetts, New Mexico, New York, Oregon, Rhode Island, and Wisconsin. As long as you are physically located in one of our covered states at the time of your visit, you can be seen — regardless of where your business is registered or where you primarily live. Visit our States We Serve page for the complete list.'
+      a: 'TeleDirectMD is licensed in 40+ states. The states we serve include Texas, California, Florida, Georgia, North Carolina, Ohio, Pennsylvania, and dozens more across the country. The states we do not currently serve are Arkansas, Kansas, Massachusetts, New Mexico, Oregon, Rhode Island, and Wisconsin. As long as you are physically located in one of our covered states at the time of your visit, you can be seen — regardless of where your business is registered or where you primarily live. Visit our States We Serve page for the complete list.'
     },
     {
       q: 'Can you prescribe medications during a telehealth visit?',
@@ -89,7 +89,7 @@ export default function SmallBusinessOwnersPage() {
           "@type": "MedicalTherapy",
           "name": "Telehealth Consultations"
         },
-        "areaServed": ["AL","AK","AZ","CA","CO","CT","DC","DE","FL","GA","HI","ID","IL","IN","IA","KY","LA","ME","MD","MI","MN","MS","MO","MT","NE","NV","NH","NJ","NC","ND","OH","OK","PA","SC","SD","TN","TX","UT","VA","VT","WA","WV","WY"]
+        "areaServed": ["AL","AK","AZ","CA","CO","CT","DC","DE","FL","GA","HI","ID","IL","IN","IA","KY","LA","ME","MD","MI","MN","MS","MO","MT","NE","NV","NH","NJ","NY","NC","ND","OH","OK","PA","SC","SD","TN","TX","UT","VA","VT","WA","WV","WY"]
       },
       {
         "@type": "Physician",
@@ -100,7 +100,7 @@ export default function SmallBusinessOwnersPage() {
           "@type": "MedicalOrganization",
           "name": "TeleDirectMD"
         },
-        "licensedIn": ["AL","AK","AZ","CA","CO","CT","DC","DE","FL","GA","HI","ID","IL","IN","IA","KS","KY","LA","ME","MD","MI","MN","MS","MO","MT","NE","NV","NH","NJ","NC","ND","OH","OK","PA","SC","SD","TN","TX","UT","VA","VT","WA","WV","WI","WY"]
+        "licensedIn": ["AL","AK","AZ","CA","CO","CT","DC","DE","FL","GA","HI","ID","IL","IN","IA","KS","KY","LA","ME","MD","MI","MN","MS","MO","MT","NE","NV","NH","NJ","NY","NC","ND","OH","OK","PA","SC","SD","TN","TX","UT","VA","VT","WA","WV","WI","WY"]
       },
       {
         "@type": "FAQPage",
@@ -168,14 +168,14 @@ export default function SmallBusinessOwnersPage() {
               <h1>Telehealth for Small Business Owners and Self-Employed Professionals</h1>
               <p className="tdmd-hero-sub">Licensed physician in 40+ states. No insurance required. Same-day visits, evenings &amp; weekends.</p>
               <p>
-                There are more than 34 million small businesses in the United States — nearly 99.9% of all U.S. businesses. But small business owners and self-employed professionals are among the most likely to delay their own healthcare. Without employer benefits, many are navigating expensive individual marketplace plans or going without insurance entirely. With ACA enhanced subsidies expiring at the end of 2025, annual premiums more than doubled for many marketplace enrollees — rising from an average of $888 to $1,904 per year according to Kaiser Family Foundation estimates. TeleDirectMD offers transparent cash-pay visits starting at $79 with a board-certified physician, same-day availability including evenings and weekends, and coverage across 40+ states — built for professionals whose time is their most valuable asset.
+                There are more than 34 million small businesses in the United States — nearly 99.9% of all U.S. businesses. But small business owners and self-employed professionals are among the most likely to delay their own healthcare. Without employer benefits, many are navigating expensive individual marketplace plans or going without insurance entirely. With ACA enhanced subsidies expiring at the end of 2025, annual premiums more than doubled for many marketplace enrollees — rising from an average of $888 to $1,904 per year according to Kaiser Family Foundation estimates. TeleDirectMD offers transparent flat $79 cash-pay visits with a board-certified physician, same-day availability including evenings and weekends, and coverage across 40+ states — built for professionals whose time is their most valuable asset.
               </p>
               <ul className="tdmd-hero-benefits">
                 <li>Board-certified physician — not a PA, not an NP, not an algorithm</li>
                 <li>Licensed in 40+ states — wherever you run your business</li>
                 <li>No waiting rooms — same-day visits, evenings &amp; weekends</li>
                 <li>Prescriptions sent to any pharmacy near you</li>
-                <li>Transparent cash-pay pricing starting at $79 — HSA/FSA accepted</li>
+                <li>Transparent cash-pay pricing: a flat $79 — HSA/FSA accepted</li>
               </ul>
               <div className="tdmd-hero-ctas">
                 <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
@@ -195,7 +195,7 @@ export default function SmallBusinessOwnersPage() {
                 <ul>
                   <li>See a doctor from your office, home, or job site — no commute required</li>
                   <li>Get prescriptions sent to any pharmacy near you</li>
-                  <li>No insurance required — transparent cash-pay pricing starting at $79</li>
+                  <li>No insurance required — transparent cash-pay pricing: a flat $79</li>
                   <li>Same-day visits, evenings &amp; weekends — no lost business hours</li>
                   <li>HIPAA-compliant, secure video visits from your phone or laptop</li>
                 </ul>

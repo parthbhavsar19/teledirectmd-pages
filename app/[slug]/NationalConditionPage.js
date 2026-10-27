@@ -25,7 +25,7 @@ export default function NationalConditionPage({ conditionSlug }) {
 
   const nationalH1 = condition.hero.h1;
 
-  const nationalSubtitle = conditionSlug === 'uti-treatment-online' ? 'UTI care for non-pregnant adult women (18+) only. We do not treat male UTIs.' : 'Nationwide adult care by secure video visit, self pay option starting at $79, MD-only. Insurance is not required but select plans are accepted.';
+  const nationalSubtitle = conditionSlug === 'uti-treatment-online' ? 'UTI care for non-pregnant adult women (18+) only. We do not treat male UTIs.' : 'Nationwide adult care by secure video visit, flat $79 self-pay option, MD-only. Insurance is not required but select plans are accepted.';
 
   /* National intro — replace residual state-specific text with national copy */
   const nationalIntro = condition.hero.introParagraph
@@ -120,7 +120,7 @@ export default function NationalConditionPage({ conditionSlug }) {
             {condition.conditionName} online telemedicine:
           </p>
           <p style={{ margin: '0.35rem 0 0', color: '#003E52', fontSize: '0.97rem' }}>
-            TeleDirectMD offers same-day video visits with a board-certified MD for {condition.conditionName.toLowerCase()} in 40+ states + DC, starting at $79. A physician evaluates your symptoms, confirms the diagnosis, and sends a prescription to your preferred pharmacy — no waiting room, no referral required. Select your state below to see your state-specific page.
+            TeleDirectMD offers same-day video visits with a board-certified MD for {condition.conditionName.toLowerCase()} in 40+ states + DC, for a flat $79 self-pay fee. A physician evaluates your symptoms, confirms the diagnosis, and sends a prescription to your preferred pharmacy — no waiting room, no referral required. Select your state below to see your state-specific page.
           </p>
         </div>
       </div>

@@ -1,0 +1,287 @@
+{
+  "stateCode": "NY",
+  "stateName": "New York",
+  "schemaVersion": "1.0",
+  "lastReviewed": "2026-10-26",
+  "reviewedBy": "Parth Bhavsar, MD",
+  "writingNotes": {
+    "launchNote": "New York launched cash-pay only. Built at the depth of de.json so every /ny/{condition}/ page carries New York-specific content, per the June 2026 near-duplicate deindex lesson. The cohort is demand-selected in lib/live-routes.js (NY_PILOT_CONDITIONS).",
+    "licenseNote": "License 345804 confirmed by Dr. Bhavsar on 2026-10-26 as correct and currently registered with NYSED. NYSED's public verification search returns 403 to automated checks, so issue date and registration period come from Dr. Bhavsar; dateIssued and dateExpires stay out of state-licenses.json until supplied. New York care is provided by Parth Bhavsar Medicine PLLC, doing business as TeleDirectMD.",
+    "payerNote": "New York has zero payer enrollments. NY is absent from lib/insurance-data.js insuranceByState, so getPayerMode('NY') resolves to self-pay-only and assertPayerTruth blocks any payer claim. Never name an insurer as accepted on a New York surface. NY State of Health, the Essential Plan and NYC Care are named only as options for patients, never as plans TeleDirectMD accepts.",
+    "pharmacyNote": "Rite Aid announced in May 2025 that it would close or transfer all of its roughly 178 New York stores after its second Chapter 11 filing, so it is deliberately absent from every New York pharmacy list.",
+    "lymeNote": "NYS DOH's 2025 tick-borne disease report names the Capital District as the region with the highest incidence of Lyme disease, anaplasmosis and babesiosis for 2020 to 2024, and notes that New York moved to laboratory-only Lyme case reporting after the 2022 national case definition change, so part of the recent rise in counts is definitional. Do not quote a statewide case count on condition pages without that caveat.",
+    "privacyWatch": "The New York Health Information Privacy Act was vetoed on 2025-12-19. A revised bill (S.9269/A.10357) passed the Legislature in 2026; its final status was not confirmed on 2026-10-26. Recheck before launch and again at each quarterly review.",
+    "citationCheck": "Two NYS DOH citations (the 2025-12-02 flu-prevalent press release and the 2025 tick-borne disease report) were found via search on 2026-10-26 under healthweb-back.health.ny.gov; the www.health.ny.gov paths used here could not be fetched from the build environment (403 bot block). Click-check both before merge."
+  },
+  "voiceProfile": {
+    "density": "urban",
+    "regulation": "strict",
+    "payerLandscape": "self-pay-only",
+    "epidemiology": [
+      "lyme-high-capital-district",
+      "flu-northeast",
+      "sti-urban",
+      "visitor-volume-high"
+    ],
+    "boardStrictness": "strict",
+    "culturalRegister": "northeast",
+    "voiceNotes": "Direct and practical, for a reader who is busy and skeptical of fine print. New York's physician advertising rules are strict, so every claim stays factual and checkable. Two audiences share one page: New Yorkers anywhere in the state, and visitors who are physically in New York during the visit. Say plainly that licensing follows location, not home address."
+  },
+  "stateHero": {
+    "openingParagraph": "Adults who are physically in New York can book a same-day video visit with Parth Bhavsar, MD, a board-certified family medicine physician licensed in New York (license 345804). That includes New Yorkers anywhere in the state, from the five boroughs of New York City to Long Island, the Hudson Valley, the Capital Region, Rochester, Syracuse and Buffalo, and visitors staying in New York for work or travel: New York licensing follows where you are during the visit, not your home address. Every visit is with a physician, not a rotating nurse practitioner network. The fee is a flat $79, shown before you book and paid at booking. TeleDirectMD does not bill insurance in New York; HSA and FSA cards are accepted. Prescriptions, when appropriate, are sent electronically to the New York pharmacy you choose.",
+    "stateContextHint": "Licensed in New York (license 345804). Same-day video visits for adults located in New York, residents and visitors alike. Flat $79 self-pay.",
+    "saturation": {
+      "stateNameMentions": 7,
+      "stateEntityMentions": 7
+    }
+  },
+  "stateEligibility": {
+    "intro": "TeleDirectMD sees adults 18 and older who are physically located in New York State during the video visit. New York's telehealth law, Public Health Law Article 29-G, defines telehealth as the use of electronic information and communication technologies to deliver health care services, including assessment, diagnosis, consultation and treatment. What matters for eligibility is where you are when the visit happens. A visitor in a Manhattan hotel or a student on a semester in Ithaca can be seen. A New Yorker on a trip to a state TeleDirectMD does not serve cannot be seen until they are back in New York or in another served state.",
+    "localTriggers": [
+      "You must be physically in New York State at the time of the visit. Your home address, driver's license state and insurance do not change this.",
+      "Visitors count. New York City drew 65 million visitors in 2025 (NYC Tourism + Conventions); a visitor physically in New York during the visit is eligible like any adult resident.",
+      "Commuters should check where they will be during the visit: a patient in New Jersey or Connecticut at visit time is seen under that state's rules, not New York's.",
+      "Adults 18 and older only. TeleDirectMD does not see children in New York or anywhere else."
+    ]
+  },
+  "statePricing": {
+    "context": "Every New York visit is a flat $79 self-pay fee, shown before you book and paid at booking. There is no insurance billing in New York, no copay tier, no facility fee and no follow-up bill for the visit. HSA and FSA cards are accepted. Medicine prescribed during the visit is paid at the pharmacy, as it would be after any visit. New Yorkers who need insurance can compare plans, including the Essential Plan, through NY State of Health, the state's official marketplace, and uninsured New York City residents can ask about NYC Care, the city's program through NYC Health + Hospitals.",
+    "additionalNotes": [
+      "$79 flat self-pay, the full visit fee.",
+      "HSA and FSA cards accepted at booking.",
+      "No insurance billing in New York."
+    ]
+  },
+  "stateTreatmentContext": {
+    "pharmacyAndRx": "New York requires prescriptions to be transmitted electronically from prescriber to pharmacy (Public Health Law Section 281; the New York State Department of Health has enforced the mandate for controlled and non-controlled prescriptions since March 27, 2016). When a prescription is appropriate, it goes straight to the New York pharmacy you choose: a CVS, Walgreens or Duane Reade in New York City, a Wegmans or Kinney Drugs pharmacy upstate, a Walmart pharmacy, or an independent pharmacy near you. A New York pharmacy can dispense only on a prescription from a person legally authorized to issue it (Education Law Section 6810), so a visitor's home-country prescription cannot be filled here; a New York-licensed physician who evaluates you can decide whether a new prescription is appropriate. TeleDirectMD does not prescribe controlled substances in New York or any other state.",
+    "pharmacyChains": [
+      {
+        "name": "CVS Pharmacy",
+        "coverageNote": "All five New York City boroughs, Long Island, the Hudson Valley and upstate New York",
+        "eRxAccepted": true
+      },
+      {
+        "name": "Walgreens and Duane Reade",
+        "coverageNote": "Duane Reade is Walgreens' New York City store brand; Walgreens operates across New York State",
+        "eRxAccepted": true
+      },
+      {
+        "name": "Wegmans Pharmacy",
+        "coverageNote": "Rochester, Buffalo, Syracuse, the Southern Tier, the Hudson Valley and other upstate New York stores",
+        "eRxAccepted": true
+      },
+      {
+        "name": "Kinney Drugs",
+        "coverageNote": "Central and Northern New York",
+        "eRxAccepted": true
+      },
+      {
+        "name": "Walmart Pharmacy",
+        "coverageNote": "Long Island, the Hudson Valley and upstate New York",
+        "eRxAccepted": true
+      }
+    ]
+  },
+  "stateEpidemiology": {
+    "general": "New York's seasons shape what brings adults to a visit. Flu activity usually builds through December; the New York State Department of Health formally declared influenza prevalent on December 2, 2025, December 18, 2024 and December 6, 2023, and TeleDirectMD's FluHub tracks New York flu activity weekly. Tick-borne disease is concentrated outside New York City: the Department of Health's 2025 tick-borne disease report names the Capital District as the region with the highest incidence of Lyme disease, anaplasmosis and babesiosis for 2020 to 2024, with high counts on Long Island and in the Hudson Valley, and adult blacklegged ticks stay active into the fall. New York City's density and visitor volume mean respiratory and sexually transmitted infections spread quickly, which is why both the state and the city publish their own clinical guidance on doxycycline post-exposure prophylaxis. This context is for awareness only and is not a substitute for an individual evaluation.",
+    "citations": [
+      {
+        "label": "New York Public Health Law Section 2999-cc, Article 29-G (Telehealth Delivery of Services)",
+        "url": "https://www.nysenate.gov/legislation/laws/PBH/2999-CC"
+      },
+      {
+        "label": "New York Public Health Law Section 281 (electronic prescribing)",
+        "url": "https://www.nysenate.gov/legislation/laws/PBH/281"
+      },
+      {
+        "label": "NYS Department of Health, Electronic Prescribing",
+        "url": "https://www.health.ny.gov/professionals/narcotic/electronic_prescribing/"
+      },
+      {
+        "label": "New York Education Law Section 6810 (prescriptions)",
+        "url": "https://www.nysenate.gov/legislation/laws/EDN/6810"
+      },
+      {
+        "label": "New York Public Health Law Section 2312 (expedited partner therapy)",
+        "url": "https://www.nysenate.gov/legislation/laws/PBH/2312"
+      },
+      {
+        "label": "NYS Department of Health, Tick-Borne Disease Report 2025",
+        "url": "https://www.health.ny.gov/diseases/communicable/lyme/docs/tbd_report_2025.pdf"
+      },
+      {
+        "label": "NYS Department of Health, influenza declared prevalent, December 2, 2025",
+        "url": "https://www.health.ny.gov/press/releases/2025/2025-12-02_flu_prevalent.htm"
+      },
+      {
+        "label": "NYC Health Department, Dear Colleague letter on doxy-PEP to prevent bacterial STIs, November 9, 2023",
+        "url": "https://www.nyc.gov/assets/doh/downloads/pdf/std/dear-colleague-doxy-PEP-to-prevent-bacterial-STI-11092023.pdf"
+      },
+      {
+        "label": "NYS DOH AIDS Institute clinical guidelines program",
+        "url": "https://www.hivguidelines.org/"
+      },
+      {
+        "label": "NYC Tourism + Conventions, 2025 visitation (March 2026)",
+        "url": "https://business.nyctourism.com/press-media/press-releases/NYC-Tourism-Annual-Report-March-2026"
+      },
+      {
+        "label": "U.S. Census Bureau QuickFacts, New York (Vintage 2025 estimate)",
+        "url": "https://www.census.gov/quickfacts/fact/table/NY/PST045225"
+      }
+    ]
+  },
+  "stateCompliance": {
+    "credentialBlock": "Parth Bhavsar, MD, board-certified in family medicine by the American Board of Family Medicine, holds New York medical license 345804. New York physicians are licensed and registered by the New York State Education Department's Office of the Professions under the State Board for Medicine, and professional conduct is overseen by the New York State Department of Health's Office of Professional Medical Conduct. New York patients can look up the license through the Office of the Professions online verification search. NPI: 1104323203.",
+    "verifyUrl": "https://eservices.nysed.gov/professions/verification-search",
+    "statuteCitation": "New York Public Health Law Article 29-G, Section 2999-cc (Telehealth Delivery of Services); Public Health Law Section 281 (electronic prescribing)",
+    "licenseNumber": "345804",
+    "boardName": "New York State Education Department, Office of the Professions (State Board for Medicine)",
+    "boardUrl": "https://www.op.nysed.gov/professions/physicians"
+  },
+  "stateCities": {
+    "metroAndRural": "TeleDirectMD sees adults located anywhere in New York State, about 20 million residents (U.S. Census Bureau, 2025 estimate) plus everyone visiting. That covers all five New York City boroughs (Manhattan, Brooklyn, Queens, the Bronx and Staten Island), Long Island's Nassau and Suffolk counties, Westchester, Rockland and the rest of the Hudson Valley, the Capital Region around Albany, Schenectady and Troy, Central New York around Syracuse and Utica, the Finger Lakes and Rochester, Western New York from Buffalo to Niagara Falls, the Southern Tier around Binghamton, and the North Country and Adirondacks. Rural upstate patients and Manhattan patients pay the same flat $79 and get the same physician.",
+    "cityList": [
+      {
+        "city": "New York City",
+        "county": "New York, Kings, Queens, Bronx and Richmond counties",
+        "note": "Five boroughs; the largest U.S. city and the state's main visitor destination"
+      },
+      {
+        "city": "Buffalo",
+        "county": "Erie County",
+        "note": "Western New York"
+      },
+      {
+        "city": "Rochester",
+        "county": "Monroe County",
+        "note": "Finger Lakes region"
+      },
+      {
+        "city": "Yonkers",
+        "county": "Westchester County",
+        "note": "Hudson Valley, just north of the Bronx"
+      },
+      {
+        "city": "Syracuse",
+        "county": "Onondaga County",
+        "note": "Central New York"
+      },
+      {
+        "city": "Albany",
+        "county": "Albany County",
+        "note": "State capital, Capital Region"
+      },
+      {
+        "city": "Schenectady",
+        "county": "Schenectady County",
+        "note": "Capital Region"
+      },
+      {
+        "city": "Utica",
+        "county": "Oneida County",
+        "note": "Mohawk Valley"
+      },
+      {
+        "city": "White Plains",
+        "county": "Westchester County",
+        "note": "Hudson Valley"
+      },
+      {
+        "city": "Hempstead",
+        "county": "Nassau County",
+        "note": "Long Island"
+      },
+      {
+        "city": "Binghamton",
+        "county": "Broome County",
+        "note": "Southern Tier"
+      },
+      {
+        "city": "Ithaca",
+        "county": "Tompkins County",
+        "note": "Finger Lakes college town"
+      }
+    ],
+    "frontierCounties": []
+  },
+  "stateInsurance": {
+    "mode": "self-pay-only",
+    "selfPayDisclosure": "TeleDirectMD is self-pay only in New York: no commercial insurance, no Medicaid and no Medicare billing. Every New York visit is a flat $79, paid at booking, with no facility fee or follow-up bill for the visit. HSA and FSA cards are accepted. If you have insurance, you can still choose a TeleDirectMD visit at $79 and ask your plan about out-of-network reimbursement; TeleDirectMD does not file claims and cannot promise reimbursement. If you need coverage, NY State of Health lists marketplace plans and the Essential Plan, and uninsured New York City residents can ask NYC Health + Hospitals about NYC Care.",
+    "payers": []
+  },
+  "stateFaqs": [
+    {
+      "question": "Can I see a doctor online in New York without insurance?",
+      "answer": "Yes. TeleDirectMD offers same-day video visits for adults physically located in New York for a flat $79, paid at booking, with no insurance needed. Every visit is with Parth Bhavsar, MD, a board-certified family medicine physician licensed in New York (license 345804). HSA and FSA cards are accepted. The visit is not for emergencies: for chest pain, trouble breathing or signs of a stroke, call 911."
+    },
+    {
+      "question": "I'm visiting New York. Can I use TeleDirectMD?",
+      "answer": "Yes, if you are physically in New York during the visit. New York licensing follows where the patient is, not where they live, so a visitor in a New York City hotel can be seen like any New Yorker. Bring a photo ID and a card for the $79 fee. If a prescription is appropriate, it is sent electronically to a New York pharmacy near where you are staying; a prescription from your home country cannot be filled at a New York pharmacy."
+    },
+    {
+      "question": "Is Dr. Bhavsar licensed in New York, and how can I check?",
+      "answer": "Yes. Parth Bhavsar, MD holds New York medical license 345804. New York physician licenses are issued and registered by the New York State Education Department's Office of the Professions, and anyone can look a license up through its online verification search. His National Provider Identifier is 1104323203."
+    },
+    {
+      "question": "Does TeleDirectMD take insurance in New York?",
+      "answer": "No. TeleDirectMD is self-pay only in New York: a flat $79 per visit, with no insurance, Medicaid or Medicare billing. If you need coverage, NY State of Health, the state's official marketplace, lists plans including the Essential Plan, and uninsured New York City residents can ask NYC Health + Hospitals about NYC Care."
+    },
+    {
+      "question": "Which New York pharmacies can receive my prescription?",
+      "answer": "Any New York pharmacy that accepts electronic prescriptions, which New York law requires for prescriptions (Public Health Law Section 281). That includes CVS, Walgreens and Duane Reade in New York City, Wegmans and Kinney Drugs upstate, Walmart pharmacies and independent pharmacies. You choose the pharmacy when you book."
+    },
+    {
+      "question": "What can't a video visit handle in New York?",
+      "answer": "Emergencies (call 911 for chest pain, trouble breathing, stroke signs, heavy bleeding or sudden confusion), controlled substances, which TeleDirectMD does not prescribe, care for anyone under 18, and problems that need a hands-on exam, a same-day test or imaging. If a video visit is not the right fit, Dr. Bhavsar will say so and point you to in-person care."
+    }
+  ],
+  "conditionOverrides": {
+    "uti-treatment-online": {
+      "stateConditionParagraph": "For women in New York with typical, uncomplicated bladder infection symptoms (burning, frequency, urgency, no fever and no back pain), a video visit is often enough to decide on treatment. TeleDirectMD's UTI care in New York is limited to non-pregnant adult women; men with urinary symptoms, and anyone with fever, flank pain, vomiting or pregnancy, should be seen in person. When an antibiotic is appropriate, it is sent electronically to the New York pharmacy you choose, as New York's e-prescribing law requires. The visit is a flat $79 for adults physically in New York."
+    },
+    "sore-throat-treatment-online": {
+      "stateConditionParagraph": "Sore throats peak in New York in late fall and winter; New York searches for strep throat run about 40,000 a month in November and December. Most adult sore throats are viral, and the 2025 IDSA strep guideline estimates group A strep at 5 to 15 percent of adult cases, so the key question is whether you need a strep test. A video visit can sort out who needs testing and who does not, and can point you to a nearby New York pharmacy or urgent care for a swab when one is needed. Flat $79 for adults physically in New York."
+    },
+    "influenza-treatment-online": {
+      "stateConditionParagraph": "Flu activity in New York usually builds through December; the New York State Department of Health declared influenza prevalent on December 2, 2025, December 18, 2024 and December 6, 2023. Antiviral treatment works best when started early, ideally within 48 hours of symptoms, and matters most for adults at higher risk. A same-day video visit for adults physically in New York can decide whether an antiviral is appropriate and send it to a New York pharmacy. TeleDirectMD's FluHub tracks New York flu activity weekly. Flat $79."
+    },
+    "covid-19-treatment-online": {
+      "stateConditionParagraph": "For adults in New York with a positive COVID-19 test and mild to moderate symptoms, timing matters: oral antivirals are started within the first days of symptoms, and some interact with common medicines, so a medication review is part of the visit. A video visit for adults physically in New York can review your test, symptoms and medication list, and when treatment is appropriate send a prescription electronically to a New York pharmacy. Trouble breathing or chest pain needs 911, not a video visit. Flat $79."
+    },
+    "sinus-infection-treatment-online": {
+      "stateConditionParagraph": "Most sinus infections in New York adults start as colds and clear without antibiotics. A video visit helps separate those from the smaller group that meets guideline criteria for a bacterial sinus infection: symptoms lasting 10 days or more without improvement, or getting worse again after starting to improve. For adults physically in New York, Dr. Bhavsar can review your timeline, suggest what helps at home, and send a prescription to a New York pharmacy when one is appropriate. Flat $79."
+    },
+    "tick-bite-treatment-online": {
+      "stateConditionParagraph": "Tick bites are a real concern across much of New York outside the city. The New York State Department of Health's 2025 tick-borne disease report names the Capital District as the region with the highest incidence of Lyme disease, anaplasmosis and babesiosis for 2020 to 2024, with high counts on Long Island and in the Hudson Valley, and adult blacklegged ticks stay active into the fall. A video visit for adults in New York can go over how long the tick was attached and where you were, decide whether a single dose of preventive antibiotic is appropriate, and explain what rash or fever to watch for. Flat $79."
+    },
+    "chlamydia-treatment-online": {
+      "stateConditionParagraph": "For adults in New York with a positive chlamydia test, a video visit can confirm the result, prescribe treatment when appropriate and cover retesting and partner notification. New York Public Health Law Section 2312 allows expedited partner therapy for chlamydia and for other sexually transmitted infections the CDC recommends it for, which lets a clinician provide treatment for a patient's sex partner without a separate exam; whether it fits your situation is decided during the visit. Prescriptions go electronically to the New York pharmacy you choose. Flat $79, discreet, for adults physically in New York."
+    },
+    "doxypep-sti-prevention-online": {
+      "stateConditionParagraph": "Doxycycline post-exposure prophylaxis (doxy-PEP) is a single dose of doxycycline taken within 72 hours after condomless sex to lower the chance of syphilis, gonorrhea and chlamydia. New York was early on it: the New York State Department of Health AIDS Institute published doxy-PEP clinical guidance on September 25, 2023, and the New York City Health Department issued its own provider guidance on November 9, 2023. A video visit for adults physically in New York reviews whether you meet the criteria, the side effects and the testing schedule that goes with it. Flat $79."
+    },
+    "pink-eye-treatment-online": {
+      "stateConditionParagraph": "Pink eye spreads easily in shared New York spaces such as offices, subway cars and dorms, and most cases are viral or allergic rather than bacterial. A video visit lets Dr. Bhavsar look at the eye on camera, ask about discharge, contact lenses and vision changes, and decide whether a prescription eye drop is appropriate. Eye pain, light sensitivity, vision loss or contact lens wear with a red eye need same-day in-person care. Flat $79 for adults physically in New York."
+    },
+    "yeast-infection-treatment-online": {
+      "stateConditionParagraph": "Yeast infection is the most-searched condition in TeleDirectMD's catalog in New York, about 44,000 searches a month across related terms. For adult women in New York with typical symptoms and no red flags, a video visit can confirm whether the picture fits a yeast infection or something that looks similar, such as bacterial vaginosis or trichomoniasis, and send treatment to a New York pharmacy when appropriate. Recurrent infections or pregnancy change the plan and are discussed during the visit. Flat $79."
+    }
+  },
+  "stateLegalLayer": {
+    "required": true,
+    "blocks": [
+      {
+        "statute": "New York Public Health Law Article 29-G, Section 2999-cc (Telehealth Delivery of Services)",
+        "renderAt": "hero-credential",
+        "content": "New York Public Health Law Section 2999-cc defines telehealth as the use of electronic information and communication technologies by telehealth providers to deliver health care services, including assessment, diagnosis, consultation, treatment, education, care management and self-management of a patient. TeleDirectMD delivers care to patients located in New York by real-time video, through a physician licensed in New York, under the same standard of care that applies in person."
+      },
+      {
+        "statute": "New York Public Health Law Section 281 (Electronic Prescribing)",
+        "renderAt": "footer",
+        "content": "New York requires prescriptions to be transmitted electronically from prescriber to pharmacy under Public Health Law Section 281, a requirement the New York State Department of Health has enforced since March 27, 2016. TeleDirectMD sends every New York prescription electronically to the pharmacy the patient chooses. TeleDirectMD does not prescribe controlled substances."
+      }
+    ],
+    "forbiddenPhrases": []
+  }
+}

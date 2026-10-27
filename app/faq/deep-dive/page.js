@@ -55,7 +55,7 @@ const STATES = [
   { abbr: 'md', name: 'Maryland' }, { abbr: 'mi', name: 'Michigan' }, { abbr: 'mn', name: 'Minnesota' },
   { abbr: 'ms', name: 'Mississippi' }, { abbr: 'mo', name: 'Missouri' }, { abbr: 'mt', name: 'Montana' },
   { abbr: 'ne', name: 'Nebraska' }, { abbr: 'nv', name: 'Nevada' }, { abbr: 'nh', name: 'New Hampshire' },
-  { abbr: 'nj', name: 'New Jersey' }, { abbr: 'nc', name: 'North Carolina' }, { abbr: 'nd', name: 'North Dakota' },
+  { abbr: 'nj', name: 'New Jersey' }, { abbr: 'ny', name: 'New York' }, { abbr: 'nc', name: 'North Carolina' }, { abbr: 'nd', name: 'North Dakota' },
   { abbr: 'oh', name: 'Ohio' }, { abbr: 'ok', name: 'Oklahoma' }, { abbr: 'pa', name: 'Pennsylvania' },
   { abbr: 'sc', name: 'South Carolina' }, { abbr: 'sd', name: 'South Dakota' }, { abbr: 'tn', name: 'Tennessee' },
   { abbr: 'tx', name: 'Texas' }, { abbr: 'ut', name: 'Utah' }, { abbr: 'vt', name: 'Vermont' }, { abbr: 'va', name: 'Virginia' }, { abbr: 'wa', name: 'Washington' },
@@ -112,7 +112,7 @@ const FAQS = [
   {
     question: 'What states does TeleDirectMD serve for these prescriptions?',
     answer:
-      'TeleDirectMD is currently licensed in 40+ states + Washington DC. Each medication guide is available for 40+ states + DC. You must be physically located in a covered state at the time of your visit. The full list is available on the States We Serve page. States not currently covered include Arkansas, Kansas, Massachusetts, New Mexico, New York, Oregon, Rhode Island, and Wisconsin.',
+      'TeleDirectMD is currently licensed in 40+ states + Washington DC. Each medication guide is available for 40+ states + DC. You must be physically located in a covered state at the time of your visit. The full list is available on the States We Serve page. States not currently covered include Arkansas, Kansas, Massachusetts, New Mexico, Oregon, Rhode Island, and Wisconsin.',
   },
   {
     question: 'Is a prescription guaranteed from a TeleDirectMD visit?',
@@ -401,7 +401,7 @@ export default function FaqDeepDiveHubPage() {
             ))}
           </div>
           <p className="fdd-p" style={{ marginTop: '1rem' }}>
-            States not currently served: Arkansas, Kansas, Massachusetts, New Mexico, New York, Oregon, Rhode Island, and Wisconsin. Patients in those states should seek care from a locally licensed telehealth service.
+            States not currently served: Arkansas, Kansas, Massachusetts, New Mexico, Oregon, Rhode Island, and Wisconsin. Patients in those states should seek care from a locally licensed telehealth service.
           </p>
         </section>
 

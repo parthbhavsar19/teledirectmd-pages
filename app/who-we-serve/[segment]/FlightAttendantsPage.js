@@ -5,7 +5,7 @@ export default function FlightAttendantsPage() {
   const today = contentDate('whoWeServe');
 
   /* Accurate current footprint: 40+ states + DC (includes VA, VT, and DC per current licensing). */
-  const areaServed = ["AL","AK","AZ","CA","CO","CT","DC","DE","FL","GA","HI","ID","IL","IN","IA","KY","LA","ME","MD","MI","MN","MS","MO","MT","NE","NV","NH","NJ","NC","ND","OH","OK","PA","SC","SD","TN","TX","UT","VA","VT","WA","WV","WY"];
+  const areaServed = ["AL","AK","AZ","CA","CO","CT","DC","DE","FL","GA","HI","ID","IL","IN","IA","KY","LA","ME","MD","MI","MN","MS","MO","MT","NE","NV","NH","NJ","NY","NC","ND","OH","OK","PA","SC","SD","TN","TX","UT","VA","VT","WA","WV","WY"];
 
   /* ── Conditions to link — reframed for the cabin-crew reality ─────── */
   const conditions = [
@@ -120,7 +120,7 @@ export default function FlightAttendantsPage() {
         "@id": `${pageUrl}#webpage`,
         "url": pageUrl,
         "name": "Telehealth for Flight Attendants: See a Doctor on Your Layover",
-        "description": "TeleDirectMD provides telehealth for flight attendants and cabin crew across 40+ states plus D.C. \u2014 UTIs (women only), sinus and ear issues, prescription refills, women's health, and travel medicine, treated by a board-certified physician from your layover hotel. Not for FAA certificates or in-flight emergencies. Same-day visits, evenings & weekends. Starting at $79.",
+        "description": "TeleDirectMD provides telehealth for flight attendants and cabin crew across 40+ states plus D.C. \u2014 UTIs (women only), sinus and ear issues, prescription refills, women's health, and travel medicine, treated by a board-certified physician from your layover hotel. Not for FAA certificates or in-flight emergencies. Same-day visits, evenings & weekends. Flat $79.",
         "inLanguage": "en-US",
         "breadcrumb": { "@id": `${pageUrl}#breadcrumbs` },
         "author": { "@id": `${baseUrl}/about/#physician` },

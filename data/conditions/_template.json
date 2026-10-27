@@ -5,12 +5,12 @@
   "conditionShort": "SHORT NAME (e.g., 'UTI')",
   "conditionSlug": "URL-SLUG (e.g., 'uti-treatment-online')",
   "pageTitle": "CONDITION NAME Online in {state} | SUBTITLE | TeleDirectMD",
-  "metaDescription": "DESCRIPTION for {state} adults. Self pay option starting at $79. Insurance is not required.",
+  "metaDescription": "DESCRIPTION for {state} adults. Flat $79 self-pay option. Insurance is not required.",
   "ogImageAlt": "CONDITION in {state} by TeleDirectMD",
 
   "hero": {
     "h1": "CONDITION in {state} (SUBTITLE)",
-    "subtitle": "{state} adult care by secure video visit, self pay option starting at $79, MD-only, insurance is not required.",
+    "subtitle": "{state} adult care by secure video visit, flat $79 self-pay option, MD-only, insurance is not required.",
     "introParagraph": "INTRO PARAGRAPH about the condition. Use {state} for state name and {cities} for city list placeholder.",
     "tocLinks": [
       { "href": "eligibility-checklist", "label": "Eligibility checklist" },
@@ -20,7 +20,7 @@
       { "href": "references", "label": "References" }
     ],
     "benefits": [
-      "Self pay option starting at $79",
+      "Flat $79 self-pay option",
       "MD-only care (no mid-levels)",
       "Insurance is not required",
       "Licensed telehealth care for patients located in {state} at the time of the visit"
@@ -91,7 +91,7 @@
     "rows": [
       {
         "option": "TeleDirectMD",
-        "cost": "Self pay option starting at $79",
+        "cost": "Flat $79 self-pay option",
         "wait": "Same day, often within hours",
         "provider": "Board-certified MD only (no mid-levels)",
         "bestFor": "BEST FOR DESCRIPTION",
@@ -330,7 +330,7 @@
       },
       {
         "question": "How much does an online CONDITION visit cost in {state}?",
-        "answer": "TeleDirectMD offers a transparent self pay option starting at $79 for an adult video visit in {state}. Insurance is not required."
+        "answer": "TeleDirectMD offers a transparent flat $79 self-pay option for an adult video visit in {state}. Insurance is not required."
       },
       {
         "question": "Does {state} allow telemedicine for this kind of visit?",

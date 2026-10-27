@@ -36,7 +36,7 @@ export default function TravelNursesPage() {
     },
     {
       q: 'Do I need insurance to use TeleDirectMD as a travel nurse?',
-      a: 'No. TeleDirectMD offers transparent cash-pay pricing starting at $79 per visit — no insurance required. Many travel nurses have insurance through their staffing agency, but it can come with high deductibles, confusing networks that vary by state, or mid-assignment coverage gaps. We also accept insurance in select states. Either way, you\'ll know your cost before you book — no hidden fees. A Penn Medicine study found telehealth visits average $96 compared to $509 for in-person care episodes, making it significantly more cost-effective even when you do have coverage.'
+      a: 'No. TeleDirectMD offers transparent cash-pay pricing: a flat $79 per visit — no insurance required. Many travel nurses have insurance through their staffing agency, but it can come with high deductibles, confusing networks that vary by state, or mid-assignment coverage gaps. We also accept insurance in select states. Either way, you\'ll know your cost before you book — no hidden fees. A Penn Medicine study found telehealth visits average $96 compared to $509 for in-person care episodes, making it significantly more cost-effective even when you do have coverage.'
     },
     {
       q: 'Can you refill my prescriptions when I\'m in a new state?',
@@ -88,7 +88,7 @@ export default function TravelNursesPage() {
           "@type": "MedicalTherapy",
           "name": "Telehealth Consultations"
         },
-        "areaServed": ["AL","AK","AZ","CA","CO","CT","DC","DE","FL","GA","HI","ID","IL","IN","IA","KY","LA","ME","MD","MI","MN","MS","MO","MT","NE","NV","NH","NJ","NC","ND","OH","OK","PA","SC","SD","TN","TX","UT","VA","VT","WA","WV","WY"]
+        "areaServed": ["AL","AK","AZ","CA","CO","CT","DC","DE","FL","GA","HI","ID","IL","IN","IA","KY","LA","ME","MD","MI","MN","MS","MO","MT","NE","NV","NH","NJ","NY","NC","ND","OH","OK","PA","SC","SD","TN","TX","UT","VA","VT","WA","WV","WY"]
       },
       {
         "@type": "Physician",
@@ -99,7 +99,7 @@ export default function TravelNursesPage() {
           "@type": "MedicalOrganization",
           "name": "TeleDirectMD"
         },
-        "licensedIn": ["AL","AK","AZ","CA","CO","CT","DC","DE","FL","GA","HI","ID","IL","IN","IA","KS","KY","LA","ME","MD","MI","MN","MS","MO","MT","NE","NV","NH","NJ","NC","ND","OH","OK","PA","SC","SD","TN","TX","UT","VA","VT","WA","WV","WI","WY"]
+        "licensedIn": ["AL","AK","AZ","CA","CO","CT","DC","DE","FL","GA","HI","ID","IL","IN","IA","KS","KY","LA","ME","MD","MI","MN","MS","MO","MT","NE","NV","NH","NJ","NY","NC","ND","OH","OK","PA","SC","SD","TN","TX","UT","VA","VT","WA","WV","WI","WY"]
       },
       {
         "@type": "FAQPage",
@@ -118,7 +118,7 @@ export default function TravelNursesPage() {
         "@id": `${pageUrl}#webpage`,
         "url": pageUrl,
         "name": "Telehealth for Travel Nurses: Care in Every State You Work",
-        "description": "TeleDirectMD offers telehealth for travel nurses across 40+ states — same board-certified physician regardless of your assignment location. Prescription refills, acute care, and chronic condition management. Same-day visits, evenings & weekends. Starting at $79.",
+        "description": "TeleDirectMD offers telehealth for travel nurses across 40+ states — same board-certified physician regardless of your assignment location. Prescription refills, acute care, and chronic condition management. Same-day visits, evenings & weekends. Flat $79.",
         "inLanguage": "en-US",
         "breadcrumb": { "@id": `${pageUrl}#breadcrumbs` },
         "author": { "@id": `${baseUrl}/about/#physician` },
@@ -174,7 +174,7 @@ export default function TravelNursesPage() {
                 <li>Licensed in 40+ states — the same physician follows you across every assignment</li>
                 <li>Prescription refills for chronic conditions — no lapse between assignments</li>
                 <li>Same-day visits, evenings &amp; weekends — fits your shift schedule</li>
-                <li>Transparent cash-pay pricing starting at $79 — insurance accepted in select states</li>
+                <li>Transparent cash-pay pricing: a flat $79 — insurance accepted in select states</li>
               </ul>
               <div className="tdmd-hero-ctas">
                 <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book a Visit</a>
@@ -194,7 +194,7 @@ export default function TravelNursesPage() {
                 <ul>
                   <li>One physician, 40+ states — continuity of care across every assignment</li>
                   <li>Prescription refills sent to any pharmacy near your current assignment</li>
-                  <li>No insurance required — cash-pay pricing starting at $79</li>
+                  <li>No insurance required — cash-pay pricing: a flat $79</li>
                   <li>Same-day visits, evenings &amp; weekends — fits your shift schedule</li>
                   <li>HIPAA-compliant, secure video visits from your phone or laptop</li>
                 </ul>
