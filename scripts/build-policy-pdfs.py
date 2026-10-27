@@ -170,15 +170,31 @@ ny_patient_notices = [
           "participate in and which hospitals they are affiliated with, and to give a written estimate when they "
           "are out of network."),
         *bullets([
-            "<b>Health plans:</b> for New York visits, Parth Bhavsar Medicine PLLC does not participate in any "
-            "health plan network, including Medicaid and Medicare, and does not bill insurance.",
-            "<b>Hospital affiliations:</b> Parth Bhavsar Medicine PLLC is not affiliated with any hospital.",
+            "<b>Health plans:</b> TeleDirectMD participates with Aetna, Blue Cross Blue Shield, and "
+            "UnitedHealthcare in certain other states. For New York visits, Parth Bhavsar Medicine PLLC is not "
+            "a participating provider with any health plan, including Medicaid and Medicare, and does not bill "
+            "insurance.",
+            "<b>Hospital affiliations:</b> TeleDirectMD video visits are not provided in or through any hospital. "
+            "Information about your physician's hospital affiliations is available on request at "
+            f"{link('mailto:contact@teledirectmd.com', 'contact@teledirectmd.com')}.",
             "<b>Your written estimate:</b> the fee for a New York video visit is a flat $79, paid with your "
             "intake form. There are no other charges from TeleDirectMD for the visit.",
             "<b>Other providers:</b> if your physician orders lab work, you will be given the name, practice name, "
             "mailing address, and phone number of the lab at the time of the order. Lab fees are billed by the lab, "
             "not by TeleDirectMD. You can ask the lab which health plans it accepts before you go.",
         ]),
+    ]),
+    ("Paying With a Credit Card", [
+        p("New York General Business Law § 519-a requires us to tell you about the risks of paying for medical "
+          "services with a credit card. If you pay with a credit card, the charge becomes credit card debt, not "
+          "medical debt. By paying with a credit card, you give up state and federal protections that apply to "
+          "medical debt, including:"),
+        *bullets([
+            "limits on wage garnishment and property liens",
+            "the ban on reporting medical debt to credit bureaus",
+            "limits on interest rates",
+        ]),
+        p("You will be asked to acknowledge this notice on your intake form before you pay."),
     ]),
     ("HIV and Hepatitis C Testing", [
         p("New York law requires physicians providing primary care to offer an HIV test to patients 13 and older "
@@ -199,8 +215,8 @@ ny_patient_notices = [
     ]),
     ("Your Rights and How to File a Complaint", [
         p("The New York State Office of Professional Medical Conduct (OPMC) investigates complaints about "
-          "physicians. For information about your rights as a patient and how to file a complaint about a "
-          f"physician, visit {link(OPMC_URL)}."),
+          "physicians. For information about your rights and how to report professional misconduct, visit the "
+          f"OPMC website at {link(OPMC_URL)}."),
         p(f"You can also contact us first at {link('mailto:contact@teledirectmd.com', 'contact@teledirectmd.com')} "
           "or (678) 956-1855. Filing a complaint will not affect your care."),
     ]),
