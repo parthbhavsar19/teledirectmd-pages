@@ -36,6 +36,16 @@ export default function StateSpecificNotices() {
         <h2 style={s.h2}>Georgia</h2>
         <p>Georgia Code Section 33-24-56.4 requires telehealth providers to ensure the same standard of care as in-person encounters. TeleDirectMD complies with all Georgia Medical Board telemedicine regulations including documentation requirements.</p>
 
+        <h2 style={s.h2}>New York</h2>
+        <p>New York visits are provided by Parth Bhavsar Medicine PLLC, doing business as TeleDirectMD, with Parth Bhavsar, MD (New York license no. 345804). You must be physically located in New York for the entire visit. The full set of New York notices is in our <a href="/ny-patient-notices.pdf" style={{ color: '#1a7f7f' }}>New York Patient Notices</a> (PDF).</p>
+        <ul style={{ paddingLeft: 24, marginTop: 8 }}>
+          <li><strong>Health plans and hospitals (Public Health Law § 24):</strong> for New York visits, Parth Bhavsar Medicine PLLC does not participate in any health plan network, including Medicaid and Medicare, and is not affiliated with any hospital. The visit fee is a flat $79. If lab work is ordered, you will be given the lab's name, address, and phone number at the time of the order; lab fees are billed by the lab.</li>
+          <li><strong>HIV and hepatitis C testing (Public Health Law §§ 2781-a, 2171):</strong> we offer an HIV test and a hepatitis C screening test as New York law requires. Testing is voluntary.</li>
+          <li><strong>Medical records (Public Health Law § 18):</strong> paper copies cost no more than 75 cents per page, and you cannot be denied access only because you are unable to pay. See our <a href="/medical-records-notice/" style={{ color: '#1a7f7f' }}>Medical Records Notice</a>.</li>
+          <li><strong>Electronic prescribing (Public Health Law § 281):</strong> prescriptions are sent electronically to the New York pharmacy you choose.</li>
+          <li><strong>Your rights and complaints (Public Health Law § 230):</strong> for information about your rights as a patient and how to file a complaint about a physician, visit the New York State Office of Professional Medical Conduct at <a href="https://www.health.ny.gov/professionals/doctors/conduct/" target="_blank" rel="noopener noreferrer" style={{ color: '#1a7f7f' }}>www.health.ny.gov/professionals/doctors/conduct</a>.</li>
+        </ul>
+
         <h2 style={s.h2}>Texas</h2>
         <p>Under the Texas Occupations Code and Texas Medical Board rules for telemedicine, patients are informed that you may request an in-person visit at any time. Complaints about a physician may be directed to the Texas Medical Board at (800) 201-9353 or <a href="https://www.tmb.state.tx.us" target="_blank" rel="noopener noreferrer" style={{ color: '#1a7f7f' }}>www.tmb.state.tx.us</a>.</p>
 
