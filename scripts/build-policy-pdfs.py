@@ -174,8 +174,9 @@ ny_patient_notices = [
             "UnitedHealthcare in certain other states. For New York visits, Parth Bhavsar Medicine PLLC is not "
             "a participating provider with any health plan, including Medicaid and Medicare, and does not bill "
             "insurance.",
-            "<b>Hospital affiliations:</b> TeleDirectMD video visits are not provided in or through any hospital. "
-            "Information about your physician's hospital affiliations is available on request at "
+            "<b>Hospital affiliations:</b> your physician has no hospital affiliations in New York, and "
+            "TeleDirectMD video visits are not provided in or through any hospital. Information about "
+            "affiliations in other states is available on request at "
             f"{link('mailto:contact@teledirectmd.com', 'contact@teledirectmd.com')}.",
             "<b>Your written estimate:</b> the fee for a New York video visit is a flat $79, paid with your "
             "intake form. There are no other charges from TeleDirectMD for the visit.",
