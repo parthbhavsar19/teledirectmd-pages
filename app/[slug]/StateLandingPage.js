@@ -86,7 +86,7 @@ export default function StateLandingPage({ stateSlug }) {
         "@id": `${pageUrl}#breadcrumbs`,
         "itemListElement": [
           { "@type": "ListItem", "position": 1, "name": "Home", "item": `${baseUrl}/` },
-          { "@type": "ListItem", "position": 2, "name": "What We Treat", "item": `${baseUrl}/what-we-treat` },
+          { "@type": "ListItem", "position": 2, "name": "States We Serve", "item": `${baseUrl}/states-we-serve/` },
           { "@type": "ListItem", "position": 3, "name": state.name, "item": pageUrl }
         ]
       },
@@ -194,8 +194,8 @@ export default function StateLandingPage({ stateSlug }) {
     /* Credential verification bar — sits directly under the H1 block so the most
        checkable fact on the page is above the fold for both patients and crawlers. */
     .tdmd-verify-bar{display:flex;flex-wrap:wrap;align-items:center;gap:0.5rem 1.1rem;
-      background:#FFFFFF;border:1px solid #CFE3E6;border-left:4px solid var(--tdmd-teal);
-      border-radius:8px;padding:0.7rem 1rem;margin:1.1rem 0 0;}
+      background:#FFFFFF;border:1px solid #CFE3E6;
+      border-radius:12px;padding:0.7rem 1rem;margin:0.4rem 0 0;max-width:36rem;}
     .tdmd-verify-item{display:flex;align-items:center;gap:0.45rem;font-size:0.9rem;color:#0A2438;line-height:1.35;}
     .tdmd-verify-item svg{flex:0 0 auto;width:17px;height:17px;color:var(--tdmd-teal);}
     .tdmd-verify-label{color:var(--tdmd-muted);}
@@ -234,7 +234,7 @@ export default function StateLandingPage({ stateSlug }) {
     .tdmd-pricing-card p{color:var(--tdmd-muted);font-size:0.95rem;margin:0.5rem 0 0;}
     .tdmd-pricing-includes{margin:0.75rem 0 0;padding-left:1.2rem;display:grid;gap:0.3rem;font-size:0.93rem;}
 
-    .tdmd-reg-block{background:var(--tdmd-card);border-radius:var(--tdmd-radius);padding:1.5rem;box-shadow:var(--tdmd-shadow);border:1px solid rgba(0,0,0,0.03);border-left:4px solid var(--tdmd-teal);margin:1rem 0;}
+    .tdmd-reg-block{background:var(--tdmd-card);border-radius:var(--tdmd-radius);padding:1.5rem;box-shadow:var(--tdmd-shadow);border:1px solid rgba(0,0,0,0.03);margin:1rem 0;}
     .tdmd-reg-block p{margin:0.5rem 0 0;line-height:1.6;font-size:0.95rem;}
 
     .tdmd-city-grid{display:flex;flex-wrap:wrap;gap:0.5rem 0.85rem;margin:1rem 0;}
@@ -249,6 +249,20 @@ export default function StateLandingPage({ stateSlug }) {
     .tdmd-other-state-link{display:inline-block;padding:0.4rem 0.85rem;border-radius:999px;border:1px solid var(--tdmd-border);background:var(--tdmd-card);color:var(--tdmd-navy);font-weight:700;font-size:0.88rem;text-decoration:none;transition:border-color 0.15s,background 0.15s;}
     .tdmd-other-state-link:hover,.tdmd-other-state-link:focus{border-color:var(--tdmd-teal);background:var(--tdmd-bg-soft);}
 
+    /* 2026-10-27 Impeccable pass: one heading voice (Fraunces, as in the hero and
+       FAQ), no 4px side stripes, a readable lead band, and a denser mobile grid. */
+    .tdmd-state-hub .tdmd-section h2,.tdmd-state-hub .tdmd-state-block h2{font-family:'Fraunces',Georgia,serif;font-weight:600;letter-spacing:-0.01em;font-size:clamp(1.55rem,3vw,1.95rem);line-height:1.2;margin:0 0 0.6rem;text-wrap:balance;}
+    .tdmd-state-hub .tdmd-section > .tdmd-container > p:not(.tdmd-cost-note){max-width:72ch;}
+    .tdmd-state-lead{background:#EAF7F8;padding:1.75rem 0;line-height:1.65;}
+    .tdmd-state-lead p{margin:0.5rem 0 0;color:#0A2E3D;font-size:1.02rem;max-width:72ch;}
+    .tdmd-state-lead p.tdmd-state-lead-title{margin:0;font-weight:700;color:#003E52;font-size:1.08rem;}
+    .tdmd-state-hub .tdmd-city-block{border-left:0;}
+    .tdmd-state-hub .tdmd-cost-note{border-left:0;}
+    @media (max-width:640px){
+      .tdmd-state-hub .cpr-hero-ctas > a{flex:1 1 100%;justify-content:center;}
+      .tdmd-state-hub .tdmd-cat-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:0.6rem;}
+      .tdmd-state-hub .tdmd-cat-link{padding:0.7rem 0.8rem;font-size:0.9rem;}
+    }
     @media (max-width:768px){
       .tdmd-how-steps{grid-template-columns:minmax(0,1fr);}
       .tdmd-pricing-simple{grid-template-columns:minmax(0,1fr);}
@@ -262,7 +276,7 @@ export default function StateLandingPage({ stateSlug }) {
 
 
   return (
-    <>
+    <div className="tdmd-state-hub">
       <style dangerouslySetInnerHTML={{ __html: statePageCSS }} />
       <script
         type="application/ld+json"
@@ -275,7 +289,7 @@ export default function StateLandingPage({ stateSlug }) {
         <div className="tdmd-container" style={{ paddingTop: '0.5rem', paddingBottom: '0' }}>
           <a href="/">Home</a>
           <span className="tdmd-bc-sep" aria-hidden="true">/</span>
-          <a href="/what-we-treat/">What We Treat</a>
+          <a href="/states-we-serve/">States We Serve</a>
           <span className="tdmd-bc-sep" aria-hidden="true">/</span>
           <span aria-current="page">{state.name}</span>
         </div>
@@ -304,18 +318,14 @@ export default function StateLandingPage({ stateSlug }) {
           .cpr-hero-grid{display:grid;grid-template-columns:1.08fr .92fr;gap:2.5rem;align-items:start;}
           @media(max-width:840px){.cpr-hero-grid{grid-template-columns:1fr;}}
           @media(min-width:841px){.cpr-hero-hcard{position:sticky;top:1.5rem;}}
-          .cpr-hero-kicker{text-transform:uppercase;letter-spacing:.14em;font-size:.72rem;font-weight:700;color:#7fd0d8;margin:0 0 .6rem;}
           .cpr-hero h1{font-size:clamp(2rem,4.4vw,2.9rem);line-height:1.08;color:#fff;margin:0 0 .9rem;}
           .cpr-hero .sub{font-size:1.05rem;line-height:1.55;color:#d7ebee;margin:0 0 1.5rem;max-width:52ch;font-weight:650;}
-          .cpr-hero .intro{font-size:.97rem;line-height:1.6;color:#bfdfe3;margin:0 0 1.5rem;max-width:56ch;}
-          .cpr-hero-answer{background:rgba(255,255,255,0.08);border-left:4px solid #7fd0d8;border-radius:0 10px 10px 0;padding:.9rem 1.15rem;margin:0 0 1.5rem;}
-          .cpr-hero-answer p{margin:0;color:#eaf6f7;font-size:.98rem;line-height:1.55;}
           .cpr-hero-ctas{display:flex;flex-wrap:wrap;gap:.75rem;margin-bottom:1.1rem;}
           .cpr-hero-cta{display:inline-flex;align-items:center;gap:.5rem;background:var(--gold);color:#08313f;font-weight:700;padding:.85rem 1.6rem;border-radius:12px;text-decoration:none;font-size:1rem;box-shadow:0 10px 26px rgba(232,163,61,.3);transition:transform .15s,filter .15s;}
           .cpr-hero-cta:hover{transform:translateY(-1px);filter:brightness(1.05);}
           .cpr-hero-cta-outline{display:inline-flex;align-items:center;padding:.8rem 1.4rem;border-radius:12px;border:1px solid rgba(255,255,255,0.35);color:#eaf6f7;font-weight:600;text-decoration:none;font-size:.92rem;}
           .cpr-hero-cta-outline:hover{border-color:#7fd0d8;color:#7fd0d8;}
-          .cpr-hero-reviewed{font-size:.85rem;color:#9fc6ca;margin:.9rem 0 0;}
+          .cpr-hero-reviewed{font-size:.85rem;color:#c3e0e3;margin:.9rem 0 0;}
           .cpr-hero-author-link{color:#bfdfe3;font-weight:700;}
           .cpr-hero-hcard{background:#fff;border-radius:18px;padding:1.5rem;box-shadow:0 18px 46px rgba(0,0,0,.26);}
           .cpr-hero-hcard h2{font-size:1.1rem;color:var(--navy);margin:0 0 .1rem;font-family:'Fraunces',Georgia,serif;font-weight:600;}
@@ -324,7 +334,7 @@ export default function StateLandingPage({ stateSlug }) {
           .cpr-hero-hcard ul{list-style:none;margin:0;padding:0;}
           .cpr-hero-hcard li{position:relative;padding-left:1.6rem;margin:.5rem 0;font-size:.92rem;line-height:1.4;color:var(--ink);}
           .cpr-hero-hcard li::before{content:'\\2713';position:absolute;left:0;color:var(--teal);font-weight:800;}
-          .cpr-hero-hcard-cta{display:block;width:100%;box-sizing:border-box;margin:1.15rem 0 0;padding:.85rem 1.25rem;border-radius:999px;background:var(--teal);color:#fff;font-weight:800;font-size:1rem;text-align:center;text-decoration:none;box-shadow:0 8px 22px rgba(0,107,115,.30);transition:background .15s,transform .15s;}
+          .cpr-hero-hcard-cta{display:block;width:100%;box-sizing:border-box;margin:1.15rem 0 0;padding:.85rem 1.25rem;border-radius:999px;background:#0A7680;color:#fff;font-weight:800;font-size:1rem;text-align:center;text-decoration:none;box-shadow:0 8px 22px rgba(0,107,115,.30);transition:background .15s,transform .15s;}
           .cpr-hero-hcard-cta:hover,.cpr-hero-hcard-cta:focus{background:var(--navy);transform:translateY(-1px);color:#fff;}
           .cpr-hero-hcard-note{margin:.6rem 0 0;font-size:.8rem;color:var(--muted);text-align:center;}
           /* License verify bar renders fine as-is (white card + teal accent) on the
@@ -334,24 +344,20 @@ export default function StateLandingPage({ stateSlug }) {
         <section className="cpr-hero" id={`${pid}-hero`}>
           <div className="cpr-hero-wrap cpr-hero-grid">
             <div>
-              <p className="cpr-hero-kicker">Telehealth &middot; {state.name}</p>
               <h1 data-speakable="true">Online Doctor in {state.name} — TeleDirectMD</h1>
               <p className="sub" data-speakable="true">
                 MD-only telehealth visits for {conditionsLabel} adult conditions. Same-day appointments, flat $79 self-pay{hasInsurance ? ' — select insurance plans accepted' : ' — no insurance required'}.
               </p>
 
-              {/* INJECT 1: State hub uniqueness opener — renders only when stateTpl
-                 populated (currently AK, DE, HI, VA). Same slot pattern as
-                 condition.hero.quickAnswer on the state+condition template. */}
-              {stateTpl && stateTpl.stateHero && stateTpl.stateHero.openingParagraph && (
-                <div className="cpr-hero-answer" data-speakable="true">
-                  <p>{stateTpl.stateHero.openingParagraph}</p>
-                </div>
-              )}
-
-              <p className="intro">
-                TeleDirectMD connects you with a licensed physician in {state.name} through a secure video visit. Whether you need urgent care for a cold or UTI in women, a chronic medication refill for asthma or blood pressure, or treatment for a skin condition — we are here to help. Prescriptions are sent directly to your local {state.name} pharmacy.
-              </p>
+              {/* 2026-08-12: the /{state}/online-doctor-visits pages this secondary link
+                 pointed to have been retired site-wide (301 to this hub) — they were
+                 90-94% Jaccard-similar across states, the same duplication signature
+                 behind the May 2026 deindexing event, and every hub outperformed its
+                 own online-doctor-visits page in Search Console. Two CTAs only now. */}
+              <div className="cpr-hero-ctas">
+                <a href="/book-online/" className="cpr-hero-cta">Book a Visit, $79 &rarr;</a>
+                <a href="/what-we-treat/" className="cpr-hero-cta-outline">View All Conditions</a>
+              </div>
 
               {/* Credential verification bar. Every jurisdiction in
                  data/state-licenses.json carries a licenseNumber, so this renders on all
@@ -387,16 +393,6 @@ export default function StateLandingPage({ stateSlug }) {
                 </div>
               )}
 
-              {/* 2026-08-12: the /{state}/online-doctor-visits pages this secondary link
-                 pointed to have been retired site-wide (301 to this hub) — they were
-                 90-94% Jaccard-similar across states, the same duplication signature
-                 behind the May 2026 deindexing event, and every hub outperformed its
-                 own online-doctor-visits page in Search Console. Two CTAs only now. */}
-              <div className="cpr-hero-ctas">
-                <a href="/book-online/" className="cpr-hero-cta">Book a Visit, $79 &rarr;</a>
-                <a href="/what-we-treat/" className="cpr-hero-cta-outline">View All Conditions</a>
-              </div>
-
               <p className="cpr-hero-reviewed">
                 Last reviewed on <time dateTime={today}>{todayDisplay}</time> by{' '}
                 <a className="cpr-hero-author-link" href="/about/" aria-label="About Parth Bhavsar, MD">
@@ -424,18 +420,26 @@ export default function StateLandingPage({ stateSlug }) {
         </section>
       </div>
 
-      {/* 1b) Answer Block — AI snippet target. Relocated from above the hero. */}
-      <div className="tdmd-answer-block" data-speakable="true" style={{
-        background: '#EAF7F8', borderLeft: '4px solid #006B73',
-        padding: '1rem 1.25rem', margin: '0', lineHeight: 1.6
-      }}>
+      {/* 1b) Answer Block — AI snippet target. 2026-10-27 (Impeccable pass): on
+         states with a stateTpl, the state-specific opener moved here from the hero
+         and replaces the generic summary, which repeated the hero subhead. The
+         generic intro paragraph, a third restatement, now renders only on states
+         without a stateTpl. The hero is left with H1, offer, CTAs and license. */}
+      <div className="tdmd-answer-block tdmd-state-lead" data-speakable="true">
         <div className="tdmd-container">
-          <p style={{ margin: 0, fontWeight: 700, color: '#003E52', fontSize: '1.05rem' }}>
-            Online doctor in {state.name}:
-          </p>
-          <p style={{ margin: '0.35rem 0 0', color: '#003E52', fontSize: '0.97rem' }}>
-            TeleDirectMD provides same-day video visits with a board-certified MD in {state.name} for {conditionsLabel} adult conditions for a flat $79 self-pay fee, no insurance required{hasInsurance ? `, though select plans are accepted in ${state.name}` : ''}. Book online, see a licensed physician via secure video, and get a prescription sent directly to your local {state.name} pharmacy.
-          </p>
+          <p className="tdmd-state-lead-title">Online doctor in {state.name}</p>
+          {stateTpl && stateTpl.stateHero && stateTpl.stateHero.openingParagraph ? (
+            <p className="tdmd-state-opener-text">{stateTpl.stateHero.openingParagraph}</p>
+          ) : (
+            <>
+              <p>
+                TeleDirectMD provides same-day video visits with a board-certified MD in {state.name} for {conditionsLabel} adult conditions for a flat $79 self-pay fee, no insurance required{hasInsurance ? `, though select plans are accepted in ${state.name}` : ''}. Book online, see a licensed physician via secure video, and get a prescription sent directly to your local {state.name} pharmacy.
+              </p>
+              <p>
+                TeleDirectMD connects you with a licensed physician in {state.name} through a secure video visit. Whether you need urgent care for a cold or UTI in women, a chronic medication refill for asthma or blood pressure, or treatment for a skin condition — we are here to help. Prescriptions are sent directly to your local {state.name} pharmacy.
+              </p>
+            </>
+          )}
         </div>
       </div>
 
@@ -571,7 +575,7 @@ export default function StateLandingPage({ stateSlug }) {
           </div>
 
           <p>
-            All Dr. Bhavsar is licensed to practice medicine in {state.name} and follow state-specific prescribing guidelines. A valid physician-patient relationship is established during each video visit. TeleDirectMD does not prescribe controlled substances.
+            Dr. Bhavsar is licensed to practice medicine in {state.name} and follows state-specific prescribing guidelines. A valid physician-patient relationship is established during each video visit. TeleDirectMD does not prescribe controlled substances.
           </p>
         </div>
       </section>
@@ -632,7 +636,7 @@ export default function StateLandingPage({ stateSlug }) {
               {
                 question: 'Who will I see during my visit?',
                 answer: (
-                  <p>Every TeleDirectMD visit is conducted by a licensed MD — not a nurse practitioner or physician assistant. Dr. Bhavsar is licensed to practice medicine in {state.name} and are board-certified.</p>
+                  <p>Every TeleDirectMD visit is conducted by a licensed MD — not a nurse practitioner or physician assistant. Dr. Bhavsar is licensed to practice medicine in {state.name} and is board-certified.</p>
                 ),
               },
               {
@@ -730,7 +734,7 @@ export default function StateLandingPage({ stateSlug }) {
           <p>
             {state.abbr === 'FL'
               ? <>TeleDirectMD&rsquo;s telehealth physician is registered to provide telehealth services in {state.name} under Fla. Stat. § 456.47(4) and operates in compliance with state telehealth regulations. All visits are subject to clinical appropriateness as determined by your treating physician.</>
-              : <>Dr. Bhavsar is licensed in {state.name} and operate in compliance with state telehealth regulations. All visits are subject to clinical appropriateness as determined by your treating physician.</>
+              : <>Dr. Bhavsar is licensed in {state.name} and operates in compliance with state telehealth regulations. All visits are subject to clinical appropriateness as determined by your treating physician.</>
             }
           </p>
         </div>
@@ -738,6 +742,6 @@ export default function StateLandingPage({ stateSlug }) {
 
       {/* FL: A2 no-in-person-care + A4 standard-of-care (softer) + A3 verify-link placement 2 of 3. */}
       {state.abbr === 'FL' && <FlFooterCompliance idSuffix={`${pid}-fl-compliance`} />}
-    </>
+    </div>
   );
 }
