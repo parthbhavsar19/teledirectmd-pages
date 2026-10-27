@@ -430,6 +430,14 @@ const sections = [
         ),
       },
       {
+        q: 'Which medications does TeleDirectMD not prescribe?',
+        a: (
+          <p>
+            Beyond controlled substances, TeleDirectMD does not prescribe: GLP-1 agonists or other weight-loss drugs; isotretinoin; IV or IM medications other than EpiPen refills; boric acid; gabapentin or pregabalin; urate-lowering therapy for gout (allopurinol, febuxostat); ospemifene or prasterone for vaginal dryness; levofloxacin for chlamydia; amitriptyline; promethazine; secnidazole; crisaborole or dupilumab; bempedoic acid or icosapent ethyl; hydroquinone 4% as a single agent (the FDA-approved triple combination cream remains available); and oral acyclovir for cold sores (valacyclovir or famciclovir is prescribed instead). Migraine preventives and hydroxyzine are refilled only for patients already taking them. Each condition page lists what is and is not prescribed for that condition, and a request for a medication we do not prescribe ends the booking before a visit is scheduled, so you are not charged.
+          </p>
+        ),
+      },
+      {
         q: 'What about GLP-1 or weight-loss medications?',
         a: (
           <p>
