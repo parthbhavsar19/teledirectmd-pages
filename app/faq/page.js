@@ -75,6 +75,10 @@ const faqItems = [
     a: 'No. TeleDirectMD does not prescribe controlled substances (Schedule II–V), including narcotics, benzodiazepines, stimulants, or sleep medications. This is in accordance with federal telemedicine prescribing regulations and our commitment to responsible care.',
   },
   {
+    q: 'Which medications does TeleDirectMD not prescribe?',
+    a: 'Beyond controlled substances, TeleDirectMD does not prescribe: GLP-1 agonists or other weight-loss drugs; isotretinoin; IV or IM medications other than EpiPen refills; boric acid; gabapentin or pregabalin; urate-lowering therapy for gout (allopurinol, febuxostat); ospemifene or prasterone for vaginal dryness; levofloxacin for chlamydia; amitriptyline; promethazine; secnidazole; crisaborole or dupilumab; bempedoic acid or icosapent ethyl; hydroquinone 4% as a single agent (the FDA-approved triple combination cream remains available); and oral acyclovir for cold sores (valacyclovir or famciclovir is prescribed instead). Migraine preventives and hydroxyzine are refilled only for patients already taking them. Each condition page lists what is and is not prescribed for that condition, and a request for a medication we do not prescribe ends the booking before a visit is scheduled, so you are not charged.',
+  },
+  {
     q: 'Do you prescribe Armour Thyroid, NP Thyroid, or natural desiccated thyroid (NDT)?',
     a: 'No. For hypothyroidism, TeleDirectMD prescribes levothyroxine (or Tirosint) only, consistent with American Thyroid Association (ATA) guidelines. We do not prescribe, refill, or transfer Armour Thyroid, NP Thyroid, Nature-Throid, WP Thyroid, any natural desiccated thyroid (NDT) product, liothyronine (Cytomel/T3), or compounded T3/T4 combination therapy under any circumstances. Patients seeking these alternatives should follow up with their primary care provider or an endocrinologist.',
   },
