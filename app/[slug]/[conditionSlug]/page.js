@@ -506,6 +506,11 @@ export default async function ConditionPage({ params }) {
   // Merge state FAQs into condition FAQ items. When stateTpl is null, this is
   // a no-op pass-through, so JSON-LD generation upstream isn't affected.
   const enrichedFaqItems = mergeFaqs(condition.faq && condition.faq.items, stateTpl);
+  const stateOpener = stateTpl && stateTpl.stateHero
+    && (stateTpl.stateHero.conditionPageOpener || stateTpl.stateHero.openingParagraph);
+  // The site-wide mobile bar says "Insurance accepted in select states"; on a state where
+  // TeleDirectMD bills no insurance that line is misleading, so it is swapped via CSS.
+  const selfPayOnlyState = !!(stateTpl && stateTpl.stateInsurance && stateTpl.stateInsurance.mode === 'self-pay-only');
 
 
   return (
@@ -515,20 +520,6 @@ export default async function ConditionPage({ params }) {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
       <CitableSummaryBlock summary={citableSummary_AI} jsonLd={citableJsonLd_AI} idSuffix={`${slug}-${conditionSlug}`} />
-
-      {/* INJECT 1: State opener paragraph (replaces generic intro on stated states) */}
-      {stateTpl && stateTpl.stateHero && stateTpl.stateHero.openingParagraph && (
-        <div className="tdmd-state-opener" data-speakable="true" style={{
-          background: '#FAFCFD', borderLeft: '4px solid #006B73',
-          padding: '1rem 1.25rem', margin: '0', lineHeight: 1.65
-        }}>
-          <div className="tdmd-container">
-            <p style={{ margin: 0, color: '#0A2438', fontSize: '0.98rem' }}>
-              {stateTpl.stateHero.openingParagraph}
-            </p>
-          </div>
-        </div>
-      )}
 
       {/* 0) Breadcrumb */}
       <nav className="tdmd-breadcrumbs" aria-label="Breadcrumb">
@@ -670,6 +661,24 @@ export default async function ConditionPage({ params }) {
       </div>
 
       {/* 2) Eligibility Checklist */}
+      {/* State opener. 2026-10-27: moved from above the breadcrumb to below the hero so
+          the H1 is the first thing on screen (on a phone the opener used to fill the whole
+          first viewport). conditionPageOpener is a short, condition-page version; the full
+          openingParagraph stays on the state hub. */}
+      {stateOpener && (
+        <div className="tdmd-state-opener" data-speakable="true" style={{
+          background: '#FAFCFD', borderLeft: '4px solid #006B73',
+          padding: '1rem 1.25rem', margin: '0', lineHeight: 1.65
+        }}>
+          <div className="tdmd-container">
+            <p style={{ margin: 0, color: '#0A2438', fontSize: '0.98rem' }}>{stateOpener}</p>
+          </div>
+        </div>
+      )}
+      {selfPayOnlyState && (
+        <style>{`.tdmd-mobile-sticky-bar .tdmd-sticky-bar-text span{font-size:0;}.tdmd-mobile-sticky-bar .tdmd-sticky-bar-text span::after{content:"Self-pay only in ${state.name}";font-size:0.82rem;}`}</style>
+      )}
+
       <section className="tdmd-section" id={`${pid}-eligibility-checklist`}>
         <div className="tdmd-container">
           <h2>{condition.eligibility.sectionTitle}</h2>
