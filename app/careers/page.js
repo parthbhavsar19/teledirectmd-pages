@@ -17,7 +17,7 @@ const jobPostingLd = {
     'No controlled-substance prescribing.</p>' +
     '<p>Compensation: $40 per completed video visit on weekday evenings (Monday to Thursday, starting at 5 p.m. Eastern); ' +
     '$45 per completed video visit on weekends (Friday 5 p.m. to Monday 7 a.m. Eastern) and holidays. Paid biweekly. ' +
-    'Independent contractor (1099). Malpractice coverage provided, including tail. TeleDirectMD pays for additional state licenses it asks you to obtain.</p>' +
+    'Independent contractor (1099). TeleDirectMD pays for additional state licenses it asks you to obtain.</p>' +
     '<p>Requirements: MD or DO, board-certified in family medicine or internal medicine. Active, unrestricted licenses in 30+ states preferred; ' +
     'physicians with 15+ licenses who are eligible for the Interstate Medical Licensure Compact are encouraged to apply.</p>',
   datePosted: DATE_POSTED,
@@ -82,7 +82,6 @@ export default function Careers() {
 
         <h2 style={s.h2}>Benefits and support</h2>
         <ul style={s.ul}>
-          <li>Malpractice coverage provided, including tail</li>
           <li>TeleDirectMD pays for additional state licenses we ask you to obtain</li>
           <li>You set your own availability. No minimum hours and no non-compete</li>
           <li>Independent contractor (1099)</li>
