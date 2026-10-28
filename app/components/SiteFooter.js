@@ -36,6 +36,7 @@ export default function SiteFooter() {
             <a href="/health-guides/">Health Guides</a>
             <a href="/reviews/">Reviews</a>
             <a href="/media-mentions/">Media Mentions</a>
+            <a href="/careers/">Careers</a>
           </div>
 
           {/* Column 4: For Business (Employers + Brokers) */}
