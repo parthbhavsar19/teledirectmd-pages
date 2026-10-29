@@ -30,6 +30,14 @@
       }
     },
     {
+      "src": "/social/(.*)",
+      "continue": true,
+      "headers": {
+        "Cache-Control": "public, max-age=86400, stale-while-revalidate=604800",
+        "X-Robots-Tag": "noindex"
+      }
+    },
+    {
       "src": "/health-guides/(.*)\\.(png|jpe?g|webp|avif|svg)",
       "continue": true,
       "headers": {
