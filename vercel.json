@@ -2984,6 +2984,13 @@
       "dest": "/410-insurance.txt"
     },
     {
+      "src": "/insurance/curative/texas/?",
+      "headers": {
+        "Location": "/insurance/curative/"
+      },
+      "status": 301
+    },
+    {
       "src": "/insurance/curative/ohio/?",
       "status": 410,
       "headers": {
