@@ -28,6 +28,7 @@ const STATE_NAMES = {
   IL:'Illinois', LA:'Louisiana', MI:'Michigan', MN:'Minnesota', NC:'North Carolina',
   NJ:'New Jersey', OH:'Ohio', OK:'Oklahoma', PA:'Pennsylvania', TN:'Tennessee',
   TX:'Texas', WA:'Washington',
+  AL:'Alabama', IN:'Indiana', KY:'Kentucky', MS:'Mississippi', NV:'Nevada',
 };
 
 const ALL_US_STATES = [
@@ -483,7 +484,7 @@ function formatDate(iso) {
 
 const FAQ_ITEMS = [
   { q:'What does "in-network" mean?', a:'In-network means we have a contract with your insurance company, so we can bill them directly for your visit. You\'ll still pay your plan\'s copay, coinsurance, or deductible — it doesn\'t mean the visit is free.' },
-  { q:'Does TeleDirectMD accept insurance?', a:'Yes. We are in-network with Aetna, Blue Cross Blue Shield affiliates (BCBS-AZ, Anthem Blue Cross CA, Florida Blue, Anthem GA, BCBS-IL, BCBS-MI, Highmark, BCBS-TX), UnitedHealthcare, and Curative (9 states including Texas, California, and Florida). Use the checker above to confirm your specific plan.' },
+  { q:'Does TeleDirectMD accept insurance?', a:'Yes. We are in-network with Aetna, Blue Cross Blue Shield affiliates (BCBS-AZ, Anthem Blue Cross CA, Florida Blue, Anthem GA, BCBS-IL, BCBS-MI, Highmark, BCBS-TX), UnitedHealthcare, and Curative (14 states: AL, AZ, CA, CO, FL, GA, IL, IN, KY, LA, MI, MN, MS, NV). Use the checker above to confirm your specific plan.' },
   { q:'Which plan types do you accept?', a:'PPO, HMO, EPO, POS, and Medicare Advantage. State-specific exclusions apply (for example, Aetna California excludes HMO and QPOS; UnitedHealthcare in Illinois, Minnesota, and Texas is commercial-only; Curative is Commercial PPO, EPO, and self-funded only). The checker above shows your exact result.' },
   { q:'Does TeleDirectMD accept Medicaid?', a:'No. We are not in-network with any Medicaid program, Managed Medicaid plan, CHIP, Medicare-Medicaid (MME), or Dual Special Needs Plan (D-SNP) in any state we serve. Patients with Medicaid-only coverage can still book a $79 self-pay visit (HSA/FSA eligible).' },
   { q:'How much is a self-pay visit?', a:'$79 flat fee. Includes the physician consultation, any clinically appropriate prescriptions, and a work or school excuse note when medically appropriate. HSA and FSA cards accepted.' },

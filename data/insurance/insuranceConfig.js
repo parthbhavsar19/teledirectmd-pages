@@ -106,9 +106,9 @@ export const INSURERS = {
     logo: "/logos/curative.svg",
     color: "#0B6E99",
     colorLight: "#E7F4FA",
-    tagline: "Curative employer plans accepted in 9 states",
-    description: "Curative is an employer-sponsored health plan built around a no-copay, no-deductible design for members who complete their annual Baseline Visit. TeleDirectMD is in-network with Curative Commercial PPO, EPO, and self-funded plans under a national agreement effective July 7, 2026, with live state pages in 9 states including Texas, California, and Florida.",
-    states: ["GA", "CA", "DC", "FL", "IN", "LA", "MD", "OH", "TX"],
+    tagline: "Curative employer plans accepted in 14 states",
+    description: "Curative is an employer-sponsored health plan built around a no-copay, no-deductible design for members who complete their annual Baseline Visit. TeleDirectMD is in-network with Curative Commercial PPO, EPO, and self-funded plans under a national agreement effective July 7, 2026, for members in 14 states: Alabama, Arizona, California, Colorado, Florida, Georgia, Illinois, Indiana, Kentucky, Louisiana, Michigan, Minnesota, Mississippi, and Nevada.",
+    states: ["AL", "AZ", "CA", "CO", "FL", "GA", "IL", "IN", "KY", "LA", "MI", "MN", "MS", "NV"],
     // Curative pages are hub + state only. No insurer x condition matrix pages
     // exist for this payer, so the sitemap must skip the condition loops.
     conditionMatrix: false,
@@ -119,9 +119,9 @@ export const INSURERS = {
     billingCodes: ["99213", "99214"],
     claimsPhone: "See member card",
     metaTitle: "Online Doctor That Accepts Curative Insurance | TeleDirectMD",
-    metaDescription: "TeleDirectMD is in-network with Curative Commercial PPO, EPO, and self-funded plans for members in 9 states including Texas, California, and Florida. Members who complete their Baseline Visit typically pay $0 for a virtual visit. $79 flat self-pay always available.",
+    metaDescription: "TeleDirectMD is in-network with Curative Commercial PPO, EPO, and self-funded plans for members in 14 states, including California, Florida, Georgia, and Illinois. Members who complete their Baseline Visit typically pay $0 for a virtual visit. $79 flat self-pay always available.",
     h1: "Online Doctor Visits Covered by Curative",
-    heroSubtitle: "TeleDirectMD is in-network with Curative Commercial PPO, EPO, and self-funded plans for members in 9 states including Texas, California, and Florida, effective July 7, 2026, with more states activating.",
+    heroSubtitle: "TeleDirectMD is in-network with Curative Commercial PPO, EPO, and self-funded plans for members in 14 states: Alabama, Arizona, California, Colorado, Florida, Georgia, Illinois, Indiana, Kentucky, Louisiana, Michigan, Minnesota, Mississippi, and Nevada.",
     faqSlug: "curative",
   },
 };
@@ -240,14 +240,19 @@ export const CURATIVE_PLANS = [
 export const CURATIVE_EXCLUDED_LINES = ["Medicaid", "Managed Medicaid", "CHIP", "Medicare-Medicaid (MME)", "Dual Special Needs Plan (D-SNP)", "Medicare Advantage", "HMO"];
 
 // ─── Curative state enablement ───────────────────────────────────────────────
-// Adding a state here (with enabled: true) is the only change required to ship
-// a new /insurance/curative/{state}/ page. The route's generateStaticParams and
-// the sitemap both read this map. The nine enabled states are the jurisdictions
-// with a state regulatory addendum (Exhibit D) attached to the Curative
-// national provider agreement. The contract itself is national; these are the
-// states with live pages today.
+// Two flags per state:
+//   covered: TeleDirectMD is listed in-network in Curative's provider directory
+//            for this state. The hub's state list and copy read this flag.
+//   enabled: the state also has a /insurance/curative/{state}/ page. The
+//            route's generateStaticParams and the sitemap read this flag, and
+//            a page also needs a STATE_COPY block in CurativeStateClient.js.
+// The covered list follows the 14 states Curative's Provider Network Manager
+// confirmed as live virtual in-network listings on 2026-10-29. DC, MD, OH, and
+// TX carry a regulatory addendum (Exhibit D) in the provider agreement but are
+// not listed in Curative's directory, so they stay off until Curative adds them.
 export const CURATIVE_STATES = {
   GA: {
+    covered: true,
     enabled: true,
     slug: "georgia",
     name: "Georgia",
@@ -263,6 +268,7 @@ export const CURATIVE_STATES = {
     majorMetros: ["Atlanta", "Savannah", "Augusta", "Columbus", "Macon", "Athens"],
   },
   CA: {
+    covered: true,
     enabled: true,
     slug: "california",
     name: "California",
@@ -275,7 +281,8 @@ export const CURATIVE_STATES = {
     majorMetros: ["Los Angeles", "San Diego", "San Jose", "San Francisco", "Fresno", "Sacramento"],
   },
   DC: {
-    enabled: true,
+    covered: false,
+    enabled: false,
     slug: "district-of-columbia",
     name: "District of Columbia",
     effectiveDate: "July 7, 2026",
@@ -287,6 +294,7 @@ export const CURATIVE_STATES = {
     majorMetros: ["Capitol Hill", "Georgetown", "Dupont Circle", "Columbia Heights", "Foggy Bottom", "Brookland"],
   },
   FL: {
+    covered: true,
     enabled: true,
     slug: "florida",
     name: "Florida",
@@ -299,6 +307,7 @@ export const CURATIVE_STATES = {
     majorMetros: ["Jacksonville", "Miami", "Tampa", "Orlando", "St. Petersburg", "Fort Lauderdale"],
   },
   IN: {
+    covered: true,
     enabled: true,
     slug: "indiana",
     name: "Indiana",
@@ -311,6 +320,7 @@ export const CURATIVE_STATES = {
     majorMetros: ["Indianapolis", "Fort Wayne", "Evansville", "South Bend", "Carmel", "Bloomington"],
   },
   LA: {
+    covered: true,
     enabled: true,
     slug: "louisiana",
     name: "Louisiana",
@@ -323,7 +333,8 @@ export const CURATIVE_STATES = {
     majorMetros: ["New Orleans", "Baton Rouge", "Shreveport", "Lafayette", "Lake Charles", "Monroe"],
   },
   MD: {
-    enabled: true,
+    covered: false,
+    enabled: false,
     slug: "maryland",
     name: "Maryland",
     effectiveDate: "July 7, 2026",
@@ -335,7 +346,8 @@ export const CURATIVE_STATES = {
     majorMetros: ["Baltimore", "Columbia", "Silver Spring", "Frederick", "Germantown", "Waldorf"],
   },
   OH: {
-    enabled: true,
+    covered: false,
+    enabled: false,
     slug: "ohio",
     name: "Ohio",
     effectiveDate: "July 7, 2026",
@@ -347,7 +359,8 @@ export const CURATIVE_STATES = {
     majorMetros: ["Columbus", "Cleveland", "Cincinnati", "Toledo", "Akron", "Dayton"],
   },
   TX: {
-    enabled: true,
+    covered: false,
+    enabled: false,
     slug: "texas",
     name: "Texas",
     effectiveDate: "July 7, 2026",
@@ -358,18 +371,102 @@ export const CURATIVE_STATES = {
     licenseNote: "Parth Bhavsar, MD is board-certified in Family Medicine and licensed to practice in Texas.",
     majorMetros: ["Houston", "San Antonio", "Dallas", "Austin", "Fort Worth", "El Paso"],
   },
+  // Listed in Curative's provider directory as of 2026-10-29. No state page yet
+  // (enabled: false) and no state regulatory addendum in the agreement.
+  AL: {
+    covered: true,
+    enabled: false,
+    noAddendum: true,
+    slug: "alabama",
+    name: "Alabama",
+    effectiveDate: "July 7, 2026",
+    effectiveDateISO: "2026-07-07",
+  },
+  AZ: {
+    covered: true,
+    enabled: false,
+    noAddendum: true,
+    slug: "arizona",
+    name: "Arizona",
+    effectiveDate: "July 7, 2026",
+    effectiveDateISO: "2026-07-07",
+  },
+  CO: {
+    covered: true,
+    enabled: false,
+    noAddendum: true,
+    slug: "colorado",
+    name: "Colorado",
+    effectiveDate: "July 7, 2026",
+    effectiveDateISO: "2026-07-07",
+  },
+  IL: {
+    covered: true,
+    enabled: false,
+    noAddendum: true,
+    slug: "illinois",
+    name: "Illinois",
+    effectiveDate: "July 7, 2026",
+    effectiveDateISO: "2026-07-07",
+  },
+  KY: {
+    covered: true,
+    enabled: false,
+    noAddendum: true,
+    slug: "kentucky",
+    name: "Kentucky",
+    effectiveDate: "July 7, 2026",
+    effectiveDateISO: "2026-07-07",
+  },
+  MI: {
+    covered: true,
+    enabled: false,
+    noAddendum: true,
+    slug: "michigan",
+    name: "Michigan",
+    effectiveDate: "July 7, 2026",
+    effectiveDateISO: "2026-07-07",
+  },
+  MN: {
+    covered: true,
+    enabled: false,
+    noAddendum: true,
+    slug: "minnesota",
+    name: "Minnesota",
+    effectiveDate: "July 7, 2026",
+    effectiveDateISO: "2026-07-07",
+  },
+  MS: {
+    covered: true,
+    enabled: false,
+    noAddendum: true,
+    slug: "mississippi",
+    name: "Mississippi",
+    effectiveDate: "July 7, 2026",
+    effectiveDateISO: "2026-07-07",
+  },
+  NV: {
+    covered: true,
+    enabled: false,
+    noAddendum: true,
+    slug: "nevada",
+    name: "Nevada",
+    effectiveDate: "July 7, 2026",
+    effectiveDateISO: "2026-07-07",
+  },
 };
 
 // Fill the per-state Curative plan and cost-sharing entries from the state map so
 // activating a state stays a single-place change.
 for (const [code, st] of Object.entries(CURATIVE_STATES)) {
+  if (!st.covered) continue;
   STATE_PLAN_DETAILS.curative[code] = {
     effectiveDate: st.effectiveDate,
     effectiveDateISO: st.effectiveDateISO,
     productLines: ["Commercial PPO", "Commercial EPO", "Self-Funded plans"],
     excludedLines: CURATIVE_EXCLUDED_LINES,
     plans: CURATIVE_PLANS,
-    note: `Curative ${st.name} participating networks per contract Exhibit C, effective ${st.effectiveDate}, with the ${st.name} regulatory addendum per Exhibit D. Plan acceptance is subject to your specific plan benefits. Self-pay $79 is always available.`,
+    note: `Curative ${st.name} participating networks per contract Exhibit C, effective ${st.effectiveDate}${st.noAddendum ? '' : `, with the ${st.name} regulatory addendum per Exhibit D`}. Plan acceptance is subject to your specific plan benefits. Self-pay $79 is always available.`,
   };
   COPAY_DATA.curative[code] = {
     typical: "$0 after Baseline Visit",
@@ -383,6 +480,13 @@ for (const [code, st] of Object.entries(CURATIVE_STATES)) {
  */
 export function getCurativeStateCodes() {
   return Object.keys(CURATIVE_STATES).filter((code) => CURATIVE_STATES[code].enabled);
+}
+
+/** States where TeleDirectMD is listed in-network in Curative's directory, alphabetical by name. */
+export function getCurativeCoveredStateCodes() {
+  return Object.keys(CURATIVE_STATES)
+    .filter((code) => CURATIVE_STATES[code].covered)
+    .sort((a, b) => CURATIVE_STATES[a].name.localeCompare(CURATIVE_STATES[b].name));
 }
 
 /**
