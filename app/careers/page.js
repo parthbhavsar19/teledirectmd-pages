@@ -2,6 +2,11 @@ export const metadata = {
   title: 'Careers: Evening and Weekend Telemedicine Physician (MD/DO) | TeleDirectMD',
   description: 'TeleDirectMD is hiring a remote MD or DO for evening and weekend video visits. $40 per visit on weekday evenings, $45 per visit on weekends. 1099, set your own availability.',
   alternates: { canonical: 'https://teledirectmd.com/careers/' },
+  openGraph: {
+    title: 'Now hiring: Telemedicine Physician (MD/DO), Evenings and Weekends',
+    url: 'https://teledirectmd.com/careers/',
+    images: [{ url: 'https://teledirectmd.com/careers/evening-weekend-physician.jpg', width: 1200, height: 1500 }],
+  },
 };
 
 const DATE_POSTED = '2026-10-28';
