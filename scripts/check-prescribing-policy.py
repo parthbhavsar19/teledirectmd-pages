@@ -170,8 +170,9 @@ import('data:text/javascript;base64,' + Buffer.from(src).toString('base64')).the
         if parts[0] in ("health-guides", "next-steps", "flu-hub"):
             continue  # Independent static pages without the shared footer are intentionally untouched.
         html = path.read_text()
-        assert 'data-prescribing-policy="footer"' in html and POLICY in html, f"{parts}: shared footer policy missing"
-        assert 'data-refill-policy="footer"' in html and REFILL in html, f"{parts}: footer refill policy missing"
+        # The full policy text moved out of the footer to /patient-policies/; the footer links there.
+        assert 'href="/patient-policies/"' in html, f"{parts}: shared footer link to patient policies missing"
+        assert 'data-prescribing-policy="footer"' not in html, f"{parts}: policy text should not be back in the footer"
         footer_count += 1
         scoped = (parts[0] in states or parts[0] in conditions or parts[0] in scoped_families
                   or parts[:2] == ("faq", "deep-dive"))
@@ -211,6 +212,11 @@ import('data:text/javascript;base64,' + Buffer.from(src).toString('base64')).the
         if slug in module["specific"]:
             specific = module["specific"][slug][1]
             faq_alignment(root, route, specific["question"], specific["answer"])
+    policies = load("/patient-policies/")
+    assert any(el.attrs.get("data-prescribing-policy") == "policies" and normalize(el.text()) == POLICY
+               for el in policies.all("p")), "Patient Policies page missing prescribing policy"
+    assert any(el.attrs.get("data-refill-policy") == "policies" and normalize(el.text()) == REFILL
+               for el in policies.all("p")), "Patient Policies page missing refill policy"
     scope = load("/what-we-treat/")
     assert any(el.attrs.get("data-prescribing-policy") == "scope" and POLICY in normalize(el.text())
                for el in scope.all()), "What We Treat scope section missing policy"

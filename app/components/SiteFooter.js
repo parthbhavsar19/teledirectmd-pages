@@ -1,5 +1,3 @@
-import { PRESCRIBING_POLICY, REFILL_POLICY } from '../../lib/prescribing-policy';
-
 export default function SiteFooter() {
 
   return (
@@ -14,63 +12,46 @@ export default function SiteFooter() {
             <p className="tdmd-footer-desc">
               Board-certified family medicine physician. $79 flat-fee virtual visits across 40+ states + D.C. Insurance accepted in select states. Employer plans available.
             </p>
-            <p className="tdmd-footer-desc"><strong>We do not treat male UTIs.</strong> UTI care is limited to non-pregnant adult women (18+) with uncomplicated symptoms.</p>
             <a href="/book-online/" className="tdmd-footer-cta">Book a Visit →</a>
           </div>
 
           {/* Column 2: Patients */}
           <div className="tdmd-footer-col">
             <h4 className="tdmd-footer-heading">PATIENTS</h4>
-            <a href="/book-online/">Book Now</a>
             <a href="/what-we-treat/">What We Treat</a>
             <a href="/insurance/">Insurance & Pricing</a>
             <a href="/states-we-serve/">States We Serve</a>
-            <a href="/who-we-serve/">Who We Serve</a>
-            <a href="https://app.elationpassport.com/passport/login/" target="_blank" rel="noopener noreferrer">Patient Portal</a>
             <a href="/faq/">FAQs</a>
-          </div>
-
-          {/* Column 3: Resources */}
-          <div className="tdmd-footer-col">
-            <h4 className="tdmd-footer-heading">RESOURCES</h4>
             <a href="/health-guides/">Health Guides</a>
             <a href="/reviews/">Reviews</a>
-            <a href="/media-mentions/">Media Mentions</a>
-            <a href="/careers/">Careers</a>
+            <a href="https://app.elationpassport.com/passport/login/" target="_blank" rel="noopener noreferrer">Patient Portal</a>
           </div>
 
-          {/* Column 4: For Business (Employers + Brokers) */}
+          {/* Column 3: Work with us. Industry pages are linked from /employers/. */}
           <div className="tdmd-footer-col">
-            <h4 className="tdmd-footer-heading">FOR BUSINESS</h4>
+            <h4 className="tdmd-footer-heading">WORK WITH US</h4>
             <a href="/employers/">For Employers</a>
             <a href="/employers/brokers/">For Brokers</a>
             <a href="/partners/">For Partners</a>
-            <a href="/employers/trucking/">Trucking &amp; Logistics</a>
-            <a href="/employers/restaurants/">Restaurants &amp; Hospitality</a>
-            <a href="/employers/home-care/">Home Care</a>
-            <a href="/employers/construction/">Construction &amp; Trades</a>
-            <a href="/employers/cleaning/">Cleaning &amp; Janitorial</a>
+            <a href="/careers/">Careers</a>
           </div>
 
-          {/* Column 5: Legal & Policies */}
+          {/* Column 4: Legal. Keep NPP, Good Faith Estimate and Consumer Health
+              Data links sitewide; each has a website posting requirement. */}
           <div className="tdmd-footer-col">
-            <h4 className="tdmd-footer-heading">LEGAL & POLICIES</h4>
+            <h4 className="tdmd-footer-heading">LEGAL</h4>
             <a href="/terms-of-service/">Terms of Service</a>
             <a href="/privacy-policy/">Privacy Policy</a>
             <a href="/notice-of-privacy-practices/">HIPAA Notice</a>
-            <div className="tdmd-footer-divider" />
-            <a href="/telehealth-informed-consent.pdf">Telehealth Consent</a>
-            <a href="/state-consent-disclosures.pdf">State Disclosures</a>
-            <a href="/financial-responsibility.pdf">Financial Responsibility</a>
-            <a href="/controlled-substance-policy.pdf">Controlled Substance Policy</a>
-            <div className="tdmd-footer-divider" />
+            <a href="/consumer-health-data-privacy/">Consumer Health Data</a>
             <a href="/good-faith-estimate/">Good Faith Estimate</a>
+            <a href="/patient-policies/">Patient Policies</a>
             <a href="/nondiscrimination-notice/">Nondiscrimination Notice</a>
             <a href="/accessibility/">Accessibility</a>
           </div>
         </div>
 
-        {/* Trust badges + Social */}
+        {/* LegitScript seal + social */}
         <div className="tdmd-footer-bottom-bar">
           <div className="tdmd-footer-badges">
             {/* Official LegitScript seal. Served from LegitScript at its native
@@ -90,13 +71,6 @@ export default function SiteFooter() {
                 style={{ display: 'block' }}
               />
             </a>
-            <span className="tdmd-trust-badge">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
-                <rect x="3" y="11" width="18" height="11" rx="2" fill="#8b9da4"/>
-                <path d="M7 11V7a5 5 0 0 1 10 0v4" stroke="#8b9da4" strokeWidth="2" fill="none"/>
-              </svg>
-              HIPAA Compliant
-            </span>
           </div>
 
           <div className="tdmd-footer-social">
@@ -115,30 +89,9 @@ export default function SiteFooter() {
           </div>
         </div>
 
-        {/* Copyright strip */}
-        <div className="tdmd-footer-copyright" data-prescribing-policy="footer">
-          <p style={{ maxWidth: 1080, lineHeight: 1.6, margin: 0 }}>
-            <strong>Prescribing limits. </strong>{PRESCRIBING_POLICY}
-          </p>
-          <p style={{ maxWidth: 1080, lineHeight: 1.6, margin: '0.5rem 0 0' }} data-refill-policy="footer">
-            <strong>Refill policy. </strong>{REFILL_POLICY}
-          </p>
-        </div>
         <div className="tdmd-footer-copyright">
-          <span>© 2026 TeleDirectMD. All rights reserved.</span>
-          <div className="tdmd-footer-legal-links">
-            <a href="/terms-of-service/">Terms</a>
-            <span className="tdmd-footer-dot">·</span>
-            <a href="/privacy-policy/">Privacy</a>
-            <span className="tdmd-footer-dot">·</span>
-            <a href="/consumer-health-data-privacy/">Consumer Health Data</a>
-            <span className="tdmd-footer-dot">·</span>
-            <a href="/notice-of-privacy-practices/">HIPAA</a>
-            <span className="tdmd-footer-dot">·</span>
-            <a href="/telehealth-informed-consent.pdf">Consent</a>
-            <span className="tdmd-footer-dot">·</span>
-            <a href="/accessibility/">Accessibility</a>
-          </div>
+          <span><strong>Not for emergencies.</strong> If you are having a medical emergency, call 911.</span>
+          <span>© 2026 TeleDirectMD (Mahavir Health Services LLC) · <a href="mailto:contact@teledirectmd.com">contact@teledirectmd.com</a></span>
         </div>
       </footer>
 
