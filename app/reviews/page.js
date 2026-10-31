@@ -3,6 +3,7 @@ import {
   REVIEW_PLATFORMS,
   TOTAL_REVIEW_COUNT,
   AGGREGATE_RATING_VALUE,
+  REVIEW_COUNTS_AS_OF_LABEL,
 } from '../../lib/review-schema';
 import { PRICE_SHORT, PHYSICIAN_NAME } from '../../lib/global-invariants';
 import reviewsData from '../../data/reviews.json';
@@ -47,8 +48,8 @@ function Stars({ count = 5 }) {
 export const metadata = {
   title: 'Patient Reviews | TeleDirectMD – Rated 4.9+ by Patients',
   description:
-    `Read ${TOTAL_REVIEW_COUNT} verified patient reviews of TeleDirectMD — a ${AGGREGATE_RATING_VALUE}★ ` +
-    `average across Google, Zocdoc, WebMD, and Healthgrades. Board-certified family medicine ` +
+    `Read reviews from patients of TeleDirectMD: ${TOTAL_REVIEW_COUNT} public ratings averaging ${AGGREGATE_RATING_VALUE}★ ` +
+    `across Google, Zocdoc, WebMD, and Healthgrades. Board-certified family medicine ` +
     `physician Dr. Parth Bhavsar offers ${PRICE_SHORT} flat-fee video visits across ${COVERAGE_PHRASE}`,
   robots: {
     index: true,
@@ -64,7 +65,7 @@ export const metadata = {
     locale: 'en_US',
     title: 'Patient Reviews | TeleDirectMD – Rated 4.9+ by Patients',
     description:
-      `${TOTAL_REVIEW_COUNT} verified patient reviews of TeleDirectMD — a ${AGGREGATE_RATING_VALUE}★ average ` +
+      `${TOTAL_REVIEW_COUNT} public patient ratings of TeleDirectMD averaging ${AGGREGATE_RATING_VALUE}★ ` +
       `across Google, Zocdoc, WebMD, and Healthgrades. ${PRICE_SHORT} flat-fee video visits with Dr. Parth Bhavsar.`,
     url: PAGE_URL,
   },
@@ -72,7 +73,7 @@ export const metadata = {
     card: 'summary_large_image',
     title: 'Patient Reviews | TeleDirectMD – Rated 4.9+ by Patients',
     description:
-      `${TOTAL_REVIEW_COUNT} verified patient reviews of TeleDirectMD — a ${AGGREGATE_RATING_VALUE}★ average ` +
+      `${TOTAL_REVIEW_COUNT} public patient ratings of TeleDirectMD averaging ${AGGREGATE_RATING_VALUE}★ ` +
       `across Google, Zocdoc, WebMD, and Healthgrades. ${PRICE_SHORT} flat-fee video visits with Dr. Parth Bhavsar.`,
   },
   alternates: { canonical: PAGE_URL },
@@ -95,7 +96,7 @@ const jsonLd = {
       url: PAGE_URL,
       name: 'Patient Reviews | TeleDirectMD',
       description:
-        `${TOTAL_REVIEW_COUNT} verified patient reviews of TeleDirectMD (a ${AGGREGATE_RATING_VALUE}★ average ` +
+        `${TOTAL_REVIEW_COUNT} public patient ratings of TeleDirectMD (a ${AGGREGATE_RATING_VALUE}★ average ` +
         `across Google, Zocdoc, WebMD, and Healthgrades), a physician-led telehealth practice offering ` +
         `${PRICE_SHORT} flat-fee video visits across ${COVERAGE_PHRASE}`,
       inLanguage: 'en-US',
@@ -139,6 +140,7 @@ const REVIEWS_CSS = `
   .rv-platform:hover{background:rgba(255,255,255,0.2);}
   .rv-platform .rv-pname{font-weight:700;font-size:0.95rem;}
   .rv-platform .rv-pcount{font-size:0.78rem;color:rgba(255,255,255,0.82);}
+  .rv-asof{font-size:0.82rem;color:rgba(255,255,255,0.78);margin:18px auto 0;max-width:660px;line-height:1.5;}
 
   /* ── Section shell ── */
   .rv-section{max-width:1100px;margin:0 auto;padding:56px 24px;}
@@ -238,29 +240,34 @@ export default function ReviewsPage() {
             <p>
               Dr. Parth Bhavsar, a board-certified family medicine physician, personally
               conducts every visit. Here is what patients say about {PRICE_SHORT} flat-fee
-              video care across {COVERAGE_PHRASE}.
+              video care across {COVERAGE_PHRASE}
             </p>
 
             <div className="rv-trust">
               <div className="rv-trust-score">
                 <span className="rv-big">{AGGREGATE_RATING_VALUE}</span>
                 <Stars count={5} />
-                <small>avg across {TOTAL_REVIEW_COUNT} verified reviews</small>
+                <small>average of {TOTAL_REVIEW_COUNT} public ratings</small>
               </div>
               <div className="rv-platforms">
                 {REVIEW_PLATFORMS.map((p) => (
                   <a key={p.name} className="rv-platform" href={p.url} target="_blank" rel="noopener noreferrer">
                     <span className="rv-pname">{p.name}</span>
-                    <span className="rv-pcount">{p.ratingValue.toFixed(1)} ★ · {p.reviewCount}</span>
+                    <span className="rv-pcount">{p.displayRating} ★ · {p.reviewCount} ratings</span>
                   </a>
                 ))}
               </div>
             </div>
+            <p className="rv-asof">
+              Averages and counts as shown on each site on {REVIEW_COUNTS_AS_OF_LABEL}. The overall
+              figure is weighted by each site&apos;s number of ratings. Select a site to read every
+              review there, including any below five stars.
+            </p>
           </div>
         </header>
 
         <p className="rv-disclaimer" style={{ maxWidth: 760, margin: '0 auto 1.5rem', padding: '0 1rem', fontSize: 14, lineHeight: 1.6, color: '#4a5d66' }}>
-          Reviews are reproduced verbatim from Google, Zocdoc, WebMD and Healthgrades. Individual experiences vary. Prices mentioned in older reviews reflect the fee at the time; the current self-pay fee is {PRICE_SHORT}.
+          The quotes below are a selection of public reviews from Google, Zocdoc, WebMD and Healthgrades, not every review we have received. They are copied as written, typos included. Some are shortened, and an ellipsis (...) marks each place text was left out; no words were added or changed. Names are shown as initials, or as &quot;Patient&quot; where the review site hides them. Each review describes one patient&apos;s experience and is not a guarantee of any diagnosis, treatment or result. Whether a prescription is appropriate is decided by the physician at each visit.
         </p>
 
         {/* ── FEATURED REVIEWS ── */}
@@ -289,7 +296,7 @@ export default function ReviewsPage() {
         <section className="rv-section" aria-label="Patient reviews by theme" style={{ paddingTop: 0 }}>
           <div className="rv-section-head">
             <h2>More Patient Reviews</h2>
-            <p>Filter by what matters most to you.</p>
+            <p>A selection of reviews. Filter by what matters most to you.</p>
           </div>
 
           <div className="rv-filter" role="group" aria-label="Filter reviews by theme">
@@ -319,7 +326,7 @@ export default function ReviewsPage() {
         {/* ── CLOSING CTA ── */}
         <section className="rv-cta" aria-label="Book a visit">
           <div className="rv-cta-inner">
-            <h2>Join thousands of highly rated visits</h2>
+            <h2>Ready to see Dr. Bhavsar?</h2>
             <p>See Dr. Bhavsar by secure video today. Flat {PRICE_SHORT}, no insurance required.</p>
             <a href={BOOK_URL} className="rv-cta-btn">Book a {PRICE_SHORT} Visit</a>
           </div>
