@@ -45,6 +45,111 @@
       }
     },
     {
+      "src": "/terms-of-service/?",
+      "headers": {
+        "Location": "/legal/terms-of-service.pdf"
+      },
+      "status": 301
+    },
+    {
+      "src": "/terms-of-use/?",
+      "headers": {
+        "Location": "/legal/terms-of-service.pdf"
+      },
+      "status": 301
+    },
+    {
+      "src": "/privacy-policy/?",
+      "headers": {
+        "Location": "/legal/privacy-policy.pdf"
+      },
+      "status": 301
+    },
+    {
+      "src": "/notice-of-privacy-practices/?",
+      "headers": {
+        "Location": "/legal/notice-of-privacy-practices.pdf"
+      },
+      "status": 301
+    },
+    {
+      "src": "/telehealth-consent/?",
+      "headers": {
+        "Location": "/legal/telehealth-informed-consent.pdf"
+      },
+      "status": 301
+    },
+    {
+      "src": "/good-faith-estimate/?",
+      "headers": {
+        "Location": "/legal/good-faith-estimate.pdf"
+      },
+      "status": 301
+    },
+    {
+      "src": "/nondiscrimination-notice/?",
+      "headers": {
+        "Location": "/legal/nondiscrimination-notice.pdf"
+      },
+      "status": 301
+    },
+    {
+      "src": "/accessibility/?",
+      "headers": {
+        "Location": "/legal/accessibility.pdf"
+      },
+      "status": 301
+    },
+    {
+      "src": "/consumer-health-data-privacy/?",
+      "headers": {
+        "Location": "/legal/consumer-health-data-privacy.pdf"
+      },
+      "status": 301
+    },
+    {
+      "src": "/state-specific-notices/?",
+      "headers": {
+        "Location": "/legal/state-consent-disclosures.pdf"
+      },
+      "status": 301
+    },
+    {
+      "src": "/telehealth-informed-consent\\.pdf",
+      "headers": {
+        "Location": "/legal/telehealth-informed-consent.pdf"
+      },
+      "status": 301
+    },
+    {
+      "src": "/state-consent-disclosures\\.pdf",
+      "headers": {
+        "Location": "/legal/state-consent-disclosures.pdf"
+      },
+      "status": 301
+    },
+    {
+      "src": "/financial-responsibility\\.pdf",
+      "headers": {
+        "Location": "/legal/financial-responsibility.pdf"
+      },
+      "status": 301
+    },
+    {
+      "src": "/controlled-substance-policy\\.pdf",
+      "headers": {
+        "Location": "/legal/controlled-substance-policy.pdf"
+      },
+      "status": 301
+    },
+    {
+      "src": "/ny-patient-notices\\.pdf",
+      "headers": {
+        "Location": "/legal/state-consent-disclosures.pdf"
+      },
+      "status": 301
+    },
+    {
       "src": "/esign-disclosure/?",
       "headers": {
         "Location": "/legal/terms-of-service.pdf"
