@@ -52,7 +52,7 @@ export default function SiteFooter() {
             <a href="/employers/cleaning/">Cleaning &amp; Janitorial</a>
           </div>
 
-          {/* Column 5: Legal & Policies */}
+          {/* Column 5: Legal & Policies. Every link opens a PDF in /public/legal/. */}
           <div className="tdmd-footer-col">
             <h4 className="tdmd-footer-heading">LEGAL & POLICIES</h4>
             <a href="/legal/terms-of-service.pdf">Terms of Service</a>
@@ -61,12 +61,10 @@ export default function SiteFooter() {
             <div className="tdmd-footer-divider" />
             <a href="/legal/telehealth-informed-consent.pdf">Telehealth Consent</a>
             <a href="/legal/state-consent-disclosures.pdf">State Disclosures</a>
-            <a href="/legal/financial-responsibility.pdf">Financial Responsibility</a>
             <a href="/legal/controlled-substance-policy.pdf">Controlled Substance Policy</a>
             <div className="tdmd-footer-divider" />
+            <a href="/legal/financial-responsibility.pdf">Financial Responsibility</a>
             <a href="/legal/good-faith-estimate.pdf">Good Faith Estimate</a>
-            <a href="/legal/nondiscrimination-notice.pdf">Nondiscrimination Notice</a>
-            <a href="/legal/accessibility.pdf">Accessibility</a>
           </div>
         </div>
 
@@ -127,17 +125,13 @@ export default function SiteFooter() {
         <div className="tdmd-footer-copyright">
           <span>© 2026 TeleDirectMD. All rights reserved.</span>
           <div className="tdmd-footer-legal-links">
-            <a href="/legal/terms-of-service.pdf">Terms</a>
-            <span className="tdmd-footer-dot">·</span>
-            <a href="/legal/privacy-policy.pdf">Privacy</a>
-            <span className="tdmd-footer-dot">·</span>
             <a href="/legal/consumer-health-data-privacy.pdf">Consumer Health Data</a>
             <span className="tdmd-footer-dot">·</span>
-            <a href="/legal/notice-of-privacy-practices.pdf">HIPAA</a>
-            <span className="tdmd-footer-dot">·</span>
-            <a href="/legal/telehealth-informed-consent.pdf">Consent</a>
+            <a href="/legal/nondiscrimination-notice.pdf">Nondiscrimination</a>
             <span className="tdmd-footer-dot">·</span>
             <a href="/legal/accessibility.pdf">Accessibility</a>
+            <span className="tdmd-footer-dot">·</span>
+            <a href="/legal/texas-medical-board-complaint-notice.pdf">Texas Medical Board Notice</a>
           </div>
         </div>
       </footer>
