@@ -143,13 +143,6 @@
       "status": 301
     },
     {
-      "src": "/ny-patient-notices\\.pdf",
-      "headers": {
-        "Location": "/legal/state-consent-disclosures.pdf"
-      },
-      "status": 301
-    },
-    {
       "src": "/esign-disclosure/?",
       "headers": {
         "Location": "/legal/terms-of-service.pdf"
