@@ -7,7 +7,7 @@ export default function SiteFooter() {
           {/* Column 1: Brand */}
           <div className="tdmd-footer-brand">
             <a href="/" className="tdmd-footer-logo">
-              <img src="/brand/tdmd-logo-white-400.png" alt="TeleDirectMD" width="180" height="77" />
+              <img src="/brand/tdmd-logo-white-400.png" srcSet="/brand/tdmd-logo-white-400.png 400w, /brand/tdmd-logo-white-600.png 600w, /brand/tdmd-logo-white.png 800w" sizes="180px" alt="TeleDirectMD" width="180" height="77" decoding="async" />
             </a>
             <p className="tdmd-footer-desc">
               Board-certified family medicine physician. $79 flat-fee virtual visits across 40+ states + D.C. Insurance accepted in select states. Employer plans available.
