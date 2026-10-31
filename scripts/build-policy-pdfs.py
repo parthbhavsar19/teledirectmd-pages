@@ -85,14 +85,14 @@ legal_notices = [
     ])),
     ("Terms and Fees", bullets([
         f"<b>Terms of Service:</b> {link('https://teledirectmd.com/terms-of-service')}",
-        f"<b>Financial Responsibility:</b> {link('https://teledirectmd.com/financial-responsibility.pdf')}",
+        f"<b>Financial Responsibility:</b> {link('https://teledirectmd.com/legal/financial-responsibility.pdf')}",
         f"<b>Good Faith Estimate (No Surprises Act):</b> {link('https://teledirectmd.com/good-faith-estimate')}",
     ])),
     ("Consent and Prescribing", bullets([
         f"<b>Informed Consent for Telehealth Services:</b> "
-        f"{link('https://teledirectmd.com/telehealth-informed-consent.pdf')}",
-        f"<b>State Telehealth Consent Disclosures:</b> {link('https://teledirectmd.com/state-consent-disclosures.pdf')}",
-        f"<b>Controlled Substance Policy:</b> {link('https://teledirectmd.com/controlled-substance-policy.pdf')}",
+        f"{link('https://teledirectmd.com/legal/telehealth-informed-consent.pdf')}",
+        f"<b>State Telehealth Consent Disclosures:</b> {link('https://teledirectmd.com/legal/state-consent-disclosures.pdf')}",
+        f"<b>Controlled Substance Policy:</b> {link('https://teledirectmd.com/legal/controlled-substance-policy.pdf')}",
     ])),
     ("Access and Nondiscrimination", bullets([
         f"<b>Nondiscrimination Notice:</b> {link('https://teledirectmd.com/nondiscrimination-notice')}",
@@ -101,7 +101,7 @@ legal_notices = [
     ])),
     ("State Notices", bullets([
         f"<b>State-Specific Telehealth Notices:</b> {link('https://teledirectmd.com/state-specific-notices')}",
-        f"<b>New York Patient Notices:</b> {link('https://teledirectmd.com/ny-patient-notices.pdf')}",
+        f"<b>New York Patient Notices:</b> {link('https://teledirectmd.com/legal/state-consent-disclosures.pdf')}",
     ])),
     ("Concerns and Complaints", [
         p("If you have a concern about your care, please contact us first so we can try to resolve it:"),
@@ -159,7 +159,7 @@ ny_patient_notices = [
     (None, [p("These notices apply to patients who are physically located in New York State during their visit. "
               "They supplement our general "
               f"{link('https://teledirectmd.com/legal-notices.pdf', 'Legal Notices')} and the New York section of our "
-              f"{link('https://teledirectmd.com/state-consent-disclosures.pdf', 'State Telehealth Consent Disclosures')}.")]),
+              f"{link('https://teledirectmd.com/legal/state-consent-disclosures.pdf', 'State Telehealth Consent Disclosures')}.")]),
     ("Your Physician and Practice", [
         p("New York visits are provided by Parth Bhavsar Medicine PLLC, doing business as TeleDirectMD. Your "
           "physician is Parth Bhavsar, MD, board-certified in family medicine and licensed in New York (license "

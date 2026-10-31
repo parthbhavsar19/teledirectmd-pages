@@ -55,18 +55,18 @@ export default function SiteFooter() {
           {/* Column 5: Legal & Policies */}
           <div className="tdmd-footer-col">
             <h4 className="tdmd-footer-heading">LEGAL & POLICIES</h4>
-            <a href="/terms-of-service/">Terms of Service</a>
-            <a href="/privacy-policy/">Privacy Policy</a>
-            <a href="/notice-of-privacy-practices/">HIPAA Notice</a>
+            <a href="/legal/terms-of-service.pdf">Terms of Service</a>
+            <a href="/legal/privacy-policy.pdf">Privacy Policy</a>
+            <a href="/legal/notice-of-privacy-practices.pdf">HIPAA Notice</a>
             <div className="tdmd-footer-divider" />
-            <a href="/telehealth-informed-consent.pdf">Telehealth Consent</a>
-            <a href="/state-consent-disclosures.pdf">State Disclosures</a>
-            <a href="/financial-responsibility.pdf">Financial Responsibility</a>
-            <a href="/controlled-substance-policy.pdf">Controlled Substance Policy</a>
+            <a href="/legal/telehealth-informed-consent.pdf">Telehealth Consent</a>
+            <a href="/legal/state-consent-disclosures.pdf">State Disclosures</a>
+            <a href="/legal/financial-responsibility.pdf">Financial Responsibility</a>
+            <a href="/legal/controlled-substance-policy.pdf">Controlled Substance Policy</a>
             <div className="tdmd-footer-divider" />
-            <a href="/good-faith-estimate/">Good Faith Estimate</a>
-            <a href="/nondiscrimination-notice/">Nondiscrimination Notice</a>
-            <a href="/accessibility/">Accessibility</a>
+            <a href="/legal/good-faith-estimate.pdf">Good Faith Estimate</a>
+            <a href="/legal/nondiscrimination-notice.pdf">Nondiscrimination Notice</a>
+            <a href="/legal/accessibility.pdf">Accessibility</a>
           </div>
         </div>
 
@@ -127,17 +127,17 @@ export default function SiteFooter() {
         <div className="tdmd-footer-copyright">
           <span>© 2026 TeleDirectMD. All rights reserved.</span>
           <div className="tdmd-footer-legal-links">
-            <a href="/terms-of-service/">Terms</a>
+            <a href="/legal/terms-of-service.pdf">Terms</a>
             <span className="tdmd-footer-dot">·</span>
-            <a href="/privacy-policy/">Privacy</a>
+            <a href="/legal/privacy-policy.pdf">Privacy</a>
             <span className="tdmd-footer-dot">·</span>
-            <a href="/consumer-health-data-privacy/">Consumer Health Data</a>
+            <a href="/legal/consumer-health-data-privacy.pdf">Consumer Health Data</a>
             <span className="tdmd-footer-dot">·</span>
-            <a href="/notice-of-privacy-practices/">HIPAA</a>
+            <a href="/legal/notice-of-privacy-practices.pdf">HIPAA</a>
             <span className="tdmd-footer-dot">·</span>
-            <a href="/telehealth-informed-consent.pdf">Consent</a>
+            <a href="/legal/telehealth-informed-consent.pdf">Consent</a>
             <span className="tdmd-footer-dot">·</span>
-            <a href="/accessibility/">Accessibility</a>
+            <a href="/legal/accessibility.pdf">Accessibility</a>
           </div>
         </div>
       </footer>
