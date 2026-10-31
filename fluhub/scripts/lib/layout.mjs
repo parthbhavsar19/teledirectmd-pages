@@ -84,7 +84,7 @@ ${o.body}
 <div class="foot-grid">
 ${FOOT.map(([h, links]) => `<div><h4>${h}</h4><ul>${links.map(([u, l]) => `<li><a href="${u.startsWith("http") ? u : R + u}">${l}</a></li>`).join("")}</ul></div>`).join("")}
 </div>
-<p class="disclaimer">${SITE.name} is an educational resource. It does not diagnose, treat, or replace care from a clinician who can examine you. Surveillance figures are preliminary and revised by CDC as reports come in. Clinical editor: ${esc(SITE.editor)}. Data refreshed ${esc(SITE.builtLabel)}. Questions or corrections: <span class="mono">${esc(SITE.email)}</span>.</p>
+<p class="disclaimer">${SITE.name} is an educational resource. It does not diagnose, treat, or replace care from a clinician who can examine you. If you are having a medical emergency, call 911. Surveillance figures are preliminary and revised by CDC as reports come in. Clinical editor: ${esc(SITE.editor)}. Data refreshed ${esc(SITE.builtLabel)}. Questions or corrections: <span class="mono">${esc(SITE.email)}</span>.</p>
 </div></footer>
 <script src="${R}assets/site.js" defer></script>
 ${(o.scripts || []).map((s) => `<script src="${R}assets/${s}" defer></script>`).join("\n")}
