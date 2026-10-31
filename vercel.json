@@ -45,6 +45,27 @@
       }
     },
     {
+      "src": "/esign-disclosure/?",
+      "headers": {
+        "Location": "/legal/terms-of-service.pdf"
+      },
+      "status": 301
+    },
+    {
+      "src": "/medical-records-notice/?",
+      "headers": {
+        "Location": "/legal/notice-of-privacy-practices.pdf"
+      },
+      "status": 301
+    },
+    {
+      "src": "/medication-history-disclosure/?",
+      "headers": {
+        "Location": "/legal/telehealth-informed-consent.pdf"
+      },
+      "status": 301
+    },
+    {
       "src": "/perioral-dermatitis-treatment-online/?",
       "headers": {
         "Location": "/what-we-treat/"
