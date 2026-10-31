@@ -80,6 +80,7 @@ const CSS = `
 .tdc-apply p{color:#d5e6eb;line-height:1.7;margin:0}
 .tdc-btn{display:inline-block;margin-top:22px;background:var(--c-coral);color:#fff !important;font-weight:600;padding:14px 26px;border-radius:999px;text-decoration:none}
 .tdc-btn:hover{filter:brightness(1.06)}
+.tdc-nd{margin:28px 0 0;color:var(--c-muted);font-size:.92rem;line-height:1.6}
 @media (max-width:640px){.tdc-cards{grid-template-columns:1fr}.tdc-hero{padding:56px 0 110px}.tdc-amt{font-size:2.9rem}}
 ` + darkCSS(`
 DARK .tdc{--c-ink:#e2edf0;--c-muted:#9fb6bf;--c-mist:#0a171c;--c-card:#122028;--c-navy:#a0d8e8;--c-line:#2b4652}
@@ -169,6 +170,11 @@ export default function Careers() {
           </p>
           <a className="tdc-btn" href="mailto:contact@teledirectmd.com?subject=Evening%2FWeekend%20Physician">Email your application</a>
         </div>
+
+        <p className="tdc-nd">
+          TeleDirectMD contracts with physicians without regard to race, color, religion, sex, sexual orientation, gender identity,
+          national origin, age, disability, or veteran status.
+        </p>
       </div>
     </div>
   );
