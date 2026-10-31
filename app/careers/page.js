@@ -2,7 +2,7 @@ import { darkCSS } from '../../lib/dark-css';
 
 export const metadata = {
   title: 'Careers: Evening and Weekend Telemedicine Physician (MD/DO) | TeleDirectMD',
-  description: 'TeleDirectMD is hiring a remote MD or DO for evening and weekend video visits. $40 per visit on weekday evenings, $45 per visit on weekends. 1099, set your own availability.',
+  description: 'TeleDirectMD is hiring a remote MD or DO for evening and weekend video visits. $40 per visit on weekday evenings, $45 per visit on weekends. 1099, set your own availability, minimum 20 hours per month.',
   alternates: { canonical: 'https://teledirectmd.com/careers/' },
   openGraph: {
     title: 'Now hiring: Telemedicine Physician (MD/DO), Evenings and Weekends',
@@ -24,9 +24,10 @@ const jobPostingLd = {
     'No controlled-substance prescribing.</p>' +
     '<p>Compensation: $40 per completed video visit on weekday evenings (Monday to Thursday, starting at 5 p.m. Eastern); ' +
     '$45 per completed video visit on weekends (Friday 5 p.m. to Monday 7 a.m. Eastern) and holidays. Paid biweekly. ' +
-    'Independent contractor (1099). TeleDirectMD pays for additional state licenses it asks you to obtain.</p>' +
+    'Independent contractor (1099).</p>' +
     '<p>Requirements: MD or DO, board-certified in family medicine or internal medicine. Active, unrestricted licenses in 30+ states preferred; ' +
-    'physicians with 15+ licenses who are eligible for the Interstate Medical Licensure Compact are encouraged to apply.</p>',
+    'physicians with 15+ licenses who are eligible for the Interstate Medical Licensure Compact are encouraged to apply. ' +
+    'Availability of at least 20 hours per month.</p>',
   datePosted: DATE_POSTED,
   validThrough: VALID_THROUGH,
   employmentType: ['CONTRACTOR', 'PART_TIME'],
@@ -145,10 +146,10 @@ export default function Careers() {
           'No controlled-substance prescribing in this role',
         ]} />
 
-        <h2>Benefits and support</h2>
+        <h2>Schedule and terms</h2>
         <List items={[
-          'TeleDirectMD pays for additional state licenses we ask you to obtain',
-          'You set your own availability. No minimum hours and no non-compete',
+          'You set your own availability, with a minimum of 20 hours per month',
+          'No non-compete',
           'Independent contractor (1099)',
         ]} />
 
