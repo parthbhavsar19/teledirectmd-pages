@@ -28,6 +28,14 @@ const FOOT = [
     ["https://teledirectmd.com/health-guides/flu-season-guide/", "When is flu season?"],
     ["https://teledirectmd.com/health-guides/cold-and-flu-guide/", "Cold or flu?"],
   ]],
+  ["Legal", [
+    ["https://teledirectmd.com/legal/terms-of-service.pdf", "Terms of Service"],
+    ["https://teledirectmd.com/legal/privacy-policy.pdf", "Privacy Policy"],
+    ["https://teledirectmd.com/legal/notice-of-privacy-practices.pdf", "Notice of Privacy Practices"],
+    ["https://teledirectmd.com/legal/consumer-health-data-privacy.pdf", "Consumer Health Data Privacy"],
+    ["https://teledirectmd.com/legal/nondiscrimination-notice.pdf", "Nondiscrimination Notice"],
+    ["https://teledirectmd.com/legal/accessibility.pdf", "Accessibility"],
+  ]],
 ];
 
 const moon = `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>`;
