@@ -25,7 +25,7 @@ const BOOK_URL = '/book-online/';
    the larger "speed" bucket. Display order follows the brief. */
 const THEMES = [
   { key: 'speed', label: 'Speed' },
-  { key: 'prescriptions', label: 'Prescriptions' },
+  { key: 'prescriptions', label: 'Getting the right care' },
   { key: 'bedside', label: 'Bedside Manner' },
   { key: 'value', label: 'Value' },
 ];
