@@ -106,9 +106,9 @@ export const INSURERS = {
     logo: "/logos/curative.svg",
     color: "#0B6E99",
     colorLight: "#E7F4FA",
-    tagline: "Curative employer plans accepted in 14 states",
-    description: "Curative is an employer-sponsored health plan built around a no-copay, no-deductible design for members who complete their annual Baseline Visit. TeleDirectMD is in-network with Curative Commercial PPO, EPO, and self-funded plans under a national agreement effective July 7, 2026, for members in 14 states: Alabama, Arizona, California, Colorado, Florida, Georgia, Illinois, Indiana, Kentucky, Louisiana, Michigan, Minnesota, Mississippi, and Nevada.",
-    states: ["AL", "AZ", "CA", "CO", "FL", "GA", "IL", "IN", "KY", "LA", "MI", "MN", "MS", "NV"],
+    tagline: "Curative employer plans accepted in 18 states",
+    description: "Curative is an employer-sponsored health plan built around a no-copay, no-deductible design for members who complete their annual Baseline Visit. TeleDirectMD is in-network with Curative Commercial PPO, EPO, and self-funded plans under a national agreement effective July 7, 2026, for members in 18 states: Alabama, Arizona, California, Colorado, the District of Columbia, Florida, Georgia, Illinois, Indiana, Kentucky, Louisiana, Maryland, Michigan, Minnesota, Mississippi, Nevada, Ohio, and Texas.",
+    states: ["AL", "AZ", "CA", "CO", "DC", "FL", "GA", "IL", "IN", "KY", "LA", "MD", "MI", "MN", "MS", "NV", "OH", "TX"],
     // Curative pages are hub + state only. No insurer x condition matrix pages
     // exist for this payer, so the sitemap must skip the condition loops.
     conditionMatrix: false,
@@ -119,9 +119,9 @@ export const INSURERS = {
     billingCodes: ["99213", "99214"],
     claimsPhone: "See member card",
     metaTitle: "Online Doctor That Accepts Curative Insurance | TeleDirectMD",
-    metaDescription: "TeleDirectMD is in-network with Curative Commercial PPO, EPO, and self-funded plans for members in 14 states, including California, Florida, Georgia, and Illinois. Members who complete their Baseline Visit typically pay $0 for a virtual visit. $79 flat self-pay always available.",
+    metaDescription: "TeleDirectMD is in-network with Curative Commercial PPO, EPO, and self-funded plans for members in 18 states, including California, Florida, Georgia, and Illinois. Members who complete their Baseline Visit typically pay $0 for a virtual visit. $79 flat self-pay always available.",
     h1: "Online Doctor Visits Covered by Curative",
-    heroSubtitle: "TeleDirectMD is in-network with Curative Commercial PPO, EPO, and self-funded plans for members in 14 states: Alabama, Arizona, California, Colorado, Florida, Georgia, Illinois, Indiana, Kentucky, Louisiana, Michigan, Minnesota, Mississippi, and Nevada.",
+    heroSubtitle: "TeleDirectMD is in-network with Curative Commercial PPO, EPO, and self-funded plans for members in 18 states: Alabama, Arizona, California, Colorado, the District of Columbia, Florida, Georgia, Illinois, Indiana, Kentucky, Louisiana, Maryland, Michigan, Minnesota, Mississippi, Nevada, Ohio, and Texas.",
     faqSlug: "curative",
   },
 };
@@ -246,10 +246,10 @@ export const CURATIVE_EXCLUDED_LINES = ["Medicaid", "Managed Medicaid", "CHIP", 
 //   enabled: the state also has a /insurance/curative/{state}/ page. The
 //            route's generateStaticParams and the sitemap read this flag, and
 //            a page also needs a STATE_COPY block in CurativeStateClient.js.
-// The covered list follows the 14 states Curative's Provider Network Manager
-// confirmed as live virtual in-network listings on 2026-10-29. DC, MD, OH, and
-// TX carry a regulatory addendum (Exhibit D) in the provider agreement but are
-// not listed in Curative's directory, so they stay off until Curative adds them.
+// The covered list follows the states Curative's Provider Network Manager
+// confirmed as live virtual in-network listings: 14 on 2026-10-29, plus DC, MD,
+// OH, and TX on 2026-11-02. Those four keep enabled: false because their state
+// pages were retired in the 2026-08-12 zero-click cleanup (410 / 301 in vercel.json).
 export const CURATIVE_STATES = {
   GA: {
     covered: true,
@@ -281,7 +281,7 @@ export const CURATIVE_STATES = {
     majorMetros: ["Los Angeles", "San Diego", "San Jose", "San Francisco", "Fresno", "Sacramento"],
   },
   DC: {
-    covered: false,
+    covered: true,
     enabled: false,
     slug: "district-of-columbia",
     name: "District of Columbia",
@@ -333,7 +333,7 @@ export const CURATIVE_STATES = {
     majorMetros: ["New Orleans", "Baton Rouge", "Shreveport", "Lafayette", "Lake Charles", "Monroe"],
   },
   MD: {
-    covered: false,
+    covered: true,
     enabled: false,
     slug: "maryland",
     name: "Maryland",
@@ -346,7 +346,7 @@ export const CURATIVE_STATES = {
     majorMetros: ["Baltimore", "Columbia", "Silver Spring", "Frederick", "Germantown", "Waldorf"],
   },
   OH: {
-    covered: false,
+    covered: true,
     enabled: false,
     slug: "ohio",
     name: "Ohio",
@@ -359,7 +359,7 @@ export const CURATIVE_STATES = {
     majorMetros: ["Columbus", "Cleveland", "Cincinnati", "Toledo", "Akron", "Dayton"],
   },
   TX: {
-    covered: false,
+    covered: true,
     enabled: false,
     slug: "texas",
     name: "Texas",
