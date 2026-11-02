@@ -25,7 +25,7 @@ const CONTRACT_PLANS = CURATIVE_PLANS;
 const CURATIVE_FAQS = [
   {
     q: 'Does Curative insurance cover telehealth visits at TeleDirectMD?',
-    a: 'Yes. TeleDirectMD is in-network with Curative for Commercial PPO, EPO, and self-funded plans under an agreement effective July 7, 2026. Virtual visits are billed to Curative as in-network care using standard office visit codes (CPT 99213 and 99214). Coverage is live for Curative members in 14 states: Alabama, Arizona, California, Colorado, Florida, Georgia, Illinois, Indiana, Kentucky, Louisiana, Michigan, Minnesota, Mississippi, and Nevada.',
+    a: 'Yes. TeleDirectMD is in-network with Curative for Commercial PPO, EPO, and self-funded plans under an agreement effective July 7, 2026. Virtual visits are billed to Curative as in-network care using standard office visit codes (CPT 99213 and 99214). Coverage is live for Curative members in 18 states: Alabama, Arizona, California, Colorado, the District of Columbia, Florida, Georgia, Illinois, Indiana, Kentucky, Louisiana, Maryland, Michigan, Minnesota, Mississippi, Nevada, Ohio, and Texas.',
   },
   {
     q: 'Which Curative plans are in-network with TeleDirectMD?',
@@ -41,7 +41,7 @@ const CURATIVE_FAQS = [
   },
   {
     q: 'Which states have live Curative coverage with TeleDirectMD?',
-    a: 'Curative coverage is live today in 14 states: Alabama, Arizona, California, Colorado, Florida, Georgia, Illinois, Indiana, Kentucky, Louisiana, Michigan, Minnesota, Mississippi, and Nevada. Those are the states where Curative lists TeleDirectMD as an in-network virtual provider. Georgia was the first state activated, where members reach the network through Curative’s Cigna Healthcare PPO wrap arrangement and credentialing was confirmed active on July 24, 2026.',
+    a: 'Curative coverage is live today in 18 states: Alabama, Arizona, California, Colorado, the District of Columbia, Florida, Georgia, Illinois, Indiana, Kentucky, Louisiana, Maryland, Michigan, Minnesota, Mississippi, Nevada, Ohio, and Texas. Those are the states where Curative lists TeleDirectMD as an in-network virtual provider. Georgia was the first state activated, where members reach the network through Curative’s Cigna Healthcare PPO wrap arrangement and credentialing was confirmed active on July 24, 2026.',
   },
   {
     q: 'Can I use my Curative plan for virtual urgent care?',
@@ -52,8 +52,8 @@ const CURATIVE_FAQS = [
     a: 'No. The Curative contract covers Commercial PPO, EPO, and self-funded plans only. TeleDirectMD is not in-network with any state Medicaid, Managed Medicaid, CHIP, or Medicare-Medicaid plan, in any state. If your plan is outside the contracted networks, the $79 flat self-pay visit is still available.',
   },
   {
-    q: 'What if I have Curative but live outside the 14 live states?',
-    a: 'The Curative agreement is national, but coverage is live today in Alabama, Arizona, California, Colorado, Florida, Georgia, Illinois, Indiana, Kentucky, Louisiana, Michigan, Minnesota, Mississippi, and Nevada. More states are activated as coverage is confirmed, and this page is updated when that happens. In the meantime, the $79 flat self-pay visit is available in every state where TeleDirectMD is licensed.',
+    q: 'What if I have Curative but live outside the 18 live states?',
+    a: 'The Curative agreement is national, but coverage is live today in Alabama, Arizona, California, Colorado, the District of Columbia, Florida, Georgia, Illinois, Indiana, Kentucky, Louisiana, Maryland, Michigan, Minnesota, Mississippi, Nevada, Ohio, and Texas. More states are activated as coverage is confirmed, and this page is updated when that happens. In the meantime, the $79 flat self-pay visit is available in every state where TeleDirectMD is licensed.',
   },
 ];
 
@@ -83,7 +83,7 @@ const SCHEMA = {
       '@id': 'https://teledirectmd.com/#organization',
       'name': 'TeleDirectMD',
       'url': 'https://teledirectmd.com',
-      'description': 'Physician-led telemedicine practice in-network with Curative Commercial PPO, EPO, and self-funded plans, in 14 states, including California, Florida, Georgia, and Illinois.',
+      'description': 'Physician-led telemedicine practice in-network with Curative Commercial PPO, EPO, and self-funded plans, in 18 states, including California, Florida, Georgia, and Illinois.',
       'aggregateRating': getAggregateRating(),
     },
     {
@@ -95,7 +95,7 @@ const SCHEMA = {
       'acceptsInsurance': CONTRACT_PLANS.map((p) => ({
         '@type': 'HealthInsurancePlan',
         'name': p.name,
-        'description': `Curative ${p.productType} plan, in-network with TeleDirectMD in 14 states.`,
+        'description': `Curative ${p.productType} plan, in-network with TeleDirectMD in 18 states.`,
         'validFrom': '2026-07-07',
       })),
       'sameAs': ['https://npiregistry.cms.hhs.gov/provider-view/1104323203'],
@@ -143,7 +143,7 @@ export default function CurativeHubClient() {
     payerSpecificCopy:
       'Curative is an employer-sponsored health plan. The participating networks under the TeleDirectMD agreement, effective July 7, 2026, are Commercial PPO, EPO, and Self-Funded plans, covering the EPO Value, EPO (PPOx), PPO (PPO+), and PPO Max products. ' +
       'Curative members who complete their annual Baseline Visit within 120 days of their plan start date have $0 copays, $0 deductible, and 0% coinsurance for in-network care, including virtual visits. Members who have not completed the Baseline Visit are subject to their plan deductible (for example, $5,000 individual and $10,000 family on the EPO product). ' +
-      'Coverage is live in the 14 states where Curative lists TeleDirectMD as an in-network virtual provider: Alabama, Arizona, California, Colorado, Florida, Georgia, Illinois, Indiana, Kentucky, Louisiana, Michigan, Minnesota, Mississippi, and Nevada. Georgia members access the network through Curative’s Cigna Healthcare PPO wrap network arrangement, and TeleDirectMD participates through a direct contract with Curative. ' +
+      'Coverage is live in the 18 states where Curative lists TeleDirectMD as an in-network virtual provider: Alabama, Arizona, California, Colorado, the District of Columbia, Florida, Georgia, Illinois, Indiana, Kentucky, Louisiana, Maryland, Michigan, Minnesota, Mississippi, Nevada, Ohio, and Texas. Georgia members access the network through Curative’s Cigna Healthcare PPO wrap network arrangement, and TeleDirectMD participates through a direct contract with Curative. ' +
       'TeleDirectMD is not in-network with Medicaid, Managed Medicaid, CHIP, or Medicare-Medicaid plans in any state. Self-pay alternative: $79 flat, HSA and FSA eligible.',
   });
   // emitAs QAPage so this page carries exactly one FAQPage node (the main graph above).
@@ -169,7 +169,7 @@ export default function CurativeHubClient() {
             Online Doctor Visits Covered<br />by Curative
           </h1>
           <p data-speakable="true" style={{ fontFamily: B.fb, fontSize: 'clamp(16px, 2.5vw, 19px)', color: 'rgba(255,255,255,0.75)', lineHeight: 1.6, margin: '0 0 28px', maxWidth: 600 }}>
-            TeleDirectMD is in-network with Curative Commercial PPO, EPO, and self-funded plans, effective July 7, 2026, for members in 14 states, including California, Florida, Georgia, and Illinois. See Parth Bhavsar, MD by secure video, usually the same day.
+            TeleDirectMD is in-network with Curative Commercial PPO, EPO, and self-funded plans, effective July 7, 2026, for members in 18 states, including California, Florida, Georgia, and Illinois. See Parth Bhavsar, MD by secure video, usually the same day.
           </p>
           <div style={{ display: 'flex', flexWrap: 'wrap', gap: 12 }}>
             <a href="https://www.teledirectmd.com/book-online/" target="_blank" rel="noopener"
@@ -189,7 +189,7 @@ export default function CurativeHubClient() {
         {/* AI ANSWER CAPSULE */}
         <AnswerBlock
           question="Does TeleDirectMD accept Curative insurance?"
-          answer="Yes. TeleDirectMD is in-network with Curative Commercial PPO, EPO, and self-funded plans, effective July 7, 2026, for members in 14 states: Alabama, Arizona, California, Colorado, Florida, Georgia, Illinois, Indiana, Kentucky, Louisiana, Michigan, Minnesota, Mississippi, and Nevada. Most Curative members who have completed their annual Baseline Visit pay $0 for a virtual visit with a board-certified physician. A $79 flat self-pay option is available in every state we serve."
+          answer="Yes. TeleDirectMD is in-network with Curative Commercial PPO, EPO, and self-funded plans, effective July 7, 2026, for members in 18 states: Alabama, Arizona, California, Colorado, the District of Columbia, Florida, Georgia, Illinois, Indiana, Kentucky, Louisiana, Maryland, Michigan, Minnesota, Mississippi, Nevada, Ohio, and Texas. Most Curative members who have completed their annual Baseline Visit pay $0 for a virtual visit with a board-certified physician. A $79 flat self-pay option is available in every state we serve."
           color={B.teal}
         />
 
@@ -243,7 +243,7 @@ export default function CurativeHubClient() {
         <section style={{ marginBottom: 48 }}>
           <h2 style={{ fontFamily: B.fd, fontSize: 26, fontWeight: 700, color: B.navy, margin: '0 0 8px' }}>Where Curative coverage is live</h2>
           <p style={{ fontSize: 15, color: B.text, margin: '0 0 20px', lineHeight: 1.6 }}>
-            The Curative contract is national. Coverage is live in the 14 states where Curative lists TeleDirectMD as an in-network virtual provider, and more states are added as Curative confirms them.
+            The Curative contract is national. Coverage is live in the 18 states where Curative lists TeleDirectMD as an in-network virtual provider, and more states are added as Curative confirms them.
           </p>
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(240px, 1fr))', gap: 12 }}>
             {LIVE_STATES.map((s) => {
@@ -294,7 +294,7 @@ export default function CurativeHubClient() {
         />
 
         <div style={{ marginBottom: 48 }}>
-          <InsuranceDisclaimer payerNote="Curative network status reflects our national Commercial PPO, EPO, and self-funded contract effective July 7, 2026, for members in 14 states. Cost sharing depends on your plan and on whether your annual Baseline Visit is complete. Verify benefits with Curative before your visit." />
+          <InsuranceDisclaimer payerNote="Curative network status reflects our national Commercial PPO, EPO, and self-funded contract effective July 7, 2026, for members in 18 states. Cost sharing depends on your plan and on whether your annual Baseline Visit is complete. Verify benefits with Curative before your visit." />
         </div>
       </div>
     </div>
