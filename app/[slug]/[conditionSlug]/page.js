@@ -1175,7 +1175,10 @@ export default async function ConditionPage({ params }) {
             {stateTpl.stateCities && stateTpl.stateCities.metroAndRural && (
               <p>{stateTpl.stateCities.metroAndRural}</p>
             )}
-            {stateTpl.stateEpidemiology && stateTpl.stateEpidemiology.general && (
+            {/* generalOnHubOnly: the state-wide season paragraph (flu, ticks, doxy-PEP for NY)
+                reads as off-topic on an unrelated condition page; each condition page
+                carries its own state paragraph instead (INJECT 9). */}
+            {stateTpl.stateEpidemiology && stateTpl.stateEpidemiology.general && !stateTpl.stateEpidemiology.generalOnHubOnly && (
               <p>{stateTpl.stateEpidemiology.general}</p>
             )}
             {stateTpl.stateInsurance && stateTpl.stateInsurance.selfPayDisclosure && (
