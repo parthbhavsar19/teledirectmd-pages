@@ -7,6 +7,15 @@ import { epiweekEndISO, seasonOf, seasonWeekIndex, dateToEpiweek } from "../lib/
 import { SITE } from "../../content/site.mjs";
 import { fluNearYouBox, SHUTDOWN_NOTE } from "../lib/local.mjs";
 
+// Link a state page to that state's flu-care page on teledirectmd.com, only for
+// states listed in SITE.cta.stateCare (see content/site.mjs).
+function stateCareTask(j) {
+  const href = SITE.cta.enabled && SITE.cta.stateCare ? SITE.cta.stateCare[j.abbr] : null;
+  if (!href) return "";
+  return `
+  <a class="task" href="${href}"><h3>Flu care in ${esc(j.name)}</h3><p>Same-day video visits with a board-certified physician for adults located in ${esc(j.name)}. Flat $79. Not for emergencies.</p><span class="go">See ${esc(j.name)} flu care</span></a>`;
+}
+
 const pct = (v, d = 1) => (v == null ? "–" : `${Number(v).toFixed(d)}%`);
 const num = (v, d = 0) => (v == null ? "–" : Number(v).toLocaleString("en-US", { maximumFractionDigits: d, minimumFractionDigits: d }));
 const big = (v) => (v == null ? "–" : v >= 1e6 ? `${(v / 1e6).toFixed(v >= 1e7 ? 0 : 1)}M` : v >= 1e3 ? `${Math.round(v / 1e3)}K` : String(v));
@@ -263,7 +272,7 @@ ${seasonNote ? `<div class="section" style="margin-top:28px">${seasonNote}</div>
 <section class="section"><div class="task-list">
   <a class="task" href="../find-a-flu-shot.html#${j.abbr}"><h3>Find a flu shot in ${esc(j.name)}</h3><p>Pharmacies, clinics, and health centers near you, sorted by distance.</p><span class="go">Search locations</span></a>
   <a class="task" href="../symptoms.html"><h3>Feeling sick?</h3><p>Check how soon to get care and whether antiviral treatment could help.</p><span class="go">Start the symptom check</span></a>
-  <a class="task" href="../high-risk.html"><h3>Who is at higher risk</h3><p>The conditions and ages where flu is more likely to be serious.</p><span class="go">See the list</span></a>
+  <a class="task" href="../high-risk.html"><h3>Who is at higher risk</h3><p>The conditions and ages where flu is more likely to be serious.</p><span class="go">See the list</span></a>${stateCareTask(j)}
 </div></section>`,
       jsonld: [datasetLD(`${j.name} influenza surveillance`, `Weekly influenza-like illness, lab percent positive, hospital admissions and vaccination coverage for ${j.name}.`, "2010-10-09/" + weekEnd)],
     }));
