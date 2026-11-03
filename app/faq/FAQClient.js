@@ -8,7 +8,6 @@ import { PRESCRIBING_POLICY, PRESCRIBING_POLICY_QUESTION, REFILL_POLICY, REFILL_
 
 /* ─── FAQ-specific CSS using the What We Treat design system ─── */
 const faqCSS = `
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:wght@500;600;700&display=swap');
 
 .faq-page{font-family:'DM Sans',-apple-system,BlinkMacSystemFont,sans-serif;background:#FDFBF9;color:#1A1A1A;line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden;width:100%;max-width:100%;position:relative}
 .faq-page *{box-sizing:border-box;margin:0;padding:0;word-wrap:break-word;overflow-wrap:break-word}

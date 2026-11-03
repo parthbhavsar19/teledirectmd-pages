@@ -45,7 +45,6 @@ export default function UtiAntibioticsPage({ price = '79' }) {
   return (
     <div className="uap">
       <style>{`
-        @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=DM+Sans:wght@400;500;600;700&display=swap');
 
         .uap{--navy:${NAVY};--teal:${TEAL};--gold:${GOLD};--ink:#12303b;--muted:#5c7078;--line:#e4ecee;
           font-family:'DM Sans',system-ui,sans-serif;color:var(--ink);}

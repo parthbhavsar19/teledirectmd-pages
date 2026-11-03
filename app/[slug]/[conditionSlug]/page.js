@@ -581,7 +581,6 @@ export default async function ConditionPage({ params }) {
           FL compliance, ICD-10, reviewed-by line) are preserved, just restyled. */}
       <div className="cpr">
         <style>{`
-          @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=DM+Sans:wght@400;500;600;700&display=swap');
           .cpr{--navy:#003E52;--teal:#0C8F99;--gold:#E8A33D;--ink:#12303b;--muted:#5c7078;--line:#e4ecee;}
           .cpr-hero h1,.cpr-hero h2{font-family:'Fraunces',Georgia,serif;font-weight:600;letter-spacing:-0.01em;}
           .cpr-hero-wrap{max-width:1100px;margin:0 auto;padding:0 1.5rem;}

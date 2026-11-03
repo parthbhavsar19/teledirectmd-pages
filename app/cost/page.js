@@ -266,7 +266,6 @@ const jsonLd = {
 };
 
 const PAGE_CSS = `
-@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=DM+Sans:wght@400;500;600;700&display=swap');
   .cst-hero,.cst-wrap{font-family:'DM Sans',system-ui,-apple-system,'Segoe UI',sans-serif;}
   .cst-hero h1,.cst-wrap h2,.cst-h1,.cst-h2{font-family:'Fraunces',Georgia,serif;font-weight:600;letter-spacing:-0.01em;}
   .cst-hero button,.cst-hero a,.cst-wrap button{font-family:inherit;}

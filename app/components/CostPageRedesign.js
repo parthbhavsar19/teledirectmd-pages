@@ -55,7 +55,6 @@ export default function CostPageRedesign({ cfg, relatedCost = [], comparePages =
   return (
     <div className="cxr">
       <style>{`
-        @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=DM+Sans:wght@400;500;600;700&display=swap');
         .cxr{--navy:#003E52;--teal:#0C8F99;--gold:${GOLD};--ink:#12303b;--muted:#5c7078;--line:#e4ecee;font-family:'DM Sans',system-ui,sans-serif;color:var(--ink);}
         .cxr h1,.cxr h2,.cxr h3,.cxr .disp{font-family:'Fraunces',Georgia,serif;font-weight:600;letter-spacing:-0.01em;}
         .cxr li{color:var(--ink);}

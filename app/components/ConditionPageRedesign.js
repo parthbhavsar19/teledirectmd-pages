@@ -60,7 +60,6 @@ export default function ConditionPageRedesign({
   return (
     <div className="cpr">
       <style>{`
-        @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=DM+Sans:wght@400;500;600;700&display=swap');
         .cpr{--navy:#003E52;--teal:#0C8F99;--gold:${GOLD};--ink:#12303b;--muted:#5c7078;--line:#e4ecee;font-family:'DM Sans',system-ui,sans-serif;color:var(--ink);}
         .cpr h1,.cpr h2,.cpr h3,.cpr .disp{font-family:'Fraunces',Georgia,serif;font-weight:600;letter-spacing:-0.01em;}
         .cpr-wrap{max-width:1080px;margin:0 auto;padding:0 1.25rem;}
