@@ -281,7 +281,10 @@
       "stateConditionParagraph": "Sore throats peak in New York in late fall and winter; searches for strep throat across the state run about 40,000 a month in November and December. Most adult sore throats are viral, and the 2025 IDSA strep guideline estimates group A strep at 5 to 15 percent of adult cases, so the key question is whether you need a strep test. A video visit can sort out who needs testing and who does not, and can point you to a nearby pharmacy or urgent care for a swab when one is needed. Flat $79 for adults physically in New York."
     },
     "influenza-treatment-online": {
-      "stateConditionParagraph": "Flu activity in New York usually builds through December; the state Department of Health declared influenza prevalent on December 2, 2025, December 18, 2024 and December 6, 2023. Antiviral treatment works best when started early, ideally within 48 hours of symptoms, and matters most for adults at higher risk. A same-day video visit for adults physically in New York can decide whether an antiviral is appropriate and send it to your pharmacy. TeleDirectMD's FluHub tracks the state's flu activity weekly. Flat $79."
+      "stateConditionParagraph": "Flu activity in New York usually builds through December; the state Department of Health declared influenza prevalent on December 2, 2025, December 18, 2024 and December 6, 2023. Antiviral treatment works best when started early, ideally within 48 hours of symptoms, and matters most for adults at higher risk. A same-day video visit for adults physically in New York can decide whether an antiviral is appropriate and send it to your pharmacy. TeleDirectMD's FluHub tracks the state's flu activity weekly. Flat $79.",
+      "relatedLinks": [
+        { "href": "/flu-hub/state/new-york.html", "label": "New York flu activity (FluHub)", "description": "weekly CDC flu surveillance for the state, compared with past seasons" }
+      ]
     },
     "covid-19-treatment-online": {
       "stateConditionParagraph": "For adults in New York with a positive COVID-19 test and mild to moderate symptoms, timing matters: oral antivirals are started within the first days of symptoms, and some interact with common medicines, so a medication review is part of the visit. A video visit for adults physically in New York can review your test, symptoms and medication list, and when treatment is appropriate send a prescription electronically to a New York pharmacy. Trouble breathing or chest pain needs 911, not a video visit. Flat $79."
@@ -323,6 +326,10 @@
       "stateConditionParagraph": "Genital herpes is far more common than most people realize. In a New York City blood-test survey, nearly 28 percent of adults had HSV-2, and 88.4 percent of them did not know it (NYC Health and Nutrition Examination Survey, 2004 data, published in Sexually Transmitted Diseases, 2008). That is why a first outbreak often comes as a surprise. A video visit for adults physically in New York can assess a first or recurrent outbreak, prescribe antiviral treatment or suppressive therapy when appropriate and send it electronically to the pharmacy you choose. Flat $79, discreet."
     }
   },
+  "relatedLinks": [
+    { "href": "/health-guides/sick-visiting-new-york-city-guide/", "label": "Sick while visiting New York City?", "description": "a physician's guide for visitors to 911, urgent care, ExpressCare, house calls and video visits" },
+    { "href": "/flu-hub/state/new-york.html", "label": "New York flu activity (FluHub)", "description": "weekly CDC flu surveillance for the state" }
+  ],
   "stateLegalLayer": {
     "required": true,
     "blocks": [

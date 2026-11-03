@@ -104,7 +104,7 @@ import { summarizeConditionState, citableSummaryToJsonLd } from '../../../lib/ci
 // loadStateTemplate(slug) returns null when no template exists for that state,
 // causing all `stateTpl && (...)` guards below to render NOTHING — pages fall
 // back to current generic behavior. See data/state-templates/_schema.md.
-import { loadStateTemplate, getConditionOverride, mergeFaqs } from '../../../lib/state-template';
+import { loadStateTemplate, getConditionOverride, mergeFaqs, getRelatedLinks } from '../../../lib/state-template';
 import { cprDarkCSS } from '../../../lib/redesign-dark-styles';
 
 export async function generateStaticParams() {
@@ -1140,6 +1140,13 @@ export default async function ConditionPage({ params }) {
           <div className="tdmd-container">
             <h2>{condition.conditionName} in {state.name}</h2>
             <p>{stateConditionOverride.stateConditionParagraph}</p>
+            {getRelatedLinks(stateConditionOverride).length > 0 && (
+              <ul className="tdmd-state-related-links">
+                {getRelatedLinks(stateConditionOverride).map((l) => (
+                  <li key={l.href}><a href={l.href}>{l.label}</a>{l.description ? `: ${l.description}` : ''}</li>
+                ))}
+              </ul>
+            )}
           </div>
         </section>
       )}

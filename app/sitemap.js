@@ -1,5 +1,6 @@
 import { stateConditionHref, INSURER_STATES } from '../lib/live-routes';
 import { contentDate } from '../lib/content-dates';
+import { stateLandingDate } from '../lib/state-template';
 import fs from 'fs';
 import path from 'path';
 import { getFluHubSitemapEntries } from '../lib/flu-hub-sitemap.mjs';
@@ -91,7 +92,7 @@ function lastmodFor(path) {
   }
   const segs = path.split('/').filter(Boolean);
   if (segs.length === 2 && STATE_SLUG_SET.has(segs[0])) return contentDate('conditionPages');
-  if (segs.length === 1 && STATE_SLUG_SET.has(segs[0])) return contentDate('stateLandingPages');
+  if (segs.length === 1 && STATE_SLUG_SET.has(segs[0])) return stateLandingDate(segs[0]);
   if (segs.length === 1 && CONDITION_SLUG_SET.has(segs[0])) return contentDate('nationalConditionPages');
   return undefined; // unknown: omit rather than invent a date
 }
