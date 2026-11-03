@@ -101,12 +101,12 @@ export default function FaqAccordion({
     <div className={`tdmd-faq-accordion ${className}`.trim()} id={sectionId}>
       <style dangerouslySetInnerHTML={{ __html: FAQ_ACCORDION_CSS }} />
       {sectionTitle ? <h2 className="tdmd-faq-accordion__title">{sectionTitle}</h2> : null}
-      <div className="tdmd-faq-accordion__list" role="list">
+      <div className="tdmd-faq-accordion__list">
         {items.map((item, i) => {
           const key = item.id || `faq-${i}`;
           const isString = typeof item.answer === 'string';
           return (
-            <details key={key} className="tdmd-faq-accordion__item" role="listitem">
+            <details key={key} className="tdmd-faq-accordion__item">
               <summary
                 className="tdmd-faq-accordion__question"
                 {...(speakable ? { 'data-speakable': 'true' } : {})}

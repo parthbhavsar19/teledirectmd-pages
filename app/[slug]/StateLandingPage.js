@@ -296,7 +296,7 @@ export default function StateLandingPage({ stateSlug }) {
          data-speakable AI-snippet target and doesn't duplicate hero copy 1:1. */}
       <div className="cpr">
         <style dangerouslySetInnerHTML={{ __html: `
-          .cpr{--navy:#003E52;--teal:#0C8F99;--gold:#E8A33D;--ink:#12303b;--muted:#5c7078;--line:#e4ecee;}
+          .cpr{--navy:#003E52;--teal:#0C8F99;--teal-ink:#006B73;--gold:#E8A33D;--ink:#12303b;--muted:#5c7078;--line:#e4ecee;}
           .cpr-hero h1,.cpr-hero h2{font-family:'Fraunces',Georgia,serif;font-weight:600;letter-spacing:-0.01em;}
           .cpr-hero-wrap{max-width:1100px;margin:0 auto;padding:0 1.5rem;}
           .cpr-hero{background:linear-gradient(160deg,#012f3e 0%,#01465a 60%,#065f6b 100%);color:#fff;padding:3rem 0 3.25rem;font-family:'DM Sans',system-ui,sans-serif;}
@@ -323,7 +323,7 @@ export default function StateLandingPage({ stateSlug }) {
           .cpr-hero-hcard ul{list-style:none;margin:0;padding:0;}
           .cpr-hero-hcard li{position:relative;padding-left:1.6rem;margin:.5rem 0;font-size:.92rem;line-height:1.4;color:var(--ink);}
           .cpr-hero-hcard li::before{content:'\\2713';position:absolute;left:0;color:var(--teal);font-weight:800;}
-          .cpr-hero-hcard-cta{display:block;width:100%;box-sizing:border-box;margin:1.15rem 0 0;padding:.85rem 1.25rem;border-radius:999px;background:var(--teal);color:#fff;font-weight:800;font-size:1rem;text-align:center;text-decoration:none;box-shadow:0 8px 22px rgba(0,107,115,.30);transition:background .15s,transform .15s;}
+          .cpr-hero-hcard-cta{display:block;width:100%;box-sizing:border-box;margin:1.15rem 0 0;padding:.85rem 1.25rem;border-radius:999px;background:var(--teal-ink);color:#fff;font-weight:800;font-size:1rem;text-align:center;text-decoration:none;box-shadow:0 8px 22px rgba(0,107,115,.30);transition:background .15s,transform .15s;}
           .cpr-hero-hcard-cta:hover,.cpr-hero-hcard-cta:focus{background:var(--navy);transform:translateY(-1px);color:#fff;}
           .cpr-hero-hcard-note{margin:.6rem 0 0;font-size:.8rem;color:var(--muted);text-align:center;}
           /* License verify bar renders fine as-is (white card + teal accent) on the

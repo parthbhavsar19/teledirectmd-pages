@@ -17,7 +17,7 @@ export default function SiteFooter() {
 
           {/* Column 2: Patients */}
           <div className="tdmd-footer-col">
-            <h4 className="tdmd-footer-heading">PATIENTS</h4>
+            <h2 className="tdmd-footer-heading">PATIENTS</h2>
             <a href="/what-we-treat/">What We Treat</a>
             <a href="/insurance/">Insurance & Pricing</a>
             <a href="/states-we-serve/">States We Serve</a>
@@ -29,7 +29,7 @@ export default function SiteFooter() {
 
           {/* Column 3: Work with us. Industry pages are linked from /employers/. */}
           <div className="tdmd-footer-col">
-            <h4 className="tdmd-footer-heading">WORK WITH US</h4>
+            <h2 className="tdmd-footer-heading">WORK WITH US</h2>
             <a href="/employers/">For Employers</a>
             <a href="/employers/brokers/">For Brokers</a>
             <a href="/partners/">For Partners</a>
@@ -40,7 +40,7 @@ export default function SiteFooter() {
               Responsibility, Controlled Substance Policy and the Texas Medical Board
               notice are linked from /patient-policies/. */}
           <div className="tdmd-footer-col">
-            <h4 className="tdmd-footer-heading">LEGAL</h4>
+            <h2 className="tdmd-footer-heading">LEGAL</h2>
             <a href="/legal/terms-of-service.pdf">Terms of Service</a>
             <a href="/legal/privacy-policy.pdf">Privacy Policy</a>
             <a href="/legal/notice-of-privacy-practices.pdf">HIPAA Notice</a>

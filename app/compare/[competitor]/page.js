@@ -546,9 +546,9 @@ export default async function ComparePage({ params }) {
           <div className="cmpv-wrap cmpv-narrow">
             <p className="cmpv-kicker">FAQ</p>
             <h2>TeleDirectMD vs. {cfg.competitorName}: common questions</h2>
-            <div className="cmpv-faq" role="list">
+            <div className="cmpv-faq">
               {cfg.faqs.map((f, i) => (
-                <details key={i} role="listitem">
+                <details key={i}>
                   <summary data-speakable="true">{f.question}</summary>
                   <div><p>{f.answer}</p></div>
                 </details>

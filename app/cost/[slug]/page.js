@@ -606,9 +606,9 @@ export default async function CostPage({ params }) {
       <section className="tdmd-section tdmd-faq" id={`${pid}-faq`}>
         <div className="tdmd-container">
           <h2>Frequently Asked Questions</h2>
-          <div className="tdmd-faq-list" role="list">
+          <div className="tdmd-faq-list">
             {cfg.faqs.map((f, i) => (
-              <details key={i} className="tdmd-faq-item" role="listitem">
+              <details key={i} className="tdmd-faq-item">
                 <summary className="tdmd-faq-question" data-speakable="true">{f.question}</summary>
                 <div className="tdmd-faq-answer"><p>{f.answer}</p></div>
               </details>
