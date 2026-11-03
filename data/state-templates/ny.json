@@ -88,39 +88,48 @@
     "citations": [
       {
         "label": "New York Public Health Law Section 2999-cc, Article 29-G (Telehealth Delivery of Services)",
-        "url": "https://www.nysenate.gov/legislation/laws/PBH/2999-CC"
+        "url": "https://www.nysenate.gov/legislation/laws/PBH/2999-CC",
+        "scope": "all"
       },
       {
         "label": "New York Public Health Law Section 281 (electronic prescribing)",
-        "url": "https://www.nysenate.gov/legislation/laws/PBH/281"
+        "url": "https://www.nysenate.gov/legislation/laws/PBH/281",
+        "scope": "all"
       },
       {
         "label": "NYS Department of Health, Electronic Prescribing",
-        "url": "https://www.health.ny.gov/professionals/narcotic/electronic_prescribing/"
+        "url": "https://www.health.ny.gov/professionals/narcotic/electronic_prescribing/",
+        "scope": "all"
       },
       {
         "label": "New York Education Law Section 6810 (prescriptions)",
-        "url": "https://www.nysenate.gov/legislation/laws/EDN/6810"
+        "url": "https://www.nysenate.gov/legislation/laws/EDN/6810",
+        "scope": "all"
       },
       {
         "label": "New York Public Health Law Section 2312 (expedited partner therapy)",
-        "url": "https://www.nysenate.gov/legislation/laws/PBH/2312"
+        "url": "https://www.nysenate.gov/legislation/laws/PBH/2312",
+        "conditions": ["chlamydia-treatment-online", "trichomoniasis-treatment-online"]
       },
       {
         "label": "NYS Department of Health, Tick-Borne Disease Report 2025",
-        "url": "https://www.health.ny.gov/diseases/communicable/lyme/docs/tbd_report_2025.pdf"
+        "url": "https://www.health.ny.gov/diseases/communicable/lyme/docs/tbd_report_2025.pdf",
+        "conditions": ["tick-bite-treatment-online"]
       },
       {
         "label": "NYS Department of Health, influenza declared prevalent, December 2, 2025",
-        "url": "https://www.health.ny.gov/press/releases/2025/2025-12-02_flu_prevalent.htm"
+        "url": "https://www.health.ny.gov/press/releases/2025/2025-12-02_flu_prevalent.htm",
+        "conditions": ["influenza-treatment-online"]
       },
       {
         "label": "NYC Health Department, Dear Colleague letter on doxy-PEP to prevent bacterial STIs, November 9, 2023",
-        "url": "https://www.nyc.gov/assets/doh/downloads/pdf/std/dear-colleague-doxy-PEP-to-prevent-bacterial-STI-11092023.pdf"
+        "url": "https://www.nyc.gov/assets/doh/downloads/pdf/std/dear-colleague-doxy-PEP-to-prevent-bacterial-STI-11092023.pdf",
+        "conditions": ["doxypep-sti-prevention-online"]
       },
       {
         "label": "NYS DOH AIDS Institute clinical guidelines program",
-        "url": "https://www.hivguidelines.org/"
+        "url": "https://www.hivguidelines.org/",
+        "conditions": ["doxypep-sti-prevention-online", "chlamydia-treatment-online", "trichomoniasis-treatment-online", "genital-herpes-treatment-online"]
       },
       {
         "label": "NYC Tourism + Conventions, 2025 visitation (March 2026)",
@@ -132,40 +141,54 @@
       },
         {
           "label": "CDC MMWR, Trichophyton indotineae in New York City, May 12, 2023",
-          "url": "https://www.cdc.gov/mmwr/volumes/72/wr/mm7219a4.htm"
+          "url": "https://www.cdc.gov/mmwr/volumes/72/wr/mm7219a4.htm",
+        "conditions": ["tinea-treatment-online"]
         },
         {
           "label": "CDC MMWR, Trichophyton mentagrophytes genotype VII in New York City, October 31, 2024",
-          "url": "https://www.cdc.gov/mmwr/volumes/73/wr/mm7343a5.htm"
+          "url": "https://www.cdc.gov/mmwr/volumes/73/wr/mm7343a5.htm",
+        "conditions": ["tinea-treatment-online"]
         },
         {
           "label": "NYS Department of Health, BRFSS Brief 2025-01, High Blood Pressure",
-          "url": "https://www.health.ny.gov/statistics/brfss/reports/docs/2025-01_brfss_high_blood_pressure.pdf"
+          "url": "https://www.health.ny.gov/statistics/brfss/reports/docs/2025-01_brfss_high_blood_pressure.pdf",
+        "conditions": ["hypertension-refills-online"]
         },
         {
           "label": "NYC Health Department, Choose less sodium (chain restaurant sodium warning)",
-          "url": "https://www.nyc.gov/site/doh/health/health-topics/heart-disease-choose-less-sodium.page"
+          "url": "https://www.nyc.gov/site/doh/health/health-topics/heart-disease-choose-less-sodium.page",
+        "conditions": ["hypertension-refills-online"]
         },
         {
           "label": "NYS Department of Health, Rabies fact sheet",
-          "url": "https://www.health.ny.gov/diseases/communicable/rabies/fact_sheet"
+          "url": "https://www.health.ny.gov/diseases/communicable/rabies/fact_sheet",
+        "conditions": ["cat-bite-treatment-online"]
         },
         {
           "label": "NYS Department of Health, Preventing exposure to rabies, June 17, 2026",
-          "url": "https://www.health.ny.gov/press/releases/2026/2026-06-17_preventing_exposure_to_rabies.htm"
+          "url": "https://www.health.ny.gov/press/releases/2026/2026-06-17_preventing_exposure_to_rabies.htm",
+        "conditions": ["cat-bite-treatment-online"]
         },
         {
           "label": "NYS Department of Health, Expedited Partner Therapy",
-          "url": "https://www.health.ny.gov/diseases/communicable/std/ept/general_info.htm"
+          "url": "https://www.health.ny.gov/diseases/communicable/std/ept/general_info.htm",
+        "conditions": ["chlamydia-treatment-online", "trichomoniasis-treatment-online"]
         },
         {
           "label": "NYC Health Department, Sexual Health Clinics",
-          "url": "https://www.nyc.gov/site/doh/services/sexual-health-clinics.page"
+          "url": "https://www.nyc.gov/site/doh/services/sexual-health-clinics.page",
+        "conditions": ["bv-treatment-online", "chlamydia-treatment-online", "trichomoniasis-treatment-online", "doxypep-sti-prevention-online", "genital-herpes-treatment-online"]
         },
         {
           "label": "Schillinger JA et al., HSV-2 in New York City adults, Sex Transm Dis 2008;35(6):599-606",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/18418295/"
-        }
+          "url": "https://pubmed.ncbi.nlm.nih.gov/18418295/",
+        "conditions": ["genital-herpes-treatment-online"]
+        },
+      {
+        "label": "NYS Department of Health, New York State Flu Tracker (weekly lab-confirmed cases and hospitalizations)",
+        "url": "https://nyshc.health.ny.gov/web/nyapd/new-york-state-flu-tracker",
+        "conditions": ["influenza-treatment-online"]
+      }
     ]
   },
   "stateCompliance": {
@@ -281,7 +304,7 @@
       "stateConditionParagraph": "Sore throats peak in New York in late fall and winter; searches for strep throat across the state run about 40,000 a month in November and December. Most adult sore throats are viral, and the 2025 IDSA strep guideline estimates group A strep at 5 to 15 percent of adult cases, so the key question is whether you need a strep test. A video visit can sort out who needs testing and who does not, and can point you to a nearby pharmacy or urgent care for a swab when one is needed. Flat $79 for adults physically in New York."
     },
     "influenza-treatment-online": {
-      "stateConditionParagraph": "Flu activity in New York usually builds through December; the state Department of Health declared influenza prevalent on December 2, 2025, December 18, 2024 and December 6, 2023. Antiviral treatment works best when started early, ideally within 48 hours of symptoms, and matters most for adults at higher risk. A same-day video visit for adults physically in New York can decide whether an antiviral is appropriate and send it to your pharmacy. TeleDirectMD's FluHub tracks the state's flu activity weekly. Flat $79.",
+      "stateConditionParagraph": "Flu activity in New York usually builds through December; the state Department of Health declared influenza prevalent on December 2, 2025, December 18, 2024 and December 6, 2023. Antiviral treatment works best when started early, ideally within 48 hours of symptoms, and matters most for adults at higher risk. A same-day video visit for adults physically in New York can decide whether an antiviral is appropriate and send it to your pharmacy. For what is circulating now, the Department of Health's New York State Flu Tracker posts lab-confirmed flu cases and hospitalizations by county every Friday from October through May, and TeleDirectMD's FluHub charts the state's weekly activity against past seasons. Flat $79.",
       "relatedLinks": [
         { "href": "/flu-hub/state/new-york.html", "label": "New York flu activity (FluHub)", "description": "weekly CDC flu surveillance for the state, compared with past seasons" }
       ]

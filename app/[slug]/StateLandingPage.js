@@ -11,7 +11,7 @@ import { summarizeStateLanding, citableSummaryToJsonLd } from '../../lib/citable
 // /[slug] (state hub). loadStateTemplate returns null when no template exists,
 // causing the stateTpl && (...) guards below to render NOTHING — pages fall
 // back to current generic behavior. See data/state-templates/_schema.md.
-import { loadStateTemplate, stateLandingDate, getRelatedLinks } from '../../lib/state-template';
+import { loadStateTemplate, stateLandingDate, getRelatedLinks, getStateSources } from '../../lib/state-template';
 import { cprDarkCSS } from '../../lib/redesign-dark-styles';
 import stateLicensesData from '../../data/state-licenses.json';
 
@@ -157,7 +157,8 @@ export default function StateLandingPage({ stateSlug }) {
         "author": { "@id": `${baseUrl}/about/#physician` },
         "datePublished": today,
         "dateModified": today,
-        "about": { "@id": `${pageUrl}#medical-business` }
+        "about": { "@id": `${pageUrl}#medical-business` },
+        ...(getStateSources(stateTpl).length ? { "citation": getStateSources(stateTpl).map((c) => c.url) } : {})
       },
       {
         "@type": "FAQPage",
@@ -680,6 +681,16 @@ export default function StateLandingPage({ stateSlug }) {
                   <ul className="tdmd-state-related-links">
                     {getRelatedLinks(stateTpl).map((l) => (
                       <li key={l.href}><a href={l.href}>{l.label}</a>{l.description ? `: ${l.description}` : ''}</li>
+                    ))}
+                  </ul>
+                </>
+              )}
+              {getStateSources(stateTpl).length > 0 && (
+                <>
+                  <h3>{state.name} sources</h3>
+                  <ul className="tdmd-ref-list tdmd-state-sources">
+                    {getStateSources(stateTpl).map((c) => (
+                      <li key={c.url}><a href={c.url} rel="nofollow noopener" target="_blank">{c.label}</a></li>
                     ))}
                   </ul>
                 </>
