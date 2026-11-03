@@ -143,7 +143,11 @@ export default function sitemap() {
   // clinical differentiation, so 42 templated state variants each would re-create the exact
   // near-duplicate cluster that drove the May 2026 deindex. Only the national /{cond}/ URLs
   // are submitted; the state-prefixed variants still render (routing) but are kept out of the
-  // sitemap until the Delaware-canary recovery validates the deep-content state template.
+  // sitemap. The original plan was to hold them until the Delaware-canary recovery validated
+  // the deep-content state template. That gate was set aside at the owner's direction (PR #41,
+  // 2026-06-14) and then removed at the owner's request (PR #78, 2026-08-12); no formal canary
+  // pass was recorded. These conditions stay national-only by choice, not pending a check.
+  // The one exception is the hand-built Colorado altitude page below (PR #185, 2026-11-03).
   const NATIONAL_ONLY_CONDITIONS = new Set([
     'travel-medicine-treatment-online',
     'altitude-sickness-treatment-online',
