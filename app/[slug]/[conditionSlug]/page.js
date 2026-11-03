@@ -98,6 +98,7 @@ import VtChlamydiaTreatmentOnline from './VtChlamydiaTreatmentOnline';
 import VtDoxypepStiPreventionOnline from './VtDoxypepStiPreventionOnline';
 import VtAcneTreatmentOnline from './VtAcneTreatmentOnline';
 import VtCellulitisTreatmentOnline from './VtCellulitisTreatmentOnline';
+import CoAltitudeSicknessTreatmentOnline from './CoAltitudeSicknessTreatmentOnline';
 import { summarizeConditionState, citableSummaryToJsonLd } from '../../../lib/citable-summary';
 // ── 2026-06-10 Phase 2: per-state JSON template architecture ──
 // loadStateTemplate(slug) returns null when no template exists for that state,
@@ -143,6 +144,29 @@ export async function generateMetadata({ params }) {
       },
       twitter: { card: 'summary_large_image', title: caTitle, description: caDescription, images: [`${baseUrl}/images/tdmd-og-navy.png`] },
       alternates: { canonical: pageUrl },
+    };
+  }
+
+  // Colorado altitude exception (2026-11-03): altitude sickness stays national-only
+  // for every other state, but /co/ is the destination itself and has its own
+  // Colorado-only hand-built page, so it is indexed with a self canonical.
+  // Keep this ABOVE the NATIONAL_ONLY block, and do not widen it to other states.
+  if (slug === 'co' && conditionSlug === 'altitude-sickness-treatment-online') {
+    const coTitle = 'Altitude Sickness Medication in Colorado: Diamox by Video | TeleDirectMD';
+    const coDescription = 'Heading to Breckenridge, Vail or Leadville? A Colorado-licensed physician reviews your trip and decides if acetazolamide fits. $79 flat-fee video visit.';
+    const coUrl = `${baseUrl}/co/altitude-sickness-treatment-online/`;
+    return {
+      title: coTitle,
+      description: coDescription,
+      robots: { index: true, follow: true, 'max-image-preview': 'large', 'max-snippet': -1, 'max-video-preview': -1 },
+      authors: [{ name: 'Parth Bhavsar, MD' }],
+      openGraph: {
+        type: 'website', siteName: 'TeleDirectMD', locale: 'en_US',
+        title: coTitle, description: coDescription, url: coUrl,
+        images: [{ url: `${baseUrl}/images/tdmd-og-navy.png`, alt: 'Altitude sickness prevention in Colorado by TeleDirectMD' }],
+      },
+      twitter: { card: 'summary_large_image', title: coTitle, description: coDescription, images: [`${baseUrl}/images/tdmd-og-navy.png`] },
+      alternates: { canonical: coUrl },
     };
   }
 
@@ -388,6 +412,11 @@ export default async function ConditionPage({ params }) {
   }
   if (slug === 'ca' && conditionSlug === 'tinea-versicolor-treatment-online') {
     return <CaTineaVersicolorTreatmentOnline />;
+  }
+
+  // ── CO altitude exception (2026-11-03): see generateMetadata ──
+  if (slug === 'co' && conditionSlug === 'altitude-sickness-treatment-online') {
+    return <CoAltitudeSicknessTreatmentOnline />;
   }
 
   // ── VT pilot cohort (2026-06-04) ──
