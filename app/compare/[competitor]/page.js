@@ -298,7 +298,7 @@ export default async function ComparePage({ params }) {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
-      <style>{CMP_CSS}</style>
+      <style dangerouslySetInnerHTML={{ __html: CMP_CSS }} />
       <CitableSummaryBlock summary={citableSummary_AI} jsonLd={citableJsonLd_AI} idSuffix={`compare-${competitor}`} />
 
       <div className="cmpv">

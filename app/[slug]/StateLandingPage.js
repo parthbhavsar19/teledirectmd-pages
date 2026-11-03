@@ -295,7 +295,7 @@ export default function StateLandingPage({ stateSlug }) {
          tdmd-answer-block directly below stays put — it's the dedicated,
          data-speakable AI-snippet target and doesn't duplicate hero copy 1:1. */}
       <div className="cpr">
-        <style>{`
+        <style dangerouslySetInnerHTML={{ __html: `
           .cpr{--navy:#003E52;--teal:#0C8F99;--gold:#E8A33D;--ink:#12303b;--muted:#5c7078;--line:#e4ecee;}
           .cpr-hero h1,.cpr-hero h2{font-family:'Fraunces',Georgia,serif;font-weight:600;letter-spacing:-0.01em;}
           .cpr-hero-wrap{max-width:1100px;margin:0 auto;padding:0 1.5rem;}
@@ -329,9 +329,9 @@ export default function StateLandingPage({ stateSlug }) {
           /* License verify bar renders fine as-is (white card + teal accent) on the
              navy background — same visual language as the hcard, no restyle needed. */
           ${cprDarkCSS}
-        `}</style>
+        ` }} />
         {stateTpl && stateTpl.stateInsurance && stateTpl.stateInsurance.mode === 'self-pay-only' && (
-          <style>{`.tdmd-mobile-sticky-bar .tdmd-sticky-bar-text span{font-size:0;}.tdmd-mobile-sticky-bar .tdmd-sticky-bar-text span::after{content:"Self-pay only in ${state.name}";font-size:0.82rem;}`}</style>
+          <style dangerouslySetInnerHTML={{ __html: `.tdmd-mobile-sticky-bar .tdmd-sticky-bar-text span{font-size:0;}.tdmd-mobile-sticky-bar .tdmd-sticky-bar-text span::after{content:"Self-pay only in ${state.name}";font-size:0.82rem;}` }} />
         )}
         <section className="cpr-hero" id={`${pid}-hero`}>
           <div className="cpr-hero-wrap cpr-hero-grid">

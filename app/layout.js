@@ -56,7 +56,7 @@ export default function RootLayout({ children }) {
         <GlobalStyles />
       </head>
       <body style={{ margin: 0 }}>
-        <style>{`.tdmd-skip-link{position:absolute;left:-9999px;top:auto;width:1px;height:1px;overflow:hidden;}.tdmd-skip-link:focus{position:fixed;top:0;left:0;width:auto;height:auto;padding:.75rem 1.5rem;background:#003E52;color:#fff;font-size:1rem;font-family:sans-serif;z-index:99999;text-decoration:none;border-radius:0 0 8px 0;overflow:visible;}`}</style>
+        <style dangerouslySetInnerHTML={{ __html: `.tdmd-skip-link{position:absolute;left:-9999px;top:auto;width:1px;height:1px;overflow:hidden;}.tdmd-skip-link:focus{position:fixed;top:0;left:0;width:auto;height:auto;padding:.75rem 1.5rem;background:#003E52;color:#fff;font-size:1rem;font-family:sans-serif;z-index:99999;text-decoration:none;border-radius:0 0 8px 0;overflow:visible;}` }} />
         <a href="#main-content" className="tdmd-skip-link">Skip to main content</a>
         <SiteHeader />
         <UtiScopeNotice />

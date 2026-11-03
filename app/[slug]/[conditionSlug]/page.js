@@ -580,7 +580,7 @@ export default async function ConditionPage({ params }) {
           next to national pages. All original data bindings (toc links, benefits,
           FL compliance, ICD-10, reviewed-by line) are preserved, just restyled. */}
       <div className="cpr">
-        <style>{`
+        <style dangerouslySetInnerHTML={{ __html: `
           .cpr{--navy:#003E52;--teal:#0C8F99;--gold:#E8A33D;--ink:#12303b;--muted:#5c7078;--line:#e4ecee;}
           .cpr-hero h1,.cpr-hero h2{font-family:'Fraunces',Georgia,serif;font-weight:600;letter-spacing:-0.01em;}
           .cpr-hero-wrap{max-width:1100px;margin:0 auto;padding:0 1.5rem;}
@@ -619,7 +619,7 @@ export default async function ConditionPage({ params }) {
           .cpr-hero-hcard-cta:hover,.cpr-hero-hcard-cta:focus{background:var(--navy);transform:translateY(-1px);color:#fff;}
           .cpr-hero-hcard-note{margin:.6rem 0 0;font-size:.8rem;color:var(--muted);text-align:center;}
         ${cprDarkCSS}
-        `}</style>
+        ` }} />
         <section className="cpr-hero" id={`${pid}-hero`}>
           <div className="cpr-hero-wrap cpr-hero-grid">
             <div>
@@ -700,7 +700,7 @@ export default async function ConditionPage({ params }) {
         </div>
       )}
       {selfPayOnlyState && (
-        <style>{`.tdmd-mobile-sticky-bar .tdmd-sticky-bar-text span{font-size:0;}.tdmd-mobile-sticky-bar .tdmd-sticky-bar-text span::after{content:"Self-pay only in ${state.name}";font-size:0.82rem;}`}</style>
+        <style dangerouslySetInnerHTML={{ __html: `.tdmd-mobile-sticky-bar .tdmd-sticky-bar-text span{font-size:0;}.tdmd-mobile-sticky-bar .tdmd-sticky-bar-text span::after{content:"Self-pay only in ${state.name}";font-size:0.82rem;}` }} />
       )}
 
       <section className="tdmd-section" id={`${pid}-eligibility-checklist`}>

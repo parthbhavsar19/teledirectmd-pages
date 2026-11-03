@@ -59,7 +59,7 @@ export default function ConditionPageRedesign({
 
   return (
     <div className="cpr">
-      <style>{`
+      <style dangerouslySetInnerHTML={{ __html: `
         .cpr{--navy:#003E52;--teal:#0C8F99;--gold:${GOLD};--ink:#12303b;--muted:#5c7078;--line:#e4ecee;font-family:'DM Sans',system-ui,sans-serif;color:var(--ink);}
         .cpr h1,.cpr h2,.cpr h3,.cpr .disp{font-family:'Fraunces',Georgia,serif;font-weight:600;letter-spacing:-0.01em;}
         .cpr-wrap{max-width:1080px;margin:0 auto;padding:0 1.25rem;}
@@ -208,7 +208,7 @@ export default function ConditionPageRedesign({
         .cpr-video-copy h2{margin:0 0 .5rem;}
         @media(min-width:761px){.cpr-video-grid{grid-template-columns:1fr 360px;}.cpr-video-frame{max-width:360px;margin:0 0 0 auto;}}
         ${cprDarkCSS}
-      `}</style>
+      ` }} />
 
       {/* HERO */}
       <section className="cpr-hero">
