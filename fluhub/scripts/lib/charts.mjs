@@ -24,6 +24,9 @@ const fmtNum = (v, d = 1) => (v == null ? "–" : Number(v).toLocaleString("en-U
  *         hoverLabels: {x: label}, refLines:[{y, label}] , yMax }
  */
 export function lineChart(o) {
+  // A series with no data yet (e.g. a surveillance system that has not published the
+  // current season) is dropped rather than crashing the whole site build.
+  o = { ...o, series: (o.series || []).filter((s) => Array.isArray(s.points)) };
   const W = o.width || 760, H = o.height || 300;
   const m = { t: 16, r: o.rightPad ?? 96, b: 30, l: 44 };
   const allY = [...o.series.flatMap((s) => s.points.map((p) => p[1])), ...(o.bands || []).flatMap((b) => b.hi.map((p) => p[1])), ...(o.refLines || []).map((r) => r.y)].filter((v) => v != null);
