@@ -163,7 +163,10 @@ export default function sitemap() {
     // outperformed its own online-doctor-visits page in Search Console.
     for (const cond of conditionSlugs) {
       // National-only conditions: never emit a state-prefixed variant
-      if (NATIONAL_ONLY_CONDITIONS.has(cond)) continue;
+      // Exception (2026-11-03): /co/altitude-sickness-treatment-online/ is a hand-built,
+      // Colorado-only page (see CoAltitudeSicknessTreatmentOnline.js). Every other state
+      // stays out of the sitemap for these conditions.
+      if (NATIONAL_ONLY_CONDITIONS.has(cond) && !(state.slug === 'co' && cond === 'altitude-sickness-treatment-online')) continue;
       const href = stateConditionHref(state.slug, cond);
       if (!href) continue;
       urls.push(url(href, 0.8, 'weekly'));
