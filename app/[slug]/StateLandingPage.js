@@ -173,7 +173,7 @@ export default function StateLandingPage({ stateSlug }) {
           {
             "@type": "Question",
             "name": `How much does a TeleDirectMD visit cost in ${state.name}?`,
-            "acceptedAnswer": { "@type": "Answer", "text": `TeleDirectMD visits start at $79. There are no hidden fees, no subscription required, and insurance is not needed.${hasInsurance ? ' Select insurance plans are also accepted — standard copays apply.' : ''} The visit fee covers the full consultation, diagnosis, treatment plan, and any prescribed medications sent directly to your preferred ${state.name} pharmacy.` }
+            "acceptedAnswer": { "@type": "Answer", "text": `A TeleDirectMD visit is a flat $79 self-pay fee, paid at booking, with no subscription, and insurance is not needed.${hasInsurance ? ' Select insurance plans are also accepted, and standard copays apply.' : ''} The fee covers the physician consultation, diagnosis and treatment plan, and any prescription is sent electronically to your preferred ${state.name} pharmacy. Medication costs at the pharmacy are separate.` }
           },
           {
             "@type": "Question",
@@ -268,7 +268,12 @@ export default function StateLandingPage({ stateSlug }) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <CitableSummaryBlock summary={citableSummary_AI} jsonLd={citableJsonLd_AI} idSuffix={`state-${stateSlug}`} />
+      {/* New York: the summary answer leads the visible FAQ instead of a hidden
+          block (2026-11-03). Other hubs keep the hidden block, which no longer
+          emits FAQPage markup (see CitableSummary.js). */}
+      {stateSlug !== 'ny' && (
+        <CitableSummaryBlock summary={citableSummary_AI} jsonLd={citableJsonLd_AI} idSuffix={`state-${stateSlug}`} />
+      )}
 
       {/* 0) Breadcrumb */}
       <nav className="tdmd-breadcrumbs" aria-label="Breadcrumb">
@@ -574,7 +579,7 @@ export default function StateLandingPage({ stateSlug }) {
           </div>
 
           <p>
-            All Dr. Bhavsar is licensed to practice medicine in {state.name} and follow state-specific prescribing guidelines. A valid physician-patient relationship is established during each video visit. TeleDirectMD does not prescribe controlled substances.
+            Dr. Bhavsar is licensed to practice medicine in {state.name} and follows state-specific prescribing guidelines. A valid physician-patient relationship is established during each video visit. TeleDirectMD does not prescribe controlled substances.
           </p>
         </div>
       </section>
@@ -606,6 +611,12 @@ export default function StateLandingPage({ stateSlug }) {
           <FaqAccordion
             sectionTitle={`Frequently Asked Questions — TeleDirectMD in ${state.name}`}
             items={[
+              ...(stateSlug === 'ny' && citableSummary_AI && citableSummary_AI.question && citableSummary_AI.answerText
+                ? [{ question: citableSummary_AI.question, answer: <p>{citableSummary_AI.answerText}</p> }]
+                : []),
+              ...((stateTpl && Array.isArray(stateTpl.stateFaqs) ? stateTpl.stateFaqs : [])
+                .filter((f) => f && f.onHub && f.question && f.answer)
+                .map((f) => ({ question: f.question, answer: <p>{f.answer}</p> }))),
               {
                 question: `What conditions does TeleDirectMD treat in ${state.name}?`,
                 answer: (
@@ -615,7 +626,7 @@ export default function StateLandingPage({ stateSlug }) {
               {
                 question: 'How much does a visit cost?',
                 answer: (
-                  <p>TeleDirectMD visits start at $79 per visit. There are no hidden fees and no subscription required.{hasInsurance ? ' We also accept select insurance plans — standard copays and cost-sharing apply.' : ' No insurance required.'} The visit fee covers the full MD consultation, diagnosis, treatment plan, and prescriptions sent to your preferred {state.name} pharmacy.</p>
+                  <p>A TeleDirectMD visit is a flat $79 self-pay fee, paid at booking, with no subscription.{hasInsurance ? ' We also accept select insurance plans, and standard copays and cost-sharing apply.' : ' No insurance required.'} The fee covers the physician consultation, diagnosis and treatment plan, and any prescription is sent electronically to your preferred {state.name} pharmacy. Medication costs at the pharmacy are separate.</p>
                 ),
               },
               {
