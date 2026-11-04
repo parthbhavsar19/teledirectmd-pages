@@ -10,7 +10,11 @@ import UtiScopeNotice from './components/UtiScopeNotice';
 // key ('tdmd-theme'); 'tdmd-dark-mode' is the guides' older key.
 const THEME_INIT = "(function(){var d=document.documentElement,t=null;try{t=localStorage.getItem('tdmd-theme');if(t!=='dark'&&t!=='light'){var o=localStorage.getItem('tdmd-dark-mode');t=o==='true'?'dark':o==='false'?'light':null}}catch(e){}if(!t)t=window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';d.setAttribute('data-theme',t)})()";
 
-const FONTS_URL = 'https://fonts.googleapis.com/css2?family=Almarai:wght@400;700&family=Fraunces:opsz,wght,SOFT,WONK@9..144,300..700,0..100,0..1&family=JetBrains+Mono:wght@400;500&family=Merriweather:wght@400;700&family=Inter:wght@400;500;600;700&family=Patrick+Hand&family=Space+Mono:wght@400;700&family=Karla:wght@400;700&display=swap';
+// DM Sans and Fraunces are the condition, cost, compare, FAQ and employer page
+// fonts. They load here, once, instead of from @import lines inside page <style>
+// tags (an @import in a JSX <style> child is HTML-escaped and becomes a broken
+// relative URL; one placed after other rules is ignored by the browser).
+const FONTS_URL = 'https://fonts.googleapis.com/css2?family=Almarai:wght@400;700&family=DM+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght,SOFT,WONK@9..144,300..700,0..100,0..1&family=JetBrains+Mono:wght@400;500&family=Merriweather:wght@400;700&family=Inter:wght@400;500;600;700&family=Patrick+Hand&family=Space+Mono:wght@400;700&family=Karla:wght@400;700&display=swap';
 
 export const metadata = {
   metadataBase: new URL('https://teledirectmd.com'),
@@ -52,7 +56,7 @@ export default function RootLayout({ children }) {
         <GlobalStyles />
       </head>
       <body style={{ margin: 0 }}>
-        <style>{`.tdmd-skip-link{position:absolute;left:-9999px;top:auto;width:1px;height:1px;overflow:hidden;}.tdmd-skip-link:focus{position:fixed;top:0;left:0;width:auto;height:auto;padding:.75rem 1.5rem;background:#003E52;color:#fff;font-size:1rem;font-family:sans-serif;z-index:99999;text-decoration:none;border-radius:0 0 8px 0;overflow:visible;}`}</style>
+        <style dangerouslySetInnerHTML={{ __html: `.tdmd-skip-link{position:absolute;left:-9999px;top:auto;width:1px;height:1px;overflow:hidden;}.tdmd-skip-link:focus{position:fixed;top:0;left:0;width:auto;height:auto;padding:.75rem 1.5rem;background:#003E52;color:#fff;font-size:1rem;font-family:sans-serif;z-index:99999;text-decoration:none;border-radius:0 0 8px 0;overflow:visible;}` }} />
         <a href="#main-content" className="tdmd-skip-link">Skip to main content</a>
         <SiteHeader />
         <UtiScopeNotice />

@@ -374,7 +374,7 @@ export default function VisitReady() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
 
-      <style>{`
+      <style dangerouslySetInnerHTML={{ __html: `
         .vr-device {
           display: flex;
           gap: 16px;
@@ -437,7 +437,7 @@ export default function VisitReady() {
         :root[data-theme="dark"] .vr-device strong,
         :root[data-theme="dark"] .vr-check-item { color: var(--tdmd-text); }
         :root[data-theme="dark"] .vr-device span { color: var(--tdmd-muted); }
-      `}</style>
+      ` }} />
 
       <section style={styles.hero} aria-labelledby="vr-hero-title">
         <div style={styles.heroBlobCoral} aria-hidden="true" />

@@ -1,10 +1,9 @@
 // Employer pages — scoped CSS that extends the existing tdmd-* design system
 // Typography mirrors /what-we-treat: Fraunces (display) + DM Sans (body)
-// loaded from Google Fonts inline so we don't depend on layout.js changes.
+// Both families come from the site-wide Google Fonts link in app/layout.js.
 import { darkCSS } from '../../lib/dark-css';
 
 export const employersCSS = `
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:wght@500;600;700&display=swap');
 
 /* ===== Scoped to .tdmd-emp so nothing leaks out ===== */
 .tdmd-emp {

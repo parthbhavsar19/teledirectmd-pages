@@ -194,7 +194,6 @@ const jsonLd = {
 };
 
 const PAGE_CSS = `
-@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=DM+Sans:wght@400;500;600;700&display=swap');
   .cmp-hero,.cmp-wrap{font-family:'DM Sans',system-ui,-apple-system,'Segoe UI',sans-serif;}
   .cmp-hero h1,.cmp-wrap h2,.cmp-h1,.cmp-h2{font-family:'Fraunces',Georgia,serif;font-weight:600;letter-spacing:-0.01em;}
   .cmp-hero button,.cmp-hero a,.cmp-wrap button{font-family:inherit;}

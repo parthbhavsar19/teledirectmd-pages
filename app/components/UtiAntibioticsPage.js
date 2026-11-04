@@ -44,8 +44,7 @@ const FAQS = [
 export default function UtiAntibioticsPage({ price = '79' }) {
   return (
     <div className="uap">
-      <style>{`
-        @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=DM+Sans:wght@400;500;600;700&display=swap');
+      <style dangerouslySetInnerHTML={{ __html: `
 
         .uap{--navy:${NAVY};--teal:${TEAL};--gold:${GOLD};--ink:#12303b;--muted:#5c7078;--line:#e4ecee;
           font-family:'DM Sans',system-ui,sans-serif;color:var(--ink);}
@@ -154,7 +153,7 @@ export default function UtiAntibioticsPage({ price = '79' }) {
         .uap-close p{color:#d7ebee;font-size:1.05rem;margin:0 0 1.5rem;}
         .uap-refs{font-size:.8rem;color:var(--muted);line-height:1.6;}
         .uap-refs a{color:var(--teal);}
-      `}</style>
+      ` }} />
 
       {/* HERO */}
       <section className="uap-hero">

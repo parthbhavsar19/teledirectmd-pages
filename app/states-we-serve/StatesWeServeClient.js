@@ -493,7 +493,7 @@ export default function StatesWeServeClient({
    ═══════════════════════════════════════════════════ */
 function Styles() {
   return (
-    <style>{`
+    <style dangerouslySetInnerHTML={{ __html: `
 /* ── Variables ── */
 .sws-root {
   --sws-teal: #006B73;
@@ -713,6 +713,6 @@ function Styles() {
   .sws-root *, .sws-root *::before, .sws-root *::after { animation-duration:0.01ms !important; transition-duration:0.01ms !important; }
 }
 ${SWS_DARK}
-`}</style>
+` }} />
   );
 }

@@ -24,7 +24,6 @@ import { summarizeCompare, summarizeUseCase, summarizeWhoWeServe, summarizeFaqDe
 // navy/teal with brand orange for the primary action. Colors run through the
 // --cv-* variables so the dark theme only has to redefine them.
 const CMP_CSS = `
-@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=DM+Sans:wght@400;500;600;700&display=swap');
 .cmpv{--cv-ink:#0f2a33;--cv-muted:#4f6670;--cv-navy:#063a4a;--cv-teal:#00707a;--cv-teal-soft:#e3f3f4;--cv-line:#dde7ea;--cv-card:#fff;--cv-page:#fff;--cv-tint:#f4f8f8;--cv-us:#f0fafa;--cv-orange:#ff5a36;--cv-on-orange:#1a0b06;--cv-gold:#e8a33d;
   font-family:'DM Sans',system-ui,sans-serif;color:var(--cv-ink);background:var(--cv-page);}
 .cmpv h1,.cmpv h2,.cmpv h3{font-family:'Fraunces',Georgia,serif;color:var(--cv-navy);letter-spacing:-0.01em;}
@@ -299,7 +298,7 @@ export default async function ComparePage({ params }) {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
-      <style>{CMP_CSS}</style>
+      <style dangerouslySetInnerHTML={{ __html: CMP_CSS }} />
       <CitableSummaryBlock summary={citableSummary_AI} jsonLd={citableJsonLd_AI} idSuffix={`compare-${competitor}`} />
 
       <div className="cmpv">
@@ -547,9 +546,9 @@ export default async function ComparePage({ params }) {
           <div className="cmpv-wrap cmpv-narrow">
             <p className="cmpv-kicker">FAQ</p>
             <h2>TeleDirectMD vs. {cfg.competitorName}: common questions</h2>
-            <div className="cmpv-faq" role="list">
+            <div className="cmpv-faq">
               {cfg.faqs.map((f, i) => (
-                <details key={i} role="listitem">
+                <details key={i}>
                   <summary data-speakable="true">{f.question}</summary>
                   <div><p>{f.answer}</p></div>
                 </details>

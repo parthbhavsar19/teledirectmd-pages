@@ -13,24 +13,29 @@
  *   - 'footer'   : minimal, no label, slower scroll (for SiteFooter)
  */
 
+// Logos are 72px-tall WebP copies in public/logos/strip/ (about 2x the largest
+// displayed height). The full-size originals in public/logos/ are still used by
+// the about and employers pages. width/height are the files' pixel sizes; CSS sets
+// the rendered height and the browser keeps the aspect ratio.
+// SHEfinds is left out until there is a real logo file: public/logos/shefinds.png
+// is a byte-for-byte copy of the Woman's World logo (the homepage strip drops it too).
 const PRESS_OUTLETS = [
-  { name: 'TIME', logo: '/logos/time.png' },
-  { name: 'Newsweek', logo: '/logos/newsweek.png' },
-  { name: 'HuffPost', logo: '/logos/huffpost.jpg' },
-  { name: 'U.S. News', logo: '/logos/usnews.png' },
-  { name: 'British GQ', logo: '/logos/gq.jpg' },
-  { name: 'Atlanta Journal-Constitution', logo: '/logos/ajc.svg' },
-  { name: 'New York Post', logo: '/logos/nypost.png' },
-  { name: 'Fox News', logo: '/logos/fox.png' },
-  { name: 'Daily Mail', logo: '/logos/dailymail.png' },
-  { name: 'Healthline', logo: '/logos/healthline.png' },
-  { name: 'Yahoo Health', logo: '/logos/yahoo.png' },
-  { name: "Woman's World", logo: '/logos/womansworld.png' },
-  { name: 'EatingWell', logo: '/logos/eatingwell.jpg' },
-  { name: 'Everyday Health', logo: '/logos/everydayhealth.png' },
-  { name: 'Parade', logo: '/logos/parade.png' },
-  { name: "Men's Journal", logo: '/logos/mensjournal.png' },
-  { name: 'SHEfinds', logo: '/logos/shefinds.png' },
+  { name: 'TIME', logo: '/logos/strip/time.webp', w: 98, h: 72 },
+  { name: 'Newsweek', logo: '/logos/strip/newsweek.webp', w: 104, h: 72 },
+  { name: 'HuffPost', logo: '/logos/strip/huffpost.webp', w: 96, h: 72 },
+  { name: 'U.S. News', logo: '/logos/strip/usnews.webp', w: 103, h: 72 },
+  { name: 'British GQ', logo: '/logos/strip/gq.webp', w: 96, h: 72 },
+  { name: 'Atlanta Journal-Constitution', logo: '/logos/ajc.svg', w: 400, h: 82 },
+  { name: 'New York Post', logo: '/logos/strip/nypost.webp', w: 105, h: 72 },
+  { name: 'Fox News', logo: '/logos/strip/fox.webp', w: 103, h: 72 },
+  { name: 'Daily Mail', logo: '/logos/strip/dailymail.webp', w: 106, h: 72 },
+  { name: 'Healthline', logo: '/logos/strip/healthline.webp', w: 102, h: 72 },
+  { name: 'Yahoo Health', logo: '/logos/strip/yahoo.webp', w: 106, h: 72 },
+  { name: "Woman's World", logo: '/logos/strip/womansworld.webp', w: 96, h: 72 },
+  { name: 'EatingWell', logo: '/logos/strip/eatingwell.webp', w: 96, h: 72 },
+  { name: 'Everyday Health', logo: '/logos/strip/everydayhealth.webp', w: 102, h: 72 },
+  { name: 'Parade', logo: '/logos/strip/parade.webp', w: 118, h: 72 },
+  { name: "Men's Journal", logo: '/logos/strip/mensjournal.webp', w: 101, h: 72 },
 ];
 
 export default function PressStrip({ variant = 'full' }) {
@@ -45,16 +50,31 @@ export default function PressStrip({ variant = 'full' }) {
         )}
         <div className="tdmd-press-strip__wrap">
           <div className="tdmd-press-strip__track">
-            {[...PRESS_OUTLETS, ...PRESS_OUTLETS].map((item, i) => (
-              <a
-                key={`${item.name}-${i}`}
-                href="/media-mentions/"
-                aria-label={`Read TeleDirectMD coverage in ${item.name}`}
-                className="tdmd-press-strip__link"
-              >
-                <img src={item.logo} alt={item.name} loading="lazy" />
-              </a>
-            ))}
+            {[...PRESS_OUTLETS, ...PRESS_OUTLETS].map((item, i) => {
+              // The second copy only exists so the marquee loops seamlessly;
+              // hide it from screen readers and keyboard focus.
+              const dup = i >= PRESS_OUTLETS.length;
+              return (
+                <a
+                  key={`${item.name}-${i}`}
+                  href="/media-mentions/"
+                  aria-label={dup ? undefined : `Read TeleDirectMD coverage in ${item.name}`}
+                  aria-hidden={dup ? 'true' : undefined}
+                  tabIndex={dup ? -1 : undefined}
+                  className="tdmd-press-strip__link"
+                >
+                  <img
+                    src={item.logo}
+                    alt={dup ? '' : item.name}
+                    data-outlet={item.name}
+                    width={item.w}
+                    height={item.h}
+                    loading="lazy"
+                    decoding="async"
+                  />
+                </a>
+              );
+            })}
           </div>
         </div>
         {!isFooter && (
@@ -64,7 +84,7 @@ export default function PressStrip({ variant = 'full' }) {
         )}
       </div>
 
-      <style>{`
+      <style dangerouslySetInnerHTML={{ __html: `
         .tdmd-press-strip {
           padding: 56px 0;
           background: #FAF8F5;
@@ -88,7 +108,7 @@ export default function PressStrip({ variant = 'full' }) {
           font-weight: 600;
           letter-spacing: 0.18em;
           text-transform: uppercase;
-          color: #999;
+          color: #666;
           margin-bottom: 22px;
         }
         .tdmd-press-strip__wrap {
@@ -154,41 +174,39 @@ export default function PressStrip({ variant = 'full' }) {
           filter: grayscale(0%);
         }
         /* Per-logo size tuning (match media-mentions page proportions) */
-        .tdmd-press-strip__track img[alt="TIME"] { height: 30px; }
-        .tdmd-press-strip__track img[alt="HuffPost"] { height: 26px; }
-        .tdmd-press-strip__track img[alt="Daily Mail"] { height: 30px; }
-        .tdmd-press-strip__track img[alt="British GQ"] { height: 26px; }
-        .tdmd-press-strip__track img[alt="Atlanta Journal-Constitution"] { height: 38px; }
-        .tdmd-press-strip__track img[alt="Fox News"] { height: 28px; }
-        .tdmd-press-strip__track img[alt="Healthline"] { height: 28px; }
-        .tdmd-press-strip__track img[alt="EatingWell"] { height: 22px; }
-        .tdmd-press-strip__track img[alt="Everyday Health"] { height: 22px; }
-        .tdmd-press-strip__track img[alt="Yahoo Health"] { height: 24px; }
-        .tdmd-press-strip__track img[alt="Parade"] { height: 28px; }
-        .tdmd-press-strip__track img[alt="Men's Journal"] { height: 22px; }
-        .tdmd-press-strip__track img[alt="SHEfinds"] { height: 28px; }
-        .tdmd-press-strip__track img[alt="Woman's World"] { height: 28px; }
-        .tdmd-press-strip__track img[alt="U.S. News"] { height: 30px; }
-        .tdmd-press-strip__track img[alt="New York Post"] { height: 22px; }
-        .tdmd-press-strip__track img[alt="Newsweek"] { height: 24px; }
+        .tdmd-press-strip__track img[data-outlet="TIME"] { height: 30px; }
+        .tdmd-press-strip__track img[data-outlet="HuffPost"] { height: 26px; }
+        .tdmd-press-strip__track img[data-outlet="Daily Mail"] { height: 30px; }
+        .tdmd-press-strip__track img[data-outlet="British GQ"] { height: 26px; }
+        .tdmd-press-strip__track img[data-outlet="Atlanta Journal-Constitution"] { height: 38px; }
+        .tdmd-press-strip__track img[data-outlet="Fox News"] { height: 28px; }
+        .tdmd-press-strip__track img[data-outlet="Healthline"] { height: 28px; }
+        .tdmd-press-strip__track img[data-outlet="EatingWell"] { height: 22px; }
+        .tdmd-press-strip__track img[data-outlet="Everyday Health"] { height: 22px; }
+        .tdmd-press-strip__track img[data-outlet="Yahoo Health"] { height: 24px; }
+        .tdmd-press-strip__track img[data-outlet="Parade"] { height: 28px; }
+        .tdmd-press-strip__track img[data-outlet="Men's Journal"] { height: 22px; }
+        .tdmd-press-strip__track img[data-outlet="Woman's World"] { height: 28px; }
+        .tdmd-press-strip__track img[data-outlet="U.S. News"] { height: 30px; }
+        .tdmd-press-strip__track img[data-outlet="New York Post"] { height: 22px; }
+        .tdmd-press-strip__track img[data-outlet="Newsweek"] { height: 24px; }
         /* Footer scale-down — AJC is stacked wordmark, needs less aggressive reduction */
-        .tdmd-press-strip--footer .tdmd-press-strip__track img[alt="Atlanta Journal-Constitution"] { height: 28px; }
-        .tdmd-press-strip--footer .tdmd-press-strip__track img[alt="TIME"] { height: 16px; }
-        .tdmd-press-strip--footer .tdmd-press-strip__track img[alt="U.S. News"] { height: 16px; }
-        .tdmd-press-strip--footer .tdmd-press-strip__track img[alt="HuffPost"] { height: 14px; }
-        .tdmd-press-strip--footer .tdmd-press-strip__track img[alt="EatingWell"] { height: 13px; }
-        .tdmd-press-strip--footer .tdmd-press-strip__track img[alt="Everyday Health"] { height: 13px; }
-        .tdmd-press-strip--footer .tdmd-press-strip__track img[alt="Men's Journal"] { height: 13px; }
-        .tdmd-press-strip--footer .tdmd-press-strip__track img[alt="Yahoo Health"] { height: 14px; }
-        .tdmd-press-strip--footer .tdmd-press-strip__track img[alt="New York Post"] { height: 14px; }
-        .tdmd-press-strip--footer .tdmd-press-strip__track img[alt="Newsweek"] { height: 14px; }
-        .tdmd-press-strip--footer .tdmd-press-strip__track img[alt="British GQ"] { height: 16px; }
-        .tdmd-press-strip--footer .tdmd-press-strip__track img[alt="Daily Mail"] { height: 18px; }
-        .tdmd-press-strip--footer .tdmd-press-strip__track img[alt="Fox News"] { height: 18px; }
-        .tdmd-press-strip--footer .tdmd-press-strip__track img[alt="Healthline"] { height: 16px; }
-        .tdmd-press-strip--footer .tdmd-press-strip__track img[alt="Parade"] { height: 18px; }
-        .tdmd-press-strip--footer .tdmd-press-strip__track img[alt="SHEfinds"] { height: 16px; }
-        .tdmd-press-strip--footer .tdmd-press-strip__track img[alt="Woman's World"] { height: 18px; }
+        .tdmd-press-strip--footer .tdmd-press-strip__track img[data-outlet="Atlanta Journal-Constitution"] { height: 28px; }
+        .tdmd-press-strip--footer .tdmd-press-strip__track img[data-outlet="TIME"] { height: 16px; }
+        .tdmd-press-strip--footer .tdmd-press-strip__track img[data-outlet="U.S. News"] { height: 16px; }
+        .tdmd-press-strip--footer .tdmd-press-strip__track img[data-outlet="HuffPost"] { height: 14px; }
+        .tdmd-press-strip--footer .tdmd-press-strip__track img[data-outlet="EatingWell"] { height: 13px; }
+        .tdmd-press-strip--footer .tdmd-press-strip__track img[data-outlet="Everyday Health"] { height: 13px; }
+        .tdmd-press-strip--footer .tdmd-press-strip__track img[data-outlet="Men's Journal"] { height: 13px; }
+        .tdmd-press-strip--footer .tdmd-press-strip__track img[data-outlet="Yahoo Health"] { height: 14px; }
+        .tdmd-press-strip--footer .tdmd-press-strip__track img[data-outlet="New York Post"] { height: 14px; }
+        .tdmd-press-strip--footer .tdmd-press-strip__track img[data-outlet="Newsweek"] { height: 14px; }
+        .tdmd-press-strip--footer .tdmd-press-strip__track img[data-outlet="British GQ"] { height: 16px; }
+        .tdmd-press-strip--footer .tdmd-press-strip__track img[data-outlet="Daily Mail"] { height: 18px; }
+        .tdmd-press-strip--footer .tdmd-press-strip__track img[data-outlet="Fox News"] { height: 18px; }
+        .tdmd-press-strip--footer .tdmd-press-strip__track img[data-outlet="Healthline"] { height: 16px; }
+        .tdmd-press-strip--footer .tdmd-press-strip__track img[data-outlet="Parade"] { height: 18px; }
+        .tdmd-press-strip--footer .tdmd-press-strip__track img[data-outlet="Woman's World"] { height: 18px; }
         .tdmd-press-strip__cta {
           margin-top: 22px;
         }
@@ -212,9 +230,9 @@ export default function PressStrip({ variant = 'full' }) {
           .tdmd-press-strip { padding: 40px 0; }
           .tdmd-press-strip__track { gap: 28px; }
           .tdmd-press-strip__track img { height: 28px; }
-          .tdmd-press-strip__track img[alt="Atlanta Journal-Constitution"] { height: 30px; }
+          .tdmd-press-strip__track img[data-outlet="Atlanta Journal-Constitution"] { height: 30px; }
         }
-      `}</style>
+      ` }} />
     </section>
   );
 }

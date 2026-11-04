@@ -392,9 +392,9 @@ export default function TruckDriversPage() {
       <section className="tdmd-section tdmd-faq" id="truck-drivers-faq">
         <div className="tdmd-container">
           <h2>Frequently Asked Questions — Telehealth for Truck Drivers</h2>
-          <div className="tdmd-faq-list" role="list">
+          <div className="tdmd-faq-list">
             {faqItems.map((item, i) => (
-              <details key={i} className="tdmd-faq-item" role="listitem">
+              <details key={i} className="tdmd-faq-item">
                 <summary className="tdmd-faq-question">{item.q}</summary>
                 <div className="tdmd-faq-answer">
                   <p>{item.a}</p>
