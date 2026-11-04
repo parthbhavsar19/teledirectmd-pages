@@ -84,6 +84,7 @@
     ]
   },
   "stateEpidemiology": {
+    "generalOnHubOnly": true,
     "general": "New York's seasons shape what brings adults to a visit. Flu activity usually builds through December; the state Department of Health formally declared influenza prevalent on December 2, 2025, December 18, 2024 and December 6, 2023, and TeleDirectMD's FluHub tracks the state's flu activity weekly. Tick-borne disease is concentrated outside New York City: the Department of Health's 2025 tick-borne disease report names the Capital District as the region with the highest incidence of Lyme disease, anaplasmosis and babesiosis for 2020 to 2024, with high counts on Long Island and in the Hudson Valley, and adult blacklegged ticks stay active into the fall. The city's density and visitor volume mean respiratory and sexually transmitted infections spread quickly, which is why both the state and the city publish their own clinical guidance on doxycycline post-exposure prophylaxis. This context is for awareness only and is not a substitute for an individual evaluation.",
     "citations": [
       {
@@ -198,6 +199,151 @@
         "label": "NYC311, Find a doctor at NYC Health + Hospitals",
         "url": "https://portal.311.nyc.gov/article/?kanumber=KA-03254",
         "scope": "all"
+      },
+      {
+        "label": "NYS Department of Health, Tobacco-Related Cancers in New York State, 2016-2020",
+        "url": "https://www.health.ny.gov/statistics/diseases/cancer/docs/tobacco_related_cancers_report_2016-2020.pdf",
+        "conditions": ["acid-reflux-refills-online"]
+      },
+      {
+        "label": "Katz PO et al., ACG Clinical Guideline for the Diagnosis and Management of Gastroesophageal Reflux Disease, Am J Gastroenterol 2022 (PubMed 34807007)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/34807007/",
+        "conditions": ["acid-reflux-refills-online"]
+      },
+      {
+        "label": "CDC National Center for Health Statistics, Data Brief No. 304, Prevalence of Herpes Simplex Virus Type 1 and Type 2 in Persons Aged 14-49: United States, 2015-2016 (February 2018)",
+        "url": "https://www.cdc.gov/nchs/products/databriefs/db304.htm",
+        "conditions": ["cold-sore-treatment-online"]
+      },
+      {
+        "label": "MedlinePlus, Cold Sores",
+        "url": "https://medlineplus.gov/coldsores.html",
+        "conditions": ["cold-sore-treatment-online"]
+      },
+      {
+        "label": "American Academy of Dermatology, Cold sores: Diagnosis and treatment",
+        "url": "https://www.aad.org/public/diseases/a-z/cold-sores-treatment",
+        "conditions": ["cold-sore-treatment-online"]
+      },
+      {
+        "label": "American Academy of Dermatology, Cold sores: Signs and symptoms",
+        "url": "https://www.aad.org/public/diseases/a-z/cold-sores-symptoms",
+        "conditions": ["cold-sore-treatment-online"]
+      },
+      {
+        "label": "American Academy of Dermatology, Seborrheic dermatitis: Self-care",
+        "url": "https://www.aad.org/public/diseases/a-z/seborrheic-dermatitis-self-care",
+        "conditions": ["dandruff-treatment-online"]
+      },
+      {
+        "label": "American Academy of Dermatology, How to treat dandruff",
+        "url": "https://www.aad.org/public/diseases/hair-and-scalp-problems/dandruff-how-to-treat",
+        "conditions": ["dandruff-treatment-online"]
+      },
+      {
+        "label": "NYC311, Combined Sewage Overflow (CSO) Waterbody Advisory",
+        "url": "https://portal.311.nyc.gov/article/?kanumber=KA-02650",
+        "conditions": ["ear-pain-treatment-online"]
+      },
+      {
+        "label": "American Academy of Otolaryngology-Head and Neck Surgery Foundation, Acute Otitis Externa (Swimmer's Ear) plain-language summary of the 2014 clinical practice guideline",
+        "url": "https://www.entnet.org/sites/default/files/AOEGuidelinePLSFinal.pdf",
+        "conditions": ["ear-pain-treatment-online"]
+      },
+      {
+        "label": "NYC Department of Housing Preservation and Development, Heat Season Alert (news release 029-24)",
+        "url": "https://www.nyc.gov/site/hpd/news/029-24/heat-season-alert-city-mobilizes-keep-new-yorkers-safe-this-winter",
+        "conditions": ["eczema-treatment-online"]
+      },
+      {
+        "label": "American Academy of Dermatology, Eczema types: Atopic dermatitis skin care",
+        "url": "https://www.aad.org/public/diseases/eczema/types/atopic-dermatitis/atopic-dermatitis-coping",
+        "conditions": ["eczema-treatment-online"]
+      },
+      {
+        "label": "American Academy of Dermatology, Rash 101 in adults: When to seek medical treatment",
+        "url": "https://www.aad.org/public/everyday-care/itchy-skin/rash/rash-101",
+        "conditions": ["eczema-treatment-online"]
+      },
+      {
+        "label": "NYS Department of Health, BRFSS Brief Number 2024-23, Diabetes, New York State Adults, 2022",
+        "url": "https://www.health.ny.gov/statistics/brfss/reports/docs/2024-23_brfss_diabetes.pdf",
+        "conditions": ["erectile-dysfunction-treatment-online"]
+      },
+      {
+        "label": "NIDDK, Symptoms and Causes of Erectile Dysfunction",
+        "url": "https://www.niddk.nih.gov/health-information/urologic-diseases/erectile-dysfunction/symptoms-causes",
+        "conditions": ["erectile-dysfunction-treatment-online"]
+      },
+      {
+        "label": "FDA-approved labeling, VIAGRA (sildenafil citrate) tablets, DailyMed",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=d905dc8d-917f-4ea3-a4ee-a1ecf6967d4e&type=display",
+        "conditions": ["erectile-dysfunction-treatment-online"]
+      },
+      {
+        "label": "FDA-approved labeling, PROPECIA (finasteride) tablets, DailyMed",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=6f904709-65aa-44ce-b144-b4c8a0416e36&type=display",
+        "conditions": ["hair-loss-treatment-online"]
+      },
+      {
+        "label": "New York Education Law Section 6826 (drug retail price lists)",
+        "url": "https://www.nysenate.gov/legislation/laws/EDN/6826",
+        "conditions": ["hair-loss-treatment-online"]
+      },
+      {
+        "label": "NYSED Office of the Professions, Resident In State Pharmacy: Retail Price List",
+        "url": "https://www.op.nysed.gov/professions/pharmacy-establishments/information/retail-price-list",
+        "conditions": ["hair-loss-treatment-online"]
+      },
+      {
+        "label": "American Academy of Dermatology, Hair loss: Signs and symptoms",
+        "url": "https://www.aad.org/public/diseases/hair-loss/insider/begin",
+        "conditions": ["hair-loss-treatment-online"]
+      },
+      {
+        "label": "American Academy of Dermatology, Psoriatic arthritis: Overview",
+        "url": "https://www.aad.org/public/diseases/a-z/psoriatic-arthritis-overview",
+        "conditions": ["psoriasis-refills-online"]
+      },
+      {
+        "label": "NYC Health Department, Scabies brochure",
+        "url": "https://www.nyc.gov/assets/doh/downloads/pdf/std/scabies-brochure.pdf",
+        "conditions": ["scabies-treatment-online"]
+      },
+      {
+        "label": "CDC, About Scabies",
+        "url": "https://www.cdc.gov/scabies/about/index.html",
+        "conditions": ["scabies-treatment-online"]
+      },
+      {
+        "label": "New York Education Law Section 6816-a (when substitution is required)",
+        "url": "https://www.nysenate.gov/legislation/laws/EDN/6816-A",
+        "conditions": ["dandruff-treatment-online"]
+      },
+      {
+        "label": "Vodstrcil LA et al., Male-Partner Treatment to Prevent Recurrence of Bacterial Vaginosis, N Engl J Med 2025;392(10):947-957",
+        "url": "https://doi.org/10.1056/NEJMoa2405404",
+        "conditions": ["bv-treatment-online"]
+      },
+      {
+        "label": "CDC, Sexually Transmitted Infections Treatment Guidelines: Ectoparasitic Infections",
+        "url": "https://www.cdc.gov/std/treatment-guidelines/ectoparasitic.htm",
+        "conditions": ["scabies-treatment-online"]
+      },
+      {
+        "label": "NYS Department of Health, Adult Outpatient Treatment Recommendations 2024: Summary of Guidelines (publication 1174)",
+        "url": "https://www.health.ny.gov/publications/1174_8.5x11.pdf",
+        "conditions": ["uti-treatment-online"]
+      },
+      {
+        "label": "CDC, Sexually Transmitted Infections Treatment Guidelines 2021: Bacterial Vaginosis",
+        "url": "https://www.cdc.gov/std/treatment-guidelines/bv.htm",
+        "conditions": ["bv-treatment-online"]
+      },
+      {
+        "label": "NYSDOH AIDS Institute Clinical Guidelines Program, Guidance: Partner Treatment to Prevent Recurrent Bacterial Vaginosis (February 19, 2026)",
+        "url": "https://www.hivguidelines.org/guideline/sti-bv/",
+        "conditions": ["bv-treatment-online"]
       }
     ]
   },
@@ -313,7 +459,7 @@
   ],
   "conditionOverrides": {
     "uti-treatment-online": {
-      "stateConditionParagraph": "For women in New York with typical, uncomplicated bladder infection symptoms (burning, frequency, urgency, no fever and no back pain), a video visit is often enough to decide on treatment. TeleDirectMD's UTI care is limited to non-pregnant adult women; men with urinary symptoms, and anyone with fever, flank pain, vomiting or pregnancy, should be seen in person. When an antibiotic is appropriate, it is sent electronically to the pharmacy you choose, as the state's e-prescribing law requires. The visit is a flat $79 for adults physically in New York."
+      "stateConditionParagraph": "For women in New York with typical, uncomplicated bladder infection symptoms (burning, frequency, urgency), a video visit is often enough to decide on treatment. The New York State Department of Health's adult outpatient treatment recommendations note that cloudy or foul-smelling urine alone does not diagnose a UTI, and that treating bacteria found in urine without symptoms is not recommended for healthy adults. TeleDirectMD's UTI care is limited to non-pregnant adult women; men with urinary symptoms, and anyone with fever, flank pain, vomiting or pregnancy, should be seen in person. When an antibiotic is appropriate, it is sent electronically to the pharmacy you choose. Flat $79 for adults physically in New York."
     },
     "sore-throat-treatment-online": {
       "stateConditionParagraph": "Sore throats peak in New York in late fall and winter; searches for strep throat across the state run about 40,000 a month in November and December. Most adult sore throats are viral, and the 2025 IDSA strep guideline estimates group A strep at 5 to 15 percent of adult cases, so the key question is whether you need a strep test. A video visit can sort out who needs testing and who does not, and can point you to a nearby pharmacy or urgent care for a swab when one is needed. Flat $79 for adults physically in New York."
@@ -358,10 +504,37 @@
       "stateConditionParagraph": "Since January 1, 2020, New York's expedited partner therapy law, Public Health Law Section 2312, has covered sexually transmitted infections for which the CDC recommends expedited treatment, and the state Department of Health lists trichomoniasis alongside chlamydia and gonorrhea. Before that change, New York allowed it for chlamydia only. It lets a clinician provide treatment for a patient's sex partner without a separate exam; whether it fits your situation is decided during the visit. A video visit for adults physically in New York can prescribe treatment when appropriate, send it electronically to the pharmacy you choose and plan retesting. Flat $79, discreet."
     },
     "bv-treatment-online": {
-      "stateConditionParagraph": "Bacterial vaginosis is the most common cause of vaginal discharge in women of reproductive age, and it often comes back. In New York City, the Health Department's Sexual Health Clinics now offer partner treatment for BV: a male partner of someone diagnosed with BV can walk into any of the clinics for care, at low or no cost, regardless of immigration status. A video visit for adult women physically in New York can evaluate symptoms, prescribe treatment when appropriate and send it electronically to the pharmacy you choose, with a plan for recurrence. Flat $79, discreet."
+      "stateConditionParagraph": "Bacterial vaginosis often comes back: the New York State Department of Health AIDS Institute notes that more than half of people have a recurrence within 6 months. In a 2025 randomized trial in the New England Journal of Medicine, treating the ongoing male partner with oral metronidazole plus clindamycin cream applied to the penis cut recurrence within 12 weeks from 63 percent to 35 percent. The AIDS Institute's February 2026 guidance supports offering this treatment to ongoing partners, while the CDC's 2021 treatment guidelines still do not recommend routine partner treatment. BV is not eligible for expedited partner therapy in New York, so a partner needs a separate visit. In New York City, all Health Department Sexual Health Clinics now offer BV partner treatment, mostly walk-in, regardless of immigration status. A video visit for adult women physically in New York can evaluate symptoms and prescribe treatment when appropriate. Flat $79, discreet."
     },
     "genital-herpes-treatment-online": {
       "stateConditionParagraph": "Genital herpes is far more common than most people realize. In a New York City blood-test survey, nearly 28 percent of adults had HSV-2, and 88.4 percent of them did not know it (NYC Health and Nutrition Examination Survey, 2004 data, published in Sexually Transmitted Diseases, 2008). That is why a first outbreak often comes as a surprise. A video visit for adults physically in New York can assess a first or recurrent outbreak, prescribe antiviral treatment or suppressive therapy when appropriate and send it electronically to the pharmacy you choose. Flat $79, discreet."
+    },
+    "acid-reflux-refills-online": {
+      "stateConditionParagraph": "A refill visit for acid reflux is also a check for warning signs. The American College of Gastroenterology recommends endoscopy for reflux with trouble swallowing, weight loss, bleeding, vomiting or anemia, and advises taking a proton pump inhibitor at the lowest dose that controls symptoms. Esophageal cancer is uncommon, but the New York State Department of Health counts about 1,080 new cases a year statewide (2016 to 2020 average). For adults physically in New York whose symptoms are stable, a video visit can review your current medicine, screen for those signs and renew it when appropriate. Flat $79."
+    },
+    "cold-sore-treatment-online": {
+      "stateConditionParagraph": "Cold sores are caused by herpes simplex virus, usually type 1, and the infection is common: in the CDC's national survey for 2015 to 2016, 47.8 percent of Americans aged 14 to 49 had HSV-1 antibodies. Antibodies show infection, not how often cold sores appear. For many people a cold sore clears on its own in 7 to 14 days, and treatment started early can ease discomfort and speed healing, per the American Academy of Dermatology. A sore near the eye, or an eye that becomes painful or light sensitive, needs an eye doctor right away. A video visit for adults physically in New York can decide whether an antiviral is appropriate. Flat $79."
+    },
+    "dandruff-treatment-online": {
+      "stateConditionParagraph": "Scalp seborrheic dermatitis often flares when the weather turns cold and dry, according to the American Academy of Dermatology, which lists zinc pyrithione, salicylic acid, sulfur, selenium sulfide, ketoconazole and coal tar as dandruff shampoo ingredients to look for. When over-the-counter products are not enough, a video visit for adults physically in New York can look at the scalp on camera and decide whether a prescription shampoo or other treatment is appropriate. If a prescription shampoo is prescribed, New York law (Education Law Sections 6810 and 6816-a) has the pharmacist fill it with a less expensive generic on the state's approved list unless the prescriber marks it dispense as written. Dandruff that persists or is severe deserves a dermatologist's evaluation. Flat $79."
+    },
+    "ear-pain-treatment-online": {
+      "stateConditionParagraph": "A video visit cannot look at the eardrum; that takes an otoscope, in person. A visit can sort out whether your symptoms fit swimmer's ear, an ear canal infection that, per the American Academy of Otolaryngology, occurs when water stays trapped in the canal, and treat it with ear drops when appropriate. In New York City, a combined sewer overflow advisory is issued when heavy rain or snow spills untreated sewage into the waters around New York Harbor, water that may carry illness-causing bacteria. Severe pain with fever and swelling behind the ear, facial weakness or sudden hearing loss needs in-person care. Flat $79 for adults physically in New York."
+    },
+    "eczema-treatment-online": {
+      "stateConditionParagraph": "In New York City, heat season runs from October 1 to May 31: landlords must keep apartments at 68 degrees or warmer by day when it is below 55 outside, and 62 or warmer overnight. That means months of cold air outside and heated rooms inside. The American Academy of Dermatology notes that cold can dry the skin and that sweating from overheating can also trigger flares, and advises moisturizing after bathing. A video visit for adults physically in New York can review a flare on camera and adjust treatment when appropriate. Fever, pus, golden crusts or a rash that spreads rapidly needs in-person care. Flat $79."
+    },
+    "erectile-dysfunction-treatment-online": {
+      "stateConditionParagraph": "Erectile dysfunction can be a symptom of another health problem. The NIH lists diabetes and heart and blood vessel diseases, such as high blood pressure, among the most common causes, and an estimated 1.8 million adult New Yorkers, 11.3 percent, have diagnosed diabetes (state Department of Health, 2022 data). A video visit for adult men physically in New York starts with your health history and medicines. The FDA label for sildenafil says it must not be used with nitrates, and chest pain, dizziness or nausea during sex calls for medical help right away. When treatment is appropriate, it is sent electronically to the pharmacy you choose. Flat $79, discreet."
+    },
+    "hair-loss-treatment-online": {
+      "stateConditionParagraph": "Treating male pattern hair loss is long term: the FDA label for finasteride notes that stopping it reverses the effect within 12 months. Under New York Education Law Section 6826, every pharmacy must give you its retail price list for the 150 most frequently prescribed drugs on request, updated at least weekly. A video visit for adults physically in New York can assess the pattern and discuss options when appropriate. Finasteride is approved for men only, and a woman who is or may be pregnant should not handle crushed or broken tablets. Patchy bald spots, hair falling out in clumps, or a burning, tender scalp need in-person care. Flat $79."
+    },
+    "psoriasis-refills-online": {
+      "stateConditionParagraph": "If your topical psoriasis prescription is out of refills, note that under Education Law Section 6810, a pharmacy cannot refill a prescription more times than the prescriber authorized, and a new prescription must be sent electronically. A video visit for adults physically in New York with stable, previously diagnosed plaque psoriasis can review your skin and regimen and renew it when appropriate. New joint symptoms call for a fuller evaluation: the American Academy of Dermatology notes that psoriatic arthritis often starts with a few puffy joints, a swollen finger or toe, or morning stiffness, most often 5 to 12 years after psoriasis begins. Flat $79."
+    },
+    "scabies-treatment-online": {
+      "stateConditionParagraph": "Scabies spreads through skin-to-skin contact, including sex, and through shared clothing, towels and bedding, according to the New York City Health Department. It advises treating household members, including children, even without symptoms, and examining and treating sex and intimate partners from the past six weeks. The CDC adds that household members and close contacts should be treated at the same time as the person with scabies. Clothing, bedding and towels should be machine washed and dried hot. A video visit for adults physically in New York can review the rash and plan treatment when appropriate. TeleDirectMD treats adults only, so children in the household should be treated at the same time by their own clinician. Thick, crusted skin needs in-person care. Flat $79."
     }
   },
   "relatedLinks": [
