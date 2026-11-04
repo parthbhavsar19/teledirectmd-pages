@@ -19,5 +19,11 @@ export const SITE = {
     conditionUrl: "https://teledirectmd.com/what-we-treat/",
     // Approved public phrasing (social/content-rules.md and the live site). Keep "40+ states" per Dr. Bhavsar.
     line: "Same-day video visits, and every visit is with a board-certified physician. Flat $79, no insurance needed. Adults 18+ in 40+ states.",
+    // State flu-care pages on teledirectmd.com, keyed by postal abbreviation. A state
+    // page gets a care link only when it is listed here and the page is live and in
+    // the main site's sitemap. Add states deliberately; do not derive from a pattern.
+    stateCare: {
+      NY: "https://teledirectmd.com/ny/influenza-treatment-online/",
+    },
   },
 };

@@ -104,6 +104,32 @@ export default function NationalConditionPage({ conditionSlug }) {
             comparePage={getTopComparePageForCondition(conditionSlug)}
             symptomLinks={getSymptomsForCondition(conditionSlug)}
           />
+          {/* State pages for this condition. The legacy template carried this
+              grid; it dropped out when the redesign became the default (Jul 9,
+              commit 66bf1f6b), leaving national pages with no links to their
+              own state variants. Only live, sitemap-listed state pages are
+              linked (stateConditionHref returns null otherwise). */}
+          {(() => {
+            const stateLinks = allStates
+              .map((s) => ({ ...s, href: stateConditionHref(s.slug, conditionSlug) }))
+              .filter((s) => s.href);
+            if (stateLinks.length === 0) return null;
+            return (
+              <div className="cpr">
+                <section className="cpr-sec" id={`${pid}-states`} aria-labelledby={`${pid}-states-h`}>
+                  <div className="cpr-wrap">
+                    <h2 id={`${pid}-states-h`}>{condition.conditionName} care by state</h2>
+                    <p>TeleDirectMD is licensed in 40+ states. Choose your state for a page with that state&apos;s telehealth and prescribing rules. You must be located in the state at the time of your visit.</p>
+                    <nav className="tdmd-other-states-grid" aria-label={`${condition.conditionName} by state`}>
+                      {stateLinks.map((s) => (
+                        <a key={s.slug} className="tdmd-other-state-link" href={s.href}>{s.name}</a>
+                      ))}
+                    </nav>
+                  </div>
+                </section>
+              </div>
+            );
+          })()}
         </>
       )}
 

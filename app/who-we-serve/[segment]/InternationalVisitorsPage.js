@@ -1224,6 +1224,9 @@ export default function InternationalVisitorsPage() {
               </a>
             ))}
           </div>
+          <p>
+            Visiting New York City? Read <a href="/health-guides/sick-visiting-new-york-city-guide/">Sick While Visiting New York City</a>, a physician&apos;s guide to when to call 911 and when urgent care, a house call, or a video visit fits.
+          </p>
         </div>
       </section>
 
