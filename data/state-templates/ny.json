@@ -188,6 +188,16 @@
         "label": "NYS Department of Health, New York State Flu Tracker (weekly lab-confirmed cases and hospitalizations)",
         "url": "https://nyshc.health.ny.gov/web/nyapd/new-york-state-flu-tracker",
         "conditions": ["influenza-treatment-online"]
+      },
+      {
+        "label": "NYC Care (NYC Health + Hospitals), What Is NYC Care",
+        "url": "https://www.nyccare.nyc/about/",
+        "scope": "all"
+      },
+      {
+        "label": "NYC311, Find a doctor at NYC Health + Hospitals",
+        "url": "https://portal.311.nyc.gov/article/?kanumber=KA-03254",
+        "scope": "all"
       }
     ]
   },
@@ -294,6 +304,11 @@
     {
       "question": "What can't a video visit handle in New York?",
       "answer": "Emergencies (call 911 for chest pain, trouble breathing, stroke signs, heavy bleeding or sudden confusion), controlled substances, which TeleDirectMD does not prescribe, care for anyone under 18, and problems that need a hands-on exam, a same-day test or imaging. If a video visit is not the right fit, Dr. Bhavsar will say so and point you to in-person care."
+    },
+    {
+      "question": "How much does it cost to see a doctor without insurance in New York City?",
+      "answer": "It depends on where you go, so ask for the self-pay price before any visit. A TeleDirectMD video visit is a flat $79, paid at booking, and medication costs at the pharmacy are separate. New York City residents who cannot get health insurance can apply for NYC Care through NYC Health + Hospitals: there are no membership fees, monthly fees or premiums, the cost of care is based on family size and income and starts at $0, and immigration status does not matter. NYC Health + Hospitals sees patients regardless of insurance status or ability to pay. Urgent care centers and emergency departments set their own self-pay prices. For chest pain, trouble breathing or stroke signs, call 911.",
+      "onHub": true
     }
   ],
   "conditionOverrides": {

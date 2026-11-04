@@ -531,6 +531,12 @@ export default async function ConditionPage({ params }) {
   // Merge state FAQs into condition FAQ items. When stateTpl is null, this is
   // a no-op pass-through, so JSON-LD generation upstream isn't affected.
   const enrichedFaqItems = mergeFaqs(condition.faq && condition.faq.items, stateTpl);
+  // NY UTI: the hand-written eligibility answer leads the visible FAQ.
+  const citableVisibleInFaq = slug === 'ny' && conditionSlug === 'uti-treatment-online'
+    && citableSummary_AI && citableSummary_AI.question && citableSummary_AI.answerText;
+  const faqItemsForPage = citableVisibleInFaq
+    ? [{ question: citableSummary_AI.question, answer: citableSummary_AI.answerText }, ...(enrichedFaqItems || [])]
+    : enrichedFaqItems;
   const stateOpener = stateTpl && stateTpl.stateHero
     && (stateTpl.stateHero.conditionPageOpener || stateTpl.stateHero.openingParagraph);
   // The site-wide mobile bar says "Insurance accepted in select states"; on a state where
@@ -544,7 +550,14 @@ export default async function ConditionPage({ params }) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <CitableSummaryBlock summary={citableSummary_AI} jsonLd={citableJsonLd_AI} idSuffix={`${slug}-${conditionSlug}`} />
+      {/* New York pages drop the visually hidden summary (2026-11-03): content should
+          be visible, and the generic summary carries cost comparisons that are not
+          qualified for a New York page. The UTI eligibility Q&A moves into the
+          visible FAQ instead. Other states keep the hidden block, which no longer
+          emits FAQPage markup (see CitableSummary.js). */}
+      {!citableVisibleInFaq && slug !== 'ny' && (
+        <CitableSummaryBlock summary={citableSummary_AI} jsonLd={citableJsonLd_AI} idSuffix={`${slug}-${conditionSlug}`} />
+      )}
 
       {/* 0) Breadcrumb */}
       <nav className="tdmd-breadcrumbs" aria-label="Breadcrumb">
@@ -1177,7 +1190,7 @@ export default async function ConditionPage({ params }) {
         <div className="tdmd-container">
           <FaqAccordion
             sectionTitle={condition.faq.sectionTitle}
-            items={enrichedFaqItems.map((item, i) => ({
+            items={faqItemsForPage.map((item, i) => ({
               question: item.question,
               answer: item.answer,
               id: `${pid}-faq-${i}`,
