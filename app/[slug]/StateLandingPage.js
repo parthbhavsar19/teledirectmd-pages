@@ -645,7 +645,7 @@ export default function StateLandingPage({ stateSlug }) {
               {
                 question: 'Who will I see during my visit?',
                 answer: (
-                  <p>Every TeleDirectMD visit is conducted by a licensed MD — not a nurse practitioner or physician assistant. Dr. Bhavsar is licensed to practice medicine in {state.name} and are board-certified.</p>
+                  <p>Every TeleDirectMD visit is conducted by a licensed MD — not a nurse practitioner or physician assistant. Dr. Bhavsar is licensed to practice medicine in {state.name} and is board-certified.</p>
                 ),
               },
               {
@@ -740,7 +740,7 @@ export default function StateLandingPage({ stateSlug }) {
       {/* 9) Other States */}
       <section className="tdmd-section" id={`${pid}-other-states`}>
         <div className="tdmd-container">
-          <h2>TeleDirectMD Is Also Available in {otherStates.length} Other States</h2>
+          <h2>TeleDirectMD Is Also Available Across 40+ States</h2>
           <p>TeleDirectMD provides MD-only telehealth visits across 40+ states + DC. Whether you are traveling, relocating, or have family in another state — we can help. Select a state below to explore available conditions and book a visit.</p>
           <div className="tdmd-other-states-grid">
             {otherStates.map((s) => (
@@ -763,7 +763,7 @@ export default function StateLandingPage({ stateSlug }) {
           <p>
             {state.abbr === 'FL'
               ? <>TeleDirectMD&rsquo;s telehealth physician is registered to provide telehealth services in {state.name} under Fla. Stat. § 456.47(4) and operates in compliance with state telehealth regulations. All visits are subject to clinical appropriateness as determined by your treating physician.</>
-              : <>Dr. Bhavsar is licensed in {state.name} and operate in compliance with state telehealth regulations. All visits are subject to clinical appropriateness as determined by your treating physician.</>
+              : <>Dr. Bhavsar is licensed in {state.name} and practices in compliance with state telehealth regulations. All visits are subject to clinical appropriateness as determined by your treating physician.</>
             }
           </p>
         </div>
