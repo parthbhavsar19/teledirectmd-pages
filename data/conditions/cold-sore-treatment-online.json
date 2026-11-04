@@ -8,7 +8,7 @@
   "hero": {
     "h1": "Cold Sore Treatment in {state} (Herpes Labialis)",
     "subtitle": "{state} adult care by secure video visit, flat $79 self-pay option, MD-only, insurance is not required.",
-    "introParagraph": "Cold sores (herpes labialis) are caused by herpes simplex virus type 1 (HSV-1), affecting an estimated 50 to 80 percent of US adults. The FDA-approved episodic treatment is valacyclovir (Valtrex) 2g every 12 hours for 1 day, initiated at the very first prodromal symptom such as tingling, itching, or burning. This narrow treatment window is the single most important factor in cold sore management: the medication is not effective once clinical signs like papules, vesicles, or ulcers have appeared. TeleDirectMD provides time-sensitive telehealth access so {state} adults can obtain an antiviral prescription before or at the onset of their next outbreak, rather than waiting days for a clinic appointment while the treatment window closes. For patients with frequent recurrences (6 or more per year), daily suppressive therapy with valacyclovir 500mg to 1g can reduce outbreak frequency by 70 to 80 percent. TeleDirectMD screens for red flags including eczema herpeticum, ocular herpes, and immunocompromised disseminated infection before determining whether treatment by video visit is appropriate. This page is for adults located in {state}, including {cities}.",
+    "introParagraph": "Cold sores (herpes labialis) are caused by herpes simplex virus type 1 (HSV-1), and the infection is common: in the CDC's national survey for 2015 to 2016, 47.8 percent of Americans aged 14 to 49 had HSV-1 antibodies. The FDA-approved episodic treatment is valacyclovir (Valtrex) 2g every 12 hours for 1 day, initiated at the very first prodromal symptom such as tingling, itching, or burning. This narrow treatment window is the single most important factor in cold sore management: the medication is not effective once clinical signs like papules, vesicles, or ulcers have appeared. TeleDirectMD provides time-sensitive telehealth access so {state} adults can obtain an antiviral prescription before or at the onset of their next outbreak, rather than waiting days for a clinic appointment while the treatment window closes. For patients with frequent recurrences (6 or more per year), daily suppressive therapy with valacyclovir 500mg to 1g can reduce outbreak frequency by 70 to 80 percent. TeleDirectMD screens for red flags including eczema herpeticum, ocular herpes, and immunocompromised disseminated infection before determining whether treatment by video visit is appropriate. This page is for adults located in {state}, including {cities}.",
     "tocLinks": [
       {
         "href": "eligibility-checklist",
@@ -237,7 +237,7 @@
   "whatIsCondition": {
     "sectionTitle": "What Is a Cold Sore?",
     "paragraphs": [
-      "A cold sore (herpes labialis) is a recurrent viral infection caused by herpes simplex virus type 1 (HSV-1). After initial infection, usually in childhood, the virus establishes lifelong latency in the trigeminal ganglion and periodically reactivates to cause outbreaks on or around the lips. An estimated 50 to 80 percent of US adults carry HSV-1, though many never develop symptomatic cold sores.",
+      "A cold sore (herpes labialis) is a recurrent viral infection caused by herpes simplex virus type 1 (HSV-1). After initial infection, usually in childhood, the virus establishes lifelong latency in the trigeminal ganglion and periodically reactivates to cause outbreaks on or around the lips. In the CDC's 2015 to 2016 national survey, 47.8 percent of Americans aged 14 to 49 had HSV-1 antibodies, and the World Health Organization notes that most HSV infections are asymptomatic or unrecognized, so many people who carry the virus never notice a cold sore.",
       "Cold sores are distinct from canker sores (aphthous ulcers). Cold sores appear on the outer lip border or perioral skin as fluid-filled vesicles that crust over, are caused by a virus, and are contagious. Canker sores appear inside the mouth on soft tissue, are not caused by a virus, and are not contagious. This distinction matters because antiviral medications treat cold sores but have no effect on canker sores.",
       "TeleDirectMD focuses on time-sensitive antiviral treatment for recurrent herpes labialis, with careful screening to direct complicated presentations including eczema herpeticum, ocular herpes, and disseminated infection to emergency care."
     ]
@@ -613,6 +613,14 @@
     {
       "text": "Herpes Simplex Virus, StatPearls (2025)",
       "url": "https://www.ncbi.nlm.nih.gov/books/NBK482197/"
+    },
+    {
+      "text": "CDC National Center for Health Statistics, Data Brief No. 304: Prevalence of Herpes Simplex Virus Type 1 and Type 2 in Persons Aged 14-49, United States, 2015-2016 (February 2018)",
+      "url": "https://www.cdc.gov/nchs/products/databriefs/db304.htm"
+    },
+    {
+      "text": "World Health Organization, Herpes simplex virus fact sheet (May 30, 2025)",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/herpes-simplex-virus"
     }
   ],
   "disclaimer": {
@@ -733,7 +741,7 @@
       "Secondary bacterial infection",
       "Herpes encephalitis (rare)"
     ],
-    "epidemiology": "HSV-1 seroprevalence in US adults is estimated at 50 to 80 percent. Approximately 20 to 40 percent of seropositive individuals experience recurrent symptomatic cold sores, with frequency varying from rare to more than 6 outbreaks per year.",
+    "epidemiology": "In the CDC's National Health and Nutrition Examination Survey for 2015 to 2016, 47.8 percent of Americans aged 14 to 49 had HSV-1 antibodies, rising with age from 27.0 percent at ages 14 to 19 to 59.7 percent at ages 40 to 49; the survey did not test people 50 and older. Antibodies show infection, not cold sores: the World Health Organization notes that most HSV infections are asymptomatic or unrecognized, and among people who do get cold sores, outbreaks range from rare to several a year.",
     "drugs": [
       {
         "name": "Valacyclovir",
