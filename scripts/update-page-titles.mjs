@@ -25,6 +25,9 @@ const OVERRIDES = {
   'poison-ivy-oak-treatment-online':     'Poison Ivy & Oak Online Treatment in {state} | TeleDirectMD',
   'viral-gastroenteritis-treatment-online': 'Stomach Flu Online Treatment in {state} | TeleDirectMD',
   'smoking-cessation-treatment-online':  'Smoking Cessation Online in {state} | TeleDirectMD',
+  // Nov 2026: NY flu page ranked #7 for "flu treatment online new york" but was absent for
+  // "tamiflu prescription online"; every page that ranks or is cited there names Tamiflu.
+  'influenza-treatment-online':          'Flu Treatment and Tamiflu Online in {state} | TeleDirectMD',
 };
 
 function cleanBase(cn) {
