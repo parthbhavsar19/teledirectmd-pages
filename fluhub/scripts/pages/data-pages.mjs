@@ -305,7 +305,8 @@ ${seasonNote ? `<div class="section" style="margin-top:28px">${seasonNote}</div>
   const fsSeasons = Object.keys(flusurv.seasons).filter((s) => s >= "2010-11").sort();
   const cutoff = (s) => seasonWeekIndex(+(+s.slice(0, 4) + 1 + "17"));
   const fsCum = Object.fromEntries(fsSeasons.map((s) => [s, cumulative(flusurv.seasons[s]).filter((p) => p[0] <= cutoff(s))]));
-  const fsTotal = (s) => fsCum[s].filter((p) => p[1] != null).at(-1)?.[1] ?? null;
+  // FluSurv-NET publishes a new season weeks after it starts; until then fsCum[curSeason] is absent.
+  const fsTotal = (s) => (fsCum[s] || []).filter((p) => p[1] != null).at(-1)?.[1] ?? null;
   const fsBand = typicalBand(fsCum, fsSeasons.filter((s) => s !== curSeason && !ATYPICAL.has(s)));
   const fsCurves = lineChart({
     id: "fs-cum", title: "Cumulative flu hospitalization rate, per 100,000 people", sub: "FluSurv-NET, laboratory-confirmed influenza hospitalizations in selected counties of about a dozen states, October through April.",
@@ -316,8 +317,8 @@ ${seasonNote ? `<div class="section" style="margin-top:28px">${seasonNote}</div>
       { name: "2024–25", points: fsCum["2024-25"], cls: "s2", width: 2, label: "2024–25", z: 1 },
       { name: seasonLabel(curSeason), points: fsCum[curSeason], cls: "s1", width: 3, label: seasonLabel(curSeason), dot: true, z: 2 },
     ],
-    legend: [{ name: seasonLabel(curSeason), cls: "s1" }, { name: "2024–25", cls: "s2" }, { name: "2017–18", cls: "ink" }, { name: "Typical range of other seasons", cls: "band", band: true }],
-    note: "FluSurv-NET covers about 10% of the U.S. population. Rates are not adjusted for testing practices, which changed after 2020.",
+    legend: [...(fsCum[curSeason] ? [{ name: seasonLabel(curSeason), cls: "s1" }] : []), { name: "2024–25", cls: "s2" }, { name: "2017–18", cls: "ink" }, { name: "Typical range of other seasons", cls: "band", band: true }],
+    note: `${fsCum[curSeason] ? "" : `FluSurv-NET has not yet published ${seasonLabel(curSeason)} data, so this chart shows past seasons only. `}FluSurv-NET covers about 10% of the U.S. population. Rates are not adjusted for testing practices, which changed after 2020.`,
   });
   const fsBars = barChart({
     id: "fs-bars", title: "Cumulative hospitalization rate by season, October to April", sub: "Per 100,000 people, FluSurv-NET, all ages.",
