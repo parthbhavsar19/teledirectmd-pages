@@ -14,7 +14,10 @@ import {
 // "What does this cost?" block — used on national + state×condition pages.
 // Produces 1 outbound edge to the matching cost page (or the master) per
 // page rendered.
-export function WhatDoesThisCostBlock({ conditionSlug, conditionName, stateName }) {
+// noComparison: plain price statement with no cross-setting comparison and no
+// "most patients pay" range. Used on New York pages, where cost wording is kept
+// to what TeleDirectMD itself charges; the cost guide covers other settings.
+export function WhatDoesThisCostBlock({ conditionSlug, conditionName, stateName, noComparison = false }) {
   const link = getCostPageLinkForCondition(conditionSlug);
   const secondary = getSecondaryCostPagesForCondition(conditionSlug);
   const where = stateName ? ` in ${stateName}` : '';
@@ -26,7 +29,11 @@ export function WhatDoesThisCostBlock({ conditionSlug, conditionName, stateName 
   const lead = link.isCondition
     ? `What does ${phrase} cost${where}?`
     : `What does an online doctor visit${where} cost?`;
-  const body = link.isCondition
+  const body = noComparison
+    ? (link.isCondition
+      ? `A TeleDirectMD video visit is $79 flat, paid at booking. Prescription costs at the pharmacy are separate and vary by medication and pharmacy. See the cost guide for typical self-pay prices by care setting.`
+      : `A TeleDirectMD video visit is $79 flat, paid at booking. See the cost guide for typical self-pay prices by care setting.`)
+    : link.isCondition
     ? `A telehealth visit at TeleDirectMD is $79 flat. With a generic prescription via GoodRx, most patients pay $80–$145 total — a fraction of in-person urgent care. See the full breakdown by care setting on our cost guide.`
     : `TeleDirectMD\'s $79 flat rate is about one-quarter to one-half the cost of a cash-pay urgent care visit and a small fraction of an uninsured ER visit. See verified 2026 cash-pay prices across every care setting.`;
 

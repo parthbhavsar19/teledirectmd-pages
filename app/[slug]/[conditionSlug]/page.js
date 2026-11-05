@@ -1403,7 +1403,7 @@ export default async function ConditionPage({ params }) {
       <PressStrip variant="full" />
 
       {/* 22) What does this cost? — links to /cost/ pages from PR 4 */}
-      <WhatDoesThisCostBlock conditionSlug={conditionSlug} conditionName={condition.conditionName} stateName={state.name} />
+      <WhatDoesThisCostBlock conditionSlug={conditionSlug} conditionName={condition.conditionName} stateName={state.name} noComparison={slug === 'ny'} />
 
       {/* 23) Compare TeleDirectMD — links to /compare/ pages from PR 5 */}
       <CompareTeleDirectMDLinkRow conditionSlug={conditionSlug} />
