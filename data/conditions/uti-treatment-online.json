@@ -117,7 +117,7 @@
       },
       {
         "option": "Urgent Care",
-        "cost": "$150 to $450 (before insurance)",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "1 to 3 hours typical",
         "provider": "MD, DO, PA, or NP",
         "bestFor": "Moderate symptoms, uncertain diagnosis, or when urine testing is needed quickly",
@@ -125,7 +125,7 @@
       },
       {
         "option": "Emergency Room",
-        "cost": "$500 to $3,000+ (before insurance)",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "2 to 6 hours typical",
         "provider": "Emergency medicine MD or DO",
         "bestFor": "Fever with flank pain, sepsis symptoms, severe dehydration, confusion, or rapid worsening",
@@ -133,7 +133,7 @@
       },
       {
         "option": "Primary Care",
-        "cost": "$100 to $250+ (varies)",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "3 to 14 days typical",
         "provider": "Family medicine or internal medicine MD or DO",
         "bestFor": "Recurrent UTIs, prevention planning, and longer-term evaluation for contributing factors",
@@ -141,7 +141,7 @@
       },
       {
         "option": "Urology",
-        "cost": "$150 to $400+ (varies)",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "Days to weeks (varies)",
         "provider": "Urologist MD or DO",
         "bestFor": "Recurrent UTIs, resistant infections, suspected structural issues, stones, or persistent hematuria",
@@ -198,7 +198,7 @@
     "sectionTitle": "What Does UTI Treatment Cost in {state}?",
     "subtitle": "Transparent options. Insurance is not required.",
     "visitPrice": "$79",
-    "priceSubtext": "$79 flat visit · no insurance required · most generic antibiotics add only $1–$15",
+    "priceSubtext": "$79 flat visit · no insurance required · prescriptions priced separately",
     "includes": [
       "MD evaluation and red-flag screening",
       "Assessment for uncomplicated bladder infection vs common alternatives",
@@ -212,27 +212,9 @@
         "value": "$79",
         "width": 20,
         "isTdmd": true
-      },
-      {
-        "name": "Primary Care",
-        "value": "$100 to $250+",
-        "width": 45,
-        "isTdmd": false
-      },
-      {
-        "name": "Urgent Care",
-        "value": "$150 to $450",
-        "width": 55,
-        "isTdmd": false
-      },
-      {
-        "name": "Emergency Room",
-        "value": "$500 to $3,000+",
-        "width": 100,
-        "isTdmd": false
       }
     ],
-    "footnote": "Total cost is transparent: the $79 visit plus a generic antibiotic (nitrofurantoin, TMP-SMX, or fosfomycin) via a GoodRx coupon means most patients pay about $80–$95 all-in — no membership, no coupon math, no hidden facility fees.",
+    "footnote": "Total cost is transparent: the visit is $79 flat, and any prescription is paid separately at the pharmacy, where prices vary by medication and pharmacy. No membership, no coupon math, no hidden facility fees.",
     "noHiddenFees": "No hidden fees. If medication is not clinically appropriate, you still receive a complete evaluation, guidance, and clear instructions on what level of care you need next."
   },
   "whatIsCondition": {
@@ -540,7 +522,7 @@
       },
       {
         "question": "How can I get UTI treatment online without insurance?",
-        "answer": "Insurance is not required. TeleDirectMD is a flat $79 self-pay video visit — no membership and no coupon math. If an antibiotic is appropriate, the generic (nitrofurantoin, TMP-SMX, or fosfomycin) typically adds only $1–$15 with a GoodRx coupon, so most patients pay about $80–$95 total, versus $150–$450 at urgent care without insurance."
+        "answer": "Insurance is not required. TeleDirectMD is a flat $79 self-pay video visit, with no membership. If an antibiotic is appropriate, it is paid separately at the pharmacy, and its price varies by medication and pharmacy."
       },
       {
         "question": "How much does online UTI treatment cost in {state}?",
