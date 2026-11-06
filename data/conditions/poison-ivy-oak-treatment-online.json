@@ -118,7 +118,7 @@
       },
       {
         "option": "Urgent Care",
-        "cost": "$150 to $300+ (before insurance)",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "1 to 3 hours typical",
         "provider": "MD, DO, PA, or NP",
         "bestFor": "Moderate to severe rash needing in-person exam, uncertain diagnosis, possible secondary infection, or facial or genital involvement",
@@ -126,7 +126,7 @@
       },
       {
         "option": "Emergency Room",
-        "cost": "$500 to $3,000+ (before insurance)",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "2 to 6 hours typical",
         "provider": "Emergency medicine MD or DO",
         "bestFor": "Difficulty breathing or swallowing, severe facial swelling, anaphylaxis-like reaction, urushiol smoke inhalation, or widespread rash with systemic symptoms",
@@ -134,7 +134,7 @@
       },
       {
         "option": "Primary Care",
-        "cost": "$100 to $250+ (varies)",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "3 to 14 days typical",
         "provider": "Family medicine or internal medicine MD or DO",
         "bestFor": "Follow-up for persistent symptoms, recurrent plant dermatitis, or managing complications from prolonged steroid use",
@@ -142,7 +142,7 @@
       },
       {
         "option": "Dermatology",
-        "cost": "$150 to $400+ (varies)",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "Days to weeks (varies)",
         "provider": "Dermatologist MD or DO",
         "bestFor": "Atypical rash not clearly from plant contact, severe or treatment-resistant cases, or suspected secondary conditions needing biopsy",
@@ -215,24 +215,6 @@
         "value": "$79",
         "width": 20,
         "isTdmd": true
-      },
-      {
-        "name": "Primary Care",
-        "value": "$100 to $250+",
-        "width": 45,
-        "isTdmd": false
-      },
-      {
-        "name": "Urgent Care",
-        "value": "$150 to $300+",
-        "width": 55,
-        "isTdmd": false
-      },
-      {
-        "name": "Emergency Room",
-        "value": "$500 to $3,000+",
-        "width": 100,
-        "isTdmd": false
       }
     ],
     "footnote": "Total cost is transparent: the visit is $79 flat, and any prescription is paid separately at the pharmacy, where prices vary by medication and pharmacy. No membership, with a longer taper used to avoid the rebound flares seen with short dose packs.",

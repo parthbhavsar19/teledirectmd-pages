@@ -116,7 +116,7 @@
       },
       {
         "option": "In-Person Travel Clinic",
-        "cost": "$150 to $400+ (consultation)",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "Days to weeks for appointment",
         "provider": "Travel medicine MD or specialist",
         "bestFor": "Expedition-altitude travel above 4,000 m, complex itineraries, multiple destination vaccines, or patients needing dexamethasone/nifedipine emergency kits",
@@ -124,7 +124,7 @@
       },
       {
         "option": "Urgent Care",
-        "cost": "$150 to $300+ (before insurance)",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "1 to 3 hours typical",
         "provider": "MD, DO, PA, or NP",
         "bestFor": "Acute illness evaluation, not typically set up for pre-travel altitude prophylaxis consultations",
@@ -132,7 +132,7 @@
       },
       {
         "option": "Primary Care",
-        "cost": "$100 to $250+ (varies)",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "3 to 14 days typical",
         "provider": "Family medicine or internal medicine MD or DO",
         "bestFor": "Baseline health evaluation and referrals, though many primary care providers are not specialized in altitude pharmacology",
@@ -140,7 +140,7 @@
       },
       {
         "option": "Emergency Room",
-        "cost": "$500 to $3,000+ (before insurance)",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "2 to 6 hours typical",
         "provider": "Emergency medicine MD or DO",
         "bestFor": "Active HACE or HAPE emergency at altitude requiring supplemental oxygen, dexamethasone, or urgent evacuation",
@@ -226,24 +226,6 @@
         "value": "$79",
         "width": 20,
         "isTdmd": true
-      },
-      {
-        "name": "Primary Care",
-        "value": "$100 to $250+",
-        "width": 45,
-        "isTdmd": false
-      },
-      {
-        "name": "In-Person Travel Clinic",
-        "value": "$150 to $400+",
-        "width": 60,
-        "isTdmd": false
-      },
-      {
-        "name": "Emergency Room",
-        "value": "$500 to $3,000+",
-        "width": 100,
-        "isTdmd": false
       }
     ],
     "footnote": "Total cost is transparent: the visit is $79 flat, and any prescription is paid separately at the pharmacy, where prices vary by medication and pharmacy. No membership, no clinic visit needed.",

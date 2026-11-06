@@ -115,7 +115,7 @@
       },
       {
         "option": "In-Person Travel Clinic",
-        "cost": "$150 to $500+ (consultation + vaccines)",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "Days to weeks for appointment",
         "provider": "Travel medicine specialist MD",
         "bestFor": "Full-service pre-travel care including yellow fever and other required vaccines, G6PD testing for primaquine, complex multi-country itineraries, mefloquine counseling, and emergency medication kits",
@@ -123,7 +123,7 @@
       },
       {
         "option": "Primary Care",
-        "cost": "$100 to $250+ (varies)",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "3 to 14 days typical",
         "provider": "Family medicine or internal medicine MD or DO",
         "bestFor": "Patients with established primary care relationships; availability of travel medicine expertise varies significantly",
@@ -131,7 +131,7 @@
       },
       {
         "option": "Urgent Care",
-        "cost": "$150 to $300+ (before insurance)",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "1 to 3 hours typical",
         "provider": "MD, DO, PA, or NP",
         "bestFor": "Acute illness treatment after return from travel, not typically optimized for pre-travel prophylaxis formulary selection",
@@ -225,24 +225,6 @@
         "value": "$79",
         "width": 20,
         "isTdmd": true
-      },
-      {
-        "name": "Primary Care",
-        "value": "$100 to $250+",
-        "width": 45,
-        "isTdmd": false
-      },
-      {
-        "name": "In-Person Travel Clinic",
-        "value": "$150 to $500+",
-        "width": 65,
-        "isTdmd": false
-      },
-      {
-        "name": "Emergency Room",
-        "value": "$500 to $3,000+",
-        "width": 100,
-        "isTdmd": false
       }
     ],
     "footnote": "Total cost is transparent: the $79 visit can cover evaluation for several travel medications at once — malaria prophylaxis, traveler's diarrhea standby therapy, altitude or motion sickness prevention — with each medication's pharmacy cost varying separately by drug and quantity.",

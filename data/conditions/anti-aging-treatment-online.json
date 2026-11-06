@@ -115,7 +115,7 @@
       },
       {
         "option": "Dermatology Office",
-        "cost": "$150 to $400+ (before insurance)",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "Weeks to months for new patients",
         "provider": "Dermatologist MD or DO",
         "bestFor": "Suspicious skin lesions, skin cancer screening, complex dermatologic conditions, and in-office procedures",
@@ -123,7 +123,7 @@
       },
       {
         "option": "Medical Spa",
-        "cost": "$200 to $1,000+ per treatment",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "Days to weeks",
         "provider": "Varies (MD, NP, PA, aesthetician)",
         "bestFor": "In-office procedures such as chemical peels, microneedling, laser resurfacing, and injectable fillers",
@@ -131,7 +131,7 @@
       },
       {
         "option": "Primary Care",
-        "cost": "$100 to $250+ (varies)",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "3 to 14 days typical",
         "provider": "Family medicine or internal medicine MD or DO",
         "bestFor": "General skin concerns combined with other health issues, skin cancer screening, and specialist referrals",
@@ -139,7 +139,7 @@
       },
       {
         "option": "Over-the-Counter Retinol",
-        "cost": "$15 to $80+ per product",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "No wait",
         "provider": "Self-directed",
         "bestFor": "Mild concerns with lower-potency options; OTC retinol is significantly weaker than prescription tretinoin",
@@ -210,24 +210,6 @@
         "value": "$79",
         "width": 20,
         "isTdmd": true
-      },
-      {
-        "name": "Primary Care",
-        "value": "$100 to $250+",
-        "width": 45,
-        "isTdmd": false
-      },
-      {
-        "name": "Dermatology Office",
-        "value": "$150 to $400+",
-        "width": 65,
-        "isTdmd": false
-      },
-      {
-        "name": "Medical Spa",
-        "value": "$200 to $1,000+",
-        "width": 100,
-        "isTdmd": false
       }
     ],
     "footnote": "Total cost is transparent: the visit is $79 flat, and any prescription is paid separately at the pharmacy, where prices vary by medication and pharmacy. No membership, no in-office procedure fees.",

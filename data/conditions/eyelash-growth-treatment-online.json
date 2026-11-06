@@ -115,7 +115,7 @@
       },
       {
         "option": "Dermatologist",
-        "cost": "$150 to $400+ (varies)",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "Weeks to months (varies)",
         "provider": "Dermatologist MD or DO",
         "bestFor": "Eyelash loss from skin conditions, alopecia areata, or other dermatologic causes needing in-person exam and biopsy",
@@ -123,7 +123,7 @@
       },
       {
         "option": "Ophthalmologist",
-        "cost": "$200 to $500+ (varies)",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "Days to weeks (varies)",
         "provider": "Ophthalmologist MD or DO",
         "bestFor": "Active eye disease, glaucoma management, history of macular edema or uveitis, or post-surgical evaluation",
@@ -131,7 +131,7 @@
       },
       {
         "option": "Primary Care",
-        "cost": "$100 to $250+ (varies)",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "3 to 14 days typical",
         "provider": "Family medicine or internal medicine MD or DO",
         "bestFor": "Eyelash loss associated with thyroid disease, autoimmune conditions, or medication side effects needing workup",
@@ -139,7 +139,7 @@
       },
       {
         "option": "Medical Spa",
-        "cost": "$100 to $300+ per visit (varies)",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "Days to weeks (varies)",
         "provider": "Varies (may include non-physicians)",
         "bestFor": "Cosmetic eyelash services including extensions and lifts, though these do not treat underlying hypotrichosis",
@@ -210,24 +210,6 @@
         "value": "$79",
         "width": 20,
         "isTdmd": true
-      },
-      {
-        "name": "Primary Care",
-        "value": "$100 to $250+",
-        "width": 45,
-        "isTdmd": false
-      },
-      {
-        "name": "Dermatologist",
-        "value": "$150 to $400+",
-        "width": 65,
-        "isTdmd": false
-      },
-      {
-        "name": "Ophthalmologist",
-        "value": "$200 to $500+",
-        "width": 85,
-        "isTdmd": false
       }
     ],
     "footnote": "Total cost is transparent: the $79 visit plus generic bimatoprost (typically less expensive than brand-name Latisse) means most patients keep their total well under $150 — no membership, no in-office visit required.",

@@ -115,7 +115,7 @@
       },
       {
         "option": "Urgent Care",
-        "cost": "$150 to $300+ (before insurance)",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "1 to 3 hours typical",
         "provider": "MD, DO, PA, or NP",
         "bestFor": "Acne with acute painful abscess or secondary skin infection needing in-person drainage",
@@ -123,7 +123,7 @@
       },
       {
         "option": "Primary Care",
-        "cost": "$100 to $250+ (varies)",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "3 to 14 days typical",
         "provider": "Family medicine or internal medicine MD or DO",
         "bestFor": "Acne with suspected hormonal cause needing broader workup, or combined visit with other health concerns",
@@ -131,7 +131,7 @@
       },
       {
         "option": "Dermatology",
-        "cost": "$150 to $400+ (varies)",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "Weeks to months (varies)",
         "provider": "Dermatologist MD or DO",
         "bestFor": "Severe nodulocystic acne, isotretinoin management, acne scarring treatment, or cases failing standard therapy",
@@ -139,7 +139,7 @@
       },
       {
         "option": "Online Subscription Services",
-        "cost": "$20 to $50+ per month (recurring)",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "Varies",
         "provider": "Varies (often NP or PA, may not include video visit)",
         "bestFor": "Convenience for some, but may lack individualized MD evaluation, severity-based triage, and structured follow-up",
@@ -210,24 +210,6 @@
         "value": "$79",
         "width": 20,
         "isTdmd": true
-      },
-      {
-        "name": "Primary Care",
-        "value": "$100 to $250+",
-        "width": 45,
-        "isTdmd": false
-      },
-      {
-        "name": "Dermatology",
-        "value": "$150 to $400+",
-        "width": 65,
-        "isTdmd": false
-      },
-      {
-        "name": "Online Subscriptions",
-        "value": "$20 to $50+/mo recurring",
-        "width": 40,
-        "isTdmd": false
       }
     ],
     "footnote": "Total cost is transparent: the visit is $79 flat, and any prescription is paid separately at the pharmacy, where prices vary by medication and pharmacy. No membership, no hidden fees, and treatment often layers multiple mechanisms per AAD guidance.",
