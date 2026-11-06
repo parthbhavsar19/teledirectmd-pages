@@ -1,0 +1,960 @@
+{
+  "guide": "erectile-dysfunction-guide",
+  "checked_at": "2026-11-06",
+  "checked_by": "Claude (draft for physician review)",
+  "scite_verify_papers": "All 25 DOIs verified with Scite verify_papers on Nov 6, 2026: no retraction, expression of concern, or withdrawal notices. Scite flagged one potential contrasting citation each for refs BHASIN, MOSTAFAEI, TRAVERSE and ESPOSITO; see entry notes.",
+  "references": [
+    {
+      "n": 1,
+      "cited_as": "National Institute of Diabetes and Digestive and Kidney Diseases. Definition &amp; Facts for Erectile Dysfunction. Last reviewed October 2024. Accessed November 6, 2026.",
+      "url": "https://www.niddk.nih.gov/health-information/urologic-diseases/erectile-dysfunction/definition-facts",
+      "kind": "agency_page",
+      "retrieved_with": "web fetch of official page",
+      "version_or_date": "Last Reviewed October 2024",
+      "retrieved_at": "2026-11-06",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "between 30 million and 50 million U.S. men have ED",
+          "quote": "Research suggests that between 30 million and 50 million men in the United States have ED.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "about 40 percent affected at age 40, 70 percent report ED by age 70",
+          "quote": "At age 40, about 40% of men are affected, while 70% report having ED by age 70.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "cited_as": "Yannas D, Frizza F, Vignozzi L, et al. Erectile Dysfunction Is a Hallmark of Cardiovascular Disease: Unavoidable Matter of Fact or Opportunity to Improve Men's Health? Journal of Clinical Medicine. 2021;10(10):2221.",
+      "url": "https://doi.org/10.3390/jcm10102221",
+      "kind": "journal",
+      "doi": "10.3390/jcm10102221",
+      "record_title": "Erectile Dysfunction Is a Hallmark of Cardiovascular Disease: Unavoidable Matter of Fact or Opportunity to Improve Men's Health?",
+      "record_journal": "J Clin Med",
+      "record_year": "2021",
+      "article_type": "Review",
+      "retrieved_with": "Scite search_literature",
+      "retrieved_at": "2026-11-06",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "ED is considered an early manifestation of cardiovascular disease",
+          "quote": "Erectile dysfunction (ED) is an early manifestation of cardiovascular (CV) disease.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "quitting smoking associated with partial improvement in penile artery blood flow",
+          "quote": "Smoking cessation has been associated with a partial improvement of penile artery flow both in animal models [8] and in humans [124,125].",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "cited_as": "Bhasin S, Brito JP, Cunningham GR, et al. Testosterone Therapy in Men With Hypogonadism: An Endocrine Society Clinical Practice Guideline. Journal of Clinical Endocrinology and Metabolism. 2018;103(5):1715-1744.",
+      "url": "https://doi.org/10.1210/jc.2018-00229",
+      "kind": "guideline",
+      "pmid": "29562364",
+      "doi": "10.1210/jc.2018-00229",
+      "record_title": "Testosterone Therapy in Men With Hypogonadism: An Endocrine Society Clinical Practice Guideline.",
+      "record_journal": "J Clin Endocrinol Metab",
+      "record_year": "2018",
+      "article_type": "Practice Guideline",
+      "retrieved_with": "PubMed get_article_metadata",
+      "retrieved_at": "2026-11-06",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "diagnose low testosterone only with symptoms plus consistently low levels",
+          "quote": "We recommend making a diagnosis of hypogonadism only in men with symptoms and signs consistent with testosterone (T) deficiency and unequivocally and consistently low serum T concentrations.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "confirm by repeating a fasting morning test",
+          "quote": "We recommend confirming the diagnosis by repeating the measurement of morning fasting total T concentrations.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "cited_as": "Mostafaei H, Mori K, Hajebrahimi S, et al. Association of erectile dysfunction and cardiovascular disease: an umbrella review of systematic reviews and meta-analyses. BJU International. 2021;128(1):3-11.",
+      "url": "https://doi.org/10.1111/bju.15313",
+      "kind": "journal",
+      "pmid": "33260254",
+      "pmcid": "PMC8359379",
+      "doi": "10.1111/bju.15313",
+      "record_title": "Association of erectile dysfunction and cardiovascular disease: an umbrella review of systematic reviews and meta-analyses.",
+      "record_journal": "BJU Int",
+      "record_year": "2021",
+      "article_type": "Systematic Review (umbrella review)",
+      "retrieved_with": "PubMed get_article_metadata",
+      "notes": "Replaces Cortese 2023 JACC Advances, an editorial that quoted these figures secondhand.",
+      "retrieved_at": "2026-11-06",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "CVD RR 1.45 (1.36 to 1.54), CHD RR 1.50, CV mortality RR 1.50",
+          "quote": "higher risk of CVD (relative risk [RR] 1.45, 95% confidence interval [CI] 1.36-1.54; P < 0.001), coronary heart disease (RR 1.50, 95% CI 1.37-1.64; P < 0.001), cardiovascular-related mortality (RR 1.50",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "MI RR 1.55, stroke RR 1.36, all-cause mortality RR 1.25",
+          "quote": "all-cause mortality (RR 1.25, 95% CI 1.18-1.32; P < 0.001), myocardial infarction (RR 1.55, 95% CI 1.33-1.80; P < 0.001) and stroke (RR 1.36, 95% CI 1.26-1.46; P < 0.001)",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "ED normally precedes symptomatic cardiovascular disease",
+          "quote": "ED normally precedes symptomatic CVD, providing a window of opportunity for healthcare practitioners to screen and detect high-risk patients early",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "cited_as": "K&ouml;hler TS, Kloner RA, Rosen RC, et al. The Princeton IV Consensus Recommendations for the Management of Erectile Dysfunction and Cardiovascular Disease. Mayo Clinic Proceedings. 2024;99(9):1500-1517.",
+      "url": "https://doi.org/10.1016/j.mayocp.2024.06.002",
+      "kind": "guideline",
+      "pmid": "39115509",
+      "doi": "10.1016/j.mayocp.2024.06.002",
+      "record_title": "The Princeton IV Consensus Recommendations for the Management of Erectile Dysfunction and Cardiovascular Disease.",
+      "record_journal": "Mayo Clin Proc",
+      "record_year": "2024",
+      "article_type": "Consensus Statement",
+      "retrieved_with": "PubMed get_article_metadata",
+      "notes": "Full text paywalled; claims limited to the abstract.",
+      "retrieved_at": "2026-11-06",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "treat men with ED as at risk for cardiac events until proven otherwise",
+          "quote": "Mounting evidence supports the need for providers to treat men with ED as being at risk for cardiac events until proven otherwise.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "reviews evidence of potential cardioprotective effects of PDE5 inhibitors",
+          "quote": "including recent evidence of potential cardioprotective effects of these drugs.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "cited_as": "American College of Cardiology. Erectile Dysfunction as an ASCVD Risk-Enhancing Factor. Expert analysis, September 23, 2024. Accessed November 6, 2026.",
+      "url": "https://www.acc.org/latest-in-cardiology/articles/2024/09/23/10/45/erectile-disfunction-as-an-ascvd-risk-enhancing-factor",
+      "kind": "agency_page",
+      "retrieved_with": "web fetch of official page",
+      "version_or_date": "September 23, 2024",
+      "notes": "Summarizes Princeton IV (Kloner RA et al., J Sex Med 2024;21:90-116).",
+      "retrieved_at": "2026-11-06",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "panel pushes for future ACC/AHA guidelines to consider ED a risk-enhancing factor",
+          "quote": "The Princeton IV guidelines push for future ACC/AHA guidelines to consider ED as a risk-enhancing factor.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "PDE5 inhibitors safe in overt or latent CVD",
+          "quote": "Phosphodiesterase type 5 inhibitors are safe in patients with overt or latent CVD and may exhibit a cardioprotective profile.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "low-risk tier definition",
+          "quote": "achieve 5 METs without ischemia on a recent exercise test and have controlled hypertension (HTN), minimal heart failure (HF) symptoms (NYHA classes I and II), successful revascularization, or mild valvular disease",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "intermediate tier: further evaluation before resuming sexual activity",
+          "quote": "moderate angina, myocardial infarction (MI) within 2-8 weeks without intervention, NYHA class III HF symptoms, other atherosclerotic disease such as previous stroke or transient ischemic attack, or peripheral artery disease. These patients should be better evaluated before resuming sexual activity",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "4 minutes of Bruce protocol without symptoms supports safety",
+          "quote": "Completing 4 min of the standard Bruce protocol treadmill test without symptoms",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "high tier: defer until stable, cardiology referral",
+          "quote": "sexual activity should be deferred until the cardiac condition stabilizes, and referral to a cardiologist is warranted",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "cited_as": "Burnett AL, Nehra A, Breau RH, et al. Erectile Dysfunction: AUA Guideline. Journal of Urology. 2018;200(3):633-641.",
+      "url": "https://doi.org/10.1016/j.juro.2018.05.004",
+      "kind": "guideline",
+      "pmid": "29746858",
+      "doi": "10.1016/j.juro.2018.05.004",
+      "record_title": "Erectile Dysfunction: AUA Guideline.",
+      "record_journal": "J Urol",
+      "record_year": "2018",
+      "article_type": "Practice Guideline",
+      "retrieved_with": "PubMed get_article_metadata",
+      "notes": "Full text paywalled. AUA website text not used (site terms restrict AI use). Claims of 30 million, 22 to 49 percent, 60 to 80 percent, 6 to 8 attempts, and CBT vs sildenafil were removed from this reference.",
+      "retrieved_at": "2026-11-06",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "AUA 2018 guideline sets the U.S. framework for ED management",
+          "quote": "The American Urological Association has developed an evidence-based guideline on the management of erectile dysfunction.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "every non-contraindicated treatment is a potential first-line option via shared decision-making",
+          "quote": "Using the shared decision-making process as a cornerstone for care, all patients should be informed of all treatment modalities that are not contraindicated, regardless of invasiveness or irreversibility, as potential first-line treatments.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "cited_as": "European Association of Urology. EAU Guidelines on Sexual and Reproductive Health. 2026 limited update.",
+      "url": "https://uroweb.org/guidelines/sexual-and-reproductive-health",
+      "kind": "guideline",
+      "retrieved_with": "web fetch of official page",
+      "version_or_date": "2026 limited update",
+      "notes": "Implant satisfaction, vacuum device, and drug interaction claims removed from this reference (ED chapter not read).",
+      "retrieved_at": "2026-11-06",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "EAU published a 2026 limited update that includes the ED chapter",
+          "quote": "This 2026 document presents a limited update of the 2025 publication.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "cited_as": "Lincoff AM, Bhasin S, Flevaris P, et al. Cardiovascular Safety of Testosterone-Replacement Therapy. New England Journal of Medicine. 2023;389(2):107-117.",
+      "url": "https://doi.org/10.1056/NEJMoa2215025",
+      "kind": "journal",
+      "pmid": "37326322",
+      "doi": "10.1056/NEJMoa2215025",
+      "record_title": "Cardiovascular Safety of Testosterone-Replacement Therapy.",
+      "record_journal": "N Engl J Med",
+      "record_year": "2023",
+      "article_type": "Randomized Controlled Trial",
+      "retrieved_with": "PubMed get_article_metadata; ClinicalTrials.gov NCT03518034",
+      "notes": "Scite contrasting citation (doi 10.5534/wjmh.260004) questions adherence and achieved T levels; does not dispute the MACE result.",
+      "retrieved_at": "2026-11-06",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "5,246 men, high CV risk, two fasting T below 300 ng/dL",
+          "quote": "we enrolled 5246 men 45 to 80 years of age who had preexisting or a high risk of cardiovascular disease and who reported symptoms of hypogonadism and had two fasting testosterone levels of less than 300 ng per deciliter.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "HR 0.96 (0.78 to 1.17), mean 21.7 months",
+          "quote": "hazard ratio, 0.96; 95% confidence interval, 0.78 to 1.17; P<0.001 for noninferiority",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "more AF, AKI, PE with testosterone",
+          "quote": "A higher incidence of atrial fibrillation, of acute kidney injury, and of pulmonary embolism was observed in the testosterone group.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "cited_as": "Bal DS, Fidel MG, Panchendrabose K, et al. Association between testosterone replacement therapy and cardiovascular events in men: a retrospective propensity-weighted analysis. Journal of Sexual Medicine. 2026;23(1).",
+      "url": "https://doi.org/10.1093/jsxmed/qdaf306",
+      "kind": "journal",
+      "pmid": "41168375",
+      "doi": "10.1093/jsxmed/qdaf306",
+      "record_title": "Association between testosterone replacement therapy and cardiovascular events in men: a retrospective propensity-weighted analysis.",
+      "record_journal": "J Sex Med",
+      "record_year": "2026",
+      "article_type": "Observational cohort",
+      "retrieved_with": "PubMed get_article_metadata",
+      "retrieved_at": "2026-11-06",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "TRT HR 1.27; testosterone deficiency HR 1.27 as well",
+          "quote": "TRT was associated with a 27% increased risk of MACE (HR 1.27, 95% CI: 1.16-1.39) in weighted analyses. Among 7306 men diagnosed with TD and 442 602 matched controls, those with TD also showed a 27% increased risk",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "authors say it is unclear whether testosterone itself drives the risk",
+          "quote": "Whether TRT independently drives this risk or merely reflects underlying disease requires further investigation.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "cited_as": "Ergun O, Kim K, Kim MH, et al. Low-intensity shockwave therapy for erectile dysfunction. Cochrane Database of Systematic Reviews. 2025;7:CD013166.",
+      "url": "https://doi.org/10.1002/14651858.CD013166.pub3",
+      "kind": "journal",
+      "pmid": "40654049",
+      "pmcid": "PMC12257276",
+      "doi": "10.1002/14651858.CD013166.pub3",
+      "record_title": "Low-intensity shockwave therapy for erectile dysfunction.",
+      "record_journal": "Cochrane Database Syst Rev",
+      "record_year": "2025",
+      "article_type": "Systematic Review",
+      "retrieved_with": "PubMed get_article_metadata; PubMed get_article_metadata for 41906634 (same review, abridged)",
+      "retrieved_at": "2026-11-06",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "21 RCTs, 1,357 men; short-term MD 3.89, long-term MD 5.25",
+          "quote": "A total of 21 RCTs (1357 men, aged 39-65 years) were analysed. LiSWT may slightly improve short-term erectile function (mean difference [MD] 3.89",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "low certainty; several studies industry-funded",
+          "quote": "The certainty of evidence was low for all outcomes due to shortcomings in the methodology of the included studies. Several studies were industry-funded, mainly by device makers.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "cited_as": "Ergun O, Kim K, Kim MH, et al. Low-intensity shockwave therapy for erectile dysfunction: An abridged Cochrane review. BJU International. 2026;137(6):949-957.",
+      "url": "https://doi.org/10.1111/bju.70236",
+      "kind": "journal",
+      "pmid": "41906634",
+      "pmcid": "PMC13168926",
+      "doi": "10.1111/bju.70236",
+      "record_title": "Low-intensity shockwave therapy for erectile dysfunction: An abridged Cochrane review.",
+      "record_journal": "BJU Int",
+      "record_year": "2026",
+      "article_type": "Systematic Review",
+      "retrieved_with": "PubMed get_article_metadata",
+      "retrieved_at": "2026-11-06",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "abridged version of the Cochrane review published in BJU International in 2026",
+          "quote": "This summary is based on the Cochrane systematic review published in the Cochrane Database of Systematic Reviews 2025, Issue 7 (CD013166).",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "cited_as": "U.S. Food and Drug Administration. Cialis (tadalafil) prescribing information. Label revised October 2011.",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2011/021368s20s21lbl.pdf",
+      "kind": "label",
+      "retrieved_with": "web fetch of official page (PDF)",
+      "version_or_date": "Revised 10/2011; Reference ID 3024692",
+      "notes": "Label page states: This label may not be the latest approved by FDA. Refresh against current labeling at next review.",
+      "retrieved_at": "2026-11-06",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "daily tadalafil 2.5 to 5 mg approved for ED; 5 mg for BPH and ED with BPH",
+          "quote": "The recommended starting dose of CIALIS for once daily use is 2.5 mg ... may be increased to 5 mg ... The recommended dose of CIALIS for once daily use is 5 mg",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "indicated for ED and BPH",
+          "quote": "CIALIS is indicated for the treatment of ED and the signs and symptoms of BPH (ED/BPH).",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "caution with alpha-blockers",
+          "quote": "Caution is advised when PDE5 inhibitors are coadministered with alpha blockers.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "CYP3A4 inhibitors such as ketoconazole and ritonavir increase tadalafil exposure",
+          "quote": "CYP3A4 inhibitors (e.g. ketoconazole, ritonavir) increase CIALIS exposure.",
+          "quote_source": "label",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "cited_as": "Zhao ZH, Xiong Y, Wang W, et al. Assessing post-marketing safety of PDE5Is in erectile dysfunction: real-world evidence from the FDA adverse event reporting system. Asian Journal of Andrology. 2026;28(1):96-102 (published online 2025).",
+      "url": "https://doi.org/10.4103/aja202537",
+      "kind": "journal",
+      "pmid": "40625300",
+      "pmcid": "PMC12912753",
+      "doi": "10.4103/aja202537",
+      "record_title": "Assessing post-marketing safety of PDE5Is in erectile dysfunction: real-world evidence from the FDA adverse event reporting system.",
+      "record_journal": "Asian J Androl",
+      "record_year": "2025",
+      "article_type": "Pharmacovigilance study",
+      "retrieved_with": "PubMed get_article_metadata",
+      "notes": "Earlier text misread preferred-term counts as report counts; removed.",
+      "retrieved_at": "2026-11-06",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "53,517 reports, 2004 to 2024; label-listed AEs detected",
+          "quote": "Among the 53 517 AEs reports collected from the FAERS database",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "unlabeled nervous, cardiovascular, ocular signals need research",
+          "quote": "We detected AEs related to the nervous, cardiovascular, and ocular systems that were not listed on the labels of the four PDE5Is, warranting further research",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 15,
+      "cited_as": "La Vignera S, Cannarella R, Garofalo V, et al. Short-term impact of tirzepatide on metabolic hypogonadism and body composition in patients with obesity: a controlled pilot study. Reproductive Biology and Endocrinology. 2025;23(1):92.",
+      "url": "https://doi.org/10.1186/s12958-025-01425-9",
+      "kind": "journal",
+      "pmid": "40604795",
+      "pmcid": "PMC12220628",
+      "doi": "10.1186/s12958-025-01425-9",
+      "record_title": "Short-term impact of tirzepatide on metabolic hypogonadism and body composition in patients with obesity: a controlled pilot study.",
+      "record_journal": "Reprod Biol Endocrinol",
+      "record_year": "2025",
+      "article_type": "Controlled pilot study",
+      "retrieved_with": "PubMed get_article_metadata",
+      "retrieved_at": "2026-11-06",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "three arms: tirzepatide, no drug, transdermal testosterone",
+          "quote": "Group A received 2.5 mg of TZP weekly ... Group B received no pharmacological treatment: Group C received transdermal testosterone.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "greater weight loss and IIEF-5 gain; higher LH, FSH, SHBG, TT",
+          "quote": "Group A showed significantly greater reductions in body weight ... along with a notable increase in LM and IIEF-5 score compared to Groups B and C. Additionally, Group A exhibited significantly higher serum levels of LH, FSH, SHBG, TT",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 16,
+      "cited_as": "Gregori&ccaron; N, &Scaron;ikonja J, Jane&zcaron; A, et al. Semaglutide improved sperm morphology in obese men with type 2 diabetes mellitus and functional hypogonadism. Diabetes, Obesity and Metabolism. 2025;27(2):519-528.",
+      "url": "https://doi.org/10.1111/dom.16042",
+      "kind": "journal",
+      "pmid": "39511836",
+      "pmcid": "PMC11701185",
+      "doi": "10.1111/dom.16042",
+      "record_title": "Semaglutide improved sperm morphology in obese men with type 2 diabetes mellitus and functional hypogonadism.",
+      "record_journal": "Diabetes Obes Metab",
+      "record_year": "2025",
+      "article_type": "Randomized Controlled Trial",
+      "retrieved_with": "PubMed get_article_metadata",
+      "notes": "Title corrected from a paraphrase.",
+      "retrieved_at": "2026-11-06",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "semaglutide improved sperm morphology; TRT reduced counts; only TRT improved IIEF-15",
+          "quote": "sperm concentration and total number decreased significantly in the TRT group ... whereas the IIEF-15 score significantly improved only in the TRT group.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "semaglutide raised testosterone",
+          "quote": "Both groups experienced an increase in total testosterone and improvement in the AMS score",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 17,
+      "cited_as": "Able C, Liao B, Saffati G, et al. Prescribing semaglutide for weight loss in non-diabetic, obese patients is associated with an increased risk of erectile dysfunction: a TriNetX database study. International Journal of Impotence Research. 2025;37(4):315-319 (published online 2024).",
+      "url": "https://doi.org/10.1038/s41443-024-00895-6",
+      "kind": "journal",
+      "pmid": "38778151",
+      "doi": "10.1038/s41443-024-00895-6",
+      "record_title": "Prescribing semaglutide for weight loss in non-diabetic, obese patients is associated with an increased risk of erectile dysfunction: a TriNetX database study.",
+      "record_journal": "Int J Impot Res",
+      "record_year": "2024",
+      "article_type": "Database cohort",
+      "retrieved_with": "PubMed get_article_metadata",
+      "notes": "\"Adjusted analyses attenuate\" claim removed (not in abstract).",
+      "retrieved_at": "2026-11-06",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "3,094 men aged 18 to 50; 1.47 vs 0.32 percent ED or PDE5i; 1.53 vs 0.80 percent testosterone deficiency",
+          "quote": "3,094 non-diabetic, obese men ages 18-50 ... (1.47% vs 0.32%; RR: 4.5; 95% CI [2.3, 9.0]) and testosterone deficiency (1.53% vs 0.80%",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 18,
+      "cited_as": "Fuentes-Mendoza JM, Concepci&oacute;n-Zavaleta MJ, Mendoza-Godoy JJ, et al. Beyond metabolism: sexual dysfunction and weight-loss drugs. Sexual Medicine Reviews. 2026;14(1).",
+      "url": "https://doi.org/10.1093/sxmrev/qeaf074",
+      "kind": "journal",
+      "pmid": "41427954",
+      "doi": "10.1093/sxmrev/qeaf074",
+      "record_title": "Beyond metabolism: sexual dysfunction and weight-loss drugs.",
+      "record_journal": "Sex Med Rev",
+      "record_year": "2026",
+      "article_type": "Narrative Review",
+      "retrieved_with": "PubMed get_article_metadata",
+      "notes": "Previously called a systematic review; it is a narrative review.",
+      "retrieved_at": "2026-11-06",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "GLP-1 RAs promising in men; tirzepatide case reports of sexual side effects",
+          "quote": "GLP-1 receptor agonists show promising results in men, improving erectile function, testosterone levels, and sperm parameters. ... Tirzepatide achieves unprecedented weight loss, but case reports suggest potential sexual side effects.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "evidence inconsistent",
+          "quote": "However, current evidence is inconsistent, and sex-specific data are scarce.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 19,
+      "cited_as": "Pascual M, de Batlle J, Barb&eacute; F, et al. Erectile dysfunction in obstructive sleep apnea patients: A randomized trial on the effects of Continuous Positive Airway Pressure (CPAP). PLoS One. 2018;13(8):e0201930.",
+      "url": "https://doi.org/10.1371/journal.pone.0201930",
+      "kind": "journal",
+      "pmid": "30089160",
+      "pmcid": "PMC6082539",
+      "doi": "10.1371/journal.pone.0201930",
+      "record_title": "Erectile dysfunction in obstructive sleep apnea patients: A randomized trial on the effects of Continuous Positive Airway Pressure (CPAP).",
+      "record_journal": "PLoS One",
+      "record_year": "2018",
+      "article_type": "Randomized trial with cross-sectional arm",
+      "retrieved_with": "PubMed get_article_metadata",
+      "retrieved_at": "2026-11-06",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "150 men with moderate to severe OSA; ED prevalence 51 percent",
+          "quote": "A total of 150 patients were recruited ... ED prevalence was 51%.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "erectile function rose after 3 months of CPAP",
+          "quote": "significant increases in erectile function (mean(SD) change: +4.6(7.9); p = 0.002)",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "could not determine conclusively if CPAP works alone",
+          "quote": "could not determine conclusively whether CPAP is an effective stand-alone ED treatment",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 20,
+      "cited_as": "Stilo G, Vicini C, Pollicina I, et al. Is Continuous Positive Airway Pressure a Valid Alternative to Sildenafil in Treating Sexual Dysfunction among OSA Patients? A Systematic Review and Meta-Analysis. Medicina (Kaunas). 2023;59(7):1318.",
+      "url": "https://doi.org/10.3390/medicina59071318",
+      "kind": "journal",
+      "pmid": "37512129",
+      "pmcid": "PMC10384051",
+      "doi": "10.3390/medicina59071318",
+      "record_title": "Is Continuous Positive Airway Pressure a Valid Alternative to Sildenafil in Treating Sexual Dysfunction among OSA Patients? A Systematic Review and Meta-Analysis.",
+      "record_journal": "Medicina (Kaunas)",
+      "record_year": "2023",
+      "article_type": "Systematic Review and Meta-Analysis",
+      "retrieved_with": "PubMed get_article_metadata",
+      "notes": "Earlier text called 27.3 a 27-point improvement; it is the post-treatment mean.",
+      "retrieved_at": "2026-11-06",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "8 studies, 457 patients; sildenafil 37.7 vs CPAP 27.3",
+          "quote": "A total of eight papers were included in the qualitative summary, involving four hundred fifty-seven patients ... the mean IIEF-5 domain scores were 37.7 and 27.3, respectively",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "authors suggest combining may add benefit",
+          "quote": "however, a combined treatment will provide a cumulative effect.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 21,
+      "cited_as": "Barbosa FT, Silva MP, Fontes LES, et al. Non-invasive positive airway pressure therapy for improving erectile dysfunction in men with obstructive sleep apnoea. Cochrane Database of Systematic Reviews. 2021;9:CD013169.",
+      "url": "https://doi.org/10.1002/14651858.CD013169.pub2",
+      "kind": "journal",
+      "pmid": "34555186",
+      "pmcid": "PMC8460287",
+      "doi": "10.1002/14651858.CD013169.pub2",
+      "record_title": "Non-invasive positive airway pressure therapy for improving erectile dysfunction in men with obstructive sleep apnoea.",
+      "record_journal": "Cochrane Database Syst Rev",
+      "record_year": "2021",
+      "article_type": "Systematic Review",
+      "retrieved_with": "PubMed get_article_metadata",
+      "retrieved_at": "2026-11-06",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "CPAP vs no CPAP very uncertain",
+          "quote": "When compared with no CPAP, we are uncertain about the effectiveness and acceptability of CPAP for improving erectile dysfunction in men with obstructive sleep apnoea.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "sildenafil may slightly improve EF vs CPAP at 12 weeks",
+          "quote": "Sildenafil may slightly improve erectile function at 12 weeks when compared to CPAP",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 22,
+      "cited_as": "Philippou YA, Jung JH, Steggall MJ, et al. Penile rehabilitation for postprostatectomy erectile dysfunction. Cochrane Database of Systematic Reviews. 2018;10:CD012414.",
+      "url": "https://doi.org/10.1002/14651858.CD012414.pub2",
+      "kind": "journal",
+      "pmid": "30352488",
+      "pmcid": "PMC6517112",
+      "doi": "10.1002/14651858.CD012414.pub2",
+      "record_title": "Penile rehabilitation for postprostatectomy erectile dysfunction.",
+      "record_journal": "Cochrane Database Syst Rev",
+      "record_year": "2018",
+      "article_type": "Systematic Review",
+      "retrieved_with": "PubMed get_article_metadata; PubMed search for later Cochrane update (none found)",
+      "retrieved_at": "2026-11-06",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "8 RCTs, 1,699 men",
+          "quote": "We included eight randomised controlled trials with 1699 participants across three comparisons.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "scheduled PDE5i may not beat on-demand; very low quality",
+          "quote": "Based on mostly very-low and some low-quality evidence, penile rehabilitation strategies consisting of scheduled PDE5I use following radical prostatectomy may not promote self-reported potency and erectile function any more than on demand use.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 23,
+      "cited_as": "Khera M, Bhattacharyya S, Miller LE. Effect of aerobic exercise on erectile function: systematic review and meta-analysis of randomized controlled trials. Journal of Sexual Medicine. 2023;20(12):1369-1375.",
+      "url": "https://doi.org/10.1093/jsxmed/qdad130",
+      "kind": "journal",
+      "pmid": "37814532",
+      "doi": "10.1093/jsxmed/qdad130",
+      "record_title": "Effect of aerobic exercise on erectile function: systematic review and meta-analysis of randomized controlled trials.",
+      "record_journal": "J Sex Med",
+      "record_year": "2023",
+      "article_type": "Meta-Analysis",
+      "retrieved_with": "PubMed get_article_metadata",
+      "notes": "Unverified n=1,147 removed.",
+      "retrieved_at": "2026-11-06",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "11 RCTs; MD 2.8 (1.7 to 3.9)",
+          "quote": "Among 11 randomized controlled trials included in the analysis, aerobic exercise resulted in statistically significant improvements in IIEF-EF scores as compared with controls, with a mean difference of 2.8 points (95% CI, 1.7-3.9",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "2.3, 3.3, 4.9 by severity",
+          "quote": "improvements of 2.3, 3.3, and 4.9 points for mild, moderate, and severe erectile dysfunction, respectively",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 24,
+      "cited_as": "Chen Z, Wang J, Jia J, et al. Effect of different physical activities on erectile dysfunction in adult men not receiving phosphodiesterase-5 inhibitors therapy: A systematic review and meta-analysis. Andrology. 2024;12(8):1632-1641.",
+      "url": "https://doi.org/10.1111/andr.13682",
+      "kind": "journal",
+      "pmid": "38937909",
+      "doi": "10.1111/andr.13682",
+      "record_title": "Effect of different physical activities on erectile dysfunction in adult men not receiving phosphodiesterase-5 inhibitors therapy: A systematic review and meta-analysis.",
+      "record_journal": "Andrology",
+      "record_year": "2024",
+      "article_type": "Meta-Analysis",
+      "retrieved_with": "PubMed get_article_metadata",
+      "notes": "Title and authors corrected.",
+      "retrieved_at": "2026-11-06",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "aerobic SMD 0.81; PFMT and combined not significant",
+          "quote": "Subgroup analysis revealed SMDs of 0.81 (95% CI 0.56 to 1.06; p < 0.00001) for aerobic training alone. However, no significant improvement was observed with pelvic floor muscle training (PFMT)",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 25,
+      "cited_as": "Chai J, Zhang Q, Li X, et al. Effects of physical exercise on improving erectile function: a systematic review and meta-analysis of randomized controlled trials. Journal of Men's Health. 2025;21(2):11-25.",
+      "url": "https://doi.org/10.22514/jomh.2025.017",
+      "kind": "journal",
+      "doi": "10.22514/jomh.2025.017",
+      "record_title": "Effects of physical exercise on improving erectile function: a systematic review and meta-analysis of randomized controlled trials",
+      "record_journal": "Journal of Men's Health",
+      "record_year": "2025",
+      "article_type": "Meta-Analysis",
+      "retrieved_with": "web fetch of official page (publisher article page via DOI)",
+      "notes": "Not indexed in PubMed; metadata from publisher page.",
+      "retrieved_at": "2026-11-06",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "larger effect under 60 and with low-intensity programs up to 3 months",
+          "quote": "Subgroup analysis showed that the SMD effect was greater in the <60 years age group, the 0–3 months exercise cycle and the low-intensity group, with p < 0.05",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 26,
+      "cited_as": "Esposito K, Giugliano F, Di Palo C, et al. Effect of Lifestyle Changes on Erectile Dysfunction in Obese Men: A Randomized Controlled Trial. JAMA. 2004;291(24):2978-2984.",
+      "url": "https://doi.org/10.1001/jama.291.24.2978",
+      "kind": "journal",
+      "pmid": "15213209",
+      "doi": "10.1001/jama.291.24.2978",
+      "record_title": "Effect of lifestyle changes on erectile dysfunction in obese men: a randomized controlled trial.",
+      "record_journal": "JAMA",
+      "record_year": "2004",
+      "article_type": "Randomized Controlled Trial",
+      "retrieved_with": "PubMed get_article_metadata",
+      "notes": "Link corrected from PMC4291878 (a different 2015 review). Smoking-recovery claim removed from this reference. Scite contrasting citation: Look AHEAD EF study (doi 10.1111/j.1743-6109.2009.01458.x) found fitness change not significantly associated with EF change.",
+      "retrieved_at": "2026-11-06",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "110 obese men; 10 percent weight-loss goal",
+          "quote": "Randomized, single-blind trial of 110 obese men ... received detailed advice about how to achieve a loss of 10% or more in their total body weight",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "17 of 55 vs 3 of 55 reached IIEF 22 or higher at 2 years",
+          "quote": "Seventeen men in the intervention group and 3 in the control group (P =.001) reported an IIEF score of 22 or higher.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 27,
+      "cited_as": "Su H, Lu Y, Ma C, Li H, Su X. Impact of atorvastatin on erectile dysfunction: A meta-analysis and systematic review. Andrologia. 2022;54(6):e14408.",
+      "url": "https://doi.org/10.1111/and.14408",
+      "kind": "journal",
+      "pmid": "35224753",
+      "doi": "10.1111/and.14408",
+      "record_title": "Impact of atorvastatin on erectile dysfunction: A meta-analysis and systematic review.",
+      "record_journal": "Andrologia",
+      "record_year": "2022",
+      "article_type": "Meta-Analysis",
+      "retrieved_with": "PubMed get_article_metadata",
+      "retrieved_at": "2026-11-06",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "atorvastatin raised IIEF-5 by about 4.5 more than control",
+          "quote": "the weighted mean difference of the change of International Index for Erectile Function-5 (IIEF-5) score in the atorvastatin treatment group with or without treatment was 4.53 (95 per cent confidence interval [CI] of 3.28-5.79) higher than in the control group.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 28,
+      "cited_as": "Li Z, Zhang PH, Liu MJ, Zhang T. Statin drugs for the treatment of erectile dysfunction: An umbrella review. Zhonghua Nan Ke Xue. 2025;31(7):637-644. Article in Chinese; English abstract.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40910915/",
+      "kind": "journal",
+      "pmid": "40910915",
+      "record_title": "[Statin drugs for the treatment of erectile dysfunction: An umbrella review].",
+      "record_journal": "Zhonghua Nan Ke Xue",
+      "record_year": "2025",
+      "article_type": "Systematic Review (umbrella)",
+      "retrieved_with": "PubMed get_article_metadata",
+      "notes": "No DOI in PubMed record; Chinese-language article, English abstract.",
+      "retrieved_at": "2026-11-06",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "four meta-analyses; quality low or very low",
+          "quote": "Four systematic reviews and meta-analyses were included. According to the AMSTAR 2 evaluation, one paper was rated as low quality, while the remaining three were classified as very low quality.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "statins show efficacy",
+          "quote": "Statins demonstrate efficacy in treating ED.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 29,
+      "cited_as": "Chen S, Zhang J. Association between statin use and erectile dysfunction: Results from the National Health and Nutrition Examination Survey. Medicine (Baltimore). 2025;104(44):e44423.",
+      "url": "https://doi.org/10.1097/MD.0000000000044423",
+      "kind": "journal",
+      "pmid": "41261700",
+      "pmcid": "PMC12582675",
+      "doi": "10.1097/MD.0000000000044423",
+      "record_title": "Association between statin use and erectile dysfunction: Results from the National Health and Nutrition Examination Survey.",
+      "record_journal": "Medicine (Baltimore)",
+      "record_year": "2025",
+      "article_type": "Cross-sectional",
+      "retrieved_with": "PubMed get_article_metadata",
+      "notes": "Mendelian randomization claim removed (no source).",
+      "retrieved_at": "2026-11-06",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "adjusted OR 1.77",
+          "quote": "After adjustments for demographic, lifestyle, and health factors, the association remained significant, albeit reduced (odds ratio: 1.77, 95% CI: 1.34-2.35).",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 30,
+      "cited_as": "U.S. Food and Drug Administration. Sexual Enhancement and Energy Product Notifications. Page updated October 15, 2026. Accessed November 6, 2026.",
+      "url": "https://www.fda.gov/drugs/medication-health-fraud-notifications/sexual-enhancement-and-energy-product-notifications",
+      "kind": "agency_page",
+      "retrieved_with": "web fetch of official page",
+      "version_or_date": "Page modified 2026-10-15 (metadata)",
+      "notes": "Notice counts (445; 72 in 2023) removed: not on page. Full table not counted.",
+      "retrieved_at": "2026-11-06",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "products likely contaminated with dangerous hidden ingredients",
+          "quote": "are likely to be contaminated with dangerous hidden ingredients.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "sometimes falsely advertised as supplements; can cause severe harm",
+          "quote": "These products are sometimes falsely advertised as dietary supplements, food and/or all-natural treatments.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "can lead to severe health issues and hospitalization",
+          "quote": "They can lead to severe health issues and hospitalization.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 31,
+      "cited_as": "Ho CY, Hsu CH, Chien TJ. Herbal dietary supplements for erectile dysfunction: A systematic review and meta-analysis of randomized-controlled trials. Journal of Traditional and Complementary Medicine. 2026;16(1):109-120 (published online 2025).",
+      "url": "https://doi.org/10.1016/j.jtcme.2025.11.001",
+      "kind": "journal",
+      "pmid": "41696741",
+      "pmcid": "PMC12902307",
+      "doi": "10.1016/j.jtcme.2025.11.001",
+      "record_title": "Herbal dietary supplements for erectile dysfunction: A systematic review and meta-analysis of randomized-controlled trials.",
+      "record_journal": "J Tradit Complement Med",
+      "record_year": "2025",
+      "article_type": "Meta-Analysis",
+      "retrieved_with": "PubMed get_article_metadata",
+      "notes": "L-arginine bullet removed: not covered by this review.",
+      "retrieved_at": "2026-11-06",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "14 RCTs, 1,227 men; follow-up up to 6 months",
+          "quote": "Fourteen RCTs with a total of 1227 males with ED were included. ... follow-up ranged from 1 month to 6 months.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "saffron and ginseng benefits",
+          "quote": "Saffron was effective in improving erectile function, orgasmic function, and intercourse satisfaction, while ginseng benefited erectile function, orgasmic function, sexual desire, overall satisfaction, and serum testosterone levels.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "maca and others insufficient",
+          "quote": "evidence for other agents such asand Maca remains insufficient",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 32,
+      "cited_as": "National Center for Complementary and Integrative Health. Yohimbe. Last updated May 2025. Accessed November 6, 2026.",
+      "url": "https://www.nccih.nih.gov/health/yohimbe",
+      "kind": "agency_page",
+      "retrieved_with": "web fetch of official page",
+      "version_or_date": "Last Updated May 2025",
+      "notes": "Replaces the ODS fact-sheet index link; EFSA restriction claim removed.",
+      "retrieved_at": "2026-11-06",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "not enough research to say yohimbe helps ED",
+          "quote": "There is not enough research to say whether yohimbe as a dietary supplement is helpful for any condition, including erectile dysfunction",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "arrhythmia, blood pressure problems, heart attacks, seizures",
+          "quote": "Yohimbine, a component of yohimbe, has been associated with cardiac arrhythmia (irregular heartbeat), blood pressure problems, heart attacks, and seizures.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    }
+  ]
+}
