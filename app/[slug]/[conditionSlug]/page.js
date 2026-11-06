@@ -542,6 +542,10 @@ export default async function ConditionPage({ params }) {
   // The site-wide mobile bar says "Insurance accepted in select states"; on a state where
   // TeleDirectMD bills no insurance that line is misleading, so it is swapped via CSS.
   const selfPayOnlyState = !!(stateTpl && stateTpl.stateInsurance && stateTpl.stateInsurance.mode === 'self-pay-only');
+  // Show the cost-comparison chart only when the condition data carries
+  // comparison bars beyond TeleDirectMD's own price (UTI carries none).
+  const hasPriceComparison = Array.isArray(condition.pricing && condition.pricing.comparisonBars)
+    && condition.pricing.comparisonBars.some((bar) => !bar.isTdmd);
 
 
   return (
@@ -872,11 +876,12 @@ export default async function ConditionPage({ params }) {
               </ul>
             </div>
 
-            <div className="tdmd-price-chart" role="group" aria-label="Typical cost comparison chart">
-              <h3>Typical Cost Comparison</h3>
-              <p className="tdmd-price-caption">Common ranges people see before insurance. Actual costs vary.</p>
-
-              {condition.pricing.comparisonBars.map((bar, i) => (
+            <div className="tdmd-price-chart" role="group" aria-label={hasPriceComparison ? "Typical cost comparison chart" : "Cost notes"}>
+              {hasPriceComparison && (
+                <>
+                  <h3>Typical Cost Comparison</h3>
+                  <p className="tdmd-price-caption">Common ranges people see before insurance. Actual costs vary.</p>
+                  {condition.pricing.comparisonBars.map((bar, i) => (
                 <div key={i} className="tdmd-bar-row" role="list">
                   <div className="tdmd-bar-label" role="listitem">
                     <span className="tdmd-bar-name">{bar.name}</span>
@@ -890,6 +895,8 @@ export default async function ConditionPage({ params }) {
                   </div>
                 </div>
               ))}
+                </>
+              )}
 
               <p className="tdmd-price-footnote">{condition.pricing.footnote}</p>
             </div>
@@ -1403,7 +1410,7 @@ export default async function ConditionPage({ params }) {
       <PressStrip variant="full" />
 
       {/* 22) What does this cost? — links to /cost/ pages from PR 4 */}
-      <WhatDoesThisCostBlock conditionSlug={conditionSlug} conditionName={condition.conditionName} stateName={state.name} noComparison={slug === 'ny'} />
+      <WhatDoesThisCostBlock conditionSlug={conditionSlug} conditionName={condition.conditionName} stateName={state.name} />
 
       {/* 23) Compare TeleDirectMD — links to /compare/ pages from PR 5 */}
       <CompareTeleDirectMDLinkRow conditionSlug={conditionSlug} />

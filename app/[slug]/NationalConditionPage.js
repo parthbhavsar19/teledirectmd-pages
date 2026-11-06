@@ -65,6 +65,10 @@ export default function NationalConditionPage({ conditionSlug }) {
   // Conversion architecture (per-condition opt-in; UTI canary first)
   const conversion = condition.conversion || {};
 
+  // Show the cost-comparison chart only when the condition data carries
+  // comparison bars beyond TeleDirectMD's own price (UTI carries none).
+  const hasPriceComparison = Array.isArray(condition.pricing && condition.pricing.comparisonBars)
+    && condition.pricing.comparisonBars.some((bar) => !bar.isTdmd);
   return (
     <>
       <script
@@ -387,11 +391,12 @@ export default function NationalConditionPage({ conditionSlug }) {
               </ul>
             </div>
 
-            <div className="tdmd-price-chart" role="group" aria-label="Typical cost comparison chart">
-              <h3>Typical Cost Comparison</h3>
-              <p className="tdmd-price-caption">Common ranges people see before insurance. Actual costs vary.</p>
-
-              {/* v3 (2026-05-23): vertical tdmd-vbar chart replacing horizontal tdmd-bar-row.
+            <div className="tdmd-price-chart" role="group" aria-label={hasPriceComparison ? "Typical cost comparison chart" : "Cost notes"}>
+              {hasPriceComparison && (
+                <>
+                  <h3>Typical Cost Comparison</h3>
+                  <p className="tdmd-price-caption">Common ranges people see before insurance. Actual costs vary.</p>
+                  {/* v3 (2026-05-23): vertical tdmd-vbar chart replacing horizontal tdmd-bar-row.
                   heightPct comes from the bar.width value in data/conditions/*.json (same
                   numeric scale, vertical axis instead of horizontal). */}
               <div className="tdmd-vbars" role="list" aria-label="Cost comparison bars">
@@ -407,6 +412,8 @@ export default function NationalConditionPage({ conditionSlug }) {
                   </div>
                 ))}
               </div>
+                </>
+              )}
 
               <p className="tdmd-price-footnote">{condition.pricing.footnote}</p>
             </div>
