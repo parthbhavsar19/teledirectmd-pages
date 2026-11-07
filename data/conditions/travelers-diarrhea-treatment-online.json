@@ -118,7 +118,7 @@
       },
       {
         "option": "In-Person Travel Clinic",
-        "cost": "$150 to $500+ (consultation plus vaccines)",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "Days to weeks for appointment",
         "provider": "Travel medicine MD or specialist",
         "bestFor": "Complex travel health workup including vaccines, malaria prophylaxis, standby TD treatment as part of a comprehensive pre-travel visit; immunocompromised travelers or those with inflammatory bowel disease",
@@ -126,7 +126,7 @@
       },
       {
         "option": "Urgent Care",
-        "cost": "$150 to $300+ (before insurance)",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "1 to 3 hours typical",
         "provider": "MD, DO, PA, or NP",
         "bestFor": "Active moderate-to-severe TD with dehydration, high fever, or diagnostic uncertainty; stool cultures if pathogen identification is needed",
@@ -134,7 +134,7 @@
       },
       {
         "option": "Primary Care",
-        "cost": "$100 to $250+ (varies)",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "3 to 14 days typical",
         "provider": "Family medicine or internal medicine MD or DO",
         "bestFor": "Establishing care, obtaining standby prescriptions for established patients; post-travel persistent diarrhea evaluation",
@@ -142,7 +142,7 @@
       },
       {
         "option": "Emergency Room",
-        "cost": "$500 to $3,000+ (before insurance)",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "2 to 6 hours typical",
         "provider": "Emergency medicine MD or DO",
         "bestFor": "Severe dehydration requiring IV fluids, bloody dysentery with high fever, altered mental status, suspected hemolytic uremic syndrome, or inability to tolerate oral fluids",
@@ -225,24 +225,6 @@
         "value": "$79",
         "width": 18,
         "isTdmd": true
-      },
-      {
-        "name": "Primary Care",
-        "value": "$100 to $250+",
-        "width": 42,
-        "isTdmd": false
-      },
-      {
-        "name": "Urgent Care",
-        "value": "$150 to $300+",
-        "width": 52,
-        "isTdmd": false
-      },
-      {
-        "name": "Emergency Room",
-        "value": "$500 to $3,000+",
-        "width": 100,
-        "isTdmd": false
       }
     ],
     "footnote": "Total cost is transparent: the visit is $79 flat, and any prescription is paid separately at the pharmacy, where prices vary by medication and pharmacy. No searching for a foreign pharmacy mid-trip.",

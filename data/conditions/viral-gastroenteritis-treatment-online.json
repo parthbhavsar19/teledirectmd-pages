@@ -117,7 +117,7 @@
       },
       {
         "option": "Urgent Care",
-        "cost": "$150 to $300+ (before insurance)",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "1 to 3 hours typical",
         "provider": "MD, DO, PA, or NP",
         "bestFor": "Moderate dehydration, uncertain diagnosis, need for IV fluids or labs, or when diagnosis is unclear",
@@ -125,7 +125,7 @@
       },
       {
         "option": "Emergency Room",
-        "cost": "$500 to $3,000+ (before insurance)",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "2 to 6 hours typical",
         "provider": "Emergency medicine MD or DO",
         "bestFor": "Severe dehydration, bloody diarrhea, high fever with severe abdominal pain, inability to keep fluids down, suspected surgical emergency, or signs of sepsis",
@@ -133,7 +133,7 @@
       },
       {
         "option": "Primary Care",
-        "cost": "$100 to $350+ (varies)",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "Days to weeks typical",
         "provider": "MD or DO",
         "bestFor": "Follow-up for recurring GI illness, chronic diarrhea evaluation, or persistent symptoms after acute illness resolves",
@@ -207,24 +207,6 @@
         "value": "$79",
         "width": 20,
         "isTdmd": true
-      },
-      {
-        "name": "Primary Care",
-        "value": "$100 to $350+",
-        "width": 52,
-        "isTdmd": false
-      },
-      {
-        "name": "Urgent Care",
-        "value": "$150 to $300+",
-        "width": 60,
-        "isTdmd": false
-      },
-      {
-        "name": "Emergency Room",
-        "value": "$500 to $3,000+",
-        "width": 100,
-        "isTdmd": false
       }
     ],
     "footnote": "Total cost is transparent: the $79 visit is often the main cost, since oral rehydration solution and loperamide are inexpensive over-the-counter options; if prescription ondansetron for nausea is appropriate, its pharmacy cost is separate and varies.",

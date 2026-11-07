@@ -115,7 +115,7 @@
       },
       {
         "option": "Urgent Care",
-        "cost": "$150 to $300+ (before insurance)",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "1 to 3 hours typical",
         "provider": "MD, DO, PA, or NP",
         "bestFor": "First episode of acute joint swelling, uncertain diagnosis, or when labs and joint aspiration are needed",
@@ -123,7 +123,7 @@
       },
       {
         "option": "Emergency Room",
-        "cost": "$500 to $3,000+ (before insurance)",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "2 to 6 hours typical",
         "provider": "Emergency medicine MD or DO",
         "bestFor": "Fever with swollen joint, suspected septic arthritis, inability to bear weight, or severe systemic illness",
@@ -131,7 +131,7 @@
       },
       {
         "option": "Primary Care",
-        "cost": "$100 to $250+ (varies)",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "3 to 14 days typical",
         "provider": "Family medicine or internal medicine MD or DO",
         "bestFor": "Long-term gout management, urate-lowering therapy initiation, kidney function monitoring, and comorbidity management",
@@ -139,7 +139,7 @@
       },
       {
         "option": "Rheumatology",
-        "cost": "$200 to $500+ (varies)",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "Weeks to months (varies)",
         "provider": "Rheumatologist MD or DO",
         "bestFor": "Refractory gout, tophaceous disease, complex medication management, or atypical joint presentations",
@@ -211,24 +211,6 @@
         "value": "$79",
         "width": 20,
         "isTdmd": true
-      },
-      {
-        "name": "Primary Care",
-        "value": "$100 to $250+",
-        "width": 45,
-        "isTdmd": false
-      },
-      {
-        "name": "Urgent Care",
-        "value": "$150 to $300+",
-        "width": 55,
-        "isTdmd": false
-      },
-      {
-        "name": "Emergency Room",
-        "value": "$500 to $3,000+",
-        "width": 100,
-        "isTdmd": false
       }
     ],
     "footnote": "Total cost is transparent: the visit is $79 flat, and any prescription is paid separately at the pharmacy, where prices vary by medication and pharmacy. No membership, with treatment most effective when started within 24 hours of flare onset.",

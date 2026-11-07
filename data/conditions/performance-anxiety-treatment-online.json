@@ -116,7 +116,7 @@
       },
       {
         "option": "Urgent Care",
-        "cost": "$150 to $300+ (before insurance)",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "1 to 3 hours typical",
         "provider": "MD, DO, PA, or NP",
         "bestFor": "Acute anxiety episodes with concerning physical symptoms needing same-day evaluation",
@@ -124,7 +124,7 @@
       },
       {
         "option": "Primary Care",
-        "cost": "$100 to $350+ (varies)",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "Days to weeks",
         "provider": "MD or DO",
         "bestFor": "Broader anxiety evaluation, chronic symptoms, medication management, and referrals",
@@ -132,7 +132,7 @@
       },
       {
         "option": "Psychiatry",
-        "cost": "$200 to $500+ (varies)",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "Weeks to months",
         "provider": "Psychiatrist (MD or DO)",
         "bestFor": "Generalized anxiety disorder, panic disorder, pervasive social anxiety, or complex medication management",
@@ -140,7 +140,7 @@
       },
       {
         "option": "Therapy (CBT)",
-        "cost": "$100 to $250+ per session",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "Days to weeks",
         "provider": "Licensed therapist (LCSW, LPC, PhD)",
         "bestFor": "Cognitive-behavioral techniques for anxiety, long-term coping strategies, and addressing underlying thought patterns",
@@ -211,24 +211,6 @@
         "value": "$79",
         "width": 20,
         "isTdmd": true
-      },
-      {
-        "name": "Primary Care",
-        "value": "$100 to $350+",
-        "width": 50,
-        "isTdmd": false
-      },
-      {
-        "name": "Psychiatry",
-        "value": "$200 to $500+",
-        "width": 70,
-        "isTdmd": false
-      },
-      {
-        "name": "Therapy (CBT)",
-        "value": "$100 to $250+ per session",
-        "width": 45,
-        "isTdmd": false
       }
     ],
     "footnote": "Total cost is transparent: the visit is $79 flat, and any prescription is paid separately at the pharmacy, where prices vary by medication and pharmacy. No membership, and a test dose before your first event is often recommended.",

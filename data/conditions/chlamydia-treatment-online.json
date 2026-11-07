@@ -116,7 +116,7 @@
       },
       {
         "option": "Urgent Care",
-        "cost": "$150 to $300+ (before insurance)",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "1 to 3 hours typical",
         "provider": "MD, DO, PA, or NP",
         "bestFor": "STI testing and treatment in one visit, uncertain diagnosis, or when in-person exam is needed",
@@ -124,7 +124,7 @@
       },
       {
         "option": "Emergency Room",
-        "cost": "$500 to $3,000+ (before insurance)",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "2 to 6 hours typical",
         "provider": "Emergency medicine MD or DO",
         "bestFor": "Pelvic pain with high fever (PID), severe testicular pain and swelling, or signs of disseminated infection",
@@ -132,7 +132,7 @@
       },
       {
         "option": "Primary Care",
-        "cost": "$100 to $250+ (varies)",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "3 to 14 days typical",
         "provider": "Family medicine or internal medicine MD or DO",
         "bestFor": "Comprehensive STI screening, ongoing sexual health management, and prevention counseling",
@@ -140,7 +140,7 @@
       },
       {
         "option": "OB/GYN or Urology",
-        "cost": "$150 to $400+ (varies)",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "Days to weeks (varies)",
         "provider": "OB/GYN or urology specialist MD or DO",
         "bestFor": "Complicated infections (PID, epididymitis), fertility concerns, recurrent infections, or pregnancy management",
@@ -211,24 +211,6 @@
         "value": "$79",
         "width": 20,
         "isTdmd": true
-      },
-      {
-        "name": "Primary Care",
-        "value": "$100 to $250+",
-        "width": 45,
-        "isTdmd": false
-      },
-      {
-        "name": "Urgent Care",
-        "value": "$150 to $300+",
-        "width": 55,
-        "isTdmd": false
-      },
-      {
-        "name": "Emergency Room",
-        "value": "$500 to $3,000+",
-        "width": 100,
-        "isTdmd": false
       }
     ],
     "footnote": "Total cost is transparent: the visit is $79 flat, and any prescription is paid separately at the pharmacy, where prices vary by medication and pharmacy. Discreet, no membership, prescription sent to your pharmacy.",

@@ -119,7 +119,7 @@
       },
       {
         "option": "Urgent Care",
-        "cost": "$150 to $300+ (before insurance)",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "1 to 3 hours typical",
         "provider": "MD, DO, PA, or NP",
         "bestFor": "Same-day in-person evaluation when psoriasis appears infected or rapidly worsening",
@@ -127,7 +127,7 @@
       },
       {
         "option": "Emergency Room",
-        "cost": "$500 to $3,000+ (before insurance)",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "2 to 6 hours typical",
         "provider": "Emergency medicine MD or DO",
         "bestFor": "Erythrodermic psoriasis, widespread pustular psoriasis with systemic illness, or secondary infection with fever",
@@ -135,7 +135,7 @@
       },
       {
         "option": "Primary Care or Dermatology",
-        "cost": "$100 to $350+ (varies)",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "Days to weeks",
         "provider": "MD or DO",
         "bestFor": "Long-term psoriasis management, systemic therapy initiation, phototherapy, psoriatic arthritis evaluation, and comprehensive skin checks",
@@ -207,24 +207,6 @@
         "value": "$79",
         "width": 20,
         "isTdmd": true
-      },
-      {
-        "name": "Primary Care or Dermatology",
-        "value": "$100 to $350+",
-        "width": 52,
-        "isTdmd": false
-      },
-      {
-        "name": "Urgent Care",
-        "value": "$150 to $300+",
-        "width": 60,
-        "isTdmd": false
-      },
-      {
-        "name": "Emergency Room",
-        "value": "$500 to $3,000+",
-        "width": 100,
-        "isTdmd": false
       }
     ],
     "footnote": "Total cost is transparent: the $79 visit covers the refill evaluation; pharmacy cost for your topical corticosteroid or combination product varies by formulation, so ask your pharmacist about generic availability to reduce your total.",

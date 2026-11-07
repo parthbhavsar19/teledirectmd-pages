@@ -116,7 +116,7 @@
       },
       {
         "option": "Urgent Care",
-        "cost": "$150 to $300+ (before insurance)",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "1 to 3 hours typical",
         "provider": "MD, DO, PA, or NP",
         "bestFor": "Acute symptoms related to smoking such as respiratory infections, not typically focused on cessation counseling",
@@ -124,7 +124,7 @@
       },
       {
         "option": "Emergency Room",
-        "cost": "$500 to $3,000+ (before insurance)",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "2 to 6 hours typical",
         "provider": "Emergency medicine MD or DO",
         "bestFor": "Chest pain, severe shortness of breath, stroke symptoms, or psychiatric emergencies",
@@ -132,7 +132,7 @@
       },
       {
         "option": "Primary Care",
-        "cost": "$100 to $250+ (varies)",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "3 to 14 days typical",
         "provider": "Family medicine or internal medicine MD or DO",
         "bestFor": "Ongoing cessation management, complex medical histories, coordination with pulmonology or psychiatry",
@@ -140,7 +140,7 @@
       },
       {
         "option": "Smoking Cessation Program",
-        "cost": "Varies widely ($0 to $500+)",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "Varies by program availability",
         "provider": "Counselors, coaches, or multidisciplinary team",
         "bestFor": "Intensive behavioral support, group therapy, patients needing structured long-term programs",
@@ -212,24 +212,6 @@
         "value": "$79",
         "width": 20,
         "isTdmd": true
-      },
-      {
-        "name": "Primary Care",
-        "value": "$100 to $250+",
-        "width": 45,
-        "isTdmd": false
-      },
-      {
-        "name": "Urgent Care",
-        "value": "$150 to $300+",
-        "width": 55,
-        "isTdmd": false
-      },
-      {
-        "name": "Emergency Room",
-        "value": "$500 to $3,000+",
-        "width": 100,
-        "isTdmd": false
       }
     ],
     "footnote": "Total cost is transparent: the $79 visit plus varenicline or bupropion (many insurance plans cover these at no copay under preventive care benefits) means your total may be as low as the visit fee alone, depending on your coverage.",

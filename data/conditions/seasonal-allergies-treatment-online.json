@@ -116,7 +116,7 @@
       },
       {
         "option": "Urgent Care",
-        "cost": "$150 to $300+ (before insurance)",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "1 to 3 hours typical",
         "provider": "MD, DO, PA, or NP",
         "bestFor": "Uncertain diagnosis, concern for sinus infection, or moderate symptoms needing same-day in-person evaluation",
@@ -124,7 +124,7 @@
       },
       {
         "option": "Emergency Room",
-        "cost": "$500 to $3,000+ (before insurance)",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "2 to 6 hours typical",
         "provider": "Emergency medicine MD or DO",
         "bestFor": "Severe allergic reaction with facial swelling, difficulty breathing, anaphylaxis, or severe asthma exacerbation",
@@ -132,7 +132,7 @@
       },
       {
         "option": "Primary Care",
-        "cost": "$100 to $250+ (varies)",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "3 to 14 days typical",
         "provider": "Family medicine or internal medicine MD or DO",
         "bestFor": "Chronic allergy management, comorbid asthma management, referral coordination for allergy testing or immunotherapy",
@@ -140,7 +140,7 @@
       },
       {
         "option": "Allergist",
-        "cost": "$150 to $400+ (varies)",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "Days to weeks (varies)",
         "provider": "Allergist/immunologist MD or DO",
         "bestFor": "Allergy skin testing, specific IgE testing, immunotherapy (allergy shots or sublingual tablets), treatment-resistant symptoms, or complicated allergy-asthma overlap",
@@ -213,24 +213,6 @@
         "value": "$79",
         "width": 20,
         "isTdmd": true
-      },
-      {
-        "name": "Primary Care",
-        "value": "$100 to $250+",
-        "width": 45,
-        "isTdmd": false
-      },
-      {
-        "name": "Urgent Care",
-        "value": "$150 to $300+",
-        "width": 55,
-        "isTdmd": false
-      },
-      {
-        "name": "Emergency Room",
-        "value": "$500 to $3,000+",
-        "width": 100,
-        "isTdmd": false
       }
     ],
     "footnote": "Total cost is transparent: the $79 visit covers evaluation and a tailored regimen; many first-line allergy medications, like fluticasone nasal spray and cetirizine, are available over the counter at low cost, keeping your total modest.",

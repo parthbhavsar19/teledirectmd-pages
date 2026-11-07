@@ -112,7 +112,7 @@
       },
       {
         "option": "Urgent Care",
-        "cost": "$150 to $300+ (before insurance)",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "1 to 3 hours typical",
         "provider": "MD, DO, PA, or NP",
         "bestFor": "Suspected secondary scalp infection with redness, swelling, or fever",
@@ -120,7 +120,7 @@
       },
       {
         "option": "Emergency Room",
-        "cost": "$500 to $3,000+ (before insurance)",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "2 to 6 hours typical",
         "provider": "Emergency medicine MD or DO",
         "bestFor": "Severe allergic reaction to lice treatment, widespread secondary infection with systemic symptoms",
@@ -128,7 +128,7 @@
       },
       {
         "option": "Primary Care",
-        "cost": "$100 to $250+ (varies)",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "3 to 14 days typical",
         "provider": "Family medicine or internal medicine MD or DO",
         "bestFor": "Persistent or recurrent infestations needing in-person scalp examination and long-term management",
@@ -136,7 +136,7 @@
       },
       {
         "option": "Dermatology",
-        "cost": "$150 to $400+ (varies)",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "Days to weeks (varies)",
         "provider": "Dermatologist MD or DO",
         "bestFor": "Treatment-resistant lice, atypical scalp conditions mimicking lice, or persistent scalp dermatitis after treatment",
@@ -205,24 +205,6 @@
         "value": "$79",
         "width": 20,
         "isTdmd": true
-      },
-      {
-        "name": "Primary Care",
-        "value": "$100 to $250+",
-        "width": 45,
-        "isTdmd": false
-      },
-      {
-        "name": "Urgent Care",
-        "value": "$150 to $300+",
-        "width": 55,
-        "isTdmd": false
-      },
-      {
-        "name": "Emergency Room",
-        "value": "$500 to $3,000+",
-        "width": 100,
-        "isTdmd": false
       }
     ],
     "footnote": "Total cost is transparent: the $79 visit covers evaluation and a prescription-strength option when OTC pediculicides have failed; pharmacy cost varies by medication, so ask about generic availability for ivermectin lotion or malathion.",

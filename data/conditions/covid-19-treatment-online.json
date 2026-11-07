@@ -117,7 +117,7 @@
       },
       {
         "option": "Urgent Care",
-        "cost": "$150 to $300+ (before insurance)",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "1 to 3 hours typical",
         "provider": "MD, DO, PA, or NP",
         "bestFor": "Moderate symptoms, need for on-site COVID testing, or uncertain diagnosis requiring physical exam",
@@ -125,7 +125,7 @@
       },
       {
         "option": "Emergency Room",
-        "cost": "$500 to $3,000+ (before insurance)",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "2 to 6 hours typical",
         "provider": "Emergency medicine MD or DO",
         "bestFor": "Difficulty breathing, persistent chest pain, confusion, cyanosis, oxygen saturation below 94 percent, or any signs of severe COVID-19",
@@ -133,7 +133,7 @@
       },
       {
         "option": "Primary Care",
-        "cost": "$100 to $250+ (varies)",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "3 to 14 days typical",
         "provider": "Family medicine or internal medicine MD or DO",
         "bestFor": "Post-COVID follow-up, long COVID evaluation, vaccination planning, and management of underlying conditions",
@@ -141,7 +141,7 @@
       },
       {
         "option": "Infectious Disease Specialist",
-        "cost": "$200 to $500+ (varies)",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "Days to weeks (varies)",
         "provider": "Infectious disease MD or DO",
         "bestFor": "Immunocompromised patients, treatment-resistant COVID-19, complicated infections, or need for IV remdesivir",
@@ -212,24 +212,6 @@
         "value": "$79",
         "width": 20,
         "isTdmd": true
-      },
-      {
-        "name": "Primary Care",
-        "value": "$100 to $250+",
-        "width": 45,
-        "isTdmd": false
-      },
-      {
-        "name": "Urgent Care",
-        "value": "$150 to $300+",
-        "width": 55,
-        "isTdmd": false
-      },
-      {
-        "name": "Emergency Room",
-        "value": "$500 to $3,000+",
-        "width": 100,
-        "isTdmd": false
       }
     ],
     "footnote": "Total cost is transparent: the $79 visit is often the main cost, since Paxlovid may be available at no charge through government programs or insurance, and OTC symptom-relief medications for milder cases typically cost only a few dollars.",

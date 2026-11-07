@@ -118,7 +118,7 @@
       },
       {
         "option": "Urgent Care",
-        "cost": "$150 to $300+ (before insurance)",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "1 to 3 hours typical",
         "provider": "MD, DO, PA, or NP",
         "bestFor": "Wounds needing in-person irrigation, moderate bites with uncertain depth, tetanus booster needed, or bites from unknown animals requiring rabies assessment",
@@ -126,7 +126,7 @@
       },
       {
         "option": "Emergency Room",
-        "cost": "$500 to $3,000+ (before insurance)",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "2 to 6 hours typical",
         "provider": "Emergency medicine MD or DO",
         "bestFor": "Hand bites with functional impairment, deep joint or tendon involvement, rapidly spreading infection, fever, or need for IV antibiotics or surgical consultation",
@@ -134,7 +134,7 @@
       },
       {
         "option": "Primary Care",
-        "cost": "$100 to $250+ (varies)",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "3 to 14 days typical",
         "provider": "Family medicine or internal medicine MD or DO",
         "bestFor": "Follow-up wound checks, antibiotic adjustment if initial therapy is not resolving infection, and tetanus vaccination updates",
@@ -142,7 +142,7 @@
       },
       {
         "option": "Hand Surgery",
-        "cost": "$200 to $500+ (varies)",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "Days to weeks (varies)",
         "provider": "Hand surgeon MD or DO",
         "bestFor": "Hand bites with tenosynovitis, septic arthritis, deep space infection, or structural damage requiring operative exploration",
@@ -216,24 +216,6 @@
         "value": "$79",
         "width": 20,
         "isTdmd": true
-      },
-      {
-        "name": "Primary Care",
-        "value": "$100 to $250+",
-        "width": 45,
-        "isTdmd": false
-      },
-      {
-        "name": "Urgent Care",
-        "value": "$150 to $300+",
-        "width": 55,
-        "isTdmd": false
-      },
-      {
-        "name": "Emergency Room",
-        "value": "$500 to $3,000+",
-        "width": 100,
-        "isTdmd": false
       }
     ],
     "footnote": "Total cost is transparent: the visit is $79 flat, and any prescription is paid separately at the pharmacy, where prices vary by medication and pharmacy. No membership, and prompt care matters because untreated cat bites can become infected quickly.",

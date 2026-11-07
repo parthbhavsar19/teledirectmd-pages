@@ -118,7 +118,7 @@
       },
       {
         "option": "In-Person Travel Clinic",
-        "cost": "$150 to $500+ (consultation plus vaccines)",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "Days to weeks for appointment",
         "provider": "Travel medicine MD, DO, or specialist",
         "bestFor": "Complex multi-destination itineraries, all required travel vaccines (yellow fever, typhoid, hepatitis A/B), G6PD testing for primaquine or tafenoquine, malaria-in-pregnancy evaluation, and immunocompromised travelers",
@@ -126,7 +126,7 @@
       },
       {
         "option": "Urgent Care",
-        "cost": "$150 to $300+ (before insurance)",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "1 to 3 hours typical",
         "provider": "MD, DO, PA, or NP",
         "bestFor": "Acute illness evaluation; most urgent care centers are not specialized in destination-specific malaria prophylaxis drug selection",
@@ -134,7 +134,7 @@
       },
       {
         "option": "Primary Care",
-        "cost": "$100 to $250+ (varies)",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "3 to 14 days typical",
         "provider": "Family medicine or internal medicine MD or DO",
         "bestFor": "Baseline health evaluation, referral coordination, and antimalarial prescribing for established patients — many primary care physicians are not current on destination-specific CDC resistance data",
@@ -142,7 +142,7 @@
       },
       {
         "option": "Emergency Room",
-        "cost": "$500 to $3,000+ (before insurance)",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "2 to 6 hours typical",
         "provider": "Emergency medicine MD or DO",
         "bestFor": "Active malaria emergency — fever, rigors, altered mental status, respiratory distress after return from endemic region; blood smear diagnosis and IV treatment initiation",
@@ -228,24 +228,6 @@
         "value": "$79",
         "width": 18,
         "isTdmd": true
-      },
-      {
-        "name": "Primary Care",
-        "value": "$100 to $250+",
-        "width": 42,
-        "isTdmd": false
-      },
-      {
-        "name": "In-Person Travel Clinic",
-        "value": "$150 to $500+",
-        "width": 65,
-        "isTdmd": false
-      },
-      {
-        "name": "Emergency Room",
-        "value": "$500 to $3,000+",
-        "width": 100,
-        "isTdmd": false
       }
     ],
     "footnote": "Total cost is transparent: the $79 visit plus a destination-driven regimen — doxycycline (typically under $30 for a course, GoodRx verified 2026-06-13) or generic atovaquone-proguanil (roughly $40–$120+ depending on trip length and pharmacy) — means total cost depends heavily on which drug fits your trip and health history.",

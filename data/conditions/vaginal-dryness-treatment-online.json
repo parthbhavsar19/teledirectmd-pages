@@ -115,7 +115,7 @@
       },
       {
         "option": "Urgent Care",
-        "cost": "$150 to $300+ (before insurance)",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "1 to 3 hours typical",
         "provider": "MD, DO, PA, or NP",
         "bestFor": "Acute vaginal symptoms with uncertain diagnosis needing exam, or suspected infection",
@@ -123,7 +123,7 @@
       },
       {
         "option": "Emergency Room",
-        "cost": "$500 to $3,000+ (before insurance)",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "2 to 6 hours typical",
         "provider": "Emergency medicine MD or DO",
         "bestFor": "Heavy vaginal bleeding, severe pelvic pain, or signs of serious illness",
@@ -131,7 +131,7 @@
       },
       {
         "option": "Primary Care / Gynecology",
-        "cost": "$100 to $350+ (varies)",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "3 to 14 days typical",
         "provider": "Family medicine, internal medicine, or OB/GYN MD or DO",
         "bestFor": "Pelvic exam, Pap smear, endometrial evaluation, complex cancer history, or systemic hormone therapy consideration",
@@ -139,7 +139,7 @@
       },
       {
         "option": "Menopause Specialist",
-        "cost": "$200 to $500+ (varies)",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "Weeks to months (varies)",
         "provider": "NAMS-certified menopause specialist or gynecologist",
         "bestFor": "Complex menopausal management, systemic HRT evaluation, breast cancer survivor GSM care, or refractory symptoms",
@@ -210,24 +210,6 @@
         "value": "$79",
         "width": 20,
         "isTdmd": true
-      },
-      {
-        "name": "Primary Care",
-        "value": "$100 to $350+",
-        "width": 52,
-        "isTdmd": false
-      },
-      {
-        "name": "Urgent Care",
-        "value": "$150 to $300+",
-        "width": 55,
-        "isTdmd": false
-      },
-      {
-        "name": "Emergency Room",
-        "value": "$500 to $3,000+",
-        "width": 100,
-        "isTdmd": false
       }
     ],
     "footnote": "Total cost is transparent: the $79 visit covers evaluation and prescription of a tailored regimen; pharmacy cost for vaginal estrogen products varies by formulation (cream, insert, or ring), so ask your pharmacist about generic availability.",

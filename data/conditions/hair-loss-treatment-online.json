@@ -115,7 +115,7 @@
       },
       {
         "option": "DTC Hair Loss Companies",
-        "cost": "$30 to $95+ per month (subscription)",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "Varies, often async questionnaire",
         "provider": "Varies (MD, DO, PA, or NP)",
         "bestFor": "Convenience for straightforward cases, though provider qualifications and screening depth vary",
@@ -123,7 +123,7 @@
       },
       {
         "option": "Dermatology",
-        "cost": "$150 to $400+ (before insurance)",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "Weeks to months typical",
         "provider": "Dermatologist MD or DO",
         "bestFor": "Patchy hair loss, scarring alopecia, scalp biopsy, advanced or atypical cases",
@@ -131,7 +131,7 @@
       },
       {
         "option": "Primary Care",
-        "cost": "$100 to $250+ (varies)",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "3 to 14 days typical",
         "provider": "Family medicine or internal medicine MD or DO",
         "bestFor": "Hair loss with suspected thyroid, iron deficiency, or other systemic contributing factors",
@@ -139,7 +139,7 @@
       },
       {
         "option": "Hair Transplant Surgeon",
-        "cost": "$4,000 to $15,000+ per procedure",
+        "cost": "Varies; ask for the self-pay price",
         "wait": "Weeks to months for consultation",
         "provider": "Dermatologist or plastic surgeon",
         "bestFor": "Advanced hair loss unresponsive to medical therapy, cosmetic restoration",
@@ -210,24 +210,6 @@
         "value": "$79",
         "width": 20,
         "isTdmd": true
-      },
-      {
-        "name": "Primary Care",
-        "value": "$100 to $250+",
-        "width": 45,
-        "isTdmd": false
-      },
-      {
-        "name": "Dermatology",
-        "value": "$150 to $400+",
-        "width": 60,
-        "isTdmd": false
-      },
-      {
-        "name": "Hair Transplant",
-        "value": "$4,000 to $15,000+",
-        "width": 100,
-        "isTdmd": false
       }
     ],
     "footnote": "Total cost is transparent: the visit is $79 flat, and any prescription is paid separately at the pharmacy, where prices vary by medication and pharmacy. No membership, with ongoing monthly medication cost separate.",
