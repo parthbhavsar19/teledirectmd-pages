@@ -1,0 +1,1032 @@
+{
+ "guide": "hypertension-blood-pressure-guide",
+ "checked_at": "2026-11-07",
+ "checked_by": "Claude (repair run)",
+ "scite_verify_papers": "unavailable (quota exhausted until 2026-11-14); retraction status from PubMed article types",
+ "references": [
+  {
+   "n": 1,
+   "kind": "journal",
+   "cited_as": "Cameron NA, Jones DW, Khan SS, Lloyd-Jones DM. Case-Based Applications of the 2025 AHA/ACC/Multispecialty High Blood Pressure Guideline. Hypertension. 2025;82(12):2055-2063.",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12617343/",
+   "pmid": "41204807",
+   "pmcid": "PMC12617343",
+   "doi": "10.1161/HYPERTENSIONAHA.125.25913",
+   "record_title": "Case-Based Applications of the 2025 AHA/ACC/Multispecialty High Blood Pressure Guideline.",
+   "record_journal": "Hypertension",
+   "record_year": "2025",
+   "article_type": "Journal Article (Special Article)",
+   "retrieved_with": "PubMed connector get_full_text_article (PMC full text) + get_article_metadata",
+   "notes": "Replaces former ref 1 (ACC \"New in Clinical Guidance\" web article), which redirected to maintenance.acc.org on two attempts this run. Used because the guideline full text (ref 8) is not in PMC and ahajournals.org and jacc.org returned client errors. Co-authored by the guideline chair (Jones DW). Its COR 1/LOE B-R wording for the PREVENT <7.5% branch differs from the ERBP commentary (ref 21), which calls that branch \"found reasonable\"; the page therefore states the rule without a strength label. scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice.",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Stage 1 with PREVENT <7.5%: start medication if average BP stays >=130/80 after 3 to 6 months of lifestyle changes (key takeaways, callout, PREVENT section)",
+     "quote": "The 2025 guideline recommends initiation of antihypertensive therapy among adults who have stage 1 hypertension and low 10-year CVD risk (< 7.5%) if average BPs remain ≥ 130/80 mmHg after 3 to 6 months of a lifestyle intervention",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Medication for average BP >=140/90, and for >=130/80 with increased CVD risk",
+     "quote": "Antihypertensive medications should be initiated among all adults with average BP levels ≥ 140/90 mmHg (stage 2 hypertension or higher) and among those with average BPs ≥ 130/80 mmHg (stage 1 hypertension or higher) who have increased CVD risk",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Increased risk = clinical CVD, CKD, diabetes, or 10-year PREVENT risk >=7.5%; start medication now together with lifestyle",
+     "quote": "This includes individuals with a history of clinical CVD (coronary heart disease, stroke and heart failure), chronic kidney disease, diabetes, or an estimated 10-year CVD risk ≥ 7.5% using the PREVENT-CVD equations (COR 1/ LOE A).",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Higher-risk stage 1 patient: medication now in addition to lifestyle",
+     "quote": "Antihypertensive medication should be initiated now to lower BP and reduce her risk of CVD events and total mortality in addition to lifestyle modification.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Goal <130/80 mmHg for most adults; encouragement to reach systolic <120 for elevated CVD risk",
+     "quote": "the guideline recommending a goal of < 130/80 mmHg for most adults and encouragement to achieve a systolic BP < 120 mmHg for those with elevated CVD risk",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Guideline published by AHA, ACC and 11 other professional organizations",
+     "quote": "the American Heart Association (AHA), American College of Cardiology (ACC) and 11 other professional health organizations recently published a new 2025 guideline",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Guideline uses PREVENT; PREVENT estimates total CVD and its components (ASCVD and heart failure)",
+     "quote": "The American Heart Association PREVENTequations were developed to estimate risk of total CVD and its components of atherosclerotic CVD and heart failure.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "PREVENT calculator is publicly available",
+     "quote": "The calculator is publicly available online",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "First-line medications: thiazide-type diuretics, long-acting dihydropyridine CCBs, ACE inhibitors, ARBs (medication section, citable entry)",
+     "quote": "First-line antihypertensive medications include thiazide-type diuretics, long-acting dihydropyridine calcium channel blockers (CCB), angiotensin converting enzyme (ACE) inhibitors and angiotensin II receptor blockers (ARB) (COR 1/ LOE A).",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "ACE inhibitors and ARBs should not be used during pregnancy or when planning pregnancy",
+     "quote": "ACE inhibitors, ARBs, atenolol, direct renin inhibitors, nitroprusside and mineralocorticoid receptor antagonists should not be used in those who are planning to become pregnant or who are currently pregnant to avoid fetal harm",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Two-drug start (ideally single-pill combination) for stage 2 and some higher-risk stage 1",
+     "quote": "For those with stage 2 hypertension and for some high-risk patients with stage 1 hypertension, the guideline recommends initiation of antihypertensive medications from two different drug classes, ideally in a single-pill combination",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Single first-line agent reasonable for stage 1 close to goal",
+     "quote": "For adults with stage 1 hypertension who are close to their target BP, initiation of a single, first-line antihypertensive medication with subsequent dose titration and/or addition of another agent is a reasonable approach",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Home BP monitoring recommended to confirm suspected hypertension and guide medication adjustment",
+     "quote": "home BP monitoring is recommended to confirm suspected diagnoses of hypertension and titrate BP-lowering medications (COR 1/ LOE A).",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Potassium 3,500 to 5,000 mg/day ideally from diet; about 6 mmHg systolic in hypertension",
+     "quote": "Potassium supplementation should ideally come from dietary sources for a total of 3,500 to 5,000 mg per day. The mean lowering in systolic BP expected from potassium supplementation among people with hypertension is approximately 6 mmHg.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Potassium recommendation applies in people without CKD",
+     "quote": "In the absence of chronic kidney disease, moderate potassium supplementation (not potassium reduction) is recommended to lower BP",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "kind": "agency_page",
+   "cited_as": "NHLBI. Systolic Blood Pressure Intervention Trial (SPRINT) Study.",
+   "url": "https://www.nhlbi.nih.gov/science/systolic-blood-pressure-intervention-trial-sprint-study",
+   "retrieved_with": "WebFetch of official page",
+   "version_or_date": "No page date shown (project began 2010); read 2026-11-07",
+   "notes": "Former stroke-per-10-mmHg claim moved to ref 14 (not on this page).",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "SPRINT: 9,361 adults age 50+, 102 sites",
+     "quote": "SPRINT included 9,361 adults age 50 or older who had systolic pressures of 130 mm Hg or higher",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "102 sites",
+     "quote": "Participant enrollment occurred between 2010 and 2013 at 102 sites in the United States, including Puerto Rico.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Lower target reduced cardiovascular events 25% and overall risk of death 27% vs standard <140",
+     "quote": "SPRINT found that the lower target (less than 120 mm Hg) reduced cardiovascular events by 25 percent",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "27% reduction in overall risk of death",
+     "quote": "reduced the overall risk of death by 27 percent",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "SPRINT-MIND: lower systolic target reduced risk of mild cognitive impairment",
+     "quote": "reduced the risk of developing mild cognitive impairment",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "SPRINT and other research informed the 2017 ACC/AHA guideline defining high BP as systolic 130 or higher",
+     "quote": "SPRINT and other clinical research findings informed these new ACC/AHA guidelines",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "kind": "dataset",
+   "cited_as": "Fryar CD, Kit B, Carroll MD, Afful J. Hypertension Prevalence, Awareness, Treatment, and Control Among Adults Age 18 and Older: United States, August 2021-August 2023. NCHS Data Brief No. 511. October 2024.",
+   "url": "https://www.cdc.gov/nchs/products/databriefs/db511.htm",
+   "retrieved_with": "WebFetch of official page",
+   "version_or_date": "NCHS Data Brief No. 511, October 2024",
+   "notes": "Corrected control from \"1 in 4\" to 20.7% (about 1 in 5) and medication use from 56% to 51.2%. Global 27-40% nonadherence and \"adherence is the single most important factor\" are not in this brief and were cut.",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "47.7% of US adults have hypertension",
+     "quote": "During August 2021–August 2023, the prevalence of adult hypertension was 47.7%.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Only about 1 in 5 (20.7%) of adults with hypertension controlled to <130/80",
+     "quote": "About one-fifth of adults with hypertension had their blood pressure controlled (20.7%) to less than 130/80 mm Hg.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "51.2% of adults with hypertension report taking medication",
+     "quote": "Among adults with hypertension during August 2021–August 2023, 51.2% reported taking medications",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "kind": "agency_page",
+   "cited_as": "American Heart Association. Top 10 Things to Know About the New AHA/ACC High Blood Pressure Guideline.",
+   "url": "https://www.heart.org/en/health-topics/high-blood-pressure/the-facts-about-high-blood-pressure/high-bp-top-10",
+   "retrieved_with": "WebFetch of official page",
+   "version_or_date": "No page date shown; read 2026-11-07",
+   "notes": "Former claim \"only about one in four ... controlled\" is not on this page; moved to ref 3 with the correct 20.7% figure.",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "High BP is the leading risk factor for stroke and a number of heart conditions",
+     "quote": "High blood pressure is the leading risk factor for stroke and a number of heart conditions",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "BP category table (normal, elevated, stage 1, stage 2)",
+     "quote": "STAGE 1 HYPERTENSION (High Blood Pressure) 130 – 139 or 80 – 89",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Severe hypertension >180 and/or >120 without symptoms: call your health care professional",
+     "quote": "SEVERE HYPERTENSION (If you don't have symptoms*, call your health care professional.) HIGHER THAN 180 and/or HIGHER THAN 120",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Hypertensive emergency: >180/120 with symptoms, call 911",
+     "quote": "HYPERTENSIVE EMERGENCY (If you have any of these symptoms*, call 911.) HIGHER THAN 180 and/or HIGHER THAN 120",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Symptom list: chest pain, shortness of breath, back pain, numbness, weakness, vision change, difficulty speaking",
+     "quote": "*symptoms: chest pain, shortness of breath, back pain, numbness, weakness, change in vision or difficulty speaking",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Sodium 2,300 mg/day or less, moving toward ideal <1,500 mg",
+     "quote": "Adults should have 2,300 mg (about 1 teaspoon of salt) of sodium a day or less, moving toward an ideal limit of less than 1,500 mg",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "DASH named as an example of heart-healthy eating",
+     "quote": "Follow a heart healthy eating pattern, for example the DASH eating plan",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Drink less or no alcohol",
+     "quote": "Drink less or no alcohol to lower or prevent high blood pressure.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "kind": "journal",
+   "cited_as": "Juraschek SP, Miller ER, Weaver CM, Appel LJ. Effects of Sodium Reduction and the DASH Diet in Relation to Baseline Blood Pressure. J Am Coll Cardiol. 2017;70(23):2841-2848.",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5742671/",
+   "pmid": "29141784",
+   "pmcid": "PMC5742671",
+   "doi": "10.1016/j.jacc.2017.10.011",
+   "record_title": "Effects of Sodium Reduction and the DASH Diet in Relation to Baseline Blood Pressure.",
+   "record_journal": "J Am Coll Cardiol",
+   "record_year": "2017",
+   "article_type": "Journal Article; Randomized Controlled Trial",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract, article types)",
+   "notes": "Original DASH 5.5/11.4 figures moved to ref 15; PREMIER figure moved to ref 16 (corrected). scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice.",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Low sodium-DASH vs high sodium-control lowered SBP 5.3 to 20.8 mmHg by baseline stratum (key takeaway, citable entry, DASH bullet, realistic expectations 7.5 and 9.7)",
+     "quote": "The combined effects of the low sodium-DASH diet versus the high sodium-control diet on SBP were -5.3, -7.5, -9.7, and -20.8 mm Hg, respectively (p for trend <0.001).",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Population: pre- or stage 1 hypertension, not on medication; strata <130, 130-139, 140-149, >=150",
+     "quote": "adults with pre- or stage 1 hypertension and not using antihypertensive medications, were randomized to either DASH or a control diet",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "kind": "journal",
+   "cited_as": "Nuredini G, Saunders A, Rajkumar C, Okorie M. Current status of white coat hypertension: where are we? Ther Adv Cardiovasc Dis. 2020;14:1753944720931637.",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7318827/",
+   "pmid": "32580646",
+   "pmcid": "PMC7318827",
+   "doi": "10.1177/1753944720931637",
+   "record_title": "Current status of white coat hypertension: where are we?",
+   "record_journal": "Ther Adv Cardiovasc Dis",
+   "record_year": "2020",
+   "article_type": "Journal Article; Review",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract, article types)",
+   "notes": "The 15-30% prevalence figure is now cited to ref 9, which states it. 2025-guideline claims removed from this 2020 review. scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice.",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "White coat hypertension: elevated clinic BP with normal ambulatory or home BP",
+     "quote": "White coat hypertension (WCH) is characterised by an elevated clinic blood pressure (BP) with normal ambulatory or home BP.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "About one-third of untreated patients with elevated clinic BP; linked to sustained hypertension and target organ damage",
+     "quote": "occurs in approximately one-third of untreated patients with elevated clinic BP. Current evidence suggests that WCH is associated with cardiovascular risk factors, including the development of sustained hypertension and the presence of target organ damage.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Effect on cardiovascular outcomes still debated",
+     "quote": "its effects on cardiovascular outcomes remain a matter of debate",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "kind": "journal",
+   "cited_as": "Bress AP, Anderson TS, Flack JM, et al. The Management of Elevated Blood Pressure in the Acute Care Setting: A Scientific Statement From the American Heart Association. Hypertension. 2024;81(8):e94-e106.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38804130/",
+   "pmid": "38804130",
+   "doi": "10.1161/HYP.0000000000000238",
+   "record_title": "The Management of Elevated Blood Pressure in the Acute Care Setting: A Scientific Statement From the American Heart Association.",
+   "record_journal": "Hypertension",
+   "record_year": "2024",
+   "article_type": "Journal Article; Review (AHA Scientific Statement)",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract, article types)",
+   "notes": "Replaces former ref 7 (StatPearls \"Hypertensive Crisis\", NBK507701): the NCBI Bookshelf page returned a reCAPTCHA bot check this run and was not worked around. Abstract only; claims limited to the abstract. In-hospital 10% mortality and 1-year 20-30% figures were cut (no retrievable source). scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice.",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Hypertensive emergency = elevated BP with signs of new or worsening target-organ damage",
+     "quote": "Elevated inpatient BP is common and can manifest either as asymptomatic or with signs of new or worsening target-organ damage, a condition referred to as hypertensive emergency.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Hypertensive emergency treated swiftly, usually IV, in a closely monitored setting",
+     "quote": "Hypertensive emergency involves acute target-organ damage and should be treated swiftly, usually with intravenous antihypertensive medications, in a closely monitored setting.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Benefit/risk of treating asymptomatic elevated BP less clear; observational studies suggest potential harms (hospitalized patients)",
+     "quote": "the risk-benefit ratio of initiating or intensifying antihypertensive medications for asymptomatic elevated inpatient BP is less clear. Despite this ambiguity, clinicians prescribe oral or intravenous antihypertensive medications in approximately one-third of cases",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Potential harms of treating asymptomatic elevated inpatient BP",
+     "quote": "Recent observational studies have suggested potential harms associated with treating asymptomatic elevated inpatient BP",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "kind": "guideline",
+   "cited_as": "Jones DW, Ferdinand KC, Taler SJ, Johnson HM, et al. 2025 AHA/ACC/AANP/AAPA/ABC/ACCP/ACPM/AGS/AMA/ASPC/NMA/PCNA/SGIM Guideline for the Prevention, Detection, Evaluation and Management of High Blood Pressure in Adults. Circulation. 2025;152(11):e114-e218.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40811497/",
+   "pmid": "40811497",
+   "doi": "10.1161/CIR.0000000000001356",
+   "record_title": "2025 AHA/ACC/AANP/AAPA/ABC/ACCP/ACPM/AGS/AMA/ASPC/NMA/PCNA/SGIM Guideline for the Prevention, Detection, Evaluation and Management of High Blood Pressure in Adults: A Report of the American College of Cardiology/American Heart Association Joint Committee on Clinical Practice Guidelines.",
+   "record_journal": "Circulation",
+   "record_year": "2025",
+   "article_type": "Journal Article; Practice Guideline",
+   "version_or_date": "Circulation 2025;152(11):e114-e218 (PubMed date 2025-08-14); co-published J Am Coll Cardiol 2025;86(18):1567-1678 (PMID 40815242)",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract, article types); convert_article_ids (no PMCID); WebFetch of ahajournals.org (CIR and HYP versions) and jacc.org returned client errors",
+   "editorial_notices": [
+    "Published Erratum PMID 41212942 (Circulation 2025;152(19):e403)",
+    "Published Erratum PMID 41259465 (Hypertension 2025;82(12):e350)",
+    "Published Erratum PMID 41973840 (Circulation 2026;153(15):e1121)",
+    "Published Erratum PMID 41984986 (Hypertension 2026;83(5):e000262)",
+    "Published Erratum PMID 42189957 (Circulation 2026;153(21):e1359)",
+    "Published Erratum PMID 42160500 (Hypertension 2026;83(6):e00264)"
+   ],
+   "notes": "Abstract is scope-only; no PMC full text; publisher full text blocked this run. The stage 1 / PREVENT treatment rule could NOT be read in the guideline's own words. It is stated on the page from ref 1 (full text, co-authored by the guideline chair) and ref 21 (independent commentary), which agree on the rule but differ on recommendation strength for the <7.5% branch. Erratum contents not retrievable (abstracts not available); they are corrections, not retractions. Former ref 8 claims (PREVENT 7.5% described as a second hurdle after lifestyle) were wrong and rewritten; now cited to refs 1, 18, 21. scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice.",
+   "retrieved_at": "2026-11-07",
+   "claims": [
+    {
+     "text": "2025 guideline retires and replaces the 2017 guideline",
+     "quote": "retires and replaces the \"2017 ACC/AHA/AAPA/ABC/ACPM/AGS/APhA/ASH/ASPC/NMA/PCNA Guideline for the Prevention, Detection, Evaluation, and Management of High Blood Pressure in Adults.\"",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "kind": "journal",
+   "cited_as": "Muntner P, Shimbo D, Carey RM, et al. Measurement of Blood Pressure in Humans: A Scientific Statement From the American Heart Association. Hypertension. 2019;73(5):e35-e66.",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11409525/",
+   "pmid": "30827125",
+   "pmcid": "PMC11409525",
+   "doi": "10.1161/HYP.0000000000000087",
+   "record_title": "Measurement of Blood Pressure in Humans: A Scientific Statement From the American Heart Association.",
+   "record_journal": "Hypertension",
+   "record_year": "2019",
+   "article_type": "Journal Article; Review (AHA Scientific Statement)",
+   "retrieved_with": "PubMed connector get_full_text_article (PMC full text) + get_article_metadata",
+   "notes": "Full text read via PMC. Cut: brand names (OMRON, Withings, A&D), \"readings drift 15 mmHg in older adults\", talking 10 / legs crossed 5-8 / full bladder 10-15 mmHg error figures (not in retrieved text; likely in a table that did not come through), USPSTF 135/85 home threshold. Masked prevalence corrected from 10-20% to 15-30%; ABPM intervals corrected. scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice.",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "White coat hypertension 15% to 30% among patients with office BP in the hypertensive range (guide body, FAQ)",
+     "quote": "Among patients with office BP in the hypertensive range, the prevalence of white-coat hypertension using awake or 24-hour BP to define out-of-office BP is 15% to 30%.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Masked hypertension about 15-30% of adults with normotensive office BP",
+     "quote": "Masked hypertension is present in ≈15% to 30% of the general adult population whose office BP is in the normotensive range (eg, SBP/DBP <140/90 mm Hg).",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Masked hypertension more common with diabetes, CKD, OSA",
+     "quote": "Masked hypertension is more common among certain subgroups of the population, including those with diabetes mellitus, chronic kidney disease, and obstructive sleep apnea.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Masked hypertension CVD event rate similar to sustained hypertension",
+     "quote": "masked hypertension is associated with an incidence of CVD events similar to that seen among their counterparts with sustained hypertension.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "ABPM reference standard; home monitoring an alternative",
+     "quote": "Ambulatory BP monitoring is considered the reference standard for out-of-office BP assessment, with home BP monitoring being an alternative when ambulatory BP monitoring is not available or tolerated.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "ABPM readings every 15-30 min awake and 30 min asleep",
+     "quote": "A common approach is to obtain BP readings at 15- to 30-minute intervals while the individual is awake (eg, 6–10) and at 30-minute intervals while the individual is asleep (eg, 10–6).",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "ABPM identifies white coat, masked, nocturnal hypertension and nondipping",
+     "quote": "its ability to identify BP patterns (ie, sustained, white-coat, masked, and nocturnal hypertension, and nondipping or reverse-dipping BP) that cannot be detected with office BP alone",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Office readings in routine practice show substantial variability",
+     "quote": "Routine office BP measurements obtained in clinical practice with the auscultatory method demonstrate substantial variability.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Use only validated upper-arm oscillometric devices; many nonvalidated devices inaccurate",
+     "quote": "Healthcare providers should advise their patients to use only upper-arm cuff oscillometric devices that have successfully passed validation protocols",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Strong reservations about wrist monitors unless upper-arm measurement not feasible",
+     "quote": "strong reservations have been raised about their use in routine clinical practice, unless measurements in the upper arm are not feasible.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Too-small cuff gives artificially high reading",
+     "quote": "Using a cuff that is too small will result in an artificially elevated BP reading",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Talking and wrong cuff (miscuffing) are sources of measurement error",
+     "quote": "procedure-related (eg, talking during the procedure or miscuffing) factors",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Seated, feet flat, back supported, arm at heart level after at least 5 minutes rest",
+     "quote": "BP should be obtained only after at least 5 minutes of rest with the patient seated with feet flat on the floor, back supported, and arm at heart level.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Cuff on bare upper arm",
+     "quote": "The cuff should be pulled taut, with comparable tightness at the top and bottom edges of the cuff, around the bare upper arm.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Home protocol: 2 morning and 2 night readings for 7 days (28 readings); morning and evening measurement",
+     "quote": "recommended that diagnosis of hypertension with HBPM should be based on 2 measurements taken in the morning and 2 taken at night over a preferred period of 7 days (ie, 28 scheduled readings).",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Minimum 3 days (12 readings)",
+     "quote": "A minimum of 3 days (ie, 12 readings) for estimating mean home BP has also been recommended",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "First-day readings sometimes elevated and discarded",
+     "quote": "BP readings obtained on the first day of HBPM are sometimes elevated, and some have recommended that these measurements be discarded.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Home/ambulatory thresholds correspond to office levels such as 130/80",
+     "quote": "The regression-derived approach identifies BP levels on ABPM and HBPM that correspond to specific office BP levels (eg, 120/80, 130/80, and 140/90 mm Hg).",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "kind": "journal",
+   "cited_as": "Shimbo D, Artinian NT, Basile JN, et al. Self-Measured Blood Pressure Monitoring at Home: A Joint Policy Statement From the American Heart Association and American Medical Association. Circulation. 2020;142(4):e42-e63.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32567342/",
+   "pmid": "32567342",
+   "doi": "10.1161/CIR.0000000000000803",
+   "record_title": "Self-Measured Blood Pressure Monitoring at Home: A Joint Policy Statement From the American Heart Association and American Medical Association.",
+   "record_journal": "Circulation",
+   "record_year": "2020",
+   "article_type": "Journal Article",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract, article types)",
+   "notes": "Abstract only. Home thresholds (130/80, 135/85) removed from claims citing this ref. scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice.",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "BP can differ considerably in and out of the office",
+     "quote": "BP may differ considerably when measured in the office and when measured outside of the office setting",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Home monitoring helps diagnose white-coat and masked hypertension",
+     "quote": "Indications include the diagnosis of white-coat hypertension and masked hypertension",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Validated oscillometric devices preferred",
+     "quote": "Validated self-measured BP monitoring devices that use the oscillometric method are preferred",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "kind": "guideline",
+   "cited_as": "US Preventive Services Task Force, Krist AH, Davidson KW, et al. Screening for Hypertension in Adults: USPSTF Reaffirmation Recommendation Statement. JAMA. 2021;325(16):1650-1656.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33904861/",
+   "pmid": "33904861",
+   "doi": "10.1001/jama.2021.4987",
+   "record_title": "Screening for Hypertension in Adults: US Preventive Services Task Force Reaffirmation Recommendation Statement.",
+   "record_journal": "JAMA",
+   "record_year": "2021",
+   "article_type": "Journal Article; Practice Guideline",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract, article types)",
+   "version_or_date": "2021 reaffirmation (A recommendation)",
+   "notes": "Abstract only. Masked-hypertension, ABPM and 135/85 claims no longer cite this ref (moved to ref 9 or cut). scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice.",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "USPSTF recommends out-of-office BP for diagnostic confirmation before starting treatment",
+     "quote": "The USPSTF recommends obtaining blood pressure measurements outside of the clinical setting for diagnostic confirmation before starting treatment.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "kind": "journal",
+   "cited_as": "Sacks FM, Svetkey LP, Vollmer WM, Appel LJ, et al. Effects on blood pressure of reduced dietary sodium and the DASH diet. N Engl J Med. 2001;344(1):3-10.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/11136953/",
+   "pmid": "11136953",
+   "doi": "10.1056/NEJM200101043440101",
+   "record_title": "Effects on blood pressure of reduced dietary sodium and the Dietary Approaches to Stop Hypertension (DASH) diet. DASH-Sodium Collaborative Research Group.",
+   "record_journal": "N Engl J Med",
+   "record_year": "2001",
+   "article_type": "Clinical Trial; Randomized Controlled Trial; Multicenter Study",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract, article types)",
+   "notes": "Corrected: 7.1 mmHg was low-sodium DASH vs high-sodium control in people WITHOUT hypertension, not an extra drop over DASH alone in people with hypertension. \"Matched most single drugs\" cut. scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice.",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Low-sodium DASH vs high-sodium control: SBP 7.1 mmHg lower without hypertension, 11.5 lower with hypertension",
+     "quote": "the DASH diet with a low sodium level led to a mean systolic blood pressure that was 7.1 mm Hg lower in participants without hypertension, and 11.5 mm Hg lower in participants with hypertension.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "On control diet, sodium high to intermediate lowered SBP 2.1, intermediate to low a further 4.6",
+     "quote": "Reducing the sodium intake from the high to the intermediate level reduced the systolic blood pressure by 2.1 mm Hg (P<0.001) during the control diet",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Further 4.6 mmHg intermediate to low on control diet",
+     "quote": "Reducing the sodium intake from the intermediate to the low level caused additional reductions of 4.6 mm Hg during the control diet (P<0.001)",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Sodium reduction and DASH greater in combination than singly",
+     "quote": "both lower blood pressure substantially, with greater effects in combination than singly.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "kind": "journal",
+   "cited_as": "Liu J, Li Y, Ge J, et al; ESPRIT Collaborative Group. Lancet. 2024;404(10449):245-255.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38945140/",
+   "pmid": "38945140",
+   "doi": "10.1016/S0140-6736(24)01028-6",
+   "record_title": "Lowering systolic blood pressure to less than 120 mm Hg versus less than 140 mm Hg in patients with high cardiovascular risk with and without diabetes or previous stroke: an open-label, blinded-outcome, randomised trial.",
+   "record_journal": "Lancet",
+   "record_year": "2024",
+   "article_type": "Randomized Controlled Trial; Multicenter Study",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract, article types)",
+   "notes": "scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice.",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "ESPRIT: in hypertensive patients at high CV risk, targeting SBP <120 vs <140 prevents major vascular events regardless of diabetes or prior stroke, minor excess risk",
+     "quote": "the treatment strategy of targeting systolic blood pressure of less than 120 mm Hg, as compared with that of less than 140 mm Hg, prevents major vascular events, with minor excess risk.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "ESPRIT: no heterogeneity by diabetes or prior stroke",
+     "quote": "There was no heterogeneity of effects by diabetes status, duration of diabetes, or history of stroke.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "kind": "journal",
+   "cited_as": "Ettehad D, Emdin CA, Kiran A, et al. Blood pressure lowering for prevention of cardiovascular disease and death: a systematic review and meta-analysis. Lancet. 2016;387(10022):957-967.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/26724178/",
+   "pmid": "26724178",
+   "doi": "10.1016/S0140-6736(15)01225-8",
+   "record_title": "Blood pressure lowering for prevention of cardiovascular disease and death: a systematic review and meta-analysis.",
+   "record_journal": "Lancet",
+   "record_year": "2016 (PubMed electronic date 2015-12-24)",
+   "article_type": "Meta-Analysis; Systematic Review",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract, article types)",
+   "notes": "New ref. Percentages are 1 minus RR (0.72 -> 28%, 0.83 -> 17%, 0.73 -> 27%). Fixes the flipped-sign \"each 10 mmHg higher SBP raises HF risk 28%\" claim and supplies the source for the 27% stroke figure. scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice.",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Per 10 mmHg SBP reduction: heart failure -28% (RR 0.72), CHD -17% (RR 0.83), stroke -27% (RR 0.73); 123 trials",
+     "quote": "Every 10 mm Hg reduction in systolic blood pressure significantly reduced the risk of major cardiovascular disease events (relative risk [RR] 0·80, 95% CI 0·77-0·83), coronary heart disease (0·83, 0·78-0·88), stroke (0·73, 0·68-0·77), and heart failure (0·72, 0·67-0·78)",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "123 trials",
+     "quote": "We identified 123 studies with 613,815 participants for the tabular meta-analysis.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "kind": "journal",
+   "cited_as": "Appel LJ, Moore TJ, Obarzanek E, et al. A clinical trial of the effects of dietary patterns on blood pressure. N Engl J Med. 1997;336(16):1117-1124.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/9099655/",
+   "pmid": "9099655",
+   "doi": "10.1056/NEJM199704173361601",
+   "record_title": "A clinical trial of the effects of dietary patterns on blood pressure. DASH Collaborative Research Group.",
+   "record_journal": "N Engl J Med",
+   "record_year": "1997",
+   "article_type": "Clinical Trial; Randomized Controlled Trial; Multicenter Study",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract, article types)",
+   "notes": "New ref: primary source for the 5.5/11.4 mmHg figures previously attributed to refs 5 and 12. scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice.",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Original DASH: combination diet lowered SBP 5.5 mmHg more than control overall, 8 weeks",
+     "quote": "The combination diet reduced systolic and diastolic blood pressure by 5.5 and 3.0 mm Hg more, respectively, than the control diet",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "11.4 mmHg in participants with hypertension",
+     "quote": "Among the 133 subjects with hypertension (systolic pressure, > or =140 mm Hg; diastolic pressure, > or =90 mm Hg; or both), the combination diet reduced systolic and diastolic blood pressure by 11.4 and 5.5 mm Hg more",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Eight-week feeding period",
+     "quote": "They were then randomly assigned to receive for eight weeks the control diet",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "kind": "journal",
+   "cited_as": "Appel LJ, Champagne CM, Harsha DW, et al. Effects of comprehensive lifestyle modification on blood pressure control: main results of the PREMIER clinical trial. JAMA. 2003;289(16):2083-2093.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/12709466/",
+   "pmid": "12709466",
+   "doi": "10.1001/jama.289.16.2083",
+   "record_title": "Effects of comprehensive lifestyle modification on blood pressure control: main results of the PREMIER clinical trial.",
+   "record_journal": "JAMA",
+   "record_year": "2003",
+   "article_type": "Clinical Trial; Randomized Controlled Trial; Multicenter Study",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract, article types)",
+   "notes": "New ref. Corrects the former \"11.1 mmHg\" PREMIER claim (not in this abstract; net reductions are 3.7 and 4.3 mmHg). scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice.",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "PREMIER: 810 adults, above-optimal BP incl stage 1, not on medication",
+     "quote": "among 810 adults (mean [SD] age, 50 [8.9] years; 62% women; 34% African American) with above-optimal BP, including stage 1 hypertension (120-159 mm Hg systolic and 80-95 mm Hg diastolic), and who were not taking antihypertensive medications.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Net SBP reduction 3.7 (established) and 4.3 mmHg (established plus DASH)",
+     "quote": "the mean net reduction in systolic BP was 3.7 mm Hg (P<.001) in the established group and 4.3 mm Hg (P<.001) in the established plus DASH group",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Hypertension prevalence 38% baseline, 12% at 6 months with established plus DASH",
+     "quote": "Compared with the baseline hypertension prevalence of 38%, the prevalence at 6 months was 26% in the advice only group, 17% in the established group",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "12% in established plus DASH group",
+     "quote": "and 12% in the established plus DASH group (P<.001 compared with the advice only group",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "kind": "journal",
+   "cited_as": "Neter JE, Stam BE, Kok FJ, Grobbee DE, Geleijnse JM. Influence of weight reduction on blood pressure: a meta-analysis of randomized controlled trials. Hypertension. 2003;42(5):878-884.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/12975389/",
+   "pmid": "12975389",
+   "doi": "10.1161/01.HYP.0000094221.86888.AE",
+   "record_title": "Influence of weight reduction on blood pressure: a meta-analysis of randomized controlled trials.",
+   "record_journal": "Hypertension",
+   "record_year": "2003",
+   "article_type": "Journal Article; Meta-Analysis",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract, article types)",
+   "notes": "New ref. Former uncited \"about 4 kg, 4.5/3.2 mmHg\" corrected to 5.1 kg, 4.44/3.57 mmHg (diastolic -3.57 is in the same abstract sentence). scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice.",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "25 RCTs; 5.1 kg loss lowered BP 4.44/3.57 mmHg",
+     "quote": "A net weight reduction of -5.1 kg (95% confidence interval [CI], -6.03 to -4.25) by means of energy restriction, increased physical activity, or both reduced systolic blood pressure by -4.44 mm Hg",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Diastolic -3.57; 25 trials",
+     "quote": "Twenty-five randomized, controlled trials (comprising 34 strata) published between 1966 and 2002 with a total of 4874 participants were included.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "About 1 mmHg per kg",
+     "quote": "Blood pressure reductions were -1.05 mm Hg (95% CI, -1.43 to -0.66) systolic and -0.92 mm Hg (95% CI, -1.28 to -0.55) diastolic when expressed per kilogram of weight loss.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 18,
+   "kind": "journal",
+   "cited_as": "Khan SS, Matsushita K, Sang Y, et al. Development and Validation of the American Heart Association's PREVENT Equations. Circulation. 2024;149(6):430-449.",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10910659/",
+   "pmid": "37947085",
+   "pmcid": "PMC10910659",
+   "doi": "10.1161/CIRCULATIONAHA.123.067626",
+   "record_title": "Development and Validation of the American Heart Association's PREVENT Equations.",
+   "record_journal": "Circulation",
+   "record_year": "2024 (PubMed electronic date 2023-11-10)",
+   "article_type": "Journal Article; Research Support, N.I.H., Extramural",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract, article types)",
+   "notes": "New ref. Cut: 30-year risk, BMI as predictor wording, PCE race misclassification, and \"PREVENT reclassifies a meaningful fraction into lower risk\" (not retrieved). scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice.",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "PREVENT sex-specific, race-free; includes eGFR",
+     "quote": "Predictors included traditional risk factors (smoking status, systolic blood pressure, cholesterol, antihypertensive or statin use, and diabetes) and estimated glomerular filtration rate. Models were sex-specific, race-free",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Optional UACR, HbA1c, social deprivation index",
+     "quote": "include optional predictors (urine albumin-to-creatinine ratio and hemoglobin A1c), and social deprivation index were also developed.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 19,
+   "kind": "agency_page",
+   "cited_as": "US Food and Drug Administration. Sodium in Your Diet.",
+   "url": "https://www.fda.gov/food/nutrition-education-resources-materials/sodium-your-diet",
+   "retrieved_with": "WebFetch of official page",
+   "version_or_date": "Content current as of 03/05/2024",
+   "notes": "New ref.",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Average US intake about 3,400 mg/day",
+     "quote": "Americans eat on average about 3,400 mg of sodium per day.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Over 70% from packaged and prepared foods, not table salt",
+     "quote": "most dietary sodium (over 70%) comes from eating packaged and prepared foods—not from table salt added to food when cooking or eating.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "%DV: 5% or less low, 20% or more high",
+     "quote": "5% DV or less of sodium per serving is considered low, and 20% DV or more of sodium per serving is considered high.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 20,
+   "kind": "agency_page",
+   "cited_as": "WHO Regional Office for Europe. Physical activity (fact sheet). 1 September 2021.",
+   "url": "https://www.who.int/europe/news-room/fact-sheets/item/physical-activity",
+   "retrieved_with": "WebFetch of official page",
+   "version_or_date": "1 September 2021",
+   "notes": "New ref. Page continues \"on 2 or more days a week\" (retrieved). Replaces unsourced exercise mmHg figures (5-8, 5.2-8.3), which were cut.",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Adults: at least 150-300 minutes moderate-intensity aerobic per week",
+     "quote": "at least 150–300 minutes of moderate-intensity aerobic physical activity",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Muscle-strengthening on 2 or more days a week",
+     "quote": "muscle-strengthening activities at moderate or greater intensity that involve all major muscle groups",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 21,
+   "kind": "journal",
+   "cited_as": "Kanbay M, Copur S, Sarafidis P, Ferro CJ, Ortiz A. 2025 AHA/ACC/... guideline ...: a commentary from the European Renal Best Practice (ERBP). Nephrol Dial Transplant. 2026;41(10):1909-1918.",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13624793/",
+   "pmid": "41805831",
+   "pmcid": "PMC13624793",
+   "doi": "10.1093/ndt/gfag055",
+   "record_title": "2025 AHA/ACC/AANP/AAPA/ABC/ACCP/ACPM/AGS/AMA/ASPC/NMA/PCNA/SGIM guideline for the prevention, detection, evaluation and management of high blood pressure in adults: a commentary from the European Renal Best Practice (ERBP).",
+   "record_journal": "Nephrol Dial Transplant",
+   "record_year": "2026",
+   "article_type": "Journal Article (commentary)",
+   "retrieved_with": "PubMed connector get_full_text_article (PMC full text) + get_article_metadata",
+   "notes": "New ref: independent secondary summary of the 2025 guideline (guideline full text not retrievable this run). scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice.",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "2025 guideline defines hypertension >=130/80, as did 2017",
+     "quote": "(2025 AHA/ACC define hypertension as SBP ≥130 or DBP ≥80 mmHg, as did the prior 2017 guidelines)",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Hypertensive kidney disease second most common cause of incident kidney failure",
+     "quote": "hypertensive kidney disease remains the second most common cause of incident kidney failure",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Medication recommended (high risk) or found reasonable (not high risk, if not corrected by lifestyle) for SBP>=130 or DBP>=80",
+     "quote": "Initiation of pharmacological therapy is recommended (high CVD risk) or found reasonable (not high CVD risk, if not corrected by lifestyle) for all people with hypertension, defined as SBP ≥130 mmHg or DBP ≥80 mmHg.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "High risk = PREVENT >=7.5% (plus CVD, CKD, diabetes)",
+     "quote": "The 2025 AHA/ACC guidelines use an estimated 10-year CVD risk ≥7.5% as cut-off for high-risk definition based on the American Heart Association Predicting Risk of CVD EVENTs (PREVENT) equations",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Sodium below 2,300 mg/day, ideally below 1,500",
+     "quote": "Reduction of dietary sodium intake below 2300 mg/day (Class I recommendation, Level A of evidence), or ideally below 1500 mg/day",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Lifestyle: DASH as healthy diet, alcohol abstinence, physical activity, weight loss >=5%",
+     "quote": "healthy diet [such as the Dietary Approaches to Stop Hypertension (DASH) diet], alcohol abstinence (Class I recommendation, Level A of evidence), physical activity (Class I recommendation, Level A of evidence) and weight reduction of at least 5%",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Out-of-office BP for diagnosis and to exclude white-coat or masked HTN unless office >=160/100",
+     "quote": "strongly recommended out-of-office BP measurements for hypertension diagnosis or exclusion of white-coat or masked hypertension unless the patient has in-office SBP ≥160 mmHg or DBP ≥100 mmHg",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Guideline provides corresponding home/ambulatory/office values",
+     "quote": "they provided corresponding BP values between methodologies",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 22,
+   "kind": "other_web",
+   "cited_as": "American Medical Association. How to Measure Your Blood Pressure at Home (PDF handout, 2020), hosted on heart.org.",
+   "url": "https://cpr.heart.org/-/media/Files/Health-Topics/High-Blood-Pressure/measuringbpathome.pdf",
+   "retrieved_with": "WebFetch of official page (PDF)",
+   "version_or_date": "Copyright 2020 American Medical Association (20-444988:PDF:4/20)",
+   "notes": "New ref. The quote for posture combines five separate headings on the handout (joined by ...). Replaces \"if readings differ by >5 mmHg take a third\" and \"morning before medications / evening before dinner\" (not retrieved; cut or reworded).",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Avoid caffeine, cigarettes, stimulants 30 minutes before",
+     "quote": "Avoid caffeine, cigarettes and other stimulants 30 minutes before you measure your blood pressure.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Empty bladder; rest 5 minutes in position; quiet space",
+     "quote": "Empty your bladder beforehand.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Rest five minutes in position",
+     "quote": "Rest for five minutes while in position before starting.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Back supported, feet flat, legs uncrossed, cuff at heart level, cuff on bare arm above elbow",
+     "quote": "KEEP YOUR BACK SUPPORTED ... KEEP FEET FLAT ON THE FLOOR ... SIT WITH LEGS UNCROSSED ... POSITION ARM SO CUFF IS AT HEART LEVEL ... PUT CUFF ON BARE ARM, ABOVE ELBOW AT MID-ARM",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "No talking/distractions",
+     "quote": "Sit quietly with no distractions during measurements—avoid conversations, TV, phones and other devices.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Two or three readings one minute apart; record",
+     "quote": "Take two or three measurements, one minute apart.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 23,
+   "kind": "agency_page",
+   "cited_as": "NHLBI. DASH Eating Plan. Last updated February 25, 2026.",
+   "url": "https://www.nhlbi.nih.gov/education/dash-eating-plan",
+   "retrieved_with": "WebFetch of official page",
+   "version_or_date": "Last updated on February 25, 2026",
+   "notes": "New ref (servings list was previously uncited). Second quote is the table cells joined with semicolons. Food examples and \"1-oz\" serving size not on the page; removed.",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Serving targets for a 2,000-calorie-a-day diet",
+     "quote": "examples of daily and weekly servings that meet DASH eating plan targets for a 2,000-calorie-a-day diet.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Grains 6-8, meats/poultry/fish 6 or less, vegetables 4-5, fruit 4-5, dairy 2-3, fats/oils 2-3 daily; nuts/seeds/dry beans/peas 4-5 and sweets 5 or less weekly",
+     "quote": "Grains: 6–8; Meats, poultry, and fish: 6 or less; Vegetables: 4–5; Fruit: 4–5; Low-fat or fat-free dairy products: 2–3; Fats and oils: 2–3; Nuts, seeds, dry beans, and peas: 4–5; Sweets: 5 or less",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  }
+ ]
+}
