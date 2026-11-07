@@ -1,0 +1,509 @@
+{
+ "guide": "cyclosporiasis-outbreak-2026-guide",
+ "checked_at": "2026-11-07",
+ "checked_by": "Claude (repair run)",
+ "scite_verify_papers": "unavailable (quota exhausted until 2026-11-14); retraction status from PubMed article types",
+ "references": [
+  {
+   "n": 1,
+   "kind": "agency_page",
+   "cited_as": "Centers for Disease Control and Prevention (CDC). Clinical Overview of Cyclosporiasis. Reviewed September 18, 2026. Accessed November 7, 2026.",
+   "url": "https://www.cdc.gov/cyclosporiasis/hcp/clinical-overview/index.html",
+   "version_or_date": "Reviewed September 18, 2026",
+   "retrieved_with": "WebFetch of official page (targeted verbatim-quote extraction)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Untreated, illness lasts a few days to a month or longer and may follow a remitting-relapsing course",
+     "quote": "If untreated, the illness may last for a few days to a month or longer and may follow a remitting-relapsing course.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Common symptoms: watery diarrhea, loss of appetite, weight loss, abdominal cramping and bloating, increased gas, nausea, prolonged fatigue; less common: vomiting, body aches, headaches, low-grade fever",
+     "quote": "Common symptoms: Watery diarrhea; Loss of appetite; Weight loss; Abdominal cramping and bloating; Increased flatus; Nausea; Prolonged fatigue. Less common symptoms: Vomiting; Body aches; Headaches; Low-grade fever",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "CDC advises clinicians to consider Cyclospora as a potential cause of prolonged diarrheal illness",
+     "quote": "Consider Cyclospora as a potential cause of prolonged diarrheal illness",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Clinicians should specifically request Cyclospora testing when indicated; it is missed unless requested",
+     "quote": "Testing for Cyclospora is not routinely conducted in most U.S. laboratories, even when stool is tested for parasites. Healthcare providers should specifically request testing for Cyclospora if indicated.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Even people with symptoms might not shed enough oocysts to be readily detected",
+     "quote": "even symptomatic patients might not shed enough oocysts in their stool to be readily detectable",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "kind": "agency_page",
+   "cited_as": "Centers for Disease Control and Prevention (CDC). About Cyclosporiasis. Reviewed September 10, 2026. Accessed November 7, 2026.",
+   "url": "https://www.cdc.gov/cyclosporiasis/about/index.html",
+   "version_or_date": "Reviewed September 10, 2026",
+   "retrieved_with": "WebFetch of official page (targeted verbatim-quote extraction)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "Former ref 5 (same URL) merged into this entry.",
+   "claims": [
+    {
+     "text": "Spreads through food or water contaminated with human feces",
+     "quote": "Cyclospora spreads when people eat food or drink water that is contaminated with human poop (feces or stool).",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Direct person-to-person spread is unlikely",
+     "quote": "This means that spread directly from person to person is unlikely.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Takes around 1 to 2 weeks outside the body to become infectious",
+     "quote": "It takes Cyclospora around 1 to 2 weeks after passing in a bowel movement and outside the body to become infectious.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Incubation usually about one week, range 2 days to 2 weeks or more",
+     "quote": "The time between becoming infected and becoming sick is usually about one week but can range from 2 days to 2 weeks or more.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Infects the small intestine and causes watery, sometimes frequent diarrhea",
+     "quote": "The Cyclospora parasite infects the small intestine and can cause watery and sometimes frequent diarrhea.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Children, people with weakened immune systems, and older people may have more severe illness or complications from severe dehydration",
+     "quote": "Children, people with weakened immune systems, and older people may experience more severe illness or complications from severe dehydration.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Rest and drink plenty of fluids with diarrhea",
+     "quote": "It's important that you rest and drink plenty of fluids if you have diarrhea.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Outbreaks have been linked to various types of fresh produce",
+     "quote": "outbreaks of cyclosporiasis have been linked to various types of fresh produce.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "kind": "agency_page",
+   "cited_as": "Centers for Disease Control and Prevention (CDC). Clinical Care of Cyclosporiasis. Reviewed September 18, 2026. Accessed November 7, 2026.",
+   "url": "https://www.cdc.gov/cyclosporiasis/hcp/clinical-care/index.html",
+   "version_or_date": "Reviewed September 18, 2026",
+   "retrieved_with": "WebFetch of official page (targeted verbatim-quote extraction)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "TMP-SMX (Bactrim, Septra, Cotrim) is the treatment of choice",
+     "quote": "Trimethoprim-sulfamethoxazole (TMP-SMX) is the treatment of choice for cyclosporiasis. ... sold as Bactrim, Septra, or Cotrim",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Adult regimen: TMP 160 mg + SMX 800 mg (one DS tablet) orally twice daily for 7-10 days",
+     "quote": "TMP 160 mg plus SMX 800 mg (one double strength tablet), orally, twice a day, for 7–10 days.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Patients with weakened immune systems may need longer courses",
+     "quote": "Patients with weakened immune systems may need longer courses of therapy.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "No highly effective alternative for TMP-SMX allergy or intolerance",
+     "quote": "No highly effective alternatives have been identified for patients who are allergic to (or are intolerant of) TMP-SMX.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Approaches: observation and symptomatic treatment, or nitazoxanide and ciprofloxacin if TMP-SMX not feasible; effectiveness uncertain",
+     "quote": "Observation and symptomatic treatment ... Use of nitazoxanide and ciprofloxacin—if treatment with TMP-SMX is not feasible ... Effectiveness of either alternative drug is uncertain",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Desensitization only for selected patients who require treatment, evaluated by an allergist, without life-threatening allergy",
+     "quote": "This approach should be considered only for selected patients who require treatment, have been evaluated by an allergist, and do not have a life-threatening allergy",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Most patients with healthy immune systems recover without treatment",
+     "quote": "Most patients who have healthy immune systems will recover without treatment.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "kind": "agency_page",
+   "cited_as": "Centers for Disease Control and Prevention (CDC). Preventing Cyclosporiasis. Reviewed September 11, 2026. Accessed November 7, 2026.",
+   "url": "https://www.cdc.gov/cyclosporiasis/prevention/index.html",
+   "version_or_date": "Reviewed September 11, 2026",
+   "retrieved_with": "WebFetch of official page (targeted verbatim-quote extraction)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Washing alone cannot guarantee removal; cook produce to at least 158 F (70 C)",
+     "quote": "Cook produce to a temperature of at least 158 °F (70°C), since washing alone can't guarantee the parasite's removal.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Travel advice: routine treatment of food or water is unlikely to kill Cyclospora",
+     "quote": "routine treatment of food or water is unlikely to kill Cyclospora.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Prevention steps: handwashing, washing produce under running water, scrubbing firm produce, cutting away damaged areas, refrigerating within two hours",
+     "quote": "Wash your hands with soap and water before and after handling or preparing raw fruits and vegetables. ... Scrub firm fruits and vegetables like melons and cucumbers with a clean produce brush under running water. ... (within two hours)",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "kind": "agency_page",
+   "cited_as": "Centers for Disease Control and Prevention (CDC). Clinical Testing and Diagnosis for Cyclosporiasis. Reviewed September 10, 2026. Accessed November 7, 2026.",
+   "url": "https://www.cdc.gov/cyclosporiasis/hcp/diagnosis-testing/index.html",
+   "version_or_date": "Reviewed September 10, 2026",
+   "retrieved_with": "WebFetch of official page (targeted verbatim-quote extraction)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "New source (replaces duplicate former ref 5). Supplies the testing details the audit found missing from ref 1.",
+   "claims": [
+    {
+     "text": "Testing not routine in most U.S. labs; not all GI PCR panels include a Cyclospora target",
+     "quote": "Testing for Cyclospora is not routinely conducted in most U.S. laboratories, even in stool being tested for parasites. ... Similarly, not all gastrointestinal polymerase chain reaction (PCR) panels include a target for Cyclospora.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Methods: PCR for parasite DNA; modified acid-fast or hot safranin stains; UV fluorescence (oocysts blue or green)",
+     "quote": "Molecular diagnostic methods such as PCR analysis are used to look for the parasite's DNA in the stool. The oocysts can be stained with modified acid-fast or modified (\"hot\") safranin techniques.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Patients might need several specimens collected on different days",
+     "quote": "Patients might need to submit several specimens collected on different days.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "kind": "agency_page",
+   "cited_as": "U.S. Food and Drug Administration (FDA). Investigation of Multistate Outbreak of Cyclospora Illnesses: Iceberg Lettuce (July 2026). Content current as of October 2, 2026. Accessed November 7, 2026.",
+   "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/investigation-5-state-outbreak-cyclospora-illnesses-iceberg-lettuce-july-2026",
+   "version_or_date": "Content current as of 10/02/2026 (latest update October 2, 2026)",
+   "retrieved_with": "WebFetch of official page (targeted verbatim-quote extraction)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "Page title changed from the 5-state framing to \"Investigation of Multistate Outbreak of Cyclospora Illnesses: Iceberg Lettuce (July 2026)\"; URL slug unchanged. Page also names Taco Bell and Walmart (Marketside); guide names only Taylor Farms de Mexico.",
+   "claims": [
+    {
+     "text": "Outbreak linked to iceberg lettuce from Taylor Farms de Mexico on epidemiologic and traceback data",
+     "quote": "FDA’s traceback investigation and outbreak data continue to converge on shredded iceberg lettuce ... strong epidemiological data and traceback convergence supporting the link ... Taylor Farms de Mexico",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "12,883 illnesses, 570 hospitalizations, 2 deaths, 21 states",
+     "quote": "Total Illnesses: 12,883 Hospitalizations: 570 Deaths: 2 States with Cases: AR, GA, IA, IL, IN, KS, KY, MA, ME, MI, MO, NE, NH, NC, OH, OK, PA, TN, TX, VA, and WV",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "FDA investigation closed",
+     "quote": "FDA’s outbreak investigation has closed.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "One lettuce sample was a false positive; did not change the basis of the investigation",
+     "quote": "this false-positive lab sample DOES NOT change the basis for FDA’s ongoing outbreak investigation",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Taylor Farms initiated a recall on July 17",
+     "quote": "On July 17, Taylor Farms initiated a recall",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "kind": "dataset",
+   "cited_as": "Centers for Disease Control and Prevention (CDC). Cyclospora Case Data. Updated October 23, 2026. Accessed November 7, 2026.",
+   "url": "https://www.cdc.gov/cyclosporiasis/cases/index.html",
+   "version_or_date": "Updated and reviewed October 23, 2026; data preliminary",
+   "retrieved_with": "WebFetch of official page (targeted verbatim-quote extraction); former surveillance URL returned no readable content, replaced by the current CDC Case Data page",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "Replaces former ref 7 (Surveillance of Cyclosporiasis, July 10, 2026). Old ages 5-88, median 44 corrected to median 47, range 1-99.",
+   "claims": [
+    {
+     "text": "2026 season: 20,996 lab-confirmed U.S.-acquired cases vs 1,180 in same period of 2025 (far more than 2025)",
+     "quote": "CDC has received reports of 20,996 laboratory-confirmed cases of cyclosporiasis acquired in the United States ... For comparison, 1,180 cases were reported in the United States between May 1 and August 31, 2025.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "About six weeks from symptom onset to CDC receiving a case report",
+     "quote": "It takes about six weeks from the start of symptoms to when CDC receives the case information.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Season May 1 through August 31, highest-case period in a typical year",
+     "quote": "The U.S. cyclosporiasis season is May 1 through August 31, the period with the highest number of Cyclospora cases in a typical year.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Median age 47, range 1 to 99 years",
+     "quote": "Median age of cases 47 years (range 1 to 99 years)",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Tracker: jurisdictions reporting \"49 plus the District of Columbia\", 1,161 hospitalizations, 2 deaths, 13,002 cases under investigation for U.S. vs travel acquisition",
+     "quote": "49 plus the District of Columbia ... Hospitalizations: 1,161 ... Deaths: 2 ... There were 13,002 laboratory-confirmed cases of cyclosporiasis reported to CDC requiring further investigation to determine whether they were acquired in the United States or during travel.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "kind": "journal",
+   "cited_as": "Herwaldt BL. Cyclospora cayetanensis: a review, focusing on the outbreaks of cyclosporiasis in the 1990s. Clinical Infectious Diseases. 2000;31(4):1040&ndash;1057. PMID 11049789.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/11049789/",
+   "pmid": "11049789",
+   "doi": "10.1086/314051",
+   "record_title": "Cyclospora cayetanensis: a review, focusing on the outbreaks of cyclosporiasis in the 1990s.",
+   "record_journal": "Clin Infect Dis",
+   "record_year": "2000",
+   "article_type": "Journal Article; Review",
+   "retrieved_with": "PubMed get_article_metadata",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "Link changed from publisher page to the PubMed record retrieved. scite_unavailable (quota exhausted until 2026-11-14); PubMed article_types checked: no Retracted Publication or Retraction Notice. Food-handler inference and \"warm, moist\" detail cut (not in abstract).",
+   "claims": [
+    {
+     "text": "Oocysts likely need days to weeks outside a host to become infectious",
+     "quote": "a parasite that likely requires days to weeks outside the host to become infectious",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "kind": "agency_page",
+   "cited_as": "U.S. Food and Drug Administration (FDA). Warning Letter: Fresh Express Inc (Div of Chiquita Brands), MARCS-CMS 609899. October 20, 2020.",
+   "url": "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/fresh-express-inc-609899-div-chiquita-brands",
+   "version_or_date": "Warning letter dated October 20, 2020 (MARCS-CMS 609899)",
+   "retrieved_with": "WebFetch of official page (targeted verbatim-quote extraction)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "No longer co-cited for oocyst persistence or sanitizer claims (not on page).",
+   "claims": [
+    {
+     "text": "2018: 511 confirmed cases from 15 states; salads (a salad-mix vehicle) sold at a fast food restaurant made at the Streamwood, IL facility",
+     "quote": "In 2018, a multistate foodborne outbreak of cyclosporiasis involving 511 confirmed cases from 15 states was linked to salads sold at a fast food restaurant and manufactured at your Streamwood, IL facility.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "kind": "journal",
+   "cited_as": "Hadjilouka A, Tsaltas D. Cyclospora cayetanensis: Major Outbreaks from Ready to Eat Fresh Fruits and Vegetables. Foods. 2020;9(11):1703. PMID 33233660.",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7699734/",
+   "pmid": "33233660",
+   "pmcid": "PMC7699734",
+   "doi": "10.3390/foods9111703",
+   "record_title": "Cyclospora Cayetanensis-Major Outbreaks from Ready to Eat Fresh Fruits and Vegetables.",
+   "record_journal": "Foods",
+   "record_year": "2020",
+   "article_type": "Journal Article; Review",
+   "retrieved_with": "PubMed get_article_metadata",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "Citation corrected: authors were misprinted as \"Almeria S et al.\" and title/date range \"1996-2021\" was wrong; record is Hadjilouka A, Tsaltas D, Foods 2020;9(11):1703. Now cited only for the general produce pattern; table rows previously pinned to it (1999, 2013, 2019, 2021) were removed or re-sourced. scite_unavailable (quota exhausted until 2026-11-14); PubMed article_types checked: no Retracted Publication or Retraction Notice.",
+   "claims": [
+    {
+     "text": "Outbreaks increasingly associated with fresh produce that is hard to clean and eaten without processing",
+     "quote": "an increasing number of foodborne outbreaks has been associated with the consumption of fresh produce that is difficult to clean thoroughly and is consumed without processing",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "kind": "journal",
+   "cited_as": "Herwaldt BL, Ackers ML; Cyclospora Working Group. An outbreak in 1996 of cyclosporiasis associated with imported raspberries. New England Journal of Medicine. 1997;336(22):1548&ndash;1556. PMID 9164810.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/9164810/",
+   "pmid": "9164810",
+   "doi": "10.1056/NEJM199705293362202",
+   "record_title": "An outbreak in 1996 of cyclosporiasis associated with imported raspberries. The Cyclospora Working Group.",
+   "record_journal": "N Engl J Med",
+   "record_year": "1997",
+   "article_type": "Journal Article",
+   "retrieved_with": "PubMed get_article_metadata",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "scite_unavailable (quota exhausted until 2026-11-14); PubMed article_types checked: no Retracted Publication or Retraction Notice.",
+   "claims": [
+    {
+     "text": "1996: 1,465 cases from 20 states, DC and 2 provinces",
+     "quote": "A total of 1465 cases of cyclosporiasis were reported by 20 states, the District of Columbia, and 2 provinces.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Raspberries imported from Guatemala",
+     "quote": "the raspberries definitely came from Guatemala (21 events, 72.4 percent) or may have come from Guatemala (8 events, 27.6 percent).",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "kind": "agency_page",
+   "cited_as": "U.S. Food and Drug Administration (FDA). Outbreak Investigation of Cyclospora: Bagged Salads (June 2020). Content current as of September 25, 2020.",
+   "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-cyclospora-bagged-salads-june-2020",
+   "version_or_date": "Content current as of 09/25/2020",
+   "retrieved_with": "WebFetch of official page (targeted verbatim-quote extraction)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "2020: 701 illnesses in 14 states; Fresh Express salad with iceberg lettuce, red cabbage, carrots",
+     "quote": "Total Illnesses: 701 ... States with Cases: GA (1), IL (211), IA (206), KS (5), MA (1), MI (4), MN (86), MO (57), NE (55), ND (6), OH (7), PA (2), SD (13), WI (47)",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Traceback completed but cause or source not determined",
+     "quote": "FDA’s traceback investigation is complete, however the cause or source of the outbreak has not been determined.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "kind": "agency_page",
+   "cited_as": "Centers for Disease Control and Prevention (CDC). Investigation Update: Cyclospora Outbreak, July 2026. Updated September 11, 2026. Accessed November 7, 2026.",
+   "url": "https://www.cdc.gov/cyclosporiasis/outbreaks/07-26/investigation.html",
+   "version_or_date": "Updated September 11, 2026",
+   "retrieved_with": "WebFetch of official page (targeted verbatim-quote extraction)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "New reference (page was already linked inline in the original prevention section).",
+   "claims": [
+    {
+     "text": "Epidemiologic and traceback data linked the outbreak to iceberg lettuce from Taylor Farms de Mexico",
+     "quote": "Epidemiologic and traceback data showed that iceberg lettuce from Taylor Farms de Mexico",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Outbreak has ended; contaminated lettuce no longer available",
+     "quote": "This outbreak has ended. ... The contaminated lettuce linked to this outbreak is no longer available in stores or restaurants.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "12,883 illnesses from 21 states",
+     "quote": "The total case count associated with this multistate outbreak was 12,883 illnesses reported from 21 states.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "kind": "agency_page",
+   "cited_as": "Centers for Disease Control and Prevention (CDC). Notes from the Field: Outbreaks of Cyclosporiasis, United States, June&ndash;August 2013. MMWR Morbidity and Mortality Weekly Report. 2013;62(43):862.",
+   "url": "https://www.cdc.gov/mmwr/preview/mmwrhtml/mm6243a5.htm",
+   "version_or_date": "MMWR 2013;62(43):862, published November 1, 2013",
+   "retrieved_with": "WebFetch of official page (targeted verbatim-quote extraction)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "New primary CDC source for the 2013 row (replaces unsupported \"~162, bagged salad mix from Mexico\").",
+   "claims": [
+    {
+     "text": "2013: 643 cases from 25 states as of Sept. 20, 2013",
+     "quote": "CDC had been notified of 643 cases from 25 states",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Iowa/Nebraska salad mix; Texas cluster linked to fresh cilantro from Puebla, Mexico",
+     "quote": "were linked to a salad mix that contained iceberg lettuce, romaine lettuce, red cabbage, and carrots. ... Puebla, Mexico, was a source of fresh cilantro served to ill persons at restaurant A.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "kind": "agency_page",
+   "cited_as": "Centers for Disease Control and Prevention (CDC). Outbreak of Cyclospora Infections Linked to Fresh Basil from Siga Logistics de RL de CV of Morelos, Mexico. Last updated September 30, 2019.",
+   "url": "https://www.cdc.gov/parasites/cyclosporiasis/outbreaks/2019/weekly/index.html",
+   "version_or_date": "Last updated September 30, 2019; page last reviewed December 2, 2019",
+   "retrieved_with": "WebFetch of official page (targeted verbatim-quote extraction)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "New primary CDC source for the 2019 row (241 cases, replacing a mis-sourced figure).",
+   "claims": [
+    {
+     "text": "2019: 241 laboratory-confirmed cases in 11 states; fresh basil from Morelos, Mexico",
+     "quote": "As of September 27, 2019, 241 people with laboratory-confirmed Cyclospora infections ... had been reported from 11 states. ... fresh basil exported by Siga Logistics de RL de CV of Morelos, Mexico was a likely source of this outbreak.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  }
+ ]
+}
