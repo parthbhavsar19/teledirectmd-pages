@@ -1,0 +1,1460 @@
+{
+  "guide": "bacterial-vaginosis-bv-guide",
+  "checked_at": "2026-11-07",
+  "checked_by": "Claude (repair run)",
+  "scite_verify_papers": "unavailable (quota exhausted until 2026-11-14); retraction status from PubMed article types",
+  "references": [
+    {
+      "n": 1,
+      "kind": "guideline",
+      "cited_as": "Workowski KA, Bachmann LH, Chan PA, et al. Sexually Transmitted Infections Treatment Guidelines, 2021. MMWR Recomm Rep. 2021;70(4):1-187. PMID 34292926",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34292926/",
+      "pmid": "34292926",
+      "pmcid": "PMC8344968",
+      "doi": "10.15585/mmwr.rr7004a1",
+      "record_title": "Sexually Transmitted Infections Treatment Guidelines, 2021.",
+      "record_journal": "MMWR Recomm Rep",
+      "record_year": "2021",
+      "article_type": "Journal Article; Practice Guideline",
+      "version_or_date": "MMWR Recomm Rep 2021;70(4):1-187, published 2021-07-23",
+      "retrieved_with": "PubMed connector get_article_metadata + get_full_text_article (PMC full text)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice. PMC full-text extraction drops italicized organism and drug names, so some verbatim quotes show gaps where those names were.",
+      "claims": [
+        {
+          "text": "BV is the most common cause of vaginal discharge worldwide",
+          "quote": "BV is a highly prevalent condition and the most common cause of vaginal discharge worldwide",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "BV is a dysbiosis: normal H2O2 and lactic acid producing lactobacilli replaced by high concentrations of anaerobes",
+          "quote": "BV is a vaginal dysbiosis resulting from replacement of normal hydrogen peroxide and lactic-acid–producingspecies in the vagina with high concentrations of anaerobic bacteria",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "A polymicrobial biofilm on vaginal epithelial cells is a notable feature",
+          "quote": "A notable feature is the appearance of a polymicrobial biofilm on vaginal epithelial cells",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Cause not fully understood; whether BV results from a single sexually transmitted pathogen is unknown",
+          "quote": "The cause of the microbial alteration that precipitates BV is not fully understood, and whether BV results from acquisition of a single sexually transmitted pathogen is unknown.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Women who have never been sexually active are rarely affected",
+          "quote": "Women who have never been sexually active are rarely affected",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Some women have transient microbial changes, others longer intervals",
+          "quote": "Certain women experience transient vaginal microbial changes, whereas others experience them for longer intervals",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "BV prevalence increases during menses",
+          "quote": "In addition, BV prevalence increases during menses",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Hormonal contraception does not increase BV risk and might protect",
+          "quote": "Hormonal contraception does not increase risk for BV () and might protect against BV development",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Women try OTC products before or alongside evaluation; history alone insufficient and can lead to wrong medication",
+          "quote": "women often seek these products before or in addition to an evaluation by a medical provider. ... history alone has been reported to be insufficient for accurate diagnosis of vaginitis and can lead to inappropriate administration of medication",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Careful history, examination and lab testing warranted for any vaginal symptoms",
+          "quote": "a careful history, examination, and laboratory testing to determine the etiology of any vaginal symptoms are warranted",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Amsel criteria: at least 3 of 4 (thin homogeneous discharge, clue cells, pH >4.5, fishy odor with 10% KOH)",
+          "quote": "Amsel criteria requires at least three of the following four symptoms or signs ... Clue cells ... pH of vaginal fluid >4.5 ... A fishy odor of vaginal discharge before or after addition of 10% KOH",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Thin homogeneous discharge that smoothly coats the vaginal walls",
+          "quote": "Homogeneous, thin discharge (milklike consistency) that smoothly coats the vaginal walls",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Amsel sensitivity 37 to 70 percent, specificity 94 to 99 percent vs Nugent",
+          "quote": "The sensitivity and specificity of the Amsel criteria are 37%–70% and 94%–99%, respectively, compared with the Nugent score",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Gram stain is the reference standard laboratory method",
+          "quote": "Vaginal Gram stain, considered the reference standard laboratory method for diagnosing BV",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Nugent 7 to 10 BV, 4 to 6 intermediate, 0 to 3 lactobacillus-predominant",
+          "quote": "A Nugent score of 0–3 is consistent with a-predominant vaginal microbiota, 4–6 with intermediate microbiota (emergence of), and 7–10 with BV.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "BV NAATs: high sensitivity and specificity, clinician- or self-collected, symptomatic women only",
+          "quote": "They can be performed on either clinician- or self-collected vaginal specimens ... BV NAATs should be used among symptomatic women only ... because their accuracy is not well defined for asymptomatic women.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Traditional methods remain useful because of lower cost and rapid diagnosis",
+          "quote": "remain useful for diagnosing symptomatic BV because of their lower cost and ability to provide a rapid diagnosis",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "2021 update added alternative BV treatment options",
+          "quote": "3) alternative treatment options for bacterial vaginosis",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Treatment recommended for symptomatic women; established benefit is relief of symptoms",
+          "quote": "Treatment for BV is recommended for women with symptoms. Established benefits of therapy among nonpregnant women are to relieve vaginal symptoms and signs of infection.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Potential benefits include lower risk of acquiring STIs incl. HIV, HPV, HSV-2; no direct oral vs topical comparison",
+          "quote": "Other potential benefits of treatment include reduction in the risk for acquiring,,, HIV, HPV, and HSV-2 ... No data are available that directly compare the efficacy of oral and topical medications for treating BV.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Recommended regimens: metronidazole 500 mg BID x7d; gel 0.75% 5 g daily x5d; clindamycin 2% cream 5 g at bedtime x7d",
+          "quote": "500 mg orally 2 times/day for 7 days ... one full applicator (5 g) intravaginally, once daily for 5 days ... one full applicator (5 g) intravaginally at bedtime for 7 days",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Alternative regimens: clindamycin 300 mg BID x7d, ovules 100 mg x3d, secnidazole 2 g once, tinidazole 2 g daily x2d or 1 g daily x5d",
+          "quote": "300 mg orally 2 times/day for 7 days ... 100 mg intravaginally once at bedtime for 3 days ... 2 g oral granules in a single dose ... 2 g orally once daily for 2 days",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Tinidazole alternative 1 g daily for 5 days",
+          "quote": "1 g orally once daily for 5 days",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Phase 3 secnidazole trial: clinical cure days 21 to 30, 53 vs 19 percent",
+          "quote": "BV clinical cure rates at days 21–30 were 53% in the secnidazole arm compared with 19% in the placebo arm (p<0.001)",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Secnidazole listed as alternative due to higher cost and lack of long-term outcomes",
+          "quote": "Secnidazole is listed as an alternative regimen, due to its higher cost and lack of long-term outcomes compared with recommended BV treatments.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "CDC: refraining from alcohol while taking metronidazole (or tinidazole) is unnecessary",
+          "quote": "Thus, refraining from alcohol use while taking metronidazole (or tinidazole) is unnecessary.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Cited review found no convincing evidence of disulfiram-like interaction with metronidazole",
+          "quote": "A review regarding alcohol consumption during metronidazole treatment reported no in vitro studies, animal models, reports of adverse effects, or clinical studies providing convincing evidence of a disulfiram-like interaction between alcohol and metronidazole",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "For tinidazole CDC states the same in parentheses; the evidence it describes concerns metronidazole",
+          "quote": "Metronidazole does not inhibit acetaldehyde dehydrogenase, as occurs with disulfiram. Ethanol alone or ethanol-independent side effects of metronidazole might explain the suspicion of disulfiram-like effects. Thus, refraining from alcohol use while taking metronidazole (or tinidazole) is unnecessary.",
+          "quote_source": "full_text",
+          "verdict": "partly_supported"
+        },
+        {
+          "text": "Clindamycin cream is oil based; might weaken latex condoms and diaphragms for 5 days",
+          "quote": "Clindamycin cream is oil based and might weaken latex condoms and diaphragms for 5 days after use",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Clindamycin ovules: avoid latex products within 72 hours",
+          "quote": "Clindamycin ovules use an oleaginous base that might weaken latex or rubber products (e.g., condoms and diaphragms). Use of such products within 72 hours after treatment with clindamycin ovules is not recommended.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Refrain from sex or use condoms during treatment; douching might increase relapse, no data support it",
+          "quote": "Women should be advised to refrain from sexual activity or to use condoms consistently and correctly during the BV treatment regimen. Douching might increase the risk for relapse, and no data support use of douching for treatment or symptom relief.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "No studies support probiotic products as adjunctive or replacement therapy",
+          "quote": "overall, no studies support these products as an adjunctive or replacement therapy for women with BV",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Clindamycin cream preferred with metronidazole or tinidazole allergy/intolerance; gel if oral metronidazole not tolerated",
+          "quote": "Intravaginal clindamycin cream is preferred in case of allergy or intolerance to metronidazole or tinidazole. Intravaginal metronidazole gel can be considered for women who are not allergic to metronidazole but do not tolerate oral metronidazole.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "All women with BV should be tested for HIV and other STIs",
+          "quote": "All women with BV should be tested for HIV and other STIs.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Return for evaluation if symptoms recur",
+          "quote": "Because persistent or recurrent BV is common, women should be advised to return for evaluation if symptoms recur.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Suppression: twice weekly 0.75% gel or 750 mg suppository >3 months reduces recurrences; benefit does not persist after stopping",
+          "quote": "either 0.75% metronidazole gel or 750 mg metronidazole vaginal suppository twice weekly for >3 months has been reported to reduce recurrences, although this benefit does not persist when suppressive therapy is discontinued",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Limited-data option: nitroimidazole 7d, boric acid 600 mg x21d, then twice-weekly gel 4 to 6 months",
+          "quote": "an oral nitroimidazole (metronidazole or tinidazole 500 mg 2 times/day for 7 days), followed by intravaginal boric acid 600 mg daily for 21 days and suppressive 0.75% metronidazole gel twice weekly for 4–6 months, might be an option",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Lactin-V not yet FDA cleared or commercially available",
+          "quote": "however this medication is not yet FDA cleared or commercially available",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Routine treatment of sex partners not recommended (2021)",
+          "quote": "Therefore, routine treatment of sex partners is not recommended.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Phase 3 trial of 7-day oral metronidazole for male partners did not reduce recurrence",
+          "quote": "A phase 3 multicenter randomized double-blinded trial evaluating the efficacy of a 7-day oral metronidazole regimen versus placebo for treatment of male sex partners of women with recurrent BV did not find that male partner treatment reduced BV recurrence",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "BV-associated bacteria can be identified on male genitalia",
+          "quote": "Although BV-associated bacteria can be identified on male genitalia",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Treat all symptomatic pregnant women; BV associated with PROM, preterm birth, intra-amniotic infection, postpartum endometritis",
+          "quote": "BV treatment is recommended for all symptomatic pregnant women because symptomatic BV has been associated with adverse pregnancy outcomes, including premature rupture of membranes, preterm birth, intra-amniotic infection, and postpartum endometritis",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Metronidazole low risk in pregnancy; tinidazole avoided; secnidazole data insufficient so avoid",
+          "quote": "metronidazole therapy poses low risk during pregnancy ... tinidazole should be avoided during pregnancy ... Data are insufficient regarding efficacy and adverse effects of secnidazole ... thus, their use should be avoided.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Pregnant women can use any recommended regimen plus oral clindamycin or ovules",
+          "quote": "Pregnant women can be treated with any of the recommended regimens for nonpregnant women, in addition to the alternative regimens of oral clindamycin and clindamycin ovules.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Routine screening of asymptomatic pregnant women not recommended",
+          "quote": "routine screening for BV among asymptomatic pregnant women at high or low risk for preterm delivery for preventing preterm birth is not recommended",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Women with BV at increased risk of STI acquisition (HIV, HPV, HSV-2); specific BV bacteria increase HIV susceptibility",
+          "quote": "Women with BV are at increased risk for STI acquisition, such as HIV ... HPV (), and HSV-2 () ... because specific BV-associated bacteria can increase susceptibility to HIV",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "BV is associated with pelvic inflammatory disease",
+          "quote": "Although BV is associated with PID, whether PID incidence can be reduced by identifying and treating women with BV is unclear",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Red flags: fever, pelvic or lower abdominal pain, pain during sex, abnormal bleeding can signal PID",
+          "quote": "if they are experiencing pelvic or lower abdominal pain ... mild or nonspecific symptoms or signs (e.g., abnormal bleeding, dyspareunia, and vaginal discharge) ... Oral temperature >38.3°C (>101°F)",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "BV is anaerobic overgrowth; elevated pH >4.5 common with BV or trichomoniasis; amine odor suggests BV or trich",
+          "quote": "replacement of the vaginal flora by an overgrowth of anaerobic bacteria ... an elevated pH (i.e., >4.5) is common with BV or trichomoniasis ... samples that emit an amine odor immediately upon application of KOH suggest BV or trichomoniasis",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Yeast: typical symptoms itching, soreness, abnormal discharge, thick curdy discharge, none specific; normal pH",
+          "quote": "Typical symptoms of VVC include pruritus, vaginal soreness, dyspareunia, external dysuria, and abnormal vaginal discharge. None of these symptoms is specific for VVC. ... thick curdy vaginal discharge ... is associated with normal vaginal pH (<4.5)",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Yeast treated with antifungals, some OTC; unnecessary OTC use is common and can delay treatment of other causes",
+          "quote": "Over-the-Counter Intravaginal Agents ... Unnecessary or unapproved use of over-the-counter preparations is common and can lead to a delay in treatment of other vulvovaginitis etiologies",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Garlic, yogurt, tea tree oil, hydrogen peroxide douches are not part of any CDC BV regimen (absence from the regimen lists)",
+          "quote": "Recommended Regimens for Bacterial Vaginosis ... Alternative Regimens ... overall, no studies support these products as an adjunctive or replacement therapy for women with BV",
+          "quote_source": "full_text",
+          "verdict": "partly_supported"
+        },
+        {
+          "text": "BV treatments in the guideline are metronidazole, clindamycin, tinidazole and secnidazole (prescription status from labels 35-38)",
+          "quote": "Alternative regimens include secnidazole oral granules (–), multiple oral tinidazole regimens (), or clindamycin (oral or intravaginal)",
+          "quote_source": "full_text",
+          "verdict": "partly_supported"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "kind": "agency_page",
+      "cited_as": "Centers for Disease Control and Prevention. About Bacterial Vaginosis (BV). Page dated December 11, 2023. Accessed November 7, 2026. cdc.gov",
+      "url": "https://www.cdc.gov/bacterial-vaginosis/about/index.html",
+      "version_or_date": "Page dated Dec. 11, 2023; read 2026-11-07",
+      "retrieved_with": "WebFetch of official page (short verbatim quotes)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "Re-retrieved this run. Removed from claims about lactobacilli and specific organisms, which the page does not state.",
+      "claims": [
+        {
+          "text": "Thin white or gray discharge",
+          "quote": "A thin white or gray vaginal discharge",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Strong fish-like odor, especially after sex",
+          "quote": "A strong fish-like odor, especially after sex",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Some notice pain, itching, or burning",
+          "quote": "Pain, itching, or burning in the vagina",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Spread and prevention not completely understood; steps that may lower risk: not douching, limiting partners, condoms",
+          "quote": "Healthcare providers and scientists do not completely understand how BV spreads or know how best to prevent it. ... Not douching ... Limiting your number of sex partners ... Using condoms the right way every time you have sex",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "kind": "guideline",
+      "cited_as": "Centers for Disease Control and Prevention. Bacterial Vaginosis: STI Treatment Guidelines, 2021. Last reviewed July 22, 2021. Accessed November 7, 2026. cdc.gov",
+      "url": "https://www.cdc.gov/std/treatment-guidelines/bv.htm",
+      "version_or_date": "Last Reviewed: July 22, 2021; read 2026-11-07",
+      "retrieved_with": "WebFetch of official page (short verbatim quotes; direct download blocked by proxy)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "Web version of the CDC 2021 BV treatment section. Cure-rate claim (80 to 95 percent) removed: the page gives no such figure.",
+      "claims": [
+        {
+          "text": "Metronidazole 500 mg orally twice daily for 7 days",
+          "quote": "Metronidazole 500 mg orally 2 times/day for 7 days",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Metronidazole gel 0.75% one applicator (5 g) once daily for 5 days",
+          "quote": "Metronidazole gel 0.75% one full applicator (5 g) intravaginally, once a day for 5 days",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Clindamycin cream 2% one applicator (5 g) at bedtime for 7 days",
+          "quote": "Clindamycin cream 2% one full applicator (5 g) intravaginally at bedtime for 7 days",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Alternative regimens with doses",
+          "quote": "Clindamycin 300 mg orally 2 times/day for 7 days ... Secnidazole 2 g oral granules in a single dose ... Tinidazole 2 g orally once daily for 2 days ... Tinidazole 1 g orally once daily for 5 days",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Page still carries the 2021 partner recommendation when checked",
+          "quote": "routine treatment of sex partners is not recommended",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "kind": "journal",
+      "cited_as": "Koumans EH, Sternberg M, Bruce C, et al. The prevalence of bacterial vaginosis in the United States, 2001-2004; associations with symptoms, sexual behaviors, and reproductive health. Sex Transm Dis. 2007;34(11):864-869. PMID 17621244",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17621244/",
+      "pmid": "17621244",
+      "doi": "10.1097/OLQ.0b013e318074e565",
+      "record_title": "The prevalence of bacterial vaginosis in the United States, 2001-2004; associations with symptoms, sexual behaviors, and reproductive health.",
+      "record_journal": "Sex Transm Dis",
+      "record_year": "2007",
+      "article_type": "Journal Article",
+      "retrieved_with": "PubMed connector get_article_metadata (PMID record, abstract, article types)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice. Abstract only. Postpartum and premenstrual claim removed (not in abstract). Douching now described as an association.",
+      "claims": [
+        {
+          "text": "29 percent of women 14 to 49; about 21 million",
+          "quote": "The prevalence of BV was 29.2% (95% confidence interval 27.2%-31.3%) corresponding to 21 million women with BV",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "15.7 percent reported symptoms; 84 percent did not",
+          "quote": "only 15.7% of the women with BV reported vaginal symptoms ... 84% of women with BV did not report symptoms",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Prevalence by race/ethnicity and multivariate association",
+          "quote": "Prevalence was 51.4% among non-Hispanic blacks, 31.9% among Mexican Americans, and 23.2% among non-Hispanic whites ... in the multivariate model, BV only remained positively associated with race/ethnicity",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Associated with douching frequency; inversely with oral contraceptives",
+          "quote": "increasing douching frequency (chi2 P for trend <0.001), low educational attainment (P <0.01), and inversely associated with current use of oral contraceptive pills",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "kind": "journal",
+      "cited_as": "Amsel R, Totten PA, Spiegel CA, Chen KC, Eschenbach D, Holmes KK. Nonspecific vaginitis. Diagnostic criteria and microbial and epidemiologic associations. Am J Med. 1983;74(1):14-22. PMID 6600371",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/6600371/",
+      "pmid": "6600371",
+      "doi": "10.1016/0002-9343(83)91112-9",
+      "record_title": "Nonspecific vaginitis. Diagnostic criteria and microbial and epidemiologic associations.",
+      "record_journal": "Am J Med",
+      "record_year": "1983",
+      "article_type": "Comparative Study; Journal Article",
+      "retrieved_with": "PubMed connector get_article_metadata (PMID record, abstract, article types)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice. Abstract only; the content of the four criteria is cited to ref 1, which lists them.",
+      "claims": [
+        {
+          "text": "Amsel criteria are the originating clinical diagnostic criteria",
+          "quote": "Practical diagnostic criteria for standard clinical use are proposed.",
+          "quote_source": "abstract",
+          "verdict": "partly_supported"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "kind": "journal",
+      "cited_as": "Nugent RP, Krohn MA, Hillier SL. Reliability of diagnosing bacterial vaginosis is improved by a standardized method of gram stain interpretation. J Clin Microbiol. 1991;29(2):297-301. PMID 1706728",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/1706728/",
+      "pmid": "1706728",
+      "pmcid": "PMC269757",
+      "doi": "10.1128/jcm.29.2.297-301.1991",
+      "record_title": "Reliability of diagnosing bacterial vaginosis is improved by a standardized method of gram stain interpretation.",
+      "record_journal": "J Clin Microbiol",
+      "record_year": "1991",
+      "article_type": "Comparative Study; Journal Article",
+      "retrieved_with": "PubMed connector get_article_metadata (PMID record, abstract, article types)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice.",
+      "claims": [
+        {
+          "text": "Score 0 to 10, weighted combination of morphotypes",
+          "quote": "The scoring system (0 to 10) was described as a weighted combination of the following morphotypes: lactobacilli, Gardnerella vaginalis or bacteroides (small gram-variable rods or gram-negative rods), and curved gram-variable rods.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Score of 7 or higher indicates BV",
+          "quote": "a score of 7 or higher was considered indicative of bacterial vaginosis",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "kind": "journal",
+      "cited_as": "Ravel J, Gajer P, Abdo Z, et al. Vaginal microbiome of reproductive-age women. Proc Natl Acad Sci U S A. 2011;108(Suppl 1):4680-4687. PMID 20534435",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20534435/",
+      "pmid": "20534435",
+      "pmcid": "PMC3063603",
+      "doi": "10.1073/pnas.1002611107",
+      "record_title": "Vaginal microbiome of reproductive-age women.",
+      "record_journal": "Proc Natl Acad Sci U S A",
+      "record_year": "2011 (epub 2010-06-03; 108 Suppl 1:4680-7)",
+      "article_type": "Journal Article",
+      "retrieved_with": "PubMed connector get_article_metadata (PMID record, abstract, article types)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice. Claims narrowed to the study of asymptomatic women; antibiotic and mechanism claims removed.",
+      "claims": [
+        {
+          "text": "In asymptomatic women, one community type had fewer lactic acid bacteria and more strict anaerobes",
+          "quote": "the fifth had lower proportions of lactic acid bacteria and higher proportions of strictly anaerobic organisms",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Community types and vaginal pH differed among ethnic groups",
+          "quote": "The proportions of each community group varied among the four ethnic groups ... the vaginal pH of women in different ethnic groups also differed",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "kind": "journal",
+      "cited_as": "Fredricks DN, Fiedler TL, Marrazzo JM. Molecular identification of bacteria associated with bacterial vaginosis. N Engl J Med. 2005;353(18):1899-1911. PMID 16267321",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16267321/",
+      "pmid": "16267321",
+      "doi": "10.1056/NEJMoa043802",
+      "record_title": "Molecular identification of bacteria associated with bacterial vaginosis.",
+      "record_journal": "N Engl J Med",
+      "record_year": "2005",
+      "article_type": "Journal Article",
+      "retrieved_with": "PubMed connector get_article_metadata (PMID record, abstract, article types)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice. Abstract only; organism names (Gardnerella, Atopobium, Prevotella) no longer attributed to this ref.",
+      "claims": [
+        {
+          "text": "Without BV 1 to 6 species, mostly lactobacilli; with BV 9 to 17, newly recognized species; greater diversity",
+          "quote": "Women without bacterial vaginosis had 1 to 6 vaginal bacterial species (phylotypes) in each sample ... lactobacillus species were the predominant bacteria ... Women with bacterial vaginosis had greater bacterial diversity (P<0.001), with 9 to 17 phylotypes",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "kind": "journal",
+      "cited_as": "Srinivasan S, Liu C, Mitchell CM, et al. Temporal variability of human vaginal bacteria and relationship with bacterial vaginosis. PLoS One. 2010;5(4):e10197. PMID 20419168",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20419168/",
+      "pmid": "20419168",
+      "pmcid": "PMC2855365",
+      "doi": "10.1371/journal.pone.0010197",
+      "record_title": "Temporal variability of human vaginal bacteria and relationship with bacterial vaginosis.",
+      "record_journal": "PLoS One",
+      "record_year": "2010",
+      "article_type": "Journal Article",
+      "retrieved_with": "PubMed connector get_article_metadata (PMID record, abstract, article types)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice. 22-woman qPCR study. Resilience/behavior claim removed.",
+      "claims": [
+        {
+          "text": "Lactobacillus levels can change dramatically over a month",
+          "quote": "Healthy women are colonized with Lactobacillus species, but levels can change dramatically over a month.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "L. jensenii and L. crispatus fell with menstruation, inversely to G. vaginalis; G. vaginalis rose during menses",
+          "quote": "With onset of menstruation, quantities of Lactobacillus jensenii and Lactobacillus crispatus decreased and were found to be inversely related to Gardnerella vaginalis concentrations (p<0.001). ... Marked increases in G. vaginalis were observed during menses.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "In recurrent BV, bacteria dropped after vaginal metronidazole then reemerged; resistance not important",
+          "quote": "Women with recurrent BV initially respond to antibiotic treatment with steep declines in bacterial concentrations, but these bacteria later reemerge, suggesting that antibiotic resistance in these bacteria is not an important factor",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "kind": "journal",
+      "cited_as": "Bradshaw CS, Morton AN, Hocking J, et al. High recurrence rates of bacterial vaginosis over the course of 12 months after oral metronidazole therapy and factors associated with recurrence. J Infect Dis. 2006;193(11):1478-1486. PMID 16652274",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16652274/",
+      "pmid": "16652274",
+      "doi": "10.1086/503780",
+      "record_title": "High recurrence rates of bacterial vaginosis over the course of 12 months after oral metronidazole therapy and factors associated with recurrence.",
+      "record_journal": "J Infect Dis",
+      "record_year": "2006",
+      "article_type": "Journal Article",
+      "retrieved_with": "PubMed connector get_article_metadata (PMID record, abstract, article types)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice. Abstract only. Chart rebuilt: earlier 1-month (23%) and 3-month (43%) points were not in any retrieved text and were removed; chart now shows the two 12-month figures. Enrolled 121 + 18 = 139.",
+      "claims": [
+        {
+          "text": "58 percent BV recurrence and 69 percent abnormal flora by 12 months",
+          "quote": "Sixty-eight women (58% [95% confidence interval {CI}, 49%-66%]) had a recurrence of BV (NS 7-10), and 84 (69% [95% CI, 61%-77%]) had a recurrence of abnormal vaginal flora (NS 4-10) by 12 months.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Treatment was metronidazole 400 mg twice daily for 7 days; 139 enrolled",
+          "quote": "BV was treated with 400 mg of oral metronidazole twice a day for 7 days ... A total of 121 (87%) women with an NS of 7-10 and 18 (13%) with an NS of 4-6",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Authors: recommended treatment not preventing recurrence in the majority",
+          "quote": "Current recommended treatment is not preventing the recurrence of BV or abnormal vaginal flora in the majority of women",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "kind": "journal",
+      "cited_as": "Fethers KA, Fairley CK, Hocking JS, Gurrin LC, Bradshaw CS. Sexual risk factors and bacterial vaginosis: a systematic review and meta-analysis. Clin Infect Dis. 2008;47(11):1426-1435. PMID 18947329",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18947329/",
+      "pmid": "18947329",
+      "doi": "10.1086/592974",
+      "record_title": "Sexual risk factors and bacterial vaginosis: a systematic review and meta-analysis.",
+      "record_journal": "Clin Infect Dis",
+      "record_year": "2008",
+      "article_type": "Meta-Analysis; Systematic Review",
+      "retrieved_with": "PubMed connector get_article_metadata (PMID record, abstract, article types)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice. Observational data only; \"strongest predictor\" and \"removed risk in trials\" claims removed.",
+      "claims": [
+        {
+          "text": "RR 1.6 new/multiple male partners, 2.0 any female partner, 0.8 condom use",
+          "quote": "The summary estimate of the relative risk for the association between BV new or multiple male partners was 1.6 ... any female partners was 2.0 ... and between BV and condom use was 0.8",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Observational data; BV associated with new and multiple partners",
+          "quote": "This review is the first to summarize available observational data for BV. It shows that BV is significantly associated with sexual contact with new and multiple male and female partners",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "kind": "journal",
+      "cited_as": "Marrazzo JM, Koutsky LA, Eschenbach DA, Agnew K, Stine K, Hillier SL. Characterization of vaginal flora and bacterial vaginosis in women who have sex with women. J Infect Dis. 2002;185(9):1307-1313. PMID 12001048",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12001048/",
+      "pmid": "12001048",
+      "doi": "10.1086/339884",
+      "record_title": "Characterization of vaginal flora and bacterial vaginosis in women who have sex with women.",
+      "record_journal": "J Infect Dis",
+      "record_year": "2002",
+      "article_type": "Journal Article",
+      "retrieved_with": "PubMed connector get_article_metadata (PMID record, abstract, article types)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice.",
+      "claims": [
+        {
+          "text": "WSW: BV associated with lifetime female partners; 95 percent couple concordance; sexual exchange possible mechanism",
+          "quote": "BV was associated with a higher lifetime number of female sex partners ... Vaginal smears from each partner were concordant in 55 (95%) of 58 monogamous couples ... sexual exchange of vaginal secretions is a possible mechanism",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "kind": "journal",
+      "cited_as": "Cherpes TL, Hillier SL, Meyn LA, Busch JL, Krohn MA. A delicate balance: risk factors for acquisition of bacterial vaginosis include sexual activity, absence of hydrogen peroxide-producing lactobacilli, black race, and positive herpes simplex virus type 2 serology. Sex Transm Dis. 2008;35(1):78-83. PMID 17989585",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17989585/",
+      "pmid": "17989585",
+      "doi": "10.1097/OLQ.0b013e318156a5d0",
+      "record_title": "A delicate balance: risk factors for acquisition of bacterial vaginosis include sexual activity, absence of hydrogen peroxide-producing lactobacilli, black race, and positive herpes simplex virus type 2 serology.",
+      "record_journal": "Sex Transm Dis",
+      "record_year": "2008",
+      "article_type": "Journal Article",
+      "retrieved_with": "PubMed connector get_article_metadata (PMID record, abstract, article types)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice. HIV mechanism, condom and contraception claims removed from this ref.",
+      "claims": [
+        {
+          "text": "Cohort of young sexually active women; independent associations listed",
+          "quote": "Acquisition of BV was independently associated with black race, cigarette smoking, vaginal intercourse, receptive anal sex before vaginal intercourse, sex with an uncircumcised male partner, lack of vaginal H2O2-producing lactobacilli, and the detection of HSV-2 serum antibodies",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "kind": "journal",
+      "cited_as": "Boskey ER, Telsch KM, Whaley KJ, Moench TR, Cone RA. Acid production by vaginal flora in vitro is consistent with the rate and extent of vaginal acidification. Infect Immun. 1999;67(10):5170-5175. PMID 10496892",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/10496892/",
+      "pmid": "10496892",
+      "pmcid": "PMC96867",
+      "doi": "10.1128/IAI.67.10.5170-5175.1999",
+      "record_title": "Acid production by vaginal flora in vitro is consistent with the rate and extent of vaginal acidification.",
+      "record_journal": "Infect Immun",
+      "record_year": "1999",
+      "article_type": "Journal Article",
+      "retrieved_with": "PubMed connector get_article_metadata (PMID record, abstract, article types)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice. Hydrogen peroxide and pathogen-suppression claims removed.",
+      "claims": [
+        {
+          "text": "Lactobacilli acidify to the range of the Lactobacillus-dominated vagina, pH 3.6 to 4.5 in most women",
+          "quote": "acidified their growth medium to an asymptotic pH (3.2 to 4.8) that matches the range seen in the Lactobacillus-dominated human vagina (pH 3.6 to 4.5 in most women)",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "In BV pH rises above 4.5",
+          "quote": "During bacterial vaginosis (BV), there is a loss of vaginal acidity, and the vaginal pH rises to >4.5.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Semen neutralizes acidity; lactobacilli could reacidify at the postcoital rate",
+          "quote": "vaginal lactobacilli could reacidify the vagina at the rate observed postcoitally following neutralization by the male ejaculate",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 15,
+      "kind": "journal",
+      "cited_as": "Atashili J, Poole C, Ndumbe PM, Adimora AA, Smith JS. Bacterial vaginosis and HIV acquisition: a meta-analysis of published studies. AIDS. 2008;22(12):1493-1501. PMID 18614873",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18614873/",
+      "pmid": "18614873",
+      "pmcid": "PMC2788489",
+      "doi": "10.1097/QAD.0b013e3283021a37",
+      "record_title": "Bacterial vaginosis and HIV acquisition: a meta-analysis of published studies.",
+      "record_journal": "AIDS",
+      "record_year": "2008",
+      "article_type": "Meta-Analysis; Review",
+      "retrieved_with": "PubMed connector get_article_metadata (PMID record, abstract, article types)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice. Figure corrected from \"odds ratio\" to relative risk; untreated-BV causal framing removed.",
+      "claims": [
+        {
+          "text": "Relative risk 1.6 for HIV acquisition in incidence studies",
+          "quote": "Bacterial vaginosis was associated with an increased risk of HIV acquisition in HIV-incidence studies (relative risk = 1.6, 95% confidence interval: 1.2, 2.1).",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 16,
+      "kind": "journal",
+      "cited_as": "Mohanty T, Doke PP, Khuroo SR. Effect of bacterial vaginosis on preterm birth: a meta-analysis. Arch Gynecol Obstet. 2023;308(4):1247-1255. PMID 36251068",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36251068/",
+      "pmid": "36251068",
+      "doi": "10.1007/s00404-022-06817-5",
+      "record_title": "Effect of bacterial vaginosis on preterm birth: a meta-analysis.",
+      "record_journal": "Arch Gynecol Obstet",
+      "record_year": "2023 (epub 2022-10-17; 308(4):1247-1255)",
+      "article_type": "Meta-Analysis",
+      "retrieved_with": "PubMed connector get_article_metadata (PMID record, abstract, article types)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice. Volume/pages added to the reference. Timing claim removed (not in abstract).",
+      "claims": [
+        {
+          "text": "20 articles, 290,397 observations; OR 1.79; RR 1.44",
+          "quote": "the study included 20 articles yielding 26 relevant results with a total of 290,397 observations ... about two-fold as overall OR1.79 (95% Confidence Interval 1.32-2.43). The overall RR of preterm birth is 1.44",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 17,
+      "kind": "guideline",
+      "cited_as": "Yudin MH, Money DM. No. 211 - Screening and Management of Bacterial Vaginosis in Pregnancy. J Obstet Gynaecol Can. 2017;39(8):e184-e191. PMID 28729110",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28729110/",
+      "pmid": "28729110",
+      "doi": "10.1016/j.jogc.2017.04.018",
+      "record_title": "No. 211-Screening and Management of Bacterial Vaginosis in Pregnancy.",
+      "record_journal": "J Obstet Gynaecol Can",
+      "record_year": "2017",
+      "article_type": "Journal Article; Practice Guideline",
+      "version_or_date": "SOGC guideline No. 211, J Obstet Gynaecol Can 2017;39(8):e184-e191",
+      "retrieved_with": "PubMed connector get_article_metadata (PMID record, abstract, article types)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice. Abstract only. First-trimester metronidazole avoidance claim removed (not retrievable; CDC 2021 states metronidazole poses low risk in pregnancy).",
+      "claims": [
+        {
+          "text": "No consensus on screening or treating BV in the general pregnant population",
+          "quote": "There is currently no consensus as to whether to screen for or treat bacterial vaginosis in the general pregnant population in order to prevent adverse outcomes, such as preterm birth.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 18,
+      "kind": "journal",
+      "cited_as": "Vodstrcil LA, Muzny CA, Plummer EL, Sobel JD, Bradshaw CS. Bacterial vaginosis: drivers of recurrence and challenges and opportunities in partner treatment. BMC Med. 2021;19(1):194. PMID 34470644",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34470644/",
+      "pmid": "34470644",
+      "pmcid": "PMC8411528",
+      "doi": "10.1186/s12916-021-02077-3",
+      "record_title": "Bacterial vaginosis: drivers of recurrence and challenges and opportunities in partner treatment.",
+      "record_journal": "BMC Med",
+      "record_year": "2021",
+      "article_type": "Journal Article; Review",
+      "retrieved_with": "PubMed connector get_article_metadata (PMID record, abstract, article types)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice. Article number corrected to 194.",
+      "claims": [
+        {
+          "text": "Recurrence attributed to persistence/re-emergence of BVAB or biofilm and reinfection from partners",
+          "quote": "possible persistence and re-emergence of BV-associated bacteria (BVAB) or a BV-associated biofilm following antimicrobials and/or reinfection occurring from sexual partners",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Recurrence likely multifaceted, varies between women",
+          "quote": "the pathogenesis of BV recurrence is likely to be multifaceted and not attributable to a single mechanism in all women",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 19,
+      "kind": "journal",
+      "cited_as": "Sobel JD, Ferris D, Schwebke J, et al. Suppressive antibacterial therapy with 0.75% metronidazole vaginal gel to prevent recurrent bacterial vaginosis. Am J Obstet Gynecol. 2006;194(5):1283-1289. PMID 16647911",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16647911/",
+      "pmid": "16647911",
+      "doi": "10.1016/j.ajog.2005.11.041",
+      "record_title": "Suppressive antibacterial therapy with 0.75% metronidazole vaginal gel to prevent recurrent bacterial vaginosis.",
+      "record_journal": "Am J Obstet Gynecol",
+      "record_year": "2006",
+      "article_type": "Multicenter Study; Randomized Controlled Trial",
+      "retrieved_with": "PubMed connector get_article_metadata (PMID record, abstract, article types)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice.",
+      "claims": [
+        {
+          "text": "10-day gel, responders randomized to twice weekly gel or placebo for 16 weeks; 25.5 vs 59.1 percent",
+          "quote": "initial 10-day open-label metronidazole gel in which asymptomatic responders randomly assigned to receive twice weekly metronidazole vaginal gel or placebo for 16 weeks ... 13 women (25.5%) receiving metronidazole and 26 (59.1%) receiving placebo",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "28-week recurrence 51.0 vs 75 percent; 12 weeks off therapy",
+          "quote": "off therapy for 12 weeks ... During the entire 28-week follow-up, recurrence occurred in 26 (51.0%) on treatment compared with 33 (75%) on placebo",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Secondary vaginal candidiasis more common with metronidazole",
+          "quote": "secondary vaginal candidiasis occurred significantly more often in metronidazole-treated women (P = .02)",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 20,
+      "kind": "journal",
+      "cited_as": "Reichman O, Akins R, Sobel JD. Boric acid addition to suppressive antimicrobial therapy for recurrent bacterial vaginosis. Sex Transm Dis. 2009;36(11):732-734. PMID 19704395",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/19704395/",
+      "pmid": "19704395",
+      "doi": "10.1097/OLQ.0b013e3181b08456",
+      "record_title": "Boric acid addition to suppressive antimicrobial therapy for recurrent bacterial vaginosis.",
+      "record_journal": "Sex Transm Dis",
+      "record_year": "2009",
+      "article_type": "Journal Article",
+      "retrieved_with": "PubMed connector get_article_metadata (PMID record, abstract, article types)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice. Removed from the \"26 percent\" table row (that figure is ref 19). Described as uncontrolled retrospective chart review.",
+      "claims": [
+        {
+          "text": "Uncontrolled retrospective review; nitroimidazole 7d then boric acid 600 mg 21d",
+          "quote": "Uncontrolled, nonrandomized, retrospective chart review of patients with RBV treated with 7 days of oral nitroimidazole; followed by 21 days of intravaginal BA 600 mg/day",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Cure 88 to 92 percent at 7 to 12 weeks; cumulative 87/78/65 percent; 50 percent failure by 36 weeks",
+          "quote": "Cure ... ranged from 88% to 92%, 7 and 12 weeks ... Cumulative cure at 12, 16, and 28 weeks ... was 87%, 78%, and 65% ... A failure rate of 50% was documented by 36 weeks",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Biofilm suggested to facilitate persistence; boric acid aimed at biofilm",
+          "quote": "It has been suggested that vaginal biofilm in BV facilitates persistence of bacterial pathogens. Accordingly, topical boric acid (BA) aimed at biofilm removal was added",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 21,
+      "kind": "journal",
+      "cited_as": "Surapaneni S, Akins R, Sobel JD. Recurrent bacterial vaginosis: an unmet therapeutic challenge. Experience with a combination pharmacotherapy long-term suppressive regimen. Sex Transm Dis. 2021;48(10):761-765. PMID 34110746",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34110746/",
+      "pmid": "34110746",
+      "pmcid": "PMC8460079",
+      "doi": "10.1097/OLQ.0000000000001420",
+      "record_title": "Recurrent Bacterial Vaginosis: An Unmet Therapeutic Challenge. Experience With a Combination Pharmacotherapy Long-Term Suppressive Regimen.",
+      "record_journal": "Sex Transm Dis",
+      "record_year": "2021",
+      "article_type": "Journal Article",
+      "retrieved_with": "PubMed connector get_article_metadata (PMID record, abstract, article types)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice. Issue corrected to 10. Regimen details corrected (boric acid 30 days, gel 5 months).",
+      "claims": [
+        {
+          "text": "Nitroimidazole BID 7d with boric acid 600 mg daily 30d, then twice-weekly gel 5 months; uncontrolled retrospective",
+          "quote": "combination oral nitroimidazole 500 mg twice a day for 7 days and simultaneous boric acid 600 mg daily per vagina therapy for 30 days; thereafter, they were prescribed twice-weekly vaginal metronidazole gel for 5 months",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "69.6 percent of compliant patients recurrence-free at 6 months; candidiasis frequent",
+          "quote": "maintenance metronidazole gel prevented symptomatic BV recurrence in 69.6% of compliant patients at 6-month follow-up ... Vaginal candidiasis frequently complicated prolonged antibiotic prophylaxis",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 22,
+      "kind": "journal",
+      "cited_as": "Cohen CR, Wierzbicki MR, French AL, et al. Randomized trial of Lactin-V to prevent recurrence of bacterial vaginosis. N Engl J Med. 2020;382(20):1906-1915. PMID 32402161",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32402161/",
+      "pmid": "32402161",
+      "pmcid": "PMC7362958",
+      "doi": "10.1056/NEJMoa1915254",
+      "record_title": "Randomized Trial of Lactin-V to Prevent Recurrence of Bacterial Vaginosis.",
+      "record_journal": "N Engl J Med",
+      "record_year": "2020",
+      "article_type": "Clinical Trial, Phase II; Randomized Controlled Trial",
+      "retrieved_with": "PubMed connector get_article_metadata (PMID record, abstract, article types)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice.",
+      "claims": [
+        {
+          "text": "After vaginal metronidazole, Lactin-V recurrence by week 12 30 vs 45 percent",
+          "quote": "recurrence of bacterial vaginosis by week 12 occurred in 46 participants (30%) in the Lactin-V group and in 34 participants (45%) in the placebo group",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Investigational strain L. crispatus CTV-05 given after vaginal metronidazole gel",
+          "quote": "The use of Lactin-V after treatment with vaginal metronidazole resulted in a significantly lower incidence of recurrence of bacterial vaginosis than placebo at 12 weeks.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 23,
+      "kind": "journal",
+      "cited_as": "Vodstrcil LA, Plummer EL, Fairley CK, et al. Male-partner treatment to prevent recurrence of bacterial vaginosis. N Engl J Med. 2025;392(10):947-957. PMID 40043236",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40043236/",
+      "pmid": "40043236",
+      "doi": "10.1056/NEJMoa2405404",
+      "record_title": "Male-Partner Treatment to Prevent Recurrence of Bacterial Vaginosis.",
+      "record_journal": "N Engl J Med",
+      "record_year": "2025",
+      "article_type": "Clinical Trial, Phase III; Multicenter Study; Randomized Controlled Trial",
+      "retrieved_with": "PubMed connector get_article_metadata (PMID record, abstract, article types)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice. Volume/pages added (392(10):947-957). Trial described as open-label; stopping reason quoted from abstract.",
+      "claims": [
+        {
+          "text": "Open-label RCT; woman with BV in monogamous relationship; all women first-line; men metronidazole 400 mg + clindamycin cream BID 7d",
+          "quote": "open-label, randomized, controlled trial involved couples in which a woman had bacterial vaginosis and was in a monogamous relationship with a male partner ... metronidazole 400-mg tablets and 2% clindamycin cream applied to penile skin, both twice daily",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Recurrence within 12 weeks 35 percent (24/69) vs 63 percent (43/68)",
+          "quote": "recurrence occurred in 24 of 69 women (35%) in the partner-treatment group ... and in 43 of 68 women (63%) in the control group",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Stopped early because treating the woman only was inferior",
+          "quote": "The trial was stopped by the data and safety monitoring board after 150 couples had completed the 12-week follow-up period because treatment of the woman only was inferior to treatment of both the woman and her male partner.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Adverse events in men: nausea, headache, metallic taste",
+          "quote": "Adverse events in treated men included nausea, headache, and metallic taste.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 24,
+      "kind": "journal",
+      "cited_as": "Pentikis H, Adetoro N, Tipping D, Levy S. An integrated efficacy and safety analysis of single-dose secnidazole 2 g in the treatment of bacterial vaginosis. Reprod Sci. 2020;27(2):523-528. PMID 32046418",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32046418/",
+      "pmid": "32046418",
+      "pmcid": "PMC7077929",
+      "doi": "10.1007/s43032-019-00048-x",
+      "record_title": "An Integrated Efficacy and Safety Analysis of Single-Dose Secnidazole 2 g in the Treatment of Bacterial Vaginosis.",
+      "record_journal": "Reprod Sci",
+      "record_year": "2020",
+      "article_type": "Multicenter Study; Randomized Controlled Trial",
+      "retrieved_with": "PubMed connector get_article_metadata (PMID record, abstract, article types)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice. \"Somewhat lower cure rate\" claim removed: placebo-controlled data only, no comparison with metronidazole. Authors are sponsor employees/contractors (affiliations Symbiomix, Prosoft Clinical).",
+      "claims": [
+        {
+          "text": "5-nitroimidazole given as single-dose oral granules",
+          "quote": "A single-dose oral granule formulation of secnidazole 2 g ... a 5-nitroimidazole antibiotic with antimicrobial activity",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Two placebo-controlled registration trials; superior to placebo on all outcomes",
+          "quote": "As part of the US registration package, two randomized, double-blind, placebo-controlled clinical studies were conducted ... Single-dose secnidazole 2 g was statistically superior to placebo on all primary and secondary efficacy outcomes in both trials",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 25,
+      "kind": "journal",
+      "cited_as": "Raba G, Durkech A, Malík T, et al. Efficacy of dequalinium chloride vs metronidazole for the treatment of bacterial vaginosis: a randomized clinical trial. JAMA Netw Open. 2024;7(5):e248661. PMID 38696172",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38696172/",
+      "pmid": "38696172",
+      "pmcid": "PMC11066704",
+      "doi": "10.1001/jamanetworkopen.2024.8661",
+      "record_title": "Efficacy of Dequalinium Chloride vs Metronidazole for the Treatment of Bacterial Vaginosis: A Randomized Clinical Trial.",
+      "record_journal": "JAMA Netw Open",
+      "record_year": "2024",
+      "article_type": "Randomized Controlled Trial; Clinical Trial, Phase IV",
+      "retrieved_with": "PubMed connector get_article_metadata (PMID record, abstract, article types)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice. Sponsor-affiliated authors (Medinova AG).",
+      "claims": [
+        {
+          "text": "Dequalinium 10 mg daily x6d vs metronidazole 500 mg BID x7d",
+          "quote": "dequalinium chloride vaginal tablets (10 mg once daily for 6 days) or oral metronidazole (500 mg twice daily for 7 days)",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Clinical cure at visit 1 (7 to 11 days) 92.8 vs 93.2 percent ITT; noninferior; better tolerability",
+          "quote": "The clinical cure rates at visit 1 were 64 of 69 (92.8%) for dequalinium chloride vs 69 of 74 (93.2%) for metronidazole in the intention-to-treat population ... Dequalinium chloride had a similarly high cure rate but with better tolerability",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 26,
+      "kind": "journal",
+      "cited_as": "Orire I, Sagoe M, Muzny CA, Kissinger PJ. Revisiting the disulfiram-like reaction between alcohol and oral metronidazole. Sex Transm Dis. 2026;53(4):205-208 (published online December 2025). PMID 41366815",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41366815/",
+      "pmid": "41366815",
+      "doi": "10.1097/OLQ.0000000000002276",
+      "record_title": "Revisiting the Disulfiram-Like Reaction Between Alcohol and Oral Metronidazole.",
+      "record_journal": "Sex Transm Dis",
+      "record_year": "2026 (epub 2025-12-05; 53(4):205-208)",
+      "article_type": "Journal Article; Review",
+      "retrieved_with": "PubMed connector get_article_metadata (PMID record, abstract, article types)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice. Volume/pages added.",
+      "claims": [
+        {
+          "text": "Evidence does not strongly support a clinically significant interaction with oral metronidazole",
+          "quote": "the available evidence does not strongly support a clinically significant interaction between alcohol and oral metronidazole, calling into question the need for strict alcohol abstinence during treatment",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 27,
+      "kind": "journal",
+      "cited_as": "Mittelstaedt R, Kretz A, Levine M, et al. Data on safety of intravaginal boric acid use in pregnant and nonpregnant women: a narrative review. Sex Transm Dis. 2021;48(12):e241-e247. PMID 34561373",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34561373/",
+      "pmid": "34561373",
+      "pmcid": "PMC10100571",
+      "doi": "10.1097/OLQ.0000000000001562",
+      "record_title": "Data on Safety of Intravaginal Boric Acid Use in Pregnant and Nonpregnant Women: A Narrative Review.",
+      "record_journal": "Sex Transm Dis",
+      "record_year": "2021",
+      "article_type": "Journal Article; Review",
+      "retrieved_with": "PubMed connector get_article_metadata + get_full_text_article (PMC full text)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice. Pages corrected to e241-e247. Removed from the preterm-timing table claim.",
+      "claims": [
+        {
+          "text": "Not FDA approved; data suggest safe at commonly prescribed doses; guidelines recommend avoidance in pregnancy",
+          "quote": "IBA is not an FDA-approved drug ... available data suggest IBA use is safe, at least when used in doses commonly described in the literature as being prescribed by clinicians ... current guidelines, which recommend IBA avoidance in pregnancy",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Use only intravaginally and keep away from children",
+          "quote": "women should be counselled to use the medication only intravaginally and to keep it out of reach of children to avoid accidental ingestions",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 28,
+      "kind": "journal",
+      "cited_as": "Verstraelen H, Swidsinski A. The biofilm in bacterial vaginosis: implications for epidemiology, diagnosis and treatment. Curr Opin Infect Dis. 2013;26(1):86-89. PMID 23221767",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23221767/",
+      "pmid": "23221767",
+      "doi": "10.1097/QCO.0b013e32835c20cd",
+      "record_title": "The biofilm in bacterial vaginosis: implications for epidemiology, diagnosis and treatment.",
+      "record_journal": "Curr Opin Infect Dis",
+      "record_year": "2013",
+      "article_type": "Journal Article; Review",
+      "retrieved_with": "PubMed connector get_article_metadata (PMID record, abstract, article types)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice. Abstract only. Antibiotic-penetration, pH-trigger and reseeding claims removed.",
+      "claims": [
+        {
+          "text": "BV as polymicrobial biofilm; G. vaginalis first to adhere, scaffolding",
+          "quote": "bacterial vaginosis presents as a polymicrobial biofilm infection ... Gardnerella vaginalis is presumably the first species to adhere to the vaginal epithelium and then becomes the scaffolding to which other species adhere",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 29,
+      "kind": "journal",
+      "cited_as": "Swidsinski A, Doerffel Y, Loening-Baucke V, et al. Gardnerella biofilm involves females and males and is transmitted sexually. Gynecol Obstet Invest. 2010;70(4):256-263. PMID 21051845",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21051845/",
+      "pmid": "21051845",
+      "doi": "10.1159/000314015",
+      "record_title": "Gardnerella biofilm involves females and males and is transmitted sexually.",
+      "record_journal": "Gynecol Obstet Invest",
+      "record_year": "2010",
+      "article_type": "Journal Article",
+      "retrieved_with": "PubMed connector get_article_metadata (PMID record, abstract, article types)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice. Small urine-FISH study; recurrence claim removed.",
+      "claims": [
+        {
+          "text": "Cohesive Gardnerella in all 20 BV patients and 10 partners; authors conclude it involves both sexes and is sexually transmitted",
+          "quote": "patients with bacterial vaginosis (BV, n = 20), their partners (n = 10) ... Cohesive Gardnerella was present in all patients with proven BV and their partners ... involves both genders and is sexually transmitted",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 30,
+      "kind": "journal",
+      "cited_as": "Mendling W, Palmeira-de-Oliveira A, Biber S, Prasauskas V. An update on the role of Atopobium vaginae in bacterial vaginosis: what to consider when choosing a treatment? Arch Gynecol Obstet. 2019;300(1):1-6. PMID 30953190",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30953190/",
+      "pmid": "30953190",
+      "pmcid": "PMC6560015",
+      "doi": "10.1007/s00404-019-05142-8",
+      "record_title": "An update on the role of Atopobium vaginae in bacterial vaginosis: what to consider when choosing a treatment? A mini review.",
+      "record_journal": "Arch Gynecol Obstet",
+      "record_year": "2019",
+      "article_type": "Journal Article; Review",
+      "retrieved_with": "PubMed connector get_article_metadata (PMID record, abstract, article types)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice. Authors include employees of Medinova AG (dequalinium manufacturer).",
+      "claims": [
+        {
+          "text": "Composition varies; Gardnerella and Atopobium among those found most frequently",
+          "quote": "Although the composition of the bacteria in BV varies between individuals, there are some species such as Gardnerella, Atopobium, Mycoplasma, Snethia, Megasphera, Dialister, etc., that are found most frequently.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 31,
+      "kind": "journal",
+      "cited_as": "Swidsinski A, Loening-Baucke V, Swidsinski S, et al. Clue cells and pseudo clue cells in different morphotypes of bacterial vaginosis. Front Cell Infect Microbiol. 2022;12:905739. PMID 35719334",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35719334/",
+      "pmid": "35719334",
+      "pmcid": "PMC9198243",
+      "doi": "10.3389/fcimb.2022.905739",
+      "record_title": "Clue Cells and Pseudo Clue Cells in Different Morphotypes of Bacterial Vaginosis.",
+      "record_journal": "Front Cell Infect Microbiol",
+      "record_year": "2022",
+      "article_type": "Journal Article",
+      "retrieved_with": "PubMed connector get_article_metadata (PMID record, abstract, article types)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice.",
+      "claims": [
+        {
+          "text": "500 samples; true clue cells in only 56 percent; rest pseudo clue cells",
+          "quote": "Samples from 500 women diagnosed with bacterial vaginosis and positive for clue cells ... true clue cells ... observed only in 56% ... the epithelial cells were mechanically entrapped in bacterial masses ... building non-adherent pseudo clue cells",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 32,
+      "kind": "journal",
+      "cited_as": "Sobel JD. Vulvovaginal candidosis. Lancet. 2007;369(9577):1961-1971. PMID 17560449",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17560449/",
+      "pmid": "17560449",
+      "doi": "10.1016/S0140-6736(07)60917-9",
+      "record_title": "Vulvovaginal candidosis.",
+      "record_journal": "Lancet",
+      "record_year": "2007",
+      "article_type": "Journal Article; Review",
+      "retrieved_with": "PubMed connector get_article_metadata (PMID record, abstract, article types)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice. Abstract only. Now cited only for the diagnostic-test statement; treatment-class and \"most common reason\" claims moved to ref 1 or removed.",
+      "claims": [
+        {
+          "text": "Lack of rapid, simple, inexpensive tests leads to over- and underdiagnosis of yeast infection",
+          "quote": "The absence of rapid, simple, and inexpensive diagnostic tests continues to result in both overdiagnosis and underdiagnosis of vulvovaginal candidosis.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 33,
+      "kind": "journal",
+      "cited_as": "Bilardi JE, Walker S, Temple-Smith M, et al. The burden of bacterial vaginosis: women's experience of the physical, emotional, sexual and social impact of living with recurrent bacterial vaginosis. PLoS One. 2013;8(9):e74378. PMID 24040236",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24040236/",
+      "pmid": "24040236",
+      "pmcid": "PMC3770676",
+      "doi": "10.1371/journal.pone.0074378",
+      "record_title": "The burden of bacterial vaginosis: women's experience of the physical, emotional, sexual and social impact of living with recurrent bacterial vaginosis.",
+      "record_journal": "PLoS One",
+      "record_year": "2013",
+      "article_type": "Journal Article",
+      "retrieved_with": "PubMed connector get_article_metadata (PMID record, abstract, article types)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice. REPLACED: the original ref 33 (Bilardi 2017, PMID 28278277, a questionnaire on perceived triggers) did not support the emotional-impact claims; this 2013 interview study by the same group does.",
+      "claims": [
+        {
+          "text": "35 women interviewed; most moderate to severe impact, mainly self-esteem and sex life",
+          "quote": "Thirty five women with male and/or female partners participated in semi-structured interviews ... most reported a moderate to severe impact, mainly on their self-esteem and sex life",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Felt embarrassed, ashamed, dirty; concerned others detect odor; avoided sex",
+          "quote": "Women commonly reported that symptoms of bacterial vaginosis made them feel embarrassed, ashamed, 'dirty' and very concerned others may detect their malodour and abnormal discharge ... regularly avoiding sexual activity",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Confused about recurrence and frustrated at lack of control; authors call for support",
+          "quote": "Women often felt confused about why they were experiencing recurrent bacterial vaginosis and frustrated at their lack of control over recurrence. ... Further support and acknowledgement of these impacts are required",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 34,
+      "kind": "label",
+      "cited_as": "U.S. Food and Drug Administration. FLAGYL (metronidazole) tablets: prescribing information. Revised July 2024. Accessed November 7, 2026. accessdata.fda.gov",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2024/012623s072lbl.pdf",
+      "version_or_date": "FLAGYL tablets label, Revised: 07/2024",
+      "retrieved_with": "WebFetch of FDA label PDF (accessdata.fda.gov)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "Not indicated for BV (indications are trichomoniasis, amebiasis, anaerobic infections); cited only for the alcohol warning.",
+      "claims": [
+        {
+          "text": "Metronidazole tablet label: stop alcohol during and for at least three days after",
+          "quote": "Discontinue consumption of alcohol or products containing propylene glycol during and for at least three days after therapy",
+          "quote_source": "label",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 35,
+      "kind": "label",
+      "cited_as": "DailyMed, U.S. National Library of Medicine. VANDAZOLE (metronidazole gel) 0.75%, for intravaginal use: prescribing information. Revised February 2021. Accessed November 7, 2026. dailymed.nlm.nih.gov",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=27d71471-8f89-4a1e-8c55-020a58961454",
+      "version_or_date": "VANDAZOLE label, Revised: 2/2021 (DailyMed updated December 2, 2025)",
+      "retrieved_with": "WebFetch of DailyMed label page",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "Category: HUMAN PRESCRIPTION DRUG LABEL; package panel shows Rx only.",
+      "claims": [
+        {
+          "text": "Gel label: bedtime dosing, one applicator about 5 g once daily for 5 days",
+          "quote": "one applicator full of VANDAZOLE, (approximately 5 grams of gel ... administered intravaginally once a day for 5 days. ... VANDAZOLE should be administered at bedtime",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Gel label: stop alcohol during and for at least three days after",
+          "quote": "Discontinue alcohol consumption during and for at least three days after therapy with VANDAZOLE.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Prescription product",
+          "quote": "HUMAN PRESCRIPTION DRUG LABEL",
+          "quote_source": "label",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 36,
+      "kind": "label",
+      "cited_as": "DailyMed, U.S. National Library of Medicine. TINDAMAX (tinidazole) tablets: prescribing information. Revised December 2021. Accessed November 7, 2026. dailymed.nlm.nih.gov",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a0d01539-8413-4703-94cc-d221918630a1",
+      "version_or_date": "TINDAMAX label, Revised: 12/2021",
+      "retrieved_with": "WebFetch of DailyMed label page",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "Category: HUMAN PRESCRIPTION DRUG LABEL.",
+      "claims": [
+        {
+          "text": "BV dose in nonpregnant women: 2 g daily x2d or 1 g daily x5d with food",
+          "quote": "The recommended dose in non-pregnant females is a 2 g oral dose once daily for 2 days taken with food ... or a 1 g oral dose once daily for 5 days taken with food",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Avoid alcohol during and for 3 days after",
+          "quote": "Alcoholic beverages should be avoided when taking tinidazole and for 3 days afterwards",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Prescription product",
+          "quote": "HUMAN PRESCRIPTION DRUG LABEL",
+          "quote_source": "label",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 37,
+      "kind": "label",
+      "cited_as": "DailyMed, U.S. National Library of Medicine. SOLOSEC (secnidazole) oral granules: prescribing information. Revised October 2024. Accessed November 7, 2026. dailymed.nlm.nih.gov",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=056485b6-8bba-4a21-ae00-cdb4e7ae4bfa",
+      "version_or_date": "SOLOSEC label, Revised: 10/2024 (DailyMed updated February 19, 2025)",
+      "retrieved_with": "WebFetch of DailyMed label page",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "Indicated for BV in females 12 years and older and for trichomoniasis. Category: HUMAN PRESCRIPTION DRUG LABEL; Rx Only on carton.",
+      "claims": [
+        {
+          "text": "Single 2 g packet sprinkled on applesauce, yogurt or pudding, consumed within 30 minutes without chewing",
+          "quote": "Sprinkle the entire contents of the SOLOSEC packet onto applesauce, yogurt or pudding ... Consume all of the mixture within 30 minutes without chewing or crunching the granules.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Avoid alcohol during therapy and for 2 days after",
+          "quote": "Alcoholic beverages and preparations containing ethanol or propylene glycol should be avoided during SOLOSEC therapy and for 2 days after treatment is stopped.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Prescription product",
+          "quote": "HUMAN PRESCRIPTION DRUG LABEL",
+          "quote_source": "label",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 38,
+      "kind": "label",
+      "cited_as": "DailyMed, U.S. National Library of Medicine. CLEOCIN (clindamycin phosphate) vaginal cream 2%: prescribing information. Revised March 2025. Accessed November 7, 2026. dailymed.nlm.nih.gov",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f9be442d-0782-4b93-828f-9ebbf67dbced",
+      "version_or_date": "CLEOCIN vaginal cream label, Revised 3/2025 (DailyMed updated November 19, 2025)",
+      "retrieved_with": "WebFetch of DailyMed label page",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "Label allows 3 or 7 days in nonpregnant patients; CDC 2021 recommends 7 days.",
+      "claims": [
+        {
+          "text": "May weaken latex condoms or diaphragms; avoid such products within 72 hours",
+          "quote": "may weaken latex or rubber products such as condoms or vaginal contraceptive diaphragms ... use of such products within 72 hours following treatment ... not recommended",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Prescription product",
+          "quote": "HUMAN PRESCRIPTION DRUG LABEL",
+          "quote_source": "label",
+          "verdict": "supported"
+        }
+      ]
+    }
+  ]
+}
