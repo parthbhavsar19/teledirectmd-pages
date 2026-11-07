@@ -249,7 +249,7 @@ export default function EmployersPage() {
             <span className="tdmd-emp-eyebrow">The reality</span>
             <h2 style={{ color: '#ffffff' }}>Your team needs a doctor. They can't get one.</h2>
             <p style={{ color: 'rgba(255,255,255,0.92)', fontSize: '1.0625rem' }}>
-              The average ER visit costs <strong style={{ color: 'var(--tdmd-accent)' }}>$1,454</strong>. The average urgent care runs <strong style={{ color: 'var(--tdmd-accent)' }}>$150–$300</strong>. Your employees skip both — and skip the doctor entirely — because they can't take half a day off to see one. 70% of hospitality workers have zero employer health benefits. 41% of independent trucking owner-operators are uninsured.
+              Your employees skip urgent care, the ER and the doctor entirely, because they can't take half a day off to see one. 70% of hospitality workers have zero employer health benefits. 41% of independent trucking owner-operators are uninsured.
             </p>
             <p style={{ color: '#ffffff', fontWeight: 700, fontSize: '1.0625rem', marginTop: '1.5rem' }}>
               We fix that — and it costs your business nothing.
@@ -292,8 +292,8 @@ export default function EmployersPage() {
             <div className="tdmd-emp-vcards">
               <div className="tdmd-emp-vcard">
                 <h3>Your people skip the ER</h3>
-                <span className="tdmd-emp-bigstat">$1,454</span>
-                <p>Average ER visit cost. A TeleDirectMD visit is a fraction of that — paid at the preferred employer rate or in-network through commercial insurance. A 2017–2019 Penn Medicine study (<em>American Journal of Managed Care</em>) found employee telehealth visits cost <strong>23% less per episode</strong> than in-person — about $113 less per visit.</p>
+                <span className="tdmd-emp-bigstat">23%</span>
+                <p>Lower cost per care episode for employees who used their health system's own video visits instead of in-person care, about $114 less per 7-day episode, in a Penn Medicine study of 2017 to 2019 data (<a href="https://doi.org/10.37765/ajmc.2023.89369" rel="noopener" target="_blank"><em>American Journal of Managed Care</em>, 2023</a>). TeleDirectMD visits are paid at the preferred employer rate or in-network through commercial insurance.</p>
                 <span className="tdmd-emp-caveat">Results vary by setting. Penn Medicine findings come from a health-system study; your outcomes may differ.</span>
               </div>
               <div className="tdmd-emp-vcard">
