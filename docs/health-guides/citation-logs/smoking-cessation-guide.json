@@ -1,0 +1,1472 @@
+{
+ "guide": "smoking-cessation-guide",
+ "checked_at": "2026-11-07",
+ "checked_by": "Claude (repair run)",
+ "scite_verify_papers": "unavailable (quota exhausted until 2026-11-14); retraction status from PubMed article types",
+ "references": [
+  {
+   "n": 1,
+   "kind": "journal",
+   "cited_as": "Patnode CD, Henderson JT, Coppola EL, et al. Interventions for Tobacco Cessation in Adults, Including Pregnant Persons: Updated Evidence Report and Systematic Review for the US Preventive Services Task Force. JAMA. 2021;325(3):280-298.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33464342/",
+   "pmid": "33464342",
+   "pmcid": "PMC13475361",
+   "doi": "10.1001/jama.2020.23541",
+   "record_title": "Interventions for Tobacco Cessation in Adults, Including Pregnant Persons: Updated Evidence Report and Systematic Review for the US Preventive Services Task Force.",
+   "record_journal": "JAMA",
+   "record_year": "2021",
+   "article_type": "Systematic Review",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract, article types)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "Link changed from the USPSTF evidence-summary web page to the PubMed record of the cited JAMA article. scite_unavailable (Scite quota exhausted until 2026-11-14); retraction status checked from PubMed article types: none are Retracted Publication or Retraction Notice.",
+   "claims": [
+    {
+     "text": "USPSTF pooled RRs vs minimal support or placebo: varenicline 2.24, bupropion 1.64, NRT 1.55, combined pharmacotherapy plus behavioral 1.83",
+     "quote": "Combined pharmacotherapy and behavioral interventions (pooled risk ratio [RR], 1.83 [95% CI, 1.68-1.98]), NRT (RR, 1.55 [95% CI, 1.49-1.61]), bupropion (RR, 1.64 [95% CI, 1.52-1.77]), varenicline (RR, 2.24 [95% CI, 2.06-2.43])",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "advice from clinicians pooled RR 1.76",
+     "quote": "behavioral interventions such as advice from clinicians (RR, 1.76 [95% CI, 1.58-1.96]) were all associated with increased quit rates compared with minimal support or placebo at 6 months or longer.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "In pooled trials, validated quit rates with NRT in pregnancy were not significantly different from placebo",
+     "quote": "Rates of validated cessation among pregnant women allocated to NRT compared with placebo were not significantly different (pooled RR, 1.11 [95% CI, 0.79-1.56], n = 2033).",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "kind": "journal",
+   "cited_as": "Rigotti NA, Kruse GR, Livingstone-Banks J, Hartmann-Boyce J. Treatment of Tobacco Smoking: A Review. JAMA. 2022;327(6):566-577.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35133411/",
+   "pmid": "35133411",
+   "doi": "10.1001/jama.2022.0395",
+   "record_title": "Treatment of Tobacco Smoking: A Review.",
+   "record_journal": "JAMA",
+   "record_year": "2022",
+   "article_type": "Review (Journal Article)",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract, article types)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "Link changed from a third-party PDF copy (vqi.org) to the PubMed record. Only abstract claims are used; the age-band life-expectancy figures, receptor-upregulation and post-MI safety claims previously pinned here were cut or moved to retrieved primary sources. The EAGLES 6-month rates (21.8/16.2/15.7/9.4%) are quoted from this review because the EAGLES primary abstract reports odds ratios only and the Lancet full text could not be fetched; EAGLES [3] is cited alongside. scite_unavailable (Scite quota exhausted until 2026-11-14); retraction status checked from PubMed article types: none are Retracted Publication or Retraction Notice.",
+   "claims": [
+    {
+     "text": "more U.S. deaths are attributed to cigarette smoking each year than to any other preventable cause",
+     "quote": "More deaths in the US are attributed to cigarette smoking each year than to any other preventable cause.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "approximately 34 million people in the U.S. smoke cigarettes",
+     "quote": "Approximately 34 million people and an estimated 14% of adults in the US smoke cigarettes.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "smoking is a chronic disorder maintained by physical nicotine dependence and learned behaviors",
+     "quote": "Tobacco smoking is a chronic disorder maintained by physical nicotine dependence and learned behaviors.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "people who try to quit make an average of about 6 attempts before long-term abstinence",
+     "quote": "individuals who attempt to quit smoking make an average of approximately 6 quit attempts before achieving long-term abstinence.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "EAGLES 6-month quit rates: varenicline 21.8%, bupropion 16.2%, nicotine patch 15.7%, placebo 9.4%",
+     "quote": "found a significantly higher 6-month quit rate for varenicline (21.8%) than for bupropion (16.2%) and the nicotine patch (15.7%). Each therapy was more effective than placebo (9.4%).",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "behavioral counseling and medication work individually but are most effective when combined",
+     "quote": "Both behavioral counseling and pharmacotherapy while using nicotine replacement therapy (NRT) products, varenicline, or bupropion are effective treatments when used individually, but they are most effective when combined.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "medication plus counseling 15.2% vs 8.6% with brief advice or usual care (meta-analysis of 19,488)",
+     "quote": "In a meta-analysis including 19 488 people who smoked cigarettes, the combination of medication and behavioral counseling was associated with a quit rate of 15.2% over 6 months compared with a quit rate of 8.6%",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "combining drugs with different mechanisms (varenicline and NRT) increased quit rates in some studies",
+     "quote": "Combining drugs with different mechanisms of action, such as varenicline and NRT, has increased quit rates in some studies compared with use of a single product.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "behavioral support can be delivered in person, by telephone, text messages, or the internet",
+     "quote": "Brief or intensive behavioral support can be delivered effectively in person or by telephone, text messages, or the internet.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "varenicline or combination NRT are preferred initial interventions, with pharmacotherapy plus behavioral support",
+     "quote": "First-line therapy should include both pharmacotherapy and behavioral support, with varenicline or combination NRT as preferred initial interventions.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "kind": "journal",
+   "cited_as": "Anthenelli RM, Benowitz NL, West R, et al. Neuropsychiatric safety and efficacy of varenicline, bupropion, and nicotine patch in smokers with and without psychiatric disorders (EAGLES): a double-blind, randomised, placebo-controlled clinical trial. Lancet. 2016;387(10037):2507-2520.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/27116918/",
+   "pmid": "27116918",
+   "doi": "10.1016/S0140-6736(16)30272-0",
+   "record_title": "Neuropsychiatric safety and efficacy of varenicline, bupropion, and nicotine patch in smokers with and without psychiatric disorders (EAGLES): a double-blind, randomised, placebo-controlled clinical trial.",
+   "record_journal": "Lancet",
+   "record_year": "2016",
+   "article_type": "Randomized Controlled Trial; Multicenter Study",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract, article types)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "Abstract only (Lancet full text fetch failed). Arm percentages are supported via ref 2. The cardiac-safety claim previously cited here was moved to ref 29 (EAGLES extension). scite_unavailable (Scite quota exhausted until 2026-11-14); retraction status checked from PubMed article types: none are Retracted Publication or Retraction Notice.",
+   "claims": [
+    {
+     "text": "8,144 participants; psychiatric cohort 4,116",
+     "quote": "8144 participants were randomly assigned, 4116 to the psychiatric cohort (4074 included in the safety analysis) and 4028 to the non-psychiatric cohort",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "no significant increase in neuropsychiatric adverse events with varenicline or bupropion vs patch or placebo",
+     "quote": "The study did not show a significant increase in neuropsychiatric adverse events attributable to varenicline or bupropion relative to nicotine patch or placebo.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "varenicline more effective than placebo, patch, and bupropion; bupropion OR 2.07 and patch OR 2.15 vs placebo",
+     "quote": "Those on bupropion and nicotine patch achieved higher abstinence rates than those on placebo (OR 2·07 [1·75 to 2·45] and 2·15 [1·82 to 2·54], respectively).",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "varenicline more effective than the other arms",
+     "quote": "Varenicline was more effective than placebo, nicotine patch, and bupropion in helping smokers achieve abstinence, whereas bupropion and nicotine patch were more effective than placebo.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "psychiatric cohort neuropsychiatric AEs 4.9% to 6.7% across groups; efficacy comparisons did not differ by cohort",
+     "quote": "moderate and severe neuropsychiatric adverse events were reported in 67 (6·5%) of 1026 participants in the varenicline group, 68 (6·7%) of 1017 in the bupropion group, 53 (5·2%) ... 50 (4·9%) of 1015 in the placebo group",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "all participants received brief cessation counselling at each visit",
+     "quote": "Participants were motivated-to-quit smokers with and without psychiatric disorders who received brief cessation counselling at each visit.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "kind": "label",
+   "cited_as": "Pfizer Inc. CHANTIX (varenicline) tablets, for oral use: prescribing information. Revised 12/2016 (Recent Major Changes: Boxed Warning removed 12/2016). Drugs@FDA.",
+   "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2016/021928s040lbl.pdf",
+   "record_title": "CHANTIX (varenicline) tablets, for oral use (Pfizer Inc.)",
+   "version_or_date": "Revised 12/2016",
+   "retrieved_with": "WebFetch of Drugs@FDA label PDF",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "Re-cited as what the link actually opens: the December 2016 Chantix label. The FDA Drug Safety Communication page itself could not be fetched (fda.gov returned a client error), so it is no longer cited. The claims that no signal re-emerged and that varenicline suits bipolar disorder and schizophrenia were cut.",
+   "claims": [
+    {
+     "text": "FDA removed the varenicline neuropsychiatric boxed warning in December 2016",
+     "quote": "Boxed Warning-Removed 12/2016",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "kind": "journal",
+   "cited_as": "Theodoulou A, Chepkin SC, Ye W, et al. Different doses, durations and modes of delivery of nicotine replacement therapy for smoking cessation. Cochrane Database Syst Rev. 2023;6(6):CD013308.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37335995/",
+   "pmid": "37335995",
+   "pmcid": "PMC10278922",
+   "doi": "10.1002/14651858.CD013308.pub2",
+   "record_title": "Different doses, durations and modes of delivery of nicotine replacement therapy for smoking cessation.",
+   "record_journal": "Cochrane Database Syst Rev",
+   "record_year": "2023",
+   "article_type": "Systematic Review",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract, article types)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "First author corrected from Lindson N to Theodoulou A; link changed from a Cochrane plain-language page to the PubMed record. scite_unavailable (Scite quota exhausted until 2026-11-14); retraction status checked from PubMed article types: none are Retracted Publication or Retraction Notice.",
+   "claims": [
+    {
+     "text": "combination NRT beats single form, RR 1.27, high certainty, 16 studies, 12,169 participants",
+     "quote": "There is high-certainty evidence that combination NRT (fast-acting form plus patch) results in higher long-term quit rates than single form (risk ratio (RR) 1.27, 95% confidence interval (CI) 1.17 to 1.37; I= 12%; 16 studies, 12,169 participants).",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "4 mg gum works better than 2 mg gum (high certainty)",
+     "quote": "There is high-certainty evidence that using combination NRT versus single-form NRT and 4 mg versus 2 mg nicotine gum can result in an increase in the chances of successfully stopping smoking.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "NRT replaces nicotine to reduce cravings and withdrawal and ease transition to abstinence",
+     "quote": "Nicotine replacement therapy (NRT) aims to replace nicotine from cigarettes. This helps to reduce cravings and withdrawal symptoms, and ease the transition from cigarette smoking to complete abstinence.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "kind": "journal",
+   "cited_as": "Hajek P, Phillips-Waller A, Przulj D, et al. A Randomized Trial of E-Cigarettes versus Nicotine-Replacement Therapy. N Engl J Med. 2019;380(7):629-637.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30699054/",
+   "pmid": "30699054",
+   "doi": "10.1056/NEJMoa1808779",
+   "record_title": "A Randomized Trial of E-Cigarettes versus Nicotine-Replacement Therapy.",
+   "record_journal": "N Engl J Med",
+   "record_year": "2019",
+   "article_type": "Randomized Controlled Trial",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract, article types)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "scite_unavailable (Scite quota exhausted until 2026-11-14); retraction status checked from PubMed article types: none are Retracted Publication or Retraction Notice.",
+   "claims": [
+    {
+     "text": "886 participants; 1-year abstinence 18.0% vs 9.9%, RR 1.83 (1.30-2.58)",
+     "quote": "A total of 886 participants underwent randomization. The 1-year abstinence rate was 18.0% in the e-cigarette group, as compared with 9.9% in the nicotine-replacement group (relative risk, 1.83; 95% confidence interval [CI], 1.30 to 2.58",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "weekly behavioral support for at least 4 weeks; NHS stop-smoking service attendees; NRT of choice vs e-cigarette starter pack",
+     "quote": "We randomly assigned adults attending U.K. National Health Service stop-smoking services to either nicotine-replacement products of their choice ... or an e-cigarette starter pack",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "80% of abstinent e-cigarette users still using at 52 weeks vs 9% NRT",
+     "quote": "those in the e-cigarette group were more likely than those in the nicotine-replacement group to use their assigned product at 52 weeks (80% [63 of 79 participants] vs. 9% [4 of 44 participants]).",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "kind": "journal",
+   "cited_as": "Moore D, Aveyard P, Connock M, et al. Effectiveness and safety of nicotine replacement therapy assisted reduction to stop smoking: systematic review and meta-analysis. BMJ. 2009;338:b1024.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/19342408/",
+   "pmid": "19342408",
+   "pmcid": "PMC2664870",
+   "doi": "10.1136/bmj.b1024",
+   "record_title": "Effectiveness and safety of nicotine replacement therapy assisted reduction to stop smoking: systematic review and meta-analysis.",
+   "record_journal": "BMJ",
+   "record_year": "2009",
+   "article_type": "Systematic Review; Meta-Analysis",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract, article types)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "scite_unavailable (Scite quota exhausted until 2026-11-14); retraction status checked from PubMed article types: none are Retracted Publication or Retraction Notice.",
+   "claims": [
+    {
+     "text": "NRT-assisted reduction doubled 6-month sustained abstinence vs placebo, RR 2.06, trials enrolling 2,767 smokers",
+     "quote": "The trials enrolled a total of 2767 smokers ... 6.75% of smokers receiving nicotine replacement therapy attained sustained abstinence for six months, twice the rate of those receiving placebo (relative risk (fixed effects) 2.06",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "most evidence came from trials with regular behavioral support",
+     "quote": "Most of the evidence, however, comes from trials with regular behavioural support and monitoring",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "kind": "journal",
+   "cited_as": "Rigotti NA, Benowitz NL, Prochaska JJ, et al. Cytisinicline for Smoking Cessation: The ORCA Phase 3 Replication Randomized Clinical Trial. JAMA Intern Med. 2025;185(6):648-655.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40257755/",
+   "pmid": "40257755",
+   "pmcid": "PMC12012700",
+   "doi": "10.1001/jamainternmed.2025.0628",
+   "record_title": "Cytisinicline for Smoking Cessation: The ORCA Phase 3 Replication Randomized Clinical Trial.",
+   "record_journal": "JAMA Intern Med",
+   "record_year": "2025",
+   "article_type": "Randomized Controlled Trial; Clinical Trial, Phase III",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract, article types)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "Title corrected (was \"The ORCA-3 Phase 3 Randomized Clinical Trial\"); volume and pages added. scite_unavailable (Scite quota exhausted until 2026-11-14); retraction status checked from PubMed article types: none are Retracted Publication or Retraction Notice.",
+   "claims": [
+    {
+     "text": "ORCA-3 12-week arm: weeks 9-12 OR 4.4",
+     "quote": "For 12-week treatment, 80 cytisinicline participants (30.3%) vs 25 placebo participants (9.4%) were abstinent during weeks 9 to 12 (OR, 4.4; 95% CI, 2.6-7.3; P < .001).",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "ORCA-3 weeks 9-24 continuous abstinence 20.5% vs 4.2%",
+     "quote": "Continuous abstinence rates for the 12-week treatment were 20.5% (cytisinicline) vs 4.2% (placebo) for weeks 9 to 24.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "well tolerated, no treatment-related serious adverse events; behavioral support; 6- or 12-week regimens",
+     "quote": "Cytisinicline was well tolerated with no treatment-related serious adverse events.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "kind": "other_web",
+   "cited_as": "Achieve Life Sciences. Achieve Life Sciences Receives Complete Response Letter from FDA for Cytisinicline NDA. Company press release, June 22, 2026.",
+   "url": "https://ir.achievelifesciences.com/news-events/press-releases/detail/264/achieve-life-sciences-receives-complete-response-letter-from-fda-for-cytisinicline-nda",
+   "record_title": "Achieve Life Sciences Receives Complete Response Letter from FDA for Cytisinicline NDA",
+   "version_or_date": "Press release dated June 22, 2026",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "Company press release (commercial source), used only for regulatory-status facts and attributed to the company in the text. Removed unsupported details: \"former third-party facility\", \"first engineering batch\", and \"first new prescription cessation medication in nearly two decades\". A web search on 2026-11-07 found no later Achieve announcement; not exhaustive.",
+   "claims": [
+    {
+     "text": "CRL cited outstanding manufacturing observations from a cGMP inspection and labeling not completed by the action date",
+     "quote": "outstanding manufacturing-related observations from a current Good Manufacturing Practice (cGMP) inspection ... final product labeling that was not completed by the FDA's action date",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "FDA identified no deficiencies in clinical efficacy or safety",
+     "quote": "The FDA identified no deficiencies regarding the clinical efficacy or safety of cytisinicline.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Adare named new manufacturer; resubmission Q4 2026; potential approval first half of 2027",
+     "quote": "Achieve intends to resubmit its NDA in the fourth quarter of 2026 ... potential FDA approval in the first half of 2027",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "kind": "journal",
+   "cited_as": "Zhou X, Huang Z, Song Q, et al. Efficacy of combined varenicline and nicotine replacement therapy compared with varenicline or nicotine replacement therapy alone for smoking cessation: A systematic review and meta-analysis. Addiction. 2025;121(3):499-509.",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12887925/",
+   "pmid": "41208435",
+   "pmcid": "PMC12887925",
+   "doi": "10.1111/add.70235",
+   "record_title": "Efficacy of combined varenicline and nicotine replacement therapy compared with varenicline or nicotine replacement therapy alone for smoking cessation: A systematic review and meta-analysis.",
+   "record_journal": "Addiction",
+   "record_year": "2025 (PubMed date 2025-11-10; volume 121, issue 3)",
+   "article_type": "Systematic Review; Meta-Analysis",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract, article types)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "Wording changed from an unqualified \"combination outperforms\" to the low-certainty finding, with the sensitivity analysis that lost significance. scite_unavailable (Scite quota exhausted until 2026-11-14); retraction status checked from PubMed article types: none are Retracted Publication or Retraction Notice.",
+   "claims": [
+    {
+     "text": "varenicline plus NRT vs varenicline alone RR 1.33 (1.04-1.69), 7 trials 2,631 participants",
+     "quote": "Seven trials including 2631 participants met inclusion criteria. Compared with varenicline alone, combination therapy was associated with statistically significantly higher abstinence rates at the longest follow-up (RR = 1.33, 95% CI = 1.04-1.69",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "not significant after excluding the high-risk-of-bias trial",
+     "quote": "when excluding the trial at high risk of bias, the result was not statistically significant (RR = 1.26, 95% CI = 0.94-1.68).",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "low-certainty evidence; more AEs, mainly skin reactions; SAEs infrequent",
+     "quote": "Low-certainty evidence indicates that combining varenicline with nicotine replacement therapy may improve long-term smoking cessation rates compared with varenicline alone",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "skin reactions increased with patch plus varenicline; SAEs infrequent and generally unrelated",
+     "quote": "skin reactions were significantly increased with NRT patch plus varenicline (RR = 1.67; 95% CI = 1.29-2.16) ... SAEs were infrequent and generally unrelated to treatment.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "kind": "agency_page",
+   "cited_as": "Centers for Disease Control and Prevention. Quitlines and Other Cessation Support Resources. Last reviewed January 31, 2025. Accessed November 7, 2026.",
+   "url": "https://www.cdc.gov/tobacco/hcp/patient-care/quitlines-and-other-resources.html",
+   "record_title": "Quitlines and Other Cessation Support Resources (CDC)",
+   "version_or_date": "Last reviewed January 31, 2025",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "The 480,000 deaths and disease list moved to ref 19; the \"$10 per $1\" ROI claim was cut (not on page); \"most/often provide free NRT starter kits\" reworded to \"some state quitlines offer free cessation medications\".",
+   "claims": [
+    {
+     "text": "quitline services are free to callers; 1-800-QUIT-NOW transfers to the state quitline",
+     "quote": "Calling 1-800-QUIT-NOW or 1-855-DÉJELO-YA will automatically transfer a caller to their state quitline.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "quitline services are confidential and free",
+     "quote": "Quitline services are confidential and free to callers.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "some state quitlines offer free cessation medications",
+     "quote": "Some state quitlines offer free cessation medications",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "NCI quitSTART app offers tips, information, and games",
+     "quote": "The National Cancer Institute's quitSTART app offers tips, information, and games",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "kind": "journal",
+   "cited_as": "Matkin W, Ordóñez-Mena JM, Hartmann-Boyce J. Telephone counselling for smoking cessation. Cochrane Database Syst Rev. 2019;5(5):CD002850.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31045250/",
+   "pmid": "31045250",
+   "pmcid": "PMC6496404",
+   "doi": "10.1002/14651858.CD002850.pub4",
+   "record_title": "Telephone counselling for smoking cessation.",
+   "record_journal": "Cochrane Database Syst Rev",
+   "record_year": "2019",
+   "article_type": "Systematic Review",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract, article types)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "Link changed from a 2007 AFP summary of an older edition to the PubMed record of the cited 2019 review. \"48 RCTs\" and the proactive-vs-reactive comparison replaced with the 2019 figures; chart value corrected from RR 1.37 to 1.38. scite_unavailable (Scite quota exhausted until 2026-11-14); retraction status checked from PubMed article types: none are Retracted Publication or Retraction Notice.",
+   "claims": [
+    {
+     "text": "104 trials; among quitline callers, multiple proactive sessions RR 1.38 vs self-help or single brief call, moderate certainty",
+     "quote": "quit rates were higher for smokers receiving multiple sessions of proactive counselling (risk ratio (RR) 1.38 ... compared with a control condition providing self-help materials or brief counselling in a single call.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "review included 104 trials",
+     "quote": "We identified 104 trials including 111,653 participants that met the inclusion criteria.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "kind": "journal",
+   "cited_as": "Xing X, Shang X, Deng X, et al. Efficacy and safety of pharmacological intervention for smoking cessation in smokers with diseases: A systematic review and network meta-analysis. J Evid Based Med. 2023;16(4):520-533.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38102895/",
+   "pmid": "38102895",
+   "doi": "10.1111/jebm.12570",
+   "record_title": "Efficacy and safety of pharmacological intervention for smoking cessation in smokers with diseases: A systematic review and network meta-analysis.",
+   "record_journal": "J Evid Based Med",
+   "record_year": "2023",
+   "article_type": "Systematic Review; Network Meta-Analysis",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract, article types)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "Pages corrected from e12570 to 520-533 per PubMed. scite_unavailable (Scite quota exhausted until 2026-11-14); retraction status checked from PubMed article types: none are Retracted Publication or Retraction Notice.",
+   "claims": [
+    {
+     "text": "bupropion plus NRT ranked best and beat either drug in mental illness; low confidence",
+     "quote": "bupropion + NRT was superior to bupropion (OR = 8.45 ...) and NRT (OR = 4.98 ...) in mental illness population. The final surface under the cumulative ranking curve indicated that bupropion + NRT achieved the best",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "overall confidence low",
+     "quote": "Overall confidence in the evidence was low.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "varenicline and bupropion improved quit rates vs placebo in cardiovascular disease",
+     "quote": "varenicline (OR = 2.30, 95% CI (1.77, 3.00)) and bupropion (OR = 1.65, 95% CI (1.29, 2.11)) showed favorable abstinence effects compared to placebo in the cardiovascular disease population.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "kind": "journal",
+   "cited_as": "Free C, Knight R, Robertson S, et al. Smoking cessation support delivered via mobile phone text messaging (txt2stop): a single-blind, randomised trial. Lancet. 2011;378(9785):49-55.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/21722952/",
+   "pmid": "21722952",
+   "pmcid": "PMC3143315",
+   "doi": "10.1016/S0140-6736(11)60701-0",
+   "record_title": "Smoking cessation support delivered via mobile phone text messaging (txt2stop): a single-blind, randomised trial.",
+   "record_journal": "Lancet",
+   "record_year": "2011",
+   "article_type": "Randomized Controlled Trial",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract, article types)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "scite_unavailable (Scite quota exhausted until 2026-11-14); retraction status checked from PubMed article types: none are Retracted Publication or Retraction Notice.",
+   "claims": [
+    {
+     "text": "txt2stop n=5,800; verified 6-month abstinence 10.7% vs 4.9%, RR 2.20 (1.80-2.68)",
+     "quote": "Biochemically verified continuous abstinence at 6 months was significantly increased in the txt2stop group (10·7% txt2stop vs 4·9% control, relative risk [RR] 2·20, 95% CI 1·80-2·68",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "kind": "journal",
+   "cited_as": "Cinciripini PM, Kypriotakis G, Green C, et al. The effects of varenicline, bupropion, nicotine patch, and placebo on smoking cessation among smokers with major depression: A randomized clinical trial. Depress Anxiety. 2022;39(5):429-440.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35535436/",
+   "pmid": "35535436",
+   "pmcid": "PMC9705120",
+   "doi": "10.1002/da.23259",
+   "record_title": "The effects of varenicline, bupropion, nicotine patch, and placebo on smoking cessation among smokers with major depression: A randomized clinical trial.",
+   "record_journal": "Depress Anxiety",
+   "record_year": "2022",
+   "article_type": "Randomized Controlled Trial (secondary analysis)",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract, article types)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "scite_unavailable (Scite quota exhausted until 2026-11-14); retraction status checked from PubMed article types: none are Retracted Publication or Retraction Notice.",
+   "claims": [
+    {
+     "text": "in smokers with major depression, varenicline had the largest effect with similar neuropsychiatric risk",
+     "quote": "varenicline plus counseling may be the best pharmacological option for the treatment of smoking given its greater efficacy effect size and similar risk of NPSAEs.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "risk of neuropsychiatric AEs did not differ by medication in MDD",
+     "quote": "Risk of NPSAEs did not differ by medication for MDD.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "kind": "guideline",
+   "cited_as": "US Preventive Services Task Force. Tobacco Smoking Cessation in Adults, Including Pregnant Persons: Interventions. Final recommendation statement, January 19, 2021 (published in JAMA. 2021;325(3):265-279). Page notes an update in progress. Accessed November 7, 2026.",
+   "url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/tobacco-use-in-adults-and-pregnant-women-counseling-and-interventions",
+   "pmid": "33464343",
+   "doi": "10.1001/jama.2020.25019",
+   "record_title": "Tobacco Smoking Cessation in Adults, Including Pregnant Persons: Interventions (USPSTF)",
+   "version_or_date": "Final recommendation January 19, 2021; page states the topic is being updated",
+   "retrieved_with": "WebFetch of official page (plus PubMed record PMID 33464343 for the recommendation grades)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "New reference. Replaces ref 1 as the source for the I statements (e-cigarettes; pharmacotherapy in pregnancy), the grade A pregnancy recommendation, the 5 A's, and e-cigarette cautions.",
+   "claims": [
+    {
+     "text": "I statement for pharmacotherapy in pregnancy; behavioral interventions for pregnant persons grade A",
+     "quote": "The USPSTF concludes that the current evidence is insufficient to assess the balance of benefits and harms of pharmacotherapy interventions for tobacco cessation in pregnant persons. (I statement)",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "I statement for e-cigarettes; direct patients to proven, safe treatments",
+     "quote": "insufficient to assess the balance of benefits and harms of e-cigarettes ... The USPSTF recommends that clinicians direct patients who use tobacco to other tobacco cessation interventions with proven effectiveness and established safety.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "no e-cigarette FDA-approved as a cessation aid; FDA classifies as tobacco product",
+     "quote": "The FDA classifies e-cigarettes as a tobacco product and to date, no e-cigarettes have been approved as a smoking cessation aid.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "long-term harms data lacking",
+     "quote": "Data on potential long-term harms of e-cigarette use are currently lacking.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "dual users may have higher toxicant levels",
+     "quote": "emerging evidence suggests that toxicant levels in dual users of e-cigarettes and cigarettes may be higher",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "e-cigarette interventions varied across studies",
+     "quote": "varied across studies, making comparisons difficult.",
+     "quote_source": "official_page",
+     "verdict": "partly_supported"
+    },
+    {
+     "text": "high youth e-cigarette use",
+     "quote": "Given the high rates of e-cigarette use in children and adolescents currently in the US",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "5 A's: Ask, Advise, Assess, Assist, Arrange",
+     "quote": "The 5 As: (1) Ask about tobacco use; (2) Advise to quit through clear, personalized messages",
+     "quote_source": "official_page",
+     "verdict": "partly_supported"
+    },
+    {
+     "text": "minimal advice (single session under 20 minutes) associated with higher quit rates",
+     "quote": "minimal advice (defined as a single session lasting <20 minutes with ≤1 follow-up sessions) ... was associated with significantly increased cessation rates compared with no advice",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "smoking in pregnancy raises risk of miscarriage, congenital anomalies, stillbirth, SIDS, preterm birth, low birth weight",
+     "quote": "Smoking during pregnancy can increase the risk for miscarriage, congenital anomalies, stillbirth ... increases the risk of preterm birth, and doubles the risk for delivering an infant with low birth weight.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "five NRT forms plus bupropion SR and varenicline are FDA-approved",
+     "quote": "nicotine transdermal patches, lozenges, gum, inhalers, or nasal spray",
+     "quote_source": "official_page",
+     "verdict": "partly_supported"
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "kind": "guideline",
+   "cited_as": "US Preventive Services Task Force. Primary Care Interventions for Prevention and Cessation of Tobacco Use in Children and Adolescents: US Preventive Services Task Force Recommendation Statement. JAMA. 2020;323(16):1590-1598.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32343336/",
+   "pmid": "32343336",
+   "doi": "10.1001/jama.2020.4679",
+   "record_title": "Primary Care Interventions for Prevention and Cessation of Tobacco Use in Children and Adolescents: US Preventive Services Task Force Recommendation Statement.",
+   "record_journal": "JAMA",
+   "record_year": "2020",
+   "article_type": "Practice Guideline",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract, article types)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "New reference. The prior claim of a USPSTF \"I\" statement specifically on adolescent pharmacotherapy (cited to the adult review) was not supported; the actual I statement covers all primary care cessation interventions for children and adolescents. scite_unavailable (Scite quota exhausted until 2026-11-14); retraction status checked from PubMed article types: none are Retracted Publication or Retraction Notice.",
+   "claims": [
+    {
+     "text": "insufficient evidence for primary care cessation interventions in children and adolescents; lack of powered behavioral studies and medication studies",
+     "quote": "there is insufficient evidence to determine the balance of benefits and harms of primary care interventions for tobacco cessation among school-aged children and adolescents who already smoke, because of a lack of adequately powered studies",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 18,
+   "kind": "journal",
+   "cited_as": "Jha P, Ramasundarahettige C, Landsman V, et al. 21st-century hazards of smoking and benefits of cessation in the United States. N Engl J Med. 2013;368(4):341-350.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/23343063/",
+   "pmid": "23343063",
+   "doi": "10.1056/NEJMsa1211128",
+   "record_title": "21st-century hazards of smoking and benefits of cessation in the United States.",
+   "record_journal": "N Engl J Med",
+   "record_year": "2013",
+   "article_type": "Journal Article (cohort analysis of NHIS data)",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract, article types)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "New reference; replaces the unsupported age-band life-expectancy figures attributed to Rigotti. Chart limited to the three age bands in the abstract (55-64 and 65+ bars removed). scite_unavailable (Scite quota exhausted until 2026-11-14); retraction status checked from PubMed article types: none are Retracted Publication or Retraction Notice.",
+   "claims": [
+    {
+     "text": "quitting at 25-34, 35-44, 45-54 gained about 10, 9, 6 years",
+     "quote": "Adults who had quit smoking at 25 to 34, 35 to 44, or 45 to 54 years of age gained about 10, 9, and 6 years of life, respectively, as compared with those who continued to smoke.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "quitting before 40 reduces excess death risk by about 90%",
+     "quote": "Cessation before the age of 40 years reduces the risk of death associated with continued smoking by about 90%.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 19,
+   "kind": "agency_page",
+   "cited_as": "Centers for Disease Control and Prevention. Cigarette Smoking. Last reviewed September 17, 2024. Accessed November 7, 2026.",
+   "url": "https://www.cdc.gov/tobacco/about/index.html",
+   "record_title": "Cigarette Smoking (CDC)",
+   "version_or_date": "Last reviewed September 17, 2024",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "New reference for the death toll and disease list previously pinned to the CDC quitline page.",
+   "claims": [
+    {
+     "text": "more than 480,000 U.S. deaths each year",
+     "quote": "Cigarette smoking and secondhand smoke exposure cause more than 480,000 deaths each year in the United States.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "smoking causes cancer, heart disease and stroke, lung diseases such as COPD, type 2 diabetes, reproductive effects",
+     "quote": "Cigarette smoking causes: Cancer; Heart disease and stroke; Lung diseases such as chronic obstructive pulmonary disease (COPD); Type 2 Diabetes; Harmful reproductive health effects",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 20,
+   "kind": "agency_page",
+   "cited_as": "Centers for Disease Control and Prevention. Benefits of Quitting Smoking. Last reviewed May 15, 2024. Accessed November 7, 2026.",
+   "url": "https://www.cdc.gov/tobacco/about/benefits-of-quitting.html",
+   "record_title": "Benefits of Quitting Smoking (CDC)",
+   "version_or_date": "Last reviewed May 15, 2024",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "New reference; replaces the uncited 20-minute, 12-hour, 1-year and 5-10-year stroke timeline with the CDC timeline.",
+   "claims": [
+    {
+     "text": "timeline: minutes heart rate drops; 24 hours nicotine zero; several days CO normal",
+     "quote": "Heart rate drops. ... Nicotine level in the blood drops to zero. ... Carbon monoxide level in the blood drops to level of someone who does not smoke.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "1-12 months cough and shortness of breath decrease; 1-2 years heart attack risk drops sharply; 3-6 years added CHD risk halves",
+     "quote": "Coughing and shortness of breath decrease. ... Risk of heart attack drops sharply. ... Added risk of coronary heart disease drops by half.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "added lung cancer risk halves after 10-15 years",
+     "quote": "Added risk of lung cancer drops by half after 10 to 15 years.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "benefits at any age",
+     "quote": "Quitting smoking has health benefits at any age, no matter how long or how much you have smoked.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 21,
+   "kind": "label",
+   "cited_as": "Rhodes Pharmaceuticals L.P. Varenicline tartrate tablet, film coated: prescribing information. Revised 9/2025. DailyMed. Accessed November 7, 2026.",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1b671433-470f-4a13-9a70-c1d9224ce744",
+   "record_title": "VARENICLINE TARTRATE tablet, film coated (Rhodes Pharmaceuticals L.P.)",
+   "version_or_date": "Revised 9/2025 (DailyMed updated September 17, 2025)",
+   "retrieved_with": "WebFetch of DailyMed label page",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "New reference: current FDA label for dosing, side effects, warnings, mechanism and controlled-substance status.",
+   "claims": [
+    {
+     "text": "start 1 week before quit date or quit between days 8 and 35",
+     "quote": "Begin varenicline tablets dosing one week before this date. Alternatively, the patient can begin varenicline tablets dosing and then quit smoking between days 8 and 35 of treatment.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "titration 0.5 mg daily days 1-3, 0.5 mg twice daily days 4-7, 1 mg twice daily day 8 on; 12 weeks",
+     "quote": "Days 1 to 3: 0.5 mg once daily ... Days 4 to 7: 0.5 mg twice daily ... Day 8 to end of treatment: 1 mg twice daily ... Patients should be treated with varenicline tablets for 12 weeks.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "additional 12 weeks recommended for those who quit",
+     "quote": "For patients who have successfully stopped smoking at the end of 12 weeks, an additional course of 12 weeks treatment with varenicline tablets is recommended to further increase the likelihood of long-term abstinence.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "take after eating with a full glass of water",
+     "quote": "Varenicline tablets should be taken orally after eating and with a full glass of water.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "lower dose in severe renal impairment",
+     "quote": "For patients with severe renal impairment (estimated creatinine clearance less than 30 mL per min), the recommended starting dose of varenicline tablets is 0.5 mg once daily.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "nausea up to 30%; common reactions; dose reduction for intolerable nausea",
+     "quote": "Nausea is the most common adverse reaction (up to 30% incidence rate). ... nausea, abnormal (e.g., vivid, unusual, or strange) dreams, constipation, flatulence, and vomiting",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "dose reduction for intolerable nausea",
+     "quote": "For patients with intolerable nausea, a dose reduction should be considered.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "partial agonist; blocks nicotine; mesolimbic dopamine reward mechanism",
+     "quote": "Varenicline blocks the ability of nicotine to activate α4β2 receptors and thus to stimulate the central nervous mesolimbic dopamine system, believed to be the neuronal mechanism underlying reinforcement and reward experienced upon smoking.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "stimulates receptor at lower level than nicotine",
+     "quote": "stimulates receptor-mediated activity, but at a significantly lower level than nicotine.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "not a controlled substance",
+     "quote": "Varenicline is not a controlled substance.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "serious neuropsychiatric events 0.1% vs 0.4% non-psychiatric; 0.6% vs 0.6% psychiatric",
+     "quote": "In the non-psychiatric cohort, neuropsychiatric adverse events of a serious nature were reported in 0.1% of varenicline tablets-treated patients and 0.4% of placebo-treated patients.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "stop and contact provider if agitation, depressed mood, behavior changes or suicidal ideation",
+     "quote": "the patient should stop taking varenicline tablets and contact a healthcare provider immediately if agitation, depressed mood, or changes in behavior or thinking that are not typical for the patient are observed",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "warnings: seizures, alcohol, accidental injury, somnambulism",
+     "quote": "Increased effects of alcohol have been reported. ... Instruct patients to use caution driving or operating machinery ... Cases of somnambulism have been reported",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "stable CVD trial: nonfatal MI and stroke more frequent with varenicline, events infrequent",
+     "quote": "In a smoking-cessation trial in patients with stable CV disease, CV events were infrequent overall; however, nonfatal myocardial infarction (MI) and nonfatal stroke occurred more frequently in patients treated with varenicline tablets compared to placebo.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "gradual approach: reduce 50% in 4 weeks, another 50%, 24 weeks total",
+     "quote": "reduce smoking by 50% from baseline within the first four weeks, by an additional 50% in the next four weeks ... for a total of 24 weeks of treatment.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "encourage another attempt after failed attempt once factors addressed",
+     "quote": "should be encouraged to make another attempt with varenicline tablets once factors contributing to the failed attempt have been identified and addressed",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "discontinue and seek care for allergic symptoms",
+     "quote": "Instruct patients to discontinue varenicline tablets and immediately seek medical care if symptoms occur.",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 22,
+   "kind": "label",
+   "cited_as": "GlaxoSmithKline LLC. ZYBAN (bupropion hydrochloride) sustained-release tablets: prescribing information. Revised 3/2021. DailyMed. Accessed November 7, 2026.",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a3327c31-d987-40ec-b3b5-097bbf2f4f8c",
+   "record_title": "ZYBAN (bupropion hydrochloride) tablet, film coated (GlaxoSmithKline LLC)",
+   "version_or_date": "Revised 3/2021",
+   "retrieved_with": "WebFetch of DailyMed label page",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "New reference. Corrected the contraindication list (severe hepatic impairment is a dose limit, not a contraindication; barbiturates, linezolid/IV methylene blue and hypersensitivity added), quit-date timing, mechanism wording, and added the boxed warning on suicidal thoughts and behaviors.",
+   "claims": [
+    {
+     "text": "start before quit day while smoking; target quit date within first 2 weeks",
+     "quote": "The patient should set a \"target quit date\" within the first 2 weeks of treatment with ZYBAN.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "150 mg daily for 3 days then 150 mg twice daily at least 8 hours apart; 7-12 weeks",
+     "quote": "Begin dosing with one 150-mg tablet per day for 3 days. ... an interval of at least 8 hours between each dose. ... Treatment with ZYBAN should be continued for 7 to 12 weeks.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "avoid bedtime doses to minimize insomnia",
+     "quote": "In addition, insomnia may be minimized by avoiding bedtime doses.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "moderate-severe hepatic impairment max 150 mg every other day",
+     "quote": "the maximum dose should not exceed 150 mg every other day",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "contraindications: seizure disorder, bulimia/anorexia, abrupt discontinuation of alcohol etc., MAOIs, hypersensitivity",
+     "quote": "ZYBAN is contraindicated in patients with a seizure disorder. ... with a current or prior diagnosis of bulimia or anorexia nervosa ... undergoing abrupt discontinuation of alcohol, benzodiazepines",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "seizure risk dose-related; discontinue and do not restart after seizure",
+     "quote": "Seizure risk: The risk is dose-related. ... Discontinue ZYBAN and do not restart treatment if the patient experiences a seizure.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "mechanism unknown; noradrenergic and/or dopaminergic",
+     "quote": "The exact mechanism by which ZYBAN enhances the ability of patients to abstain from smoking is not known ... presumed to be related to noradrenergic and/or dopaminergic mechanisms.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "not a controlled substance",
+     "quote": "Bupropion is not a controlled substance.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "most common adverse reactions",
+     "quote": "Most common adverse reactions (incidence ≥5% and ≥1% more than placebo rate) are insomnia, rhinitis, dry mouth, dizziness, nervous disturbance, anxiety, nausea, constipation, and arthralgia.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "boxed warning suicidal thoughts and behaviors; same active ingredient as antidepressants",
+     "quote": "WARNING: SUICIDAL THOUGHTS AND BEHAVIORS ... Although ZYBAN is not indicated for treatment of depression, it contains the same active ingredient",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "stop and contact provider for neuropsychiatric symptoms",
+     "quote": "the patient should stop taking ZYBAN and contact a healthcare provider immediately",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "psychiatric cohort composite events higher with Zyban than placebo",
+     "quote": "the incidence of events in the composite endpoint was higher for ZYBAN compared with placebo.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "ongoing treatment beyond 12 weeks considered case by case",
+     "quote": "consider whether the patient may benefit from ongoing treatment.",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 23,
+   "kind": "label",
+   "cited_as": "Haleon US Holdings LLC. NicoDerm CQ (nicotine patch, extended release): Drug Facts. Revised 7/2025. DailyMed. Accessed November 7, 2026.",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/getFile.cfm?setid=93b2d1b9-83c1-40b5-b6af-90c38c8d6cef&type=pdf",
+   "record_title": "NICODERM CQ nicotine patch, extended release (Haleon US Holdings LLC)",
+   "version_or_date": "Revised 7/2025",
+   "retrieved_with": "WebFetch of DailyMed label page (PDF)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "New reference for patch dosing, wear time, sleep advice, stop-use and ask-a-doctor items. The 16-or-24-hour wear option is stated on the label; onset and duration columns were removed from the NRT table because no retrieved source stated them.",
+   "claims": [
+    {
+     "text": "more than 10 cigarettes/day: 21 mg weeks 1-6, 14 mg weeks 7-8, 7 mg weeks 9-10",
+     "quote": "if you smoke more than 10 cigarettes per day,use according to the following ... Use one 21 mg patch/day Use one 14 mg patch/day Use one 7 mg patch/day Weeks 1-6 Weeks 7-8 Weeks 9-10",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "remove at bedtime for vivid dreams",
+     "quote": "if you have vivid dreams or other sleep disturbances, you may remove the patch at bedtime",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "stop if redness >4 days, swelling, rash; irregular heartbeat",
+     "quote": "skin redness caused by the patch does not go away after four days, or if your skin swells, or you get a rash ... irregular heartbeat or palpitations occur",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "ask doctor before use with heart disease, recent heart attack, irregular heartbeat",
+     "quote": "heart disease, recent heart attack, or irregular heartbeat",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 24,
+   "kind": "label",
+   "cited_as": "Lil' Drug Store Products, Inc. Nicorette White Mint (nicotine polacrilex gum, chewing): Drug Facts. Revised 12/2024. DailyMed. Accessed November 7, 2026.",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=4aec3330-411e-415f-a505-3ab7fa7295bb&type=display",
+   "record_title": "Nicorette White Mint nicotine polacrilex gum (Lil' Drug Store Products, Inc.)",
+   "version_or_date": "Revised 12/2024",
+   "retrieved_with": "WebFetch of DailyMed label page",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "New reference. Corrected the gum dose from \"6-10 pieces/day\" to the label minimum of 9 a day in weeks 1-6, maximum 24.",
+   "claims": [
+    {
+     "text": "4 mg if first cigarette within 30 minutes, else 2 mg",
+     "quote": "if you smoke your first cigarette more than 30 minutes after waking up, use 2 mg nicotine gum",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "schedule and minimum/maximum",
+     "quote": "1 piece every 1 to 2 hours ... use at least 9 pieces per day for the first 6 weeks ... do not use more than 24 pieces a day",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "chew slowly until tingle, park, repeat about 30 minutes",
+     "quote": "chew the gum slowly until it tingles",
+     "quote_source": "label",
+     "verdict": "partly_supported"
+    },
+    {
+     "text": "stop if mouth/teeth/jaw problems, palpitations, overdose symptoms, allergic reaction",
+     "quote": "mouth, teeth or jaw problems occur ... you get symptoms of nicotine overdose such as nausea, vomiting, dizziness, diarrhea, weakness and rapid heartbeat",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "allergic reaction symptoms",
+     "quote": "you have symptoms of an allergic reaction (such as difficulty breathing or rash)",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 25,
+   "kind": "label",
+   "cited_as": "Rite Aid Corporation. Nicotine polacrilex lozenge: Drug Facts. Revised 9/2026. DailyMed. Accessed November 7, 2026.",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=09bc9f57-fed2-42d9-b4f2-2b71b8baa0a9",
+   "record_title": "Rite Aid Corporation Nicotine Lozenge Drug Facts",
+   "version_or_date": "Revised 9/2026",
+   "retrieved_with": "WebFetch of DailyMed label page",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "New reference for lozenge dosing and use.",
+   "claims": [
+    {
+     "text": "4 mg if first cigarette within 30 minutes; at least 9 a day weeks 1-6; max 5 in 6 hours and 20 a day",
+     "quote": "use at least 9 lozenges per day for the first 6 weeks ... do not use more than 5 lozenges in 6 hours. Do not use more than 20 lozenges per day.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "dissolve slowly, minimize swallowing, do not chew or swallow; stop if mouth problems, indigestion, sore throat",
+     "quote": "allow the lozenge to slowly dissolve. Minimize swallowing. Do not chew or swallow lozenge. ... persistent indigestion or severe sore throat occurs",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 26,
+   "kind": "label",
+   "cited_as": "Pfizer (repackaged by Physicians Total Care, Inc.). NICOTROL (nicotine inhalation system): prescribing information. Updated December 10, 2009. DailyMed. Accessed November 7, 2026.",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f32f9c92-cbb4-483b-9e70-0b6e4567824f",
+   "record_title": "NICOTROL nicotine inhalant (Physicians Total Care, Inc., repackager)",
+   "version_or_date": "Repackaged label, DailyMed updated December 10, 2009 (most recent Nicotrol inhaler label found on DailyMed this run)",
+   "retrieved_with": "WebFetch of DailyMed label page",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "New reference. Older repackaged label; a current manufacturer label for the inhaler was not found on DailyMed in this run.",
+   "claims": [
+    {
+     "text": "6-16 cartridges a day up to 12 weeks then reduction; prescription",
+     "quote": "6 – 16 ... Up to 12 Weeks ... 6–12 Weeks",
+     "quote_source": "label",
+     "verdict": "partly_supported"
+    }
+   ]
+  },
+  {
+   "n": 27,
+   "kind": "label",
+   "cited_as": "Pharmacia & Upjohn Company LLC. NICOTROL NS (nicotine nasal spray): prescribing information. Updated May 29, 2025. DailyMed. Accessed November 7, 2026.",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=acb7d02d-249b-4645-ac1b-8ff9a56dd244",
+   "record_title": "NICOTROL nicotine spray, metered (Pharmacia & Upjohn Company LLC)",
+   "version_or_date": "DailyMed updated May 29, 2025",
+   "retrieved_with": "WebFetch of DailyMed label page",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "New reference. Corrected the nasal spray description: 1 dose = 2 sprays; at least 8 doses a day; max 5 an hour or 40 a day.",
+   "claims": [
+    {
+     "text": "1 dose = 2 sprays; start 1-2 doses/hour; at least 8 a day; max 5 an hour or 40 a day; prescription",
+     "quote": "1 mg of nicotine (2 sprays, one in each nostril) ... at least the recommended minimum of 8 doses per day ... 5 times an hour or 40 times in 24 hours",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 28,
+   "kind": "journal",
+   "cited_as": "Rigotti NA, Benowitz NL, Prochaska J, et al. Cytisinicline for Smoking Cessation: A Randomized Clinical Trial. JAMA. 2023;330(2):152-160.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37432430/",
+   "pmid": "37432430",
+   "pmcid": "PMC10336611",
+   "doi": "10.1001/jama.2023.10042",
+   "record_title": "Cytisinicline for Smoking Cessation: A Randomized Clinical Trial.",
+   "record_journal": "JAMA",
+   "record_year": "2023",
+   "article_type": "Randomized Controlled Trial",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract, article types)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "New reference (ORCA-2), the source of the OR 6.3 figure previously attributed only to ORCA-3. scite_unavailable (Scite quota exhausted until 2026-11-14); retraction status checked from PubMed article types: none are Retracted Publication or Retraction Notice.",
+   "claims": [
+    {
+     "text": "ORCA-2 12-week: weeks 9-12 OR 6.3; weeks 9-24 21.1% vs 4.8%",
+     "quote": "For the 12-week course of cytisinicline vs placebo, continuous abstinence rates were 32.6% vs 7.0% for weeks 9 to 12 (OR, 6.3 [95% CI, 3.7-11.6]; P < .001) and 21.1% vs 4.8% during weeks 9 to 24",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "no drug-related serious adverse events; behavioral support",
+     "quote": "No drug-related serious adverse events occurred.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 29,
+   "kind": "journal",
+   "cited_as": "Benowitz NL, Pipe A, West R, et al. Cardiovascular Safety of Varenicline, Bupropion, and Nicotine Patch in Smokers: A Randomized Clinical Trial. JAMA Intern Med. 2018;178(5):622-631.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29630702/",
+   "pmid": "29630702",
+   "pmcid": "PMC6145797",
+   "doi": "10.1001/jamainternmed.2018.0397",
+   "record_title": "Cardiovascular Safety of Varenicline, Bupropion, and Nicotine Patch in Smokers: A Randomized Clinical Trial.",
+   "record_journal": "JAMA Intern Med",
+   "record_year": "2018",
+   "article_type": "Randomized Controlled Trial",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract, article types)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "New reference replacing the EAGLES neuropsychiatric paper for cardiovascular safety. The prior claim that NRT is safe \"within days of an acute MI\" had no retrieved source and was cut. scite_unavailable (Scite quota exhausted until 2026-11-14); retraction status checked from PubMed article types: none are Retracted Publication or Retraction Notice.",
+   "claims": [
+    {
+     "text": "8,058 treated; MACE <0.5% and not different by treatment",
+     "quote": "The incidence of cardiovascular events during treatment and follow-up was low (<0.5% for MACE; <0.8% for MACE+) and did not differ significantly by treatment.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "no increase in serious CV events in general population of smokers",
+     "quote": "smoking cessation medications do not increase the risk of serious cardiovascular events in the general population of smokers.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 30,
+   "kind": "agency_page",
+   "cited_as": "National Cancer Institute, Smokefree.gov. Managing Nicotine Withdrawal. Undated web page. Accessed November 7, 2026.",
+   "url": "https://smokefree.gov/challenges-when-quitting/withdrawal/managing-nicotine-withdrawal",
+   "record_title": "Managing Nicotine Withdrawal (NCI Smokefree.gov)",
+   "version_or_date": "Undated page (no date shown); read 2026-11-07",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "New reference replacing uncited withdrawal timing (\"peak within 3 days\", \"2 to 4 weeks\") and the uncited \"10 seconds\" nicotine-delivery claim (cut).",
+   "claims": [
+    {
+     "text": "withdrawal symptoms list",
+     "quote": "Craving a cigarette, feeling restless or jumpy, or having trouble sleeping are common withdrawal symptoms.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "irritable, sad/anxious/depressed, trouble concentrating, hungrier",
+     "quote": "Feeling irritable or grouchy. ... Feeling sad, anxious, or depressed. ... Having trouble thinking clearly or concentrating. ... Feeling hungrier.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "strongest first days or weeks; worst last a few days to a couple of weeks",
+     "quote": "The worst withdrawal symptoms only last a few days to a couple of weeks.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "strongest in first few days or weeks then weaker",
+     "quote": "symptoms are strongest in the first few days or weeks, and then symptoms get weaker and happen less often over time.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "avoid triggers at least temporarily",
+     "quote": "Avoid your triggers, at least temporarily, after you quit to help lessen your cravings",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "medications reduce withdrawal",
+     "quote": "Quit smoking medications can help reduce symptoms of nicotine withdrawal and make quitting easier.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 31,
+   "kind": "agency_page",
+   "cited_as": "National Cancer Institute, Smokefree.gov. SmokefreeTXT Quit Smoking Text Program. Undated web page. Accessed November 7, 2026.",
+   "url": "https://smokefree.gov/text",
+   "record_title": "SmokefreeTXT Quit Smoking Text Program (NCI Smokefree.gov)",
+   "version_or_date": "Undated page; read 2026-11-07",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "New reference. Corrected \"the CDC's SmokefreeTXT\" to the National Cancer Institute's program; SmokefreeVET, QuitGuide and EX Program mentions cut (not retrieved).",
+   "claims": [
+    {
+     "text": "NCI SmokefreeTXT, text QUIT to 47848, daily texts for U.S. adults ready to quit",
+     "quote": "Sign up with the form below or text QUIT to 47848. ... daily text messages to support you in quitting smoking",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 32,
+   "kind": "journal",
+   "cited_as": "Streck JM, Rigotti NA, Livingstone-Banks J, et al. Interventions for smoking cessation in hospitalised patients. Cochrane Database Syst Rev. 2024;5(5):CD001837.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38770804/",
+   "pmid": "38770804",
+   "pmcid": "PMC11106804",
+   "doi": "10.1002/14651858.CD001837.pub4",
+   "record_title": "Interventions for smoking cessation in hospitalised patients.",
+   "record_journal": "Cochrane Database Syst Rev",
+   "record_year": "2024",
+   "article_type": "Systematic Review; Meta-Analysis",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract, article types)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "New reference for the hospitalized-patient paragraph; the uncited Joint Commission quality-measure claim was cut. scite_unavailable (Scite quota exhausted until 2026-11-14); retraction status checked from PubMed article types: none are Retracted Publication or Retraction Notice.",
+   "claims": [
+    {
+     "text": "counseling started in hospital and continued >1 month after discharge RR 1.36 high certainty",
+     "quote": "continued for more than a month after discharge had higher quit rates than patients who received no counselling in the hospital or following hospitalisation (risk ratio (RR) 1.36, 95% confidence interval (CI) 1.24 to 1.49",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "NRT in hospital RR 1.33 high certainty",
+     "quote": "Nicotine replacement therapy helped more patients to quit than placebo or no pharmacotherapy (RR 1.33, 95% CI 1.05 to 1.67; 8 studies, 3838 participants; high-certainty evidence).",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 33,
+   "kind": "journal",
+   "cited_as": "Aubin HJ, Farley A, Lycett D, et al. Weight gain in smokers after quitting cigarettes: meta-analysis. BMJ. 2012;345:e4439.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/22782848/",
+   "pmid": "22782848",
+   "pmcid": "PMC3393785",
+   "doi": "10.1136/bmj.e4439",
+   "record_title": "Weight gain in smokers after quitting cigarettes: meta-analysis.",
+   "record_journal": "BMJ",
+   "record_year": "2012",
+   "article_type": "Meta-Analysis",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract, article types)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "New reference replacing the uncited \"4 to 10 pounds\" figure. Pound conversion (4-5 kg = roughly 9-11 lb) is arithmetic. scite_unavailable (Scite quota exhausted until 2026-11-14); retraction status checked from PubMed article types: none are Retracted Publication or Retraction Notice.",
+   "claims": [
+    {
+     "text": "mean gain 4-5 kg at 12 months, most within 3 months; 16% lose, 13% gain >10 kg",
+     "quote": "Smoking cessation is associated with a mean increase of 4-5 kg in body weight after 12 months of abstinence, and most weight gain occurs within three months of quitting.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "variation: 16% lose weight, 13% gain more than 10 kg",
+     "quote": "Variation in weight change is large, with about 16% of quitters losing weight and 13% gaining more than 10 kg.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 34,
+   "kind": "journal",
+   "cited_as": "Hartmann-Boyce J, Theodoulou A, Farley A, et al. Interventions for preventing weight gain after smoking cessation. Cochrane Database Syst Rev. 2021;10(10):CD006219.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34611902/",
+   "pmid": "34611902",
+   "pmcid": "PMC8493442",
+   "doi": "10.1002/14651858.CD006219.pub4",
+   "record_title": "Interventions for preventing weight gain after smoking cessation.",
+   "record_journal": "Cochrane Database Syst Rev",
+   "record_year": "2021",
+   "article_type": "Systematic Review; Meta-Analysis",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract, article types)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "New reference. The uncited GLP-1 bullet was cut. scite_unavailable (Scite quota exhausted until 2026-11-14); retraction status checked from PubMed article types: none are Retracted Publication or Retraction Notice.",
+   "claims": [
+    {
+     "text": "weight gain common and can discourage quit attempts",
+     "quote": "Most people who stop smoking gain weight. This can discourage some people from making a quit attempt",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "exercise: little effect at end of treatment, weight lower at 12 months",
+     "quote": "There was low certainty that exercise interventions led to minimal or no weight reduction compared with standard care at end of treatment ... However, weight was reduced at 12 months",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "bupropion and NRT limit weight gain at end of treatment, no clear 12-month effect; varenicline very small",
+     "quote": "Both bupropion and fluoxetine limited weight gain at end of treatment ... There was no evidence of benefit at 12 months for bupropion",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "NRT reduced weight at end of treatment; varenicline very modest",
+     "quote": "moderate-certainty that NRT reduced weight at end of treatment ... high-certainty evidence that weight change was very modestly lower at the end of treatment",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 35,
+   "kind": "journal",
+   "cited_as": "Clair C, Rigotti NA, Porneala B, et al. Association of smoking cessation and weight change with cardiovascular disease among adults with and without diabetes. JAMA. 2013;309(10):1014-1021.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/23483176/",
+   "pmid": "23483176",
+   "pmcid": "PMC3791107",
+   "doi": "10.1001/jama.2013.1644",
+   "record_title": "Association of smoking cessation and weight change with cardiovascular disease among adults with and without diabetes.",
+   "record_journal": "JAMA",
+   "record_year": "2013",
+   "article_type": "Journal Article (prospective cohort)",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract, article types)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "New reference replacing an uncited \"2013 NEJM analysis\" claim about 10 kg weight gain. scite_unavailable (Scite quota exhausted until 2026-11-14); retraction status checked from PubMed article types: none are Retracted Publication or Retraction Notice.",
+   "claims": [
+    {
+     "text": "recent quitters without diabetes HR 0.47 vs smokers; weight gain did not modify association",
+     "quote": "recent quitters had a hazard ratio (HR) for CVD of 0.47 (95% CI, 0.23-0.94) ... weight gain that occurred following smoking cessation did not modify this association.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 36,
+   "kind": "journal",
+   "cited_as": "Hughes JR, Keely J, Naud S. Shape of the relapse curve and long-term abstinence among untreated smokers. Addiction. 2004;99(1):29-38.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/14678060/",
+   "pmid": "14678060",
+   "doi": "10.1111/j.1360-0443.2004.00540.x",
+   "record_title": "Shape of the relapse curve and long-term abstinence among untreated smokers.",
+   "record_journal": "Addiction",
+   "record_year": "2004",
+   "article_type": "Systematic Review",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract, article types)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "New reference for the previously uncited \"3-5%\" unassisted quit figure and early relapse. scite_unavailable (Scite quota exhausted until 2026-11-14); retraction status checked from PubMed article types: none are Retracted Publication or Retraction Notice.",
+   "claims": [
+    {
+     "text": "3-5% of self-quitters achieve prolonged abstinence 6-12 months",
+     "quote": "indicate 3-5% of self-quitters achieve prolonged abstinence for 6-12 month after a given quit attempt.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "most relapse occurs in the first 8 days",
+     "quote": "indicate most relapse occurs in the first 8 days.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 37,
+   "kind": "journal",
+   "cited_as": "Barnes J, McRobbie H, Dong CY, et al. Hypnotherapy for smoking cessation. Cochrane Database Syst Rev. 2019;6(6):CD001008.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31198991/",
+   "pmid": "31198991",
+   "pmcid": "PMC6568235",
+   "doi": "10.1002/14651858.CD001008.pub3",
+   "record_title": "Hypnotherapy for smoking cessation.",
+   "record_journal": "Cochrane Database Syst Rev",
+   "record_year": "2019",
+   "article_type": "Systematic Review",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract, article types)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "New reference for a previously uncited claim. scite_unavailable (Scite quota exhausted until 2026-11-14); retraction status checked from PubMed article types: none are Retracted Publication or Retraction Notice.",
+   "claims": [
+    {
+     "text": "insufficient evidence hypnotherapy beats other support; benefit small at most",
+     "quote": "There is insufficient evidence to determine whether hypnotherapy is more effective for smoking cessation than other forms of behavioural support or unassisted quitting. If a benefit is present, current evidence suggests the benefit is small at most.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 38,
+   "kind": "journal",
+   "cited_as": "White AR, Rampes H, Liu JP, et al. Acupuncture and related interventions for smoking cessation. Cochrane Database Syst Rev. 2014;(1):CD000009.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/24459016/",
+   "pmid": "24459016",
+   "pmcid": "PMC7263424",
+   "doi": "10.1002/14651858.CD000009.pub4",
+   "record_title": "Acupuncture and related interventions for smoking cessation.",
+   "record_journal": "Cochrane Database Syst Rev",
+   "record_year": "2014",
+   "article_type": "Systematic Review; Meta-Analysis",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract, article types)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "New reference for a previously uncited claim. scite_unavailable (Scite quota exhausted until 2026-11-14); retraction status checked from PubMed article types: none are Retracted Publication or Retraction Notice.",
+   "claims": [
+    {
+     "text": "no consistent bias-free evidence of sustained benefit; electrostimulation not effective",
+     "quote": "there is no consistent, bias-free evidence that acupuncture, acupressure, or laser therapy have a sustained benefit on smoking cessation for six months or more ... Electrostimulation is not effective for smoking cessation.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  }
+ ]
+}
