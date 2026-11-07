@@ -1,0 +1,902 @@
+{
+ "guide": "d-mannose-uti-guide",
+ "checked_at": "2026-11-07",
+ "checked_by": "Claude (repair run)",
+ "scite_verify_papers": "unavailable (quota exhausted until 2026-11-14); retraction status from PubMed article types",
+ "references": [
+  {
+   "n": 1,
+   "kind": "journal",
+   "cited_as": "Hayward G, Mort S, Hay AD, et al. d-Mannose for Prevention of Recurrent Urinary Tract Infection Among Women: A Randomized Clinical Trial. JAMA Intern Med. 2024;184(6):619-628. PubMed 38587819.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38587819/",
+   "pmid": "38587819",
+   "pmcid": "PMC11002776",
+   "doi": "10.1001/jamainternmed.2024.0264",
+   "record_title": "d-Mannose for Prevention of Recurrent Urinary Tract Infection Among Women: A Randomized Clinical Trial.",
+   "record_journal": "JAMA Intern Med",
+   "record_year": "2024",
+   "article_type": "Journal Article; Multicenter Study; Randomized Controlled Trial",
+   "retrieved_with": "PubMed connector get_article_metadata + get_full_text_article (PMC)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "scite_unavailable (quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice. Trial name \"MERIT\" is not in the retrieved record and was removed from the page.",
+   "claims": [
+    {
+     "text": "598 women, 99 UK primary care centers, double-blind, 2 g D-mannose powder daily vs placebo for 6 months",
+     "quote": "This 2-group, double-blind randomized placebo-controlled trial took place across 99 primary care centers in the UK.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "2 g daily D-mannose powder vs matched placebo",
+     "quote": "Two grams daily of d-mannose powder or matched volume of placebo powder.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "51.0% vs 55.7% had another clinically suspected UTI; RR 0.92 (95% CI 0.80 to 1.05)",
+     "quote": "150 (51.0%) and 161 (55.7%) had a further episode of clinically suspected UTI, respectively, for which they contacted ambulatory care (relative risk [RR], 0.92; 95% CI, 0.80-1.05",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "CI excluded the minimum effect the patient advisory panel considered important (at least a 50% reduction)",
+     "quote": "with 95% CIs excluding the minimum treatment effect considered important by the patient advisory panel",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "panel expected at least a 50% reduction",
+     "quote": "they would expect evidence of at least a 50% reduction in the chance of a further UTI during the period of prophylaxis",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "no difference in symptom burden, time to next UTI, number of UTIs, antibiotic use, hospitalizations; serious adverse events not related",
+     "quote": "we found no difference in symptom burden, time to the next UTI or number of UTIs, antibiotic use, hospitalizations, or serious adverse events",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "none of the serious adverse events judged related to the study product",
+     "quote": "Overall, 28 serious adverse events were reported (20 in the-mannose group and 8 in the placebo group). None were judged to be related to the intervention.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "verbatim conclusion",
+     "quote": "should not be recommended to prevent future episodes of clinically suspected UTI in women with rUTI in primary care.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "D-mannose is a monosaccharide isomer of glucose, absorbed in upper GI tract, excreted in urine; binds fimbrial tip; benefit in animal models",
+     "quote": "It is absorbed in the upper gastrointestinal tract and excreted in the urine.-Mannose is a monosaccharide isomer of glucose that may inhibit bacterial adherence to uroepithelial cells by binding to a site on the tip of the fimbria",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Kranjcec trial was open-label, 3-arm; lack of placebo could have affected presentation rates",
+     "quote": "an open randomized 3-arm trial that compared 2 g of-mannose, 50 mg of nitrofurantoin, or usual care",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Hayward authors: lack of placebo comparison could have affected symptomatic presentation rates",
+     "quote": "Possible reasons for differences in the present study’s findings include the previous lack of placebo comparison, which could have had an effect on symptomatic presentation rates",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "results may not generalize to secondary care; D-mannose during active infection might differ",
+     "quote": "However, the present results are not necessarily generalizable to secondary care populations who may be more severely affected.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "D-mannose started during an active infection might behave differently",
+     "quote": "initiated during an active infection may have an effect on subsequent infections by reducing or preventing colony formation",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "possible underdosing although dose matched 2 earlier positive trials",
+     "quote": "Limitations include possible underdosing, although the dose was the same as in 2 previous trials that found benefit.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "pregnant women excluded",
+     "quote": "Women were ineligible if they were pregnant, lactating, or planning pregnancy during the study",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "recurrent UTI defined as 2 UTIs in 6 months or 3 in a year",
+     "quote": "Recurrent UTI (rUTI), defined as experiencing 2 UTIs in 6 months or 3 in a year",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "kind": "guideline",
+   "cited_as": "American Urological Association, Canadian Urological Association, Society of Urodynamics, Female Pelvic Medicine & Urogenital Reconstruction. Recurrent Uncomplicated Urinary Tract Infections in Women: AUA/CUA/SUFU Guideline (2019, Confirmed 2022, Amended 2025). Approved by the AUA Board of Directors August 2025. Accessed November 7, 2026. AUA Guideline PDF (2025 amendment).",
+   "url": "https://www.auanet.org/documents/Guidelines/PDF/2025%20Guidelines/rUTI%20Update/rUTI%202025%20Unabridged%20Final.pdf",
+   "version_or_date": "2019, Confirmed 2022, Amended 2025; approved by the AUA Board of Directors August 2025; read 2026-11-07",
+   "retrieved_with": "WebFetch of official page (PDF; first 100,000 of 109,340 characters plus remainder read)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "No sentence saying D-mannose is \"unlikely to do harm\" was found; that quote was cut. The PDF does not say which statements were new or upgraded in 2025, so \"upgraded\"/\"new\" labels were removed. No PAC dose, vaginal estrogen dose or post-coital prophylaxis statement found.",
+   "claims": [
+    {
+     "text": "Statement 14: D-mannose alone may not be effective (Moderate; Grade B)",
+     "quote": "Clinicians should inform patients with rUTIs that D-mannose alone for prophylaxis may not be effective in UTI prevention.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Statement 13: should offer cranberry (Moderate; Grade B)",
+     "quote": "Clinicians should offer cranberry as an option for prophylaxis for women with rUTIs.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Statement 15: may offer methenamine hippurate (Conditional; Grade C)",
+     "quote": "Clinicians may offer methenamine hippurate for prophylaxis for women with rUTIs.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Statement 16: water intake below 1.5 L/day, may offer increased water (Conditional; Grade C)",
+     "quote": "When women with rUTIs have a water intake below 1.5 L/day (50 oz), clinicians may offer increased water intake for prophylaxis.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Statement 20: perimenopausal/postmenopausal women, should recommend vaginal estrogen if no contraindication (Moderate; Grade B)",
+     "quote": "In perimenopausal and postmenopausal women with rUTIs, clinicians should recommend vaginal estrogen therapy to reduce the risk of future UTIs if there is no contraindication to vaginal estrogen therapy.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Statement 12: may prescribe antibiotic prophylaxis after discussing risks, benefits, alternatives (Conditional)",
+     "quote": "Following discussion of the risks, benefits, and alternatives, clinicians may prescribe antibiotic prophylaxis to decrease the risk of future UTIs in women of all ages previously diagnosed with UTIs.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Statement 9: first-line agents nitrofurantoin, TMP-SMX, fosfomycin per local antibiogram",
+     "quote": "Clinicians should use first-line therapy (i.e., nitrofurantoin, trimethoprim-sulfamethoxazole [TMP-SMX], fosfomycin) dependent on the local antibiogram for the treatment of symptomatic UTIs in women.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "guideline dates 2019, confirmed 2022, amended 2025; approved August 2025",
+     "quote": "(2019, CONFIRMED 2022, AMENDED 2025) ... APPROVED BY THE AUA BOARD OF DIRECTORS AUGUST 2025",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "kind": "agency_page",
+   "cited_as": "U.S. Food and Drug Administration. FDA Approves Labeling Changes to Menopausal Hormone Therapy Products. Press announcement, February 12, 2026. Accessed November 7, 2026. FDA news release.",
+   "url": "https://www.fda.gov/news-events/press-announcements/fda-approves-labeling-changes-menopausal-hormone-therapy-products",
+   "version_or_date": "Press announcement dated February 12, 2026; read 2026-11-07",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "Page does not mention low-dose products or any remaining endometrial-cancer warning; those claims were cut. Date in reference corrected from November 2025 to February 12, 2026.",
+   "claims": [
+    {
+     "text": "FDA initiated removal in November 2025",
+     "quote": "The FDA initiated the removal of these warnings in November 2025",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "boxed-warning statements on cardiovascular disease, breast cancer, probable dementia removed",
+     "quote": "risk statements related to cardiovascular disease, breast cancer and probable dementia were removed",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "approved labeling changes include topical vaginal estrogen products",
+     "quote": "Topical vaginal estrogen therapy",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "kind": "other_web",
+   "cited_as": "American Urogynecologic Society. Practice Advisory: Removal of Black Box Warning Label from Topical Low-Dose Vaginal Estrogen Products. December 2025. Accessed November 7, 2026. AUGS practice advisory (PDF).",
+   "url": "https://www.augs.org/wp-content/uploads/2025/12/Practice-Advisory-Removal-of-Black-Box-Warning-Label-from-Topical-Low-Dose-Vaginal-Estrogen-Products.pdf",
+   "version_or_date": "December 2025; read 2026-11-07",
+   "retrieved_with": "WebFetch of official page (PDF)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "Society practice advisory.",
+   "claims": [
+    {
+     "text": "AUGS supports removing boxed warning on topical low-dose vaginal estrogen",
+     "quote": "The American Urogynecologic Society supports the FDA's request to remove the Boxed Warning on topical low-dose vaginal estrogen products.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "studies of low-dose vaginal estrogen have not found significantly increased CV, cancer, VTE, dementia risk",
+     "quote": "Studies investigating topical low-dose vaginal estrogen have not found significantly increased risks of cardiovascular disease, cancer, thromboembolism, or dementia.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "kind": "journal",
+   "cited_as": "Williams G, Hahn D, Stephens JH, Craig JC, Hodson EM. Cranberries for preventing urinary tract infections. Cochrane Database Syst Rev. 2023;4(4):CD001321. PubMed 37068952.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37068952/",
+   "pmid": "37068952",
+   "pmcid": "PMC10108827",
+   "doi": "10.1002/14651858.CD001321.pub6",
+   "record_title": "Cranberries for preventing urinary tract infections.",
+   "record_journal": "Cochrane Database Syst Rev",
+   "record_year": "2023",
+   "article_type": "Systematic Review; Journal Article",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract, article types)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "scite_unavailable (quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice.",
+   "claims": [
+    {
+     "text": "50 trials, 8,857 people; overall RR 0.70 (0.58 to 0.84)",
+     "quote": "bringing the total number of included studies to 50 (8857 randomised participants)... cranberry products reduced the risk of UTIs (6211 participants: RR 0.70, 95% CI 0.58 to 0.84",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "women with recurrent UTIs RR 0.74 (0.55 to 0.99)",
+     "quote": "in women with recurrent UTIs (8 studies, 1555 participants: RR 0.74, 95% CI 0.55 to 0.99",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "benefit in recurrent-UTI women, children, intervention; not elderly, bladder emptying problems, pregnancy",
+     "quote": "The evidence currently available does not support its use in the elderly, patients with bladder emptying problems, or pregnant women.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "PACs inhibit adherence of p-fimbriated E. coli",
+     "quote": "Cranberries contain proanthocyanidins (PACs), which inhibit the adherence of p-fimbriated Escherichia coli to the urothelial cells lining the bladder.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "unclear whether juice vs tablets or PAC doses differ",
+     "quote": "It is unclear whether efficacy differs between cranberry juice and tablets or between different doses of PACs as the certainty of the evidence was very low.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "no difference between low, moderate, high PAC doses",
+     "quote": "No difference in the risk for UTIs could be demonstrated between low, moderate and high doses of PACs.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "GI side effects probably no different",
+     "quote": "The number of participants with gastrointestinal side effects probably does not differ between those taking cranberry products and those receiving placebo or no specific treatment",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "kind": "journal",
+   "cited_as": "Harding C, Mossop H, Homer T, et al. Alternative to prophylactic antibiotics for the treatment of recurrent urinary tract infections in women: multicentre, open label, randomised, non-inferiority trial. BMJ. 2022;376:e068229. PubMed 35264408.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35264408/",
+   "pmid": "35264408",
+   "pmcid": "PMC8905684",
+   "doi": "10.1136/bmj-2021-0068229",
+   "record_title": "Alternative to prophylactic antibiotics for the treatment of recurrent urinary tract infections in women: multicentre, open label, randomised, non-inferiority trial.",
+   "record_journal": "BMJ",
+   "record_year": "2022",
+   "article_type": "Equivalence Trial; Journal Article; Multicenter Study; Randomized Controlled Trial",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract, article types)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "scite_unavailable (quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice. Replaces the HTA report as ref 6 because the page names the BMJ paper; HTA report kept as ref 16. DOI copied as the PubMed record gives it; the page links the PubMed record. Original page reversed the arms (0.89 vs 1.38); corrected.",
+   "claims": [
+    {
+     "text": "240 women randomized at eight UK centres, 12 months",
+     "quote": "Participants were randomly assigned to antibiotic prophylaxis (n=120) or methenamine hippurate (n=120).",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "1.38 UTIs per person-year on methenamine vs 0.89 on antibiotics; absolute difference 0.49 (90% CI 0.15 to 0.84) confirming non-inferiority",
+     "quote": "was 0.89 episodes per person year (95% confidence interval 0.65 to 1.12) in the antibiotics group and 1.38 (1.05 to 1.72) in the methenamine hippurate group, with an absolute difference of 0.49 (90% confidence interval 0.15 to 0.84) confirming non-inferiority",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "non-inferiority margin one UTI per person-year",
+     "quote": "A patient and public involvement group predefined the non-inferiority margin as one episode of urinary tract infection per person year.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "kind": "label",
+   "cited_as": "U.S. Food and Drug Administration. PIVYA (pivmecillinam) tablets prescribing information. Initial U.S. approval 2024; revised 4/2024. FDA label (PDF).",
+   "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2024/216483s000lbl.pdf",
+   "version_or_date": "Revised 4/2024; Initial U.S. Approval 2024; read 2026-11-07",
+   "retrieved_with": "WebFetch of official page (FDA label PDF)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "April month, European/Nordic history and narrow-spectrum claims were not on the label and were cut.",
+   "claims": [
+    {
+     "text": "penicillin-class; female patients 18+ with uUTI from susceptible E. coli, P. mirabilis, S. saprophyticus; approved 2024",
+     "quote": "PIVYA is a penicillin class antibacterial indicated for the treatment of female patients 18 years of age and older with",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "185 mg three times daily for 3 to 7 days",
+     "quote": "The recommended dosage of PIVYA is one 185 mg tablet orally 3 times a day for 3 to 7 days as clinically indicated.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "most common adverse reactions nausea and diarrhea",
+     "quote": "The most common adverse reactions observed in ≥2% of the patients receiving PIVYA in clinical trials are nausea and diarrhea.",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "kind": "label",
+   "cited_as": "U.S. Food and Drug Administration. BLUJEPA (gepotidacin) tablets prescribing information. Initial U.S. approval 2025; revised 3/2025. FDA label (PDF).",
+   "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/218230s000lbl.pdf",
+   "version_or_date": "Revised 3/2025; Initial U.S. Approval 2025; read 2026-11-07",
+   "retrieved_with": "WebFetch of official page (FDA label PDF)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "Corrected 58.5% vs 43.6% to label values; removed superiority claim, EAGLE trial names and \"first new class in three decades\" (not on label).",
+   "claims": [
+    {
+     "text": "female adult and pediatric patients 12+ weighing at least 40 kg with uUTI",
+     "quote": "and pediatric patients 12 years of age and older weighing at least 40 kilograms (kg) with uncomplicated urinary tract infections (uUTI) caused by the following susceptible microorganisms:",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "triazaacenaphthylene bacterial type II topoisomerase inhibitor",
+     "quote": "BLUJEPA is a triazaacenaphthylene bacterial type II topoisomerase inhibitor",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "1,500 mg twice daily for 5 days",
+     "quote": "The recommended dosage of BLUJEPA is 1,500 mg (two 750 mg tablets) taken orally, twice daily",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "non-inferior to nitrofurantoin in both trials; 51.8% vs 47.0% and 58.9% vs 44.0%",
+     "quote": "BLUJEPA was non-inferior to nitrofurantoin in both studies.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "composite response 51.8% vs 47.0% (Trial 1) and 58.9% vs 44.0% (Trial 2)",
+     "quote": "Composite responsea 174/336 (51.8) 140/298 (47.0) 5.3 (-2.4, 13.0) ... Composite responsea 172/292 (58.9) 121/275 (44.0) 14.4 (6.4, 22.4)",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "most common adverse reactions",
+     "quote": "The most common adverse reactions occurring in ≥1% of patients are diarrhea, nausea, abdominal pain, flatulence, headache, soft feces, dizziness, vomiting, and vulvovaginal candidiasis.",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "kind": "journal",
+   "cited_as": "Ala-Jaakkola R, Laitila A, Ouwehand AC, Lehtoranta L. Role of D-mannose in urinary tract infections: a narrative review. Nutr J. 2022;21(1):18. PubMed 35313893.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35313893/",
+   "pmid": "35313893",
+   "pmcid": "PMC8939087",
+   "doi": "10.1186/s12937-022-00769-x",
+   "record_title": "Role of D-mannose in urinary tract infections - a narrative review.",
+   "record_journal": "Nutr J",
+   "record_year": "2022",
+   "article_type": "Journal Article; Review",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract, article types)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "scite_unavailable (quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice. Authors are employees of International Flavors & Fragrances (affiliation in record). \"About 80%\" figure was not in the abstract and was cut.",
+   "claims": [
+    {
+     "text": "E. coli main cause; D-mannose in urine may block attachment",
+     "quote": "When excreted in urine, D-mannose potentially inhibits Escherichia coli, the main causative organism of UTIs, from attaching to urothelium and causing infection.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "kind": "journal",
+   "cited_as": "Kranjčec B, Papeš D, Altarac S. D-mannose powder for prophylaxis of recurrent urinary tract infections in women: a randomized clinical trial. World J Urol. 2014;32(1):79-84. PubMed 23633128.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/23633128/",
+   "pmid": "23633128",
+   "doi": "10.1007/s00345-013-1091-6",
+   "record_title": "D-mannose powder for prophylaxis of recurrent urinary tract infections in women: a randomized clinical trial.",
+   "record_journal": "World J Urol",
+   "record_year": "2014 (vol 32; epub 2013)",
+   "article_type": "Journal Article; Randomized Controlled Trial",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract, article types)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "scite_unavailable (quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice. \"Single-center\" and \"Croatian\" were not stated in the abstract and were cut.",
+   "claims": [
+    {
+     "text": "308 women; D-mannose 2 g in 200 ml water daily vs nitrofurantoin 50 mg vs no prophylaxis, 6 months",
+     "quote": "received prophylaxis with 2 g of D-mannose powder in 200 ml of water daily for 6 months, the second (n = 103) received 50 mg Nitrofurantoin daily, and the third (n = 102) did not receive prophylaxis.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "recurrence 14.6%, 20.4%, 60.8%",
+     "quote": "15 (14.6) in the D-mannose group, 21 (20.4) in Nitrofurantoin group, and 62 (60.8) in no prophylaxis group",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "kind": "agency_page",
+   "cited_as": "U.S. Food and Drug Administration. FDA Announces Qualified Health Claim for Certain Cranberry Products and Urinary Tract Infections. Constituent update, July 21, 2020. Accessed November 7, 2026. FDA statement.",
+   "url": "https://www.fda.gov/food/hfp-constituent-updates/fda-announces-qualified-health-claim-certain-cranberry-products-and-urinary-tract-infections",
+   "version_or_date": "Constituent update dated July 21, 2020; read 2026-11-07",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "Original page quoted \"limited credible scientific evidence\" for cranberry generally; replaced with the verbatim juice wording.",
+   "claims": [
+    {
+     "text": "FDA: limited and inconsistent credible scientific evidence (juice)",
+     "quote": "Based on the FDA's review, the agency concluded that there is limited and inconsistent credible scientific evidence",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "claim wording: one 8 oz serving of juice daily; 500 mg supplement daily",
+     "quote": "Limited scientific evidence shows that by consuming 500 mg each day of cranberry dietary supplement",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "kind": "journal",
+   "cited_as": "Ferrante KL, Wasenda EJ, Jung CE, Adams-Piper ER, Lukacz ES. Vaginal Estrogen for the Prevention of Recurrent Urinary Tract Infection in Postmenopausal Women: A Randomized Clinical Trial. Female Pelvic Med Reconstr Surg. 2021;27(2):112-117. PubMed 31232721.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31232721/",
+   "pmid": "31232721",
+   "doi": "10.1097/SPV.0000000000000749",
+   "record_title": "Vaginal Estrogen for the Prevention of Recurrent Urinary Tract Infection in Postmenopausal Women: A Randomized Clinical Trial.",
+   "record_journal": "Female Pelvic Med Reconstr Surg",
+   "record_year": "2021",
+   "article_type": "Journal Article; Multicenter Study; Randomized Controlled Trial",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract, article types)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "scite_unavailable (quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice. Was cited for \"randomized trials and multiple meta-analyses show 50 to 75% reduction\"; now described as the single 35-woman trial it is. Pooled estimate moved to ref 17.",
+   "claims": [
+    {
+     "text": "35 postmenopausal women, ring or cream vs placebo",
+     "quote": "Thirty-five women were randomized with 9 dropouts (1 ring, 2 cream, and 6 placebo) prior to the 6 months.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "11 of 18 vs 16 of 17 with UTI within 6 months (ITT)",
+     "quote": "fewer women treated with vaginal estrogen had a UTI within 6 months versus placebo (11/18 vs 16/17, respectively; P = 0.041)",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "kind": "guideline",
+   "cited_as": "Kaufman MR, Ackerman AL, Amin KA, et al. The AUA/SUFU/AUGS Guideline on Genitourinary Syndrome of Menopause. J Urol. 2025;214(3):242-250. PubMed 40298120.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40298120/",
+   "pmid": "40298120",
+   "doi": "10.1097/JU.0000000000004589",
+   "record_title": "The AUA/SUFU/AUGS Guideline on Genitourinary Syndrome of Menopause.",
+   "record_journal": "J Urol",
+   "record_year": "2025",
+   "article_type": "Journal Article; Practice Guideline; Systematic Review",
+   "version_or_date": "J Urol 2025;214(3):242-250",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract, article types); abstract only",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "scite_unavailable (quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice. Claim that it \"reinforces\" vaginal estrogen for rUTI was unverifiable from the abstract; rewritten to the GSM statement.",
+   "claims": [
+    {
+     "text": "local low-dose vaginal estrogen has the most robust evidence base (GSM)",
+     "quote": "There is a large body of evidence examining the use of hormonal and non-hormonal treatment options to manage the symptoms of GSM; however, the local low-dose vaginal estrogen has the most robust evidence base.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "kind": "journal",
+   "cited_as": "Stapleton AE, Au-Yeung M, Hooton TM, et al. Randomized, placebo-controlled phase 2 trial of a Lactobacillus crispatus probiotic given intravaginally for prevention of recurrent urinary tract infection. Clin Infect Dis. 2011;52(10):1212-1217. PubMed 21498386.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/21498386/",
+   "pmid": "21498386",
+   "pmcid": "PMC3079401",
+   "doi": "10.1093/cid/cir183",
+   "record_title": "Randomized, placebo-controlled phase 2 trial of a Lactobacillus crispatus probiotic given intravaginally for prevention of recurrent urinary tract infection.",
+   "record_journal": "Clin Infect Dis",
+   "record_year": "2011",
+   "article_type": "Clinical Trial, Phase II; Journal Article; Randomized Controlled Trial",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract, article types)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "scite_unavailable (quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice. Product name corrected to Lactin-V (as in abstract); availability claim cut.",
+   "claims": [
+    {
+     "text": "lactobacilli depletion associated with UTI risk",
+     "quote": "Depletion of vaginal lactobacilli is associated with UTI risk, which suggests that repletion may be beneficial.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "100 young premenopausal women; daily 5 days then weekly 10 weeks",
+     "quote": "One hundred young women with a history of recurrent UTI received antimicrobials for acute UTI and then were randomized to receive either Lactin-V or placebo daily for 5 d, then once weekly for 10 weeks.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "15% vs 27%, RR 0.5 (0.2 to 1.2)",
+     "quote": "Recurrent UTI occurred in 7/48 15% of women receiving Lactin-V compared with 13/48 27% of women receiving placebo (relative risk [RR], .5; 95% confidence interval, .2-1.2).",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "kind": "agency_page",
+   "cited_as": "U.S. Food and Drug Administration. Structure/Function Claims. Content current as of 03/28/2024. Accessed November 7, 2026. FDA page.",
+   "url": "https://www.fda.gov/food/nutrition-food-labeling-and-critical-foods/structurefunction-claims",
+   "version_or_date": "Content current as of 03/28/2024; read 2026-11-07",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "only drugs can claim to diagnose/treat/cure/prevent; disclaimer required",
+     "quote": "If a dietary supplement label includes such a claim, it must state in a \"disclaimer\" that FDA has not evaluated the claim. ... only a drug can legally make such a claim",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "kind": "journal",
+   "cited_as": "Harding C, Chadwick T, Homer T, et al. Methenamine hippurate compared with antibiotic prophylaxis to prevent recurrent urinary tract infections in women: the ALTAR non-inferiority RCT. Health Technol Assess. 2022;26(23):1-172. PubMed 35535708.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35535708/",
+   "pmid": "35535708",
+   "doi": "10.3310/QOIZ6538",
+   "record_title": "Methenamine hippurate compared with antibiotic prophylaxis to prevent recurrent urinary tract infections in women: the ALTAR non-inferiority RCT.",
+   "record_journal": "Health Technol Assess",
+   "record_year": "2022",
+   "article_type": "Journal Article; Multicenter Study; Randomized Controlled Trial; Pragmatic Clinical Trial",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract, article types)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "scite_unavailable (quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice. Formerly ref 6; renumbered to 16.",
+   "claims": [
+    {
+     "text": "methenamine hippurate 1 g twice daily",
+     "quote": "experimental (methenamine hippurate: 1 g twice daily) or control (once-daily low-dose antibiotics",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "during treatment resistance more common with antibiotics (72% vs 56%)",
+     "quote": "higher proportions of participants taking daily antibiotics (46/64; 72%) demonstrated antibiotic resistance incultured from perineal swabs than participants in the methenamine hippurate arm (39/70; 56%)",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "post treatment multidrug resistance more common with methenamine (20% vs 5%)",
+     "quote": "post treatment, higher proportions of participants in the methenamine hippurate arm (9/45; 20%) demonstrated multidrug resistance inisolated from perineal swabs than participants in the antibiotic arm (2/39; 5%)",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "methenamine is a non-antibiotic agent",
+     "quote": "prompting research interest in non-antibiotic agents such as methenamine hippurate",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "kind": "journal",
+   "cited_as": "Chen YY, Su TH, Lau HH. Estrogen for the prevention of recurrent urinary tract infections in postmenopausal women: a meta-analysis of randomized controlled trials. Int Urogynecol J. 2021;32(1):17-25. PubMed 32564121.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32564121/",
+   "pmid": "32564121",
+   "doi": "10.1007/s00192-020-04397-z",
+   "record_title": "Estrogen for the prevention of recurrent urinary tract infections in postmenopausal women: a meta-analysis of randomized controlled trials.",
+   "record_journal": "Int Urogynecol J",
+   "record_year": "2021 (vol 32; epub 2020)",
+   "article_type": "Journal Article; Meta-Analysis",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract, article types)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "scite_unavailable (quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice. Added to replace the unsupported \"50 to 75%\" figure.",
+   "claims": [
+    {
+     "text": "vaginal estrogen RR 0.42 (0.30 to 0.59), 5 studies, 1,936 patients; oral estrogen no difference",
+     "quote": "Five studies including 1936 patients evaluated the use of vaginal estrogen, which resulted in a significant reduction in rUTIs (relative risk, 0.42; 95% CI, 0.30-0.59).",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "vaginal estrogen lowered vaginal pH",
+     "quote": "Compared with placebo, vaginal estrogen treatment could reduce the number of rUTIs and lower the vaginal pH in postmenopausal women.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 18,
+   "kind": "journal",
+   "cited_as": "Hooton TM, Vecchio M, Iroz A, et al. Effect of Increased Daily Water Intake in Premenopausal Women With Recurrent Urinary Tract Infections: A Randomized Clinical Trial. JAMA Intern Med. 2018;178(11):1509-1515. PubMed 30285042.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30285042/",
+   "pmid": "30285042",
+   "pmcid": "PMC6584323",
+   "doi": "10.1001/jamainternmed.2018.4204",
+   "record_title": "Effect of Increased Daily Water Intake in Premenopausal Women With Recurrent Urinary Tract Infections: A Randomized Clinical Trial.",
+   "record_journal": "JAMA Intern Med",
+   "record_year": "2018",
+   "article_type": "Journal Article; Randomized Controlled Trial",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract, article types)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "scite_unavailable (quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice. Added; previously named in text without a reference. \"48%\" replaced by the reported means.",
+   "claims": [
+    {
+     "text": "premenopausal women drinking less than 1.5 L/day; extra 1.5 L water vs none",
+     "quote": "Participants were randomly assigned to drink, in addition to their usual fluid intake, 1.5 L of water daily (water group) or no additional fluids (control group) for 12 months.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "1.7 vs 3.2 episodes over 12 months",
+     "quote": "the mean (SD) number of cystitis episodes was 1.7 (95% CI, 1.5-1.8) in the water group compared with 3.2 (95% CI, 3.0-3.4) in the control group",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 19,
+   "kind": "journal",
+   "cited_as": "Cooper TE, Teng C, Howell M, Teixeira-Pinto A, Jaure A, Wong G. D-mannose for preventing and treating urinary tract infections. Cochrane Database Syst Rev. 2022;8(8):CD013608. PubMed 36041061.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36041061/",
+   "pmid": "36041061",
+   "pmcid": "PMC9427198",
+   "doi": "10.1002/14651858.CD013608.pub2",
+   "record_title": "D-mannose for preventing and treating urinary tract infections.",
+   "record_journal": "Cochrane Database Syst Rev",
+   "record_year": "2022",
+   "article_type": "Journal Article; Systematic Review",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract, article types)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "scite_unavailable (quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice. Added.",
+   "claims": [
+    {
+     "text": "little to no evidence to support or refute",
+     "quote": "There is currently little to no evidence to support or refute the use of D-mannose to prevent or treat UTIs in all populations.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "adverse events few, none serious, mostly diarrhea and vaginal burning",
+     "quote": "Adverse events were very few and poorly reported; none were serious (mostly diarrhoea and vaginal burning).",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "combination with herbal supplements uncertain effects, very low certainty",
+     "quote": "D-mannose, in combination with herbal supplements, had uncertain effects on symptomatic and bacteria-confirmed UTI and pain when compared to no treatment (1 study, 40 participants; very low certainty evidence).",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "mechanism: blocks E. coli adhesion, eliminated by urination",
+     "quote": "The D-mannose-based inhibitors can block uropathogenic Escherichia coli adhesion and invasion of the uroepithelial cells. The bacteria are then understood to essentially be eliminated by urination.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 20,
+   "kind": "label",
+   "cited_as": "HIPREX (methenamine hippurate) tablets prescribing information. Validus Pharmaceuticals LLC. DailyMed, updated February 2, 2022. Accessed November 7, 2026. DailyMed label.",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=c8ddaa11-5753-46eb-8bd4-8f1d874a3ec4",
+   "version_or_date": "DailyMed, updated February 2, 2022 (version 1, current); read 2026-11-07",
+   "retrieved_with": "WebFetch of official page (DailyMed)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "Added. Gout/hyperuricemia caution and pH 5.5 / vitamin C claims were not on the label and were cut.",
+   "claims": [
+    {
+     "text": "indicated for prophylactic or suppressive treatment of recurring UTI",
+     "quote": "HIPREX is indicated for prophylactic or suppressive treatment of frequently recurring urinary tract infections",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "hydrolyzed to formaldehyde in acid urine",
+     "quote": "the methenamine component is hydrolyzed to formaldehyde in acid urine",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "contraindications",
+     "quote": "is contraindicated in patients with renal insufficiency, severe hepatic insufficiency, or severe dehydration",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "not with sulfonamides",
+     "quote": "should not be given to patients taking sulfonamides",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "maintain acid urine",
+     "quote": "Care should be taken to maintain an acid pH of the urine.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "1 g twice daily",
+     "quote": "1 tablet (1.0 g) twice daily (morning and night) for adults and pediatric patients over 12 years of age",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 21,
+   "kind": "label",
+   "cited_as": "Estradiol vaginal inserts 10 mcg prescribing information. Aurobindo Pharma Limited. DailyMed, revised 9/2025. Accessed November 7, 2026. DailyMed label.",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6247e329-e20e-4ea5-9cc1-b593bd494577",
+   "version_or_date": "DailyMed, Revised 9/2025 (archive version 3, Nov 17, 2025); read 2026-11-07",
+   "retrieved_with": "WebFetch of official page (DailyMed)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "Added. Label indication is atrophic vaginitis due to menopause, not UTI prevention; page states this. Label predates FDA 2026 changes and still shows the boxed warning.",
+   "claims": [
+    {
+     "text": "schedule 1 insert daily 2 weeks then twice weekly (atrophic vaginitis)",
+     "quote": "1 insert daily for 2 weeks, followed by 1 insert twice weekly (for example, Tuesday and Friday)",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "contraindications",
+     "quote": "Undiagnosed abnormal genital bleeding; Breast cancer or a history of breast cancer; Estrogen-dependent neoplasia; Active DVT, PE, or history of these conditions",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "label revised 9/2025 still carries boxed warning",
+     "quote": "WARNING: ENDOMETRIAL CANCER, CARDIOVASCULAR DISORDERS, PROBABLE DEMENTIA, and BREAST CANCER",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 22,
+   "kind": "dataset",
+   "cited_as": "ClinicalTrials.gov. Evaluation of the Impact of the Uqora Dietary Supplement Products on Urinary Tract Infection (UTI) Incidence in Women With Recurring UTIs. NCT04024046. Status: terminated; no results posted. Accessed November 7, 2026. ClinicalTrials.gov record.",
+   "url": "https://clinicaltrials.gov/study/NCT04024046",
+   "version_or_date": "ClinicalTrials.gov record read 2026-11-07",
+   "retrieved_with": "Clinical_Trials connector get_trial_details",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "Added. Original page called this a company-funded 2024 open-label study of the ingredients; the registry shows a blinded placebo design, terminated in 2020, no results.",
+   "claims": [
+    {
+     "text": "Uqora collaborator; placebo-controlled design; terminated 2020; no posted results",
+     "quote": "status: TERMINATED; collaborators: Uqora, Inc.; completion_date: 2020-09-16; has_results: false; \"Control Group will receive a Placebo Drink-Mix and Placebo Capsules.\"",
+     "quote_source": "registry",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 23,
+   "kind": "journal",
+   "cited_as": "Vargas CEF, Mutarelli A, Menegardo LG, et al. Efficacy of D-mannose as prophylaxis of recurrent urinary tract infection: a systematic review and meta-analysis of randomized controlled trials. J Bras Nefrol. 2025;47(4):e20250169. PubMed 41004704.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41004704/",
+   "pmid": "41004704",
+   "pmcid": "PMC12471090",
+   "doi": "10.1590/2175-8239-JBN-2025-0169en",
+   "record_title": "Efficacy of D-mannose as prophylaxis of recurrent urinary tract infection: a systematic review and meta-analysis of randomized controlled trials.",
+   "record_journal": "J Bras Nefrol",
+   "record_year": "2025",
+   "article_type": "Journal Article; Systematic Review; Meta-Analysis",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract, article types)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "scite_unavailable (quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice. Added. Abstract does not list which trials were included.",
+   "claims": [
+    {
+     "text": "6 RCTs; RR 0.57 (0.29 to 1.15) vs control, no significant reduction",
+     "quote": "We included 6 RCTs comprising 1,167 participants... D-mannose was not associated with a reduction in recurrent UTI compared with control (RR: 0.57, 95% CI 0.29 - 1.15",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 24,
+   "kind": "journal",
+   "cited_as": "Han Z, Yi X, Li J, Liao D, Ai J. Nonantibiotic prophylaxis for urinary tract infections: a network meta-analysis of randomized controlled trials. Infection. 2025;53(2):535-546. PubMed 39095666.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39095666/",
+   "pmid": "39095666",
+   "doi": "10.1007/s15010-024-02357-z",
+   "record_title": "Nonantibiotic prophylaxis for urinary tract infections: a network meta-analysis of randomized controlled trials.",
+   "record_journal": "Infection",
+   "record_year": "2025 (vol 53; epub 2024)",
+   "article_type": "Journal Article; Systematic Review; Network Meta-Analysis",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract, article types)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "scite_unavailable (quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice. Added as counter-evidence; abstract does not state whether the Hayward trial was included.",
+   "claims": [
+    {
+     "text": "network MA: D-mannose RR 0.34 vs placebo",
+     "quote": "D-mannose (risk ratio [RR] 0.34, 0.21 to 0.56), vaccine (RR 0.65, 0.52 to 0.82), probiotics (RR 0.69, 0.50 to 0.94), cranberry (RR 0.72, 0.60 to 0.87)",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  }
+ ]
+}
