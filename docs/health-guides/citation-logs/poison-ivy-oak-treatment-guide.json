@@ -1,0 +1,730 @@
+{
+  "guide": "poison-ivy-oak-treatment-guide",
+  "checked_at": "2026-11-07",
+  "checked_by": "Claude (repair run)",
+  "scite_verify_papers": "unavailable (quota exhausted until 2026-11-14); retraction status from PubMed article types",
+  "references": [
+    {
+      "n": 1,
+      "kind": "journal",
+      "cited_as": "Weinberg L, Malani PN. Poison Ivy, Poison Oak, and Poison Sumac. JAMA. 2024;331(21):1872. JAMA Patient Page.",
+      "url": "https://jamanetwork.com/journals/jama/fullarticle/2818663",
+      "pmid": "38753316",
+      "doi": "10.1001/jama.2023.26355",
+      "record_title": "Poison Ivy, Poison Oak, and Poison Sumac.",
+      "record_journal": "JAMA",
+      "record_year": "2024",
+      "article_type": "Patient Education Handout (PubMed also lists Historical Article)",
+      "retrieved_with": "PubMed search_articles + get_article_metadata (PMID 38753316); WebFetch of jamanetwork.com patient page",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "Retraction check: PubMed article types list no Retracted Publication or Retraction Notice; scite_unavailable (quota exhausted until 2026-11-14). PubMed has no abstract; quotes are from the JAMA page text read by WebFetch. Cashew and mango plant-family claim cut (not on this page).",
+      "claims": [
+        {
+          "text": "urushiol in leaves, stems, and roots of all three plants",
+          "quote": "These 3 plants contain sap oil (urushiol) in their leaves, stems, and roots",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "oral or IM steroids may be prescribed for severe blistering; face, hands, genitals; more than 20% of skin",
+          "quote": "Oral or intramuscular steroids may be prescribed for patients with severe blistering; rash on the face, hands, or genitals; or involvement of more than 20% of the skin.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "poison oak can have 3 to 5 leaflets; poison ivy 3; sumac 7 to 13",
+          "quote": "Poison ivy has 3 leaflets, poison oak has 3 to 5 leaflets, and poison sumac has 7 to 13 pointed leaves.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "antihistamines do not relieve ACD itch but may help via sedation",
+          "quote": "Although antihistamines do not relieve itching caused by allergic contact dermatitis, they may improve symptoms by causing sedation",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "first exposure rash can take up to 3 weeks; sensitized typically 24 to 48 hours",
+          "quote": "The rash typically appears 24 to 48 hours after contact. The rash can take up to 3 weeks to develop in individuals with a first exposure to one of these plants.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "scrub under the nails with a brush to remove urushiol before absorbed",
+          "quote": "a brush should be used to scrub under the nails to remove urushiol before it is absorbed",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "rash typically resolves within 1 to 3 weeks (FAQ)",
+          "quote": "The rash caused by poison ivy, poison oak, and poison sumac typically resolves within 1 to 3 weeks.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "all three cause the same itchy red rash via urushiol",
+          "quote": "penetrates the skin to cause an itchy, red rash (allergic contact dermatitis).",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "urushiol on skin or pet fur transfers by touch",
+          "quote": "Once urushiol is on the skin, it can be spread to other areas of skin by touch. People can also come into contact with urushiol by petting an animal that has sap oil on its fur.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "kind": "journal",
+      "cited_as": "Butt M, Flamm A, Marks JG, Flamm A. Poison Ivy Dermatitis Treatment Patterns and Utilization: A Retrospective Claims-based Analysis. West J Emerg Med. 2022;23(4):481-488.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9391006/",
+      "pmid": "35980412",
+      "pmcid": "PMC9391006",
+      "doi": "10.5811/westjem.2022.March.55516",
+      "record_title": "Poison Ivy Dermatitis Treatment Patterns and Utilization: A Retrospective Claims-based Analysis.",
+      "record_journal": "West J Emerg Med",
+      "record_year": "2022",
+      "article_type": "Journal Article (retrospective claims analysis; observational)",
+      "retrieved_with": "PubMed get_article_metadata + get_full_text_article (PMC9391006)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "Retraction check: PubMed article types list no Retracted Publication or Retraction Notice; scite_unavailable (quota exhausted until 2026-11-14). Guide now reports the adjusted OR 1.30 (1.17-1.44) instead of the unadjusted 1.32, labels the study observational, and no longer says short courses 'frequently cause rebound' or that evidence 'consistently favors' longer courses.",
+      "claims": [
+        {
+          "text": "1 to 13 day prescriptions had higher odds of return visit than 14 to 20 days, adjusted OR 1.30 (1.17-1.44); 115,885 claims",
+          "quote": "duration of treatment 1–13 days retained a significantly higher likelihood (OR 1.30 [1.17,1.44]) of a return healthcare visit compared to those treated for 14–20 days, after controlling for drug type and initial treatment location.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "115,885 claims; return visits within 28 days",
+          "quote": "We included in this analysis 115,885 claims from 108,111 unique individuals (93.29%) with 7,774 (6.71%) return claims within 28 days.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "immune response can take up to 14 days to present; shorter courses risk rebound dermatitis",
+          "quote": "the immunologic response to urushiol can take up to 14 days to present in sensitized patients with exposure ... Thus, shorter courses of oral corticosteroids pose the risk of patients experiencing rebound dermatitis",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "oral corticosteroids generally reserved and recommended for moderate to severe cases",
+          "quote": "As oral corticosteroids are generally reserved and recommended for moderate to severe cases of TD, they should be prescribed for longer courses when medically indicated",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "most oral corticosteroid prescriptions were for 1 to 13 days",
+          "quote": "Of those with an oral corticosteroid prescription prescribed at the initial visit, 81.14% were for a supply of 1–13 days (n = 37,521)",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "systemic steroids suppress the immune response to urushiol (FAQ)",
+          "quote": "the treatment of TD relies on the use of topical and/or systemic corticosteroids to suppress the immune response to urushiol.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "kind": "journal",
+      "cited_as": "Curtis G, Lewis AC. Treatment of Severe Poison Ivy: A Randomized, Controlled Trial of Long Versus Short Course Oral Prednisone. J Clin Med Res. 2014;6(6):429-434.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4169084/",
+      "pmid": "25247016",
+      "pmcid": "PMC4169084",
+      "doi": "10.14740/jocmr1855w",
+      "record_title": "Treatment of severe poison ivy: a randomized, controlled trial of long versus short course oral prednisone.",
+      "record_journal": "J Clin Med Res",
+      "record_year": "2014",
+      "article_type": "Journal Article (randomized controlled trial per title and methods; PubMed type list shows Journal Article only)",
+      "retrieved_with": "PubMed get_article_metadata + get_full_text_article (PMC4169084)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "Retraction check: PubMed article types list no Retracted Publication or Retraction Notice; scite_unavailable (quota exhausted until 2026-11-14). Issue corrected 6(5) -> 6(6) per PubMed. Rubbing-alcohol claim formerly cited here moved to ref 4 (Chastant), which states it. Guide now reports that rash return did not differ between arms. Trial taper doses are not reproduced in the guide; dosing table follows AAFP (ref 9).",
+      "claims": [
+        {
+          "text": "15-day taper arm less likely to use other medications (22.7% vs 55.6%); rash return and healing time not different; 49 patients",
+          "quote": "In 49 patients with severe poison ivy, non-adherence rates, rash return, medication side effects, and time to improvement and complete healing of the rash were not significantly different between the two groups.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "22.7% vs 55.6% use of other medications",
+          "quote": "Patients receiving the long course regimen were significantly less likely to utilize other medications (22.7% vs. 55.6%, P = 0.02, number needed to treat 3.05).",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "5-day short arm vs same regimen plus taper over a total of 15 days",
+          "quote": "a 5-day regimen of 40 mg oral prednisone daily (short course) compared to the same 5-day regimen followed by a prednisone taper ... over a total of 15 days (long course)",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Medrol Dose Pack: 84 mg methylprednisolone over 6 days; expert opinion and one case report call it insufficient and likely to cause rebound",
+          "quote": "Expert opinion and one case report on the commonly prescribed Medrol Dosepak (total of 84 mg of methylprednisolone tapered over 6 days) note this regimen to be insufficient and likely to cause rebound rash",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "kind": "journal",
+      "cited_as": "Chastant LR, Davis T, Libow L. Black-spot poison ivy, a report of 3 cases with clinicopathologic correlation. JAAD Case Rep. 2018;4(2):140-142.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5789763/",
+      "pmid": "29387766",
+      "pmcid": "PMC5789763",
+      "doi": "10.1016/j.jdcr.2017.09.035",
+      "record_title": "Black-spot poison ivy, a report of 3 cases with clinicopathologic correlation.",
+      "record_journal": "JAAD Case Rep",
+      "record_year": "2018",
+      "article_type": "Case Reports",
+      "retrieved_with": "PubMed convert_article_ids + get_article_metadata + get_full_text_article (PMC5789763)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "Retraction check: PubMed article types list no Retracted Publication or Retraction Notice; scite_unavailable (quota exhausted until 2026-11-14). Formerly numbered [3b]; renumbered to 4. Case report with brief review; the alcohol, bleach and solvent statements are the authors' review statements, described in the guide as from a case report and review.",
+      "claims": [
+        {
+          "text": "sap oxidizes into black resin; forms on skin, clothing, tools",
+          "quote": "When the plant is injured, the sap is extruded and, within minutes of exposure to air, the sap hardens by oxidation into a black resin to seal the injury.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "black lacquer develops within hours and precedes allergic dermatitis, sometimes by weeks",
+          "quote": "the black lacquer that results from oxidation of the oleoresin after contact with the plant develops within hours of exposure and precedes allergic contact dermatitis, in some cases by weeks.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "cannot be washed off; falls off in 1 to 2 weeks; similar to Japanese lacquer",
+          "quote": "Notably, the lacquer cannot be washed off with soap and water and typically falls off in 1-2 weeks. This lacquer is similar to the lacquer created from Japanese lacquer trees",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "accompanied by irritant dermatitis of varying severity",
+          "quote": "Black-spots are usually accompanied by an irritant dermatitis reaction of varying severity.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "biopsy: yellow-to-brown discoloration of cornified layer; largely lymphocytic infiltrate",
+          "quote": "The most characteristic and consistent microscopic finding in all 3 cases was yellow-to-brown discoloration of the cornified layer.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "isopropyl alcohol then copious rinsing more effective than soap",
+          "quote": "If available, isopropyl alcohol applied liberally followed by copious rinsing with water after contact is more effective than soap for preventing allergic contact dermatitis.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "bleach inactivates urushiol; organic solvents extract it",
+          "quote": "Bleach rapidly inactivates urushiol on clothing and tools, and organic solvents (alcohol, gasoline, acetone) can extract it from contaminated surfaces.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "kind": "journal",
+      "cited_as": "Monroe J. Toxicodendron Contact Dermatitis: A Case Report and Brief Review. J Clin Aesthet Dermatol. 2020;13(9 Suppl 1):S29-S34.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33349791/",
+      "pmid": "33349791",
+      "pmcid": "PMC7733371",
+      "record_title": "Toxicodendron Contact Dermatitis: A Case Report and Brief Review.",
+      "record_journal": "J Clin Aesthet Dermatol",
+      "record_year": "2020",
+      "article_type": "Case Reports",
+      "retrieved_with": "PubMed get_article_metadata (abstract); get_full_text_article returned empty full text",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "Retraction check: PubMed article types list no Retracted Publication or Retraction Notice; scite_unavailable (quota exhausted until 2026-11-14). Abstract-only. Link changed from PMC (bot check reported by audit) to the PubMed record. All former claims (85% reactivity, 50-75% sensitivity, Langerhans/hapten mechanism, 10-21 day sensitization, 12-72 h onset, antihistamine mechanism) removed from this ref: re-sourced to NIOSH (ref 12), JAMA (ref 1), AFP (ref 9), or cut.",
+      "claims": [
+        {
+          "text": "poison ivy, oak and sumac belong to the Anacardiaceae family",
+          "quote": "Contact dermatitis caused by the sap of plants from the Anacardiaceae family, including poison ivy, oak, and sumac, is among the most common skin conditions in the United States.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "kind": "agency_page",
+      "cited_as": "U.S. Food and Drug Administration. Outsmarting Poison Ivy and Other Poisonous Plants. FDA Consumer Updates.",
+      "url": "https://www.fda.gov/consumers/consumer-updates/outsmarting-poison-ivy-and-other-poisonous-plants",
+      "version_or_date": "Content current as of 06/09/2021 (page shows published 03/03/2025)",
+      "retrieved_with": "WebFetch of official page",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "1-nanogram and pinhead potency figures were not on this page and were cut; potency now cited to NIOSH (ref 12).",
+      "claims": [
+        {
+          "text": "oil lingers sometimes for years on virtually any surface",
+          "quote": "The plant oil lingers (sometimes for years) on virtually any surface",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "blister fluid is not plant oil and cannot spread the rash",
+          "quote": "Even if blisters break, the fluid in the blisters is not plant oil and cannot further spread the rash.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "rash not spread person to person",
+          "quote": "Poison ivy and other poison plant rashes can't be spread from person to person.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "oil on pet fur causes reaction in someone who pets them",
+          "quote": "the oil can stick to their fur and cause a reaction in someone who pets them.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "wash skin in soap and cool water as soon as possible",
+          "quote": "Wash your skin in soap and cool water as soon as possible if you come in contact with a poisonous plant.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "poison ivy range: throughout US except Alaska, Hawaii, parts of West Coast",
+          "quote": "Found throughout the United States except Alaska, Hawaii, and parts of the West Coast.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "poison ivy grows as vine or small shrub; three glossy leaflets",
+          "quote": "Can grow as a vine or small shrub trailing along the ground or climbing on low plants, trees and poles. Each leaf has three glossy leaflets, with smooth or toothed edges.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "poison oak appearance and range",
+          "quote": "Grows as a low shrub in the Eastern and Southern United States, and in tall clumps or long vines on the Pacific Coast. Fuzzy green leaves in clusters of three are lobed or deeply toothed with rounded tips.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "poison sumac habitat and 7 to 13 smooth-edged leaflets",
+          "quote": "Grows as a tall shrub or small tree in bogs or swamps in the Northeast, Midwest, and parts of the Southeast. Each leaf has clusters of seven to 13 smooth-edged leaflets.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "hazard year-round",
+          "quote": "Poison ivy, poison oak, and poison sumac are a hazard year-round.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "poison ivy leaf colors by season",
+          "quote": "Leaves are reddish in spring, green in summer, and yellow, orange, or red in fall.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "symptoms emerge from a few hours to several days after exposure",
+          "quote": "can emerge any time from a few hours to several days after exposure to the plant oil.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "apparent spread due to absorption at different rates or repeated contact",
+          "quote": "It may seem like the rash is spreading if it appears over time instead of all at once. But this is either because the plant oil is absorbed at different rates on different parts of the body",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "cannot spread by scratching; scratching blisters lets bacteria in",
+          "quote": "a person with poison ivy can't spread it on the body by scratching. Don't scratch the blisters. Bacteria from under your fingernails can get into them and cause an infection.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "see a doctor for temperature over 100 F",
+          "quote": "You have a temperature over 100 degrees Fahrenheit.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "protective clothing: long sleeves, long pants tucked into boots, impermeable gloves",
+          "quote": "If you think you may be working around poison ivy, wear long sleeves, long pants tucked into boots, and impermeable gloves.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "kind": "guideline",
+      "cited_as": "American Academy of Dermatology. Poison ivy, oak, and sumac: How to treat the rash.",
+      "url": "https://www.aad.org/public/everyday-care/itchy-skin/poison-ivy/treat-rash",
+      "version_or_date": "Last updated 6/1/26",
+      "retrieved_with": "WebFetch of official page",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "Patient-facing AAD page, not a formal guideline. Former claims cut from this ref: 10-15 and 30 minute wash windows, leaves of three and range (moved to FDA/NIOSH), topical steroid potency by site (moved to AFP, ref 9).",
+      "claims": [
+        {
+          "text": "washing immediately may wash off some oil and prevent spread",
+          "quote": "If you do this immediately after touching the plant, you may be able to wash off some of the oil and help prevent spreading it to other areas or other people.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "wash skin with warm soapy water, rubbing alcohol, or dish soap",
+          "quote": "Immediately wash your skin with warm, soapy water, rubbing alcohol, or dish soap (formulated for washing dishes by hand).",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "gloves, remove clothing, washing machine; wash everything with oil",
+          "quote": "Put on gloves, remove your clothing, and place all clothing in a washing machine. While wearing gloves, wash everything that may have the oil on its surface.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "rinse pet fur, wash tools with warm soapy water",
+          "quote": "Be sure to rinse your pet's fur, and wash tools and other objects with warm, soapy water.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "calamine reduces itch",
+          "quote": "Calamine lotion can reduce the itch.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "cool showers; short warm baths with colloidal oatmeal",
+          "quote": "Taking short, cool showers may also help. You can ease the itch with short, warm baths by adding one of the following to the water: Colloidal oatmeal",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "hydrocortisone for a mild case",
+          "quote": "If you have a mild case, a hydrocortisone cream or lotion is another treatment that can alleviate the itch.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "antihistamine pills can help reduce itching",
+          "quote": "Consider taking antihistamine pills. These pills can help reduce itching.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "do not apply antihistamine to skin",
+          "quote": "You should not apply an antihistamine to your skin, as doing so can worsen the rash and the itch.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "ER list: breathing/swallowing, rash around eyes/mouth/genitals, facial swelling, itching preventing sleep, rash on most of body, fever",
+          "quote": "Difficulty breathing or swallowing; A rash around one or both eyes, your mouth, or on your genitals; Swelling on your face, especially if an eye has swollen shut; Rashes on most of your body; A fever",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "ER list also includes itching that worsens or prevents sleep",
+          "quote": "Itching that worsens or makes it impossible to sleep",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "scratching can cause infection; infection signs redness, pain, pus, draining",
+          "quote": "Scratching can cause an infection. May be infected (redness, pain, pus, or draining)",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "kind": "other_web",
+      "cited_as": "Mayo Clinic. Bentoquatam (Topical Route): Description and Brand Names.",
+      "url": "https://www.mayoclinic.org/drugs-supplements/bentoquatam-topical-route/description/drg-20062189",
+      "version_or_date": "Portions last updated Aug. 01, 2026",
+      "retrieved_with": "WebFetch of page",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "'Only FDA-approved barrier cream' claim not on page; cut. '5%' strength and 'clay-based' description not on page; cut. Unsourced 'in clinical testing' efficacy sentence cut (PubMed records found had no abstracts).",
+      "claims": [
+        {
+          "text": "shields skin by physically blocking contact with resin",
+          "quote": "Bentoquatam protects the skin like a shield against poison ivy, poison oak, and poison sumac by physically blocking skin contact with their resin.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "available without prescription; not for children under 6",
+          "quote": "Bentoquatam is available without prescription. Use is not recommended for children up to 6 years of age.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "apply at least 15 minutes before exposure; reapply when film not seen or every 4 hours",
+          "quote": "Apply to the area(s) of skin that may be affected at least fifteen minutes before exposure. Reapply whenever dry film is not seen or every four hours as needed.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "stop if rash or irritation occurs",
+          "quote": "If a rash or irritation occurs, stop using bentoquatam and check with your health care professional.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "kind": "journal",
+      "cited_as": "Usatine RP, Riojas M. Diagnosis and Management of Contact Dermatitis. Am Fam Physician. 2010;82(3):249-255.",
+      "url": "https://www.aafp.org/pubs/afp/issues/2010/0801/p249.html",
+      "pmid": "20672788",
+      "record_title": "Diagnosis and management of contact dermatitis.",
+      "record_journal": "Am Fam Physician",
+      "record_year": "2010",
+      "article_type": "Journal Article; Review",
+      "retrieved_with": "PubMed get_article_metadata (abstract); WebFetch of aafp.org full article",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "Retraction check: PubMed article types list no Retracted Publication or Retraction Notice; scite_unavailable (quota exhausted until 2026-11-14). No DOI or PMC record; PMID resolves. This review is the source for every prednisone dose and taper length in the guide (0.5 to 1 mg/kg daily for 5 to 7 days, 50 percent reduction for the next 5 to 7 days, taper over 2 to 3 weeks in severe rhus dermatitis). The former 40-60 mg/day initial dose and the 30/20/10/5 mg step table were not in any retrieved guideline or label and were removed.",
+      "claims": [
+        {
+          "text": "prednisone 0.5 to 1 mg/kg daily for 5 to 7 days",
+          "quote": "Five to seven days of prednisone, 0.5 to 1 mg per kg daily, is recommended.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "reduce by 50 percent for the next 5 to 7 days",
+          "quote": "If the patient is comfortable after this initial therapy, the dose may be reduced by 50 percent for the next five to seven days.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "rate of reduction individualized",
+          "quote": "The rate of reduction of the steroid dosage depends on factors such as the severity and duration of allergic contact dermatitis, and how effectively the allergen can be avoided.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "severe rhus: taper over 2 to 3 weeks; rapid discontinuation causes rebound",
+          "quote": "In patients with severe rhus dermatitis, oral prednisone should be tapered over two to three weeks because rapid discontinuation of steroids can cause rebound dermatitis.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "dose pack insufficient, should not be prescribed",
+          "quote": "A steroid dose pack has insufficient dosing and duration and should not be prescribed.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "no evidence for long-acting injectable steroids",
+          "quote": "There is no evidence to support the use of long-acting injectable steroids in the treatment of contact dermatitis.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": ">20 percent: systemic steroids often required, relief within 12 to 24 hours",
+          "quote": "If allergic contact dermatitis involves an extensive area of skin (greater than 20 percent), systemic steroid therapy is often required and offers relief within 12 to 24 hours.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "localized ACD: mid- or high-potency topical steroids, triamcinolone 0.1% or clobetasol 0.05%",
+          "quote": "Localized acute allergic contact dermatitis lesions are successfully treated with mid- or high-potency topical steroids, such as triamcinolone 0.1% or clobetasol 0.05%.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "thin skin: lower-potency steroids such as desonide; avoid high-potency there",
+          "quote": "On areas with thinner skin (e.g., flexural surfaces, eyelids, face, anogenital region), lower-potency steroids, such as desonide ointment (Desowen), can be helpful and minimize the risk of skin atrophy.",
+          "quote_source": "full_text",
+          "verdict": "partly_supported"
+        },
+        {
+          "text": "type IV T cell-mediated delayed hypersensitivity; sensitized T cells on re-exposure",
+          "quote": "Allergic contact dermatitis is caused by a type IV, T cell–mediated, delayed hypersensitivity reaction. Upon reexposure of the epidermis to the antigen, the sensitized T cells initiate an inflammatory cascade",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "skin changes occur after re-exposure (immunity myth)",
+          "quote": "Allergic contact dermatitis is a delayed hypersensitivity reaction in which a foreign substance comes into contact with the skin; skin changes occur after reexposure to the substance.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "antihistamines generally not effective for ACD itch",
+          "quote": "antihistamines are generally not effective for pruritus associated with allergic contact dermatitis",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "linear streaks of erythema and vesicles",
+          "quote": "Rhus plants often brush across the skin causing linear streaks of erythema and vesicles",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "kind": "label",
+      "cited_as": "Pharmacia & Upjohn Company LLC (Pfizer). DEPO-MEDROL (methylprednisolone acetate injectable suspension, USP) prescribing information. DailyMed.",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=823b0010-2b57-4e76-b5ac-4a8c2963438f",
+      "version_or_date": "DailyMed label updated January 21, 2026 (version 22); set id 823b0010-2b57-4e76-b5ac-4a8c2963438f",
+      "retrieved_with": "WebSearch + WebFetch of DailyMed label page",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "Link changed from labeling.pfizer.com (that page read as a non-US Revision 13.1 document) to the US DailyMed label, which states the same poison ivy dose.",
+      "claims": [
+        {
+          "text": "single IM 80 to 120 mg for acute severe poison ivy dermatitis; relief within 8 to 12 hours",
+          "quote": "In acute severe dermatitis due to poison ivy, relief may result within 8 to 12 hours following intramuscular administration of a single dose of 80 to 120 mg.",
+          "quote_source": "label",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "kind": "other_web",
+      "cited_as": "Mayo Clinic. Poison ivy rash: Diagnosis and treatment.",
+      "url": "https://www.mayoclinic.org/diseases-conditions/poison-ivy/diagnosis-treatment/drc-20376490",
+      "version_or_date": "May 15, 2024",
+      "retrieved_with": "WebFetch of page",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "Previously listed unnumbered and uncited; now numbered 11 and cited.",
+      "claims": [
+        {
+          "text": "cool wet compresses 15 to 30 minutes several times a day",
+          "quote": "Place cool, wet compresses on the affected area for 15 to 30 minutes several times a day.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "calamine or menthol creams",
+          "quote": "Apply calamine lotion or creams containing menthol.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "diphenhydramine may help sleep",
+          "quote": "Take oral antihistamines, such as diphenhydramine (Benadryl), which may also help you sleep better.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "oral antibiotic if bacterial infection",
+          "quote": "If a bacterial infection has developed at the rash site, your doctor might prescribe an oral antibiotic.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "rash goes away on its own in two to three weeks (FAQ)",
+          "quote": "And the rash typically goes away on its own in two to three weeks.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "kind": "agency_page",
+      "cited_as": "NIOSH, Centers for Disease Control and Prevention. Poisonous Plants and Work.",
+      "url": "https://www.cdc.gov/niosh/outdoor-workers/about/poisonous-plants.html",
+      "version_or_date": "Reviewed October 1, 2026",
+      "retrieved_with": "WebSearch + WebFetch of official page",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "New source. Replaces the unverifiable 85% figure (Monroe) and the 1 nanogram/pinhead figure (not on FDA page) with NIOSH's 80-90% / grain-of-salt statement.",
+      "claims": [
+        {
+          "text": "less than a grain of salt causes rash in 80 to 90% of adults",
+          "quote": "Exposure to an amount of urushiol less than a grain of salt causes a rash in 80-90% of adults.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "urushiol active on objects up to 5 years",
+          "quote": "Urushiol can remain active on the surface of objects for up to 5 years.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "burning causes lung irritation; smoke inhalation severe allergic respiratory problems",
+          "quote": "Burning poisonous plants may lead to lung irritation. Inhaling smoke from burning plants can cause severe allergic respiratory problems.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "leaves of three mnemonic",
+          "quote": "The old saying \"Leaves of three, let it be!\" is a helpful reminder for identifying poison ivy and poison oak.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "eastern poison ivy hairy ropelike vine",
+          "quote": "Eastern poison ivy is typically a hairy, ropelike vine with three shiny green leaves budding from one small stem.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "poison sumac leaves arranged in pairs",
+          "quote": "Poison sumac is a woody shrub that has stems with 7–13 leaves arranged in pairs.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "blister fluid will not spread blisters",
+          "quote": "Note: fluids in blisters will not cause blisters to spread on you or others.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "indirect contact with tools, livestock, clothing",
+          "quote": "Indirect contact, such as touching tools, livestock, or clothing that have urushiol on them.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "clean tools with rubbing alcohol or soap and water",
+          "quote": "Clean tools with rubbing alcohol (isopropanol or isopropyl alcohol) or soap and lots of water.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "bentoquatam lotion may offer some protection",
+          "quote": "Use barrier skin creams, such as a lotion containing bentoquatam which may offer some protection before contact.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "severe allergic reaction: call 911",
+          "quote": "Call 911 or go to a hospital emergency room if you or another worker: Has a severe allergic reaction, like swelling or difficulty breathing.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    }
+  ]
+}
