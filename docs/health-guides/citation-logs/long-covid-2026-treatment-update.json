@@ -1,0 +1,597 @@
+{
+  "guide": "long-covid-2026-treatment-update",
+  "checked_at": "2026-11-07",
+  "checked_by": "Claude (repair run)",
+  "scite_verify_papers": "unavailable (quota exhausted until 2026-11-14); retraction status from PubMed article types",
+  "references": [
+    {
+      "n": 1,
+      "kind": "guideline",
+      "cited_as": "National Academies of Sciences, Engineering, and Medicine. A Long COVID Definition: A Chronic, Systemic Disease State with Profound Consequences. Consensus Study Report. 2024.",
+      "record_title": "A Long COVID Definition: A Chronic, Systemic Disease State with Profound Consequences",
+      "record_year": "2024",
+      "version_or_date": "Consensus Study Report, 2024; read 2026-11-07",
+      "retrieved_with": "WebFetch of official page (nationalacademies.org)",
+      "notes": "Page gives no US prevalence figure, no '18 months', no 'patient-coined' wording and no symptom count; those claims were cut.",
+      "claims": [
+        {
+          "text": "Long COVID is recognized as a chronic condition; 2024 NASEM definition anchors consensus",
+          "quote": "This definition identifies Long COVID as an infection-associated chronic condition (IACC), specifies a minimum duration of 3 months, and expressly incorporates common symptoms and diagnosable conditions characteristic of Long COVID.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "NASEM definition requires symptoms or conditions present for at least 3 months",
+          "quote": "The definition requires symptoms or conditions to be present for a duration of 3 months or longer, although the timing of those 3 months is unspecified.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "committee engaged more than 1,300 participants with a focus on the patient perspective",
+          "quote": "The committee employed a systematic approach--engaging more than 1,300 participants—with a focus on the patient perspective and interdisciplinary dialogue.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "does not require laboratory confirmation or other proof of initial infection",
+          "quote": "The definition does not require laboratory confirmation or other proof of initial SARS-CoV-2 infection.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "does not list any symptom or condition as exclusionary; can be diagnosed on clinical grounds",
+          "quote": "The definition does not list any symptoms or conditions as being required and does not list any symptoms or conditions as being exclusionary. Long COVID can be diagnosed on clinical grounds.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "clinicians should recognize and monitor concerning symptoms before the 3-month mark",
+          "quote": "Although the definition specifies a minimum duration of 3 months to qualify as Long COVID, a clinician should recognize, acknowledge, and monitor concerning symptoms before the 3-month mark.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "definition recognizes continuous, relapsing and remitting, or progressive courses",
+          "quote": "Sign(s), symptom(s), or condition(s) can have variable patterns and can be continuous, relapsing and remitting, or progressive.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ],
+      "url": "https://www.nationalacademies.org/projects/HMD-HSP-23-01/publication/27768",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": []
+    },
+    {
+      "n": 2,
+      "kind": "agency_page",
+      "cited_as": "Centers for Disease Control and Prevention. About Long COVID. Page dated May 6, 2026.",
+      "version_or_date": "Displayed date May 6, 2026; last reviewed December 16, 2025; read 2026-11-07",
+      "retrieved_with": "WebFetch of official page (cdc.gov)",
+      "notes": "Page gives no percentage prevalence; the guide's 8% figure was cut.",
+      "claims": [
+        {
+          "text": "millions of U.S. adults and children have been affected by Long COVID",
+          "quote": "millions of U.S. adults and children have been affected by Long COVID",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Long COVID includes a wide range of symptoms or conditions",
+          "quote": "Long COVID includes a wide range of symptoms or conditions that may improve, worsen, or be ongoing.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "CDC calls vaccination the best available tool to prevent Long COVID, including in children",
+          "quote": "Research shows COVID-19 vaccination is the best available tool to prevent Long COVID, including in children.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "people can be reinfected multiple times; each infection carries a risk of Long COVID",
+          "quote": "People can be reinfected with SARS-CoV-2 multiple times. Each time a person is infected with SARS-CoV-2, they have a risk of developing Long COVID.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ],
+      "url": "https://www.cdc.gov/long-covid/about/index.html",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": []
+    },
+    {
+      "n": 3,
+      "kind": "journal",
+      "cited_as": "Baden LR, Shah NS, Liu STH, et al. RECOVER-VITAL. Lancet Infect Dis. 2026.",
+      "pmid": "42673984",
+      "pmcid": "PMC13673146",
+      "doi": "10.1016/S1473-3099(26)00406-8",
+      "record_title": "Nirmatrelvir-ritonavir targeting viral persistence in post-COVID-19 condition (long COVID) in the USA (RECOVER-VITAL): a randomised, double-blind, placebo-controlled, phase 2 trial.",
+      "record_journal": "Lancet Infect Dis",
+      "record_year": "2026",
+      "article_type": "Journal Article",
+      "version_or_date": "PubMed publication date 2026-08-31; no volume/pages in record",
+      "retrieved_with": "PubMed get_article_metadata (abstract); ClinicalTrials.gov get_trial_details NCT05965726 and NCT05595369",
+      "notes": "Replaces The Sick Times news article (old ref 3). Abstract-only reading; claims limited to the abstract. Registry appendix NCT05965726 confirms control = ritonavir plus nirmatrelvir-matching placebo. scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice.",
+      "claims": [
+        {
+          "text": "15-day and 25-day Paxlovid courses did not improve Long COVID symptoms vs placebo",
+          "quote": "Nirmatrelvir-ritonavir for 15 days or 25 days showed no evidence of benefit in long COVID in any of the three phenotypes studied.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "enrolled adults with symptoms of 12 weeks or more, grouped by cognitive, autonomic or exercise phenotype",
+          "quote": "involving adults who had developed persistent symptoms (≥12 weeks) associated with three major symptom phenotypes (cognitive, autonomic, or exercise) after acute SARS-CoV-2 infection at 69 US sites.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "control arm was 25 days of placebo with ritonavir",
+          "quote": "or 25 days of placebo-ritonavir (100 mg ritonavir-placebo).",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "hypothesis tested was viral persistence",
+          "quote": "The pathogenesis of long COVID is unknown, but among the leading hypotheses is viral persistence.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "959 participants; no significant benefit in any group",
+          "quote": "959 participants ... were enrolled in the three phenotypes ... No statistically significant benefits were observed for any phenotype for primary endpoints.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "investigators concluded new approaches to measuring and treating Long COVID are needed",
+          "quote": "These findings suggest additional approaches to measuring the symptom burden and treating Long COVID are needed.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "results do not support longer Paxlovid courses as a Long COVID treatment",
+          "quote": "Nirmatrelvir-ritonavir for 15 days or 25 days showed no evidence of benefit in long COVID",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42673984/",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": []
+    },
+    {
+      "n": 4,
+      "kind": "journal",
+      "cited_as": "Bramante CT, Buse JB, Liebovitz DM, et al. COVID-OUT. Lancet Infect Dis. 2023;23(10):1119-1129.",
+      "pmid": "37302406",
+      "pmcid": "PMC11259948",
+      "doi": "10.1016/S1473-3099(23)00299-2",
+      "record_title": "Outpatient treatment of COVID-19 and incidence of post-COVID-19 condition over 10 months (COVID-OUT): a multicentre, randomised, quadruple-blind, parallel-group, phase 3 trial.",
+      "record_journal": "Lancet Infect Dis",
+      "record_year": "2023",
+      "article_type": "Randomized Controlled Trial; Multicenter Study; Clinical Trial, Phase III",
+      "retrieved_with": "PubMed get_article_metadata (abstract)",
+      "notes": "Primary source replacing the Bramante & Boulware CID editorial (old ref 4), per GUIDE_SPEC 4.4. Long COVID was a prespecified secondary outcome. scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice.",
+      "claims": [
+        {
+          "text": "about 41% lower provider-diagnosed Long COVID over 10 months with metformin vs placebo",
+          "quote": "Outpatient treatment with metformin reduced long COVID incidence by about 41%, with an absolute reduction of 4·1%, compared with placebo.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "6.3% vs 10.4% cumulative incidence by day 300",
+          "quote": "The cumulative incidence of long COVID by day 300 was 6·3% (95% CI 4·2-8·2) in participants who received metformin and 10·4% (7·8-12·9) in those who received identical metformin placebo",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "hazard ratio 0.37 when started within 3 days of symptoms",
+          "quote": "When metformin was started within 3 days of symptom onset, the HR was 0·37 (95% CI 0·15-0·95).",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "adults 30 to 85 with overweight or obesity, enrolled within 7 days of symptom onset",
+          "quote": "We included adults aged 30-85 years with overweight or obesity who had COVID-19 symptoms for fewer than 7 days",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Long COVID was a prespecified secondary outcome",
+          "quote": "Long COVID diagnosis by a medical provider was a prespecified, long-term secondary outcome.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37302406/",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": []
+    },
+    {
+      "n": 5,
+      "kind": "journal",
+      "cited_as": "Bramante CT, Stewart TG, Boulware DR, et al. ACTIV-6. Clin Infect Dis. 2026.",
+      "pmid": "42240559",
+      "pmcid": "PMC13681953",
+      "doi": "10.1093/cid/ciag335",
+      "record_title": "Metformin on the Presence of COVID-19 Symptoms 6 Months after Infection: The ACTIV-6 Randomized Clinical Trial.",
+      "record_journal": "Clin Infect Dis",
+      "record_year": "2026",
+      "article_type": "Journal Article",
+      "version_or_date": "PubMed publication date 2026-06-04; no volume/pages in record",
+      "retrieved_with": "PubMed get_article_metadata (abstract)",
+      "notes": "New primary source. Shows the guide's claim that ACTIV-6 'replicated' COVID-OUT was overstated: primary outcome did not meet the efficacy threshold. Earlier medRxiv preprint (PMID 40832427) not cited. scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice.",
+      "claims": [
+        {
+          "text": "ACTIV-6 did not meet its main goal",
+          "quote": "In low-risk adults, most with prior immunity, metformin did not exceed the efficacy threshold of 0.975 for PASC.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "clinician-diagnosed Long COVID lower, risk ratio 0.495 (secondary outcome)",
+          "quote": "Compared with placebo, the risk of clinician-diagnosed long COVID was 0.7 percentage points lower with metformin (95% CrI -1.5 to 0.1); PPE 0.96; risk ratio 0.495 (95% CrI 0.155 to 0.995).",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "lower-risk adults; started within 7 days of symptom onset; 14 days of metformin",
+          "quote": "were included within 7 days of symptom onset from 90 sites. Participants were randomized to metformin or placebo for 14 days.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "main outcome was COVID symptoms at 6 months (day 180)",
+          "quote": "Post-acute sequelae of SARS-CoV-2 or death (PASCD) was ascertained by asking whether participants had symptoms they attributed to COVID-19 on day 180.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42240559/",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": []
+    },
+    {
+      "n": 6,
+      "kind": "journal",
+      "cited_as": "Lim SY, Lee J, Chang E, et al. Ann Intern Med. 2026;179(4):478-485.",
+      "pmid": "41771135",
+      "doi": "10.7326/ANNALS-25-04883",
+      "record_title": "Neither Metformin nor Ursodeoxycholic Acid Effectively Treats Postacute Sequelae of COVID-19 : A Randomized Clinical Trial.",
+      "record_journal": "Ann Intern Med",
+      "record_year": "2026",
+      "article_type": "Journal Article; Randomized Controlled Trial; Multicenter Study",
+      "version_or_date": "PubMed publication date 2026-03-03",
+      "retrieved_with": "PubMed get_article_metadata (abstract)",
+      "notes": "Primary source for the trial the CIDRAP news item (old ref 5) described; replaces CIDRAP. Abstract-only. The guide's 'RECOVER-ENERGIZE metformin 1,000 mg/day for 6 months' description is in no retrieved source and was cut. scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice.",
+      "claims": [
+        {
+          "text": "double-blind trial at two hospitals in South Korea, 396 adults, metformin vs UDCA vs placebo for 14 days",
+          "quote": "Two tertiary hospitals in South Korea, July 2024 to April 2025. Of 666 adults screened, 396 with a PASC index score of 12 or greater were randomly assigned.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "treatment lasted 14 days",
+          "quote": "Oral metformin (uptitrated to 1500 mg/d), UDCA (900 mg once daily), or double placebo for 14 days (1:1:1).",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "on average about 10 months after infection",
+          "quote": "The mean interval from SARS-CoV-2 infection was 9.8 months (SD, 7.5).",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "recovery at 8 weeks similar in all groups; 2-week metformin did not help",
+          "quote": "Recovery occurred in 63.6% (84 of 132) with metformin, 68.2% (90 of 132) with UDCA, and 68.2% (90 of 132) with placebo.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "a 2-week course of metformin did not improve recovery",
+          "quote": "A 2-week course of metformin or UDCA did not significantly improve recovery from PASC.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "findings may not apply to more severe or persistent Long COVID",
+          "quote": "Findings may not be generalizable to patients with more severe or persistent long COVID.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "there is no proven treatment for Long COVID symptoms",
+          "quote": "There is no proven treatment to alleviate symptoms of postacute sequelae of SARS-CoV-2 infection (PASC), despite its substantial public health burden.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41771135/",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": []
+    },
+    {
+      "n": 7,
+      "kind": "journal",
+      "cited_as": "Baptista SN, Atkins T, Chakraborty S, et al. Front Med (Lausanne). 2026;13:1734600.",
+      "pmid": "41836927",
+      "pmcid": "PMC12982061",
+      "doi": "10.3389/fmed.2026.1734600",
+      "record_title": "Candidate treatments for long COVID: a narrative review of expert and patient-driven priorities.",
+      "record_journal": "Front Med (Lausanne)",
+      "record_year": "2026",
+      "article_type": "Journal Article; Review",
+      "retrieved_with": "PubMed get_article_metadata (abstract)",
+      "notes": "Citation corrected (authors, full title, volume). No longer cited for 'no FDA-approved treatments', which it does not say. scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice.",
+      "claims": [
+        {
+          "text": "no proven treatment; evidence insufficient for clinical recommendations",
+          "quote": "There was insufficient direct evidence to inform clinical recommendations.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "trials have not yet produced a proven treatment",
+          "quote": "Across interventions, evidence certainty was mostly low to very low, and safety/feasibility varied.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ],
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12982061/",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": []
+    },
+    {
+      "n": 8,
+      "kind": "agency_page",
+      "cited_as": "Centers for Disease Control and Prevention. Long COVID Clinical Guidance. Last updated March 9, 2026.",
+      "version_or_date": "Last updated March 9, 2026; last reviewed December 16, 2025; read 2026-11-07",
+      "retrieved_with": "WebFetch of official page (cdc.gov)",
+      "notes": "New source replacing the Nyra Health vendor blog (old ref 7) together with ref 9. Page does not use the word pacing or state FDA approval status.",
+      "claims": [
+        {
+          "text": "treatment tailored to specific symptoms, including FDA-approved or OTC medications",
+          "quote": "Treatment of Long COVID should be tailored to a patient's specific symptoms or conditions, including FDA-approved or over-the-counter medications.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "PEM is common in Long COVID; worsening after minor exertion, 12 to 48 hours later, lasting days or weeks",
+          "quote": "PEM is commonly associated with Long COVID and is the worsening of symptoms following even minor physical or mental exertion, with symptoms typically worsening 12 to 48 hours after activity and lasting for days or even weeks.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Long COVID patients may benefit from approaches used for ME/CFS, dysautonomia and PEM",
+          "quote": "These patients may benefit from symptom management approaches used to manage symptoms of: Myalgic encephalomyelitis/chronic fatigue syndrome. ... Dysautonomia ... Post-exertional malaise (PEM)",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "ask about referral to a specialty clinic or other supportive services",
+          "quote": "Connecting them to additional care, services and supports, as appropriate.",
+          "quote_source": "official_page",
+          "verdict": "partly_supported"
+        }
+      ],
+      "url": "https://www.cdc.gov/long-covid/hcp/clinical-guidance/index.html",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": []
+    },
+    {
+      "n": 9,
+      "kind": "agency_page",
+      "cited_as": "Centers for Disease Control and Prevention. Strategies to Prevent Worsening of Symptoms (ME/CFS clinical care). Last reviewed May 10, 2024.",
+      "version_or_date": "Last updated and reviewed May 10, 2024; read 2026-11-07",
+      "retrieved_with": "WebFetch of official page (cdc.gov)",
+      "notes": "ME/CFS page; it does not mention Long COVID. Its relevance to Long COVID rests on ref 8 (CDC says Long COVID patients may benefit from ME/CFS and PEM approaches); the guide text says so.",
+      "claims": [
+        {
+          "text": "PEM can be eased by pacing (activity management)",
+          "quote": "PEM can be mitigated by activity management (pacing).",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "learn limits for physical and mental activity, plan activity and rest to stay within them",
+          "quote": "Patients need to determine their individual limits for mental and physical activity. Then, they can plan activity and rest to stay within these limits.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "avoid push and crash cycles",
+          "quote": "Patients need to be advised about \"push and crash\" cycles.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "standard exercise recommendations can substantially harm ME/CFS patients; increase activity cautiously with monitoring",
+          "quote": "Standard exercise recommendations for healthy people can substantially harm patients with ME/CFS. ... When patients improve, activities can be cautiously increased with monitoring for any negative effects.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "plan and monitor mental activity to avoid overexertion; rest after demanding mental tasks",
+          "quote": "patients should employ careful planning and monitoring of cognitive activities to avoid mental overexertion ... Planning periods of rest after any anticipated mental activity is critical to avoid exacerbation of symptoms.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ],
+      "url": "https://www.cdc.gov/me-cfs/hcp/clinical-care/treating-the-most-disruptive-symptoms-first-and-preventing-worsening-of-symptoms.html",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": []
+    },
+    {
+      "n": 10,
+      "kind": "other_web",
+      "cited_as": "National Academies of Sciences, Engineering, and Medicine. Federal Government, Clinicians, Employers, and Others Should Adopt New Definition for Long COVID. News release. Last updated June 11, 2024.",
+      "version_or_date": "Last update June 11, 2024; read 2026-11-07",
+      "retrieved_with": "WebFetch of official page (nationalacademies.org)",
+      "notes": "New source: the report page (ref 1) does not print the one-sentence definition; this release does. Headline cited only as far as retrieved verbatim.",
+      "claims": [
+        {
+          "text": "verbatim NASEM definition sentence",
+          "quote": "Long COVID (LC) is an infection-associated chronic condition that occurs after SARS-CoV-2 infection and is present for at least three months as a continuous, relapsing and remitting, or progressive disease state that affects one or more organ systems.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ],
+      "url": "https://www.nationalacademies.org/news/2024/06/federal-government-clinicians-employers-and-others-should-adopt-new-definition-for-long-covid-to-aid-in-consistent-diagnosis-documentation-and-treatment",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": []
+    },
+    {
+      "n": 11,
+      "kind": "dataset",
+      "cited_as": "ClinicalTrials.gov. RECOVER-ENERGIZE ... NCT06404060.",
+      "record_title": "RECOVER-ENERGIZE: A Platform Protocol for Evaluation of Interventions for Exercise Intolerance in Post-Acute Sequelae of SARS-CoV-2 Infection (PASC)",
+      "version_or_date": "Registry record read 2026-11-07 (status Completed; primary completion 2026-03-10)",
+      "retrieved_with": "Clinical_Trials get_trial_details NCT06404060; Clinical_Trials search_trials",
+      "notes": "New source added to correct the guide's false statement that RECOVER-ENERGIZE tested metformin. Registry lists interventions 'Personalized Cardiopulmonary Rehabilitation' and 'Education'.",
+      "claims": [
+        {
+          "text": "RECOVER-ENERGIZE did not test metformin; interventions are personalized cardiopulmonary rehabilitation and education, aimed at exercise intolerance",
+          "quote": "This protocol is a prospective, multi-center, multi-arm, randomized, controlled platform trial evaluating interventions to address and improve exercise intolerance and post-exertional malaise (PEM) as manifestations of Post-Acute Sequelae of SARS-CoV-2 Infection (PASC).",
+          "quote_source": "registry",
+          "verdict": "supported"
+        }
+      ],
+      "url": "https://clinicaltrials.gov/study/NCT06404060",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": []
+    },
+    {
+      "n": 12,
+      "kind": "label",
+      "cited_as": "DailyMed. Metformin hydrochloride tablets prescribing information (Granules Pharmaceuticals Inc.). Revised June 2026.",
+      "version_or_date": "Revised 06/2026; DailyMed updated June 29, 2026; read 2026-11-07",
+      "retrieved_with": "WebFetch of DailyMed label page",
+      "notes": "Supports that metformin's labeled indication is glycemic control; 'off-label for Long COVID prevention' is an inference from the indication, hence partly_supported.",
+      "claims": [
+        {
+          "text": "metformin's FDA labeling covers glycemic control, so Long COVID prevention is off-label",
+          "quote": "Metformin hydrochloride tablets are indicated as an adjunct to diet and exercise to improve glycemic control in adults",
+          "quote_source": "label",
+          "verdict": "partly_supported"
+        }
+      ],
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8cd5555c-f6b2-28d8-e053-2a95a90a5f1e",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": []
+    },
+    {
+      "n": 13,
+      "kind": "journal",
+      "cited_as": "Du S, Cui Z, Xu X, et al. Front Physiol. 2025;16:1656713.",
+      "pmid": "41488929",
+      "pmcid": "PMC12756122",
+      "doi": "10.3389/fphys.2025.1656713",
+      "record_title": "Clinical efficacy of exercise in the treatment of post-COVID-19 syndrome: a systematic review and network meta-analysis.",
+      "record_journal": "Front Physiol",
+      "record_year": "2025",
+      "article_type": "Journal Article; Systematic Review",
+      "retrieved_with": "PubMed get_article_metadata; PubMed get_full_text_article (PMC)",
+      "notes": "Citation corrected (authors, title). Link changed to doi.org. The guide's 'without PEM' qualifier was the guide's own; the review's eligibility criteria do not mention PEM, and the guide now says so. scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice.",
+      "claims": [
+        {
+          "text": "33 RCTs, 2,895 participants",
+          "quote": "yielded 33 randomized controlled trials (with 2,895 participants) for meta-analysis.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "improved lung function",
+          "quote": "we have confirmed that exercise therapy can significantly improve lung function, physical activity status, and emotional status in patients with PCS.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "improved six-minute walk, breathlessness (dyspnea) score and mental health scores",
+          "quote": "Multimodal exercise significantly improved the results of the six-minute walk test, the dyspnea score, and peak oxygen uptake. Mental Health and Mental Component Summary scores improved significantly",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "inclusion criteria did not address PEM",
+          "quote": "Studies were eligible for inclusion in the meta-analysis if they were randomized controlled clinical trials, the disease under investigation was PCS, the main intervention was exercise therapy, outcomes were described, and the publication language was English.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        }
+      ],
+      "url": "https://doi.org/10.3389/fphys.2025.1656713",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": []
+    },
+    {
+      "n": 14,
+      "kind": "journal",
+      "cited_as": "Fudim M, Novak P, Taub PR, et al. Am Heart J. 2026;296:107384.",
+      "pmid": "41720282",
+      "doi": "10.1016/j.ahj.2026.107384",
+      "record_title": "Design and rationale of RECOVER-AUTONOMIC: A randomized platform trial evaluating interventions for Long COVID postural orthostatic tachycardia syndrome.",
+      "record_journal": "Am Heart J",
+      "record_year": "2026",
+      "article_type": "Journal Article; Clinical Trial Protocol",
+      "retrieved_with": "PubMed get_article_metadata (abstract)",
+      "notes": "New source; design paper only (no results). Replaces the guide's unsourced list of POTS drugs (beta-blockers, midodrine, ivabradine), which was cut. scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice.",
+      "claims": [
+        {
+          "text": "RECOVER-AUTONOMIC designed to test IVIG, ivabradine and coordinated nonpharmacologic care for POTS in Long COVID",
+          "quote": "designed to assess the safety, tolerability, and efficacy of 3 interventions-(1) coordinated nonpharmacologic care, (2) pharmacotherapy with intravenous immunoglobulin (IVIG), and (3) pharmacotherapy with ivabradine-in treating POTS in adults with Long COVID.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41720282/",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": []
+    },
+    {
+      "n": 15,
+      "kind": "journal",
+      "cited_as": "Knopman DS, Koltai D, Laskowitz DT, et al. JAMA Neurol. 2026;83(1):49-59.",
+      "pmid": "41212544",
+      "pmcid": "PMC12603944",
+      "doi": "10.1001/jamaneurol.2025.4415",
+      "record_title": "Evaluation of Interventions for Cognitive Symptoms in Long COVID: A Randomized Clinical Trial.",
+      "record_journal": "JAMA Neurol",
+      "record_year": "2026",
+      "article_type": "Journal Article; Randomized Controlled Trial; Multicenter Study",
+      "retrieved_with": "PubMed get_article_metadata (abstract)",
+      "notes": "New source (RECOVER-NEURO, NCT05965739). Replaces the guide's unsourced claim that cognitive rehabilitation is a 'mainstay'. scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice.",
+      "claims": [
+        {
+          "text": "328 adults with cognitive Long COVID",
+          "quote": "from which there were 328 participants",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "cognitive training, structured rehabilitation and tDCS did not outperform comparison activities",
+          "quote": "None of the 3 active interventions demonstrated benefits on the modified ECog2 in the intention-to-treat population by the end of the intervention period.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "10 weeks of intervention",
+          "quote": "The interventions occurred 5 times per week over 10 weeks.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "all groups improved somewhat over time",
+          "quote": "All 5 arms demonstrated some improvements over time on the modified ECog2 and on secondary outcomes.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41212544/",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": []
+    }
+  ]
+}

@@ -1,0 +1,884 @@
+{
+  "guide": "latisse-guide",
+  "checked_at": "2026-11-07",
+  "checked_by": "Claude (repair run)",
+  "scite_verify_papers": "unavailable (quota exhausted until 2026-11-14); retraction status from PubMed article types",
+  "references": [
+    {
+      "n": 1,
+      "kind": "agency_page",
+      "cited_as": "U.S. Food and Drug Administration. Drugs@FDA: New Drug Application 022369, LATISSE (bimatoprost) 0.03% solution/drops, topical. Original approval December 24, 2008; therapeutic equivalents listed. Accessed November 7, 2026.",
+      "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=022369",
+      "version_or_date": "Drugs@FDA overview page as read 2026-11-07 (latest supplement listed: SUPPL-14, 08/26/2021)",
+      "retrieved_with": "Monid firecrawl /scrape (basic proxy, maxAge 0, live fetch, HTTP 200); Drug Approval Package TOC page (linked from the citable summary) also scraped, HTTP 200",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "Cited-as changed from 'Drug Approval Package ... December 2008' to match the overview page the link opens. Page does not support onset, reversal, OTC-serum, castor-oil or latanoprost claims; those [1] markers were removed or the claims re-sourced. TOC page quote for the citable summary link: 'Approval Date: 12/24/2008'.",
+      "claims": [
+        {
+          "text": "Latisse FDA-approved December 2008 (key takeaways, decision table, callout, FAQ 'Does Latisse actually work')",
+          "quote": "| 12/24/2008 | ORIG-1 | Approval |",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Latisse is a prescription bimatoprost 0.03% topical product (callout: FDA-approved indication; decision framework comparison)",
+          "quote": "| LATISSE | BIMATOPROST | 0.03% | SOLUTION/DROPS;TOPICAL | Prescription | AT | Yes | Yes |",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Generic bimatoprost 0.03% topical solutions are listed as therapeutically equivalent to Latisse (AT); generic is an option (What's changed, cost section, FAQ cost, FAQ generic)",
+          "quote": "TE Code = AT ... | BIMATOPROST | BIMATOPROST | 0.03% | SOLUTION/DROPS;TOPICAL | Prescription | No | AT | 210515 | ALEMBIC |",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "kind": "journal",
+      "cited_as": "Smith S, Fagien S, Whitcup SM, et al. Eyelash growth in subjects treated with bimatoprost: a multicenter, randomized, double-masked, vehicle-controlled, parallel-group study. J Am Acad Dermatol. 2012;66(5):801-806.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21899919/",
+      "pmid": "21899919",
+      "doi": "10.1016/j.jaad.2011.06.005",
+      "record_title": "Eyelash growth in subjects treated with bimatoprost: a multicenter, randomized, double-masked, vehicle-controlled, parallel-group study.",
+      "record_journal": "J Am Acad Dermatol",
+      "record_year": "2012 (print May 2012 per Crossref; PubMed epub 2011-09-06)",
+      "article_type": "Clinical Trial, Phase III; Randomized Controlled Trial; Multicenter Study",
+      "retrieved_with": "PubMed get_article_metadata (abstract, article types, volume 66 issue 5 pages 801-6); Crossref API via WebFetch for print year 2012",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice type. Abstract only. Length/thickness/darkness percentages moved to the label (ref 9), since they are not in the abstract.",
+      "claims": [
+        {
+          "text": "Pivotal trial: 278 adults randomized to once-daily bimatoprost (n=137) or vehicle (n=141)",
+          "quote": "subjects were randomized to receive once-daily bimatoprost 0.03% (n = 137) or vehicle (n = 141).",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "78% vs 18% had at least a one-grade GEA improvement at week 16 (P < .0001); Latisse works for most users (FAQ); week-16 primary endpoint",
+          "quote": "A higher percentage of subjects treated with bimatoprost 0.03% (78.1%) versus vehicle (18.4%) demonstrated at least a 1-grade increase in global eyelash assessment score at week 16 (P < .0001).",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Once-daily application to the upper eyelid margins for 16 weeks; trial design",
+          "quote": "We sought to compare the safety and efficacy of once-daily bimatoprost 0.03% versus vehicle in increasing eyelash length, thickness, and darkness after topical administration to upper eyelid margins.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Trial is a Phase 3 randomized controlled trial",
+          "quote": "Clinical Trial, Phase III; Randomized Controlled Trial (PubMed publication types)",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "All four efficacy measures significantly better than vehicle (figure caption)",
+          "quote": "Subjects in the bimatoprost 0.03% group also had statistically significantly greater increases in eyelash length, thickness, and darkness (P < .0001) than those in the vehicle group.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Only conjunctival hyperemia was significantly more common than with vehicle",
+          "quote": "For adverse events, only conjunctival hyperemia occurred at a statistically significant higher incidence rate in the bimatoprost 0.03% versus the vehicle group (P = .03).",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Randomized trial evidence in idiopathic hypotrichosis in adults (with ref 14)",
+          "quote": "Bimatoprost 0.03% was found to be effective at enhancing eyelashes in adults with a very good safety profile.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "kind": "journal",
+      "cited_as": "Cohen JL. Enhancing the growth of natural eyelashes: the mechanism of bimatoprost-induced eyelash growth. Dermatol Surg. 2010;36(9):1361-1371.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20384750/",
+      "pmid": "20384750",
+      "doi": "10.1111/j.1524-4725.2010.01522.x",
+      "record_title": "Enhancing the growth of natural eyelashes: the mechanism of bimatoprost-induced eyelash growth.",
+      "record_journal": "Dermatol Surg",
+      "record_year": "2010",
+      "article_type": "Review",
+      "retrieved_with": "PubMed get_article_metadata",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice type. Abstract only. Author disclosed consulting for Allergan. The anagen-duration number (4 to 9 weeks) and glaucoma-discovery story previously cited here are not in the abstract; replaced with ref 6 full text.",
+      "claims": [
+        {
+          "text": "Bimatoprost increases the share of eyelash follicles in anagen",
+          "quote": "Treatment with bimatoprost increases the percentage of eyelash follicles in anagen at any one time.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Larger dermal papilla/hair bulb and more melanogenesis, giving thicker, darker lashes",
+          "quote": "Bimatoprost-induced stimulation of melanogenesis appears to result in darker lashes and, at the same time, appears to increase the size of the dermal papilla and hair bulb, affecting lash thickness and fullness.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "These follicle effects were shown largely in animal studies",
+          "quote": "Such effects, largely demonstrated in animal studies, are consistent with the results of a recent Food and Drug Administration phase III clinical trial.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "kind": "journal",
+      "cited_as": "Yoelin S, Walt JG, Earl M. Safety, effectiveness, and subjective experience with topical bimatoprost 0.03% for eyelash growth. Dermatol Surg. 2010;36(5):638-649.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20384751/",
+      "pmid": "20384751",
+      "doi": "10.1111/j.1524-4725.2010.01519.x",
+      "record_title": "Safety, effectiveness, and subjective experience with topical bimatoprost 0.03% for eyelash growth.",
+      "record_journal": "Dermatol Surg",
+      "record_year": "2010",
+      "article_type": "PubMed lists Comparative Study; Randomized Controlled Trial, but the abstract describes a prospective open-label single-arm study; described in the guide as open-label",
+      "retrieved_with": "PubMed get_article_metadata",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice type. Abstract only. No longer cited for vehicle-comparison side-effect rates, iris darkening or reversibility (this was a 28-woman open-label study with no vehicle arm). Now cited only for what the abstract says.",
+      "claims": [
+        {
+          "text": "Small open-label study of 28 women applying bimatoprost to the upper lid margin for 12 weeks",
+          "quote": "Prospective, open-label study of subjects who desired longer, thicker (fuller), and darker natural eyelashes. Bimatoprost was applied to the upper lid margin once daily for 12 weeks.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "No serious or unexpected adverse events were reported",
+          "quote": "All subjects were female (N=28). No serious or unexpected adverse events were reported.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "kind": "journal",
+      "cited_as": "Filippopoulos T, Paula JS, Torun N, et al. Periorbital changes associated with topical bimatoprost. Ophthalmic Plast Reconstr Surg. 2008;24(4):302-307.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18645437/",
+      "pmid": "18645437",
+      "doi": "10.1097/IOP.0b013e31817d81df",
+      "record_title": "Periorbital changes associated with topical bimatoprost.",
+      "record_journal": "Ophthalmic Plast Reconstr Surg",
+      "record_year": "2008",
+      "article_type": "Case Reports",
+      "retrieved_with": "PubMed get_article_metadata",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice type. Abstract only. Five glaucoma patients using bimatoprost as an eye drop. No longer cited for iris darkening.",
+      "claims": [
+        {
+          "text": "Periorbital fat atrophy / deepening of the upper eyelid sulcus described with bimatoprost in glaucoma patients",
+          "quote": "In eyes treated with bimatoprost 0.03% the authors noted periorbital fat atrophy, deepening of the upper eyelid sulcus, relative enophthalmos, loss of the lower eyelid fullness, and involution of dermatochalasis compared with the fellow untreated eye.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "First described in glaucoma patients using bimatoprost eye drops (with ref 12)",
+          "quote": "A clinical investigation of 5 nonconsecutive patients with unilateral glaucoma treated daily with topical bimatoprost 0.03% for up to 4 years prior to presentation.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Changes partially reversible after stopping; full recovery not guaranteed",
+          "quote": "these changes were partially reversible after discontinuation of the medication, whenever that was possible.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "kind": "journal",
+      "cited_as": "Fagien S. Management of hypotrichosis of the eyelashes: Focus on bimatoprost. Clin Cosmet Investig Dermatol. 2010;3:39-48.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21437058/",
+      "pmid": "21437058",
+      "pmcid": "PMC3047948",
+      "doi": "10.2147/ccid.s5488",
+      "record_title": "Management of hypotrichosis of the eyelashes: Focus on bimatoprost.",
+      "record_journal": "Clin Cosmet Investig Dermatol",
+      "record_year": "2010",
+      "article_type": "Journal Article (narrative review)",
+      "retrieved_with": "PubMed get_article_metadata; PubMed get_full_text_article (PMC3047948)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice type. Full text read. 2010 review; statements framed in the guide as a 2010 review's view. Its statement that no iris pigmentation was seen in the pivotal trial is NOT used; the current label (ref 9) governs iris risk.",
+      "claims": [
+        {
+          "text": "A 2010 review described Latisse as the only FDA-approved treatment for eyelash hypotrichosis",
+          "quote": "Only bimatoprost ophthalmic solution 0.03%, however, is FDA-approved for the treatment of hypotrichosis of the eyelashes with proven efficacy and effectiveness.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Cosmetic eyelash products do not require FDA approval and have not been critically evaluated for efficacy or safety (key takeaways, hypotrichosis section, callout, OTC section, decision table, FAQ OTC)",
+          "quote": "Since cosmetic products do not require FDA approval, they have not been critically evaluated for efficacy nor has their short- or long-term safety been fully studied.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "OTC products contain peptides, natural extracts, vitamins and in some cases prostaglandin analogs",
+          "quote": "and contain various ingredients such as “proprietary peptides”,natural extracts,vitamins,and prostaglandin analogs.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Causes of lash loss include alopecia areata, infection, thyroid disease, some medications, radiation or trauma",
+          "quote": "This condition, madrosis (also referred to as milphosis), can have numerous causes, including alopecia areata, infection (eg, leprosy), endocrine disease (eg, hypothyroidism), medications (eg, antimetabolites), radiation, or trauma.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Eyelash anagen lasts roughly one to two months and largely determines lash length",
+          "quote": "Anagen, the growth phase, is a time of rapid cell proliferation and differentiation and its duration, approximately one to two months, largely determines the length of eyelashes.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "About 41% of upper eyelash follicles active vs 84% of scalp follicles",
+          "quote": "While approximately 41% of upper eyelid eyelash follicles are active at any given time, 84% of scalp follicles meet the same criteria.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Bimatoprost first developed as a glaucoma drop, approved 2001 to lower eye pressure",
+          "quote": "was initially developed as an ocular antihypertensive and, in 2001, was approved for the reduction of elevated intraocular pressure (IOP) in patients with open-angle glaucoma or ocular hypertension.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Lash effect was a chance discovery; glaucoma-trial patients commonly reported eyelash growth, recorded as a side effect",
+          "quote": "was a serendipitous discovery based on observations of patients receiving the drug in trials that assessed the drug’s antihypertensive properties.In these trials, patients commonly reported eyelash changes, which were classified as adverse events.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Thicker, darker lashes from larger hair bulb and melanogenesis (with ref 3)",
+          "quote": "The effects of bimatoprost treatment on eyelash length, thickness, and darkness are believed to result from longer anagen duration, increased hair bulb thickness, and increased melanogenesis, respectively.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Pivotal trial enrolled 278 adults with minimal or moderate eyelash prominence",
+          "quote": "Briefly, the clinical trial enrolled 278 adults who had clinician-rated “minimal” or “moderate” eyelash prominence.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Mild redness, irritation or itching often seem self-limited and can improve with continued treatment",
+          "quote": "Other mild adverse events such as conjunctival hyperemia and ocular irritation or pruritus (presumed to be a prostaglandin effect) in many seem to be self-limited and symptoms can actually improve with continuation of treatment.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Skin pigmentation risk reduced by limiting contact of solution with skin",
+          "quote": "The risk of such pigmentary changes can be minimized by reducing contact of the medication with the skin.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Less frequent maintenance schedule not established; listed by a 2010 review as a topic for future investigation",
+          "quote": "Also still under speculation and yet another topic of future investigation is what alterations of the approved treatment schedule would still constitute effective treatment from the start or as maintenance once the eyelash prominence has reached a satisfactory endpoint.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Latanoprost for cosmetic use not FDA-approved; eyelid-margin latanoprost not evaluated in controlled trials (2010)",
+          "quote": "the safety and efficacy of dermal application of latanoprost ... for the purposes of eyelash growth have not been evaluated in controlled clinical trials. Furthermore, the use of these medications for aesthetic purposes is not approved by the FDA",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Glaucoma head-to-head trial: eyelash growth reported more often with bimatoprost than latanoprost as eye drops; not studied for eyelid-margin use",
+          "quote": "the incidence of the side effect of increased eyelash growth was significantly higher in patients treated with once-daily bimatoprost than in those treated with once-daily latanoprost.Whether such differences exist when the agents are applied cutaneously",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Glues for artificial lashes commonly contain methacrylate, which can cause allergic reactions",
+          "quote": "Artificial eyelashes are commonly secured using glues containing methacrylate, which can cause allergic reactions in susceptible patients.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "kind": "journal",
+      "cited_as": "Wester ST, Lee WW, Shi W. Eyelash growth from application of bimatoprost in gel suspension to the base of the eyelashes. Ophthalmology. 2010;117(5):1024-1031.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20163864/",
+      "pmid": "20163864",
+      "pmcid": "PMC2864326",
+      "doi": "10.1016/j.ophtha.2009.10.017",
+      "record_title": "Eyelash growth from application of bimatoprost in gel suspension to the base of the eyelashes.",
+      "record_journal": "Ophthalmology",
+      "record_year": "2010",
+      "article_type": "Randomized Controlled Trial",
+      "retrieved_with": "PubMed get_article_metadata",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice type. Abstract only. Claim narrowed from 'confirmed a comparable growth effect, supporting the mechanism' to the measured result.",
+      "claims": [
+        {
+          "text": "Small randomized study of 19 subjects, gel applied to lash base for 6 weeks",
+          "quote": "Nineteen subjects were enrolled. ... The suspension was applied to the upper eyelid eyelashes every evening on the designated eye for 6 weeks.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Mean lash growth 2.0 mm vs 1.1 mm with placebo",
+          "quote": "The mean eyelash growth from baseline in the bimatoprost group was 2.0 mm versus a mean of 1.1 mm in the placebo group, which was a statistically significant difference (P=0.009).",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "kind": "journal",
+      "cited_as": "Sugimoto M, Sugimoto M, Uji Y. Quantitative analysis of eyelash lengthening following topical latanoprost therapy. Can J Ophthalmol. 2002;37(6):342-345.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12422916/",
+      "pmid": "12422916",
+      "doi": "10.1016/s0008-4182(02)80004-7",
+      "record_title": "Quantitative analysis of eyelash lengthening following topical latanoprost therapy.",
+      "record_journal": "Can J Ophthalmol",
+      "record_year": "2002",
+      "article_type": "Journal Article",
+      "retrieved_with": "PubMed get_article_metadata",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice type. Abstract only. Not cited for off-label use or cost.",
+      "claims": [
+        {
+          "text": "Small study of 17 glaucoma patients measured longer lashes after latanoprost (latanoprost section, decision table)",
+          "quote": "Seventeen patients (11 men and 6 women aged 63 to 80 years) with glaucoma or ocular hypertension were treated with latanoprost",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Latanoprost lengthens eyelashes",
+          "quote": "Latanoprost significantly increases eyelash length.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "kind": "label",
+      "cited_as": "Allergan, Inc. (distributed by AbbVie Inc.). LATISSE (bimatoprost ophthalmic solution) 0.03%, for topical ophthalmic use. Full Prescribing Information. Revised 7/2024. DailyMed, label updated July 1, 2024. Accessed November 7, 2026.",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=34f83d9d-2c64-463e-8a90-9a460fedfead",
+      "version_or_date": "Revised: 7/2024; DailyMed 'Updated July 1, 2024' (read 2026-11-07)",
+      "retrieved_with": "Monid firecrawl /scrape of the DailyMed SPL page (basic proxy, live fetch, HTTP 200); WebFetch of the same page for header check",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "Replaces the rxabbvie.com PDF printed 'Revised 2022'. Label contains no price or insurance information, so cost and coverage claims no longer cite it. Table quotes (Table 2, Table 3) are cell values concatenated from the label tables; all other quotes verified verbatim against the saved page text.",
+      "claims": [
+        {
+          "text": "Latisse indicated to treat hypotrichosis of the eyelashes by increasing growth including length, thickness and darkness; 0.03% strength",
+          "quote": "LATISSE® (bimatoprost ophthalmic solution) 0.03% is indicated to treat hypotrichosis of the eyelashes by increasing their growth including length, thickness and darkness.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Bimatoprost is a synthetic prostaglandin analog",
+          "quote": "LATISSE® (bimatoprost ophthalmic solution) 0.03% is a synthetic prostaglandin analog.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Mechanism unknown; believed to increase percent of hairs in and duration of anagen",
+          "quote": "Although the precise mechanism of action is unknown, the growth of eyelashes is believed to occur by increasing the percent of hairs in, and the duration of the anagen or growth phase.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Length +25% vs 2%, thickness +106% vs 12%, darkness 18% vs 3% from baseline at week 16 (key takeaways, secondary endpoints, figure, citable summary)",
+          "quote": "Table 3, Week 16, LATISSE vs Vehicle: length 1.4; 25% vs 0.1; 2%. Fullness/thickness 0.7; 106% vs 0.1; 12%. Darkness -20.2; -18% vs -3.6; -3%",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "GEA is a 4-point scale; primary endpoint at least 1-grade increase at week 16",
+          "quote": "at least a 1-grade increase on the 4-point Global Eyelash Assessment (GEA) scale, from baseline to the end of the treatment period (week 16).",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "GEA responders by week: 5% vs 2% (wk 1), 15% vs 8% (wk 4), 50% vs 15% (wk 8), 69% vs 20% (wk 12), 78% vs 18% (wk 16), 79% vs 21% (wk 20); timeline text, table and chart",
+          "quote": "Table 2 (LATISSE/Vehicle): week 1 7 (5%)/3 (2%); 4 20 (15%)/11 (8%); 8 69 (50%)/21 (15%); 12 95 (69%)/28 (20%); 16 107 (78%)/26 (18%); 20 103 (79%)/27 (21%)",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Differences significant from week 8 onward; length, thickness and darkness significantly better at weeks 8, 12 and 16",
+          "quote": "Improvements from baseline in eyelash growth as measured by digital image analysis assessing eyelash length, fullness/thickness, and darkness were statistically significantly more pronounced in the bimatoprost group at weeks 8, 12, and 16.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Onset gradual, not significant in most patients until 2 months",
+          "quote": "The onset of effect is gradual but is not significant in the majority of patients until 2 months.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Eyelash growth expected to return to pre-treatment level after stopping",
+          "quote": "Upon discontinuation of treatment, eyelash growth is expected to return to its pre-treatment level.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Effects started to return toward baseline in the 4-week post-treatment period; week 20 was post-treatment",
+          "quote": "After the 16-week treatment period, a 4-week post-treatment period followed during which the effects of bimatoprost started to return toward baseline.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Once-nightly application directed by the label; continued nightly use",
+          "quote": "Inform patients that LATISSE® (bimatoprost ophthalmic solution) should be applied every night using only the accompanying sterile applicators.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Most common adverse reactions about 3% to 4%: eye pruritus, conjunctival hyperemia, skin hyperpigmentation",
+          "quote": "Most common adverse reactions (incidence approximately 3% to 4%) are eye pruritus, conjunctival hyperemia, and skin hyperpigmentation.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Adverse reactions in the 278-patient, 4-month trial: pruritus, hyperemia, skin hyperpigmentation, ocular irritation, dry eye, periorbital erythema, each under 4%",
+          "quote": "The most frequently reported adverse reactions were eye pruritus, conjunctival hyperemia, skin hyperpigmentation, ocular irritation, dry eye symptoms, and periorbital erythema. These reactions occurred in less than 4% of patients.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Adverse-event data come from the 278-patient trial",
+          "quote": "The following information is based on clinical trial results from a multicenter, double-masked, randomized, vehicle-controlled, parallel study including 278 adult patients for four months of treatment.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Increased brown iris pigmentation can occur and is likely to be permanent",
+          "quote": "Patients should be advised about the potential for increased brown iris pigmentation which is likely to be permanent",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Iris hyperpigmentation listed among adverse reactions seen in clinical trials",
+          "quote": "Additional adverse reactions seen in clinical trials experience include foreign body sensation, hair growth abnormal, and iris hyperpigmentation.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Iris change may not be noticeable for months to years; brown spreads from pupil outward and iris becomes more brownish",
+          "quote": "Iris color changes seen with administration of bimatoprost ophthalmic solution may not be noticeable for several months to years. Typically, the brown pigmentation around the pupil spreads concentrically towards the periphery of the iris",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Treatment can be continued in patients who develop increased iris pigmentation",
+          "quote": "Treatment with LATISSE® solution can be continued in patients who develop noticeably increased iris pigmentation.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Lid pigmentation increases with use and reverses after stopping in most patients",
+          "quote": "The pigmentation is expected to increase as long as bimatoprost is administered, but has been reported to be reversible upon discontinuation of bimatoprost in most patients.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Periorbital fat atrophy with sulcus deepening and ptosis in postmarketing reports",
+          "quote": "periorbital and lid changes associated with periorbital fat atrophy and skin tightness resulting in deepening of eyelid sulcus and eyelid ptosis",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Postmarketing frequency cannot be reliably estimated",
+          "quote": "it is not always possible to reliably estimate their frequency or establish a causal relationship to drug exposure.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Not a controlled substance",
+          "quote": "DEA Schedule: None",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "One drop on sterile applicator, applied along the upper eyelid margin at the lash base",
+          "quote": "place one drop of LATISSE® (bimatoprost ophthalmic solution) 0.03% on the disposable sterile applicator supplied with the package and apply evenly along the skin of the upper eyelid margin at the base of the eyelashes.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Reusing applicators increases contamination and infection risk; new applicator per eye",
+          "quote": "The accompanying sterile applicators should only be used on one eye and then discarded since reuse of applicators increases the potential for contamination and infections.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Clean face, makeup and contact lenses removed before nightly application",
+          "quote": "Ensure the face is clean, makeup and contact lenses are removed.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Blot excess; repeated skin contact can cause hair growth outside the treatment area",
+          "quote": "There is the potential for hair growth to occur in areas where LATISSE® solution comes in repeated contact with the skin surface.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Do not apply to the lower eyelash line",
+          "quote": "Do not apply to the lower eyelash line",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Solution in the eye will not cause harm; do not rinse",
+          "quote": "If any LATISSE® solution gets into the eye proper, it will not cause harm. The eye should not be rinsed.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Additional applications will not increase eyelash growth (do not double up)",
+          "quote": "Additional applications of LATISSE® will not increase the growth of eyelashes.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Contact lenses: benzalkonium chloride may be absorbed by and discolor soft lenses; remove before and reinsert after 15 minutes",
+          "quote": "LATISSE® contains benzalkonium chloride, which may be absorbed by and cause discoloration of soft contact lenses. Contact lenses should be removed prior to application of solution and may be reinserted 15 minutes following its administration.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Users of prostaglandin eye drops for eye pressure should consult their physician first and be monitored",
+          "quote": "Patients using prostaglandin analogs including LUMIGAN®for IOP reduction should only use LATISSE® after consulting with their physician and should be monitored for changes to their intraocular pressure.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Concomitant Latisse may interfere with the pressure-lowering effect",
+          "quote": "the concomitant use of LATISSE® may interfere with the desired reduction in IOP.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Contraindicated with hypersensitivity to bimatoprost or any ingredient",
+          "quote": "LATISSE® is contraindicated in patients with hypersensitivity to bimatoprost or to any of the ingredients",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Caution with active intraocular inflammation such as uveitis",
+          "quote": "LATISSE® solution should be used with caution in patients with active intraocular inflammation (e.g., uveitis) because the inflammation may be exacerbated.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Macular edema reported with bimatoprost glaucoma drops",
+          "quote": "Macular edema, including cystoid macular edema, has been reported during treatment with bimatoprost ophthalmic solution (LUMIGAN®) for elevated IOP.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Caution in aphakia, pseudophakia with torn posterior capsule, or macular edema risk factors",
+          "quote": "LATISSE®should be used with caution in aphakic patients, in pseudophakic patients with a torn posterior lens capsule, or in patients with known risk factors for macular edema.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "No adequate well-controlled studies in pregnancy; no increased birth-defect or miscarriage risk in postmarketing experience",
+          "quote": "There are no adequate and well-controlled studies of LATISSE® (bimatoprost ophthalmic solution) 0.03% administration in pregnant women. There is no increase in the risk of major birth defects or miscarriages based on bimatoprost postmarketing experience.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Use in pregnancy only if benefit justifies risk",
+          "quote": "LATISSE®0.03% should be administered during pregnancy only if the potential benefit justifies the potential risk to the fetus.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Unknown whether it appears in human milk",
+          "quote": "It is not known whether topical ocular treatment with LATISSE®0.03% could result in sufficient systemic absorption to produce detectable quantities in human milk.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Pediatric 16-week study, including post-chemotherapy patients, no new safety issues",
+          "quote": "Use of LATISSE® was evaluated in a sixteen-week double-masked, randomized, vehicle-controlled study conducted in pediatric patients who were post-chemotherapy or had alopecia areata",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Post-chemotherapy pediatric group: 85% Latisse vs 100% vehicle improved",
+          "quote": "| Post Chemotherapy Pediatric Patients (N=16) | 5 - 17 | 11/13 (85%) | 3/3 (100%) | -15% (-35%, 4%) |",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Supplied as 3 mL with 70 applicators or 5 mL with 140 applicators",
+          "quote": "3 mL in a 5 mL bottle with 70 applicators NDC 0023-3616-70 5 mL in a 5 mL bottle with 140 applicators",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Seek physician advice after a new eye condition, sudden vision decrease, eye surgery or any eye reaction (red flags; active eye conditions)",
+          "quote": "if they develop a new ocular condition (e.g., trauma or infection), experience a sudden decrease in visual acuity, have ocular surgery, or develop any ocular reactions, particularly conjunctivitis and eyelid reactions, they should immediately seek their physician’s advice",
+          "quote_source": "label",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "kind": "journal",
+      "cited_as": "Wolf R, Matz H, Zalish M, Pollack A, Orion E. Prostaglandin analogs for hair growth: great expectations. Dermatol Online J. 2003;9(3):7.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12952754/",
+      "pmid": "12952754",
+      "record_title": "Prostaglandin analogs for hair growth: great expectations.",
+      "record_journal": "Dermatol Online J",
+      "record_year": "2003",
+      "article_type": "Journal Article",
+      "retrieved_with": "PubMed get_article_metadata",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice type. No DOI in PubMed record. Abstract only. No longer cited for receptor pathways or head-to-head data.",
+      "claims": [
+        {
+          "text": "Latanoprost reported to stimulate eyelash growth in glaucoma patients",
+          "quote": "Latanoprost, a prostaglandin analog, has been reported to stimulate eyelash growth in patients using it in eye preparations for glaucoma",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Prostaglandin analogs raised as possible future treatments for other hair loss",
+          "quote": "Will prostaglandin analogs be the next agents used for forms of alopecia?",
+          "quote_source": "abstract",
+          "verdict": "partly_supported"
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "kind": "journal",
+      "cited_as": "Beer KR, Julius H, Dunn M, Wilson F. Treatment of eyebrow hypotrichosis using bimatoprost: a randomized, double-blind, vehicle-controlled pilot study. Dermatol Surg. 2013;39(7):1079-1087.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23617229/",
+      "pmid": "23617229",
+      "doi": "10.1111/dsu.12199",
+      "record_title": "Treatment of eyebrow hypotrichosis using bimatoprost: a randomized, double-blind, vehicle-controlled pilot study.",
+      "record_journal": "Dermatol Surg",
+      "record_year": "2013",
+      "article_type": "Randomized Controlled Trial",
+      "retrieved_with": "PubMed get_article_metadata",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice type. Abstract only.",
+      "claims": [
+        {
+          "text": "Randomized pilot of 20 people with mild to moderate eyebrow hypotrichosis",
+          "quote": "Subjects (n = 20) with mild to moderate eyebrow hypotrichosis enrolled in the study.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Daily bimatoprost improved eyebrow appearance more than vehicle; earlier smaller pilot reported similar improvement (FAQ)",
+          "quote": "Bimatoprost 0.03% ophthalmic solution applied daily for 9 months improves the appearance of eyebrows noticeably more than vehicle, without side effects.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "kind": "journal",
+      "cited_as": "Peplinski LS, Albiani Smith K. Deepening of lid sulcus from topical bimatoprost therapy. Optom Vis Sci. 2004;81(8):574-577.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/15300114/",
+      "pmid": "15300114",
+      "doi": "10.1097/01.opx.0000141791.16683.4a",
+      "record_title": "Deepening of lid sulcus from topical bimatoprost therapy.",
+      "record_journal": "Optom Vis Sci",
+      "record_year": "2004",
+      "article_type": "Case Reports",
+      "retrieved_with": "PubMed get_article_metadata",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice type. Abstract only; three patients.",
+      "claims": [
+        {
+          "text": "Lid sulcus deepening with bimatoprost glaucoma therapy",
+          "quote": "In each of the three reported patients, alteration of eyelid appearance with deepening of the lid sulcus was evident as the result of topical bimatoprost therapy.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "First described in glaucoma patients using bimatoprost drops",
+          "quote": "This appears to be the first such report in the literature.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "kind": "journal",
+      "cited_as": "Ahluwalia GS. Safety and efficacy of bimatoprost solution 0.03% topical application in patients with chemotherapy-induced eyelash loss. J Investig Dermatol Symp Proc. 2013;16(1):S73-S76.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24326568/",
+      "pmid": "24326568",
+      "doi": "10.1038/jidsymp.2013.30",
+      "record_title": "Safety and efficacy of bimatoprost solution 0.03% topical application in patients with chemotherapy-induced eyelash loss.",
+      "record_journal": "J Investig Dermatol Symp Proc",
+      "record_year": "2013",
+      "article_type": "Journal Article; Randomized Controlled Trial",
+      "retrieved_with": "PubMed get_article_metadata",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice type. Abstract only; author affiliated with Allergan. No longer cited for pediatric oncology use (the abstract does not mention children); pediatric data now come from the label (ref 9).",
+      "claims": [
+        {
+          "text": "Eyelash loss after chemotherapy is a recognized, distressing consequence",
+          "quote": "Few dermatologic conditions carry as much anxiety and emotional distress as hair loss resulting from a disease condition such as alopecia areata or as a result of cytotoxic drug treatment, e.g., after chemotherapy.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Randomized, double-masked, placebo-controlled study: bimatoprost restored lash growth faster than natural recovery on vehicle",
+          "quote": "Once-daily treatment with bimatoprost ophthalmic solution 0.03% to the upper eyelid margin restored eyelash growth and prominence more quickly than the slower, natural course of recovery observed in the vehicle control subjects.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "kind": "journal",
+      "cited_as": "Glaser DA, Hossain P, Perkins W, Griffiths T, et al. Long-term safety and efficacy of bimatoprost solution 0.03% application to the eyelid margin for the treatment of idiopathic and chemotherapy-induced eyelash hypotrichosis: a randomized controlled trial. Br J Dermatol. 2015;172(5):1384-1394.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25296533/",
+      "pmid": "25296533",
+      "pmcid": "PMC4832276",
+      "doi": "10.1111/bjd.13443",
+      "record_title": "Long-term safety and efficacy of bimatoprost solution 0·03% application to the eyelid margin for the treatment of idiopathic and chemotherapy-induced eyelash hypotrichosis: a randomized controlled trial.",
+      "record_journal": "Br J Dermatol",
+      "record_year": "2015",
+      "article_type": "Randomized Controlled Trial; Multicenter Study",
+      "retrieved_with": "PubMed get_article_metadata",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice type. Abstract only. Corrected: trial ran 12 months of daily use (not 'multiple years'), did not test every-other-night dosing, and found effects lasted about 2 months and were markedly diminished 4 to 6 months after stopping in idiopathic hypotrichosis (replacing the unsourced '8 to 12 weeks').",
+      "claims": [
+        {
+          "text": "Effect in idiopathic hypotrichosis lasted about 2 months after stopping and was markedly diminished 4 to 6 months after stopping",
+          "quote": "Treatment effects were maintained for approximately 2 months but markedly diminished 4-6 months following treatment cessation in patients with idiopathic hypotrichosis.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "12 months of daily use effective and well tolerated",
+          "quote": "Daily treatment with bimatoprost ophthalmic solution 0·03% for 1 year was effective and well tolerated in patients with idiopathic and chemotherapy-induced hypotrichosis.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Effect seen by month 6 maintained or enhanced at 12 months",
+          "quote": "Efficacy by month 6 was maintained (idiopathic) or enhanced (postchemotherapy) at 12 months.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "No drug-related serious adverse events",
+          "quote": "No drug-related serious adverse events were reported.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Randomized evidence in idiopathic and chemotherapy-related hypotrichosis",
+          "quote": "The primary efficacy end point was met in both populations (idiopathic responder rate was 40·2% for bimatoprost vs. 6·8% for vehicle; postchemotherapy responder rate was 37·5% for bimatoprost vs. 18·2% for vehicle).",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 15,
+      "kind": "journal",
+      "cited_as": "Carruthers J, Beer K, Carruthers A, Coleman WP 3rd, Draelos ZD, Jones D, Goldman MP, Pucci ML, VanDenburgh A, Weng E, Whitcup SM. Bimatoprost 0.03% for the Treatment of Eyebrow Hypotrichosis. Dermatol Surg. 2016;42(5):608-617.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5414776/",
+      "pmid": "27124878",
+      "pmcid": "PMC5414776",
+      "doi": "10.1097/DSS.0000000000000755",
+      "record_title": "Bimatoprost 0.03% for the Treatment of Eyebrow Hypotrichosis.",
+      "record_journal": "Dermatol Surg",
+      "record_year": "2016",
+      "article_type": "Randomized Controlled Trial; Multicenter Study",
+      "retrieved_with": "PubMed get_article_metadata; PubMed get_full_text_article (PMC5414776)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice type. Full text read; it states n=357 and describes the study as Phase 3. Eligibility: aged 18 years or older.",
+      "claims": [
+        {
+          "text": "Phase 3, randomized, vehicle-controlled eyebrow trial of 357 adults",
+          "quote": "A total of 357 subjects were enrolled in this study ... This first large, Phase 3, randomized, vehicle-controlled study in subjects with eyebrow hypotrichosis",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Once or twice daily for 7 months improved fullness and darkness from months 2 and 1; no skin or iris hyperpigmentation or conjunctival hyperemia",
+          "quote": "eyebrow fullness and darkness improved as early as Months 2 and 1, respectively (both,< .001). ... No skin or iris hyperpigmentation or conjunctival hyperemia occurred.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 16,
+      "kind": "label",
+      "cited_as": "Viatris Specialty LLC. XALATAN (latanoprost ophthalmic solution) 0.005%. Full Prescribing Information. Revised 5/2023. DailyMed, label updated May 15, 2023. Accessed November 7, 2026.",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a98595b3-9f47-48e0-b18d-550a2095f264",
+      "version_or_date": "Revised: 5/2023; DailyMed 'Updated May 15, 2023' (read 2026-11-07)",
+      "retrieved_with": "DailyMed search via WebFetch to find the set id; Monid firecrawl /scrape of the DailyMed SPL page (basic proxy, maxAge 0, HTTP 200)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "New reference added to source latanoprost's approved indication, strength and eyelash effects.",
+      "claims": [
+        {
+          "text": "Latanoprost approved to lower elevated eye pressure in open-angle glaucoma or ocular hypertension",
+          "quote": "XALATAN is indicated for the reduction of elevated intraocular pressure (IOP) in patients with open-angle glaucoma or ocular hypertension.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Latanoprost strength 0.005%",
+          "quote": "Ophthalmic solution containing latanoprost 50 mcg/mL (0.005%).",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Latanoprost label lists gradual eyelash changes including increased length, thickness and number of lashes",
+          "quote": "XALATAN may gradually change eyelashes and vellus hair in the treated eye; these changes include increased length, thickness, pigmentation, the number of lashes or hairs, and misdirected growth of eyelashes.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Latanoprost is a prescription glaucoma eye drop (decision table)",
+          "quote": "HUMAN PRESCRIPTION DRUG LABEL",
+          "quote_source": "label",
+          "verdict": "supported"
+        }
+      ]
+    }
+  ]
+}
