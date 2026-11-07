@@ -1,0 +1,956 @@
+{
+  "guide": "altitude-sickness-prevention-guide",
+  "checked_at": "2026-11-07",
+  "checked_by": "Claude (repair run)",
+  "scite_verify_papers": "unavailable (quota exhausted until 2026-11-14); retraction status from PubMed article types",
+  "references": [
+    {
+      "n": 1,
+      "cited_as": "Luks AM, Beidleman BA, Freer L, et al. \"Wilderness Medical Society Clinical Practice Guidelines for the Prevention, Diagnosis, and Treatment of Acute Altitude Illness: 2024 Update.\" Wilderness & Environmental Medicine. 35(1_suppl):2S–19S. Published online December 27, 2023. PMID 37833187.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37833187/",
+      "kind": "guideline",
+      "pmid": "37833187",
+      "doi": "10.1016/j.wem.2023.05.013",
+      "record_title": "Wilderness Medical Society Clinical Practice Guidelines for the Prevention, Diagnosis, and Treatment of Acute Altitude Illness: 2024 Update.",
+      "record_journal": "Wilderness Environ Med",
+      "record_year": "2023",
+      "article_type": "Journal Article",
+      "version_or_date": "2024 Update; 35(1_suppl):2S-19S; PubMed publication date 2023-12-27",
+      "retrieved_with": "PubMed get_article_metadata (abstract only; publisher full text not retrievable)",
+      "notes": "Retraction check: the PubMed record (PMID 37833187) lists article type Journal Article only, with no Retracted Publication or Retraction Notice type, so the guideline is treated as not retracted; the Nov 6 Scite retraction/withdrawal flag was not confirmed. scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice. Link changed from journals.sagepub.com (blocked automated read in the audit) to the PubMed record. Year corrected: printed 2024;35(1):3-20, PubMed gives 35(1_suppl):2S-19S, online 2023-12-27. Abstract only, so specific recommendations in the guide are now cited to the WMS 2024 Altitude Summary [12], the CDC Yellow Book [2] or the 2025 appraisal [19].",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "WMS 2024 guideline was written by an expert panel that grades each recommendation by quality of supporting evidence",
+          "quote": "the Wilderness Medical Society (WMS) convened an expert panel to develop evidence-based guidelines ... Recommendations are graded based on the quality of supporting evidence and the balance between the benefits and risks/burdens",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "cited_as": "Hackett PH, Shlim DR. \"High-Altitude Travel and Altitude Illness.\" In: CDC Yellow Book 2026: Health Information for International Travel. Centers for Disease Control and Prevention. Page dated April 23, 2025. Accessed November 7, 2026.",
+      "url": "https://www.cdc.gov/yellow-book/hcp/environmental-hazards-risks/high-altitude-travel-and-altitude-illness.html",
+      "kind": "agency_page",
+      "version_or_date": "CDC Yellow Book 2026 edition; page dated Apr. 23, 2025",
+      "retrieved_with": "WebFetch of official page (verbatim excerpts requested)",
+      "notes": "Chapter authors confirmed as Peter H. Hackett and David R. Shlim. Pregnancy limit corrected to 3,050 m (10,000 ft). HAPE 'leading cause of altitude death' cut (page says HAPE can be more rapidly fatal than HACE). 30-40% AMS at 2,500-3,000 m cut. Lhasa 'routinely above 50%' replaced by the page's 'approaching 50%' for rapid air ascent above 3,400 m.",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "inspired PO2 at about 3,050 m is 69% of sea level; acute exposure can lower SpO2 to 88-91%",
+          "quote": "At around 3,050 m (approximately 10,000 ft), for example, the inspired PO2 is only 69% of that at sea level; acute exposure to this reduced PO2 can lower arterial oxygen saturation to 88–91%.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "about 25% of visitors sleeping above 2,450 m in Colorado develop AMS",
+          "quote": "AMS is the most common form of altitude illness, affecting, for example, 25% of all visitors sleeping at altitudes >2,450 m (>8,000 ft) in Colorado.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "training and physical fitness do not affect risk; susceptibility partly genetic, no simple screening test",
+          "quote": "Susceptibility and resistance to altitude illness are, in part, genetically determined traits, but there are no simple screening tests to predict risk. Training and physical fitness do not affect risk.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "children as susceptible as adults; people over 50 slightly less risk",
+          "quote": "Children are as susceptible as adults; people aged >50 years have slightly less risk.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "prior response to altitude is the most reliable guide for future trips if altitude and ascent rate are similar",
+          "quote": "How a traveler previously responded to high altitude is the most reliable guide for future trips",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "AMS generally resolves within 12-48 hours without further ascent",
+          "quote": "AMS generally resolves within 12–48 hours if travelers do not ascend farther.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "HACE is considered end-stage AMS",
+          "quote": "As an encephalopathy, HACE is considered \"end-stage\" AMS.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "HAPE can occur alone or with AMS/HACE and can be more rapidly fatal than HACE",
+          "quote": "HAPE can occur by itself or in conjunction with AMS and HACE ... Early diagnosis is key; HAPE can be more rapidly fatal than HACE.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "HAPE initial symptoms: chest congestion, cough, dyspnea on exertion, decreased exercise performance",
+          "quote": "Initial symptoms include chest congestion, cough, exaggerated dyspnea on exertion, and decreased exercise performance.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "HAPE: descent urgent and mandatory",
+          "quote": "descent is urgent and mandatory.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "risk table (assumes start below 1,200 m): history, day-1 sleeping altitude, ascent rate rows with low/medium/high cells",
+          "quote": "Table 3.5.1: Risk categories for developing acute mountain sickness (AMS)* ... *Assumes starting altitude <1,200 m (<4,000 ft) ... Sleeping altitude on day 1 ... 2,750–3,400 m (9,000–11,150 ft) ... >3,400 m (>11,150 ft)",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "risk category recommendations: low not indicated; medium consider; high strongly encourage and carry dexamethasone",
+          "quote": "Low risk: Acetazolamide prophylaxis is not indicated. Medium risk: Acetazolamide prophylaxis would be beneficial; consider its use. High risk: Strongly encourage acetazolamide prophylaxis, and have the traveler carry dexamethasone for emergency use.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "pre-existing conditions table: sickle cell trait caution; sickle cell anemia contraindication; pulmonary hypertension mild caution, PASP >60 contraindication; CAD revascularized no extra risk, non-revascularized caution; MI/stroke <90 days contraindication; COPD moderate caution, severe contraindication",
+          "quote": "Caution Required ... Sickle cell trait ... Pulmonary hypertension (mild) ... Coronary artery disease (non-revascularized) ... Chronic obstructive pulmonary disease (moderate); Contraindications ... Sickle cell anemia ... Pulmonary hypertension (pulmonary artery systolic pressure >60 mm Hg)",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "staging 2-3 nights at 2,450-2,750 m markedly protective",
+          "quote": "acclimatizing for a minimum of 2–3 nights at around 2,450 to approximately 2,750 m (8,000–9,000 ft) before proceeding to a higher altitude is markedly protective against acute mountain sickness (AMS).",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "never ascend to sleep higher with symptoms; descend if worse despite rest or treatment",
+          "quote": "Never ascend to sleep at a higher altitude when experiencing symptoms of altitude illness ... Descend if the symptoms become worse despite rest or treatment at the same elevation.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "AMS improves rapidly with descent of 300 m (1,000 ft) or more",
+          "quote": "AMS improves rapidly with a descent of 300 m (1,000 ft) or more.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "periodic breathing nearly universal above about 2,700 m",
+          "quote": "Above approximately 2,700 m (9,000 ft), some degree of periodic breathing becomes nearly universal and can interrupt sleep.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "avoid alcohol for first 48 hours; alcohol and opiates not to aid sleep; mild exercise only for first 48 hours",
+          "quote": "Avoid alcohol for the first 48 hours at high altitude. ... Respiratory depressants such as alcohol and opiates should not be used to aid sleep ... Participate in only mild exercise for the first 48 hours at altitude.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "acetazolamide 125 mg every 12 h starting day before ascent, continue first two days, longer if ascent continues",
+          "quote": "An effective dose for prophylaxis that minimizes the common side effects of paresthesia is 125 mg every 12 hours, beginning the day before ascent and continuing the first two days at altitude, and longer if ascent continues.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "pediatric prevention dose 1.25 mg/kg every 12 h up to 125 mg",
+          "quote": "Pediatric: 1.25 mg/kg every 12 hours, up to 125 mg",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "carbonated drinks taste different with acetazolamide",
+          "quote": "This allows the person to taste the carbon dioxide on their tongue, altering the taste of the drink.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "cross-sensitivity not reported; people allergic to sulfa antibiotics can take acetazolamide",
+          "quote": "Acetazolamide is a sulfonamide derivative, but cross-sensitivity between antimicrobial sulfonamides and acetazolamide, a non-antimicrobial sulfonamide, has not been reported. Thus, people allergic to sulfa antibiotics can take acetazolamide.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "dexamethasone mild rebound if stopped before acclimatization",
+          "quote": "if the drug is discontinued at altitude before acclimatization, mild rebound can occur",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "HACE dexamethasone 8 mg once then 4 mg every 6 hours",
+          "quote": "HACE: 8 mg once, then 4 mg every 6 hours",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "pregnancy: no reports of fetal harm with brief travel; prudent to avoid sleeping above 3,050 m; confirm good maternal health and low-risk gestation",
+          "quote": "There are no studies or case reports describing fetal harm among women who briefly travel to high altitude during their pregnancy. Nevertheless, healthcare professionals might be prudent to recommend that pregnant women do not stay at sleeping altitudes >3,050 m",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Cusco about 3,350 m, La Paz about 3,650 m, Lhasa about 3,700 m",
+          "quote": "Cusco, Peru (approximately 3,350 m; 11,000 ft) ... La Paz, Bolivia (approximately 3,650 m; 12,000 ft) ... Lhasa, Tibet Autonomous Region (approximately 3,700 m; 12,100 ft)",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "rapid air ascent above 3,400 m: altitude illness rates approaching 50%, low threshold for chemoprophylaxis",
+          "quote": "Some common high-altitude destinations require rapid ascent by airplane to >11,150 ft (>3,400 m). ... With rates of altitude illness approaching 50% in these situations, a low threshold for chemoprophylaxis is advised.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Cusco/La Paz: sleep 1-2 nights below airport elevation, perhaps avoiding need for medication",
+          "quote": "In some cases (e.g., Cusco and La Paz), travelers can descend to elevations lower than the airport to sleep for 1–2 nights and then begin their ascent, perhaps obviating the need for medication.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Everest base camp itineraries push limits of acclimatization",
+          "quote": "particularly Everest base camp, push the limits of many people's ability to acclimatize",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "SpO2 at altitude read against expected range for that altitude",
+          "quote": "Figure 3.5.1 shows the expected range of SpO2 for a given altitude.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "extra acclimatization day for every additional 1,000 m (CDC framing, used in risk table text)",
+          "quote": "plan an extra day of acclimatization for every additional 1,000 m (3,300 ft)",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "cited_as": "Basnyat B, Gertsch JH, Johnson EW, et al. \"Efficacy of low-dose acetazolamide (125 mg BID) for the prophylaxis of acute mountain sickness: a prospective, double-blind, randomized, placebo-controlled trial.\" High Altitude Medicine & Biology. 2003;4(1):45–52.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12713711/",
+      "kind": "journal",
+      "pmid": "12713711",
+      "doi": "10.1089/152702903321488979",
+      "record_title": "Efficacy of low-dose acetazolamide (125 mg BID) for the prophylaxis of acute mountain sickness: a prospective, double-blind, randomized, placebo-controlled trial.",
+      "record_journal": "High Alt Med Biol",
+      "record_year": "2003",
+      "article_type": "Clinical Trial; Journal Article; Randomized Controlled Trial",
+      "retrieved_with": "PubMed get_article_metadata",
+      "notes": "scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice. 'Started the night before ascent' is no longer attributed to this trial.",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "125 mg BID lowered AMS from 24.7% to 12.2%, 50.6% RRR, NNT 8, Pheriche 4,243 m to Lobuje 4,937 m",
+          "quote": "between Pheriche (4243 m) ... and Lobuje (4937 m) ... placebo group, 24.7% ... acetazolamide group, 12.2% ... Prophylaxis with acetazolamide conferred a 50.6% relative risk reduction, and the number needed to treat ... was 8.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "cited_as": "Gao D, Wang Y, Zhang R, Zhang Y. \"Efficacy of acetazolamide for the prophylaxis of acute mountain sickness: A systematic review, meta-analysis, and trial sequential analysis of randomized clinical trials.\" Annals of Thoracic Medicine. 2021;16(4):337–346.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8588948/",
+      "kind": "journal",
+      "pmid": "34820021",
+      "pmcid": "PMC8588948",
+      "doi": "10.4103/atm.atm_651_20",
+      "record_title": "Efficacy of acetazolamide for the prophylaxis of acute mountain sickness: A systematic review, meta-analysis, and trial sequential analysis of randomized clinical trials.",
+      "record_journal": "Ann Thorac Med",
+      "record_year": "2021",
+      "article_type": "Journal Article",
+      "retrieved_with": "PubMed get_article_metadata; PubMed get_full_text_article (PMC)",
+      "notes": "scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice. Kilimanjaro 5-10% summit-success claim cut (not in source).",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "mechanism: renal carbonic anhydrase inhibition, bicarbonate wasting, metabolic acidosis, chemoreceptors respond more to hypoxia",
+          "quote": "inhibition of renal carbonic anhydrase that induces urinary bicarbonate wasting diuresis, resultant metabolic acidosis, cerebrospinal fluid bicarbonate decrease and ensuing fall in fluid pH that stimulates the central chemoreceptors to respond more fully to hypoxic stimuli.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "22 trials; 125/250/375 mg BID all reduced AMS; no association between efficacy and dose",
+          "quote": "A total of 22 trials were included. Acetazolamide at 125, 250, and 375 mg/bid significantly reduced incidence of AMS compared to placebo. ... There was no evidence of an association between efficacy and dose of acetazolamide",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "acetazolamide roughly halves AMS incidence (RR 0.51)",
+          "quote": "acetazolamide treatment significantly reduced the incidence of AMS compared with placebo, with a RR of 0.51",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "cited_as": "Lipman GS, Kanaan NC, Holck PS, et al. \"Ibuprofen prevents altitude illness: a randomized controlled trial for prevention of altitude illness with nonsteroidal anti-inflammatories.\" Annals of Emergency Medicine. 2012;59(6):484–490.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22440488/",
+      "kind": "journal",
+      "pmid": "22440488",
+      "doi": "10.1016/j.annemergmed.2012.01.019",
+      "record_title": "Ibuprofen prevents altitude illness: a randomized controlled trial for prevention of altitude illness with nonsteroidal anti-inflammatories.",
+      "record_journal": "Ann Emerg Med",
+      "record_year": "2012",
+      "article_type": "Journal Article; Randomized Controlled Trial",
+      "retrieved_with": "PubMed get_article_metadata",
+      "notes": "scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice. Title corrected to the PubMed title. 'ASCENT' trial name cut (not in record).",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "ibuprofen 600 mg three times daily, started 6 h before ascent 1,240 m to 3,810 m, White Mountains; 43% vs 69%, OR 0.3, NNT 3.9",
+          "quote": "randomized to ibuprofen 600 mg or placebo 3 times daily, starting 6 hours before ascent from 1,240 m (4,100 ft) to 3,810 m (12,570 ft) during July and August 2010 in the White Mountains of California.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "43% vs 69%, OR 0.3, NNT 3.9",
+          "quote": "Fewer participants in the ibuprofen group (43%) developed acute mountain sickness compared with those receiving placebo (69%) (odds ratio 0.3, 95% confidence interval 0.1 to 0.8; number needed to treat 3.9",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "cited_as": "Platt D, Griggs RC. \"Use of acetazolamide in sulfonamide-allergic patients with neurologic channelopathies.\" Archives of Neurology. 69(4):527–529. Published online December 12, 2011. PMC3785308.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3785308/",
+      "kind": "journal",
+      "pmid": "22158718",
+      "pmcid": "PMC3785308",
+      "doi": "10.1001/archneurol.2011.2723",
+      "record_title": "Use of acetazolamide in sulfonamide-allergic patients with neurologic channelopathies.",
+      "record_journal": "Arch Neurol",
+      "record_year": "2011",
+      "article_type": "Case Reports; Journal Article",
+      "retrieved_with": "PubMed get_article_metadata; PubMed get_full_text_article (PMC)",
+      "notes": "scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice. Now described as a 3-patient case report; no longer used for population-wide 'most people' or WMS contraindication wording.",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "most sulfonamide antibiotic hypersensitivity from N4 metabolites; nonantibiotic sulfonamides lack N4 amine",
+          "quote": "most hypersensitivity reactions result from hydroxylation at the N4 position by CYP2C9.Because nonantibiotic sulfonamides do not contain an N4 amine group, they do not produce these reactive metabolites",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "carbonic anhydrase inhibitors are nonsulfonylarylamines without the N4 amine; antibiotics like sulfamethoxazole have it",
+          "quote": "the nonsulfonylarylamines, which have a sulfonamide group attached to a cyclic structure without the amine moiety at the N4 position (carbonic anhydrase inhibitors",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "three patients with prior severe skin rash from sulfonamide antibiotics took acetazolamide without adverse reaction",
+          "quote": "all of whom had a history of severe skin rash with the use of sulfonamides for treatment of infection. ... All 3 patients were prescribed acetazolamide and had no adverse reaction.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "cited_as": "Lee AG, Anderson R, Kardon RH, Wall M. \"Presumed 'sulfa allergy' in patients with intracranial hypertension treated with acetazolamide or furosemide: cross-reactivity, myth or reality?\" American Journal of Ophthalmology. 2004;138(1):114–118.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/15234289/",
+      "kind": "journal",
+      "pmid": "15234289",
+      "doi": "10.1016/j.ajo.2004.02.019",
+      "record_title": "Presumed \"sulfa allergy\" in patients with intracranial hypertension treated with acetazolamide or furosemide: cross-reactivity, myth or reality?",
+      "record_journal": "Am J Ophthalmol",
+      "record_year": "2004",
+      "article_type": "Journal Article",
+      "retrieved_with": "PubMed get_article_metadata",
+      "notes": "scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice. Described as a retrospective case series (not a review); 'no evidence' corrected to 'little evidence ... life-threatening cross-reaction'.",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "34-patient retrospective case series: little evidence of life-threatening cross-reaction; 2 of 27 urticaria; none severe",
+          "quote": "We find little clinical or pharmacological evidence to suggest that a self-reported sulfa allergy is likely to produce a life-threatening cross-reaction with acetazolamide or furosemide.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "2 of 27 acetazolamide patients had urticaria; no severe allergic cross-reaction",
+          "quote": "Of the 27 patients who received acetazolamide, 10 (37%) had no documented allergic cross-reaction to sulfa, and 2 (7%) cases had urticaria. ... No patient experienced a severe allergic cross-reaction to sulfa.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "cited_as": "Gertsch JH, Basnyat B, Johnson EW, Onopa J, Holck PS. \"Randomised, double blind, placebo controlled comparison of ginkgo biloba and acetazolamide for prevention of acute mountain sickness among Himalayan trekkers: the prevention of high altitude illness trial (PHAIT).\" BMJ. 2004;328(7443):797.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC383373/",
+      "kind": "journal",
+      "pmid": "15070635",
+      "pmcid": "PMC383373",
+      "doi": "10.1136/bmj.38043.501690.7C",
+      "record_title": "Randomised, double blind, placebo controlled comparison of ginkgo biloba and acetazolamide for prevention of acute mountain sickness among Himalayan trekkers: the prevention of high altitude illness trial (PHAIT).",
+      "record_journal": "BMJ",
+      "record_year": "2004",
+      "article_type": "Clinical Trial; Comparative Study; Journal Article; Randomized Controlled Trial",
+      "retrieved_with": "PubMed get_article_metadata (PMC full text returned empty; abstract used)",
+      "notes": "scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice. Combination 'NNH 9' headache claim cut (not in abstract).",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "614 trekkers (487 completed); ginkgo not different from placebo; AMS 34% placebo, 12% acetazolamide 250 mg BID, 35% ginkgo, 14% combination",
+          "quote": "614 healthy western trekkers (487 completed the trial) ... Ginkgo was not significantly different from placebo for any outcome ... 34% for placebo, 12% for acetazolamide ... 35% for ginkgo ... and 14% for combined ginkgo and acetazolamide",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "acetazolamide clearly protective; acetazolamide 250 mg twice daily",
+          "quote": "When compared with placebo, ginkgo is not effective at preventing acute mountain sickness. Acetazolamide 250 mg twice daily afforded robust protection against symptoms of acute mountain sickness.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "cited_as": "Clark ST, Sheraton M. \"EMS High-Altitude Field Prophylaxis And Treatment.\" In: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing. Last update July 17, 2023.",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK560677/",
+      "kind": "other_web",
+      "version_or_date": "StatPearls, Last Update: July 17, 2023",
+      "retrieved_with": "WebFetch of official page (NCBI Bookshelf)",
+      "notes": "Authors and title confirmed on page.",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "immediate evacuation definitive treatment for severe AMS and HACE",
+          "quote": "Immediate evacuation to a lower altitude is the definitive treatment for both Severe AMS and HACE.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "ataxia earliest HACE finding, may progress to lethargy, altered mental status, seizures",
+          "quote": "Ataxia is typically the earliest finding which may progress to lethargy, alteration of mental status, or even seizures.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "HACE symptoms resolve after 1,000 to 3,000 ft drop",
+          "quote": "symptoms resolve after 1,000 ft to 3,000 ft drop in altitude.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "HACE dexamethasone 8 mg then 4 mg every 6 h PO/IM/IV, used with evacuation or while waiting",
+          "quote": "Dexamethasone (initial 8mg PO, IM, or IV followed in 6 hours by 4mg PO, IM, or IV every 6 hours) ... dexamethasone should be used in conjunction with evacuation or while waiting for it.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "portable hyperbaric chamber for severe AMS and HACE when evacuation delayed",
+          "quote": "These portable chambers are indicated for severe AMS and HACE when evacuation is delayed.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "evacuation definitive for HAPE; medications with descent not instead (descent first when HACE/HAPE suspected)",
+          "quote": "Evacuation to a lower altitude is the definitive treatment for HAPE.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "cited_as": "Roach RC, Hackett PH, Oelz O, et al. \"The 2018 Lake Louise Acute Mountain Sickness Score.\" High Altitude Medicine & Biology. 2018;19(1):4–6. PMC6191821.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6191821/",
+      "kind": "journal",
+      "pmid": "29583031",
+      "pmcid": "PMC6191821",
+      "doi": "10.1089/ham.2017.0164",
+      "record_title": "The 2018 Lake Louise Acute Mountain Sickness Score.",
+      "record_journal": "High Alt Med Biol",
+      "record_year": "2018",
+      "article_type": "Consensus Statement; Journal Article",
+      "retrieved_with": "PubMed get_article_metadata; WebFetch of PMC full text",
+      "notes": "scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice. Link changed from Physiopedia to the PMC record of the article itself. 'Removed mental status items' claim replaced with what the paper says (sleep removed; HACE distinguished by mental status/ataxia). Headache description (bifrontal, hangover-like) cut.",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "AMS = total 3+ points from four symptoms with at least 1 from headache after recent gain in altitude",
+          "quote": "AMS is defined as a Lake Louise AMS score total of three or more points from the four rated symptoms ... including at least one point from headache in the setting of a recent ascent or gain in altitude",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "symptoms within 6 h; score only after 6 h",
+          "quote": "Although symptoms can develop within 6 hours of gain in altitude ... we recommend assessing AMS score only after 6 hours",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "four symptoms and 0-3 scale",
+          "quote": "Headache ... Gastrointestinal symptoms ... Fatigue and/or weakness ... Dizziness/light-headedness ... 0—None at all ... 3—Severe headache, incapacitating",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "mild 3-5, moderate 6-9, severe 10-12; severity rankings lack research",
+          "quote": "we suggest mild AMS as 3–5 points, moderate AMS as 6–9 points, and severe AMS as 10–12 points",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "HACE marked by change in mental status and/or ataxia; must not be confused with AMS",
+          "quote": "AMS must not be confused with high-altitude cerebral edema (HACE) ... is characterized by change in mental status and/or ataxia",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "disturbed sleep removed because more likely due to hypoxia and not closely related to AMS",
+          "quote": "disturbed sleep at altitude, one of the five symptoms scored for AMS, is more likely due to altitude hypoxia per se, and is not closely related to AMS.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "cited_as": "Dumont L, Mardirosoff C, Tramèr MR. \"Efficacy and harm of pharmacological prevention of acute mountain sickness: quantitative systematic review.\" BMJ. 2000;321(7256):267–272.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/10915127/",
+      "kind": "journal",
+      "pmid": "10915127",
+      "pmcid": "PMC27441",
+      "doi": "10.1136/bmj.321.7256.267",
+      "record_title": "Efficacy and harm of pharmacological prevention of acute mountain sickness: quantitative systematic review.",
+      "record_journal": "BMJ",
+      "record_year": "2000",
+      "article_type": "Journal Article; Systematic Review",
+      "retrieved_with": "PubMed get_article_metadata (PMC full text returned empty; abstract used)",
+      "notes": "scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice. 62% vs 26% figures cut (not in abstract). Nov 6 Scite run noted a contrasting citation on this review's lower-dose acetazolamide conclusion; the guide no longer uses this review for acetazolamide dosing.",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "above 4,000 m mean AMS with placebo 67% (range 25-100%), depended on ascent rate",
+          "quote": "At above 4000 m the mean incidence of acute mountain sickness with placebo was 67% (range 25% to 100%); incidence depended on the rate of ascent",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "dexamethasone 8-16 mg prevented AMS RR 2.50 (1.71-3.66), NNT 2.8",
+          "quote": "dexamethasone 8-16 mg prevented acute mountain sickness (relative risk 2.50 (95% confidence interval 1.71 to 3.66); number needed to treat (NNT) 2.8",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "adverse reactions including depression after abrupt dexamethasone stop",
+          "quote": "adverse reaction (including depression) occurred after dexamethasone was stopped abruptly",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "acetazolamide paresthesia and polyuria reported",
+          "quote": "With acetazolamide, paraesthesia (4.02 (1.71 to 9.43); NNT 3.0 (2.0 to 6.0)) and polyuria (4.24 (1.92 to 9.37); NNT 3.6 (2.5 to 6.2)) were reported.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "cited_as": "Wilderness Medical Society. \"2024 Altitude Summary.\" Wilderness Medicine Magazine. No author or date shown on the page. Accessed November 7, 2026.",
+      "url": "https://wms.org/magazine/magazine/1463/2024-Altitude-Summary/default.aspx",
+      "kind": "guideline",
+      "version_or_date": "WMS 2024 Altitude Summary page; no author or date shown (page metadata indicates Volume 41, Issue 3); read 2026-11-07",
+      "retrieved_with": "WebFetch of official page (verbatim excerpts requested)",
+      "notes": "WMS's own summary of the 2024 guideline, used as the retrievable source for WMS doses and recommendations because the guideline full text was not retrievable. 'Climb high, sleep low 4,500/3,800 m' claim cut (not on page). Dexamethasone no longer described as reserved for acetazolamide intolerance.",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "above 3,000 m no more than 500 m/day sleeping gain, rest day every 3-4 days",
+          "quote": "With travel above 3000 m, individuals should not increase the sleeping elevation by more than 500 m per day and should include a rest day (i.e. no ascent to higher sleeping elevation) every 3-4 days.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "one night at intermediate altitude lowers risk",
+          "quote": "Travelers can lower their risk by sleeping one night at an intermediate altitude.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "first priority gradual ascent; prophylaxis not needed low risk, considered moderate-high risk",
+          "quote": "The first priority should be ensuring gradual ascent to the target elevation. ... Prophylactic medications are generally not necessary in low risk situations but should be considered in addition to gradual ascent for use in moderate to high risk situations",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "acetazolamide 125 mg every 12 h for low-moderate risk; consider 250 mg BID for high-risk",
+          "quote": "This dose applies to low-moderate risk ascent profiles. For high-risk ascent profiles, consider 250 mg BID.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "acetazolamide started day before ascent; continue 2 days at recommended rate or 2-4 days if faster",
+          "quote": "Acetazolamide should be started the day before ascent. ... the medication should be continued for 2 days in individuals adhering to the recommended ascent rate ... 2-4 days in individuals ascending faster than recommended rates",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "pediatric prevention dose 1.25 mg/kg every 12 h max 125 mg per dose",
+          "quote": "Pediatrics: 1.25 mg•kg-1 every 12 h (maximum 125 mg per dose)",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "sulfonamide allergy risk extremely low; contraindicated with prior sulfonamide anaphylaxis or SJS",
+          "quote": "There is a risk, albeit extremely low, of inciting an allergic reaction in persons with sulfonamide allergy ... the drug is contraindicated in persons with any prior anaphylactic reaction to a sulfonamide medication or a history of Stevens-Johnson syndrome.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "dexamethasone prevention 2 mg q6h or 4 mg q12h, started day before ascent; does not facilitate acclimatization",
+          "quote": "2 mg every 6 h or 4 mg every 12 h ... Dexamethasone should be started the day before ascent. ... Dexamethasone does not facilitate acclimatization like acetazolamide but has an established benefit in AMS prevention.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "higher dexamethasone doses only very high risk (airlifted >3,500 m); taper after 5-7 days; not for children",
+          "quote": "Higher doses than those recommended in Table 1 (4 mg every 6 hours) may be considered only in very high risk situations such as military or search and rescue personnel being airlifted to altitudes > 3500 m",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "taper if used longer than 5-7 days",
+          "quote": "If used for longer than 5-7 days, dexamethasone should be tapered over a one week period rather than stopped abruptly.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "dexamethasone not recommended for AMS prevention in children",
+          "quote": "It is not recommended for AMS prevention in children.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "HACE dexamethasone 8 mg once then 4 mg every 6 h",
+          "quote": "HACE: 8 mg once then 4 mg every 6 h",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "ibuprofen cannot be recommended over acetazolamide/dexamethasone; can be used if declined or not tolerated",
+          "quote": "Ibuprofen cannot be recommended over acetazolamide or dexamethasone for AMS prevention during rapid ascent (Table 1), however, it could be used in persons who do not wish to take acetazolamide or dexamethasone or have allergies or intolerance to these medications.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "HAPE prophylaxis only for prior HAPE",
+          "quote": "Pharmacologic prophylaxis should only be considered for individuals with a history of HAPE, especially multiple episodes.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "HAPE: descend at least 1,000 m or until resolved, minimal exertion",
+          "quote": "Individuals should try to descend at least 1000 m or until symptoms resolve. ... They should exert themselves as little as possible while descending",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "oxygen to SpO2 >90% (AMS/HACE usually adequate; HAPE or relieve symptoms)",
+          "quote": "An SpO2 > 90% is usually adequate. ... When available, supplemental oxygen sufficient to achieve an SpO2 > 90% or relieve symptoms",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "nifedipine ER 30 mg q12h or 20 mg q8h when descent impossible/delayed and oxygen/hyperbaric unavailable",
+          "quote": "30 mg ER version, every 12 h or 20 mg ER version every 8 h ... Nifedipine should be used for HAPE treatment when descent is impossible or delayed and reliable access to supplemental oxygen ... is unavailable",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "tadalafil or sildenafil when nifedipine also unavailable; hyperbaric chamber when descent infeasible",
+          "quote": "Therefore, tadalafil or sildenafil can be used for HAPE treatment when descent is impossible or delayed, access to supplemental oxygen or portable hyperbaric therapy is impossible, and nifedipine is unavailable.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "portable hyperbaric chamber for HAPE when descent infeasible or delayed",
+          "quote": "portable hyperbaric chambers can be used for HAPE treatment when descent is infeasible or delayed",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "coca products and forced hydration not shown to benefit; OTC oxygen canisters not to be relied on",
+          "quote": "The following interventions have not been shown to be of benefit: chewed coca leaves, coca tea and other coca-derived products; \"forced\" or \"over\" hydration",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "OTC oxygen canisters should not be relied on",
+          "quote": "Short-term oxygen use in the form of over-the-counter oxygen canisters should not be relied on for this purpose.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "cited_as": "Meijer HJ, Jean D. UIAA Medical Commission Consensus Statement No. 9: Children at Altitude. International Climbing and Mountaineering Federation (UIAA); 2008.",
+      "url": "https://www.theuiaa.org/documents/mountainmedicine/UIAA_MedCom_Rec_No_9_Children_at_Altitude_2008_V1-1.pdf",
+      "kind": "other_web",
+      "version_or_date": "UIAA MedCom Consensus Statement No. 9, Vol 9, 2008",
+      "retrieved_with": "WebFetch of official PDF",
+      "notes": "Authors corrected from 'Pollard AJ, Niermeyer S, Barry P, et al.' to Meijer HJ & Jean D as printed on the document. The 1.25 mg/kg q12h pediatric prevention dose is NOT in this document (it gives only a 2.5 mg/kg treatment dose); the dose is now attributed to WMS [12] and CDC [2]. Pediatric HAPE incidence figures (1.5% vs 5-15%) cut (not in document).",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "drug prophylaxis in children strictly avoided; only rare unavoidable rapid ascent might warrant acetazolamide with weight-adjusted doses",
+          "quote": "Drug prophylaxis to aid acclimatization in childhood should be strictly avoided, because there are no data or experience!",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "rare cases, rapid ascent unavoidable, acetazolamide after medical advice, weight-adjusted",
+          "quote": "In rare cases, when a rapid ascent is unavoidable, use of acetazolamide to aid acclimatization might be warranted in a child, after medical advice and with doses adjusted to body weight.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "slow graded ascent necessary",
+          "quote": "Slow graded ascent, allowing time for acclimatization, is necessary.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "increased risk with sickle cell disease, thalassaemia; cystic fibrosis, Down syndrome, respiratory infection at risk for HAPE",
+          "quote": "Increased risk for children with sickle cell disease, thalassaemia ... who have cystic fibrosis ... who have Down syndrome ... who have actual infections of the respiratory tract",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "cited_as": "Seccombe LM, Peters MJ. \"Physiology in medicine: acute altitude exposure in patients with pulmonary and cardiovascular disease.\" Journal of Applied Physiology. 116(5):478–485. Published online December 26, 2013.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24371015/",
+      "kind": "journal",
+      "pmid": "24371015",
+      "doi": "10.1152/japplphysiol.01013.2013",
+      "record_title": "Physiology in medicine: acute altitude exposure in patients with pulmonary and cardiovascular disease.",
+      "record_journal": "J Appl Physiol (1985)",
+      "record_year": "2013",
+      "article_type": "Journal Article; Review",
+      "retrieved_with": "PubMed get_article_metadata (abstract only; publisher page blocked automated read in audit)",
+      "notes": "scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice. Authors corrected from 'Luks AM' to Seccombe LM, Peters MJ. Link changed from journals.physiology.org to PubMed. Sickle cell, CAD (4,200 m) and COPD (FEV1/PaO2) specifics cut; abstract does not state them; those statements now cite the CDC pre-existing conditions table [2].",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "data limited for travelers with reduced heart or lung reserve",
+          "quote": "there is a paucity of data pertaining to those who have reduced reserve.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 15,
+      "cited_as": "Caravedo MA, Mozo K, Morales ML, et al. \"Risk factors for acute mountain sickness in travellers to Cusco, Peru: coca leaves, obesity and sex.\" Journal of Travel Medicine. 2022;29(5):taab102.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34230961/",
+      "kind": "journal",
+      "pmid": "34230961",
+      "doi": "10.1093/jtm/taab102",
+      "record_title": "Risk factors for acute mountain sickness in travellers to Cusco, Peru: coca leaves, obesity and sex.",
+      "record_journal": "J Travel Med",
+      "record_year": "2022",
+      "article_type": "Journal Article",
+      "retrieved_with": "PubMed get_article_metadata",
+      "notes": "scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice. Cohort size corrected 469 -> 142; 'prospective study' -> cohort; OR 0.13 no longer presented as an 87% risk reduction.",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "142 students 2012-2016; 39% AMS; acetazolamide OR 0.13 (0.03-0.56); coca not associated; obesity and female sex higher risk",
+          "quote": "We enrolled 142 language students ... Thirty-nine percent had AMS. In the multivariate analysis, obesity [odds ratio (OR) 14.45 (2.33-89.6)] and female sex [OR 4.32 (1.81-10.28)] were associated with increased risk of AMS.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "acetazolamide OR 0.13; coca tea not associated",
+          "quote": "Taking acetazolamide [OR 0.13 (0.03-0.56)] was associated with decreased AMS risk. Consumption of coca leaf tea was not associated with decreased risk of AMS.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 16,
+      "cited_as": "Davies AJ, Kalson NS, Stokes S, et al. \"Determinants of summiting success and acute mountain sickness on Mt Kilimanjaro (5895 m).\" Wilderness & Environmental Medicine. 2009;20(4):311–317.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20030437/",
+      "kind": "journal",
+      "pmid": "20030437",
+      "doi": "10.1580/1080-6032-020.004.0311",
+      "record_title": "Determinants of summiting success and acute mountain sickness on Mt Kilimanjaro (5895 m).",
+      "record_journal": "Wilderness Environ Med",
+      "record_year": "2009",
+      "article_type": "Journal Article",
+      "retrieved_with": "PubMed get_article_metadata (abstract only; publisher page blocked automated read in audit)",
+      "notes": "scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice. '200 trekkers; shorter routes consistently higher AMS' reversed to what the abstract says (312 trekkers; similar on 4- vs 5-day). Link changed from journals.sagepub.com to PubMed.",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "312 trekkers Marangu; huts 2,700/3,700/4,700 m; 181 complete; 77% AMS; 61% summit; similar on 4 vs 5 day; acetazolamide helped on 5-day",
+          "quote": "The study group comprised 312 trekkers attempting Mt Kilimanjaro summit by the Marango Route. ... stopping at 3 huts on ascent (2700 m, 3700 m, and 4700 m)",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "181 complete, 111 (61%) summit, 139 (77%) AMS; similar 4- vs 5-day",
+          "quote": "Of 181 complete sets of data, 111 (61%) trekkers reached the summit, and 139 (77%) developed AMS. ... The incidence of AMS and summiting success were similar in those on the 4- or 5-day route.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "acetazolamide on 5-day route less AMS, more summit; more gradual route profile needed",
+          "quote": "Trekkers on the 5-day route who used acetazolamide were less likely to develop AMS and more likely to summit ... ideally trekkers need a more gradual route profile for climbing this mountain.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 17,
+      "cited_as": "Lawrence JS, Reid SA. \"Risk Determinants of Acute Mountain Sickness and Summit Success on a 6-Day Ascent of Mount Kilimanjaro (5895 m).\" Wilderness & Environmental Medicine. 2016;27(1):78–84.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26948557/",
+      "kind": "journal",
+      "pmid": "26948557",
+      "doi": "10.1016/j.wem.2015.11.011",
+      "record_title": "Risk Determinants of Acute Mountain Sickness and Summit Success on a 6-Day Ascent of Mount Kilimanjaro (5895 m).",
+      "record_journal": "Wilderness Environ Med",
+      "record_year": "2016",
+      "article_type": "Journal Article",
+      "retrieved_with": "PubMed get_article_metadata (abstract only; publisher page blocked automated read in audit)",
+      "notes": "scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice. 'Exceeded WMS 500 m/day on multiple days' claim cut (not in abstract). Link changed from journals.sagepub.com to PubMed.",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "175 trekkers, 6-day Rongai, AMS 52.6% (LLS>=3), summit 88%, lower AMS/better summit than 4-5 day reports; slower ascent mitigates",
+          "quote": "Participants ascended via the Rongai route ... a total of 175 participants undertook the trek. Incidence of AMS was 52.6% (LLS ≥ 3) and 22.9% (LLS ≥ 5). Summit success was 88%.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "lower incidence and better summit success than 4- and 5-day ascents; risk mitigated by slower ascent",
+          "quote": "Our cohort found a lower incidence of AMS and better summit success on a 6-day ascent of Mt Kilimanjaro than previously described in other groups on 4- and 5-day ascents.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 18,
+      "cited_as": "Pérez-Padilla R. \"Impact of moderate altitude on lung diseases and risk of high altitude illnesses.\" Revista de Investigación Clínica. 2022;74(5):232–243.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36170185/",
+      "kind": "journal",
+      "pmid": "36170185",
+      "doi": "10.24875/RIC.22000088",
+      "record_title": "Impact of moderate altitude on lung diseases and risk of high altitude illnesses.",
+      "record_journal": "Rev Invest Clin",
+      "record_year": "2022",
+      "article_type": "Journal Article",
+      "retrieved_with": "PubMed get_article_metadata",
+      "notes": "scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice.",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "re-entry HAPE reported in Valley of Mexico",
+          "quote": "In the valley of México, at 2200 m above sea level, re-entry pulmonary edema has been reported.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 19,
+      "cited_as": "Omidi A, Hawley GD, Kain D, et al. \"What Is New in Altitude- and Cold-Related Illnesses of Travel: Appraisal and Summary of the Updated Guidelines from the Wilderness Medical Society.\" International Journal of Environmental Research and Public Health. 2025;22(2). doi:10.3390/ijerph22020284. PMC11855094.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11855094/",
+      "kind": "journal",
+      "pmid": "40003509",
+      "pmcid": "PMC11855094",
+      "doi": "10.3390/ijerph22020284",
+      "record_title": "What Is New in Altitude- and Cold-Related Illnesses of Travel: Appraisal and Summary of the Updated Guidelines from the Wilderness Medical Society.",
+      "record_journal": "Int J Environ Res Public Health",
+      "record_year": "2025",
+      "article_type": "Journal Article; Review",
+      "retrieved_with": "PubMed get_article_metadata; PubMed get_full_text_article (PMC)",
+      "notes": "New reference. scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice. Used for WMS 2024 recommendation grades, which the guideline abstract does not state.",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "gradual ascent strong/moderate; acetazolamide 125 mg q12h strong/high; dexamethasone 2 mg q6h strong/high; ibuprofen weak/moderate when acetazolamide and dexamethasone cannot be used",
+          "quote": "gradual ascent (strong recommendation, moderate-quality evidence); the use of 125 mg of acetazolamide every 12 h starting the night before ascent (strong recommendation, high-quality evidence); the use of 2 mg of dexamethasone every 6 h (strong recommendation, high-quality evidence)",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "ibuprofen weak recommendation, moderate-quality evidence",
+          "quote": "the use of ibuprofen in the case of inability to use acetazolamide and dexamethasone (weak recommendation, moderate-quality evidence)",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 20,
+      "cited_as": "Acetazolamide tablet [prescribing information]. Aarkish Pharmaceuticals NJ Inc. DailyMed, U.S. National Library of Medicine. Updated December 8, 2025. Accessed November 7, 2026.",
+      "url": "https://www.dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?audience=professional&setid=ddfd44dc-3136-4dda-8ed0-eb2991c2a0b6",
+      "kind": "label",
+      "version_or_date": "DailyMed listing updated December 8, 2025; label code RO-102 Rev. 05, 06/25",
+      "retrieved_with": "WebFetch of DailyMed label page",
+      "notes": "New reference. Current acetazolamide tablet label (Aarkish Pharmaceuticals NJ Inc.) on DailyMed.",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "label AMS dose 500-1,000 mg daily in divided doses",
+          "quote": "indicated for the prevention or amelioration of symptoms associated with acute mountain sickness ... Dosage is 500 mg to 1000 mg daily, in divided doses.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "pregnancy: teratogenic (limb defects) in mice, rats, hamsters, rabbits; use only if benefit justifies risk",
+          "quote": "has been shown to be teratogenic (defects of the limbs) in mice, rats, hamsters and rabbits ... Acetazolamide should be used in pregnancy only if the potential benefit justifies the potential risk to the fetus.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "pediatric safety and effectiveness not established",
+          "quote": "The safety and effectiveness of acetazolamide in pediatric patients has not been established.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "cross-sensitivity with sulfonamides possible",
+          "quote": "cross sensitivity between acetazolamide, sulfonamides and other sulfonamide derivatives is possible.",
+          "quote_source": "label",
+          "verdict": "supported"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,668 @@
+{
+ "guide": "flu-season-guide",
+ "checked_at": "2026-11-07",
+ "checked_by": "Claude (repair run)",
+ "scite_verify_papers": "unavailable (quota exhausted until 2026-11-14); retraction status from PubMed article types",
+ "references": [
+  {
+   "n": 1,
+   "kind": "agency_page",
+   "cited_as": "Centers for Disease Control and Prevention (CDC). Flu Season. Last reviewed September 26, 2025. Accessed November 7, 2026.",
+   "url": "https://www.cdc.gov/flu/about/season.html",
+   "record_title": "Flu Season",
+   "version_or_date": "Last reviewed September 26, 2025",
+   "retrieved_with": "WebFetch (official CDC page), 2026-11-07",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "Retained. Old claims of an October-to-May season and a seven-month length were not on the page and were cut. Page says peak counts cover 1982-1983 through 2023-2024. Not a journal article, so no PubMed retraction check applies; scite_unavailable.",
+   "claims": [
+    {
+     "text": "U.S. flu season usually occurs in the fall and winter (citable summary, key takeaways, opening, timing section, FAQ).",
+     "quote": "In the United States, flu season usually occurs in the fall and winter.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Most of the time flu activity peaks between December and February (key takeaways, timing, vaccination-timing and too-late paragraphs, FAQ).",
+     "quote": "While influenza viruses spread year-round, most of the time flu activity peaks between December and February.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Seasonal flu viruses are detected year-round but typically circulate in fall and winter (timing section, FAQ on season length).",
+     "quote": "While seasonal influenza (flu) viruses are detected year-round in the United States, influenza viruses typically circulate during the fall and winter during what's known as the flu season.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "February is the most common peak month: 17 seasons, then December 7, January 6, March 6; some seasons peak in December, others in February or March; peak month varies (peak section, chart, timing, FAQ).",
+     "quote": "During this 40-year period, flu activity most often peaked in February (17 seasons), followed by December (7 seasons), January (6 seasons) and March (6 seasons).",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "The peak-month counts cover the 1982-1983 through 2023-2024 seasons (peak section, chart, FAQ).",
+     "quote": "The figure below shows peak flu activity in the United States by month for the 1982-1983 through 2023-2024 flu seasons.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "kind": "agency_page",
+   "cited_as": "Centers for Disease Control and Prevention (CDC). Key Facts About Seasonal Flu Vaccine. Last updated September 1, 2026. Accessed November 7, 2026.",
+   "url": "https://www.cdc.gov/flu/vaccines/keyfacts.html",
+   "record_title": "Key Facts About Seasonal Flu Vaccine",
+   "version_or_date": "Last updated September 1, 2026",
+   "retrieved_with": "WebFetch (official CDC page), 2026-11-07",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "Retained. Page gives no 40 to 60% figure; that figure now cites ref 12 (Benefits of Flu Vaccination) and is stated as the page states it (flu-related doctor visits, matched seasons). Not a journal article, so no PubMed retraction check applies; scite_unavailable.",
+   "claims": [
+    {
+     "text": "Protection varies from season to season and depends on age, health and how closely vaccine viruses match circulating viruses (effectiveness section, FAQ).",
+     "quote": "The protection provided by a flu vaccine varies from season to season and depends in part on the age and health status of the person getting the vaccine and the similarity or \"match\" between the viruses",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "When circulating viruses have drifted from the vaccine viruses, effectiveness can be reduced (effectiveness section, FAQ).",
+     "quote": "During seasons when one or more of the circulating viruses are different or \"drifted\" from the vaccine viruses, vaccine effectiveness can be reduced.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Flu vaccination can reduce severity of illness in people who get vaccinated but still get sick (key takeaways, effectiveness section, FAQ).",
+     "quote": "However, flu vaccination has been shown in studies to reduce severity of illness in people who get vaccinated but still get sick.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "It is possible to get sick with flu even if vaccinated (FAQ).",
+     "quote": "It's possible to get sick with flu even if you have been vaccinated (although you won't know for sure unless you get a flu test).",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "kind": "agency_page",
+   "cited_as": "Centers for Disease Control and Prevention (CDC). Who Needs a Flu Vaccine. Last reviewed September 18, 2025. Accessed November 7, 2026.",
+   "url": "https://www.cdc.gov/flu/vaccines/vaccinations.html",
+   "record_title": "Who Needs a Flu Vaccine",
+   "version_or_date": "Last reviewed September 18, 2025",
+   "retrieved_with": "WebFetch (official CDC page), 2026-11-07",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "URL updated: old https://www.cdc.gov/flu/prevent/vaccinations.htm now serves this page (title changed from \"Who Should and Who Should NOT Get a Flu Vaccine\"). Thimerosal claim cut (not on this page). Continue-vaccinating, any-trimester and moderate-illness claims moved to refs 9 and 16. Not a journal article, so no PubMed retraction check applies; scite_unavailable.",
+   "claims": [
+    {
+     "text": "Everyone 6 months and older should get a flu vaccine every season, with rare exceptions (key takeaways, who section, citable summary).",
+     "quote": "Everyone 6 months and older should get a flu vaccine every season with rare exceptions.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Ideally everyone should be vaccinated by the end of October; September and October are generally good times (key takeaways, timing, FAQ).",
+     "quote": "September and October are generally good times to be vaccinated against influenza. ... Ideally, everyone should be vaccinated by the end of October.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "It takes about two weeks after vaccination for protective antibodies to develop (peak and too-late sections).",
+     "quote": "It takes about two weeks after vaccination for antibodies that protect against flu to develop in the body.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Most adults should not get vaccinated early, in July or August, because protection may decrease over time (effectiveness section).",
+     "quote": "Most adults, especially those 65 years and older, and pregnant women in the first or second trimester should generally not get vaccinated early (in July or August) because protection may decrease over time.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "In adults 65 and older, flu complications, hospitalizations and deaths are generally most common; three vaccines (high-dose, adjuvanted, recombinant) are preferentially recommended (risk table).",
+     "quote": "complications, hospitalizations, and deaths due to influenza are generally most common among people 65 years and older. ... For adults 65 years and older, there are 3 flu vaccines that are preferentially recommended.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Children younger than 6 months are too young to get a flu shot (risk table).",
+     "quote": "Children younger than 6 months of age are too young to get a flu shot.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Vaccination in the third trimester can help protect infants for the first few months after birth (risk table, FAQ).",
+     "quote": "Vaccination during July and August also can be considered for mothers who are in the third trimester of pregnancy, because this can help protect their infants for the first few months after birth",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "If pregnant, get a flu shot and not the nasal spray vaccine (FAQ).",
+     "quote": "If you are pregnant or have certain chronic health conditions, you should get a flu shot. ... Also, if you are pregnant, you should not get the nasal spray flu vaccine.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Health care personnel and household contacts and caregivers of people with risk-raising conditions are listed among groups to vaccinate first when supply is limited (risk table).",
+     "quote": "When vaccine supply is limited, vaccination efforts should focus on delivering vaccination to the following people ... Health care personnel ... Household contacts and caregivers of people with medical conditions that put them at increased risk",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "People with egg allergy may get any flu vaccine, egg-based or not, that is otherwise appropriate for their age and health (who section).",
+     "quote": "People with egg allergy may get any vaccine (egg-based or non-egg-based) that is otherwise appropriate for their age and health status.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "kind": "agency_page",
+   "cited_as": "Centers for Disease Control and Prevention (CDC). Flu Vaccine Safety. Last reviewed August 25, 2023. Accessed November 7, 2026.",
+   "url": "https://www.cdc.gov/flu/vaccine-safety/index.html",
+   "record_title": "Flu Vaccine Safety",
+   "version_or_date": "Last reviewed August 25, 2023",
+   "retrieved_with": "WebFetch (official CDC page), 2026-11-07",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "Retained. Claim that side effects signal immune response was cut (not on page). Page dated August 25, 2023; content still served. Not a journal article, so no PubMed retraction check applies; scite_unavailable.",
+   "claims": [
+    {
+     "text": "Flu vaccine side effects are generally mild and go away on their own within a few days (key takeaways, side effects lead-in).",
+     "quote": "Side effects of the flu vaccine are generally mild and go away on their own within a few days.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "The nasal spray vaccine contains live viruses changed so they cannot give you the flu (side effects section).",
+     "quote": "While the nasal spray flu vaccine does contain a live virus, the viruses are changed so that they cannot give you the flu.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Life-threatening allergic reactions are rare; for a severe reaction call 911 and get to the nearest hospital (side effects table, FAQ).",
+     "quote": "Life threatening allergic reactions to the flu shot are rare. ... If you think it is a severe allergic reaction or other emergency that can't wait, call 9-1-1 and get to the nearest hospital.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "People with severe, life-threatening allergies to flu vaccine or any ingredient should not get a flu shot (side effects table).",
+     "quote": "Individuals who can't get the flu shot include: ... Individuals with severe, life-threatening allergies to flu vaccine or any ingredient(s) in the vaccine.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "The flu shot, like other injections, can occasionally cause fainting (side effects section).",
+     "quote": "The flu shot, like other injections, can occasionally cause fainting.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "kind": "agency_page",
+   "cited_as": "Centers for Disease Control and Prevention (CDC). CDC Seasonal Flu Vaccine Effectiveness Studies. Last reviewed March 16, 2026. Accessed November 7, 2026.",
+   "url": "https://www.cdc.gov/flu-vaccines-work/php/effectiveness-studies/index.html",
+   "record_title": "CDC Seasonal Flu Vaccine Effectiveness Studies",
+   "version_or_date": "Last reviewed March 16, 2026",
+   "retrieved_with": "WebFetch (official CDC page), 2026-11-07",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "Retained. 2023-24 VE corrected 42% to 44%. Page never states 40 to 60% or severity reduction; those claims re-pointed to refs 12 and 2. 2024-25 and 2025-26 values are marked preliminary on the page (double-dagger footnote) and in the guide. Not a journal article, so no PubMed retraction check applies; scite_unavailable.",
+   "claims": [
+    {
+     "text": "CDC VE network studies use laboratory-confirmed flu as the outcome; adjusted overall VE 29% (2018-19), 39% (2019-20), 44% (2023-24), preliminary 56% (2024-25) and 36% (2025-26) (effectiveness paragraph and chart).",
+     "quote": "observational studies using laboratory-confirmed flu as the outcome. ... 2018–19 ... 29 ... 2019–20 ... 39 ... 2023–24*** ... 44 ... 2024–25†† ... 56 ... 2025–26†† ... 36 ... †† VE estimates for 2024–2025 and 2025–2026 flu seasons are preliminary.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "kind": "agency_page",
+   "cited_as": "Centers for Disease Control and Prevention (CDC). Similarities and Differences between Flu and COVID-19. Last reviewed September 17, 2024. Accessed November 7, 2026.",
+   "url": "https://www.cdc.gov/flu/about/flu-vs-covid19.html",
+   "record_title": "Similarities and Differences between Flu and COVID-19",
+   "version_or_date": "Last reviewed September 17, 2024",
+   "retrieved_with": "WebFetch (official CDC page), 2026-11-07",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "URL updated: old https://www.cdc.gov/flu/symptoms/flu-vs-covid19.htm redirects to this canonical URL. Emergency warning signs re-pointed to ref 13; 48-hour antiviral window re-pointed to ref 14; flu-vs-cold onset claim re-pointed to ref 11. Not a journal article, so no PubMed retraction check applies; scite_unavailable.",
+   "claims": [
+    {
+     "text": "Flu and COVID-19 cannot be told apart by symptoms alone; testing is needed to confirm a diagnosis (key takeaways, citable summary, differences section, table, FAQ).",
+     "quote": "You cannot tell the difference between flu and COVID-19 by the symptoms alone because many of the signs and symptoms are the same. Testing is needed to confirm a diagnosis.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Shared symptoms include fever or chills, cough, shortness of breath, fatigue, sore throat, runny or stuffy nose, muscle pain or body aches, headache; change in or loss of taste or smell is more frequent with COVID-19 (table, FAQ).",
+     "quote": "Common symptoms that COVID-19 and flu share include: Fever or feeling feverish/having chills ... Cough ... Shortness of breath or difficulty breathing ... Fatigue (tiredness) ... Sore throat ... Runny or stuffy nose ... Muscle pain or body aches",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Change in or loss of taste or smell can occur with both but is more frequent with COVID-19 (table).",
+     "quote": "Change in or loss of taste or smell, although this is more frequent with COVID-19.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Flu symptoms typically appear 1 to 4 days after infection; COVID-19 symptoms 2 to 5 days, up to 14 days (table).",
+     "quote": "Typically, a person may experience symptoms anywhere from one to four days after infection. ... Typically, a person may experience symptoms anywhere from two to five days, and up to 14 days after infection.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Both flu and COVID-19 can cause severe illness, even in healthy people (table, differences section).",
+     "quote": "Both COVID-19 and flu can cause severe illness and complications resulting in hospitalization and death, even in healthy people.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "kind": "agency_page",
+   "cited_as": "Centers for Disease Control and Prevention (CDC). Healthy Habits to Prevent Flu. Last updated September 1, 2026. Accessed November 7, 2026.",
+   "url": "https://www.cdc.gov/flu/prevention/actions-prevent-flu.html",
+   "record_title": "Healthy Habits to Prevent Flu",
+   "version_or_date": "Last updated September 1, 2026",
+   "retrieved_with": "WebFetch (official CDC page), 2026-11-07",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "Retained. Guide wording aligned with page (no tissue/elbow, no home-work-school-ill wording). Not a journal article, so no PubMed retraction check applies; scite_unavailable.",
+   "claims": [
+    {
+     "text": "Yearly vaccination is the single best way to reduce the risk of flu and its potentially serious complications; preventive actions also help stop the spread of germs (key takeaways, prevention section).",
+     "quote": "The single best way to reduce the risk of seasonal flu and its potentially serious complications is to get vaccinated each year, but preventive actions like avoiding people who are sick ... also can help stop the spread of germs",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Avoid close contact with sick people and stay home when sick (prevention list).",
+     "quote": "Avoid close contact with people who are sick. ... If possible, stay home from work, school, and errands when you're sick.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Cover mouth and nose when coughing or sneezing; it may prevent those around you from getting sick (prevention list).",
+     "quote": "Cover your mouth and nose when coughing or sneezing. It may prevent those around you from getting sick.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Wash hands often; use an alcohol-based hand rub if soap and water are not available (prevention list).",
+     "quote": "Washing your hands often will help protect you from germs. If soap and water are not available, use an alcohol-based hand rub.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Avoid touching eyes, nose and mouth because germs spread from contaminated objects (prevention list).",
+     "quote": "Germs can be spread when a person touches something that is contaminated with germs and then touches his or her eyes, nose, or mouth.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Regularly clean frequently touched surfaces such as countertops, handrails and doorknobs (prevention list).",
+     "quote": "Cleaning frequently touched surfaces, such as countertops, handrails, and doorknobs regularly can help prevent the spread of some illnesses.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "kind": "agency_page",
+   "cited_as": "Centers for Disease Control and Prevention (CDC). About Estimated Flu Burden. Last reviewed February 25, 2026. Accessed November 7, 2026.",
+   "url": "https://www.cdc.gov/flu-burden/php/about/index.html",
+   "record_title": "About Estimated Flu Burden",
+   "version_or_date": "Last reviewed February 25, 2026",
+   "retrieved_with": "WebFetch (official CDC page), 2026-11-07",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "Retained for modeling statement only. Per-season 2024-2025 numbers are not in this page text; they now cite ref 15. Not a journal article, so no PubMed retraction check applies; scite_unavailable.",
+   "claims": [
+    {
+     "text": "Burden figures are model-based estimates; CDC uses models to estimate illnesses, medical visits, hospitalizations and deaths (burden section).",
+     "quote": "CDC uses models to estimate the number of flu illnesses, medical visits, hospitalizations, and deaths",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "kind": "agency_page",
+   "cited_as": "Centers for Disease Control and Prevention (CDC). Misconceptions About Seasonal Flu and Flu Vaccines. Last reviewed September 6, 2024. Accessed November 7, 2026.",
+   "url": "https://www.cdc.gov/flu/prevention/misconceptions.html",
+   "record_title": "Misconceptions About Seasonal Flu and Flu Vaccines",
+   "version_or_date": "Last reviewed September 6, 2024",
+   "retrieved_with": "WebFetch (official CDC page), 2026-11-07",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "URL updated: old https://www.cdc.gov/flu/prevent/misconceptions.htm redirects to this canonical URL; page title is now \"Misconceptions About Seasonal Flu and Flu Vaccines\". Not a journal article, so no PubMed retraction check applies; scite_unavailable.",
+   "claims": [
+    {
+     "text": "Flu vaccines cannot cause flu illness; flu shots use inactivated (killed) viruses or a single protein (side effects section, FAQ, citable summary).",
+     "quote": "Flu vaccines cannot cause flu illness. ... Flu vaccines given with a needle (i.e., flu shots) are made with either inactivated (killed) viruses, or with only a single protein from an influenza virus.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Nasal spray vaccine viruses are attenuated (weakened) so they will not cause illness (side effects section, FAQ).",
+     "quote": "The nasal spray vaccine contains live viruses that are attenuated (weakened) so that they will not cause illness.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Most common side effects are soreness, redness, tenderness or swelling; low-grade fever, headache and muscle aches may occur; they begin soon after vaccination and last 1 to 2 days (side effects table, FAQ, citable summary).",
+     "quote": "The most common side effects from flu shots are soreness, redness, tenderness or swelling where the shot was given. Low-grade fever, headache and muscle aches also may occur. ... they usually begin soon after vaccination and last 1-2 days.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Vaccination can still be beneficial as long as flu viruses are circulating; if not vaccinated by end of November, it can still be protective in December or later (too-late section, FAQ, citable summary).",
+     "quote": "Vaccination can still be beneficial as long as influenza viruses are circulating. If you have not been vaccinated by the end of November, it can still be protective to get vaccinated in December or later.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Flu vaccination can still reduce severity of illness in vaccinated people who get sick (FAQ).",
+     "quote": "Even when that happens though, flu vaccination can still reduce severity of illness.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "kind": "agency_page",
+   "cited_as": "Centers for Disease Control and Prevention (CDC). Weekly U.S. Influenza Surveillance Report (FluView). Last reviewed September 20, 2024. Accessed November 7, 2026.",
+   "url": "https://www.cdc.gov/fluview/index.html",
+   "record_title": "Weekly U.S. Influenza Surveillance Report (FluView)",
+   "version_or_date": "Last reviewed September 20, 2024",
+   "retrieved_with": "WebFetch (official CDC page), 2026-11-07",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "Retained. Page text does not list state-level ILI, hospitalizations or deaths, so the guide now says only that FluView is a weekly surveillance report. Not a journal article, so no PubMed retraction check applies; scite_unavailable.",
+   "claims": [
+    {
+     "text": "FluView is the CDC weekly influenza surveillance report (timing and burden sections).",
+     "quote": "A weekly influenza surveillance report prepared by the Influenza Division.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "kind": "agency_page",
+   "cited_as": "Centers for Disease Control and Prevention (CDC). Cold Versus Flu. Last reviewed August 8, 2024. Accessed November 7, 2026.",
+   "url": "https://www.cdc.gov/flu/about/coldflu.html",
+   "record_title": "Cold Versus Flu",
+   "version_or_date": "Last reviewed August 8, 2024",
+   "retrieved_with": "WebFetch (official CDC page), 2026-11-07",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "Retained. Not a journal article, so no PubMed retraction check applies; scite_unavailable.",
+   "claims": [
+    {
+     "text": "Colds and flu share many symptoms and can be difficult or impossible to tell apart by symptoms alone (key takeaways, differences section, table, FAQ).",
+     "quote": "Because colds and flu share many symptoms, it can be difficult (or even impossible) to tell the difference between them based on symptoms alone.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Flu is generally worse than a cold; symptoms are more intense and begin more abruptly; cold symptoms are usually milder (key takeaways, differences, table, FAQ).",
+     "quote": "In general, flu is worse than the common cold, and symptoms are typically more intense and begin more abruptly. ... Cold symptoms are usually milder than the symptoms of flu.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "People with colds are more likely to have a runny or stuffy nose; special tests can tell if a person has flu (table, FAQ).",
+     "quote": "People with colds are more likely to have a runny or stuffy nose than people who have flu. ... Special tests can tell if a person is sick with flu.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "kind": "agency_page",
+   "cited_as": "Centers for Disease Control and Prevention (CDC). Benefits of Flu Vaccination. Last reviewed May 28, 2026. Accessed November 7, 2026.",
+   "url": "https://www.cdc.gov/flu-vaccines-work/benefits/index.html",
+   "record_title": "Benefits of Flu Vaccination",
+   "version_or_date": "Last reviewed May 28, 2026",
+   "retrieved_with": "WebFetch (official CDC page), 2026-11-07",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "Added this run (replaces ref 5 for the 40 to 60% figure and the ICU/death figures). Not a journal article, so no PubMed retraction check applies; scite_unavailable.",
+   "claims": [
+    {
+     "text": "When vaccine viruses are similar to those spreading, studies show flu vaccination reduced the risk of a flu-related doctor's visit by 40% to 60% (key takeaways, effectiveness section, FAQ, citable summary).",
+     "quote": "During seasons when the influenza viruses used in flu vaccine production are similar to those that are spreading, studies show flu vaccination reduced the risk of a flu-related doctor's visit by 40-60%.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "A 2021 narrative review: among adults hospitalized with flu, vaccinated patients had 26% lower risk of ICU admission and 31% lower risk of death from flu (effectiveness section).",
+     "quote": "A 2021 narrative review noted that among adults hospitalized with flu, patients vaccinated against flu had a 26% lower risk of ICU admission and a 31% lower risk of death from flu compared with those who were unvaccinated.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "kind": "agency_page",
+   "cited_as": "Centers for Disease Control and Prevention (CDC). Signs and Symptoms of Flu. Last reviewed August 26, 2024. Accessed November 7, 2026.",
+   "url": "https://www.cdc.gov/flu/signs-symptoms/index.html",
+   "record_title": "Signs and Symptoms of Flu",
+   "version_or_date": "Last reviewed August 26, 2024",
+   "retrieved_with": "WebFetch (official CDC page), 2026-11-07",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "Added this run (replaces ref 6 for emergency warning signs). Severe or persistent vomiting is not on the adult list and was cut. Not a journal article, so no PubMed retraction check applies; scite_unavailable.",
+   "claims": [
+    {
+     "text": "Emergency warning signs in adults (list in red-flags section, key takeaways, FAQ): difficulty breathing; persistent chest or abdominal pain or pressure; persistent dizziness, confusion, inability to arouse; seizures; not urinating; severe muscle pain; severe weakness; fever or cough that improve then return or worsen; worsening chronic conditions.",
+     "quote": "Difficulty breathing or shortness of breath ... Persistent pain or pressure in the chest or abdomen ... Persistent dizziness, confusion, inability to arouse ... Seizures ... Not urinating ... Severe muscle pain ... Severe weakness or unsteadiness",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Adult emergency warning signs also include fever or cough that improve but then return or worsen, and worsening of chronic medical conditions (red-flags list, key takeaways, FAQ).",
+     "quote": "Fever or cough that improve but then return or worsen ... Worsening of chronic medical conditions",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "People with these warning signs should get medical care right away; most people recover in a few days to less than two weeks (red-flags section).",
+     "quote": "People experiencing these warning signs should obtain medical care right away. ... Most people who get flu will recover in a few days to less than two weeks",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Warning signs in children: fast or trouble breathing, bluish lips or face, ribs pulling in, dehydration, not alert or interacting, seizures, any fever under 12 weeks (red-flags section).",
+     "quote": "Fast breathing or trouble breathing ... Bluish lips or face ... Ribs pulling in with each breath ... Dehydration (no urine for 8 hours, dry mouth, no tears when crying) ... Not alert or interacting when awake",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Children warning signs also include seizures and, in children younger than 12 weeks, any fever (red-flags section).",
+     "quote": "Seizures ... In children younger than 12 weeks, any fever",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Flu symptoms usually come on suddenly; common flu symptoms include fever or chills, cough, sore throat, runny or stuffy nose, aches, headache, fatigue (table).",
+     "quote": "Flu symptoms usually come on suddenly. ... fever* or feeling feverish/chills ... cough ... sore throat ... runny or stuffy nose ... muscle or body aches ... headaches ... fatigue (tiredness)",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "kind": "guideline",
+   "cited_as": "Centers for Disease Control and Prevention (CDC). Influenza Antiviral Medications: Summary for Clinicians. Last reviewed March 10, 2026. Accessed November 7, 2026.",
+   "url": "https://www.cdc.gov/flu/hcp/antivirals/summary-clinicians.html",
+   "record_title": "Influenza Antiviral Medications: Summary for Clinicians",
+   "version_or_date": "Last reviewed March 10, 2026",
+   "retrieved_with": "WebFetch (official CDC page), 2026-11-07",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "Added this run (replaces ref 6 for the 48-hour antiviral window). Also listed as verified in the flu-treatment-guide repair log; re-retrieved here. Not a journal article, so no PubMed retraction check applies; scite_unavailable.",
+   "claims": [
+    {
+     "text": "Early antiviral treatment can shorten the duration of fever and illness symptoms (prevention section).",
+     "quote": "Clinical trials and observational data show that early antiviral treatment can shorten the duration of fever and illness symptoms",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Clinical benefit is greatest when antiviral treatment starts early, especially within 48 hours of illness onset (prevention, red-flags, FAQ).",
+     "quote": "Clinical benefit is greatest when antiviral treatment is administered early, especially within 48 hours of influenza illness onset.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Antiviral treatment is recommended as soon as possible for people at higher risk of complications; they should call their provider as soon as possible with respiratory symptoms (prevention, red-flags, FAQ).",
+     "quote": "Antiviral treatment is recommended as soon as possible for any patient with suspected or confirmed influenza who: ... is at higher risk for influenza complications",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "People at higher risk should call their provider as soon as possible if they have respiratory symptoms (red-flags section, FAQ).",
+     "quote": "Patients at higher risk for influenza complications should be advised to call their provider as soon as possible if they have acute respiratory illness symptoms (with or without fever)",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Oseltamivir (Tamiflu) is an FDA-approved influenza antiviral (prevention section).",
+     "quote": "oral oseltamivir phosphate (available as a generic version or under the trade name Tamiflu®)",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "kind": "agency_page",
+   "cited_as": "Centers for Disease Control and Prevention (CDC). 2024-2025 Influenza Season Summary: Severity, Disease Burden, and Burden Prevented. Last updated March 12, 2026; estimates preliminary. Accessed November 7, 2026.",
+   "url": "https://www.cdc.gov/flu-burden/php/data-vis-vac/2024-2025-prevented.html",
+   "record_title": "2024-2025 Influenza Season Summary: Severity, Disease Burden, and Burden Prevented",
+   "version_or_date": "Last updated March 12, 2026; estimates preliminary",
+   "retrieved_with": "WebFetch (official CDC page), 2026-11-07",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "Added this run (replaces ref 8 for the 2024-2025 per-season burden figures). Page notes a March 12, 2026 correction to illnesses prevented; corrected value (10 million) used. Not a journal article, so no PubMed retraction check applies; scite_unavailable.",
+   "claims": [
+    {
+     "text": "CDC preliminary estimates for 2024-2025: 51 million flu-related illnesses, 710,000 hospitalizations and 45,000 deaths (opening, burden chart).",
+     "quote": "CDC estimates there were 51 million influenza (flu)-related illnesses, 23 million medical visits, 710,000 hospitalizations and 45,000 deaths during the 2024-2025 flu season.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "2024-2025 was classified as a high severity season across all ages and for each age group (opening, burden section).",
+     "quote": "Based on assessment results, the 2024–2025 season was classified as being a high severity season across all ages and for each age group.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Vaccination prevented about 10 million flu illnesses and 180,000 hospitalizations in 2024-2025 (opening).",
+     "quote": "Flu vaccination is estimated to have prevented about 10 million flu illnesses, 5 million medical visits, 180,000 hospitalizations and 12,000 deaths.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "2024-2025 burden figures are preliminary and will be updated (burden section).",
+     "quote": "Disease burden estimates for the 2024–2025 flu season are preliminary and will be updated at least two additional times",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "kind": "guideline",
+   "cited_as": "Centers for Disease Control and Prevention (CDC). Interim Clinical Considerations for the Use of Seasonal Influenza Vaccines in the United States (2026-2027 season). Last reviewed September 1, 2026. Accessed November 7, 2026.",
+   "url": "https://www.cdc.gov/flu/hcp/vax-summary/seasonal-influenza-vaccines.html",
+   "record_title": "Interim Clinical Considerations for the Use of Seasonal Influenza Vaccines in the United States (2026-2027 season)",
+   "version_or_date": "Last reviewed September 1, 2026",
+   "retrieved_with": "WebFetch (official CDC page), 2026-11-07",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "Added this run. Page covers the 2026-2027 season. Not a journal article, so no PubMed retraction check applies; scite_unavailable.",
+   "claims": [
+    {
+     "text": "Vaccination should continue after October and throughout the flu season as long as influenza viruses are circulating (who section).",
+     "quote": "While vaccination by the end of October is recommended, vaccination should continue after October and throughout the influenza season as long as influenza viruses are circulating and unexpired vaccine is available.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Moderate or severe acute illness, with or without fever, is a general precaution for vaccination (too-late section).",
+     "quote": "Moderate or severe acute illness with or without fever is a general precaution for vaccination.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Flu vaccine can be given at any time during pregnancy (FAQ).",
+     "quote": "Influenza vaccine can be administered at any time during pregnancy (i.e., during any trimester), before and during the influenza season.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "kind": "agency_page",
+   "cited_as": "Centers for Disease Control and Prevention (CDC). About Influenza. Last reviewed February 26, 2026. Accessed November 7, 2026.",
+   "url": "https://www.cdc.gov/flu/about/index.html",
+   "record_title": "About Influenza",
+   "version_or_date": "Last reviewed February 26, 2026",
+   "retrieved_with": "WebFetch (official CDC page), 2026-11-07",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "Added this run (supports higher-risk groups that ref 3 does not list). Not a journal article, so no PubMed retraction check applies; scite_unavailable.",
+   "claims": [
+    {
+     "text": "Higher-risk groups: people 65 and older, people with chronic conditions such as asthma, diabetes or heart disease, pregnant people, and children younger than 5, especially younger than 2 (risk table, FAQ).",
+     "quote": "This includes people 65 years and older, people of any age with certain chronic medical conditions (such as asthma, diabetes, or heart disease), pregnant women, and children younger than 5 years, especially those younger than 2 years.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 18,
+   "kind": "agency_page",
+   "cited_as": "Centers for Disease Control and Prevention (CDC). About RSV. Last reviewed December 30, 2025. Accessed November 7, 2026.",
+   "url": "https://www.cdc.gov/rsv/about/index.html",
+   "record_title": "About RSV",
+   "version_or_date": "Last reviewed December 30, 2025",
+   "retrieved_with": "WebFetch (official CDC page), 2026-11-07",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "Added this run (supports the RSV sentence, previously uncited). Not a journal article, so no PubMed retraction check applies; scite_unavailable.",
+   "claims": [
+    {
+     "text": "RSV usually causes mild, cold-like symptoms; infants and older adults are more likely to develop severe RSV illness (differences section).",
+     "quote": "usually causes mild, cold-like symptoms ... Infants and adults who are older or have certain risk factors are more likely to develop severe RSV illness",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  }
+ ]
+}
