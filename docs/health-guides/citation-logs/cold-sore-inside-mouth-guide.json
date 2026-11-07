@@ -1,0 +1,629 @@
+{
+ "guide": "cold-sore-inside-mouth-guide",
+ "checked_at": "2026-11-07",
+ "checked_by": "Claude (repair run)",
+ "scite_verify_papers": "unavailable (quota exhausted until 2026-11-14); retraction status from PubMed article types",
+ "references": [
+  {
+   "n": 1,
+   "kind": "journal",
+   "cited_as": "Woo SB, Challacombe SJ. Management of recurrent oral herpes simplex infections. Oral Surgery, Oral Medicine, Oral Pathology, Oral Radiology, and Endodontics. 2007;103(Suppl):S12.e1-18.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/17379150/",
+   "pmid": "17379150",
+   "doi": "10.1016/j.tripleo.2006.11.004",
+   "record_title": "Management of recurrent oral herpes simplex infections.",
+   "record_journal": "Oral Surg Oral Med Oral Pathol Oral Radiol Endod",
+   "record_year": "2007",
+   "article_type": "Journal Article; Review (PubMed)",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract only; no PMC full text)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice. Abstract-only: kept only for the antiviral-treatment claim. Diagnostic and site claims previously pinned to this ref were moved to de Paiva 2025, Akintoye 2014 and Coppola 2023. Journal name corrected from \"Endodontology\" to \"Endodontics\".",
+   "claims": [
+    {
+     "text": "Recurrent intraoral herpes can be effectively treated with oral acyclovir or valacyclovir, with longer courses for people with weakened immune systems (expert review of trials)",
+     "quote": "recurrent intraoral HSV infections can be effectively treated with systemic ACV 400 mg 3 times a day or systemic valacyclovir 500 to 1000 mg twice a day for 3 to 5 days (longer in the immunocompromised).",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Herpes sores inside the mouth are treated with antiviral medication; a clinician can decide whether antiviral treatment fits (canker vs herpes list, comparison and treatment tables, recurrent and clinician paragraphs)",
+     "quote": "recurrent intraoral HSV infections can be effectively treated with systemic ACV 400 mg 3 times a day or systemic valacyclovir",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "kind": "journal",
+   "cited_as": "Tovaru S, Parlatescu I, Tovaru M, Cionca L, Arduino PG. Recurrent intraoral HSV-1 infection: a retrospective study of 58 immunocompetent patients from Eastern Europe. Medicina Oral, Patologia Oral y Cirugia Bucal. 2011;16(2):e163-9.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/20711124/",
+   "pmid": "20711124",
+   "doi": "10.4317/medoral.16.e163",
+   "record_title": "Recurrent intraoral HSV-1 infection: A retrospective study of 58 immunocompetent patients from Eastern Europe.",
+   "record_journal": "Med Oral Patol Oral Cir Bucal",
+   "record_year": "2011",
+   "article_type": "Journal Article (PubMed); retrospective case series",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract) + WebFetch of the publisher full-text PDF (medicinaoral.com, reached via the DOI redirect)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice. Full text contradicts the old guide: no patient had tingling or burning before the intraoral sores, and the labial mucosa (inner lip lining) was the most common site, with fixed and mobile mucosa usually involved together. Study population includes children and older adults (PubMed MeSH), so the guide now says \"patients\", not \"adults\". The paper's healing-time sentence (1 to 10 days) is cited to earlier literature and was not used.",
+   "claims": [
+    {
+     "text": "HSV-1 causes recurrent sores inside the mouth (lab-confirmed series); herpes simplex is the cause in the comparison tables",
+     "quote": "Fifty-eight, unrelated Caucasian, immunocompetent patients with positive laboratory test for intraoral Herpes simplex virus infection were studied.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "In the case series, the inner lip lining was the most commonly affected site and most cases involved both firm and movable lining; herpes can involve the inner lip",
+     "quote": "The labial mucosa was the most commonly affected (51.7%). ... In most of the cases both fixed and mobile mucosa was concomitantly involved.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Most patients had several sores at once",
+     "quote": "Most of patients in this study presented multiple lesions.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Pain and burning were the main complaints",
+     "quote": "Two main complaints were observed: pain and burning.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "In no patient were the mouth sores preceded by tingling or burning; tingling beforehand is uncommon inside the mouth",
+     "quote": "In any patient from this series, the intraoral infection was not preceded by other local symptoms (tingling or burning).",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "A likely trigger was identified in only 9 of 58 patients (15.5 percent)",
+     "quote": "Possible trigger factors were identified in 9 cases (15.5%).",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "14 of 58 patients had a lip sore at the same time as their mouth sores",
+     "quote": "14 patients had vermillion lesions associated with intraoral lesions.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "kind": "journal",
+   "cited_as": "de Paiva JPG, Sousa-Neto SS, Humberto MAC, Magalhaes MAO, Bubola J, Assuncao Junior JNR, et al. Unusual oral presentations of herpes simplex virus-1: a series of eight cases and literature review. Special Care in Dentistry. 2025;45(6):e70129.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41414046/",
+   "pmid": "41414046",
+   "pmcid": "PMC12715298",
+   "doi": "10.1111/scd.70129",
+   "record_title": "Unusual Oral Presentations of Herpes Simplex Virus-1: A Series of Eight Cases and Literature Review.",
+   "record_journal": "Spec Care Dentist",
+   "record_year": "2025",
+   "article_type": "Journal Article; Review; Case Reports (PubMed)",
+   "retrieved_with": "PubMed connector get_article_metadata + PMC full text (get_full_text_article)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice. Volume/issue corrected from 45(2) to 45(6) per PubMed. Site-predilection statements come from the paper's introduction and discussion, which cite earlier literature; the guide uses them only qualitatively (no numbers).",
+   "claims": [
+    {
+     "text": "The gums (attached gingiva) and hard palate are the most common sites for recurrent intraoral herpes; herpes favors the gums and roof of the mouth",
+     "quote": "The hard palate and attached gingiva are the most common sites for recurrent intraoral herpes infection, likely due to their keratinized mucosal lining",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Recurrences typically appear as several small blisters or ulcers on the gums or hard palate; herpes often appears as several small sores",
+     "quote": "recurrent viral activations can cause multiple small vesicles/ulcers on the keratinized tissues of the hard palate and gingiva",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Herpes can occasionally look like a single, long-lasting ulcer",
+     "quote": "These lesions can manifest as solitary, painful ulcers or white plaque‐like lesions involving either keratinized or non‐keratinized mucosa.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "In people with weakened immune systems herpes can be prolonged, severe, painful and atypical",
+     "quote": "in immunocompromised patients, herpetic infection often exhibits atypical features, including extensive, aggressive, slow‐healing, and markedly painful lesions",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Some uncommon but important conditions can present as a mouth ulcer (diagnostic uncertainty)",
+     "quote": "These unusual lesions may mimic other conditions, such as mucositis, drug‐induced reactions, neutropenic ulcers, or other viral infections",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "A clinician can usually tell these patterns apart from the history and an examination of the mouth",
+     "quote": "Herpetic infection diagnosis typically relies on clinical history and intraoral examination",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Citable summary: antiviral medication can speed healing of herpes sores",
+     "quote": "topical or systemic antiviral therapy (e.g., acyclovir, valacyclovir) may significantly accelerate lesion resolution and improve clinical outcomes",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "kind": "journal",
+   "cited_as": "Akintoye SO, Greenberg MS. Recurrent aphthous stomatitis. Dental Clinics of North America. 2014;58(2):281-297.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/24655523/",
+   "pmid": "24655523",
+   "pmcid": "PMC3964366",
+   "doi": "10.1016/j.cden.2013.12.002",
+   "record_title": "Recurrent aphthous stomatitis.",
+   "record_journal": "Dent Clin North Am",
+   "record_year": "2014",
+   "article_type": "Journal Article; Review (PubMed)",
+   "retrieved_with": "PubMed connector get_article_metadata + PMC full text (get_full_text_article)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice. New source added for canker-sore (aphthous) claims previously pinned to Woo 2007 and Opstelten 2008, neither of which addresses aphthous ulcers. Corrects the old table cell saying canker sores usually have no early sensation: RAS has a prodromal burning sensation.",
+   "claims": [
+    {
+     "text": "Canker sores usually form on the loose, non-keratinized lining, most often the inner cheek and inner lip",
+     "quote": "RAS ulcers usually develop on non-keratinized oral mucosa, with the buccal and labial mucosa being the most common sites",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Canker sores have not been linked to herpes simplex virus; separate conditions; a canker sore cannot turn into a cold sore",
+     "quote": "RAS has not been etiologically associated with herpes simplex virus based on several well-designed studies",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Canker sores are not an infection; antiviral medicine is neither necessary nor effective for them",
+     "quote": "reassure RAS patients that they do not have an infectious disease and that antiviral therapy is neither necessary nor effective.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "A round, shallow ulcer with a red rim (yellow-gray center) is the typical canker sore, the most common cause of mouth ulcers",
+     "quote": "Recurrent aphthous stomatitis (RAS) remains the most common ulcerative disease of the oral mucosa presenting as painful round shallow ulcers with well-defined erythematous margin and yellowish-gray pseudomembranous center.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Canker sores can be preceded by burning for up to 2 days",
+     "quote": "RAS has a characteristic prodromal burning sensation that lasts from 2 to 48 hours before an ulcer appears.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Canker sores also occur on the tongue",
+     "quote": "It occurs in otherwise healthy individuals and is typically located on the buccal and labial mucosa and tongue.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Canker sores affect roughly 20 percent of people",
+     "quote": "Approximately 20% of the general population is affected by RAS",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Exact cause of canker sores is unknown",
+     "quote": "The etiology of RAS lesions is still unknown",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Minor injury, stress, and reactions to certain foods have been linked to canker sores",
+     "quote": "These include local factors, such as trauma in individuals who are genetically susceptible to RAS, ... immunologic factors, psychosocial stress, and allergy to dietary constituents.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Recurrent intraoral herpes and canker sores are often confused by patients and clinicians",
+     "quote": "both laymen and clinicians often confuse RAS with herpes simplex virus (HSV) infection.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Canker sore management: protective paste or topical numbing agent",
+     "quote": "Symptoms resulting from occasional small lesions are often adequately controlled with use of a protective emollient such as Zilactin",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Canker sore management: prescription topical steroid for more frequent or severe ulcers",
+     "quote": "In patients with more frequent or more severe disease, use of a topical glucocorticoid is an effective therapy to decrease both the size and healing time of the ulcers",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Canker sores are managed with topical symptom relief",
+     "quote": "Most cases can be adequately managed with topical therapy",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Uncommon but important conditions can present as a mouth ulcer",
+     "quote": "Diseases which also cause oral ulcers that may be mistaken for RAS include Behçet’s disease, cyclic neutropenia, recurring intraoral herpes infections, HIV-related oral ulcers",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "A clinician can tell canker sores from herpes and recommend symptom relief for canker sores",
+     "quote": "it is the clinician’s responsibility to distinguish RAS from herpes infections",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "kind": "journal",
+   "cited_as": "Coppola N, Cantile T, Adamo D, Canfora F, Baldares S, Riccitiello F, et al. Supportive care and antiviral treatments in primary herpetic gingivostomatitis: a systematic review. Clinical Oral Investigations. 2023;27(11):6333-6344.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37733027/",
+   "pmid": "37733027",
+   "pmcid": "PMC10630243",
+   "doi": "10.1007/s00784-023-05250-5",
+   "record_title": "Supportive care and antiviral treatments in primary herpetic gingivostomatitis: a systematic review.",
+   "record_journal": "Clin Oral Investig",
+   "record_year": "2023",
+   "article_type": "Systematic Review; Journal Article (PubMed)",
+   "retrieved_with": "PubMed connector get_article_metadata + PMC full text (get_full_text_article)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice. New source replacing Leung 2017 (herpes labialis abstract, no gingivostomatitis content) and Woo 2007 for primary-infection claims. The 13-30% figure and clinical description are from the review's introduction (cited to earlier literature); duration numbers in the guide come from the primary trial (Amir 1997, ref 6) instead of this review's 10-14 day background statement. The older Cochrane review (Nasser 2008) was found withdrawn in 2016 and is not cited.",
+   "claims": [
+    {
+     "text": "In 13 to 30 percent of children and adolescents a first HSV-1 infection is symptomatic, most often as primary herpetic gingivostomatitis; first infections are often mild or silent",
+     "quote": "in 13–30% of children and adolescents, primary HSV-1 is symptomatic, and the most common specific clinical manifestation is the primary herpetic gingivostomatitis (PHGS)",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Clusters of 1 to 2 mm blisters break down quickly into painful sores",
+     "quote": "Clinical appearance of the disease consists in 1–2 mm vesicles, typically in cluster morphology, that break down rapidly, causing painful, irregular erosive lesions",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Most often on the gums, inner lips, and palate, with swollen gums",
+     "quote": "The most common sites of PHGS are gingiva, labial mucosa, and palate ... Other clinical features include gingival swelling and edema",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Fever, irritability, loss of appetite",
+     "quote": "prodromal signs may appear, such as fever, asthenia, myalgia, nausea, loss of appetite, irritability, and headache.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Extra saliva or drooling",
+     "quote": "The oral mucosal and gingival features are usually accompanied to pyrexia, lethargy, and hypersalivation",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Dehydration is the most common complication, sometimes needing hospital care; difficulty eating and drinking",
+     "quote": "The most common complication is dehydration, due to difficulty eating and drinking, requiring the administration of fluids and, in some cases, hospitalization",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Two age peaks: children 6 months to 5 years, and young adults",
+     "quote": "Two age peaks of onset of PHGS are recognized: children between 6 months and 5 years old and young adult",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "After the first infection the virus stays dormant in a nerve and can reactivate; recurrences generally less severe than the first infection",
+     "quote": "After the primary infection, the virus becomes latent in the trigeminal ganglion, but it can be readily reactivated, causing recurrent infections which are generally less severe than the primary infection",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Reactivation has been linked to heat, cold, injury, fever, stress, and changes in immune status",
+     "quote": "The stimuli that trigger reactivation in humans can be heat, cold, trauma, fever, stress, and changes in host’s immune defense status",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Because blisters break so fast, the sores can look nonspecific and the diagnosis can be missed",
+     "quote": "often the blistering lesions rapidly break, resulting in unspecific erosions.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Systematic review judged acyclovir evidence weak (single trial)",
+     "quote": "Out of the five studies included in this systematic review, only one was able to provide some weak evidence that ACV is an effective treatment",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Diagnostic delay past 72 hours reduces antiviral benefit",
+     "quote": "the diagnostic delay, estimated in 72 h, decreases the effectiveness of any antiviral drugs.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Fluids and pain control are core supportive measures; acyclovir if started early (treatment table)",
+     "quote": "a wide range of therapeutic methods have been proposed, ranging from supportive treatment, including hydration and pain management to antiviral treatment (e.g., oral acyclovir administered within the first 72 h of disease onset)",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Gingivostomatitis is contagious (spread by contact with lesions and saliva)",
+     "quote": "The transmission of the HSV-1 occurs through direct contact with the lesion or with biological fluids containing the virus, such as saliva and genital fluids.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Figure 2: sores heal without scarring",
+     "quote": "heal gradually in 10–14 days, without scarring",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "kind": "journal",
+   "cited_as": "Amir J, Harel L, Smetana Z, Varsano I. Treatment of herpes simplex gingivostomatitis with aciclovir in children: a randomised double blind placebo controlled study. BMJ. 1997;314(7097):1800-1803.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/9224082/",
+   "pmid": "9224082",
+   "pmcid": "PMC2126953",
+   "doi": "10.1136/bmj.314.7097.1800",
+   "record_title": "Treatment of herpes simplex gingivostomatitis with aciclovir in children: a randomised double blind placebo controlled study.",
+   "record_journal": "BMJ",
+   "record_year": "1997",
+   "article_type": "Clinical Trial; Randomized Controlled Trial (PubMed)",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice. New primary source for gingivostomatitis duration and acyclovir effect, replacing the unsupported \"10 to 14 days\" figure attributed to Woo 2007 and Leung 2017. Claims limited to the abstract. 72 children enrolled; 61 culture-positive children finished.",
+   "claims": [
+    {
+     "text": "Trial in children aged 1 to 6 with gingivostomatitis",
+     "quote": "72 children aged 1-6 years with clinical manifestations of gingivostomatitis lasting less than 72 hours; 61 children with cultures positive for herpes simplex virus finished the study.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Untreated (placebo) mouth sores lasted a median of 10 days; acyclovir median 4 days",
+     "quote": "Children receiving aciclovir had oral lesions for a shorter period than children receiving placebo (median 4 v 10 days (difference 6 days, 95% confidence interval 4.0 to 8.0))",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Untreated fever median 3 days; eating difficulty median 7 days; drinking difficulty median 6 days (text and Figure 2)",
+     "quote": "fever (1 v 3 days (2 days, 0.8 to 3.2)); ... eating difficulties (4 v 7 days (3 days, 1.31 to 4.69)); and drinking difficulties (3 v 6 days (3 days, 1.1 to 4.9))",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Oral acyclovir started within the first 3 days shortened sores, fever, eating and drinking difficulty, and viral shedding",
+     "quote": "Oral aciclovir treatment for herpetic gingivostomatitis, started within the first three days of onset, shortens the duration of all clinical manifestations and the infectivity of affected children.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "kind": "journal",
+   "cited_as": "Cernik C, Gallina K, Brodell RT. The treatment of herpes simplex infections: an evidence-based review. Archives of Internal Medicine. 2008;168(11):1137-1144.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/18541820/",
+   "pmid": "18541820",
+   "doi": "10.1001/archinte.168.11.1137",
+   "record_title": "The treatment of herpes simplex infections: an evidence-based review.",
+   "record_journal": "Arch Intern Med",
+   "record_year": "2008",
+   "article_type": "Journal Article; Review (PubMed)",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice. Abstract covers genital and labial herpes; now cited only for famciclovir being one of the oral antivirals used for herpes.",
+   "claims": [
+    {
+     "text": "Famciclovir is a third oral antiviral used for herpes",
+     "quote": "choosing an appropriate drug (eg, acyclovir, valacyclovir hydrochloride, or famciclovir) and dosing regimen can be confusing",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "kind": "guideline",
+   "cited_as": "Centers for Disease Control and Prevention. Herpes: STI treatment guidelines, 2021. CDC Division of STD Prevention. Last reviewed September 21, 2022.",
+   "url": "https://www.cdc.gov/std/treatment-guidelines/herpes.htm",
+   "version_or_date": "CDC STI Treatment Guidelines 2021, herpes page; last reviewed September 21, 2022; read 2026-11-07",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "This genital-herpes guideline does not address oral HSV-1 spread by saliva or kissing or cold-sore contact with babies; all contagion and newborn claims were moved to WHO (ref 9) and NHS (ref 10). Kept only for the immunocompromised statement, which names oral herpes.",
+   "claims": [
+    {
+     "text": "In people with weakened immune systems oral herpes can be prolonged or severe; see a clinician for sores in someone with a weakened immune system",
+     "quote": "Immunocompromised patients can have prolonged or severe episodes of genital, perianal, or oral herpes.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Herpes in immunocompromised people can be painful and atypical",
+     "quote": "Lesions caused by HSV are common among persons with HIV infection and might be severe, painful, and atypical",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "kind": "agency_page",
+   "cited_as": "World Health Organization. Herpes simplex virus fact sheet. WHO. Updated May 30, 2025.",
+   "url": "https://www.who.int/news-room/fact-sheets/detail/herpes-simplex-virus",
+   "version_or_date": "Fact sheet dated 30 May 2025; read 2026-11-07",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "Now the main source for HSV-1 contagion statements (previously misattributed to the CDC genital herpes guideline).",
+   "claims": [
+    {
+     "text": "HSV-1 is the type that mostly causes infections in or around the mouth",
+     "quote": "Type 1 (HSV-1) mostly spreads by oral contact and causes infections in or around the mouth (oral herpes or cold sores).",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "HSV-1 spreads through contact with the virus in sores, saliva, or skin in or around the mouth; contagious (Yes in tables)",
+     "quote": "HSV-1 is mainly transmitted via contact with the virus in sores, saliva or skin surfaces in or around the mouth.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Most contagious when sores are present",
+     "quote": "Both HSV-1 and HSV-2 are most contagious when sores are present",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Can also spread when no symptoms are visible",
+     "quote": "can also be transmitted when no symptoms are felt or visible.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "During an outbreak avoid kissing and sharing objects that touch saliva, such as cups, utensils, or toothbrushes",
+     "quote": "People with symptoms of oral herpes should avoid oral contact with others (including oral sex) and sharing objects that touched saliva.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "kind": "agency_page",
+   "cited_as": "National Health Service (UK). Cold sores. NHS website. Page last reviewed February 19, 2024.",
+   "url": "https://www.nhs.uk/conditions/cold-sores/",
+   "version_or_date": "Page last reviewed 19 February 2024; next review due 19 February 2027; read 2026-11-07",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "New source for newborn safety and when-to-see-a-clinician advice. The NHS page speaks of cold sores generally; extending the baby advice to sores inside the mouth relies on WHO (ref 9) stating HSV-1 spreads through sores and saliva in or around the mouth, so that claim is logged as partly supported.",
+   "claims": [
+    {
+     "text": "See a clinician for swollen, painful gums with sores in the mouth (possible first herpes infection), including a child not drinking well",
+     "quote": "you or your child also have swollen, painful gums and sores in the mouth (gingivostomatitis)",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "See a clinician for a very large or painful sore",
+     "quote": "the cold sore is very large or painful",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "See a clinician if you have a weakened immune system",
+     "quote": "you have a weakened immune system – for example, because of chemotherapy or diabetes",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Wash hands with soap and water after touching a sore",
+     "quote": "wash your hands with soap and water whenever you touch your cold sore",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Kissing a baby while you have a cold sore can lead to neonatal herpes, very dangerous to newborns; do not kiss a baby while you have an active sore on the lip or in the mouth",
+     "quote": "Kissing a baby if you have a cold sore can lead to neonatal herpes, which is very dangerous to newborn babies.",
+     "quote_source": "official_page",
+     "verdict": "partly_supported"
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "kind": "agency_page",
+   "cited_as": "National Health Service (UK). Mouth ulcers. NHS website. Page last reviewed March 11, 2024.",
+   "url": "https://www.nhs.uk/conditions/mouth-ulcers/",
+   "version_or_date": "Page last reviewed 11 March 2024; next review due 11 March 2027; read 2026-11-07",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "New source. Corrects the old \"two weeks\" evaluation threshold: NHS advises seeing a dentist or GP if a mouth ulcer lasts longer than 3 weeks.",
+   "claims": [
+    {
+     "text": "Mouth ulcers (canker sores and ulcers from injury) are not contagious",
+     "quote": "Mouth ulcers are not contagious and should not be confused with cold sores.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "A mouth ulcer that lasts longer than 3 weeks should be checked by a dentist or doctor",
+     "quote": "See a dentist or GP if your mouth ulcer: lasts longer than 3 weeks",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Also get checked if it looks different from ulcers you have had before, or bleeds or becomes more painful and red",
+     "quote": "is different to other mouth ulcers you've had before ... bleeds or becomes more painful and red",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Injury causes: biting the inside of the cheek, a burn from hot food or drink, rubbing from a sharp tooth, braces, or dentures",
+     "quote": "biting the inside of your cheek; badly fitting dentures, braces, rough fillings or a sharp tooth; cuts or burns while eating or drinking – for example, hard food or hot drinks",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Symptom relief: avoid spicy, salty, or acidic foods; pharmacy pain-relief product",
+     "quote": "do not eat very spicy, salty or acidic food ... a painkilling tablet, mouthwash, gel or spray",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Canker sores usually clear up on their own within a week or 2",
+     "quote": "Mouth ulcers are common and should clear up on their own within a week or 2.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "kind": "other_web",
+   "cited_as": "Porter D; reviewed by Chaudhary OR. Herpes Eye Infections: What is Herpes Keratitis? American Academy of Ophthalmology EyeSmart. Published August 13, 2026.",
+   "url": "https://www.aao.org/eye-health/diseases/herpes-keratitis",
+   "version_or_date": "Published Aug 13, 2026; read 2026-11-07",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "New source for the eye red flag, previously pinned to Opstelten 2008 (no eye content in the retrievable abstract).",
+   "claims": [
+    {
+     "text": "Eye pain, redness, blurred vision, tearing, or light sensitivity can signal a herpes eye infection",
+     "quote": "The symptoms of ocular herpes, including herpes keratitis, may include: pain, redness, rash, blurred vision, tearing, discharge, sensitivity to light",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "A herpes eye infection needs prompt care from an eye doctor",
+     "quote": "Left untreated, a herpes keratitis eye infection can severely damage your vision.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  }
+ ]
+}

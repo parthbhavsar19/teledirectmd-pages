@@ -1,0 +1,396 @@
+{
+  "guide": "topical-steroid-withdrawal-guide",
+  "checked_at": "2026-11-07",
+  "checked_by": "Claude (repair run)",
+  "scite_verify_papers": "unavailable (quota exhausted until 2026-11-14); retraction status from PubMed article types",
+  "references": [
+    {
+      "n": 1,
+      "kind": "journal",
+      "cited_as": "Hajar T, Leshem YA, Hanifin JM, et al. A systematic review of topical corticosteroid withdrawal (\"steroid addiction\") in patients with atopic dermatitis and other dermatoses. Journal of the American Academy of Dermatology. 2015;72(3):541-549.e2.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25592622/",
+      "pmid": "25592622",
+      "doi": "10.1016/j.jaad.2014.11.024",
+      "record_title": "A systematic review of topical corticosteroid withdrawal (\"steroid addiction\") in patients with atopic dermatitis and other dermatoses.",
+      "record_journal": "J Am Acad Dermatol",
+      "record_year": "2015",
+      "article_type": "Systematic Review (PubMed: Journal Article; Systematic Review)",
+      "retrieved_with": "PubMed get_article_metadata (abstract only; no PMC full text)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "scite_unavailable. PubMed article types contain no Retracted Publication or Retraction Notice. Abstract-only: claims limited to the abstract. Author list corrected (PubMed lists 8 named authors; guide previously listed 4 with no et al). Removed unsupported claims previously cited here: recovery months to years, far lower risk with short-course use, severe form uncommon, eyelids as a risk site. Also linked from the citable summary (\"low quality\").",
+      "claims": [
+        {
+          "text": "TSW reported mostly after long-term inappropriate use of potent steroids, mostly on the face and genital area (key takeaway; Who Gets It: mostly face and genitals, mostly women; table row on face or genital area)",
+          "quote": "TCS withdrawal was reported mostly on the face and genital area (99.3%) of women (81.0%) primarily in the setting of long-term inappropriate use of potent TCS.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Burning and stinging most frequently reported symptoms, redness most common sign (key takeaway; Symptoms; FAQ symptoms)",
+          "quote": "Burning and stinging were the most frequently reported symptoms (65.5%) with erythema being the most common sign (92.3%).",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "One subtype presents with more burning and swelling (Symptoms; FAQ swelling)",
+          "quote": "TCS withdrawal syndrome can be divided into papulopustular and erythematoedematous subtypes, with the latter presenting with more burning and edema.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "2015 review concluded TSW is likely a distinct adverse effect of steroid misuse (Debate; FAQ is it real)",
+          "quote": "TCS withdrawal is likely a distinct clinical adverse effect of TCS misuse.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Quality of evidence is low (Debate; Treatment; FAQ is it real; FAQ taper: no high-quality evidence either way)",
+          "quote": "Low quality of evidence, variability in the extent of data, and the lack of studies with rigorous steroid addiction methodology are limitations.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "kind": "journal",
+      "cited_as": "Fukaya M, Sato K, Sato M, et al. Topical steroid addiction in atopic dermatitis. Drug, Healthcare and Patient Safety. 2014;6:131-138. Review.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25378953/",
+      "pmid": "25378953",
+      "pmcid": "PMC4207549",
+      "doi": "10.2147/DHPS.S6920",
+      "record_title": "Topical steroid addiction in atopic dermatitis.",
+      "record_journal": "Drug Healthc Patient Saf",
+      "record_year": "2014",
+      "article_type": "Review (PubMed: Journal Article; Review)",
+      "retrieved_with": "PubMed get_article_metadata; PubMed get_full_text_article (PMC4207549)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "scite_unavailable. PubMed article types contain no Retracted Publication or Retraction Notice. Displayed DOI corrected from DHPS.S69201 to DHPS.S6920 (PubMed/PMC record); author list corrected (8 authors, now \"et al\"). Previously cited for taper-over-abrupt advice, vasoconstriction mechanism and preservative-free moisturizers, which the full text does not support; now cited only for what the authors actually say, presented as one clinician group's view (authors are Japanese clinics that treat the condition; abstract: \"based on the treatment of many cases of the illness\").",
+      "claims": [
+        {
+          "text": "Japanese clinician group attributes TSW mainly to barrier damage from steroid-induced thinning of the skin (Why It Happens)",
+          "quote": "The addiction seems to be caused by direct action to the skin (probably barrier destruction due to epidermis atrophy) from the TCS",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Difference between abrupt withdrawal and gradual decrease is small (Treatment; FAQ taper; citable summary)",
+          "quote": "The difference between abrupt withdrawal and the gradual or intermittent decrease of applied steroids is small.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Some people cannot reduce their steroid at all without an immediate rebound (Treatment)",
+          "quote": "there are sufferers who cannot decrease the amount or potency of their TCS at all because they experience rebound immediately if the medication is decreased.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Clinicians who treat many cases (description of the authors)",
+          "quote": "Here, we describe the clinical features of topical steroid addiction or red burning skin syndrome, based on the treatment of many cases of the illness.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Rebound peaks from several days to a few months then gradually settles (Timeline)",
+          "quote": "The peak of the rebound reaction also ranges, from several days to a few months depending on the patient. The rebound eruption gradually becomes dull as time passes and as it spreads.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Entire course from weeks to even years (Timeline; FAQ how long)",
+          "quote": "The entire course can take from weeks to even years.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Term addiction first used for people who could not do without the steroid because eczema recurred soon after stopping (FAQ addictive)",
+          "quote": "He conveyed a situation in which the patients become unable to do without the TCS because the eczema would recur soon after discontinuation.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Term now describes skin that becomes worse after withdrawal than before treatment (FAQ addictive)",
+          "quote": "TSA is the situation where skin develops more severe or diverse skin manifestations after the withdrawal from TCS than at preapplication.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "kind": "journal",
+      "cited_as": "Finnegan P, Murphy M, O'Connor C. #corticophobia: a review on online misinformation related to topical steroids. Clinical and Experimental Dermatology. 2023;48(2):112-115.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36730502/",
+      "pmid": "36730502",
+      "doi": "10.1093/ced/llac019",
+      "record_title": "#corticophobia: a review on online misinformation related to topical steroids.",
+      "record_journal": "Clin Exp Dermatol",
+      "record_year": "2023",
+      "article_type": "Review (PubMed: Review; Journal Article)",
+      "retrieved_with": "PubMed get_article_metadata (abstract only)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "scite_unavailable. PubMed article types contain no Retracted Publication or Retraction Notice. Abstract-only. Removed claims it does not support: misinformation \"on both sides\"; \"do not restart the steroid, which restarts the cycle\". Guide now states that this review calls TSW a prevalent social-media myth.",
+      "claims": [
+        {
+          "text": "Misinformation-driven fear can lead people to skip prescribed treatment (key takeaway; Debate)",
+          "quote": "Nonadherence to prescribed TCS can be due to phobia secondary to misinformation.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Fear driven by misinformation can obstruct successful treatment (Avoid callout; FAQ online warnings)",
+          "quote": "TCS phobia is a complex multifaceted phenomenon that exploits patients with skin disease, creates cognitive dissonance and can obstruct successful treatment.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "2023 review called TSW a particularly prevalent myth on social media (Debate)",
+          "quote": "'Topical steroid withdrawal', 'red skin syndrome' or 'TCS addiction' is a particularly prevalent myth currently being propagated on social media",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Some natural or herbal remedies promoted online can contain significant quantities of corticosteroids or other potent ingredients (Avoid callout)",
+          "quote": "'natural' products as alternative treatments, including 'herbal' remedies, which can contain significant quantities of corticosteroids or other potent ingredients.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Topical steroids are a safe and effective treatment for many skin conditions (FAQ online warnings)",
+          "quote": "Topical corticosteroids (TCS) are a safe and effective treatment used in multiple dermatological conditions.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "kind": "agency_page",
+      "cited_as": "Medicines and Healthcare products Regulatory Agency. Topical steroid withdrawal reactions: a review of the evidence. Public Assessment Report. GOV.UK. Published September 15, 2021. Accessed November 7, 2026.",
+      "url": "https://www.gov.uk/government/publications/topical-steroid-withdrawal-reactions-a-review-of-the-evidence/topical-steroid-withdrawal-reactions-a-review-of-the-evidence",
+      "version_or_date": "Published 15 September 2021 (read 2026-11-07)",
+      "retrieved_with": "WebFetch of official GOV.UK HTML report (verbatim extraction prompts)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "New source (UK medicines regulator review). Direct curl to gov.uk refused by this environment's egress proxy; page read with WebFetch, which returned verbatim sentence pieces. Some sentences in the report summarize secondary literature (Hajar 2015, Sheary 2018, Juhasz 2017); the guide cites only the regulator's own conclusions and descriptions, and states the nitric oxide and barrier ideas as proposed explanations.",
+      "claims": [
+        {
+          "text": "TSW develops after stopping following prolonged, frequent or inappropriate use of moderate to high potency steroids (What Is It; Who Gets It; key takeaway; table; citable summary)",
+          "quote": "Topical steroid withdrawal reactions are thought to result from prolonged, frequent, and inappropriate use of moderate to high-potency topical corticosteroids.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Severe form reported with redness and burning worse than the original condition (What Is It)",
+          "quote": "A particularly severe type of topical steroid withdrawal reaction has been reported with skin redness (or a spectrum of colour changes or change in normal skin tone) and burning worse than the original condition.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Features: redness extending beyond treated area, burning or stinging, intense itching, peeling, oozing open sores (Symptoms; comparison table; FAQ symptoms)",
+          "quote": "redness of the skin which can extend beyond the initial area treated, a burning or stinging sensation, intense itching, peeling of the skin, oozing open sores.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Reported after application at least daily for more than a year (Who Gets It)",
+          "quote": "It has been reported that these reactions develop after application of a topical steroid at least daily for more than a year.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "People with atopic dermatitis thought most at risk (Who Gets It; schema riskFactor)",
+          "quote": "People with atopic dermatitis are thought to be most at risk of developing topical steroid withdrawal reactions",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Not reported with normal use such as short courses or short breaks (key takeaway; Who Gets It; table)",
+          "quote": "To date, they have not been reported with normal use, such as treating certain skin conditions for short periods of time, or with short breaks in treatment over an extended period",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Steroids constrict skin vessels so some reddening expected on stopping (Why It Happens; FAQ face burn)",
+          "quote": "Topical corticosteroids are known to constrict blood vessels in the skin and therefore some reddening of the skin would be expected on withdrawal.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Severe form could be an extreme version of this (Why It Happens)",
+          "quote": "However, this specific kind of topical steroid withdrawal reaction could be an extreme form of this reaction.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Proposed: widened vessels from raised nitric oxide (Why It Happens; FAQ face burn)",
+          "quote": "Sheary (2018) postulated that the basis for the skin redness seen in these patients is due to an elevation in blood nitric oxide levels, which widens blood vessels, increasing blood flow to the skin.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Proposed: barrier disruption setting off inflammation (Why It Happens; FAQ face burn)",
+          "quote": "It has also been proposed that topical corticosteroids disrupt the epidermal barrier causing an initiation of cytokine cascade followed by an inflammatory response",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Growing evidence with continual long-term use; frequency cannot be estimated; severe reactions very infrequent (Debate; FAQ is it real; citable summary)",
+          "quote": "We are unable to estimate the frequency of these reactions. However, given the number of patients who use topical corticosteroids, we understand reports of severe withdrawal reactions to be very infrequent.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Growing evidence of reactions with continual long-term use (Debate; FAQ is it real)",
+          "quote": "There is growing evidence of topical steroid withdrawal reactions if they are used continually for a long time.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Used correctly, topical steroids are safe and effective (Debate)",
+          "quote": "This review has concluded that when used correctly, topical corticosteroid medicines are safe and effective treatments for skin disorders.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Very frequent or continual long-term use has been followed by withdrawal reactions (Debate)",
+          "quote": "However, if used very often or continually for a prolonged time, there have been reports of withdrawal reactions after they are stopped.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Reactions can be debilitating and long lasting (Timeline; FAQ how long)",
+          "quote": "however they can be debilitating and long lasting.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Rebound flares may still benefit from a topical steroid (Treatment)",
+          "quote": "Rebound reactions may still benefit from treatment with a topical corticosteroid.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Seek medical advice before restarting if redness spreads beyond treated area and burns (When to See a Doctor)",
+          "quote": "If your condition has resolved and on recurrence the redness extends beyond the initial treatment area and you experience a burning sensation, please seek medical advice before restarting treatment.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "kind": "agency_page",
+      "cited_as": "Medicines and Healthcare products Regulatory Agency. Topical corticosteroids: information on the risk of topical steroid withdrawal reactions. Drug Safety Update. GOV.UK. Published September 15, 2021. Accessed November 7, 2026.",
+      "url": "https://www.gov.uk/drug-safety-update/topical-corticosteroids-information-on-the-risk-of-topical-steroid-withdrawal-reactions",
+      "version_or_date": "Published 15 September 2021 (read 2026-11-07)",
+      "retrieved_with": "WebFetch of official GOV.UK page (verbatim extraction prompt)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "New source: UK regulator advice to clinicians and patients. Supports the guide's regulator-level advice on reducing potency or frequency and on not restarting within 2 weeks without a clinician. It does not say tapering prevents TSW; the guide does not claim that.",
+      "claims": [
+        {
+          "text": "Most common reaction on stopping is a rebound of the underlying skin disorder (What Is It)",
+          "quote": "The most common reaction is a rebound (or flare) of the underlying skin disorder such as atopic dermatitis.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Flare can be worse than the original condition and spread beyond the treated area (key takeaway; comparison table)",
+          "quote": "skin redness extends beyond the initial area of treatment with burning or stinging and that is worse than the original condition.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Rebound flares with intense redness, stinging and burning that can spread beyond the treated area (comparison table)",
+          "quote": "there are reports of such flares taking the form of a dermatitis with intense redness, stinging, and burning that can spread beyond the initial treatment area",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Burning rather than itch is the main symptom (Symptoms; comparison table)",
+          "quote": "burning rather than itch is the main symptom",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Redness confluent rather than patchy (Symptoms; comparison table confluent redness)",
+          "quote": "is confluent rather than patchy",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Rash feels different from the skin condition the person had before (Symptoms)",
+          "quote": "and is ‘different’ to the skin condition that the patient has experienced before",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Signs appear within days to weeks of stopping a long-term steroid (Symptoms; comparison table)",
+          "quote": "It has been reported that the signs and symptoms occur within days to weeks after discontinuation of long-term topical corticosteroid treatment.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "For long-term users, clinicians should consider reducing potency or frequency, or both (Treatment; treatment table)",
+          "quote": "for patients currently on long-term topical corticosteroid treatment, consider reducing potency or frequency of application (or both)",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Do not restart within 2 weeks of stopping without consulting a doctor unless previously advised (Avoid callout; comparison table)",
+          "quote": "if your skin worsens within 2 weeks of stopping a topical corticosteroid, do not start treatment again without consulting your doctor, unless they have previously advised you should do so",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "kind": "other_web",
+      "cited_as": "National Eczema Association. Topical Steroids and Risk (Topical Steroid Withdrawal). Medically reviewed May 7, 2025. Accessed November 7, 2026.",
+      "url": "https://nationaleczema.org/topical-steroid-withdrawal/",
+      "version_or_date": "Medically reviewed May 7, 2025 (page metadata modified 2026-03-12; read 2026-11-07)",
+      "retrieved_with": "WebFetch of official page (verbatim extraction and exact-string confirmation prompts)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "New source: US patient organization page (not a clinical guideline). It reports that gradual tapering is \"often recommended\"; the guide presents this as common practice, not as proven, and pairs it with Fukaya's contrary view and Hajar's low-quality-evidence finding.",
+      "claims": [
+        {
+          "text": "Gradual tapering under supervision is often recommended to reduce withdrawal symptoms (key takeaway; Treatment; treatment table; FAQ taper; citable summary)",
+          "quote": "Gradual tapering under the supervision of a healthcare professional is often recommended to minimize withdrawal symptoms.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Moisturizing, managing pain and itch, addressing secondary infections (key takeaway; Treatment; treatment table steps 2 to 4; citable summary)",
+          "quote": "This includes moisturizing, managing pain and itch and addressing secondary infections that can result from a compromised skin barrier.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Non-steroidal treatments may be considered for the underlying condition (Treatment)",
+          "quote": "Non-steroidal treatments may be considered to control underlying skin conditions.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Treatment approaches still need research to validate them; condition under-researched (Treatment; key takeaway: no treatment approach well proven; citable summary)",
+          "quote": "Further research and awareness are needed to validate and refine treatment protocols.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Condition is under-researched (supports: treatment has not been well studied)",
+          "quote": "the condition remains under-researched.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    }
+  ]
+}
