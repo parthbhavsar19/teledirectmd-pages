@@ -1,0 +1,1009 @@
+{
+ "guide": "head-lice-treatment-guide",
+ "checked_at": "2026-11-07",
+ "checked_by": "Claude (repair run)",
+ "scite_verify_papers": "unavailable (quota exhausted until 2026-11-14); retraction status from PubMed article types",
+ "references": [
+  {
+   "n": 1,
+   "kind": "agency_page",
+   "cited_as": "CDC. About Head Lice. June 4, 2024.",
+   "version_or_date": "Page updated and reviewed June 4, 2024 (cdc:last_published 2026-05-21); read 2026-11-07",
+   "retrieved_with": "Monid firecrawl /scrape (raw page markdown), 2026-11-07",
+   "retrieved_at": "2026-11-07",
+   "notes": "Original audit flagged a scope paragraph (scabies, pubic lice, wounds) as not supported by this page; that paragraph was rewritten and re-pointed to refs 2, 6, 9 and 4 for the parts this page does not cover.",
+   "claims": [
+    {
+     "text": "A live crawling louse is the strongest evidence of active infestation (Key Takeaways; #treatment p1; #diagnosis table; FAQ 1-2; #evidence last paragraph; alert box).",
+     "quote": "Finding a live nymph (baby louse) or adult louse on the scalp or hair is the best way to diagnose a head lice infestation.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Nits can remain after successful treatment (Key Takeaways; #nits p1; FAQ 3).",
+     "quote": "Nits may stay in hair after treatment, but successful treatment will kill crawling lice.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Nits can be mistaken for dandruff and other debris such as hair-product residue (Key Takeaways; #diagnosis p2; FAQ 2).",
+     "quote": "Nits are often confused with other particles found in hair such as dandruff, hair spray droplets, and dirt particles.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Head lice are insects that live on the scalp and feed on blood (#diagnosis p1).",
+     "quote": "Head lice, or Pediculus humanus capitis, are parasitic insects that feed on human blood.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "A fine-toothed comb and examination behind the ears and near the nape help find lice and nits (#diagnosis p1; #combing p1).",
+     "quote": "A fine-toothed louse comb may help you find lice. ... You will often see nits on hair behind the ears and near the back of the neck.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Nits more than one-quarter inch from the scalp are usually hatched or dead (#diagnosis p3).",
+     "quote": "Nits that are attached more than ¼ inch from the base of the hair shaft are almost always hatched or dead.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Only distant nits without live nymphs or adults suggests an old infestation that may not need treatment (#diagnosis p3, p4; FAQ 3).",
+     "quote": "If you do not see nymphs or adults, and the only nits found are more than ¼ inch from the scalp, then the infestation is probably old and does not need treatment.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Lice are small and can be hard to find in one quick look (#nits p2).",
+     "quote": "Because adult and nymph lice are very small, move quickly, and avoid light, they may be difficult to find.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Light or early infestation may cause little itching (#nits p3).",
+     "quote": "People with head lice may not have symptoms, particularly with a first infestation or when an infestation is light.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "If the diagnosis is uncertain, ask a clinician (alert box; #treatment p1; #diagnosis p2; #care p3; home remedies p5).",
+     "quote": "If you are not sure if a person has head lice, see your healthcare provider.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Misdiagnosis is common, so uncertain findings should be clarified before more treatment (#treatment p1; home remedies p5).",
+     "quote": "Misdiagnosis of head lice infestation is common.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Scratching can cause scalp sores that may become infected (#treatment scope paragraph; #combing p5; #care p1).",
+     "quote": "Sores on the head caused by scratching, which can sometimes become infected with bacteria normally found on your skin",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Wash and dry items used in the two days before treatment; vacuum where the person sat or lay (#treatment p3; #contacts p3).",
+     "quote": "Machine wash and dry clothing, towels, bed linens, and other items that a person infested with lice wore or used during the two days before treatment.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Hot-water target of 130 degrees Fahrenheit with high-heat drying; seal unwashable items for two weeks (#contacts p4).",
+     "quote": "Use the hot water (130°F) laundry cycle and the high heat drying cycle. If you can't wash or dry clean items, seal them in a plastic bag and store them for two weeks.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Large amounts of time and money on whole-house decontamination are not necessary (#contacts p3).",
+     "quote": "However, spending much time and money on housecleaning activities is not necessary to avoid reinfestation by lice or nits that may have fallen off the head or crawled onto furniture or clothing.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Do not spray the home; fumigant sprays or fogs are unnecessary and can be toxic (Key Takeaways; #treatment p3; #contacts p5; FAQ 11).",
+     "quote": "Do not use fumigant sprays or fogs; they are not necessary to control head lice and can be toxic if inhaled or absorbed through the skin.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Lice spread mainly by direct hair contact, crawl rather than hop or fly, are not a hygiene problem, and pets do not spread them (#contacts p6).",
+     "quote": "Head lice mainly spread by direct contact with the hair of a person infested with lice. Head lice move by crawling; they cannot hop or fly.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Head lice are not a sign of poor hygiene and animals do not spread them (#contacts p6).",
+     "quote": "Getting head lice is not related to cleanliness of you or your environment. ... Animals do not get or spread head lice.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ],
+   "url": "https://www.cdc.gov/lice/about/head-lice.html",
+   "editorial_notices": []
+  },
+  {
+   "n": 2,
+   "kind": "agency_page",
+   "cited_as": "CDC. Treatment of Head Lice. November 12, 2024.",
+   "version_or_date": "Page updated and reviewed November 12, 2024; read 2026-11-07",
+   "retrieved_with": "Monid firecrawl /scrape (raw page markdown), 2026-11-07",
+   "retrieved_at": "2026-11-07",
+   "notes": "This page does not name permethrin or discuss resistance-gene prevalence. The permethrin non-ovicidal statement was re-pointed to ref 3 (CDC clinical care) and ref 9; the resistance-gene sentence was cut. Treatment-failure list items are joined with semicolons in the quote below (bulleted list on the page).",
+   "claims": [
+    {
+     "text": "Check household members and close contacts; treat infested people and those who share a bed with them at the same time (Key Takeaways; #treatment p3; #contacts p1-p2; FAQ 1, 11).",
+     "quote": "Check all household members and other close contacts for head lice. Treat all infested persons (household members and close contacts) and people they share a bed with at the same time.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Treatment failure can reflect misdiagnosis, conditioner use, not following instructions, resistance or reinfestation; failure does not prove resistance (Key Takeaways; #treatment p1; #permethrin p5; #follow-up failure paragraphs; #care p5; FAQ 12).",
+     "quote": "Misdiagnosis; Recent application of combination shampoo/conditioner or conditioner to hair; Not following treatment instructions; Head lice resisting the medication; Reinfestation after successful treatment",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "A few slow-moving lice 8 to 12 hours after treatment do not need reapplication (#treatment p4; #follow-up p2; FAQ 10).",
+     "quote": "If you notice a few lice still moving slowly 8 – 12 hours after treatment, you do not need to reapply the medicine. It takes time to kill all the lice.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "If lice are as active as before treatment, talk to a healthcare provider before retreating (alert box; citable summary; #treatment p4; #permethrin p4; #spinosad p6; #follow-up p2; FAQ 10).",
+     "quote": "If, 8 – 12 hours after treatment, you do not find any dead lice, or the lice seem as active as before treatment, the medicine may not be working. Talk to your healthcare provider before re-treating.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "A clinician may suggest a different medicine when treatment is not working (#follow-up p5; #spinosad p6).",
+     "quote": "Talk to your healthcare provider before re-treating. They may suggest a different medicine.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Nit removal is not required with spinosad (#nits p4; #spinosad p3; #ivermectin p5 context; #combing p4; FAQ 8).",
+     "quote": "You do not need to remove nits when treating with spinosad topical suspension.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Check hair and remove nits and lice every 2 to 3 days for 2 to 3 weeks after treatment (#follow-up p3).",
+     "quote": "After each treatment, check hair and remove nits and lice every 2 – 3 days for the next 2 – 3 weeks.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Do not use conditioner before lice medicine (#combing p4; #follow-up failure paragraph).",
+     "quote": "Do not use a combination shampoo/conditioner, or conditioner, before using lice medicine.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Some lice medications may cause itching or a mild burning sensation (#nits p1, p3; home remedies p5).",
+     "quote": "Some medications may cause itching or a mild burning sensation.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Some medicines kill lice and eggs so retreatment is usually not needed; others do not kill eggs and need retreatment, so follow-up depends on the product (#follow-up p1; #nits p4).",
+     "quote": "Some medicines kill lice and eggs; retreatment is usually not required for these. Other medicines kill lice but are not effective at killing eggs and so retreatment is recommended.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "CDC has no scientific evidence that suffocating lice with mayonnaise, olive oil, butter, margarine or similar substances works (home remedies p3).",
+     "quote": "The CDC does not have scientific evidence that suffocating head lice with mayonnaise, olive oil, margarine, butter, or similar substances is an effective form of treatment.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "CDC lists over-the-counter and prescription medications as the treatment options (home remedies p1; FAQ 9).",
+     "quote": "You can treat lice with either over-the-counter or prescription medications.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Treatment for pubic lice differs from head lice (#treatment scope paragraph).",
+     "quote": "Treatment for pubic lice is different than treatment for head lice. Ensure you're following the right steps based on the type of lice infestation.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Laundering at 130 degrees Fahrenheit with high-heat drying, or sealing for two weeks, for items used in the prior two days (#contacts p3-p4).",
+     "quote": "Use hot water (130°F) and high heat drying. If you can’t wash or dry clean items, seal them in a plastic bag for two weeks.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Do not use fumigant sprays or fogs; they can be toxic (Key Takeaways; #treatment p3; #contacts p5).",
+     "quote": "Do not use fumigant sprays or fogs. They can be toxic if inhaled or absorbed through the skin.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Enough product is needed to cover the hair and scalp; longer hair may need more (#comparison p4).",
+     "quote": "If you have shoulder-length hair or longer, you might need a second bottle.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Follow each product label from start to finish, including its retreatment instructions (hero caption context; #treatment p2; #follow-up p1; #care p5).",
+     "quote": "Follow all provided instructions when using lice medication. ... Follow your medication's instructions for retreatment.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Consult a healthcare provider before treating young children; a shared household does not justify using an adult prescription for a child (#contacts p2).",
+     "quote": "Consult your healthcare provider before treating young children.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ],
+   "url": "https://www.cdc.gov/lice/treatment/index.html",
+   "editorial_notices": []
+  },
+  {
+   "n": 3,
+   "kind": "agency_page",
+   "cited_as": "CDC. Clinical Care of Head Lice. January 31, 2025.",
+   "version_or_date": "Page updated and reviewed January 31, 2025; read 2026-11-07",
+   "retrieved_with": "Monid firecrawl /scrape (raw page markdown), 2026-11-07",
+   "retrieved_at": "2026-11-07",
+   "notes": "This page lists only permethrin 1% lotion and does not mention permethrin 5% cream; the 5% cream statement was rewritten and re-pointed to ref 9. It does state that permethrin does not kill unhatched eggs, so the permethrin ovicidal claim now cites this page.",
+   "claims": [
+    {
+     "text": "Permethrin kills live lice but not unhatched eggs; CDC says another treatment may be needed on day nine (#permethrin p3-p4; FAQ 5; comparison table).",
+     "quote": "Permethrin kills live lice but not unhatched eggs. Permethrin can kill newly hatched lice for several days after treatment. You may need to treat again on day nine to kill any newly hatched lice before they can produce new eggs.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Lice have some resistance to 1% permethrin but its prevalence is unknown (#permethrin p5).",
+     "quote": "Lice have developed some resistance to 1% permethrin, but prevalence of resistance is unknown.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Ivermectin lotion kills lice and appears to prevent newly hatched nymphs from surviving although it does not kill eggs; effective as a single application on dry hair without nit combing (#ivermectin p2, p5; #nits p4).",
+     "quote": "It kills lice and, although it does not kill eggs, appears to prevent nymphs (newly hatched lice) from surviving. It is effective in most patients when given as a single application on dry hair without nit combing.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Do not reuse ivermectin lotion without talking to a healthcare provider (Key Takeaways; #ivermectin p3; FAQ 6).",
+     "quote": "It should not be used for retreatment without talking to a healthcare provider.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Oral ivermectin is not FDA-approved for lice (off-label) and is separate from the lotion (#ivermectin p6; #comparison p3).",
+     "quote": "Although not FDA-approved for the treatment of lice, ivermectin tablets given in a single oral dose of 200 micrograms/kg or 400 micrograms/kg repeated in 9-10 days are also effective against head lice.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Malathion 0.5% is another option and is flammable; avoid smoking and electrical heat sources while hair is wet (#comparison p3; home remedies p4).",
+     "quote": "Malathion can irritate skin and is flammable. Do not smoke or use electrical heat sources, including hair dryers, curlers, and curling or flat irons, when applying malathion lotion and while the hair is wet.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "CDC also describes benzyl alcohol lotion (#comparison p3).",
+     "quote": "Benzyl alcohol is an aromatic alcohol. It kills lice but does not kill eggs.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Spinosad kills live lice and unhatched eggs, so retreatment is usually unnecessary and nit combing is not required (#spinosad p2-p3; #follow-up p3; FAQ 7).",
+     "quote": "Since it kills live lice as well as unhatched eggs, retreatment is usually not needed. Nit combing is not required.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Repeat spinosad only if live lice are seen seven days after the first treatment (#spinosad p2; FAQ 7).",
+     "quote": "Repeat treatment only if live (crawling) lice are seen seven days after the first treatment.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Do not combine different lice medicines or use all three products; ask before combining (#treatment p2, p4; #nits p2; alert box).",
+     "quote": "Do not use different head lice drugs at the same time unless instructed to do so by your healthcare provider or pharmacist.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Lice medicines are insecticides that can be dangerous if misused or overused; do not use extra amounts (home remedies p2, p5; #comparison p4; #spinosad p6).",
+     "quote": "Do not use extra amounts of any lice medication unless instructed to do so by your physician and pharmacist. The drugs used to treat lice are insecticides and can be dangerous if misused or overused.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Consider an alternative medicine if crawling lice remain after a full course; a clinician may choose an alternative after an adequate course fails (#follow-up p5; #spinosad p6; #care p3; FAQ 12).",
+     "quote": "If crawling lice are still present after a full course of treatment and retreatment, consider an alternative medication.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Do not keep repeating the same failed medicine; incorrect use or resistance can reduce effectiveness (alert box; #follow-up failure paragraph).",
+     "quote": "Do not treat a person infested with lice more than 2 – 3 times with the same medication if it isn't successful. Incorrect use of or resistance to medicine can reduce effectiveness.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Over-the-counter and prescription products include permethrin 1% lotion, ivermectin 0.5% lotion and spinosad 0.9% suspension (#treatment p2).",
+     "quote": "Both over-the-counter and prescription medications are available to effectively treat head lice.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Product ages and safety differ; a household member's prescription is not automatically suitable for someone else (#contacts p2).",
+     "quote": "Spinosad topical suspension is approved for the treatment of children six months of age and older.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ],
+   "url": "https://www.cdc.gov/lice/hcp/clinical-care/index.html",
+   "editorial_notices": []
+  },
+  {
+   "n": 4,
+   "kind": "label",
+   "cited_as": "DailyMed. Nix Creme Rinse, permethrin 1%, Drug Facts (setid d6dfa64a-bb88-4438-b4e2-30c6fbb28f3e).",
+   "version_or_date": "DailyMed label updated October 23, 2025; NDA019918; read 2026-11-07",
+   "retrieved_with": "Monid firecrawl /scrape (raw page markdown), 2026-11-07",
+   "retrieved_at": "2026-11-07",
+   "notes": "Stop-use list items are joined with semicolons in one quote (bulleted on the label). Label confirmed unchanged in substance from the Nov 6 audit.",
+   "claims": [
+    {
+     "text": "Permethrin rinse is applied to damp hair (Key Takeaways; #permethrin p1; comparison table; FAQ 4).",
+     "quote": "towel dry hair so it is damp but not wet",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Ten-minute contact time, no longer (Key Takeaways; #permethrin p1; #comparison p1; FAQ 4).",
+     "quote": "leave Nix® on the hair for 10 minutes, but no longer",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Wash with a shampoo without conditioner before use; conditioner may decrease activity (#permethrin p1; #combing p4; FAQ 4).",
+     "quote": "wash hair with a shampoo without conditioner. Do not use a shampoo that contains a conditioner or a conditioner alone since this may decrease the activity of Nix®.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Shake and completely saturate scalp and hair, beginning behind the ears and at the back of the neck (#permethrin p1).",
+     "quote": "completely saturate the hair and scalp with Nix®. Begin to apply Nix® behind the ears and at the back of the neck.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Second treatment if live lice are seen seven days or more after the first (citable summary; #permethrin p3; comparison table and chart; FAQ 5).",
+     "quote": "if live lice are seen seven days or more after the first treatment, a second treatment should be given",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "If swallowed, contact Poison Control at 1-800-222-1222 (#care p2).",
+     "quote": "If swallowed, get medical help or contact a Poison Control Center (1-800-222-1222) right away.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Label covers pediatric ages, but this is an adult guide (#care p4; #contacts p2).",
+     "quote": "Adults and children 2 months of age and over",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Pregnancy and breastfeeding require individualized advice (#care p4).",
+     "quote": "If pregnant or breast-feeding, ask a health professional before use.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "See a doctor for lice in the eyebrows or eyelashes (alert box; #care p1).",
+     "quote": "on lice in eyebrows or eyelashes. See your doctor.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Stop and consult a doctor if breathing difficulty occurs or scalp irritation continues or infection occurs (alert box; #treatment scope paragraph; #combing p5; #care p1-p2).",
+     "quote": "Stop use and see a doctor if: breathing difficulty occurs; eye irritation occurs; skin or scalp irritation continues or infection occurs",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Consumer labels use the broad instruction to treat when lice or nits are found (#diagnosis p4).",
+     "quote": "if either lice or nits (eggs) are found, treat with Nix® Creme Rinse",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Keep the package directions until treatment and follow-up are complete; use the package in hand (#comparison p1-p2).",
+     "quote": "Keep the carton. It contains important information.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Products have different preparation and follow-up instructions; do not use one product's directions for another (#treatment p2; #permethrin p2; #follow-up p1; #comparison figure).",
+     "quote": "towel dry hair so it is damp but not wet",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ],
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d6dfa64a-bb88-4438-b4e2-30c6fbb28f3e",
+   "editorial_notices": []
+  },
+  {
+   "n": 5,
+   "kind": "label",
+   "cited_as": "DailyMed. Sklice, ivermectin lotion 0.5%, OTC Drug Facts (setid 7579bdfe-a538-4bff-b7c7-df2c4b6f13db).",
+   "version_or_date": "DailyMed label updated July 11, 2024; NDA202736; read 2026-11-07",
+   "retrieved_with": "Monid firecrawl /scrape (raw page markdown), 2026-11-07",
+   "retrieved_at": "2026-11-07",
+   "notes": "Original guide cited the 2015 BMJ Clinical Evidence search-date statement to this label (misattribution). That sentence now cites ref 10; this label is cited only for the OTC-switch point and its own directions.",
+   "claims": [
+    {
+     "text": "Ivermectin lotion is applied to dry hair and scalp (Key Takeaways; #ivermectin p1; comparison table).",
+     "quote": "apply product directly to dry hair and scalp",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Cover scalp and hair closest to the scalp first, then outward (#ivermectin p1).",
+     "quote": "completely cover your scalp and hair closest to the scalp first, and then apply outwards towards the ends of your hair",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Ten minutes, then rinse with water only (Key Takeaways; #ivermectin p1; comparison table).",
+     "quote": "after 10 minutes, rinse product completely from your hair and scalp using only water",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Wait 24 hours before shampooing (#ivermectin p1; comparison table).",
+     "quote": "after rinsing, dry and style as usual. Wait 24 hours before applying shampoo.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Nit combing is not necessary for the product to work; a comb may remove dead lice and nits (#nits p4; #ivermectin p5; #combing p4; FAQ 8).",
+     "quote": "nit combing is not necessary when treating with product for it to work, but if desired, a fine-tooth comb or special nit comb may be used to remove dead lice and nits",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Single-use product (#ivermectin p2).",
+     "quote": "this is a single use product. Discard tube after use.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Do not reuse on the same person for the same infestation without a healthcare provider (citable summary; Key Takeaways; #ivermectin p3; comparison table and chart; FAQ 6).",
+     "quote": "do not use again on the same person and same lice infestation without talking to a healthcare provider first",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "If infestation continues, see a doctor for other treatments (#ivermectin p3, p5).",
+     "quote": "if infestation continues, see a doctor for other treatments",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Product leaflets may give different cleaning details: Sklice gives a 150 degrees Fahrenheit wash (#contacts p4).",
+     "quote": "Machine wash at high temperatures (150°F) and tumble in a hot dryer for 20 minutes.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Sklice is now sold without a prescription, unlike its listing in the 2019 review (#evidence p4).",
+     "quote": "Now available without a prescription!",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "If swallowed, contact Poison Control at 1-800-222-1222 (#care p2).",
+     "quote": "If swallowed, get medical help or contact a Poison Control Center (1-800-222-1222) right away.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Consult a doctor for lice in eyebrows or eyelashes (alert box; #care p1).",
+     "quote": "on lice in eyebrows or eyelashes. See a doctor if lice are present in these areas.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Stop and consult a doctor if breathing difficulty occurs or scalp irritation continues or infection occurs (alert box; #treatment scope paragraph; #combing p5; #care p1-p2).",
+     "quote": "Stop use and ask a doctor if: breathing difficulty occurs; eye irritation occurs; skin or scalp irritation continues or infection occurs; rash develops",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Pregnancy and breastfeeding require individualized advice (#care p4).",
+     "quote": "are pregnant or plan to become pregnant. It is not known if product can harm your unborn baby.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Consumer labels use the broad instruction to treat when lice or nits are found (#diagnosis p4).",
+     "quote": "if either lice or nits (eggs) are found, treat with product",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Use enough to cover hair and scalp, up to one tube; do not divide a tube into inadequate doses (#contacts p2).",
+     "quote": "use only amount to completely cover hair and scalp, up to 1 entire tube, and discard the remaining",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ],
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7579bdfe-a538-4bff-b7c7-df2c4b6f13db",
+   "editorial_notices": []
+  },
+  {
+   "n": 6,
+   "kind": "label",
+   "cited_as": "DailyMed. Natroba, spinosad topical suspension 0.9%, prescribing information (setid 72cf38f4-9ef4-4b0e-b085-b02f399e2592).",
+   "version_or_date": "Prescribing information revised 11/2025; DailyMed updated March 4, 2026; read 2026-11-07",
+   "retrieved_with": "Monid firecrawl /scrape (raw page markdown), 2026-11-07",
+   "retrieved_at": "2026-11-07",
+   "claims": [
+    {
+     "text": "Shake, cover dry scalp then dry hair, amount depends on hair length (Key Takeaways; #spinosad p1; comparison table; FAQ 7).",
+     "quote": "Apply a sufficient amount of NATROBA to cover dry scalp, then apply to dry hair. Depending on hair length, apply up to 120 mL (one bottle) to adequately cover scalp and hair.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Ten minutes, then rinse thoroughly with warm water (Key Takeaways; #spinosad p1; comparison table).",
+     "quote": "Leave on for 10 minutes, then thoroughly rinse off with warm water.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Second treatment only if live lice are seen 7 days after the first (citable summary; #spinosad p2, p6; comparison table and chart; FAQ 7).",
+     "quote": "If live lice are seen 7 days after the first treatment, a second treatment should be applied.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "A fine comb may be used to remove dead lice and nits (#spinosad p3; #nits p4; #combing p4).",
+     "quote": "A fine-tooth comb or special nit comb may be used to remove dead lice and nits.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Spinosad has a separate scabies indication with body-application instructions that must not be used for head lice (#treatment scope paragraph; #spinosad p4; FAQ 7).",
+     "quote": "Apply a sufficient amount of NATROBA to skin to completely cover the body from the neck to the toes (including the soles of the feet).",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Label includes pediatric ages; adult guide only (#care p4; #contacts p2).",
+     "quote": "NATROBA is indicated for the topical treatment of head lice infestations in adult and pediatric patients 6 months of age and older.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Product leaflets give their own cleaning details (#contacts p4).",
+     "quote": "Wash in hot water or dry-clean all recently worn clothing, hats, used bedding and towels.",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ],
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=72cf38f4-9ef4-4b0e-b085-b02f399e2592",
+   "editorial_notices": []
+  },
+  {
+   "n": 7,
+   "kind": "journal",
+   "cited_as": "Pariser DM, et al. N Engl J Med. 2012;367(18):1687-93.",
+   "pmid": "23113480",
+   "doi": "10.1056/NEJMoa1200107",
+   "record_title": "Topical 0.5% ivermectin lotion for treatment of head lice.",
+   "record_journal": "N Engl J Med",
+   "record_year": "2012",
+   "article_type": "Journal Article; Multicenter Study; Randomized Controlled Trial",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract, article types), 2026-11-07",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "scite_unavailable: Scite verify_papers quota exhausted until 2026-11-14; retraction status checked from PubMed article types (no Retracted Publication or Retraction Notice type). Abstract only; claims limited to the abstract. Authors corrected to all four listed in PubMed.",
+   "claims": [
+    {
+     "text": "Two randomized trials compared one application of 0.5% ivermectin lotion with vehicle, without nit combing, in patients 6 months or older (#ivermectin p4; #evidence p1).",
+     "quote": "we compared a single application of 0.5% ivermectin lotion with vehicle control for the elimination of infestations without nit combing in patients 6 months of age or older",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Primary end point measured in the youngest household member with at least three live lice; not an adult-only study (#ivermectin p4).",
+     "quote": "The primary end point was the percentage of index patients (youngest household member with ≥3 live lice) in the intention-to-treat population who were louse-free 1 day after treatment (day 2)",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Substantially more treated participants were louse-free than with vehicle; supports single-application activity (#evidence p1; #ivermectin p2).",
+     "quote": "louse-free on day 2 (94.9% vs. 31.3%), day 8 (85.2% vs. 20.8%), and day 15 (73.8% vs. 17.6%) (P<0.001 for each comparison)",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/23113480/"
+  },
+  {
+   "n": 8,
+   "kind": "journal",
+   "cited_as": "Stough D, et al. Pediatrics. 2009;124(3):e389-95.",
+   "pmid": "19706558",
+   "doi": "10.1542/peds.2008-3762",
+   "record_title": "Efficacy and safety of spinosad and permethrin creme rinses for pediculosis capitis (head lice).",
+   "record_journal": "Pediatrics",
+   "record_year": "2009",
+   "article_type": "Clinical Trial, Phase III; Comparative Study; Multicenter Study; Randomized Controlled Trial",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract, article types), 2026-11-07",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "scite_unavailable: Scite verify_papers quota exhausted until 2026-11-14; retraction status checked from PubMed article types (no Retracted Publication or Retraction Notice type). Abstract only.",
+   "claims": [
+    {
+     "text": "Two phase 3 randomized studies in mixed-age households compared spinosad without combing with permethrin with combing (#spinosad p5; #evidence p2).",
+     "quote": "Two phase-3, multicenter, randomized, evaluator/investigator-blinded studies compared 0.9% spinosad without nit-combing to 1% permethrin with combing (according to product instructions) in 1038 males and females aged > or =6 months.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "84.6% and 86.7% spinosad versus 44.9% and 42.9% permethrin lice-free (#evidence p2).",
+     "quote": "A total of 84.6% (study 1) and 86.7% (study 2) of spinosad-treated participants were lice free versus 44.9% and 42.9% permethrin-treated participants (P < .001).",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Endpoint was 14 days after the last treatment, in primary participants (#evidence p2).",
+     "quote": "The primary end point was the proportion of lice-free primary participants 14 days after last treatment.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/19706558/"
+  },
+  {
+   "n": 9,
+   "kind": "journal",
+   "cited_as": "Gunning K, Kiraly B, Pippitt K. Am Fam Physician. 2019;99(10):635-642.",
+   "pmid": "31083883",
+   "record_title": "Lice and Scabies: Treatment Update.",
+   "record_journal": "Am Fam Physician",
+   "record_year": "2019",
+   "article_type": "Journal Article; Review",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract, article types), 2026-11-07; full text read on aafp.org via Monid firecrawl /scrape (HTTP 200), 2026-11-07",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31083883/",
+   "notes": "scite_unavailable: Scite verify_papers quota exhausted until 2026-11-14; retraction status checked from PubMed article types (no Retracted Publication or Retraction Notice type). No DOI in the PubMed record; PMID used. Full text read this run (the Nov 6 audit had only the abstract), so wet-combing and decontamination claims are now checked against the full text. Now also the source for the permethrin 5% cream (scabies) versus 1% (head lice) statement.",
+   "claims": [
+    {
+     "text": "Head lice are diagnosed by visualizing live lice; nits alone are not sufficient (Key Takeaways; #treatment p1; #diagnosis p4; #evidence last paragraph; FAQ 1).",
+     "quote": "Head and pubic lice infestations are diagnosed with visualization of live lice. Nits (lice eggs or egg casings) alone are not sufficient to diagnose a current infestation.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Nits can remain for months after successful treatment and be confused with dandruff or debris (Key Takeaways; #nits p1; #diagnosis p2; FAQ 2-3).",
+     "quote": "Nits may remain on the hair for months after successful treatment and can be confused with dandruff, hair spray debris, or dirt particles.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Do not start treatment without live lice; uncertain findings need examination (#treatment p1; #diagnosis p2).",
+     "quote": "Physicians should not initiate therapy unless live lice are observed.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Bright light and a lice comb help find lice, commonly behind the ears and back of the neck (#diagnosis p1; #combing p1).",
+     "quote": "Visualization can be improved by using a bright light and magnifying lens, and by combing the hair with a lice comb",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "When lice are found in one family member, examine the whole family (#contacts p1; Key Takeaways; FAQ 11).",
+     "quote": "When lice are found in one family member, the entire family should be examined.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Failure without resistance: poor adherence, incorrect use and reinfestation (Key Takeaways; #follow-up failure paragraph; #care p5; FAQ 12).",
+     "quote": "Pseudoresistance may be due to poor adherence, incorrect product use (underdosing or not following directions), and reinfestation.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Resistance occurs but its geographic distribution is not well known (#permethrin p5).",
+     "quote": "Resistance to permethrin and pyrethrins/piperonyl butoxide can be significant, although the geographic distribution of resistant lice is not well-known.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Permethrin is non-ovicidal and typically needs a repeat application (#permethrin p4).",
+     "quote": "Nonovicidal agents (permethrin, pyrethrins, benzyl alcohol, dimethicone, oral ivermectin, and isopropyl myristate) typically require a repeat application for complete eradication.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Permethrin 5% cream is first-line for scabies; permethrin 1% lotion or shampoo is first-line for head lice (#permethrin p6).",
+     "quote": "First-line pharmacologic treatment for pediculosis is permethrin 1% lotion or shampoo. ... First-line treatment for scabies is permethrin 5% cream.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "A dimethicone product sold under the Nix name has different directions from the permethrin rinse (#permethrin p2).",
+     "quote": "Noninsecticidal agents that rely on suffocation or exoskeleton dissolution include benzyl alcohol 5% lotion (Ulesfia), dimethicone solution (Nix Ultra, Lice MD), and isopropyl myristate solution",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "An alternative agent after adequate courses fail (#follow-up p5).",
+     "quote": "After trials of two appropriately administered courses of permethrin, an alternative agent should be used.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Wet combing is a repeated mechanical treatment done every three days until no lice are seen on four to five consecutive occasions (#combing p2).",
+     "quote": "Wet combing should be done every three days until no lice are detected on four to five consecutive occasions.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Wet combing avoids chemicals but is time-consuming; cure rates vary and studies are not high quality (#combing p3; FAQ 9).",
+     "quote": "Wet combing alone does not have adverse effects and is often preferred by parents wanting to avoid a chemical treatment; however, it can be time-consuming.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Cure rates for wet combing vary considerably and the studies are not high quality (#combing p3).",
+     "quote": "Cure rates vary considerably (47% to 75%), although studies are not high quality.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Wet combing uses conditioner, which differs from medicine preparation (#combing p4).",
+     "quote": "moistening the hair with commercially available leave-in conditioner, combing with a wide-tooth comb until detangled, and then systematically combing the hair from root to tip with a lice comb",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Extensive environmental decontamination is not necessary; no sprays or chemical decontamination (Key Takeaways; #treatment p3; #contacts p3, p5; FAQ 11).",
+     "quote": "Sprays, carpet treatments, and other chemical environmental decontamination measures should not be used.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Extensive environmental decontamination is not necessary (#treatment p3; #contacts p3).",
+     "quote": "Extensive environmental decontamination is not necessary after pediculosis is diagnosed.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Lice cannot jump or fly; transmission requires close contact (#contacts p6).",
+     "quote": "Because lice cannot jump or fly, transmission requires close contact.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Pubic lice should prompt an STI evaluation in adults; body lice are managed mainly by laundering (#treatment scope paragraph).",
+     "quote": "In adults, the presence of pubic lice should prompt an evaluation for sexually transmitted infections.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Scratching can lead to excoriations and possible secondary cellulitis (#combing p5; #care p1).",
+     "quote": "Intense pruritus leads to scratching, with subsequent excoriations and possible secondary cellulitis.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Itching is a delayed reaction; a person may itch little early on (#nits p3).",
+     "quote": "The pruritus associated with pediculosis is a delayed hypersensitivity reaction, which may take four to six weeks to develop after the first exposure",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Lice are often overdiagnosed and self-treated without evaluation; irritation can be mistaken for more lice (home remedies p5; #care p5).",
+     "quote": "Lice in particular may be overdiagnosed by anxious patients and treated using over-the-counter medications without an office evaluation.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Oral ivermectin is prescription-only and off-label for head lice (#ivermectin p6; #comparison p3).",
+     "quote": "Ivermectin, oral (Stromectol); prescription",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "The 2019 review lists ivermectin 0.5% lotion as a prescription product (#evidence p4).",
+     "quote": "Ivermectin 0.5% lotion (Sklice); prescription",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Items in contact with the head in the two days before treatment should be washed (#contacts p3).",
+     "quote": "items that have come into direct contact with the head (e.g., pillowcases, hats, clothing) within the two days before treatment should be washed.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Repeat check of what is found and clinical review distinguish other causes of itch (#care p3; #combing p5).",
+     "quote": "Determining the specific etiology of pruritus based on history and physical examination findings is important.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "kind": "journal",
+   "cited_as": "Burgess IF, Silverston P. BMJ Clin Evid. 2015;2015:1703.",
+   "pmid": "25587918",
+   "pmcid": "PMC4294162",
+   "record_title": "Head lice.",
+   "record_journal": "BMJ Clin Evid",
+   "record_year": "2015",
+   "article_type": "Journal Article; Systematic Review",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract, article types), 2026-11-07; PMC full-text request returned the structured abstract and key points only",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "scite_unavailable: Scite verify_papers quota exhausted until 2026-11-14; retraction status checked from PubMed article types (no Retracted Publication or Retraction Notice type). Abstract and key points only. Claims citing this review were trimmed to what the abstract says (diagnosis by live lice, eggs may look viable after death, limited oil evidence, March 2014 search end). The search-date statement previously cited to ref 5 now cites this record. Citation corrected from \"2015;2015:.\" to \"2015;2015:1703\".",
+   "claims": [
+    {
+     "text": "Head lice are diagnosed by finding live lice (Key Takeaways; #treatment p1; #evidence last paragraph; FAQ 2; #nits figure).",
+     "quote": "Head louse infestation is diagnosed by finding live lice.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Eggs may appear viable even after they have died, so a nit does not prove an active infestation (#diagnosis p1-p2; #nits p1; FAQ 2).",
+     "quote": "Most eggs take 7 days to hatch (but a few may take longer, up to 13 days), and may appear viable for weeks after death of the egg.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Evidence on herbal and essential oils is limited to specific formulations; it is not proof that any home mixture works (home remedies p3).",
+     "quote": "In general, we don’t know whether(we evaluated evidence on eucalyptus oil, tea tree oil, and tocopheryl acetate only) are effective at eradicating head lice compared with other treatments, as we found few RCTs.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "The review focused on physically acting treatments and its search ended in March 2014; not a current ranking (#evidence p4).",
+     "quote": "What are the effects of physically acting treatments for head lice? We searched: Medline, Embase, The Cochrane Library, and other important databases up to March 2014",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25587918/"
+  },
+  {
+   "n": 11,
+   "kind": "journal",
+   "cited_as": "Woods AD, Porter CL, Feldman SR. Ann Pharmacother. 2022;56(3):352-357.",
+   "pmid": "34157881",
+   "doi": "10.1177/10600280211027968",
+   "record_title": "Abametapir for the Treatment of Head Lice: A Drug Review.",
+   "record_journal": "Ann Pharmacother",
+   "record_year": "2022 (epub 2021-06-22)",
+   "article_type": "Journal Article; Systematic Review (PubMed types); titled a drug review",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract, article types), 2026-11-07",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "scite_unavailable: Scite verify_papers quota exhausted until 2026-11-14; retraction status checked from PubMed article types (no Retracted Publication or Retraction Notice type). Abstract only. Removed leaked internal workflow text from the citing sentence (mention of a third-party database and connector access) and the post-reference link carrying a tracking parameter; sentence now states only what the abstract says.",
+   "claims": [
+    {
+     "text": "Abametapir is an FDA-approved single-application head-lice treatment for patients 6 months and older (#evidence p5).",
+     "quote": "Abametapir is a newly FDA-approved, single-application treatment for head lice in patients aged 6 months and older.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "In phase II it prevented 100% of treated eggs from hatching versus 64% with vehicle; medicines differ in activity against eggs (#evidence p5).",
+     "quote": "In phase II, abametapir had direct ovicidal activity inhibiting 100% of treated louse eggs from hatching, compared with 64% in the vehicle-treated group.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34157881/"
+  },
+  {
+   "n": 12,
+   "kind": "journal",
+   "cited_as": "Chosidow O, et al. N Engl J Med. 2010;362(10):896-905.",
+   "pmid": "20220184",
+   "doi": "10.1056/NEJMoa0905471",
+   "record_title": "Oral ivermectin versus malathion lotion for difficult-to-treat head lice.",
+   "record_journal": "N Engl J Med",
+   "record_year": "2010",
+   "article_type": "Comparative Study; Journal Article; Multicenter Study; Randomized Controlled Trial",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract, article types), 2026-11-07",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "scite_unavailable: Scite verify_papers quota exhausted until 2026-11-14; retraction status checked from PubMed article types (no Retracted Publication or Retraction Notice type). Abstract only.",
+   "claims": [
+    {
+     "text": "2010 trial compared oral ivermectin with malathion in a selected population after previous topical failure (#evidence p3; #ivermectin p6).",
+     "quote": "comparing oral ivermectin ... with 0.5% malathion lotion, each given on days 1 and 8, for patients with live lice not eradicated by topical insecticide used 2 to 6 weeks before enrollment",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/20220184/"
+  },
+  {
+   "n": 13,
+   "kind": "other_web",
+   "cited_as": "American Academy of Dermatology. Head lice: Diagnosis and treatment.",
+   "version_or_date": "Page last updated 9/3/25; read 2026-11-07",
+   "retrieved_with": "Monid firecrawl /scrape (raw page markdown), 2026-11-07",
+   "retrieved_at": "2026-11-07",
+   "notes": "Society patient-education page. Now also the source for the shaving statement (AAD lists shaving as an alternative option).",
+   "claims": [
+    {
+     "text": "Check everyone but do not treat people without head lice (Key Takeaways; #treatment p3; #contacts p1; FAQ 11).",
+     "quote": "Dermatologists recommend that you check everyone for head lice. You do not want to treat anyone who does not have head lice; however, you should check everyone every day for 10 to 15 days.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Look 8 to 12 hours after treatment; if lice are as active as before, do not treat again and talk with a clinician (#treatment p4; #follow-up p2; FAQ 10).",
+     "quote": "Look at the hair 8 to 12 hours after treatment. If the lice seem as active as they were before the treatment, the medicine may not be working. Do not treat again.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Bright light, sectioning hair and combing outward from the scalp; check behind the ears and nape (#diagnosis p1; #nits p2; #combing p1; FAQ 8).",
+     "quote": "Separate hair into sections. Beginning at the scalp, slowly comb outward through the hair section by section.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Lice and nits are likely behind the ears and at the nape (#combing p1; #diagnosis p1).",
+     "quote": "As you comb through the hair, look closely at the hair behind the ears and around the nape of the neck. These are likely places to find lice and nits.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Dandruff and debris comb out easily; nits are firmly attached (#diagnosis p2; FAQ 2).",
+     "quote": "You may see sand, dirt, lint, or dandruff. All of these comb out easily. Nits seem cemented to the hair and very difficult to remove.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Use only one product; combining products can be harmful (#follow-up p5).",
+     "quote": "Use only one product. Using two products meant to treat head lice can be harmful.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Malathion is a fire risk near heat appliances (home remedies p4).",
+     "quote": "Using this medicine while a blow dryer, iron, curling iron, or space heater is running nearby can start a fire.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Shaving is mentioned only as an alternative option, not a required step (home remedies p6).",
+     "quote": "If all this seems like too much trouble, another treatment option is to shave the scalp bald.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ],
+   "url": "https://www.aad.org/public/diseases/a-z/head-lice-treatment",
+   "editorial_notices": []
+  }
+ ]
+}
