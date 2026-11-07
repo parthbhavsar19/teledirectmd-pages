@@ -1,0 +1,806 @@
+{
+ "guide": "sinus-infection-guide",
+ "checked_at": "2026-11-07",
+ "checked_by": "Claude (repair run)",
+ "scite_verify_papers": "unavailable (quota exhausted until 2026-11-14); retraction status from PubMed article types",
+ "references": [
+  {
+   "n": 1,
+   "kind": "guideline",
+   "cited_as": "Payne SC, McKenna M, Buckley J, et al. Executive Summary of the Clinical Practice Guideline on Adult Sinusitis Update. Otolaryngol Head Neck Surg. 2025;173(2):299-316.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40741969/",
+   "pmid": "40741969",
+   "doi": "10.1002/ohn.1342",
+   "record_title": "Executive Summary of the Clinical Practice Guideline on Adult Sinusitis Update.",
+   "record_journal": "Otolaryngol Head Neck Surg",
+   "record_year": "2025",
+   "article_type": "Journal Article; Practice Guideline",
+   "version_or_date": "AAO-HNSF 2025 update (Aug 2025)",
+   "retrieved_with": "PubMed get_article_metadata (abstract)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "Replaces previous ref 1 (PMID 40742114, full guideline record whose abstract lists only topics; full text on Wiley could not be fetched). Abstract only: 5-to-7-day duration and 3-to-5-day reassessment previously attributed to the 2025 guideline are NOT in the abstract and were removed. The abstract says first-line changed 'from amoxicillin alone (prior guideline)', while the 2015 abstract (ref 3) already lists amoxicillin with or without clavulanate; the page avoids characterizing the change. scite_unavailable; PubMed article types show no retraction.",
+   "claims": [
+    {
+     "text": "2025 update extends watchful waiting to all adults with uncomplicated ABRS regardless of severity",
+     "quote": "Extension of watchful waiting (without antibiotic therapy) as an initial management strategy to all patients with uncomplicated acute bacterial rhinosinusitis (ABRS) regardless of severity",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "2025 update names amoxicillin with or without clavulanate as first-line therapy",
+     "quote": "Change in recommendation to first-line antibiotic therapy for ABRS amoxicillin, with or without clavulanate, from amoxicillin alone (prior guideline).",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "2025 update replaces the 2015 guideline",
+     "quote": "This clinical practice guideline is as an update, and replacement, for an earlier guideline published in 2015",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "2025 update states it clarified the timeline",
+     "quote": "Clarified the recommended timeline for the diagnosis, conservative management and antibiotic treatment of ABRS.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Current guidance supports watchful waiting for uncomplicated cases (with CDC ref 7 for follow-up)",
+     "quote": "Extension of watchful waiting (without antibiotic therapy) as an initial management strategy to all patients with uncomplicated acute bacterial rhinosinusitis (ABRS) regardless of severity",
+     "quote_source": "abstract",
+     "verdict": "partly_supported"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "kind": "guideline",
+   "cited_as": "Chow AW, Benninger MS, Brook I, et al. IDSA clinical practice guideline for acute bacterial rhinosinusitis in children and adults. Clin Infect Dis. 2012;54(8):e72-e112.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/22438350/",
+   "pmid": "22438350",
+   "doi": "10.1093/cid/cir1043",
+   "record_title": "IDSA clinical practice guideline for acute bacterial rhinosinusitis in children and adults.",
+   "record_journal": "Clin Infect Dis",
+   "record_year": "2012",
+   "article_type": "Journal Article; Practice Guideline",
+   "version_or_date": "Published 15 April 2012, Clin Infect Dis 54(8)",
+   "retrieved_with": "PubMed get_article_metadata; WebFetch of free full text at academic.oup.com/cid/article/54/8/e72/367144",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "Full text read on the publisher page (open). No list of eye or neurologic red flags in the retrieved text, so those claims were moved to refs 16 and 17. scite_unavailable; PubMed article types show no retraction.",
+   "claims": [
+    {
+     "text": "Persistent symptoms at least 10 days is one ABRS pattern",
+     "quote": "Onset with persistent symptoms or signs compatible with acute rhinosinusitis, lasting for ≥10 days",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Severe start: fever >=39C (102F) with purulent discharge or facial pain for 3-4 days at onset",
+     "quote": "Onset with severe symptoms or signs of high fever (≥39°C [102°F]) and purulent nasal discharge or facial pain ... lasting for at least 3–4 consecutive days at the beginning of illness",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Double worsening: new fever, headache or increased nasal discharge",
+     "quote": "Onset with worsening symptoms or signs characterized by the new onset of fever, headache, or increase in nasal discharge",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Colored discharge also occurs in viral colds; color alone does not separate viral from bacterial",
+     "quote": "The transition from clear to purulent to clear nasal discharge occurs in uncomplicated viral URIs",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "IDSA favors amoxicillin-clavulanate over amoxicillin for adults",
+     "quote": "Amoxicillin-clavulanate rather than amoxicillin alone is recommended as empiric antimicrobial therapy for ABRS in adults",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "IDSA recommends 5 to 7 days for uncomplicated ABRS in adults",
+     "quote": "The recommended duration of therapy for uncomplicated ABRS in adults is 5–7 days.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Change plan if worse after 48-72 hours or not improved after 3-5 days of antibiotic",
+     "quote": "An alternative management strategy is recommended if symptoms worsen after 48–72 hours ... fail to improve despite 3–5 days",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Macrolides not recommended for empiric treatment due to resistance",
+     "quote": "Macrolides (clarithromycin and azithromycin) are not recommended for empiric therapy",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "IDSA does not recommend topical or oral decongestants or antihistamines as add-on treatment",
+     "quote": "Neither topical nor oral decongestants and/or antihistamines are recommended as adjunctive treatment",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Saline irrigation is a guideline symptom-care option",
+     "quote": "Intranasal saline irrigation with either physiologic or hypertonic saline is recommended",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "IDSA recommends intranasal steroids as an add-on to antibiotics",
+     "quote": "Intranasal corticosteroids (INCSs) are recommended as an adjunct to antibiotics in the empiric treatment of ABRS",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Imaging unnecessary for uncomplicated cases",
+     "quote": "such studies are unnecessary during the management of uncomplicated ABRS.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Serious illness, worsening despite treatment and immune compromise need a different level of assessment / referral",
+     "quote": "Patients who are seriously ill and immunocompromised, continue to deteriorate clinically despite extended courses",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Timeline details map onto persistent, worsening and severe patterns; framework not a rule to delay severe care",
+     "quote": "Onset with severe symptoms or signs of high fever (≥39°C [102°F]) and purulent nasal discharge or facial pain",
+     "quote_source": "full_text",
+     "verdict": "partly_supported"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "kind": "guideline",
+   "cited_as": "Rosenfeld RM, Piccirillo JF, Chandrasekhar SS, et al. Clinical practice guideline (update): adult sinusitis. Otolaryngol Head Neck Surg. 2015;152(2 Suppl):S1-S39.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25832968/",
+   "pmid": "25832968",
+   "doi": "10.1177/0194599815572097",
+   "record_title": "Clinical practice guideline (update): adult sinusitis.",
+   "record_journal": "Otolaryngol Head Neck Surg",
+   "record_year": "2015",
+   "article_type": "Journal Article; Practice Guideline",
+   "version_or_date": "AAO-HNSF 2015 update (Apr 2015); superseded by the 2025 update",
+   "retrieved_with": "PubMed get_article_metadata (abstract; no PMC full text)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "New source replacing ref 3 (Rosenfeld RM, NEJM 2016;375:962-70, PMID 27602668), which has no PubMed abstract and whose full text could not be fetched (nejm.org client error); NEJM claims were rewritten to this record, IDSA, MedlinePlus or Mayo Clinic, or cut. Abstract states 5 to 10 days; the page does not use that range. scite_unavailable; PubMed article types show no retraction.",
+   "claims": [
+    {
+     "text": "ARS can be viral, bacterial or noninfectious; a cold can inflame the sinuses without bacterial infection",
+     "quote": "should distinguish presumed ABRS from acute rhinosinusitis (ARS) caused by viral upper respiratory infections and noninfectious conditions",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Clinicians may offer watchful waiting or prescribe an antibiotic for uncomplicated ABRS",
+     "quote": "should either offer watchful waiting (without antibiotics) or prescribe initial antibiotic therapy for adults with uncomplicated ABRS",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "2015 guideline: reassess if worse or not improved by 7 days after diagnosis, to confirm diagnosis, exclude other causes, detect complications",
+     "quote": "should reassess the patient to confirm ABRS, exclude other causes of illness, and detect complications if the patient worsens or fails to improve with the initial management option by 7 days after diagnosis or worsens during the initial management",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Confirm chronic rhinosinusitis with objective evidence such as endoscopy or CT",
+     "quote": "should confirm a clinical diagnosis of CRS with objective documentation of sinonasal inflammation, which may be accomplished using anterior rhinoscopy, nasal endoscopy, or computed tomography",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Recurrent episodes must be distinguished from isolated infections",
+     "quote": "should distinguish CRS and recurrent ARS from isolated episodes of ABRS and other causes of sinonasal symptoms",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Recurrent or chronic illness needs evaluation for conditions such as asthma or immune compromise",
+     "quote": "should assess the patient with CRS or recurrent ARS for multiple chronic conditions that would modify management, such as asthma, cystic fibrosis, immunocompromised state, and ciliary dyskinesia",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Pain relievers, intranasal steroids and saline irrigation are symptom-relief options",
+     "quote": "recommend analgesics, topical intranasal steroids, and/or nasal saline irrigation) for symptomatic relief of ABRS",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "No routine imaging unless complication or alternative diagnosis suspected",
+     "quote": "should not obtain radiographic imaging for patients who meet diagnostic criteria for ARS, unless a complication or alternative diagnosis is suspected",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Current AAO-HNS guideline replaced the 2015 version (2015 document exists)",
+     "quote": "should prescribe amoxicillin with or without clavulanate as first-line therapy for 5 to 10 days (if a decision is made to treat ABRS with an antibiotic)",
+     "quote_source": "abstract",
+     "verdict": "partly_supported"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "kind": "journal",
+   "cited_as": "Lemiengre MB, van Driel ML, Merenstein D, et al. Antibiotics for acute rhinosinusitis in adults. Cochrane Database Syst Rev. 2018;9(9):CD006089.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30198548/",
+   "pmid": "30198548",
+   "pmcid": "PMC6513448",
+   "doi": "10.1002/14651858.CD006089.pub5",
+   "record_title": "Antibiotics for acute rhinosinusitis in adults.",
+   "record_journal": "Cochrane Database Syst Rev",
+   "record_year": "2018",
+   "article_type": "Journal Article; Meta-Analysis; Systematic Review",
+   "retrieved_with": "PubMed get_article_metadata (abstract)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "scite_unavailable; PubMed article types show no retraction.",
+   "claims": [
+    {
+     "text": "Without antibiotics 46% cured at 1 week and 64% at 2 weeks of trial follow-up",
+     "quote": "Without antibiotics, 46% of participants with rhinosinusitis, whether or not confirmed by radiography, were cured after 1 week and 64% after 14 days.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "15 trials, 3,057 participants",
+     "quote": "We included 15 trials involving 3057 participants.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Benefit marginal; more adverse effects with antibiotics",
+     "quote": "The potential benefit of antibiotics to treat acute rhinosinusitis diagnosed either clinically ... is marginal and needs to be seen in the context of the risk of adverse effects.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Antibiotics caused more side effects than placebo or no treatment",
+     "quote": "13 more people experienced side effects with antibiotics compared to placebo or no treatment",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "No conclusions for severe disease or immune suppression",
+     "quote": "We could not draw conclusions about children, people with suppressed immune systems, and those with severe sinusitis",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Acute rhinosinusitis is an infection of nasal passages and sinuses lasting less than four weeks",
+     "quote": "Acute rhinosinusitis is an acute infection of the nasal passages and paranasal sinuses that lasts less than four weeks.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Diagnosis generally based on clinical signs and symptoms; usually assessed clinically",
+     "quote": "Diagnosis of acute rhinosinusitis is generally based on clinical signs and symptoms in ambulatory care settings.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Findings support avoiding unnecessary prescriptions for uncomplicated illness",
+     "quote": "we conclude there is no place for antibiotics for people with uncomplicated acute rhinosinusitis",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "kind": "journal",
+   "cited_as": "Savage TJ, Butler AM, Kronman MP, et al. Amoxicillin-Clavulanate vs Amoxicillin for Acute Sinusitis in Adults. JAMA. 2026;335(19):1694-1705.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41999289/",
+   "pmid": "41999289",
+   "pmcid": "PMC13092118",
+   "doi": "10.1001/jama.2025.26902",
+   "record_title": "Amoxicillin-Clavulanate vs Amoxicillin for Acute Sinusitis in Adults.",
+   "record_journal": "JAMA",
+   "record_year": "2026",
+   "article_type": "Journal Article; Comparative Study (retrospective cohort)",
+   "retrieved_with": "PubMed get_article_metadata (abstract)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "Observational; page calls it a study/cohort, never a trial. scite_unavailable; PubMed article types show no retraction.",
+   "claims": [
+    {
+     "text": "Observational claims cohort of adults 18 to 64, no untreated group",
+     "quote": "New-user, active comparator retrospective cohort study using a nationwide health care utilization database comparing amoxicillin-clavulanate vs amoxicillin for adults aged 18 to 64 years",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Matched failure 3.0% vs 3.1%, RR 0.96 (0.92-1.01)",
+     "quote": "There was no observed difference in the risk of treatment failure between the amoxicillin-clavulanate vs amoxicillin groups (3.0% vs 3.1%; risk ratio [RR], 0.96 [95% CI, 0.92-1.01])",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "117,304 patients per group",
+     "quote": "After propensity score matching, there were 234 608 patients (117 304 patients per group",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Failure = new antibiotic or sinusitis acute care 1 to 14 days",
+     "quote": "treatment failure, defined as the first occurrence of a new antibiotic dispensation ... emergency department or inpatient encounter for acute sinusitis ... assessed 1 to 14 days after treatment initiation",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "No difference in antibiotic-associated adverse events; more secondary infections with the combination",
+     "quote": "There was no difference in antibiotic-associated adverse events (1.3% vs 1.2%; RR, 1.04 [95% CI, 0.97-1.12]). The risk of secondary infections was higher for amoxicillin-clavulanate",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "kind": "journal",
+   "cited_as": "Dhar S, Kothari DS, Tomescu AL, et al. Antimicrobial Prescription Patterns for Acute Sinusitis 2015-2022: A Comparison to Published Guidelines. Am J Rhinol Allergy. 2024;38(6):421-427.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39267385/",
+   "pmid": "39267385",
+   "doi": "10.1177/19458924241280379",
+   "record_title": "Antimicrobial Prescription Patterns for Acute Sinusitis 2015-2022: A Comparison to Published Guidelines.",
+   "record_journal": "Am J Rhinol Allergy",
+   "record_year": "2024",
+   "article_type": "Journal Article; Comparative Study",
+   "retrieved_with": "PubMed get_article_metadata (abstract)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "Removed second link (EBSCO OpenURL carrying Perplexity tracking parameters) and the unverifiable 'full text consulted' note. scite_unavailable; PubMed article types show no retraction.",
+   "claims": [
+    {
+     "text": "Only 42.2% of first antibiotics followed the first-line amoxicillin recommendation (Tennessee records)",
+     "quote": "Despite published guidelines recommending amoxicillin with or without clavulanic acid as first-line treatment for ARS, only 42.2% of prescribed antibiotics followed this guideline in our cohort.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Macrolides among the most frequent choices",
+     "quote": "The six most common initial antibiotics prescribed for ARS were erythromycins/macrolides [14 609 (25.8%)], amoxicillin/clavulanate [14 322 (25.3%)]",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "kind": "agency_page",
+   "cited_as": "CDC. Outpatient Clinical Care for Adults. Acute rhinosinusitis recommendations.",
+   "url": "https://www.cdc.gov/antibiotic-use/hcp/clinical-care/adult-outpatient.html",
+   "version_or_date": "Last reviewed April 16, 2024",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "Page has no colored-nasal-discharge or eye/neurologic red-flag statements; those citations were removed from this ref.",
+   "claims": [
+    {
+     "text": "Persistent >10 days without improvement",
+     "quote": "Persistent (>10 days) without improvement, such as nasal discharge or daytime cough",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Severe start with fever >=39C and purulent discharge or facial pain",
+     "quote": "Severe (>3-4 days), such as a fever ≥39°C (102°F) and purulent nasal discharge or facial pain",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Worsening after initial improvement",
+     "quote": "such as worsening or new onset fever, daytime cough, or nasal discharge after initial improvement",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Watchful waiting for uncomplicated cases when reliable follow-up is available",
+     "quote": "Healthcare professionals should encourage watchful waiting for uncomplicated cases for which reliable follow-up is available.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Amoxicillin or amoxicillin-clavulanate is first-line",
+     "quote": "Prescribe amoxicillin or amoxicillin/clavulanate, the first-line therapy.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Macrolides not recommended because of resistance",
+     "quote": "Macrolides such as azithromycin are not recommended due to high levels of",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Penicillin-allergic alternatives: doxycycline or respiratory fluoroquinolone; allergy history affects prescription",
+     "quote": "For penicillin-allergic patients, prescribe doxycycline or a respiratory fluoroquinolone (levofloxacin or moxifloxacin) as alternative agents.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "kind": "agency_page",
+   "cited_as": "CDC. Sinus Infection Basics.",
+   "url": "https://www.cdc.gov/sinus-infection/about/index.html",
+   "version_or_date": "Last reviewed April 17, 2024",
+   "retrieved_with": "WebFetch of official page (old URL cdc.gov/antibiotic-use/sinus-infection.html resolves to this canonical page; link updated)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "No mucus-color, eye/vision or 4-week statements on this page; those citations were removed.",
+   "claims": [
+    {
+     "text": "Most sinus infections get better on their own without antibiotics",
+     "quote": "Most sinus infections usually get better on their own without antibiotics.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "See a provider for symptoms >10 days without getting better",
+     "quote": "Symptoms lasting more than 10 days without getting better.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "See a provider for symptoms that get worse after improving, or severe symptoms",
+     "quote": "Symptoms that get worse after improving. Severe symptoms, such as severe headache or facial pain.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Warm compress over nose and forehead",
+     "quote": "Put a warm compress over the nose and forehead to help relieve sinus pressure.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Decongestant or saline nasal spray among relief options",
+     "quote": "Use a decongestant or saline nasal spray.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Ask provider about OTC medicines",
+     "quote": "Ask your healthcare provider about over-the-counter medicines that can help you feel better.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "kind": "agency_page",
+   "cited_as": "CDC. How to Safely Rinse Sinuses.",
+   "url": "https://www.cdc.gov/naegleria/prevention/sinus-rinsing.html",
+   "version_or_date": "Last reviewed October 9, 2024",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "Removed claims not on page: drinking-water filter adequacy, device cleaning/sharing, 'safe to drink is not safe for nose'.",
+   "claims": [
+    {
+     "text": "Use distilled, sterile or boiled and cooled tap water",
+     "quote": "store-bought water that is labeled \"distilled\" or \"sterile.\" ... water you get from the tap or faucet that's been boiled and cooled.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Rolling boil 1 minute, 3 minutes above 6,500 feet",
+     "quote": "Bring water to a rolling boil for 1 minute (at elevations above 6,500 feet, boil for 3 minutes).",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Amebas can grow in tanks and pipes; rare deaths after rinsing with tap water",
+     "quote": "Although rare, people have died from rinsing their sinuses with tap water containing Naegleria fowleri and Acanthamoeba.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Seek medical attention right away for headache, fever, confusion or vomiting after rinsing",
+     "quote": "Seek medical attention right away if you or a loved one develops a headache, fever, confusion, or vomiting",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "kind": "label",
+   "cited_as": "DailyMed. Moxifloxacin hydrochloride tablets prescribing information (Solaris Pharma), revised September 2025.",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=45ce14e5-98b8-296b-e063-6294a90a769b",
+   "version_or_date": "Updated September 16, 2025",
+   "retrieved_with": "WebFetch of DailyMed label",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Reserve for sinusitis patients with no alternative treatment options",
+     "quote": "reserve Moxifloxacin Tablets for treatment of ABS in patients who have no alternative treatment options.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Boxed warning about disabling and potentially irreversible harms",
+     "quote": "Fluoroquinolones, including Moxifloxacin Tablets, have been associated with disabling and potentially irreversible",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "kind": "label",
+   "cited_as": "DailyMed. Amoxicillin and clavulanate potassium tablets prescribing information.",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a3d1c0bb-94f3-4cfb-a4c6-233cf7e519a4",
+   "version_or_date": "Drug label information updated February 13, 2026 (version published February 16, 2026)",
+   "retrieved_with": "WebFetch of DailyMed label",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "Removed contagiousness co-citation (not a label topic).",
+   "claims": [
+    {
+     "text": "Serious hypersensitivity warning",
+     "quote": "Serious and occasionally fatal hypersensitivity (anaphylactic) reactions have been reported.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Liver injury and C. difficile diarrhea warnings",
+     "quote": "Hepatic toxicity is usually reversible; however, deaths have been reported. ... Clostridioides difficile associated diarrhea (CDAD) has been reported with use of nearly all antibacterial agents",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Contraindicated after prior cholestatic jaundice/hepatic dysfunction",
+     "quote": "History of cholestatic jaundice/hepatic dysfunction associated with Amoxicillin and Clavulanate Potassium Tablets",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Kidney function affects prescribing",
+     "quote": "should NOT receive the 875 mg dose",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Tablet strengths not interchangeable by doubling",
+     "quote": "Two Amoxicillin and Clavulanate Potassium 250 mg/125 mg tablets are NOT substitutable with one 500 mg/125 mg",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Take at start of a meal to reduce GI intolerance; patient-specific risks affect selection",
+     "quote": "should be taken at the start of a meal",
+     "quote_source": "label",
+     "verdict": "partly_supported"
+    },
+    {
+     "text": "Tell prescriber about side effects; severe allergy symptoms need emergency help",
+     "quote": "Serious and occasionally fatal hypersensitivity (anaphylactic) reactions have been reported.",
+     "quote_source": "label",
+     "verdict": "partly_supported"
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "kind": "other_web",
+   "cited_as": "NHS. Sinusitis (sinus infection).",
+   "url": "https://www.nhs.uk/conditions/sinusitis-sinus-infection/",
+   "version_or_date": "Page last reviewed 31 January 2024",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "UK national health service patient page. Removed eye/vision/neurologic red-flag co-citations (not on page).",
+   "claims": [
+    {
+     "text": "Sinusitis usually clears up on its own within 4 weeks",
+     "quote": "usually clears up on its own within 4 weeks",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Rest, fluids, painkillers such as paracetamol or ibuprofen",
+     "quote": "getting plenty of rest ... drinking plenty of fluids ... taking painkillers, such as paracetamol or ibuprofen",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Urgent advice if very unwell or weakened immune system",
+     "quote": "you are very unwell; painkillers do not help or symptoms get worse; you have a weakened immune system",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Repeated episodes need review",
+     "quote": "you keep getting sinusitis",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "kind": "label",
+   "cited_as": "ASHP. Oxymetazoline Nasal Spray. MedlinePlus Drug Information.",
+   "url": "https://medlineplus.gov/druginfo/meds/a608026.html",
+   "version_or_date": "Last revised 09/15/2016",
+   "retrieved_with": "WebFetch of MedlinePlus monograph",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Do not use longer than 3 days; longer use can worsen or bring back congestion",
+     "quote": "Do not use oxymetazoline nasal spray for longer than 3 days.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Ask about high blood pressure, heart/thyroid disease, diabetes, urinary problems, pregnancy",
+     "quote": "high blood pressure, diabetes ... difficulty urinating due to an enlarged prostate gland ... thyroid or heart disease",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Do not share nasal sprays (spread of infection)",
+     "quote": "do not share your spray dispenser with anyone else",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "kind": "label",
+   "cited_as": "ASHP. Fluticasone Nasal Spray. MedlinePlus Drug Information.",
+   "url": "https://medlineplus.gov/druginfo/meds/a695002.html",
+   "version_or_date": "Last revised 05/20/2024",
+   "retrieved_with": "WebFetch of MedlinePlus monograph",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Not for common cold symptoms",
+     "quote": "should not be used to treat symptoms ... caused by the common cold",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Allergic rhinitis, nonallergic rhinitis, chronic rhinosinusitis indications by formulation; sneezing/itchy nose",
+     "quote": "relieve symptoms of rhinitis such as sneezing and a runny, stuffy, or itchy nose ... treat chronic rhinosinusitis with or without nasal polyps",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Works best with regular use; nosebleeds; precautions",
+     "quote": "Fluticasone works best when used regularly.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Do not share nasal sprays because this may spread germs",
+     "quote": "Do not share fluticasone nasal spray because this may spread germs.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "kind": "agency_page",
+   "cited_as": "CDC. Preventing Spread of Respiratory Viruses When You're Sick.",
+   "url": "https://www.cdc.gov/respiratory-viruses/prevention/precautions-when-sick.html",
+   "version_or_date": "Last reviewed August 18, 2025",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "claims": [
+    {
+     "text": "Return when improving and fever-free 24 hours without fever reducers",
+     "quote": "You can go back to your normal activities when, for at least 24 hours, both are true: Your symptoms are getting better overall, and You have not had a fever (and are not using fever-reducing medication).",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Added precautions for 5 days: cleaner air, hygiene, mask, distancing, testing",
+     "quote": "take added precautions over the next 5 days, such as: taking steps for cleaner air, practicing good hygiene, wearing a well-fitted mask, physical distancing, testing",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "May still spread the virus after feeling better",
+     "quote": "Keep in mind that you may still be able to spread the virus that made you sick, even if you are feeling better.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Precautions protect people at higher risk of severe illness",
+     "quote": "These actions can help reduce the risk of infecting people who are at higher risk of severe illness.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "A respiratory virus causing sinus symptoms can spread; not a clearance clock tied to antibiotics",
+     "quote": "you may still be able to spread the virus that made you sick, even if you are feeling better",
+     "quote_source": "official_page",
+     "verdict": "partly_supported"
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "kind": "agency_page",
+   "cited_as": "National Library of Medicine (US). Sinusitis. MedlinePlus Medical Encyclopedia.",
+   "url": "https://medlineplus.gov/ency/article/000647.htm",
+   "version_or_date": "Review date 4/29/2026",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "New source (NLM) for mucus-color and vision/headache statements previously pinned to CDC/NHS pages that lack them.",
+   "claims": [
+    {
+     "text": "Green or yellow discharge does not mean sinus infection or need for antibiotics; many recover without",
+     "quote": "A green or yellow discharge does not mean that you definitely have a sinus infection or need antibiotics. Many people with this symptom recover fully without taking antibiotics.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Any change in vision during a sinus infection should be reported",
+     "quote": "You have any changes in your vision during a sinus infection.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Severe headache not relieved by OTC pain medicine needs prompt review",
+     "quote": "You have a severe headache that is not relieved by over-the-counter pain medicine.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Complications very rare: meningitis, orbital cellulitis",
+     "quote": "Although very rare, complications may include: Abscess; Bone infection (osteomyelitis); Meningitis; Skin infection around the eye (orbital cellulitis)",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "kind": "other_web",
+   "cited_as": "Mayo Clinic. Acute sinusitis: Symptoms and causes.",
+   "url": "https://www.mayoclinic.org/diseases-conditions/sinusitis/symptoms-causes/syc-20351671",
+   "version_or_date": "Undated page; read 2026-11-07",
+   "retrieved_with": "WebFetch of page",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "New source for the immediate-care eye/vision/confusion/stiff-neck list, which no retrieved guideline or agency page states. Academic medical center patient page, not a guideline; flagged for physician review.",
+   "claims": [
+    {
+     "text": "Pain, swelling or redness around the eyes, vision changes, high fever, confusion or stiff neck need a provider immediately",
+     "quote": "See a health care provider immediately ... Pain, swelling or redness around the eyes. High fever. Confusion. Double vision or other vision changes. Stiff neck.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "These signs override the routine 10-day/observation timeline and routine video care",
+     "quote": "See a health care provider immediately ... Pain, swelling or redness around the eyes. High fever. Confusion. Double vision or other vision changes. Stiff neck.",
+     "quote_source": "official_page",
+     "verdict": "partly_supported"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,621 @@
+{
+ "guide": "dog-bite-treatment-guide",
+ "checked_at": "2026-11-07",
+ "checked_by": "Claude (repair run)",
+ "scite_verify_papers": "unavailable (quota exhausted until 2026-11-14); retraction status from PubMed article types",
+ "references": [
+  {
+   "n": 1,
+   "cited_as": "Centers for Disease Control and Prevention. Rabies post-exposure prophylaxis guidance for healthcare providers. Reviewed September 10, 2026. Accessed November 7, 2026.",
+   "url": "https://www.cdc.gov/rabies/hcp/clinical-care/post-exposure-prophylaxis.html",
+   "kind": "agency_page",
+   "retrieved_with": "WebFetch of official CDC page (two reads)",
+   "version_or_date": "Reviewed September 10, 2026",
+   "claims": [
+    {
+     "text": "All post-exposure care begins with immediate, thorough washing with soap and water",
+     "quote": "All PEP should begin with immediate and thorough cleansing of all wounds with soap and water.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "In animal studies, thorough wound cleansing alone markedly reduced the likelihood of developing rabies",
+     "quote": "In animal studies, thorough wound cleansing alone without other medical treatments (e.g., vaccine) has been shown to markedly reduce the likelihood of developing rabies.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Never-vaccinated person: PEP always includes HRIG and rabies vaccine",
+     "quote": "PEP should always include the administration of HRIG and rabies vaccine.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "HRIG 20 IU/kg; full dose infiltrated around wounds if possible",
+     "quote": "The recommended dose for HRIG is 20 IU/kg, administered directly into the wound. If possible, infiltrate the full dose around any wound(s).",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Remaining HRIG volume given IM at a site distant from vaccine",
+     "quote": "Administer any remaining volume intramuscularly at an anatomical site distant from vaccine administration.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Vaccine 1.0 mL IM in the deltoid area",
+     "quote": "Administer 1.0 mL of Human Diploid Cell Rabies Vaccine (HDCV) or Purified Chick Embryo Cell Vaccine (PCECV) intramuscularly ... in the deltoid area",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Vaccine days 0, 3, 7, 14; fifth dose day 28 for immune disorders",
+     "quote": "One injection each on days 0, 3, 7, and 14. ... For those with immune disorders, administer a fifth dose on day 28.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "HRIG never in same syringe or site as first vaccine dose; no gluteal injection",
+     "quote": "HRIG should never be administered in the same syringe or in the same anatomical site as the first vaccine dose. ... Do not administer rabies vaccines in the gluteal area.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Previously vaccinated: two doses days 0 and 3, no immune globulin",
+     "quote": "For people who have previously been vaccinated against rabies, PEP consists of two doses of vaccine three days apart. ... Do not administer RIG. ... One each on days 0 and 3.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ],
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": []
+  },
+  {
+   "n": 2,
+   "cited_as": "Talan DA, Citron DM, Abrahamian FM, Moran GJ, Goldstein EJ. Bacteriologic analysis of infected dog and cat bites. New England Journal of Medicine. 1999;340(2):85-92.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/9887159/",
+   "kind": "journal",
+   "pmid": "9887159",
+   "doi": "10.1056/NEJM199901143400202",
+   "record_title": "Bacteriologic analysis of infected dog and cat bites. Emergency Medicine Animal Bite Infection Study Group.",
+   "record_journal": "N Engl J Med",
+   "record_year": "1999",
+   "article_type": "Journal Article; Multicenter Study (prospective)",
+   "retrieved_with": "PubMed get_article_metadata",
+   "claims": [
+    {
+     "text": "Pasteurella species are the most frequent isolates (50 percent of infected dog bites)",
+     "quote": "Pasteurella species were the most frequent isolates from both dog bites (50 percent) and cat bites (75 percent).",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "P. canis most common isolate of dog bites; P. multocida subspecies most common in cat bites",
+     "quote": "Pasteurella canis was the most common isolate of dog bites, and Past. multocida subspecies multocida and septica were the most common isolates of cat bites.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Median of 5 isolates per culture; aerobes and anaerobes from 56 percent of wounds; study at 18 emergency departments",
+     "quote": "we conducted a prospective study at 18 emergency departments ... yielded a median of 5 bacterial isolates per culture ... Aerobes and anaerobes were isolated from 56 percent of the wounds",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Other aerobes (streptococci, staphylococci, Moraxella, Neisseria) and anaerobes (Fusobacterium, Bacteroides, Porphyromonas, Prevotella)",
+     "quote": "Other common aerobes included streptococci, staphylococci, moraxella, and neisseria. Common anaerobes included fusobacterium, bacteroides, porphyromonas, and prevotella.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Beta-lactam plus beta-lactamase inhibitor judged appropriate therapy",
+     "quote": "Patients were most often treated with a combination of a beta-lactam antibiotic and a beta-lactamase inhibitor, which, on the basis of the microbiologic findings, was appropriate therapy.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ],
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice."
+  },
+  {
+   "n": 3,
+   "cited_as": "Stevens DL, Bisno AL, Chambers HF, et al. Practice guidelines for the diagnosis and management of skin and soft tissue infections: 2014 update by the Infectious Diseases Society of America. Clinical Infectious Diseases. 2014;59(2):e10-e52.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/24973422/",
+   "kind": "guideline",
+   "pmid": "24973422",
+   "doi": "10.1093/cid/ciu444",
+   "record_title": "Practice guidelines for the diagnosis and management of skin and soft tissue infections: 2014 update by the Infectious Diseases Society of America.",
+   "record_journal": "Clin Infect Dis",
+   "record_year": "2014",
+   "article_type": "Practice Guideline",
+   "version_or_date": "2014 update (Clin Infect Dis 2014;59(2):e10-52); recommendations 40-44 read from the IDSA-hosted PDF",
+   "retrieved_with": "PubMed get_article_metadata; WebFetch of IDSA-hosted guideline PDF (idsociety.org); OUP article page and OUP PDF also tried (OUP PDF failed with a client error; OUP HTML text ended before the bite section)",
+   "claims": [
+    {
+     "text": "Preemptive early antibiotics for 3 to 5 days for immunocompromised, asplenic, advanced liver disease, or edema of the affected area",
+     "quote": "Preemptive early antimicrobial therapy for 3–5 days is recommended for patients who (a) are immunocompromised; (b) are asplenic; (c) have advanced liver disease; (d) have preexisting or resultant edema of the affected area;",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Also for moderate to severe injuries especially hand or face, and injuries that may penetrate periosteum or joint capsule",
+     "quote": "(e) have moderate to severe injuries, especially to the hand or face; or (f ) have injuries that may have penetrated the periosteum or joint capsule",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Infected bites: agent(s) active against aerobic and anaerobic bacteria such as amoxicillin-clavulanate; alternatives must also cover both",
+     "quote": "An antimicrobial agent or agents active against both aerobic and anaerobic bacteria such as amoxicillin-clavulanate (Table 5) should be used.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Primary closure not recommended except facial wounds, managed with copious irrigation and cautious debridement",
+     "quote": "Primary wound closure is not recommended for wounds, with the exception of those to the face, which should be managed with copious irrigation, cautious debridement",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    }
+   ],
+   "notes": "Table 5 (bite-wound antibiotic doses and penicillin-allergy regimens) could not be read: the IDSA PDF text available to WebFetch ends before it, the OUP PDF failed, and the OUP HTML text stopped at necrotizing fasciitis. No dose or alternative regimen is attributed to this guideline. IDSA Rec 43 sets a 10-year tetanus interval; the guide follows current CDC wound guidance (5 years for dirty wounds) instead. Post-publication items found in PubMed: a Published Erratum (PMID 25725056, doi 10.1093/cid/civ114) and a Letter/Comment 'Antibiotic dosing discrepancies in the 2014 skin and soft tissue infections guidelines' (PMID 25713186, doi 10.1093/cid/civ123); neither was readable beyond its record. scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice.",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": []
+  },
+  {
+   "n": 4,
+   "cited_as": "Sabhaney V, Goldman RD. Child health update. Management of dog bites in children. Canadian Family Physician. 2012;58(10):1094-1096, e548-e550.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/23064918/",
+   "kind": "journal",
+   "pmid": "23064918",
+   "pmcid": "PMC3470506",
+   "record_title": "Child health update. Management of dog bites in children.",
+   "record_journal": "Can Fam Physician",
+   "record_year": "2012",
+   "article_type": "Journal Article",
+   "retrieved_with": "PubMed get_article_metadata; PubMed get_full_text_article returned empty full text; PMC web page showed a bot check (not worked around); abstract only",
+   "claims": [
+    {
+     "text": "Amoxicillin-clavulanate is the first-line choice",
+     "quote": "The first-line choice of antibiotic is amoxicillin-clavulanate.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Prophylaxis also for primary closure, puncture wounds, facial bites, bites to hands, feet or genital area",
+     "quote": "Initiation of prophylactic antibiotics is indicated if the dog bite has undergone primary closure; if there is a moderate or severe bite wound; for puncture wounds ... facial bites, bites to the hands or feet, or genital area bites",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Local debridement and thorough cleaning are part of dog bite care",
+     "quote": "as well as local debridement and thorough cleaning of the wound.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ],
+   "notes": "Abstract only; claims limited to the abstract. Link changed from PMC page to the PubMed record. scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice.",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": []
+  },
+  {
+   "n": 5,
+   "cited_as": "Centers for Disease Control and Prevention. Rabies post-exposure prophylaxis decision algorithm (PDF). Posted September 2026. Accessed November 7, 2026.",
+   "url": "https://www.cdc.gov/rabies/media/pdfs/2026/09/CDC-RABIES-PEP-ALGORITHM.pdf",
+   "kind": "agency_page",
+   "retrieved_with": "WebFetch of official CDC PDF",
+   "version_or_date": "CDC file path dated 2026/09; no version printed in the PDF text",
+   "claims": [
+    {
+     "text": "Healthy dog available for 10-day observation; if still healthy, PEP not indicated",
+     "quote": "Is the animal currently healthy and available for a 10-day post-exposure observation? ... PEP not indicated ... Discontinue PEP under public health guidance.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Dog unwell or unavailable for observation or testing: PEP likely indicated; contact public health",
+     "quote": "PEP likely indicated ... Contact public health immediately for further assessment.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ],
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": []
+  },
+  {
+   "n": 6,
+   "cited_as": "Centers for Disease Control and Prevention. Clinical Guidance for Wound Management to Prevent Tetanus. Reviewed September 8, 2026. Accessed November 7, 2026.",
+   "url": "https://www.cdc.gov/tetanus/hcp/clinical-guidance/index.html",
+   "kind": "agency_page",
+   "retrieved_with": "WebFetch of official CDC page (two reads)",
+   "version_or_date": "Reviewed September 8, 2026",
+   "claims": [
+    {
+     "text": "Wounds containing saliva (animal bites) are dirty or major wounds; vaccine if last dose 5 or more years ago vs 10 for clean minor wounds",
+     "quote": "Wounds containing dirt, soil, feces, or saliva (e.g., animal or human bites) ... People with a complete tetanus primary series who received their last tetanus vaccine 5 or more years ago.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "No vaccine needed if last dose less than 5 years ago with completed series",
+     "quote": "Received last tetanus vaccination less than 5 years ago",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Unknown history, unvaccinated or incomplete series: vaccinate, and TIG for dirty wounds",
+     "quote": "People with an unknown vaccination history ... Unvaccinated people ... People with an incomplete tetanus primary series",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "TIG for dirty wounds in people with HIV or severe immunodeficiency; never for clean minor wounds",
+     "quote": "People with HIV ... People with a severe immunodeficiency ... TIG is never indicated for clean and minor wounds.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Antibiotics are not recommended to protect against tetanus",
+     "quote": "Antibiotics (topical or systemic) aren't recommended during wound care to protect against tetanus.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Clean wounds, remove dirt or foreign material, debride necrotic material",
+     "quote": "Clean all wounds ... Remove dirt or foreign material ... Remove or debride necrotic material",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ],
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": []
+  },
+  {
+   "n": 7,
+   "cited_as": "Centers for Disease Control and Prevention. Clinical Overview of Capnocytophaga. Reviewed August 26, 2025. Accessed November 7, 2026.",
+   "url": "https://www.cdc.gov/capnocytophaga/hcp/clinical-overview/index.html",
+   "kind": "agency_page",
+   "retrieved_with": "WebFetch of official CDC page",
+   "version_or_date": "Reviewed August 26, 2025",
+   "claims": [
+    {
+     "text": "Asplenic patients have a 30 to 60 times greater risk of death from Capnocytophaga",
+     "quote": "Asplenic patients have a 30 to 60 times greater risk of death from Capnocytophaga infections.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Disease can progress rapidly from mild localized infection to sepsis and death",
+     "quote": "The disease can progress rapidly from mild, localized infection to systemic infection, sepsis, and death.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Symptoms typically begin 3 to 5 days after a bite; asplenic patients can reach organ failure and death within 24 to 72 hours of onset",
+     "quote": "Symptoms from zoonosis associated Capnocytophaga infections typically begin about 3 to 5 days after a dog or cat bite. ... These patients can advance to organ failure and death within 24 to 72 hours of onset.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ],
+   "notes": "The CDC page gives no case-fatality percentage; the fatality figure in the guide is attributed to Butler 2015.",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": []
+  },
+  {
+   "n": 8,
+   "cited_as": "Centers for Disease Control and Prevention. About Capnocytophaga. Reviewed August 26, 2025. Accessed November 7, 2026.",
+   "url": "https://www.cdc.gov/capnocytophaga/about/index.html",
+   "kind": "agency_page",
+   "retrieved_with": "WebFetch of official CDC page",
+   "version_or_date": "Reviewed August 26, 2025",
+   "claims": [
+    {
+     "text": "Call your healthcare provider immediately after a dog bite",
+     "quote": "Call your healthcare provider immediately after being bitten by a dog or cat.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ],
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": []
+  },
+  {
+   "n": 9,
+   "cited_as": "Hansen M, Crum-Cianflone NF. Capnocytophaga canimorsus meningitis: diagnosis using polymerase chain reaction testing and systematic review of the literature. Infectious Diseases and Therapy. 2019;8(1):119-136.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30706413/",
+   "kind": "journal",
+   "pmid": "30706413",
+   "pmcid": "PMC6374236",
+   "doi": "10.1007/s40121-019-0233-6",
+   "record_title": "Capnocytophaga canimorsus Meningitis: Diagnosis Using Polymerase Chain Reaction Testing and Systematic Review of the Literature.",
+   "record_journal": "Infect Dis Ther",
+   "record_year": "2019",
+   "article_type": "Journal Article (case report with systematic review)",
+   "retrieved_with": "PubMed get_article_metadata",
+   "claims": [
+    {
+     "text": "Most reported meningitis cases occurred in previously healthy, immunocompetent persons",
+     "quote": "While classically considered an infection among immunocompromised patients, most cases have occurred in previously healthy, immunocompetent persons.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ],
+   "notes": "Authors corrected (previously listed as 'Rutter A, et al.'). The 30% sepsis fatality figure formerly attributed here was removed: this meningitis review reports one (3%) death. Link changed to PubMed record. scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice.",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": []
+  },
+  {
+   "n": 10,
+   "cited_as": "Ellis R, Ellis C. Dog and cat bites. American Family Physician. 2014;90(4):239-243.",
+   "url": "https://www.aafp.org/pubs/afp/issues/2014/0815/p239.html",
+   "kind": "journal",
+   "pmid": "25250997",
+   "record_title": "Dog and cat bites.",
+   "record_journal": "Am Fam Physician",
+   "record_year": "2014",
+   "article_type": "Journal Article; Review",
+   "retrieved_with": "PubMed get_article_metadata; WebFetch of full text on aafp.org",
+   "claims": [
+    {
+     "text": "High infection risk examples: cat bites, puncture wounds, hand wounds, immunosuppressed persons",
+     "quote": "Antibiotic prophylaxis should be considered, especially if there is a high risk of infection, such as with cat bites, with puncture wounds, with wounds to the hand, and in persons who are immunosuppressed.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Irrigate copiously with normal saline using a 20-mL or larger syringe or 20-gauge catheter; explore for tendon or bone involvement and foreign bodies",
+     "quote": "Bite wounds should be cleaned, copiously irrigated with normal saline using a 20-mL or larger syringe or a 20-gauge catheter attached to the syringe. The wound should be explored for tendon or bone involvement and possible foreign bodies.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Water, normal saline or dilute povidone-iodine are irrigation options",
+     "quote": "copiously irrigated with water, normal saline, or dilute povidone-iodine solution, especially if the animal may be rabid.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "High-risk wounds (e.g. hand) left open / secondary intention",
+     "quote": "However, wounds at high risk of infection should be left open. ... allowing a wound to close by secondary intention should be considered if there is a higher risk of infection",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "In most states physicians must report animal bites",
+     "quote": "In most states, physicians are required by law to report animal bites.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ],
+   "notes": "Page notes a more recent AFP article on dog and cat bites (2023) exists; not used. No DOI in PubMed record. scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice.",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": []
+  },
+  {
+   "n": 11,
+   "cited_as": "Dang Y, Zhao X, Pan T, et al. Immediate versus delayed closure of facial dog-bite wounds: retrospective analysis and nursing care experience. Medicine (Baltimore). 2025;104(40):e45133.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41054047/",
+   "kind": "journal",
+   "pmid": "41054047",
+   "pmcid": "PMC12499818",
+   "doi": "10.1097/MD.0000000000045133",
+   "record_title": "Immediate versus delayed closure of facial dog-bite wounds: Retrospective analysis and nursing care experience.",
+   "record_journal": "Medicine (Baltimore)",
+   "record_year": "2025",
+   "article_type": "Journal Article; Observational Study (retrospective cohort)",
+   "retrieved_with": "PubMed get_article_metadata",
+   "claims": [
+    {
+     "text": "Single-center retrospective study, 212 patients in China; SSI 12.5% immediate vs 13.0% delayed, no significant difference",
+     "quote": "A retrospective cohort study was conducted at a tertiary center in Western China ... A total of 212 patients ... no significant difference between IPC (12.5%) and DPC (13.0%) groups (P = .92).",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Immediate closure: faster epithelialization, better scar scores at 3 months; wound area sole predictor",
+     "quote": "Multivariate analysis identified wound area as the sole independent predictor of SSI ... IPC was associated with faster epithelialization (median 18 vs 20 days; P = .02) and superior cosmetic outcomes",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ],
+   "notes": "Author corrected (previously listed as 'Pubmed'); 'surgical literature' wording replaced with the actual design. scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice.",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": []
+  },
+  {
+   "n": 12,
+   "cited_as": "Yoon Y, Kim D, Lee D, Min H, Choi J. Infection prevention and treatment following dog bites: a systematic review of randomized controlled trials. Journal of Trauma and Injury. 2025;38(1):3-13.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40175075/",
+   "kind": "journal",
+   "pmid": "40175075",
+   "pmcid": "PMC11968313",
+   "doi": "10.20408/jti.2024.0069",
+   "record_title": "Infection prevention and treatment following dog bites: a systematic review of randomized controlled trials.",
+   "record_journal": "J Trauma Inj",
+   "record_year": "2025",
+   "article_type": "Journal Article (systematic review)",
+   "retrieved_with": "PubMed get_article_metadata",
+   "claims": [
+    {
+     "text": "Five RCTs including suturing vs not suturing; pooled four showed no significant infection difference; evidence inconclusive",
+     "quote": "Five RCTs met the eligibility criteria ... wound management strategies (primary suturing versus non-suturing) ... A meta-analysis of four studies revealed no significant difference in infection rates ... the evidence regarding infection prevention remains inconclusive.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ],
+   "notes": "First author corrected (Yoon Y, not Kim J). Removed the unsupported 'pediatric trauma registry data' and WHO claims and the debridement rationale formerly cited here. scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice.",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": []
+  },
+  {
+   "n": 13,
+   "cited_as": "U.S. Food and Drug Administration prescribing information, via DailyMed. AUGMENTIN (amoxicillin and clavulanate potassium) tablets and powder for oral suspension. Revised September 2016. Accessed November 7, 2026.",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=174cc098-fe49-4f1a-87e2-601c7573f0db",
+   "kind": "label",
+   "retrieved_with": "WebFetch of DailyMed label page",
+   "version_or_date": "Revised 9/2016 (DailyMed updated September 1, 2016)",
+   "claims": [
+    {
+     "text": "Adult dose for more severe infections: one 875 mg tablet every 12 hours",
+     "quote": "For more severe infections and infections of the respiratory tract, the dose should be one 875-mg tablet of AUGMENTIN every 12 hours or one 500-mg tablet of AUGMENTIN every 8 hours.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Pediatric under 40 kg, more severe infections: 45 mg/kg/day every 12 hours; 40 kg or more dosed as adults",
+     "quote": "45 mg/kg/day every 12 hours ... Pediatric patients weighing 40 kg or more should be dosed according to adult recommendations.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Contraindicated with history of serious hypersensitivity (anaphylaxis, SJS) to amoxicillin, clavulanate or other beta-lactams such as penicillins and cephalosporins",
+     "quote": "AUGMENTIN is contraindicated in patients with a history of serious hypersensitivity reactions (e.g., anaphylaxis or Stevens-Johnson syndrome) to amoxicillin, clavulanate or to other beta-lactam antibacterial drugs (e.g., penicillins and cephalosporins).",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ],
+   "notes": "The label does not mention bite wounds; the guide presents only the label's general adult dose for more severe infections and pediatric dose, not a bite-specific regimen.",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": []
+  },
+  {
+   "n": 14,
+   "cited_as": "Centers for Disease Control and Prevention. Adult Immunization Schedule Notes (Recommendations for Ages 19 Years or Older, United States, 2025). Dated July 2, 2025. Accessed November 7, 2026.",
+   "url": "https://www.cdc.gov/vaccines/hcp/imz-schedules/adult-notes.html",
+   "kind": "guideline",
+   "retrieved_with": "WebFetch of official CDC page",
+   "version_or_date": "Adult schedule notes dated July 2, 2025",
+   "claims": [
+    {
+     "text": "Tdap preferred if no prior Tdap or unknown Tdap history",
+     "quote": "Tdap is preferred for persons who have not previously received Tdap or whose Tdap history is unknown.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ],
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": []
+  },
+  {
+   "n": 15,
+   "cited_as": "Centers for Disease Control and Prevention. Clinical Screening for Rabies PEP. Reviewed September 11, 2026. Accessed November 7, 2026.",
+   "url": "https://www.cdc.gov/rabies/hcp/diagnosis/index.html",
+   "kind": "agency_page",
+   "retrieved_with": "WebFetch of official CDC page",
+   "version_or_date": "Reviewed September 11, 2026",
+   "claims": [
+    {
+     "text": "US rabies mostly in wildlife; risk assessment by a health official familiar with rabies",
+     "quote": "In the U.S., rabies is mostly found in wild animals like bats, raccoons, skunks, and foxes. ... A health official familiar with rabies should always conduct the risk assessment.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Direct bat contact counts unless a bite or scratch can be definitively ruled out",
+     "quote": "They had direct contact with bats unless a bite or scratch can be definitively ruled out.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Immediate assessment for bat contact (unless bite or scratch ruled out), high-risk wildlife, and severe exposures such as multiple bites or head and neck",
+     "quote": "A patient should be immediately assessed for rabies-related care in the following cases: ... They had exposure to certain high-risk animals ... They had severe exposures, such as multiple bite wounds or exposures to the head and neck.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ],
+   "notes": "Page H1 read as 'Clinical Screening for Rabies PEP'.",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": []
+  },
+  {
+   "n": 16,
+   "cited_as": "Centers for Disease Control and Prevention. Rabies: Information for Veterinarians. Reviewed July 16, 2025. Accessed November 7, 2026.",
+   "url": "https://www.cdc.gov/rabies/hcp/veterinarians/index.html",
+   "kind": "agency_page",
+   "retrieved_with": "WebFetch of official CDC page",
+   "version_or_date": "Reviewed July 16, 2025",
+   "claims": [
+    {
+     "text": "Confine and observe a healthy dog, cat or ferret for 10 days; report illness; do not vaccinate during observation",
+     "quote": "confine and observe a healthy dog, cat, or ferret suspected of having rabies that exposes a person ... for 10 days post-exposure ... immediately report the situation to the local health department ... Do not vaccinate during the observation period",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ],
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": []
+  },
+  {
+   "n": 17,
+   "cited_as": "Butler T. Capnocytophaga canimorsus: an emerging cause of sepsis, meningitis, and post-splenectomy infection after dog bites. European Journal of Clinical Microbiology and Infectious Diseases. 2015;34(7):1271-1280.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25828064/",
+   "kind": "journal",
+   "pmid": "25828064",
+   "doi": "10.1007/s10096-015-2360-7",
+   "record_title": "Capnocytophaga canimorsus: an emerging cause of sepsis, meningitis, and post-splenectomy infection after dog bites.",
+   "record_journal": "Eur J Clin Microbiol Infect Dis",
+   "record_year": "2015",
+   "article_type": "Journal Article; Review",
+   "retrieved_with": "PubMed get_article_metadata",
+   "claims": [
+    {
+     "text": "Review of about 484 reported cases; case-fatality rate about 26%",
+     "quote": "An estimated 484 patients with a median age of 55 years were reported ... The case-fatality rate was about 26%.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ],
+   "notes": "Added to replace the unsupported 30% sepsis fatality figure. Pooled reported cases (publication bias toward severe cases is likely); figure attributed exactly. scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice.",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": []
+  },
+  {
+   "n": 18,
+   "cited_as": "California Department of Public Health. Animal Bites. Accessed November 7, 2026.",
+   "url": "https://www.cdph.ca.gov/Programs/CID/DCDC/Pages/AnimalBites.aspx",
+   "kind": "agency_page",
+   "retrieved_with": "WebFetch of official CDPH page",
+   "version_or_date": "No update date shown on page",
+   "claims": [
+    {
+     "text": "Report bites to local animal control; purpose is to confirm the animal is healthy, licensed, vaccinated",
+     "quote": "local officials can make sure that the biting animal is healthy, licensed ... up to date on its rabies vaccinations.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ],
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": []
+  },
+  {
+   "n": 19,
+   "cited_as": "Westgarth C, Provazza S, Nicholas J, Gray V. Review of psychological effects of dog bites in children. BMJ Paediatrics Open. 2024;8(1).",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38844383/",
+   "kind": "journal",
+   "pmid": "38844383",
+   "pmcid": "PMC11163822",
+   "doi": "10.1136/bmjpo-2020-000922",
+   "record_title": "Review of psychological effects of dog bites in children.",
+   "record_journal": "BMJ Paediatr Open",
+   "record_year": "2024",
+   "article_type": "Journal Article; Review",
+   "retrieved_with": "PubMed get_article_metadata",
+   "claims": [
+    {
+     "text": "23 studies; most common consequences PTSD, dog phobia, nightmares, anxiety and avoidance",
+     "quote": "23 studies involving 1894 participants met the criteria ... The most common psychological consequences of dog bites in children were post-traumatic stress disorder, dog phobia, nightmares and symptoms of anxiety and avoidance behaviours.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Studies on these consequences and management are sparse",
+     "quote": "Studies on dog bites in a paediatric population with a specific focus on the psychological consequences associated with dog bites and their management are sparse.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ],
+   "notes": "Authors corrected (Westgarth C et al.; 'Schwebel DC' is not an author). Removed unsupported severity and face/neck qualifier. Link changed to PubMed record. scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice.",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": []
+  }
+ ]
+}

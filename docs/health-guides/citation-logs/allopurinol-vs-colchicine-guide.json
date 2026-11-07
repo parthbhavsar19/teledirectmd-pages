@@ -1,0 +1,634 @@
+{
+ "guide": "allopurinol-vs-colchicine-guide",
+ "checked_at": "2026-11-07",
+ "checked_by": "Claude (repair run)",
+ "scite_verify_papers": "unavailable (quota exhausted until 2026-11-14); retraction status from PubMed article types",
+ "references": [
+  {
+   "n": 1,
+   "kind": "guideline",
+   "cited_as": "FitzGerald JD, Dalbeth N, Mikuls T, et al. 2020 American College of Rheumatology Guideline for the Management of Gout. Arthritis Care & Research. 2020;72(6):744-760. doi:10.1002/acr.24180.",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10563586/",
+   "pmid": "32391934",
+   "pmcid": "PMC10563586",
+   "doi": "10.1002/acr.24180",
+   "record_title": "2020 American College of Rheumatology Guideline for the Management of Gout.",
+   "record_journal": "Arthritis Care Res (Hoboken)",
+   "record_year": "2020",
+   "article_type": "Journal Article; Practice Guideline",
+   "version_or_date": "ACR 2020 guideline, published 2020 (vol 72, issue 6); read 2026-11-07",
+   "retrieved_with": "PubMed get_article_metadata (abstract) and get_full_text_article (PMC full text)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice. Guide previously added a <5 mg/dL target for tophaceous gout; the guideline explicitly declines to set a lower threshold, so the guide now says so.",
+   "claims": [
+    {
+     "text": "Allopurinol is the long-term urate-lowering drug; flare pain is treated with colchicine, an NSAID, or a steroid (not interchangeable)",
+     "quote": "Using colchicine, NSAIDs, or glucocorticoids (oral, intraarticular, or intramuscular) as appropriate first-line therapy for gout flares over IL-1 inhibitors or adrenocorticotropic hormone (ACTH) is strongly recommended for patients experiencing a gout flare.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Allopurinol is not a flare treatment; colchicine is an anti-inflammatory rather than a urate-lowering drug (key takeaway, two-jobs section, mistakes list, FAQ on colchicine and uric acid)",
+     "quote": "Administering concomitant antiinflammatory prophylaxis therapy (e.g., colchicine, nonsteroidal antiinflammatory drugs [NSAIDs], prednisone/prednisolone) over no antiinflammatory prophylaxis therapy is strongly recommended.",
+     "quote_source": "full_text",
+     "verdict": "partly_supported"
+    },
+    {
+     "text": "Allopurinol is started low (100 mg daily or less, lower in chronic kidney disease) and titrated",
+     "quote": "Starting treatment with low-dose allopurinol (≤100 mg/day and lower in patients with CKD [stage ≥3]) and febuxostat (≤40 mg/day) with subsequent dose titration over starting at a higher dose is strongly recommended.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Titrate to a serum urate below 6 mg/dL for all patients on urate-lowering therapy",
+     "quote": "Achieving and maintaining an SU target of <6 mg/dl over the use of no target is strongly recommended for all patients receiving ULT.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "The guideline does not set a lower threshold for tophaceous gout and notes no trial data support one",
+     "quote": "this guideline does not specify SU thresholds beyond <6 mg/dl for patient subsets with more severe disease (e.g., those with tophi).",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "No trial data for lower thresholds",
+     "quote": "there are no trial data to support lower specific thresholds for such patients.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Serum urate is checked after each dose change",
+     "quote": "SU concentrations should be checked after each dose titration",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Allopurinol is preferred first-line, including for people with moderate-to-severe chronic kidney disease",
+     "quote": "Treatment with allopurinol as the preferred first-line agent, over all other ULTs, is strongly recommended for all patients, including those with moderate-to-severe CKD (stage ≥3).",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Prophylaxis with colchicine, an NSAID, or prednisone for at least 3 to 6 months when urate-lowering therapy starts reduces early flares",
+     "quote": "When initiating ULT, concomitant antiinflammatory prophylaxis therapy for a duration of at least 3-6 months was strongly recommended.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Prophylaxis continued longer if flares persist; prophylaxis is added to limit flares when urate-lowering therapy starts",
+     "quote": "these guidelines reinforce prior recommendations to use concurrent antiinflammatory prophylaxis for 3–6 months’ duration, a shorter duration than advocated for in prior recommendations, but one that should be extended in the setting of frequent ongoing flares.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Continue prophylaxis for 3 to 6 months rather than less than 3 months, with ongoing evaluation (together section, FAQ on stopping colchicine)",
+     "quote": "Continuing concomitant antiinflammatory prophylaxis therapy for 3–6 months over <3 months, with ongoing evaluation and continued prophylaxis as needed if the patient continues to experience gout flares, is strongly recommended.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "A lower starting dose reduces flares at initiation",
+     "quote": "A lower starting dose of any ULT reduces the risk of flare associated with initiation",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "A lower starting dose mitigates allopurinol hypersensitivity syndrome risk",
+     "quote": "Using a lower starting dose mitigates safety issues specific to allopurinol hypersensitivity syndrome (AHS)",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Urate falls as the dose is titrated over weeks to months",
+     "quote": "ULT titration should occur over weeks to months, not years.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "HLA-B*58:01 testing conditionally recommended before allopurinol in Southeast Asian descent (e.g., Han Chinese, Korean, Thai) and African American patients",
+     "quote": "Testing for the HLA–B*5801 allele prior to starting allopurinol is conditionally recommended for patients of Southeast Asian descent (e.g., Han Chinese, Korean, Thai) and for African American patients",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Febuxostat carries an FDA boxed warning",
+     "quote": "interest to provide recommendations consistent with the FDA black box warning for febuxostat",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Switching away from febuxostat is conditionally recommended with a history of cardiovascular disease or a new event",
+     "quote": "Switching to an alternative oral ULT agent, if available and consistent with other recommendations in this guideline, is conditionally recommended for patients taking febuxostat with a history of CVD or a new CVD-related event.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Continuing urate-lowering therapy indefinitely is conditionally recommended (mistakes list, FAQ on how long)",
+     "quote": "Continuing ULT indefinitely over stopping ULT is conditionally recommended.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "In people who stopped urate-lowering therapy, higher urate went with more frequent flares",
+     "quote": "patients with higher SU concentrations after withholding therapy had more frequent flares with greater likelihood of flares associated with higher SU levels",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "When urate-lowering therapy is indicated during a flare, starting it during the flare is conditionally recommended",
+     "quote": "When the decision is made that ULT is indicated while the patient is experiencing a gout flare, starting ULT during the gout flare over starting ULT after the gout flare has resolved is conditionally recommended.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "The ACR guideline strongly recommends low-dose over high-dose colchicine",
+     "quote": "Given similar efficacy and a lower risk of adverse effects, low-dose colchicine over high-dose colchicine is strongly recommended when colchicine is the chosen agent.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Allopurinol is titrated on measured urate (red flags paragraph)",
+     "quote": "A treat-to-target management strategy that includes ULT dose titration and subsequent dosing guided by serial SU measurements to achieve a target SU, over a fixed-dose ULT strategy, is strongly recommended for all patients receiving ULT.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "kind": "journal",
+   "cited_as": "Terkeltaub RA, Furst DE, Bennett K, Kook KA, Crockett RS, Davis MW. High versus low dosing of oral colchicine for early acute gout flare: twenty-four-hour outcome of the first multicenter, randomized, double-blind, placebo-controlled, parallel-group, dose-comparison colchicine study. Arthritis & Rheumatism. 2010;62(4):1060-1068.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/20131255/",
+   "pmid": "20131255",
+   "doi": "10.1002/art.27327",
+   "record_title": "High versus low dosing of oral colchicine for early acute gout flare: Twenty-four-hour outcome of the first multicenter, randomized, double-blind, placebo-controlled, parallel-group, dose-comparison colchicine study.",
+   "record_journal": "Arthritis Rheum",
+   "record_year": "2010",
+   "article_type": "Journal Article; Multicenter Study; Randomized Controlled Trial",
+   "retrieved_with": "PubMed get_article_metadata (abstract only)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice. Abstract only; claims limited to the abstract. Title in reference list completed from the PubMed record.",
+   "claims": [
+    {
+     "text": "Low-dose course (1.8 mg over 1 hour) versus high-dose course (4.8 mg over 6 hours)",
+     "quote": "compared self-administered low-dose colchicine (1.8 mg total over 1 hour) and high-dose colchicine (4.8 mg total over 6 hours) with placebo.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Low-dose colchicine gave pain relief comparable to high-dose, with side effects similar to placebo",
+     "quote": "Low-dose colchicine yielded both maximum plasma concentration and early gout flare efficacy comparable with that of high-dose colchicine, with a safety profile indistinguishable from that of placebo.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "AGREE chart: 37.8%, 32.7%, 15.5% with at least 50% pain reduction at 24 hours",
+     "quote": "Responders included 28 of 74 patients (37.8%) in the low-dose group, 17 of 52 patients (32.7%) in the high-dose group, and 9 of 58 patients (15.5%) in the placebo group",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "High-dose course caused far more diarrhea and vomiting",
+     "quote": "With high-dose colchicine, 40 patients (76.9%) had diarrhea (OR 21.3 [95% CI 7.9-56.9]), 10 (19.2%) had severe diarrhea, and 9 (17.3%) had vomiting. With low-dose colchicine, 23.0% of the patients had diarrhea",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "kind": "label",
+   "cited_as": "Mylan Pharmaceuticals Inc. Colchicine tablets, USP 0.6 mg: prescribing information. DailyMed, U.S. National Library of Medicine. Revised April 2022. Accessed November 7, 2026.",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=85acf34c-06c6-40ea-95f4-060d5de99277",
+   "record_title": "COLCHICINE tablet, film coated (Mylan Pharmaceuticals Inc.)",
+   "version_or_date": "Revised: 4/2022 (DailyMed updated April 1, 2022); read 2026-11-07",
+   "retrieved_with": "WebFetch of DailyMed label page (search results for colchicine, then drugInfo page)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "Replaces the old COLCRYS DailyMed link (setid 8a5edd42...), which the audit found redirects to the DailyMed home page. The COLCRYS (AR Scientific) label on DailyMed was also read this run but is dated 3/2012, so the newer 2022 colchicine 0.6 mg tablet label was cited. The page was read in two parts; the Medication Guide tail had no symptom list, so the red flag now uses section 17 wording only. Interacting-drug examples are verbatim Table 1 entries: Clarithromycin, Itraconazole, Ketoconazole and Ritonavir are listed as strong CYP3A4 inhibitors and Cyclosporine as a P-gp inhibitor.",
+   "claims": [
+    {
+     "text": "Flare dose 1.2 mg at first sign, then 0.6 mg one hour later",
+     "quote": "is 1.2 mg (two tablets) at the first sign of the flare followed by 0.6 mg (one tablet) one hour later",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Adult prophylaxis 0.6 mg once or twice daily",
+     "quote": "for adults and adolescents older than 16 years of age is 0.6 mg once or twice daily",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Maximum prophylaxis dose 1.2 mg per day",
+     "quote": "The maximum recommended dose for prophylaxis of gout flares is 1.2 mg/day.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Mechanism: blocks microtubule formation, preventing neutrophil activation and migration thought to mediate gout symptoms; may interfere with the inflammasome",
+     "quote": "colchicine disrupts cytoskeletal functions through inhibition of β-tubulin polymerization into microtubules and consequently prevents the activation, degranulation and migration of neutrophils thought to mediate some gout symptoms.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Possibly interfering with the inflammasome",
+     "quote": "evidence suggests that colchicine may interfere with the intracellular assembly of the inflammasome complex present in neutrophils and monocytes that mediates activation of interleukin-1β.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Colchicine is not a urate-lowering drug; it is used alongside urate-lowering therapy",
+     "quote": "Colchicine tablets are recommended upon initiation of gout flare prophylaxis with uric acid-lowering therapy.",
+     "quote_source": "label",
+     "verdict": "partly_supported"
+    },
+    {
+     "text": "Severe kidney impairment: prophylaxis starting dose 0.3 mg per day",
+     "quote": "in patients with severe impairment, the starting dose should be 0.3 mg/day",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Severe kidney impairment: flare course repeated no more than once every two weeks",
+     "quote": "a treatment course should be repeated no more than once every two weeks.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Dialysis: single 0.6 mg dose for a flare",
+     "quote": "the total recommended dose for the treatment of gout flares should be reduced to a single dose of 0.6 mg (one tablet).",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Doses adjusted for interacting drugs (CYP3A4 and P-gp inhibitors)",
+     "quote": "Coadministration of colchicine tablets with drugs known to inhibit CYP3A4 and/or P-glycoprotein (P-gp) increases the risk of colchicine-induced toxic effects (Table 1).",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Colchicine is a P-gp and CYP3A4 substrate; fatal interactions reported",
+     "quote": "Colchicine is a P-gp and CYP3A4 substrate. Life-threatening and fatal drug interactions have been reported in patients treated with colchicine",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Examples: clarithromycin, ketoconazole, itraconazole, ritonavir and other HIV protease inhibitors, cyclosporine",
+     "quote": "Clarithromycin; Itraconazole; Ketoconazole; Ritonavir; Cyclosporine",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Contraindicated with kidney or liver impairment",
+     "quote": "Patients with renal or hepatic impairment should not be given colchicine tablets in conjunction with P-gp or strong CYP3A4 inhibitors (this includes all protease inhibitors except fosamprenavir).",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Fatal overdoses reported",
+     "quote": "Fatal overdoses, both accidental and intentional, have been reported in adults and children who have ingested colchicine",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Most common side effect during flare treatment is diarrhea",
+     "quote": "for treatment of gout flares were diarrhea (23%) and pharyngolaryngeal pain (3%).",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Red flag: muscle pain or weakness, tingling or numbness in fingers or toes; stop and seek care",
+     "quote": "muscle pain or weakness, tingling or numbness in fingers or toes may occur with colchicine tablets alone ... must discontinue colchicine tablets and seek medical evaluation immediately.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Dose reduction considered in severe hepatic impairment",
+     "quote": "Dose reduction should be considered for the prophylaxis of gout flares in patients with severe hepatic impairment",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "kind": "journal",
+   "cited_as": "Stamp L, Horne A, Mihov B, Drake J, Haslett J, et al. Is colchicine prophylaxis required with start-low go-slow allopurinol dose escalation in gout? A non-inferiority randomised double-blind placebo-controlled trial. Annals of the Rheumatic Diseases. 2023;82(12):1626-1634.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37652661/",
+   "pmid": "37652661",
+   "doi": "10.1136/ard-2023-224731",
+   "record_title": "Is colchicine prophylaxis required with start-low go-slow allopurinol dose escalation in gout? A non-inferiority randomised double-blind placebo-controlled trial.",
+   "record_journal": "Ann Rheum Dis",
+   "record_year": "2023",
+   "article_type": "Randomized Controlled Trial; Journal Article; Equivalence Trial",
+   "retrieved_with": "PubMed get_article_metadata (abstract only)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice. Abstract only. Previous guide text reversed the finding (said prophylaxis may be skippable); rewritten to the abstract result.",
+   "claims": [
+    {
+     "text": "Randomized, double-blind, placebo-controlled trial of 200 adults; colchicine 0.5 mg daily vs placebo for 6 months while allopurinol started low and increased monthly",
+     "quote": "Participants were randomised 1:1 to colchicine 0.5 mg daily or placebo for the first 6 months. All participants commenced allopurinol, increasing monthly to achieve target urate <0.36 mmol/L.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "200 participants",
+     "quote": "Two hundred participants were randomised.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Flares 0.35 per month with colchicine vs 0.61 per month with placebo over first 6 months",
+     "quote": "The mean (95% CI) number of gout flares/month between baseline and month 6 was 0.61 (0.47 to 0.74) in the placebo group compared with 0.35 (0.22 to 0.49) in the colchicine group",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Placebo failed non-inferiority; prophylaxis not skippable with start-low go-slow; colchicine prophylaxis reduces early flares",
+     "quote": "Placebo is not non-inferior to colchicine in prevention of gout flares in the first 6 months of starting allopurinol using the 'start-low go-slow' strategy.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "After colchicine stopped, flares rose; no difference over 12 months",
+     "quote": "After stopping colchicine, gout flares rise with no difference in the mean number of gout flares/month between groups over a 12-month period.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Serious adverse events: 11 in 7 participants on colchicine vs 3 in 2 on placebo",
+     "quote": "There were 11 serious adverse events in 7 participants receiving colchicine and 3 in 2 receiving placebo.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "kind": "journal",
+   "cited_as": "Hung SI, Chung WH, Liou LB, et al. HLA-B*5801 allele as a genetic marker for severe cutaneous adverse reactions caused by allopurinol. Proceedings of the National Academy of Sciences USA. 2005;102(11):4134-4139.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/15743917/",
+   "pmid": "15743917",
+   "pmcid": "PMC554812",
+   "doi": "10.1073/pnas.0409500102",
+   "record_title": "HLA-B*5801 allele as a genetic marker for severe cutaneous adverse reactions caused by allopurinol.",
+   "record_journal": "Proc Natl Acad Sci U S A",
+   "record_year": "2005",
+   "article_type": "Journal Article",
+   "retrieved_with": "PubMed get_article_metadata and get_full_text_article (PMC returned abstract only)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice. Abstract only. Study population was Han Chinese; the guide now says so. Stop-and-seek-care advice moved to the allopurinol label (ref 11).",
+   "claims": [
+    {
+     "text": "Severe skin reactions (SJS, TEN) strongly associated with HLA-B*58:01; present in all 51 patients vs 15% of tolerant users, Han Chinese study",
+     "quote": "The HLA-B*5801 allele was present in all (100%) 51 patients with allopurinol-SCAR, but only in 20 (15%) of 135 tolerant patients",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Allopurinol severe reactions include Stevens-Johnson syndrome and toxic epidermal necrolysis",
+     "quote": "severe cutaneous adverse reactions (SCAR), which include the drug hypersensitivity syndrome, Stevens-Johnson syndrome, and toxic epidermal necrolysis.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Association shown in Han Chinese",
+     "quote": "allopurinol-SCAR is strongly associated with a genetic predisposition in Han Chinese.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "kind": "journal",
+   "cited_as": "Sekine M, Okamoto K, Pai EF, Nagata K, Ichida K, et al. Allopurinol and oxypurinol differ in their strength and mechanisms of inhibition of xanthine oxidoreductase. Journal of Biological Chemistry. 2023;299(9):105189.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37625592/",
+   "pmid": "37625592",
+   "pmcid": "PMC10511816",
+   "doi": "10.1016/j.jbc.2023.105189",
+   "record_title": "Allopurinol and oxypurinol differ in their strength and mechanisms of inhibition of xanthine oxidoreductase.",
+   "record_journal": "J Biol Chem",
+   "record_year": "2023",
+   "article_type": "Journal Article",
+   "retrieved_with": "PubMed get_article_metadata and get_full_text_article (PMC full text)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice. Basic-science (mouse and enzyme) study; used only for mechanism. Crystal-dissolution claim removed (not in source).",
+   "claims": [
+    {
+     "text": "The enzyme converts hypoxanthine to xanthine and then to uric acid",
+     "quote": "Xanthine oxidoreductase is a metalloenzyme that catalyzes the final steps in purine metabolism by converting hypoxanthine to xanthine and then uric acid.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Allopurinol inhibits the enzyme and is metabolized to oxypurinol, which inhibits it less strongly",
+     "quote": "xanthine oxidoreductase-mediated metabolism of allopurinol to oxypurinol leads to oxypurinol rotation in the enzyme active site",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Oxypurinol less effective than allopurinol",
+     "quote": "Our results demonstrated that oxypurinol was less effective than allopurinol both in vivo and in vitro.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "kind": "journal",
+   "cited_as": "Becker MA, Schumacher HR, Wortmann RL, MacDonald PA, Eustace D, Palo WA, Streit J, Joseph-Ridge N. Febuxostat compared with allopurinol in patients with hyperuricemia and gout. New England Journal of Medicine. 2005;353(23):2450-2461.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/16339094/",
+   "pmid": "16339094",
+   "doi": "10.1056/NEJMoa050373",
+   "record_title": "Febuxostat compared with allopurinol in patients with hyperuricemia and gout.",
+   "record_journal": "N Engl J Med",
+   "record_year": "2005",
+   "article_type": "Clinical Trial, Phase III; Randomized Controlled Trial; Multicenter Study",
+   "retrieved_with": "PubMed get_article_metadata (abstract only)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice. Abstract only. \"Jr\" removed from Schumacher to match PubMed record. Text now states the single-trial 21 percent result instead of \"older trials\".",
+   "claims": [
+    {
+     "text": "Fixed 300 mg daily allopurinol brought urate below 6.0 mg/dL in 21 percent of patients",
+     "quote": "The primary end point was reached in 53 percent of patients receiving 80 mg of febuxostat, 62 percent of those receiving 120 mg of febuxostat, and 21 percent of those receiving allopurinol",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Primary end point definition: urate below 6.0 mg/dL; allopurinol dose 300 mg",
+     "quote": "The primary end point was a serum urate concentration of less than 6.0 mg per deciliter (360 micromol per liter) at the last three monthly measurements.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "kind": "journal",
+   "cited_as": "White WB, Saag KG, Becker MA, et al. Cardiovascular Safety of Febuxostat or Allopurinol in Patients with Gout. New England Journal of Medicine. 2018;378(13):1200-1210.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29527974/",
+   "pmid": "29527974",
+   "doi": "10.1056/NEJMoa1710895",
+   "record_title": "Cardiovascular Safety of Febuxostat or Allopurinol in Patients with Gout.",
+   "record_journal": "N Engl J Med",
+   "record_year": "2018",
+   "article_type": "Randomized Controlled Trial; Equivalence Trial; Multicenter Study",
+   "retrieved_with": "PubMed get_article_metadata (abstract only)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice. Abstract only. Boxed warning itself is supported by ref 1, not this paper.",
+   "claims": [
+    {
+     "text": "In CARES, all-cause and cardiovascular death were higher with febuxostat than allopurinol",
+     "quote": "All-cause and cardiovascular mortality were higher in the febuxostat group than in the allopurinol group",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "CARES follow-up (for the longer-follow-up comparison with FAST)",
+     "quote": "In total, 6190 patients underwent randomization, received febuxostat or allopurinol, and were followed for a median of 32 months (maximum, 85 months).",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "kind": "journal",
+   "cited_as": "Mackenzie IS, Ford I, Nuki G, et al. Long-term cardiovascular safety of febuxostat compared with allopurinol in patients with gout (FAST): a multicentre, prospective, randomised, open-label, non-inferiority trial. The Lancet. 2020;396(10264):1745-1757.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33181081/",
+   "pmid": "33181081",
+   "doi": "10.1016/S0140-6736(20)32234-0",
+   "record_title": "Long-term cardiovascular safety of febuxostat compared with allopurinol in patients with gout (FAST): a multicentre, prospective, randomised, open-label, non-inferiority trial.",
+   "record_journal": "Lancet",
+   "record_year": "2020",
+   "article_type": "Randomized Controlled Trial; Equivalence Trial; Multicenter Study",
+   "retrieved_with": "PubMed get_article_metadata (abstract only)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice. Abstract only. \"Larger\" removed: FAST enrolled 6128 vs 6190 randomized in CARES; \"longer follow-up\" used instead (median 1467 days vs median 32 months in CARES, ref 8). Title completed from PubMed.",
+   "claims": [
+    {
+     "text": "FAST found febuxostat noninferior for its main cardiovascular endpoint and no increase in death",
+     "quote": "Febuxostat is non-inferior to allopurinol therapy with respect to the primary cardiovascular endpoint, and its long-term use is not associated with an increased risk of death or serious adverse events compared with allopurinol.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "FAST had longer follow-up",
+     "quote": "Median follow-up time was 1467 days (IQR 1029-2052)",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "kind": "journal",
+   "cited_as": "Tardif JC, Kouz S, Waters DD, et al. Efficacy and Safety of Low-Dose Colchicine after Myocardial Infarction. New England Journal of Medicine. 2019;381(26):2497-2505.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31733140/",
+   "pmid": "31733140",
+   "doi": "10.1056/NEJMoa1912388",
+   "record_title": "Efficacy and Safety of Low-Dose Colchicine after Myocardial Infarction.",
+   "record_journal": "N Engl J Med",
+   "record_year": "2019",
+   "article_type": "Randomized Controlled Trial; Multicenter Study",
+   "retrieved_with": "PubMed get_article_metadata (abstract only)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice. Abstract only.",
+   "claims": [
+    {
+     "text": "COLCOT: colchicine 0.5 mg daily after recent heart attack lowered ischemic cardiovascular events vs placebo",
+     "quote": "Among patients with a recent myocardial infarction, colchicine at a dose of 0.5 mg daily led to a significantly lower risk of ischemic cardiovascular events than placebo.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "kind": "label",
+   "cited_as": "Mylan Pharmaceuticals Inc. Allopurinol tablets: prescribing information. DailyMed, U.S. National Library of Medicine. Revised November 2025. Accessed November 7, 2026.",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=bdbf5ad4-86f2-4e9c-a51a-fb0c7220c480",
+   "record_title": "ALLOPURINOL tablet (Mylan Pharmaceuticals Inc.)",
+   "version_or_date": "Revised: 11/2025 (DailyMed updated November 20, 2025); read 2026-11-07",
+   "retrieved_with": "WebFetch of DailyMed label page (search results for allopurinol, then drugInfo page)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "New reference. The ZYLOPRIM label on DailyMed (Prometheus) was also read this run but is dated 2009 (no HLA content), so the current 11/2025 allopurinol label was cited for dosing and safety.",
+   "claims": [
+    {
+     "text": "Allopurinol lowers uric acid production",
+     "quote": "It reduces the production of uric acid by inhibiting the biochemical reactions immediately preceding its formation.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Gout flares can occur when treatment starts; may take several months to deplete the uric acid pool and control flares",
+     "quote": "Gout flares have been reported during initiation of treatment with allopurinol tablets ... it may require several months to deplete the uric acid pool sufficiently to achieve control of the flares.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Prophylaxis with colchicine or an anti-inflammatory recommended",
+     "quote": "concurrent prophylactic treatment with colchicine or an anti-inflammatory agent is recommended",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Label dosing: weekly 100 mg increases until serum uric acid is 6 mg/dL or less",
+     "quote": "with weekly increments of 100 mg, until a serum uric acid level of 6 mg/dL or less is reached.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Label dosing: maximum 800 mg daily",
+     "quote": "the maximal recommended dosage is 800 mg daily.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Label dosing: 50 mg starting dose in kidney impairment",
+     "quote": "In patients with renal impairment the initial dosage is 50 mg orally daily",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Most frequent side effect is skin rash",
+     "quote": "The most frequent adverse reaction to allopurinol tablets is skin rash.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Stop at first rash or other signs of hypersensitivity (side effects, red flags, FAQ)",
+     "quote": "Discontinue allopurinol tablets at the first appearance of skin rash or other signs of hypersensitivity reaction.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Serious and sometimes fatal TEN, SJS and DRESS",
+     "quote": "Serious and sometimes fatal dermatologic reactions, including toxic epidermal necrolysis (TEN), Stevens-Johnson syndrome (SJS), and drug reaction with eosinophilia and systemic symptoms (DRESS) have been reported",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "HLA-B*58:01 is a genetic marker for severe skin reactions",
+     "quote": "The HLA-B*58:01 allele is a genetic marker for severe skin reactions indicative of hypersensitivity to allopurinol.",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ]
+  }
+ ]
+}
