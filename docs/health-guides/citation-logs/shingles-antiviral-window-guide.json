@@ -1,0 +1,680 @@
+{
+  "guide": "shingles-antiviral-window-guide",
+  "checked_at": "2026-11-07",
+  "checked_by": "Claude (repair run)",
+  "scite_verify_papers": "unavailable (quota exhausted until 2026-11-14); retraction status from PubMed article types",
+  "references": [
+    {
+      "n": 1,
+      "kind": "journal",
+      "cited_as": "Beutner KR, Friedman DJ, Forszpaniak C, Andersen PL, Wood MJ. Valaciclovir compared with acyclovir for improved therapy for herpes zoster in immunocompetent adults. Antimicrobial Agents and Chemotherapy. 1995;39(7):1546-1553. PMID: 7492102.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/7492102/",
+      "pmid": "7492102",
+      "doi": "10.1128/AAC.39.7.1546",
+      "record_title": "Valaciclovir compared with acyclovir for improved therapy for herpes zoster in immunocompetent adults.",
+      "record_journal": "Antimicrob Agents Chemother",
+      "record_year": "1995",
+      "article_type": "Clinical Trial; Comparative Study; Multicenter Study; Randomized Controlled Trial",
+      "retrieved_with": "PubMed get_article_metadata (connector)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "PMC full text returned empty this run, so the earlier full-text 72-hour enrollment quote could not be re-retrieved; the 72-hour enrollment claim was moved to refs 2, 3 and 4. scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice.",
+      "claims": [
+        {
+          "text": "Valacyclovir 1 g three times daily for 7 days (takeaway; trial regimen)",
+          "quote": "valaciclovir given at 1,000 mg three times daily for 7 days accelerates the resolution of pain and offers simpler dosing",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "In a randomized trial in adults 50 and older, valacyclovir was associated with faster pain resolution than acyclovir; also valacyclovir sped pain resolution compared with acyclovir (evidence section)",
+          "quote": "valaciclovir for 7 or 14 days significantly accelerated the resolution of herpes zoster-associated pain (P = 0.001 and P = 0.03, respectively) compared with acyclovir",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Trial population was adults aged 50 and older",
+          "quote": "compared in immunocompetent adults aged > or = 50 years with herpes zoster",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ],
+      "pmcid": "PMC162779"
+    },
+    {
+      "n": 2,
+      "kind": "journal",
+      "cited_as": "Tyring S, Barbarash RA, Nahlik JE, et al. Famciclovir for the treatment of acute herpes zoster: effects on acute disease and postherpetic neuralgia. A randomized, double-blind, placebo-controlled trial. Annals of Internal Medicine. 1995;123(2):89-96. PMID: 7778840.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/7778840/",
+      "pmid": "7778840",
+      "doi": "10.7326/0003-4819-123-2-199507150-00002",
+      "record_title": "Famciclovir for the treatment of acute herpes zoster: effects on acute disease and postherpetic neuralgia. A randomized, double-blind, placebo-controlled trial. Collaborative Famciclovir Herpes Zoster Study Group.",
+      "record_journal": "Ann Intern Med",
+      "record_year": "1995",
+      "article_type": "Clinical Trial; Multicenter Study; Randomized Controlled Trial",
+      "retrieved_with": "PubMed get_article_metadata (connector)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice.",
+      "claims": [
+        {
+          "text": "Antiviral trials generally started treatment within 72 hours of rash onset; 72-hour mark is a trial evidence window",
+          "quote": "Patients were assigned within 72 hours of rash onset to famciclovir, 500 mg; famciclovir, 750 mg; or placebo, three times daily for 7 days.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Placebo-controlled famciclovir trial found faster resolution of PHN, median PHN duration reduced by about 2 months",
+          "quote": "famciclovir recipients had faster resolution of postherpetic neuralgia (approximately twofold faster) than placebo recipients ... The median duration of postherpetic neuralgia was reduced by approximately 2 months.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Famciclovir sped lesion healing compared with placebo",
+          "quote": "Famciclovir accelerated lesion healing and reduced the duration of viral shedding.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "kind": "journal",
+      "cited_as": "Wood MJ, Johnson RW, McKendrick MW, Taylor J, Mandal BK, Crooks J. A randomized trial of acyclovir for 7 days or 21 days with and without prednisolone for treatment of acute herpes zoster. New England Journal of Medicine. 1994;330(13):896-900. PMID: 8114860.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/8114860/",
+      "pmid": "8114860",
+      "doi": "10.1056/NEJM199403313301304",
+      "record_title": "A randomized trial of acyclovir for 7 days or 21 days with and without prednisolone for treatment of acute herpes zoster.",
+      "record_journal": "N Engl J Med",
+      "record_year": "1994",
+      "article_type": "Clinical Trial; Multicenter Study; Randomized Controlled Trial",
+      "retrieved_with": "PubMed get_article_metadata (connector)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice.",
+      "claims": [
+        {
+          "text": "Antiviral trials generally started treatment within 72 hours of rash onset",
+          "quote": "Patients with a rash of less than 72 hours' duration were assigned to receive acyclovir (800 mg orally, five times daily) for 7 days",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Extending acyclovir from 7 to 21 days added only slight benefit",
+          "quote": "treatment with acyclovir for 21 days or the addition of prednisolone to acyclovir therapy confers only slight benefits over standard 7-day treatment with acyclovir",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "kind": "journal",
+      "cited_as": "Whitley RJ, Weiss H, Gnann JW, et al. Acyclovir with and without prednisone for the treatment of herpes zoster. A randomized, placebo-controlled trial. Annals of Internal Medicine. 1996;125(5):376-383. PMID: 8702088.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/8702088/",
+      "pmid": "8702088",
+      "doi": "10.7326/0003-4819-125-5-199609010-00004",
+      "record_title": "Acyclovir with and without prednisone for the treatment of herpes zoster. A randomized, placebo-controlled trial. The National Institute of Allergy and Infectious Diseases Collaborative Antiviral Study Group.",
+      "record_journal": "Ann Intern Med",
+      "record_year": "1996",
+      "article_type": "Clinical Trial; Multicenter Study; Randomized Controlled Trial",
+      "retrieved_with": "PubMed get_article_metadata (connector)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "Previously cited for antiviral-alone healing and pain benefit, which the abstract reports only for acyclovir plus prednisone; now cited only for 72-hour enrollment. scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice.",
+      "claims": [
+        {
+          "text": "Oral antiviral trials commonly enrolled participants within 72 hours after rash onset",
+          "quote": "208 immunocompetent patients older than 50 years of age who had localized herpes zoster that developed less than 72 hours before study enrollment.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "kind": "journal",
+      "cited_as": "Liu Y, Xiao S, Li J, et al. A network meta-analysis of randomized clinical trials to assess the efficacy and safety of antiviral agents for immunocompetent patients with herpes zoster-associated pain. Pain Physician. 2023;26(4):337-346. PMID: 37535772.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37535772/",
+      "pmid": "37535772",
+      "record_title": "A Network Meta-Analysis of Randomized Clinical Trials to Assess the Efficacy and Safety of Antiviral Agents for Immunocompetent Patients with Herpes Zoster-Associated Pain.",
+      "record_journal": "Pain Physician",
+      "record_year": "2023",
+      "article_type": "Systematic Review; Network Meta-Analysis",
+      "retrieved_with": "PubMed get_article_metadata (connector)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "No DOI in PubMed record. Authors and pages corrected to PubMed (Xiao S, Li J; 26(4):337-346). This sentence is the paper's background statement, not its own pooled finding; wording says 'notes'. scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice.",
+      "claims": [
+        {
+          "text": "A network meta-analysis notes that early antiviral use has been found to reduce pain",
+          "quote": "Early use of antiviral medications has been found to reduce pain across all stages of the disease.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "kind": "journal",
+      "cited_as": "Ding S, Wen S, Kang H, et al. Association of the incidence of postherpetic neuralgia with early treatment intervention of herpes zoster and patient baseline characteristics: a systematic review and meta-analysis of cohort studies. International Journal of Infectious Diseases. 2024;147:107181. PMID: 39029866.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39029866/",
+      "pmid": "39029866",
+      "doi": "10.1016/j.ijid.2024.107181",
+      "record_title": "Association of the incidence of postherpetic neuralgia with early treatment intervention of herpes zoster and patient baseline characteristics: A systematic review and meta-analysis of cohort studies.",
+      "record_journal": "Int J Infect Dis",
+      "record_year": "2024",
+      "article_type": "Systematic Review; Meta-Analysis",
+      "retrieved_with": "PubMed get_article_metadata (connector)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "Observational; no longer cited for lesion healing or acute pain. Volume 147, article 107181 added from PubMed. scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice.",
+      "claims": [
+        {
+          "text": "A meta-analysis of cohort studies linked starting treatment 3 or more days after onset with PHN",
+          "quote": "The meta-analyses identified skin lesions, timing of initial treatment (≥3 days), and comorbidities as potential risk factors for PHN.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "kind": "journal",
+      "cited_as": "Cohen JI. Clinical practice: Herpes zoster. New England Journal of Medicine. 2013;369(3):255-263. PMID: 23863052.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23863052/",
+      "pmid": "23863052",
+      "doi": "10.1056/NEJMcp1302674",
+      "record_title": "Clinical practice: Herpes zoster.",
+      "record_journal": "N Engl J Med",
+      "record_year": "2013",
+      "article_type": "Review",
+      "retrieved_with": "PubMed get_article_metadata + get_full_text_article (PMC author manuscript)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "Replaces Opstelten W, Zaal MJ, BMJ 2005 (PMID 16020856): no abstract on PubMed, PMC full text returned empty, and the PMC page showed a bot check, so it could not be read this run. 'Partly supported' items: 'prompt' and 'regardless of timing' are the guide's triage wording around the ophthalmologist-referral recommendation; the last item is a summary of risk factors spread across the review. scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice.",
+      "claims": [
+        {
+          "text": "Starting antivirals after 72 hours is justified when new lesions are still forming or complications are present; trials started within 72 hours (chart caption)",
+          "quote": "many experts recommend that if new skin lesions are still appearing or complications of herpes zoster are present, treatment should be initiated even if the rash began more than 3 days prior.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Antiviral therapy is recommended for all immunocompromised patients",
+          "quote": "Antiviral therapy is recommended for herpes zoster for certain non-immunocompromised patients and all immunocompromised patients",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Forehead or upper eyelid with nose-tip lesions or new vision symptoms needs ophthalmologist evaluation; in-person care regardless of timing",
+          "quote": "Patients with zoster in the V1 distribution of the trigeminal nerve (including lesions on the forehead and the upper eyelid) and either the tip of the nose or new visual symptoms should be evaluated by an ophthalmologist.",
+          "quote_source": "full_text",
+          "verdict": "partly_supported"
+        },
+        {
+          "text": "New lesions typically appear over 3 to 5 days; rash usually crusts in 7 to 10 days",
+          "quote": "New lesions appear over 3 to 5 days, often with filling in of the dermatome despite antiviral treatment. The rash usually dries with crusting in 7 to 10 days.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Antivirals reduce new lesion formation and viral shedding",
+          "quote": "These antivirals hasten resolution of lesions, reduce new lesion formation, reduce virus shedding, and decrease severity of acute pain",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "PHN frequency estimates vary with age and definition; main risk factor older age; severe pain or rash at onset raises risk",
+          "quote": "Depending on age and the definition used, ten to 50% of persons with herpes zoster develop PHN. The risk increases with increasing age (particularly over age 50) and is greater in persons with severe pain at the onset",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Age, rash location, immune status, pain severity and new lesion formation all matter",
+          "quote": "Antiviral therapy is most beneficial for persons with complications of zoster or at increased risks of complications such as older persons and immunocompromised persons",
+          "quote_source": "full_text",
+          "verdict": "partly_supported"
+        },
+        {
+          "text": "IV acyclovir for immunocompromised people who need hospital care and for severe neurologic complications",
+          "quote": "Intravenous acyclovir is recommended for immunocompromised persons who require hospitalization or for persons with severe neurologic complications.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        }
+      ],
+      "pmcid": "PMC4789101"
+    },
+    {
+      "n": 8,
+      "kind": "journal",
+      "cited_as": "Liesegang TJ. Herpes zoster ophthalmicus natural history, risk factors, clinical presentation, and morbidity. Ophthalmology. 2008;115(2 Suppl):S3-S12. PMID: 18243930.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18243930/",
+      "pmid": "18243930",
+      "doi": "10.1016/j.ophtha.2007.10.009",
+      "record_title": "Herpes zoster ophthalmicus natural history, risk factors, clinical presentation, and morbidity.",
+      "record_journal": "Ophthalmology",
+      "record_year": "2008",
+      "article_type": "Review",
+      "retrieved_with": "PubMed get_article_metadata (connector)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice.",
+      "claims": [
+        {
+          "text": "Ophthalmic-branch shingles can lead to eye complications",
+          "quote": "There is a long list of complications from HZ, including those that involve the optic nerve and retina in HZO",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Main risk factor for PHN is older age; severe pain or rash at onset also raises risk",
+          "quote": "The main risk factor for PHN is advancing age; other risk factors include severe acute zoster pain and rash, a painful prodrome, and ocular involvement.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "kind": "journal",
+      "cited_as": "Cobo LM, Foulks GN, Liesegang T, et al. Oral acyclovir in the treatment of acute herpes zoster ophthalmicus. Ophthalmology. 1986;93(6):763-770. PMID: 3488532.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/3488532/",
+      "pmid": "3488532",
+      "doi": "10.1016/s0161-6420(86)33678-9",
+      "record_title": "Oral acyclovir in the treatment of acute herpes zoster ophthalmicus.",
+      "record_journal": "Ophthalmology",
+      "record_year": "1986",
+      "article_type": "Clinical Trial; Randomized Controlled Trial",
+      "retrieved_with": "PubMed get_article_metadata (connector)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice.",
+      "claims": [
+        {
+          "text": "In a trial of shingles around the eye, oral acyclovir started within 7 days of rash onset reduced eye complications",
+          "quote": "patients with herpes zoster ophthalmicus, presenting within seven days of onset ... a ten-day course of treatment with oral acyclovir (600 mg, five times a day) ... significantly reduces the incidence and severity of the most common complications",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Keratitis, uveitis and other eye complications",
+          "quote": "the most common complications of herpes zoster ophthalmicus: dendritiform keratopathy, stromal keratitis, and uveitis",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "kind": "journal",
+      "cited_as": "Yawn BP, Wollan PC, St Sauver JL, Butterfield LC. Herpes zoster eye complications: rates and trends. Mayo Clinic Proceedings. 2013;88(6):562-570. PMID: 23664666.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23664666/",
+      "pmid": "23664666",
+      "doi": "10.1016/j.mayocp.2013.03.014",
+      "record_title": "Herpes zoster eye complications: rates and trends.",
+      "record_journal": "Mayo Clin Proc",
+      "record_year": "2013",
+      "article_type": "Journal Article (retrospective cohort; MeSH Cohort Studies)",
+      "retrieved_with": "PubMed get_article_metadata (connector)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice.",
+      "claims": [
+        {
+          "text": "Keratitis, uveitis and other eye complications",
+          "quote": "Common eye complications were keratitis (n=144, 76.2%), uveitis/iritis (n=88, 46.6%), and conjunctivitis (n=67, 35.4%).",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Sometimes with lasting loss of vision",
+          "quote": "Eye complications are common and result in considerable health care use and permanent vision decrement in about 6.6% (6) of individuals with HZ eye involvement.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ],
+      "pmcid": "PMC3788821"
+    },
+    {
+      "n": 11,
+      "kind": "journal",
+      "cited_as": "Kawai K, Gebremeskel BG, Acosta CJ. Systematic review of incidence and complications of herpes zoster: towards a global perspective. BMJ Open. 2014;4(6):e004833. PMID: 24916088.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24916088/",
+      "pmid": "24916088",
+      "doi": "10.1136/bmjopen-2014-004833",
+      "record_title": "Systematic review of incidence and complications of herpes zoster: towards a global perspective.",
+      "record_journal": "BMJ Open",
+      "record_year": "2014",
+      "article_type": "Systematic Review",
+      "retrieved_with": "PubMed get_article_metadata (connector)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice.",
+      "claims": [
+        {
+          "text": "Estimates of how often PHN happens vary widely with age and how PHN is defined",
+          "quote": "The risk of developing PHN varied from 5% to more than 30%, depending on the type of study design, age distribution of study populations and definition.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ],
+      "pmcid": "PMC4067812"
+    },
+    {
+      "n": 12,
+      "kind": "journal",
+      "cited_as": "Rowbotham M, Harden N, Stacey B, Bernstein P, Magnus-Miller L. Gabapentin for the treatment of postherpetic neuralgia: a randomized controlled trial. JAMA. 1998;280(21):1837-1842. PMID: 9846778.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9846778/",
+      "pmid": "9846778",
+      "doi": "10.1001/jama.280.21.1837",
+      "record_title": "Gabapentin for the treatment of postherpetic neuralgia: a randomized controlled trial.",
+      "record_journal": "JAMA",
+      "record_year": "1998",
+      "article_type": "Clinical Trial; Multicenter Study; Randomized Controlled Trial",
+      "retrieved_with": "PubMed get_article_metadata (connector)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice.",
+      "claims": [
+        {
+          "text": "Evidence supports gabapentin for PHN (pain section and takeaway)",
+          "quote": "Gabapentin is effective in the treatment of pain and sleep interference associated with PHN.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "kind": "journal",
+      "cited_as": "Sabatowski R, Gálvez R, Cherry DA, et al. Pregabalin reduces pain and improves sleep and mood disturbances in patients with post-herpetic neuralgia: results of a randomised, placebo-controlled clinical trial. Pain. 2004;109(1-2):26-35. PMID: 15082123.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/15082123/",
+      "pmid": "15082123",
+      "doi": "10.1016/j.pain.2004.01.001",
+      "record_title": "Pregabalin reduces pain and improves sleep and mood disturbances in patients with post-herpetic neuralgia: results of a randomised, placebo-controlled clinical trial.",
+      "record_journal": "Pain",
+      "record_year": "2004",
+      "article_type": "Clinical Trial; Comparative Study; Randomized Controlled Trial",
+      "retrieved_with": "PubMed get_article_metadata (connector)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice.",
+      "claims": [
+        {
+          "text": "Evidence supports pregabalin for PHN (pain section and takeaway)",
+          "quote": "Pregabalin efficaciously treated the neuropathic pain of PHN.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "kind": "journal",
+      "cited_as": "Hempenstall K, Nurmikko TJ, Johnson RW, A’Hern RP, Rice AS. Analgesic therapy in postherpetic neuralgia: a quantitative systematic review. PLoS Medicine. 2005;2(7):e164. PMID: 16013891.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16013891/",
+      "pmid": "16013891",
+      "doi": "10.1371/journal.pmed.0020164",
+      "record_title": "Analgesic therapy in postherpetic neuralgia: a quantitative systematic review.",
+      "record_journal": "PLoS Med",
+      "record_year": "2005",
+      "article_type": "Systematic Review",
+      "retrieved_with": "PubMed get_article_metadata (connector)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice.",
+      "claims": [
+        {
+          "text": "Evidence supports gabapentinoids, tricyclic antidepressants, and topical lidocaine for PHN",
+          "quote": "The evidence base supports the oral use of tricyclic antidepressants, certain opioids, and gabapentinoids in PHN. Topical therapy with lidocaine patches and capsaicin is similarly supported.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ],
+      "pmcid": "PMC1181872"
+    },
+    {
+      "n": 15,
+      "kind": "journal",
+      "cited_as": "Dworkin RH, Schmader KE. Treatment and prevention of postherpetic neuralgia. Clinical Infectious Diseases. 2003;36(7):877-882. PMID: 12652389.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12652389/",
+      "pmid": "12652389",
+      "doi": "10.1086/368196",
+      "record_title": "Treatment and prevention of postherpetic neuralgia.",
+      "record_journal": "Clin Infect Dis",
+      "record_year": "2003",
+      "article_type": "Review",
+      "retrieved_with": "PubMed get_article_metadata (connector)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "Previously cited for rash course and PHN risk factors, which the abstract does not address; moved to the pain section. scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice.",
+      "claims": [
+        {
+          "text": "Gabapentin, lidocaine patch and tricyclics (nortriptyline) are supported for PHN",
+          "quote": "gabapentin, the lidocaine patch 5%, and opioid analgesics are efficacious in patients with PHN, and the report that nortriptyline and amitriptyline provide equivalent analgesic benefits",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 16,
+      "kind": "journal",
+      "cited_as": "Galer BS, Rowbotham MC, Perander J, Friedman E. Topical lidocaine patch relieves postherpetic neuralgia more effectively than a vehicle topical patch: results of an enriched enrollment study. Pain. 1999;80(3):533-538. PMID: 10342414.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/10342414/",
+      "pmid": "10342414",
+      "doi": "10.1016/S0304-3959(98)00244-9",
+      "record_title": "Topical lidocaine patch relieves postherpetic neuralgia more effectively than a vehicle topical patch: results of an enriched enrollment study.",
+      "record_journal": "Pain",
+      "record_year": "1999",
+      "article_type": "Clinical Trial; Randomized Controlled Trial",
+      "retrieved_with": "PubMed get_article_metadata (connector)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "Author list corrected to PubMed (Devers A removed). scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice.",
+      "claims": [
+        {
+          "text": "Topical lidocaine for localized PHN pain",
+          "quote": "topical lidocaine patch provides significantly more pain relief for PHN than does a vehicle patch",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 17,
+      "kind": "journal",
+      "cited_as": "Watson CP, Vernich L, Chipman M, Reed K. Nortriptyline versus amitriptyline in postherpetic neuralgia: a randomized trial. Neurology. 1998;51(4):1166-1171. PMID: 9781549.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9781549/",
+      "pmid": "9781549",
+      "doi": "10.1212/wnl.51.4.1166",
+      "record_title": "Nortriptyline versus amitriptyline in postherpetic neuralgia: a randomized trial.",
+      "record_journal": "Neurology",
+      "record_year": "1998",
+      "article_type": "Clinical Trial; Comparative Study; Randomized Controlled Trial",
+      "retrieved_with": "PubMed get_article_metadata (connector)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice.",
+      "claims": [
+        {
+          "text": "Selected tricyclic antidepressants for PHN",
+          "quote": "AT and NT appear to have a similar analgesic action for most individuals",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 18,
+      "kind": "agency_page",
+      "cited_as": "Centers for Disease Control and Prevention. Clinical Overview of Shingles (Herpes Zoster). Last reviewed June 27, 2024. Accessed November 7, 2026.",
+      "url": "https://www.cdc.gov/shingles/hcp/clinical-overview/index.html",
+      "version_or_date": "Last reviewed June 27, 2024 (page metadata last_published 2026-07-23)",
+      "retrieved_with": "WebFetch of official CDC page",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "CDC: treatment is most effective within 72 hours of symptom onset",
+          "quote": "Treatment is most effective within 72 hours of symptom onset.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Antivirals speed healing of lesions, reduce new lesions and viral shedding, decrease severity of acute pain",
+          "quote": "These antivirals accelerate the resolution of lesions; reduce the development of new lesions and viral shedding; ... decrease the severity of acute pain",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "CDC advises diagnosing and treating early to prevent progressive corneal involvement and potential vision loss (eye section and takeaway)",
+          "quote": "Diagnose and treat early to prevent progressive corneal involvement and potential vision loss.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Rash heals in 2 to 4 weeks",
+          "quote": "It usually does not cross the body's midline and heals in 2 to 4 weeks.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ],
+      "notes": "Replaces Anderson TC et al., MMWR 2022 (ACIP recombinant zoster vaccine in immunocompromised adults, PMID 35051134), which is a vaccine recommendation and did not support the antiviral-timing or exam-level claims it was cited for. The guide states no Shingrix schedule, so no vaccine source is needed."
+    },
+    {
+      "n": 19,
+      "kind": "label",
+      "cited_as": "VALTREX (valacyclovir hydrochloride) tablets, prescribing information. DailyMed, U.S. National Library of Medicine. Revised November 2025. Accessed November 7, 2026.",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f8e0d8f8-cb73-4206-a484-88f5c4fbd719",
+      "version_or_date": "VALTREX label, Revised 11/2025 (DailyMed updated November 12, 2025)",
+      "retrieved_with": "WebFetch of DailyMed label page",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "Valacyclovir labeled at 1 g three times daily for 7 days (takeaway, table, FAQ, citable summary)",
+          "quote": "The recommended dosage of VALTREX for treatment of herpes zoster is 1 gram 3 times daily for 7 days.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Started at the earliest sign; best results when started within 48 hours of rash onset",
+          "quote": "Therapy should be initiated at the earliest sign or symptom of herpes zoster and is most effective when started within 48 hours of the onset of rash.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Lower doses when kidney function is reduced (takeaway; each label lowers dose)",
+          "quote": "Dosage recommendations for adult patients with reduced renal function are provided in Table 1. [Herpes zoster, CrCl 30-49: 1 gram every 12 hours]",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Valacyclovir label covers shingles in immunocompetent adults",
+          "quote": "VALTREX is indicated for the treatment of herpes zoster (shingles) in immunocompetent adults.",
+          "quote_source": "label",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 20,
+      "kind": "label",
+      "cited_as": "Famciclovir tablets, prescribing information (Camber Pharmaceuticals). DailyMed, U.S. National Library of Medicine. Highlights revised February 2021. Accessed November 7, 2026.",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=08c58224-5920-4853-8c59-ec5fbb66c2f6",
+      "version_or_date": "Famciclovir tablets (Camber Pharmaceuticals), Highlights Revised 2/2021; full label Revised 08/2019; DailyMed updated January 9, 2025",
+      "retrieved_with": "WebFetch of DailyMed label page",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "Famciclovir labeled at 500 mg every 8 hours for 7 days",
+          "quote": "The recommended dosage of famciclovir tablets for the treatment of herpes zoster is 500 mg every 8 hours for 7 days.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Effectiveness not established in immunocompromised patients or in shingles of the eye",
+          "quote": "The efficacy and safety of famciclovir tablets have not been established for: ... Patients with ophthalmic zoster ... Immunocompromised patients other than for the treatment of recurrent orolabial or genital herpes in HIV-infected patients",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Effectiveness when started more than 72 hours after rash onset has not been established",
+          "quote": "The efficacy of famciclovir tablets when initiated more than 72 hours after onset of rash has not been established.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Dose lowered when kidney function is reduced",
+          "quote": "Dosage recommendations for adult patients with renal impairment are provided in Table 1",
+          "quote_source": "label",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 21,
+      "kind": "label",
+      "cited_as": "Acyclovir tablets USP, prescribing information (Aurobindo Pharma). DailyMed, U.S. National Library of Medicine. Revised December 2025. Accessed November 7, 2026.",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=cfee4476-a3c9-4e0c-a235-c68c5d46931e",
+      "version_or_date": "Acyclovir Tablets USP 400 mg and 800 mg (Aurobindo Pharma), Revised December 2025",
+      "retrieved_with": "WebFetch of DailyMed label page",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "Acyclovir labeled at 800 mg five times daily for 7 to 10 days",
+          "quote": "Acute Treatment of Herpes Zoster: 800 mg every 4 hours orally, 5 times daily for 7 to 10 days.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Acyclovir label notes best results when treatment starts within 48 hours of rash onset",
+          "quote": "Treatment was begun within 72 hours of rash onset and was most effective if started within the first 48 hours.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Dose lowered when kidney function is reduced",
+          "quote": "[Herpes zoster, 800 mg every 4 hours regimen; creatinine clearance 10 to 25 mL/min/1.73 m2:] 800 mg every 8 hours",
+          "quote_source": "label",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 22,
+      "kind": "agency_page",
+      "cited_as": "Centers for Disease Control and Prevention. Epidemiology and Prevention of Vaccine-Preventable Diseases (Pink Book), Chapter 23: Zoster. Last reviewed May 9, 2024. Accessed November 7, 2026.",
+      "url": "https://www.cdc.gov/pinkbook/hcp/table-of-contents/chapter-23-zoster.html",
+      "version_or_date": "Pink Book Chapter 23: Zoster, last reviewed May 9, 2024 (page notes vaccine-specific content may be outdated; no vaccine content cited)",
+      "retrieved_with": "WebFetch of official CDC page",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "Rash crusts in 7 to 10 days and heals in 2 to 4 weeks",
+          "quote": "The rash lasts for 7–10 days with healing in 2–4 weeks.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "In immunocompromised people shingles can spread into a generalized rash",
+          "quote": "In immunocompromised persons, zoster may disseminate, causing generalized skin lesions",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Bacterial skin infection is a complication antivirals do not replace treatment for",
+          "quote": "bacterial superinfection, cranial and peripheral nerve palsies, and visceral involvement",
+          "quote_source": "official_page",
+          "verdict": "partly_supported"
+        }
+      ],
+      "notes": "The bacterial superinfection sentence in the guide carries no inline marker of its own; logged here because ref 22 follows that paragraph."
+    }
+  ]
+}

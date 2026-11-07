@@ -1,0 +1,702 @@
+{
+  "guide": "contact-dermatitis-treatment-guide",
+  "checked_at": "2026-11-07",
+  "checked_by": "Claude (repair run)",
+  "scite_verify_papers": "unavailable (quota exhausted until 2026-11-14); retraction status from PubMed article types",
+  "references": [
+    {
+      "n": 1,
+      "kind": "other_web",
+      "cited_as": "Litchman G, Nair PA, Atwater AR, Bhutta BS. Contact Dermatitis. StatPearls. Treasure Island (FL): StatPearls Publishing; last updated September 4, 2023. Accessed November 7, 2026.",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK459230/",
+      "version_or_date": "Last update September 4, 2023",
+      "retrieved_with": "WebFetch of NCBI Bookshelf page (loaded, no bot check)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "StatPearls chapter, not a journal article; no PubMed article type to check. Audit flagged IL-1a/TNF-a, 12 to 72 h and 'treatment of choice' wording; those were removed.",
+      "claims": [
+        {
+          "text": "ICD occurs without a T-cell response",
+          "verdict": "supported",
+          "quote": "without inducing a T-cell response",
+          "quote_source": "official_page"
+        },
+        {
+          "text": "ICD likelihood rises with duration, intensity and concentration of exposure",
+          "verdict": "supported",
+          "quote": "The likelihood of developing irritant contact dermatitis increases with the duration, intensity, and concentration of the substance.",
+          "quote_source": "official_page"
+        },
+        {
+          "text": "ICD inflammation from proinflammatory cytokines released by keratinocytes, usually from chemical stimuli",
+          "verdict": "supported",
+          "quote": "release of proinflammatory cytokines from keratinocytes, usually in response to chemical stimuli",
+          "quote_source": "official_page"
+        },
+        {
+          "text": "ICD symptoms burning, stinging, soreness, pain, can itch",
+          "verdict": "supported",
+          "quote": "Symptoms of irritant contact dermatitis may include burning, itching, stinging, soreness, and pain",
+          "quote_source": "official_page"
+        },
+        {
+          "text": "acute irritant reaction peaks within minutes to a few hours then heals",
+          "verdict": "supported",
+          "quote": "The acute irritant reaction usually reaches its peak quickly, within minutes to few hours after exposure, and then starts to heal.",
+          "quote_source": "official_page"
+        },
+        {
+          "text": "sensitization phase: dendritic cells migrate to draining lymph nodes where antigen-specific effector T cells are induced",
+          "verdict": "supported",
+          "quote": "The sensitization phase in which antigen-specific effector T cells are induced in the draining lymph nodes by antigen captured cutaneous dendritic cells that migrate from the skin.",
+          "quote_source": "official_page"
+        },
+        {
+          "text": "elicitation: effector T cells activated in skin produce mediators causing antigen-specific inflammation",
+          "verdict": "supported",
+          "quote": "The elicitation phase includes effector T cells that are activated in the skin by antigen captured cutaneous dendritic cells and produce various chemical mediators, which create antigen-specific inflammation.",
+          "quote_source": "official_page"
+        },
+        {
+          "text": "ACD lesions appear 24 to 72 hours after exposure, peak about 72 to 96 hours (body, table, FAQ)",
+          "verdict": "supported",
+          "quote": "Lesions usually appear 24 to 72 hours after the exposure to the causative agent and reach their peak at approximately 72 to 96 hours.",
+          "quote_source": "official_page"
+        },
+        {
+          "text": "acute signs redness, swelling, oozing, crusting, vesicles",
+          "verdict": "supported",
+          "quote": "Acute phase: erythema, edema, oozing, crusting, tenderness, vesicles or pustules",
+          "quote_source": "official_page"
+        },
+        {
+          "text": "itching more prominent in ACD than ICD",
+          "verdict": "supported",
+          "quote": "pruritus is more common in allergic contact dermatitis",
+          "quote_source": "official_page"
+        },
+        {
+          "text": "nickel is the most common metal in costume jewelry causing ACD",
+          "verdict": "supported",
+          "quote": "Nickel is the most common metal present in artificial jewelry which is the cause of allergic contact dermatitis.",
+          "quote_source": "official_page"
+        },
+        {
+          "text": "balsam of Peru and chromium are common allergens (allergens section, FAQ)",
+          "verdict": "supported",
+          "quote": "Common etiological allergens for allergic contact dermatitis are nickel, balsam of Peru, chromium",
+          "quote_source": "official_page"
+        },
+        {
+          "text": "PPD in hair dye causes ACD on scalp, face, ears",
+          "verdict": "supported",
+          "quote": "Paraphenylenediamine (PPD) present in hair dye; a common cause of allergic contact dermatitis on the scalp, face, ears",
+          "quote_source": "official_page"
+        },
+        {
+          "text": "standard patch test kits include chemicals in metals, rubber, leather",
+          "verdict": "supported",
+          "quote": "The chemicals included in the patch test kit are chemicals present in metals (e.g., nickel), rubber, leather,",
+          "quote_source": "official_page"
+        },
+        {
+          "text": "neomycin and bacitracin on stasis dermatitis or leg ulcers cause ACD on legs and feet",
+          "verdict": "supported",
+          "quote": "Neomycin and bacitracin applied to the areas of stasis dermatitis and leg ulcers may be the cause of allergic contact dermatitis on the legs and feet.",
+          "quote_source": "official_page"
+        },
+        {
+          "text": "a large share of adults are sensitive to poison ivy or poison oak (number removed: StatPearls figure is secondary)",
+          "verdict": "supported",
+          "quote": "As much as 50-70% of the adult population is sensitive to poison ivy or poison oak.",
+          "quote_source": "official_page"
+        },
+        {
+          "text": "patch testing is the gold standard for diagnosing ACD",
+          "verdict": "supported",
+          "quote": "Patch testing is considered to be the gold standard in diagnosing contact allergic dermatitis",
+          "quote_source": "official_page"
+        },
+        {
+          "text": "patches removed at 48 hours, final results read 48 to 72 hours later",
+          "verdict": "supported",
+          "quote": "Patches are removed at 48 hours, and final results are read 48-72 hours later.",
+          "quote_source": "official_page"
+        },
+        {
+          "text": "tacrolimus ointment and pimecrolimus cream inhibit calcineurin and are helpful in ACD (body and FAQ)",
+          "verdict": "supported",
+          "quote": "Tacrolimus ointment and pimecrolimus cream are immunomodulating drugs that inhibit calcineurin and are helpful in allergic contact dermatitis.",
+          "quote_source": "official_page"
+        },
+        {
+          "text": "hydroxyzine and cetirizine are recommended to control itching",
+          "verdict": "supported",
+          "quote": "Antihistamines such as hydroxyzine and cetirizine are recommended to control pruritus.",
+          "quote_source": "official_page"
+        },
+        {
+          "text": "emollients hydrate the skin",
+          "verdict": "supported",
+          "quote": "Emollients are used for hydrating the skin.",
+          "quote_source": "official_page"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "kind": "journal",
+      "cited_as": "Steele R, Pacheco K, Sher E, Ross J, Tanzer R, Fonacier L, Aquino MR. Contact Dermatitis and Patch Testing Education: A Work Group Report From the Allergic Skin Diseases Committee of the AAAAI. J Allergy Clin Immunol Pract. 2025;13(8):1970-1979. doi:10.1016/j.jaip.2025.03.055.",
+      "url": "https://www.aaaai.org/Aaaai/media/Media-Library-PDFs/Allergist%20Resources/Statements%20and%20Practice%20Parameters/Contact-dermatitis-and-patch-testing-education-Aug-2025.pdf",
+      "pmid": "40381990",
+      "doi": "10.1016/j.jaip.2025.03.055",
+      "record_title": "Contact Dermatitis and Patch Testing Education: A Work Group Report From the Allergic Skin Diseases Committee of the AAAAI.",
+      "record_journal": "J Allergy Clin Immunol Pract",
+      "record_year": "2025",
+      "article_type": "Journal Article (work group report based on a program-director survey)",
+      "retrieved_with": "PubMed get_article_metadata; WebFetch of AAAAI-hosted full-text PDF",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "scite_unavailable (quota exhausted until 2026-11-14); PubMed article types checked: Journal Article; no Retracted Publication or Retraction Notice. Authors corrected from 'AAAAI' to Steele R et al.; issue 8 and full page range added. Removed from this ref: 8.4 million visits (1995 NAMCS, secondary), $1.5 billion (AAD 2014, secondary), 90 to 95% (moved to CDC NIOSH, the report's own source), 66% (DeKoven 2017 NACDG data, original not retrieved; now stated qualitatively), 28% healthcare-worker recovery (not in report), patch-test indications list (not in report).",
+      "claims": [
+        {
+          "text": "T.R.U.E. Test is an FDA-approved panel of 35 allergens plus negative control",
+          "verdict": "supported",
+          "quote": "U.S. Food and Drug Administration approved Thin-layer Rapid Use Epicutaneous (T.R.U.E.) test panel of 35 allergens plus negative control",
+          "quote_source": "full_text"
+        },
+        {
+          "text": "NACDG data: T.R.U.E. Test detects only part of the clinically relevant reactions found on the larger NACDG panel; may miss relevant allergens",
+          "verdict": "supported",
+          "quote": "Data from the North American Contact Dermatitis Group (NACDG) shows that the T.R.U.E. test detects at most 66% of the clinically relevant reactions identified on the more expansive NACDG panel of allergens.",
+          "quote_source": "full_text"
+        },
+        {
+          "text": "patch testing usually requires three office visits over about one week (body and FAQ)",
+          "verdict": "supported",
+          "quote": "It can be timeconsuming and labor-intensive, requiring 3 office visits over a 1-week period.",
+          "quote_source": "full_text"
+        },
+        {
+          "text": "some allergens need delayed readings",
+          "verdict": "supported",
+          "quote": "Understands the complexities of PT including need for delayed readings with certain allergens",
+          "quote_source": "full_text"
+        },
+        {
+          "text": "choosing allergens and interpreting results takes specialized training (FAQ)",
+          "verdict": "supported",
+          "quote": "Selection of allergens, along with the application and interpretation of PT results, necessitates specialized education and training.",
+          "quote_source": "abstract"
+        },
+        {
+          "text": "personal avoidance plan after positive patch test; CAMP and SkinSAFE as examples",
+          "verdict": "partly_supported",
+          "quote": "Is a personalized avoidance treatment plan provided to your patients who have",
+          "quote_source": "full_text"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "kind": "journal",
+      "cited_as": "Uter W, Werfel T, White IR, Johansen JD. Contact Allergy: A Review of Current Problems from a Clinical Perspective. Int J Environ Res Public Health. 2018;15(6):1108.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29844295/",
+      "pmid": "29844295",
+      "pmcid": "PMC6025382",
+      "doi": "10.3390/ijerph15061108",
+      "record_title": "Contact Allergy: A Review of Current Problems from a Clinical Perspective.",
+      "record_journal": "Int J Environ Res Public Health",
+      "record_year": "2018",
+      "article_type": "Journal Article; Review",
+      "retrieved_with": "PubMed get_article_metadata (abstract)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "scite_unavailable (quota exhausted until 2026-11-14); PubMed article types checked: Journal Article, Review; no retraction type. Previously cited for elicitation-phase cytokines (IFN-g, IL-17A), which the abstract does not cover; that claim was rewritten to StatPearls [1]. Now cited only for contact allergy being common; the abstract's 27% Europe figure is not used because it is secondary.",
+      "claims": [
+        {
+          "text": "contact allergy is common in the general population",
+          "verdict": "supported",
+          "quote": "Contact allergy is common, affecting 27% of the general population in Europe.",
+          "quote_source": "abstract"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "kind": "journal",
+      "cited_as": "Usatine RP, Riojas M. Diagnosis and Management of Contact Dermatitis. Am Fam Physician. 2010;82(3):249-255. PMID: 20672788.",
+      "url": "https://www.aafp.org/pubs/afp/issues/2010/0801/p249.html",
+      "pmid": "20672788",
+      "record_title": "Diagnosis and management of contact dermatitis.",
+      "record_journal": "Am Fam Physician",
+      "record_year": "2010",
+      "article_type": "Journal Article; Review",
+      "retrieved_with": "PubMed get_article_metadata (abstract); WebFetch of aafp.org full text",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "scite_unavailable (quota exhausted until 2026-11-14); PubMed article types checked: Journal Article, Review; no retraction type. No DOI in PubMed record; PMID given. Replaces SmartPractice T.R.U.E. TEST product page (failed to load this run; did not support nickel or urushiol claims). Article is from 2010; T.R.U.E. panel described there (29 antigens) is outdated and is not used for the panel size. Dosing quotes copied from the full text.",
+      "claims": [
+        {
+          "text": "chronic contact dermatitis: lichenified skin with cracks and fissures",
+          "verdict": "supported",
+          "quote": "chronic cases may involve lichen with cracks and fissures",
+          "quote_source": "abstract"
+        },
+        {
+          "text": "hapten links to skin protein forming an antigen complex that leads to sensitization",
+          "verdict": "supported",
+          "quote": "is linked to skin protein, forming an antigen complex that leads to sensitization",
+          "quote_source": "full_text"
+        },
+        {
+          "text": "identify and avoid the causative substance is the priority",
+          "verdict": "supported",
+          "quote": "In patients with contact dermatitis, the priority is to identify and avoid the causative substance.",
+          "quote_source": "full_text"
+        },
+        {
+          "text": "most common causes include poison ivy, nickel, fragrances (takeaway, allergens, FAQ, citable)",
+          "verdict": "supported",
+          "quote": "The most common substances that cause contact dermatitis include poison ivy, nickel, and fragrances.",
+          "quote_source": "abstract"
+        },
+        {
+          "text": "thousands of known contact allergens",
+          "verdict": "supported",
+          "quote": "out of 3,700 known contact allergens",
+          "quote_source": "full_text"
+        },
+        {
+          "text": "inexpensive jewelry, belt buckles, pant closures with nickel commonly cause ACD",
+          "verdict": "supported",
+          "quote": "Less expensive jewelry, and metal belt buckles and pant closures containing nickel commonly cause allergic contact dermatitis.",
+          "quote_source": "full_text"
+        },
+        {
+          "text": "nickel is a component of white gold and German silver",
+          "verdict": "supported",
+          "quote": "Nickel is a component of many different types of metals, including white gold, German silver,",
+          "quote_source": "full_text"
+        },
+        {
+          "text": "dimethylglyoxime nickel test kits widely available",
+          "verdict": "supported",
+          "quote": "Inexpensive kits that use dimethylglyoxime to test metals for nickel are widely available to consumers online.",
+          "quote_source": "full_text"
+        },
+        {
+          "text": "cover metal tab of jeans with iron-on patch",
+          "verdict": "supported",
+          "quote": "In patients with nickel-induced contact dermatitis, it is helpful to cover the metal tab of jeans with an iron-on patch",
+          "quote_source": "full_text"
+        },
+        {
+          "text": "formaldehyde and a black rubber mix are on the T.R.U.E. panel",
+          "verdict": "partly_supported",
+          "quote": "16. Black rubber mix ... 21. Formaldehyde",
+          "quote_source": "full_text"
+        },
+        {
+          "text": "neomycin is a common OTC topical antibiotic (body, FAQ)",
+          "verdict": "supported",
+          "quote": "Neomycin is a common over-the-counter topical antibiotic.",
+          "quote_source": "full_text"
+        },
+        {
+          "text": "urushiol in rhus plant sap is a common cause of ACD",
+          "verdict": "supported",
+          "quote": "A common cause of allergic contact dermatitis is exposure to urushiol, a substance in the sap of rhus plants",
+          "quote_source": "full_text"
+        },
+        {
+          "text": "patch testing if avoidance and empiric treatment fail or allergen unknown (indications, FAQ, healthcare workers, red flags)",
+          "verdict": "supported",
+          "quote": "If avoidance and empiric treatment do not resolve the dermatitis or the allergen remains unknown, patch testing may be indicated.",
+          "quote_source": "full_text"
+        },
+        {
+          "text": "patch testing is time-consuming and patients cannot shower",
+          "verdict": "supported",
+          "quote": "However, it is expensive and time-consuming, and prohibits the patient from showering",
+          "quote_source": "full_text"
+        },
+        {
+          "text": "localized acute ACD treated with mid- or high-potency steroids such as triamcinolone 0.1% or clobetasol 0.05% (body, table rows II and III-V, FAQ)",
+          "verdict": "supported",
+          "quote": "Localized acute allergic contact dermatitis lesions are successfully treated with mid- or high-potency topical steroids, such as triamcinolone 0.1% or clobetasol 0.05%.",
+          "quote_source": "abstract"
+        },
+        {
+          "text": "lower-potency steroids on thinner skin: face, eyelids, flexures, anogenital (table low row)",
+          "verdict": "supported",
+          "quote": "On areas with thinner skin (e.g., flexural surfaces, eyelids, face, anogenital region), lower-potency steroids",
+          "quote_source": "full_text"
+        },
+        {
+          "text": "insufficient data for topical steroids in irritant contact dermatitis",
+          "verdict": "supported",
+          "quote": "There are insufficient data to support the use of topical steroids for irritant contact dermatitis.",
+          "quote_source": "full_text"
+        },
+        {
+          "text": "extensive ACD (greater than 20 percent) often needs systemic steroids, relief in 12 to 24 hours (treatment, red flags, telehealth)",
+          "verdict": "supported",
+          "quote": "If allergic contact dermatitis involves an extensive area of skin (greater than 20 percent), systemic steroid therapy is often required and offers relief within 12 to 24 hours.",
+          "quote_source": "abstract"
+        },
+        {
+          "text": "prednisone 0.5 to 1 mg/kg daily for five to seven days",
+          "verdict": "supported",
+          "quote": "Five to seven days of prednisone, 0.5 to 1 mg per kg daily, is recommended.",
+          "quote_source": "full_text"
+        },
+        {
+          "text": "then dose may be reduced by 50 percent for next five to seven days",
+          "verdict": "supported",
+          "quote": "the dose may be reduced by 50 percent for the next five to seven days",
+          "quote_source": "full_text"
+        },
+        {
+          "text": "severe rhus dermatitis: taper over two to three weeks; rapid stop causes rebound",
+          "verdict": "supported",
+          "quote": "In patients with severe rhus dermatitis, oral prednisone should be tapered over two to three weeks because rapid discontinuation of steroids can cause rebound dermatitis.",
+          "quote_source": "abstract"
+        },
+        {
+          "text": "steroid dose pack has insufficient dosing and duration and should not be prescribed",
+          "verdict": "supported",
+          "quote": "A steroid dose pack has insufficient dosing and duration and should not be prescribed.",
+          "quote_source": "full_text"
+        },
+        {
+          "text": "antihistamines generally not effective for ACD itch; sedation may give some relief",
+          "verdict": "partly_supported",
+          "quote": "Although antihistamines are generally not effective for pruritus associated with allergic contact dermatitis, they are commonly used.",
+          "quote_source": "full_text"
+        },
+        {
+          "text": "hairdressers developed allergic hand eczema from nickel-containing tools such as scissors",
+          "verdict": "partly_supported",
+          "quote": "Hairdressers have been diagnosed with allergy-related hand eczema from prolonged skin contact with nickel-containing",
+          "quote_source": "full_text"
+        },
+        {
+          "text": "emollients, moisturizers, barrier creams as secondary prevention",
+          "verdict": "supported",
+          "quote": "Emollients, moisturizers, or barrier creams may be instituted as secondary prevention strategies",
+          "quote_source": "full_text"
+        },
+        {
+          "text": "wear nonlatex gloves with solvents, soaps, detergents",
+          "verdict": "supported",
+          "quote": "wear nonlatex gloves when working with potentially irritating substances, such as solvents, soaps, and detergents",
+          "quote_source": "full_text"
+        },
+        {
+          "text": "keep hands clean, dry, well moisturized",
+          "verdict": "supported",
+          "quote": "keep hands clean, dry, and well moisturized when possible.",
+          "quote_source": "full_text"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "kind": "journal",
+      "cited_as": "Loi AST, Aribou ZM, Fong YT. Improving Recovery of Irritant Hand Dermatitis in Healthcare Workers With Workplace Interventions During the COVID-19 Pandemic. Front Public Health. 2022;10:844269.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9340064/",
+      "pmid": "35923967",
+      "pmcid": "PMC9340064",
+      "doi": "10.3389/fpubh.2022.844269",
+      "record_title": "Improving Recovery of Irritant Hand Dermatitis in Healthcare Workers With Workplace Interventions During the COVID-19 Pandemic.",
+      "record_journal": "Front Public Health",
+      "record_year": "2022",
+      "article_type": "Journal Article (quality-improvement project, 21 participants)",
+      "retrieved_with": "PubMed get_article_metadata (abstract only; PMC page blocked by reCAPTCHA in the audit, not retried)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "scite_unavailable (quota exhausted until 2026-11-14); PubMed article types checked: Journal Article; no retraction type. Abstract-only: claims limited to the abstract. Removed the rubber-accelerator / accelerator-free nitrile claim (not in abstract).",
+      "claims": [
+        {
+          "text": "HCW hand dermatitis common, incidence up during COVID-19; irritant type majority, due to hand hygiene products (body, FAQ)",
+          "verdict": "supported",
+          "quote": "Occupational hand dermatitis is common among healthcare workers, with increased incidence during the COVID-19 pandemic. Irritant contact dermatitis accounts for the majority of occupational hand dermatitis and is largely due to frequent contact with hand hygiene products.",
+          "quote_source": "abstract"
+        },
+        {
+          "text": "long-term prognosis of occupational contact dermatitis often very poor",
+          "verdict": "supported",
+          "quote": "Long-term prognosis of occupational contact dermatitis is often very poor.",
+          "quote_source": "abstract"
+        },
+        {
+          "text": "four interventions incl. latex to nitrile gloves (body, rubber section, FAQ)",
+          "verdict": "supported",
+          "quote": "(a) substitute current alcohol-based hand rub (ABHR) with a different, gentler ABHR, (b) alternate ABHR with gentle hand wash products, (c) temporary job modification with less clinical work (d) switch latex gloves to nitrile gloves",
+          "quote_source": "abstract"
+        },
+        {
+          "text": "21 participants, all improved, mean 80% reduction after two months",
+          "verdict": "supported",
+          "quote": "A total of 21 participants were included in the QI project. All participants were found to have significant improvement in their hand condition. The estimated mean reduction of signs and symptoms was 80%",
+          "quote_source": "abstract"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "kind": "other_web",
+      "cited_as": "Mayo Clinic. Poison ivy rash: Symptoms and causes. May 15, 2024. Accessed November 7, 2026.",
+      "url": "https://www.mayoclinic.org/diseases-conditions/poison-ivy/symptoms-causes/syc-20376485",
+      "version_or_date": "May 15, 2024",
+      "retrieved_with": "WebFetch of mayoclinic.org page (loaded, no bot check)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "Corrected washing window from 10 minutes to 30 minutes, removed 'cool water' and 'friction' (not on page), 'months' to 'years'. Rash onset 12 to 48 hours replaces 12 to 72 hours.",
+      "claims": [
+        {
+          "text": "rash develops 12 to 48 hours after exposure, lasts two to three weeks",
+          "verdict": "supported",
+          "quote": "The reaction usually develops 12 to 48 hours after exposure and lasts two to three weeks.",
+          "quote_source": "official_page"
+        },
+        {
+          "text": "urushiol can stick to pet fur",
+          "verdict": "supported",
+          "quote": "Keep pets from running through wooded areas so that urushiol doesn't stick to their fur, which you then may touch.",
+          "quote_source": "official_page"
+        },
+        {
+          "text": "transfer urushiol to other body parts with fingers; new patches from urushiol on fingers, nails, clothing",
+          "verdict": "supported",
+          "quote": "You can also transfer the oil to other parts of your body with your fingers.",
+          "quote_source": "official_page"
+        },
+        {
+          "text": "blister pus does not contain urushiol and won't spread rash (body, FAQ)",
+          "verdict": "supported",
+          "quote": "Pus that oozes from blisters doesn't contain urushiol and won't spread the rash.",
+          "quote_source": "official_page"
+        },
+        {
+          "text": "wash with soap and water within 30 minutes; scrub under fingernails (callout, FAQ)",
+          "verdict": "supported",
+          "quote": "Within 30 minutes after exposure to urushiol, use soap and water to gently wash off the harmful resin from your skin.",
+          "quote_source": "official_page"
+        },
+        {
+          "text": "washing after an hour or so still helps",
+          "verdict": "supported",
+          "quote": "Even washing after an hour or so can help reduce the severity of the rash.",
+          "quote_source": "official_page"
+        },
+        {
+          "text": "urushiol remains potent for years; uncleaned object can cause reaction years later",
+          "verdict": "supported",
+          "quote": "If the contaminated object isn't cleaned, the urushiol on it can still cause a skin reaction years later.",
+          "quote_source": "official_page"
+        },
+        {
+          "text": "see doctor for rash affecting eyes, mouth or genitals",
+          "verdict": "supported",
+          "quote": "The rash affects your eyes, mouth or genitals",
+          "quote_source": "official_page"
+        },
+        {
+          "text": "infection signs: blisters oozing pus, fever over 100 F",
+          "verdict": "supported",
+          "quote": "You develop a fever greater than 100 F (37.8 C)",
+          "quote_source": "official_page"
+        },
+        {
+          "text": "difficulty breathing after inhaling smoke: seek emergency care",
+          "verdict": "supported",
+          "quote": "Difficulty breathing, if you've inhaled the smoke from burning poison ivy",
+          "quote_source": "official_page"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "kind": "journal",
+      "cited_as": "Stacey SK, McEleney M. Topical Corticosteroids: Choice and Application. Am Fam Physician. 2021;103(6):337-343. PMID: 33719380.",
+      "url": "https://www.aafp.org/pubs/afp/issues/2021/0315/p337.html",
+      "pmid": "33719380",
+      "record_title": "Topical Corticosteroids: Choice and Application.",
+      "record_journal": "Am Fam Physician",
+      "record_year": "2021",
+      "article_type": "Journal Article; Review",
+      "retrieved_with": "PubMed get_article_metadata (abstract); WebFetch of aafp.org full text including Table 2",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "scite_unavailable (quota exhausted until 2026-11-14); PubMed article types checked: Journal Article, Review; no retraction type. No DOI in PubMed record; PMID given. Replaces Oakley, Topical Corticosteroids, StatPearls NBK532940, which returned a reCAPTCHA bot check this run and was not routed around. Potency classes in the table are copied from Table 2 (clobetasol 0.05% class I; augmented betamethasone dipropionate 0.05% ointment class I; betamethasone dipropionate 0.05% ointment, fluocinonide 0.05%, halcinonide 0.1% class II; mometasone 0.1%, triamcinolone 0.1%, betamethasone valerate 0.1%, fluticasone 0.05% cream class III to V; desonide 0.05%, hydrocortisone 1% and 2.5% class VI to VII). Mechanism sentence (phospholipase A2) cut: not retrieved from any source.",
+      "claims": [
+        {
+          "text": "risk of side effects rises with prolonged use, large area, higher potency, occlusion, thin skin (body, table, FAQ)",
+          "verdict": "supported",
+          "quote": "The risk of adverse effects increases with prolonged use, a large area of application, higher potency, occlusion, and application to areas of thinner skin such as the face and genitals.",
+          "quote_source": "abstract"
+        },
+        {
+          "text": "super-high potency for severe disease and thick skin such as palms and soles (table, FAQ)",
+          "verdict": "supported",
+          "quote": "Super-high-potency corticosteroids are useful for severe disease and in areas of thick skin such as the palms, soles, or psoriatic lesions.",
+          "quote_source": "full_text"
+        },
+        {
+          "text": "super-high no more than three weeks; high/medium no more than 12 weeks; low no specified limit (table, FAQ)",
+          "verdict": "supported",
+          "quote": "applied once or twice per day for up to three weeks for super-high-potency corticosteroids or up to 12 weeks for high- or medium-potency corticosteroids. There is no specified time limit for low-potency topical corticosteroid use.",
+          "quote_source": "abstract"
+        },
+        {
+          "text": "low potency for thin skin such as face and groin (FAQ)",
+          "verdict": "supported",
+          "quote": "Low-potency corticosteroids are useful in children or for mild, widespread disease, or on thin skin areas such as the face and groin.",
+          "quote_source": "full_text"
+        },
+        {
+          "text": "potency class assignments in the steroid table (copied from Table 2; quote is a table cell, class column read from the same row)",
+          "verdict": "partly_supported",
+          "quote": "Clobetasol propionate 0.05%",
+          "quote_source": "full_text"
+        },
+        {
+          "text": "side effects include atrophy, striae, cataracts, glaucoma",
+          "verdict": "supported",
+          "quote": "The most common adverse effects of topical corticosteroids include atrophy, striae, rosacea,",
+          "quote_source": "full_text"
+        },
+        {
+          "text": "cataracts and glaucoma among systemic effects",
+          "verdict": "supported",
+          "quote": "cataracts, glaucoma, adrenal suppression",
+          "quote_source": "full_text"
+        },
+        {
+          "text": "applied once or twice per day",
+          "verdict": "supported",
+          "quote": "Topical corticosteroids are usually applied once or twice per day.",
+          "quote_source": "full_text"
+        },
+        {
+          "text": "occlusion with plastic wrap, bandages, or gloves enhances penetration (wet wraps)",
+          "verdict": "supported",
+          "quote": "Topical corticosteroid penetration is enhanced by using an occlusive method such as a plastic wrap, bandages, or gloves.",
+          "quote_source": "full_text"
+        },
+        {
+          "text": "contact sensitization to topical corticosteroids is rare but can occur",
+          "verdict": "supported",
+          "quote": "Contact sensitization to topical corticosteroids can also occur but is rare.",
+          "quote_source": "full_text"
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "kind": "label",
+      "cited_as": "Encube Ethicals, Inc. Tacrolimus ointment 0.1% [prescribing information]. DailyMed, U.S. National Library of Medicine. Updated October 2025. Accessed November 7, 2026.",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=43b38551-6c5e-48a4-a453-9286f1c16b34",
+      "version_or_date": "Encube Ethicals tacrolimus ointment 0.1%, DailyMed version 4, updated October 9, 2025 (label text Rev 10/23)",
+      "retrieved_with": "WebFetch of DailyMed label page",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "New source. Replaces the claim cited to Oakley [old 7] that the AAD response says evidence does not support a malignancy link; AAD response was not retrieved, so the label's own boxed-warning wording is used. Label indication is atopic dermatitis; contact dermatitis use is described as off-label. Removed unsourced claims: TCIs avoid atrophy, treatment of choice for face, tacrolimus equivalent to mid-potency steroid, pimecrolimus 1% strength.",
+      "claims": [
+        {
+          "text": "boxed warning: causal relationship not established, rare malignancy (skin, lymphoma) reported (body, FAQ)",
+          "verdict": "supported",
+          "quote": "Although a causal relationship has not been established, rare cases of malignancy (e.g., skin and lymphoma) have been",
+          "quote_source": "label"
+        },
+        {
+          "text": "second-line therapy for moderate to severe atopic dermatitis (off-label for contact dermatitis)",
+          "verdict": "supported",
+          "quote": "indicated as second-line therapy for the short-term and non-continuous chronic",
+          "quote_source": "label"
+        },
+        {
+          "text": "thin layer twice daily",
+          "verdict": "supported",
+          "quote": "Apply a thin layer of tacrolimus ointment to the affected skin twice daily.",
+          "quote_source": "label"
+        },
+        {
+          "text": "avoid continuous long-term use",
+          "verdict": "supported",
+          "quote": "Continuous long-term use of topical calcineurin inhibitors, including tacrolimus ointment, should be avoided",
+          "quote_source": "label"
+        },
+        {
+          "text": "tacrolimus inhibits T-lymphocyte activation",
+          "verdict": "supported",
+          "quote": "It has been demonstrated that tacrolimus inhibits T-lymphocyte activation by first binding",
+          "quote_source": "label"
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "kind": "agency_page",
+      "cited_as": "Centers for Disease Control and Prevention, National Institute for Occupational Safety and Health. Skin Exposures and Effects. Last reviewed March 4, 2026. Accessed November 7, 2026.",
+      "url": "https://www.cdc.gov/niosh/topics/skin/",
+      "version_or_date": "Last reviewed March 4, 2026",
+      "retrieved_with": "WebFetch of cdc.gov NIOSH page",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "New source. This is the source the AAAAI report [2] cites for the occupational percentage, so the figure is now cited to it directly.",
+      "claims": [
+        {
+          "text": "contact dermatitis is the most common reported occupational skin disease",
+          "verdict": "supported",
+          "quote": "Contact dermatitis is the most common form of reported occupational skin disease.",
+          "quote_source": "official_page"
+        },
+        {
+          "text": "contact dermatitis makes up 90 to 95% of occupational skin disease cases (opening, occupational section, takeaway)",
+          "verdict": "supported",
+          "quote": "Research suggests that contact dermatitis makes up 90–95% of occupational skin disease cases in the United States.",
+          "quote_source": "official_page"
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "kind": "journal",
+      "cited_as": "Bock M, Schmidt A, Bruckner T, Diepgen TL. Occupational skin disease in the construction industry. Br J Dermatol. 2003;149(6):1165-1171.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/14674893/",
+      "pmid": "14674893",
+      "doi": "10.1111/j.1365-2133.2003.05748.x",
+      "record_title": "Occupational skin disease in the construction industry.",
+      "record_journal": "Br J Dermatol",
+      "record_year": "2003",
+      "article_type": "Comparative Study; Journal Article (register-based incidence study)",
+      "retrieved_with": "PubMed get_article_metadata (abstract)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "scite_unavailable (quota exhausted until 2026-11-14); PubMed article types checked: Comparative Study, Journal Article; no retraction type. New source for the construction section, which had no citation; unsourced claims cut (EU mandates, US exposure control, job changes, career-ending).",
+      "claims": [
+        {
+          "text": "construction workers have substantial risk of irritant and allergic contact dermatitis",
+          "verdict": "supported",
+          "quote": "Construction workers have a substantial risk of developing irritant and/or allergic contact dermatitis.",
+          "quote_source": "abstract"
+        },
+        {
+          "text": "potassium dichromate about half of relevant sensitizations, then epoxy resin and cobalt chloride",
+          "verdict": "supported",
+          "quote": "Potassium dichromate caused roughly half of all cases of sensitization found to be occupationally relevant in the construction industry (152 cases) followed by epoxy resin (40) and cobalt chloride (32).",
+          "quote_source": "abstract"
+        },
+        {
+          "text": "ferrous sulphate in cement lowers chromium VI; Scandinavian decline in dichromate sensitization",
+          "verdict": "supported",
+          "quote": "the prevalence of potassium dichromate sensitization declined following the reduction of chromium VI levels resulting from the addition of ferrous sulphate to cement",
+          "quote_source": "abstract"
+        }
+      ]
+    }
+  ]
+}

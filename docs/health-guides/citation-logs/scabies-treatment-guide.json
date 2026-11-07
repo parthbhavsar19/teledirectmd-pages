@@ -1,0 +1,778 @@
+{
+  "guide": "scabies-treatment-guide",
+  "checked_at": "2026-11-07",
+  "checked_by": "Claude (repair run)",
+  "scite_verify_papers": "unavailable (quota exhausted until 2026-11-14); retraction status from PubMed article types",
+  "references": [
+    {
+      "n": 1,
+      "kind": "agency_page",
+      "cited_as": "Centers for Disease Control and Prevention. About Scabies. Updated September 9, 2024. Accessed November 7, 2026.",
+      "url": "https://www.cdc.gov/scabies/about/index.html",
+      "version_or_date": "Page date September 9, 2024",
+      "retrieved_with": "WebFetch of official page (direct curl blocked by proxy)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "Scabies is caused by Sarcoptes scabiei var. hominis, the human itch mite",
+          "quote": "Scabies is caused by the human itch mite (Sarcoptes scabiei var. hominis).",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "The female mite tunnels just beneath the surface of the skin",
+          "quote": "You may see tiny burrows on the skin, caused by the female mite tunneling just beneath the surface of the skin.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "An otherwise healthy person may carry fewer than 10 to 15 mites",
+          "quote": "Fewer than 10 – 15 mites may be present on an infected person who is otherwise healthy.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Itch is a hypersensitivity (allergic) reaction to mites and their feces; itching may continue for several weeks after treatment even if all mites and eggs are killed",
+          "quote": "The itching of scabies is due to a hypersensitivity reaction (allergy) to mites and their feces, so itching may continue for several weeks after treatment even if all the mites and eggs are killed.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "First infestation: symptoms typically take 4 to 8 weeks to develop",
+          "quote": "When a person is infested with scabies mites the first time, symptoms typically take 4 – 8 weeks to develop.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Adult rash locations: between fingers; wrist, elbow, knee, armpit folds; penis, nipples, waist, buttocks, shoulder blades",
+          "quote": "between fingers ... in the skin folds of the wrist, elbow, knee, or armpit ... on the penis, nipples, waist, buttocks, and shoulder blades",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Infants and very young children often have a rash on the head, face, neck, palms, and soles",
+          "quote": "Infants and very young children often experience a rash on the head, face, neck, palms, and soles of the feet.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Most commonly spread by direct, prolonged skin-to-skin contact",
+          "quote": "Human scabies is most commonly spread by direct, prolonged skin-to-skin contact with a person who has scabies.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Mites generally do not survive more than two to three days away from human skin; sharing clothing, towels, bedding is less common",
+          "quote": "Scabies mites generally do not survive more than two to three days away from human skin. ... Less commonly, sharing clothing, towels, or bedding used by an infected person.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Outbreaks more common in nursing homes, extended care facilities, jails and prisons, childcare facilities",
+          "quote": "Places where scabies outbreaks more commonly occur include: Nursing homes; Extended care facilities; Detention facilities including jails and prisons; Childcare facilities",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "A negative scraping does not rule out scabies",
+          "quote": "A person can still have scabies even if mites, eggs, or feces are not found.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Crusted scabies is very contagious; delayed diagnosis and treatment can often cause outbreaks",
+          "quote": "Crusted scabies is a severe form of scabies that is very contagious. ... Delayed diagnosis and treatment of crusted scabies can often cause outbreaks.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Treat all household members and close contacts at the same time; notify skin-to-skin contacts from the previous two months",
+          "quote": "To control the spread of scabies, treat all household members and close contacts at the same time as the person with scabies.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Notify people with direct skin-to-skin contact during the previous two months",
+          "quote": "Notify people you had direct skin-to-skin contact with during the previous two months and encourage them to seek treatment.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Wash clothing, towels, bedding used next to the skin during the three days before treatment",
+          "quote": "Wash all clothing, towels, and bedding used next to the skin during the three days before starting treatment.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Hot water and hot dryer; above 50 C (122 F) for 10 minutes kills mites and eggs",
+          "quote": "Wash bedding, clothing, and towels in hot water and dry in a hot dryer. ... temperatures in excess of 50°C or 122°F for 10 minutes will kill mites and eggs.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Dry-clean or seal in a closed plastic bag for at least 72 hours to a week",
+          "quote": "Dry-clean items that can't be washed or seal them in a closed plastic bag for at least 72 hours to a week.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "kind": "guideline",
+      "cited_as": "Centers for Disease Control and Prevention. Clinical Care of Scabies. Updated December 18, 2023. Accessed November 7, 2026.",
+      "url": "https://www.cdc.gov/scabies/hcp/clinical-care/index.html",
+      "version_or_date": "Page date December 18, 2023 (metadata last_updated December 12, 2023)",
+      "retrieved_with": "WebFetch of official page (direct curl blocked by proxy)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "No over-the-counter products are approved to treat scabies",
+          "quote": "No over-the-counter, non-prescription products are approved to treat human scabies.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "CDC lists permethrin 5% cream and oral ivermectin as first-line medications for classic scabies",
+          "quote": "First line medications: Permethrin cream 5% ... Ivermectin oral tablet",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Permethrin and ivermectin have similar efficacy for cure",
+          "quote": "However, topical permethrin and oral ivermectin have similar efficacy for cure of scabies.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Permethrin is FDA approved for scabies in people at least 2 months of age",
+          "quote": "Permethrin is approved by the U.S. Food and Drug Administration (FDA) for the treatment of scabies ... in people who are at least 2 months of age.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Permethrin applied from the neck down and washed off after 8 to 14 hours",
+          "quote": "Permethrin 5% cream applied to all areas of the body from the neck down and washed off after 8–14 hours.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "A second application about a week later may be needed",
+          "quote": "However, two (or more) applications, each about a week apart, may be necessary to eliminate all mites.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Oral ivermectin is not FDA approved for scabies",
+          "quote": "Oral ivermectin is not FDA approved for the treatment of scabies.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Ivermectin two doses of 200 mcg/kg with food, 7 to 14 days apart",
+          "quote": "two doses of oral ivermectin (200µg/kg/dose) should be taken with food ... each 7 to 14 days apart.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Scabies experts recommend taking ivermectin with a meal to increase bioavailability",
+          "quote": "scabies experts recommend taking with a meal to increase bioavailability.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Safety of ivermectin not established in children under 15 kg or in pregnant women",
+          "quote": "The safety of ivermectin in children weighing less than 15 kg and in pregnant women has not been established.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Same 200 mcg/kg per dose used for scabies (paired with label weight table)",
+          "quote": "two doses of oral ivermectin (200µg/kg/dose) should be taken with food",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Crusted scabies: ivermectin given together with a topical agent; permethrin to entire body with an oral agent",
+          "quote": "For crusted scabies, ivermectin should be administered together with a topical agent. ... For crusted scabies, topical permethrin should be applied to the entire body and administered together with an oral agent.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Crusted ivermectin 200 mcg/kg; no consensus; 3, 5 or 7 doses on listed days depending on severity",
+          "quote": "Some experts recommend administering oral ivermectin (200µg/kg/dose) in three doses (approximately days 1, 2, and 8) ... five doses (approximately days 1, 2, 8, 9, and 15) ... seven doses (approximately days 1, 2, 8, 9, 15, 22, and 29)",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Dose number depends on infection severity; no consensus on frequency",
+          "quote": "There is no consensus on the optimal frequency of ivermectin administration. ... depending on infection severity",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Permethrin frequency in crusted scabies: daily to every 2 to 3 days for the first 1 to 2 weeks",
+          "quote": "experts have recommended anywhere from an initial daily application to application every 2-3 days for the first 1-2 weeks.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Keratolytic cream on crusted areas on non-permethrin days until crusting resolves",
+          "quote": "A topical keratolytic cream may also be used to help reduce the crusting of the skin ... The cream may be applied to areas of crusting on days that permethrin is not given, until crusting has resolved.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "kind": "other_web",
+      "cited_as": "American Academy of Dermatology. Scabies: Diagnosis and Treatment. Last updated June 8, 2022. Accessed November 7, 2026.",
+      "url": "https://www.aad.org/public/diseases/a-z/scabies-treatment",
+      "version_or_date": "Last updated 6/8/22",
+      "retrieved_with": "WebFetch of official page (loaded normally, no bot check)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "Society patient page. The earlier claim that CDC and AAD advise same-day treatment of contacts and sexual partners from the prior 2 months was split: the same-time and two-month statements now cite CDC (ref 1); AAD supports only the list of who needs treatment.",
+      "claims": [
+        {
+          "text": "AAD describes permethrin as FDA approved for patients 2 months and older and women who are pregnant",
+          "quote": "this medication is FDA approved to treat patients 2 months of age and older and women who are pregnant.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Medicine washed off on waking (bedtime application)",
+          "quote": "The medicine is then washed off when the patient wakes up.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Recent sexual partners and close contacts need treatment",
+          "quote": "everyone who has had close contact with that person need treatment. ... Recent sexual partners",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Steroid cream eases redness, swelling, and itch",
+          "quote": "Steroid cream: To ease the redness, swelling, and itch.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Oral antihistamines help control itch and help you sleep",
+          "quote": "Antihistamine: To control the itch and help you sleep.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "An antibiotic is used to clear an infection",
+          "quote": "Antibiotic: To wipe out an infection.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "kind": "agency_page",
+      "cited_as": "Centers for Disease Control and Prevention. Public Health Strategies for Scabies Outbreaks in Institutional Settings. Updated December 18, 2025. Accessed November 7, 2026.",
+      "url": "https://www.cdc.gov/scabies/php/public-health-strategy/index.html",
+      "version_or_date": "Page date December 18, 2025",
+      "retrieved_with": "WebFetch of official page (direct curl blocked by proxy)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "Page covers non-crusted scabies only. The ivermectin dose, food and second-dose sentence formerly cited here was moved to CDC Clinical Care (ref 2); the ovicidal claim now cites ref 5.",
+      "claims": [
+        {
+          "text": "Above 50 C or 122 F for 10 minutes kills mites and eggs",
+          "quote": "Temperatures in excess of 50°C or 122°F for 10 minutes will kill mites and eggs.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Staff can return to work the day after a dose; gloves for hands-on care of suspected or confirmed cases",
+          "quote": "Staff generally can return to work the day after receiving a dose of treatment with permethrin or ivermectin ... Use gloves when giving hands-on care to any patient/resident with suspect or confirmed scabies",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Identify and treat all exposed persons; offer treatment to household members of staff",
+          "quote": "Identify and treat all persons (e.g., staff, relatives, patients/residents) ... Offer treatment to household members (e.g., spouses, children, roommates) of staff",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Keep records (name, age, sex, room number) and run an early detection program",
+          "quote": "Have an active program for early detection of infested patients/residents and staff. ... Maintain records with patient/resident name, age, sex, room number.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Gloves and gowns for hands-on care",
+          "quote": "Appropriate isolation and infection control practices (e.g., gloves, gowns,",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Hot wash and dry; plastic bag several days to a week; routine cleaning and vacuuming; environmental disinfestation not necessary",
+          "quote": "Machine wash and dry bedding and clothing of scabies patients/residents using the hot water and hot dryer cycles. ... Environmental disinfestation is neither necessary nor warranted.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Store non-launderable items in closed plastic bag several days to a week; routine cleaning and vacuuming",
+          "quote": "Items that cannot be laundered can be disinfested by storing in a closed plastic bag for several days to a week. ... Routine cleaning and vacuuming of the room should be done",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Screen new patients, residents, staff; notify local health department if multiple cases",
+          "quote": "Screen all new patients/residents and staff for scabies. ... If there are multiple cases, notify the local health department of the outbreak",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "kind": "journal",
+      "cited_as": "Uzun S, Durdu M, Yürekli A, et al. Clinical practice guidelines for the diagnosis and treatment of scabies. International Journal of Dermatology. 2024;63(12):1642-1656.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11589009/",
+      "pmid": "38922701",
+      "pmcid": "PMC11589009",
+      "doi": "10.1111/ijd.17327",
+      "record_title": "Clinical practice guidelines for the diagnosis and treatment of scabies.",
+      "record_journal": "Int J Dermatol",
+      "record_year": "2024",
+      "article_type": "Journal Article; Review (consensus guideline, fuzzy Delphi, Turkey)",
+      "retrieved_with": "PubMed connector get_article_metadata and PMC full text (get_full_text_article)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "scite_unavailable (quota exhausted until 2026-11-14). PubMed article types: Journal Article, Review; no Retracted Publication or Retraction Notice type. National (Turkey) consensus; used for background, diagnosis and crusted-scabies description, not for US dosing.",
+      "claims": [
+        {
+          "text": "Adult female mites measure about 0.3 to 0.5 mm",
+          "quote": "The males of this species measure 210–290 μm, while the females measure 300–500 μm in length.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Transmission of animal mites to humans is rare",
+          "quote": "from animals to humans is rare, with the most common transmission occurring from dogs.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Burrows contain adult female mites, their eggs, and excreta",
+          "quote": "The presence of burrows containing adult female mites, their eggs, and excreta is the diagnostic hallmark of scabies.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Burrows pathognomonic; whitish, grayish or brownish, about 10 mm long, pearl-like vesicle",
+          "quote": "The presence of the female mite's burrow is pathognomonic ... Typically, burrows are whitish, grayish, or brownish in color and measure about 0.5 mm wide and 10 mm long.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Pruritic papules on glans penis almost always pathognomonic",
+          "quote": "The presence of pruritic papules, particularly on the glans penis in adult males, is almost always pathognomonic for scabies.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Face and scalp involvement in infants, elderly, immunodeficient",
+          "quote": "However, infants, the elderly, those with crusted scabies, and individuals with immunodeficiency may experience involvement of the face and scalp.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Brief contact such as handshake rare, requires 15 to 20 minutes; sexual contact significant route",
+          "quote": "Transmission through brief contact, such as handshakes and medical examinations, is rare since it usually requires 15–20 minutes. ... Sexual contact is also a significant route of transmission",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Microscopy of skin scraping with blunt blade and mineral oil; negative does not exclude",
+          "quote": "gently scraping the skin with a blunt‐edged scalpel blade (size 10 or 15) while placing 1–2 drops of mineral oil ... whereas a negative result does not exclude it.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Definitive diagnosis by microscopic examination of skin scrapings",
+          "quote": "Definitive diagnosis typically involves direct microscopic examination of skin scrapings obtained from these burrows",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Dermoscopy delta sign and jet trail",
+          "quote": "the brown‐black triangle, which represents the mite itself (known as the delta sign), followed by a white smoke sign, which represents the burrow (known as the jet trail)",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Clinical diagnosis from contact history, itch after contact, typical distribution",
+          "quote": "Scabies can be diagnosed if the patient has a history of contact with a scabies‐infested individual, itching that commenced subsequent to the contact, and exhibits typical distribution and lesions.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Apparent permethrin resistance may reflect application errors",
+          "quote": "some studies suggest that this resistance may not be accurate and that the ineffectiveness may be due to application errors.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Scabies medicines less effective against eggs; repeat a week later",
+          "quote": "Scabies medications are generally less effective against the eggs. Therefore, treatment should be repeated a week later to kill newly hatched mites.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Permethrin generally preferred in pregnancy and breastfeeding given limited ivermectin data",
+          "quote": "However, due to limited data on the use of ivermectin in pregnant and breastfeeding women, treatment with permethrin should be preferred.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Ivermectin for scabies not associated with serious adverse events to date",
+          "quote": "To date, the use of ivermectin for the treatment of scabies has not been associated with any serious adverse events.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Crusted scabies: thousands or even millions of mites",
+          "quote": "caused by an unlimited multiplication of mites in the skin, resulting in thousands or even millions of specimens.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Host factors more important; more than half have immunosuppressive risk factors; HIV 45% in one case series",
+          "quote": "More than half of crusted scabies patients have identifiable immunosuppressive risk factors ... In a case series of crusted scabies, HIV infection was reported as the most common comorbidity in 45% of patients.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Host factors play a larger role than mite characteristics",
+          "quote": "Host factors play a more significant role in crusted scabies than pathogen‐specific characteristics such as the parasite's virulence.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Risk: elderly; amputations, paralysis, Alzheimer disease, finger deformities, nutritional disorders, Down syndrome",
+          "quote": "Patients with amputations, paralysis, Alzheimer's disease, finger deformities, nutritional disorders, Down syndrome, or those with weak cognitive abilities or physical impairments, may not feel itching",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Crusted scabies in elderly (reduced immune response)",
+          "quote": "The clinical presentation of scabies may also differ in elderly individuals due to their decreased immune response. Crusted scabies may develop in elderly patients.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Crust can exceed 1 cm, resembles psoriasis, creamy/gray/yellow-brown",
+          "quote": "These plaques have a parakeratotic crust that can exceed 1 cm in thickness and closely resemble psoriasis or Darier's disease. ... creamy, gray, yellow‐brown, or yellow‐green variations",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Nails thickened, discolored, significant source of relapse",
+          "quote": "Nails are a significant source of relapses and have a discolored, thickened, and dystrophic appearance.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "About half of crusted scabies patients have some itch",
+          "quote": "Although it is commonly believed that pruritus is absent in crusted scabies, half of all patients with this condition experience some degree of pruritus",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Crusted scabies transmitted via bed covers and sofas and shed scales; majority of outbreaks",
+          "quote": "frequently transmitted through objects like bed covers and sofas. Accordingly, patients with crusted scabies are involved in the majority of outbreaks. ... transmission can also occur through shed scales from these patients.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Contacts treated at the same time even without symptoms; absence of itch does not mean absence of disease",
+          "quote": "All individuals in close contact with the infected person, such as family members, children's school friends, and sexual partners, should be treated at the same time, even if they do not have symptoms.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Absence of itching in a family member does not signify absence of disease",
+          "quote": "It is crucial to recognize that the absence of itching in a family member does not necessarily signify the absence of the disease.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Sealed plastic bags for items such as children's fabrics and stuffed animals",
+          "quote": "storing items, such as clothing, linens, bedding, children's fabrics, and stuffed animals in sealed plastic bags, may reduce the spread of scabies.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Nodules persist weeks to months after treatment and typically lack mites",
+          "quote": "Notably, these nodules do not necessarily indicate an active infestation and typically do not contain mites. Nodular scabies can persist for weeks or even months after effective scabies treatment.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Permethrin irritant contact dermatitis leads to discontinuation in about 5%",
+          "quote": "Permethrin may cause irritant contact dermatitis in some individuals, which can lead to discontinuation of treatment in approximately 5% of patients.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "One case of crusted scabies is considered an outbreak",
+          "quote": "Only one case of crusted scabies is considered an outbreak.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Secondary bacterial infections such as impetigo and furuncles",
+          "quote": "A clinically distinct polymorphism occurs with the intermingling of excoriations and erythematous papules, occasional secondary eczematizations, pustular lesions, and pyodermic lesions such as impetigo and furuncles.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Scabies carries stigma",
+          "quote": "Scabies can also have significant psychosocial and economic impacts due to stigmatization and loss of workforce.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Comparison table: permethrin preferred in pregnancy (with refs 2, 9, 10)",
+          "quote": "due to limited data on the use of ivermectin in pregnant and breastfeeding women, treatment with permethrin should be preferred.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "kind": "journal",
+      "cited_as": "Chiu LW, Berger TG, Chang AY. Management of common scabies and postscabetic itch in adults: Lessons learned from a single-center retrospective cohort study. International Journal of Women's Dermatology. 2021;7(5 Part B):716-720.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8714596/",
+      "pmid": "35028370",
+      "pmcid": "PMC8714596",
+      "doi": "10.1016/j.ijwd.2021.09.001",
+      "record_title": "Management of common scabies and postscabetic itch in adults: Lessons learned from a single-center retrospective cohort study.",
+      "record_journal": "Int J Womens Dermatol",
+      "record_year": "2021",
+      "article_type": "Journal Article (retrospective cohort, observational)",
+      "retrieved_with": "PubMed connector get_article_metadata and PMC full text (get_full_text_article)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "scite_unavailable (quota exhausted until 2026-11-14). PubMed article type Journal Article; no Retracted Publication or Retraction Notice type. Observational; treatments for postscabetic itch are descriptive, not tested efficacy. The itch-mechanism claim formerly cited here now cites CDC (ref 1).",
+      "claims": [
+        {
+          "text": "About one-third (34%) of 103 adults had post-scabies itch for a median 52.5 days (IQR 28 to 135)",
+          "quote": "About one-third of the 103 participants (n = 35; 34%) experienced postscabetic itch that persisted for a median duration of 52.5 days (IQR, 28–135 days)",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Longer than the 4 to 6 weeks in earlier published guidance",
+          "quote": "Published guidance report that postscabetic itch can persist for 4 to 6 weeks (;), but no primary data are provided or referenced. Our data show that postscabetic itch can persist for longer than previously reported.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Older combined-treatment group had more itch, 42% vs 25%, not significant",
+          "quote": "More participants in the older (mean: 55 years ...) combined treatment group experienced postscabetic itch than in the younger ... permethrin-only treatment group (42% vs. 25%; = .072).",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Post-scabies itch led to additional health care utilization",
+          "quote": "postscabetic itch can persist for several months, result in additional health care utilization",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "83% treated with topical corticosteroids; about half gentle skin care; gabapentin, doxepin, NB-UVB in few",
+          "quote": "Five participants were treated with narrow-band ultraviolet B therapy ... gentle skin care (n = 18; 51%), gabapentin (n = 3; 9%), doxepin (n = 2; 6%), topical corticosteroids (n = 29; 83%)",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Reinfestation by untreated family members or partner explained some failures",
+          "quote": "one had been reinfested by untreated family members ... The only participant whose rash worsened on follow-up had been reinfested by their partner.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "kind": "other_web",
+      "cited_as": "American Academy of Dermatology. Scabies: Tips for Managing. Accessed November 7, 2026.",
+      "url": "https://www.aad.org/public/diseases/a-z/scabies-self-care",
+      "version_or_date": "No content date shown (copyright 2026)",
+      "retrieved_with": "WebFetch of official page (loaded normally)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "Previously listed but uncited; now cited inline for application steps, vacuuming, pets and untreated contacts.",
+      "claims": [
+        {
+          "text": "Human itch mite cannot survive on animals; pets need no treatment",
+          "quote": "The human itch mite cannot survive on animals. Pets do not need treatment.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Bathe or shower first; apply to clean, dry skin",
+          "quote": "be sure to take a bath or shower before you apply the medicine. ... You should then massage the medicine onto clean, dry skin.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Cover skin around nails, between toes, crease between buttocks",
+          "quote": "the skin around your nails, the crease between your buttocks, and the skin between your toes.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Reapply to hands after washing",
+          "quote": "If you wash your hands after applying the medicine, be sure to reapply the medicine to your hands.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Infants, children, elderly treat scalp, temples, forehead; never nose, lips, eyelids, eyes, mouth",
+          "quote": "Infants, children, and the elderly often need to treat their scalp, temples, and forehead. ... You should never apply medicine to the nose, lips, eyelids, nor around the eyes or mouth.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Vacuum carpets, rugs, upholstered furniture on the day treatment starts",
+          "quote": "Vacuum your entire home on the day you start treatment. ... Vacuum carpeting, area rugs, and all upholstered furniture.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Untreated close contacts can pass the mites back",
+          "quote": "If you get treatment and people with whom you live or have close contact do not get treatment, you can get the mites again.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "kind": "agency_page",
+      "cited_as": "Centers for Disease Control and Prevention. Treatment of Scabies. Updated January 12, 2024. Accessed November 7, 2026.",
+      "url": "https://www.cdc.gov/scabies/treatment/index.html",
+      "version_or_date": "Page date January 12, 2024 (metadata last_updated January 1, 2024)",
+      "retrieved_with": "WebFetch of official page (direct curl blocked by proxy)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "Previously listed but uncited; now cited for OTC, no fumigants, sealing items and retreatment criteria (replacing the unsupported \"no fumigants\" attribution to ref 2).",
+      "claims": [
+        {
+          "text": "Do not use OTC products; not tested and approved",
+          "quote": "Do not use over-the-counter (non-prescription) products to treat scabies. ... These products have not been tested and approved to treat scabies.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Do not use insecticide sprays or fumigants",
+          "quote": "Do not use insecticide sprays and fumigants to treat scabies or crusted scabies.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Seal items in a plastic bag for at least 72 hours to one week",
+          "quote": "Dry-clean or seal items in a plastic bag for at least 72 hours to up one week that can't be washed traditionally.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Retreatment may be needed if itching more than 2 to 4 weeks after treatment or new burrows",
+          "quote": "You may need retreatment if ... itching is present more than 2 to 4 weeks after treatment, or ... new burrows appear, or",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "kind": "label",
+      "cited_as": "Merck Sharp & Dohme LLC. STROMECTOL (ivermectin) tablets: prescribing information. Revised September 2024. DailyMed.",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=681888c9-af79-4b7d-ae80-c3f4f6f1effd",
+      "version_or_date": "Revised 09/2024; DailyMed updated September 20, 2024 (setid 681888c9-af79-4b7d-ae80-c3f4f6f1effd). Pregnancy and Table 1 wording also matched in Drugs@FDA label revised 3/2022.",
+      "retrieved_with": "WebFetch of DailyMed label (lookup and professional drugInfo pages) and Drugs@FDA PDF 050742s030lbl",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "New reference. Label indications are strongyloidiasis and onchocerciasis; scabies is not a labeled indication. Weight table is the label strongyloidiasis table at about 200 mcg/kg. Replaces the unsupported \"Category C\" statement: current label has no letter category.",
+      "claims": [
+        {
+          "text": "Weight-based table, 3 mg tablets, approx 200 mcg/kg single dose (15-24 kg 1 tablet through >=80 kg 200 mcg/kg)",
+          "quote": "a single oral dose designed to provide approximately 200 mcg of ivermectin per kg of body weight ... 15-24 1 tablet; 25-35 2 tablets; 36-50 3 tablets; 51-65 4 tablets; 66-79 5 tablets; ≥80 200 mcg/kg",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Label instructs taking on an empty stomach with water",
+          "quote": "Patients should take tablets on an empty stomach with water.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Label: should not be used during pregnancy because safety not established",
+          "quote": "Ivermectin should not be used during pregnancy since safety in pregnancy has not been established.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Safety and effectiveness under 15 kg not established",
+          "quote": "Safety and effectiveness in pediatric patients weighing less than 15 kg have not been established.",
+          "quote_source": "label",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "kind": "label",
+      "cited_as": "Aurobindo Pharma Limited. ELIMITE (permethrin) 5% cream: prescribing information. Revised November 2023 (DailyMed updated January 24, 2024). DailyMed.",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=443c0446-ccba-4f52-83ed-4c3163f35807",
+      "version_or_date": "Revised 11/2023 (also shows Revised 1/2024); DailyMed updated January 24, 2024 (setid 443c0446-ccba-4f52-83ed-4c3163f35807)",
+      "retrieved_with": "WebFetch of DailyMed label (lookup and fdaDrugXsl display pages)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "New reference. Replaces the unsourced \"less than 2% absorbed\" and \"Category B\" statements: label says 2% or less and gives no letter category. Label states one application is generally curative; retreatment if living mites after 14 days.",
+      "claims": [
+        {
+          "text": "Permethrin indicated for scabies; safe and effective from two months of age",
+          "quote": "is indicated for the treatment of infestation with Sarcoptes scabiei (scabies) ... is safe and effective in pediatric patients two months of age and older",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Use in pregnancy only if clearly needed",
+          "quote": "this drug should be used during pregnancy only if clearly needed.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Absorption 2% or less of the amount applied",
+          "quote": "it is 2% or less of the amount applied.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Persistent itching may occur after treatment",
+          "quote": "Patients may experience persistent pruritus after treatment.",
+          "quote_source": "label",
+          "verdict": "supported"
+        }
+      ]
+    }
+  ]
+}
