@@ -1,0 +1,861 @@
+{
+  "guide": "anxiety-depression-medication-guide",
+  "checked_at": "2026-11-07",
+  "checked_by": "Claude (repair run)",
+  "scite_verify_papers": "unavailable (quota exhausted until 2026-11-14); retraction status from PubMed article types",
+  "references": [
+    {
+      "n": 1,
+      "kind": "guideline",
+      "cited_as": "American Psychological Association (APA). Clinical Practice Guideline for the Treatment of Depression Across Three Age Cohorts. Approved by the APA Council of Representatives February 2019; page last updated June 2025 (update panel appointed 2025). Accessed November 7, 2026.",
+      "url": "https://www.apa.org/depression-guideline",
+      "version_or_date": "Approved February 2019; landing page last updated June 2025",
+      "retrieved_with": "WebFetch of apa.org/depression-guideline (landing page); Monid firecrawl /scrape of linked adult decision aid PDF (decision-aid-adults.pdf) and JSON extraction of guideline.pdf (86 pages)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "Recommendation quotes come from the APA adult decision aid PDF linked from the cited landing page and the full guideline PDF. The guideline covers depression only; it is no longer cited for anxiety claims. The 13-study and 40-month figures previously cited to this ref were moved to refs 20 and 21.",
+      "claims": [
+        {
+          "text": "APA recommends either psychotherapy or a second-generation antidepressant for adults with depression",
+          "quote": "Recommend second-generation antidepressant medications (ADMs).",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "if combined treatment is considered, APA recommends CBT or IPT plus a second-generation antidepressant",
+          "quote": "If considering combined treatment, recommend CBT or IPT plus a secondgeneration ADM.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "treatment chosen through shared decision-making",
+          "quote": "Engage in shared decision-making to support informed consent and treatment selection.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "CBT is among the psychotherapies APA recommends for adults with depression",
+          "quote": "Recommend behavioral therapy, cognitive therapy, cognitive-behavioral therapy (CBT), interpersonal psychotherapy (IPT), mindfulness-based cognitive therapy, psychodynamic therapy, or supportive therapy.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "in 2025 the APA Board appointed a multidisciplinary panel to update the 2019 guideline",
+          "quote": "In 2025, the APA Board of Directors appointed a multidisciplinary panel to update the 2019 Clinical Practice Guideline",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "guideline approved February 2019",
+          "quote": "This document was approved by the APA Council of Representatives over the course of its February 2019 meeting",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "kind": "guideline",
+      "cited_as": "National Institute for Health and Care Excellence (NICE). Depression in Adults: Treatment and Management (NG222), Recommendations. Published 29 June 2022; last reviewed 30 January 2026. Accessed November 7, 2026.",
+      "url": "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations",
+      "version_or_date": "Published 29 June 2022; last reviewed 30 January 2026",
+      "retrieved_with": "Monid firecrawl /scrape: NG222 overview page (markdown) for dates; Recommendations chapter via JSON extraction (LLM-assisted verbatim copy of rec text)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "Link changed from the overview page to the Recommendations chapter, which holds the quoted recommendations (rec numbers 1.4.3, 1.4.10, 1.4.11, 1.4.12, 1.4.16, 1.5.2, 1.6.1, 1.8.1, tables 1 and 2). Dates read from the overview page this run: \"Published: 29 June 2022\"; \"Last reviewed: 30 January 2026\".",
+      "claims": [
+        {
+          "text": "NICE: if an antidepressant is going to work, effect usually seen within 4 weeks",
+          "quote": "how long it takes to see an effect (usually, if the antidepressant medication is going to work, within 4 weeks)",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "first review within 2 weeks, or 1 week if aged 18 to 25 or suicide-risk concern",
+          "quote": "this will usually be within 2 weeks ... or 1 week after starting antidepressant medication if a new prescription is for a person aged 18 to 25 years or if there is a particular concern for risk of suicide",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "treatment for at least 6 months after remission, reviewed regularly",
+          "quote": "that treatment might need to be taken for at least 6 months after the remission of symptoms, but should be reviewed regularly",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "continuation after remission may reduce relapse; shared decision on continuing",
+          "quote": "continuation of treatment (antidepressants or psychological therapies) after full or partial remission may reduce their risk of relapse ... Reach a shared decision on whether or not to continue",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "tapering in stages; most people stop successfully",
+          "quote": "Explain that it is usually necessary to reduce the dose in stages over time (called 'tapering') but that most people stop antidepressants successfully.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "short half-life antidepressants tapered more slowly; withdrawal may take weeks or months",
+          "quote": "antidepressants with a short half-life will need to be tapered more slowly ... recognise that withdrawal may take weeks or months to complete successfully.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "step-wise proportional reductions (50%), smaller (25%) as dose lowers, liquid preparations",
+          "quote": "at each step prescribing a proportion of the previous dose (for example, 50% of previous dose) - consider using smaller reductions (for example, 25%) as the dose becomes lower",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "liquid preparations if small doses cannot be achieved with tablets",
+          "quote": "if, once very small doses have been reached, slow tapering cannot be achieved using tablets or capsules, consider using liquid preparations if available",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "review between 2 and 4 weeks; monitor suicidal ideation especially early weeks",
+          "quote": "review how well the treatment is working with the person between 2 and 4 weeks after starting treatment ... monitor suicidal ideation, particularly in the early weeks of treatment",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "discuss options and reach shared decision matching clinical needs and preferences",
+          "quote": "Discuss treatment options with people who have a new episode of more severe depression, and match their choice of treatment to their clinical needs and preferences",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "first-line options include guided self-help, group exercise, psychotherapies, SSRIs/antidepressant medication; combination of CBT and antidepressant listed first for more severe depression",
+          "quote": "Table 2 (more severe depression) first entry: \"Combination of individual cognitive behavioural therapy (CBT) and an antidepressant\"; also lists \"Antidepressant medication\", \"Guided self-help\", \"Group exercise\". Table 1 lists \"Selective serotonin reuptake inhibitors (SSRIs)\".",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "SSRIs generally well tolerated, good safety profile, first choice for most people",
+          "quote": "SSRIs are generally well tolerated, have a good safety profile and should be considered as the first choice for most people.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "prescribers explain dose and how it may need adjusting",
+          "quote": "the dose, and how the dose may need to be adjusted",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "prescribers explain interactions with other medicines and alcohol",
+          "quote": "the importance of following instructions on how to take antidepressant medication (for example, time of day, interactions with other medicines and alcohol)",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "kind": "agency_page",
+      "cited_as": "National Institute of Mental Health (NIMH). Major Depression: Statistics. Based on 2021 NSDUH data. Last updated July 2023. Accessed November 7, 2026.",
+      "url": "https://www.nimh.nih.gov/health/statistics/major-depression",
+      "version_or_date": "Last Updated: July 2023 (2021 NSDUH data)",
+      "retrieved_with": "WebFetch of official page",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "Wording corrected from \"major depressive disorder affects\" to \"had at least one major depressive episode\" to match NIMH. The old \"fewer than half receive treatment\" claim is contradicted by this page (61.0% of adults with MDE received treatment) and was rewritten.",
+      "claims": [
+        {
+          "text": "21.0 million adults (8.3%) had a major depressive episode in 2021",
+          "quote": "An estimated 21.0 million adults in the United States had at least one major depressive episode. This number represented 8.3% of all U.S. adults.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "61.0% of adults with a major depressive episode received treatment in the past year",
+          "quote": "an estimated 61.0% U.S. adults aged 18 or older with major depressive episode received treatment in the past year.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "kind": "agency_page",
+      "cited_as": "National Institute of Mental Health (NIMH). Any Anxiety Disorder: Statistics. Based on NCS-R data (2001 to 2003). Accessed November 7, 2026.",
+      "url": "https://www.nimh.nih.gov/health/statistics/any-anxiety-disorder",
+      "version_or_date": "NCS-R data 2001 to 2003; page date not shown",
+      "retrieved_with": "WebFetch of official page",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "The \"roughly 40 million\" headcount is not on this page and was cut.",
+      "claims": [
+        {
+          "text": "19.1% of U.S. adults had any anxiety disorder in the past year",
+          "quote": "An estimated 19.1% of U.S. adults had any anxiety disorder in the past year.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "anxiety disorders are the most common mental disorders in the U.S.",
+          "quote": "Combined, anxiety disorders are the most common mental disorders in the United States.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "kind": "other_web",
+      "cited_as": "Mayo Clinic Staff. Serotonin Syndrome: Symptoms and Causes. Mayo Clinic. September 12, 2024. Accessed November 7, 2026.",
+      "url": "https://www.mayoclinic.org/diseases-conditions/serotonin-syndrome/symptoms-causes/syc-20354758",
+      "version_or_date": "Sept. 12, 2024",
+      "retrieved_with": "Monid firecrawl /scrape (markdown) of official page",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "Now cited only for serotonin syndrome claims and St. John's wort as a serotonin syndrome cause. Tapering and FDA/NICE discontinuation claims previously cited here were moved to refs 2, 9, 12 and 16.",
+      "claims": [
+        {
+          "text": "serotonin syndrome symptoms: agitation, confusion, rapid heart rate, high blood pressure, dilated pupils, twitching, rigidity, sweating, diarrhea",
+          "quote": "Agitation or restlessness ... Confusion ... Rapid heart rate and high blood pressure ... Dilated pupils ... Loss of muscle coordination or twitching muscles ... Muscle rigidity ... Heavy sweating ... Diarrhea",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "severe cases: high fever or seizures",
+          "quote": "Severe serotonin syndrome can be life-threatening. Signs include: High fever ... Tremor ... Seizures",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "most often caused by combining serotonergic medications; can follow dose increase or new drug",
+          "quote": "Serotonin syndrome can occur when you increase the dose of certain medications or start taking a new drug. It's most often caused by combining medications that contain serotonin",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "severe or rapidly worsening symptoms need emergency treatment",
+          "quote": "If you have severe or rapidly worsening symptoms, seek emergency treatment immediately.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "St. John's wort listed among supplements that can cause serotonin syndrome",
+          "quote": "Herbal supplements, including St. John's wort, ginseng and nutmeg",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "kind": "other_web",
+      "cited_as": "988 Suicide &amp; Crisis Lifeline. 988 Lifeline home page. Accessed November 7, 2026.",
+      "url": "https://988lifeline.org/",
+      "version_or_date": "home page read 2026-11-07",
+      "retrieved_with": "Monid firecrawl /scrape (markdown) of official page",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "Replaces ADAA Facts & Statistics (old ref 6). The ADAA page supported 988 but its 43.2% treatment figure applied to GAD only; the treatment-gap claim now cites NIMH (ref 3).",
+      "claims": [
+        {
+          "text": "call or text 988 for suicidal thoughts; available around the clock",
+          "quote": "Call, text, or chat with a 988 Lifeline counselor for help during difficult moments anytime, day or night.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "available 24/7 every day of the year",
+          "quote": "The 988 Lifeline is available 24/7/365.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "kind": "journal",
+      "cited_as": "Slee A, Nazareth I, Bondaronek P, Liu Y, Cheng Z, Freemantle N. Pharmacological treatments for generalised anxiety disorder: a systematic review and network meta-analysis. Lancet. 2019;393(10173):768-777. doi:10.1016/S0140-6736(18)31793-8.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30712879/",
+      "pmid": "30712879",
+      "doi": "10.1016/S0140-6736(18)31793-8",
+      "record_title": "Pharmacological treatments for generalised anxiety disorder: a systematic review and network meta-analysis.",
+      "record_journal": "Lancet",
+      "record_year": "2019",
+      "article_type": "Journal Article; Systematic Review; Network Meta-Analysis",
+      "version_or_date": "2019;393(10173):768-777",
+      "retrieved_with": "PubMed get_article_metadata",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "GAD-only analysis; no longer cited for depression or for \"SSRIs and SNRIs first-line\" (first-line wording now cites NICE CG113, ref 8). scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article_types checked: no Retracted Publication or Retraction Notice.",
+      "claims": [
+        {
+          "text": "89 trials; duloxetine, pregabalin, venlafaxine, escitalopram more efficacious than placebo with relatively good acceptability",
+          "quote": "This analysis is based on 89 trials ... Duloxetine ..., pregabalin ..., venlafaxine ..., and escitalopram ... were more efficacious than placebo with relatively good acceptability.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "kind": "guideline",
+      "cited_as": "National Institute for Health and Care Excellence (NICE). Generalised Anxiety Disorder and Panic Disorder in Adults: Management (CG113), Recommendations. Published 26 January 2011; last updated 15 June 2020. Accessed November 7, 2026.",
+      "url": "https://www.nice.org.uk/guidance/cg113/chapter/Recommendations",
+      "version_or_date": "Published 26 January 2011; last updated 15 June 2020",
+      "retrieved_with": "Monid firecrawl /scrape JSON extraction (LLM-assisted verbatim copy) of CG113 Recommendations chapter",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "Added to support GAD drug-treatment, benzodiazepine and withdrawal-tendency claims. Rec numbers 1.2.23, 1.2.24, 1.2.26, 1.2.41.",
+      "claims": [
+        {
+          "text": "GAD: offer an SSRI first; sertraline first as most cost-effective",
+          "quote": "If a person with GAD chooses drug treatment, offer a selective serotonin reuptake inhibitor (SSRI). Consider offering sertraline first because it is the most cost-effective drug",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "if sertraline ineffective, alternative SSRI or SNRI",
+          "quote": "If sertraline is ineffective, offer an alternative SSRI or a serotonin–noradrenaline reuptake inhibitor (SNRI)",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "withdrawal tendency especially paroxetine and venlafaxine",
+          "quote": "tendency to produce a withdrawal syndrome (especially with paroxetine and venlafaxine)",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "no benzodiazepines for GAD except short-term in crises",
+          "quote": "Do not offer a benzodiazepine for the treatment of GAD in primary or secondary care except as a short-term measure during crises.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "evidence for combination treatments in GAD is lacking",
+          "quote": "evidence for the effectiveness of combination treatments is lacking",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "kind": "label",
+      "cited_as": "U.S. Food and Drug Administration prescribing information. ZOLOFT (sertraline hydrochloride) tablets and oral solution. Viatris Specialty LLC. DailyMed, revised 8/2023. Accessed November 7, 2026.",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=fda754f6-d0f3-4dce-a17a-927d64f912f7",
+      "version_or_date": "ZOLOFT, Viatris; Revised 8/2023 (DailyMed SPL version 7, published Jul 24, 2025)",
+      "retrieved_with": "Monid firecrawl /scrape JSON extraction (LLM-assisted verbatim copy) of DailyMed label page; WebFetch of same page for section 5.1 table",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "Sertraline is not FDA-labeled for GAD; table now says so and cites NICE CG113 for GAD use.",
+      "claims": [
+        {
+          "text": "boxed warning: increased suicidal thoughts and behaviors in pediatric and young adult patients; close monitoring",
+          "quote": "WARNING: SUICIDAL THOUGHTS AND BEHAVIORS Antidepressants increased the risk of suicidal thoughts and behavior in pediatric and young adult patients in short-term studies. Closely monitor all antidepressant-treated patients for clinical worsening",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "increase seen under 18 and 18 to 24; not in 25 and older",
+          "quote": "Table 2: <18: 14 additional patients; 18-24: 5 additional patients; Decreases Compared to Placebo: 25-64: 1 fewer patient; ≥65: 6 fewer patients",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "sertraline MDD adult start 50 mg/day, max 200 mg/day",
+          "quote": "Starting Dosage: 50 mg per day; Maximum Dosage: 200 mg per day.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "indications: MDD, OCD, panic, PTSD, social anxiety, PMDD",
+          "quote": "Major depressive disorder (MDD); Obsessive-compulsive disorder (OCD); Panic disorder (PD); Posttraumatic stress disorder (PTSD); Social anxiety disorder (SAD); Premenstrual dysphoric disorder (PMDD).",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "common adverse reactions",
+          "quote": "nausea, diarrhea/loose stool, tremor, dyspepsia, decreased appetite, hyperhidrosis, ejaculation failure, and decreased libido.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "gradually reduce dosage rather than abrupt cessation",
+          "quote": "Gradually reduce the dosage rather than stopping ZOLOFT abruptly whenever possible.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "discontinuation symptoms list incl. electric shock sensations, tinnitus, hypomania, seizures",
+          "quote": "nausea, sweating, dysphoric mood, irritability, agitation, dizziness, sensory disturbances (e.g., paresthesia, such as electric shock sensations), tremor, anxiety, confusion, headache, lethargy, emotional lability, insomnia, hypomania, tinnitus, and seizures.",
+          "quote_source": "label",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "kind": "label",
+      "cited_as": "U.S. Food and Drug Administration prescribing information. LEXAPRO (escitalopram) tablets and oral solution. Allergan, Inc. DailyMed, revised 10/2023. Accessed November 7, 2026.",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=13bb8267-1cab-43e5-acae-55a4d957630a",
+      "version_or_date": "LEXAPRO, Allergan; Revised 10/2023 (SPL version 45)",
+      "retrieved_with": "Monid firecrawl /scrape JSON extraction (LLM-assisted verbatim copy) of DailyMed label page",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "escitalopram MDD and GAD adults: 10 mg once daily, max 20 mg",
+          "quote": "MDD in Adults: Initial: 10 mg once daily, Recommended: 10 mg once daily, Maximum: 20 mg once daily. GAD in Adults: Initial: 10 mg once daily",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "indications: MDD and GAD",
+          "quote": "major depressive disorder (MDD) in adults and pediatric patients 12 years of age and older. • generalized anxiety disorder (GAD) in adults",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "common adverse reactions",
+          "quote": "insomnia, ejaculation disorder (primarily ejaculatory delay), nausea, sweating increased, fatigue and somnolence, decreased libido, and anorgasmia.",
+          "quote_source": "label",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "kind": "label",
+      "cited_as": "U.S. Food and Drug Administration prescribing information. PROZAC (fluoxetine hydrochloride) capsules. Dista Products Company. DailyMed, revised 8/2023. Accessed November 7, 2026.",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=c88f33ed-6dfb-4c5e-bc01-d8e36dd97299",
+      "version_or_date": "PROZAC, Dista; Revised 8/2023 (SPL version 59)",
+      "retrieved_with": "Monid firecrawl /scrape JSON extraction (LLM-assisted verbatim copy) of DailyMed label page",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "indications: MDD, OCD, bulimia, panic disorder",
+          "quote": "Acute and maintenance treatment of Major Depressive Disorder (MDD) - Acute and maintenance treatment of Obsessive Compulsive Disorder (OCD) - Acute and maintenance treatment of Bulimia Nervosa - Acute treatment of Panic Disorder",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "long half-lives; dose changes take several weeks to be reflected",
+          "quote": "Because of the long elimination half-lives of the parent drug and its major active metabolite, changes in dose will not be fully reflected in plasma for several weeks",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "activation symptoms reported with antidepressants",
+          "quote": "anxiety, agitation, panic attacks, insomnia, irritability, hostility, aggressiveness, impulsivity, akathisia (psychomotor restlessness), hypomania, and mania, have been reported in adult and pediatric patients being treated with antidepressants",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "common adverse reactions (nausea, insomnia, anxiety, nervousness, decreased libido, abnormal dreams)",
+          "quote": "abnormal dreams, abnormal ejaculation, anorexia, anxiety, asthenia, diarrhea, dry mouth, dyspepsia, flu syndrome, impotence, insomnia, libido decreased, nausea, nervousness",
+          "quote_source": "label",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "kind": "label",
+      "cited_as": "U.S. Food and Drug Administration prescribing information. EFFEXOR XR (venlafaxine hydrochloride) extended-release capsules. Viatris Specialty LLC. DailyMed, revised 8/2023. Accessed November 7, 2026.",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=c848a5d8-ba94-4c84-80e3-0bf35fb8e32e",
+      "version_or_date": "EFFEXOR XR, Viatris; Revised 8/2023 (SPL version 7)",
+      "retrieved_with": "Monid firecrawl /scrape JSON extraction (LLM-assisted verbatim copy) of DailyMed label page",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "indications: MDD, GAD, social anxiety, panic",
+          "quote": "indicated for the treatment of adults with: Major Depressive Disorder (MDD), Generalized Anxiety Disorder (GAD), Social Anxiety Disorder (SAD), Panic Disorder (PD).",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "common adverse reactions",
+          "quote": "nausea, somnolence, dry mouth, sweating, abnormal ejaculation, anorexia, constipation, impotence (men), and libido decreased.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "blood pressure monitoring",
+          "quote": "Monitor blood pressure before initiating treatment with Effexor XR and regularly during treatment. ... Sustained blood pressure elevation can lead to adverse outcomes.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "taper individualized; may take several months",
+          "quote": "Individualization of tapering may be necessary. In some patients, discontinuation may need to occur over a period of several months.",
+          "quote_source": "label",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "kind": "label",
+      "cited_as": "U.S. Food and Drug Administration prescribing information. CYMBALTA (duloxetine delayed-release capsules). Eli Lilly and Company. DailyMed, revised 08/2023. Accessed November 7, 2026.",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2f7d4d67-10c1-4bf4-a7f2-c185fbad64ba",
+      "version_or_date": "CYMBALTA, Eli Lilly; Revised 08/2023 (SPL version 90)",
+      "retrieved_with": "Monid firecrawl /scrape JSON extraction (LLM-assisted verbatim copy) of DailyMed label page (page metadata confirms Eli Lilly and Company, set id 2f7d4d67-10c1-4bf4-a7f2-c185fbad64ba)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "indications: MDD, GAD, diabetic neuropathic pain, fibromyalgia, chronic musculoskeletal pain",
+          "quote": "Major depressive disorder in adults, Generalized anxiety disorder in adults ... Diabetic peripheral neuropathic pain in adults, Fibromyalgia ... Chronic musculoskeletal pain in adults.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "common adverse reactions",
+          "quote": "Adults: nausea, dry mouth, somnolence, constipation, decreased appetite, and hyperhidrosis.",
+          "quote_source": "label",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "kind": "label",
+      "cited_as": "U.S. Food and Drug Administration labeling. Buspirone hydrochloride tablets. American Health Packaging. DailyMed, published November 2026. Accessed November 7, 2026.",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=e80d83a6-7c2a-478e-bdf1-c481824fc301",
+      "version_or_date": "Buspirone HCl tablets, American Health Packaging; revised November 2, 2026 (SPL version 4)",
+      "retrieved_with": "Monid firecrawl /scrape JSON extraction (LLM-assisted verbatim copy) of DailyMed label page",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "\"5-HT1A partial agonist\", \"not effective PRN\", \"often used as adjunct to SSRIs\" and the 2-4 week onset were not found in retrieved text and were removed.",
+      "claims": [
+        {
+          "text": "indication: management of anxiety disorders",
+          "quote": "Buspirone hydrochloride tablets are indicated for the management of anxiety disorders or the short-term relief of the symptoms of anxiety.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "common adverse events",
+          "quote": "include dizziness, nausea, headache, nervousness, lightheadedness, and excitement.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "lacks prominent sedation of typical anxiolytics",
+          "quote": "It also lacks the prominent sedative effect that is associated with more typical anxiolytics.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "no evidence of tolerance or dependence",
+          "quote": "there is no evidence that it causes tolerance, or either physical or psychological dependence.",
+          "quote_source": "label",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 15,
+      "kind": "label",
+      "cited_as": "U.S. Food and Drug Administration prescribing information. WELLBUTRIN XL (bupropion hydrochloride) extended-release tablets. Bausch Health US LLC. DailyMed, revised 11/2025. Accessed November 7, 2026.",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a435da9d-f6e8-4ddc-897d-8cd2bf777b21",
+      "version_or_date": "WELLBUTRIN XL, Bausch Health; Revised 11/2025 (SPL version 27)",
+      "retrieved_with": "Monid firecrawl /scrape JSON extraction (LLM-assisted verbatim copy) of DailyMed label page",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "Smoking cessation is not a Wellbutrin XL indication (it is a separate product); removed. \"Lower sexual side effects\" and \"added to SSRIs\" were unsourced and removed.",
+      "claims": [
+        {
+          "text": "aminoketone antidepressant; MDD and prevention of seasonal affective disorder",
+          "quote": "Wellbutrin XL is an aminoketone antidepressant, indicated for: treatment of major depressive disorder (MDD); prevention of seasonal affective disorder (SAD).",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "common adverse reactions",
+          "quote": "dry mouth, nausea, insomnia, dizziness, pharyngitis, abdominal pain, agitation, anxiety, tremor, palpitation, sweating, tinnitus, myalgia, anorexia, urinary frequency, rash.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "seizure risk is dose-related",
+          "quote": "The risk of seizure is dose-related.",
+          "quote_source": "label",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 16,
+      "kind": "label",
+      "cited_as": "U.S. Food and Drug Administration prescribing information. PAXIL (paroxetine hydrochloride) tablets. Apotex Corp. DailyMed, revised 09/2026. Accessed November 7, 2026.",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ef3b5cbe-f9e1-c1ac-79da-cfe14e3a7e7e",
+      "version_or_date": "PAXIL, Apotex; Revised 09/2026 (SPL version 13)",
+      "retrieved_with": "Monid firecrawl /scrape JSON extraction (LLM-assisted verbatim copy) of DailyMed label page",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "gradually reduce dose rather than stopping abruptly",
+          "quote": "When discontinuing PAXIL, gradually reduce the dosage rather than stopping PAXIL abruptly whenever possible.",
+          "quote_source": "label",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 17,
+      "kind": "label",
+      "cited_as": "U.S. Food and Drug Administration prescribing information. SPRAVATO (esketamine) nasal spray. Janssen Pharmaceuticals, Inc. DailyMed, revised 09/2026. Accessed November 7, 2026.",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d81a6a79-a74a-44b7-822c-0dfa3036eaed",
+      "version_or_date": "SPRAVATO, Janssen; Revised 09/2026 (SPL version 21)",
+      "retrieved_with": "Monid firecrawl /scrape JSON extraction (LLM-assisted verbatim copy) of DailyMed label page",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "\"FDA approval for monotherapy in 2025\" year not confirmed in retrieved text; year removed. The label confirms monotherapy use. TRD definition removed (not retrieved).",
+      "claims": [
+        {
+          "text": "esketamine for TRD in adults, monotherapy or with oral antidepressant",
+          "quote": "Treatment-resistant depression (TRD) in adults, as monotherapy or in conjunction with an oral antidepressant.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "restricted program, supervised administration",
+          "quote": "SPRAVATO is only available through a restricted program called the SPRAVATO REMS, administered under the supervision of a healthcare provider.",
+          "quote_source": "label",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 18,
+      "kind": "label",
+      "cited_as": "U.S. Food and Drug Administration prescribing information. ABILIFY (aripiprazole) tablets. Otsuka America Pharmaceutical, Inc. DailyMed, revised 1/2025. Accessed November 7, 2026.",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=c040bd1d-45b7-49f2-93ea-aed7220b30ac",
+      "version_or_date": "ABILIFY tablets, Otsuka; Revised 1/2025 (SPL version 73)",
+      "retrieved_with": "Monid firecrawl /scrape JSON extraction (LLM-assisted verbatim copy) of DailyMed label page",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "Brexpiprazole and quetiapine were not retrieved this run and were removed from the sentence.",
+      "claims": [
+        {
+          "text": "aripiprazole labeled as adjunctive treatment of MDD",
+          "quote": "Adjunctive Treatment of Major Depressive Disorder",
+          "quote_source": "label",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 19,
+      "kind": "label",
+      "cited_as": "U.S. Food and Drug Administration prescribing information. XANAX (alprazolam) tablets. Viatris Specialty LLC. DailyMed, revised 4/2024. Accessed November 7, 2026.",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=bb5cf72e-3a41-41a8-9a38-80f974eca33f",
+      "version_or_date": "XANAX, Viatris; Revised 4/2024 (SPL version 5)",
+      "retrieved_with": "Monid firecrawl /scrape JSON extraction (LLM-assisted verbatim copy) of DailyMed label page",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "boxed warning: abuse, misuse, addiction, dependence and withdrawal",
+          "quote": "WARNING: RISKS FROM CONCOMITANT USE WITH OPIOIDS; ABUSE, MISUSE, AND ADDICTION; and DEPENDENCE AND WITHDRAWAL REACTIONS",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "avoid alcohol and other CNS depressants",
+          "quote": "as well as avoiding concomitant use of alcohol and other central nervous system (CNS) depressant drugs.",
+          "quote_source": "label",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 20,
+      "kind": "journal",
+      "cited_as": "Guidi J, Tomba E, Fava GA. The Sequential Integration of Pharmacotherapy and Psychotherapy in the Treatment of Major Depressive Disorder: A Meta-Analysis of the Sequential Model and a Critical Review of the Literature. Am J Psychiatry. 2016;173(2):128-137. doi:10.1176/appi.ajp.2015.15040476.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26481173/",
+      "pmid": "26481173",
+      "doi": "10.1176/appi.ajp.2015.15040476",
+      "record_title": "The Sequential Integration of Pharmacotherapy and Psychotherapy in the Treatment of Major Depressive Disorder: A Meta-Analysis of the Sequential Model and a Critical Review of the Literature.",
+      "record_journal": "Am J Psychiatry",
+      "record_year": "2016",
+      "article_type": "Journal Article; Meta-Analysis; Review",
+      "version_or_date": "2016;173(2):128-37 (epub 2015-10-20)",
+      "retrieved_with": "PubMed get_article_metadata",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "Primary source for the \"13 studies\" meta-analysis previously misattributed to the APA guideline. The old \"22% / 33% absolute risk reduction\" was wrong: the paper reports risk ratios 0.781 and 0.674 (relative). No PMC full text; abstract only. scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article_types checked: no Retracted Publication or Retraction Notice.",
+      "claims": [
+        {
+          "text": "13 trials, all CBT; CBT after acute antidepressant response lowered relapse/recurrence, RR 0.78, NNT 8",
+          "quote": "Thirteen high-quality studies ... All studies involved cognitive-behavioral therapy (CBT). The pooled risk ratio for relapse/recurrence was 0.781 (95% confidence interval [CI]=0.671-0.909; number needed to treat=8)",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "after antidepressants tapered and stopped, CBT group less likely to relapse, RR 0.67, NNT 5",
+          "quote": "Patients randomly assigned to CBT who had antidepressants tapered and discontinued were significantly less likely to experience relapse/recurrence ... (risk ratio: 0.674; 95% CI=0.482-0.943; number needed to treat=5).",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 21,
+      "kind": "journal",
+      "cited_as": "Wiles NJ, Thomas L, Turner N, et al. Long-term effectiveness and cost-effectiveness of cognitive behavioural therapy as an adjunct to pharmacotherapy for treatment-resistant depression in primary care: follow-up of the CoBalT randomised controlled trial. Lancet Psychiatry. 2016;3(2):137-144. doi:10.1016/S2215-0366(15)00495-2.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26777773/",
+      "pmid": "26777773",
+      "doi": "10.1016/S2215-0366(15)00495-2",
+      "record_title": "Long-term effectiveness and cost-effectiveness of cognitive behavioural therapy as an adjunct to pharmacotherapy for treatment-resistant depression in primary care: follow-up of the CoBalT randomised controlled trial.",
+      "record_journal": "Lancet Psychiatry",
+      "record_year": "2016",
+      "article_type": "Journal Article; Randomized Controlled Trial",
+      "version_or_date": "2016;3(2):137-44",
+      "retrieved_with": "PubMed get_article_metadata",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "The old \"43% vs 27% achieved 50% reduction\" figures are not in the abstract (no PMC full text) and were cut; claim limited to abstract. scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article_types checked: no Retracted Publication or Retraction Notice.",
+      "claims": [
+        {
+          "text": "CBT plus usual care in treatment-resistant depression: lower depression scores at median 45.5 months, about 40 months after therapy ended",
+          "quote": "At follow-up (median 45·5 months ...), the intervention group had a mean BDI-II score of 19·2 ... compared with ... 23·4 ... Follow-up was, on average, 40 months after therapy ended.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 22,
+      "kind": "journal",
+      "cited_as": "Horowitz MA, Taylor D. Tapering of SSRI treatment to mitigate withdrawal symptoms. Lancet Psychiatry. 2019;6(6):538-546. doi:10.1016/S2215-0366(19)30032-X.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30850328/",
+      "pmid": "30850328",
+      "doi": "10.1016/S2215-0366(19)30032-X",
+      "record_title": "Tapering of SSRI treatment to mitigate withdrawal symptoms.",
+      "record_journal": "Lancet Psychiatry",
+      "record_year": "2019",
+      "article_type": "Journal Article; Review",
+      "version_or_date": "2019;6(6):538-546",
+      "retrieved_with": "PubMed get_article_metadata",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "Added for the hyperbolic tapering claim (previously uncited). Abstract only. scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article_types checked: no Retracted Publication or Retraction Notice.",
+      "claims": [
+        {
+          "text": "review of PET serotonin transporter data argued SSRIs be tapered hyperbolically and slowly to doses far below therapeutic minimums",
+          "quote": "We examined the PET imaging data of serotonin transporter occupancy by SSRIs ... We therefore suggest that SSRIs should be tapered hyperbolically and slowly to doses much lower than those of therapeutic minimums",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "withdrawal can be mistaken for relapse",
+          "quote": "it might also be mistaken for recurrence, leading to long-term unnecessary medication.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 23,
+      "kind": "agency_page",
+      "cited_as": "National Center for Complementary and Integrative Health (NCCIH). St. John’s Wort. Last updated May 2025. Accessed November 7, 2026.",
+      "url": "https://www.nccih.nih.gov/health/st-johns-wort",
+      "version_or_date": "Last Updated: May 2025",
+      "retrieved_with": "Monid firecrawl /scrape (markdown) of official page",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "Replaces Mayo for St. John's wort interaction and regulation claims. \"Potency varies between products\" and \"immunosuppressants\" generalization were not on the page and were cut or narrowed (cyclosporine).",
+      "claims": [
+        {
+          "text": "St. John's wort may help mild or moderate depression",
+          "quote": "their results indicate that it may be helpful for mild or moderate depression.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "weakens birth control pills, cyclosporine, warfarin, some antidepressants",
+          "quote": "St. John's wort can weaken the effects of many medicines ... Some antidepressants, including amitriptyline and bupropion ... Birth control pills ... Cyclosporine ... Warfarin, an anticoagulant (blood thinner)",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "with antidepressants or serotonergic drugs may cause serious serotonin-related side effects",
+          "quote": "taking St. John's wort with certain antidepressants or other drugs that affect serotonin ... may lead to increased serotonin-related side effects, which can be serious.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "supplements not FDA-approved before sale",
+          "quote": "Unlike drugs, dietary supplements are not approved by the U.S. Food and Drug Administration (FDA) before they are sold to the public.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 24,
+      "kind": "agency_page",
+      "cited_as": "NHS. How and when to take sertraline. Page last reviewed 8 September 2025. Accessed November 7, 2026.",
+      "url": "https://www.nhs.uk/medicines/sertraline/how-and-when-to-take-sertraline/",
+      "version_or_date": "Page last reviewed 8 September 2025; next review due 8 September 2028",
+      "retrieved_with": "WebFetch of official page",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "Missed-dose FAQ previously gave generic \"take as soon as you remember\" advice; NHS sertraline advice is to skip the missed dose, so the FAQ now says advice differs by medicine and gives the sertraline example.",
+      "claims": [
+        {
+          "text": "sertraline missed dose: skip it, take next dose next day; do not double",
+          "quote": "If you forget to take sertraline, skip the missed dose and take your next dose the next day as usual. Do not take 2 doses to make up for a missed dose.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "side effects usually ease after a couple of weeks",
+          "quote": "after a couple of weeks as your body gets used to the medicine.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 25,
+      "kind": "agency_page",
+      "cited_as": "U.S. Department of Veterans Affairs. Veterans Crisis Line. Accessed November 7, 2026.",
+      "url": "https://www.veteranscrisisline.net/",
+      "version_or_date": "home page read 2026-11-07",
+      "retrieved_with": "Monid firecrawl /scrape (markdown) of official page",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "claims": [
+        {
+          "text": "Veterans Crisis Line: dial 988 then press 1, or text 838255",
+          "quote": "Dial 988 then Press 1, chat live, or text 838255.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 26,
+      "kind": "other_web",
+      "cited_as": "Crisis Text Line. 24/7 Free Confidential Mental Health Support. Accessed November 7, 2026.",
+      "url": "https://www.crisistextline.org/",
+      "version_or_date": "home page read 2026-11-07 (modified 2026-10-09)",
+      "retrieved_with": "Monid firecrawl /scrape (markdown) of official page",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "Keyword corrected from HELLO to HOME, per the official page.",
+      "claims": [
+        {
+          "text": "Crisis Text Line: text HOME to 741741",
+          "quote": "Text HOME to 741741 from anywhere in the United States – 24/7, free, confidential.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    }
+  ]
+}
