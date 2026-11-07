@@ -441,7 +441,7 @@ export default function StatesWeServeClient({
           <div className="sws-directory-grid">
             {directoryStates.map(s => (
               <div key={s.slug} className="sws-dir-card">
-                <h4>{s.name}</h4>
+                <h4><a href={`/${s.slug}/`} style={{ color: 'inherit', textDecoration: 'none' }}>{s.name}</a></h4>
                 <div className="sws-dir-card-conditions">
                   {['UTI (women only)', 'Sinus Infection', 'Influenza', 'Pink Eye', 'BV'].map(c => <span key={c} className="sws-dir-tag">{c}</span>)}
                 </div>

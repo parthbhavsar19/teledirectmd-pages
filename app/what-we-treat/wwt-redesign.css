@@ -88,7 +88,7 @@
   line-height:1.15; letter-spacing:-.02em; margin:0; color:#fff;
 }
 .wwt-numbers-grid {
-  display:grid; grid-template-columns:1fr 1fr 1.4fr; gap:24px; align-items:stretch;
+  display:grid; grid-template-columns:1fr 1.4fr; gap:24px; align-items:stretch;
 }
 .wwt-stat {
   position:relative; border:1px solid rgba(255,255,255,.12); border-radius:18px;
