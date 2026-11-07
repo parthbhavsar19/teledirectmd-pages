@@ -1,0 +1,618 @@
+{
+ "guide": "cold-sore-stages-guide",
+ "checked_at": "2026-11-07",
+ "checked_by": "Claude (repair run)",
+ "scite_verify_papers": "unavailable (quota exhausted until 2026-11-14); retraction status from PubMed article types",
+ "references": [
+  {
+   "n": 1,
+   "kind": "agency_page",
+   "cited_as": "National Health Service (UK). Cold sores. NHS website. Page last reviewed February 19, 2024. Accessed November 7, 2026. nhs.uk cold sores",
+   "url": "https://www.nhs.uk/conditions/cold-sores/",
+   "version_or_date": "Page last reviewed 19 February 2024; next review due 19 February 2027; read 2026-11-07",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "New source (UK national health service). Supports the stage sequence, timing, contagious period, hand hygiene, newborn and oral-sex advice, pain relief, and when to see a doctor. It does not mention sharing cups or towels (that is cited to AAD).",
+   "claims": [
+    {
+     "text": "Starts with tingling, itching, or burning",
+     "quote": "A cold sore usually starts with a tingling, itching or burning feeling.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Blisters appear over the next 48 hours",
+     "quote": "Over the next 48 hours one or more painful blisters will appear on your face.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Blisters burst and crust over into a scab",
+     "quote": "The blisters burst and crust over into a scab.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Should start to heal within 10 days; contagious while healing",
+     "quote": "Cold sores should start to heal within 10 days, but are contagious and may be irritating or painful while they heal.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Contagious from the first tingle until completely healed",
+     "quote": "Cold sores are contagious from the moment you first feel tingling or other signs of a cold sore coming on ... when the cold sore has completely healed.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Do not kiss; no oral sex until healed; do not kiss babies (neonatal herpes)",
+     "quote": "do not kiss anyone while you have a cold sore ... do not have oral sex until your cold sore completely heals ... Kissing a baby if you have a cold sore can lead to neonatal herpes",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Do not touch except to apply cream; wash hands; dab, do not rub",
+     "quote": "do not touch your cold sore (apart from applying antiviral cream) ... wash your hands before and after ... do not rub cream into the cold sore",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Antiviral creams: start at the tingle; may not work after blisters appear",
+     "quote": "use antiviral creams as soon as you recognise the early tingling feeling. ... They do not always work after blisters appear.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Pain relief, fluids, avoid acidic or salty food, avoid triggers such as sunbeds",
+     "quote": "take paracetamol or ibuprofen to ease pain and swelling ... drink plenty of fluids ... do not eat acidic or salty food if it makes your cold sore feel worse ... sunbeds",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "See a GP: not healing in 10 days, very large or painful, weakened immune system",
+     "quote": "a cold sore has not started to heal within 10 days ... the cold sore is very large or painful ... you have a weakened immune system",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "The virus stays for life",
+     "quote": "Once you have the virus, it stays in your skin for the rest of your life.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "kind": "agency_page",
+   "cited_as": "American Academy of Dermatology. Cold sores: diagnosis and treatment. AAD public education. Last updated February 1, 2024. Accessed November 7, 2026. aad.org cold sores treatment",
+   "url": "https://www.aad.org/public/diseases/a-z/cold-sores-treatment",
+   "version_or_date": "Last updated 2/1/24; read 2026-11-07",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "New source (American Academy of Dermatology public education).",
+   "claims": [
+    {
+     "text": "Many cold sores go away without treatment in 7 to 14 days",
+     "quote": "For many people, a cold sore goes away without treatment in 7 to14 days.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Sun protection helps healing and prevents new blisters; SPF 30 or higher lip balm",
+     "quote": "Protecting your lips from the sun can help heal and prevent new blisters. ... Wearing lip balm year-round that has SPF 30 or higher and broad-spectrum protection may help prevent new cold sores.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Throw away lip balm and lipstick used during the sore",
+     "quote": "After your cold sore clears, throw away products like lip balm and lipstick that you used while you had a cold sore.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "See a dermatologist: eczema, near an eye, several sores or lots of pain, longer than 2 weeks, 6 or more a year, weakened immune system",
+     "quote": "Have atopic dermatitis ... Develop a cold sore near an eye, several cold sores, or lots of pain ... lasts longer than 2 weeks ... Get cold sores 6 or more times per year",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Weakened immune system examples: transplant medicines, cancer or HIV, chemotherapy",
+     "quote": "Take medication that weakens your immune system, like medication prescribed after an organ transplant ... like cancer or HIV ... like chemotherapy",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "kind": "label",
+   "cited_as": "GlaxoSmithKline LLC. VALTREX (valacyclovir hydrochloride) tablets, film coated: prescribing information. DailyMed, U.S. National Library of Medicine. Revised November 2025. Accessed November 7, 2026. DailyMed Valtrex label",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f8e0d8f8-cb73-4206-a484-88f5c4fbd719",
+   "version_or_date": "GlaxoSmithKline LLC label, Revised 11/2025 (DailyMed setid f8e0d8f8-cb73-4206-a484-88f5c4fbd719); read 2026-11-07",
+   "retrieved_with": "WebFetch of DailyMed label page",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "New source: the current FDA label states the timing rule the guide now follows. Sections 1.1/1.2 (indication limits), 2 (dosage) and 14.1 (cold sore trials).",
+   "claims": [
+    {
+     "text": "Start at the earliest symptom, such as tingling, itching, or burning",
+     "quote": "Therapy should be initiated at the earliest symptom of a cold sore (e.g., tingling, itching, or burning).",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Efficacy when started after a bump, blister, or ulcer has developed has not been established",
+     "quote": "The efficacy of VALTREX initiated after the development of clinical signs of a cold sore (e.g., papule, vesicle, or ulcer) has not been established.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Cold sore dose: 2 grams twice daily for 1 day, 12 hours apart",
+     "quote": "The recommended dosage of VALTREX for treatment of cold sores is 2 grams twice daily for 1 day taken 12 hours apart.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "2-day regimen offered no additional benefit",
+     "quote": "The 2-day regimen did not offer additional benefit over the 1-day regimen.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Most trial participants started within 2 hours of symptom onset, before any sign of a sore",
+     "quote": "Subjects self-initiated therapy at the earliest symptoms and prior to any signs of a cold sore. The majority of subjects initiated treatment within 2 hours of onset of symptoms.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "No significant difference from placebo in preventing progression beyond the papule stage",
+     "quote": "No significant difference was observed between subjects receiving VALTREX or placebo in the prevention of progression of cold sore lesions beyond the papular stage.",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "kind": "agency_page",
+   "cited_as": "American Academy of Dermatology. Cold sore remedies dermatologists recommend. AAD public education. Last updated February 1, 2024. Accessed November 7, 2026. aad.org cold sore self-care",
+   "url": "https://www.aad.org/public/diseases/a-z/cold-sores-self-care",
+   "version_or_date": "Last updated 2/1/24; read 2026-11-07",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "New source. The page does not mention picking, popping, cool compresses or scabs; those claims are not cited to it.",
+   "claims": [
+    {
+     "text": "The blister and its fluid are contagious",
+     "quote": "The blister and fluid are contagious.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Avoid kissing; do not share silverware, cups, towels, makeup",
+     "quote": "Avoid kissing and other activities that could cause you to touch the person’s cold sore. ... Do not share items that could have touched that person’s cold sore like silverware, dishes, cups, towels, washcloths, makeup, and food.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Pressure on lips can trigger; tell the person doing a lip filler, laser, or dental procedure",
+     "quote": "Pressure on your lips or around your mouth may trigger a cold sore. ... like laser or light therapy, a lip filler, or dental work, tell the person who will be performing the procedure.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "SPF 30 broad-spectrum lip balm outdoors",
+     "quote": "Apply lip balm with SPF 30 and broad-spectrum protection before you go outside.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "kind": "journal",
+   "cited_as": "Spruance SL, Jones TM, Blatter MM, Vargas-Cortes M, Barber J, Hill J, et al. High-dose, short-duration, early valacyclovir therapy for episodic treatment of cold sores: results of two randomized, placebo-controlled, multicenter studies. Antimicrobial Agents and Chemotherapy. 2003;47(3):1072-1080. doi:10.1128/AAC.47.3.1072-1080.2003",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/12604544/",
+   "pmid": "12604544",
+   "pmcid": "PMC149313",
+   "doi": "10.1128/AAC.47.3.1072-1080.2003",
+   "record_title": "High-dose, short-duration, early valacyclovir therapy for episodic treatment of cold sores: results of two randomized, placebo-controlled, multicenter studies.",
+   "record_journal": "Antimicrob Agents Chemother",
+   "record_year": "2003",
+   "article_type": "Clinical Trial; Journal Article; Multicenter Study; Randomized Controlled Trial",
+   "retrieved_with": "PubMed get_article_metadata (abstract); get_full_text_article returned abstract only; PMC web page returned a bot check (not worked around)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "scite_unavailable (quota exhausted until 2026-11-14); PubMed article types checked this run: no Retracted Publication or Retraction Notice. Abstract only. Both trials started treatment at the first symptoms, so they are no longer cited for any benefit (smaller or otherwise) from starting after blisters form, or for faster viral replication on day one.",
+   "claims": [
+    {
+     "text": "Participants were given the medicine and told to start at the first symptoms; regimens tested",
+     "quote": "2 g of valacyclovir twice daily for 1 day and then 1 g of valacyclovir twice daily for 1 day (2-day treatment), or a matching placebo and instructed to initiate treatment upon the first symptoms of a cold sore.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Study 1: median episode 1.0 day shorter (1-day course) and 0.5 days shorter (2-day course) than placebo",
+     "quote": "In study 1, the median duration of the episode (primary endpoint) was reduced by 1.0 day (P = 0.001) with 1-day treatment and 0.5 days (P = 0.009) with 2-day treatment compared to placebo.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Shortened time to healing and end of pain; similar results in the second study",
+     "quote": "The time to lesion healing and time to cessation of pain and/or discomfort were statistically significantly reduced with valacyclovir compared to placebo. In study 2, results similar to those in study 1 were obtained.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "The trials did not test starting after blisters formed (all started at first symptoms)",
+     "quote": "instructed to initiate treatment upon the first symptoms of a cold sore.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "kind": "other_web",
+   "cited_as": "Porter D; reviewed by Chaudhary OR. Herpes eye infections: what is herpes keratitis? American Academy of Ophthalmology EyeSmart. Published August 13, 2026. Accessed November 7, 2026. aao.org herpes keratitis",
+   "url": "https://www.aao.org/eye-health/diseases/herpes-keratitis",
+   "version_or_date": "American Academy of Ophthalmology EyeSmart, published Aug 13, 2026; read 2026-11-07",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "New source for eye red flags (formerly cited to Opstelten and Woo abstracts, which do not mention the eye). \"Prompt assessment\" is partly supported: the page says to see an ophthalmologist immediately in the context of returning symptoms.",
+   "claims": [
+    {
+     "text": "Eye symptoms: pain, redness, blurred vision, tearing, light sensitivity",
+     "quote": "pain ... redness ... blurred vision ... tearing ... sensitivity to light",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Eye infection can scar the cornea and cause vision loss",
+     "quote": "the infection may lead to scarring of the cornea, loss of vision, and sometimes even blindness.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Eye symptoms need prompt assessment by an eye doctor",
+     "quote": "See an ophthalmologist immediately if symptoms of ocular herpes return.",
+     "quote_source": "official_page",
+     "verdict": "partly_supported"
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "kind": "agency_page",
+   "cited_as": "American Academy of Dermatology. Cold sores: should I keep a child with eczema away? AAD public education. No date shown. Accessed November 7, 2026. aad.org eczema and cold sores",
+   "url": "https://www.aad.org/public/diseases/eczema/childhood/health-concerns/cold-sores",
+   "version_or_date": "No date shown on page (copyright 2026); read 2026-11-07",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "New source replacing Tovaru 2011 (intraoral HSV study that does not address eczema herpeticum).",
+   "claims": [
+    {
+     "text": "Eczema herpeticum is rare and can be life threatening",
+     "quote": "For anyone who has eczema, the virus that causes cold sores can lead to a rare infection that can be life threatening.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Signs: itchy, watery blisters; rash spreading quickly; fever",
+     "quote": "Rash with itchy, watery blisters ... Rash may spread quickly ... Flu-like symptoms, including a fever, fatigue, and swollen lymph nodes",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Needs immediate medical care",
+     "quote": "Anyone who might have eczema herpeticum needs immediate medical care.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "kind": "agency_page",
+   "cited_as": "MedlinePlus Medical Encyclopedia. Herpes - oral. U.S. National Library of Medicine. Review date July 3, 2025. Accessed November 7, 2026. medlineplus.gov oral herpes",
+   "url": "https://medlineplus.gov/ency/article/000606.htm",
+   "version_or_date": "MedlinePlus Medical Encyclopedia, review date 7/3/2025 (Linda J. Vorvick, MD); read 2026-11-07",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "New source (U.S. National Library of Medicine). Supports blister appearance, breaking and leaking, crusting to pink skin, reactivation, milder recurrences, bacterial skin infection as a complication, and when to contact a provider. It does not state how often lip cold sores scar.",
+   "claims": [
+    {
+     "text": "Tingling near the lips",
+     "quote": "Tingling near the lips or mouth area",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Small blisters with clear yellowish fluid; blisters break open and leak",
+     "quote": "Small blisters filled with clear yellowish fluid ... Red blisters that break open and leak",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Yellow, crusty blister as it heals, then pink skin",
+     "quote": "Yellow and crusty blister as it heals, which eventually turns into pink skin",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Virus reactivates causing cold sores; recurrences usually milder",
+     "quote": "Sometimes, the virus later reactivates, causing cold sores. ... If the symptoms return later, they are usually milder.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Spreads most easily from an active outbreak or sore",
+     "quote": "Herpes viruses spread most easily from individuals with an active outbreak or sore.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Bacterial skin infection is a possible complication; contact a provider if severe or not gone after 2 weeks",
+     "quote": "Bacterial skin infection ... Symptoms that are severe or that don't go away after 2 weeks",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Weakened immune system makes herpes potentially severe",
+     "quote": "Herpes infection may be severe and dangerous if: ... you have a weakened immune system due to certain diseases or medicines.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "kind": "agency_page",
+   "cited_as": "World Health Organization. Herpes simplex virus (fact sheet). WHO. 30 May 2025. Accessed November 7, 2026. who.int herpes fact sheet",
+   "url": "https://www.who.int/news-room/fact-sheets/detail/herpes-simplex-virus",
+   "version_or_date": "Fact sheet dated 30 May 2025; read 2026-11-07",
+   "retrieved_with": "WebFetch of official page",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "No longer cited for \"most people caught the virus from someone without an outbreak\" (no such figure on the page; it says the greatest risk is with active sores).",
+   "claims": [
+    {
+     "text": "HSV lives in nerve cells and alternates between inactive and active phases",
+     "quote": "Herpes simplex virus lives inside of nerve cells and alternates between being inactive and active.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "HSV-1 can spread from normal-looking skin; greatest risk when active sores are present",
+     "quote": "It can be transmitted from oral or skin surfaces that appear normal ... the greatest risk of transmission is when there are active sores.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Immunocompromised people can have more severe herpes symptoms",
+     "quote": "In immunocompromised people, including those with advanced HIV infection, herpes can have more severe symptoms",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Avoid oral sex and sharing items that touched saliva while symptomatic",
+     "quote": "People with symptoms of oral herpes should avoid oral contact with others (including oral sex) ... don’t share items that touched saliva (oral herpes).",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "kind": "journal",
+   "cited_as": "Leung AKC, Barankin B. Herpes labialis: an update. Recent Patents on Inflammation &amp; Allergy Drug Discovery. 2017;11(2):107-113. doi:10.2174/1872213X11666171003151717",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/28971780/",
+   "pmid": "28971780",
+   "doi": "10.2174/1872213X11666171003151717",
+   "record_title": "Herpes Labialis: An Update.",
+   "record_journal": "Recent Pat Inflamm Allergy Drug Discov",
+   "record_year": "2017",
+   "article_type": "Journal Article; Review",
+   "retrieved_with": "PubMed get_article_metadata (abstract)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "scite_unavailable (quota exhausted until 2026-11-14); PubMed article types checked this run: no Retracted Publication or Retraction Notice. Abstract only. The 12 to 48 hour blister timing, cloudy fluid, peak contagiousness and scarring claims were removed (not in the abstract).",
+   "claims": [
+    {
+     "text": "Blisters form a group on or around the lip",
+     "quote": "Herpes labialis is characterized by recurrent vesicular eruptions primarily on the lips and perioral skin. ... classic grouped lesions (papules, vesicles, ulcers) on the lip.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Start promptly, ideally in the prodrome and no later than 48 hours from lesion onset (review advice)",
+     "quote": "Such treatment needs to be initiated promptly, ideally in the prodromal stage and no later than 48 hours from the onset of lesions to achieve optimal results.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Oral antivirals superior to topical antivirals for episodic treatment",
+     "quote": "For episodic treatment, oral antiviral agents, such as acyclovir (Zovirax), valacyclovir (Valtrex) and famciclovir (Famvir), are superior to topical antiviral therapy.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Six or more episodes a year as a threshold for considering suppression",
+     "quote": "Chronic suppressive therapy with oral antiviral agents should be considered for patients with severe or frequent (six or more episodes per year) recurrences.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "kind": "journal",
+   "cited_as": "Vaghela D, Davies E, Murray G, Convery C, Walker L. Guideline for the management herpes simplex 1 and cosmetic interventions. Journal of Clinical and Aesthetic Dermatology. 2021;14(6 Suppl 1):S11-S14. PMID 34976293",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34976293/",
+   "pmid": "34976293",
+   "pmcid": "PMC8565875",
+   "record_title": "Guideline for the Management Herpes Simplex 1 and Cosmetic Interventions.",
+   "record_journal": "J Clin Aesthet Dermatol",
+   "record_year": "2021",
+   "article_type": "Journal Article (guideline from the Complications in Medical Aesthetics Collaborative)",
+   "retrieved_with": "PubMed get_article_metadata (abstract)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "scite_unavailable (quota exhausted until 2026-11-14); PubMed article types checked this run: no Retracted Publication or Retraction Notice. Abstract only. Issue corrected to 14(6 Suppl 1) per PubMed; link changed from the PMC page to the PubMed record (PMC pages returned a bot check this run). PubMed record has no DOI.",
+   "claims": [
+    {
+     "text": "Lip trauma can trigger reactivation; guidance for cosmetic clinicians includes prophylaxis planning",
+     "quote": "The risk of reactivation due to trauma is acknowledged in the literature. ... provide management plans for prophylaxis to minimize adverse sequalae.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "kind": "journal",
+   "cited_as": "Mancini A, Inchingolo AM, Marinelli G, Trilli I, Sardano R, Pezzolla C, et al. Topical and systemic therapeutic approaches in the treatment of oral herpes simplex virus infection: a systematic review. International Journal of Molecular Sciences. 2025;26(17):8490. doi:10.3390/ijms26178490",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40943411/",
+   "pmid": "40943411",
+   "pmcid": "PMC12428954",
+   "doi": "10.3390/ijms26178490",
+   "record_title": "Topical and Systemic Therapeutic Approaches in the Treatment of Oral Herpes Simplex Virus Infection: A Systematic Review.",
+   "record_journal": "Int J Mol Sci",
+   "record_year": "2025",
+   "article_type": "Journal Article; Systematic Review",
+   "retrieved_with": "PubMed get_article_metadata (abstract)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "scite_unavailable (quota exhausted until 2026-11-14); PubMed article types checked this run: no Retracted Publication or Retraction Notice. Abstract only. The claim that creams are hard to keep on a weeping ulcer was removed (not in the abstract).",
+   "claims": [
+    {
+     "text": "Topical treatments mainly shorten lesions and ease symptoms when applied early; oral antivirals target healing and recurrence prevention",
+     "quote": "Topical treatments, including acyclovir cream, docosanol, and newer formulations, primarily reduce lesion duration and alleviate local symptoms when applied early. ... Systemic antivirals, such as acyclovir, valacyclovir, and famciclovir, target both lesion resolution and recurrence prevention.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "kind": "journal",
+   "cited_as": "Chi CC, Wang SH, Delamere FM, Wojnarowska F, Peters MC, Kanjirath PP. Interventions for prevention of herpes simplex labialis (cold sores on the lips). Cochrane Database of Systematic Reviews. 2015;(8):CD010095. doi:10.1002/14651858.CD010095.pub2",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/26252373/",
+   "pmid": "26252373",
+   "pmcid": "PMC6461191",
+   "doi": "10.1002/14651858.CD010095.pub2",
+   "record_title": "Interventions for prevention of herpes simplex labialis (cold sores on the lips).",
+   "record_journal": "Cochrane Database Syst Rev",
+   "record_year": "2015",
+   "article_type": "Journal Article; Meta-Analysis; Systematic Review",
+   "retrieved_with": "PubMed get_article_metadata (abstract)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "scite_unavailable (quota exhausted until 2026-11-14); PubMed article types checked this run: no Retracted Publication or Retraction Notice. Abstract only. No longer cited for sun protection (the review found sunscreen did not prevent sunlight-induced recurrences in one natural-setting trial) or for a four-per-year threshold (not in the abstract).",
+   "claims": [
+    {
+     "text": "Long-term oral antivirals reduce recurrences but the clinical benefit is small",
+     "quote": "The current evidence demonstrates that long-term use of oral antiviral agents can prevent HSL, but the clinical benefit is small.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "kind": "journal",
+   "cited_as": "Woo SB, Challacombe SJ. Management of recurrent oral herpes simplex infections. Oral Surgery, Oral Medicine, Oral Pathology, Oral Radiology, and Endodontics. 2007;103 Suppl:S12.e1-18. doi:10.1016/j.tripleo.2006.11.004",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/17379150/",
+   "pmid": "17379150",
+   "doi": "10.1016/j.tripleo.2006.11.004",
+   "record_title": "Management of recurrent oral herpes simplex infections.",
+   "record_journal": "Oral Surg Oral Med Oral Pathol Oral Radiol Endod",
+   "record_year": "2007",
+   "article_type": "Journal Article; Review",
+   "retrieved_with": "PubMed get_article_metadata (abstract)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "scite_unavailable (quota exhausted until 2026-11-14); PubMed article types checked this run: no Retracted Publication or Retraction Notice. Abstract only (no PMC full text). Journal name corrected to \"...Oral Radiology, and Endodontics\". All contagiousness, latency, superinfection and two-week claims formerly cited here were moved to sources that state them or cut.",
+   "claims": [
+    {
+     "text": "Long-term daily oral antivirals can prevent recurrences in immunocompetent people",
+     "quote": "RHL in the immunocompetent can be effectively prevented with (1) sunscreen alone (SPF 15 or above), (2) systemic ACV 400 mg 2 to 3 times a day, or (3) systemic valacyclovir 500 to 2000 mg twice a day.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "kind": "journal",
+   "cited_as": "Cernik C, Gallina K, Brodell RT. The treatment of herpes simplex infections: an evidence-based review. Archives of Internal Medicine. 2008;168(11):1137-1144. doi:10.1001/archinte.168.11.1137",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/18541820/",
+   "pmid": "18541820",
+   "doi": "10.1001/archinte.168.11.1137",
+   "record_title": "The treatment of herpes simplex infections: an evidence-based review.",
+   "record_journal": "Arch Intern Med",
+   "record_year": "2008",
+   "article_type": "Journal Article; Review",
+   "retrieved_with": "PubMed get_article_metadata (abstract)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "scite_unavailable (quota exhausted until 2026-11-14); PubMed article types checked this run: no Retracted Publication or Retraction Notice. Abstract only. Healing-duration (7 to 14 days) and blister-stage treatment claims removed from this source (not in the abstract).",
+   "claims": [
+    {
+     "text": "Clinician chooses episodic versus suppressive approach based on clinical picture and patient preference",
+     "quote": "The physician must first choose an approach to treatment (ie, intermittent episodic therapy, intermittent suppressive therapy, or chronic suppressive therapy) based on defined clinical characteristics and patient preference.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "kind": "journal",
+   "cited_as": "Opstelten W, Neven AK, Eekhof J. Treatment and prevention of herpes labialis. Canadian Family Physician. 2008;54(12):1683-1687. PMID 19074705",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/19074705/",
+   "pmid": "19074705",
+   "pmcid": "PMC2602638",
+   "record_title": "Treatment and prevention of herpes labialis.",
+   "record_journal": "Can Fam Physician",
+   "record_year": "2008",
+   "article_type": "Journal Article; Review",
+   "retrieved_with": "PubMed get_article_metadata (abstract); get_full_text_article returned abstract only",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "scite_unavailable (quota exhausted until 2026-11-14); PubMed article types checked this run: no Retracted Publication or Retraction Notice. Abstract only. No longer cited for the stage timeline, home care, picking, or contagiousness (not in the abstract). PubMed record has no DOI.",
+   "claims": [
+    {
+     "text": "Only prompt topical or oral therapy alleviates cold sore symptoms (review of randomized trials)",
+     "quote": "The evidence relating to treatment and prevention of herpes labialis is derived from randomized controlled trials (level I evidence). ... Only prompt topical or oral therapy will alleviate symptoms of herpes labialis.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  }
+ ],
+ "removed_references": [
+  {
+   "former_n": 8,
+   "source": "CDC. Herpes: STI treatment guidelines, 2021 (cdc.gov/std/treatment-guidelines/herpes.htm)",
+   "reason": "Re-read 2026-11-07 (WebFetch; last reviewed Sept 21, 2022): genital herpes guidance with no advice on cold sores, infants, immunocompromised contacts, kissing or eczema herpeticum. Claims moved to NHS, WHO, AAD and MedlinePlus."
+  },
+  {
+   "former_n": 9,
+   "source": "Sloan A, et al. Open Forum Infect Dis, PMID 41509676",
+   "reason": "Re-retrieved (PubMed metadata, abstract): a meta-analysis of trial endpoints; it does not support the claim it was cited for (benefit of starting treatment at the blister stage). Removed."
+  },
+  {
+   "former_n": 11,
+   "source": "Tovaru S, et al. Med Oral Patol Oral Cir Bucal 2011, PMID 20711124",
+   "reason": "Re-retrieved (PubMed abstract): recurrent intraoral HSV in immunocompetent adults; does not address eczema herpeticum. Replaced by AAD eczema page."
+  }
+ ]
+}
