@@ -1,0 +1,625 @@
+{
+  "guide": "cold-sore-vs-pimple-guide",
+  "checked_at": "2026-11-07",
+  "checked_by": "Claude (repair run)",
+  "scite_verify_papers": "unavailable (quota exhausted until 2026-11-14); retraction status from PubMed article types",
+  "references": [
+    {
+      "n": 1,
+      "kind": "journal",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/19074705/",
+      "pmid": "19074705",
+      "pmcid": "PMC2602638",
+      "cited_as": "Opstelten W, Neven AK, Eekhof J. Treatment and prevention of herpes labialis. Canadian Family Physician. 2008;54(12):1683-1687.",
+      "record_title": "Treatment and prevention of herpes labialis.",
+      "record_journal": "Can Fam Physician",
+      "record_year": "2008",
+      "article_type": "Journal Article; Review",
+      "retrieved_with": "PubMed get_article_metadata (abstract, article types); PubMed get_full_text_article returned empty full text; PMC web page showed a bot check and was not read",
+      "notes": "Abstract only. No DOI in the PubMed record. Previously cited for prodrome, pimple comparison, popping and stress claims it does not make; those citations were moved or the claims cut. scite_unavailable: Scite quota exhausted until 2026-11-14; PubMed article types checked, no Retracted Publication or Retraction Notice.",
+      "claims": [
+        {
+          "text": "Prompt treatment with a cream or with pills has a small favourable effect on how long symptoms last",
+          "quote": "Treatment with an indifferent cream (zinc oxide or zinc sulfate), an anesthetic cream, or an antiviral cream has a small favourable effect on the duration of symptoms, if applied promptly. This is also the case with oral antiviral medication.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ],
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": []
+    },
+    {
+      "n": 2,
+      "kind": "journal",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28971780/",
+      "pmid": "28971780",
+      "doi": "10.2174/1872213X11666171003151717",
+      "cited_as": "Leung AKC, Barankin B. Herpes labialis: an update. Recent Patents on Inflammation & Allergy Drug Discovery. 2017;11(2):107-113.",
+      "record_title": "Herpes Labialis: An Update.",
+      "record_journal": "Recent Pat Inflamm Allergy Drug Discov",
+      "record_year": "2017",
+      "article_type": "Journal Article; Review",
+      "retrieved_with": "PubMed get_article_metadata (abstract, article types)",
+      "notes": "Abstract only (no PMC record). scite_unavailable: Scite quota exhausted until 2026-11-14; PubMed article types checked, no Retracted Publication or Retraction Notice.",
+      "claims": [
+        {
+          "text": "A cold sore is contagious (key takeaway, comparison table)",
+          "quote": "The condition is contagious, can cause significant discomfort/pain, and can have an adverse effect on the quality of life.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Grouped blisters are the classic picture and the diagnosis is mainly made from this appearance",
+          "quote": "The diagnosis of herpes labialis is mainly clinical based on classic grouped lesions (papules, vesicles, ulcers) on the lip.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Oral acyclovir, valacyclovir and famciclovir work better than antiviral creams for an outbreak",
+          "quote": "For episodic treatment, oral antiviral agents, such as acyclovir (Zovirax), valacyclovir (Valtrex) and famciclovir (Famvir), are superior to topical antiviral therapy.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Start treatment promptly, ideally in the warning stage and no later than 48 hours after sores appear",
+          "quote": "Such treatment needs to be initiated promptly, ideally in the prodromal stage and no later than 48 hours from the onset of lesions to achieve optimal results.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ],
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": []
+    },
+    {
+      "n": 3,
+      "kind": "journal",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17379150/",
+      "pmid": "17379150",
+      "doi": "10.1016/j.tripleo.2006.11.004",
+      "cited_as": "Woo SB, Challacombe SJ. Management of recurrent oral herpes simplex infections. Oral Surg Oral Med Oral Pathol Oral Radiol Endod. 2007;103 Suppl:S12.e1-18.",
+      "record_title": "Management of recurrent oral herpes simplex infections.",
+      "record_journal": "Oral Surg Oral Med Oral Pathol Oral Radiol Endod",
+      "record_year": "2007",
+      "article_type": "Journal Article; Review",
+      "retrieved_with": "PubMed get_article_metadata (abstract, article types)",
+      "notes": "Abstract only. Now cited only for antiviral pills treating recurrent cold sores; no dose is stated on the page. scite_unavailable: Scite quota exhausted until 2026-11-14; PubMed article types checked, no Retracted Publication or Retraction Notice.",
+      "claims": [
+        {
+          "text": "Antiviral pills such as acyclovir or valacyclovir treat recurrent cold sores",
+          "quote": "Recurrent herpes labialis (RHL) and recurrent intraoral HSV infections can be effectively treated with systemic ACV 400 mg 3 times a day or systemic valacyclovir 500 to 1000 mg twice a day",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ],
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": []
+    },
+    {
+      "n": 4,
+      "kind": "journal",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18541820/",
+      "pmid": "18541820",
+      "doi": "10.1001/archinte.168.11.1137",
+      "cited_as": "Cernik C, Gallina K, Brodell RT. The treatment of herpes simplex infections: an evidence-based review. Archives of Internal Medicine. 2008;168(11):1137-1144.",
+      "record_title": "The treatment of herpes simplex infections: an evidence-based review.",
+      "record_journal": "Arch Intern Med",
+      "record_year": "2008",
+      "article_type": "Journal Article; Review",
+      "retrieved_with": "PubMed get_article_metadata (abstract, article types)",
+      "notes": "Abstract only; full text paywalled. Duration, oral-versus-topical and antibiotic claims moved off this source. scite_unavailable: Scite quota exhausted until 2026-11-14; PubMed article types checked, no Retracted Publication or Retraction Notice.",
+      "claims": [
+        {
+          "text": "The diagnosis of a cold sore is often straightforward",
+          "quote": "Whereas the diagnosis of this condition is often straightforward, choosing an appropriate drug (eg, acyclovir, valacyclovir hydrochloride, or famciclovir) and dosing regimen can be confusing",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ],
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": []
+    },
+    {
+      "n": 5,
+      "kind": "agency_page",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/herpes-simplex-virus",
+      "cited_as": "World Health Organization. Herpes simplex virus (fact sheet). 30 May 2025.",
+      "version_or_date": "30 May 2025",
+      "retrieved_with": "WebFetch of official page",
+      "notes": "WebFetch quotes are limited to about 125 characters, so two long sentences are quoted in part.",
+      "claims": [
+        {
+          "text": "Most people pick up HSV-1 in childhood",
+          "quote": "Most HSV-1 infections are acquired during childhood to cause oral herpes.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "The virus stays in nerve cells and can reactivate, so outbreaks come back",
+          "quote": "Herpes simplex virus lives inside of nerve cells and alternates between being inactive and active.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Cold sores come back (recurrence)",
+          "quote": "People can have repeated outbreaks over time ('recurrences').",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "HSV-1 spreads through contact with sores, saliva or skin around the mouth",
+          "quote": "HSV-1 is mainly transmitted via contact with the virus in sores, saliva or skin surfaces in or around the mouth.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Less commonly HSV-1 reaches the genitals through oral-genital contact or oral sex",
+          "quote": "Less commonly, HSV-1 can be transmitted to the genital area through oral-genital contact to cause genital herpes.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "HSV-1 can spread from skin around the mouth that looks normal",
+          "quote": "It can be transmitted from oral or skin surfaces that appear normal; however, the greatest risk of transmission is when there are active sores.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "People with oral herpes symptoms should avoid oral contact, including oral sex, and sharing objects that touched saliva",
+          "quote": "People with symptoms of oral herpes should avoid oral contact with others (including oral sex) and sharing objects that touched saliva.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "While a spot might be a cold sore, avoiding oral contact including kissing is a sensible precaution (applies WHO advice to an uncertain spot; kissing is a form of oral contact)",
+          "quote": "People with symptoms of oral herpes should avoid oral contact with others (including oral sex)",
+          "quote_source": "official_page",
+          "verdict": "partly_supported"
+        },
+        {
+          "text": "Herpes can cause more severe symptoms in people with weakened immune systems",
+          "quote": "In immunocompromised people, including those with advanced HIV infection, herpes can have more severe symptoms",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ],
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": []
+    },
+    {
+      "n": 6,
+      "kind": "other_web",
+      "url": "https://www.aad.org/public/diseases/a-z/cold-sores-treatment",
+      "cited_as": "American Academy of Dermatology. Cold sores: Diagnosis and treatment. Last updated February 1, 2024.",
+      "version_or_date": "Last updated 2/1/24",
+      "retrieved_with": "WebFetch of official page",
+      "notes": "Page covers cold-sore care only; earlier pimple, popping and duration-of-pimple claims that cited it were moved to acne sources or cut.",
+      "claims": [
+        {
+          "text": "A clinician can often tell a cold sore by looking at it",
+          "quote": "Your dermatologist can often tell if you have a cold sore by looking at it.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "A cold sore is treated with antiviral medicine because a virus causes it",
+          "quote": "Cold sores are caused by a virus, so antiviral medications are used to treat them.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Acne products are not a cold sore treatment; cold sores are treated with antivirals (FAQ)",
+          "quote": "Cold sores are caused by a virus, so antiviral medications are used to treat them.",
+          "quote_source": "official_page",
+          "verdict": "partly_supported"
+        },
+        {
+          "text": "For many people a cold sore goes away without treatment in 7 to 14 days",
+          "quote": "For many people, a cold sore goes away without treatment in 7 to14 days.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Dermatologists suggest dabbing on cold sore medicine with a clean cotton-tipped swab because the virus spreads easily",
+          "quote": "The virus that causes cold sores spreads easily, often contaminating products that you put on or near your lips.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ],
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": []
+    },
+    {
+      "n": 7,
+      "kind": "journal",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41414046/",
+      "pmid": "41414046",
+      "pmcid": "PMC12715298",
+      "doi": "10.1111/scd.70129",
+      "cited_as": "de Paiva JPG, Sousa-Neto SS, Humberto MAC, et al. Unusual oral presentations of herpes simplex virus-1: a series of eight cases and literature review. Special Care in Dentistry. 2025;45(6):e70129.",
+      "record_title": "Unusual Oral Presentations of Herpes Simplex Virus-1: A Series of Eight Cases and Literature Review.",
+      "record_journal": "Spec Care Dentist",
+      "record_year": "2025",
+      "article_type": "Journal Article; Review; Case Reports",
+      "retrieved_with": "PubMed get_article_metadata (abstract, article types)",
+      "notes": "Abstract used. Issue corrected from 2 to 6 per the PubMed record. Previously uncited in a checkable way; now cited for atypical single-sore presentations. scite_unavailable: Scite quota exhausted until 2026-11-14; PubMed article types checked, no Retracted Publication or Retraction Notice.",
+      "claims": [
+        {
+          "text": "HSV-1 can occasionally appear as a single sore",
+          "quote": "presented with unusual HSV-1 manifestations, including solitary lesions, white plaque-like appearance, non-keratinized site involvement, or prolonged duration.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "This can happen even in people with healthy immune systems",
+          "quote": "Unusual HSV-1 manifestations can occur in immunocompetent individuals; however, exclusion of undiagnosed immunosuppression remains necessary.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ],
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": []
+    },
+    {
+      "n": 8,
+      "kind": "journal",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12604544/",
+      "pmid": "12604544",
+      "pmcid": "PMC149313",
+      "doi": "10.1128/AAC.47.3.1072-1080.2003",
+      "cited_as": "Spruance SL, Jones TM, Blatter MM, et al. High-dose, short-duration, early valacyclovir therapy for episodic treatment of cold sores: results of two randomized, placebo-controlled, multicenter studies. Antimicrobial Agents and Chemotherapy. 2003;47(3):1072-1080.",
+      "record_title": "High-dose, short-duration, early valacyclovir therapy for episodic treatment of cold sores: results of two randomized, placebo-controlled, multicenter studies.",
+      "record_journal": "Antimicrob Agents Chemother",
+      "record_year": "2003",
+      "article_type": "Clinical Trial; Multicenter Study; Randomized Controlled Trial",
+      "retrieved_with": "PubMed get_article_metadata (abstract, article types); get_full_text_article returned abstract only",
+      "notes": "Abstract only. No longer cited for telling a cold sore from a pimple (the trial did not compare them). The trial dose is not repeated on the page. scite_unavailable: Scite quota exhausted until 2026-11-14; PubMed article types checked, no Retracted Publication or Retraction Notice.",
+      "claims": [
+        {
+          "text": "Two randomized, placebo-controlled trials",
+          "quote": "Two randomized, double-blind, placebo-controlled studies were conducted.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "A one-day course of valacyclovir started at the first symptoms shortened the median episode by about a day",
+          "quote": "instructed to initiate treatment upon the first symptoms of a cold sore. In study 1, the median duration of the episode (primary endpoint) was reduced by 1.0 day (P = 0.001) with 1-day treatment",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ],
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": []
+    },
+    {
+      "n": 9,
+      "kind": "agency_page",
+      "url": "https://medlineplus.gov/ency/article/000606.htm",
+      "cited_as": "MedlinePlus Medical Encyclopedia. Herpes - oral. U.S. National Library of Medicine. Reviewed July 3, 2025.",
+      "version_or_date": "Review date 7/3/2025",
+      "retrieved_with": "WebFetch of official page",
+      "notes": "Added this run to replace unsupported citations.",
+      "claims": [
+        {
+          "text": "A cold sore is usually caused by HSV-1",
+          "quote": "It is usually caused by the herpes simplex virus type 1 (HSV-1).",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "After the first infection the virus becomes dormant in nerve tissue in the face and can later reactivate",
+          "quote": "After the first infection, the virus becomes dormant (an inactive state) in the nerve tissues in the face.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Antiviral pills work best when taken at the warning signs, before blisters develop",
+          "quote": "These medicines work best if you take them when you have warning signs of a mouth sore, before any blisters develop.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Small blisters filled with clear yellowish fluid",
+          "quote": "Small blisters filled with clear yellowish fluid",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Several small blisters may grow together",
+          "quote": "Several smaller blisters that may grow together into a large blister",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Blisters break open and leak",
+          "quote": "Red blisters that break open and leak",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Blisters turn yellow and crusty as they heal",
+          "quote": "Yellow and crusty blister as it heals, which eventually turns into pink skin",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Herpes viruses spread most easily when a sore is present",
+          "quote": "Herpes viruses spread most easily from individuals with an active outbreak or sore.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Antiviral creams often shorten an outbreak by only a few hours to a day",
+          "quote": "However, they are expensive and often only shorten the outbreak by a few hours to a day.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "See a clinician for sores near the eye or symptoms lasting over 2 weeks",
+          "quote": "Sores or blisters near your eyes",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "A sore that has not cleared after 2 weeks should be checked",
+          "quote": "severe or that don't go away after 2 weeks",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Frequent outbreaks are a reason to see a clinician (page says frequent outbreaks may need daily medicine, not that they require a visit)",
+          "quote": "If you get mouth sores frequently, you may need to take these medicines all the time.",
+          "quote_source": "official_page",
+          "verdict": "partly_supported"
+        }
+      ],
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": []
+    },
+    {
+      "n": 10,
+      "kind": "agency_page",
+      "url": "https://medlineplus.gov/ency/article/000873.htm",
+      "cited_as": "MedlinePlus Medical Encyclopedia. Acne. U.S. National Library of Medicine. Reviewed August 2, 2025.",
+      "version_or_date": "Review date 8/2/2025",
+      "retrieved_with": "WebFetch of official page",
+      "notes": "Added this run as the source for pimple and acne claims.",
+      "claims": [
+        {
+          "text": "A pimple forms from a pore clogged with oil and skin cells",
+          "quote": "The glands can become blocked with a mixture of oil and skin cells.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "If bacteria become trapped in the plug, the immune reaction causes a pimple",
+          "quote": "If bacteria become trapped in the plug, the body's immune system may react to it, causing pimples.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "A whitehead has a white top",
+          "quote": "If the top of the plug is white, it is called a whitehead.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "A pustule is a small red bump containing white or yellow pus",
+          "quote": "small red bumps containing white or yellow pus",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Acne may flare up from time to time",
+          "quote": "The condition often responds well to treatment, but responses may take 6 to 8 weeks, and acne may flare up from time to time.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Clean the skin gently with a mild, nondrying soap",
+          "quote": "Clean your skin gently with a mild, nondrying soap",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Over-the-counter products may contain benzoyl peroxide or salicylic acid",
+          "quote": "These products may contain benzoyl peroxide, sulfur, resorcinol, adapalene, or salicylic acid.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Stronger prescription medicines if pimples are still a problem",
+          "quote": "If pimples are still a problem, your provider can prescribe stronger medicines and discuss other options with you.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Scarring is a reason to see a clinician",
+          "quote": "You develop scars as your acne clears up.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ],
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": []
+    },
+    {
+      "n": 11,
+      "kind": "other_web",
+      "url": "https://www.aad.org/public/diseases/a-z/cold-sores-symptoms",
+      "cited_as": "American Academy of Dermatology. Cold sores: Signs and symptoms.",
+      "version_or_date": "No date on page; read 2026-11-07",
+      "retrieved_with": "WebFetch of official page",
+      "notes": "Added this run.",
+      "claims": [
+        {
+          "text": "A day or two before a cold sore appears the spot may tingle, itch, burn, sting or throb",
+          "quote": "A day or two before you get a cold sore, you may feel one or more of the following: Burning, Itching, Stinging, Tingling and the skin feels a little numb, Throbbing",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Painful fluid-filled blisters",
+          "quote": "One or more painful, fluid-filled blisters appear.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Within about 48 hours of the warning symptoms they break open",
+          "quote": "Within 48 hours of the warning symptoms, cold sores usually break open.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "They leak fluid and then crust over",
+          "quote": "They will ooze fluid and then crust over (form scabs).",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "A tingle is a hint rather than proof, because some people with warning symptoms never get a cold sore",
+          "quote": "Some people who have these warning symptoms never get cold sores.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ],
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": []
+    },
+    {
+      "n": 12,
+      "kind": "other_web",
+      "url": "https://www.aad.org/public/diseases/a-z/cold-sores-causes",
+      "cited_as": "American Academy of Dermatology. Cold sores: Who gets and causes.",
+      "version_or_date": "No date on page; read 2026-11-07",
+      "retrieved_with": "WebFetch of official page",
+      "notes": "Added this run.",
+      "claims": [
+        {
+          "text": "Once you have the virus, you have it for life",
+          "quote": "Once you get the virus that causes cold sores, you have it for life.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Triggers include stress, illness such as a cold, fever or flu, and strong sunlight (listed triggers)",
+          "quote": "If you get cold sores, it's likely that something triggers the virus to wake up. [list:] Stress; Fatigue; Illness, such as a cold, fever, or flu; ... Strong sunlight",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Spread by a kiss",
+          "quote": "Getting kissed by someone who has a cold sore is often how a child catches the virus.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Spread by a shared fork or spoon",
+          "quote": "A child can also get the virus by eating from the same fork or spoon as someone who has a cold sore.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Stress is one of the listed triggers for cold sores (FAQ)",
+          "quote": "If you get cold sores, it's likely that something triggers the virus to wake up. [list item:] Stress",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ],
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": []
+    },
+    {
+      "n": 13,
+      "kind": "other_web",
+      "url": "https://www.aad.org/public/diseases/a-z/cold-sores-self-care",
+      "cited_as": "American Academy of Dermatology. Cold sore remedies dermatologists recommend. Last updated February 1, 2024.",
+      "version_or_date": "Last updated 2/1/24",
+      "retrieved_with": "WebFetch of official page",
+      "notes": "Added this run. The page addresses avoiding contact with another person's sore; applying it to your own sore (\"leave it alone\") is marked partly supported.",
+      "claims": [
+        {
+          "text": "A cold sore's blister and fluid are contagious",
+          "quote": "The blister and fluid are contagious.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Avoid touching the sore and sharing cups or towels",
+          "quote": "Do not share items that could have touched that person's cold sore like silverware, dishes, cups, towels, washcloths, makeup, and food.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Leave a cold sore alone (own sore)",
+          "quote": "Don't touch someone's cold sore or items that may have touched their cold sore.",
+          "quote_source": "official_page",
+          "verdict": "partly_supported"
+        }
+      ],
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": []
+    },
+    {
+      "n": 14,
+      "kind": "other_web",
+      "url": "https://www.aad.org/public/diseases/acne/skin-care/habits-stop",
+      "cited_as": "American Academy of Dermatology. 10 skin care habits that can worsen acne.",
+      "version_or_date": "No date on page; read 2026-11-07",
+      "retrieved_with": "WebFetch of official page",
+      "notes": "Added this run as the source for acne not being contagious and for popping.",
+      "claims": [
+        {
+          "text": "Acne is not contagious",
+          "quote": "Acne isn't contagious, but when you share makeup, makeup brushes, or applicators,",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Popping or squeezing a pimple can push pus, dead skin cells or bacteria deeper into the skin",
+          "quote": "you're likely to push some of what's inside (e.g., pus, dead skin cells, or bacteria) deeper into your skin",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "This can lead to more noticeable acne and sometimes scarring",
+          "quote": "This can lead to more-noticeable acne and sometimes scarring and pain.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Do not pop or squeeze a pimple",
+          "quote": "Resist the temptation to pop or squeeze acne.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Deep or painful acne warrants seeing a clinician",
+          "quote": "If you have deep or painful acne, seeing a dermatologist is necessary to help clear your acne.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ],
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": []
+    },
+    {
+      "n": 15,
+      "kind": "other_web",
+      "url": "https://www.aad.org/public/diseases/acne/causes/acne-causes",
+      "cited_as": "American Academy of Dermatology. Acne: Who gets and causes.",
+      "version_or_date": "No date on page; read 2026-11-07",
+      "retrieved_with": "WebFetch of official page",
+      "notes": "Added this run. Corrects the old FAQ, which said stress causes both.",
+      "claims": [
+        {
+          "text": "Stress cannot cause acne but may worsen acne you already have",
+          "quote": "While stress cannot cause acne, stress may worsen existing acne.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ],
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": []
+    }
+  ]
+}
