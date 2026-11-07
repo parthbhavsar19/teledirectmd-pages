@@ -1,0 +1,1005 @@
+{
+ "guide": "urinary-tract-infection-uti-guide",
+ "checked_at": "2026-11-07",
+ "checked_by": "Claude (repair run)",
+ "scite_verify_papers": "unavailable (quota exhausted until 2026-11-14); retraction status from PubMed article types",
+ "references": [
+  {
+   "n": 1,
+   "kind": "guideline",
+   "cited_as": "Infectious Diseases Society of America (IDSA). IDSA 2025 Guideline Update on Complicated Urinary Tract Infections. Published July 17, 2025. Accessed November 7, 2026.",
+   "url": "https://www.idsociety.org/practice-guideline/complicated-urinary-tract-infections/",
+   "retrieved_with": "WebFetch of official IDSA page",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "version_or_date": "Published July 17, 2025 (labeled CURRENT); section reviews 05/12/2025 and 03/12/2025",
+   "notes": "Page covers complicated UTI only. Removed claims it did not support: fluoroquinolones reserved away from cystitis (now cited to refs 4, 13, 22) and urosepsis as 25% of sepsis (cut).",
+   "claims": [
+    {
+     "text": "2025 IDSA update classifies UTIs by localized vs systemic symptoms, particularly fever",
+     "quote": "the presence or absence of localized or systemic symptoms, particularly fever",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "classification focuses on what is apparent at point of care such as vital signs and catheter status",
+     "quote": "readily apparent to the treating clinician at the point of care (e.g., vital signs and catheterization)",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "avoid fluoroquinolones for complicated UTI after fluoroquinolone exposure in past 12 months",
+     "quote": "we suggest avoiding fluoroquinolones if the patient has been exposed to that class of antibiotic in the past 12 months.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "complicated UTI without bacteremia: 5-7 days fluoroquinolone",
+     "quote": "we suggest treating with a shorter course of antimicrobials, using either 5-7 days of a fluoroquinolone",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "complicated UTI: 7 days of a non-fluoroquinolone",
+     "quote": "or 7 days of a non-fluoroquinolone antibiotic (conditional recommendation, very low certainty of evidence)",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "complicated UTI with bacteremia: 7 days rather than 14 days; shorter courses favored",
+     "quote": "we suggest treating with a shorter course (7 days) of antimicrobial therapy rather than a longer course (14 days)",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "kind": "guideline",
+   "cited_as": "Ackerman AL, Bradley M, D'Anci KE, et al. Updates to Recurrent Uncomplicated Urinary Tract Infections in Women: AUA/CUA/SUFU Guideline (2025). The Journal of Urology. 2025;215(1):3-12. PMID: 40905426.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40905426/",
+   "retrieved_with": "PubMed get_article_metadata (abstract)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "pmid": "40905426",
+   "doi": "10.1097/JU.0000000000004723",
+   "record_title": "Updates to Recurrent Uncomplicated Urinary Tract Infections in Women: AUA/CUA/SUFU Guideline (2025).",
+   "record_journal": "J Urol",
+   "record_year": "2025",
+   "article_type": "Practice Guideline",
+   "version_or_date": "2025 amendment; J Urol 215(1):3-12, epub 2025-09-04",
+   "notes": "Link changed from auajournals.org (blocked to automated reads) to the PubMed record. Abstract-only; claims about D-mannose trials and cranberry recommendation strength were cut. scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article_types checked this run: no Retracted Publication or Retraction Notice.",
+   "claims": [
+    {
+     "text": "2025 AUA/CUA/SUFU update expands non-antibiotic options for UTI prevention",
+     "quote": "This update provides several new insights, including expansion of non-antibiotic options for UTI prophylaxis",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "update adds understanding of value of negative urinalysis in ruling out UTI",
+     "quote": "greater understanding of the value of a negative urinalysis in ruling out UTI",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "paradigm shift away from microbial detection toward clinician judgement on antibiotics",
+     "quote": "a paradigm shift away from microbial detection to reliance on clinician judgement when weighing the individual risks and benefits of antibiosis",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "kind": "other_web",
+   "cited_as": "Mayo Clinic. Urinary tract infection (UTI): Symptoms and causes. Page dated September 26, 2025. Accessed November 7, 2026.",
+   "url": "https://www.mayoclinic.org/diseases-conditions/urinary-tract-infection/symptoms-causes/syc-20353447",
+   "retrieved_with": "WebFetch of Mayo Clinic page",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "version_or_date": "Page dated Sept. 26, 2025",
+   "notes": "Numbers previously attributed to this page (8 million visits, >90% PPV, 80-85% E. coli, 30x, 4 vs 20 cm) are not on it; they were cut or re-sourced (refs 12, 18).",
+   "claims": [
+    {
+     "text": "UTI is an infection in any part of the urinary system: kidneys, ureters, bladder, urethra",
+     "quote": "A urinary tract infection (UTI) is an infection in any part of the urinary system.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "most infections involve the lower urinary tract: bladder and urethra",
+     "quote": "Most infections involve the lower urinary tract — the bladder and the urethra.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "bladder infection symptoms: burning, strong urge, frequent small amounts",
+     "quote": "A burning feeling when urinating. A strong urge to urinate that doesn't go away.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "E. coli often causes bladder infection",
+     "quote": "Bacteria called E. coli often causes this type of UTI.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "women have a shorter urethra, so less distance for bacteria to reach the bladder; higher risk than men",
+     "quote": "Women have a shorter urethra than men do. As a result, there's less distance for bacteria to travel to reach the bladder.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "recurrent UTI: two or more in six months or three or more in a year",
+     "quote": "This means having two or more UTIs within six months or three or more within a year.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "diaphragms and spermicidal agents can raise UTI risk",
+     "quote": "Using diaphragms for birth control may raise the risk of UTIs. So can using spermicidal agents.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "kind": "agency_page",
+   "cited_as": "Centers for Disease Control and Prevention (CDC). Outpatient Clinical Care for Adults (Antibiotic Prescribing and Use). Last reviewed April 16, 2024. Accessed November 7, 2026.",
+   "url": "https://www.cdc.gov/antibiotic-use/hcp/clinical-care/adult-outpatient.html",
+   "retrieved_with": "WebFetch of official CDC page",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "version_or_date": "Last reviewed April 16, 2024 (last updated March 7, 2024)",
+   "notes": "Replaces the CDC 2025 stewardship report, which contained none of the antibiotic, fluoroquinolone-harm or resistance claims. The claim that TMP-SMX resistance exceeds 20% in many US communities and that fluoroquinolone resistance is climbing was cut (no retrieved source).",
+   "claims": [
+    {
+     "text": "first-line agents for acute uncomplicated cystitis in healthy non-pregnant premenopausal women: nitrofurantoin, TMP-SMX where resistance <20%, fosfomycin",
+     "quote": "Nitrofurantoin, trimethoprim/sulfamethoxazole (TMP-SMX, where local resistance is <20%), and fosfomycin are appropriate first-line agents.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "fluoroquinolones reserved for when other agents are not appropriate",
+     "quote": "Fluoroquinolones (e.g., ciprofloxacin) should be reserved for situations in which other agents are not appropriate.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "cystitis usually caused by E. coli",
+     "quote": "Cystitis is among the most common infections in women and is usually caused by E. coli.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "kind": "journal",
+   "cited_as": "Hoffmann T, Peiris R, Mar CD, Cleo G, Glasziou P. Natural history of uncomplicated urinary tract infection without antibiotics: a systematic review. British Journal of General Practice. 2020;70(699):e714-e722. PMID: 32958533.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32958533/",
+   "retrieved_with": "PubMed get_article_metadata (abstract)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "pmid": "32958533",
+   "pmcid": "PMC7510849",
+   "doi": "10.3399/bjgp20X712781",
+   "record_title": "Natural history of uncomplicated urinary tract infection without antibiotics: a systematic review.",
+   "record_journal": "Br J Gen Pract",
+   "record_year": "2020",
+   "article_type": "Systematic Review",
+   "notes": "Replaces Healthline consumer article, which says spontaneous resolution is highly unlikely and gave no 25-50% figure. scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article_types checked this run: no Retracted Publication or Retraction Notice.",
+   "claims": [
+    {
+     "text": "in placebo groups up to 42% symptom free or improved over first 9 days",
+     "quote": "Over the first 9 days, the percentage of participants who were symptom free or reported improved symptoms was reported as rising to 42%.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "up to 39% had not improved by 6 weeks",
+     "quote": "At 6 weeks, the percentage of such participants was 36%; up to 39% of participants failed to improve by 6 weeks.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "three randomized trials, women only",
+     "quote": "Three randomised trials (346 placebo group participants) were identified, all of which specified women only in their inclusion criteria.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "some women got worse; most improvement in first 9 days",
+     "quote": "most improvement occurs in the first 9 days. Other women either failed to improve or became worse over a variable timespan",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "kind": "journal",
+   "cited_as": "Ferris DG, Nyirjesy P, Sobel JD, et al. Over-the-counter antifungal drug misuse associated with patient-diagnosed vulvovaginal candidiasis. Obstetrics &amp; Gynecology. 2002;99(3):419-425. PMID: 11864668.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/11864668/",
+   "retrieved_with": "PubMed get_article_metadata (abstract)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "pmid": "11864668",
+   "doi": "10.1016/s0029-7844(01)01759-8",
+   "record_title": "Over-the-counter antifungal drug misuse associated with patient-diagnosed vulvovaginal candidiasis.",
+   "record_journal": "Obstet Gynecol",
+   "record_year": "2002",
+   "article_type": "Journal Article (observational)",
+   "notes": "scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article_types checked this run: no Retracted Publication or Retraction Notice.",
+   "claims": [
+    {
+     "text": "95 women self-diagnosing VVC; 33.7% had VVC; rest BV, mixed, normal, other, trichomonas",
+     "quote": "vulvovaginal candidiasis 33.7%, bacterial vaginosis 18.9%, mixed vaginitis 21.1%, normal 13.7%, other diagnoses 10.5%, and trichomonas vaginitis 2.1%.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "prior clinical diagnosis did not improve accuracy",
+     "quote": "Women with a previous clinically based diagnosis of vulvovaginal candidiasis were not more accurate in diagnosing vulvovaginal candidiasis than women without a prior clinical diagnosis",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "one in five had a mixed infection",
+     "quote": "mixed vaginitis 21.1%",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "kind": "agency_page",
+   "cited_as": "Centers for Disease Control and Prevention. About Bacterial Vaginosis (BV). Page dated December 11, 2023. Accessed November 7, 2026.",
+   "url": "https://www.cdc.gov/bacterial-vaginosis/about/index.html",
+   "retrieved_with": "WebFetch of official CDC page",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "version_or_date": "Page dated Dec. 11, 2023",
+   "claims": [
+    {
+     "text": "BV is the most common vaginal condition in women 15-44",
+     "quote": "BV is the most common vaginal condition in women ages 15-44.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "BV: fishy odor, thin gray discharge",
+     "quote": "A thin white or gray vaginal discharge",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "kind": "guideline",
+   "cited_as": "Centers for Disease Control and Prevention. Bacterial Vaginosis, STI Treatment Guidelines, 2021. Last reviewed July 22, 2021. Accessed November 7, 2026.",
+   "url": "https://www.cdc.gov/std/treatment-guidelines/bv.htm",
+   "retrieved_with": "WebFetch of official CDC page",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "version_or_date": "STI Treatment Guidelines, 2021; last reviewed July 22, 2021",
+   "notes": "Trichomoniasis partner-treatment and trichomoniasis pH claims moved to refs 26 and 9; this page says routine treatment of BV partners is not recommended.",
+   "claims": [
+    {
+     "text": "pH >4.5 is an Amsel criterion for BV",
+     "quote": "pH of vaginal fluid >4.5",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "BV treated with metronidazole or clindamycin",
+     "quote": "Metronidazole 500 mg orally 2 times/day for 7 days",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "kind": "guideline",
+   "cited_as": "Centers for Disease Control and Prevention. Diseases Characterized by Vulvovaginal Itching, Burning, Irritation, Odor, or Discharge, STI Treatment Guidelines, 2021. Last reviewed July 22, 2021. Accessed November 7, 2026.",
+   "url": "https://www.cdc.gov/std/treatment-guidelines/vaginal-discharge.htm",
+   "retrieved_with": "WebFetch of official CDC page",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "version_or_date": "STI Treatment Guidelines, 2021; last reviewed July 22, 2021",
+   "notes": "New source; replaces Sobel and Vempati 2024 (Microorganisms), whose abstract attributes post-BV yeast to dysbiosis \"not necessarily because of antibiotics\" and so did not support the antibiotic-yeast claim.",
+   "claims": [
+    {
+     "text": "elevated pH >4.5 common with BV or trichomoniasis; trichomoniasis can have normal pH",
+     "quote": "an elevated pH (i.e., >4.5) is common with BV or trichomoniasis (although trichomoniasis can also be present with a normal vaginal pH)",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "pH testing is not highly specific but helps determine cause",
+     "quote": "Because pH testing is not highly specific",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "kind": "guideline",
+   "cited_as": "Centers for Disease Control and Prevention. Vulvovaginal Candidiasis, STI Treatment Guidelines, 2021. Last reviewed July 22, 2021. Accessed November 7, 2026.",
+   "url": "https://www.cdc.gov/std/treatment-guidelines/candidiasis.htm",
+   "retrieved_with": "WebFetch of official CDC page",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "version_or_date": "STI Treatment Guidelines, 2021; last reviewed July 22, 2021",
+   "claims": [
+    {
+     "text": "yeast infection associated with normal vaginal pH under 4.5",
+     "quote": "Candida vaginitis is associated with normal vaginal pH (<4.5).",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "see a clinician if symptoms persist after OTC antifungal or recur within 2 months",
+     "quote": "who has a recurrence of symptoms <2 months after treatment for VVC should be evaluated clinically and tested",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "frequent antibiotic use is among the causes of recurrent yeast infections",
+     "quote": "related to frequent antibiotic use, diabetes, or other underlying host factors",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "treatment: fluconazole or OTC clotrimazole/miconazole",
+     "quote": "Fluconazole 150 mg orally in a single dose",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "kind": "guideline",
+   "cited_as": "American College of Obstetricians and Gynecologists. Urinary Tract Infections in Pregnant Individuals. Clinical Consensus No. 4, August 2023. Accessed November 7, 2026.",
+   "url": "https://www.acog.org/clinical/clinical-guidance/clinical-consensus/articles/2023/08/urinary-tract-infections-in-pregnant-individuals",
+   "retrieved_with": "WebFetch of official ACOG page",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "version_or_date": "Clinical Consensus No. 4, August 2023",
+   "notes": "Pregnancy-specific source; guide text now says fever or flank pain rather than chills or back pain.",
+   "claims": [
+    {
+     "text": "fever or flank pain can signal kidney infection",
+     "quote": "should be suspected in the presence of fever of 38.0° C or higher and urine studies suggesting UTI",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "UTIs in pregnancy associated with preterm delivery",
+     "quote": "The presence of UTIs has been associated with adverse pregnancy outcomes, including increased rates of preterm delivery",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "each cystitis episode risks progression to pyelonephritis in pregnancy",
+     "quote": "Each episode of acute cystitis risks progression to pyelonephritis",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "screening and treating asymptomatic bacteriuria in pregnancy reduces pyelonephritis",
+     "quote": "Screening for and treating ASB have been shown in multiple studies to reduce the incidence of pyelonephritis in pregnancy",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "kind": "journal",
+   "cited_as": "Foxman B. Urinary tract infection syndromes: occurrence, recurrence, bacteriology, risk factors, and disease burden. Infectious Disease Clinics of North America. 2014;28(1):1-13. PMID: 24484571.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/24484571/",
+   "retrieved_with": "PubMed get_article_metadata (abstract); PubMed lookup_article_by_citation for year",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "pmid": "24484571",
+   "doi": "10.1016/j.idc.2013.09.003",
+   "record_title": "Urinary tract infection syndromes: occurrence, recurrence, bacteriology, risk factors, and disease burden.",
+   "record_journal": "Infect Dis Clin North Am",
+   "record_year": "2014",
+   "article_type": "Review",
+   "notes": "Abstract-only. The recurrence definition and 20-30% recurrence figure are not in the abstract: definition re-cited to refs 3 and 13; the 20-30% figure was cut. Record epub 2013-12-08; issue year 2014 confirmed by citation lookup. scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article_types checked this run: no Retracted Publication or Retraction Notice.",
+   "claims": [
+    {
+     "text": "UTIs among the most common bacterial infections, 0.9% of US ambulatory visits",
+     "quote": "Urinary tract infection (UTI) is one of the most common bacterial infections, accounting for 0.9% of all ambulatory visits in the United States.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "kind": "guideline",
+   "cited_as": "European Association of Urology. EAU Guidelines on Urological Infections, 2026 edition, chapter \"The Guideline.\" Accessed November 7, 2026.",
+   "url": "https://uroweb.org/guidelines/urological-infections/chapter/the-guideline",
+   "retrieved_with": "WebFetch of official EAU guideline page (uroweb.org)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "version_or_date": "EAU Guidelines on Urological Infections, 2026 edition (online chapter; PDF file named EAU-Guidelines-on-Urological-Infections-2026); read 2026-11-07",
+   "notes": "Replaces Anger 2022 AUA amendment (abstract-only), which could not support the FDA 2025 event, the 2024 MERIT trial, cash prices, the Hooton trial, the Cochrane prophylaxis RR or recommendation grades. Those claims were re-cited to primary sources (refs 19, 20, 21, 23) or cut. WebFetch returns quotes in fragments; the diagnosis and prophylaxis quotes are logged as separate verbatim fragments of the same recommendation. The full IDSA 2010 cystitis guideline PDF (academic.oup.com) was blocked to automated reads, so EAU is the dosing source.",
+   "claims": [
+    {
+     "text": "nitrofurantoin 100 mg twice daily for 5 days (first line, women)",
+     "quote": "Nitrofurantoin monohydrate/macrocrystals* 100mg b.i.d 5 days",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "fosfomycin 3 g single dose (first line, women)",
+     "quote": "Fosfomycin trometamol 3g SD 1 day",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "TMP-SMX 160/800 mg twice daily for 3 days only where E. coli resistance <20%",
+     "quote": "Trimethoprim-sulfamethoxazole 160/800mg b.i.d 3 days",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "TMP-SMX first choice only where resistance <20%",
+     "quote": "should only be considered as drugs of first choice in areas with known resistance rates for E. coli of < 20%",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "first-line agents for cystitis in women include fosfomycin and nitrofurantoin",
+     "quote": "Prescribe fosfomycin trometamol, pivmecillinam, nitrofurantoin or nitroxoline as first-line treatment for cystitis in women.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "European guideline advises against fluoroquinolones for cystitis",
+     "quote": "Do not use aminopenicillins or fluoroquinolones to treat cystitis.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "strong recommendation for vaginal estrogen in postmenopausal women",
+     "quote": "Use vaginal oestrogen replacement in postmenopausal women to prevent recurrent cystitis.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "D-mannose weak recommendation; evidence weak and contradictory",
+     "quote": "patients should be informed of the overall weak and contradictory evidence of its effectiveness.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "antibiotic prophylaxis when non-antimicrobial interventions have failed",
+     "quote": "when non-antimicrobial interventions have failed",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "diagnose cystitis from focused history of LUTS and absence of vaginal discharge",
+     "quote": "Diagnose cystitis in women who have no other risk factors for systemic urinary tract infections based on:",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "criteria: focused LUTS history and no vaginal discharge",
+     "quote": "a focused history of lower urinary tract symptoms (dysuria, frequency and urgency)",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "urine culture reserved for situations such as atypical symptoms",
+     "quote": "Taking a urine culture is recommended in patients with atypical symptoms",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "recurrent UTI definition: 3 per year or 2 in six months",
+     "quote": "Recurrent cystitis is defined by at least three episodes of cystitis/year or two episodes of cystitis in the last six months",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "kind": "journal",
+   "cited_as": "Raz R, Stamm WE. A controlled trial of intravaginal estriol in postmenopausal women with recurrent urinary tract infections. New England Journal of Medicine. 1993;329(11):753-756. PMID: 8350884.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/8350884/",
+   "retrieved_with": "PubMed get_article_metadata (abstract)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "pmid": "8350884",
+   "doi": "10.1056/NEJM199309093291102",
+   "record_title": "A controlled trial of intravaginal estriol in postmenopausal women with recurrent urinary tract infections.",
+   "record_journal": "N Engl J Med",
+   "record_year": "1993",
+   "article_type": "Randomized Controlled Trial",
+   "notes": "Corrected \"absolute reduction of about 90%\" to a relative reduction (0.5/5.9 = 8.5%, i.e. about 91% fewer) with the absolute difference stated (5.4 episodes per patient-year, arithmetic from the quoted figures). scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article_types checked this run: no Retracted Publication or Retraction Notice.",
+   "claims": [
+    {
+     "text": "93 postmenopausal women randomized to intravaginal estriol vs placebo, monthly cultures for 8 months",
+     "quote": "We enrolled 93 postmenopausal women with a history of recurrent urinary tract infections in a randomized, double-blind, placebo-controlled trial of a topically applied intravaginal estriol cream.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "0.5 vs 5.9 episodes per patient-year (about 90% relative reduction; absolute difference 5.4)",
+     "quote": "(0.5 vs. 5.9 episodes per patient-year, P < 0.001)",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "lactobacilli absent before, vaginal pH 5.5 to 3.8, Enterobacteriaceae colonization 67% to 31%",
+     "quote": "With estriol the mean vaginal pH declined from 5.5 to 3.8 (P < 0.001)",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Enterobacteriaceae colonization fell 67% to 31%; lactobacilli absent before treatment",
+     "quote": "The rate of vaginal colonization with Enterobacteriaceae fell from 67 percent to 31 percent in estriol recipients",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "side effects led 28% of estriol group to stop",
+     "quote": "Side effects were minor, but caused 10 estriol recipients (28 percent) and 4 placebo recipients (17 percent) to discontinue treatment.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "kind": "journal",
+   "cited_as": "Perrotta C, Aznar M, Mejia R, Albert X, Ng CW. Oestrogens for preventing recurrent urinary tract infection in postmenopausal women. Cochrane Database of Systematic Reviews. 2008;(2):CD005131. PMID: 18425910.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/18425910/",
+   "retrieved_with": "PubMed get_article_metadata (abstract)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "pmid": "18425910",
+   "pmcid": "PMC13598824",
+   "doi": "10.1002/14651858.CD005131.pub2",
+   "record_title": "Oestrogens for preventing recurrent urinary tract infection in postmenopausal women.",
+   "record_journal": "Cochrane Database Syst Rev",
+   "record_year": "2008",
+   "article_type": "Systematic Review; Meta-Analysis",
+   "notes": "Corrected: the review did not pool vaginal estrogen trials or find a consistent 40-60% range. Chart now shows 36% to 75% (1 minus RR 0.64 and 0.25). scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article_types checked this run: no Retracted Publication or Retraction Notice.",
+   "claims": [
+    {
+     "text": "two small placebo-controlled vaginal estrogen studies: RR 0.25 and 0.64; not pooled",
+     "quote": "Vaginal oestrogens versus placebo reduced the number of women with UTIs in two small studies using different application methods. The RR for one was 0.25 (95% CI 0.13 to 0.50) and 0.64",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "oral estrogen did not reduce UTI",
+     "quote": "Oral oestrogens did not reduce UTI compared to placebo (4 studies, 2798 women: RR 1.08, 95% CI 0.88 to 1.33).",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "vaginal estrogen side effects: breast tenderness, bleeding/spotting, discharge, irritation, burning, itching",
+     "quote": "Adverse events for vaginal oestrogens were breast tenderness, vaginal bleeding or spotting, nonphysiologic discharge, vaginal irritation, burning and itching.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "kind": "journal",
+   "cited_as": "Williams G, Stothart CI, Hahn D, Stephens JH, Craig JC, Hodson EM. Cranberries for preventing urinary tract infections. Cochrane Database of Systematic Reviews. 2023;11(11):CD001321. PMID: 37947276.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37947276/",
+   "retrieved_with": "PubMed get_article_metadata (abstract)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "pmid": "37947276",
+   "pmcid": "PMC10636779",
+   "doi": "10.1002/14651858.CD001321.pub7",
+   "record_title": "Cranberries for preventing urinary tract infections.",
+   "record_journal": "Cochrane Database Syst Rev",
+   "record_year": "2023",
+   "article_type": "Systematic Review",
+   "notes": "Corrected upper CI to 0.99; children and post-intervention benefit stated as larger, not similar; author list corrected to include Stothart CI. The 36 mg PAC dose claim was cut (review found no dose difference). scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article_types checked this run: no Retracted Publication or Retraction Notice.",
+   "claims": [
+    {
+     "text": "50 studies, 8,857 participants",
+     "quote": "bringing the total number of included studies to 50 (8857 randomised participants)",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "women with recurrent UTIs RR 0.74 (0.55 to 0.99), about 26% reduction",
+     "quote": "in women with recurrent UTIs (8 studies, 1555 participants: RR 0.74, 95% CI 0.55 to 0.99; I² = 54%)",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "children RR 0.46; after interventions RR 0.47",
+     "quote": "in children (5 studies, 504 participants: RR 0.46, 95% CI 0.32 to 0.68; I² = 21%) and in people with a susceptibility to UTIs due to an intervention (6 studies, 1434 participants: RR 0.47",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "little or no benefit in elderly institutionalised, pregnant women, bladder emptying problems",
+     "quote": "there may be little or no benefit in elderly institutionalised men and women",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "unclear whether juice vs tablets or PAC doses differ; no difference between doses",
+     "quote": "It is unclear whether efficacy differs between cranberry juice and tablets or between different doses of PACs, as the certainty of the evidence was very low.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "GI side effects probably do not differ from placebo",
+     "quote": "The number of participants with gastrointestinal side effects probably does not differ between those taking cranberry products and those receiving a placebo or no specific treatment",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "PACs inhibit adherence of E. coli to bladder cells",
+     "quote": "Cranberries contain proanthocyanidins (PACs), which inhibit the adherence of p-fimbriated Escherichia coli to the urothelial cells lining the bladder.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "kind": "journal",
+   "cited_as": "Harding C, Mossop H, Homer T, et al. Alternative to prophylactic antibiotics for the treatment of recurrent urinary tract infections in women: multicentre, open label, randomised, non-inferiority trial. BMJ. 2022;376:e068229. PMID: 35264408.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35264408/",
+   "retrieved_with": "PubMed get_article_metadata (abstract); WebFetch of PMC full text (PMC8905684) for doses",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "pmid": "35264408",
+   "pmcid": "PMC8905684",
+   "doi": "10.1136/bmj-2021-0068229",
+   "record_title": "Alternative to prophylactic antibiotics for the treatment of recurrent urinary tract infections in women: multicentre, open label, randomised, non-inferiority trial.",
+   "record_journal": "BMJ",
+   "record_year": "2022",
+   "article_type": "Randomized Controlled Trial (non-inferiority, open label)",
+   "notes": "Removed \"(ALTAR)\" from the cited title to match the record. DOI string copied as the PubMed record gives it. scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article_types checked this run: no Retracted Publication or Retraction Notice.",
+   "claims": [
+    {
+     "text": "240 women randomized to antibiotic prophylaxis or methenamine hippurate for 12 months",
+     "quote": "Participants were randomly assigned to antibiotic prophylaxis (n=120) or methenamine hippurate (n=120).",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "0.89 vs 1.38 episodes per person-year; difference 0.49 (90% CI 0.15 to 0.84); non-inferior; margin one episode",
+     "quote": "with an absolute difference of 0.49 (90% confidence interval 0.15 to 0.84) confirming non-inferiority.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "authors: might be appropriate informed by patient preference and stewardship",
+     "quote": "Non-antibiotic prophylactic treatment with methenamine hippurate might be appropriate for women with a history of recurrent episodes of urinary tract infections, informed by patient preferences and antibiotic stewardship initiatives",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "methenamine hippurate 1 g twice daily in trial",
+     "quote": "Methenamine hippurate was prescribed as a twice daily oral dose (1 g).",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "daily prophylaxis: nitrofurantoin 50 or 100 mg, trimethoprim 100 mg, or cefalexin 250 mg once daily",
+     "quote": "the drug used was chosen from nitrofurantoin (50 or 100 mg), trimethoprim (100 mg), or cefalexin (250 mg)",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 18,
+   "kind": "journal",
+   "cited_as": "Bent S, Nallamothu BK, Simel DL, Fihn SD, Saint S. Does this woman have an acute uncomplicated urinary tract infection? JAMA. 2002;287(20):2701-2710. PMID: 12020306.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/12020306/",
+   "retrieved_with": "PubMed search_articles and get_article_metadata (abstract); lookup_article_by_citation for year",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "pmid": "12020306",
+   "doi": "10.1001/jama.287.20.2701",
+   "record_title": "Does this woman have an acute uncomplicated urinary tract infection?",
+   "record_journal": "JAMA",
+   "record_year": "2002",
+   "article_type": "Review (systematic review of diagnostic accuracy)",
+   "notes": "New source for the symptom-probability claim previously misattributed to Mayo Clinic as \">90% positive predictive value\". scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article_types checked this run: no Retracted Publication or Retraction Notice.",
+   "claims": [
+    {
+     "text": "one or more symptoms: probability about 50%; dysuria plus frequency without discharge or irritation raises probability to >90%",
+     "quote": "Specific combinations of symptoms (eg, dysuria and frequency without vaginal discharge or irritation) raise the probability of UTI to more than 90%, effectively ruling in the diagnosis based on history alone.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "probability about 50% with one or more symptoms",
+     "quote": "In women who present with 1 or more symptoms of UTI, the probability of infection is approximately 50%.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 19,
+   "kind": "journal",
+   "cited_as": "Hooton TM, Vecchio M, Iroz A, et al. Effect of Increased Daily Water Intake in Premenopausal Women With Recurrent Urinary Tract Infections: A Randomized Clinical Trial. JAMA Internal Medicine. 2018;178(11):1509-1515. PMID: 30285042.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30285042/",
+   "retrieved_with": "PubMed search_articles and get_article_metadata (abstract)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "pmid": "30285042",
+   "pmcid": "PMC6584323",
+   "doi": "10.1001/jamainternmed.2018.4204",
+   "record_title": "Effect of Increased Daily Water Intake in Premenopausal Women With Recurrent Urinary Tract Infections: A Randomized Clinical Trial.",
+   "record_journal": "JAMA Intern Med",
+   "record_year": "2018",
+   "article_type": "Randomized Controlled Trial",
+   "notes": "Previously cited to the 2022 AUA amendment. \"~48%\" corrected to about 47% (1.5/3.2). scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article_types checked this run: no Retracted Publication or Retraction Notice.",
+   "claims": [
+    {
+     "text": "140 premenopausal women drinking <1.5 L/day with >=3 episodes, extra 1.5 L water daily for 12 months",
+     "quote": "Participants were randomly assigned to drink, in addition to their usual fluid intake, 1.5 L of water daily (water group) or no additional fluids (control group) for 12 months.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "1.7 vs 3.2 episodes, P<.001 (about 47% fewer)",
+     "quote": "the mean (SD) number of cystitis episodes was 1.7 (95% CI, 1.5-1.8) in the water group compared with 3.2 (95% CI, 3.0-3.4) in the control group",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "eligibility: fewer than 1.5 L/day and at least 3 episodes in past year",
+     "quote": "Among 163 healthy women with recurrent cystitis (≥3 episodes in past year) drinking less than 1.5 L of fluid daily assessed for eligibility, 23 were excluded and 140 assigned",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 20,
+   "kind": "journal",
+   "cited_as": "Hayward G, Mort S, Hay AD, et al. d-Mannose for Prevention of Recurrent Urinary Tract Infection Among Women: A Randomized Clinical Trial. JAMA Internal Medicine. 2024;184(6):619-628. PMID: 38587819.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38587819/",
+   "retrieved_with": "PubMed search_articles and get_article_metadata (abstract)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "pmid": "38587819",
+   "pmcid": "PMC11002776",
+   "doi": "10.1001/jamainternmed.2024.0264",
+   "record_title": "d-Mannose for Prevention of Recurrent Urinary Tract Infection Among Women: A Randomized Clinical Trial.",
+   "record_journal": "JAMA Intern Med",
+   "record_year": "2024",
+   "article_type": "Randomized Controlled Trial",
+   "notes": "Previously mentioned without citation. The Kranjcec 2014 and Kyriakides 2020 mentions (cited to ref 2, which does not report them) were cut. scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article_types checked this run: no Retracted Publication or Retraction Notice.",
+   "claims": [
+    {
+     "text": "MERIT: 598 women, 2 g D-mannose daily vs placebo for 6 months",
+     "quote": "Of 598 women eligible (mean [range] age, 58 [18-93] years), 303 were randomized to d-mannose (50.7%) and 295 to placebo (49.3%).",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "51.0% vs 55.7%, not significant",
+     "quote": "150 of 294 (51.0%) in the d-mannose group and 161 of 289 (55.7%) in the placebo group (risk difference, -5%; 95% CI, -13% to 3%; P = .26)",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "should not be recommended for prophylaxis in this group",
+     "quote": "d-Mannose should not be recommended for prophylaxis in this patient group.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 21,
+   "kind": "journal",
+   "cited_as": "Albert X, Huertas I, Pereiró II, et al. Antibiotics for preventing recurrent urinary tract infection in non-pregnant women. Cochrane Database of Systematic Reviews. 2004;(3):CD001209. PMID: 15266443.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/15266443/",
+   "retrieved_with": "PubMed search_articles and get_article_metadata (abstract)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "pmid": "15266443",
+   "pmcid": "PMC7032641",
+   "doi": "10.1002/14651858.CD001209.pub2",
+   "record_title": "Antibiotics for preventing recurrent urinary tract infection in non-pregnant women.",
+   "record_journal": "Cochrane Database Syst Rev",
+   "record_year": "2004",
+   "article_type": "Systematic Review",
+   "notes": "Primary source for the RR 0.15 figure previously attributed to the 2022 AUA amendment. The abstract labels the placebo comparison \"Antibiotic versus antibiotic (10 trials, 430 women)\" but reports placebo rates and concludes versus placebo. The unsourced \"~85% reduction\" for post-coital antibiotics was removed. scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article_types checked this run: no Retracted Publication or Retraction Notice.",
+   "claims": [
+    {
+     "text": "clinical recurrences RR 0.15 (0.08 to 0.28) during prophylaxis vs placebo",
+     "quote": "For clinical recurrences (CRPY) the RR was 0.15 (95% CI 0.08 to 0.28).",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "reduced UTI during prophylaxis vs placebo; no difference after",
+     "quote": "Continuous antibiotic prophylaxis for 6-12 months reduced the rate of UTI during prophylaxis when compared to placebo. After prophylaxis two studies showed nodifference between groups.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "side effects more common: vaginal and oral candidiasis, GI symptoms",
+     "quote": "Side effects included vaginal and oral candidiasis and gastrointestinal symptoms.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "no significant difference post-coital vs continuous daily ciprofloxacin",
+     "quote": "There was no significant difference in MR between continuous daily and postcoital ciprofloxacin.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 22,
+   "kind": "label",
+   "cited_as": "U.S. Food and Drug Administration. LEVAQUIN (levofloxacin) prescribing information, including boxed warning. Revised June 2020. Accessed November 7, 2026.",
+   "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2020/020634s073lbl.pdf",
+   "retrieved_with": "WebFetch of FDA label PDF (accessdata.fda.gov)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "version_or_date": "Revised: 6/2020",
+   "notes": "New source for fluoroquinolone harms (previously cited to the CDC stewardship report, which does not contain them). The listed indications under the reserve sentence include \"Uncomplicated urinary tract infection\".",
+   "claims": [
+    {
+     "text": "boxed warning: disabling and potentially irreversible serious adverse reactions incl. tendinitis, tendon rupture, peripheral neuropathy, CNS effects",
+     "quote": "have been associated with disabling and potentially irreversible serious adverse reactions",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "reserve for uncomplicated UTI in patients with no alternative treatment options",
+     "quote": "reserve LEVAQUIN® for use in patients who have no alternative treatment options for the following indications:",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "increased rate of aortic aneurysm and dissection, particularly in elderly",
+     "quote": "Epidemiologic studies report an increased rate of aortic aneurysm and dissection within two months following use of fluoroquinolones, particularly in elderly patients",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 23,
+   "kind": "agency_page",
+   "cited_as": "U.S. Food and Drug Administration. FDA Requests Labeling Changes Related to Safety Information to Clarify the Benefit/Risk Considerations for Menopausal Hormone Therapies. November 10, 2025. Accessed November 7, 2026.",
+   "url": "https://www.fda.gov/drugs/drug-alerts-and-statements/fda-requests-labeling-changes-related-safety-information-clarify-benefitrisk-considerations",
+   "retrieved_with": "WebFetch of official FDA page",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "version_or_date": "Statement dated 11/10/2025; page content current as of 02/12/2026",
+   "notes": "Corrects the claim that FDA \"removed the boxed warning from low-dose vaginal estrogen\" in Nov 2025: the Nov 10, 2025 statement requested labeling changes; FDA announced approved changes for six products on Feb 12, 2026 (press release read this run, not cited). Unsourced claims on systemic absorption, endometrial risk and no need for a progestin were cut.",
+   "claims": [
+    {
+     "text": "FDA asked to remove boxed-warning language on cardiovascular disease, breast cancer, probable dementia for all menopausal hormone therapies including local vaginal products, Nov 2025",
+     "quote": "Remove the language related to cardiovascular diseases, breast cancer, and probable dementia.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "applies to systemic and local vaginal products",
+     "quote": "For all MHTs (systemic and local vaginal products)",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 24,
+   "kind": "label",
+   "cited_as": "DailyMed (National Library of Medicine). Methenamine hippurate tablet prescribing label (Ingenus Pharmaceuticals). Revised January 2023. Accessed November 7, 2026.",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4412d667-63f6-427e-a5c6-376a0e1e172d",
+   "retrieved_with": "WebFetch of DailyMed label",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "version_or_date": "Ingenus Pharmaceuticals label, Revised 01/2023 (DailyMed updated May 23, 2023)",
+   "notes": "Replaces unsourced methenamine cautions; \"gout\" and \"metabolic acidosis\" are not in the label and were removed.",
+   "claims": [
+    {
+     "text": "converted to formaldehyde in acid urine",
+     "quote": "the methenamine component is hydrolyzed to formaldehyde in acid urine",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "adult dose 1 g twice daily",
+     "quote": "1 tablet (1.0 g) twice daily (morning and night) for adults and pediatric patients over 12 years of age",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "contraindicated in renal insufficiency, severe hepatic insufficiency, severe dehydration",
+     "quote": "contraindicated in patients with renal insufficiency, severe hepatic insufficiency, or severe dehydration.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "not with sulfonamides",
+     "quote": "Methenamine preparations should not be given to patients taking sulfonamides",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "minor adverse reactions under 3.5%: nausea, upset stomach, dysuria, rash",
+     "quote": "Minor adverse reactions have been reported in less than 3.5% of patients treated.",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 25,
+   "kind": "label",
+   "cited_as": "DailyMed (National Library of Medicine). BACTRIM (sulfamethoxazole and trimethoprim) DS tablets prescribing label (Sun Pharmaceutical Industries). Revised December 2024. Accessed November 7, 2026.",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=f59d0c04-9c66-4d53-a0e1-cb55570deb62&amp;type=display",
+   "retrieved_with": "WebFetch of DailyMed label",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "version_or_date": "Sun Pharmaceutical Industries label, Revised 12/2024",
+   "claims": [
+    {
+     "text": "not for people with known hypersensitivity to trimethoprim or sulfonamides",
+     "quote": "a known hypersensitivity to trimethoprim or sulfonamides",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 26,
+   "kind": "guideline",
+   "cited_as": "Centers for Disease Control and Prevention. Trichomoniasis, STI Treatment Guidelines. Last reviewed September 21, 2022. Accessed November 7, 2026.",
+   "url": "https://www.cdc.gov/std/treatment-guidelines/trichomoniasis.htm",
+   "retrieved_with": "WebFetch of official CDC page",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "version_or_date": "STI Treatment Guidelines; last reviewed September 21, 2022",
+   "notes": "New source; the trichomoniasis partner claim was previously cited to the CDC BV guideline, which does not contain it.",
+   "claims": [
+    {
+     "text": "partners treated too for trichomoniasis",
+     "quote": "Concurrent treatment of all sex partners is vital for preventing reinfections.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "trichomoniasis treated with metronidazole",
+     "quote": "Metronidazole 500 mg 2 times/day for 7 days",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  }
+ ]
+}
