@@ -223,10 +223,10 @@ export function CrossInsurerTable({ stateCode, stateName, currentInsurer }) {
   return (
     <section style={{ marginBottom: 48 }}>
       <h2 style={{ fontFamily: B.fd, fontSize: 22, fontWeight: 700, color: B.navy, margin: "0 0 8px" }}>
-        All Insurance Plans Accepted in {stateName}
+        Insurance Accepted in {stateName}
       </h2>
       <p style={{ fontSize: 14, color: B.text, margin: "0 0 16px", lineHeight: 1.6 }}>
-        {stateName} is one of TeleDirectMD's strongest markets — {allInsurers.length} major insurers accepted here, covering the majority of {stateName} employer plan members.
+        These insurers have coverage pages for {stateName}. TeleDirectMD is in-network with each one; plan types and exclusions vary, so check that your plan is included before booking.
       </p>
       <div style={{ display: "grid", gridTemplateColumns: `repeat(${allInsurers.length}, 1fr)`, gap: 12 }}>
         {allInsurers.filter((insurerId) => insuranceHref(`/insurance/${insurerId}/${stateName.toLowerCase().replace(/\s+/g,'-')}`)).map((insurerId, i) => {
