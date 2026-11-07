@@ -1,0 +1,603 @@
+{
+ "guide": "valacyclovir-for-cold-sores-guide",
+ "checked_at": "2026-11-07",
+ "checked_by": "Claude (repair run)",
+ "scite_verify_papers": "unavailable (quota exhausted until 2026-11-14); retraction status from PubMed article types",
+ "references": [
+  {
+   "n": 1,
+   "kind": "journal",
+   "cited_as": "Spruance SL, Jones TM, Blatter MM, Vargas-Cortes M, Barber J, Hill J, et al. High-dose, short-duration, early valacyclovir therapy for episodic treatment of cold sores. Antimicrob Agents Chemother. 2003;47(3):1072-1080.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/12604544/",
+   "pmid": "12604544",
+   "pmcid": "PMC149313",
+   "doi": "10.1128/AAC.47.3.1072-1080.2003",
+   "record_title": "High-dose, short-duration, early valacyclovir therapy for episodic treatment of cold sores: results of two randomized, placebo-controlled, multicenter studies.",
+   "record_journal": "Antimicrob Agents Chemother",
+   "record_year": "2003",
+   "article_type": "Clinical Trial; Multicenter Study; Randomized Controlled Trial",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract); get_full_text_article returned no body text",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice. Abstract only; claims limited to the abstract.",
+   "claims": [
+    {
+     "text": "Two randomized placebo-controlled trials of 2 g twice in one day, started at first symptoms",
+     "quote": "Subjects were provided with 2 g of valacyclovir twice daily for 1 day (1-day treatment) ... and instructed to initiate treatment upon the first symptoms of a cold sore.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Median episode 1.0 day shorter than placebo with 1-day treatment (about a day)",
+     "quote": "the median duration of the episode (primary endpoint) was reduced by 1.0 day (P = 0.001) with 1-day treatment",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Time to healing and time to end of pain or discomfort significantly shorter",
+     "quote": "The time to lesion healing and time to cessation of pain and/or discomfort were statistically significantly reduced with valacyclovir compared to placebo.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Adverse events similar between valacyclovir and placebo",
+     "quote": "AEs were similar across treatment groups.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Better absorption is what the researchers set out to test with a short high-dose course",
+     "quote": "Oral valacyclovir is better absorbed than oral acyclovir ... This provides the opportunity to explore whether high systemic acyclovir concentrations are effective in the treatment of cold sores",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Authors describe one-day valacyclovir as a convenient dosing alternative to topical therapies",
+     "quote": "The 1-day valacyclovir regimen offers patients a unique and convenient dosing alternative compared to available topical therapies.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Valacyclovir and acyclovir were tested in separate placebo-controlled trials (with refs 4 and 7)",
+     "quote": "Two randomized, double-blind, placebo-controlled studies were conducted.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "kind": "label",
+   "cited_as": "GlaxoSmithKline LLC. VALTREX (valacyclovir) tablets prescribing information. Revised 11/2025. DailyMed.",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f8e0d8f8-cb73-4206-a484-88f5c4fbd719",
+   "version_or_date": "Revised: 11/2025 (DailyMed updated November 12, 2025), set id f8e0d8f8-cb73-4206-a484-88f5c4fbd719",
+   "retrieved_with": "WebFetch of DailyMed label (lookup.cfm and fdaDrugXsl.cfm display for the same set id)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "Replaces the 2008 Drugs@FDA PDF (revision S-014) with the current GSK label on DailyMed. Not a journal article; no retraction check applicable.",
+   "claims": [
+    {
+     "text": "Cold sore dose 2 g twice in one day, 12 hours apart",
+     "quote": "The recommended dosage of VALTREX for treatment of cold sores is 2 grams twice daily for 1 day taken 12 hours apart.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Start at the earliest symptom (tingling, itching, burning)",
+     "quote": "Therapy should be initiated at the earliest symptom of a cold sore (e.g., tingling, itching, or burning).",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Efficacy when started after a bump, blister or ulcer has not been established",
+     "quote": "The efficacy of VALTREX initiated after the development of clinical signs of a cold sore (e.g., papule, vesicle, or ulcer) has not been established.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Do not exceed 1 day of treatment for cold sores",
+     "quote": "Cold sores (Herpes Labialis) Do not exceed 1 day of treatment.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Renal dose for cold sores: two 1-g doses, two 500-mg doses, or a single 500-mg dose depending on kidney function",
+     "quote": "30-49: Two 1-gram doses taken 12 hours apart; 10-29: Two 500-mg doses taken 12 hours apart; <10: 500-mg single dose",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Indicated for cold sores in adults and children 12 and older",
+     "quote": "VALTREX is indicated for the treatment of cold sores (herpes labialis) in pediatric patients aged greater than or equal to 12 years.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Ester of acyclovir; nearly completely converted to acyclovir in gut and liver",
+     "quote": "the hydrochloride salt of the L-valyl ester of the antiviral drug acyclovir ... nearly completely converted to acyclovir and L-valine by first-pass intestinal and/or hepatic metabolism.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Bioavailability of acyclovir after valacyclovir about 54 percent",
+     "quote": "The absolute bioavailability of acyclovir after administration of VALTREX is 54.5% ± 9.1%",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Activated by viral thymidine kinase; blocks DNA copying partly by chain termination",
+     "quote": "phosphorylated intracellularly by the viral encoded thymidine kinase (TK; pUL23) of HSV or VZV into acyclovir monophosphate ... incorporation and termination of the growing viral DNA chain",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Trial subjects started at earliest symptoms before any sign; episodes about 1 day shorter; 2-day regimen no added benefit",
+     "quote": "Subjects self-initiated therapy at the earliest symptoms and prior to any signs of a cold sore. The mean duration of cold sore episodes was about 1 day shorter in treated subjects as compared with placebo.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Two-day course added no benefit over one-day",
+     "quote": "The 2-day regimen did not offer additional benefit over the 1-day regimen.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Cold sore trial side effects headache 14% vs 10%, dizziness 2% vs 1%",
+     "quote": "VALTREX 2 grams twice daily (n = 609) or placebo (n = 609) for 1 day, respectively, included headache (14%, 10%) and dizziness (2%, 1%).",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Most common across uses: headache, nausea, abdominal pain",
+     "quote": "more commonly than in subjects treated with placebo are headache, nausea, and abdominal pain.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Acute kidney failure reported in elderly, renal disease with higher-than-recommended doses, nephrotoxic drugs, inadequate hydration",
+     "quote": "Cases of acute renal failure have been reported in: Elderly patients ... Patients with underlying renal disease who received higher-than-recommended doses ... Patients receiving other nephrotoxic drugs. Patients without adequate hydration.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Advise adequate hydration for all patients",
+     "quote": "Adequate hydration should be maintained for all patients.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "CNS effects such as agitation, confusion, hallucinations; older adults more likely",
+     "quote": "Central nervous system adverse reactions, including agitation, hallucinations, confusion, delirium, seizures ... Elderly patients are more likely to have central nervous system adverse reactions.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Older adults more likely to need dose reduction and to have renal or CNS adverse events",
+     "quote": "Elderly patients are more likely to have reduced renal function and require dose reduction. Elderly patients are also more likely to have renal or CNS adverse events",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Contraindicated after clinically significant hypersensitivity (anaphylaxis, severe skin reaction) to valacyclovir, acyclovir or any component",
+     "quote": "contraindicated in patients who have had a demonstrated clinically significant hypersensitivity reaction [e.g., anaphylaxis, severe cutaneous adverse reactions (SCARs)] to valacyclovir, acyclovir, or any component of the formulation",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Efficacy and safety not established in immunocompromised (apart from one genital herpes use) or children under 12 with cold sores",
+     "quote": "The efficacy and safety of VALTREX have not been established in: Immunocompromised patients other than for the suppression of genital herpes in HIV-1-infected patients with a CD4+ cell count greater than or equal to 100 cells/mm3.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Efficacy and safety not established in children under 12 with cold sores",
+     "quote": "The efficacy and safety of VALTREX have not been established in: ... Patients aged less than 12 years with cold sores (herpes labialis).",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Pregnancy: decades of data have not identified a drug-associated risk of major birth defects",
+     "quote": "Clinical data over several decades with valacyclovir and its metabolite, acyclovir, in pregnant women, have not identified a drug associated risk of major birth defects.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Acyclovir passes into breast milk",
+     "quote": "its metabolite, acyclovir, is present in human milk following oral administration of valacyclovir.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "No clinically significant drug interactions known",
+     "quote": "No clinically significant drug-drug or drug-food interactions with VALTREX are known",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Can be taken with or without food",
+     "quote": "VALTREX may be given without regard to meals.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Missed dose: take as soon as remembered; do not double",
+     "quote": "Instruct patients that if they miss a dose of VALTREX, to take it as soon as they remember. Advise patients not to double their next dose or take more than the prescribed dose.",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Label has no daily cold sore prevention regimen; its daily suppression doses are for genital herpes",
+     "quote": "The recommended dosage of VALTREX for chronic suppressive therapy of recurrent genital herpes is 1 gram once daily",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Prescription drug with an allergy contraindication and kidney-based dosing, so a clinician review precedes prescribing (review framing is editorial)",
+     "quote": "VALTREX is contraindicated in patients who have had a demonstrated clinically significant hypersensitivity reaction ... Elderly patients are more likely to have reduced renal function and require dose reduction.",
+     "quote_source": "label",
+     "verdict": "partly_supported"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "kind": "label",
+   "cited_as": "U.S. Food and Drug Administration. ZOVIRAX (acyclovir) capsules, tablets, and suspension prescribing information. Revised November 2025.",
+   "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/020089s021,019909s028,018828s033lbl.pdf",
+   "version_or_date": "Revised November 2025 (NDA 020089 S-021, 019909 S-028, 018828 S-033)",
+   "retrieved_with": "WebFetch of Drugs@FDA label PDF",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "Label, not a journal article.",
+   "claims": [
+    {
+     "text": "Oral acyclovir average bioavailability 10 to 20 percent",
+     "quote": "Average oral bioavailability 10% to 20%",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Oral acyclovir is not FDA-labeled for cold sores (its labeled oral uses are shingles, genital herpes and chickenpox)",
+     "quote": "ZOVIRAX is indicated for the acute treatment of herpes zoster (shingles). ... indicated for the treatment of initial episodes and the management of recurrent episodes of genital herpes. ... indicated for the treatment of chickenpox (varicella).",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "kind": "journal",
+   "cited_as": "Spruance SL, Stewart JC, Rowe NH, McKeough MB, Wenerstrom G, Freeman DJ. Treatment of recurrent herpes simplex labialis with oral acyclovir. J Infect Dis. 1990;161(2):185-190.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/2153735/",
+   "pmid": "2153735",
+   "doi": "10.1093/infdis/161.2.185",
+   "record_title": "Treatment of recurrent herpes simplex labialis with oral acyclovir.",
+   "record_journal": "J Infect Dis",
+   "record_year": "1990",
+   "article_type": "Clinical Trial; Randomized Controlled Trial",
+   "retrieved_with": "PubMed connector search_articles + get_article_metadata (abstract)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "New source replacing Cernik 2008 (Arch Intern Med, paywalled; abstract only says regimens are tabulated, so none of the four claims could be verified). scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice.",
+   "claims": [
+    {
+     "text": "Trial tested oral acyclovir 400 mg five times daily for 5 days (25 doses)",
+     "quote": "treated with acyclovir capsules, 400 mg five times daily for 5 days, or placebo capsules.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Shorter pain and healing only when started in prodrome or early redness stage",
+     "quote": "acyclovir hastened lesion resolution among the patients who could start treatment in the prodrome or erythema lesion stage.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Did not prevent sores from developing",
+     "quote": "Drug treatment did not affect the development of lesions, measured by the frequency of macular and papular (aborted) lesions and mean maximum lesion size.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "kind": "journal",
+   "cited_as": "Koe KH, Veettil SK, Maharajan MK, Syeed MS, Nair AB, Gopinath D. J Evid Based Dent Pract. 23(1):101778.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36914303/",
+   "pmid": "36914303",
+   "doi": "10.1016/j.jebdp.2022.101778",
+   "record_title": "Comparative efficacy of antiviral agents for prevention and management of herpes labialis: a systematic review and network meta-analysis.",
+   "record_journal": "J Evid Based Dent Pract",
+   "record_year": "2022 (online Sep 14, 2022); volume 23 issue 1",
+   "article_type": "Systematic Review; Network Meta-Analysis",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract); get_full_text_article returned no body text",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "Audit verdict not_supported fixed: claims rewritten to the abstract's actual findings. scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice.",
+   "claims": [
+    {
+     "text": "Several agents effective; best ranked for healing time was oral valacyclovir plus clobetasol, then vidarabine",
+     "quote": "The combination therapy of oral valacyclovir and topical clobetasol was the best ranked with a mean reduction in healing time of -3.50 (95% CI -5.22 to -1.78) followed by vidarabine monophosphate",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "No option shown superior for prevention",
+     "quote": "For primary prevention outcomes, only 7 RCTs fulfilled the inclusion criteria, and none of the interventions was shown to be superior to each other.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "kind": "journal",
+   "cited_as": "Rahimi H, Mara T, Costella J, Speechley M, Bohay R. Oral Surg Oral Med Oral Pathol Oral Radiol. 2012;113(5):618-627.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/22668620/",
+   "pmid": "22668620",
+   "doi": "10.1016/j.oooo.2011.10.010",
+   "record_title": "Effectiveness of antiviral agents for the prevention of recurrent herpes labialis: a systematic review and meta-analysis.",
+   "record_journal": "Oral Surg Oral Med Oral Pathol Oral Radiol",
+   "record_year": "2012",
+   "article_type": "Meta-Analysis; Systematic Review",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract); get_full_text_article returned no body text",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "Only 1 of 10 included trials was low risk of bias. scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice.",
+   "claims": [
+    {
+     "text": "Valacyclovir 500 mg daily for 4 months effective for prevention",
+     "quote": "Oral acyclovir (800-1,600 mg daily) and valacyclovir (500 mg daily for 4 months) were shown to be effective in the prevention of RHL",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Systematic reviews support oral antivirals for prevention",
+     "quote": "This review found support for the use of systemic acyclovir and valacyclovir for the prevention of RHL.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "kind": "journal",
+   "cited_as": "Sloan A, Mortezavi M, Gerhart J, Banerjee A, Alami NN, Najera I, et al. Open Forum Infect Dis. 13(1):ofaf776.",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12777976/",
+   "pmid": "41509676",
+   "pmcid": "PMC12777976",
+   "doi": "10.1093/ofid/ofaf776",
+   "record_title": "Orolabial and Genital Herpes Clinical Trials: A Meta-analysis of Endpoints.",
+   "record_journal": "Open Forum Infect Dis",
+   "record_year": "2025 (online Dec 17, 2025); volume 13 issue 1",
+   "article_type": "Journal Article; Review",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract); get_full_text_article returned no body text",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "Audit verdict overstated fixed: 'field consolidating around short-course regimens' removed. scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice.",
+   "claims": [
+    {
+     "text": "Herpes trials over 30 years used varied, nonstandardized endpoints; called for reassessment",
+     "quote": "over the last 30 years, clinical trials have used various endpoints with nonstandardized definitions. A reassessment of appropriate endpoints along with regulatory guidance would assist",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "kind": "journal",
+   "cited_as": "Mancini A, Inchingolo AM, Marinelli G, Trilli I, Sardano R, Pezzolla C, et al. Int J Mol Sci. 2025;26(17):8490.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40943411/",
+   "pmid": "40943411",
+   "pmcid": "PMC12428954",
+   "doi": "10.3390/ijms26178490",
+   "record_title": "Topical and Systemic Therapeutic Approaches in the Treatment of Oral Herpes Simplex Virus Infection: A Systematic Review.",
+   "record_journal": "Int J Mol Sci",
+   "record_year": "2025",
+   "article_type": "Systematic Review",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract); get_full_text_article returned no body text",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "Previously misquoted as concluding oral beats topical; now cited for its complementary-roles conclusion. scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice.",
+   "claims": [
+    {
+     "text": "Topical and systemic therapies are complementary; systemic also addresses recurrence reduction",
+     "quote": "Topical and systemic therapies serve complementary roles in HSV management. ... systemic therapy addresses broader clinical objectives, including recurrence reduction.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Topicals mainly shorten lesion duration and symptoms when applied early; generally do not change recurrence",
+     "quote": "Topical treatments ... primarily reduce lesion duration and alleviate local symptoms when applied early. These interventions have limited systemic absorption and generally do not influence recurrence frequency.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Systemic therapy particularly suited to recurrent or high-risk infections",
+     "quote": "Systemic therapy is particularly indicated for recurrent, disseminated, or high-risk infections.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "kind": "journal",
+   "cited_as": "Hull CM, Harmenberg J, Arlander E, Aoki F, Bring J, Darpo B, et al. J Am Acad Dermatol. 64(4):696.e1-11.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/20851499/",
+   "pmid": "20851499",
+   "doi": "10.1016/j.jaad.2010.08.012",
+   "record_title": "Early treatment of cold sores with topical ME-609 decreases the frequency of ulcerative lesions: a randomized, double-blind, placebo-controlled, patient-initiated clinical trial.",
+   "record_journal": "J Am Acad Dermatol",
+   "record_year": "2010 (online Sep 20, 2010); volume 64 issue 4",
+   "article_type": "Multicenter Study; Randomized Controlled Trial",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract); get_full_text_article returned no body text",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice.",
+   "claims": [
+    {
+     "text": "Acyclovir 5% plus hydrocortisone 1% cream prevented ulcerative progression more often: 42% vs 35% vs 26%",
+     "quote": "Of patients receiving ME-609, 42% did not develop an ulcerative lesion compared with 35% of patients receiving acyclovir in ME-609 vehicle (P = .014) and 26% of patients receiving placebo",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Virus culture positivity did not differ among groups",
+     "quote": "There were no differences among groups in the number of patients with positive herpes simplex virus cultures.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "kind": "journal",
+   "cited_as": "Opstelten W, Neven AK, Eekhof J. Treatment and prevention of herpes labialis. Can Fam Physician. 2008;54(12):1683-1687.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/19074705/",
+   "pmid": "19074705",
+   "pmcid": "PMC2602638",
+   "record_title": "Treatment and prevention of herpes labialis.",
+   "record_journal": "Can Fam Physician",
+   "record_year": "2008",
+   "article_type": "Journal Article; Review",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract); get_full_text_article returned no body text",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "No DOI in PubMed record; PMID used. scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice.",
+   "claims": [
+    {
+     "text": "Long-term oral antivirals can limit the number of recurrences",
+     "quote": "In the long term, the number of relapses of herpes labialis can be limited with oral antiviral medication.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "kind": "other_web",
+   "cited_as": "Porter D; reviewed by Chaudhary OR. Herpes eye infections: what is herpes keratitis? American Academy of Ophthalmology. Published Aug 13, 2026.",
+   "url": "https://www.aao.org/eye-health/diseases/herpes-keratitis",
+   "version_or_date": "Published Aug. 13, 2026",
+   "retrieved_with": "WebSearch + WebFetch of official page",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "New source replacing CDC 2021 STI genital herpes page (did not address cold sores or telehealth; audit not_supported). Patient-education page of a professional society.",
+   "claims": [
+    {
+     "text": "Eye symptoms: pain, redness, blurred vision, tearing, discharge, light sensitivity",
+     "quote": "The symptoms of ocular herpes, including herpes keratitis, may include: pain, redness, rash, blurred vision, tearing, discharge, sensitivity to light",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Herpes eye infection can scar the cornea and cause vision loss; see an eye doctor right away",
+     "quote": "the infection may lead to scarring of the cornea, loss of vision, and sometimes even blindness. ... See an ophthalmologist immediately",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Herpes spreads to the eye by touching an active sore then the eye",
+     "quote": "A herpes infection can be transferred to the eye by touching an active herpes lesion and then your eye.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "kind": "journal",
+   "cited_as": "Woo SB, Challacombe SJ. Management of recurrent oral herpes simplex infections. Oral Surg Oral Med Oral Pathol Oral Radiol Endod. 2007;103 Suppl:S12.e1-18.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/17379150/",
+   "pmid": "17379150",
+   "doi": "10.1016/j.tripleo.2006.11.004",
+   "record_title": "Management of recurrent oral herpes simplex infections.",
+   "record_journal": "Oral Surg Oral Med Oral Pathol Oral Radiol Endod",
+   "record_year": "2007",
+   "article_type": "Journal Article; Review",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract); get_full_text_article returned no body text",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "Latency claim (unverifiable) removed. scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice.",
+   "claims": [
+    {
+     "text": "Expert reviewers describe other preventive regimens",
+     "quote": "RHL in the immunocompetent can be effectively prevented with (1) sunscreen alone (SPF 15 or above), (2) systemic ACV 400 mg 2 to 3 times a day, or (3) systemic valacyclovir 500 to 2000 mg twice a day.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Longer treatment courses in the immunocompromised",
+     "quote": "systemic valacyclovir 500 to 1000 mg twice a day for 3 to 5 days (longer in the immunocompromised).",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "kind": "journal",
+   "cited_as": "Sacks SL, Thisted RA, Jones TM, Barbarash RA, Mikolich DJ, Ruoff GE, et al. J Am Acad Dermatol. 2001;45(2):222-230.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/11464183/",
+   "pmid": "11464183",
+   "doi": "10.1067/mjd.2001.116215",
+   "record_title": "Clinical efficacy of topical docosanol 10% cream for herpes simplex labialis: A multicenter, randomized, placebo-controlled trial.",
+   "record_journal": "J Am Acad Dermatol",
+   "record_year": "2001",
+   "article_type": "Clinical Trial; Multicenter Study; Randomized Controlled Trial",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract); get_full_text_article returned no body text",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice.",
+   "claims": [
+    {
+     "text": "Docosanol 10% cream applied 5 times daily shortened median healing by 18 hours vs placebo",
+     "quote": "The median time to healing in the 370 docosanol-treated patients was 4.1 days, 18 hours shorter than observed in the 367 placebo-treated patients ... Docosanol applied 5 times daily",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "kind": "journal",
+   "cited_as": "Chi CC, Wang SH, Delamere FM, Wojnarowska F, Peters MC, Kanjirath PP. Cochrane Database Syst Rev. 2015;(8):CD010095.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/26252373/",
+   "pmid": "26252373",
+   "pmcid": "PMC6461191",
+   "doi": "10.1002/14651858.CD010095.pub2",
+   "record_title": "Interventions for prevention of herpes simplex labialis (cold sores on the lips).",
+   "record_journal": "Cochrane Database Syst Rev",
+   "record_year": "2015",
+   "article_type": "Meta-Analysis; Systematic Review",
+   "retrieved_with": "PubMed connector get_article_metadata (abstract); get_full_text_article returned no body text",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "Four-outbreaks-per-year threshold (not in source) removed. scite_unavailable (Scite quota exhausted until 2026-11-14); PubMed article types checked: no Retracted Publication or Retraction Notice.",
+   "claims": [
+    {
+     "text": "Long-term oral antivirals can prevent cold sores but benefit is small",
+     "quote": "The current evidence demonstrates that long-term use of oral antiviral agents can prevent HSL, but the clinical benefit is small.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "One trial: long-term valacyclovir reduced incidence by 0.09 episodes per person per month",
+     "quote": "One RCT found long-term use of valaciclovir effective in reducing the incidence of HSL (with a decrease of 0.09 episodes per participant per month; n = 95).",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "No cure; recurs periodically",
+     "quote": "There is no cure available, and it recurs periodically.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  }
+ ]
+}
