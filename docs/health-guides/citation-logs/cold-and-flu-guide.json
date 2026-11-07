@@ -1,0 +1,1258 @@
+{
+  "guide": "cold-and-flu-guide",
+  "checked_at": "2026-11-07",
+  "checked_by": "Claude (repair run)",
+  "scite_verify_papers": "unavailable (quota exhausted until 2026-11-14); retraction status from PubMed article types",
+  "references": [
+    {
+      "n": 1,
+      "kind": "agency_page",
+      "cited_as": "Centers for Disease Control and Prevention (CDC). About Common Cold. Last reviewed February 19, 2026. Accessed November 7, 2026.",
+      "url": "https://www.cdc.gov/common-cold/about/index.html",
+      "version_or_date": "Last reviewed February 19, 2026",
+      "retrieved_with": "WebFetch of official CDC page",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "Rewrote: dropped the unsupported 30-50% rhinovirus share, the 7-10 day duration and the \"more than any other illness\" claim. The rest of the virus list (parainfluenza viruses, adenoviruses, enteroviruses, human metapneumovirus) is on the page but the full sentence exceeded the fetch quote limit.",
+      "claims": [
+        {
+          "text": "adults average two to three colds a year",
+          "quote": "Every year in the United States, adults have an average of two to three colds.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "colds are one of the most frequent reasons for missed school and work",
+          "quote": "They are also one of the most frequent reasons for missed school and work.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "more than 200 viruses cause colds; rhinoviruses most frequent; other causes include common human coronaviruses, parainfluenza, adenoviruses, enteroviruses, human metapneumovirus",
+          "quote": "More than 200 respiratory viruses can cause colds. Rhinoviruses are the most frequent cause of colds in the United States. Other respiratory viruses that can cause colds in the United States include common human coronaviruses,",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "cold symptoms usually peak within 2 to 3 days; colds usually last less than a week",
+          "quote": "The signs and symptoms of a cold usually peak within 2 to 3 days of infection. Colds usually last less than a week.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "fever with a cold is usually low grade in adults",
+          "quote": "Fever (usually low grade in older children and adults)",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "kind": "agency_page",
+      "cited_as": "Centers for Disease Control and Prevention (CDC). Cold Versus Flu. Last reviewed August 8, 2024. Accessed November 7, 2026.",
+      "url": "https://www.cdc.gov/flu/about/coldflu.html",
+      "version_or_date": "Last reviewed August 8, 2024",
+      "retrieved_with": "WebFetch of official CDC page",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "Cited date corrected (page says last reviewed August 8, 2024). Return-to-activity guidance, fever ranges and the 15-minute rapid test time are not on this page; return-to-activity now cites ref 21 and the other numbers were cut.",
+      "claims": [
+        {
+          "text": "cold and flu are both contagious respiratory illnesses caused by different viruses; hard to tell apart on symptoms alone",
+          "quote": "Influenza (flu) and the common cold are both contagious respiratory illnesses, but they are caused by different viruses.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "flu is worse, symptoms more intense and more abrupt",
+          "quote": "flu is worse than the common cold, and symptoms are typically more intense and begin more abruptly.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "colds milder and more likely to include a runny or stuffy nose",
+          "quote": "People with colds are more likely to have a runny or stuffy nose than people who have flu.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "colds rarely cause problems such as pneumonia or hospitalization",
+          "quote": "Colds generally do not result in serious health problems, such as pneumonia, bacterial infections, or hospitalizations.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "special tests can tell whether a person has flu",
+          "quote": "Special tests can tell if a person is sick with flu.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "kind": "agency_page",
+      "cited_as": "Centers for Disease Control and Prevention (CDC). 2024–2025 Influenza Season Summary: Severity, Disease Burden, and Burden Prevented. Last reviewed March 12, 2026 (estimates preliminary). Accessed November 7, 2026.",
+      "url": "https://www.cdc.gov/flu-burden/php/data-vis-vac/2024-2025-prevented.html",
+      "version_or_date": "Last reviewed March 12, 2026; estimates preliminary",
+      "retrieved_with": "WebFetch of official CDC page",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "Replaces the \"About Estimated Flu Burden\" page, which gives only 2010-2025 ranges in text. Page notes the illnesses-prevented figure was corrected to 10 million on March 12, 2026 (guide previously said 11 million). The 2025-26 vaccine recommendation now cites ref 22.",
+      "claims": [
+        {
+          "text": "2024-2025 season: about 51 million illnesses, 710,000 hospitalizations, 45,000 deaths (preliminary)",
+          "quote": "51 million people were sick with flu ... 710,000 people had an flu-related hospitalization ... 45,000 flu-related deaths occurred during the 2024–2025 season",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "estimates are preliminary",
+          "quote": "These estimates for the 2024-2025 season are still preliminary",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "vaccination prevented about 10 million illnesses, 5 million medical visits, 180,000 hospitalizations, 12,000 deaths",
+          "quote": "10 million flu-related illnesses ... 5 million flu-related medical visits ... 180,000 flu-related hospitalizations ... 12,000 flu-related deaths",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "season severity high",
+          "quote": "the severity of the 2024-2025 season was high",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "VE against outpatient visits ranged from 40% in adults 65+ to 60% in children 6 months to 4 years",
+          "quote": "lowest (40%) among people 65 years and older and highest (60%) among children 6 months to 4 years",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "kind": "guideline",
+      "cited_as": "Uyeki TM, Bernstein HH, Bradley JS, et al. Clinical Practice Guidelines by the Infectious Diseases Society of America: 2018 Update on Diagnosis, Treatment, Chemoprophylaxis, and Institutional Outbreak Management of Seasonal Influenza. Clin Infect Dis. 2019;68(6):e1-e47.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30566567/",
+      "pmid": "30566567",
+      "pmcid": "PMC6653685",
+      "doi": "10.1093/cid/ciy866",
+      "record_title": "Clinical Practice Guidelines by the Infectious Diseases Society of America: 2018 Update on Diagnosis, Treatment, Chemoprophylaxis, and Institutional Outbreak Management of Seasonal Influenzaa.",
+      "record_journal": "Clin Infect Dis",
+      "record_year": "2019",
+      "article_type": "Journal Article; Research Support, Non-U.S. Gov't (IDSA clinical practice guideline)",
+      "version_or_date": "2018 update, published Clin Infect Dis 2019;68(6):e1-e47",
+      "retrieved_with": "PubMed get_article_metadata + get_full_text_article (PMC6653685)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "Merged former refs 4 (idsociety.org page) and 9 (PubMed record) into this single PubMed record; title copied from PMC full text (PubMed title carries a typo \"Influenzaa\"). scite_unavailable (quota exhausted until 2026-11-14). PubMed article types ['Journal Article', \"Research Support, Non-U.S. Gov't\"]: no Retracted Publication or Retraction Notice. The former \"6-12 hours\" claim was rewritten to the guideline's 6-hour figure; the \"1 to 1.5 days\" figure was not found and was replaced with the guideline's 1-2 day RCT figure.",
+      "claims": [
+        {
+          "text": "rapid molecular assays preferred over RIDTs in outpatients",
+          "quote": "Clinicians should use rapid molecular assays (ie, nucleic acid amplification tests) over rapid influenza diagnostic tests (RIDTs) in outpatients to improve detection of influenza virus infection",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "treatment started within 6 hours reduced symptoms by about 4 days",
+          "quote": "in both adults and children, NAI treatment started within 6 hours of illness onset reduced symptoms by about 4 days",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "RCTs in mostly non-high-risk outpatients enrolled within 36-48 h: fever and symptoms shortened about 1-2 days",
+          "quote": "reducing the duration of fever and symptoms by approximately 1–2 days were conducted among mostly non-high-risk adult and pediatric outpatients with uncomplicated laboratory-confirmed influenza, enrolled within 36–48 hours of illness onset",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "pooled observational analysis: survival benefit of NAI treatment in hospitalized adults",
+          "quote": "reported survival benefit of NAI treatment (primarily oseltamivir) in adults compared with no treatment",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "adamantanes not recommended; active only against influenza A; high resistance",
+          "quote": "with activity only against susceptible influenza A viruses, are not recommended for treatment of influenza A given documented high levels of adamantane resistance",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "oseltamivir preferred in pregnancy",
+          "quote": "Oseltamivir is preferred for treatment of influenza in pregnant women over inhaled zanamivir",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "oseltamivir-resistant H1N1 predominated worldwide in 2008-2009",
+          "quote": "during the 2008–2009 season, an oseltamivir-resistant H1N1 virus strain (susceptible to both adamantane and zanamivir) became the predominant circulating strain worldwide",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "kind": "agency_page",
+      "cited_as": "Centers for Disease Control and Prevention (CDC). Treating Flu with Antiviral Drugs. Last reviewed June 26, 2026. Accessed November 7, 2026.",
+      "url": "https://www.cdc.gov/flu/treatment/antiviral-drugs.html",
+      "version_or_date": "Last reviewed June 26, 2026",
+      "retrieved_with": "WebFetch of official CDC page",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "The contagious-period statement formerly cited here moved to ref 20 (How Flu Spreads); \"treated regardless of timing with reduced mortality\" was rewritten.",
+      "claims": [
+        {
+          "text": "four FDA-approved antivirals recommended",
+          "quote": "There are four FDA-approved antiviral drugs recommended by CDC to treat flu this season.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "starting later can still be beneficial for higher-risk people",
+          "quote": "starting them later can still be beneficial, especially if the sick person is at higher risk of serious flu complications",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "baloxavir not recommended in pregnancy or breastfeeding",
+          "quote": "Baloxavir (trade name Xofluza®) is not recommended for treatment of flu during pregnancy or while breastfeeding",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "baloxavir not recommended for hospitalized patients due to limited data",
+          "quote": "Baloxavir is also not recommended for treatment of flu in hospitalized patients due to limited data.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "antivirals shorten time sick by about a day",
+          "quote": "Flu antiviral drugs can lessen symptoms and shorten the time you are sick by about a day.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "kind": "journal",
+      "cited_as": "Nault D, Machingo TA, Shipper AG, et al. Zinc for prevention and treatment of the common cold. Cochrane Database Syst Rev. 2024;5(5):CD014914.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38719213/",
+      "pmid": "38719213",
+      "pmcid": "PMC11078591",
+      "doi": "10.1002/14651858.CD014914.pub2",
+      "record_title": "Zinc for prevention and treatment of the common cold.",
+      "record_journal": "Cochrane Database Syst Rev",
+      "record_year": "2024",
+      "article_type": "Systematic Review (PubMed types: Journal Article; Research Support, Non-U.S. Gov't; Systematic Review)",
+      "retrieved_with": "PubMed get_article_metadata",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "Split out of former ref 6 (which combined two sources). The guide previously quoted this review as concluding the evidence was \"insufficient\"; its abstract does not say that and the claim was rewritten. scite_unavailable (quota exhausted until 2026-11-14). PubMed article types ['Journal Article', \"Research Support, Non-U.S. Gov't\", 'Systematic Review']: no Retracted Publication or Retraction Notice.",
+      "claims": [
+        {
+          "text": "zinc for treatment may reduce cold duration, low certainty",
+          "quote": "When zinc is used for cold treatment, there may be a reduction in the mean duration of the cold in days (MD -2.37, 95% CI -4.21 to -0.53; I² = 97%; 8 studies, 972 participants; low-certainty evidence)",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "more non-serious adverse events with zinc treatment",
+          "quote": "There is probably an increase in the risk of non-serious adverse events when zinc is used for cold treatment",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "kind": "journal",
+      "cited_as": "Hemilä H, Chalker E. Shortcomings in the Cochrane review on zinc for the common cold (2024). Front Med (Lausanne). 2024;11:1470004.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39478818/",
+      "pmid": "39478818",
+      "pmcid": "PMC11521859",
+      "doi": "10.3389/fmed.2024.1470004",
+      "record_title": "Shortcomings in the Cochrane review on zinc for the common cold (2024).",
+      "record_journal": "Front Med (Lausanne)",
+      "record_year": "2024",
+      "article_type": "Journal Article (critique of the 2024 Cochrane review; no abstract)",
+      "retrieved_with": "PubMed get_article_metadata + get_full_text_article (PMC11521859)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "Link changed from the frontiersin.org URL with a stray /full suffix to the PubMed record. The 33% figure and \">75 mg/day\" threshold in this article come from the authors' earlier meta-analyses, so per spec 4.4 they were dropped rather than cited secondhand; the 37% figure is this article's own re-analysis. \"Start within 24 hours\" and \"every 2-3 hours\" were cut (not in either zinc source). scite_unavailable (quota exhausted until 2026-11-14). PubMed article types ['Journal Article']: no Retracted Publication or Retraction Notice.",
+      "claims": [
+        {
+          "text": "re-analysis: zinc lozenges shortened colds in adults by 37%; no evidence yet in children",
+          "quote": "The published trials indicate that appropriately composed zinc lozenges can shorten colds in adults by about 37%, but so far there is no evidence that zinc lozenges shorten colds in children.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "review pooled lozenges and nasal zinc at very different doses",
+          "quote": "Analysis 9.1 includes both zinc lozenge trials and nasal zinc administration trials, although they are not similar treatments.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "lozenges dissolve slowly in the mouth; citric acid and similar ingredients bind zinc",
+          "quote": "contained citric acid, tartaric acid, mannitol-sorbitol, or other substances that bind zinc so that it is not freely released in the oropharyngeal region",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "lozenges are dissolved slowly in the mouth",
+          "quote": "zinc lozenges (tablets to be dissolved slowly in the mouth)",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "lozenge side effects mostly bad taste and mouth irritation",
+          "quote": "All examined zinc lozenges caused taste and mouth effects for some patients: sour taste, sweet taste, bad taste, mouth dryness and mouth irritation",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "kind": "journal",
+      "cited_as": "Oduwole O, Udoh EE, Oyo-Ita A, Meremikwu MM. Honey for acute cough in children. Cochrane Database Syst Rev. 2018;4(4):CD007094.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29633783/",
+      "pmid": "29633783",
+      "pmcid": "PMC6513626",
+      "doi": "10.1002/14651858.CD007094.pub5",
+      "record_title": "Honey for acute cough in children.",
+      "record_journal": "Cochrane Database Syst Rev",
+      "record_year": "2018",
+      "article_type": "Systematic Review; Meta-Analysis",
+      "retrieved_with": "PubMed get_article_metadata + get_full_text_article (abstract and plain language summary)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "Link changed from cochrane.org summary page to the PubMed record retrieved. The botulism safety note now cites this review's plain language summary. scite_unavailable (quota exhausted until 2026-11-14). PubMed article types ['Journal Article', 'Meta-Analysis', 'Systematic Review']: no Retracted Publication or Retraction Notice.",
+      "claims": [
+        {
+          "text": "honey probably relieves cough better than no treatment, diphenhydramine, placebo; little or no difference vs dextromethorphan",
+          "quote": "Honey probably relieves cough symptoms to a greater extent than no treatment, diphenhydramine, and placebo, but may make little or no difference compared to dextromethorphan.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "children aged 12 months to 18 years",
+          "quote": "for children aged 12 months to 18 years for acute cough in ambulatory settings",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "honey not advised for infants up to 12 months because bacteria can cause paralysis",
+          "quote": "Using honey for infants aged up to 12 months is not advised because of poor immunity against bacteria that may be present, which can cause paralysis.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "kind": "guideline",
+      "cited_as": "Centers for Disease Control and Prevention (CDC). Influenza Antiviral Medications: Summary for Clinicians. Reviewed March 10, 2026. Accessed November 7, 2026.",
+      "url": "https://www.cdc.gov/flu/hcp/antivirals/summary-clinicians.html",
+      "version_or_date": "Reviewed and updated March 10, 2026",
+      "retrieved_with": "WebFetch of official CDC page (several reads for verbatim table text)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "Former ref 8. The former claim \"approved by the FDA in 2018 for age 5 and up\" was wrong (2018 approval was age 12+); age 5+ now cites the Xofluza label (ref 16). \"CDC treats regardless of timing\" and \"only hospitalized and high-risk get meaningful benefit beyond 48 hours\" were rewritten to CDC wording. The \"no hepatic adjustment\" claim moved to the Tamiflu label (ref 15). CDC page quotes were returned by the fetch tool in fragments of 125 characters or fewer; ellipses join fragments from the same page.",
+      "claims": [
+        {
+          "text": "clinical benefit greatest when started early, especially within 48 hours",
+          "quote": "Clinical benefit is greatest when antiviral treatment is administered early, especially within 48 hours",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "treatment recommended ASAP for hospitalized, severe/complicated/progressive, or higher-risk patients",
+          "quote": "Antiviral treatment is recommended as soon as possible for any patient with suspected or confirmed influenza who:",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "treatment might still benefit hospitalized patients up to 4 or 5 days after onset",
+          "quote": "some studies suggest that antiviral treatment might still be beneficial in hospitalized patients ... up to 4 or 5 days after illness onset",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "decision to start treatment should not wait for lab confirmation",
+          "quote": "Decisions about starting antiviral treatment should not wait for laboratory confirmation of influenza.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "oral oseltamivir preferred in pregnancy",
+          "quote": "Oral oseltamivir is the preferred treatment during pregnancy",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "zanamivir, baloxavir, peramivir not recommended routinely for hospitalized patients",
+          "quote": "Inhaled zanamivir, oral baloxavir, and intravenous peramivir are not recommended routinely",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "baloxavir monotherapy not recommended in severely immunosuppressed",
+          "quote": "CDC does not recommend use of baloxavir for monotherapy of influenza in severely immunosuppressed persons.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "zanamivir 10 mg (two 5-mg inhalations) twice daily; approved for treatment ages 7+",
+          "quote": "10 mg (two 5-mg inhalations) twice daily ... 7 yrs and older",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "zanamivir not for underlying airway disease, bronchospasm risk",
+          "quote": "Inhaled zanamivir is contraindicated in patients with underlying airways disease ... risk of bronchospasm, especially in the setting of underlying airways disease",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "peramivir single IV dose, approved ages 6 months+",
+          "quote": "with a single dose in people aged ≥6 months ... via intravenous infusion for a minimum of 15 minutes",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "oseltamivir common adverse events nausea, vomiting, headache",
+          "quote": "nausea, vomiting, headache.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "neuropsychiatric events mainly reported in Japanese pediatric patients",
+          "quote": "Self-injury or delirium; mainly reported among Japanese pediatric patients.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "oseltamivir renal dose adjustment at CrCl 60 or below; not for ESRD not on dialysis",
+          "quote": "Dose adjustment of oseltamivir is recommended for patients with creatinine clearance between 10 and 60 mL/min ... Oseltamivir is not recommended for patients with ESRD not undergoing dialysis.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "baloxavir first approved October 2018 for age 12+",
+          "quote": "In October 2018, FDA approved baloxavir for the treatment of acute uncomplicated influenza in patients 12 years",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "kind": "journal",
+      "cited_as": "Hayden FG, Sugaya N, Hirotsu N, et al. Baloxavir Marboxil for Uncomplicated Influenza in Adults and Adolescents. N Engl J Med. 2018;379(10):913-923.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30184455/",
+      "pmid": "30184455",
+      "doi": "10.1056/NEJMoa1716197",
+      "record_title": "Baloxavir Marboxil for Uncomplicated Influenza in Adults and Adolescents.",
+      "record_journal": "N Engl J Med",
+      "record_year": "2018",
+      "article_type": "Randomized Controlled Trial (phase 2 and phase 3, CAPSTONE-1)",
+      "retrieved_with": "PubMed get_article_metadata",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "\"Non-inferior\" wording replaced by the abstract's \"similar\". The \"higher in children\" resistance point now cites the Xofluza label (ref 16), and the pregnancy restriction cites CDC (ref 5), not this trial. scite_unavailable (quota exhausted until 2026-11-14). PubMed article types ['Clinical Trial, Phase II', 'Clinical Trial, Phase III', 'Journal Article', 'Multicenter Study', 'Randomized Controlled Trial', \"Research Support, Non-U.S. Gov't\"]: no Retracted Publication or Retraction Notice.",
+      "claims": [
+        {
+          "text": "median time to alleviation 53.7 h baloxavir vs 80.2 h placebo (about 26 h difference)",
+          "quote": "The median time to alleviation of symptoms was 53.7 hours (95% confidence interval [CI], 49.5 to 58.5) with baloxavir, as compared with 80.2 hours (95% CI, 72.6 to 87.1) with placebo",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "time to alleviation similar to oseltamivir",
+          "quote": "The time to alleviation of symptoms was similar with baloxavir and oseltamivir.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "reduced-susceptibility variants in 9.7% of baloxavir recipients (phase 3)",
+          "quote": "I38T/M/F substitutions conferring reduced susceptibility to baloxavir occurred in 2.2% and 9.7% of baloxavir recipients in the phase 2 trial and phase 3 trial, respectively.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "baloxavir is a cap-dependent endonuclease inhibitor",
+          "quote": "Baloxavir marboxil is a selective inhibitor of influenza cap-dependent endonuclease.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "adverse events no more common than placebo",
+          "quote": "Adverse events were reported in 20.7% of baloxavir recipients, 24.6% of placebo recipients, and 24.8% of oseltamivir recipients.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "kind": "journal",
+      "cited_as": "Jefferson T, Jones MA, Doshi P, et al. Oseltamivir for influenza in adults and children: systematic review of clinical study reports and summary of regulatory comments. BMJ. 2014;348:g2545.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24811411/",
+      "pmid": "24811411",
+      "pmcid": "PMC3981975",
+      "doi": "10.1136/bmj.g2545",
+      "record_title": "Oseltamivir for influenza in adults and children: systematic review of clinical study reports and summary of regulatory comments.",
+      "record_journal": "BMJ",
+      "record_year": "2014",
+      "article_type": "Systematic Review; Meta-Analysis",
+      "retrieved_with": "PubMed get_article_metadata",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "This is a BMJ systematic review, not a Cochrane review; the guide no longer calls it \"Cochrane\". P value corrected from \"less than 0.0001\" to the abstract's P<0.001. The headache figure is now labelled as a prophylaxis-trial result. Removed: \"most patients notice improvement within 24 to 48 hours\" (not in the source), \"untreated flu lasts 5 to 7 days\" and the chart's \"~7 days\" placebo bar (not in the source); the 81% household-transmission figure was not found and was replaced. scite_unavailable (quota exhausted until 2026-11-14). PubMed article types ['Journal Article', 'Meta-Analysis', \"Research Support, Non-U.S. Gov't\", 'Systematic Review']: no Retracted Publication or Retraction Notice.",
+      "claims": [
+        {
+          "text": "adult treatment trials: time to first alleviation reduced 16.8 h (95% CI 8.4 to 25.1, P<0.001)",
+          "quote": "In treatment trials on adults, oseltamivir reduced the time to first alleviation of symptoms by 16.8 hours (95% confidence interval 8.4 to 25.1 hours, P<0.001).",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "no difference in hospital admissions in adults",
+          "quote": "In treatment trials there was no difference in admissions to hospital in adults",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "no significant reduction in bronchitis, otitis media, sinusitis or serious complications; unverified pneumonia effect not significant with detailed form",
+          "quote": "There was no significant reduction in risk of unverified bronchitis, otitis media, sinusitis, or any complication classified as serious or that led to study withdrawal.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "clinical study reports obtained from EMA and Roche",
+          "quote": "From the European Medicines Agency and Roche, we obtained clinical study reports for 83 trials.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "nausea RD 3.66%, vomiting RD 4.56% in adult treatment",
+          "quote": "Oseltamivir in the treatment of adults increased the risk of nausea (risk difference 3.66%, 0.90% to 7.39%; ...) and vomiting (4.56%, 2.39% to 7.58%",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "headache RD about 3% in prophylaxis trials",
+          "quote": "In prophylaxis studies, oseltamivir increased the risk of headaches on-treatment (risk difference 3.15%",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "prophylaxis reduced symptomatic flu in households in one study; no evidence of reduced transmission",
+          "quote": "households (13.6%, 9.52% to 15.47%; NNTB 7, 6 to 11) based on one study, but there was no significant effect on asymptomatic influenza and no evidence of a reduction in transmission.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "kind": "journal",
+      "cited_as": "Monto AS, Kuhlbusch K, Bernasconi C, et al. Efficacy of Baloxavir Treatment in Preventing Transmission of Influenza. N Engl J Med. 2025;392(16):1582-1593.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40267424/",
+      "pmid": "40267424",
+      "doi": "10.1056/NEJMoa2413156",
+      "record_title": "Efficacy of Baloxavir Treatment in Preventing Transmission of Influenza.",
+      "record_journal": "N Engl J Med",
+      "record_year": "2025",
+      "article_type": "Randomized Controlled Trial (phase 3b, CENTERSTONE)",
+      "retrieved_with": "PubMed get_article_metadata",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "\"Odds of transmitting dropped from 13.4% to 9.5%\" corrected to adjusted incidence; added the non-significant symptomatic-transmission result. scite_unavailable (quota exhausted until 2026-11-14). PubMed article types ['Journal Article', 'Randomized Controlled Trial', 'Clinical Trial, Phase III', 'Multicenter Study']: no Retracted Publication or Retraction Notice.",
+      "claims": [
+        {
+          "text": "1,457 index patients and 2,681 household contacts",
+          "quote": "Overall, 1457 index patients and 2681 household contacts were enrolled across the 2019-2024 influenza seasons",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "transmission 9.5% vs 13.4%, aOR 0.68, adjusted relative risk reduction 29%",
+          "quote": "adjusted incidence, 9.5% vs. 13.4%; adjusted odds ratio, 0.68; 95.38% confidence interval [CI], 0.50 to 0.93; P = 0.01), with an adjusted relative risk reduction of 29%",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "symptomatic transmission 5.8% vs 7.6%, not significant",
+          "quote": "The adjusted incidence of transmission of influenza virus by day 5 that resulted in symptoms was 5.8% with baloxavir and 7.6% with placebo; however, the difference was not significant",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "NAI studies have not shown sufficient evidence of preventing transmission",
+          "quote": "Studies of treatment with neuraminidase inhibitors have not shown sufficient evidence that they prevent transmission to contacts.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "kind": "journal",
+      "cited_as": "Ison MG, Portsmouth S, Yoshida Y, et al. Early treatment with baloxavir marboxil in high-risk adolescent and adult outpatients with uncomplicated influenza (CAPSTONE-2): a randomised, placebo-controlled, phase 3 trial. Lancet Infect Dis. 2020;20(10):1204-1214.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32526195/",
+      "pmid": "32526195",
+      "doi": "10.1016/S1473-3099(20)30004-9",
+      "record_title": "Early treatment with baloxavir marboxil in high-risk adolescent and adult outpatients with uncomplicated influenza (CAPSTONE-2): a randomised, placebo-controlled, phase 3 trial.",
+      "record_journal": "Lancet Infect Dis",
+      "record_year": "2020",
+      "article_type": "Randomized Controlled Trial (phase 3)",
+      "retrieved_with": "PubMed get_article_metadata",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "Replaced \"non-inferior to oseltamivir ... superior to placebo on flu complications\" (not a formal result in the abstract) with the abstract's wording. scite_unavailable (quota exhausted until 2026-11-14). PubMed article types ['Clinical Trial, Phase III', 'Journal Article', 'Multicenter Study', 'Randomized Controlled Trial']: no Retracted Publication or Retraction Notice.",
+      "claims": [
+        {
+          "text": "superior to placebo and similar to oseltamivir in high-risk outpatients",
+          "quote": "Single-dose baloxavir has superior efficacy to placebo and similar efficacy to oseltamivir for ameliorating influenza symptoms in high-risk outpatients.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "authors conclude it supports early therapy to speed recovery and reduce complications",
+          "quote": "This study supports early therapy for patients at high risk of complications of influenza to speed clinical recovery and reduce complications.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "kind": "journal",
+      "cited_as": "Ikematsu H, Hayden FG, Kawaguchi K, et al. Baloxavir Marboxil for Prophylaxis against Influenza in Household Contacts. N Engl J Med. 2020;383(4):309-320.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32640124/",
+      "pmid": "32640124",
+      "doi": "10.1056/NEJMoa1915341",
+      "record_title": "Baloxavir Marboxil for Prophylaxis against Influenza in Household Contacts.",
+      "record_journal": "N Engl J Med",
+      "record_year": "2020",
+      "article_type": "Randomized Controlled Trial (BLOCKSTONE)",
+      "retrieved_with": "PubMed get_article_metadata",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "scite_unavailable (quota exhausted until 2026-11-14). PubMed article types ['Journal Article', 'Multicenter Study', 'Randomized Controlled Trial', \"Research Support, Non-U.S. Gov't\"]: no Retracted Publication or Retraction Notice.",
+      "claims": [
+        {
+          "text": "single-dose PEP reduced clinical influenza 13.6% to 1.9%",
+          "quote": "the percentage in whom clinical influenza developed was significantly lower in the baloxavir group than in the placebo group (1.9% vs. 13.6%)",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 15,
+      "kind": "label",
+      "cited_as": "Genentech, Inc. TAMIFLU (oseltamivir phosphate) capsules and oral suspension, prescribing information. Label revised 8/2019; DailyMed listing updated December 15, 2025. DailyMed, National Library of Medicine. Accessed November 7, 2026.",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ee3c9555-60f2-4f82-a760-11983c86e97b",
+      "version_or_date": "Label revised 8/2019; DailyMed updated December 15, 2025",
+      "retrieved_with": "WebFetch of DailyMed label page (setid ee3c9555-60f2-4f82-a760-11983c86e97b); same SPL also read via FDA Label services",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "Link changed from a DailyMed search-results page to the Genentech TAMIFLU label record. Corrections: prophylaxis \"7 to 10 days\" changed to the label's \"at least 10 days\"; \"no hepatic adjustment\" narrowed to mild to moderate impairment; \"primarily in children in Japan\" now attributes \"pediatric\" to the label and \"Japanese pediatric patients\" to CDC (ref 9); \"causal relationship still debated\" and \"empty stomach doubles nausea\" cut. The label quotes were returned by the fetch tool in fragments of 125 characters or fewer.",
+      "claims": [
+        {
+          "text": "treatment indication: 2 weeks and older, symptomatic no more than 48 hours",
+          "quote": "patients 2 weeks of age and older who have been symptomatic for no more than 48 hours",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "prophylaxis indication: 1 year and older",
+          "quote": "TAMIFLU is indicated for the prophylaxis of influenza A and B in patients 1 year and older.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "adult/adolescent 13+ treatment 75 mg twice daily for 5 days",
+          "quote": "in adults and adolescents 13 years and older is 75 mg twice daily ... for 5 days.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "adult prophylaxis 75 mg once daily for at least 10 days",
+          "quote": "75 mg orally once daily (one 75 mg capsule or 12.5 mL of oral suspension once daily) for at least 10 days",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "CrCl >30-60: 30 mg twice daily x5 days (treatment); 30 mg once daily (prophylaxis)",
+          "quote": "creatinine clearance >30-60 mL/min): Reduce to 30 mg twice daily for 5 days ... (creatinine clearance >30-60 mL/min): Reduce to 30 mg once daily",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "CrCl >10-30: 30 mg once daily x5 days (treatment); 30 mg every other day (prophylaxis)",
+          "quote": "creatinine clearance >10-30 mL/min): Reduce to 30 mg once daily for 5 days ... 30 mg every other day",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "hemodialysis: 30 mg then after every cycle (treatment); after alternate cycles (prophylaxis)",
+          "quote": "ESRD patients on hemodialysis: Reduce to 30 mg immediately and then 30 mg after every hemodialysis cycle. ... 30 mg immediately and then 30 mg after alternate hemodialysis cycles",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "tolerability may be enhanced with food",
+          "quote": "may be taken with or without food; however, tolerability may be enhanced if TAMIFLU is taken with food.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "no dose adjustment for mild to moderate hepatic impairment",
+          "quote": "No dosage adjustment is required in patients with mild to moderate hepatic impairment",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "postmarketing delirium and abnormal behavior leading to injury, primarily pediatric",
+          "quote": "There have been postmarketing reports of delirium and abnormal behavior leading to injury, ... These events were reported primarily among pediatric patients",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "serious skin reactions including TEN, SJS, erythema multiforme; stop if allergic-like reaction",
+          "quote": "serious skin reactions including toxic epidermal necrolysis, Stevens-Johnson Syndrome, and erythema multiforme ... Stop TAMIFLU and institute appropriate treatment if an allergic-like reaction occurs or is suspected.",
+          "quote_source": "label",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 16,
+      "kind": "label",
+      "cited_as": "Genentech, Inc. XOFLUZA (baloxavir marboxil) tablets and granules for oral suspension, prescribing information. Label revised 5/2025; DailyMed listing updated December 15, 2025. DailyMed, National Library of Medicine. Accessed November 7, 2026.",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=e49e1a61-1b7c-4be5-ac84-af6240b511e7",
+      "version_or_date": "Label revised 5/2025; DailyMed updated December 15, 2025",
+      "retrieved_with": "WebFetch of DailyMed label page (setid e49e1a61-1b7c-4be5-ac84-af6240b511e7)",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "Link changed from a DailyMed search-results page to the Genentech XOFLUZA label record. The weight bands (20 to under 80 kg; 80 kg or more) are in label Table 1; the fetch tool returned them paraphrased, and the same bands are confirmed verbatim on the CDC clinicians summary (\"weighing 20 kg to <80 kg: single dose of 40 mg\"; \"weighing ≥80 kg: single dose of 80 mg\"). The label does not itself state a pregnancy restriction; that statement now cites CDC (ref 5).",
+      "claims": [
+        {
+          "text": "treatment indication age 5+, symptomatic no more than 48 hours",
+          "quote": "acute uncomplicated influenza in patients 5 years of age and older who have been symptomatic for no more than 48 hours",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "post-exposure prophylaxis age 5+",
+          "quote": "post-exposure prophylaxis of influenza in persons 5 years of age and older",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "single dose 40 mg (20 to <80 kg) or 80 mg (80 kg or more)",
+          "quote": "One 40 mg tablet. ... One 80 mg tablet.",
+          "quote_source": "label",
+          "verdict": "partly_supported"
+        },
+        {
+          "text": "common adverse reactions diarrhea, bronchitis, nausea, sinusitis, headache (3% or less)",
+          "quote": "included diarrhea (3%), bronchitis (3%), nausea (2%), sinusitis (2%), and headache (1%)",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "children 5 to <12: reduced-susceptibility substitutions 17% (A/H1N1) and 18% (A/H3N2)",
+          "quote": "overall frequencies of 17% (2/12), 18% (17/93), and 0% (0/13) in influenza A/H1N1, A/H3N2, and B virus infections",
+          "quote_source": "label",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 17,
+      "kind": "other_web",
+      "cited_as": "GoodRx. Oseltamivir 2026 Prices, Coupons &amp; Savings Tips. Prices read November 7, 2026.",
+      "url": "https://www.goodrx.com/oseltamivir",
+      "version_or_date": "Prices read 2026-11-07 (page shows no update date)",
+      "retrieved_with": "WebFetch of GoodRx page",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "All prices replaced with the November 7, 2026 snapshot. Removed: $50-90 retail, $25-50 GoodRx, brand Tamiflu $150-200, Xofluza $150-180, insurance copays, \"Xofluza roughly 3x the price\", and the \"CMS NADAC data\" source line (no NADAC source retrieved). The fetch tool reported $21.98 (GoodRx) and $57.26 (retail) as the listed prices for oseltamivir 75 mg, 10 capsules; the quote holds those two page strings only. The same read showed no brand Tamiflu or Xofluza prices, so the guide now just tells readers to ask their pharmacy for those.",
+      "claims": [
+        {
+          "text": "generic oseltamivir 75 mg x10: GoodRx $21.98, retail $57.26 (Nov 7, 2026)",
+          "quote": "$21.98 ... $57.26",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 18,
+      "kind": "agency_page",
+      "cited_as": "Centers for Disease Control and Prevention (CDC). Signs and Symptoms of Flu. Last reviewed August 26, 2024. Accessed November 7, 2026.",
+      "url": "https://www.cdc.gov/flu/signs-symptoms/index.html",
+      "version_or_date": "Last reviewed August 26, 2024",
+      "retrieved_with": "WebFetch of official CDC page",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "New reference. Red-flag lists rewritten to match CDC: removed adult \"fever above 103°F\", adult \"severe or persistent vomiting\", \"being so irritable the child does not want to be held\" and \"complications develop 3-5 days into the illness\" (not on the page); \"any fever under 3 months\" corrected to \"younger than 12 weeks\".",
+      "claims": [
+        {
+          "text": "flu symptoms usually come on suddenly",
+          "quote": "Flu symptoms usually come on suddenly.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "flu symptom list",
+          "quote": "fever* or feeling feverish/chills ... cough ... sore throat ... runny or stuffy nose ... muscle or body aches ... headaches ... fatigue (tiredness)",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "most recover in a few days to less than two weeks",
+          "quote": "Most people who get flu will recover in a few days to less than two weeks",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "adult emergency warning signs",
+          "quote": "Difficulty breathing or shortness of breath ... Persistent pain or pressure in the chest or abdomen ... Persistent dizziness, confusion, inability to arouse ... Seizures ... Not urinating ... Severe muscle pain ... Severe weakness or unsteadiness",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "fever or cough that improve then return or worsen; worsening chronic conditions",
+          "quote": "Fever or cough that improve but then return or worsen ... Worsening of chronic medical conditions",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "child warning signs incl. fever above 104F and any fever under 12 weeks",
+          "quote": "Fast breathing or trouble breathing ... Bluish lips or face ... Ribs pulling in with each breath ... Fever above 104 degrees Fahrenheit that is not controlled by fever-reducing medicine ... In children younger than 12 weeks, any fever",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "child dehydration and alertness signs",
+          "quote": "Dehydration (no urine for 8 hours, dry mouth, no tears when crying) ... Not alert or interacting when awake ... Severe muscle pain (child refuses to walk)",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "complications: pneumonia, myocarditis, encephalitis, myositis/rhabdomyolysis, multi-organ failure, sepsis",
+          "quote": "inflammation of the heart (myocarditis), brain (encephalitis) or muscle tissues (myositis, rhabdomyolysis) ... multi-organ failure (for example, respiratory and kidney failure) ... can lead to sepsis",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 19,
+      "kind": "agency_page",
+      "cited_as": "Centers for Disease Control and Prevention (CDC). People at Increased Risk for Flu Complications. Last reviewed September 11, 2024. Accessed November 7, 2026.",
+      "url": "https://www.cdc.gov/flu/highrisk/index.htm",
+      "version_or_date": "Last reviewed September 11, 2024",
+      "retrieved_with": "WebFetch of official CDC page",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "New reference for the high-risk list (previously uncited). \"Children younger than 5 (especially under 2)\" corrected to the page's \"younger than 2\"; added two groups the page lists.",
+      "claims": [
+        {
+          "text": "higher-risk groups list",
+          "quote": "Adults 65 years and older ... Children younger than 2 years old ... Pregnant women, including up to 2 weeks after the end of pregnancy ... People with a body mass index (BMI) of 40 kg/m2 or higher",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "chronic conditions and other groups",
+          "quote": "People with asthma ... People with kidney disorders ... People with liver disorders ... People with endocrine disorders (such as diabetes mellitus) ... People with a weakened immune system due to disease",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "long-term care residents, AI/AN, under 19 on aspirin",
+          "quote": "People who live in nursing homes and other long-term care facilities ... American Indian or Alaska Native persons ... People younger than 19 years old on long-term aspirin- or salicylate-containing medications.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 20,
+      "kind": "agency_page",
+      "cited_as": "Centers for Disease Control and Prevention (CDC). How Flu Spreads. Last reviewed September 17, 2024. Accessed November 7, 2026.",
+      "url": "https://www.cdc.gov/flu/spread/index.html",
+      "version_or_date": "Last reviewed September 17, 2024",
+      "retrieved_with": "WebFetch of official CDC page",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "New reference. Replaced \"shedding peaks in the first 24-48 hours\" with the page's \"most contagious during the first three days\"; cut \"droplets travel 3-6 feet\" and \"surfaces for hours to days\" (not on the page).",
+      "claims": [
+        {
+          "text": "spread mainly by droplets when people cough, sneeze, talk",
+          "quote": "Experts think that influenza viruses spread mainly by droplets made when people with flu cough, sneeze, or talk.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "less often by touching contaminated surfaces",
+          "quote": "Less often, a person might get influenza (flu) by touching a surface or object that has influenza virus on it",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "most contagious first three days; detectable 1 day before symptoms; contagious 5-7 days; longer in young children/immunocompromised",
+          "quote": "People with flu are most contagious during the first three days of their illness. Influenza viruses can be detected in most infected persons beginning one day before symptoms develop",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "contagious up to 5-7 days; longer for some",
+          "quote": "five to seven days after becoming sick ... Some people, including young children and people with weakened immune systems may be contagious for longer",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "physical distance lowers risk",
+          "quote": "Putting physical distance between yourself and others can help lower the risk of spreading a respiratory virus.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 21,
+      "kind": "agency_page",
+      "cited_as": "Centers for Disease Control and Prevention (CDC). Preventing Spread of Respiratory Viruses When You're Sick. Last reviewed August 18, 2025. Accessed November 7, 2026.",
+      "url": "https://www.cdc.gov/respiratory-viruses/prevention/precautions-when-sick.html",
+      "version_or_date": "Last reviewed August 18, 2025",
+      "retrieved_with": "WebFetch of official CDC page",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "New reference replacing the \"March 2024\" claim formerly cited to the Cold Versus Flu page; this page does not mention March 2024, so the date was removed. The two conditions (symptoms getting better overall; no fever without fever-reducing medication) and the mask, distancing and hygiene examples were returned paraphrased around the quoted fragments.",
+      "claims": [
+        {
+          "text": "stay home with respiratory virus symptoms",
+          "quote": "Stay home and away from others (including people you live with who are not sick) if you have respiratory virus symptoms",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "return to normal activities when for 24 hours symptoms improving and no fever",
+          "quote": "You can go back to your normal activities when, for at least 24 hours, both are true:",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "added precautions next 5 days incl. cleaner air, mask, distancing, hygiene",
+          "quote": "take added precautions over the next 5 days, such as taking steps for cleaner air.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 22,
+      "kind": "agency_page",
+      "cited_as": "Centers for Disease Control and Prevention (CDC). Key Facts About Seasonal Flu Vaccine. Last reviewed September 3, 2025. Accessed November 7, 2026.",
+      "url": "https://www.cdc.gov/flu/vaccines/keyfacts.html",
+      "version_or_date": "Last reviewed September 3, 2025 (page updated September 1, 2026)",
+      "retrieved_with": "WebFetch of official CDC page",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "New reference. Replaced the uncited \"typically 40-60% when well matched\" range (not found on CDC VE pages read this run) with the 2024-2025 age-group VE figures from ref 3. Cut \"single most effective\" and \"no other single intervention comes close\".",
+      "claims": [
+        {
+          "text": "everyone 6 months and older should get a flu vaccine every season",
+          "quote": "Everyone 6 months and older in the United States, with rare exception, should get a flu vaccine every season.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "vaccine effectiveness can vary",
+          "quote": "Influenza (flu) vaccine effectiveness (VE) can vary.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "vaccination reduces severity in people who still get sick",
+          "quote": "flu vaccination has been shown in studies to reduce severity of illness in people who get vaccinated but still get sick.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 23,
+      "kind": "journal",
+      "cited_as": "Hemilä H, Chalker E. Vitamin C for preventing and treating the common cold. Cochrane Database Syst Rev. 2013;2013(1):CD000980.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23440782/",
+      "pmid": "23440782",
+      "pmcid": "PMC8078152",
+      "doi": "10.1002/14651858.CD000980.pub4",
+      "record_title": "Vitamin C for preventing and treating the common cold.",
+      "record_journal": "Cochrane Database Syst Rev",
+      "record_year": "2013",
+      "article_type": "Systematic Review; Meta-Analysis",
+      "retrieved_with": "PubMed get_article_metadata",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "New reference; vitamin C figures were previously cited to the zinc sources (ref 6), which do not contain them. Removed \"updated through 2023 analyses\" and the Linus Pauling aside. scite_unavailable (quota exhausted until 2026-11-14). PubMed article types ['Journal Article', 'Meta-Analysis', \"Research Support, Non-U.S. Gov't\", 'Systematic Review']: no Retracted Publication or Retraction Notice.",
+      "claims": [
+        {
+          "text": "regular vitamin C: duration -8% adults, -14% children",
+          "quote": "In adults the duration of colds was reduced by 8% (3% to 12%) and in children by 14% (7% to 21%).",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "trials used at least 200 mg a day",
+          "quote": "We excluded trials which used less than 0.2 g per day of vitamin C and trials without a placebo comparison.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "no reduction in incidence in general community",
+          "quote": "In the general community trials involving 10,708 participants, the pooled RR was 0.97 (95% confidence interval (CI) 0.94 to 1.00).",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "marathon runners, skiers, soldiers: risk roughly halved",
+          "quote": "Five trials involving a total of 598 marathon runners, skiers and soldiers on subarctic exercises yielded a pooled RR of 0.48 (95% CI 0.35 to 0.64).",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "therapeutic vitamin C no consistent effect",
+          "quote": "No consistent effect of vitamin C was seen on the duration or severity of colds in the therapeutic trials.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 24,
+      "kind": "journal",
+      "cited_as": "Abuelgasim H, Albury C, Lee J. Effectiveness of honey for symptomatic relief in upper respiratory tract infections: a systematic review and meta-analysis. BMJ Evid Based Med. 2021;26(2):57-64 (published online 2020).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32817011/",
+      "pmid": "32817011",
+      "doi": "10.1136/bmjebm-2020-111336",
+      "record_title": "Effectiveness of honey for symptomatic relief in upper respiratory tract infections: a systematic review and meta-analysis.",
+      "record_journal": "BMJ Evid Based Med",
+      "record_year": "2021 (epub 2020-08-18)",
+      "article_type": "Systematic Review; Meta-Analysis",
+      "retrieved_with": "PubMed get_article_metadata",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "New reference for a claim that was previously uncited. PubMed lists 2021;26(2):57-64 with online publication 2020. Cut the \"1-2 teaspoons\" dose (no source). scite_unavailable (quota exhausted until 2026-11-14). PubMed article types ['Journal Article', 'Meta-Analysis', 'Systematic Review']: no Retracted Publication or Retraction Notice.",
+      "claims": [
+        {
+          "text": "honey superior to usual care for URTI symptoms; improved cough frequency and severity",
+          "quote": "Compared with usual care, honey improved combined symptom score ..., cough frequency ... and cough severity ... Honey was superior to usual care for the improvement of symptoms of upper respiratory tract infections.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 25,
+      "kind": "journal",
+      "cited_as": "Karsch-Völk M, Barrett B, Kiefer D, et al. Echinacea for preventing and treating the common cold. Cochrane Database Syst Rev. 2014;2014(2):CD000530.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24554461/",
+      "pmid": "24554461",
+      "pmcid": "PMC4068831",
+      "doi": "10.1002/14651858.CD000530.pub3",
+      "record_title": "Echinacea for preventing and treating the common cold.",
+      "record_journal": "Cochrane Database Syst Rev",
+      "record_year": "2014",
+      "article_type": "Systematic Review; Meta-Analysis",
+      "retrieved_with": "PubMed get_article_metadata",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "New reference for an OTC claim that was previously uncited. scite_unavailable (quota exhausted until 2026-11-14). PubMed article types ['Journal Article', 'Meta-Analysis', 'Research Support, N.I.H., Intramural', \"Research Support, Non-U.S. Gov't\", 'Systematic Review']: no Retracted Publication or Retraction Notice.",
+      "claims": [
+        {
+          "text": "echinacea not shown to benefit cold treatment; weak benefit possible",
+          "quote": "Echinacea products have not here been shown to provide benefits for treating colds, although, it is possible there is a weak benefit from some Echinacea products",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 26,
+      "kind": "journal",
+      "cited_as": "Deckx L, De Sutter AI, Guo L, et al. Nasal decongestants in monotherapy for the common cold. Cochrane Database Syst Rev. 2016;10(10):CD009612.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27748955/",
+      "pmid": "27748955",
+      "pmcid": "PMC6461189",
+      "doi": "10.1002/14651858.CD009612.pub2",
+      "record_title": "Nasal decongestants in monotherapy for the common cold.",
+      "record_journal": "Cochrane Database Syst Rev",
+      "record_year": "2016",
+      "article_type": "Systematic Review; Meta-Analysis",
+      "retrieved_with": "PubMed get_article_metadata",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "New reference. Replaced the uncited \"pseudoephedrine effectively reduces nasal congestion\". scite_unavailable (quota exhausted until 2026-11-14). PubMed article types ['Journal Article', 'Meta-Analysis', \"Research Support, Non-U.S. Gov't\", 'Systematic Review']: no Retracted Publication or Retraction Notice.",
+      "claims": [
+        {
+          "text": "most trials pseudoephedrine or oxymetazoline",
+          "quote": "Nine studies used pseudoephedrine and three studies used oxymetazoline.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "multiple doses may have small effect on congestion in adults, relevance unknown",
+          "quote": "these may have a small positive effect on subjective measures of nasal congestion in adults with the common cold. However, the clinical relevance of this small effect is unknown",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 27,
+      "kind": "journal",
+      "cited_as": "De Sutter AI, Saraswat A, van Driel ML. Antihistamines for the common cold. Cochrane Database Syst Rev. 2015;2015(11):CD009345.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26615034/",
+      "pmid": "26615034",
+      "pmcid": "PMC9468790",
+      "doi": "10.1002/14651858.CD009345.pub2",
+      "record_title": "Antihistamines for the common cold.",
+      "record_journal": "Cochrane Database Syst Rev",
+      "record_year": "2015",
+      "article_type": "Systematic Review; Meta-Analysis",
+      "retrieved_with": "PubMed get_article_metadata",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "New reference. Corrects the uncited claim that first-generation antihistamines reduce runny nose and sneezing. scite_unavailable (quota exhausted until 2026-11-14). PubMed article types ['Journal Article', 'Meta-Analysis', 'Systematic Review']: no Retracted Publication or Retraction Notice.",
+      "claims": [
+        {
+          "text": "limited short-term benefit days 1-2; no clinically significant effect on congestion, rhinorrhoea, sneezing",
+          "quote": "Antihistamines have a limited short-term (days one and two of treatment) beneficial effect on severity of overall symptoms but not in the mid to long term. There is no clinically significant effect on nasal obstruction, rhinorrhoea or sneezing.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 28,
+      "kind": "journal",
+      "cited_as": "Kim SY, Chang YJ, Cho HM, et al. Non-steroidal anti-inflammatory drugs for the common cold. Cochrane Database Syst Rev. 2015;2015(9):CD006362.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26387658/",
+      "pmid": "26387658",
+      "pmcid": "PMC10040208",
+      "doi": "10.1002/14651858.CD006362.pub4",
+      "record_title": "Non-steroidal anti-inflammatory drugs for the common cold.",
+      "record_journal": "Cochrane Database Syst Rev",
+      "record_year": "2015",
+      "article_type": "Systematic Review",
+      "retrieved_with": "PubMed get_article_metadata",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "New reference. The uncited acetaminophen claim was cut (no source retrieved). scite_unavailable (quota exhausted until 2026-11-14). PubMed article types ['Journal Article', 'Systematic Review']: no Retracted Publication or Retraction Notice.",
+      "claims": [
+        {
+          "text": "NSAIDs help headache, ear pain, muscle/joint pain; no effect on duration; no clear effect on respiratory symptoms",
+          "quote": "For outcomes related to the analgesic effects of NSAIDs (headache, ear pain, and muscle and joint pain) the treatment produced significant benefits.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "no significant reduction in duration; no clear effect on respiratory symptoms",
+          "quote": "NSAIDs did not significantly reduce the total symptom score ... or duration of colds ... NSAIDs are somewhat effective in relieving the discomfort caused by a cold but there is no clear evidence of their effect in easing respiratory symptoms.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 29,
+      "kind": "agency_page",
+      "cited_as": "U.S. Food and Drug Administration. FDA Proposes Ending Use of Oral Phenylephrine as OTC Monograph Nasal Decongestant Active Ingredient After Extensive Review. Press announcement, November 7, 2024. Accessed November 7, 2026.",
+      "url": "https://www.fda.gov/news-events/press-announcements/fda-proposes-ending-use-oral-phenylephrine-otc-monograph-nasal-decongestant-active-ingredient-after",
+      "version_or_date": "November 7, 2024 (content current as of)",
+      "retrieved_with": "WebFetch of official FDA press announcement",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "New reference for a previously uncited regulatory claim. A companion FDA page read this run (Key Information about OTC Oral Phenylephrine, current as of 11/07/2024) says oral products may be sold until a final order issues; no final order was found, so the guide says \"proposed\".",
+      "claims": [
+        {
+          "text": "FDA proposed removing oral phenylephrine because not effective as nasal decongestant",
+          "quote": "not effective as a nasal decongestant",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "advisory committee unanimously concluded data do not support recommended oral dosage",
+          "quote": "unanimously concluded that the current scientific data do not support",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 30,
+      "kind": "journal",
+      "cited_as": "Alexander TH, Davidson TM. Intranasal zinc and anosmia: the zinc-induced anosmia syndrome. Laryngoscope. 2006;116(2):217-220.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16467707/",
+      "pmid": "16467707",
+      "doi": "10.1097/01.mlg.0000191549.17796.13",
+      "record_title": "Intranasal zinc and anosmia: the zinc-induced anosmia syndrome.",
+      "record_journal": "Laryngoscope",
+      "record_year": "2006",
+      "article_type": "Journal Article (retrospective case series)",
+      "retrieved_with": "PubMed get_article_metadata",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "New reference. Replaced the uncited \"linked to permanent anosmia\": the abstract does not establish permanence, so \"permanent\" was removed. scite_unavailable (quota exhausted until 2026-11-14). PubMed article types ['Journal Article']: no Retracted Publication or Retraction Notice.",
+      "claims": [
+        {
+          "text": "case series of 17 patients with loss of smell after intranasal zinc gluconate gel",
+          "quote": "Seventeen patients presenting with anosmia after the use of intranasal zinc gluconate are described.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 31,
+      "kind": "agency_page",
+      "cited_as": "Centers for Disease Control and Prevention (CDC). About Handwashing. Last reviewed February 16, 2024. Accessed November 7, 2026.",
+      "url": "https://www.cdc.gov/clean-hands/about/index.html",
+      "version_or_date": "Last reviewed February 16, 2024",
+      "retrieved_with": "WebFetch of official CDC page",
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": [],
+      "notes": "New reference. Cut the uncited \"16-23 face touches per hour\" and \"most effective non-pharmaceutical intervention\".",
+      "claims": [
+        {
+          "text": "scrub at least 20 seconds; sanitizer at least 60% alcohol",
+          "quote": "Scrub your hands for at least 20 seconds. ... If soap and water are not readily available, use a hand sanitizer with at least 60% alcohol to clean your hands.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "germs spread by touching eyes, nose, mouth with unwashed hands",
+          "quote": "Touch your eyes, nose, and mouth with unwashed hands",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    }
+  ]
+}

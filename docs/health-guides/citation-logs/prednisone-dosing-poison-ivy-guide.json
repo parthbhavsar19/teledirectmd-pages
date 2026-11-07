@@ -1,0 +1,324 @@
+{
+ "guide": "prednisone-dosing-poison-ivy-guide",
+ "checked_at": "2026-11-07",
+ "checked_by": "Claude (repair run)",
+ "scite_verify_papers": "unavailable (quota exhausted until 2026-11-14); retraction status from PubMed article types",
+ "removed_references": [
+  {
+   "was_n": 2,
+   "cited_as": "Guin JD, et al. Poison Ivy, Oak and Sumac Contact Dermatitis. Am Fam Physician 2000;61(11):3408",
+   "reason": "Wrong author (the AFP page is a Tips from Other Journals summary by Richard Sadovsky of Lee NP, Arriola ER, West J Med 1999;171(5-6):354-355, PMID 10639874). The page does not contain the under-dosing (20 mg), 'most common reason' or no-lab-monitoring claims. The primary article in PMC (PMC1308758) is page images with no retrievable text. Its supported points (1 mg/kg start, two to three-week taper, rebound after short courses) are already covered by ref 1, so it was cut."
+  }
+ ],
+ "references": [
+  {
+   "n": 1,
+   "kind": "journal",
+   "cited_as": "Usatine RP, Riojas M. Diagnosis and Management of Contact Dermatitis. American Family Physician. 2010;82(3):249-255. PMID: 20672788.",
+   "url": "https://www.aafp.org/pubs/afp/issues/2010/0801/p249.html",
+   "pmid": "20672788",
+   "record_title": "Diagnosis and management of contact dermatitis.",
+   "record_journal": "Am Fam Physician",
+   "record_year": "2010",
+   "article_type": "Journal Article; Review",
+   "retrieved_with": "PubMed get_article_metadata (abstract); WebFetch of the AAFP article page (full text)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "scite_unavailable (quota exhausted until 2026-11-14); PubMed article types checked, no Retracted Publication or Retraction Notice. No DOI in the PubMed record. Unchanged reference; author, journal, year, volume, issue and pages match PubMed.",
+   "claims": [
+    {
+     "text": "For severe poison ivy, AAFP guidance cites a starting prednisone dose of 0.5 to 1 mg/kg per day",
+     "quote": "Five to seven days of prednisone, 0.5 to 1 mg per kg daily, is recommended.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "oral prednisone for severe rhus (poison ivy) dermatitis should be tapered over two to three weeks because rapid discontinuation can cause rebound dermatitis",
+     "quote": "In patients with severe rhus dermatitis, oral prednisone should be tapered over two to three weeks because rapid discontinuation of steroids can cause rebound dermatitis.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "the dose may be reduced by 50 percent for the next five to seven days",
+     "quote": "the dose may be reduced by 50 percent for the next five to seven days",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Poison ivy is a delayed hypersensitivity reaction",
+     "quote": "Allergic contact dermatitis is a delayed hypersensitivity reaction in which a foreign substance comes into contact with the skin",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Localized lesions are successfully treated with a mid- or high-potency topical corticosteroid such as triamcinolone 0.1% or clobetasol 0.05%; many rashes do not need oral steroids",
+     "quote": "Localized acute allergic contact dermatitis lesions are successfully treated with mid- or high-potency topical steroids, such as triamcinolone 0.1% or clobetasol 0.05%.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Systemic steroids for rash covering more than 20% of the skin; often required",
+     "quote": "If allergic contact dermatitis involves an extensive area of skin (greater than 20 percent), systemic steroid therapy is often required and offers relief within 12 to 24 hours.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "A steroid dose pack has insufficient dosing and duration and should not be prescribed; guidance favors a two to three-week taper over a dose pack",
+     "quote": "A steroid dose pack has insufficient dosing and duration and should not be prescribed.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "An AAFP review states there is no evidence to support long-acting injectable steroids for contact dermatitis",
+     "quote": "There is no evidence to support the use of long-acting injectable steroids in the treatment of contact dermatitis.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Lower-potency steroids such as desonide ointment for thinner skin (eyelids, face, skin folds, anogenital area)",
+     "quote": "On areas with thinner skin (e.g., flexural surfaces, eyelids, face, anogenital region) ... lower-potency steroids, such as desonide ointment (Desowen), can be helpful",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "kind": "journal",
+   "cited_as": "Curtis G, Lewis AC. Treatment of Severe Poison Ivy: A Randomized, Controlled Trial of Long Versus Short Course Oral Prednisone. Journal of Clinical Medicine Research. 2014;6(6):429-434. doi:10.14740/jocmr1855w.",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4169084/",
+   "pmid": "25247016",
+   "pmcid": "PMC4169084",
+   "doi": "10.14740/jocmr1855w",
+   "record_title": "Treatment of severe poison ivy: a randomized, controlled trial of long versus short course oral prednisone.",
+   "record_journal": "J Clin Med Res",
+   "record_year": "2014",
+   "article_type": "Journal Article (randomized controlled trial per its methods; n=49)",
+   "retrieved_with": "PubMed get_article_metadata; PubMed get_full_text_article (PMC full text)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "scite_unavailable (quota exhausted until 2026-11-14); PubMed article types checked, no Retracted Publication or Retraction Notice. Was ref 3. Issue corrected from 5 to 6 per PubMed. Previously cited for short courses causing rebound, which the trial did not find (rash return not significantly different); text now says so.",
+   "claims": [
+    {
+     "text": "5-day course of 40 mg daily, 200 mg total (short arm)",
+     "quote": "a 5-day regimen (short-course arm) of oral prednisone (40 mg daily and 200 mg total per patient)",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Long-course taper: 40 mg x5 days, 30 mg x2, 20 mg x2, 10 mg x2, 5 mg x4; 15 days, 340 mg in all",
+     "quote": "taper (long-course arm) of 30 mg daily for 2 days, 20 mg daily for 2 days, 10 mg daily for 2 days, and 5 mg daily for 4 days (15 days total administration time and 340 mg total",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "5-day group needed extra medication more than twice as often (55.6% vs. 22.7%); rash return not significantly different; 49 patients",
+     "quote": "In 49 patients with severe poison ivy, non-adherence rates, rash return ... were not significantly different between the two groups. Patients receiving the long course regimen were significantly less likely to utilize other medications (22.7% vs. 55.6%, P = 0.02",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    },
+    {
+     "text": "Medrol Dose Pack totals 84 mg of methylprednisolone tapered over 6 days; expert opinion considers it insufficient and likely to cause rebound",
+     "quote": "Expert opinion and one case report on the commonly prescribed Medrol Dosepak (total of 84 mg of methylprednisolone tapered over 6 days) note this regimen to be insufficient and likely to cause rebound rash",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Oral steroids for severe cases: severe blistering or itching, face, hands, or genital area",
+     "quote": "variably described as either involving greater than 20% of body surface area, the presence of severe blistering or itching, or involvement of the face, hands, or genital area",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "the one randomized trial in severe poison ivy",
+     "quote": "revealed this study to be the only randomized, controlled trial to examine the efficacy and side effects of a short-course daily regimen of oral prednisone compared to the same regimen followed by a steroid taper",
+     "quote_source": "full_text",
+     "verdict": "partly_supported"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "kind": "journal",
+   "cited_as": "Butt M, Flamm A, Marks JG, Flamm A. Poison Ivy Dermatitis Treatment Patterns and Utilization: A Retrospective Claims-based Analysis. Western Journal of Emergency Medicine. 2022;23(4):481-488. doi:10.5811/westjem.2022.March.55516.",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9391006/",
+   "pmid": "35980412",
+   "pmcid": "PMC9391006",
+   "doi": "10.5811/westjem.2022.March.55516",
+   "record_title": "Poison Ivy Dermatitis Treatment Patterns and Utilization: A Retrospective Claims-based Analysis.",
+   "record_journal": "West J Emerg Med",
+   "record_year": "2022",
+   "article_type": "Journal Article (retrospective claims analysis; observational)",
+   "retrieved_with": "PubMed get_article_metadata; PubMed get_full_text_article (PMC full text)",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "scite_unavailable (quota exhausted until 2026-11-14); PubMed article types checked, no Retracted Publication or Retraction Notice. Was ref 4. Claims about the Medrol pack schedule and steroid equivalence are no longer attributed to this source.",
+   "claims": [
+    {
+     "text": "Courses of 1 to 13 days had higher odds of a return visit than 14 to 20 days (odds ratio 1.30)",
+     "quote": "duration of treatment 1–13 days retained a significantly higher likelihood (OR 1.30 [1.17,1.44]) of a return healthcare visit compared to those treated for 14–20 days",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "The immune response to urushiol can take up to 14 days to present; the rash can keep developing or worsen through that period",
+     "quote": "As the immunologic response to urushiol can take up to 14 days to present in sensitized patients with exposure, TD reactions have the potential to continue to manifest or worsen throughout that 14-day period.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Rebound dermatitis definition: signs and symptoms recur or flare after temporary suppression by an oral steroid",
+     "quote": "rebound dermatitis, where signs and symptoms of an acute dermatitis can recur or flare after temporary suppression with an immunosuppressive medication, such as oral corticosteroids",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Methylprednisolone about 15% of first oral steroid prescriptions; nearly all under two weeks",
+     "quote": "followed by methylprednisolone (15.25%; n = 7,078). Additionally, most methylprednisolone prescriptions (99.52%; n = 7,044) were for a duration of 1–13 days",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Methylprednisolone link to return visits no longer significant once course length and initial location were controlled; duration driving it",
+     "quote": "when controlling for duration of treatment and initial treatment location, this association pulled closer to the null hypothesis and was no longer statistically significant suggesting that duration of treatment is driving this association",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "A return soon after a course of under two weeks may reflect a course that was too short",
+     "quote": "shorter courses of oral corticosteroids pose the risk of patients experiencing rebound dermatitis",
+     "quote_source": "full_text",
+     "verdict": "partly_supported"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "kind": "journal",
+   "cited_as": "Dvorin EL, Ebell MH. Short-Term Systemic Corticosteroids: Appropriate Use in Primary Care. American Family Physician. 2020;101(2):89-94. PMID: 31939645.",
+   "url": "https://www.aafp.org/pubs/afp/issues/2020/0115/p89.html",
+   "pmid": "31939645",
+   "record_title": "Short-Term Systemic Corticosteroids: Appropriate Use in Primary Care.",
+   "record_journal": "Am Fam Physician",
+   "record_year": "2020",
+   "article_type": "Journal Article; Review",
+   "retrieved_with": "PubMed get_article_metadata (abstract); WebFetch of the AAFP article page",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "scite_unavailable (quota exhausted until 2026-11-14); PubMed article types checked, no Retracted Publication or Retraction Notice. Was ref 5. Authors corrected from 'Grossman SK, et al.' to Dvorin EL, Ebell MH per PubMed and the AAFP byline. No DOI in the PubMed record. The article notes systemic steroids have not been studied in RCTs for allergic contact dermatitis; its poison ivy recommendations are expert opinion and the guide labels them so.",
+   "claims": [
+    {
+     "text": "Courses of a week or less tied to rebound in poison ivy",
+     "quote": "Concern has been raised that too short of a course (one week or less) can cause rebound for poison ivy.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Expert opinion recommends a 14-day course",
+     "quote": "expert opinion recommends a 14-day course.",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Expert opinion: systemic steroids for more than 20% of body surface area or significant reactions on the face, hands, feet, or genitals",
+     "quote": "expert opinion recommends systemic corticosteroids for allergic contact dermatitis involving more than 20% of body surface area or significant reactions involving the face, hands, feet, or genitalia",
+     "quote_source": "full_text",
+     "verdict": "supported"
+    },
+    {
+     "text": "Even short courses carry possible adverse effects: high blood sugar, raised blood pressure, mood and sleep disturbance, sepsis, fracture, venous thromboembolism",
+     "quote": "even short courses of systemic corticosteroids are associated with many possible adverse effects, including hyperglycemia, elevated blood pressure, mood and sleep disturbance, sepsis, fracture, and venous thromboembolism.",
+     "quote_source": "abstract",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "kind": "label",
+   "cited_as": "Pharmacia & Upjohn Company LLC. DEPO-MEDROL (methylprednisolone acetate injectable suspension) prescribing information. DailyMed. Updated January 21, 2026.",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=823b0010-2b57-4e76-b5ac-4a8c2963438f",
+   "version_or_date": "DailyMed set id 823b0010-2b57-4e76-b5ac-4a8c2963438f, updated January 21, 2026",
+   "retrieved_with": "WebSearch (DailyMed) then WebFetch of the DailyMed label page",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "Was ref 6. Replaced the Pfizer labeling link (a label marketed in the Philippines, per the Nov 6 audit) with the U.S. label on DailyMed. Not a journal article; no retraction check applies.",
+   "claims": [
+    {
+     "text": "Relief may result within 8 to 12 hours of a single 80 to 120 mg IM dose in acute severe poison ivy dermatitis",
+     "quote": "In acute severe dermatitis due to poison ivy, relief may result within 8 to 12 hours following intramuscular administration of a single dose of 80 to 120 mg.",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "kind": "label",
+   "cited_as": "Pharmacia & Upjohn Company LLC. MEDROL (methylprednisolone tablets) prescribing information. DailyMed. Revised November 2025.",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=39d5270b-d957-4821-93d6-501b7b9f02d4",
+   "version_or_date": "DailyMed set id 39d5270b-d957-4821-93d6-501b7b9f02d4, revised November 2025 (page updated November 14, 2025)",
+   "retrieved_with": "WebSearch (DailyMed) then WebFetch of the DailyMed label page",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "New reference added this run to support the Dosepak contents and the safety cautions. Not a journal article; no retraction check applies.",
+   "claims": [
+    {
+     "text": "The pack holds 21 tablets of 4 mg, starting with six tablets on day 1",
+     "quote": "4 mg (white, elliptical, scored, imprinted MEDROL 4) ... DOSEPAK™ Unit of Use (21 tablets) ... all six (6) tablets in the row labeled DAY 1 should be taken the day you receive your prescription",
+     "quote_source": "label",
+     "verdict": "supported"
+    },
+    {
+     "text": "Label warns about raised blood pressure, latent diabetes, glaucoma, peptic ulcer, infection risk, and use in pregnancy",
+     "quote": "Manifestations of latent diabetes mellitus ... glaucoma with possible damage to the optic nerves ... Peptic ulcer with possible perforation and hemorrhage ... suppress the immune system and increase the risk of infection with any pathogen",
+     "quote_source": "label",
+     "verdict": "partly_supported"
+    },
+    {
+     "text": "Drug-induced adrenal insufficiency may be minimized by reducing the dose gradually",
+     "quote": "Drug-induced secondary adrenocortical insufficiency may be minimized by gradual reduction of dosage.",
+     "quote_source": "label",
+     "verdict": "supported"
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "kind": "agency_page",
+   "cited_as": "American Academy of Dermatology. Poison ivy, oak, and sumac: How to treat the rash. Last updated June 1, 2026.",
+   "url": "https://www.aad.org/public/everyday-care/itchy-skin/poison-ivy/treat-rash",
+   "version_or_date": "Last updated 6/1/26; read 2026-11-07",
+   "retrieved_with": "WebFetch of the official AAD page",
+   "retrieved_at": "2026-11-07",
+   "editorial_notices": [],
+   "notes": "Professional society patient page (schema has no society kind; logged as agency_page). Previously cited for systemic-steroid indications, which the page does not discuss; now cited only for home care, washing, and emergency signs.",
+   "claims": [
+    {
+     "text": "For a mild case, OTC hydrocortisone cream and calamine lotion can ease the itch",
+     "quote": "Calamine lotion can reduce the itch. ... If you have a mild case, a hydrocortisone cream or lotion is another treatment that can alleviate the itch.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Wash clothes, wash tools with warm soapy water, rinse a pet's fur",
+     "quote": "You want to thoroughly wash all clothes you were wearing when you came into contact with the plant. ... Be sure to rinse your pet's fur, and wash tools and other objects with warm, soapy water.",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Emergency care for facial swelling especially an eye swollen shut, rash on most of the body, trouble breathing or swallowing, fever",
+     "quote": "go to the emergency room immediately: Swelling on your face, especially if an eye has swollen shut ... Rashes on most of your body ... Difficulty breathing or swallowing ... A fever",
+     "quote_source": "official_page",
+     "verdict": "supported"
+    },
+    {
+     "text": "Signs of infection (redness, pain, pus, draining) call for prompt in-person care",
+     "quote": "It's time to partner with a board-certified dermatologist if your rash: ... May be infected (redness, pain, pus, or draining)",
+     "quote_source": "official_page",
+     "verdict": "partly_supported"
+    }
+   ]
+  }
+ ]
+}
