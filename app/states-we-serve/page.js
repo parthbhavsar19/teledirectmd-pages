@@ -261,7 +261,9 @@ export default function StatesWeServePage() {
   const totalConditions = categories.reduce((sum, cat) => sum + cat.conditions.length, 0);
   const jsonLd = buildJsonLd(allStates, categories);
   const featuredStates = buildFeaturedStates(allStates, categories);
-  const directoryStates = allStates.filter(s => !FEATURED_SLUGS.includes(s.slug));
+  // The directory lists every licensed state, including the ones also shown as
+  // featured cards above, so "All Licensed States" is complete.
+  const directoryStates = allStates;
   const stateNamesList = allStates.map(s => s.name).join(', ');
 
   const citableSummary_AI = summarizeStatesWeServe();

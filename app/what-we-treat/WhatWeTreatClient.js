@@ -120,22 +120,6 @@ function ByTheNumbers({ totalConditions, stateCount }) {
   // Start at the final value so the server HTML reads "60+", not "0+".
   const [n, setN] = useState(totalConditions);
   const [chip, setChip] = useState('Urgent care');
-  const [ladderStates, setLadderStates] = useState(() =>
-    reduced
-      ? [
-          { amt: 2500, on: true, crossed: true },
-          { amt: 250,  on: true, crossed: true },
-          { amt: 175,  on: true, crossed: true },
-          { amt: 79,   on: true, crossed: false },
-        ]
-      : [
-          { amt: 0, on: false, crossed: false },
-          { amt: 0, on: false, crossed: false },
-          { amt: 0, on: false, crossed: false },
-          { amt: 0, on: false, crossed: false },
-        ]
-  );
-
   useOnceInView(bandRef, () => {
     if (reduced) return;
     /* conditions counter — 3s */
@@ -153,38 +137,7 @@ function ByTheNumbers({ totalConditions, stateCount }) {
       else setChip('All categories');
     };
     requestAnimationFrame(step);
-
-    /* price ladder — staggered ~4.2s */
-    const rows = [2500, 250, 175, 79];
-    const LDUR = 4200;
-    const stagger = LDUR / rows.length;
-    rows.forEach((target, i) => {
-      setTimeout(() => {
-        /* count up this row */
-        const rowStart = performance.now();
-        const RDUR = 1100;
-        const rowStep = (now) => {
-          const t = Math.min(1, (now - rowStart) / RDUR);
-          const v = Math.round(target * easeOut(t));
-          setLadderStates((prev) => prev.map((r, j) => j === i ? { ...r, on: true, amt: v } : r));
-          if (t < 1) requestAnimationFrame(rowStep);
-          else if (i < rows.length - 1) {
-            setTimeout(() => {
-              setLadderStates((prev) => prev.map((r, j) => j === i ? { ...r, crossed: true } : r));
-            }, 950);
-          }
-        };
-        requestAnimationFrame(rowStep);
-      }, i * stagger);
-    });
   });
-
-  const rows = [
-    { label: 'ER visit', pct: 100 },
-    { label: 'Urgent care', pct: 38 },
-    { label: 'In-person PCP', pct: 22 },
-    { label: 'TeleDirectMD', pct: 10, final: true },
-  ];
 
   return (
     <section className="wwt-numbers" id="wwt-numbers" ref={bandRef} aria-label="By the numbers">
@@ -203,35 +156,6 @@ function ByTheNumbers({ totalConditions, stateCount }) {
             </div>
             <p className="wwt-foot">
               Eight categories, from urgent care and skin conditions to sexual health, chronic refills, and travel medicine.
-            </p>
-          </div>
-
-          <div className="wwt-stat">
-            <span className="wwt-label">Cost of the same visit</span>
-            <h3>Same care. Different bill.</h3>
-            <ul className="wwt-ladder">
-              {rows.map((r, i) => {
-                const state = ladderStates[i];
-                const cls = [
-                  r.final ? 'final' : '',
-                  state.on ? 'on' : '',
-                  state.crossed ? 'crossed' : '',
-                ].filter(Boolean).join(' ');
-                return (
-                  <li key={r.label} className={cls}>
-                    <span className="wwt-who">
-                      {r.label}
-                      <span className="wwt-bar">
-                        <span style={{ transform: `scaleX(${state.on ? r.pct / 100 : 0})` }} />
-                      </span>
-                    </span>
-                    <span className="wwt-amt">${state.amt.toLocaleString('en-US')}</span>
-                  </li>
-                );
-              })}
-            </ul>
-            <p className="wwt-foot">
-              ER average based on <a href="https://www.kff.org/health-costs/emergency-department-visits-exceed-affordability-threshold-for-many-consumers-with-private-insurance/" target="_blank" rel="noopener noreferrer">KFF/Peterson-KFF Health System Tracker</a>. Illustrative comparison for uncomplicated adult visits; actual costs vary.
             </p>
           </div>
 

@@ -347,7 +347,7 @@ const sections = [
               South Dakota, Tennessee, Texas, Utah, Vermont, Virginia, Washington, West Virginia,
               and Wyoming.
             </p>
-            <p>D.C. was added as our 42nd coverage area in March 2026.</p>
+            <p>D.C. was added to our coverage area in March 2026.</p>
           </>
         ),
       },
