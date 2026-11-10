@@ -1,0 +1,636 @@
+{
+  "guide": "impetigo-in-children-guide",
+  "checked_at": "2026-11-07",
+  "checked_by": "Claude (repair run)",
+  "scite_verify_papers": "unavailable (quota exhausted until 2026-11-14); retraction status from PubMed article types",
+  "references": [
+    {
+      "n": 1,
+      "cited_as": "Stevens DL, Bisno AL, Chambers HF, et al. Practice guidelines for the diagnosis and management of skin and soft tissue infections: 2014 update by the Infectious Diseases Society of America. Clin Infect Dis. 2014;59(2):e10-e52. academic.oup.com PMID: 24973422.",
+      "url": "https://academic.oup.com/cid/article/59/2/e10/2895845",
+      "kind": "guideline",
+      "pmid": "24973422",
+      "doi": "10.1093/cid/ciu444",
+      "record_title": "Practice guidelines for the diagnosis and management of skin and soft tissue infections: 2014 update by the Infectious Diseases Society of America.",
+      "record_journal": "Clin Infect Dis",
+      "record_year": "2014",
+      "article_type": "Journal Article; Practice Guideline",
+      "version_or_date": "2014 update; Clin Infect Dis 59(2):e10-52; read 2026-11-07",
+      "retrieved_with": "PubMed get_article_metadata; WebFetch of academic.oup.com full text (no bot check)",
+      "notes": "scite_unavailable (quota exhausted until 2026-11-14); retraction status from PubMed article types. PubMed article types show no Retracted Publication or Retraction Notice. Quotes are from the publisher full text via WebFetch, which caps quotes, so some long sentences are quoted only in part. Dicloxacillin impetigo row lists pediatric dose as N/A; the guide uses the MSSA SSTI row and says so.",
+      "claims": [
+        {
+          "text": "Topical mupirocin or retapamulin twice daily for 5 days for bullous and nonbullous impetigo (strong, high)",
+          "quote": "Treatment of bullous and nonbullous impetigo should be with either mupirocin or retapamulin twice daily (bid) for 5 days",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Oral therapy recommended for numerous lesions or outbreaks",
+          "quote": "but oral therapy is recommended for patients with numerous lesions or in outbreaks affecting several people",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Ecthyma should be treated with an oral antibiotic",
+          "quote": "Treatment for ecthyma should be an oral antimicrobial.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Oral course is a 7-day regimen active against S. aureus",
+          "quote": "Oral therapy for ecthyma or impetigo should be a 7-day regimen with an agent active against S. aureus",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Dicloxacillin or cephalexin for methicillin-susceptible infection",
+          "quote": "Because S. aureus isolates from impetigo and ecthyma are usually methicillin susceptible, dicloxacillin or cephalexin is recommended",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Doxycycline, clindamycin, or TMP-SMX when MRSA is suspected or confirmed",
+          "quote": "When MRSA is suspected or confirmed, doxycycline, clindamycin, or sulfamethoxazole-trimethoprim (SMX-TMP) is recommended",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Systemic antibiotics during outbreaks of post-streptococcal glomerulonephritis",
+          "quote": "Systemic antimicrobials should be used for infections during outbreaks of poststreptococcal glomerulonephritis",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Cephalexin pediatric 25 to 50 mg/kg/day in 3 to 4 divided doses",
+          "quote": "25–50 mg/kg/d in 3–4 divided doses po",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Dicloxacillin pediatric 25 to 50 mg/kg/day in 4 divided doses (MSSA SSTI row)",
+          "quote": "25–50 mg/kg/d in 4 divided doses po",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Amoxicillin-clavulanate 25 mg/kg/day amoxicillin component in 2 divided doses",
+          "quote": "25 mg/kg/d of the amoxicillin component in 2 divided doses po",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Clindamycin MRSA SSTI oral 30 to 40 mg/kg/day in 3 divided doses; impetigo row 20 mg/kg/day in 3 divided doses",
+          "quote": "25–40 mg/kg/d in 3 divided doses IV or 30–40 mg/kg/d in 3 divided doses po; impetigo row: 20 mg/kg/d in 3 divided doses po",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "TMP-SMX 8 to 12 mg/kg/day trimethoprim component, 2 divided oral doses",
+          "quote": "8–12 mg/kg/d (based on trimethoprim component) in either 4 divided doses IV or 2 divided doses po",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Doxycycline not recommended under age 8; no pediatric dose",
+          "quote": "Not recommended for age <8 y",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Pediatric doses not appropriate for newborns",
+          "quote": "Doses listed are not appropriate for neonates.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Erythromycin listed with caution that some strains may be resistant",
+          "quote": "Some strains of Staphylococcus aureus and Streptococcus pyogenes may be resistant.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Treatment depends on number of lesions, ecthyma, outbreaks, MRSA suspicion (summary of the recommendations above)",
+          "quote": "oral therapy is recommended for patients with numerous lesions or in outbreaks affecting several people",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        }
+      ],
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": []
+    },
+    {
+      "n": 2,
+      "cited_as": "Wren C, Bell E, Eiland LS. Ozenoxacin: A Novel Topical Quinolone for Impetigo. Ann Pharmacother. 2018;52(12):1233-1237. doi:10.1177/1060028018786510 PMID: 29962213.",
+      "url": "https://doi.org/10.1177/1060028018786510",
+      "kind": "journal",
+      "pmid": "29962213",
+      "doi": "10.1177/1060028018786510",
+      "record_title": "Ozenoxacin: A Novel Topical Quinolone for Impetigo.",
+      "record_journal": "Ann Pharmacother",
+      "record_year": "2018",
+      "article_type": "Journal Article; Review",
+      "retrieved_with": "PubMed get_article_metadata (abstract)",
+      "notes": "scite_unavailable (quota exhausted until 2026-11-14); retraction status from PubMed article types. No Retracted Publication or Retraction Notice type in PubMed. Abstract only.",
+      "claims": [
+        {
+          "text": "Direct comparisons of ozenoxacin with currently recommended therapies are lacking",
+          "quote": "because of lack of direct comparative clinical efficacy data with currently recommended therapies and likely high cost",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ],
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": []
+    },
+    {
+      "n": 3,
+      "cited_as": "Centers for Disease Control and Prevention. About Impetigo. Group A Strep site. Updated August 6, 2025. Accessed November 7, 2026. cdc.gov",
+      "url": "https://www.cdc.gov/group-a-strep/about/impetigo.html",
+      "kind": "agency_page",
+      "version_or_date": "Updated Aug. 6, 2025",
+      "retrieved_with": "WebFetch of official page",
+      "notes": "Page readable, no bot check.",
+      "claims": [
+        {
+          "text": "Caused by group A strep, S. aureus, or both",
+          "quote": "Impetigo is a skin infection caused by bacteria: either group A Streptococcus, Staphylococcus aureus, or both.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Most common in children 2 through 5 years old",
+          "quote": "Impetigo is most common in children 2 through 5 years old.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Close contact is the most common risk factor",
+          "quote": "Close contact with another person with impetigo is the most common risk factor for illness.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Scabies increases impetigo risk",
+          "quote": "People with scabies infection are at increased risk for impetigo.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Return to school or daycare once antibiotics started, with sores on exposed skin covered",
+          "quote": "People with impetigo can return to work, school, or daycare if they have started antibiotic treatment. They should also cover all sores on exposed skin.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Post-streptococcal glomerulonephritis is a very rare complication",
+          "quote": "Very rarely, complications can include post-streptococcal glomerulonephritis and rheumatic fever.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "The crusted sore heals without leaving a scar",
+          "quote": "a crusty yellow or \"honey-colored\" scab forms over the sore, which then heals without leaving a scar",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ],
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": []
+    },
+    {
+      "n": 4,
+      "cited_as": "Mayo Clinic. Impetigo: Symptoms and causes. Page dated April 19, 2023. Accessed November 7, 2026. mayoclinic.org",
+      "url": "https://www.mayoclinic.org/diseases-conditions/impetigo/symptoms-causes/syc-20352352",
+      "kind": "other_web",
+      "version_or_date": "Page dated April 19, 2023 (no 'updated' label)",
+      "retrieved_with": "WebFetch of official page",
+      "notes": "Page readable.",
+      "claims": [
+        {
+          "text": "Reddish sores often around nose and mouth that form honey-colored crust",
+          "quote": "The main symptom of impetigo is reddish sores, often around the nose and mouth.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Bullous: larger blisters on the trunk of infants and young children",
+          "quote": "causes larger blisters on the trunk of infants and young children",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Ecthyma penetrates deeper, painful sores turn into deep ulcers, can scar",
+          "quote": "painful fluid- or pus-filled sores that turn into deep ulcers ... The sores associated with ecthyma can leave scars.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Bacteria often enter through a small cut, insect bite or rash",
+          "quote": "The bacteria that cause impetigo often enter the skin through a small cut, insect bite or rash.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Spreads within families, schools, child care, skin-to-skin sports",
+          "quote": "Impetigo spreads easily within families, in crowded settings, such as schools and child care facilities,",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Sports with skin-to-skin contact raise risk",
+          "quote": "participating in sports that involve skin-to-skin contact.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Children with atopic dermatitis are more likely to develop impetigo",
+          "quote": "Children with other skin conditions, such as atopic dermatitis (eczema), are more likely to develop impetigo.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Wear gloves applying ointment, wash hands after",
+          "quote": "Wear gloves when applying antibiotic ointment and wash your hands thoroughly afterward.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Wash clothes, linens, towels daily in hot water",
+          "quote": "Wash an infected person's clothes, linens and towels every day with hot water",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Trim nails short",
+          "quote": "Cut an infected child's nails short to prevent damage from scratching.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Keep child home until doctor says not contagious",
+          "quote": "Keep your child with impetigo home until your doctor says they aren't contagious.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ],
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": []
+    },
+    {
+      "n": 5,
+      "cited_as": "Mayo Clinic. Impetigo: Diagnosis and treatment. Page dated April 19, 2023. Accessed November 7, 2026. mayoclinic.org",
+      "url": "https://www.mayoclinic.org/diseases-conditions/impetigo/diagnosis-treatment/drc-20352358",
+      "kind": "other_web",
+      "version_or_date": "Page dated April 19, 2023 (no 'updated' label)",
+      "retrieved_with": "WebFetch of official page",
+      "notes": "Page readable. It does not define the contagious period; the old 24-hour claim was removed.",
+      "claims": [
+        {
+          "text": "Soak or compress, then gently remove scabs so antibiotic reaches skin",
+          "quote": "soak the area in warm water or apply a wet cloth compress for a few minutes ... gently remove any scabs so the antibiotic can get into the skin.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Nonstick bandage to help prevent spread",
+          "quote": "Place a nonstick bandage over the area to help prevent the sores from spreading.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Do not share towels or sports equipment while contagious",
+          "quote": "Avoid sharing personal items, such as towels or athletic equipment, while contagious.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Finish full course even if sores healed",
+          "quote": "Be sure to finish the entire course of medication even if the sores are healed.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ],
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": []
+    },
+    {
+      "n": 6,
+      "cited_as": "Cleveland Clinic. Impetigo. Last updated February 7, 2023. Accessed November 7, 2026. clevelandclinic.org",
+      "url": "https://my.clevelandclinic.org/health/diseases/15134-impetigo",
+      "kind": "other_web",
+      "version_or_date": "Last updated on 02/07/2023 (old citation said June 12, 2026; corrected)",
+      "retrieved_with": "WebFetch of official page",
+      "notes": "Page readable. Page does not name a cause or body site for bullous impetigo.",
+      "claims": [
+        {
+          "text": "Sores/blisters on mouth and nose, also scalp, hairline, arms, legs; burst and form honey-colored crusts",
+          "quote": "the first signs of impetigo are sores and blisters on your child's mouth and nose ... can also appear on your child's scalp, hairline, legs and arms ... Forming honey-colored crusts over the sores",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "More than 90% of bullous cases in children younger than 2",
+          "quote": "More than 90% of cases of bullous impetigo affect children younger than age 2.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Impetigo can infect skin that is not broken",
+          "quote": "But impetigo can infect skin even if it's not broken or punctured.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Most common skin infection ages 2 to 5; about 10% of skin conditions in children",
+          "quote": "Impetigo is the most common skin infection in kids between the ages of 2 and 5. ... It accounts for about 10% of skin conditions in children.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Cleveland Clinic advises staying home 48 hours after starting an antibiotic",
+          "quote": "Your child should stay home from school for 48 hours after starting an antibiotic.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ],
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": []
+    },
+    {
+      "n": 7,
+      "cited_as": "GoodRx. Mupirocin prices, coupons and savings tips. Coupon prices last updated November 7, 2026. Accessed November 7, 2026. goodrx.com",
+      "url": "https://www.goodrx.com/mupirocin",
+      "kind": "other_web",
+      "version_or_date": "GoodRx coupon prices last updated on 11/07/26",
+      "retrieved_with": "WebFetch of page",
+      "notes": "Price for mupirocin 2% ointment, 22 g, 1 tube. Pharmacy-specific; re-check at every refresh.",
+      "claims": [
+        {
+          "text": "22 g mupirocin 2% ointment: retail $42.49, standard GoodRx price $17.19 as of Nov 7, 2026",
+          "quote": "Standard GoodRx price $17.19 retail$42.49",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ],
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": []
+    },
+    {
+      "n": 8,
+      "cited_as": "Koning S, van der Sande R, Verhagen AP, et al. Interventions for impetigo. Cochrane Database Syst Rev. 2012;1:CD003261. doi:10.1002/14651858.CD003261.pub3 PMID: 22258953.",
+      "url": "https://doi.org/10.1002/14651858.CD003261.pub3",
+      "kind": "journal",
+      "pmid": "22258953",
+      "pmcid": "PMC7025440",
+      "doi": "10.1002/14651858.CD003261.pub3",
+      "record_title": "Interventions for impetigo.",
+      "record_journal": "Cochrane Database Syst Rev",
+      "record_year": "2012",
+      "article_type": "Journal Article; Meta-Analysis; Systematic Review",
+      "retrieved_with": "PubMed get_article_metadata; PubMed get_full_text_article (returned abstract only)",
+      "notes": "scite_unavailable (quota exhausted until 2026-11-14); retraction status from PubMed article types. No Retracted Publication or Retraction Notice type in PubMed. Abstract only. Search dates to July 2010; older evidence.",
+      "claims": [
+        {
+          "text": "Topical mupirocin slightly superior to oral erythromycin",
+          "quote": "In 10 studies with 581 participants, topical mupirocin was shown to be slightly superior to oral erythromycin (pooled RR 1.07, 95% CI 1.01 to 1.13).",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Topical mupirocin at least as effective as oral treatment; unclear for extensive impetigo",
+          "quote": "There is good evidence that topical mupirocin and topical fusidic acid are equally, or more, effective than oral treatment. Due to the lack of studies in people with extensive impetigo, it is unclear",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Growing resistance to commonly used antibiotics",
+          "quote": "Worldwide, bacteria causing impetigo show growing resistance rates for commonly used antibiotics.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ],
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": []
+    },
+    {
+      "n": 9,
+      "cited_as": "Trang DT, Buck EC, Schoenherr DT. Impetigo: Rapid Evidence Review. Am Fam Physician. 2026;113(2):175-180. aafp.org PMID: 41839109.",
+      "url": "https://www.aafp.org/afp/2026/0200/impetigo",
+      "kind": "journal",
+      "pmid": "41839109",
+      "record_title": "Impetigo: Rapid Evidence Review.",
+      "record_journal": "Am Fam Physician",
+      "record_year": "2026",
+      "article_type": "Journal Article; Review",
+      "retrieved_with": "PubMed get_article_metadata (abstract); WebFetch of aafp.org article page (abstract and 'What's New on This Topic' sidebar readable; body behind login)",
+      "notes": "scite_unavailable (quota exhausted until 2026-11-14); retraction status from PubMed article types. No Retracted Publication or Retraction Notice type in PubMed. No DOI in PubMed record. Body text paywalled, so only abstract and publicly visible sidebar used. Ozenoxacin US discontinuation not cross-checked against an FDA source this run.",
+      "claims": [
+        {
+          "text": "Nonbullous about 70% of cases",
+          "quote": "Impetigo can be nonbullous (70%) or bullous (30%)",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Risk factors: skin barrier disruption, crowded living, hot humid climates",
+          "quote": "Risk factors for impetigo include disruptions to the skin barrier, poor hygiene, crowded living environments, living in hot and humid climates, malnutrition, and diabetes.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Mupirocin 2% or retapamulin 1% are recommended initial treatments; oral for outbreaks or non-response in 3 to 5 days",
+          "quote": "Topical mupirocin 2% ointment or retapamulin 1% ointment are the recommended initial treatments ... for severe, multilesional disease that does not respond to topical therapy within 3 to 5 days.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Wait 12 to 24 hours after antibiotics or until clinical improvement before returning",
+          "quote": "refraining from returning to work or school until 12 to 24 hours after initiating antibiotic treatment or clinical improvement occurs.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Ozenoxacin discontinued in the US as of September 2025",
+          "quote": "however, it has been discontinued in the United States as of September 2025 and is expensive.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ],
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": []
+    },
+    {
+      "n": 10,
+      "cited_as": "Saleh HM, Ross A, Sathe NC. Staphylococcal Scalded Skin Syndrome. StatPearls. Updated June 22, 2025. Accessed November 7, 2026. ncbi.nlm.nih.gov",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK448135/",
+      "kind": "other_web",
+      "version_or_date": "StatPearls, last update June 22, 2025",
+      "retrieved_with": "WebFetch of NCBI Bookshelf page (readable this run)",
+      "notes": "Book chapter, not a journal article; no PMID/DOI recorded. Contradicts the old claim that neonates are at higher SSSS risk: it says neonates in the first weeks have some protection.",
+      "claims": [
+        {
+          "text": "SSSS: superficial blistering, peeling, wrinkled look",
+          "quote": "The condition typically presents with superficial skin blistering and denudation. ... The skin subsequently acquires a wrinkled look.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Bullous impetigo typically seen in newborns; SSSS as early as 48 hours after birth",
+          "quote": "Bullous impetigo is typically seen in newborns ... In the pediatric population, SSSS can present as early as 48 hours after birth",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "In bullous impetigo, S. aureus exotoxins act only at the infection site",
+          "quote": "Unlike bullous impetigo, in which the effects of the exotoxins are confined to the infection site",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "SSSS mostly in children under 5",
+          "quote": "Most cases involve children younger than 5 years, with most cases occurring before 3 years.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Severe generalized SSSS needs hospitalization and IV antibiotics",
+          "quote": "Patients exhibiting severe, generalized manifestations of SSSS necessitate hospitalization and intravenous antibiotics.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        }
+      ],
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": []
+    },
+    {
+      "n": 11,
+      "cited_as": "Traidl S, Roesner L, Zeitvogel J, Werfel T. Eczema herpeticum in atopic dermatitis. Allergy. 2021;76(10):3017-3027. doi:10.1111/all.14853 PMID: 33844308.",
+      "url": "https://doi.org/10.1111/all.14853",
+      "kind": "journal",
+      "pmid": "33844308",
+      "doi": "10.1111/all.14853",
+      "record_title": "Eczema herpeticum in atopic dermatitis.",
+      "record_journal": "Allergy",
+      "record_year": "2021",
+      "article_type": "Journal Article; Review",
+      "retrieved_with": "PubMed get_article_metadata (abstract)",
+      "notes": "scite_unavailable (quota exhausted until 2026-11-14); retraction status from PubMed article types. No Retracted Publication or Retraction Notice type in PubMed. Abstract only; the clinical description (clusters of painful blisters) and the urgent-care advice are not in the abstract.",
+      "claims": [
+        {
+          "text": "Eczema herpeticum is a disseminated HSV infection in atopic dermatitis that can cause life-threatening complications",
+          "quote": "A subset of AD patients exhibits a disseminated severe HSV infection called eczema herpeticum (EH) that can cause life-threatening complications.",
+          "quote_source": "abstract",
+          "verdict": "partly_supported"
+        }
+      ],
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": []
+    },
+    {
+      "n": 12,
+      "cited_as": "Centers for Disease Control and Prevention. Methicillin-resistant Staphylococcus aureus (MRSA) Basics. Page dated June 26, 2025. Accessed November 7, 2026. cdc.gov",
+      "url": "https://www.cdc.gov/mrsa/about/index.html",
+      "kind": "agency_page",
+      "version_or_date": "Page dated June 26, 2025 (last reviewed)",
+      "retrieved_with": "WebFetch of official page",
+      "notes": "Page readable.",
+      "claims": [
+        {
+          "text": "MRSA resistant to several antibiotics",
+          "quote": "MRSA is a type of bacteria that is resistant to several antibiotics.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Risk: skin-to-skin contact sports, crowded unhygienic places, hospital or nursing home stays",
+          "quote": "The risk increases for people with hospitalizations or nursing home stays ... skin-to-skin contact with others (such as in contact sports) ... exposure to crowded and unhygienic places",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Daycare and school students; athletes at higher risk",
+          "quote": "Athletes. ... Daycare and school students.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        },
+        {
+          "text": "Lab test of a specimen needed to confirm MRSA",
+          "quote": "A healthcare provider must send a clinical specimen to a laboratory to determine if MRSA is the cause of an infection.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ],
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": []
+    },
+    {
+      "n": 13,
+      "cited_as": "U.S. Food and Drug Administration. XEPI (ozenoxacin) cream, 1%: prescribing information. Revised December 2017. Accessed November 7, 2026. accessdata.fda.gov",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2017/208945lbl.pdf",
+      "kind": "label",
+      "version_or_date": "Revised 12/2017 (Initial U.S. Approval: 2017); PDF notes it may not be the latest approved label",
+      "retrieved_with": "WebFetch of Drugs@FDA label PDF",
+      "notes": "Later label versions not checked this run.",
+      "claims": [
+        {
+          "text": "FDA approved 2017",
+          "quote": "Initial U.S. Approval: 2017",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Impetigo due to S. aureus or S. pyogenes in patients 2 months and older",
+          "quote": "indicated for the topical treatment of impetigo due to Staphylococcus aureus or Streptococcus pyogenes in adult and pediatric patients 2 months of age and older",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Twice daily for five days",
+          "quote": "Apply a thin layer of XEPI topically to the affected area twice daily for five days.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Active against S. aureus including methicillin-resistant isolates",
+          "quote": "Staphylococcus aureus (including methicillin-resistant isolates)",
+          "quote_source": "label",
+          "verdict": "supported"
+        }
+      ],
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": []
+    },
+    {
+      "n": 14,
+      "cited_as": "DailyMed. Mupirocin ointment, 2%: prescribing information (A-S Medication Solutions). Revised August 2020. Accessed November 7, 2026. dailymed.nlm.nih.gov",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=99eb0412-1d5c-437f-902b-1bc195ae1efa",
+      "kind": "label",
+      "version_or_date": "Revised 8/2020 (A-S Medication Solutions repackager label)",
+      "retrieved_with": "WebFetch of DailyMed label page",
+      "notes": "Label dosing (3 times daily up to 10 days) differs from IDSA (twice daily for 5 days); the guide states both.",
+      "claims": [
+        {
+          "text": "Mupirocin ointment 3 times daily for up to 10 days",
+          "quote": "to the affected area 3 times daily for up to 10 days.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Re-evaluate if no clinical response within 3 to 5 days",
+          "quote": "Re-evaluate patients not showing a clinical response within 3 to 5 days.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Mupirocin is a prescription medicine",
+          "quote": "a prescription medicine",
+          "quote_source": "label",
+          "verdict": "supported"
+        }
+      ],
+      "retrieved_at": "2026-11-07",
+      "editorial_notices": []
+    }
+  ]
+}
