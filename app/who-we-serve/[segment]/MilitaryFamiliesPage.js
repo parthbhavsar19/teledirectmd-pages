@@ -421,44 +421,7 @@ export default function MilitaryFamiliesPage() {
               <a href="/book-online/" className="tdmd-btn tdmd-btn-primary">Book Now — $79</a>
             </div>
           </div>
-          <div className="tdmd-price-chart">
-            <div className="tdmd-bar-row">
-              <span className="tdmd-bar-label">TeleDirectMD</span>
-              <div className="tdmd-bar-track">
-                <div className="tdmd-bar-fill tdmd-bar-fill-tdmd" style={{ width: '4%' }}></div>
-              </div>
-              <span>$79</span>
-            </div>
-            <div className="tdmd-bar-row">
-              <span className="tdmd-bar-label">TRICARE Prime (in-network, when active)</span>
-              <div className="tdmd-bar-track">
-                <div className="tdmd-bar-fill" style={{ width: '1.5%' }}></div>
-              </div>
-              <span>$0–$20 co-pay</span>
-            </div>
-            <div className="tdmd-bar-row">
-              <span className="tdmd-bar-label">TRICARE Prime (out-of-network)</span>
-              <div className="tdmd-bar-track">
-                <div className="tdmd-bar-fill" style={{ width: '30%' }}></div>
-              </div>
-              <span>$200–$400+</span>
-            </div>
-            <div className="tdmd-bar-row">
-              <span className="tdmd-bar-label">Civilian Urgent Care (cash)</span>
-              <div className="tdmd-bar-track">
-                <div className="tdmd-bar-fill" style={{ width: '23%' }}></div>
-              </div>
-              <span>$150–$300</span>
-            </div>
-            <div className="tdmd-bar-row">
-              <span className="tdmd-bar-label">Civilian ER (non-emergency)</span>
-              <div className="tdmd-bar-track">
-                <div className="tdmd-bar-fill" style={{ width: '100%' }}></div>
-              </div>
-              <span>$1,500–$5,000+</span>
-            </div>
-          </div>
-          <p className="tdmd-cost-note">When TRICARE is active and you're in-network, it's hard to beat. But during transitions, $79 is far less than the cost of out-of-network TRICARE care — or a civilian urgent care visit.</p>
+          <p className="tdmd-cost-note">When TRICARE is active and you're in-network, use it. During a transition, a TeleDirectMD visit is $79 flat, paid at booking, with no TRICARE authorization needed. Prescriptions are paid separately at the pharmacy.</p>
         </div>
       </section>
 

@@ -153,7 +153,7 @@ export const INSURANCE_STATES = ["AZ","CA","CO","FL","GA","IL","MI","MN","NC","N
 export const COPAY_DATA = {
   aetna: {
     AZ: { typical: "$10–$40", employer: "Often $0–$15 for employer plans", note: "Aetna Arizona commercial telehealth copays are set per plan. HSA-qualified plans apply deductible first." },
-    CA: { typical: "$10–$40", employer: "Often $0–$20 for employer plans", note: "California's strong telehealth parity laws keep Aetna telehealth copays comparable to in-person office visits. HMO and PPO plans both covered." },
+    CA: { typical: "$10–$40", employer: "Often $0–$20 for employer plans", note: "California's strong telehealth parity laws keep Aetna telehealth copays comparable to in-person office visits. Aetna HMO and QPOS plans are not included." },
     CO: { typical: "$10–$35", employer: "Often $0–$15 for employer plans", note: "Aetna Colorado commercial plans typically have telehealth copays below the in-person specialist rate." },
     FL: { typical: "$10–$40", employer: "Often $0–$20 for employer plans", note: "Florida mandates telehealth parity, so Aetna Florida telehealth copays match your office visit copay." },
     GA: { typical: "$0–$30", employer: "Often $0 for employer plans", note: "Georgia is TeleDirectMD's home state. Aetna Georgia plans frequently carry $0 telehealth copays for employers." },
