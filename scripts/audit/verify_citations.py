@@ -92,7 +92,9 @@ def main(path):
             time.sleep(0.5)
             s = esummary(pmid)
             pub_authors = [a["name"].split()[0].lower() for a in s.get("authors", [])]
-            html_first = re.match(r'^([A-Z][A-Za-z\-\']+)', r["text"])
+            # Preserve Unicode surnames such as Piérard-Franchimont; the
+            # ASCII-only pattern truncated valid names to "Pi".
+            html_first = re.match(r"^([^\W\d_][\w\-']*)", r["text"])
             author_ok = (not html_first) or (not pub_authors) or html_first.group(1).lower() == pub_authors[0]
             toks = [t for t in re.findall(r"[a-z0-9]+", norm(s.get("title", ""))) if len(t) > 3]
             miss = [t for t in toks if t not in norm(r["text"])][:4]
