@@ -1557,5 +1557,12 @@
     "Mayo reader URL returned HTTP 403; replaced with AAD self-care guidance and rewritten source-specific wording.",
     "No search ranking, AI citation, current prescribing availability or guaranteed outcome is inferred."
   ],
-  "author_parser_regression": "Unicode surname Piérard-Franchimont now parsed completely; incorrect author surnames still fail."
+  "author_parser_regression": "Unicode surname Piérard-Franchimont now parsed completely; incorrect author surnames still fail.",
+  "production_recheck": "2026-11-12",
+  "release_reference_14_replacement": {
+    "reason": "Archived FDA PDF returned a non-200 status during the release gate",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f9e0b4a9-a227-4947-b00c-41fb18d16589",
+    "revision": "September 2026",
+    "checked": "STRATUM week-8 IGA success 79.5% vs 58.0%, total 457; adult indication and once-daily foam retained; no clinical efficacy wording changed"
+  }
 }
