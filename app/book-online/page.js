@@ -63,7 +63,7 @@ export default function BookOnlinePage() {
                     
             .tdmd-intake-frame {
               position: absolute;
-              top: -82px;
+              top: 0;
               left: 0;
               width: 100%;
               height: calc(100% + 82px);
