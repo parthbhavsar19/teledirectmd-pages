@@ -1,0 +1,535 @@
+{
+  "guide": "cellulitis-guide",
+  "checked_at": "2026-11-15",
+  "checked_by": "Claude (repair run)",
+  "scite_verify_papers": "run 2026-11-15; 9 verified, retractions: none (9 DOIs: refs 1, 2, 3, 5, 6, 7, 9, 10, 11; no editorial notices; contrasting evidence flagged for refs 1 and 9, see notes). PubMed article types checked for all 9 PubMed records: no Retracted Publication or Retraction Notice. Refs 4, 8, 12, 13, 14 have no DOI (labels and a web reference).",
+  "references": [
+    {
+      "n": 1,
+      "kind": "guideline",
+      "cited_as": "Stevens DL, Bisno AL, Chambers HF, et al. Practice guidelines for the diagnosis and management of skin and soft tissue infections: 2014 update by the Infectious Diseases Society of America. Clin Infect Dis. 2014;59(2):e10-e52.",
+      "url": "https://www.idsociety.org/globalassets/idsa/practice-guidelines/practice-guidelines-for-the-diagnosis-and-management-of-skin-and-soft-tissue-infections-2014-update-by-the-infectious-diseases-society-of-america.pdf",
+      "pmid": "24973422",
+      "doi": "10.1093/cid/ciu444",
+      "record_title": "Practice guidelines for the diagnosis and management of skin and soft tissue infections: 2014 update by the Infectious Diseases Society of America.",
+      "record_journal": "Clin Infect Dis",
+      "record_year": "2014",
+      "article_type": "Practice Guideline",
+      "version_or_date": "IDSA 2014 update; Clin Infect Dis 2014;59(2):e10-e52 (PubMed). Full text read from the IDSA-hosted PDF on 2026-11-15.",
+      "retrieved_with": "PubMed get_article_metadata (record); WebFetch of the IDSA-hosted guideline PDF (full text, quotes)",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Link changed from the OUP article page (audit: returns only a navigation shell to automated reads) to the IDSA-hosted PDF of the same guideline, which was the copy read this run; duplicate ref 9 (same PDF) removed. WebFetch returns quotes in fragments of up to 125 characters; where a clause was summarized rather than quoted by the tool it is noted on the claim. Scite verify_papers verified the DOI (Scite labels the record \"Executive Summary\", a metadata quirk) and flagged one contrasting citation (10.1007/s10096-017-3001-0) reporting blood culture positivity of 4-9% in other studies; the page therefore attributes the 5% figure to the IDSA and says \"generally\".",
+      "claims": [
+        {
+          "text": "Most cellulitis arises from streptococci, often group A; S. aureus causes cellulitis less often (key takeaway)",
+          "quote": "the vast majority of these infections arise from streptococci, often group A, but also from other groups, [...] Staphylococcus aureus less frequently causes cellulitis,",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Typical cellulitis without systemic signs: antibiotic active against streptococci; suitable oral choices penicillin, amoxicillin, amoxicillin-clavulanate, dicloxacillin, cephalexin, clindamycin (key takeaway, first-line table intro, table notes, citable summary)",
+          "quote": "Typical cases of cellulitis without systemic signs of infection should receive an antimicrobial agent that is active against streptococci (mild; Figure 1) (strong, moderate).",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Suitable oral antibiotics for most patients; many can take oral medication from the start",
+          "quote": "A large percentage of patients can receive oral medications from the start for typical cellulitis [...] suitable antibiotics for most patients include penicillin, amoxicillin, amoxicillin-clavulanate, dicloxacillin, cephalexin, or clindamycin.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "MRSA situations: penetrating trauma, MRSA infection elsewhere, nasal colonization, injection drug use, purulent drainage, SIRS (key takeaway, MRSA list)",
+          "quote": "For patients whose cellulitis is associated with penetrating trauma, evidence of MRSA infection elsewhere, nasal colonization with MRSA, injection drug use, purulent drainage, or SIRS (severe nonpurulent),",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "MRSA is an unusual cause of typical cellulitis, so most cases do not need MRSA coverage",
+          "quote": "MRSA is an unusual cause of typical cellulitis. [...] suggesting that cellulitis due to MRSA is uncommon and treatment for that organism is usually unnecessary",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Oral options covering both streptococci and MRSA: clindamycin alone, or TMP-SMX or doxycycline with a beta-lactam such as cephalexin (key takeaway, MRSA table, sidebar, citable summary)",
+          "quote": "If coverage for both streptococci and MRSA is desired for oral therapy, options include clindamycin alone or the combination of either SMX-TMP or doxycycline with a β-lactam (eg, penicillin, cephalexin, or amoxicillin).",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "TMP-SMX and doxycycline are IDSA oral options for MRSA",
+          "quote": "or oral therapy with doxycycline, clindamycin, or SMX-TMP.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Adult oral doses: cephalexin 500 mg four times daily; dicloxacillin 500 mg four times daily; amoxicillin-clavulanate 875/125 mg twice daily; clindamycin 300-450 mg four times daily; doxycycline 100 mg twice daily; TMP-SMX 1-2 DS tablets twice daily",
+          "quote": "Cephalexin 500 mg qid po [...] Dicloxacillin 500 mg qid po [...] Amoxicillin-clavulanate 875/125 mg bid po [...] 300–450 mg qid po [...] 100 mg bid po [...] 1–2 doublestrength tablets bid po",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "5-day course, extended if not improved (tables, duration paragraph, sidebar, citable summary)",
+          "quote": "The recommended duration of antimicrobial therapy is 5 days, but treatment should be extended if the infection has not improved within this time period (strong, high).",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Outpatient treatment recommended only for patients without SIRS, altered mental status, or hemodynamic instability (systemic symptoms paragraph, citable summary)",
+          "quote": "Outpatient therapy is recommended for patients who do not have SIRS, altered mental status, or hemodynamic instability",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Hospitalization recommended when deeper or necrotizing infection is suspected, in severe immunocompromise, or when outpatient treatment is failing (classification callout, citable summary)",
+          "quote": "Hospitalization is recommended if there is concern for a deeper or necrotizing infection, for patients with poor adherence to therapy, for infection in a severely immunocompromised patient,",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Classification: mild = no purulence and no systemic signs; moderate = systemic signs, systemic antibiotics indicated",
+          "quote": "Moderate infection: typical cellulitis/erysipelas with systemic signs of infection. [...] For cellulitis with systemic signs of infection (moderate nonpurulent; Figure 1), systemic antibiotics are indicated.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Severe = failed oral treatment, SIRS (temperature above 38C, heart rate above 90), immunocompromise, or deeper infection signs such as bullae, sloughing, hypotension, organ dysfunction",
+          "quote": "Severe infection: patients who have failed oral antibiotic treatment or those with systemic signs of infection such as temperature >38°C, tachycardia (heart rate >90 beats per minute), [...] bullae, skin sloughing, hypotension, or evidence of organ dysfunction",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "IDSA framework organizes treatment by purulence, MRSA risk and severity (treatment intro sentence)",
+          "quote": "Mild infection: typical cellulitis/erysipelas with no focus of purulence. Moderate infection: typical cellulitis/erysipelas with systemic signs of infection.",
+          "quote_source": "full_text",
+          "verdict": "partly_supported"
+        },
+        {
+          "text": "Routine blood and skin cultures not recommended; blood cultures generally positive in 5% or fewer of cases",
+          "quote": "Cultures of blood or cutaneous aspirates, biopsies, or swabs are not routinely recommended (strong, moderate). [...] Blood cultures are generally positive in ≤5% of cases [38].",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Blood cultures for patients with cancer, severe systemic features such as high fever and hypotension, or unusual predisposing factors (immersion injury, animal bites, neutropenia, severe cell-mediated immunodeficiency)",
+          "quote": "Blood cultures should be obtained and cultures of skin biopsy or aspirate considered for patients with malignancy, severe systemic features (such as high fever and hypotension),",
+          "quote_source": "full_text",
+          "verdict": "partly_supported"
+        },
+        {
+          "text": "Severe infections: IV MRSA options (vancomycin, daptomycin, linezolid, telavancin); vancomycin plus piperacillin-tazobactam or imipenem/meropenem as empiric regimen",
+          "quote": "include intravenous drugs (vancomycin, daptomycin, linezolid, or telavancin) [...] Vancomycin plus either piperacillin-tazobactam or imipenem/meropenem is recommended as a reasonable empiric regimen for severe infections (strong, moderate).",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Elevation hastens improvement via gravity drainage; elevation plus treatment of predisposing factors is a strong recommendation",
+          "quote": "Elevation of the affected area hastens improvement by promoting gravity drainage of edema and inflammatory substances. [...] Elevation of the affected area and treatment of predisposing factors, such as edema or underlying cutaneous disorders, are recommended (strong, moderate).",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Corticosteroids (prednisone 40 mg daily for 7 days) could be considered in nondiabetic adults; weak recommendation; trial of 108 nondiabetic adults showed faster resolution",
+          "quote": "Systemic corticosteroids (eg, prednisone 40 mg daily for 7 days) could be considered in nondiabetic adult patients with cellulitis (weak, moderate). [...] 108 adult nondiabetic patients, [...] significantly more rapid clinical resolution of cellulitis",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Prophylaxis for 3-4 episodes per year: oral penicillin or erythromycin twice daily for 4-52 weeks, or IM benzathine penicillin every 2-4 weeks (prevention section and FAQ)",
+          "quote": "Administration of prophylactic antibiotics, such as oral penicillin or erythromycin bid for 4–52 weeks, or intramuscular benzathine penicillin every 2–4 weeks, should be considered in patients who have 3–4 episodes of cellulitis per year",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Examine toe spaces in leg cellulitis; treating fissuring, scaling or maceration may reduce recurrent infection (key takeaway, tinea section)",
+          "quote": "In lower-extremity cellulitis, clinicians should carefully examine the interdigital toe spaces because treating fissuring, scaling, or maceration may eradicate colonization with pathogens and reduce the incidence of recurrent infection",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "kind": "journal",
+      "cited_as": "Ruhe JJ, Menon A. Tetracyclines as an oral treatment option for patients with community onset skin and soft tissue infections caused by methicillin-resistant Staphylococcus aureus. Antimicrob Agents Chemother. 2007;51(9):3298-3303.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17576834/",
+      "pmid": "17576834",
+      "pmcid": "PMC2043213",
+      "doi": "10.1128/AAC.00262-07",
+      "record_title": "Tetracyclines as an oral treatment option for patients with community onset skin and soft tissue infections caused by methicillin-resistant Staphylococcus aureus.",
+      "record_journal": "Antimicrob Agents Chemother",
+      "record_year": "2007",
+      "article_type": "Comparative Study; Journal Article (retrospective cohort)",
+      "retrieved_with": "PubMed get_article_metadata (abstract); Scite verify_papers",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Replaces Bhambri S, Kim G, J Clin Aesthet Dermatol 2009 (PMID 20729939), a secondary review whose 96% figure it attributes to this study (read via WebFetch of PMC2923949 this run). Per spec rule 4 the primary study is cited instead. The 96% figure is not in the Ruhe abstract, so it was cut; the page now states only the abstract conclusion. Abstract-only.",
+      "claims": [
+        {
+          "text": "Retrospective study of MRSA skin infections, mostly abscesses; doxycycline or minocycline judged a reasonable oral option where MRSA strains are tetracycline-susceptible",
+          "quote": "Abscesses constituted the majority of clinical presentations (75%) [...] The expanded-spectrum tetracyclines appear to be a reasonable oral treatment option for patients with community onset MRSA SSTI in areas where MRSA strains are susceptible to the tetracyclines.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "kind": "journal",
+      "cited_as": "Ong BS, Dotel R, Ngian VJJ. Recurrent Cellulitis: Who is at Risk and How Effective is Antibiotic Prophylaxis? Int J Gen Med. 2022;15:6561-6572.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9379124/",
+      "pmid": "35983462",
+      "pmcid": "PMC9379124",
+      "doi": "10.2147/IJGM.S326459",
+      "record_title": "Recurrent Cellulitis: Who is at Risk and How Effective is Antibiotic Prophylaxis?",
+      "record_journal": "Int J Gen Med",
+      "record_year": "2022",
+      "article_type": "Journal Article; Review",
+      "retrieved_with": "PubMed get_article_metadata; PubMed get_full_text_article (PMC9379124); Scite verify_papers",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Old entry merged Raff AB, Kroshinsky D (JAMA 2016) with this review and printed wrong pages (6717-6728). Now cites only Ong BS et al. with authors and pages from PubMed (6561-6572). The unsupported 8-20% one-year recurrence figure and the terbinafine/clotrimazole regimen were removed.",
+      "claims": [
+        {
+          "text": "Tinea pedis is frequently associated with higher risk of recurrent cellulitis (key takeaway)",
+          "quote": "Chronic and recurrent dermatomycosis including tinea pedis and onychomycosis are frequently associated with an increased risk of recurrent cellulitis",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Diabetes: hyperglycemia affects immune function; poor glycemic control linked to cellulitis; neuropathy and ulcers raise infection risk",
+          "quote": "Chronic hyperglycemia affects cellular immunity and phagocytic function. [...] Poor glycemic control has been associated with an increased risk of cellulitis. [...] Complications of diabetes such as peripheral neuropathy and microvascular disease leading to ulcers also increases the risk of infection.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Obesity a common factor in studies of recurrent cellulitis; associated with adverse outcomes and treatment failure",
+          "quote": "Obesity was a common factor in many studies. [...] Cellulitis in obese patients is also associated with adverse outcomes and treatment failure.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Recurrence 16% to 53% within three years; risk rises with each episode",
+          "quote": "Recurrent cellulitis is reported to occur with an incidence rate ranging from 16% to 53% within three years. [...] There is also an increasing risk for recurrence with subsequent episodes",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Foot hygiene with attention to toe webs; topical or oral antifungals may be needed for recurrent tinea pedis",
+          "quote": "Individuals with associated tinea pedis should be educated on foot hygiene with attention to the interdigital webbings of the toes. The use of topical or systemic antifungal agents may be needed to control recurrent tinea pedis",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Chronic leg swelling is a major risk factor for cellulitis",
+          "quote": "Chronic edema is a major risk factor for cellulitis.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Compression stockings not suitable for people with peripheral vascular disease or peripheral neuropathy",
+          "quote": "GCS are contraindicated in patients with peripheral vascular disease, peripheral neuropathy, or allergy to the stocking material.",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Non-antibiotic measures first-line; antibiotic prophylaxis limited to non-purulent cellulitis where risk factors are managed",
+          "quote": "The role of non-antibiotic measures is important and should be first-line in prevention. Antibiotic prophylaxis is effective, but its role is limited to non-purulent cellulitis where risk factors are appropriately managed.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "kind": "label",
+      "cited_as": "Bactrim DS and Bactrim (sulfamethoxazole and trimethoprim) tablets. Prescribing information. Sun Pharmaceutical Industries, Inc. DailyMed.",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f59d0c04-9c66-4d53-a0e1-cb55570deb62",
+      "version_or_date": "DailyMed updated December 30, 2024 (label Rev. 08, December 2024)",
+      "retrieved_with": "WebFetch of DailyMed label page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Replaces Cenizal MJ et al., Antimicrob Agents Chemother 2007 (PMID 17502411), whose abstract (re-read this run) reports only failure rates and does not state the strep-coverage, sulfa-allergy or potassium advice it was cited for. Cenizal removed.",
+      "claims": [
+        {
+          "text": "Sulfonamides should not be used to treat group A streptococcal infections, so TMP-SMX is paired with a beta-lactam for cellulitis",
+          "quote": "The sulfonamides should not be used for treatment of group A β-hemolytic streptococcal infections.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Contraindicated with known allergy to sulfonamides or trimethoprim",
+          "quote": "a known hypersensitivity to trimethoprim or sulfonamides",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Can raise potassium, especially with ACE inhibitors; potassium may need monitoring",
+          "quote": "when given concomitantly with drugs known to induce hyperkalemia, such as angiotensin converting enzyme inhibitors [...] Close monitoring of serum potassium is warranted in these patients.",
+          "quote_source": "label",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "kind": "journal",
+      "cited_as": "Webb E, Neeman T, Bowden FJ, et al. Compression Therapy to Prevent Recurrent Cellulitis of the Leg. N Engl J Med. 2020;383(7):630-639.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32786188/",
+      "pmid": "32786188",
+      "doi": "10.1056/NEJMoa1917197",
+      "record_title": "Compression Therapy to Prevent Recurrent Cellulitis of the Leg.",
+      "record_journal": "N Engl J Med",
+      "record_year": "2020",
+      "article_type": "Randomized Controlled Trial",
+      "retrieved_with": "PubMed search_articles and get_article_metadata (abstract); Scite verify_papers",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Replaces the UBC \"This Changed My Practice\" page (printed author \"Murchie P\" was wrong), which only summarized this trial; per spec rule 4 the primary trial is cited. The page no longer states a 23 mmHg pressure, an NNT of 4, or 20-30 mmHg over-the-counter advice, none of which is in the abstract. Abstract-only.",
+      "claims": [
+        {
+          "text": "Small single-center randomized trial, 84 people with chronic leg edema and recurrent cellulitis; recurrence 15% with compression vs 40% with education alone; stopped early for efficacy",
+          "quote": "participants with chronic edema of the leg and recurrent cellulitis [...] 84 were enrolled [...] 6 participants (15%) in the compression group and 17 (40%) in the control group had had an episode of cellulitis [...] the trial was stopped for efficacy",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Described as small and single-center",
+          "quote": "In this small, single-center, nonblinded trial involving patients with chronic edema of the leg and cellulitis, compression therapy resulted in a lower incidence of recurrence of cellulitis than conservative treatment.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "kind": "journal",
+      "cited_as": "McNamara DR, Tleyjeh IM, Berbari EF, et al. Incidence of lower-extremity cellulitis: a population-based study in Olmsted county, Minnesota. Mayo Clin Proc. 2007;82(7):817-821.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17605961/",
+      "pmid": "17605961",
+      "doi": "10.4065/82.7.817",
+      "record_title": "Incidence of lower-extremity cellulitis: a population-based study in Olmsted county, Minnesota.",
+      "record_journal": "Mayo Clin Proc",
+      "record_year": "2007",
+      "article_type": "Journal Article (population-based observational study)",
+      "retrieved_with": "PubMed get_article_metadata (abstract); Scite verify_papers",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "The \"70-80% of cases involve the lower extremity\" claim is not in this study (it counted only lower-extremity cases) and was removed; sentence rewritten to the study finding. Abstract-only.",
+      "claims": [
+        {
+          "text": "Lower-extremity cellulitis incidence 199 per 100,000 person-years in Olmsted County, rising with age",
+          "quote": "the incidence of lower-extremity cellulitis in Olmsted County was 199 per 100,000 person-years. [...] The incidence of cellulitis significantly increased with age (P<.001 in Poisson regression)",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "kind": "journal",
+      "cited_as": "Vella V, Derreumaux D, Aris E, et al. The Incidence of Skin and Soft Tissue Infections in the United States and Associated Healthcare Utilization Between 2010 and 2020. Open Forum Infect Dis. 2024;11(6):ofae267.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38835497/",
+      "pmid": "38835497",
+      "pmcid": "PMC11146672",
+      "doi": "10.1093/ofid/ofae267",
+      "record_title": "The Incidence of Skin and Soft Tissue Infections in the United States and Associated Healthcare Utilization Between 2010 and 2020.",
+      "record_journal": "Open Forum Infect Dis",
+      "record_year": "2024",
+      "article_type": "Journal Article (retrospective claims-based cohort)",
+      "retrieved_with": "PubMed get_article_metadata; PubMed get_full_text_article (PMC11146672); Scite verify_papers",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Old entry printed the wrong first author (\"Carratala J\") and wrong years (2012-2022). The \"more than 14 million outpatient visits\" and \"nearly fivefold\" claims are not in this paper and were rewritten to its figures. A WebFetch of the PMC page hit a reCAPTCHA check and was not pursued; full text came from the PubMed connector.",
+      "claims": [
+        {
+          "text": "U.S. insurance claims database 2010-2020: 5.4 million patients, 9.1 million SSTI episodes; abscesses and cellulitis most frequent types",
+          "quote": "claims data over 11 years (2010–2020) [...] 5.4 million patients experienced 9.1 million SSTI episodes [...] Abscesses and cellulitis were the most frequent type of SSTI",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        },
+        {
+          "text": "Past SSTI linked to the highest infection rate of any risk factor; 113.5 per 1,000 person-years with previous SSTI as only listed risk factor vs 32.1 with none",
+          "quote": "being highest in patients with a past history of SSTI (281.4 per 1000 PYO) [...] Previous SSTI [...] 113.5 (113.0–114.0) [...] No comorbidity [...] 32.1 (32.0–32.1)",
+          "quote_source": "full_text",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "kind": "other_web",
+      "cited_as": "MSD Manual Professional Edition. Differentiating Cellulitis and Deep Venous Thrombosis (table).",
+      "url": "https://www.msdmanuals.com/professional/multimedia/table/differentiating-cellulitis-and-deep-venous-thrombosis",
+      "version_or_date": "No revision date shown on the page; copyright 2026 Merck & Co., Inc. Read 2026-11-15.",
+      "retrieved_with": "WebFetch of official page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Previously listed but not cited inline. Now cited for the skin-findings comparison that the UBC page did not support. Tertiary clinical reference; quote is a transcript of table cells. The page does not say cellulitis redness is non-blanchable, so that wording was removed.",
+      "claims": [
+        {
+          "text": "DVT skin normal or red but blanchable with a smooth surface; cellulitis red with orange-peel texture; lymphangitis and regional nodes frequent with cellulitis, uncommon with DVT",
+          "quote": "Skin color: Erythematous | Normal or erythematous but blanchable (infrequently cyanotic). Skin surface: Peau d'orange | Smooth. Lymphangitis and regional lymphadenopathy: Frequent | Uncommon.",
+          "quote_source": "official_page",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "kind": "guideline",
+      "cited_as": "Lim W, Le Gal G, Bates SM, et al. American Society of Hematology 2018 guidelines for management of venous thromboembolism: diagnosis of venous thromboembolism. Blood Adv. 2018;2(22):3226-3256.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30482764/",
+      "pmid": "30482764",
+      "pmcid": "PMC6258916",
+      "doi": "10.1182/bloodadvances.2018024828",
+      "record_title": "American Society of Hematology 2018 guidelines for management of venous thromboembolism: diagnosis of venous thromboembolism.",
+      "record_journal": "Blood Adv",
+      "record_year": "2018",
+      "article_type": "Practice Guideline",
+      "version_or_date": "ASH 2018 guideline; systematic reviews to 1 October 2017",
+      "retrieved_with": "PubMed search_articles and get_article_metadata (abstract); Scite verify_papers",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "New source for the DVT testing statement (old [5] did not support it). Scite flagged one contrasting citation (10.1002/nop2.998) on D-dimer for PICC-associated upper-extremity DVT; the page only mentions D-dimer for low-risk leg DVT, consistent with the abstract. Abstract-only.",
+      "claims": [
+        {
+          "text": "Leg DVT is diagnosed with ultrasonography; at low risk, starting with D-dimer reduces the need for imaging",
+          "quote": "For patients at low (unlikely) VTE risk, using D-dimer as the initial test reduces the need for diagnostic imaging. [...] lower or upper extremity DVT diagnosis uses ultrasonography.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "kind": "journal",
+      "cited_as": "Thomas KS, Crook AM, Nunn AJ, et al. Penicillin to prevent recurrent leg cellulitis. N Engl J Med. 2013;368(18):1695-1703.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23635049/",
+      "pmid": "23635049",
+      "doi": "10.1056/NEJMoa1206300",
+      "record_title": "Penicillin to prevent recurrent leg cellulitis.",
+      "record_journal": "N Engl J Med",
+      "record_year": "2013",
+      "article_type": "Randomized Controlled Trial; Multicenter Study",
+      "retrieved_with": "PubMed search_articles and get_article_metadata (abstract); Scite verify_papers",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "New source: the page previously described the PATCH trial (\"about 45%\") with no citation. Replaced with the abstract figures (22% vs 37%). Abstract-only.",
+      "claims": [
+        {
+          "text": "PATCH I: 274 people with two or more leg cellulitis episodes; penicillin 250 mg twice daily for 12 months; recurrence 22% vs 37% with placebo during prophylaxis",
+          "quote": "study medications (penicillin [250 mg twice a day] or placebo for 12 months) [...] 30 of 136 participants in the penicillin group (22%) had a recurrence, as compared with 51 of 138 participants in the placebo group (37%)",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Protective effect faded after the drug was stopped; 274 patients",
+          "quote": "A total of 274 patients were recruited. [...] the protective effect diminished progressively once drug therapy was stopped.",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "kind": "journal",
+      "cited_as": "Weng QY, Raff AB, Cohen JM, et al. Costs and Consequences Associated With Misdiagnosed Lower Extremity Cellulitis. JAMA Dermatol. 2017;153(2):141-146.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27806170/",
+      "pmid": "27806170",
+      "doi": "10.1001/jamadermatol.2016.3816",
+      "record_title": "Costs and Consequences Associated With Misdiagnosed Lower Extremity Cellulitis.",
+      "record_journal": "JAMA Dermatol",
+      "record_year": "2017",
+      "article_type": "Journal Article (cross-sectional study)",
+      "retrieved_with": "PubMed get_article_metadata (abstract); Scite verify_papers",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "Old text said the misdiagnoses were \"usually\" inflammatory skin conditions; the abstract says such conditions are \"often\" misdiagnosed as cellulitis, so the wording was softened. The citable summary now says \"one hospital study\" instead of implying a general rate. Abstract-only.",
+      "claims": [
+        {
+          "text": "At a large urban hospital, 30.5% of patients admitted from the ED with lower-extremity cellulitis were misdiagnosed (body and citable summary)",
+          "quote": "patients admitted from the emergency department (ED) of a large urban hospital with a diagnosis of lower extremity cellulitis [...] Of 259 patients, 79 (30.5%) were misdiagnosed with cellulitis",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        },
+        {
+          "text": "Inflammatory skin conditions of the leg (pseudocellulitis) are often mistaken for cellulitis",
+          "quote": "Inflammatory dermatoses of the lower extremity are often misdiagnosed as cellulitis (aka \"pseudocellulitis\")",
+          "quote_source": "abstract",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "kind": "label",
+      "cited_as": "Doxycycline hyclate capsules. Prescribing information. Ajanta Pharma USA Inc. DailyMed.",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f18daceb-33a3-4931-9be7-ecd6356cc119",
+      "version_or_date": "DailyMed updated October 1, 2025 (Revised 10/2025)",
+      "retrieved_with": "WebFetch of DailyMed search and label page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "New source for the doxycycline food and pregnancy notes, which were previously uncited (\"Avoid in pregnancy\" reworded to what the label states).",
+      "claims": [
+        {
+          "text": "If it upsets the stomach, can be taken with food or milk",
+          "quote": "If gastric irritation occurs, it is recommended that doxycycline be given with food or milk.",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Use during tooth development, including the last half of pregnancy, can permanently discolor teeth",
+          "quote": "(last half of pregnancy, infancy and childhood to the age of 8 years) may cause permanent discoloration of the teeth",
+          "quote_source": "label",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "kind": "label",
+      "cited_as": "Dicloxacillin sodium capsules. Prescribing information. Aurobindo Pharma Limited. DailyMed.",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9074b5a6-850c-4144-9097-bb21073ee54d",
+      "version_or_date": "DailyMed updated December 27, 2023",
+      "retrieved_with": "WebFetch of DailyMed search and label page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "New source for the empty-stomach note, previously uncited.",
+      "claims": [
+        {
+          "text": "Best absorbed on an empty stomach",
+          "quote": "Dicloxacillin is best absorbed when taken on an empty stomach",
+          "quote_source": "label",
+          "verdict": "supported"
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "kind": "label",
+      "cited_as": "Clindamycin hydrochloride capsules. Prescribing information. Aurobindo Pharma Limited. DailyMed.",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2367340c-d297-4a3f-8253-6d27a0ed39cb",
+      "version_or_date": "DailyMed updated September 21, 2026 (Revised 09/2026)",
+      "retrieved_with": "WebFetch of DailyMed search and label page",
+      "retrieved_at": "2026-11-15",
+      "editorial_notices": [],
+      "notes": "New source for the C. difficile and D-zone notes, previously uncited. The label also lists 300 to 450 mg every 6 hours for more severe infections, consistent with the IDSA dose that replaced the page's \"three times daily\".",
+      "claims": [
+        {
+          "text": "Label warns about C. difficile infection, reported with nearly all antibiotics",
+          "quote": "Clostridioides difficile infection (CDI) has been reported with use of nearly all antibacterial agents",
+          "quote_source": "label",
+          "verdict": "supported"
+        },
+        {
+          "text": "Screen erythromycin-resistant staphylococci for inducible clindamycin resistance with the D-zone test",
+          "quote": "should be screened for induction of clindamycin resistance using the D-zone test.",
+          "quote_source": "label",
+          "verdict": "supported"
+        }
+      ]
+    }
+  ]
+}
